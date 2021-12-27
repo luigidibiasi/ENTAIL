@@ -1,0 +1,157 @@
+Query         PAMMAA
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 05:36:40 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/PAMMAA/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/PAMMAA/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6N3C_D TAR DNA-binding protein  88.0    0.28 3.1E-06   19.0   0.0    6    1-6      35-40  (46)
+  2 6N3A_J TAR DNA-binding protein  85.8    0.49 5.4E-06   18.9   0.0    6    1-6      10-15  (50)
+  3 2N2C_A TAR DNA-binding protein  74.8     2.3 2.6E-05   16.2   0.0    6    1-6      14-19  (43)
+  4 7KWZ_A Isoform 2 of TAR DNA-bi  72.4       3 3.3E-05   19.1   0.0    6    1-6      54-59  (148)
+  5 4DZO_A Mitotic spindle assembl  25.6      67 0.00074   12.9   0.0    6    1-6     106-111 (123)
+  6 7B1F_A mad1, bub1, mitotic che  24.0      75 0.00083   12.8   0.0    6    1-6     105-110 (122)
+  7 7B1F_B mad1, bub1, mitotic che  24.0      75 0.00083   12.8   0.0    6    1-6     105-110 (122)
+  8 5N0L_E GTP-sensing transcripti  20.0   1E+02  0.0011   10.4   0.0    5    1-5       2-6   (159)
+  9 1F7S_A ACTIN DEPOLYMERIZING FA  18.4 1.2E+02  0.0013   11.2   0.0    5    1-5       1-5   (139)
+ 10 6MTK_A Tryptophanyl-tRNA synth  18.3 1.2E+02  0.0013   13.1   0.0    6    1-6     135-140 (329)
+
+No 1
+>6N3C_D TAR DNA-binding protein 43; Amyloid, TDP43, ALS, FTLD-TDP, dna; 3.3A {Homo sapiens}
+Probab=88.03  E-value=0.28  Score=19.01  Aligned_cols=6  Identities=100%  Similarity=1.298  Sum_probs=0.0  Template_Neff=3.000
+
+Q PAMMAA            1 PAMMAA    6 (6)
+Q Consensus         1 pammaa    6 (6)
+                      ||||||
+T Consensus        35 pAmmAA   40 (46)
+T 6N3C_D           35 PAMMAA   40 (46)
+T ss_dssp             ------
+T ss_pred             HHHHHH
+Confidence            788886
+
+
+No 2
+>6N3A_J TAR DNA-binding protein 43, segA; Amyloid, TDP43, ALS, FTLD-TDP, dna; 3.3A {Homo sapiens}
+Probab=85.76  E-value=0.49  Score=18.89  Aligned_cols=6  Identities=100%  Similarity=1.298  Sum_probs=4.6  Template_Neff=2.200
+
+Q PAMMAA            1 PAMMAA    6 (6)
+Q Consensus         1 pammaa    6 (6)
+                      ||||||
+T Consensus        10 pAmmAA   15 (50)
+T 6N3A_J           10 PAMMAA   15 (50)
+T ss_dssp             CEEECC
+T ss_pred             HHHHHH
+Confidence            788875
+
+
+No 3
+>2N2C_A TAR DNA-binding protein 43; ALS, prion-like domain, hydrophobic helices; NMR {Homo sapiens}
+Probab=74.81  E-value=2.3  Score=16.23  Aligned_cols=6  Identities=100%  Similarity=1.298  Sum_probs=4.1  Template_Neff=3.300
+
+Q PAMMAA            1 PAMMAA    6 (6)
+Q Consensus         1 pammaa    6 (6)
+                      |||+||
+T Consensus        14 pAmvAA   19 (43)
+T 2N2C_A           14 PAMMAA   19 (43)
+T ss_dssp             SSHHHH
+T ss_pred             HHHHHH
+Confidence            677765
+
+
+No 4
+>7KWZ_A Isoform 2 of TAR DNA-binding; TDP-43, amyloid, neurodegenerative diseases, amyotropic; 3.2A {Homo sapiens}
+Probab=72.36  E-value=3  Score=19.11  Aligned_cols=6  Identities=100%  Similarity=1.298  Sum_probs=4.5  Template_Neff=2.900
+
+Q PAMMAA            1 PAMMAA    6 (6)
+Q Consensus         1 pammaa    6 (6)
+                      ||||||
+T Consensus        54 pAmvAA   59 (148)
+T 7KWZ_A           54 PAMMAA   59 (148)
+T ss_dssp             CCEEEE
+T ss_pred             HHHHHH
+Confidence            688875
+
+
+No 5
+>4DZO_A Mitotic spindle assembly checkpoint protein; homodimer, kinetochore, mitosis, spindle checkpoint; HET: MSE; 1.76A {Homo sapiens}
+Probab=25.59  E-value=67  Score=12.92  Aligned_cols=6  Identities=33%  Similarity=0.922  Sum_probs=3.0  Template_Neff=6.800
+
+Q PAMMAA            1 PAMMAA    6 (6)
+Q Consensus         1 pammaa    6 (6)
+                      ||++||
+T Consensus       106 P~FLaa  111 (123)
+T 4DZO_A          106 PAFLSS  111 (123)
+T ss_dssp             HHHHHH
+T ss_pred             cHHHHH
+Confidence            555543
+
+
+No 6
+>7B1F_A mad1, bub1, mitotic checkpoint complex; HET: SEP, TPO; 1.75A {Homo sapiens}
+Probab=24.01  E-value=75  Score=12.77  Aligned_cols=6  Identities=33%  Similarity=0.922  Sum_probs=2.9  Template_Neff=6.800
+
+Q PAMMAA            1 PAMMAA    6 (6)
+Q Consensus         1 pammaa    6 (6)
+                      |+++||
+T Consensus       105 P~FLaa  110 (122)
+T 7B1F_A          105 PAFLSS  110 (122)
+T ss_dssp             HHHHHH
+T ss_pred             cHHHHH
+Confidence            455543
+
+
+No 7
+>7B1F_B mad1, bub1, mitotic checkpoint complex; HET: TPO, SEP; 1.75A {Homo sapiens}
+Probab=24.01  E-value=75  Score=12.77  Aligned_cols=6  Identities=33%  Similarity=0.922  Sum_probs=2.9  Template_Neff=6.800
+
+Q PAMMAA            1 PAMMAA    6 (6)
+Q Consensus         1 pammaa    6 (6)
+                      |+++||
+T Consensus       105 P~FLaa  110 (122)
+T 7B1F_B          105 PAFLSS  110 (122)
+T ss_dssp             HHHHHH
+T ss_pred             cHHHHH
+Confidence            455543
+
+
+No 8
+>5N0L_E GTP-sensing transcriptional pleiotropic repressor CodY; Nutrient sensor, transcription regulation, GAF; HET: ILE; 1.68A {Clostridioides difficile}
+Probab=19.98  E-value=1e+02  Score=10.40  Aligned_cols=5  Identities=60%  Similarity=0.979  Sum_probs=0.0  Template_Neff=11.600
+
+Q PAMMAA            1 PAMMA    5 (6)
+Q Consensus         1 pamma    5 (6)
+                      |||+.
+T Consensus         2 ~~~~~    6 (159)
+T 5N0L_E            2 PAMAS    6 (159)
+T ss_dssp             --CCC
+T ss_pred             chhHH
+
+
+No 9
+>1F7S_A ACTIN DEPOLYMERIZING FACTOR 1; KINK IN ALPHA-HELIX 3, PLANT; HET: LDA; 2.0A {Arabidopsis thaliana} SCOP: d.109.1.2
+Probab=18.42  E-value=1.2e+02  Score=11.19  Aligned_cols=5  Identities=40%  Similarity=-0.031  Sum_probs=0.0  Template_Neff=9.400
+
+Q PAMMAA            1 PAMMA    5 (6)
+Q Consensus         1 pamma    5 (6)
+                      |+||+
+T Consensus         1 ~~~~~    5 (139)
+T 1F7S_A            1 MANAA    5 (139)
+T ss_dssp             ----C
+T ss_pred             CCCcC
+
+
+No 10
+>6MTK_A Tryptophanyl-tRNA synthetase (E.C.6.1.1.2); SSGCID, Structural Genomics, Elizabethkingia anophelis; 2.0A {Elizabethkingia anophelis NUHP1}
+Probab=18.33  E-value=1.2e+02  Score=13.09  Aligned_cols=6  Identities=67%  Similarity=1.038  Sum_probs=0.0  Template_Neff=8.800
+
+Q PAMMAA            1 PAMMAA    6 (6)
+Q Consensus         1 pammaa    6 (6)
+                      |.||+|
+T Consensus       135 P~lqaa  140 (329)
+T 6MTK_A          135 PILMAA  140 (329)
+T ss_dssp             HHHHHH
+T ss_pred             hHHHHH
+
+

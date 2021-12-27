@@ -1,0 +1,148 @@
+Query         NINNSI
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 01:17:06 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NINNSI/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NINNSI/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 1AEP_A APOLIPOPHORIN III; LIPO  25.5      68 0.00075   15.3   0.0    6    1-6      80-85  (161)
+  2 1LS4_A Apolipophorin-III; Heli  24.2      74 0.00082   15.4   0.0    6    1-6      99-104 (180)
+  3 7MOQ_T cilia, doublet, axoneme   9.8 2.9E+02  0.0033   12.4   0.0    6    1-6      93-98  (309)
+  4 6DRT_B DNA polymerase accessor   9.7   3E+02  0.0033   13.1   0.0    5    2-6      17-21  (236)
+  5 3U60_G DNA polymerase accessor   9.6   3E+02  0.0034   13.0   0.0    5    2-6      17-21  (228)
+  6 1B77_C SLIDING CLAMP; SLIDING    9.5 3.1E+02  0.0034   13.0   0.0    5    2-6      17-21  (228)
+  7 5TUV_C Transcription factor DP   9.4 3.1E+02  0.0034   10.0   0.0    6    1-6      26-31  (41)
+  8 6O40_B Fusion glycoprotein F0;   9.2 3.2E+02  0.0036    9.8   0.0    6    1-6      15-20  (38)
+  9 5ZVM_c Human Coronavirus SARS    8.9 3.4E+02  0.0037   10.4   0.0    6    1-6      31-36  (44)
+ 10 5ZVM_b Human Coronavirus SARS    8.7 3.5E+02  0.0039   10.4   0.0    6    1-6      31-36  (44)
+
+No 1
+>1AEP_A APOLIPOPHORIN III; LIPOPROTEIN; 2.7A {Locusta migratoria} SCOP: a.63.1.1
+Probab=25.47  E-value=68  Score=15.34  Aligned_cols=6  Identities=83%  Similarity=1.132  Sum_probs=3.3  Template_Neff=1.000
+
+Q NINNSI            1 NINNSI    6 (6)
+Q Consensus         1 ninnsi    6 (6)
+                      |+||||
+T Consensus        80 nlnnsi   85 (161)
+T 1AEP_A           80 NLNNSI   85 (161)
+T ss_dssp             HHHHTT
+T ss_pred             HhhhhH
+Confidence            456664
+
+
+No 2
+>1LS4_A Apolipophorin-III; Helix-bundle, exchangeable apolipoprotein, LIPID TRANSPORT; NMR {Locusta migratoria} SCOP: a.63.1.1
+Probab=24.18  E-value=74  Score=15.43  Aligned_cols=6  Identities=83%  Similarity=1.132  Sum_probs=3.3  Template_Neff=1.000
+
+Q NINNSI            1 NINNSI    6 (6)
+Q Consensus         1 ninnsi    6 (6)
+                      |+||||
+T Consensus        99 nlnnsi  104 (180)
+T 1LS4_A           99 NLNNSI  104 (180)
+Confidence            456664
+
+
+No 3
+>7MOQ_T cilia, doublet, axoneme, outer dynein; HET: ADP, GTP, GDP, ATP;{Tetrahymena thermophila CU428}
+Probab=9.80  E-value=2.9e+02  Score=12.37  Aligned_cols=6  Identities=67%  Similarity=0.656  Sum_probs=0.0  Template_Neff=7.700
+
+Q NINNSI            1 NINNSI    6 (6)
+Q Consensus         1 ninnsi    6 (6)
+                      |.|||+
+T Consensus        93 ~~~~~~   98 (309)
+T 7MOQ_T           93 NFNNSN   98 (309)
+T ss_dssp             -----C
+T ss_pred             cccCCC
+
+
+No 4
+>6DRT_B DNA polymerase accessory protein G45; HYDROLASE, processivity clamp, GENE REGULATION; HET: EDO; 2.117A {Enterobacteria phage T4}
+Probab=9.74  E-value=3e+02  Score=13.12  Aligned_cols=5  Identities=60%  Similarity=0.873  Sum_probs=0.0  Template_Neff=4.900
+
+Q NINNSI            2 INNSI    6 (6)
+Q Consensus         2 innsi    6 (6)
+                      ||.||
+T Consensus        17 IN~SI   21 (236)
+T 6DRT_B           17 INSGI   21 (236)
+T ss_dssp             HCSCE
+T ss_pred             cCCCc
+
+
+No 5
+>3U60_G DNA polymerase accessory protein 44; AAA+, ATP hydrolase, sliding clamp; HET: ADP, MSE, 08T; 3.34A {Enterobacteria phage T4}
+Probab=9.59  E-value=3e+02  Score=12.99  Aligned_cols=5  Identities=60%  Similarity=0.873  Sum_probs=0.0  Template_Neff=5.000
+
+Q NINNSI            2 INNSI    6 (6)
+Q Consensus         2 innsi    6 (6)
+                      ||.||
+T Consensus        17 IN~SI   21 (228)
+T 3U60_G           17 INSGI   21 (228)
+T ss_pred             cCCCc
+
+
+No 6
+>1B77_C SLIDING CLAMP; SLIDING CLAMP, GP45, REPLISOME; 2.1A {Enterobacteria phage RB69} SCOP: d.131.1.2
+Probab=9.50  E-value=3.1e+02  Score=12.98  Aligned_cols=5  Identities=60%  Similarity=0.873  Sum_probs=0.0  Template_Neff=5.000
+
+Q NINNSI            2 INNSI    6 (6)
+Q Consensus         2 innsi    6 (6)
+                      ||.||
+T Consensus        17 IN~SI   21 (228)
+T 1B77_C           17 INSGI   21 (228)
+T ss_dssp             HCSCE
+T ss_pred             cCCce
+
+
+No 7
+>5TUV_C Transcription factor DP1, Transcription factor; Transcription factor, cell-cycle regulation, TRANSCRIPTION; 2.9A {Homo sapiens}
+Probab=9.43  E-value=3.1e+02  Score=10.05  Aligned_cols=6  Identities=67%  Similarity=0.911  Sum_probs=0.0  Template_Neff=4.500
+
+Q NINNSI            1 NINNSI    6 (6)
+Q Consensus         1 ninnsi    6 (6)
+                      .||+.|
+T Consensus        26 ~IN~Mi   31 (41)
+T 5TUV_C           26 DINNMI   31 (41)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 8
+>6O40_B Fusion glycoprotein F0; Fusion protein, fusion inhibitor, six-helix; 1.2A {N/A}
+Probab=9.16  E-value=3.2e+02  Score=9.79  Aligned_cols=6  Identities=17%  Similarity=0.528  Sum_probs=0.0  Template_Neff=4.700
+
+Q NINNSI            1 NINNSI    6 (6)
+Q Consensus         1 ninnsi    6 (6)
+                      ++|+|+
+T Consensus        15 ~in~sl   20 (38)
+T 6O40_B           15 KIKSQL   20 (38)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 9
+>5ZVM_c Human Coronavirus SARS HR1 motif; SARS, Spike protein, S2 domain; 3.3A {Human SARS coronavirus}
+Probab=8.90  E-value=3.4e+02  Score=10.44  Aligned_cols=6  Identities=17%  Similarity=0.385  Sum_probs=0.0  Template_Neff=3.500
+
+Q NINNSI            1 NINNSI    6 (6)
+Q Consensus         1 ninnsi    6 (6)
+                      ++|+|+
+T Consensus        31 ~LN~s~   36 (44)
+T 5ZVM_c           31 KLEESY   36 (44)
+T ss_dssp             HHHTTC
+T ss_pred             HHHhhc
+
+
+No 10
+>5ZVM_b Human Coronavirus SARS HR1 motif; SARS, Spike protein, S2 domain; 3.3A {Human SARS coronavirus}
+Probab=8.67  E-value=3.5e+02  Score=10.40  Aligned_cols=6  Identities=17%  Similarity=0.385  Sum_probs=0.0  Template_Neff=3.500
+
+Q NINNSI            1 NINNSI    6 (6)
+Q Consensus         1 ninnsi    6 (6)
+                      ++|+|+
+T Consensus        31 ~LN~s~   36 (44)
+T 5ZVM_b           31 KLEESY   36 (44)
+T ss_pred             HHHhhc
+
+

@@ -1,0 +1,145 @@
+Query         QQYNPQ
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 10:22:00 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QQYNPQ/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QQYNPQ/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4HX2_B KerA (E.C.3.4.21.62), N  15.9 1.5E+02  0.0016   12.3   0.0    6    1-6      72-77  (114)
+  2 6I0I_A Papain inhibitor; MTG,   15.4 1.5E+02  0.0017   12.2   0.0    6    1-6      68-73  (108)
+  3 2TLD_I BOVINE TRYPSIN (E.C.3.4  14.6 1.7E+02  0.0018   12.1   0.0    6    1-6      70-75  (110)
+  4 7BG8_B Structural polyprotein;  14.6 1.7E+02  0.0018   13.4   0.0    5    1-5     299-303 (311)
+  5 7BGK_B Structural polyprotein;  14.6 1.7E+02  0.0018   13.4   0.0    5    1-5     299-303 (311)
+  6 4IEF_C Gingipain R2 Pro-Domain  14.4 1.7E+02  0.0019   12.2   0.0    4    2-5     155-158 (210)
+  7 4HWX_A Neutral proteinase inhi  13.8 1.8E+02   0.002   12.1   0.0    6    1-6      72-77  (114)
+  8 5TX1_V Hexon protein, Penton,   12.5 2.1E+02  0.0023   13.9   0.0    5    2-6      12-16  (227)
+  9 1H20_A METALLOCARBOXYPEPTIDASE  12.4 2.1E+02  0.0023   11.2   0.0    5    1-5       2-6   (39)
+ 10 6CGV_U Hexon protein, Penton p  12.3 2.1E+02  0.0024   13.9   0.0    5    2-6      12-16  (227)
+
+No 1
+>4HX2_B KerA (E.C.3.4.21.62), Neutral proteinase inhibitor; Streptomyces subtilisin inhibitor fold, Subtilisin; HET: GOL, IPA, 1AX; 2.25A {Bacillus licheniformis}
+Probab=15.88  E-value=1.5e+02  Score=12.34  Aligned_cols=6  Identities=17%  Similarity=0.595  Sum_probs=0.0  Template_Neff=5.700
+
+Q QQYNPQ            1 QQYNPQ    6 (6)
+Q Consensus         1 qqynpq    6 (6)
+                      ++|.|+
+T Consensus        72 ~~y~Pv   77 (114)
+T 4HX2_B           72 MYFDPV   77 (114)
+T ss_dssp             CCCCCE
+T ss_pred             ceecCE
+
+
+No 2
+>6I0I_A Papain inhibitor; MTG, microbial transglutaminase  SIL; 1.448A {Streptomyces mobaraensis NBRC 13819 = DSM 40847}
+Probab=15.41  E-value=1.5e+02  Score=12.19  Aligned_cols=6  Identities=33%  Similarity=0.894  Sum_probs=0.0  Template_Neff=5.700
+
+Q QQYNPQ            1 QQYNPQ    6 (6)
+Q Consensus         1 qqynpq    6 (6)
+                      ++|+|+
+T Consensus        68 ~~y~Pv   73 (108)
+T 6I0I_A           68 KEWNPF   73 (108)
+T ss_dssp             -----E
+T ss_pred             ceecCE
+
+
+No 3
+>2TLD_I BOVINE TRYPSIN (E.C.3.4.21.4) COMPLEX WITH; PROTEINASE, HYDROLASE-HYDROLASE INHIBITOR COMPLEX, TRYPSIN); 2.6A {Bos taurus} SCOP: d.84.1.1
+Probab=14.63  E-value=1.7e+02  Score=12.08  Aligned_cols=6  Identities=33%  Similarity=0.894  Sum_probs=0.0  Template_Neff=5.800
+
+Q QQYNPQ            1 QQYNPQ    6 (6)
+Q Consensus         1 qqynpq    6 (6)
+                      ++|.|+
+T Consensus        70 ~~y~Pv   75 (110)
+T 2TLD_I           70 KVYDPV   75 (110)
+T ss_pred             ceecCE
+
+
+No 4
+>7BG8_B Structural polyprotein; Viruses, Riboviria, Orthornavirae, Pisuviricota, Pisoniviricetes; 3.9A {Kashmir bee virus}
+Probab=14.60  E-value=1.7e+02  Score=13.40  Aligned_cols=5  Identities=80%  Similarity=1.570  Sum_probs=0.0  Template_Neff=7.100
+
+Q QQYNPQ            1 QQYNP    5 (6)
+Q Consensus         1 qqynp    5 (6)
+                      .||||
+T Consensus       299 ~~~~~  303 (311)
+T 7BG8_B          299 EQYNP  303 (311)
+T ss_pred             HHhCc
+
+
+No 5
+>7BGK_B Structural polyprotein; Viruses, Riboviria, Orthornavirae, Pisuviricota, Pisoniviricetes;{Kashmir bee virus}
+Probab=14.60  E-value=1.7e+02  Score=13.40  Aligned_cols=5  Identities=80%  Similarity=1.570  Sum_probs=0.0  Template_Neff=7.100
+
+Q QQYNPQ            1 QQYNP    5 (6)
+Q Consensus         1 qqynp    5 (6)
+                      .||||
+T Consensus       299 ~~~~~  303 (311)
+T 7BGK_B          299 EQYNP  303 (311)
+T ss_pred             HHhCc
+
+
+No 6
+>4IEF_C Gingipain R2 Pro-Domain, Gingipain R2; alpha/beta/alpha sandwich, cysteine endopeptidase, HYDROLASE; HET: CA; 2.3A {Porphyromonas gingivalis}
+Probab=14.38  E-value=1.7e+02  Score=12.16  Aligned_cols=4  Identities=100%  Similarity=1.821  Sum_probs=0.0  Template_Neff=8.100
+
+Q QQYNPQ            2 QYNP    5 (6)
+Q Consensus         2 qynp    5 (6)
+                      ||||
+T Consensus       155 qY~P  158 (210)
+T 4IEF_C          155 QYNP  158 (210)
+T ss_dssp             EEET
+T ss_pred             eEeC
+
+
+No 7
+>4HWX_A Neutral proteinase inhibitor ScNPI; Streptomyces subtilisin inhibitor fold, Hydrolase; HET: ACT; 1.9A {Streptomyces caespitosus}
+Probab=13.79  E-value=1.8e+02  Score=12.13  Aligned_cols=6  Identities=17%  Similarity=0.595  Sum_probs=0.0  Template_Neff=5.600
+
+Q QQYNPQ            1 QQYNPQ    6 (6)
+Q Consensus         1 qqynpq    6 (6)
+                      ++|.|+
+T Consensus        72 ~~y~Pv   77 (114)
+T 4HWX_A           72 MYFDPV   77 (114)
+T ss_dssp             CCCCCE
+T ss_pred             ceecCE
+
+
+No 8
+>5TX1_V Hexon protein, Penton, Fiber, PIIIa; human adenovirus 26, hexon, penton; 3.7A {Human adenovirus 26}
+Probab=12.53  E-value=2.1e+02  Score=13.88  Aligned_cols=5  Identities=60%  Similarity=1.265  Sum_probs=0.0  Template_Neff=4.000
+
+Q QQYNPQ            2 QYNPQ    6 (6)
+Q Consensus         2 qynpq    6 (6)
+                      +||||
+T Consensus        12 ~YqPq   16 (227)
+T 5TX1_V           12 SYQPQ   16 (227)
+T ss_pred             ccCCC
+
+
+No 9
+>1H20_A METALLOCARBOXYPEPTIDASE INHIBITOR; INHIBITOR, METALLOENZYME INHIBITOR, PLANT DEFENSE; NMR {SOLANUM TUBEROSUM} SCOP: g.3.2.1
+Probab=12.39  E-value=2.1e+02  Score=11.19  Aligned_cols=5  Identities=40%  Similarity=0.767  Sum_probs=0.0  Template_Neff=1.700
+
+Q QQYNPQ            1 QQYNP    5 (6)
+Q Consensus         1 qqynp    5 (6)
+                      |||.|
+T Consensus         2 ~q~Dp    6 (39)
+T 1H20_A            2 QHADP    6 (39)
+T ss_dssp             CCCCS
+T ss_pred             CCCCC
+
+
+No 10
+>6CGV_U Hexon protein, Penton protein, Pre-hexon-linking; Human adenovirus Crystal structure Ad5F35; 3.8A {Human adenovirus C serotype 5}
+Probab=12.35  E-value=2.1e+02  Score=13.85  Aligned_cols=5  Identities=60%  Similarity=1.265  Sum_probs=0.0  Template_Neff=4.000
+
+Q QQYNPQ            2 QYNPQ    6 (6)
+Q Consensus         2 qynpq    6 (6)
+                      +||||
+T Consensus        12 ~YqPq   16 (227)
+T 6CGV_U           12 SYQPQ   16 (227)
+T ss_pred             ccCCC
+
+

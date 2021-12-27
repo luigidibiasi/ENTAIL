@@ -1,0 +1,156 @@
+Query         KSNFLN
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 12:15:17 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/KSNFLN/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/KSNFLN/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6XJO_A Atlastin-3 (E.C.3.6.5.-  32.2      43 0.00048   14.1   0.0    6    1-6      73-78  (334)
+  2 6XJO_B GTPase, fusogen, HYDROL  32.2      43 0.00048   14.1   0.0    6    1-6      73-78  (334)
+  3 2YV5_A YjeQ protein; HYDROLASE  31.8      45 0.00049   13.8   0.0    6    1-6     178-183 (302)
+  4 5VGR_B Atlastin-3 (E.C.3.6.5.-  26.8      62 0.00068   13.7   0.0    6    1-6      53-58  (431)
+  5 6B9G_D Atlastin-1 (E.C.3.6.5.-  23.0      81  0.0009   13.6   0.0    6    1-6      81-86  (340)
+  6 5VGR_A Atlastin-3 (E.C.3.6.5.-  21.7      90 0.00099   13.5   0.0    6    1-6      53-58  (431)
+  7 5M7H_A GTPase Der; GTPase, Eng  20.8      96  0.0011   12.7   0.0    6    1-6      16-21  (436)
+  8 5DI3_B ADP-ribosylation factor  20.0   1E+02  0.0011   11.4   0.0    6    1-6      17-22  (263)
+  9 2Q21_A C-H-RAS P21 PROTEIN CAT  19.9   1E+02  0.0011   10.2   0.0    6    1-6      16-21  (171)
+ 10 3W5J_B Ferrous iron transport   19.8   1E+02  0.0011   11.4   0.0    6    1-6      16-21  (204)
+
+No 1
+>6XJO_A Atlastin-3 (E.C.3.6.5.-); GTPase, fusogen, HYDROLASE; HET: GDP; 2.1A {Homo sapiens}
+Probab=32.15  E-value=43  Score=14.07  Aligned_cols=6  Identities=50%  Similarity=0.529  Sum_probs=2.7  Template_Neff=9.300
+
+Q KSNFLN            1 KSNFLN    6 (6)
+Q Consensus         1 ksnfln    6 (6)
+                      ||.+||
+T Consensus        73 KStllN   78 (334)
+T 6XJO_A           73 KSFILD   78 (334)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            444443
+
+
+No 2
+>6XJO_B GTPase, fusogen, HYDROLASE; HET: GDP; 2.1A {Homo sapiens}
+Probab=32.15  E-value=43  Score=14.07  Aligned_cols=6  Identities=50%  Similarity=0.529  Sum_probs=2.7  Template_Neff=9.300
+
+Q KSNFLN            1 KSNFLN    6 (6)
+Q Consensus         1 ksnfln    6 (6)
+                      ||.+||
+T Consensus        73 KStllN   78 (334)
+T 6XJO_B           73 KSFILD   78 (334)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            444443
+
+
+No 3
+>2YV5_A YjeQ protein; HYDROLASE, GTPASE, PERMUTATION, Structural Genomics; HET: GDP; 1.9A {Aquifex aeolicus}
+Probab=31.77  E-value=45  Score=13.79  Aligned_cols=6  Identities=50%  Similarity=0.678  Sum_probs=2.6  Template_Neff=9.400
+
+Q KSNFLN            1 KSNFLN    6 (6)
+Q Consensus         1 ksnfln    6 (6)
+                      ||.++|
+T Consensus       178 KSslin  183 (302)
+T 2YV5_A          178 KSSILS  183 (302)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            344443
+
+
+No 4
+>5VGR_B Atlastin-3 (E.C.3.6.5.-); G proteins, GTPase, membrane fusion; HET: GDP; 2.096A {Homo sapiens}
+Probab=26.77  E-value=62  Score=13.68  Aligned_cols=6  Identities=50%  Similarity=0.529  Sum_probs=2.5  Template_Neff=10.100
+
+Q KSNFLN            1 KSNFLN    6 (6)
+Q Consensus         1 ksnfln    6 (6)
+                      ||.|+|
+T Consensus        53 KS~llN   58 (431)
+T 5VGR_B           53 KSFILD   58 (431)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            344443
+
+
+No 5
+>6B9G_D Atlastin-1 (E.C.3.6.5.-); GTPase, dynamin related protein, GTPase; HET: GDP; 3.0A {Homo sapiens}
+Probab=22.97  E-value=81  Score=13.56  Aligned_cols=6  Identities=33%  Similarity=0.517  Sum_probs=2.5  Template_Neff=8.900
+
+Q KSNFLN            1 KSNFLN    6 (6)
+Q Consensus         1 ksnfln    6 (6)
+                      ||.|+|
+T Consensus        81 KStllN   86 (340)
+T 6B9G_D           81 KSFLMD   86 (340)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            344443
+
+
+No 6
+>5VGR_A Atlastin-3 (E.C.3.6.5.-); G proteins, GTPase, membrane fusion; HET: GDP; 2.096A {Homo sapiens}
+Probab=21.68  E-value=90  Score=13.46  Aligned_cols=6  Identities=50%  Similarity=0.529  Sum_probs=2.4  Template_Neff=9.700
+
+Q KSNFLN            1 KSNFLN    6 (6)
+Q Consensus         1 ksnfln    6 (6)
+                      ||.+||
+T Consensus        53 KS~llN   58 (431)
+T 5VGR_A           53 KSFILD   58 (431)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            344443
+
+
+No 7
+>5M7H_A GTPase Der; GTPase, EngA, HYDROLASE; HET: PO4, GNP; 3.15A {Bacillus subtilis (strain 168)}
+Probab=20.75  E-value=96  Score=12.68  Aligned_cols=6  Identities=50%  Similarity=0.706  Sum_probs=2.7  Template_Neff=11.000
+
+Q KSNFLN            1 KSNFLN    6 (6)
+Q Consensus         1 ksnfln    6 (6)
+                      ||.|+|
+T Consensus        16 KSsl~n   21 (436)
+T 5M7H_A           16 KSTIFN   21 (436)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            444443
+
+
+No 8
+>5DI3_B ADP-ribosylation factor-like protein 13B, ARF-like; G-protein, ADP ribosylation like protein; HET: GNP; 2.5A {Chlamydomonas reinhardtii}
+Probab=19.99  E-value=1e+02  Score=11.45  Aligned_cols=6  Identities=50%  Similarity=0.833  Sum_probs=0.0  Template_Neff=11.400
+
+Q KSNFLN            1 KSNFLN    6 (6)
+Q Consensus         1 ksnfln    6 (6)
+                      ||.|+|
+T Consensus        17 Kssl~~   22 (263)
+T 5DI3_B           17 KTTLLN   22 (263)
+T ss_pred             HHHHHH
+
+
+No 9
+>2Q21_A C-H-RAS P21 PROTEIN CATALYTIC DOMAIN; ONCOGENE PROTEIN; HET: GDP; 2.2A {Homo sapiens} SCOP: c.37.1.8
+Probab=19.92  E-value=1e+02  Score=10.20  Aligned_cols=6  Identities=33%  Similarity=0.169  Sum_probs=0.0  Template_Neff=12.200
+
+Q KSNFLN            1 KSNFLN    6 (6)
+Q Consensus         1 ksnfln    6 (6)
+                      ||.+++
+T Consensus        16 Kssl~~   21 (171)
+T 2Q21_A           16 KSALTI   21 (171)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 10
+>3W5J_B Ferrous iron transport protein B; G PROTEIN, IRON TRANSPORT, GTPASE; HET: GDP; 1.932A {Gallionella capsiferriformans}
+Probab=19.83  E-value=1e+02  Score=11.45  Aligned_cols=6  Identities=50%  Similarity=0.761  Sum_probs=0.0  Template_Neff=10.500
+
+Q KSNFLN            1 KSNFLN    6 (6)
+Q Consensus         1 ksnfln    6 (6)
+                      ||.|+|
+T Consensus        16 Kstli~   21 (204)
+T 3W5J_B           16 KSTLFN   21 (204)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+

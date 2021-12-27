@@ -1,0 +1,144 @@
+Query         IITVTN
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 08:30:01 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/IITVTN/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/IITVTN/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5FDV_1k 50S ribosomal protein   10.6 2.6E+02  0.0029   10.9   0.0    6    1-6      17-22  (114)
+  2 7JIL_p Unknown protein fragmen  10.5 2.7E+02   0.003   11.2   0.0    6    1-6      29-34  (127)
+  3 1N1V_A Sialidase (E.C.3.2.1.18  10.3 2.8E+02  0.0031   13.4   0.0    5    2-6     604-608 (641)
+  4 5DXF_B trehalose-6-phosphate p  10.2 2.8E+02  0.0031   12.4   0.0    6    1-6      33-38  (534)
+  5 5LQD_B Alpha,alpha-trehalose-p  10.2 2.8E+02  0.0031   11.6   0.0    6    1-6      17-22  (465)
+  6 6S0X_k 50S ribosomal protein L  10.2 2.8E+02  0.0031   10.6   0.0    6    1-6      17-22  (114)
+  7 4UER_K EIF1A, ES28, ES8, ES7,   10.2 2.8E+02  0.0031   11.3   0.0    6    1-6      17-22  (127)
+  8 6T4Q_SO 40S ribosomal protein   10.2 2.8E+02  0.0031   11.3   0.0    6    1-6      17-22  (127)
+  9 3ISY_A Intracellular proteinas  10.1 2.8E+02  0.0031   10.4   0.0    5    2-6      24-28  (120)
+ 10 6ZU5_SO0 uL2, uL15, uL3, eL29,   9.7   3E+02  0.0033   11.2   0.0    6    1-6      25-30  (135)
+
+No 1
+>5FDV_1k 50S ribosomal protein L2, 50S; bacterial ribosome, proline-rich antimicrobial peptide; HET: OMU, 2MG, SF4, OMC, 2MA, OMG, PSU, 0TD, 5MC, 4OC, MG, G7M, MA6, ZN, UR3, M2G, 5MU; 2.8A {Thermus thermophilus HB8}
+Probab=10.59  E-value=2.6e+02  Score=10.87  Aligned_cols=6  Identities=50%  Similarity=0.966  Sum_probs=0.0  Template_Neff=7.400
+
+Q IITVTN            1 IITVTN    6 (6)
+Q Consensus         1 iitvtn    6 (6)
+                      +|++|+
+T Consensus        17 ~it~td   22 (114)
+T 5FDV_1k          17 IVTITD   22 (114)
+T ss_pred             EEEEEc
+
+
+No 2
+>7JIL_p Unknown protein fragment, Uncharacterized protein; Translation Initiation, Protein synthesis, bS21; HET: MG; 2.8A {Flavobacterium johnsoniae}
+Probab=10.49  E-value=2.7e+02  Score=11.23  Aligned_cols=6  Identities=67%  Similarity=0.977  Sum_probs=0.0  Template_Neff=7.000
+
+Q IITVTN            1 IITVTN    6 (6)
+Q Consensus         1 iitvtn    6 (6)
+                      +|++|+
+T Consensus        29 ~it~td   34 (127)
+T 7JIL_p           29 IISLTN   34 (127)
+T ss_pred             EEEEEe
+
+
+No 3
+>1N1V_A Sialidase (E.C.3.2.1.18); BETA PROPELLER, LECTIN-LIKE FOLD, Hydrolase; HET: SO4, DAN; 2.1A {Trypanosoma rangeli} SCOP: b.68.1.1, b.29.1.15
+Probab=10.28  E-value=2.8e+02  Score=13.38  Aligned_cols=5  Identities=80%  Similarity=1.019  Sum_probs=0.0  Template_Neff=8.500
+
+Q IITVTN            2 ITVTN    6 (6)
+Q Consensus         2 itvtn    6 (6)
+                      +||+|
+T Consensus       604 vtv~n  608 (641)
+T 1N1V_A          604 VTVTN  608 (641)
+T ss_dssp             EEEEE
+T ss_pred             eeEEE
+
+
+No 4
+>5DXF_B trehalose-6-phosphate phosphatase (E.C.2.4.1.15); trehalose-6-phosphate phosphatase, HYDROLASE; 2.563A {Candida albicans (strain SC5314 / ATCC MYA-2876)}
+Probab=10.19  E-value=2.8e+02  Score=12.39  Aligned_cols=6  Identities=33%  Similarity=0.589  Sum_probs=0.0  Template_Neff=9.800
+
+Q IITVTN            1 IITVTN    6 (6)
+Q Consensus         1 iitvtn    6 (6)
+                      +|.|+|
+T Consensus        33 ~i~v~~   38 (534)
+T 5DXF_B           33 ILNVMT   38 (534)
+T ss_dssp             EEEEEE
+T ss_pred             EEEEec
+
+
+No 5
+>5LQD_B Alpha,alpha-trehalose-phosphate synthase (E.C.2.4.1.15); glycosyltransferase, transferase; HET: MES, EDO; 1.95A {Streptomyces venezuelae (strain ATCC 10712 / CBS 650.69 / DSM 40230 / JCM 4526 / NBRC 13096 / PD 04745)}
+Probab=10.15  E-value=2.8e+02  Score=11.64  Aligned_cols=6  Identities=17%  Similarity=0.628  Sum_probs=0.0  Template_Neff=10.800
+
+Q IITVTN            1 IITVTN    6 (6)
+Q Consensus         1 iitvtn    6 (6)
+                      +|.|+|
+T Consensus        17 ~i~vs~   22 (465)
+T 5LQD_B           17 VLVASN   22 (465)
+T ss_dssp             EEEECS
+T ss_pred             EEEEEc
+
+
+No 6
+>6S0X_k 50S ribosomal protein L2, 50S; Ribosome, antibiotics, resistance, Staphylococcus aureus; HET: ERY; 2.425A {Staphylococcus aureus}
+Probab=10.15  E-value=2.8e+02  Score=10.57  Aligned_cols=6  Identities=50%  Similarity=0.966  Sum_probs=0.0  Template_Neff=7.900
+
+Q IITVTN            1 IITVTN    6 (6)
+Q Consensus         1 iitvtn    6 (6)
+                      ++++|+
+T Consensus        17 ~itltd   22 (114)
+T 6S0X_k           17 IVTITD   22 (114)
+T ss_pred             EEEEEe
+
+
+No 7
+>4UER_K EIF1A, ES28, ES8, ES7, ES1; EIF3, TRANSLATION INITIATION, TRANSLATION; 6.47A {LACHANCEA KLUYVERI}
+Probab=10.15  E-value=2.8e+02  Score=11.31  Aligned_cols=6  Identities=33%  Similarity=0.661  Sum_probs=0.0  Template_Neff=6.700
+
+Q IITVTN            1 IITVTN    6 (6)
+Q Consensus         1 iitvtn    6 (6)
+                      +|++|+
+T Consensus        17 ~itltd   22 (127)
+T 4UER_K           17 FVHVTD   22 (127)
+T ss_pred             EEEEEe
+
+
+No 8
+>6T4Q_SO 40S ribosomal protein S1-A, 40S; stalling dicodon codon pair, TRANSLATION; HET: MG; 2.6A {Saccharomyces cerevisiae}
+Probab=10.15  E-value=2.8e+02  Score=11.31  Aligned_cols=6  Identities=33%  Similarity=0.661  Sum_probs=0.0  Template_Neff=6.700
+
+Q IITVTN            1 IITVTN    6 (6)
+Q Consensus         1 iitvtn    6 (6)
+                      +|++|+
+T Consensus        17 ~itltd   22 (127)
+T 6T4Q_SO          17 FVHVTD   22 (127)
+T ss_pred             EEEEEe
+
+
+No 9
+>3ISY_A Intracellular proteinase inhibitor; Intracellular proteinase inhibitor bsupi, beta; HET: PG4; 2.61A {Bacillus subtilis}
+Probab=10.05  E-value=2.8e+02  Score=10.36  Aligned_cols=5  Identities=20%  Similarity=0.647  Sum_probs=0.0  Template_Neff=8.500
+
+Q IITVTN            2 ITVTN    6 (6)
+Q Consensus         2 itvtn    6 (6)
+                      ++++|
+T Consensus        24 ~tv~N   28 (120)
+T 3ISY_A           24 MSLKN   28 (120)
+T ss_dssp             EEEEE
+T ss_pred             EEEEe
+
+
+No 10
+>6ZU5_SO0 uL2, uL15, uL3, eL29, uL4; Microsporidia, Pathogen, Ribosome, Hibernation, Genome; HET: AMP, MG; 2.9A {Paranosema locustae}
+Probab=9.68  E-value=3e+02  Score=11.16  Aligned_cols=6  Identities=17%  Similarity=0.645  Sum_probs=0.0  Template_Neff=7.100
+
+Q IITVTN            1 IITVTN    6 (6)
+Q Consensus         1 iitvtn    6 (6)
+                      ++++|+
+T Consensus        25 ~itltd   30 (135)
+T 6ZU5_SO0         25 FVHITD   30 (135)
+T ss_pred             EEEEEE
+
+

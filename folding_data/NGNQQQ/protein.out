@@ -1,0 +1,151 @@
+Query         NGNQQQ
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 00:30:05 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NGNQQQ/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NGNQQQ/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6I56_A Phage-like element PBSX  22.3      85 0.00094   15.9   0.0    6    1-6     125-130 (279)
+  2 2X4J_A HYPOTHETICAL PROTEIN OR   7.9 3.9E+02  0.0043   12.7   0.0    4    3-6       6-9   (137)
+  3 2FS2_A Phenylacetic acid degra   7.9 3.9E+02  0.0043    9.6   0.0    5    1-5     143-147 (151)
+  4 3BDU_A Putative lipoprotein; x   7.7   4E+02  0.0045   10.5   0.0    6    1-6      36-41  (62)
+  5 2RA2_F Putative lipoprotein; N   7.5 4.2E+02  0.0047   10.6   0.0    6    1-6      37-42  (64)
+  6 4YPM_A Lon protease (E.C.3.4.2   7.4 4.3E+02  0.0048   11.7   0.0    5    2-6     294-298 (303)
+  7 6TRP_A Peptide synthetase XpsB   7.3 4.4E+02  0.0049   11.9   0.0    5    1-5      89-93  (93)
+  8 5CAI_F Putative lipoprotein fr   6.9 4.7E+02  0.0052   10.0   0.0    6    1-6      37-42  (56)
+  9 6IA5_D Phage-like element PBSX   6.9 4.7E+02  0.0052   13.4   0.0    6    1-6     125-130 (279)
+ 10 3FIF_C Uncharacterized lipopro   6.7 4.9E+02  0.0055   10.3   0.0    6    1-6      36-41  (61)
+
+No 1
+>6I56_A Phage-like element PBSX protein XepA; XepA, PBSX exported protein, XkdY; HET: GOL; 2.12A {Bacillus subtilis subsp. subtilis str. 168}
+Probab=22.30  E-value=85  Score=15.90  Aligned_cols=6  Identities=83%  Similarity=0.999  Sum_probs=3.6  Template_Neff=2.800
+
+Q NGNQQQ            1 NGNQQQ    6 (6)
+Q Consensus         1 ngnqqq    6 (6)
+                      |||.||
+T Consensus       125 NG~~aQ  130 (279)
+T 6I56_A          125 NGNLQQ  130 (279)
+T ss_dssp             ECSSCC
+T ss_pred             CCcccc
+Confidence            566655
+
+
+No 2
+>2X4J_A HYPOTHETICAL PROTEIN ORF137; VIRAL PROTEIN; 1.62A {PYROBACULUM SPHERICAL VIRUS}
+Probab=7.94  E-value=3.9e+02  Score=12.66  Aligned_cols=4  Identities=100%  Similarity=0.991  Sum_probs=0.0  Template_Neff=1.000
+
+Q NGNQQQ            3 NQQQ    6 (6)
+Q Consensus         3 nqqq    6 (6)
+                      ||||
+T Consensus         6 nqqq    9 (137)
+T 2X4J_A            6 NQQQ    9 (137)
+T ss_dssp             ----
+T ss_pred             cchh
+
+
+No 3
+>2FS2_A Phenylacetic acid degradation protein paaI; T820, PHENYLACETIC ACID, DEGRADATION, OPERON; HET: SO4, MSE; 2.0A {Escherichia coli} SCOP: d.38.1.5
+Probab=7.94  E-value=3.9e+02  Score=9.64  Aligned_cols=5  Identities=20%  Similarity=0.687  Sum_probs=0.0  Template_Neff=10.100
+
+Q NGNQQQ            1 NGNQQ    5 (6)
+Q Consensus         1 ngnqq    5 (6)
+                      ++|+|
+T Consensus       143 ~~~~~  147 (151)
+T 2FS2_A          143 GGSHH  147 (151)
+T ss_dssp             -----
+T ss_pred             CCCCC
+
+
+No 4
+>3BDU_A Putative lipoprotein; x_Ray, NESG, Q6D8G1, Structural Genomics; HET: MSE; 1.9A {Pectobacterium atrosepticum SCRI1043} SCOP: b.38.1.6
+Probab=7.75  E-value=4e+02  Score=10.53  Aligned_cols=6  Identities=67%  Similarity=0.778  Sum_probs=0.0  Template_Neff=4.400
+
+Q NGNQQQ            1 NGNQQQ    6 (6)
+Q Consensus         1 ngnqqq    6 (6)
+                      +|+++|
+T Consensus        36 ~G~~~q   41 (62)
+T 3BDU_A           36 YGQQQQ   41 (62)
+T ss_dssp             TSCEEE
+T ss_pred             CCCEEE
+
+
+No 5
+>2RA2_F Putative lipoprotein; NESG, StR88A, Q7CPV8, Structural Genomics; HET: MSE; 1.9A {Salmonella typhimurium LT2} SCOP: b.38.1.6
+Probab=7.53  E-value=4.2e+02  Score=10.58  Aligned_cols=6  Identities=83%  Similarity=1.171  Sum_probs=0.0  Template_Neff=4.300
+
+Q NGNQQQ            1 NGNQQQ    6 (6)
+Q Consensus         1 ngnqqq    6 (6)
+                      +|+++|
+T Consensus        37 ~G~~~q   42 (64)
+T 2RA2_F           37 NGNKQQ   42 (64)
+T ss_dssp             TSCEEE
+T ss_pred             CCCEEE
+
+
+No 6
+>4YPM_A Lon protease (E.C.3.4.21.53); AAA+ domain, Lon protease, protease; HET: CIT, BO2; 1.85A {Meiothermus taiwanensis}
+Probab=7.36  E-value=4.3e+02  Score=11.71  Aligned_cols=5  Identities=60%  Similarity=0.720  Sum_probs=0.0  Template_Neff=8.000
+
+Q NGNQQQ            2 GNQQQ    6 (6)
+Q Consensus         2 gnqqq    6 (6)
+                      ||.||
+T Consensus       294 ~~~~~  298 (303)
+T 4YPM_A          294 DNRQQ  298 (303)
+T ss_dssp             -----
+T ss_pred             cCccc
+
+
+No 7
+>6TRP_A Peptide synthetase XpsB (E.C.2.7.7.58,5.1.1.12); Protein, NRPS, Docking Domains, Communication-Mediating; NMR {Xenorhabdus bovienii SS-2004}
+Probab=7.29  E-value=4.4e+02  Score=11.88  Aligned_cols=5  Identities=80%  Similarity=1.199  Sum_probs=0.0  Template_Neff=1.300
+
+Q NGNQQQ            1 NGNQQ    5 (6)
+Q Consensus         1 ngnqq    5 (6)
+                      ||.||
+T Consensus        89 ngdqq   93 (93)
+T 6TRP_A           89 NGDQQ   93 (93)
+T ss_dssp             HTCCC
+T ss_pred             hcCCC
+
+
+No 8
+>5CAI_F Putative lipoprotein from the DUF903; lipoprotein, Structural Genomics, Joint Center; HET: MSE; 2.3A {Klebsiella pneumoniae subsp. pneumoniae}
+Probab=6.95  E-value=4.7e+02  Score=9.95  Aligned_cols=6  Identities=67%  Similarity=0.761  Sum_probs=0.0  Template_Neff=5.000
+
+Q NGNQQQ            1 NGNQQQ    6 (6)
+Q Consensus         1 ngnqqq    6 (6)
+                      +|+++|
+T Consensus        37 ~G~~~q   42 (56)
+T 5CAI_F           37 WGNKQQ   42 (56)
+T ss_dssp             TSCEEE
+T ss_pred             CCCEEE
+
+
+No 9
+>6IA5_D Phage-like element PBSX protein XepA; lytic system, prophage, CM binding; HET: GOL, ACT; 1.88A {Bacillus subtilis (strain 168)}
+Probab=6.88  E-value=4.7e+02  Score=13.36  Aligned_cols=6  Identities=83%  Similarity=0.999  Sum_probs=0.0  Template_Neff=3.300
+
+Q NGNQQQ            1 NGNQQQ    6 (6)
+Q Consensus         1 ngnqqq    6 (6)
+                      ||+.+|
+T Consensus       125 NG~taQ  130 (279)
+T 6IA5_D          125 NGNLQQ  130 (279)
+T ss_dssp             ECSSCC
+T ss_pred             cCccce
+
+
+No 10
+>3FIF_C Uncharacterized lipoprotein ygdR, Uncharacterized ligand; ygdR YGDR_ECOLI NESG X-RAY STRUCTURE; HET: MSE; 2.7A {Escherichia coli}
+Probab=6.66  E-value=4.9e+02  Score=10.27  Aligned_cols=6  Identities=50%  Similarity=0.700  Sum_probs=0.0  Template_Neff=4.400
+
+Q NGNQQQ            1 NGNQQQ    6 (6)
+Q Consensus         1 ngnqqq    6 (6)
+                      +|+.+|
+T Consensus        36 ~G~~~q   41 (61)
+T 3FIF_C           36 QGNAMQ   41 (61)
+T ss_dssp             TCCEEE
+T ss_pred             CCCEEE
+
+

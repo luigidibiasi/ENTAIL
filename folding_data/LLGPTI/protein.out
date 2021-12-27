@@ -1,0 +1,150 @@
+Query         LLGPTI
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 19:17:17 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LLGPTI/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LLGPTI/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 7KXY_A Coagulation factor V; F  23.3      79 0.00088   15.1   0.0    6    1-6      57-62  (709)
+  2 2DQW_B Dihydropteroate synthas  18.3 1.2E+02  0.0013   13.6   0.0    5    2-6       6-10  (294)
+  3 2DZA_A Dihydropteroate synthas  18.3 1.2E+02  0.0013   13.6   0.0    5    2-6       6-10  (294)
+  4 2R7E_A Coagulation factor VIII  18.1 1.2E+02  0.0013   14.5   0.0    6    1-6      72-77  (742)
+  5 4BDV_A FACTOR VIIIA HEAVY CHAI  17.6 1.3E+02  0.0014   14.5   0.0    6    1-6      71-76  (760)
+  6 5N0K_A Ceruloplasmin; OXIDORED  17.2 1.3E+02  0.0014   15.0   0.0    6    1-6      92-97  (1059)
+  7 6XP8_A Autoinducer synthase; Y  16.9 1.3E+02  0.0015   14.0   0.0    6    1-6       6-11  (217)
+  8 7DG2_D Non-structural maintena  15.6 1.5E+02  0.0017   10.6   0.0    4    1-4      71-74  (79)
+  9 3L5O_A uncharacterized protein  13.9 1.8E+02   0.002   13.1   0.0    6    1-6     217-222 (270)
+ 10 4BXS_V FACTOR X-LIKE PROTEASE,  13.9 1.8E+02   0.002   14.9   0.0    6    1-6      58-63  (1430)
+
+No 1
+>7KXY_A Coagulation factor V; Factor Va, BLOOD CLOTTING; 4.4A {Homo sapiens}
+Probab=23.32  E-value=79  Score=15.11  Aligned_cols=6  Identities=83%  Similarity=1.525  Sum_probs=3.5  Template_Neff=8.700
+
+Q LLGPTI            1 LLGPTI    6 (6)
+Q Consensus         1 llgpti    6 (6)
+                      ++||+|
+T Consensus        57 ~~GP~i   62 (709)
+T 7KXY_A           57 LLGPTL   62 (709)
+T ss_dssp             SCCCCE
+T ss_pred             CcCCEE
+Confidence            357765
+
+
+No 2
+>2DQW_B Dihydropteroate synthase (E.C.2.5.1.15); Dihydropteroate Synthase, Dimer, Structural Genomics; 1.65A {Thermus thermophilus}
+Probab=18.30  E-value=1.2e+02  Score=13.64  Aligned_cols=5  Identities=100%  Similarity=1.644  Sum_probs=0.0  Template_Neff=7.300
+
+Q LLGPTI            2 LGPTI    6 (6)
+Q Consensus         2 lgpti    6 (6)
+                      ||||+
+T Consensus         6 ~~~~~   10 (294)
+T 2DQW_B            6 LGPTI   10 (294)
+T ss_dssp             -----
+T ss_pred             CCCcc
+
+
+No 3
+>2DZA_A Dihydropteroate synthase (E.C.2.5.1.15); Dihydropteroate Synthase, Dimer, 4-aminobenzoate, Structural; HET: PAB; 1.9A {Thermus thermophilus}
+Probab=18.30  E-value=1.2e+02  Score=13.64  Aligned_cols=5  Identities=100%  Similarity=1.644  Sum_probs=0.0  Template_Neff=7.300
+
+Q LLGPTI            2 LGPTI    6 (6)
+Q Consensus         2 lgpti    6 (6)
+                      ||||+
+T Consensus         6 ~~~~~   10 (294)
+T 2DZA_A            6 LGPTI   10 (294)
+T ss_dssp             -----
+T ss_pred             CCCcc
+
+
+No 4
+>2R7E_A Coagulation factor VIII; ceruloplasmin fold, cupper protein fold; HET: BMA, MAN, NAG; 3.7A {Homo sapiens}
+Probab=18.14  E-value=1.2e+02  Score=14.50  Aligned_cols=6  Identities=100%  Similarity=1.591  Sum_probs=0.0  Template_Neff=9.000
+
+Q LLGPTI            1 LLGPTI    6 (6)
+Q Consensus         1 llgpti    6 (6)
+                      ++||+|
+T Consensus        72 ~pGP~I   77 (742)
+T 2R7E_A           72 LLGPTI   77 (742)
+T ss_pred             CCCCEE
+
+
+No 5
+>4BDV_A FACTOR VIIIA HEAVY CHAIN, 92; BLOOD CLOTTING, BLOOD COAGULATION, METAL; HET: BMA, NAG; 3.98A {HOMO SAPIENS}
+Probab=17.65  E-value=1.3e+02  Score=14.48  Aligned_cols=6  Identities=100%  Similarity=1.591  Sum_probs=0.0  Template_Neff=9.000
+
+Q LLGPTI            1 LLGPTI    6 (6)
+Q Consensus         1 llgpti    6 (6)
+                      ++||+|
+T Consensus        71 ~pGP~I   76 (760)
+T 4BDV_A           71 LLGPTI   76 (760)
+T ss_dssp             SCEEEE
+T ss_pred             CcccEE
+
+
+No 6
+>5N0K_A Ceruloplasmin; OXIDOREDUCTASE; HET: NAG; 2.3A {Rattus norvegicus}
+Probab=17.17  E-value=1.3e+02  Score=14.95  Aligned_cols=6  Identities=83%  Similarity=1.453  Sum_probs=0.0  Template_Neff=9.200
+
+Q LLGPTI            1 LLGPTI    6 (6)
+Q Consensus         1 llgpti    6 (6)
+                      ++||+|
+T Consensus        92 ~pGP~I   97 (1059)
+T 5N0K_A           92 LLGPVI   97 (1059)
+T ss_dssp             TSCCCE
+T ss_pred             CcCCEE
+
+
+No 7
+>6XP8_A Autoinducer synthase; YcaO, TfuA, thioamidation, BIOSYNTHETIC PROTEIN; 1.65A {Methanosarcina acetivorans}
+Probab=16.87  E-value=1.3e+02  Score=13.99  Aligned_cols=6  Identities=33%  Similarity=0.661  Sum_probs=0.0  Template_Neff=5.000
+
+Q LLGPTI            1 LLGPTI    6 (6)
+Q Consensus         1 llgpti    6 (6)
+                      ++|||+
+T Consensus         6 F~GPSL   11 (217)
+T 6XP8_A            6 FTGNSI   11 (217)
+T ss_dssp             ECSSSS
+T ss_pred             EeCCCC
+
+
+No 8
+>7DG2_D Non-structural maintenance of chromosomes element; SMC, DNA BINDING PROTEIN; HET: GOL; 1.7A {Xenopus laevis}
+Probab=15.57  E-value=1.5e+02  Score=10.60  Aligned_cols=4  Identities=50%  Similarity=1.149  Sum_probs=0.0  Template_Neff=7.900
+
+Q LLGPTI            1 LLGP    4 (6)
+Q Consensus         1 llgp    4 (6)
+                      |+||
+T Consensus        71 mlGp   74 (79)
+T 7DG2_D           71 MLGS   74 (79)
+T ss_dssp             STTC
+T ss_pred             cCCC
+
+
+No 9
+>3L5O_A uncharacterized protein from DUF364 family; rare metals, siderophores, adenosyl binding; HET: EDO, IMD; 2.01A {Desulfitobacterium hafniense}
+Probab=13.92  E-value=1.8e+02  Score=13.10  Aligned_cols=6  Identities=50%  Similarity=1.016  Sum_probs=0.0  Template_Neff=7.000
+
+Q LLGPTI            1 LLGPTI    6 (6)
+Q Consensus         1 llgpti    6 (6)
+                      ++|||.
+T Consensus       217 l~GPSt  222 (270)
+T 3L5O_A          217 LVGPGT  222 (270)
+T ss_dssp             EESTTC
+T ss_pred             EECCCc
+
+
+No 10
+>4BXS_V FACTOR X-LIKE PROTEASE, VENOM PROTHROMBIN; BLOOD CLOTTING, BLOOD COAGULATION, PROTHROMBINASE; HET: FUC, BMA, NAG, MAN; 3.32A {PSEUDONAJA TEXTILIS}
+Probab=13.87  E-value=1.8e+02  Score=14.94  Aligned_cols=6  Identities=83%  Similarity=1.525  Sum_probs=0.0  Template_Neff=9.500
+
+Q LLGPTI            1 LLGPTI    6 (6)
+Q Consensus         1 llgpti    6 (6)
+                      ++||+|
+T Consensus        58 ~~GP~i   63 (1430)
+T 4BXS_V           58 LLGPTL   63 (1430)
+T ss_dssp             TSCCCB
+T ss_pred             CCCCEE
+
+

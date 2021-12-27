@@ -1,0 +1,149 @@
+Query         SSYSSY
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 17:05:22 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/SSYSSY/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/SSYSSY/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3BMZ_B Putative uncharacterize  21.4      91   0.001   15.3   0.0    6    1-6      15-20  (199)
+  2 2ZF4_A Hypothetical protein Vi  20.1   1E+02  0.0011   15.1   0.0    6    1-6      18-23  (194)
+  3 5VAI_P Uncharacterized protein  16.4 1.4E+02  0.0016    9.5   0.0    6    1-6       8-13  (31)
+  4 2M5Q_X Glucagon; GLUCAGON, DIA  13.5 1.9E+02  0.0021    9.1   0.0    6    1-6       8-13  (30)
+  5 3OCM_A Putative membrane prote  13.4 1.9E+02  0.0021   10.2   0.0    5    1-5       1-5   (173)
+  6 2OY9_A UPF0223 protein BH2638;  12.7   2E+02  0.0023   12.4   0.0    6    1-6      69-74  (98)
+  7 5OTT_B Glucagon-like peptide 1  11.4 2.4E+02  0.0026    9.6   0.0    6    1-6       8-13  (39)
+  8 7AOF_S Vaccinia, Virus, RNA po  10.8 2.6E+02  0.0028   13.9   0.0    6    1-6       7-12  (259)
+  9 7AOH_S Vaccinia, Virus, RNA po  10.8 2.6E+02  0.0028   13.9   0.0    6    1-6       7-12  (259)
+ 10 4UM7_A 3-DEOXY-D-MANNO-OCTULOS   9.9 2.9E+02  0.0032   10.4   0.0    6    1-6      11-16  (193)
+
+No 1
+>3BMZ_B Putative uncharacterized protein; violacein, BIOSYNTHETIC PROTEIN; HET: PG4, PGE; 1.21A {Chromobacterium violaceum}
+Probab=21.42  E-value=91  Score=15.28  Aligned_cols=6  Identities=67%  Similarity=1.115  Sum_probs=3.4  Template_Neff=2.300
+
+Q SSYSSY            1 SSYSSY    6 (6)
+Q Consensus         1 ssyssy    6 (6)
+                      |||-||
+T Consensus        15 SsYvSY   20 (199)
+T 3BMZ_B           15 SAYVSY   20 (199)
+T ss_dssp             EEEEEE
+T ss_pred             ceeeee
+Confidence            456555
+
+
+No 2
+>2ZF4_A Hypothetical protein VioE; putative isomerase, BETA protein, Protein-ligand; HET: PPY; 2.18A {Chromobacterium violaceum}
+Probab=20.13  E-value=1e+02  Score=15.09  Aligned_cols=6  Identities=67%  Similarity=1.115  Sum_probs=3.3  Template_Neff=2.300
+
+Q SSYSSY            1 SSYSSY    6 (6)
+Q Consensus         1 ssyssy    6 (6)
+                      |||-||
+T Consensus        18 SsYvSY   23 (194)
+T 2ZF4_A           18 SAYVSY   23 (194)
+T ss_dssp             EEEEEE
+T ss_pred             ccceee
+Confidence            456555
+
+
+No 3
+>5VAI_P Uncharacterized protein, Glucagon-like peptide 1; Class B GPCR, GLP-1, GLP-1R;{Oryctolagus cuniculus}
+Probab=16.37  E-value=1.4e+02  Score=9.50  Aligned_cols=6  Identities=67%  Similarity=0.766  Sum_probs=0.0  Template_Neff=6.600
+
+Q SSYSSY            1 SSYSSY    6 (6)
+Q Consensus         1 ssyssy    6 (6)
+                      |.|++|
+T Consensus         8 sd~~~~   13 (31)
+T 5VAI_P            8 SDVSSY   13 (31)
+T ss_pred             hHHHHH
+
+
+No 4
+>2M5Q_X Glucagon; GLUCAGON, DIABETES, OBESITY, LIPIDATED, LIPID; HET: GGL, NH2, AIB, PLM; NMR {N/A}
+Probab=13.46  E-value=1.9e+02  Score=9.09  Aligned_cols=6  Identities=50%  Similarity=0.595  Sum_probs=0.0  Template_Neff=6.700
+
+Q SSYSSY            1 SSYSSY    6 (6)
+Q Consensus         1 ssyssy    6 (6)
+                      +.|+.|
+T Consensus         8 ~~y~~~   13 (30)
+T 2M5Q_X            8 SDYSKK   13 (30)
+T ss_dssp             GGGSSS
+T ss_pred             HHHHHH
+
+
+No 5
+>3OCM_A Putative membrane protein; structural genomics, PSI-2, protein structure; HET: ADP, SO4; 1.801A {Bordetella parapertussis}
+Probab=13.41  E-value=1.9e+02  Score=10.22  Aligned_cols=5  Identities=40%  Similarity=0.242  Sum_probs=0.0  Template_Neff=11.000
+
+Q SSYSSY            1 SSYSS    5 (6)
+Q Consensus         1 ssyss    5 (6)
+                      |||++
+T Consensus         1 ~~~~~    5 (173)
+T 3OCM_A            1 SNASD    5 (173)
+T ss_dssp             -----
+T ss_pred             CCccc
+
+
+No 6
+>2OY9_A UPF0223 protein BH2638; pfam, UPF0223, 10286b, Structural Genomics; 1.6A {Bacillus halodurans C-125} SCOP: a.276.1.1
+Probab=12.70  E-value=2e+02  Score=12.39  Aligned_cols=6  Identities=33%  Similarity=0.578  Sum_probs=0.0  Template_Neff=3.900
+
+Q SSYSSY            1 SSYSSY    6 (6)
+Q Consensus         1 ssyssy    6 (6)
+                      |.||.|
+T Consensus        69 SGySiY   74 (98)
+T 2OY9_A           69 NDVSCY   74 (98)
+T ss_dssp             SSCCHH
+T ss_pred             hCCcHH
+
+
+No 7
+>5OTT_B Glucagon-like peptide 1 receptor, Exendin-4; glucagon-like peptide 1, GPCR, cyclic; HET: HCS; 1.92A {Homo sapiens}
+Probab=11.38  E-value=2.4e+02  Score=9.64  Aligned_cols=6  Identities=33%  Similarity=0.185  Sum_probs=0.0  Template_Neff=6.000
+
+Q SSYSSY            1 SSYSSY    6 (6)
+Q Consensus         1 ssyssy    6 (6)
+                      +.|+.|
+T Consensus         8 s~ys~~   13 (39)
+T 5OTT_B            8 SDLSKQ   13 (39)
+T ss_dssp             TTHHHH
+T ss_pred             hHHHHH
+
+
+No 8
+>7AOF_S Vaccinia, Virus, RNA polymerase, DNA-dependent; HET: SEP; 2.98A {Vaccinia virus GLV-1h68}
+Probab=10.84  E-value=2.6e+02  Score=13.92  Aligned_cols=6  Identities=83%  Similarity=0.844  Sum_probs=0.0  Template_Neff=3.800
+
+Q SSYSSY            1 SSYSSY    6 (6)
+Q Consensus         1 ssyssy    6 (6)
+                      +|||+|
+T Consensus         7 ~~~~~~   12 (259)
+T 7AOF_S            7 SSYSSN   12 (259)
+T ss_pred             cCCCcc
+
+
+No 9
+>7AOH_S Vaccinia, Virus, RNA polymerase, DNA-dependent; 2.7A {Vaccinia virus GLV-1h68}
+Probab=10.84  E-value=2.6e+02  Score=13.92  Aligned_cols=6  Identities=83%  Similarity=0.844  Sum_probs=0.0  Template_Neff=3.800
+
+Q SSYSSY            1 SSYSSY    6 (6)
+Q Consensus         1 ssyssy    6 (6)
+                      +|||+|
+T Consensus         7 ~~~~~~   12 (259)
+T 7AOH_S            7 SSYSSN   12 (259)
+T ss_pred             cCCCcc
+
+
+No 10
+>4UM7_A 3-DEOXY-D-MANNO-OCTULOSONATE 8-PHOSPHATE PHOSPHATASE KDSC (E.C.3.1.3.45); HYDROLASE, HAD SUPERFAMILY; HET: EDO; 1.64A {MORAXELLA CATARRHALIS BC8}
+Probab=9.85  E-value=2.9e+02  Score=10.39  Aligned_cols=6  Identities=50%  Similarity=0.462  Sum_probs=0.0  Template_Neff=10.100
+
+Q SSYSSY            1 SSYSSY    6 (6)
+Q Consensus         1 ssyssy    6 (6)
+                      ||++++
+T Consensus        11 ~~~~~~   16 (193)
+T 4UM7_A           11 SSENLY   16 (193)
+T ss_dssp             ------
+T ss_pred             cccccc
+
+

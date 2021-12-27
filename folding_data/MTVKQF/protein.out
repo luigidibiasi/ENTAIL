@@ -1,0 +1,156 @@
+Query         MTVKQF
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 22:37:34 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/MTVKQF/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/MTVKQF/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 1ND9_A Translation initiation   58.8     8.5 9.4E-05   14.3   0.0    6    1-6       3-8   (49)
+  2 2MXD_A Viral protein genome-li  35.1      36  0.0004   13.6   0.0    6    1-6      26-31  (62)
+  3 2M4H_A Feline Calicivirus VPg   33.9      39 0.00043   13.6   0.0    6    1-6      29-34  (67)
+  4 3U31_A Transcriptional regulat  26.4      63  0.0007   13.7   0.0    6    1-6       7-12  (290)
+  5 6F7S_A Serrate RNA effector mo  24.3      74 0.00081   12.9   0.0    6    1-6       4-9   (124)
+  6 6F7P_B Serrate RNA effector mo  24.1      75 0.00083   12.9   0.0    6    1-6       4-9   (124)
+  7 3JCN_b 50S ribosomal protein L  18.9 1.1E+02  0.0012   15.6   0.0    6    1-6       4-9   (890)
+  8 1TZ3_B putative sugar kinase (  18.8 1.1E+02  0.0013   12.6   0.0    4    1-4     336-339 (339)
+  9 1ZRU_B lactophage p2 receptor   18.7 1.1E+02  0.0013   15.2   0.0    6    1-6       1-6   (264)
+ 10 2RA9_A Uncharacterized protein  18.2 1.2E+02  0.0013   13.1   0.0    5    2-6       4-8   (150)
+
+No 1
+>1ND9_A Translation initiation factor IF-2; IF2, translation, initiation factor; NMR {Escherichia coli} SCOP: a.6.1.6
+Probab=58.85  E-value=8.5  Score=14.34  Aligned_cols=6  Identities=33%  Similarity=0.689  Sum_probs=3.6  Template_Neff=4.900
+
+Q MTVKQF            1 MTVKQF    6 (6)
+Q Consensus         1 mtvkqf    6 (6)
+                      +||+||
+T Consensus         3 ~TV~~l    8 (49)
+T 1ND9_A            3 VTIKTL    8 (49)
+T ss_dssp             ECTTHH
+T ss_pred             ccHHHH
+Confidence            366665
+
+
+No 2
+>2MXD_A Viral protein genome-linked; Viral protein genome-linked, Porcine sapovirus; NMR {Porcine enteric sapovirus}
+Probab=35.07  E-value=36  Score=13.56  Aligned_cols=6  Identities=83%  Similarity=1.187  Sum_probs=3.3  Template_Neff=4.000
+
+Q MTVKQF            1 MTVKQF    6 (6)
+Q Consensus         1 mtvkqf    6 (6)
+                      |||.+|
+T Consensus        26 ~Tv~ef   31 (62)
+T 2MXD_A           26 MTVQQF   31 (62)
+T ss_dssp             CCHHHH
+T ss_pred             CCHHHH
+Confidence            466554
+
+
+No 3
+>2M4H_A Feline Calicivirus VPg protein; Viral Protein, NS5, VPg; NMR {Feline calicivirus}
+Probab=33.90  E-value=39  Score=13.64  Aligned_cols=6  Identities=33%  Similarity=0.933  Sum_probs=3.3  Template_Neff=4.000
+
+Q MTVKQF            1 MTVKQF    6 (6)
+Q Consensus         1 mtvkqf    6 (6)
+                      |||.+|
+T Consensus        29 ~Tv~ef   34 (67)
+T 2M4H_A           29 LSVEDF   34 (67)
+T ss_dssp             CCHHHH
+T ss_pred             CCHHHH
+Confidence            456554
+
+
+No 4
+>3U31_A Transcriptional regulatory protein sir2 homologue; Zn-binding domain, Rossmann fold domain; HET: NAD; 2.2A {Plasmodium falciparum}
+Probab=26.44  E-value=63  Score=13.67  Aligned_cols=6  Identities=50%  Similarity=0.141  Sum_probs=0.0  Template_Neff=8.700
+
+Q MTVKQF            1 MTVKQF    6 (6)
+Q Consensus         1 mtvkqf    6 (6)
+                      ||+.|+
+T Consensus         7 ~~~~~~   12 (290)
+T 3U31_A            7 MTGGQQ   12 (290)
+T ss_dssp             ------
+T ss_pred             cccccc
+Confidence            566554
+
+
+No 5
+>6F7S_A Serrate RNA effector molecule homolog; RNA BINDING PROTEIN; 3.37A {Homo sapiens}
+Probab=24.31  E-value=74  Score=12.88  Aligned_cols=6  Identities=50%  Similarity=0.728  Sum_probs=3.2  Template_Neff=6.700
+
+Q MTVKQF            1 MTVKQF    6 (6)
+Q Consensus         1 mtvkqf    6 (6)
+                      ||-|||
+T Consensus         4 lsFK~F    9 (124)
+T 6F7S_A            4 KTFKEF    9 (124)
+T ss_dssp             CCHHHH
+T ss_pred             ccHHHH
+Confidence            455555
+
+
+No 6
+>6F7P_B Serrate RNA effector molecule homolog,Serrate; RNA BINDING PROTEIN; 3.7A {Homo sapiens}
+Probab=24.12  E-value=75  Score=12.86  Aligned_cols=6  Identities=50%  Similarity=0.728  Sum_probs=3.1  Template_Neff=6.700
+
+Q MTVKQF            1 MTVKQF    6 (6)
+Q Consensus         1 mtvkqf    6 (6)
+                      ||.|||
+T Consensus         4 ~sFk~F    9 (124)
+T 6F7P_B            4 KTFKEF    9 (124)
+T ss_pred             ccHHHH
+Confidence            455554
+
+
+No 7
+>3JCN_b 50S ribosomal protein L32, 50S; ribosome, translation initiation, GTPase, 70S; HET: PSU, 4SU, GNP, FME, H2U, 5MU; 4.6A {Escherichia coli}
+Probab=18.93  E-value=1.1e+02  Score=15.57  Aligned_cols=6  Identities=33%  Similarity=0.689  Sum_probs=3.9  Template_Neff=7.800
+
+Q MTVKQF            1 MTVKQF    6 (6)
+Q Consensus         1 mtvkqf    6 (6)
+                      +||+||
+T Consensus         4 ~tv~~l    9 (890)
+T 3JCN_b            4 VTIKTL    9 (890)
+T ss_dssp             CCCCCC
+T ss_pred             ccHHHH
+Confidence            367776
+
+
+No 8
+>1TZ3_B putative sugar kinase (E.C.2.7.1.4); ribokinase fold, alpha/beta, TRANSFERASE; HET: AIS, MSE; 2.9A {Salmonella typhimurium LT2} SCOP: c.72.1.1
+Probab=18.79  E-value=1.1e+02  Score=12.56  Aligned_cols=4  Identities=100%  Similarity=1.115  Sum_probs=0.0  Template_Neff=10.000
+
+Q MTVKQF            1 MTVK    4 (6)
+Q Consensus         1 mtvk    4 (6)
+                      ||||
+T Consensus       336 ~~~~  339 (339)
+T 1TZ3_B          336 MTVK  339 (339)
+T ss_dssp             ----
+T ss_pred             hcCC
+
+
+No 9
+>1ZRU_B lactophage p2 receptor binding protein; 3 domains: BETA BARREL, BETA; HET: GOL; 1.73A {Lactococcus lactis phage p2} SCOP: b.108.1.4, b.21.1.3, b.163.1.2
+Probab=18.65  E-value=1.1e+02  Score=15.20  Aligned_cols=6  Identities=67%  Similarity=1.154  Sum_probs=0.0  Template_Neff=3.400
+
+Q MTVKQF            1 MTVKQF    6 (6)
+Q Consensus         1 mtvkqf    6 (6)
+                      ||+|.|
+T Consensus         1 mtiknf    6 (264)
+T 1ZRU_B            1 MTIKNF    6 (264)
+T ss_dssp             -CEECC
+T ss_pred             Cceeee
+
+
+No 10
+>2RA9_A Uncharacterized protein DUF1285; Structural genomics, Joint Center for; HET: EDO; 1.4A {Shewanella baltica}
+Probab=18.18  E-value=1.2e+02  Score=13.08  Aligned_cols=5  Identities=80%  Similarity=1.145  Sum_probs=0.0  Template_Neff=5.800
+
+Q MTVKQF            2 TVKQF    6 (6)
+Q Consensus         2 tvkqf    6 (6)
+                      |.|||
+T Consensus         4 ~~~~~    8 (150)
+T 2RA9_A            4 TLKQF    8 (150)
+T ss_dssp             -----
+T ss_pred             chhhh
+
+

@@ -1,0 +1,149 @@
+Query         GMSLND
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 02:05:33 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GMSLND/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GMSLND/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6FOF_C Galectin-3; Galectin, a  31.4      46  0.0005   14.2   0.0    6    1-6       3-8   (196)
+  2 5A2Q_w RIBOSOMAL PROTEIN US2,   31.0      47 0.00052   13.2   0.0    6    1-6      20-25  (62)
+  3 6FOF_A Galectin-3; Galectin, a  26.6      63 0.00069   13.8   0.0    6    1-6       3-8   (196)
+  4 4WWR_B Ubl4A, Bag6; Endoplasmi  19.8   1E+02  0.0011   11.3   0.0    5    2-6      38-42  (47)
+  5 4WWR_F Ubl4A, Bag6; Endoplasmi  19.8   1E+02  0.0011   11.3   0.0    5    2-6      38-42  (47)
+  6 2BA3_A NikA; DIMER, BACTERIAL   18.9 1.1E+02  0.0012    9.4   0.0    6    1-6      38-43  (51)
+  7 2F22_A BH3987; PUTATIVE DNA DA  17.8 1.2E+02  0.0014   10.6   0.0    6    1-6       1-6   (144)
+  8 2AN7_A Protein parD; bacterial  17.7 1.2E+02  0.0014   10.6   0.0    6    1-6      24-29  (83)
+  9 1NLA_B 3(10) helix, beta-ribbo  17.4 1.3E+02  0.0014   10.6   0.0    6    1-6      30-35  (64)
+ 10 2JXI_B Proline dehydrogenase/D  17.3 1.3E+02  0.0014    8.2   0.0    6    1-6      26-31  (45)
+
+No 1
+>6FOF_C Galectin-3; Galectin, apoptosis, glycosylation, sugar binding; HET: SO4, GAL, BGC; 2.2A {Homo sapiens}
+Probab=31.40  E-value=46  Score=14.16  Aligned_cols=6  Identities=50%  Similarity=0.783  Sum_probs=0.0  Template_Neff=7.100
+
+Q GMSLND            1 GMSLND    6 (6)
+Q Consensus         1 gmslnd    6 (6)
+                      ++||+|
+T Consensus         3 ~~~~~~    8 (196)
+T 6FOF_C            3 NFSLHD    8 (196)
+T ss_dssp             ------
+T ss_pred             CcchHH
+Confidence            467776
+
+
+No 2
+>5A2Q_w RIBOSOMAL PROTEIN US2, RIBOSOMAL PROTEIN; RIBOSOME, HUMAN RIBOSOME, HEPATITIS-C, IRES; HET: MG; 3.9A {HOMO SAPIENS}
+Probab=30.98  E-value=47  Score=13.17  Aligned_cols=6  Identities=67%  Similarity=0.916  Sum_probs=3.4  Template_Neff=4.200
+
+Q GMSLND            1 GMSLND    6 (6)
+Q Consensus         1 gmslnd    6 (6)
+                      |+||++
+T Consensus        20 GaSLe~   25 (62)
+T 5A2Q_w           20 GASLAD   25 (62)
+T ss_pred             cCCHHH
+Confidence            566653
+
+
+No 3
+>6FOF_A Galectin-3; Galectin, apoptosis, glycosylation, sugar binding; HET: LAT, SO4; 2.2A {Homo sapiens}
+Probab=26.62  E-value=63  Score=13.77  Aligned_cols=6  Identities=50%  Similarity=0.783  Sum_probs=3.7  Template_Neff=7.100
+
+Q GMSLND            1 GMSLND    6 (6)
+Q Consensus         1 gmslnd    6 (6)
+                      ++||+|
+T Consensus         3 ~~~~~~    8 (196)
+T 6FOF_A            3 NFSLHD    8 (196)
+T ss_pred             cccHHH
+Confidence            467765
+
+
+No 4
+>4WWR_B Ubl4A, Bag6; Endoplasmic Reticulum, Recombinant Proteins, Human; 2.0A {Homo sapiens}
+Probab=19.82  E-value=1e+02  Score=11.26  Aligned_cols=5  Identities=40%  Similarity=1.012  Sum_probs=0.0  Template_Neff=5.200
+
+Q GMSLND            2 MSLND    6 (6)
+Q Consensus         2 mslnd    6 (6)
+                      |||.|
+T Consensus        38 lSLDD   42 (47)
+T 4WWR_B           38 LTLDD   42 (47)
+T ss_pred             CCHHH
+
+
+No 5
+>4WWR_F Ubl4A, Bag6; Endoplasmic Reticulum, Recombinant Proteins, Human; 2.0A {Homo sapiens}
+Probab=19.82  E-value=1e+02  Score=11.26  Aligned_cols=5  Identities=40%  Similarity=1.012  Sum_probs=0.0  Template_Neff=5.200
+
+Q GMSLND            2 MSLND    6 (6)
+Q Consensus         2 mslnd    6 (6)
+                      |||.|
+T Consensus        38 lSLDD   42 (47)
+T 4WWR_F           38 LTLDD   42 (47)
+T ss_pred             CCHHH
+
+
+No 6
+>2BA3_A NikA; DIMER, BACTERIAL CONJUGATION, RELAXASE, DNA; NMR {Plasmid R64}
+Probab=18.87  E-value=1.1e+02  Score=9.43  Aligned_cols=6  Identities=17%  Similarity=0.739  Sum_probs=0.0  Template_Neff=9.200
+
+Q GMSLND            1 GMSLND    6 (6)
+Q Consensus         1 gmslnd    6 (6)
+                      ||++++
+T Consensus        38 g~s~s~   43 (51)
+T 2BA3_A           38 GLTVSA   43 (51)
+T ss_dssp             TCCHHH
+T ss_pred             CCCHHH
+
+
+No 7
+>2F22_A BH3987; PUTATIVE DNA DAMAGE-INDUCABLE (DINB) PROTEIN; HET: MSE; 1.42A {Bacillus halodurans} SCOP: a.213.1.2
+Probab=17.81  E-value=1.2e+02  Score=10.62  Aligned_cols=6  Identities=50%  Similarity=0.778  Sum_probs=0.0  Template_Neff=10.500
+
+Q GMSLND            1 GMSLND    6 (6)
+Q Consensus         1 gmslnd    6 (6)
+                      ||+.++
+T Consensus         1 ~~~~~~    6 (144)
+T 2F22_A            1 GMDTNG    6 (144)
+T ss_dssp             CCCCHH
+T ss_pred             CCcHHH
+
+
+No 8
+>2AN7_A Protein parD; bacterial antidote, ribbon-helix-helix, DNA-binding motif; NMR {Escherichia coli}
+Probab=17.69  E-value=1.2e+02  Score=10.56  Aligned_cols=6  Identities=17%  Similarity=0.623  Sum_probs=0.0  Template_Neff=8.600
+
+Q GMSLND            1 GMSLND    6 (6)
+Q Consensus         1 gmslnd    6 (6)
+                      |+|+++
+T Consensus        24 g~s~s~   29 (83)
+T 2AN7_A           24 GKTIKQ   29 (83)
+T ss_dssp             TSCHHH
+T ss_pred             CCCHHH
+
+
+No 9
+>1NLA_B 3(10) helix, beta-ribbon, beta-sheet, structural; NMR {Enterobacteria phage P22} SCOP: a.43.1.1
+Probab=17.41  E-value=1.3e+02  Score=10.58  Aligned_cols=6  Identities=50%  Similarity=0.733  Sum_probs=0.0  Template_Neff=7.500
+
+Q GMSLND            1 GMSLND    6 (6)
+Q Consensus         1 gmslnd    6 (6)
+                      |.|+|+
+T Consensus        30 g~S~n~   35 (64)
+T 1NLA_B           30 GRSVNS   35 (64)
+T ss_dssp             TSCHHH
+T ss_pred             CCCHHH
+
+
+No 10
+>2JXI_B Proline dehydrogenase/DNA Complex; PutA, Proline, Utilization, DNA, DNA; NMR {Pseudomonas putida}
+Probab=17.34  E-value=1.3e+02  Score=8.17  Aligned_cols=6  Identities=0%  Similarity=-0.351  Sum_probs=0.0  Template_Neff=10.900
+
+Q GMSLND            1 GMSLND    6 (6)
+Q Consensus         1 gmslnd    6 (6)
+                      |+|.++
+T Consensus        26 ~~s~s~   31 (45)
+T 2JXI_B           26 DRTPHW   31 (45)
+T ss_dssp             TCCHHH
+T ss_pred             CCCHHH
+
+

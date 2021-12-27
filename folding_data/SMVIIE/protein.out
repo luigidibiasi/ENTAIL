@@ -1,0 +1,145 @@
+Query         SMVIIE
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 15:19:05 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/SMVIIE/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/SMVIIE/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5BZ1_A Suppressor protein MPT5  44.1      21 0.00023   14.7   0.0    6    1-6       1-6   (400)
+  2 4FXG_F Complement C4-A, Mannan  15.4 1.5E+02  0.0017   13.0   0.0    6    1-6      29-34  (291)
+  3 6O90_O 70S ribosome; 70S, ribo  15.0 1.6E+02  0.0018   12.2   0.0    5    2-6     117-121 (123)
+  4 4ARS_A HISTIDINE ACID PHOSPHAT  15.0 1.6E+02  0.0018   12.5   0.0    6    1-6     334-339 (413)
+  5 6YSQ_E Complement C4b, hC4Nb8   14.9 1.6E+02  0.0018   13.0   0.0    6    1-6      29-34  (291)
+  6 7NHN_Q Lmo0919 protein, 50S ri  14.6 1.7E+02  0.0018   12.5   0.0    5    2-6     129-133 (135)
+  7 2FTC_J MITOCHONDRIAL RIBOSOME,  14.5 1.7E+02  0.0019   11.8   0.0    5    2-6     110-114 (116)
+  8 6Q95_N 30S ribosomal protein S  13.5 1.9E+02  0.0021   11.7   0.0    5    2-6     110-114 (117)
+  9 6ERI_AN 50S ribosomal protein   13.4 1.9E+02  0.0021   11.7   0.0    5    2-6     110-114 (116)
+ 10 3T4A_F Complement C3 beta chai  13.3 1.9E+02  0.0021   12.9   0.0    6    1-6      79-84  (343)
+
+No 1
+>5BZ1_A Suppressor protein MPT5/RNA Complex; PUF RNA-binding domain, rna binding; 2.15A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=44.12  E-value=21  Score=14.72  Aligned_cols=6  Identities=67%  Similarity=0.634  Sum_probs=2.5  Template_Neff=10.300
+
+Q SMVIIE            1 SMVIIE    6 (6)
+Q Consensus         1 smviie    6 (6)
+                      |||++|
+T Consensus         1 ~~~~~~    6 (400)
+T 5BZ1_A            1 SMVEIS    6 (400)
+T ss_dssp             --CCGG
+T ss_pred             CCcccc
+Confidence            577664
+
+
+No 2
+>4FXG_F Complement C4-A, Mannan-binding lectin serine; IMMUNE SYSTEM, complement, proteolytic cascade; HET: BMA, TYS, NAG; 3.75A {Homo sapiens}
+Probab=15.39  E-value=1.5e+02  Score=12.99  Aligned_cols=6  Identities=33%  Similarity=0.595  Sum_probs=0.0  Template_Neff=7.900
+
+Q SMVIIE            1 SMVIIE    6 (6)
+Q Consensus         1 smviie    6 (6)
+                      .|+|+|
+T Consensus        29 gM~ile   34 (291)
+T 4FXG_F           29 GMAIAD   34 (291)
+T ss_dssp             EEEEEE
+T ss_pred             ceEEEE
+
+
+No 3
+>6O90_O 70S ribosome; 70S, ribosome, pathogen, antibiotic development; 3.49A {Enterococcus faecalis}
+Probab=14.99  E-value=1.6e+02  Score=12.16  Aligned_cols=5  Identities=80%  Similarity=1.225  Sum_probs=0.0  Template_Neff=6.200
+
+Q SMVIIE            2 MVIIE    6 (6)
+Q Consensus         2 mviie    6 (6)
+                      |++||
+T Consensus       117 ma~ie  121 (123)
+T 6O90_O          117 MVVIE  121 (123)
+T ss_pred             eeEEE
+
+
+No 4
+>4ARS_A HISTIDINE ACID PHOSPHATASE (E.C.3.1.3.26); HYDROLASE; HET: GOL, ACT; 1.9A {HAFNIA ALVEI}
+Probab=14.96  E-value=1.6e+02  Score=12.50  Aligned_cols=6  Identities=17%  Similarity=0.512  Sum_probs=0.0  Template_Neff=10.000
+
+Q SMVIIE            1 SMVIIE    6 (6)
+Q Consensus         1 smviie    6 (6)
+                      |+++||
+T Consensus       334 S~lifE  339 (413)
+T 4ARS_A          334 GALVFE  339 (413)
+T ss_dssp             CEEEEE
+T ss_pred             cEEEEE
+
+
+No 5
+>6YSQ_E Complement C4b, hC4Nb8 nanobody; Nanobody, inhibitor, complement C4b, IMMUNE; HET: BMA, NAG; 3.3A {Homo sapiens}
+Probab=14.91  E-value=1.6e+02  Score=12.98  Aligned_cols=6  Identities=33%  Similarity=0.595  Sum_probs=0.0  Template_Neff=7.800
+
+Q SMVIIE            1 SMVIIE    6 (6)
+Q Consensus         1 smviie    6 (6)
+                      +|+|+|
+T Consensus        29 gM~ive   34 (291)
+T 6YSQ_E           29 GMAIAD   34 (291)
+T ss_pred             ceEEEE
+
+
+No 6
+>7NHN_Q Lmo0919 protein, 50S ribosomal protein; Antibiotic resistance element, ABCF, antibiotic; HET: MG, K, ATP, SPD; 2.9A {Listeria monocytogenes EGD-e}
+Probab=14.62  E-value=1.7e+02  Score=12.46  Aligned_cols=5  Identities=100%  Similarity=1.285  Sum_probs=0.0  Template_Neff=5.800
+
+Q SMVIIE            2 MVIIE    6 (6)
+Q Consensus         2 mviie    6 (6)
+                      |++||
+T Consensus       129 ma~iE  133 (135)
+T 7NHN_Q          129 MVIIE  133 (135)
+T ss_pred             eEEEE
+
+
+No 7
+>2FTC_J MITOCHONDRIAL RIBOSOME, LARGE SUBUNIT; MITOCHONDRIAL RIBOSOME, LARGE RIBOSOMAL SUBUNIT; 12.1A {Bos taurus}
+Probab=14.48  E-value=1.7e+02  Score=11.75  Aligned_cols=5  Identities=60%  Similarity=1.006  Sum_probs=0.0  Template_Neff=6.700
+
+Q SMVIIE            2 MVIIE    6 (6)
+Q Consensus         2 mviie    6 (6)
+                      |++||
+T Consensus       110 m~~ie  114 (116)
+T 2FTC_J          110 MAVIE  114 (116)
+T ss_pred             eEEEE
+
+
+No 8
+>6Q95_N 30S ribosomal protein S2, 30S; tmRNA SmpB trans-translation translation, RIBOSOME; HET: 5MU, MG; 3.7A {Thermus thermophilus (strain HB8 / ATCC 27634 / DSM 579)}
+Probab=13.53  E-value=1.9e+02  Score=11.70  Aligned_cols=5  Identities=20%  Similarity=0.826  Sum_probs=0.0  Template_Neff=6.600
+
+Q SMVIIE            2 MVIIE    6 (6)
+Q Consensus         2 mviie    6 (6)
+                      |++||
+T Consensus       110 m~~ie  114 (117)
+T 6Q95_N          110 LALVE  114 (117)
+T ss_pred             EEEEE
+
+
+No 9
+>6ERI_AN 50S ribosomal protein L2, chloroplastic; Chloroplast, translation, ribosome; HET: MG; 3.0A {Spinacia oleracea}
+Probab=13.43  E-value=1.9e+02  Score=11.71  Aligned_cols=5  Identities=60%  Similarity=0.753  Sum_probs=0.0  Template_Neff=6.500
+
+Q SMVIIE            2 MVIIE    6 (6)
+Q Consensus         2 mviie    6 (6)
+                      |++||
+T Consensus       110 ma~le  114 (116)
+T 6ERI_AN         110 MAYIE  114 (116)
+T ss_pred             eeEEE
+
+
+No 10
+>3T4A_F Complement C3 beta chain, Complement; Age-related macular degeneration, Cleavage on; 3.4A {Homo sapiens}
+Probab=13.31  E-value=1.9e+02  Score=12.92  Aligned_cols=6  Identities=33%  Similarity=0.794  Sum_probs=0.0  Template_Neff=8.100
+
+Q SMVIIE            1 SMVIIE    6 (6)
+Q Consensus         1 smviie    6 (6)
+                      .|+|+|
+T Consensus        79 gM~ive   84 (343)
+T 3T4A_F           79 TMSILD   84 (343)
+T ss_dssp             SSEEEE
+T ss_pred             ceEEEE
+
+

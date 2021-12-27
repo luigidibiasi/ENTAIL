@@ -1,0 +1,151 @@
+Query         EYSNFS
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 20:18:42 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/EYSNFS/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/EYSNFS/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6SWG_C Periphilin-1, Protein T  35.7      35 0.00039   13.8   0.0    6    1-6      12-17  (83)
+  2 7AIH_Ab mL94, mL89, Ribosomal   23.8      76 0.00085   15.0   0.0    6    1-6     219-224 (262)
+  3 7AM2_Ab Ribosomal protein L3-l  23.8      76 0.00085   15.0   0.0    6    1-6     219-224 (262)
+  4 6HIX_Ag ?; mitoribosome, trans  23.3      79 0.00087   15.0   0.0    6    1-6     218-223 (260)
+  5 6YXY_Ag bL28m, uL29m, uL30m, b  23.2      80 0.00088   14.9   0.0    6    1-6     218-223 (260)
+  6 5KX4_A 10.7 kDa salivary prote  22.9      82 0.00091   14.0   0.0    6    1-6      30-35  (101)
+  7 4AIN_A GLYCINE BETAINE TRANSPO  18.0 1.2E+02  0.0013   15.3   0.0    6    1-6      95-100 (539)
+  8 2WSW_A BCCT FAMILY BETAINE/CAR  17.4 1.3E+02  0.0014   15.1   0.0    6    1-6      90-95  (509)
+  9 5OQO_B Condensin complex subun  17.2 1.3E+02  0.0014   12.0   0.0    6    1-6      13-18  (152)
+ 10 5OQN_B Condensin complex subun  17.0 1.3E+02  0.0015   11.8   0.0    6    1-6      13-18  (125)
+
+No 1
+>6SWG_C Periphilin-1, Protein TASOR; Nuclear protein  Transcriptional repressor; 2.51A {Homo sapiens}
+Probab=35.73  E-value=35  Score=13.79  Aligned_cols=6  Identities=67%  Similarity=1.027  Sum_probs=3.1  Template_Neff=5.000
+
+Q EYSNFS            1 EYSNFS    6 (6)
+Q Consensus         1 eysnfs    6 (6)
+                      ||++||
+T Consensus        12 e~~~Fs   17 (83)
+T 6SWG_C           12 EYNLFS   17 (83)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            455553
+
+
+No 2
+>7AIH_Ab mL94, mL89, Ribosomal protein L3-like; Ribosome, Mitochondria, Kinetoplastid; HET: NAD; 3.6A {Leishmania major}
+Probab=23.79  E-value=76  Score=15.01  Aligned_cols=6  Identities=83%  Similarity=1.099  Sum_probs=3.8  Template_Neff=5.200
+
+Q EYSNFS            1 EYSNFS    6 (6)
+Q Consensus         1 eysnfs    6 (6)
+                      |||-||
+T Consensus       219 ~~~~~~  224 (262)
+T 7AIH_Ab         219 EYSLFS  224 (262)
+T ss_pred             eeccee
+Confidence            566665
+
+
+No 3
+>7AM2_Ab Ribosomal protein L3-like protein, uL4m; RIBOSOME, Mitochondria, Kinetoplastid; HET: GTP, ATP; 3.4A {Leishmania tarentolae}
+Probab=23.79  E-value=76  Score=15.01  Aligned_cols=6  Identities=83%  Similarity=1.099  Sum_probs=3.8  Template_Neff=5.200
+
+Q EYSNFS            1 EYSNFS    6 (6)
+Q Consensus         1 eysnfs    6 (6)
+                      |||-||
+T Consensus       219 ~~~~~~  224 (262)
+T 7AM2_Ab         219 EYSLFS  224 (262)
+T ss_pred             eeccee
+Confidence            566665
+
+
+No 4
+>6HIX_Ag ?; mitoribosome, translation, Trypanosoma, large ribosomal; HET: NAD; 3.39A {Trypanosoma brucei brucei}
+Probab=23.33  E-value=79  Score=14.99  Aligned_cols=6  Identities=67%  Similarity=0.966  Sum_probs=3.9  Template_Neff=5.100
+
+Q EYSNFS            1 EYSNFS    6 (6)
+Q Consensus         1 eysnfs    6 (6)
+                      |||-||
+T Consensus       218 ~~~~~~  223 (260)
+T 6HIX_Ag         218 EYRLFS  223 (260)
+T ss_pred             eeeeee
+Confidence            567665
+
+
+No 5
+>6YXY_Ag bL28m, uL29m, uL30m, bL32m, bL35m; mitoribosome, assembly, LSU, RIBOSOME; HET: ATP, PM8, MG, SPD, NAD, GTP; 3.1A {Trypanosoma brucei brucei}
+Probab=23.22  E-value=80  Score=14.93  Aligned_cols=6  Identities=67%  Similarity=0.966  Sum_probs=3.8  Template_Neff=5.200
+
+Q EYSNFS            1 EYSNFS    6 (6)
+Q Consensus         1 eysnfs    6 (6)
+                      |||-||
+T Consensus       218 ~~~~~~  223 (260)
+T 6YXY_Ag         218 EYRLFS  223 (260)
+T ss_pred             eeeeee
+Confidence            566665
+
+
+No 6
+>5KX4_A 10.7 kDa salivary protein; Insect protein, odorant-binding protein; 1.94A {Lutzomyia longipalpis}
+Probab=22.86  E-value=82  Score=14.03  Aligned_cols=6  Identities=50%  Similarity=0.960  Sum_probs=3.0  Template_Neff=2.600
+
+Q EYSNFS            1 EYSNFS    6 (6)
+Q Consensus         1 eysnfs    6 (6)
+                      ||++||
+T Consensus        30 e~~~fS   35 (101)
+T 5KX4_A           30 EYDDIS   35 (101)
+T ss_dssp             GGSCCC
+T ss_pred             cCCCCC
+Confidence            355554
+
+
+No 7
+>4AIN_A GLYCINE BETAINE TRANSPORTER BETP; MEMBRANE PROTEIN, CHEMOSENSOR AND OSMOSENSOR; HET: FLC, CM5, BET; 3.1A {CORYNEBACTERIUM GLUTAMICUM}
+Probab=18.02  E-value=1.2e+02  Score=15.35  Aligned_cols=6  Identities=33%  Similarity=0.628  Sum_probs=0.0  Template_Neff=6.100
+
+Q EYSNFS            1 EYSNFS    6 (6)
+Q Consensus         1 eysnfs    6 (6)
+                      |||+||
+T Consensus        95 efS~fs  100 (539)
+T 4AIN_A           95 EFRTVS  100 (539)
+T ss_dssp             SSCHHH
+T ss_pred             CCCHHH
+
+
+No 8
+>2WSW_A BCCT FAMILY BETAINE/CARNITINE/CHOLINE TRANSPORTER; TRANSPORT PROTEIN, SD METHIONINE, MEMBRANE; HET: CM5, 1PE; 2.294A {PROTEUS MIRABILIS}
+Probab=17.40  E-value=1.3e+02  Score=15.12  Aligned_cols=6  Identities=50%  Similarity=0.628  Sum_probs=0.0  Template_Neff=6.200
+
+Q EYSNFS            1 EYSNFS    6 (6)
+Q Consensus         1 eysnfs    6 (6)
+                      |||+||
+T Consensus        90 efS~~s   95 (509)
+T 2WSW_A           90 EFSTAS   95 (509)
+T ss_dssp             SSCHHH
+T ss_pred             CCCHHH
+
+
+No 9
+>5OQO_B Condensin complex subunit 3, Condensin; kleisin, HEAT repeat, DNA-binding, SMC; HET: PGE, TRS; 3.25A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=17.23  E-value=1.3e+02  Score=11.99  Aligned_cols=6  Identities=17%  Similarity=0.235  Sum_probs=0.0  Template_Neff=7.900
+
+Q EYSNFS            1 EYSNFS    6 (6)
+Q Consensus         1 eysnfs    6 (6)
+                      |||.|.
+T Consensus        13 ~ysyfd   18 (152)
+T 5OQO_B           13 LMAYFD   18 (152)
+T ss_pred             chhhcC
+
+
+No 10
+>5OQN_B Condensin complex subunit 3, Condensin; kleisin, HEAT repeat, DNA-binding, SMC; 3.15A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=17.03  E-value=1.3e+02  Score=11.76  Aligned_cols=6  Identities=17%  Similarity=0.235  Sum_probs=0.0  Template_Neff=7.600
+
+Q EYSNFS            1 EYSNFS    6 (6)
+Q Consensus         1 eysnfs    6 (6)
+                      |||.|.
+T Consensus        13 ~ysyf~   18 (125)
+T 5OQN_B           13 LMAYFD   18 (125)
+T ss_dssp             HHHHHH
+T ss_pred             hhhhhC
+
+

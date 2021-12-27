@@ -1,0 +1,155 @@
+Query         RVAFFE
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 12:52:23 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/RVAFFE/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/RVAFFE/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 1EF1_C CRYSTAL STRUCTURE OF TH  65.8     5.2 5.7E-05   15.9   0.0    6    1-6      83-88  (90)
+  2 4ZRJ_B Merlin,Merlin; Merlin,   60.0     7.8 8.7E-05   15.3   0.0    6    1-6      83-88  (90)
+  3 4RM8_A Ezrin; FERM domain, C-E  56.3      10 0.00011   17.6   0.0    6    1-6     580-585 (587)
+  4 7EDR_D Moesin/ezrin/radixin ho  55.0      11 0.00012   16.4   0.0    6    1-6     119-124 (126)
+  5 2I1J_A Moesin; FERM, coiled-co  42.7      23 0.00025   16.6   0.0    6    1-6     568-573 (575)
+  6 2I1K_A Moesin; FERM, coiled-co  42.7      23 0.00025   16.6   0.0    6    1-6     568-573 (575)
+  7 3VHL_A Dedicator of cytokinesi  14.7 1.7E+02  0.0018   12.8   0.0    5    1-5      18-22  (288)
+  8 7K36_B Serine/threonine-protei  13.6 1.9E+02   0.002   13.9   0.0    6    1-6      96-101 (713)
+  9 7K36_F Serine/threonine-protei  13.6 1.9E+02   0.002   13.9   0.0    6    1-6      96-101 (713)
+ 10 1U36_A NF-kB p50 transcription  12.6 2.1E+02  0.0023   11.4   0.0    6    1-6      35-40  (106)
+
+No 1
+>1EF1_C CRYSTAL STRUCTURE OF THE MOESIN; membrane, FERM domain, Tail domain; HET: MSE, SO4; 1.9A {Homo sapiens} SCOP: a.137.5.1
+Probab=65.75  E-value=5.2  Score=15.91  Aligned_cols=6  Identities=50%  Similarity=0.789  Sum_probs=4.5  Template_Neff=5.700
+
+Q RVAFFE            1 RVAFFE    6 (6)
+Q Consensus         1 rvaffe    6 (6)
+                      ||.|||
+T Consensus        83 Rvd~FE   88 (90)
+T 1EF1_C           83 RIDEFE   88 (90)
+T ss_pred             hhhhhh
+Confidence            678886
+
+
+No 2
+>4ZRJ_B Merlin,Merlin; Merlin, FERM, CTD, SIGNALING PROTEIN; HET: GOL; 2.3A {Homo sapiens}
+Probab=59.99  E-value=7.8  Score=15.30  Aligned_cols=6  Identities=100%  Similarity=1.558  Sum_probs=4.3  Template_Neff=5.900
+
+Q RVAFFE            1 RVAFFE    6 (6)
+Q Consensus         1 rvaffe    6 (6)
+                      ||.|||
+T Consensus        83 Rvd~FE   88 (90)
+T 4ZRJ_B           83 RVAFFE   88 (90)
+T ss_dssp             HHHHHH
+T ss_pred             HhHHHh
+Confidence            577876
+
+
+No 3
+>4RM8_A Ezrin; FERM domain, C-ERMAD domain, membrane; 1.9A {Homo sapiens}
+Probab=56.35  E-value=10  Score=17.55  Aligned_cols=6  Identities=50%  Similarity=0.789  Sum_probs=4.9  Template_Neff=8.500
+
+Q RVAFFE            1 RVAFFE    6 (6)
+Q Consensus         1 rvaffe    6 (6)
+                      ||+|||
+T Consensus       580 Rv~~fe  585 (587)
+T 4RM8_A          580 RIDEFE  585 (587)
+T ss_dssp             HHHHHH
+T ss_pred             cchhhh
+Confidence            788887
+
+
+No 4
+>7EDR_D Moesin/ezrin/radixin homolog 2,Moesin/ezrin/radixin homolog 2; NF2/Merlin, close conformation, lipid binding; 2.527A {Drosophila melanogaster}
+Probab=55.02  E-value=11  Score=16.36  Aligned_cols=6  Identities=100%  Similarity=1.558  Sum_probs=4.6  Template_Neff=4.500
+
+Q RVAFFE            1 RVAFFE    6 (6)
+Q Consensus         1 rvaffe    6 (6)
+                      ||+|||
+T Consensus       119 RVd~FE  124 (126)
+T 7EDR_D          119 RVAFFE  124 (126)
+T ss_dssp             HHHHHH
+T ss_pred             chHhHh
+Confidence            678886
+
+
+No 5
+>2I1J_A Moesin; FERM, coiled-coil, C-ERMAD, ERM, moesin; HET: GOL; 2.1A {Spodoptera frugiperda}
+Probab=42.73  E-value=23  Score=16.60  Aligned_cols=6  Identities=67%  Similarity=0.877  Sum_probs=4.8  Template_Neff=8.200
+
+Q RVAFFE            1 RVAFFE    6 (6)
+Q Consensus         1 rvaffe    6 (6)
+                      ||.|||
+T Consensus       568 rv~~fe  573 (575)
+T 2I1J_A          568 RVDQFE  573 (575)
+T ss_dssp             HHHHHH
+T ss_pred             cccccc
+Confidence            688886
+
+
+No 6
+>2I1K_A Moesin; FERM, coiled-coil, C-ERMAD, ERM, moesin; HET: GOL; 3.0A {Spodoptera frugiperda}
+Probab=42.73  E-value=23  Score=16.60  Aligned_cols=6  Identities=67%  Similarity=0.877  Sum_probs=4.8  Template_Neff=8.200
+
+Q RVAFFE            1 RVAFFE    6 (6)
+Q Consensus         1 rvaffe    6 (6)
+                      ||.|||
+T Consensus       568 rv~~fe  573 (575)
+T 2I1K_A          568 RVDQFE  573 (575)
+T ss_dssp             HHHHHH
+T ss_pred             cccccc
+Confidence            688886
+
+
+No 7
+>3VHL_A Dedicator of cytokinesis protein 8; signal transduction, guanine nucleotide exchang; HET: PO4; 2.085A {Mus musculus}
+Probab=14.70  E-value=1.7e+02  Score=12.83  Aligned_cols=5  Identities=60%  Similarity=1.378  Sum_probs=0.0  Template_Neff=8.000
+
+Q RVAFFE            1 RVAFF    5 (6)
+Q Consensus         1 rvaff    5 (6)
+                      ||+|+
+T Consensus        18 rV~F~   22 (288)
+T 3VHL_A           18 RVGFY   22 (288)
+T ss_dssp             EEEEE
+T ss_pred             EEEEe
+
+
+No 8
+>7K36_B Serine/threonine-protein phosphatase 2A 65 kDa; phosphorylation, complex, PP2A, SIGNALING PROTEIN; HET: IHP; 3.3A {Homo sapiens}
+Probab=13.61  E-value=1.9e+02  Score=13.85  Aligned_cols=6  Identities=50%  Similarity=1.160  Sum_probs=0.0  Template_Neff=9.000
+
+Q RVAFFE            1 RVAFFE    6 (6)
+Q Consensus         1 rvaffe    6 (6)
+                      |+||.|
+T Consensus        96 ~ia~l~  101 (713)
+T 7K36_B           96 RIAFLQ  101 (713)
+T ss_dssp             ------
+T ss_pred             HHHHHH
+
+
+No 9
+>7K36_F Serine/threonine-protein phosphatase 2A 65 kDa; phosphorylation, complex, PP2A, SIGNALING PROTEIN; HET: IHP; 3.3A {Homo sapiens}
+Probab=13.61  E-value=1.9e+02  Score=13.85  Aligned_cols=6  Identities=50%  Similarity=1.160  Sum_probs=0.0  Template_Neff=9.000
+
+Q RVAFFE            1 RVAFFE    6 (6)
+Q Consensus         1 rvaffe    6 (6)
+                      |+||.|
+T Consensus        96 ~ia~l~  101 (713)
+T 7K36_F           96 RIAFLQ  101 (713)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 10
+>1U36_A NF-kB p50 transcription factor; TRANSCRIPTION FACTOR  NF-KB ; 1.89A {Mus musculus} SCOP: b.1.18.1
+Probab=12.64  E-value=2.1e+02  Score=11.35  Aligned_cols=6  Identities=33%  Similarity=1.093  Sum_probs=0.0  Template_Neff=6.700
+
+Q RVAFFE            1 RVAFFE    6 (6)
+Q Consensus         1 rvaffe    6 (6)
+                      +|.|+|
+T Consensus        35 ~V~F~e   40 (106)
+T 1U36_A           35 QIRFYE   40 (106)
+T ss_dssp             EEEEEE
+T ss_pred             EEEEEE
+
+

@@ -1,0 +1,152 @@
+Query         KQFGGG
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 11:56:30 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/KQFGGG/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/KQFGGG/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6PNP_B Neurexin-1, Neurexophil  36.6      33 0.00037   15.1   0.0    6    1-6       8-13  (168)
+  2 6PNQ_B Neurexin-1, Neurexophil  36.6      33 0.00037   15.1   0.0    6    1-6       8-13  (168)
+  3 6LL7_A Inorganic pyrophosphata  19.0 1.1E+02  0.0012   12.3   0.0    6    1-6     275-280 (309)
+  4 6LL8_B Inorganic pyrophosphata  19.0 1.1E+02  0.0012   12.3   0.0    6    1-6     275-280 (309)
+  5 1ZC1_A Ubiquitin fusion degrad  18.4 1.2E+02  0.0013   12.4   0.0    4    3-6       8-11  (208)
+  6 7D3J_A 12i1-WT/RNA Complex; Th  17.4 1.3E+02  0.0014   17.8   0.0    5    2-6      50-54  (1101)
+  7 7EU9_A Cas12i1 D647A mutant/RN  17.4 1.3E+02  0.0014   17.8   0.0    5    2-6      50-54  (1101)
+  8 2HAW_A Manganese-dependent ino  16.8 1.3E+02  0.0015   12.0   0.0    6    1-6     276-281 (309)
+  9 5V3N_B Monopolin complex subun  15.8 1.5E+02  0.0016   11.6   0.0    5    1-5      16-20  (38)
+ 10 2VTB_A CRYPTOCHROME DASH (E.C.  15.6 1.5E+02  0.0017   13.7   0.0    5    2-6     507-511 (526)
+
+No 1
+>6PNP_B Neurexin-1, Neurexophilin-1; Synapse, complex, splice-variant, CELL ADHESION; 1.94A {Mus musculus}
+Probab=36.60  E-value=33  Score=15.07  Aligned_cols=6  Identities=50%  Similarity=1.099  Sum_probs=3.0  Template_Neff=5.500
+
+Q KQFGGG            1 KQFGGG    6 (6)
+Q Consensus         1 kqfggg    6 (6)
+                      |+||+|
+T Consensus         8 K~yG~G   13 (168)
+T 6PNP_B            8 RDFGWG   13 (168)
+T ss_dssp             -CCSCE
+T ss_pred             cccCCc
+Confidence            567744
+
+
+No 2
+>6PNQ_B Neurexin-1, Neurexophilin-1; Synapse, complex, splice-variant, CELL ADHESION; 1.947A {Mus musculus}
+Probab=36.60  E-value=33  Score=15.07  Aligned_cols=6  Identities=50%  Similarity=1.099  Sum_probs=2.3  Template_Neff=5.500
+
+Q KQFGGG            1 KQFGGG    6 (6)
+Q Consensus         1 kqfggg    6 (6)
+                      |+||+|
+T Consensus         8 K~yG~G   13 (168)
+T 6PNQ_B            8 RDFGWG   13 (168)
+T ss_dssp             --CCCE
+T ss_pred             cccCCc
+Confidence            567744
+
+
+No 3
+>6LL7_A Inorganic pyrophosphatase; Manganese-dependent inorganic pyrophosphatase, METAL BINDING; 2.2A {Shewanella sp. AS-11}
+Probab=18.98  E-value=1.1e+02  Score=12.30  Aligned_cols=6  Identities=17%  Similarity=0.639  Sum_probs=0.0  Template_Neff=10.200
+
+Q KQFGGG            1 KQFGGG    6 (6)
+Q Consensus         1 kqfggg    6 (6)
+                      ++||||
+T Consensus       275 ~~~ggg  280 (309)
+T 6LL7_A          275 RAYGKP  280 (309)
+T ss_dssp             HHHSCC
+T ss_pred             HHhCCC
+
+
+No 4
+>6LL8_B Inorganic pyrophosphatase; Manganese-dependent inorganic pyrophosphatase, METAL BINDING; HET: EPE, 2PN, MG, GOL; 1.3A {Shewanella sp. AS-11}
+Probab=18.98  E-value=1.1e+02  Score=12.30  Aligned_cols=6  Identities=17%  Similarity=0.639  Sum_probs=0.0  Template_Neff=10.200
+
+Q KQFGGG            1 KQFGGG    6 (6)
+Q Consensus         1 kqfggg    6 (6)
+                      ++||||
+T Consensus       275 ~~~ggg  280 (309)
+T 6LL8_B          275 RAYGKP  280 (309)
+T ss_dssp             HHHSCC
+T ss_pred             HHhCCC
+
+
+No 5
+>1ZC1_A Ubiquitin fusion degradation protein 1; Ufd1, double-psi-beta-barrel, PROTEIN TURNOVER; NMR {Saccharomyces cerevisiae}
+Probab=18.38  E-value=1.2e+02  Score=12.45  Aligned_cols=4  Identities=100%  Similarity=2.228  Sum_probs=0.0  Template_Neff=8.400
+
+Q KQFGGG            3 FGGG    6 (6)
+Q Consensus         3 fggg    6 (6)
+                      ||||
+T Consensus         8 ~~~~   11 (208)
+T 1ZC1_A            8 FGGG   11 (208)
+T ss_dssp             CCCS
+T ss_pred             ccCC
+
+
+No 6
+>7D3J_A 12i1-WT/RNA Complex; The RNP Complex 2, RNA; HET: CIT; 2.45A {Escherichia coli}
+Probab=17.38  E-value=1.3e+02  Score=17.82  Aligned_cols=5  Identities=100%  Similarity=1.963  Sum_probs=0.0  Template_Neff=1.000
+
+Q KQFGGG            2 QFGGG    6 (6)
+Q Consensus         2 qfggg    6 (6)
+                      |||||
+T Consensus        50 qfggg   54 (1101)
+T 7D3J_A           50 QFGGG   54 (1101)
+T ss_dssp             HHHHT
+T ss_pred             HhCCc
+
+
+No 7
+>7EU9_A Cas12i1 D647A mutant/RNA Complex; Cas12i, Cas12i1, CRISPR, RNA BINDING; HET: MSE, CIT; 2.35A {Lachnospiraceae bacterium ND2006}
+Probab=17.38  E-value=1.3e+02  Score=17.82  Aligned_cols=5  Identities=100%  Similarity=1.963  Sum_probs=0.0  Template_Neff=1.000
+
+Q KQFGGG            2 QFGGG    6 (6)
+Q Consensus         2 qfggg    6 (6)
+                      |||||
+T Consensus        50 qfggg   54 (1101)
+T 7EU9_A           50 QFGGG   54 (1101)
+T ss_dssp             HHHTT
+T ss_pred             HhCCc
+
+
+No 8
+>2HAW_A Manganese-dependent inorganic pyrophosphatase (E.C.3.6.1.1); pyrophosphatase, substrate complex, HYDROLASE; HET: 2PN, PG4, 1PE, GOL, SO4; 1.75A {Bacillus subtilis} SCOP: c.107.1.1
+Probab=16.80  E-value=1.3e+02  Score=12.02  Aligned_cols=6  Identities=33%  Similarity=0.335  Sum_probs=0.0  Template_Neff=10.300
+
+Q KQFGGG            1 KQFGGG    6 (6)
+Q Consensus         1 kqfggg    6 (6)
+                      +.||||
+T Consensus       276 ~~~ggg  281 (309)
+T 2HAW_A          276 KAFNVT  281 (309)
+T ss_dssp             HHHTCC
+T ss_pred             HHhCCC
+
+
+No 9
+>5V3N_B Monopolin complex subunit CSM1, Ulp2p,Topoisomerase; monopolin, cohibin, rDNA silencing, desumoylation; 1.3A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=15.78  E-value=1.5e+02  Score=11.60  Aligned_cols=5  Identities=80%  Similarity=1.245  Sum_probs=0.0  Template_Neff=1.000
+
+Q KQFGGG            1 KQFGG    5 (6)
+Q Consensus         1 kqfgg    5 (6)
+                      |||.|
+T Consensus        16 kqfeg   20 (38)
+T 5V3N_B           16 KQFEG   20 (38)
+T ss_dssp             C-CTT
+T ss_pred             HhccC
+
+
+No 10
+>2VTB_A CRYPTOCHROME DASH (E.C.4.1.99.3); LYASE-DNA COMPLEX, LYASE DNA COMPLEX; HET: MHF, FAD; 2.01A {ARABIDOPSIS THALIANA}
+Probab=15.61  E-value=1.5e+02  Score=13.65  Aligned_cols=5  Identities=60%  Similarity=1.232  Sum_probs=0.0  Template_Neff=8.800
+
+Q KQFGGG            2 QFGGG    6 (6)
+Q Consensus         2 qfggg    6 (6)
+                      |||||
+T Consensus       507 ~~~~~  511 (526)
+T 2VTB_A          507 KSGGG  511 (526)
+T ss_dssp             -----
+T ss_pred             CCCCC
+
+

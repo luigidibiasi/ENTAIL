@@ -1,0 +1,150 @@
+Query         PSGNNQ
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 06:33:00 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/PSGNNQ/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/PSGNNQ/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2J4M_A ENDOGLUCANASE 45A; DOCK  14.3 1.7E+02  0.0019   12.7   0.0    6    1-6      95-100 (100)
+  2 4U7U_M CasA, CasB, CasE, CasC,   8.6 3.5E+02  0.0039   12.4   0.0    5    1-5     122-126 (502)
+  3 5CD4_I CRISPR system Cascade s   8.6 3.5E+02  0.0039   12.4   0.0    5    1-5     122-126 (502)
+  4 2QLC_F DNA repair protein radC   8.1 3.8E+02  0.0042   10.1   0.0    4    1-4      78-81  (126)
+  5 6SSL_G Endogenous retrovirus g   7.7 4.1E+02  0.0045   11.6   0.0    6    1-6       9-14  (248)
+  6 7C9M_C D-histidine 2-aminobuta   7.3 4.4E+02  0.0049   10.5   0.0    5    2-6      12-16  (279)
+  7 2COR_A PINCH protein; LIM doma   7.2 4.5E+02  0.0049    7.4   0.0    6    1-6       1-6   (79)
+  8 7FD4_A AAA+ protease, Lon, com   7.1 4.6E+02  0.0051   12.7   0.0    6    1-6     782-787 (793)
+  9 2PJS_A Uncharacterized protein   7.0 4.6E+02  0.0051    8.1   0.0    4    1-4     108-111 (119)
+ 10 6HIF_d Hydrazine dehydrogenase   7.0 4.6E+02  0.0051    8.6   0.0    4    1-4     110-113 (114)
+
+No 1
+>2J4M_A ENDOGLUCANASE 45A; DOCKERIN, CELLULOSOME, PROTEIN BINDING, SMALL; NMR {PIROMYCES EQUI}
+Probab=14.27  E-value=1.7e+02  Score=12.71  Aligned_cols=6  Identities=67%  Similarity=1.027  Sum_probs=2.8  Template_Neff=3.700
+
+Q PSGNNQ            1 PSGNNQ    6 (6)
+Q Consensus         1 psgnnq    6 (6)
+                      |+.|||
+T Consensus        95 ~~~~~~  100 (100)
+T 2J4M_A           95 PQNNNQ  100 (100)
+T ss_dssp             SSSCCC
+T ss_pred             CCCCCC
+Confidence            344554
+
+
+No 2
+>4U7U_M CasA, CasB, CasE, CasC, CasD/RNA; RNA BINDING PROTEIN-RNA complex; 3.003A {Escherichia coli K12}
+Probab=8.59  E-value=3.5e+02  Score=12.43  Aligned_cols=5  Identities=20%  Similarity=0.375  Sum_probs=0.0  Template_Neff=8.900
+
+Q PSGNNQ            1 PSGNN    5 (6)
+Q Consensus         1 psgnn    5 (6)
+                      |+|||
+T Consensus       122 ~~~nn  126 (502)
+T 4U7U_M          122 SGATN  126 (502)
+T ss_dssp             BSSTT
+T ss_pred             CCCCc
+
+
+No 3
+>5CD4_I CRISPR system Cascade subunit CasE; CRISPR, Cascade, RNA Surveillance, Adaptive; HET: 23G; 3.2A {Escherichia coli}
+Probab=8.59  E-value=3.5e+02  Score=12.43  Aligned_cols=5  Identities=20%  Similarity=0.375  Sum_probs=0.0  Template_Neff=8.900
+
+Q PSGNNQ            1 PSGNN    5 (6)
+Q Consensus         1 psgnn    5 (6)
+                      |+|||
+T Consensus       122 ~~~nn  126 (502)
+T 5CD4_I          122 SGATN  126 (502)
+T ss_dssp             SSSHH
+T ss_pred             CCCCc
+
+
+No 4
+>2QLC_F DNA repair protein radC homolog; DNA repair protein, RadC, MCSG; 2.3A {Chlorobium tepidum TLS}
+Probab=8.07  E-value=3.8e+02  Score=10.10  Aligned_cols=4  Identities=75%  Similarity=1.547  Sum_probs=0.0  Template_Neff=8.500
+
+Q PSGNNQ            1 PSGN    4 (6)
+Q Consensus         1 psgn    4 (6)
+                      |||+
+T Consensus        78 Psg~   81 (126)
+T 2QLC_F           78 PSGD   81 (126)
+T ss_dssp             TTSC
+T ss_pred             CCCC
+
+
+No 5
+>6SSL_G Endogenous retrovirus group K member; Mature retrovirus capsid assembly, VIRAL; 3.77A {Homo sapiens}
+Probab=7.70  E-value=4.1e+02  Score=11.58  Aligned_cols=6  Identities=33%  Similarity=0.556  Sum_probs=0.0  Template_Neff=7.700
+
+Q PSGNNQ            1 PSGNNQ    6 (6)
+Q Consensus         1 psgnnq    6 (6)
+                      |||.||
+T Consensus         9 ~~~~~~   14 (248)
+T 6SSL_G            9 PGEGAQ   14 (248)
+T ss_dssp             ------
+T ss_pred             CCCCCC
+
+
+No 6
+>7C9M_C D-histidine 2-aminobutanoyltransferase (E.C.2.5.1.152); Metallophore, Biosynthesis, product, Aminobutyrate, Transferase; HET: FN6, MTA; 2.7A {Staphylococcus aureus subsp. aureus Mu50}
+Probab=7.26  E-value=4.4e+02  Score=10.51  Aligned_cols=5  Identities=60%  Similarity=0.773  Sum_probs=0.0  Template_Neff=10.200
+
+Q PSGNNQ            2 SGNNQ    6 (6)
+Q Consensus         2 sgnnq    6 (6)
+                      |||++
+T Consensus        12 ~~~~~   16 (279)
+T 7C9M_C           12 SGNEI   16 (279)
+T ss_dssp             CCCCH
+T ss_pred             chHHH
+
+
+No 7
+>2COR_A PINCH protein; LIM domain, PINCH protein, Particularly; HET: ZN; NMR {Homo sapiens} SCOP: g.39.1.3
+Probab=7.18  E-value=4.5e+02  Score=7.44  Aligned_cols=6  Identities=17%  Similarity=0.141  Sum_probs=0.0  Template_Neff=12.000
+
+Q PSGNNQ            1 PSGNNQ    6 (6)
+Q Consensus         1 psgnnq    6 (6)
+                      |+.+.|
+T Consensus         1 ~~~~~~    6 (79)
+T 2COR_A            1 GSSGSS    6 (79)
+T ss_dssp             CCSSCC
+T ss_pred             CCCCcc
+
+
+No 8
+>7FD4_A AAA+ protease, Lon, complete three-dimensional; HET: ADP, AGS, 4KZ; 2.4A {Bos taurus}
+Probab=7.06  E-value=4.6e+02  Score=12.67  Aligned_cols=6  Identities=67%  Similarity=0.927  Sum_probs=0.0  Template_Neff=9.400
+
+Q PSGNNQ            1 PSGNNQ    6 (6)
+Q Consensus         1 psgnnq    6 (6)
+                      |||+.|
+T Consensus       782 ~~~~~~  787 (793)
+T 7FD4_A          782 PSDNRQ  787 (793)
+T ss_dssp             ------
+T ss_pred             CCCCCC
+
+
+No 9
+>2PJS_A Uncharacterized protein Atu1953; Agrobacterium tumefaciens, Glyoxalase/Bleomycin resistance protein/Dioxygenase; 1.85A {Agrobacterium tumefaciens str.} SCOP: d.32.1.2
+Probab=7.03  E-value=4.6e+02  Score=8.08  Aligned_cols=4  Identities=50%  Similarity=1.016  Sum_probs=0.0  Template_Neff=12.100
+
+Q PSGNNQ            1 PSGN    4 (6)
+Q Consensus         1 psgn    4 (6)
+                      |+|+
+T Consensus       108 p~G~  111 (119)
+T 2PJS_A          108 PFGK  111 (119)
+T ss_dssp             TTSC
+T ss_pred             CCCC
+
+
+No 10
+>6HIF_d Hydrazine dehydrogenase (E.C.1.7.2.8), Uncharacterized protein; anammox, hydrazine, dehydrogenase, P460, redox; HET: SO4, GOL, HEC; 2.8A {Kuenenia stuttgartiensis}
+Probab=6.98  E-value=4.6e+02  Score=8.63  Aligned_cols=4  Identities=75%  Similarity=1.439  Sum_probs=0.0  Template_Neff=10.800
+
+Q PSGNNQ            1 PSGN    4 (6)
+Q Consensus         1 psgn    4 (6)
+                      |||+
+T Consensus       110 ~~~~  113 (114)
+T 6HIF_d          110 PSGS  113 (114)
+T ss_pred             CCCC
+
+

@@ -1,0 +1,150 @@
+Query         IINFIT
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 08:23:46 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/IINFIT/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/IINFIT/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4U5A_B Sporozoite Protein Esse  22.0      87 0.00097   15.4   0.0    6    1-6     170-175 (201)
+  2 4U5A_D Sporozoite Protein Esse  21.2      93   0.001   15.3   0.0    6    1-6     170-175 (201)
+  3 4MLK_A CT584 protein; CT584, C  16.5 1.4E+02  0.0015   14.6   0.0    6    1-6     100-105 (194)
+  4 3Q9D_A Protein CPn_0803/CP_106  16.3 1.4E+02  0.0016   14.9   0.0    6    1-6     136-141 (220)
+  5 2RBG_A Putative uncharacterize  16.3 1.4E+02  0.0016   13.7   0.0    6    1-6      37-42  (126)
+  6 6NU2_AU 39S ribosomal protein   15.7 1.5E+02  0.0017   13.0   0.0    4    3-6     140-143 (173)
+  7 5T4O_I ATP synthase subunit al  14.8 1.6E+02  0.0018   10.9   0.0    5    1-5      10-14  (155)
+  8 3BV8_A Tetrahydrodipicolinate   14.6 1.7E+02  0.0018   12.1   0.0    5    1-5       9-13  (87)
+  9 2J9V_A VACUOLAR PROTEIN SORTIN  14.1 1.8E+02  0.0019   12.0   0.0    4    3-6      16-19  (99)
+ 10 5AJ4_Ad MITORIBOSOMAL PROTEIN   13.6 1.8E+02   0.002   12.8   0.0    4    3-6     140-143 (177)
+
+No 1
+>4U5A_B Sporozoite Protein Essential for Cell; four helix bundle, TRANSPORT PROTEIN; 2.75A {Plasmodium berghei}
+Probab=22.01  E-value=87  Score=15.43  Aligned_cols=6  Identities=83%  Similarity=1.337  Sum_probs=3.8  Template_Neff=1.900
+
+Q IINFIT            1 IINFIT    6 (6)
+Q Consensus         1 iinfit    6 (6)
+                      +||||+
+T Consensus       170 LinFIs  175 (201)
+T 4U5A_B          170 LINFIT  175 (201)
+T ss_dssp             HHHHHH
+T ss_pred             HHHhHH
+Confidence            367774
+
+
+No 2
+>4U5A_D Sporozoite Protein Essential for Cell; four helix bundle, TRANSPORT PROTEIN; 2.75A {Plasmodium berghei}
+Probab=21.16  E-value=93  Score=15.33  Aligned_cols=6  Identities=83%  Similarity=1.337  Sum_probs=3.7  Template_Neff=1.900
+
+Q IINFIT            1 IINFIT    6 (6)
+Q Consensus         1 iinfit    6 (6)
+                      +||||+
+T Consensus       170 LinFIs  175 (201)
+T 4U5A_D          170 LINFIT  175 (201)
+T ss_dssp             HHHHHH
+T ss_pred             HHHhHH
+Confidence            367774
+
+
+No 3
+>4MLK_A CT584 protein; CT584, Chlamydia, hypothetical protein, UNKNOWN; 3.051A {Chlamydia trachomatis}
+Probab=16.49  E-value=1.4e+02  Score=14.64  Aligned_cols=6  Identities=83%  Similarity=1.237  Sum_probs=0.0  Template_Neff=2.400
+
+Q IINFIT            1 IINFIT    6 (6)
+Q Consensus         1 iinfit    6 (6)
+                      .+||||
+T Consensus       100 FlnFIT  105 (194)
+T 4MLK_A          100 FINFIT  105 (194)
+T ss_dssp             SEEEEE
+T ss_pred             chhhhc
+
+
+No 4
+>3Q9D_A Protein CPn_0803/CP_1068/CPj0803/CpB0832; Coiled-coil, Needle Tip TypeIII Secretion; 2.0A {Chlamydophila pneumoniae}
+Probab=16.30  E-value=1.4e+02  Score=14.87  Aligned_cols=6  Identities=83%  Similarity=1.237  Sum_probs=0.0  Template_Neff=2.300
+
+Q IINFIT            1 IINFIT    6 (6)
+Q Consensus         1 iinfit    6 (6)
+                      .+||||
+T Consensus       136 FLnFIT  141 (220)
+T 3Q9D_A          136 FINFIT  141 (220)
+T ss_dssp             BEEEEE
+T ss_pred             chhhcc
+
+
+No 5
+>2RBG_A Putative uncharacterized protein ST0493; Hypothetical protein, STRUCTURAL GENOMICS, UNKNOWN; HET: MSE; 1.75A {Sulfolobus tokodaii}
+Probab=16.26  E-value=1.4e+02  Score=13.75  Aligned_cols=6  Identities=50%  Similarity=0.600  Sum_probs=0.0  Template_Neff=2.600
+
+Q IINFIT            1 IINFIT    6 (6)
+Q Consensus         1 iinfit    6 (6)
+                      |||+|+
+T Consensus        37 iiNvis   42 (126)
+T 2RBG_A           37 TINVFT   42 (126)
+T ss_dssp             EEEEEC
+T ss_pred             EEEeec
+
+
+No 6
+>6NU2_AU 39S ribosomal protein L2, mitochondrial; mitochondrial ribosome recycling Factor, mtRRF; HET: MG; 3.9A {Homo sapiens}
+Probab=15.72  E-value=1.5e+02  Score=13.02  Aligned_cols=4  Identities=100%  Similarity=1.439  Sum_probs=0.0  Template_Neff=5.900
+
+Q IINFIT            3 NFIT    6 (6)
+Q Consensus         3 nfit    6 (6)
+                      ||||
+T Consensus       140 ~FIT  143 (173)
+T 6NU2_AU         140 NFIT  143 (173)
+T ss_pred             CCCC
+
+
+No 7
+>5T4O_I ATP synthase subunit alpha (E.C.3.6.3.14); ATP synthase, ATPase, rotary motor; HET: ADP, ATP; 6.9A {Escherichia coli}
+Probab=14.77  E-value=1.6e+02  Score=10.90  Aligned_cols=5  Identities=40%  Similarity=0.866  Sum_probs=0.0  Template_Neff=9.600
+
+Q IINFIT            1 IINFI    5 (6)
+Q Consensus         1 iinfi    5 (6)
+                      ++||+
+T Consensus        10 ~i~F~   14 (155)
+T 5T4O_I           10 AIAFV   14 (155)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 8
+>3BV8_A Tetrahydrodipicolinate acetyltransferase; acetyltransferase, pfam08503, Structural Genomics, PSI-2; 1.75A {Staphylococcus aureus subsp. aureus}
+Probab=14.63  E-value=1.7e+02  Score=12.11  Aligned_cols=5  Identities=60%  Similarity=1.185  Sum_probs=0.0  Template_Neff=4.700
+
+Q IINFIT            1 IINFI    5 (6)
+Q Consensus         1 iinfi    5 (6)
+                      ||+||
+T Consensus         9 Ii~yI   13 (87)
+T 3BV8_A            9 IIQYI   13 (87)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 9
+>2J9V_A VACUOLAR PROTEIN SORTING-ASSOCIATED PROTEIN 28; NZF FINGER, HIV BUDDING, PROTEIN; 2.0A {SACCHAROMYCES CEREVISIAE} SCOP: a.24.28.1
+Probab=14.10  E-value=1.8e+02  Score=12.04  Aligned_cols=4  Identities=100%  Similarity=1.439  Sum_probs=0.0  Template_Neff=5.300
+
+Q IINFIT            3 NFIT    6 (6)
+Q Consensus         3 nfit    6 (6)
+                      +|||
+T Consensus        16 ~FIT   19 (99)
+T 2J9V_A           16 NFIT   19 (99)
+T ss_dssp             HHHH
+T ss_pred             HHHH
+
+
+No 10
+>5AJ4_Ad MITORIBOSOMAL PROTEIN US2M, MRPS2, MITORIBOSOMAL; RIBOSOME, TRANSLATION, MITOCHONDRIA, MAMMALIAN 55S; HET: Y5P, GDP, P5P, MG; 3.8A {SUS SCROFA}
+Probab=13.64  E-value=1.8e+02  Score=12.79  Aligned_cols=4  Identities=75%  Similarity=1.165  Sum_probs=0.0  Template_Neff=5.900
+
+Q IINFIT            3 NFIT    6 (6)
+Q Consensus         3 nfit    6 (6)
+                      +|||
+T Consensus       140 ~FIT  143 (177)
+T 5AJ4_Ad         140 TFIT  143 (177)
+T ss_pred             cCCC
+
+

@@ -1,0 +1,145 @@
+Query         QQSYNP
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 10:12:36 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QQSYNP/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QQSYNP/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 7JPP_E Origin recognition comp  12.8   2E+02  0.0022   11.8   0.0    4    3-6     317-320 (435)
+  2 2ILT_A Corticosteroid 11-beta-  12.7   2E+02  0.0023   10.8   0.0    5    1-5     271-275 (275)
+  3 2HH2_A KH-type splicing regula  12.6 2.1E+02  0.0023    9.9   0.0    6    1-6     102-107 (107)
+  4 6SPF_p 50S ribosomal protein L  12.4 2.1E+02  0.0023   11.1   0.0    4    3-6      38-41  (78)
+  5 4BJ6_A RAP1-INTERACTING FACTOR  12.3 2.1E+02  0.0024   15.3   0.0    5    1-5     276-280 (365)
+  6 6SPC_p 30S ribosomal protein S  12.0 2.2E+02  0.0024   11.0   0.0    4    3-6      38-41  (78)
+  7 4BJ5_B PROTEIN RIF2, DNA-BINDI  11.6 2.3E+02  0.0026   15.3   0.0    5    1-5     310-314 (399)
+  8 5J8A_AP 30S ribosomal protein   11.4 2.4E+02  0.0026   11.1   0.0    4    3-6      38-41  (82)
+  9 7K53_U Ribosome, tRNA, TRANSLA  11.4 2.4E+02  0.0026   11.1   0.0    4    3-6      38-41  (82)
+ 10 5T7V_S7 PROTEIN/RNA Complex; 7  10.7 2.6E+02  0.0029   10.8   0.0    4    3-6      38-41  (76)
+
+No 1
+>7JPP_E Origin recognition complex subunit 1; replication, AAA+, ORC, DNA-binding, cryoEM; HET: ATP;{Homo sapiens}
+Probab=12.77  E-value=2e+02  Score=11.80  Aligned_cols=4  Identities=100%  Similarity=1.780  Sum_probs=0.0  Template_Neff=11.000
+
+Q QQSYNP            3 SYNP    6 (6)
+Q Consensus         3 synp    6 (6)
+                      ||||
+T Consensus       317 s~np  320 (435)
+T 7JPP_E          317 SYNP  320 (435)
+T ss_dssp             HTSC
+T ss_pred             hcCC
+
+
+No 2
+>2ILT_A Corticosteroid 11-beta-dehydrogenase isozyme 1 (E.C.1.1.1.146); HSD1, NADP, inhibitor, OXIDOREDUCTASE; HET: NN1, NAP; 2.3A {Homo sapiens}
+Probab=12.70  E-value=2e+02  Score=10.81  Aligned_cols=5  Identities=60%  Similarity=0.933  Sum_probs=0.0  Template_Neff=11.300
+
+Q QQSYNP            1 QQSYN    5 (6)
+Q Consensus         1 qqsyn    5 (6)
+                      |++||
+T Consensus       271 ~~~~~  275 (275)
+T 2ILT_A          271 STSYN  275 (275)
+T ss_dssp             HHHHC
+T ss_pred             hhhcC
+
+
+No 3
+>2HH2_A KH-type splicing regulatory protein; KH-RNA binding domain, RNA BINDING; NMR {Homo sapiens}
+Probab=12.63  E-value=2.1e+02  Score=9.87  Aligned_cols=6  Identities=17%  Similarity=0.440  Sum_probs=0.0  Template_Neff=9.800
+
+Q QQSYNP            1 QQSYNP    6 (6)
+Q Consensus         1 qqsynp    6 (6)
+                      .+.|||
+T Consensus       102 ~~~~~~  107 (107)
+T 2HH2_A          102 PGPFNQ  107 (107)
+T ss_dssp             ------
+T ss_pred             CCCCCC
+
+
+No 4
+>6SPF_p 50S ribosomal protein L2, 50S; Ribosome, Pseudomonas aeruginosa; 2.89A {Pseudomonas aeruginosa}
+Probab=12.45  E-value=2.1e+02  Score=11.07  Aligned_cols=4  Identities=50%  Similarity=1.140  Sum_probs=0.0  Template_Neff=6.000
+
+Q QQSYNP            3 SYNP    6 (6)
+Q Consensus         3 synp    6 (6)
+                      +|||
+T Consensus        38 ~ynP   41 (78)
+T 6SPF_p           38 FFNP   41 (78)
+T ss_pred             EEeC
+
+
+No 5
+>4BJ6_A RAP1-INTERACTING FACTOR 2, DNA-BINDING PROTEIN; TRANSCRIPTION, GENOME STABILITY, TELOMERE ASSOCIATED; HET: SO4; 3.26A {SACCHAROMYCES CEREVISIAE}
+Probab=12.35  E-value=2.1e+02  Score=15.27  Aligned_cols=5  Identities=80%  Similarity=0.993  Sum_probs=0.0  Template_Neff=1.600
+
+Q QQSYNP            1 QQSYN    5 (6)
+Q Consensus         1 qqsyn    5 (6)
+                      +||||
+T Consensus       276 lQsYN  280 (365)
+T 4BJ6_A          276 LQSYN  280 (365)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 6
+>6SPC_p 30S ribosomal protein S2, 30S; Ribosome, Pseudomonas aeruginosa; 2.95A {Pseudomonas aeruginosa}
+Probab=12.03  E-value=2.2e+02  Score=11.02  Aligned_cols=4  Identities=50%  Similarity=1.140  Sum_probs=0.0  Template_Neff=6.000
+
+Q QQSYNP            3 SYNP    6 (6)
+Q Consensus         3 synp    6 (6)
+                      +|||
+T Consensus        38 ~y~P   41 (78)
+T 6SPC_p           38 FFNP   41 (78)
+T ss_pred             EEcC
+
+
+No 7
+>4BJ5_B PROTEIN RIF2, DNA-BINDING PROTEIN RAP1; TRANSCRIPTION, GENOME STABILITY, TELOMERE ASSOCIATED; HET: SO4; 3.29A {SACCHAROMYCES CEREVISIAE}
+Probab=11.58  E-value=2.3e+02  Score=15.29  Aligned_cols=5  Identities=80%  Similarity=0.993  Sum_probs=0.0  Template_Neff=1.500
+
+Q QQSYNP            1 QQSYN    5 (6)
+Q Consensus         1 qqsyn    5 (6)
+                      +||||
+T Consensus       310 lQsYN  314 (399)
+T 4BJ5_B          310 LQSYN  314 (399)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 8
+>5J8A_AP 30S ribosomal protein S2, 30S; ribosome, resistance, negamycin, tigecycline, tetracycline; HET: 6MZ, 4OC, 7MG, H2U, UR3, MA6, MPD, T1C, 5MU, EDO, ACY, GUN, 2MA, OMG, PUT, 4D4, PG4, 5MC, OMC, 1MG, MEQ, MG, SPD, PGE, D2T, 3TD, PEG, PSU, 1PE, OMU, 2MG; 3.1A {Escherichia coli (strain K12)}
+Probab=11.43  E-value=2.4e+02  Score=11.07  Aligned_cols=4  Identities=50%  Similarity=1.140  Sum_probs=0.0  Template_Neff=5.900
+
+Q QQSYNP            3 SYNP    6 (6)
+Q Consensus         3 synp    6 (6)
+                      +|||
+T Consensus        38 ~y~P   41 (82)
+T 5J8A_AP          38 FFNP   41 (82)
+T ss_pred             eecC
+
+
+No 9
+>7K53_U Ribosome, tRNA, TRANSLATION; HET: FME; 3.2A {Escherichia coli (strain K12)}
+Probab=11.43  E-value=2.4e+02  Score=11.07  Aligned_cols=4  Identities=50%  Similarity=1.140  Sum_probs=0.0  Template_Neff=5.900
+
+Q QQSYNP            3 SYNP    6 (6)
+Q Consensus         3 synp    6 (6)
+                      +|||
+T Consensus        38 ~y~P   41 (82)
+T 7K53_U           38 FFNP   41 (82)
+T ss_pred             eecC
+
+
+No 10
+>5T7V_S7 PROTEIN/RNA Complex; 70S ribosome, methicillin resistant, linezolid; HET: MG; 3.6A {Staphylococcus aureus}
+Probab=10.66  E-value=2.6e+02  Score=10.77  Aligned_cols=4  Identities=75%  Similarity=1.721  Sum_probs=0.0  Template_Neff=6.000
+
+Q QQSYNP            3 SYNP    6 (6)
+Q Consensus         3 synp    6 (6)
+                      +|||
+T Consensus        38 ~ydP   41 (76)
+T 5T7V_S7          38 TYNP   41 (76)
+T ss_pred             eecC
+
+

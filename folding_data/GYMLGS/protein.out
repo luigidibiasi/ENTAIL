@@ -1,0 +1,262 @@
+Query         GYMLGS
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 05:25:31 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GYMLGS/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GYMLGS/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 1Y16_A prion protein, PrP, Prn  86.9    0.38 4.2E-06   21.3   0.0    6    1-6       7-12  (112)
+  2 6AQ7_A Major prion protein, PO  85.7    0.49 5.5E-06   21.2   0.0    6    1-6      23-28  (122)
+  3 1U5L_A prion protein; Prnp, Pr  77.8     1.7 1.9E-05   18.7   0.0    6    1-6       9-14  (108)
+  4 1U3M_A prion-like protein; PRI  77.3     1.8   2E-05   18.8   0.0    6    1-6       9-14  (117)
+  5 6HER_A Nanobody 484, Mouse Pri  75.0     2.3 2.5E-05   18.4   0.0    6    1-6      10-15  (110)
+  6 4HLS_B Major prion protein; pr  66.7     4.8 5.3E-05   18.3   0.0    6    1-6      29-34  (132)
+  7 4HMM_A Major prion protein; pr  66.7     4.8 5.3E-05   18.3   0.0    6    1-6      29-34  (132)
+  8 7LNA_A infectious mammalian pr  62.4     6.6 7.3E-05   18.1   0.0    6    1-6      38-43  (142)
+  9 2LFT_A Major prion protein; pr  60.3     7.7 8.5E-05   17.8   0.0    6    1-6      38-43  (142)
+ 10 4N9O_A Major prion protein, Na  58.8     8.5 9.4E-05   17.7   0.0    6    1-6      38-43  (142)
+ 11 7CQM_A selenourea, Se-SAD, LCP  42.2      24 0.00026   15.1   0.0    6    1-6      11-16  (201)
+ 12 1XU0_A prion protein; PRION, A  34.6      37 0.00041   15.3   0.0    6    1-6      31-36  (130)
+ 13 5XJ5_A Glycerol-3-phosphate ac  33.6      40 0.00044   14.6   0.0    6    1-6      11-16  (201)
+ 14 7BUF_D SIgN-3C IgG heavy chain  25.1      70 0.00077   13.3   0.0    6    1-6      50-55  (72)
+ 15 6ZQV_B Flavivirus, VIRUS; HET:  22.8      82 0.00091   13.2   0.0    6    1-6      50-55  (75)
+ 16 4CBF_F ENVELOPE PROTEIN E, M P  21.2      93   0.001   13.0   0.0    6    1-6      50-55  (74)
+ 17 7KV8_c Flavivirus, glycoprotei  21.1      93   0.001   13.1   0.0    6    1-6      50-55  (75)
+
+No 1
+>1Y16_A prion protein, PrP, PrnP, TSE; NMR {Mus musculus}
+Probab=86.90  E-value=0.38  Score=21.32  Aligned_cols=6  Identities=100%  Similarity=1.747  Sum_probs=5.2  Template_Neff=2.400
+
+Q GYMLGS            1 GYMLGS    6 (6)
+Q Consensus         1 gymlgs    6 (6)
+                      ||||||
+T Consensus         7 GY~LGs   12 (112)
+T 1Y16_A            7 GYMLGS   12 (112)
+T ss_dssp             SCEECS
+T ss_pred             HHhHHh
+Confidence            799997
+
+
+No 2
+>6AQ7_A Major prion protein, POM6 FAB; Prion, antibody, chaperone, antigen-antibody, IMMUNE; HET: TCE, GOL; 1.83A {Mus musculus}
+Probab=85.70  E-value=0.49  Score=21.22  Aligned_cols=6  Identities=100%  Similarity=1.747  Sum_probs=5.1  Template_Neff=2.300
+
+Q GYMLGS            1 GYMLGS    6 (6)
+Q Consensus         1 gymlgs    6 (6)
+                      ||||||
+T Consensus        23 GY~LGs   28 (122)
+T 6AQ7_A           23 GYMLGS   28 (122)
+T ss_dssp             CCEECC
+T ss_pred             HHhHHh
+Confidence            799986
+
+
+No 3
+>1U5L_A prion protein; Prnp, PrP, prion, TSE, MEMBRANE; NMR {Trachemys scripta} SCOP: d.6.1.1
+Probab=77.83  E-value=1.7  Score=18.67  Aligned_cols=6  Identities=83%  Similarity=1.470  Sum_probs=4.7  Template_Neff=3.900
+
+Q GYMLGS            1 GYMLGS    6 (6)
+Q Consensus         1 gymlgs    6 (6)
+                      ||+|||
+T Consensus         9 gy~lG~   14 (108)
+T 1U5L_A            9 GYALGS   14 (108)
+T ss_dssp             TSEECC
+T ss_pred             hhhccc
+Confidence            788886
+
+
+No 4
+>1U3M_A prion-like protein; PRION PROTEIN, TSE, PRP, MEMBRANE; NMR {Gallus gallus} SCOP: d.6.1.1
+Probab=77.30  E-value=1.8  Score=18.83  Aligned_cols=6  Identities=50%  Similarity=1.270  Sum_probs=4.8  Template_Neff=3.800
+
+Q GYMLGS            1 GYMLGS    6 (6)
+Q Consensus         1 gymlgs    6 (6)
+                      ||+|||
+T Consensus         9 gy~lG~   14 (117)
+T 1U3M_A            9 GYAMGR   14 (117)
+T ss_dssp             CCEECC
+T ss_pred             hhhccc
+Confidence            788886
+
+
+No 5
+>6HER_A Nanobody 484, Mouse Prion protein; Prion, Nanobody, aggregation, B-sheet, PROTEIN; HET: SO4; 1.199A {Mus musculus}
+Probab=75.01  E-value=2.3  Score=18.36  Aligned_cols=6  Identities=100%  Similarity=1.747  Sum_probs=3.8  Template_Neff=3.800
+
+Q GYMLGS            1 GYMLGS    6 (6)
+Q Consensus         1 gymlgs    6 (6)
+                      ||+|||
+T Consensus        10 gy~lG~   15 (110)
+T 6HER_A           10 GYMLGS   15 (110)
+T ss_dssp             EEC-CC
+T ss_pred             HHhhhc
+Confidence            688885
+
+
+No 6
+>4HLS_B Major prion protein; prp, prion, membrane, MEMBRANE PROTEIN; HET: GOL; 1.45A {Oryctolagus cuniculus}
+Probab=66.73  E-value=4.8  Score=18.31  Aligned_cols=6  Identities=100%  Similarity=1.747  Sum_probs=4.4  Template_Neff=2.600
+
+Q GYMLGS            1 GYMLGS    6 (6)
+Q Consensus         1 gymlgs    6 (6)
+                      ||+||+
+T Consensus        29 GY~LGr   34 (132)
+T 4HLS_B           29 GYMLGS   34 (132)
+T ss_dssp             CCEECC
+T ss_pred             HHHhhc
+Confidence            688875
+
+
+No 7
+>4HMM_A Major prion protein; prp, prion, membrane, MEMBRANE PROTEIN; HET: GOL; 1.5A {Oryctolagus cuniculus}
+Probab=66.72  E-value=4.8  Score=18.31  Aligned_cols=6  Identities=100%  Similarity=1.747  Sum_probs=4.4  Template_Neff=2.600
+
+Q GYMLGS            1 GYMLGS    6 (6)
+Q Consensus         1 gymlgs    6 (6)
+                      ||+||+
+T Consensus        29 GY~LGr   34 (132)
+T 4HMM_A           29 GYMLGS   34 (132)
+T ss_dssp             CCEECC
+T ss_pred             HHHhhc
+Confidence            688875
+
+
+No 8
+>7LNA_A infectious mammalian prion, templating, glycosylated; 3.1A {Mesocricetus auratus}
+Probab=62.44  E-value=6.6  Score=18.05  Aligned_cols=6  Identities=100%  Similarity=1.747  Sum_probs=4.3  Template_Neff=2.600
+
+Q GYMLGS            1 GYMLGS    6 (6)
+Q Consensus         1 gymlgs    6 (6)
+                      ||+||+
+T Consensus        38 GY~LGr   43 (142)
+T 7LNA_A           38 GYMLGS   43 (142)
+T ss_dssp             CSCBSC
+T ss_pred             HHHhHh
+Confidence            678875
+
+
+No 9
+>2LFT_A Major prion protein; protective mutant, membrane protein, protein; NMR {Homo sapiens}
+Probab=60.32  E-value=7.7  Score=17.83  Aligned_cols=6  Identities=100%  Similarity=1.747  Sum_probs=4.3  Template_Neff=2.700
+
+Q GYMLGS            1 GYMLGS    6 (6)
+Q Consensus         1 gymlgs    6 (6)
+                      ||+||+
+T Consensus        38 GY~LGr   43 (142)
+T 2LFT_A           38 GYMLGS   43 (142)
+T ss_dssp             SCCEEE
+T ss_pred             HHHHHc
+Confidence            677775
+
+
+No 10
+>4N9O_A Major prion protein, Nanobody Nb484; Prion-like fold, antibody, nanobody, MEMBRANE; 1.5A {Homo sapiens}
+Probab=58.77  E-value=8.5  Score=17.69  Aligned_cols=6  Identities=100%  Similarity=1.747  Sum_probs=4.2  Template_Neff=2.700
+
+Q GYMLGS            1 GYMLGS    6 (6)
+Q Consensus         1 gymlgs    6 (6)
+                      ||+||+
+T Consensus        38 GY~LGr   43 (142)
+T 4N9O_A           38 GYMLGS   43 (142)
+T ss_dssp             EEEECC
+T ss_pred             HHHHHc
+Confidence            677775
+
+
+No 11
+>7CQM_A selenourea, Se-SAD, LCP, PlsY, TRANSFERASE; HET: SO4, SEY, 79M; 1.8A {Aquifex aeolicus VF5}
+Probab=42.24  E-value=24  Score=15.15  Aligned_cols=6  Identities=67%  Similarity=1.326  Sum_probs=3.6  Template_Neff=6.900
+
+Q GYMLGS            1 GYMLGS    6 (6)
+Q Consensus         1 gymlgs    6 (6)
+                      ||.+||
+T Consensus        11 ~Yl~Gs   16 (201)
+T 7CQM_A           11 AYLLGS   16 (201)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHc
+Confidence            466665
+
+
+No 12
+>1XU0_A prion protein; PRION, AMPHIBIAN, GLYCOPROTEIN, MEMBRANE PROTEIN; NMR {Xenopus laevis} SCOP: d.6.1.1
+Probab=34.64  E-value=37  Score=15.27  Aligned_cols=6  Identities=83%  Similarity=1.675  Sum_probs=3.4  Template_Neff=3.500
+
+Q GYMLGS            1 GYMLGS    6 (6)
+Q Consensus         1 gymlgs    6 (6)
+                      ||+||+
+T Consensus        31 G~~lg~   36 (130)
+T 1XU0_A           31 GYMLGN   36 (130)
+T ss_dssp             EEEEEE
+T ss_pred             HHHHHc
+Confidence            566663
+
+
+No 13
+>5XJ5_A Glycerol-3-phosphate acyltransferase (E.C.2.3.1.-); glycerol 3-phosphate acyltransferase, glycerylphosphate acyltransferase; HET: FME, PGE, 78M, SO4; 1.481A {Aquifex aeolicus}
+Probab=33.59  E-value=40  Score=14.60  Aligned_cols=6  Identities=67%  Similarity=1.326  Sum_probs=3.5  Template_Neff=6.700
+
+Q GYMLGS            1 GYMLGS    6 (6)
+Q Consensus         1 gymlgs    6 (6)
+                      ||.+||
+T Consensus        11 ~Yl~Gs   16 (201)
+T 5XJ5_A           11 AYLLGS   16 (201)
+T ss_dssp             HHHHHT
+T ss_pred             HHHHHc
+Confidence            466665
+
+
+No 14
+>7BUF_D SIgN-3C IgG heavy chain, SIgN-3C; Dengue virus, antibody, neutralization, VIRUS;{Dengue virus 2}
+Probab=25.09  E-value=70  Score=13.31  Aligned_cols=6  Identities=33%  Similarity=1.032  Sum_probs=3.0  Template_Neff=3.400
+
+Q GYMLGS            1 GYMLGS    6 (6)
+Q Consensus         1 gymlgs    6 (6)
+                      +||+|+
+T Consensus        50 aw~~g~   55 (72)
+T 7BUF_D           50 AYTIGT   55 (72)
+T ss_pred             HHHHcC
+Confidence            355553
+
+
+No 15
+>6ZQV_B Flavivirus, VIRUS; HET: FUC, 3PE, NAG;{Spondweni virus}
+Probab=22.81  E-value=82  Score=13.22  Aligned_cols=6  Identities=67%  Similarity=1.270  Sum_probs=2.9  Template_Neff=3.300
+
+Q GYMLGS            1 GYMLGS    6 (6)
+Q Consensus         1 gymlgs    6 (6)
+                      +||+|+
+T Consensus        50 ~w~~g~   55 (75)
+T 6ZQV_B           50 GWTLGS   55 (75)
+T ss_dssp             HHHHCS
+T ss_pred             HHHHcC
+Confidence            355553
+
+
+No 16
+>4CBF_F ENVELOPE PROTEIN E, M PROTEIN; FLAVIVIRUS, VIRUS; 4.1A {DENGUE VIRUS 2}
+Probab=21.23  E-value=93  Score=13.04  Aligned_cols=6  Identities=50%  Similarity=1.232  Sum_probs=2.9  Template_Neff=3.300
+
+Q GYMLGS            1 GYMLGS    6 (6)
+Q Consensus         1 gymlgs    6 (6)
+                      +||+|+
+T Consensus        50 aw~~g~   55 (74)
+T 4CBF_F           50 AYMIGQ   55 (74)
+T ss_pred             HHHHhc
+Confidence            355553
+
+
+No 17
+>7KV8_c Flavivirus, glycoprotein, entry, fusion, VIRUS; HET: 1Q0, 6OU, NAG; 2.5A {Dengue virus 2}
+Probab=21.15  E-value=93  Score=13.06  Aligned_cols=6  Identities=33%  Similarity=1.032  Sum_probs=2.8  Template_Neff=3.300
+
+Q GYMLGS            1 GYMLGS    6 (6)
+Q Consensus         1 gymlgs    6 (6)
+                      +||+|+
+T Consensus        50 aw~~g~   55 (75)
+T 7KV8_c           50 AYTIGT   55 (75)
+T ss_pred             HHHHcC
+Confidence            355553
+
+

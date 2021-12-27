@@ -1,0 +1,150 @@
+Query         HATVYV
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 06:02:58 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/HATVYV/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/HATVYV/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6JLC_A CAMP factor; Bacterial   13.3 1.9E+02  0.0021   14.0   0.0    5    2-6     150-154 (231)
+  2 4JBM_A Interferon-inducible pr  12.0 2.2E+02  0.0025   13.6   0.0    4    1-4      28-31  (193)
+  3 4JBM_B Interferon-inducible pr  11.9 2.3E+02  0.0025   13.6   0.0    4    1-4      28-31  (193)
+  4 4L5T_C Ifi202b; HIN200  OB-fol  11.7 2.3E+02  0.0025   13.7   0.0    4    1-4      41-44  (203)
+  5 4L5R_C Interferon-activable pr  11.7 2.3E+02  0.0025   13.6   0.0    4    1-4      39-42  (198)
+  6 5H6I_A Protein B; Pore forming  11.5 2.4E+02  0.0026   14.0   0.0    5    2-6     174-178 (246)
+  7 4L5T_B Ifi202b; HIN200  OB-fol  11.3 2.4E+02  0.0027   13.6   0.0    4    1-4      41-44  (203)
+  8 3RLO_A Gamma-interferon-induci  11.2 2.5E+02  0.0027   13.6   0.0    4    1-4      35-38  (204)
+  9 3RNU_B Gamma-interferon-induci  11.2 2.5E+02  0.0027   13.6   0.0    4    1-4      35-38  (204)
+ 10 2OQ0_B Gamma-interferon-induci  11.2 2.5E+02  0.0027   13.6   0.0    4    1-4      43-46  (206)
+
+No 1
+>6JLC_A CAMP factor; Bacterial vaginosis, Mobiluncus curtisii, toxin; 1.847A {Mobiluncus curtisii (strain ATCC 43063 / DSM 2711 / V125)}
+Probab=13.31  E-value=1.9e+02  Score=14.03  Aligned_cols=5  Identities=80%  Similarity=1.278  Sum_probs=0.0  Template_Neff=4.000
+
+Q HATVYV            2 ATVYV    6 (6)
+Q Consensus         2 atvyv    6 (6)
+                      ||+|+
+T Consensus       150 ATiYv  154 (231)
+T 6JLC_A          150 ATIYV  154 (231)
+T ss_dssp             CCHHH
+T ss_pred             hhHHH
+
+
+No 2
+>4JBM_A Interferon-inducible protein AIM2/DNA; OB FOLD, DNA, DNA BINDING; 2.218A {Mus musculus}
+Probab=11.97  E-value=2.2e+02  Score=13.60  Aligned_cols=4  Identities=100%  Similarity=1.190  Sum_probs=0.0  Template_Neff=3.700
+
+Q HATVYV            1 HATV    4 (6)
+Q Consensus         1 hatv    4 (6)
+                      ||||
+T Consensus        28 HATV   31 (193)
+T 4JBM_A           28 HATV   31 (193)
+T ss_dssp             EEEE
+T ss_pred             EEEE
+
+
+No 3
+>4JBM_B Interferon-inducible protein AIM2/DNA; OB FOLD, DNA, DNA BINDING; 2.218A {Mus musculus}
+Probab=11.87  E-value=2.3e+02  Score=13.62  Aligned_cols=4  Identities=100%  Similarity=1.190  Sum_probs=0.0  Template_Neff=3.600
+
+Q HATVYV            1 HATV    4 (6)
+Q Consensus         1 hatv    4 (6)
+                      ||||
+T Consensus        28 HATV   31 (193)
+T 4JBM_B           28 HATV   31 (193)
+T ss_dssp             EEEE
+T ss_pred             EEEE
+
+
+No 4
+>4L5T_C Ifi202b; HIN200  OB-fold, tetramerization, DNA; 3.405A {Mus musculus}
+Probab=11.73  E-value=2.3e+02  Score=13.66  Aligned_cols=4  Identities=100%  Similarity=1.190  Sum_probs=0.0  Template_Neff=3.700
+
+Q HATVYV            1 HATV    4 (6)
+Q Consensus         1 hatv    4 (6)
+                      ||||
+T Consensus        41 HATV   44 (203)
+T 4L5T_C           41 HATV   44 (203)
+T ss_dssp             EEEE
+T ss_pred             EeEe
+
+
+No 5
+>4L5R_C Interferon-activable protein 202; HIN200, OB fold, dsDNA binding; 1.873A {Mus musculus}
+Probab=11.71  E-value=2.3e+02  Score=13.64  Aligned_cols=4  Identities=100%  Similarity=1.190  Sum_probs=0.0  Template_Neff=3.600
+
+Q HATVYV            1 HATV    4 (6)
+Q Consensus         1 hatv    4 (6)
+                      ||||
+T Consensus        39 HATV   42 (198)
+T 4L5R_C           39 HATV   42 (198)
+T ss_dssp             EEEE
+T ss_pred             EeEE
+
+
+No 6
+>5H6I_A Protein B; Pore forming toxin, TOXIN; HET: SO4; 2.45A {Streptococcus agalactiae}
+Probab=11.49  E-value=2.4e+02  Score=14.00  Aligned_cols=5  Identities=60%  Similarity=1.052  Sum_probs=0.0  Template_Neff=3.600
+
+Q HATVYV            2 ATVYV    6 (6)
+Q Consensus         2 atvyv    6 (6)
+                      ||+|+
+T Consensus       174 ATiYv  178 (246)
+T 5H6I_A          174 ATIYT  178 (246)
+T ss_dssp             CCTTT
+T ss_pred             hhHHh
+
+
+No 7
+>4L5T_B Ifi202b; HIN200  OB-fold, tetramerization, DNA; 3.405A {Mus musculus}
+Probab=11.31  E-value=2.4e+02  Score=13.62  Aligned_cols=4  Identities=100%  Similarity=1.190  Sum_probs=0.0  Template_Neff=3.600
+
+Q HATVYV            1 HATV    4 (6)
+Q Consensus         1 hatv    4 (6)
+                      ||||
+T Consensus        41 HATV   44 (203)
+T 4L5T_B           41 HATV   44 (203)
+T ss_dssp             EEEE
+T ss_pred             EEEE
+
+
+No 8
+>3RLO_A Gamma-interferon-inducible protein 16; HIN200/OB fold/DNA binding, DNA binding/cytosolic; HET: EDO; 1.8A {Homo sapiens}
+Probab=11.18  E-value=2.5e+02  Score=13.61  Aligned_cols=4  Identities=100%  Similarity=1.190  Sum_probs=0.0  Template_Neff=3.600
+
+Q HATVYV            1 HATV    4 (6)
+Q Consensus         1 hatv    4 (6)
+                      ||||
+T Consensus        35 HATV   38 (204)
+T 3RLO_A           35 HATV   38 (204)
+T ss_dssp             EEEE
+T ss_pred             EEEE
+
+
+No 9
+>3RNU_B Gamma-interferon-inducible protein 16/DNA complex; OB FOLD, DNA BINDING, CYTOSOLIC; HET: FMT; 2.502A {Homo sapiens}
+Probab=11.18  E-value=2.5e+02  Score=13.61  Aligned_cols=4  Identities=100%  Similarity=1.190  Sum_probs=0.0  Template_Neff=3.600
+
+Q HATVYV            1 HATV    4 (6)
+Q Consensus         1 hatv    4 (6)
+                      ||||
+T Consensus        35 HATV   38 (204)
+T 3RNU_B           35 HATV   38 (204)
+T ss_dssp             EEEE
+T ss_pred             EeEE
+
+
+No 10
+>2OQ0_B Gamma-interferon-inducible protein Ifi-16; OB folds, beta-barrels, Structural Genomics; HET: MSE; 2.0A {Homo sapiens} SCOP: b.40.16.1
+Probab=11.17  E-value=2.5e+02  Score=13.59  Aligned_cols=4  Identities=100%  Similarity=1.190  Sum_probs=0.0  Template_Neff=3.700
+
+Q HATVYV            1 HATV    4 (6)
+Q Consensus         1 hatv    4 (6)
+                      ||||
+T Consensus        43 HATV   46 (206)
+T 2OQ0_B           43 HATV   46 (206)
+T ss_dssp             EEEE
+T ss_pred             EEEE
+
+

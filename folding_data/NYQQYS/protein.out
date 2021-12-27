@@ -1,0 +1,148 @@
+Query         NYQQYS
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 05:24:09 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NYQQYS/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NYQQYS/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3K4T_C Virion-associated prote  23.2      80 0.00088   13.7   0.0    6    1-6      90-95  (95)
+  2 3K4T_A Virion-associated prote  23.2      80 0.00088   13.7   0.0    6    1-6      90-95  (95)
+  3 6TMH_e Inhibitor of F1, ATP sy  16.5 1.4E+02  0.0015   11.8   0.0    6    1-6       8-13  (73)
+  4 6TMK_e1 ATPTG11, ATPTG7, ATPTG  16.5 1.4E+02  0.0015   11.8   0.0    6    1-6       8-13  (73)
+  5 2UWJ_F TYPE III EXPORT PROTEIN  16.0 1.5E+02  0.0016   10.7   0.0    4    3-6       5-8   (32)
+  6 2HLD_I ATP synthase alpha chai  15.9 1.5E+02  0.0016   11.5   0.0    6    1-6       9-14  (61)
+  7 3ZIA_S ATP SYNTHASE SUBUNIT AL  15.9 1.5E+02  0.0016   11.5   0.0    6    1-6       9-14  (61)
+  8 6RDP_Q Mitochondrial ATP synth  13.8 1.8E+02   0.002   11.6   0.0    6    1-6      15-20  (74)
+  9 6RDZ_Q ASA-10: Polytomella F-A  13.8 1.8E+02   0.002   11.6   0.0    6    1-6      15-20  (74)
+ 10 3F6N_B Virion-associated prote  13.1   2E+02  0.0022   13.3   0.0    6    1-6      90-95  (129)
+
+No 1
+>3K4T_C Virion-associated protein; COILED-COIL, VIRAL PROTEIN, TETRAMER, DNA-BINDING; 2.59A {Cauliflower mosaic virus (STRAIN STRASBOURG)}
+Probab=23.21  E-value=80  Score=13.70  Aligned_cols=6  Identities=50%  Similarity=0.794  Sum_probs=0.0  Template_Neff=3.400
+
+Q NYQQYS            1 NYQQYS    6 (6)
+Q Consensus         1 nyqqys    6 (6)
+                      ++|.||
+T Consensus        90 ~~qKYS   95 (95)
+T 3K4T_C           90 NLGKYS   95 (95)
+T ss_dssp             ------
+T ss_pred             CcccCC
+Confidence            367776
+
+
+No 2
+>3K4T_A Virion-associated protein; COILED-COIL, VIRAL PROTEIN, TETRAMER, DNA-BINDING; 2.59A {Cauliflower mosaic virus (STRAIN STRASBOURG)}
+Probab=23.21  E-value=80  Score=13.70  Aligned_cols=6  Identities=50%  Similarity=0.794  Sum_probs=0.0  Template_Neff=3.400
+
+Q NYQQYS            1 NYQQYS    6 (6)
+Q Consensus         1 nyqqys    6 (6)
+                      ++|.||
+T Consensus        90 ~~qKYS   95 (95)
+T 3K4T_A           90 NLGKYS   95 (95)
+T ss_dssp             ------
+T ss_pred             CcccCC
+Confidence            367776
+
+
+No 3
+>6TMH_e Inhibitor of F1, ATP synthase; mitochondrial, ATP synthase, F1, c-ring; HET: ATP, ADP; 3.1A {Toxoplasma gondii (strain ATCC 50853 / GT1)}
+Probab=16.54  E-value=1.4e+02  Score=11.83  Aligned_cols=6  Identities=17%  Similarity=0.910  Sum_probs=0.0  Template_Neff=5.100
+
+Q NYQQYS            1 NYQQYS    6 (6)
+Q Consensus         1 nyqqys    6 (6)
+                      +|-+||
+T Consensus         8 sY~~Ys   13 (73)
+T 6TMH_e            8 SFTRYA   13 (73)
+T ss_pred             cHHHHH
+
+
+No 4
+>6TMK_e1 ATPTG11, ATPTG7, ATPTG14, Uncharacterized protein; mitochondrial, ATP synthase, dimer, lipids; HET: CDL, LMT, ATP, ADP, PC1, PEE; 2.9A {Toxoplasma gondii (strain ATCC 50853 / GT1)}
+Probab=16.54  E-value=1.4e+02  Score=11.83  Aligned_cols=6  Identities=17%  Similarity=0.910  Sum_probs=0.0  Template_Neff=5.100
+
+Q NYQQYS            1 NYQQYS    6 (6)
+Q Consensus         1 nyqqys    6 (6)
+                      +|-+||
+T Consensus         8 sY~~Ys   13 (73)
+T 6TMK_e1           8 SFTRYA   13 (73)
+T ss_pred             cHHHHH
+
+
+No 5
+>2UWJ_F TYPE III EXPORT PROTEIN PSCE; VIRULENCE, CHAPERONES, NEEDLE FORMATION, TYPE; 2.0A {PSEUDOMONAS AERUGINOSA}
+Probab=15.96  E-value=1.5e+02  Score=10.68  Aligned_cols=4  Identities=25%  Similarity=0.708  Sum_probs=0.0  Template_Neff=3.800
+
+Q NYQQYS            3 QQYS    6 (6)
+Q Consensus         3 qqys    6 (6)
+                      ||||
+T Consensus         5 qqwS    8 (32)
+T 2UWJ_F            5 NKWS    8 (32)
+T ss_dssp             CTTG
+T ss_pred             hhHH
+
+
+No 6
+>2HLD_I ATP synthase alpha chain, mitochondrial; ATP PHOSPHORYLASE (H+ TRANSPORTING), ATP; HET: ANP, MG; 2.8A {Saccharomyces cerevisiae}
+Probab=15.89  E-value=1.5e+02  Score=11.46  Aligned_cols=6  Identities=33%  Similarity=0.777  Sum_probs=0.0  Template_Neff=5.000
+
+Q NYQQYS            1 NYQQYS    6 (6)
+Q Consensus         1 nyqqys    6 (6)
+                      +|-+||
+T Consensus         9 sY~~Ys   14 (61)
+T 2HLD_I            9 SYAAYL   14 (61)
+T ss_dssp             CHHHHH
+T ss_pred             cHHHHH
+
+
+No 7
+>3ZIA_S ATP SYNTHASE SUBUNIT ALPHA, MITOCHONDRIAL; HYDROLASE, NATURAL INHIBITOR, CATALYSIS, INTERMEDIATE; HET: MG, ATP, ADP, EDO; 2.5A {SACCHAROMYCES CEREVISIAE}
+Probab=15.89  E-value=1.5e+02  Score=11.46  Aligned_cols=6  Identities=33%  Similarity=0.777  Sum_probs=0.0  Template_Neff=5.000
+
+Q NYQQYS            1 NYQQYS    6 (6)
+Q Consensus         1 nyqqys    6 (6)
+                      +|-+||
+T Consensus         9 sY~~Ys   14 (61)
+T 3ZIA_S            9 SYAAYL   14 (61)
+T ss_dssp             CHHHHH
+T ss_pred             cHHHHH
+
+
+No 8
+>6RDP_Q Mitochondrial ATP synthase subunit c; mitochondrial ATP synthase dimer flexible; HET: ATP, ADP; 2.8A {Polytomella sp. Pringsheim 198.80}
+Probab=13.78  E-value=1.8e+02  Score=11.62  Aligned_cols=6  Identities=50%  Similarity=1.032  Sum_probs=0.0  Template_Neff=4.900
+
+Q NYQQYS            1 NYQQYS    6 (6)
+Q Consensus         1 nyqqys    6 (6)
+                      +|-+||
+T Consensus        15 sY~~Ys   20 (74)
+T 6RDP_Q           15 SYLRYS   20 (74)
+T ss_pred             cHHHHH
+
+
+No 9
+>6RDZ_Q ASA-10: Polytomella F-ATP synthase associated; mitochondrial ATP synthase dimer flexible; HET: ATP, ADP; 3.5A {Polytomella sp. Pringsheim 198.80}
+Probab=13.78  E-value=1.8e+02  Score=11.62  Aligned_cols=6  Identities=50%  Similarity=1.032  Sum_probs=0.0  Template_Neff=4.900
+
+Q NYQQYS            1 NYQQYS    6 (6)
+Q Consensus         1 nyqqys    6 (6)
+                      +|-+||
+T Consensus        15 sY~~Ys   20 (74)
+T 6RDZ_Q           15 SYLRYS   20 (74)
+T ss_pred             cHHHHH
+
+
+No 10
+>3F6N_B Virion-associated protein; COILED-COIL, VIRAL PROTEIN, TETRAMER, DNA-binding; 3.1A {Cauliflower mosaic virus (STRAIN STRASBOURG)}
+Probab=13.06  E-value=2e+02  Score=13.28  Aligned_cols=6  Identities=50%  Similarity=0.794  Sum_probs=0.0  Template_Neff=2.900
+
+Q NYQQYS            1 NYQQYS    6 (6)
+Q Consensus         1 nyqqys    6 (6)
+                      ++|.||
+T Consensus        90 ~~~KYS   95 (129)
+T 3F6N_B           90 NLGKYS   95 (129)
+T ss_dssp             ------
+T ss_pred             CccccC
+
+

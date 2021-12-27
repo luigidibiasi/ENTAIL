@@ -1,0 +1,205 @@
+Query         KQIGII
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 11:59:37 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/KQIGII/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/KQIGII/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3DSS_B Geranylgeranyl transfer  48.2      17 0.00018   14.2   0.0    6    1-6       6-11  (331)
+  2 5HQT_A aspartate/glutamate rac  47.6      17 0.00019   14.2   0.0    6    1-6       2-7   (235)
+  3 3OJC_B Putative aspartate/glut  44.4      21 0.00023   13.9   0.0    6    1-6       3-8   (231)
+  4 5HRA_B aspartate/glutamate rac  37.8      31 0.00034   13.6   0.0    6    1-6       2-7   (235)
+  5 5ELL_A Asp/Glu_racemase family  36.1      34 0.00038   13.5   0.0    6    1-6       2-7   (238)
+  6 2ZSK_A 226aa long hypothetical  28.7      54  0.0006   12.8   0.0    6    1-6       2-7   (226)
+  7 3QVL_B Putative hydantoin race  28.2      56 0.00062   13.0   0.0    6    1-6       2-7   (245)
+  8 5B19_A Aspartate racemase (E.C  26.5      63  0.0007   12.8   0.0    6    1-6       3-8   (232)
+  9 1JFL_B ASPARTATE RACEMASE (E.C  25.9      66 0.00073   12.6   0.0    6    1-6       2-7   (228)
+ 10 2GZM_C Glutamate racemase (EC   25.2      69 0.00077   13.0   0.0    6    1-6       4-9   (267)
+ 11 6U3W_A Coatomer subunit alpha,  21.4      91   0.001   14.5   0.0    6    1-6      31-36  (303)
+ 12 1B73_A GLUTAMATE RACEMASE (E.C  20.5      99  0.0011   12.7   0.0    6    1-6       1-6   (254)
+ 13 6TZT_B Coatomer subunit epsilo  20.0   1E+02  0.0011   14.6   0.0    6    1-6      77-82  (356)
+
+No 1
+>3DSS_B Geranylgeranyl transferase type-2 subunit alpha; protein prenylation, Metal-binding, Prenyltransferase, Transferase; 1.8A {Rattus norvegicus} SCOP: a.102.4.3
+Probab=48.20  E-value=17  Score=14.19  Aligned_cols=6  Identities=33%  Similarity=0.445  Sum_probs=3.7  Template_Neff=11.000
+
+Q KQIGII            1 KQIGII    6 (6)
+Q Consensus         1 kqigii    6 (6)
+                      |||+|+
+T Consensus         6 ~~~~~~   11 (331)
+T 3DSS_B            6 KDVTIK   11 (331)
+T ss_dssp             CCCCCC
+T ss_pred             cccccC
+Confidence            567663
+
+
+No 2
+>5HQT_A aspartate/glutamate racemase; Aspartate/glutamate racemase, PLP-independent racemase, Racemization; HET: NHE; 1.598A {Escherichia coli O157:H7 str. SS52}
+Probab=47.61  E-value=17  Score=14.24  Aligned_cols=6  Identities=50%  Similarity=1.077  Sum_probs=3.7  Template_Neff=9.700
+
+Q KQIGII            1 KQIGII    6 (6)
+Q Consensus         1 kqigii    6 (6)
+                      |.||||
+T Consensus         2 ~~iGii    7 (235)
+T 5HQT_A            2 KTIGLL    7 (235)
+T ss_dssp             CCEEEE
+T ss_pred             CeEEEE
+Confidence            457765
+
+
+No 3
+>3OJC_B Putative aspartate/glutamate racemase; Structural Genomics, CSGID, Center for; HET: HEZ, MSE; 1.75A {Yersinia pestis}
+Probab=44.38  E-value=21  Score=13.92  Aligned_cols=6  Identities=50%  Similarity=0.971  Sum_probs=3.6  Template_Neff=9.800
+
+Q KQIGII            1 KQIGII    6 (6)
+Q Consensus         1 kqigii    6 (6)
+                      |.||||
+T Consensus         3 ~~iGii    8 (231)
+T 3OJC_B            3 KILGLI    8 (231)
+T ss_dssp             CCEEEE
+T ss_pred             ceEEEE
+Confidence            456764
+
+
+No 4
+>5HRA_B aspartate/glutamate racemase; Aspartate/glutamate racemase, PLP-independent racemase, Racemization; HET: DAS; 1.597A {Escherichia coli O157:H7 str. SS52}
+Probab=37.80  E-value=31  Score=13.62  Aligned_cols=6  Identities=50%  Similarity=1.077  Sum_probs=3.5  Template_Neff=9.600
+
+Q KQIGII            1 KQIGII    6 (6)
+Q Consensus         1 kqigii    6 (6)
+                      |.||||
+T Consensus         2 ~~iGii    7 (235)
+T 5HRA_B            2 KTIGLL    7 (235)
+T ss_dssp             CCEEEE
+T ss_pred             ceEEEE
+Confidence            456765
+
+
+No 5
+>5ELL_A Asp/Glu_racemase family protein (E.C.5.1.1.13); Asp/Glu racemase, L-form specific racemase; 1.801A {Escherichia coli}
+Probab=36.09  E-value=34  Score=13.52  Aligned_cols=6  Identities=50%  Similarity=1.077  Sum_probs=3.5  Template_Neff=9.600
+
+Q KQIGII            1 KQIGII    6 (6)
+Q Consensus         1 kqigii    6 (6)
+                      |.||||
+T Consensus         2 ~~iGii    7 (238)
+T 5ELL_A            2 KTIGLL    7 (238)
+T ss_dssp             CCEEEE
+T ss_pred             cEEEEE
+Confidence            456764
+
+
+No 6
+>2ZSK_A 226aa long hypothetical aspartate racemase; alpha/beta fold, UNKNOWN FUNCTION; 2.55A {Pyrococcus horikoshii}
+Probab=28.70  E-value=54  Score=12.76  Aligned_cols=6  Identities=83%  Similarity=1.293  Sum_probs=3.3  Template_Neff=9.800
+
+Q KQIGII            1 KQIGII    6 (6)
+Q Consensus         1 kqigii    6 (6)
+                      |.||||
+T Consensus         2 ~~iGii    7 (226)
+T 2ZSK_A            2 KKIGII    7 (226)
+T ss_dssp             CCEEEE
+T ss_pred             CeEEEE
+Confidence            346664
+
+
+No 7
+>3QVL_B Putative hydantoin racemase; ISOMERASE; HET: 5HY; 1.822A {Klebsiella pneumoniae subsp. pneumoniae}
+Probab=28.21  E-value=56  Score=12.99  Aligned_cols=6  Identities=33%  Similarity=0.551  Sum_probs=3.4  Template_Neff=9.600
+
+Q KQIGII            1 KQIGII    6 (6)
+Q Consensus         1 kqigii    6 (6)
+                      ++||||
+T Consensus         2 ~rigii    7 (245)
+T 3QVL_B            2 VRIQVI    7 (245)
+T ss_dssp             EEEEEE
+T ss_pred             cEEEEE
+Confidence            356664
+
+
+No 8
+>5B19_A Aspartate racemase (E.C.5.1.1.13); Aspartate racemase, Picrophilus torridus, Archaea; HET: TLA; 1.851A {Picrophilus torridus (strain ATCC 700027 / DSM 9790 / JCM 10055 / NBRC 100828)}
+Probab=26.50  E-value=63  Score=12.75  Aligned_cols=6  Identities=67%  Similarity=1.054  Sum_probs=3.2  Template_Neff=9.600
+
+Q KQIGII            1 KQIGII    6 (6)
+Q Consensus         1 kqigii    6 (6)
+                      |.||||
+T Consensus         3 ~~iGii    8 (232)
+T 5B19_A            3 KIVGII    8 (232)
+T ss_dssp             CCEEEE
+T ss_pred             ceEEEE
+Confidence            346664
+
+
+No 9
+>1JFL_B ASPARTATE RACEMASE (E.C.5.1.1.13); ALPHA-BETA STRUCTURE, HOMO-DIMER, HOMOLOGOUS DOMAINS; 1.9A {Pyrococcus horikoshii} SCOP: c.78.2.1
+Probab=25.87  E-value=66  Score=12.56  Aligned_cols=6  Identities=67%  Similarity=1.143  Sum_probs=3.2  Template_Neff=9.800
+
+Q KQIGII            1 KQIGII    6 (6)
+Q Consensus         1 kqigii    6 (6)
+                      |.|||+
+T Consensus         2 ~~iGi~    7 (228)
+T 1JFL_B            2 KTIGIL    7 (228)
+T ss_dssp             CCEEEE
+T ss_pred             CeEEEE
+Confidence            346664
+
+
+No 10
+>2GZM_C Glutamate racemase (EC 5.1.1.3); racemase, enzyme, glutamate, ISOMERASE; HET: DGL; 1.99A {Bacillus anthracis}
+Probab=25.17  E-value=69  Score=12.97  Aligned_cols=6  Identities=50%  Similarity=1.121  Sum_probs=3.3  Template_Neff=9.500
+
+Q KQIGII            1 KQIGII    6 (6)
+Q Consensus         1 kqigii    6 (6)
+                      ++|||+
+T Consensus         4 ~~IGii    9 (267)
+T 2GZM_C            4 RAIGVI    9 (267)
+T ss_dssp             SCEEEE
+T ss_pred             CeEEEE
+Confidence            356664
+
+
+No 11
+>6U3W_A Coatomer subunit alpha, Coatomer subunit; TRANSPORT PROTEIN; 2.394A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=21.42  E-value=91  Score=14.53  Aligned_cols=6  Identities=50%  Similarity=1.210  Sum_probs=3.6  Template_Neff=6.300
+
+Q KQIGII            1 KQIGII    6 (6)
+Q Consensus         1 kqigii    6 (6)
+                      +|||++
+T Consensus        31 ~qiG~v   36 (303)
+T 6U3W_A           31 KQVGVV   36 (303)
+T ss_dssp             HHHCBC
+T ss_pred             hccCCC
+Confidence            467763
+
+
+No 12
+>1B73_A GLUTAMATE RACEMASE (E.C.5.1.1.3); RACEMASE, ISOMERASE; 2.3A {Aquifex pyrophilus} SCOP: c.78.2.1
+Probab=20.46  E-value=99  Score=12.72  Aligned_cols=6  Identities=50%  Similarity=0.872  Sum_probs=3.2  Template_Neff=9.000
+
+Q KQIGII            1 KQIGII    6 (6)
+Q Consensus         1 kqigii    6 (6)
+                      +.||||
+T Consensus         1 ~~igi~    6 (254)
+T 1B73_A            1 MKIGIF    6 (254)
+T ss_dssp             CEEEEE
+T ss_pred             CeEEEE
+Confidence            356664
+
+
+No 13
+>6TZT_B Coatomer subunit epsilon, Coatomer subunit; TRANSPORT PROTEIN; 3.065A {Homo sapiens}
+Probab=20.00  E-value=1e+02  Score=14.64  Aligned_cols=6  Identities=50%  Similarity=1.110  Sum_probs=3.5  Template_Neff=6.400
+
+Q KQIGII            1 KQIGII    6 (6)
+Q Consensus         1 kqigii    6 (6)
+                      +||||+
+T Consensus        77 ~qiGiv   82 (356)
+T 6TZT_B           77 DQVGVI   82 (356)
+T ss_dssp             HHHCBC
+T ss_pred             hccCcC
+Confidence            467763
+
+

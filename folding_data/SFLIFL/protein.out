@@ -1,0 +1,150 @@
+Query         SFLIFL
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 14:07:22 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/SFLIFL/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/SFLIFL/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 7ANE_aq mL94, mL89, Ribosomal   42.6      23 0.00026   18.0   0.0    6    1-6     150-155 (295)
+  2 6SGA_DP ?; mitochondrial ribos  38.4      30 0.00033   17.6   0.0    6    1-6     150-155 (274)
+  3 1VGG_E Conserved Hypothetical   19.1 1.1E+02  0.0012   14.5   0.0    6    1-6      81-86  (161)
+  4 2EKM_A Hypothetical protein ST  18.4 1.2E+02  0.0013   14.4   0.0    6    1-6      83-88  (162)
+  5 6J5K_Bb ATP synthase F1 subuni  18.1 1.2E+02  0.0013   12.6   0.0    6    1-6      60-65  (209)
+  6 5H1O_B CRISPR-associated endor  18.0 1.2E+02  0.0013   11.7   0.0    5    2-6      93-97  (104)
+  7 5H1P_A CRISPR-associated endor  18.0 1.2E+02  0.0013   11.7   0.0    5    2-6      93-97  (104)
+  8 1RLH_A conserved hypothetical   18.0 1.2E+02  0.0013   14.5   0.0    6    1-6      94-99  (173)
+  9 2JB7_A HYPOTHETICAL PROTEIN PA  17.3 1.3E+02  0.0014   14.3   0.0    6    1-6      83-88  (164)
+ 10 2JB7_C HYPOTHETICAL PROTEIN PA  17.3 1.3E+02  0.0014   14.3   0.0    6    1-6      83-88  (164)
+
+No 1
+>7ANE_aq mL94, mL89, Ribosomal protein L3-like; Ribosome, Mitochondria, Kinetoplastid; HET: NAD; 3.9A {Leishmania major}
+Probab=42.59  E-value=23  Score=18.05  Aligned_cols=6  Identities=83%  Similarity=1.187  Sum_probs=4.4  Template_Neff=1.900
+
+Q SFLIFL            1 SFLIFL    6 (6)
+Q Consensus         1 sflifl    6 (6)
+                      +|+|||
+T Consensus       150 tF~iFl  155 (295)
+T 7ANE_aq         150 SFEIFL  155 (295)
+T ss_pred             eehHHH
+Confidence            578885
+
+
+No 2
+>6SGA_DP ?; mitochondrial ribosome, assembly intermediate, translation; HET: UBD, PM8; 3.1A {Trypanosoma brucei brucei}
+Probab=38.42  E-value=30  Score=17.56  Aligned_cols=6  Identities=67%  Similarity=1.475  Sum_probs=4.3  Template_Neff=1.800
+
+Q SFLIFL            1 SFLIFL    6 (6)
+Q Consensus         1 sflifl    6 (6)
+                      +|+|||
+T Consensus       150 tF~iFl  155 (274)
+T 6SGA_DP         150 TFLVFL  155 (274)
+T ss_pred             HhHHHH
+Confidence            578875
+
+
+No 3
+>1VGG_E Conserved Hypothetical Protein TT1634 (TTHA1091); Thermus Thermophilus HB8, Conserved Hypothetical; HET: MSE; 1.75A {Thermus thermophilus HB8} SCOP: d.256.1.1
+Probab=19.11  E-value=1.1e+02  Score=14.47  Aligned_cols=6  Identities=67%  Similarity=1.004  Sum_probs=3.1  Template_Neff=2.900
+
+Q SFLIFL            1 SFLIFL    6 (6)
+Q Consensus         1 sflifl    6 (6)
+                      +|+||+
+T Consensus        81 ~FiI~l   86 (161)
+T 1VGG_E           81 VFLIVL   86 (161)
+T ss_dssp             EEEEEE
+T ss_pred             EEEEEE
+Confidence            455553
+
+
+No 4
+>2EKM_A Hypothetical protein ST1511; hypothetical protein, NPPSFA, National Project; HET: GOL; 2.06A {Sulfolobus tokodaii}
+Probab=18.41  E-value=1.2e+02  Score=14.40  Aligned_cols=6  Identities=33%  Similarity=1.231  Sum_probs=0.0  Template_Neff=2.900
+
+Q SFLIFL            1 SFLIFL    6 (6)
+Q Consensus         1 sflifl    6 (6)
+                      +|+||+
+T Consensus        83 ~FiI~l   88 (162)
+T 2EKM_A           83 TFVIYI   88 (162)
+T ss_dssp             EEEEEE
+T ss_pred             EEEEEE
+
+
+No 5
+>6J5K_Bb ATP synthase F1 subunit alpha; membrane protein; HET: MG, ATP, ADP; 6.2A {Sus scrofa}
+Probab=18.13  E-value=1.2e+02  Score=12.63  Aligned_cols=6  Identities=33%  Similarity=0.135  Sum_probs=0.0  Template_Neff=8.000
+
+Q SFLIFL            1 SFLIFL    6 (6)
+Q Consensus         1 sflifl    6 (6)
+                      ||++|+
+T Consensus        60 sf~~f~   65 (209)
+T 6J5K_Bb          60 STIGVL   65 (209)
+T ss_pred             HHHHHH
+
+
+No 6
+>5H1O_B CRISPR-associated endoribonuclease Cas2 (E.C.3.1.-.-); CRISPR-associated protein, Endonuclease, HYDROLASE; HET: ACT; 1.65A {Xanthomonas albilineans (strain GPE PC73 / CFBP 7063)}
+Probab=18.02  E-value=1.2e+02  Score=11.71  Aligned_cols=5  Identities=80%  Similarity=1.012  Sum_probs=0.0  Template_Neff=7.200
+
+Q SFLIFL            2 FLIFL    6 (6)
+Q Consensus         2 flifl    6 (6)
+                      ++|||
+T Consensus        93 ~~~~~   97 (104)
+T 5H1O_B           93 PLIFL   97 (104)
+T ss_dssp             -----
+T ss_pred             ceeec
+
+
+No 7
+>5H1P_A CRISPR-associated endoribonuclease Cas2 (E.C.3.1.-.-); CRISPR-associated protein, Endonuclease, HYDROLASE; HET: ACT; 1.75A {Xanthomonas albilineans (strain GPE PC73 / CFBP 7063)}
+Probab=18.02  E-value=1.2e+02  Score=11.71  Aligned_cols=5  Identities=80%  Similarity=1.012  Sum_probs=0.0  Template_Neff=7.200
+
+Q SFLIFL            2 FLIFL    6 (6)
+Q Consensus         2 flifl    6 (6)
+                      ++|||
+T Consensus        93 ~~~~~   97 (104)
+T 5H1P_A           93 PLIFL   97 (104)
+T ss_dssp             -----
+T ss_pred             ceeec
+
+
+No 8
+>1RLH_A conserved hypothetical protein; Structural genomics, T. acidophilum, PSI; 1.8A {Thermoplasma acidophilum} SCOP: d.256.1.1
+Probab=17.96  E-value=1.2e+02  Score=14.53  Aligned_cols=6  Identities=33%  Similarity=1.060  Sum_probs=0.0  Template_Neff=2.700
+
+Q SFLIFL            1 SFLIFL    6 (6)
+Q Consensus         1 sflifl    6 (6)
+                      +|+||+
+T Consensus        94 ~FiI~l   99 (173)
+T 1RLH_A           94 TFVILI   99 (173)
+T ss_dssp             EEEEEE
+T ss_pred             EEEEEe
+
+
+No 9
+>2JB7_A HYPOTHETICAL PROTEIN PAE2307; HYPOTHETICAL PROTEIN, UNKNOWN FUNCTION; HET: AMP, EPE; 1.65A {PYROBACULUM AEROPHILUM}
+Probab=17.30  E-value=1.3e+02  Score=14.29  Aligned_cols=6  Identities=33%  Similarity=1.093  Sum_probs=0.0  Template_Neff=2.900
+
+Q SFLIFL            1 SFLIFL    6 (6)
+Q Consensus         1 sflifl    6 (6)
+                      +|+||+
+T Consensus        83 ~FiI~l   88 (164)
+T 2JB7_A           83 VFVIYI   88 (164)
+T ss_dssp             EEEEEE
+T ss_pred             EEEEEe
+
+
+No 10
+>2JB7_C HYPOTHETICAL PROTEIN PAE2307; HYPOTHETICAL PROTEIN, UNKNOWN FUNCTION; HET: AMP, EPE; 1.65A {PYROBACULUM AEROPHILUM}
+Probab=17.30  E-value=1.3e+02  Score=14.29  Aligned_cols=6  Identities=33%  Similarity=1.093  Sum_probs=0.0  Template_Neff=2.900
+
+Q SFLIFL            1 SFLIFL    6 (6)
+Q Consensus         1 sflifl    6 (6)
+                      +|+||+
+T Consensus        83 ~FiI~l   88 (164)
+T 2JB7_C           83 VFVIYI   88 (164)
+T ss_dssp             EEEEEE
+T ss_pred             EEEEEe
+
+

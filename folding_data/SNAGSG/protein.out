@@ -1,0 +1,152 @@
+Query         SNAGSG
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 15:25:18 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/SNAGSG/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/SNAGSG/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2Z7B_A Mlr6791 protein (E.C.4.  18.7 1.1E+02  0.0013   13.3   0.0    6    1-6      16-21  (270)
+  2 3KOG_A Putative pore-forming t  16.5 1.4E+02  0.0015   14.3   0.0    6    1-6     246-251 (256)
+  3 3D6N_B Dihydroorotase (E.C.3.5  15.5 1.5E+02  0.0017   13.0   0.0    5    2-6     118-122 (291)
+  4 2DMX_A DnaJ homolog subfamily   15.2 1.6E+02  0.0017    9.8   0.0    6    1-6      87-92  (92)
+  5 6FBA_A Aspartate transcarbamoy  15.1 1.6E+02  0.0018   13.6   0.0    5    2-6     143-147 (349)
+  6 7K46_A Aspartate carbamoyltran  15.0 1.6E+02  0.0018   13.3   0.0    5    2-6     133-137 (334)
+  7 1PG5_A Aspartate carbamoyltran  14.7 1.7E+02  0.0018   13.0   0.0    5    2-6     121-125 (299)
+  8 5FUG_F HISTONE H2A.Z, HISTONE   14.3 1.7E+02  0.0019   11.4   0.0    5    1-5      10-14  (68)
+  9 3F9U_B Putative exported cytoc  14.1 1.8E+02   0.002    9.9   0.0    5    1-5       1-5   (172)
+ 10 2RGW_F Aspartate carbamoyltran  13.9 1.8E+02   0.002   12.9   0.0    5    2-6     123-127 (306)
+
+No 1
+>2Z7B_A Mlr6791 protein (E.C.4.1.1.51); Class II aldolase superfamily, LYASE; 1.9A {Mesorhizobium loti}
+Probab=18.70  E-value=1.1e+02  Score=13.33  Aligned_cols=6  Identities=50%  Similarity=0.700  Sum_probs=0.0  Template_Neff=7.700
+
+Q SNAGSG            1 SNAGSG    6 (6)
+Q Consensus         1 snagsg    6 (6)
+                      +|+||+
+T Consensus        16 ~~~~~~   21 (270)
+T 2Z7B_A           16 KKAGSA   21 (270)
+T ss_dssp             ------
+T ss_pred             HHHchH
+Confidence            355553
+
+
+No 2
+>3KOG_A Putative pore-forming toxin; Putative pore-forming toxin, Structural Genomics; HET: GOL, MSE, ACT, MRD; 1.85A {Bacteroides vulgatus ATCC 8482}
+Probab=16.48  E-value=1.4e+02  Score=14.25  Aligned_cols=6  Identities=83%  Similarity=1.221  Sum_probs=0.0  Template_Neff=5.000
+
+Q SNAGSG            1 SNAGSG    6 (6)
+Q Consensus         1 snagsg    6 (6)
+                      +|||.|
+T Consensus       246 ~NAGGG  251 (256)
+T 3KOG_A          246 SNAGGG  251 (256)
+T ss_dssp             ------
+T ss_pred             CCCCCc
+Confidence            367654
+
+
+No 3
+>3D6N_B Dihydroorotase (E.C.3.5.2.3), Aspartate carbamoyltransferase (E.C.2.1.3.2); REACTOR, CHAMBER, PORES, INTERNAL CAVITY; HET: FLC; 2.3A {Aquifex aeolicus}
+Probab=15.50  E-value=1.5e+02  Score=13.00  Aligned_cols=5  Identities=80%  Similarity=1.325  Sum_probs=0.0  Template_Neff=7.900
+
+Q SNAGSG            2 NAGSG    6 (6)
+Q Consensus         2 nagsg    6 (6)
+                      |||+|
+T Consensus       118 Nag~g  122 (291)
+T 3D6N_B          118 NAGDG  122 (291)
+T ss_dssp             EEEET
+T ss_pred             eCCCC
+
+
+No 4
+>2DMX_A DnaJ homolog subfamily B member; DnaJ J domain, helix-turn-helix motif; NMR {Homo sapiens}
+Probab=15.18  E-value=1.6e+02  Score=9.79  Aligned_cols=6  Identities=50%  Similarity=0.673  Sum_probs=0.0  Template_Neff=10.000
+
+Q SNAGSG            1 SNAGSG    6 (6)
+Q Consensus         1 snagsg    6 (6)
+                      ++.+||
+T Consensus        87 ~~~~~~   92 (92)
+T 2DMX_A           87 SGPSSG   92 (92)
+T ss_dssp             CCCCCC
+T ss_pred             CCCCCC
+
+
+No 5
+>6FBA_A Aspartate transcarbamoylase (E.C.2.1.3.2); Falciparum Malaria Pyrimidine biosynthesis Trimer; HET: DMS, GOL, D48, MLI, PEG, SO4; 2.0A {Plasmodium falciparum}
+Probab=15.10  E-value=1.6e+02  Score=13.58  Aligned_cols=5  Identities=80%  Similarity=1.351  Sum_probs=0.0  Template_Neff=7.300
+
+Q SNAGSG            2 NAGSG    6 (6)
+Q Consensus         2 nagsg    6 (6)
+                      |||+|
+T Consensus       143 Nag~g  147 (349)
+T 6FBA_A          143 NAGNG  147 (349)
+T ss_dssp             EEEET
+T ss_pred             ECCCC
+
+
+No 6
+>7K46_A Aspartate carbamoyltransferase (E.C.2.1.3.2); SSGCID, Aspartate carbamoyltransferase, Leishmania major; 1.9A {Leishmania major}
+Probab=15.03  E-value=1.6e+02  Score=13.30  Aligned_cols=5  Identities=80%  Similarity=1.351  Sum_probs=0.0  Template_Neff=7.700
+
+Q SNAGSG            2 NAGSG    6 (6)
+Q Consensus         2 nagsg    6 (6)
+                      |||+|
+T Consensus       133 Nag~g  137 (334)
+T 7K46_A          133 NAGNG  137 (334)
+T ss_dssp             ECCCT
+T ss_pred             eCCCC
+
+
+No 7
+>1PG5_A Aspartate carbamoyltransferase, Aspartate carbamoyltransferase regulatory; transferase; 2.6A {Sulfolobus acidocaldarius} SCOP: c.78.1.1
+Probab=14.68  E-value=1.7e+02  Score=13.00  Aligned_cols=5  Identities=80%  Similarity=1.325  Sum_probs=0.0  Template_Neff=7.800
+
+Q SNAGSG            2 NAGSG    6 (6)
+Q Consensus         2 nagsg    6 (6)
+                      |||+|
+T Consensus       121 Nag~g  125 (299)
+T 1PG5_A          121 NAGDG  125 (299)
+T ss_dssp             EEEET
+T ss_pred             eCCCC
+
+
+No 8
+>5FUG_F HISTONE H2A.Z, HISTONE H2B TYPE; DNA BINDING PROTEIN, HISTONE, CHAPERONE; 2.7A {HOMO SAPIENS}
+Probab=14.33  E-value=1.7e+02  Score=11.40  Aligned_cols=5  Identities=40%  Similarity=0.700  Sum_probs=0.0  Template_Neff=5.200
+
+Q SNAGSG            1 SNAGS    5 (6)
+Q Consensus         1 snags    5 (6)
+                      ||||.
+T Consensus        10 snAGn   14 (68)
+T 5FUG_F           10 KTAGN   14 (68)
+T ss_dssp             TTTTT
+T ss_pred             cchhH
+
+
+No 9
+>3F9U_B Putative exported cytochrome C biogenesis-related; exported cytochrome C biogenesis-related protein; HET: MSE, NO3; 2.2A {Bacteroides fragilis NCTC 9343}
+Probab=14.07  E-value=1.8e+02  Score=9.92  Aligned_cols=5  Identities=80%  Similarity=1.072  Sum_probs=0.0  Template_Neff=11.700
+
+Q SNAGSG            1 SNAGS    5 (6)
+Q Consensus         1 snags    5 (6)
+                      ||+|+
+T Consensus         1 ~~~~~    5 (172)
+T 3F9U_B            1 SNAGA    5 (172)
+T ss_dssp             -----
+T ss_pred             CCCCC
+
+
+No 10
+>2RGW_F Aspartate carbamoyltransferase (E.C.2.1.3.2); ASPARTATE TRANSCARBAMOYLASE, PYRIMIDINE BIOSYNTHESIS, THERMOSTABILITY; HET: SO4; 2.8A {Methanococcus jannaschii}
+Probab=13.89  E-value=1.8e+02  Score=12.94  Aligned_cols=5  Identities=80%  Similarity=1.325  Sum_probs=0.0  Template_Neff=7.800
+
+Q SNAGSG            2 NAGSG    6 (6)
+Q Consensus         2 nagsg    6 (6)
+                      |||+|
+T Consensus       123 Nag~g  127 (306)
+T 2RGW_F          123 NAGDG  127 (306)
+T ss_dssp             ECC--
+T ss_pred             eCCCC
+
+

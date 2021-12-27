@@ -1,0 +1,146 @@
+Query         LATVSV
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 16:03:30 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LATVSV/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LATVSV/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 1DD5_A RIBOSOME RECYCLING FACT   6.0 5.7E+02  0.0063   10.6   0.0    6    1-6      54-59  (185)
+  2 2O42_A M11L protein; apoptosis   6.0 5.7E+02  0.0063   12.1   0.0    6    1-6      83-88  (144)
+  3 6XY4_A 16L protein, Bcl-2-like   5.9 5.8E+02  0.0064   12.2   0.0    6    1-6      94-99  (150)
+  4 6NU2_z 39S ribosomal protein L   5.8 5.9E+02  0.0065   10.8   0.0    6    1-6      75-80  (204)
+  5 7L20_z 39S ribosomal protein L   5.8 5.9E+02  0.0065   10.8   0.0    6    1-6      75-80  (204)
+  6 1EH1_A RIBOSOME RECYCLING FACT   5.7   6E+02  0.0067   10.5   0.0    6    1-6      55-60  (185)
+  7 3J0D_J PROTEIN/RNA Complex; ri   5.5 6.3E+02  0.0069   10.5   0.0    6    1-6      55-60  (185)
+  8 6UCQ_2w Ribosome; recycling, E   5.5 6.3E+02  0.0069   10.5   0.0    6    1-6      55-60  (185)
+  9 6TQP_A 16L protein, Bcl-2-bind   5.5 6.3E+02  0.0069   12.1   0.0    6    1-6     100-105 (152)
+ 10 4UF1_A ANTIAPOPTOTIC MEMBRANE    5.4 6.4E+02  0.0071   12.2   0.0    6    1-6     105-110 (168)
+
+No 1
+>1DD5_A RIBOSOME RECYCLING FACTOR; THREE-HELIX BUNDLE, BETA-ALPHA-BETA SANDWICH, RIBOSOME; 2.55A {Thermotoga maritima} SCOP: d.67.3.1
+Probab=5.99  E-value=5.7e+02  Score=10.58  Aligned_cols=6  Identities=67%  Similarity=0.960  Sum_probs=0.0  Template_Neff=7.900
+
+Q LATVSV            1 LATVSV    6 (6)
+Q Consensus         1 latvsv    6 (6)
+                      +|+|++
+T Consensus        54 lA~V~~   59 (185)
+T 1DD5_A           54 LATISI   59 (185)
+T ss_dssp             SEEEEE
+T ss_pred             eeEEEe
+
+
+No 2
+>2O42_A M11L protein; apoptosis inhibitor, poxvirus, Bcl-2 Homolog; 2.91A {Myxoma virus}
+Probab=5.97  E-value=5.7e+02  Score=12.10  Aligned_cols=6  Identities=50%  Similarity=0.778  Sum_probs=0.0  Template_Neff=2.800
+
+Q LATVSV            1 LATVSV    6 (6)
+Q Consensus         1 latvsv    6 (6)
+                      |||+|.
+T Consensus        83 LAtiSL   88 (144)
+T 2O42_A           83 LATLTL   88 (144)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 3
+>6XY4_A 16L protein, Bcl-2-like protein 11; Pox virus, Apoptosis, Bcl-2; 2.04623155256A {Sheeppox virus (strain Turkey/TU-V02127)}
+Probab=5.88  E-value=5.8e+02  Score=12.17  Aligned_cols=6  Identities=50%  Similarity=0.833  Sum_probs=0.0  Template_Neff=2.700
+
+Q LATVSV            1 LATVSV    6 (6)
+Q Consensus         1 latvsv    6 (6)
+                      ||++|.
+T Consensus        94 LAtiSL   99 (150)
+T 6XY4_A           94 LASISL   99 (150)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 4
+>6NU2_z 39S ribosomal protein L2, mitochondrial; mitochondrial ribosome recycling Factor, mtRRF; HET: MG; 3.9A {Homo sapiens}
+Probab=5.81  E-value=5.9e+02  Score=10.83  Aligned_cols=6  Identities=17%  Similarity=0.600  Sum_probs=0.0  Template_Neff=7.600
+
+Q LATVSV            1 LATVSV    6 (6)
+Q Consensus         1 latvsv    6 (6)
+                      ||+|++
+T Consensus        75 lA~Vs~   80 (204)
+T 6NU2_z           75 ISQISM   80 (204)
+T ss_pred             ceEEEe
+
+
+No 5
+>7L20_z 39S ribosomal protein L2, mitochondrial; Cryo-EM, Mammalian, mito-ribosome, mtEFg2, mtRRF; HET: MG, GCP; 3.15A {Homo sapiens}
+Probab=5.81  E-value=5.9e+02  Score=10.83  Aligned_cols=6  Identities=17%  Similarity=0.600  Sum_probs=0.0  Template_Neff=7.600
+
+Q LATVSV            1 LATVSV    6 (6)
+Q Consensus         1 latvsv    6 (6)
+                      ||+|++
+T Consensus        75 lA~Vs~   80 (204)
+T 7L20_z           75 ISQISM   80 (204)
+T ss_pred             ceEEEe
+
+
+No 6
+>1EH1_A RIBOSOME RECYCLING FACTOR; TRANSLATION, RIBOSOME, HINGE VARIABILITY; 2.6A {Thermus thermophilus} SCOP: d.67.3.1
+Probab=5.72  E-value=6e+02  Score=10.50  Aligned_cols=6  Identities=50%  Similarity=0.706  Sum_probs=0.0  Template_Neff=7.900
+
+Q LATVSV            1 LATVSV    6 (6)
+Q Consensus         1 latvsv    6 (6)
+                      +|+|++
+T Consensus        55 lA~V~~   60 (185)
+T 1EH1_A           55 IATVTA   60 (185)
+T ss_dssp             TCEEEC
+T ss_pred             eeEEEc
+
+
+No 7
+>3J0D_J PROTEIN/RNA Complex; ribosome, ribosome recycling factor, TRANSLATION; 11.1A {Escherichia coli}
+Probab=5.54  E-value=6.3e+02  Score=10.46  Aligned_cols=6  Identities=50%  Similarity=0.706  Sum_probs=0.0  Template_Neff=7.900
+
+Q LATVSV            1 LATVSV    6 (6)
+Q Consensus         1 latvsv    6 (6)
+                      +|+|++
+T Consensus        55 lA~I~~   60 (185)
+T 3J0D_J           55 IATVTA   60 (185)
+T ss_pred             ceEEEc
+
+
+No 8
+>6UCQ_2w Ribosome; recycling, EF-G, RRF, 70S ribosome; HET: 2MA, 4SU, 5MC, 4OC, MIA, ZN, SF4, OMC, OMG, PSU, MG, 2MU, GDP, M2G, MA6, 7MG, 2MG, 0TD, UR3, 5MU; 3.5A {Thermus thermophilus HB8}
+Probab=5.54  E-value=6.3e+02  Score=10.46  Aligned_cols=6  Identities=50%  Similarity=0.706  Sum_probs=0.0  Template_Neff=7.900
+
+Q LATVSV            1 LATVSV    6 (6)
+Q Consensus         1 latvsv    6 (6)
+                      +|+|++
+T Consensus        55 lA~I~~   60 (185)
+T 6UCQ_2w          55 IATVTA   60 (185)
+T ss_pred             ceEEEc
+
+
+No 9
+>6TQP_A 16L protein, Bcl-2-binding component 3; Pox virus, Apoptosis, Bcl-2; 1.8494094828A {Yaba-like disease virus}
+Probab=5.53  E-value=6.3e+02  Score=12.08  Aligned_cols=6  Identities=50%  Similarity=0.717  Sum_probs=0.0  Template_Neff=2.700
+
+Q LATVSV            1 LATVSV    6 (6)
+Q Consensus         1 latvsv    6 (6)
+                      ||++|.
+T Consensus       100 LAtiSL  105 (152)
+T 6TQP_A          100 LAIISL  105 (152)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 10
+>4UF1_A ANTIAPOPTOTIC MEMBRANE PROTEIN, BCL-2 HOMOLOGOUS; VIRAL PROTEIN, DEERPOX VIRUS, APOPTOSIS; 2.3A {MULE DEER POXVIRUS}
+Probab=5.45  E-value=6.4e+02  Score=12.23  Aligned_cols=6  Identities=67%  Similarity=0.722  Sum_probs=0.0  Template_Neff=2.700
+
+Q LATVSV            1 LATVSV    6 (6)
+Q Consensus         1 latvsv    6 (6)
+                      ||++|.
+T Consensus       105 LAtiSL  110 (168)
+T 4UF1_A          105 LATLSF  110 (168)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+

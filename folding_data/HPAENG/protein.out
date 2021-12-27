@@ -1,0 +1,142 @@
+Query         HPAENG
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 06:56:03 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/HPAENG/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/HPAENG/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5T5H_V PROTEIN/RNA Complex; Tr  16.5 1.4E+02  0.0015   12.5   0.0    6    1-6       9-14  (99)
+  2 2D8T_A RING finger protein 146  16.4 1.4E+02  0.0016    7.9   0.0    6    1-6      66-71  (71)
+  3 6T4Q_LU 40S ribosomal protein   16.0 1.5E+02  0.0016   12.4   0.0    6    1-6      13-18  (100)
+  4 6LFB_A Acyl-CoA thioesterase I  15.2 1.6E+02  0.0017    9.8   0.0    6    1-6     157-162 (179)
+  5 3JBN_AX PROTEIN/RNA Complex; R  15.0 1.6E+02  0.0018   12.2   0.0    6    1-6       9-14  (97)
+  6 3JBP_AX PROTEIN/RNA Complex; R  14.7 1.7E+02  0.0018   12.1   0.0    6    1-6       9-14  (97)
+  7 3T6Q_C CD180 antigen, Lymphocy  13.8 1.8E+02   0.002   11.1   0.0    6    1-6       2-7   (145)
+  8 6XU6_CU Specialised ribosome,   13.8 1.8E+02   0.002   12.0   0.0    6    1-6       7-12  (96)
+  9 6XU7_CU Specialised ribosome,   13.8 1.8E+02   0.002   12.0   0.0    6    1-6       7-12  (96)
+ 10 4V3P_LW 40S WHEAT GERM RIBOSOM  13.7 1.8E+02   0.002   12.3   0.0    6    1-6      16-21  (108)
+
+No 1
+>5T5H_V PROTEIN/RNA Complex; Trypanosoma cruzi, ribosomal subunit, assmebly; HET: OMU, MG, A2M, 5MC, OMG, OMC, 7MG; 2.54A {Trypanosoma cruzi}
+Probab=16.53  E-value=1.4e+02  Score=12.46  Aligned_cols=6  Identities=50%  Similarity=0.972  Sum_probs=0.0  Template_Neff=5.000
+
+Q HPAENG            1 HPAENG    6 (6)
+Q Consensus         1 hpaeng    6 (6)
+                      ||+|.|
+T Consensus         9 ~pveD~   14 (99)
+T 5T5H_V            9 IPANDG   14 (99)
+T ss_pred             ccccCC
+
+
+No 2
+>2D8T_A RING finger protein 146; RING finger protein 146, Dactylidin; HET: ZN; NMR {Homo sapiens}
+Probab=16.38  E-value=1.4e+02  Score=7.87  Aligned_cols=6  Identities=17%  Similarity=0.346  Sum_probs=0.0  Template_Neff=12.900
+
+Q HPAENG            1 HPAENG    6 (6)
+Q Consensus         1 hpaeng    6 (6)
+                      ...+||
+T Consensus        66 ~~~~~~   71 (71)
+T 2D8T_A           66 SGPSSG   71 (71)
+T ss_dssp             CSCSCC
+T ss_pred             CCCCCC
+
+
+No 3
+>6T4Q_LU 40S ribosomal protein S1-A, 40S; stalling dicodon codon pair, TRANSLATION; HET: MG; 2.6A {Saccharomyces cerevisiae}
+Probab=15.97  E-value=1.5e+02  Score=12.37  Aligned_cols=6  Identities=67%  Similarity=1.221  Sum_probs=0.0  Template_Neff=5.100
+
+Q HPAENG            1 HPAENG    6 (6)
+Q Consensus         1 hpaeng    6 (6)
+                      ||+|.|
+T Consensus        13 ~pveD~   18 (100)
+T 6T4Q_LU          13 SPTENG   18 (100)
+T ss_pred             CcccCc
+
+
+No 4
+>6LFB_A Acyl-CoA thioesterase I also functions; Thioesterase, mutant, HYDROLASE; 1.99A {Escherichia coli}
+Probab=15.19  E-value=1.6e+02  Score=9.80  Aligned_cols=6  Identities=33%  Similarity=0.911  Sum_probs=0.0  Template_Neff=12.300
+
+Q HPAENG            1 HPAENG    6 (6)
+Q Consensus         1 hpaeng    6 (6)
+                      ||...|
+T Consensus       157 H~~~~g  162 (179)
+T 6LFB_A          157 HPNRDA  162 (179)
+T ss_dssp             SBCGGG
+T ss_pred             CCCHhH
+
+
+No 5
+>3JBN_AX PROTEIN/RNA Complex; RIBOSOME; 4.7A {Plasmodium falciparum 3D7}
+Probab=14.96  E-value=1.6e+02  Score=12.19  Aligned_cols=6  Identities=17%  Similarity=0.590  Sum_probs=0.0  Template_Neff=5.100
+
+Q HPAENG            1 HPAENG    6 (6)
+Q Consensus         1 hpaeng    6 (6)
+                      ||+|.|
+T Consensus         9 ~pveD~   14 (97)
+T 3JBN_AX           9 KPVKDT   14 (97)
+T ss_pred             CCccCC
+
+
+No 6
+>3JBP_AX PROTEIN/RNA Complex; RIBOSOME; 6.7A {Plasmodium falciparum 3D7}
+Probab=14.69  E-value=1.7e+02  Score=12.12  Aligned_cols=6  Identities=17%  Similarity=0.590  Sum_probs=0.0  Template_Neff=5.200
+
+Q HPAENG            1 HPAENG    6 (6)
+Q Consensus         1 hpaeng    6 (6)
+                      ||.|.|
+T Consensus         9 ~pveD~   14 (97)
+T 3JBP_AX           9 KPVKDT   14 (97)
+T ss_pred             CcccCc
+
+
+No 7
+>3T6Q_C CD180 antigen, Lymphocyte antigen 86; Protein-Protein complex, Leucine rich repeat; HET: GOL, BMA, MAN, NAG; 1.9A {Mus musculus}
+Probab=13.83  E-value=1.8e+02  Score=11.07  Aligned_cols=6  Identities=67%  Similarity=1.082  Sum_probs=0.0  Template_Neff=8.800
+
+Q HPAENG            1 HPAENG    6 (6)
+Q Consensus         1 hpaeng    6 (6)
+                      |-.|||
+T Consensus         2 ~~~~~~    7 (145)
+T 3T6Q_C            2 HGSENG    7 (145)
+T ss_pred             CCcccC
+
+
+No 8
+>6XU6_CU Specialised ribosome, Drosophila melanogaster, Testis; 3.5A {Drosophila melanogaster}
+Probab=13.75  E-value=1.8e+02  Score=11.98  Aligned_cols=6  Identities=33%  Similarity=0.091  Sum_probs=0.0  Template_Neff=5.200
+
+Q HPAENG            1 HPAENG    6 (6)
+Q Consensus         1 hpaeng    6 (6)
+                      ||+|.|
+T Consensus         7 ~pveD~   12 (96)
+T 6XU6_CU           7 CVAEDM   12 (96)
+T ss_pred             ccccCc
+
+
+No 9
+>6XU7_CU Specialised ribosome, Drosophila melanogaster, Testis; 4.9A {Drosophila melanogaster}
+Probab=13.75  E-value=1.8e+02  Score=11.98  Aligned_cols=6  Identities=33%  Similarity=0.091  Sum_probs=0.0  Template_Neff=5.200
+
+Q HPAENG            1 HPAENG    6 (6)
+Q Consensus         1 hpaeng    6 (6)
+                      ||+|.|
+T Consensus         7 ~pveD~   12 (96)
+T 6XU7_CU           7 CVAEDM   12 (96)
+T ss_pred             ccccCc
+
+
+No 10
+>4V3P_LW 40S WHEAT GERM RIBOSOME1/RNA Complex; RIBOSOME; 34.0A {Triticum aestivum}
+Probab=13.72  E-value=1.8e+02  Score=12.28  Aligned_cols=6  Identities=33%  Similarity=0.722  Sum_probs=0.0  Template_Neff=5.000
+
+Q HPAENG            1 HPAENG    6 (6)
+Q Consensus         1 hpaeng    6 (6)
+                      ||+|.|
+T Consensus        16 ~pveD~   21 (108)
+T 4V3P_LW          16 KPVEDK   21 (108)
+T ss_pred             CcccCc
+
+

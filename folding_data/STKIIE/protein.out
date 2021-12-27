@@ -1,0 +1,153 @@
+Query         STKIIE
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 17:46:04 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/STKIIE/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/STKIIE/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3L9K_Y RE64145p, Dynein interm  47.3      17 0.00019   12.3   0.0    6    1-6      22-27  (38)
+  2 4AIB_A ORNITHINE DECARBOXYLASE  12.7 2.1E+02  0.0023   12.5   0.0    6    1-6     388-393 (395)
+  3 4LL7_A SWI5-dependent HO expre  12.4 2.1E+02  0.0023   11.7   0.0    6    1-6       1-6   (96)
+  4 2O3B_B Nuclease (E.C.3.1.30.-)   6.7 4.9E+02  0.0054   10.6   0.0    6    1-6     130-135 (136)
+  5 5YI6_C CRISPR-associated endor   6.7 4.9E+02  0.0054   10.6   0.0    5    2-6     252-256 (262)
+  6 5YI6_D CRISPR-associated endor   6.7 4.9E+02  0.0054   10.6   0.0    5    2-6     252-256 (262)
+  7 6VSU_D Arginase 1, mitochondri   6.4 5.2E+02  0.0057   11.5   0.0    5    2-6      21-25  (321)
+  8 6VSU_E Arginase 1, mitochondri   6.4 5.2E+02  0.0057   11.5   0.0    5    2-6      21-25  (321)
+  9 4NV7_A Arylamine N-acetyltrans   5.5 6.4E+02   0.007   11.5   0.0    5    2-6     305-309 (312)
+ 10 4NV8_A Arylamine N-acetyltrans   5.5 6.4E+02   0.007   11.5   0.0    5    2-6     305-309 (312)
+
+No 1
+>3L9K_Y RE64145p, Dynein intermediate chain, cytosolic; dynein, intermediate chain, IC, LC7; 3.0A {Drosophila melanogaster}
+Probab=47.30  E-value=17  Score=12.32  Aligned_cols=6  Identities=33%  Similarity=0.744  Sum_probs=3.1  Template_Neff=6.200
+
+Q STKIIE            1 STKIIE    6 (6)
+Q Consensus         1 stkiie    6 (6)
+                      |+||||
+T Consensus        22 ssrivE   27 (38)
+T 3L9K_Y           22 AGRVIE   27 (38)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            355654
+
+
+No 2
+>4AIB_A ORNITHINE DECARBOXYLASE (E.C.4.1.1.17); LYASE; 2.87A {ENTAMOEBA HISTOLYTICA}
+Probab=12.67  E-value=2.1e+02  Score=12.48  Aligned_cols=6  Identities=83%  Similarity=0.977  Sum_probs=0.0  Template_Neff=9.300
+
+Q STKIIE            1 STKIIE    6 (6)
+Q Consensus         1 stkiie    6 (6)
+                      |++|||
+T Consensus       388 ~~~~~~  393 (395)
+T 4AIB_A          388 STKIIQ  393 (395)
+T ss_dssp             ------
+T ss_pred             cccccc
+Confidence            345554
+
+
+No 3
+>4LL7_A SWI5-dependent HO expression protein 3; She3p, myosin cargo adaptor protein; HET: SO4, EDO, DY, IPA; 2.31A {Saccharomyces cerevisiae}
+Probab=12.41  E-value=2.1e+02  Score=11.67  Aligned_cols=6  Identities=50%  Similarity=0.949  Sum_probs=2.3  Template_Neff=5.500
+
+Q STKIIE            1 STKIIE    6 (6)
+Q Consensus         1 stkiie    6 (6)
+                      |+++||
+T Consensus         1 SgRVIe    6 (96)
+T 4LL7_A            1 SSRVIE    6 (96)
+T ss_dssp             -CHHHH
+T ss_pred             CchHHH
+Confidence            344553
+
+
+No 4
+>2O3B_B Nuclease (E.C.3.1.30.-), Sugar-non-specific nuclease inhibitor; Nuclease, Nuclease inhibitor, Metal complex; HET: MES; 2.3A {Nostoc sp.} SCOP: d.221.1.1
+Probab=6.72  E-value=4.9e+02  Score=10.63  Aligned_cols=6  Identities=67%  Similarity=0.983  Sum_probs=0.0  Template_Neff=7.000
+
+Q STKIIE            1 STKIIE    6 (6)
+Q Consensus         1 stkiie    6 (6)
+                      +|+.||
+T Consensus       130 kt~~VE  135 (136)
+T 2O3B_B          130 STKVVE  135 (136)
+T ss_dssp             EEEEEC
+T ss_pred             EEEEEe
+
+
+No 5
+>5YI6_C CRISPR-associated endoribonuclease Cas6 1 (E.C.3.1.-.-); Hydrolase; HET: PO4, GOL; 1.852A {Methanocaldococcus jannaschii DSM 2661}
+Probab=6.69  E-value=4.9e+02  Score=10.61  Aligned_cols=5  Identities=80%  Similarity=1.072  Sum_probs=0.0  Template_Neff=9.500
+
+Q STKIIE            2 TKIIE    6 (6)
+Q Consensus         2 tkiie    6 (6)
+                      |||.|
+T Consensus       252 ~~~~~  256 (262)
+T 5YI6_C          252 TKILE  256 (262)
+T ss_dssp             -----
+T ss_pred             HHHhh
+
+
+No 6
+>5YI6_D CRISPR-associated endoribonuclease Cas6 1 (E.C.3.1.-.-); Hydrolase; HET: PO4, GOL; 1.852A {Methanocaldococcus jannaschii DSM 2661}
+Probab=6.69  E-value=4.9e+02  Score=10.61  Aligned_cols=5  Identities=80%  Similarity=1.072  Sum_probs=0.0  Template_Neff=9.500
+
+Q STKIIE            2 TKIIE    6 (6)
+Q Consensus         2 tkiie    6 (6)
+                      |||.|
+T Consensus       252 ~~~~~  256 (262)
+T 5YI6_D          252 TKILE  256 (262)
+T ss_dssp             -----
+T ss_pred             HHHhh
+
+
+No 7
+>6VSU_D Arginase 1, mitochondrial (E.C.3.5.3.1,3.5.3.11); arginine amidinohydrolase  ureohydrolase ; HET: NA, ORN, PEG, GOL, MN; 2.25A {Arabidopsis thaliana}
+Probab=6.42  E-value=5.2e+02  Score=11.49  Aligned_cols=5  Identities=60%  Similarity=0.375  Sum_probs=0.0  Template_Neff=8.200
+
+Q STKIIE            2 TKIIE    6 (6)
+Q Consensus         2 tkiie    6 (6)
+                      |+|+|
+T Consensus        21 ~~~~~   25 (321)
+T 6VSU_D           21 TLIRE   25 (321)
+T ss_dssp             HHHHH
+T ss_pred             hhHhh
+
+
+No 8
+>6VSU_E Arginase 1, mitochondrial (E.C.3.5.3.1,3.5.3.11); arginine amidinohydrolase  ureohydrolase ; HET: NA, ORN, PEG, GOL, MN; 2.25A {Arabidopsis thaliana}
+Probab=6.42  E-value=5.2e+02  Score=11.49  Aligned_cols=5  Identities=60%  Similarity=0.375  Sum_probs=0.0  Template_Neff=8.200
+
+Q STKIIE            2 TKIIE    6 (6)
+Q Consensus         2 tkiie    6 (6)
+                      |+|+|
+T Consensus        21 ~~~~~   25 (321)
+T 6VSU_E           21 TLIRE   25 (321)
+T ss_dssp             HHHHH
+T ss_pred             hhHhh
+
+
+No 9
+>4NV7_A Arylamine N-acetyltransferase (E.C.2.3.1.5); Transferase, Acetyltransferase; HET: COA; 2.02A {Mesorhizobium loti}
+Probab=5.47  E-value=6.4e+02  Score=11.46  Aligned_cols=5  Identities=80%  Similarity=1.092  Sum_probs=0.0  Template_Neff=7.600
+
+Q STKIIE            2 TKIIE    6 (6)
+Q Consensus         2 tkiie    6 (6)
+                      |||+|
+T Consensus       305 ~~~~~  309 (312)
+T 4NV7_A          305 TKIVE  309 (312)
+T ss_dssp             TTCC-
+T ss_pred             eeeee
+
+
+No 10
+>4NV8_A Arylamine N-acetyltransferase (E.C.2.3.1.5); NAT, Arylamine N-acetyltransferase, acetyltransferase, transferase; 1.84A {Mesorhizobium loti}
+Probab=5.47  E-value=6.4e+02  Score=11.46  Aligned_cols=5  Identities=80%  Similarity=1.092  Sum_probs=0.0  Template_Neff=7.600
+
+Q STKIIE            2 TKIIE    6 (6)
+Q Consensus         2 tkiie    6 (6)
+                      |||+|
+T Consensus       305 ~~~~~  309 (312)
+T 4NV8_A          305 TKIVE  309 (312)
+T ss_dssp             TTSCC
+T ss_pred             eeeee
+
+

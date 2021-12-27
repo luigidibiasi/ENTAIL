@@ -1,0 +1,152 @@
+Query         LSQPKI
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 20:29:14 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LSQPKI/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LSQPKI/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 7RLJ_J p97, VCP, TERA, Inhibit  31.7      45 0.00049   15.2   0.0    6    1-6      21-26  (755)
+  2 3BOE_A Cadmium-specific carbon  10.4 2.7E+02   0.003   13.2   0.0    6    1-6     199-204 (210)
+  3 6JSA_A Hypothetical membrane p   9.7   3E+02  0.0033   11.7   0.0    6    1-6      80-85  (175)
+  4 2KQR_A Asparaginyl-tRNA synthe   9.4 3.1E+02  0.0034   11.4   0.0    5    2-6     109-113 (113)
+  5 3SZP_B Transcriptional regulat   9.4 3.1E+02  0.0035   10.1   0.0    6    1-6      27-32  (291)
+  6 3HHG_E Transcriptional regulat   9.3 3.2E+02  0.0035   10.5   0.0    6    1-6      29-34  (306)
+  7 6JS9_B Hypothetical membrane p   9.2 3.2E+02  0.0035   11.8   0.0    6    1-6      89-94  (193)
+  8 3LCN_A Nuclear polyadenylated    9.2 3.2E+02  0.0036   11.2   0.0    4    3-6      88-91  (105)
+  9 2PX0_C Flagellar biosynthesis    8.9 3.3E+02  0.0037   11.0   0.0    5    2-6       9-13  (296)
+ 10 3SYN_D Flagellar biosynthesis    8.9 3.3E+02  0.0037   11.0   0.0    5    2-6       9-13  (296)
+
+No 1
+>7RLJ_J p97, VCP, TERA, Inhibitor, CB-5083; HET: MG, JDP, AGS; 3.8A {Homo sapiens}
+Probab=31.74  E-value=45  Score=15.18  Aligned_cols=6  Identities=83%  Similarity=1.232  Sum_probs=3.8  Template_Neff=10.100
+
+Q LSQPKI            1 LSQPKI    6 (6)
+Q Consensus         1 lsqpki    6 (6)
+                      |||||.
+T Consensus        21 ~~~~~~   26 (755)
+T 7RLJ_J           21 LSQPKM   26 (755)
+T ss_dssp             ECHHHH
+T ss_pred             ecCCCC
+Confidence            577763
+
+
+No 2
+>3BOE_A Cadmium-specific carbonic anhydrase; carbonic anhydrase, marine diatom, cadmium-bound; 1.4A {Thalassiosira weissflogii} SCOP: c.154.1.1
+Probab=10.38  E-value=2.7e+02  Score=13.15  Aligned_cols=6  Identities=50%  Similarity=0.634  Sum_probs=3.2  Template_Neff=4.600
+
+Q LSQPKI            1 LSQPKI    6 (6)
+Q Consensus         1 lsqpki    6 (6)
+                      ||+||+
+T Consensus       199 l~~~~~  204 (210)
+T 3BOE_A          199 LGGPKN  204 (210)
+T ss_dssp             TTCCCE
+T ss_pred             hcCCce
+Confidence            456653
+
+
+No 3
+>6JSA_A Hypothetical membrane protein; heme, heme transport, HEME-BINDING PROTEIN; HET: HEM; 1.3A {Corynebacterium glutamicum (strain ATCC 13032 / DSM 20300 / JCM 1318 / LMG 3730 / NCIMB 10025)}
+Probab=9.72  E-value=3e+02  Score=11.67  Aligned_cols=6  Identities=17%  Similarity=0.401  Sum_probs=0.0  Template_Neff=7.000
+
+Q LSQPKI            1 LSQPKI    6 (6)
+Q Consensus         1 lsqpki    6 (6)
+                      +|.|+|
+T Consensus        80 lsdp~v   85 (175)
+T 6JSA_A           80 IANIEI   85 (175)
+T ss_dssp             EEEEEE
+T ss_pred             EEeEEE
+
+
+No 4
+>2KQR_A Asparaginyl-tRNA synthetase, cytoplasmic (E.C.6.1.1.22); aminoacyl-tRNA synthetase, Brugia malayi, ATP-binding; NMR {Brugia malayi}
+Probab=9.42  E-value=3.1e+02  Score=11.37  Aligned_cols=5  Identities=40%  Similarity=0.195  Sum_probs=0.0  Template_Neff=5.800
+
+Q LSQPKI            2 SQPKI    6 (6)
+Q Consensus         2 sqpki    6 (6)
+                      |+|+|
+T Consensus       109 sLP~~  113 (113)
+T 2KQR_A          109 SLSYI  113 (113)
+T ss_dssp             CCSCC
+T ss_pred             CcCCC
+
+
+No 5
+>3SZP_B Transcriptional regulator, LysR family; winged helix-turn helix, DNA-binding, transcription; 2.202A {Vibrio cholerae}
+Probab=9.37  E-value=3.1e+02  Score=10.08  Aligned_cols=6  Identities=17%  Similarity=0.340  Sum_probs=0.0  Template_Neff=12.000
+
+Q LSQPKI            1 LSQPKI    6 (6)
+Q Consensus         1 lsqpki    6 (6)
+                      +|||.+
+T Consensus        27 ~sq~~v   32 (291)
+T 3SZP_B           27 IPVATI   32 (291)
+T ss_dssp             CCHHHH
+T ss_pred             CCHHHH
+
+
+No 6
+>3HHG_E Transcriptional regulator, LysR family; Neisseria meningitidis, transcription factor, LysR; 3.2A {Neisseria meningitidis serogroup B}
+Probab=9.27  E-value=3.2e+02  Score=10.45  Aligned_cols=6  Identities=0%  Similarity=0.429  Sum_probs=0.0  Template_Neff=11.400
+
+Q LSQPKI            1 LSQPKI    6 (6)
+Q Consensus         1 lsqpki    6 (6)
+                      +|||.+
+T Consensus        29 isq~~v   34 (306)
+T 3HHG_E           29 MANSAV   34 (306)
+T ss_dssp             SCHHHH
+T ss_pred             CCHHHH
+
+
+No 7
+>6JS9_B Hypothetical membrane protein; heme, heme transport, HEME-BINDING PROTEIN; HET: HEM; 2.0A {Corynebacterium glutamicum (strain ATCC 13032 / DSM 20300 / JCM 1318 / LMG 3730 / NCIMB 10025)}
+Probab=9.24  E-value=3.2e+02  Score=11.76  Aligned_cols=6  Identities=33%  Similarity=0.501  Sum_probs=0.0  Template_Neff=7.000
+
+Q LSQPKI            1 LSQPKI    6 (6)
+Q Consensus         1 lsqpki    6 (6)
+                      ++.|+|
+T Consensus        89 lsdp~i   94 (193)
+T 6JS9_B           89 MSDIKM   94 (193)
+T ss_dssp             EEEEEE
+T ss_pred             EEeeEE
+
+
+No 8
+>3LCN_A Nuclear polyadenylated RNA-binding protein NAB2; nuclear mRNA export, Metal-binding, Nucleus; 2.0A {Saccharomyces cerevisiae}
+Probab=9.20  E-value=3.2e+02  Score=11.15  Aligned_cols=4  Identities=50%  Similarity=0.509  Sum_probs=0.0  Template_Neff=5.900
+
+Q LSQPKI            3 QPKI    6 (6)
+Q Consensus         3 qpki    6 (6)
+                      ||||
+T Consensus        88 ~p~~   91 (105)
+T 3LCN_A           88 VSKI   91 (105)
+T ss_dssp             HHHH
+T ss_pred             cccc
+
+
+No 9
+>2PX0_C Flagellar biosynthesis protein flhF; SRP GTPase, flagellum, protein transport; HET: GNP; 3.0A {Bacillus subtilis}
+Probab=8.92  E-value=3.3e+02  Score=11.03  Aligned_cols=5  Identities=80%  Similarity=1.145  Sum_probs=0.0  Template_Neff=10.000
+
+Q LSQPKI            2 SQPKI    6 (6)
+Q Consensus         2 sqpki    6 (6)
+                      |.|||
+T Consensus         9 ~~~~~   13 (296)
+T 2PX0_C            9 SSPKI   13 (296)
+T ss_dssp             -----
+T ss_pred             CCCCc
+
+
+No 10
+>3SYN_D Flagellar biosynthesis protein flhF, Putative; SRP GTPASE, FLAGELLUM, PROTEIN TRANSPORT; HET: AF3, GDP, SO4; 3.063A {Bacillus subtilis}
+Probab=8.92  E-value=3.3e+02  Score=11.03  Aligned_cols=5  Identities=80%  Similarity=1.145  Sum_probs=0.0  Template_Neff=10.000
+
+Q LSQPKI            2 SQPKI    6 (6)
+Q Consensus         2 sqpki    6 (6)
+                      |.|||
+T Consensus         9 ~~~~~   13 (296)
+T 3SYN_D            9 SSPKI   13 (296)
+T ss_dssp             -----
+T ss_pred             CCCCc
+
+

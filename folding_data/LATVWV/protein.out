@@ -1,0 +1,149 @@
+Query         LATVWV
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 16:12:54 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LATVWV/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LATVWV/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6K61_J Photosystem I P700 chlo  26.7      62 0.00069   12.5   0.0    6    1-6      21-26  (49)
+  2 6QWJ_Q Photosystem I P700 chlo  26.0      65 0.00072   12.5   0.0    6    1-6      21-26  (49)
+  3 6FOS_J Similar to chlorophyll   25.4      68 0.00075   11.9   0.0    6    1-6      13-18  (38)
+  4 6QPW_E Structural maintenance   24.2      74 0.00082   13.6   0.0    6    1-6      21-26  (372)
+  5 7COY_bJ Photosystem I P700 chl  18.1 1.2E+02  0.0013   11.9   0.0    6    1-6      24-29  (51)
+  6 4UX3_B STRUCTURAL MAINTENANCE   17.5 1.3E+02  0.0014   12.5   0.0    6    1-6      21-26  (121)
+  7 2JHA_A VP4 CORE PROTEIN; GUANY  16.0 1.5E+02  0.0016   16.6   0.0    6    1-6     433-438 (644)
+  8 2JHP_A VP4 CORE PROTEIN; VIRAL  16.0 1.5E+02  0.0016   16.5   0.0    6    1-6     433-438 (644)
+  9 3WZT_B UDP-glucose-glycoprotei  13.4 1.9E+02  0.0021   11.7   0.0    5    2-6      33-37  (163)
+ 10 3WZS_A UDP-glucose-glycoprotei  12.7   2E+02  0.0023   11.6   0.0    5    2-6      33-37  (163)
+
+No 1
+>6K61_J Photosystem I P700 chlorophyll a; Photosystem I, PSI, PCC7120, PHOTOSYNTHESIS; HET: CL0, BCR, PQN, LMG, CLA, SF4, SQD, LHG; 2.37A {Nostoc sp. PCC 7120}
+Probab=26.67  E-value=62  Score=12.54  Aligned_cols=6  Identities=50%  Similarity=1.265  Sum_probs=3.2  Template_Neff=3.700
+
+Q LATVWV            1 LATVWV    6 (6)
+Q Consensus         1 latvwv    6 (6)
+                      ++++|+
+T Consensus        21 latlw~   26 (49)
+T 6K61_J           21 AATIWL   26 (49)
+T ss_pred             HHHHHH
+Confidence            356663
+
+
+No 2
+>6QWJ_Q Photosystem I P700 chlorophyll a; Photosystem I, photosynthesis, cyanobacterium Chroococcidiopsis; HET: CLA, PQN, SF4;{Chroococcidiopsis sp. TS-821}
+Probab=25.98  E-value=65  Score=12.53  Aligned_cols=6  Identities=33%  Similarity=0.927  Sum_probs=3.2  Template_Neff=3.600
+
+Q LATVWV            1 LATVWV    6 (6)
+Q Consensus         1 latvwv    6 (6)
+                      ++|+|+
+T Consensus        21 latlw~   26 (49)
+T 6QWJ_Q           21 LLFAWL   26 (49)
+T ss_pred             HHHHHH
+Confidence            356663
+
+
+No 3
+>6FOS_J Similar to chlorophyll a/b-binding protein; membrane protein, photosynthetic complex, reaction; HET: SF4, CLA, BCR, PQN; 4.0A {Cyanidioschyzon merolae (strain 10D)}
+Probab=25.41  E-value=68  Score=11.92  Aligned_cols=6  Identities=50%  Similarity=1.359  Sum_probs=3.1  Template_Neff=3.700
+
+Q LATVWV            1 LATVWV    6 (6)
+Q Consensus         1 latvwv    6 (6)
+                      ++++|+
+T Consensus        13 l~~lw~   18 (38)
+T 6FOS_J           13 VATLWL   18 (38)
+T ss_pred             HHHHHH
+Confidence            356663
+
+
+No 4
+>6QPW_E Structural maintenance of chromosomes protein,Structural; Chromatin, genome segregation, cohesin, CELL; HET: AGS; 3.3A {Chaetomium thermophilum var. thermophilum DSM 1495}
+Probab=24.20  E-value=74  Score=13.57  Aligned_cols=6  Identities=50%  Similarity=1.414  Sum_probs=3.5  Template_Neff=9.400
+
+Q LATVWV            1 LATVWV    6 (6)
+Q Consensus         1 latvwv    6 (6)
+                      ++++|.
+T Consensus        21 ~~~~w~   26 (372)
+T 6QPW_E           21 LAQIWL   26 (372)
+T ss_dssp             HHHEEE
+T ss_pred             hHHHHH
+Confidence            466773
+
+
+No 5
+>7COY_bJ Photosystem I P700 chlorophyll a; Photosynthesis, Photosystem I, Acaryochloris marina; HET: SF4, UNL, G9R, LMG, PQN, CL7, LHG, PHO; 2.5A {Acaryochloris marina MBIC11017}
+Probab=18.11  E-value=1.2e+02  Score=11.93  Aligned_cols=6  Identities=33%  Similarity=0.612  Sum_probs=0.0  Template_Neff=3.500
+
+Q LATVWV            1 LATVWV    6 (6)
+Q Consensus         1 latvwv    6 (6)
+                      ++++|.
+T Consensus        24 la~lw~   29 (51)
+T 7COY_bJ          24 IALVFF   29 (51)
+T ss_pred             HHHHHH
+
+
+No 6
+>4UX3_B STRUCTURAL MAINTENANCE OF CHROMOSOMES PROTEIN; PROTEIN BINDING, COHESIN, MITOSIS, CHROMOSOME; HET: AGS; 3.3A {SACCHAROMYCES CEREVISIAE}
+Probab=17.55  E-value=1.3e+02  Score=12.46  Aligned_cols=6  Identities=50%  Similarity=1.414  Sum_probs=0.0  Template_Neff=6.100
+
+Q LATVWV            1 LATVWV    6 (6)
+Q Consensus         1 latvwv    6 (6)
+                      ++++|.
+T Consensus        21 l~~vWl   26 (121)
+T 4UX3_B           21 LAQIWL   26 (121)
+T ss_dssp             ----CG
+T ss_pred             hHHHHH
+
+
+No 7
+>2JHA_A VP4 CORE PROTEIN; GUANYLYLTRANSFERASE, VIRAL CAPPING ENZYME, CORE; HET: GUN, GP3; 3.4A {BLUETONGUE VIRUS 10 (ISOLATE USA)}
+Probab=16.02  E-value=1.5e+02  Score=16.55  Aligned_cols=6  Identities=67%  Similarity=1.409  Sum_probs=0.0  Template_Neff=3.400
+
+Q LATVWV            1 LATVWV    6 (6)
+Q Consensus         1 latvwv    6 (6)
+                      ++|+||
+T Consensus       433 IsTlWv  438 (644)
+T 2JHA_A          433 IATAWV  438 (644)
+T ss_dssp             EEEEEC
+T ss_pred             eeeEEe
+
+
+No 8
+>2JHP_A VP4 CORE PROTEIN; VIRAL PROTEIN, VIRAL CAPPING ENZYME; HET: GUN, SAH; 2.5A {BLUETONGUE VIRUS 10 (ISOLATE USA)}
+Probab=15.99  E-value=1.5e+02  Score=16.55  Aligned_cols=6  Identities=67%  Similarity=1.409  Sum_probs=0.0  Template_Neff=3.400
+
+Q LATVWV            1 LATVWV    6 (6)
+Q Consensus         1 latvwv    6 (6)
+                      ++|+||
+T Consensus       433 IsTlWv  438 (644)
+T 2JHP_A          433 IATAWV  438 (644)
+T ss_dssp             EEEEEC
+T ss_pred             eeeEEe
+
+
+No 9
+>3WZT_B UDP-glucose-glycoprotein glucosyltransferase-like protein; Thioredoxin fold, Endoplasmic reticulum, Quality; HET: MSE; 3.4A {Chaetomium thermophilum var. thermophilum DSM 1495}
+Probab=13.40  E-value=1.9e+02  Score=11.67  Aligned_cols=5  Identities=40%  Similarity=0.315  Sum_probs=0.0  Template_Neff=7.900
+
+Q LATVWV            2 ATVWV    6 (6)
+Q Consensus         2 atvwv    6 (6)
+                      +|+||
+T Consensus        33 ~Tlwv   37 (163)
+T 3WZT_B           33 AALTV   37 (163)
+T ss_dssp             EEEEE
+T ss_pred             eEEEE
+
+
+No 10
+>3WZS_A UDP-glucose-glycoprotein glucosyltransferase-like protein; Thioredoxin fold, Endoplasmic reticulum, Quality; HET: PQE; 1.7A {Chaetomium thermophilum var. thermophilum DSM 1495}
+Probab=12.72  E-value=2e+02  Score=11.58  Aligned_cols=5  Identities=40%  Similarity=0.315  Sum_probs=0.0  Template_Neff=7.900
+
+Q LATVWV            2 ATVWV    6 (6)
+Q Consensus         2 atvwv    6 (6)
+                      .|+||
+T Consensus        33 ~Tlwv   37 (163)
+T 3WZS_A           33 AALTV   37 (163)
+T ss_pred             eEEEE
+
+

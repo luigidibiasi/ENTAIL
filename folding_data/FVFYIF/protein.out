@@ -1,0 +1,147 @@
+Query         FVFYIF
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 22:14:43 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/FVFYIF/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/FVFYIF/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2H4P_B Heterochromatin-associa  20.0   1E+02  0.0011    8.8   0.0    6    1-6      11-16  (34)
+  2 2H4Q_B Heterochromatin-associa  20.0   1E+02  0.0011    8.8   0.0    6    1-6      11-16  (34)
+  3 4AFX_B PROTEIN Z DEPENDENT PRO  19.5 1.1E+02  0.0012    9.1   0.0    6    1-6      12-17  (36)
+  4 2HI9_A Plasma serine protease   19.1 1.1E+02  0.0012   12.7   0.0    6    1-6     345-350 (363)
+  5 5EI0_A Vaspin; Serpin, cleaved  18.9 1.1E+02  0.0012   13.3   0.0    6    1-6     389-394 (413)
+  6 4AJU_B PROTEIN Z-DEPENDENT PRO  18.8 1.1E+02  0.0012    9.0   0.0    6    1-6      12-17  (36)
+  7 5DU3_A Plasma protease C1 inhi  18.5 1.2E+02  0.0013   13.0   0.0    6    1-6     359-364 (382)
+  8 5CDZ_A Conserpin in the latent  18.3 1.2E+02  0.0013   12.7   0.0    6    1-6     357-362 (378)
+  9 2CEO_A THYROXINE-BINDING GLOBU  18.3 1.2E+02  0.0013   12.8   0.0    6    1-6     355-360 (379)
+ 10 1C8O_B ICE INHIBITOR; SERPIN F  18.0 1.2E+02  0.0013    9.5   0.0    6    1-6      18-23  (41)
+
+No 1
+>2H4P_B Heterochromatin-associated protein MENT; Serine protease inhibitor, Serpin, HYDROLASE; 1.7A {Gallus gallus}
+Probab=19.98  E-value=1e+02  Score=8.83  Aligned_cols=6  Identities=50%  Similarity=0.993  Sum_probs=0.0  Template_Neff=9.000
+
+Q FVFYIF            1 FVFYIF    6 (6)
+Q Consensus         1 fvfyif    6 (6)
+                      |+|.|.
+T Consensus        11 F~f~i~   16 (34)
+T 2H4P_B           11 FHFFIR   16 (34)
+T ss_pred             EEEEEE
+
+
+No 2
+>2H4Q_B Heterochromatin-associated protein MENT; Serine protease inhibitor, Serpin, HYDROLASE; 2.1A {Gallus gallus}
+Probab=19.98  E-value=1e+02  Score=8.83  Aligned_cols=6  Identities=50%  Similarity=0.993  Sum_probs=0.0  Template_Neff=9.000
+
+Q FVFYIF            1 FVFYIF    6 (6)
+Q Consensus         1 fvfyif    6 (6)
+                      |+|.|.
+T Consensus        11 F~f~i~   16 (34)
+T 2H4Q_B           11 FHFFIR   16 (34)
+T ss_pred             EEEEEE
+
+
+No 3
+>4AFX_B PROTEIN Z DEPENDENT PROTEASE INHIBITOR; HYDROLASE INHIBITOR, SERPIN, PROTEIN Z; HET: PO4; 2.09A {HOMO SAPIENS}
+Probab=19.55  E-value=1.1e+02  Score=9.07  Aligned_cols=6  Identities=50%  Similarity=1.159  Sum_probs=0.0  Template_Neff=8.700
+
+Q FVFYIF            1 FVFYIF    6 (6)
+Q Consensus         1 fvfyif    6 (6)
+                      |+|.|.
+T Consensus        12 F~f~i~   17 (36)
+T 4AFX_B           12 FHFMIY   17 (36)
+T ss_dssp             EEEEEE
+T ss_pred             eEEEEE
+
+
+No 4
+>2HI9_A Plasma serine protease inhibitor; Serpin, coagulation, haemostasis, thrombin inhibitor; HET: CIT; 2.3A {Homo sapiens}
+Probab=19.06  E-value=1.1e+02  Score=12.66  Aligned_cols=6  Identities=33%  Similarity=1.087  Sum_probs=0.0  Template_Neff=10.100
+
+Q FVFYIF            1 FVFYIF    6 (6)
+Q Consensus         1 fvfyif    6 (6)
+                      |+|+|.
+T Consensus       345 F~f~I~  350 (363)
+T 2HI9_A          345 FLMFIV  350 (363)
+T ss_dssp             EEEEEE
+T ss_pred             eEEEEE
+
+
+No 5
+>5EI0_A Vaspin; Serpin, cleaved, adipokine, hydrolase inhibitor; 2.5A {Homo sapiens}
+Probab=18.92  E-value=1.1e+02  Score=13.32  Aligned_cols=6  Identities=17%  Similarity=0.999  Sum_probs=0.0  Template_Neff=9.300
+
+Q FVFYIF            1 FVFYIF    6 (6)
+Q Consensus         1 fvfyif    6 (6)
+                      |+|+|+
+T Consensus       389 Flf~I~  394 (413)
+T 5EI0_A          389 YLLLIY  394 (413)
+T ss_dssp             EEEEEE
+T ss_pred             EEEEEE
+
+
+No 6
+>4AJU_B PROTEIN Z-DEPENDENT PROTEASE INHIBITOR; BLOOD CLOTTING, SERPIN, PROTEIN Z; HET: SO4; 2.65A {HOMO SAPIENS}
+Probab=18.83  E-value=1.1e+02  Score=9.01  Aligned_cols=6  Identities=50%  Similarity=1.159  Sum_probs=0.0  Template_Neff=8.700
+
+Q FVFYIF            1 FVFYIF    6 (6)
+Q Consensus         1 fvfyif    6 (6)
+                      |+|.|.
+T Consensus        12 F~f~i~   17 (36)
+T 4AJU_B           12 FHFMIY   17 (36)
+T ss_pred             eEEEEE
+
+
+No 7
+>5DU3_A Plasma protease C1 inhibitor; Serine protease inhibitor, hydrolase inhibitor; 2.1A {Homo sapiens}
+Probab=18.53  E-value=1.2e+02  Score=12.97  Aligned_cols=6  Identities=33%  Similarity=1.170  Sum_probs=0.0  Template_Neff=9.600
+
+Q FVFYIF            1 FVFYIF    6 (6)
+Q Consensus         1 fvfyif    6 (6)
+                      |+|+|.
+T Consensus       359 F~f~I~  364 (382)
+T 5DU3_A          359 FLFVLW  364 (382)
+T ss_dssp             EEEEEE
+T ss_pred             EEEEEE
+
+
+No 8
+>5CDZ_A Conserpin in the latent state; Serine Protease Inhibitor, Aggregation Resistant; HET: GOL; 1.449A {synthetic construct}
+Probab=18.31  E-value=1.2e+02  Score=12.71  Aligned_cols=6  Identities=50%  Similarity=0.921  Sum_probs=0.0  Template_Neff=10.000
+
+Q FVFYIF            1 FVFYIF    6 (6)
+Q Consensus         1 fvfyif    6 (6)
+                      |+|+|.
+T Consensus       357 F~f~I~  362 (378)
+T 5CDZ_A          357 FLFLIR  362 (378)
+T ss_dssp             EEEEEE
+T ss_pred             EEEEEE
+
+
+No 9
+>2CEO_A THYROXINE-BINDING GLOBULIN; TRANSPORT, THYROXINE-BINDING GLOBULIN, SERPIN, HORMONE; HET: GOL, T44; 2.8A {HOMO SAPIENS}
+Probab=18.29  E-value=1.2e+02  Score=12.82  Aligned_cols=6  Identities=33%  Similarity=0.921  Sum_probs=0.0  Template_Neff=9.800
+
+Q FVFYIF            1 FVFYIF    6 (6)
+Q Consensus         1 fvfyif    6 (6)
+                      |+|+|.
+T Consensus       355 F~f~I~  360 (379)
+T 2CEO_A          355 FMLLIL  360 (379)
+T ss_dssp             EEEEEE
+T ss_pred             EEEEEE
+
+
+No 10
+>1C8O_B ICE INHIBITOR; SERPIN FOLD, Viral protein; 2.9A {Cowpox virus}
+Probab=17.99  E-value=1.2e+02  Score=9.49  Aligned_cols=6  Identities=33%  Similarity=0.827  Sum_probs=0.0  Template_Neff=8.100
+
+Q FVFYIF            1 FVFYIF    6 (6)
+Q Consensus         1 fvfyif    6 (6)
+                      |+|.|+
+T Consensus        18 Flf~i~   23 (41)
+T 1C8O_B           18 FIYVIR   23 (41)
+T ss_dssp             EEEEEE
+T ss_pred             EEEEEE
+
+

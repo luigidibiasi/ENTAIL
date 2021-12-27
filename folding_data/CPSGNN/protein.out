@@ -1,0 +1,152 @@
+Query         CPSGNN
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 16:27:22 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/CPSGNN/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/CPSGNN/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5XFA_A NAD-reducing hydrogenas  26.1      65 0.00072   15.7   0.0    6    1-6     556-561 (591)
+  2 1JZT_A Hypothetical 27.5 kDa p  20.1   1E+02  0.0011   13.2   0.0    6    1-6      65-70  (246)
+  3 1P4L_D Natural Killer Receptor  20.0   1E+02  0.0011    9.7   0.0    4    1-4       2-5   (122)
+  4 6N59_A Iron hydrogenase 1 (E.C  20.0   1E+02  0.0011   14.3   0.0    4    1-4     499-502 (574)
+  5 2EN8_A Zinc finger protein 224  20.0   1E+02  0.0011    7.1   0.0    4    1-4      43-46  (46)
+  6 1APJ_A FIBRILLIN; FIBRILLIN FR  19.8   1E+02  0.0011   10.9   0.0    5    1-5      60-64  (74)
+  7 5ODC_C Heterodisulfide reducta  19.8   1E+02  0.0011   11.5   0.0    6    1-6      87-92  (184)
+  8 5ODQ_I Heterodisulfide reducta  19.8   1E+02  0.0011   11.5   0.0    6    1-6      87-92  (184)
+  9 1SJ1_A Ferredoxin; thermostabi  19.8   1E+02  0.0012    8.8   0.0    4    1-4      56-59  (66)
+ 10 4IYE_A Toxin AdTx1; Snake thre  19.7   1E+02  0.0012   10.4   0.0    6    1-6      18-23  (66)
+
+No 1
+>5XFA_A NAD-reducing hydrogenase; hydrogenase, Ni-Fe, Fe-S, OXIDOREDUCTASE; HET: SF4, FCO; 2.7A {Hydrogenophilus thermoluteolus}
+Probab=26.09  E-value=65  Score=15.67  Aligned_cols=6  Identities=17%  Similarity=0.019  Sum_probs=3.4  Template_Neff=7.500
+
+Q CPSGNN            1 CPSGNN    6 (6)
+Q Consensus         1 cpsgnn    6 (6)
+                      ||+|.|
+T Consensus       556 cpa~~~  561 (591)
+T 5XFA_A          556 IPAFSL  561 (591)
+T ss_dssp             CCSSCT
+T ss_pred             CCccch
+Confidence            666643
+
+
+No 2
+>1JZT_A Hypothetical 27.5 kDa protein in; yeast hypothetical protein, structural genomics; HET: MSE; 1.94A {Saccharomyces cerevisiae} SCOP: c.104.1.1
+Probab=20.11  E-value=1e+02  Score=13.25  Aligned_cols=6  Identities=50%  Similarity=0.750  Sum_probs=2.8  Template_Neff=7.800
+
+Q CPSGNN            1 CPSGNN    6 (6)
+Q Consensus         1 cpsgnn    6 (6)
+                      |-+|||
+T Consensus        65 ~G~GnN   70 (246)
+T 1JZT_A           65 AGPGNN   70 (246)
+T ss_dssp             ECSSHH
+T ss_pred             ECCCCc
+Confidence            344554
+
+
+No 3
+>1P4L_D Natural Killer Receptor, MHC class; 2.9A {Mus musculus} SCOP: d.169.1.1
+Probab=19.98  E-value=1e+02  Score=9.69  Aligned_cols=4  Identities=0%  Similarity=-0.637  Sum_probs=0.0  Template_Neff=12.000
+
+Q CPSGNN            1 CPSG    4 (6)
+Q Consensus         1 cpsg    4 (6)
+                      ||.|
+T Consensus         2 c~~~    5 (122)
+T 1P4L_D            2 GVKY    5 (122)
+T ss_dssp             CCCC
+T ss_pred             CccC
+
+
+No 4
+>6N59_A Iron hydrogenase 1 (E.C.1.12.7.2); [FeFe]-hydrogenase, reactivity of [FeFe]-hydrogenase, Clostridium; HET: SF4, 402, GOL; 1.02A {Clostridium pasteurianum}
+Probab=19.97  E-value=1e+02  Score=14.26  Aligned_cols=4  Identities=50%  Similarity=1.448  Sum_probs=0.0  Template_Neff=8.900
+
+Q CPSGNN            1 CPSG    4 (6)
+Q Consensus         1 cpsg    4 (6)
+                      ||+|
+T Consensus       499 CpgG  502 (574)
+T 6N59_A          499 CHGG  502 (574)
+T ss_dssp             STTS
+T ss_pred             cCCc
+
+
+No 5
+>2EN8_A Zinc finger protein 224; zf-C2H2, Structural Genomics, NPPSFA, National; HET: ZN; NMR {Homo sapiens}
+Probab=19.96  E-value=1e+02  Score=7.07  Aligned_cols=4  Identities=50%  Similarity=0.509  Sum_probs=0.0  Template_Neff=13.300
+
+Q CPSGNN            1 CPSG    4 (6)
+Q Consensus         1 cpsg    4 (6)
+                      |.+|
+T Consensus        43 ~~~~   46 (46)
+T 2EN8_A           43 PSSG   46 (46)
+T ss_dssp             CSCC
+T ss_pred             CCCC
+
+
+No 6
+>1APJ_A FIBRILLIN; FIBRILLIN FRAGMENT, MICROFIBRIL, TB MODULE; NMR {Homo sapiens} SCOP: g.23.1.1
+Probab=19.84  E-value=1e+02  Score=10.89  Aligned_cols=5  Identities=60%  Similarity=1.643  Sum_probs=0.0  Template_Neff=7.900
+
+Q CPSGNN            1 CPSGN    5 (6)
+Q Consensus         1 cpsgn    5 (6)
+                      ||.|.
+T Consensus        60 Cp~G~   64 (74)
+T 1APJ_A           60 CPYGS   64 (74)
+T ss_dssp             CSSCS
+T ss_pred             CCCCC
+
+
+No 7
+>5ODC_C Heterodisulfide reductase, subunit A (E.C.1.8.98.1); Heterodisulfide reductase, [NiFe]-hydrogenase, FeS cluster; HET: NFU, SF4, PE3, GOL, FAD, 9S8, ACT; 2.3A {Methanothermococcus thermolithotrophicus DSM 2095}
+Probab=19.83  E-value=1e+02  Score=11.53  Aligned_cols=6  Identities=33%  Similarity=0.977  Sum_probs=0.0  Template_Neff=10.000
+
+Q CPSGNN            1 CPSGNN    6 (6)
+Q Consensus         1 cpsgnn    6 (6)
+                      ||.+.+
+T Consensus        87 CP~~~~   92 (184)
+T 5ODC_C           87 CPRDVK   92 (184)
+T ss_dssp             CTTCCC
+T ss_pred             CCCCCC
+
+
+No 8
+>5ODQ_I Heterodisulfide reductase, subunit A (E.C.1.8.98.1); Heterodisulfide reductase, [NiFe]-hydrogenase, FeS cluster; HET: 9SB, PE3, FAD, NFU, ACT, 9S8, GOL, SF4; 2.15A {Methanothermococcus thermolithotrophicus DSM 2095}
+Probab=19.83  E-value=1e+02  Score=11.53  Aligned_cols=6  Identities=33%  Similarity=0.977  Sum_probs=0.0  Template_Neff=10.000
+
+Q CPSGNN            1 CPSGNN    6 (6)
+Q Consensus         1 cpsgnn    6 (6)
+                      ||.+.+
+T Consensus        87 CP~~~~   92 (184)
+T 5ODQ_I           87 CPRDVK   92 (184)
+T ss_dssp             CTTCCC
+T ss_pred             CCCCCC
+
+
+No 9
+>1SJ1_A Ferredoxin; thermostability, iron-sulfur cluster, hexammine cobalt(III); HET: F3S, NCO; 1.5A {Pyrococcus furiosus} SCOP: d.58.1.4
+Probab=19.81  E-value=1e+02  Score=8.84  Aligned_cols=4  Identities=50%  Similarity=1.539  Sum_probs=0.0  Template_Neff=11.400
+
+Q CPSGNN            1 CPSG    4 (6)
+Q Consensus         1 cpsg    4 (6)
+                      ||.+
+T Consensus        56 cp~~   59 (66)
+T 1SJ1_A           56 CPVS   59 (66)
+T ss_dssp             CTTC
+T ss_pred             CCcc
+
+
+No 10
+>4IYE_A Toxin AdTx1; Snake three-finger toxin family, Type; HET: PEG; 1.951A {Dendroaspis angusticeps}
+Probab=19.72  E-value=1e+02  Score=10.41  Aligned_cols=6  Identities=67%  Similarity=1.702  Sum_probs=0.0  Template_Neff=8.400
+
+Q CPSGNN            1 CPSGNN    6 (6)
+Q Consensus         1 cpsgnn    6 (6)
+                      ||++.+
+T Consensus        18 C~~~~~   23 (66)
+T 4IYE_A           18 CPDGQN   23 (66)
+T ss_dssp             CCTTCC
+T ss_pred             CCCCCC
+
+

@@ -1,0 +1,156 @@
+Query         HGGGGN
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 06:12:24 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/HGGGGN/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/HGGGGN/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2GEZ_E L-asparaginase alpha su  47.1      18  0.0002   15.9   0.0    6    1-6      12-17  (195)
+  2 4PV2_C Uncharacterized protein  41.6      24 0.00027   15.4   0.0    6    1-6      11-16  (197)
+  3 2GEZ_C L-asparaginase alpha su  39.6      28 0.00031   15.3   0.0    6    1-6      12-17  (195)
+  4 2ZAL_A L-asparaginase (E.C.3.4  36.9      32 0.00036   14.5   0.0    6    1-6       8-13  (160)
+  5 1T3M_A Putative L-asparaginase  35.1      36  0.0004   14.8   0.0    6    1-6       8-13  (177)
+  6 3C17_B L-asparaginase precurso  20.7      96  0.0011   14.3   0.0    6    1-6       8-13  (320)
+  7 4NS4_A Alpha/beta hydrolase fo  20.0   1E+02  0.0011   11.5   0.0    6    1-6      74-79  (323)
+  8 4GOJ_D ADP-ribosylation factor  20.0   1E+02  0.0011   15.0   0.0    5    2-6       6-10  (240)
+  9 3LLC_A Putative hydrolase; Put  19.9   1E+02  0.0011   10.8   0.0    6    1-6      44-49  (270)
+ 10 6AVX_A Carboxylesterase SOBER1  19.9   1E+02  0.0011   10.7   0.0    6    1-6      12-17  (230)
+
+No 1
+>2GEZ_E L-asparaginase alpha subunit, L-asparaginase beta; isoaspartyl aminopeptidase, L-asparaginase, Ntn-hydrolase, autoproteolysis; 2.6A {Lupinus luteus}
+Probab=47.11  E-value=18  Score=15.93  Aligned_cols=6  Identities=67%  Similarity=1.581  Sum_probs=4.1  Template_Neff=6.000
+
+Q HGGGGN            1 HGGGGN    6 (6)
+Q Consensus         1 hggggn    6 (6)
+                      |||.||
+T Consensus        12 HgGAG~   17 (195)
+T 2GEZ_E           12 HGGAGD   17 (195)
+T ss_dssp             EEEEEC
+T ss_pred             EeCCCC
+Confidence            777764
+
+
+No 2
+>4PV2_C Uncharacterized protein (E.C.3.5.1.1); metal binding sites, potassium coordination; HET: NO3; 1.79A {Phaseolus vulgaris}
+Probab=41.59  E-value=24  Score=15.38  Aligned_cols=6  Identities=67%  Similarity=1.337  Sum_probs=3.9  Template_Neff=6.300
+
+Q HGGGGN            1 HGGGGN    6 (6)
+Q Consensus         1 hggggn    6 (6)
+                      |||.||
+T Consensus        11 HgGAG~   16 (197)
+T 4PV2_C           11 HGGAGV   16 (197)
+T ss_dssp             EEEECC
+T ss_pred             EcCCCC
+Confidence            677664
+
+
+No 3
+>2GEZ_C L-asparaginase alpha subunit, L-asparaginase beta; isoaspartyl aminopeptidase, L-asparaginase, Ntn-hydrolase, autoproteolysis; 2.6A {Lupinus luteus}
+Probab=39.56  E-value=28  Score=15.31  Aligned_cols=6  Identities=67%  Similarity=1.581  Sum_probs=4.0  Template_Neff=6.100
+
+Q HGGGGN            1 HGGGGN    6 (6)
+Q Consensus         1 hggggn    6 (6)
+                      |||.||
+T Consensus        12 HgGAG~   17 (195)
+T 2GEZ_C           12 HGGAGD   17 (195)
+T ss_dssp             EEEEEC
+T ss_pred             EeCCCC
+Confidence            677664
+
+
+No 4
+>2ZAL_A L-asparaginase (E.C.3.4.19.5, 3.5.1.1); isoaspartyl peptidase, asparaginase, Ntn-hydrolase, autoproteolysis; HET: TRS, ASP; 1.9A {Escherichia coli}
+Probab=36.95  E-value=32  Score=14.55  Aligned_cols=6  Identities=67%  Similarity=1.442  Sum_probs=3.7  Template_Neff=6.400
+
+Q HGGGGN            1 HGGGGN    6 (6)
+Q Consensus         1 hggggn    6 (6)
+                      |||-|+
+T Consensus         8 HgGAG~   13 (160)
+T 2ZAL_A            8 HGGAGA   13 (160)
+T ss_dssp             EEEEEC
+T ss_pred             EecCCC
+Confidence            676654
+
+
+No 5
+>1T3M_A Putative L-asparaginase precursor (E.C.3.5.1.1); TYPE III L-ASPARAGINASE, PLANT-TYPE ASPARAGINASE; HET: NO3; 1.65A {Escherichia coli} SCOP: d.153.1.5
+Probab=35.08  E-value=36  Score=14.76  Aligned_cols=6  Identities=67%  Similarity=1.442  Sum_probs=3.8  Template_Neff=6.100
+
+Q HGGGGN            1 HGGGGN    6 (6)
+Q Consensus         1 hggggn    6 (6)
+                      |||.||
+T Consensus         8 HgGAG~   13 (177)
+T 1T3M_A            8 HGGAGA   13 (177)
+T ss_dssp             EEEESS
+T ss_pred             EeCCCc
+Confidence            677664
+
+
+No 6
+>3C17_B L-asparaginase precursor (E.C.3.4.19.5, 3.5.1.1); ISOASPARTYL PEPTIDASE, ASPARAGINASE, NTN-HYDROLASE, AUTOPROTEOLYSIS; HET: NA, CL; 1.95A {Escherichia coli}
+Probab=20.74  E-value=96  Score=14.32  Aligned_cols=6  Identities=67%  Similarity=1.442  Sum_probs=3.6  Template_Neff=6.800
+
+Q HGGGGN            1 HGGGGN    6 (6)
+Q Consensus         1 hggggn    6 (6)
+                      |||-|+
+T Consensus         8 HgGAG~   13 (320)
+T 3C17_B            8 HGGAGA   13 (320)
+T ss_dssp             EEEEEE
+T ss_pred             EecCCC
+Confidence            676653
+
+
+No 7
+>4NS4_A Alpha/beta hydrolase fold protein (E.C.3.1.1.6); alpha/beta hydrolase fold, cold-active esterase; 2.15A {Psychrobacter cryohalolentis}
+Probab=19.99  E-value=1e+02  Score=11.50  Aligned_cols=6  Identities=83%  Similarity=1.354  Sum_probs=0.0  Template_Neff=12.000
+
+Q HGGGGN            1 HGGGGN    6 (6)
+Q Consensus         1 hggggn    6 (6)
+                      ||.+++
+T Consensus        74 hG~~~~   79 (323)
+T 4NS4_A           74 HGFGGN   79 (323)
+T ss_dssp             CCTTCC
+T ss_pred             CCCCCC
+
+
+No 8
+>4GOJ_D ADP-ribosylation factor-like protein 3, Protein; Small G protein Arl, GDI-like; HET: GNP; 2.1A {Mus musculus}
+Probab=19.99  E-value=1e+02  Score=14.95  Aligned_cols=5  Identities=80%  Similarity=1.737  Sum_probs=0.0  Template_Neff=4.000
+
+Q HGGGGN            2 GGGGN    6 (6)
+Q Consensus         2 ggggn    6 (6)
+                      |||||
+T Consensus         6 ~~~~~   10 (240)
+T 4GOJ_D            6 GGGGA   10 (240)
+T ss_dssp             -----
+T ss_pred             CCCCC
+
+
+No 9
+>3LLC_A Putative hydrolase; Putative hydrolase, Structural Genomics, Joint; HET: PG4, EDO; 1.8A {Agrobacterium vitis}
+Probab=19.88  E-value=1e+02  Score=10.77  Aligned_cols=6  Identities=17%  Similarity=0.158  Sum_probs=0.0  Template_Neff=12.700
+
+Q HGGGGN            1 HGGGGN    6 (6)
+Q Consensus         1 hggggn    6 (6)
+                      ||++++
+T Consensus        44 hG~~~~   49 (270)
+T 3LLC_A           44 GGYRSD   49 (270)
+T ss_dssp             CCTTCC
+T ss_pred             CCCCCC
+
+
+No 10
+>6AVX_A Carboxylesterase SOBER1 (E.C.3.1.1.-); alpha/beta hydrolase, plant deacetylase, hypersensitive; 1.271A {Arabidopsis thaliana}
+Probab=19.88  E-value=1e+02  Score=10.75  Aligned_cols=6  Identities=50%  Similarity=0.877  Sum_probs=0.0  Template_Neff=12.200
+
+Q HGGGGN            1 HGGGGN    6 (6)
+Q Consensus         1 hggggn    6 (6)
+                      ||.+++
+T Consensus        12 hG~~~~   17 (230)
+T 6AVX_A           12 HGLGDS   17 (230)
+T ss_dssp             CCTTCC
+T ss_pred             ccCCCC
+
+

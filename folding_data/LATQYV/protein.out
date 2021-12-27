@@ -1,0 +1,153 @@
+Query         LATQYV
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 15:04:06 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LATQYV/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LATQYV/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5A29_A EXOPOLYGALACTURONATE LY  10.6 2.7E+02  0.0029   15.4   0.0    6    1-6     266-271 (570)
+  2 2V8I_A PECTATE LYASE (E.C.4.2.  10.5 2.7E+02   0.003   15.3   0.0    6    1-6     228-233 (543)
+  3 6OJL_A Periplasmic pectate lya  10.3 2.8E+02  0.0031   15.4   0.0    6    1-6     254-259 (572)
+  4 6VAG_A Phosphoprotein; Paramyx   6.3 5.3E+02  0.0059   10.7   0.0    5    2-6      20-24  (107)
+  5 6G04_A Pre-rRNA-processing pro   5.8 5.9E+02  0.0066   11.1   0.0    6    1-6       5-10  (156)
+  6 3UA0_B Fibroin heavy chain; TH   5.6 6.1E+02  0.0068   11.9   0.0    5    2-6      20-24  (134)
+  7 5YCA_A Ubiquitin-like protein    5.5 6.4E+02  0.0071   10.4   0.0    5    1-5     188-192 (207)
+  8 3OXH_A RV0577 PROTEIN; KINASE    5.2 6.7E+02  0.0074    9.7   0.0    5    2-6      11-15  (282)
+  9 2KES_A Synphilin-1; Synphillin   5.0 7.1E+02  0.0078   10.1   0.0    6    1-6       9-14  (48)
+ 10 5BQ9_B Uncharacterized protein   5.0 7.1E+02  0.0079   14.2   0.0    5    1-5     598-602 (604)
+
+No 1
+>5A29_A EXOPOLYGALACTURONATE LYASE, PECTATE LYASE; LYASE, PECTIN, POLYSACCHARIDE LYASE, ENDOLYTIC; HET: SRT, EDO; 1.9A {VIBRIO VULNIFICUS}
+Probab=10.55  E-value=2.7e+02  Score=15.44  Aligned_cols=6  Identities=67%  Similarity=0.811  Sum_probs=3.5  Template_Neff=3.400
+
+Q LATQYV            1 LATQYV    6 (6)
+Q Consensus         1 latqyv    6 (6)
+                      |+.|||
+T Consensus       266 L~rQYV  271 (570)
+T 5A29_A          266 LMTQYK  271 (570)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            456665
+
+
+No 2
+>2V8I_A PECTATE LYASE (E.C.4.2.2.2); LYASE, PERIPLASM, PECTATE LYASE, BETA-ELIMINATION; HET: IOD; 1.5A {YERSINIA ENTEROCOLITICA}
+Probab=10.51  E-value=2.7e+02  Score=15.34  Aligned_cols=6  Identities=83%  Similarity=1.126  Sum_probs=3.5  Template_Neff=3.400
+
+Q LATQYV            1 LATQYV    6 (6)
+Q Consensus         1 latqyv    6 (6)
+                      |+.|||
+T Consensus       228 L~rQYv  233 (543)
+T 2V8I_A          228 LADQYV  233 (543)
+T ss_dssp             HHHHTT
+T ss_pred             HHHHhc
+Confidence            456665
+
+
+No 3
+>6OJL_A Periplasmic pectate lyase; Lyase, pectin, (alpha/alpha)8; HET: ADA, EDO, GTR; 1.5A {Yersinia enterocolitica}
+Probab=10.26  E-value=2.8e+02  Score=15.42  Aligned_cols=6  Identities=83%  Similarity=1.126  Sum_probs=3.5  Template_Neff=3.300
+
+Q LATQYV            1 LATQYV    6 (6)
+Q Consensus         1 latqyv    6 (6)
+                      |+.|||
+T Consensus       254 L~rQYV  259 (572)
+T 6OJL_A          254 LADQYV  259 (572)
+T ss_dssp             HHHHTT
+T ss_pred             HHHHhc
+Confidence            456665
+
+
+No 4
+>6VAG_A Phosphoprotein; Paramyxovirus, Phosphoprotein, Oligomerization domain, VIRAL; HET: GOL; 1.4A {Parainfluenza virus 5 (strain W3)}
+Probab=6.31  E-value=5.3e+02  Score=10.74  Aligned_cols=5  Identities=40%  Similarity=0.222  Sum_probs=0.0  Template_Neff=5.500
+
+Q LATQYV            2 ATQYV    6 (6)
+Q Consensus         2 atqyv    6 (6)
+                      |||+|
+T Consensus        20 At~~v   24 (107)
+T 6VAG_A           20 AIHPV   24 (107)
+T ss_dssp             -----
+T ss_pred             CCCCC
+
+
+No 5
+>6G04_A Pre-rRNA-processing protein TSR2, 40S ribosomal; ribosome maturation, transport of ribosomal; NMR {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=5.78  E-value=5.9e+02  Score=11.13  Aligned_cols=6  Identities=50%  Similarity=1.110  Sum_probs=0.0  Template_Neff=5.800
+
+Q LATQYV            1 LATQYV    6 (6)
+Q Consensus         1 latqyv    6 (6)
+                      +.|||+
+T Consensus         5 ~~~~~~   10 (156)
+T 6G04_A            5 MSTQYI   10 (156)
+T ss_dssp             SCSSCS
+T ss_pred             cccccc
+
+
+No 6
+>3UA0_B Fibroin heavy chain; THE DOUBLE-LAYERED-SHEETS, FIBROIN FOLDING INITIATION; HET: MSE; 3.0A {Bombyx mori}
+Probab=5.63  E-value=6.1e+02  Score=11.92  Aligned_cols=5  Identities=80%  Similarity=0.999  Sum_probs=0.0  Template_Neff=2.600
+
+Q LATQYV            2 ATQYV    6 (6)
+Q Consensus         2 atqyv    6 (6)
+                      |.||+
+T Consensus        20 ALQYv   24 (134)
+T 3UA0_B           20 ALQYV   24 (134)
+T ss_dssp             -----
+T ss_pred             HHHHH
+
+
+No 7
+>5YCA_A Ubiquitin-like protein SMT3,Bouquet formation protein; Chromosome organization, Membrane organization, Bouquet; 1.57A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=5.46  E-value=6.4e+02  Score=10.45  Aligned_cols=5  Identities=60%  Similarity=1.012  Sum_probs=0.0  Template_Neff=8.300
+
+Q LATQYV            1 LATQY    5 (6)
+Q Consensus         1 latqy    5 (6)
+                      ||.+|
+T Consensus       188 la~~y  192 (207)
+T 5YCA_A          188 LAKDY  192 (207)
+T ss_dssp             HHHHH
+T ss_pred             HHHHc
+
+
+No 8
+>3OXH_A RV0577 PROTEIN; KINASE REGULATION, ANTIBIOTIC RESISTANCE, MYCOBACTERIUM; HET: XYL, PMB; 1.75A {Mycobacterium tuberculosis}
+Probab=5.23  E-value=6.7e+02  Score=9.71  Aligned_cols=5  Identities=20%  Similarity=0.335  Sum_probs=0.0  Template_Neff=10.900
+
+Q LATQYV            2 ATQYV    6 (6)
+Q Consensus         2 atqyv    6 (6)
+                      ++||+
+T Consensus        11 ~~~~~   15 (282)
+T 3OXH_A           11 SSGLV   15 (282)
+T ss_dssp             C----
+T ss_pred             cCCCc
+
+
+No 9
+>2KES_A Synphilin-1; Synphillin, coiled-coil, ANK repeat, Disease; NMR {Homo sapiens}
+Probab=5.03  E-value=7.1e+02  Score=10.14  Aligned_cols=6  Identities=67%  Similarity=0.717  Sum_probs=0.0  Template_Neff=1.600
+
+Q LATQYV            1 LATQYV    6 (6)
+Q Consensus         1 latqyv    6 (6)
+                      ||.|.|
+T Consensus         9 LASQVV   14 (48)
+T 2KES_A            9 LASQVV   14 (48)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 10
+>5BQ9_B Uncharacterized protein; Structural Genomics, PSI-Biology, Midwest Center; HET: MSE; 2.2785A {Legionella pneumophila subsp. pneumophila (strain Philadelphia 1 / ATCC 33152 / DSM 7513)}
+Probab=5.00  E-value=7.1e+02  Score=14.23  Aligned_cols=5  Identities=80%  Similarity=1.158  Sum_probs=0.0  Template_Neff=2.900
+
+Q LATQYV            1 LATQY    5 (6)
+Q Consensus         1 latqy    5 (6)
+                      ||+||
+T Consensus       598 ~~~~~  602 (604)
+T 5BQ9_B          598 LANQY  602 (604)
+T ss_dssp             -----
+T ss_pred             hhhhh
+
+

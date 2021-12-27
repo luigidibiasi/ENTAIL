@@ -1,0 +1,149 @@
+Query         QQSYSG
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 10:15:45 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QQSYSG/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QQSYSG/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5XNL_J Chlorophyll a-b binding  11.4 2.4E+02  0.0026   11.0   0.0    4    3-6      32-35  (40)
+  2 6KAC_J Photosystem II protein   11.3 2.4E+02  0.0027   11.0   0.0    4    3-6      34-37  (42)
+  3 7MY8_A Fusion Peptide, LIPID B  11.2 2.5E+02  0.0027   10.8   0.0    5    2-6      38-42  (42)
+  4 4O8S_A Putative; nucleotidyl t   9.1 3.3E+02  0.0036   11.3   0.0    5    2-6     223-227 (232)
+  5 4GV1_A RAC-alpha serine/threon   9.0 3.3E+02  0.0037   10.9   0.0    6    1-6     331-336 (340)
+  6 2WDS_A HOLO-[ACYL-CARRIER-PROT   8.9 3.3E+02  0.0037   10.2   0.0    4    3-6      10-13  (143)
+  7 5OLT_A Cellulose biosynthesis    8.3 3.7E+02  0.0041   14.1   0.0    4    3-6     100-103 (383)
+  8 5U89_B Amino acid adenylation    7.7 4.1E+02  0.0045   11.0   0.0    5    2-6      77-81  (83)
+  9 2FYG_A Replicase polyprotein 1   7.6 4.1E+02  0.0046   12.4   0.0    6    1-6      61-66  (128)
+ 10 6YZ1_B nsp16 (E.C.3.4.19.12,3.   7.5 4.2E+02  0.0047   12.3   0.0    6    1-6      57-62  (123)
+
+No 1
+>5XNL_J Chlorophyll a-b binding protein 8; Photosystem II, PSII-LHCII, C2S2M2, Supercomplex; HET: OEX, LMG, BCR, NEX, LUT, PL9, CLA, CHL, PHO, HEM, SQD, DGD, LHG, XAT;{Pisum sativum}
+Probab=11.39  E-value=2.4e+02  Score=10.97  Aligned_cols=4  Identities=100%  Similarity=1.564  Sum_probs=0.0  Template_Neff=2.400
+
+Q QQSYSG            3 SYSG    6 (6)
+Q Consensus         3 sysg    6 (6)
+                      ||||
+T Consensus        32 sYsG   35 (40)
+T 5XNL_J           32 SYSG   35 (40)
+T ss_pred             hccc
+
+
+No 2
+>6KAC_J Photosystem II protein D1 (E.C.1.10.3.9); PhotosystemII, supercomplex, PHOTOSYNTHESIS; HET: SQD, DGD, LMU, HEM, LMG, LUT, PL9, OEX, CHL, XAT, LHG, NEX, BCR, PHO, CLA; 2.7A {Chlamydomonas reinhardtii}
+Probab=11.29  E-value=2.4e+02  Score=11.05  Aligned_cols=4  Identities=75%  Similarity=1.298  Sum_probs=0.0  Template_Neff=2.400
+
+Q QQSYSG            3 SYSG    6 (6)
+Q Consensus         3 sysg    6 (6)
+                      ||||
+T Consensus        34 sYsG   37 (42)
+T 6KAC_J           34 SYVG   37 (42)
+T ss_dssp             TTSS
+T ss_pred             hccc
+
+
+No 3
+>7MY8_A Fusion Peptide, LIPID BINDING PROTEIN; NMR {Severe acute respiratory syndrome coronavirus 2}
+Probab=11.16  E-value=2.5e+02  Score=10.84  Aligned_cols=5  Identities=40%  Similarity=1.026  Sum_probs=0.0  Template_Neff=3.100
+
+Q QQSYSG            2 QSYSG    6 (6)
+Q Consensus         2 qsysg    6 (6)
+                      |.|.|
+T Consensus        38 Q~yNG   42 (42)
+T 7MY8_A           38 QKFNG   42 (42)
+T ss_dssp             TTTTC
+T ss_pred             hhcCC
+
+
+No 4
+>4O8S_A Putative; nucleotidyl transferase, HYDROLASE; 2.1A {Helicobacter pylori}
+Probab=9.09  E-value=3.3e+02  Score=11.31  Aligned_cols=5  Identities=60%  Similarity=0.036  Sum_probs=0.0  Template_Neff=8.600
+
+Q QQSYSG            2 QSYSG    6 (6)
+Q Consensus         2 qsysg    6 (6)
+                      ||+|+
+T Consensus       223 ~~~~~  227 (232)
+T 4O8S_A          223 QSHSL  227 (232)
+T ss_dssp             HHHHH
+T ss_pred             hccch
+
+
+No 5
+>4GV1_A RAC-alpha serine/threonine-protein kinase (E.C.2.7.11.1); protein kinase, TRANSFERASE-TRANSFERASE INHIBITOR complex; HET: 0XZ, GOL; 1.49A {Homo sapiens}
+Probab=9.02  E-value=3.3e+02  Score=10.94  Aligned_cols=6  Identities=50%  Similarity=0.617  Sum_probs=0.0  Template_Neff=10.700
+
+Q QQSYSG            1 QQSYSG    6 (6)
+Q Consensus         1 qqsysg    6 (6)
+                      |++||+
+T Consensus       331 ~~~~~~  336 (340)
+T 4GV1_A          331 QFDYSA  336 (340)
+T ss_dssp             TCEEEC
+T ss_pred             cccccc
+
+
+No 6
+>2WDS_A HOLO-[ACYL-CARRIER-PROTEIN] SYNTHASE (E.C.2.7.8.7); PHOSPHOPANTETHEINE ARM, FATTY ACID BIOSYNTHESIS; HET: COA; 1.35A {STREPTOMYCES COELICOLOR}
+Probab=8.93  E-value=3.3e+02  Score=10.25  Aligned_cols=4  Identities=50%  Similarity=0.559  Sum_probs=0.0  Template_Neff=9.000
+
+Q QQSYSG            3 SYSG    6 (6)
+Q Consensus         3 sysg    6 (6)
+                      +|||
+T Consensus        10 ~~~~   13 (143)
+T 2WDS_A           10 HSSG   13 (143)
+T ss_dssp             ----
+T ss_pred             cCCC
+
+
+No 7
+>5OLT_A Cellulose biosynthesis protein BcsG; Cellulose biosynthesis, biofilm, metalloenzyme, alkaline; HET: CIT; 1.45A {Salmonella typhimurium LT2}
+Probab=8.25  E-value=3.7e+02  Score=14.07  Aligned_cols=4  Identities=100%  Similarity=1.564  Sum_probs=0.0  Template_Neff=3.900
+
+Q QQSYSG            3 SYSG    6 (6)
+Q Consensus         3 sysg    6 (6)
+                      ||||
+T Consensus       100 SYSG  103 (383)
+T 5OLT_A          100 SYSG  103 (383)
+T ss_dssp             SSHH
+T ss_pred             cCch
+
+
+No 8
+>5U89_B Amino acid adenylation domain protein; nonribosomal peptide synthetase, MbtH-like protein; HET: MJ8; 3.075A {Geobacillus sp.}
+Probab=7.71  E-value=4.1e+02  Score=10.97  Aligned_cols=5  Identities=60%  Similarity=1.185  Sum_probs=0.0  Template_Neff=4.600
+
+Q QQSYSG            2 QSYSG    6 (6)
+Q Consensus         2 qsysg    6 (6)
+                      |.|||
+T Consensus        77 ~~~~~   81 (83)
+T 5U89_B           77 NDYSG   81 (83)
+T ss_dssp             -----
+T ss_pred             cccCC
+
+
+No 9
+>2FYG_A Replicase polyprotein 1ab; SARS virus polyprotein non-structural protein; 1.8A {SARS coronavirus} SCOP: g.86.1.1
+Probab=7.63  E-value=4.1e+02  Score=12.43  Aligned_cols=6  Identities=50%  Similarity=1.038  Sum_probs=0.0  Template_Neff=2.300
+
+Q QQSYSG            1 QQSYSG    6 (6)
+Q Consensus         1 qqsysg    6 (6)
+                      |.||.|
+T Consensus        61 QdSYGG   66 (128)
+T 2FYG_A           61 QESFGG   66 (128)
+T ss_dssp             EEEEET
+T ss_pred             cccccc
+
+
+No 10
+>6YZ1_B nsp16 (E.C.3.4.19.12,3.4.22.-,3.4.22.69,2.7.7.48,3.6.4.12,3.6.4.13,3.1.13.-,3.1.-.-,2.1.1.-), nsp10 (E.C.3.4.19.12,3.4.22.-,3.4.22.69,2.7.7.48,3.6.4.12,3.6.4.13,3.1.13.-,3.1.-.-,2.1.1.-); SARS-CoV-2, viral replication, coronavirus, methyltransferase; HET: MES, SFG; 2.4A {Severe acute respiratory syndrome coronavirus 2}
+Probab=7.47  E-value=4.2e+02  Score=12.30  Aligned_cols=6  Identities=50%  Similarity=1.038  Sum_probs=0.0  Template_Neff=2.400
+
+Q QQSYSG            1 QQSYSG    6 (6)
+Q Consensus         1 qqsysg    6 (6)
+                      |.||.|
+T Consensus        57 QdSYGG   62 (123)
+T 6YZ1_B           57 QESFGG   62 (123)
+T ss_dssp             EEEEEG
+T ss_pred             ccccCc
+
+

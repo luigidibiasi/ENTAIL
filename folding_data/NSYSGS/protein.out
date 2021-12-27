@@ -1,0 +1,147 @@
+Query         NSYSGS
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 04:34:03 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NSYSGS/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NSYSGS/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6PX4_B Antiholin, Holin; phage  25.9      66 0.00073   14.9   0.0    6    1-6     106-111 (142)
+  2 6PXE_T Antiholin, Holin; phage  25.3      69 0.00076   15.1   0.0    6    1-6     128-133 (164)
+  3 6PXE_F Antiholin, Holin; phage  25.3      69 0.00076   15.1   0.0    6    1-6     128-133 (164)
+  4 6JLU_j PsbA, PsbB, PsbC, PsbD,  12.4 2.1E+02  0.0023   10.8   0.0    4    2-5      27-30  (34)
+  5 6YP7_J Chlorophyll a-b binding  12.4 2.1E+02  0.0024   10.9   0.0    4    2-5      27-30  (35)
+  6 5B66_j Photosystem II protein   12.2 2.2E+02  0.0024   11.1   0.0    4    2-5      32-35  (40)
+  7 5V2C_j Photosystem II protein   12.1 2.2E+02  0.0024   11.0   0.0    4    2-5      32-35  (40)
+  8 4YUU_J2 Photosystem Q(B) prote  12.0 2.2E+02  0.0025   11.0   0.0    4    2-5      31-34  (39)
+  9 6DHF_J Photosystem II protein   11.7 2.3E+02  0.0025   10.8   0.0    4    2-5      28-31  (36)
+ 10 3JCU_J Photosystem II protein   11.2 2.4E+02  0.0027   10.9   0.0    4    2-5      32-35  (40)
+
+No 1
+>6PX4_B Antiholin, Holin; phage, lysis inhibition, VIRAL PROTEIN; 1.65A {Escherichia phage ECML-134}
+Probab=25.91  E-value=66  Score=14.91  Aligned_cols=6  Identities=50%  Similarity=1.055  Sum_probs=3.5  Template_Neff=2.900
+
+Q NSYSGS            1 NSYSGS    6 (6)
+Q Consensus         1 nsysgs    6 (6)
+                      |.|+|+
+T Consensus       106 NiYaG~  111 (142)
+T 6PX4_B          106 NIYAGT  111 (142)
+T ss_dssp             SBEEEE
+T ss_pred             cccceE
+Confidence            456664
+
+
+No 2
+>6PXE_T Antiholin, Holin; phage, lysis inhibition, VIRAL PROTEIN; 2.3A {Enterobacteria phage T4}
+Probab=25.25  E-value=69  Score=15.07  Aligned_cols=6  Identities=50%  Similarity=1.055  Sum_probs=3.5  Template_Neff=3.100
+
+Q NSYSGS            1 NSYSGS    6 (6)
+Q Consensus         1 nsysgs    6 (6)
+                      |.|+|+
+T Consensus       128 NiYaG~  133 (164)
+T 6PXE_T          128 NIYAGT  133 (164)
+T ss_dssp             CBEEEE
+T ss_pred             cccceE
+Confidence            556664
+
+
+No 3
+>6PXE_F Antiholin, Holin; phage, lysis inhibition, VIRAL PROTEIN; 2.3A {Enterobacteria phage T4}
+Probab=25.25  E-value=69  Score=15.07  Aligned_cols=6  Identities=50%  Similarity=1.055  Sum_probs=3.5  Template_Neff=3.100
+
+Q NSYSGS            1 NSYSGS    6 (6)
+Q Consensus         1 nsysgs    6 (6)
+                      |.|+|+
+T Consensus       128 NiYaG~  133 (164)
+T 6PXE_F          128 NIYAGT  133 (164)
+T ss_dssp             CBEEEE
+T ss_pred             cccceE
+Confidence            556664
+
+
+No 4
+>6JLU_j PsbA, PsbB, PsbC, PsbD, PsbE; PSII-FCP supercomplex, PLANT PROTEIN; HET: PL9, OEX, LMG, DGD, HEM, PHO, CLA, A86, KC1, DD6, KC2, SQD, LHG, BCR; 3.02A {Chaetoceros gracilis}
+Probab=12.38  E-value=2.1e+02  Score=10.82  Aligned_cols=4  Identities=100%  Similarity=1.564  Sum_probs=0.0  Template_Neff=2.300
+
+Q NSYSGS            2 SYSG    5 (6)
+Q Consensus         2 sysg    5 (6)
+                      ||||
+T Consensus        27 sYsG   30 (34)
+T 6JLU_j           27 SYSG   30 (34)
+T ss_pred             hccc
+
+
+No 5
+>6YP7_J Chlorophyll a-b binding protein 8; Cryo-EM, photosystem II, High Light; HET: PL9, LHG, BCR, NEX, HEM, OEX, CLA, PHO, DGD, XAT, SQD, LUT, LMG, CHL;{Pisum sativum}
+Probab=12.36  E-value=2.1e+02  Score=10.88  Aligned_cols=4  Identities=100%  Similarity=1.564  Sum_probs=0.0  Template_Neff=2.300
+
+Q NSYSGS            2 SYSG    5 (6)
+Q Consensus         2 sysg    5 (6)
+                      ||||
+T Consensus        27 sYsG   30 (35)
+T 6YP7_J           27 SYSG   30 (35)
+T ss_pred             hccc
+
+
+No 6
+>5B66_j Photosystem II protein D1 (E.C.1.10.3.9); psii, photosystem, oxygen evolving, water; HET: SQD, LMT, DGD, UNL, HEM, HTG, LMG, HEC, PL9, FME, OEX, RRX, LHG, BCR, DMS, PHO, CLA; 1.85A {Thermosynechococcus vulcanus}
+Probab=12.20  E-value=2.2e+02  Score=11.06  Aligned_cols=4  Identities=50%  Similarity=1.381  Sum_probs=0.0  Template_Neff=2.500
+
+Q NSYSGS            2 SYSG    5 (6)
+Q Consensus         2 sysg    5 (6)
+                      ||||
+T Consensus        32 sYsG   35 (40)
+T 5B66_j           32 AYAG   35 (40)
+T ss_pred             hccc
+
+
+No 7
+>5V2C_j Photosystem II protein D1 (E.C.1.10.3.9); ELECTRON TRANSPORT, PHOTOSYNTHESIS; HET: FME, HTG, HEC, EDO, PL9, HEM, PE8, CLA, PHO, PG4, P6G, GOL, OEX, LMT, PGE, 2PE, SQD, BCR, LMG, MHS, DGD, 1PE, BCT, LHG; 1.9A {Thermosynechococcus vulcanus}
+Probab=12.09  E-value=2.2e+02  Score=11.05  Aligned_cols=4  Identities=50%  Similarity=1.381  Sum_probs=0.0  Template_Neff=2.500
+
+Q NSYSGS            2 SYSG    5 (6)
+Q Consensus         2 sysg    5 (6)
+                      ||||
+T Consensus        32 sYsG   35 (40)
+T 5V2C_j           32 AYAG   35 (40)
+T ss_pred             hccc
+
+
+No 8
+>4YUU_J2 Photosystem Q(B) protein (E.C.1.10.3.9), Photosystem; TRANSMEMBRANE ALPHA-HELIX, ELECTRON TRANSPORT, PHOTOSYNTHESIS; HET: LMT, GOL, LMG, PHO, PL9, UNL, HEM, CLA, OEX, LHG, SQD, DGD, BCT, BCR; 2.77000368116A {Cyanidium caldarium}
+Probab=12.00  E-value=2.2e+02  Score=11.01  Aligned_cols=4  Identities=100%  Similarity=1.564  Sum_probs=0.0  Template_Neff=2.400
+
+Q NSYSGS            2 SYSG    5 (6)
+Q Consensus         2 sysg    5 (6)
+                      ||||
+T Consensus        31 sYsG   34 (39)
+T 4YUU_J2          31 SYSG   34 (39)
+T ss_pred             hccc
+
+
+No 9
+>6DHF_J Photosystem II protein D1 1; PHOTOSYSTEMS, TRANSMEMBRANE, ROOM TEMPERATURE, ELECTRON; HET: SQD, DGD, UNL, HEM, LMG, HEC, PL9, FME, OEX, LHG, BCR, BCT, PHO, CLA; 2.08A {Thermosynechococcus elongatus (strain BP-1)}
+Probab=11.71  E-value=2.3e+02  Score=10.82  Aligned_cols=4  Identities=50%  Similarity=1.381  Sum_probs=0.0  Template_Neff=2.400
+
+Q NSYSGS            2 SYSG    5 (6)
+Q Consensus         2 sysg    5 (6)
+                      ||||
+T Consensus        28 sYsG   31 (36)
+T 6DHF_J           28 AYAG   31 (36)
+T ss_pred             hccc
+
+
+No 10
+>3JCU_J Photosystem II protein D1, Photosystem; membrane protein; HET: SQD, DGD, HEM, LMG, LUT, PL9, OEX, CHL, XAT, LHG, NEX, BCR, PHO, CLA; 3.2A {Spinacia oleracea}
+Probab=11.21  E-value=2.4e+02  Score=10.92  Aligned_cols=4  Identities=100%  Similarity=1.564  Sum_probs=0.0  Template_Neff=2.500
+
+Q NSYSGS            2 SYSG    5 (6)
+Q Consensus         2 sysg    5 (6)
+                      ||||
+T Consensus        32 sYsG   35 (40)
+T 3JCU_J           32 SYSG   35 (40)
+T ss_dssp             HSSS
+T ss_pred             hccc
+
+

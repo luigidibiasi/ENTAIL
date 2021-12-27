@@ -1,0 +1,154 @@
+Query         GGVLVN
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 00:50:35 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GGVLVN/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GGVLVN/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2MM4_A Envelope small membrane  30.2      49 0.00055   13.1   0.0    6    1-6       3-8   (58)
+  2 2HJE_A Autoinducer 2 sensor ki  28.2      56 0.00062   14.4   0.0    6    1-6     138-143 (221)
+  3 2HJ9_C Autoinducer 2-binding p  26.9      61 0.00068   14.3   0.0    6    1-6     138-143 (221)
+  4 4JJ0_A MamP; PDZ, c-type heme,  23.4      79 0.00087   13.4   0.0    6    1-6      19-24  (243)
+  5 1ZHH_B Autoinducer 2-binding p  22.1      87 0.00096   14.0   0.0    6    1-6     152-157 (242)
+  6 5GLG_A Fumarate reductase 2 (E  18.9 1.1E+02  0.0012   12.9   0.0    6    1-6     409-414 (471)
+  7 5ZYN_B Fumarate reductase 2 (E  18.9 1.1E+02  0.0012   12.9   0.0    6    1-6     409-414 (471)
+  8 3C30_A Autoinducer 2 sensor ki  18.8 1.1E+02  0.0013   13.9   0.0    6    1-6     157-162 (270)
+  9 3C38_A Autoinducer 2 sensor ki  18.8 1.1E+02  0.0013   13.9   0.0    6    1-6     157-162 (270)
+ 10 7D63_5F ribosome assembly, 90S  18.8 1.1E+02  0.0013   12.7   0.0    6    1-6     134-139 (183)
+
+No 1
+>2MM4_A Envelope small membrane protein (E.C.40A; SARS coronavirus, envelope protein, membrane; NMR {SARS coronavirus}
+Probab=30.16  E-value=49  Score=13.13  Aligned_cols=6  Identities=50%  Similarity=0.960  Sum_probs=3.2  Template_Neff=3.800
+
+Q GGVLVN            1 GGVLVN    6 (6)
+Q Consensus         1 ggvlvn    6 (6)
+                      ||..||
+T Consensus         3 g~lvVn    8 (58)
+T 2MM4_A            3 GTLIVN    8 (58)
+T ss_dssp             SCCSHH
+T ss_pred             hhHHHH
+Confidence            455554
+
+
+No 2
+>2HJE_A Autoinducer 2 sensor kinase/phosphatase luxQ; PER/ARNT/SIMPLE-MINDED (PAS) FOLD, AUTOINDUCER-2 (AI-2); 1.7A {Vibrio harveyi} SCOP: d.110.6.3
+Probab=28.21  E-value=56  Score=14.40  Aligned_cols=6  Identities=17%  Similarity=0.562  Sum_probs=2.8  Template_Neff=6.600
+
+Q GGVLVN            1 GGVLVN    6 (6)
+Q Consensus         1 ggvlvn    6 (6)
+                      ||++.|
+T Consensus       138 gGvlLN  143 (221)
+T 2HJE_A          138 NAVVLD  143 (221)
+T ss_dssp             EEEECT
+T ss_pred             EEEEec
+Confidence            355544
+
+
+No 3
+>2HJ9_C Autoinducer 2-binding periplasmic protein luxP; PERIPLASMIC BINDING PROTEIN, PER/ARNT/SIMPLE-MINDED (PAS); HET: AI2; 2.34A {Vibrio harveyi} SCOP: d.110.6.3
+Probab=26.93  E-value=61  Score=14.29  Aligned_cols=6  Identities=17%  Similarity=0.562  Sum_probs=2.7  Template_Neff=6.600
+
+Q GGVLVN            1 GGVLVN    6 (6)
+Q Consensus         1 ggvlvn    6 (6)
+                      ||++.|
+T Consensus       138 gGvlLN  143 (221)
+T 2HJ9_C          138 NAVVLD  143 (221)
+T ss_dssp             EEEECT
+T ss_pred             EEEEec
+Confidence            345443
+
+
+No 4
+>4JJ0_A MamP; PDZ, c-type heme, cytochrome, ELECTRON; HET: HEC; 1.8A {Magnetococcus}
+Probab=23.35  E-value=79  Score=13.38  Aligned_cols=6  Identities=33%  Similarity=0.661  Sum_probs=0.0  Template_Neff=8.100
+
+Q GGVLVN            1 GGVLVN    6 (6)
+Q Consensus         1 ggvlvn    6 (6)
+                      ||.++|
+T Consensus        19 GGplvn   24 (243)
+T 4JJ0_A           19 GAPIVG   24 (243)
+T ss_dssp             ------
+T ss_pred             CcEEEc
+Confidence            344443
+
+
+No 5
+>1ZHH_B Autoinducer 2-binding periplasmic protein luxP; PERIPLASMIC BINDING PROTEIN, PER/ARNT/SIMPLE-MINDED (PAS); HET: NHE; 1.94A {Vibrio harveyi} SCOP: d.110.6.3
+Probab=22.08  E-value=87  Score=13.97  Aligned_cols=6  Identities=17%  Similarity=0.562  Sum_probs=2.6  Template_Neff=6.700
+
+Q GGVLVN            1 GGVLVN    6 (6)
+Q Consensus         1 ggvlvn    6 (6)
+                      ||++.|
+T Consensus       152 gGvlLN  157 (242)
+T 1ZHH_B          152 NAVVLD  157 (242)
+T ss_dssp             EEEECT
+T ss_pred             EEEEec
+Confidence            344443
+
+
+No 6
+>5GLG_A Fumarate reductase 2 (E.C.1.3.1.6); OSM1, Fumarate Reductase, FAD, OXIDOREDUCTASE; HET: FAD; 1.8A {Saccharomyces cerevisiae S288c}
+Probab=18.89  E-value=1.1e+02  Score=12.91  Aligned_cols=6  Identities=67%  Similarity=1.187  Sum_probs=0.0  Template_Neff=10.500
+
+Q GGVLVN            1 GGVLVN    6 (6)
+Q Consensus         1 ggvlvn    6 (6)
+                      ||+.||
+T Consensus       409 GGl~id  414 (471)
+T 5GLG_A          409 GGVKIN  414 (471)
+T ss_dssp             CEEEBC
+T ss_pred             CeEEeC
+
+
+No 7
+>5ZYN_B Fumarate reductase 2 (E.C.1.3.1.6); Fumarate reductase, OXIDOREDUCTASE; HET: FAD, FMN; 1.75A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=18.89  E-value=1.1e+02  Score=12.91  Aligned_cols=6  Identities=67%  Similarity=1.187  Sum_probs=0.0  Template_Neff=10.500
+
+Q GGVLVN            1 GGVLVN    6 (6)
+Q Consensus         1 ggvlvn    6 (6)
+                      ||+.||
+T Consensus       409 GGl~id  414 (471)
+T 5ZYN_B          409 GGVKIN  414 (471)
+T ss_dssp             CEEEBC
+T ss_pred             CeEEeC
+
+
+No 8
+>3C30_A Autoinducer 2 sensor kinase/phosphatase luxQ; 2-Component System, Quorum Sensing, Histidine; HET: MES; 2.8A {Vibrio cholerae}
+Probab=18.78  E-value=1.1e+02  Score=13.88  Aligned_cols=6  Identities=33%  Similarity=0.767  Sum_probs=0.0  Template_Neff=6.600
+
+Q GGVLVN            1 GGVLVN    6 (6)
+Q Consensus         1 ggvlvn    6 (6)
+                      ||++.|
+T Consensus       157 gGvlLN  162 (270)
+T 3C30_A          157 VGIVLN  162 (270)
+T ss_dssp             EEEECT
+T ss_pred             EEEEec
+
+
+No 9
+>3C38_A Autoinducer 2 sensor kinase/phosphatase luxQ; 2-Component System, Quorum Sensing, Histidine; 2.3A {Vibrio cholerae}
+Probab=18.78  E-value=1.1e+02  Score=13.88  Aligned_cols=6  Identities=33%  Similarity=0.767  Sum_probs=0.0  Template_Neff=6.600
+
+Q GGVLVN            1 GGVLVN    6 (6)
+Q Consensus         1 ggvlvn    6 (6)
+                      ||++.|
+T Consensus       157 gGvlLN  162 (270)
+T 3C38_A          157 VGIVLN  162 (270)
+T ss_dssp             EEEECT
+T ss_pred             EEEEec
+
+
+No 10
+>7D63_5F ribosome assembly, 90S to pre-40S; HET: GTP, ADP; 12.3A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=18.77  E-value=1.1e+02  Score=12.70  Aligned_cols=6  Identities=50%  Similarity=0.567  Sum_probs=0.0  Template_Neff=7.500
+
+Q GGVLVN            1 GGVLVN    6 (6)
+Q Consensus         1 ggvlvn    6 (6)
+                      |+|.||
+T Consensus       134 G~V~Vn  139 (183)
+T 7D63_5F         134 GHVRVG  139 (183)
+T ss_pred             CCcEEC
+
+

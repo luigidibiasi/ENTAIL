@@ -1,0 +1,219 @@
+Query         SSWGMM
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 17:02:14 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/SSWGMM/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/SSWGMM/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6N3A_J TAR DNA-binding protein  95.2  0.0025 2.7E-08   25.2   0.0    6    1-6      22-27  (50)
+  2 2N2C_A TAR DNA-binding protein  88.0    0.29 3.2E-06   18.7   0.0    6    1-6      26-31  (43)
+  3 2JTD_A Myomesin-1; Skelemin, I  75.8     2.1 2.3E-05   13.4   0.0    6    1-6      10-15  (142)
+  4 3CCF_B Cyclopropane-fatty-acyl  66.0     5.1 5.6E-05   15.4   0.0    6    1-6      16-21  (279)
+  5 7KWZ_A Isoform 2 of TAR DNA-bi  57.4     9.3  0.0001   17.6   0.0    6    1-6      66-71  (148)
+  6 4KSA_A Malonyl-CoA decarboxyla  40.9      26 0.00028   17.8   0.0    6    1-6     406-411 (453)
+  7 4KS9_B Malonyl-CoA decarboxyla  40.2      27 0.00029   17.6   0.0    6    1-6     380-385 (428)
+  8 3JB9_c Pre-mRNA-splicing facto  40.1      27  0.0003   18.1   0.0    6    1-6     173-178 (639)
+  9 2YGW_B MALONYL-COA DECARBOXYLA  39.1      28 0.00031   17.6   0.0    6    1-6     416-421 (460)
+ 10 4KSF_A Malonyl-CoA decarboxyla  38.1      30 0.00033   17.6   0.0    6    1-6     404-409 (456)
+ 11 4F0X_A Malonyl-CoA decarboxyla  37.5      31 0.00035   17.4   0.0    6    1-6     411-416 (458)
+ 12 5W7K_A OxaG; methyltransferase  35.8      35 0.00038   13.2   0.0    6    1-6      15-20  (312)
+ 13 4KS9_A Malonyl-CoA decarboxyla  33.3      40 0.00045   16.9   0.0    6    1-6     380-385 (428)
+ 14 2PVP_A D-alanine-D-alanine lig  21.5      91   0.001   13.1   0.0    6    1-6      11-16  (367)
+
+No 1
+>6N3A_J TAR DNA-binding protein 43, segA; Amyloid, TDP43, ALS, FTLD-TDP, dna; 3.3A {Homo sapiens}
+Probab=95.19  E-value=0.0025  Score=25.24  Aligned_cols=6  Identities=100%  Similarity=1.874  Sum_probs=5.3  Template_Neff=2.200
+
+Q SSWGMM            1 SSWGMM    6 (6)
+Q Consensus         1 sswgmm    6 (6)
+                      ||||||
+T Consensus        22 sSWg~M   27 (50)
+T 6N3A_J           22 SSWGMM   27 (50)
+T ss_dssp             EEEESC
+T ss_pred             hhhhhH
+Confidence            699998
+
+
+No 2
+>2N2C_A TAR DNA-binding protein 43; ALS, prion-like domain, hydrophobic helices; NMR {Homo sapiens}
+Probab=87.97  E-value=0.29  Score=18.67  Aligned_cols=6  Identities=100%  Similarity=1.874  Sum_probs=4.7  Template_Neff=3.300
+
+Q SSWGMM            1 SSWGMM    6 (6)
+Q Consensus         1 sswgmm    6 (6)
+                      +|||+|
+T Consensus        26 ~gWg~m   31 (43)
+T 2N2C_A           26 SSWGMM   31 (43)
+T ss_dssp             HHHHHH
+T ss_pred             hccchh
+Confidence            579986
+
+
+No 3
+>2JTD_A Myomesin-1; Skelemin, Immunoglobulin domain, Muscle protein; NMR {Mus musculus}
+Probab=75.84  E-value=2.1  Score=13.39  Aligned_cols=6  Identities=33%  Similarity=-0.264  Sum_probs=0.0  Template_Neff=12.800
+
+Q SSWGMM            1 SSWGMM    6 (6)
+Q Consensus         1 sswgmm    6 (6)
+                      |||+++
+T Consensus        10 ~~~~~~   15 (142)
+T 2JTD_A           10 SSGLVP   15 (142)
+T ss_dssp             ------
+T ss_pred             cCCccc
+Confidence            456553
+
+
+No 4
+>3CCF_B Cyclopropane-fatty-acyl-phospholipid synthase (E.C.2.1.1.144); YP_321342.1, putative methyltransferase, Structural Genomics; HET: BEZ; 1.9A {Anabaena variabilis ATCC 29413}
+Probab=66.00  E-value=5.1  Score=15.37  Aligned_cols=6  Identities=33%  Similarity=0.163  Sum_probs=0.0  Template_Neff=10.700
+
+Q SSWGMM            1 SSWGMM    6 (6)
+Q Consensus         1 sswgmm    6 (6)
+                      ++|+|+
+T Consensus        16 ~~~~~~   21 (279)
+T 3CCF_B           16 YFQGMT   21 (279)
+T ss_dssp             ------
+T ss_pred             hhcccc
+Confidence            467774
+
+
+No 5
+>7KWZ_A Isoform 2 of TAR DNA-binding; TDP-43, amyloid, neurodegenerative diseases, amyotropic; 3.2A {Homo sapiens}
+Probab=57.42  E-value=9.3  Score=17.59  Aligned_cols=6  Identities=100%  Similarity=1.874  Sum_probs=4.2  Template_Neff=2.900
+
+Q SSWGMM            1 SSWGMM    6 (6)
+Q Consensus         1 sswgmm    6 (6)
+                      ++||||
+T Consensus        66 sgWG~m   71 (148)
+T 7KWZ_A           66 SSWGMM   71 (148)
+T ss_dssp             CBSSCC
+T ss_pred             hccchh
+Confidence            468876
+
+
+No 6
+>4KSA_A Malonyl-CoA decarboxylase (E.C.4.1.1.9); NESGC, Structural Genomics, PSI-Biology, Northeast; 2.7A {Rhodopseudomonas palustris}
+Probab=40.85  E-value=26  Score=17.79  Aligned_cols=6  Identities=50%  Similarity=0.850  Sum_probs=4.4  Template_Neff=4.800
+
+Q SSWGMM            1 SSWGMM    6 (6)
+Q Consensus         1 sswgmm    6 (6)
+                      +|+|||
+T Consensus       406 ~S~GiM  411 (453)
+T 4KSA_A          406 QSHGLM  411 (453)
+T ss_dssp             HHTTCE
+T ss_pred             hcccEE
+Confidence            478887
+
+
+No 7
+>4KS9_B Malonyl-CoA decarboxylase (E.C.4.1.1.9); NESGC, Structural Genomics, PSI-Biology, Northeast; 2.3A {Cupriavidus metallidurans}
+Probab=40.24  E-value=27  Score=17.62  Aligned_cols=6  Identities=67%  Similarity=0.921  Sum_probs=4.4  Template_Neff=4.800
+
+Q SSWGMM            1 SSWGMM    6 (6)
+Q Consensus         1 sswgmm    6 (6)
+                      +|+|||
+T Consensus       380 ~S~GiM  385 (428)
+T 4KS9_B          380 QSCGMM  385 (428)
+T ss_dssp             HHTTCE
+T ss_pred             hccceE
+Confidence            477887
+
+
+No 8
+>3JB9_c Pre-mRNA-splicing factor spp42, Pre-mRNA-splicing factor; Spliceosome, U2/U5/U6, Lariat, RNA BINDING; HET: ADP, GDP; 3.6A {Schizosaccharomyces pombe 972h-}
+Probab=40.10  E-value=27  Score=18.09  Aligned_cols=6  Identities=67%  Similarity=1.320  Sum_probs=4.6  Template_Neff=5.500
+
+Q SSWGMM            1 SSWGMM    6 (6)
+Q Consensus         1 sswgmm    6 (6)
+                      |+|-||
+T Consensus       173 s~WRm~  178 (639)
+T 3JB9_c          173 SRWRMM  178 (639)
+T ss_pred             hHHHHH
+Confidence            678886
+
+
+No 9
+>2YGW_B MALONYL-COA DECARBOXYLASE, MITOCHONDRIAL (E.C.4.1.1.9); LYASE; 2.8A {HOMO SAPIENS}
+Probab=39.08  E-value=28  Score=17.57  Aligned_cols=6  Identities=50%  Similarity=0.849  Sum_probs=4.4  Template_Neff=5.000
+
+Q SSWGMM            1 SSWGMM    6 (6)
+Q Consensus         1 sswgmm    6 (6)
+                      +|+|||
+T Consensus       416 ~S~GiM  421 (460)
+T 2YGW_B          416 GSCGLM  421 (460)
+T ss_dssp             HHTTCE
+T ss_pred             cccceE
+Confidence            477887
+
+
+No 10
+>4KSF_A Malonyl-CoA decarboxylase; NESGC, Structural Genomics, PSI-Biology, Northeast; HET: MSE; 3.1A {Agrobacterium vitis}
+Probab=38.09  E-value=30  Score=17.62  Aligned_cols=6  Identities=33%  Similarity=0.789  Sum_probs=4.4  Template_Neff=4.700
+
+Q SSWGMM            1 SSWGMM    6 (6)
+Q Consensus         1 sswgmm    6 (6)
+                      +|+|||
+T Consensus       404 qS~GiM  409 (456)
+T 4KSF_A          404 QAHGLM  409 (456)
+T ss_dssp             HHTTCE
+T ss_pred             HccceE
+Confidence            478887
+
+
+No 11
+>4F0X_A Malonyl-CoA decarboxylase, mitochondrial (E.C.4.1.1.9); Enzyme, Peroxisome, LYASE; HET: 0OR; 3.29A {Homo sapiens}
+Probab=37.49  E-value=31  Score=17.38  Aligned_cols=6  Identities=50%  Similarity=0.849  Sum_probs=4.3  Template_Neff=5.100
+
+Q SSWGMM            1 SSWGMM    6 (6)
+Q Consensus         1 sswgmm    6 (6)
+                      +|+|||
+T Consensus       411 ~S~GiM  416 (458)
+T 4F0X_A          411 GSCGLM  416 (458)
+T ss_dssp             HHTTCE
+T ss_pred             cccceE
+Confidence            477887
+
+
+No 12
+>5W7K_A OxaG; methyltransferase, penicillium oxalicum, oxaline, indole; HET: SAH; 1.994A {Penicillium oxalicum}
+Probab=35.84  E-value=35  Score=13.22  Aligned_cols=6  Identities=17%  Similarity=-0.230  Sum_probs=0.0  Template_Neff=11.000
+
+Q SSWGMM            1 SSWGMM    6 (6)
+Q Consensus         1 sswgmm    6 (6)
+                      |.|+||
+T Consensus        15 ~~~~~~   20 (312)
+T 5W7K_A           15 SENLYF   20 (312)
+T ss_dssp             ------
+T ss_pred             cccccc
+Confidence            345554
+
+
+No 13
+>4KS9_A Malonyl-CoA decarboxylase (E.C.4.1.1.9); NESGC, Structural Genomics, PSI-Biology, Northeast; 2.3A {Cupriavidus metallidurans}
+Probab=33.30  E-value=40  Score=16.89  Aligned_cols=6  Identities=67%  Similarity=0.921  Sum_probs=4.2  Template_Neff=5.100
+
+Q SSWGMM            1 SSWGMM    6 (6)
+Q Consensus         1 sswgmm    6 (6)
+                      +|.|||
+T Consensus       380 ~S~GiM  385 (428)
+T 4KS9_A          380 QSCGMM  385 (428)
+T ss_dssp             HHTTCE
+T ss_pred             hccceE
+Confidence            367887
+
+
+No 14
+>2PVP_A D-alanine-D-alanine ligase (E.C.6.3.2.4); D-Alanine-D-Alanine Ligase, Ligase; 2.4A {Helicobacter pylori}
+Probab=21.46  E-value=91  Score=13.08  Aligned_cols=6  Identities=33%  Similarity=-0.264  Sum_probs=0.0  Template_Neff=9.800
+
+Q SSWGMM            1 SSWGMM    6 (6)
+Q Consensus         1 sswgmm    6 (6)
+                      ++|++|
+T Consensus        11 ~~~~~~   16 (367)
+T 2PVP_A           11 SSGLVP   16 (367)
+T ss_dssp             ------
+T ss_pred             cCCCCC
+Confidence            456653
+
+

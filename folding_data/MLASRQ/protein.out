@@ -1,0 +1,146 @@
+Query         MLASRQ
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 22:00:01 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/MLASRQ/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/MLASRQ/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6YXY_BX bL28m, uL29m, uL30m, b   6.1 5.5E+02  0.0061   11.1   0.0    5    1-5       1-5   (190)
+  2 2LF6_A Effector protein hopAB1   5.9 5.8E+02  0.0064   11.6   0.0    6    1-6      92-97  (101)
+  3 3PIU_A 1-aminocyclopropane-1-c   5.7 6.1E+02  0.0067   10.6   0.0    5    1-5       3-7   (435)
+  4 3HCP_A Ferrochelatase, mitocho   5.7 6.1E+02  0.0067   11.1   0.0    6    1-6     353-358 (359)
+  5 6ZKE_o NADH dehydrogenase [ubi   5.5 6.4E+02   0.007   11.0   0.0    6    1-6       3-8   (122)
+  6 6STI_A Retinoic acid receptor    5.4 6.4E+02  0.0071    9.9   0.0    6    1-6       4-9   (244)
+  7 3TL8_F BRASSINOSTEROID INSENSI   5.3 6.6E+02  0.0073   11.7   0.0    6    1-6     109-114 (117)
+  8 6GIQ_d Ubiquinol--cytochrome-c   4.9 7.3E+02  0.0081   11.0   0.0    6    1-6       1-6   (155)
+  9 4BWP_B PAB-DEPENDENT POLY(A)-S   4.9 7.3E+02  0.0081   11.0   0.0    5    1-5     414-418 (448)
+ 10 2XNQ_A NUCLEAR POLYADENYLATED    4.7 7.7E+02  0.0086    7.3   0.0    6    1-6       1-6   (97)
+
+No 1
+>6YXY_BX bL28m, uL29m, uL30m, bL32m, bL35m; mitoribosome, assembly, LSU, RIBOSOME; HET: ATP, PM8, MG, SPD, NAD, GTP; 3.1A {Trypanosoma brucei brucei}
+Probab=6.10  E-value=5.5e+02  Score=11.09  Aligned_cols=5  Identities=80%  Similarity=0.972  Sum_probs=0.0  Template_Neff=6.900
+
+Q MLASRQ            1 MLASR    5 (6)
+Q Consensus         1 mlasr    5 (6)
+                      ||.||
+T Consensus         1 ~~~~~    5 (190)
+T 6YXY_BX           1 MLRSR    5 (190)
+T ss_pred             CCCCC
+
+
+No 2
+>2LF6_A Effector protein hopAB1; type III effector, Structural Genomics; NMR {Pseudomonas syringae pv. phaseolicola 1448A}
+Probab=5.87  E-value=5.8e+02  Score=11.61  Aligned_cols=6  Identities=100%  Similarity=1.127  Sum_probs=0.0  Template_Neff=2.000
+
+Q MLASRQ            1 MLASRQ    6 (6)
+Q Consensus         1 mlasrq    6 (6)
+                      ||.+|+
+T Consensus        92 ~Lg~rp   97 (101)
+T 2LF6_A           92 MLASRQ   97 (101)
+T ss_dssp             HHHHHS
+T ss_pred             HHhcCc
+
+
+No 3
+>3PIU_A 1-aminocyclopropane-1-carboxylate synthase (E.C.4.4.1.14); FRUIT RIPENING, ETHYLENE BIOSYNTHESIS, lyase; HET: PLR; 1.35A {Malus domestica}
+Probab=5.67  E-value=6.1e+02  Score=10.56  Aligned_cols=5  Identities=40%  Similarity=0.634  Sum_probs=0.0  Template_Neff=10.900
+
+Q MLASRQ            1 MLASR    5 (6)
+Q Consensus         1 mlasr    5 (6)
+                      ||++|
+T Consensus         3 ~~~~~    7 (435)
+T 3PIU_A            3 MLSRN    7 (435)
+T ss_dssp             -----
+T ss_pred             ccccc
+
+
+No 4
+>3HCP_A Ferrochelatase, mitochondrial (E.C.4.99.1.1); ferrochelatase, metal selectivity, Disease mutation; HET: IMD, CHD, FDE; 2.0A {Homo sapiens}
+Probab=5.66  E-value=6.1e+02  Score=11.07  Aligned_cols=6  Identities=33%  Similarity=0.589  Sum_probs=0.0  Template_Neff=9.100
+
+Q MLASRQ            1 MLASRQ    6 (6)
+Q Consensus         1 mlasrq    6 (6)
+                      |++|.|
+T Consensus       353 ~~~~~~  358 (359)
+T 3HCP_A          353 FFTSQQ  358 (359)
+T ss_dssp             HHHTCC
+T ss_pred             HhhccC
+
+
+No 5
+>6ZKE_o NADH dehydrogenase [ubiquinone] flavoprotein 1; complex, respiration, NADH, proton pump; HET: DCQ, PC1, NAI, MYR, FMN, 3PE, NDP, SEP, FME, SF4, AYA, 2MR, AMP, ZMP, CDL; 2.6A {Ovis aries}
+Probab=5.47  E-value=6.4e+02  Score=10.97  Aligned_cols=6  Identities=50%  Similarity=0.861  Sum_probs=0.0  Template_Neff=4.900
+
+Q MLASRQ            1 MLASRQ    6 (6)
+Q Consensus         1 mlasrq    6 (6)
+                      |+.+||
+T Consensus         3 ~~~~~~    8 (122)
+T 6ZKE_o            3 MMTGRQ    8 (122)
+T ss_pred             cccccC
+
+
+No 6
+>6STI_A Retinoic acid receptor beta, Nuclear; Nuclear receptor, Ligand binding, TRANSCRIPTION; HET: 754; 1.892A {Homo sapiens}
+Probab=5.42  E-value=6.4e+02  Score=9.93  Aligned_cols=6  Identities=33%  Similarity=0.357  Sum_probs=0.0  Template_Neff=10.000
+
+Q MLASRQ            1 MLASRQ    6 (6)
+Q Consensus         1 mlasrq    6 (6)
+                      |-+|+|
+T Consensus         4 ~~~~~~    9 (244)
+T 6STI_A            4 MTSSAN    9 (244)
+T ss_dssp             ------
+T ss_pred             cCCCcc
+
+
+No 7
+>3TL8_F BRASSINOSTEROID INSENSITIVE 1-associated receptor kinase; Plant immunity, Pseudomonas syringae, Solanum; HET: TPO; 2.5A {Arabidopsis thaliana}
+Probab=5.34  E-value=6.6e+02  Score=11.69  Aligned_cols=6  Identities=50%  Similarity=0.623  Sum_probs=0.0  Template_Neff=2.100
+
+Q MLASRQ            1 MLASRQ    6 (6)
+Q Consensus         1 mlasrq    6 (6)
+                      ||++|+
+T Consensus       109 ~Lg~r~  114 (117)
+T 3TL8_F          109 MLGLRP  114 (117)
+T ss_pred             HhCCCC
+
+
+No 8
+>6GIQ_d Ubiquinol--cytochrome-c reductase subunit, Ubiquinol--cytochrome-c reductase; Respiratory chain, supercomplex, bc1 complex; HET: HEM, 6PH, UQ6, PCF, 9PE, CN3, CN5, HEA, 7PH, 8PE; 3.23A {Saccharomyces cerevisiae W303}
+Probab=4.91  E-value=7.3e+02  Score=10.98  Aligned_cols=6  Identities=67%  Similarity=0.816  Sum_probs=0.0  Template_Neff=5.500
+
+Q MLASRQ            1 MLASRQ    6 (6)
+Q Consensus         1 mlasrq    6 (6)
+                      ||+-||
+T Consensus         1 ~~~~~~    6 (155)
+T 6GIQ_d            1 MLSLRQ    6 (155)
+T ss_pred             Cceeeh
+
+
+No 9
+>4BWP_B PAB-DEPENDENT POLY(A)-SPECIFIC RIBONUCLEASE SUBUNIT PAN-3; GENE REGULATION, DEADENYLASE, PAN2, MIRNA; HET: AN2; 3.6A {DROSOPHILA MELANOGASTER}
+Probab=4.90  E-value=7.3e+02  Score=10.99  Aligned_cols=5  Identities=60%  Similarity=0.614  Sum_probs=0.0  Template_Neff=9.600
+
+Q MLASRQ            1 MLASR    5 (6)
+Q Consensus         1 mlasr    5 (6)
+                      ||.||
+T Consensus       414 ~l~s~  418 (448)
+T 4BWP_B          414 QLMSR  418 (448)
+T ss_dssp             EEECS
+T ss_pred             EEecC
+
+
+No 10
+>2XNQ_A NUCLEAR POLYADENYLATED RNA-BINDING PROTEIN 3; RNA BINDING PROTEIN, TRANSCRIPTION TERMINATION; 1.3A {SACCHAROMYCES CEREVISIAE}
+Probab=4.68  E-value=7.7e+02  Score=7.26  Aligned_cols=6  Identities=33%  Similarity=0.279  Sum_probs=0.0  Template_Neff=12.000
+
+Q MLASRQ            1 MLASRQ    6 (6)
+Q Consensus         1 mlasrq    6 (6)
+                      |+.+|+
+T Consensus         1 ~~~~~~    6 (97)
+T 2XNQ_A            1 MGSSHH    6 (97)
+T ss_dssp             ------
+T ss_pred             CCCCCC
+
+

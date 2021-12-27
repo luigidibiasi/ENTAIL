@@ -1,0 +1,310 @@
+Query         SPVIIE
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 15:56:33 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/SPVIIE/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/SPVIIE/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3N9S_A Fructose-bisphosphate a  35.7      35 0.00039   15.9   0.0    6    1-6      42-47  (307)
+  2 6OFU_B YdjI; aldolase, LYASE;   34.8      37 0.00041   15.5   0.0    6    1-6      42-47  (286)
+  3 3PM6_A putative fructose-1,6-b  33.3      40 0.00045   15.6   0.0    6    1-6      52-57  (306)
+  4 7NCC_A Putative class II fruct  33.1      41 0.00045   15.1   0.0    6    1-6      43-48  (284)
+  5 3PM6_B putative fructose-1,6-b  32.5      43 0.00047   15.5   0.0    6    1-6      52-57  (306)
+  6 3TXV_A Probable tagatose 6-pho  28.4      55 0.00061   16.1   0.0    6    1-6      46-51  (450)
+  7 3QM3_B Fructose-bisphosphate a  27.7      58 0.00064   15.4   0.0    6    1-6      57-62  (357)
+  8 3QM3_E Fructose-bisphosphate a  27.7      58 0.00064   15.4   0.0    6    1-6      57-62  (357)
+  9 2FIQ_B putative tagatose 6-pho  27.1      61 0.00067   15.7   0.0    6    1-6      39-44  (420)
+ 10 2FIQ_C putative tagatose 6-pho  27.1      61 0.00067   15.7   0.0    6    1-6      39-44  (420)
+ 11 5VJE_B Fructose-bisphosphate a  26.8      62 0.00068   15.4   0.0    6    1-6      54-59  (358)
+ 12 1DOS_B ALDOLASE CLASS II; LYAS  26.7      62 0.00069   15.4   0.0    6    1-6      54-59  (358)
+ 13 7RGN_A aldolase, LYASE, zinc,   26.6      63 0.00069   15.3   0.0    6    1-6      53-58  (357)
+ 14 2ISW_A Putative fructose-1,6-b  26.2      64 0.00071   15.4   0.0    6    1-6      43-48  (323)
+ 15 3OHI_A Putative fructose-1,6-b  26.2      64 0.00071   15.4   0.0    6    1-6      43-48  (323)
+ 16 3ELF_A Fructose-bisphosphate a  25.6      67 0.00074   15.1   0.0    6    1-6      46-51  (349)
+ 17 4DEL_A Fructose-bisphosphate a  25.6      67 0.00074   15.1   0.0    6    1-6      46-51  (349)
+ 18 5U4N_A Fructose-1 (E.C.4.1.2.1  25.5      68 0.00075   15.5   0.0    6    1-6      51-56  (362)
+ 19 1RV8_B fructose-1,6-bisphospha  25.4      68 0.00075   15.0   0.0    6    1-6      42-47  (305)
+ 20 1RVG_B fructose-1,6-bisphospha  25.4      68 0.00075   15.0   0.0    6    1-6      42-47  (305)
+
+No 1
+>3N9S_A Fructose-bisphosphate aldolase (E.C.4.1.2.13  ; FBP aldolase, Class II, inhibitor; HET: TD4; 1.85A {Helicobacter pylori}
+Probab=35.71  E-value=35  Score=15.87  Aligned_cols=6  Identities=50%  Similarity=1.016  Sum_probs=3.6  Template_Neff=6.200
+
+Q SPVIIE            1 SPVIIE    6 (6)
+Q Consensus         1 spviie    6 (6)
+                      |||||+
+T Consensus        42 sPvIiq   47 (307)
+T 3N9S_A           42 SPLFIQ   47 (307)
+T ss_dssp             CCEEEE
+T ss_pred             CCeEEE
+Confidence            566663
+
+
+No 2
+>6OFU_B YdjI; aldolase, LYASE; HET: OCS; 1.75A {Escherichia coli (strain K12)}
+Probab=34.76  E-value=37  Score=15.50  Aligned_cols=6  Identities=83%  Similarity=1.187  Sum_probs=3.1  Template_Neff=6.500
+
+Q SPVIIE            1 SPVIIE    6 (6)
+Q Consensus         1 spviie    6 (6)
+                      |||||+
+T Consensus        42 sPvIi~   47 (286)
+T 6OFU_B           42 SPVIIS   47 (286)
+T ss_dssp             CCEEE-
+T ss_pred             CCEEEE
+Confidence            466653
+
+
+No 3
+>3PM6_A putative fructose-1,6-bisphosphate aldolase; Structural Genomics, Seattle Structural Genomics; HET: IOD; 2.2A {Coccidioides immitis}
+Probab=33.31  E-value=40  Score=15.57  Aligned_cols=6  Identities=50%  Similarity=0.755  Sum_probs=3.4  Template_Neff=6.400
+
+Q SPVIIE            1 SPVIIE    6 (6)
+Q Consensus         1 spviie    6 (6)
+                      |||||+
+T Consensus        52 sPvIl~   57 (306)
+T 3PM6_A           52 SPAMIL   57 (306)
+T ss_dssp             CCEEEE
+T ss_pred             CCeEEE
+Confidence            466653
+
+
+No 4
+>7NCC_A Putative class II fructose-1,6-bisphosphate aldolase; gluconeogenic aldolase, LYASE; HET: PO4; 2.0A {Bacillus methanolicus (strain MGA3 / ATCC 53907)}
+Probab=33.07  E-value=41  Score=15.14  Aligned_cols=6  Identities=83%  Similarity=1.132  Sum_probs=3.3  Template_Neff=6.900
+
+Q SPVIIE            1 SPVIIE    6 (6)
+Q Consensus         1 spviie    6 (6)
+                      |||||+
+T Consensus        43 sPvIl~   48 (284)
+T 7NCC_A           43 SPVIIG   48 (284)
+T ss_dssp             CCEEEE
+T ss_pred             CCEEEE
+Confidence            466653
+
+
+No 5
+>3PM6_B putative fructose-1,6-bisphosphate aldolase; Structural Genomics, Seattle Structural Genomics; HET: IOD; 2.2A {Coccidioides immitis}
+Probab=32.49  E-value=43  Score=15.45  Aligned_cols=6  Identities=50%  Similarity=0.755  Sum_probs=3.4  Template_Neff=6.500
+
+Q SPVIIE            1 SPVIIE    6 (6)
+Q Consensus         1 spviie    6 (6)
+                      |||||+
+T Consensus        52 sPvIi~   57 (306)
+T 3PM6_B           52 SPAMIL   57 (306)
+T ss_dssp             CCEEEE
+T ss_pred             CCEEEE
+Confidence            466653
+
+
+No 6
+>3TXV_A Probable tagatose 6-phosphate kinase (E.C.2.7.1.144); Structural Genomics, PSI-Biology, New York; 2.8A {Sinorhizobium meliloti}
+Probab=28.44  E-value=55  Score=16.12  Aligned_cols=6  Identities=67%  Similarity=1.248  Sum_probs=3.7  Template_Neff=6.000
+
+Q SPVIIE            1 SPVIIE    6 (6)
+Q Consensus         1 spviie    6 (6)
+                      ||+|||
+T Consensus        46 sPviIe   51 (450)
+T 3TXV_A           46 APVLIE   51 (450)
+T ss_dssp             SCEEEE
+T ss_pred             CCEEEE
+Confidence            466664
+
+
+No 7
+>3QM3_B Fructose-bisphosphate aldolase (E.C.4.1.2.13); Structural Genomics, Center for Structural; HET: SO4, GOL, FMT; 1.85A {Campylobacter jejuni}
+Probab=27.68  E-value=58  Score=15.44  Aligned_cols=6  Identities=83%  Similarity=1.270  Sum_probs=3.5  Template_Neff=6.300
+
+Q SPVIIE            1 SPVIIE    6 (6)
+Q Consensus         1 spviie    6 (6)
+                      |||||+
+T Consensus        57 sPvIl~   62 (357)
+T 3QM3_B           57 SPVIIQ   62 (357)
+T ss_dssp             CCEEEE
+T ss_pred             CCEEEE
+Confidence            566663
+
+
+No 8
+>3QM3_E Fructose-bisphosphate aldolase (E.C.4.1.2.13); Structural Genomics, Center for Structural; HET: SO4, FMT, GOL; 1.85A {Campylobacter jejuni}
+Probab=27.68  E-value=58  Score=15.44  Aligned_cols=6  Identities=83%  Similarity=1.270  Sum_probs=3.5  Template_Neff=6.300
+
+Q SPVIIE            1 SPVIIE    6 (6)
+Q Consensus         1 spviie    6 (6)
+                      |||||+
+T Consensus        57 sPvIl~   62 (357)
+T 3QM3_E           57 SPVIIQ   62 (357)
+T ss_dssp             CCEEEE
+T ss_pred             CCEEEE
+Confidence            566663
+
+
+No 9
+>2FIQ_B putative tagatose 6-phosphate kinase 1; structural genomics, PSI, Protein Structure; HET: MSE; 2.25A {Escherichia coli} SCOP: c.1.10.7
+Probab=27.07  E-value=61  Score=15.66  Aligned_cols=6  Identities=50%  Similarity=0.722  Sum_probs=3.5  Template_Neff=6.400
+
+Q SPVIIE            1 SPVIIE    6 (6)
+Q Consensus         1 spviie    6 (6)
+                      ||||||
+T Consensus        39 sPviie   44 (420)
+T 2FIQ_B           39 RKVLIE   44 (420)
+T ss_dssp             CCEEEE
+T ss_pred             CCEEEE
+Confidence            466664
+
+
+No 10
+>2FIQ_C putative tagatose 6-phosphate kinase 1; structural genomics, PSI, Protein Structure; HET: MSE; 2.25A {Escherichia coli} SCOP: c.1.10.7
+Probab=27.07  E-value=61  Score=15.66  Aligned_cols=6  Identities=50%  Similarity=0.722  Sum_probs=3.5  Template_Neff=6.400
+
+Q SPVIIE            1 SPVIIE    6 (6)
+Q Consensus         1 spviie    6 (6)
+                      ||||||
+T Consensus        39 sPviie   44 (420)
+T 2FIQ_C           39 RKVLIE   44 (420)
+T ss_dssp             CCEEEE
+T ss_pred             CCEEEE
+Confidence            466664
+
+
+No 11
+>5VJE_B Fructose-bisphosphate aldolase class 2 (E.C.4.1.2.13); Glycolysis, Lyase; HET: GOS; 1.65A {Escherichia coli (strain K12)}
+Probab=26.84  E-value=62  Score=15.37  Aligned_cols=6  Identities=50%  Similarity=1.160  Sum_probs=3.5  Template_Neff=6.300
+
+Q SPVIIE            1 SPVIIE    6 (6)
+Q Consensus         1 spviie    6 (6)
+                      |||||+
+T Consensus        54 sPvIl~   59 (358)
+T 5VJE_B           54 APVIVQ   59 (358)
+T ss_dssp             CCEEEE
+T ss_pred             CCEEEE
+Confidence            566653
+
+
+No 12
+>1DOS_B ALDOLASE CLASS II; LYASE, CLASSII FRUCTOSE 1, 6-BISPHOSPHATE; 1.67A {Escherichia coli} SCOP: c.1.10.2
+Probab=26.70  E-value=62  Score=15.36  Aligned_cols=6  Identities=50%  Similarity=1.160  Sum_probs=3.5  Template_Neff=6.300
+
+Q SPVIIE            1 SPVIIE    6 (6)
+Q Consensus         1 spviie    6 (6)
+                      |||||+
+T Consensus        54 sPvIiq   59 (358)
+T 1DOS_B           54 APVIVQ   59 (358)
+T ss_dssp             CCEEEE
+T ss_pred             CCEEEE
+Confidence            566653
+
+
+No 13
+>7RGN_A aldolase, LYASE, zinc, Structural Genomics; 2.2A {Candida auris}
+Probab=26.56  E-value=63  Score=15.34  Aligned_cols=6  Identities=50%  Similarity=1.187  Sum_probs=3.5  Template_Neff=6.300
+
+Q SPVIIE            1 SPVIIE    6 (6)
+Q Consensus         1 spviie    6 (6)
+                      ||+||+
+T Consensus        53 sPvIi~   58 (357)
+T 7RGN_A           53 SPIILQ   58 (357)
+T ss_dssp             CCEEEE
+T ss_pred             CCEEEE
+Confidence            566653
+
+
+No 14
+>2ISW_A Putative fructose-1,6-bisphosphate aldolase (E.C.4.1.2.13); Class II fructose-1, 6-bisphosphate aldolase; HET: PGH; 1.75A {Giardia intestinalis}
+Probab=26.24  E-value=64  Score=15.36  Aligned_cols=6  Identities=67%  Similarity=1.204  Sum_probs=3.4  Template_Neff=5.800
+
+Q SPVIIE            1 SPVIIE    6 (6)
+Q Consensus         1 spviie    6 (6)
+                      |||||+
+T Consensus        43 sPvIlq   48 (323)
+T 2ISW_A           43 SPVILQ   48 (323)
+T ss_dssp             CCEEEE
+T ss_pred             CCEEEE
+Confidence            466653
+
+
+No 15
+>3OHI_A Putative fructose-1,6-bisphosphate aldolase (E.C.4.1.2.13); Class II fructose-1, 6-bisphosphate aldolase; HET: HDX; 2.3A {Giardia intestinalis}
+Probab=26.24  E-value=64  Score=15.36  Aligned_cols=6  Identities=67%  Similarity=1.204  Sum_probs=3.4  Template_Neff=5.800
+
+Q SPVIIE            1 SPVIIE    6 (6)
+Q Consensus         1 spviie    6 (6)
+                      |||||+
+T Consensus        43 sPvIlq   48 (323)
+T 3OHI_A           43 SPVILQ   48 (323)
+T ss_dssp             CCEEEE
+T ss_pred             CCEEEE
+Confidence            466653
+
+
+No 16
+>3ELF_A Fructose-bisphosphate aldolase (E.C.4.1.2.13); class II fructose-1,6-bisphosphate aldolase, zinc; HET: 2FP; 1.31A {Mycobacterium tuberculosis}
+Probab=25.63  E-value=67  Score=15.06  Aligned_cols=6  Identities=50%  Similarity=0.440  Sum_probs=3.3  Template_Neff=6.600
+
+Q SPVIIE            1 SPVIIE    6 (6)
+Q Consensus         1 spviie    6 (6)
+                      ||+||+
+T Consensus        46 sPvIl~   51 (349)
+T 3ELF_A           46 SDGIIQ   51 (349)
+T ss_dssp             CCEEEE
+T ss_pred             CCEEEE
+Confidence            466653
+
+
+No 17
+>4DEL_A Fructose-bisphosphate aldolase (E.C.4.1.2.13); CLASS II FRUCTOSE-1,6-BISPHOSPHATE ALDOLASE, ZINC; HET: PGH, P6G; 1.58A {Mycobacterium tuberculosis}
+Probab=25.63  E-value=67  Score=15.06  Aligned_cols=6  Identities=50%  Similarity=0.440  Sum_probs=3.3  Template_Neff=6.600
+
+Q SPVIIE            1 SPVIIE    6 (6)
+Q Consensus         1 spviie    6 (6)
+                      ||+||+
+T Consensus        46 sPvIl~   51 (349)
+T 4DEL_A           46 SDGIIQ   51 (349)
+T ss_dssp             CCEEEE
+T ss_pred             CCEEEE
+Confidence            466653
+
+
+No 18
+>5U4N_A Fructose-1 (E.C.4.1.2.13); structural genomics, fructose, phosphate, Seattle; HET: PO4; 1.6A {Neisseria gonorrhoeae}
+Probab=25.45  E-value=68  Score=15.51  Aligned_cols=6  Identities=50%  Similarity=1.160  Sum_probs=3.4  Template_Neff=5.800
+
+Q SPVIIE            1 SPVIIE    6 (6)
+Q Consensus         1 spviie    6 (6)
+                      |||||+
+T Consensus        51 sPvIlq   56 (362)
+T 5U4N_A           51 APVIVQ   56 (362)
+T ss_dssp             CCEEEE
+T ss_pred             CCeEEE
+Confidence            466653
+
+
+No 19
+>1RV8_B fructose-1,6-bisphosphate aldolase (E.C.4.1.2.13); class II aldolase, metal-depdendent aldolase; HET: SO4; 2.3A {Thermus aquaticus} SCOP: c.1.10.2
+Probab=25.39  E-value=68  Score=15.03  Aligned_cols=6  Identities=67%  Similarity=1.110  Sum_probs=3.3  Template_Neff=6.100
+
+Q SPVIIE            1 SPVIIE    6 (6)
+Q Consensus         1 spviie    6 (6)
+                      |||||+
+T Consensus        42 sPvIi~   47 (305)
+T 1RV8_B           42 SPVILA   47 (305)
+T ss_dssp             CCEEEE
+T ss_pred             CCEEEE
+Confidence            466653
+
+
+No 20
+>1RVG_B fructose-1,6-bisphosphate aldolase (E.C.4.1.2.13); CLASS II ALDOLASE, METAL-DEPDENDENT ALDOLASE; HET: SO4; 2.0A {Thermus aquaticus} SCOP: c.1.10.2
+Probab=25.39  E-value=68  Score=15.03  Aligned_cols=6  Identities=67%  Similarity=1.110  Sum_probs=3.3  Template_Neff=6.100
+
+Q SPVIIE            1 SPVIIE    6 (6)
+Q Consensus         1 spviie    6 (6)
+                      |||||+
+T Consensus        42 sPvIi~   47 (305)
+T 1RVG_B           42 SPVILA   47 (305)
+T ss_dssp             CCEEEE
+T ss_pred             CCEEEE
+Confidence            466653
+
+

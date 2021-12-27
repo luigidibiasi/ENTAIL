@@ -1,0 +1,154 @@
+Query         QQYNPD
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 10:18:52 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QQYNPD/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QQYNPD/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 1QAP_A QUINOLINIC ACID PHOSPHO  72.9     2.8 3.1E-05   18.4   0.0    6    1-6       3-8   (296)
+  2 7C7Y_B Uncharacterized protein  49.5      15 0.00017   15.9   0.0    6    1-6       5-10  (80)
+  3 7C7Y_C Uncharacterized protein  49.5      15 0.00017   15.9   0.0    6    1-6       5-10  (80)
+  4 3JCT_q 60S ribosomal protein L  37.4      31 0.00035   16.5   0.0    6    1-6     225-230 (455)
+  5 4RCJ_A YTH domain-containing f  30.9      47 0.00052   14.1   0.0    6    1-6      12-17  (191)
+  6 2EUC_A Hypothetical protein yf  19.2 1.1E+02  0.0012   14.3   0.0    4    1-4       8-11  (130)
+  7 4ZCF_C EcoP15I, ModA, EcoP15I,  16.8 1.3E+02  0.0015   15.0   0.0    4    3-6     895-898 (970)
+  8 5MUN_A Lys-gingipain W83 (E.C.  16.8 1.4E+02  0.0015   12.5   0.0    4    2-5     164-167 (214)
+  9 6RMG_B Protein patched homolog  16.6 1.4E+02  0.0015   13.1   0.0    6    1-6     166-171 (285)
+ 10 5MUN_B Lys-gingipain W83 (E.C.  16.4 1.4E+02  0.0016   12.5   0.0    4    2-5     164-167 (214)
+
+No 1
+>1QAP_A QUINOLINIC ACID PHOSPHORIBOSYLTRANSFERASE, QUINOLINIC ACID; GLYCOSYLTRANSFERASE, QUINOLINIC ACID, NAD BIOSYNTHESIS; HET: NTM; 2.8A {Salmonella typhimurium} SCOP: c.1.17.1, d.41.2.1
+Probab=72.90  E-value=2.8  Score=18.37  Aligned_cols=6  Identities=67%  Similarity=1.492  Sum_probs=0.6  Template_Neff=7.400
+
+Q QQYNPD            1 QQYNPD    6 (6)
+Q Consensus         1 qqynpd    6 (6)
+                      ||||||
+T Consensus         3 ~~~~~~    8 (296)
+T 1QAP_A            3 RRYNPD    8 (296)
+T ss_dssp             -----C
+T ss_pred             CcCCCC
+Confidence            688885
+
+
+No 2
+>7C7Y_B Uncharacterized protein; DNA binding protein, DNA segregation; HET: MSE; 2.6A {Bacillus cereus (strain ATCC 10987 / NRS 248)}
+Probab=49.52  E-value=15  Score=15.92  Aligned_cols=6  Identities=83%  Similarity=1.132  Sum_probs=2.3  Template_Neff=1.000
+
+Q QQYNPD            1 QQYNPD    6 (6)
+Q Consensus         1 qqynpd    6 (6)
+                      ||.|||
+T Consensus         5 qqvnpd   10 (80)
+T 7C7Y_B            5 QQVNPD   10 (80)
+T ss_dssp             ---CHH
+T ss_pred             hhcCHH
+Confidence            677886
+
+
+No 3
+>7C7Y_C Uncharacterized protein; DNA binding protein, DNA segregation; HET: MSE; 2.6A {Bacillus cereus (strain ATCC 10987 / NRS 248)}
+Probab=49.52  E-value=15  Score=15.92  Aligned_cols=6  Identities=83%  Similarity=1.132  Sum_probs=2.3  Template_Neff=1.000
+
+Q QQYNPD            1 QQYNPD    6 (6)
+Q Consensus         1 qqynpd    6 (6)
+                      ||.|||
+T Consensus         5 qqvnpd   10 (80)
+T 7C7Y_C            5 QQVNPD   10 (80)
+T ss_dssp             ---CHH
+T ss_pred             hhcCHH
+Confidence            677886
+
+
+No 4
+>3JCT_q 60S ribosomal protein L2-A, 60S; pre-60S ribosome, RIBOSOME; HET: GTP; 3.08A {Saccharomyces cerevisiae S288c}
+Probab=37.45  E-value=31  Score=16.55  Aligned_cols=6  Identities=50%  Similarity=1.281  Sum_probs=4.1  Template_Neff=6.700
+
+Q QQYNPD            1 QQYNPD    6 (6)
+Q Consensus         1 qqynpd    6 (6)
+                      +.|||+
+T Consensus       225 ~SYNPs  230 (455)
+T 3JCT_q          225 KSYNPN  230 (455)
+T ss_pred             CcCCCC
+Confidence            468885
+
+
+No 5
+>4RCJ_A YTH domain-containing family protein 1; Structural Genomics, Structural Genomics Consortium; HET: 6MZ; 1.6A {Homo sapiens}
+Probab=30.92  E-value=47  Score=14.13  Aligned_cols=6  Identities=50%  Similarity=1.171  Sum_probs=3.6  Template_Neff=7.000
+
+Q QQYNPD            1 QQYNPD    6 (6)
+Q Consensus         1 qqynpd    6 (6)
+                      +||||+
+T Consensus        12 ~~~n~~   17 (191)
+T 4RCJ_A           12 HSYNPK   17 (191)
+T ss_dssp             SCCSCT
+T ss_pred             hcCChh
+Confidence            467764
+
+
+No 6
+>2EUC_A Hypothetical protein yfmB; STRUCTURAL GENOMICS, PSI, PROTEIN STRUCTURE; HET: MSE; 2.5A {Bacillus subtilis} SCOP: a.249.1.1
+Probab=19.20  E-value=1.1e+02  Score=14.29  Aligned_cols=4  Identities=100%  Similarity=1.414  Sum_probs=0.0  Template_Neff=1.900
+
+Q QQYNPD            1 QQYN    4 (6)
+Q Consensus         1 qqyn    4 (6)
+                      ||||
+T Consensus         8 QqyN   11 (130)
+T 2EUC_A            8 QQYN   11 (130)
+T ss_dssp             HHHH
+T ss_pred             HHHH
+
+
+No 7
+>4ZCF_C EcoP15I, ModA, EcoP15I, Res/RNA Complex; Hydrolase/DNA, ATP motor, DNA methyltransferase; HET: AMP; 2.6A {Escherichia coli}
+Probab=16.85  E-value=1.3e+02  Score=15.01  Aligned_cols=4  Identities=75%  Similarity=1.746  Sum_probs=0.0  Template_Neff=8.700
+
+Q QQYNPD            3 YNPD    6 (6)
+Q Consensus         3 ynpd    6 (6)
+                      ||||
+T Consensus       895 y~PD  898 (970)
+T 4ZCF_C          895 YSPD  898 (970)
+T ss_dssp             ----
+T ss_pred             ecCC
+
+
+No 8
+>5MUN_A Lys-gingipain W83 (E.C.3.4.22.47); Cysteine protease, zymogenic latency, hydrolase; 1.8A {Porphyromonas gingivalis}
+Probab=16.78  E-value=1.4e+02  Score=12.48  Aligned_cols=4  Identities=50%  Similarity=0.908  Sum_probs=0.0  Template_Neff=8.100
+
+Q QQYNPD            2 QYNP    5 (6)
+Q Consensus         2 qynp    5 (6)
+                      ||||
+T Consensus       164 qYnP  167 (214)
+T 5MUN_A          164 QYDV  167 (214)
+T ss_dssp             EEET
+T ss_pred             eEeC
+
+
+No 9
+>6RMG_B Protein patched homolog 1, Sonic; Patched, PTCH1, Hedgehog, ShhN, MEMBRANE; HET: Y01, NAG; 3.4A {Homo sapiens}
+Probab=16.56  E-value=1.4e+02  Score=13.09  Aligned_cols=6  Identities=67%  Similarity=1.353  Sum_probs=0.0  Template_Neff=7.900
+
+Q QQYNPD            1 QQYNPD    6 (6)
+Q Consensus         1 qqynpd    6 (6)
+                      ++||||
+T Consensus       166 ~~~~~~  171 (285)
+T 6RMG_B          166 PNYNPD  171 (285)
+T ss_dssp             CCCCTT
+T ss_pred             EccCCc
+
+
+No 10
+>5MUN_B Lys-gingipain W83 (E.C.3.4.22.47); Cysteine protease, zymogenic latency, hydrolase; 1.8A {Porphyromonas gingivalis}
+Probab=16.39  E-value=1.4e+02  Score=12.49  Aligned_cols=4  Identities=50%  Similarity=0.908  Sum_probs=0.0  Template_Neff=8.000
+
+Q QQYNPD            2 QYNP    5 (6)
+Q Consensus         2 qynp    5 (6)
+                      ||||
+T Consensus       164 qYnP  167 (214)
+T 5MUN_B          164 QYDV  167 (214)
+T ss_dssp             EEET
+T ss_pred             eEEC
+
+

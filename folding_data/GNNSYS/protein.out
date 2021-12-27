@@ -1,0 +1,151 @@
+Query         GNNSYS
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 02:36:49 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GNNSYS/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GNNSYS/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2N1U_A Histone deacetylase com  44.9      20 0.00022   15.0   0.0    6    1-6      21-26  (70)
+  2 3HXP_A Iron(3+)-hydroxamate-bi  15.5 1.5E+02  0.0017   12.2   0.0    6    1-6       2-7   (300)
+  3 6LUI_A Atherin/DNA Complex; Cp  14.8 1.6E+02  0.0018   11.3   0.0    5    1-5      64-68  (80)
+  4 1ZV4_X Regulator of G-protein   12.8   2E+02  0.0023   10.9   0.0    6    1-6      15-20  (158)
+  5 2D4U_A Methyl-accepting chemot  12.5 2.1E+02  0.0023   10.1   0.0    5    2-6     166-170 (176)
+  6 5AIW_A TRAH; CELL ADHESION, BA  12.2 2.2E+02  0.0024   13.4   0.0    5    2-6      53-57  (128)
+  7 3GYD_B Cyclic nucleotide-bindi  11.7 2.3E+02  0.0025   10.3   0.0    6    1-6      12-17  (187)
+  8 1WYQ_A Spectrin beta chain, br  11.7 2.3E+02  0.0026    9.8   0.0    6    1-6       1-6   (127)
+  9 6XN9_A Recifin modulatory pept  10.5 2.7E+02   0.003   11.1   0.0    6    1-6      24-29  (42)
+ 10 1TA9_B glycerol dehydrogenase   10.2 2.8E+02  0.0031   13.1   0.0    6    1-6      39-44  (450)
+
+No 1
+>2N1U_A Histone deacetylase complex subunit SAP30L; PROTEIN BINDING; HET: ZN; NMR {Homo sapiens}
+Probab=44.92  E-value=20  Score=14.95  Aligned_cols=6  Identities=67%  Similarity=1.088  Sum_probs=3.8  Template_Neff=2.900
+
+Q GNNSYS            1 GNNSYS    6 (6)
+Q Consensus         1 gnnsys    6 (6)
+                      ||.|||
+T Consensus        21 GnAsys   26 (70)
+T 2N1U_A           21 GNASFS   26 (70)
+T ss_dssp             EEEECC
+T ss_pred             ccceec
+Confidence            566765
+
+
+No 2
+>3HXP_A Iron(3+)-hydroxamate-binding protein fhuD; alpha-beta protein, Structural Genomics, PSI-2; 3.2A {Bacillus subtilis}
+Probab=15.46  E-value=1.5e+02  Score=12.24  Aligned_cols=6  Identities=83%  Similarity=0.883  Sum_probs=0.0  Template_Neff=9.500
+
+Q GNNSYS            1 GNNSYS    6 (6)
+Q Consensus         1 gnnsys    6 (6)
+                      ||||-|
+T Consensus         2 ~~~~~~    7 (300)
+T 3HXP_A            2 GNNSES    7 (300)
+T ss_dssp             ------
+T ss_pred             CCcccc
+
+
+No 3
+>6LUI_A Atherin/DNA Complex; CpG islands  transcription ; 1.781A {Homo sapiens}
+Probab=14.75  E-value=1.6e+02  Score=11.28  Aligned_cols=5  Identities=60%  Similarity=0.979  Sum_probs=0.0  Template_Neff=6.300
+
+Q GNNSYS            1 GNNSY    5 (6)
+Q Consensus         1 gnnsy    5 (6)
+                      |+.||
+T Consensus        64 G~~SY   68 (80)
+T 6LUI_A           64 GSISY   68 (80)
+T ss_dssp             TEEEE
+T ss_pred             Ccccc
+
+
+No 4
+>1ZV4_X Regulator of G-protein signaling 17; Human RGSZ2, Human RGS17(Z2) ; 2.4A {Homo sapiens}
+Probab=12.76  E-value=2e+02  Score=10.89  Aligned_cols=6  Identities=33%  Similarity=0.362  Sum_probs=0.0  Template_Neff=9.200
+
+Q GNNSYS            1 GNNSYS    6 (6)
+Q Consensus         1 gnnsys    6 (6)
+                      |+||++
+T Consensus        15 ~~~~~~   20 (158)
+T 1ZV4_X           15 TENLYF   20 (158)
+T ss_dssp             ---CCT
+T ss_pred             cccccc
+
+
+No 5
+>2D4U_A Methyl-accepting chemotaxis protein I; helix-turn-helix, SIGNALING PROTEIN; 1.95A {Escherichia coli}
+Probab=12.45  E-value=2.1e+02  Score=10.09  Aligned_cols=5  Identities=80%  Similarity=1.046  Sum_probs=0.0  Template_Neff=11.100
+
+Q GNNSYS            2 NNSYS    6 (6)
+Q Consensus         2 nnsys    6 (6)
+                      +.|||
+T Consensus       166 ~~~~~  170 (176)
+T 2D4U_A          166 NASYS  170 (176)
+T ss_dssp             HC---
+T ss_pred             ccccC
+
+
+No 6
+>5AIW_A TRAH; CELL ADHESION, BACTERIAL, BACTERIAL CONJUGATION; NMR {ENTEROCOCCUS FAECALIS ENGEN0234}
+Probab=12.24  E-value=2.2e+02  Score=13.38  Aligned_cols=5  Identities=100%  Similarity=1.318  Sum_probs=0.0  Template_Neff=1.300
+
+Q GNNSYS            2 NNSYS    6 (6)
+Q Consensus         2 nnsys    6 (6)
+                      |||||
+T Consensus        53 n~sy~   57 (128)
+T 5AIW_A           53 NNSYS   57 (128)
+T ss_dssp             HHCSB
+T ss_pred             ccCCC
+
+
+No 7
+>3GYD_B Cyclic nucleotide-binding domain; Nucleotide binding protein, structural genomics; HET: CMP; 1.79A {Methylobacillus flagellatus KT}
+Probab=11.72  E-value=2.3e+02  Score=10.30  Aligned_cols=6  Identities=33%  Similarity=0.346  Sum_probs=0.0  Template_Neff=10.700
+
+Q GNNSYS            1 GNNSYS    6 (6)
+Q Consensus         1 gnnsys    6 (6)
+                      |.|+|+
+T Consensus        12 ~~~~~~   17 (187)
+T 3GYD_B           12 HENLYF   17 (187)
+T ss_dssp             HHHHHH
+T ss_pred             cchhhh
+
+
+No 8
+>1WYQ_A Spectrin beta chain, brain 2; NPPSFA, Structural Genomics, RIKEN Structural; NMR {Homo sapiens}
+Probab=11.66  E-value=2.3e+02  Score=9.81  Aligned_cols=6  Identities=33%  Similarity=0.506  Sum_probs=0.0  Template_Neff=10.300
+
+Q GNNSYS            1 GNNSYS    6 (6)
+Q Consensus         1 gnnsys    6 (6)
+                      ||.+|+
+T Consensus         1 ~~~~~~    6 (127)
+T 1WYQ_A            1 GSSGSS    6 (127)
+T ss_dssp             CCCSCC
+T ss_pred             CCCCcc
+
+
+No 9
+>6XN9_A Recifin modulatory peptide; cystine-rich peptide, protein knot, tyrosyl-DNA; HET: PCA; NMR {Axinella sp. 1 TF-2017}
+Probab=10.53  E-value=2.7e+02  Score=11.08  Aligned_cols=6  Identities=67%  Similarity=1.082  Sum_probs=0.0  Template_Neff=1.000
+
+Q GNNSYS            1 GNNSYS    6 (6)
+Q Consensus         1 gnnsys    6 (6)
+                      |..|||
+T Consensus        24 grgsys   29 (42)
+T 6XN9_A           24 GRGSYS   29 (42)
+T ss_dssp             SSCEEE
+T ss_pred             cCCcee
+
+
+No 10
+>1TA9_B glycerol dehydrogenase (E.C.1.1.1.6); Glycerol dehydrogenase, Schizosaccharomyces pombe, OXIDOREDUCTASE; HET: ALA, GOL; 1.9A {Schizosaccharomyces pombe}
+Probab=10.23  E-value=2.8e+02  Score=13.08  Aligned_cols=6  Identities=33%  Similarity=0.767  Sum_probs=0.0  Template_Neff=7.800
+
+Q GNNSYS            1 GNNSYS    6 (6)
+Q Consensus         1 gnnsys    6 (6)
+                      |.|+||
+T Consensus        39 g~~~~~   44 (450)
+T 1TA9_B           39 GKRFYA   44 (450)
+T ss_dssp             ------
+T ss_pred             cccccC
+
+

@@ -1,0 +1,148 @@
+Query         NDNNSN
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 23:18:10 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NDNNSN/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NDNNSN/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3GNF_B Major vault protein; be   6.2 5.4E+02   0.006   12.7   0.0    5    2-6      24-28  (387)
+  2 6Z1P_AR Ribosomal protein L2,    5.8 5.9E+02  0.0065   13.7   0.0    6    1-6      35-40  (348)
+  3 4BTS_AF TRANSLATION INITIATION   5.6 6.1E+02  0.0068    9.8   0.0    5    1-5       2-6   (101)
+  4 4EM8_A Ribose 5-phosphate isom   4.8 7.5E+02  0.0083   10.6   0.0    5    2-6     104-108 (148)
+  5 6OS0_A Type-1 angiotensin II r   4.3 8.7E+02  0.0096    9.4   0.0    6    1-6       8-13  (425)
+  6 6OS1_A Type-1 angiotensin II r   4.3 8.7E+02  0.0096    9.4   0.0    6    1-6       8-13  (425)
+  7 6OS2_A Type-1 angiotensin II r   4.3 8.7E+02  0.0096    9.4   0.0    6    1-6       8-13  (425)
+  8 4OGD_A Succinate-semialdehyde    4.2 8.8E+02  0.0098   10.8   0.0    4    3-6     459-462 (465)
+  9 4OHT_A Succinate-semialdehyde    4.2 8.8E+02  0.0098   10.8   0.0    4    3-6     459-462 (465)
+ 10 6ZJ8_D Virulence sensor protei   4.1 9.1E+02    0.01    7.3   0.0    4    3-6       4-7   (162)
+
+No 1
+>3GNF_B Major vault protein; beta sheets, Phosphoprotein, Ribonucleoprotein, STRUCTURAL; 2.1A {Mus musculus}
+Probab=6.22  E-value=5.4e+02  Score=12.70  Aligned_cols=5  Identities=80%  Similarity=1.013  Sum_probs=0.0  Template_Neff=6.100
+
+Q NDNNSN            2 DNNSN    6 (6)
+Q Consensus         2 dnnsn    6 (6)
+                      |+|+|
+T Consensus        24 d~ntn   28 (387)
+T 3GNF_B           24 DQNSN   28 (387)
+T ss_dssp             ETTTC
+T ss_pred             eCCCC
+
+
+No 2
+>6Z1P_AR Ribosomal protein L2, 50S ribosomal; Mitochondrial ribosome, ribosome, mitochondria, ciliate; HET: MG, ATP; 3.7A {Tetrahymena thermophila (strain SB210)}
+Probab=5.81  E-value=5.9e+02  Score=13.71  Aligned_cols=6  Identities=83%  Similarity=1.038  Sum_probs=0.0  Template_Neff=1.900
+
+Q NDNNSN            1 NDNNSN    6 (6)
+Q Consensus         1 ndnnsn    6 (6)
+                      |||.||
+T Consensus        35 ~~~~~~   40 (348)
+T 6Z1P_AR          35 NDNGSN   40 (348)
+T ss_pred             CCCCCC
+
+
+No 3
+>4BTS_AF TRANSLATION INITIATION FACTOR EIF-1A FAMILY; RIBOSOME, TRANSLATION, TRANSLATION INITIATION, SMALL; HET: MG, ZN; 3.703A {TETRAHYMENA THERMOPHILA}
+Probab=5.65  E-value=6.1e+02  Score=9.85  Aligned_cols=5  Identities=60%  Similarity=0.780  Sum_probs=0.0  Template_Neff=7.000
+
+Q NDNNSN            1 NDNNS    5 (6)
+Q Consensus         1 ndnns    5 (6)
+                      |||.+
+T Consensus         2 ~~~~~    6 (101)
+T 4BTS_AF           2 NDNDF    6 (101)
+T ss_pred             Ccccc
+
+
+No 4
+>4EM8_A Ribose 5-phosphate isomerase B (E.C.5.3.1.6); SSGCID, Seattle Structural Genomics Center; 1.95A {Anaplasma phagocytophilum}
+Probab=4.80  E-value=7.5e+02  Score=10.62  Aligned_cols=5  Identities=40%  Similarity=0.753  Sum_probs=0.0  Template_Neff=6.100
+
+Q NDNNSN            2 DNNSN    6 (6)
+Q Consensus         2 dnnsn    6 (6)
+                      +||+|
+T Consensus       104 ~NnaN  108 (148)
+T 4EM8_A          104 HNDAN  108 (148)
+T ss_dssp             HHCCC
+T ss_pred             hhCCC
+
+
+No 5
+>6OS0_A Type-1 angiotensin II receptor,Soluble cytochrome; GPCR, nanobody, MEMBRANE PROTEIN; HET: NAG; 2.9A {Homo sapiens}
+Probab=4.27  E-value=8.7e+02  Score=9.45  Aligned_cols=6  Identities=33%  Similarity=0.052  Sum_probs=0.0  Template_Neff=12.300
+
+Q NDNNSN            1 NDNNSN    6 (6)
+Q Consensus         1 ndnnsn    6 (6)
+                      +++|++
+T Consensus         8 ~~~~~~   13 (425)
+T 6OS0_A            8 KILNSS   13 (425)
+T ss_dssp             ------
+T ss_pred             cccccc
+
+
+No 6
+>6OS1_A Type-1 angiotensin II receptor,Soluble cytochrome; GPCR, MEMBRANE PROTEIN; HET: CLR, OLC; 2.794A {Homo sapiens}
+Probab=4.27  E-value=8.7e+02  Score=9.45  Aligned_cols=6  Identities=33%  Similarity=0.052  Sum_probs=0.0  Template_Neff=12.300
+
+Q NDNNSN            1 NDNNSN    6 (6)
+Q Consensus         1 ndnnsn    6 (6)
+                      +++|++
+T Consensus         8 ~~~~~~   13 (425)
+T 6OS1_A            8 KILNSS   13 (425)
+T ss_dssp             ------
+T ss_pred             cccccc
+
+
+No 7
+>6OS2_A Type-1 angiotensin II receptor,Soluble cytochrome; GPCR, MEMBRANE PROTEIN; HET: CLR, OLC, NAG; 2.7A {Homo sapiens}
+Probab=4.27  E-value=8.7e+02  Score=9.45  Aligned_cols=6  Identities=33%  Similarity=0.052  Sum_probs=0.0  Template_Neff=12.300
+
+Q NDNNSN            1 NDNNSN    6 (6)
+Q Consensus         1 ndnnsn    6 (6)
+                      +++|++
+T Consensus         8 ~~~~~~   13 (425)
+T 6OS2_A            8 KILNSS   13 (425)
+T ss_dssp             ------
+T ss_pred             cccccc
+
+
+No 8
+>4OGD_A Succinate-semialdehyde dehydrogenase; SSADH, GabD, Rossmann Fold, Dehydrogenase; 1.6A {Streptococcus pyogenes MGAS1882}
+Probab=4.22  E-value=8.8e+02  Score=10.77  Aligned_cols=4  Identities=100%  Similarity=1.132  Sum_probs=0.0  Template_Neff=9.700
+
+Q NDNNSN            3 NNSN    6 (6)
+Q Consensus         3 nnsn    6 (6)
+                      ||||
+T Consensus       459 ~~~~  462 (465)
+T 4OGD_A          459 NNSN  462 (465)
+T ss_dssp             ----
+T ss_pred             CCCc
+
+
+No 9
+>4OHT_A Succinate-semialdehyde dehydrogenase; SSADH, GabD, OXIDOREDUCTASE, Rossmann Fold; HET: NAP; 2.1A {Streptococcus pyogenes MGAS1882}
+Probab=4.22  E-value=8.8e+02  Score=10.77  Aligned_cols=4  Identities=100%  Similarity=1.132  Sum_probs=0.0  Template_Neff=9.700
+
+Q NDNNSN            3 NNSN    6 (6)
+Q Consensus         3 nnsn    6 (6)
+                      ||||
+T Consensus       459 ~~~~  462 (465)
+T 4OHT_A          459 NNSN  462 (465)
+T ss_dssp             ----
+T ss_pred             CCCc
+
+
+No 10
+>6ZJ8_D Virulence sensor protein BvgS (E.C.2.7.13.3); PAS domain sensor histidine-kinase, SIGNALING; 2.4A {Bordetella pertussis (strain Tohama I / ATCC BAA-589 / NCTC 13251)}
+Probab=4.11  E-value=9.1e+02  Score=7.29  Aligned_cols=4  Identities=25%  Similarity=0.343  Sum_probs=0.0  Template_Neff=13.400
+
+Q NDNNSN            3 NNSN    6 (6)
+Q Consensus         3 nnsn    6 (6)
+                      |||+
+T Consensus         4 ~~~~    7 (162)
+T 6ZJ8_D            4 RGSH    7 (162)
+T ss_dssp             ----
+T ss_pred             cccc
+
+

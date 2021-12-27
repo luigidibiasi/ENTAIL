@@ -1,0 +1,152 @@
+Query         QSQGMS
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 10:37:45 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QSQGMS/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QSQGMS/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 7RJ3_A structural genomics, Ce  72.2       3 3.4E-05   17.0   0.0    6    1-6      21-26  (186)
+  2 6UUT_A 3-ketoacyl-ACP reductas  24.8      71 0.00079   14.4   0.0    6    1-6      21-26  (487)
+  3 2Q2I_A Secretion chaperone; be  19.6 1.1E+02  0.0012   11.8   0.0    5    1-5      85-89  (116)
+  4 6UUT_B 3-ketoacyl-ACP reductas  17.8 1.2E+02  0.0014   13.6   0.0    6    1-6      21-26  (487)
+  5 6UUV_B 3-ketoacyl-ACP reductas  17.8 1.2E+02  0.0014   13.6   0.0    6    1-6      21-26  (487)
+  6 3GYD_B Cyclic nucleotide-bindi  17.6 1.3E+02  0.0014   11.0   0.0    5    2-6      17-21  (187)
+  7 6L0O_A DNA helicase MCM8 (E.C.  16.4 1.4E+02  0.0015   10.8   0.0    5    2-6       2-6   (81)
+  8 3BU2_C Putative tRNA-binding p  14.9 1.6E+02  0.0018   12.9   0.0    5    1-5     161-165 (199)
+  9 5H34_B Methionine-tRNA ligase   14.6 1.7E+02  0.0019   12.1   0.0    5    1-5     105-109 (135)
+ 10 1NTG_D CRYSTAL STRUCTURE OF A   13.7 1.8E+02   0.002   12.3   0.0    5    1-5      77-81  (172)
+
+No 1
+>7RJ3_A structural genomics, Center for Structural; 1.68A {Mycobacterium tuberculosis}
+Probab=72.15  E-value=3  Score=17.04  Aligned_cols=6  Identities=50%  Similarity=0.661  Sum_probs=0.0  Template_Neff=7.700
+
+Q QSQGMS            1 QSQGMS    6 (6)
+Q Consensus         1 qsqgms    6 (6)
+                      ||||||
+T Consensus        21 ~~~~~~   26 (186)
+T 7RJ3_A           21 QSNAMT   26 (186)
+T ss_dssp             ------
+T ss_pred             eccCCc
+Confidence            677764
+
+
+No 2
+>6UUT_A 3-ketoacyl-ACP reductase (E.C.1.1.1.100); FabG, Reductase, HMw, 3-oxoacyl-ACP, OXIDOREDUCTASE; 1.65A {Acinetobacter baumannii}
+Probab=24.80  E-value=71  Score=14.36  Aligned_cols=6  Identities=50%  Similarity=0.661  Sum_probs=0.0  Template_Neff=9.000
+
+Q QSQGMS            1 QSQGMS    6 (6)
+Q Consensus         1 qsqgms    6 (6)
+                      |+|.||
+T Consensus        21 ~~~~~~   26 (487)
+T 6UUT_A           21 QSNAMT   26 (487)
+T ss_dssp             ------
+T ss_pred             cCcccc
+Confidence            456664
+
+
+No 3
+>2Q2I_A Secretion chaperone; beta barrel, OB fold, homodimer; HET: EDO; 1.55A {Agrobacterium tumefaciens str. C58}
+Probab=19.62  E-value=1.1e+02  Score=11.78  Aligned_cols=5  Identities=20%  Similarity=0.328  Sum_probs=0.0  Template_Neff=7.800
+
+Q QSQGMS            1 QSQGM    5 (6)
+Q Consensus         1 qsqgm    5 (6)
+                      .|+||
+T Consensus        85 ~S~gm   89 (116)
+T 2Q2I_A           85 RSEVL   89 (116)
+T ss_dssp             EECCE
+T ss_pred             EEeeE
+
+
+No 4
+>6UUT_B 3-ketoacyl-ACP reductase (E.C.1.1.1.100); FabG, Reductase, HMw, 3-oxoacyl-ACP, OXIDOREDUCTASE; 1.65A {Acinetobacter baumannii}
+Probab=17.84  E-value=1.2e+02  Score=13.56  Aligned_cols=6  Identities=50%  Similarity=0.661  Sum_probs=0.0  Template_Neff=9.200
+
+Q QSQGMS            1 QSQGMS    6 (6)
+Q Consensus         1 qsqgms    6 (6)
+                      |+|.||
+T Consensus        21 ~~~~~~   26 (487)
+T 6UUT_B           21 QSNAMT   26 (487)
+T ss_dssp             ------
+T ss_pred             cCcccc
+
+
+No 5
+>6UUV_B 3-ketoacyl-ACP reductase (E.C.1.1.1.100); FabG, reductase, HMw, 3-oxoacyl-ACP, OXIDOREDUCTASE; 1.8A {Acinetobacter baumannii}
+Probab=17.84  E-value=1.2e+02  Score=13.56  Aligned_cols=6  Identities=50%  Similarity=0.661  Sum_probs=0.0  Template_Neff=9.200
+
+Q QSQGMS            1 QSQGMS    6 (6)
+Q Consensus         1 qsqgms    6 (6)
+                      |+|.||
+T Consensus        21 ~~~~~~   26 (487)
+T 6UUV_B           21 QSNAMT   26 (487)
+T ss_dssp             ------
+T ss_pred             cCcccc
+
+
+No 6
+>3GYD_B Cyclic nucleotide-binding domain; Nucleotide binding protein, structural genomics; HET: CMP; 1.79A {Methylobacillus flagellatus KT}
+Probab=17.61  E-value=1.3e+02  Score=10.97  Aligned_cols=5  Identities=60%  Similarity=0.594  Sum_probs=0.0  Template_Neff=10.700
+
+Q QSQGMS            2 SQGMS    6 (6)
+Q Consensus         2 sqgms    6 (6)
+                      +|||+
+T Consensus        17 ~~~~~   21 (187)
+T 3GYD_B           17 FQGMY   21 (187)
+T ss_dssp             HHHHC
+T ss_pred             hccch
+
+
+No 7
+>6L0O_A DNA helicase MCM8 (E.C.3.6.4.12); WHD, Winged helix, DNA binding; HET: SO4; 1.21A {Homo sapiens}
+Probab=16.41  E-value=1.4e+02  Score=10.78  Aligned_cols=5  Identities=40%  Similarity=0.634  Sum_probs=0.0  Template_Neff=7.800
+
+Q QSQGMS            2 SQGMS    6 (6)
+Q Consensus         2 sqgms    6 (6)
+                      |.|||
+T Consensus         2 ~~g~s    6 (81)
+T 6L0O_A            2 ARSMS    6 (81)
+T ss_dssp             -----
+T ss_pred             CCccc
+
+
+No 8
+>3BU2_C Putative tRNA-binding protein; RNA-binding, tRNA-binding, Structural Genomics, PSI-2; HET: MSE; 2.7A {Staphylococcus saprophyticus subsp. saprophyticus ATCC 15305}
+Probab=14.89  E-value=1.6e+02  Score=12.90  Aligned_cols=5  Identities=60%  Similarity=0.873  Sum_probs=0.0  Template_Neff=6.500
+
+Q QSQGMS            1 QSQGM    5 (6)
+Q Consensus         1 qsqgm    5 (6)
+                      .|+||
+T Consensus       161 ~S~GM  165 (199)
+T 3BU2_C          161 ASSGM  165 (199)
+T ss_dssp             EEESE
+T ss_pred             eeceE
+
+
+No 9
+>5H34_B Methionine-tRNA ligase (E.C.6.1.1.10); tRNA, methionyl-tRNA synthetase, Nanoarchaeum equitans; 1.748A {Nanoarchaeum equitans}
+Probab=14.57  E-value=1.7e+02  Score=12.14  Aligned_cols=5  Identities=60%  Similarity=0.986  Sum_probs=0.0  Template_Neff=6.500
+
+Q QSQGMS            1 QSQGM    5 (6)
+Q Consensus         1 qsqgm    5 (6)
+                      .|+||
+T Consensus       105 ~SeGM  109 (135)
+T 5H34_B          105 TSEGM  109 (135)
+T ss_dssp             EECCE
+T ss_pred             EeeeE
+
+
+No 10
+>1NTG_D CRYSTAL STRUCTURE OF A HUMAN; beta barrel, LIGASE; 2.21A {Homo sapiens} SCOP: b.40.4.4
+Probab=13.74  E-value=1.8e+02  Score=12.29  Aligned_cols=5  Identities=80%  Similarity=1.165  Sum_probs=0.0  Template_Neff=6.900
+
+Q QSQGMS            1 QSQGM    5 (6)
+Q Consensus         1 qsqgm    5 (6)
+                      .|+||
+T Consensus        77 ~S~GM   81 (172)
+T 1NTG_D           77 ESQGM   81 (172)
+T ss_dssp             EESCE
+T ss_pred             eeccE
+
+

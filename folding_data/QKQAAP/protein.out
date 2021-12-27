@@ -1,0 +1,152 @@
+Query         QKQAAP
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 08:19:42 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QKQAAP/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QKQAAP/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 1GQ1_A CYTOCHROME CD1 NITRITE   23.4      79 0.00087   13.3   0.0    6    1-6       1-6   (567)
+  2 6P8I_A Cation-independent mann  21.8      88 0.00098   14.7   0.0    6    1-6       6-11  (735)
+  3 5J0L_F designed protein 3L6HC2   9.2 3.2E+02  0.0035   13.0   0.0    5    1-5      60-64  (141)
+  4 3D7A_B UPF0201 protein PH1010;   8.9 3.4E+02  0.0037   11.2   0.0    4    2-5      92-95  (138)
+  5 2E5Z_A Splicing factor, argini   7.8   4E+02  0.0044   10.2   0.0    6    1-6      84-89  (90)
+  6 2NWU_B UPF0201 protein SSO1042   7.7 4.1E+02  0.0045   11.3   0.0    4    2-5      90-93  (155)
+  7 2R8R_A Sensor protein (E.C.2.7   7.5 4.2E+02  0.0047    9.7   0.0    4    3-6     225-228 (228)
+  8 2OGK_B Hypothetical protein; c   7.4 4.3E+02  0.0048   11.0   0.0    4    2-5     102-105 (146)
+  9 2OGK_D Hypothetical protein; c   7.3 4.4E+02  0.0049   11.0   0.0    4    2-5     102-105 (146)
+ 10 1QKS_B CYTOCHROME CD1 NITRITE    7.0 4.6E+02  0.0051   11.2   0.0    6    1-6       1-6   (567)
+
+No 1
+>1GQ1_A CYTOCHROME CD1 NITRITE REDUCTASE (E.C.1.9.3.2; REDUCTASE, ENZYME, NITRITE REDUCTASE, OXIDOREDUCTASE; HET: SO4, DHE, HEC, GOL; 1.4A {PARACOCCUS PANTOTROPHUS} SCOP: b.70.2.1, a.3.1.2
+Probab=23.36  E-value=79  Score=13.30  Aligned_cols=6  Identities=67%  Similarity=0.927  Sum_probs=0.0  Template_Neff=11.200
+
+Q QKQAAP            1 QKQAAP    6 (6)
+Q Consensus         1 qkqaap    6 (6)
+                      |.|+||
+T Consensus         1 ~~~~~~    6 (567)
+T 1GQ1_A            1 QEQVAP    6 (567)
+T ss_dssp             ------
+T ss_pred             CCCCCC
+Confidence            344444
+
+
+No 2
+>6P8I_A Cation-independent mannose-6-phosphate receptor; Lectin, receptor, mannose-6-phosphate, protein transport; HET: NAG, BMA, MAN; 2.54A {Homo sapiens}
+Probab=21.84  E-value=88  Score=14.71  Aligned_cols=6  Identities=83%  Similarity=0.966  Sum_probs=1.2  Template_Neff=9.300
+
+Q QKQAAP            1 QKQAAP    6 (6)
+Q Consensus         1 qkqaap    6 (6)
+                      |.||||
+T Consensus         6 ~~~~~~   11 (735)
+T 6P8I_A            6 QAQAAP   11 (735)
+T ss_dssp             ----CC
+T ss_pred             ccccCC
+Confidence            456665
+
+
+No 3
+>5J0L_F designed protein 3L6HC2_2; rosetta, de novo design, DE; 2.63A {synthetic construct}
+Probab=9.24  E-value=3.2e+02  Score=12.99  Aligned_cols=5  Identities=100%  Similarity=0.893  Sum_probs=0.0  Template_Neff=1.000
+
+Q QKQAAP            1 QKQAA    5 (6)
+Q Consensus         1 qkqaa    5 (6)
+                      |||++
+T Consensus        60 qkqaa   64 (141)
+T 5J0L_F           60 QKQAA   64 (141)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 4
+>3D7A_B UPF0201 protein PH1010; DUF54 family, UNKNOWN FUNCTION; 1.9A {Pyrococcus horikoshii}
+Probab=8.89  E-value=3.4e+02  Score=11.19  Aligned_cols=4  Identities=75%  Similarity=0.700  Sum_probs=0.0  Template_Neff=6.800
+
+Q QKQAAP            2 KQAA    5 (6)
+Q Consensus         2 kqaa    5 (6)
+                      ||+|
+T Consensus        92 KQaA   95 (138)
+T 3D7A_B           92 KQVA   95 (138)
+T ss_dssp             HHHH
+T ss_pred             CchH
+
+
+No 5
+>2E5Z_A Splicing factor, arginine/serine-rich 8; SURP domain, Structural Genomics, NPPSFA; NMR {Homo sapiens}
+Probab=7.84  E-value=4e+02  Score=10.19  Aligned_cols=6  Identities=50%  Similarity=0.661  Sum_probs=0.0  Template_Neff=6.900
+
+Q QKQAAP            1 QKQAAP    6 (6)
+Q Consensus         1 qkqaap    6 (6)
+                      +.++||
+T Consensus        84 ~~~~~~   89 (90)
+T 2E5Z_A           84 QAVSAP   89 (90)
+T ss_dssp             CCCCCC
+T ss_pred             cccCCC
+
+
+No 6
+>2NWU_B UPF0201 protein SSO1042; conserved hypothetical protein, Sulfolobus solfataricus; 2.4A {Sulfolobus solfataricus} SCOP: d.77.1.2
+Probab=7.66  E-value=4.1e+02  Score=11.33  Aligned_cols=4  Identities=100%  Similarity=0.891  Sum_probs=0.0  Template_Neff=6.400
+
+Q QKQAAP            2 KQAA    5 (6)
+Q Consensus         2 kqaa    5 (6)
+                      ||+|
+T Consensus        90 KQaA   93 (155)
+T 2NWU_B           90 KQAA   93 (155)
+T ss_dssp             HHHH
+T ss_pred             chHH
+
+
+No 7
+>2R8R_A Sensor protein (E.C.2.7.13.3); KdpD, sensor protein, pfam02702, MCSG; HET: SO4, GOL; 2.3A {Pseudomonas syringae pv. tomato}
+Probab=7.50  E-value=4.2e+02  Score=9.68  Aligned_cols=4  Identities=75%  Similarity=1.149  Sum_probs=0.0  Template_Neff=11.300
+
+Q QKQAAP            3 QAAP    6 (6)
+Q Consensus         3 qaap    6 (6)
+                      |+||
+T Consensus       225 ~~~~  228 (228)
+T 2R8R_A          225 QSAP  228 (228)
+T ss_dssp             ----
+T ss_pred             cCCC
+
+
+No 8
+>2OGK_B Hypothetical protein; conserved hypothetical protein, Archaeglobus fulgidus; 3.0A {Archaeoglobus fulgidus} SCOP: d.77.1.2
+Probab=7.37  E-value=4.3e+02  Score=10.98  Aligned_cols=4  Identities=75%  Similarity=0.659  Sum_probs=0.0  Template_Neff=6.800
+
+Q QKQAAP            2 KQAA    5 (6)
+Q Consensus         2 kqaa    5 (6)
+                      ||+|
+T Consensus       102 KQ~A  105 (146)
+T 2OGK_B          102 KQKA  105 (146)
+T ss_dssp             HHHH
+T ss_pred             ChhH
+
+
+No 9
+>2OGK_D Hypothetical protein; conserved hypothetical protein, Archaeglobus fulgidus; 3.0A {Archaeoglobus fulgidus} SCOP: d.77.1.2
+Probab=7.27  E-value=4.4e+02  Score=10.96  Aligned_cols=4  Identities=75%  Similarity=0.659  Sum_probs=0.0  Template_Neff=6.800
+
+Q QKQAAP            2 KQAA    5 (6)
+Q Consensus         2 kqaa    5 (6)
+                      ||+|
+T Consensus       102 KQ~A  105 (146)
+T 2OGK_D          102 KQKA  105 (146)
+T ss_dssp             HHHH
+T ss_pred             chhH
+
+
+No 10
+>1QKS_B CYTOCHROME CD1 NITRITE REDUCTASE; ENZYME, NITRITE REDUCTASE, OXIDOREDUCTASE, DENITRIFICATION; HET: SO4, GOL, DHE, HEC; 1.28A {PARACOCCUS PANTOTROPHUS} SCOP: b.70.2.1, a.3.1.2
+Probab=7.00  E-value=4.6e+02  Score=11.24  Aligned_cols=6  Identities=67%  Similarity=0.927  Sum_probs=0.0  Template_Neff=11.100
+
+Q QKQAAP            1 QKQAAP    6 (6)
+Q Consensus         1 qkqaap    6 (6)
+                      |.|.||
+T Consensus         1 ~~~~~~    6 (567)
+T 1QKS_B            1 QEQVAP    6 (567)
+T ss_dssp             ------
+T ss_pred             CCCCCC
+
+

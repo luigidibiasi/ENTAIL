@@ -1,0 +1,153 @@
+Query         NNLQGY
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 02:07:06 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NNLQGY/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NNLQGY/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5FYN_B PUUMALA VIRUS GN GLYCOP  18.3 1.2E+02  0.0013   15.7   0.0    6    1-6     224-229 (358)
+  2 5FXU_B ENVELOPE POLYPROTEIN; H  17.9 1.2E+02  0.0014   15.7   0.0    6    1-6     224-229 (367)
+  3 7NRH_A VLP, virus-like particl  17.8 1.2E+02  0.0014   15.6   0.0    6    1-6     224-229 (365)
+  4 6Y6P_A Envelope polyprotein; c  15.1 1.6E+02  0.0018   15.5   0.0    6    1-6     220-225 (389)
+  5 4MAK_B CRISPR-associated endor   9.7   3E+02  0.0033   11.4   0.0    6    1-6      63-68  (94)
+  6 5DQZ_F CRISPR-associated endon   9.7   3E+02  0.0033   11.4   0.0    6    1-6      63-68  (94)
+  7 6I9E_A Major head protein, Aux   9.5 3.1E+02  0.0034   12.8   0.0    6    1-6     394-399 (409)
+  8 6O3H_F Major head protein, P74   9.5 3.1E+02  0.0034   12.8   0.0    6    1-6     394-399 (409)
+  9 5PAN_A Coagulation factor VII    9.2 3.2E+02  0.0035    7.8   0.0    5    1-5      59-63  (64)
+ 10 2QSD_E Uncharacterized conserv   8.9 3.4E+02  0.0037   12.6   0.0    5    2-6      90-94  (187)
+
+No 1
+>5FYN_B PUUMALA VIRUS GN GLYCOPROTEIN; VIRAL PROTEIN, TULA VIRUS, MEMBRANE; HET: NAG, BMA, MAN; 15.6A {PUUMALA VIRUS}
+Probab=18.32  E-value=1.2e+02  Score=15.67  Aligned_cols=6  Identities=67%  Similarity=1.293  Sum_probs=3.6  Template_Neff=3.600
+
+Q NNLQGY            1 NNLQGY    6 (6)
+Q Consensus         1 nnlqgy    6 (6)
+                      |++|||
+T Consensus       224 ~~~qGy  229 (358)
+T 5FYN_B          224 NGFQGY  229 (358)
+T ss_dssp             CCCCEE
+T ss_pred             ceecee
+Confidence            456665
+
+
+No 2
+>5FXU_B ENVELOPE POLYPROTEIN; HANTAVIRUS, GN, VIRAL GLYCOPROTEIN, BUNYAVIRUS; HET: BMA, NAG, MAN; 2.28A { Puumala orthohantavirus}
+Probab=17.88  E-value=1.2e+02  Score=15.70  Aligned_cols=6  Identities=67%  Similarity=1.293  Sum_probs=3.6  Template_Neff=3.500
+
+Q NNLQGY            1 NNLQGY    6 (6)
+Q Consensus         1 nnlqgy    6 (6)
+                      |++|||
+T Consensus       224 nk~qGy  229 (367)
+T 5FXU_B          224 NGFQGY  229 (367)
+T ss_dssp             CCCCEE
+T ss_pred             ceecee
+Confidence            456765
+
+
+No 3
+>7NRH_A VLP, virus-like particle, Hantaan, HTNV; HET: BMA, MAN, NAG; 19.0A {Oryctolagus cuniculus}
+Probab=17.76  E-value=1.2e+02  Score=15.64  Aligned_cols=6  Identities=67%  Similarity=1.304  Sum_probs=3.6  Template_Neff=3.600
+
+Q NNLQGY            1 NNLQGY    6 (6)
+Q Consensus         1 nnlqgy    6 (6)
+                      |++|||
+T Consensus       224 ~k~qGy  229 (365)
+T 7NRH_A          224 NKVQGY  229 (365)
+T ss_pred             ceeceE
+Confidence            456765
+
+
+No 4
+>6Y6P_A Envelope polyprotein; class-II fusion protein hantavirus bunyavirus; HET: NAG; 1.938A {Hantaan orthohantavirus}
+Probab=15.05  E-value=1.6e+02  Score=15.47  Aligned_cols=6  Identities=67%  Similarity=1.304  Sum_probs=3.6  Template_Neff=3.400
+
+Q NNLQGY            1 NNLQGY    6 (6)
+Q Consensus         1 nnlqgy    6 (6)
+                      |++|||
+T Consensus       220 nk~qGy  225 (389)
+T 6Y6P_A          220 NKVQGY  225 (389)
+T ss_dssp             GSCCEE
+T ss_pred             ceeceE
+Confidence            456765
+
+
+No 5
+>4MAK_B CRISPR-associated endoribonuclease Cas2 (E.C.3.1.-.-); CAS2, CRISPR, MCSG, PSI-BIOLOGY, Structural; 1.1A {Escherichia coli}
+Probab=9.68  E-value=3e+02  Score=11.37  Aligned_cols=6  Identities=33%  Similarity=0.733  Sum_probs=0.0  Template_Neff=5.100
+
+Q NNLQGY            1 NNLQGY    6 (6)
+Q Consensus         1 nnlqgy    6 (6)
+                      ||-|||
+T Consensus        63 ~~eqG~   68 (94)
+T 4MAK_B           63 NTETGF   68 (94)
+T ss_dssp             SSSSCE
+T ss_pred             CCCCcE
+
+
+No 6
+>5DQZ_F CRISPR-associated endonuclease Cas1, CRISPR-associated endoribonuclease; protein-DNA complex, HYDROLASE-DNA complex; 2.7A {Escherichia coli K12}
+Probab=9.68  E-value=3e+02  Score=11.37  Aligned_cols=6  Identities=33%  Similarity=0.733  Sum_probs=0.0  Template_Neff=5.100
+
+Q NNLQGY            1 NNLQGY    6 (6)
+Q Consensus         1 nnlqgy    6 (6)
+                      ||-|||
+T Consensus        63 ~~eqG~   68 (94)
+T 5DQZ_F           63 NTETGF   68 (94)
+T ss_dssp             SSSSSE
+T ss_pred             CCCCcE
+
+
+No 7
+>6I9E_A Major head protein, Auxiliary protein; bacteriophage, thermophage, caudovirales, siphoviridae, capsid; 3.74A {Thermus virus P23-45}
+Probab=9.48  E-value=3.1e+02  Score=12.77  Aligned_cols=6  Identities=67%  Similarity=1.127  Sum_probs=0.0  Template_Neff=7.800
+
+Q NNLQGY            1 NNLQGY    6 (6)
+Q Consensus         1 nnlqgy    6 (6)
+                      ||.|.|
+T Consensus       394 ~~~~~~  399 (409)
+T 6I9E_A          394 NNVQSY  399 (409)
+T ss_dssp             SCCGGG
+T ss_pred             ccchhh
+
+
+No 8
+>6O3H_F Major head protein, P74-26 Head; Virus, Virion, Capsid, Major Capsid; 2.8A {Thermus virus P74-26}
+Probab=9.48  E-value=3.1e+02  Score=12.77  Aligned_cols=6  Identities=67%  Similarity=1.127  Sum_probs=0.0  Template_Neff=7.800
+
+Q NNLQGY            1 NNLQGY    6 (6)
+Q Consensus         1 nnlqgy    6 (6)
+                      ||.|.|
+T Consensus       394 ~~~~~~  399 (409)
+T 6O3H_F          394 NNVQSY  399 (409)
+T ss_dssp             SCCGGG
+T ss_pred             ccchhh
+
+
+No 9
+>5PAN_A Coagulation factor VII light chain; GLYCOPROTEIN, HYDROLASE, SERINE PROTEASE, PLASMA; HET: GOL, 7Z4, SO4; 1.62A {Homo sapiens}
+Probab=9.25  E-value=3.2e+02  Score=7.85  Aligned_cols=5  Identities=40%  Similarity=0.581  Sum_probs=0.0  Template_Neff=11.100
+
+Q NNLQGY            1 NNLQG    5 (6)
+Q Consensus         1 nnlqg    5 (6)
+                      ++-||
+T Consensus        59 ~~~~~   63 (64)
+T 5PAN_A           59 SKPQG   63 (64)
+T ss_dssp             -----
+T ss_pred             CCCCC
+
+
+No 10
+>2QSD_E Uncharacterized conserved protein; STRUCTURAL GENOMICS, PSI-2, PROTEIN STRUCTURE; HET: MSE; 2.5A {Idiomarina loihiensis}
+Probab=8.87  E-value=3.4e+02  Score=12.62  Aligned_cols=5  Identities=60%  Similarity=1.278  Sum_probs=0.0  Template_Neff=4.700
+
+Q NNLQGY            2 NLQGY    6 (6)
+Q Consensus         2 nlqgy    6 (6)
+                      ||-||
+T Consensus        90 NLGGY   94 (187)
+T 2QSD_E           90 NFGGY   94 (187)
+T ss_dssp             EC---
+T ss_pred             EecCC
+
+

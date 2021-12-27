@@ -1,0 +1,152 @@
+Query         STFIIE
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 17:24:10 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/STFIIE/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/STFIIE/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6NJS_A Signal transducer and a  29.6      51 0.00057   16.3   0.0    6    1-6     193-198 (562)
+  2 1BG1_A TRANSCRIPTION FACTOR ST  22.3      86 0.00095   15.8   0.0    6    1-6     193-198 (596)
+  3 6UX2_A Signal transducer and a  22.2      86 0.00096   15.9   0.0    6    1-6     314-319 (713)
+  4 1YVL_B Signal transducer and a  19.7 1.1E+02  0.0012   15.7   0.0    6    1-6     315-320 (683)
+  5 5FMF_X DNA REPAIR HELICASE RAD  17.4 1.3E+02  0.0014   11.6   0.0    4    3-6      29-32  (63)
+  6 6GYM_5 General transcription a  16.9 1.3E+02  0.0015   11.8   0.0    4    3-6      30-33  (72)
+  7 6BQO_B Fluoride ion transporte  16.5 1.4E+02  0.0015   11.9   0.0    6    1-6      83-88  (128)
+  8 6WCZ_A Signal transducer and a  16.4 1.4E+02  0.0015   16.1   0.0    6    1-6     314-319 (851)
+  9 3DGP_B RNA polymerase II trans  16.0 1.5E+02  0.0016   11.8   0.0    4    3-6      29-32  (71)
+ 10 6N7O_A GIL01 gp7; viral protei  15.7 1.5E+02  0.0016   12.2   0.0    4    3-6      10-13  (52)
+
+No 1
+>6NJS_A Signal transducer and activator of; Stat3, Activator, TRANSCRIPTION, transcription-transcription inhibitor; HET: KQV; 2.7A {Homo sapiens}
+Probab=29.59  E-value=51  Score=16.31  Aligned_cols=6  Identities=50%  Similarity=1.088  Sum_probs=3.9  Template_Neff=6.700
+
+Q STFIIE            1 STFIIE    6 (6)
+Q Consensus         1 stfiie    6 (6)
+                      |+||||
+T Consensus       193 ssfVVe  198 (562)
+T 6NJS_A          193 SAFVVE  198 (562)
+T ss_dssp             HHEEEE
+T ss_pred             hhcccc
+Confidence            567775
+
+
+No 2
+>1BG1_A TRANSCRIPTION FACTOR STAT3B/DNA COMPLEX; TRANSCRIPTION FACTOR, PROTEIN-DNA COMPLEX, CYTOKINE; 2.25A {Mus musculus} SCOP: d.93.1.1, b.2.5.5, a.47.1.1
+Probab=22.26  E-value=86  Score=15.82  Aligned_cols=6  Identities=50%  Similarity=1.088  Sum_probs=3.8  Template_Neff=6.500
+
+Q STFIIE            1 STFIIE    6 (6)
+Q Consensus         1 stfiie    6 (6)
+                      |+||||
+T Consensus       193 ssfVVe  198 (596)
+T 1BG1_A          193 SAFVVE  198 (596)
+T ss_dssp             HHEEEE
+T ss_pred             hhcccc
+Confidence            467765
+
+
+No 3
+>6UX2_A Signal transducer and activator of; host-pathogen interaction, VIRAL PROTEIN, DNA; HET: SO4; 3.01A {Homo sapiens}
+Probab=22.16  E-value=86  Score=15.85  Aligned_cols=6  Identities=33%  Similarity=0.955  Sum_probs=3.8  Template_Neff=7.100
+
+Q STFIIE            1 STFIIE    6 (6)
+Q Consensus         1 stfiie    6 (6)
+                      |+||||
+T Consensus       314 ssfVVe  319 (713)
+T 6UX2_A          314 RAFVVE  319 (713)
+T ss_dssp             HHEEEE
+T ss_pred             hceeec
+Confidence            467765
+
+
+No 4
+>1YVL_B Signal transducer and activator of; SIGNALING PROTEIN; 3.0A {Homo sapiens}
+Probab=19.65  E-value=1.1e+02  Score=15.70  Aligned_cols=6  Identities=50%  Similarity=1.137  Sum_probs=3.7  Template_Neff=6.700
+
+Q STFIIE            1 STFIIE    6 (6)
+Q Consensus         1 stfiie    6 (6)
+                      |+||+|
+T Consensus       315 ~sfvVe  320 (683)
+T 1YVL_B          315 SSFVVE  320 (683)
+T ss_dssp             HTEEEE
+T ss_pred             hhcccc
+Confidence            467765
+
+
+No 5
+>5FMF_X DNA REPAIR HELICASE RAD25, SSL2; TRANSCRIPTION, PRE-INITIATION COMPLEX, RNA POLYMERASE; 6.0A {SACCHAROMYCES CEREVISIAE}
+Probab=17.36  E-value=1.3e+02  Score=11.60  Aligned_cols=4  Identities=25%  Similarity=0.874  Sum_probs=0.0  Template_Neff=5.200
+
+Q STFIIE            3 FIIE    6 (6)
+Q Consensus         3 fiie    6 (6)
+                      ||||
+T Consensus        29 FIIe   32 (63)
+T 5FMF_X           29 IVLE   32 (63)
+T ss_pred             eEEE
+
+
+No 6
+>6GYM_5 General transcription and DNA repair; rna polymerase ii, transcription initiation; HET: ZN; 6.7A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=16.89  E-value=1.3e+02  Score=11.80  Aligned_cols=4  Identities=25%  Similarity=0.874  Sum_probs=0.0  Template_Neff=5.200
+
+Q STFIIE            3 FIIE    6 (6)
+Q Consensus         3 fiie    6 (6)
+                      ||||
+T Consensus        30 FIIe   33 (72)
+T 6GYM_5           30 IVLE   33 (72)
+T ss_pred             cEEE
+
+
+No 7
+>6BQO_B Fluoride ion transporter CrcB, Monobody; Fluoride channel, monobody, dual topology; HET: OLC; 2.8A {Bordetella pertussis (strain Tohama I / ATCC BAA-589 / NCTC 13251)}
+Probab=16.55  E-value=1.4e+02  Score=11.89  Aligned_cols=6  Identities=67%  Similarity=0.706  Sum_probs=0.0  Template_Neff=7.300
+
+Q STFIIE            1 STFIIE    6 (6)
+Q Consensus         1 stfiie    6 (6)
+                      |||+.|
+T Consensus        83 Stf~~e   88 (128)
+T 6BQO_B           83 STFSAE   88 (128)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 8
+>6WCZ_A Signal transducer and activator of; ZIKV NS5, hSTAT2, CryoEM, IMMUNE; 4.0A {Homo sapiens}
+Probab=16.44  E-value=1.4e+02  Score=16.07  Aligned_cols=6  Identities=33%  Similarity=0.955  Sum_probs=0.0  Template_Neff=6.000
+
+Q STFIIE            1 STFIIE    6 (6)
+Q Consensus         1 stfiie    6 (6)
+                      |+||||
+T Consensus       314 ssFVVE  319 (851)
+T 6WCZ_A          314 RAFVVE  319 (851)
+T ss_dssp             TCCCEE
+T ss_pred             hceeec
+
+
+No 9
+>3DGP_B RNA polymerase II transcription factor; PROTEIN-PROTEIN COMPLEX, BETA-ALPHA-BETA SPILT, HETERODIMER; 1.8A {Saccharomyces cerevisiae}
+Probab=16.00  E-value=1.5e+02  Score=11.76  Aligned_cols=4  Identities=25%  Similarity=0.874  Sum_probs=0.0  Template_Neff=5.000
+
+Q STFIIE            3 FIIE    6 (6)
+Q Consensus         3 fiie    6 (6)
+                      ||||
+T Consensus        29 FIIe   32 (71)
+T 3DGP_B           29 IVLE   32 (71)
+T ss_dssp             SEEE
+T ss_pred             eEEE
+
+
+No 10
+>6N7O_A GIL01 gp7; viral protein; 1.7A {Bacillus phage pGIL01}
+Probab=15.75  E-value=1.5e+02  Score=12.18  Aligned_cols=4  Identities=100%  Similarity=1.547  Sum_probs=0.0  Template_Neff=1.500
+
+Q STFIIE            3 FIIE    6 (6)
+Q Consensus         3 fiie    6 (6)
+                      ||||
+T Consensus        10 ~IIE   13 (52)
+T 6N7O_A           10 FIIE   13 (52)
+T ss_dssp             HHHH
+T ss_pred             HHHH
+
+

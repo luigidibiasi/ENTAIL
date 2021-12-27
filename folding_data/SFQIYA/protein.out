@@ -1,0 +1,155 @@
+Query         SFQIYA
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 14:10:30 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/SFQIYA/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/SFQIYA/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6D3U_B Short ulvan lyase; Comp  15.4 1.5E+02  0.0017   15.4   0.0    6    1-6     197-202 (303)
+  2 6D2C_B Short ulvan lyase; Stru  15.4 1.5E+02  0.0017   15.4   0.0    6    1-6     197-202 (303)
+  3 5IBV_A Capsid polyprotein VP90  15.3 1.5E+02  0.0017   15.0   0.0    6    1-6     296-301 (354)
+  4 2JOL_A Putative G-nucleotide e  15.2 1.6E+02  0.0017   14.3   0.0    6    1-6     126-131 (186)
+  5 1R6E_A TypeIII-secreted protei  14.8 1.6E+02  0.0018   14.1   0.0    6    1-6     124-129 (168)
+  6 5EWN_A Capsid polyprotein VP90  14.7 1.6E+02  0.0018   15.1   0.0    6    1-6     288-293 (375)
+  7 1GZS_D GTP-BINDING PROTEIN, SO  14.7 1.7E+02  0.0018   14.1   0.0    6    1-6     121-126 (165)
+  8 7CQZ_A Terminal nucleotidyltra  13.9 1.8E+02   0.002   14.8   0.0    4    1-4     183-186 (349)
+  9 6W3J_A Terminal nucleotidyltra  13.3 1.9E+02  0.0021   14.7   0.0    4    1-4     172-175 (347)
+ 10 3OTP_K Protease do (E.C.3.4.21  12.0 2.2E+02  0.0025    9.6   0.0    3    2-4      42-44  (44)
+
+No 1
+>6D3U_B Short ulvan lyase; Complex structure of NLR48, LYASE; HET: BDP, GCD, 83Y, PO4, EDO; 2.21A {Nonlabens ulvanivorans}
+Probab=15.38  E-value=1.5e+02  Score=15.40  Aligned_cols=6  Identities=50%  Similarity=0.977  Sum_probs=3.8  Template_Neff=1.700
+
+Q SFQIYA            1 SFQIYA    6 (6)
+Q Consensus         1 sfqiya    6 (6)
+                      ||.||+
+T Consensus       197 sFdIy~  202 (303)
+T 6D3U_B          197 SFDIWR  202 (303)
+T ss_dssp             EEEEEE
+T ss_pred             eEEEee
+Confidence            566764
+
+
+No 2
+>6D2C_B Short ulvan lyase; Structure of NLR48, LYASE; HET: PO4, MSE, EDO; 1.906A {Nonlabens ulvanivorans}
+Probab=15.38  E-value=1.5e+02  Score=15.40  Aligned_cols=6  Identities=50%  Similarity=0.977  Sum_probs=3.8  Template_Neff=1.700
+
+Q SFQIYA            1 SFQIYA    6 (6)
+Q Consensus         1 sfqiya    6 (6)
+                      ||.||+
+T Consensus       197 sFdIy~  202 (303)
+T 6D2C_B          197 SFDIWR  202 (303)
+T ss_dssp             EEEEEE
+T ss_pred             eEEEee
+Confidence            566764
+
+
+No 3
+>5IBV_A Capsid polyprotein VP90; Astrovirus, Capsid, VIRAL PROTEIN; HET: MSE; 2.15A {Human astrovirus-8}
+Probab=15.34  E-value=1.5e+02  Score=15.04  Aligned_cols=6  Identities=33%  Similarity=0.822  Sum_probs=3.5  Template_Neff=4.200
+
+Q SFQIYA            1 SFQIYA    6 (6)
+Q Consensus         1 sfqiya    6 (6)
+                      +|+||+
+T Consensus       296 ~f~VY~  301 (354)
+T 5IBV_A          296 RFYVYL  301 (354)
+T ss_dssp             EEEEES
+T ss_pred             EEEEec
+Confidence            366664
+
+
+No 4
+>2JOL_A Putative G-nucleotide exchange factor; Guanine nucleotide exchange factor, Burkholderia; NMR {Burkholderia pseudomallei} SCOP: a.168.1.1
+Probab=15.22  E-value=1.6e+02  Score=14.35  Aligned_cols=6  Identities=50%  Similarity=0.695  Sum_probs=3.0  Template_Neff=2.600
+
+Q SFQIYA            1 SFQIYA    6 (6)
+Q Consensus         1 sfqiya    6 (6)
+                      +|+.||
+T Consensus       126 ~fk~YA  131 (186)
+T 2JOL_A          126 ELQPYA  131 (186)
+T ss_dssp             HCCHHH
+T ss_pred             hhHHHH
+Confidence            355554
+
+
+No 5
+>1R6E_A TypeIII-secreted protein effector: invasion-associated protein; Salmonella, invasion, guanine nucleotide exchange; NMR {Salmonella typhimurium} SCOP: a.168.1.1
+Probab=14.78  E-value=1.6e+02  Score=14.12  Aligned_cols=6  Identities=67%  Similarity=1.115  Sum_probs=2.9  Template_Neff=2.500
+
+Q SFQIYA            1 SFQIYA    6 (6)
+Q Consensus         1 sfqiya    6 (6)
+                      ||+.||
+T Consensus       124 ~fk~yA  129 (168)
+T 1R6E_A          124 SFKAYA  129 (168)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            355554
+
+
+No 6
+>5EWN_A Capsid polyprotein VP90; virus protein, capsid protein, icosahedral; 2.602A {Human astrovirus-1}
+Probab=14.72  E-value=1.6e+02  Score=15.10  Aligned_cols=6  Identities=50%  Similarity=1.038  Sum_probs=3.5  Template_Neff=4.100
+
+Q SFQIYA            1 SFQIYA    6 (6)
+Q Consensus         1 sfqiya    6 (6)
+                      +|+||+
+T Consensus       288 ~f~VY~  293 (375)
+T 5EWN_A          288 SFYVYP  293 (375)
+T ss_dssp             EEEEES
+T ss_pred             EEEEeC
+Confidence            466664
+
+
+No 7
+>1GZS_D GTP-BINDING PROTEIN, SOPE; TOXIN/CELL CYCLE, COMPLEX (TOXIN-CELL CYCLE; HET: SO4; 2.3A {HOMO SAPIENS} SCOP: a.168.1.1
+Probab=14.66  E-value=1.7e+02  Score=14.07  Aligned_cols=6  Identities=83%  Similarity=1.381  Sum_probs=0.0  Template_Neff=2.500
+
+Q SFQIYA            1 SFQIYA    6 (6)
+Q Consensus         1 sfqiya    6 (6)
+                      ||+.||
+T Consensus       121 ~fk~yA  126 (165)
+T 1GZS_D          121 SFKIYA  126 (165)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 8
+>7CQZ_A Terminal nucleotidyltransferase 5C (E.C.2.7.7.19); non-canonical poly(A) polymerase, GENE REGULATION; 2.34969764777A {Mus musculus}
+Probab=13.86  E-value=1.8e+02  Score=14.77  Aligned_cols=4  Identities=100%  Similarity=1.323  Sum_probs=0.0  Template_Neff=4.300
+
+Q SFQIYA            1 SFQI    4 (6)
+Q Consensus         1 sfqi    4 (6)
+                      ||||
+T Consensus       183 SfQI  186 (349)
+T 7CQZ_A          183 SFQI  186 (349)
+T ss_dssp             CEEE
+T ss_pred             eeEE
+
+
+No 9
+>6W3J_A Terminal nucleotidyltransferase 5C (E.C.2.7.7.19), Serine/threonine-protein; RNA polymerase, TRANSFERASE; 4.385A {Homo sapiens}
+Probab=13.33  E-value=1.9e+02  Score=14.68  Aligned_cols=4  Identities=100%  Similarity=1.323  Sum_probs=0.0  Template_Neff=4.300
+
+Q SFQIYA            1 SFQI    4 (6)
+Q Consensus         1 sfqi    4 (6)
+                      ||||
+T Consensus       172 SfQI  175 (347)
+T 6W3J_A          172 SFQI  175 (347)
+T ss_dssp             CEEE
+T ss_pred             eeEE
+
+
+No 10
+>3OTP_K Protease do (E.C.3.4.21.-)/Lysozyme C (E.C.3.2.1.17); typsin-like protease domain PDZ domains; 3.76A {Escherichia coli}
+Probab=11.99  E-value=2.2e+02  Score=9.59  Aligned_cols=3  Identities=67%  Similarity=0.966  Sum_probs=0.0  Template_Neff=6.800
+
+Q SFQIYA            2 FQI    4 (6)
+Q Consensus         2 fqi    4 (6)
+                      |||
+T Consensus        42 fQI   44 (44)
+T 3OTP_K           42 LQI   44 (44)
+T ss_pred             ccC
+
+

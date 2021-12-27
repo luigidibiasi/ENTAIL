@@ -1,0 +1,154 @@
+Query         GAITIG
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 22:45:49 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GAITIG/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GAITIG/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3DCL_A TM1086; TM1086, SAD, St  29.7      51 0.00056   16.4   0.0    6    1-6     236-241 (284)
+  2 3N99_C uncharacterized protein  29.1      53 0.00059   16.4   0.0    6    1-6     242-247 (290)
+  3 3DCL_E TM1086; TM1086, SAD, St  28.6      55 0.00061   16.3   0.0    6    1-6     236-241 (284)
+  4 6ATY_A Venom protein 51.1; Kno  20.1   1E+02  0.0011   12.1   0.0    6    1-6       1-6   (39)
+  5 4EVX_B Putative phage endolysi  14.1 1.8E+02  0.0019   10.4   0.0    6    1-6      31-36  (106)
+  6 1JHS_A NUCLEAR-PROTEIN IMPORT,  14.1 1.8E+02   0.002   12.7   0.0    5    1-5      11-15  (188)
+  7 4PK0_A TEICOPLANIN-A2-2, LYSOZ  13.9 1.8E+02   0.002   11.3   0.0    6    1-6      23-28  (171)
+  8 4WJ3_A Glutamyl-tRNA(Gln) amid  13.8 1.8E+02   0.002   12.6   0.0    6    1-6     113-118 (484)
+  9 3HDF_B Lysozyme (E.C.3.2.1.17)  13.8 1.8E+02   0.002   10.7   0.0    6    1-6      22-27  (140)
+ 10 6C62_A Biuret hydrolase (E.C.3  13.7 1.8E+02   0.002   12.5   0.0    6    1-6     111-116 (457)
+
+No 1
+>3DCL_A TM1086; TM1086, SAD, Structural Genomics, PSI-2; HET: CL, SO4; 2.25A {Thermotoga maritima}
+Probab=29.68  E-value=51  Score=16.40  Aligned_cols=6  Identities=67%  Similarity=1.342  Sum_probs=3.8  Template_Neff=3.600
+
+Q GAITIG            1 GAITIG    6 (6)
+Q Consensus         1 gaitig    6 (6)
+                      ||+|||
+T Consensus       236 GavtIG  241 (284)
+T 3DCL_A          236 GAVSIG  241 (284)
+T ss_dssp             EEEEEE
+T ss_pred             CcEEEE
+Confidence            566665
+
+
+No 2
+>3N99_C uncharacterized protein TM1086; unknown function, structural genomics, PSI-2; HET: CL; 2.38A {Thermotoga maritima}
+Probab=29.07  E-value=53  Score=16.42  Aligned_cols=6  Identities=67%  Similarity=1.342  Sum_probs=3.8  Template_Neff=3.500
+
+Q GAITIG            1 GAITIG    6 (6)
+Q Consensus         1 gaitig    6 (6)
+                      ||+|||
+T Consensus       242 GavtIG  247 (290)
+T 3N99_C          242 GAVSIG  247 (290)
+T ss_dssp             EEEEEE
+T ss_pred             CcEEEE
+Confidence            566665
+
+
+No 3
+>3DCL_E TM1086; TM1086, SAD, Structural Genomics, PSI-2; HET: CL, SO4, MSE; 2.25A {Thermotoga maritima}
+Probab=28.59  E-value=55  Score=16.30  Aligned_cols=6  Identities=67%  Similarity=1.342  Sum_probs=3.8  Template_Neff=3.600
+
+Q GAITIG            1 GAITIG    6 (6)
+Q Consensus         1 gaitig    6 (6)
+                      ||+|||
+T Consensus       236 GavtIG  241 (284)
+T 3DCL_E          236 GAVSIG  241 (284)
+T ss_dssp             EEEEEE
+T ss_pred             CcEEEE
+Confidence            566665
+
+
+No 4
+>6ATY_A Venom protein 51.1; Knottins, Cystine knot, Toxins, TOXIN; 1.8A {Lychas mucronatus}
+Probab=20.07  E-value=1e+02  Score=12.09  Aligned_cols=6  Identities=67%  Similarity=1.320  Sum_probs=2.6  Template_Neff=1.000
+
+Q GAITIG            1 GAITIG    6 (6)
+Q Consensus         1 gaitig    6 (6)
+                      |.|.||
+T Consensus         1 gsisig    6 (39)
+T 6ATY_A            1 GSISIG    6 (39)
+T ss_dssp             -CEEEE
+T ss_pred             CceEee
+Confidence            445554
+
+
+No 5
+>4EVX_B Putative phage endolysin; Structural Genomics, PSI-Biology, Program for; HET: MLY, CSO, MSE; 1.7A {Salmonella enterica subsp. enterica serovar Typhimurium}
+Probab=14.10  E-value=1.8e+02  Score=10.43  Aligned_cols=6  Identities=50%  Similarity=0.839  Sum_probs=0.0  Template_Neff=9.000
+
+Q GAITIG            1 GAITIG    6 (6)
+Q Consensus         1 gaitig    6 (6)
+                      |..|||
+T Consensus        31 g~~TIG   36 (106)
+T 4EVX_B           31 GNWVIG   36 (106)
+T ss_dssp             SCEEEE
+T ss_pred             CCEEEE
+
+
+No 6
+>1JHS_A NUCLEAR-PROTEIN IMPORT, GSP1, GENE REGULATION; 1.9A {Saccharomyces cerevisiae} SCOP: d.107.1.1
+Probab=14.05  E-value=1.8e+02  Score=12.69  Aligned_cols=5  Identities=80%  Similarity=0.993  Sum_probs=0.0  Template_Neff=6.500
+
+Q GAITIG            1 GAITI    5 (6)
+Q Consensus         1 gaiti    5 (6)
+                      |||++
+T Consensus        11 GAit~   15 (188)
+T 1JHS_A           11 GAITT   15 (188)
+T ss_dssp             GTEEE
+T ss_pred             ceEEE
+
+
+No 7
+>4PK0_A TEICOPLANIN-A2-2, LYSOZYME (E.C.3.2.1.17); site-selective catalyst, carrier protein approach; HET: GHP, 3FG, 3MY, GCS, DAL, T55, NAG, OMY, MAN, MHS; 2.3A {Actinoplanes teichomyceticus}
+Probab=13.86  E-value=1.8e+02  Score=11.28  Aligned_cols=6  Identities=67%  Similarity=0.933  Sum_probs=0.0  Template_Neff=9.000
+
+Q GAITIG            1 GAITIG    6 (6)
+Q Consensus         1 gaitig    6 (6)
+                      |..|||
+T Consensus        23 g~~TIG   28 (171)
+T 4PK0_A           23 GYYTIG   28 (171)
+T ss_dssp             SCEEEE
+T ss_pred             CCeEEe
+
+
+No 8
+>4WJ3_A Glutamyl-tRNA(Gln) amidotransferase subunit A,Aspartyl/glutamyl-tRNA(Asn/Gln) amidotransferase; transamidosome, aminoacyl-tRNA synthetase, GatCAB, tRNA; 3.705A {Pseudomonas aeruginosa PAO1}
+Probab=13.82  E-value=1.8e+02  Score=12.60  Aligned_cols=6  Identities=67%  Similarity=1.331  Sum_probs=0.0  Template_Neff=10.100
+
+Q GAITIG            1 GAITIG    6 (6)
+Q Consensus         1 gaitig    6 (6)
+                      |||.+|
+T Consensus       113 Gai~~g  118 (484)
+T 4WJ3_A          113 GAVTLG  118 (484)
+T ss_dssp             TEEEEE
+T ss_pred             CcEEEE
+
+
+No 9
+>3HDF_B Lysozyme (E.C.3.2.1.17); lysozyme-like, Antimicrobial, Bacteriolytic enzyme, Glycosidase; HET: GOL, NO3; 1.7A {Enterobacteria phage P21}
+Probab=13.75  E-value=1.8e+02  Score=10.75  Aligned_cols=6  Identities=33%  Similarity=0.473  Sum_probs=0.0  Template_Neff=9.300
+
+Q GAITIG            1 GAITIG    6 (6)
+Q Consensus         1 gaitig    6 (6)
+                      |..|||
+T Consensus        22 g~~TIG   27 (140)
+T 3HDF_B           22 GVWTVC   27 (140)
+T ss_dssp             SCEEEE
+T ss_pred             CCeEEE
+
+
+No 10
+>6C62_A Biuret hydrolase (E.C.3.5.1.84), AtzG; AtzE  biuret hydrolase ; HET: CSO; 1.95A {Pseudomonas sp. (strain ADP)}
+Probab=13.70  E-value=1.8e+02  Score=12.53  Aligned_cols=6  Identities=50%  Similarity=1.121  Sum_probs=0.0  Template_Neff=10.000
+
+Q GAITIG            1 GAITIG    6 (6)
+Q Consensus         1 gaitig    6 (6)
+                      |||.+|
+T Consensus       111 Gai~~g  116 (457)
+T 6C62_A          111 GAVLLG  116 (457)
+T ss_dssp             TCEEEE
+T ss_pred             CCEEEE
+
+

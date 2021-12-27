@@ -1,0 +1,151 @@
+Query         SQGMSL
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 16:05:55 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/SQGMSL/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/SQGMSL/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3OSX_A 60 kDa chaperonin; alph  27.6      59 0.00065   14.2   0.0    6    1-6      12-17  (201)
+  2 6L0O_A DNA helicase MCM8 (E.C.  19.7   1E+02  0.0012   11.1   0.0    6    1-6       2-7   (81)
+  3 1FL0_A EMAPII; RNA-binding dom  19.3 1.1E+02  0.0012   13.1   0.0    6    1-6      74-79  (171)
+  4 7OTJ_A ATP-dependent DNA helic  19.1 1.1E+02  0.0012   13.4   0.0    6    1-6     455-460 (518)
+  5 7OTJ_B ATP-dependent DNA helic  19.1 1.1E+02  0.0012   13.4   0.0    6    1-6     455-460 (518)
+  6 5ZKG_A Methionine-tRNA ligase,  19.0 1.1E+02  0.0012   13.6   0.0    6    1-6     114-119 (204)
+  7 6IPA_C Aminoacyl-tRNA syntheta  19.0 1.1E+02  0.0012   13.6   0.0    6    1-6     114-119 (204)
+  8 3C0U_B Uncharacterized protein  17.7 1.2E+02  0.0014   13.4   0.0    5    2-6       1-5   (183)
+  9 5H34_B Methionine-tRNA ligase   17.6 1.3E+02  0.0014   12.5   0.0    6    1-6     106-111 (135)
+ 10 5H34_A Methionine-tRNA ligase   16.8 1.3E+02  0.0015   12.3   0.0    6    1-6     106-111 (135)
+
+No 1
+>3OSX_A 60 kDa chaperonin; alpha, beta, Apical Domain, CHAPERONE; 1.55A {Xenorhabdus nematophila}
+Probab=27.56  E-value=59  Score=14.15  Aligned_cols=6  Identities=50%  Similarity=0.944  Sum_probs=3.5  Template_Neff=6.600
+
+Q SQGMSL            1 SQGMSL    6 (6)
+Q Consensus         1 sqgmsl    6 (6)
+                      |+||.+
+T Consensus        12 ~~G~~~   17 (201)
+T 3OSX_A           12 SEGMQF   17 (201)
+T ss_dssp             CCCEEE
+T ss_pred             CCCcEe
+Confidence            567753
+
+
+No 2
+>6L0O_A DNA helicase MCM8 (E.C.3.6.4.12); WHD, Winged helix, DNA binding; HET: SO4; 1.21A {Homo sapiens}
+Probab=19.72  E-value=1e+02  Score=11.10  Aligned_cols=6  Identities=33%  Similarity=0.362  Sum_probs=0.0  Template_Neff=7.800
+
+Q SQGMSL            1 SQGMSL    6 (6)
+Q Consensus         1 sqgmsl    6 (6)
+                      |.|||.
+T Consensus         2 ~~g~s~    7 (81)
+T 6L0O_A            2 ARSMSN    7 (81)
+T ss_dssp             ------
+T ss_pred             CCcccc
+
+
+No 3
+>1FL0_A EMAPII; RNA-binding domain, OB-fold, tRNA synthetase; 1.5A {Homo sapiens} SCOP: b.40.4.4
+Probab=19.35  E-value=1.1e+02  Score=13.12  Aligned_cols=6  Identities=50%  Similarity=0.639  Sum_probs=0.0  Template_Neff=6.500
+
+Q SQGMSL            1 SQGMSL    6 (6)
+Q Consensus         1 sqgmsl    6 (6)
+                      |+||-+
+T Consensus        74 SeGMll   79 (171)
+T 1FL0_A           74 SQAMVM   79 (171)
+T ss_dssp             ECCEEC
+T ss_pred             eceEEE
+
+
+No 4
+>7OTJ_A ATP-dependent DNA helicase PIF1/DNA Complex; Helicase Pif1, HYDROLASE; HET: ALF, K, PO4, ADP; 2.58A {Candida albicans}
+Probab=19.09  E-value=1.1e+02  Score=13.38  Aligned_cols=6  Identities=67%  Similarity=0.888  Sum_probs=0.0  Template_Neff=10.000
+
+Q SQGMSL            1 SQGMSL    6 (6)
+Q Consensus         1 sqgmsl    6 (6)
+                      |||+++
+T Consensus       455 sQG~t~  460 (518)
+T 7OTJ_A          455 SQGQTL  460 (518)
+T ss_dssp             HTTCCB
+T ss_pred             hcCCcc
+
+
+No 5
+>7OTJ_B ATP-dependent DNA helicase PIF1/DNA Complex; Helicase Pif1, HYDROLASE; HET: PO4, K, ADP, ALF; 2.58A {Candida albicans}
+Probab=19.09  E-value=1.1e+02  Score=13.38  Aligned_cols=6  Identities=67%  Similarity=0.888  Sum_probs=0.0  Template_Neff=10.000
+
+Q SQGMSL            1 SQGMSL    6 (6)
+Q Consensus         1 sqgmsl    6 (6)
+                      |||+++
+T Consensus       455 sQG~t~  460 (518)
+T 7OTJ_B          455 SQGQTL  460 (518)
+T ss_dssp             HTTCCB
+T ss_pred             hcCCcc
+
+
+No 6
+>5ZKG_A Methionine-tRNA ligase, putative; EMAPII-like domain, AIMP1, Plasmodium, LIGASE; 3.3A {Plasmodium vivax}
+Probab=19.01  E-value=1.1e+02  Score=13.57  Aligned_cols=6  Identities=67%  Similarity=0.960  Sum_probs=0.0  Template_Neff=6.200
+
+Q SQGMSL            1 SQGMSL    6 (6)
+Q Consensus         1 sqgmsl    6 (6)
+                      |+||-|
+T Consensus       114 SeGMlL  119 (204)
+T 5ZKG_A          114 SHGMVL  119 (204)
+T ss_dssp             BCSEEC
+T ss_pred             eccEEE
+
+
+No 7
+>6IPA_C Aminoacyl-tRNA synthetase-interacting multifunctional protein P43; AIMP1, EMAPII-LIKE DOMAIN, PLASMODIUM, RNA; 2.47A {Plasmodium vivax}
+Probab=19.01  E-value=1.1e+02  Score=13.57  Aligned_cols=6  Identities=67%  Similarity=0.960  Sum_probs=0.0  Template_Neff=6.200
+
+Q SQGMSL            1 SQGMSL    6 (6)
+Q Consensus         1 sqgmsl    6 (6)
+                      |+||-|
+T Consensus       114 SeGMlL  119 (204)
+T 6IPA_C          114 SHGMVL  119 (204)
+T ss_dssp             ECSEEC
+T ss_pred             eccEEE
+
+
+No 8
+>3C0U_B Uncharacterized protein yaeQ; Escherichia coli, yaeQ, PSI-2, Protein; HET: SO4; 2.7A {Escherichia coli}
+Probab=17.66  E-value=1.2e+02  Score=13.44  Aligned_cols=5  Identities=60%  Similarity=0.873  Sum_probs=0.0  Template_Neff=5.700
+
+Q SQGMSL            2 QGMSL    6 (6)
+Q Consensus         2 qgmsl    6 (6)
+                      |||.|
+T Consensus         1 ~~MAl    5 (183)
+T 3C0U_B            1 QGHAL    5 (183)
+T ss_dssp             -CCCC
+T ss_pred             CCCcc
+
+
+No 9
+>5H34_B Methionine-tRNA ligase (E.C.6.1.1.10); tRNA, methionyl-tRNA synthetase, Nanoarchaeum equitans; 1.748A {Nanoarchaeum equitans}
+Probab=17.57  E-value=1.3e+02  Score=12.49  Aligned_cols=6  Identities=67%  Similarity=0.927  Sum_probs=0.0  Template_Neff=6.500
+
+Q SQGMSL            1 SQGMSL    6 (6)
+Q Consensus         1 sqgmsl    6 (6)
+                      |+||-+
+T Consensus       106 SeGMll  111 (135)
+T 5H34_B          106 SEGMLL  111 (135)
+T ss_dssp             ECCEEC
+T ss_pred             eeeEEE
+
+
+No 10
+>5H34_A Methionine-tRNA ligase (E.C.6.1.1.10); tRNA, methionyl-tRNA synthetase, Nanoarchaeum equitans; 1.748A {Nanoarchaeum equitans}
+Probab=16.81  E-value=1.3e+02  Score=12.26  Aligned_cols=6  Identities=67%  Similarity=0.927  Sum_probs=0.0  Template_Neff=6.800
+
+Q SQGMSL            1 SQGMSL    6 (6)
+Q Consensus         1 sqgmsl    6 (6)
+                      |+||-+
+T Consensus       106 S~GMll  111 (135)
+T 5H34_A          106 SEGMLL  111 (135)
+T ss_dssp             ECCEEC
+T ss_pred             eceEEE
+
+

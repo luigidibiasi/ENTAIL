@@ -1,0 +1,151 @@
+Query         SQVIIE
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 16:18:27 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/SQVIIE/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/SQVIIE/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4V23_A MATRIX PROTEIN; VIRAL P  13.6 1.8E+02   0.002   14.8   0.0    6    1-6     220-225 (256)
+  2 4LP7_A Matrix protein M; twist  13.5 1.9E+02  0.0021   14.8   0.0    6    1-6     220-225 (254)
+  3 4LP7_D Matrix protein M; twist  13.5 1.9E+02  0.0021   14.8   0.0    6    1-6     220-225 (254)
+  4 4D4T_A MATRIX PROTEIN; VIRAL P  13.5 1.9E+02  0.0021   14.8   0.0    6    1-6     222-227 (258)
+  5 2VQP_A MATRIX PROTEIN; VIRAL P  13.5 1.9E+02  0.0021   14.8   0.0    6    1-6     221-226 (257)
+  6 6KMW_aM PROTEIN; Photosystem I  11.2 2.5E+02  0.0027   10.1   0.0    5    1-5       6-10  (31)
+  7 3IGM_B PF14_0633 protein/DNA c  10.4 2.7E+02   0.003   10.8   0.0    5    1-5      71-75  (77)
+  8 1JB0_M PHOTOSYSTEM I SUBUNIT P  10.2 2.8E+02  0.0031   10.0   0.0    5    1-5       6-10  (31)
+  9 6ZZY_M photosystem I, light st   9.8 2.9E+02  0.0032   10.0   0.0    5    1-5       6-10  (31)
+ 10 6K61_m Photosystem I P700 chlo   9.6   3E+02  0.0034   10.0   0.0    5    1-5       7-11  (32)
+
+No 1
+>4V23_A MATRIX PROTEIN; VIRAL PROTEIN, VIRAL BUDDING RESPIRATORY; 1.7A {RESPIRATORY SYNCYTIAL VIRUS}
+Probab=13.63  E-value=1.8e+02  Score=14.81  Aligned_cols=6  Identities=50%  Similarity=0.822  Sum_probs=3.3  Template_Neff=2.100
+
+Q SQVIIE            1 SQVIIE    6 (6)
+Q Consensus         1 sqviie    6 (6)
+                      ||+|.|
+T Consensus       220 sQvive  225 (256)
+T 4V23_A          220 SQFIVD  225 (256)
+T ss_dssp             CEEEEE
+T ss_pred             CeEEEe
+Confidence            466654
+
+
+No 2
+>4LP7_A Matrix protein M; twisted beta sandwich, viral matrix; 2.83A {Human metapneumovirus}
+Probab=13.51  E-value=1.9e+02  Score=14.77  Aligned_cols=6  Identities=67%  Similarity=1.016  Sum_probs=3.4  Template_Neff=2.100
+
+Q SQVIIE            1 SQVIIE    6 (6)
+Q Consensus         1 sqviie    6 (6)
+                      ||+|.|
+T Consensus       220 sQvive  225 (254)
+T 4LP7_A          220 TQVIVE  225 (254)
+T ss_dssp             EEEEEE
+T ss_pred             CEEEEE
+Confidence            466654
+
+
+No 3
+>4LP7_D Matrix protein M; twisted beta sandwich, viral matrix; 2.83A {Human metapneumovirus}
+Probab=13.51  E-value=1.9e+02  Score=14.77  Aligned_cols=6  Identities=67%  Similarity=1.016  Sum_probs=3.4  Template_Neff=2.100
+
+Q SQVIIE            1 SQVIIE    6 (6)
+Q Consensus         1 sqviie    6 (6)
+                      ||+|.|
+T Consensus       220 sQvive  225 (254)
+T 4LP7_D          220 TQVIVE  225 (254)
+T ss_dssp             EEEEEE
+T ss_pred             CEEEEE
+Confidence            466654
+
+
+No 4
+>4D4T_A MATRIX PROTEIN; VIRAL PROTEIN; 1.9A {RESPIRATORY SYNCYTIAL VIRUS}
+Probab=13.50  E-value=1.9e+02  Score=14.80  Aligned_cols=6  Identities=50%  Similarity=0.822  Sum_probs=3.3  Template_Neff=2.100
+
+Q SQVIIE            1 SQVIIE    6 (6)
+Q Consensus         1 sqviie    6 (6)
+                      ||+|.|
+T Consensus       222 sQvive  227 (258)
+T 4D4T_A          222 SQFIVD  227 (258)
+T ss_dssp             EEEEEE
+T ss_pred             CeEEEe
+Confidence            466654
+
+
+No 5
+>2VQP_A MATRIX PROTEIN; VIRAL PROTEIN, VIRAL MATRIX PROTEIN; HET: ACT, FMT, GOL; 1.6A {HUMAN RESPIRATORY SYNCYTIAL VIRUS}
+Probab=13.47  E-value=1.9e+02  Score=14.79  Aligned_cols=6  Identities=50%  Similarity=0.822  Sum_probs=3.3  Template_Neff=2.100
+
+Q SQVIIE            1 SQVIIE    6 (6)
+Q Consensus         1 sqviie    6 (6)
+                      ||+|.|
+T Consensus       221 sQvive  226 (257)
+T 2VQP_A          221 SQFIVD  226 (257)
+T ss_dssp             CEEEEE
+T ss_pred             CeEEEe
+Confidence            466654
+
+
+No 6
+>6KMW_aM PROTEIN; Photosystem I, ELECTRON TRANSPORT; HET: SF4, LMT, UNL, LMG, PQN, LHG, BCR, CL0, CLA; 2.35A {Halomicronema hongdechloris C2206}
+Probab=11.16  E-value=2.5e+02  Score=10.14  Aligned_cols=5  Identities=40%  Similarity=0.780  Sum_probs=0.0  Template_Neff=3.500
+
+Q SQVIIE            1 SQVII    5 (6)
+Q Consensus         1 sqvii    5 (6)
+                      +|++|
+T Consensus         6 ~Qi~i   10 (31)
+T 6KMW_aM           6 TQVFV   10 (31)
+T ss_pred             HHHHH
+
+
+No 7
+>3IGM_B PF14_0633 protein/DNA complex; AP2 domain, Plasmodium falciparum, specific; 2.2A {Plasmodium falciparum}
+Probab=10.43  E-value=2.7e+02  Score=10.76  Aligned_cols=5  Identities=60%  Similarity=0.806  Sum_probs=0.0  Template_Neff=6.000
+
+Q SQVIIE            1 SQVII    5 (6)
+Q Consensus         1 sqvii    5 (6)
+                      ||+|+
+T Consensus        71 ~~~~~   75 (77)
+T 3IGM_B           71 SQFIV   75 (77)
+T ss_dssp             EEHHH
+T ss_pred             Cccee
+
+
+No 8
+>1JB0_M PHOTOSYSTEM I SUBUNIT PSAA, PHOTOSYSTEM; MEMBRANE PROTEIN, MULTIPROTEIN-PIGMENT COMPLEX, PHOTOSYNTHESIS; HET: LMG, PQN, SF4, CLA, BCR, LHG; 2.5A {Synechococcus elongatus} SCOP: f.23.19.1
+Probab=10.20  E-value=2.8e+02  Score=10.03  Aligned_cols=5  Identities=40%  Similarity=0.667  Sum_probs=0.0  Template_Neff=3.400
+
+Q SQVIIE            1 SQVII    5 (6)
+Q Consensus         1 sqvii    5 (6)
+                      +|++|
+T Consensus         6 ~Qi~i   10 (31)
+T 1JB0_M            6 TQVYV   10 (31)
+T ss_pred             HHHHH
+
+
+No 9
+>6ZZY_M photosystem I, light stress, PHOTOSYNTHESIS; HET: SPH, DGA, PQN, CLA, 3PH, LPX, ECH, P5S, XAT, 4RF, A8S, CL0, LMT, OLA, PCW, ERG, SQD, CHL, LUT, BCR, C7Z, DGD, PTY, RRX, LAP, QTB, SF4, LHG, PLM;{Chlorella ohadii}
+Probab=9.84  E-value=2.9e+02  Score=9.98  Aligned_cols=5  Identities=40%  Similarity=0.308  Sum_probs=0.0  Template_Neff=3.400
+
+Q SQVIIE            1 SQVII    5 (6)
+Q Consensus         1 sqvii    5 (6)
+                      +|++|
+T Consensus         6 ~Qi~i   10 (31)
+T 6ZZY_M            6 YQVFT   10 (31)
+T ss_pred             HHHHH
+
+
+No 10
+>6K61_m Photosystem I P700 chlorophyll a; Photosystem I, PSI, PCC7120, PHOTOSYNTHESIS; HET: BCR, SF4, PQN, SQD, LMG, CL0, LHG, CLA; 2.37A {Nostoc sp. PCC 7120}
+Probab=9.57  E-value=3e+02  Score=9.99  Aligned_cols=5  Identities=60%  Similarity=0.727  Sum_probs=0.0  Template_Neff=3.400
+
+Q SQVIIE            1 SQVII    5 (6)
+Q Consensus         1 sqvii    5 (6)
+                      +|++|
+T Consensus         7 ~Qi~i   11 (32)
+T 6K61_m            7 TQVYI   11 (32)
+T ss_pred             HHHHH
+
+

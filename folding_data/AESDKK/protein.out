@@ -1,0 +1,149 @@
+Query         AESDKK
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 13:42:59 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/AESDKK/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/AESDKK/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 7B0N_Z NADH-ubiquinone oxidore   2.8 1.4E+03   0.016    9.5   0.0    6    1-6      74-79  (122)
+  2 4YTD_A Protein bicaudal D homo   2.8 1.4E+03   0.016   10.2   0.0    6    1-6      62-67  (101)
+  3 3NPE_A 9-cis-epoxycarotenoid d   2.8 1.4E+03   0.016   10.9   0.0    6    1-6       2-7   (529)
+  4 4YTD_B Protein bicaudal D homo   2.7 1.5E+03   0.017   10.1   0.0    6    1-6      62-67  (101)
+  5 6MIF_A LIM and senescent cell    2.7 1.5E+03   0.017    6.3   0.0    5    2-6      75-79  (79)
+  6 5XTC_W NADH dehydrogenase [ubi   2.7 1.5E+03   0.017    9.5   0.0    5    1-5      49-53  (116)
+  7 7D2S_B Ras suppressor protein    2.6 1.6E+03   0.017    6.4   0.0    6    1-6      76-81  (81)
+  8 3E97_A Transcriptional regulat   2.6 1.6E+03   0.017    8.2   0.0    4    1-4     228-231 (231)
+  9 1LDF_A Glycerol uptake facilit   2.6 1.6E+03   0.018    9.5   0.0    6    1-6     273-278 (281)
+ 10 4BT2_A ALPHA-ACETOLACTATE DECA   2.5 1.6E+03   0.018   10.4   0.0    6    1-6     252-257 (257)
+
+No 1
+>7B0N_Z NADH-ubiquinone oxidoreductase chain 3 (E.C.7.1.1.2); NADH:Ubiquinone Oxidoreductase, complex I, MEMBRANE; HET: 3PE, FMN, NDP, EHZ, LMT, FME, CDL, PLC, SF4; 3.7A {Yarrowia lipolytica}
+Probab=2.84  E-value=1.4e+03  Score=9.54  Aligned_cols=6  Identities=50%  Similarity=0.839  Sum_probs=0.0  Template_Neff=6.000
+
+Q AESDKK            1 AESDKK    6 (6)
+Q Consensus         1 aesdkk    6 (6)
+                      ||.|..
+T Consensus        74 AE~DR~   79 (122)
+T 7B0N_Z           74 AEEDRQ   79 (122)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 2
+>4YTD_A Protein bicaudal D homolog 1; Retrograde transport, Cytoplasmic dynein, Bicaudal; HET: PO4, MSE; 1.5A {Mus musculus}
+Probab=2.83  E-value=1.4e+03  Score=10.18  Aligned_cols=6  Identities=67%  Similarity=0.866  Sum_probs=0.0  Template_Neff=3.200
+
+Q AESDKK            1 AESDKK    6 (6)
+Q Consensus         1 aesdkk    6 (6)
+                      ||..||
+T Consensus        62 AEeEKK   67 (101)
+T 4YTD_A           62 AEDEKK   67 (101)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 3
+>3NPE_A 9-cis-epoxycarotenoid dioxygenase 1, chloroplastic (E.C.1.13.11.51); dioxygenase, seven blade beta propeller; HET: DIO; 3.2A {Zea mays}
+Probab=2.82  E-value=1.4e+03  Score=10.93  Aligned_cols=6  Identities=67%  Similarity=0.717  Sum_probs=0.0  Template_Neff=8.400
+
+Q AESDKK            1 AESDKK    6 (6)
+Q Consensus         1 aesdkk    6 (6)
+                      ||++.|
+T Consensus         2 ~~~~~~    7 (529)
+T 3NPE_A            2 AEGGKK    7 (529)
+T ss_dssp             ------
+T ss_pred             CcCchh
+
+
+No 4
+>4YTD_B Protein bicaudal D homolog 1; Retrograde transport, Cytoplasmic dynein, Bicaudal; HET: PO4, MSE; 1.5A {Mus musculus}
+Probab=2.71  E-value=1.5e+03  Score=10.14  Aligned_cols=6  Identities=67%  Similarity=0.866  Sum_probs=0.0  Template_Neff=3.100
+
+Q AESDKK            1 AESDKK    6 (6)
+Q Consensus         1 aesdkk    6 (6)
+                      ||..||
+T Consensus        62 AEeEKK   67 (101)
+T 4YTD_B           62 AEDEKK   67 (101)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 5
+>6MIF_A LIM and senescent cell antigen-like-containing; Lim domain, Zn binding, SIGNALING; HET: ZN; NMR {Homo sapiens}
+Probab=2.70  E-value=1.5e+03  Score=6.34  Aligned_cols=5  Identities=20%  Similarity=0.255  Sum_probs=0.0  Template_Neff=11.800
+
+Q AESDKK            2 ESDKK    6 (6)
+Q Consensus         2 esdkk    6 (6)
+                      +++.|
+T Consensus        75 ~~~~~   79 (79)
+T 6MIF_A           75 TLGRK   79 (79)
+T ss_dssp             HHTCC
+T ss_pred             HhcCC
+
+
+No 6
+>5XTC_W NADH dehydrogenase [ubiquinone] iron-sulfur protein; Homo sapiens, Oxidoreductase, Respiratory, Complex; HET: PEE, CDL, 8Q1, PLX; 3.7A {Homo sapiens}
+Probab=2.67  E-value=1.5e+03  Score=9.48  Aligned_cols=5  Identities=60%  Similarity=0.993  Sum_probs=0.0  Template_Neff=5.700
+
+Q AESDKK            1 AESDK    5 (6)
+Q Consensus         1 aesdk    5 (6)
+                      ||.|.
+T Consensus        49 AE~DR   53 (116)
+T 5XTC_W           49 AETDR   53 (116)
+T ss_pred             HHHhH
+
+
+No 7
+>7D2S_B Ras suppressor protein 1, LIM; Leucine Rich Repeat, PROTEIN BINDING; HET: GOL; 1.653A {Homo sapiens}
+Probab=2.64  E-value=1.6e+03  Score=6.35  Aligned_cols=6  Identities=17%  Similarity=0.213  Sum_probs=0.0  Template_Neff=11.800
+
+Q AESDKK            1 AESDKK    6 (6)
+Q Consensus         1 aesdkk    6 (6)
+                      .++++|
+T Consensus        76 ~~~~~~   81 (81)
+T 7D2S_B           76 ETLGRK   81 (81)
+T ss_dssp             ------
+T ss_pred             HHhcCC
+
+
+No 8
+>3E97_A Transcriptional regulator, Crp/Fnr family; YP_604437.1, transcriptional regulator, Crp/Fnr family; 1.86A {Deinococcus geothermalis DSM 11300}
+Probab=2.63  E-value=1.6e+03  Score=8.20  Aligned_cols=4  Identities=75%  Similarity=1.016  Sum_probs=0.0  Template_Neff=11.400
+
+Q AESDKK            1 AESD    4 (6)
+Q Consensus         1 aesd    4 (6)
+                      +|||
+T Consensus       228 ~~~~  231 (231)
+T 3E97_A          228 AETD  231 (231)
+T ss_dssp             ----
+T ss_pred             ccCC
+
+
+No 9
+>1LDF_A Glycerol uptake facilitator protein; GLYCEROL-CONDUCTING MEMBRANE CHANNEL PROTEIN, TRANSPORT; HET: BOG, GOL; 2.1A {Escherichia coli} SCOP: f.19.1.1
+Probab=2.60  E-value=1.6e+03  Score=9.52  Aligned_cols=6  Identities=33%  Similarity=0.540  Sum_probs=0.0  Template_Neff=9.000
+
+Q AESDKK            1 AESDKK    6 (6)
+Q Consensus         1 aesdkk    6 (6)
+                      ++|+||
+T Consensus       273 ~~~~~~  278 (281)
+T 1LDF_A          273 TPSEQK  278 (281)
+T ss_dssp             ------
+T ss_pred             ChhHHh
+
+
+No 10
+>4BT2_A ALPHA-ACETOLACTATE DECARBOXYLASE (E.C.4.1.1.5); LYASE, ACETOIN BIOSYNTHESIS, STEREOSELECTIVE DECARBOXYLATION; 1.1A {BREVIBACILLUS BREVIS}
+Probab=2.53  E-value=1.6e+03  Score=10.44  Aligned_cols=6  Identities=67%  Similarity=0.933  Sum_probs=0.0  Template_Neff=6.300
+
+Q AESDKK            1 AESDKK    6 (6)
+Q Consensus         1 aesdkk    6 (6)
+                      +|+++|
+T Consensus       252 ~e~~~~  257 (257)
+T 4BT2_A          252 AESERK  257 (257)
+T ss_dssp             HHCCC-
+T ss_pred             HhhccC
+
+

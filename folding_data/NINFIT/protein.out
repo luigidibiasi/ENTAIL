@@ -1,0 +1,147 @@
+Query         NINFIT
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 01:04:36 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NINFIT/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NINFIT/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4NJC_C Geobacillus stearotherm  17.9 1.2E+02  0.0014   12.5   0.0    6    1-6      50-55  (65)
+  2 5LO3_A PPaOMe; Designed minipr  17.6 1.3E+02  0.0014   11.3   0.0    5    2-6      29-33  (36)
+  3 4NJC_A Geobacillus stearotherm  16.7 1.4E+02  0.0015   12.4   0.0    5    1-5      50-54  (65)
+  4 6NU2_AU 39S ribosomal protein   14.7 1.6E+02  0.0018   12.9   0.0    4    3-6     140-143 (173)
+  5 6ZCA_E Probable DNA-directed R  14.3 1.7E+02  0.0019   12.1   0.0    6    1-6      43-48  (69)
+  6 6ZFB_E DNA-directed RNA polyme  14.3 1.7E+02  0.0019   12.1   0.0    6    1-6      43-48  (69)
+  7 4MLK_A CT584 protein; CT584, C  14.2 1.7E+02  0.0019   14.3   0.0    5    2-6     101-105 (194)
+  8 3Q9D_A Protein CPn_0803/CP_106  13.9 1.8E+02   0.002   14.5   0.0    5    2-6     137-141 (220)
+  9 2J9V_A VACUOLAR PROTEIN SORTIN  13.0   2E+02  0.0022   11.9   0.0    4    3-6      16-19  (99)
+ 10 4U5A_B Sporozoite Protein Esse  12.9   2E+02  0.0022   14.3   0.0    5    2-6     171-175 (201)
+
+No 1
+>4NJC_C Geobacillus stearothermophilus YkzG; DNA Dependant RNA Polymerase, TRANSCRIPTION; HET: MSE; 2.3A {Geobacillus stearothermophilus}
+Probab=17.88  E-value=1.2e+02  Score=12.51  Aligned_cols=6  Identities=50%  Similarity=0.988  Sum_probs=0.0  Template_Neff=3.100
+
+Q NINFIT            1 NINFIT    6 (6)
+Q Consensus         1 ninfit    6 (6)
+                      ||.||.
+T Consensus        50 NIEfIq   55 (65)
+T 4NJC_C           50 NIEYIQ   55 (65)
+T ss_dssp             EEEEEE
+T ss_pred             ceeeee
+
+
+No 2
+>5LO3_A PPaOMe; Designed miniprotein CH-pi interactions weak; HET: 0A1, NH2, ACE; NMR {N/A}
+Probab=17.60  E-value=1.3e+02  Score=11.35  Aligned_cols=5  Identities=0%  Similarity=-0.144  Sum_probs=0.0  Template_Neff=3.000
+
+Q NINFIT            2 INFIT    6 (6)
+Q Consensus         2 infit    6 (6)
+                      ||.||
+T Consensus        29 iNliT   33 (36)
+T 5LO3_A           29 QKDLA   33 (36)
+T ss_dssp             HHHHH
+T ss_pred             HHHhh
+
+
+No 3
+>4NJC_A Geobacillus stearothermophilus YkzG; DNA Dependant RNA Polymerase, TRANSCRIPTION; 2.3A {Geobacillus stearothermophilus}
+Probab=16.69  E-value=1.4e+02  Score=12.38  Aligned_cols=5  Identities=60%  Similarity=1.185  Sum_probs=0.0  Template_Neff=3.100
+
+Q NINFIT            1 NINFI    5 (6)
+Q Consensus         1 ninfi    5 (6)
+                      ||.||
+T Consensus        50 NIEfI   54 (65)
+T 4NJC_A           50 NIEYI   54 (65)
+T ss_dssp             EEEEE
+T ss_pred             ceeEE
+
+
+No 4
+>6NU2_AU 39S ribosomal protein L2, mitochondrial; mitochondrial ribosome recycling Factor, mtRRF; HET: MG; 3.9A {Homo sapiens}
+Probab=14.72  E-value=1.6e+02  Score=12.89  Aligned_cols=4  Identities=100%  Similarity=1.439  Sum_probs=0.0  Template_Neff=5.900
+
+Q NINFIT            3 NFIT    6 (6)
+Q Consensus         3 nfit    6 (6)
+                      +|||
+T Consensus       140 ~FIT  143 (173)
+T 6NU2_AU         140 NFIT  143 (173)
+T ss_pred             CCCC
+
+
+No 5
+>6ZCA_E Probable DNA-directed RNA polymerase subunit; TRANSCRIPTION/DNA/RNA, DNA-DEPENDENT RNA POLYMERASE, BACTERIAL; 4.2A {Bacillus subtilis}
+Probab=14.27  E-value=1.7e+02  Score=12.11  Aligned_cols=6  Identities=83%  Similarity=1.232  Sum_probs=0.0  Template_Neff=3.400
+
+Q NINFIT            1 NINFIT    6 (6)
+Q Consensus         1 ninfit    6 (6)
+                      ||.||.
+T Consensus        43 NIEfIq   48 (69)
+T 6ZCA_E           43 NIEFIT   48 (69)
+T ss_pred             ceEEEE
+
+
+No 6
+>6ZFB_E DNA-directed RNA polymerase subunit delta; TRANSCRIPTION/DNA/RNA, DNA-DEPENDENT RNA POLYMERASE, BACTERIAL;{Bacillus subtilis}
+Probab=14.27  E-value=1.7e+02  Score=12.11  Aligned_cols=6  Identities=83%  Similarity=1.232  Sum_probs=0.0  Template_Neff=3.400
+
+Q NINFIT            1 NINFIT    6 (6)
+Q Consensus         1 ninfit    6 (6)
+                      ||.||.
+T Consensus        43 NIEfIq   48 (69)
+T 6ZFB_E           43 NIEFIT   48 (69)
+T ss_pred             ceEEEE
+
+
+No 7
+>4MLK_A CT584 protein; CT584, Chlamydia, hypothetical protein, UNKNOWN; 3.051A {Chlamydia trachomatis}
+Probab=14.23  E-value=1.7e+02  Score=14.33  Aligned_cols=5  Identities=100%  Similarity=1.418  Sum_probs=0.0  Template_Neff=2.400
+
+Q NINFIT            2 INFIT    6 (6)
+Q Consensus         2 infit    6 (6)
+                      |||||
+T Consensus       101 lnFIT  105 (194)
+T 4MLK_A          101 INFIT  105 (194)
+T ss_dssp             EEEEE
+T ss_pred             hhhhc
+
+
+No 8
+>3Q9D_A Protein CPn_0803/CP_1068/CPj0803/CpB0832; Coiled-coil, Needle Tip TypeIII Secretion; 2.0A {Chlamydophila pneumoniae}
+Probab=13.89  E-value=1.8e+02  Score=14.53  Aligned_cols=5  Identities=100%  Similarity=1.418  Sum_probs=0.0  Template_Neff=2.300
+
+Q NINFIT            2 INFIT    6 (6)
+Q Consensus         2 infit    6 (6)
+                      |||||
+T Consensus       137 LnFIT  141 (220)
+T 3Q9D_A          137 INFIT  141 (220)
+T ss_dssp             EEEEE
+T ss_pred             hhhcc
+
+
+No 9
+>2J9V_A VACUOLAR PROTEIN SORTING-ASSOCIATED PROTEIN 28; NZF FINGER, HIV BUDDING, PROTEIN; 2.0A {SACCHAROMYCES CEREVISIAE} SCOP: a.24.28.1
+Probab=13.00  E-value=2e+02  Score=11.89  Aligned_cols=4  Identities=100%  Similarity=1.439  Sum_probs=0.0  Template_Neff=5.300
+
+Q NINFIT            3 NFIT    6 (6)
+Q Consensus         3 nfit    6 (6)
+                      +|||
+T Consensus        16 ~FIT   19 (99)
+T 2J9V_A           16 NFIT   19 (99)
+T ss_dssp             HHHH
+T ss_pred             HHHH
+
+
+No 10
+>4U5A_B Sporozoite Protein Essential for Cell; four helix bundle, TRANSPORT PROTEIN; 2.75A {Plasmodium berghei}
+Probab=12.86  E-value=2e+02  Score=14.27  Aligned_cols=5  Identities=100%  Similarity=1.418  Sum_probs=0.0  Template_Neff=1.900
+
+Q NINFIT            2 INFIT    6 (6)
+Q Consensus         2 infit    6 (6)
+                      ||||+
+T Consensus       171 inFIs  175 (201)
+T 4U5A_B          171 INFIT  175 (201)
+T ss_dssp             HHHHH
+T ss_pred             HHhHH
+
+

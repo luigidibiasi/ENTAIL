@@ -1,0 +1,159 @@
+Query         GMMGML
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 01:56:10 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GMMGML/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GMMGML/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6N3A_J TAR DNA-binding protein  86.3    0.44 4.8E-06   19.0   0.0    6    1-6      25-30  (50)
+  2 4KRW_A RsmN, a RNA-binding pro  40.7      26 0.00029   14.2   0.0    6    1-6       7-12  (79)
+  3 4IAJ_E Conserved domain protei  35.7      35 0.00039   13.9   0.0    6    1-6       2-7   (78)
+  4 4IAJ_B Conserved domain protei  35.5      35 0.00039   13.9   0.0    6    1-6       2-7   (78)
+  5 7RAB_B multicopper oxidase the  32.2      43 0.00048   14.8   0.0    6    1-6     339-344 (348)
+  6 7RAC_D multicopper oxidase the  32.2      43 0.00048   14.8   0.0    6    1-6     339-344 (348)
+  7 3DM9_B Signal recognition part  26.8      62 0.00069   13.5   0.0    6    1-6       3-8   (328)
+  8 3GS9_A Protein gp18; NP_465809  26.2      64 0.00071   13.1   0.0    6    1-6       1-6   (342)
+  9 4DHK_A Deoxycytidine triphosph  25.9      66 0.00073   13.4   0.0    6    1-6       1-6   (191)
+ 10 6W8R_B Metacaspase-4 (E.C.3.4.  19.5 1.1E+02  0.0012   15.1   0.0    6    1-6     286-291 (433)
+
+No 1
+>6N3A_J TAR DNA-binding protein 43, segA; Amyloid, TDP43, ALS, FTLD-TDP, dna; 3.3A {Homo sapiens}
+Probab=86.28  E-value=0.44  Score=19.02  Aligned_cols=6  Identities=100%  Similarity=1.669  Sum_probs=4.5  Template_Neff=2.200
+
+Q GMMGML            1 GMMGML    6 (6)
+Q Consensus         1 gmmgml    6 (6)
+                      ||||||
+T Consensus        25 g~MgMl   30 (50)
+T 6N3A_J           25 GMMGML   30 (50)
+T ss_dssp             ESCEEE
+T ss_pred             hhHHhH
+Confidence            678886
+
+
+No 2
+>4KRW_A RsmN, a RNA-binding protein of; BETA-BARREL, POST-TRANSCRIPTIONAL REGULATION, RNA, RNA; 2.01A {Pseudomonas aeruginosa}
+Probab=40.69  E-value=26  Score=14.23  Aligned_cols=6  Identities=67%  Similarity=1.204  Sum_probs=3.2  Template_Neff=4.600
+
+Q GMMGML            1 GMMGML    6 (6)
+Q Consensus         1 gmmgml    6 (6)
+                      |-||||
+T Consensus         7 ~~~~~l   12 (79)
+T 4KRW_A            7 GSMGFL   12 (79)
+T ss_dssp             -CEEEE
+T ss_pred             cceeEE
+Confidence            457775
+
+
+No 3
+>4IAJ_E Conserved domain protein; DUF4649, PF15507 family protein, Structural; HET: UNL, MSE, EDO; 1.91A {Streptococcus pneumoniae}
+Probab=35.74  E-value=35  Score=13.93  Aligned_cols=6  Identities=33%  Similarity=1.027  Sum_probs=1.8  Template_Neff=4.400
+
+Q GMMGML            1 GMMGML    6 (6)
+Q Consensus         1 gmmgml    6 (6)
+                      ||+.|+
+T Consensus         2 ~~~~Ml    7 (78)
+T 4IAJ_E            2 GVLNMI    7 (78)
+T ss_dssp             ---CCE
+T ss_pred             CeeEeE
+Confidence            566664
+
+
+No 4
+>4IAJ_B Conserved domain protein; DUF4649, PF15507 family protein, Structural; HET: UNL, EDO; 1.91A {Streptococcus pneumoniae}
+Probab=35.55  E-value=35  Score=13.91  Aligned_cols=6  Identities=33%  Similarity=1.027  Sum_probs=3.7  Template_Neff=4.400
+
+Q GMMGML            1 GMMGML    6 (6)
+Q Consensus         1 gmmgml    6 (6)
+                      ||+.|+
+T Consensus         2 ~~~~Ml    7 (78)
+T 4IAJ_B            2 GVLNMI    7 (78)
+T ss_dssp             CCSCSE
+T ss_pred             CeeEeE
+Confidence            566664
+
+
+No 5
+>7RAB_B multicopper oxidase thermophile dodecamer laccase; HET: CU; 1.92A {Marinithermus hydrothermalis}
+Probab=32.24  E-value=43  Score=14.77  Aligned_cols=6  Identities=50%  Similarity=0.905  Sum_probs=3.6  Template_Neff=8.200
+
+Q GMMGML            1 GMMGML    6 (6)
+Q Consensus         1 gmmgml    6 (6)
+                      ||||++
+T Consensus       339 Gm~g~~  344 (348)
+T 7RAB_B          339 GWMGNF  344 (348)
+T ss_dssp             TCEEEE
+T ss_pred             CceEEE
+Confidence            577653
+
+
+No 6
+>7RAC_D multicopper oxidase thermophile dodecamer laccase; HET: CU, CA, MPD; 2.36A {Marinithermus hydrothermalis}
+Probab=32.24  E-value=43  Score=14.77  Aligned_cols=6  Identities=50%  Similarity=0.905  Sum_probs=3.6  Template_Neff=8.200
+
+Q GMMGML            1 GMMGML    6 (6)
+Q Consensus         1 gmmgml    6 (6)
+                      ||||++
+T Consensus       339 Gm~g~~  344 (348)
+T 7RAC_D          339 GWMGNF  344 (348)
+T ss_dssp             TCEEEE
+T ss_pred             CceEEE
+Confidence            577653
+
+
+No 7
+>3DM9_B Signal recognition particle receptor; Signal Recognition Particle Receptor, FtsY; HET: PO4; 2.2A {Pyrococcus furiosus}
+Probab=26.77  E-value=62  Score=13.49  Aligned_cols=6  Identities=33%  Similarity=0.495  Sum_probs=1.4  Template_Neff=9.500
+
+Q GMMGML            1 GMMGML    6 (6)
+Q Consensus         1 gmmgml    6 (6)
+                      ||++|+
+T Consensus         3 ~~~~m~    8 (328)
+T 3DM9_B            3 HMASMF    8 (328)
+T ss_dssp             ---CCS
+T ss_pred             hhhhhc
+Confidence            355553
+
+
+No 8
+>3GS9_A Protein gp18; NP_465809.1, prophage tail protein gp18; 1.7A {Listeria monocytogenes EGD-e}
+Probab=26.21  E-value=64  Score=13.14  Aligned_cols=6  Identities=33%  Similarity=0.495  Sum_probs=1.5  Template_Neff=10.200
+
+Q GMMGML            1 GMMGML    6 (6)
+Q Consensus         1 gmmgml    6 (6)
+                      |||.+|
+T Consensus         1 ~~~~~l    6 (342)
+T 3GS9_A            1 GMNSDI    6 (342)
+T ss_dssp             ---CCC
+T ss_pred             CCCcce
+Confidence            566653
+
+
+No 9
+>4DHK_A Deoxycytidine triphosphate deaminase (E.C.3.5.4.13); Burkholderia thailandensis, deaminase, HYDROLASE; HET: EDO; 2.05A {Burkholderia thailandensis}
+Probab=25.87  E-value=66  Score=13.40  Aligned_cols=6  Identities=33%  Similarity=0.573  Sum_probs=0.9  Template_Neff=7.600
+
+Q GMMGML            1 GMMGML    6 (6)
+Q Consensus         1 gmmgml    6 (6)
+                      |||.+|
+T Consensus         1 ~~~~iL    6 (191)
+T 4DHK_A            1 GSMSIK    6 (191)
+T ss_dssp             ----CC
+T ss_pred             CCCCCC
+Confidence            566554
+
+
+No 10
+>6W8R_B Metacaspase-4 (E.C.3.4.22.-); metacaspase, protease, Ca2+-dependent activation, C139A; 2.801A {Arabidopsis thaliana}
+Probab=19.53  E-value=1.1e+02  Score=15.06  Aligned_cols=6  Identities=83%  Similarity=1.586  Sum_probs=0.0  Template_Neff=6.200
+
+Q GMMGML            1 GMMGML    6 (6)
+Q Consensus         1 gmmgml    6 (6)
+                      |||||+
+T Consensus       286 ~~~~~~  291 (433)
+T 6W8R_B          286 GLMGML  291 (433)
+T ss_dssp             HHHHHH
+T ss_pred             chHHHH
+
+

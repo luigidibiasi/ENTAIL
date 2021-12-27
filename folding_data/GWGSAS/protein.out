@@ -1,0 +1,148 @@
+Query         GWGSAS
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 05:06:39 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GWGSAS/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GWGSAS/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4CHI_A BRANCHED-CHAIN AMINO AC  23.7      77 0.00085   13.7   0.0    6    1-6     321-326 (332)
+  2 3PO1_B Thrombin light chain (E  19.5 1.1E+02  0.0012   10.2   0.0    3    1-3     140-142 (147)
+  3 6YP7_H Chlorophyll a-b binding  19.5 1.1E+02  0.0012   12.6   0.0    5    1-5      24-28  (60)
+  4 7OUI_H Oxidoreductase, Complex  19.4 1.1E+02  0.0012   12.8   0.0    5    1-5      35-39  (72)
+  5 5YYF_C Protein AF-9, Peptide i  19.3 1.1E+02  0.0012   12.6   0.0    4    1-4      80-83  (141)
+  6 3JCU_h Photosystem II protein   18.9 1.1E+02  0.0012   12.7   0.0    5    1-5      36-40  (73)
+  7 6HYF_B Integrin beta-4; myelin  18.8 1.1E+02  0.0013    9.0   0.0    6    1-6       5-10  (113)
+  8 7B10_A Protein ENL; T1 mutant,  18.7 1.1E+02  0.0013   12.9   0.0    4    1-4      77-80  (157)
+  9 5J9S_A Protein ENL, H3K27ac pe  17.5 1.3E+02  0.0014   12.8   0.0    4    1-4      78-81  (155)
+ 10 5Y8V_C Nucleosome-remodeling f  17.2 1.3E+02  0.0014   12.3   0.0    4    1-4      72-75  (140)
+
+No 1
+>4CHI_A BRANCHED-CHAIN AMINO ACID AMINOTRANSFERASE (E.C.2.6.1.-; TRANSFERASE; HET: GOL, PO4, PLP; 1.27A {ASPERGILLUS FUMIGATUS}
+Probab=23.68  E-value=77  Score=13.69  Aligned_cols=6  Identities=67%  Similarity=0.822  Sum_probs=0.4  Template_Neff=8.700
+
+Q GWGSAS            1 GWGSAS    6 (6)
+Q Consensus         1 gwgsas    6 (6)
+                      +|||.|
+T Consensus       321 ~~~~~~  326 (332)
+T 4CHI_A          321 GSGSGS  326 (332)
+T ss_dssp             C-----
+T ss_pred             CCCCCC
+Confidence            466654
+
+
+No 2
+>3PO1_B Thrombin light chain (E.C.3.4.21.5), Thrombin; serine protease, coagulation factor II; HET: MKY; 1.65A {Homo sapiens}
+Probab=19.51  E-value=1.1e+02  Score=10.16  Aligned_cols=3  Identities=100%  Similarity=3.037  Sum_probs=0.0  Template_Neff=11.700
+
+Q GWGSAS            1 GWG    3 (6)
+Q Consensus         1 gwg    3 (6)
+                      |||
+T Consensus       140 gwg  142 (147)
+T 3PO1_B          140 GWG  142 (147)
+T ss_dssp             ESS
+T ss_pred             ecc
+
+
+No 3
+>6YP7_H Chlorophyll a-b binding protein 8; Cryo-EM, photosystem II, High Light; HET: PL9, LHG, BCR, NEX, HEM, OEX, CLA, PHO, DGD, XAT, SQD, LUT, LMG, CHL;{Pisum sativum}
+Probab=19.48  E-value=1.1e+02  Score=12.58  Aligned_cols=5  Identities=60%  Similarity=1.963  Sum_probs=0.0  Template_Neff=2.900
+
+Q GWGSAS            1 GWGSA    5 (6)
+Q Consensus         1 gwgsa    5 (6)
+                      |||..
+T Consensus        24 GWGTt   28 (60)
+T 6YP7_H           24 GWGTT   28 (60)
+T ss_pred             CCChH
+
+
+No 4
+>7OUI_H Oxidoreductase, Complex, PHOTOSYNTHESIS; HET: LUT, PL9, NEX, HEM, PHO, LHG, SQD, XAT, AJP, DGD, BCR, CHL, LMG, CLA;{Arabidopsis thaliana}
+Probab=19.36  E-value=1.1e+02  Score=12.80  Aligned_cols=5  Identities=60%  Similarity=1.963  Sum_probs=0.0  Template_Neff=3.300
+
+Q GWGSAS            1 GWGSA    5 (6)
+Q Consensus         1 gwgsa    5 (6)
+                      |||..
+T Consensus        35 GWGTt   39 (72)
+T 7OUI_H           35 GWGTT   39 (72)
+T ss_pred             CCChH
+
+
+No 5
+>5YYF_C Protein AF-9, Peptide inhibitor PHQ-H3(Q5-K9); YEATS domain, Complex, Inhibitor, 2-furancarboyl; HET: SO4, FOA, PHQ; 1.903A {Homo sapiens}
+Probab=19.27  E-value=1.1e+02  Score=12.56  Aligned_cols=4  Identities=25%  Similarity=0.966  Sum_probs=0.0  Template_Neff=6.900
+
+Q GWGSAS            1 GWGS    4 (6)
+Q Consensus         1 gwgs    4 (6)
+                      |||.
+T Consensus        80 GWGe   83 (141)
+T 5YYF_C           80 GYAG   83 (141)
+T ss_dssp             ESSB
+T ss_pred             eccc
+
+
+No 6
+>3JCU_h Photosystem II protein D1, Photosystem; membrane protein; HET: SQD, DGD, HEM, LMG, LUT, PL9, OEX, CHL, XAT, LHG, NEX, BCR, PHO, CLA; 3.2A {Spinacia oleracea}
+Probab=18.89  E-value=1.1e+02  Score=12.75  Aligned_cols=5  Identities=60%  Similarity=1.963  Sum_probs=0.0  Template_Neff=3.400
+
+Q GWGSAS            1 GWGSA    5 (6)
+Q Consensus         1 gwgsa    5 (6)
+                      |||..
+T Consensus        36 GWGTt   40 (73)
+T 3JCU_h           36 GWGTT   40 (73)
+T ss_pred             CCChH
+
+
+No 7
+>6HYF_B Integrin beta-4; myelin, integrin, periaxin, PROTEIN BINDING; 1.6A {Rattus norvegicus}
+Probab=18.80  E-value=1.1e+02  Score=8.95  Aligned_cols=6  Identities=17%  Similarity=0.008  Sum_probs=0.0  Template_Neff=12.900
+
+Q GWGSAS            1 GWGSAS    6 (6)
+Q Consensus         1 gwgsas    6 (6)
+                      ||++-+
+T Consensus         5 ~~~~~~   10 (113)
+T 6HYF_B            5 HHHSSG   10 (113)
+T ss_dssp             ------
+T ss_pred             cccccc
+
+
+No 8
+>7B10_A Protein ENL; T1 mutant, Structural Genomics, Structural; HET: GKT, EDO; 1.92A {Homo sapiens}
+Probab=18.65  E-value=1.1e+02  Score=12.94  Aligned_cols=4  Identities=25%  Similarity=0.966  Sum_probs=0.0  Template_Neff=6.400
+
+Q GWGSAS            1 GWGS    4 (6)
+Q Consensus         1 gwgs    4 (6)
+                      |||.
+T Consensus        77 GWGe   80 (157)
+T 7B10_A           77 GYAG   80 (157)
+T ss_dssp             ESSC
+T ss_pred             eccc
+
+
+No 9
+>5J9S_A Protein ENL, H3K27ac peptide from; Complex, ENL YEATS, histone acetyllysine; HET: ALY, SO4; 2.702A {Homo sapiens}
+Probab=17.48  E-value=1.3e+02  Score=12.79  Aligned_cols=4  Identities=25%  Similarity=0.966  Sum_probs=0.0  Template_Neff=6.400
+
+Q GWGSAS            1 GWGS    4 (6)
+Q Consensus         1 gwgs    4 (6)
+                      |||.
+T Consensus        78 GWGe   81 (155)
+T 5J9S_A           78 GYAG   81 (155)
+T ss_dssp             ESSB
+T ss_pred             eccc
+
+
+No 10
+>5Y8V_C Nucleosome-remodeling factor subunit BPTF, GLY-KCR-GLY; YEATS domain, NUCLEAR PROTEIN; 2.61A {Homo sapiens}
+Probab=17.19  E-value=1.3e+02  Score=12.32  Aligned_cols=4  Identities=75%  Similarity=2.295  Sum_probs=0.0  Template_Neff=6.900
+
+Q GWGSAS            1 GWGS    4 (6)
+Q Consensus         1 gwgs    4 (6)
+                      |||.
+T Consensus        72 GwG~   75 (140)
+T 5Y8V_C           72 GWGE   75 (140)
+T ss_dssp             ESCC
+T ss_pred             eccc
+
+

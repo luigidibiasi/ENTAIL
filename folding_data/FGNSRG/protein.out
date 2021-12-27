@@ -1,0 +1,158 @@
+Query         FGNSRG
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 21:02:32 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/FGNSRG/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/FGNSRG/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6N3C_D TAR DNA-binding protein  74.8     2.3 2.6E-05   16.5   0.0    6    1-6       4-9   (46)
+  2 2PO3_A 4-dehydrase; external a  57.1     9.5 0.00011   15.3   0.0    6    1-6     411-416 (424)
+  3 6SJL_F Putative type VI secret  47.2      18 0.00019   17.8   0.0    6    1-6     194-199 (560)
+  4 6XYH_A AMS3; PROTEIN, TOXIN; N  32.3      43 0.00048   13.2   0.0    6    1-6      27-32  (40)
+  5 4O5P_A Uncharacterized protein  26.9      61 0.00068   17.6   0.0    6    1-6     234-239 (884)
+  6 4O5P_B Uncharacterized protein  26.7      62 0.00069   17.6   0.0    6    1-6     234-239 (884)
+  7 4M0M_A Putative uncharacterize  26.5      63  0.0007   17.6   0.0    6    1-6     144-149 (756)
+  8 7KWZ_A Isoform 2 of TAR DNA-bi  25.7      67 0.00074   15.0   0.0    6    1-6      23-28  (148)
+  9 4RPT_A Capping enzyme protein;  20.0   1E+02  0.0011   14.6   0.0    5    1-5      97-101 (144)
+ 10 2EC3_A Fibronectin; Complement  16.7 1.4E+02  0.0015   12.4   0.0    6    1-6      48-53  (68)
+
+No 1
+>6N3C_D TAR DNA-binding protein 43; Amyloid, TDP43, ALS, FTLD-TDP, dna; 3.3A {Homo sapiens}
+Probab=74.82  E-value=2.3  Score=16.52  Aligned_cols=6  Identities=100%  Similarity=1.713  Sum_probs=4.2  Template_Neff=3.000
+
+Q FGNSRG            1 FGNSRG    6 (6)
+Q Consensus         1 fgnsrg    6 (6)
+                      ||++||
+T Consensus         4 ~g~~rg    9 (46)
+T 6N3C_D            4 FGNSRG    9 (46)
+T ss_dssp             CSCEEC
+T ss_pred             CCCcCC
+Confidence            677775
+
+
+No 2
+>2PO3_A 4-dehydrase; external aldimine, PLP, aminotransferase, TDP-sugar; HET: T4K; 2.1A {Streptomyces venezuelae}
+Probab=57.12  E-value=9.5  Score=15.34  Aligned_cols=6  Identities=67%  Similarity=1.187  Sum_probs=0.0  Template_Neff=11.000
+
+Q FGNSRG            1 FGNSRG    6 (6)
+Q Consensus         1 fgnsrg    6 (6)
+                      ||.|||
+T Consensus       411 ~~~~~~  416 (424)
+T 2PO3_A          411 IGRSRG  416 (424)
+T ss_dssp             ------
+T ss_pred             cCcccC
+Confidence            567775
+
+
+No 3
+>6SJL_F Putative type VI secretion protein; Hydrolase, toxin, lipase, effector, bacterial;{Escherichia coli}
+Probab=47.15  E-value=18  Score=17.81  Aligned_cols=6  Identities=83%  Similarity=1.331  Sum_probs=4.5  Template_Neff=6.600
+
+Q FGNSRG            1 FGNSRG    6 (6)
+Q Consensus         1 fgnsrg    6 (6)
+                      ||-|||
+T Consensus       194 FGFSRG  199 (560)
+T 6SJL_F          194 FGFSRG  199 (560)
+T ss_dssp             EECTTH
+T ss_pred             EecCHH
+Confidence            677876
+
+
+No 4
+>6XYH_A AMS3; PROTEIN, TOXIN; NMR {Metridium senile}
+Probab=32.27  E-value=43  Score=13.16  Aligned_cols=6  Identities=67%  Similarity=1.509  Sum_probs=3.5  Template_Neff=1.000
+
+Q FGNSRG            1 FGNSRG    6 (6)
+Q Consensus         1 fgnsrg    6 (6)
+                      +||.||
+T Consensus        27 ygngrg   32 (40)
+T 6XYH_A           27 YGNGRG   32 (40)
+T ss_dssp             SCCSSC
+T ss_pred             CCCCce
+Confidence            466665
+
+
+No 5
+>4O5P_A Uncharacterized protein; phospholipase effector, HYDROLASE; 2.001A {Pseudomonas aeruginosa}
+Probab=26.88  E-value=61  Score=17.55  Aligned_cols=6  Identities=67%  Similarity=1.226  Sum_probs=4.5  Template_Neff=5.500
+
+Q FGNSRG            1 FGNSRG    6 (6)
+Q Consensus         1 fgnsrg    6 (6)
+                      ||-|||
+T Consensus       234 FGFSRG  239 (884)
+T 4O5P_A          234 YGFSRG  239 (884)
+T ss_dssp             EEETHH
+T ss_pred             EecChh
+Confidence            677876
+
+
+No 6
+>4O5P_B Uncharacterized protein; phospholipase effector, HYDROLASE; HET: MSE; 2.001A {Pseudomonas aeruginosa}
+Probab=26.73  E-value=62  Score=17.59  Aligned_cols=6  Identities=67%  Similarity=1.226  Sum_probs=4.5  Template_Neff=5.400
+
+Q FGNSRG            1 FGNSRG    6 (6)
+Q Consensus         1 fgnsrg    6 (6)
+                      ||-|||
+T Consensus       234 FGFSRG  239 (884)
+T 4O5P_B          234 YGFSRG  239 (884)
+T ss_dssp             EEETHH
+T ss_pred             EecChH
+Confidence            677876
+
+
+No 7
+>4M0M_A Putative uncharacterized protein; structural genomics, PSI-Biology, protein structure; HET: PG4, PO4; 2.192A {Legionella pneumophila subsp. pneumophila}
+Probab=26.48  E-value=63  Score=17.57  Aligned_cols=6  Identities=67%  Similarity=0.938  Sum_probs=4.4  Template_Neff=4.700
+
+Q FGNSRG            1 FGNSRG    6 (6)
+Q Consensus         1 fgnsrg    6 (6)
+                      ||-|||
+T Consensus       144 FGFSRG  149 (756)
+T 4M0M_A          144 HGFSRG  149 (756)
+T ss_dssp             EEETHH
+T ss_pred             EeeCch
+Confidence            677776
+
+
+No 8
+>7KWZ_A Isoform 2 of TAR DNA-binding; TDP-43, amyloid, neurodegenerative diseases, amyotropic; 3.2A {Homo sapiens}
+Probab=25.72  E-value=67  Score=14.98  Aligned_cols=6  Identities=100%  Similarity=1.713  Sum_probs=3.1  Template_Neff=2.900
+
+Q FGNSRG            1 FGNSRG    6 (6)
+Q Consensus         1 fgnsrg    6 (6)
+                      ||++||
+T Consensus        23 ~g~~Rg   28 (148)
+T 7KWZ_A           23 FGNSRG   28 (148)
+T ss_dssp             CSCCCC
+T ss_pred             cCCCCC
+Confidence            455553
+
+
+No 9
+>4RPT_A Capping enzyme protein; 2H phosphodiesterase, VIRAL PROTEIN; HET: MLI; 1.35A {Rotavirus A}
+Probab=19.96  E-value=1e+02  Score=14.57  Aligned_cols=5  Identities=80%  Similarity=1.411  Sum_probs=0.0  Template_Neff=1.900
+
+Q FGNSRG            1 FGNSR    5 (6)
+Q Consensus         1 fgnsr    5 (6)
+                      ||.||
+T Consensus        97 FGQSR  101 (144)
+T 4RPT_A           97 FGQSR  101 (144)
+T ss_dssp             ESCCS
+T ss_pred             ccccc
+
+
+No 10
+>2EC3_A Fibronectin; Complement Module, two disulfide bonds; NMR {Homo sapiens}
+Probab=16.74  E-value=1.4e+02  Score=12.44  Aligned_cols=6  Identities=50%  Similarity=1.226  Sum_probs=0.0  Template_Neff=3.200
+
+Q FGNSRG            1 FGNSRG    6 (6)
+Q Consensus         1 fgnsrg    6 (6)
+                      +||.||
+T Consensus        48 ~GNGrG   53 (68)
+T 2EC3_A           48 LGNGKG   53 (68)
+T ss_dssp             EETTTT
+T ss_pred             eCCCCC
+
+

@@ -1,0 +1,150 @@
+Query         LIVAGT
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 18:52:17 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LIVAGT/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LIVAGT/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6LJK_A NAD-dependent protein d  16.1 1.4E+02  0.0016   12.1   0.0    6    1-6     215-220 (272)
+  2 4X3O_A NAD-dependent protein d  15.6 1.5E+02  0.0017   12.5   0.0    6    1-6     206-211 (304)
+  3 1S5P_A NAD-dependent deacetyla  15.3 1.6E+02  0.0017   11.8   0.0    6    1-6     171-176 (235)
+  4 5YTK_A NAD-dependent protein d  14.9 1.6E+02  0.0018   12.2   0.0    6    1-6     195-200 (274)
+  5 1Q1A_A HST2 protein, Histone H  14.2 1.7E+02  0.0019   12.1   0.0    6    1-6     215-220 (289)
+  6 1M2K_A transcriptional regulat  14.1 1.8E+02   0.002   11.7   0.0    6    1-6     181-186 (249)
+  7 2HJH_A NAD-dependent histone d  13.9 1.8E+02   0.002   13.0   0.0    6    1-6     259-264 (354)
+  8 5FYQ_A NAD-DEPENDENT PROTEIN D  13.5 1.9E+02  0.0021   13.3   0.0    6    1-6     261-266 (360)
+  9 1M2H_A transcriptional regulat  13.3 1.9E+02  0.0021   11.5   0.0    6    1-6     181-186 (249)
+ 10 2IEL_B Hypothetical Protein TT  13.3 1.9E+02  0.0021   11.8   0.0    6    1-6     101-106 (138)
+
+No 1
+>6LJK_A NAD-dependent protein deacylase sirtuin-5, mitochondrial; Sirt5, inhibitor, HYDROLASE, TRANSFERASE; HET: NIY, BE2, SET, GUA; 1.394A {Homo sapiens}
+Probab=16.08  E-value=1.4e+02  Score=12.08  Aligned_cols=6  Identities=50%  Similarity=0.772  Sum_probs=0.0  Template_Neff=9.600
+
+Q LIVAGT            1 LIVAGT    6 (6)
+Q Consensus         1 livagt    6 (6)
+                      +|+.||
+T Consensus       215 llviGt  220 (272)
+T 6LJK_A          215 CLVVGT  220 (272)
+T ss_dssp             EEEESC
+T ss_pred             EEEECC
+
+
+No 2
+>4X3O_A NAD-dependent protein deacetylase sirtuin-2, peptide; complex, Sirt2, myristoyl peptide, HYDROLASE-PEPTIDE; HET: 3Y0; 1.5A {Homo sapiens}
+Probab=15.62  E-value=1.5e+02  Score=12.54  Aligned_cols=6  Identities=67%  Similarity=1.032  Sum_probs=0.0  Template_Neff=9.000
+
+Q LIVAGT            1 LIVAGT    6 (6)
+Q Consensus         1 livagt    6 (6)
+                      +||.||
+T Consensus       206 liviGt  211 (304)
+T 4X3O_A          206 LLVMGT  211 (304)
+T ss_dssp             EEEESC
+T ss_pred             EEEeCC
+
+
+No 3
+>1S5P_A NAD-dependent deacetylase (E.C.3.5.1.-); protein deacetylase, Sir2 homologue, HYDROLASE; 1.96A {Escherichia coli} SCOP: c.31.1.5
+Probab=15.28  E-value=1.6e+02  Score=11.82  Aligned_cols=6  Identities=50%  Similarity=0.800  Sum_probs=0.0  Template_Neff=9.400
+
+Q LIVAGT            1 LIVAGT    6 (6)
+Q Consensus         1 livagt    6 (6)
+                      +|+.||
+T Consensus       171 ~lviGt  176 (235)
+T 1S5P_A          171 FIAIGT  176 (235)
+T ss_dssp             EEEESC
+T ss_pred             EEEECC
+
+
+No 4
+>5YTK_A NAD-dependent protein deacetylase sirtuin-3, mitochondrial; DNA-dependent deacetylase sirtuin-3, leucylated AceCS2; HET: LEU, LYS; 2.7A {Homo sapiens}
+Probab=14.94  E-value=1.6e+02  Score=12.16  Aligned_cols=6  Identities=50%  Similarity=0.988  Sum_probs=0.0  Template_Neff=9.200
+
+Q LIVAGT            1 LIVAGT    6 (6)
+Q Consensus         1 livagt    6 (6)
+                      +|+.||
+T Consensus       195 llviGt  200 (274)
+T 5YTK_A          195 LLILGT  200 (274)
+T ss_dssp             EEEESC
+T ss_pred             EEEeCC
+
+
+No 5
+>1Q1A_A HST2 protein, Histone H4, 2'-O-ACETYL; ternary complex, histone deacetylase, 2'-O-ADP; HET: OAD; 1.5A {Saccharomyces cerevisiae} SCOP: c.31.1.5
+Probab=14.17  E-value=1.7e+02  Score=12.06  Aligned_cols=6  Identities=67%  Similarity=1.021  Sum_probs=0.0  Template_Neff=9.400
+
+Q LIVAGT            1 LIVAGT    6 (6)
+Q Consensus         1 livagt    6 (6)
+                      +|+.||
+T Consensus       215 llviGt  220 (289)
+T 1Q1A_A          215 VIVVGT  220 (289)
+T ss_dssp             EEEESC
+T ss_pred             EEEEec
+
+
+No 6
+>1M2K_A transcriptional regulatory protein, Sir2 family; PROTEIN-LIGAND COMPLEX, GENE REGULATION; HET: APR; 1.47A {Archaeoglobus fulgidus} SCOP: c.31.1.5
+Probab=14.07  E-value=1.8e+02  Score=11.68  Aligned_cols=6  Identities=83%  Similarity=1.204  Sum_probs=0.0  Template_Neff=9.600
+
+Q LIVAGT            1 LIVAGT    6 (6)
+Q Consensus         1 livagt    6 (6)
+                      +|+.||
+T Consensus       181 ~iviGt  186 (249)
+T 1M2K_A          181 IIVAGT  186 (249)
+T ss_dssp             EEEESC
+T ss_pred             EEEECC
+
+
+No 7
+>2HJH_A NAD-dependent histone deacetylase SIR2 (E.C.3.5.1.-); protein, sirtuin, acetyl-adp-ribose, nicotinamide, HYDROLASE; HET: NCA, MSE, XYQ; 1.85A {Saccharomyces cerevisiae}
+Probab=13.94  E-value=1.8e+02  Score=12.96  Aligned_cols=6  Identities=67%  Similarity=0.905  Sum_probs=0.0  Template_Neff=8.300
+
+Q LIVAGT            1 LIVAGT    6 (6)
+Q Consensus         1 livagt    6 (6)
+                      +||.||
+T Consensus       259 lLviGt  264 (354)
+T 2HJH_A          259 LICIGT  264 (354)
+T ss_dssp             EEEESC
+T ss_pred             EEEECC
+
+
+No 8
+>5FYQ_A NAD-DEPENDENT PROTEIN DEACETYLASE SIRTUIN-2 (E.C.3.5.1.-); HYDROLASE, SIRTUIN, KDAC, LYSINE-DEACETYLASE, LYSINE-ACETYLATION; HET: FAK, SO4; 3.0A {HOMO SAPIENS}
+Probab=13.54  E-value=1.9e+02  Score=13.28  Aligned_cols=6  Identities=67%  Similarity=1.032  Sum_probs=0.0  Template_Neff=7.600
+
+Q LIVAGT            1 LIVAGT    6 (6)
+Q Consensus         1 livagt    6 (6)
+                      |||.||
+T Consensus       261 llviGt  266 (360)
+T 5FYQ_A          261 LLVMGT  266 (360)
+T ss_dssp             EEEESC
+T ss_pred             EEEECC
+
+
+No 9
+>1M2H_A transcriptional regulatory protein, Sir2 family; PROTEIN-LIGAND COMPLEX, GENE REGULATION; HET: APR; 1.8A {Archaeoglobus fulgidus} SCOP: c.31.1.5
+Probab=13.35  E-value=1.9e+02  Score=11.54  Aligned_cols=6  Identities=83%  Similarity=1.204  Sum_probs=0.0  Template_Neff=9.700
+
+Q LIVAGT            1 LIVAGT    6 (6)
+Q Consensus         1 livagt    6 (6)
+                      +|+.|+
+T Consensus       181 liviG~  186 (249)
+T 1M2H_A          181 IIVAGT  186 (249)
+T ss_dssp             EEEESC
+T ss_pred             EEEECC
+
+
+No 10
+>2IEL_B Hypothetical Protein TT0030; TT0030, Thermus Thermophilus, STRUCTURAL GENOMICS; 1.6A {Thermus thermophilus} SCOP: c.26.2.4
+Probab=13.33  E-value=1.9e+02  Score=11.83  Aligned_cols=6  Identities=50%  Similarity=0.263  Sum_probs=0.0  Template_Neff=6.900
+
+Q LIVAGT            1 LIVAGT    6 (6)
+Q Consensus         1 livagt    6 (6)
+                      +||.|+
+T Consensus       101 lIV~Gt  106 (138)
+T 2IEL_B          101 GIVLST  106 (138)
+T ss_dssp             EEEEEE
+T ss_pred             EEEEEc
+
+

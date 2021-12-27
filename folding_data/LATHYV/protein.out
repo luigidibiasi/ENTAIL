@@ -1,0 +1,143 @@
+Query         LATHYV
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 14:42:15 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LATHYV/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LATHYV/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3I0N_A DNA repair and telomere   8.0 3.9E+02  0.0043   11.2   0.0    5    2-6     148-152 (324)
+  2 6XYW_Bc 60S ribosomal protein    7.3 4.4E+02  0.0048   13.4   0.0    6    1-6     314-319 (362)
+  3 3OJY_A Complement component C8   7.3 4.4E+02  0.0049   11.9   0.0    4    3-6     309-312 (554)
+  4 2QQH_A Complement component C8   7.1 4.5E+02   0.005   11.4   0.0    4    3-6     209-212 (334)
+  5 6KAC_U Photosystem II protein    6.9 4.7E+02  0.0052   12.1   0.0    5    1-5     142-146 (178)
+  6 2FFZ_A PC-PLCBc protein varian   6.9 4.7E+02  0.0052   11.3   0.0    5    2-6     116-120 (245)
+  7 6H04_F C9, Complement C5,Compl   6.9 4.7E+02  0.0052   11.9   0.0    4    3-6     309-312 (554)
+  8 7CQI_A Serine palmitoyltransfe   6.9 4.8E+02  0.0053   11.8   0.0    6    1-6     112-117 (153)
+  9 5D71_A Granulocyte-macrophage    6.7 4.9E+02  0.0054   12.4   0.0    5    1-5      97-101 (144)
+ 10 6KAC_u Photosystem II protein    6.7 4.9E+02  0.0054   12.0   0.0    5    1-5     142-146 (178)
+
+No 1
+>3I0N_A DNA repair and telomere maintenance; Nbs1, FHA, BRCT-repeat, DNA-damage, Chromosomal; HET: GOL; 2.3A {Schizosaccharomyces pombe}
+Probab=7.99  E-value=3.9e+02  Score=11.16  Aligned_cols=5  Identities=60%  Similarity=1.172  Sum_probs=0.0  Template_Neff=9.700
+
+Q LATHYV            2 ATHYV    6 (6)
+Q Consensus         2 athyv    6 (6)
+                      +||+|
+T Consensus       148 ~THlv  152 (324)
+T 3I0N_A          148 TTHFV  152 (324)
+T ss_dssp             CCEEE
+T ss_pred             CeEEE
+
+
+No 2
+>6XYW_Bc 60S ribosomal protein L2, mitochondrial; Ribosome, Mitochondria, Plant; 3.86A {Arabidopsis thaliana}
+Probab=7.30  E-value=4.4e+02  Score=13.40  Aligned_cols=6  Identities=67%  Similarity=1.243  Sum_probs=0.0  Template_Neff=4.800
+
+Q LATHYV            1 LATHYV    6 (6)
+Q Consensus         1 lathyv    6 (6)
+                      |.|||.
+T Consensus       314 ~~~~~~  319 (362)
+T 6XYW_Bc         314 LPTHYL  319 (362)
+T ss_pred             CCccee
+
+
+No 3
+>3OJY_A Complement component C8 alpha chain; MACPf, lipocalin, COMPLEMENT, IMMUNE SYSTEM; HET: BMA; 2.51A {Homo sapiens}
+Probab=7.26  E-value=4.4e+02  Score=11.94  Aligned_cols=4  Identities=75%  Similarity=1.614  Sum_probs=0.0  Template_Neff=9.700
+
+Q LATHYV            3 THYV    6 (6)
+Q Consensus         3 thyv    6 (6)
+                      |||+
+T Consensus       309 TH~v  312 (554)
+T 3OJY_A          309 THYI  312 (554)
+T ss_pred             cEEE
+
+
+No 4
+>2QQH_A Complement component C8 alpha chain; MACPF, MEMBRANE PERFORATION, Cleavage on; HET: SO4; 2.5A {Homo sapiens}
+Probab=7.11  E-value=4.5e+02  Score=11.40  Aligned_cols=4  Identities=75%  Similarity=1.614  Sum_probs=0.0  Template_Neff=8.900
+
+Q LATHYV            3 THYV    6 (6)
+Q Consensus         3 thyv    6 (6)
+                      |||+
+T Consensus       209 TH~i  212 (334)
+T 2QQH_A          209 THYI  212 (334)
+T ss_pred             cEEE
+
+
+No 5
+>6KAC_U Photosystem II protein D1 (E.C.1.10.3.9); PhotosystemII, supercomplex, PHOTOSYNTHESIS; HET: BCR, LMG, OEX, LHG, HEM, CLA, NEX, SQD, PL9, DGD, PHO, LUT, XAT, CHL, LMU; 2.7A {Chlamydomonas reinhardtii}
+Probab=6.91  E-value=4.7e+02  Score=12.13  Aligned_cols=5  Identities=60%  Similarity=1.092  Sum_probs=0.0  Template_Neff=4.600
+
+Q LATHYV            1 LATHY    5 (6)
+Q Consensus         1 lathy    5 (6)
+                      ||.||
+T Consensus       142 LAGhY  146 (178)
+T 6KAC_U          142 LAGHF  146 (178)
+T ss_pred             HHHHH
+
+
+No 6
+>2FFZ_A PC-PLCBc protein variants, substrate specificity; 2.05A {Bacillus cereus}
+Probab=6.89  E-value=4.7e+02  Score=11.33  Aligned_cols=5  Identities=40%  Similarity=1.026  Sum_probs=0.0  Template_Neff=7.800
+
+Q LATHYV            2 ATHYV    6 (6)
+Q Consensus         2 athyv    6 (6)
+                      |.||+
+T Consensus       116 a~Hyi  120 (245)
+T 2FFZ_A          116 SLHYL  120 (245)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 7
+>6H04_F C9, Complement C5,Complement C5, Complement; C5b9, IMMUNE SYSTEM; HET: NAG; 5.6A {Homo sapiens}
+Probab=6.87  E-value=4.7e+02  Score=11.94  Aligned_cols=4  Identities=75%  Similarity=1.614  Sum_probs=0.0  Template_Neff=9.500
+
+Q LATHYV            3 THYV    6 (6)
+Q Consensus         3 thyv    6 (6)
+                      |||+
+T Consensus       309 TH~i  312 (554)
+T 6H04_F          309 THYI  312 (554)
+T ss_pred             cEEE
+
+
+No 8
+>7CQI_A Serine palmitoyltransferase 1 (E.C.2.3.1.50), Serine; membrane protein, lipid synthesis, TRANSFERASE; HET: GE0, PLS; 3.2A {Homo sapiens}
+Probab=6.86  E-value=4.8e+02  Score=11.78  Aligned_cols=6  Identities=33%  Similarity=0.766  Sum_probs=0.0  Template_Neff=4.800
+
+Q LATHYV            1 LATHYV    6 (6)
+Q Consensus         1 lathyv    6 (6)
+                      +++||.
+T Consensus       112 la~~yt  117 (153)
+T 7CQI_A          112 LTSFYT  117 (153)
+T ss_pred             HHHhhc
+
+
+No 9
+>5D71_A Granulocyte-macrophage colony-stimulating factor, Immunglobulin G1; GM-CSF, affinity maturation, phage display; HET: SO4; 2.25A {Homo sapiens}
+Probab=6.70  E-value=4.9e+02  Score=12.39  Aligned_cols=5  Identities=60%  Similarity=1.364  Sum_probs=0.0  Template_Neff=2.400
+
+Q LATHYV            1 LATHY    5 (6)
+Q Consensus         1 lathy    5 (6)
+                      +|+||
+T Consensus        97 mAshY  101 (144)
+T 5D71_A           97 MASHY  101 (144)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 10
+>6KAC_u Photosystem II protein D1 (E.C.1.10.3.9); PhotosystemII, supercomplex, PHOTOSYNTHESIS; HET: SQD, DGD, LMU, HEM, LMG, LUT, PL9, OEX, CHL, XAT, LHG, NEX, BCR, PHO, CLA; 2.7A {Chlamydomonas reinhardtii}
+Probab=6.69  E-value=4.9e+02  Score=12.04  Aligned_cols=5  Identities=60%  Similarity=1.092  Sum_probs=0.0  Template_Neff=4.700
+
+Q LATHYV            1 LATHY    5 (6)
+Q Consensus         1 lathy    5 (6)
+                      |+.||
+T Consensus       142 LAGhY  146 (178)
+T 6KAC_u          142 LAGHF  146 (178)
+T ss_pred             HHHHH
+
+

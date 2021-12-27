@@ -1,0 +1,150 @@
+Query         MYFFIF
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 22:43:48 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/MYFFIF/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/MYFFIF/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 7B0N_j NADH-ubiquinone oxidore  32.9      41 0.00046   13.2   0.0    6    1-6      34-39  (67)
+  2 7O71_e Complex I, NADH dehydro  32.9      41 0.00046   13.2   0.0    6    1-6      34-39  (67)
+  3 7A23_h 51kDa, Nad2m, Nad3m, Na  32.4      43 0.00047   13.1   0.0    6    1-6      35-40  (69)
+  4 7B93_j NADH-ubiquinone oxidore  24.7      72 0.00079   13.3   0.0    6    1-6      65-70  (105)
+  5 6YJ4_j NADH-ubiquinone oxidore  24.6      72  0.0008   13.6   0.0    6    1-6      58-63  (91)
+  6 6ZKE_u NADH dehydrogenase [ubi  24.5      73  0.0008   13.5   0.0    6    1-6      68-73  (108)
+  7 3JAQ_r PROTEIN/RNA Complex; Eu  21.7      90 0.00099   12.0   0.0    6    1-6      25-30  (34)
+  8 1V61_A Rac/Cdc42 guanine nucle  19.5 1.1E+02  0.0012   10.6   0.0    6    1-6      47-52  (132)
+  9 5E9T_A Glycosyltransferase Gtf  19.3 1.1E+02  0.0012   12.6   0.0    5    1-5       2-6   (503)
+ 10 5E9U_A Glycosyltransferase Gtf  19.3 1.1E+02  0.0012   12.6   0.0    5    1-5       2-6   (503)
+
+No 1
+>7B0N_j NADH-ubiquinone oxidoreductase chain 3 (E.C.7.1.1.2); NADH:Ubiquinone Oxidoreductase, complex I, MEMBRANE; HET: 3PE, FMN, NDP, EHZ, LMT, FME, CDL, PLC, SF4; 3.7A {Yarrowia lipolytica}
+Probab=32.93  E-value=41  Score=13.18  Aligned_cols=6  Identities=50%  Similarity=1.635  Sum_probs=3.0  Template_Neff=4.900
+
+Q MYFFIF            1 MYFFIF    6 (6)
+Q Consensus         1 myffif    6 (6)
+                      |.|+||
+T Consensus        34 mWfWIf   39 (67)
+T 7B0N_j           34 MFFWMF   39 (67)
+T ss_pred             HHHHHH
+Confidence            445554
+
+
+No 2
+>7O71_e Complex I, NADH dehydrogenase, Mitochondrion; HET: CDL, SF4, T7X, 2MR, 3PE, NDP, ZMP, CPL, PLC, FMN, FME, LMN; 2.4A {Yarrowia lipolytica}
+Probab=32.93  E-value=41  Score=13.18  Aligned_cols=6  Identities=50%  Similarity=1.635  Sum_probs=3.0  Template_Neff=4.900
+
+Q MYFFIF            1 MYFFIF    6 (6)
+Q Consensus         1 myffif    6 (6)
+                      |.|+||
+T Consensus        34 mWfWIf   39 (67)
+T 7O71_e           34 MFFWMF   39 (67)
+T ss_pred             HHHHHH
+Confidence            445554
+
+
+No 3
+>7A23_h 51kDa, Nad2m, Nad3m, Nad6m, Nad1m; Respiration, Complex I, mitochondria, plant; HET: FMN, NDP, PEV, SF4, U10, T7X, CDL; 3.7A {Brassica oleracea}
+Probab=32.37  E-value=43  Score=13.11  Aligned_cols=6  Identities=50%  Similarity=1.386  Sum_probs=2.9  Template_Neff=5.100
+
+Q MYFFIF            1 MYFFIF    6 (6)
+Q Consensus         1 myffif    6 (6)
+                      |.|+||
+T Consensus        35 mWfWIf   40 (69)
+T 7A23_h           35 MWFWIL   40 (69)
+T ss_pred             HHHHHH
+Confidence            345554
+
+
+No 4
+>7B93_j NADH-ubiquinone oxidoreductase chain 3 (E.C.7.1.1.2); Inhibitor, Ubiquinone, Complex I, Oxidoreductase; HET: 3PE, PC1, FMN, T2Q, 2MR, AME, CDL, EHZ, FME, ATP, NDP, SF4;{Mus musculus}
+Probab=24.71  E-value=72  Score=13.34  Aligned_cols=6  Identities=50%  Similarity=1.386  Sum_probs=2.7  Template_Neff=5.100
+
+Q MYFFIF            1 MYFFIF    6 (6)
+Q Consensus         1 myffif    6 (6)
+                      |.|+||
+T Consensus        65 mWfWIf   70 (105)
+T 7B93_j           65 MWFWIL   70 (105)
+T ss_pred             HHHHHH
+Confidence            344443
+
+
+No 5
+>6YJ4_j NADH-ubiquinone oxidoreductase chain 3 (E.C.7.1.1.2); NADH:Ubiquinone Oxidoreductase, complex I, MEMBRANE; HET: SF4, FME, 2MR, PLC, FMN, NDP, EHZ, CDL, 3PE, LMT; 2.7A {Yarrowia lipolytica}
+Probab=24.64  E-value=72  Score=13.63  Aligned_cols=6  Identities=50%  Similarity=1.635  Sum_probs=3.1  Template_Neff=3.700
+
+Q MYFFIF            1 MYFFIF    6 (6)
+Q Consensus         1 myffif    6 (6)
+                      |.|+||
+T Consensus        58 MWFWIf   63 (91)
+T 6YJ4_j           58 MFFWMF   63 (91)
+T ss_pred             HHHHHH
+Confidence            445554
+
+
+No 6
+>6ZKE_u NADH dehydrogenase [ubiquinone] flavoprotein 1; complex, respiration, NADH, proton pump; HET: DCQ, PC1, NAI, MYR, FMN, 3PE, NDP, SEP, FME, SF4, AYA, 2MR, AMP, ZMP, CDL; 2.6A {Ovis aries}
+Probab=24.51  E-value=73  Score=13.47  Aligned_cols=6  Identities=50%  Similarity=1.386  Sum_probs=2.7  Template_Neff=4.900
+
+Q MYFFIF            1 MYFFIF    6 (6)
+Q Consensus         1 myffif    6 (6)
+                      |.|+||
+T Consensus        68 mWfWI~   73 (108)
+T 6ZKE_u           68 MWFWIL   73 (108)
+T ss_pred             HHHHHH
+Confidence            345543
+
+
+No 7
+>3JAQ_r PROTEIN/RNA Complex; Eukaryotic translation initiation, 48S, small; HET: M2G, MG, 7MG, H2U, 5MC, 1MA, 1MG, RIA, T6A, 2MG, GCP;{Kluyveromyces lactis}
+Probab=21.66  E-value=90  Score=11.97  Aligned_cols=6  Identities=67%  Similarity=0.977  Sum_probs=3.6  Template_Neff=1.000
+
+Q MYFFIF            1 MYFFIF    6 (6)
+Q Consensus         1 myffif    6 (6)
+                      |+|-||
+T Consensus        25 mnfkif   30 (34)
+T 3JAQ_r           25 MNFKIF   30 (34)
+T ss_pred             hcccee
+Confidence            566665
+
+
+No 8
+>1V61_A Rac/Cdc42 guanine nucleotide exchange factor; Pleckstrin homology domain, Guanine nucleotide; NMR {Mus musculus} SCOP: b.55.1.1
+Probab=19.49  E-value=1.1e+02  Score=10.61  Aligned_cols=6  Identities=50%  Similarity=1.381  Sum_probs=0.0  Template_Neff=10.500
+
+Q MYFFIF            1 MYFFIF    6 (6)
+Q Consensus         1 myffif    6 (6)
+                      .|+|+|
+T Consensus        47 r~~~Lf   52 (132)
+T 1V61_A           47 RYFLLF   52 (132)
+T ss_dssp             EEEEEC
+T ss_pred             EEEEEe
+
+
+No 9
+>5E9T_A Glycosyltransferase Gtf1 (E.C.2.4.1.-), Glycosyltransferase-stabilizing protein; Glycosyltransferase, Accessory protein translocation, Complex; HET: MSE; 2.92A {Streptococcus gordonii}
+Probab=19.27  E-value=1.1e+02  Score=12.58  Aligned_cols=5  Identities=20%  Similarity=0.288  Sum_probs=0.0  Template_Neff=11.400
+
+Q MYFFIF            1 MYFFI    5 (6)
+Q Consensus         1 myffi    5 (6)
+                      |+|||
+T Consensus         2 ~~y~~    6 (503)
+T 5E9T_A            2 TVYNI    6 (503)
+T ss_dssp             CEEEE
+T ss_pred             ceEEe
+
+
+No 10
+>5E9U_A Glycosyltransferase Gtf1 (E.C.2.4.1.-), Glycosyltransferase-stabilizing protein; Glycosyltransferase, Accessory protein translocation, Complex; HET: UDP, MSE, NAG; 3.84A {Streptococcus gordonii}
+Probab=19.27  E-value=1.1e+02  Score=12.58  Aligned_cols=5  Identities=20%  Similarity=0.288  Sum_probs=0.0  Template_Neff=11.400
+
+Q MYFFIF            1 MYFFI    5 (6)
+Q Consensus         1 myffi    5 (6)
+                      |+|||
+T Consensus         2 ~~y~~    6 (503)
+T 5E9U_A            2 TVYNI    6 (503)
+T ss_dssp             CEEEE
+T ss_pred             ceEEe
+
+

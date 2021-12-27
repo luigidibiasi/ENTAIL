@@ -1,0 +1,146 @@
+Query         PTREPT
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 06:45:37 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/PTREPT/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/PTREPT/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3FD0_A putative cystathionine    7.3 4.4E+02  0.0049   11.3   0.0    5    1-5     379-383 (409)
+  2 4NJC_C Geobacillus stearotherm   7.3 4.4E+02  0.0049   11.0   0.0    6    1-6      22-27  (65)
+  3 2RNN_A Siz1; SUMO ligase, DNA    7.0 4.6E+02  0.0051   10.8   0.0    6    1-6      18-23  (114)
+  4 6ZCA_E Probable DNA-directed R   6.9 4.7E+02  0.0052   10.9   0.0    6    1-6      15-20  (69)
+  5 6ZFB_E DNA-directed RNA polyme   6.9 4.7E+02  0.0052   10.9   0.0    6    1-6      15-20  (69)
+  6 3JZL_A Putative cystathionine    6.9 4.8E+02  0.0053   11.2   0.0    5    1-5     379-383 (409)
+  7 6YP7_I Chlorophyll a-b binding   6.7 4.9E+02  0.0055    9.8   0.0    5    1-5      28-32  (34)
+  8 2GK4_A conserved hypothetical    6.6   5E+02  0.0055   10.7   0.0    5    1-5      12-16  (232)
+  9 5AJA_B PROTEIN VPRBP (E.C.2.7.   6.1 5.5E+02  0.0061   11.2   0.0    5    1-5      15-19  (102)
+ 10 3HT4_A Aluminum resistance pro   6.0 5.6E+02  0.0062   11.4   0.0    5    1-5     385-389 (431)
+
+No 1
+>3FD0_A putative cystathionine beta-lyase involved in; NP_470671.1, putative cystathionine beta-lyase involved; HET: PEG, MSE, LLP, PGE, EDO; 2.12A {Listeria innocua}
+Probab=7.29  E-value=4.4e+02  Score=11.32  Aligned_cols=5  Identities=80%  Similarity=1.524  Sum_probs=0.0  Template_Neff=9.900
+
+Q PTREPT            1 PTREP    5 (6)
+Q Consensus         1 ptrep    5 (6)
+                      |.|+|
+T Consensus       379 ~~~~~  383 (409)
+T 3FD0_A          379 PIREP  383 (409)
+T ss_dssp             ESSTT
+T ss_pred             CCCcc
+
+
+No 2
+>4NJC_C Geobacillus stearothermophilus YkzG; DNA Dependant RNA Polymerase, TRANSCRIPTION; HET: MSE; 2.3A {Geobacillus stearothermophilus}
+Probab=7.29  E-value=4.4e+02  Score=10.95  Aligned_cols=6  Identities=67%  Similarity=0.988  Sum_probs=0.0  Template_Neff=3.100
+
+Q PTREPT            1 PTREPT    6 (6)
+Q Consensus         1 ptrept    6 (6)
+                      |.||-|
+T Consensus        22 P~RE~T   27 (65)
+T 4NJC_C           22 PVREKT   27 (65)
+T ss_dssp             ----CC
+T ss_pred             CcCCcc
+
+
+No 3
+>2RNN_A Siz1; SUMO ligase, DNA binding, sumoylation; NMR {Saccharomyces cerevisiae}
+Probab=6.98  E-value=4.6e+02  Score=10.77  Aligned_cols=6  Identities=83%  Similarity=1.442  Sum_probs=0.0  Template_Neff=6.100
+
+Q PTREPT            1 PTREPT    6 (6)
+Q Consensus         1 ptrept    6 (6)
+                      |.|||+
+T Consensus        18 ~~~~~~   23 (114)
+T 2RNN_A           18 PDREPT   23 (114)
+T ss_dssp             CSSSCC
+T ss_pred             CCCCCC
+
+
+No 4
+>6ZCA_E Probable DNA-directed RNA polymerase subunit; TRANSCRIPTION/DNA/RNA, DNA-DEPENDENT RNA POLYMERASE, BACTERIAL; 4.2A {Bacillus subtilis}
+Probab=6.92  E-value=4.7e+02  Score=10.88  Aligned_cols=6  Identities=67%  Similarity=0.988  Sum_probs=0.0  Template_Neff=3.400
+
+Q PTREPT            1 PTREPT    6 (6)
+Q Consensus         1 ptrept    6 (6)
+                      |.||-|
+T Consensus        15 P~RE~T   20 (69)
+T 6ZCA_E           15 PVREKT   20 (69)
+T ss_pred             Cccccc
+
+
+No 5
+>6ZFB_E DNA-directed RNA polymerase subunit delta; TRANSCRIPTION/DNA/RNA, DNA-DEPENDENT RNA POLYMERASE, BACTERIAL;{Bacillus subtilis}
+Probab=6.92  E-value=4.7e+02  Score=10.88  Aligned_cols=6  Identities=67%  Similarity=0.988  Sum_probs=0.0  Template_Neff=3.400
+
+Q PTREPT            1 PTREPT    6 (6)
+Q Consensus         1 ptrept    6 (6)
+                      |.||-|
+T Consensus        15 P~RE~T   20 (69)
+T 6ZFB_E           15 PVREKT   20 (69)
+T ss_pred             Cccccc
+
+
+No 6
+>3JZL_A Putative cystathionine beta-lyase involved in; PUTATIVE CYSTATHIONINE BETA-LYASE INVOLVED IN; HET: LLP, GOL, MSE; 1.91A {Listeria monocytogenes str. 4b}
+Probab=6.85  E-value=4.8e+02  Score=11.17  Aligned_cols=5  Identities=80%  Similarity=1.524  Sum_probs=0.0  Template_Neff=10.000
+
+Q PTREPT            1 PTREP    5 (6)
+Q Consensus         1 ptrep    5 (6)
+                      |.|+|
+T Consensus       379 ~~~~~  383 (409)
+T 3JZL_A          379 PIREP  383 (409)
+T ss_dssp             ESSTT
+T ss_pred             CCCCC
+
+
+No 7
+>6YP7_I Chlorophyll a-b binding protein 8; Cryo-EM, photosystem II, High Light; HET: PL9, LHG, BCR, NEX, HEM, OEX, CLA, PHO, DGD, XAT, SQD, LUT, LMG, CHL;{Pisum sativum}
+Probab=6.66  E-value=4.9e+02  Score=9.83  Aligned_cols=5  Identities=60%  Similarity=1.311  Sum_probs=0.0  Template_Neff=2.400
+
+Q PTREPT            1 PTREP    5 (6)
+Q Consensus         1 ptrep    5 (6)
+                      |.|.|
+T Consensus        28 p~RnP   32 (34)
+T 6YP7_I           28 PGRNP   32 (34)
+T ss_pred             CCCCC
+
+
+No 8
+>2GK4_A conserved hypothetical protein; alpha-beta-alpha sandwich, Flavoprotein, Structural Genomics; HET: GOL; 1.83A {Streptococcus pneumoniae}
+Probab=6.62  E-value=5e+02  Score=10.71  Aligned_cols=5  Identities=40%  Similarity=0.308  Sum_probs=0.0  Template_Neff=8.800
+
+Q PTREPT            1 PTREP    5 (6)
+Q Consensus         1 ptrep    5 (6)
+                      ||+||
+T Consensus        12 ~t~~~   16 (232)
+T 2GK4_A           12 GTSEA   16 (232)
+T ss_dssp             BCEEE
+T ss_pred             CCCCC
+
+
+No 9
+>5AJA_B PROTEIN VPRBP (E.C.2.7.11.1), VPX PROTEIN; VIRAL PROTEIN, SIV, ACCESSORY PROTEIN; 2.649A {HOMO SAPIENS}
+Probab=6.09  E-value=5.5e+02  Score=11.20  Aligned_cols=5  Identities=0%  Similarity=-0.257  Sum_probs=0.0  Template_Neff=3.900
+
+Q PTREPT            1 PTREP    5 (6)
+Q Consensus         1 ptrep    5 (6)
+                      |.|||
+T Consensus        15 p~rep   19 (102)
+T 5AJA_B           15 AGEVG   19 (102)
+T ss_dssp             TTCSC
+T ss_pred             CCCCc
+
+
+No 10
+>3HT4_A Aluminum resistance protein; Lyase, putative cystathionine beat-lyase, aluminium; 2.9A {Bacillus cereus ATCC 14579}
+Probab=6.04  E-value=5.6e+02  Score=11.39  Aligned_cols=5  Identities=60%  Similarity=1.251  Sum_probs=0.0  Template_Neff=9.300
+
+Q PTREPT            1 PTREP    5 (6)
+Q Consensus         1 ptrep    5 (6)
+                      |.|||
+T Consensus       385 ~~~~~  389 (431)
+T 3HT4_A          385 PIRPP  389 (431)
+T ss_pred             CCCCc
+
+

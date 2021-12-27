@@ -1,0 +1,154 @@
+Query         CTIYWG
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 16:34:08 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/CTIYWG/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/CTIYWG/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2XOY_B E3 UBIQUITIN-PROTEIN LI  40.6      26 0.00029   15.4   0.0    6    1-6     115-120 (261)
+  2 2XOC_B E3 UBIQUITIN-PROTEIN LI  39.4      28 0.00031   15.3   0.0    6    1-6     115-120 (261)
+  3 7A5V_O Gamma-aminobutyric acid  30.0      50 0.00055   15.9   0.0    6    1-6     498-503 (522)
+  4 2N7K_B NEDD8, Protein KHNYN; S  23.3      79 0.00088   12.7   0.0    6    1-6      17-22  (52)
+  5 1K3R_B conserved protein MT000  19.9   1E+02  0.0011   14.0   0.0    4    3-6     161-164 (268)
+  6 3UYU_B Antifreeze protein; rig  19.6 1.1E+02  0.0012   14.2   0.0    5    1-5     167-171 (241)
+  7 4KPK_A Enoyl-CoA hydratase/iso  19.5 1.1E+02  0.0012   13.4   0.0    5    1-5      16-20  (314)
+  8 5JEL_A Interferon regulatory f  19.1 1.1E+02  0.0012   13.5   0.0    5    1-5     104-108 (242)
+  9 5JEO_A Rotavirus NSP1 peptide,  19.1 1.1E+02  0.0012   13.5   0.0    5    1-5     104-108 (242)
+ 10 5JER_G Rotavirus NSP1 peptide,  18.5 1.2E+02  0.0013   13.4   0.0    5    1-5     104-108 (242)
+
+No 1
+>2XOY_B E3 UBIQUITIN-PROTEIN LIGASE CHFR (E.C.6.3.2.-); LIGASE, ZINC-BINDING, PBZ, MITOSIS, ANTEPHASE; HET: ZN, AMP, ADE; 2.6A {HOMO SAPIENS}
+Probab=40.63  E-value=26  Score=15.40  Aligned_cols=6  Identities=67%  Similarity=2.361  Sum_probs=3.7  Template_Neff=7.200
+
+Q CTIYWG            1 CTIYWG    6 (6)
+Q Consensus         1 ctiywg    6 (6)
+                      |.+||+
+T Consensus       115 C~~yw~  120 (261)
+T 2XOY_B          115 CHLYWG  120 (261)
+T ss_dssp             CHHHHC
+T ss_pred             ccceeC
+Confidence            556775
+
+
+No 2
+>2XOC_B E3 UBIQUITIN-PROTEIN LIGASE CHFR (E.C.6.3.2.-); ZINC-BINDING, LIGASE, POLY(ADP-RIBOSE) MITOSIS, ANTEPHASE; HET: PGE, ADP, ADE, ZN; 1.89A {HOMO SAPIENS}
+Probab=39.38  E-value=28  Score=15.30  Aligned_cols=6  Identities=67%  Similarity=2.361  Sum_probs=3.7  Template_Neff=7.200
+
+Q CTIYWG            1 CTIYWG    6 (6)
+Q Consensus         1 ctiywg    6 (6)
+                      |.+||+
+T Consensus       115 C~~yw~  120 (261)
+T 2XOC_B          115 CHLYWG  120 (261)
+T ss_dssp             CHHHHC
+T ss_pred             hhceec
+Confidence            556774
+
+
+No 3
+>7A5V_O Gamma-aminobutyric acid receptor subunit beta-3; Pentameric ligand-gated ion channel, Neurotrasmitter; HET: D10, R16, MAN, BMA, NAG; 1.7A {Homo sapiens}
+Probab=29.96  E-value=50  Score=15.88  Aligned_cols=6  Identities=50%  Similarity=1.171  Sum_probs=3.7  Template_Neff=7.300
+
+Q CTIYWG            1 CTIYWG    6 (6)
+Q Consensus         1 ctiywg    6 (6)
+                      |++|||
+T Consensus       498 ~~~~~~  503 (522)
+T 7A5V_O          498 NYDYWG  503 (522)
+T ss_dssp             GEEEEC
+T ss_pred             ceeeeC
+Confidence            456776
+
+
+No 4
+>2N7K_B NEDD8, Protein KHNYN; SIGNALING PROTEIN; NMR {Homo sapiens}
+Probab=23.28  E-value=79  Score=12.69  Aligned_cols=6  Identities=33%  Similarity=1.520  Sum_probs=3.6  Template_Neff=2.800
+
+Q CTIYWG            1 CTIYWG    6 (6)
+Q Consensus         1 ctiywg    6 (6)
+                      |.|+||
+T Consensus        17 l~IF~g   22 (52)
+T 2N7K_B           17 LEVFWG   22 (52)
+T ss_dssp             CCTTTT
+T ss_pred             HHHhcC
+Confidence            456765
+
+
+No 5
+>1K3R_B conserved protein MT0001; beta barrel, Structural Genomics, PSI; 2.3A {Methanothermobacter thermautotrophicus} SCOP: b.40.4.10, c.116.1.2
+Probab=19.91  E-value=1e+02  Score=14.04  Aligned_cols=4  Identities=75%  Similarity=2.178  Sum_probs=0.0  Template_Neff=6.500
+
+Q CTIYWG            3 IYWG    6 (6)
+Q Consensus         3 iywg    6 (6)
+                      .|||
+T Consensus       161 ~YwG  164 (268)
+T 1K3R_B          161 RYWG  164 (268)
+T ss_dssp             SCCC
+T ss_pred             Cccc
+
+
+No 6
+>3UYU_B Antifreeze protein; right-handed beta-helix fold, ICE BINDING; HET: MSE, GOL; 1.57A {Leucosporidium}
+Probab=19.57  E-value=1.1e+02  Score=14.18  Aligned_cols=5  Identities=20%  Similarity=0.361  Sum_probs=0.0  Template_Neff=5.700
+
+Q CTIYWG            1 CTIYW    5 (6)
+Q Consensus         1 ctiyw    5 (6)
+                      |-|||
+T Consensus       167 ~NVfW  171 (241)
+T 3UYU_B          167 TNIAF  171 (241)
+T ss_dssp             GGEEE
+T ss_pred             cCeeE
+
+
+No 7
+>4KPK_A Enoyl-CoA hydratase/isomerase; PSI-BIOLOGY, STRUCTURAL GENOMICS, PROTEIN STRUCTURE; 2.09A {Shewanella pealeana}
+Probab=19.55  E-value=1.1e+02  Score=13.39  Aligned_cols=5  Identities=20%  Similarity=0.780  Sum_probs=0.0  Template_Neff=8.300
+
+Q CTIYWG            1 CTIYW    5 (6)
+Q Consensus         1 ctiyw    5 (6)
+                      |+|||
+T Consensus        16 ~~~~~   20 (314)
+T 4KPK_A           16 ENLYF   20 (314)
+T ss_dssp             -----
+T ss_pred             ceEEE
+
+
+No 8
+>5JEL_A Interferon regulatory factor 3, Phosphorylated; Innate Immunity, Signaling, IMMUNE SYSTEM; HET: SEP; 1.6A {Homo sapiens}
+Probab=19.14  E-value=1.1e+02  Score=13.47  Aligned_cols=5  Identities=60%  Similarity=2.168  Sum_probs=0.0  Template_Neff=7.100
+
+Q CTIYWG            1 CTIYW    5 (6)
+Q Consensus         1 ctiyw    5 (6)
+                      |.+||
+T Consensus       104 ~~Vfw  108 (242)
+T 5JEL_A          104 CHTYW  108 (242)
+T ss_dssp             BCEEE
+T ss_pred             CeeEE
+
+
+No 9
+>5JEO_A Rotavirus NSP1 peptide, Interferon regulatory; Viral Immuinity, IMMUNE SYSTEM; HET: PO4, SEP; 1.719A {Rotavirus A}
+Probab=19.14  E-value=1.1e+02  Score=13.47  Aligned_cols=5  Identities=60%  Similarity=2.168  Sum_probs=0.0  Template_Neff=7.100
+
+Q CTIYWG            1 CTIYW    5 (6)
+Q Consensus         1 ctiyw    5 (6)
+                      |.+||
+T Consensus       104 ~~Vfw  108 (242)
+T 5JEO_A          104 CHTYW  108 (242)
+T ss_dssp             BCEEE
+T ss_pred             CeeEE
+
+
+No 10
+>5JER_G Rotavirus NSP1 peptide, Interferon regulatory; Viral Immunity, IMMUNE SYSTEM; 2.913A {Rotavirus A}
+Probab=18.54  E-value=1.2e+02  Score=13.40  Aligned_cols=5  Identities=60%  Similarity=2.168  Sum_probs=0.0  Template_Neff=7.100
+
+Q CTIYWG            1 CTIYW    5 (6)
+Q Consensus         1 ctiyw    5 (6)
+                      |.+||
+T Consensus       104 ~~Vfw  108 (242)
+T 5JER_G          104 CHTYW  108 (242)
+T ss_dssp             BCEEE
+T ss_pred             CeeEE
+
+

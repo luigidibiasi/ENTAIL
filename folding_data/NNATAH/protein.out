@@ -1,0 +1,147 @@
+Query         NNATAH
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 02:00:50 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NNATAH/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NNATAH/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 1VMJ_A hypothetical protein TM   6.1 5.6E+02  0.0062   11.1   0.0    6    1-6      99-104 (151)
+  2 2F7T_A Mos1 transposase; RNASE   6.0 5.6E+02  0.0062    9.1   0.0    6    1-6     131-136 (227)
+  3 2JVR_A Nucleolar protein 3; pr   6.0 5.7E+02  0.0063    8.1   0.0    6    1-6       1-6   (111)
+  4 1VE0_A hypothetical protein (S   5.8   6E+02  0.0066   10.5   0.0    6    1-6      82-87  (134)
+  5 3F2K_B Histone-lysine N-methyl   5.6 6.2E+02  0.0068    9.0   0.0    6    1-6     130-135 (226)
+  6 3K9K_A Histone-lysine N-methyl   5.5 6.3E+02   0.007    9.1   0.0    6    1-6     143-148 (239)
+  7 2CU5_C Conserved Hypothetical    5.3 6.6E+02  0.0073   10.4   0.0    5    2-6      80-84  (129)
+  8 1FGP_A FD GENE 3 PROTEIN; PHAG   5.3 6.6E+02  0.0073   10.7   0.0    6    1-6      65-70  (70)
+  9 2CU5_A Conserved Hypothetical    5.1 6.9E+02  0.0076   10.3   0.0    5    2-6      80-84  (129)
+ 10 1JEK_A ENV POLYPROTEIN; ENVELO   4.6 7.8E+02  0.0087    9.8   0.0    4    2-5       6-9   (42)
+
+No 1
+>1VMJ_A hypothetical protein TM0723; PUTATIVE THIAMIN PHOSPHATE SYNTHASE, STRUCTURAL; HET: SO4; 1.52A {Thermotoga maritima} SCOP: d.273.1.1
+Probab=6.05  E-value=5.6e+02  Score=11.07  Aligned_cols=6  Identities=67%  Similarity=0.933  Sum_probs=0.0  Template_Neff=6.000
+
+Q NNATAH            1 NNATAH    6 (6)
+Q Consensus         1 nnatah    6 (6)
+                      .|+.||
+T Consensus        99 ~n~~aH  104 (151)
+T 1VMJ_A           99 DNADAH  104 (151)
+T ss_dssp             CCHHHH
+T ss_pred             cCHHHH
+
+
+No 2
+>2F7T_A Mos1 transposase; RNASE-H LIKE FOLD, DDD MOTIF; 2.25A {Drosophila mauritiana}
+Probab=6.02  E-value=5.6e+02  Score=9.11  Aligned_cols=6  Identities=50%  Similarity=0.866  Sum_probs=0.0  Template_Neff=11.800
+
+Q NNATAH            1 NNATAH    6 (6)
+Q Consensus         1 nnatah    6 (6)
+                      .|+.+|
+T Consensus       131 Dn~~~h  136 (227)
+T 2F7T_A          131 DNAPSH  136 (227)
+T ss_pred             CCCCCc
+
+
+No 3
+>2JVR_A Nucleolar protein 3; protein, RNA recognition motif, Nucleus; NMR {Saccharomyces cerevisiae}
+Probab=5.99  E-value=5.7e+02  Score=8.09  Aligned_cols=6  Identities=17%  Similarity=0.335  Sum_probs=0.0  Template_Neff=11.400
+
+Q NNATAH            1 NNATAH    6 (6)
+Q Consensus         1 nnatah    6 (6)
+                      ||.++|
+T Consensus         1 ~~~~~~    6 (111)
+T 2JVR_A            1 MGSSHH    6 (111)
+T ss_pred             CCCccc
+
+
+No 4
+>1VE0_A hypothetical protein (ST2072); Structural genomics, Zinc binding protein; 2.0A {Sulfolobus tokodaii}
+Probab=5.77  E-value=6e+02  Score=10.53  Aligned_cols=6  Identities=67%  Similarity=0.900  Sum_probs=0.0  Template_Neff=6.600
+
+Q NNATAH            1 NNATAH    6 (6)
+Q Consensus         1 nnatah    6 (6)
+                      .|+.||
+T Consensus        82 ~n~~aH   87 (134)
+T 1VE0_A           82 NNGHAH   87 (134)
+T ss_pred             CCchhh
+
+
+No 5
+>3F2K_B Histone-lysine N-methyltransferase SETMAR (E.C.2.1.1.43), LYFA; Histone-lysine N-methyltransferase SETMAR, SET domain; HET: MSE; 1.85A {Homo sapiens}
+Probab=5.60  E-value=6.2e+02  Score=9.01  Aligned_cols=6  Identities=50%  Similarity=0.805  Sum_probs=0.0  Template_Neff=11.800
+
+Q NNATAH            1 NNATAH    6 (6)
+Q Consensus         1 nnatah    6 (6)
+                      +|+.+|
+T Consensus       130 Dn~~~h  135 (226)
+T 3F2K_B          130 DNARPH  135 (226)
+T ss_dssp             CCCHHH
+T ss_pred             CCCCCc
+
+
+No 6
+>3K9K_A Histone-lysine N-methyltransferase SETMAR (E.C.2.1.1.43); transposase, Chromatin regulator, DNA damage; 2.55A {Homo sapiens}
+Probab=5.49  E-value=6.3e+02  Score=9.12  Aligned_cols=6  Identities=50%  Similarity=0.805  Sum_probs=0.0  Template_Neff=11.700
+
+Q NNATAH            1 NNATAH    6 (6)
+Q Consensus         1 nnatah    6 (6)
+                      +|+.+|
+T Consensus       143 Dn~~~h  148 (239)
+T 3K9K_A          143 DNARPH  148 (239)
+T ss_dssp             CTTSSS
+T ss_pred             cCCCCc
+
+
+No 7
+>2CU5_C Conserved Hypothetical Protein TT1486; Thermus Thermophilus HB8, Conserved Hypothetical; 1.84A {Thermus thermophilus}
+Probab=5.33  E-value=6.6e+02  Score=10.43  Aligned_cols=5  Identities=60%  Similarity=0.866  Sum_probs=0.0  Template_Neff=6.400
+
+Q NNATAH            2 NATAH    6 (6)
+Q Consensus         2 natah    6 (6)
+                      |+.||
+T Consensus        80 n~~aH   84 (129)
+T 2CU5_C           80 NSHAH   84 (129)
+T ss_dssp             CHHHH
+T ss_pred             CchHH
+
+
+No 8
+>1FGP_A FD GENE 3 PROTEIN; PHAGE COAT PROTEIN, SH3 DOMAIN; NMR {Enterobacteria phage fd} SCOP: b.37.1.1
+Probab=5.33  E-value=6.6e+02  Score=10.73  Aligned_cols=6  Identities=67%  Similarity=0.894  Sum_probs=0.0  Template_Neff=2.500
+
+Q NNATAH            1 NNATAH    6 (6)
+Q Consensus         1 nnatah    6 (6)
+                      ++|.||
+T Consensus        65 ~~~~~~   70 (70)
+T 1FGP_A           65 ENAAAH   70 (70)
+T ss_dssp             CSSCCC
+T ss_pred             cccccC
+
+
+No 9
+>2CU5_A Conserved Hypothetical Protein TT1486; Thermus Thermophilus HB8, Conserved Hypothetical; 1.84A {Thermus thermophilus}
+Probab=5.13  E-value=6.9e+02  Score=10.33  Aligned_cols=5  Identities=60%  Similarity=0.866  Sum_probs=0.0  Template_Neff=6.500
+
+Q NNATAH            2 NATAH    6 (6)
+Q Consensus         2 natah    6 (6)
+                      |+.||
+T Consensus        80 n~~aH   84 (129)
+T 2CU5_A           80 NSHAH   84 (129)
+T ss_dssp             CHHHH
+T ss_pred             CchHH
+
+
+No 10
+>1JEK_A ENV POLYPROTEIN; ENVELOPE GLYCOPROTEIN, RETROVIRUS, HIV, SIV; 1.5A {N/A} SCOP: h.3.2.1
+Probab=4.64  E-value=7.8e+02  Score=9.80  Aligned_cols=4  Identities=100%  Similarity=0.925  Sum_probs=0.0  Template_Neff=1.200
+
+Q NNATAH            2 NATA    5 (6)
+Q Consensus         2 nata    5 (6)
+                      ||||
+T Consensus         6 nata    9 (42)
+T 1JEK_A            6 NATA    9 (42)
+T ss_dssp             HHHH
+T ss_pred             hhHH
+
+

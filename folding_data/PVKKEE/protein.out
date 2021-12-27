@@ -1,0 +1,150 @@
+Query         PVKKEE
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 06:51:54 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/PVKKEE/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/PVKKEE/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3CGX_A Putative nucleotide-dip   6.0 5.6E+02  0.0063   10.5   0.0    5    1-5     238-242 (242)
+  2 4YYR_A Ficin B monomer (E.C.3.   6.0 5.7E+02  0.0063    9.8   0.0    4    1-4     216-219 (222)
+  3 6VBB_A Peptidase S41; Structur   5.6 6.2E+02  0.0068   11.1   0.0    6    1-6       8-13  (376)
+  4 5OLL_A Gurmarin; Gurmarin, swe   5.5 6.3E+02  0.0069    9.8   0.0    5    2-6       4-8   (35)
+  5 4YYU_A Ficin isoform C (E.C.3.   5.4 6.5E+02  0.0072    9.7   0.0    4    1-4     216-219 (222)
+  6 6A6B_I Alpha-synuclein; alpha-   5.3 6.7E+02  0.0074   10.4   0.0    5    2-6      59-63  (63)
+  7 4YYS_B Ficin isoform B (E.C.3.   5.0 7.1E+02  0.0079    9.5   0.0    4    1-4     216-219 (221)
+  8 4WFD_E Exosome complex exonucl   4.6   8E+02  0.0088    9.1   0.0    5    1-5      75-79  (103)
+  9 1IA6_A CELLULASE CEL9M (E.C.3.   4.5 8.1E+02   0.009   11.2   0.0    4    1-4     438-441 (441)
+ 10 1IA7_A CELLULASE CEL9M (E.C.3.   4.5 8.1E+02   0.009   11.2   0.0    4    1-4     438-441 (441)
+
+No 1
+>3CGX_A Putative nucleotide-diphospho-sugar transferase; YP_389115.1, Putative Nucleotide-diphospho-sugar Transferase, Structural; 1.9A {Desulfovibrio desulfuricans subsp. desulfuricans str.}
+Probab=6.00  E-value=5.6e+02  Score=10.54  Aligned_cols=5  Identities=80%  Similarity=1.265  Sum_probs=0.0  Template_Neff=9.000
+
+Q PVKKEE            1 PVKKE    5 (6)
+Q Consensus         1 pvkke    5 (6)
+                      ||.||
+T Consensus       238 ~~~~~  242 (242)
+T 3CGX_A          238 PVEKE  242 (242)
+T ss_dssp             -----
+T ss_pred             CccCC
+
+
+No 2
+>4YYR_A Ficin B monomer (E.C.3.4.22.3); Cysteine protease, hydrolase; HET: SO4; 1.349A {Ficus carica}
+Probab=5.97  E-value=5.7e+02  Score=9.78  Aligned_cols=4  Identities=100%  Similarity=1.448  Sum_probs=0.0  Template_Neff=10.300
+
+Q PVKKEE            1 PVKK    4 (6)
+Q Consensus         1 pvkk    4 (6)
+                      |+||
+T Consensus       216 ~~~~  219 (222)
+T 4YYR_A          216 PVKK  219 (222)
+T ss_dssp             EECC
+T ss_pred             eeec
+
+
+No 3
+>6VBB_A Peptidase S41; Structural Genomics, Center for Structural; HET: MSE, PEG; 2.6A {Acinetobacter baumannii}
+Probab=5.60  E-value=6.2e+02  Score=11.09  Aligned_cols=6  Identities=67%  Similarity=0.960  Sum_probs=0.0  Template_Neff=9.200
+
+Q PVKKEE            1 PVKKEE    6 (6)
+Q Consensus         1 pvkkee    6 (6)
+                      ||.++|
+T Consensus         8 ~~~~~~   13 (376)
+T 6VBB_A            8 PVVKEK   13 (376)
+T ss_dssp             ------
+T ss_pred             CcCccc
+
+
+No 4
+>5OLL_A Gurmarin; Gurmarin, sweet, taste, knottin, GPCR; 1.45A {Gymnema sylvestre}
+Probab=5.55  E-value=6.3e+02  Score=9.76  Aligned_cols=5  Identities=80%  Similarity=1.072  Sum_probs=0.0  Template_Neff=1.000
+
+Q PVKKEE            2 VKKEE    6 (6)
+Q Consensus         2 vkkee    6 (6)
+                      |||.|
+T Consensus         4 vkkde    8 (35)
+T 5OLL_A            4 VKKDE    8 (35)
+T ss_dssp             BCTTS
+T ss_pred             ccccc
+
+
+No 5
+>4YYU_A Ficin isoform C (E.C.3.4.22.3); Cystein protease, hydrolase; HET: SCH, MES, SO4; 1.177A {Ficus carica}
+Probab=5.40  E-value=6.5e+02  Score=9.68  Aligned_cols=4  Identities=100%  Similarity=1.448  Sum_probs=0.0  Template_Neff=10.200
+
+Q PVKKEE            1 PVKK    4 (6)
+Q Consensus         1 pvkk    4 (6)
+                      |+||
+T Consensus       216 ~~~~  219 (222)
+T 4YYU_A          216 PVKK  219 (222)
+T ss_dssp             EECC
+T ss_pred             ceec
+
+
+No 6
+>6A6B_I Alpha-synuclein; alpha-syn fiber, Parkinson disease, PROTEIN; 3.07A {Homo sapiens}
+Probab=5.28  E-value=6.7e+02  Score=10.39  Aligned_cols=5  Identities=60%  Similarity=0.946  Sum_probs=0.0  Template_Neff=3.100
+
+Q PVKKEE            2 VKKEE    6 (6)
+Q Consensus         2 vkkee    6 (6)
+                      |||+|
+T Consensus        59 Vkk~e   63 (63)
+T 6A6B_I           59 VKKDQ   63 (63)
+T ss_dssp             CCCCC
+T ss_pred             eecCC
+
+
+No 7
+>4YYS_B Ficin isoform B (E.C.3.4.22.3); Cystein protease, hydrolase; HET: SCH, PO4; 1.35A {Ficus carica}
+Probab=5.02  E-value=7.1e+02  Score=9.52  Aligned_cols=4  Identities=100%  Similarity=1.448  Sum_probs=0.0  Template_Neff=10.300
+
+Q PVKKEE            1 PVKK    4 (6)
+Q Consensus         1 pvkk    4 (6)
+                      |+||
+T Consensus       216 ~~~~  219 (221)
+T 4YYS_B          216 PVKK  219 (221)
+T ss_dssp             EECC
+T ss_pred             eeec
+
+
+No 8
+>4WFD_E Exosome complex exonuclease RRP6 (E.C.3.1.13.-); Rrp6-Rrp47 complex, nuclear exosome, RNA; HET: YT3; 2.4A {Saccharomyces cerevisiae}
+Probab=4.57  E-value=8e+02  Score=9.06  Aligned_cols=5  Identities=40%  Similarity=0.740  Sum_probs=0.0  Template_Neff=8.200
+
+Q PVKKEE            1 PVKKE    5 (6)
+Q Consensus         1 pvkke    5 (6)
+                      ||.++
+T Consensus        75 pV~~e   79 (103)
+T 4WFD_E           75 PILGE   79 (103)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 9
+>1IA6_A CELLULASE CEL9M (E.C.3.2.1.4); Cellullase, Alpha Barrel, HYDROLASE; 1.8A {Clostridium cellulolyticum} SCOP: a.102.1.2
+Probab=4.50  E-value=8.1e+02  Score=11.19  Aligned_cols=4  Identities=100%  Similarity=1.448  Sum_probs=0.0  Template_Neff=8.800
+
+Q PVKKEE            1 PVKK    4 (6)
+Q Consensus         1 pvkk    4 (6)
+                      ||||
+T Consensus       438 ~~~~  441 (441)
+T 1IA6_A          438 PVKK  441 (441)
+T ss_dssp             ----
+T ss_pred             CCCC
+
+
+No 10
+>1IA7_A CELLULASE CEL9M (E.C.3.2.1.4); Cellulase, alpha barrel, HYDROLASE; HET: BGC, EDO; 2.0A {Clostridium cellulolyticum} SCOP: a.102.1.2
+Probab=4.50  E-value=8.1e+02  Score=11.19  Aligned_cols=4  Identities=100%  Similarity=1.448  Sum_probs=0.0  Template_Neff=8.800
+
+Q PVKKEE            1 PVKK    4 (6)
+Q Consensus         1 pvkk    4 (6)
+                      ||||
+T Consensus       438 ~~~~  441 (441)
+T 1IA7_A          438 PVKK  441 (441)
+T ss_dssp             ----
+T ss_pred             CCCC
+
+

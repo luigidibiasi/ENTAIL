@@ -1,0 +1,149 @@
+Query         KLLIYE
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 11:25:14 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/KLLIYE/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/KLLIYE/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3DF7_A Putative ATP-grasp supe  33.8      39 0.00043   13.7   0.0    6    1-6       3-8   (305)
+  2 2I15_B Hypothetical protein MG  13.4 1.9E+02  0.0021   13.6   0.0    5    2-6      45-49  (135)
+  3 5OHP_A Ubiquitin carboxyl-term  13.2 1.9E+02  0.0021   11.2   0.0    5    2-6     330-334 (336)
+  4 6CPM_C Ubiquitin carboxyl-term  13.0   2E+02  0.0022   11.1   0.0    5    2-6     339-343 (349)
+  5 5OHK_A Ubiquitin carboxyl-term  12.6 2.1E+02  0.0023   11.1   0.0    5    2-6     330-334 (336)
+  6 1K8K_E ACTIN-RELATED PROTEIN 2  12.5 2.1E+02  0.0023   13.3   0.0    5    1-5      66-70  (178)
+  7 4JD2_E Actin-related protein 3  12.5 2.1E+02  0.0023   13.3   0.0    5    1-5      66-70  (178)
+  8 7AQK_e Actin-related protein 2  12.5 2.1E+02  0.0023   13.3   0.0    5    1-5      66-70  (178)
+  9 5CHT_B Ubl carboxyl-terminal h  12.4 2.1E+02  0.0023   11.1   0.0    5    2-6     318-322 (326)
+ 10 3NHE_A Ubiquitin carboxyl-term  12.1 2.2E+02  0.0024   10.9   0.0    5    2-6     336-340 (348)
+
+No 1
+>3DF7_A Putative ATP-grasp superfamily protein; putative protein, ATP-grasp superfamily, Archaeoglobus; 1.87A {Archaeoglobus fulgidus}
+Probab=33.77  E-value=39  Score=13.73  Aligned_cols=6  Identities=50%  Similarity=1.148  Sum_probs=3.5  Template_Neff=9.800
+
+Q KLLIYE            1 KLLIYE    6 (6)
+Q Consensus         1 klliye    6 (6)
+                      |++|||
+T Consensus         3 ~~~~~e    8 (305)
+T 3DF7_A            3 KLFLFE    8 (305)
+T ss_dssp             EEEEEE
+T ss_pred             eEEEEE
+Confidence            456665
+
+
+No 2
+>2I15_B Hypothetical protein MG296 homolog; Structural genomics, MPN423, Hypothetical protein; 2.4A {Mycoplasma pneumoniae} SCOP: a.291.1.1
+Probab=13.40  E-value=1.9e+02  Score=13.65  Aligned_cols=5  Identities=100%  Similarity=1.557  Sum_probs=0.0  Template_Neff=1.200
+
+Q KLLIYE            2 LLIYE    6 (6)
+Q Consensus         2 lliye    6 (6)
+                      ++|||
+T Consensus        45 ~~iye   49 (135)
+T 2I15_B           45 LLIYE   49 (135)
+T ss_dssp             SSGGG
+T ss_pred             eEEee
+
+
+No 3
+>5OHP_A Ubiquitin carboxyl-terminal hydrolase 30,Ubiquitin carboxyl-terminal; DUB, Ubiquitin, USP, K6, HYDROLASE; 2.8A {Homo sapiens}
+Probab=13.21  E-value=1.9e+02  Score=11.23  Aligned_cols=5  Identities=80%  Similarity=1.358  Sum_probs=0.0  Template_Neff=11.300
+
+Q KLLIYE            2 LLIYE    6 (6)
+Q Consensus         2 lliye    6 (6)
+                      +|+|+
+T Consensus       330 ll~Y~  334 (336)
+T 5OHP_A          330 LLFYE  334 (336)
+T ss_dssp             EEEEE
+T ss_pred             EEEEE
+
+
+No 4
+>6CPM_C Ubiquitin carboxyl-terminal hydrolase 15, (E.C.3.4.19.12); deubiuqitination, Ubv, high-affinity, inhibition, SIGNALING; HET: GOL; 2.011A {Homo sapiens}
+Probab=12.98  E-value=2e+02  Score=11.06  Aligned_cols=5  Identities=40%  Similarity=1.085  Sum_probs=0.0  Template_Neff=11.700
+
+Q KLLIYE            2 LLIYE    6 (6)
+Q Consensus         2 lliye    6 (6)
+                      +|+||
+T Consensus       339 ~l~Y~  343 (349)
+T 6CPM_C          339 VLFYQ  343 (349)
+T ss_pred             EEEEE
+
+
+No 5
+>5OHK_A Ubiquitin carboxyl-terminal hydrolase 30,Ubiquitin carboxyl-terminal; Deubiquitinase, DUB, Ubiquitin, USP, HYDROLASE; 2.34A {Homo sapiens}
+Probab=12.63  E-value=2.1e+02  Score=11.11  Aligned_cols=5  Identities=80%  Similarity=1.358  Sum_probs=0.0  Template_Neff=11.400
+
+Q KLLIYE            2 LLIYE    6 (6)
+Q Consensus         2 lliye    6 (6)
+                      +|+|+
+T Consensus       330 ll~Y~  334 (336)
+T 5OHK_A          330 LLFYE  334 (336)
+T ss_dssp             EEEEE
+T ss_pred             EEEEE
+
+
+No 6
+>1K8K_E ACTIN-RELATED PROTEIN 2/3 COMPLEX (PROTEINS; beta-propeller, STRUCTURAL PROTEIN; 2.0A {Bos taurus} SCOP: a.148.1.1
+Probab=12.52  E-value=2.1e+02  Score=13.32  Aligned_cols=5  Identities=60%  Similarity=1.145  Sum_probs=0.0  Template_Neff=4.300
+
+Q KLLIYE            1 KLLIY    5 (6)
+Q Consensus         1 klliy    5 (6)
+                      ++|||
+T Consensus        66 R~LIY   70 (178)
+T 1K8K_E           66 RTLIY   70 (178)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 7
+>4JD2_E Actin-related protein 3, Actin-related protein; actin filament polymerization and branching; HET: ATP, PG4; 3.08A {Bos taurus}
+Probab=12.52  E-value=2.1e+02  Score=13.32  Aligned_cols=5  Identities=60%  Similarity=1.145  Sum_probs=0.0  Template_Neff=4.300
+
+Q KLLIYE            1 KLLIY    5 (6)
+Q Consensus         1 klliy    5 (6)
+                      ++|||
+T Consensus        66 R~LIY   70 (178)
+T 4JD2_E           66 RTLIY   70 (178)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 8
+>7AQK_e Actin-related protein 2, Arp2, Actin-related; Actin, Arp2-3 complex, Cytoskeleton, STRUCTURAL; 9.0A {Mus musculus}
+Probab=12.52  E-value=2.1e+02  Score=13.32  Aligned_cols=5  Identities=60%  Similarity=1.145  Sum_probs=0.0  Template_Neff=4.300
+
+Q KLLIYE            1 KLLIY    5 (6)
+Q Consensus         1 klliy    5 (6)
+                      ++|||
+T Consensus        66 R~LIY   70 (178)
+T 7AQK_e           66 RTLIY   70 (178)
+T ss_pred             HHHHH
+
+
+No 9
+>5CHT_B Ubl carboxyl-terminal hydrolase 18 (E.C.3.4.19.-); Ubiquitin-specific protease, ISG15, interferon, hydrolase; 2.8A {Mus musculus}
+Probab=12.45  E-value=2.1e+02  Score=11.08  Aligned_cols=5  Identities=60%  Similarity=1.251  Sum_probs=0.0  Template_Neff=11.300
+
+Q KLLIYE            2 LLIYE    6 (6)
+Q Consensus         2 lliye    6 (6)
+                      +|+|+
+T Consensus       318 ll~Y~  322 (326)
+T 5CHT_B          318 LLVYT  322 (326)
+T ss_dssp             EEEEE
+T ss_pred             EEEEE
+
+
+No 10
+>3NHE_A Ubiquitin carboxyl-terminal hydrolase 2 (E.C.3.1.2.15); Deubiquitinating Protease, Cysteine Protease, Substrate; 1.26A {Homo sapiens}
+Probab=12.14  E-value=2.2e+02  Score=10.90  Aligned_cols=5  Identities=80%  Similarity=1.358  Sum_probs=0.0  Template_Neff=11.800
+
+Q KLLIYE            2 LLIYE    6 (6)
+Q Consensus         2 lliye    6 (6)
+                      +|+||
+T Consensus       336 ll~Y~  340 (348)
+T 3NHE_A          336 LLFYE  340 (348)
+T ss_dssp             EEEEE
+T ss_pred             EEEEE
+
+

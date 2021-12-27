@@ -1,0 +1,150 @@
+Query         ESDKKE
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 19:50:40 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/ESDKKE/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/ESDKKE/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5E7T_B Minor structural protei  10.1 2.8E+02  0.0031   13.6   0.0    6    1-6     271-276 (286)
+  2 2PYQ_C Uncharacterized protein   3.5 1.1E+03   0.012   10.6   0.0    5    2-6      51-55  (114)
+  3 4Y98_A LigD; Short Chain Dehyd   3.4 1.1E+03   0.013    9.2   0.0    5    1-5     299-303 (305)
+  4 5HLO_A Protein S100-A8; S100 p   3.2 1.3E+03   0.014    6.9   0.0    6    1-6      89-94  (94)
+  5 5HLO_B Protein S100-A8; S100 p   3.2 1.3E+03   0.014    6.9   0.0    6    1-6      89-94  (94)
+  6 3B8L_B Uncharacterized protein   3.1 1.3E+03   0.014    8.1   0.0    4    2-5       3-6   (163)
+  7 2MTP_C Filamin-A, Integrin alp   3.1 1.3E+03   0.014    7.9   0.0    4    3-6       8-11  (47)
+  8 1TOV_A Hypothetical protein F5   3.0 1.4E+03   0.015    8.4   0.0    6    1-6       3-8   (98)
+  9 6YXY_EU bL28m, uL29m, uL30m, b   2.8 1.4E+03   0.016    9.5   0.0    5    1-5      36-40  (56)
+ 10 5TQM_A Cinnamoyl-CoA Reductase   2.8 1.4E+03   0.016    9.4   0.0    6    1-6     359-364 (380)
+
+No 1
+>5E7T_B Minor structural protein 4, Minor; bacteriophages, Lactococcus lactis, Siphoviridae, nanobody; HET: SO4; 2.9A {Lactococcus phage Tuc2009}
+Probab=10.14  E-value=2.8e+02  Score=13.63  Aligned_cols=6  Identities=83%  Similarity=0.966  Sum_probs=3.2  Template_Neff=4.700
+
+Q ESDKKE            1 ESDKKE    6 (6)
+Q Consensus         1 esdkke    6 (6)
+                      ||||.|
+T Consensus       271 ~~~~~~  276 (286)
+T 5E7T_B          271 ESDKSE  276 (286)
+T ss_dssp             BCCCCC
+T ss_pred             ccCcce
+Confidence            466643
+
+
+No 2
+>2PYQ_C Uncharacterized protein; Structural genomics, Joint Center for; HET: PG4, MSE; 1.5A {Jannaschia sp. CCS1} SCOP: a.279.1.1
+Probab=3.47  E-value=1.1e+03  Score=10.55  Aligned_cols=5  Identities=60%  Similarity=0.680  Sum_probs=0.0  Template_Neff=3.700
+
+Q ESDKKE            2 SDKKE    6 (6)
+Q Consensus         2 sdkke    6 (6)
+                      ||++|
+T Consensus        51 SD~~E   55 (114)
+T 2PYQ_C           51 SDTAE   55 (114)
+T ss_dssp             TCHHH
+T ss_pred             CCHHH
+
+
+No 3
+>4Y98_A LigD; Short Chain Dehydrogenase/reductase SDR family; 2.648A {Sphingobium sp. SYK-6}
+Probab=3.44  E-value=1.1e+03  Score=9.24  Aligned_cols=5  Identities=80%  Similarity=1.006  Sum_probs=0.0  Template_Neff=10.900
+
+Q ESDKKE            1 ESDKK    5 (6)
+Q Consensus         1 esdkk    5 (6)
+                      |.|||
+T Consensus       299 ~~~~~  303 (305)
+T 4Y98_A          299 EGDKK  303 (305)
+T ss_dssp             -----
+T ss_pred             ccCcC
+
+
+No 4
+>5HLO_A Protein S100-A8; S100 protein, calcium, zinc, oligomer; HET: CAC, ACT; 2.1A {Homo sapiens}
+Probab=3.16  E-value=1.3e+03  Score=6.86  Aligned_cols=6  Identities=50%  Similarity=0.651  Sum_probs=0.0  Template_Neff=11.700
+
+Q ESDKKE            1 ESDKKE    6 (6)
+Q Consensus         1 esdkke    6 (6)
+                      ...+||
+T Consensus        89 ~~~~~~   94 (94)
+T 5HLO_A           89 EESHKE   94 (94)
+T ss_dssp             CC----
+T ss_pred             hhcCCC
+
+
+No 5
+>5HLO_B Protein S100-A8; S100 protein, calcium, zinc, oligomer; HET: CAC, ACT; 2.1A {Homo sapiens}
+Probab=3.16  E-value=1.3e+03  Score=6.86  Aligned_cols=6  Identities=50%  Similarity=0.651  Sum_probs=0.0  Template_Neff=11.700
+
+Q ESDKKE            1 ESDKKE    6 (6)
+Q Consensus         1 esdkke    6 (6)
+                      ...+||
+T Consensus        89 ~~~~~~   94 (94)
+T 5HLO_B           89 EESHKE   94 (94)
+T ss_dssp             TCCCCC
+T ss_pred             hhcCCC
+
+
+No 6
+>3B8L_B Uncharacterized protein; PUTATIVE AROMATIC RING HYDROXYLASE, STRUCTURAL; HET: GOL, MSE; 1.75A {Novosphingobium aromaticivorans} SCOP: d.17.4.28
+Probab=3.13  E-value=1.3e+03  Score=8.06  Aligned_cols=4  Identities=75%  Similarity=0.667  Sum_probs=0.0  Template_Neff=11.000
+
+Q ESDKKE            2 SDKK    5 (6)
+Q Consensus         2 sdkk    5 (6)
+                      ||++
+T Consensus         3 ~~~~    6 (163)
+T 3B8L_B            3 SDKI    6 (163)
+T ss_dssp             ----
+T ss_pred             Cccc
+
+
+No 7
+>2MTP_C Filamin-A, Integrin alpha-IIb, Integrin beta-3; integrin, filamin, PROTEIN BINDING-Cell Adhesion; NMR {Homo sapiens}
+Probab=3.07  E-value=1.3e+03  Score=7.91  Aligned_cols=4  Identities=75%  Similarity=1.182  Sum_probs=0.0  Template_Neff=6.500
+
+Q ESDKKE            3 DKKE    6 (6)
+Q Consensus         3 dkke    6 (6)
+                      |++|
+T Consensus         8 DrrE   11 (47)
+T 2MTP_C            8 DRKE   11 (47)
+T ss_dssp             HHHH
+T ss_pred             cHHH
+
+
+No 8
+>1TOV_A Hypothetical protein F53F4.3 in chromosome; CAP-GLY DOMAIN, CYTOSKELETON, TUBULIN, Structural; 1.77A {Caenorhabditis elegans} SCOP: b.34.10.1
+Probab=2.96  E-value=1.4e+03  Score=8.41  Aligned_cols=6  Identities=67%  Similarity=0.695  Sum_probs=0.0  Template_Neff=8.100
+
+Q ESDKKE            1 ESDKKE    6 (6)
+Q Consensus         1 esdkke    6 (6)
+                      ||++.+
+T Consensus         3 ~~~~~~    8 (98)
+T 1TOV_A            3 ESDKLN    8 (98)
+T ss_dssp             HHHHHH
+T ss_pred             hhHHHH
+
+
+No 9
+>6YXY_EU bL28m, uL29m, uL30m, bL32m, bL35m; mitoribosome, assembly, LSU, RIBOSOME; HET: ATP, PM8, MG, SPD, NAD, GTP; 3.1A {Trypanosoma brucei brucei}
+Probab=2.84  E-value=1.4e+03  Score=9.53  Aligned_cols=5  Identities=80%  Similarity=0.966  Sum_probs=0.0  Template_Neff=1.400
+
+Q ESDKKE            1 ESDKK    5 (6)
+Q Consensus         1 esdkk    5 (6)
+                      |-|||
+T Consensus        36 ehdkk   40 (56)
+T 6YXY_EU          36 EHDKK   40 (56)
+T ss_pred             cchhh
+
+
+No 10
+>5TQM_A Cinnamoyl-CoA Reductase; cinnamoyl-CoA reductase, CCR, OXIDOREDUCTASE; HET: GOL, NAP, DTT; 2.9A {Sorghum bicolor}
+Probab=2.84  E-value=1.4e+03  Score=9.41  Aligned_cols=6  Identities=67%  Similarity=0.966  Sum_probs=0.0  Template_Neff=10.700
+
+Q ESDKKE            1 ESDKKE    6 (6)
+Q Consensus         1 esdkke    6 (6)
+                      +.+++|
+T Consensus       359 ~~~~~~  364 (380)
+T 5TQM_A          359 EADKEE  364 (380)
+T ss_dssp             ------
+T ss_pred             CCcHHH
+
+

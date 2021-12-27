@@ -1,0 +1,153 @@
+Query         LATRYV
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 15:07:14 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LATRYV/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LATRYV/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6V9Q_G Cas8, TniQ family prote  21.1      94   0.001   15.4   0.0    6    1-6     128-133 (352)
+  2 6PIG_A cas7 type I-F CRISPR-as  20.2   1E+02  0.0011   15.2   0.0    6    1-6     127-132 (343)
+  3 6KQR_E CRISPR-associated prote  19.7   1E+02  0.0012   15.3   0.0    6    1-6     137-142 (348)
+  4 7JZY_E CRISPR, HYDROLASE-RNA c  19.1 1.1E+02  0.0012   15.2   0.0    6    1-6     134-139 (342)
+  5 6VQX_D CRISPR system single-st  18.8 1.1E+02  0.0013   15.3   0.0    6    1-6     152-157 (360)
+  6 2CSB_B Topoisomerase V; topois   9.5 3.1E+02  0.0034   15.3   0.0    6    1-6      34-39  (519)
+  7 3M7D_A Topoisomerase V; helix-   8.7 3.5E+02  0.0038   14.5   0.0    6    1-6      34-39  (380)
+  8 5HM5_A Topoisomerase V; topois   7.5 4.2E+02  0.0046   14.9   0.0    6    1-6      34-39  (854)
+  9 5N4A_A Intraflagellar transpor   6.2 5.4E+02   0.006   11.0   0.0    5    2-6     761-765 (771)
+ 10 1IN0_A YAJQ PROTEIN; alpha and   6.0 5.6E+02  0.0062   11.9   0.0    5    1-5      26-30  (163)
+
+No 1
+>6V9Q_G Cas8, TniQ family protein, Type; CRISPR-Cas system, Cascade- TniQ, IMMUNE; 2.9A {Vibrio cholerae}
+Probab=21.13  E-value=94  Score=15.40  Aligned_cols=6  Identities=83%  Similarity=1.287  Sum_probs=3.7  Template_Neff=5.000
+
+Q LATRYV            1 LATRYV    6 (6)
+Q Consensus         1 latryv    6 (6)
+                      ||.||.
+T Consensus       128 LA~RYa  133 (352)
+T 6V9Q_G          128 LATRYL  133 (352)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            566763
+
+
+No 2
+>6PIG_A cas7 type I-F CRISPR-associated protein; CRISPR/Cas, Cascade, RNA BINDING PROTEIN; 3.5A {Vibrio cholerae}
+Probab=20.23  E-value=1e+02  Score=15.25  Aligned_cols=6  Identities=83%  Similarity=1.287  Sum_probs=3.6  Template_Neff=5.000
+
+Q LATRYV            1 LATRYV    6 (6)
+Q Consensus         1 latryv    6 (6)
+                      ||.||.
+T Consensus       127 LA~RYa  132 (343)
+T 6PIG_A          127 LATRYL  132 (343)
+T ss_pred             HHHHHH
+Confidence            566763
+
+
+No 3
+>6KQR_E CRISPR-associated protein Csy3 family; CRISPR, Cascade, Csy3, helical backbone; 2.899A {Zymomonas mobilis subsp. mobilis}
+Probab=19.71  E-value=1e+02  Score=15.26  Aligned_cols=6  Identities=50%  Similarity=0.977  Sum_probs=3.6  Template_Neff=4.900
+
+Q LATRYV            1 LATRYV    6 (6)
+Q Consensus         1 latryv    6 (6)
+                      ||.||.
+T Consensus       137 LA~RYa  142 (348)
+T 6KQR_E          137 LGNRYA  142 (348)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            566763
+
+
+No 4
+>7JZY_E CRISPR, HYDROLASE-RNA complex;{Pseudomonas aeruginosa}
+Probab=19.07  E-value=1.1e+02  Score=15.20  Aligned_cols=6  Identities=67%  Similarity=1.043  Sum_probs=3.6  Template_Neff=4.800
+
+Q LATRYV            1 LATRYV    6 (6)
+Q Consensus         1 latryv    6 (6)
+                      ||.||.
+T Consensus       134 LA~RYa  139 (342)
+T 7JZY_E          134 LARRYA  139 (342)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            566763
+
+
+No 5
+>6VQX_D CRISPR system single-strand-specific deoxyribonuclease Cas10/Csm1; CRISPR, Type I-F, Csy, AcrF6; 3.15A {Pseudomonas aeruginosa}
+Probab=18.77  E-value=1.1e+02  Score=15.30  Aligned_cols=6  Identities=67%  Similarity=1.043  Sum_probs=3.6  Template_Neff=4.700
+
+Q LATRYV            1 LATRYV    6 (6)
+Q Consensus         1 latryv    6 (6)
+                      ||.||.
+T Consensus       152 LA~RYa  157 (360)
+T 6VQX_D          152 LARRYA  157 (360)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            566763
+
+
+No 6
+>2CSB_B Topoisomerase V; topoisomerase IB, topoisomerase V, helix-turn-helix; HET: MSE; 2.3A {Methanopyrus kandleri}
+Probab=9.52  E-value=3.1e+02  Score=15.29  Aligned_cols=6  Identities=83%  Similarity=1.287  Sum_probs=3.7  Template_Neff=1.200
+
+Q LATRYV            1 LATRYV    6 (6)
+Q Consensus         1 latryv    6 (6)
+                      |||||.
+T Consensus        34 latryl   39 (519)
+T 2CSB_B           34 LATRYL   39 (519)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            567763
+
+
+No 7
+>3M7D_A Topoisomerase V; helix-hairpin-helix, topoisomerase, conformational change, isomerase; 1.815A {Methanopyrus kandleri}
+Probab=8.72  E-value=3.5e+02  Score=14.54  Aligned_cols=6  Identities=83%  Similarity=1.287  Sum_probs=0.0  Template_Neff=1.000
+
+Q LATRYV            1 LATRYV    6 (6)
+Q Consensus         1 latryv    6 (6)
+                      |||||.
+T Consensus        34 latryl   39 (380)
+T 3M7D_A           34 LATRYL   39 (380)
+
+
+No 8
+>5HM5_A Topoisomerase V; topoisomerase V, Topo-97, AP lyase; 2.4A {Methanopyrus kandleri}
+Probab=7.53  E-value=4.2e+02  Score=14.88  Aligned_cols=6  Identities=83%  Similarity=1.287  Sum_probs=0.0  Template_Neff=5.100
+
+Q LATRYV            1 LATRYV    6 (6)
+Q Consensus         1 latryv    6 (6)
+                      |||||.
+T Consensus        34 ~~~~~~   39 (854)
+T 5HM5_A           34 LATRYL   39 (854)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 9
+>5N4A_A Intraflagellar transport protein 80; cilium, intraflagellar transport, IFT80, transport; HET: GOL; 1.79A {Chlamydomonas reinhardtii}
+Probab=6.20  E-value=5.4e+02  Score=11.05  Aligned_cols=5  Identities=80%  Similarity=1.225  Sum_probs=0.0  Template_Neff=12.200
+
+Q LATRYV            2 ATRYV    6 (6)
+Q Consensus         2 atryv    6 (6)
+                      |.|||
+T Consensus       761 ~~~~~  765 (771)
+T 5N4A_A          761 AKRYV  765 (771)
+T ss_dssp             -----
+T ss_pred             ccccc
+
+
+No 10
+>1IN0_A YAJQ PROTEIN; alpha and beta sandwich, structural; 2.14A {Haemophilus influenzae} SCOP: d.58.49.1
+Probab=6.03  E-value=5.6e+02  Score=11.93  Aligned_cols=5  Identities=80%  Similarity=1.338  Sum_probs=0.0  Template_Neff=4.100
+
+Q LATRYV            1 LATRY    5 (6)
+Q Consensus         1 latry    5 (6)
+                      +++||
+T Consensus        26 i~~Ry   30 (163)
+T 1IN0_A           26 LSTRY   30 (163)
+T ss_dssp             HTTBG
+T ss_pred             Hhhcc
+
+

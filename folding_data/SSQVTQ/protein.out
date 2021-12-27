@@ -1,0 +1,150 @@
+Query         SSQVTQ
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 16:43:28 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/SSQVTQ/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/SSQVTQ/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6DFP_A Inosine-5'-monophosphat   4.9 7.2E+02   0.008   10.7   0.0    6    1-6       5-10  (372)
+  2 1T0C_A Insulin; type I beta-tu   4.7 7.7E+02  0.0085    9.3   0.0    4    3-6       6-9   (31)
+  3 2ZS0_C Extracellular giant hem   4.4 8.3E+02  0.0092    8.5   0.0    6    1-6       1-6   (147)
+  4 7JXR_C HIV-1, gag, STRUCTURAL    4.2 8.9E+02  0.0099   10.6   0.0    6    1-6     124-129 (137)
+  5 5A8J_A VWA2; TRANSCRIPTION, VO   4.2   9E+02  0.0099   10.3   0.0    6    1-6     352-357 (373)
+  6 2DIR_A THUMP domain-containing   3.9 9.9E+02   0.011    8.3   0.0    5    1-5       2-6   (98)
+  7 2UYY_C N-PAC PROTEIN; LONG-CHA   3.6 1.1E+03   0.012    9.4   0.0    6    1-6       8-13  (316)
+  8 5XB1_L human ferritin E-helix    3.6 1.1E+03   0.012    8.7   0.0    6    1-6       6-11  (160)
+  9 5E0S_H ATP-dependent Clp prote   3.5 1.1E+03   0.012    9.1   0.0    5    2-6       2-6   (200)
+ 10 1ED1_A GAG POLYPROTEIN; Trimer   3.4 1.1E+03   0.013   10.2   0.0    6    1-6     128-133 (135)
+
+No 1
+>6DFP_A Inosine-5'-monophosphate dehydrogenase (E.C.1.1.1.205); tripartite toxin, alpha-fold, putative membrane; HET: MSE; 1.5A {Vibrio cholerae serotype O1 (strain ATCC 39315 / El Tor Inaba N16961)}
+Probab=4.94  E-value=7.2e+02  Score=10.73  Aligned_cols=6  Identities=83%  Similarity=0.761  Sum_probs=0.0  Template_Neff=9.500
+
+Q SSQVTQ            1 SSQVTQ    6 (6)
+Q Consensus         1 ssqvtq    6 (6)
+                      ++|+++
+T Consensus         5 ~~~~~~   10 (372)
+T 6DFP_A            5 SQQVTQ   10 (372)
+T ss_dssp             -CCCCC
+T ss_pred             chhhhc
+
+
+No 2
+>1T0C_A Insulin; type I beta-turn, bend, type; NMR {Homo sapiens}
+Probab=4.70  E-value=7.7e+02  Score=9.31  Aligned_cols=4  Identities=75%  Similarity=0.642  Sum_probs=0.0  Template_Neff=1.300
+
+Q SSQVTQ            3 QVTQ    6 (6)
+Q Consensus         3 qvtq    6 (6)
+                      ||+|
+T Consensus         6 qv~q    9 (31)
+T 1T0C_A            6 QVGQ    9 (31)
+T ss_dssp             TTTT
+T ss_pred             ccee
+
+
+No 3
+>2ZS0_C Extracellular giant hemoglobin major globin; hemoglobin, annelida, magnesium, cooperativity, Heme; HET: GOL, HEM; 1.6A {Oligobrachia mashikoi}
+Probab=4.42  E-value=8.3e+02  Score=8.53  Aligned_cols=6  Identities=33%  Similarity=0.207  Sum_probs=0.0  Template_Neff=10.600
+
+Q SSQVTQ            1 SSQVTQ    6 (6)
+Q Consensus         1 ssqvtq    6 (6)
+                      ||+.+.
+T Consensus         1 ~~~ls~    6 (147)
+T 2ZS0_C            1 SSCCSS    6 (147)
+T ss_dssp             CCCCCH
+T ss_pred             CccCCH
+
+
+No 4
+>7JXR_C HIV-1, gag, STRUCTURAL PROTEIN; HET: SO4, P6G; 2.04A {Human immunodeficiency virus 1}
+Probab=4.18  E-value=8.9e+02  Score=10.59  Aligned_cols=6  Identities=67%  Similarity=0.745  Sum_probs=0.0  Template_Neff=5.300
+
+Q SSQVTQ            1 SSQVTQ    6 (6)
+Q Consensus         1 ssqvtq    6 (6)
+                      ||++.|
+T Consensus       124 ~~~~~~  129 (137)
+T 7JXR_C          124 NSQVSQ  129 (137)
+T ss_dssp             ------
+T ss_pred             Cchhhc
+
+
+No 5
+>5A8J_A VWA2; TRANSCRIPTION, VON WILLEBRAND, PHOSPHORYLATION; HET: CIT, GOL; 1.46A {SULFOLOBUS ACIDOCALDARIUS}
+Probab=4.17  E-value=9e+02  Score=10.34  Aligned_cols=6  Identities=50%  Similarity=0.512  Sum_probs=0.0  Template_Neff=9.800
+
+Q SSQVTQ            1 SSQVTQ    6 (6)
+Q Consensus         1 ssqvtq    6 (6)
+                      +||.|+
+T Consensus       352 ~~~~~~  357 (373)
+T 5A8J_A          352 LSEVTK  357 (373)
+T ss_dssp             HHHHHH
+T ss_pred             hhHHHH
+
+
+No 6
+>2DIR_A THUMP domain-containing protein 1; THUMP domain, THUMP domain-containing protein; NMR {Homo sapiens} SCOP: d.308.1.3
+Probab=3.86  E-value=9.9e+02  Score=8.30  Aligned_cols=5  Identities=40%  Similarity=0.262  Sum_probs=0.0  Template_Neff=9.200
+
+Q SSQVTQ            1 SSQVT    5 (6)
+Q Consensus         1 ssqvt    5 (6)
+                      |+|.+
+T Consensus         2 ~~~~~    6 (98)
+T 2DIR_A            2 SSGSS    6 (98)
+T ss_dssp             CCCCC
+T ss_pred             Cccee
+
+
+No 7
+>2UYY_C N-PAC PROTEIN; LONG-CHAIN DEHYDROGENASE, CYTOKINE; HET: NA7; 2.5A {HOMO SAPIENS}
+Probab=3.56  E-value=1.1e+03  Score=9.43  Aligned_cols=6  Identities=50%  Similarity=0.290  Sum_probs=0.0  Template_Neff=10.700
+
+Q SSQVTQ            1 SSQVTQ    6 (6)
+Q Consensus         1 ssqvtq    6 (6)
+                      ++|+++
+T Consensus         8 ~~~~~~   13 (316)
+T 2UYY_C            8 SSGVDL   13 (316)
+T ss_dssp             ------
+T ss_pred             CCCCCC
+
+
+No 8
+>5XB1_L human ferritin E-helix deletion mutant; ferritin, cage, drug delivery, TRANSPORT; 3.0A {Homo sapiens}
+Probab=3.56  E-value=1.1e+03  Score=8.73  Aligned_cols=6  Identities=67%  Similarity=0.684  Sum_probs=0.0  Template_Neff=9.800
+
+Q SSQVTQ            1 SSQVTQ    6 (6)
+Q Consensus         1 ssqvtq    6 (6)
+                      |||+-+
+T Consensus         6 ~~~~~~   11 (160)
+T 5XB1_L            6 TSQVRQ   11 (160)
+T ss_dssp             CCSSCC
+T ss_pred             cccccc
+
+
+No 9
+>5E0S_H ATP-dependent Clp protease proteolytic subunit; Hydrolase; 2.9A {Mycobacterium tuberculosis (strain CDC 1551 / Oshkosh)}
+Probab=3.47  E-value=1.1e+03  Score=9.05  Aligned_cols=5  Identities=80%  Similarity=0.780  Sum_probs=0.0  Template_Neff=9.800
+
+Q SSQVTQ            2 SQVTQ    6 (6)
+Q Consensus         2 sqvtq    6 (6)
+                      ||+++
+T Consensus         2 ~~~~~    6 (200)
+T 5E0S_H            2 SQVTD    6 (200)
+T ss_dssp             -----
+T ss_pred             Ccccc
+
+
+No 10
+>1ED1_A GAG POLYPROTEIN; Trimeric Association, Viral protein; 2.1A {Simian immunodeficiency virus - mac} SCOP: a.61.1.1
+Probab=3.43  E-value=1.1e+03  Score=10.22  Aligned_cols=6  Identities=33%  Similarity=-0.036  Sum_probs=0.0  Template_Neff=5.400
+
+Q SSQVTQ            1 SSQVTQ    6 (6)
+Q Consensus         1 ssqvtq    6 (6)
+                      +|+|.|
+T Consensus       128 ~~~~sq  133 (135)
+T 1ED1_A          128 SSGRGG  133 (135)
+T ss_dssp             ------
+T ss_pred             CCCCCC
+
+

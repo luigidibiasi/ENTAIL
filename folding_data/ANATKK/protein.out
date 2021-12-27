@@ -1,0 +1,146 @@
+Query         ANATKK
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 15:00:26 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/ANATKK/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/ANATKK/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2EBO_A EBOLA VIRUS ENVELOPE GL   3.1 1.3E+03   0.014    8.9   0.0    6    1-6       6-11  (74)
+  2 2MWG_A Blue-light photorecepto   3.1 1.3E+03   0.015    7.7   0.0    4    2-5     248-251 (261)
+  3 6QW6_4B Small nuclear ribonucl   3.0 1.3E+03   0.015   10.0   0.0    6    1-6       9-14  (522)
+  4 4PZ7_A mRNA-capping enzyme sub   3.0 1.3E+03   0.015   10.5   0.0    6    1-6     389-394 (403)
+  5 4PZ6_A mRNA-capping enzyme sub   3.0 1.3E+03   0.015   10.4   0.0    6    1-6     389-394 (403)
+  6 2K24_A Putative uncharacterize   2.6 1.6E+03   0.017   10.2   0.0    5    2-6      71-75  (110)
+  7 2ARC_A ARABINOSE OPERON REGULA   2.6 1.6E+03   0.017    7.8   0.0    4    2-5      10-13  (164)
+  8 2ARC_B ARABINOSE OPERON REGULA   2.6 1.6E+03   0.017    7.8   0.0    4    2-5      10-13  (164)
+  9 5N4C_H Prolyl oligopeptidase,    2.6 1.6E+03   0.017    8.5   0.0    4    2-5       5-8   (35)
+ 10 5O60_T 50S ribosomal protein b   2.6 1.6E+03   0.018    9.7   0.0    6    1-6     139-144 (153)
+
+No 1
+>2EBO_A EBOLA VIRUS ENVELOPE GLYCOPROTEIN; ENVELOPE GLYCOPROTEIN, FILOVIRUS, EBOLA VIRUS; 1.9A {Zaire ebolavirus - Mayinga (Zaire, 1976)} SCOP: h.3.2.1
+Probab=3.12  E-value=1.3e+03  Score=8.94  Aligned_cols=6  Identities=50%  Similarity=0.573  Sum_probs=0.0  Template_Neff=5.800
+
+Q ANATKK            1 ANATKK    6 (6)
+Q Consensus         1 anatkk    6 (6)
+                      +|+|.+
+T Consensus         6 ~n~t~~   11 (74)
+T 2EBO_A            6 ANETTQ   11 (74)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 2
+>2MWG_A Blue-light photoreceptor; Photoreceptor, LOV/PAS, Stressosome, Rsb, PROTEIN; HET: FMN; NMR {Bacillus subtilis}
+Probab=3.05  E-value=1.3e+03  Score=7.65  Aligned_cols=4  Identities=0%  Similarity=-0.122  Sum_probs=0.0  Template_Neff=13.500
+
+Q ANATKK            2 NATK    5 (6)
+Q Consensus         2 natk    5 (6)
+                      ||.|
+T Consensus       248 Na~k  251 (261)
+T 2MWG_A          248 YSNV  251 (261)
+T ss_dssp             ESCH
+T ss_pred             hhhh
+
+
+No 3
+>6QW6_4B Small nuclear ribonucleoprotein Sm D1; RNP complex, splicing, RNA, protein; HET: IHP, M7M, GTP; 2.92A {Homo sapiens}
+Probab=3.04  E-value=1.3e+03  Score=10.02  Aligned_cols=6  Identities=50%  Similarity=0.529  Sum_probs=0.0  Template_Neff=10.700
+
+Q ANATKK            1 ANATKK    6 (6)
+Q Consensus         1 anatkk    6 (6)
+                      +.|+|+
+T Consensus         9 ~~~~~~   14 (522)
+T 6QW6_4B           9 TQATKT   14 (522)
+T ss_pred             CccccC
+
+
+No 4
+>4PZ7_A mRNA-capping enzyme subunit alpha (E.C.2.7.7.50); Nucleotidyl transferase, RNA capping enzyme; HET: SO4, GOL, GPL; 2.109A {Schizosaccharomyces pombe}
+Probab=3.00  E-value=1.3e+03  Score=10.45  Aligned_cols=6  Identities=67%  Similarity=0.540  Sum_probs=0.0  Template_Neff=8.700
+
+Q ANATKK            1 ANATKK    6 (6)
+Q Consensus         1 anatkk    6 (6)
+                      |++.||
+T Consensus       389 ~~~~~~  394 (403)
+T 4PZ7_A          389 APAIKK  394 (403)
+T ss_dssp             ------
+T ss_pred             cHHHHH
+
+
+No 5
+>4PZ6_A mRNA-capping enzyme subunit alpha (E.C.2.7.7.50); Nucleotidyl transferase, RNA capping enzyme; HET: GMP, SEP; 2.406A {Schizosaccharomyces pombe}
+Probab=2.99  E-value=1.3e+03  Score=10.45  Aligned_cols=6  Identities=67%  Similarity=0.540  Sum_probs=0.0  Template_Neff=8.700
+
+Q ANATKK            1 ANATKK    6 (6)
+Q Consensus         1 anatkk    6 (6)
+                      |++.||
+T Consensus       389 ~~~~~~  394 (403)
+T 4PZ6_A          389 APAIKK  394 (403)
+T ss_dssp             ------
+T ss_pred             cHHHHH
+
+
+No 6
+>2K24_A Putative uncharacterized protein Ta0956; AUTOMATION, FAPSY, MOAD, MOLYBDOPTERIN, UNKNOWN; NMR {Thermoplasma acidophilum}
+Probab=2.65  E-value=1.6e+03  Score=10.16  Aligned_cols=5  Identities=80%  Similarity=0.840  Sum_probs=0.0  Template_Neff=3.400
+
+Q ANATKK            2 NATKK    6 (6)
+Q Consensus         2 natkk    6 (6)
+                      |+.||
+T Consensus        71 N~~KK   75 (110)
+T 2K24_A           71 NADKK   75 (110)
+T ss_dssp             ETTTT
+T ss_pred             eCCCc
+
+
+No 7
+>2ARC_A ARABINOSE OPERON REGULATORY PROTEIN; TRANSCRIPTION FACTOR, CARBOHYDRATE BINDING, COILED-COIL; HET: ARA; 1.5A {Escherichia coli} SCOP: b.82.4.1
+Probab=2.63  E-value=1.6e+03  Score=7.79  Aligned_cols=4  Identities=50%  Similarity=0.318  Sum_probs=0.0  Template_Neff=11.100
+
+Q ANATKK            2 NATK    5 (6)
+Q Consensus         2 natk    5 (6)
+                      |+++
+T Consensus        10 ~~~~   13 (164)
+T 2ARC_A           10 NAHL   13 (164)
+T ss_pred             ccce
+
+
+No 8
+>2ARC_B ARABINOSE OPERON REGULATORY PROTEIN; TRANSCRIPTION FACTOR, CARBOHYDRATE BINDING, COILED-COIL; HET: ARA; 1.5A {Escherichia coli} SCOP: b.82.4.1
+Probab=2.63  E-value=1.6e+03  Score=7.79  Aligned_cols=4  Identities=50%  Similarity=0.318  Sum_probs=0.0  Template_Neff=11.100
+
+Q ANATKK            2 NATK    5 (6)
+Q Consensus         2 natk    5 (6)
+                      |+++
+T Consensus        10 ~~~~   13 (164)
+T 2ARC_B           10 NAHL   13 (164)
+T ss_pred             ccce
+
+
+No 9
+>5N4C_H Prolyl oligopeptidase, Alpha-amanitin proprotein; amanitin biosynthesis, prolyl oligopeptidase, macrocyclase; 2.19A {Galerina marginata}
+Probab=2.62  E-value=1.6e+03  Score=8.50  Aligned_cols=4  Identities=75%  Similarity=0.949  Sum_probs=0.0  Template_Neff=2.600
+
+Q ANATKK            2 NATK    5 (6)
+Q Consensus         2 natk    5 (6)
+                      |||+
+T Consensus         5 NatR    8 (35)
+T 5N4C_H            5 NATR    8 (35)
+T ss_dssp             GGGG
+T ss_pred             cccc
+
+
+No 10
+>5O60_T 50S ribosomal protein bL37, 50S; ribosome, translation; HET: MG, PHE; 3.203A {Mycobacterium smegmatis str. MC2 155}
+Probab=2.59  E-value=1.6e+03  Score=9.69  Aligned_cols=6  Identities=83%  Similarity=0.745  Sum_probs=0.0  Template_Neff=6.200
+
+Q ANATKK            1 ANATKK    6 (6)
+Q Consensus         1 anatkk    6 (6)
+                      |.||||
+T Consensus       139 ~~~~~~  144 (153)
+T 5O60_T          139 AAATKK  144 (153)
+T ss_pred             HHHhHH
+
+

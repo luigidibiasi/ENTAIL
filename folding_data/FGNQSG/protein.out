@@ -1,0 +1,154 @@
+Query         FGNQSG
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 20:56:18 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/FGNQSG/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/FGNQSG/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5W78_B Acyloxyacyl hydrolase (  57.3     9.4  0.0001   16.8   0.0    6    1-6     417-422 (423)
+  2 5W7C_C Acyloxyacyl hydrolase (  57.0     9.6 0.00011   16.7   0.0    6    1-6     417-422 (423)
+  3 5W7F_B Acyloxyacyl hydrolase (  52.5      13 0.00014   17.2   0.0    6    1-6     556-561 (562)
+  4 5W7D_A Acyloxyacyl hydrolase (  52.1      13 0.00014   17.4   0.0    6    1-6     556-561 (562)
+  5 5W7B_D Acyloxyacyl hydrolase (  46.8      18  0.0002   16.2   0.0    6    1-6     416-421 (422)
+  6 6SK7_A Genome polyprotein (E.C  35.6      35 0.00039   14.8   0.0    6    1-6     292-297 (298)
+  7 6NMJ_B Resistance to inhibitor  21.1      94   0.001   14.5   0.0    6    1-6     413-418 (453)
+  8 6NMG_B Resistance to inhibitor  16.8 1.4E+02  0.0015   14.0   0.0    6    1-6     413-418 (453)
+  9 6GVK_B Integrin beta-4, Dyston  15.7 1.5E+02  0.0017   11.1   0.0    5    1-5      22-26  (30)
+ 10 6B8H_r ATP synthase subunit 9,  15.4 1.5E+02  0.0017   12.5   0.0    5    1-5     167-171 (173)
+
+No 1
+>5W78_B Acyloxyacyl hydrolase (E.C.3.1.1.77); lipopolysaccharide, LPS, GDSL esterase, saposin; HET: PLM, NAG, MYR, DAO; 2.271A {Homo sapiens}
+Probab=57.31  E-value=9.4  Score=16.75  Aligned_cols=6  Identities=67%  Similarity=1.415  Sum_probs=4.6  Template_Neff=8.800
+
+Q FGNQSG            1 FGNQSG    6 (6)
+Q Consensus         1 fgnqsg    6 (6)
+                      ||+|.|
+T Consensus       417 ~~~~~~  422 (423)
+T 5W78_B          417 FGDQGG  422 (423)
+T ss_dssp             HTTTTC
+T ss_pred             HccCCC
+Confidence            788865
+
+
+No 2
+>5W7C_C Acyloxyacyl hydrolase (E.C.3.1.1.77); lipopolysaccharide, LPS, GDSL esterase, saposin; HET: DAO, NAG, FTT; 2.23A {Homo sapiens}
+Probab=57.00  E-value=9.6  Score=16.73  Aligned_cols=6  Identities=67%  Similarity=1.415  Sum_probs=4.5  Template_Neff=8.800
+
+Q FGNQSG            1 FGNQSG    6 (6)
+Q Consensus         1 fgnqsg    6 (6)
+                      ||+|.|
+T Consensus       417 ~~~~~~  422 (423)
+T 5W7C_C          417 FGDQGG  422 (423)
+T ss_pred             HccCCC
+Confidence            788865
+
+
+No 3
+>5W7F_B Acyloxyacyl hydrolase (E.C.3.1.1.77); lipopolysaccharide, LPS, GDSL esterase, saposin; HET: FTT, DAO, GCS, NAG; 2.8A {Mus musculus}
+Probab=52.52  E-value=13  Score=17.21  Aligned_cols=6  Identities=67%  Similarity=1.415  Sum_probs=4.7  Template_Neff=8.400
+
+Q FGNQSG            1 FGNQSG    6 (6)
+Q Consensus         1 fgnqsg    6 (6)
+                      ||+|.|
+T Consensus       556 ~~~~~~  561 (562)
+T 5W7F_B          556 FGDQGG  561 (562)
+T ss_dssp             HTTTTC
+T ss_pred             HcccCC
+Confidence            788876
+
+
+No 4
+>5W7D_A Acyloxyacyl hydrolase (E.C.3.1.1.77); lipopolysaccharide, LPS, GDSL esterase, saposin; HET: GOL, PX8, MYR, NAG; 1.75A {Mus musculus}
+Probab=52.14  E-value=13  Score=17.36  Aligned_cols=6  Identities=67%  Similarity=1.415  Sum_probs=4.7  Template_Neff=8.100
+
+Q FGNQSG            1 FGNQSG    6 (6)
+Q Consensus         1 fgnqsg    6 (6)
+                      ||+|.|
+T Consensus       556 ~~~~~~  561 (562)
+T 5W7D_A          556 FGDQGG  561 (562)
+T ss_dssp             HTTTTC
+T ss_pred             HccCCC
+Confidence            788876
+
+
+No 5
+>5W7B_D Acyloxyacyl hydrolase (E.C.3.1.1.77); lipopolysaccharide, LPS, GDSL esterase, saposin; HET: 1PE, PO4, KDO, PA1, FUC, NAG, PGE, FTT, MES, GCS, MYR, PEG, SO4; 1.9A {Oryctolagus cuniculus}
+Probab=46.75  E-value=18  Score=16.22  Aligned_cols=6  Identities=67%  Similarity=1.415  Sum_probs=4.4  Template_Neff=8.300
+
+Q FGNQSG            1 FGNQSG    6 (6)
+Q Consensus         1 fgnqsg    6 (6)
+                      ||+|.|
+T Consensus       416 ~~~~~~  421 (422)
+T 5W7B_D          416 FGDQGG  421 (422)
+T ss_dssp             HTTTTC
+T ss_pred             HcccCC
+Confidence            788865
+
+
+No 6
+>6SK7_A Genome polyprotein (E.C.3.4.22.29,3.6.1.15,3.4.22.28,2.7.7.48), VP4/VP2 protein; RV-A89, HRV-B5, virus, capsid protein; 2.9A {Human rhinovirus A serotype 89 (strain 41467-Gallo)}
+Probab=35.55  E-value=35  Score=14.84  Aligned_cols=6  Identities=33%  Similarity=0.263  Sum_probs=1.4  Template_Neff=8.000
+
+Q FGNQSG            1 FGNQSG    6 (6)
+Q Consensus         1 fgnqsg    6 (6)
+                      ||.|||
+T Consensus       292 ~~~~~~  297 (298)
+T 6SK7_A          292 VGPSSM  297 (298)
+T ss_dssp             --C-C-
+T ss_pred             cCCCCC
+Confidence            577765
+
+
+No 7
+>6NMJ_B Resistance to inhibitors of cholinesterase; guanine nucleotide exchange factor heterotrimeric; 2.3A {Rattus norvegicus}
+Probab=21.06  E-value=94  Score=14.50  Aligned_cols=6  Identities=50%  Similarity=1.276  Sum_probs=0.0  Template_Neff=7.800
+
+Q FGNQSG            1 FGNQSG    6 (6)
+Q Consensus         1 fgnqsg    6 (6)
+                      |||.+|
+T Consensus       413 yGnAAG  418 (453)
+T 6NMJ_B          413 YGNAAG  418 (453)
+T ss_dssp             ------
+T ss_pred             cccHHH
+Confidence            466554
+
+
+No 8
+>6NMG_B Resistance to inhibitors of cholinesterase; guanine nucleotide exchange factor heterotrimeric; HET: SO4; 2.2A {Rattus norvegicus}
+Probab=16.75  E-value=1.4e+02  Score=14.03  Aligned_cols=6  Identities=50%  Similarity=1.276  Sum_probs=0.0  Template_Neff=7.800
+
+Q FGNQSG            1 FGNQSG    6 (6)
+Q Consensus         1 fgnqsg    6 (6)
+                      |||-+|
+T Consensus       413 yGnAAG  418 (453)
+T 6NMG_B          413 YGNAAG  418 (453)
+T ss_dssp             HHHHHH
+T ss_pred             cccHHH
+
+
+No 9
+>6GVK_B Integrin beta-4, Dystonin; CYTOSKELETON, PLAKIN, HEMIDESMOSOME, STRUCTURAL PROTEIN; HET: GOL; 1.55A {Homo sapiens}
+Probab=15.70  E-value=1.5e+02  Score=11.13  Aligned_cols=5  Identities=60%  Similarity=1.225  Sum_probs=0.0  Template_Neff=1.300
+
+Q FGNQSG            1 FGNQS    5 (6)
+Q Consensus         1 fgnqs    5 (6)
+                      |||.|
+T Consensus        22 fgnes   26 (30)
+T 6GVK_B           22 FGSES   26 (30)
+T ss_pred             ccCCC
+
+
+No 10
+>6B8H_r ATP synthase subunit 9, mitochondrial; Complex, Proton transporter, MEMBRANE PROTEIN; HET: MG, ANP; 3.6A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=15.35  E-value=1.5e+02  Score=12.51  Aligned_cols=5  Identities=60%  Similarity=1.112  Sum_probs=0.0  Template_Neff=6.900
+
+Q FGNQSG            1 FGNQS    5 (6)
+Q Consensus         1 fgnqs    5 (6)
+                      |||.+
+T Consensus       167 fg~~~  171 (173)
+T 6B8H_r          167 FGNLN  171 (173)
+T ss_pred             CCCcc
+
+

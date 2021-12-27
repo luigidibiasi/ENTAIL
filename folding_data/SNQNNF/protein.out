@@ -1,0 +1,147 @@
+Query         SNQNNF
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 15:44:00 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/SNQNNF/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/SNQNNF/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4WHN_A ApxC; TAAT, GNAT, Toxin  37.3      32 0.00035   15.3   0.0    6    1-6     171-176 (183)
+  2 4Y28_E photosystem I reaction   12.5 2.1E+02  0.0023   12.0   0.0    5    2-6      53-57  (66)
+  3 6LY5_e FCPI-7, FCPI-1, FCPI-11  12.5 2.1E+02  0.0023   11.9   0.0    5    2-6      50-54  (63)
+  4 6TCL_E1 Photosystem I P700 chl  12.4 2.1E+02  0.0023   11.8   0.0    5    2-6      48-52  (60)
+  5 6VPV_5 Photosystem I, Membrane  12.4 2.1E+02  0.0023   12.1   0.0    5    2-6      56-60  (68)
+  6 6TCL_E Photosystem I P700 chlo  12.4 2.1E+02  0.0023   11.9   0.0    5    2-6      48-52  (63)
+  7 6ZZX_E photosystem I, light st  12.1 2.2E+02  0.0024   11.9   0.0    5    2-6      52-56  (64)
+  8 1JB0_E PHOTOSYSTEM I SUBUNIT P  12.1 2.2E+02  0.0024   12.2   0.0    5    2-6      56-60  (75)
+  9 6L4U_E PROTEIN; Photosystem I,  12.0 2.2E+02  0.0025   12.0   0.0    5    2-6      49-53  (67)
+ 10 6JO5_E Photosystem I P700 chlo  11.9 2.3E+02  0.0025   12.1   0.0    5    2-6      60-64  (73)
+
+No 1
+>4WHN_A ApxC; TAAT, GNAT, Toxin-activating acyltransferase, ACP; HET: CIT; 2.15A {Actinobacillus pleuropneumoniae}
+Probab=37.31  E-value=32  Score=15.25  Aligned_cols=6  Identities=50%  Similarity=0.938  Sum_probs=3.8  Template_Neff=5.600
+
+Q SNQNNF            1 SNQNNF    6 (6)
+Q Consensus         1 snqnnf    6 (6)
+                      +|||||
+T Consensus       171 ~~~~~~  176 (183)
+T 4WHN_A          171 KNKQNF  176 (183)
+T ss_dssp             HHHHTT
+T ss_pred             ccCCCc
+Confidence            467775
+
+
+No 2
+>4Y28_E photosystem I reaction center (E.C.1.97.1.12); photosynthesis, light harvesting, antenna, reaction; HET: SF4, LMU, ZEX, LMG, LUT, CHL, PQN, LHG, BCR, CL0, DGD, CLA; 2.8A {Pisum sativum}
+Probab=12.54  E-value=2.1e+02  Score=12.03  Aligned_cols=5  Identities=40%  Similarity=0.906  Sum_probs=0.0  Template_Neff=2.600
+
+Q SNQNNF            2 NQNNF    6 (6)
+Q Consensus         2 nqnnf    6 (6)
+                      |.|||
+T Consensus        53 nTnNf   57 (66)
+T 4Y28_E           53 STNNY   57 (66)
+T ss_pred             cCCcc
+
+
+No 3
+>6LY5_e FCPI-7, FCPI-1, FCPI-11, FCPI-6, FCPI-5; diatom, PSI-FCPI, photosysyem, photosynthesis; HET: PQN, LHG, LMT, BCR, CLA, SF4, DGD, A86, LMG, SQD, KC1, DD6; 2.38A {Chaetoceros gracilis}
+Probab=12.46  E-value=2.1e+02  Score=11.93  Aligned_cols=5  Identities=40%  Similarity=0.906  Sum_probs=0.0  Template_Neff=2.600
+
+Q SNQNNF            2 NQNNF    6 (6)
+Q Consensus         2 nqnnf    6 (6)
+                      |.|||
+T Consensus        50 nTnnf   54 (63)
+T 6LY5_e           50 STNNY   54 (63)
+T ss_pred             ccCcc
+
+
+No 4
+>6TCL_E1 Photosystem I P700 chlorophyll a; photosynthesis, tetramer, anabaena, PSI; HET: ECH, SF4, LMG, PQN, AJP, LHG, BCR, CL0, DGD, CLA;{Nostoc sp. PCC 7120}
+Probab=12.45  E-value=2.1e+02  Score=11.84  Aligned_cols=5  Identities=80%  Similarity=1.225  Sum_probs=0.0  Template_Neff=2.600
+
+Q SNQNNF            2 NQNNF    6 (6)
+Q Consensus         2 nqnnf    6 (6)
+                      |.|||
+T Consensus        48 nTnnf   52 (60)
+T 6TCL_E1          48 NTNNF   52 (60)
+T ss_pred             cCccc
+
+
+No 5
+>6VPV_5 Photosystem I, Membrane Protein, Photosynthesis; HET: SQD, SF4, LMG, PQN, LHG, BCR, CL0, CLA; 2.7A {Cyanobacterium aponinum 0216}
+Probab=12.41  E-value=2.1e+02  Score=12.07  Aligned_cols=5  Identities=80%  Similarity=1.225  Sum_probs=0.0  Template_Neff=2.600
+
+Q SNQNNF            2 NQNNF    6 (6)
+Q Consensus         2 nqnnf    6 (6)
+                      |.|||
+T Consensus        56 nTNnf   60 (68)
+T 6VPV_5           56 NTNNF   60 (68)
+T ss_pred             ccccc
+
+
+No 6
+>6TCL_E Photosystem I P700 chlorophyll a; photosynthesis, tetramer, anabaena, PSI; HET: BCR, LHG, CLA, PQN, CL0, DGD, SF4, AJP, ECH, LMG;{Nostoc sp. PCC 7120}
+Probab=12.40  E-value=2.1e+02  Score=11.95  Aligned_cols=5  Identities=80%  Similarity=1.225  Sum_probs=0.0  Template_Neff=2.500
+
+Q SNQNNF            2 NQNNF    6 (6)
+Q Consensus         2 nqnnf    6 (6)
+                      |.|||
+T Consensus        48 nTnnf   52 (63)
+T 6TCL_E           48 NTNNF   52 (63)
+T ss_dssp             CCEEE
+T ss_pred             cCCcc
+
+
+No 7
+>6ZZX_E photosystem I, light stress, PHOTOSYNTHESIS; HET: SPH, QTB, 4RF, RRX, LPX, SQD, SF4, DGA, PLM, PTY, LUT, 3PH, CHL, NEX, LHG, DGD, LAP, ECH, LMG, P5S, PQN, OLA, CL0, CLA, LMT, PCW, XAT, AXT, BCR;{Chlorella ohadii}
+Probab=12.11  E-value=2.2e+02  Score=11.94  Aligned_cols=5  Identities=40%  Similarity=0.906  Sum_probs=0.0  Template_Neff=2.500
+
+Q SNQNNF            2 NQNNF    6 (6)
+Q Consensus         2 nqnnf    6 (6)
+                      |.|||
+T Consensus        52 nTnnf   56 (64)
+T 6ZZX_E           52 STNNY   56 (64)
+T ss_dssp             CEEEE
+T ss_pred             ccccc
+
+
+No 8
+>1JB0_E PHOTOSYSTEM I SUBUNIT PSAA, PHOTOSYSTEM; MEMBRANE PROTEIN, MULTIPROTEIN-PIGMENT COMPLEX, PHOTOSYNTHESIS; HET: LMG, CLA, LHG, PQN, SF4, BCR; 2.5A {Synechococcus elongatus} SCOP: b.34.4.2
+Probab=12.11  E-value=2.2e+02  Score=12.21  Aligned_cols=5  Identities=80%  Similarity=1.225  Sum_probs=0.0  Template_Neff=2.600
+
+Q SNQNNF            2 NQNNF    6 (6)
+Q Consensus         2 nqnnf    6 (6)
+                      |.|||
+T Consensus        56 nTNNF   60 (75)
+T 1JB0_E           56 NTNNF   60 (75)
+T ss_dssp             CEEEE
+T ss_pred             ccccc
+
+
+No 9
+>6L4U_E PROTEIN; Photosystem I, ELECTRON TRANSPORT; HET: SF4, LHG, LMG, BCR, CL0, LMT, KC1, PQN, DD6, A86, CLA; 2.4A {Chaetoceros gracilis}
+Probab=11.96  E-value=2.2e+02  Score=12.00  Aligned_cols=5  Identities=80%  Similarity=1.238  Sum_probs=0.0  Template_Neff=2.500
+
+Q SNQNNF            2 NQNNF    6 (6)
+Q Consensus         2 nqnnf    6 (6)
+                      |.|||
+T Consensus        49 nTNnf   53 (67)
+T 6L4U_E           49 NSNNF   53 (67)
+T ss_dssp             CEEEE
+T ss_pred             ccCcc
+
+
+No 10
+>6JO5_E Photosystem I P700 chlorophyll a; photosystem membrane protein, PHOTOSYNTHESIS; HET: SF4, LMG, LUT, CHL, PQN, LHG, BCR, CL0, DGD, CLA; 2.9A {Chlamydomonas reinhardtii}
+Probab=11.86  E-value=2.3e+02  Score=12.12  Aligned_cols=5  Identities=40%  Similarity=0.880  Sum_probs=0.0  Template_Neff=2.600
+
+Q SNQNNF            2 NQNNF    6 (6)
+Q Consensus         2 nqnnf    6 (6)
+                      |.|||
+T Consensus        60 nTnnf   64 (73)
+T 6JO5_E           60 TTNNY   64 (73)
+T ss_dssp             CEEEE
+T ss_pred             cCccc
+
+

@@ -1,0 +1,154 @@
+Query         GTFFIT
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 03:57:55 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GTFFIT/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GTFFIT/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 1ZYI_A Methylosome subunit pIC  27.9      57 0.00063   14.0   0.0    6    1-6      44-49  (171)
+  2 4F7U_Q Small nuclear ribonucle  27.4      59 0.00066   13.3   0.0    6    1-6      33-38  (129)
+  3 6VBV_5 Bardet-Biedl syndrome 1  26.2      64 0.00071   15.7   0.0    6    1-6     178-183 (341)
+  4 6VBU_5 Bardet-Biedl syndrome 1  24.9      71 0.00078   15.6   0.0    6    1-6     178-183 (341)
+  5 1Z7A_H conserved hypothetical   19.5 1.1E+02  0.0012   12.3   0.0    6    1-6      97-102 (308)
+  6 7BKF_A Putative polysaccharide  19.3 1.1E+02  0.0012   12.4   0.0    6    1-6     115-120 (282)
+  7 2Y8U_B CHITIN DEACETYLASE; HYD  19.1 1.1E+02  0.0012   11.9   0.0    6    1-6      61-66  (230)
+  8 2KXE_A DNA polymerase II small  18.7 1.1E+02  0.0013   13.2   0.0    6    1-6      48-53  (75)
+  9 1RJA_A Tyrosine-protein kinase  18.5 1.2E+02  0.0013    9.4   0.0    5    1-5      26-30  (100)
+ 10 4WCJ_A Protein (PgaB); deacety  18.4 1.2E+02  0.0013   12.5   0.0    6    1-6     119-124 (264)
+
+No 1
+>1ZYI_A Methylosome subunit pICln; PH DOMAIN  ICLN ; NMR {Canis lupus familiaris}
+Probab=27.89  E-value=57  Score=13.96  Aligned_cols=6  Identities=50%  Similarity=1.154  Sum_probs=2.8  Template_Neff=6.400
+
+Q GTFFIT            1 GTFFIT    6 (6)
+Q Consensus         1 gtffit    6 (6)
+                      |+.|||
+T Consensus        44 G~L~IT   49 (171)
+T 1ZYI_A           44 GTLYIA   49 (171)
+T ss_dssp             EEEEEE
+T ss_pred             EEEEEE
+Confidence            445553
+
+
+No 2
+>4F7U_Q Small nuclear ribonucleoprotein Sm D1; Assembly Machine, SPLICING; HET: P6G; 1.898A {Mus musculus}
+Probab=27.42  E-value=59  Score=13.27  Aligned_cols=6  Identities=50%  Similarity=1.049  Sum_probs=2.7  Template_Neff=6.600
+
+Q GTFFIT            1 GTFFIT    6 (6)
+Q Consensus         1 gtffit    6 (6)
+                      |++|||
+T Consensus        33 G~L~Vt   38 (129)
+T 4F7U_Q           33 GTVYIA   38 (129)
+T ss_dssp             EEEEEE
+T ss_pred             eEEEEE
+Confidence            344543
+
+
+No 3
+>6VBV_5 Bardet-Biedl syndrome 18 protein, BBS1; Cilia, ciliopathy, complex, membrane-protein transport; HET: GTP; 3.5A {Bos taurus}
+Probab=26.21  E-value=64  Score=15.66  Aligned_cols=6  Identities=100%  Similarity=1.641  Sum_probs=3.8  Template_Neff=5.400
+
+Q GTFFIT            1 GTFFIT    6 (6)
+Q Consensus         1 gtffit    6 (6)
+                      |+|++|
+T Consensus       178 GtlivT  183 (341)
+T 6VBV_5          178 GTFFIT  183 (341)
+T ss_dssp             EEEEEE
+T ss_pred             eEEEEE
+Confidence            567665
+
+
+No 4
+>6VBU_5 Bardet-Biedl syndrome 18 protein, BBS1; Cilia, ciliopathy, complex, membrane-protein transport; 3.1A {Bos taurus}
+Probab=24.91  E-value=71  Score=15.58  Aligned_cols=6  Identities=100%  Similarity=1.641  Sum_probs=3.8  Template_Neff=5.300
+
+Q GTFFIT            1 GTFFIT    6 (6)
+Q Consensus         1 gtffit    6 (6)
+                      |+|++|
+T Consensus       178 GtlivT  183 (341)
+T 6VBU_5          178 GTFFIT  183 (341)
+T ss_dssp             EEEEEE
+T ss_pred             eEEEEE
+Confidence            566665
+
+
+No 5
+>1Z7A_H conserved hypothetical protein; Hypothetical protein structural genomics, PSI; HET: GOL, MSE, IPA, EDO; 1.71A {Pseudomonas aeruginosa} SCOP: c.6.2.6
+Probab=19.50  E-value=1.1e+02  Score=12.35  Aligned_cols=6  Identities=33%  Similarity=0.246  Sum_probs=0.0  Template_Neff=10.200
+
+Q GTFFIT            1 GTFFIT    6 (6)
+Q Consensus         1 gtffit    6 (6)
+                      +|||+.
+T Consensus        97 aTffv~  102 (308)
+T 1Z7A_H           97 LTVFAV  102 (308)
+T ss_dssp             CEEEEC
+T ss_pred             EEEEEe
+
+
+No 6
+>7BKF_A Putative polysaccharide deacetylase; Polysaccharide, Deacetylase, Peptidoglycan, Pseudoenzyme, Sporulation.; HET: SO4; 1.139A {Bacillus anthracis}
+Probab=19.35  E-value=1.1e+02  Score=12.43  Aligned_cols=6  Identities=50%  Similarity=1.093  Sum_probs=0.0  Template_Neff=9.700
+
+Q GTFFIT            1 GTFFIT    6 (6)
+Q Consensus         1 gtffit    6 (6)
+                      +|||+.
+T Consensus       115 at~fv~  120 (282)
+T 7BKF_A          115 ATFFLE  120 (282)
+T ss_dssp             CEEEEC
+T ss_pred             EEEEEC
+
+
+No 7
+>2Y8U_B CHITIN DEACETYLASE; HYDROLASE; HET: PO4; 1.99A {EMERICELLA NIDULANS}
+Probab=19.06  E-value=1.1e+02  Score=11.92  Aligned_cols=6  Identities=50%  Similarity=1.043  Sum_probs=0.0  Template_Neff=9.900
+
+Q GTFFIT            1 GTFFIT    6 (6)
+Q Consensus         1 gtffit    6 (6)
+                      +|||+.
+T Consensus        61 ~tffv~   66 (230)
+T 2Y8U_B           61 ATFFVL   66 (230)
+T ss_dssp             CEEEEC
+T ss_pred             EEEEEc
+
+
+No 8
+>2KXE_A DNA polymerase II small subunit; DNA polymerase, D-family, small subunit; NMR {Pyrococcus horikoshii}
+Probab=18.74  E-value=1.1e+02  Score=13.16  Aligned_cols=6  Identities=50%  Similarity=0.761  Sum_probs=0.0  Template_Neff=2.000
+
+Q GTFFIT            1 GTFFIT    6 (6)
+Q Consensus         1 gtffit    6 (6)
+                      |||.|.
+T Consensus        48 gTFiID   53 (75)
+T 2KXE_A           48 ETFIID   53 (75)
+T ss_dssp             TCSEEC
+T ss_pred             CeEEec
+
+
+No 9
+>1RJA_A Tyrosine-protein kinase 6 (E.C.2.7.1.112); Human protein tyrosine kinase-6 (PTK6/Brk); NMR {Homo sapiens} SCOP: d.93.1.1
+Probab=18.45  E-value=1.2e+02  Score=9.41  Aligned_cols=5  Identities=60%  Similarity=1.344  Sum_probs=0.0  Template_Neff=11.600
+
+Q GTFFIT            1 GTFFI    5 (6)
+Q Consensus         1 gtffi    5 (6)
+                      |.|++
+T Consensus        26 G~flv   30 (100)
+T 1RJA_A           26 GAFLI   30 (100)
+T ss_dssp             CCEEE
+T ss_pred             CEEEE
+
+
+No 10
+>4WCJ_A Protein (PgaB); deacetylase, beta alpha barrel, carbohydrate; 1.7A {Ammonifex degensii}
+Probab=18.37  E-value=1.2e+02  Score=12.48  Aligned_cols=6  Identities=33%  Similarity=0.556  Sum_probs=0.0  Template_Neff=9.200
+
+Q GTFFIT            1 GTFFIT    6 (6)
+Q Consensus         1 gtffit    6 (6)
+                      +||||.
+T Consensus       119 aT~Fv~  124 (264)
+T 4WCJ_A          119 FLFFVI  124 (264)
+T ss_dssp             EEEEEC
+T ss_pred             EEEEEe
+
+

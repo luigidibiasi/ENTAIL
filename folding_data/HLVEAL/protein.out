@@ -1,0 +1,152 @@
+Query         HLVEAL
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 06:37:20 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/HLVEAL/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/HLVEAL/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5URT_B Insulin Chain A, Insuli  53.3      12 0.00013   12.9   0.0    6    1-6      10-15  (30)
+  2 3W7Y_B Insulin; Human insulin,  39.1      28 0.00031   11.8   0.0    6    1-6      10-15  (30)
+  3 6SOF_F Insulin receptor (E.C.2  39.1      28 0.00031   11.8   0.0    6    1-6      10-15  (30)
+  4 6BLQ_B H-2 class II histocompa  25.0      70 0.00077   12.8   0.0    6    1-6       1-6   (221)
+  5 1EFE_A AN ACTIVE MINI-PROINSUL  10.1 2.8E+02  0.0031    9.8   0.0    6    1-6      10-15  (60)
+  6 6PXW_F Insulin receptor (E.C.2  10.1 2.8E+02  0.0031   10.0   0.0    6    1-6      10-15  (74)
+  7 7BWA_E Insulin receptor (E.C.2  10.1 2.8E+02  0.0031   10.0   0.0    6    1-6      10-15  (74)
+  8 7KD6_T Insulin receptor Single   9.4 3.1E+02  0.0035    9.7   0.0    6    1-6      10-15  (57)
+  9 1NGR_A P75 LOW AFFINITY NEUROT   8.0 3.9E+02  0.0043    8.7   0.0    6    1-6      65-70  (85)
+ 10 3OQ9_B Tumor necrosis factor r   7.4 4.3E+02  0.0048    8.7   0.0    6    1-6      63-68  (86)
+
+No 1
+>5URT_B Insulin Chain A, Insulin Chain; Insulin, HORMONE; 1.18A {Homo sapiens}
+Probab=53.30  E-value=12  Score=12.85  Aligned_cols=6  Identities=100%  Similarity=1.298  Sum_probs=3.9  Template_Neff=4.800
+
+Q HLVEAL            1 HLVEAL    6 (6)
+Q Consensus         1 hlveal    6 (6)
+                      +||++|
+T Consensus        10 ~Lvd~l   15 (30)
+T 5URT_B           10 HLVEAL   15 (30)
+T ss_dssp             HHHHHH
+T ss_pred             hHHHHH
+Confidence            477765
+
+
+No 2
+>3W7Y_B Insulin; Human insulin, hormone, glucose metabolism; 0.92A {Homo sapiens}
+Probab=39.12  E-value=28  Score=11.75  Aligned_cols=6  Identities=100%  Similarity=1.298  Sum_probs=3.5  Template_Neff=5.200
+
+Q HLVEAL            1 HLVEAL    6 (6)
+Q Consensus         1 hlveal    6 (6)
+                      +|+++|
+T Consensus        10 ~L~~~L   15 (30)
+T 3W7Y_B           10 HLVEAL   15 (30)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            466664
+
+
+No 3
+>6SOF_F Insulin receptor (E.C.2.7.10.1), Insulin; cell surface receptor, insulin, tyrosine; 4.3A {Homo sapiens}
+Probab=39.12  E-value=28  Score=11.75  Aligned_cols=6  Identities=100%  Similarity=1.298  Sum_probs=3.5  Template_Neff=5.200
+
+Q HLVEAL            1 HLVEAL    6 (6)
+Q Consensus         1 hlveal    6 (6)
+                      +|+++|
+T Consensus        10 ~L~~~L   15 (30)
+T 6SOF_F           10 HLVEAL   15 (30)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            466664
+
+
+No 4
+>6BLQ_B H-2 class II histocompatibility antigen; INSULIN, TYPE I DIABETES, T; HET: NAG, EDO, IPA; 1.8A {Mus musculus}
+Probab=25.04  E-value=70  Score=12.81  Aligned_cols=6  Identities=83%  Similarity=1.132  Sum_probs=3.3  Template_Neff=9.100
+
+Q HLVEAL            1 HLVEAL    6 (6)
+Q Consensus         1 hlveal    6 (6)
+                      ||||.|
+T Consensus         1 ~~~~~~    6 (221)
+T 6BLQ_B            1 HLVERL    6 (221)
+T ss_dssp             CCEECC
+T ss_pred             CceeeE
+Confidence            566643
+
+
+No 5
+>1EFE_A AN ACTIVE MINI-PROINSULIN, M2PI; LINKER, INSULIN, PROINSULIN, HORMONE-GROWTH FACTOR; NMR {Homo sapiens} SCOP: g.1.1.1
+Probab=10.13  E-value=2.8e+02  Score=9.82  Aligned_cols=6  Identities=100%  Similarity=1.298  Sum_probs=0.0  Template_Neff=7.000
+
+Q HLVEAL            1 HLVEAL    6 (6)
+Q Consensus         1 hlveal    6 (6)
+                      +|+++|
+T Consensus        10 ~L~~~l   15 (60)
+T 1EFE_A           10 HLVEAL   15 (60)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 6
+>6PXW_F Insulin receptor (E.C.2.7.10.1), Insulin; insulin receptor, insulin, SIGNALING PROTEIN-HORMONE; 3.1A {Homo sapiens}
+Probab=10.12  E-value=2.8e+02  Score=10.02  Aligned_cols=6  Identities=100%  Similarity=1.298  Sum_probs=0.0  Template_Neff=7.400
+
+Q HLVEAL            1 HLVEAL    6 (6)
+Q Consensus         1 hlveal    6 (6)
+                      +|+++|
+T Consensus        10 ~L~~~l   15 (74)
+T 6PXW_F           10 HLVEAL   15 (74)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 7
+>7BWA_E Insulin receptor (E.C.2.7.10.1), Insulin,Insulin; Human Insulin Receptor, Full-length, Ectodomain;{Homo sapiens}
+Probab=10.12  E-value=2.8e+02  Score=10.02  Aligned_cols=6  Identities=100%  Similarity=1.298  Sum_probs=0.0  Template_Neff=7.400
+
+Q HLVEAL            1 HLVEAL    6 (6)
+Q Consensus         1 hlveal    6 (6)
+                      +|+++|
+T Consensus        10 ~L~~~l   15 (74)
+T 7BWA_E           10 HLVEAL   15 (74)
+T ss_pred             HHHHHH
+
+
+No 8
+>7KD6_T Insulin receptor Single-chain insulin Antibody; HET: SO4, BMA, FUC, NAG; 2.6A {Homo sapiens}
+Probab=9.39  E-value=3.1e+02  Score=9.74  Aligned_cols=6  Identities=100%  Similarity=1.298  Sum_probs=0.0  Template_Neff=6.700
+
+Q HLVEAL            1 HLVEAL    6 (6)
+Q Consensus         1 hlveal    6 (6)
+                      +|+++|
+T Consensus        10 ~L~~~l   15 (57)
+T 7KD6_T           10 HLVEAL   15 (57)
+T ss_pred             HHHHHH
+
+
+No 9
+>1NGR_A P75 LOW AFFINITY NEUROTROPHIN RECEPTOR; RECEPTOR, P75, INTRACELLULAR DOMAIN, NEUROTROPHIN; NMR {Rattus norvegicus} SCOP: a.77.1.2
+Probab=8.00  E-value=3.9e+02  Score=8.70  Aligned_cols=6  Identities=50%  Similarity=0.634  Sum_probs=0.0  Template_Neff=10.000
+
+Q HLVEAL            1 HLVEAL    6 (6)
+Q Consensus         1 hlveal    6 (6)
+                      .|+++|
+T Consensus        65 ~L~~~L   70 (85)
+T 1NGR_A           65 ALLAAL   70 (85)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 10
+>3OQ9_B Tumor necrosis factor receptor superfamily; APOPTOSIS, DISC, FAS, FADD; 6.8A {Mus musculus}
+Probab=7.38  E-value=4.3e+02  Score=8.70  Aligned_cols=6  Identities=33%  Similarity=0.733  Sum_probs=0.0  Template_Neff=9.800
+
+Q HLVEAL            1 HLVEAL    6 (6)
+Q Consensus         1 hlveal    6 (6)
+                      .|++||
+T Consensus        63 ~L~~aL   68 (86)
+T 3OQ9_B           63 DLIKGL   68 (86)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+

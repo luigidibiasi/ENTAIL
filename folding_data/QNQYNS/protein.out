@@ -1,0 +1,149 @@
+Query         QNQYNS
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 08:51:06 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QNQYNS/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QNQYNS/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6XFM_1 RNA-binding protein FUS  51.4      14 0.00015   16.6   0.0    6    1-6      48-53  (104)
+  2 7AIH_Al mL94, mL89, Ribosomal    8.5 3.6E+02  0.0039   14.4   0.0    4    1-4     241-244 (346)
+  3 7AM2_Al Ribosomal protein L3-l   8.5 3.6E+02  0.0039   14.4   0.0    4    1-4     241-244 (346)
+  4 6O35_C de novo designed WSHC8;   8.4 3.6E+02   0.004   12.3   0.0    5    1-5      92-96  (102)
+  5 4OM3_D Transducin-like enhance   7.4 4.3E+02  0.0047   12.2   0.0    6    1-6      28-33  (147)
+  6 5ZB9_A DNA damage response pro   7.2 4.4E+02  0.0049   13.9   0.0    4    1-4     143-146 (544)
+  7 6IMU_A Endo-beta-1,2-glucanase   6.9 4.7E+02  0.0052   14.3   0.0    6    1-6     411-416 (505)
+  8 6IMV_B Endo-beta-1,2-glucanase   6.9 4.7E+02  0.0052   14.3   0.0    6    1-6     411-416 (505)
+  9 1OQD_L Tumor necrosis factor l   6.5 5.1E+02  0.0056    9.8   0.0    4    1-4       3-6   (39)
+ 10 2F01_A Streptavidin; protein/l   6.4 5.2E+02  0.0058   10.5   0.0    6    1-6      10-15  (127)
+
+No 1
+>6XFM_1 RNA-binding protein FUS; Low complexity domain, Protein aggregation; 2.62A {Homo sapiens}
+Probab=51.39  E-value=14  Score=16.58  Aligned_cols=6  Identities=100%  Similarity=1.276  Sum_probs=3.5  Template_Neff=1.900
+
+Q QNQYNS            1 QNQYNS    6 (6)
+Q Consensus         1 qnqyns    6 (6)
+                      |||||+
+T Consensus        48 Qnqy~s   53 (104)
+T 6XFM_1           48 QNQYNS   53 (104)
+T ss_dssp             EEEECC
+T ss_pred             cccccC
+Confidence            566663
+
+
+No 2
+>7AIH_Al mL94, mL89, Ribosomal protein L3-like; Ribosome, Mitochondria, Kinetoplastid; HET: NAD; 3.6A {Leishmania major}
+Probab=8.54  E-value=3.6e+02  Score=14.44  Aligned_cols=4  Identities=100%  Similarity=1.414  Sum_probs=0.0  Template_Neff=1.800
+
+Q QNQYNS            1 QNQY    4 (6)
+Q Consensus         1 qnqy    4 (6)
+                      ||||
+T Consensus       241 QNqy  244 (346)
+T 7AIH_Al         241 QNQY  244 (346)
+T ss_pred             Ccce
+
+
+No 3
+>7AM2_Al Ribosomal protein L3-like protein, uL4m; RIBOSOME, Mitochondria, Kinetoplastid; HET: GTP, ATP; 3.4A {Leishmania tarentolae}
+Probab=8.54  E-value=3.6e+02  Score=14.44  Aligned_cols=4  Identities=100%  Similarity=1.414  Sum_probs=0.0  Template_Neff=1.800
+
+Q QNQYNS            1 QNQY    4 (6)
+Q Consensus         1 qnqy    4 (6)
+                      ||||
+T Consensus       241 QNqy  244 (346)
+T 7AM2_Al         241 QNQY  244 (346)
+T ss_pred             Ccce
+
+
+No 4
+>6O35_C de novo designed WSHC8; Helical bundle, octamer, computational design; 2.4A {synthetic construct}
+Probab=8.38  E-value=3.6e+02  Score=12.26  Aligned_cols=5  Identities=80%  Similarity=0.866  Sum_probs=0.0  Template_Neff=1.000
+
+Q QNQYNS            1 QNQYN    5 (6)
+Q Consensus         1 qnqyn    5 (6)
+                      |||.|
+T Consensus        92 qnqln   96 (102)
+T 6O35_C           92 QNQLN   96 (102)
+T ss_dssp             HHHHH
+T ss_pred             HHhhh
+
+
+No 5
+>4OM3_D Transducin-like enhancer protein 1; Tetramer, helix-turn-helix, Wnt repressor, TCF/LEF; HET: GOL; 2.855A {Homo sapiens}
+Probab=7.45  E-value=4.3e+02  Score=12.18  Aligned_cols=6  Identities=67%  Similarity=0.905  Sum_probs=0.0  Template_Neff=3.900
+
+Q QNQYNS            1 QNQYNS    6 (6)
+Q Consensus         1 qnqyns    6 (6)
+                      |+||.|
+T Consensus        28 qaQ~hs   33 (147)
+T 4OM3_D           28 QAQYHS   33 (147)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHh
+
+
+No 6
+>5ZB9_A DNA damage response protein Rtt109; Histone, acetylation, DNA replication, nucleosome; HET: ALY; 2.502A {Neosartorya fumigata (strain ATCC MYA-4609 / Af293 / CBS 101355 / FGSC A1100)}
+Probab=7.23  E-value=4.4e+02  Score=13.91  Aligned_cols=4  Identities=100%  Similarity=1.414  Sum_probs=0.0  Template_Neff=5.300
+
+Q QNQYNS            1 QNQY    4 (6)
+Q Consensus         1 qnqy    4 (6)
+                      |+||
+T Consensus       143 Q~QY  146 (544)
+T 5ZB9_A          143 QNQY  146 (544)
+T ss_dssp             CCCS
+T ss_pred             chhh
+
+
+No 7
+>6IMU_A Endo-beta-1,2-glucanase (E.C.3.2.1.71); Glycoside hydrolase, Talaromyces funiculosus, Hydrolase; HET: PGE, CIT, NAG; 2.0A {Talaromyces funiculosus}
+Probab=6.88  E-value=4.7e+02  Score=14.29  Aligned_cols=6  Identities=67%  Similarity=0.833  Sum_probs=0.0  Template_Neff=3.700
+
+Q QNQYNS            1 QNQYNS    6 (6)
+Q Consensus         1 qnqyns    6 (6)
+                      ||+|.|
+T Consensus       411 Qn~YGS  416 (505)
+T 6IMU_A          411 QNIYGS  416 (505)
+T ss_dssp             EETTEE
+T ss_pred             cccccc
+
+
+No 8
+>6IMV_B Endo-beta-1,2-glucanase (E.C.3.2.1.71); Glycoside hydrolase, Talaromyces funiculosus, sophorose; HET: BGC, NAG, PEG, GLC; 2.0A {Talaromyces funiculosus}
+Probab=6.88  E-value=4.7e+02  Score=14.29  Aligned_cols=6  Identities=67%  Similarity=0.833  Sum_probs=0.0  Template_Neff=3.700
+
+Q QNQYNS            1 QNQYNS    6 (6)
+Q Consensus         1 qnqyns    6 (6)
+                      ||+|.|
+T Consensus       411 Qn~YGS  416 (505)
+T 6IMV_B          411 QNIYGS  416 (505)
+T ss_dssp             EETTEE
+T ss_pred             cccccc
+
+
+No 9
+>1OQD_L Tumor necrosis factor ligand superfamily; ligand receptor complex, IMMUNE RESPONSE; 2.6A {Homo sapiens} SCOP: g.24.1.2
+Probab=6.50  E-value=5.1e+02  Score=9.77  Aligned_cols=4  Identities=75%  Similarity=1.331  Sum_probs=0.0  Template_Neff=3.400
+
+Q QNQYNS            1 QNQY    4 (6)
+Q Consensus         1 qnqy    4 (6)
+                      +|||
+T Consensus         3 ~~eY    6 (39)
+T 1OQD_L            3 QNEY    6 (39)
+T ss_dssp             TTEE
+T ss_pred             hhhc
+
+
+No 10
+>2F01_A Streptavidin; protein/ligand interactions, streptavidin, biotin, BIOTIN; HET: GOL, BTN, BTQ; 0.85A {Streptomyces avidinii} SCOP: b.61.1.1
+Probab=6.40  E-value=5.2e+02  Score=10.52  Aligned_cols=6  Identities=50%  Similarity=0.412  Sum_probs=0.0  Template_Neff=6.800
+
+Q QNQYNS            1 QNQYNS    6 (6)
+Q Consensus         1 qnqyns    6 (6)
+                      .||+.|
+T Consensus        10 ~Ne~GS   15 (127)
+T 2F01_A           10 YNQLGS   15 (127)
+T ss_dssp             EETTCC
+T ss_pred             EcCCCC
+
+

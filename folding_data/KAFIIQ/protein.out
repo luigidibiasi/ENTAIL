@@ -1,0 +1,157 @@
+Query         KAFIIQ
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 10:06:54 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/KAFIIQ/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/KAFIIQ/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5UXN_A Phospho-2-dehydro-3-deo  28.7      54  0.0006   16.8   0.0    6    1-6      65-70  (453)
+  2 5UXM_A Phospho-2-dehydro-3-deo  28.6      55 0.00061   16.8   0.0    6    1-6      65-70  (453)
+  3 2YPO_A PHOSPHO-2-DEHYDRO-3-DEO  27.0      61 0.00067   16.7   0.0    6    1-6      78-83  (462)
+  4 3PFP_B Probable 3-deoxy-D-arab  27.0      61 0.00068   16.7   0.0    6    1-6      80-85  (464)
+  5 6PBJ_B 3-deoxy-d-arabino-heptu  26.8      62 0.00069   16.7   0.0    6    1-6      80-85  (464)
+  6 6BMC_A Phospho-2-dehydro-3-deo  24.9      71 0.00078   16.3   0.0    6    1-6      58-63  (405)
+  7 5HUC_A 3-Deoxy-D-arabino-heptu  24.2      74 0.00082   16.5   0.0    6    1-6      88-93  (472)
+  8 5HUD_D 3-Deoxy-D-arabino-heptu  23.7      77 0.00085   16.5   0.0    6    1-6      88-93  (472)
+  9 2ZOT_B Spondin-1; beta-sandwic  19.5 1.1E+02  0.0012   12.6   0.0    6    1-6      65-70  (172)
+ 10 2NA1_A entity; bmi1, phc2, TRA  17.7 1.2E+02  0.0014   12.3   0.0    4    3-6      17-20  (155)
+
+No 1
+>5UXN_A Phospho-2-dehydro-3-deoxyheptonate aldolase (E.C.2.5.1.54); TRANSFERASE, DAH7PS, 3-deoxy-D-arabino-heptulosonate 7-phosphate synthase; HET: PO4, TYR, PEP; 2.2A {Pseudomonas aeruginosa (strain ATCC 15692 / DSM 22644 / CIP 104116 / JCM 14847 / LMG 12228 / 1C / PRS 101 / PAO1)}
+Probab=28.66  E-value=54  Score=16.77  Aligned_cols=6  Identities=50%  Similarity=1.132  Sum_probs=4.1  Template_Neff=4.700
+
+Q KAFIIQ            1 KAFIIQ    6 (6)
+Q Consensus         1 kafiiq    6 (6)
+                      +||++|
+T Consensus        65 ~afvLQ   70 (453)
+T 5UXN_A           65 RAFLLQ   70 (453)
+T ss_dssp             SCEEEE
+T ss_pred             CCEEEc
+Confidence            467776
+
+
+No 2
+>5UXM_A Phospho-2-dehydro-3-deoxyheptonate aldolase (E.C.2.5.1.54); TRANSFERASE, DAH7PS, 3-deoxy-D-arabino-heptulosonate 7-phosphate synthase; HET: PEP, PO4, TRP; 1.54A {Pseudomonas aeruginosa (strain ATCC 15692 / DSM 22644 / CIP 104116 / JCM 14847 / LMG 12228 / 1C / PRS 101 / PAO1)}
+Probab=28.59  E-value=55  Score=16.77  Aligned_cols=6  Identities=50%  Similarity=1.132  Sum_probs=4.1  Template_Neff=4.700
+
+Q KAFIIQ            1 KAFIIQ    6 (6)
+Q Consensus         1 kafiiq    6 (6)
+                      +||++|
+T Consensus        65 ~afvLQ   70 (453)
+T 5UXM_A           65 RAFLLQ   70 (453)
+T ss_dssp             SCEEEE
+T ss_pred             CCEEEe
+Confidence            467776
+
+
+No 3
+>2YPO_A PHOSPHO-2-DEHYDRO-3-DEOXYHEPTONATE ALDOLASE AROG (E.C.2.5.1.54); SHIKIMATE PATHWAY, TRANSFERASE, AROMATIC AMINO; HET: SO4, PHE, GOL; 2.0A {MYCOBACTERIUM TUBERCULOSIS}
+Probab=27.03  E-value=61  Score=16.74  Aligned_cols=6  Identities=50%  Similarity=1.049  Sum_probs=4.1  Template_Neff=4.500
+
+Q KAFIIQ            1 KAFIIQ    6 (6)
+Q Consensus         1 kafiiq    6 (6)
+                      +||++|
+T Consensus        78 ~afvLQ   83 (462)
+T 2YPO_A           78 EAFLLQ   83 (462)
+T ss_dssp             SCEEEE
+T ss_pred             CCEEEe
+Confidence            467776
+
+
+No 4
+>3PFP_B Probable 3-deoxy-D-arabino-heptulosonate 7-phosphate synthase AroG; Shikimate pathway, Mycobacterium tuberculosis, DAH7P; HET: 036, 035; 2.35A {Mycobacterium tuberculosis}
+Probab=26.98  E-value=61  Score=16.75  Aligned_cols=6  Identities=50%  Similarity=1.049  Sum_probs=4.1  Template_Neff=4.500
+
+Q KAFIIQ            1 KAFIIQ    6 (6)
+Q Consensus         1 kafiiq    6 (6)
+                      +||++|
+T Consensus        80 ~afvLQ   85 (464)
+T 3PFP_B           80 EAFLLQ   85 (464)
+T ss_dssp             SSEEEE
+T ss_pred             CCEEEe
+Confidence            467776
+
+
+No 5
+>6PBJ_B 3-deoxy-d-arabino-heptulosonate 7-phosphate synthase (E.C.2.5.1.54); DAH7PS, Allostery, shipmate pathway, TIM; HET: SO4, PO4, PG4, PEG; 1.9A {Mycobacterium tuberculosis}
+Probab=26.76  E-value=62  Score=16.73  Aligned_cols=6  Identities=50%  Similarity=1.049  Sum_probs=4.1  Template_Neff=4.500
+
+Q KAFIIQ            1 KAFIIQ    6 (6)
+Q Consensus         1 kafiiq    6 (6)
+                      +||++|
+T Consensus        80 ~aflLQ   85 (464)
+T 6PBJ_B           80 EAFLLQ   85 (464)
+T ss_dssp             SSEEEE
+T ss_pred             CCEEEe
+Confidence            467776
+
+
+No 6
+>6BMC_A Phospho-2-dehydro-3-deoxyheptonate aldolase (E.C.2.5.1.54); TRANSFERASE, DAH7PS, 3-deoxy-D-arabino-heptulosonate 7-phosphate synthase; HET: PEP; 2.7A {Pseudomonas aeruginosa}
+Probab=24.85  E-value=71  Score=16.32  Aligned_cols=6  Identities=33%  Similarity=0.805  Sum_probs=4.0  Template_Neff=4.400
+
+Q KAFIIQ            1 KAFIIQ    6 (6)
+Q Consensus         1 kafiiq    6 (6)
+                      +||++|
+T Consensus        58 ~afvLQ   63 (405)
+T 6BMC_A           58 EALVVQ   63 (405)
+T ss_dssp             SCEEEE
+T ss_pred             CCEEEe
+Confidence            467776
+
+
+No 7
+>5HUC_A 3-Deoxy-D-arabino-heptulosonate 7-phosphate (DAHP) synthase; DAHP synthase, shikimate pathway, Transferase; HET: PO4, PEP, TRP, MPD; 2.45A {Corynebacterium glutamicum}
+Probab=24.20  E-value=74  Score=16.55  Aligned_cols=6  Identities=67%  Similarity=1.160  Sum_probs=4.0  Template_Neff=4.400
+
+Q KAFIIQ            1 KAFIIQ    6 (6)
+Q Consensus         1 kafiiq    6 (6)
+                      +||++|
+T Consensus        88 ~aFlLQ   93 (472)
+T 5HUC_A           88 KAFLLQ   93 (472)
+T ss_dssp             SCEEEE
+T ss_pred             CCEEEe
+Confidence            467776
+
+
+No 8
+>5HUD_D 3-Deoxy-D-arabino-heptulosonate 7-phosphate (DAHP) synthase (E.C.2.5.1.54); chorismate mutase, DAHP synthase, shikimate; HET: PEG, TSA, PG4, PGE, TRP, PO4, GOL; 2.15A {Corynebacterium glutamicum}
+Probab=23.66  E-value=77  Score=16.49  Aligned_cols=6  Identities=67%  Similarity=1.160  Sum_probs=4.0  Template_Neff=4.400
+
+Q KAFIIQ            1 KAFIIQ    6 (6)
+Q Consensus         1 kafiiq    6 (6)
+                      +||++|
+T Consensus        88 ~aFvLQ   93 (472)
+T 5HUD_D           88 KAFLLQ   93 (472)
+T ss_dssp             SCEEEE
+T ss_pred             CCEEEe
+Confidence            467776
+
+
+No 9
+>2ZOT_B Spondin-1; beta-sandwich, extracellular protein, Cell adhesion; 2.7A {Homo sapiens}
+Probab=19.51  E-value=1.1e+02  Score=12.56  Aligned_cols=6  Identities=17%  Similarity=0.584  Sum_probs=0.0  Template_Neff=7.700
+
+Q KAFIIQ            1 KAFIIQ    6 (6)
+Q Consensus         1 kafiiq    6 (6)
+                      |.|+||
+T Consensus        65 kGFliq   70 (172)
+T 2ZOT_B           65 RGFTLI   70 (172)
+T ss_pred             eEEEEE
+
+
+No 10
+>2NA1_A entity; bmi1, phc2, TRANSCRIPTION; NMR {mouse, Homo sapiens}
+Probab=17.70  E-value=1.2e+02  Score=12.33  Aligned_cols=4  Identities=75%  Similarity=1.398  Sum_probs=0.0  Template_Neff=7.400
+
+Q KAFIIQ            3 FIIQ    6 (6)
+Q Consensus         3 fiiq    6 (6)
+                      ||||
+T Consensus        17 f~i~   20 (155)
+T 2NA1_A           17 FVIQ   20 (155)
+T ss_dssp             EEEE
+T ss_pred             eeee
+
+

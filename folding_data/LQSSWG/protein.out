@@ -1,0 +1,275 @@
+Query         LQSSWG
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 20:10:26 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LQSSWG/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LQSSWG/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6N3A_J TAR DNA-binding protein  94.0   0.013 1.5E-07   23.2   0.0    6    1-6      20-25  (50)
+  2 2N2C_A TAR DNA-binding protein  88.8    0.23 2.5E-06   18.9   0.0    6    1-6      24-29  (43)
+  3 6UCU_L Mitochondrial import re  67.6     4.5   5E-05   16.4   0.0    6    1-6      49-54  (61)
+  4 6UCV_d Mitochondrial import re  67.6     4.5   5E-05   16.4   0.0    6    1-6      49-54  (61)
+  5 7KWZ_A Isoform 2 of TAR DNA-bi  56.3      10 0.00011   17.5   0.0    6    1-6      64-69  (148)
+  6 6SGF_A Beta-xylanase (E.C.3.2.  53.4      12 0.00013   17.1   0.0    6    1-6      14-19  (141)
+  7 6SGF_E Beta-xylanase (E.C.3.2.  53.4      12 0.00013   17.1   0.0    6    1-6      14-19  (141)
+  8 1X9F_J extracellular Globin IV  50.1      15 0.00016   12.9   0.0    6    1-6      12-17  (145)
+  9 3MKB_C Hemoglobin subunit alph  43.7      22 0.00024   12.2   0.0    6    1-6      10-15  (140)
+ 10 3WFW_A Hemoglobin-like flavopr  43.5      22 0.00024   12.4   0.0    6    1-6       9-14  (138)
+ 11 3JZ9_A Uncharacterized protein  42.3      24 0.00026   17.2   0.0    6    1-6      70-75  (197)
+ 12 2WWX_B RAS-RELATED PROTEIN RAB  40.8      26 0.00028   17.3   0.0    6    1-6      90-95  (217)
+ 13 2OLP_B Crystal Structure of Hb  38.7      29 0.00032   12.2   0.0    6    1-6      12-17  (152)
+ 14 3PI3_A Hemoglobin II; pH behav  38.7      29 0.00032   12.2   0.0    6    1-6      12-17  (152)
+ 15 3L0I_C DrrA, Ras-related prote  33.1      41 0.00045   17.6   0.0    6    1-6     219-224 (363)
+ 16 4MXP_A Defects in Rab1 recruit  30.6      48 0.00053   17.2   0.0    6    1-6      87-92  (328)
+ 17 3L0M_A DrrA; GEF/GDF of Rab1,   30.1      49 0.00055   17.2   0.0    6    1-6      95-100 (336)
+ 18 5C3L_A Nucleoporin Nup54, MGC8  29.3      52 0.00058   15.7   0.0    6    1-6      32-37  (333)
+
+No 1
+>6N3A_J TAR DNA-binding protein 43, segA; Amyloid, TDP43, ALS, FTLD-TDP, dna; 3.3A {Homo sapiens}
+Probab=93.97  E-value=0.013  Score=23.24  Aligned_cols=6  Identities=100%  Similarity=1.769  Sum_probs=5.2  Template_Neff=2.200
+
+Q LQSSWG            1 LQSSWG    6 (6)
+Q Consensus         1 lqsswg    6 (6)
+                      ||||||
+T Consensus        20 LqsSWg   25 (50)
+T 6N3A_J           20 LQSSWG   25 (50)
+T ss_dssp             EEEEEE
+T ss_pred             HHhhhh
+Confidence            689997
+
+
+No 2
+>2N2C_A TAR DNA-binding protein 43; ALS, prion-like domain, hydrophobic helices; NMR {Homo sapiens}
+Probab=88.78  E-value=0.23  Score=18.94  Aligned_cols=6  Identities=100%  Similarity=1.769  Sum_probs=4.7  Template_Neff=3.300
+
+Q LQSSWG            1 LQSSWG    6 (6)
+Q Consensus         1 lqsswg    6 (6)
+                      ||++||
+T Consensus        24 Lq~gWg   29 (43)
+T 2N2C_A           24 LQSSWG   29 (43)
+T ss_dssp             HHHHHH
+T ss_pred             HHhccc
+Confidence            478997
+
+
+No 3
+>6UCU_L Mitochondrial import receptor subunit TOM40; Membrane protein, mitochondrial protein import; HET: LMT; 3.06A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=67.57  E-value=4.5  Score=16.36  Aligned_cols=6  Identities=33%  Similarity=0.219  Sum_probs=4.4  Template_Neff=3.200
+
+Q LQSSWG            1 LQSSWG    6 (6)
+Q Consensus         1 lqsswg    6 (6)
+                      +||+|+
+T Consensus        49 l~Ss~~   54 (61)
+T 6UCU_L           49 IQSPLM   54 (61)
+T ss_pred             hcChHH
+Confidence            578885
+
+
+No 4
+>6UCV_d Mitochondrial import receptor subunit TOM40; Membrane protein, mitochondrial protein import; HET: MC3; 4.1A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=67.57  E-value=4.5  Score=16.36  Aligned_cols=6  Identities=33%  Similarity=0.219  Sum_probs=4.4  Template_Neff=3.200
+
+Q LQSSWG            1 LQSSWG    6 (6)
+Q Consensus         1 lqsswg    6 (6)
+                      +||+|+
+T Consensus        49 l~Ss~~   54 (61)
+T 6UCV_d           49 IQSPLM   54 (61)
+T ss_pred             hcChHH
+Confidence            578885
+
+
+No 5
+>7KWZ_A Isoform 2 of TAR DNA-binding; TDP-43, amyloid, neurodegenerative diseases, amyotropic; 3.2A {Homo sapiens}
+Probab=56.29  E-value=10  Score=17.50  Aligned_cols=6  Identities=100%  Similarity=1.769  Sum_probs=4.1  Template_Neff=2.900
+
+Q LQSSWG            1 LQSSWG    6 (6)
+Q Consensus         1 lqsswg    6 (6)
+                      ||++|+
+T Consensus        64 LQsgWG   69 (148)
+T 7KWZ_A           64 LQSSWG   69 (148)
+T ss_dssp             ESCBSS
+T ss_pred             HHhccc
+Confidence            467785
+
+
+No 6
+>6SGF_A Beta-xylanase (E.C.3.2.1.8); Carbohydrate binding module, Xylanase, Xylan; HET: CD, XYP; 1.756A {Roseburia intestinalis L1-82}
+Probab=53.45  E-value=12  Score=17.08  Aligned_cols=6  Identities=50%  Similarity=1.464  Sum_probs=4.4  Template_Neff=3.100
+
+Q LQSSWG            1 LQSSWG    6 (6)
+Q Consensus         1 lqsswg    6 (6)
+                      |+++||
+T Consensus        14 ~~~swG   19 (141)
+T 6SGF_A           14 LKVAWG   19 (141)
+T ss_dssp             CEEEEE
+T ss_pred             ceeEec
+Confidence            578886
+
+
+No 7
+>6SGF_E Beta-xylanase (E.C.3.2.1.8); Carbohydrate binding module, Xylanase, Xylan; HET: CD, XYP; 1.756A {Roseburia intestinalis L1-82}
+Probab=53.45  E-value=12  Score=17.08  Aligned_cols=6  Identities=50%  Similarity=1.464  Sum_probs=4.4  Template_Neff=3.100
+
+Q LQSSWG            1 LQSSWG    6 (6)
+Q Consensus         1 lqsswg    6 (6)
+                      |+++||
+T Consensus        14 ~~~swG   19 (141)
+T 6SGF_E           14 LKVAWG   19 (141)
+T ss_dssp             CEEEEE
+T ss_pred             ceeEec
+Confidence            578886
+
+
+No 8
+>1X9F_J extracellular Globin IV, II, III; Crystal  Dodecamer  Allosteric; HET: PO4, HEM, CMO; 2.6A {Lumbricus terrestris} SCOP: a.1.1.2
+Probab=50.12  E-value=15  Score=12.87  Aligned_cols=6  Identities=50%  Similarity=1.470  Sum_probs=3.3  Template_Neff=10.600
+
+Q LQSSWG            1 LQSSWG    6 (6)
+Q Consensus         1 lqsswg    6 (6)
+                      +++||+
+T Consensus        12 l~~sw~   17 (145)
+T 1X9F_J           12 VKSEWG   17 (145)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            356663
+
+
+No 9
+>3MKB_C Hemoglobin subunit alpha, Hemoglobin subunit; Hemoglobin, Oxygen Affinity, Isurus oxyrinchus; HET: HEM; 1.9A {Isurus oxyrinchus}
+Probab=43.71  E-value=22  Score=12.21  Aligned_cols=6  Identities=0%  Similarity=-0.197  Sum_probs=3.1  Template_Neff=10.900
+
+Q LQSSWG            1 LQSSWG    6 (6)
+Q Consensus         1 lqsswg    6 (6)
+                      +++||.
+T Consensus        10 i~~sw~   15 (140)
+T 3MKB_C           10 IGAIAK   15 (140)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            356663
+
+
+No 10
+>3WFW_A Hemoglobin-like flavoprotein fused to Roadblock/LC7; Globin, Signalling, Closed form, OXYGEN; HET: HEM, MPD; 1.65A {Methylacidiphilum infernorum}
+Probab=43.50  E-value=22  Score=12.40  Aligned_cols=6  Identities=50%  Similarity=0.977  Sum_probs=3.3  Template_Neff=10.500
+
+Q LQSSWG            1 LQSSWG    6 (6)
+Q Consensus         1 lqsswg    6 (6)
+                      +++||.
+T Consensus         9 i~~sw~   14 (138)
+T 3WFW_A            9 IQKSWL   14 (138)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            356663
+
+
+No 11
+>3JZ9_A Uncharacterized protein DrrA; RabGDI, RabGEF, GDI, GEF, GDF; 1.8A {Legionella pneumophila subsp. pneumophila str. Philadelphia 1}
+Probab=42.28  E-value=24  Score=17.20  Aligned_cols=6  Identities=83%  Similarity=1.531  Sum_probs=4.4  Template_Neff=1.000
+
+Q LQSSWG            1 LQSSWG    6 (6)
+Q Consensus         1 lqsswg    6 (6)
+                      |||-||
+T Consensus        70 lqslwg   75 (197)
+T 3JZ9_A           70 LQSLWG   75 (197)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHh
+Confidence            578786
+
+
+No 12
+>2WWX_B RAS-RELATED PROTEIN RAB-1, DRRA; GOLGI APPARATUS, PROTEIN TRANSPORT, ER-GOLGI; 1.5A {HOMO SAPIENS}
+Probab=40.81  E-value=26  Score=17.27  Aligned_cols=6  Identities=83%  Similarity=1.531  Sum_probs=4.4  Template_Neff=1.000
+
+Q LQSSWG            1 LQSSWG    6 (6)
+Q Consensus         1 lqsswg    6 (6)
+                      |||-||
+T Consensus        90 lqslwg   95 (217)
+T 2WWX_B           90 LQSLWG   95 (217)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHh
+Confidence            578786
+
+
+No 13
+>2OLP_B Crystal Structure of HbII from; OXYGEN TRANSPORT, HEMOPROTEIN, GLOBINS, OXYGEN; HET: HEM, SO4; 1.932A {Lucina pectinata}
+Probab=38.71  E-value=29  Score=12.23  Aligned_cols=6  Identities=50%  Similarity=1.293  Sum_probs=3.1  Template_Neff=10.600
+
+Q LQSSWG            1 LQSSWG    6 (6)
+Q Consensus         1 lqsswg    6 (6)
+                      +++||+
+T Consensus        12 l~~sw~   17 (152)
+T 2OLP_B           12 IRSSWS   17 (152)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            355663
+
+
+No 14
+>3PI3_A Hemoglobin II; pH behavior, Oxygen Carrier, OXYGEN; HET: HEM; 1.95A {Phacoides pectinatus}
+Probab=38.71  E-value=29  Score=12.23  Aligned_cols=6  Identities=50%  Similarity=1.293  Sum_probs=3.1  Template_Neff=10.600
+
+Q LQSSWG            1 LQSSWG    6 (6)
+Q Consensus         1 lqsswg    6 (6)
+                      +++||+
+T Consensus        12 l~~sw~   17 (152)
+T 3PI3_A           12 IRSSWS   17 (152)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            355663
+
+
+No 15
+>3L0I_C DrrA, Ras-related protein Rab-1A; GEF-GDF-Rab complex, GTP-binding, guanine-nucleotide exchange; HET: SO4; 2.85A {Legionella pneumophila}
+Probab=33.05  E-value=41  Score=17.57  Aligned_cols=6  Identities=83%  Similarity=1.531  Sum_probs=4.5  Template_Neff=1.000
+
+Q LQSSWG            1 LQSSWG    6 (6)
+Q Consensus         1 lqsswg    6 (6)
+                      |||-||
+T Consensus       219 lqslwg  224 (363)
+T 3L0I_C          219 LQSLWG  224 (363)
+Confidence            578886
+
+
+No 16
+>4MXP_A Defects in Rab1 recruitment protein; Protein-lipid complex, Guanine Nucleotide Exchange; HET: DB4; 1.83A {Legionella pneumophila subsp. pneumophila}
+Probab=30.64  E-value=48  Score=17.22  Aligned_cols=6  Identities=83%  Similarity=1.531  Sum_probs=4.4  Template_Neff=1.800
+
+Q LQSSWG            1 LQSSWG    6 (6)
+Q Consensus         1 lqsswg    6 (6)
+                      |||-||
+T Consensus        87 ~~~~~~   92 (328)
+T 4MXP_A           87 LQSLWG   92 (328)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHh
+Confidence            578786
+
+
+No 17
+>3L0M_A DrrA; GEF/GDF of Rab1, a new; HET: SO4; 3.45A {Legionella pneumophila}
+Probab=30.13  E-value=49  Score=17.23  Aligned_cols=6  Identities=83%  Similarity=1.531  Sum_probs=4.4  Template_Neff=1.700
+
+Q LQSSWG            1 LQSSWG    6 (6)
+Q Consensus         1 lqsswg    6 (6)
+                      |||-||
+T Consensus        95 ~~~~~~  100 (336)
+T 3L0M_A           95 LQSLWG  100 (336)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHh
+Confidence            578786
+
+
+No 18
+>5C3L_A Nucleoporin Nup54, MGC84997 protein, Nucleoporin; nucleoporin, heterotrimeric coiled coils, kink; 2.9A {Xenopus laevis}
+Probab=29.34  E-value=52  Score=15.66  Aligned_cols=6  Identities=67%  Similarity=1.431  Sum_probs=3.9  Template_Neff=5.900
+
+Q LQSSWG            1 LQSSWG    6 (6)
+Q Consensus         1 lqsswg    6 (6)
+                      ||..||
+T Consensus        32 lqa~~G   37 (333)
+T 5C3L_A           32 LQAFWG   37 (333)
+T ss_pred             HHHHHc
+Confidence            566776
+
+

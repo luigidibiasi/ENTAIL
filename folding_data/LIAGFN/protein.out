@@ -1,0 +1,156 @@
+Query         LIAGFN
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 18:24:12 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LIAGFN/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LIAGFN/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6XAW_A ?; RPD3 histone deacety  50.2      15 0.00016   12.7   0.0    6    1-6      66-71  (76)
+  2 2L9S_B PHD finger protein 12,   33.4      40 0.00044   12.5   0.0    6    1-6      81-86  (94)
+  3 1PD7_A Sin3b protein, Mad1; PA  31.5      45  0.0005   12.0   0.0    6    1-6      72-77  (85)
+  4 6XDJ_A Maltodextrin-binding pr  23.9      76 0.00084   12.9   0.0    6    1-6     433-438 (443)
+  5 6XDJ_C Maltodextrin-binding pr  23.9      76 0.00084   12.9   0.0    6    1-6     433-438 (443)
+  6 5Z08_C Cenp-I, Cenp-K, Cenp-H;  23.0      81  0.0009   14.5   0.0    6    1-6      50-55  (168)
+  7 1IOF_D PYRROLIDONE CARBOXYL PE  19.8   1E+02  0.0012   12.6   0.0    5    1-5       4-8   (208)
+  8 2EBJ_A Pyrrolidone carboxyl pe  19.2 1.1E+02  0.0012   12.5   0.0    5    1-5       3-7   (192)
+  9 5UJ8_F Origin recognition comp  18.4 1.2E+02  0.0013   14.2   0.0    6    1-6      75-80  (347)
+ 10 3G7M_A Xylanase inhibitor TL-X  17.6 1.3E+02  0.0014   12.1   0.0    6    1-6     103-108 (151)
+
+No 1
+>6XAW_A ?; RPD3 histone deacetylase complexes, pigenetic; 1.84A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=50.17  E-value=15  Score=12.71  Aligned_cols=6  Identities=33%  Similarity=0.816  Sum_probs=3.1  Template_Neff=8.600
+
+Q LIAGFN            1 LIAGFN    6 (6)
+Q Consensus         1 liagfn    6 (6)
+                      ||.|||
+T Consensus        66 Li~~F~   71 (76)
+T 6XAW_A           66 LLEDFK   71 (76)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            455554
+
+
+No 2
+>2L9S_B PHD finger protein 12, Paired; Protein-Peptide Complex, Amphipathic Helix motif; NMR {Homo sapiens}
+Probab=33.40  E-value=40  Score=12.53  Aligned_cols=6  Identities=33%  Similarity=0.805  Sum_probs=3.0  Template_Neff=7.700
+
+Q LIAGFN            1 LIAGFN    6 (6)
+Q Consensus         1 liagfn    6 (6)
+                      ||.|||
+T Consensus        81 Ll~~F~   86 (94)
+T 2L9S_B           81 LLSEFG   86 (94)
+T ss_dssp             HHHHHG
+T ss_pred             HHHHHH
+Confidence            345554
+
+
+No 3
+>1PD7_A Sin3b protein, Mad1; PAH2, SIN3, MAD1, EUKARYOTIC TRANSCRIPTIONAL; NMR {Mus musculus} SCOP: a.59.1.1
+Probab=31.47  E-value=45  Score=11.98  Aligned_cols=6  Identities=33%  Similarity=0.805  Sum_probs=2.7  Template_Neff=8.100
+
+Q LIAGFN            1 LIAGFN    6 (6)
+Q Consensus         1 liagfn    6 (6)
+                      ||.|||
+T Consensus        72 Ll~~F~   77 (85)
+T 1PD7_A           72 LLSEFG   77 (85)
+T ss_dssp             HHHHHT
+T ss_pred             HHHHHH
+Confidence            344553
+
+
+No 4
+>6XDJ_A Maltodextrin-binding protein,Transcriptional regulatory protein SIN3; RPD3 histone deacetylase complexes, epigenetic; HET: GLC, BGC; 2.2A {Serratia sp. (strain FS14)}
+Probab=23.88  E-value=76  Score=12.93  Aligned_cols=6  Identities=33%  Similarity=0.816  Sum_probs=3.3  Template_Neff=11.100
+
+Q LIAGFN            1 LIAGFN    6 (6)
+Q Consensus         1 liagfn    6 (6)
+                      ||.|||
+T Consensus       433 l~~~f~  438 (443)
+T 6XDJ_A          433 LLEDFK  438 (443)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            455664
+
+
+No 5
+>6XDJ_C Maltodextrin-binding protein,Transcriptional regulatory protein SIN3; RPD3 histone deacetylase complexes, epigenetic; HET: GLC, BGC; 2.2A {Serratia sp. (strain FS14)}
+Probab=23.88  E-value=76  Score=12.93  Aligned_cols=6  Identities=33%  Similarity=0.816  Sum_probs=0.0  Template_Neff=11.100
+
+Q LIAGFN            1 LIAGFN    6 (6)
+Q Consensus         1 liagfn    6 (6)
+                      ||.|||
+T Consensus       433 l~~~f~  438 (443)
+T 6XDJ_C          433 LLEDFK  438 (443)
+T ss_dssp             ------
+T ss_pred             HHHHHH
+Confidence            455664
+
+
+No 6
+>5Z08_C Cenp-I, Cenp-K, Cenp-H; protein complex, kinetochore, centromere, CELL; 2.199A {Chaetomium thermophilum (strain DSM 1495 / CBS 144.50 / IMI 039719)}
+Probab=22.99  E-value=81  Score=14.45  Aligned_cols=6  Identities=83%  Similarity=1.221  Sum_probs=0.0  Template_Neff=4.300
+
+Q LIAGFN            1 LIAGFN    6 (6)
+Q Consensus         1 liagfn    6 (6)
+                      |.||||
+T Consensus        50 L~aGf~   55 (168)
+T 5Z08_C           50 LSAGFN   55 (168)
+T ss_dssp             ------
+T ss_pred             Hhhccc
+Confidence            346664
+
+
+No 7
+>1IOF_D PYRROLIDONE CARBOXYL PEPTIDASE (E.C.3.4.19.3); PGP-I, PYROGLUTAMYL-PEPTIDASE I, PCP, protease; 2.2A {Pyrococcus furiosus} SCOP: c.56.4.1
+Probab=19.76  E-value=1e+02  Score=12.64  Aligned_cols=5  Identities=60%  Similarity=1.418  Sum_probs=0.0  Template_Neff=8.300
+
+Q LIAGFN            1 LIAGF    5 (6)
+Q Consensus         1 liagf    5 (6)
+                      ||.||
+T Consensus         4 lvTGF    8 (208)
+T 1IOF_D            4 LVTGF    8 (208)
+T ss_dssp             EEEEE
+T ss_pred             EEEec
+
+
+No 8
+>2EBJ_A Pyrrolidone carboxyl peptidase(E.C.3.4.19.3); pyrrolidone carboxyl peptidase, Thermus thermophilus; 1.9A {Thermus thermophilus}
+Probab=19.16  E-value=1.1e+02  Score=12.48  Aligned_cols=5  Identities=60%  Similarity=1.418  Sum_probs=0.0  Template_Neff=8.200
+
+Q LIAGFN            1 LIAGF    5 (6)
+Q Consensus         1 liagf    5 (6)
+                      ||.||
+T Consensus         3 lvTGF    7 (192)
+T 2EBJ_A            3 LVTGF    7 (192)
+T ss_dssp             EEEEE
+T ss_pred             EEEec
+
+
+No 9
+>5UJ8_F Origin recognition complex subunit 3; ORC, Replication, ATPase, HYDROLASE; 6.0A {Homo sapiens}
+Probab=18.41  E-value=1.2e+02  Score=14.17  Aligned_cols=6  Identities=67%  Similarity=0.999  Sum_probs=0.0  Template_Neff=6.900
+
+Q LIAGFN            1 LIAGFN    6 (6)
+Q Consensus         1 liagfn    6 (6)
+                      |..|||
+T Consensus        75 L~~GFN   80 (347)
+T 5UJ8_F           75 LHLGFN   80 (347)
+T ss_dssp             HHHTCE
+T ss_pred             HHcCCC
+
+
+No 10
+>3G7M_A Xylanase inhibitor TL-XI; beta-sheets, Xylan degradation, HYDROLASE INHIBITOR; HET: GOL; 2.91A {Triticum aestivum}
+Probab=17.63  E-value=1.3e+02  Score=12.12  Aligned_cols=6  Identities=50%  Similarity=1.027  Sum_probs=0.0  Template_Neff=7.700
+
+Q LIAGFN            1 LIAGFN    6 (6)
+Q Consensus         1 liagfn    6 (6)
+                      +|-|||
+T Consensus       103 lvdG~N  108 (151)
+T 3G7M_A          103 TLKGFN  108 (151)
+T ss_dssp             SSSCCS
+T ss_pred             cCCCcc
+
+

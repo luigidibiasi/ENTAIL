@@ -1,0 +1,153 @@
+Query         NFVNYS
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 23:58:51 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NFVNYS/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NFVNYS/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6NMC_B Cpf1, AcrVA1/RNA Comple  39.6      28 0.00031   16.7   0.0    6    1-6     101-106 (165)
+  2 6NMD_B Cpf1/RNA Complex; UNKNO  38.7      29 0.00032   16.7   0.0    6    1-6     102-107 (174)
+  3 5FSZ_A MACRODOMAIN; MACRODOMAI  32.2      43 0.00048   14.5   0.0    6    1-6      13-18  (268)
+  4 6YJL_A Nucleoprotein; STRUCTUR  28.8      54  0.0006   12.4   0.0    6    1-6       3-8   (33)
+  5 7B0N_O NADH:Ubiquinone Oxidore  15.0 1.6E+02  0.0018   13.3   0.0    4    1-4     157-160 (169)
+  6 7O71_X Complex I, NADH dehydro  15.0 1.6E+02  0.0018   13.3   0.0    4    1-4     157-160 (169)
+  7 3WZ3_A TraM protein; type IVB   14.7 1.7E+02  0.0018   11.9   0.0    5    1-5      25-29  (144)
+  8 4GEH_C Programmed cell death p  14.4 1.7E+02  0.0019   13.8   0.0    6    1-6     161-166 (207)
+  9 3WZ4_G DotI; type IVB secretio  14.3 1.7E+02  0.0019   11.9   0.0    5    1-5      25-29  (144)
+ 10 3RQG_C Programmed cell death p  13.7 1.8E+02   0.002   13.8   0.0    6    1-6     168-173 (214)
+
+No 1
+>6NMC_B Cpf1, AcrVA1/RNA Complex; Unknown Function-RNA complex; 4.24A {Lachnospiraceae bacterium ND2006}
+Probab=39.60  E-value=28  Score=16.66  Aligned_cols=6  Identities=83%  Similarity=1.370  Sum_probs=4.0  Template_Neff=1.300
+
+Q NFVNYS            1 NFVNYS    6 (6)
+Q Consensus         1 nfvnys    6 (6)
+                      ||.|||
+T Consensus       101 nfanys  106 (165)
+T 6NMC_B          101 NFANYS  106 (165)
+T ss_dssp             CCTTHH
+T ss_pred             hccChH
+Confidence            567775
+
+
+No 2
+>6NMD_B Cpf1/RNA Complex; UNKNOWN FUNCTION-RNA complex; 3.49A {Lachnospiraceae bacterium ND2006}
+Probab=38.70  E-value=29  Score=16.69  Aligned_cols=6  Identities=83%  Similarity=1.370  Sum_probs=4.0  Template_Neff=1.300
+
+Q NFVNYS            1 NFVNYS    6 (6)
+Q Consensus         1 nfvnys    6 (6)
+                      ||.|||
+T Consensus       102 nfanys  107 (174)
+T 6NMD_B          102 NFANYS  107 (174)
+T ss_dssp             CCTTHH
+T ss_pred             hccChH
+Confidence            567775
+
+
+No 3
+>5FSZ_A MACRODOMAIN; MACRODOMAIN, HYDROLASE, ADP-RIBOSE BINDING; 2.0A {TRYPANOSOMA CRUZI}
+Probab=32.20  E-value=43  Score=14.53  Aligned_cols=6  Identities=67%  Similarity=1.204  Sum_probs=3.5  Template_Neff=7.700
+
+Q NFVNYS            1 NFVNYS    6 (6)
+Q Consensus         1 nfvnys    6 (6)
+                      +||.||
+T Consensus        13 ~~~~~~   18 (268)
+T 5FSZ_A           13 KFVTYS   18 (268)
+T ss_dssp             -CCCSS
+T ss_pred             eeEEEe
+Confidence            577775
+
+
+No 4
+>6YJL_A Nucleoprotein; STRUCTURE FROM CYANA Nuclear Magnetic; NMR {Human respiratory syncytial virus A (strain A2)}
+Probab=28.75  E-value=54  Score=12.39  Aligned_cols=6  Identities=50%  Similarity=0.966  Sum_probs=3.4  Template_Neff=2.000
+
+Q NFVNYS            1 NFVNYS    6 (6)
+Q Consensus         1 nfvnys    6 (6)
+                      |-+|||
+T Consensus         3 n~IN~s    8 (33)
+T 6YJL_A            3 GVINYS    8 (33)
+T ss_dssp             CCCCCC
+T ss_pred             Cccchh
+Confidence            346665
+
+
+No 5
+>7B0N_O NADH:Ubiquinone Oxidoreductase, complex I, MEMBRANE; HET: CDL, SF4, EHZ, LMT, 3PE, NDP, PLC, FMN, FME; 3.7A {Yarrowia lipolytica}
+Probab=14.95  E-value=1.6e+02  Score=13.28  Aligned_cols=4  Identities=100%  Similarity=1.497  Sum_probs=0.0  Template_Neff=5.000
+
+Q NFVNYS            1 NFVN    4 (6)
+Q Consensus         1 nfvn    4 (6)
+                      ||||
+T Consensus       157 n~vn  160 (169)
+T 7B0N_O          157 NFVN  160 (169)
+T ss_dssp             CCSC
+T ss_pred             cccC
+
+
+No 6
+>7O71_X Complex I, NADH dehydrogenase, Mitochondrion; HET: CDL, SF4, T7X, 2MR, 3PE, NDP, ZMP, CPL, PLC, FMN, FME, LMN; 2.4A {Yarrowia lipolytica}
+Probab=14.95  E-value=1.6e+02  Score=13.28  Aligned_cols=4  Identities=100%  Similarity=1.497  Sum_probs=0.0  Template_Neff=5.000
+
+Q NFVNYS            1 NFVN    4 (6)
+Q Consensus         1 nfvn    4 (6)
+                      ||||
+T Consensus       157 n~vn  160 (169)
+T 7O71_X          157 NFVN  160 (169)
+T ss_pred             cccC
+
+
+No 7
+>3WZ3_A TraM protein; type IVB secretion, UNKNOWN FUNCTION; HET: MSE; 1.5A {Plasmid R64}
+Probab=14.68  E-value=1.7e+02  Score=11.94  Aligned_cols=5  Identities=60%  Similarity=1.437  Sum_probs=0.0  Template_Neff=7.200
+
+Q NFVNYS            1 NFVNY    5 (6)
+Q Consensus         1 nfvny    5 (6)
+                      ||+||
+T Consensus        25 df~n~   29 (144)
+T 3WZ3_A           25 DFVHY   29 (144)
+T ss_dssp             CTTTH
+T ss_pred             CcccH
+
+
+No 8
+>4GEH_C Programmed cell death protein 10; alpha helix-rich protein, serine/threonine-protein kinase; 1.95A {Homo sapiens}
+Probab=14.43  E-value=1.7e+02  Score=13.83  Aligned_cols=6  Identities=67%  Similarity=1.226  Sum_probs=0.0  Template_Neff=4.400
+
+Q NFVNYS            1 NFVNYS    6 (6)
+Q Consensus         1 nfvnys    6 (6)
+                      .||.||
+T Consensus       161 eFV~yS  166 (207)
+T 4GEH_C          161 EFVKYS  166 (207)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 9
+>3WZ4_G DotI; type IVB secretion, UNKNOWN FUNCTION; HET: MPD, MSE, MRD; 2.2A {Legionella pneumophila}
+Probab=14.34  E-value=1.7e+02  Score=11.85  Aligned_cols=5  Identities=100%  Similarity=1.716  Sum_probs=0.0  Template_Neff=7.300
+
+Q NFVNYS            1 NFVNY    5 (6)
+Q Consensus         1 nfvny    5 (6)
+                      ||+||
+T Consensus        25 df~n~   29 (144)
+T 3WZ4_G           25 NFVNY   29 (144)
+T ss_dssp             ETTTH
+T ss_pred             cCCCh
+
+
+No 10
+>3RQG_C Programmed cell death protein 10; Protein-peptide complex, Protein Binding, FAT; 2.5A {Homo sapiens}
+Probab=13.73  E-value=1.8e+02  Score=13.80  Aligned_cols=6  Identities=67%  Similarity=1.226  Sum_probs=0.0  Template_Neff=4.400
+
+Q NFVNYS            1 NFVNYS    6 (6)
+Q Consensus         1 nfvnys    6 (6)
+                      .||.||
+T Consensus       168 EFV~yS  173 (214)
+T 3RQG_C          168 EFVKYS  173 (214)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+

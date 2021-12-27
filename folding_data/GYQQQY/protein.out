@@ -1,0 +1,149 @@
+Query         GYQQQY
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 05:41:09 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GYQQQY/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GYQQQY/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2LW1_A ABC transporter ATP-bin  27.8      58 0.00064   12.8   0.0    6    1-6       1-6   (108)
+  2 7DST_D VP1 of O type FMDV; FMD  14.3 1.7E+02  0.0019   12.7   0.0    5    2-6      16-20  (75)
+  3 1ZBE_4 VIRUS/VIRAL PROTEIN, Ic  14.2 1.7E+02  0.0019   12.9   0.0    5    2-6      26-30  (85)
+  4 2WS9_4 P1; VIRUS, CAPSID, PICO  13.8 1.8E+02   0.002   12.7   0.0    5    2-6      26-30  (80)
+  5 4IV1_D Capsid protein VP1, Cap  13.1   2E+02  0.0022   12.7   0.0    5    2-6      26-30  (85)
+  6 1QQP_4 PROTEIN (GENOME POLYPRO  12.9   2E+02  0.0022   12.7   0.0    5    2-6      26-30  (85)
+  7 6TDV_n ATPTB1, ATPTB3, ATPTB6,  12.7   2E+02  0.0023   13.5   0.0    4    1-4     118-121 (137)
+  8 4ILD_B Envelope glycoprotein E  12.6 2.1E+02  0.0023   14.4   0.0    6    1-6     228-233 (253)
+  9 4ILD_A Envelope glycoprotein E  12.2 2.2E+02  0.0024   14.4   0.0    6    1-6     228-233 (253)
+ 10 2WL8_A PEROXISOMAL BIOGENESIS   11.3 2.4E+02  0.0027   11.9   0.0    5    2-6      61-65  (126)
+
+No 1
+>2LW1_A ABC transporter ATP-binding protein uup; ABC REG subfamily, DNA BINDING; NMR {Escherichia coli}
+Probab=27.79  E-value=58  Score=12.80  Aligned_cols=6  Identities=67%  Similarity=1.099  Sum_probs=0.0  Template_Neff=6.900
+
+Q GYQQQY            1 GYQQQY    6 (6)
+Q Consensus         1 gyqqqy    6 (6)
+                      |||-||
+T Consensus         1 ~~~~~~    6 (108)
+T 2LW1_A            1 GQQEQY    6 (108)
+T ss_dssp             ------
+T ss_pred             ChhHHH
+Confidence            466554
+
+
+No 2
+>7DST_D VP1 of O type FMDV; FMDV capsid in complex with; 3.1A {Foot-and-mouth disease virus}
+Probab=14.34  E-value=1.7e+02  Score=12.67  Aligned_cols=5  Identities=80%  Similarity=1.331  Sum_probs=0.0  Template_Neff=1.800
+
+Q GYQQQY            2 YQQQY    6 (6)
+Q Consensus         2 yqqqy    6 (6)
+                      |.|||
+T Consensus        16 Y~nqY   20 (75)
+T 7DST_D           16 YMQQY   20 (75)
+T ss_dssp             SCHHH
+T ss_pred             hhhcc
+
+
+No 3
+>1ZBE_4 VIRUS/VIRAL PROTEIN, Icosahedral virus, Virus; 3.0A {Foot-and-mouth disease virus}
+Probab=14.23  E-value=1.7e+02  Score=12.90  Aligned_cols=5  Identities=80%  Similarity=1.331  Sum_probs=0.0  Template_Neff=1.800
+
+Q GYQQQY            2 YQQQY    6 (6)
+Q Consensus         2 yqqqy    6 (6)
+                      |.|||
+T Consensus        26 Y~~qY   30 (85)
+T 1ZBE_4           26 YMQQY   30 (85)
+T ss_dssp             SCHHH
+T ss_pred             hhhhc
+
+
+No 4
+>2WS9_4 P1; VIRUS, CAPSID, PICORNAVIRUS; 3.0A {EQUINE RHINITIS A VIRUS}
+Probab=13.84  E-value=1.8e+02  Score=12.75  Aligned_cols=5  Identities=80%  Similarity=1.331  Sum_probs=0.0  Template_Neff=1.600
+
+Q GYQQQY            2 YQQQY    6 (6)
+Q Consensus         2 yqqqy    6 (6)
+                      |.|||
+T Consensus        26 Y~nqY   30 (80)
+T 2WS9_4           26 YMQQY   30 (80)
+T ss_pred             Hhhhh
+
+
+No 5
+>4IV1_D Capsid protein VP1, Capsid protein; icosahedral virus, capsids, picornavirus, apthovirus; 2.1A {Foot-and-mouth disease virus - type A}
+Probab=13.13  E-value=2e+02  Score=12.74  Aligned_cols=5  Identities=80%  Similarity=1.331  Sum_probs=0.0  Template_Neff=1.800
+
+Q GYQQQY            2 YQQQY    6 (6)
+Q Consensus         2 yqqqy    6 (6)
+                      |.|||
+T Consensus        26 Y~nqY   30 (85)
+T 4IV1_D           26 YMQQY   30 (85)
+T ss_dssp             SCHHH
+T ss_pred             hhhcc
+
+
+No 6
+>1QQP_4 PROTEIN (GENOME POLYPROTEIN); VIRUS, HEPARAN SULPHATE, VIRUS-RECEPTOR INTERACTIONS/PROTEIN-CARBOHYDRATE; HET: IDS, IDX, SGN; 1.9A {Foot-and-mouth disease virus} SCOP: b.121.4.1
+Probab=12.91  E-value=2e+02  Score=12.71  Aligned_cols=5  Identities=80%  Similarity=1.331  Sum_probs=0.0  Template_Neff=1.800
+
+Q GYQQQY            2 YQQQY    6 (6)
+Q Consensus         2 yqqqy    6 (6)
+                      |.|||
+T Consensus        26 Y~nqY   30 (85)
+T 1QQP_4           26 YMQQY   30 (85)
+T ss_dssp             SCHHH
+T ss_pred             hhhcc
+
+
+No 7
+>6TDV_n ATPTB1, ATPTB3, ATPTB6, ATPTB12, subunit; mitochondria, ATP synthase, MEMBRANE PROTEIN; HET: CDL, LMT, LPP, TRT; 2.8A {Euglena gracilis}
+Probab=12.75  E-value=2e+02  Score=13.55  Aligned_cols=4  Identities=100%  Similarity=1.647  Sum_probs=0.0  Template_Neff=1.000
+
+Q GYQQQY            1 GYQQ    4 (6)
+Q Consensus         1 gyqq    4 (6)
+                      ||||
+T Consensus       118 gyqq  121 (137)
+T 6TDV_n          118 GYQQ  121 (137)
+T ss_pred             cccc
+
+
+No 8
+>4ILD_B Envelope glycoprotein E2; BVDV1, viral envelope protein, viral; HET: NAG, IUM; 3.27A {Bovine viral diarrhea virus 1-NADL}
+Probab=12.58  E-value=2.1e+02  Score=14.40  Aligned_cols=6  Identities=67%  Similarity=1.044  Sum_probs=0.0  Template_Neff=3.100
+
+Q GYQQQY            1 GYQQQY    6 (6)
+Q Consensus         1 gyqqqy    6 (6)
+                      .|-|||
+T Consensus       228 ~YfqQY  233 (253)
+T 4ILD_B          228 SYFQQY  233 (253)
+T ss_dssp             TTTSSC
+T ss_pred             cchhhh
+
+
+No 9
+>4ILD_A Envelope glycoprotein E2; BVDV1, viral envelope protein, viral; HET: NAG, IUM; 3.27A {Bovine viral diarrhea virus 1-NADL}
+Probab=12.24  E-value=2.2e+02  Score=14.40  Aligned_cols=6  Identities=67%  Similarity=1.044  Sum_probs=0.0  Template_Neff=2.900
+
+Q GYQQQY            1 GYQQQY    6 (6)
+Q Consensus         1 gyqqqy    6 (6)
+                      .|-|||
+T Consensus       228 ~YfqQY  233 (253)
+T 4ILD_A          228 SYFQQY  233 (253)
+T ss_dssp             TTTCSC
+T ss_pred             cchhhh
+
+
+No 10
+>2WL8_A PEROXISOMAL BIOGENESIS FACTOR 19; PROTEIN TRANSPORT, BIOGENESIS DISORDER, ZELLWEGER; 2.05A {HOMO SAPIENS}
+Probab=11.30  E-value=2.4e+02  Score=11.92  Aligned_cols=5  Identities=60%  Similarity=0.846  Sum_probs=0.0  Template_Neff=5.700
+
+Q GYQQQY            2 YQQQY    6 (6)
+Q Consensus         2 yqqqy    6 (6)
+                      |++|+
+T Consensus        61 Y~kQ~   65 (126)
+T 2WL8_A           61 YQEQH   65 (126)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+

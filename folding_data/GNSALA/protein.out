@@ -1,0 +1,151 @@
+Query         GNSALA
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 02:46:11 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GNSALA/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GNSALA/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5VK2_b Pre-glycoprotein polypr   9.8   3E+02  0.0033   13.3   0.0    6    1-6      35-40  (164)
+  2 5VK2_a Pre-glycoprotein polypr   9.7   3E+02  0.0033   13.3   0.0    6    1-6      35-40  (164)
+  3 1VFJ_A nitrogen regulatory pro   9.1 3.2E+02  0.0036    9.7   0.0    6    1-6     108-113 (116)
+  4 5INE_A Pre-glycoprotein polypr   8.9 3.3E+02  0.0037   14.5   0.0    6    1-6     300-305 (438)
+  5 3ZYY_X IRON-SULFUR CLUSTER BIN   8.9 3.4E+02  0.0037   13.9   0.0    6    1-6     571-576 (631)
+  6 6AGG_Z tRNA(Ile2) 2-agmatinylc   8.8 3.4E+02  0.0038   13.6   0.0    6    1-6      55-60  (420)
+  7 3AU7_A Putative uncharacterize   8.7 3.4E+02  0.0038   13.6   0.0    6    1-6      75-80  (402)
+  8 2BT9_B LECTIN; LECTIN, SUGAR R   8.1 3.8E+02  0.0042    9.6   0.0    5    2-6       2-6   (90)
+  9 4C1N_J CARBON MONOXIDE DEHYDRO   8.0 3.9E+02  0.0043   13.4   0.0    6    1-6     450-455 (509)
+ 10 5CSI_C Protein S100-B, Ribosom   7.8   4E+02  0.0044    9.8   0.0    6    1-6      32-37  (49)
+
+No 1
+>5VK2_b Pre-glycoprotein polyprotein GP complex, Fab; Lassa, glycoprotein, arenavirus, antibody, VIRAL; HET: NAG, BMA, MAN, FUC; 3.201A {Lassa virus}
+Probab=9.76  E-value=3e+02  Score=13.35  Aligned_cols=6  Identities=67%  Similarity=1.027  Sum_probs=2.7  Template_Neff=2.100
+
+Q GNSALA            1 GNSALA    6 (6)
+Q Consensus         1 gnsala    6 (6)
+                      ||.|+|
+T Consensus        35 gNtAvA   40 (164)
+T 5VK2_b           35 GNTAVA   40 (164)
+T ss_dssp             CHHHHT
+T ss_pred             ccchHH
+Confidence            444443
+
+
+No 2
+>5VK2_a Pre-glycoprotein polyprotein GP complex, Fab; Lassa, glycoprotein, arenavirus, antibody, VIRAL; HET: BMA, MAN, FUC, NAG; 3.201A {Lassa virus}
+Probab=9.75  E-value=3e+02  Score=13.34  Aligned_cols=6  Identities=67%  Similarity=1.027  Sum_probs=2.7  Template_Neff=2.100
+
+Q GNSALA            1 GNSALA    6 (6)
+Q Consensus         1 gnsala    6 (6)
+                      ||.|+|
+T Consensus        35 gNtAvA   40 (164)
+T 5VK2_a           35 GNTAVA   40 (164)
+T ss_dssp             CHHHHT
+T ss_pred             ccchHH
+Confidence            444443
+
+
+No 3
+>1VFJ_A nitrogen regulatory protein p-II; Structural genomics, signal transducing protein; 1.7A {Thermus thermophilus} SCOP: d.58.5.1
+Probab=9.15  E-value=3.2e+02  Score=9.72  Aligned_cols=6  Identities=17%  Similarity=0.385  Sum_probs=0.0  Template_Neff=9.400
+
+Q GNSALA            1 GNSALA    6 (6)
+Q Consensus         1 gnsala    6 (6)
+                      |+.|+|
+T Consensus       108 ~~~~~~  113 (116)
+T 1VFJ_A          108 DEAAVT  113 (116)
+T ss_dssp             THHHHS
+T ss_pred             chHhcc
+
+
+No 4
+>5INE_A Pre-glycoprotein polyprotein GP complex; arenavirus, LCMV, glycoprotein, pre-fusion, VIRAL; HET: NAG, BMA, MAN; 3.5A {Lymphocytic choriomeningitis mammarenavirus}
+Probab=8.94  E-value=3.3e+02  Score=14.50  Aligned_cols=6  Identities=67%  Similarity=1.027  Sum_probs=0.0  Template_Neff=3.800
+
+Q GNSALA            1 GNSALA    6 (6)
+Q Consensus         1 gnsala    6 (6)
+                      ||.|+|
+T Consensus       300 gNtavA  305 (438)
+T 5INE_A          300 GNTAVA  305 (438)
+T ss_dssp             CTHHHH
+T ss_pred             cchhhH
+
+
+No 5
+>3ZYY_X IRON-SULFUR CLUSTER BINDING PROTEIN; IRON-SULFUR-BINDING PROTEIN, ASHKA FAMILY, ATPASE; HET: BU3, PO4, SO4; 2.2A {CARBOXYDOTHERMUS HYDROGENOFORMANS}
+Probab=8.86  E-value=3.4e+02  Score=13.90  Aligned_cols=6  Identities=67%  Similarity=0.960  Sum_probs=0.0  Template_Neff=6.800
+
+Q GNSALA            1 GNSALA    6 (6)
+Q Consensus         1 gnsala    6 (6)
+                      ||++++
+T Consensus       571 GN~sl~  576 (631)
+T 3ZYY_X          571 GNSSLK  576 (631)
+T ss_dssp             ECHHHH
+T ss_pred             CCHHHH
+
+
+No 6
+>6AGG_Z tRNA(Ile2) 2-agmatinylcytidine synthetase TiaS (E.C.6.3.4.22); zinc ribbon, conformational change, TiaS; HET: TPO, ACP; 2.706A {Archaeoglobus fulgidus (strain ATCC 49558 / VC-16 / DSM 4304 / JCM 9628 / NBRC 100126)}
+Probab=8.80  E-value=3.4e+02  Score=13.64  Aligned_cols=6  Identities=50%  Similarity=0.894  Sum_probs=0.0  Template_Neff=5.700
+
+Q GNSALA            1 GNSALA    6 (6)
+Q Consensus         1 gnsala    6 (6)
+                      ||+|++
+T Consensus        55 GN~Av~   60 (420)
+T 6AGG_Z           55 GNGAVS   60 (420)
+T ss_dssp             CCEEEE
+T ss_pred             CeeEEE
+
+
+No 7
+>3AU7_A Putative uncharacterized protein; ATP hydrolysis, RNA BINDING PROTEIN; 2.6A {Archaeoglobus fulgidus}
+Probab=8.73  E-value=3.4e+02  Score=13.63  Aligned_cols=6  Identities=50%  Similarity=0.894  Sum_probs=0.0  Template_Neff=5.500
+
+Q GNSALA            1 GNSALA    6 (6)
+Q Consensus         1 gnsala    6 (6)
+                      ||+|++
+T Consensus        75 GN~Av~   80 (402)
+T 3AU7_A           75 GNGAVS   80 (402)
+T ss_dssp             -CEEEE
+T ss_pred             CeEEEE
+
+
+No 8
+>2BT9_B LECTIN; LECTIN, SUGAR RECOGNITION, BETA-PROPELLER; HET: MFU; 0.94A {RALSTONIA SOLANACEARUM}
+Probab=8.10  E-value=3.8e+02  Score=9.61  Aligned_cols=5  Identities=20%  Similarity=0.056  Sum_probs=0.0  Template_Neff=8.300
+
+Q GNSALA            2 NSALA    6 (6)
+Q Consensus         2 nsala    6 (6)
+                      +|+||
+T Consensus         2 ~s~lA    6 (90)
+T 2BT9_B            2 SVQTA    6 (90)
+T ss_dssp             CCEEE
+T ss_pred             CceeE
+
+
+No 9
+>4C1N_J CARBON MONOXIDE DEHYDROGENASE CORRINOID/IRON-SULFUR PROTEIN; OXIDOREDUCTASE-METAL BINDING PROTEIN COMPLEX; HET: SF4, B12; 2.53A {CARBOXYDOTHERMUS HYDROGENOFORMANS}
+Probab=8.03  E-value=3.9e+02  Score=13.42  Aligned_cols=6  Identities=67%  Similarity=0.960  Sum_probs=0.0  Template_Neff=6.600
+
+Q GNSALA            1 GNSALA    6 (6)
+Q Consensus         1 gnsala    6 (6)
+                      ||++|.
+T Consensus       450 GN~sl~  455 (509)
+T 4C1N_J          450 GNSSLK  455 (509)
+T ss_dssp             ECHHHH
+T ss_pred             CCHHHH
+
+
+No 10
+>5CSI_C Protein S100-B, Ribosomal protein S6; Kinase, Signaling, Inhibitor, S100, transferase; 2.13A {Homo sapiens}
+Probab=7.79  E-value=4e+02  Score=9.81  Aligned_cols=6  Identities=50%  Similarity=0.440  Sum_probs=0.0  Template_Neff=5.200
+
+Q GNSALA            1 GNSALA    6 (6)
+Q Consensus         1 gnsala    6 (6)
+                      ++|.||
+T Consensus        32 ~aS~LA   37 (49)
+T 5CSI_C           32 ESSILA   37 (49)
+T ss_pred             cccHHH
+
+

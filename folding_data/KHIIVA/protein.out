@@ -1,0 +1,150 @@
+Query         KHIIVA
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 10:50:48 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/KHIIVA/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/KHIIVA/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 1JMV_C UNIVERSAL STRESS PROTEI  15.6 1.5E+02  0.0017    9.6   0.0    6    1-6       3-8   (141)
+  2 6YMT_A RNASE 3/1 version1, HYD  15.3 1.6E+02  0.0017   11.6   0.0    6    1-6     108-113 (128)
+  3 3FG9_A protein of universal st  14.6 1.7E+02  0.0019    9.9   0.0    6    1-6      16-21  (156)
+  4 5OAB_A Ribonuclease K6 (E.C.3.  14.4 1.7E+02  0.0019   11.6   0.0    6    1-6     101-106 (128)
+  5 6ENP_A Ribonuclease K6 (E.C.3.  14.4 1.7E+02  0.0019   11.6   0.0    6    1-6     101-106 (128)
+  6 5AR6_A RIBONUCLEASE 4 (E.C.3.1  14.2 1.7E+02  0.0019   11.4   0.0    6    1-6     104-109 (122)
+  7 3LJE_A Zebrafish RNase5; angio  14.1 1.7E+02  0.0019   11.6   0.0    6    1-6     105-110 (130)
+  8 5AHW_B UNIVERSAL STRESS PROTEI  14.1 1.8E+02  0.0019    9.5   0.0    6    1-6       5-10  (147)
+  9 3IDF_A USP-like protein; USP,   13.9 1.8E+02   0.002    9.4   0.0    6    1-6       2-7   (138)
+ 10 2L0A_A Signal transducing adap  13.7 1.8E+02   0.002    8.5   0.0    5    1-5       4-8   (72)
+
+No 1
+>1JMV_C UNIVERSAL STRESS PROTEIN A; universal stress protein, uspa, CHAPERONE; HET: SO4; 1.85A {Haemophilus influenzae} SCOP: c.26.2.4
+Probab=15.55  E-value=1.5e+02  Score=9.61  Aligned_cols=6  Identities=83%  Similarity=1.209  Sum_probs=0.0  Template_Neff=11.900
+
+Q KHIIVA            1 KHIIVA    6 (6)
+Q Consensus         1 khiiva    6 (6)
+                      ++|+|+
+T Consensus         3 ~~ilv~    8 (141)
+T 1JMV_C            3 KHILVA    8 (141)
+T ss_dssp             SEEEEE
+T ss_pred             ceEEEE
+
+
+No 2
+>6YMT_A RNASE 3/1 version1, HYDROLASE, PANCREATIC; HET: GOL; 1.58A {synthetic construct}
+Probab=15.30  E-value=1.6e+02  Score=11.61  Aligned_cols=6  Identities=83%  Similarity=1.248  Sum_probs=0.0  Template_Neff=7.600
+
+Q KHIIVA            1 KHIIVA    6 (6)
+Q Consensus         1 khiiva    6 (6)
+                      ++|+||
+T Consensus       108 ~~i~V~  113 (128)
+T 6YMT_A          108 RHIIVA  113 (128)
+T ss_dssp             ECCEEE
+T ss_pred             eEEEEE
+
+
+No 3
+>3FG9_A protein of universal stress protein; APC60691, universal stress protein UspA; HET: FMT; 1.47A {Lactobacillus plantarum}
+Probab=14.57  E-value=1.7e+02  Score=9.91  Aligned_cols=6  Identities=17%  Similarity=0.695  Sum_probs=0.0  Template_Neff=11.500
+
+Q KHIIVA            1 KHIIVA    6 (6)
+Q Consensus         1 khiiva    6 (6)
+                      ++|+|+
+T Consensus        16 ~~Ilv~   21 (156)
+T 3FG9_A           16 RRILLT   21 (156)
+T ss_dssp             C-EEEE
+T ss_pred             ceEEEE
+
+
+No 4
+>5OAB_A Ribonuclease K6 (E.C.3.1.27.-); RNASE K6, HYDROLASE, PANCREATIC RIBONUCLEASE; HET: PO4; 1.111A {Homo sapiens}
+Probab=14.39  E-value=1.7e+02  Score=11.64  Aligned_cols=6  Identities=67%  Similarity=0.772  Sum_probs=0.0  Template_Neff=7.300
+
+Q KHIIVA            1 KHIIVA    6 (6)
+Q Consensus         1 khiiva    6 (6)
+                      ++|+||
+T Consensus       101 ~~I~Va  106 (128)
+T 5OAB_A          101 KFFIVA  106 (128)
+T ss_dssp             ECEEEE
+T ss_pred             cEEEEE
+
+
+No 5
+>6ENP_A Ribonuclease K6 (E.C.3.1.27.-); RNASE K6, HYDROLASE, PANCREATIC RIBONUCLEASE; HET: PO4; 1.042A {Homo sapiens}
+Probab=14.39  E-value=1.7e+02  Score=11.64  Aligned_cols=6  Identities=67%  Similarity=0.772  Sum_probs=0.0  Template_Neff=7.300
+
+Q KHIIVA            1 KHIIVA    6 (6)
+Q Consensus         1 khiiva    6 (6)
+                      ++|+||
+T Consensus       101 ~~I~Va  106 (128)
+T 6ENP_A          101 KFFIVA  106 (128)
+T ss_dssp             ECEEEE
+T ss_pred             cEEEEE
+
+
+No 6
+>5AR6_A RIBONUCLEASE 4 (E.C.3.1.27.-); HYDROLASE, RIBONUCLEASE 4, RNA DEGRADATION; 1.25A {SUS SCROFA}
+Probab=14.24  E-value=1.7e+02  Score=11.39  Aligned_cols=6  Identities=17%  Similarity=0.833  Sum_probs=0.0  Template_Neff=7.600
+
+Q KHIIVA            1 KHIIVA    6 (6)
+Q Consensus         1 khiiva    6 (6)
+                      ++|+||
+T Consensus       104 ~~I~v~  109 (122)
+T 5AR6_A          104 RRVVIA  109 (122)
+T ss_dssp             EEEEEE
+T ss_pred             eEEEEE
+
+
+No 7
+>3LJE_A Zebrafish RNase5; angiogenins, fish rnases, HYDROLASE; HET: SO4; 1.8A {Danio rerio}
+Probab=14.14  E-value=1.7e+02  Score=11.64  Aligned_cols=6  Identities=17%  Similarity=0.550  Sum_probs=0.0  Template_Neff=7.300
+
+Q KHIIVA            1 KHIIVA    6 (6)
+Q Consensus         1 khiiva    6 (6)
+                      ++|+||
+T Consensus       105 ~~I~Va  110 (130)
+T 3LJE_A          105 RYIVLG  110 (130)
+T ss_dssp             ECCEEE
+T ss_pred             cEEEEE
+
+
+No 8
+>5AHW_B UNIVERSAL STRESS PROTEIN; SIGNALING PROTEIN, RV1636 HOMOLOG, USP; HET: SO4, CMP, POG; 2.15A {MYCOBACTERIUM SMEGMATIS STR. MC2 155}
+Probab=14.12  E-value=1.8e+02  Score=9.54  Aligned_cols=6  Identities=17%  Similarity=0.628  Sum_probs=0.0  Template_Neff=11.900
+
+Q KHIIVA            1 KHIIVA    6 (6)
+Q Consensus         1 khiiva    6 (6)
+                      ++|+|+
+T Consensus         5 ~~ilv~   10 (147)
+T 5AHW_B            5 QTVVVG   10 (147)
+T ss_dssp             CEEEEE
+T ss_pred             cEEEEE
+
+
+No 9
+>3IDF_A USP-like protein; USP, universal, stress, wolinella, succinogenes; 2.0A {Wolinella succinogenes}
+Probab=13.86  E-value=1.8e+02  Score=9.45  Aligned_cols=6  Identities=33%  Similarity=0.661  Sum_probs=0.0  Template_Neff=11.800
+
+Q KHIIVA            1 KHIIVA    6 (6)
+Q Consensus         1 khiiva    6 (6)
+                      |+|+|+
+T Consensus         2 ~~iLv~    7 (138)
+T 3IDF_A            2 KKLLFA    7 (138)
+T ss_dssp             EEEEEE
+T ss_pred             eEEEEE
+
+
+No 10
+>2L0A_A Signal transducing adapter molecule 1; Structural Genomics, NORTHEAST STRUCTURAL GENOMICS; NMR {Homo sapiens}
+Probab=13.73  E-value=1.8e+02  Score=8.51  Aligned_cols=5  Identities=20%  Similarity=0.016  Sum_probs=0.0  Template_Neff=11.300
+
+Q KHIIVA            1 KHIIV    5 (6)
+Q Consensus         1 khiiv    5 (6)
+                      |++++
+T Consensus         4 ~~~~~    8 (72)
+T 2L0A_A            4 HHHHH    8 (72)
+T ss_dssp             CCCCC
+T ss_pred             Ccccc
+
+

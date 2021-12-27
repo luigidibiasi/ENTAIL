@@ -1,0 +1,149 @@
+Query         GLSIFV
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 01:43:42 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GLSIFV/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GLSIFV/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5L20_B Clostripain-related pro  41.0      25 0.00028   15.2   0.0    6    1-6     196-201 (229)
+  2 2P8I_D Putative dioxygenase; Y  32.6      42 0.00047   14.2   0.0    6    1-6      82-87  (117)
+  3 2PEB_B putative dioxygenase; S  30.5      48 0.00053   14.2   0.0    6    1-6      79-84  (122)
+  4 3J40_L gp10, gp7; capsid, acce  15.1 1.6E+02  0.0018   12.8   0.0    6    1-6      29-34  (111)
+  5 6XA1_j translation termination  14.9 1.6E+02  0.0018   13.0   0.0    6    1-6      82-87  (411)
+  6 1DT9_A EUKARYOTIC PEPTIDE CHAI  14.4 1.7E+02  0.0019   13.3   0.0    6    1-6      92-97  (437)
+  7 6XI8_C Serine/threonine-protei  13.5 1.9E+02  0.0021   10.4   0.0    6    1-6      54-59  (63)
+  8 5DMQ_B Reverse transcriptase/r  13.4 1.9E+02  0.0021   13.1   0.0    6    1-6      92-97  (437)
+  9 6U42_7G Tubulin beta, Tubulin   12.8   2E+02  0.0022   14.6   0.0    6    1-6     202-207 (235)
+ 10 6N9J_B Clostripain-related pro  12.3 2.1E+02  0.0024   13.2   0.0    6    1-6     343-348 (377)
+
+No 1
+>5L20_B Clostripain-related protein, Peptide Inhibitor BTN-VLTK-AOMK; Clostripain, peptidase, microbiome, inhibitor, HYDROLASE-HYDROLASE; HET: CKC; 1.45A {Bacteroides thetaiotaomicron (strain ATCC 29148 / DSM 2079 / NCTC 10582 / E50 / VPI-5482)}
+Probab=40.99  E-value=25  Score=15.16  Aligned_cols=6  Identities=33%  Similarity=0.512  Sum_probs=3.8  Template_Neff=7.200
+
+Q GLSIFV            1 GLSIFV    6 (6)
+Q Consensus         1 glsifv    6 (6)
+                      |||||+
+T Consensus       196 GLSiY~  201 (229)
+T 5L20_B          196 GITISD  201 (229)
+T ss_dssp             SCEECT
+T ss_pred             eeEEEC
+Confidence            677763
+
+
+No 2
+>2P8I_D Putative dioxygenase; YP_555069.1, putative dioxygenase, Structural Genomics; HET: CIT, PO4, MSE, EDO; 1.4A {Burkholderia xenovorans} SCOP: d.58.55.1
+Probab=32.61  E-value=42  Score=14.17  Aligned_cols=6  Identities=50%  Similarity=0.988  Sum_probs=3.2  Template_Neff=5.200
+
+Q GLSIFV            1 GLSIFV    6 (6)
+Q Consensus         1 glsifv    6 (6)
+                      ||||+|
+T Consensus        82 ~LsVLi   87 (117)
+T 2P8I_D           82 ALDIFL   87 (117)
+T ss_dssp             TCCEEE
+T ss_pred             CceEEE
+Confidence            456654
+
+
+No 3
+>2PEB_B putative dioxygenase; Structural genomics, Joint Center for; HET: UNL, MSE, EDO; 1.46A {Nostoc punctiforme}
+Probab=30.51  E-value=48  Score=14.18  Aligned_cols=6  Identities=67%  Similarity=1.137  Sum_probs=3.1  Template_Neff=5.000
+
+Q GLSIFV            1 GLSIFV    6 (6)
+Q Consensus         1 glsifv    6 (6)
+                      +|||+|
+T Consensus        79 ~LsVLi   84 (122)
+T 2PEB_B           79 GLDILV   84 (122)
+T ss_dssp             TCCEEE
+T ss_pred             CceEEE
+Confidence            355554
+
+
+No 4
+>3J40_L gp10, gp7; capsid, accessory protein, VIRUS; 4.5A {Salmonella phage epsilon15}
+Probab=15.13  E-value=1.6e+02  Score=12.79  Aligned_cols=6  Identities=50%  Similarity=0.778  Sum_probs=0.0  Template_Neff=4.300
+
+Q GLSIFV            1 GLSIFV    6 (6)
+Q Consensus         1 glsifv    6 (6)
+                      ||+|++
+T Consensus        29 GL~I~L   34 (111)
+T 3J40_L           29 GLRITL   34 (111)
+T ss_dssp             CCCCSC
+T ss_pred             ceEEEe
+
+
+No 5
+>6XA1_j translation termination complex; Selectively stalling, translation termination, drug-like; HET: A2M, MEQ, 4AC, M2G, MLZ, OMG, OMU, PSU, B8N, 5MC, H2U, MVM, 2MG, G7M, UY1, 1MG, MA6, UXY, 6MZ, 1MA, UY4, MG, OMC, UR3; 2.8A {Homo sapiens}
+Probab=14.93  E-value=1.6e+02  Score=13.01  Aligned_cols=6  Identities=33%  Similarity=0.988  Sum_probs=0.0  Template_Neff=9.000
+
+Q GLSIFV            1 GLSIFV    6 (6)
+Q Consensus         1 glsifv    6 (6)
+                      |+.||+
+T Consensus        82 glaif~   87 (411)
+T 6XA1_j           82 GLVVYC   87 (411)
+T ss_pred             cEEEEE
+
+
+No 6
+>1DT9_A EUKARYOTIC PEPTIDE CHAIN RELEASE FACTOR; erf1, trna mimicry, protein sythesis; 2.7A {Homo sapiens} SCOP: d.91.1.1, d.79.3.2, c.55.4.2
+Probab=14.39  E-value=1.7e+02  Score=13.26  Aligned_cols=6  Identities=33%  Similarity=0.988  Sum_probs=0.0  Template_Neff=8.600
+
+Q GLSIFV            1 GLSIFV    6 (6)
+Q Consensus         1 glsifv    6 (6)
+                      |+.||+
+T Consensus        92 glaiF~   97 (437)
+T 1DT9_A           92 GLVVYC   97 (437)
+T ss_pred             eEEEEE
+
+
+No 7
+>6XI8_C Serine/threonine-protein kinase KIN28 (E.C.2.7.11.23), Cyclin; Polymerase CTD, TFIIH, Phosphorylation, Kinase; HET: TPO, ADP;{Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=13.55  E-value=1.9e+02  Score=10.37  Aligned_cols=6  Identities=33%  Similarity=0.728  Sum_probs=0.0  Template_Neff=7.000
+
+Q GLSIFV            1 GLSIFV    6 (6)
+Q Consensus         1 glsifv    6 (6)
+                      ||.+|+
+T Consensus        54 GL~~~i   59 (63)
+T 6XI8_C           54 GLGCVI   59 (63)
+T ss_pred             ccCCcc
+
+
+No 8
+>5DMQ_B Reverse transcriptase/ribonuclease H p80 (E.C.2.7.7.49,2.7.7.7,3.1.26.4); complex, eRF1, RT, TRANSFERASE, HYDROLASE-TRANSLATION; 4.0A {Moloney murine leukemia virus (isolate Shinnick)}
+Probab=13.44  E-value=1.9e+02  Score=13.13  Aligned_cols=6  Identities=33%  Similarity=0.988  Sum_probs=0.0  Template_Neff=8.600
+
+Q GLSIFV            1 GLSIFV    6 (6)
+Q Consensus         1 glsifv    6 (6)
+                      |+.||+
+T Consensus        92 glAiF~   97 (437)
+T 5DMQ_B           92 GLVVYC   97 (437)
+T ss_dssp             CEEEEE
+T ss_pred             eEEEEE
+
+
+No 9
+>6U42_7G Tubulin beta, Tubulin alpha, PACRG; motile cilia, microtubule doublet, repetitive; HET: GDP, MG, GTP; 3.4A {Chlamydomonas reinhardtii}
+Probab=12.82  E-value=2e+02  Score=14.55  Aligned_cols=6  Identities=67%  Similarity=1.337  Sum_probs=0.0  Template_Neff=1.300
+
+Q GLSIFV            1 GLSIFV    6 (6)
+Q Consensus         1 glsifv    6 (6)
+                      |.|+||
+T Consensus       202 gvsvfv  207 (235)
+T 6U42_7G         202 GVSVFV  207 (235)
+T ss_pred             eeEEEe
+
+
+No 10
+>6N9J_B Clostripain-related protein, Covalent peptide inhibitor; C11 protease, secreted, covalent peptide; HET: CKC; 2.17A {Bacteroides thetaiotaomicron (strain ATCC 29148 / DSM 2079 / NCTC 10582 / E50 / VPI-5482)}
+Probab=12.33  E-value=2.1e+02  Score=13.19  Aligned_cols=6  Identities=33%  Similarity=1.010  Sum_probs=0.0  Template_Neff=7.600
+
+Q GLSIFV            1 GLSIFV    6 (6)
+Q Consensus         1 glsifv    6 (6)
+                      ||||+.
+T Consensus       343 GlSiY~  348 (377)
+T 6N9J_B          343 GVSTYI  348 (377)
+T ss_dssp             SCEECC
+T ss_pred             eEEEEE
+
+

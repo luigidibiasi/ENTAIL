@@ -1,0 +1,148 @@
+Query         NENGNA
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 23:21:17 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NENGNA/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NENGNA/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5ZKG_A Methionine-tRNA ligase,  13.1   2E+02  0.0022   12.8   0.0    6    1-6      10-15  (204)
+  2 6IPA_C Aminoacyl-tRNA syntheta  13.1   2E+02  0.0022   12.8   0.0    6    1-6      10-15  (204)
+  3 5L09_B Quorum-sensing transcri  10.6 2.6E+02  0.0029   10.3   0.0    5    1-5     169-173 (179)
+  4 2LLL_A Lamin-B2; immunoglobuli  10.6 2.6E+02  0.0029   10.7   0.0    4    1-4     136-139 (139)
+  5 5L09_A Quorum-sensing transcri  10.4 2.7E+02   0.003   10.2   0.0    5    1-5     169-173 (179)
+  6 2XNY_M FIBRINOGEN ALPHA CHAIN,   8.0 3.9E+02  0.0043   12.2   0.0    6    1-6       3-8   (102)
+  7 4ETX_A PelD; c-di-GMP, SIGNALI   7.9 3.9E+02  0.0043   10.1   0.0    4    1-4     290-293 (300)
+  8 2D8T_A RING finger protein 146   7.1 4.5E+02   0.005    6.8   0.0    3    2-4      69-71  (71)
+  9 4G7X_A Putative uncharacterize   5.8 5.9E+02  0.0065   11.7   0.0    5    1-5      59-63  (105)
+ 10 2OTO_C M protein; helical coil   5.6 6.2E+02  0.0068   12.3   0.0    6    1-6       3-8   (155)
+
+No 1
+>5ZKG_A Methionine-tRNA ligase, putative; EMAPII-like domain, AIMP1, Plasmodium, LIGASE; 3.3A {Plasmodium vivax}
+Probab=13.05  E-value=2e+02  Score=12.84  Aligned_cols=6  Identities=67%  Similarity=1.093  Sum_probs=0.0  Template_Neff=6.200
+
+Q NENGNA            1 NENGNA    6 (6)
+Q Consensus         1 nengna    6 (6)
+                      ||||.+
+T Consensus        10 ~~~~~~   15 (204)
+T 5ZKG_A           10 NENGDN   15 (204)
+T ss_dssp             ------
+T ss_pred             ccCccc
+
+
+No 2
+>6IPA_C Aminoacyl-tRNA synthetase-interacting multifunctional protein P43; AIMP1, EMAPII-LIKE DOMAIN, PLASMODIUM, RNA; 2.47A {Plasmodium vivax}
+Probab=13.05  E-value=2e+02  Score=12.84  Aligned_cols=6  Identities=67%  Similarity=1.093  Sum_probs=0.0  Template_Neff=6.200
+
+Q NENGNA            1 NENGNA    6 (6)
+Q Consensus         1 nengna    6 (6)
+                      ||||.+
+T Consensus        10 ~~~~~~   15 (204)
+T 6IPA_C           10 NENGDN   15 (204)
+T ss_dssp             ------
+T ss_pred             ccCccc
+
+
+No 3
+>5L09_B Quorum-sensing transcriptional activator; alpha-beta structure, pheromone binding protein; HET: 482, EDO, ACY, SO4, MSE; 2.0A {Yersinia enterocolitica serotype O:8 / biotype 1B (strain NCTC 13174 / 8081)}
+Probab=10.63  E-value=2.6e+02  Score=10.27  Aligned_cols=5  Identities=80%  Similarity=0.933  Sum_probs=0.0  Template_Neff=10.300
+
+Q NENGNA            1 NENGN    5 (6)
+Q Consensus         1 nengn    5 (6)
+                      |||.|
+T Consensus       169 ~~~~~  173 (179)
+T 5L09_B          169 NENRN  173 (179)
+T ss_dssp             -----
+T ss_pred             CccCC
+
+
+No 4
+>2LLL_A Lamin-B2; immunoglobulin-like fold, structural protein, NESG; NMR {Homo sapiens}
+Probab=10.60  E-value=2.6e+02  Score=10.70  Aligned_cols=4  Identities=100%  Similarity=1.481  Sum_probs=0.0  Template_Neff=8.500
+
+Q NENGNA            1 NENG    4 (6)
+Q Consensus         1 neng    4 (6)
+                      ||||
+T Consensus       136 ~~~~  139 (139)
+T 2LLL_A          136 NENG  139 (139)
+T ss_pred             ccCC
+
+
+No 5
+>5L09_A Quorum-sensing transcriptional activator; alpha-beta structure, pheromone binding protein; HET: 482, ACY, SO4, MSE, EDO; 2.0A {Yersinia enterocolitica serotype O:8 / biotype 1B (strain NCTC 13174 / 8081)}
+Probab=10.42  E-value=2.7e+02  Score=10.19  Aligned_cols=5  Identities=80%  Similarity=0.933  Sum_probs=0.0  Template_Neff=10.400
+
+Q NENGNA            1 NENGN    5 (6)
+Q Consensus         1 nengn    5 (6)
+                      |||.|
+T Consensus       169 ~~~~~  173 (179)
+T 5L09_A          169 NENRN  173 (179)
+T ss_dssp             -----
+T ss_pred             CccCC
+
+
+No 6
+>2XNY_M FIBRINOGEN ALPHA CHAIN, FIBRINOGEN BETA; CELL ADHESION, VIRULENCE FACTOR, STREPTOCOCCAL; 7.5A {HOMO SAPIENS}
+Probab=7.95  E-value=3.9e+02  Score=12.19  Aligned_cols=6  Identities=50%  Similarity=0.883  Sum_probs=0.0  Template_Neff=1.500
+
+Q NENGNA            1 NENGNA    6 (6)
+Q Consensus         1 nengna    6 (6)
+                      |+||+.
+T Consensus         3 NenG~P    8 (102)
+T 2XNY_M            3 NGDGNP    8 (102)
+T ss_pred             CCCCCh
+
+
+No 7
+>4ETX_A PelD; c-di-GMP, SIGNALING PROTEIN; 2.0A {Pseudomonas aeruginosa}
+Probab=7.92  E-value=3.9e+02  Score=10.08  Aligned_cols=4  Identities=75%  Similarity=1.016  Sum_probs=0.0  Template_Neff=11.600
+
+Q NENGNA            1 NENG    4 (6)
+Q Consensus         1 neng    4 (6)
+                      ||+|
+T Consensus       290 ~~~~  293 (300)
+T 4ETX_A          290 NECG  293 (300)
+T ss_dssp             CCSC
+T ss_pred             hccC
+
+
+No 8
+>2D8T_A RING finger protein 146; RING finger protein 146, Dactylidin; HET: ZN; NMR {Homo sapiens}
+Probab=7.12  E-value=4.5e+02  Score=6.79  Aligned_cols=3  Identities=33%  Similarity=0.855  Sum_probs=0.0  Template_Neff=12.900
+
+Q NENGNA            2 ENG    4 (6)
+Q Consensus         2 eng    4 (6)
+                      +||
+T Consensus        69 ~~~   71 (71)
+T 2D8T_A           69 SSG   71 (71)
+T ss_dssp             SCC
+T ss_pred             CCC
+
+
+No 9
+>4G7X_A Putative uncharacterized protein, TolA protein; Membrane, PROTEIN BINDING-PROTEIN BINDING complex; 1.44A {Vibrio cholerae}
+Probab=5.81  E-value=5.9e+02  Score=11.67  Aligned_cols=5  Identities=80%  Similarity=1.332  Sum_probs=0.0  Template_Neff=1.000
+
+Q NENGNA            1 NENGN    5 (6)
+Q Consensus         1 nengn    5 (6)
+                      ||||.
+T Consensus        59 nengd   63 (105)
+T 4G7X_A           59 NENGD   63 (105)
+T ss_dssp             ETTEE
+T ss_pred             cCCCC
+
+
+No 10
+>2OTO_C M protein; helical coiled coil, fibrinogen-binding, virulence; HET: MSE; 3.04A {Streptococcus pyogenes serotype M1}
+Probab=5.61  E-value=6.2e+02  Score=12.29  Aligned_cols=6  Identities=50%  Similarity=0.883  Sum_probs=0.0  Template_Neff=1.300
+
+Q NENGNA            1 NENGNA    6 (6)
+Q Consensus         1 nengna    6 (6)
+                      |+||+.
+T Consensus         3 NenG~P    8 (155)
+T 2OTO_C            3 NGDGNP    8 (155)
+T ss_dssp             ------
+T ss_pred             CCCCCh
+
+

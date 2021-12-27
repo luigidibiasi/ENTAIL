@@ -1,0 +1,153 @@
+Query         HLVYIM
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 06:40:27 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/HLVYIM/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/HLVYIM/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2D1G_B acid phosphatase (E.C.3  21.7      90 0.00099   15.3   0.0    6    1-6      36-41  (498)
+  2 2D1G_A acid phosphatase (E.C.3  16.2 1.4E+02  0.0016   14.5   0.0    6    1-6      36-41  (498)
+  3 5HXO_A (2Z,6Z)-farnesyl diphos  13.6 1.9E+02   0.002   11.9   0.0    6    1-6      10-15  (233)
+  4 5HXQ_C (2Z,6Z)-farnesyl diphos  13.6 1.9E+02   0.002   11.9   0.0    6    1-6      10-15  (233)
+  5 4EPI_A Pesticin, Lysozyme (E.C  13.1   2E+02  0.0022   13.9   0.0    5    2-6      54-58  (330)
+  6 3UGS_B Undecaprenyl pyrophosph  12.3 2.1E+02  0.0024   11.5   0.0    6    1-6       9-14  (225)
+  7 2D2R_B Undecaprenyl Pyrophosph  12.2 2.2E+02  0.0024   11.7   0.0    6    1-6      18-23  (245)
+  8 3HPM_A Protein interacting wit  12.0 2.2E+02  0.0025    8.7   0.0    5    1-5     107-111 (111)
+  9 7EEB_J Enhanced green fluoresc  10.9 2.5E+02  0.0028   13.2   0.0    5    1-5      71-75  (171)
+ 10 4V88_Cf Ribosome; Translation,  10.8 2.6E+02  0.0028   10.3   0.0    6    1-6     145-150 (152)
+
+No 1
+>2D1G_B acid phosphatase (E.C.3.1.3.2); Francisella tularensis, Acid Phosphatase, AcpA; HET: ETE, PGE, DVT, VO4; 1.75A {Francisella tularensis subsp. novicida}
+Probab=21.66  E-value=90  Score=15.26  Aligned_cols=6  Identities=50%  Similarity=0.894  Sum_probs=3.7  Template_Neff=6.800
+
+Q HLVYIM            1 HLVYIM    6 (6)
+Q Consensus         1 hlvyim    6 (6)
+                      |+|+||
+T Consensus        36 HVVVlm   41 (498)
+T 2D1G_B           36 HVVIIF   41 (498)
+T ss_dssp             EEEEEE
+T ss_pred             EEEEEE
+Confidence            566665
+
+
+No 2
+>2D1G_A acid phosphatase (E.C.3.1.3.2); Francisella tularensis, Acid Phosphatase, AcpA; HET: DVT, VO4, PGE, ETE; 1.75A {Francisella tularensis subsp. novicida}
+Probab=16.21  E-value=1.4e+02  Score=14.54  Aligned_cols=6  Identities=50%  Similarity=0.894  Sum_probs=3.4  Template_Neff=7.000
+
+Q HLVYIM            1 HLVYIM    6 (6)
+Q Consensus         1 hlvyim    6 (6)
+                      |+|.||
+T Consensus        36 HVVVlm   41 (498)
+T 2D1G_A           36 HVVIIF   41 (498)
+T ss_dssp             EEEEEE
+T ss_pred             EEEEEE
+Confidence            556655
+
+
+No 3
+>5HXO_A (2Z,6Z)-farnesyl diphosphate synthase, chloroplastic (E.C.2.5.1.92); prenyltransferase, TRANSFERASE; 2.05A {Solanum habrochaites}
+Probab=13.61  E-value=1.9e+02  Score=11.86  Aligned_cols=6  Identities=50%  Similarity=0.955  Sum_probs=2.7  Template_Neff=8.900
+
+Q HLVYIM            1 HLVYIM    6 (6)
+Q Consensus         1 hlvyim    6 (6)
+                      |+..||
+T Consensus        10 HiaiI~   15 (233)
+T 5HXO_A           10 HIALIM   15 (233)
+T ss_dssp             EEEEEC
+T ss_pred             EEEEEc
+Confidence            444443
+
+
+No 4
+>5HXQ_C (2Z,6Z)-farnesyl diphosphate synthase, chloroplastic (E.C.2.5.1.92); prenyltransferase, TRANSFERASE; HET: O4B, DST; 1.95A {Solanum habrochaites}
+Probab=13.61  E-value=1.9e+02  Score=11.86  Aligned_cols=6  Identities=50%  Similarity=0.955  Sum_probs=2.7  Template_Neff=8.900
+
+Q HLVYIM            1 HLVYIM    6 (6)
+Q Consensus         1 hlvyim    6 (6)
+                      |+..||
+T Consensus        10 HiaiI~   15 (233)
+T 5HXQ_C           10 HIALIM   15 (233)
+T ss_dssp             EEEEEC
+T ss_pred             EEEEEc
+Confidence            444443
+
+
+No 5
+>4EPI_A Pesticin, Lysozyme (E.C.3.2.1.17); bacterial toxin, TOXIN, HYDROLASE; 1.74A {Yersinia pestis, Enterobacteria phage T4}
+Probab=13.12  E-value=2e+02  Score=13.87  Aligned_cols=5  Identities=80%  Similarity=1.444  Sum_probs=0.0  Template_Neff=5.900
+
+Q HLVYIM            2 LVYIM    6 (6)
+Q Consensus         2 lvyim    6 (6)
+                      |.|||
+T Consensus        54 ~~~~~   58 (330)
+T 4EPI_A           54 LMYIM   58 (330)
+T ss_dssp             EEEET
+T ss_pred             EEEEe
+
+
+No 6
+>3UGS_B Undecaprenyl pyrophosphate synthase (E.C.2.5.1.31); NIAID, CSGID, Structural Genomics, Center; HET: FFT; 2.457A {Campylobacter jejuni}
+Probab=12.28  E-value=2.1e+02  Score=11.51  Aligned_cols=6  Identities=50%  Similarity=0.910  Sum_probs=0.0  Template_Neff=9.100
+
+Q HLVYIM            1 HLVYIM    6 (6)
+Q Consensus         1 hlvyim    6 (6)
+                      |++.||
+T Consensus         9 Hla~i~   14 (225)
+T 3UGS_B            9 HLAVVM   14 (225)
+T ss_dssp             EEEEEE
+T ss_pred             EEEEec
+
+
+No 7
+>2D2R_B Undecaprenyl Pyrophosphate Synthase (E.C.2.5.1.31); prenyl, prenyltransferase, undecaprenyl, TRANSFERASE; 1.88A {Helicobacter pylori}
+Probab=12.17  E-value=2.2e+02  Score=11.70  Aligned_cols=6  Identities=67%  Similarity=0.982  Sum_probs=0.0  Template_Neff=9.000
+
+Q HLVYIM            1 HLVYIM    6 (6)
+Q Consensus         1 hlvyim    6 (6)
+                      |++.||
+T Consensus        18 Hlavi~   23 (245)
+T 2D2R_B           18 HLAIIM   23 (245)
+T ss_dssp             EEEEEC
+T ss_pred             EEEEec
+
+
+No 8
+>3HPM_A Protein interacting with PRKCA 1; oxidized, PDZ domain, PROTEIN BINDING; 2.8A {Rattus norvegicus}
+Probab=11.97  E-value=2.2e+02  Score=8.68  Aligned_cols=5  Identities=40%  Similarity=0.242  Sum_probs=0.0  Template_Neff=12.100
+
+Q HLVYIM            1 HLVYI    5 (6)
+Q Consensus         1 hlvyi    5 (6)
+                      +.|||
+T Consensus       107 ~~~~~  111 (111)
+T 3HPM_A          107 ESVKI  111 (111)
+T ss_dssp             EEEEC
+T ss_pred             ccccC
+
+
+No 9
+>7EEB_J Enhanced green fluorescent protein,Cation channel; ion channel, membrane protein, calcium; HET: NAG, BMA, 9Z9; 2.9A {Mus musculus}
+Probab=10.91  E-value=2.5e+02  Score=13.24  Aligned_cols=5  Identities=80%  Similarity=1.617  Sum_probs=0.0  Template_Neff=3.600
+
+Q HLVYIM            1 HLVYI    5 (6)
+Q Consensus         1 hlvyi    5 (6)
+                      |+|||
+T Consensus        71 HnIYi   75 (171)
+T 7EEB_J           71 HLVYV   75 (171)
+T ss_dssp             SSCBC
+T ss_pred             hhEEE
+
+
+No 10
+>4V88_Cf Ribosome; Translation, ribosome, 40S, 60S, 80S; HET: OHX, ZN, MG; 3.0A {Saccharomyces cerevisiae}
+Probab=10.80  E-value=2.6e+02  Score=10.26  Aligned_cols=6  Identities=50%  Similarity=0.811  Sum_probs=0.0  Template_Neff=9.800
+
+Q HLVYIM            1 HLVYIM    6 (6)
+Q Consensus         1 hlvyim    6 (6)
+                      |.+|||
+T Consensus       145 ~~~~~~  150 (152)
+T 4V88_Cf         145 HSVYKV  150 (152)
+T ss_pred             CcEEEe
+
+

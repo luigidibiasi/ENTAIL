@@ -1,0 +1,147 @@
+Query         RQFNQT
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 12:33:35 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/RQFNQT/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/RQFNQT/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6ID1_M Pre-mRNA-processing-spl  12.1 2.2E+02  0.0024   12.8   0.0    5    1-5     216-220 (243)
+  2 2D9G_A YY1-associated factor 2  10.3 2.8E+02  0.0031    9.4   0.0    5    1-5      43-47  (53)
+  3 5ZHY_A Spike glycoprotein,Spik   9.9 2.9E+02  0.0032   13.2   0.0    5    2-6      96-100 (148)
+  4 2G7O_A Protein traM; four heli   8.8 3.4E+02  0.0037   10.7   0.0    4    3-6       4-7   (70)
+  5 5FW5_B RAS GTPASE-ACTIVATING P   8.6 3.5E+02  0.0039    9.9   0.0    6    1-6     107-112 (140)
+  6 2BEZ_F E2 GLYCOPROTEIN; MEMBRA   8.3 3.7E+02  0.0041   10.0   0.0    5    2-6      12-16  (42)
+  7 7A8U_B Alpha-actinin-2, Myozen   8.2 3.7E+02  0.0041   13.1   0.0    6    1-6     129-134 (209)
+  8 7ANK_C Alpha-actinin-2, Myozen   8.2 3.7E+02  0.0041   13.1   0.0    6    1-6     129-134 (209)
+  9 1ZX2_A UBP3-associated protein   8.2 3.7E+02  0.0041   10.1   0.0    6    1-6     115-120 (147)
+ 10 4V3P_LH 40S WHEAT GERM RIBOSOM   8.2 3.8E+02  0.0042   11.9   0.0    5    2-6      18-22  (201)
+
+No 1
+>6ID1_M Pre-mRNA-processing-splicing factor 8, 116 kDa; Human Intron Lariat Spliceosome, SPLICING; HET: GTP, SEP, I6P; 2.86A {Homo sapiens}
+Probab=12.12  E-value=2.2e+02  Score=12.84  Aligned_cols=5  Identities=40%  Similarity=0.879  Sum_probs=0.0  Template_Neff=6.600
+
+Q RQFNQT            1 RQFNQ    5 (6)
+Q Consensus         1 rqfnq    5 (6)
+                      ++||.
+T Consensus       216 k~FN~  220 (243)
+T 6ID1_M          216 AKFNK  220 (243)
+T ss_pred             HHHHH
+
+
+No 2
+>2D9G_A YY1-associated factor 2; zf-RanBP domain, YY1-associated factor 2; HET: ZN; NMR {Homo sapiens}
+Probab=10.26  E-value=2.8e+02  Score=9.39  Aligned_cols=5  Identities=40%  Similarity=0.547  Sum_probs=0.0  Template_Neff=7.500
+
+Q RQFNQT            1 RQFNQ    5 (6)
+Q Consensus         1 rqfnq    5 (6)
+                      |+++|
+T Consensus        43 ~~~~~   47 (53)
+T 2D9G_A           43 RPVSQ   47 (53)
+T ss_dssp             CCCCC
+T ss_pred             CCCcc
+
+
+No 3
+>5ZHY_A Spike glycoprotein,Spike glycoprotein; membrane fusion, broad-spectrum inhibitor design; 2.441A {Human coronavirus 229E}
+Probab=9.89  E-value=2.9e+02  Score=13.15  Aligned_cols=5  Identities=80%  Similarity=1.119  Sum_probs=0.0  Template_Neff=2.300
+
+Q RQFNQT            2 QFNQT    6 (6)
+Q Consensus         2 qfnqt    6 (6)
+                      .||||
+T Consensus        96 ifNqT  100 (148)
+T 5ZHY_A           96 QYNQT  100 (148)
+T ss_dssp             ----C
+T ss_pred             hhhcc
+
+
+No 4
+>2G7O_A Protein traM; four helix bundle, tetramer, DNA; 1.4A {Escherichia coli} SCOP: a.241.1.1
+Probab=8.85  E-value=3.4e+02  Score=10.73  Aligned_cols=4  Identities=100%  Similarity=1.331  Sum_probs=0.0  Template_Neff=5.000
+
+Q RQFNQT            3 FNQT    6 (6)
+Q Consensus         3 fnqt    6 (6)
+                      |||.
+T Consensus         4 fnq~    7 (70)
+T 2G7O_A            4 FNQT    7 (70)
+T ss_dssp             CCHH
+T ss_pred             ccHH
+
+
+No 5
+>5FW5_B RAS GTPASE-ACTIVATING PROTEIN-BINDING PROTEIN 1; HYDROLASE, TRANSFERASE, NONSTRUCTURAL PROTEIN 3; HET: SO4, GOL, ACT; 1.92A {HOMO SAPIENS}
+Probab=8.59  E-value=3.5e+02  Score=9.91  Aligned_cols=6  Identities=67%  Similarity=0.900  Sum_probs=0.0  Template_Neff=9.500
+
+Q RQFNQT            1 RQFNQT    6 (6)
+Q Consensus         1 rqfnqt    6 (6)
+                      |.|.|+
+T Consensus       107 ~~F~qt  112 (140)
+T 5FW5_B          107 RRFMQT  112 (140)
+T ss_dssp             EEEEEE
+T ss_pred             eEEEEE
+
+
+No 6
+>2BEZ_F E2 GLYCOPROTEIN; MEMBRANE FUSION, SEVERE ACUTE RESPIRATORY; 1.6A {SARS CORONAVIRUS}
+Probab=8.27  E-value=3.7e+02  Score=10.04  Aligned_cols=5  Identities=20%  Similarity=0.341  Sum_probs=0.0  Template_Neff=4.100
+
+Q RQFNQT            2 QFNQT    6 (6)
+Q Consensus         2 qfnqt    6 (6)
+                      +||+|
+T Consensus        12 ~~N~t   16 (42)
+T 2BEZ_F           12 GINAS   16 (42)
+T ss_dssp             TCCCC
+T ss_pred             ccccc
+
+
+No 7
+>7A8U_B Alpha-actinin-2, Myozenin-1; Z-disk complex, F-actin crosslinking protein; 3.802A {Homo sapiens}
+Probab=8.23  E-value=3.7e+02  Score=13.05  Aligned_cols=6  Identities=50%  Similarity=0.982  Sum_probs=0.0  Template_Neff=3.700
+
+Q RQFNQT            1 RQFNQT    6 (6)
+Q Consensus         1 rqfnqt    6 (6)
+                      |.||.+
+T Consensus       129 KSFNRt  134 (209)
+T 7A8U_B          129 KSFNRT  134 (209)
+T ss_pred             eeecCC
+
+
+No 8
+>7ANK_C Alpha-actinin-2, Myozenin-1; Z-disk complex, F-actin crosslinking protein; 3.204A {Homo sapiens}
+Probab=8.23  E-value=3.7e+02  Score=13.05  Aligned_cols=6  Identities=50%  Similarity=0.982  Sum_probs=0.0  Template_Neff=3.700
+
+Q RQFNQT            1 RQFNQT    6 (6)
+Q Consensus         1 rqfnqt    6 (6)
+                      |.||.+
+T Consensus       129 KSFNRt  134 (209)
+T 7ANK_C          129 KSFNRT  134 (209)
+T ss_dssp             CCCCCC
+T ss_pred             eeecCC
+
+
+No 9
+>1ZX2_A UBP3-associated protein BRE5; Ubp3, deubiqutinate, NTF2, SIGNALING PROTEIN; 2.1A {Saccharomyces cerevisiae} SCOP: d.17.4.2
+Probab=8.21  E-value=3.7e+02  Score=10.07  Aligned_cols=6  Identities=50%  Similarity=0.562  Sum_probs=0.0  Template_Neff=9.200
+
+Q RQFNQT            1 RQFNQT    6 (6)
+Q Consensus         1 rqfnqt    6 (6)
+                      |.|.|+
+T Consensus       115 ~~F~qt  120 (147)
+T 1ZX2_A          115 YKFCQT  120 (147)
+T ss_dssp             EEEEEE
+T ss_pred             EEEEEE
+
+
+No 10
+>4V3P_LH 40S WHEAT GERM RIBOSOME1/RNA Complex; RIBOSOME; 34.0A {Triticum aestivum}
+Probab=8.20  E-value=3.8e+02  Score=11.94  Aligned_cols=5  Identities=60%  Similarity=0.946  Sum_probs=0.0  Template_Neff=6.300
+
+Q RQFNQT            2 QFNQT    6 (6)
+Q Consensus         2 qfnqt    6 (6)
+                      ||+|+
+T Consensus        18 qf~~~   22 (201)
+T 4V3P_LH          18 QFTRT   22 (201)
+T ss_pred             HHccc
+
+

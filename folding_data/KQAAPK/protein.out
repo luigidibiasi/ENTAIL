@@ -1,0 +1,149 @@
+Query         KQAAPK
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 11:53:22 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/KQAAPK/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/KQAAPK/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2OGK_B Hypothetical protein; c   8.8 3.4E+02  0.0038   11.3   0.0    4    1-4     102-105 (146)
+  2 2OGK_D Hypothetical protein; c   8.7 3.5E+02  0.0039   11.2   0.0    4    1-4     102-105 (146)
+  3 2R8R_A Sensor protein (E.C.2.7   8.0 3.9E+02  0.0043    9.8   0.0    4    2-5     225-228 (228)
+  4 1JB7_A TELOMERE-BINDING PROTEI   7.5 4.2E+02  0.0046   12.3   0.0    6    1-6      18-23  (495)
+  5 1KIX_A TELOMERE-BINDING PROTEI   7.5 4.2E+02  0.0046   12.3   0.0    6    1-6      18-23  (495)
+  6 2WNY_A CONSERVED PROTEIN MTH68   7.5 4.2E+02  0.0047   11.0   0.0    4    1-4      99-102 (141)
+  7 2Q62_B arsH; alpha/beta, FLAVO   7.2 4.5E+02   0.005   11.1   0.0    6    1-6     226-231 (247)
+  8 6TDV_t ATPTB1, ATPTB3, ATPTB6,   6.9 4.7E+02  0.0052   11.2   0.0    6    1-6      60-65  (66)
+  9 3U2S_C PG9 heavy chain, PG9 li   6.8 4.8E+02  0.0053   11.2   0.0    5    2-6      80-84  (124)
+ 10 3GFU_A Chaperone protein faeE,   6.7 4.9E+02  0.0055   10.8   0.0    5    1-5     206-210 (224)
+
+No 1
+>2OGK_B Hypothetical protein; conserved hypothetical protein, Archaeglobus fulgidus; 3.0A {Archaeoglobus fulgidus} SCOP: d.77.1.2
+Probab=8.77  E-value=3.4e+02  Score=11.27  Aligned_cols=4  Identities=75%  Similarity=0.659  Sum_probs=0.0  Template_Neff=6.800
+
+Q KQAAPK            1 KQAA    4 (6)
+Q Consensus         1 kqaa    4 (6)
+                      ||+|
+T Consensus       102 KQ~A  105 (146)
+T 2OGK_B          102 KQKA  105 (146)
+T ss_dssp             HHHH
+T ss_pred             ChhH
+
+
+No 2
+>2OGK_D Hypothetical protein; conserved hypothetical protein, Archaeglobus fulgidus; 3.0A {Archaeoglobus fulgidus} SCOP: d.77.1.2
+Probab=8.65  E-value=3.5e+02  Score=11.25  Aligned_cols=4  Identities=75%  Similarity=0.659  Sum_probs=0.0  Template_Neff=6.800
+
+Q KQAAPK            1 KQAA    4 (6)
+Q Consensus         1 kqaa    4 (6)
+                      ||+|
+T Consensus       102 KQ~A  105 (146)
+T 2OGK_D          102 KQKA  105 (146)
+T ss_dssp             HHHH
+T ss_pred             chhH
+
+
+No 3
+>2R8R_A Sensor protein (E.C.2.7.13.3); KdpD, sensor protein, pfam02702, MCSG; HET: SO4, GOL; 2.3A {Pseudomonas syringae pv. tomato}
+Probab=7.96  E-value=3.9e+02  Score=9.77  Aligned_cols=4  Identities=75%  Similarity=1.149  Sum_probs=0.0  Template_Neff=11.300
+
+Q KQAAPK            2 QAAP    5 (6)
+Q Consensus         2 qaap    5 (6)
+                      |+||
+T Consensus       225 ~~~~  228 (228)
+T 2R8R_A          225 QSAP  228 (228)
+T ss_dssp             ----
+T ss_pred             cCCC
+
+
+No 4
+>1JB7_A TELOMERE-BINDING PROTEIN/DNA COMPLEX; telomere-binding protein, DNA-protein interactions, DNA; 1.86A {Sterkiella nova} SCOP: b.40.4.3
+Probab=7.54  E-value=4.2e+02  Score=12.28  Aligned_cols=6  Identities=83%  Similarity=1.043  Sum_probs=0.0  Template_Neff=8.700
+
+Q KQAAPK            1 KQAAPK    6 (6)
+Q Consensus         1 kqaapk    6 (6)
+                      |.||||
+T Consensus        18 ~~~~~~   23 (495)
+T 1JB7_A           18 KTAAPK   23 (495)
+T ss_dssp             ------
+T ss_pred             ccCCCC
+
+
+No 5
+>1KIX_A TELOMERE-BINDING PROTEIN ALPHA SUBUNIT/DNA Complex; TELOMERE BINDING PROTEIN, DNA-PROTEIN INTERACTIONS; HET: SO4; 2.7A {Sterkiella nova} SCOP: b.40.4.3
+Probab=7.54  E-value=4.2e+02  Score=12.28  Aligned_cols=6  Identities=83%  Similarity=1.043  Sum_probs=0.0  Template_Neff=8.700
+
+Q KQAAPK            1 KQAAPK    6 (6)
+Q Consensus         1 kqaapk    6 (6)
+                      |.||||
+T Consensus        18 ~~~~~~   23 (495)
+T 1KIX_A           18 KTAAPK   23 (495)
+T ss_dssp             ------
+T ss_pred             ccCCCC
+
+
+No 6
+>2WNY_A CONSERVED PROTEIN MTH689; UNKNOWN FUNCTION, EXOSOME SUPEROPERON; 1.95A {METHANOTHERMOBACTER THERMAUTOTROPHICUS}
+Probab=7.48  E-value=4.2e+02  Score=11.03  Aligned_cols=4  Identities=75%  Similarity=0.659  Sum_probs=0.0  Template_Neff=6.600
+
+Q KQAAPK            1 KQAA    4 (6)
+Q Consensus         1 kqaa    4 (6)
+                      ||+|
+T Consensus        99 KQ~a  102 (141)
+T 2WNY_A           99 KQKA  102 (141)
+T ss_dssp             HHHH
+T ss_pred             chHH
+
+
+No 7
+>2Q62_B arsH; alpha/beta, FLAVOPROTEIN; HET: SO4; 1.8A {Sinorhizobium meliloti}
+Probab=7.18  E-value=4.5e+02  Score=11.08  Aligned_cols=6  Identities=33%  Similarity=0.551  Sum_probs=0.0  Template_Neff=8.500
+
+Q KQAAPK            1 KQAAPK    6 (6)
+Q Consensus         1 kqaapk    6 (6)
+                      |++|++
+T Consensus       226 ~~~~~~  231 (247)
+T 2Q62_B          226 KESAAE  231 (247)
+T ss_dssp             HHHC--
+T ss_pred             HHHhhh
+
+
+No 8
+>6TDV_t ATPTB1, ATPTB3, ATPTB6, ATPTB12, subunit; mitochondria, ATP synthase, MEMBRANE PROTEIN; HET: LPP, LMT, TRT, CDL; 2.8A {Euglena gracilis}
+Probab=6.89  E-value=4.7e+02  Score=11.18  Aligned_cols=6  Identities=83%  Similarity=0.955  Sum_probs=0.0  Template_Neff=1.000
+
+Q KQAAPK            1 KQAAPK    6 (6)
+Q Consensus         1 kqaapk    6 (6)
+                      |-||||
+T Consensus        60 klaapk   65 (66)
+T 6TDV_t           60 KLAAPK   65 (66)
+T ss_pred             cccCCC
+
+
+No 9
+>3U2S_C PG9 heavy chain, PG9 light; greek key, immunoglobulin, immune recognition; HET: TYS, PCA, BU3, SO4, BMA, MAN, NAG; 1.797A {Homo sapiens}
+Probab=6.78  E-value=4.8e+02  Score=11.15  Aligned_cols=5  Identities=20%  Similarity=0.209  Sum_probs=0.0  Template_Neff=5.400
+
+Q KQAAPK            2 QAAPK    6 (6)
+Q Consensus         2 qaapk    6 (6)
+                      ||-||
+T Consensus        80 QaCpK   84 (124)
+T 3U2S_C           80 EAVDA   84 (124)
+T ss_dssp             CCSCH
+T ss_pred             HhcCH
+
+
+No 10
+>3GFU_A Chaperone protein faeE, FaeG; immunoglobulin like fold, Chaperone, Fimbrium; HET: SO4; 1.991A {Escherichia coli}
+Probab=6.67  E-value=4.9e+02  Score=10.80  Aligned_cols=5  Identities=80%  Similarity=1.026  Sum_probs=0.0  Template_Neff=8.500
+
+Q KQAAPK            1 KQAAP    5 (6)
+Q Consensus         1 kqaap    5 (6)
+                      +|+||
+T Consensus       206 ~~~~~  210 (224)
+T 3GFU_A          206 KPAAP  210 (224)
+T ss_dssp             CCCTT
+T ss_pred             CCCCh
+
+

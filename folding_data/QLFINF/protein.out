@@ -1,0 +1,265 @@
+Query         QLFINF
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 08:29:10 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QLFINF/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QLFINF/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6QDJ_A Myosin-4; MYOSIN, MHC-B  26.7      62 0.00069   16.0   0.0    6    1-6     474-479 (790)
+  2 1I84_V SMOOTH MUSCLE MYOSIN HE  25.5      68 0.00075   16.0   0.0    6    1-6     478-483 (1184)
+  3 2DFS_A Myosin-5A, Calmodulin;   25.1      70 0.00077   16.2   0.0    6    1-6     451-456 (1080)
+  4 6SO3_A Myosin 2 heavy chain st  22.7      83 0.00092   16.2   0.0    6    1-6     472-477 (1953)
+  5 4BYF_A UNCONVENTIONAL MYOSIN-I  22.7      83 0.00092   15.0   0.0    6    1-6     400-405 (725)
+  6 6XE9_A Myosin II Heavy Chain (  22.3      85 0.00094   16.2   0.0    6    1-6     479-484 (1979)
+  7 6Z47_A Myosin heavy chain 11,   22.3      85 0.00094   16.2   0.0    6    1-6     479-484 (1979)
+  8 5TBY_A Myosin-7, Myosin light   21.7      89 0.00099   15.9   0.0    6    1-6     475-480 (1935)
+  9 3I5F_A Myosin heavy chain isof  21.6      90   0.001   15.6   0.0    6    1-6     477-482 (839)
+ 10 4ZG4_E myosin Vc; myosin, pre-  21.5      91   0.001   15.4   0.0    6    1-6     449-454 (764)
+ 11 1QVI_A Myosin heavy chain, str  21.5      91   0.001   15.6   0.0    6    1-6     474-479 (840)
+ 12 1BR1_C MYOSIN, ADENOSINE-5'-DI  21.5      91   0.001   15.6   0.0    6    1-6     478-483 (820)
+ 13 1W7J_A MYOSIN VA, MYOSIN LIGHT  21.4      92   0.001   15.5   0.0    6    1-6     451-456 (795)
+ 14 5M05_A Myosin-11; Myosin Inhib  20.9      95  0.0011   15.5   0.0    6    1-6     479-484 (800)
+ 15 3J04_D Myosin-11, Myosin regul  20.5      98  0.0011   15.6   0.0    6    1-6     478-483 (909)
+ 16 3DTP_B Myosin-11, Myosin-7, My  20.4      99  0.0011   15.7   0.0    6    1-6     478-483 (973)
+ 17 5N69_A Myosin-7, Myosin light   20.1   1E+02  0.0011   15.4   0.0    6    1-6     475-480 (828)
+
+No 1
+>6QDJ_A Myosin-4; MYOSIN, MHC-B, UNC-54, MOTOR PROTEIN; HET: P15, GOL, PGO, ADP; 1.884A {Caenorhabditis elegans}
+Probab=26.67  E-value=62  Score=16.02  Aligned_cols=6  Identities=83%  Similarity=1.392  Sum_probs=3.3  Template_Neff=8.000
+
+Q QLFINF            1 QLFINF    6 (6)
+Q Consensus         1 qlfinf    6 (6)
+                      ||.||+
+T Consensus       474 QLcINy  479 (790)
+T 6QDJ_A          474 QLWINF  479 (790)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            555654
+
+
+No 2
+>1I84_V SMOOTH MUSCLE MYOSIN HEAVY CHAIN/SMOOTH; muscle protein, smooth muscle, myosin; HET: MLY; 20.0A {Gallus gallus} SCOP: i.15.1.1
+Probab=25.46  E-value=68  Score=16.05  Aligned_cols=6  Identities=67%  Similarity=1.043  Sum_probs=3.2  Template_Neff=9.200
+
+Q QLFINF            1 QLFINF    6 (6)
+Q Consensus         1 qlfinf    6 (6)
+                      ||.|||
+T Consensus       478 qlciNy  483 (1184)
+T 1I84_V          478 QLCINY  483 (1184)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            455554
+
+
+No 3
+>2DFS_A Myosin-5A, Calmodulin; myosin-V, inhibited state, calmodulin, cryoelectron; 24.0A {Gallus gallus}
+Probab=25.09  E-value=70  Score=16.16  Aligned_cols=6  Identities=50%  Similarity=0.932  Sum_probs=3.3  Template_Neff=8.600
+
+Q QLFINF            1 QLFINF    6 (6)
+Q Consensus         1 qlfinf    6 (6)
+                      ||.|||
+T Consensus       451 QlciNy  456 (1080)
+T 2DFS_A          451 QFCINY  456 (1080)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            455664
+
+
+No 4
+>6SO3_A Myosin 2 heavy chain striated; myosin, thick filament, insect flight; 6.2A {Lethocerus indicus}
+Probab=22.72  E-value=83  Score=16.16  Aligned_cols=6  Identities=83%  Similarity=1.148  Sum_probs=3.1  Template_Neff=10.300
+
+Q QLFINF            1 QLFINF    6 (6)
+Q Consensus         1 qlfinf    6 (6)
+                      ||.|||
+T Consensus       472 qlciN~  477 (1953)
+T 6SO3_A          472 QLCINF  477 (1953)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            455554
+
+
+No 5
+>4BYF_A UNCONVENTIONAL MYOSIN-IC (E.C.3.6.4.1), CALMODULIN; HYDROLASE, MYO1C, GLUT4 EXOCYTOSIS, ATPASE; HET: AOV; 2.74A {HOMO SAPIENS}
+Probab=22.69  E-value=83  Score=15.04  Aligned_cols=6  Identities=50%  Similarity=0.932  Sum_probs=3.0  Template_Neff=8.800
+
+Q QLFINF            1 QLFINF    6 (6)
+Q Consensus         1 qlfinf    6 (6)
+                      ||.||+
+T Consensus       400 QLciNy  405 (725)
+T 4BYF_A          400 QFCINY  405 (725)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            455553
+
+
+No 6
+>6XE9_A Myosin II Heavy Chain (E.C.5.6.1.8); motor protein, auto-inhibited form, 10;{Meleagris gallopavo}
+Probab=22.31  E-value=85  Score=16.20  Aligned_cols=6  Identities=67%  Similarity=1.043  Sum_probs=3.1  Template_Neff=10.200
+
+Q QLFINF            1 QLFINF    6 (6)
+Q Consensus         1 qlfinf    6 (6)
+                      ||.|||
+T Consensus       479 qlciN~  484 (1979)
+T 6XE9_A          479 QLCINY  484 (1979)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            455554
+
+
+No 7
+>6Z47_A Myosin heavy chain 11, Myosin; myosin, motor, inhibited state, shutdown; HET: PO4, ADP; 6.3A {Meleagris gallopavo}
+Probab=22.31  E-value=85  Score=16.20  Aligned_cols=6  Identities=67%  Similarity=1.043  Sum_probs=3.1  Template_Neff=10.200
+
+Q QLFINF            1 QLFINF    6 (6)
+Q Consensus         1 qlfinf    6 (6)
+                      ||.|||
+T Consensus       479 qlciN~  484 (1979)
+T 6Z47_A          479 QLCINY  484 (1979)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            455554
+
+
+No 8
+>5TBY_A Myosin-7, Myosin light chain 3; CONTRACTILE PROTEIN Hypertrophic or dilated; 20.0A {Homo sapiens}
+Probab=21.71  E-value=89  Score=15.93  Aligned_cols=6  Identities=83%  Similarity=1.148  Sum_probs=3.0  Template_Neff=10.500
+
+Q QLFINF            1 QLFINF    6 (6)
+Q Consensus         1 qlfinf    6 (6)
+                      ||.|||
+T Consensus       475 ql~iN~  480 (1935)
+T 5TBY_A          475 QLCINF  480 (1935)
+T ss_dssp             THHHHH
+T ss_pred             HHHHHH
+Confidence            455554
+
+
+No 9
+>3I5F_A Myosin heavy chain isoform A; SQUID, POST-RIGOR STATE, MG.ADP, MYOSIN; HET: ADP; 3.1A {Loligo pealei}
+Probab=21.56  E-value=90  Score=15.58  Aligned_cols=6  Identities=67%  Similarity=1.043  Sum_probs=3.1  Template_Neff=8.100
+
+Q QLFINF            1 QLFINF    6 (6)
+Q Consensus         1 qlfinf    6 (6)
+                      ||.|||
+T Consensus       477 QLcINy  482 (839)
+T 3I5F_A          477 QLCINY  482 (839)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            455554
+
+
+No 10
+>4ZG4_E myosin Vc; myosin, pre-powerstroke, motor protein; HET: VO4, EDO, ADP; 2.36A {Homo sapiens}
+Probab=21.51  E-value=91  Score=15.45  Aligned_cols=6  Identities=50%  Similarity=0.932  Sum_probs=3.1  Template_Neff=8.000
+
+Q QLFINF            1 QLFINF    6 (6)
+Q Consensus         1 qlfinf    6 (6)
+                      ||.||+
+T Consensus       449 QLciNy  454 (764)
+T 4ZG4_E          449 QFCINY  454 (764)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            455553
+
+
+No 11
+>1QVI_A Myosin heavy chain, striated muscle; scallop myosin subfragment-1 (S1), pre-power; HET: ADP; 2.54A {Argopecten irradians} SCOP: c.37.1.9, b.34.3.1
+Probab=21.47  E-value=91  Score=15.58  Aligned_cols=6  Identities=67%  Similarity=1.043  Sum_probs=3.1  Template_Neff=8.100
+
+Q QLFINF            1 QLFINF    6 (6)
+Q Consensus         1 qlfinf    6 (6)
+                      ||.||+
+T Consensus       474 QLcINy  479 (840)
+T 1QVI_A          474 QLCINY  479 (840)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            455554
+
+
+No 12
+>1BR1_C MYOSIN, ADENOSINE-5'-DIPHOSPHATE; MUSCLE PROTEIN; HET: ALF, ADP; 3.5A {Gallus gallus} SCOP: c.37.1.9, b.34.3.1
+Probab=21.46  E-value=91  Score=15.58  Aligned_cols=6  Identities=67%  Similarity=1.043  Sum_probs=3.1  Template_Neff=8.000
+
+Q QLFINF            1 QLFINF    6 (6)
+Q Consensus         1 qlfinf    6 (6)
+                      ||.|||
+T Consensus       478 QLciNy  483 (820)
+T 1BR1_C          478 QLCINY  483 (820)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            455554
+
+
+No 13
+>1W7J_A MYOSIN VA, MYOSIN LIGHT CHAIN; MOTOR PROTEIN, UNCONVENTIONAL MYOSIN, MYOSIN; HET: ADP; 2.0A {GALLUS GALLUS} SCOP: c.37.1.9, b.34.3.1
+Probab=21.40  E-value=92  Score=15.46  Aligned_cols=6  Identities=50%  Similarity=0.932  Sum_probs=3.1  Template_Neff=8.100
+
+Q QLFINF            1 QLFINF    6 (6)
+Q Consensus         1 qlfinf    6 (6)
+                      ||.||+
+T Consensus       451 QLciNy  456 (795)
+T 1W7J_A          451 QFCINY  456 (795)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            455553
+
+
+No 14
+>5M05_A Myosin-11; Myosin Inhibitor, motor protein; HET: 52E, ADP; 2.675A {Gallus gallus}
+Probab=20.93  E-value=95  Score=15.48  Aligned_cols=6  Identities=67%  Similarity=1.043  Sum_probs=3.1  Template_Neff=8.000
+
+Q QLFINF            1 QLFINF    6 (6)
+Q Consensus         1 qlfinf    6 (6)
+                      ||.|||
+T Consensus       479 QLciNy  484 (800)
+T 5M05_A          479 QLCINY  484 (800)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            455553
+
+
+No 15
+>3J04_D Myosin-11, Myosin regulatory light chain; PHOSPHORYLATION, 2D CRYSTALLINE ARRAYS, MYOSIN; 20.0A {Gallus gallus}
+Probab=20.52  E-value=98  Score=15.63  Aligned_cols=6  Identities=67%  Similarity=1.043  Sum_probs=3.1  Template_Neff=8.100
+
+Q QLFINF            1 QLFINF    6 (6)
+Q Consensus         1 qlfinf    6 (6)
+                      ||.|||
+T Consensus       478 QLcINy  483 (909)
+T 3J04_D          478 QLCINY  483 (909)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            455553
+
+
+No 16
+>3DTP_B Myosin-11, Myosin-7, Myosin light polypeptide; MUSCLE PROTEIN, SMOOTH MUSCLE, MYOSIN; 20.0A {Avicularia avicularia}
+Probab=20.41  E-value=99  Score=15.69  Aligned_cols=6  Identities=67%  Similarity=1.043  Sum_probs=3.1  Template_Neff=8.200
+
+Q QLFINF            1 QLFINF    6 (6)
+Q Consensus         1 qlfinf    6 (6)
+                      ||.|||
+T Consensus       478 QlcINy  483 (973)
+T 3DTP_B          478 QLCINY  483 (973)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHh
+Confidence            455553
+
+
+No 17
+>5N69_A Myosin-7, Myosin light chain 3; myosin, cardiac, Omecamtiv Mecarbil, CK-452; HET: GOL, TCE, M3L, VO4, ADP, 2OW; 2.45A {Bos taurus}
+Probab=20.10  E-value=1e+02  Score=15.40  Aligned_cols=6  Identities=83%  Similarity=1.148  Sum_probs=3.0  Template_Neff=8.100
+
+Q QLFINF            1 QLFINF    6 (6)
+Q Consensus         1 qlfinf    6 (6)
+                      ||.|||
+T Consensus       475 QLcINy  480 (828)
+T 5N69_A          475 QLCINF  480 (828)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            455553
+
+

@@ -1,0 +1,145 @@
+Query         AQAQPA
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 15:19:03 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/AQAQPA/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/AQAQPA/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4HYG_A Putative uncharacterize   6.0 5.6E+02  0.0062   11.6   0.0    5    2-6     270-274 (301)
+  2 6L7C_Q Curli production assemb   5.7 6.1E+02  0.0067   11.4   0.0    4    1-4      45-48  (138)
+  3 6LQJ_e Curli production assemb   5.6 6.2E+02  0.0069   11.5   0.0    4    1-4      45-48  (144)
+  4 5ND6_B Transketolase (E.C.2.2.   5.4 6.4E+02  0.0071   12.3   0.0    6    1-6      11-16  (693)
+  5 5ND5_B Transketolase (E.C.2.2.   5.3 6.6E+02  0.0072   12.3   0.0    6    1-6      10-15  (692)
+  6 6TT7_K ATP synthase F(0) compl   5.2 6.7E+02  0.0075   11.2   0.0    5    1-5     250-254 (256)
+  7 6ZA9_K ATP synthase F(0) compl   5.2 6.7E+02  0.0075   11.2   0.0    5    1-5     250-254 (256)
+  8 4V1T_C LYND, PATE; HYDROLASE,    5.2 6.8E+02  0.0075   10.6   0.0    4    2-5      10-13  (64)
+  9 6EF3_s Proteasome subunit beta   4.9 7.3E+02  0.0081    9.7   0.0    5    1-5      24-28  (38)
+ 10 2KYA_A Patellamide protein; Cy   4.8 7.5E+02  0.0083    9.4   0.0    4    2-5      10-13  (34)
+
+No 1
+>4HYG_A Putative uncharacterized protein; protease, MEMBRANE PROTEIN; 3.32A {Methanoculleus marisnigri JR1}
+Probab=6.01  E-value=5.6e+02  Score=11.59  Aligned_cols=5  Identities=20%  Similarity=0.302  Sum_probs=0.0  Template_Neff=7.500
+
+Q AQAQPA            2 QAQPA    6 (6)
+Q Consensus         2 qaqpa    6 (6)
+                      .+|||
+T Consensus       270 ~aqPA  274 (301)
+T 4HYG_A          270 NPQAG  274 (301)
+T ss_dssp             SCCCS
+T ss_pred             CCCcc
+
+
+No 2
+>6L7C_Q Curli production assembly/transport protein CsgG; Biofilm, Curli biogenesis system, CsgFG; 3.34A {Escherichia coli O69:H11 str. 08-4661}
+Probab=5.68  E-value=6.1e+02  Score=11.36  Aligned_cols=4  Identities=100%  Similarity=0.850  Sum_probs=0.0  Template_Neff=4.600
+
+Q AQAQPA            1 AQAQ    4 (6)
+Q Consensus         1 aqaq    4 (6)
+                      ||||
+T Consensus        45 AqAQ   48 (138)
+T 6L7C_Q           45 AQAQ   48 (138)
+T ss_dssp             HHTT
+T ss_pred             HHhc
+
+
+No 3
+>6LQJ_e Curli production assembly/transport component CsgG; curli, TRANSPORT PROTEIN;{Escherichia coli K-12}
+Probab=5.57  E-value=6.2e+02  Score=11.48  Aligned_cols=4  Identities=100%  Similarity=0.850  Sum_probs=0.0  Template_Neff=4.400
+
+Q AQAQPA            1 AQAQ    4 (6)
+Q Consensus         1 aqaq    4 (6)
+                      ||||
+T Consensus        45 AqAQ   48 (144)
+T 6LQJ_e           45 AQAQ   48 (144)
+T ss_pred             HHhc
+
+
+No 4
+>5ND6_B Transketolase (E.C.2.2.1.1); TRANSFERASE, Calvin-Benson cycle, thiamine pyrophosphate; 1.58A {Chlamydomonas reinhardtii}
+Probab=5.42  E-value=6.4e+02  Score=12.27  Aligned_cols=6  Identities=83%  Similarity=0.960  Sum_probs=0.0  Template_Neff=8.800
+
+Q AQAQPA            1 AQAQPA    6 (6)
+Q Consensus         1 aqaqpa    6 (6)
+                      |||.|+
+T Consensus        11 ~~~~~~   16 (693)
+T 5ND6_B           11 AQAAPA   16 (693)
+T ss_dssp             ------
+T ss_pred             hhhcHH
+
+
+No 5
+>5ND5_B Transketolase (E.C.2.2.1.1); TRANSFERASE, Calvin-Benson cycle, thiamine pyrophosphate; HET: TPP; 1.74A {Chlamydomonas reinhardtii}
+Probab=5.35  E-value=6.6e+02  Score=12.29  Aligned_cols=6  Identities=83%  Similarity=0.960  Sum_probs=0.0  Template_Neff=8.700
+
+Q AQAQPA            1 AQAQPA    6 (6)
+Q Consensus         1 aqaqpa    6 (6)
+                      |||.|+
+T Consensus        10 ~~~~~~   15 (692)
+T 5ND5_B           10 AQAAPA   15 (692)
+T ss_dssp             ------
+T ss_pred             hhhcHH
+
+
+No 6
+>6TT7_K ATP synthase F(0) complex subunit; ATP synthase, mitochondrial, respiratory chain; HET: S12, P5S, ADP;{Ovis aries}
+Probab=5.23  E-value=6.7e+02  Score=11.22  Aligned_cols=5  Identities=100%  Similarity=1.185  Sum_probs=0.0  Template_Neff=7.200
+
+Q AQAQPA            1 AQAQP    5 (6)
+Q Consensus         1 aqaqp    5 (6)
+                      ++|+|
+T Consensus       250 ~~~~~  254 (256)
+T 6TT7_K          250 AQAQP  254 (256)
+T ss_pred             hcCCC
+
+
+No 7
+>6ZA9_K ATP synthase F(0) complex subunit; ATP synthase, mitochondrial, respiratory chain; HET: S12; 3.76A {Ovis aries}
+Probab=5.23  E-value=6.7e+02  Score=11.22  Aligned_cols=5  Identities=100%  Similarity=1.185  Sum_probs=0.0  Template_Neff=7.200
+
+Q AQAQPA            1 AQAQP    5 (6)
+Q Consensus         1 aqaqp    5 (6)
+                      ++|+|
+T Consensus       250 ~~~~~  254 (256)
+T 6ZA9_K          250 AQAQP  254 (256)
+T ss_pred             hcCCC
+
+
+No 8
+>4V1T_C LYND, PATE; HYDROLASE, CYANOBACTINS; HET: ADP, PO4; 2.14A {LYNGBYA AESTUARII}
+Probab=5.20  E-value=6.8e+02  Score=10.60  Aligned_cols=4  Identities=75%  Similarity=1.124  Sum_probs=0.0  Template_Neff=2.200
+
+Q AQAQPA            2 QAQP    5 (6)
+Q Consensus         2 qaqp    5 (6)
+                      |+||
+T Consensus        10 qaqP   13 (64)
+T 4V1T_C           10 QGQP   13 (64)
+T ss_pred             CCCC
+
+
+No 9
+>6EF3_s Proteasome subunit beta type-1 (E.C.3.4.25.1); 26S Proteasome, ATPase, AAA+, Protease; HET: ADP, ATP; 4.17A {Saccharomyces cerevisiae S288c}
+Probab=4.92  E-value=7.3e+02  Score=9.71  Aligned_cols=5  Identities=80%  Similarity=0.993  Sum_probs=0.0  Template_Neff=1.000
+
+Q AQAQPA            1 AQAQP    5 (6)
+Q Consensus         1 aqaqp    5 (6)
+                      |.|||
+T Consensus        24 apaqp   28 (38)
+T 6EF3_s           24 APAQP   28 (38)
+T ss_pred             CCCCC
+
+
+No 10
+>2KYA_A Patellamide protein; Cyclic peptides, PatE, Patellamides, Prochloron; NMR {N/A}
+Probab=4.81  E-value=7.5e+02  Score=9.36  Aligned_cols=4  Identities=75%  Similarity=1.124  Sum_probs=0.0  Template_Neff=2.400
+
+Q AQAQPA            2 QAQP    5 (6)
+Q Consensus         2 qaqp    5 (6)
+                      |+||
+T Consensus        10 q~~P   13 (34)
+T 2KYA_A           10 QGQP   13 (34)
+T ss_dssp             CCTH
+T ss_pred             CCCc
+
+

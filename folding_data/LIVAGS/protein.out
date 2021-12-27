@@ -1,0 +1,149 @@
+Query         LIVAGS
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 18:49:10 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LIVAGS/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LIVAGS/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3RPZ_A ADP/ATP-dependent NAD(P  39.8      27  0.0003   14.2   0.0    6    1-6      34-39  (279)
+  2 1UB0_A Phosphomethylpyrimidine  18.2 1.2E+02  0.0013   11.8   0.0    6    1-6       5-10  (258)
+  3 5DMH_B Uncharacterized protein  18.1 1.2E+02  0.0013   14.4   0.0    6    1-6     289-294 (454)
+  4 6EFW_A ATP-dependent (S)-NAD(P  17.7 1.2E+02  0.0014   13.2   0.0    6    1-6      41-46  (354)
+  5 4XGJ_A Uncharacterized protein  16.9 1.3E+02  0.0015   14.5   0.0    6    1-6     271-276 (464)
+  6 4XFM_A Uncharacterized protein  16.4 1.4E+02  0.0016   14.4   0.0    6    1-6     271-276 (464)
+  7 2R3B_B YjeF-related protein; P  15.9 1.5E+02  0.0016   12.8   0.0    6    1-6      48-53  (310)
+  8 4D3Z_A PROLEGUMAIN (E.C.3.4.22  13.0   2E+02  0.0022   12.9   0.0    6    1-6       7-12  (408)
+  9 4NOM_A Legumain (E.C.3.4.22.34  13.0   2E+02  0.0022   13.2   0.0    6    1-6      34-39  (441)
+ 10 5KJH_A Putative uncharacterize  12.5 2.1E+02  0.0023   12.7   0.0    6    1-6     577-582 (605)
+
+No 1
+>3RPZ_A ADP/ATP-dependent NAD(P)H-hydrate dehydratase (E.C.4.2.1.93); STRUCTURAL GENOMICS, PSI-biology, PROTEIN STRUCTURE; HET: AMP, NPW; 1.51A {Bacillus subtilis}
+Probab=39.83  E-value=27  Score=14.22  Aligned_cols=6  Identities=67%  Similarity=1.099  Sum_probs=2.9  Template_Neff=9.400
+
+Q LIVAGS            1 LIVAGS    6 (6)
+Q Consensus         1 livags    6 (6)
+                      |+++||
+T Consensus        34 l~i~Gs   39 (279)
+T 3RPZ_A           34 LLLAGS   39 (279)
+T ss_dssp             EEECCB
+T ss_pred             EEEccC
+Confidence            345554
+
+
+No 2
+>1UB0_A Phosphomethylpyrimidine Kinase(E.C.2.7.4.7); Thiamin biosynthesis, ThiD, Ribokinase family; HET: DIO, GOL; 2.05A {Thermus thermophilus} SCOP: c.72.1.2
+Probab=18.20  E-value=1.2e+02  Score=11.78  Aligned_cols=6  Identities=67%  Similarity=0.983  Sum_probs=0.0  Template_Neff=10.400
+
+Q LIVAGS            1 LIVAGS    6 (6)
+Q Consensus         1 livags    6 (6)
+                      |+++||
+T Consensus         5 l~i~g~   10 (258)
+T 1UB0_A            5 LTIAGS   10 (258)
+T ss_dssp             EEEEEE
+T ss_pred             EEEEec
+
+
+No 3
+>5DMH_B Uncharacterized protein conserved in bacteria; DOMAIN OF UNKNOWN FUNCTION, DUF1537; HET: ADP, MSE; 1.8A {Cupriavidus necator (strain ATCC 17699 / H16 / DSM 428 / Stanier 337)}
+Probab=18.10  E-value=1.2e+02  Score=14.44  Aligned_cols=6  Identities=50%  Similarity=0.994  Sum_probs=0.0  Template_Neff=7.300
+
+Q LIVAGS            1 LIVAGS    6 (6)
+Q Consensus         1 livags    6 (6)
+                      |+|+||
+T Consensus       289 Lvv~GS  294 (454)
+T 5DMH_B          289 VVLAGS  294 (454)
+T ss_dssp             EEEEEC
+T ss_pred             EEEEcC
+
+
+No 4
+>6EFW_A ATP-dependent (S)-NAD(P)H-hydrate dehydratase (E.C.4.2.1.93); SSGCID, Cryptococcus neoformans, ATP, YjeF; 1.9A {Cryptococcus neoformans var. grubii serotype A (strain H99 / ATCC 208821 / CBS 10515 / FGSC 9487)}
+Probab=17.71  E-value=1.2e+02  Score=13.21  Aligned_cols=6  Identities=33%  Similarity=0.545  Sum_probs=0.0  Template_Neff=8.700
+
+Q LIVAGS            1 LIVAGS    6 (6)
+Q Consensus         1 livags    6 (6)
+                      |+++||
+T Consensus        41 liIgGs   46 (354)
+T 6EFW_A           41 GVLGGS   46 (354)
+T ss_dssp             EEECCC
+T ss_pred             EEEcCC
+
+
+No 5
+>4XGJ_A Uncharacterized protein; ENZYME FUNCTION INITIATIVE, EFI, Structural; HET: MSE; 1.9A {Pectobacterium atrosepticum}
+Probab=16.91  E-value=1.3e+02  Score=14.54  Aligned_cols=6  Identities=67%  Similarity=0.861  Sum_probs=0.0  Template_Neff=6.900
+
+Q LIVAGS            1 LIVAGS    6 (6)
+Q Consensus         1 livags    6 (6)
+                      |+|+||
+T Consensus       271 Lvv~GS  276 (464)
+T 4XGJ_A          271 LAVVGS  276 (464)
+T ss_dssp             EEEECC
+T ss_pred             EEEEEe
+
+
+No 6
+>4XFM_A Uncharacterized protein; ENZYME FUNCTION INITIATIVE, EFI, Structural; 1.55A {Pectobacterium atrosepticum}
+Probab=16.35  E-value=1.4e+02  Score=14.42  Aligned_cols=6  Identities=67%  Similarity=0.861  Sum_probs=0.0  Template_Neff=7.000
+
+Q LIVAGS            1 LIVAGS    6 (6)
+Q Consensus         1 livags    6 (6)
+                      |+|+||
+T Consensus       271 LvvvGS  276 (464)
+T 4XFM_A          271 LAVVGS  276 (464)
+T ss_dssp             EEEECC
+T ss_pred             EEEEee
+
+
+No 7
+>2R3B_B YjeF-related protein; PUTATIVE KINASE IN THE RIBOKINASE-LIKE; HET: EDO; 1.8A {Enterococcus faecalis}
+Probab=15.89  E-value=1.5e+02  Score=12.76  Aligned_cols=6  Identities=17%  Similarity=0.872  Sum_probs=0.0  Template_Neff=8.700
+
+Q LIVAGS            1 LIVAGS    6 (6)
+Q Consensus         1 livags    6 (6)
+                      |+++||
+T Consensus        48 l~i~Gs   53 (310)
+T 2R3B_B           48 VLIGGN   53 (310)
+T ss_dssp             EEECCC
+T ss_pred             EEEeCC
+
+
+No 8
+>4D3Z_A PROLEGUMAIN (E.C.3.4.22.34); HYDROLASE, LEGUMAIN, CYSTEINE PROTEASE, SUCCINIMIDE; HET: NAG; 2.3A {CRICETULUS GRISEUS}
+Probab=13.00  E-value=2e+02  Score=12.89  Aligned_cols=6  Identities=83%  Similarity=1.132  Sum_probs=0.0  Template_Neff=8.700
+
+Q LIVAGS            1 LIVAGS    6 (6)
+Q Consensus         1 livags    6 (6)
+                      |||+||
+T Consensus         7 llvg~~   12 (408)
+T 4D3Z_A            7 VIVAGS   12 (408)
+T ss_pred             EEEecC
+
+
+No 9
+>4NOM_A Legumain (E.C.3.4.22.34); new fold, asparaginyl endopeptidase, substrate; 2.006A {Mus musculus}
+Probab=12.96  E-value=2e+02  Score=13.18  Aligned_cols=6  Identities=83%  Similarity=1.132  Sum_probs=0.0  Template_Neff=8.400
+
+Q LIVAGS            1 LIVAGS    6 (6)
+Q Consensus         1 livags    6 (6)
+                      |||+||
+T Consensus        34 llVg~s   39 (441)
+T 4NOM_A           34 VIVAGS   39 (441)
+T ss_pred             EEEEcC
+
+
+No 10
+>5KJH_A Putative uncharacterized protein, Zinc finger; Complex, Methyltransferase, TRANSFERASE; HET: SAH, M3L; 2.27A {Chaetomium thermophilum (strain DSM 1495 / CBS 144.50 / IMI 039719)}
+Probab=12.55  E-value=2.1e+02  Score=12.73  Aligned_cols=6  Identities=33%  Similarity=0.700  Sum_probs=0.0  Template_Neff=10.300
+
+Q LIVAGS            1 LIVAGS    6 (6)
+Q Consensus         1 livags    6 (6)
+                      +||+|+
+T Consensus       577 ~v~~g~  582 (605)
+T 5KJH_A          577 CVVVGN  582 (605)
+T ss_dssp             EEEEEB
+T ss_pred             EEEEec
+
+

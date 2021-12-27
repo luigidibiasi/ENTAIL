@@ -1,0 +1,154 @@
+Query         FGELFE
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 20:46:54 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/FGELFE/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/FGELFE/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2KRH_A Actin-binding Rho-activ  72.8     2.9 3.2E-05   17.2   0.0    6    1-6      37-42  (85)
+  2 2L2O_A UPF0727 protein C6orf11  70.7     3.4 3.8E-05   17.2   0.0    6    1-6      30-35  (89)
+  3 4EY0_A 1-phosphatidylinositol   48.2      16 0.00018   14.5   0.0    6    1-6     227-232 (246)
+  4 6KI9_C FabMG, novel types of E  30.1      50 0.00055   17.6   0.0    6    1-6      25-30  (446)
+  5 6KIA_A Enoyl-acyl carrier prot  30.1      50 0.00055   17.6   0.0    6    1-6      25-30  (446)
+  6 6KIA_C Enoyl-acyl carrier prot  30.1      50 0.00055   17.6   0.0    6    1-6      25-30  (446)
+  7 6NQI_A Pre-mRNA splicing facto  16.5 1.4E+02  0.0015   14.4   0.0    5    1-5       3-7   (218)
+  8 4CDI_C ACRIFLAVINE RESISTANCE   16.2 1.4E+02  0.0016   12.0   0.0    5    1-5      29-33  (49)
+  9 5NC5_F Multidrug efflux pump s  16.2 1.4E+02  0.0016   12.0   0.0    5    1-5      29-33  (49)
+ 10 2K38_A Cupiennin-1a; ANTIBACTE  16.0 1.5E+02  0.0016   11.5   0.0    5    1-5       2-6   (36)
+
+No 1
+>2KRH_A Actin-binding Rho-activating protein; muscle, actin binding, stress response; NMR {Rattus norvegicus}
+Probab=72.76  E-value=2.9  Score=17.22  Aligned_cols=6  Identities=83%  Similarity=1.713  Sum_probs=4.0  Template_Neff=4.300
+
+Q FGELFE            1 FGELFE    6 (6)
+Q Consensus         1 fgelfe    6 (6)
+                      ||+||+
+T Consensus        37 FG~LF~   42 (85)
+T 2KRH_A           37 FGELFD   42 (85)
+T ss_dssp             HHHHHH
+T ss_pred             eHHHHH
+Confidence            677774
+
+
+No 2
+>2L2O_A UPF0727 protein C6orf115; HSPC280, C6ORF115, winged helix, UNKNOWN; NMR {Homo sapiens}
+Probab=70.75  E-value=3.4  Score=17.15  Aligned_cols=6  Identities=67%  Similarity=1.281  Sum_probs=4.2  Template_Neff=4.200
+
+Q FGELFE            1 FGELFE    6 (6)
+Q Consensus         1 fgelfe    6 (6)
+                      ||+||+
+T Consensus        30 FG~LF~   35 (89)
+T 2L2O_A           30 FGVLFR   35 (89)
+T ss_dssp             HHHHHH
+T ss_pred             eehhcc
+Confidence            677774
+
+
+No 3
+>4EY0_A 1-phosphatidylinositol 4,5-bisphosphate phosphodiesterase gamma-1 (E.C.3.1.4.11); SH2 Domain, PLCgamma specific array; HET: PTR; 2.8A {Homo sapiens}
+Probab=48.24  E-value=16  Score=14.50  Aligned_cols=6  Identities=83%  Similarity=1.564  Sum_probs=1.8  Template_Neff=9.500
+
+Q FGELFE            1 FGELFE    6 (6)
+Q Consensus         1 fgelfe    6 (6)
+                      ||.|||
+T Consensus       227 ~~~~~~  232 (246)
+T 4EY0_A          227 FGALFE  232 (246)
+T ss_dssp             SCC---
+T ss_pred             cccccc
+Confidence            566664
+
+
+No 4
+>6KI9_C FabMG, novel types of Enoyl-acyl; Enoyl-acyl carrier protein reductase, FabMG; HET: PG4, EDO; 1.64A {uncultured bacterium}
+Probab=30.12  E-value=50  Score=17.59  Aligned_cols=6  Identities=83%  Similarity=1.519  Sum_probs=4.4  Template_Neff=2.800
+
+Q FGELFE            1 FGELFE    6 (6)
+Q Consensus         1 fgelfe    6 (6)
+                      |||||.
+T Consensus        25 fGELFg   30 (446)
+T 6KI9_C           25 FGELFG   30 (446)
+T ss_dssp             ESCCCS
+T ss_pred             eecccc
+Confidence            788873
+
+
+No 5
+>6KIA_A Enoyl-acyl carrier protein reductase; Enoyl-acyl carrier protein reductase, FabMG; HET: NAI; 1.5979826945A {uncultured bacterium}
+Probab=30.12  E-value=50  Score=17.59  Aligned_cols=6  Identities=83%  Similarity=1.519  Sum_probs=4.4  Template_Neff=2.800
+
+Q FGELFE            1 FGELFE    6 (6)
+Q Consensus         1 fgelfe    6 (6)
+                      |||||.
+T Consensus        25 fGELFg   30 (446)
+T 6KIA_A           25 FGELFG   30 (446)
+T ss_dssp             ESCCCT
+T ss_pred             eecccc
+Confidence            788873
+
+
+No 6
+>6KIA_C Enoyl-acyl carrier protein reductase; Enoyl-acyl carrier protein reductase, FabMG; HET: NAI; 1.5979826945A {uncultured bacterium}
+Probab=30.12  E-value=50  Score=17.59  Aligned_cols=6  Identities=83%  Similarity=1.519  Sum_probs=4.4  Template_Neff=2.800
+
+Q FGELFE            1 FGELFE    6 (6)
+Q Consensus         1 fgelfe    6 (6)
+                      |||||.
+T Consensus        25 fGELFg   30 (446)
+T 6KIA_C           25 FGELFG   30 (446)
+T ss_dssp             ESCCCT
+T ss_pred             eecccc
+Confidence            788873
+
+
+No 7
+>6NQI_A Pre-mRNA splicing factor PRP8; Spliceosome, RNase H, splicing; 2.75A {Cyanidioschyzon merolae (strain 10D)}
+Probab=16.47  E-value=1.4e+02  Score=14.39  Aligned_cols=5  Identities=40%  Similarity=0.780  Sum_probs=0.0  Template_Neff=3.900
+
+Q FGELFE            1 FGELF    5 (6)
+Q Consensus         1 fgelf    5 (6)
+                      |||||
+T Consensus         3 ~~eLF    7 (218)
+T 6NQI_A            3 GGDLW    7 (218)
+T ss_pred             chhhh
+
+
+No 8
+>4CDI_C ACRIFLAVINE RESISTANCE PROTEIN B, PREDICTED; MEMBRANE PROTEIN, DRUG EFFLUX, TRANSMEMBRANE; 3.7A {ESCHERICHIA COLI}
+Probab=16.16  E-value=1.4e+02  Score=11.99  Aligned_cols=5  Identities=60%  Similarity=1.398  Sum_probs=0.0  Template_Neff=2.300
+
+Q FGELFE            1 FGELF    5 (6)
+Q Consensus         1 fgelf    5 (6)
+                      +||+|
+T Consensus        29 lGevF   33 (49)
+T 4CDI_C           29 LGEVF   33 (49)
+T ss_pred             HHHHH
+
+
+No 9
+>5NC5_F Multidrug efflux pump subunit AcrB; Membrane transporter, Multidrug efflux pump; HET: D10, D12, LMT, HEX, DD9, PUY; 3.2A {Escherichia coli K-12}
+Probab=16.16  E-value=1.4e+02  Score=11.99  Aligned_cols=5  Identities=60%  Similarity=1.398  Sum_probs=0.0  Template_Neff=2.300
+
+Q FGELFE            1 FGELF    5 (6)
+Q Consensus         1 fgelf    5 (6)
+                      +||+|
+T Consensus        29 lGevF   33 (49)
+T 5NC5_F           29 LGEVF   33 (49)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 10
+>2K38_A Cupiennin-1a; ANTIBACTERIAL, MEMBRANE ACTIVE, Amidation, Antibiotic; NMR {Cupiennius salei}
+Probab=15.96  E-value=1.5e+02  Score=11.51  Aligned_cols=5  Identities=80%  Similarity=1.637  Sum_probs=0.0  Template_Neff=1.000
+
+Q FGELFE            1 FGELF    5 (6)
+Q Consensus         1 fgelf    5 (6)
+                      ||.||
+T Consensus         2 fgalf    6 (36)
+T 2K38_A            2 FGALF    6 (36)
+T ss_dssp             CTTHH
+T ss_pred             hhHHH
+
+

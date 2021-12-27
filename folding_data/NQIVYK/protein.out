@@ -1,0 +1,150 @@
+Query         NQIVYK
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 03:28:18 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NQIVYK/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NQIVYK/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2XL4_A LMO0438 PROTEIN; TOXIN,  23.4      79 0.00087   15.3   0.0    6    1-6     145-150 (175)
+  2 1KQ1_H Host Factor for Q beta;  16.3 1.4E+02  0.0016   11.6   0.0    6    1-6      52-57  (77)
+  3 3U52_F Phenol hydroxylase comp  16.1 1.4E+02  0.0016   13.2   0.0    5    1-5      23-27  (119)
+  4 4CIH_B LISTERIA NUCLEAR TARGET  16.0 1.5E+02  0.0016   14.2   0.0    6    1-6     120-125 (150)
+  5 4CIH_C LISTERIA NUCLEAR TARGET  16.0 1.5E+02  0.0016   14.2   0.0    6    1-6     120-125 (150)
+  6 6XYJ_AAA Hfq, SmAP, tertiary s  16.0 1.5E+02  0.0016   12.6   0.0    6    1-6      64-69  (95)
+  7 6M01_A Putative ATP-dependent   15.8 1.5E+02  0.0016   11.8   0.0    5    1-5      16-20  (549)
+  8 7DQ5_A Putative ATP-dependent   15.8 1.5E+02  0.0016   11.8   0.0    5    1-5      16-20  (549)
+  9 4NL2_B Protein hfq; LSm/Sm pro  15.7 1.5E+02  0.0017   11.4   0.0    6    1-6      53-58  (77)
+ 10 4NL2_F Protein hfq; LSm/Sm pro  15.7 1.5E+02  0.0017   11.4   0.0    6    1-6      53-58  (77)
+
+No 1
+>2XL4_A LMO0438 PROTEIN; TOXIN, IMMUNE SYSTEM; HET: GOL; 2.3A {LISTERIA MONOCYTOGENES}
+Probab=23.38  E-value=79  Score=15.32  Aligned_cols=6  Identities=67%  Similarity=1.215  Sum_probs=3.6  Template_Neff=1.200
+
+Q NQIVYK            1 NQIVYK    6 (6)
+Q Consensus         1 nqivyk    6 (6)
+                      |||++|
+T Consensus       145 nqiifk  150 (175)
+T 2XL4_A          145 NQIIFK  150 (175)
+T ss_dssp             SHHHHH
+T ss_pred             Cceeee
+Confidence            566654
+
+
+No 2
+>1KQ1_H Host Factor for Q beta; Hfq, hexamer, RNA binding protein; HET: ACY; 1.55A {Staphylococcus aureus} SCOP: b.38.1.2
+Probab=16.33  E-value=1.4e+02  Score=11.56  Aligned_cols=6  Identities=33%  Similarity=1.043  Sum_probs=0.0  Template_Neff=5.900
+
+Q NQIVYK            1 NQIVYK    6 (6)
+Q Consensus         1 nqivyk    6 (6)
+                      ++++||
+T Consensus        52 ~~lI~K   57 (77)
+T 1KQ1_H           52 QHLIYK   57 (77)
+T ss_dssp             EEEEEG
+T ss_pred             EEEEEe
+
+
+No 3
+>3U52_F Phenol hydroxylase component phN, Phenol; 4-Helix Bundle, Hydroxylase, Dioxygen, Hydrocarbons; HET: EPE, MPO, GOL, XE; 1.95A {Pseudomonas stutzeri}
+Probab=16.06  E-value=1.4e+02  Score=13.19  Aligned_cols=5  Identities=40%  Similarity=0.860  Sum_probs=0.0  Template_Neff=3.900
+
+Q NQIVYK            1 NQIVY    5 (6)
+Q Consensus         1 nqivy    5 (6)
+                      ||+||
+T Consensus        23 ~qLly   27 (119)
+T 3U52_F           23 MQLLY   27 (119)
+T ss_dssp             CEEEE
+T ss_pred             ceEEE
+
+
+No 4
+>4CIH_B LISTERIA NUCLEAR TARGETED PROTEIN A; TRANSCRIPTION, NUCLEOMODULIN, VIRULENCE FACTOR, BAHD1; HET: MSE; 2.22A {LISTERIA MONOCYTOGENES}
+Probab=15.99  E-value=1.5e+02  Score=14.19  Aligned_cols=6  Identities=50%  Similarity=1.066  Sum_probs=0.0  Template_Neff=1.200
+
+Q NQIVYK            1 NQIVYK    6 (6)
+Q Consensus         1 nqivyk    6 (6)
+                      |||+++
+T Consensus       120 nqiif~  125 (150)
+T 4CIH_B          120 NQIIFD  125 (150)
+T ss_dssp             CHHHHH
+T ss_pred             Cceeec
+
+
+No 5
+>4CIH_C LISTERIA NUCLEAR TARGETED PROTEIN A; TRANSCRIPTION, NUCLEOMODULIN, VIRULENCE FACTOR, BAHD1; 2.22A {LISTERIA MONOCYTOGENES}
+Probab=15.99  E-value=1.5e+02  Score=14.19  Aligned_cols=6  Identities=50%  Similarity=1.066  Sum_probs=0.0  Template_Neff=1.200
+
+Q NQIVYK            1 NQIVYK    6 (6)
+Q Consensus         1 nqivyk    6 (6)
+                      |||+++
+T Consensus       120 nqiif~  125 (150)
+T 4CIH_C          120 NQIIFD  125 (150)
+T ss_dssp             SHHHHH
+T ss_pred             Cceeec
+
+
+No 6
+>6XYJ_AAA Hfq, SmAP, tertiary structure, RNA-chaperon; 2.772A {Pseudomonas aeruginosa (strain PA7)}
+Probab=15.98  E-value=1.5e+02  Score=12.56  Aligned_cols=6  Identities=67%  Similarity=1.137  Sum_probs=0.0  Template_Neff=4.400
+
+Q NQIVYK            1 NQIVYK    6 (6)
+Q Consensus         1 nqivyk    6 (6)
+                      +|++||
+T Consensus        64 ~~LIyK   69 (95)
+T 6XYJ_AAA         64 SQMVYK   69 (95)
+T ss_pred             eEEEEe
+
+
+No 7
+>6M01_A Putative ATP-dependent b-aminoacyl-ACP synthetase, Putative; hitachimycin, polyketide biosynthesis, carrier protein; HET: 9EF, ADP; 2.0A {Embleya scabrispora}
+Probab=15.81  E-value=1.5e+02  Score=11.84  Aligned_cols=5  Identities=20%  Similarity=0.035  Sum_probs=0.0  Template_Neff=12.400
+
+Q NQIVYK            1 NQIVY    5 (6)
+Q Consensus         1 nqivy    5 (6)
+                      ||++|
+T Consensus        16 ~~~~~   20 (549)
+T 6M01_A           16 HMRVI   20 (549)
+T ss_dssp             -----
+T ss_pred             eeEEE
+
+
+No 8
+>7DQ5_A Putative ATP-dependent b-aminoacyl-ACP synthetase; Hitachimycin, Polyketide biosynthesis, ATP binding; HET: 8PZ; 2.45A {Embleya scabrispora}
+Probab=15.76  E-value=1.5e+02  Score=11.83  Aligned_cols=5  Identities=20%  Similarity=0.035  Sum_probs=0.0  Template_Neff=12.400
+
+Q NQIVYK            1 NQIVY    5 (6)
+Q Consensus         1 nqivy    5 (6)
+                      ||++|
+T Consensus        16 ~~~~~   20 (549)
+T 7DQ5_A           16 HMRVI   20 (549)
+T ss_dssp             -----
+T ss_pred             ceeee
+
+
+No 9
+>4NL2_B Protein hfq; LSm/Sm proteins, RNA chaperone, RNA; HET: PGO; 2.6A {Listeria monocytogenes}
+Probab=15.71  E-value=1.5e+02  Score=11.41  Aligned_cols=6  Identities=50%  Similarity=0.994  Sum_probs=0.0  Template_Neff=6.100
+
+Q NQIVYK            1 NQIVYK    6 (6)
+Q Consensus         1 nqivyk    6 (6)
+                      ++++||
+T Consensus        53 ~~lI~K   58 (77)
+T 4NL2_B           53 QQLVFK   58 (77)
+T ss_dssp             EEEEEG
+T ss_pred             EEEEEe
+
+
+No 10
+>4NL2_F Protein hfq; LSm/Sm proteins, RNA chaperone, RNA; HET: PGO; 2.6A {Listeria monocytogenes}
+Probab=15.71  E-value=1.5e+02  Score=11.41  Aligned_cols=6  Identities=50%  Similarity=0.994  Sum_probs=0.0  Template_Neff=6.100
+
+Q NQIVYK            1 NQIVYK    6 (6)
+Q Consensus         1 nqivyk    6 (6)
+                      ++++||
+T Consensus        53 ~~lI~K   58 (77)
+T 4NL2_F           53 QQLVFK   58 (77)
+T ss_dssp             EEEEEG
+T ss_pred             EEEEEe
+
+

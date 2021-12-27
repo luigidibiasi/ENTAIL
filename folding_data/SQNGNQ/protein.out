@@ -1,0 +1,150 @@
+Query         SQNGNQ
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 16:12:10 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/SQNGNQ/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/SQNGNQ/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 1V08_A BETA-GLUCOSIDASE (E.C.3  54.2      11 0.00013   16.7   0.0    6    1-6       6-11  (512)
+  2 1HXJ_B Beta-glucosidase (E.C.3  20.1   1E+02  0.0011   13.9   0.0    6    1-6       1-6   (507)
+  3 6T59_1 Ribosomal protein L8, u  10.6 2.7E+02  0.0029    8.4   0.0    6    1-6      10-15  (64)
+  4 6WA1_A Hemolysin II; domain sw  10.3 2.7E+02   0.003   12.5   0.0    6    1-6      30-35  (94)
+  5 5H7D_C Putrescine aminotransfe   9.3 3.1E+02  0.0035   11.8   0.0    5    1-5     482-486 (499)
+  6 5CHO_A Flavin reductase; flavi   8.5 3.6E+02   0.004   11.2   0.0    5    1-5       8-12  (196)
+  7 1M0S_A Ribose-5-Phosphate Isom   8.5 3.6E+02   0.004   11.5   0.0    5    1-5     163-167 (219)
+  8 2N3O_A Polypyrimidine tract-bi   7.3 4.4E+02  0.0048    8.4   0.0    5    1-5     117-121 (123)
+  9 3WDM_A 4-phosphopantoate--beta   7.2 4.5E+02  0.0049   13.4   0.0    5    1-5      75-79  (261)
+ 10 4MB0_D phosphopantothenate syn   7.0 4.6E+02  0.0051   13.3   0.0    5    1-5      75-79  (261)
+
+No 1
+>1V08_A BETA-GLUCOSIDASE (E.C.3.2.1.21); BETA-GLUCOSIDASE, GLYCOSIDE HYDROLASE, DIMBOA-GLUCOSIDE, INHIBITOR; HET: NTZ; 1.9A {ZEA MAYS} SCOP: c.1.8.4
+Probab=54.21  E-value=11  Score=16.72  Aligned_cols=6  Identities=83%  Similarity=0.877  Sum_probs=0.0  Template_Neff=9.100
+
+Q SQNGNQ            1 SQNGNQ    6 (6)
+Q Consensus         1 sqngnq    6 (6)
+                      |||++|
+T Consensus         6 ~~~~~~   11 (512)
+T 1V08_A            6 SQNGVQ   11 (512)
+T ss_dssp             ------
+T ss_pred             ccccCC
+Confidence            577776
+
+
+No 2
+>1HXJ_B Beta-glucosidase (E.C.3.2.1.21); GLYCOSIDE HYDROLASE, BETA-GLUCOSIDASE, FAMILY 1; 2.05A {Zea mays} SCOP: c.1.8.4
+Probab=20.13  E-value=1e+02  Score=13.88  Aligned_cols=6  Identities=83%  Similarity=0.877  Sum_probs=0.0  Template_Neff=9.200
+
+Q SQNGNQ            1 SQNGNQ    6 (6)
+Q Consensus         1 sqngnq    6 (6)
+                      ||||-|
+T Consensus         1 ~~~~~~    6 (507)
+T 1HXJ_B            1 SQNGVQ    6 (507)
+T ss_dssp             ------
+T ss_pred             CCCccc
+Confidence            566643
+
+
+No 3
+>6T59_1 Ribosomal protein L8, uL3, uL4; TUBULIN, nascent chain-associated complex, ribosome-nascent; HET: MG; 3.11A {Oryctolagus cuniculus}
+Probab=10.58  E-value=2.7e+02  Score=8.38  Aligned_cols=6  Identities=67%  Similarity=0.800  Sum_probs=0.0  Template_Neff=10.400
+
+Q SQNGNQ            1 SQNGNQ    6 (6)
+Q Consensus         1 sqngnq    6 (6)
+                      .|-|||
+T Consensus        10 gq~g~~   15 (64)
+T 6T59_1           10 GQCGNQ   15 (64)
+T ss_pred             cChhHH
+
+
+No 4
+>6WA1_A Hemolysin II; domain swapped dimer, TOXIN; NMR {Bacillus cereus (strain ATCC 14579 / DSM 31 / JCM 2152 / NBRC 15305 / NCIMB 9373 / NRRL B-3711)}
+Probab=10.31  E-value=2.7e+02  Score=12.51  Aligned_cols=6  Identities=83%  Similarity=1.005  Sum_probs=0.0  Template_Neff=1.500
+
+Q SQNGNQ            1 SQNGNQ    6 (6)
+Q Consensus         1 sqngnq    6 (6)
+                      |-||||
+T Consensus        30 smn~NQ   35 (94)
+T 6WA1_A           30 SMNGNQ   35 (94)
+T ss_dssp             EEETTE
+T ss_pred             EecCCe
+
+
+No 5
+>5H7D_C Putrescine aminotransferase,Immunoglobulin G-binding protein A; synthetic protein, TRANSFERASE, IMMUNE SYSTEM-METAL; HET: CA; 2.57A {Escherichia coli (strain K12)}
+Probab=9.35  E-value=3.1e+02  Score=11.83  Aligned_cols=5  Identities=60%  Similarity=0.674  Sum_probs=0.0  Template_Neff=10.400
+
+Q SQNGNQ            1 SQNGN    5 (6)
+Q Consensus         1 sqngn    5 (6)
+                      |||||
+T Consensus       482 ~~~~~  486 (499)
+T 5H7D_C          482 SQSAN  486 (499)
+T ss_pred             chhHH
+
+
+No 6
+>5CHO_A Flavin reductase; flavin reductase, two-component halogenase, HYDROLASE; HET: FAD; 2.37A {uncultured bacterium}
+Probab=8.50  E-value=3.6e+02  Score=11.19  Aligned_cols=5  Identities=80%  Similarity=1.039  Sum_probs=0.0  Template_Neff=8.000
+
+Q SQNGNQ            1 SQNGN    5 (6)
+Q Consensus         1 sqngn    5 (6)
+                      ||.||
+T Consensus         8 ~~~~~   12 (196)
+T 5CHO_A            8 SQRGN   12 (196)
+T ss_dssp             -----
+T ss_pred             ccCCC
+
+
+No 7
+>1M0S_A Ribose-5-Phosphate Isomerase A (E.C.5.3.1.6); D-Ribose 5-phosphate Isomerase, NORTHEAST STRUCTURAL; HET: CIT; 1.9A {Haemophilus influenzae} SCOP: d.58.40.1, c.124.1.4
+Probab=8.47  E-value=3.6e+02  Score=11.47  Aligned_cols=5  Identities=60%  Similarity=1.106  Sum_probs=0.0  Template_Neff=7.800
+
+Q SQNGNQ            1 SQNGN    5 (6)
+Q Consensus         1 sqngn    5 (6)
+                      +.|||
+T Consensus       163 td~Gn  167 (219)
+T 1M0S_A          163 TDNGN  167 (219)
+T ss_dssp             CTTSC
+T ss_pred             CCCCC
+
+
+No 8
+>2N3O_A Polypyrimidine tract-binding protein 1; Polypyirimine tract binding protein, IRES; NMR {Homo sapiens}
+Probab=7.31  E-value=4.4e+02  Score=8.39  Aligned_cols=5  Identities=60%  Similarity=0.866  Sum_probs=0.0  Template_Neff=11.700
+
+Q SQNGNQ            1 SQNGN    5 (6)
+Q Consensus         1 sqngn    5 (6)
+                      +|+||
+T Consensus       117 ~~~~~  121 (123)
+T 2N3O_A          117 VQSGN  121 (123)
+T ss_dssp             CCCTT
+T ss_pred             hccCC
+
+
+No 9
+>3WDM_A 4-phosphopantoate--beta-alanine ligase (E.C.6.3.2.36); ligase; HET: ADN; 2.0A {Thermococcus kodakarensis}
+Probab=7.19  E-value=4.5e+02  Score=13.36  Aligned_cols=5  Identities=80%  Similarity=0.993  Sum_probs=0.0  Template_Neff=3.200
+
+Q SQNGNQ            1 SQNGN    5 (6)
+Q Consensus         1 sqngn    5 (6)
+                      |-|||
+T Consensus        75 SVNGN   79 (261)
+T 3WDM_A           75 SVNGN   79 (261)
+T ss_dssp             EECHH
+T ss_pred             EEccc
+
+
+No 10
+>4MB0_D phosphopantothenate synthetase (E.C.6.3.2.26); ligase; 1.96A {Thermococcus onnurineus}
+Probab=7.01  E-value=4.6e+02  Score=13.31  Aligned_cols=5  Identities=80%  Similarity=0.993  Sum_probs=0.0  Template_Neff=3.200
+
+Q SQNGNQ            1 SQNGN    5 (6)
+Q Consensus         1 sqngn    5 (6)
+                      |-|||
+T Consensus        75 SVNGN   79 (261)
+T 4MB0_D           75 SVNGN   79 (261)
+T ss_dssp             EECHH
+T ss_pred             EEccc
+
+

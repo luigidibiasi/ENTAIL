@@ -1,0 +1,234 @@
+Query         GYQQGG
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 05:34:52 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GYQQGG/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GYQQGG/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5X88_A cutinase (E.C.3.1.1.74)  43.8      21 0.00024   14.7   0.0    6    1-6     110-115 (199)
+  2 7AM2_BQ Ribosomal protein L3-l  43.2      22 0.00025   15.1   0.0    6    1-6      10-15  (445)
+  3 3QPD_A Cutinase 1 (E.C.3.1.1.7  41.2      25 0.00028   14.0   0.0    6    1-6      99-104 (187)
+  4 7CC4_B Cutinase-like enzyme; c  40.6      26 0.00029   14.0   0.0    6    1-6      80-85  (198)
+  5 7CW1_A Cutinase-like enzyme; c  40.6      26 0.00029   14.0   0.0    6    1-6      80-85  (198)
+  6 3DEA_B Cutinase (E.C.3.1.1.74)  40.5      26 0.00029   14.1   0.0    6    1-6     111-116 (201)
+  7 3DCN_A Cutinase (E.C.3.1.1.74)  40.3      26 0.00029   14.0   0.0    6    1-6     111-116 (201)
+  8 5W95_B Conserved membrane prot  40.3      26 0.00029   15.3   0.0    6    1-6     122-127 (285)
+  9 3HC7_A Gene 12 protein; alpha/  40.1      27  0.0003   14.5   0.0    6    1-6      80-85  (254)
+ 10 3QPA_A Cutinase; alpha-beta hy  39.7      27  0.0003   13.9   0.0    6    1-6     103-108 (197)
+ 11 3AJA_A Putative uncharacterize  32.7      42 0.00046   14.9   0.0    6    1-6     139-144 (302)
+ 12 3AJA_B Putative uncharacterize  32.6      42 0.00047   15.0   0.0    6    1-6     139-144 (302)
+ 13 4PSC_A Carbohydrate esterase f  30.8      47 0.00052   13.9   0.0    6    1-6     162-167 (254)
+ 14 4PSD_A Carbohydrate esterase f  30.8      47 0.00052   13.9   0.0    6    1-6     162-167 (254)
+ 15 1GMJ_A ATPASE INHIBITOR; ATPAS  25.6      67 0.00074   13.2   0.0    6    1-6       5-10  (84)
+
+No 1
+>5X88_A cutinase (E.C.3.1.1.74); cutinase Malbranchea cinnamomea lipoidase monomer; 1.76A {Malbranchea cinnamomea}
+Probab=43.82  E-value=21  Score=14.69  Aligned_cols=6  Identities=67%  Similarity=1.354  Sum_probs=3.3  Template_Neff=7.900
+
+Q GYQQGG            1 GYQQGG    6 (6)
+Q Consensus         1 gyqqgg    6 (6)
+                      ||.||+
+T Consensus       110 GySqGA  115 (199)
+T 5X88_A          110 GYSQGA  115 (199)
+T ss_dssp             EETHHH
+T ss_pred             EecHHH
+Confidence            566653
+
+
+No 2
+>7AM2_BQ Ribosomal protein L3-like protein, uL4m; RIBOSOME, Mitochondria, Kinetoplastid; HET: GTP, ATP; 3.4A {Leishmania tarentolae}
+Probab=43.24  E-value=22  Score=15.05  Aligned_cols=6  Identities=50%  Similarity=1.077  Sum_probs=3.8  Template_Neff=10.000
+
+Q GYQQGG            1 GYQQGG    6 (6)
+Q Consensus         1 gyqqgg    6 (6)
+                      +||.||
+T Consensus        10 ~~~~~~   15 (445)
+T 7AM2_BQ          10 SYQRGS   15 (445)
+T ss_pred             ecccCC
+Confidence            477765
+
+
+No 3
+>3QPD_A Cutinase 1 (E.C.3.1.1.74); alpha-beta hydrolase fold, esterase, hydrolase; 1.571A {Aspergillus oryzae}
+Probab=41.22  E-value=25  Score=13.98  Aligned_cols=6  Identities=67%  Similarity=1.265  Sum_probs=3.0  Template_Neff=8.600
+
+Q GYQQGG            1 GYQQGG    6 (6)
+Q Consensus         1 gyqqgg    6 (6)
+                      ||.||+
+T Consensus        99 GyS~Ga  104 (187)
+T 3QPD_A           99 GYSQGT  104 (187)
+T ss_dssp             EETHHH
+T ss_pred             EeCHHH
+Confidence            455553
+
+
+No 4
+>7CC4_B Cutinase-like enzyme; cutinase-like enzyme, biodegradable plastic degrading; 2.0A {Pseudozyma antarctica}
+Probab=40.56  E-value=26  Score=13.99  Aligned_cols=6  Identities=67%  Similarity=1.354  Sum_probs=3.0  Template_Neff=8.700
+
+Q GYQQGG            1 GYQQGG    6 (6)
+Q Consensus         1 gyqqgg    6 (6)
+                      ||.||+
+T Consensus        80 GySqGa   85 (198)
+T 7CC4_B           80 GYSQGA   85 (198)
+T ss_dssp             EETHHH
+T ss_pred             EeCHHH
+Confidence            455553
+
+
+No 5
+>7CW1_A Cutinase-like enzyme; cutinase-like enzyme, biodegradable plastic degrading; HET: CAD; 1.7A {Pseudozyma antarctica}
+Probab=40.56  E-value=26  Score=13.99  Aligned_cols=6  Identities=67%  Similarity=1.354  Sum_probs=3.0  Template_Neff=8.700
+
+Q GYQQGG            1 GYQQGG    6 (6)
+Q Consensus         1 gyqqgg    6 (6)
+                      ||.||+
+T Consensus        80 GySqGa   85 (198)
+T 7CW1_A           80 GYSQGA   85 (198)
+T ss_dssp             EETHHH
+T ss_pred             EeCHHH
+Confidence            455553
+
+
+No 6
+>3DEA_B Cutinase (E.C.3.1.1.74); catalytic triad, Hydrolase, Secreted, Serine; HET: HZH; 2.3A {Glomerella cingulata}
+Probab=40.48  E-value=26  Score=14.13  Aligned_cols=6  Identities=67%  Similarity=1.265  Sum_probs=3.0  Template_Neff=8.500
+
+Q GYQQGG            1 GYQQGG    6 (6)
+Q Consensus         1 gyqqgg    6 (6)
+                      ||.||+
+T Consensus       111 G~S~Ga  116 (201)
+T 3DEA_B          111 GYSQGT  116 (201)
+T ss_dssp             EETHHH
+T ss_pred             EecHHH
+Confidence            455553
+
+
+No 7
+>3DCN_A Cutinase (E.C.3.1.1.74); Glomerella cingulata, cutinase, catalytic triad; 1.9A {Glomerella cingulata}
+Probab=40.29  E-value=26  Score=14.00  Aligned_cols=6  Identities=67%  Similarity=1.265  Sum_probs=2.9  Template_Neff=8.700
+
+Q GYQQGG            1 GYQQGG    6 (6)
+Q Consensus         1 gyqqgg    6 (6)
+                      ||.||+
+T Consensus       111 G~S~Ga  116 (201)
+T 3DCN_A          111 GYSQGT  116 (201)
+T ss_dssp             EETHHH
+T ss_pred             EeCHHH
+Confidence            455553
+
+
+No 8
+>5W95_B Conserved membrane protein of uncharacterised; PEG, Complex, HYDROLASE; HET: 1PE; 1.723A {Mycobacterium tuberculosis}
+Probab=40.28  E-value=26  Score=15.33  Aligned_cols=6  Identities=50%  Similarity=1.204  Sum_probs=3.6  Template_Neff=7.600
+
+Q GYQQGG            1 GYQQGG    6 (6)
+Q Consensus         1 gyqqgg    6 (6)
+                      ||.||+
+T Consensus       122 GYSQGA  127 (285)
+T 5W95_B          122 GFSQGA  127 (285)
+T ss_dssp             EETHHH
+T ss_pred             EeCHHH
+Confidence            566663
+
+
+No 9
+>3HC7_A Gene 12 protein; alpha/beta sandwich, CELL ADHESION; 2.0A {Mycobacterium phage D29}
+Probab=40.07  E-value=27  Score=14.51  Aligned_cols=6  Identities=67%  Similarity=1.354  Sum_probs=3.1  Template_Neff=8.600
+
+Q GYQQGG            1 GYQQGG    6 (6)
+Q Consensus         1 gyqqgg    6 (6)
+                      ||.||+
+T Consensus        80 GySqGa   85 (254)
+T 3HC7_A           80 GYSQGA   85 (254)
+T ss_dssp             EETHHH
+T ss_pred             EECHHH
+Confidence            455553
+
+
+No 10
+>3QPA_A Cutinase; alpha-beta hydrolase fold, esterase, hydrolase; 0.85A {Nectria haematococca}
+Probab=39.73  E-value=27  Score=13.92  Aligned_cols=6  Identities=67%  Similarity=1.342  Sum_probs=2.9  Template_Neff=8.700
+
+Q GYQQGG            1 GYQQGG    6 (6)
+Q Consensus         1 gyqqgg    6 (6)
+                      ||.||+
+T Consensus       103 GyS~Ga  108 (197)
+T 3QPA_A          103 GYXQGA  108 (197)
+T ss_dssp             EETHHH
+T ss_pred             EchHHH
+Confidence            455553
+
+
+No 11
+>3AJA_A Putative uncharacterized protein; alpha-beta hydrolase, serine esterase, cutinase; 2.9A {Mycobacterium smegmatis}
+Probab=32.71  E-value=42  Score=14.86  Aligned_cols=6  Identities=50%  Similarity=1.204  Sum_probs=3.3  Template_Neff=7.600
+
+Q GYQQGG            1 GYQQGG    6 (6)
+Q Consensus         1 gyqqgg    6 (6)
+                      ||.||+
+T Consensus       139 GYSqGA  144 (302)
+T 3AJA_A          139 GFSQGA  144 (302)
+T ss_dssp             EETHHH
+T ss_pred             EEChHH
+Confidence            566653
+
+
+No 12
+>3AJA_B Putative uncharacterized protein; alpha-beta hydrolase, serine esterase, cutinase; 2.9A {Mycobacterium smegmatis}
+Probab=32.59  E-value=42  Score=15.01  Aligned_cols=6  Identities=50%  Similarity=1.204  Sum_probs=3.5  Template_Neff=7.300
+
+Q GYQQGG            1 GYQQGG    6 (6)
+Q Consensus         1 gyqqgg    6 (6)
+                      ||.||+
+T Consensus       139 GYSQGA  144 (302)
+T 3AJA_B          139 GFSQGA  144 (302)
+T ss_dssp             EETHHH
+T ss_pred             EEChHH
+Confidence            566653
+
+
+No 13
+>4PSC_A Carbohydrate esterase family 5; alpha/beta hydrolase fold, cutinase, hydrolase; HET: GOL; 1.15A {Trichoderma reesei}
+Probab=30.81  E-value=47  Score=13.93  Aligned_cols=6  Identities=67%  Similarity=1.348  Sum_probs=2.8  Template_Neff=8.400
+
+Q GYQQGG            1 GYQQGG    6 (6)
+Q Consensus         1 gyqqgg    6 (6)
+                      ||.||+
+T Consensus       162 GySqGa  167 (254)
+T 4PSC_A          162 GYSQGS  167 (254)
+T ss_dssp             EETHHH
+T ss_pred             EECHHH
+Confidence            444543
+
+
+No 14
+>4PSD_A Carbohydrate esterase family 5; alpha/beta hydrolase, cutinase, hydrolase; 1.52A {Trichoderma reesei}
+Probab=30.81  E-value=47  Score=13.93  Aligned_cols=6  Identities=67%  Similarity=1.348  Sum_probs=2.8  Template_Neff=8.400
+
+Q GYQQGG            1 GYQQGG    6 (6)
+Q Consensus         1 gyqqgg    6 (6)
+                      ||.||+
+T Consensus       162 GySqGa  167 (254)
+T 4PSD_A          162 GYSQGS  167 (254)
+T ss_dssp             EETHHH
+T ss_pred             EECHHH
+Confidence            444543
+
+
+No 15
+>1GMJ_A ATPASE INHIBITOR; ATPASE INHIBITOR, BOVINE F1-ATPASE INHIBITOR; 2.2A {BOS TAURUS} SCOP: h.4.8.1
+Probab=25.61  E-value=67  Score=13.24  Aligned_cols=6  Identities=17%  Similarity=0.136  Sum_probs=0.0  Template_Neff=4.500
+
+Q GYQQGG            1 GYQQGG    6 (6)
+Q Consensus         1 gyqqgg    6 (6)
+                      ||.+||
+T Consensus         5 ~~~~gG   10 (84)
+T 1GMJ_A            5 GDNVRS   10 (84)
+T ss_dssp             ------
+T ss_pred             cCcccc
+Confidence            455554
+
+

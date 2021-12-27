@@ -1,0 +1,150 @@
+Query         KSAETK
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 12:09:01 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/KSAETK/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/KSAETK/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5O60_T 50S ribosomal protein b  35.8      35 0.00038   14.5   0.0    6    1-6     144-149 (153)
+  2 5XYM_S 50S ribosomal protein L  35.8      35 0.00038   14.5   0.0    6    1-6     144-149 (153)
+  3 5ZEP_T 30S ribosomal protein S  24.0      75 0.00083   13.5   0.0    6    1-6     144-149 (153)
+  4 7CK6_H Mitochondrial import re   3.3 1.2E+03   0.013    9.0   0.0    5    2-6       5-9   (55)
+  5 7CP9_F Mitochondrial import re   3.3 1.2E+03   0.013    9.0   0.0    5    2-6       5-9   (55)
+  6 2Q97_T Actin, alpha skeletal m   2.9 1.4E+03   0.016   10.8   0.0    5    2-6      82-86  (129)
+  7 5A4H_A 1-ACYLGLYCEROL-3-PHOSPH   2.8 1.5E+03   0.016    8.7   0.0    6    1-6      34-39  (39)
+  8 5O46_B Iristatin; cystatin, pr   2.5 1.7E+03   0.018    7.9   0.0    4    1-4     117-120 (120)
+  9 6U16_A G/T mismatch-specific t   2.4 1.8E+03    0.02    9.2   0.0    6    1-6       6-11  (227)
+ 10 6EUO_C L-lysine 4-hydroxylase    2.3 1.8E+03    0.02   10.1   0.0    5    1-5      11-15  (372)
+
+No 1
+>5O60_T 50S ribosomal protein bL37, 50S; ribosome, translation; HET: MG, PHE; 3.203A {Mycobacterium smegmatis str. MC2 155}
+Probab=35.81  E-value=35  Score=14.47  Aligned_cols=6  Identities=100%  Similarity=0.949  Sum_probs=3.2  Template_Neff=6.200
+
+Q KSAETK            1 KSAETK    6 (6)
+Q Consensus         1 ksaetk    6 (6)
+                      ||||||
+T Consensus       144 ~~~~~~  149 (153)
+T 5O60_T          144 KSAETK  149 (153)
+T ss_pred             Hhcccc
+Confidence            456654
+
+
+No 2
+>5XYM_S 50S ribosomal protein L32, 50S; Mycobacterium smegmatis ribosome, rRNA, rprotein; HET: MG; 3.08A {Mycobacterium smegmatis (strain ATCC 700084 / mc(2)155)}
+Probab=35.81  E-value=35  Score=14.47  Aligned_cols=6  Identities=100%  Similarity=0.949  Sum_probs=3.2  Template_Neff=6.200
+
+Q KSAETK            1 KSAETK    6 (6)
+Q Consensus         1 ksaetk    6 (6)
+                      ||||||
+T Consensus       144 ~~~~~~  149 (153)
+T 5XYM_S          144 KSAETK  149 (153)
+T ss_pred             Hhcccc
+Confidence            456654
+
+
+No 3
+>5ZEP_T 30S ribosomal protein S3, 30S; hibernating-state, ribosome, complex; 3.4A {Mycobacterium smegmatis str. MC2 155}
+Probab=23.98  E-value=75  Score=13.50  Aligned_cols=6  Identities=100%  Similarity=0.949  Sum_probs=3.0  Template_Neff=6.200
+
+Q KSAETK            1 KSAETK    6 (6)
+Q Consensus         1 ksaetk    6 (6)
+                      +|+|||
+T Consensus       144 ~~~~~~  149 (153)
+T 5ZEP_T          144 KSAETK  149 (153)
+T ss_pred             cccccc
+Confidence            355554
+
+
+No 4
+>7CK6_H Mitochondrial import receptor subunit TOM40; Complex, Mitochondria, STRUCTURAL PROTEIN; HET: PC1; 3.4A {Homo sapiens}
+Probab=3.34  E-value=1.2e+03  Score=9.02  Aligned_cols=5  Identities=60%  Similarity=0.614  Sum_probs=0.0  Template_Neff=4.500
+
+Q KSAETK            2 SAETK    6 (6)
+Q Consensus         2 saetk    6 (6)
+                      |.|+|
+T Consensus         5 s~~~K    9 (55)
+T 7CK6_H            5 SKEAK    9 (55)
+T ss_dssp             -CHHH
+T ss_pred             CHHHH
+
+
+No 5
+>7CP9_F Mitochondrial import receptor subunit TOM5; human mitochondrial translocase TOM complex; HET: PC1;{Homo sapiens}
+Probab=3.34  E-value=1.2e+03  Score=9.02  Aligned_cols=5  Identities=60%  Similarity=0.614  Sum_probs=0.0  Template_Neff=4.500
+
+Q KSAETK            2 SAETK    6 (6)
+Q Consensus         2 saetk    6 (6)
+                      |.|+|
+T Consensus         5 s~~~K    9 (55)
+T 7CP9_F            5 SKEAK    9 (55)
+T ss_dssp             HHHHH
+T ss_pred             CHHHH
+
+
+No 6
+>2Q97_T Actin, alpha skeletal muscle/Toxofilin; STRUCTURAL PROTEIN, STRUCTURAL PROTEIN-CELL INVASION; HET: ATP; 2.5A {Oryctolagus cuniculus}
+Probab=2.86  E-value=1.4e+03  Score=10.85  Aligned_cols=5  Identities=80%  Similarity=0.787  Sum_probs=0.0  Template_Neff=1.900
+
+Q KSAETK            2 SAETK    6 (6)
+Q Consensus         2 saetk    6 (6)
+                      |.|||
+T Consensus        82 SPetK   86 (129)
+T 2Q97_T           82 SPETK   86 (129)
+T ss_dssp             CTTHH
+T ss_pred             CHHHH
+
+
+No 7
+>5A4H_A 1-ACYLGLYCEROL-3-PHOSPHATE O-ACYLTRANSFERASE ABHD5 (E.C.2.3.1.51); TRANSFERASE, CGI-58, ABHD5, LIPID DROPLET; NMR {MUS MUSCULUS}
+Probab=2.77  E-value=1.5e+03  Score=8.66  Aligned_cols=6  Identities=67%  Similarity=0.695  Sum_probs=0.0  Template_Neff=3.000
+
+Q KSAETK            1 KSAETK    6 (6)
+Q Consensus         1 ksaetk    6 (6)
+                      |.||.|
+T Consensus        34 k~AE~k   39 (39)
+T 5A4H_A           34 KEAEEK   39 (39)
+T ss_dssp             CSSSCC
+T ss_pred             HHHhhC
+
+
+No 8
+>5O46_B Iristatin; cystatin, protease inhibitor, tick, saliva; HET: GOL; 1.76A {Ixodes ricinus}
+Probab=2.52  E-value=1.7e+03  Score=7.89  Aligned_cols=4  Identities=100%  Similarity=0.949  Sum_probs=0.0  Template_Neff=9.600
+
+Q KSAETK            1 KSAE    4 (6)
+Q Consensus         1 ksae    4 (6)
+                      +|||
+T Consensus       117 ~~~~  120 (120)
+T 5O46_B          117 KSAE  120 (120)
+T ss_dssp             ----
+T ss_pred             ccCC
+
+
+No 9
+>6U16_A G/T mismatch-specific thymine DNA glycosylase/DNA; protein-DNA complex, HYDROLASE-DNA complex, DNA; HET: 1CC, EDO; 1.6A {Homo sapiens}
+Probab=2.38  E-value=1.8e+03  Score=9.22  Aligned_cols=6  Identities=67%  Similarity=0.761  Sum_probs=0.0  Template_Neff=8.600
+
+Q KSAETK            1 KSAETK    6 (6)
+Q Consensus         1 ksaetk    6 (6)
+                      |||..|
+T Consensus         6 ~~~~~~   11 (227)
+T 6U16_A            6 KSAKSK   11 (227)
+T ss_dssp             ------
+T ss_pred             cccchH
+
+
+No 10
+>6EUO_C L-lysine 4-hydroxylase (E.C.1.14.11.-); "Fe(II)/alpha-ketoglutarate, OXIDOREDUCTASE; HET: SO4, GOL, MLT; 2.3A {Flavobacterium sp. (strain CF136)}
+Probab=2.35  E-value=1.8e+03  Score=10.07  Aligned_cols=5  Identities=80%  Similarity=0.893  Sum_probs=0.0  Template_Neff=8.400
+
+Q KSAETK            1 KSAET    5 (6)
+Q Consensus         1 ksaet    5 (6)
+                      +||||
+T Consensus        11 ~~~~~   15 (372)
+T 6EUO_C           11 RSAET   15 (372)
+T ss_dssp             --CCG
+T ss_pred             eeccC
+
+

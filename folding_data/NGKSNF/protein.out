@@ -1,0 +1,149 @@
+Query         NGKSNF
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 00:14:25 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NGKSNF/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NGKSNF/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2D2E_A SufC protein; ABC-ATPas  20.0   1E+02  0.0011   11.1   0.0    5    2-6      41-45  (250)
+  2 2BME_D RAS-RELATED PROTEIN RAB  19.9   1E+02  0.0011   10.8   0.0    5    2-6      22-26  (186)
+  3 2AKA_B myosin II heavy chain,   19.9   1E+02  0.0011   12.1   0.0    5    2-6      38-42  (299)
+  4 3T34_B Dynamin-related protein  19.7   1E+02  0.0012   12.1   0.0    6    1-6      45-50  (360)
+  5 7AD3_E Pheromone alpha factor   19.7 1.1E+02  0.0012   11.3   0.0    5    2-6      50-54  (233)
+  6 4QM6_A Metallophosphoesterase;  19.6 1.1E+02  0.0012   10.2   0.0    5    2-6      21-25  (171)
+  7 3ASZ_B Uridine kinase (E.C.2.7  19.6 1.1E+02  0.0012   11.3   0.0    5    2-6      18-22  (211)
+  8 3W34_B Uridine kinase (E.C.2.7  19.6 1.1E+02  0.0012   11.3   0.0    5    2-6      18-22  (211)
+  9 2EW1_A Ras-related protein Rab  19.6 1.1E+02  0.0012   11.3   0.0    5    2-6      38-42  (201)
+ 10 5IRR_B Septin-like protein; Se  19.6 1.1E+02  0.0012   12.5   0.0    5    2-6      38-42  (308)
+
+No 1
+>2D2E_A SufC protein; ABC-ATPase, Suf protein, 310-helix, RIKEN; HET: GOL; 1.7A {Thermus thermophilus}
+Probab=20.00  E-value=1e+02  Score=11.13  Aligned_cols=5  Identities=60%  Similarity=0.966  Sum_probs=0.0  Template_Neff=11.800
+
+Q NGKSNF            2 GKSNF    6 (6)
+Q Consensus         2 gksnf    6 (6)
+                      |||.+
+T Consensus        41 GKs~l   45 (250)
+T 2D2E_A           41 GKSTL   45 (250)
+T ss_dssp             SHHHH
+T ss_pred             CHHHH
+
+
+No 2
+>2BME_D RAS-RELATED PROTEIN RAB4A (E.C.3.6.5.2); GTP-BINDING PROTEIN, VESICULAR TRANSPORT, ENDOCYTOSIS; HET: TRS, GNP; 1.57A {HOMO SAPIENS}
+Probab=19.92  E-value=1e+02  Score=10.80  Aligned_cols=5  Identities=60%  Similarity=0.813  Sum_probs=0.0  Template_Neff=11.400
+
+Q NGKSNF            2 GKSNF    6 (6)
+Q Consensus         2 gksnf    6 (6)
+                      |||.+
+T Consensus        22 GKttl   26 (186)
+T 2BME_D           22 GKSCL   26 (186)
+T ss_dssp             SHHHH
+T ss_pred             CHHHH
+
+
+No 3
+>2AKA_B myosin II heavy chain, LINKER; fusion protein, GTPase domain, dynamin; 1.9A {Dictyostelium discoideum} SCOP: c.37.1.8
+Probab=19.89  E-value=1e+02  Score=12.06  Aligned_cols=5  Identities=60%  Similarity=0.866  Sum_probs=0.0  Template_Neff=10.700
+
+Q NGKSNF            2 GKSNF    6 (6)
+Q Consensus         2 gksnf    6 (6)
+                      |||.+
+T Consensus        38 GKSsl   42 (299)
+T 2AKA_B           38 GKSSV   42 (299)
+T ss_dssp             CHHHH
+T ss_pred             CHHHH
+
+
+No 4
+>3T34_B Dynamin-related protein 1A, LINKER, Dynamin-related; dynamin-like protein 1A, GTPase, membrane; HET: GDP, ALF; 2.405A {Arabidopsis thaliana, synthetic, Arabidopsis thaliana}
+Probab=19.74  E-value=1e+02  Score=12.06  Aligned_cols=6  Identities=50%  Similarity=0.772  Sum_probs=0.0  Template_Neff=11.300
+
+Q NGKSNF            1 NGKSNF    6 (6)
+Q Consensus         1 ngksnf    6 (6)
+                      .|||.+
+T Consensus        45 ~GKStl   50 (360)
+T 3T34_B           45 SGKSSV   50 (360)
+T ss_dssp             SSHHHH
+T ss_pred             CCHHHH
+
+
+No 5
+>7AD3_E Pheromone alpha factor receptor, Alpha-factor; Fungal GPCR, Dimer, Complex, Class; HET: Y01, NAG;{Saccharomyces cerevisiae}
+Probab=19.68  E-value=1.1e+02  Score=11.30  Aligned_cols=5  Identities=60%  Similarity=0.840  Sum_probs=0.0  Template_Neff=11.200
+
+Q NGKSNF            2 GKSNF    6 (6)
+Q Consensus         2 gksnf    6 (6)
+                      |||.|
+T Consensus        50 GKssl   54 (233)
+T 7AD3_E           50 GKSTV   54 (233)
+T ss_pred             CHHHH
+
+
+No 6
+>4QM6_A Metallophosphoesterase; RNA repair, P-loop phosphotransferase, polynucleotide; HET: GTP; 1.5A {Ruminiclostridium thermocellum}
+Probab=19.64  E-value=1.1e+02  Score=10.18  Aligned_cols=5  Identities=80%  Similarity=1.298  Sum_probs=0.0  Template_Neff=12.200
+
+Q NGKSNF            2 GKSNF    6 (6)
+Q Consensus         2 gksnf    6 (6)
+                      |||.+
+T Consensus        21 GKstl   25 (171)
+T 4QM6_A           21 GKSTF   25 (171)
+T ss_dssp             SHHHH
+T ss_pred             CHHHH
+
+
+No 7
+>3ASZ_B Uridine kinase (E.C.2.7.1.48); cytidine phosphorylation, TRANSFERASE; HET: C5P; 2.25A {Thermus thermophilus}
+Probab=19.64  E-value=1.1e+02  Score=11.33  Aligned_cols=5  Identities=40%  Similarity=0.919  Sum_probs=0.0  Template_Neff=10.800
+
+Q NGKSNF            2 GKSNF    6 (6)
+Q Consensus         2 gksnf    6 (6)
+                      |||.+
+T Consensus        18 GKsTl   22 (211)
+T 3ASZ_B           18 GKTTL   22 (211)
+T ss_dssp             SHHHH
+T ss_pred             cHHHH
+
+
+No 8
+>3W34_B Uridine kinase (E.C.2.7.1.48); kinase, nucleoside, TRANSFERASE; HET: CTN, ACP; 1.91A {Thermus thermophilus}
+Probab=19.64  E-value=1.1e+02  Score=11.33  Aligned_cols=5  Identities=40%  Similarity=0.919  Sum_probs=0.0  Template_Neff=10.800
+
+Q NGKSNF            2 GKSNF    6 (6)
+Q Consensus         2 gksnf    6 (6)
+                      |||.+
+T Consensus        18 GKsTl   22 (211)
+T 3W34_B           18 GKTTL   22 (211)
+T ss_dssp             SHHHH
+T ss_pred             cHHHH
+
+
+No 9
+>2EW1_A Ras-related protein Rab-30; G-protein, RAB, GTP analogue, Structural; HET: GNP; 2.0A {Homo sapiens} SCOP: c.37.1.8
+Probab=19.63  E-value=1.1e+02  Score=11.30  Aligned_cols=5  Identities=40%  Similarity=0.767  Sum_probs=0.0  Template_Neff=10.700
+
+Q NGKSNF            2 GKSNF    6 (6)
+Q Consensus         2 gksnf    6 (6)
+                      |||.|
+T Consensus        38 GKtsl   42 (201)
+T 2EW1_A           38 GKTCL   42 (201)
+T ss_dssp             SHHHH
+T ss_pred             CHHHH
+
+
+No 10
+>5IRR_B Septin-like protein; Septin, GTPase domain, HYDROLASE; HET: GSP, MSE; 2.04A {Chlamydomonas reinhardtii}
+Probab=19.61  E-value=1.1e+02  Score=12.52  Aligned_cols=5  Identities=40%  Similarity=0.919  Sum_probs=0.0  Template_Neff=9.900
+
+Q NGKSNF            2 GKSNF    6 (6)
+Q Consensus         2 gksnf    6 (6)
+                      |||.|
+T Consensus        38 GKStl   42 (308)
+T 5IRR_B           38 GKTTL   42 (308)
+T ss_dssp             SHHHH
+T ss_pred             CHHHH
+
+

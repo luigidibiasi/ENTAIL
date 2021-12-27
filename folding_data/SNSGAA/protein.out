@@ -1,0 +1,140 @@
+Query         SNSGAA
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 15:47:08 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/SNSGAA/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/SNSGAA/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4WZD_68 30S ribosomal protein   13.9 1.8E+02   0.002   11.9   0.0    4    2-5      13-16  (122)
+  2 4Y4O_2O 50S Ribosomal Protein   13.9 1.8E+02   0.002   11.9   0.0    4    2-5      13-16  (122)
+  3 7K00_j ribosome; antibiotics,   13.9 1.8E+02   0.002   11.9   0.0    4    2-5      13-16  (123)
+  4 6Z1P_Ap Ribosomal protein L2,   13.4 1.9E+02  0.0021   11.9   0.0    4    2-5      13-16  (119)
+  5 4V4I_I Ribosome; RIBOSOME, FUN  13.0   2E+02  0.0022   11.7   0.0    4    2-5      13-16  (122)
+  6 3JBO_AM PROTEIN/RNA Complex; R  12.8   2E+02  0.0022   12.1   0.0    4    2-5      23-26  (132)
+  7 6YWV_I 60S ribosomal protein L  12.6 2.1E+02  0.0023   12.0   0.0    4    2-5      13-16  (131)
+  8 6O8W_L 70S ribosome; 70S, ribo  12.5 2.1E+02  0.0023   11.7   0.0    4    2-5      13-16  (122)
+  9 1VQO_K 50S RIBOSOMAL SUBUNIT;   12.2 2.2E+02  0.0024   12.0   0.0    4    2-5      23-26  (132)
+ 10 1YJN_K clindamycin, antibiotic  12.2 2.2E+02  0.0024   12.0   0.0    4    2-5      23-26  (132)
+
+No 1
+>4WZD_68 30S ribosomal protein S2, 30S; ribosome, translation, mismatch; HET: OMG, PSU, 4SU, MIA, QUO, MG, 5MU; 3.1A {Thermus thermophilus HB8}
+Probab=13.92  E-value=1.8e+02  Score=11.92  Aligned_cols=4  Identities=75%  Similarity=1.190  Sum_probs=0.0  Template_Neff=6.400
+
+Q SNSGAA            2 NSGA    5 (6)
+Q Consensus         2 nsga    5 (6)
+                      ||||
+T Consensus        13 NSGa   16 (122)
+T 4WZD_68          13 NTGA   16 (122)
+T ss_pred             CcCC
+
+
+No 2
+>4Y4O_2O 50S Ribosomal Protein L2, 50S; Ribosome, rRNA modofications, pseudouridine, rRNA; HET: 7MG, 2MG, SF4, MPD, 2MA, OMG, PSU, 0TD, 5MC, 4OC, 2MU, MG, ARG, MA6, ZN, UR3, M2G, 5MU; 2.3A {Thermus thermophilus HB8}
+Probab=13.92  E-value=1.8e+02  Score=11.92  Aligned_cols=4  Identities=75%  Similarity=1.190  Sum_probs=0.0  Template_Neff=6.400
+
+Q SNSGAA            2 NSGA    5 (6)
+Q Consensus         2 nsga    5 (6)
+                      ||||
+T Consensus        13 NSGa   16 (122)
+T 4Y4O_2O          13 NTGA   16 (122)
+T ss_pred             CcCC
+
+
+No 3
+>7K00_j ribosome; antibiotics, post-translational modifications, post-transcriptional modifications; HET: MEQ, SPD, SPM, OMG, OMU, PSU, 5MC, H2U, 4OC, 2MG, G7M, 1MG, MA6, 6MZ, 4D4, 2MA, MG, 5MU, 3TD, PAR, OMC, D2T, UR3; 1.98A {Escherichia coli}
+Probab=13.89  E-value=1.8e+02  Score=11.93  Aligned_cols=4  Identities=100%  Similarity=1.248  Sum_probs=0.0  Template_Neff=6.400
+
+Q SNSGAA            2 NSGA    5 (6)
+Q Consensus         2 nsga    5 (6)
+                      ||||
+T Consensus        13 NSGa   16 (123)
+T 7K00_j           13 NSGA   16 (123)
+T ss_pred             CcCC
+
+
+No 4
+>6Z1P_Ap Ribosomal protein L2, 50S ribosomal; Mitochondrial ribosome, ribosome, mitochondria, ciliate; HET: MG, ATP; 3.7A {Tetrahymena thermophila (strain SB210)}
+Probab=13.36  E-value=1.9e+02  Score=11.93  Aligned_cols=4  Identities=25%  Similarity=0.634  Sum_probs=0.0  Template_Neff=6.100
+
+Q SNSGAA            2 NSGA    5 (6)
+Q Consensus         2 nsga    5 (6)
+                      ||||
+T Consensus        13 NSGa   16 (119)
+T 6Z1P_Ap          13 KCGV   16 (119)
+T ss_pred             CCCC
+
+
+No 5
+>4V4I_I Ribosome; RIBOSOME, FUNCTIONAL COMPLEX, TRNA, E; HET: 7MG, PSU, H2U, 4SU, MIA, 2MG, 5MU, M2G, 4OC, 5MC, UR3, MA6; 3.71A {Thermus thermophilus}
+Probab=13.01  E-value=2e+02  Score=11.75  Aligned_cols=4  Identities=75%  Similarity=1.190  Sum_probs=0.0  Template_Neff=6.500
+
+Q SNSGAA            2 NSGA    5 (6)
+Q Consensus         2 nsga    5 (6)
+                      ||||
+T Consensus        13 NSGa   16 (122)
+T 4V4I_I           13 NTGA   16 (122)
+T ss_pred             CcCC
+
+
+No 6
+>3JBO_AM PROTEIN/RNA Complex; RIBOSOME; 5.8A {Plasmodium falciparum 3D7}
+Probab=12.76  E-value=2e+02  Score=12.13  Aligned_cols=4  Identities=75%  Similarity=1.091  Sum_probs=0.0  Template_Neff=5.900
+
+Q SNSGAA            2 NSGA    5 (6)
+Q Consensus         2 nsga    5 (6)
+                      ||||
+T Consensus        23 NSGa   26 (132)
+T 3JBO_AM          23 NSGG   26 (132)
+T ss_pred             CCCC
+
+
+No 7
+>6YWV_I 60S ribosomal protein L2, 60S; Neurospora crassa, translating Mitoribosomes, tRNA; HET: MG, K, NAD, SPM;{Neurospora crassa OR74A}
+Probab=12.58  E-value=2.1e+02  Score=11.96  Aligned_cols=4  Identities=100%  Similarity=1.248  Sum_probs=0.0  Template_Neff=6.200
+
+Q SNSGAA            2 NSGA    5 (6)
+Q Consensus         2 nsga    5 (6)
+                      ||||
+T Consensus        13 NSGa   16 (131)
+T 6YWV_I           13 NSGA   16 (131)
+T ss_pred             CCCC
+
+
+No 8
+>6O8W_L 70S ribosome; 70S, ribosome, pathogen, antibiotic development; 3.53A {Enterococcus faecalis}
+Probab=12.55  E-value=2.1e+02  Score=11.73  Aligned_cols=4  Identities=100%  Similarity=1.248  Sum_probs=0.0  Template_Neff=6.400
+
+Q SNSGAA            2 NSGA    5 (6)
+Q Consensus         2 nsga    5 (6)
+                      ||||
+T Consensus        13 NSGa   16 (122)
+T 6O8W_L           13 NSGA   16 (122)
+T ss_pred             CCCC
+
+
+No 9
+>1VQO_K 50S RIBOSOMAL SUBUNIT; ribosome 50S, PROTEIN-PROTEIN COMPLEX, RNA-RNA; HET: 1MA, OMU, CL, OMG, PSU, PPU, NA, MG, SR, UR3; 2.2A {Haloarcula marismortui} SCOP: b.39.1.1
+Probab=12.17  E-value=2.2e+02  Score=11.96  Aligned_cols=4  Identities=75%  Similarity=1.190  Sum_probs=0.0  Template_Neff=6.100
+
+Q SNSGAA            2 NSGA    5 (6)
+Q Consensus         2 nsga    5 (6)
+                      ||||
+T Consensus        23 NSGa   26 (132)
+T 1VQO_K           23 NTGA   26 (132)
+T ss_pred             CcCC
+
+
+No 10
+>1YJN_K clindamycin, antibiotic complexes, mutated 50S; HET: 1MA, OMU, CL, OMG, PSU, NA, MG, CLY, UR3; 3.0A {Haloarcula marismortui} SCOP: b.39.1.1
+Probab=12.17  E-value=2.2e+02  Score=11.96  Aligned_cols=4  Identities=75%  Similarity=1.190  Sum_probs=0.0  Template_Neff=6.100
+
+Q SNSGAA            2 NSGA    5 (6)
+Q Consensus         2 nsga    5 (6)
+                      ||||
+T Consensus        23 NSGa   26 (132)
+T 1YJN_K           23 NTGA   26 (132)
+T ss_pred             CcCC
+
+

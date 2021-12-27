@@ -1,0 +1,144 @@
+Query         NQSGFG
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 03:50:15 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NQSGFG/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NQSGFG/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4V8P_DC Ribosome; RIBOSOME, EU  19.2 1.1E+02  0.0012   13.0   0.0    6    1-6      44-49  (109)
+  2 4V8P_FC Ribosome; RIBOSOME, EU  19.2 1.1E+02  0.0012   13.0   0.0    6    1-6      44-49  (109)
+  3 6ZU5_LOO uL2, uL15, uL3, eL29,  19.0 1.1E+02  0.0012   13.1   0.0    6    1-6      52-57  (112)
+  4 6AZ3_p ribosomal protein uL2,   18.9 1.1E+02  0.0012   12.6   0.0    6    1-6      45-50  (96)
+  5 6LJJ_A Deoxyuridine 5'-triphos  18.9 1.1E+02  0.0012   12.2   0.0    6    1-6     136-141 (155)
+  6 3UFC_X Putative uncharacterize  18.6 1.2E+02  0.0013   12.0   0.0    6    1-6     230-235 (243)
+  7 3J0L_F PROTEIN/RNA Complex; Ma  18.5 1.2E+02  0.0013   12.5   0.0    6    1-6      45-50  (95)
+  8 7O7Y_Bo 40S ribosomal protein   18.5 1.2E+02  0.0013   12.8   0.0    6    1-6      44-49  (106)
+  9 6NJY_A Type IV CRISPR associat  16.7 1.4E+02  0.0015   12.6   0.0    6    1-6     237-242 (248)
+ 10 7KBJ_I Alpha glucosidase II, E  16.4 1.4E+02  0.0016   12.5   0.0    5    1-5      41-45  (184)
+
+No 1
+>4V8P_DC Ribosome; RIBOSOME, EUKARYOTIC INITIATION FACTOR 6; HET: MG, ZN; 3.52A {TETRAHYMENA THERMOPHILA}
+Probab=19.15  E-value=1.1e+02  Score=13.01  Aligned_cols=6  Identities=83%  Similarity=1.437  Sum_probs=0.0  Template_Neff=4.800
+
+Q NQSGFG            1 NQSGFG    6 (6)
+Q Consensus         1 nqsgfg    6 (6)
+                      +|+|+|
+T Consensus        44 kq~GyG   49 (109)
+T 4V8P_DC          44 KQSGFG   49 (109)
+T ss_pred             cccCCC
+
+
+No 2
+>4V8P_FC Ribosome; RIBOSOME, EUKARYOTIC INITIATION FACTOR 6; HET: MG, ZN; 3.52A {TETRAHYMENA THERMOPHILA}
+Probab=19.15  E-value=1.1e+02  Score=13.01  Aligned_cols=6  Identities=83%  Similarity=1.437  Sum_probs=0.0  Template_Neff=4.800
+
+Q NQSGFG            1 NQSGFG    6 (6)
+Q Consensus         1 nqsgfg    6 (6)
+                      +|+|+|
+T Consensus        44 kq~GyG   49 (109)
+T 4V8P_FC          44 KQSGFG   49 (109)
+T ss_pred             cccCCC
+
+
+No 3
+>6ZU5_LOO uL2, uL15, uL3, eL29, uL4; Microsporidia, Pathogen, Ribosome, Hibernation, Genome; HET: AMP, MG; 2.9A {Paranosema locustae}
+Probab=19.02  E-value=1.1e+02  Score=13.09  Aligned_cols=6  Identities=33%  Similarity=0.756  Sum_probs=0.0  Template_Neff=4.700
+
+Q NQSGFG            1 NQSGFG    6 (6)
+Q Consensus         1 nqsgfg    6 (6)
+                      +|+|+|
+T Consensus        52 kq~GyG   57 (112)
+T 6ZU5_LOO         52 KQRGYH   57 (112)
+T ss_pred             ccCCCC
+
+
+No 4
+>6AZ3_p ribosomal protein uL2, ribosomal protein; Leishmania, ribosome, aminoglycoside, paromomycin, RIBOSOME-ANTIBIOTIC; HET: OMU, PAR, OMC, MG, A2M, OMG, C; 2.5A {Leishmania donovani}
+Probab=18.95  E-value=1.1e+02  Score=12.57  Aligned_cols=6  Identities=67%  Similarity=1.331  Sum_probs=0.0  Template_Neff=5.200
+
+Q NQSGFG            1 NQSGFG    6 (6)
+Q Consensus         1 nqsgfg    6 (6)
+                      +|+|+|
+T Consensus        45 k~~GyG   50 (96)
+T 6AZ3_p           45 KQSGYG   50 (96)
+T ss_pred             cccccC
+
+
+No 5
+>6LJJ_A Deoxyuridine 5'-triphosphate nucleotidohydrolase, mitochondrial isoform; swine dUTPase, sDUT, dUTPase, HYDROLASE; HET: DUP; 1.89A {Sus scrofa}
+Probab=18.89  E-value=1.1e+02  Score=12.20  Aligned_cols=6  Identities=50%  Similarity=1.176  Sum_probs=0.0  Template_Neff=7.900
+
+Q NQSGFG            1 NQSGFG    6 (6)
+Q Consensus         1 nqsgfg    6 (6)
+                      ++.|||
+T Consensus       136 g~~gfG  141 (155)
+T 6LJJ_A          136 GSGGFG  141 (155)
+T ss_dssp             TTCCTT
+T ss_pred             CCCCCC
+
+
+No 6
+>3UFC_X Putative uncharacterized protein; Cas6, Ferredoxin-like domain, RNA binding; 2.03A {Pyrococcus furiosus}
+Probab=18.56  E-value=1.2e+02  Score=12.03  Aligned_cols=6  Identities=50%  Similarity=1.071  Sum_probs=0.0  Template_Neff=9.800
+
+Q NQSGFG            1 NQSGFG    6 (6)
+Q Consensus         1 nqsgfg    6 (6)
+                      +..|||
+T Consensus       230 ~s~GfG  235 (243)
+T 3UFC_X          230 TNLGFG  235 (243)
+T ss_dssp             GGGTCC
+T ss_pred             cCccce
+
+
+No 7
+>3J0L_F PROTEIN/RNA Complex; Mammalia, translation, elongation cycle, tRNA; 9.8A {Oryctolagus cuniculus}
+Probab=18.50  E-value=1.2e+02  Score=12.51  Aligned_cols=6  Identities=83%  Similarity=1.437  Sum_probs=0.0  Template_Neff=5.200
+
+Q NQSGFG            1 NQSGFG    6 (6)
+Q Consensus         1 nqsgfg    6 (6)
+                      +|+|+|
+T Consensus        45 k~~GyG   50 (95)
+T 3J0L_F           45 KQSGFG   50 (95)
+T ss_dssp             SCSSSC
+T ss_pred             cccCCC
+
+
+No 8
+>7O7Y_Bo 40S ribosomal protein S27, Ribosomal; Frameshift, virus, pseudoknot, RIBOSOME; HET: GTP, HIC, 5MC, UNX, A2M, 5MU, M2G, 7MG, 1MA, SAC, OMU, PSU, MG, OMG, V5N, YYG, 2MG, UY1, 6MZ, H2U, OMC, SPD, B8N, NMM, MA6, UR3, 4AC, MLZ, M3L, AME, SPM; 2.2A {Oryctolagus cuniculus}
+Probab=18.46  E-value=1.2e+02  Score=12.80  Aligned_cols=6  Identities=67%  Similarity=1.331  Sum_probs=0.0  Template_Neff=5.000
+
+Q NQSGFG            1 NQSGFG    6 (6)
+Q Consensus         1 nqsgfg    6 (6)
+                      +|+|+|
+T Consensus        44 kq~GyG   49 (106)
+T 7O7Y_Bo          44 KQSGYG   49 (106)
+T ss_pred             ccCCCC
+
+
+No 9
+>6NJY_A Type IV CRISPR associated Cas6; CRISPR, Cas, Nuclease, RNA, Cas6; HET: BGC, SO4; 1.76A {Mahella australiensis (strain DSM 15567 / CIP 107919 / 50-1 BON)}
+Probab=16.71  E-value=1.4e+02  Score=12.65  Aligned_cols=6  Identities=33%  Similarity=0.672  Sum_probs=0.0  Template_Neff=8.300
+
+Q NQSGFG            1 NQSGFG    6 (6)
+Q Consensus         1 nqsgfg    6 (6)
+                      +..|||
+T Consensus       237 ts~GFG  242 (248)
+T 6NJY_A          237 KAWGMG  242 (248)
+T ss_pred             cCcCCC
+
+
+No 10
+>7KBJ_I Alpha glucosidase II, Endoplasmic reticulum; HET: PEG, PGE, SO4, EDO, WAV, PG4; 2.21A {Mus musculus}
+Probab=16.36  E-value=1.4e+02  Score=12.45  Aligned_cols=5  Identities=40%  Similarity=0.900  Sum_probs=0.0  Template_Neff=7.500
+
+Q NQSGFG            1 NQSGF    5 (6)
+Q Consensus         1 nqsgf    5 (6)
+                      +||||
+T Consensus        41 ~qs~F   45 (184)
+T 7KBJ_I           41 DESSF   45 (184)
+T ss_dssp             TTSHH
+T ss_pred             cCChh
+
+

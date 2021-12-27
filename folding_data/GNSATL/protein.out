@@ -1,0 +1,147 @@
+Query         GNSATL
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 02:49:18 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GNSATL/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GNSATL/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6QVS_B Beta-galactoside alpha-   8.3 3.7E+02  0.0041   11.6   0.0    6    1-6      57-62  (275)
+  2 6IFM_D tRNA(fMet)-specific end   8.0 3.9E+02  0.0043    9.5   0.0    6    1-6       9-14  (68)
+  3 6IFM_H tRNA(fMet)-specific end   8.0 3.9E+02  0.0043    9.5   0.0    6    1-6       9-14  (68)
+  4 6QVS_A Beta-galactoside alpha-   7.7 4.1E+02  0.0045   11.4   0.0    6    1-6      57-62  (275)
+  5 3ZVK_H TOXIN OF TOXIN-ANTITOXI   7.5 4.2E+02  0.0047    9.7   0.0    6    1-6      10-15  (78)
+  6 5L6L_D VapB family protein, Ri   7.5 4.3E+02  0.0047   10.0   0.0    6    1-6      18-23  (85)
+  7 1WLP_B Cytochrome b-245 light    7.4 4.3E+02  0.0048    8.4   0.0    5    1-5       1-5   (138)
+  8 6J5I_i ATP synthase subunit al   7.3 4.4E+02  0.0049   10.0   0.0    5    2-6      12-16  (42)
+  9 6J5K_i ATP synthase F1 subunit   7.2 4.5E+02   0.005   10.0   0.0    5    2-6      12-16  (42)
+ 10 7DPY_A Brucella Abortus PhiA;    6.9 4.7E+02  0.0052   10.1   0.0    6    1-6      71-76  (109)
+
+No 1
+>6QVS_B Beta-galactoside alpha-2,6-sialyltransferase 1 (E.C.2.4.99.1); Sialyltransferase, Beta-galactoside alpha-2, 6-sialyltransferase 1; HET: PEG; 1.6A {Homo sapiens}
+Probab=8.34  E-value=3.7e+02  Score=11.56  Aligned_cols=6  Identities=17%  Similarity=0.468  Sum_probs=0.0  Template_Neff=8.400
+
+Q GNSATL            1 GNSATL    6 (6)
+Q Consensus         1 gnsatl    6 (6)
+                      |||.+|
+T Consensus        57 GNsg~l   62 (275)
+T 6QVS_B           57 SSAGSL   62 (275)
+T ss_dssp             CCCGGG
+T ss_pred             CCchHh
+
+
+No 2
+>6IFM_D tRNA(fMet)-specific endonuclease VapC, Antitoxin VapB/DNA; Toxin-Antitoxin, TOXIN-ANTITOXIN-DNA complex; 2.804A {Salmonella enterica subsp. enterica serovar Typhimurium str. LT2}
+Probab=8.03  E-value=3.9e+02  Score=9.47  Aligned_cols=6  Identities=0%  Similarity=0.246  Sum_probs=0.0  Template_Neff=7.500
+
+Q GNSATL            1 GNSATL    6 (6)
+Q Consensus         1 gnsatl    6 (6)
+                      |||..+
+T Consensus         9 GnS~~v   14 (68)
+T 6IFM_D            9 NRTQAV   14 (68)
+T ss_pred             CCeEEE
+
+
+No 3
+>6IFM_H tRNA(fMet)-specific endonuclease VapC, Antitoxin VapB/DNA; Toxin-Antitoxin, TOXIN-ANTITOXIN-DNA complex; 2.804A {Salmonella enterica subsp. enterica serovar Typhimurium str. LT2}
+Probab=8.03  E-value=3.9e+02  Score=9.47  Aligned_cols=6  Identities=0%  Similarity=0.246  Sum_probs=0.0  Template_Neff=7.500
+
+Q GNSATL            1 GNSATL    6 (6)
+Q Consensus         1 gnsatl    6 (6)
+                      |||..+
+T Consensus         9 GnS~~v   14 (68)
+T 6IFM_H            9 NRTQAV   14 (68)
+T ss_dssp             TTEEEE
+T ss_pred             CCeEEE
+
+
+No 4
+>6QVS_A Beta-galactoside alpha-2,6-sialyltransferase 1 (E.C.2.4.99.1); Sialyltransferase, Beta-galactoside alpha-2, 6-sialyltransferase 1; HET: PEG; 1.6A {Homo sapiens}
+Probab=7.71  E-value=4.1e+02  Score=11.43  Aligned_cols=6  Identities=17%  Similarity=0.468  Sum_probs=0.0  Template_Neff=8.400
+
+Q GNSATL            1 GNSATL    6 (6)
+Q Consensus         1 gnsatl    6 (6)
+                      |||.+|
+T Consensus        57 Gnsg~l   62 (275)
+T 6QVS_A           57 SSAGSL   62 (275)
+T ss_dssp             CCCGGG
+T ss_pred             CCcHhh
+
+
+No 5
+>3ZVK_H TOXIN OF TOXIN-ANTITOXIN SYSTEM, ANTITOXIN; ANTITOXIN-TOXIN-DNA COMPLEX, PROTEIN-DNA COMPLEX; HET: MES; 2.5A {RICKETTSIA FELIS}
+Probab=7.52  E-value=4.2e+02  Score=9.70  Aligned_cols=6  Identities=33%  Similarity=0.650  Sum_probs=0.0  Template_Neff=7.300
+
+Q GNSATL            1 GNSATL    6 (6)
+Q Consensus         1 gnsatl    6 (6)
+                      |||..+
+T Consensus        10 Gns~~v   15 (78)
+T 3ZVK_H           10 GQSQAV   15 (78)
+T ss_dssp             TTEEEE
+T ss_pred             CCeeEE
+
+
+No 6
+>5L6L_D VapB family protein, Ribonuclease VapC/DNA; PIN domain, toxin-antitoxin, ribonuclease, DNA-binding; HET: MSE; 2.7A {Caulobacter crescentus}
+Probab=7.45  E-value=4.3e+02  Score=10.01  Aligned_cols=6  Identities=50%  Similarity=0.833  Sum_probs=0.0  Template_Neff=6.900
+
+Q GNSATL            1 GNSATL    6 (6)
+Q Consensus         1 gnsatl    6 (6)
+                      |||..+
+T Consensus        18 GnS~aV   23 (85)
+T 5L6L_D           18 GNSEAV   23 (85)
+T ss_dssp             TTEEEE
+T ss_pred             CCeeeE
+
+
+No 7
+>1WLP_B Cytochrome b-245 light chain/Neutrophil cytosol; SH3 domain, polyproline, OXIDOREDUCTASE-Signaling Protein; NMR {Homo sapiens} SCOP: b.34.2.1
+Probab=7.39  E-value=4.3e+02  Score=8.40  Aligned_cols=5  Identities=40%  Similarity=0.647  Sum_probs=0.0  Template_Neff=12.100
+
+Q GNSATL            1 GNSAT    5 (6)
+Q Consensus         1 gnsat    5 (6)
+                      |++++
+T Consensus         1 ~~~~~    5 (138)
+T 1WLP_B            1 GSDIT    5 (138)
+T ss_dssp             CCCCS
+T ss_pred             CCCCC
+
+
+No 8
+>6J5I_i ATP synthase subunit alpha, mitochondrial; membrane protein; HET: ATP, ADP; 3.34A {Sus scrofa}
+Probab=7.28  E-value=4.4e+02  Score=9.98  Aligned_cols=5  Identities=80%  Similarity=0.687  Sum_probs=0.0  Template_Neff=3.700
+
+Q GNSATL            2 NSATL    6 (6)
+Q Consensus         2 nsatl    6 (6)
+                      ||.|+
+T Consensus        12 Ns~T~   16 (42)
+T 6J5I_i           12 NSYTL   16 (42)
+T ss_pred             ccccc
+
+
+No 9
+>6J5K_i ATP synthase F1 subunit alpha; membrane protein; HET: ADP, ATP, MG; 6.2A {Sus scrofa}
+Probab=7.16  E-value=4.5e+02  Score=9.95  Aligned_cols=5  Identities=80%  Similarity=0.687  Sum_probs=0.0  Template_Neff=3.700
+
+Q GNSATL            2 NSATL    6 (6)
+Q Consensus         2 nsatl    6 (6)
+                      ||.|+
+T Consensus        12 Ns~T~   16 (42)
+T 6J5K_i           12 NSYTL   16 (42)
+T ss_pred             ccccc
+
+
+No 10
+>7DPY_A Brucella Abortus PhiA; T4SS, lysozyme inhibitor, PliC, UNKNOWN; 1.8A {Brucella abortus bv. 1 str. 9-941}
+Probab=6.94  E-value=4.7e+02  Score=10.07  Aligned_cols=6  Identities=67%  Similarity=0.894  Sum_probs=0.0  Template_Neff=7.500
+
+Q GNSATL            1 GNSATL    6 (6)
+Q Consensus         1 gnsatl    6 (6)
+                      |+.|+|
+T Consensus        71 G~~A~l   76 (109)
+T 7DPY_A           71 GGQATL   76 (109)
+T ss_dssp             TTEEEE
+T ss_pred             CCEEEE
+
+

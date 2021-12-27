@@ -1,0 +1,147 @@
+Query         ADVSIE
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 13:30:35 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/ADVSIE/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/ADVSIE/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3N27_B Fusion glycoprotein F0,   7.3 4.3E+02  0.0048   11.4   0.0    5    2-6      50-54  (80)
+  2 3N27_C Fusion glycoprotein F0,   7.2 4.4E+02  0.0049   11.4   0.0    5    2-6      50-54  (80)
+  3 4OMF_B F420-reducing hydrogena   7.1 4.5E+02   0.005   11.3   0.0    5    1-5     203-207 (281)
+  4 4N2P_B Protein archease; METAL   6.8 4.8E+02  0.0053   10.6   0.0    6    1-6      12-17  (143)
+  5 6QII_B Coenzyme F420 hydrogena   6.8 4.8E+02  0.0053   11.4   0.0    5    1-5     208-212 (291)
+  6 4GBO_A E7; CBM33, polysacchari   6.7 4.9E+02  0.0054   11.0   0.0    6    1-6     217-222 (222)
+  7 5UIZ_A AA10A; AA10A, POLYSACCH   6.7 4.9E+02  0.0054   11.0   0.0    6    1-6     217-222 (222)
+  8 3BHW_B Uncharacterized protein   6.6   5E+02  0.0056   11.0   0.0    5    2-6     198-202 (209)
+  9 5W5A_A HTH-type transcriptiona   5.4 6.5E+02  0.0072    9.5   0.0    5    1-5       5-9   (247)
+ 10 6QGR_B Coenzyme F420 hydrogena   5.4 6.5E+02  0.0072   11.0   0.0    5    1-5     208-212 (291)
+
+No 1
+>3N27_B Fusion glycoprotein F0, linker, Fusion; Fusion protein, Chimera protein, fusion; HET: CIT, TBU; 1.8A {Hendravirus, Nipahvirus}
+Probab=7.34  E-value=4.3e+02  Score=11.42  Aligned_cols=5  Identities=80%  Similarity=1.172  Sum_probs=0.0  Template_Neff=2.800
+
+Q ADVSIE            2 DVSIE    6 (6)
+Q Consensus         2 dvsie    6 (6)
+                      |+|||
+T Consensus        50 ~~~~~   54 (80)
+T 3N27_B           50 DISIE   54 (80)
+T ss_dssp             HHHHH
+T ss_pred             ceeee
+
+
+No 2
+>3N27_C Fusion glycoprotein F0, linker, Fusion; Fusion protein, Chimera protein, fusion; HET: CIT, TBU; 1.8A {Nipah virus}
+Probab=7.24  E-value=4.4e+02  Score=11.39  Aligned_cols=5  Identities=80%  Similarity=1.172  Sum_probs=0.0  Template_Neff=2.800
+
+Q ADVSIE            2 DVSIE    6 (6)
+Q Consensus         2 dvsie    6 (6)
+                      |+|||
+T Consensus        50 ~~~~~   54 (80)
+T 3N27_C           50 DISIE   54 (80)
+T ss_dssp             CHHHH
+T ss_pred             ceeee
+
+
+No 3
+>4OMF_B F420-reducing hydrogenase, subunit gamma (E.C.1.12.98.1); [NiFe]-center, 3[4Fe-4S] cluster, ferredoxin fold; HET: SF4, FAD; 1.71A {Methanothermobacter marburgensis}
+Probab=7.12  E-value=4.5e+02  Score=11.34  Aligned_cols=5  Identities=80%  Similarity=0.807  Sum_probs=0.0  Template_Neff=8.400
+
+Q ADVSIE            1 ADVSI    5 (6)
+Q Consensus         1 advsi    5 (6)
+                      ||+|+
+T Consensus       203 aDIsv  207 (281)
+T 4OMF_B          203 ADVST  207 (281)
+T ss_pred             CCEEE
+
+
+No 4
+>4N2P_B Protein archease; METAL COORDINATION, RNA LIGASE, CHAPERONE; HET: ACT, MSE, MPD; 1.435A {Pyrococcus horikoshii}
+Probab=6.82  E-value=4.8e+02  Score=10.56  Aligned_cols=6  Identities=50%  Similarity=0.833  Sum_probs=0.0  Template_Neff=7.400
+
+Q ADVSIE            1 ADVSIE    6 (6)
+Q Consensus         1 advsie    6 (6)
+                      ||+.|+
+T Consensus        12 ADi~i~   17 (143)
+T 4N2P_B           12 ADIGIR   17 (143)
+T ss_dssp             EEEEEE
+T ss_pred             CcEEEE
+
+
+No 5
+>6QII_B Coenzyme F420 hydrogenase subunit gamma; [NiFe] containing hydrogenase, reversible oxidation; HET: SF4, 144, BU3, FAD; 2.28A {Methanosarcina barkeri MS}
+Probab=6.81  E-value=4.8e+02  Score=11.38  Aligned_cols=5  Identities=60%  Similarity=0.787  Sum_probs=0.0  Template_Neff=8.300
+
+Q ADVSIE            1 ADVSI    5 (6)
+Q Consensus         1 advsi    5 (6)
+                      ||+|+
+T Consensus       208 aDIsv  212 (291)
+T 6QII_B          208 ADIST  212 (291)
+T ss_pred             cCEEE
+
+
+No 6
+>4GBO_A E7; CBM33, polysaccharide monooxygenase, OXIDOREDUCTASE; HET: GOL, IOD; 2.0A {Thermobifida fusca}
+Probab=6.75  E-value=4.9e+02  Score=11.03  Aligned_cols=6  Identities=33%  Similarity=0.512  Sum_probs=0.0  Template_Neff=8.000
+
+Q ADVSIE            1 ADVSIE    6 (6)
+Q Consensus         1 advsie    6 (6)
+                      +||.|.
+T Consensus       217 aDv~i~  222 (222)
+T 4GBO_A          217 SDVNFV  222 (222)
+T ss_dssp             EEEEEC
+T ss_pred             EEEEeC
+
+
+No 7
+>5UIZ_A AA10A; AA10A, POLYSACCHARIDE MONOOXYGENASE, OXIDOREDUCTASE, E7; HET: IOD, GOL; 2.0A {Thermobifida fusca}
+Probab=6.75  E-value=4.9e+02  Score=11.03  Aligned_cols=6  Identities=33%  Similarity=0.512  Sum_probs=0.0  Template_Neff=8.000
+
+Q ADVSIE            1 ADVSIE    6 (6)
+Q Consensus         1 advsie    6 (6)
+                      +||.|.
+T Consensus       217 aDv~i~  222 (222)
+T 5UIZ_A          217 SDVNFV  222 (222)
+T ss_dssp             EEEEEC
+T ss_pred             EEEEeC
+
+
+No 8
+>3BHW_B Uncharacterized protein; STRUCTURAL GENOMICS, UNKNOWN FUNCTION, PSI-2; 1.5A {Magnetospirillum magneticum}
+Probab=6.55  E-value=5e+02  Score=10.97  Aligned_cols=5  Identities=80%  Similarity=0.939  Sum_probs=0.0  Template_Neff=7.800
+
+Q ADVSIE            2 DVSIE    6 (6)
+Q Consensus         2 dvsie    6 (6)
+                      ++|||
+T Consensus       198 ~~~~~  202 (209)
+T 3BHW_B          198 QVSIE  202 (209)
+T ss_dssp             CCC--
+T ss_pred             hhhhc
+
+
+No 9
+>5W5A_A HTH-type transcriptional regulator Cmr; transcription factor, CRP/FNR family, helix-turn-helix; HET: SO4, MSE; 1.85A {Mycobacterium tuberculosis H37Rv}
+Probab=5.39  E-value=6.5e+02  Score=9.48  Aligned_cols=5  Identities=60%  Similarity=0.694  Sum_probs=0.0  Template_Neff=11.000
+
+Q ADVSIE            1 ADVSI    5 (6)
+Q Consensus         1 advsi    5 (6)
+                      ||.+|
+T Consensus         5 ~~~~~    9 (247)
+T 5W5A_A            5 ADRSV    9 (247)
+T ss_dssp             -----
+T ss_pred             ccccc
+
+
+No 10
+>6QGR_B Coenzyme F420 hydrogenase subunit gamma; [NiFe] containing hydrogenase, reversible oxidation; HET: MPD, FAD, BU3, 144, SF4; 1.839A {Methanosarcina barkeri MS}
+Probab=5.38  E-value=6.5e+02  Score=11.04  Aligned_cols=5  Identities=60%  Similarity=0.787  Sum_probs=0.0  Template_Neff=8.200
+
+Q ADVSIE            1 ADVSI    5 (6)
+Q Consensus         1 advsi    5 (6)
+                      ||+|+
+T Consensus       208 aDIsv  212 (291)
+T 6QGR_B          208 ADIST  212 (291)
+T ss_pred             CCEEE
+
+

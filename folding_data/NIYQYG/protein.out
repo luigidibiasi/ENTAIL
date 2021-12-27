@@ -1,0 +1,158 @@
+Query         NIYQYG
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 01:32:43 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NIYQYG/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NIYQYG/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5XNE_A Alpha-acetolactate deca  28.9      53 0.00059   14.6   0.0    6    1-6       3-8   (235)
+  2 1XV2_C hypothetical protein, s  27.7      58 0.00064   14.5   0.0    6    1-6       7-12  (237)
+  3 3OMW_D CG14216; phosphatase, l  26.1      65 0.00072   14.9   0.0    6    1-6      49-54  (190)
+  4 4H3H_E Symplekin, RNA polymera  25.4      68 0.00076   15.2   0.0    6    1-6      73-78  (214)
+  5 4H3K_E Symplekin, RNA polymera  25.4      68 0.00076   15.2   0.0    6    1-6      73-78  (214)
+  6 6NPW_D Symplekin, Ssu72 orthol  25.2      69 0.00076   15.0   0.0    6    1-6      59-64  (200)
+  7 3P9Y_D CG14216, pSer5 CTD pept  25.2      69 0.00076   15.0   0.0    6    1-6      57-62  (198)
+  8 2F4Z_A TgTwinScan_2721 - E2 do  23.9      76 0.00084   12.9   0.0    6    1-6      16-21  (193)
+  9 2JTT_D Protein S100-A6, Calcyc  21.8      89 0.00098   11.1   0.0    6    1-6      14-19  (35)
+ 10 6INC_A Alpha-acetolactate deca  19.4 1.1E+02  0.0012   14.0   0.0    6    1-6      28-33  (259)
+
+No 1
+>5XNE_A Alpha-acetolactate decarboxylase (E.C.4.1.1.5); Acetolactate decarboxylase, LYASE; 1.501A {Bacillus subtilis subsp. subtilis str. 168}
+Probab=28.95  E-value=53  Score=14.58  Aligned_cols=6  Identities=50%  Similarity=0.805  Sum_probs=4.0  Template_Neff=6.600
+
+Q NIYQYG            1 NIYQYG    6 (6)
+Q Consensus         1 niyqyg    6 (6)
+                      .||||+
+T Consensus         3 ~i~Q~s    8 (235)
+T 5XNE_A            3 QIYQVS    8 (235)
+T ss_dssp             EEEEES
+T ss_pred             eEEEeh
+Confidence            378875
+
+
+No 2
+>1XV2_C hypothetical protein, similar to alpha-acetolactate; alpha-acetolactate, Staphylococcus aureus, structural genomics; 2.0A {Staphylococcus aureus subsp. aureus} SCOP: d.290.1.1
+Probab=27.70  E-value=58  Score=14.54  Aligned_cols=6  Identities=50%  Similarity=0.860  Sum_probs=3.9  Template_Neff=6.500
+
+Q NIYQYG            1 NIYQYG    6 (6)
+Q Consensus         1 niyqyg    6 (6)
+                      .||||+
+T Consensus         7 ~i~Q~s   12 (237)
+T 1XV2_C            7 VLYQHG   12 (237)
+T ss_pred             eEEEeh
+Confidence            367875
+
+
+No 3
+>3OMW_D CG14216; phosphatase, low molecular weight protein; 2.8701A {Drosophila melanogaster}
+Probab=26.14  E-value=65  Score=14.87  Aligned_cols=6  Identities=50%  Similarity=1.558  Sum_probs=3.1  Template_Neff=4.600
+
+Q NIYQYG            1 NIYQYG    6 (6)
+Q Consensus         1 niyqyg    6 (6)
+                      |+|++|
+T Consensus        49 nvy~Fg   54 (190)
+T 3OMW_D           49 NVYEFG   54 (190)
+T ss_dssp             EEECTT
+T ss_pred             ccccCC
+Confidence            455554
+
+
+No 4
+>4H3H_E Symplekin, RNA polymerase II subunit; Heat repeat, phosphatase, RNA polymerase; HET: SEP; 2.2A {Homo sapiens}
+Probab=25.36  E-value=68  Score=15.24  Aligned_cols=6  Identities=33%  Similarity=1.088  Sum_probs=3.3  Template_Neff=4.100
+
+Q NIYQYG            1 NIYQYG    6 (6)
+Q Consensus         1 niyqyg    6 (6)
+                      |+|++|
+T Consensus        73 NvY~Fg   78 (214)
+T 4H3H_E           73 NVYDFK   78 (214)
+T ss_dssp             EEECTT
+T ss_pred             ccccCC
+Confidence            456554
+
+
+No 5
+>4H3K_E Symplekin, RNA polymerase II subunit; Heat repeat, phosphatase, RNA polymerase; HET: SEP; 2.0A {Homo sapiens}
+Probab=25.36  E-value=68  Score=15.24  Aligned_cols=6  Identities=33%  Similarity=1.088  Sum_probs=3.3  Template_Neff=4.100
+
+Q NIYQYG            1 NIYQYG    6 (6)
+Q Consensus         1 niyqyg    6 (6)
+                      |+|++|
+T Consensus        73 NvY~Fg   78 (214)
+T 4H3K_E           73 NVYDFK   78 (214)
+T ss_dssp             EEECTT
+T ss_pred             ccccCC
+Confidence            456554
+
+
+No 6
+>6NPW_D Symplekin, Ssu72 ortholog, LD40846p (E.C.3.1.3.-,3.1.3.16,3.1.3.41); phosphatase, CTD of RNA pol; HET: SEP; 2.486A {Drosophila melanogaster}
+Probab=25.25  E-value=69  Score=15.01  Aligned_cols=6  Identities=50%  Similarity=1.558  Sum_probs=3.2  Template_Neff=4.300
+
+Q NIYQYG            1 NIYQYG    6 (6)
+Q Consensus         1 niyqyg    6 (6)
+                      |+|++|
+T Consensus        59 nvY~Fg   64 (200)
+T 6NPW_D           59 NVYEFG   64 (200)
+T ss_dssp             EEECTT
+T ss_pred             ccccCC
+Confidence            456554
+
+
+No 7
+>3P9Y_D CG14216, pSer5 CTD peptide; Phosphatase, cis proline, LMW PTP-like; HET: SEP, N7P, PG4, IMD, SET; 2.1A {Drosophila melanogaster}
+Probab=25.22  E-value=69  Score=15.03  Aligned_cols=6  Identities=50%  Similarity=1.558  Sum_probs=3.2  Template_Neff=4.200
+
+Q NIYQYG            1 NIYQYG    6 (6)
+Q Consensus         1 niyqyg    6 (6)
+                      |+|++|
+T Consensus        57 nvY~Fg   62 (198)
+T 3P9Y_D           57 NVYEFG   62 (198)
+T ss_dssp             EEECTT
+T ss_pred             ccccCC
+Confidence            456554
+
+
+No 8
+>2F4Z_A TgTwinScan_2721 - E2 domain; ubiquitin conjugating TgTwinScan_2721, Structural Genomics; 2.11A {Toxoplasma gondii} SCOP: d.20.1.1
+Probab=23.91  E-value=76  Score=12.88  Aligned_cols=6  Identities=50%  Similarity=0.927  Sum_probs=0.0  Template_Neff=8.300
+
+Q NIYQYG            1 NIYQYG    6 (6)
+Q Consensus         1 niyqyg    6 (6)
+                      |+|||+
+T Consensus        16 ~~~~~~   21 (193)
+T 2F4Z_A           16 NLYFQG   21 (193)
+T ss_dssp             ------
+T ss_pred             cccccc
+Confidence            456653
+
+
+No 9
+>2JTT_D Protein S100-A6, Calcyclin-binding protein; S100A6, Siah-1 interacting protein, ubiquitination; NMR {Oryctolagus cuniculus}
+Probab=21.76  E-value=89  Score=11.10  Aligned_cols=6  Identities=50%  Similarity=1.005  Sum_probs=3.1  Template_Neff=4.600
+
+Q NIYQYG            1 NIYQYG    6 (6)
+Q Consensus         1 niyqyg    6 (6)
+                      +||+.|
+T Consensus        14 ~iY~~g   19 (35)
+T 2JTT_D           14 KIYEDG   19 (35)
+T ss_dssp             HHHTTS
+T ss_pred             HHHhcC
+Confidence            366543
+
+
+No 10
+>6INC_A Alpha-acetolactate decarboxylase (E.C.4.1.1.5); Acetolactate decarboxylase, UNKNOWN FUNCTION; HET: EDO; 1.604A {Klebsiella pneumoniae}
+Probab=19.44  E-value=1.1e+02  Score=14.02  Aligned_cols=6  Identities=33%  Similarity=0.534  Sum_probs=0.0  Template_Neff=6.300
+
+Q NIYQYG            1 NIYQYG    6 (6)
+Q Consensus         1 niyqyg    6 (6)
+                      .|||+|
+T Consensus        28 ~iyQ~s   33 (259)
+T 6INC_A           28 VLYQTS   33 (259)
+T ss_dssp             EEEEES
+T ss_pred             eEEEec
+
+

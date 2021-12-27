@@ -1,0 +1,148 @@
+Query         LATVYN
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 16:50:28 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LATVYN/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LATVYN/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 7DH7_C Transcriptional regulat  13.1   2E+02  0.0022   11.5   0.0    6    1-6      80-85  (170)
+  2 7DH8_A Transcriptional regulat  13.1   2E+02  0.0022   11.5   0.0    6    1-6      80-85  (170)
+  3 4MTE_A Zinc uptake regulation   13.0   2E+02  0.0022   11.4   0.0    6    1-6      60-65  (171)
+  4 4MTE_D Zinc uptake regulation   13.0   2E+02  0.0022   11.4   0.0    6    1-6      60-65  (171)
+  5 5NBC_C Ferric uptake regulator  12.7 2.1E+02  0.0023   10.4   0.0    6    1-6      52-57  (140)
+  6 5NHK_D Ferric uptake regulator  12.7 2.1E+02  0.0023   10.4   0.0    6    1-6      52-57  (140)
+  7 5L0P_A Transcription factor ET  11.4 2.4E+02  0.0027   12.9   0.0    6    1-6     320-325 (353)
+  8 7E1V_J Mycobacterium smegmatis  11.2 2.4E+02  0.0027   11.3   0.0    6    1-6       6-11  (157)
+  9 6EHD_A OmpT protein; Outer mem  11.2 2.4E+02  0.0027   11.1   0.0    5    2-6       1-5   (325)
+ 10 7RRO_s cilia, microtubule, dyn  10.7 2.6E+02  0.0029   12.8   0.0    6    1-6      76-81  (170)
+
+No 1
+>7DH7_C Transcriptional regulator fur family; Zinc perception, Conformational change, Zinc; HET: PO4; 2.2A {Xanthomonas campestris pv. campestris (strain 8004)}
+Probab=13.08  E-value=2e+02  Score=11.51  Aligned_cols=6  Identities=50%  Similarity=0.667  Sum_probs=0.0  Template_Neff=8.300
+
+Q LATVYN            1 LATVYN    6 (6)
+Q Consensus         1 latvyn    6 (6)
+                      .+|||+
+T Consensus        80 ~sTVyr   85 (170)
+T 7DH7_C           80 PPTVYR   85 (170)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 2
+>7DH8_A Transcriptional regulator fur family; Zinc perception, Conformational change, Zinc; 1.85A {Xanthomonas campestris pv. campestris (strain 8004)}
+Probab=13.08  E-value=2e+02  Score=11.51  Aligned_cols=6  Identities=50%  Similarity=0.667  Sum_probs=0.0  Template_Neff=8.300
+
+Q LATVYN            1 LATVYN    6 (6)
+Q Consensus         1 latvyn    6 (6)
+                      .+|||+
+T Consensus        80 ~sTVyr   85 (170)
+T 7DH8_A           80 PPTVYR   85 (170)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 3
+>4MTE_A Zinc uptake regulation protein; protein-DNA complex, winged-helix, DNA-binding regulatory; 2.5A {Escherichia coli}
+Probab=13.02  E-value=2e+02  Score=11.37  Aligned_cols=6  Identities=50%  Similarity=0.667  Sum_probs=0.0  Template_Neff=8.600
+
+Q LATVYN            1 LATVYN    6 (6)
+Q Consensus         1 latvyn    6 (6)
+                      .+|||+
+T Consensus        60 ~sTVyr   65 (171)
+T 4MTE_A           60 PPTVYR   65 (171)
+T ss_dssp             HHHHHH
+T ss_pred             HhHHHH
+
+
+No 4
+>4MTE_D Zinc uptake regulation protein; protein-DNA complex, winged-helix, DNA-binding regulatory; 2.5A {Escherichia coli}
+Probab=13.02  E-value=2e+02  Score=11.37  Aligned_cols=6  Identities=50%  Similarity=0.667  Sum_probs=0.0  Template_Neff=8.600
+
+Q LATVYN            1 LATVYN    6 (6)
+Q Consensus         1 latvyn    6 (6)
+                      .+|||+
+T Consensus        60 ~sTVyr   65 (171)
+T 4MTE_D           60 PPTVYR   65 (171)
+T ss_dssp             HHHHHH
+T ss_pred             HhHHHH
+
+
+No 5
+>5NBC_C Ferric uptake regulator family protein; Virulence factor, DNA binding protein; 1.699A {Francisella tularensis}
+Probab=12.67  E-value=2.1e+02  Score=10.42  Aligned_cols=6  Identities=67%  Similarity=1.065  Sum_probs=0.0  Template_Neff=9.700
+
+Q LATVYN            1 LATVYN    6 (6)
+Q Consensus         1 latvyn    6 (6)
+                      .+|||+
+T Consensus        52 ~~tvyr   57 (140)
+T 5NBC_C           52 IATVYR   57 (140)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 6
+>5NHK_D Ferric uptake regulator family protein; Structure of Ferric uptake regulator; 1.8A {Francisella tularensis}
+Probab=12.67  E-value=2.1e+02  Score=10.42  Aligned_cols=6  Identities=67%  Similarity=1.065  Sum_probs=0.0  Template_Neff=9.700
+
+Q LATVYN            1 LATVYN    6 (6)
+Q Consensus         1 latvyn    6 (6)
+                      .+|||+
+T Consensus        52 ~~tvyr   57 (140)
+T 5NHK_D           52 IATVYR   57 (140)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 7
+>5L0P_A Transcription factor ETV6,Transcription factor ETV6,Transcription; design, lattice, 2D, assembly, DE; 2.3A {Homo sapiens}
+Probab=11.35  E-value=2.4e+02  Score=12.87  Aligned_cols=6  Identities=83%  Similarity=1.132  Sum_probs=0.0  Template_Neff=7.700
+
+Q LATVYN            1 LATVYN    6 (6)
+Q Consensus         1 latvyn    6 (6)
+                      .+|||+
+T Consensus       320 ~~TVYR  325 (353)
+T 5L0P_A          320 LATVYR  325 (353)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 8
+>7E1V_J Mycobacterium smegmatis, mycobacterium tuberculosis, complexIII; HET: CDL, PLM, MQ9, HEM, 9YF, HEC, HEA, 9Y0; 2.68A {Mycobacterium smegmatis MC2 51}
+Probab=11.23  E-value=2.4e+02  Score=11.30  Aligned_cols=6  Identities=67%  Similarity=0.706  Sum_probs=0.0  Template_Neff=7.900
+
+Q LATVYN            1 LATVYN    6 (6)
+Q Consensus         1 latvyn    6 (6)
+                      +|||.|
+T Consensus         6 ~~~~~~   11 (157)
+T 7E1V_J            6 IATVAN   11 (157)
+T ss_pred             cccccc
+
+
+No 9
+>6EHD_A OmpT protein; Outer membrane protein, Porin, OmpF; HET: MES, C8E; 1.66A {Vibrio cholerae serotype O1 (strain ATCC 39541 / Classical Ogawa 395 / O395)}
+Probab=11.20  E-value=2.4e+02  Score=11.11  Aligned_cols=5  Identities=20%  Similarity=0.414  Sum_probs=0.0  Template_Neff=10.900
+
+Q LATVYN            2 ATVYN    6 (6)
+Q Consensus         2 atvyn    6 (6)
+                      |+||+
+T Consensus         1 ~~~y~    5 (325)
+T 6EHD_A            1 AEILK    5 (325)
+T ss_dssp             CEEEE
+T ss_pred             CeEEe
+
+
+No 10
+>7RRO_s cilia, microtubule, dynein, motility, STRUCTURAL; HET: GDP, GTP, MG; 3.4A {Bos taurus}
+Probab=10.70  E-value=2.6e+02  Score=12.78  Aligned_cols=6  Identities=67%  Similarity=1.132  Sum_probs=0.0  Template_Neff=4.700
+
+Q LATVYN            1 LATVYN    6 (6)
+Q Consensus         1 latvyn    6 (6)
+                      |+++||
+T Consensus        76 L~S~Yd   81 (170)
+T 7RRO_s           76 LAALYN   81 (170)
+T ss_pred             cceEec
+
+

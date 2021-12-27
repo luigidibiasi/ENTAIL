@@ -1,0 +1,148 @@
+Query         AAPKPK
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 13:08:55 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/AAPKPK/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/AAPKPK/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5UFK_A effector protein SidK;    7.4 4.3E+02  0.0048   13.6   0.0    6    1-6     131-136 (266)
+  2 6VQ7_R ATPase H+-transporting    7.2 4.5E+02  0.0049   13.8   0.0    6    1-6     144-149 (301)
+  3 6VQ9_R ATPase H+-transporting    7.2 4.5E+02  0.0049   13.8   0.0    6    1-6     144-149 (301)
+  4 1N3K_A ASTROCYTIC phosphoprote   7.2 4.5E+02   0.005   10.9   0.0    5    2-6     124-128 (130)
+  5 5OO7_A Putative uncharacterize   7.0 4.6E+02  0.0051   10.9   0.0    6    1-6      24-29  (257)
+  6 1NP0_A Beta-hexosaminidase bet   6.7 4.9E+02  0.0054    8.1   0.0    4    3-6       9-12  (58)
+  7 2GK1_B Beta-hexosaminidase alp   6.7 4.9E+02  0.0054    8.1   0.0    4    3-6       9-12  (58)
+  8 2RFE_E Epidermal growth factor   6.6   5E+02  0.0055   10.2   0.0    5    2-6      29-33  (40)
+  9 2M6O_A Uncharacterized protein   6.5 5.1E+02  0.0057    8.5   0.0    6    1-6      42-47  (48)
+ 10 7AOI_BH bL28m, uL29m, uL30m, b   6.4 5.2E+02  0.0057   13.2   0.0    4    3-6       6-9   (225)
+
+No 1
+>5UFK_A effector protein SidK; translocated effector, V-ATPase binding, all-alpha-helical; HET: MLY; 2.3A {Legionella pneumophila}
+Probab=7.39  E-value=4.3e+02  Score=13.63  Aligned_cols=6  Identities=83%  Similarity=1.293  Sum_probs=3.0  Template_Neff=1.000
+
+Q AAPKPK            1 AAPKPK    6 (6)
+Q Consensus         1 aapkpk    6 (6)
+                      |||.||
+T Consensus       131 aaptpk  136 (266)
+T 5UFK_A          131 AAPTPK  136 (266)
+T ss_dssp             CCCCHH
+T ss_pred             cCCCCC
+Confidence            355554
+
+
+No 2
+>6VQ7_R ATPase H+-transporting V1 subunit A; membrane protein complex, rotary atpase; HET: ADP; 4.0A {Rattus norvegicus}
+Probab=7.19  E-value=4.5e+02  Score=13.79  Aligned_cols=6  Identities=83%  Similarity=1.293  Sum_probs=3.1  Template_Neff=1.000
+
+Q AAPKPK            1 AAPKPK    6 (6)
+Q Consensus         1 aapkpk    6 (6)
+                      |||.||
+T Consensus       144 aaptpk  149 (301)
+T 6VQ7_R          144 AAPTPK  149 (301)
+T ss_dssp             CCCCHH
+T ss_pred             cCCCCc
+Confidence            455554
+
+
+No 3
+>6VQ9_R ATPase H+-transporting V1 subunit A; membrane protein complex, rotary atpase; HET: ADP; 3.6A {Rattus norvegicus}
+Probab=7.19  E-value=4.5e+02  Score=13.79  Aligned_cols=6  Identities=83%  Similarity=1.293  Sum_probs=0.0  Template_Neff=1.000
+
+Q AAPKPK            1 AAPKPK    6 (6)
+Q Consensus         1 aapkpk    6 (6)
+                      |||.||
+T Consensus       144 aaptpk  149 (301)
+T 6VQ9_R          144 AAPTPK  149 (301)
+T ss_pred             cCCCCc
+
+
+No 4
+>1N3K_A ASTROCYTIC phosphoprotein PEA-15; DEATH EFFECTOR DOMAIN, SIX HELIX; NMR {Cricetulus griseus} SCOP: a.77.1.4
+Probab=7.18  E-value=4.5e+02  Score=10.91  Aligned_cols=5  Identities=80%  Similarity=1.344  Sum_probs=0.0  Template_Neff=6.400
+
+Q AAPKPK            2 APKPK    6 (6)
+Q Consensus         2 apkpk    6 (6)
+                      ||.||
+T Consensus       124 ~~~~~  128 (130)
+T 1N3K_A          124 APPPK  128 (130)
+T ss_pred             CCCCC
+
+
+No 5
+>5OO7_A Putative uncharacterized protein, SLA2 from; Phospholipid binding, adaptor protein complex; 1.84A {Chaetomium thermophilum (strain DSM 1495 / CBS 144.50 / IMI 039719)}
+Probab=7.00  E-value=4.6e+02  Score=10.93  Aligned_cols=6  Identities=67%  Similarity=0.894  Sum_probs=0.0  Template_Neff=8.900
+
+Q AAPKPK            1 AAPKPK    6 (6)
+Q Consensus         1 aapkpk    6 (6)
+                      .+||+|
+T Consensus        24 ~~pk~K   29 (257)
+T 5OO7_A           24 TAPKRK   29 (257)
+T ss_dssp             SSCCHH
+T ss_pred             CCCCch
+
+
+No 6
+>1NP0_A Beta-hexosaminidase beta chain (E.C.3.2.1.52); (beta/alpha)8-barrel, homodimer, family 20 glycosidase; HET: GOL, NGT, NAG; 2.5A {Homo sapiens} SCOP: c.1.8.6, d.92.2.1
+Probab=6.73  E-value=4.9e+02  Score=8.07  Aligned_cols=4  Identities=50%  Similarity=0.916  Sum_probs=0.0  Template_Neff=9.400
+
+Q AAPKPK            3 PKPK    6 (6)
+Q Consensus         3 pkpk    6 (6)
+                      |+|.
+T Consensus         9 P~P~   12 (58)
+T 1NP0_A            9 PLPL   12 (58)
+T ss_dssp             SCCS
+T ss_pred             CCCc
+
+
+No 7
+>2GK1_B Beta-hexosaminidase alpha chain (E.C.3.2.1.52), Beta-hexosaminidase; beta-hexoasaminidase A, glycosidase, Tay-Sachs disease; HET: NGT, BMA, NAG; 3.25A {Homo sapiens} SCOP: d.92.2.1, c.1.8.6
+Probab=6.73  E-value=4.9e+02  Score=8.07  Aligned_cols=4  Identities=50%  Similarity=0.916  Sum_probs=0.0  Template_Neff=9.400
+
+Q AAPKPK            3 PKPK    6 (6)
+Q Consensus         3 pkpk    6 (6)
+                      |+|.
+T Consensus         9 P~P~   12 (58)
+T 2GK1_B            9 PLPL   12 (58)
+T ss_pred             CCCc
+
+
+No 8
+>2RFE_E Epidermal growth factor receptor (E.C.2.7.10.1); kinase domain, inhibition, dimer, Alternative; 2.9A {Homo sapiens}
+Probab=6.64  E-value=5e+02  Score=10.23  Aligned_cols=5  Identities=80%  Similarity=1.418  Sum_probs=0.0  Template_Neff=1.800
+
+Q AAPKPK            2 APKPK    6 (6)
+Q Consensus         2 apkpk    6 (6)
+                      ||.||
+T Consensus        29 ApdPk   33 (40)
+T 2RFE_E           29 APDPK   33 (40)
+T ss_dssp             TTSTT
+T ss_pred             CCCcc
+
+
+No 9
+>2M6O_A Uncharacterized protein; RbpA, RNAP, Sigma factor, TRANSCRIPTION; NMR {Streptomyces coelicolor}
+Probab=6.47  E-value=5.1e+02  Score=8.50  Aligned_cols=6  Identities=33%  Similarity=0.650  Sum_probs=0.0  Template_Neff=7.600
+
+Q AAPKPK            1 AAPKPK    6 (6)
+Q Consensus         1 aapkpk    6 (6)
+                      +.|++|
+T Consensus        42 ~~p~~~   47 (48)
+T 2M6O_A           42 DGPEEK   47 (48)
+T ss_dssp             SSSTTC
+T ss_pred             CCCCCC
+
+
+No 10
+>7AOI_BH bL28m, uL29m, uL30m, bL32m, bL33m; mitochondria, translation, trypanosoma, assembly, evolution; HET: ADP, GTP, NAD, 4HH; 3.5A {Trypanosoma brucei}
+Probab=6.43  E-value=5.2e+02  Score=13.16  Aligned_cols=4  Identities=100%  Similarity=1.796  Sum_probs=0.0  Template_Neff=1.900
+
+Q AAPKPK            3 PKPK    6 (6)
+Q Consensus         3 pkpk    6 (6)
+                      ||||
+T Consensus         6 PKPK    9 (225)
+T 7AOI_BH           6 PKPK    9 (225)
+T ss_pred             CCCc
+
+

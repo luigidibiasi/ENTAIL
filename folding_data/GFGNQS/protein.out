@@ -1,0 +1,149 @@
+Query         GFGNQS
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 23:26:15 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GFGNQS/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GFGNQS/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6YXY_EQ bL28m, uL29m, uL30m, b  29.7      51 0.00056   16.7   0.0    6    1-6     629-634 (655)
+  2 6B8H_r ATP synthase subunit 9,  22.2      86 0.00095   13.2   0.0    6    1-6     166-171 (173)
+  3 6CP3_7 ATP synthase subunit 9,  22.2      86 0.00095   13.2   0.0    6    1-6     166-171 (173)
+  4 7AM2_BV Ribosomal protein L3-l  20.1   1E+02  0.0011   16.4   0.0    6    1-6     761-766 (787)
+  5 3LSG_A Two-component response   19.2 1.1E+02  0.0012    9.7   0.0    6    1-6      79-84  (103)
+  6 3LSG_C Two-component response   19.2 1.1E+02  0.0012    9.7   0.0    6    1-6      79-84  (103)
+  7 2V8S_E CLATHRIN INTERACTOR 1,   18.5 1.2E+02  0.0013   11.6   0.0    6    1-6     142-147 (147)
+  8 6N85_B Synembryn-A, G alpha t   18.4 1.2E+02  0.0013   14.6   0.0    4    1-4     431-434 (512)
+  9 6TYL_A Resistance to inhibitor  18.4 1.2E+02  0.0013   14.4   0.0    6    1-6     412-417 (492)
+ 10 2M7S_A Serine/arginine-rich sp  18.0 1.2E+02  0.0013    8.4   0.0    6    1-6       1-6   (90)
+
+No 1
+>6YXY_EQ bL28m, uL29m, uL30m, bL32m, bL35m; mitoribosome, assembly, LSU, RIBOSOME; HET: ATP, PM8, MG, SPD, NAD, GTP; 3.1A {Trypanosoma brucei brucei}
+Probab=29.69  E-value=51  Score=16.72  Aligned_cols=6  Identities=83%  Similarity=1.414  Sum_probs=4.0  Template_Neff=6.500
+
+Q GFGNQS            1 GFGNQS    6 (6)
+Q Consensus         1 gfgnqs    6 (6)
+                      |||.+|
+T Consensus       629 ~~~~~~  634 (655)
+T 6YXY_EQ         629 GFGGQS  634 (655)
+T ss_pred             CCCCcc
+Confidence            677665
+
+
+No 2
+>6B8H_r ATP synthase subunit 9, mitochondrial; Complex, Proton transporter, MEMBRANE PROTEIN; HET: MG, ANP; 3.6A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=22.17  E-value=86  Score=13.23  Aligned_cols=6  Identities=50%  Similarity=0.872  Sum_probs=3.8  Template_Neff=6.900
+
+Q GFGNQS            1 GFGNQS    6 (6)
+Q Consensus         1 gfgnqs    6 (6)
+                      .|||.|
+T Consensus       166 ~fg~~~  171 (173)
+T 6B8H_r          166 RFGNLN  171 (173)
+T ss_pred             cCCCcc
+Confidence            478754
+
+
+No 3
+>6CP3_7 ATP synthase subunit 9, mitochondrial; ATP synthase, BIOSYNTHETIC PROTEIN; HET: ATP, FME, ADP;{Saccharomyces cerevisiae}
+Probab=22.17  E-value=86  Score=13.23  Aligned_cols=6  Identities=50%  Similarity=0.872  Sum_probs=3.8  Template_Neff=6.900
+
+Q GFGNQS            1 GFGNQS    6 (6)
+Q Consensus         1 gfgnqs    6 (6)
+                      .|||.|
+T Consensus       166 ~fg~~~  171 (173)
+T 6CP3_7          166 RFGNLN  171 (173)
+T ss_pred             cCCCcc
+Confidence            478754
+
+
+No 4
+>7AM2_BV Ribosomal protein L3-like protein, uL4m; RIBOSOME, Mitochondria, Kinetoplastid; HET: GTP, ATP; 3.4A {Leishmania tarentolae}
+Probab=20.10  E-value=1e+02  Score=16.42  Aligned_cols=6  Identities=67%  Similarity=1.348  Sum_probs=3.9  Template_Neff=5.900
+
+Q GFGNQS            1 GFGNQS    6 (6)
+Q Consensus         1 gfgnqs    6 (6)
+                      |||.+|
+T Consensus       761 ~~~~~~  766 (787)
+T 7AM2_BV         761 GFGGKS  766 (787)
+T ss_pred             CCCCcc
+Confidence            677665
+
+
+No 5
+>3LSG_A Two-component response regulator yesN; structural genomics, PSI-2, protein structure; HET: MSE; 2.049A {Fusobacterium nucleatum}
+Probab=19.21  E-value=1.1e+02  Score=9.74  Aligned_cols=6  Identities=33%  Similarity=0.800  Sum_probs=0.0  Template_Neff=11.200
+
+Q GFGNQS            1 GFGNQS    6 (6)
+Q Consensus         1 gfgnqs    6 (6)
+                      ||.+++
+T Consensus        79 g~~~~~   84 (103)
+T 3LSG_A           79 GFEDVN   84 (103)
+T ss_dssp             TCSCHH
+T ss_pred             CCCCHH
+
+
+No 6
+>3LSG_C Two-component response regulator yesN; structural genomics, PSI-2, protein structure; HET: MSE; 2.049A {Fusobacterium nucleatum}
+Probab=19.21  E-value=1.1e+02  Score=9.74  Aligned_cols=6  Identities=33%  Similarity=0.800  Sum_probs=0.0  Template_Neff=11.200
+
+Q GFGNQS            1 GFGNQS    6 (6)
+Q Consensus         1 gfgnqs    6 (6)
+                      ||.+++
+T Consensus        79 g~~~~~   84 (103)
+T 3LSG_C           79 GFEDVN   84 (103)
+T ss_dssp             TCSCHH
+T ss_pred             CCCCHH
+
+
+No 7
+>2V8S_E CLATHRIN INTERACTOR 1, VESICLE TRANSPORT; PROTEIN TRANSPORT, CYTOPLASMIC VESICLE, LIPID-BINDING; HET: GOL; 2.22A {HOMO SAPIENS}
+Probab=18.49  E-value=1.2e+02  Score=11.61  Aligned_cols=6  Identities=33%  Similarity=0.617  Sum_probs=0.0  Template_Neff=8.800
+
+Q GFGNQS            1 GFGNQS    6 (6)
+Q Consensus         1 gfgnqs    6 (6)
+                      |||+-|
+T Consensus       142 ~~~~~~  147 (147)
+T 2V8S_E          142 GVSSDS  147 (147)
+T ss_dssp             --CTTB
+T ss_pred             CCCCCC
+
+
+No 8
+>6N85_B Synembryn-A, G alpha t C; Ric8a, Armadillo repeat, G alpha; HET: MAL; 2.5A {Bos taurus}
+Probab=18.44  E-value=1.2e+02  Score=14.61  Aligned_cols=4  Identities=75%  Similarity=1.838  Sum_probs=0.0  Template_Neff=7.500
+
+Q GFGNQS            1 GFGN    4 (6)
+Q Consensus         1 gfgn    4 (6)
+                      ||||
+T Consensus       431 GyGn  434 (512)
+T 6N85_B          431 GYGN  434 (512)
+T ss_pred             Cccc
+
+
+No 9
+>6TYL_A Resistance to inhibitors of cholinesterase; Ric-8A, G protein, GEF, SIGNALING; HET: TPO, SEP; 3.3A {Rattus norvegicus}
+Probab=18.37  E-value=1.2e+02  Score=14.37  Aligned_cols=6  Identities=50%  Similarity=1.276  Sum_probs=0.0  Template_Neff=7.800
+
+Q GFGNQS            1 GFGNQS    6 (6)
+Q Consensus         1 gfgnqs    6 (6)
+                      ||||-+
+T Consensus       412 GyGnAa  417 (492)
+T 6TYL_A          412 GYGNAA  417 (492)
+T ss_dssp             SHHHHH
+T ss_pred             CcchHH
+
+
+No 10
+>2M7S_A Serine/arginine-rich splicing factor 1; RNA Recognition Motif, RNA BINDING; NMR {Homo sapiens}
+Probab=18.03  E-value=1.2e+02  Score=8.40  Aligned_cols=6  Identities=17%  Similarity=0.102  Sum_probs=0.0  Template_Neff=13.000
+
+Q GFGNQS            1 GFGNQS    6 (6)
+Q Consensus         1 gfgnqs    6 (6)
+                      |||.++
+T Consensus         1 ~~~~~~    6 (90)
+T 2M7S_A            1 GAPRGR    6 (90)
+T ss_dssp             CCCCCC
+T ss_pred             CCCCCC
+
+

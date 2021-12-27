@@ -1,0 +1,156 @@
+Query         HTFNLL
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 07:14:48 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/HTFNLL/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/HTFNLL/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 7EIV_B Aminoacyl-tRNA syntheta  77.7     1.7 1.9E-05   21.3   0.0    6    1-6     253-258 (303)
+  2 5F5W_A Glycine--tRNA ligase al  75.8     2.1 2.3E-05   21.0   0.0    6    1-6     255-260 (299)
+  3 1J5W_B Glycyl-tRNA synthetase   73.8     2.6 2.9E-05   20.7   0.0    6    1-6     253-258 (298)
+  4 3RF1_B Glycyl-tRNA synthetase   72.3       3 3.3E-05   20.6   0.0    6    1-6     269-274 (311)
+  5 3RGL_A Glycyl-tRNA synthetase   72.3       3 3.3E-05   20.6   0.0    6    1-6     269-274 (311)
+  6 5F5W_E Glycine--tRNA ligase al  72.3       3 3.3E-05   20.5   0.0    6    1-6     255-260 (299)
+  7 7LU4_A RNA binding protein, tR  61.0     7.3 8.1E-05   21.0   0.0    6    1-6     245-250 (1011)
+  8 7LU4_B RNA binding protein, tR  61.0     7.3 8.1E-05   21.0   0.0    6    1-6     245-250 (1011)
+  9 6HIW_DV Uncharacterized protei  19.5 1.1E+02  0.0012   15.0   0.0    6    1-6      40-45  (183)
+ 10 6HIZ_DV Uncharacterized protei  18.2 1.2E+02  0.0013   14.8   0.0    6    1-6      40-45  (183)
+
+No 1
+>7EIV_B Aminoacyl-tRNA synthetases class II, LIGASE; HET: MSE, ANP, GLY; 2.68A {Escherichia coli K-12}
+Probab=77.75  E-value=1.7  Score=21.26  Aligned_cols=6  Identities=83%  Similarity=1.458  Sum_probs=5.1  Template_Neff=3.600
+
+Q HTFNLL            1 HTFNLL    6 (6)
+Q Consensus         1 htfnll    6 (6)
+                      |+||||
+T Consensus       253 H~FNlL  258 (303)
+T 7EIV_B          253 HSFNLL  258 (303)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            789986
+
+
+No 2
+>5F5W_A Glycine--tRNA ligase alpha subunit (E.C.6.1.1.14); class II tRNA synthetase, LIGASE; HET: G5A; 2.81A {Aquifex aeolicus (strain VF5)}
+Probab=75.77  E-value=2.1  Score=21.01  Aligned_cols=6  Identities=67%  Similarity=1.309  Sum_probs=5.0  Template_Neff=3.400
+
+Q HTFNLL            1 HTFNLL    6 (6)
+Q Consensus         1 htfnll    6 (6)
+                      |+||||
+T Consensus       255 H~FNlL  260 (299)
+T 5F5W_A          255 HVFNIL  260 (299)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            789986
+
+
+No 3
+>1J5W_B Glycyl-tRNA synthetase alpha chain; structural genomics, TM0216, JCSG, Glycyl-tRNA; 1.95A {Thermotoga maritima} SCOP: d.104.1.1
+Probab=73.78  E-value=2.6  Score=20.68  Aligned_cols=6  Identities=100%  Similarity=1.514  Sum_probs=5.0  Template_Neff=3.500
+
+Q HTFNLL            1 HTFNLL    6 (6)
+Q Consensus         1 htfnll    6 (6)
+                      |+||||
+T Consensus       253 H~FNlL  258 (298)
+T 1J5W_B          253 HTFNLL  258 (298)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            789986
+
+
+No 4
+>3RF1_B Glycyl-tRNA synthetase alpha subunit (E.C.6.1.1.14); glycyl-tRNA synthetase subunit alpha, alpha/beta; HET: GOL, LMR, MSE; 2.2A {Campylobacter jejuni}
+Probab=72.29  E-value=3  Score=20.57  Aligned_cols=6  Identities=100%  Similarity=1.514  Sum_probs=5.0  Template_Neff=3.500
+
+Q HTFNLL            1 HTFNLL    6 (6)
+Q Consensus         1 htfnll    6 (6)
+                      |+||||
+T Consensus       269 H~FNlL  274 (311)
+T 3RF1_B          269 HTFNLL  274 (311)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            789986
+
+
+No 5
+>3RGL_A Glycyl-tRNA synthetase alpha subunit (E.C.6.1.1.14); ALPHA/BETA PROTEIN, STRUCTURAL GENOMICS, CENTER; HET: ATP, MSE; 2.45A {Campylobacter jejuni}
+Probab=72.29  E-value=3  Score=20.57  Aligned_cols=6  Identities=100%  Similarity=1.514  Sum_probs=5.0  Template_Neff=3.500
+
+Q HTFNLL            1 HTFNLL    6 (6)
+Q Consensus         1 htfnll    6 (6)
+                      |+||||
+T Consensus       269 H~FNlL  274 (311)
+T 3RGL_A          269 HTFNLL  274 (311)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            789986
+
+
+No 6
+>5F5W_E Glycine--tRNA ligase alpha subunit (E.C.6.1.1.14); class II tRNA synthetase, LIGASE; HET: G5A; 2.81A {Aquifex aeolicus (strain VF5)}
+Probab=72.29  E-value=3  Score=20.48  Aligned_cols=6  Identities=67%  Similarity=1.309  Sum_probs=4.9  Template_Neff=3.500
+
+Q HTFNLL            1 HTFNLL    6 (6)
+Q Consensus         1 htfnll    6 (6)
+                      |+||||
+T Consensus       255 H~FNlL  260 (299)
+T 5F5W_E          255 HVFNIL  260 (299)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            789986
+
+
+No 7
+>7LU4_A RNA binding protein, tRNA synthetase; 2.5A {Thermanaerothrix daxensis}
+Probab=60.98  E-value=7.3  Score=21.01  Aligned_cols=6  Identities=83%  Similarity=1.392  Sum_probs=5.0  Template_Neff=5.300
+
+Q HTFNLL            1 HTFNLL    6 (6)
+Q Consensus         1 htfnll    6 (6)
+                      |+||+|
+T Consensus       245 h~fN~L  250 (1011)
+T 7LU4_A          245 HTFNVL  250 (1011)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            889986
+
+
+No 8
+>7LU4_B RNA binding protein, tRNA synthetase; 2.5A {Thermanaerothrix daxensis}
+Probab=60.98  E-value=7.3  Score=21.01  Aligned_cols=6  Identities=83%  Similarity=1.392  Sum_probs=5.0  Template_Neff=5.300
+
+Q HTFNLL            1 HTFNLL    6 (6)
+Q Consensus         1 htfnll    6 (6)
+                      |+||+|
+T Consensus       245 h~fN~L  250 (1011)
+T 7LU4_B          245 HTFNVL  250 (1011)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            889986
+
+
+No 9
+>6HIW_DV Uncharacterized protein, mS74, uS3m, 30S; mitoribosome, translation, Trypanosoma, small ribosomal; HET: GTP, SPD, MG, UTP, SPM; 3.37A {Trypanosoma brucei brucei}
+Probab=19.48  E-value=1.1e+02  Score=14.98  Aligned_cols=6  Identities=67%  Similarity=0.927  Sum_probs=0.0  Template_Neff=1.800
+
+Q HTFNLL            1 HTFNLL    6 (6)
+Q Consensus         1 htfnll    6 (6)
+                      ||||-|
+T Consensus        40 hTfnTl   45 (183)
+T 6HIW_DV          40 HTFNTT   45 (183)
+T ss_pred             cccccc
+
+
+No 10
+>6HIZ_DV Uncharacterized protein, uS3m, UNK/RNA Complex; mitoribosome, translation, Trypanosoma, small ribosomal; HET: GTP, SPD, UTP; 3.08A {Trypanosoma brucei brucei}
+Probab=18.19  E-value=1.2e+02  Score=14.83  Aligned_cols=6  Identities=67%  Similarity=0.927  Sum_probs=0.0  Template_Neff=1.800
+
+Q HTFNLL            1 HTFNLL    6 (6)
+Q Consensus         1 htfnll    6 (6)
+                      ||||-|
+T Consensus        40 hTfntl   45 (183)
+T 6HIZ_DV          40 HTFNTT   45 (183)
+T ss_pred             ceeccc
+
+

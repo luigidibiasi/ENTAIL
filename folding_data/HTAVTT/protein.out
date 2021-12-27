@@ -1,0 +1,148 @@
+Query         HTAVTT
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 07:11:39 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/HTAVTT/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/HTAVTT/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4BQ8_B NEOGENIN, RGM DOMAIN FA   3.9 9.7E+02   0.011   10.2   0.0    5    1-5      60-64  (122)
+  2 4BQ6_C NEOGENIN, RGM DOMAIN FA   3.8   1E+03   0.011   10.1   0.0    5    1-5      60-64  (122)
+  3 6FNQ_B Histidine N-alpha-methy   3.6 1.1E+03   0.012    9.5   0.0    6    1-6       2-7   (323)
+  4 6FNR_B Histidine N-alpha-methy   3.6 1.1E+03   0.012    9.5   0.0    6    1-6       2-7   (323)
+  5 3AI9_X UPF0217 protein MJ1640;   3.5 1.1E+03   0.012   10.7   0.0    6    1-6      15-20  (211)
+  6 6WIS_A DUF411 domain-containin   3.4 1.2E+03   0.013   10.1   0.0    4    1-4      55-58  (126)
+  7 6WJE_D DUF411 domain-containin   3.0 1.3E+03   0.015    9.9   0.0    4    1-4      55-58  (126)
+  8 1O8T_A APOLIPOPROTEIN C-II; AP   2.7 1.6E+03   0.017    9.7   0.0    5    2-6      58-62  (79)
+  9 1JW3_A Conserved Hypothetical    2.5 1.7E+03   0.019    9.0   0.0    3    1-3       9-11  (140)
+ 10 2VPS_A TRYPANOTHIONE SYNTHETAS   2.3 1.8E+03    0.02   11.1   0.0    6    1-6     130-135 (652)
+
+No 1
+>4BQ8_B NEOGENIN, RGM DOMAIN FAMILY MEMBER; CELL ADHESION; HET: NAG; 2.8A {MUS MUSCULUS}
+Probab=3.91  E-value=9.7e+02  Score=10.18  Aligned_cols=5  Identities=60%  Similarity=0.800  Sum_probs=0.0  Template_Neff=5.600
+
+Q HTAVTT            1 HTAVT    5 (6)
+Q Consensus         1 htavt    5 (6)
+                      |++|+
+T Consensus        60 HSav~   64 (122)
+T 4BQ8_B           60 HSAVL   64 (122)
+T ss_pred             HHHHH
+
+
+No 2
+>4BQ6_C NEOGENIN, RGM DOMAIN FAMILY MEMBER; CELL ADHESION; HET: NAG; 2.3A {MUS MUSCULUS}
+Probab=3.82  E-value=1e+03  Score=10.14  Aligned_cols=5  Identities=60%  Similarity=0.800  Sum_probs=0.0  Template_Neff=5.600
+
+Q HTAVTT            1 HTAVT    5 (6)
+Q Consensus         1 htavt    5 (6)
+                      |++|+
+T Consensus        60 HSav~   64 (122)
+T 4BQ6_C           60 HSAVL   64 (122)
+T ss_pred             HHHHH
+
+
+No 3
+>6FNQ_B Histidine N-alpha-methyltransferase (E.C.2.1.1.44); ergothioneine, methyltransferase, product complex, Transferase; HET: GOL, AVJ; 1.75A {Mycobacterium smegmatis}
+Probab=3.61  E-value=1.1e+03  Score=9.49  Aligned_cols=6  Identities=33%  Similarity=0.545  Sum_probs=0.0  Template_Neff=10.700
+
+Q HTAVTT            1 HTAVTT    6 (6)
+Q Consensus         1 htavtt    6 (6)
+                      |.|+++
+T Consensus         2 ~~~~~~    7 (323)
+T 6FNQ_B            2 HMALSL    7 (323)
+T ss_dssp             CCCCEE
+T ss_pred             Cchhhh
+
+
+No 4
+>6FNR_B Histidine N-alpha-methyltransferase (E.C.2.1.1.44); ergothioneine, methyltransferase, inhibitor complex, Transferase; HET: DYT, PG4, GOL; 1.83A {Mycobacterium smegmatis}
+Probab=3.61  E-value=1.1e+03  Score=9.49  Aligned_cols=6  Identities=33%  Similarity=0.545  Sum_probs=0.0  Template_Neff=10.700
+
+Q HTAVTT            1 HTAVTT    6 (6)
+Q Consensus         1 htavtt    6 (6)
+                      |.|+++
+T Consensus         2 ~~~~~~    7 (323)
+T 6FNR_B            2 HMALSL    7 (323)
+T ss_dssp             CCCCEE
+T ss_pred             Cchhhh
+
+
+No 5
+>3AI9_X UPF0217 protein MJ1640; MjDUF358, rRNA methyltransferase, SPOUT-class fold; HET: SAM, MSE; 1.55A {Methanocaldococcus jannaschii}
+Probab=3.54  E-value=1.1e+03  Score=10.73  Aligned_cols=6  Identities=17%  Similarity=0.501  Sum_probs=0.0  Template_Neff=6.100
+
+Q HTAVTT            1 HTAVTT    6 (6)
+Q Consensus         1 htavtt    6 (6)
+                      |+|+|+
+T Consensus        15 ~~a~t~   20 (211)
+T 3AI9_X           15 NKTITS   20 (211)
+T ss_dssp             SSCCCS
+T ss_pred             CCCCCC
+
+
+No 6
+>6WIS_A DUF411 domain-containing protein; metal resistance copper-binding protein, METAL; HET: ZN, GOL, MSE; 2.0A {Pseudomonas aeruginosa}
+Probab=3.40  E-value=1.2e+03  Score=10.13  Aligned_cols=4  Identities=75%  Similarity=1.032  Sum_probs=0.0  Template_Neff=5.300
+
+Q HTAVTT            1 HTAV    4 (6)
+Q Consensus         1 htav    4 (6)
+                      |||+
+T Consensus        55 HTa~   58 (126)
+T 6WIS_A           55 HTGV   58 (126)
+T ss_dssp             EEEE
+T ss_pred             eeEE
+
+
+No 7
+>6WJE_D DUF411 domain-containing protein; metal resistance copper-binding protein, METAL; HET: CU, ZN, OMT, ACT; 2.5A {Pseudomonas aeruginosa}
+Probab=2.99  E-value=1.3e+03  Score=9.93  Aligned_cols=4  Identities=75%  Similarity=1.032  Sum_probs=0.0  Template_Neff=5.300
+
+Q HTAVTT            1 HTAV    4 (6)
+Q Consensus         1 htav    4 (6)
+                      |||+
+T Consensus        55 HTa~   58 (126)
+T 6WJE_D           55 HTGV   58 (126)
+T ss_dssp             CEEE
+T ss_pred             eeEE
+
+
+No 8
+>1O8T_A APOLIPOPROTEIN C-II; APOCII, LPL, ACTIVATION MECHANISM, DOMAIN; NMR {HOMO SAPIENS} SCOP: j.39.1.1
+Probab=2.66  E-value=1.6e+03  Score=9.71  Aligned_cols=5  Identities=40%  Similarity=0.574  Sum_probs=0.0  Template_Neff=3.100
+
+Q HTAVTT            2 TAVTT    6 (6)
+Q Consensus         2 tavtt    6 (6)
+                      +||+|
+T Consensus        58 ~avsT   62 (79)
+T 1O8T_A           58 AAMST   62 (79)
+T ss_dssp             HHHHH
+T ss_pred             hHHHH
+
+
+No 9
+>1JW3_A Conserved Hypothetical Protein MTH1598; MTH1598, hypothetical protein, structural genomics; NMR {Methanothermobacter thermautotrophicus} SCOP: d.208.1.1
+Probab=2.46  E-value=1.7e+03  Score=9.03  Aligned_cols=3  Identities=67%  Similarity=0.324  Sum_probs=0.0  Template_Neff=7.300
+
+Q HTAVTT            1 HTA    3 (6)
+Q Consensus         1 hta    3 (6)
+                      |||
+T Consensus         9 HtA   11 (140)
+T 1JW3_A            9 VTA   11 (140)
+T ss_dssp             CSS
+T ss_pred             ccC
+
+
+No 10
+>2VPS_A TRYPANOTHIONE SYNTHETASE (E.C.6.3.1.9); LIGASE; 2.75A {LEISHMANIA MAJOR}
+Probab=2.32  E-value=1.8e+03  Score=11.09  Aligned_cols=6  Identities=33%  Similarity=0.468  Sum_probs=0.0  Template_Neff=8.100
+
+Q HTAVTT            1 HTAVTT    6 (6)
+Q Consensus         1 htavtt    6 (6)
+                      |+||.+
+T Consensus       130 HVAVV~  135 (652)
+T 2VPS_A          130 HVGTIT  135 (652)
+T ss_dssp             EEEEEE
+T ss_pred             EEEEEE
+
+

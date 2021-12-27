@@ -1,0 +1,443 @@
+Query         GYFLNF
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 05:16:08 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GYFLNF/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GYFLNF/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 7EBL_A second messenger, compl  68.5     4.2 4.6E-05   17.8   0.0    6    1-6      18-23  (167)
+  2 7EBL_B second messenger, compl  68.5     4.2 4.6E-05   17.8   0.0    6    1-6      18-23  (167)
+  3 7EBD_A second messenger, compl  67.5     4.5   5E-05   17.5   0.0    6    1-6      13-18  (161)
+  4 6WT5_C Bacterial STING; CBASS,  66.6     4.9 5.4E-05   17.5   0.0    6    1-6      17-22  (165)
+  5 6WT5_D Bacterial STING; CBASS,  66.5     4.9 5.4E-05   17.5   0.0    6    1-6      17-22  (165)
+  6 6SPB_H 50S ribosomal protein L  48.9      16 0.00017   13.6   0.0    6    1-6      23-28  (78)
+  7 6SPG_H 30S ribosomal protein S  48.9      16 0.00017   13.6   0.0    6    1-6      23-28  (78)
+  8 2W92_A ENDO-BETA-N-ACETYLGLUCO  34.4      38 0.00042   16.5   0.0    6    1-6     164-169 (653)
+  9 6Q95_G 30S ribosomal protein S  33.7      40 0.00044   12.5   0.0    6    1-6      24-29  (60)
+ 10 2W91_A ENDO-BETA-N-ACETYLGLUCO  33.6      40 0.00044   16.4   0.0    6    1-6     164-169 (653)
+ 11 3GDB_A Putative uncharacterize  32.8      42 0.00046   17.2   0.0    6    1-6     315-320 (937)
+ 12 4V4J_G 70S Ribosome; 70S ribos  27.7      58 0.00064   12.8   0.0    6    1-6      24-29  (148)
+ 13 7JIL_G Unknown protein fragmen  27.6      58 0.00065   12.9   0.0    6    1-6      24-29  (146)
+ 14 2HBA_A L9, ribosomal protein,   26.2      64 0.00071   11.6   0.0    6    1-6      24-29  (52)
+ 15 7K00_h ribosome; antibiotics,   25.1      70 0.00077   12.6   0.0    6    1-6      24-29  (149)
+ 16 4WZD_69 30S ribosomal protein   24.5      73  0.0008   12.6   0.0    6    1-6      24-29  (148)
+ 17 4Y4O_2I 50S Ribosomal Protein   24.5      73  0.0008   12.6   0.0    6    1-6      24-29  (148)
+ 18 6WT4_A Bacterial STING (Flacob  24.5      73  0.0008   15.3   0.0    6    1-6      14-19  (162)
+ 19 6WT4_B Bacterial STING (Flavob  24.5      73  0.0008   15.3   0.0    6    1-6      14-19  (162)
+ 20 1DIV_A RIBOSOMAL PROTEIN L9; R  23.9      76 0.00084   12.6   0.0    6    1-6      24-29  (149)
+ 21 6SPD_H 50S ribosomal protein L  23.9      76 0.00084   12.5   0.0    6    1-6      23-28  (147)
+ 22 6V39_H Ribosome; Ribosome, Aci  22.8      82 0.00091   12.4   0.0    6    1-6      24-29  (148)
+ 23 7M4Y_H ribosome; Acinetobacter  22.8      82 0.00091   12.4   0.0    6    1-6      24-29  (148)
+ 24 1NKW_F large ribosomal subunit  22.3      86 0.00095   12.3   0.0    6    1-6      23-28  (146)
+ 25 5O60_H 50S ribosomal protein b  22.1      86 0.00096   12.5   0.0    6    1-6      24-29  (151)
+ 26 5XYM_H 50S ribosomal protein L  22.1      86 0.00096   12.5   0.0    6    1-6      24-29  (151)
+ 27 5J8A_DH 30S ribosomal protein   21.6      90   0.001   12.4   0.0    6    1-6      24-29  (149)
+ 28 5LZF_H 30S ribosomal protein S  21.6      90   0.001   12.4   0.0    6    1-6      24-29  (149)
+ 29 5X8T_H 50S ribosomal protein L  20.8      96  0.0011   12.5   0.0    6    1-6      31-36  (155)
+ 30 1NWX_F COMPLEX OF THE LARGE RI  20.4      99  0.0011   12.2   0.0    6    1-6      23-28  (146)
+
+No 1
+>7EBL_A second messenger, complex, cyclic dinucleotide; HET: C2E; 2.17A {Myroides sp. ZB35}
+Probab=68.47  E-value=4.2  Score=17.76  Aligned_cols=6  Identities=67%  Similarity=1.353  Sum_probs=4.8  Template_Neff=5.400
+
+Q GYFLNF            1 GYFLNF    6 (6)
+Q Consensus         1 gyflnf    6 (6)
+                      |||-||
+T Consensus        18 gYfeNF   23 (167)
+T 7EBL_A           18 GYFENL   23 (167)
+T ss_dssp             HHCCCC
+T ss_pred             HHHHHH
+Confidence            688887
+
+
+No 2
+>7EBL_B second messenger, complex, cyclic dinucleotide; HET: C2E; 2.17A {Myroides sp. ZB35}
+Probab=68.47  E-value=4.2  Score=17.76  Aligned_cols=6  Identities=67%  Similarity=1.353  Sum_probs=4.8  Template_Neff=5.400
+
+Q GYFLNF            1 GYFLNF    6 (6)
+Q Consensus         1 gyflnf    6 (6)
+                      |||-||
+T Consensus        18 gYfeNF   23 (167)
+T 7EBL_B           18 GYFENL   23 (167)
+T ss_dssp             HHCCCC
+T ss_pred             HHHHHH
+Confidence            688887
+
+
+No 3
+>7EBD_A second messenger, complex, cyclic dinucleotide; HET: C2E, MSE; 2.25A {Prevotella corporis}
+Probab=67.54  E-value=4.5  Score=17.52  Aligned_cols=6  Identities=50%  Similarity=1.099  Sum_probs=4.8  Template_Neff=5.500
+
+Q GYFLNF            1 GYFLNF    6 (6)
+Q Consensus         1 gyflnf    6 (6)
+                      |||-||
+T Consensus        13 gYfeNF   18 (161)
+T 7EBD_A           13 SYFEGF   18 (161)
+T ss_dssp             HHCCCC
+T ss_pred             HHhhhH
+Confidence            688887
+
+
+No 4
+>6WT5_C Bacterial STING; CBASS, cyclic dinucleotide receptor, CD-NTase; HET: MSE; 2.8A {Capnocytophaga granulosa}
+Probab=66.58  E-value=4.9  Score=17.48  Aligned_cols=6  Identities=50%  Similarity=0.977  Sum_probs=4.8  Template_Neff=5.500
+
+Q GYFLNF            1 GYFLNF    6 (6)
+Q Consensus         1 gyflnf    6 (6)
+                      |||-||
+T Consensus        17 gYfeNF   22 (165)
+T 6WT5_C           17 VYYENF   22 (165)
+T ss_dssp             HHCCCC
+T ss_pred             HHHHHh
+Confidence            688887
+
+
+No 5
+>6WT5_D Bacterial STING; CBASS, cyclic dinucleotide receptor, CD-NTase; HET: MSE; 2.8A {Capnocytophaga granulosa}
+Probab=66.53  E-value=4.9  Score=17.48  Aligned_cols=6  Identities=50%  Similarity=0.977  Sum_probs=4.8  Template_Neff=5.500
+
+Q GYFLNF            1 GYFLNF    6 (6)
+Q Consensus         1 gyflnf    6 (6)
+                      |||-||
+T Consensus        17 gYfeNF   22 (165)
+T 6WT5_D           17 VYYENF   22 (165)
+T ss_dssp             HHCCCC
+T ss_pred             HHHHHc
+Confidence            688887
+
+
+No 6
+>6SPB_H 50S ribosomal protein L2, 50S; Ribosome, Pseudomonas aeruginosa, mutation; 2.82A {Pseudomonas aeruginosa}
+Probab=48.95  E-value=16  Score=13.58  Aligned_cols=6  Identities=67%  Similarity=1.148  Sum_probs=3.3  Template_Neff=7.000
+
+Q GYFLNF            1 GYFLNF    6 (6)
+Q Consensus         1 gyflnf    6 (6)
+                      ||+-||
+T Consensus        23 gyarN~   28 (78)
+T 6SPB_H           23 GYARNF   28 (78)
+T ss_dssp             HHCCCC
+T ss_pred             chhHhe
+Confidence            566554
+
+
+No 7
+>6SPG_H 30S ribosomal protein S2, 30S; Ribosome, Pseudomonas aeruginosa; HET: MG; 3.34A {Pseudomonas aeruginosa}
+Probab=48.95  E-value=16  Score=13.58  Aligned_cols=6  Identities=67%  Similarity=1.148  Sum_probs=3.3  Template_Neff=7.000
+
+Q GYFLNF            1 GYFLNF    6 (6)
+Q Consensus         1 gyflnf    6 (6)
+                      ||+-||
+T Consensus        23 gyarN~   28 (78)
+T 6SPG_H           23 GYARNF   28 (78)
+T ss_pred             chhHhe
+Confidence            566554
+
+
+No 8
+>2W92_A ENDO-BETA-N-ACETYLGLUCOSAMINIDASE D; HYDROLASE, NAG-THIAZOLINE, ANCHIMERIC ASSISTANCE, N-GLYCAN; HET: NGT; 1.65A {STREPTOCOCCUS PNEUMONIAE}
+Probab=34.41  E-value=38  Score=16.48  Aligned_cols=6  Identities=67%  Similarity=1.409  Sum_probs=3.8  Template_Neff=7.700
+
+Q GYFLNF            1 GYFLNF    6 (6)
+Q Consensus         1 gyflnf    6 (6)
+                      |||+|+
+T Consensus       164 Gw~iN~  169 (653)
+T 2W92_A          164 GYFINQ  169 (653)
+T ss_dssp             EEEEEE
+T ss_pred             eEEEEe
+Confidence            667764
+
+
+No 9
+>6Q95_G 30S ribosomal protein S2, 30S; tmRNA SmpB trans-translation translation, RIBOSOME; HET: MG, 5MU; 3.7A {Thermus thermophilus (strain HB8 / ATCC 27634 / DSM 579)}
+Probab=33.67  E-value=40  Score=12.49  Aligned_cols=6  Identities=50%  Similarity=1.043  Sum_probs=2.9  Template_Neff=6.000
+
+Q GYFLNF            1 GYFLNF    6 (6)
+Q Consensus         1 gyflnf    6 (6)
+                      ||+-||
+T Consensus        24 GyarN~   29 (60)
+T 6Q95_G           24 GYARNY   29 (60)
+T ss_pred             cccHHh
+Confidence            455553
+
+
+No 10
+>2W91_A ENDO-BETA-N-ACETYLGLUCOSAMINIDASE D; HYDROLASE, N-GLYCAN, SECRETED, OXAZOLINE, NAG-THIAZOLINE; 1.4A {STREPTOCOCCUS PNEUMONIAE}
+Probab=33.61  E-value=40  Score=16.41  Aligned_cols=6  Identities=67%  Similarity=1.409  Sum_probs=3.8  Template_Neff=7.700
+
+Q GYFLNF            1 GYFLNF    6 (6)
+Q Consensus         1 gyflnf    6 (6)
+                      |||+|+
+T Consensus       164 GwliN~  169 (653)
+T 2W91_A          164 GYFINQ  169 (653)
+T ss_dssp             EEEEEE
+T ss_pred             eEEEEe
+Confidence            667764
+
+
+No 11
+>3GDB_A Putative uncharacterized protein spr0440 (E.C.3.2.1.96); alpha-beta-barrels, Cell wall, Peptidoglycan-anchor, Secreted; HET: PGE; 1.87A {Streptococcus pneumoniae}
+Probab=32.76  E-value=42  Score=17.23  Aligned_cols=6  Identities=67%  Similarity=1.409  Sum_probs=4.0  Template_Neff=7.400
+
+Q GYFLNF            1 GYFLNF    6 (6)
+Q Consensus         1 gyflnf    6 (6)
+                      |||+|+
+T Consensus       315 Gw~iN~  320 (937)
+T 3GDB_A          315 GYFINQ  320 (937)
+T ss_pred             Ceeeec
+Confidence            677774
+
+
+No 12
+>4V4J_G 70S Ribosome; 70S ribosome, Shine-Dalgarno, RIBOSOME; HET: 7MG, MA6, PSU, 5MC, 2MG, M2G; 3.83A {Thermus thermophilus}
+Probab=27.71  E-value=58  Score=12.84  Aligned_cols=6  Identities=50%  Similarity=1.043  Sum_probs=3.0  Template_Neff=8.000
+
+Q GYFLNF            1 GYFLNF    6 (6)
+Q Consensus         1 gyflnf    6 (6)
+                      ||+-||
+T Consensus        24 G~arN~   29 (148)
+T 4V4J_G           24 GYARNY   29 (148)
+T ss_pred             cchhhh
+Confidence            455554
+
+
+No 13
+>7JIL_G Unknown protein fragment, Uncharacterized protein; Translation Initiation, Protein synthesis, bS21; HET: MG; 2.8A {Flavobacterium johnsoniae}
+Probab=27.63  E-value=58  Score=12.92  Aligned_cols=6  Identities=67%  Similarity=0.988  Sum_probs=3.0  Template_Neff=7.800
+
+Q GYFLNF            1 GYFLNF    6 (6)
+Q Consensus         1 gyflnf    6 (6)
+                      ||+-||
+T Consensus        24 GyaRN~   29 (146)
+T 7JIL_G           24 GYGRNF   29 (146)
+T ss_pred             ccchHh
+Confidence            455554
+
+
+No 14
+>2HBA_A L9, ribosomal protein, NTL9, K12M; HET: CL; 1.25A {Geobacillus stearothermophilus} SCOP: d.100.1.1
+Probab=26.21  E-value=64  Score=11.65  Aligned_cols=6  Identities=67%  Similarity=1.104  Sum_probs=2.6  Template_Neff=6.000
+
+Q GYFLNF            1 GYFLNF    6 (6)
+Q Consensus         1 gyflnf    6 (6)
+                      ||+-||
+T Consensus        24 G~arN~   29 (52)
+T 2HBA_A           24 GYANNF   29 (52)
+T ss_dssp             HHCCCC
+T ss_pred             cchHhh
+Confidence            444443
+
+
+No 15
+>7K00_h ribosome; antibiotics, post-translational modifications, post-transcriptional modifications; HET: MEQ, SPD, SPM, OMG, OMU, PSU, 5MC, H2U, 4OC, 2MG, G7M, 1MG, MA6, 6MZ, 4D4, 2MA, MG, 5MU, 3TD, PAR, OMC, D2T, UR3; 1.98A {Escherichia coli}
+Probab=25.09  E-value=70  Score=12.64  Aligned_cols=6  Identities=67%  Similarity=1.148  Sum_probs=2.9  Template_Neff=8.000
+
+Q GYFLNF            1 GYFLNF    6 (6)
+Q Consensus         1 gyflnf    6 (6)
+                      ||+-||
+T Consensus        24 GyarN~   29 (149)
+T 7K00_h           24 GYARNF   29 (149)
+T ss_pred             hhHHHh
+Confidence            455453
+
+
+No 16
+>4WZD_69 30S ribosomal protein S2, 30S; ribosome, translation, mismatch; HET: OMG, PSU, 4SU, MG, MIA, QUO, 5MU; 3.1A {Thermus thermophilus HB8}
+Probab=24.50  E-value=73  Score=12.63  Aligned_cols=6  Identities=50%  Similarity=1.043  Sum_probs=2.9  Template_Neff=7.900
+
+Q GYFLNF            1 GYFLNF    6 (6)
+Q Consensus         1 gyflnf    6 (6)
+                      ||+-||
+T Consensus        24 G~arN~   29 (148)
+T 4WZD_69          24 GYARNY   29 (148)
+T ss_pred             cchhHh
+Confidence            455453
+
+
+No 17
+>4Y4O_2I 50S Ribosomal Protein L2, 50S; Ribosome, rRNA modofications, pseudouridine, rRNA; HET: 7MG, 2MG, SF4, MPD, 2MA, OMG, PSU, 0TD, 5MC, 4OC, 2MU, MG, ARG, MA6, ZN, UR3, M2G, 5MU; 2.3A {Thermus thermophilus HB8}
+Probab=24.50  E-value=73  Score=12.63  Aligned_cols=6  Identities=50%  Similarity=1.043  Sum_probs=2.9  Template_Neff=7.900
+
+Q GYFLNF            1 GYFLNF    6 (6)
+Q Consensus         1 gyflnf    6 (6)
+                      ||+-||
+T Consensus        24 G~arN~   29 (148)
+T 4Y4O_2I          24 GYARNY   29 (148)
+T ss_pred             cchhHh
+Confidence            455453
+
+
+No 18
+>6WT4_A Bacterial STING (Flacobacteriaceae sp.)/RNA Complex; CBASS, cyclic dinucleotide receptor, CD-NTase; HET: SO4, 4BW; 1.78A {Flavobacteriaceae bacterium}
+Probab=24.48  E-value=73  Score=15.26  Aligned_cols=6  Identities=83%  Similarity=1.669  Sum_probs=4.1  Template_Neff=1.000
+
+Q GYFLNF            1 GYFLNF    6 (6)
+Q Consensus         1 gyflnf    6 (6)
+                      |||-||
+T Consensus        14 gyfknf   19 (162)
+T 6WT4_A           14 GYFKNF   19 (162)
+T ss_dssp             HHCCCC
+T ss_pred             HHHHhc
+Confidence            677665
+
+
+No 19
+>6WT4_B Bacterial STING (Flavobacteriaceae sp.)/RNA Complex; CBASS, cyclic dinucleotide receptor, CD-NTase; HET: SO4, 4BW; 1.78A {Flavobacteriaceae}
+Probab=24.48  E-value=73  Score=15.26  Aligned_cols=6  Identities=83%  Similarity=1.669  Sum_probs=4.1  Template_Neff=1.000
+
+Q GYFLNF            1 GYFLNF    6 (6)
+Q Consensus         1 gyflnf    6 (6)
+                      |||-||
+T Consensus        14 gyfknf   19 (162)
+T 6WT4_B           14 GYFKNF   19 (162)
+T ss_dssp             HHCCCC
+T ss_pred             HHHHhc
+Confidence            677665
+
+
+No 20
+>1DIV_A RIBOSOMAL PROTEIN L9; RIBOSOMAL PROTEIN, RRNA-BINDING; 2.6A {Geobacillus stearothermophilus} SCOP: d.99.1.1, d.100.1.1
+Probab=23.91  E-value=76  Score=12.65  Aligned_cols=6  Identities=67%  Similarity=1.104  Sum_probs=2.9  Template_Neff=7.800
+
+Q GYFLNF            1 GYFLNF    6 (6)
+Q Consensus         1 gyflnf    6 (6)
+                      ||+-||
+T Consensus        24 G~arN~   29 (149)
+T 1DIV_A           24 GYANNF   29 (149)
+T ss_dssp             THCCCC
+T ss_pred             ccHHHh
+Confidence            455553
+
+
+No 21
+>6SPD_H 50S ribosomal protein L2, 50S; Ribosome, Pseudomonas aeruginosa; 3.28A {Pseudomonas aeruginosa}
+Probab=23.88  E-value=76  Score=12.52  Aligned_cols=6  Identities=67%  Similarity=1.148  Sum_probs=2.9  Template_Neff=8.000
+
+Q GYFLNF            1 GYFLNF    6 (6)
+Q Consensus         1 gyflnf    6 (6)
+                      ||+-||
+T Consensus        23 GyaRN~   28 (147)
+T 6SPD_H           23 GYARNF   28 (147)
+T ss_dssp             HHCCCC
+T ss_pred             hhHHHh
+Confidence            455443
+
+
+No 22
+>6V39_H Ribosome; Ribosome, Acinetobacter baumannii; HET: OMU, 7MG, 2MG, 2MA, 6MZ, OMG, PSU, 3TD, 4SU, 5MC, 4OC, FME, MG, MA6, H2U, UR3, 5MU;{Acinetobacter sp. CIP 51.11}
+Probab=22.80  E-value=82  Score=12.43  Aligned_cols=6  Identities=67%  Similarity=0.988  Sum_probs=2.8  Template_Neff=8.000
+
+Q GYFLNF            1 GYFLNF    6 (6)
+Q Consensus         1 gyflnf    6 (6)
+                      ||.-||
+T Consensus        24 GyarN~   29 (148)
+T 6V39_H           24 GYGRNF   29 (148)
+T ss_pred             ceehhe
+Confidence            455443
+
+
+No 23
+>7M4Y_H ribosome; Acinetobacter baumannii, ribosome, eravacycline, antibiotic; HET: UR3, 7MG, 5MC, OMG, 6MZ, 4SU, PSU, 5MU, H2U, YQM, 2MG, OMU, MA6, MG, 2MA, 4OC, 3TD; 2.5A {Acinetobacter baumannii AB0057}
+Probab=22.80  E-value=82  Score=12.43  Aligned_cols=6  Identities=67%  Similarity=0.988  Sum_probs=2.8  Template_Neff=8.000
+
+Q GYFLNF            1 GYFLNF    6 (6)
+Q Consensus         1 gyflnf    6 (6)
+                      ||.-||
+T Consensus        24 GyarN~   29 (148)
+T 7M4Y_H           24 GYGRNF   29 (148)
+T ss_pred             ceehhe
+Confidence            455443
+
+
+No 24
+>1NKW_F large ribosomal subunit 50S; Ribosome  large subunit ; 3.1A {Deinococcus radiodurans} SCOP: i.1.1.2
+Probab=22.25  E-value=86  Score=12.31  Aligned_cols=6  Identities=50%  Similarity=0.960  Sum_probs=2.8  Template_Neff=8.100
+
+Q GYFLNF            1 GYFLNF    6 (6)
+Q Consensus         1 gyflnf    6 (6)
+                      ||.-||
+T Consensus        23 G~arN~   28 (146)
+T 1NKW_F           23 GYARNW   28 (146)
+T ss_pred             chhHhh
+Confidence            454443
+
+
+No 25
+>5O60_H 50S ribosomal protein bL37, 50S; ribosome, translation; HET: MG, PHE; 3.203A {Mycobacterium smegmatis str. MC2 155}
+Probab=22.14  E-value=86  Score=12.46  Aligned_cols=6  Identities=50%  Similarity=0.883  Sum_probs=2.8  Template_Neff=7.900
+
+Q GYFLNF            1 GYFLNF    6 (6)
+Q Consensus         1 gyflnf    6 (6)
+                      ||.-||
+T Consensus        24 GyaRN~   29 (151)
+T 5O60_H           24 GYGRNY   29 (151)
+T ss_pred             cchhHh
+Confidence            455443
+
+
+No 26
+>5XYM_H 50S ribosomal protein L32, 50S; Mycobacterium smegmatis ribosome, rRNA, rprotein; HET: MG; 3.08A {Mycobacterium smegmatis (strain ATCC 700084 / mc(2)155)}
+Probab=22.14  E-value=86  Score=12.46  Aligned_cols=6  Identities=50%  Similarity=0.883  Sum_probs=2.8  Template_Neff=7.900
+
+Q GYFLNF            1 GYFLNF    6 (6)
+Q Consensus         1 gyflnf    6 (6)
+                      ||.-||
+T Consensus        24 GyaRN~   29 (151)
+T 5XYM_H           24 GYGRNY   29 (151)
+T ss_pred             cchhHh
+Confidence            455443
+
+
+No 27
+>5J8A_DH 30S ribosomal protein S2, 30S; ribosome, resistance, negamycin, tigecycline, tetracycline; HET: 2MA, MEQ, GUN, ACY, 5MC, 4OC, 4D4, PUT, D2T, MPD, OMC, 6MZ, OMG, PSU, T1C, SPD, MG, PG4, EDO, 3TD, MA6, H2U, PGE, OMU, 7MG, 2MG, 1MG, 1PE, PEG, UR3, 5MU; 3.1A {Escherichia coli (strain K12)}
+Probab=21.59  E-value=90  Score=12.44  Aligned_cols=6  Identities=67%  Similarity=1.148  Sum_probs=2.8  Template_Neff=7.800
+
+Q GYFLNF            1 GYFLNF    6 (6)
+Q Consensus         1 gyflnf    6 (6)
+                      ||.-||
+T Consensus        24 G~arN~   29 (149)
+T 5J8A_DH          24 GYARNF   29 (149)
+T ss_pred             hhHHHh
+Confidence            454443
+
+
+No 28
+>5LZF_H 30S ribosomal protein S2, 30S; translation, decoding, recoding, selenocysteine, ribosome; HET: OMU, 2MG, OMC, 1MG, 6MZ, PSU, OMG, 3TD, 4SU, 2MA, 5MC, 4OC, 6IA, G7M, MA6, H2U, UR3, 5MU; 4.6A {Escherichia coli}
+Probab=21.59  E-value=90  Score=12.44  Aligned_cols=6  Identities=67%  Similarity=1.148  Sum_probs=2.8  Template_Neff=7.800
+
+Q GYFLNF            1 GYFLNF    6 (6)
+Q Consensus         1 gyflnf    6 (6)
+                      ||.-||
+T Consensus        24 G~arN~   29 (149)
+T 5LZF_H           24 GYARNF   29 (149)
+T ss_pred             hhHHHh
+Confidence            454443
+
+
+No 29
+>5X8T_H 50S ribosomal protein L31,50S ribosomal; Cryo-EM, ribosome, chloroplast ribosome; 3.3A {Spinacia oleracea}
+Probab=20.84  E-value=96  Score=12.55  Aligned_cols=6  Identities=50%  Similarity=1.237  Sum_probs=2.8  Template_Neff=7.600
+
+Q GYFLNF            1 GYFLNF    6 (6)
+Q Consensus         1 gyflnf    6 (6)
+                      ||+-||
+T Consensus        31 GyaRN~   36 (155)
+T 5X8T_H           31 GFLRNF   36 (155)
+T ss_pred             chHHHh
+Confidence            454443
+
+
+No 30
+>1NWX_F COMPLEX OF THE LARGE RIBOSOMAL; ABT-773, MACROLIDE, KETOLIDE, RIBOSOME, 50S; HET: 773; 3.5A {Deinococcus radiodurans} SCOP: i.1.1.2
+Probab=20.41  E-value=99  Score=12.19  Aligned_cols=6  Identities=50%  Similarity=0.960  Sum_probs=2.7  Template_Neff=8.000
+
+Q GYFLNF            1 GYFLNF    6 (6)
+Q Consensus         1 gyflnf    6 (6)
+                      ||.-||
+T Consensus        23 G~aRN~   28 (146)
+T 1NWX_F           23 GYARNW   28 (146)
+T ss_pred             chHHHh
+Confidence            454443
+
+

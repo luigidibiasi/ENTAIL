@@ -1,0 +1,174 @@
+Query         QVGFGN
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 11:15:17 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QVGFGN/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QVGFGN/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6TYL_A Resistance to inhibitor  68.1     4.3 4.8E-05   18.7   0.0    6    1-6     410-415 (492)
+  2 6NMJ_B Resistance to inhibitor  65.8     5.2 5.7E-05   18.3   0.0    6    1-6     410-415 (453)
+  3 6NMG_B Resistance to inhibitor  65.8     5.2 5.7E-05   18.3   0.0    6    1-6     410-415 (453)
+  4 6N85_B Synembryn-A, G alpha t   57.6     9.2  0.0001   18.0   0.0    6    1-6     429-434 (512)
+  5 6N3C_D TAR DNA-binding protein  49.4      15 0.00017   14.3   0.0    6    1-6       1-6   (46)
+  6 1EY2_A jelly roll, beta sandwi  47.2      18 0.00019   17.8   0.0    6    1-6      33-38  (471)
+  7 3ZDS_G HOMOGENTISATE 1,2-DIOXY  44.4      21 0.00023   17.1   0.0    6    1-6      12-17  (433)
+  8 4AQ6_K HOMOGENTISATE 1,2-DIOXY  44.4      21 0.00023   17.1   0.0    6    1-6      12-17  (433)
+  9 4AQ6_D HOMOGENTISATE 1,2-DIOXY  42.1      24 0.00026   17.2   0.0    6    1-6      12-17  (433)
+ 10 1EYB_A APO HUMAN HOMOGENTISATE  41.5      25 0.00027   17.6   0.0    6    1-6      33-38  (471)
+ 11 7MC5_A ?; RNA binding, VIRAL P  26.8      62 0.00068   16.2   0.0    6    1-6     106-111 (287)
+
+No 1
+>6TYL_A Resistance to inhibitors of cholinesterase; Ric-8A, G protein, GEF, SIGNALING; HET: TPO, SEP; 3.3A {Rattus norvegicus}
+Probab=68.15  E-value=4.3  Score=18.71  Aligned_cols=6  Identities=50%  Similarity=1.132  Sum_probs=4.5  Template_Neff=7.800
+
+Q QVGFGN            1 QVGFGN    6 (6)
+Q Consensus         1 qvgfgn    6 (6)
+                      ++||||
+T Consensus       410 ~~GyGn  415 (492)
+T 6TYL_A          410 YTGYGN  415 (492)
+T ss_dssp             TCSHHH
+T ss_pred             hhCcch
+Confidence            478887
+
+
+No 2
+>6NMJ_B Resistance to inhibitors of cholinesterase; guanine nucleotide exchange factor heterotrimeric; 2.3A {Rattus norvegicus}
+Probab=65.79  E-value=5.2  Score=18.29  Aligned_cols=6  Identities=50%  Similarity=1.132  Sum_probs=1.9  Template_Neff=7.800
+
+Q QVGFGN            1 QVGFGN    6 (6)
+Q Consensus         1 qvgfgn    6 (6)
+                      .+||||
+T Consensus       410 ~tGyGn  415 (453)
+T 6NMJ_B          410 YTGYGN  415 (453)
+T ss_dssp             HHC---
+T ss_pred             hcCccc
+Confidence            378887
+
+
+No 3
+>6NMG_B Resistance to inhibitors of cholinesterase; guanine nucleotide exchange factor heterotrimeric; HET: SO4; 2.2A {Rattus norvegicus}
+Probab=65.78  E-value=5.2  Score=18.29  Aligned_cols=6  Identities=50%  Similarity=1.132  Sum_probs=4.4  Template_Neff=7.800
+
+Q QVGFGN            1 QVGFGN    6 (6)
+Q Consensus         1 qvgfgn    6 (6)
+                      .+||||
+T Consensus       410 ~~GyGn  415 (453)
+T 6NMG_B          410 YTGYGN  415 (453)
+T ss_dssp             HHCHHH
+T ss_pred             hhCccc
+Confidence            378887
+
+
+No 4
+>6N85_B Synembryn-A, G alpha t C; Ric8a, Armadillo repeat, G alpha; HET: MAL; 2.5A {Bos taurus}
+Probab=57.58  E-value=9.2  Score=17.98  Aligned_cols=6  Identities=50%  Similarity=1.132  Sum_probs=4.3  Template_Neff=7.500
+
+Q QVGFGN            1 QVGFGN    6 (6)
+Q Consensus         1 qvgfgn    6 (6)
+                      .+||||
+T Consensus       429 ~tGyGn  434 (512)
+T 6N85_B          429 YTGYGN  434 (512)
+T ss_pred             HhCccc
+Confidence            368887
+
+
+No 5
+>6N3C_D TAR DNA-binding protein 43; Amyloid, TDP43, ALS, FTLD-TDP, dna; 3.3A {Homo sapiens}
+Probab=49.43  E-value=15  Score=14.31  Aligned_cols=6  Identities=83%  Similarity=1.298  Sum_probs=2.4  Template_Neff=3.000
+
+Q QVGFGN            1 QVGFGN    6 (6)
+Q Consensus         1 qvgfgn    6 (6)
+                      |.||||
+T Consensus         1 ~~g~g~    6 (46)
+T 6N3C_D            1 QGGFGN    6 (46)
+T ss_dssp             --CCSC
+T ss_pred             CCCCCC
+Confidence            456664
+
+
+No 6
+>1EY2_A jelly roll, beta sandwich, OXIDOREDUCTASE; HET: MSE; 2.3A {Homo sapiens} SCOP: b.82.1.4
+Probab=47.20  E-value=18  Score=17.84  Aligned_cols=6  Identities=67%  Similarity=1.171  Sum_probs=4.4  Template_Neff=5.900
+
+Q QVGFGN            1 QVGFGN    6 (6)
+Q Consensus         1 qvgfgn    6 (6)
+                      |.||||
+T Consensus        33 ~~gfgn   38 (471)
+T 1EY2_A           33 ISGFGN   38 (471)
+T ss_dssp             EECTTC
+T ss_pred             ccCCCC
+Confidence            568887
+
+
+No 7
+>3ZDS_G HOMOGENTISATE 1,2-DIOXYGENASE (E.C.1.13.11.5); OXIDOREDUCTASE, EXTRADIOL, ALKYLPEROXO SPECIES, HOMOGENTISATE-SEMIQUINONE; HET: HQ9, M8O, OMD, FE, HMQ; 1.7A {PSEUDOMONAS PUTIDA}
+Probab=44.37  E-value=21  Score=17.06  Aligned_cols=6  Identities=67%  Similarity=1.187  Sum_probs=4.4  Template_Neff=6.600
+
+Q QVGFGN            1 QVGFGN    6 (6)
+Q Consensus         1 qvgfgn    6 (6)
+                      |.||||
+T Consensus        12 ~~g~~~   17 (433)
+T 3ZDS_G           12 LSGFGN   17 (433)
+T ss_dssp             EECTTC
+T ss_pred             ccCCCC
+Confidence            468887
+
+
+No 8
+>4AQ6_K HOMOGENTISATE 1,2-DIOXYGENASE (E.C.1.13.11.5); OXIDOREDUCTASE, EXTRADIOL-TYPE, EXTRADIOL-TYPE DIOXYGENASE; HET: FE, OMD, B3P; 1.98A {PSEUDOMONAS PUTIDA}
+Probab=44.37  E-value=21  Score=17.06  Aligned_cols=6  Identities=67%  Similarity=1.187  Sum_probs=4.4  Template_Neff=6.600
+
+Q QVGFGN            1 QVGFGN    6 (6)
+Q Consensus         1 qvgfgn    6 (6)
+                      |.||||
+T Consensus        12 ~~g~~~   17 (433)
+T 4AQ6_K           12 LSGFGN   17 (433)
+T ss_dssp             EECTTC
+T ss_pred             ccCCCC
+Confidence            468887
+
+
+No 9
+>4AQ6_D HOMOGENTISATE 1,2-DIOXYGENASE (E.C.1.13.11.5); OXIDOREDUCTASE, EXTRADIOL-TYPE, EXTRADIOL-TYPE DIOXYGENASE; HET: B3P, OMD, FE; 1.98A {PSEUDOMONAS PUTIDA}
+Probab=42.09  E-value=24  Score=17.19  Aligned_cols=6  Identities=67%  Similarity=1.187  Sum_probs=4.4  Template_Neff=6.000
+
+Q QVGFGN            1 QVGFGN    6 (6)
+Q Consensus         1 qvgfgn    6 (6)
+                      |.||||
+T Consensus        12 ~~g~gn   17 (433)
+T 4AQ6_D           12 LSGFGN   17 (433)
+T ss_dssp             EECTTC
+T ss_pred             ccCCCC
+Confidence            568887
+
+
+No 10
+>1EYB_A APO HUMAN HOMOGENTISATE DIOXYGENASE (E.C.; jelly roll, beta sandwich, OXIDOREDUCTASE; HET: MSE; 1.9A {Homo sapiens} SCOP: b.82.1.4
+Probab=41.47  E-value=25  Score=17.63  Aligned_cols=6  Identities=67%  Similarity=1.171  Sum_probs=4.4  Template_Neff=5.400
+
+Q QVGFGN            1 QVGFGN    6 (6)
+Q Consensus         1 qvgfgn    6 (6)
+                      |.||||
+T Consensus        33 ~~gfgn   38 (471)
+T 1EYB_A           33 ISGFGN   38 (471)
+T ss_dssp             EECTTC
+T ss_pred             ccCCCC
+Confidence            468887
+
+
+No 11
+>7MC5_A ?; RNA binding, VIRAL PROTEIN; HET: EDO, TLA; 1.64A {Severe acute respiratory syndrome coronavirus 2}
+Probab=26.79  E-value=62  Score=16.18  Aligned_cols=6  Identities=50%  Similarity=1.055  Sum_probs=3.7  Template_Neff=3.500
+
+Q QVGFGN            1 QVGFGN    6 (6)
+Q Consensus         1 qvgfgn    6 (6)
+                      |+||.|
+T Consensus       106 q~gfs~  111 (287)
+T 7MC5_A          106 QLGFST  111 (287)
+T ss_dssp             EEEETT
+T ss_pred             eeeecC
+Confidence            667754
+
+

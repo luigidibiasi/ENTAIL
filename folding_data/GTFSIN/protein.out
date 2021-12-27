@@ -1,0 +1,154 @@
+Query         GTFSIN
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 04:07:16 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GTFSIN/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GTFSIN/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6N3A_J TAR DNA-binding protein  24.0      75 0.00083   12.8   0.0    6    1-6       4-9   (50)
+  2 3GZF_A Replicase polyprotein 1  20.6      97  0.0011   13.6   0.0    6    1-6      18-23  (96)
+  3 3VCB_A RNA-directed RNA polyme  20.3      99  0.0011   13.5   0.0    6    1-6      13-18  (94)
+  4 1ZH1_A non-structural polyprot  20.0   1E+02  0.0011   13.8   0.0    6    1-6      51-56  (163)
+  5 3VC8_B RNA-directed RNA polyme  19.9   1E+02  0.0011   13.5   0.0    6    1-6      13-18  (94)
+  6 5L8Z_A DNA-binding protein; th  19.9   1E+02  0.0011   10.6   0.0    5    1-5      52-56  (96)
+  7 6N2L_A Histone family protein   19.5 1.1E+02  0.0012   11.2   0.0    5    1-5      56-60  (100)
+  8 2JRI_A Ataxin-3 (E.C.3.4.22.-)  19.5 1.1E+02  0.0012   13.2   0.0    6    1-6      73-78  (182)
+  9 1HUE_A HU PROTEIN; DNA-BINDING  19.3 1.1E+02  0.0012   10.3   0.0    5    1-5      48-52  (90)
+ 10 1HUU_B PROTEIN HU; DNA-BINDING  19.3 1.1E+02  0.0012   10.3   0.0    5    1-5      48-52  (90)
+
+No 1
+>6N3A_J TAR DNA-binding protein 43, segA; Amyloid, TDP43, ALS, FTLD-TDP, dna; 3.3A {Homo sapiens}
+Probab=24.01  E-value=75  Score=12.83  Aligned_cols=6  Identities=83%  Similarity=1.342  Sum_probs=3.4  Template_Neff=2.200
+
+Q GTFSIN            1 GTFSIN    6 (6)
+Q Consensus         1 gtfsin    6 (6)
+                      |.|+||
+T Consensus         4 g~~~iN    9 (50)
+T 6N3A_J            4 GAFSIN    9 (50)
+T ss_dssp             SCCEEC
+T ss_pred             ccccCC
+Confidence            346665
+
+
+No 2
+>3GZF_A Replicase polyprotein 1ab; Coronavirus, FCoV, nsp4, VIRAL PROTEIN; HET: SO4; 2.756A {Feline coronavirus}
+Probab=20.63  E-value=97  Score=13.57  Aligned_cols=6  Identities=67%  Similarity=1.182  Sum_probs=3.0  Template_Neff=3.100
+
+Q GTFSIN            1 GTFSIN    6 (6)
+Q Consensus         1 gtfsin    6 (6)
+                      |||-||
+T Consensus        18 ~TFvi~   23 (96)
+T 3GZF_A           18 GTFVID   23 (96)
+T ss_dssp             SCEEEC
+T ss_pred             ceEEEe
+Confidence            455553
+
+
+No 3
+>3VCB_A RNA-directed RNA polymerase; New fold  Homodimer, Host; 2.4A {Murine hepatitis virus}
+Probab=20.35  E-value=99  Score=13.53  Aligned_cols=6  Identities=50%  Similarity=0.639  Sum_probs=3.1  Template_Neff=3.000
+
+Q GTFSIN            1 GTFSIN    6 (6)
+Q Consensus         1 gtfsin    6 (6)
+                      |||-||
+T Consensus        13 ~TFvi~   18 (94)
+T 3VCB_A           13 TTFMIT   18 (94)
+T ss_dssp             SCEEEC
+T ss_pred             ceeEEc
+Confidence            456553
+
+
+No 4
+>1ZH1_A non-structural polyprotein; HCV, nonstructural protein 5A, NS5A; 2.5A {Hepatitis C virus}
+Probab=20.02  E-value=1e+02  Score=13.79  Aligned_cols=6  Identities=83%  Similarity=1.348  Sum_probs=3.0  Template_Neff=5.000
+
+Q GTFSIN            1 GTFSIN    6 (6)
+Q Consensus         1 gtfsin    6 (6)
+                      |+|-||
+T Consensus        51 g~vPIN   56 (163)
+T 1ZH1_A           51 GTFPIN   56 (163)
+T ss_dssp             TCBCCC
+T ss_pred             Ceeccc
+Confidence            455554
+
+
+No 5
+>3VC8_B RNA-directed RNA polymerase; New fold, Host membrane, Multi-pass; 2.0A {Murine hepatitis virus}
+Probab=19.93  E-value=1e+02  Score=13.48  Aligned_cols=6  Identities=50%  Similarity=0.639  Sum_probs=0.0  Template_Neff=3.000
+
+Q GTFSIN            1 GTFSIN    6 (6)
+Q Consensus         1 gtfsin    6 (6)
+                      |||-||
+T Consensus        13 ~TFvi~   18 (94)
+T 3VC8_B           13 TTFMIT   18 (94)
+T ss_dssp             SCEEEC
+T ss_pred             ceeEec
+
+
+No 6
+>5L8Z_A DNA-binding protein; thermostable, DNA-binding, HU-protein, Spiroplasma melliferum; 1.4A {Spiroplasma melliferum KC3}
+Probab=19.87  E-value=1e+02  Score=10.57  Aligned_cols=5  Identities=40%  Similarity=1.192  Sum_probs=0.0  Template_Neff=9.500
+
+Q GTFSIN            1 GTFSI    5 (6)
+Q Consensus         1 gtfsi    5 (6)
+                      |+|++
+T Consensus        52 G~f~~   56 (96)
+T 5L8Z_A           52 GKFAV   56 (96)
+T ss_dssp             EEEEE
+T ss_pred             EEEEE
+
+
+No 7
+>6N2L_A Histone family protein DNA-binding protein; SSGCID, Burkholderia ambifaria, Histone family; 1.85A {Burkholderia ambifaria (strain MC40-6)}
+Probab=19.51  E-value=1.1e+02  Score=11.18  Aligned_cols=5  Identities=40%  Similarity=0.913  Sum_probs=0.0  Template_Neff=8.400
+
+Q GTFSIN            1 GTFSI    5 (6)
+Q Consensus         1 gtfsi    5 (6)
+                      |+|++
+T Consensus        56 G~F~~   60 (100)
+T 6N2L_A           56 GSFGS   60 (100)
+T ss_dssp             EEEEE
+T ss_pred             EEEEE
+
+
+No 8
+>2JRI_A Ataxin-3 (E.C.3.4.22.-), UBC protein; di-ubiquitin, Lys48-linked, Josephin domain of; NMR {Homo sapiens}
+Probab=19.50  E-value=1.1e+02  Score=13.16  Aligned_cols=6  Identities=67%  Similarity=1.016  Sum_probs=0.0  Template_Neff=6.700
+
+Q GTFSIN            1 GTFSIN    6 (6)
+Q Consensus         1 gtfsin    6 (6)
+                      |-||||
+T Consensus        73 Gnydi~   78 (182)
+T 2JRI_A           73 GFFSIQ   78 (182)
+T ss_dssp             SCCCHH
+T ss_pred             CCCCHH
+
+
+No 9
+>1HUE_A HU PROTEIN; DNA-BINDING; NMR {Geobacillus stearothermophilus} SCOP: a.55.1.1
+Probab=19.33  E-value=1.1e+02  Score=10.30  Aligned_cols=5  Identities=40%  Similarity=1.159  Sum_probs=0.0  Template_Neff=9.700
+
+Q GTFSIN            1 GTFSI    5 (6)
+Q Consensus         1 gtfsi    5 (6)
+                      |+|++
+T Consensus        48 G~f~~   52 (90)
+T 1HUE_A           48 GNFEV   52 (90)
+T ss_dssp             BEECC
+T ss_pred             EEEEE
+
+
+No 10
+>1HUU_B PROTEIN HU; DNA-BINDING PROTEIN, DNA SUPERCOILING, ALPHA/BETA; 2.0A {Geobacillus stearothermophilus} SCOP: a.55.1.1
+Probab=19.33  E-value=1.1e+02  Score=10.30  Aligned_cols=5  Identities=40%  Similarity=1.159  Sum_probs=0.0  Template_Neff=9.700
+
+Q GTFSIN            1 GTFSI    5 (6)
+Q Consensus         1 gtfsi    5 (6)
+                      |+|++
+T Consensus        48 G~f~~   52 (90)
+T 1HUU_B           48 GNFEV   52 (90)
+T ss_dssp             EEEEE
+T ss_pred             EEEEE
+
+

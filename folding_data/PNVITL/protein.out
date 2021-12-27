@@ -1,0 +1,157 @@
+Query         PNVITL
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 06:11:05 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/PNVITL/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/PNVITL/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6H59_B CDP-diacylglycerol--ino  55.1      11 0.00012   15.4   0.0    6    1-6      30-35  (217)
+  2 6H5A_B CDP-diacylglycerol--ino  50.8      14 0.00016   15.3   0.0    6    1-6      30-35  (223)
+  3 5D92_B AF2299 protein,Phosphat  39.2      28 0.00031   15.7   0.0    6    1-6     166-171 (342)
+  4 6WM5_A AfCTD-Phosphatidylinosi  33.9      39 0.00043   15.6   0.0    6    1-6     168-173 (370)
+  5 6WMV_A AfCTD-Phosphatidylinosi  28.9      54 0.00059   15.8   0.0    6    1-6     168-173 (370)
+  6 5D91_A AF2299,Phosphatidylinos  28.4      55 0.00061   15.4   0.0    6    1-6     159-164 (336)
+  7 4O6M_A AF2299, a CDP-alcohol p  27.7      58 0.00064   15.9   0.0    6    1-6     202-207 (372)
+  8 4Q7C_B AF2299, a CDP-alcohol p  27.7      58 0.00064   15.9   0.0    6    1-6     202-207 (372)
+  9 4Z8Q_B AVRRXO1-ORF1, AVRRXO1-O  17.3 1.3E+02  0.0014   13.5   0.0    6    1-6      79-84  (98)
+ 10 4Z8T_B AVRRXO1-ORF1, AVRRXO1-O  16.7 1.4E+02  0.0015   13.4   0.0    6    1-6      79-84  (98)
+
+No 1
+>6H59_B CDP-diacylglycerol--inositol 3-phosphatidyltransferase (E.C.2.7.8.11); Phosphotransferase, Glycerophospholipid metabolism, Metal binding; HET: OLB, PGE, FQT, 1PE, SO4; 1.8A {Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv)}
+Probab=55.07  E-value=11  Score=15.40  Aligned_cols=6  Identities=50%  Similarity=1.198  Sum_probs=3.7  Template_Neff=8.400
+
+Q PNVITL            1 PNVITL    6 (6)
+Q Consensus         1 pnvitl    6 (6)
+                      ||.||+
+T Consensus        30 PN~iT~   35 (217)
+T 6H59_B           30 PDVVTI   35 (217)
+T ss_dssp             HHHHHH
+T ss_pred             hHHHHH
+Confidence            676664
+
+
+No 2
+>6H5A_B CDP-diacylglycerol--inositol 3-phosphatidyltransferase (E.C.2.7.8.11); Phosphotransferase Glycerophospholipid metabolism Metal binding; HET: OLC, FLC, 1PE, LFA; 1.88A {Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv)}
+Probab=50.83  E-value=14  Score=15.26  Aligned_cols=6  Identities=50%  Similarity=1.198  Sum_probs=3.6  Template_Neff=8.200
+
+Q PNVITL            1 PNVITL    6 (6)
+Q Consensus         1 pnvitl    6 (6)
+                      ||.||+
+T Consensus        30 PN~iTl   35 (223)
+T 6H5A_B           30 PDVVTI   35 (223)
+T ss_pred             HHHHHH
+Confidence            566663
+
+
+No 3
+>5D92_B AF2299 protein,Phosphatidylinositol synthase; Membrane protein, Enzyme, lipid biosynthesis; HET: 8K6, 58A; 3.62A {Archaeoglobus fulgidus}
+Probab=39.15  E-value=28  Score=15.72  Aligned_cols=6  Identities=33%  Similarity=0.960  Sum_probs=3.6  Template_Neff=7.400
+
+Q PNVITL            1 PNVITL    6 (6)
+Q Consensus         1 pnvitl    6 (6)
+                      ||.||+
+T Consensus       166 PN~iTl  171 (342)
+T 5D92_B          166 PDAVTV  171 (342)
+T ss_dssp             HHHHHH
+T ss_pred             chHHHH
+Confidence            566663
+
+
+No 4
+>6WM5_A AfCTD-Phosphatidylinositol-phosphate synthase (PIPS) fusion; CDP-alcohol phosphotransferase, Structural Genomics, PSI-Biology; HET: 8K6, FLC, OLC, GOL, XP4, TCE; 1.961A {Archaeoglobus fulgidus}
+Probab=33.88  E-value=39  Score=15.57  Aligned_cols=6  Identities=33%  Similarity=1.016  Sum_probs=3.6  Template_Neff=7.200
+
+Q PNVITL            1 PNVITL    6 (6)
+Q Consensus         1 pnvitl    6 (6)
+                      ||.||+
+T Consensus       168 PN~ITl  173 (370)
+T 6WM5_A          168 PDAVTI  173 (370)
+T ss_dssp             HHHHHH
+T ss_pred             CcHHHH
+Confidence            566663
+
+
+No 5
+>6WMV_A AfCTD-Phosphatidylinositol-phosphate synthase (PIPS) fusion; CDP-alcohol phosphotransferase, MEMBRANE PROTEIN; HET: FLC, C5P, 1PE, TCE, GOL, OLC, 8K6, LIP; 2.142A {Archaeoglobus fulgidus}
+Probab=28.91  E-value=54  Score=15.78  Aligned_cols=6  Identities=33%  Similarity=1.016  Sum_probs=3.6  Template_Neff=6.000
+
+Q PNVITL            1 PNVITL    6 (6)
+Q Consensus         1 pnvitl    6 (6)
+                      ||.||+
+T Consensus       168 PN~ITl  173 (370)
+T 6WMV_A          168 PDAVTI  173 (370)
+T ss_dssp             HHHHHH
+T ss_pred             ccHHHH
+Confidence            566664
+
+
+No 6
+>5D91_A AF2299,Phosphatidylinositol synthase; Membrane protein, Enzyme, lipid biosynthesis; HET: 8K6, SO4; 2.501A {Archaeoglobus fulgidus}
+Probab=28.43  E-value=55  Score=15.39  Aligned_cols=6  Identities=33%  Similarity=0.960  Sum_probs=3.5  Template_Neff=6.300
+
+Q PNVITL            1 PNVITL    6 (6)
+Q Consensus         1 pnvitl    6 (6)
+                      ||.||+
+T Consensus       159 PN~ITl  164 (336)
+T 5D91_A          159 PDAVTV  164 (336)
+T ss_dssp             HHHHHH
+T ss_pred             chHHHH
+Confidence            566653
+
+
+No 7
+>4O6M_A AF2299, a CDP-alcohol phosphotransferase; CDP-alcohol phosphotransferase, membrane protein, Structural; HET: MPG, C5P, SO4; 1.901A {Archaeoglobus fulgidus}
+Probab=27.67  E-value=58  Score=15.92  Aligned_cols=6  Identities=67%  Similarity=1.010  Sum_probs=3.7  Template_Neff=5.500
+
+Q PNVITL            1 PNVITL    6 (6)
+Q Consensus         1 pnvitl    6 (6)
+                      ||.||+
+T Consensus       202 PN~ITl  207 (372)
+T 4O6M_A          202 PNQITV  207 (372)
+T ss_dssp             HHHHHH
+T ss_pred             chHHHH
+Confidence            666664
+
+
+No 8
+>4Q7C_B AF2299, a CDP-alcohol phosphotransferase; CDP-alcohol phosphotransferase, membrane protein, Structural; HET: TLA, MPG, C2G; 3.102A {Archaeoglobus fulgidus}
+Probab=27.67  E-value=58  Score=15.92  Aligned_cols=6  Identities=67%  Similarity=1.010  Sum_probs=3.7  Template_Neff=5.500
+
+Q PNVITL            1 PNVITL    6 (6)
+Q Consensus         1 pnvitl    6 (6)
+                      ||.||+
+T Consensus       202 PN~ITl  207 (372)
+T 4Q7C_B          202 PNQITV  207 (372)
+T ss_dssp             HHHHHH
+T ss_pred             chHHHH
+Confidence            666664
+
+
+No 9
+>4Z8Q_B AVRRXO1-ORF1, AVRRXO1-ORF2; AVRRXO1-ORF2 AVRRXO1-ORF1 AVRRXO1 AVRRXO1 REQUIRED; HET: PO4, MSE; 1.89A {Xanthomonas oryzae pv. oryzicola}
+Probab=17.34  E-value=1.3e+02  Score=13.49  Aligned_cols=6  Identities=83%  Similarity=1.320  Sum_probs=0.0  Template_Neff=2.200
+
+Q PNVITL            1 PNVITL    6 (6)
+Q Consensus         1 pnvitl    6 (6)
+                      |||.||
+T Consensus        79 ~~V~TL   84 (98)
+T 4Z8Q_B           79 PNVMTL   84 (98)
+T ss_dssp             TTCCSH
+T ss_pred             CCcccH
+
+
+No 10
+>4Z8T_B AVRRXO1-ORF1, AVRRXO1-ORF2; AVRRXO1-ORF2 AVRRXO1-ORF1 AVRRXO1 AVRRXO1 REQUIRED; HET: MSE, SO4; 1.64A {Xanthomonas oryzae pv. oryzicola}
+Probab=16.68  E-value=1.4e+02  Score=13.41  Aligned_cols=6  Identities=83%  Similarity=1.320  Sum_probs=0.0  Template_Neff=2.200
+
+Q PNVITL            1 PNVITL    6 (6)
+Q Consensus         1 pnvitl    6 (6)
+                      |||.||
+T Consensus        79 ~~V~TL   84 (98)
+T 4Z8T_B           79 PNVMTL   84 (98)
+T ss_dssp             TTCCCH
+T ss_pred             CCcccH
+
+

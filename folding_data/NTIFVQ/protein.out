@@ -1,0 +1,150 @@
+Query         NTIFVQ
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 04:37:10 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NTIFVQ/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NTIFVQ/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 7L08_f Ribosome; mtEFG2 and mt  37.4      31 0.00035   15.2   0.0    6    1-6      14-19  (194)
+  2 1U7F_A Mothers against decapen  20.0   1E+02  0.0011   12.9   0.0    6    1-6      84-89  (198)
+  3 3DIT_A Protein mothers against  19.3 1.1E+02  0.0012   12.8   0.0    6    1-6      83-88  (188)
+  4 1DD1_B SMAD4; B-SHEET SANDWICH  19.3 1.1E+02  0.0012   13.9   0.0    6    1-6     121-126 (268)
+  5 6M64_C Mothers against decapen  19.2 1.1E+02  0.0012   13.0   0.0    6    1-6      94-99  (208)
+  6 5C4V_A Mothers against decapen  18.3 1.2E+02  0.0013   13.7   0.0    6    1-6     114-119 (258)
+  7 5C4V_C Mothers against decapen  18.3 1.2E+02  0.0013   13.7   0.0    6    1-6     114-119 (258)
+  8 4R9P_A RE28239p; MH2-like doma  17.7 1.2E+02  0.0014   13.5   0.0    6    1-6     138-143 (242)
+  9 1RJL_C PROTEIN; Beta Sheet, An  14.7 1.7E+02  0.0018   13.0   0.0    6    1-6      63-68  (95)
+ 10 6SXW_A Zinc finger protein 638  13.8 1.8E+02   0.002    8.2   0.0    5    1-5       1-5   (74)
+
+No 1
+>7L08_f Ribosome; mtEFG2 and mtRRF, RIBOSOME; HET: MG, GDP; 3.49A {Homo sapiens}
+Probab=37.41  E-value=31  Score=15.23  Aligned_cols=6  Identities=83%  Similarity=1.016  Sum_probs=4.0  Template_Neff=5.900
+
+Q NTIFVQ            1 NTIFVQ    6 (6)
+Q Consensus         1 ntifvq    6 (6)
+                      ||||-|
+T Consensus        14 ~~~~~~   19 (194)
+T 7L08_f           14 NTIFKQ   19 (194)
+T ss_pred             ChHHHH
+Confidence            677754
+
+
+No 2
+>1U7F_A Mothers against decapentaplegic homolog 3; Smad, TGF-beta, signal transduction, protein; HET: SEP; 2.6A {Homo sapiens} SCOP: b.26.1.1
+Probab=19.99  E-value=1e+02  Score=12.93  Aligned_cols=6  Identities=67%  Similarity=1.032  Sum_probs=0.0  Template_Neff=7.600
+
+Q NTIFVQ            1 NTIFVQ    6 (6)
+Q Consensus         1 ntifvq    6 (6)
+                      +.||||
+T Consensus        84 ~pVFV~   89 (198)
+T 1U7F_A           84 SAIFVQ   89 (198)
+T ss_dssp             SCEEEE
+T ss_pred             CceEEe
+
+
+No 3
+>3DIT_A Protein mothers against dpp; MAD, TGF-beta, MH2, Cytoplasm, Developmental; 3.2A {Drosophila melanogaster}
+Probab=19.27  E-value=1.1e+02  Score=12.76  Aligned_cols=6  Identities=67%  Similarity=1.032  Sum_probs=0.0  Template_Neff=7.600
+
+Q NTIFVQ            1 NTIFVQ    6 (6)
+Q Consensus         1 ntifvq    6 (6)
+                      ..||||
+T Consensus        83 ~~VFV~   88 (188)
+T 3DIT_A           83 SAIFVQ   88 (188)
+T ss_dssp             SCEEEE
+T ss_pred             CceEEe
+
+
+No 4
+>1DD1_B SMAD4; B-SHEET SANDWICH HELIX-TURN-HELIX, SIGNALING PROTEIN; HET: SO4; 2.62A {Homo sapiens} SCOP: b.26.1.1
+Probab=19.26  E-value=1.1e+02  Score=13.87  Aligned_cols=6  Identities=50%  Similarity=0.999  Sum_probs=0.0  Template_Neff=6.700
+
+Q NTIFVQ            1 NTIFVQ    6 (6)
+Q Consensus         1 ntifvq    6 (6)
+                      +.||||
+T Consensus       121 ~pVFVq  126 (268)
+T 1DD1_B          121 HAVFVQ  126 (268)
+T ss_dssp             SCEEEE
+T ss_pred             CceEEe
+
+
+No 5
+>6M64_C Mothers against decapentaplegic homolog 2; TGF-beta, Complex, Transcription factor, SIGNALING; 1.45A {Homo sapiens}
+Probab=19.20  E-value=1.1e+02  Score=12.99  Aligned_cols=6  Identities=67%  Similarity=1.032  Sum_probs=0.0  Template_Neff=7.500
+
+Q NTIFVQ            1 NTIFVQ    6 (6)
+Q Consensus         1 ntifvq    6 (6)
+                      +.||||
+T Consensus        94 ~pVFVq   99 (208)
+T 6M64_C           94 SAIFVQ   99 (208)
+T ss_dssp             SCEEEE
+T ss_pred             CceEEe
+
+
+No 6
+>5C4V_A Mothers against decapentaplegic homolog 4; Complex, signaling protein; 2.6A {Homo sapiens}
+Probab=18.26  E-value=1.2e+02  Score=13.69  Aligned_cols=6  Identities=50%  Similarity=0.999  Sum_probs=0.0  Template_Neff=6.700
+
+Q NTIFVQ            1 NTIFVQ    6 (6)
+Q Consensus         1 ntifvq    6 (6)
+                      +.||||
+T Consensus       114 ~pVFVq  119 (258)
+T 5C4V_A          114 HAVFVQ  119 (258)
+T ss_dssp             SCEEEE
+T ss_pred             CceEEe
+
+
+No 7
+>5C4V_C Mothers against decapentaplegic homolog 4; Complex, signaling protein; 2.6A {Homo sapiens}
+Probab=18.26  E-value=1.2e+02  Score=13.69  Aligned_cols=6  Identities=50%  Similarity=0.999  Sum_probs=0.0  Template_Neff=6.700
+
+Q NTIFVQ            1 NTIFVQ    6 (6)
+Q Consensus         1 ntifvq    6 (6)
+                      +.||||
+T Consensus       114 ~pVFVq  119 (258)
+T 5C4V_C          114 HAVFVQ  119 (258)
+T ss_dssp             SCEEEE
+T ss_pred             CceEEe
+
+
+No 8
+>4R9P_A RE28239p; MH2-like domain, Beta-sandwich, Smad/FHA family; 1.592A {Drosophila melanogaster}
+Probab=17.72  E-value=1.2e+02  Score=13.46  Aligned_cols=6  Identities=17%  Similarity=0.805  Sum_probs=0.0  Template_Neff=6.800
+
+Q NTIFVQ            1 NTIFVQ    6 (6)
+Q Consensus         1 ntifvq    6 (6)
+                      +.||||
+T Consensus       138 ~pVFVq  143 (242)
+T 4R9P_A          138 SNVYVK  143 (242)
+T ss_dssp             SCEEEE
+T ss_pred             CceEEe
+
+
+No 9
+>1RJL_C PROTEIN; Beta Sheet, Antibody-Protein Complex, IMMUNE; 2.6A {Mus musculus} SCOP: b.76.1.1
+Probab=14.66  E-value=1.7e+02  Score=13.01  Aligned_cols=6  Identities=67%  Similarity=0.600  Sum_probs=0.0  Template_Neff=2.600
+
+Q NTIFVQ            1 NTIFVQ    6 (6)
+Q Consensus         1 ntifvq    6 (6)
+                      +||-||
+T Consensus        63 ~TITvq   68 (95)
+T 1RJL_C           63 GTITVQ   68 (95)
+T ss_dssp             SCEEEE
+T ss_pred             CeEEEE
+
+
+No 10
+>6SXW_A Zinc finger protein 638; Zinc finger, RNA binding, RRM; HET: SO4; 2.751A {Homo sapiens}
+Probab=13.78  E-value=1.8e+02  Score=8.25  Aligned_cols=5  Identities=0%  Similarity=0.587  Sum_probs=0.0  Template_Neff=11.900
+
+Q NTIFVQ            1 NTIFV    5 (6)
+Q Consensus         1 ntifv    5 (6)
+                      +++|+
+T Consensus         1 ~~~~i    5 (74)
+T 6SXW_A            1 SVLLI    5 (74)
+T ss_dssp             CEEEE
+T ss_pred             CEEEE
+
+

@@ -1,0 +1,150 @@
+Query         QGYQAY
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 08:04:03 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QGYQAY/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QGYQAY/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6KS5_B Type IV secretion prote  16.0 1.5E+02  0.0016   15.7   0.0    6    1-6     204-209 (352)
+  2 3RJR_C Transforming growth fac  15.1 1.6E+02  0.0017   12.6   0.0    6    1-6     288-293 (363)
+  3 2LR0_A P-loop ntpase fold; Str  14.2 1.7E+02  0.0019   13.7   0.0    4    1-4      25-28  (134)
+  4 4IM0_A Serine/threonine-protei  13.8 1.8E+02   0.002   14.3   0.0    6    1-6     651-656 (663)
+  5 5VQF_B Transforming growth fac  13.3 1.9E+02  0.0021   12.3   0.0    6    1-6     288-293 (363)
+  6 5V0S_A Prephenate dehydrogenas  12.6 2.1E+02  0.0023    8.4   0.0    5    2-6      65-69  (69)
+  7 6FGK_A GTP pyrophosphokinase Y  12.5 2.1E+02  0.0023   11.6   0.0    5    2-6     130-134 (210)
+  8 5JYN_A Envelope glycoprotein g  12.3 2.2E+02  0.0024   10.6   0.0    4    1-4      34-37  (40)
+  9 4TUW_A SLBP-5E/RNA Complex; SL  12.0 2.2E+02  0.0025   11.9   0.0    5    2-6      27-31  (93)
+ 10 4TUW_B SLBP-5E/RNA Complex; SL  12.0 2.2E+02  0.0025   11.9   0.0    5    2-6      27-31  (93)
+
+No 1
+>6KS5_B Type IV secretion protein Dot; enzyme, HYDROLASE; 2.8A {Legionella pneumophila}
+Probab=15.97  E-value=1.5e+02  Score=15.66  Aligned_cols=6  Identities=50%  Similarity=1.259  Sum_probs=3.7  Template_Neff=2.500
+
+Q QGYQAY            1 QGYQAY    6 (6)
+Q Consensus         1 qgyqay    6 (6)
+                      +|||-|
+T Consensus       204 eGYq~Y  209 (352)
+T 6KS5_B          204 EGYTLY  209 (352)
+T ss_dssp             CCHHHH
+T ss_pred             hhHHHH
+Confidence            477755
+
+
+No 2
+>3RJR_C Transforming growth factor beta-1; TGF beta, activation, integrin, Cytokine; HET: NAG; 3.05A {Sus scrofa}
+Probab=15.14  E-value=1.6e+02  Score=12.60  Aligned_cols=6  Identities=50%  Similarity=1.005  Sum_probs=0.0  Template_Neff=9.400
+
+Q QGYQAY            1 QGYQAY    6 (6)
+Q Consensus         1 qgyqay    6 (6)
+                      +||.||
+T Consensus       288 ~~y~a~  293 (363)
+T 3RJR_C          288 KGYHAN  293 (363)
+T ss_pred             CeEEee
+
+
+No 3
+>2LR0_A P-loop ntpase fold; Structural Genomics, NORTHEAST STRUCTURAL GENOMICS; NMR {artificial gene}
+Probab=14.23  E-value=1.7e+02  Score=13.73  Aligned_cols=4  Identities=100%  Similarity=1.647  Sum_probs=0.0  Template_Neff=1.000
+
+Q QGYQAY            1 QGYQ    4 (6)
+Q Consensus         1 qgyq    4 (6)
+                      ||||
+T Consensus        25 qgyq   28 (134)
+T 2LR0_A           25 QGYQ   28 (134)
+T ss_dssp             TTCE
+T ss_pred             CCcc
+
+
+No 4
+>4IM0_A Serine/threonine-protein kinase TBK1 (E.C.2.7.11.1); kinase, serine/threonine kinase, MRT67307, TRANSFERASE-TRANSFERASE; HET: 1FV; 2.4001A {Homo sapiens}
+Probab=13.83  E-value=1.8e+02  Score=14.26  Aligned_cols=6  Identities=50%  Similarity=0.966  Sum_probs=0.0  Template_Neff=8.000
+
+Q QGYQAY            1 QGYQAY    6 (6)
+Q Consensus         1 qgyqay    6 (6)
+                      ||||.|
+T Consensus       651 ~~~~~~  656 (663)
+T 4IM0_A          651 SKYQEY  656 (663)
+T ss_dssp             HHHTTT
+T ss_pred             HHHHHH
+
+
+No 5
+>5VQF_B Transforming growth factor beta-1; pro-complex, latency, homodimer, PROTEIN BINDING; HET: BMA, NAG; 2.9A {Sus scrofa}
+Probab=13.32  E-value=1.9e+02  Score=12.27  Aligned_cols=6  Identities=50%  Similarity=1.005  Sum_probs=0.0  Template_Neff=9.600
+
+Q QGYQAY            1 QGYQAY    6 (6)
+Q Consensus         1 qgyqay    6 (6)
+                      +||.||
+T Consensus       288 ~~y~a~  293 (363)
+T 5VQF_B          288 KGYHAN  293 (363)
+T ss_dssp             SEEECC
+T ss_pred             CeEEee
+
+
+No 6
+>5V0S_A Prephenate dehydrogenase (E.C.1.3.1.12); prephenate dehydrogenase, tyrA, Bacillus anthracis; HET: MSE; 2.01A {Bacillus anthracis}
+Probab=12.55  E-value=2.1e+02  Score=8.35  Aligned_cols=5  Identities=60%  Similarity=1.185  Sum_probs=0.0  Template_Neff=11.200
+
+Q QGYQAY            2 GYQAY    6 (6)
+Q Consensus         2 gyqay    6 (6)
+                      ||..|
+T Consensus        65 ~~~v~   69 (69)
+T 5V0S_A           65 KYQTY   69 (69)
+T ss_dssp             TCCBC
+T ss_pred             CCccC
+
+
+No 7
+>6FGK_A GTP pyrophosphokinase YwaC (E.C.2.7.6.5); Stringent response, alarmone, SAS2, RelP; 3.2A {Bacillus subtilis (strain 168)}
+Probab=12.53  E-value=2.1e+02  Score=11.62  Aligned_cols=5  Identities=40%  Similarity=1.132  Sum_probs=0.0  Template_Neff=8.700
+
+Q QGYQAY            2 GYQAY    6 (6)
+Q Consensus         2 gyqay    6 (6)
+                      ||++.
+T Consensus       130 GY~s~  134 (210)
+T 6FGK_A          130 GYRSL  134 (210)
+T ss_dssp             CCCCE
+T ss_pred             CeEEE
+
+
+No 8
+>5JYN_A Envelope glycoprotein gp160; transmembrane domain, lipid bilayer, transmembrane; NMR {Human immunodeficiency virus 1}
+Probab=12.25  E-value=2.2e+02  Score=10.60  Aligned_cols=4  Identities=75%  Similarity=1.439  Sum_probs=0.0  Template_Neff=4.000
+
+Q QGYQAY            1 QGYQ    4 (6)
+Q Consensus         1 qgyq    4 (6)
+                      |||+
+T Consensus        34 qGY~   37 (40)
+T 5JYN_A           34 QGYS   37 (40)
+T ss_dssp             HSSC
+T ss_pred             cCCC
+
+
+No 9
+>4TUW_A SLBP-5E/RNA Complex; SLBP, histone mRNA stem-loop, phospho; 2.902A {Drosophila melanogaster}
+Probab=11.97  E-value=2.2e+02  Score=11.92  Aligned_cols=5  Identities=40%  Similarity=1.145  Sum_probs=0.0  Template_Neff=4.600
+
+Q QGYQAY            2 GYQAY    6 (6)
+Q Consensus         2 gyqay    6 (6)
+                      ||+.|
+T Consensus        27 gY~rY   31 (93)
+T 4TUW_A           27 AYERY   31 (93)
+T ss_dssp             HHHTC
+T ss_pred             HHHHH
+
+
+No 10
+>4TUW_B SLBP-5E/RNA Complex; SLBP, histone mRNA stem-loop, phospho; 2.902A {Drosophila melanogaster}
+Probab=11.97  E-value=2.2e+02  Score=11.92  Aligned_cols=5  Identities=40%  Similarity=1.145  Sum_probs=0.0  Template_Neff=4.600
+
+Q QGYQAY            2 GYQAY    6 (6)
+Q Consensus         2 gyqay    6 (6)
+                      ||+.|
+T Consensus        27 gY~rY   31 (93)
+T 4TUW_B           27 AYERY   31 (93)
+T ss_dssp             HHHTC
+T ss_pred             HHHHH
+
+

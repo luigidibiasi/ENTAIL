@@ -1,0 +1,148 @@
+Query         ATKKVD
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 15:46:59 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/ATKKVD/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/ATKKVD/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3KML_C tobacco mosaic virus co  10.3 2.8E+02  0.0031   13.0   0.0    6    1-6      12-17  (161)
+  2 6X0Q_M Capsid protein Circular  10.2 2.8E+02  0.0031   13.0   0.0    6    1-6      12-17  (161)
+  3 1CGM_E CUCUMBER GREEN MOTTLE M   4.7 7.8E+02  0.0086   10.8   0.0    6    1-6     111-116 (161)
+  4 1EI7_B TMV COAT PROTEIN REFINE   4.6 7.8E+02  0.0087   10.9   0.0    6    1-6     110-115 (158)
+  5 1VTM_P TOBACCO MOSAIC VIRUS, S   4.6 7.8E+02  0.0087   10.8   0.0    6    1-6     110-115 (158)
+  6 6RM3_LV0 uL2, uS2, uL15, eS26,   4.5 8.1E+02   0.009   10.7   0.0    6    1-6       3-8   (146)
+  7 6SAE_A Capsid protein/RNA Comp   4.4 8.3E+02  0.0092   10.7   0.0    6    1-6     111-116 (159)
+  8 6QJ2_B Smc4, Condensin complex   4.4 8.4E+02  0.0093   10.1   0.0    4    3-6      12-15  (134)
+  9 6XYW_Aq 60S ribosomal protein    3.7   1E+03   0.011   10.3   0.0    6    1-6     115-120 (126)
+ 10 6IR8_A transcription factor/DN   3.5 1.1E+03   0.012    8.5   0.0    6    1-6      44-49  (69)
+
+No 1
+>3KML_C tobacco mosaic virus coat protein; 3.011A {Tobacco mosaic virus}
+Probab=10.25  E-value=2.8e+02  Score=13.05  Aligned_cols=6  Identities=67%  Similarity=1.021  Sum_probs=2.7  Template_Neff=3.500
+
+Q ATKKVD            1 ATKKVD    6 (6)
+Q Consensus         1 atkkvd    6 (6)
+                      ||++||
+T Consensus        12 At~RvD   17 (161)
+T 3KML_C           12 ATRRVD   17 (161)
+T ss_dssp             -CCGGG
+T ss_pred             hhhccc
+Confidence            455554
+
+
+No 2
+>6X0Q_M Capsid protein Circular Permutant; Viral capsid proteins, designed heme; HET: HEM; 3.0A {Tobacco mosaic virus (strain vulgare)}
+Probab=10.22  E-value=2.8e+02  Score=13.04  Aligned_cols=6  Identities=67%  Similarity=1.021  Sum_probs=2.2  Template_Neff=3.500
+
+Q ATKKVD            1 ATKKVD    6 (6)
+Q Consensus         1 atkkvd    6 (6)
+                      ||++||
+T Consensus        12 At~RvD   17 (161)
+T 6X0Q_M           12 ATRRVD   17 (161)
+T ss_dssp             --CHHH
+T ss_pred             hhhccc
+Confidence            455554
+
+
+No 3
+>1CGM_E CUCUMBER GREEN MOTTLE MOSAIC VIRUS; VIRUS, Helical virus; 3.4A {Cucumber green mottle mosaic virus} SCOP: a.24.5.1
+Probab=4.66  E-value=7.8e+02  Score=10.84  Aligned_cols=6  Identities=50%  Similarity=0.722  Sum_probs=0.0  Template_Neff=5.800
+
+Q ATKKVD            1 ATKKVD    6 (6)
+Q Consensus         1 atkkvd    6 (6)
+                      ||+++|
+T Consensus       111 at~r~d  116 (161)
+T 1CGM_E          111 AVKRTD  116 (161)
+T ss_pred             cccccc
+
+
+No 4
+>1EI7_B TMV COAT PROTEIN REFINED FROM; disordered loops, Viral protein, VIRUS; 2.45A {Tobacco mosaic virus} SCOP: a.24.5.1
+Probab=4.64  E-value=7.8e+02  Score=10.88  Aligned_cols=6  Identities=67%  Similarity=1.021  Sum_probs=0.0  Template_Neff=5.600
+
+Q ATKKVD            1 ATKKVD    6 (6)
+Q Consensus         1 atkkvd    6 (6)
+                      +|+++|
+T Consensus       110 at~r~d  115 (158)
+T 1EI7_B          110 ATRRVD  115 (158)
+T ss_dssp             GGHHHH
+T ss_pred             cccccc
+
+
+No 5
+>1VTM_P TOBACCO MOSAIC VIRUS, STRAIN U2; VIRUS, Helical virus, Virus-RNA COMPLEX; 3.5A {Tobacco mild green mosaic virus (TMGMV)} SCOP: a.24.5.1
+Probab=4.63  E-value=7.8e+02  Score=10.80  Aligned_cols=6  Identities=67%  Similarity=0.955  Sum_probs=0.0  Template_Neff=5.800
+
+Q ATKKVD            1 ATKKVD    6 (6)
+Q Consensus         1 atkkvd    6 (6)
+                      ||+++|
+T Consensus       110 at~r~d  115 (158)
+T 1VTM_P          110 ATQRVD  115 (158)
+T ss_dssp             CTTTTT
+T ss_pred             cchhcc
+
+
+No 6
+>6RM3_LV0 uL2, uS2, uL15, eS26, uL3; Microsporidia, Ribosome, Intracellular Parasite; HET: MG; 3.4A {Vairimorpha necatrix}
+Probab=4.51  E-value=8.1e+02  Score=10.66  Aligned_cols=6  Identities=83%  Similarity=0.933  Sum_probs=0.0  Template_Neff=5.700
+
+Q ATKKVD            1 ATKKVD    6 (6)
+Q Consensus         1 atkkvd    6 (6)
+                      |.|||+
+T Consensus         3 ~~~~~~    8 (146)
+T 6RM3_LV0          3 AEKKVD    8 (146)
+T ss_pred             cceecC
+
+
+No 7
+>6SAE_A Capsid protein/RNA Complex; TMV, virus assembly/disassembly, Ca2+ switch; HET: MG; 1.9A {Tobacco mosaic virus (strain vulgare)}
+Probab=4.44  E-value=8.3e+02  Score=10.74  Aligned_cols=6  Identities=67%  Similarity=1.021  Sum_probs=0.0  Template_Neff=5.800
+
+Q ATKKVD            1 ATKKVD    6 (6)
+Q Consensus         1 atkkvd    6 (6)
+                      ||+++|
+T Consensus       111 at~r~d  116 (159)
+T 6SAE_A          111 ATRRVD  116 (159)
+T ss_pred             hhhccc
+
+
+No 8
+>6QJ2_B Smc4, Condensin complex subunit 2; condensin, SMC complex, ATPase, chromosome; HET: SO4; 3.0A {Chaetomium thermophilum (strain DSM 1495 / CBS 144.50 / IMI 039719)}
+Probab=4.40  E-value=8.4e+02  Score=10.11  Aligned_cols=4  Identities=100%  Similarity=1.207  Sum_probs=0.0  Template_Neff=6.600
+
+Q ATKKVD            3 KKVD    6 (6)
+Q Consensus         3 kkvd    6 (6)
+                      |+||
+T Consensus        12 KrVD   15 (134)
+T 6QJ2_B           12 KKVD   15 (134)
+T ss_dssp             CCCC
+T ss_pred             CCCC
+
+
+No 9
+>6XYW_Aq 60S ribosomal protein L2, mitochondrial; Ribosome, Mitochondria, Plant; 3.86A {Arabidopsis thaliana}
+Probab=3.75  E-value=1e+03  Score=10.32  Aligned_cols=6  Identities=67%  Similarity=0.994  Sum_probs=0.0  Template_Neff=5.200
+
+Q ATKKVD            1 ATKKVD    6 (6)
+Q Consensus         1 atkkvd    6 (6)
+                      |..|||
+T Consensus       115 ~~~~~~  120 (126)
+T 6XYW_Aq         115 ASRKVD  120 (126)
+T ss_pred             cCcccc
+
+
+No 10
+>6IR8_A transcription factor/DNA Complex; Transcription factor Complex Zinc finger; 2.3A {Oryza sativa Japonica Group}
+Probab=3.49  E-value=1.1e+03  Score=8.52  Aligned_cols=6  Identities=33%  Similarity=0.606  Sum_probs=0.0  Template_Neff=7.000
+
+Q ATKKVD            1 ATKKVD    6 (6)
+Q Consensus         1 atkkvd    6 (6)
+                      |+|.|.
+T Consensus        44 akK~Ve   49 (69)
+T 6IR8_A           44 AQRQVQ   49 (69)
+T ss_dssp             CEEEEE
+T ss_pred             cccEEE
+
+

@@ -1,0 +1,147 @@
+Query         QQNYSK
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 09:47:31 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QQNYSK/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QQNYSK/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2VY5_A U11/U12 SMALL NUCLEAR R   8.3 3.7E+02  0.0041    8.8   0.0    6    1-6      32-37  (37)
+  2 4ORL_A Uncharacterized protein   7.9 3.9E+02  0.0044   11.0   0.0    6    1-6      36-41  (110)
+  3 6C0F_7 Ribosome; Pre-60S, ribo   7.6 4.1E+02  0.0046   12.4   0.0    6    1-6      47-52  (231)
+  4 4Q53_B Uncharacterized protein   7.6 4.2E+02  0.0046   11.0   0.0    6    1-6      36-41  (110)
+  5 6AO5_A Serine/threonine-protei   7.2 4.5E+02   0.005   10.7   0.0    4    1-4     359-362 (362)
+  6 1R4V_A Hypothetical protein AQ   6.8 4.8E+02  0.0053   12.4   0.0    5    2-6      15-19  (171)
+  7 5FWL_E HEAT SHOCK PROTEIN HSP    6.6   5E+02  0.0055   12.8   0.0    4    3-6       3-6   (378)
+  8 2LW7_A Histidine--tRNA ligase,   6.6   5E+02  0.0055   10.3   0.0    5    2-6      32-36  (170)
+  9 6ZKO_W NADH dehydrogenase [ubi   6.6   5E+02  0.0055   12.3   0.0    6    1-6     130-135 (189)
+ 10 5NQZ_A Factor H binding protei   6.6   5E+02  0.0056   12.2   0.0    5    1-5      94-98  (269)
+
+No 1
+>2VY5_A U11/U12 SMALL NUCLEAR RIBONUCLEOPROTEIN 48; SPLICING, MRNA PROCESSING, ALTERNATIVE SPLICING; NMR {HOMO SAPIENS} SCOP: g.37.1.7
+Probab=8.26  E-value=3.7e+02  Score=8.77  Aligned_cols=6  Identities=33%  Similarity=0.744  Sum_probs=0.0  Template_Neff=6.700
+
+Q QQNYSK            1 QQNYSK    6 (6)
+Q Consensus         1 qqnysk    6 (6)
+                      .+.|+|
+T Consensus        32 ~~gy~~   37 (37)
+T 2VY5_A           32 KMGYTK   37 (37)
+T ss_dssp             HSSCCC
+T ss_pred             ccCCCC
+
+
+No 2
+>4ORL_A Uncharacterized protein; PF16022 family, DUF4783, Structural Genomics; 1.4A {Bacteroides ovatus}
+Probab=7.90  E-value=3.9e+02  Score=11.03  Aligned_cols=6  Identities=33%  Similarity=0.368  Sum_probs=0.0  Template_Neff=5.800
+
+Q QQNYSK            1 QQNYSK    6 (6)
+Q Consensus         1 qqnysk    6 (6)
+                      +++|||
+T Consensus        36 ~~~ySk   41 (110)
+T 4ORL_A           36 STNVDK   41 (110)
+T ss_dssp             EEEEEH
+T ss_pred             cceeCH
+
+
+No 3
+>6C0F_7 Ribosome; Pre-60S, ribosome biogenesis, LSU processome; 3.7A {Saccharomyces cerevisiae BY4741}
+Probab=7.63  E-value=4.1e+02  Score=12.36  Aligned_cols=6  Identities=67%  Similarity=0.966  Sum_probs=0.0  Template_Neff=5.600
+
+Q QQNYSK            1 QQNYSK    6 (6)
+Q Consensus         1 qqnysk    6 (6)
+                      .|||..
+T Consensus        47 ~QNY~~   52 (231)
+T 6C0F_7           47 AQNYKK   52 (231)
+T ss_pred             HHHHHH
+
+
+No 4
+>4Q53_B Uncharacterized protein; Cystatin-like fold, DUF4783, PF16022 family; HET: PG4, PGE, 7PG, IOD; 1.27A {Bacteroides uniformis}
+Probab=7.59  E-value=4.2e+02  Score=10.96  Aligned_cols=6  Identities=17%  Similarity=0.163  Sum_probs=0.0  Template_Neff=5.800
+
+Q QQNYSK            1 QQNYSK    6 (6)
+Q Consensus         1 qqnysk    6 (6)
+                      +++|||
+T Consensus        36 ~~~ySk   41 (110)
+T 4Q53_B           36 STHADK   41 (110)
+T ss_pred             CCeeCH
+
+
+No 5
+>6AO5_A Serine/threonine-protein kinase 3 (E.C.2.7.11.1), Protein; Hippo, mst autoactivation, dimerization, signaling; HET: ANP; 2.955A {Homo sapiens}
+Probab=7.17  E-value=4.5e+02  Score=10.70  Aligned_cols=4  Identities=75%  Similarity=1.190  Sum_probs=0.0  Template_Neff=10.700
+
+Q QQNYSK            1 QQNY    4 (6)
+Q Consensus         1 qqny    4 (6)
+                      |||+
+T Consensus       359 ~~~~  362 (362)
+T 6AO5_A          359 QQNF  362 (362)
+T ss_dssp             C---
+T ss_pred             HhcC
+
+
+No 6
+>1R4V_A Hypothetical protein AQ_328; structural genomics, all-alpha, histon fold; 1.9A {Aquifex aeolicus} SCOP: a.22.1.4
+Probab=6.81  E-value=4.8e+02  Score=12.43  Aligned_cols=5  Identities=80%  Similarity=1.232  Sum_probs=0.0  Template_Neff=3.500
+
+Q QQNYSK            2 QNYSK    6 (6)
+Q Consensus         2 qnysk    6 (6)
+                      .||||
+T Consensus        15 ~~~~~   19 (171)
+T 1R4V_A           15 KNYSK   19 (171)
+T ss_dssp             -----
+T ss_pred             CCcch
+
+
+No 7
+>5FWL_E HEAT SHOCK PROTEIN HSP 90; HSP90, CDC37, CDK4, CHAPERONE, KINASE; HET: SEP, ATP; 9.0A {HOMO SAPIENS}
+Probab=6.61  E-value=5e+02  Score=12.81  Aligned_cols=4  Identities=50%  Similarity=0.874  Sum_probs=0.0  Template_Neff=6.000
+
+Q QQNYSK            3 NYSK    6 (6)
+Q Consensus         3 nysk    6 (6)
+                      +|||
+T Consensus         3 DYSK    6 (378)
+T 5FWL_E            3 DYSV    6 (378)
+T ss_dssp             CCGG
+T ss_pred             Cchh
+
+
+No 8
+>2LW7_A Histidine--tRNA ligase, cytoplasmic (E.C.6.1.1.21); synthetase, LIGASE; NMR {Homo sapiens}
+Probab=6.60  E-value=5e+02  Score=10.27  Aligned_cols=5  Identities=20%  Similarity=0.388  Sum_probs=0.0  Template_Neff=8.600
+
+Q QQNYSK            2 QNYSK    6 (6)
+Q Consensus         2 qnysk    6 (6)
+                      +|||+
+T Consensus        32 ~~~s~   36 (170)
+T 2LW7_A           32 EEVAK   36 (170)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 9
+>6ZKO_W NADH dehydrogenase [ubiquinone] flavoprotein 1; complex, respiration, NADH, proton pump; HET: CDL, SF4, 2MR, SEP, 3PE, PC1, ZMP, NDP, FMN, FME, AMP, AYA, MYR; 3.8A {Ovis aries}
+Probab=6.58  E-value=5e+02  Score=12.34  Aligned_cols=6  Identities=33%  Similarity=0.983  Sum_probs=0.0  Template_Neff=4.100
+
+Q QQNYSK            1 QQNYSK    6 (6)
+Q Consensus         1 qqnysk    6 (6)
+                      ||+|.|
+T Consensus       130 q~~YEk  135 (189)
+T 6ZKO_W          130 EKNYER  135 (189)
+T ss_pred             HHHHHH
+
+
+No 10
+>5NQZ_A Factor H binding protein,Factor H; Meningitis, Vaccine, Complement, Chimeric, immune; HET: ACT; 1.63A { Neisseria meningitidis MC58}
+Probab=6.55  E-value=5e+02  Score=12.20  Aligned_cols=5  Identities=40%  Similarity=0.341  Sum_probs=0.0  Template_Neff=6.000
+
+Q QQNYSK            1 QQNYS    5 (6)
+Q Consensus         1 qqnys    5 (6)
+                      .|+||
+T Consensus        94 nQ~YS   98 (269)
+T 5NQZ_A           94 KQSHS   98 (269)
+T ss_dssp             ECSSE
+T ss_pred             ecCCe
+
+

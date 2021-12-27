@@ -1,0 +1,175 @@
+Query         RGFGNS
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 12:08:34 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/RGFGNS/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/RGFGNS/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 7EQ4_A Host translation inhibi  61.4     7.1 7.9E-05   17.9   0.0    6    1-6      28-33  (124)
+  2 7JQZ_C decamer, alpha/beta hyd  59.2     8.3 9.2E-05   14.6   0.0    6    1-6      85-90  (309)
+  3 3KDA_B Alpha/beta hydrolase, H  57.6     9.2  0.0001   14.5   0.0    6    1-6      65-70  (301)
+  4 4FME_D EspG protein, Ras-relat  45.8      19 0.00021   18.6   0.0    6    1-6     162-167 (351)
+  5 4IQ4_A Non-haem bromoperoxidas  32.2      43 0.00048   14.8   0.0    6    1-6      60-65  (456)
+  6 4QF0_C Non-haem bromoperoxidas  30.9      47 0.00052   14.7   0.0    6    1-6      60-65  (456)
+  7 2LY7_A DNA-directed RNA polyme  28.2      56 0.00062   12.4   0.0    6    1-6       2-7   (149)
+  8 4O65_A Putative archaeal ammon  24.5      73  0.0008   15.1   0.0    6    1-6      33-38  (166)
+  9 5CWS_I sAB-158 LC, sAB-158 HC,  24.3      74 0.00082   13.6   0.0    6    1-6     201-206 (208)
+ 10 3Q1C_A LEE-encoded effector Es  23.2      80 0.00088   16.5   0.0    6    1-6     170-175 (360)
+ 11 1WPX_A Carboxypeptidase Y (E.C  22.4      85 0.00094   13.8   0.0    6    1-6      97-102 (421)
+
+No 1
+>7EQ4_A Host translation inhibitor nsp1; SARS-CoV-2, Nsp1, protein translation, ribosome; 1.25A {Severe acute respiratory syndrome coronavirus 2}
+Probab=61.43  E-value=7.1  Score=17.87  Aligned_cols=6  Identities=83%  Similarity=1.625  Sum_probs=4.6  Template_Neff=1.000
+
+Q RGFGNS            1 RGFGNS    6 (6)
+Q Consensus         1 rgfgns    6 (6)
+                      ||||.|
+T Consensus        28 rgfgds   33 (124)
+T 7EQ4_A           28 RGFGDS   33 (124)
+T ss_dssp             CCSCSS
+T ss_pred             hccccc
+Confidence            688875
+
+
+No 2
+>7JQZ_C decamer, alpha/beta hydrolase fold, HYDROLASE; 2.2A {Burkholderia cenocepacia (strain MC0-3)}
+Probab=59.17  E-value=8.3  Score=14.64  Aligned_cols=6  Identities=50%  Similarity=0.784  Sum_probs=2.8  Template_Neff=11.300
+
+Q RGFGNS            1 RGFGNS    6 (6)
+Q Consensus         1 rgfgns    6 (6)
+                      ||+|+|
+T Consensus        85 ~G~G~S   90 (309)
+T 7JQZ_C           85 PGQGDS   90 (309)
+T ss_dssp             TTSTTS
+T ss_pred             CCCCCC
+Confidence            355543
+
+
+No 3
+>3KDA_B Alpha/beta hydrolase, Hydrolase; 1.5A {Pseudomonas aeruginosa UCBPP-PA14}
+Probab=57.61  E-value=9.2  Score=14.47  Aligned_cols=6  Identities=50%  Similarity=0.955  Sum_probs=2.7  Template_Neff=11.300
+
+Q RGFGNS            1 RGFGNS    6 (6)
+Q Consensus         1 rgfgns    6 (6)
+                      ||+|.|
+T Consensus        65 ~G~g~S   70 (301)
+T 3KDA_B           65 PGLGQS   70 (301)
+T ss_dssp             TTSTTC
+T ss_pred             CCCCCC
+Confidence            355543
+
+
+No 4
+>4FME_D EspG protein, Ras-related protein Rab-1A; alpha-beta fold, Rab1-GAP, Arf6 effector; HET: GTP, GDP; 4.1A {Escherichia coli}
+Probab=45.79  E-value=19  Score=18.63  Aligned_cols=6  Identities=67%  Similarity=1.376  Sum_probs=4.6  Template_Neff=2.200
+
+Q RGFGNS            1 RGFGNS    6 (6)
+Q Consensus         1 rgfgns    6 (6)
+                      ||+||+
+T Consensus       162 RglGn~  167 (351)
+T 4FME_D          162 RGLGNA  167 (351)
+T ss_dssp             TTTTSS
+T ss_pred             cccCCc
+Confidence            788885
+
+
+No 5
+>4IQ4_A Non-haem bromoperoxidase BPO-A2 (E.C.1.11.1.-); protein design, bionanotechnology, protein assembly; 3.495A {Streptomyces aureofaciens}
+Probab=32.22  E-value=43  Score=14.80  Aligned_cols=6  Identities=83%  Similarity=1.542  Sum_probs=2.9  Template_Neff=9.100
+
+Q RGFGNS            1 RGFGNS    6 (6)
+Q Consensus         1 rgfgns    6 (6)
+                      ||||.|
+T Consensus        60 rG~G~S   65 (456)
+T 4IQ4_A           60 RGFGQS   65 (456)
+T ss_dssp             TTSTTS
+T ss_pred             CCCCCC
+Confidence            355543
+
+
+No 6
+>4QF0_C Non-haem bromoperoxidase BPO-A2, Matrix protein; protein design, bionanotechnology, protein assembly; 6.494A {Streptomyces aureofaciens}
+Probab=30.93  E-value=47  Score=14.70  Aligned_cols=6  Identities=83%  Similarity=1.542  Sum_probs=2.8  Template_Neff=9.100
+
+Q RGFGNS            1 RGFGNS    6 (6)
+Q Consensus         1 rgfgns    6 (6)
+                      ||||.|
+T Consensus        60 rG~G~S   65 (456)
+T 4QF0_C           60 RGFGQS   65 (456)
+T ss_dssp             TTSTTS
+T ss_pred             CCCCCC
+Confidence            355543
+
+
+No 7
+>2LY7_A DNA-directed RNA polymerase subunit beta; RNA Polymerase, Transcription, Non-uniform sampling; NMR {Bacillus subtilis}
+Probab=28.15  E-value=56  Score=12.41  Aligned_cols=6  Identities=17%  Similarity=-0.075  Sum_probs=2.6  Template_Neff=8.900
+
+Q RGFGNS            1 RGFGNS    6 (6)
+Q Consensus         1 rgfgns    6 (6)
+                      ||++.|
+T Consensus         2 rG~f~s    7 (149)
+T 2LY7_A            2 DDVYTS    7 (149)
+T ss_dssp             -CCCCC
+T ss_pred             CCceEE
+Confidence            456543
+
+
+No 8
+>4O65_A Putative archaeal ammonia monooxygenase subunit; Cupredoxin, ammonia monooxygenase, AMO, Ammonia; HET: SO4; 1.796A {Candidatus Nitrosocaldus yellowstonii}
+Probab=24.48  E-value=73  Score=15.14  Aligned_cols=6  Identities=83%  Similarity=1.287  Sum_probs=3.8  Template_Neff=2.700
+
+Q RGFGNS            1 RGFGNS    6 (6)
+Q Consensus         1 rgfgns    6 (6)
+                      |-||||
+T Consensus        33 ~~~~~~   38 (166)
+T 4O65_A           33 RTFGNS   38 (166)
+T ss_dssp             HHHSCC
+T ss_pred             hhcCCC
+Confidence            457775
+
+
+No 9
+>5CWS_I sAB-158 LC, sAB-158 HC, Nucleoporin; nucleocytoplasmic transport, PROTEIN TRANSPORT; 3.77A {Homo sapiens}
+Probab=24.27  E-value=74  Score=13.63  Aligned_cols=6  Identities=33%  Similarity=0.351  Sum_probs=0.0  Template_Neff=7.200
+
+Q RGFGNS            1 RGFGNS    6 (6)
+Q Consensus         1 rgfgns    6 (6)
+                      ++||.|
+T Consensus       201 ~~~~~~  206 (208)
+T 5CWS_I          201 ESFYRS  206 (208)
+T ss_dssp             ------
+T ss_pred             hhcccc
+Confidence            367654
+
+
+No 10
+>3Q1C_A LEE-encoded effector EspG; VirA fold, virulence factor, PAK; 1.596A {Escherichia coli O127:H6}
+Probab=23.25  E-value=80  Score=16.55  Aligned_cols=6  Identities=67%  Similarity=1.376  Sum_probs=4.1  Template_Neff=2.600
+
+Q RGFGNS            1 RGFGNS    6 (6)
+Q Consensus         1 rgfgns    6 (6)
+                      ||+||+
+T Consensus       170 Rglgn~  175 (360)
+T 3Q1C_A          170 RGLGNA  175 (360)
+T ss_dssp             HHTTTS
+T ss_pred             cCcCCc
+Confidence            677774
+
+
+No 11
+>1WPX_A Carboxypeptidase Y (E.C.3.4.16.5)/Carboxypeptidase Y inhibitor; Carboxypeptidase inhibitor, serine proteinase inhibitor; HET: NAG, NDG, SO4; 2.7A {Saccharomyces cerevisiae} SCOP: c.69.1.5
+Probab=22.42  E-value=85  Score=13.75  Aligned_cols=6  Identities=33%  Similarity=0.235  Sum_probs=2.9  Template_Neff=9.200
+
+Q RGFGNS            1 RGFGNS    6 (6)
+Q Consensus         1 rgfgns    6 (6)
+                      ||+|.|
+T Consensus        97 ~G~G~S  102 (421)
+T 1WPX_A           97 VNVGFS  102 (421)
+T ss_dssp             TTSTTC
+T ss_pred             CCCCcc
+Confidence            355543
+
+

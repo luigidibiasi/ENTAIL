@@ -1,0 +1,152 @@
+Query         AIGWGS
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 14:17:03 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/AIGWGS/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/AIGWGS/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6YBA_u Hexon protein, Penton p  42.2      24 0.00026   17.3   0.0    6    1-6      34-39  (266)
+  2 6Z7N_6 Pre-protein VI, Hexon p  42.2      24 0.00026   17.3   0.0    6    1-6      34-39  (266)
+  3 7KWZ_A Isoform 2 of TAR DNA-bi  41.4      25 0.00027   16.3   0.0    6    1-6     116-121 (148)
+  4 6B1T_X Hexon protein, Penton p  38.9      29 0.00032   16.9   0.0    6    1-6       1-6   (217)
+  5 6IX2_A Microsomal epoxide hydd  37.2      32 0.00035   14.7   0.0    6    1-6      29-34  (431)
+  6 6YP7_H Chlorophyll a-b binding  26.9      61 0.00068   13.3   0.0    6    1-6      22-27  (60)
+  7 3JCU_h Photosystem II protein   24.6      72  0.0008   13.3   0.0    6    1-6      34-39  (73)
+  8 4YUU_h1 Photosystem Q(B) prote  19.7 1.1E+02  0.0012   12.9   0.0    6    1-6      22-27  (67)
+  9 1ICF_A PROTEIN (CATHEPSIN L) (  19.5 1.1E+02  0.0012   10.8   0.0    5    1-5     167-171 (175)
+ 10 3HN6_A Glucosamine-6-phosphate  19.5 1.1E+02  0.0012   12.9   0.0    6    1-6      59-64  (289)
+
+No 1
+>6YBA_u Hexon protein, Penton protein, Pre-hexon-linking; Adenovirus, VIRUS; 4.0A {Human adenovirus F serotype 41}
+Probab=42.23  E-value=24  Score=17.33  Aligned_cols=6  Identities=50%  Similarity=1.143  Sum_probs=3.9  Template_Neff=3.600
+
+Q AIGWGS            1 AIGWGS    6 (6)
+Q Consensus         1 aigwgs    6 (6)
+                      ||.|||
+T Consensus        34 AfnWgs   39 (266)
+T 6YBA_u           34 AFSWSS   39 (266)
+T ss_pred             CcChhH
+Confidence            466775
+
+
+No 2
+>6Z7N_6 Pre-protein VI, Hexon protein, Penton; HAdV-F41, virion, icosahedral, VIRUS; 3.77A {Human adenovirus 41}
+Probab=42.23  E-value=24  Score=17.33  Aligned_cols=6  Identities=50%  Similarity=1.143  Sum_probs=3.9  Template_Neff=3.600
+
+Q AIGWGS            1 AIGWGS    6 (6)
+Q Consensus         1 aigwgs    6 (6)
+                      ||.|||
+T Consensus        34 AfnWgs   39 (266)
+T 6Z7N_6           34 AFSWSS   39 (266)
+T ss_pred             CcChhH
+Confidence            466775
+
+
+No 3
+>7KWZ_A Isoform 2 of TAR DNA-binding; TDP-43, amyloid, neurodegenerative diseases, amyotropic; 3.2A {Homo sapiens}
+Probab=41.35  E-value=25  Score=16.29  Aligned_cols=6  Identities=100%  Similarity=1.996  Sum_probs=3.5  Template_Neff=2.900
+
+Q AIGWGS            1 AIGWGS    6 (6)
+Q Consensus         1 aigwgs    6 (6)
+                      ++||++
+T Consensus       116 a~gWgs  121 (148)
+T 7KWZ_A          116 AIGWGS  121 (148)
+T ss_dssp             EESTTC
+T ss_pred             cccccC
+Confidence            466764
+
+
+No 4
+>6B1T_X Hexon protein, Penton protein, Pre-hexon-linking; human adenovirus, cement protein, dsDNA;{Human adenovirus C serotype 5}
+Probab=38.94  E-value=29  Score=16.89  Aligned_cols=6  Identities=67%  Similarity=1.487  Sum_probs=0.0  Template_Neff=2.900
+
+Q AIGWGS            1 AIGWGS    6 (6)
+Q Consensus         1 aigwgs    6 (6)
+                      |+.|||
+T Consensus         1 AfnWgs    6 (217)
+T 6B1T_X            1 AFSWGS    6 (217)
+T ss_dssp             ------
+T ss_pred             CCchhh
+Confidence            567775
+
+
+No 5
+>6IX2_A Microsomal epoxide hyddrolase (E.C.3.3.2.9); Alpha and beta proteins, alpha/beta-Hydrolases; 1.478A {Aspergillus usamii}
+Probab=37.19  E-value=32  Score=14.72  Aligned_cols=6  Identities=50%  Similarity=0.894  Sum_probs=0.0  Template_Neff=9.700
+
+Q AIGWGS            1 AIGWGS    6 (6)
+Q Consensus         1 aigwgs    6 (6)
+                      +.||||
+T Consensus        29 ~~~~~~   34 (431)
+T 6IX2_A           29 QMGRGS   34 (431)
+T ss_dssp             ------
+T ss_pred             ecccch
+Confidence            356664
+
+
+No 6
+>6YP7_H Chlorophyll a-b binding protein 8; Cryo-EM, photosystem II, High Light; HET: PL9, LHG, BCR, NEX, HEM, OEX, CLA, PHO, DGD, XAT, SQD, LUT, LMG, CHL;{Pisum sativum}
+Probab=26.89  E-value=61  Score=13.26  Aligned_cols=6  Identities=67%  Similarity=1.592  Sum_probs=3.5  Template_Neff=2.900
+
+Q AIGWGS            1 AIGWGS    6 (6)
+Q Consensus         1 aigwgs    6 (6)
+                      |-|||.
+T Consensus        22 apGWGT   27 (60)
+T 6YP7_H           22 APGWGT   27 (60)
+T ss_pred             CCCCCh
+Confidence            347873
+
+
+No 7
+>3JCU_h Photosystem II protein D1, Photosystem; membrane protein; HET: SQD, DGD, HEM, LMG, LUT, PL9, OEX, CHL, XAT, LHG, NEX, BCR, PHO, CLA; 3.2A {Spinacia oleracea}
+Probab=24.59  E-value=72  Score=13.29  Aligned_cols=6  Identities=67%  Similarity=1.592  Sum_probs=3.4  Template_Neff=3.400
+
+Q AIGWGS            1 AIGWGS    6 (6)
+Q Consensus         1 aigwgs    6 (6)
+                      |-|||.
+T Consensus        34 apGWGT   39 (73)
+T 3JCU_h           34 APGWGT   39 (73)
+T ss_pred             CCCCCh
+Confidence            347773
+
+
+No 8
+>4YUU_h1 Photosystem Q(B) protein (E.C.1.10.3.9), Photosystem; TRANSMEMBRANE ALPHA-HELIX, ELECTRON TRANSPORT, PHOTOSYNTHESIS; HET: LMG, OEX, GOL, DGD, UNL, LMT, PHO, CLA, BCT, PL9, HEM, SQD, LHG, BCR; 2.77000368116A {Cyanidium caldarium}
+Probab=19.68  E-value=1.1e+02  Score=12.85  Aligned_cols=6  Identities=67%  Similarity=1.592  Sum_probs=0.0  Template_Neff=2.800
+
+Q AIGWGS            1 AIGWGS    6 (6)
+Q Consensus         1 aigwgs    6 (6)
+                      |-|||.
+T Consensus        22 aPGWGT   27 (67)
+T 4YUU_h1          22 APGWGT   27 (67)
+T ss_pred             CCCCCh
+
+
+No 9
+>1ICF_A PROTEIN (CATHEPSIN L) (3.4.22.15); CYSTEINE PROTEINASE, CATHEPSIN, MHC CLASS; HET: NAG; 2.0A {Homo sapiens} SCOP: d.3.1.1
+Probab=19.55  E-value=1.1e+02  Score=10.82  Aligned_cols=5  Identities=40%  Similarity=1.365  Sum_probs=0.0  Template_Neff=11.100
+
+Q AIGWGS            1 AIGWG    5 (6)
+Q Consensus         1 aigwg    5 (6)
+                      .+||+
+T Consensus       167 ivGy~  171 (175)
+T 1ICF_A          167 VVGYG  171 (175)
+T ss_dssp             EEEEE
+T ss_pred             EEEec
+
+
+No 10
+>3HN6_A Glucosamine-6-phosphate deaminase (E.C.3.5.99.6); NIAID, SSGCID, deCODE, UW, SBRI; HET: POP; 2.2A {Borrelia burgdorferi}
+Probab=19.52  E-value=1.1e+02  Score=12.92  Aligned_cols=6  Identities=33%  Similarity=0.390  Sum_probs=0.0  Template_Neff=8.900
+
+Q AIGWGS            1 AIGWGS    6 (6)
+Q Consensus         1 aigwgs    6 (6)
+                      +++||+
+T Consensus        59 glsgG~   64 (289)
+T 3HN6_A           59 GLPTGS   64 (289)
+T ss_dssp             EECCSS
+T ss_pred             EECCCC
+
+

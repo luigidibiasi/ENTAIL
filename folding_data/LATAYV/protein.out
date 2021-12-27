@@ -1,0 +1,153 @@
+Query         LATAYV
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 14:23:28 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LATAYV/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LATAYV/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2YNQ_B ESSB; MEMBRANE PROTEIN,  28.3      56 0.00062   14.3   0.0    6    1-6      47-52  (161)
+  2 3GN6_C CT0912, ORFan protein w   8.2 3.8E+02  0.0042   14.2   0.0    6    1-6      99-104 (321)
+  3 3GN6_B CT0912, ORFan protein w   7.8   4E+02  0.0044   14.1   0.0    6    1-6      99-104 (321)
+  4 1SK7_A hypothetical protein pa   6.2 5.5E+02   0.006    9.9   0.0    6    1-6     113-118 (198)
+  5 5N76_B CooT; CODH maturation,    6.1 5.6E+02  0.0062    9.8   0.0    6    1-6       3-8   (66)
+  6 1IW0_B heme oxygenase (E.C.1.1   5.3 6.6E+02  0.0073    9.8   0.0    6    1-6     126-131 (215)
+  7 1IW1_A heme oxygenase (E.C.1.1   5.3 6.6E+02  0.0073    9.8   0.0    6    1-6     126-131 (215)
+  8 1WZD_B Heme oxygenase (E.C.1.1   5.3 6.6E+02  0.0073    9.8   0.0    6    1-6     126-131 (215)
+  9 7CKA_A Heme oxygenase 1 (E.C.1   5.3 6.7E+02  0.0074   10.3   0.0    6    1-6     140-145 (226)
+ 10 2KFV_A FK506-binding protein 3   5.1 6.9E+02  0.0077   10.6   0.0    5    1-5      78-82  (92)
+
+No 1
+>2YNQ_B ESSB; MEMBRANE PROTEIN, SECRETION, ESS, TYPE; HET: MLI; 2.4A {GEOBACILLUS THERMODENITRIFICANS}
+Probab=28.33  E-value=56  Score=14.32  Aligned_cols=6  Identities=67%  Similarity=1.121  Sum_probs=3.0  Template_Neff=5.500
+
+Q LATAYV            1 LATAYV    6 (6)
+Q Consensus         1 latayv    6 (6)
+                      ||.+||
+T Consensus        47 LA~SYI   52 (161)
+T 2YNQ_B           47 LASSYV   52 (161)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            455554
+
+
+No 2
+>3GN6_C CT0912, ORFan protein with a; NP_661805.1, CT0912, ORFan protein from; HET: GOL, 2PE; 1.8A {Chlorobium tepidum TLS}
+Probab=8.20  E-value=3.8e+02  Score=14.20  Aligned_cols=6  Identities=83%  Similarity=1.160  Sum_probs=3.0  Template_Neff=2.100
+
+Q LATAYV            1 LATAYV    6 (6)
+Q Consensus         1 latayv    6 (6)
+                      |++||+
+T Consensus        99 L~tAY~  104 (321)
+T 3GN6_C           99 LATAYL  104 (321)
+T ss_dssp             TTTHHH
+T ss_pred             HHHHHH
+Confidence            455553
+
+
+No 3
+>3GN6_B CT0912, ORFan protein with a; NP_661805.1, CT0912, ORFan protein from; HET: 2PE, GOL, MSE; 1.8A {Chlorobium tepidum TLS}
+Probab=7.80  E-value=4e+02  Score=14.11  Aligned_cols=6  Identities=83%  Similarity=1.160  Sum_probs=3.0  Template_Neff=2.100
+
+Q LATAYV            1 LATAYV    6 (6)
+Q Consensus         1 latayv    6 (6)
+                      |++||+
+T Consensus        99 L~tAY~  104 (321)
+T 3GN6_B           99 LATAYL  104 (321)
+T ss_dssp             TTTHHH
+T ss_pred             HHHHHH
+Confidence            455553
+
+
+No 4
+>1SK7_A hypothetical protein pa-HO (E.C.1.14.99.3); heme oxygenase, heme degradation, regioselectivity; HET: HEM; 1.6A {Pseudomonas aeruginosa} SCOP: a.132.1.2
+Probab=6.16  E-value=5.5e+02  Score=9.91  Aligned_cols=6  Identities=33%  Similarity=0.462  Sum_probs=0.0  Template_Neff=9.700
+
+Q LATAYV            1 LATAYV    6 (6)
+Q Consensus         1 latayv    6 (6)
+                      |+.+||
+T Consensus       113 lG~~Yv  118 (198)
+T 1SK7_A          113 LGWLFV  118 (198)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 5
+>5N76_B CooT; CODH maturation, nickel-binding protein, anaerobic; 1.9A {Rhodospirillum rubrum}
+Probab=6.07  E-value=5.6e+02  Score=9.80  Aligned_cols=6  Identities=17%  Similarity=0.340  Sum_probs=0.0  Template_Neff=5.600
+
+Q LATAYV            1 LATAYV    6 (6)
+Q Consensus         1 latayv    6 (6)
+                      ++++|+
+T Consensus         3 es~vy~    8 (66)
+T 5N76_B            3 MAKVVL    8 (66)
+T ss_dssp             CCEEEE
+T ss_pred             cceEEE
+
+
+No 6
+>1IW0_B heme oxygenase (E.C.1.14.99.3); alpha helix, bacterial iron acquisition; HET: GLC, SO4, HEM, FRU; 1.4A {Corynebacterium diphtheriae} SCOP: a.132.1.1
+Probab=5.32  E-value=6.6e+02  Score=9.79  Aligned_cols=6  Identities=50%  Similarity=0.794  Sum_probs=0.0  Template_Neff=9.800
+
+Q LATAYV            1 LATAYV    6 (6)
+Q Consensus         1 latayv    6 (6)
+                      |+.+||
+T Consensus       126 lg~~yv  131 (215)
+T 1IW0_B          126 VAHHYV  131 (215)
+T ss_dssp             HHHHCC
+T ss_pred             HHHHHH
+
+
+No 7
+>1IW1_A heme oxygenase (E.C.1.14.99.3); alpha helix, bacterial iron acquisition; HET: HEM, SO4, GLC, FRU; 1.5A {Corynebacterium diphtheriae} SCOP: a.132.1.1
+Probab=5.32  E-value=6.6e+02  Score=9.79  Aligned_cols=6  Identities=50%  Similarity=0.794  Sum_probs=0.0  Template_Neff=9.800
+
+Q LATAYV            1 LATAYV    6 (6)
+Q Consensus         1 latayv    6 (6)
+                      |+.+||
+T Consensus       126 lg~~yv  131 (215)
+T 1IW1_A          126 VAHHYV  131 (215)
+T ss_dssp             HHHHCC
+T ss_pred             HHHHHH
+
+
+No 8
+>1WZD_B Heme oxygenase (E.C.1.14.99.3); Electron-Transfer, Artificial Metalloprotein, Heme oxygenase; HET: SO4, GOL, YOK; 1.35A {Corynebacterium diphtheriae} SCOP: a.132.1.1
+Probab=5.32  E-value=6.6e+02  Score=9.79  Aligned_cols=6  Identities=50%  Similarity=0.794  Sum_probs=0.0  Template_Neff=9.800
+
+Q LATAYV            1 LATAYV    6 (6)
+Q Consensus         1 latayv    6 (6)
+                      |+.+||
+T Consensus       126 lg~~yv  131 (215)
+T 1WZD_B          126 VAHHYV  131 (215)
+T ss_dssp             HHHHCC
+T ss_pred             HHHHHH
+
+
+No 9
+>7CKA_A Heme oxygenase 1 (E.C.1.14.99.3); METAL BINDING PROTEIN, OXIDOREDUCTASE; HET: HEM, CIT; 1.06A {Glycine max}
+Probab=5.25  E-value=6.7e+02  Score=10.26  Aligned_cols=6  Identities=17%  Similarity=0.351  Sum_probs=0.0  Template_Neff=8.900
+
+Q LATAYV            1 LATAYV    6 (6)
+Q Consensus         1 latayv    6 (6)
+                      ++.+||
+T Consensus       140 lG~~YV  145 (226)
+T 7CKA_A          140 ICHFYN  145 (226)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 10
+>2KFV_A FK506-binding protein 3 (E.C.5.2.1.8); FKBP3-N, Isomerase, Nucleus, Phosphoprotein, Rotamase; NMR {Homo sapiens}
+Probab=5.12  E-value=6.9e+02  Score=10.64  Aligned_cols=5  Identities=80%  Similarity=1.119  Sum_probs=0.0  Template_Neff=4.200
+
+Q LATAYV            1 LATAY    5 (6)
+Q Consensus         1 latay    5 (6)
+                      |.+||
+T Consensus        78 Lv~AY   82 (92)
+T 2KFV_A           78 LVTAY   82 (92)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+

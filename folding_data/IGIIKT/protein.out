@@ -1,0 +1,150 @@
+Query         IGIIKT
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 07:58:44 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/IGIIKT/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/IGIIKT/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 1ZUP_A hypothetical protein TM  23.5      78 0.00086   15.4   0.0    6    1-6     185-190 (315)
+  2 2YGK_A NURA; HYDROLASE, DNA RE  13.1   2E+02  0.0022   12.7   0.0    6    1-6     198-203 (339)
+  3 2NBB_A Heterogeneous nuclear r  10.8 2.6E+02  0.0029   11.9   0.0    6    1-6      74-79  (118)
+  4 6XR5_D Diphosphomevalonate dec  10.4 2.7E+02   0.003   12.5   0.0    5    1-5      21-25  (403)
+  5 6XR5_F Diphosphomevalonate dec  10.4 2.7E+02   0.003   12.5   0.0    5    1-5      21-25  (403)
+  6 1QV9_B F420-dependent methylen  10.4 2.7E+02   0.003   14.3   0.0    5    1-5       6-10  (283)
+  7 1U6I_H F420-dependent methylen  10.4 2.7E+02   0.003   14.3   0.0    5    1-5       6-10  (283)
+  8 1U6K_C F420-dependent methylen  10.4 2.7E+02   0.003   14.3   0.0    5    1-5       6-10  (283)
+  9 5HQT_A aspartate/glutamate rac   9.8   3E+02  0.0033   10.9   0.0    4    1-4       4-7   (235)
+ 10 5XY3_X Ribosomal protein L8, p   9.7   3E+02  0.0033   11.8   0.0    4    1-4     137-140 (140)
+
+No 1
+>1ZUP_A hypothetical protein TM1739; PUTATIVE NUCLEASE, STRUCTURAL GENOMICS, JOINT; 2.2A {Thermotoga maritima} SCOP: c.55.3.11
+Probab=23.53  E-value=78  Score=15.38  Aligned_cols=6  Identities=50%  Similarity=1.121  Sum_probs=3.7  Template_Neff=5.100
+
+Q IGIIKT            1 IGIIKT    6 (6)
+Q Consensus         1 igiikt    6 (6)
+                      +|.+||
+T Consensus       185 vG~vKt  190 (315)
+T 1ZUP_A          185 IGLVKN  190 (315)
+T ss_dssp             EEEECC
+T ss_pred             EEEEec
+Confidence            466765
+
+
+No 2
+>2YGK_A NURA; HYDROLASE, DNA REPAIR, REPLICATION; HET: MSE; 2.5A {SULFOLOBUS SOLFATARICUS}
+Probab=13.10  E-value=2e+02  Score=12.72  Aligned_cols=6  Identities=33%  Similarity=0.235  Sum_probs=0.0  Template_Neff=8.400
+
+Q IGIIKT            1 IGIIKT    6 (6)
+Q Consensus         1 igiikt    6 (6)
+                      +||+|+
+T Consensus       198 vgvsK~  203 (339)
+T 2YGK_A          198 LWISKV  203 (339)
+T ss_dssp             EEEESC
+T ss_pred             EEEECc
+
+
+No 3
+>2NBB_A Heterogeneous nuclear ribonucleoprotein Q; Acidic domain, SYNCRIP, Structural Genomics; NMR {Homo sapiens}
+Probab=10.77  E-value=2.6e+02  Score=11.88  Aligned_cols=6  Identities=50%  Similarity=0.933  Sum_probs=0.0  Template_Neff=5.300
+
+Q IGIIKT            1 IGIIKT    6 (6)
+Q Consensus         1 igiikt    6 (6)
+                      .||||+
+T Consensus        74 mGiikr   79 (118)
+T 2NBB_A           74 CGVMKT   79 (118)
+T ss_dssp             HHHTTT
+T ss_pred             HHHHHH
+
+
+No 4
+>6XR5_D Diphosphomevalonate decarboxylase (E.C.4.1.1.33); SSGCID, Diphosphomevalonate decarboxylase, Cryptococcus neoformans; HET: ADE, SO4; 1.7A {Cryptococcus neoformans var. grubii H99}
+Probab=10.36  E-value=2.7e+02  Score=12.51  Aligned_cols=5  Identities=60%  Similarity=0.707  Sum_probs=0.0  Template_Neff=8.600
+
+Q IGIIKT            1 IGIIK    5 (6)
+Q Consensus         1 igiik    5 (6)
+                      |++||
+T Consensus        21 ia~ik   25 (403)
+T 6XR5_D           21 IACIK   25 (403)
+T ss_dssp             EEEEC
+T ss_pred             chhhh
+
+
+No 5
+>6XR5_F Diphosphomevalonate decarboxylase (E.C.4.1.1.33); SSGCID, Diphosphomevalonate decarboxylase, Cryptococcus neoformans; HET: ADE, SO4; 1.7A {Cryptococcus neoformans var. grubii H99}
+Probab=10.36  E-value=2.7e+02  Score=12.51  Aligned_cols=5  Identities=60%  Similarity=0.707  Sum_probs=0.0  Template_Neff=8.600
+
+Q IGIIKT            1 IGIIK    5 (6)
+Q Consensus         1 igiik    5 (6)
+                      |++||
+T Consensus        21 ia~ik   25 (403)
+T 6XR5_F           21 IACIK   25 (403)
+T ss_dssp             EEEEC
+T ss_pred             chhhh
+
+
+No 6
+>1QV9_B F420-dependent methylenetetrahydromethanopterin dehydrogenase (E.C.1.5.99.9); monomer: alpha/beta domain, helix bundle; HET: MSE; 1.54A {Methanopyrus kandleri} SCOP: c.127.1.1
+Probab=10.35  E-value=2.7e+02  Score=14.30  Aligned_cols=5  Identities=40%  Similarity=0.195  Sum_probs=0.0  Template_Neff=2.800
+
+Q IGIIKT            1 IGIIK    5 (6)
+Q Consensus         1 igiik    5 (6)
+                      |||||
+T Consensus         6 IGiiK   10 (283)
+T 1QV9_B            6 AIFIK   10 (283)
+T ss_dssp             EEEEE
+T ss_pred             EEEEe
+
+
+No 7
+>1U6I_H F420-dependent methylenetetrahydromethanopterin dehydrogenase (E.C.1.5.99.9); MONOMER: ALPHA/BETA DOMAIN, HELIX BUNDLE; 2.2A {Methanopyrus kandleri} SCOP: c.127.1.1
+Probab=10.35  E-value=2.7e+02  Score=14.30  Aligned_cols=5  Identities=40%  Similarity=0.195  Sum_probs=0.0  Template_Neff=2.800
+
+Q IGIIKT            1 IGIIK    5 (6)
+Q Consensus         1 igiik    5 (6)
+                      |||||
+T Consensus         6 IGiiK   10 (283)
+T 1U6I_H            6 AIFIK   10 (283)
+T ss_dssp             EEEEE
+T ss_pred             EEEEe
+
+
+No 8
+>1U6K_C F420-dependent methylenetetrahydromethanopterin dehydrogenase (E.C.1.5.99.9); MONOMER: ALPHA/BETA DOMAIN, HELIX BUNDLE; HET: MSE; 1.55A {Methanopyrus kandleri} SCOP: c.127.1.1
+Probab=10.35  E-value=2.7e+02  Score=14.30  Aligned_cols=5  Identities=40%  Similarity=0.195  Sum_probs=0.0  Template_Neff=2.800
+
+Q IGIIKT            1 IGIIK    5 (6)
+Q Consensus         1 igiik    5 (6)
+                      |||||
+T Consensus         6 IGiiK   10 (283)
+T 1U6K_C            6 AIFIK   10 (283)
+T ss_dssp             EEEEE
+T ss_pred             EEEEe
+
+
+No 9
+>5HQT_A aspartate/glutamate racemase; Aspartate/glutamate racemase, PLP-independent racemase, Racemization; HET: NHE; 1.598A {Escherichia coli O157:H7 str. SS52}
+Probab=9.79  E-value=3e+02  Score=10.92  Aligned_cols=4  Identities=50%  Similarity=1.348  Sum_probs=0.0  Template_Neff=9.700
+
+Q IGIIKT            1 IGII    4 (6)
+Q Consensus         1 igii    4 (6)
+                      ||||
+T Consensus         4 iGii    7 (235)
+T 5HQT_A            4 IGLL    7 (235)
+T ss_dssp             EEEE
+T ss_pred             EEEE
+
+
+No 10
+>5XY3_X Ribosomal protein L8, putative, Uncharacterized; Trichomonas vaginalis ribosome, rRNA, rprotein; 3.2A {Trichomonas vaginalis}
+Probab=9.70  E-value=3e+02  Score=11.76  Aligned_cols=4  Identities=50%  Similarity=0.899  Sum_probs=0.0  Template_Neff=5.900
+
+Q IGIIKT            1 IGII    4 (6)
+Q Consensus         1 igii    4 (6)
+                      ||||
+T Consensus       137 iGi~  140 (140)
+T 5XY3_X          137 IGFA  140 (140)
+T ss_pred             hccC
+
+

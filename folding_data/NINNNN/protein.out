@@ -1,0 +1,146 @@
+Query         NINNNN
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 01:13:59 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NINNNN/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NINNNN/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 7LP5_A WW domain, PPxY binding   6.7 4.9E+02  0.0054    8.4   0.0    5    2-6       1-5   (68)
+  2 6E8D_A Beta sliding clamp,DNA    6.2 5.4E+02   0.006   11.6   0.0    6    1-6      16-21  (512)
+  3 1NEI_B hypothetical protein yo   5.8 5.9E+02  0.0065   10.6   0.0    4    3-6      12-15  (60)
+  4 6E8E_A Beta sliding clamp,DNA    5.8 5.9E+02  0.0066   11.6   0.0    6    1-6      16-21  (517)
+  5 5CYZ_A Casein kinase I homolog   5.6 6.1E+02  0.0068   10.5   0.0    5    2-6     371-375 (395)
+  6 5CZO_B Casein kinase I homolog   5.5 6.3E+02   0.007   10.5   0.0    5    2-6     371-375 (395)
+  7 6EKC_N8 Ribulose bisphosphate    4.8 7.5E+02  0.0083    8.9   0.0    4    3-6       4-7   (81)
+  8 3H7N_A Nucleoporin NUP120; Nuc   4.8 7.6E+02  0.0084   12.3   0.0    6    1-6      30-35  (729)
+  9 3F7F_D Nucleoporin, Nuclear Po   4.7 7.7E+02  0.0085   12.3   0.0    6    1-6      30-35  (729)
+ 10 5VK3_A Polycomb Protein EED, H   4.6   8E+02  0.0088   11.3   0.0    6    1-6     479-484 (605)
+
+No 1
+>7LP5_A WW domain, PPxY binding, E3; NMR {Homo sapiens}
+Probab=6.74  E-value=4.9e+02  Score=8.35  Aligned_cols=5  Identities=40%  Similarity=0.780  Sum_probs=0.0  Template_Neff=9.400
+
+Q NINNNN            2 INNNN    6 (6)
+Q Consensus         2 innnn    6 (6)
+                      |+||+
+T Consensus         1 ~~~~~    5 (68)
+T 7LP5_A            1 MQNNE    5 (68)
+T ss_dssp             CCCCC
+T ss_pred             CCCCC
+
+
+No 2
+>6E8D_A Beta sliding clamp,DNA mismatch repair; Complex, DNA BINDING PROTEIN; HET: GOL; 2.34A {Bacillus subtilis}
+Probab=6.23  E-value=5.4e+02  Score=11.64  Aligned_cols=6  Identities=83%  Similarity=0.900  Sum_probs=0.0  Template_Neff=9.500
+
+Q NINNNN            1 NINNNN    6 (6)
+Q Consensus         1 ninnnn    6 (6)
+                      |-||||
+T Consensus        16 ~~~~~~   21 (512)
+T 6E8D_A           16 NNNNNN   21 (512)
+T ss_pred             CCCCCC
+
+
+No 3
+>1NEI_B hypothetical protein yoaG; Alpha/Beta protein, homodimer, OCSP, NESG; NMR {Escherichia coli} SCOP: d.253.1.1
+Probab=5.82  E-value=5.9e+02  Score=10.65  Aligned_cols=4  Identities=75%  Similarity=1.024  Sum_probs=0.0  Template_Neff=2.300
+
+Q NINNNN            3 NNNN    6 (6)
+Q Consensus         3 nnnn    6 (6)
+                      ||||
+T Consensus        12 NnnN   15 (60)
+T 1NEI_B           12 NNSN   15 (60)
+T ss_dssp             ETTT
+T ss_pred             eCCC
+
+
+No 4
+>6E8E_A Beta sliding clamp,DNA mismatch repair; Complex, DNA BINDING PROTEIN; HET: GOL, SO4; 2.25A {Escherichia coli (strain K12)}
+Probab=5.78  E-value=5.9e+02  Score=11.59  Aligned_cols=6  Identities=83%  Similarity=0.900  Sum_probs=0.0  Template_Neff=9.400
+
+Q NINNNN            1 NINNNN    6 (6)
+Q Consensus         1 ninnnn    6 (6)
+                      |-||||
+T Consensus        16 ~~~~~~   21 (517)
+T 6E8E_A           16 NNNNNN   21 (517)
+T ss_pred             CCCCCC
+
+
+No 5
+>5CYZ_A Casein kinase I homolog HRR25; casein kinase, monopolin, TRANSFERASE; HET: MLY; 1.841A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=5.63  E-value=6.1e+02  Score=10.52  Aligned_cols=5  Identities=60%  Similarity=0.926  Sum_probs=0.0  Template_Neff=10.600
+
+Q NINNNN            2 INNNN    6 (6)
+Q Consensus         2 innnn    6 (6)
+                      ++|||
+T Consensus       371 ~~~~~  375 (395)
+T 5CYZ_A          371 LNNNA  375 (395)
+T ss_dssp             HHHHC
+T ss_pred             cccch
+
+
+No 6
+>5CZO_B Casein kinase I homolog HRR25; casein kinase, monopolin, TRANSFERASE; HET: MLY; 2.894A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=5.51  E-value=6.3e+02  Score=10.49  Aligned_cols=5  Identities=60%  Similarity=0.926  Sum_probs=0.0  Template_Neff=10.600
+
+Q NINNNN            2 INNNN    6 (6)
+Q Consensus         2 innnn    6 (6)
+                      ++|||
+T Consensus       371 ~~~~~  375 (395)
+T 5CZO_B          371 LNNNA  375 (395)
+T ss_pred             cccch
+
+
+No 7
+>6EKC_N8 Ribulose bisphosphate carboxylase large chain; zinc finger, assembly chaperone, assembly; HET: ZN; 2.63A {Thermosynechococcus elongatus (strain BP-1)}
+Probab=4.82  E-value=7.5e+02  Score=8.86  Aligned_cols=4  Identities=75%  Similarity=0.875  Sum_probs=0.0  Template_Neff=7.900
+
+Q NINNNN            3 NNNN    6 (6)
+Q Consensus         3 nnnn    6 (6)
+                      ||||
+T Consensus         4 ~~~~    7 (81)
+T 6EKC_N8           4 NNNP    7 (81)
+T ss_pred             CCCC
+
+
+No 8
+>3H7N_A Nucleoporin NUP120; Nucleoporin, Nuclear Pore Complex, Macromolecular; 3.0A {Saccharomyces cerevisiae}
+Probab=4.76  E-value=7.6e+02  Score=12.28  Aligned_cols=6  Identities=67%  Similarity=0.739  Sum_probs=0.0  Template_Neff=8.500
+
+Q NINNNN            1 NINNNN    6 (6)
+Q Consensus         1 ninnnn    6 (6)
+                      |+.|||
+T Consensus        30 ~~~~~~   35 (729)
+T 3H7N_A           30 NNSNNN   35 (729)
+T ss_dssp             ------
+T ss_pred             ccccCC
+
+
+No 9
+>3F7F_D Nucleoporin, Nuclear Pore Complex, Macromolecular; HET: HG; 2.6A {Saccharomyces cerevisiae}
+Probab=4.71  E-value=7.7e+02  Score=12.26  Aligned_cols=6  Identities=67%  Similarity=0.739  Sum_probs=0.0  Template_Neff=8.500
+
+Q NINNNN            1 NINNNN    6 (6)
+Q Consensus         1 ninnnn    6 (6)
+                      |+.|||
+T Consensus        30 ~~~~~~   35 (729)
+T 3F7F_D           30 NNSNNN   35 (729)
+T ss_dssp             ------
+T ss_pred             ccccCC
+
+
+No 10
+>5VK3_A Polycomb Protein EED, Histone-lysine N-methyltransferase; transferase; 2.114A {Chaetomium thermophilum}
+Probab=4.59  E-value=8e+02  Score=11.30  Aligned_cols=6  Identities=83%  Similarity=0.900  Sum_probs=0.0  Template_Neff=9.800
+
+Q NINNNN            1 NINNNN    6 (6)
+Q Consensus         1 ninnnn    6 (6)
+                      |.||||
+T Consensus       479 ~~~~~~  484 (605)
+T 5VK3_A          479 NNNNNN  484 (605)
+T ss_dssp             ------
+T ss_pred             cCcCCc
+
+

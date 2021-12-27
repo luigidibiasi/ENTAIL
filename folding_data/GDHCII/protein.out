@@ -1,0 +1,153 @@
+Query         GDHCII
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 22:55:10 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GDHCII/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GDHCII/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2PWY_B tRNA (adenine-N(1)-)-me  46.9      18  0.0002   13.5   0.0    6    1-6       7-12  (258)
+  2 6EZ3_F Cyclo(L-leucyl-L-leucyl  21.9      88 0.00098   13.9   0.0    6    1-6      20-25  (234)
+  3 6EZ3_A Cyclo(L-leucyl-L-leucyl  21.9      88 0.00098   13.9   0.0    6    1-6      20-25  (234)
+  4 4UUY_B VACUOLAR MEMBRANE PROTE  21.8      89 0.00099   14.1   0.0    6    1-6      73-78  (349)
+  5 7DXR_A Double psi beta barrel,  19.6 1.1E+02  0.0012    9.1   0.0    6    1-6      40-45  (48)
+  6 7DXT_A Double psi beta barrel,  19.6 1.1E+02  0.0012    9.1   0.0    6    1-6      40-45  (48)
+  7 3HJJ_B Maltose O-acetyltransfe  19.5 1.1E+02  0.0012   11.9   0.0    6    1-6     156-161 (190)
+  8 3HJJ_A Maltose O-acetyltransfe  19.4 1.1E+02  0.0012   11.9   0.0    6    1-6     156-161 (190)
+  9 7KEK_J OAD, axonemal, pre-para  19.3 1.1E+02  0.0012   11.6   0.0    4    3-6      77-80  (111)
+ 10 4D07_A DYNEIN LIGHT CHAIN 2, C  19.3 1.1E+02  0.0012   10.9   0.0    4    3-6      58-61  (92)
+
+No 1
+>2PWY_B tRNA (adenine-N(1)-)-methyltransferase (E.C.2.1.1.36); MTASE, ADOMET, TRMI, tRNA-m1A58, TRANSFERASE; HET: SAH, SO4; 1.7A {Thermus thermophilus}
+Probab=46.94  E-value=18  Score=13.47  Aligned_cols=6  Identities=0%  Similarity=0.086  Sum_probs=2.8  Template_Neff=11.200
+
+Q GDHCII            1 GDHCII    6 (6)
+Q Consensus         1 gdhcii    6 (6)
+                      ||+++|
+T Consensus         7 g~~v~~   12 (258)
+T 2PWY_B            7 PGPLLL   12 (258)
+T ss_dssp             -CCEEE
+T ss_pred             CCEEEE
+Confidence            556654
+
+
+No 2
+>6EZ3_F Cyclo(L-leucyl-L-leucyl) synthase (E.C.2.3.2.22); tRNA, cyclodipeptide, RNA BINDING PROTEIN; HET: SO4; 3.0A {Staphylococcus haemolyticus (strain JCSC1435)}
+Probab=21.88  E-value=88  Score=13.88  Aligned_cols=6  Identities=33%  Similarity=0.678  Sum_probs=3.0  Template_Neff=6.700
+
+Q GDHCII            1 GDHCII    6 (6)
+Q Consensus         1 gdhcii    6 (6)
+                      |+||+|
+T Consensus        20 ~~h~li   25 (234)
+T 6EZ3_F           20 KKHVIL   25 (234)
+T ss_dssp             TCEEEE
+T ss_pred             CCeEEE
+Confidence            455553
+
+
+No 3
+>6EZ3_A Cyclo(L-leucyl-L-leucyl) synthase (E.C.2.3.2.22); tRNA, cyclodipeptide, RNA BINDING PROTEIN; HET: SO4; 3.0A {Staphylococcus haemolyticus (strain JCSC1435)}
+Probab=21.88  E-value=88  Score=13.88  Aligned_cols=6  Identities=33%  Similarity=0.678  Sum_probs=3.0  Template_Neff=6.700
+
+Q GDHCII            1 GDHCII    6 (6)
+Q Consensus         1 gdhcii    6 (6)
+                      |+||+|
+T Consensus        20 ~~h~li   25 (234)
+T 6EZ3_A           20 KKHVIL   25 (234)
+T ss_dssp             TCEEEE
+T ss_pred             CCeEEE
+Confidence            455553
+
+
+No 4
+>4UUY_B VACUOLAR MEMBRANE PROTEIN PEP3; TRANSPORT PROTEIN, HOPS, MEMBRANE FUSION; HET: SO4, EDO, GOL; 2.14A {SACCHAROMYCES CEREVISIAE}
+Probab=21.75  E-value=89  Score=14.13  Aligned_cols=6  Identities=33%  Similarity=0.601  Sum_probs=3.1  Template_Neff=7.700
+
+Q GDHCII            1 GDHCII    6 (6)
+Q Consensus         1 gdhcii    6 (6)
+                      |.||+|
+T Consensus        73 G~Hlli   78 (349)
+T 4UUY_B           73 GSVILI   78 (349)
+T ss_dssp             SSCEEE
+T ss_pred             CCEEEE
+Confidence            445554
+
+
+No 5
+>7DXR_A Double psi beta barrel, CHAPERONE; HET: SO4, CXS; 1.6A {synthetic construct}
+Probab=19.62  E-value=1.1e+02  Score=9.07  Aligned_cols=6  Identities=33%  Similarity=0.528  Sum_probs=0.0  Template_Neff=9.800
+
+Q GDHCII            1 GDHCII    6 (6)
+Q Consensus         1 gdhcii    6 (6)
+                      ||.+.|
+T Consensus        40 gd~V~v   45 (48)
+T 7DXR_A           40 GDYVEV   45 (48)
+T ss_dssp             TCEEEE
+T ss_pred             CCEEEE
+
+
+No 6
+>7DXT_A Double psi beta barrel, CHAPERONE; 1.8A {synthetic construct}
+Probab=19.62  E-value=1.1e+02  Score=9.07  Aligned_cols=6  Identities=33%  Similarity=0.528  Sum_probs=0.0  Template_Neff=9.800
+
+Q GDHCII            1 GDHCII    6 (6)
+Q Consensus         1 gdhcii    6 (6)
+                      ||.+.|
+T Consensus        40 gd~V~v   45 (48)
+T 7DXT_A           40 GDYVEV   45 (48)
+T ss_dssp             TCCCCC
+T ss_pred             CCEEEE
+
+
+No 7
+>3HJJ_B Maltose O-acetyltransferase (E.C.2.3.1.79); left-handed beta-helix, Acyltransferase, Transferase, Structural; HET: ACY, GOL, MSE; 2.153A {Bacillus anthracis}
+Probab=19.46  E-value=1.1e+02  Score=11.92  Aligned_cols=6  Identities=50%  Similarity=1.115  Sum_probs=0.0  Template_Neff=9.300
+
+Q GDHCII            1 GDHCII    6 (6)
+Q Consensus         1 gdhcii    6 (6)
+                      |++|+|
+T Consensus       156 G~~~~I  161 (190)
+T 3HJJ_B          156 GDNAVI  161 (190)
+T ss_dssp             CTTCEE
+T ss_pred             CCCCEE
+
+
+No 8
+>3HJJ_A Maltose O-acetyltransferase (E.C.2.3.1.79); left-handed beta-helix, Acyltransferase, Transferase, Structural; HET: GOL, ACY; 2.153A {Bacillus anthracis}
+Probab=19.42  E-value=1.1e+02  Score=11.86  Aligned_cols=6  Identities=50%  Similarity=1.115  Sum_probs=0.0  Template_Neff=9.400
+
+Q GDHCII            1 GDHCII    6 (6)
+Q Consensus         1 gdhcii    6 (6)
+                      |++|+|
+T Consensus       156 g~~~~I  161 (190)
+T 3HJJ_A          156 GDNAVI  161 (190)
+T ss_dssp             CTTCEE
+T ss_pred             CCCCEE
+
+
+No 9
+>7KEK_J OAD, axonemal, pre-paralle, MOTOR PROTEIN; HET: ATP, ADP; 8.0A {Tetrahymena thermophila}
+Probab=19.29  E-value=1.1e+02  Score=11.61  Aligned_cols=4  Identities=25%  Similarity=0.667  Sum_probs=0.0  Template_Neff=7.900
+
+Q GDHCII            3 HCII    6 (6)
+Q Consensus         3 hcii    6 (6)
+                      |||+
+T Consensus        77 hciV   80 (111)
+T 7KEK_J           77 HVFF   80 (111)
+T ss_pred             EEEE
+
+
+No 10
+>4D07_A DYNEIN LIGHT CHAIN 2, CYTOPLASMIC; MOTOR PROTEIN, INSTRINSICALLY DISORDERED DOMAIN; 1.85A {HOMO SAPIENS}
+Probab=19.28  E-value=1.1e+02  Score=10.85  Aligned_cols=4  Identities=75%  Similarity=2.045  Sum_probs=0.0  Template_Neff=8.700
+
+Q GDHCII            3 HCII    6 (6)
+Q Consensus         3 hcii    6 (6)
+                      |||+
+T Consensus        58 h~iv   61 (92)
+T 4D07_A           58 HCIV   61 (92)
+T ss_dssp             EEEE
+T ss_pred             EEEE
+
+

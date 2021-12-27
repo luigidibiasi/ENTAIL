@@ -1,0 +1,151 @@
+Query         GNHGGG
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 02:21:07 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GNHGGG/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GNHGGG/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4YEC_A Clostripain family, Pep  71.8     3.1 3.5E-05   16.2   0.0    6    1-6     110-115 (126)
+  2 5DYN_A Putative peptidase; cys  68.2     4.3 4.7E-05   15.9   0.0    6    1-6     116-121 (130)
+  3 3UWS_A hypothetical protein; c  64.2     5.8 6.4E-05   15.4   0.0    6    1-6     110-115 (126)
+  4 5L20_A Clostripain-related pro  55.8      10 0.00011   15.4   0.0    6    1-6     110-115 (143)
+  5 6N9J_B Clostripain-related pro  48.3      16 0.00018   16.5   0.0    6    1-6     110-115 (377)
+  6 6ADQ_D Transmembrane cytochrom  19.8   1E+02  0.0011   13.4   0.0    5    1-5      65-69  (100)
+  7 7E1V_D Mycobacterium smegmatis  19.8   1E+02  0.0011   13.4   0.0    5    1-5      65-69  (100)
+  8 6HIV_CU ms48, ms51, ms56, ms59  19.3 1.1E+02  0.0012   15.0   0.0    5    1-5      30-34  (193)
+  9 6HIY_CU Uncharacterized protei  19.3 1.1E+02  0.0012   15.0   0.0    5    1-5      30-34  (193)
+ 10 5B49_A UDP-2,3-diacylglucosami  18.7 1.1E+02  0.0013   11.3   0.0    3    1-3      78-80  (248)
+
+No 1
+>4YEC_A Clostripain family, Peptide inhibitor Ac-VLTK-AOMK; clostripain, microbiome, secreted protease, inhibitor; HET: CKC; 1.12A {Parabacteroides merdae ATCC 43184}
+Probab=71.84  E-value=3.1  Score=16.18  Aligned_cols=6  Identities=33%  Similarity=0.495  Sum_probs=4.3  Template_Neff=7.600
+
+Q GNHGGG            1 GNHGGG    6 (6)
+Q Consensus         1 gnhggg    6 (6)
+                      .+||+|
+T Consensus       110 w~HG~G  115 (126)
+T 4YEC_A          110 WSHGTA  115 (126)
+T ss_dssp             ESCBCT
+T ss_pred             EeCCCC
+Confidence            478876
+
+
+No 2
+>5DYN_A Putative peptidase; cysteine protease, enzyme, cleavage, HYDROLASE; 2.48A {Bacteroides fragilis}
+Probab=68.16  E-value=4.3  Score=15.94  Aligned_cols=6  Identities=50%  Similarity=0.850  Sum_probs=4.2  Template_Neff=7.500
+
+Q GNHGGG            1 GNHGGG    6 (6)
+Q Consensus         1 gnhggg    6 (6)
+                      .+||+|
+T Consensus       116 w~HG~G  121 (130)
+T 5DYN_A          116 WSHGEG  121 (130)
+T ss_dssp             ESCBCT
+T ss_pred             EcCCCC
+Confidence            378876
+
+
+No 3
+>3UWS_A hypothetical protein; clostripain family protein, Peptidase_C11, Structural; HET: EDO, MSE; 1.7A {Parabacteroides merdae}
+Probab=64.24  E-value=5.8  Score=15.45  Aligned_cols=6  Identities=33%  Similarity=0.495  Sum_probs=4.1  Template_Neff=7.600
+
+Q GNHGGG            1 GNHGGG    6 (6)
+Q Consensus         1 gnhggg    6 (6)
+                      ++||+|
+T Consensus       110 w~HG~G  115 (126)
+T 3UWS_A          110 WSHGTA  115 (126)
+T ss_dssp             ESCBCT
+T ss_pred             EeCCCC
+Confidence            478875
+
+
+No 4
+>5L20_A Clostripain-related protein, Peptide Inhibitor BTN-VLTK-AOMK; Clostripain, peptidase, microbiome, inhibitor, HYDROLASE-HYDROLASE; HET: CKC; 1.45A {Bacteroides thetaiotaomicron (strain ATCC 29148 / DSM 2079 / NCTC 10582 / E50 / VPI-5482)}
+Probab=55.83  E-value=10  Score=15.45  Aligned_cols=6  Identities=67%  Similarity=1.138  Sum_probs=4.0  Template_Neff=6.900
+
+Q GNHGGG            1 GNHGGG    6 (6)
+Q Consensus         1 gnhggg    6 (6)
+                      .+||+|
+T Consensus       110 w~HG~G  115 (143)
+T 5L20_A          110 GCHGMG  115 (143)
+T ss_dssp             ESEECT
+T ss_pred             EcCCCC
+Confidence            368875
+
+
+No 5
+>6N9J_B Clostripain-related protein, Covalent peptide inhibitor; C11 protease, secreted, covalent peptide; HET: CKC; 2.17A {Bacteroides thetaiotaomicron (strain ATCC 29148 / DSM 2079 / NCTC 10582 / E50 / VPI-5482)}
+Probab=48.33  E-value=16  Score=16.52  Aligned_cols=6  Identities=50%  Similarity=0.899  Sum_probs=4.0  Template_Neff=7.600
+
+Q GNHGGG            1 GNHGGG    6 (6)
+Q Consensus         1 gnhggg    6 (6)
+                      .|||+|
+T Consensus       110 w~HG~G  115 (377)
+T 6N9J_B          110 WSHGDG  115 (377)
+T ss_dssp             ESCBCT
+T ss_pred             EecCCC
+Confidence            368875
+
+
+No 6
+>6ADQ_D Transmembrane cytochrome C oxidase subunit; Respiratory, Supercomplex, SOD, Mycobacterium, ETC; HET: CDL, PLM, MQ9, HEM, 9YF, HEC, HEA, 9Y0, 9XX; 3.5A {Mycobacterium smegmatis MC2 51}
+Probab=19.82  E-value=1e+02  Score=13.39  Aligned_cols=5  Identities=80%  Similarity=1.312  Sum_probs=0.0  Template_Neff=3.600
+
+Q GNHGGG            1 GNHGG    5 (6)
+Q Consensus         1 gnhgg    5 (6)
+                      |||-|
+T Consensus        65 GNH~G   69 (100)
+T 6ADQ_D           65 GNHVG   69 (100)
+T ss_pred             cCCcc
+
+
+No 7
+>7E1V_D Mycobacterium smegmatis, mycobacterium tuberculosis, complexIII; HET: PLM, 9Y0, HEA, HEM, HEC, MQ9, 9YF, CDL; 2.68A {Mycobacterium smegmatis MC2 51}
+Probab=19.82  E-value=1e+02  Score=13.39  Aligned_cols=5  Identities=80%  Similarity=1.312  Sum_probs=0.0  Template_Neff=3.600
+
+Q GNHGGG            1 GNHGG    5 (6)
+Q Consensus         1 gnhgg    5 (6)
+                      |||-|
+T Consensus        65 GNH~G   69 (100)
+T 7E1V_D           65 GNHVG   69 (100)
+T ss_pred             cCCcc
+
+
+No 8
+>6HIV_CU ms48, ms51, ms56, ms59, ms60; mitoribosome, translation, Trypanosoma, large ribosomal; HET: GTP, SPD, NAD, MG, ZN, UTP, SPM; 7.8A {Trypanosoma brucei brucei}
+Probab=19.27  E-value=1.1e+02  Score=15.03  Aligned_cols=5  Identities=80%  Similarity=1.697  Sum_probs=0.0  Template_Neff=2.000
+
+Q GNHGGG            1 GNHGG    5 (6)
+Q Consensus         1 gnhgg    5 (6)
+                      |+|||
+T Consensus        30 Ga~Gg   34 (193)
+T 6HIV_CU          30 GAHGG   34 (193)
+T ss_pred             ccccc
+
+
+No 9
+>6HIY_CU Uncharacterized protein, mS74, 30S ribosomal; mitoribosome, translation, Trypanosoma, small ribosomal; HET: SPM, SPD, MG; 3.27A {Trypanosoma brucei brucei}
+Probab=19.26  E-value=1.1e+02  Score=15.03  Aligned_cols=5  Identities=80%  Similarity=1.697  Sum_probs=0.0  Template_Neff=2.000
+
+Q GNHGGG            1 GNHGG    5 (6)
+Q Consensus         1 gnhgg    5 (6)
+                      |+|||
+T Consensus        30 Ga~Gg   34 (193)
+T 6HIY_CU          30 GAHGG   34 (193)
+T ss_pred             ccccc
+
+
+No 10
+>5B49_A UDP-2,3-diacylglucosamine hydrolase (E.C.3.6.1.54); LpxH, Lipid A, Lipid X; HET: GOL, LP5; 1.65A {Pseudomonas aeruginosa PAO1}
+Probab=18.73  E-value=1.1e+02  Score=11.28  Aligned_cols=3  Identities=67%  Similarity=1.221  Sum_probs=0.0  Template_Neff=11.300
+
+Q GNHGGG            1 GNH    3 (6)
+Q Consensus         1 gnh    3 (6)
+                      |||
+T Consensus        78 GNH   80 (248)
+T 5B49_A           78 GNR   80 (248)
+T ss_dssp             CTT
+T ss_pred             CCc
+
+

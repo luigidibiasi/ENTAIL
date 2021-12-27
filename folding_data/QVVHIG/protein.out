@@ -1,0 +1,149 @@
+Query         QVVHIG
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 11:18:24 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QVVHIG/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QVVHIG/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 1XSF_A Probable resuscitation-  22.5      84 0.00093   12.4   0.0    6    1-6      10-15  (108)
+  2 3H2Z_A Mannitol-1-phosphate 5-  17.2 1.3E+02  0.0014   13.7   0.0    5    2-6       3-7   (382)
+  3 6BXO_B Diphthamide biosynthesi  17.2 1.3E+02  0.0014   13.4   0.0    5    2-6      78-82  (327)
+  4 2ZAL_A L-asparaginase (E.C.3.4  16.9 1.3E+02  0.0015   12.8   0.0    5    2-6       6-10  (160)
+  5 2OV2_J Ras-related C3 botulinu  16.8 1.4E+02  0.0015    9.3   0.0    6    1-6      10-15  (35)
+  6 2LNH_A Neural Wiskott-Aldrich   16.7 1.4E+02  0.0015   10.2   0.0    6    1-6       6-11  (65)
+  7 4PV2_C Uncharacterized protein  16.4 1.4E+02  0.0015   13.2   0.0    5    2-6       9-13  (197)
+  8 2GK1_R Beta-hexosaminidase alp  16.2 1.4E+02  0.0016   11.9   0.0    6    1-6      32-37  (237)
+  9 1EES_B GTP-BINDING PROTEIN/P21  16.1 1.4E+02  0.0016    9.5   0.0    6    1-6      16-21  (46)
+ 10 6BXO_A Diphthamide biosynthesi  15.4 1.5E+02  0.0017   13.1   0.0    5    2-6      78-82  (327)
+
+No 1
+>1XSF_A Probable resuscitation-promoting factor rpfB; LYSOZYME-LIKE STRUCTURE, CELL CYCLE, HYDROLASE; NMR {Mycobacterium tuberculosis} SCOP: d.2.1.8
+Probab=22.51  E-value=84  Score=12.35  Aligned_cols=6  Identities=50%  Similarity=0.938  Sum_probs=2.9  Template_Neff=6.900
+
+Q QVVHIG            1 QVVHIG    6 (6)
+Q Consensus         1 qvvhig    6 (6)
+                      |||++|
+T Consensus        10 ~~~~~g   15 (108)
+T 1XSF_A           10 AVVRVG   15 (108)
+T ss_pred             cEEEeC
+Confidence            345554
+
+
+No 2
+>3H2Z_A Mannitol-1-phosphate 5-dehydrogenase (E.C.1.1.1.17); Mmannitol-1-phosphate dehydrogenase, Shigella flexneri, PSI-2; HET: PO4, ACT; 1.9A {Shigella flexneri 2a str. 2457T}
+Probab=17.24  E-value=1.3e+02  Score=13.66  Aligned_cols=5  Identities=40%  Similarity=1.032  Sum_probs=0.0  Template_Neff=8.000
+
+Q QVVHIG            2 VVHIG    6 (6)
+Q Consensus         2 vvhig    6 (6)
+                      +||+|
+T Consensus         3 ivh~G    7 (382)
+T 3H2Z_A            3 ALHFG    7 (382)
+T ss_dssp             EEEEC
+T ss_pred             eEEEC
+
+
+No 3
+>6BXO_B Diphthamide biosynthesis enzyme Dph2; DIPHTHAMIDE BIOSYNTHESIS, RADICAL SAM ENZYME; HET: SF4, SAH; 1.655A {Candidatus Methanoperedens nitroreducens}
+Probab=17.17  E-value=1.3e+02  Score=13.36  Aligned_cols=5  Identities=40%  Similarity=1.032  Sum_probs=0.0  Template_Neff=8.000
+
+Q QVVHIG            2 VVHIG    6 (6)
+Q Consensus         2 vvhig    6 (6)
+                      +||+|
+T Consensus        78 iVH~G   82 (327)
+T 6BXO_B           78 LFHFG   82 (327)
+T ss_dssp             EEEES
+T ss_pred             EEEec
+
+
+No 4
+>2ZAL_A L-asparaginase (E.C.3.4.19.5, 3.5.1.1); isoaspartyl peptidase, asparaginase, Ntn-hydrolase, autoproteolysis; HET: TRS, ASP; 1.9A {Escherichia coli}
+Probab=16.88  E-value=1.3e+02  Score=12.78  Aligned_cols=5  Identities=40%  Similarity=0.753  Sum_probs=0.0  Template_Neff=6.400
+
+Q QVVHIG            2 VVHIG    6 (6)
+Q Consensus         2 vvhig    6 (6)
+                      +||+|
+T Consensus         6 vvHgG   10 (160)
+T 2ZAL_A            6 AIHGG   10 (160)
+T ss_dssp             EEEEE
+T ss_pred             EEEec
+
+
+No 5
+>2OV2_J Ras-related C3 botulinum toxin substrate; GTPase RAC3, small GTP binding; HET: GCP, EDO; 2.1A {Homo sapiens}
+Probab=16.78  E-value=1.4e+02  Score=9.26  Aligned_cols=6  Identities=50%  Similarity=0.811  Sum_probs=0.0  Template_Neff=7.700
+
+Q QVVHIG            1 QVVHIG    6 (6)
+Q Consensus         1 qvvhig    6 (6)
+                      +++|+|
+T Consensus        10 h~~hV~   15 (35)
+T 2OV2_J           10 HRVHTG   15 (35)
+T ss_dssp             EEEEEE
+T ss_pred             EEEEce
+
+
+No 6
+>2LNH_A Neural Wiskott-Aldrich syndrome protein, Brain-specific; Protein complex, Signaling Protein-Protein Binding; NMR {Homo sapiens}
+Probab=16.67  E-value=1.4e+02  Score=10.25  Aligned_cols=6  Identities=33%  Similarity=0.927  Sum_probs=0.0  Template_Neff=8.100
+
+Q QVVHIG            1 QVVHIG    6 (6)
+Q Consensus         1 qvvhig    6 (6)
+                      .++|+|
+T Consensus         6 h~~hvg   11 (65)
+T 2LNH_A            6 HIGHVG   11 (65)
+T ss_dssp             SCCSCC
+T ss_pred             eeeeCc
+
+
+No 7
+>4PV2_C Uncharacterized protein (E.C.3.5.1.1); metal binding sites, potassium coordination; HET: NO3; 1.79A {Phaseolus vulgaris}
+Probab=16.45  E-value=1.4e+02  Score=13.16  Aligned_cols=5  Identities=60%  Similarity=0.773  Sum_probs=0.0  Template_Neff=6.300
+
+Q QVVHIG            2 VVHIG    6 (6)
+Q Consensus         2 vvhig    6 (6)
+                      +||+|
+T Consensus         9 ~vHgG   13 (197)
+T 4PV2_C            9 AVHGG   13 (197)
+T ss_dssp             EEEEE
+T ss_pred             EEEcC
+
+
+No 8
+>2GK1_R Beta-hexosaminidase alpha chain (E.C.3.2.1.52), Beta-hexosaminidase; beta-hexoasaminidase A, glycosidase, Tay-Sachs disease; HET: NGT, BMA, NAG; 3.25A {Homo sapiens}
+Probab=16.18  E-value=1.4e+02  Score=11.94  Aligned_cols=6  Identities=50%  Similarity=1.182  Sum_probs=0.0  Template_Neff=9.400
+
+Q QVVHIG            1 QVVHIG    6 (6)
+Q Consensus         1 qvvhig    6 (6)
+                      ..+|||
+T Consensus        32 ~~~HiG   37 (237)
+T 2GK1_R           32 QFIHLG   37 (237)
+T ss_pred             CceEee
+
+
+No 9
+>1EES_B GTP-BINDING PROTEIN/P21-ACTIVATED KINASE; protein-protein complex, STRUCTURAL PROTEIN; NMR {Homo sapiens} SCOP: j.65.1.1
+Probab=16.08  E-value=1.4e+02  Score=9.48  Aligned_cols=6  Identities=33%  Similarity=1.110  Sum_probs=0.0  Template_Neff=8.200
+
+Q QVVHIG            1 QVVHIG    6 (6)
+Q Consensus         1 qvvhig    6 (6)
+                      .++|||
+T Consensus        16 h~~Hv~   21 (46)
+T 1EES_B           16 HTIHVG   21 (46)
+T ss_dssp             CCCCCS
+T ss_pred             EEEeee
+
+
+No 10
+>6BXO_A Diphthamide biosynthesis enzyme Dph2; DIPHTHAMIDE BIOSYNTHESIS, RADICAL SAM ENZYME; HET: SF4, SAH; 1.655A {Candidatus Methanoperedens nitroreducens}
+Probab=15.43  E-value=1.5e+02  Score=13.11  Aligned_cols=5  Identities=40%  Similarity=1.032  Sum_probs=0.0  Template_Neff=8.100
+
+Q QVVHIG            2 VVHIG    6 (6)
+Q Consensus         2 vvhig    6 (6)
+                      +||.|
+T Consensus        78 iVH~G   82 (327)
+T 6BXO_A           78 LFHFG   82 (327)
+T ss_dssp             EEEES
+T ss_pred             EEEec
+
+

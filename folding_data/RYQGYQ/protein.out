@@ -1,0 +1,309 @@
+Query         RYQGYQ
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 13:04:52 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/RYQGYQ/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/RYQGYQ/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 1O6X_A PROCARBOXYPEPTIDASE A2   52.3      13 0.00014   12.8   0.0    6    1-6       6-11  (81)
+  2 1PBA_A PROCARBOXYPEPTIDASE B (  50.9      14 0.00016   12.6   0.0    6    1-6       6-11  (81)
+  3 1AYE_A PROCARBOXYPEPTIDASE A2;  32.2      43 0.00048   14.7   0.0    6    1-6       3-8   (401)
+  4 3N65_B 'Nitric oxide synthase   30.4      49 0.00054   17.1   0.0    6    1-6     185-190 (422)
+  5 3E7M_B Nitric oxide synthase,   30.2      49 0.00054   17.1   0.0    6    1-6     195-200 (433)
+  6 6NGM_B Nitric oxide synthase,   30.1      50 0.00055   17.1   0.0    6    1-6     185-190 (422)
+  7 6CIC_A Nitric oxide synthase,   29.4      52 0.00057   17.0   0.0    6    1-6     185-190 (421)
+  8 4D1P_B NITRIC OXIDE SYNTHASE,   28.6      55 0.00061   17.1   0.0    6    1-6     210-215 (440)
+  9 1N2N_A Nitric oxide synthase,   27.9      57 0.00063   16.8   0.0    6    1-6     184-189 (419)
+ 10 3E7G_D Nitric oxide synthase,   27.9      57 0.00063   16.9   0.0    6    1-6     185-190 (424)
+ 11 1MJT_B NITRIC-OXIDE SYNTHASE H  27.8      58 0.00064   16.5   0.0    6    1-6     125-130 (347)
+ 12 2G6O_A Nitric-oxide synthase,   27.6      58 0.00065   16.8   0.0    6    1-6     186-191 (416)
+ 13 1D0C_A BOVINE ENDOTHELIAL NITR  27.1      60 0.00067   17.0   0.0    6    1-6     214-219 (444)
+ 14 4D3I_A NITRIC OXIDE SYNTHASE O  25.6      67 0.00074   16.3   0.0    6    1-6     132-137 (363)
+ 15 4D7J_A NITRIC OXIDE SYNTHASE O  25.6      67 0.00074   16.3   0.0    6    1-6     132-137 (363)
+ 16 2FLQ_B Nitric Oxide Synthase (  25.4      68 0.00075   16.4   0.0    6    1-6     138-143 (375)
+ 17 1MJT_A NITRIC-OXIDE SYNTHASE H  25.2      69 0.00077   16.2   0.0    6    1-6     125-130 (347)
+ 18 4UGC_A NITRIC OXIDE SYNTHASE O  23.8      76 0.00084   16.2   0.0    6    1-6     132-137 (363)
+ 19 2FLQ_A Nitric Oxide Synthase (  21.9      88 0.00098   16.1   0.0    6    1-6     138-143 (375)
+ 20 2ORT_A MURINE INDUCIBLE NITRIC  20.3   1E+02  0.0011   15.9   0.0    6    1-6     147-152 (389)
+
+No 1
+>1O6X_A PROCARBOXYPEPTIDASE A2 (E.C.3.4.17.15); ACTIVATION DOMAIN, HYDROLASE, CARBOXYPEPTIDASE, METALLOPROTE; NMR {HOMO SAPIENS} SCOP: d.58.3.1
+Probab=52.33  E-value=13  Score=12.76  Aligned_cols=6  Identities=33%  Similarity=0.551  Sum_probs=3.1  Template_Neff=9.000
+
+Q RYQGYQ            1 RYQGYQ    6 (6)
+Q Consensus         1 ryqgyq    6 (6)
+                      +|.|||
+T Consensus         6 ~y~g~~   11 (81)
+T 1O6X_A            6 TFVGDQ   11 (81)
+T ss_pred             ccCCcE
+Confidence            355554
+
+
+No 2
+>1PBA_A PROCARBOXYPEPTIDASE B (E.C.3.4.17.2) (ACTIVATION DOMAIN); HYDROLASE(C-TERMINAL PEPTIDASE); NMR {Sus scrofa} SCOP: d.58.3.1
+Probab=50.90  E-value=14  Score=12.61  Aligned_cols=6  Identities=17%  Similarity=0.711  Sum_probs=3.1  Template_Neff=9.100
+
+Q RYQGYQ            1 RYQGYQ    6 (6)
+Q Consensus         1 ryqgyq    6 (6)
+                      +|.|||
+T Consensus         6 ~y~g~~   11 (81)
+T 1PBA_A            6 HFEGEK   11 (81)
+T ss_dssp             SCCCCC
+T ss_pred             ccCCcE
+Confidence            355654
+
+
+No 3
+>1AYE_A PROCARBOXYPEPTIDASE A2; SERINE PROTEASE, ZYMOGEN, HYDROLASE; 1.8A {Homo sapiens} SCOP: c.56.5.1, d.58.3.1
+Probab=32.18  E-value=43  Score=14.71  Aligned_cols=6  Identities=33%  Similarity=0.551  Sum_probs=3.9  Template_Neff=8.800
+
+Q RYQGYQ            1 RYQGYQ    6 (6)
+Q Consensus         1 ryqgyq    6 (6)
+                      +|.|||
+T Consensus         3 ~Y~g~~    8 (401)
+T 1AYE_A            3 TFVGDQ    8 (401)
+T ss_dssp             CCTTCE
+T ss_pred             eeCCcE
+Confidence            477775
+
+
+No 4
+>3N65_B 'Nitric oxide synthase (E.C.1.14.13.39); heme enzyme, nitric oxide synthase; HET: HEM, XFJ, H4B, MTL; 1.8A {Rattus norvegicus}
+Probab=30.35  E-value=49  Score=17.09  Aligned_cols=6  Identities=67%  Similarity=1.564  Sum_probs=4.2  Template_Neff=4.000
+
+Q RYQGYQ            1 RYQGYQ    6 (6)
+Q Consensus         1 ryqgyq    6 (6)
+                      ||-||+
+T Consensus       185 RYAGY~  190 (422)
+T 3N65_B          185 RYAGYK  190 (422)
+T ss_dssp             CBCEEE
+T ss_pred             ccCCee
+Confidence            677775
+
+
+No 5
+>3E7M_B Nitric oxide synthase, inducible (E.C.1.14.13.39); NITRIC OXIDE SYNTHASE, NOS, HEME; HET: HEM, AT2, H4B; 2.0A {Mus musculus} SCOP: d.174.1.1
+Probab=30.24  E-value=49  Score=17.13  Aligned_cols=6  Identities=83%  Similarity=1.630  Sum_probs=4.2  Template_Neff=4.000
+
+Q RYQGYQ            1 RYQGYQ    6 (6)
+Q Consensus         1 ryqgyq    6 (6)
+                      ||.||+
+T Consensus       195 RYAGY~  200 (433)
+T 3E7M_B          195 RYAGYQ  200 (433)
+T ss_dssp             CBCEEE
+T ss_pred             ccCCee
+Confidence            677775
+
+
+No 6
+>6NGM_B Nitric oxide synthase, brain (E.C.1.14.13.39); nitric oxide synthase inhibitor complex; HET: KMD, HEM, H4B; 1.693A {Rattus norvegicus}
+Probab=30.07  E-value=50  Score=17.06  Aligned_cols=6  Identities=67%  Similarity=1.564  Sum_probs=4.2  Template_Neff=4.000
+
+Q RYQGYQ            1 RYQGYQ    6 (6)
+Q Consensus         1 ryqgyq    6 (6)
+                      ||-||+
+T Consensus       185 RYAGY~  190 (422)
+T 6NGM_B          185 RYAGYK  190 (422)
+T ss_dssp             CBCEEE
+T ss_pred             ccCCee
+Confidence            677775
+
+
+No 7
+>6CIC_A Nitric oxide synthase, brain (E.C.1.14.13.39); nitric oxide synthase inhibitor complex; HET: HEM, GOL, 7R2, H4B; 1.752A {Homo sapiens}
+Probab=29.42  E-value=52  Score=17.04  Aligned_cols=6  Identities=67%  Similarity=1.564  Sum_probs=4.2  Template_Neff=3.900
+
+Q RYQGYQ            1 RYQGYQ    6 (6)
+Q Consensus         1 ryqgyq    6 (6)
+                      ||-||+
+T Consensus       185 RYAGY~  190 (421)
+T 6CIC_A          185 RYAGYK  190 (421)
+T ss_dssp             CBCEEE
+T ss_pred             ccCCee
+Confidence            677775
+
+
+No 8
+>4D1P_B NITRIC OXIDE SYNTHASE, ENDOTHELIAL (E.C.1.14.13.39); OXIDOREDUCTASE, NITRIC OXIDE SYNTHASE; HET: HEM, H4B, ACT, Q16, BTB; 1.731A {HOMO SAPIENS}
+Probab=28.59  E-value=55  Score=17.09  Aligned_cols=6  Identities=67%  Similarity=1.564  Sum_probs=4.2  Template_Neff=3.800
+
+Q RYQGYQ            1 RYQGYQ    6 (6)
+Q Consensus         1 ryqgyq    6 (6)
+                      ||-||+
+T Consensus       210 RYAGY~  215 (440)
+T 4D1P_B          210 RYAGYR  215 (440)
+T ss_dssp             CBCEEE
+T ss_pred             ccCCee
+Confidence            677775
+
+
+No 9
+>1N2N_A Nitric oxide synthase, inducible (E.C.1.14.13.39); Nitric oxide synthase, Cyanide complex; HET: HEM, ARG, H4B; 2.4A {Mus musculus} SCOP: d.174.1.1
+Probab=27.94  E-value=57  Score=16.85  Aligned_cols=6  Identities=83%  Similarity=1.630  Sum_probs=4.2  Template_Neff=4.000
+
+Q RYQGYQ            1 RYQGYQ    6 (6)
+Q Consensus         1 ryqgyq    6 (6)
+                      ||.||+
+T Consensus       184 rYAGY~  189 (419)
+T 1N2N_A          184 RYAGYQ  189 (419)
+T ss_dssp             CBCEEE
+T ss_pred             ccCCee
+Confidence            677775
+
+
+No 10
+>3E7G_D Nitric oxide synthase, inducible (E.C.1.14.13.39); nitric oxide, NOS, HEME, tetrahydrobiopterin; HET: HEM, AT2, H4B; 2.2A {Homo sapiens} SCOP: d.174.1.1
+Probab=27.92  E-value=57  Score=16.87  Aligned_cols=6  Identities=83%  Similarity=1.630  Sum_probs=4.2  Template_Neff=4.000
+
+Q RYQGYQ            1 RYQGYQ    6 (6)
+Q Consensus         1 ryqgyq    6 (6)
+                      ||-||+
+T Consensus       185 rYAGY~  190 (424)
+T 3E7G_D          185 RYAGYQ  190 (424)
+T ss_dssp             CBCEEE
+T ss_pred             cccCee
+Confidence            677775
+
+
+No 11
+>1MJT_B NITRIC-OXIDE SYNTHASE HOMOLOG (E.C.1.14.13.39); SANOS, NO, NOS, BACTERIAL, STAPHYLOCOCCUS; HET: SUC, HEM, NAD, ITU; 2.4A {Staphylococcus aureus} SCOP: d.174.1.1
+Probab=27.81  E-value=58  Score=16.54  Aligned_cols=6  Identities=67%  Similarity=1.531  Sum_probs=4.1  Template_Neff=3.800
+
+Q RYQGYQ            1 RYQGYQ    6 (6)
+Q Consensus         1 ryqgyq    6 (6)
+                      ||-||+
+T Consensus       125 RYAGY~  130 (347)
+T 1MJT_B          125 RYAGYD  130 (347)
+T ss_dssp             CBCBCS
+T ss_pred             hcCCCc
+Confidence            677774
+
+
+No 12
+>2G6O_A Nitric-oxide synthase, endothelial (E.C.1.14.13.39); nitric oxide synthase, heme protein; HET: HEM, GOL, ARG; 1.9A {Bos taurus} SCOP: d.174.1.1
+Probab=27.61  E-value=58  Score=16.84  Aligned_cols=6  Identities=67%  Similarity=1.564  Sum_probs=4.2  Template_Neff=3.900
+
+Q RYQGYQ            1 RYQGYQ    6 (6)
+Q Consensus         1 ryqgyq    6 (6)
+                      ||-||+
+T Consensus       186 RYAGY~  191 (416)
+T 2G6O_A          186 RYAGYR  191 (416)
+T ss_dssp             CBCEEE
+T ss_pred             ccCCee
+Confidence            677774
+
+
+No 13
+>1D0C_A BOVINE ENDOTHELIAL NITRIC OXIDE SYNTHASE; ALPHA-BETA FOLD, OXIDOREDUCTASE; HET: GOL, ACT, HEM, INE; 1.65A {Bos taurus} SCOP: d.174.1.1
+Probab=27.15  E-value=60  Score=16.97  Aligned_cols=6  Identities=67%  Similarity=1.564  Sum_probs=4.2  Template_Neff=3.800
+
+Q RYQGYQ            1 RYQGYQ    6 (6)
+Q Consensus         1 ryqgyq    6 (6)
+                      ||-||+
+T Consensus       214 RYAGY~  219 (444)
+T 1D0C_A          214 RYAGYR  219 (444)
+T ss_dssp             CBCEEE
+T ss_pred             ccCCee
+Confidence            677775
+
+
+No 14
+>4D3I_A NITRIC OXIDE SYNTHASE OXYGENASE (E.C.1.14.13.165); NITRIC OXIDE SYNTHASE, OXIDOREDUCTASE, INHIBITOR; HET: HEM, 1ET; 2.09A {BACILLUS SUBTILIS}
+Probab=25.60  E-value=67  Score=16.34  Aligned_cols=6  Identities=67%  Similarity=1.575  Sum_probs=4.0  Template_Neff=4.000
+
+Q RYQGYQ            1 RYQGYQ    6 (6)
+Q Consensus         1 ryqgyq    6 (6)
+                      ||-||+
+T Consensus       132 rYAGY~  137 (363)
+T 4D3I_A          132 RYAGYE  137 (363)
+T ss_dssp             CBCEEE
+T ss_pred             cccCcc
+Confidence            577774
+
+
+No 15
+>4D7J_A NITRIC OXIDE SYNTHASE OXYGENASE (E.C.1.14.13.165); OXIDOREDUCTASE; HET: HEM, 0GD, GOL, H4B; 1.55A {BACILLUS SUBTILIS SUBSP. SUBTILIS STR. 168}
+Probab=25.60  E-value=67  Score=16.34  Aligned_cols=6  Identities=67%  Similarity=1.575  Sum_probs=4.0  Template_Neff=4.000
+
+Q RYQGYQ            1 RYQGYQ    6 (6)
+Q Consensus         1 ryqgyq    6 (6)
+                      ||-||+
+T Consensus       132 rYAGY~  137 (363)
+T 4D7J_A          132 RYAGYE  137 (363)
+T ss_dssp             CBCEEE
+T ss_pred             cccCcc
+Confidence            577774
+
+
+No 16
+>2FLQ_B Nitric Oxide Synthase (E.C.1.14.13.39); Nitric Oxide Synthase, Geobacillus Stearothermophilus; HET: ARG, HEM; 3.2A {Geobacillus stearothermophilus}
+Probab=25.42  E-value=68  Score=16.43  Aligned_cols=6  Identities=67%  Similarity=1.575  Sum_probs=4.1  Template_Neff=3.900
+
+Q RYQGYQ            1 RYQGYQ    6 (6)
+Q Consensus         1 ryqgyq    6 (6)
+                      ||-||+
+T Consensus       138 rYAGY~  143 (375)
+T 2FLQ_B          138 RYAGYE  143 (375)
+T ss_dssp             CBCEEC
+T ss_pred             eeCCcc
+Confidence            677774
+
+
+No 17
+>1MJT_A NITRIC-OXIDE SYNTHASE HOMOLOG (E.C.1.14.13.39); SANOS, NO, NOS, BACTERIAL, STAPHYLOCOCCUS; HET: HEM, GLC, ITU, NAD, FRU; 2.4A {Staphylococcus aureus} SCOP: d.174.1.1
+Probab=25.18  E-value=69  Score=16.21  Aligned_cols=6  Identities=67%  Similarity=1.531  Sum_probs=4.0  Template_Neff=4.000
+
+Q RYQGYQ            1 RYQGYQ    6 (6)
+Q Consensus         1 ryqgyq    6 (6)
+                      ||-||+
+T Consensus       125 rYAGY~  130 (347)
+T 1MJT_A          125 RYAGYD  130 (347)
+T ss_dssp             CBCBCS
+T ss_pred             hcCCCC
+Confidence            577774
+
+
+No 18
+>4UGC_A NITRIC OXIDE SYNTHASE OXYGENASE (E.C.1.14.13.165); NITRIC OXIDE SYNTHASE, OXIDOREDUCTASE, INHIBITOR; HET: 1Q6, HEM, H4B; 1.801A {BACILLUS SUBTILIS}
+Probab=23.83  E-value=76  Score=16.16  Aligned_cols=6  Identities=67%  Similarity=1.575  Sum_probs=4.0  Template_Neff=4.000
+
+Q RYQGYQ            1 RYQGYQ    6 (6)
+Q Consensus         1 ryqgyq    6 (6)
+                      ||-||+
+T Consensus       132 rYAGY~  137 (363)
+T 4UGC_A          132 RYAGYE  137 (363)
+T ss_dssp             CBCEEE
+T ss_pred             hhcccc
+Confidence            577774
+
+
+No 19
+>2FLQ_A Nitric Oxide Synthase (E.C.1.14.13.39); Nitric Oxide Synthase, Geobacillus Stearothermophilus; HET: ARG, HEM; 3.2A {Geobacillus stearothermophilus}
+Probab=21.89  E-value=88  Score=16.10  Aligned_cols=6  Identities=67%  Similarity=1.575  Sum_probs=4.0  Template_Neff=3.800
+
+Q RYQGYQ            1 RYQGYQ    6 (6)
+Q Consensus         1 ryqgyq    6 (6)
+                      ||-||+
+T Consensus       138 rYAGY~  143 (375)
+T 2FLQ_A          138 RYAGYE  143 (375)
+T ss_dssp             CBCEEE
+T ss_pred             ccCCcc
+Confidence            577774
+
+
+No 20
+>2ORT_A MURINE INDUCIBLE NITRIC OXIDE SYNTHASE; NITRIC OXIDE, L-ARGININE MONOOXYGENASE, HEME; HET: HEM, 342; 1.87A {Mus musculus}
+Probab=20.26  E-value=1e+02  Score=15.91  Aligned_cols=6  Identities=83%  Similarity=1.630  Sum_probs=3.9  Template_Neff=4.000
+
+Q RYQGYQ            1 RYQGYQ    6 (6)
+Q Consensus         1 ryqgyq    6 (6)
+                      ||-||+
+T Consensus       147 RYAGY~  152 (389)
+T 2ORT_A          147 RYAGYQ  152 (389)
+T ss_dssp             CBCBCC
+T ss_pred             ccCCee
+Confidence            577774
+
+

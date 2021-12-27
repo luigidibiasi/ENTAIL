@@ -1,0 +1,147 @@
+Query         KTKEQV
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 12:21:32 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/KTKEQV/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/KTKEQV/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 7AOI_AT bL28m, uL29m, uL30m, b  11.7 2.3E+02  0.0026   13.4   0.0    5    2-6      48-52  (138)
+  2 6YXY_AT bL28m, uL29m, uL30m, b  11.3 2.4E+02  0.0027   13.4   0.0    5    2-6      49-53  (144)
+  3 2N0A_B Alpha-synuclein; Protei  11.2 2.4E+02  0.0027   13.1   0.0    6    1-6      58-63  (140)
+  4 6SSX_D Alpha-synuclein; amyloi  11.2 2.4E+02  0.0027   13.1   0.0    6    1-6      58-63  (140)
+  5 2L5G_A G protein pathway suppr  10.5 2.7E+02   0.003   10.6   0.0    5    2-6      13-17  (38)
+  6 3Q27_A Maltose-binding peripla   9.4 3.1E+02  0.0034   11.1   0.0    6    1-6     383-388 (397)
+  7 4DM5_C Osmotically inducible l   9.0 3.3E+02  0.0036   10.7   0.0    5    2-6      29-33  (103)
+  8 4DJC_B Calmodulin, Sodium chan   8.5 3.6E+02  0.0039    7.7   0.0    4    2-5       1-4   (35)
+  9 5EKQ_E Outer membrane protein    8.2 3.8E+02  0.0042    9.5   0.0    5    2-6      32-36  (94)
+ 10 7MJ1_E Carboxylase, Hydrolase,   7.5 4.2E+02  0.0047   12.3   0.0    6    1-6      57-62  (256)
+
+No 1
+>7AOI_AT bL28m, uL29m, uL30m, bL32m, bL33m; mitochondria, translation, trypanosoma, assembly, evolution; HET: ADP, GTP, NAD, 4HH; 3.5A {Trypanosoma brucei}
+Probab=11.67  E-value=2.3e+02  Score=13.43  Aligned_cols=5  Identities=80%  Similarity=1.006  Sum_probs=0.0  Template_Neff=1.400
+
+Q KTKEQV            2 TKEQV    6 (6)
+Q Consensus         2 tkeqv    6 (6)
+                      ||||+
+T Consensus        48 TKEQI   52 (138)
+T 7AOI_AT          48 TKEQI   52 (138)
+T ss_pred             Chhhc
+
+
+No 2
+>6YXY_AT bL28m, uL29m, uL30m, bL32m, bL35m; mitoribosome, assembly, LSU, RIBOSOME; HET: ATP, PM8, MG, SPD, NAD, GTP; 3.1A {Trypanosoma brucei brucei}
+Probab=11.27  E-value=2.4e+02  Score=13.44  Aligned_cols=5  Identities=80%  Similarity=1.006  Sum_probs=0.0  Template_Neff=1.400
+
+Q KTKEQV            2 TKEQV    6 (6)
+Q Consensus         2 tkeqv    6 (6)
+                      ||||+
+T Consensus        49 TKEQI   53 (144)
+T 6YXY_AT          49 TKEQI   53 (144)
+T ss_pred             Chhhc
+
+
+No 3
+>2N0A_B Alpha-synuclein; Protein Fibril, Amyloid, Parkinson's Disease; NMR {Homo sapiens}
+Probab=11.24  E-value=2.4e+02  Score=13.15  Aligned_cols=6  Identities=100%  Similarity=1.032  Sum_probs=0.0  Template_Neff=2.900
+
+Q KTKEQV            1 KTKEQV    6 (6)
+Q Consensus         1 ktkeqv    6 (6)
+                      ||+||.
+T Consensus        58 KT~eqa   63 (140)
+T 2N0A_B           58 KTKEQV   63 (140)
+T ss_dssp             CCCEEE
+T ss_pred             ccHHhH
+
+
+No 4
+>6SSX_D Alpha-synuclein; amyloid, parkinson, PROTEIN FIBRIL; 2.98A {Homo sapiens}
+Probab=11.24  E-value=2.4e+02  Score=13.15  Aligned_cols=6  Identities=100%  Similarity=1.032  Sum_probs=0.0  Template_Neff=2.900
+
+Q KTKEQV            1 KTKEQV    6 (6)
+Q Consensus         1 ktkeqv    6 (6)
+                      ||+||.
+T Consensus        58 KT~eqa   63 (140)
+T 6SSX_D           58 KTKEQV   63 (140)
+T ss_dssp             SCSEEE
+T ss_pred             ccHHhH
+
+
+No 5
+>2L5G_A G protein pathway suppressor 2; GPS2, SMRT, TBL1, co-repressor, TRANSCRIPTION; NMR {Homo sapiens}
+Probab=10.48  E-value=2.7e+02  Score=10.55  Aligned_cols=5  Identities=80%  Similarity=1.006  Sum_probs=0.0  Template_Neff=3.100
+
+Q KTKEQV            2 TKEQV    6 (6)
+Q Consensus         2 tkeqv    6 (6)
+                      |++|+
+T Consensus        13 tkeQI   17 (38)
+T 2L5G_A           13 TKEQI   17 (38)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 6
+>3Q27_A Maltose-binding periplasmic protein/alpha-synuclein chimeric protein; fusion protein, amyloid, SUGAR BINDING; HET: MAL, GOL, SO4; 1.302A {Escherichia coli, Homo sapiens}
+Probab=9.44  E-value=3.1e+02  Score=11.14  Aligned_cols=6  Identities=83%  Similarity=0.828  Sum_probs=0.0  Template_Neff=11.000
+
+Q KTKEQV            1 KTKEQV    6 (6)
+Q Consensus         1 ktkeqv    6 (6)
+                      ||||-|
+T Consensus       383 ~~~~~~  388 (397)
+T 3Q27_A          383 KTKEGV  388 (397)
+T ss_dssp             HHCSSC
+T ss_pred             ccccce
+
+
+No 7
+>4DM5_C Osmotically inducible lipoprotein OsmE; lipoprotein, UNKNOWN FUNCTION; HET: MSE; 1.5A {Pseudomonas aeruginosa PAO1}
+Probab=9.03  E-value=3.3e+02  Score=10.70  Aligned_cols=5  Identities=20%  Similarity=0.654  Sum_probs=0.0  Template_Neff=6.800
+
+Q KTKEQV            2 TKEQV    6 (6)
+Q Consensus         2 tkeqv    6 (6)
+                      |++||
+T Consensus        29 Tk~qV   33 (103)
+T 4DM5_C           29 SQQEV   33 (103)
+T ss_dssp             BHHHH
+T ss_pred             CHHHH
+
+
+No 8
+>4DJC_B Calmodulin, Sodium channel protein type; EF-Hand, calcium-binding protein; HET: IPA; 1.35A {Homo sapiens}
+Probab=8.52  E-value=3.6e+02  Score=7.67  Aligned_cols=4  Identities=25%  Similarity=0.418  Sum_probs=0.0  Template_Neff=9.000
+
+Q KTKEQV            2 TKEQ    5 (6)
+Q Consensus         2 tkeq    5 (6)
+                      |.+|
+T Consensus         1 t~~Q    4 (35)
+T 4DJC_B            1 SNAQ    4 (35)
+T ss_dssp             CCHH
+T ss_pred             CHHH
+
+
+No 9
+>5EKQ_E Outer membrane protein assembly factor; membrane protein, insertase, beta-barrel, outer; 3.392A {Escherichia coli (strain K12)}
+Probab=8.19  E-value=3.8e+02  Score=9.47  Aligned_cols=5  Identities=60%  Similarity=0.787  Sum_probs=0.0  Template_Neff=8.800
+
+Q KTKEQV            2 TKEQV    6 (6)
+Q Consensus         2 tkeqv    6 (6)
+                      |+++|
+T Consensus        32 tk~~V   36 (94)
+T 5EKQ_E           32 TQQQV   36 (94)
+T ss_pred             CHHHH
+
+
+No 10
+>7MJ1_E Carboxylase, Hydrolase, LYASE (CARBON-CARBON); HET: NAD, NAI; 3.402A {Lactobacillus plantarum}
+Probab=7.51  E-value=4.2e+02  Score=12.26  Aligned_cols=6  Identities=50%  Similarity=0.612  Sum_probs=0.0  Template_Neff=6.200
+
+Q KTKEQV            1 KTKEQV    6 (6)
+Q Consensus         1 ktkeqv    6 (6)
+                      ||.||+
+T Consensus        57 Kt~eqi   62 (256)
+T 7MJ1_E           57 KTATQI   62 (256)
+T ss_dssp             SCTTHH
+T ss_pred             CCHHHH
+
+

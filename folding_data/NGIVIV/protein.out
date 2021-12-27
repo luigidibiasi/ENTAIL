@@ -1,0 +1,149 @@
+Query         NGIVIV
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 00:11:18 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NGIVIV/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NGIVIV/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2K3M_A Rv1761c; PROTEIN, integ  19.0 1.1E+02  0.0012   14.6   0.0    5    1-5      99-103 (151)
+  2 5A0T_A RIBONUCLEASE J; HYDROLA  17.7 1.2E+02  0.0014   13.5   0.0    6    1-6     473-478 (561)
+  3 3BK1_A Metal dependent hydrola  17.0 1.3E+02  0.0015   13.5   0.0    6    1-6     479-484 (562)
+  4 3ZQ4_C RIBONUCLEASE J 1 (E.C.3  16.1 1.4E+02  0.0016   13.3   0.0    6    1-6     464-469 (555)
+  5 3T3O_A exo/endoribonuclease RN  16.1 1.4E+02  0.0016   13.4   0.0    6    1-6     480-485 (562)
+  6 4XWW_A Deinococcus radiodurans  15.0 1.6E+02  0.0018   13.3   0.0    6    1-6     477-482 (559)
+  7 6JWP_C GTP-binding protein GTR  15.0 1.6E+02  0.0018   13.4   0.0    5    1-5      49-53  (129)
+  8 5GOL_D Carbon monoxide dehydro  14.3 1.7E+02  0.0019   13.4   0.0    6    1-6      16-21  (135)
+  9 5H6W_B Carbon monoxide dehydro  14.3 1.7E+02  0.0019   13.4   0.0    6    1-6      16-21  (135)
+ 10 1NXJ_A Probable S-adenosylmeth  14.3 1.7E+02  0.0019   12.7   0.0    6    1-6     178-183 (183)
+
+No 1
+>2K3M_A Rv1761c; PROTEIN, integral membrane protein, MEMBRANE; HET: MTN; NMR {Mycobacterium tuberculosis}
+Probab=19.03  E-value=1.1e+02  Score=14.58  Aligned_cols=5  Identities=100%  Similarity=1.451  Sum_probs=0.0  Template_Neff=1.600
+
+Q NGIVIV            1 NGIVI    5 (6)
+Q Consensus         1 ngivi    5 (6)
+                      |||||
+T Consensus        99 nGIVl  103 (151)
+T 2K3M_A           99 NGIVI  103 (151)
+T ss_dssp             THHHH
+T ss_pred             CcEEE
+
+
+No 2
+>5A0T_A RIBONUCLEASE J; HYDROLASE-RNA COMPLEX, RIBONUCLEASE, RNASE J; HET: PEG; 2.283A {ESCHERICHIA COLI}
+Probab=17.68  E-value=1.2e+02  Score=13.49  Aligned_cols=6  Identities=50%  Similarity=0.900  Sum_probs=0.0  Template_Neff=9.800
+
+Q NGIVIV            1 NGIVIV    6 (6)
+Q Consensus         1 ngiviv    6 (6)
+                      +|+|+|
+T Consensus       473 ~G~~~v  478 (561)
+T 5A0T_A          473 EGIISV  478 (561)
+T ss_dssp             ------
+T ss_pred             cCEEEE
+
+
+No 3
+>3BK1_A Metal dependent hydrolase (E.C.3.-.-.-); RNase J, Endoribonuclease, 5'-3' Exoribonuclease; HET: GOL, SO4; 2.33A {Thermus thermophilus}
+Probab=16.98  E-value=1.3e+02  Score=13.47  Aligned_cols=6  Identities=33%  Similarity=1.104  Sum_probs=0.0  Template_Neff=9.700
+
+Q NGIVIV            1 NGIVIV    6 (6)
+Q Consensus         1 ngiviv    6 (6)
+                      +|+|+|
+T Consensus       479 ~G~~~~  484 (562)
+T 3BK1_A          479 EGLVVI  484 (562)
+T ss_dssp             HCEEEE
+T ss_pred             cCEEEE
+
+
+No 4
+>3ZQ4_C RIBONUCLEASE J 1 (E.C.3.1.-.-); HYDROLASE, RNA MATURATION; 3.0A {BACILLUS SUBTILIS}
+Probab=16.12  E-value=1.4e+02  Score=13.29  Aligned_cols=6  Identities=67%  Similarity=1.171  Sum_probs=0.0  Template_Neff=9.800
+
+Q NGIVIV            1 NGIVIV    6 (6)
+Q Consensus         1 ngiviv    6 (6)
+                      +|+++|
+T Consensus       464 ~G~~~v  469 (555)
+T 3ZQ4_C          464 EGLVIV  469 (555)
+T ss_dssp             TCEEEE
+T ss_pred             CCEEEE
+
+
+No 5
+>3T3O_A exo/endoribonuclease RNase J/RNA complex; PROTEIN-RNA COMPLEX, Metallo-beta-lactamase, RNase J; 2.5A {Thermus thermophilus HB27}
+Probab=16.08  E-value=1.4e+02  Score=13.42  Aligned_cols=6  Identities=33%  Similarity=1.104  Sum_probs=0.0  Template_Neff=9.600
+
+Q NGIVIV            1 NGIVIV    6 (6)
+Q Consensus         1 ngiviv    6 (6)
+                      +|+|+|
+T Consensus       480 ~G~v~~  485 (562)
+T 3T3O_A          480 EGLVVI  485 (562)
+T ss_dssp             TCEEEE
+T ss_pred             cCEEEE
+
+
+No 6
+>4XWW_A Deinococcus radiodurans RNase J/RNA Complex; ribonuclease, two-metal-ion, dimerization, manganese, Deinococcus; HET: GOL; 1.7A {Deinococcus radiodurans}
+Probab=15.00  E-value=1.6e+02  Score=13.27  Aligned_cols=6  Identities=33%  Similarity=0.994  Sum_probs=0.0  Template_Neff=9.600
+
+Q NGIVIV            1 NGIVIV    6 (6)
+Q Consensus         1 ngiviv    6 (6)
+                      +|+|+|
+T Consensus       477 ~G~v~v  482 (559)
+T 4XWW_A          477 EGLLIL  482 (559)
+T ss_pred             CCEEEE
+
+
+No 7
+>6JWP_C GTP-binding protein GTR1, GTP-binding protein; EGOC, roadblock domain, Gtr1, TORC1; HET: GNP; 3.2A {Saccharomyces cerevisiae S288c}
+Probab=14.97  E-value=1.6e+02  Score=13.39  Aligned_cols=5  Identities=80%  Similarity=1.258  Sum_probs=0.0  Template_Neff=3.400
+
+Q NGIVIV            1 NGIVI    5 (6)
+Q Consensus         1 ngivi    5 (6)
+                      .||||
+T Consensus        49 sgIVi   53 (129)
+T 6JWP_C           49 SGIVI   53 (129)
+T ss_dssp             CCSEE
+T ss_pred             CceEe
+
+
+No 8
+>5GOL_D Carbon monoxide dehydrogenase/acetyl-CoA synthase subunit; acetyl-Coenzyme A synthase, TRANSFERASE; HET: SO4; 2.11A {Moorella thermoacetica}
+Probab=14.29  E-value=1.7e+02  Score=13.38  Aligned_cols=6  Identities=67%  Similarity=1.110  Sum_probs=0.0  Template_Neff=3.400
+
+Q NGIVIV            1 NGIVIV    6 (6)
+Q Consensus         1 ngiviv    6 (6)
+                      ||+.||
+T Consensus        16 nGi~iV   21 (135)
+T 5GOL_D           16 NGIMIT   21 (135)
+T ss_dssp             TEEEEE
+T ss_pred             CeEEEE
+
+
+No 9
+>5H6W_B Carbon monoxide dehydrogenase/acetyl-CoA synthase subunit; acetyl-Coenzyme A synthase, TRANSFERASE; 2.2A {Moorella thermoacetica}
+Probab=14.29  E-value=1.7e+02  Score=13.38  Aligned_cols=6  Identities=67%  Similarity=1.110  Sum_probs=0.0  Template_Neff=3.400
+
+Q NGIVIV            1 NGIVIV    6 (6)
+Q Consensus         1 ngiviv    6 (6)
+                      ||+.||
+T Consensus        16 nGi~iV   21 (135)
+T 5H6W_B           16 NGIMIT   21 (135)
+T ss_dssp             TEEEEE
+T ss_pred             CeEEEE
+
+
+No 10
+>1NXJ_A Probable S-adenosylmethionine:2-demethylmenaquinone methyltransferase (E.C.2.1.-.-); beta/beta/alpha domain, Structural Genomics, PSI; HET: GLV, TLA; 1.9A {Mycobacterium tuberculosis} SCOP: c.8.7.1
+Probab=14.25  E-value=1.7e+02  Score=12.71  Aligned_cols=6  Identities=50%  Similarity=1.243  Sum_probs=0.0  Template_Neff=6.400
+
+Q NGIVIV            1 NGIVIV    6 (6)
+Q Consensus         1 ngiviv    6 (6)
+                      +|+|+|
+T Consensus       178 dGVVVI  183 (183)
+T 1NXJ_A          178 DGIIVV  183 (183)
+T ss_dssp             SCEEEC
+T ss_pred             CeEEEC
+
+

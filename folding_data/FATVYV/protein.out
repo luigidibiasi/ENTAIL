@@ -1,0 +1,150 @@
+Query         FATVYV
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 20:24:58 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/FATVYV/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/FATVYV/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 1PA4_A Probable ribosome-bindi  12.7 2.1E+02  0.0023   10.7   0.0    6    1-6      46-51  (116)
+  2 5H6I_A Protein B; Pore forming  12.0 2.2E+02  0.0024   14.1   0.0    6    1-6     173-178 (246)
+  3 1KKG_A ribosome-binding factor  11.6 2.3E+02  0.0026   10.4   0.0    6    1-6      49-54  (108)
+  4 3QLE_A Tim50p; Chaperone, Mito  11.4 2.4E+02  0.0027   11.3   0.0    6    1-6       7-12  (204)
+  5 4Y85_A Mitogen-activated prote  10.6 2.6E+02  0.0029   11.0   0.0    5    1-5      86-90  (332)
+  6 2DYJ_B Ribosome-binding factor  10.6 2.6E+02  0.0029   10.1   0.0    6    1-6      44-49  (95)
+  7 2R1C_A Ribosome-binding factor  10.6 2.6E+02  0.0029   10.1   0.0    6    1-6      44-49  (95)
+  8 4JRN_A Rhoptry kinase family p   9.7   3E+02  0.0033   11.3   0.0    5    1-5      81-85  (372)
+  9 3KMW_A Integrin-linked kinase,   9.4 3.1E+02  0.0035   10.0   0.0    5    1-5      23-27  (271)
+ 10 5TKD_A Non-receptor tyrosine-p   8.9 3.4E+02  0.0037   10.1   0.0    5    1-5      29-33  (298)
+
+No 1
+>1PA4_A Probable ribosome-binding factor A; Ribosome-binding Factor, Structural Genomics, Distant; NMR {Mycoplasma pneumoniae} SCOP: d.52.7.1
+Probab=12.67  E-value=2.1e+02  Score=10.72  Aligned_cols=6  Identities=50%  Similarity=0.860  Sum_probs=0.0  Template_Neff=8.400
+
+Q FATVYV            1 FATVYV    6 (6)
+Q Consensus         1 fatvyv    6 (6)
+                      .|+||+
+T Consensus        46 ~a~Vy~   51 (116)
+T 1PA4_A           46 HVTVYL   51 (116)
+T ss_dssp             EEEECC
+T ss_pred             EEEEEE
+
+
+No 2
+>5H6I_A Protein B; Pore forming toxin, TOXIN; HET: SO4; 2.45A {Streptococcus agalactiae}
+Probab=12.04  E-value=2.2e+02  Score=14.10  Aligned_cols=6  Identities=50%  Similarity=0.700  Sum_probs=0.0  Template_Neff=3.600
+
+Q FATVYV            1 FATVYV    6 (6)
+Q Consensus         1 fatvyv    6 (6)
+                      .||+|+
+T Consensus       173 ~ATiYv  178 (246)
+T 5H6I_A          173 RATIYT  178 (246)
+T ss_dssp             BCCTTT
+T ss_pred             chhHHh
+
+
+No 3
+>1KKG_A ribosome-binding factor A; cold-shock adaptation, ribosome-binding factor, NESG; NMR {Escherichia coli} SCOP: d.52.7.1
+Probab=11.58  E-value=2.3e+02  Score=10.44  Aligned_cols=6  Identities=67%  Similarity=1.231  Sum_probs=0.0  Template_Neff=8.400
+
+Q FATVYV            1 FATVYV    6 (6)
+Q Consensus         1 fatvyv    6 (6)
+                      .|.||+
+T Consensus        49 ~a~Vy~   54 (108)
+T 1KKG_A           49 YAKVYV   54 (108)
+T ss_dssp             EEEEEE
+T ss_pred             EEEEEE
+
+
+No 4
+>3QLE_A Tim50p; Chaperone, Mitochondrion, preprotein translocation; HET: 1PE; 1.831A {Saccharomyces cerevisiae EC1118}
+Probab=11.38  E-value=2.4e+02  Score=11.26  Aligned_cols=6  Identities=17%  Similarity=0.827  Sum_probs=0.0  Template_Neff=9.000
+
+Q FATVYV            1 FATVYV    6 (6)
+Q Consensus         1 fatvyv    6 (6)
+                      |+|+|.
+T Consensus         7 ~~~~~~   12 (204)
+T 3QLE_A            7 FNSMFT   12 (204)
+T ss_dssp             ------
+T ss_pred             HHHhhh
+
+
+No 5
+>4Y85_A Mitogen-activated protein kinase kinase kinase; COT, Tpl-2, MAP3K8, kinase, inhibitor; HET: 499; 2.33A {Homo sapiens}
+Probab=10.64  E-value=2.6e+02  Score=10.96  Aligned_cols=5  Identities=60%  Similarity=1.251  Sum_probs=0.0  Template_Neff=11.100
+
+Q FATVYV            1 FATVY    5 (6)
+Q Consensus         1 fatvy    5 (6)
+                      |++||
+T Consensus        86 ~g~Vy   90 (332)
+T 4Y85_A           86 FGKVY   90 (332)
+T ss_dssp             SSEEE
+T ss_pred             CeEEE
+
+
+No 6
+>2DYJ_B Ribosome-binding factor A; 16S rRNA processing, 17S RNA; 1.84A {Thermus thermophilus} SCOP: d.52.7.1
+Probab=10.60  E-value=2.6e+02  Score=10.12  Aligned_cols=6  Identities=50%  Similarity=0.833  Sum_probs=0.0  Template_Neff=8.300
+
+Q FATVYV            1 FATVYV    6 (6)
+Q Consensus         1 fatvyv    6 (6)
+                      .|.||+
+T Consensus        44 ~a~Vy~   49 (95)
+T 2DYJ_B           44 VLSVYV   49 (95)
+T ss_dssp             EEEEEE
+T ss_pred             EEEEEE
+
+
+No 7
+>2R1C_A Ribosome-binding factor A; helix-kink-helix, KH domain, rRNA processing; 12.5A {Thermus thermophilus} SCOP: d.52.7.1
+Probab=10.60  E-value=2.6e+02  Score=10.12  Aligned_cols=6  Identities=50%  Similarity=0.833  Sum_probs=0.0  Template_Neff=8.300
+
+Q FATVYV            1 FATVYV    6 (6)
+Q Consensus         1 fatvyv    6 (6)
+                      .|.||+
+T Consensus        44 ~a~Vy~   49 (95)
+T 2R1C_A           44 VLSVYV   49 (95)
+T ss_dssp             EEEEEE
+T ss_pred             EEEEEE
+
+
+No 8
+>4JRN_A Rhoptry kinase family protein; protein kinase, kinase, membrane, TRANSFERASE; HET: ANP, SUC; 2.71A {Toxoplasma gondii}
+Probab=9.71  E-value=3e+02  Score=11.27  Aligned_cols=5  Identities=100%  Similarity=1.537  Sum_probs=0.0  Template_Neff=10.600
+
+Q FATVYV            1 FATVY    5 (6)
+Q Consensus         1 fatvy    5 (6)
+                      |+.||
+T Consensus        81 fg~Vy   85 (372)
+T 4JRN_A           81 FATVY   85 (372)
+T ss_dssp             SEEEE
+T ss_pred             ceEEE
+
+
+No 9
+>3KMW_A Integrin-linked kinase, Alpha-parvin; CELL ADHESION, ANK repeat, ATP-binding; HET: ATP; 2.0A {Homo sapiens}
+Probab=9.40  E-value=3.1e+02  Score=10.01  Aligned_cols=5  Identities=0%  Similarity=0.235  Sum_probs=0.0  Template_Neff=11.900
+
+Q FATVYV            1 FATVY    5 (6)
+Q Consensus         1 fatvy    5 (6)
+                      |++||
+T Consensus        23 ~g~v~   27 (271)
+T 3KMW_A           23 SGELW   27 (271)
+T ss_dssp             TEEEE
+T ss_pred             CcEEE
+
+
+No 10
+>5TKD_A Non-receptor tyrosine-protein kinase TYK2 (E.C.2.7.10.2); KINASE, TYK2, PSEUDOKINASE, TRANSFERASE; HET: 7GL, SO4; 1.92A {Homo sapiens}
+Probab=8.91  E-value=3.4e+02  Score=10.15  Aligned_cols=5  Identities=40%  Similarity=0.607  Sum_probs=0.0  Template_Neff=11.800
+
+Q FATVYV            1 FATVY    5 (6)
+Q Consensus         1 fatvy    5 (6)
+                      |++||
+T Consensus        29 ~g~V~   33 (298)
+T 5TKD_A           29 RTNVY   33 (298)
+T ss_dssp             TEEEE
+T ss_pred             CceEE
+
+

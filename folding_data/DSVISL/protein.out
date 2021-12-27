@@ -1,0 +1,147 @@
+Query         DSVISL
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 18:01:19 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/DSVISL/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/DSVISL/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3HFW_A [Protein ADP-ribosylarg  29.2      53 0.00058   13.7   0.0    6    1-6     352-357 (357)
+  2 6IUX_A [Protein ADP-ribosylarg  20.3   1E+02  0.0011   13.2   0.0    6    1-6     374-379 (379)
+  3 6YWS_c 60S ribosomal protein L   5.1   7E+02  0.0078   11.1   0.0    5    1-5      39-43  (110)
+  4 5MRF_c 54S ribosomal protein R   5.0 7.1E+02  0.0079   11.2   0.0    5    1-5      27-31  (119)
+  5 5MEA_A Cell division cycle pro   4.9 7.2E+02   0.008   11.6   0.0    6    1-6     323-328 (439)
+  6 5MRF_11 54S ribosomal protein    4.7 7.8E+02  0.0086    9.1   0.0    4    1-4       1-4   (34)
+  7 1K8F_C ADENYLYL CYCLASE-ASSOCI   4.3 8.6E+02  0.0095   10.7   0.0    5    1-5      65-69  (157)
+  8 3ZPV_D PROTEIN BCL9 HOMOLOG, P   4.2 8.9E+02  0.0098    9.0   0.0    5    1-5      28-32  (37)
+  9 3ZPV_R PROTEIN BCL9 HOMOLOG, P   4.2 8.9E+02  0.0098    9.0   0.0    5    1-5      28-32  (37)
+ 10 6TNN_I 50S ribosomal protein L   4.1 9.1E+02    0.01    9.2   0.0    6    1-6      23-28  (143)
+
+No 1
+>3HFW_A [Protein ADP-ribosylarginine] hydrolase (E.C.3.2.2.19); all alpha-helical, Hydrolase, Magnesium; HET: ADP; 1.92A {Homo sapiens}
+Probab=29.22  E-value=53  Score=13.69  Aligned_cols=6  Identities=83%  Similarity=1.099  Sum_probs=3.5  Template_Neff=9.800
+
+Q DSVISL            1 DSVISL    6 (6)
+Q Consensus         1 dsvisl    6 (6)
+                      ++||||
+T Consensus       352 ~~~~~~  357 (357)
+T 3HFW_A          352 DTVISL  357 (357)
+T ss_dssp             CCCBCC
+T ss_pred             cccccC
+Confidence            356765
+
+
+No 2
+>6IUX_A [Protein ADP-ribosylarginine] hydrolase (E.C.3.2.2.19); ADPR, protein, HYDROLASE; HET: AR6; 1.195A {Homo sapiens}
+Probab=20.28  E-value=1e+02  Score=13.24  Aligned_cols=6  Identities=83%  Similarity=1.099  Sum_probs=3.4  Template_Neff=9.400
+
+Q DSVISL            1 DSVISL    6 (6)
+Q Consensus         1 dsvisl    6 (6)
+                      ++||||
+T Consensus       374 ~~~~~~  379 (379)
+T 6IUX_A          374 DTVISL  379 (379)
+T ss_dssp             CCCBCC
+T ss_pred             cccccC
+Confidence            356664
+
+
+No 3
+>6YWS_c 60S ribosomal protein L2, 60S; Neurospora crassa, translating Mitoribosomes, tRNA; HET: MG, K, NAD, SPM;{Neurospora crassa OR74A}
+Probab=5.06  E-value=7e+02  Score=11.10  Aligned_cols=5  Identities=40%  Similarity=0.880  Sum_probs=0.0  Template_Neff=3.700
+
+Q DSVISL            1 DSVIS    5 (6)
+Q Consensus         1 dsvis    5 (6)
+                      |+||+
+T Consensus        39 D~vI~   43 (110)
+T 6YWS_c           39 DNVVA   43 (110)
+T ss_pred             HHHHH
+
+
+No 4
+>5MRF_c 54S ribosomal protein RML2, mitochondrial; yeast, mitochondrial, ribosome, saccharomyces cerevisiae; HET: MG, GDP; 4.97A {Saccharomyces cerevisiae}
+Probab=4.99  E-value=7.1e+02  Score=11.24  Aligned_cols=5  Identities=60%  Similarity=0.826  Sum_probs=0.0  Template_Neff=3.600
+
+Q DSVISL            1 DSVIS    5 (6)
+Q Consensus         1 dsvis    5 (6)
+                      |+||+
+T Consensus        27 D~VI~   31 (119)
+T 5MRF_c           27 DQVIK   31 (119)
+T ss_pred             HHHHH
+
+
+No 5
+>5MEA_A Cell division cycle protein CDT1; Cdt1, MCM, winged helix, yeast; HET: SO4; 2.152A {Saccharomyces cerevisiae}
+Probab=4.94  E-value=7.2e+02  Score=11.60  Aligned_cols=6  Identities=50%  Similarity=0.922  Sum_probs=0.0  Template_Neff=8.200
+
+Q DSVISL            1 DSVISL    6 (6)
+Q Consensus         1 dsvisl    6 (6)
+                      |+++||
+T Consensus       323 d~~~~l  328 (439)
+T 5MEA_A          323 ETVLSL  328 (439)
+T ss_pred             HHHHHH
+
+
+No 6
+>5MRF_11 54S ribosomal protein RML2, mitochondrial; yeast, mitochondrial, ribosome, saccharomyces cerevisiae; HET: MG, GDP; 4.97A {Saccharomyces cerevisiae}
+Probab=4.65  E-value=7.8e+02  Score=9.07  Aligned_cols=4  Identities=75%  Similarity=1.066  Sum_probs=0.0  Template_Neff=3.300
+
+Q DSVISL            1 DSVI    4 (6)
+Q Consensus         1 dsvi    4 (6)
+                      |||.
+T Consensus         1 dSv~    4 (34)
+T 5MRF_11           1 DSVM    4 (34)
+T ss_pred             CchH
+
+
+No 7
+>1K8F_C ADENYLYL CYCLASE-ASSOCIATED PROTEIN; CAP, CAP1, ADENYLYL CYCLASE ASSOCIATED; 2.8A {Homo sapiens} SCOP: b.80.5.1
+Probab=4.31  E-value=8.6e+02  Score=10.67  Aligned_cols=5  Identities=40%  Similarity=0.807  Sum_probs=0.0  Template_Neff=5.800
+
+Q DSVISL            1 DSVIS    5 (6)
+Q Consensus         1 dsvis    5 (6)
+                      |++||
+T Consensus        65 dsvIS   69 (157)
+T 1K8F_C           65 DDVVG   69 (157)
+T ss_dssp             EEESS
+T ss_pred             cceEE
+
+
+No 8
+>3ZPV_D PROTEIN BCL9 HOMOLOG, PROTEIN PYGOPUS; TRANSCRIPTION, WNT SIGNALING PATHWAY, ZN; HET: ZN; 2.68A {DROSOPHILA MELANOGASTER}
+Probab=4.21  E-value=8.9e+02  Score=9.05  Aligned_cols=5  Identities=20%  Similarity=0.707  Sum_probs=0.0  Template_Neff=3.400
+
+Q DSVISL            1 DSVIS    5 (6)
+Q Consensus         1 dsvis    5 (6)
+                      ||+|+
+T Consensus        28 ~SII~   32 (37)
+T 3ZPV_D           28 QTIIA   32 (37)
+T ss_dssp             SSHHH
+T ss_pred             ccHHh
+
+
+No 9
+>3ZPV_R PROTEIN BCL9 HOMOLOG, PROTEIN PYGOPUS; TRANSCRIPTION, WNT SIGNALING PATHWAY, ZN; HET: ZN; 2.68A {DROSOPHILA MELANOGASTER}
+Probab=4.21  E-value=8.9e+02  Score=9.05  Aligned_cols=5  Identities=20%  Similarity=0.707  Sum_probs=0.0  Template_Neff=3.400
+
+Q DSVISL            1 DSVIS    5 (6)
+Q Consensus         1 dsvis    5 (6)
+                      ||+|+
+T Consensus        28 ~SII~   32 (37)
+T 3ZPV_R           28 QTIIA   32 (37)
+T ss_dssp             SSHHH
+T ss_pred             ccHHh
+
+
+No 10
+>6TNN_I 50S ribosomal protein L10, Mini-ribonuclease; Mini-RNase III, Mini-III, complex, ribosome; HET: MG; 3.07A {Bacillus subtilis subsp. subtilis str. 168 }
+Probab=4.12  E-value=9.1e+02  Score=9.19  Aligned_cols=6  Identities=0%  Similarity=0.523  Sum_probs=0.0  Template_Neff=8.800
+
+Q DSVISL            1 DSVISL    6 (6)
+Q Consensus         1 dsvisl    6 (6)
+                      |+|+.+
+T Consensus        23 DavL~l   28 (143)
+T 6TNN_I           23 NAIFEV   28 (143)
+T ss_pred             HHHHHH
+
+

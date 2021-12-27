@@ -1,0 +1,150 @@
+Query         NTVIIE
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 04:43:27 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NTVIIE/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NTVIIE/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2XVO_C SSO1725; STRUCTURAL GEN  16.5 1.4E+02  0.0015   14.7   0.0    6    1-6     165-170 (192)
+  2 2XVO_A SSO1725; STRUCTURAL GEN  16.3 1.4E+02  0.0016   14.7   0.0    6    1-6     165-170 (192)
+  3 3IXS_F RING1B, RYBP, polycomb,  10.7 2.6E+02  0.0029   10.7   0.0    4    2-5      25-28  (37)
+  4 4UJ5_C RAS-RELATED PROTEIN RAB  10.5 2.7E+02   0.003   12.4   0.0    6    1-6      86-91  (195)
+  5 6P7B_A Holliday junction resol  10.4 2.7E+02   0.003   10.5   0.0    6    1-6      55-60  (149)
+  6 3IXS_H E3 ubiquitin-protein li  10.2 2.8E+02  0.0031   10.6   0.0    4    2-5      25-28  (37)
+  7 4UJ3_K RAS-RELATED PROTEIN RAB   9.9 2.9E+02  0.0032   12.2   0.0    6    1-6      86-91  (195)
+  8 4UJ5_D RAS-RELATED PROTEIN RAB   9.9 2.9E+02  0.0032   12.2   0.0    6    1-6      86-91  (195)
+  9 4BJ1_A PROTEIN RIF2; DNA BINDI   9.8 2.9E+02  0.0033   14.6   0.0    6    1-6      78-83  (319)
+ 10 6HHM_A Arylsulfatase (E.C.3.1.   9.6   3E+02  0.0034   11.7   0.0    5    1-5     294-298 (475)
+
+No 1
+>2XVO_C SSO1725; STRUCTURAL GENOMICS; HET: SO4, BME; 2.08A {SULFOLOBUS SOLFATARICUS}
+Probab=16.51  E-value=1.4e+02  Score=14.72  Aligned_cols=6  Identities=83%  Similarity=1.165  Sum_probs=3.1  Template_Neff=1.500
+
+Q NTVIIE            1 NTVIIE    6 (6)
+Q Consensus         1 ntviie    6 (6)
+                      ||+|||
+T Consensus       165 ntiiie  170 (192)
+T 2XVO_C          165 NTIIIE  170 (192)
+T ss_dssp             TSEEEE
+T ss_pred             CeEEEe
+Confidence            455554
+
+
+No 2
+>2XVO_A SSO1725; STRUCTURAL GENOMICS; HET: SO4, BME; 2.08A {SULFOLOBUS SOLFATARICUS}
+Probab=16.29  E-value=1.4e+02  Score=14.70  Aligned_cols=6  Identities=83%  Similarity=1.165  Sum_probs=3.1  Template_Neff=1.500
+
+Q NTVIIE            1 NTVIIE    6 (6)
+Q Consensus         1 ntviie    6 (6)
+                      ||+|||
+T Consensus       165 ntiiie  170 (192)
+T 2XVO_A          165 NTIIIE  170 (192)
+T ss_dssp             TSEEEE
+T ss_pred             CeEEEe
+Confidence            455554
+
+
+No 3
+>3IXS_F RING1B, RYBP, polycomb, e3-ligase, chromosomal; HET: NHE, EDO; 1.7A {Homo sapiens}
+Probab=10.68  E-value=2.6e+02  Score=10.72  Aligned_cols=4  Identities=100%  Similarity=1.157  Sum_probs=0.0  Template_Neff=2.400
+
+Q NTVIIE            2 TVII    5 (6)
+Q Consensus         2 tvii    5 (6)
+                      ||||
+T Consensus        25 TViI   28 (37)
+T 3IXS_F           25 TVII   28 (37)
+T ss_dssp             EEEE
+T ss_pred             EEEE
+
+
+No 4
+>4UJ5_C RAS-RELATED PROTEIN RAB-11A, RAB-3A-INTERACTING PROTEIN; TRANSPORT PROTEIN, CILIARY TARGETING COMPLEX; HET: GNP; 2.604A {HOMO SAPIENS}
+Probab=10.45  E-value=2.7e+02  Score=12.35  Aligned_cols=6  Identities=67%  Similarity=0.772  Sum_probs=0.0  Template_Neff=6.200
+
+Q NTVIIE            1 NTVIIE    6 (6)
+Q Consensus         1 ntviie    6 (6)
+                      |++.||
+T Consensus        86 ~~l~IE   91 (195)
+T 4UJ5_C           86 NTLSIE   91 (195)
+T ss_pred             CCeEEe
+
+
+No 5
+>6P7B_A Holliday junction resolvase/DNA complex; resolvase-DNA complex, HYDROLASE-DNA complex, TRANSCRIPTION; 3.317A {Fowlpox virus}
+Probab=10.42  E-value=2.7e+02  Score=10.46  Aligned_cols=6  Identities=50%  Similarity=0.888  Sum_probs=0.0  Template_Neff=9.200
+
+Q NTVIIE            1 NTVIIE    6 (6)
+Q Consensus         1 ntviie    6 (6)
+                      ..|+||
+T Consensus        55 ~~v~iE   60 (149)
+T 6P7B_A           55 DVVILE   60 (149)
+T ss_dssp             SEEEEE
+T ss_pred             CEEEEe
+
+
+No 6
+>3IXS_H E3 ubiquitin-protein ligase RING2 (E.C.6.3.2.-); RING1B, RYBP, polycomb, e3-ligase, chromosomal; HET: NHE, EDO; 1.7A {Homo sapiens}
+Probab=10.15  E-value=2.8e+02  Score=10.64  Aligned_cols=4  Identities=100%  Similarity=1.157  Sum_probs=0.0  Template_Neff=2.400
+
+Q NTVIIE            2 TVII    5 (6)
+Q Consensus         2 tvii    5 (6)
+                      ||||
+T Consensus        25 TViI   28 (37)
+T 3IXS_H           25 TVII   28 (37)
+T ss_dssp             EEEE
+T ss_pred             EEEE
+
+
+No 7
+>4UJ3_K RAS-RELATED PROTEIN RAB-11A, RAB-3A-INTERACTING PROTEIN; TRANSPORT PROTEIN, CILIARY TARGETING COMPLEX; HET: PG4, GNP; 3.0A {HOMO SAPIENS}
+Probab=9.94  E-value=2.9e+02  Score=12.22  Aligned_cols=6  Identities=67%  Similarity=0.772  Sum_probs=0.0  Template_Neff=6.300
+
+Q NTVIIE            1 NTVIIE    6 (6)
+Q Consensus         1 ntviie    6 (6)
+                      |+++||
+T Consensus        86 ~~l~IE   91 (195)
+T 4UJ3_K           86 NTLSIE   91 (195)
+T ss_dssp             TCCEEE
+T ss_pred             CCeEEE
+
+
+No 8
+>4UJ5_D RAS-RELATED PROTEIN RAB-11A, RAB-3A-INTERACTING PROTEIN; TRANSPORT PROTEIN, CILIARY TARGETING COMPLEX; HET: GNP; 2.604A {HOMO SAPIENS}
+Probab=9.94  E-value=2.9e+02  Score=12.22  Aligned_cols=6  Identities=67%  Similarity=0.772  Sum_probs=0.0  Template_Neff=6.300
+
+Q NTVIIE            1 NTVIIE    6 (6)
+Q Consensus         1 ntviie    6 (6)
+                      |+++||
+T Consensus        86 ~~l~IE   91 (195)
+T 4UJ5_D           86 NTLSIE   91 (195)
+T ss_dssp             TCCEEE
+T ss_pred             CCeEEE
+
+
+No 9
+>4BJ1_A PROTEIN RIF2; DNA BINDING PROTEIN, GENOME STABILITY; 2.94A {SACCHAROMYCES CEREVISIAE}
+Probab=9.80  E-value=2.9e+02  Score=14.57  Aligned_cols=6  Identities=83%  Similarity=1.043  Sum_probs=0.0  Template_Neff=1.600
+
+Q NTVIIE            1 NTVIIE    6 (6)
+Q Consensus         1 ntviie    6 (6)
+                      |.||||
+T Consensus        78 NVViie   83 (319)
+T 4BJ1_A           78 NVVIIE   83 (319)
+T ss_dssp             EEEEEE
+T ss_pred             cEEEEe
+
+
+No 10
+>6HHM_A Arylsulfatase (E.C.3.1.6.1); Formosa agariphila algal polysaccharide carrageenan; 1.23A {Formosa agariphila}
+Probab=9.59  E-value=3e+02  Score=11.68  Aligned_cols=5  Identities=60%  Similarity=0.893  Sum_probs=0.0  Template_Neff=10.600
+
+Q NTVIIE            1 NTVII    5 (6)
+Q Consensus         1 ntvii    5 (6)
+                      ||+||
+T Consensus       294 nTlvi  298 (475)
+T 6HHM_A          294 NTTVI  298 (475)
+T ss_pred             CEEEE
+
+

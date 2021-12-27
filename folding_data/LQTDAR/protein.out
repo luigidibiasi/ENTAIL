@@ -1,0 +1,152 @@
+Query         LQTDAR
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 20:13:33 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LQTDAR/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LQTDAR/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2GAF_D Cap-specific mRNA (nucl  14.5 1.7E+02  0.0019   15.9   0.0    6    1-6     196-201 (469)
+  2 3ER9_B Cap-specific mRNA (nucl  13.7 1.8E+02   0.002   15.9   0.0    6    1-6     206-211 (479)
+  3 1DPJ_B THE STRUCTURE OF PROTEI   6.2 5.4E+02   0.006    9.8   0.0    6    1-6      18-23  (33)
+  4 2R1F_B STRUCTURAL GENOMICS, UN   6.0 5.7E+02  0.0063   11.3   0.0    5    1-5     172-176 (270)
+  5 1G0V_B PROTEINASE A (E.C.3.4.2   4.8 7.5E+02  0.0083    9.3   0.0    5    1-5      19-23  (31)
+  6 2KMC_A Fermitin family homolog   4.8 7.6E+02  0.0084   10.8   0.0    6    1-6      88-93  (102)
+  7 2LKS_A Pre-mRNA-processing fac   4.7 7.6E+02  0.0085    8.4   0.0    6    1-6      33-38  (50)
+  8 2LF2_A Uncharacterized protein   4.6 7.9E+02  0.0087    8.9   0.0    6    1-6       1-6   (175)
+  9 6AKM_A Suppressor of IKBKE 1,    4.0 9.4E+02    0.01    9.6   0.0    6    1-6       8-13  (65)
+ 10 2LGX_A Fermitin family homolog   4.0 9.5E+02    0.01   10.7   0.0    6    1-6      91-96  (112)
+
+No 1
+>2GAF_D Cap-specific mRNA (nucleoside-2'-O-)-methyltransferase (E.C.2.1.1.57), Poly(A); polyadenylate polymerase, pox virus, nucleotidyltransferase; 2.4A {Vaccinia virus} SCOP: e.69.1.1
+Probab=14.55  E-value=1.7e+02  Score=15.92  Aligned_cols=6  Identities=67%  Similarity=0.955  Sum_probs=4.1  Template_Neff=2.800
+
+Q LQTDAR            1 LQTDAR    6 (6)
+Q Consensus         1 lqtdar    6 (6)
+                      +||+||
+T Consensus       196 lqTnar  201 (469)
+T 2GAF_D          196 LQTNSR  201 (469)
+T ss_dssp             EESCHH
+T ss_pred             ecCChH
+Confidence            577775
+
+
+No 2
+>3ER9_B Cap-specific mRNA (nucleoside-2'-O-)-methyltransferase (E.C.2.1.1.57)/Poly(A) polymerase; Polyadenylate polymerase, translocation, single tranded; HET: GOL, 3AT; 2.06A {vaccinia virus WR}
+Probab=13.72  E-value=1.8e+02  Score=15.86  Aligned_cols=6  Identities=67%  Similarity=0.955  Sum_probs=4.1  Template_Neff=2.700
+
+Q LQTDAR            1 LQTDAR    6 (6)
+Q Consensus         1 lqtdar    6 (6)
+                      +||+||
+T Consensus       206 lqTnar  211 (479)
+T 3ER9_B          206 LQTNSR  211 (479)
+T ss_dssp             EESSHH
+T ss_pred             ecCChH
+Confidence            577775
+
+
+No 3
+>1DPJ_B THE STRUCTURE OF PROTEINASE A; proteinase A, IA3 peptide, HYDROLASE-HYDROLASE; HET: BMA, MAN, SO4, NAG; 1.8A {Saccharomyces cerevisiae} SCOP: a.137.7.1
+Probab=6.21  E-value=5.4e+02  Score=9.82  Aligned_cols=6  Identities=67%  Similarity=0.855  Sum_probs=0.0  Template_Neff=1.000
+
+Q LQTDAR            1 LQTDAR    6 (6)
+Q Consensus         1 lqtdar    6 (6)
+                      ||-||.
+T Consensus        18 lqgdak   23 (33)
+T 1DPJ_B           18 LQGDAK   23 (33)
+T ss_dssp             HHHHHH
+T ss_pred             HhccHH
+
+
+No 4
+>2R1F_B STRUCTURAL GENOMICS, UNKNOWN FUNCTION, PFAM; HET: CD, GOL, MSE; 2.21A {Escherichia coli}
+Probab=5.97  E-value=5.7e+02  Score=11.31  Aligned_cols=5  Identities=80%  Similarity=0.946  Sum_probs=0.0  Template_Neff=7.700
+
+Q LQTDAR            1 LQTDA    5 (6)
+Q Consensus         1 lqtda    5 (6)
+                      ||.|+
+T Consensus       172 Lq~D~  176 (270)
+T 2R1F_B          172 LQTDP  176 (270)
+T ss_dssp             CCCHH
+T ss_pred             cccCc
+
+
+No 5
+>1G0V_B PROTEINASE A (E.C.3.4.23.25), PROTEASE A; Proteinase A, MVV, hydrolase-hydrolase inhibitor; HET: NAG, MAN, BMA; 2.0A {Saccharomyces cerevisiae} SCOP: a.137.7.1
+Probab=4.79  E-value=7.5e+02  Score=9.34  Aligned_cols=5  Identities=80%  Similarity=0.846  Sum_probs=0.0  Template_Neff=1.000
+
+Q LQTDAR            1 LQTDA    5 (6)
+Q Consensus         1 lqtda    5 (6)
+                      ||-||
+T Consensus        19 lqgda   23 (31)
+T 1G0V_B           19 LQGDA   23 (31)
+T ss_dssp             HHHHH
+T ss_pred             hcccc
+
+
+No 6
+>2KMC_A Fermitin family homolog 1; kindlin, cytoskeleton, integrin, N-terminal, talin; NMR {Mus musculus}
+Probab=4.75  E-value=7.6e+02  Score=10.83  Aligned_cols=6  Identities=50%  Similarity=0.695  Sum_probs=0.0  Template_Neff=3.800
+
+Q LQTDAR            1 LQTDAR    6 (6)
+Q Consensus         1 lqtdar    6 (6)
+                      +|.||+
+T Consensus        88 VqADA~   93 (102)
+T 2KMC_A           88 VQADAN   93 (102)
+T ss_dssp             CCTTSC
+T ss_pred             ccccce
+
+
+No 7
+>2LKS_A Pre-mRNA-processing factor 40 homolog A; PROTEIN BINDING; NMR {Homo sapiens}
+Probab=4.74  E-value=7.6e+02  Score=8.40  Aligned_cols=6  Identities=33%  Similarity=0.617  Sum_probs=0.0  Template_Neff=7.000
+
+Q LQTDAR            1 LQTDAR    6 (6)
+Q Consensus         1 lqtdar    6 (6)
+                      ++.|.|
+T Consensus        33 i~~DpR   38 (50)
+T 2LKS_A           33 IINDPR   38 (50)
+T ss_dssp             HHHSHH
+T ss_pred             HhcChh
+
+
+No 8
+>2LF2_A Uncharacterized protein; NESG, Structural Genomics, PSI-Biology, Protein; NMR {Cytophaga hutchinsonii}
+Probab=4.63  E-value=7.9e+02  Score=8.92  Aligned_cols=6  Identities=33%  Similarity=0.540  Sum_probs=0.0  Template_Neff=10.500
+
+Q LQTDAR            1 LQTDAR    6 (6)
+Q Consensus         1 lqtdar    6 (6)
+                      +|+|.+
+T Consensus         1 ~~~~~~    6 (175)
+T 2LF2_A            1 MRTDLA    6 (175)
+T ss_dssp             CCCSSE
+T ss_pred             CCccee
+
+
+No 9
+>6AKM_A Suppressor of IKBKE 1, Sarcolemmal; Coiled-coil domain, heterotetramer, PROTEIN BINDING; 2.3A {Homo sapiens}
+Probab=4.02  E-value=9.4e+02  Score=9.58  Aligned_cols=6  Identities=50%  Similarity=0.750  Sum_probs=0.0  Template_Neff=4.500
+
+Q LQTDAR            1 LQTDAR    6 (6)
+Q Consensus         1 lqtdar    6 (6)
+                      +.+|||
+T Consensus         8 iL~DAk   13 (65)
+T 6AKM_A            8 ILTDAK   13 (65)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 10
+>2LGX_A Fermitin family homolog 2; Kindlin, membrane, integrin activation, cell; NMR {Homo sapiens}
+Probab=3.99  E-value=9.5e+02  Score=10.68  Aligned_cols=6  Identities=50%  Similarity=0.883  Sum_probs=0.0  Template_Neff=3.900
+
+Q LQTDAR            1 LQTDAR    6 (6)
+Q Consensus         1 lqtdar    6 (6)
+                      +|.||+
+T Consensus        91 vqADA~   96 (112)
+T 2LGX_A           91 IQADAK   96 (112)
+T ss_dssp             CCTTCB
+T ss_pred             cCCcce
+
+

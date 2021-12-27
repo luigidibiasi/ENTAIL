@@ -1,0 +1,149 @@
+Query         LATVYA
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 16:16:02 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LATVYA/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LATVYA/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3N5B_B Nitrogen regulatory pro  10.3 2.7E+02   0.003   12.6   0.0    5    2-6      52-56  (112)
+  2 1BRW_A PROTEIN (PYRIMIDINE NUC   8.6 3.5E+02  0.0039   12.7   0.0    6    1-6     394-399 (433)
+  3 3FHK_E disulfide isomerase, Th   8.5 3.6E+02   0.004   12.7   0.0    6    1-6      81-86  (147)
+  4 4RAY_A DNA-binding transcripti   7.9 3.9E+02  0.0043    9.9   0.0    5    1-5      54-58  (145)
+  5 4RB0_A DNA-binding transcripti   7.9 3.9E+02  0.0043    9.9   0.0    5    1-5      54-58  (145)
+  6 7K58_O outer-arm dynein, axone   7.9   4E+02  0.0044   10.2   0.0    6    1-6     111-116 (120)
+  7 5VKY_B Topoisomerase I damage    7.6 4.2E+02  0.0046   10.8   0.0    6    1-6     127-132 (135)
+  8 3H5Q_A Pyrimidine-nucleoside p   7.0 4.6E+02  0.0051   12.3   0.0    6    1-6     397-402 (436)
+  9 1W4S_A POLYBROMO 1 PROTEIN; PO   6.9 4.7E+02  0.0053   10.3   0.0    5    2-6     167-171 (174)
+ 10 2W57_B FERRIC UPTAKE REGULATIO   6.7 4.9E+02  0.0054    9.7   0.0    5    1-5      52-56  (150)
+
+No 1
+>3N5B_B Nitrogen regulatory protein P-II, Asr0485; PII, PipX, transcription regulator, signal; HET: ADP, SO4; 1.9A {Nostoc}
+Probab=10.31  E-value=2.7e+02  Score=12.58  Aligned_cols=5  Identities=60%  Similarity=1.006  Sum_probs=0.0  Template_Neff=2.900
+
+Q LATVYA            2 ATVYA    6 (6)
+Q Consensus         2 atvya    6 (6)
+                      +|.||
+T Consensus        52 tTLYA   56 (112)
+T 3N5B_B           52 TTLYA   56 (112)
+T ss_dssp             EESSS
+T ss_pred             hhhhh
+
+
+No 2
+>1BRW_A PROTEIN (PYRIMIDINE NUCLEOSIDE PHOSPHORYLASE); NUCLEOSIDE PHOSPHORYLASE, DOMAIN MOVEMENT, TRANSFERASE; HET: PO4, MES; 2.1A {Geobacillus stearothermophilus} SCOP: c.27.1.1, d.41.3.1, a.46.2.1
+Probab=8.62  E-value=3.5e+02  Score=12.66  Aligned_cols=6  Identities=50%  Similarity=0.606  Sum_probs=0.0  Template_Neff=7.900
+
+Q LATVYA            1 LATVYA    6 (6)
+Q Consensus         1 latvya    6 (6)
+                      |+|+|+
+T Consensus       394 l~tiy~  399 (433)
+T 1BRW_A          394 LATIHS  399 (433)
+T ss_dssp             EEEEEE
+T ss_pred             eEEEEc
+
+
+No 3
+>3FHK_E disulfide isomerase, Thioredoxin superfamily, CXC; HET: SO4; 2.3A {Bacillus subtilis}
+Probab=8.47  E-value=3.6e+02  Score=12.66  Aligned_cols=6  Identities=50%  Similarity=0.678  Sum_probs=0.0  Template_Neff=3.100
+
+Q LATVYA            1 LATVYA    6 (6)
+Q Consensus         1 latvya    6 (6)
+                      |.||+|
+T Consensus        81 lvTVFA   86 (147)
+T 3FHK_E           81 TVTVFA   86 (147)
+T ss_dssp             EEEEET
+T ss_pred             EEEEeC
+
+
+No 4
+>4RAY_A DNA-binding transcriptional dual regulator of; ferric uptake regulator (FUR), metal; HET: FLC, SO4; 1.55A {Magnetospirillum gryphiswaldense}
+Probab=7.92  E-value=3.9e+02  Score=9.90  Aligned_cols=5  Identities=80%  Similarity=1.258  Sum_probs=0.0  Template_Neff=9.400
+
+Q LATVYA            1 LATVY    5 (6)
+Q Consensus         1 latvy    5 (6)
+                      .+|||
+T Consensus        54 ~~Tvy   58 (145)
+T 4RAY_A           54 IATVY   58 (145)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 5
+>4RB0_A DNA-binding transcriptional dual regulator of; ferric uptake regulator (FUR), metal; HET: FLC, MSE, SO4; 1.85A {Magnetospirillum gryphiswaldense}
+Probab=7.92  E-value=3.9e+02  Score=9.90  Aligned_cols=5  Identities=80%  Similarity=1.258  Sum_probs=0.0  Template_Neff=9.400
+
+Q LATVYA            1 LATVY    5 (6)
+Q Consensus         1 latvy    5 (6)
+                      .+|||
+T Consensus        54 ~~Tvy   58 (145)
+T 4RB0_A           54 IATVY   58 (145)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 6
+>7K58_O outer-arm dynein, axonemal dynein, microtubule; HET: ATP, ADP; 3.5A {Tetrahymena thermophila}
+Probab=7.87  E-value=4e+02  Score=10.16  Aligned_cols=6  Identities=17%  Similarity=0.423  Sum_probs=0.0  Template_Neff=8.100
+
+Q LATVYA            1 LATVYA    6 (6)
+Q Consensus         1 latvya    6 (6)
+                      +++||+
+T Consensus       111 ~vtV~~  116 (120)
+T 7K58_O          111 TGIVFG  116 (120)
+T ss_pred             EEEEEE
+
+
+No 7
+>5VKY_B Topoisomerase I damage affected protein; dynein light chain clathrin mediated; 2.3A {Saccharomyces cerevisiae (strain JAY291)}
+Probab=7.57  E-value=4.2e+02  Score=10.76  Aligned_cols=6  Identities=33%  Similarity=0.290  Sum_probs=0.0  Template_Neff=7.100
+
+Q LATVYA            1 LATVYA    6 (6)
+Q Consensus         1 latvya    6 (6)
+                      ++|||+
+T Consensus       127 vvtV~~  132 (135)
+T 5VKY_B          127 LITILW  132 (135)
+T ss_dssp             EEEEEE
+T ss_pred             EEEEEE
+
+
+No 8
+>3H5Q_A Pyrimidine-nucleoside phosphorylase (E.C.2.4.2.2); STRUCTURAL GENOMICS, Glycosyltransferase, Transferase, Center; HET: THM, SO4; 1.94A {Staphylococcus aureus}
+Probab=6.98  E-value=4.6e+02  Score=12.30  Aligned_cols=6  Identities=33%  Similarity=0.407  Sum_probs=0.0  Template_Neff=7.900
+
+Q LATVYA            1 LATVYA    6 (6)
+Q Consensus         1 latvya    6 (6)
+                      |+|+|+
+T Consensus       397 l~~iy~  402 (436)
+T 3H5Q_A          397 LLTIHS  402 (436)
+T ss_dssp             EEEEEE
+T ss_pred             eEEEEc
+
+
+No 9
+>1W4S_A POLYBROMO 1 PROTEIN; POLYBROMO, BAH, BROMO-ASSOCIATED HOMOLOGY DOMAIN; 1.55A {GALLUS GALLUS}
+Probab=6.86  E-value=4.7e+02  Score=10.32  Aligned_cols=5  Identities=60%  Similarity=0.986  Sum_probs=0.0  Template_Neff=8.700
+
+Q LATVYA            2 ATVYA    6 (6)
+Q Consensus         2 atvya    6 (6)
+                      .+|||
+T Consensus       167 ~~~~~  171 (174)
+T 1W4S_A          167 ASVFA  171 (174)
+T ss_dssp             ECCCC
+T ss_pred             eeccc
+
+
+No 10
+>2W57_B FERRIC UPTAKE REGULATION PROTEIN; GENE REGULATION, VIBRIO CHOLERAE, TRANSCRIPTION; 2.6A {VIBRIO CHOLERAE}
+Probab=6.68  E-value=4.9e+02  Score=9.65  Aligned_cols=5  Identities=100%  Similarity=1.338  Sum_probs=0.0  Template_Neff=9.500
+
+Q LATVYA            1 LATVY    5 (6)
+Q Consensus         1 latvy    5 (6)
+                      .+|||
+T Consensus        52 ~~Tvy   56 (150)
+T 2W57_B           52 LATVY   56 (150)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+

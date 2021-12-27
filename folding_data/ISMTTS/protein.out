@@ -1,0 +1,151 @@
+Query         ISMTTS
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 09:26:15 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/ISMTTS/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/ISMTTS/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3ODM_C Phosphoenolpyruvate car  21.7      89 0.00099   15.9   0.0    6    1-6     145-150 (560)
+  2 6V3O_F Phosphoenolpyruvate car  21.4      91   0.001   16.7   0.0    6    1-6     534-539 (970)
+  3 3ODM_G Phosphoenolpyruvate car  19.8   1E+02  0.0012   15.9   0.0    6    1-6     145-150 (560)
+  4 1JQN_A phosphoenolpyruvate car  16.3 1.4E+02  0.0016   15.8   0.0    6    1-6     474-479 (883)
+  5 5FDN_A Phosphoenolpyruvate car  15.4 1.5E+02  0.0017   16.0   0.0    6    1-6     550-555 (987)
+  6 7B9V_P Pre-mRNA-splicing facto  13.3 1.9E+02  0.0021   12.9   0.0    4    3-6       1-4   (175)
+  7 7DCO_S PRP8 isoform 1, SNU114   13.3 1.9E+02  0.0021   12.9   0.0    4    3-6       1-4   (175)
+  8 6Y7C_j 40S ribosomal protein S  13.1   2E+02  0.0022   15.0   0.0    5    2-6     342-346 (463)
+  9 5KOK_A Pavine N-methyltransfer  13.1   2E+02  0.0022   12.1   0.0    4    2-5      14-17  (397)
+ 10 6FAI_j 40S ribosomal protein S  13.0   2E+02  0.0022   15.0   0.0    5    2-6     342-346 (463)
+
+No 1
+>3ODM_C Phosphoenolpyruvate carboxylase (E.C.4.1.1.31); beta-barrel, LYASE; HET: AUC, MLI; 2.95A {Clostridium perfringens}
+Probab=21.73  E-value=89  Score=15.94  Aligned_cols=6  Identities=17%  Similarity=0.479  Sum_probs=3.8  Template_Neff=5.900
+
+Q ISMTTS            1 ISMTTS    6 (6)
+Q Consensus         1 ismtts    6 (6)
+                      |+||+|
+T Consensus       145 lpMt~s  150 (560)
+T 3ODM_C          145 VPMIET  150 (560)
+T ss_dssp             ESSCCS
+T ss_pred             ecCCCC
+Confidence            467764
+
+
+No 2
+>6V3O_F Phosphoenolpyruvate carboxylase (E.C.4.1.1.31); C4 metabolism, allosteric regulation, R; HET: FLC, GOL, SO4; 2.909A {Zea mays}
+Probab=21.45  E-value=91  Score=16.73  Aligned_cols=6  Identities=67%  Similarity=0.816  Sum_probs=4.1  Template_Neff=6.400
+
+Q ISMTTS            1 ISMTTS    6 (6)
+Q Consensus         1 ismtts    6 (6)
+                      ||||.+
+T Consensus       534 ISmt~~  539 (970)
+T 6V3O_F          534 ISMATA  539 (970)
+T ss_dssp             EETCCS
+T ss_pred             ecCCCC
+Confidence            678764
+
+
+No 3
+>3ODM_G Phosphoenolpyruvate carboxylase (E.C.4.1.1.31); beta-barrel, LYASE; HET: AUC, MLI; 2.95A {Clostridium perfringens}
+Probab=19.80  E-value=1e+02  Score=15.91  Aligned_cols=6  Identities=17%  Similarity=0.479  Sum_probs=3.8  Template_Neff=5.500
+
+Q ISMTTS            1 ISMTTS    6 (6)
+Q Consensus         1 ismtts    6 (6)
+                      ||||+|
+T Consensus       145 IpMT~s  150 (560)
+T 3ODM_G          145 VPMIET  150 (560)
+T ss_dssp             ESSCCC
+T ss_pred             ecCCCC
+Confidence            567764
+
+
+No 4
+>1JQN_A phosphoenolpyruvate carboxylase (E.C.4.1.1.31)/ASPARTIC ACID/3,3-DICHLORO-2-PHOSPHONOMETHYL-ACRYLIC ACID; BETA BARREL, Mn2+ and DCDP; HET: DCO; 2.35A {Escherichia coli} SCOP: c.1.12.3
+Probab=16.27  E-value=1.4e+02  Score=15.78  Aligned_cols=6  Identities=50%  Similarity=0.706  Sum_probs=3.8  Template_Neff=6.700
+
+Q ISMTTS            1 ISMTTS    6 (6)
+Q Consensus         1 ismtts    6 (6)
+                      ||||.|
+T Consensus       474 ismt~~  479 (883)
+T 1JQN_A          474 ISMAKT  479 (883)
+T ss_dssp             EETCCS
+T ss_pred             ecCCCC
+Confidence            577754
+
+
+No 5
+>5FDN_A Phosphoenolpyruvate carboxylase 3 (E.C.4.1.1.31); Carboxylase Inhibitor PEPC Functional tetramer; HET: FLC, ASP; 2.2A {Arabidopsis thaliana}
+Probab=15.42  E-value=1.5e+02  Score=15.97  Aligned_cols=6  Identities=83%  Similarity=0.877  Sum_probs=3.8  Template_Neff=6.500
+
+Q ISMTTS            1 ISMTTS    6 (6)
+Q Consensus         1 ismtts    6 (6)
+                      ||||.|
+T Consensus       550 ismt~~  555 (987)
+T 5FDN_A          550 ISMATS  555 (987)
+T ss_dssp             EETCCS
+T ss_pred             ecCCCC
+Confidence            577754
+
+
+No 6
+>7B9V_P Pre-mRNA-splicing factor 8, Pre-mRNA-splicing helicase; splicing, spliceosome, RNA, ribozyme; HET: KGN, GTP, SEP; 2.8A {Saccharomyces cerevisiae}
+Probab=13.29  E-value=1.9e+02  Score=12.90  Aligned_cols=4  Identities=100%  Similarity=0.958  Sum_probs=0.0  Template_Neff=5.500
+
+Q ISMTTS            3 MTTS    6 (6)
+Q Consensus         3 mtts    6 (6)
+                      |||+
+T Consensus         1 MTTa    4 (175)
+T 7B9V_P            1 MTTS    4 (175)
+T ss_pred             CCCC
+
+
+No 7
+>7DCO_S PRP8 isoform 1, SNU114 isoform; RNA splicing, spliceosome, Bact complex; HET: ZN, IHP, GTP; 2.5A {Saccharomyces cerevisiae}
+Probab=13.29  E-value=1.9e+02  Score=12.90  Aligned_cols=4  Identities=100%  Similarity=0.958  Sum_probs=0.0  Template_Neff=5.500
+
+Q ISMTTS            3 MTTS    6 (6)
+Q Consensus         3 mtts    6 (6)
+                      |||+
+T Consensus         1 MTTa    4 (175)
+T 7DCO_S            1 MTTS    4 (175)
+T ss_pred             CCCC
+
+
+No 8
+>6Y7C_j 40S ribosomal protein S0-A, 40S; yeast pre-ribosomal particle - small; HET: A2M;{Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=13.08  E-value=2e+02  Score=14.97  Aligned_cols=5  Identities=60%  Similarity=0.780  Sum_probs=0.0  Template_Neff=4.800
+
+Q ISMTTS            2 SMTTS    6 (6)
+Q Consensus         2 smtts    6 (6)
+                      |||.|
+T Consensus       342 SMSSS  346 (463)
+T 6Y7C_j          342 SMSSS  346 (463)
+T ss_pred             ccchH
+
+
+No 9
+>5KOK_A Pavine N-methyltransferase (E.C.2.1.1.300); benzylisoquinoline alkaloid biosynthesis, TRANSFERASE; HET: SAH, R9T, S9T; 1.792A {Thalictrum flavum subsp. glaucum}
+Probab=13.05  E-value=2e+02  Score=12.14  Aligned_cols=4  Identities=75%  Similarity=0.659  Sum_probs=0.0  Template_Neff=10.100
+
+Q ISMTTS            2 SMTT    5 (6)
+Q Consensus         2 smtt    5 (6)
+                      ||||
+T Consensus        14 ~~~~   17 (397)
+T 5KOK_A           14 SMTG   17 (397)
+T ss_dssp             ----
+T ss_pred             cccc
+
+
+No 10
+>6FAI_j 40S ribosomal protein S27-A, 40S; pre-40S ribosme, cryo-EM, ribosome assembly; HET: MG; 3.4A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=13.02  E-value=2e+02  Score=14.96  Aligned_cols=5  Identities=60%  Similarity=0.780  Sum_probs=0.0  Template_Neff=4.800
+
+Q ISMTTS            2 SMTTS    6 (6)
+Q Consensus         2 smtts    6 (6)
+                      |||.|
+T Consensus       342 SMSSS  346 (463)
+T 6FAI_j          342 SMSSS  346 (463)
+T ss_pred             Ccchh
+
+

@@ -1,0 +1,150 @@
+Query         DVNRNG
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 18:13:48 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/DVNRNG/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/DVNRNG/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3NH8_A Aspartoacylase-2 (E.C.3  19.9   1E+02  0.0011   13.1   0.0    5    1-5      77-81  (327)
+  2 4OKO_B Rapid Encystment Phenot  19.6 1.1E+02  0.0012   13.2   0.0    5    1-5     136-140 (312)
+  3 7EQX_C Procarboxypeptidase B1,  19.4 1.1E+02  0.0012   12.8   0.0    5    1-5     131-135 (299)
+  4 7EQZ_A ANTIVIRAL PROTEIN, Hydr  19.4 1.1E+02  0.0012   12.8   0.0    5    1-5     131-135 (299)
+  5 5JBL_A Prohead core protein pr  19.4 1.1E+02  0.0012   14.5   0.0    5    2-6      69-73  (231)
+  6 5JBL_E Prohead core protein pr  19.4 1.1E+02  0.0012   14.5   0.0    5    2-6      69-73  (231)
+  7 3NFZ_A Aspartoacylase-2 ((E.C.  19.2 1.1E+02  0.0012   13.2   0.0    5    1-5      77-81  (327)
+  8 4OKO_A Rapid Encystment Phenot  19.1 1.1E+02  0.0012   13.5   0.0    5    1-5     136-140 (312)
+  9 5M2S_B Putative cellulosomal s  18.7 1.1E+02  0.0013   11.6   0.0    6    1-6      30-35  (103)
+ 10 3CDX_A Succinylglutamatedesucc  17.7 1.2E+02  0.0014   13.1   0.0    5    1-5     113-117 (354)
+
+No 1
+>3NH8_A Aspartoacylase-2 (E.C.3.5.1.-); N-acetyl-S-1, 2-dichlorovinyl-L-cysteine, HYDROLASE; HET: DC2; 2.802A {Mus musculus}
+Probab=19.91  E-value=1e+02  Score=13.14  Aligned_cols=5  Identities=60%  Similarity=1.059  Sum_probs=0.0  Template_Neff=9.000
+
+Q DVNRNG            1 DVNRN    5 (6)
+Q Consensus         1 dvnrn    5 (6)
+                      |.||+
+T Consensus        77 DLNR~   81 (327)
+T 3NH8_A           77 DLNRS   81 (327)
+T ss_dssp             CGGGC
+T ss_pred             CCccc
+
+
+No 2
+>4OKO_B Rapid Encystment Phenotype Protein 34; carboxypeptidase, secreted, HYDROLASE; HET: ACT; 2.053A {Francisella tularensis subsp. novicida}
+Probab=19.62  E-value=1.1e+02  Score=13.23  Aligned_cols=5  Identities=60%  Similarity=0.820  Sum_probs=0.0  Template_Neff=8.600
+
+Q DVNRNG            1 DVNRN    5 (6)
+Q Consensus         1 dvnrn    5 (6)
+                      |.||+
+T Consensus       136 DlNR~  140 (312)
+T 4OKO_B          136 DPNRS  140 (312)
+T ss_dssp             CGGGC
+T ss_pred             CCCcC
+
+
+No 3
+>7EQX_C Procarboxypeptidase B1, ANTIVIRAL PROTEIN, HYDROLASE; 2.08A {Aedes aegypti}
+Probab=19.41  E-value=1.1e+02  Score=12.82  Aligned_cols=5  Identities=80%  Similarity=0.913  Sum_probs=0.0  Template_Neff=9.200
+
+Q DVNRNG            1 DVNRN    5 (6)
+Q Consensus         1 dvnrn    5 (6)
+                      |.|||
+T Consensus       131 DlNR~  135 (299)
+T 7EQX_C          131 DGNRN  135 (299)
+T ss_dssp             CGGGC
+T ss_pred             cCCCC
+
+
+No 4
+>7EQZ_A ANTIVIRAL PROTEIN, Hydrolase-Hydrolase inhibitor complex; 2.2A {Solanum tuberosum}
+Probab=19.41  E-value=1.1e+02  Score=12.82  Aligned_cols=5  Identities=80%  Similarity=0.913  Sum_probs=0.0  Template_Neff=9.200
+
+Q DVNRNG            1 DVNRN    5 (6)
+Q Consensus         1 dvnrn    5 (6)
+                      |.|||
+T Consensus       131 DlNR~  135 (299)
+T 7EQZ_A          131 DGNRN  135 (299)
+T ss_dssp             CGGGC
+T ss_pred             cCCCC
+
+
+No 5
+>5JBL_A Prohead core protein protease (E.C.3.4.99.-); protease pentamer, phage T4, prohead; 1.943A {Enterobacteria phage T4}
+Probab=19.38  E-value=1.1e+02  Score=14.48  Aligned_cols=5  Identities=80%  Similarity=0.973  Sum_probs=0.0  Template_Neff=4.800
+
+Q DVNRNG            2 VNRNG    6 (6)
+Q Consensus         2 vnrng    6 (6)
+                      +||||
+T Consensus        69 ~NrNg   73 (231)
+T 5JBL_A           69 VNRNK   73 (231)
+T ss_dssp             CCTTS
+T ss_pred             cCCCC
+
+
+No 6
+>5JBL_E Prohead core protein protease (E.C.3.4.99.-); protease pentamer, phage T4, prohead; 1.943A {Enterobacteria phage T4}
+Probab=19.38  E-value=1.1e+02  Score=14.48  Aligned_cols=5  Identities=80%  Similarity=0.973  Sum_probs=0.0  Template_Neff=4.800
+
+Q DVNRNG            2 VNRNG    6 (6)
+Q Consensus         2 vnrng    6 (6)
+                      +||||
+T Consensus        69 ~NrNg   73 (231)
+T 5JBL_E           69 VNRNK   73 (231)
+T ss_dssp             BCTTS
+T ss_pred             cCCCC
+
+
+No 7
+>3NFZ_A Aspartoacylase-2 ((E.C.3.5.1.-); N-acetyl-L-tryosine, HYDROLASE; HET: 3NF; 2.147A {Mus musculus}
+Probab=19.16  E-value=1.1e+02  Score=13.17  Aligned_cols=5  Identities=60%  Similarity=1.059  Sum_probs=0.0  Template_Neff=8.800
+
+Q DVNRNG            1 DVNRN    5 (6)
+Q Consensus         1 dvnrn    5 (6)
+                      |.||+
+T Consensus        77 DLNR~   81 (327)
+T 3NFZ_A           77 DLNRS   81 (327)
+T ss_dssp             CGGGC
+T ss_pred             CCccc
+
+
+No 8
+>4OKO_A Rapid Encystment Phenotype Protein 34; carboxypeptidase, secreted, HYDROLASE; HET: ACT; 2.053A {Francisella tularensis subsp. novicida}
+Probab=19.05  E-value=1.1e+02  Score=13.48  Aligned_cols=5  Identities=60%  Similarity=0.820  Sum_probs=0.0  Template_Neff=8.000
+
+Q DVNRNG            1 DVNRN    5 (6)
+Q Consensus         1 dvnrn    5 (6)
+                      |.|||
+T Consensus       136 DlNR~  140 (312)
+T 4OKO_A          136 DPNRS  140 (312)
+T ss_dssp             CGGGC
+T ss_pred             CCCcC
+
+
+No 9
+>5M2S_B Putative cellulosomal scaffoldin protein, Doc8:; Cohesin, Dockerin, Complex, Cellulosome, R.; HET: GOL; 1.7A {Ruminococcus flavefaciens}
+Probab=18.73  E-value=1.1e+02  Score=11.62  Aligned_cols=6  Identities=50%  Similarity=0.844  Sum_probs=0.0  Template_Neff=7.500
+
+Q DVNRNG            1 DVNRNG    6 (6)
+Q Consensus         1 dvnrng    6 (6)
+                      |+|.+|
+T Consensus        30 Dvn~DG   35 (103)
+T 5M2S_B           30 DANCDG   35 (103)
+T ss_dssp             CTTCSS
+T ss_pred             cCCCCC
+
+
+No 10
+>3CDX_A Succinylglutamatedesuccinylase/aspartoacylase; STRUCTURAL GENOMICS, PSI-2, Protein Structure; 2.1A {Rhodobacter sphaeroides 2.4.1}
+Probab=17.73  E-value=1.2e+02  Score=13.11  Aligned_cols=5  Identities=60%  Similarity=0.966  Sum_probs=0.0  Template_Neff=8.900
+
+Q DVNRNG            1 DVNRN    5 (6)
+Q Consensus         1 dvnrn    5 (6)
+                      |.||+
+T Consensus       113 DLNR~  117 (354)
+T 3CDX_A          113 DINRC  117 (354)
+T ss_dssp             CGGGS
+T ss_pred             CcccC
+
+

@@ -1,0 +1,148 @@
+Query         SSVNVT
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 16:59:07 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/SSVNVT/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/SSVNVT/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 7OBR_t SRP SRP receptor, co-tr   5.9 5.8E+02  0.0064   10.4   0.0    6    1-6      24-29  (110)
+  2 4UYK_B SIGNAL RECOGNITION PART   5.6 6.2E+02  0.0068   10.3   0.0    6    1-6      24-29  (107)
+  3 4OOU_B Beta-1,4-mannanase (E.C   5.4 6.5E+02  0.0072   10.5   0.0    5    1-5     377-381 (388)
+  4 5M38_C OmpA family protein; T6   5.3 6.6E+02  0.0073    9.3   0.0    6    1-6     133-138 (139)
+  5 3HTY_F hypothetical protein BT   5.2 6.7E+02  0.0075    9.9   0.0    6    1-6      31-36  (94)
+  6 3HTY_N hypothetical protein BT   5.2 6.7E+02  0.0075    9.9   0.0    6    1-6      31-36  (94)
+  7 7D3F_B Dual oxidase 1 (E.C.1.1   5.1 6.9E+02  0.0077   13.5   0.0    6    1-6     106-111 (483)
+  8 1IK0_A INTERLEUKIN-13; left-ha   5.1 6.9E+02  0.0077   11.5   0.0    5    2-6      36-40  (113)
+  9 5KNH_I DARPIN 44C12V5; ALTERNA   5.1   7E+02  0.0077   11.5   0.0    5    2-6      35-39  (112)
+ 10 7NFX_t uL2, uL3, 60S ribosomal   5.0 7.2E+02   0.008   10.9   0.0    6    1-6      24-29  (136)
+
+No 1
+>7OBR_t SRP SRP receptor, co-translational protein; HET: GDP, MG; 2.8A {Canis lupus familiaris}
+Probab=5.88  E-value=5.8e+02  Score=10.39  Aligned_cols=6  Identities=50%  Similarity=0.473  Sum_probs=0.0  Template_Neff=6.200
+
+Q SSVNVT            1 SSVNVT    6 (6)
+Q Consensus         1 ssvnvt    6 (6)
+                      .||.+|
+T Consensus        24 gSV~lT   29 (110)
+T 7OBR_t           24 GSVFIT   29 (110)
+T ss_pred             CcEEEE
+
+
+No 2
+>4UYK_B SIGNAL RECOGNITION PARTICLE 9 KDA; SIGNALING PROTEIN, SIGNAL RECOGNITION PARTICLE; 3.22A {HOMO SAPIENS}
+Probab=5.59  E-value=6.2e+02  Score=10.31  Aligned_cols=6  Identities=50%  Similarity=0.567  Sum_probs=0.0  Template_Neff=6.100
+
+Q SSVNVT            1 SSVNVT    6 (6)
+Q Consensus         1 ssvnvt    6 (6)
+                      .||.||
+T Consensus        24 gSV~lT   29 (107)
+T 4UYK_B           24 GSVYIT   29 (107)
+T ss_dssp             CCEEEE
+T ss_pred             CcEEEE
+
+
+No 3
+>4OOU_B Beta-1,4-mannanase (E.C.3.2.1.78); Tim Barrel, HYDROLASE; HET: TRS; 2.36A {Cryptopygus antarcticus}
+Probab=5.37  E-value=6.5e+02  Score=10.47  Aligned_cols=5  Identities=60%  Similarity=0.767  Sum_probs=0.0  Template_Neff=10.500
+
+Q SSVNVT            1 SSVNV    5 (6)
+Q Consensus         1 ssvnv    5 (6)
+                      +|||+
+T Consensus       377 ~~~~~  381 (388)
+T 4OOU_B          377 VSVNI  381 (388)
+T ss_dssp             CSCCC
+T ss_pred             eEEec
+
+
+No 4
+>5M38_C OmpA family protein; T6SS TagL Peptidoglycan binding domain; 2.6A {Escherichia coli}
+Probab=5.31  E-value=6.6e+02  Score=9.28  Aligned_cols=6  Identities=50%  Similarity=0.601  Sum_probs=0.0  Template_Neff=9.300
+
+Q SSVNVT            1 SSVNVT    6 (6)
+Q Consensus         1 ssvnvt    6 (6)
+                      +|-|||
+T Consensus       133 ~~~~~~  138 (139)
+T 5M38_C          133 ASENIT  138 (139)
+T ss_dssp             ------
+T ss_pred             cccccC
+
+
+No 5
+>3HTY_F hypothetical protein BT_0869; NP_809782.1, hypothetical protein BT_0869 from; HET: SO4, GOL, MSE; 1.95A {Bacteroides thetaiotaomicron VPI-5482}
+Probab=5.22  E-value=6.7e+02  Score=9.94  Aligned_cols=6  Identities=67%  Similarity=0.767  Sum_probs=0.0  Template_Neff=6.200
+
+Q SSVNVT            1 SSVNVT    6 (6)
+Q Consensus         1 ssvnvt    6 (6)
+                      +|+|..
+T Consensus        31 ~SInma   36 (94)
+T 3HTY_F           31 SSVNMA   36 (94)
+T ss_dssp             EEESCS
+T ss_pred             EEeece
+
+
+No 6
+>3HTY_N hypothetical protein BT_0869; NP_809782.1, hypothetical protein BT_0869 from; HET: SO4, GOL, MSE; 1.95A {Bacteroides thetaiotaomicron VPI-5482}
+Probab=5.22  E-value=6.7e+02  Score=9.94  Aligned_cols=6  Identities=67%  Similarity=0.767  Sum_probs=0.0  Template_Neff=6.200
+
+Q SSVNVT            1 SSVNVT    6 (6)
+Q Consensus         1 ssvnvt    6 (6)
+                      +|+|..
+T Consensus        31 ~SInma   36 (94)
+T 3HTY_N           31 SSVNMA   36 (94)
+T ss_dssp             EEESCS
+T ss_pred             EEeece
+
+
+No 7
+>7D3F_B Dual oxidase 1 (E.C.1.11.1.-,1.6.3.1), Isoform; DUOX, DUOXA, NOX, NADPH, FAD; HET: BMA, NDP, HEM, NAG, FAD, MAN; 2.3A {Homo sapiens}
+Probab=5.12  E-value=6.9e+02  Score=13.53  Aligned_cols=6  Identities=50%  Similarity=0.756  Sum_probs=0.0  Template_Neff=4.100
+
+Q SSVNVT            1 SSVNVT    6 (6)
+Q Consensus         1 ssvnvt    6 (6)
+                      .+||||
+T Consensus       106 ~~VNIT  111 (483)
+T 7D3F_B          106 GGVNIT  111 (483)
+T ss_dssp             SEEEEE
+T ss_pred             ceeEEE
+
+
+No 8
+>1IK0_A INTERLEUKIN-13; left-handed four-helix bundle, CYTOKINE; NMR {Homo sapiens} SCOP: a.26.1.2
+Probab=5.11  E-value=6.9e+02  Score=11.49  Aligned_cols=5  Identities=60%  Similarity=0.893  Sum_probs=0.0  Template_Neff=2.500
+
+Q SSVNVT            2 SVNVT    6 (6)
+Q Consensus         2 svnvt    6 (6)
+                      |||.|
+T Consensus        36 sVNlt   40 (113)
+T 1IK0_A           36 SINLT   40 (113)
+T ss_dssp             CCCCS
+T ss_pred             EEecC
+
+
+No 9
+>5KNH_I DARPIN 44C12V5; ALTERNATIVE SCAFFOLD, CYTOKINE-DE NOVO PROTEIN; 1.6A {synthetic construct}
+Probab=5.08  E-value=7e+02  Score=11.46  Aligned_cols=5  Identities=60%  Similarity=0.893  Sum_probs=0.0  Template_Neff=2.500
+
+Q SSVNVT            2 SVNVT    6 (6)
+Q Consensus         2 svnvt    6 (6)
+                      |||.|
+T Consensus        35 sVNlt   39 (112)
+T 5KNH_I           35 SINLT   39 (112)
+T ss_dssp             CCCTT
+T ss_pred             EEEcC
+
+
+No 10
+>7NFX_t uL2, uL3, 60S ribosomal protein; Signal recognition particle, protein targeting; HET: GNP, GTP; 3.2A {Oryctolagus cuniculus}
+Probab=4.95  E-value=7.2e+02  Score=10.92  Aligned_cols=6  Identities=50%  Similarity=0.567  Sum_probs=0.0  Template_Neff=5.100
+
+Q SSVNVT            1 SSVNVT    6 (6)
+Q Consensus         1 ssvnvt    6 (6)
+                      +||.||
+T Consensus        24 GSV~lT   29 (136)
+T 7NFX_t           24 GSVYIT   29 (136)
+T ss_pred             CcEEEE
+
+

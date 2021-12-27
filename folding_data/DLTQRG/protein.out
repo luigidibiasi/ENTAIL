@@ -1,0 +1,148 @@
+Query         DLTQRG
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 17:42:35 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/DLTQRG/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/DLTQRG/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6Y7Q_AAA Potassium voltage-gat  11.2 2.4E+02  0.0027    7.7   0.0    5    1-5     131-135 (135)
+  2 3OKQ_A Bud site selection prot  11.1 2.5E+02  0.0027   12.4   0.0    6    1-6      43-48  (141)
+  3 4HOI_B Potassium voltage-gated  11.1 2.5E+02  0.0028    7.2   0.0    5    1-5     109-113 (114)
+  4 2VLG_C SPORULATION KINASE A (E  11.0 2.5E+02  0.0028    6.9   0.0    5    1-5     106-110 (111)
+  5 1CLD_A CD2-LAC9; ZINC-BINDING   10.7 2.6E+02  0.0029    6.3   0.0    5    1-5      57-61  (61)
+  6 3KFA_A Tyrosine-protein kinase  10.5 2.7E+02   0.003   10.3   0.0    6    1-6     282-287 (288)
+  7 3BWL_D Sensor protein (E.C.2.7  10.5 2.7E+02   0.003    7.4   0.0    5    1-5       1-5   (126)
+  8 1T98_A Chromosome partition pr  10.1 2.8E+02  0.0031   14.1   0.0    6    1-6     172-177 (287)
+  9 1ND6_C prostatic acid phosphat   9.9 2.9E+02  0.0032   11.5   0.0    6    1-6      37-42  (354)
+ 10 1T98_B Chromosome partition pr   9.9 2.9E+02  0.0032   14.0   0.0    6    1-6     172-177 (287)
+
+No 1
+>6Y7Q_AAA Potassium voltage-gated channel subfamily H; PAS, Potassium Channel, Heme Binding; HET: GOL, EDO; 1.39A {Homo sapiens}
+Probab=11.21  E-value=2.4e+02  Score=7.67  Aligned_cols=5  Identities=20%  Similarity=0.182  Sum_probs=0.0  Template_Neff=14.500
+
+Q DLTQRG            1 DLTQR    5 (6)
+Q Consensus         1 dltqr    5 (6)
+                      |+++|
+T Consensus       131 dit~~  135 (135)
+T 6Y7Q_AAA        131 YVTDN  135 (135)
+T ss_pred             cccCC
+
+
+No 2
+>3OKQ_A Bud site selection protein 6; coiled-coil, PROTEIN BINDING; 2.044A {Saccharomyces cerevisiae}
+Probab=11.11  E-value=2.5e+02  Score=12.39  Aligned_cols=6  Identities=33%  Similarity=0.695  Sum_probs=0.0  Template_Neff=5.000
+
+Q DLTQRG            1 DLTQRG    6 (6)
+Q Consensus         1 dltqrg    6 (6)
+                      |.++||
+T Consensus        43 DV~~Rg   48 (141)
+T 3OKQ_A           43 DVAERR   48 (141)
+T ss_dssp             HHHHHC
+T ss_pred             HHHHcC
+
+
+No 3
+>4HOI_B Potassium voltage-gated channel subfamily H; Potassium channel domain, TRANSPORT PROTEIN; HET: SO4; 1.85A {Mus musculus}
+Probab=11.08  E-value=2.5e+02  Score=7.19  Aligned_cols=5  Identities=40%  Similarity=0.441  Sum_probs=0.0  Template_Neff=14.800
+
+Q DLTQRG            1 DLTQR    5 (6)
+Q Consensus         1 dltqr    5 (6)
+                      |++++
+T Consensus       109 dit~~  113 (114)
+T 4HOI_B          109 DITAF  113 (114)
+T ss_dssp             ECTTT
+T ss_pred             ehhhc
+
+
+No 4
+>2VLG_C SPORULATION KINASE A (E.C.2.7.13.3); HISTIDINE KINASE, TWO-COMPONENT REGULATORY SYSTEM; 1.7A {BACILLUS SUBTILIS}
+Probab=10.97  E-value=2.5e+02  Score=6.91  Aligned_cols=5  Identities=0%  Similarity=0.209  Sum_probs=0.0  Template_Neff=15.200
+
+Q DLTQRG            1 DLTQR    5 (6)
+Q Consensus         1 dltqr    5 (6)
+                      |+|.+
+T Consensus       106 dit~~  110 (111)
+T 2VLG_C          106 KVLEE  110 (111)
+T ss_dssp             EECCC
+T ss_pred             ecccc
+
+
+No 5
+>1CLD_A CD2-LAC9; ZINC-BINDING DOMAIN, TRANSCRIPTION REGULATION; HET: CD; NMR {Kluyveromyces lactis} SCOP: g.38.1.1
+Probab=10.72  E-value=2.6e+02  Score=6.31  Aligned_cols=5  Identities=20%  Similarity=0.720  Sum_probs=0.0  Template_Neff=14.200
+
+Q DLTQRG            1 DLTQR    5 (6)
+Q Consensus         1 dltqr    5 (6)
+                      .|.+|
+T Consensus        57 ~le~~   61 (61)
+T 1CLD_A           57 EMENR   61 (61)
+T ss_dssp             -----
+T ss_pred             HHhcC
+
+
+No 6
+>3KFA_A Tyrosine-protein kinase transforming protein Abl; Abl, CML, drug resistance, inhibitor; HET: B91; 1.22A {Mus musculus}
+Probab=10.53  E-value=2.7e+02  Score=10.34  Aligned_cols=6  Identities=50%  Similarity=1.021  Sum_probs=0.0  Template_Neff=11.800
+
+Q DLTQRG            1 DLTQRG    6 (6)
+Q Consensus         1 dltqrg    6 (6)
+                      +|.+||
+T Consensus       282 ~~~~~~  287 (288)
+T 3KFA_A          282 ELGKRG  287 (288)
+T ss_dssp             HCC---
+T ss_pred             HHhhcC
+
+
+No 7
+>3BWL_D Sensor protein (E.C.2.7.13.3); structural genomics, APC87707.1, PAS domain; HET: I3A, MSE; 1.73A {Haloarcula marismortui ATCC 43049}
+Probab=10.49  E-value=2.7e+02  Score=7.41  Aligned_cols=5  Identities=20%  Similarity=0.302  Sum_probs=0.0  Template_Neff=14.600
+
+Q DLTQRG            1 DLTQR    5 (6)
+Q Consensus         1 dltqr    5 (6)
+                      |.+++
+T Consensus         1 dit~~    5 (126)
+T 3BWL_D            1 SNAER    5 (126)
+T ss_dssp             ----C
+T ss_pred             ChHHH
+
+
+No 8
+>1T98_A Chromosome partition protein mukF; WINGED HELIX, HELIX-TURN HELIX, DOMAIN; 2.9A {Escherichia coli} SCOP: a.47.6.1, a.4.5.65
+Probab=10.07  E-value=2.8e+02  Score=14.06  Aligned_cols=6  Identities=83%  Similarity=0.789  Sum_probs=0.0  Template_Neff=3.500
+
+Q DLTQRG            1 DLTQRG    6 (6)
+Q Consensus         1 dltqrg    6 (6)
+                      |++||+
+T Consensus       172 d~~QR~  177 (287)
+T 1T98_A          172 DLTQRL  177 (287)
+T ss_pred             chhHHH
+
+
+No 9
+>1ND6_C prostatic acid phosphatase (E.C.3.1.3.2); Prostatic acid Phosphatase, PAP, Prostate; HET: PO4, 1PE, MAN, NAG; 2.4A {Homo sapiens} SCOP: c.60.1.2
+Probab=9.91  E-value=2.9e+02  Score=11.47  Aligned_cols=6  Identities=67%  Similarity=0.805  Sum_probs=0.0  Template_Neff=10.100
+
+Q DLTQRG            1 DLTQRG    6 (6)
+Q Consensus         1 dltqrg    6 (6)
+                      +||.+|
+T Consensus        37 ~LT~~G   42 (354)
+T 1ND6_C           37 QLTQLG   42 (354)
+T ss_dssp             CBCHHH
+T ss_pred             cccHHH
+
+
+No 10
+>1T98_B Chromosome partition protein mukF; WINGED HELIX, HELIX-TURN HELIX, DOMAIN; HET: MSE; 2.9A {Escherichia coli} SCOP: a.4.5.65, a.47.6.1
+Probab=9.87  E-value=2.9e+02  Score=14.03  Aligned_cols=6  Identities=83%  Similarity=0.789  Sum_probs=0.0  Template_Neff=3.500
+
+Q DLTQRG            1 DLTQRG    6 (6)
+Q Consensus         1 dltqrg    6 (6)
+                      |++||+
+T Consensus       172 d~~QR~  177 (287)
+T 1T98_B          172 DLTQRL  177 (287)
+T ss_dssp             HHHHHH
+T ss_pred             chhHHH
+
+

@@ -1,0 +1,146 @@
+Query         NNTIFV
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 03:00:13 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NNTIFV/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NNTIFV/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2JYN_A UPF0368 protein YPL225W  46.0      19 0.00021   16.1   0.0    6    1-6     116-121 (146)
+  2 7NSJ_Bk Mitochondrial ribosoma  19.9   1E+02  0.0011   14.7   0.0    5    1-5      70-74  (269)
+  3 4Y4O_1k 50S Ribosomal Protein   19.6 1.1E+02  0.0012   12.4   0.0    5    1-5      26-30  (129)
+  4 2EEL_A Cell death activator CI  19.3 1.1E+02  0.0012   12.4   0.0    6    1-6      70-75  (91)
+  5 6ZU5_SO0 uL2, uL15, uL3, eL29,  19.2 1.1E+02  0.0012   12.4   0.0    5    1-5      22-26  (135)
+  6 5XPC_B DNAation factor-related  19.2 1.1E+02  0.0012   12.8   0.0    6    1-6      68-73  (100)
+  7 4D2K_A DREP2; APOPTOSIS, ENERG  19.2 1.1E+02  0.0012   12.3   0.0    6    1-6      71-76  (87)
+  8 3JBO_P PROTEIN/RNA Complex; RI  19.1 1.1E+02  0.0012   12.5   0.0    5    1-5      14-18  (127)
+  9 4JI8_K PROTEIN/RNA Complex; 30  19.0 1.1E+02  0.0012   12.4   0.0    5    1-5      26-30  (129)
+ 10 6ERI_BK 50S ribosomal protein   18.6 1.1E+02  0.0013   11.6   0.0    5    1-5       9-13  (110)
+
+No 1
+>2JYN_A UPF0368 protein YPL225W; novel fold, yst0336, YT51, Ontario; NMR {Saccharomyces cerevisiae}
+Probab=46.00  E-value=19  Score=16.07  Aligned_cols=6  Identities=50%  Similarity=0.512  Sum_probs=4.1  Template_Neff=4.300
+
+Q NNTIFV            1 NNTIFV    6 (6)
+Q Consensus         1 nntifv    6 (6)
+                      .|||||
+T Consensus       116 ~NTifv  121 (146)
+T 2JYN_A          116 FTTCFV  121 (146)
+T ss_dssp             TTEEEE
+T ss_pred             CceEEe
+Confidence            377775
+
+
+No 2
+>7NSJ_Bk Mitochondrial ribosomal protein L27, Mitochondrial; Ribosome, Mitochondria, tRNA(E*), TRANSLATION; HET: MG, GTP, SPM, 5GP; 3.9A {Sus scrofa}
+Probab=19.85  E-value=1e+02  Score=14.69  Aligned_cols=5  Identities=40%  Similarity=0.906  Sum_probs=0.0  Template_Neff=5.100
+
+Q NNTIFV            1 NNTIF    5 (6)
+Q Consensus         1 nntif    5 (6)
+                      |||||
+T Consensus        70 ~~~~~   74 (269)
+T 7NSJ_Bk          70 NDTVL   74 (269)
+T ss_pred             CcHHH
+
+
+No 3
+>4Y4O_1k 50S Ribosomal Protein L2, 50S; Ribosome, rRNA modofications, pseudouridine, rRNA; HET: 7MG, MA6, MPD, 5MU, UR3, PSU, ARG, 2MU, 5MC, 4OC, MG, ZN, 2MA, OMG, 2MG, M2G, SF4, 0TD; 2.3A {Thermus thermophilus HB8}
+Probab=19.63  E-value=1.1e+02  Score=12.38  Aligned_cols=5  Identities=80%  Similarity=0.946  Sum_probs=0.0  Template_Neff=7.000
+
+Q NNTIFV            1 NNTIF    5 (6)
+Q Consensus         1 nntif    5 (6)
+                      |||++
+T Consensus        26 NNt~i   30 (129)
+T 4Y4O_1k          26 NNTIV   30 (129)
+T ss_pred             CCEEE
+
+
+No 4
+>2EEL_A Cell death activator CIDE-A; CIDE-N domain, Cell death activator; NMR {Homo sapiens}
+Probab=19.31  E-value=1.1e+02  Score=12.42  Aligned_cols=6  Identities=50%  Similarity=0.828  Sum_probs=0.0  Template_Neff=5.400
+
+Q NNTIFV            1 NNTIFV    6 (6)
+Q Consensus         1 nntifv    6 (6)
+                      +||+|+
+T Consensus        70 ~nT~l~   75 (91)
+T 2EEL_A           70 DNTHFM   75 (91)
+T ss_dssp             SSEEEE
+T ss_pred             CCcEEE
+
+
+No 5
+>6ZU5_SO0 uL2, uL15, uL3, eL29, uL4; Microsporidia, Pathogen, Ribosome, Hibernation, Genome; HET: AMP, MG; 2.9A {Paranosema locustae}
+Probab=19.20  E-value=1.1e+02  Score=12.37  Aligned_cols=5  Identities=40%  Similarity=0.640  Sum_probs=0.0  Template_Neff=7.100
+
+Q NNTIFV            1 NNTIF    5 (6)
+Q Consensus         1 nntif    5 (6)
+                      |||++
+T Consensus        22 NNt~i   26 (135)
+T 6ZU5_SO0         22 NDTFV   26 (135)
+T ss_pred             CCEEE
+
+
+No 6
+>5XPC_B DNAation factor-related protein 4; Apoptosis, Energy metabolism, DNA Fragmentation; HET: GOL; 1.902A {Drosophila melanogaster}
+Probab=19.19  E-value=1.1e+02  Score=12.77  Aligned_cols=6  Identities=33%  Similarity=0.877  Sum_probs=0.0  Template_Neff=5.000
+
+Q NNTIFV            1 NNTIFV    6 (6)
+Q Consensus         1 nntifv    6 (6)
+                      +||+|+
+T Consensus        68 ~nT~L~   73 (100)
+T 5XPC_B           68 AQTLFI   73 (100)
+T ss_dssp             TTCEEE
+T ss_pred             CCcEEE
+
+
+No 7
+>4D2K_A DREP2; APOPTOSIS, ENERGY METABOLISM, DNA FRAGMENTATION; 2.302A {DROSOPHILA MELANOGASTER}
+Probab=19.18  E-value=1.1e+02  Score=12.28  Aligned_cols=6  Identities=50%  Similarity=0.944  Sum_probs=0.0  Template_Neff=5.500
+
+Q NNTIFV            1 NNTIFV    6 (6)
+Q Consensus         1 nntifv    6 (6)
+                      +||.|+
+T Consensus        71 ~nT~l~   76 (87)
+T 4D2K_A           71 NNTVLL   76 (87)
+T ss_dssp             TTCEEE
+T ss_pred             CCcEEE
+
+
+No 8
+>3JBO_P PROTEIN/RNA Complex; RIBOSOME; 5.8A {Plasmodium falciparum 3D7}
+Probab=19.13  E-value=1.1e+02  Score=12.49  Aligned_cols=5  Identities=40%  Similarity=0.700  Sum_probs=0.0  Template_Neff=6.600
+
+Q NNTIFV            1 NNTIF    5 (6)
+Q Consensus         1 nntif    5 (6)
+                      |||++
+T Consensus        14 NNt~i   18 (127)
+T 3JBO_P           14 NDTFI   18 (127)
+T ss_pred             CCEEE
+
+
+No 9
+>4JI8_K PROTEIN/RNA Complex; 30S ribosomal subunit, Ribosome, Streptomycin; HET: SRY, MG; 3.742A {Thermus thermophilus}
+Probab=18.97  E-value=1.1e+02  Score=12.36  Aligned_cols=5  Identities=80%  Similarity=0.946  Sum_probs=0.0  Template_Neff=6.900
+
+Q NNTIFV            1 NNTIF    5 (6)
+Q Consensus         1 nntif    5 (6)
+                      |||++
+T Consensus        26 NNt~i   30 (129)
+T 4JI8_K           26 NNTIV   30 (129)
+T ss_dssp             TEEEE
+T ss_pred             CCEEE
+
+
+No 10
+>6ERI_BK 50S ribosomal protein L2, chloroplastic; Chloroplast, translation, ribosome; HET: MG; 3.0A {Spinacia oleracea}
+Probab=18.63  E-value=1.1e+02  Score=11.58  Aligned_cols=5  Identities=80%  Similarity=0.946  Sum_probs=0.0  Template_Neff=7.800
+
+Q NNTIFV            1 NNTIF    5 (6)
+Q Consensus         1 nntif    5 (6)
+                      |||++
+T Consensus         9 NNt~i   13 (110)
+T 6ERI_BK           9 NNTIV   13 (110)
+T ss_pred             CCEEE
+
+

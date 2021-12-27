@@ -1,0 +1,157 @@
+Query         LCTVYV
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 17:40:23 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LCTVYV/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LCTVYV/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4ELL_A Retinoblastoma-associat  26.0      65 0.00072   15.4   0.0    6    1-6     329-334 (411)
+  2 4ELL_B Retinoblastoma-associat  23.6      78 0.00086   15.2   0.0    6    1-6     329-334 (411)
+  3 4YOZ_A p107 pocket domain, ASP  22.8      82 0.00091   15.1   0.0    6    1-6     280-285 (371)
+  4 4YOO_A p107 pocket domain, SER  21.4      92   0.001   14.9   0.0    6    1-6     278-283 (369)
+  5 1N4M_A Retinoblastoma Pocket/T  19.2 1.1E+02  0.0012   14.6   0.0    6    1-6     265-270 (345)
+  6 2R7G_A Retinoblastoma-associat  17.9 1.2E+02  0.0014   14.3   0.0    6    1-6     265-270 (347)
+  7 4ELJ_A Retinoblastoma-associat  14.2 1.7E+02  0.0019   14.8   0.0    6    1-6     574-579 (656)
+  8 6C3R_B Cricket paralysis virus  13.3 1.9E+02  0.0021   13.6   0.0    6    1-6      25-30  (141)
+  9 2MAH_A Protein smoothened; Smo  12.1 2.2E+02  0.0024   11.1   0.0    6    1-6      73-78  (128)
+ 10 3HTU_C Vacuolar protein-sortin  11.6 2.3E+02  0.0026   11.1   0.0    5    1-5      27-31  (79)
+
+No 1
+>4ELL_A Retinoblastoma-associated protein; CYCLIN FOLD, TUMOR SUPPRESSOR, CELL; 1.98A {Homo sapiens}
+Probab=26.00  E-value=65  Score=15.36  Aligned_cols=6  Identities=33%  Similarity=1.215  Sum_probs=3.6  Template_Neff=6.700
+
+Q LCTVYV            1 LCTVYV    6 (6)
+Q Consensus         1 lctvyv    6 (6)
+                      +|.+|+
+T Consensus       329 mC~iY~  334 (411)
+T 4ELL_A          329 MCSMYG  334 (411)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            466664
+
+
+No 2
+>4ELL_B Retinoblastoma-associated protein; CYCLIN FOLD, TUMOR SUPPRESSOR, CELL; 1.98A {Homo sapiens}
+Probab=23.59  E-value=78  Score=15.18  Aligned_cols=6  Identities=33%  Similarity=1.215  Sum_probs=3.5  Template_Neff=6.600
+
+Q LCTVYV            1 LCTVYV    6 (6)
+Q Consensus         1 lctvyv    6 (6)
+                      +|.+|+
+T Consensus       329 mCaiY~  334 (411)
+T 4ELL_B          329 MCSMYG  334 (411)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            466663
+
+
+No 3
+>4YOZ_A p107 pocket domain, ASP-LEU-TYR-CYS-TYR-GLU-GLN-LEU-ASN; Pocket protein, Cyclin Box, Transcriptional; HET: SO4; 2.245A {Homo sapiens}
+Probab=22.81  E-value=82  Score=15.06  Aligned_cols=6  Identities=50%  Similarity=1.503  Sum_probs=3.5  Template_Neff=6.300
+
+Q LCTVYV            1 LCTVYV    6 (6)
+Q Consensus         1 lctvyv    6 (6)
+                      +|.+|+
+T Consensus       280 mC~iY~  285 (371)
+T 4YOZ_A          280 LCAFYI  285 (371)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            466663
+
+
+No 4
+>4YOO_A p107 pocket domain, SER-ALA-LEU-LEU-SER-PHE-GLU-LYS-LEU-ASP-ARG-ALA-SEP-ALA-ASP-LEU-TRP-PRO; Cyclin Box Pocket Protein Transcriptional; HET: SEP, SO4; 2.4A {Homo sapiens}
+Probab=21.36  E-value=92  Score=14.90  Aligned_cols=6  Identities=50%  Similarity=1.503  Sum_probs=3.4  Template_Neff=6.300
+
+Q LCTVYV            1 LCTVYV    6 (6)
+Q Consensus         1 lctvyv    6 (6)
+                      +|.+|+
+T Consensus       278 mC~iY~  283 (369)
+T 4YOO_A          278 LCAFYI  283 (369)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            466663
+
+
+No 5
+>1N4M_A Retinoblastoma Pocket/Transcription factor E2F2; PROTEIN-PEPTIDE COMPLEX, Cell Cycle; 2.2A {Homo sapiens} SCOP: a.74.1.3
+Probab=19.15  E-value=1.1e+02  Score=14.58  Aligned_cols=6  Identities=33%  Similarity=1.215  Sum_probs=3.3  Template_Neff=6.200
+
+Q LCTVYV            1 LCTVYV    6 (6)
+Q Consensus         1 lctvyv    6 (6)
+                      +|.+|+
+T Consensus       265 mC~iY~  270 (345)
+T 1N4M_A          265 MCSMYG  270 (345)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            466663
+
+
+No 6
+>2R7G_A Retinoblastoma-associated protein/Early E1A 32 kDa; Retinoblastoma protein, E1A, E2F displacement; HET: SO4; 1.671A {Homo sapiens} SCOP: a.74.1.3
+Probab=17.85  E-value=1.2e+02  Score=14.35  Aligned_cols=6  Identities=33%  Similarity=1.215  Sum_probs=3.3  Template_Neff=6.400
+
+Q LCTVYV            1 LCTVYV    6 (6)
+Q Consensus         1 lctvyv    6 (6)
+                      +|.+|+
+T Consensus       265 mC~iY~  270 (347)
+T 2R7G_A          265 MCSMYG  270 (347)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            466663
+
+
+No 7
+>4ELJ_A Retinoblastoma-associated protein; CYCLIN FOLD, TUMOR SUPPRESSOR PROTEIN; 2.7A {Homo sapiens}
+Probab=14.16  E-value=1.7e+02  Score=14.83  Aligned_cols=6  Identities=33%  Similarity=1.215  Sum_probs=3.4  Template_Neff=6.900
+
+Q LCTVYV            1 LCTVYV    6 (6)
+Q Consensus         1 lctvyv    6 (6)
+                      +|.+|+
+T Consensus       574 ~C~iY~  579 (656)
+T 4ELJ_A          574 MCSMYG  579 (656)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            466663
+
+
+No 8
+>6C3R_B Cricket paralysis virus 1A protein; RNAi inhibitor, VIRAL PROTEIN; 2.6A {Cricket paralysis virus}
+Probab=13.34  E-value=1.9e+02  Score=13.63  Aligned_cols=6  Identities=67%  Similarity=1.514  Sum_probs=0.0  Template_Neff=2.300
+
+Q LCTVYV            1 LCTVYV    6 (6)
+Q Consensus         1 lctvyv    6 (6)
+                      +|++||
+T Consensus        25 ~~~~YV   30 (141)
+T 6C3R_B           25 FCTFYV   30 (141)
+T ss_dssp             SEEEEE
+T ss_pred             eeEEee
+
+
+No 9
+>2MAH_A Protein smoothened; Smoothened, Hedgehog, ONCOPROTEIN; NMR {Drosophila melanogaster}
+Probab=12.13  E-value=2.2e+02  Score=11.06  Aligned_cols=6  Identities=50%  Similarity=1.270  Sum_probs=0.0  Template_Neff=7.900
+
+Q LCTVYV            1 LCTVYV    6 (6)
+Q Consensus         1 lctvyv    6 (6)
+                      +|.+|+
+T Consensus        73 lCs~~~   78 (128)
+T 2MAH_A           73 LCAVFK   78 (128)
+T ss_dssp             HHHHHS
+T ss_pred             hhHhhC
+
+
+No 10
+>3HTU_C Vacuolar protein-sorting-associated protein 25, Vacuolar; ESCRT-II, ESCRT-III, VPS20, VPS25, MVB; 2.0A {Homo sapiens}
+Probab=11.55  E-value=2.3e+02  Score=11.06  Aligned_cols=5  Identities=40%  Similarity=0.873  Sum_probs=0.0  Template_Neff=5.800
+
+Q LCTVYV            1 LCTVY    5 (6)
+Q Consensus         1 lctvy    5 (6)
+                      .||+|
+T Consensus        27 V~Tly   31 (79)
+T 3HTU_C           27 VFTLY   31 (79)
+T ss_dssp             EEEHH
+T ss_pred             eEEEE
+
+

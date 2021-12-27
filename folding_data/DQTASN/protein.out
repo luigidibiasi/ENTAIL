@@ -1,0 +1,147 @@
+Query         DQTASN
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 17:51:57 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/DQTASN/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/DQTASN/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4FBW_C DNA repair protein rad3   4.4 8.4E+02  0.0092    9.3   0.0    6    1-6       5-10  (59)
+  2 4A1G_G MITOTIC CHECKPOINT SERI   4.3 8.5E+02  0.0094    9.9   0.0    6    1-6       5-10  (53)
+  3 4AKX_B SPCU, EXOU; TRANSPORT P   4.3 8.5E+02  0.0094   12.4   0.0    5    2-6     596-600 (660)
+  4 4A1G_H MITOTIC CHECKPOINT SERI   4.2 8.8E+02  0.0098    9.8   0.0    6    1-6       5-10  (53)
+  5 4QMK_A Type III secretion syst   4.2 8.9E+02  0.0098   12.4   0.0    5    2-6     590-594 (677)
+  6 4COS_A PROTEIN KINASE C-BINDIN   4.1 9.1E+02    0.01   10.3   0.0    5    1-5     322-326 (326)
+  7 3AKJ_A CtkA (E.C.2.7.11.1); pr   4.1 9.2E+02    0.01   10.5   0.0    6    1-6     298-303 (325)
+  8 3TU3_B ExoU chaperone; type II   3.7   1E+03   0.012   12.4   0.0    5    2-6     647-651 (711)
+  9 5IAA_C Ubiquitin-like modifier   3.6 1.1E+03   0.012   10.4   0.0    5    2-6      61-65  (83)
+ 10 5IA8_B Ubiquitin-like modifier   3.5 1.1E+03   0.012   10.7   0.0    5    2-6      75-79  (97)
+
+No 1
+>4FBW_C DNA repair protein rad32, DNA; DNA double-strand break repair, Nuclease; 2.2A {Schizosaccharomyces pombe}
+Probab=4.41  E-value=8.4e+02  Score=9.33  Aligned_cols=6  Identities=33%  Similarity=0.346  Sum_probs=0.0  Template_Neff=5.100
+
+Q DQTASN            1 DQTASN    6 (6)
+Q Consensus         1 dqtasn    6 (6)
+                      +||+++
+T Consensus         5 ~~~~~~   10 (59)
+T 4FBW_C            5 DDKAFE   10 (59)
+T ss_pred             CCCcch
+
+
+No 2
+>4A1G_G MITOTIC CHECKPOINT SERINE/THREONINE-PROTEIN KINASE BUB1; CELL CYCLE, TRANSFERASE, SPINDLE ASSEMBLY; 2.6A {HOMO SAPIENS}
+Probab=4.34  E-value=8.5e+02  Score=9.87  Aligned_cols=6  Identities=50%  Similarity=0.562  Sum_probs=0.0  Template_Neff=2.800
+
+Q DQTASN            1 DQTASN    6 (6)
+Q Consensus         1 dqtasn    6 (6)
+                      |-|||.
+T Consensus         5 DmTaSH   10 (53)
+T 4A1G_G            5 DLTSSH   10 (53)
+T ss_pred             ccccce
+
+
+No 3
+>4AKX_B SPCU, EXOU; TRANSPORT PROTEIN, PHOSPHOLIPASE, CHAPERONE, TOXIN; 2.94A {PSEUDOMONAS AERUGINOSA}
+Probab=4.34  E-value=8.5e+02  Score=12.40  Aligned_cols=5  Identities=60%  Similarity=0.567  Sum_probs=0.0  Template_Neff=7.500
+
+Q DQTASN            2 QTASN    6 (6)
+Q Consensus         2 qtasn    6 (6)
+                      |++||
+T Consensus       596 ~~~~~  600 (660)
+T 4AKX_B          596 QPDSN  600 (660)
+T ss_dssp             CCHHH
+T ss_pred             CCHHH
+
+
+No 4
+>4A1G_H MITOTIC CHECKPOINT SERINE/THREONINE-PROTEIN KINASE BUB1; CELL CYCLE, TRANSFERASE, SPINDLE ASSEMBLY; 2.6A {HOMO SAPIENS}
+Probab=4.21  E-value=8.8e+02  Score=9.83  Aligned_cols=6  Identities=50%  Similarity=0.562  Sum_probs=0.0  Template_Neff=2.800
+
+Q DQTASN            1 DQTASN    6 (6)
+Q Consensus         1 dqtasn    6 (6)
+                      |-|||.
+T Consensus         5 DmTaSH   10 (53)
+T 4A1G_H            5 DLTSSH   10 (53)
+T ss_pred             ccccce
+
+
+No 5
+>4QMK_A Type III secretion system effector; type III secretion system, Pseudomonas; 2.5A {Pseudomonas fluorescens}
+Probab=4.20  E-value=8.9e+02  Score=12.39  Aligned_cols=5  Identities=60%  Similarity=0.674  Sum_probs=0.0  Template_Neff=7.500
+
+Q DQTASN            2 QTASN    6 (6)
+Q Consensus         2 qtasn    6 (6)
+                      |++||
+T Consensus       590 q~~~n  594 (677)
+T 4QMK_A          590 QPAAN  594 (677)
+T ss_dssp             CCHHH
+T ss_pred             CcHHH
+
+
+No 6
+>4COS_A PROTEIN KINASE C-BINDING PROTEIN 1; TRANSCRIPTION, PHD DOMAIN, BROMO DOMAIN; HET: DIO; 1.67A {HOMO SAPIENS}
+Probab=4.12  E-value=9.1e+02  Score=10.32  Aligned_cols=5  Identities=80%  Similarity=0.720  Sum_probs=0.0  Template_Neff=9.300
+
+Q DQTASN            1 DQTAS    5 (6)
+Q Consensus         1 dqtas    5 (6)
+                      |++||
+T Consensus       322 ~~~~~  326 (326)
+T 4COS_A          322 DMTAS  326 (326)
+T ss_dssp             -----
+T ss_pred             cccCC
+
+
+No 7
+>3AKJ_A CtkA (E.C.2.7.11.1); protein kinase, TRANSFERASE; 2.0A {Helicobacter pylori}
+Probab=4.07  E-value=9.2e+02  Score=10.48  Aligned_cols=6  Identities=50%  Similarity=0.501  Sum_probs=0.0  Template_Neff=8.900
+
+Q DQTASN            1 DQTASN    6 (6)
+Q Consensus         1 dqtasn    6 (6)
+                      +++.||
+T Consensus       298 ~~~~~~  303 (325)
+T 3AKJ_A          298 KQAHSN  303 (325)
+T ss_dssp             ------
+T ss_pred             ccccCC
+
+
+No 8
+>3TU3_B ExoU chaperone; type III secretion system, Pseudomonas; 1.92A {Pseudomonas aeruginosa}
+Probab=3.68  E-value=1e+03  Score=12.38  Aligned_cols=5  Identities=60%  Similarity=0.567  Sum_probs=0.0  Template_Neff=7.200
+
+Q DQTASN            2 QTASN    6 (6)
+Q Consensus         2 qtasn    6 (6)
+                      |++||
+T Consensus       647 q~~~n  651 (711)
+T 3TU3_B          647 QPDSN  651 (711)
+T ss_dssp             CCHHH
+T ss_pred             CCHHH
+
+
+No 9
+>5IAA_C Ubiquitin-like modifier-activating enzyme 5, Ubiquitin-fold; Ubiquitin like protein and E1; 1.85A {Homo sapiens}
+Probab=3.57  E-value=1.1e+03  Score=10.39  Aligned_cols=5  Identities=80%  Similarity=0.787  Sum_probs=0.0  Template_Neff=2.500
+
+Q DQTASN            2 QTASN    6 (6)
+Q Consensus         2 qtasn    6 (6)
+                      |+|.|
+T Consensus        61 QtAG~   65 (83)
+T 5IAA_C           61 QTAGN   65 (83)
+T ss_dssp             SBHHH
+T ss_pred             hcccc
+
+
+No 10
+>5IA8_B Ubiquitin-like modifier-activating enzyme 5,Ubiquitin-fold modifier; Ubiquitin like protein, cell cycle; 2.0A {Homo sapiens}
+Probab=3.54  E-value=1.1e+03  Score=10.66  Aligned_cols=5  Identities=80%  Similarity=0.787  Sum_probs=0.0  Template_Neff=2.400
+
+Q DQTASN            2 QTASN    6 (6)
+Q Consensus         2 qtasn    6 (6)
+                      |+|.|
+T Consensus        75 QtAG~   79 (97)
+T 5IA8_B           75 QTAGN   79 (97)
+T ss_dssp             SBHHH
+T ss_pred             hcccc
+
+

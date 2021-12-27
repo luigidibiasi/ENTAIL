@@ -1,0 +1,151 @@
+Query         FVNQHL
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 22:17:50 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/FVNQHL/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/FVNQHL/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5Z08_C Cenp-I, Cenp-K, Cenp-H;  16.9 1.3E+02  0.0015   13.8   0.0    6    1-6      20-25  (168)
+  2 5OAB_A Ribonuclease K6 (E.C.3.  15.1 1.6E+02  0.0018   11.7   0.0    6    1-6      12-17  (128)
+  3 6ENP_A Ribonuclease K6 (E.C.3.  15.1 1.6E+02  0.0018   11.7   0.0    6    1-6      12-17  (128)
+  4 6XOJ_A ScoE protein; isonitril  14.7 1.6E+02  0.0018   12.5   0.0    6    1-6       9-14  (326)
+  5 4AOH_A ANGIOGENIN (E.C.3.1.27.  14.4 1.7E+02  0.0019   11.5   0.0    6    1-6      10-15  (124)
+  6 7BFK_A Angiogenin-1; RNase, au  14.4 1.7E+02  0.0019   11.6   0.0    6    1-6      10-15  (127)
+  7 2P6Z_A Recombinant Amphinase-2  14.1 1.8E+02  0.0019   11.3   0.0    6    1-6      12-17  (115)
+  8 1OJ8_A RC-RNASE6 RIBONUCLEASE;  13.7 1.8E+02   0.002   11.3   0.0    6    1-6       6-11  (105)
+  9 3III_A CocE/NonD family hydrol  13.6 1.9E+02  0.0021   13.1   0.0    5    2-6       1-5   (560)
+ 10 5EOP_A Angiogenin (E.C.3.1.27.  13.0   2E+02  0.0022   11.2   0.0    6    1-6       8-13  (121)
+
+No 1
+>5Z08_C Cenp-I, Cenp-K, Cenp-H; protein complex, kinetochore, centromere, CELL; 2.199A {Chaetomium thermophilum (strain DSM 1495 / CBS 144.50 / IMI 039719)}
+Probab=16.89  E-value=1.3e+02  Score=13.80  Aligned_cols=6  Identities=50%  Similarity=1.232  Sum_probs=3.4  Template_Neff=4.300
+
+Q FVNQHL            1 FVNQHL    6 (6)
+Q Consensus         1 fvnqhl    6 (6)
+                      |++.||
+T Consensus        20 FIdehL   25 (168)
+T 5Z08_C           20 FIGEHL   25 (168)
+T ss_dssp             HCCCCC
+T ss_pred             HHHHcH
+Confidence            566654
+
+
+No 2
+>5OAB_A Ribonuclease K6 (E.C.3.1.27.-); RNASE K6, HYDROLASE, PANCREATIC RIBONUCLEASE; HET: PO4; 1.111A {Homo sapiens}
+Probab=15.12  E-value=1.6e+02  Score=11.73  Aligned_cols=6  Identities=50%  Similarity=0.766  Sum_probs=0.0  Template_Neff=7.300
+
+Q FVNQHL            1 FVNQHL    6 (6)
+Q Consensus         1 fvnqhl    6 (6)
+                      |..||+
+T Consensus        12 F~~~Hi   17 (128)
+T 5OAB_A           12 FEIQHI   17 (128)
+T ss_dssp             HHHHHB
+T ss_pred             HHHHhC
+
+
+No 3
+>6ENP_A Ribonuclease K6 (E.C.3.1.27.-); RNASE K6, HYDROLASE, PANCREATIC RIBONUCLEASE; HET: PO4; 1.042A {Homo sapiens}
+Probab=15.12  E-value=1.6e+02  Score=11.73  Aligned_cols=6  Identities=50%  Similarity=0.766  Sum_probs=0.0  Template_Neff=7.300
+
+Q FVNQHL            1 FVNQHL    6 (6)
+Q Consensus         1 fvnqhl    6 (6)
+                      |..||+
+T Consensus        12 F~~~Hi   17 (128)
+T 6ENP_A           12 FEIQHI   17 (128)
+T ss_dssp             HHHHHB
+T ss_pred             HHHHhC
+
+
+No 4
+>6XOJ_A ScoE protein; isonitrile formation mononuclear iron dioxygenase; HET: AKG, 7UC; 1.45A {Streptomyces coeruleorubidus}
+Probab=14.72  E-value=1.6e+02  Score=12.45  Aligned_cols=6  Identities=50%  Similarity=0.938  Sum_probs=0.0  Template_Neff=9.200
+
+Q FVNQHL            1 FVNQHL    6 (6)
+Q Consensus         1 fvnqhl    6 (6)
+                      |+.||+
+T Consensus         9 ~~~~~~   14 (326)
+T 6XOJ_A            9 FERQHM   14 (326)
+T ss_dssp             ------
+T ss_pred             HHHHhc
+
+
+No 5
+>4AOH_A ANGIOGENIN (E.C.3.1.27.-); HYDROLASE, ANGIOGENESIS, NEOVASCULARISATION, AMYOTROPIC LATERAL; HET: TLA, TAR; 1.041A {HOMO SAPIENS}
+Probab=14.37  E-value=1.7e+02  Score=11.49  Aligned_cols=6  Identities=50%  Similarity=0.999  Sum_probs=0.0  Template_Neff=7.500
+
+Q FVNQHL            1 FVNQHL    6 (6)
+Q Consensus         1 fvnqhl    6 (6)
+                      |..||+
+T Consensus        10 F~~qHi   15 (124)
+T 4AOH_A           10 FLTQHY   15 (124)
+T ss_dssp             HHHHHB
+T ss_pred             HHHhhc
+
+
+No 6
+>7BFK_A Angiogenin-1; RNase, auto-inhibition, Salmo salar, ancient; 1.89A {Salmo salar}
+Probab=14.37  E-value=1.7e+02  Score=11.58  Aligned_cols=6  Identities=50%  Similarity=1.115  Sum_probs=0.0  Template_Neff=7.400
+
+Q FVNQHL            1 FVNQHL    6 (6)
+Q Consensus         1 fvnqhl    6 (6)
+                      |..||.
+T Consensus        10 F~~~Hi   15 (127)
+T 7BFK_A           10 FLKQHV   15 (127)
+T ss_dssp             HHHHHB
+T ss_pred             HHHhhc
+
+
+No 7
+>2P6Z_A Recombinant Amphinase-2 (E.C.3.1.27.-); Amphinase, cytotoxic RNase, enzyme efficiency; HET: CIT; 1.93A {Rana pipiens}
+Probab=14.12  E-value=1.8e+02  Score=11.32  Aligned_cols=6  Identities=33%  Similarity=0.894  Sum_probs=0.0  Template_Neff=7.500
+
+Q FVNQHL            1 FVNQHL    6 (6)
+Q Consensus         1 fvnqhl    6 (6)
+                      |..||.
+T Consensus        12 F~~qHi   17 (115)
+T 2P6Z_A           12 FKTKHI   17 (115)
+T ss_dssp             HHHHHE
+T ss_pred             HHHhhC
+
+
+No 8
+>1OJ8_A RC-RNASE6 RIBONUCLEASE; CYTOTOXIC RIBONUCLEASES, ANTI-TUMOR ACTIVITY, SIALIC; HET: SO4; 1.7A {RANA CATESBEIANA} SCOP: d.5.1.1
+Probab=13.67  E-value=1.8e+02  Score=11.28  Aligned_cols=6  Identities=50%  Similarity=0.988  Sum_probs=0.0  Template_Neff=7.100
+
+Q FVNQHL            1 FVNQHL    6 (6)
+Q Consensus         1 fvnqhl    6 (6)
+                      |..||.
+T Consensus         6 F~~qHv   11 (105)
+T 1OJ8_A            6 FQKKHL   11 (105)
+T ss_dssp             HHHHHE
+T ss_pred             HHHHhc
+
+
+No 9
+>3III_A CocE/NonD family hydrolase; structural genomics, hydrolase, Center for; HET: PLM; 1.95A {Staphylococcus aureus subsp. aureus COL}
+Probab=13.59  E-value=1.9e+02  Score=13.09  Aligned_cols=5  Identities=80%  Similarity=1.205  Sum_probs=0.0  Template_Neff=9.600
+
+Q FVNQHL            2 VNQHL    6 (6)
+Q Consensus         2 vnqhl    6 (6)
+                      .||||
+T Consensus         1 ~~~~~    5 (560)
+T 3III_A            1 MNQHL    5 (560)
+T ss_dssp             --CGG
+T ss_pred             CCccc
+
+
+No 10
+>5EOP_A Angiogenin (E.C.3.1.27.-); Hydrolase; 1.35A {Homo sapiens}
+Probab=12.99  E-value=2e+02  Score=11.22  Aligned_cols=6  Identities=50%  Similarity=0.999  Sum_probs=0.0  Template_Neff=7.600
+
+Q FVNQHL            1 FVNQHL    6 (6)
+Q Consensus         1 fvnqhl    6 (6)
+                      |..||+
+T Consensus         8 F~~~Hi   13 (121)
+T 5EOP_A            8 FLTQHY   13 (121)
+T ss_dssp             HHHHHB
+T ss_pred             HHHhhc
+
+

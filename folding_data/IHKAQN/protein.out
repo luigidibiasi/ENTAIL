@@ -1,0 +1,151 @@
+Query         IHKAQN
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 08:14:23 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/IHKAQN/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/IHKAQN/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2KZQ_A Envelope glycoprotein E  51.4      14 0.00015   13.6   0.0    6    1-6      11-16  (36)
+  2 5K21_B Pyocyanin demethylase;   20.0   1E+02  0.0011   12.5   0.0    6    1-6     132-137 (141)
+  3 3UPU_B ATP-dependent DNA helic  19.9   1E+02  0.0011   13.4   0.0    5    1-5     415-419 (459)
+  4 3E1S_A Exodeoxyribonuclease V,  17.7 1.2E+02  0.0014   13.6   0.0    5    1-5     496-500 (574)
+  5 3GP8_A Exodeoxyribonuclease V,  17.7 1.2E+02  0.0014   13.6   0.0    5    1-5     496-500 (574)
+  6 6S3P_A PIF1 helicase; DNA heli  16.1 1.4E+02  0.0016   12.2   0.0    5    1-5     367-371 (443)
+  7 7BIL_A PIF1 helicase/DNA Compl  15.6 1.5E+02  0.0017   12.5   0.0    5    1-5     431-435 (507)
+  8 6WTD_J ATP synthase subunit 9,  15.0 1.6E+02  0.0018   10.8   0.0    6    1-6      27-32  (37)
+  9 5FTB_A TPR DOMAIN PROTEIN (E.C  13.8 1.8E+02   0.002   11.9   0.0    5    1-5     360-364 (433)
+ 10 5FTF_A TPR DOMAIN PROTEIN (E.C  12.8   2E+02  0.0022   11.8   0.0    5    1-5     360-364 (433)
+
+No 1
+>2KZQ_A Envelope glycoprotein E2 peptide; membrane protein, E2 structural protein; NMR {N/A}
+Probab=51.41  E-value=14  Score=13.58  Aligned_cols=6  Identities=50%  Similarity=0.689  Sum_probs=4.0  Template_Neff=3.800
+
+Q IHKAQN            1 IHKAQN    6 (6)
+Q Consensus         1 ihkaqn    6 (6)
+                      |||-||
+T Consensus        11 Ih~~~n   16 (36)
+T 2KZQ_A           11 LHLHQN   16 (36)
+T ss_dssp             HHHHHH
+T ss_pred             cccCCC
+Confidence            677665
+
+
+No 2
+>5K21_B Pyocyanin demethylase; Demethylase Phenazine, OXIDOREDUCTASE; HET: 6QF; 1.8A {Mycobacterium fortuitum subsp. fortuitum DSM 46621 = ATCC 6841}
+Probab=20.05  E-value=1e+02  Score=12.49  Aligned_cols=6  Identities=50%  Similarity=0.756  Sum_probs=1.0  Template_Neff=7.200
+
+Q IHKAQN            1 IHKAQN    6 (6)
+Q Consensus         1 ihkaqn    6 (6)
+                      |+||.|
+T Consensus       132 ~~~~~~  137 (141)
+T 5K21_B          132 LTKAEN  137 (141)
+T ss_dssp             EC----
+T ss_pred             EEeccc
+Confidence            456654
+
+
+No 3
+>3UPU_B ATP-dependent DNA helicase dda (E.C.3.6.4.12)/DNA; RecA-like domain, SH3 domain, pin-tower; HET: MSE; 3.299A {Enterobacteria phage T4}
+Probab=19.92  E-value=1e+02  Score=13.40  Aligned_cols=5  Identities=80%  Similarity=1.019  Sum_probs=0.0  Template_Neff=9.700
+
+Q IHKAQN            1 IHKAQ    5 (6)
+Q Consensus         1 ihkaq    5 (6)
+                      |||+|
+T Consensus       415 ihkaQ  419 (459)
+T 3UPU_B          415 FHKAQ  419 (459)
+T ss_dssp             TGGGT
+T ss_pred             EeecC
+
+
+No 4
+>3E1S_A Exodeoxyribonuclease V, subunit RecD; alpha and beta protein, ATP-binding; 2.2A {Deinococcus radiodurans}
+Probab=17.72  E-value=1.2e+02  Score=13.59  Aligned_cols=5  Identities=60%  Similarity=1.125  Sum_probs=0.0  Template_Neff=9.700
+
+Q IHKAQN            1 IHKAQ    5 (6)
+Q Consensus         1 ihkaq    5 (6)
+                      |||+|
+T Consensus       496 ihk~Q  500 (574)
+T 3E1S_A          496 VHRAQ  500 (574)
+T ss_dssp             HHHHT
+T ss_pred             hhHhC
+
+
+No 5
+>3GP8_A Exodeoxyribonuclease V, subunit RecD, putative; ALPHA AND BETA PROTEIN, ATP-BINDING; 2.5A {Deinococcus radiodurans R1}
+Probab=17.72  E-value=1.2e+02  Score=13.59  Aligned_cols=5  Identities=60%  Similarity=1.125  Sum_probs=0.0  Template_Neff=9.700
+
+Q IHKAQN            1 IHKAQ    5 (6)
+Q Consensus         1 ihkaq    5 (6)
+                      |||+|
+T Consensus       496 ihk~Q  500 (574)
+T 3GP8_A          496 VHRAQ  500 (574)
+T ss_dssp             HHHHT
+T ss_pred             hhHhC
+
+
+No 6
+>6S3P_A PIF1 helicase; DNA helicase, HYDROLASE; 1.926A {Thermus oshimai}
+Probab=16.09  E-value=1.4e+02  Score=12.23  Aligned_cols=5  Identities=80%  Similarity=1.159  Sum_probs=0.0  Template_Neff=11.000
+
+Q IHKAQN            1 IHKAQ    5 (6)
+Q Consensus         1 ihkaq    5 (6)
+                      +||+|
+T Consensus       367 ~~k~q  371 (443)
+T 6S3P_A          367 VHKAQ  371 (443)
+T ss_dssp             HHHHT
+T ss_pred             ehhcC
+
+
+No 7
+>7BIL_A PIF1 helicase/DNA Complex; DNA helicase, HYDROLASE; HET: ALF, ADP; 2.21A {Thermus oshimai JL-2}
+Probab=15.61  E-value=1.5e+02  Score=12.53  Aligned_cols=5  Identities=80%  Similarity=1.159  Sum_probs=0.0  Template_Neff=10.800
+
+Q IHKAQN            1 IHKAQ    5 (6)
+Q Consensus         1 ihkaq    5 (6)
+                      +|++|
+T Consensus       431 vh~~Q  435 (507)
+T 7BIL_A          431 VHKAQ  435 (507)
+T ss_dssp             SGGGT
+T ss_pred             ecccC
+
+
+No 8
+>6WTD_J ATP synthase subunit 9, mitochondrial; ATP synthase, BIOSYNTHETIC PROTEIN; HET: FME;{Saccharomyces cerevisiae}
+Probab=14.99  E-value=1.6e+02  Score=10.82  Aligned_cols=6  Identities=33%  Similarity=0.551  Sum_probs=0.0  Template_Neff=3.900
+
+Q IHKAQN            1 IHKAQN    6 (6)
+Q Consensus         1 ihkaqn    6 (6)
+                      +.|+||
+T Consensus        27 v~k~~~   32 (37)
+T 6WTD_J           27 MSKAAD   32 (37)
+T ss_pred             HHHHHH
+
+
+No 9
+>5FTB_A TPR DOMAIN PROTEIN (E.C.3.6.4.12); HYDROLASE, SF1B, G QUADRUPLEX, SH3; HET: ANP; 1.38A {BACTEROIDES}
+Probab=13.78  E-value=1.8e+02  Score=11.87  Aligned_cols=5  Identities=80%  Similarity=1.132  Sum_probs=0.0  Template_Neff=11.100
+
+Q IHKAQN            1 IHKAQ    5 (6)
+Q Consensus         1 ihkaq    5 (6)
+                      +|++|
+T Consensus       360 v~~~q  364 (433)
+T 5FTB_A          360 IHKSQ  364 (433)
+T ss_dssp             HHHHT
+T ss_pred             eeccC
+
+
+No 10
+>5FTF_A TPR DOMAIN PROTEIN (E.C.3.6.4.12); HYDROLASE, SF1B, G QUADRUPLEX, SH3; HET: ADP; 2.412A {BACTEROIDES}
+Probab=12.80  E-value=2e+02  Score=11.79  Aligned_cols=5  Identities=80%  Similarity=1.132  Sum_probs=0.0  Template_Neff=11.000
+
+Q IHKAQN            1 IHKAQ    5 (6)
+Q Consensus         1 ihkaq    5 (6)
+                      +|++|
+T Consensus       360 ~~~~Q  364 (433)
+T 5FTF_A          360 IHKSQ  364 (433)
+T ss_dssp             TTTTT
+T ss_pred             ccccC
+
+

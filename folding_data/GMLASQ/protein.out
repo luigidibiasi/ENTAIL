@@ -1,0 +1,155 @@
+Query         GMLASQ
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 01:49:57 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GMLASQ/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GMLASQ/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6N3A_J TAR DNA-binding protein  71.7     3.2 3.5E-05   16.6   0.0    6    1-6      28-33  (50)
+  2 5LP2_B HopQ; adhesin, Helicoba  14.6 1.7E+02  0.0018   15.0   0.0    6    1-6     417-422 (434)
+  3 4V8S_AY DNA-DIRECTED RNA POLYM  14.1 1.8E+02  0.0019   13.4   0.0    6    1-6      71-76  (395)
+  4 4QIW_C DNA-directed RNA polyme  12.9   2E+02  0.0022   13.0   0.0    6    1-6      65-70  (391)
+  5 6KF3_C DNA-directed RNA polyme  12.9   2E+02  0.0022   13.0   0.0    6    1-6      65-70  (391)
+  6 7OK0_C RNA polymerase, transcr  12.7   2E+02  0.0023   13.1   0.0    6    1-6      69-74  (393)
+  7 5LP2_A HopQ; adhesin, Helicoba  11.7 2.3E+02  0.0025   14.3   0.0    6    1-6     417-422 (434)
+  8 6GBH_A Carcinoembryonic antige  11.4 2.4E+02  0.0026   14.2   0.0    6    1-6     409-414 (425)
+  9 6SG9_FF ?; mitochondrial ribos  11.4 2.4E+02  0.0026   13.8   0.0    6    1-6     431-436 (474)
+ 10 6SGA_FF ?; mitochondrial ribos  11.4 2.4E+02  0.0026   13.8   0.0    6    1-6     431-436 (474)
+
+No 1
+>6N3A_J TAR DNA-binding protein 43, segA; Amyloid, TDP43, ALS, FTLD-TDP, dna; 3.3A {Homo sapiens}
+Probab=71.66  E-value=3.2  Score=16.63  Aligned_cols=6  Identities=100%  Similarity=1.232  Sum_probs=3.9  Template_Neff=2.200
+
+Q GMLASQ            1 GMLASQ    6 (6)
+Q Consensus         1 gmlasq    6 (6)
+                      ||||+|
+T Consensus        28 gMla~Q   33 (50)
+T 6N3A_J           28 GMLASQ   33 (50)
+T ss_dssp             EEEEEE
+T ss_pred             HhHHhc
+Confidence            567765
+
+
+No 2
+>5LP2_B HopQ; adhesin, Helicobacter outer membrane protein; 2.6A {Helicobacter pylori (strain G27)}
+Probab=14.63  E-value=1.7e+02  Score=14.95  Aligned_cols=6  Identities=67%  Similarity=1.027  Sum_probs=0.0  Template_Neff=5.100
+
+Q GMLASQ            1 GMLASQ    6 (6)
+Q Consensus         1 gmlasq    6 (6)
+                      ||+.||
+T Consensus       417 G~isSq  422 (434)
+T 5LP2_B          417 GMIASS  422 (434)
+T ss_dssp             ------
+T ss_pred             eEEEec
+Confidence            677665
+
+
+No 3
+>4V8S_AY DNA-DIRECTED RNA POLYMERASE SUBUNIT K; TRANSFERASE-DNA COMPLEX, TRANSCRIPTION; HET: SF4, ZN; 4.323A {SULFOLOBUS SHIBATAE B12}
+Probab=14.14  E-value=1.8e+02  Score=13.44  Aligned_cols=6  Identities=50%  Similarity=0.949  Sum_probs=2.7  Template_Neff=7.800
+
+Q GMLASQ            1 GMLASQ    6 (6)
+Q Consensus         1 gmlasq    6 (6)
+                      |.+|+|
+T Consensus        71 GiiAAQ   76 (395)
+T 4V8S_AY          71 GIVAAQ   76 (395)
+T ss_pred             HHHHHh
+Confidence            344444
+
+
+No 4
+>4QIW_C DNA-directed RNA polymerase (E.C.2.7.7.6), DNA-directed; Transcription, DNA-directed RNA polymerase; HET: ZN; 3.5A {Thermococcus kodakarensis}
+Probab=12.90  E-value=2e+02  Score=13.05  Aligned_cols=6  Identities=50%  Similarity=0.778  Sum_probs=2.5  Template_Neff=8.200
+
+Q GMLASQ            1 GMLASQ    6 (6)
+Q Consensus         1 gmlasq    6 (6)
+                      |.+|+|
+T Consensus        65 GiiAAQ   70 (391)
+T 4QIW_C           65 GTVAAQ   70 (391)
+T ss_dssp             HHHHHH
+T ss_pred             HHhhee
+Confidence            344443
+
+
+No 5
+>6KF3_C DNA-directed RNA polymerase subunit (E.C.2.7.7.6); apo-RNA polymerase, TRANSCRIPTION; 3.9A {Thermococcus kodakarensis (strain ATCC BAA-918 / JCM 12380 / KOD1)}
+Probab=12.90  E-value=2e+02  Score=13.05  Aligned_cols=6  Identities=50%  Similarity=0.778  Sum_probs=2.5  Template_Neff=8.200
+
+Q GMLASQ            1 GMLASQ    6 (6)
+Q Consensus         1 gmlasq    6 (6)
+                      |.+|+|
+T Consensus        65 GiiAAQ   70 (391)
+T 6KF3_C           65 GTVAAQ   70 (391)
+T ss_dssp             HHHHHH
+T ss_pred             HHhhee
+Confidence            344443
+
+
+No 6
+>7OK0_C RNA polymerase, transcription, Archaea, Crenarchaea;{Sulfolobus acidocaldarius (strain ATCC 33909 / DSM 639 / JCM 8929 / NBRC 15157 / NCIMB 11770)}
+Probab=12.70  E-value=2e+02  Score=13.13  Aligned_cols=6  Identities=33%  Similarity=0.800  Sum_probs=2.5  Template_Neff=8.000
+
+Q GMLASQ            1 GMLASQ    6 (6)
+Q Consensus         1 gmlasq    6 (6)
+                      |.+|+|
+T Consensus        69 GiiAAQ   74 (393)
+T 7OK0_C           69 GVVTAQ   74 (393)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHhh
+Confidence            344443
+
+
+No 7
+>5LP2_A HopQ; adhesin, Helicobacter outer membrane protein; 2.6A {Helicobacter pylori (strain G27)}
+Probab=11.73  E-value=2.3e+02  Score=14.29  Aligned_cols=6  Identities=67%  Similarity=1.027  Sum_probs=0.0  Template_Neff=5.600
+
+Q GMLASQ            1 GMLASQ    6 (6)
+Q Consensus         1 gmlasq    6 (6)
+                      ||+.||
+T Consensus       417 g~~~~q  422 (434)
+T 5LP2_A          417 GMIASS  422 (434)
+T ss_dssp             ------
+T ss_pred             eEEEee
+Confidence            566665
+
+
+No 8
+>6GBH_A Carcinoembryonic antigen-related cell adhesion molecule; Helicobacter pylori, adhesin, Helicobacter outer; HET: SO4; 2.59A {Homo sapiens}
+Probab=11.43  E-value=2.4e+02  Score=14.16  Aligned_cols=6  Identities=50%  Similarity=0.994  Sum_probs=3.7  Template_Neff=5.700
+
+Q GMLASQ            1 GMLASQ    6 (6)
+Q Consensus         1 gmlasq    6 (6)
+                      ||+.||
+T Consensus       409 g~~~~~  414 (425)
+T 6GBH_A          409 GIISSQ  414 (425)
+T ss_pred             EeEEec
+Confidence            566665
+
+
+No 9
+>6SG9_FF ?; mitochondrial ribosome, assembly intermediate, translation; HET: SAH, GTP; 3.1A {Trypanosoma brucei brucei}
+Probab=11.41  E-value=2.4e+02  Score=13.80  Aligned_cols=6  Identities=67%  Similarity=0.911  Sum_probs=3.1  Template_Neff=6.900
+
+Q GMLASQ            1 GMLASQ    6 (6)
+Q Consensus         1 gmlasq    6 (6)
+                      ||.|.|
+T Consensus       431 ~~~~~~  436 (474)
+T 6SG9_FF         431 GMYAGQ  436 (474)
+T ss_pred             hhhcCC
+Confidence            455554
+
+
+No 10
+>6SGA_FF ?; mitochondrial ribosome, assembly intermediate, translation; HET: PM8, UBD; 3.1A {Trypanosoma brucei brucei}
+Probab=11.41  E-value=2.4e+02  Score=13.80  Aligned_cols=6  Identities=67%  Similarity=0.911  Sum_probs=0.0  Template_Neff=6.900
+
+Q GMLASQ            1 GMLASQ    6 (6)
+Q Consensus         1 gmlasq    6 (6)
+                      ||.|.|
+T Consensus       431 ~~~~~~  436 (474)
+T 6SGA_FF         431 GMYAGQ  436 (474)
+T ss_pred             hhhcCC
+
+

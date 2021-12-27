@@ -1,0 +1,150 @@
+Query         AEKLFD
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 13:33:41 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/AEKLFD/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/AEKLFD/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2III_A S-adenosylmethionine de  25.4      68 0.00075   12.8   0.0    6    1-6     125-130 (135)
+  2 7C11_B Formate--tetrahydrofola  15.0 1.6E+02  0.0018   15.3   0.0    6    1-6     307-312 (568)
+  3 2K5C_A uncharacterized protein  14.6 1.7E+02  0.0018   13.2   0.0    6    1-6      71-76  (95)
+  4 3DO6_B Formate--tetrahydrofola  14.5 1.7E+02  0.0019   15.1   0.0    6    1-6     296-301 (543)
+  5 7C11_P Formate--tetrahydrofola  14.5 1.7E+02  0.0019   15.1   0.0    6    1-6     307-312 (568)
+  6 2K85_A Glucocorticoid receptor  14.4 1.7E+02  0.0019   10.1   0.0    6    1-6      55-60  (69)
+  7 2K1H_A Uncharacterized protein  13.4 1.9E+02  0.0021   11.4   0.0    6    1-6      42-47  (94)
+  8 5A4J_A FORMATE--TETRAHYDROFOLA  12.9   2E+02  0.0022   15.2   0.0    6    1-6     309-314 (559)
+  9 6YLG_t Probable metalloproteas  12.7   2E+02  0.0023   15.5   0.0    6    1-6     343-348 (767)
+ 10 5A4J_C FORMATE--TETRAHYDROFOLA  12.4 2.1E+02  0.0023   15.1   0.0    6    1-6     309-314 (559)
+
+No 1
+>2III_A S-adenosylmethionine decarboxylase proenzyme (E.C.4.1.1.50); two-layer alpha beta-sandwich, Structural Genomics; 2.3A {Aquifex aeolicus}
+Probab=25.37  E-value=68  Score=12.84  Aligned_cols=6  Identities=67%  Similarity=0.584  Sum_probs=0.0  Template_Neff=7.300
+
+Q AEKLFD            1 AEKLFD    6 (6)
+Q Consensus         1 aeklfd    6 (6)
+                      +|++|+
+T Consensus       125 ~~~~~~  130 (135)
+T 2III_A          125 AEKLRS  130 (135)
+T ss_dssp             ------
+T ss_pred             HHHHHH
+Confidence            355553
+
+
+No 2
+>7C11_B Formate--tetrahydrofolate ligase (E.C.6.3.4.3); Formate assimilation, Methylobacterium extorquens CM4; HET: TLA, FLC; 2.815A {Methylorubrum extorquens (strain CM4 / NCIMB 13688)}
+Probab=15.05  E-value=1.6e+02  Score=15.29  Aligned_cols=6  Identities=67%  Similarity=0.938  Sum_probs=0.0  Template_Neff=5.600
+
+Q AEKLFD            1 AEKLFD    6 (6)
+Q Consensus         1 aeklfd    6 (6)
+                      |||.||
+T Consensus       307 ~eKf~d  312 (568)
+T 7C11_B          307 AEKFID  312 (568)
+T ss_dssp             HHHCCC
+T ss_pred             chhhHh
+
+
+No 3
+>2K5C_A uncharacterized protein PF0385; pf0385, Structural Genomics, PSI-2, Protein; HET: ZN; NMR {Pyrococcus furiosus}
+Probab=14.64  E-value=1.7e+02  Score=13.16  Aligned_cols=6  Identities=67%  Similarity=1.149  Sum_probs=0.0  Template_Neff=1.800
+
+Q AEKLFD            1 AEKLFD    6 (6)
+Q Consensus         1 aeklfd    6 (6)
+                      |||.|+
+T Consensus        71 AeKVFE   76 (95)
+T 2K5C_A           71 AEKVFE   76 (95)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 4
+>3DO6_B Formate--tetrahydrofolate ligase (E.C.6.3.4.3); TM1766, Putative Formyltetrahydrofolate Synthetase, Structural; HET: MSE, EDO; 1.85A {Thermotoga maritima}
+Probab=14.48  E-value=1.7e+02  Score=15.08  Aligned_cols=6  Identities=67%  Similarity=0.938  Sum_probs=0.0  Template_Neff=5.700
+
+Q AEKLFD            1 AEKLFD    6 (6)
+Q Consensus         1 aeklfd    6 (6)
+                      |||.||
+T Consensus       296 ~eKf~d  301 (543)
+T 3DO6_B          296 AEKFID  301 (543)
+T ss_dssp             CHHCCC
+T ss_pred             hHHHHh
+
+
+No 5
+>7C11_P Formate--tetrahydrofolate ligase (E.C.6.3.4.3); Formate assimilation, Methylobacterium extorquens CM4; HET: FLC, TLA; 2.815A {Methylorubrum extorquens (strain CM4 / NCIMB 13688)}
+Probab=14.45  E-value=1.7e+02  Score=15.12  Aligned_cols=6  Identities=67%  Similarity=0.938  Sum_probs=0.0  Template_Neff=5.800
+
+Q AEKLFD            1 AEKLFD    6 (6)
+Q Consensus         1 aeklfd    6 (6)
+                      |||.||
+T Consensus       307 ~eKf~d  312 (568)
+T 7C11_P          307 AEKFID  312 (568)
+T ss_dssp             CHHCCC
+T ss_pred             cHHhHh
+
+
+No 6
+>2K85_A Glucocorticoid receptor DNA-binding factor 1; FF domain, p190-A RhoGAP, protein; NMR {Homo sapiens}
+Probab=14.35  E-value=1.7e+02  Score=10.11  Aligned_cols=6  Identities=67%  Similarity=0.766  Sum_probs=0.0  Template_Neff=8.100
+
+Q AEKLFD            1 AEKLFD    6 (6)
+Q Consensus         1 aeklfd    6 (6)
+                      ++++|.
+T Consensus        55 ~~~lF~   60 (69)
+T 2K85_A           55 AKKLFL   60 (69)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 7
+>2K1H_A Uncharacterized protein SeR13; Structural genomics, unknown function, PSI-2; NMR {Staphylococcus epidermidis}
+Probab=13.43  E-value=1.9e+02  Score=11.41  Aligned_cols=6  Identities=33%  Similarity=0.916  Sum_probs=0.0  Template_Neff=6.300
+
+Q AEKLFD            1 AEKLFD    6 (6)
+Q Consensus         1 aeklfd    6 (6)
+                      |++||+
+T Consensus        42 A~~Lf~   47 (94)
+T 2K1H_A           42 INRLFE   47 (94)
+T ss_dssp             HHHHHT
+T ss_pred             HHHHhc
+
+
+No 8
+>5A4J_A FORMATE--TETRAHYDROFOLATE LIGASE (E.C.6.3.4.3); LIGASE, PROTEIN; HET: GOL, PEG, TAR, EDO; 2.15A {TEPIDANAEROBACTER ACETATOXYDANS}
+Probab=12.92  E-value=2e+02  Score=15.21  Aligned_cols=6  Identities=67%  Similarity=0.994  Sum_probs=0.0  Template_Neff=5.000
+
+Q AEKLFD            1 AEKLFD    6 (6)
+Q Consensus         1 aeklfd    6 (6)
+                      |||.||
+T Consensus       309 aEKf~d  314 (559)
+T 5A4J_A          309 AEKFLD  314 (559)
+T ss_dssp             CHHCCC
+T ss_pred             chhhHh
+
+
+No 9
+>6YLG_t Probable metalloprotease ARX1, rRNA-processing protein; pre-60S, Biogenesis, LSU, Large subunit; HET: GTP; 3.0A {Saccharomyces cerevisiae}
+Probab=12.73  E-value=2e+02  Score=15.51  Aligned_cols=6  Identities=83%  Similarity=1.149  Sum_probs=0.0  Template_Neff=5.600
+
+Q AEKLFD            1 AEKLFD    6 (6)
+Q Consensus         1 aeklfd    6 (6)
+                      ||+||.
+T Consensus       343 AEkLf~  348 (767)
+T 6YLG_t          343 AEKLFK  348 (767)
+T ss_pred             HHHHHH
+
+
+No 10
+>5A4J_C FORMATE--TETRAHYDROFOLATE LIGASE (E.C.6.3.4.3); LIGASE, PROTEIN; HET: PEG, GOL, TAR, EDO; 2.15A {TEPIDANAEROBACTER ACETATOXYDANS}
+Probab=12.41  E-value=2.1e+02  Score=15.13  Aligned_cols=6  Identities=67%  Similarity=0.994  Sum_probs=0.0  Template_Neff=5.000
+
+Q AEKLFD            1 AEKLFD    6 (6)
+Q Consensus         1 aeklfd    6 (6)
+                      |||.||
+T Consensus       309 ~EKf~d  314 (559)
+T 5A4J_C          309 AEKFLD  314 (559)
+T ss_dssp             CHHCCC
+T ss_pred             chHhHh
+
+

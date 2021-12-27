@@ -1,0 +1,155 @@
+Query         PKIQVY
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 05:49:11 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/PKIQVY/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/PKIQVY/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 1DP3_A DNA BINDING DOMAIN OF T  70.1     3.6   4E-05   16.0   0.0    6    1-6       1-6   (55)
+  2 4QPO_A Relaxosome protein TraM  67.2     4.6 5.1E-05   15.7   0.0    6    1-6       1-6   (53)
+  3 3OMY_A TraM; DNA binding prote  67.0     4.7 5.2E-05   15.8   0.0    6    1-6       2-7   (52)
+  4 3ON0_B TraM/DNA complex; DNA b  55.7      10 0.00011   16.3   0.0    6    1-6       2-7   (127)
+  5 3ON0_A TraM/DNA complex; DNA b  52.7      13 0.00014   16.1   0.0    6    1-6       2-7   (127)
+  6 4BL0_B CELL CYCLE ARREST PROTE  51.8      13 0.00015   14.0   0.0    6    1-6       6-11  (75)
+  7 2XB2_U EUKARYOTIC INITIATION F  21.2      93   0.001   12.8   0.0    6    1-6      14-19  (60)
+  8 2XB2_G EUKARYOTIC INITIATION F  21.1      93   0.001   12.8   0.0    6    1-6      14-19  (60)
+  9 2WP0_D HOBA, CHROMOSOMAL REPLI  18.5 1.2E+02  0.0013   13.9   0.0    5    1-5      91-95  (112)
+ 10 6QT9_Y ORF 25, ORF 24, ORF; eu  18.0 1.2E+02  0.0013   14.3   0.0    5    1-5     128-132 (135)
+
+No 1
+>1DP3_A DNA BINDING DOMAIN OF THE; helix-loop-helix, DNA BINDING PROTEIN; NMR {Escherichia coli} SCOP: a.55.1.2
+Probab=70.10  E-value=3.6  Score=16.02  Aligned_cols=6  Identities=50%  Similarity=0.955  Sum_probs=4.5  Template_Neff=4.000
+
+Q PKIQVY            1 PKIQVY    6 (6)
+Q Consensus         1 pkiqvy    6 (6)
+                      |++|+|
+T Consensus         1 ~ri~iY    6 (55)
+T 1DP3_A            1 AKVQAY    6 (55)
+T ss_dssp             CCCSSC
+T ss_pred             Ccccce
+Confidence            678876
+
+
+No 2
+>4QPO_A Relaxosome protein TraM; RHH Domain, DNA Binding, TRANSCRIPTION; HET: PO4; 1.999A {Escherichia coli}
+Probab=67.22  E-value=4.6  Score=15.74  Aligned_cols=6  Identities=33%  Similarity=0.938  Sum_probs=4.4  Template_Neff=3.800
+
+Q PKIQVY            1 PKIQVY    6 (6)
+Q Consensus         1 pkiqvy    6 (6)
+                      |+||+|
+T Consensus         1 ~ri~iY    6 (53)
+T 4QPO_A            1 AKVNLY    6 (53)
+T ss_dssp             CEEEEE
+T ss_pred             Ccceee
+Confidence            577776
+
+
+No 3
+>3OMY_A TraM; DNA binding protein, dimer, bacterial; 1.3A {Escherichia coli}
+Probab=67.00  E-value=4.7  Score=15.76  Aligned_cols=6  Identities=83%  Similarity=1.403  Sum_probs=4.4  Template_Neff=3.600
+
+Q PKIQVY            1 PKIQVY    6 (6)
+Q Consensus         1 pkiqvy    6 (6)
+                      |+||+|
+T Consensus         2 ~ri~iY    7 (52)
+T 3OMY_A            2 PKIQTY    7 (52)
+T ss_dssp             CCCCCC
+T ss_pred             Ccceee
+Confidence            577876
+
+
+No 4
+>3ON0_B TraM/DNA complex; DNA binding protein, DNA Protein-DNA; 2.874A {Escherichia coli}
+Probab=55.73  E-value=10  Score=16.30  Aligned_cols=6  Identities=83%  Similarity=1.403  Sum_probs=4.5  Template_Neff=4.800
+
+Q PKIQVY            1 PKIQVY    6 (6)
+Q Consensus         1 pkiqvy    6 (6)
+                      |+||||
+T Consensus         2 ~ri~iy    7 (127)
+T 3ON0_B            2 PKIQTY    7 (127)
+T ss_dssp             CEEEEE
+T ss_pred             Cceeee
+Confidence            678887
+
+
+No 5
+>3ON0_A TraM/DNA complex; DNA binding protein, DNA Protein-DNA; 2.874A {Escherichia coli}
+Probab=52.66  E-value=13  Score=16.10  Aligned_cols=6  Identities=83%  Similarity=1.403  Sum_probs=4.5  Template_Neff=4.700
+
+Q PKIQVY            1 PKIQVY    6 (6)
+Q Consensus         1 pkiqvy    6 (6)
+                      |+||+|
+T Consensus         2 ~r~~iy    7 (127)
+T 3ON0_A            2 PKIQTY    7 (127)
+T ss_dssp             CEEEEE
+T ss_pred             Ccceee
+Confidence            678877
+
+
+No 6
+>4BL0_B CELL CYCLE ARREST PROTEIN BUB3; CELL CYCLE, BUBR1, MAD3, RAE1; HET: TPO; 1.95A {SACCHAROMYCES CEREVISIAE}
+Probab=51.75  E-value=13  Score=14.01  Aligned_cols=6  Identities=33%  Similarity=0.728  Sum_probs=0.0  Template_Neff=6.400
+
+Q PKIQVY            1 PKIQVY    6 (6)
+Q Consensus         1 pkiqvy    6 (6)
+                      |||+||
+T Consensus         6 ~k~~vf   11 (75)
+T 4BL0_B            6 KKTSIY   11 (75)
+T ss_dssp             ------
+T ss_pred             Cceeee
+Confidence            456654
+
+
+No 7
+>2XB2_U EUKARYOTIC INITIATION FACTOR 4A-III (E.C.3.6.1.-); EXON JUNCTION COMPLEX, NONSENSE-MEDIATED MRNA; HET: ANP; 3.4A {HOMO SAPIENS}
+Probab=21.17  E-value=93  Score=12.84  Aligned_cols=6  Identities=50%  Similarity=1.220  Sum_probs=3.1  Template_Neff=2.600
+
+Q PKIQVY            1 PKIQVY    6 (6)
+Q Consensus         1 pkiqvy    6 (6)
+                      |++|+|
+T Consensus        14 p~~qlY   19 (60)
+T 2XB2_U           14 PAMQLY   19 (60)
+T ss_pred             cchhhc
+Confidence            445554
+
+
+No 8
+>2XB2_G EUKARYOTIC INITIATION FACTOR 4A-III (E.C.3.6.1.-); EXON JUNCTION COMPLEX, NONSENSE-MEDIATED MRNA; HET: ANP; 3.4A {HOMO SAPIENS}
+Probab=21.13  E-value=93  Score=12.80  Aligned_cols=6  Identities=50%  Similarity=1.220  Sum_probs=3.1  Template_Neff=2.700
+
+Q PKIQVY            1 PKIQVY    6 (6)
+Q Consensus         1 pkiqvy    6 (6)
+                      |++|+|
+T Consensus        14 p~mqlY   19 (60)
+T 2XB2_G           14 PAMQLY   19 (60)
+T ss_pred             chhhhc
+Confidence            445554
+
+
+No 9
+>2WP0_D HOBA, CHROMOSOMAL REPLICATION INITIATOR PROTEIN; DNA BINDING PROTEIN, NUCLEOTIDE-BINDING, DNA; HET: NA, GOL; 2.67A {HELICOBACTER PYLORI}
+Probab=18.52  E-value=1.2e+02  Score=13.94  Aligned_cols=5  Identities=80%  Similarity=1.371  Sum_probs=0.0  Template_Neff=1.000
+
+Q PKIQVY            1 PKIQV    5 (6)
+Q Consensus         1 pkiqv    5 (6)
+                      ||||+
+T Consensus        91 pkiqi   95 (112)
+T 2WP0_D           91 PKIQI   95 (112)
+T ss_dssp             C----
+T ss_pred             Cceee
+
+
+No 10
+>6QT9_Y ORF 25, ORF 24, ORF; euryarcheal virus, SH1, VIRUS; 3.8A {Haloarcula hispanica virus SH1}
+Probab=17.97  E-value=1.2e+02  Score=14.25  Aligned_cols=5  Identities=60%  Similarity=1.085  Sum_probs=0.0  Template_Neff=1.300
+
+Q PKIQVY            1 PKIQV    5 (6)
+Q Consensus         1 pkiqv    5 (6)
+                      |+|||
+T Consensus       128 P~I~i  132 (135)
+T 6QT9_Y          128 PGIQI  132 (135)
+T ss_pred             CCeeE
+
+

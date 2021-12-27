@@ -1,0 +1,150 @@
+Query         MIENIQ
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 21:47:28 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/MIENIQ/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/MIENIQ/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 7KTR_D coactivator, gene regul  23.5      78 0.00087   14.8   0.0    6    1-6      30-35  (704)
+  2 4H62_K Mediator of RNA polymer  19.7   1E+02  0.0012   11.8   0.0    4    1-5       4-7   (40)
+  3 2X48_B CAG38821; ARCHEAL VIRUS  19.5 1.1E+02  0.0012    8.6   0.0    6    1-6       1-6   (55)
+  4 2NUT_C Protein transport prote  18.8 1.1E+02  0.0012   11.8   0.0    6    1-6     150-155 (196)
+  5 5VZT_B S-phase kinase-associat  18.8 1.1E+02  0.0012   15.4   0.0    6    1-6     479-484 (488)
+  6 5VZU_B S-phase kinase-associat  18.8 1.1E+02  0.0012   15.4   0.0    6    1-6     479-484 (488)
+  7 4WY4_A Human Vamp 8 (10-74), H  18.2 1.2E+02  0.0013   10.1   0.0    6    1-6      17-22  (64)
+  8 3NNQ_A N-terminal domain of Mo  17.9 1.2E+02  0.0014   10.9   0.0    5    1-5       1-5   (114)
+  9 6J7F_C Protein prenyltransfera  17.4 1.3E+02  0.0014   11.7   0.0    6    1-6     153-158 (195)
+ 10 2UY1_A CLEAVAGE STIMULATION FA  17.3 1.3E+02  0.0014   11.9   0.0    6    1-6     488-493 (493)
+
+No 1
+>7KTR_D coactivator, gene regulation, transcription, chromatin; HET: IHP;{Homo sapiens}
+Probab=23.46  E-value=78  Score=14.78  Aligned_cols=6  Identities=50%  Similarity=0.490  Sum_probs=2.8  Template_Neff=9.300
+
+Q MIENIQ            1 MIENIQ    6 (6)
+Q Consensus         1 mieniq    6 (6)
+                      ||+|||
+T Consensus        30 ~i~liq   35 (704)
+T 7KTR_D           30 TIQLIQ   35 (704)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            345554
+
+
+No 2
+>4H62_K Mediator of RNA polymerase II; TRANSCRIPTION, MEDIATOR COMPLEX, NUCLEUS; HET: MES; 3.0A {Saccharomyces cerevisiae}
+Probab=19.75  E-value=1e+02  Score=11.83  Aligned_cols=4  Identities=75%  Similarity=1.265  Sum_probs=0.0  Template_Neff=2.800
+
+Q MIENIQ            1 MIENI    5 (6)
+Q Consensus         1 mieni    5 (6)
+                      || ||
+T Consensus         4 ~I-nV    7 (40)
+T 4H62_K            4 MI-NV    7 (40)
+T ss_pred             cc-cc
+
+
+No 3
+>2X48_B CAG38821; ARCHEAL VIRUS, VIRAL PROTEIN; 2.6A {SULFOLOBUS ISLANDICUS ROD-SHAPED VIRUS 1}
+Probab=19.46  E-value=1.1e+02  Score=8.62  Aligned_cols=6  Identities=50%  Similarity=0.612  Sum_probs=0.0  Template_Neff=11.100
+
+Q MIENIQ            1 MIENIQ    6 (6)
+Q Consensus         1 mieniq    6 (6)
+                      |++.++
+T Consensus         1 ~~~~~~    6 (55)
+T 2X48_B            1 MKKEIQ    6 (55)
+T ss_dssp             CCEEEE
+T ss_pred             CCcccc
+
+
+No 4
+>2NUT_C Protein transport protein Sec23A, Protein; Human COPII Sec23-24 complexed with; 2.3A {Homo sapiens}
+Probab=18.85  E-value=1.1e+02  Score=11.81  Aligned_cols=6  Identities=50%  Similarity=0.938  Sum_probs=0.0  Template_Neff=9.500
+
+Q MIENIQ            1 MIENIQ    6 (6)
+Q Consensus         1 mieniq    6 (6)
+                      |.+||.
+T Consensus       150 m~~ni~  155 (196)
+T 2NUT_C          150 MVANIE  155 (196)
+T ss_dssp             CEEEHH
+T ss_pred             HHHHHH
+
+
+No 5
+>5VZT_B S-phase kinase-associated protein 1, F-box; ubiquitin ligase, CELL CYCLE; HET: PO4, DTT; 2.7A {Homo sapiens}
+Probab=18.82  E-value=1.1e+02  Score=15.40  Aligned_cols=6  Identities=67%  Similarity=1.043  Sum_probs=0.0  Template_Neff=5.800
+
+Q MIENIQ            1 MIENIQ    6 (6)
+Q Consensus         1 mieniq    6 (6)
+                      |+.|||
+T Consensus       479 ~~~~~~  484 (488)
+T 5VZT_B          479 MLKNIQ  484 (488)
+T ss_dssp             HHHHHH
+T ss_pred             HHHhcc
+
+
+No 6
+>5VZU_B S-phase kinase-associated protein 1, F-box; ubiquitin ligase, CELL CYCLE; HET: PO4; 2.7A {Homo sapiens}
+Probab=18.82  E-value=1.1e+02  Score=15.40  Aligned_cols=6  Identities=67%  Similarity=1.043  Sum_probs=0.0  Template_Neff=5.800
+
+Q MIENIQ            1 MIENIQ    6 (6)
+Q Consensus         1 mieniq    6 (6)
+                      |+.|||
+T Consensus       479 ~~~~~~  484 (488)
+T 5VZU_B          479 MLKNIQ  484 (488)
+T ss_dssp             HHHHHH
+T ss_pred             HHHhcc
+
+
+No 7
+>4WY4_A Human Vamp 8 (10-74), Human; autophagy, SNARE, fusion; 1.4A {Homo sapiens}
+Probab=18.16  E-value=1.2e+02  Score=10.11  Aligned_cols=6  Identities=33%  Similarity=0.778  Sum_probs=0.0  Template_Neff=8.600
+
+Q MIENIQ            1 MIENIQ    6 (6)
+Q Consensus         1 mieniq    6 (6)
+                      |.+||.
+T Consensus        17 m~~ni~   22 (64)
+T 4WY4_A           17 MTQNVE   22 (64)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 8
+>3NNQ_A N-terminal domain of Moloney murine; retroviral integrase, Zn finger, Moloney; HET: MSE; 2.693A {Moloney murine leukemia virus}
+Probab=17.86  E-value=1.2e+02  Score=10.92  Aligned_cols=5  Identities=80%  Similarity=0.926  Sum_probs=0.0  Template_Neff=9.100
+
+Q MIENIQ            1 MIENI    5 (6)
+Q Consensus         1 mieni    5 (6)
+                      ||||.
+T Consensus         1 ~~~~~    5 (114)
+T 3NNQ_A            1 MIENS    5 (114)
+T ss_dssp             -----
+T ss_pred             CCCCC
+
+
+No 9
+>6J7F_C Protein prenyltransferase alpha subunit repeat-containing; lipid transferase, LIPID BINDING PROTEIN; HET: TLA, FAR, GER; 2.883A {Homo sapiens}
+Probab=17.42  E-value=1.3e+02  Score=11.71  Aligned_cols=6  Identities=0%  Similarity=0.346  Sum_probs=0.0  Template_Neff=9.400
+
+Q MIENIQ            1 MIENIQ    6 (6)
+Q Consensus         1 mieniq    6 (6)
+                      |.+||.
+T Consensus       153 m~~ni~  158 (195)
+T 6J7F_C          153 LHNTME  158 (195)
+T ss_dssp             EESSTT
+T ss_pred             HHHHHH
+
+
+No 10
+>2UY1_A CLEAVAGE STIMULATION FACTOR 77; RNA-BINDING PROTEIN; 2.0A {ENCEPHALITOZOON CUNICULI}
+Probab=17.31  E-value=1.3e+02  Score=11.86  Aligned_cols=6  Identities=17%  Similarity=0.750  Sum_probs=0.0  Template_Neff=12.300
+
+Q MIENIQ            1 MIENIQ    6 (6)
+Q Consensus         1 mieniq    6 (6)
+                      |++++|
+T Consensus       488 ~~~~~~  493 (493)
+T 2UY1_A          488 LLKSVQ  493 (493)
+T ss_dssp             ------
+T ss_pred             HHHhcC
+
+

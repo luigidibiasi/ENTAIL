@@ -1,0 +1,149 @@
+Query         MGGGMN
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 21:34:56 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/MGGGMN/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/MGGGMN/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5NSS_J DNA-directed RNA polyme  19.8   1E+02  0.0011   11.3   0.0    6    1-6       1-6   (295)
+  2 5H75_D Mersacidin decarboxylas  19.8   1E+02  0.0011   13.6   0.0    5    2-6       3-7   (238)
+  3 2N2C_A TAR DNA-binding protein  18.6 1.2E+02  0.0013   11.7   0.0    6    1-6       1-6   (43)
+  4 6BXS_B Mitochondrial Associati  18.1 1.2E+02  0.0013   15.2   0.0    5    2-6      59-63  (281)
+  5 6YVG_A MesI (Lpg2505); PROTEIN  17.9 1.2E+02  0.0014   15.0   0.0    5    1-5       3-7   (301)
+  6 5G1X_A AURORA KINASE A (E.C.2.  17.5 1.3E+02  0.0014   11.4   0.0    4    3-6       1-4   (285)
+  7 6O09_F Proliferating cellular   17.5 1.3E+02  0.0014   12.7   0.0    5    1-5      30-34  (312)
+  8 6BXS_A Mitochondrial Associati  17.2 1.3E+02  0.0014   15.1   0.0    5    2-6      59-63  (281)
+  9 6KI3_B Probable AP endonucleas  17.0 1.3E+02  0.0015   12.4   0.0    4    2-5       3-6   (301)
+ 10 4ETR_B Putative uncharacterize  16.6 1.4E+02  0.0015   10.1   0.0    5    2-6       1-5   (153)
+
+No 1
+>5NSS_J DNA-directed RNA polymerase subunit alpha; transcription initiation, transcription intermediate complex;{Escherichia coli K-12}
+Probab=19.84  E-value=1e+02  Score=11.32  Aligned_cols=6  Identities=33%  Similarity=0.645  Sum_probs=0.0  Template_Neff=12.000
+
+Q MGGGMN            1 MGGGMN    6 (6)
+Q Consensus         1 mgggmn    6 (6)
+                      |||+-|
+T Consensus         1 ~~~~~~    6 (295)
+T 5NSS_J            1 MGSSHH    6 (295)
+T ss_dssp             ------
+T ss_pred             CCCCcc
+
+
+No 2
+>5H75_D Mersacidin decarboxylase,Immunoglobulin G-binding protein A; synthetic protein, LYASE; HET: FAD; 2.738A {Bacillus sp. (strain HIL-Y85/54728)}
+Probab=19.81  E-value=1e+02  Score=13.56  Aligned_cols=5  Identities=60%  Similarity=1.145  Sum_probs=0.0  Template_Neff=7.000
+
+Q MGGGMN            2 GGGMN    6 (6)
+Q Consensus         2 gggmn    6 (6)
+                      ||||+
+T Consensus         3 ~~~~~    7 (238)
+T 5H75_D            3 GGGGS    7 (238)
+T ss_dssp             -CCST
+T ss_pred             CCccc
+
+
+No 3
+>2N2C_A TAR DNA-binding protein 43; ALS, prion-like domain, hydrophobic helices; NMR {Homo sapiens}
+Probab=18.60  E-value=1.2e+02  Score=11.71  Aligned_cols=6  Identities=100%  Similarity=1.786  Sum_probs=0.0  Template_Neff=3.300
+
+Q MGGGMN            1 MGGGMN    6 (6)
+Q Consensus         1 mgggmn    6 (6)
+                      ||+++|
+T Consensus         1 ~g~~~n    6 (43)
+T 2N2C_A            1 MGGGMN    6 (43)
+T ss_dssp             CCSCCS
+T ss_pred             CCCccc
+
+
+No 4
+>6BXS_B Mitochondrial Association Factor 1 A; macro domain, ADPribose, neofunctionalize, MEMBRANE; HET: SO4; 2.1A {Toxoplasma gondii}
+Probab=18.13  E-value=1.2e+02  Score=15.15  Aligned_cols=5  Identities=80%  Similarity=1.199  Sum_probs=0.0  Template_Neff=3.700
+
+Q MGGGMN            2 GGGMN    6 (6)
+Q Consensus         2 gggmn    6 (6)
+                      |+|||
+T Consensus        59 G~GiN   63 (281)
+T 6BXS_B           59 GVGMN   63 (281)
+T ss_dssp             SSHHH
+T ss_pred             Ccchh
+
+
+No 5
+>6YVG_A MesI (Lpg2505); PROTEIN BINDING; 2.2A {Legionella pneumophila subsp. pneumophila (strain Philadelphia 1 / ATCC 33152 / DSM 7513)}
+Probab=17.89  E-value=1.2e+02  Score=15.02  Aligned_cols=5  Identities=80%  Similarity=1.478  Sum_probs=0.0  Template_Neff=4.300
+
+Q MGGGMN            1 MGGGM    5 (6)
+Q Consensus         1 mgggm    5 (6)
+                      |||.|
+T Consensus         3 ~~~~~    7 (301)
+T 6YVG_A            3 MGGSM    7 (301)
+T ss_dssp             -----
+T ss_pred             cccch
+
+
+No 6
+>5G1X_A AURORA KINASE A (E.C.2.7.11.1), N-MYC; TRANSFERASE, AURORA, AURORA-A, KINASE, N-MYC; HET: ADP, TPO; 1.72A {HOMO SAPIENS}
+Probab=17.53  E-value=1.3e+02  Score=11.42  Aligned_cols=4  Identities=50%  Similarity=1.024  Sum_probs=0.0  Template_Neff=11.300
+
+Q MGGGMN            3 GGMN    6 (6)
+Q Consensus         3 ggmn    6 (6)
+                      |||+
+T Consensus         1 ~~~~    4 (285)
+T 5G1X_A            1 GAME    4 (285)
+T ss_dssp             ----
+T ss_pred             Cccc
+
+
+No 7
+>6O09_F Proliferating cellular nuclear antigen 1; histone, methylation, nucleosome, PCNA, PIP; 2.06A {Arabidopsis thaliana}
+Probab=17.49  E-value=1.3e+02  Score=12.75  Aligned_cols=5  Identities=60%  Similarity=1.006  Sum_probs=0.0  Template_Neff=9.100
+
+Q MGGGMN            1 MGGGM    5 (6)
+Q Consensus         1 mgggm    5 (6)
+                      ||+||
+T Consensus        30 ~~~~~   34 (312)
+T 6O09_F           30 MGRGS   34 (312)
+T ss_pred             ccccc
+
+
+No 8
+>6BXS_A Mitochondrial Association Factor 1 A; macro domain, ADPribose, neofunctionalize, MEMBRANE; HET: SO4; 2.1A {Toxoplasma gondii}
+Probab=17.20  E-value=1.3e+02  Score=15.08  Aligned_cols=5  Identities=80%  Similarity=1.199  Sum_probs=0.0  Template_Neff=3.600
+
+Q MGGGMN            2 GGGMN    6 (6)
+Q Consensus         2 gggmn    6 (6)
+                      |+|||
+T Consensus        59 G~GiN   63 (281)
+T 6BXS_A           59 GVGMN   63 (281)
+T ss_dssp             SSHHH
+T ss_pred             Ccchh
+
+
+No 9
+>6KI3_B Probable AP endonuclease/DNA Complex; EndonucleaseIV, ASFV, DNA BINDING PROTEIN-DNA; HET: 3DR; 2.354A {African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996)}
+Probab=16.99  E-value=1.3e+02  Score=12.42  Aligned_cols=4  Identities=100%  Similarity=2.004  Sum_probs=0.0  Template_Neff=9.500
+
+Q MGGGMN            2 GGGM    5 (6)
+Q Consensus         2 gggm    5 (6)
+                      ||||
+T Consensus         3 ~~~~    6 (301)
+T 6KI3_B            3 GGGM    6 (301)
+T ss_dssp             CCCE
+T ss_pred             Cccc
+
+
+No 10
+>4ETR_B Putative uncharacterized protein; DUF2383, domain of unknown function; 2.25A {Pseudomonas aeruginosa}
+Probab=16.56  E-value=1.4e+02  Score=10.13  Aligned_cols=5  Identities=60%  Similarity=0.913  Sum_probs=0.0  Template_Neff=11.400
+
+Q MGGGMN            2 GGGMN    6 (6)
+Q Consensus         2 gggmn    6 (6)
+                      |.+|+
+T Consensus         1 ~~~~~    5 (153)
+T 4ETR_B            1 GSHMN    5 (153)
+T ss_dssp             -----
+T ss_pred             CCccc
+
+

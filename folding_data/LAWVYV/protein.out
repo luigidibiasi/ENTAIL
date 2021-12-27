@@ -1,0 +1,150 @@
+Query         LAWVYV
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 17:34:09 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LAWVYV/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LAWVYV/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3EBN_B Replicase polyprotein 1  19.9   1E+02  0.0011   13.7   0.0    5    1-5      17-21  (118)
+  2 6DIE_B Tdp1 catalytic domain (  19.2 1.1E+02  0.0012   14.3   0.0    6    1-6     360-365 (461)
+  3 6N0D_A Receptor-type tyrosine-  19.2 1.1E+02  0.0012   14.3   0.0    6    1-6     360-365 (461)
+  4 6N0N_A Receptor-type tyrosine-  19.2 1.1E+02  0.0012   14.3   0.0    6    1-6     360-365 (461)
+  5 2JQV_A AIG2 protein-like; At3g  18.8 1.1E+02  0.0013   12.0   0.0    5    2-6     104-108 (165)
+  6 5TOD_D Transmembrane protein 2  18.4 1.2E+02  0.0013   13.5   0.0    5    1-5      18-22  (189)
+  7 1J77_A heme oxygenase (E.C.1.1  17.6 1.3E+02  0.0014   11.9   0.0    6    1-6     108-113 (209)
+  8 3CRY_B enzyme, cyclotransferas  17.4 1.3E+02  0.0014   11.6   0.0    5    2-6     122-126 (188)
+  9 7CKA_A Heme oxygenase 1 (E.C.1  16.6 1.4E+02  0.0015   12.2   0.0    6    1-6     140-145 (226)
+ 10 4WMH_A Human Heme Oxygenase (E  16.2 1.4E+02  0.0016   11.3   0.0    6    1-6     120-125 (207)
+
+No 1
+>3EBN_B Replicase polyprotein 1ab; SARS, coronavirus, main protease, dimerization; 2.4A {SARS coronavirus}
+Probab=19.89  E-value=1e+02  Score=13.72  Aligned_cols=5  Identities=80%  Similarity=2.009  Sum_probs=0.0  Template_Neff=3.600
+
+Q LAWVYV            1 LAWVY    5 (6)
+Q Consensus         1 lawvy    5 (6)
+                      +||.|
+T Consensus        17 vA~LY   21 (118)
+T 3EBN_B           17 LAWLY   21 (118)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 2
+>6DIE_B Tdp1 catalytic domain (residues 149-609); fragment-based drug design, hydrolase-hydrolase inhibitor; HET: EDO, GHM; 1.78A {Homo sapiens}
+Probab=19.18  E-value=1.1e+02  Score=14.34  Aligned_cols=6  Identities=50%  Similarity=1.270  Sum_probs=0.0  Template_Neff=7.800
+
+Q LAWVYV            1 LAWVYV    6 (6)
+Q Consensus         1 lawvyv    6 (6)
+                      ++|+|+
+T Consensus       360 ~~W~y~  365 (461)
+T 6DIE_B          360 IAWFLV  365 (461)
+T ss_dssp             EEEEEE
+T ss_pred             ceEEEE
+
+
+No 3
+>6N0D_A Receptor-type tyrosine-protein phosphatase epsilon (E.C.3.1.3.48); fragment based drug design, anti-cancer; HET: K8J; 1.453A {Homo sapiens}
+Probab=19.18  E-value=1.1e+02  Score=14.34  Aligned_cols=6  Identities=50%  Similarity=1.270  Sum_probs=0.0  Template_Neff=7.800
+
+Q LAWVYV            1 LAWVYV    6 (6)
+Q Consensus         1 lawvyv    6 (6)
+                      ++|+|+
+T Consensus       360 ~~W~y~  365 (461)
+T 6N0D_A          360 IAWFLV  365 (461)
+T ss_dssp             EEEEEE
+T ss_pred             ceEEEE
+
+
+No 4
+>6N0N_A Receptor-type tyrosine-protein phosphatase epsilon (E.C.3.1.3.48); fragment based drug design, anti-cancer; HET: KAY, EDO; 1.477A {Homo sapiens}
+Probab=19.18  E-value=1.1e+02  Score=14.34  Aligned_cols=6  Identities=50%  Similarity=1.270  Sum_probs=0.0  Template_Neff=7.800
+
+Q LAWVYV            1 LAWVYV    6 (6)
+Q Consensus         1 lawvyv    6 (6)
+                      ++|+|+
+T Consensus       360 ~~W~y~  365 (461)
+T 6N0N_A          360 IAWFLV  365 (461)
+T ss_dssp             EEEEEE
+T ss_pred             ceEEEE
+
+
+No 5
+>2JQV_A AIG2 protein-like; At3g28950.1, Structural Genomics, Protein Structure; NMR {Arabidopsis thaliana}
+Probab=18.76  E-value=1.1e+02  Score=11.95  Aligned_cols=5  Identities=40%  Similarity=0.468  Sum_probs=0.0  Template_Neff=8.600
+
+Q LAWVYV            2 AWVYV    6 (6)
+Q Consensus         2 awvyv    6 (6)
+                      ||+|+
+T Consensus       104 a~~Yv  108 (165)
+T 2JQV_A          104 VETYV  108 (165)
+T ss_dssp             EEEEE
+T ss_pred             EEEEE
+
+
+No 6
+>5TOD_D Transmembrane protein 24; lipid transfer protein, SMP, membrane; HET: MSE; 2.96A {Homo sapiens}
+Probab=18.42  E-value=1.2e+02  Score=13.45  Aligned_cols=5  Identities=40%  Similarity=0.666  Sum_probs=0.0  Template_Neff=6.000
+
+Q LAWVYV            1 LAWVY    5 (6)
+Q Consensus         1 lawvy    5 (6)
+                      |+|+|
+T Consensus        18 L~Wl~   22 (189)
+T 5TOD_D           18 LASLF   22 (189)
+T ss_dssp             -----
+T ss_pred             HHHHH
+
+
+No 7
+>1J77_A heme oxygenase (E.C.1.14.99.3); proximal histidine, distal helix, OXIDOREDUCTASE; HET: HEM; 1.5A {Neisseria meningitidis} SCOP: a.132.1.2
+Probab=17.56  E-value=1.3e+02  Score=11.91  Aligned_cols=6  Identities=33%  Similarity=1.503  Sum_probs=0.0  Template_Neff=9.300
+
+Q LAWVYV            1 LAWVYV    6 (6)
+Q Consensus         1 lawvyv    6 (6)
+                      ++++||
+T Consensus       108 lG~~Yv  113 (209)
+T 1J77_A          108 IGWLYC  113 (209)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 8
+>3CRY_B enzyme, cyclotransferase, gamma-glutamyl, oxoproline, TRANSFERASE; HET: ACT; 1.7A {Homo sapiens}
+Probab=17.35  E-value=1.3e+02  Score=11.64  Aligned_cols=5  Identities=20%  Similarity=0.501  Sum_probs=0.0  Template_Neff=9.400
+
+Q LAWVYV            2 AWVYV    6 (6)
+Q Consensus         2 awvyv    6 (6)
+                      ||+|+
+T Consensus       122 a~~y~  126 (188)
+T 3CRY_B          122 CRSYL  126 (188)
+T ss_dssp             EEEEE
+T ss_pred             EEEEE
+
+
+No 9
+>7CKA_A Heme oxygenase 1 (E.C.1.14.99.3); METAL BINDING PROTEIN, OXIDOREDUCTASE; HET: HEM, CIT; 1.06A {Glycine max}
+Probab=16.64  E-value=1.4e+02  Score=12.16  Aligned_cols=6  Identities=17%  Similarity=0.456  Sum_probs=0.0  Template_Neff=8.900
+
+Q LAWVYV            1 LAWVYV    6 (6)
+Q Consensus         1 lawvyv    6 (6)
+                      +++.||
+T Consensus       140 lG~~YV  145 (226)
+T 7CKA_A          140 ICHFYN  145 (226)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 10
+>4WMH_A Human Heme Oxygenase (E.C.1.14.99.3); HO2, Heme oxygenase, Oxygenase, Structural; 2.5A {Homo sapiens}
+Probab=16.22  E-value=1.4e+02  Score=11.33  Aligned_cols=6  Identities=33%  Similarity=0.628  Sum_probs=0.0  Template_Neff=10.100
+
+Q LAWVYV            1 LAWVYV    6 (6)
+Q Consensus         1 lawvyv    6 (6)
+                      |+++||
+T Consensus       120 lg~~yv  125 (207)
+T 4WMH_A          120 VAHAYT  125 (207)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+

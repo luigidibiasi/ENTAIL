@@ -1,0 +1,147 @@
+Query         GMFNIQ
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 01:46:49 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GMFNIQ/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GMFNIQ/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6IS2_D Response regulator ArlR  16.2 1.4E+02  0.0016    9.5   0.0    5    2-6       2-6   (128)
+  2 7AOI_Av bL28m, uL29m, uL30m, b  16.2 1.4E+02  0.0016   14.7   0.0    6    1-6       3-8   (197)
+  3 6YXY_Av bL28m, uL29m, uL30m, b  15.3 1.6E+02  0.0017   15.0   0.0    6    1-6      29-34  (242)
+  4 1QRE_A CARBONIC ANHYDRASE; BET  15.2 1.6E+02  0.0017   12.6   0.0    5    2-6       2-6   (247)
+  5 7AIH_Ag mL94, mL89, Ribosomal   14.9 1.6E+02  0.0018   14.9   0.0    6    1-6      30-35  (244)
+  6 2K24_A Putative uncharacterize  14.4 1.7E+02  0.0019   13.0   0.0    4    2-5       6-9   (110)
+  7 7KZW_A FTT_1639c; CSGID, Cente  13.7 1.8E+02   0.002   13.6   0.0    5    1-5      36-40  (131)
+  8 4JPB_W Chemotaxis protein CheA  12.9   2E+02  0.0022   10.5   0.0    6    1-6       1-6   (151)
+  9 5MW7_A Protein jagged-2; C2, E  12.9   2E+02  0.0022   12.1   0.0    6    1-6       2-7   (332)
+ 10 2MN7_A Sec-independent protein  12.3 2.1E+02  0.0024   11.7   0.0    4    2-5       1-4   (97)
+
+No 1
+>6IS2_D Response regulator ArlR; two-component regulatory system, SIGNALING PROTEIN; HET: EPE, IMD; 1.591A {Staphylococcus aureus (strain bovine RF122 / ET3-1)}
+Probab=16.22  E-value=1.4e+02  Score=9.50  Aligned_cols=5  Identities=0%  Similarity=-0.224  Sum_probs=0.0  Template_Neff=11.900
+
+Q GMFNIQ            2 MFNIQ    6 (6)
+Q Consensus         2 mfniq    6 (6)
+                      |||++
+T Consensus         2 ~~~~~    6 (128)
+T 6IS2_D            2 GHHHH    6 (128)
+T ss_dssp             -----
+T ss_pred             CCCCc
+
+
+No 2
+>7AOI_Av bL28m, uL29m, uL30m, bL32m, bL33m; mitochondria, translation, trypanosoma, assembly, evolution; HET: ADP, GTP, NAD, 4HH; 3.5A {Trypanosoma brucei}
+Probab=16.22  E-value=1.4e+02  Score=14.73  Aligned_cols=6  Identities=67%  Similarity=0.739  Sum_probs=0.0  Template_Neff=1.700
+
+Q GMFNIQ            1 GMFNIQ    6 (6)
+Q Consensus         1 gmfniq    6 (6)
+                      +|.|||
+T Consensus         3 ~mlni~    8 (197)
+T 7AOI_Av           3 MMLNIQ    8 (197)
+T ss_pred             Cccccc
+
+
+No 3
+>6YXY_Av bL28m, uL29m, uL30m, bL32m, bL35m; mitoribosome, assembly, LSU, RIBOSOME; HET: ATP, PM8, MG, SPD, NAD, GTP; 3.1A {Trypanosoma brucei brucei}
+Probab=15.33  E-value=1.6e+02  Score=14.99  Aligned_cols=6  Identities=67%  Similarity=0.739  Sum_probs=0.0  Template_Neff=1.700
+
+Q GMFNIQ            1 GMFNIQ    6 (6)
+Q Consensus         1 gmfniq    6 (6)
+                      +|.|||
+T Consensus        29 ~mlni~   34 (242)
+T 6YXY_Av          29 MMLNIQ   34 (242)
+T ss_pred             cccccc
+
+
+No 4
+>1QRE_A CARBONIC ANHYDRASE; BETA-HELIX, LYASE; 1.46A {Methanosarcina thermophila} SCOP: b.81.1.5
+Probab=15.25  E-value=1.6e+02  Score=12.57  Aligned_cols=5  Identities=80%  Similarity=1.045  Sum_probs=0.0  Template_Neff=8.100
+
+Q GMFNIQ            2 MFNIQ    6 (6)
+Q Consensus         2 mfniq    6 (6)
+                      |||-|
+T Consensus         2 ~~~~~    6 (247)
+T 1QRE_A            2 MFNKQ    6 (247)
+T ss_dssp             -----
+T ss_pred             Cccch
+
+
+No 5
+>7AIH_Ag mL94, mL89, Ribosomal protein L3-like; Ribosome, Mitochondria, Kinetoplastid; HET: NAD; 3.6A {Leishmania major}
+Probab=14.92  E-value=1.6e+02  Score=14.94  Aligned_cols=6  Identities=67%  Similarity=0.888  Sum_probs=0.0  Template_Neff=1.700
+
+Q GMFNIQ            1 GMFNIQ    6 (6)
+Q Consensus         1 gmfniq    6 (6)
+                      +|.|||
+T Consensus        30 ~mlni~   35 (244)
+T 7AIH_Ag          30 EMLNIQ   35 (244)
+T ss_pred             cccccc
+
+
+No 6
+>2K24_A Putative uncharacterized protein Ta0956; AUTOMATION, FAPSY, MOAD, MOLYBDOPTERIN, UNKNOWN; NMR {Thermoplasma acidophilum}
+Probab=14.41  E-value=1.7e+02  Score=13.01  Aligned_cols=4  Identities=75%  Similarity=1.431  Sum_probs=0.0  Template_Neff=3.400
+
+Q GMFNIQ            2 MFNI    5 (6)
+Q Consensus         2 mfni    5 (6)
+                      ||||
+T Consensus         6 myNI    9 (110)
+T 2K24_A            6 MYNI    9 (110)
+T ss_dssp             EEEE
+T ss_pred             eeee
+
+
+No 7
+>7KZW_A FTT_1639c; CSGID, Center for Structural Genomics; HET: MSE; 1.34A {Francisella tularensis subsp. tularensis (strain SCHU S4 / Schu 4)}
+Probab=13.73  E-value=1.8e+02  Score=13.63  Aligned_cols=5  Identities=80%  Similarity=1.590  Sum_probs=0.0  Template_Neff=1.800
+
+Q GMFNIQ            1 GMFNI    5 (6)
+Q Consensus         1 gmfni    5 (6)
+                      |||||
+T Consensus        36 gi~ni   40 (131)
+T 7KZW_A           36 GIFNI   40 (131)
+T ss_dssp             TCCCT
+T ss_pred             cceec
+
+
+No 8
+>4JPB_W Chemotaxis protein CheA (E.C.2.7.13.3), Chemotaxis; Ternary complex, Transmembrane Signaling Two; 3.186A {Thermotoga maritima}
+Probab=12.90  E-value=2e+02  Score=10.48  Aligned_cols=6  Identities=17%  Similarity=0.385  Sum_probs=0.0  Template_Neff=9.900
+
+Q GMFNIQ            1 GMFNIQ    6 (6)
+Q Consensus         1 gmfniq    6 (6)
+                      |||.++
+T Consensus         1 ~~~~~~    6 (151)
+T 4JPB_W            1 GSHMMK    6 (151)
+T ss_dssp             SCE---
+T ss_pred             Cccchh
+
+
+No 9
+>5MW7_A Protein jagged-2; C2, EGF, Notch, signaling, Signaling; HET: FUC; 2.8A {Homo sapiens}
+Probab=12.89  E-value=2e+02  Score=12.10  Aligned_cols=6  Identities=50%  Similarity=1.099  Sum_probs=0.0  Template_Neff=9.500
+
+Q GMFNIQ            1 GMFNIQ    6 (6)
+Q Consensus         1 gmfniq    6 (6)
+                      |+|.||
+T Consensus         2 g~fel~    7 (332)
+T 5MW7_A            2 GYFELQ    7 (332)
+T ss_dssp             EEEEEE
+T ss_pred             eEEEEE
+
+
+No 10
+>2MN7_A Sec-independent protein translocase protein TatA; TRANSPORT PROTEIN; NMR {Escherichia coli}
+Probab=12.29  E-value=2.1e+02  Score=11.67  Aligned_cols=4  Identities=50%  Similarity=0.293  Sum_probs=0.0  Template_Neff=5.500
+
+Q GMFNIQ            2 MFNI    5 (6)
+Q Consensus         2 mfni    5 (6)
+                      ||+|
+T Consensus         1 Mf~i    4 (97)
+T 2MN7_A            1 MGGI    4 (97)
+T ss_dssp             CCSC
+T ss_pred             CCCC
+
+

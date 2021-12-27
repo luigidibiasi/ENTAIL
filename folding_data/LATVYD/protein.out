@@ -1,0 +1,155 @@
+Query         LATVYD
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 16:22:16 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LATVYD/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LATVYD/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3WOE_D DNA-directed RNA polyme  17.9 1.2E+02  0.0014   13.8   0.0    6    1-6      20-25  (106)
+  2 3WOF_D DNA-directed RNA polyme  15.0 1.6E+02  0.0018   13.8   0.0    6    1-6      20-25  (129)
+  3 3WOF_T DNA-directed RNA polyme  15.0 1.6E+02  0.0018   13.8   0.0    6    1-6      20-25  (129)
+  4 4RW3_A Phospholipase D LiSicTo  15.0 1.6E+02  0.0018   12.3   0.0    6    1-6     289-294 (302)
+  5 5XJ0_H DNA-directed RNA polyme  13.5 1.9E+02  0.0021   13.7   0.0    6    1-6      26-31  (144)
+  6 3WOD_G DNA-directed RNA polyme  13.4 1.9E+02  0.0021   13.7   0.0    6    1-6      23-28  (141)
+  7 3WOD_H DNA-directed RNA polyme  13.4 1.9E+02  0.0021   13.7   0.0    6    1-6      23-28  (141)
+  8 4RB0_A DNA-binding transcripti   7.8   4E+02  0.0045    9.9   0.0    5    1-5      54-58  (145)
+  9 2W57_B FERRIC UPTAKE REGULATIO   7.6 4.2E+02  0.0046    9.8   0.0    6    1-6      52-57  (150)
+ 10 4LX3_B DNA polymerase III, alp   7.5 4.2E+02  0.0047    8.2   0.0    3    4-6      15-17  (36)
+
+No 1
+>3WOE_D DNA-directed RNA polymerase subunit beta; Transcription, RNA polymerase, TRANSFERASE-TRANSCRIPTION complex; HET: MSE; 2.351A {Thermus thermophilus}
+Probab=17.91  E-value=1.2e+02  Score=13.77  Aligned_cols=6  Identities=83%  Similarity=1.193  Sum_probs=3.3  Template_Neff=1.000
+
+Q LATVYD            1 LATVYD    6 (6)
+Q Consensus         1 latvyd    6 (6)
+                      |||.||
+T Consensus        20 latfyd   25 (106)
+T 3WOE_D           20 LATFYD   25 (106)
+T ss_dssp             CCCCCC
+T ss_pred             hhhccc
+Confidence            456664
+
+
+No 2
+>3WOF_D DNA-directed RNA polymerase subunit beta; Transcription, RNA polymerase, TRANSFERASE-TRANSCRIPTION complex; 3.298A {Thermus thermophilus}
+Probab=15.00  E-value=1.6e+02  Score=13.76  Aligned_cols=6  Identities=83%  Similarity=1.193  Sum_probs=3.3  Template_Neff=1.000
+
+Q LATVYD            1 LATVYD    6 (6)
+Q Consensus         1 latvyd    6 (6)
+                      |||.||
+T Consensus        20 latfyd   25 (129)
+T 3WOF_D           20 LATFYD   25 (129)
+T ss_dssp             CCCCCC
+T ss_pred             hhhccc
+Confidence            456664
+
+
+No 3
+>3WOF_T DNA-directed RNA polymerase subunit beta; Transcription, RNA polymerase, TRANSFERASE-TRANSCRIPTION complex; 3.298A {Thermus thermophilus}
+Probab=15.00  E-value=1.6e+02  Score=13.76  Aligned_cols=6  Identities=83%  Similarity=1.193  Sum_probs=3.3  Template_Neff=1.000
+
+Q LATVYD            1 LATVYD    6 (6)
+Q Consensus         1 latvyd    6 (6)
+                      |||.||
+T Consensus        20 latfyd   25 (129)
+T 3WOF_T           20 LATFYD   25 (129)
+T ss_dssp             CCCCCC
+T ss_pred             hhhccc
+Confidence            456664
+
+
+No 4
+>4RW3_A Phospholipase D LiSicTox-alphaIA1bii (E.C.3.1.4.4); TIM-barrel fold, HYDROLASE; HET: PEG, PLM, DKA, IPD, OCA, TDA; 1.72A {Loxosceles intermedia}
+Probab=14.97  E-value=1.6e+02  Score=12.29  Aligned_cols=6  Identities=50%  Similarity=0.418  Sum_probs=2.8  Template_Neff=9.300
+
+Q LATVYD            1 LATVYD    6 (6)
+Q Consensus         1 latvyd    6 (6)
+                      ||+++|
+T Consensus       289 ~~~~~~  294 (302)
+T 4RW3_A          289 VATYDD  294 (302)
+T ss_dssp             ECCTTS
+T ss_pred             eCCccc
+Confidence            345544
+
+
+No 5
+>5XJ0_H DNA-directed RNA polymerase subunit alpha; Transcription regulation by bacteriophage-encoded proteins; 4.004A {Thermus thermophilus HB8}
+Probab=13.48  E-value=1.9e+02  Score=13.75  Aligned_cols=6  Identities=83%  Similarity=1.193  Sum_probs=3.2  Template_Neff=1.000
+
+Q LATVYD            1 LATVYD    6 (6)
+Q Consensus         1 latvyd    6 (6)
+                      |||.||
+T Consensus        26 latfyd   31 (144)
+T 5XJ0_H           26 LATFYD   31 (144)
+T ss_dssp             CCCCCC
+T ss_pred             hhhccc
+Confidence            455554
+
+
+No 6
+>3WOD_G DNA-directed RNA polymerase subunit alpha; RNA polymerase, transcription, TRANSFERASE-TRANSCRIPTION complex; 3.6A {Thermus thermophilus}
+Probab=13.42  E-value=1.9e+02  Score=13.70  Aligned_cols=6  Identities=83%  Similarity=1.193  Sum_probs=3.2  Template_Neff=1.000
+
+Q LATVYD            1 LATVYD    6 (6)
+Q Consensus         1 latvyd    6 (6)
+                      |||.||
+T Consensus        23 latfyd   28 (141)
+T 3WOD_G           23 LATFYD   28 (141)
+Confidence            456554
+
+
+No 7
+>3WOD_H DNA-directed RNA polymerase subunit alpha; RNA polymerase, transcription, TRANSFERASE-TRANSCRIPTION complex; 3.6A {Thermus thermophilus}
+Probab=13.42  E-value=1.9e+02  Score=13.70  Aligned_cols=6  Identities=83%  Similarity=1.193  Sum_probs=3.2  Template_Neff=1.000
+
+Q LATVYD            1 LATVYD    6 (6)
+Q Consensus         1 latvyd    6 (6)
+                      |||.||
+T Consensus        23 latfyd   28 (141)
+T 3WOD_H           23 LATFYD   28 (141)
+T ss_dssp             CCCCCC
+T ss_pred             hhhccc
+Confidence            456554
+
+
+No 8
+>4RB0_A DNA-binding transcriptional dual regulator of; ferric uptake regulator (FUR), metal; HET: FLC, MSE, SO4; 1.85A {Magnetospirillum gryphiswaldense}
+Probab=7.77  E-value=4e+02  Score=9.87  Aligned_cols=5  Identities=80%  Similarity=1.258  Sum_probs=0.0  Template_Neff=9.400
+
+Q LATVYD            1 LATVY    5 (6)
+Q Consensus         1 latvy    5 (6)
+                      .+|||
+T Consensus        54 ~~Tvy   58 (145)
+T 4RB0_A           54 IATVY   58 (145)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 9
+>2W57_B FERRIC UPTAKE REGULATION PROTEIN; GENE REGULATION, VIBRIO CHOLERAE, TRANSCRIPTION; 2.6A {VIBRIO CHOLERAE}
+Probab=7.56  E-value=4.2e+02  Score=9.84  Aligned_cols=6  Identities=83%  Similarity=1.099  Sum_probs=0.0  Template_Neff=9.500
+
+Q LATVYD            1 LATVYD    6 (6)
+Q Consensus         1 latvyd    6 (6)
+                      .+|||.
+T Consensus        52 ~~Tvyr   57 (150)
+T 2W57_B           52 LATVYR   57 (150)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 10
+>4LX3_B DNA polymerase III, alpha subunit; trans-structure, naturally occurring, TRANSFERASE; 1.5A {Nostoc punctiforme}
+Probab=7.49  E-value=4.2e+02  Score=8.24  Aligned_cols=3  Identities=100%  Similarity=1.763  Sum_probs=0.0  Template_Neff=7.500
+
+Q LATVYD            4 VYD    6 (6)
+Q Consensus         4 vyd    6 (6)
+                      |||
+T Consensus        15 VyD   17 (36)
+T 4LX3_B           15 VYD   17 (36)
+T ss_dssp             EEE
+T ss_pred             EEE
+
+

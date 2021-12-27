@@ -1,0 +1,145 @@
+Query         KTVIVE
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 12:40:18 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/KTVIVE/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/KTVIVE/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6AWB_T DNA-directed RNA polyme  10.0 2.9E+02  0.0032   10.3   0.0    6    1-6      16-21  (80)
+  2 7JIL_v Unknown protein fragmen   9.3 3.2E+02  0.0035   10.3   0.0    6    1-6      22-27  (86)
+  3 5LYB_C1 ?; ribosome, translati   9.2 3.2E+02  0.0035   11.9   0.0    6    1-6      81-86  (155)
+  4 5N00_A Glutaconate CoA-transfe   9.2 3.2E+02  0.0036   11.8   0.0    6    1-6     191-196 (265)
+  5 3CDK_A Succinyl-CoA:3-ketoacid   9.1 3.3E+02  0.0036   11.7   0.0    6    1-6     186-191 (241)
+  6 4V7H_AQ Ribosome; eukaryotic r   8.7 3.5E+02  0.0038   10.1   0.0    6    1-6      16-21  (80)
+  7 6S0X_q 50S ribosomal protein L   8.6 3.5E+02  0.0039   10.0   0.0    6    1-6      17-22  (80)
+  8 6NK8_A Class 2 OLD family nucl   8.4 3.6E+02   0.004   11.2   0.0    6    1-6      23-28  (230)
+  9 7CNW_D Phosphatidylserine deca   8.4 3.7E+02   0.004    9.4   0.0    4    2-5       2-5   (42)
+ 10 7CNZ_H Phosphatidylserine deca   8.4 3.7E+02   0.004    9.4   0.0    4    2-5       2-5   (42)
+
+No 1
+>6AWB_T DNA-directed RNA polymerase subunit alpha; 30S subunit RNA polymerase complex; 6.7A {Escherichia coli}
+Probab=9.96  E-value=2.9e+02  Score=10.31  Aligned_cols=6  Identities=33%  Similarity=0.794  Sum_probs=0.0  Template_Neff=7.000
+
+Q KTVIVE            1 KTVIVE    6 (6)
+Q Consensus         1 ktvive    6 (6)
+                      ||+.|+
+T Consensus        16 kTv~V~   21 (80)
+T 6AWB_T           16 KSIVVA   21 (80)
+T ss_pred             CEEEEE
+
+
+No 2
+>7JIL_v Unknown protein fragment, Uncharacterized protein; Translation Initiation, Protein synthesis, bS21; HET: MG; 2.8A {Flavobacterium johnsoniae}
+Probab=9.25  E-value=3.2e+02  Score=10.33  Aligned_cols=6  Identities=17%  Similarity=0.789  Sum_probs=0.0  Template_Neff=7.000
+
+Q KTVIVE            1 KTVIVE    6 (6)
+Q Consensus         1 ktvive    6 (6)
+                      |||.|+
+T Consensus        22 kTv~V~   27 (86)
+T 7JIL_v           22 KSIVIS   27 (86)
+T ss_pred             CEEEEE
+
+
+No 3
+>5LYB_C1 ?; ribosome, translation, protein synthesis, proline; HET: MG, ZN, OHX, PPU; 3.25A {Saccharomyces cerevisiae}
+Probab=9.22  E-value=3.2e+02  Score=11.94  Aligned_cols=6  Identities=17%  Similarity=0.827  Sum_probs=0.0  Template_Neff=5.700
+
+Q KTVIVE            1 KTVIVE    6 (6)
+Q Consensus         1 ktvive    6 (6)
+                      |||+|+
+T Consensus        81 kTvvV~   86 (155)
+T 5LYB_C1          81 RTIVIR   86 (155)
+T ss_pred             CEEEEE
+
+
+No 4
+>5N00_A Glutaconate CoA-transferase family, subunit A; decarboxylase, CoA transferase like fold; 1.9A {Myxococcus xanthus (strain DK 1622)}
+Probab=9.21  E-value=3.2e+02  Score=11.80  Aligned_cols=6  Identities=33%  Similarity=0.379  Sum_probs=0.0  Template_Neff=8.100
+
+Q KTVIVE            1 KTVIVE    6 (6)
+Q Consensus         1 ktvive    6 (6)
+                      |.||+|
+T Consensus       191 ~~vIve  196 (265)
+T 5N00_A          191 ARVIAT  196 (265)
+T ss_dssp             SEEEEE
+T ss_pred             CeEEEE
+
+
+No 5
+>3CDK_A Succinyl-CoA:3-ketoacid-coenzyme A transferase subunit A; CO-EXPRESSED COMPLEX, HETERO-TETRAMER, Structural Genomics; 2.59A {Bacillus subtilis}
+Probab=9.11  E-value=3.3e+02  Score=11.71  Aligned_cols=6  Identities=50%  Similarity=0.573  Sum_probs=0.0  Template_Neff=7.900
+
+Q KTVIVE            1 KTVIVE    6 (6)
+Q Consensus         1 ktvive    6 (6)
+                      |.||+|
+T Consensus       186 ~~VI~e  191 (241)
+T 3CDK_A          186 KITIAE  191 (241)
+T ss_dssp             EEEEEE
+T ss_pred             CeEEEE
+
+
+No 6
+>4V7H_AQ Ribosome; eukaryotic ribosome, 80S, RACK1 protein; HET: PSU, OMG, 5MC, 7MG, M2G, YYG, H2U, 2MG, 5MU, OMC, 1MA; 8.9A {Thermomyces lanuginosus}
+Probab=8.69  E-value=3.5e+02  Score=10.10  Aligned_cols=6  Identities=17%  Similarity=0.827  Sum_probs=0.0  Template_Neff=7.000
+
+Q KTVIVE            1 KTVIVE    6 (6)
+Q Consensus         1 ktvive    6 (6)
+                      ||+.|+
+T Consensus        16 kTv~V~   21 (80)
+T 4V7H_AQ          16 RTIVIR   21 (80)
+T ss_pred             CEEEEE
+
+
+No 7
+>6S0X_q 50S ribosomal protein L2, 50S; Ribosome, antibiotics, resistance, Staphylococcus aureus; HET: ERY; 2.425A {Staphylococcus aureus}
+Probab=8.55  E-value=3.5e+02  Score=9.99  Aligned_cols=6  Identities=50%  Similarity=0.490  Sum_probs=0.0  Template_Neff=7.200
+
+Q KTVIVE            1 KTVIVE    6 (6)
+Q Consensus         1 ktvive    6 (6)
+                      ||+.|+
+T Consensus        17 kTv~V~   22 (80)
+T 6S0X_q           17 KTITVL   22 (80)
+T ss_pred             CEEEEE
+
+
+No 8
+>6NK8_A Class 2 OLD family nuclease; Nuclease, Toprim, UNKNOWN FUNCTION; 2.24A {Burkholderia pseudomallei (strain 668)}
+Probab=8.40  E-value=3.6e+02  Score=11.22  Aligned_cols=6  Identities=33%  Similarity=0.523  Sum_probs=0.0  Template_Neff=8.500
+
+Q KTVIVE            1 KTVIVE    6 (6)
+Q Consensus         1 ktvive    6 (6)
+                      +.|+||
+T Consensus        23 ~vIlVE   28 (230)
+T 6NK8_A           23 GIIFVE   28 (230)
+T ss_dssp             EEEEES
+T ss_pred             cEEEEc
+
+
+No 9
+>7CNW_D Phosphatidylserine decarboxylase beta chain (E.C.4.1.1.65); Phosphatidylserine decarboxylase, pyruvoyl-dependent decarboxylase, auto-cleaved; HET: PYR, LMT; 1.9A {Escherichia coli K-12}
+Probab=8.37  E-value=3.7e+02  Score=9.36  Aligned_cols=4  Identities=75%  Similarity=0.642  Sum_probs=0.0  Template_Neff=5.900
+
+Q KTVIVE            2 TVIV    5 (6)
+Q Consensus         2 tviv    5 (6)
+                      |||+
+T Consensus         2 TVVl    5 (42)
+T 7CNW_D            2 TVIN    5 (42)
+T ss_dssp             CEEE
+T ss_pred             CEEE
+
+
+No 10
+>7CNZ_H Phosphatidylserine decarboxylase beta chain (E.C.4.1.1.65); Phosphatidylserine decarboxylase, pyruvoyl-dependent decarboxylase, auto-cleaved; HET: PYR, PO4, PEX; 2.7A {Escherichia coli K-12}
+Probab=8.37  E-value=3.7e+02  Score=9.36  Aligned_cols=4  Identities=75%  Similarity=0.642  Sum_probs=0.0  Template_Neff=5.900
+
+Q KTVIVE            2 TVIV    5 (6)
+Q Consensus         2 tviv    5 (6)
+                      |||+
+T Consensus         2 TVVl    5 (42)
+T 7CNZ_H            2 TVIN    5 (42)
+T ss_dssp             CEEE
+T ss_pred             CEEE
+
+

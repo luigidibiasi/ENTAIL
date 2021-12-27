@@ -1,0 +1,157 @@
+Query         KTVIIT
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 12:37:10 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/KTVIIT/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/KTVIIT/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4O6V_C Oxidoreductase, short-c  41.4      25 0.00027   13.0   0.0    6    1-6      13-18  (242)
+  2 5U1P_A NADPH-dependent carbony  40.4      26 0.00029   12.5   0.0    6    1-6      10-15  (233)
+  3 7BM2_A Biofilm, DNA-binding, h  39.0      29 0.00032   13.4   0.0    6    1-6      53-58  (87)
+  4 7P1W_A Biofilm, DNA-binding, h  37.4      31 0.00035   13.7   0.0    6    1-6      60-65  (94)
+  5 4O6V_B Oxidoreductase, short-c  34.7      37 0.00041   12.9   0.0    6    1-6      13-18  (242)
+  6 5DNC_C L-asparaginase; asparag  24.5      73  0.0008   15.2   0.0    6    1-6     158-163 (588)
+  7 3WG9_D Redox-sensing transcrip  23.0      81  0.0009   12.7   0.0    6    1-6     218-223 (224)
+  8 3WGI_A Redox-sensing transcrip  23.0      81  0.0009   12.7   0.0    6    1-6     218-223 (224)
+  9 2PH3_B 3-oxoacyl-[acyl carrier  19.8   1E+02  0.0012   10.4   0.0    6    1-6       2-7   (245)
+ 10 2C7V_C PTERIDINE REDUCTASE (E.  19.7   1E+02  0.0012   11.1   0.0    6    1-6       4-9   (268)
+
+No 1
+>4O6V_C Oxidoreductase, short-chain dehydrogenase/reductase family (E.C.1.1.1.100); Structural Genomics, NIAID, National Institute; HET: GOL; 1.85A {Brucella suis}
+Probab=41.41  E-value=25  Score=13.04  Aligned_cols=6  Identities=67%  Similarity=0.767  Sum_probs=2.8  Template_Neff=11.100
+
+Q KTVIIT            1 KTVIIT    6 (6)
+Q Consensus         1 ktviit    6 (6)
+                      |+|+||
+T Consensus        13 ~~~lit   18 (242)
+T 4O6V_C           13 KVAIIT   18 (242)
+T ss_dssp             CEEEEE
+T ss_pred             CEEEEc
+Confidence            345554
+
+
+No 2
+>5U1P_A NADPH-dependent carbonyl reductase (E.C.1.1.1.184); SSGCID, SDR, short-chain dehydrogenase reductase; HET: NAP; 1.9A {Burkholderia multivorans (strain ATCC 17616 / 249)}
+Probab=40.35  E-value=26  Score=12.53  Aligned_cols=6  Identities=67%  Similarity=0.883  Sum_probs=2.7  Template_Neff=11.700
+
+Q KTVIIT            1 KTVIIT    6 (6)
+Q Consensus         1 ktviit    6 (6)
+                      |+|+||
+T Consensus        10 ~~~~it   15 (233)
+T 5U1P_A           10 KTVLIV   15 (233)
+T ss_pred             eEEEcc
+Confidence            345543
+
+
+No 3
+>7BM2_A Biofilm, DNA-binding, histone-like, Geobacillus, DNA; HET: SO4, MSE; 2.29A {Geobacillus thermodenitrificans NG80-2}
+Probab=38.99  E-value=29  Score=13.44  Aligned_cols=6  Identities=67%  Similarity=0.955  Sum_probs=2.6  Template_Neff=6.400
+
+Q KTVIIT            1 KTVIIT    6 (6)
+Q Consensus         1 ktviit    6 (6)
+                      |++|||
+T Consensus        53 KSiIit   58 (87)
+T 7BM2_A           53 RAVIIT   58 (87)
+T ss_dssp             CEEEEE
+T ss_pred             cEEEEE
+Confidence            344443
+
+
+No 4
+>7P1W_A Biofilm, DNA-binding, histone-like, Geobacillus, DNA; 1.8A {Geobacillus thermodenitrificans (strain NG80-2)}
+Probab=37.39  E-value=31  Score=13.74  Aligned_cols=6  Identities=67%  Similarity=0.783  Sum_probs=2.7  Template_Neff=5.900
+
+Q KTVIIT            1 KTVIIT    6 (6)
+Q Consensus         1 ktviit    6 (6)
+                      |++|||
+T Consensus        60 KSiIIT   65 (94)
+T 7P1W_A           60 AAVIIT   65 (94)
+T ss_dssp             CEEEEE
+T ss_pred             cEEEEE
+Confidence            344543
+
+
+No 5
+>4O6V_B Oxidoreductase, short-chain dehydrogenase/reductase family (E.C.1.1.1.100); Structural Genomics, NIAID, National Institute; HET: GOL; 1.85A {Brucella suis}
+Probab=34.67  E-value=37  Score=12.88  Aligned_cols=6  Identities=67%  Similarity=0.767  Sum_probs=2.7  Template_Neff=10.600
+
+Q KTVIIT            1 KTVIIT    6 (6)
+Q Consensus         1 ktviit    6 (6)
+                      |+++||
+T Consensus        13 ~~~lit   18 (242)
+T 4O6V_B           13 KVAIIT   18 (242)
+T ss_dssp             CEEEEE
+T ss_pred             CEEEEe
+Confidence            344543
+
+
+No 6
+>5DNC_C L-asparaginase; asparaginase, HYDROLASE; HET: ASN, EDO; 2.01A {Cavia porcellus}
+Probab=24.50  E-value=73  Score=15.24  Aligned_cols=6  Identities=67%  Similarity=0.888  Sum_probs=3.2  Template_Neff=8.000
+
+Q KTVIIT            1 KTVIIT    6 (6)
+Q Consensus         1 ktviit    6 (6)
+                      |+||+|
+T Consensus       158 k~vv~t  163 (588)
+T 5DNC_C          158 KPVILT  163 (588)
+T ss_dssp             SCEEEE
+T ss_pred             CCEEEe
+Confidence            455554
+
+
+No 7
+>3WG9_D Redox-sensing transcriptional repressor rex; winged helix, Rossmann fold, repressor; HET: SO4; 1.97A {Thermoanaerobacter ethanolicus}
+Probab=23.01  E-value=81  Score=12.66  Aligned_cols=6  Identities=33%  Similarity=0.318  Sum_probs=0.0  Template_Neff=9.100
+
+Q KTVIIT            1 KTVIIT    6 (6)
+Q Consensus         1 ktviit    6 (6)
+                      |||.||
+T Consensus       218 ~~~~~~  223 (224)
+T 3WG9_D          218 ETAKID  223 (224)
+T ss_dssp             ------
+T ss_pred             cEEEec
+Confidence            455554
+
+
+No 8
+>3WGI_A Redox-sensing transcriptional repressor rex/DNA; winged helix, Rossmann fold, transcription; HET: NAJ; 3.25A {Thermoanaerobacter ethanolicus}
+Probab=23.01  E-value=81  Score=12.66  Aligned_cols=6  Identities=33%  Similarity=0.318  Sum_probs=1.5  Template_Neff=9.100
+
+Q KTVIIT            1 KTVIIT    6 (6)
+Q Consensus         1 ktviit    6 (6)
+                      |||.||
+T Consensus       218 ~~~~~~  223 (224)
+T 3WGI_A          218 ETAKID  223 (224)
+T ss_dssp             SCC---
+T ss_pred             cEEEec
+Confidence            455554
+
+
+No 9
+>2PH3_B 3-oxoacyl-[acyl carrier protein] reductase; TTHA0415, Thermus thermophilus, STRUCTURAL GENOMICS; 1.91A {Thermus thermophilus HB8}
+Probab=19.75  E-value=1e+02  Score=10.36  Aligned_cols=6  Identities=33%  Similarity=0.678  Sum_probs=0.0  Template_Neff=13.100
+
+Q KTVIIT            1 KTVIIT    6 (6)
+Q Consensus         1 ktviit    6 (6)
+                      |+++|+
+T Consensus         2 ~~v~i~    7 (245)
+T 2PH3_B            2 RKALIT    7 (245)
+T ss_dssp             CEEEET
+T ss_pred             CEEEEe
+
+
+No 10
+>2C7V_C PTERIDINE REDUCTASE (E.C.1.5.1.33); PTERIDINE REDUCTASE, TRYPANOSOMATIDS, DRUG RESISTANCE; HET: NAP, MTX; 2.2A {TRYPANOSOMA BRUCEI BRUCEI}
+Probab=19.71  E-value=1e+02  Score=11.07  Aligned_cols=6  Identities=17%  Similarity=0.490  Sum_probs=0.0  Template_Neff=12.100
+
+Q KTVIIT            1 KTVIIT    6 (6)
+Q Consensus         1 ktviit    6 (6)
+                      ++++||
+T Consensus         4 ~~vlit    9 (268)
+T 2C7V_C            4 PAAVVT    9 (268)
+T ss_dssp             CEEEET
+T ss_pred             CEEEEe
+
+

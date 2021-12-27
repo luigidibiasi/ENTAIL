@@ -1,0 +1,156 @@
+Query         GTLVFM
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 04:13:29 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GTLVFM/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GTLVFM/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3I08_B Neurogenic locus notch   37.2      32 0.00035   13.0   0.0    6    1-6       9-14  (69)
+  2 5F3Y_B Unconventional myosin-V  36.2      34 0.00037   14.7   0.0    6    1-6      21-26  (102)
+  3 3PVL_B Myosin VIIa isoform 1,   34.2      38 0.00042   13.9   0.0    6    1-6      19-24  (96)
+  4 3I08_D Neurogenic locus notch   33.7      40 0.00044   12.7   0.0    6    1-6       9-14  (69)
+  5 2ZTG_A Alanyl-tRNA synthetase   31.1      47 0.00051   16.8   0.0    6    1-6     211-216 (739)
+  6 3WQY_A Alanine--tRNA ligase (E  29.8      51 0.00056   17.1   0.0    6    1-6     211-216 (906)
+  7 3WQZ_B Alanine--tRNA ligase (E  29.8      51 0.00056   17.1   0.0    6    1-6     211-216 (906)
+  8 2ZZE_A Alanyl-tRNA synthetase   26.2      64 0.00071   16.4   0.0    6    1-6     212-217 (752)
+  9 6TA7_G Ras GTPase-activating p  21.3      92   0.001   11.3   0.0    6    1-6      13-18  (31)
+ 10 6TA7_H Ras GTPase-activating p  21.3      92   0.001   11.3   0.0    6    1-6      13-18  (31)
+
+No 1
+>3I08_B Neurogenic locus notch homolog protein; SEA domain, Lin-12 Notch repeat; 3.2A {Homo sapiens}
+Probab=37.18  E-value=32  Score=12.98  Aligned_cols=6  Identities=33%  Similarity=1.232  Sum_probs=3.2  Template_Neff=6.100
+
+Q GTLVFM            1 GTLVFM    6 (6)
+Q Consensus         1 gtlvfm    6 (6)
+                      |+.||+
+T Consensus         9 Gs~V~L   14 (69)
+T 3I08_B            9 GSIVYL   14 (69)
+T ss_dssp             EEEEEE
+T ss_pred             eEEEEE
+Confidence            455553
+
+
+No 2
+>5F3Y_B Unconventional myosin-VIIb, Ankyrin repeat and; MOTOR PROTEIN, PROTEIN BINDING, STRUCTURAL; 3.409A {Mus musculus}
+Probab=36.22  E-value=34  Score=14.65  Aligned_cols=6  Identities=50%  Similarity=1.104  Sum_probs=3.7  Template_Neff=4.100
+
+Q GTLVFM            1 GTLVFM    6 (6)
+Q Consensus         1 gtlvfm    6 (6)
+                      |++||+
+T Consensus        21 GsivFr   26 (102)
+T 5F3Y_B           21 GSIVFS   26 (102)
+T ss_pred             chHhhc
+Confidence            566774
+
+
+No 3
+>3PVL_B Myosin VIIa isoform 1, Usher; protein complex, Novel folding, protein; HET: PO4, GOL; 2.8A {Mus musculus}
+Probab=34.23  E-value=38  Score=13.89  Aligned_cols=6  Identities=67%  Similarity=1.143  Sum_probs=3.4  Template_Neff=5.200
+
+Q GTLVFM            1 GTLVFM    6 (6)
+Q Consensus         1 gtlvfm    6 (6)
+                      |++||+
+T Consensus        19 Gs~vFR   24 (96)
+T 3PVL_B           19 GTMVFR   24 (96)
+T ss_pred             cchhhc
+Confidence            556663
+
+
+No 4
+>3I08_D Neurogenic locus notch homolog protein; SEA domain, Lin-12 Notch repeat; 3.2A {Homo sapiens}
+Probab=33.65  E-value=40  Score=12.73  Aligned_cols=6  Identities=33%  Similarity=1.232  Sum_probs=3.1  Template_Neff=6.100
+
+Q GTLVFM            1 GTLVFM    6 (6)
+Q Consensus         1 gtlvfm    6 (6)
+                      |+.||+
+T Consensus         9 Gs~V~L   14 (69)
+T 3I08_D            9 GSIVYL   14 (69)
+T ss_dssp             EEEEEE
+T ss_pred             eEEEEE
+Confidence            455553
+
+
+No 5
+>2ZTG_A Alanyl-tRNA synthetase (E.C.6.1.1.7); Class-II Aminoacyl-tRNA synthetase, Aminoacyl-tRNA synthetase; HET: A5A; 2.2A {Archaeoglobus fulgidus}
+Probab=31.09  E-value=47  Score=16.77  Aligned_cols=6  Identities=83%  Similarity=1.204  Sum_probs=4.1  Template_Neff=7.100
+
+Q GTLVFM            1 GTLVFM    6 (6)
+Q Consensus         1 gtlvfm    6 (6)
+                      +++|||
+T Consensus       211 ~nlVfm  216 (739)
+T 2ZTG_A          211 ATLVFM  216 (739)
+T ss_dssp             EEEEEE
+T ss_pred             HHHHhh
+Confidence            467776
+
+
+No 6
+>3WQY_A Alanine--tRNA ligase (E.C.6.1.1.7); aminoacyl-tRNA synthetases, protein-RNA complex, ligase; HET: A5A; 3.3A {Archaeoglobus fulgidus}
+Probab=29.79  E-value=51  Score=17.12  Aligned_cols=6  Identities=83%  Similarity=1.204  Sum_probs=4.2  Template_Neff=7.000
+
+Q GTLVFM            1 GTLVFM    6 (6)
+Q Consensus         1 gtlvfm    6 (6)
+                      +++|||
+T Consensus       211 ~nlVfm  216 (906)
+T 3WQY_A          211 ATLVFM  216 (906)
+T ss_dssp             EEEEEE
+T ss_pred             hhhhhh
+Confidence            467887
+
+
+No 7
+>3WQZ_B Alanine--tRNA ligase (E.C.6.1.1.7)/RNA; aminoacyl-tRNA synthetases, protein-RNA complex, homodimer; HET: A5A; 3.489A {Archaeoglobus fulgidus}
+Probab=29.79  E-value=51  Score=17.12  Aligned_cols=6  Identities=83%  Similarity=1.204  Sum_probs=4.2  Template_Neff=7.000
+
+Q GTLVFM            1 GTLVFM    6 (6)
+Q Consensus         1 gtlvfm    6 (6)
+                      +++|||
+T Consensus       211 ~nlVfm  216 (906)
+T 3WQZ_B          211 ATLVFM  216 (906)
+T ss_dssp             EEEEEE
+T ss_pred             hhhhhh
+Confidence            467887
+
+
+No 8
+>2ZZE_A Alanyl-tRNA synthetase (E.C.6.1.1.7); ligase, hydrolase; HET: MLY, OCS; 2.16A {Pyrococcus horikoshii}
+Probab=26.22  E-value=64  Score=16.41  Aligned_cols=6  Identities=83%  Similarity=1.204  Sum_probs=4.0  Template_Neff=7.000
+
+Q GTLVFM            1 GTLVFM    6 (6)
+Q Consensus         1 gtlvfm    6 (6)
+                      +++|||
+T Consensus       212 ~nlVfm  217 (752)
+T 2ZZE_A          212 ATLVFM  217 (752)
+T ss_dssp             EEEEEE
+T ss_pred             HHHHHh
+Confidence            467776
+
+
+No 9
+>6TA7_G Ras GTPase-activating protein-binding protein 1; Stress Granule, Complex, Regulation, Low; 1.93A {Homo sapiens}
+Probab=21.31  E-value=92  Score=11.26  Aligned_cols=6  Identities=33%  Similarity=0.777  Sum_probs=3.3  Template_Neff=3.400
+
+Q GTLVFM            1 GTLVFM    6 (6)
+Q Consensus         1 gtlvfm    6 (6)
+                      |+..||
+T Consensus        13 G~~nFm   18 (31)
+T 6TA7_G           13 GPYNFI   18 (31)
+T ss_pred             cCcchH
+Confidence            455565
+
+
+No 10
+>6TA7_H Ras GTPase-activating protein-binding protein 1; Stress Granule, Complex, Regulation, Low; 1.93A {Homo sapiens}
+Probab=21.31  E-value=92  Score=11.26  Aligned_cols=6  Identities=33%  Similarity=0.777  Sum_probs=3.3  Template_Neff=3.400
+
+Q GTLVFM            1 GTLVFM    6 (6)
+Q Consensus         1 gtlvfm    6 (6)
+                      |+..||
+T Consensus        13 G~~nFm   18 (31)
+T 6TA7_H           13 GPYNFI   18 (31)
+T ss_pred             cCcchH
+Confidence            455565
+
+

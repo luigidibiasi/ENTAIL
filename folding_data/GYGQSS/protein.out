@@ -1,0 +1,150 @@
+Query         GYGQSS
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 05:22:24 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GYGQSS/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GYGQSS/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5NG7_B epoxide hydrolase belon  19.9   1E+02  0.0011   11.0   0.0    6    1-6      61-66  (299)
+  2 5FRD_A CARBOXYLESTERASE (EST-2  19.9   1E+02  0.0011   10.8   0.0    6    1-6      53-58  (260)
+  3 2B19_A Neuropeptide K; helix,   19.9   1E+02  0.0011   11.9   0.0    6    1-6      18-23  (36)
+  4 4JNC_A Bifunctional epoxide hy  19.7   1E+02  0.0012   10.9   0.0    6    1-6      59-64  (315)
+  5 1AKS_A ALPHA TRYPSIN; HYDROLAS  19.6 1.1E+02  0.0012    9.9   0.0    6    1-6     120-125 (125)
+  6 1IUN_B 2-hydroxy-6-oxo-7-methy  19.6 1.1E+02  0.0012   10.8   0.0    6    1-6      64-69  (282)
+  7 1UK8_A 2-hydroxy-6-oxo-7-methy  19.6 1.1E+02  0.0012   10.8   0.0    6    1-6      64-69  (282)
+  8 1R3D_A conserved hypothetical   19.4 1.1E+02  0.0012   11.0   0.0    6    1-6      53-58  (264)
+  9 5CW2_A Putative epoxide hydrol  19.2 1.1E+02  0.0012   11.1   0.0    6    1-6      67-72  (325)
+ 10 6UNW_A Soluble epoxide hydrola  19.2 1.1E+02  0.0012   11.9   0.0    6    1-6      74-79  (353)
+
+No 1
+>5NG7_B epoxide hydrolase belonging to alpha/beta; Epoxide hydrolases, metagenomics, industrial biocatalysis; HET: EDO; 1.39A {metagenome}
+Probab=19.92  E-value=1e+02  Score=10.96  Aligned_cols=6  Identities=33%  Similarity=1.027  Sum_probs=0.0  Template_Neff=12.700
+
+Q GYGQSS            1 GYGQSS    6 (6)
+Q Consensus         1 gygqss    6 (6)
+                      |+|.|+
+T Consensus        61 g~g~s~   66 (299)
+T 5NG7_B           61 GYNETD   66 (299)
+T ss_dssp             TSTTSC
+T ss_pred             CCCCCC
+
+
+No 2
+>5FRD_A CARBOXYLESTERASE (EST-2) (E.C.3.1.1.1); HYDROLASE, ESTERASE; HET: COA, PGE, FLC; 1.4A {ARCHAEOGLOBUS FULGIDUS}
+Probab=19.87  E-value=1e+02  Score=10.75  Aligned_cols=6  Identities=50%  Similarity=0.567  Sum_probs=0.0  Template_Neff=12.600
+
+Q GYGQSS            1 GYGQSS    6 (6)
+Q Consensus         1 gygqss    6 (6)
+                      |+|.|.
+T Consensus        53 g~g~s~   58 (260)
+T 5FRD_A           53 NHGQSD   58 (260)
+T ss_dssp             TSTTSC
+T ss_pred             CCCCCC
+
+
+No 3
+>2B19_A Neuropeptide K; helix, 3 10 helix, lipid; NMR {N/A}
+Probab=19.86  E-value=1e+02  Score=11.90  Aligned_cols=6  Identities=67%  Similarity=0.783  Sum_probs=0.0  Template_Neff=1.500
+
+Q GYGQSS            1 GYGQSS    6 (6)
+Q Consensus         1 gygqss    6 (6)
+                      |+||-|
+T Consensus        18 g~gQis   23 (36)
+T 2B19_A           18 GHGQIS   23 (36)
+T ss_dssp             GGGHHH
+T ss_pred             cCcccc
+
+
+No 4
+>4JNC_A Bifunctional epoxide hydrolase 2 (E.C.3.3.2.10; epoxide hydrolase, Hydrolase-hydrolase inhibitor complex; HET: 1LF; 1.96A {Homo sapiens}
+Probab=19.74  E-value=1e+02  Score=10.93  Aligned_cols=6  Identities=83%  Similarity=1.503  Sum_probs=0.0  Template_Neff=12.900
+
+Q GYGQSS            1 GYGQSS    6 (6)
+Q Consensus         1 gygqss    6 (6)
+                      |+|.|+
+T Consensus        59 g~g~s~   64 (315)
+T 4JNC_A           59 GYGESS   64 (315)
+T ss_dssp             TSTTSC
+T ss_pred             CCCCCC
+
+
+No 5
+>1AKS_A ALPHA TRYPSIN; HYDROLASE, SERINE PROTEASE; 1.8A {Sus scrofa} SCOP: b.47.1.2
+Probab=19.61  E-value=1.1e+02  Score=9.92  Aligned_cols=6  Identities=33%  Similarity=1.088  Sum_probs=0.0  Template_Neff=11.600
+
+Q GYGQSS            1 GYGQSS    6 (6)
+Q Consensus         1 gygqss    6 (6)
+                      |||.++
+T Consensus       120 g~g~~~  125 (125)
+T 1AKS_A          120 GWGNTK  125 (125)
+T ss_dssp             ESSCCC
+T ss_pred             EccccC
+
+
+No 6
+>1IUN_B 2-hydroxy-6-oxo-7-methylocta-2,4-dienoate hydrolase (E.C.3.7.1.9); aromatic compounds, cumene, isopropylbenzene, meta-cleavage; 2.8A {Pseudomonas fluorescens} SCOP: c.69.1.10
+Probab=19.57  E-value=1.1e+02  Score=10.82  Aligned_cols=6  Identities=33%  Similarity=0.983  Sum_probs=0.0  Template_Neff=12.700
+
+Q GYGQSS            1 GYGQSS    6 (6)
+Q Consensus         1 gygqss    6 (6)
+                      |+|.|+
+T Consensus        64 g~g~s~   69 (282)
+T 1IUN_B           64 GFGFTD   69 (282)
+T ss_dssp             TTSSSC
+T ss_pred             CCCCCC
+
+
+No 7
+>1UK8_A 2-hydroxy-6-oxo-7-methylocta-2,4-dienoate hydrolase (E.C.3.7.1.9); AROMATIC COMPOUNDS, CUMENE, ISOPROPYLBENZENE, META-CLEAVAGE; HET: LEA; 1.6A {Pseudomonas fluorescens} SCOP: c.69.1.10
+Probab=19.57  E-value=1.1e+02  Score=10.82  Aligned_cols=6  Identities=33%  Similarity=0.983  Sum_probs=0.0  Template_Neff=12.700
+
+Q GYGQSS            1 GYGQSS    6 (6)
+Q Consensus         1 gygqss    6 (6)
+                      |+|.|+
+T Consensus        64 g~g~s~   69 (282)
+T 1UK8_A           64 GFGFTD   69 (282)
+T ss_dssp             TSTTSC
+T ss_pred             CCCCCC
+
+
+No 8
+>1R3D_A conserved hypothetical protein VC1974; Structural Genomics, Hydrolase, NYSGXRC, New; 1.9A {Vibrio cholerae} SCOP: c.69.1.35
+Probab=19.41  E-value=1.1e+02  Score=11.02  Aligned_cols=6  Identities=33%  Similarity=0.684  Sum_probs=0.0  Template_Neff=12.100
+
+Q GYGQSS            1 GYGQSS    6 (6)
+Q Consensus         1 gygqss    6 (6)
+                      |+|.|+
+T Consensus        53 G~G~s~   58 (264)
+T 1R3D_A           53 GHGTNP   58 (264)
+T ss_dssp             TCSSCC
+T ss_pred             CCCCCC
+
+
+No 9
+>5CW2_A Putative epoxide hydrolase EPHA (E.C.3.3.2.3); Epoxide hydrolase, 1, 3-diphenylurea Mycobacterium; HET: BSU; 2.0A {Mycobacterium thermoresistibile ATCC 19527}
+Probab=19.23  E-value=1.1e+02  Score=11.05  Aligned_cols=6  Identities=83%  Similarity=1.353  Sum_probs=0.0  Template_Neff=12.700
+
+Q GYGQSS            1 GYGQSS    6 (6)
+Q Consensus         1 gygqss    6 (6)
+                      |+|.|+
+T Consensus        67 g~g~s~   72 (325)
+T 5CW2_A           67 GYGGSS   72 (325)
+T ss_dssp             TSTTSC
+T ss_pred             CCCCCC
+
+
+No 10
+>6UNW_A Soluble epoxide hydrolase; epoxide hydrolase, biocatalysis, HYDROLASE; HET: CAC; 2.21A {Streptomyces sp. CBMAI 2042}
+Probab=19.15  E-value=1.1e+02  Score=11.91  Aligned_cols=6  Identities=67%  Similarity=1.431  Sum_probs=0.0  Template_Neff=11.400
+
+Q GYGQSS            1 GYGQSS    6 (6)
+Q Consensus         1 gygqss    6 (6)
+                      |+|.|+
+T Consensus        74 G~G~S~   79 (353)
+T 6UNW_A           74 GYGRSA   79 (353)
+T ss_dssp             TSTTSC
+T ss_pred             CCCCCC
+
+

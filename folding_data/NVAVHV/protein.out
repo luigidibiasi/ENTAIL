@@ -1,0 +1,151 @@
+Query         NVAVHV
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 04:49:41 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NVAVHV/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NVAVHV/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 7AD5_A AVIRULENCE PROTEIN, AVI  23.7      77 0.00085   14.7   0.0    6    1-6      93-98  (125)
+  2 6LG3_A PhiRv1 phage protein; b  16.7 1.4E+02  0.0015   13.0   0.0    6    1-6      58-63  (74)
+  3 6X5S_B Alpha-(1,6)-fucosyltran  10.6 2.7E+02  0.0029   12.5   0.0    5    2-6     253-257 (466)
+  4 6SJ6_9 50S ribosomal protein L  10.5 2.7E+02  0.0029   11.1   0.0    6    1-6      84-89  (117)
+  5 3ZY6_A PUTATIVE GDP-FUCOSE PRO  10.0 2.9E+02  0.0032   11.7   0.0    5    2-6     214-218 (362)
+  6 6TKV_B Alpha-(1,6)-fucosyltran   9.6   3E+02  0.0034   12.2   0.0    5    2-6     253-257 (453)
+  7 3N3T_B PUTATIVE DIGUANYLATE CY   8.8 3.4E+02  0.0038   10.9   0.0    5    1-5     284-288 (294)
+  8 4WCW_B RsfS; Tuberculosis Ribo   8.0 3.9E+02  0.0043   11.2   0.0    6    1-6      88-93  (139)
+  9 4WCW_C RsfS; Tuberculosis Ribo   8.0 3.9E+02  0.0043   11.2   0.0    6    1-6      88-93  (139)
+ 10 6X5T_C Alpha-(1,6)-fucosyltran   7.8   4E+02  0.0044   12.6   0.0    5    2-6     320-324 (535)
+
+No 1
+>7AD5_A AVIRULENCE PROTEIN, AVIRULENCE EFFECTOR PROTEIN; 2.14A {Leptosphaeria maculans}
+Probab=23.71  E-value=77  Score=14.69  Aligned_cols=6  Identities=83%  Similarity=1.154  Sum_probs=3.3  Template_Neff=1.000
+
+Q NVAVHV            1 NVAVHV    6 (6)
+Q Consensus         1 nvavhv    6 (6)
+                      |||.||
+T Consensus        93 nvalhv   98 (125)
+T 7AD5_A           93 NVALHV   98 (125)
+T ss_dssp             HHHHHC
+T ss_pred             eEEEEE
+Confidence            456654
+
+
+No 2
+>6LG3_A PhiRv1 phage protein; bacterial toxin, TOXIN; 1.90057258182A {Mycobacterium tuberculosis}
+Probab=16.67  E-value=1.4e+02  Score=12.97  Aligned_cols=6  Identities=67%  Similarity=0.861  Sum_probs=3.0  Template_Neff=1.200
+
+Q NVAVHV            1 NVAVHV    6 (6)
+Q Consensus         1 nvavhv    6 (6)
+                      ||-||+
+T Consensus        58 nvlvh~   63 (74)
+T 6LG3_A           58 NVLVHA   63 (74)
+T ss_dssp             EEEEEE
+T ss_pred             eEEEEe
+Confidence            455553
+
+
+No 3
+>6X5S_B Alpha-(1,6)-fucosyltransferase (E.C.2.4.1.68), A3'-ASN; Glycosyl transferase, Fucosyl transferase, GT-B; HET: MAN, NAG, BMA, GDP, CL; 3.3A {Gallus gallus}
+Probab=10.58  E-value=2.7e+02  Score=12.46  Aligned_cols=5  Identities=60%  Similarity=1.092  Sum_probs=0.0  Template_Neff=9.300
+
+Q NVAVHV            2 VAVHV    6 (6)
+Q Consensus         2 vavhv    6 (6)
+                      |+|||
+T Consensus       253 vgvHI  257 (466)
+T 6X5S_B          253 IGVHV  257 (466)
+T ss_dssp             EEEEE
+T ss_pred             EEEEE
+
+
+No 4
+>6SJ6_9 50S ribosomal protein L2, 50S; Stress, S.aureus, RsfS, Hibernation, RIBOSOME; HET: MG;{Staphylococcus aureus (strain NCTC 8325)}
+Probab=10.54  E-value=2.7e+02  Score=11.09  Aligned_cols=6  Identities=67%  Similarity=1.027  Sum_probs=0.0  Template_Neff=7.000
+
+Q NVAVHV            1 NVAVHV    6 (6)
+Q Consensus         1 nvavhv    6 (6)
+                      ++.||+
+T Consensus        84 ~ivVHi   89 (117)
+T 6SJ6_9           84 DVVVHV   89 (117)
+T ss_pred             CEEEEe
+
+
+No 5
+>3ZY6_A PUTATIVE GDP-FUCOSE PROTEIN O-FUCOSYLTRANSFERASE 1; TRANSFERASE, GLYCOSYLTRANSFERASE, GT-B, CATALYTIC MECHANISM; HET: GFB; 1.91A {CAENORHABDITIS ELEGANS}
+Probab=9.96  E-value=2.9e+02  Score=11.66  Aligned_cols=5  Identities=80%  Similarity=1.132  Sum_probs=0.0  Template_Neff=9.800
+
+Q NVAVHV            2 VAVHV    6 (6)
+Q Consensus         2 vavhv    6 (6)
+                      ++||+
+T Consensus       214 iavHi  218 (362)
+T 3ZY6_A          214 VAVHL  218 (362)
+T ss_dssp             EEEEE
+T ss_pred             EEEEE
+
+
+No 6
+>6TKV_B Alpha-(1,6)-fucosyltransferase (E.C.2.4.1.68); Glycosyltransferase, sugar nucleotide, acceptor substrate; HET: GOL, BMA, MAN, NAG, GDP; 1.95A {Homo sapiens}
+Probab=9.61  E-value=3e+02  Score=12.25  Aligned_cols=5  Identities=60%  Similarity=1.092  Sum_probs=0.0  Template_Neff=9.300
+
+Q NVAVHV            2 VAVHV    6 (6)
+Q Consensus         2 vavhv    6 (6)
+                      |+|||
+T Consensus       253 vgvHi  257 (453)
+T 6TKV_B          253 IGVHV  257 (453)
+T ss_dssp             EEEEE
+T ss_pred             EEEEE
+
+
+No 7
+>3N3T_B PUTATIVE DIGUANYLATE CYCLASE/PHOSPHODIESTERASE; GGDEF & EAL DOMAINS, STRUCTURAL; HET: C2E; 2.35A {THIOBACILLUS DENITRIFICANS}
+Probab=8.79  E-value=3.4e+02  Score=10.90  Aligned_cols=5  Identities=40%  Similarity=0.561  Sum_probs=0.0  Template_Neff=10.200
+
+Q NVAVHV            1 NVAVH    5 (6)
+Q Consensus         1 nvavh    5 (6)
+                      +++||
+T Consensus       284 ~~~~~  288 (294)
+T 3N3T_B          284 QRPVH  288 (294)
+T ss_dssp             -----
+T ss_pred             CCCCC
+
+
+No 8
+>4WCW_B RsfS; Tuberculosis Ribosomal Silencing dimer, Structural; HET: MPD; 2.1A {Mycobacterium tuberculosis}
+Probab=8.04  E-value=3.9e+02  Score=11.21  Aligned_cols=6  Identities=33%  Similarity=0.994  Sum_probs=0.0  Template_Neff=6.400
+
+Q NVAVHV            1 NVAVHV    6 (6)
+Q Consensus         1 nvavhv    6 (6)
+                      ++.||+
+T Consensus        88 ~ivVHi   93 (139)
+T 4WCW_B           88 DIVVHI   93 (139)
+T ss_dssp             SEEEEE
+T ss_pred             CEEEEe
+
+
+No 9
+>4WCW_C RsfS; Tuberculosis Ribosomal Silencing dimer, Structural; HET: MPD; 2.1A {Mycobacterium tuberculosis}
+Probab=8.04  E-value=3.9e+02  Score=11.21  Aligned_cols=6  Identities=33%  Similarity=0.994  Sum_probs=0.0  Template_Neff=6.400
+
+Q NVAVHV            1 NVAVHV    6 (6)
+Q Consensus         1 nvavhv    6 (6)
+                      ++.||+
+T Consensus        88 ~ivVHi   93 (139)
+T 4WCW_C           88 DIVVHI   93 (139)
+T ss_dssp             SEEEEE
+T ss_pred             CEEEEe
+
+
+No 10
+>6X5T_C Alpha-(1,6)-fucosyltransferase (E.C.2.4.1.68); Glycosyl transferase, Fucosyl transferase, GT-B; HET: GOL, BMA, MAN, NAG, GDP; 2.47A {Homo sapiens}
+Probab=7.79  E-value=4e+02  Score=12.57  Aligned_cols=5  Identities=60%  Similarity=1.092  Sum_probs=0.0  Template_Neff=8.500
+
+Q NVAVHV            2 VAVHV    6 (6)
+Q Consensus         2 vavhv    6 (6)
+                      |+|||
+T Consensus       320 VgVHI  324 (535)
+T 6X5T_C          320 IGVHV  324 (535)
+T ss_dssp             EEEEE
+T ss_pred             EEEEE
+
+

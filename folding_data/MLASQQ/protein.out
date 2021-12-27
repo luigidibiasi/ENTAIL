@@ -1,0 +1,154 @@
+Query         MLASQQ
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 21:56:54 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/MLASQQ/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/MLASQQ/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6N3A_J TAR DNA-binding protein  68.2     4.3 4.7E-05   16.3   0.0    6    1-6      29-34  (50)
+  2 3HCP_A Ferrochelatase, mitocho  43.3      22 0.00025   15.2   0.0    6    1-6     353-358 (359)
+  3 2PO7_A FERROCHELATASE  H341C    25.6      67 0.00074   13.8   0.0    6    1-6     353-358 (359)
+  4 3HCN_A Ferrochelatase, mitocho  23.7      77 0.00085   13.6   0.0    6    1-6     353-358 (359)
+  5 5J1L_D ToxR-activated gene (Ta   7.9   4E+02  0.0044   10.5   0.0    6    1-6       1-6   (189)
+  6 5J1M_B ToxR-activated gene (Ta   7.9   4E+02  0.0044   10.5   0.0    6    1-6       1-6   (189)
+  7 6DV9_B DNA-directed RNA polyme   7.8   4E+02  0.0044   12.6   0.0    6    1-6      13-18  (359)
+  8 6STI_A Retinoic acid receptor    6.6   5E+02  0.0055   10.2   0.0    6    1-6       4-9   (244)
+  9 5A29_A EXOPOLYGALACTURONATE LY   6.3 5.3E+02  0.0059   14.4   0.0    5    2-6      84-88  (570)
+ 10 2V8I_A PECTATE LYASE (E.C.4.2.   6.2 5.4E+02  0.0059   14.3   0.0    5    2-6      57-61  (543)
+
+No 1
+>6N3A_J TAR DNA-binding protein 43, segA; Amyloid, TDP43, ALS, FTLD-TDP, dna; 3.3A {Homo sapiens}
+Probab=68.21  E-value=4.3  Score=16.28  Aligned_cols=6  Identities=100%  Similarity=1.016  Sum_probs=3.8  Template_Neff=2.200
+
+Q MLASQQ            1 MLASQQ    6 (6)
+Q Consensus         1 mlasqq    6 (6)
+                      |||+||
+T Consensus        29 Mla~Qq   34 (50)
+T 6N3A_J           29 MLASQQ   34 (50)
+T ss_dssp             EEEEEE
+T ss_pred             hHHhcC
+Confidence            566665
+
+
+No 2
+>3HCP_A Ferrochelatase, mitochondrial (E.C.4.99.1.1); ferrochelatase, metal selectivity, Disease mutation; HET: IMD, CHD, FDE; 2.0A {Homo sapiens}
+Probab=43.27  E-value=22  Score=15.16  Aligned_cols=6  Identities=50%  Similarity=0.656  Sum_probs=3.7  Template_Neff=9.100
+
+Q MLASQQ            1 MLASQQ    6 (6)
+Q Consensus         1 mlasqq    6 (6)
+                      |+++||
+T Consensus       353 ~~~~~~  358 (359)
+T 3HCP_A          353 FFTSQQ  358 (359)
+T ss_dssp             HHHTCC
+T ss_pred             HhhccC
+Confidence            466665
+
+
+No 3
+>2PO7_A FERROCHELATASE  H341C  FE2S2; HET: CHD; 2.2A {Homo sapiens}
+Probab=25.59  E-value=67  Score=13.79  Aligned_cols=6  Identities=50%  Similarity=0.656  Sum_probs=3.2  Template_Neff=9.100
+
+Q MLASQQ            1 MLASQQ    6 (6)
+Q Consensus         1 mlasqq    6 (6)
+                      |+++||
+T Consensus       353 ~~~~~~  358 (359)
+T 2PO7_A          353 FFTSQQ  358 (359)
+T ss_dssp             HHHTCC
+T ss_pred             HhhccC
+Confidence            355654
+
+
+No 4
+>3HCN_A Ferrochelatase, mitochondrial (E.C.4.99.1.1); ferrochelatase, metal selectivity, Disease mutation; HET: SO4, GOL, CHD, IMD, HEM; 1.6A {Homo sapiens}
+Probab=23.67  E-value=77  Score=13.62  Aligned_cols=6  Identities=50%  Similarity=0.656  Sum_probs=3.0  Template_Neff=9.100
+
+Q MLASQQ            1 MLASQQ    6 (6)
+Q Consensus         1 mlasqq    6 (6)
+                      |+++||
+T Consensus       353 ~~~~~~  358 (359)
+T 3HCN_A          353 FFTSQQ  358 (359)
+T ss_dssp             HHHTSC
+T ss_pred             HhhccC
+Confidence            345554
+
+
+No 5
+>5J1L_D ToxR-activated gene (TagE); M23B family metallopeptidase, Heterodimer, HYDROLASE; 2.27A {Helicobacter pylori}
+Probab=7.88  E-value=4e+02  Score=10.49  Aligned_cols=6  Identities=33%  Similarity=0.445  Sum_probs=0.0  Template_Neff=9.100
+
+Q MLASQQ            1 MLASQQ    6 (6)
+Q Consensus         1 mlasqq    6 (6)
+                      ||.+++
+T Consensus         1 ~~~~~~    6 (189)
+T 5J1L_D            1 MLDNLN    6 (189)
+T ss_dssp             ---CCC
+T ss_pred             Chhhcc
+
+
+No 6
+>5J1M_B ToxR-activated gene (TagE); M23B family metallopeptidase, Heterodimer, HYDROLASE; 2.35A {Helicobacter pylori}
+Probab=7.88  E-value=4e+02  Score=10.49  Aligned_cols=6  Identities=33%  Similarity=0.445  Sum_probs=0.0  Template_Neff=9.100
+
+Q MLASQQ            1 MLASQQ    6 (6)
+Q Consensus         1 mlasqq    6 (6)
+                      ||.+++
+T Consensus         1 ~~~~~~    6 (189)
+T 5J1M_B            1 MLDNLN    6 (189)
+T ss_dssp             --CCCC
+T ss_pred             Chhhcc
+
+
+No 7
+>6DV9_B DNA-directed RNA polymerase/ECF RNA polymerase; Mycobacterium tuberculosis, RNA polymerase, ECF; 3.8A {Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv)}
+Probab=7.79  E-value=4e+02  Score=12.56  Aligned_cols=6  Identities=67%  Similarity=0.772  Sum_probs=0.0  Template_Neff=7.000
+
+Q MLASQQ            1 MLASQQ    6 (6)
+Q Consensus         1 mlasqq    6 (6)
+                      ||.||+
+T Consensus        13 ~~~~~~   18 (359)
+T 6DV9_B           13 MLISQR   18 (359)
+T ss_dssp             CCCCCC
+T ss_pred             chhccC
+
+
+No 8
+>6STI_A Retinoic acid receptor beta, Nuclear; Nuclear receptor, Ligand binding, TRANSCRIPTION; HET: 754; 1.892A {Homo sapiens}
+Probab=6.60  E-value=5e+02  Score=10.23  Aligned_cols=6  Identities=33%  Similarity=0.379  Sum_probs=0.0  Template_Neff=10.000
+
+Q MLASQQ            1 MLASQQ    6 (6)
+Q Consensus         1 mlasqq    6 (6)
+                      |-+++|
+T Consensus         4 ~~~~~~    9 (244)
+T 6STI_A            4 MTSSAN    9 (244)
+T ss_dssp             ------
+T ss_pred             cCCCcc
+
+
+No 9
+>5A29_A EXOPOLYGALACTURONATE LYASE, PECTATE LYASE; LYASE, PECTIN, POLYSACCHARIDE LYASE, ENDOLYTIC; HET: SRT, EDO; 1.9A {VIBRIO VULNIFICUS}
+Probab=6.28  E-value=5.3e+02  Score=14.43  Aligned_cols=5  Identities=60%  Similarity=0.713  Sum_probs=0.0  Template_Neff=3.400
+
+Q MLASQQ            2 LASQQ    6 (6)
+Q Consensus         2 lasqq    6 (6)
+                      +||||
+T Consensus        84 fAsQQ   88 (570)
+T 5A29_A           84 FANQQ   88 (570)
+T ss_dssp             GGGCH
+T ss_pred             HHHHH
+
+
+No 10
+>2V8I_A PECTATE LYASE (E.C.4.2.2.2); LYASE, PERIPLASM, PECTATE LYASE, BETA-ELIMINATION; HET: IOD; 1.5A {YERSINIA ENTEROCOLITICA}
+Probab=6.24  E-value=5.4e+02  Score=14.33  Aligned_cols=5  Identities=40%  Similarity=0.640  Sum_probs=0.0  Template_Neff=3.400
+
+Q MLASQQ            2 LASQQ    6 (6)
+Q Consensus         2 lasqq    6 (6)
+                      +||||
+T Consensus        57 fAsQQ   61 (543)
+T 2V8I_A           57 FSAQQ   61 (543)
+T ss_dssp             GGGCH
+T ss_pred             HHHHH
+
+

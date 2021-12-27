@@ -1,0 +1,147 @@
+Query         MEWLRI
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 21:31:48 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/MEWLRI/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/MEWLRI/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6NU8_A Glycoside hydrolase fam  27.3      60 0.00066   14.1   0.0    6    1-6       1-6   (489)
+  2 3PUF_L Ribonuclease H2 subunit  25.0      70 0.00078   13.3   0.0    6    1-6     151-156 (167)
+  3 3P5J_C Ribonuclease H2 subunit  23.3      79 0.00088   13.1   0.0    6    1-6     150-155 (166)
+  4 6T4Q_LU 40S ribosomal protein   19.5 1.1E+02  0.0012   12.8   0.0    5    2-6      83-87  (100)
+  5 6R7Q_U 40S ribosomal protein S  19.0 1.1E+02  0.0012   12.6   0.0    5    2-6      82-86  (99)
+  6 6XU8_CU Specialised ribosome,   18.6 1.2E+02  0.0013   12.6   0.0    5    2-6      80-84  (99)
+  7 5XY3_U Ribosomal protein L8, p  18.5 1.2E+02  0.0013   12.8   0.0    5    2-6      84-88  (106)
+  8 6DEX_B ABR011Wp, Suppressor of  18.3 1.2E+02  0.0013   13.5   0.0    5    2-6     192-196 (201)
+  9 6Y6X_LU 60S ribosomal protein   18.3 1.2E+02  0.0013   12.6   0.0    5    2-6      80-84  (99)
+ 10 2KAP_A Rho GTPase-activating p  18.1 1.2E+02  0.0013   12.1   0.0    4    2-5       5-8   (60)
+
+No 1
+>6NU8_A Glycoside hydrolase family 62 protein; GH32, glycoside hydrolase, Lactobacillus gasseri; HET: FRU; 1.8A {Lactobacillus gasseri 224-1}
+Probab=27.33  E-value=60  Score=14.14  Aligned_cols=6  Identities=67%  Similarity=1.265  Sum_probs=3.0  Template_Neff=9.800
+
+Q MEWLRI            1 MEWLRI    6 (6)
+Q Consensus         1 mewlri    6 (6)
+                      |+|.|+
+T Consensus         1 ~~~~~~    6 (489)
+T 6NU8_A            1 MEWTRE    6 (489)
+T ss_dssp             -CCCHH
+T ss_pred             CCcchh
+Confidence            677653
+
+
+No 2
+>3PUF_L Ribonuclease H2 subunit A (E.C.3.1.26.4); RNase H fold, triple barrel; 3.1A {Homo sapiens}
+Probab=24.99  E-value=70  Score=13.32  Aligned_cols=6  Identities=17%  Similarity=0.955  Sum_probs=3.3  Template_Neff=7.100
+
+Q MEWLRI            1 MEWLRI    6 (6)
+Q Consensus         1 mewlri    6 (6)
+                      +||+++
+T Consensus       151 ~eW~~l  156 (167)
+T 3PUF_L          151 LTWPSL  156 (167)
+T ss_dssp             TTHHHH
+T ss_pred             HHHHHH
+Confidence            367653
+
+
+No 3
+>3P5J_C Ribonuclease H2 subunit A (E.C.3.1.26.4); RNase H2 fold, triple beta-barrel; 2.9A {Mus musculus}
+Probab=23.27  E-value=79  Score=13.10  Aligned_cols=6  Identities=17%  Similarity=0.916  Sum_probs=3.2  Template_Neff=7.200
+
+Q MEWLRI            1 MEWLRI    6 (6)
+Q Consensus         1 mewlri    6 (6)
+                      ++|+++
+T Consensus       150 ~eWi~l  155 (166)
+T 3P5J_C          150 LGWPSL  155 (166)
+T ss_dssp             TTHHHH
+T ss_pred             hHHHHH
+Confidence            366653
+
+
+No 4
+>6T4Q_LU 40S ribosomal protein S1-A, 40S; stalling dicodon codon pair, TRANSLATION; HET: MG; 2.6A {Saccharomyces cerevisiae}
+Probab=19.46  E-value=1.1e+02  Score=12.75  Aligned_cols=5  Identities=40%  Similarity=1.690  Sum_probs=0.0  Template_Neff=5.100
+
+Q MEWLRI            2 EWLRI    6 (6)
+Q Consensus         2 ewlri    6 (6)
+                      +|+|+
+T Consensus        83 dwlrV   87 (100)
+T 6T4Q_LU          83 DWIRF   87 (100)
+T ss_pred             cceEE
+
+
+No 5
+>6R7Q_U 40S ribosomal protein S30, 40S; translational pausing, XBP1, UPR, RIBOSOME; HET: MG; 3.9A {Oryctolagus cuniculus}
+Probab=19.04  E-value=1.1e+02  Score=12.64  Aligned_cols=5  Identities=60%  Similarity=1.910  Sum_probs=0.0  Template_Neff=5.200
+
+Q MEWLRI            2 EWLRI    6 (6)
+Q Consensus         2 ewlri    6 (6)
+                      +|+|+
+T Consensus        82 dwlrV   86 (99)
+T 6R7Q_U           82 DWLRV   86 (99)
+T ss_pred             ceeEE
+
+
+No 6
+>6XU8_CU Specialised ribosome, Drosophila melanogaster, Ovary; 3.0A {Drosophila melanogaster}
+Probab=18.57  E-value=1.2e+02  Score=12.64  Aligned_cols=5  Identities=40%  Similarity=1.830  Sum_probs=0.0  Template_Neff=5.100
+
+Q MEWLRI            2 EWLRI    6 (6)
+Q Consensus         2 ewlri    6 (6)
+                      +|+|+
+T Consensus        80 dwlrv   84 (99)
+T 6XU8_CU          80 DWIRV   84 (99)
+T ss_pred             cceEE
+
+
+No 7
+>5XY3_U Ribosomal protein L8, putative, Uncharacterized; Trichomonas vaginalis ribosome, rRNA, rprotein; 3.2A {Trichomonas vaginalis}
+Probab=18.53  E-value=1.2e+02  Score=12.81  Aligned_cols=5  Identities=0%  Similarity=0.289  Sum_probs=0.0  Template_Neff=5.000
+
+Q MEWLRI            2 EWLRI    6 (6)
+Q Consensus         2 ewlri    6 (6)
+                      +|+|+
+T Consensus        84 dwlrV   88 (106)
+T 5XY3_U           84 SRFHV   88 (106)
+T ss_pred             cceEE
+
+
+No 8
+>6DEX_B ABR011Wp, Suppressor of hydroxyurea sensitivity; Homologous recombination, Rad51 paralog, Shu; HET: NHE; 2.1A {Eremothecium gossypii ATCC 10895}
+Probab=18.34  E-value=1.2e+02  Score=13.51  Aligned_cols=5  Identities=60%  Similarity=1.816  Sum_probs=0.0  Template_Neff=6.100
+
+Q MEWLRI            2 EWLRI    6 (6)
+Q Consensus         2 ewlri    6 (6)
+                      |||+.
+T Consensus       192 ewl~l  196 (201)
+T 6DEX_B          192 EWLKL  196 (201)
+T ss_dssp             HHHHH
+T ss_pred             HHHhh
+
+
+No 9
+>6Y6X_LU 60S ribosomal protein L8, 60S; Translation inhibitor, ANTIBIOTIC; HET: OCW, MG; 2.8A {Homo sapiens}
+Probab=18.28  E-value=1.2e+02  Score=12.56  Aligned_cols=5  Identities=60%  Similarity=1.910  Sum_probs=0.0  Template_Neff=5.200
+
+Q MEWLRI            2 EWLRI    6 (6)
+Q Consensus         2 ewlri    6 (6)
+                      +|+|+
+T Consensus        80 d~lrV   84 (99)
+T 6Y6X_LU          80 DWLRV   84 (99)
+T ss_pred             ceeEE
+
+
+No 10
+>2KAP_A Rho GTPase-activating protein 7; Solution Structure, SAM domain, DLC-1; NMR {Homo sapiens}
+Probab=18.07  E-value=1.2e+02  Score=12.14  Aligned_cols=4  Identities=75%  Similarity=2.129  Sum_probs=0.0  Template_Neff=3.800
+
+Q MEWLRI            2 EWLR    5 (6)
+Q Consensus         2 ewlr    5 (6)
+                      +|||
+T Consensus         5 ~wlr    8 (60)
+T 2KAP_A            5 DWLR    8 (60)
+T ss_pred             HHHH
+
+

@@ -1,0 +1,149 @@
+Query         QQIVYK
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 09:25:32 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QQIVYK/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QQIVYK/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3HSB_B Protein hfq/RNA complex  19.7   1E+02  0.0012   11.9   0.0    6    1-6      56-61  (78)
+  2 2MCQ_A Uncharacterized protein  19.2 1.1E+02  0.0012   11.3   0.0    6    1-6      51-56  (77)
+  3 2NCL_A BolA-like protein 3; cl  17.1 1.3E+02  0.0014   11.4   0.0    6    1-6      55-60  (81)
+  4 6L7C_Q Curli production assemb  16.7 1.4E+02  0.0015   13.3   0.0    6    1-6      20-25  (138)
+  5 2Y3M_B PROTEIN TRANSPORT PROTE  16.3 1.4E+02  0.0016   11.1   0.0    5    1-5     171-175 (175)
+  6 5M1U_A Curli production assemb  15.5 1.5E+02  0.0017   13.0   0.0    6    1-6       3-8   (127)
+  7 6LQJ_e Curli production assemb  15.1 1.6E+02  0.0018   13.2   0.0    6    1-6      20-25  (144)
+  8 1XS3_A hypothetical protein XC  14.5 1.7E+02  0.0019   11.0   0.0    6    1-6      52-57  (80)
+  9 2KZ0_A BolA family protein; Bo  14.2 1.7E+02  0.0019   11.1   0.0    6    1-6      54-59  (76)
+ 10 4O1Z_B Prostaglandin G/H synth  13.1   2E+02  0.0022   13.7   0.0    6    1-6     310-315 (569)
+
+No 1
+>3HSB_B Protein hfq/RNA complex; Sm-like motif, Protein-RNA complex, RNA-binding; 2.2A {Bacillus subtilis}
+Probab=19.71  E-value=1e+02  Score=11.94  Aligned_cols=6  Identities=67%  Similarity=1.237  Sum_probs=0.0  Template_Neff=5.900
+
+Q QQIVYK            1 QQIVYK    6 (6)
+Q Consensus         1 qqivyk    6 (6)
+                      ++++||
+T Consensus        56 ~~lI~K   61 (78)
+T 3HSB_B           56 QQLIYK   61 (78)
+T ss_dssp             EEEEEG
+T ss_pred             EEEEEe
+
+
+No 2
+>2MCQ_A Uncharacterized protein RP812; UNKNOWN FUNCTION; NMR {Rickettsia prowazekii}
+Probab=19.17  E-value=1.1e+02  Score=11.35  Aligned_cols=6  Identities=17%  Similarity=0.423  Sum_probs=0.0  Template_Neff=7.000
+
+Q QQIVYK            1 QQIVYK    6 (6)
+Q Consensus         1 qqivyk    6 (6)
+                      +++||+
+T Consensus        51 hr~Vy~   56 (77)
+T 2MCQ_A           51 HKLVKN   56 (77)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 3
+>2NCL_A BolA-like protein 3; class II KH-like fold, mitochondrial; NMR {Homo sapiens}
+Probab=17.13  E-value=1.3e+02  Score=11.38  Aligned_cols=6  Identities=33%  Similarity=0.551  Sum_probs=0.0  Template_Neff=6.700
+
+Q QQIVYK            1 QQIVYK    6 (6)
+Q Consensus         1 qqivyk    6 (6)
+                      ++.||+
+T Consensus        55 hr~V~~   60 (81)
+T 2NCL_A           55 HQMVNQ   60 (81)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 4
+>6L7C_Q Curli production assembly/transport protein CsgG; Biofilm, Curli biogenesis system, CsgFG; 3.34A {Escherichia coli O69:H11 str. 08-4661}
+Probab=16.70  E-value=1.4e+02  Score=13.28  Aligned_cols=6  Identities=0%  Similarity=0.451  Sum_probs=0.0  Template_Neff=4.600
+
+Q QQIVYK            1 QQIVYK    6 (6)
+Q Consensus         1 qqivyk    6 (6)
+                      |++||+
+T Consensus        20 ~eLVY~   25 (138)
+T 6L7C_Q           20 GTMTFQ   25 (138)
+T ss_dssp             CCCCCC
+T ss_pred             hcccce
+
+
+No 5
+>2Y3M_B PROTEIN TRANSPORT PROTEIN HOFQ; TRANSPORT PROTEIN, SECRETIN, DNA UPTAKE; HET: GOL; 2.3A {AGGREGATIBACTER ACTINOMYCETEMCOMITANS}
+Probab=16.28  E-value=1.4e+02  Score=11.08  Aligned_cols=5  Identities=40%  Similarity=0.873  Sum_probs=0.0  Template_Neff=10.000
+
+Q QQIVYK            1 QQIVY    5 (6)
+Q Consensus         1 qqivy    5 (6)
+                      +||.|
+T Consensus       171 ~qV~~  175 (175)
+T 2Y3M_B          171 EQLEY  175 (175)
+T ss_dssp             -----
+T ss_pred             hHhcC
+
+
+No 6
+>5M1U_A Curli production assembly/transport component CsgF; Curli, Type VIII secretion system; NMR {Escherichia coli}
+Probab=15.49  E-value=1.5e+02  Score=13.01  Aligned_cols=6  Identities=0%  Similarity=0.451  Sum_probs=0.0  Template_Neff=4.500
+
+Q QQIVYK            1 QQIVYK    6 (6)
+Q Consensus         1 qqivyk    6 (6)
+                      |++||+
+T Consensus         3 ~eLVY~    8 (127)
+T 5M1U_A            3 GTMTFQ    8 (127)
+T ss_dssp             CCSTTC
+T ss_pred             CcceeE
+
+
+No 7
+>6LQJ_e Curli production assembly/transport component CsgG; curli, TRANSPORT PROTEIN;{Escherichia coli K-12}
+Probab=15.06  E-value=1.6e+02  Score=13.24  Aligned_cols=6  Identities=0%  Similarity=0.451  Sum_probs=0.0  Template_Neff=4.400
+
+Q QQIVYK            1 QQIVYK    6 (6)
+Q Consensus         1 qqivyk    6 (6)
+                      |++||+
+T Consensus        20 ~eLVY~   25 (144)
+T 6LQJ_e           20 GTMTFQ   25 (144)
+T ss_pred             hcccce
+
+
+No 8
+>1XS3_A hypothetical protein XC975; BolA-like, STRUCTURAL GENOMICS, An integrated; NMR {N/A}
+Probab=14.49  E-value=1.7e+02  Score=11.02  Aligned_cols=6  Identities=33%  Similarity=0.888  Sum_probs=0.0  Template_Neff=6.800
+
+Q QQIVYK            1 QQIVYK    6 (6)
+Q Consensus         1 qqivyk    6 (6)
+                      ++.||+
+T Consensus        52 hr~Vy~   57 (80)
+T 1XS3_A           52 HRMVYA   57 (80)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 9
+>2KZ0_A BolA family protein; BolA protein family, human monocytotropic; NMR {Ehrlichia chaffeensis}
+Probab=14.17  E-value=1.7e+02  Score=11.11  Aligned_cols=6  Identities=33%  Similarity=1.071  Sum_probs=0.0  Template_Neff=6.300
+
+Q QQIVYK            1 QQIVYK    6 (6)
+Q Consensus         1 qqivyk    6 (6)
+                      +|.||+
+T Consensus        54 Hr~V~~   59 (76)
+T 2KZ0_A           54 HRMIYK   59 (76)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 10
+>4O1Z_B Prostaglandin G/H synthase 1 (E.C.1.14.99.1); dioxygenase, peroxidase, NSAIDs, glycosylation, Membrane; HET: HEM, MXM, NAG; 2.4A {Ovis aries}
+Probab=13.13  E-value=2e+02  Score=13.67  Aligned_cols=6  Identities=33%  Similarity=0.418  Sum_probs=0.0  Template_Neff=8.400
+
+Q QQIVYK            1 QQIVYK    6 (6)
+Q Consensus         1 qqivyk    6 (6)
+                      |+|+|.
+T Consensus       310 Q~I~y~  315 (569)
+T 4O1Z_B          310 IKIVIE  315 (569)
+T ss_dssp             HHHCCC
+T ss_pred             hhhHHH
+
+

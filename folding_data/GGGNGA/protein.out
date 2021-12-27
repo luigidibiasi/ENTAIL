@@ -1,0 +1,152 @@
+Query         GGGNGA
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 00:13:09 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GGGNGA/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GGGNGA/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 1T0C_A Insulin; type I beta-tu  38.5      29 0.00033   13.1   0.0    6    1-6      13-18  (31)
+  2 4D10_A COP9 SIGNALOSOME COMPLE  28.4      55 0.00061   14.6   0.0    6    1-6       1-6   (480)
+  3 3AUX_A DNA double-strand break  20.0   1E+02  0.0011   11.5   0.0    5    2-6      32-36  (371)
+  4 3QKS_A DNA double-strand break  19.9   1E+02  0.0011   11.4   0.0    5    2-6      30-34  (203)
+  5 3I36_A Vascular protein tyrosi  19.3 1.1E+02  0.0012   12.8   0.0    5    1-5     335-339 (342)
+  6 1II8_A Rad50 ABC-ATPase; Rad50  19.3 1.1E+02  0.0012   10.9   0.0    5    2-6      30-34  (195)
+  7 5XYV_B RHINO, Protein deadlock  18.9 1.1E+02  0.0012   10.4   0.0    6    1-6      73-78  (78)
+  8 2IHD_A Regulator of G-protein   18.5 1.2E+02  0.0013   11.6   0.0    4    1-4      14-17  (155)
+  9 3NDB_B Signal recognition part  18.1 1.2E+02  0.0013   13.8   0.0    5    1-5     435-439 (454)
+ 10 6O5B_J Calcium uniporter prote  17.8 1.2E+02  0.0014   14.7   0.0    6    1-6      18-23  (351)
+
+No 1
+>1T0C_A Insulin; type I beta-turn, bend, type; NMR {Homo sapiens}
+Probab=38.52  E-value=29  Score=13.06  Aligned_cols=6  Identities=83%  Similarity=1.547  Sum_probs=3.1  Template_Neff=1.300
+
+Q GGGNGA            1 GGGNGA    6 (6)
+Q Consensus         1 gggnga    6 (6)
+                      |||.||
+T Consensus        13 gggpga   18 (31)
+T 1T0C_A           13 GGGPGA   18 (31)
+T ss_dssp             CCSTTS
+T ss_pred             CCCCCC
+Confidence            455553
+
+
+No 2
+>4D10_A COP9 SIGNALOSOME COMPLEX SUBUNIT 1; SIGNALING PROTEIN; 3.8A {HOMO SAPIENS}
+Probab=28.41  E-value=55  Score=14.59  Aligned_cols=6  Identities=83%  Similarity=1.614  Sum_probs=0.0  Template_Neff=9.100
+
+Q GGGNGA            1 GGGNGA    6 (6)
+Q Consensus         1 gggnga    6 (6)
+                      |||.|+
+T Consensus         1 ~~~~~~    6 (480)
+T 4D10_A            1 GGGRGA    6 (480)
+T ss_dssp             ------
+T ss_pred             CCCCCC
+Confidence            566664
+
+
+No 3
+>3AUX_A DNA double-strand break repair rad50; DNA repair, ABC transporter ATPase; HET: ADP; 2.8A {Methanocaldococcus jannaschii, Methanocaldococcus jannaschii}
+Probab=19.98  E-value=1e+02  Score=11.53  Aligned_cols=5  Identities=60%  Similarity=1.152  Sum_probs=0.0  Template_Neff=12.400
+
+Q GGGNGA            2 GGNGA    6 (6)
+Q Consensus         2 ggnga    6 (6)
+                      |.||+
+T Consensus        32 G~Ngs   36 (371)
+T 3AUX_A           32 GENGS   36 (371)
+T ss_dssp             CCTTS
+T ss_pred             cCCCC
+
+
+No 4
+>3QKS_A DNA double-strand break repair rad50; RecA-like fold, coiled-coils, ATPase, exonuclease; 2.1A {Pyrococcus furiosus}
+Probab=19.86  E-value=1e+02  Score=11.39  Aligned_cols=5  Identities=60%  Similarity=1.139  Sum_probs=0.0  Template_Neff=10.600
+
+Q GGGNGA            2 GGNGA    6 (6)
+Q Consensus         2 ggnga    6 (6)
+                      |.||+
+T Consensus        30 G~NG~   34 (203)
+T 3QKS_A           30 GQNGS   34 (203)
+T ss_dssp             CCTTS
+T ss_pred             cCCCC
+
+
+No 5
+>3I36_A Vascular protein tyrosine phosphatase 1; PTP, Tyrosine Phosphatase, Hydrolase; 1.841A {Rattus norvegicus}
+Probab=19.31  E-value=1.1e+02  Score=12.79  Aligned_cols=5  Identities=60%  Similarity=1.092  Sum_probs=0.0  Template_Neff=9.700
+
+Q GGGNGA            1 GGGNG    5 (6)
+Q Consensus         1 gggng    5 (6)
+                      |+|+|
+T Consensus       335 ~~~~~  339 (342)
+T 3I36_A          335 GKANG  339 (342)
+T ss_dssp             -----
+T ss_pred             ccccc
+
+
+No 6
+>1II8_A Rad50 ABC-ATPase; Rad50, Mre11, DNA double-strand break; HET: PO4; 3.02A {Pyrococcus furiosus} SCOP: c.37.1.12
+Probab=19.28  E-value=1.1e+02  Score=10.94  Aligned_cols=5  Identities=60%  Similarity=1.139  Sum_probs=0.0  Template_Neff=11.200
+
+Q GGGNGA            2 GGNGA    6 (6)
+Q Consensus         2 ggnga    6 (6)
+                      |.||+
+T Consensus        30 G~Ng~   34 (195)
+T 1II8_A           30 GQNGS   34 (195)
+T ss_dssp             CCTTS
+T ss_pred             cCCCC
+
+
+No 7
+>5XYV_B RHINO, Protein deadlock; piRNA pathway, Chromoshadow, Complex, PROTEIN; 2.1A {Drosophila melanogaster}
+Probab=18.94  E-value=1.1e+02  Score=10.41  Aligned_cols=6  Identities=50%  Similarity=1.232  Sum_probs=0.0  Template_Neff=8.900
+
+Q GGGNGA            1 GGGNGA    6 (6)
+Q Consensus         1 gggnga    6 (6)
+                      ++|+|.
+T Consensus        73 ~~~~~~   78 (78)
+T 5XYV_B           73 GSGSGS   78 (78)
+T ss_dssp             ------
+T ss_pred             CCCCCC
+
+
+No 8
+>2IHD_A Regulator of G-protein signaling 8; RGS8  RGS  signaling; 1.7A {Homo sapiens}
+Probab=18.54  E-value=1.2e+02  Score=11.56  Aligned_cols=4  Identities=50%  Similarity=0.709  Sum_probs=0.0  Template_Neff=9.100
+
+Q GGGNGA            1 GGGN    4 (6)
+Q Consensus         1 gggn    4 (6)
+                      ||||
+T Consensus        14 ~~~~   17 (155)
+T 2IHD_A           14 GTEN   17 (155)
+T ss_dssp             ----
+T ss_pred             Ccch
+
+
+No 9
+>3NDB_B Signal recognition particle 19 kDa; protein-RNA complex, signal recognition particle; 3.0A {Methanocaldococcus jannaschii}
+Probab=18.15  E-value=1.2e+02  Score=13.78  Aligned_cols=5  Identities=60%  Similarity=1.405  Sum_probs=0.0  Template_Neff=8.600
+
+Q GGGNGA            1 GGGNG    5 (6)
+Q Consensus         1 gggng    5 (6)
+                      |||||
+T Consensus       435 ~~~~~  439 (454)
+T 3NDB_B          435 GSGSG  439 (454)
+T ss_dssp             -----
+T ss_pred             CchhH
+
+
+No 10
+>6O5B_J Calcium uniporter protein, mitochondrial, Essential; ion channel, complex, membrane protein; 3.6A {Homo sapiens}
+Probab=17.85  E-value=1.2e+02  Score=14.70  Aligned_cols=6  Identities=83%  Similarity=1.620  Sum_probs=0.0  Template_Neff=5.700
+
+Q GGGNGA            1 GGGNGA    6 (6)
+Q Consensus         1 gggnga    6 (6)
+                      |||.||
+T Consensus        18 ~~~~~~   23 (351)
+T 6O5B_J           18 GGGGGA   23 (351)
+T ss_dssp             ------
+T ss_pred             CCCCCc
+
+

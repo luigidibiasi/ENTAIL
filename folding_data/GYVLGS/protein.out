@@ -1,0 +1,190 @@
+Query         GYVLGS
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 05:53:37 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GYVLGS/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GYVLGS/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 1Y16_A prion protein, PrP, Prn  60.0     7.8 8.6E-05   17.4   0.0    6    1-6       7-12  (112)
+  2 6AQ7_A Major prion protein, PO  56.5     9.9 0.00011   17.3   0.0    6    1-6      23-28  (122)
+  3 1U5L_A prion protein; Prnp, Pr  51.5      13 0.00015   16.0   0.0    6    1-6       9-14  (108)
+  4 1U3M_A prion-like protein; PRI  50.4      14 0.00016   16.1   0.0    6    1-6       9-14  (117)
+  5 6HER_A Nanobody 484, Mouse Pri  44.6      20 0.00023   15.6   0.0    6    1-6      10-15  (110)
+  6 7CQM_A selenourea, Se-SAD, LCP  41.6      25 0.00027   15.1   0.0    6    1-6      11-16  (201)
+  7 5XJ5_A Glycerol-3-phosphate ac  35.9      34 0.00038   14.8   0.0    6    1-6      11-16  (201)
+  8 4HLS_B Major prion protein; pr  30.1      50 0.00055   15.2   0.0    6    1-6      29-34  (132)
+  9 4HMM_A Major prion protein; pr  30.1      50 0.00055   15.2   0.0    6    1-6      29-34  (132)
+ 10 7LNA_A infectious mammalian pr  27.4      59 0.00065   15.1   0.0    6    1-6      38-43  (142)
+ 11 4N9O_A Major prion protein, Na  25.5      68 0.00075   14.9   0.0    6    1-6      38-43  (142)
+ 12 2LFT_A Major prion protein; pr  24.1      75 0.00083   14.8   0.0    6    1-6      38-43  (142)
+
+No 1
+>1Y16_A prion protein, PrP, PrnP, TSE; NMR {Mus musculus}
+Probab=60.04  E-value=7.8  Score=17.36  Aligned_cols=6  Identities=83%  Similarity=1.597  Sum_probs=4.7  Template_Neff=2.400
+
+Q GYVLGS            1 GYVLGS    6 (6)
+Q Consensus         1 gyvlgs    6 (6)
+                      ||.|||
+T Consensus         7 GY~LGs   12 (112)
+T 1Y16_A            7 GYMLGS   12 (112)
+T ss_dssp             SCEECS
+T ss_pred             HHhHHh
+Confidence            688886
+
+
+No 2
+>6AQ7_A Major prion protein, POM6 FAB; Prion, antibody, chaperone, antigen-antibody, IMMUNE; HET: TCE, GOL; 1.83A {Mus musculus}
+Probab=56.52  E-value=9.9  Score=17.27  Aligned_cols=6  Identities=83%  Similarity=1.597  Sum_probs=4.3  Template_Neff=2.300
+
+Q GYVLGS            1 GYVLGS    6 (6)
+Q Consensus         1 gyvlgs    6 (6)
+                      ||.|||
+T Consensus        23 GY~LGs   28 (122)
+T 6AQ7_A           23 GYMLGS   28 (122)
+T ss_dssp             CCEECC
+T ss_pred             HHhHHh
+Confidence            677775
+
+
+No 3
+>1U5L_A prion protein; Prnp, PrP, prion, TSE, MEMBRANE; NMR {Trachemys scripta} SCOP: d.6.1.1
+Probab=51.53  E-value=13  Score=16.02  Aligned_cols=6  Identities=83%  Similarity=1.514  Sum_probs=4.1  Template_Neff=3.900
+
+Q GYVLGS            1 GYVLGS    6 (6)
+Q Consensus         1 gyvlgs    6 (6)
+                      ||.|||
+T Consensus         9 gy~lG~   14 (108)
+T 1U5L_A            9 GYALGS   14 (108)
+T ss_dssp             TSEECC
+T ss_pred             hhhccc
+Confidence            677775
+
+
+No 4
+>1U3M_A prion-like protein; PRION PROTEIN, TSE, PRP, MEMBRANE; NMR {Gallus gallus} SCOP: d.6.1.1
+Probab=50.37  E-value=14  Score=16.15  Aligned_cols=6  Identities=50%  Similarity=1.315  Sum_probs=4.2  Template_Neff=3.800
+
+Q GYVLGS            1 GYVLGS    6 (6)
+Q Consensus         1 gyvlgs    6 (6)
+                      ||.|||
+T Consensus         9 gy~lG~   14 (117)
+T 1U3M_A            9 GYAMGR   14 (117)
+T ss_dssp             CCEECC
+T ss_pred             hhhccc
+Confidence            677775
+
+
+No 5
+>6HER_A Nanobody 484, Mouse Prion protein; Prion, Nanobody, aggregation, B-sheet, PROTEIN; HET: SO4; 1.199A {Mus musculus}
+Probab=44.64  E-value=20  Score=15.58  Aligned_cols=6  Identities=83%  Similarity=1.597  Sum_probs=3.2  Template_Neff=3.800
+
+Q GYVLGS            1 GYVLGS    6 (6)
+Q Consensus         1 gyvlgs    6 (6)
+                      ||.|||
+T Consensus        10 gy~lG~   15 (110)
+T 6HER_A           10 GYMLGS   15 (110)
+T ss_dssp             EEC-CC
+T ss_pred             HHhhhc
+Confidence            577775
+
+
+No 6
+>7CQM_A selenourea, Se-SAD, LCP, PlsY, TRANSFERASE; HET: SO4, SEY, 79M; 1.8A {Aquifex aeolicus VF5}
+Probab=41.57  E-value=25  Score=15.10  Aligned_cols=6  Identities=67%  Similarity=1.270  Sum_probs=3.7  Template_Neff=6.900
+
+Q GYVLGS            1 GYVLGS    6 (6)
+Q Consensus         1 gyvlgs    6 (6)
+                      +|.+||
+T Consensus        11 ~Yl~Gs   16 (201)
+T 7CQM_A           11 AYLLGS   16 (201)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHc
+Confidence            466665
+
+
+No 7
+>5XJ5_A Glycerol-3-phosphate acyltransferase (E.C.2.3.1.-); glycerol 3-phosphate acyltransferase, glycerylphosphate acyltransferase; HET: FME, PGE, 78M, SO4; 1.481A {Aquifex aeolicus}
+Probab=35.95  E-value=34  Score=14.78  Aligned_cols=6  Identities=67%  Similarity=1.270  Sum_probs=3.5  Template_Neff=6.700
+
+Q GYVLGS            1 GYVLGS    6 (6)
+Q Consensus         1 gyvlgs    6 (6)
+                      ||.+||
+T Consensus        11 ~Yl~Gs   16 (201)
+T 5XJ5_A           11 AYLLGS   16 (201)
+T ss_dssp             HHHHHT
+T ss_pred             HHHHHc
+Confidence            466665
+
+
+No 8
+>4HLS_B Major prion protein; prp, prion, membrane, MEMBRANE PROTEIN; HET: GOL; 1.45A {Oryctolagus cuniculus}
+Probab=30.06  E-value=50  Score=15.22  Aligned_cols=6  Identities=83%  Similarity=1.597  Sum_probs=3.5  Template_Neff=2.600
+
+Q GYVLGS            1 GYVLGS    6 (6)
+Q Consensus         1 gyvlgs    6 (6)
+                      ||.||+
+T Consensus        29 GY~LGr   34 (132)
+T 4HLS_B           29 GYMLGS   34 (132)
+T ss_dssp             CCEECC
+T ss_pred             HHHhhc
+Confidence            566664
+
+
+No 9
+>4HMM_A Major prion protein; prp, prion, membrane, MEMBRANE PROTEIN; HET: GOL; 1.5A {Oryctolagus cuniculus}
+Probab=30.06  E-value=50  Score=15.22  Aligned_cols=6  Identities=83%  Similarity=1.597  Sum_probs=3.5  Template_Neff=2.600
+
+Q GYVLGS            1 GYVLGS    6 (6)
+Q Consensus         1 gyvlgs    6 (6)
+                      ||.||+
+T Consensus        29 GY~LGr   34 (132)
+T 4HMM_A           29 GYMLGS   34 (132)
+T ss_dssp             CCEECC
+T ss_pred             HHHhhc
+Confidence            566664
+
+
+No 10
+>7LNA_A infectious mammalian prion, templating, glycosylated; 3.1A {Mesocricetus auratus}
+Probab=27.45  E-value=59  Score=15.14  Aligned_cols=6  Identities=83%  Similarity=1.597  Sum_probs=3.4  Template_Neff=2.600
+
+Q GYVLGS            1 GYVLGS    6 (6)
+Q Consensus         1 gyvlgs    6 (6)
+                      ||.||+
+T Consensus        38 GY~LGr   43 (142)
+T 7LNA_A           38 GYMLGS   43 (142)
+T ss_dssp             CSCBSC
+T ss_pred             HHHhHh
+Confidence            566664
+
+
+No 11
+>4N9O_A Major prion protein, Nanobody Nb484; Prion-like fold, antibody, nanobody, MEMBRANE; 1.5A {Homo sapiens}
+Probab=25.47  E-value=68  Score=14.93  Aligned_cols=6  Identities=83%  Similarity=1.597  Sum_probs=3.3  Template_Neff=2.700
+
+Q GYVLGS            1 GYVLGS    6 (6)
+Q Consensus         1 gyvlgs    6 (6)
+                      ||.||+
+T Consensus        38 GY~LGr   43 (142)
+T 4N9O_A           38 GYMLGS   43 (142)
+T ss_dssp             EEEECC
+T ss_pred             HHHHHc
+Confidence            466654
+
+
+No 12
+>2LFT_A Major prion protein; protective mutant, membrane protein, protein; NMR {Homo sapiens}
+Probab=24.12  E-value=75  Score=14.80  Aligned_cols=6  Identities=83%  Similarity=1.597  Sum_probs=3.3  Template_Neff=2.700
+
+Q GYVLGS            1 GYVLGS    6 (6)
+Q Consensus         1 gyvlgs    6 (6)
+                      ||.||+
+T Consensus        38 GY~LGr   43 (142)
+T 2LFT_A           38 GYMLGS   43 (142)
+T ss_dssp             SCCEEE
+T ss_pred             HHHHHc
+Confidence            456654
+
+

@@ -1,0 +1,155 @@
+Query         AIVAGS
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 14:35:39 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/AIVAGS/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/AIVAGS/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 1ZRX_A stomoxyn; helical pepti  60.4     7.6 8.5E-05   15.3   0.0    6    1-6      29-34  (42)
+  2 2A8Y_J 5'-methylthioadenosine   25.4      68 0.00075   13.1   0.0    6    1-6      11-16  (270)
+  3 3T94_D 5'-methylthioadenosine   25.4      68 0.00075   13.1   0.0    6    1-6      11-16  (270)
+  4 1WTA_A 5'-methylthioadenosine   23.2      80 0.00088   13.0   0.0    6    1-6      15-20  (275)
+  5 3OZB_C Methylthioadenosine pho  22.0      88 0.00097   12.8   0.0    6    1-6      19-24  (259)
+  6 5TC6_A S-methyl-5'-thioadenosi  20.4      99  0.0011   13.2   0.0    6    1-6      27-32  (297)
+  7 1G2O_A PURINE NUCLEOSIDE PHOSP  19.5 1.1E+02  0.0012   12.9   0.0    6    1-6      31-36  (268)
+  8 3FUC_C Purine nucleoside phosp  18.9 1.1E+02  0.0012   12.7   0.0    6    1-6      28-33  (284)
+  9 1TCV_B purine-nucleoside phosp  18.8 1.1E+02  0.0012   12.6   0.0    6    1-6      30-35  (287)
+ 10 3E9R_B Purine-nucleoside phosp  18.8 1.1E+02  0.0012   12.6   0.0    6    1-6      30-35  (287)
+
+No 1
+>1ZRX_A stomoxyn; helical peptide in TFE, ANTIMICROBIAL; NMR {N/A}
+Probab=60.38  E-value=7.6  Score=15.33  Aligned_cols=6  Identities=67%  Similarity=1.099  Sum_probs=3.9  Template_Neff=1.300
+
+Q AIVAGS            1 AIVAGS    6 (6)
+Q Consensus         1 aivags    6 (6)
+                      ||+|||
+T Consensus        29 aviags   34 (42)
+T 1ZRX_A           29 AVIAGS   34 (42)
+T ss_dssp             TTTGGG
+T ss_pred             hhhccc
+Confidence            467775
+
+
+No 2
+>2A8Y_J 5'-methylthioadenosine phosphorylase (mtaP) (E.C.2.4.2.28); alpha/beta, beta sheet, beta barrel; HET: MTA, SO4; 1.45A {Sulfolobus solfataricus}
+Probab=25.41  E-value=68  Score=13.12  Aligned_cols=6  Identities=50%  Similarity=0.938  Sum_probs=3.1  Template_Neff=9.300
+
+Q AIVAGS            1 AIVAGS    6 (6)
+Q Consensus         1 aivags    6 (6)
+                      |||.||
+T Consensus        11 ~ii~Gs   16 (270)
+T 2A8Y_J           11 GIIGGS   16 (270)
+T ss_dssp             EEEECT
+T ss_pred             EEEeCC
+Confidence            355554
+
+
+No 3
+>3T94_D 5'-methylthioadenosine phosphorylase (MtaP) (E.C.2.4.2.28); ALPHA/BETA, BETA BARREL, nucleoside phosphorylase; HET: MTA, SO4; 1.452A {Sulfolobus solfataricus}
+Probab=25.41  E-value=68  Score=13.12  Aligned_cols=6  Identities=50%  Similarity=0.938  Sum_probs=3.1  Template_Neff=9.300
+
+Q AIVAGS            1 AIVAGS    6 (6)
+Q Consensus         1 aivags    6 (6)
+                      |||.||
+T Consensus        11 ~ii~Gs   16 (270)
+T 3T94_D           11 GIIGGS   16 (270)
+T ss_dssp             EEEECT
+T ss_pred             EEEeCC
+Confidence            355554
+
+
+No 4
+>1WTA_A 5'-methylthioadenosine phosphorylase (E.C.2.4.2.28); A/B STRUCTURE, TRANSFERASE; HET: ADE; 1.78A {Aeropyrum pernix}
+Probab=23.24  E-value=80  Score=13.02  Aligned_cols=6  Identities=33%  Similarity=0.888  Sum_probs=2.9  Template_Neff=9.200
+
+Q AIVAGS            1 AIVAGS    6 (6)
+Q Consensus         1 aivags    6 (6)
+                      |||.||
+T Consensus        15 aii~Gs   20 (275)
+T 1WTA_A           15 GVIGGS   20 (275)
+T ss_pred             EEEeCC
+Confidence            355554
+
+
+No 5
+>3OZB_C Methylthioadenosine phosphorylase (E.C.2.4.2.28); 5'-methylthioinosine, phosphorylase, TRANSFERASE; HET: SO4, HPA; 2.8A {Pseudomonas aeruginosa}
+Probab=21.98  E-value=88  Score=12.79  Aligned_cols=6  Identities=50%  Similarity=1.005  Sum_probs=2.9  Template_Neff=9.200
+
+Q AIVAGS            1 AIVAGS    6 (6)
+Q Consensus         1 aivags    6 (6)
+                      +||.||
+T Consensus        19 ~iI~Gs   24 (259)
+T 3OZB_C           19 AIIGGT   24 (259)
+T ss_dssp             EEEECT
+T ss_pred             EEEeCC
+Confidence            355554
+
+
+No 6
+>5TC6_A S-methyl-5'-thioadenosine phosphorylase (E.C.2.4.2.28); phosphorylase, inhibitor, complex, TRANSFERASE-TRANSFERASE INHIBITOR; HET: 7A6; 1.48A {Homo sapiens}
+Probab=20.35  E-value=99  Score=13.21  Aligned_cols=6  Identities=33%  Similarity=0.900  Sum_probs=2.9  Template_Neff=8.600
+
+Q AIVAGS            1 AIVAGS    6 (6)
+Q Consensus         1 aivags    6 (6)
+                      +||.||
+T Consensus        27 ~II~Gs   32 (297)
+T 5TC6_A           27 GIIGGT   32 (297)
+T ss_dssp             EEEEBT
+T ss_pred             EEEeCC
+Confidence            355554
+
+
+No 7
+>1G2O_A PURINE NUCLEOSIDE PHOSPHORYLASE (E.C.2.4.2.1); trimer, transition-state complex, TRANSFERASE; HET: PO4, IMH; 1.75A {Mycobacterium tuberculosis} SCOP: c.56.2.1
+Probab=19.46  E-value=1.1e+02  Score=12.93  Aligned_cols=6  Identities=67%  Similarity=0.916  Sum_probs=0.0  Template_Neff=8.600
+
+Q AIVAGS            1 AIVAGS    6 (6)
+Q Consensus         1 aivags    6 (6)
+                      ||+.||
+T Consensus        31 ~iI~Gs   36 (268)
+T 1G2O_A           31 AVVLGS   36 (268)
+T ss_dssp             EEEECT
+T ss_pred             EEEeCC
+
+
+No 8
+>3FUC_C Purine nucleoside phosphorylase (E.C.2.4.2.1); purine nucleoside phosphorylase, recombinant, glycosyltransferase; HET: 9D9; 1.45A {Bos taurus}
+Probab=18.91  E-value=1.1e+02  Score=12.67  Aligned_cols=6  Identities=50%  Similarity=0.994  Sum_probs=0.0  Template_Neff=9.200
+
+Q AIVAGS            1 AIVAGS    6 (6)
+Q Consensus         1 aivags    6 (6)
+                      +||.||
+T Consensus        28 ~iI~Gs   33 (284)
+T 3FUC_C           28 AVICGS   33 (284)
+T ss_dssp             EEEECT
+T ss_pred             EEEeCC
+
+
+No 9
+>1TCV_B purine-nucleoside phosphorylase (E.C.2.4.2.1); Purine Nucleoside Phosphorylase, TRANSFERASE; HET: NDS, ACT; 1.75A {Schistosoma mansoni}
+Probab=18.82  E-value=1.1e+02  Score=12.63  Aligned_cols=6  Identities=50%  Similarity=0.938  Sum_probs=0.0  Template_Neff=9.300
+
+Q AIVAGS            1 AIVAGS    6 (6)
+Q Consensus         1 aivags    6 (6)
+                      |||.||
+T Consensus        30 ~iI~Gs   35 (287)
+T 1TCV_B           30 GIICGS   35 (287)
+T ss_dssp             EEECCT
+T ss_pred             EEEeCC
+
+
+No 10
+>3E9R_B Purine-nucleoside phosphorylase (E.C.2.4.2.1); Purine Nucleoside Phosphorylase, Glycosyltransferase, Transferase; HET: ADE, SO4, DMS; 1.85A {Schistosoma mansoni}
+Probab=18.82  E-value=1.1e+02  Score=12.63  Aligned_cols=6  Identities=50%  Similarity=0.938  Sum_probs=0.0  Template_Neff=9.300
+
+Q AIVAGS            1 AIVAGS    6 (6)
+Q Consensus         1 aivags    6 (6)
+                      |||.||
+T Consensus        30 ~iI~Gs   35 (287)
+T 3E9R_B           30 GIICGS   35 (287)
+T ss_dssp             EEECCT
+T ss_pred             EEEeCC
+
+

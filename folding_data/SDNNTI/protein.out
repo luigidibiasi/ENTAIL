@@ -1,0 +1,149 @@
+Query         SDNNTI
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 13:42:21 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/SDNNTI/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/SDNNTI/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6SX2_A Non-structural protein   23.7      77 0.00085   13.8   0.0    6    1-6       5-10  (77)
+  2 6ZLC_A Non-structural protein   23.3      80 0.00088   13.7   0.0    6    1-6       5-10  (77)
+  3 6SX0_B Non-structural protein   22.7      83 0.00092   13.7   0.0    6    1-6       5-10  (77)
+  4 6K15_E RSC7, Chromatin structu  21.4      91   0.001   13.4   0.0    6    1-6       2-7   (78)
+  5 6V92_C Chromatin structure-rem  21.4      91   0.001   13.4   0.0    6    1-6       2-7   (78)
+  6 7JIL_p Unknown protein fragmen  19.0 1.1E+02  0.0012   12.3   0.0    6    1-6      24-29  (127)
+  7 3JBO_P PROTEIN/RNA Complex; RI  18.2 1.2E+02  0.0013   12.4   0.0    6    1-6      12-17  (127)
+  8 5MRF_KK 54S ribosomal protein   17.9 1.2E+02  0.0014   12.7   0.0    6    1-6      14-19  (148)
+  9 6EMW_L Endopeptidase Clp ATP-b  17.7 1.2E+02  0.0014   10.9   0.0    4    2-5     153-156 (157)
+ 10 5O5J_K Conserved domain protei  17.0 1.3E+02  0.0015   12.3   0.0    6    1-6      35-40  (138)
+
+No 1
+>6SX2_A Non-structural protein 1/RNA Complex; INFLUENZA VIRUS, H7N1 RNA-BINDING DOMAIN; HET: EDO; 1.9A {Influenza A virus (A/turkey/Italy/977/1999(H7N1))}
+Probab=23.70  E-value=77  Score=13.78  Aligned_cols=6  Identities=83%  Similarity=1.005  Sum_probs=3.6  Template_Neff=1.400
+
+Q SDNNTI            1 SDNNTI    6 (6)
+Q Consensus         1 sdnnti    6 (6)
+                      ||.||+
+T Consensus         5 sdsntv   10 (77)
+T 6SX2_A            5 SDSNTI   10 (77)
+T ss_dssp             CCHHHH
+T ss_pred             cCcccc
+Confidence            566664
+
+
+No 2
+>6ZLC_A Non-structural protein 1/RNA Complex; INFLUENZA A VIRUS, RNA BINDING; HET: SO4, NO3; 2.3A {Influenza A virus (A/turkey/Italy/977/1999(H7N1))}
+Probab=23.25  E-value=80  Score=13.73  Aligned_cols=6  Identities=83%  Similarity=1.005  Sum_probs=3.6  Template_Neff=1.400
+
+Q SDNNTI            1 SDNNTI    6 (6)
+Q Consensus         1 sdnnti    6 (6)
+                      ||.||+
+T Consensus         5 sDsNTv   10 (77)
+T 6ZLC_A            5 SDSNTI   10 (77)
+T ss_dssp             CCHHHH
+T ss_pred             cCcccc
+Confidence            566664
+
+
+No 3
+>6SX0_B Non-structural protein 1/RNA Complex; INFLUENZA VIRUS, RNA-BINDING DOMAIN, RNA-PROTEIN; HET: NHE, PE4; 1.75A {Influenza A virus (A/turkey/Italy/977/1999(H7N1))}
+Probab=22.68  E-value=83  Score=13.68  Aligned_cols=6  Identities=83%  Similarity=1.005  Sum_probs=3.6  Template_Neff=1.400
+
+Q SDNNTI            1 SDNNTI    6 (6)
+Q Consensus         1 sdnnti    6 (6)
+                      ||.||+
+T Consensus         5 sdsntv   10 (77)
+T 6SX0_B            5 SDSNTI   10 (77)
+T ss_dssp             CCHHHH
+T ss_pred             cCcccc
+Confidence            566664
+
+
+No 4
+>6K15_E RSC7, Chromatin structure-remodeling complex protein; chromatin remodeler, SWI/SNF family, DNA; 3.4A {Saccharomyces cerevisiae S288c}
+Probab=21.45  E-value=91  Score=13.36  Aligned_cols=6  Identities=83%  Similarity=0.955  Sum_probs=3.1  Template_Neff=2.700
+
+Q SDNNTI            1 SDNNTI    6 (6)
+Q Consensus         1 sdnnti    6 (6)
+                      |.||||
+T Consensus         2 ~~~~~~    7 (78)
+T 6K15_E            2 SQNNTI    7 (78)
+T ss_pred             CCCccc
+Confidence            345654
+
+
+No 5
+>6V92_C Chromatin structure-remodeling complex proteins; Chromatin remodeler, RSC, GENE REGULATION; 20.0A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=21.45  E-value=91  Score=13.36  Aligned_cols=6  Identities=83%  Similarity=0.955  Sum_probs=3.1  Template_Neff=2.700
+
+Q SDNNTI            1 SDNNTI    6 (6)
+Q Consensus         1 sdnnti    6 (6)
+                      |.||||
+T Consensus         2 ~~~~~~    7 (78)
+T 6V92_C            2 SQNNTI    7 (78)
+T ss_pred             CCCccc
+Confidence            345654
+
+
+No 6
+>7JIL_p Unknown protein fragment, Uncharacterized protein; Translation Initiation, Protein synthesis, bS21; HET: MG; 2.8A {Flavobacterium johnsoniae}
+Probab=19.00  E-value=1.1e+02  Score=12.28  Aligned_cols=6  Identities=50%  Similarity=0.445  Sum_probs=0.0  Template_Neff=7.000
+
+Q SDNNTI            1 SDNNTI    6 (6)
+Q Consensus         1 sdnnti    6 (6)
+                      +.|||+
+T Consensus        24 t~NNt~   29 (127)
+T 7JIL_p           24 TFNNII   29 (127)
+T ss_pred             ccCcEE
+
+
+No 7
+>3JBO_P PROTEIN/RNA Complex; RIBOSOME; 5.8A {Plasmodium falciparum 3D7}
+Probab=18.21  E-value=1.2e+02  Score=12.39  Aligned_cols=6  Identities=50%  Similarity=0.401  Sum_probs=0.0  Template_Neff=6.600
+
+Q SDNNTI            1 SDNNTI    6 (6)
+Q Consensus         1 sdnnti    6 (6)
+                      +.|||+
+T Consensus        12 t~NNt~   17 (127)
+T 3JBO_P           12 SFNDTF   17 (127)
+T ss_pred             ccCCEE
+
+
+No 8
+>5MRF_KK 54S ribosomal protein RML2, mitochondrial; yeast, mitochondrial, ribosome, saccharomyces cerevisiae; HET: MG, GDP; 4.97A {Saccharomyces cerevisiae}
+Probab=17.88  E-value=1.2e+02  Score=12.70  Aligned_cols=6  Identities=50%  Similarity=0.551  Sum_probs=0.0  Template_Neff=6.500
+
+Q SDNNTI            1 SDNNTI    6 (6)
+Q Consensus         1 sdnnti    6 (6)
+                      +.||||
+T Consensus        14 t~NNt~   19 (148)
+T 5MRF_KK          14 TKNNTH   19 (148)
+T ss_pred             CCCCEE
+
+
+No 9
+>6EMW_L Endopeptidase Clp ATP-binding subunit C; Chaperone, AAA+ protein, unfoldase; 11.0A {Staphylococcus aureus}
+Probab=17.70  E-value=1.2e+02  Score=10.87  Aligned_cols=4  Identities=75%  Similarity=0.883  Sum_probs=0.0  Template_Neff=10.300
+
+Q SDNNTI            2 DNNT    5 (6)
+Q Consensus         2 dnnt    5 (6)
+                      +|||
+T Consensus       153 ~~~~  156 (157)
+T 6EMW_L          153 SNNT  156 (157)
+T ss_pred             ccCC
+
+
+No 10
+>5O5J_K Conserved domain protein, 30S ribosomal; ribosome, translation; HET: MG; 3.451A {Mycobacterium smegmatis str. MC2 155}
+Probab=16.98  E-value=1.3e+02  Score=12.27  Aligned_cols=6  Identities=67%  Similarity=0.617  Sum_probs=0.0  Template_Neff=6.900
+
+Q SDNNTI            1 SDNNTI    6 (6)
+Q Consensus         1 sdnnti    6 (6)
+                      +.|||+
+T Consensus        35 t~NNt~   40 (138)
+T 5O5J_K           35 TFNNTI   40 (138)
+T ss_dssp             ETTEEE
+T ss_pred             cCCCEE
+
+

@@ -1,0 +1,151 @@
+Query         GGNSAL
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 00:41:11 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GGNSAL/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GGNSAL/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6YFJ_CA coat protein; virus, v  39.3      28 0.00031   15.9   0.0    6    1-6       9-14  (118)
+  2 6YFJ_CH coat protein; virus, v  39.3      28 0.00031   15.9   0.0    6    1-6       9-14  (118)
+  3 2B8N_B glycerate kinase, putat  22.3      86 0.00095   15.5   0.0    6    1-6     135-140 (429)
+  4 1X3L_A hypothetical protein PH  21.2      93   0.001   15.2   0.0    6    1-6     131-136 (440)
+  5 6OXB_A Protein polybromo-1; SW   9.3 3.1E+02  0.0035   10.8   0.0    4    1-4     174-177 (177)
+  6 6OXB_B Protein polybromo-1; SW   9.3 3.1E+02  0.0035   10.8   0.0    4    1-4     174-177 (177)
+  7 6CGO_A Condensation domain pro   9.3 3.2E+02  0.0035   11.2   0.0    4    1-4      28-31  (545)
+  8 5ISW_A Gramicidin S synthase 1   8.6 3.5E+02  0.0039   10.9   0.0    4    1-4      34-37  (573)
+  9 1CJC_A ADRENODOXIN REDUCTASE (   8.4 3.6E+02   0.004   11.7   0.0    6    1-6     153-158 (460)
+ 10 1E6E_A NADPH\:ADRENODOXIN OXID   8.4 3.6E+02   0.004   11.7   0.0    6    1-6     153-158 (460)
+
+No 1
+>6YFJ_CA coat protein; virus, virus-like particle, structural protein; 3.233A {Leviviridae sp.}
+Probab=39.28  E-value=28  Score=15.93  Aligned_cols=6  Identities=83%  Similarity=1.354  Sum_probs=4.1  Template_Neff=1.000
+
+Q GGNSAL            1 GGNSAL    6 (6)
+Q Consensus         1 ggnsal    6 (6)
+                      |||||+
+T Consensus         9 ggnsai   14 (118)
+T 6YFJ_CA           9 GGNSAI   14 (118)
+T ss_pred             cccchH
+Confidence            678763
+
+
+No 2
+>6YFJ_CH coat protein; virus, virus-like particle, structural protein; 3.233A {Leviviridae sp.}
+Probab=39.28  E-value=28  Score=15.93  Aligned_cols=6  Identities=83%  Similarity=1.354  Sum_probs=4.1  Template_Neff=1.000
+
+Q GGNSAL            1 GGNSAL    6 (6)
+Q Consensus         1 ggnsal    6 (6)
+                      |||||+
+T Consensus         9 ggnsai   14 (118)
+T 6YFJ_CH           9 GGNSAI   14 (118)
+T ss_pred             cccchH
+Confidence            678763
+
+
+No 3
+>2B8N_B glycerate kinase, putative (E.C.2.7.1.31); tm1585, Glycerate kinase (EC 2.7.1.31); HET: MSE; 2.53A {Thermotoga maritima} SCOP: c.118.1.1
+Probab=22.26  E-value=86  Score=15.48  Aligned_cols=6  Identities=67%  Similarity=1.160  Sum_probs=3.4  Template_Neff=5.900
+
+Q GGNSAL            1 GGNSAL    6 (6)
+Q Consensus         1 ggnsal    6 (6)
+                      ||.|||
+T Consensus       135 GGgSAL  140 (429)
+T 2B8N_B          135 GGGSSL  140 (429)
+T ss_dssp             TTHHHH
+T ss_pred             CChhHh
+Confidence            556654
+
+
+No 4
+>1X3L_A hypothetical protein PH0495; structural genomics, RIKEN Structural Genomics/Proteomics; HET: EDO; 2.1A {Pyrococcus horikoshii}
+Probab=21.22  E-value=93  Score=15.22  Aligned_cols=6  Identities=83%  Similarity=1.232  Sum_probs=3.3  Template_Neff=6.300
+
+Q GGNSAL            1 GGNSAL    6 (6)
+Q Consensus         1 ggnsal    6 (6)
+                      ||.|||
+T Consensus       131 GGgSAL  136 (440)
+T 1X3L_A          131 GGGSAL  136 (440)
+T ss_dssp             TTHHHH
+T ss_pred             CChHHh
+Confidence            455654
+
+
+No 5
+>6OXB_A Protein polybromo-1; SWI/SNF chromatin remodeler, PBAF, bromodomain; HET: SO4; 1.86A {Homo sapiens}
+Probab=9.34  E-value=3.1e+02  Score=10.79  Aligned_cols=4  Identities=75%  Similarity=1.058  Sum_probs=0.0  Template_Neff=8.800
+
+Q GGNSAL            1 GGNS    4 (6)
+Q Consensus         1 ggns    4 (6)
+                      ||+|
+T Consensus       174 ~~~~  177 (177)
+T 6OXB_A          174 DGNS  177 (177)
+T ss_dssp             ----
+T ss_pred             CCCC
+
+
+No 6
+>6OXB_B Protein polybromo-1; SWI/SNF chromatin remodeler, PBAF, bromodomain; HET: SO4; 1.86A {Homo sapiens}
+Probab=9.34  E-value=3.1e+02  Score=10.79  Aligned_cols=4  Identities=75%  Similarity=1.058  Sum_probs=0.0  Template_Neff=8.800
+
+Q GGNSAL            1 GGNS    4 (6)
+Q Consensus         1 ggns    4 (6)
+                      ||+|
+T Consensus       174 ~~~~  177 (177)
+T 6OXB_B          174 DGNS  177 (177)
+T ss_dssp             ----
+T ss_pred             CCCC
+
+
+No 7
+>6CGO_A Condensation domain protein; Polyketide, Nonribosomal peptide synthetase, BIOSYNTHETIC; HET: PO4; 2.0A {Burkholderia ambifaria (strain ATCC BAA-244 / AMMD)}
+Probab=9.30  E-value=3.2e+02  Score=11.17  Aligned_cols=4  Identities=25%  Similarity=0.393  Sum_probs=0.0  Template_Neff=12.000
+
+Q GGNSAL            1 GGNS    4 (6)
+Q Consensus         1 ggns    4 (6)
+                      ||+|
+T Consensus        28 GgdS   31 (545)
+T 6CGO_A           28 GIDP   31 (545)
+T ss_pred             CcCc
+
+
+No 8
+>5ISW_A Gramicidin S synthase 1 (E.C.5.1.1.11); Epimerization domain, NRPS, gramicidin S; HET: GOL; 1.75A {Brevibacillus brevis}
+Probab=8.60  E-value=3.5e+02  Score=10.88  Aligned_cols=4  Identities=75%  Similarity=1.464  Sum_probs=0.0  Template_Neff=12.500
+
+Q GGNSAL            1 GGNS    4 (6)
+Q Consensus         1 ggns    4 (6)
+                      ||+|
+T Consensus        34 GgdS   37 (573)
+T 5ISW_A           34 GGDS   37 (573)
+T ss_dssp             TCCH
+T ss_pred             ChhH
+
+
+No 9
+>1CJC_A ADRENODOXIN REDUCTASE (E.C.1.18.1.2); FLAVOENZYME, MAD ANALYSIS, ELECTRON TRANSFERASE; HET: FAD; 1.7A {Bos taurus} SCOP: c.4.1.1, c.3.1.1
+Probab=8.39  E-value=3.6e+02  Score=11.65  Aligned_cols=6  Identities=67%  Similarity=0.822  Sum_probs=0.0  Template_Neff=10.100
+
+Q GGNSAL            1 GGNSAL    6 (6)
+Q Consensus         1 ggnsal    6 (6)
+                      +||+|+
+T Consensus       153 ~G~~a~  158 (460)
+T 1CJC_A          153 QGNVAL  158 (460)
+T ss_dssp             CSHHHH
+T ss_pred             CCHHHH
+
+
+No 10
+>1E6E_A NADPH\:ADRENODOXIN OXIDOREDUCTASE (E.C.1.18.1.2, 1.18.1.6); FLAVOENZYME, ELECTRON TRANSFERASE, OXIDOREDUCTASE, [2FE-2S]FERREDOXIN; HET: FAD, SO4; 2.3A {BOS TAURUS} SCOP: c.3.1.1, c.4.1.1
+Probab=8.39  E-value=3.6e+02  Score=11.65  Aligned_cols=6  Identities=67%  Similarity=0.822  Sum_probs=0.0  Template_Neff=10.100
+
+Q GGNSAL            1 GGNSAL    6 (6)
+Q Consensus         1 ggnsal    6 (6)
+                      +||+|+
+T Consensus       153 ~G~~a~  158 (460)
+T 1E6E_A          153 QGNVAL  158 (460)
+T ss_dssp             CSHHHH
+T ss_pred             CCHHHH
+
+

@@ -1,0 +1,156 @@
+Query         SGYQQG
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 14:41:40 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/SGYQQG/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/SGYQQG/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3HR5_T Fab h47H4 light chain,   49.3      15 0.00017   14.1   0.0    6    1-6      15-20  (35)
+  2 3HR5_V Fab h47H4 light chain,   49.3      15 0.00017   14.1   0.0    6    1-6      15-20  (35)
+  3 7BB3_B UsnRNP, Biogenesis, SMN  44.6      21 0.00023   14.2   0.0    6    1-6      51-56  (69)
+  4 3ONM_B Transcriptional regulat  32.3      43 0.00048   12.6   0.0    6    1-6     230-235 (238)
+  5 5MUL_A Neuraminidase; Rhamnosi  23.8      76 0.00085   13.4   0.0    6    1-6      12-17  (431)
+  6 5VRQ_A Ankyrin repeats; bacter  23.1      80 0.00089   12.9   0.0    6    1-6       9-14  (407)
+  7 5NGK_C Glucosylceramidase; gly  20.3   1E+02  0.0011   13.8   0.0    6    1-6      12-17  (494)
+  8 5NGL_B Glucosylceramidase; gly  20.3   1E+02  0.0011   13.8   0.0    6    1-6      12-17  (494)
+  9 2YAZ_D DUTPASE (E.C.3.6.1.23);  17.9 1.2E+02  0.0013   13.8   0.0    6    1-6     192-197 (271)
+ 10 2YAY_A DUTPASE (E.C.3.6.1.23);  17.9 1.2E+02  0.0014   13.8   0.0    6    1-6     192-197 (271)
+
+No 1
+>3HR5_T Fab h47H4 light chain, Fab; Fab-peptide complex, IMMUNE SYSTEM; HET: GOL; 2.4A {Mus musculus}
+Probab=49.35  E-value=15  Score=14.09  Aligned_cols=6  Identities=83%  Similarity=1.060  Sum_probs=3.8  Template_Neff=1.000
+
+Q SGYQQG            1 SGYQQG    6 (6)
+Q Consensus         1 sgyqqg    6 (6)
+                      ||-|||
+T Consensus        15 sgqqqg   20 (35)
+T 3HR5_T           15 SGQQQG   20 (35)
+T ss_pred             cccccC
+Confidence            566765
+
+
+No 2
+>3HR5_V Fab h47H4 light chain, Fab; Fab-peptide complex, IMMUNE SYSTEM; HET: GOL; 2.4A {Mus musculus}
+Probab=49.35  E-value=15  Score=14.09  Aligned_cols=6  Identities=83%  Similarity=1.060  Sum_probs=3.8  Template_Neff=1.000
+
+Q SGYQQG            1 SGYQQG    6 (6)
+Q Consensus         1 sgyqqg    6 (6)
+                      ||-|||
+T Consensus        15 sgqqqg   20 (35)
+T 3HR5_V           15 SGQQQG   20 (35)
+T ss_pred             cccccC
+Confidence            566765
+
+
+No 3
+>7BB3_B UsnRNP, Biogenesis, SMN, Oligomerization, SPLICING; HET: MPD; 2.158A {Schizosaccharomyces pombe (strain 972 / ATCC 24843)}
+Probab=44.57  E-value=21  Score=14.21  Aligned_cols=6  Identities=50%  Similarity=1.132  Sum_probs=3.2  Template_Neff=4.600
+
+Q SGYQQG            1 SGYQQG    6 (6)
+Q Consensus         1 sgyqqg    6 (6)
+                      +||+.|
+T Consensus        51 aGY~tg   56 (69)
+T 7BB3_B           51 AGYYTG   56 (69)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            466554
+
+
+No 4
+>3ONM_B Transcriptional regulator LrhA; LysR, RovM, transcription factor, virulence; 2.4A {Yersinia pseudotuberculosis}
+Probab=32.31  E-value=43  Score=12.62  Aligned_cols=6  Identities=50%  Similarity=0.839  Sum_probs=0.0  Template_Neff=10.700
+
+Q SGYQQG            1 SGYQQG    6 (6)
+Q Consensus         1 sgyqqg    6 (6)
+                      |||-||
+T Consensus       230 ~~~~~~  235 (238)
+T 3ONM_B          230 SDYLTG  235 (238)
+T ss_dssp             ------
+T ss_pred             cccccC
+Confidence            455554
+
+
+No 5
+>5MUL_A Neuraminidase; Rhamnosidase, Bacteroides, Beta-propeller, hydrolase; HET: BDP; 1.39A {Bacteroides thetaiotaomicron (strain ATCC 29148 / DSM 2079 / NCTC 10582 / E50 / VPI-5482)}
+Probab=23.80  E-value=76  Score=13.43  Aligned_cols=6  Identities=83%  Similarity=0.983  Sum_probs=0.0  Template_Neff=10.100
+
+Q SGYQQG            1 SGYQQG    6 (6)
+Q Consensus         1 sgyqqg    6 (6)
+                      ||-|||
+T Consensus        12 ~~~~~~   17 (431)
+T 5MUL_A           12 SGPQQG   17 (431)
+T ss_dssp             ------
+T ss_pred             CCcccc
+Confidence            345554
+
+
+No 6
+>5VRQ_A Ankyrin repeats; bacterial effector, ankyrin repeats, Legionella; 3.205A {Legionella pneumophila subsp. pneumophila (strain Philadelphia 1 / ATCC 33152 / DSM 7513)}
+Probab=23.13  E-value=80  Score=12.87  Aligned_cols=6  Identities=50%  Similarity=0.756  Sum_probs=0.0  Template_Neff=10.800
+
+Q SGYQQG            1 SGYQQG    6 (6)
+Q Consensus         1 sgyqqg    6 (6)
+                      |||.||
+T Consensus         9 ~~~~~~   14 (407)
+T 5VRQ_A            9 SGVDLG   14 (407)
+T ss_dssp             ------
+T ss_pred             CCCCCc
+Confidence            455543
+
+
+No 7
+>5NGK_C Glucosylceramidase; glycoside hydrolase, endo-beta1, 6-clucanase, beta-1; 1.9A {Bacteroides thetaiotaomicron}
+Probab=20.31  E-value=1e+02  Score=13.80  Aligned_cols=6  Identities=83%  Similarity=0.983  Sum_probs=0.0  Template_Neff=9.300
+
+Q SGYQQG            1 SGYQQG    6 (6)
+Q Consensus         1 sgyqqg    6 (6)
+                      ||-|||
+T Consensus        12 ~~~~~~   17 (494)
+T 5NGK_C           12 SGPQQG   17 (494)
+T ss_dssp             ------
+T ss_pred             CCcccc
+Confidence            455665
+
+
+No 8
+>5NGL_B Glucosylceramidase; glycoside hydrolase  endo-beta1, 6-clucanase; HET: NOJ, BGC; 1.85A {Bacteroides thetaiotaomicron}
+Probab=20.31  E-value=1e+02  Score=13.80  Aligned_cols=6  Identities=83%  Similarity=0.983  Sum_probs=0.0  Template_Neff=9.300
+
+Q SGYQQG            1 SGYQQG    6 (6)
+Q Consensus         1 sgyqqg    6 (6)
+                      ||-|||
+T Consensus        12 ~~~~~~   17 (494)
+T 5NGL_B           12 SGPQQG   17 (494)
+T ss_dssp             ------
+T ss_pred             CCcccc
+Confidence            455665
+
+
+No 9
+>2YAZ_D DUTPASE (E.C.3.6.1.23); HYDROLASE, LEISHMANIASIS; HET: UMP, SO4; 2.4A {LEISHMANIA MAJOR}
+Probab=17.94  E-value=1.2e+02  Score=13.79  Aligned_cols=6  Identities=67%  Similarity=1.420  Sum_probs=0.0  Template_Neff=6.600
+
+Q SGYQQG            1 SGYQQG    6 (6)
+Q Consensus         1 sgyqqg    6 (6)
+                      .||.+|
+T Consensus       192 ~GYk~G  197 (271)
+T 2YAZ_D          192 SGYKDG  197 (271)
+T ss_dssp             TTSSSS
+T ss_pred             cCCCCC
+
+
+No 10
+>2YAY_A DUTPASE (E.C.3.6.1.23); HYDROLASE, LEISHMANIASIS; HET: DUP; 1.86A {LEISHMANIA MAJOR}
+Probab=17.87  E-value=1.2e+02  Score=13.79  Aligned_cols=6  Identities=67%  Similarity=1.420  Sum_probs=0.0  Template_Neff=6.600
+
+Q SGYQQG            1 SGYQQG    6 (6)
+Q Consensus         1 sgyqqg    6 (6)
+                      .||.+|
+T Consensus       192 ~GYk~G  197 (271)
+T 2YAY_A          192 SGYKDG  197 (271)
+T ss_dssp             TTTTTT
+T ss_pred             cCCCCC
+
+

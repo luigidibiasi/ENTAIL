@@ -1,0 +1,143 @@
+Query         LLVPTI
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 19:26:38 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LLVPTI/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LLVPTI/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6RMD_D IMP-specific 5'-nucleot  14.4 1.7E+02  0.0019   13.2   0.0    6    1-6      50-55  (372)
+  2 4RVY_M Photosystem II protein   14.2 1.7E+02  0.0019   10.9   0.0    6    1-6      15-20  (34)
+  3 6KAF_M Chlorophyll a-b binding  14.2 1.7E+02  0.0019   10.9   0.0    6    1-6      15-20  (34)
+  4 6JLU_M PsbA, PsbB, PsbC, PsbD,  13.9 1.8E+02   0.002   11.2   0.0    6    1-6      14-19  (41)
+  5 2FKL_B Amyloid beta A4 protein  13.8 1.8E+02   0.002   11.6   0.0    4    1-4       4-7   (66)
+  6 7KJK_D4 Myoviridae, Phage, 6-f  13.7 1.8E+02   0.002   11.6   0.0    5    1-5     110-114 (114)
+  7 6DHG_M Photosystem II; PHOTOSY  13.4 1.9E+02  0.0021   10.7   0.0    6    1-6      15-20  (33)
+  8 1OWT_A Amyloid beta A4 protein  13.3 1.9E+02  0.0021   11.6   0.0    4    1-4       4-7   (66)
+  9 6WJ6_M Photosystem II; Photosy  13.0   2E+02  0.0022   10.8   0.0    6    1-6      15-20  (35)
+ 10 6YP7_M Chlorophyll a-b binding  12.3 2.2E+02  0.0024   10.6   0.0    6    1-6      15-20  (33)
+
+No 1
+>6RMD_D IMP-specific 5'-nucleotidase, putative (E.C.3.1.3.5); nucleotidase, hydrolase, activator, complex, BIOSYNTHETIC; HET: EDO, ATP; 2.8A {Plasmodium falciparum (isolate 3D7)}
+Probab=14.40  E-value=1.7e+02  Score=13.21  Aligned_cols=6  Identities=17%  Similarity=0.528  Sum_probs=0.0  Template_Neff=8.100
+
+Q LLVPTI            1 LLVPTI    6 (6)
+Q Consensus         1 llvpti    6 (6)
+                      .|||++
+T Consensus        50 ~~vp~~   55 (372)
+T 6RMD_D           50 YLIDDV   55 (372)
+T ss_dssp             HHCSTT
+T ss_pred             Hhcccc
+
+
+No 2
+>4RVY_M Photosystem II protein D1 1; Photosystem II, Time resolved, Free; HET: BCR, LMG, CLA, HEM, PL9, OEX, DGD, PHO, LHG, SQD; 5.5A {Thermosynechococcus elongatus}
+Probab=14.21  E-value=1.7e+02  Score=10.92  Aligned_cols=6  Identities=50%  Similarity=1.187  Sum_probs=0.0  Template_Neff=2.800
+
+Q LLVPTI            1 LLVPTI    6 (6)
+Q Consensus         1 llvpti    6 (6)
+                      .++||.
+T Consensus        15 iliPt~   20 (34)
+T 4RVY_M           15 VLVPSV   20 (34)
+T ss_pred             HHHHHH
+
+
+No 3
+>6KAF_M Chlorophyll a-b binding protein, chloroplastic; Photosystem II, C2S2M2N2-type PSII-LHCII, PHOTOSYNTHESIS; HET: BCR, LMG, LHG, HEM, CLA, SQD, PL9, DGD, PHO, LUT, XAT, CHL, NEX;{Chlamydomonas reinhardtii}
+Probab=14.20  E-value=1.7e+02  Score=10.90  Aligned_cols=6  Identities=33%  Similarity=0.944  Sum_probs=0.0  Template_Neff=2.900
+
+Q LLVPTI            1 LLVPTI    6 (6)
+Q Consensus         1 llvpti    6 (6)
+                      .++||.
+T Consensus        15 iliPt~   20 (34)
+T 6KAF_M           15 IIIPTS   20 (34)
+T ss_pred             HHHHHH
+
+
+No 4
+>6JLU_M PsbA, PsbB, PsbC, PsbD, PsbE; PSII-FCP supercomplex, PLANT PROTEIN; HET: PL9, OEX, LMG, DGD, HEM, PHO, CLA, A86, KC1, DD6, KC2, SQD, LHG, BCR; 3.02A {Chaetoceros gracilis}
+Probab=13.86  E-value=1.8e+02  Score=11.22  Aligned_cols=6  Identities=17%  Similarity=0.750  Sum_probs=0.0  Template_Neff=2.900
+
+Q LLVPTI            1 LLVPTI    6 (6)
+Q Consensus         1 llvpti    6 (6)
+                      .+|||.
+T Consensus        14 iliPt~   19 (41)
+T 6JLU_M           14 TFLPAL   19 (41)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 5
+>2FKL_B Amyloid beta A4 protein precursor; Alpha-Beta Two-layered Sandwich, METAL BINDING; 2.5A {Homo sapiens} SCOP: d.230.3.1
+Probab=13.81  E-value=1.8e+02  Score=11.64  Aligned_cols=4  Identities=100%  Similarity=1.580  Sum_probs=0.0  Template_Neff=4.300
+
+Q LLVPTI            1 LLVP    4 (6)
+Q Consensus         1 llvp    4 (6)
+                      |+||
+T Consensus         4 LlVP    7 (66)
+T 2FKL_B            4 LLVP    7 (66)
+T ss_dssp             CCCC
+T ss_pred             ccCC
+
+
+No 6
+>7KJK_D4 Myoviridae, Phage, 6-fold neck region;{Vibrio phage XM1}
+Probab=13.65  E-value=1.8e+02  Score=11.57  Aligned_cols=5  Identities=40%  Similarity=0.740  Sum_probs=0.0  Template_Neff=6.800
+
+Q LLVPTI            1 LLVPT    5 (6)
+Q Consensus         1 llvpt    5 (6)
+                      +|||+
+T Consensus       110 ~~~~~  114 (114)
+T 7KJK_D4         110 VLVSS  114 (114)
+T ss_pred             eeeeC
+
+
+No 7
+>6DHG_M Photosystem II; PHOTOSYSTEMS, TRANSMEMBRANE, ROOM TEMPERATURE, ELECTRON; HET: SQD, DGD, UNL, HEM, LMG, HEC, PL9, FME, OEX, LHG, BCR, BCT, PHO, CLA; 2.5A {Thermosynechococcus elongatus (strain BP-1)}
+Probab=13.37  E-value=1.9e+02  Score=10.74  Aligned_cols=6  Identities=50%  Similarity=1.187  Sum_probs=0.0  Template_Neff=2.900
+
+Q LLVPTI            1 LLVPTI    6 (6)
+Q Consensus         1 llvpti    6 (6)
+                      .++||.
+T Consensus        15 iliPt~   20 (33)
+T 6DHG_M           15 VLVPSV   20 (33)
+T ss_pred             HHHHHH
+
+
+No 8
+>1OWT_A Amyloid beta A4 protein; beta-alpha-beta-beta, APOPTOSIS; NMR {Homo sapiens} SCOP: d.230.3.1
+Probab=13.30  E-value=1.9e+02  Score=11.61  Aligned_cols=4  Identities=100%  Similarity=1.580  Sum_probs=0.0  Template_Neff=4.200
+
+Q LLVPTI            1 LLVP    4 (6)
+Q Consensus         1 llvp    4 (6)
+                      |+||
+T Consensus         4 LlVP    7 (66)
+T 1OWT_A            4 LLVP    7 (66)
+T ss_pred             ccCC
+
+
+No 9
+>6WJ6_M Photosystem II; Photosystem, oxidoreductase, water-splitting, photoactivation, PHOTOSYNTHESIS; HET: LHG, CLA, FME, BCR, PL9, LMG, PHO, LMT, HEM, SQD, DGD; 2.58A {Synechocystis sp. (strain PCC 6803 / Kazusa)}
+Probab=13.01  E-value=2e+02  Score=10.81  Aligned_cols=6  Identities=67%  Similarity=1.243  Sum_probs=0.0  Template_Neff=2.900
+
+Q LLVPTI            1 LLVPTI    6 (6)
+Q Consensus         1 llvpti    6 (6)
+                      .++||.
+T Consensus        15 iliPt~   20 (35)
+T 6WJ6_M           15 VLVPTV   20 (35)
+T ss_pred             HHHHHH
+
+
+No 10
+>6YP7_M Chlorophyll a-b binding protein 8; Cryo-EM, photosystem II, High Light; HET: PL9, LHG, BCR, NEX, HEM, OEX, CLA, PHO, DGD, XAT, SQD, LUT, LMG, CHL;{Pisum sativum}
+Probab=12.25  E-value=2.2e+02  Score=10.59  Aligned_cols=6  Identities=67%  Similarity=1.082  Sum_probs=0.0  Template_Neff=2.900
+
+Q LLVPTI            1 LLVPTI    6 (6)
+Q Consensus         1 llvpti    6 (6)
+                      .++||.
+T Consensus        15 iliPt~   20 (33)
+T 6YP7_M           15 ILVPTA   20 (33)
+T ss_pred             HHHHHH
+
+

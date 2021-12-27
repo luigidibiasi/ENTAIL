@@ -1,0 +1,149 @@
+Query         KQQKQA
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 12:05:54 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/KQQKQA/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/KQQKQA/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2RT5_A Msx2-interacting protei  11.1 2.5E+02  0.0028   12.2   0.0    5    2-6     109-113 (169)
+  2 2YON_A SENSORY BOX PROTEIN; SI  10.7 2.6E+02  0.0029   10.5   0.0    6    1-6      23-28  (30)
+  3 6LKW_C Macrophage migration in   9.2 3.2E+02  0.0036   10.1   0.0    6    1-6     122-127 (134)
+  4 6WVJ_C DNA-directed RNA polyme   9.2 3.2E+02  0.0036   14.7   0.0    6    1-6     642-647 (1193)
+  5 5MU7_B Coatomer subunit beta,    9.1 3.3E+02  0.0036   10.7   0.0    5    1-5     167-171 (175)
+  6 4HUT_A Cob(I)yrinic acid a,c-d   8.4 3.6E+02   0.004   10.4   0.0    5    1-5       4-8   (191)
+  7 6WOY_C DNA-directed RNA polyme   8.3 3.7E+02  0.0041   14.1   0.0    6    1-6     563-568 (1119)
+  8 1OW1_A SMART/HDAC1 associated    8.1 3.8E+02  0.0042   12.1   0.0    5    2-6     135-139 (195)
+  9 4QIW_J DNA-directed RNA polyme   8.1 3.8E+02  0.0042   14.2   0.0    6    1-6     673-678 (1123)
+ 10 6KF4_B DNA-directed RNA polyme   8.1 3.8E+02  0.0042   14.2   0.0    6    1-6     673-678 (1123)
+
+No 1
+>2RT5_A Msx2-interacting protein, peptide from Silencing; SHARP, SPOC domain, SMRT, phosphorylation; NMR {Homo sapiens}
+Probab=11.06  E-value=2.5e+02  Score=12.19  Aligned_cols=5  Identities=80%  Similarity=0.720  Sum_probs=0.0  Template_Neff=6.200
+
+Q KQQKQA            2 QQKQA    6 (6)
+Q Consensus         2 qqkqa    6 (6)
+                      +||||
+T Consensus       109 ~~KqA  113 (169)
+T 2RT5_A          109 QAKQA  113 (169)
+T ss_dssp             HHHTC
+T ss_pred             HhcCe
+
+
+No 2
+>2YON_A SENSORY BOX PROTEIN; SIGNALING PROTEIN, VOLTAGE (LOV) DOMAIN; HET: ACE; NMR {N/A}
+Probab=10.73  E-value=2.6e+02  Score=10.50  Aligned_cols=6  Identities=67%  Similarity=0.673  Sum_probs=0.0  Template_Neff=1.000
+
+Q KQQKQA            1 KQQKQA    6 (6)
+Q Consensus         1 kqqkqa    6 (6)
+                      +||-||
+T Consensus        23 rqqgqa   28 (30)
+T 2YON_A           23 RQQGQA   28 (30)
+T ss_dssp             HHTSSC
+T ss_pred             HHHhhc
+
+
+No 3
+>6LKW_C Macrophage migration inhibitory factor; Oncomelania hupensis macrophage migration inhibitory; 3.2A {Oncomelania hupensis}
+Probab=9.18  E-value=3.2e+02  Score=10.08  Aligned_cols=6  Identities=33%  Similarity=0.108  Sum_probs=0.0  Template_Neff=9.200
+
+Q KQQKQA            1 KQQKQA    6 (6)
+Q Consensus         1 kqqkqa    6 (6)
+                      ++|.||
+T Consensus       122 ~~~~~~  127 (134)
+T 6LKW_C          122 DIISQA  127 (134)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 4
+>6WVJ_C DNA-directed RNA polymerase subunit alpha; DNA-DEPENDENT RNA POLYMERASE, TRANSCRIPTION, TRANSCRIPTION-DNA-RNA; 3.36A {Escherichia coli BL21(DE3)}
+Probab=9.18  E-value=3.2e+02  Score=14.71  Aligned_cols=6  Identities=50%  Similarity=0.573  Sum_probs=0.0  Template_Neff=7.700
+
+Q KQQKQA            1 KQQKQA    6 (6)
+Q Consensus         1 kqqkqa    6 (6)
+                      ++||||
+T Consensus       642 ~M~kQA  647 (1193)
+T 6WVJ_C          642 NMQRQA  647 (1193)
+T ss_dssp             HHHTTC
+T ss_pred             hChhhc
+
+
+No 5
+>5MU7_B Coatomer subunit beta, Coatomer subunit; coatomer, COPI, beta COP, delta; 2.57A {Chaetomium thermophilum var. thermophilum DSM 1495}
+Probab=9.12  E-value=3.3e+02  Score=10.68  Aligned_cols=5  Identities=20%  Similarity=0.474  Sum_probs=0.0  Template_Neff=8.900
+
+Q KQQKQA            1 KQQKQ    5 (6)
+Q Consensus         1 kqqkq    5 (6)
+                      +||||
+T Consensus       167 ~~~~~  171 (175)
+T 5MU7_B          167 EMQRK  171 (175)
+T ss_dssp             -----
+T ss_pred             HHHHH
+
+
+No 6
+>4HUT_A Cob(I)yrinic acid a,c-diamide adenosyltransferase (E.C.2.5.1.17); transferase; HET: B12, ATP; 1.95A {Salmonella enterica subsp. enterica serovar Typhimurium}
+Probab=8.40  E-value=3.6e+02  Score=10.37  Aligned_cols=5  Identities=60%  Similarity=0.654  Sum_probs=0.0  Template_Neff=9.600
+
+Q KQQKQA            1 KQQKQ    5 (6)
+Q Consensus         1 kqqkq    5 (6)
+                      +|||+
+T Consensus         4 ~~~~~    8 (191)
+T 4HUT_A            4 RQQKV    8 (191)
+T ss_dssp             HHHHH
+T ss_pred             chhHH
+
+
+No 7
+>6WOY_C DNA-directed RNA polymerase subunit alpha; Initially transcribing complex, TRANSCRIPTION, TRANSCRIPTION-DNA-RNA; HET: CH1; 3.0A {Thermus thermophilus}
+Probab=8.32  E-value=3.7e+02  Score=14.07  Aligned_cols=6  Identities=50%  Similarity=0.429  Sum_probs=0.0  Template_Neff=8.400
+
+Q KQQKQA            1 KQQKQA    6 (6)
+Q Consensus         1 kqqkqa    6 (6)
+                      ++||||
+T Consensus       563 ~m~kQA  568 (1119)
+T 6WOY_C          563 NMQTQA  568 (1119)
+T ss_dssp             HHHTTB
+T ss_pred             HcHhcc
+
+
+No 8
+>1OW1_A SMART/HDAC1 associated repressor protein; beta-alpha-barrel, SPOC domain,, TRANSCRIPTION; 1.8A {Homo sapiens} SCOP: b.131.1.3
+Probab=8.11  E-value=3.8e+02  Score=12.08  Aligned_cols=5  Identities=80%  Similarity=0.720  Sum_probs=0.0  Template_Neff=5.800
+
+Q KQQKQA            2 QQKQA    6 (6)
+Q Consensus         2 qqkqa    6 (6)
+                      +||||
+T Consensus       135 ~~KqA  139 (195)
+T 1OW1_A          135 QAKQA  139 (195)
+T ss_dssp             HHHTE
+T ss_pred             HhcCe
+
+
+No 9
+>4QIW_J DNA-directed RNA polymerase (E.C.2.7.7.6), DNA-directed; Transcription, DNA-directed RNA polymerase; HET: ZN; 3.5A {Thermococcus kodakarensis}
+Probab=8.06  E-value=3.8e+02  Score=14.16  Aligned_cols=6  Identities=33%  Similarity=0.263  Sum_probs=0.0  Template_Neff=8.100
+
+Q KQQKQA            1 KQQKQA    6 (6)
+Q Consensus         1 kqqkqa    6 (6)
+                      .+||||
+T Consensus       673 ~M~KQA  678 (1123)
+T 4QIW_J          673 GMAKQS  678 (1123)
+T ss_pred             hCchhc
+
+
+No 10
+>6KF4_B DNA-directed RNA polymerase subunit (E.C.2.7.7.6); apo-RNA polymerase, TRANSCRIPTION; 3.97A {Thermococcus kodakarensis (strain ATCC BAA-918 / JCM 12380 / KOD1)}
+Probab=8.06  E-value=3.8e+02  Score=14.16  Aligned_cols=6  Identities=33%  Similarity=0.263  Sum_probs=0.0  Template_Neff=8.100
+
+Q KQQKQA            1 KQQKQA    6 (6)
+Q Consensus         1 kqqkqa    6 (6)
+                      .+||||
+T Consensus       673 ~M~KQA  678 (1123)
+T 6KF4_B          673 GMAKQS  678 (1123)
+T ss_dssp             HHTTSB
+T ss_pred             hCchhc
+
+

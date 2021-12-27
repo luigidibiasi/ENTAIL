@@ -1,0 +1,148 @@
+Query         GNNRYQ
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 02:30:35 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GNNRYQ/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GNNRYQ/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2LDY_A ORF1 codes for a 40; RN  89.1     0.2 2.3E-06   20.0   0.0    6    1-6     171-176 (182)
+  2 4NWW_C Capsid protein; beta ba  13.0   2E+02  0.0022   14.6   0.0    6    1-6     248-253 (358)
+  3 1JT8_A PROBABLE TRANSLATION IN  11.8 2.3E+02  0.0025   11.0   0.0    6    1-6      31-36  (102)
+  4 5FC8_C Dengue 3 NS5 C-terminal  11.6 2.3E+02  0.0026    9.9   0.0    6    1-6      11-16  (36)
+  5 1HR0_W 30S RIBOSOMAL SUBUNIT,   11.5 2.4E+02  0.0026   10.1   0.0    6    1-6      18-23  (71)
+  6 7D0E_A RB1-inducible coiled-co  11.5 2.4E+02  0.0026   11.3   0.0    6    1-6      81-86  (105)
+  7 6GSM_i 30S ribosomal protein S  10.8 2.6E+02  0.0029   10.7   0.0    6    1-6      23-28  (95)
+  8 4NWV_B Capsid protein; beta ba  10.4 2.7E+02   0.003   14.4   0.0    6    1-6     288-293 (391)
+  9 5A6S_A ENDOLYSIN; STRUCTURAL P   9.8 2.9E+02  0.0033   12.0   0.0    5    1-5     276-280 (294)
+ 10 2EPQ_A POZ-, AT hook-, and zin   9.2 3.2E+02  0.0035    5.5   0.0    6    1-6      35-40  (45)
+
+No 1
+>2LDY_A ORF1 codes for a 40; RNA binding protein, Nucleic acid; NMR {Homo sapiens}
+Probab=89.11  E-value=0.2  Score=20.05  Aligned_cols=6  Identities=83%  Similarity=1.210  Sum_probs=5.0  Template_Neff=8.000
+
+Q GNNRYQ            1 GNNRYQ    6 (6)
+Q Consensus         1 gnnryq    6 (6)
+                      ||||||
+T Consensus       171 ~~~~~~  176 (182)
+T 2LDY_A          171 RNNRYQ  176 (182)
+T ss_pred             cccccC
+Confidence            689997
+
+
+No 2
+>4NWW_C Capsid protein; beta barrel, virus; 3.75A {Orsay nodavirus}
+Probab=12.96  E-value=2e+02  Score=14.64  Aligned_cols=6  Identities=67%  Similarity=1.171  Sum_probs=3.5  Template_Neff=4.400
+
+Q GNNRYQ            1 GNNRYQ    6 (6)
+Q Consensus         1 gnnryq    6 (6)
+                      |+|-||
+T Consensus       248 g~~~~~  253 (358)
+T 4NWW_C          248 GDNVYQ  253 (358)
+T ss_dssp             ETTEEE
+T ss_pred             cCceee
+Confidence            556665
+
+
+No 3
+>1JT8_A PROBABLE TRANSLATION INITIATION FACTOR 1A; beta barrel, Translation factor, TRANSLATION; NMR {Methanocaldococcus jannaschii} SCOP: b.40.4.5
+Probab=11.83  E-value=2.3e+02  Score=11.03  Aligned_cols=6  Identities=33%  Similarity=0.684  Sum_probs=0.0  Template_Neff=7.000
+
+Q GNNRYQ            1 GNNRYQ    6 (6)
+Q Consensus         1 gnnryq    6 (6)
+                      |||+|.
+T Consensus        31 G~~~f~   36 (102)
+T 1JT8_A           31 GASRVR   36 (102)
+T ss_dssp             CSSEEE
+T ss_pred             CCCeEE
+
+
+No 4
+>5FC8_C Dengue 3 NS5 C-terminal NLS; Dengue, NS5, Importin, PROTEIN TRANSPORT-Viral; 2.1A {Dengue virus 3}
+Probab=11.58  E-value=2.3e+02  Score=9.93  Aligned_cols=6  Identities=33%  Similarity=0.844  Sum_probs=0.0  Template_Neff=5.000
+
+Q GNNRYQ            1 GNNRYQ    6 (6)
+Q Consensus         1 gnnryq    6 (6)
+                      |+++|.
+T Consensus        11 G~E~Y~   16 (36)
+T 5FC8_C           11 GNEEFL   16 (36)
+T ss_pred             cccchh
+
+
+No 5
+>1HR0_W 30S RIBOSOMAL SUBUNIT, INITIATION FACTOR; 30S, RIBOSOMAL SUBUNIT, RIBOSOME, INITIATION; HET: MG; 3.2A {Thermus thermophilus} SCOP: b.40.4.5
+Probab=11.47  E-value=2.4e+02  Score=10.09  Aligned_cols=6  Identities=17%  Similarity=0.462  Sum_probs=0.0  Template_Neff=7.500
+
+Q GNNRYQ            1 GNNRYQ    6 (6)
+Q Consensus         1 gnnryq    6 (6)
+                      |||.|.
+T Consensus        18 g~~~~~   23 (71)
+T 1HR0_W           18 PNATFR   23 (71)
+T ss_dssp             TTTBCC
+T ss_pred             CCCeEE
+
+
+No 6
+>7D0E_A RB1-inducible coiled-coil protein 1, Cell; autophagy, FIP200, CCPG1, SIGNALING PROTEIN; HET: GO9, SEP; 1.4A {Homo sapiens}
+Probab=11.46  E-value=2.4e+02  Score=11.35  Aligned_cols=6  Identities=33%  Similarity=0.905  Sum_probs=0.0  Template_Neff=6.300
+
+Q GNNRYQ            1 GNNRYQ    6 (6)
+Q Consensus         1 gnnryq    6 (6)
+                      .+|||+
+T Consensus        81 ~~N~y~   86 (105)
+T 7D0E_A           81 AQNRFK   86 (105)
+T ss_dssp             SSCTTC
+T ss_pred             CCCCcC
+
+
+No 7
+>6GSM_i 30S ribosomal protein S2, 30S; ribosome, translation, initiation factors, 40S; HET: 2MG, T6A, RIA, 5MC, MG, 1MA, H2U, 7MG, M2G, 1MG, GCP; 5.15A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=10.79  E-value=2.6e+02  Score=10.66  Aligned_cols=6  Identities=50%  Similarity=0.894  Sum_probs=0.0  Template_Neff=7.200
+
+Q GNNRYQ            1 GNNRYQ    6 (6)
+Q Consensus         1 gnnryq    6 (6)
+                      |||.|.
+T Consensus        23 G~~~~~   28 (95)
+T 6GSM_i           23 GNGRVE   28 (95)
+T ss_pred             CCCEEE
+
+
+No 8
+>4NWV_B Capsid protein; beta barrel, VIRUS; 3.25A {Orsay virus}
+Probab=10.41  E-value=2.7e+02  Score=14.37  Aligned_cols=6  Identities=67%  Similarity=1.171  Sum_probs=0.0  Template_Neff=4.400
+
+Q GNNRYQ            1 GNNRYQ    6 (6)
+Q Consensus         1 gnnryq    6 (6)
+                      |+|-||
+T Consensus       288 g~~~~~  293 (391)
+T 4NWV_B          288 GDNVYQ  293 (391)
+T ss_dssp             ETTEEE
+T ss_pred             cCceee
+
+
+No 9
+>5A6S_A ENDOLYSIN; STRUCTURAL PROTEIN, ENDOLYSIN, SECONDARY TRANSLATION; HET: 1PE, GOL; 1.9A {CLOSTRIDIUM PHAGE PHICTP1}
+Probab=9.81  E-value=2.9e+02  Score=12.00  Aligned_cols=5  Identities=60%  Similarity=1.364  Sum_probs=0.0  Template_Neff=8.300
+
+Q GNNRYQ            1 GNNRY    5 (6)
+Q Consensus         1 gnnry    5 (6)
+                      |+.||
+T Consensus       276 g~~~~  280 (294)
+T 5A6S_A          276 GSTRY  280 (294)
+T ss_pred             CCChH
+
+
+No 10
+>2EPQ_A POZ-, AT hook-, and zinc; C2H2, zinc finger domain, Structural; HET: ZN; NMR {Homo sapiens} SCOP: g.37.1.1
+Probab=9.23  E-value=3.2e+02  Score=5.49  Aligned_cols=6  Identities=17%  Similarity=0.135  Sum_probs=0.0  Template_Neff=14.300
+
+Q GNNRYQ            1 GNNRYQ    6 (6)
+Q Consensus         1 gnnryq    6 (6)
+                      +..+++
+T Consensus        35 ~~~~~~   40 (45)
+T 2EPQ_A           35 GSVGKS   40 (45)
+T ss_dssp             CCCCCC
+T ss_pred             CCCCCC
+
+

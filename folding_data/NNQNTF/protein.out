@@ -1,0 +1,148 @@
+Query         NNQNTF
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 02:44:36 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NNQNTF/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NNQNTF/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3QAG_A Glutathione S-transfera   5.3 6.6E+02  0.0073    9.5   0.0    6    1-6     233-238 (239)
+  2 3VJJ_A P9-1; Viroplasm, VIRAL    5.1   7E+02  0.0077   13.5   0.0    6    1-6      42-47  (368)
+  3 2L14_B CREB-binding protein, C   5.1   7E+02  0.0078    8.8   0.0    4    3-6       4-7   (49)
+  4 4PER_B Gallus Ribonuclease Inh   5.1   7E+02  0.0078    9.6   0.0    5    2-6      42-46  (113)
+  5 5JBT_Y PRSS3 protein, Amyloid-   5.0 7.1E+02  0.0079    5.8   0.0    5    2-6      24-28  (38)
+  6 4K7L_B Ribonuclease pancreatic   5.0 7.2E+02   0.008    9.5   0.0    5    2-6      22-26  (104)
+  7 1RBG_A RIBONUCLEASE S (E.C.3.1   4.9 7.4E+02  0.0082    9.5   0.0    5    2-6      22-26  (104)
+  8 4OGD_A Succinate-semialdehyde    4.7 7.8E+02  0.0086   10.9   0.0    5    1-5     459-463 (465)
+  9 4OHT_A Succinate-semialdehyde    4.7 7.8E+02  0.0086   10.9   0.0    5    1-5     459-463 (465)
+ 10 4O36_B S-peptide (E.C.3.1.27.5   4.6 7.8E+02  0.0087    9.4   0.0    5    2-6      22-26  (104)
+
+No 1
+>3QAG_A Glutathione S-transferase omega-2 (E.C.2.5.1.18); Glutathione Transferase, GST, Dehydroascorbate Reductase; HET: PEG, GSH; 2.0A {Homo sapiens}
+Probab=5.34  E-value=6.6e+02  Score=9.46  Aligned_cols=6  Identities=67%  Similarity=1.043  Sum_probs=0.0  Template_Neff=10.900
+
+Q NNQNTF            1 NNQNTF    6 (6)
+Q Consensus         1 nnqntf    6 (6)
+                      +|+|+|
+T Consensus       233 ~~~~~~  238 (239)
+T 3QAG_A          233 NNPNAF  238 (239)
+T ss_pred             CCCCcC
+
+
+No 2
+>3VJJ_A P9-1; Viroplasm, VIRAL PROTEIN; 3.0A {Rice black streaked dwarf virus}
+Probab=5.10  E-value=7e+02  Score=13.54  Aligned_cols=6  Identities=33%  Similarity=0.285  Sum_probs=0.0  Template_Neff=2.200
+
+Q NNQNTF            1 NNQNTF    6 (6)
+Q Consensus         1 nnqntf    6 (6)
+                      ||||.|
+T Consensus        42 ~dQ~n~   47 (368)
+T 3VJJ_A           42 NDQPNR   47 (368)
+T ss_dssp             ------
+T ss_pred             cCCCCc
+
+
+No 3
+>2L14_B CREB-binding protein, Cellular tumor antigen; p53, CBP, p300, TAD, PROTEIN; NMR {Mus musculus}
+Probab=5.06  E-value=7e+02  Score=8.82  Aligned_cols=4  Identities=75%  Similarity=1.090  Sum_probs=0.0  Template_Neff=6.100
+
+Q NNQNTF            3 QNTF    6 (6)
+Q Consensus         3 qntf    6 (6)
+                      |.||
+T Consensus         4 QeTF    7 (49)
+T 2L14_B            4 QETF    7 (49)
+T ss_dssp             TTSH
+T ss_pred             hHHH
+
+
+No 4
+>4PER_B Gallus Ribonuclease Inhibitor, Gallus Ribonuclease; leucine-rich repeat, protein-protein complex, HYDROLASE-HYDROLASE; 1.92A {Gallus gallus}
+Probab=5.05  E-value=7e+02  Score=9.61  Aligned_cols=5  Identities=60%  Similarity=0.840  Sum_probs=0.0  Template_Neff=7.600
+
+Q NNQNTF            2 NQNTF    6 (6)
+Q Consensus         2 nqntf    6 (6)
+                      ..|||
+T Consensus        42 ~~nTF   46 (113)
+T 4PER_B           42 SLNTF   46 (113)
+T ss_dssp             SEEEE
+T ss_pred             cceee
+
+
+No 5
+>5JBT_Y PRSS3 protein, Amyloid-like protein 2; inhibitor protease serine, Hydrolase-Hydrolase inhibitor; 1.4A {Homo sapiens}
+Probab=5.00  E-value=7.1e+02  Score=5.80  Aligned_cols=5  Identities=60%  Similarity=1.105  Sum_probs=0.0  Template_Neff=11.800
+
+Q NNQNTF            2 NQNTF    6 (6)
+Q Consensus         2 nqntf    6 (6)
+                      +.|.|
+T Consensus        24 ~~~~f   28 (38)
+T 5JBT_Y           24 NRNNF   28 (38)
+T ss_dssp             GGCCC
+T ss_pred             CCccc
+
+
+No 6
+>4K7L_B Ribonuclease pancreatic (E.C.3.1.27.5); HYDROLASE, S-peptide; HET: SO4; 1.38A {Bos taurus}
+Probab=4.96  E-value=7.2e+02  Score=9.53  Aligned_cols=5  Identities=60%  Similarity=0.727  Sum_probs=0.0  Template_Neff=7.400
+
+Q NNQNTF            2 NQNTF    6 (6)
+Q Consensus         2 nqntf    6 (6)
+                      ..|||
+T Consensus        22 ~~NTF   26 (104)
+T 4K7L_B           22 PVNTF   26 (104)
+T ss_dssp             SEEEE
+T ss_pred             CceeE
+
+
+No 7
+>1RBG_A RIBONUCLEASE S (E.C.3.1.27.5) MUTANT WITH; HYDROLASE(PHOSPHORIC DIESTER, RNA); 1.8A {Bos taurus} SCOP: d.5.1.1
+Probab=4.86  E-value=7.4e+02  Score=9.46  Aligned_cols=5  Identities=60%  Similarity=0.727  Sum_probs=0.0  Template_Neff=7.500
+
+Q NNQNTF            2 NQNTF    6 (6)
+Q Consensus         2 nqntf    6 (6)
+                      ..|||
+T Consensus        22 ~~NTF   26 (104)
+T 1RBG_A           22 PVNTF   26 (104)
+T ss_dssp             SEEEE
+T ss_pred             CceeE
+
+
+No 8
+>4OGD_A Succinate-semialdehyde dehydrogenase; SSADH, GabD, Rossmann Fold, Dehydrogenase; 1.6A {Streptococcus pyogenes MGAS1882}
+Probab=4.65  E-value=7.8e+02  Score=10.92  Aligned_cols=5  Identities=80%  Similarity=0.939  Sum_probs=0.0  Template_Neff=9.700
+
+Q NNQNTF            1 NNQNT    5 (6)
+Q Consensus         1 nnqnt    5 (6)
+                      ||.||
+T Consensus       459 ~~~~~  463 (465)
+T 4OGD_A          459 NNSNT  463 (465)
+T ss_dssp             -----
+T ss_pred             CCCcc
+
+
+No 9
+>4OHT_A Succinate-semialdehyde dehydrogenase; SSADH, GabD, OXIDOREDUCTASE, Rossmann Fold; HET: NAP; 2.1A {Streptococcus pyogenes MGAS1882}
+Probab=4.65  E-value=7.8e+02  Score=10.92  Aligned_cols=5  Identities=80%  Similarity=0.939  Sum_probs=0.0  Template_Neff=9.700
+
+Q NNQNTF            1 NNQNT    5 (6)
+Q Consensus         1 nnqnt    5 (6)
+                      ||.||
+T Consensus       459 ~~~~~  463 (465)
+T 4OHT_A          459 NNSNT  463 (465)
+T ss_dssp             -----
+T ss_pred             CCCcc
+
+
+No 10
+>4O36_B S-peptide (E.C.3.1.27.5), Ribonuclease pancreatic (E.C.3.1.27.5); RNase S, artificial imine reductase; 1.22A {Bos taurus}
+Probab=4.64  E-value=7.8e+02  Score=9.44  Aligned_cols=5  Identities=60%  Similarity=0.727  Sum_probs=0.0  Template_Neff=7.400
+
+Q NNQNTF            2 NQNTF    6 (6)
+Q Consensus         2 nqntf    6 (6)
+                      ..|||
+T Consensus        22 ~~NTF   26 (104)
+T 4O36_B           22 PVNTF   26 (104)
+T ss_pred             CceEE
+
+

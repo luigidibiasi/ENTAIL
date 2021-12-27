@@ -1,0 +1,149 @@
+Query         LKLVSS
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 18:55:24 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LKLVSS/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LKLVSS/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5ZB2_B DNA repair protein RAD7   4.9 7.3E+02   0.008    9.3   0.0    6    1-6      20-25  (103)
+  2 6BI6_A Uncharacterized protein   4.9 7.4E+02  0.0082   11.3   0.0    5    1-5      45-49  (115)
+  3 1YGE_A LIPOXYGENASE-1; DIOXYGE   4.2 8.9E+02  0.0098   13.2   0.0    6    1-6      42-47  (839)
+  4 2BMO_B OXYGENASE-ALPHA NBDO, O   3.8 9.9E+02   0.011    9.6   0.0    5    2-6       9-13  (194)
+  5 1FS0_G GAMMA/EPSILON ATP SYNTH   3.7   1E+03   0.012    9.6   0.0    6    1-6       6-11  (230)
+  6 5Y2W_A Rubisco operon transcri   3.5 1.1E+03   0.012    8.7   0.0    4    1-4     230-233 (234)
+  7 1XC0_A Pardaxin P-4; Bend-heli   3.5 1.1E+03   0.012    9.0   0.0    5    2-6       8-12  (33)
+  8 5NO6_I Homeobox protein Hox-B1   3.5 1.1E+03   0.013    9.0   0.0    5    2-6      57-61  (73)
+  9 5NNX_A Transcriptional enhance   3.4 1.2E+03   0.013    9.0   0.0    5    2-6      58-62  (74)
+ 10 2JEK_A RV1873; STRUCTURAL GENO   3.2 1.2E+03   0.014   10.3   0.0    6    1-6     103-108 (145)
+
+No 1
+>5ZB2_B DNA repair protein RAD7, Elongin-C; LRR, ubiquitin ligase, complex, LIGASE; HET: P33, P6G, GOL, 9FO; 2.30000538295A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=4.93  E-value=7.3e+02  Score=9.25  Aligned_cols=6  Identities=50%  Similarity=0.645  Sum_probs=0.0  Template_Neff=8.000
+
+Q LKLVSS            1 LKLVSS    6 (6)
+Q Consensus         1 lklvss    6 (6)
+                      ++|+|+
+T Consensus        20 v~L~Ss   25 (103)
+T 5ZB2_B           20 VTLVSK   25 (103)
+T ss_pred             EEEEeC
+
+
+No 2
+>6BI6_A Uncharacterized protein YejG; PF13989, YejG, UNKNOWN FUNCTION; NMR {Escherichia coli (strain K12)}
+Probab=4.86  E-value=7.4e+02  Score=11.29  Aligned_cols=5  Identities=80%  Similarity=1.012  Sum_probs=0.0  Template_Neff=3.100
+
+Q LKLVSS            1 LKLVS    5 (6)
+Q Consensus         1 lklvs    5 (6)
+                      |||.|
+T Consensus        45 LkLLS   49 (115)
+T 6BI6_A           45 LKLLS   49 (115)
+T ss_dssp             ECCCS
+T ss_pred             EEEeC
+
+
+No 3
+>1YGE_A LIPOXYGENASE-1; DIOXYGENASE, LIPOXYGENASE, METALLOPROTEIN, FATTY ACIDS; 1.4A {Glycine max} SCOP: a.119.1.1, b.12.1.1
+Probab=4.20  E-value=8.9e+02  Score=13.19  Aligned_cols=6  Identities=50%  Similarity=0.883  Sum_probs=0.0  Template_Neff=6.500
+
+Q LKLVSS            1 LKLVSS    6 (6)
+Q Consensus         1 lklvss    6 (6)
+                      |.||||
+T Consensus        42 LqLVSs   47 (839)
+T 1YGE_A           42 LQLISA   47 (839)
+T ss_dssp             EEEEEE
+T ss_pred             EEEEec
+
+
+No 4
+>2BMO_B OXYGENASE-ALPHA NBDO, OXYGENASE-BETA NBDO; NITROBENZENE DIOXYGENASE, NITROARENE, RIESKE NON-HEME; HET: EDO, EOH; 1.2A {COMAMONAS SP.} SCOP: d.17.4.4
+Probab=3.84  E-value=9.9e+02  Score=9.59  Aligned_cols=5  Identities=80%  Similarity=0.926  Sum_probs=0.0  Template_Neff=8.800
+
+Q LKLVSS            2 KLVSS    6 (6)
+Q Consensus         2 klvss    6 (6)
+                      ||+|+
+T Consensus         9 ~~~~~   13 (194)
+T 2BMO_B            9 KLVSA   13 (194)
+T ss_dssp             TTCCH
+T ss_pred             HHhcc
+
+
+No 5
+>1FS0_G GAMMA/EPSILON ATP SYNTHASE (E.C.3.6.1.34); ATP Synthase, Gamma, epsilon, HYDROLASE; 2.1A {Escherichia coli} SCOP: c.49.2.1
+Probab=3.68  E-value=1e+03  Score=9.63  Aligned_cols=6  Identities=17%  Similarity=0.689  Sum_probs=0.0  Template_Neff=9.200
+
+Q LKLVSS            1 LKLVSS    6 (6)
+Q Consensus         1 lklvss    6 (6)
+                      +|+||+
+T Consensus         6 Mk~va~   11 (230)
+T 1FS0_G            6 MEMVAA   11 (230)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 6
+>5Y2W_A Rubisco operon transcriptional regulator; LysR-type transcription factor, TRANSCRIPTION; 2.2A {Synechocystis sp. (strain PCC 6803 / Kazusa)}
+Probab=3.50  E-value=1.1e+03  Score=8.65  Aligned_cols=4  Identities=75%  Similarity=1.032  Sum_probs=0.0  Template_Neff=11.300
+
+Q LKLVSS            1 LKLV    4 (6)
+Q Consensus         1 lklv    4 (6)
+                      +|||
+T Consensus       230 ~~~~  233 (234)
+T 5Y2W_A          230 VKLV  233 (234)
+T ss_dssp             ----
+T ss_pred             ceec
+
+
+No 7
+>1XC0_A Pardaxin P-4; Bend-helix-bend-helix motif, SIGNALING PROTEIN; NMR {N/A} SCOP: j.6.1.1
+Probab=3.50  E-value=1.1e+03  Score=8.98  Aligned_cols=5  Identities=60%  Similarity=0.899  Sum_probs=0.0  Template_Neff=1.000
+
+Q LKLVSS            2 KLVSS    6 (6)
+Q Consensus         2 klvss    6 (6)
+                      |++||
+T Consensus         8 kiiss   12 (33)
+T 1XC0_A            8 KIISS   12 (33)
+T ss_dssp             HHTCC
+T ss_pred             HHhcC
+
+
+No 8
+>5NO6_I Homeobox protein Hox-B13, Transcriptional enhancer; Transcription factor, DNA binding, transcription; 2.88A {Homo sapiens}
+Probab=3.45  E-value=1.1e+03  Score=8.99  Aligned_cols=5  Identities=80%  Similarity=0.627  Sum_probs=0.0  Template_Neff=6.000
+
+Q LKLVSS            2 KLVSS    6 (6)
+Q Consensus         2 klvss    6 (6)
+                      |-|||
+T Consensus        57 KQVsS   61 (73)
+T 5NO6_I           57 KQVSS   61 (73)
+T ss_dssp             HHHHH
+T ss_pred             hHhhH
+
+
+No 9
+>5NNX_A Transcriptional enhancer factor TEF-1/DNA Complex; Transcription factor, DNA binding, Transcription; 3.29A {Homo sapiens}
+Probab=3.39  E-value=1.2e+03  Score=8.99  Aligned_cols=5  Identities=80%  Similarity=0.627  Sum_probs=0.0  Template_Neff=6.000
+
+Q LKLVSS            2 KLVSS    6 (6)
+Q Consensus         2 klvss    6 (6)
+                      |-|||
+T Consensus        58 KQVsS   62 (74)
+T 5NNX_A           58 KQVSS   62 (74)
+T ss_dssp             HHHHH
+T ss_pred             hHhhH
+
+
+No 10
+>2JEK_A RV1873; STRUCTURAL GENOMICS, UNKNOWN FUNCTION, MYCOBACTERIUM; HET: GOL; 1.38A {MYCOBACTERIUM TUBERCULOSIS} SCOP: a.255.1.1
+Probab=3.21  E-value=1.2e+03  Score=10.34  Aligned_cols=6  Identities=83%  Similarity=0.866  Sum_probs=0.0  Template_Neff=5.100
+
+Q LKLVSS            1 LKLVSS    6 (6)
+Q Consensus         1 lklvss    6 (6)
+                      +|+-||
+T Consensus       103 ~Kl~Ss  108 (145)
+T 2JEK_A          103 LKLCSS  108 (145)
+T ss_dssp             HHHHHH
+T ss_pred             hhHHHH
+
+

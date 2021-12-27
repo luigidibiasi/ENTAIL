@@ -1,0 +1,151 @@
+Query         NATAHQ
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 23:02:32 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NATAHQ/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NATAHQ/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 1JEK_A ENV POLYPROTEIN; ENVELO  23.4      79 0.00087   12.5   0.0    6    1-6       6-11  (42)
+  2 6TJV_P NAD(P)H-quinone oxidore   7.4 4.3E+02  0.0048   14.5   0.0    6    1-6     301-306 (437)
+  3 2A5Z_B hypothetical protein SO   6.7 4.9E+02  0.0054   13.5   0.0    5    1-5     223-227 (262)
+  4 2A5Z_C hypothetical protein SO   6.6   5E+02  0.0055   13.5   0.0    5    1-5     223-227 (262)
+  5 2P6H_A Hypothetical protein; S   5.8 5.9E+02  0.0065   10.5   0.0    5    1-5      83-87  (134)
+  6 2OZA_A MAP kinase-activated pr   5.7   6E+02  0.0066   10.2   0.0    4    2-5     353-356 (356)
+  7 3LMM_D Uncharacterized protein   5.6 6.2E+02  0.0069   12.2   0.0    6    1-6     307-312 (583)
+  8 2CU5_C Conserved Hypothetical    5.2 6.8E+02  0.0075   10.4   0.0    5    1-5      80-84  (129)
+  9 6M6W_B Toxin-antitoxin system    5.1 6.9E+02  0.0076    9.1   0.0    6    1-6      98-103 (133)
+ 10 4JZE_L Factor VIIa (Heavy Chai   5.1   7E+02  0.0077    6.3   0.0    5    2-6      50-54  (55)
+
+No 1
+>1JEK_A ENV POLYPROTEIN; ENVELOPE GLYCOPROTEIN, RETROVIRUS, HIV, SIV; 1.5A {N/A} SCOP: h.3.2.1
+Probab=23.37  E-value=79  Score=12.55  Aligned_cols=6  Identities=83%  Similarity=0.722  Sum_probs=3.1  Template_Neff=1.200
+
+Q NATAHQ            1 NATAHQ    6 (6)
+Q Consensus         1 natahq    6 (6)
+                      ||||-|
+T Consensus         6 nata~q   11 (42)
+T 1JEK_A            6 NATAAQ   11 (42)
+T ss_dssp             HHHHHH
+T ss_pred             hhHHHH
+Confidence            556543
+
+
+No 2
+>6TJV_P NAD(P)H-quinone oxidoreductase subunit 1 (E.C.7.1.1.-); carbon concentrating photosynthetic complex I; HET: BCR, CLA, DGD, SF4, SQD, PGT;{Thermosynechococcus elongatus (strain BP-1)}
+Probab=7.38  E-value=4.3e+02  Score=14.48  Aligned_cols=6  Identities=67%  Similarity=0.695  Sum_probs=3.4  Template_Neff=2.500
+
+Q NATAHQ            1 NATAHQ    6 (6)
+Q Consensus         1 natahq    6 (6)
+                      ||.|+|
+T Consensus       301 NAQA~Q  306 (437)
+T 6TJV_P          301 NAQANQ  306 (437)
+T ss_dssp             CTTTTT
+T ss_pred             cccccc
+Confidence            555655
+
+
+No 3
+>2A5Z_B hypothetical protein SO2946; Shewanella oneidensis MR-1, hypothetical protein; HET: MSE; 2.015A {Shewanella oneidensis} SCOP: b.29.1.24
+Probab=6.68  E-value=4.9e+02  Score=13.48  Aligned_cols=5  Identities=100%  Similarity=1.139  Sum_probs=0.0  Template_Neff=1.300
+
+Q NATAHQ            1 NATAH    5 (6)
+Q Consensus         1 natah    5 (6)
+                      ||+||
+T Consensus       223 natah  227 (262)
+T 2A5Z_B          223 NATAH  227 (262)
+T ss_dssp             STTEE
+T ss_pred             Cccce
+
+
+No 4
+>2A5Z_C hypothetical protein SO2946; Shewanella oneidensis MR-1, hypothetical protein; 2.015A {Shewanella oneidensis} SCOP: b.29.1.24
+Probab=6.64  E-value=5e+02  Score=13.46  Aligned_cols=5  Identities=100%  Similarity=1.139  Sum_probs=0.0  Template_Neff=1.300
+
+Q NATAHQ            1 NATAH    5 (6)
+Q Consensus         1 natah    5 (6)
+                      ||+||
+T Consensus       223 natah  227 (262)
+T 2A5Z_C          223 NATAH  227 (262)
+T ss_dssp             STTEE
+T ss_pred             Cceee
+
+
+No 5
+>2P6H_A Hypothetical protein; STRUCTURAL GENOMICS, UNKNOWN FUNCTION, NPPSFA; HET: SO4; 1.95A {Aeropyrum pernix}
+Probab=5.81  E-value=5.9e+02  Score=10.50  Aligned_cols=5  Identities=80%  Similarity=0.953  Sum_probs=0.0  Template_Neff=6.700
+
+Q NATAHQ            1 NATAH    5 (6)
+Q Consensus         1 natah    5 (6)
+                      |+.||
+T Consensus        83 n~~aH   87 (134)
+T 2P6H_A           83 NAHAH   87 (134)
+T ss_dssp             CHHHH
+T ss_pred             ChHHH
+
+
+No 6
+>2OZA_A MAP kinase-activated protein kinase 2; SERINE/THREONINE KINASE, PROTEIN-PROTEIN COMPLEX, P38A; 2.7A {Homo sapiens} SCOP: d.144.1.7
+Probab=5.73  E-value=6e+02  Score=10.23  Aligned_cols=4  Identities=75%  Similarity=0.792  Sum_probs=0.0  Template_Neff=10.900
+
+Q NATAHQ            2 ATAH    5 (6)
+Q Consensus         2 atah    5 (6)
+                      ||||
+T Consensus       353 ~~~~  356 (356)
+T 2OZA_A          353 ALAH  356 (356)
+T ss_dssp             ----
+T ss_pred             hcCC
+
+
+No 7
+>3LMM_D Uncharacterized protein; multi-domained alpha-beta protein, Structural Genomics; 3.0A {Corynebacterium diphtheriae}
+Probab=5.58  E-value=6.2e+02  Score=12.20  Aligned_cols=6  Identities=50%  Similarity=0.684  Sum_probs=0.0  Template_Neff=8.400
+
+Q NATAHQ            1 NATAHQ    6 (6)
+Q Consensus         1 natahq    6 (6)
+                      ||-+|+
+T Consensus       307 NAl~HR  312 (583)
+T 3LMM_D          307 NAMIHR  312 (583)
+T ss_dssp             HHHHHS
+T ss_pred             HHHHcC
+
+
+No 8
+>2CU5_C Conserved Hypothetical Protein TT1486; Thermus Thermophilus HB8, Conserved Hypothetical; 1.84A {Thermus thermophilus}
+Probab=5.21  E-value=6.8e+02  Score=10.39  Aligned_cols=5  Identities=60%  Similarity=0.866  Sum_probs=0.0  Template_Neff=6.400
+
+Q NATAHQ            1 NATAH    5 (6)
+Q Consensus         1 natah    5 (6)
+                      |+.||
+T Consensus        80 n~~aH   84 (129)
+T 2CU5_C           80 NSHAH   84 (129)
+T ss_dssp             CHHHH
+T ss_pred             CchHH
+
+
+No 9
+>6M6W_B Toxin-antitoxin system antidote Mnt family; crystal structure of a unique; 2.611A {Shewanella oneidensis MR-1}
+Probab=5.15  E-value=6.9e+02  Score=9.07  Aligned_cols=6  Identities=33%  Similarity=0.590  Sum_probs=0.0  Template_Neff=9.500
+
+Q NATAHQ            1 NATAHQ    6 (6)
+Q Consensus         1 natahq    6 (6)
+                      |..+|+
+T Consensus        98 N~l~H~  103 (133)
+T 6M6W_B           98 NIAVHD  103 (133)
+T ss_dssp             HHHHHC
+T ss_pred             hhHHhc
+
+
+No 10
+>4JZE_L Factor VIIa (Heavy Chain) (E.C.3.4.21.21); glycoprotein, serine protease, plasma, blood; HET: SO4, GOL, 1NK; 1.52A {Homo sapiens}
+Probab=5.09  E-value=7e+02  Score=6.28  Aligned_cols=5  Identities=0%  Similarity=0.029  Sum_probs=0.0  Template_Neff=12.200
+
+Q NATAHQ            2 ATAHQ    6 (6)
+Q Consensus         2 atahq    6 (6)
+                      +++|+
+T Consensus        50 ~~~~~   54 (55)
+T 4JZE_L           50 PILEK   54 (55)
+T ss_pred             CCcCC
+
+

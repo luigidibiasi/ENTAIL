@@ -1,0 +1,159 @@
+Query         GSHLVE
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 03:42:20 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GSHLVE/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GSHLVE/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5URT_B Insulin Chain A, Insuli  74.9     2.3 2.6E-05   14.6   0.0    6    1-6       8-13  (30)
+  2 3W7Y_B Insulin; Human insulin,  54.0      12 0.00013   12.7   0.0    6    1-6       8-13  (30)
+  3 6SOF_F Insulin receptor (E.C.2  54.0      12 0.00013   12.7   0.0    6    1-6       8-13  (30)
+  4 1XU6_A Variant surface glycopr  49.2      16 0.00017   14.5   0.0    6    1-6       1-6   (80)
+  5 5XJ0_H DNA-directed RNA polyme  44.5      21 0.00023   16.8   0.0    6    1-6       1-6   (144)
+  6 4OKD_A Isoamylase (E.C.3.2.1.6  38.1      30 0.00033   16.8   0.0    6    1-6      18-23  (840)
+  7 3UW5_B Baculoviral IAP repeat-  35.2      36  0.0004   13.3   0.0    6    1-6       1-6   (116)
+  8 4J7R_A Isoamylase (E.C.3.2.1.6  30.1      50 0.00055   16.4   0.0    6    1-6      18-23  (840)
+  9 4OKD_B Isoamylase (E.C.3.2.1.6  30.1      50 0.00055   16.4   0.0    6    1-6      18-23  (840)
+ 10 2QDF_A Outer membrane protein   28.5      55 0.00061   13.0   0.0    6    1-6       1-6   (335)
+
+No 1
+>5URT_B Insulin Chain A, Insulin Chain; Insulin, HORMONE; 1.18A {Homo sapiens}
+Probab=74.90  E-value=2.3  Score=14.63  Aligned_cols=6  Identities=100%  Similarity=1.431  Sum_probs=4.3  Template_Neff=4.800
+
+Q GSHLVE            1 GSHLVE    6 (6)
+Q Consensus         1 gshlve    6 (6)
+                      ||+||+
+T Consensus         8 G~~Lvd   13 (30)
+T 5URT_B            8 GSHLVE   13 (30)
+T ss_dssp             THHHHH
+T ss_pred             chhHHH
+Confidence            678875
+
+
+No 2
+>3W7Y_B Insulin; Human insulin, hormone, glucose metabolism; 0.92A {Homo sapiens}
+Probab=54.00  E-value=12  Score=12.71  Aligned_cols=6  Identities=100%  Similarity=1.431  Sum_probs=3.7  Template_Neff=5.200
+
+Q GSHLVE            1 GSHLVE    6 (6)
+Q Consensus         1 gshlve    6 (6)
+                      |++|++
+T Consensus         8 G~~L~~   13 (30)
+T 3W7Y_B            8 GSHLVE   13 (30)
+T ss_dssp             THHHHH
+T ss_pred             chHHHH
+Confidence            567764
+
+
+No 3
+>6SOF_F Insulin receptor (E.C.2.7.10.1), Insulin; cell surface receptor, insulin, tyrosine; 4.3A {Homo sapiens}
+Probab=54.00  E-value=12  Score=12.71  Aligned_cols=6  Identities=100%  Similarity=1.431  Sum_probs=3.7  Template_Neff=5.200
+
+Q GSHLVE            1 GSHLVE    6 (6)
+Q Consensus         1 gshlve    6 (6)
+                      |++|++
+T Consensus         8 G~~L~~   13 (30)
+T 6SOF_F            8 GSHLVE   13 (30)
+T ss_dssp             THHHHH
+T ss_pred             chHHHH
+Confidence            567764
+
+
+No 4
+>1XU6_A Variant surface glycoprotein MITAT 1.2; cysteine knot, IMMUNE SYSTEM, MEMBRANE; NMR {Trypanosoma} SCOP: g.16.3.1
+Probab=49.20  E-value=16  Score=14.49  Aligned_cols=6  Identities=67%  Similarity=1.276  Sum_probs=4.1  Template_Neff=5.400
+
+Q GSHLVE            1 GSHLVE    6 (6)
+Q Consensus         1 gshlve    6 (6)
+                      |||++|
+T Consensus         1 ~~~~~~    6 (80)
+T 1XU6_A            1 GSHMLE    6 (80)
+T ss_dssp             CCCSCC
+T ss_pred             CccHHH
+Confidence            678764
+
+
+No 5
+>5XJ0_H DNA-directed RNA polymerase subunit alpha; Transcription regulation by bacteriophage-encoded proteins; 4.004A {Thermus thermophilus HB8}
+Probab=44.54  E-value=21  Score=16.76  Aligned_cols=6  Identities=83%  Similarity=1.365  Sum_probs=0.0  Template_Neff=1.000
+
+Q GSHLVE            1 GSHLVE    6 (6)
+Q Consensus         1 gshlve    6 (6)
+                      |||+||
+T Consensus         1 gshmve    6 (144)
+T 5XJ0_H            1 GSHMVE    6 (144)
+T ss_dssp             ------
+T ss_pred             CCcccc
+Confidence            788875
+
+
+No 6
+>4OKD_A Isoamylase (E.C.3.2.1.68); GH13 glycoside hydrolase, HYDROLASE; HET: GLC; 2.4A {Chlamydomonas reinhardtii}
+Probab=38.12  E-value=30  Score=16.78  Aligned_cols=6  Identities=83%  Similarity=1.365  Sum_probs=0.0  Template_Neff=8.600
+
+Q GSHLVE            1 GSHLVE    6 (6)
+Q Consensus         1 gshlve    6 (6)
+                      |||+||
+T Consensus        18 ~~~~~~   23 (840)
+T 4OKD_A           18 GSHMVE   23 (840)
+T ss_dssp             ------
+T ss_pred             CcceEE
+Confidence            577765
+
+
+No 7
+>3UW5_B Baculoviral IAP repeat-containing protein 7; Apoptosis Inhibitor, BIR domain; HET: SO4; 1.71A {Homo sapiens}
+Probab=35.20  E-value=36  Score=13.35  Aligned_cols=6  Identities=67%  Similarity=1.276  Sum_probs=0.0  Template_Neff=7.200
+
+Q GSHLVE            1 GSHLVE    6 (6)
+Q Consensus         1 gshlve    6 (6)
+                      |||+.|
+T Consensus         1 ~~~~~~    6 (116)
+T 3UW5_B            1 GSHMLE    6 (116)
+T ss_dssp             ------
+T ss_pred             CCcccc
+Confidence            567653
+
+
+No 8
+>4J7R_A Isoamylase (E.C.3.2.1.68); GH13 glycoside hydrolase, HYDROLASE; 2.3A {Chlamydomonas reinhardtii}
+Probab=30.06  E-value=50  Score=16.45  Aligned_cols=6  Identities=83%  Similarity=1.365  Sum_probs=0.0  Template_Neff=8.000
+
+Q GSHLVE            1 GSHLVE    6 (6)
+Q Consensus         1 gshlve    6 (6)
+                      |||.||
+T Consensus        18 ~~~~~~   23 (840)
+T 4J7R_A           18 GSHMVE   23 (840)
+T ss_dssp             ------
+T ss_pred             CcceEE
+Confidence            577765
+
+
+No 9
+>4OKD_B Isoamylase (E.C.3.2.1.68); GH13 glycoside hydrolase, HYDROLASE; HET: GLC; 2.4A {Chlamydomonas reinhardtii}
+Probab=30.06  E-value=50  Score=16.45  Aligned_cols=6  Identities=83%  Similarity=1.365  Sum_probs=0.0  Template_Neff=8.000
+
+Q GSHLVE            1 GSHLVE    6 (6)
+Q Consensus         1 gshlve    6 (6)
+                      |||.||
+T Consensus        18 ~~~~~~   23 (840)
+T 4OKD_B           18 GSHMVE   23 (840)
+T ss_dssp             ------
+T ss_pred             CcceEE
+Confidence            577765
+
+
+No 10
+>2QDF_A Outer membrane protein assembly factor; POTRA domain, MEMBRANE PROTEIN, PROTEIN; 2.2A {Escherichia coli K12}
+Probab=28.50  E-value=55  Score=13.00  Aligned_cols=6  Identities=67%  Similarity=1.182  Sum_probs=3.3  Template_Neff=10.700
+
+Q GSHLVE            1 GSHLVE    6 (6)
+Q Consensus         1 gshlve    6 (6)
+                      |||+.|
+T Consensus         1 ~~~~~~    6 (335)
+T 2QDF_A            1 GSHMAE    6 (335)
+T ss_pred             CCcccc
+Confidence            566543
+
+

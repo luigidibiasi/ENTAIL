@@ -1,0 +1,148 @@
+Query         QSSYSS
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 10:44:01 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QSSYSS/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QSSYSS/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2JR2_B UPF0352 protein CPS_261   6.2 5.5E+02   0.006   10.9   0.0    6    1-6       4-9   (76)
+  2 2OTA_B UPF0352 protein CPS_261   6.2 5.5E+02   0.006   10.9   0.0    6    1-6       4-9   (76)
+  3 7AOF_S Vaccinia, Virus, RNA po   6.0 5.7E+02  0.0063   12.8   0.0    6    1-6       6-11  (259)
+  4 7AOH_S Vaccinia, Virus, RNA po   6.0 5.7E+02  0.0063   12.8   0.0    6    1-6       6-11  (259)
+  5 2C5A_A GDP-MANNOSE-3', 5'-EPIM   5.6 6.2E+02  0.0068   10.8   0.0    6    1-6     352-357 (379)
+  6 2C5A_B GDP-MANNOSE-3', 5'-EPIM   5.6 6.2E+02  0.0068   10.8   0.0    6    1-6     352-357 (379)
+  7 2JRX_A UPF0352 protein yejL; h   5.5 6.3E+02  0.0069   10.9   0.0    6    1-6       4-9   (83)
+  8 2JPQ_A UPF0352 protein VP2129;   5.5 6.4E+02   0.007   10.9   0.0    6    1-6       4-9   (83)
+  9 2JUZ_A UPF0352 protein HI0840;   5.5 6.4E+02  0.0071   10.8   0.0    6    1-6       4-9   (80)
+ 10 6LAN_A Coiled-coil domain-cont   5.3 6.6E+02  0.0073   10.4   0.0    6    1-6       4-9   (135)
+
+No 1
+>2JR2_B UPF0352 protein CPS_2611; dimer, all alpha helix, homodimer; NMR {Colwellia psychrerythraea} SCOP: a.284.1.1
+Probab=6.16  E-value=5.5e+02  Score=10.93  Aligned_cols=6  Identities=50%  Similarity=0.650  Sum_probs=0.0  Template_Neff=3.200
+
+Q QSSYSS            1 QSSYSS    6 (6)
+Q Consensus         1 qssyss    6 (6)
+                      +|.||.
+T Consensus         4 ~SKYs~    9 (76)
+T 2JR2_B            4 VSKYSN    9 (76)
+T ss_dssp             CCCSCH
+T ss_pred             CCCCCH
+
+
+No 2
+>2OTA_B UPF0352 protein CPS_2611; NESG, Y2611_COLP3, UPF0352, CPS_2611, Structural; HET: MSE; 2.2A {Colwellia psychrerythraea} SCOP: a.284.1.1
+Probab=6.16  E-value=5.5e+02  Score=10.93  Aligned_cols=6  Identities=50%  Similarity=0.650  Sum_probs=0.0  Template_Neff=3.200
+
+Q QSSYSS            1 QSSYSS    6 (6)
+Q Consensus         1 qssyss    6 (6)
+                      +|.||.
+T Consensus         4 ~SKYs~    9 (76)
+T 2OTA_B            4 VSKYSN    9 (76)
+T ss_dssp             -----C
+T ss_pred             CCCCCH
+
+
+No 3
+>7AOF_S Vaccinia, Virus, RNA polymerase, DNA-dependent; HET: SEP; 2.98A {Vaccinia virus GLV-1h68}
+Probab=5.98  E-value=5.7e+02  Score=12.83  Aligned_cols=6  Identities=83%  Similarity=0.816  Sum_probs=0.0  Template_Neff=3.800
+
+Q QSSYSS            1 QSSYSS    6 (6)
+Q Consensus         1 qssyss    6 (6)
+                      ++|||+
+T Consensus         6 ~~~~~~   11 (259)
+T 7AOF_S            6 ISSYSS   11 (259)
+T ss_pred             ccCCCc
+
+
+No 4
+>7AOH_S Vaccinia, Virus, RNA polymerase, DNA-dependent; 2.7A {Vaccinia virus GLV-1h68}
+Probab=5.98  E-value=5.7e+02  Score=12.83  Aligned_cols=6  Identities=83%  Similarity=0.816  Sum_probs=0.0  Template_Neff=3.800
+
+Q QSSYSS            1 QSSYSS    6 (6)
+Q Consensus         1 qssyss    6 (6)
+                      ++|||+
+T Consensus         6 ~~~~~~   11 (259)
+T 7AOH_S            6 ISSYSS   11 (259)
+T ss_pred             ccCCCc
+
+
+No 5
+>2C5A_A GDP-MANNOSE-3', 5'-EPIMERASE (E.C.5.1.3.18); 3' 5'-EPIMERASE, SHORT CHAIN DEHYDRATASE/REDUCTASE; HET: NAD, FMT, BTB, GDC; 1.4A {Arabidopsis thaliana} SCOP: c.2.1.2
+Probab=5.60  E-value=6.2e+02  Score=10.77  Aligned_cols=6  Identities=50%  Similarity=0.501  Sum_probs=0.0  Template_Neff=9.900
+
+Q QSSYSS            1 QSSYSS    6 (6)
+Q Consensus         1 qssyss    6 (6)
+                      +++|++
+T Consensus       352 ~~~~~~  357 (379)
+T 2C5A_A          352 VSLYGS  357 (379)
+T ss_dssp             GGGGGS
+T ss_pred             cEEEee
+
+
+No 6
+>2C5A_B GDP-MANNOSE-3', 5'-EPIMERASE (E.C.5.1.3.18); 3' 5'-EPIMERASE, SHORT CHAIN DEHYDRATASE/REDUCTASE; HET: BTB, GDC, NAD, FMT; 1.4A {Arabidopsis thaliana} SCOP: c.2.1.2
+Probab=5.60  E-value=6.2e+02  Score=10.77  Aligned_cols=6  Identities=50%  Similarity=0.501  Sum_probs=0.0  Template_Neff=9.900
+
+Q QSSYSS            1 QSSYSS    6 (6)
+Q Consensus         1 qssyss    6 (6)
+                      +++|++
+T Consensus       352 ~~~~~~  357 (379)
+T 2C5A_B          352 VSLYGS  357 (379)
+T ss_dssp             CTTTTS
+T ss_pred             cEEEee
+
+
+No 7
+>2JRX_A UPF0352 protein yejL; homodimer, alpha helix, Structural Genomics; NMR {Escherichia coli} SCOP: a.284.1.1
+Probab=5.54  E-value=6.3e+02  Score=10.91  Aligned_cols=6  Identities=50%  Similarity=0.589  Sum_probs=0.0  Template_Neff=3.200
+
+Q QSSYSS            1 QSSYSS    6 (6)
+Q Consensus         1 qssyss    6 (6)
+                      +|.||.
+T Consensus         4 ~SKYsd    9 (83)
+T 2JRX_A            4 ISRYSD    9 (83)
+T ss_dssp             TTCTTH
+T ss_pred             CCCCCH
+
+
+No 8
+>2JPQ_A UPF0352 protein VP2129; dimer, all alpha, homodimer, Structural; NMR {Vibrio parahaemolyticus} SCOP: a.284.1.1
+Probab=5.48  E-value=6.4e+02  Score=10.89  Aligned_cols=6  Identities=33%  Similarity=0.672  Sum_probs=0.0  Template_Neff=3.200
+
+Q QSSYSS            1 QSSYSS    6 (6)
+Q Consensus         1 qssyss    6 (6)
+                      +|.||.
+T Consensus         4 ~SKYsd    9 (83)
+T 2JPQ_A            4 TSKYTD    9 (83)
+T ss_dssp             SCCSCH
+T ss_pred             CCCCCH
+
+
+No 9
+>2JUZ_A UPF0352 protein HI0840; homodimer, helix, Structural Genomics, PSI-2; NMR {Haemophilus influenzae} SCOP: a.284.1.1
+Probab=5.46  E-value=6.4e+02  Score=10.82  Aligned_cols=6  Identities=50%  Similarity=0.778  Sum_probs=0.0  Template_Neff=3.200
+
+Q QSSYSS            1 QSSYSS    6 (6)
+Q Consensus         1 qssyss    6 (6)
+                      +|.||.
+T Consensus         4 ~SKYsd    9 (80)
+T 2JUZ_A            4 HSKYSD    9 (80)
+T ss_dssp             CCCCCH
+T ss_pred             CCCCCH
+
+
+No 10
+>6LAN_A Coiled-coil domain-containing protein 50,Microtubule-associated proteins; autophagy, complex, PEPTIDE BINDING PROTEIN; 1.41A {Homo sapiens}
+Probab=5.34  E-value=6.6e+02  Score=10.38  Aligned_cols=6  Identities=33%  Similarity=0.501  Sum_probs=0.0  Template_Neff=6.700
+
+Q QSSYSS            1 QSSYSS    6 (6)
+Q Consensus         1 qssyss    6 (6)
+                      |.+|++
+T Consensus         4 ~~~~~~    9 (135)
+T 6LAN_A            4 QEWYDA    9 (135)
+T ss_dssp             CCCCCT
+T ss_pred             hHhhhc
+
+

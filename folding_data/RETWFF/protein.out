@@ -1,0 +1,215 @@
+Query         RETWFF
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 12:02:19 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/RETWFF/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/RETWFF/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2BV0_B PROTOCATECHUATE 3,4-DIO  65.4     5.3 5.9E-05   17.7   0.0    6    1-6     232-237 (241)
+  2 2BV0_A PROTOCATECHUATE 3,4-DIO  63.2     6.3 6.9E-05   16.9   0.0    6    1-6     202-207 (209)
+  3 2BUW_B PROTOCATECHUATE 3,4-DIO  55.7      10 0.00011   16.8   0.0    6    1-6     232-237 (241)
+  4 3SJQ_C Calmodulin, Small condu  43.1      22 0.00025   14.4   0.0    6    1-6      18-23  (87)
+  5 3MV4_C intradiol, non-heme, ho  42.2      24 0.00026   15.2   0.0    6    1-6     193-198 (200)
+  6 3PCB_B PROTOCATECHUATE 3,4-DIO  42.2      24 0.00026   15.2   0.0    6    1-6     193-198 (200)
+  7 4WHS_E 3,4-PCD alpha subunit (  42.2      24 0.00026   15.2   0.0    6    1-6     193-198 (200)
+  8 3R84_V Mediator of RNA polymer  29.9      50 0.00056   13.1   0.0    6    1-6      83-88  (92)
+  9 5I5K_B Complement C5, Eculizum  28.4      56 0.00061   16.7   0.0    6    1-6     770-775 (1676)
+ 10 5ITQ_A Endonuclease 8-like 1 (  27.3      60 0.00066   14.6   0.0    6    1-6     277-282 (290)
+ 11 4D94_A Thioester-containing pr  27.2      60 0.00066   16.0   0.0    6    1-6     609-614 (1325)
+ 12 3R84_R Mediator of RNA polymer  26.8      62 0.00068   12.9   0.0    6    1-6      83-88  (92)
+ 13 4GWP_D Mediator of RNA polymer  26.3      64 0.00071   13.4   0.0    6    1-6      80-85  (121)
+ 14 4GWQ_D Mediator of RNA polymer  26.0      65 0.00072   13.4   0.0    6    1-6      80-85  (121)
+
+No 1
+>2BV0_B PROTOCATECHUATE 3,4-DIOXYGENASE ALPHA CHAIN (E.C.1.13.11.3); DIOXYGENASE, AROMATIC DEGRADATION, NON-HEME IRON; HET: DHB; 1.8A {ACINETOBACTER CALCOACETICUS} SCOP: b.3.6.1
+Probab=65.38  E-value=5.3  Score=17.70  Aligned_cols=6  Identities=50%  Similarity=0.800  Sum_probs=4.7  Template_Neff=6.400
+
+Q RETWFF            1 RETWFF    6 (6)
+Q Consensus         1 retwff    6 (6)
+                      +||+||
+T Consensus       232 ~et~f~  237 (241)
+T 2BV0_B          232 RATYFE  237 (241)
+T ss_dssp             EEESSC
+T ss_pred             CCCccc
+Confidence            588887
+
+
+No 2
+>2BV0_A PROTOCATECHUATE 3,4-DIOXYGENASE ALPHA CHAIN (E.C.1.13.11.3); DIOXYGENASE, AROMATIC DEGRADATION, NON-HEME IRON; HET: DHB; 1.8A {ACINETOBACTER CALCOACETICUS} SCOP: b.3.6.1
+Probab=63.18  E-value=6.3  Score=16.95  Aligned_cols=6  Identities=67%  Similarity=0.988  Sum_probs=4.5  Template_Neff=6.800
+
+Q RETWFF            1 RETWFF    6 (6)
+Q Consensus         1 retwff    6 (6)
+                      +|||||
+T Consensus       202 ~et~f~  207 (209)
+T 2BV0_A          202 NETVFF  207 (209)
+T ss_dssp             TCCCCE
+T ss_pred             Cceecc
+Confidence            478887
+
+
+No 3
+>2BUW_B PROTOCATECHUATE 3,4-DIOXYGENASE ALPHA CHAIN (E.C.1.13.11.3); DIOXYGENASE, AROMATIC DEGRADATION, NON-HEME IRON; HET: PHB; 1.8A {ACINETOBACTER CALCOACETICUS} SCOP: b.3.6.1
+Probab=55.74  E-value=10  Score=16.85  Aligned_cols=6  Identities=50%  Similarity=0.800  Sum_probs=4.4  Template_Neff=6.400
+
+Q RETWFF            1 RETWFF    6 (6)
+Q Consensus         1 retwff    6 (6)
+                      +||+||
+T Consensus       232 ~~t~f~  237 (241)
+T 2BUW_B          232 RATYFE  237 (241)
+T ss_dssp             EEESSC
+T ss_pred             Cccccc
+Confidence            478886
+
+
+No 4
+>3SJQ_C Calmodulin, Small conductance calcium-activated potassium; protein-protein complex, EF hand, calmodulin; HET: SO4, PHU, GOL; 1.9A {Rattus norvegicus}
+Probab=43.14  E-value=22  Score=14.38  Aligned_cols=6  Identities=67%  Similarity=1.553  Sum_probs=3.9  Template_Neff=5.100
+
+Q RETWFF            1 RETWFF    6 (6)
+Q Consensus         1 retwff    6 (6)
+                      +|||++
+T Consensus        18 ~etw~i   23 (87)
+T 3SJQ_C           18 RETWLI   23 (87)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            577863
+
+
+No 5
+>3MV4_C intradiol, non-heme, holoenzyme, ferric iron; HET: SO4, GOL, BME, CO3; 1.59A {Pseudomonas putida}
+Probab=42.22  E-value=24  Score=15.19  Aligned_cols=6  Identities=67%  Similarity=0.916  Sum_probs=4.1  Template_Neff=6.800
+
+Q RETWFF            1 RETWFF    6 (6)
+Q Consensus         1 retwff    6 (6)
+                      .||+||
+T Consensus       193 ~e~~f~  198 (200)
+T 3MV4_C          193 GETVFF  198 (200)
+T ss_dssp             TCCCCE
+T ss_pred             Cceecc
+Confidence            377876
+
+
+No 6
+>3PCB_B PROTOCATECHUATE 3,4-DIOXYGENASE, BETA-MERCAPTOETHANOL, 3-HYDROXYBENZOIC ACID; DIOXYGENASE, IRON, NONHEME, METALLOPROTEIN, OXIDOREDUCTASE; HET: BME, 3HB; 2.19A {Pseudomonas putida} SCOP: b.3.6.1
+Probab=42.22  E-value=24  Score=15.19  Aligned_cols=6  Identities=67%  Similarity=0.916  Sum_probs=4.1  Template_Neff=6.800
+
+Q RETWFF            1 RETWFF    6 (6)
+Q Consensus         1 retwff    6 (6)
+                      .||+||
+T Consensus       193 ~e~~f~  198 (200)
+T 3PCB_B          193 GETVFF  198 (200)
+T ss_pred             Cceecc
+Confidence            377876
+
+
+No 7
+>4WHS_E 3,4-PCD alpha subunit (E.C.1.13.11.13), 3,4-PCD; dioxygen activation, non-heme iron, intradiol; HET: 3N8, MUC, BME; 1.35A {Pseudomonas putida}
+Probab=42.22  E-value=24  Score=15.19  Aligned_cols=6  Identities=67%  Similarity=0.916  Sum_probs=4.1  Template_Neff=6.800
+
+Q RETWFF            1 RETWFF    6 (6)
+Q Consensus         1 retwff    6 (6)
+                      .||+||
+T Consensus       193 ~e~~f~  198 (200)
+T 4WHS_E          193 GETVFF  198 (200)
+T ss_pred             Cceecc
+Confidence            377876
+
+
+No 8
+>3R84_V Mediator of RNA polymerase II; four-helix bundle, transcription, nucleus; 2.05A {Saccharomyces cerevisiae}
+Probab=29.87  E-value=50  Score=13.09  Aligned_cols=6  Identities=33%  Similarity=1.365  Sum_probs=3.8  Template_Neff=6.000
+
+Q RETWFF            1 RETWFF    6 (6)
+Q Consensus         1 retwff    6 (6)
+                      ||.|.|
+T Consensus        83 KE~Wll   88 (92)
+T 3R84_V           83 KEKWLL   88 (92)
+T ss_pred             HHHHHh
+Confidence            467764
+
+
+No 9
+>5I5K_B Complement C5, Eculizumab heavy chain; Complement, Fab, immune system; HET: BMA, NAG; 4.2A {Homo sapiens}
+Probab=28.37  E-value=56  Score=16.73  Aligned_cols=6  Identities=33%  Similarity=1.331  Sum_probs=3.9  Template_Neff=9.700
+
+Q RETWFF            1 RETWFF    6 (6)
+Q Consensus         1 retwff    6 (6)
+                      .|||+|
+T Consensus       770 ~et~~w  775 (1676)
+T 5I5K_B          770 PESWLW  775 (1676)
+T ss_pred             CCccce
+Confidence            367775
+
+
+No 10
+>5ITQ_A Endonuclease 8-like 1 (E.C.3.2.2.-,4.2.99.18); DNA glycosylase NEIL1 Fpg Nei; 1.48A {Homo sapiens}
+Probab=27.26  E-value=60  Score=14.59  Aligned_cols=6  Identities=50%  Similarity=1.254  Sum_probs=3.8  Template_Neff=7.100
+
+Q RETWFF            1 RETWFF    6 (6)
+Q Consensus         1 retwff    6 (6)
+                      |..||+
+T Consensus       277 rt~~f~  282 (290)
+T 5ITQ_A          277 RTIWFQ  282 (290)
+T ss_dssp             CEEEES
+T ss_pred             CEEEEc
+Confidence            556774
+
+
+No 11
+>4D94_A Thioester-containing protein I; Plasmodium refractory allele, immune system; HET: NAG; 2.7A {Anopheles gambiae}
+Probab=27.22  E-value=60  Score=16.04  Aligned_cols=6  Identities=33%  Similarity=1.464  Sum_probs=3.7  Template_Neff=9.900
+
+Q RETWFF            1 RETWFF    6 (6)
+Q Consensus         1 retwff    6 (6)
+                      +|||+|
+T Consensus       609 ~et~~w  614 (1325)
+T 4D94_A          609 QESWLW  614 (1325)
+T ss_dssp             CCCBCC
+T ss_pred             CCcceE
+Confidence            367765
+
+
+No 12
+>3R84_R Mediator of RNA polymerase II; four-helix bundle, transcription, nucleus; HET: MSE; 2.05A {Saccharomyces cerevisiae}
+Probab=26.85  E-value=62  Score=12.89  Aligned_cols=6  Identities=33%  Similarity=1.365  Sum_probs=3.7  Template_Neff=5.900
+
+Q RETWFF            1 RETWFF    6 (6)
+Q Consensus         1 retwff    6 (6)
+                      ||.|.|
+T Consensus        83 KE~Wll   88 (92)
+T 3R84_R           83 KEKWLL   88 (92)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHh
+Confidence            467764
+
+
+No 13
+>4GWP_D Mediator of RNA polymerase II; Binding Sites, Mediator Complex, Models; 4.2A {Saccharomyces cerevisiae}
+Probab=26.34  E-value=64  Score=13.39  Aligned_cols=6  Identities=33%  Similarity=1.365  Sum_probs=3.4  Template_Neff=5.900
+
+Q RETWFF            1 RETWFF    6 (6)
+Q Consensus         1 retwff    6 (6)
+                      ||.|.|
+T Consensus        80 KE~WLl   85 (121)
+T 4GWP_D           80 KEKWLL   85 (121)
+T ss_pred             HHHHHh
+Confidence            466654
+
+
+No 14
+>4GWQ_D Mediator of RNA polymerase II; Binding Sites, Mediator Complex, Models; 4.5A {Saccharomyces cerevisiae}
+Probab=25.96  E-value=65  Score=13.36  Aligned_cols=6  Identities=33%  Similarity=1.365  Sum_probs=3.4  Template_Neff=5.900
+
+Q RETWFF            1 RETWFF    6 (6)
+Q Consensus         1 retwff    6 (6)
+                      ||.|.|
+T Consensus        80 KE~WLl   85 (121)
+T 4GWQ_D           80 KEKWLL   85 (121)
+T ss_dssp             HHHHHT
+T ss_pred             HHHHHh
+Confidence            466654
+
+

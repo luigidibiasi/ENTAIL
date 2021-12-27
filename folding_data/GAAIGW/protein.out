@@ -1,0 +1,147 @@
+Query         GAAIGW
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 22:27:10 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GAAIGW/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GAAIGW/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 1S6C_B Kv4 potassium channel-i  72.3       3 3.3E-05   14.7   0.0    6    1-6      14-19  (30)
+  2 7F3F_B complex, MEMBRANE PROTE  44.4      21 0.00023   16.4   0.0    6    1-6      14-19  (630)
+  3 5JMV_A Probable bifunctional t  31.5      45  0.0005   14.3   0.0    6    1-6     291-296 (348)
+  4 6X89_P2 NADH dehydrogenase com  19.9   1E+02  0.0011   13.7   0.0    5    2-6      98-102 (115)
+  5 7A23_n 51kDa, Nad2m, Nad3m, Na  19.9   1E+02  0.0011   13.7   0.0    5    2-6      95-99  (113)
+  6 6W6L_4 60S ribosome-TMCO1 tran  18.1 1.2E+02  0.0013   14.2   0.0    6    1-6     101-106 (224)
+  7 6G1Q_B Appr-1-p processing dom  16.5 1.4E+02  0.0015   12.5   0.0    5    1-5      15-19  (350)
+  8 7BG8_D Structural polyprotein;  16.0 1.5E+02  0.0016   12.7   0.0    5    2-6      51-55  (69)
+  9 7BGK_D Structural polyprotein;  16.0 1.5E+02  0.0016   12.7   0.0    5    2-6      51-55  (69)
+ 10 3B09_A Peptidyl-prolyl cis-tra  15.8 1.5E+02  0.0016   11.1   0.0    6    1-6      37-42  (88)
+
+No 1
+>1S6C_B Kv4 potassium channel-interacting protein KChIP1b; EF-hand, TRANSPORT PROTEIN; 2.0A {Rattus norvegicus}
+Probab=72.30  E-value=3  Score=14.73  Aligned_cols=6  Identities=83%  Similarity=1.669  Sum_probs=4.2  Template_Neff=4.000
+
+Q GAAIGW            1 GAAIGW    6 (6)
+Q Consensus         1 gaaigw    6 (6)
+                      +++|||
+T Consensus        14 aaaiGW   19 (30)
+T 1S6C_B           14 AAAIGW   19 (30)
+T ss_dssp             HHHHTT
+T ss_pred             HHhhcc
+Confidence            367887
+
+
+No 2
+>7F3F_B complex, MEMBRANE PROTEIN;{Homo sapiens}
+Probab=44.35  E-value=21  Score=16.44  Aligned_cols=6  Identities=83%  Similarity=1.669  Sum_probs=4.1  Template_Neff=9.000
+
+Q GAAIGW            1 GAAIGW    6 (6)
+Q Consensus         1 gaaigw    6 (6)
+                      ||++||
+T Consensus        14 ~~~~~~   19 (630)
+T 7F3F_B           14 AAAIGW   19 (630)
+T ss_dssp             HHGGGG
+T ss_pred             HHhcCC
+Confidence            467776
+
+
+No 3
+>5JMV_A Probable bifunctional tRNA threonylcarbamoyladenosine biosynthesis; tRNA modification, TRANSFERASE; HET: AMP; 3.38646964319A {Methanocaldococcus jannaschii (strain ATCC 43067 / DSM 2661 / JAL-1 / JCM 10045 / NBRC 100440)}
+Probab=31.49  E-value=45  Score=14.27  Aligned_cols=6  Identities=67%  Similarity=1.498  Sum_probs=2.8  Template_Neff=9.000
+
+Q GAAIGW            1 GAAIGW    6 (6)
+Q Consensus         1 gaaigw    6 (6)
+                      |++|||
+T Consensus       291 g~~ig~  296 (348)
+T 5JMV_A          291 GAMIAW  296 (348)
+T ss_pred             HHHHHH
+Confidence            345554
+
+
+No 4
+>6X89_P2 NADH dehydrogenase complex; respiration, mitochondria, electron transport chain; HET: SF4, PC1, FMN, NAP;{Vigna radiata}
+Probab=19.90  E-value=1e+02  Score=13.67  Aligned_cols=5  Identities=60%  Similarity=1.763  Sum_probs=0.0  Template_Neff=3.600
+
+Q GAAIGW            2 AAIGW    6 (6)
+Q Consensus         2 aaigw    6 (6)
+                      +++||
+T Consensus        98 ~a~gW  102 (115)
+T 6X89_P2          98 GALGW  102 (115)
+T ss_pred             HHHHH
+
+
+No 5
+>7A23_n 51kDa, Nad2m, Nad3m, Nad6m, Nad1m; Respiration, Complex I, mitochondria, plant; HET: FMN, NDP, PEV, SF4, U10, T7X, CDL; 3.7A {Brassica oleracea}
+Probab=19.89  E-value=1e+02  Score=13.71  Aligned_cols=5  Identities=60%  Similarity=1.757  Sum_probs=0.0  Template_Neff=3.400
+
+Q GAAIGW            2 AAIGW    6 (6)
+Q Consensus         2 aaigw    6 (6)
+                      +++||
+T Consensus        95 ~algW   99 (113)
+T 7A23_n           95 GSIGW   99 (113)
+T ss_pred             HHHHH
+
+
+No 6
+>6W6L_4 60S ribosome-TMCO1 translocon assembly; RIBOSOME-PROTEIN TRANSPORT complex; HET: MG; 3.84A {Homo sapiens}
+Probab=18.09  E-value=1.2e+02  Score=14.23  Aligned_cols=6  Identities=67%  Similarity=1.392  Sum_probs=0.0  Template_Neff=4.900
+
+Q GAAIGW            1 GAAIGW    6 (6)
+Q Consensus         1 gaaigw    6 (6)
+                      ++++||
+T Consensus       101 ~~GlGW  106 (224)
+T 6W6L_4          101 VAALGW  106 (224)
+T ss_pred             eeHHHH
+
+
+No 7
+>6G1Q_B Appr-1-p processing domain protein; ADP-ribosylation, ADP-ribose, ADPRHL2, ADP-ribosylhydrolase like; HET: AR6; 2.1A {Latimeria chalumnae}
+Probab=16.47  E-value=1.4e+02  Score=12.48  Aligned_cols=5  Identities=60%  Similarity=1.145  Sum_probs=0.0  Template_Neff=9.800
+
+Q GAAIGW            1 GAAIG    5 (6)
+Q Consensus         1 gaaig    5 (6)
+                      |++||
+T Consensus        15 G~aiG   19 (350)
+T 6G1Q_B           15 GALLG   19 (350)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 8
+>7BG8_D Structural polyprotein; Viruses, Riboviria, Orthornavirae, Pisuviricota, Pisoniviricetes; 3.9A {Kashmir bee virus}
+Probab=16.01  E-value=1.5e+02  Score=12.74  Aligned_cols=5  Identities=60%  Similarity=1.398  Sum_probs=0.0  Template_Neff=1.700
+
+Q GAAIGW            2 AAIGW    6 (6)
+Q Consensus         2 aaigw    6 (6)
+                      +|++|
+T Consensus        51 ~aV~W   55 (69)
+T 7BG8_D           51 AAVKW   55 (69)
+T ss_pred             HHHHH
+
+
+No 9
+>7BGK_D Structural polyprotein; Viruses, Riboviria, Orthornavirae, Pisuviricota, Pisoniviricetes;{Kashmir bee virus}
+Probab=16.01  E-value=1.5e+02  Score=12.74  Aligned_cols=5  Identities=60%  Similarity=1.398  Sum_probs=0.0  Template_Neff=1.700
+
+Q GAAIGW            2 AAIGW    6 (6)
+Q Consensus         2 aaigw    6 (6)
+                      +|++|
+T Consensus        51 ~aV~W   55 (69)
+T 7BGK_D           51 AAVKW   55 (69)
+T ss_pred             HHHHH
+
+
+No 10
+>3B09_A Peptidyl-prolyl cis-trans isomerase (E.C.5.2.1.8); Val-Leu zipper, helices, Chaperone; 1.9A {Shewanella}
+Probab=15.76  E-value=1.5e+02  Score=11.11  Aligned_cols=6  Identities=33%  Similarity=0.590  Sum_probs=0.0  Template_Neff=7.300
+
+Q GAAIGW            1 GAAIGW    6 (6)
+Q Consensus         1 gaaigw    6 (6)
+                      |..|||
+T Consensus        37 G~~iG~   42 (88)
+T 3B09_A           37 GRQMGE   42 (88)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+

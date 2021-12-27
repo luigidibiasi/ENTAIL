@@ -1,0 +1,148 @@
+Query         DLLKNG
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 17:36:20 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/DLLKNG/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/DLLKNG/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6YP6_A NanS-p; Carbohydrate bi  11.3 2.4E+02  0.0027   13.7   0.0    6    1-6      65-70  (218)
+  2 3NEK_B nitrogen repressor-like  11.1 2.5E+02  0.0027   13.2   0.0    5    2-6      99-103 (238)
+  3 6FTO_C Chromo domain-containin  11.0 2.5E+02  0.0028   12.3   0.0    6    1-6      61-66  (81)
+  4 1II3_A HYDROLASE; 1.72A {Staph  10.9 2.5E+02  0.0028   10.1   0.0    6    1-6     102-107 (149)
+  5 4G57_A Thermonuclease (E.C.3.1  10.7 2.6E+02  0.0029    9.7   0.0    6    1-6      96-101 (135)
+  6 2LSL_A Telomerase associated p  10.6 2.6E+02  0.0029   13.2   0.0    6    1-6      73-78  (137)
+  7 1GUI_A LAMINARINASE 16A; CARBO  10.1 2.8E+02  0.0031    9.5   0.0    5    2-6       1-5   (155)
+  8 5IV5_BE Baseplate wedge protei   9.7   3E+02  0.0033   14.2   0.0    6    1-6      56-61  (364)
+  9 5IV5_DH Baseplate wedge protei   9.7   3E+02  0.0033   14.2   0.0    6    1-6      56-61  (364)
+ 10 5IV5_GA Baseplate wedge protei   9.7   3E+02  0.0033   14.2   0.0    6    1-6      56-61  (364)
+
+No 1
+>6YP6_A NanS-p; Carbohydrate binding protein, SUGAR BINDING; HET: GOL; 0.97A {Escherichia phage vB_EcoP_24B}
+Probab=11.28  E-value=2.4e+02  Score=13.68  Aligned_cols=6  Identities=50%  Similarity=0.922  Sum_probs=2.6  Template_Neff=3.800
+
+Q DLLKNG            1 DLLKNG    6 (6)
+Q Consensus         1 dllkng    6 (6)
+                      |||++|
+T Consensus        65 dLL~~G   70 (218)
+T 6YP6_A           65 ALLQKG   70 (218)
+T ss_dssp             HHHHHC
+T ss_pred             HHHHhC
+Confidence            344443
+
+
+No 2
+>3NEK_B nitrogen repressor-like protein MJ0159; STRUCTURAL GENOMICS, UNKNOWN FUNCTION, PSI-2; HET: GOL; 2.5A {Methanocaldococcus jannaschii}
+Probab=11.12  E-value=2.5e+02  Score=13.22  Aligned_cols=5  Identities=40%  Similarity=0.860  Sum_probs=0.0  Template_Neff=5.300
+
+Q DLLKNG            2 LLKNG    6 (6)
+Q Consensus         2 llkng    6 (6)
+                      |||||
+T Consensus        99 Llk~G  103 (238)
+T 3NEK_B           99 FLRNS  103 (238)
+T ss_dssp             HHTTT
+T ss_pred             HHHcC
+
+
+No 3
+>6FTO_C Chromo domain-containing protein 2, Chromatin; chromoshadow domain, complex, chromatin remodeler; HET: HEZ; 1.6A {Schizosaccharomyces pombe}
+Probab=10.98  E-value=2.5e+02  Score=12.30  Aligned_cols=6  Identities=67%  Similarity=0.900  Sum_probs=0.0  Template_Neff=2.000
+
+Q DLLKNG            1 DLLKNG    6 (6)
+Q Consensus         1 dllkng    6 (6)
+                      +|.|||
+T Consensus        61 ~lYKNG   66 (81)
+T 6FTO_C           61 DKYKNG   66 (81)
+T ss_dssp             GGSTTH
+T ss_pred             HHHhhc
+
+
+No 4
+>1II3_A HYDROLASE; 1.72A {Staphylococcus aureus} SCOP: b.40.1.1
+Probab=10.90  E-value=2.5e+02  Score=10.14  Aligned_cols=6  Identities=33%  Similarity=0.861  Sum_probs=0.0  Template_Neff=10.000
+
+Q DLLKNG            1 DLLKNG    6 (6)
+Q Consensus         1 dllkng    6 (6)
+                      .|+++|
+T Consensus       102 ~Ll~~G  107 (149)
+T 1II3_A          102 ALVRQG  107 (149)
+T ss_dssp             HHHHTT
+T ss_pred             HHHHCC
+
+
+No 5
+>4G57_A Thermonuclease (E.C.3.1.31.1); Hydrolase; 1.81A {Staphylococcus aureus}
+Probab=10.70  E-value=2.6e+02  Score=9.69  Aligned_cols=6  Identities=33%  Similarity=0.861  Sum_probs=0.0  Template_Neff=10.500
+
+Q DLLKNG            1 DLLKNG    6 (6)
+Q Consensus         1 dllkng    6 (6)
+                      .|+++|
+T Consensus        96 ~Lv~~G  101 (135)
+T 4G57_A           96 ALVRQG  101 (135)
+T ss_dssp             HHHHTT
+T ss_pred             HHHHCC
+
+
+No 6
+>2LSL_A Telomerase associated protein p65; Telomerase, p65, La protein, LARP7; NMR {Tetrahymena thermophila}
+Probab=10.60  E-value=2.6e+02  Score=13.20  Aligned_cols=6  Identities=83%  Similarity=1.298  Sum_probs=0.0  Template_Neff=1.000
+
+Q DLLKNG            1 DLLKNG    6 (6)
+Q Consensus         1 dllkng    6 (6)
+                      ||||.|
+T Consensus        73 dllkeg   78 (137)
+T 2LSL_A           73 DLLKEG   78 (137)
+T ss_dssp             TTCSCC
+T ss_pred             HHHHHc
+
+
+No 7
+>1GUI_A LAMINARINASE 16A; CARBOHYDRATE BINDING MODULE, CBM, GLUCAN; HET: GOL, BGC; 1.9A {THERMOTOGA MARITIMA} SCOP: b.18.1.14
+Probab=10.10  E-value=2.8e+02  Score=9.54  Aligned_cols=5  Identities=40%  Similarity=0.793  Sum_probs=0.0  Template_Neff=11.100
+
+Q DLLKNG            2 LLKNG    6 (6)
+Q Consensus         2 llkng    6 (6)
+                      |++||
+T Consensus         1 l~~N~    5 (155)
+T 1GUI_A            1 SINNG    5 (155)
+T ss_dssp             CCSST
+T ss_pred             CcccC
+
+
+No 8
+>5IV5_BE Baseplate wedge protein gp6, Baseplate; T4, baseplate-tail tube complex, pre-attachment; 4.11A {Enterobacteria phage T4}
+Probab=9.68  E-value=3e+02  Score=14.25  Aligned_cols=6  Identities=83%  Similarity=1.237  Sum_probs=0.0  Template_Neff=4.000
+
+Q DLLKNG            1 DLLKNG    6 (6)
+Q Consensus         1 dllkng    6 (6)
+                      ||.|||
+T Consensus        56 ~ly~ng   61 (364)
+T 5IV5_BE          56 DLYKNG   61 (364)
+T ss_pred             HHHhCC
+
+
+No 9
+>5IV5_DH Baseplate wedge protein gp6, Baseplate; T4, baseplate-tail tube complex, pre-attachment; 4.11A {Enterobacteria phage T4}
+Probab=9.68  E-value=3e+02  Score=14.25  Aligned_cols=6  Identities=83%  Similarity=1.237  Sum_probs=0.0  Template_Neff=4.000
+
+Q DLLKNG            1 DLLKNG    6 (6)
+Q Consensus         1 dllkng    6 (6)
+                      ||.|||
+T Consensus        56 ~ly~ng   61 (364)
+T 5IV5_DH          56 DLYKNG   61 (364)
+T ss_pred             HHHhCC
+
+
+No 10
+>5IV5_GA Baseplate wedge protein gp6, Baseplate; T4, baseplate-tail tube complex, pre-attachment; 4.11A {Enterobacteria phage T4}
+Probab=9.68  E-value=3e+02  Score=14.25  Aligned_cols=6  Identities=83%  Similarity=1.237  Sum_probs=0.0  Template_Neff=4.000
+
+Q DLLKNG            1 DLLKNG    6 (6)
+Q Consensus         1 dllkng    6 (6)
+                      ||.|||
+T Consensus        56 ~ly~ng   61 (364)
+T 5IV5_GA          56 DLYKNG   61 (364)
+T ss_pred             HHHhCC
+
+

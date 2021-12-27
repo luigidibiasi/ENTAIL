@@ -1,0 +1,153 @@
+Query         AEVVFT
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 13:52:15 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/AEVVFT/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/AEVVFT/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4UZM_A PUTATIVE MEMBRANE PROTE  33.5      40 0.00044   14.1   0.0    6    1-6      99-104 (120)
+  2 1PXU_A agrin; Agrin, STRUCTURA  17.8 1.2E+02  0.0014   13.0   0.0    6    1-6      14-19  (131)
+  3 1JB3_A Agrin; neuromuscular ju  17.8 1.2E+02  0.0014   13.0   0.0    6    1-6      13-18  (131)
+  4 1O80_A SMALL INDUCIBLE CYTOKIN  12.3 2.1E+02  0.0024   10.2   0.0    5    2-6      40-44  (77)
+  5 5DOT_B Human Carbamoyl Phospha  12.3 2.1E+02  0.0024   15.0   0.0    6    1-6      58-63  (1489)
+  6 2Q8R_F CCL14; common CC chemok  12.1 2.2E+02  0.0024    9.8   0.0    5    2-6      36-40  (66)
+  7 4XDX_A Human Interleukin 8; Cy  12.1 2.2E+02  0.0024    9.9   0.0    5    2-6      36-40  (70)
+  8 5D14_A Interleukin-8; cytokine  12.1 2.2E+02  0.0024    9.9   0.0    5    2-6      36-40  (70)
+  9 2C3V_B ALPHA-AMYLASE G-6; CARB  12.1 2.2E+02  0.0024   10.9   0.0    6    1-6      63-68  (102)
+ 10 2C3W_B ALPHA-AMYLASE G-6; SUGA  12.1 2.2E+02  0.0024   10.9   0.0    6    1-6      63-68  (102)
+
+No 1
+>4UZM_A PUTATIVE MEMBRANE PROTEIN IGAA HOMOLOG; STRUCTURAL PROTEIN; NMR {ESCHERICHIA COLI}
+Probab=33.54  E-value=40  Score=14.10  Aligned_cols=6  Identities=33%  Similarity=0.611  Sum_probs=3.3  Template_Neff=5.600
+
+Q AEVVFT            1 AEVVFT    6 (6)
+Q Consensus         1 aevvft    6 (6)
+                      +|||+|
+T Consensus        99 vEvV~T  104 (120)
+T 4UZM_A           99 VELIHT  104 (120)
+T ss_dssp             EEEEEC
+T ss_pred             EEEEec
+Confidence            466654
+
+
+No 2
+>1PXU_A agrin; Agrin, STRUCTURAL PROTEIN; 2.2A {Gallus gallus} SCOP: b.40.3.2
+Probab=17.82  E-value=1.2e+02  Score=12.96  Aligned_cols=6  Identities=67%  Similarity=0.811  Sum_probs=2.9  Template_Neff=5.400
+
+Q AEVVFT            1 AEVVFT    6 (6)
+Q Consensus         1 aevvft    6 (6)
+                      |+||||
+T Consensus        14 A~VVlt   19 (131)
+T 1PXU_A           14 ANVVLT   19 (131)
+T ss_dssp             CSEEEE
+T ss_pred             CcEEEE
+Confidence            345553
+
+
+No 3
+>1JB3_A Agrin; neuromuscular junction, agrin, interaction coiled-doil; 1.6A {Gallus gallus} SCOP: b.40.3.2
+Probab=17.79  E-value=1.2e+02  Score=12.96  Aligned_cols=6  Identities=67%  Similarity=0.811  Sum_probs=2.9  Template_Neff=5.400
+
+Q AEVVFT            1 AEVVFT    6 (6)
+Q Consensus         1 aevvft    6 (6)
+                      |+||||
+T Consensus        13 A~VVlt   18 (131)
+T 1JB3_A           13 ANVVLT   18 (131)
+T ss_dssp             CSEEEE
+T ss_pred             CcEEEE
+Confidence            345553
+
+
+No 4
+>1O80_A SMALL INDUCIBLE CYTOKINE B10; CHEMOKINE, INTERFERON INDUCTION, CHEMOTAXIS, INFLAMMATORY; 2.0A {N/A} SCOP: d.9.1.1
+Probab=12.33  E-value=2.1e+02  Score=10.21  Aligned_cols=5  Identities=40%  Similarity=0.667  Sum_probs=0.0  Template_Neff=7.800
+
+Q AEVVFT            2 EVVFT    6 (6)
+Q Consensus         2 evvft    6 (6)
+                      +|+|+
+T Consensus        40 avI~~   44 (77)
+T 1O80_A           40 EIIAT   44 (77)
+T ss_dssp             EEEEE
+T ss_pred             eEEEE
+
+
+No 5
+>5DOT_B Human Carbamoyl Phosphate Synthetase I; Carbamoyl Phosphate Synthase (ammonia utilizing); HET: GOL, EDO; 2.4A {Homo sapiens}
+Probab=12.31  E-value=2.1e+02  Score=14.99  Aligned_cols=6  Identities=67%  Similarity=1.021  Sum_probs=0.0  Template_Neff=9.100
+
+Q AEVVFT            1 AEVVFT    6 (6)
+Q Consensus         1 aevvft    6 (6)
+                      .||||+
+T Consensus        58 ge~vf~   63 (1489)
+T 5DOT_B           58 GEVVFN   63 (1489)
+T ss_dssp             EEEEEE
+T ss_pred             ceeEEe
+
+
+No 6
+>2Q8R_F CCL14; common CC chemokine fold, CYTOKINE; 1.82A {Homo sapiens}
+Probab=12.09  E-value=2.2e+02  Score=9.81  Aligned_cols=5  Identities=40%  Similarity=0.806  Sum_probs=0.0  Template_Neff=8.000
+
+Q AEVVFT            2 EVVFT    6 (6)
+Q Consensus         2 evvft    6 (6)
+                      +|+|+
+T Consensus        36 aiI~~   40 (66)
+T 2Q8R_F           36 GIVFI   40 (66)
+T ss_dssp             CEEEE
+T ss_pred             eEEEE
+
+
+No 7
+>4XDX_A Human Interleukin 8; Cytokine, alpha beta protein, IL8; 0.95A {Homo sapiens}
+Probab=12.09  E-value=2.2e+02  Score=9.87  Aligned_cols=5  Identities=20%  Similarity=0.667  Sum_probs=0.0  Template_Neff=8.100
+
+Q AEVVFT            2 EVVFT    6 (6)
+Q Consensus         2 evvft    6 (6)
+                      +|+|+
+T Consensus        36 avI~~   40 (70)
+T 4XDX_A           36 EIIVK   40 (70)
+T ss_dssp             EEEEE
+T ss_pred             eeEEE
+
+
+No 8
+>5D14_A Interleukin-8; cytokine, chemokine, IL8-like fold, inflammation; 1.0A {Homo sapiens}
+Probab=12.09  E-value=2.2e+02  Score=9.87  Aligned_cols=5  Identities=20%  Similarity=0.667  Sum_probs=0.0  Template_Neff=8.100
+
+Q AEVVFT            2 EVVFT    6 (6)
+Q Consensus         2 evvft    6 (6)
+                      +|+|+
+T Consensus        36 avI~~   40 (70)
+T 5D14_A           36 EIIVK   40 (70)
+T ss_dssp             EEEEE
+T ss_pred             eeEEE
+
+
+No 9
+>2C3V_B ALPHA-AMYLASE G-6; CARBOHYDRATE-BINDING MODULE, STARCH BINDING, CARBOHYDRATE; HET: TYI; 1.39A {BACILLUS HALODURANS}
+Probab=12.09  E-value=2.2e+02  Score=10.93  Aligned_cols=6  Identities=17%  Similarity=0.384  Sum_probs=0.0  Template_Neff=7.300
+
+Q AEVVFT            1 AEVVFT    6 (6)
+Q Consensus         1 aevvft    6 (6)
+                      +++||+
+T Consensus        63 ~~~vFn   68 (102)
+T 2C3V_B           63 LRAAFN   68 (102)
+T ss_dssp             EEEEEE
+T ss_pred             EEEEEE
+
+
+No 10
+>2C3W_B ALPHA-AMYLASE G-6; SUGAR-BINDING PROTEIN, CARBOHYDRATE-BINDING MODULE, STARCH; HET: SO4, GLC; 1.81A {BACILLUS HALODURANS}
+Probab=12.09  E-value=2.2e+02  Score=10.93  Aligned_cols=6  Identities=17%  Similarity=0.384  Sum_probs=0.0  Template_Neff=7.300
+
+Q AEVVFT            1 AEVVFT    6 (6)
+Q Consensus         1 aevvft    6 (6)
+                      +++||+
+T Consensus        63 ~~~vFn   68 (102)
+T 2C3W_B           63 LRAAFN   68 (102)
+T ss_dssp             EEEEEE
+T ss_pred             EEEEEE
+
+

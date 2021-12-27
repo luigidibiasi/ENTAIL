@@ -1,0 +1,149 @@
+Query         LANFLV
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 13:58:27 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LANFLV/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LANFLV/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3G7W_A native fold for amyloid  48.4      16 0.00018   14.5   0.0    6    1-6     383-388 (393)
+  2 5XNM_X Chlorophyll a-b binding  19.4 1.1E+02  0.0012   13.4   0.0    5    1-5      51-55  (86)
+  3 4OH8_B Serine/threonine-protei  18.5 1.2E+02  0.0013   12.0   0.0    5    1-5      14-18  (55)
+  4 6KAC_X Photosystem II protein   17.6 1.3E+02  0.0014   13.5   0.0    5    1-5      69-73  (101)
+  5 4JB1_A UDP-N-acetylenolpyruvoy  17.4 1.3E+02  0.0014   13.5   0.0    5    2-6     300-304 (340)
+  6 2Q85_A UDP-N-acetylenolpyruvoy  16.9 1.3E+02  0.0015   13.4   0.0    5    2-6     289-293 (342)
+  7 3I99_A UDP-N-acetylenolpyruvoy  16.1 1.4E+02  0.0016   13.5   0.0    5    2-6     301-305 (357)
+  8 2LAT_A Dolichyl-diphosphooligo  16.0 1.5E+02  0.0016   10.9   0.0    5    1-5      10-14  (37)
+  9 6S7O_B Dolichyl-diphosphooligo  16.0 1.5E+02  0.0016   10.9   0.0    5    1-5      10-14  (37)
+ 10 1RKL_A Dolichyl-diphosphooligo  15.4 1.5E+02  0.0017   10.9   0.0    5    1-5      10-14  (36)
+
+No 1
+>3G7W_A native fold for amyloidogenic protein; HET: GLC, SO4, GOL; 1.75A {Escherichia coli}
+Probab=48.41  E-value=16  Score=14.49  Aligned_cols=6  Identities=100%  Similarity=1.364  Sum_probs=3.8  Template_Neff=11.100
+
+Q LANFLV            1 LANFLV    6 (6)
+Q Consensus         1 lanflv    6 (6)
+                      ++||||
+T Consensus       383 ~~~~~~  388 (393)
+T 3G7W_A          383 LANFLV  388 (393)
+T ss_dssp             GGGGGC
+T ss_pred             HHHHhh
+Confidence            467775
+
+
+No 2
+>5XNM_X Chlorophyll a-b binding protein 8; Photosystem II, PSII-LHCII, C2S2M2, Supercomplex; HET: SQD, DGD, HEM, LUT, LMG, PL9, CHL, OEX, NEX, XAT, LHG, BCR, PHO, CLA;{Pisum sativum}
+Probab=19.44  E-value=1.1e+02  Score=13.37  Aligned_cols=5  Identities=80%  Similarity=1.225  Sum_probs=0.0  Template_Neff=2.600
+
+Q LANFLV            1 LANFL    5 (6)
+Q Consensus         1 lanfl    5 (6)
+                      |.|||
+T Consensus        51 L~NFL   55 (86)
+T 5XNM_X           51 LKNFL   55 (86)
+T ss_pred             HHHHH
+
+
+No 3
+>4OH8_B Serine/threonine-protein kinase 4 (E.C.2.7.11.1), Ras; Coiled-coil, SARAH domain, homodimerization, heterodomerization; 2.281A {Homo sapiens}
+Probab=18.54  E-value=1.2e+02  Score=12.01  Aligned_cols=5  Identities=80%  Similarity=1.238  Sum_probs=0.0  Template_Neff=3.800
+
+Q LANFLV            1 LANFL    5 (6)
+Q Consensus         1 lanfl    5 (6)
+                      |-|||
+T Consensus        14 L~NFL   18 (55)
+T 4OH8_B           14 LQNFL   18 (55)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 4
+>6KAC_X Photosystem II protein D1 (E.C.1.10.3.9); PhotosystemII, supercomplex, PHOTOSYNTHESIS; HET: SQD, DGD, LMU, HEM, LMG, LUT, PL9, OEX, CHL, XAT, LHG, NEX, BCR, PHO, CLA; 2.7A {Chlamydomonas reinhardtii}
+Probab=17.60  E-value=1.3e+02  Score=13.53  Aligned_cols=5  Identities=80%  Similarity=1.225  Sum_probs=0.0  Template_Neff=2.400
+
+Q LANFLV            1 LANFL    5 (6)
+Q Consensus         1 lanfl    5 (6)
+                      |.|||
+T Consensus        69 L~NFL   73 (101)
+T 6KAC_X           69 LKNFL   73 (101)
+T ss_pred             HHHHH
+
+
+No 5
+>4JB1_A UDP-N-acetylenolpyruvoylglucosamine reductase (E.C.1.1.1.158); oxidoreductase; HET: NAP, GOL, FAD; 2.1A {Pseudomonas aeruginosa}
+Probab=17.37  E-value=1.3e+02  Score=13.46  Aligned_cols=5  Identities=60%  Similarity=0.461  Sum_probs=0.0  Template_Neff=8.000
+
+Q LANFLV            2 ANFLV    6 (6)
+Q Consensus         2 anflv    6 (6)
+                      |||+|
+T Consensus       300 anfiv  304 (340)
+T 4JB1_A          300 ALVLV  304 (340)
+T ss_dssp             TTBEE
+T ss_pred             eeEEE
+
+
+No 6
+>2Q85_A UDP-N-acetylenolpyruvoylglucosamine reductase (E.C.1.1.1.158); OXIDOREDUCTASE; HET: 973, FAD; 2.51A {Escherichia coli} SCOP: d.145.1.2, d.146.1.1
+Probab=16.86  E-value=1.3e+02  Score=13.36  Aligned_cols=5  Identities=40%  Similarity=0.441  Sum_probs=0.0  Template_Neff=8.100
+
+Q LANFLV            2 ANFLV    6 (6)
+Q Consensus         2 anflv    6 (6)
+                      |||+|
+T Consensus       289 anfiv  293 (342)
+T 2Q85_A          289 ALVLI  293 (342)
+T ss_dssp             TTCEE
+T ss_pred             ceEEE
+
+
+No 7
+>3I99_A UDP-N-acetylenolpyruvoylglucosamine reductase (E.C.1.1.1.158); UDP-N-acetylenolpyruvoylglucosamine reductase,murB,cell envelope, Oxidoreductase, Structural; HET: FAD, PO4; 2.2A {Vibrio cholerae}
+Probab=16.05  E-value=1.4e+02  Score=13.50  Aligned_cols=5  Identities=40%  Similarity=0.381  Sum_probs=0.0  Template_Neff=7.800
+
+Q LANFLV            2 ANFLV    6 (6)
+Q Consensus         2 anflv    6 (6)
+                      |||+|
+T Consensus       301 anfiv  305 (357)
+T 3I99_A          301 ALVIV  305 (357)
+T ss_dssp             TTEEE
+T ss_pred             ceEEE
+
+
+No 8
+>2LAT_A Dolichyl-diphosphooligosaccharide--protein glycosyltransferase subunit 4; Membrane protein, oligosaccharyltransferase, integral membrane; NMR {N/A}
+Probab=16.02  E-value=1.5e+02  Score=10.90  Aligned_cols=5  Identities=60%  Similarity=0.919  Sum_probs=0.0  Template_Neff=4.000
+
+Q LANFLV            1 LANFL    5 (6)
+Q Consensus         1 lanfl    5 (6)
+                      +||+|
+T Consensus        10 lan~l   14 (37)
+T 2LAT_A           10 FANML   14 (37)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 9
+>6S7O_B Dolichyl-diphosphooligosaccharide--protein glycosyltransferase subunit STT3A (E.C.2.4.99.18); N-glycosylation, Oligosaccharyltransferase, OSTA, TRANSFERASE; HET: MAN, KZB, KZE, NAG, BMA, EGY; 3.5A {Homo sapiens}
+Probab=16.02  E-value=1.5e+02  Score=10.90  Aligned_cols=5  Identities=60%  Similarity=0.919  Sum_probs=0.0  Template_Neff=4.000
+
+Q LANFLV            1 LANFL    5 (6)
+Q Consensus         1 lanfl    5 (6)
+                      +||+|
+T Consensus        10 lan~l   14 (37)
+T 6S7O_B           10 FANML   14 (37)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 10
+>1RKL_A Dolichyl-diphosphooligosaccharide--protein glycosyltransferase 4 kDa subunit; membrane protein, TRANSFERASE; NMR {N/A} SCOP: f.23.30.1
+Probab=15.44  E-value=1.5e+02  Score=10.85  Aligned_cols=5  Identities=40%  Similarity=0.228  Sum_probs=0.0  Template_Neff=3.800
+
+Q LANFLV            1 LANFL    5 (6)
+Q Consensus         1 lanfl    5 (6)
+                      +||+|
+T Consensus        10 lan~l   14 (36)
+T 1RKL_A           10 LAITF   14 (36)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+

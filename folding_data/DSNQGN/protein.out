@@ -1,0 +1,149 @@
+Query         DSNQGN
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 17:58:12 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/DSNQGN/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/DSNQGN/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4EIB_B Glucoamylase; BETA BARR   6.5 5.1E+02  0.0057   10.1   0.0    6    1-6       7-12  (109)
+  2 5FUG_F HISTONE H2A.Z, HISTONE    6.1 5.5E+02  0.0061   10.0   0.0    5    2-6      10-14  (68)
+  3 1SW6_A REGULATORY PROTEIN SWI6   6.0 5.6E+02  0.0062    9.6   0.0    6    1-6       3-8   (327)
+  4 6Y4O_B Calmodulin, Ryanodine r   5.8 5.9E+02  0.0065    8.4   0.0    5    2-6       1-5   (30)
+  5 2M83_A Protein phosphatase 1 r   5.8 5.9E+02  0.0065   10.4   0.0    6    1-6     124-129 (139)
+  6 5FUG_C HISTONE H2A.Z, HISTONE    5.3 6.6E+02  0.0073    9.8   0.0    5    2-6      10-14  (68)
+  7 5CHL_A Vacuolar protein sortin   4.8 7.5E+02  0.0083    9.8   0.0    5    2-6       8-12  (74)
+  8 2HZ8_A De novo designed diiron   4.8 7.6E+02  0.0084   11.5   0.0    5    2-6      85-89  (115)
+  9 4HN9_B Iron complex transport    4.7 7.8E+02  0.0086   10.6   0.0    5    2-6       1-5   (335)
+ 10 6S1R_B Histone acetyltransfera   4.3 8.7E+02  0.0096    8.3   0.0    5    1-5      12-16  (31)
+
+No 1
+>4EIB_B Glucoamylase; BETA BARREL, Starch Binding, Amylose; HET: NA, SO4, CL; 1.86A {Rhizopus oryzae}
+Probab=6.48  E-value=5.1e+02  Score=10.10  Aligned_cols=6  Identities=33%  Similarity=0.567  Sum_probs=0.0  Template_Neff=7.200
+
+Q DSNQGN            1 DSNQGN    6 (6)
+Q Consensus         1 dsnqgn    6 (6)
+                      |.|.|.
+T Consensus         7 dnN~g~   12 (109)
+T 4EIB_B            7 DNNNSA   12 (109)
+T ss_dssp             CCTTTT
+T ss_pred             cCCCCc
+
+
+No 2
+>5FUG_F HISTONE H2A.Z, HISTONE H2B TYPE; DNA BINDING PROTEIN, HISTONE, CHAPERONE; 2.7A {HOMO SAPIENS}
+Probab=6.13  E-value=5.5e+02  Score=10.03  Aligned_cols=5  Identities=40%  Similarity=0.720  Sum_probs=0.0  Template_Neff=5.200
+
+Q DSNQGN            2 SNQGN    6 (6)
+Q Consensus         2 snqgn    6 (6)
+                      ||.||
+T Consensus        10 snAGn   14 (68)
+T 5FUG_F           10 KTAGN   14 (68)
+T ss_dssp             TTTTT
+T ss_pred             cchhH
+
+
+No 3
+>1SW6_A REGULATORY PROTEIN SWI6; TRANSCRIPTION REGULATION, ANKYRIN REPEATS, CELL-CYCLE; 2.1A {Saccharomyces cerevisiae} SCOP: d.211.1.1
+Probab=6.03  E-value=5.6e+02  Score=9.59  Aligned_cols=6  Identities=50%  Similarity=0.772  Sum_probs=0.0  Template_Neff=12.100
+
+Q DSNQGN            1 DSNQGN    6 (6)
+Q Consensus         1 dsnqgn    6 (6)
+                      |-|.||
+T Consensus         3 ~~~~g~    8 (327)
+T 1SW6_A            3 DINKGP    8 (327)
+T ss_dssp             ------
+T ss_pred             cccCCC
+
+
+No 4
+>6Y4O_B Calmodulin, Ryanodine receptor 2; ion channel, calcium, calmodulin, MEMBRANE; 1.83549081766A {Homo sapiens}
+Probab=5.83  E-value=5.9e+02  Score=8.36  Aligned_cols=5  Identities=40%  Similarity=0.381  Sum_probs=0.0  Template_Neff=5.600
+
+Q DSNQGN            2 SNQGN    6 (6)
+Q Consensus         2 snqgn    6 (6)
+                      |||++
+T Consensus         1 ~~~~~    5 (30)
+T 6Y4O_B            1 SNARS    5 (30)
+T ss_dssp             ----C
+T ss_pred             Cchhh
+
+
+No 5
+>2M83_A Protein phosphatase 1 regulatory subunit; protein, starch binding domain, carbohydrate; NMR {Oryctolagus cuniculus}
+Probab=5.79  E-value=5.9e+02  Score=10.43  Aligned_cols=6  Identities=33%  Similarity=0.722  Sum_probs=0.0  Template_Neff=7.000
+
+Q DSNQGN            1 DSNQGN    6 (6)
+Q Consensus         1 dsnqgn    6 (6)
+                      |.|.|.
+T Consensus       124 DNN~G~  129 (139)
+T 2M83_A          124 SNNNGT  129 (139)
+T ss_dssp             ECCSSC
+T ss_pred             ECCCCe
+
+
+No 6
+>5FUG_C HISTONE H2A.Z, HISTONE H2B TYPE; DNA BINDING PROTEIN, HISTONE, CHAPERONE; 2.7A {HOMO SAPIENS}
+Probab=5.31  E-value=6.6e+02  Score=9.81  Aligned_cols=5  Identities=40%  Similarity=0.720  Sum_probs=0.0  Template_Neff=5.200
+
+Q DSNQGN            2 SNQGN    6 (6)
+Q Consensus         2 snqgn    6 (6)
+                      ||.||
+T Consensus        10 stAGn   14 (68)
+T 5FUG_C           10 KTAGN   14 (68)
+T ss_dssp             TTTTT
+T ss_pred             cchhH
+
+
+No 7
+>5CHL_A Vacuolar protein sorting-associated protein 72; remodeling complex, histone, chaperone; 1.892A {Drosophila melanogaster}
+Probab=4.80  E-value=7.5e+02  Score=9.80  Aligned_cols=5  Identities=60%  Similarity=0.993  Sum_probs=0.0  Template_Neff=5.200
+
+Q DSNQGN            2 SNQGN    6 (6)
+Q Consensus         2 snqgn    6 (6)
+                      +|.||
+T Consensus         8 snAGn   12 (74)
+T 5CHL_A            8 NNAGN   12 (74)
+T ss_dssp             TTTTT
+T ss_pred             hhHHH
+
+
+No 8
+>2HZ8_A De novo designed diiron protein; four-helix bundle, DE NOVO PROTEIN; NMR {Escherichia coli}
+Probab=4.75  E-value=7.6e+02  Score=11.48  Aligned_cols=5  Identities=80%  Similarity=1.072  Sum_probs=0.0  Template_Neff=1.000
+
+Q DSNQGN            2 SNQGN    6 (6)
+Q Consensus         2 snqgn    6 (6)
+                      |.|||
+T Consensus        85 skqgn   89 (115)
+T 2HZ8_A           85 SKQGN   89 (115)
+T ss_dssp             HHSSC
+T ss_pred             HhcCC
+
+
+No 9
+>4HN9_B Iron complex transport system substrate-binding; Structural Genomics, PSI-Biology, Midwest Center; 1.85A {Eubacterium eligens}
+Probab=4.68  E-value=7.8e+02  Score=10.56  Aligned_cols=5  Identities=80%  Similarity=1.079  Sum_probs=0.0  Template_Neff=9.300
+
+Q DSNQGN            2 SNQGN    6 (6)
+Q Consensus         2 snqgn    6 (6)
+                      ||.||
+T Consensus         1 ~~~~~    5 (335)
+T 4HN9_B            1 SNAGN    5 (335)
+T ss_dssp             -----
+T ss_pred             CCCCc
+
+
+No 10
+>6S1R_B Histone acetyltransferase type B subunit; centromere mitosis WD40 histone chaperone; 1.8A {Schizosaccharomyces pombe}
+Probab=4.29  E-value=8.7e+02  Score=8.27  Aligned_cols=5  Identities=60%  Similarity=0.807  Sum_probs=0.0  Template_Neff=4.900
+
+Q DSNQGN            1 DSNQG    5 (6)
+Q Consensus         1 dsnqg    5 (6)
+                      |+.||
+T Consensus        12 d~i~g   16 (31)
+T 6S1R_B           12 DNIQG   16 (31)
+T ss_pred             hhccc
+
+

@@ -1,0 +1,150 @@
+Query         STHIIE
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 17:39:49 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/STHIIE/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/STHIIE/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 1OO2_C transthyretin; Transthy  15.6 1.5E+02  0.0017   12.2   0.0    6    1-6       5-10  (119)
+  2 7KCN_B UNKNOWN FUNCTION, proba  14.7 1.6E+02  0.0018   12.2   0.0    6    1-6      13-18  (122)
+  3 3IWV_C 5-hydroxyisourate hydro  14.6 1.7E+02  0.0019   12.4   0.0    6    1-6      29-34  (138)
+  4 2GPZ_A transthyretin-like prot  14.3 1.7E+02  0.0019   11.8   0.0    6    1-6       4-9   (111)
+  5 3QVA_C Transthyretin-like prot  14.1 1.8E+02  0.0019   12.1   0.0    6    1-6      13-18  (116)
+  6 6YXP_A Baf155, SWI/SNF-subunit  14.1 1.8E+02  0.0019   13.8   0.0    5    1-5     177-181 (280)
+  7 3IWU_E 5-hydroxyisourate hydro  13.5 1.9E+02  0.0021   12.2   0.0    6    1-6      29-34  (138)
+  8 6YXO_B Baf155, SWI/SNF-subunit  13.4 1.9E+02  0.0021   13.6   0.0    5    1-5     176-180 (276)
+  9 3TD7_A FAD-linked sulfhydryl o  13.2 1.9E+02  0.0021   14.0   0.0    6    1-6     289-294 (295)
+ 10 1SN0_A transthyretin; TRANSPOR  12.8   2E+02  0.0022   12.2   0.0    6    1-6      16-21  (130)
+
+No 1
+>1OO2_C transthyretin; Transthyretin, retinol-binding protein, tetramer, TRANSPORT; 1.56A {Sparus aurata} SCOP: b.3.4.1
+Probab=15.60  E-value=1.5e+02  Score=12.21  Aligned_cols=6  Identities=17%  Similarity=0.484  Sum_probs=0.0  Template_Neff=6.100
+
+Q STHIIE            1 STHIIE    6 (6)
+Q Consensus         1 sthiie    6 (6)
+                      ||||+.
+T Consensus         5 StHVLD   10 (119)
+T 1OO2_C            5 MVKILD   10 (119)
+T ss_dssp             EEEEEE
+T ss_pred             eeEEee
+
+
+No 2
+>7KCN_B UNKNOWN FUNCTION, probably a 5-hydroxyisourate; HET: EDO; 1.46A {synthetic construct}
+Probab=14.74  E-value=1.6e+02  Score=12.20  Aligned_cols=6  Identities=33%  Similarity=0.933  Sum_probs=0.0  Template_Neff=6.000
+
+Q STHIIE            1 STHIIE    6 (6)
+Q Consensus         1 sthiie    6 (6)
+                      ||||+.
+T Consensus        13 StHVLD   18 (122)
+T 7KCN_B           13 TTHVLN   18 (122)
+T ss_dssp             ECCEEE
+T ss_pred             eeEEee
+
+
+No 3
+>3IWV_C 5-hydroxyisourate hydrolase; Transthyretin, molecular evolution, uric acid; 1.68A {Danio rerio}
+Probab=14.57  E-value=1.7e+02  Score=12.36  Aligned_cols=6  Identities=50%  Similarity=0.971  Sum_probs=0.0  Template_Neff=6.100
+
+Q STHIIE            1 STHIIE    6 (6)
+Q Consensus         1 sthiie    6 (6)
+                      ||||++
+T Consensus        29 StHVLD   34 (138)
+T 3IWV_C           29 STHVLN   34 (138)
+T ss_dssp             ECBEEE
+T ss_pred             EEEeee
+
+
+No 4
+>2GPZ_A transthyretin-like protein; Salmonella, HYDROLASE; HET: SO4; 2.5A {Salmonella enterica subsp. enterica serovar Dublin}
+Probab=14.26  E-value=1.7e+02  Score=11.78  Aligned_cols=6  Identities=50%  Similarity=0.983  Sum_probs=0.0  Template_Neff=6.400
+
+Q STHIIE            1 STHIIE    6 (6)
+Q Consensus         1 sthiie    6 (6)
+                      |||++.
+T Consensus         4 stHVLD    9 (111)
+T 2GPZ_A            4 SVHILD    9 (111)
+T ss_dssp             EEEEEE
+T ss_pred             EEEEEe
+
+
+No 5
+>3QVA_C Transthyretin-like protein; Transthyretin-related protein, 5-hydroxyisourate hydrolase, HYDROLASE; HET: PO4; 1.755A {Klebsiella pneumoniae subsp. pneumoniae}
+Probab=14.08  E-value=1.8e+02  Score=12.11  Aligned_cols=6  Identities=67%  Similarity=1.121  Sum_probs=0.0  Template_Neff=5.800
+
+Q STHIIE            1 STHIIE    6 (6)
+Q Consensus         1 sthiie    6 (6)
+                      ||||+.
+T Consensus        13 StHVLD   18 (116)
+T 3QVA_C           13 STHILD   18 (116)
+T ss_dssp             EEEEEE
+T ss_pred             eeEeEe
+
+
+No 6
+>6YXP_A Baf155, SWI/SNF-subunit, SIGNALING PROTEIN; 1.6A {Homo sapiens}
+Probab=14.07  E-value=1.8e+02  Score=13.79  Aligned_cols=5  Identities=40%  Similarity=0.694  Sum_probs=0.0  Template_Neff=5.700
+
+Q STHIIE            1 STHII    5 (6)
+Q Consensus         1 sthii    5 (6)
+                      .||||
+T Consensus       177 ATHiv  181 (280)
+T 6YXP_A          177 ASHHI  181 (280)
+T ss_dssp             CSEEE
+T ss_pred             CcEEE
+
+
+No 7
+>3IWU_E 5-hydroxyisourate hydrolase; HIUase, Transthyretin, TRP, thyroid hormones; 2.3A {Danio rerio}
+Probab=13.50  E-value=1.9e+02  Score=12.22  Aligned_cols=6  Identities=50%  Similarity=0.971  Sum_probs=0.0  Template_Neff=6.100
+
+Q STHIIE            1 STHIIE    6 (6)
+Q Consensus         1 sthiie    6 (6)
+                      |+||+.
+T Consensus        29 StHVLD   34 (138)
+T 3IWU_E           29 STHVLN   34 (138)
+T ss_dssp             ECBEEE
+T ss_pred             eEEEec
+
+
+No 8
+>6YXO_B Baf155, SWI/SNF-subunit, SIGNALING PROTEIN; HET: MSE; 2.0A {Homo sapiens}
+Probab=13.38  E-value=1.9e+02  Score=13.62  Aligned_cols=5  Identities=40%  Similarity=0.694  Sum_probs=0.0  Template_Neff=5.800
+
+Q STHIIE            1 STHII    5 (6)
+Q Consensus         1 sthii    5 (6)
+                      .||||
+T Consensus       176 ATHiv  180 (276)
+T 6YXO_B          176 ASHHI  180 (276)
+T ss_dssp             CSEEE
+T ss_pred             CcEEE
+
+
+No 9
+>3TD7_A FAD-linked sulfhydryl oxidase R596 (E.C.1.8.3.2); four helix-bundle, ORFan domain, Oxidase; HET: FAD; 2.21A {Acanthamoeba polyphaga mimivirus}
+Probab=13.22  E-value=1.9e+02  Score=14.03  Aligned_cols=6  Identities=83%  Similarity=0.977  Sum_probs=0.0  Template_Neff=5.100
+
+Q STHIIE            1 STHIIE    6 (6)
+Q Consensus         1 sthiie    6 (6)
+                      |||.||
+T Consensus       289 ~~~~~~  294 (295)
+T 3TD7_A          289 STHYIE  294 (295)
+T ss_dssp             HHHHHT
+T ss_pred             hccccC
+
+
+No 10
+>1SN0_A transthyretin; TRANSPORT PROTEIN; HET: T44; 1.9A {Sparus aurata} SCOP: b.3.4.1
+Probab=12.84  E-value=2e+02  Score=12.16  Aligned_cols=6  Identities=17%  Similarity=0.484  Sum_probs=0.0  Template_Neff=5.800
+
+Q STHIIE            1 STHIIE    6 (6)
+Q Consensus         1 sthiie    6 (6)
+                      |+||+.
+T Consensus        16 StHVLD   21 (130)
+T 1SN0_A           16 MVKILD   21 (130)
+T ss_dssp             EEEEEE
+T ss_pred             eeEEEe
+
+

@@ -1,0 +1,149 @@
+Query         SQIVYK
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 16:09:03 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/SQIVYK/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/SQIVYK/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 7KJK_F7 Myoviridae, Phage, 6-f  29.2      53 0.00058   15.5   0.0    6    1-6       2-7   (143)
+  2 6XYJ_AAA Hfq, SmAP, tertiary s  16.7 1.4E+02  0.0015   12.7   0.0    6    1-6      64-69  (95)
+  3 3HFO_B Ssr3341 protein; HFQ, S  14.8 1.6E+02  0.0018   11.1   0.0    6    1-6      55-60  (70)
+  4 4MML_A Protein hfq; LSM fold,   12.8   2E+02  0.0022   11.3   0.0    6    1-6      51-56  (82)
+  5 1KQ1_H Host Factor for Q beta;  12.2 2.2E+02  0.0024   11.1   0.0    6    1-6      52-57  (77)
+  6 3HFN_B Asl2047 protein; HFQ, S  11.3 2.4E+02  0.0027   10.7   0.0    6    1-6      57-62  (72)
+  7 6GWK_B RNA-binding protein Hfq  11.2 2.5E+02  0.0027   10.9   0.0    6    1-6      54-59  (82)
+  8 6GWK_O RNA-binding protein Hfq  11.2 2.5E+02  0.0027   10.9   0.0    6    1-6      54-59  (82)
+  9 4NL2_B Protein hfq; LSm/Sm pro  11.1 2.5E+02  0.0027   10.8   0.0    6    1-6      53-58  (77)
+ 10 4NL2_F Protein hfq; LSm/Sm pro  11.1 2.5E+02  0.0027   10.8   0.0    6    1-6      53-58  (77)
+
+No 1
+>7KJK_F7 Myoviridae, Phage, 6-fold neck region;{Vibrio phage XM1}
+Probab=29.19  E-value=53  Score=15.49  Aligned_cols=6  Identities=67%  Similarity=1.032  Sum_probs=4.2  Template_Neff=1.500
+
+Q SQIVYK            1 SQIVYK    6 (6)
+Q Consensus         1 sqivyk    6 (6)
+                      |||||.
+T Consensus         2 s~iv~~    7 (143)
+T 7KJK_F7           2 SVIVYR    7 (143)
+T ss_pred             ceEEEE
+Confidence            678874
+
+
+No 2
+>6XYJ_AAA Hfq, SmAP, tertiary structure, RNA-chaperon; 2.772A {Pseudomonas aeruginosa (strain PA7)}
+Probab=16.75  E-value=1.4e+02  Score=12.65  Aligned_cols=6  Identities=83%  Similarity=1.209  Sum_probs=0.0  Template_Neff=4.400
+
+Q SQIVYK            1 SQIVYK    6 (6)
+Q Consensus         1 sqivyk    6 (6)
+                      +|++||
+T Consensus        64 ~~LIyK   69 (95)
+T 6XYJ_AAA         64 SQMVYK   69 (95)
+T ss_pred             eEEEEe
+
+
+No 3
+>3HFO_B Ssr3341 protein; HFQ, SM, RNA-BINDING PROTEIN, SRNA; 1.3A {Synechocystis sp. PCC 6803}
+Probab=14.78  E-value=1.6e+02  Score=11.12  Aligned_cols=6  Identities=50%  Similarity=0.318  Sum_probs=0.0  Template_Neff=6.100
+
+Q SQIVYK            1 SQIVYK    6 (6)
+Q Consensus         1 sqivyk    6 (6)
+                      .|++||
+T Consensus        55 ~~lIyK   60 (70)
+T 3HFO_B           55 STIVRL   60 (70)
+T ss_dssp             EEEEEG
+T ss_pred             eEEEEe
+
+
+No 4
+>4MML_A Protein hfq; LSM fold, RNA BINDING PROTEIN; HET: U; 1.801A {Pseudomonas aeruginosa}
+Probab=12.83  E-value=2e+02  Score=11.30  Aligned_cols=6  Identities=83%  Similarity=1.209  Sum_probs=0.0  Template_Neff=5.800
+
+Q SQIVYK            1 SQIVYK    6 (6)
+Q Consensus         1 sqivyk    6 (6)
+                      .+++||
+T Consensus        51 ~~lIyK   56 (82)
+T 4MML_A           51 SQMVYK   56 (82)
+T ss_dssp             CEEEEG
+T ss_pred             eEEEEe
+
+
+No 5
+>1KQ1_H Host Factor for Q beta; Hfq, hexamer, RNA binding protein; HET: ACY; 1.55A {Staphylococcus aureus} SCOP: b.38.1.2
+Probab=12.16  E-value=2.2e+02  Score=11.05  Aligned_cols=6  Identities=33%  Similarity=1.015  Sum_probs=0.0  Template_Neff=5.900
+
+Q SQIVYK            1 SQIVYK    6 (6)
+Q Consensus         1 sqivyk    6 (6)
+                      .+++||
+T Consensus        52 ~~lI~K   57 (77)
+T 1KQ1_H           52 QHLIYK   57 (77)
+T ss_dssp             EEEEEG
+T ss_pred             EEEEEe
+
+
+No 6
+>3HFN_B Asl2047 protein; HFQ, SM, RNA-BINDING PROTEIN, SRNA; 2.31A {Nostoc sp.}
+Probab=11.28  E-value=2.4e+02  Score=10.72  Aligned_cols=6  Identities=17%  Similarity=0.556  Sum_probs=0.0  Template_Neff=6.100
+
+Q SQIVYK            1 SQIVYK    6 (6)
+Q Consensus         1 sqivyk    6 (6)
+                      .+++||
+T Consensus        57 ~~lI~K   62 (72)
+T 3HFN_B           57 QTTIWK   62 (72)
+T ss_dssp             EEEEEG
+T ss_pred             EEEEEe
+
+
+No 7
+>6GWK_B RNA-binding protein Hfq; Hfq, Caulobacter, sRNA, RNA-protein interactions; 2.15A { Caulobacter vibrioides CB15}
+Probab=11.15  E-value=2.5e+02  Score=10.94  Aligned_cols=6  Identities=83%  Similarity=1.226  Sum_probs=0.0  Template_Neff=6.100
+
+Q SQIVYK            1 SQIVYK    6 (6)
+Q Consensus         1 sqivyk    6 (6)
+                      .+++||
+T Consensus        54 ~~lI~K   59 (82)
+T 6GWK_B           54 SQLVYK   59 (82)
+T ss_dssp             EEEEEG
+T ss_pred             EEEEEe
+
+
+No 8
+>6GWK_O RNA-binding protein Hfq; Hfq, Caulobacter, sRNA, RNA-protein interactions; 2.15A { Caulobacter vibrioides CB15}
+Probab=11.15  E-value=2.5e+02  Score=10.94  Aligned_cols=6  Identities=83%  Similarity=1.226  Sum_probs=0.0  Template_Neff=6.100
+
+Q SQIVYK            1 SQIVYK    6 (6)
+Q Consensus         1 sqivyk    6 (6)
+                      .+++||
+T Consensus        54 ~~lI~K   59 (82)
+T 6GWK_O           54 SQLVYK   59 (82)
+T ss_dssp             EEEEEG
+T ss_pred             EEEEEe
+
+
+No 9
+>4NL2_B Protein hfq; LSm/Sm proteins, RNA chaperone, RNA; HET: PGO; 2.6A {Listeria monocytogenes}
+Probab=11.14  E-value=2.5e+02  Score=10.82  Aligned_cols=6  Identities=50%  Similarity=0.966  Sum_probs=0.0  Template_Neff=6.100
+
+Q SQIVYK            1 SQIVYK    6 (6)
+Q Consensus         1 sqivyk    6 (6)
+                      .+++||
+T Consensus        53 ~~lI~K   58 (77)
+T 4NL2_B           53 QQLVFK   58 (77)
+T ss_dssp             EEEEEG
+T ss_pred             EEEEEe
+
+
+No 10
+>4NL2_F Protein hfq; LSm/Sm proteins, RNA chaperone, RNA; HET: PGO; 2.6A {Listeria monocytogenes}
+Probab=11.14  E-value=2.5e+02  Score=10.82  Aligned_cols=6  Identities=50%  Similarity=0.966  Sum_probs=0.0  Template_Neff=6.100
+
+Q SQIVYK            1 SQIVYK    6 (6)
+Q Consensus         1 sqivyk    6 (6)
+                      .+++||
+T Consensus        53 ~~lI~K   58 (77)
+T 4NL2_F           53 QQLVFK   58 (77)
+T ss_dssp             EEEEEG
+T ss_pred             EEEEEe
+
+

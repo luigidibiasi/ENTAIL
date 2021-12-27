@@ -1,0 +1,152 @@
+Query         PQYGGG
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 06:26:44 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/PQYGGG/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/PQYGGG/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2APL_A hypothetical protein PG  64.6     5.6 6.2E-05   17.6   0.0    6    1-6     148-153 (157)
+  2 6KSY_B Arginase/agmatinase/for  16.9 1.3E+02  0.0015   13.4   0.0    6    1-6      13-18  (290)
+  3 6XYH_A AMS3; PROTEIN, TOXIN; N  16.3 1.4E+02  0.0016   11.8   0.0    6    1-6      25-30  (40)
+  4 4Q3I_A OsSERK2 D128N; Leucine   16.3 1.4E+02  0.0016   11.3   0.0    6    1-6     232-237 (244)
+  5 4Q3I_B OsSERK2 D128N; Leucine   16.3 1.4E+02  0.0016   11.3   0.0    6    1-6     232-237 (244)
+  6 5UJC_A Methylmalonic aciduria   16.0 1.5E+02  0.0016   13.8   0.0    5    1-5     178-182 (270)
+  7 2JXF_A Genome polyprotein; mem  15.9 1.5E+02  0.0016   10.2   0.0    5    2-6      23-27  (30)
+  8 7KFF_A Phenylalanine--tRNA lig  15.9 1.5E+02  0.0016   14.9   0.0    6    1-6      67-72  (308)
+  9 2KMG_A KlcA; KlcA, ArdB, NMR s  15.8 1.5E+02  0.0016   12.5   0.0    6    1-6      47-52  (142)
+ 10 4E05_I Thrombin (E.C.3.4.21.5)  14.5 1.7E+02  0.0019   12.3   0.0    6    1-6       2-7   (61)
+
+No 1
+>2APL_A hypothetical protein PG0816; Structural genomics, Porphyromonas gingivalis, PSI; 2.01A {Porphyromonas gingivalis} SCOP: a.258.1.1
+Probab=64.63  E-value=5.6  Score=17.60  Aligned_cols=6  Identities=67%  Similarity=1.481  Sum_probs=2.2  Template_Neff=4.700
+
+Q PQYGGG            1 PQYGGG    6 (6)
+Q Consensus         1 pqyggg    6 (6)
+                      |+||||
+T Consensus       148 ~~~~~~  153 (157)
+T 2APL_A          148 PTIGGG  153 (157)
+T ss_dssp             CCC---
+T ss_pred             CCCCCC
+Confidence            578876
+
+
+No 2
+>6KSY_B Arginase/agmatinase/formiminoglutamase; arginase, HYDROLASE; 1.649A {Zymomonas mobilis subsp. mobilis (strain ATCC 31821 / ZM4 / CP4)}
+Probab=16.90  E-value=1.3e+02  Score=13.36  Aligned_cols=6  Identities=67%  Similarity=1.475  Sum_probs=3.0  Template_Neff=7.500
+
+Q PQYGGG            1 PQYGGG    6 (6)
+Q Consensus         1 pqyggg    6 (6)
+                      ||+-||
+T Consensus        13 Pqwqg~   18 (290)
+T 6KSY_B           13 PQWQGG   18 (290)
+T ss_dssp             CCCTTT
+T ss_pred             ccccCC
+Confidence            555443
+
+
+No 3
+>6XYH_A AMS3; PROTEIN, TOXIN; NMR {Metridium senile}
+Probab=16.33  E-value=1.4e+02  Score=11.76  Aligned_cols=6  Identities=67%  Similarity=1.647  Sum_probs=0.0  Template_Neff=1.000
+
+Q PQYGGG            1 PQYGGG    6 (6)
+Q Consensus         1 pqyggg    6 (6)
+                      |.||.|
+T Consensus        25 pnygng   30 (40)
+T 6XYH_A           25 PNYGNG   30 (40)
+T ss_dssp             CSSCCS
+T ss_pred             CCCCCC
+
+
+No 4
+>4Q3I_A OsSERK2 D128N; Leucine Rich Repete, toll-like receptor; HET: NAG; 2.35A {Oryza sativa}
+Probab=16.29  E-value=1.4e+02  Score=11.27  Aligned_cols=6  Identities=50%  Similarity=1.115  Sum_probs=0.0  Template_Neff=10.800
+
+Q PQYGGG            1 PQYGGG    6 (6)
+Q Consensus         1 pqyggg    6 (6)
+                      ++|++|
+T Consensus       232 ~~~~~~  237 (244)
+T 4Q3I_A          232 PQFEKG  237 (244)
+T ss_dssp             ------
+T ss_pred             cccccC
+
+
+No 5
+>4Q3I_B OsSERK2 D128N; Leucine Rich Repete, toll-like receptor; HET: NAG; 2.35A {Oryza sativa}
+Probab=16.29  E-value=1.4e+02  Score=11.27  Aligned_cols=6  Identities=50%  Similarity=1.115  Sum_probs=0.0  Template_Neff=10.800
+
+Q PQYGGG            1 PQYGGG    6 (6)
+Q Consensus         1 pqyggg    6 (6)
+                      ++|++|
+T Consensus       232 ~~~~~~  237 (244)
+T 4Q3I_B          232 PQFEKG  237 (244)
+T ss_dssp             ------
+T ss_pred             cccccC
+
+
+No 6
+>5UJC_A Methylmalonic aciduria and homocystinuria type; Vitamin B12, OXIDOREDUCTASE, B12 trafficking; HET: TAR, COB, GOL, TLA; 1.35A {Caenorhabditis elegans}
+Probab=16.03  E-value=1.5e+02  Score=13.80  Aligned_cols=5  Identities=80%  Similarity=1.776  Sum_probs=0.0  Template_Neff=6.100
+
+Q PQYGGG            1 PQYGG    5 (6)
+Q Consensus         1 pqygg    5 (6)
+                      |+|||
+T Consensus       178 P~yGg  182 (270)
+T 5UJC_A          178 PIYGG  182 (270)
+T ss_dssp             TTTBT
+T ss_pred             ccccc
+
+
+No 7
+>2JXF_A Genome polyprotein; membrane associated segment, Apoptosis, ATP-binding; NMR {N/A}
+Probab=15.95  E-value=1.5e+02  Score=10.25  Aligned_cols=5  Identities=60%  Similarity=0.880  Sum_probs=0.0  Template_Neff=4.600
+
+Q PQYGGG            2 QYGGG    6 (6)
+Q Consensus         2 qyggg    6 (6)
+                      ||.+|
+T Consensus        23 Qy~aG   27 (30)
+T 2JXF_A           23 QYLAG   27 (30)
+T ss_dssp             HHHHH
+T ss_pred             HHHHh
+
+
+No 8
+>7KFF_A Phenylalanine--tRNA ligase alpha subunit, Phenylalanine--tRNA; CSGID, knot, Center for Structural; HET: SAH, MSE; 1.35A {Corynebacterium diphtheriae}
+Probab=15.92  E-value=1.5e+02  Score=14.86  Aligned_cols=6  Identities=50%  Similarity=1.392  Sum_probs=0.0  Template_Neff=4.200
+
+Q PQYGGG            1 PQYGGG    6 (6)
+Q Consensus         1 pqyggg    6 (6)
+                      +.||||
+T Consensus        67 ~PyGGG   72 (308)
+T 7KFF_A           67 SPFGGG   72 (308)
+T ss_dssp             CCTTSC
+T ss_pred             CCCCCC
+
+
+No 9
+>2KMG_A KlcA; KlcA, ArdB, NMR spectroscopy, Anti-restriction; NMR {Bordetella pertussis}
+Probab=15.85  E-value=1.5e+02  Score=12.48  Aligned_cols=6  Identities=33%  Similarity=0.905  Sum_probs=0.0  Template_Neff=6.300
+
+Q PQYGGG            1 PQYGGG    6 (6)
+Q Consensus         1 pqyggg    6 (6)
+                      |+|.||
+T Consensus        47 ~~Y~GG   52 (142)
+T 2KMG_A           47 ERYNGA   52 (142)
+T ss_dssp             TTCCCC
+T ss_pred             hHhCCC
+
+
+No 10
+>4E05_I Thrombin (E.C.3.4.21.5), Salivary anti-thrombin peptide; HYDROLASE-HYDROLASE INHIBITOR complex; HET: NAG; 2.304A {Homo sapiens}
+Probab=14.48  E-value=1.7e+02  Score=12.31  Aligned_cols=6  Identities=67%  Similarity=1.309  Sum_probs=0.0  Template_Neff=1.700
+
+Q PQYGGG            1 PQYGGG    6 (6)
+Q Consensus         1 pqyggg    6 (6)
+                      |||.-|
+T Consensus         2 PQYa~G    7 (61)
+T 4E05_I            2 PQYAPG    7 (61)
+T ss_dssp             TTEGGG
+T ss_pred             CCCCCC
+
+

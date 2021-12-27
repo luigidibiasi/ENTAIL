@@ -1,0 +1,151 @@
+Query         GQQQSY
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 03:17:23 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GQQQSY/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GQQQSY/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 1R3U_A phosphoribosyltransfera  44.7      20 0.00023   14.5   0.0    6    1-6       7-12  (205)
+  2 3ML5_A Carbonic anhydrase 7 (E  15.8 1.5E+02  0.0016   12.6   0.0    5    1-5      32-36  (269)
+  3 1BZM_A CARBONIC ANHYDRASE I (E  15.8 1.5E+02  0.0016   12.4   0.0    5    1-5      25-29  (260)
+  4 6I0J_B Carbonic anhydrase 1 (E  15.4 1.5E+02  0.0017   12.4   0.0    5    1-5      26-30  (261)
+  5 3UYQ_A Carbonic anhydrase 3 (E  15.3 1.6E+02  0.0017   12.3   0.0    5    1-5      25-29  (260)
+  6 5E2M_B Carbonic anhydrase 1 (E  14.9 1.6E+02  0.0018   12.3   0.0    5    1-5      25-29  (260)
+  7 1FLJ_A CARBONIC ANHYDRASE III   14.8 1.6E+02  0.0018   12.3   0.0    5    1-5      25-29  (260)
+  8 6IM0_E Carbonic anhydrase (Car  14.5 1.7E+02  0.0019   12.4   0.0    5    1-5      47-51  (243)
+  9 6IM1_F Carbonic anhydrase (Car  14.5 1.7E+02  0.0019   12.4   0.0    5    1-5      47-51  (243)
+ 10 4TWL_B dioscorin; dioscorin, a  14.4 1.7E+02  0.0019   12.3   0.0    5    1-5      31-35  (246)
+
+No 1
+>1R3U_A phosphoribosyltransferase, Thermoanaerobacter tengcongensis, purine salvage; 2.5A {Thermoanaerobacter tengcongensis} SCOP: c.61.1.1
+Probab=44.67  E-value=20  Score=14.52  Aligned_cols=6  Identities=50%  Similarity=0.534  Sum_probs=0.0  Template_Neff=8.400
+
+Q GQQQSY            1 GQQQSY    6 (6)
+Q Consensus         1 gqqqsy    6 (6)
+                      |||.+|
+T Consensus         7 ~~~~~~   12 (205)
+T 1R3U_A            7 GQQMGR   12 (205)
+T ss_dssp             ------
+T ss_pred             ccccCC
+Confidence            566554
+
+
+No 2
+>3ML5_A Carbonic anhydrase 7 (E.C.4.2.1.1); Protein-inhibitor complex, LYASE; HET: AZM; 2.05A {Homo sapiens}
+Probab=15.82  E-value=1.5e+02  Score=12.59  Aligned_cols=5  Identities=60%  Similarity=0.926  Sum_probs=0.0  Template_Neff=8.500
+
+Q GQQQSY            1 GQQQS    5 (6)
+Q Consensus         1 gqqqs    5 (6)
+                      |++||
+T Consensus        32 G~~QS   36 (269)
+T 3ML5_A           32 GDRQS   36 (269)
+T ss_dssp             SSSCS
+T ss_pred             CCCCC
+
+
+No 3
+>1BZM_A CARBONIC ANHYDRASE I (E.C.4.2.1.1) COMPLEXED; PROTEIN-DRUG INTERACTIONS, OXO-ACID LYASE, SULFONAMIDES; HET: MZM; 2.0A {Homo sapiens} SCOP: b.74.1.1
+Probab=15.82  E-value=1.5e+02  Score=12.43  Aligned_cols=5  Identities=60%  Similarity=0.860  Sum_probs=0.0  Template_Neff=8.700
+
+Q GQQQSY            1 GQQQS    5 (6)
+Q Consensus         1 gqqqs    5 (6)
+                      |++||
+T Consensus        25 G~~QS   29 (260)
+T 1BZM_A           25 GNNQS   29 (260)
+T ss_dssp             CSSCS
+T ss_pred             CCCCC
+
+
+No 4
+>6I0J_B Carbonic anhydrase 1 (E.C.4.2.1.1); carbonic anhydrase I, inhibitor, lyase; HET: GOL, GZE; 1.35A {Homo sapiens}
+Probab=15.39  E-value=1.5e+02  Score=12.38  Aligned_cols=5  Identities=60%  Similarity=0.860  Sum_probs=0.0  Template_Neff=8.700
+
+Q GQQQSY            1 GQQQS    5 (6)
+Q Consensus         1 gqqqs    5 (6)
+                      |++||
+T Consensus        26 G~~QS   30 (261)
+T 6I0J_B           26 GNNQS   30 (261)
+T ss_dssp             SSSCS
+T ss_pred             CCCCC
+
+
+No 5
+>3UYQ_A Carbonic anhydrase 3 (E.C.4.2.1.1); PROTON SHUTTLE, HCA III, PROTON; 1.7A {Homo sapiens}
+Probab=15.33  E-value=1.6e+02  Score=12.32  Aligned_cols=5  Identities=60%  Similarity=0.926  Sum_probs=0.0  Template_Neff=8.800
+
+Q GQQQSY            1 GQQQS    5 (6)
+Q Consensus         1 gqqqs    5 (6)
+                      |++||
+T Consensus        25 G~~QS   29 (260)
+T 3UYQ_A           25 GENQS   29 (260)
+T ss_dssp             CSSCS
+T ss_pred             CCCCC
+
+
+No 6
+>5E2M_B Carbonic anhydrase 1 (E.C.4.2.1.1); drug design, carbonic anhydrase, benzenesulfonamide; HET: V14, PEG; 1.41A {Homo sapiens}
+Probab=14.95  E-value=1.6e+02  Score=12.32  Aligned_cols=5  Identities=60%  Similarity=0.860  Sum_probs=0.0  Template_Neff=8.700
+
+Q GQQQSY            1 GQQQS    5 (6)
+Q Consensus         1 gqqqs    5 (6)
+                      |.+||
+T Consensus        25 G~~QS   29 (260)
+T 5E2M_B           25 GNNQS   29 (260)
+T ss_dssp             SSSCS
+T ss_pred             CCCCC
+
+
+No 7
+>1FLJ_A CARBONIC ANHYDRASE III (E.C.4.2.1.1); Carbonic Anhydrase III, Glutathione, S-Glutathiolated; HET: GSH; 1.8A {Rattus norvegicus} SCOP: b.74.1.1
+Probab=14.78  E-value=1.6e+02  Score=12.30  Aligned_cols=5  Identities=60%  Similarity=0.873  Sum_probs=0.0  Template_Neff=8.700
+
+Q GQQQSY            1 GQQQS    5 (6)
+Q Consensus         1 gqqqs    5 (6)
+                      |++||
+T Consensus        25 G~~QS   29 (260)
+T 1FLJ_A           25 GDNQS   29 (260)
+T ss_dssp             SSSCS
+T ss_pred             CCCCC
+
+
+No 8
+>6IM0_E Carbonic anhydrase (Carbonate dehydratase) (E.C.4.2.1.1); Carbonic anhydrase, Zinc metalloenzyme, Persephonella; HET: BCT, CA, PG4; 2.6A {Persephonella marina (strain DSM 14350 / EX-H1)}
+Probab=14.54  E-value=1.7e+02  Score=12.40  Aligned_cols=5  Identities=60%  Similarity=0.913  Sum_probs=0.0  Template_Neff=8.200
+
+Q GQQQSY            1 GQQQS    5 (6)
+Q Consensus         1 gqqqs    5 (6)
+                      |.+||
+T Consensus        47 G~~QS   51 (243)
+T 6IM0_E           47 GKNQS   51 (243)
+T ss_dssp             CSSCS
+T ss_pred             CCccC
+
+
+No 9
+>6IM1_F Carbonic anhydrase (Carbonate dehydratase) (E.C.4.2.1.1); Carbonic anhydrase, Zinc metalloenzyme, Persephonella; HET: PG4, CA; 2.0A {Persephonella marina (strain DSM 14350 / EX-H1)}
+Probab=14.54  E-value=1.7e+02  Score=12.40  Aligned_cols=5  Identities=60%  Similarity=0.913  Sum_probs=0.0  Template_Neff=8.200
+
+Q GQQQSY            1 GQQQS    5 (6)
+Q Consensus         1 gqqqs    5 (6)
+                      |.+||
+T Consensus        47 G~~QS   51 (243)
+T 6IM1_F           47 GKNQS   51 (243)
+T ss_dssp             CSSCS
+T ss_pred             CCccC
+
+
+No 10
+>4TWL_B dioscorin; dioscorin, ascorbate, carbonic anhydrase, dehydroascorbate; HET: SO4, ASC; 2.11A {Dioscorea japonica}
+Probab=14.43  E-value=1.7e+02  Score=12.26  Aligned_cols=5  Identities=60%  Similarity=0.813  Sum_probs=0.0  Template_Neff=8.500
+
+Q GQQQSY            1 GQQQS    5 (6)
+Q Consensus         1 gqqqs    5 (6)
+                      |++||
+T Consensus        31 G~~QS   35 (246)
+T 4TWL_B           31 GMEQS   35 (246)
+T ss_dssp             CSSCS
+T ss_pred             CCCCC
+
+

@@ -1,0 +1,149 @@
+Query         LATEYV
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 14:32:51 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LATEYV/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LATEYV/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6OD5_D Transcription factor 4/   7.3 4.4E+02  0.0049    8.1   0.0    6    1-6      47-52  (62)
+  2 1Z7M_F ATP phosphoribosyltrans   7.2 4.4E+02  0.0049   11.7   0.0    5    1-5     113-117 (208)
+  3 1VE4_A ATP phosphoribosyltrans   6.8 4.8E+02  0.0053   11.6   0.0    5    1-5     111-115 (206)
+  4 1USY_G ATP PHOSPHORIBOSYLTRANS   6.7 4.9E+02  0.0054   11.6   0.0    5    1-5     105-109 (208)
+  5 2VD2_A ATP PHOSPHORIBOSYLTRANS   6.6   5E+02  0.0056   11.6   0.0    5    1-5     115-119 (214)
+  6 6OD3_J Transcription factor 4/   6.4 5.2E+02  0.0058    7.9   0.0    5    2-6      48-52  (62)
+  7 1NLW_D transcription factor, D   6.3 5.3E+02  0.0058    8.6   0.0    5    2-6      45-49  (80)
+  8 1O63_A ATP phosphoribosyltrans   6.2 5.4E+02   0.006   11.7   0.0    5    1-5     106-110 (219)
+  9 2QL2_B Transcription factor E2   6.2 5.4E+02   0.006    7.9   0.0    5    2-6      46-50  (60)
+ 10 7F09_A Histidine triad nucleot   6.1 5.6E+02  0.0062    8.7   0.0    5    2-6      34-38  (74)
+
+No 1
+>6OD5_D Transcription factor 4/DNA Complex; protein-DNA complex, transcription factor, bHTH; HET: EDO, 1CC; 2.05A {Homo sapiens}
+Probab=7.27  E-value=4.4e+02  Score=8.06  Aligned_cols=6  Identities=17%  Similarity=0.158  Sum_probs=0.0  Template_Neff=9.900
+
+Q LATEYV            1 LATEYV    6 (6)
+Q Consensus         1 lateyv    6 (6)
+                      .+.+|+
+T Consensus        47 ~a~~yi   52 (62)
+T 6OD5_D           47 QAVAVI   52 (62)
+T ss_pred             HHHHHH
+
+
+No 2
+>1Z7M_F ATP phosphoribosyltransferase regulatory subunit; ATP-PRT, histidine biosynthesis, transferase, HisZG; HET: PO4, WO4; 2.9A {Lactococcus lactis} SCOP: c.94.1.1
+Probab=7.25  E-value=4.4e+02  Score=11.66  Aligned_cols=5  Identities=40%  Similarity=1.046  Sum_probs=0.0  Template_Neff=6.600
+
+Q LATEYV            1 LATEY    5 (6)
+Q Consensus         1 latey    5 (6)
+                      .||||
+T Consensus       113 IAT~y  117 (208)
+T 1Z7M_F          113 IASKY  117 (208)
+T ss_dssp             EBCSC
+T ss_pred             EEEec
+
+
+No 3
+>1VE4_A ATP phosphoribosyltransferase (E.C.2.4.2.17); TRANSFERASE, RIKEN Structural Genomics/Proteomics Initiative; 1.2A {Thermus thermophilus} SCOP: c.94.1.1
+Probab=6.78  E-value=4.8e+02  Score=11.62  Aligned_cols=5  Identities=60%  Similarity=1.046  Sum_probs=0.0  Template_Neff=6.400
+
+Q LATEYV            1 LATEY    5 (6)
+Q Consensus         1 latey    5 (6)
+                      .||||
+T Consensus       111 IAT~y  115 (206)
+T 1VE4_A          111 VATKY  115 (206)
+T ss_dssp             EEESC
+T ss_pred             EEEec
+
+
+No 4
+>1USY_G ATP PHOSPHORIBOSYLTRANSFERASE REGULATORY SUBUNIT; TRANSFERASE, ATP PHOSPHORIBOSYL TRANSFERASE, AMINOACYL-TRNA; HET: HIS, PO4; 2.52A {THERMOTOGA MARITIMA} SCOP: c.94.1.1
+Probab=6.70  E-value=4.9e+02  Score=11.57  Aligned_cols=5  Identities=40%  Similarity=0.933  Sum_probs=0.0  Template_Neff=6.500
+
+Q LATEYV            1 LATEY    5 (6)
+Q Consensus         1 latey    5 (6)
+                      .||||
+T Consensus       105 IAT~y  109 (208)
+T 1USY_G          105 IATKF  109 (208)
+T ss_dssp             EEESC
+T ss_pred             EEEee
+
+
+No 5
+>2VD2_A ATP PHOSPHORIBOSYLTRANSFERASE (E.C.2.4.2.17); HISG, TRANSFERASE, GLYCOSYLTRANSFERASE, HISTIDINE BIOSYNTHESIS; 2.85A {BACILLUS SUBTILIS}
+Probab=6.57  E-value=5e+02  Score=11.59  Aligned_cols=5  Identities=60%  Similarity=1.112  Sum_probs=0.0  Template_Neff=6.500
+
+Q LATEYV            1 LATEY    5 (6)
+Q Consensus         1 latey    5 (6)
+                      .||||
+T Consensus       115 IAT~y  119 (214)
+T 2VD2_A          115 IATKY  119 (214)
+T ss_dssp             EEESC
+T ss_pred             EEecc
+
+
+No 6
+>6OD3_J Transcription factor 4/DNA Complex; protein-DNA complex, transcription factor, bHTH; HET: PG4, EDO; 1.494A {Homo sapiens}
+Probab=6.39  E-value=5.2e+02  Score=7.93  Aligned_cols=5  Identities=20%  Similarity=0.295  Sum_probs=0.0  Template_Neff=9.800
+
+Q LATEYV            2 ATEYV    6 (6)
+Q Consensus         2 ateyv    6 (6)
+                      |.+|+
+T Consensus        48 a~~yi   52 (62)
+T 6OD3_J           48 AVAVI   52 (62)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 7
+>1NLW_D transcription factor, DNA, bHLHZ, TRANSCRIPTION-DNA; 2.0A {Homo sapiens} SCOP: a.38.1.1
+Probab=6.33  E-value=5.3e+02  Score=8.64  Aligned_cols=5  Identities=20%  Similarity=0.042  Sum_probs=0.0  Template_Neff=9.200
+
+Q LATEYV            2 ATEYV    6 (6)
+Q Consensus         2 ateyv    6 (6)
+                      |.+|+
+T Consensus        45 a~~yI   49 (80)
+T 1NLW_D           45 AKLHI   49 (80)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 8
+>1O63_A ATP phosphoribosyltransferase (E.C.2.4.2.17); structural genomics, transferase; HET: MSE; 2.0A {Thermotoga maritima} SCOP: c.94.1.1
+Probab=6.21  E-value=5.4e+02  Score=11.67  Aligned_cols=5  Identities=40%  Similarity=0.933  Sum_probs=0.0  Template_Neff=6.200
+
+Q LATEYV            1 LATEY    5 (6)
+Q Consensus         1 latey    5 (6)
+                      .||||
+T Consensus       106 IATky  110 (219)
+T 1O63_A          106 IATKF  110 (219)
+T ss_dssp             EEESC
+T ss_pred             EEEec
+
+
+No 9
+>2QL2_B Transcription factor E2-alpha/ Neurogenic differentiation; basic-helix-loop-helix, protein-DNA complex, heterodimer, DNA-binding; 2.5A {Mus musculus}
+Probab=6.19  E-value=5.4e+02  Score=7.88  Aligned_cols=5  Identities=40%  Similarity=0.953  Sum_probs=0.0  Template_Neff=9.700
+
+Q LATEYV            2 ATEYV    6 (6)
+Q Consensus         2 ateyv    6 (6)
+                      |.+|+
+T Consensus        46 a~~yi   50 (60)
+T 2QL2_B           46 AKNYI   50 (60)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 10
+>7F09_A Histidine triad nucleotide-binding protein 1; Transcription factor E3, HLH-Lz domain; HET: EDO; 2.6A {Homo sapiens}
+Probab=6.06  E-value=5.6e+02  Score=8.67  Aligned_cols=5  Identities=20%  Similarity=0.979  Sum_probs=0.0  Template_Neff=8.700
+
+Q LATEYV            2 ATEYV    6 (6)
+Q Consensus         2 ateyv    6 (6)
+                      |.+|+
+T Consensus        34 ai~yI   38 (74)
+T 7F09_A           34 SVDYI   38 (74)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+

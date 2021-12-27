@@ -1,0 +1,148 @@
+Query         GSIAAT
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 03:45:26 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GSIAAT/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GSIAAT/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5V2C_f Photosystem II protein   18.1 1.2E+02  0.0013   11.9   0.0    5    1-5      34-38  (44)
+  2 3KZI_F Photosystem Q(B) protei  17.7 1.2E+02  0.0014   11.9   0.0    5    1-5      34-38  (44)
+  3 2RAX_Y Baculoviral IAP repeat-  16.2 1.4E+02  0.0016   10.4   0.0    6    1-6      60-65  (68)
+  4 3I7F_B Aspartyl-tRNA synthetas  15.7 1.5E+02  0.0017   14.2   0.0    6    1-6       3-8   (548)
+  5 6AKE_B Claudin-3, Heat-labile   12.5 2.1E+02  0.0023   13.3   0.0    6    1-6       1-6   (119)
+  6 6AKF_D Claudin-3, Heat-labile   12.5 2.1E+02  0.0023   13.3   0.0    6    1-6       1-6   (119)
+  7 3I7F_A Aspartyl-tRNA synthetas  11.5 2.4E+02  0.0026   13.6   0.0    6    1-6       3-8   (548)
+  8 1YY3_A S-adenosylmethionine:tR  11.5 2.4E+02  0.0026   13.8   0.0    5    1-5     177-181 (346)
+  9 1WDI_A hypothetical protein TT  10.8 2.6E+02  0.0029   13.7   0.0    5    1-5     178-182 (345)
+ 10 1VKY_B S-adenosylmethionine:tR  10.1 2.8E+02  0.0031   13.6   0.0    5    1-5     180-184 (347)
+
+No 1
+>5V2C_f Photosystem II protein D1 (E.C.1.10.3.9); ELECTRON TRANSPORT, PHOTOSYNTHESIS; HET: GOL, BCT, P6G, PHO, SQD, MHS, HEC, PE8, OEX, PG4, LHG, HEM, DGD, HTG, EDO, LMG, FME, PGE, CLA, LMT, 1PE, PL9, BCR, 2PE; 1.9A {Thermosynechococcus vulcanus}
+Probab=18.10  E-value=1.2e+02  Score=11.94  Aligned_cols=5  Identities=80%  Similarity=1.099  Sum_probs=0.0  Template_Neff=2.500
+
+Q GSIAAT            1 GSIAA    5 (6)
+Q Consensus         1 gsiaa    5 (6)
+                      |||+|
+T Consensus        34 GaI~A   38 (44)
+T 5V2C_f           34 GAIAA   38 (44)
+T ss_pred             hHHHH
+
+
+No 2
+>3KZI_F Photosystem Q(B) protein 1, Photosystem; ELECTRON TRANSPORT PHOTOSYSTEM, PS II; HET: LMG, BCR, PL9, CLA, LMT, DGD, PHO, MES, SQD, HEM, LHG; 3.6A {Thermosynechococcus elongatus}
+Probab=17.66  E-value=1.2e+02  Score=11.92  Aligned_cols=5  Identities=80%  Similarity=1.099  Sum_probs=0.0  Template_Neff=2.400
+
+Q GSIAAT            1 GSIAA    5 (6)
+Q Consensus         1 gsiaa    5 (6)
+                      |||+|
+T Consensus        34 GaI~A   38 (44)
+T 3KZI_F           34 GAIAA   38 (44)
+T ss_dssp             THHHH
+T ss_pred             hhHHH
+
+
+No 3
+>2RAX_Y Baculoviral IAP repeat-containing protein 5; Cell cycle, DasraB, chromosomal passender; 3.3A {Homo sapiens}
+Probab=16.23  E-value=1.4e+02  Score=10.38  Aligned_cols=6  Identities=17%  Similarity=0.058  Sum_probs=0.0  Template_Neff=7.900
+
+Q GSIAAT            1 GSIAAT    6 (6)
+Q Consensus         1 gsiaat    6 (6)
+                      |+|.|+
+T Consensus        60 g~i~~~   65 (68)
+T 2RAX_Y           60 GWSHPQ   65 (68)
+T ss_dssp             CCC-TC
+T ss_pred             Ccchhh
+
+
+No 4
+>3I7F_B Aspartyl-tRNA synthetase (E.C.6.1.1.12); tRNA ligase, apo, ATP-binding, Aminoacyl-tRNA; 2.8A {Entamoeba histolytica}
+Probab=15.68  E-value=1.5e+02  Score=14.25  Aligned_cols=6  Identities=83%  Similarity=1.032  Sum_probs=0.0  Template_Neff=7.800
+
+Q GSIAAT            1 GSIAAT    6 (6)
+Q Consensus         1 gsiaat    6 (6)
+                      ||+|||
+T Consensus         3 ~~~~~~    8 (548)
+T 3I7F_B            3 GSMAAT    8 (548)
+T ss_dssp             ------
+T ss_pred             CccccC
+
+
+No 5
+>6AKE_B Claudin-3, Heat-labile enterotoxin B chain; Cell adhesion, Tight junction, MEMBRANE; 3.6A {Mus musculus}
+Probab=12.53  E-value=2.1e+02  Score=13.28  Aligned_cols=6  Identities=83%  Similarity=0.850  Sum_probs=0.0  Template_Neff=1.800
+
+Q GSIAAT            1 GSIAAT    6 (6)
+Q Consensus         1 gsiaat    6 (6)
+                      ||+++|
+T Consensus         1 ~~~~~T    6 (119)
+T 6AKE_B            1 GSAAAT    6 (119)
+T ss_dssp             --CEEE
+T ss_pred             CCcccc
+
+
+No 6
+>6AKF_D Claudin-3, Heat-labile enterotoxin B chain; Cell adhesion, Tight junction, MEMBRANE; 3.9A {Mus musculus}
+Probab=12.53  E-value=2.1e+02  Score=13.28  Aligned_cols=6  Identities=83%  Similarity=0.850  Sum_probs=0.0  Template_Neff=1.800
+
+Q GSIAAT            1 GSIAAT    6 (6)
+Q Consensus         1 gsiaat    6 (6)
+                      ||+++|
+T Consensus         1 ~~~~~T    6 (119)
+T 6AKF_D            1 GSAAAT    6 (119)
+T ss_pred             CCcccc
+
+
+No 7
+>3I7F_A Aspartyl-tRNA synthetase (E.C.6.1.1.12); tRNA ligase, apo, ATP-binding, Aminoacyl-tRNA; 2.8A {Entamoeba histolytica}
+Probab=11.53  E-value=2.4e+02  Score=13.56  Aligned_cols=6  Identities=83%  Similarity=1.032  Sum_probs=0.0  Template_Neff=8.000
+
+Q GSIAAT            1 GSIAAT    6 (6)
+Q Consensus         1 gsiaat    6 (6)
+                      ||+|||
+T Consensus         3 ~~~~~~    8 (548)
+T 3I7F_A            3 GSMAAT    8 (548)
+T ss_dssp             ------
+T ss_pred             CccccC
+
+
+No 8
+>1YY3_A S-adenosylmethionine:tRNA ribosyltransferase-isomerase (E.C.5.-.-.-); beta-barrel, QueA, Bacillus subtilis, Quein; 2.88A {Bacillus subtilis}
+Probab=11.49  E-value=2.4e+02  Score=13.83  Aligned_cols=5  Identities=80%  Similarity=0.853  Sum_probs=0.0  Template_Neff=5.600
+
+Q GSIAAT            1 GSIAA    5 (6)
+Q Consensus         1 gsiaa    5 (6)
+                      ||+||
+T Consensus       177 GSvAA  181 (346)
+T 1YY3_A          177 GSAAA  181 (346)
+T ss_dssp             --CCC
+T ss_pred             ccccC
+
+
+No 9
+>1WDI_A hypothetical protein TT0907; Structural genomics, RIKEN Structural Genomics/Proteomics; HET: CIT; 2.1A {Thermus thermophilus} SCOP: e.53.1.1
+Probab=10.79  E-value=2.6e+02  Score=13.71  Aligned_cols=5  Identities=80%  Similarity=1.112  Sum_probs=0.0  Template_Neff=5.600
+
+Q GSIAAT            1 GSIAA    5 (6)
+Q Consensus         1 gsiaa    5 (6)
+                      ||+||
+T Consensus       178 GSvAA  182 (345)
+T 1WDI_A          178 GSVAA  182 (345)
+T ss_dssp             ---CC
+T ss_pred             ccccc
+
+
+No 10
+>1VKY_B S-adenosylmethionine:tRNA ribosyltransferase-isomerase (E.C.5.-.-.-); TM0574, S-adenosylmethionine tRNA ribosyltransferase, STRUCTURAL; HET: UNL; 2.0A {Thermotoga maritima} SCOP: e.53.1.1
+Probab=10.08  E-value=2.8e+02  Score=13.63  Aligned_cols=5  Identities=80%  Similarity=1.112  Sum_probs=0.0  Template_Neff=5.500
+
+Q GSIAAT            1 GSIAA    5 (6)
+Q Consensus         1 gsiaa    5 (6)
+                      ||+||
+T Consensus       180 GSvAA  184 (347)
+T 1VKY_B          180 GSVAA  184 (347)
+T ss_dssp             -----
+T ss_pred             Ccccc
+
+

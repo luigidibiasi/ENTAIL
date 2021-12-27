@@ -1,0 +1,150 @@
+Query         LIVAGE
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 18:42:55 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LIVAGE/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LIVAGE/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4NMW_A Pimelyl-[acyl-carrier p  11.8 2.3E+02  0.0025   10.0   0.0    6    1-6     203-208 (259)
+  2 5KJH_A Putative uncharacterize  11.4 2.4E+02  0.0026   12.6   0.0    6    1-6     577-582 (605)
+  3 1R3D_A conserved hypothetical   11.4 2.4E+02  0.0027   10.1   0.0    6    1-6     212-217 (264)
+  4 2I0Z_A NAD(FAD)-utilizing dehy  11.2 2.4E+02  0.0027   12.1   0.0    6    1-6     407-412 (447)
+  5 3QYJ_A Alr0039 protein; alpha/  11.0 2.5E+02  0.0028   10.1   0.0    6    1-6     235-240 (291)
+  6 3V76_A Flavoprotein; Structura  10.8 2.6E+02  0.0028   11.8   0.0    6    1-6     385-390 (417)
+  7 3H5J_A 3-isopropylmalate dehyd  10.8 2.6E+02  0.0029   12.1   0.0    6    1-6      67-72  (171)
+  8 3OM8_B Probable hydrolase; str  10.7 2.6E+02  0.0029    9.8   0.0    6    1-6     212-217 (266)
+  9 2QRU_A Uncharacterized protein  10.1 2.8E+02  0.0031    9.8   0.0    6    1-6     214-219 (274)
+ 10 1A8Q_A BROMOPEROXIDASE A1; HAL  10.1 2.8E+02  0.0031    9.5   0.0    6    1-6     216-221 (274)
+
+No 1
+>4NMW_A Pimelyl-[acyl-carrier protein] methyl ester esterase; Structural Genomics, NIAID, National Institute; 1.496A {Salmonella enterica subsp. enterica serovar Typhimurium}
+Probab=11.76  E-value=2.3e+02  Score=9.96  Aligned_cols=6  Identities=33%  Similarity=0.285  Sum_probs=0.0  Template_Neff=12.500
+
+Q LIVAGE            1 LIVAGE    6 (6)
+Q Consensus         1 livage    6 (6)
+                      ||+.|+
+T Consensus       203 lii~g~  208 (259)
+T 4NMW_A          203 LRLYGY  208 (259)
+T ss_dssp             EEEEET
+T ss_pred             EEEEec
+
+
+No 2
+>5KJH_A Putative uncharacterized protein, Zinc finger; Complex, Methyltransferase, TRANSFERASE; HET: SAH, M3L; 2.27A {Chaetomium thermophilum (strain DSM 1495 / CBS 144.50 / IMI 039719)}
+Probab=11.43  E-value=2.4e+02  Score=12.56  Aligned_cols=6  Identities=33%  Similarity=0.700  Sum_probs=0.0  Template_Neff=10.300
+
+Q LIVAGE            1 LIVAGE    6 (6)
+Q Consensus         1 livage    6 (6)
+                      +||+|+
+T Consensus       577 ~v~~g~  582 (605)
+T 5KJH_A          577 CVVVGN  582 (605)
+T ss_dssp             EEEEEB
+T ss_pred             EEEEec
+
+
+No 3
+>1R3D_A conserved hypothetical protein VC1974; Structural Genomics, Hydrolase, NYSGXRC, New; 1.9A {Vibrio cholerae} SCOP: c.69.1.35
+Probab=11.37  E-value=2.4e+02  Score=10.15  Aligned_cols=6  Identities=50%  Similarity=0.639  Sum_probs=0.0  Template_Neff=12.100
+
+Q LIVAGE            1 LIVAGE    6 (6)
+Q Consensus         1 livage    6 (6)
+                      +|+.|+
+T Consensus       212 lii~G~  217 (264)
+T 1R3D_A          212 HYVCGE  217 (264)
+T ss_dssp             EEEEET
+T ss_pred             EEEEcC
+
+
+No 4
+>2I0Z_A NAD(FAD)-utilizing dehydrogenases; Structural Genomics, NAD(FAD)-utilizing dehydrogenases, PSI-2; HET: FAD; 1.84A {Bacillus cereus} SCOP: c.3.1.8, e.74.1.1
+Probab=11.23  E-value=2.4e+02  Score=12.14  Aligned_cols=6  Identities=50%  Similarity=0.783  Sum_probs=0.0  Template_Neff=10.000
+
+Q LIVAGE            1 LIVAGE    6 (6)
+Q Consensus         1 livage    6 (6)
+                      |.+|||
+T Consensus       407 Ly~aGE  412 (447)
+T 2I0Z_A          407 LYFCGE  412 (447)
+T ss_dssp             EEECGG
+T ss_pred             EEECch
+
+
+No 5
+>3QYJ_A Alr0039 protein; alpha/beta fold, HYDROLASE; 1.778A {Nostoc sp.}
+Probab=11.04  E-value=2.5e+02  Score=10.12  Aligned_cols=6  Identities=50%  Similarity=0.861  Sum_probs=0.0  Template_Neff=12.400
+
+Q LIVAGE            1 LIVAGE    6 (6)
+Q Consensus         1 livage    6 (6)
+                      |++.|+
+T Consensus       235 l~i~G~  240 (291)
+T 3QYJ_A          235 LVLWGE  240 (291)
+T ss_dssp             EEEEET
+T ss_pred             EEEEeC
+
+
+No 6
+>3V76_A Flavoprotein; Structural Genomics, PSI-Biology, New York; HET: FDA; 2.51A {Sinorhizobium meliloti}
+Probab=10.83  E-value=2.6e+02  Score=11.80  Aligned_cols=6  Identities=50%  Similarity=0.761  Sum_probs=0.0  Template_Neff=10.300
+
+Q LIVAGE            1 LIVAGE    6 (6)
+Q Consensus         1 livage    6 (6)
+                      |.++||
+T Consensus       385 Ly~~Ge  390 (417)
+T 3V76_A          385 LYFVGE  390 (417)
+T ss_dssp             EEECGG
+T ss_pred             EEEchh
+
+
+No 7
+>3H5J_A 3-isopropylmalate dehydratase small subunit (E.C.4.2.1.33); Leucine biosynthesis, isopropylmalate isomerase, LeuD; HET: EDO; 1.2A {Mycobacterium tuberculosis}
+Probab=10.76  E-value=2.6e+02  Score=12.08  Aligned_cols=6  Identities=50%  Similarity=0.916  Sum_probs=0.0  Template_Neff=6.400
+
+Q LIVAGE            1 LIVAGE    6 (6)
+Q Consensus         1 livage    6 (6)
+                      +||+|+
+T Consensus        67 ilVaG~   72 (171)
+T 3H5J_A           67 VLVAGP   72 (171)
+T ss_dssp             EEEECS
+T ss_pred             EEEEec
+
+
+No 8
+>3OM8_B Probable hydrolase; structural genomics, PSI-2, protein structure; HET: MES; 2.25A {Pseudomonas aeruginosa}
+Probab=10.70  E-value=2.6e+02  Score=9.76  Aligned_cols=6  Identities=50%  Similarity=1.066  Sum_probs=0.0  Template_Neff=12.700
+
+Q LIVAGE            1 LIVAGE    6 (6)
+Q Consensus         1 livage    6 (6)
+                      |++.|+
+T Consensus       212 lii~g~  217 (266)
+T 3OM8_B          212 LVIAGA  217 (266)
+T ss_dssp             EEEEET
+T ss_pred             EEEEec
+
+
+No 9
+>2QRU_A Uncharacterized protein; Enterococcus faecalis, alpha/beta-hydrolase, Structural Genomics; HET: EDO; 1.65A {Enterococcus faecalis}
+Probab=10.12  E-value=2.8e+02  Score=9.83  Aligned_cols=6  Identities=17%  Similarity=0.180  Sum_probs=0.0  Template_Neff=12.500
+
+Q LIVAGE            1 LIVAGE    6 (6)
+Q Consensus         1 livage    6 (6)
+                      |++.|+
+T Consensus       214 lii~g~  219 (274)
+T 2QRU_A          214 FSTASS  219 (274)
+T ss_dssp             EEEEET
+T ss_pred             EEEeec
+
+
+No 10
+>1A8Q_A BROMOPEROXIDASE A1; HALOPEROXIDASE, OXIDOREDUCTASE; 1.75A {Streptomyces aureofaciens} SCOP: c.69.1.12
+Probab=10.07  E-value=2.8e+02  Score=9.52  Aligned_cols=6  Identities=50%  Similarity=1.055  Sum_probs=0.0  Template_Neff=13.100
+
+Q LIVAGE            1 LIVAGE    6 (6)
+Q Consensus         1 livage    6 (6)
+                      +++.|+
+T Consensus       216 lii~g~  221 (274)
+T 1A8Q_A          216 LVVHGD  221 (274)
+T ss_dssp             EEEEET
+T ss_pred             EEEeCC
+
+

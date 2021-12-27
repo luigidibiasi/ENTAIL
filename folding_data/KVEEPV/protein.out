@@ -1,0 +1,149 @@
+Query         KVEEPV
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 12:55:53 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/KVEEPV/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/KVEEPV/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4JHM_C Mandelate racemase / mu   7.8   4E+02  0.0045   11.7   0.0    5    2-6     221-225 (384)
+  2 4JHM_D Mandelate racemase / mu   7.8   4E+02  0.0045   11.7   0.0    5    2-6     221-225 (384)
+  3 3GC2_A o-succinylbenzoate synt   7.7 4.1E+02  0.0045   11.7   0.0    5    2-6     192-196 (323)
+  4 1R6W_A o-Succinylbenzoate Synt   7.7 4.1E+02  0.0045   11.6   0.0    5    2-6     191-195 (322)
+  5 3TTE_A Mandelate racemase/muco   7.7 4.1E+02  0.0046   11.7   0.0    5    2-6     244-248 (383)
+  6 2ZAD_B Muconate cycloisomerase   7.6 4.2E+02  0.0046   11.4   0.0    5    2-6     215-219 (345)
+  7 3R11_B Enzyme of enolase super   7.6 4.2E+02  0.0046   11.7   0.0    5    2-6     219-223 (379)
+  8 3R1Z_B Enzyme of enolase super   7.6 4.2E+02  0.0046   11.7   0.0    5    2-6     219-223 (379)
+  9 3GD6_A Muconate cycloisomerase   7.5 4.2E+02  0.0047   11.7   0.0    5    2-6     220-224 (391)
+ 10 3CYJ_D Mandelate racemase/muco   7.5 4.2E+02  0.0047   11.5   0.0    5    2-6     220-224 (372)
+
+No 1
+>4JHM_C Mandelate racemase / muconate lactonizing; mandelate racemase, muconate lactonizing enzyme; HET: MSE; 2.8A {Pseudovibrio sp. JE062}
+Probab=7.77  E-value=4e+02  Score=11.70  Aligned_cols=5  Identities=60%  Similarity=1.092  Sum_probs=0.0  Template_Neff=9.100
+
+Q KVEEPV            2 VEEPV    6 (6)
+Q Consensus         2 veepv    6 (6)
+                      +|+|+
+T Consensus       221 iEqP~  225 (384)
+T 4JHM_C          221 LEAPV  225 (384)
+T ss_dssp             EECCS
+T ss_pred             EeCCC
+
+
+No 2
+>4JHM_D Mandelate racemase / muconate lactonizing; mandelate racemase, muconate lactonizing enzyme; HET: MSE; 2.8A {Pseudovibrio sp. JE062}
+Probab=7.77  E-value=4e+02  Score=11.70  Aligned_cols=5  Identities=60%  Similarity=1.092  Sum_probs=0.0  Template_Neff=9.100
+
+Q KVEEPV            2 VEEPV    6 (6)
+Q Consensus         2 veepv    6 (6)
+                      +|+|+
+T Consensus       221 iEqP~  225 (384)
+T 4JHM_D          221 LEAPV  225 (384)
+T ss_dssp             EECCS
+T ss_pred             EeCCC
+
+
+No 3
+>3GC2_A o-succinylbenzoate synthase (E.C.4.2.1.113); O-succinylbenzoate synthase, Succinic Acid, idp00994; HET: EPE, SIN; 1.85A {Salmonella typhimurium}
+Probab=7.74  E-value=4.1e+02  Score=11.67  Aligned_cols=5  Identities=60%  Similarity=1.105  Sum_probs=0.0  Template_Neff=8.500
+
+Q KVEEPV            2 VEEPV    6 (6)
+Q Consensus         2 veepv    6 (6)
+                      +|||+
+T Consensus       192 iEeP~  196 (323)
+T 3GC2_A          192 LEEPC  196 (323)
+T ss_pred             Eeccc
+
+
+No 4
+>1R6W_A o-Succinylbenzoate Synthase (E.C.4.2.1.-); Enolase superfamily  TIM barrel; HET: 164; 1.62A {Escherichia coli} SCOP: d.54.1.1, c.1.11.2
+Probab=7.68  E-value=4.1e+02  Score=11.56  Aligned_cols=5  Identities=60%  Similarity=1.105  Sum_probs=0.0  Template_Neff=8.700
+
+Q KVEEPV            2 VEEPV    6 (6)
+Q Consensus         2 veepv    6 (6)
+                      +|||+
+T Consensus       191 iEeP~  195 (322)
+T 1R6W_A          191 LEEPC  195 (322)
+T ss_dssp             EECCB
+T ss_pred             EeCCC
+
+
+No 5
+>3TTE_A Mandelate racemase/muconate lactonizing enzyme (E.C.5.1.2.2; ENOLASE, MAGNESIUM BINDING SITE, LYASE; HET: GOL, SMN; 2.0A {Bradyrhizobium sp. ORS 278}
+Probab=7.66  E-value=4.1e+02  Score=11.72  Aligned_cols=5  Identities=80%  Similarity=1.418  Sum_probs=0.0  Template_Neff=9.000
+
+Q KVEEPV            2 VEEPV    6 (6)
+Q Consensus         2 veepv    6 (6)
+                      +|||+
+T Consensus       244 iEeP~  248 (383)
+T 3TTE_A          244 IEEPV  248 (383)
+T ss_dssp             EECCS
+T ss_pred             EEeeC
+
+
+No 6
+>2ZAD_B Muconate cycloisomerase (E.C.5.5.1.1); Muconate lactonizing enzyme (MLE), TM0006; HET: 1PE, MSE, PEG; 1.6A {Thermotoga maritima}
+Probab=7.60  E-value=4.2e+02  Score=11.38  Aligned_cols=5  Identities=60%  Similarity=1.012  Sum_probs=0.0  Template_Neff=9.300
+
+Q KVEEPV            2 VEEPV    6 (6)
+Q Consensus         2 veepv    6 (6)
+                      +|||.
+T Consensus       215 iEeP~  219 (345)
+T 2ZAD_B          215 YEQPV  219 (345)
+T ss_dssp             EECCS
+T ss_pred             EecCC
+
+
+No 7
+>3R11_B Enzyme of enolase superfamily; enolase, structural genomics, putative epimerase; HET: SO4, GOL, MSE; 2.0A {Francisella philomiragia subsp. philomiragia}
+Probab=7.57  E-value=4.2e+02  Score=11.68  Aligned_cols=5  Identities=60%  Similarity=1.291  Sum_probs=0.0  Template_Neff=9.000
+
+Q KVEEPV            2 VEEPV    6 (6)
+Q Consensus         2 veepv    6 (6)
+                      +|||+
+T Consensus       219 iEeP~  223 (379)
+T 3R11_B          219 IEQPV  223 (379)
+T ss_dssp             EECCS
+T ss_pred             EeCCC
+
+
+No 8
+>3R1Z_B Enzyme of enolase superfamily; enolase, structural genomics, putative epimerase; HET: GLU, DGL, SO4, GOL, MSE, ALA; 1.9A {Francisella philomiragia subsp. philomiragia}
+Probab=7.57  E-value=4.2e+02  Score=11.68  Aligned_cols=5  Identities=60%  Similarity=1.291  Sum_probs=0.0  Template_Neff=9.000
+
+Q KVEEPV            2 VEEPV    6 (6)
+Q Consensus         2 veepv    6 (6)
+                      +|||+
+T Consensus       219 iEeP~  223 (379)
+T 3R1Z_B          219 IEQPV  223 (379)
+T ss_dssp             EECCS
+T ss_pred             EeCCC
+
+
+No 9
+>3GD6_A Muconate cycloisomerase; Structural Genomics, NYSGXRC, target 9375a; 1.6A {Oceanobacillus iheyensis HTE831}
+Probab=7.50  E-value=4.2e+02  Score=11.67  Aligned_cols=5  Identities=40%  Similarity=0.973  Sum_probs=0.0  Template_Neff=9.100
+
+Q KVEEPV            2 VEEPV    6 (6)
+Q Consensus         2 veepv    6 (6)
+                      +|||+
+T Consensus       220 iEeP~  224 (391)
+T 3GD6_A          220 IESPA  224 (391)
+T ss_dssp             EECCS
+T ss_pred             eecCC
+
+
+No 10
+>3CYJ_D Mandelate racemase/muconate lactonizing enzyme-like protein; STRUCTURAL GENOMICS, ISOMERASE, PSI-2, Protein; HET: GOL; 2.3A {Rubrobacter xylanophilus DSM 9941}
+Probab=7.48  E-value=4.2e+02  Score=11.53  Aligned_cols=5  Identities=80%  Similarity=1.331  Sum_probs=0.0  Template_Neff=9.200
+
+Q KVEEPV            2 VEEPV    6 (6)
+Q Consensus         2 veepv    6 (6)
+                      +|||+
+T Consensus       220 iEeP~  224 (372)
+T 3CYJ_D          220 LEEPV  224 (372)
+T ss_dssp             EECCB
+T ss_pred             EeCCC
+
+

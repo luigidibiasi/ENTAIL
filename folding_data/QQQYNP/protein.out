@@ -1,0 +1,148 @@
+Query         QQQYNP
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 10:03:12 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QQQYNP/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QQQYNP/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 1H20_A METALLOCARBOXYPEPTIDASE  41.2      25 0.00028   13.7   0.0    6    1-6       1-6   (39)
+  2 5MUN_B Lys-gingipain W83 (E.C.  17.1 1.3E+02  0.0015   12.6   0.0    4    3-6     164-167 (214)
+  3 4IEF_A Gingipain R2 Pro-Domain  17.0 1.3E+02  0.0015   12.4   0.0    4    3-6     155-158 (210)
+  4 7BG8_B Structural polyprotein;  14.3 1.7E+02  0.0019   13.4   0.0    5    2-6     299-303 (311)
+  5 7BGK_B Structural polyprotein;  14.3 1.7E+02  0.0019   13.4   0.0    5    2-6     299-303 (311)
+  6 4WT3_A AtRaf1.2; assembly chap  14.1 1.8E+02  0.0019   14.0   0.0    6    1-6       1-6   (213)
+  7 4IEF_C Gingipain R2 Pro-Domain  13.6 1.8E+02   0.002   12.1   0.0    4    3-6     155-158 (210)
+  8 6JLQ_C Ubiquitin carboxyl-term  13.4 1.9E+02  0.0021   11.3   0.0    6    1-6     439-444 (444)
+  9 5NGN_B lybatide 2; cysteine-ri  13.2 1.9E+02  0.0021   11.0   0.0    5    1-5      19-23  (33)
+ 10 5U2I_E Nucleoside diphosphate   12.7   2E+02  0.0023   11.2   0.0    6    1-6     150-155 (159)
+
+No 1
+>1H20_A METALLOCARBOXYPEPTIDASE INHIBITOR; INHIBITOR, METALLOENZYME INHIBITOR, PLANT DEFENSE; NMR {SOLANUM TUBEROSUM} SCOP: g.3.2.1
+Probab=41.17  E-value=25  Score=13.70  Aligned_cols=6  Identities=33%  Similarity=0.733  Sum_probs=3.7  Template_Neff=1.700
+
+Q QQQYNP            1 QQQYNP    6 (6)
+Q Consensus         1 qqqynp    6 (6)
+                      ||||.|
+T Consensus         1 ~~q~Dp    6 (39)
+T 1H20_A            1 EQHADP    6 (39)
+T ss_dssp             CCCCCS
+T ss_pred             CCCCCC
+Confidence            567665
+
+
+No 2
+>5MUN_B Lys-gingipain W83 (E.C.3.4.22.47); Cysteine protease, zymogenic latency, hydrolase; 1.8A {Porphyromonas gingivalis}
+Probab=17.11  E-value=1.3e+02  Score=12.57  Aligned_cols=4  Identities=50%  Similarity=0.908  Sum_probs=0.0  Template_Neff=8.000
+
+Q QQQYNP            3 QYNP    6 (6)
+Q Consensus         3 qynp    6 (6)
+                      ||||
+T Consensus       164 qYnP  167 (214)
+T 5MUN_B          164 QYDV  167 (214)
+T ss_dssp             EEET
+T ss_pred             eEEC
+
+
+No 3
+>4IEF_A Gingipain R2 Pro-Domain, Gingipain R2; alpha/beta/alpha sandwich, cysteine endopeptidase, HYDROLASE; HET: CSD, CA; 2.3A {Porphyromonas gingivalis}
+Probab=17.02  E-value=1.3e+02  Score=12.42  Aligned_cols=4  Identities=100%  Similarity=1.821  Sum_probs=0.0  Template_Neff=8.200
+
+Q QQQYNP            3 QYNP    6 (6)
+Q Consensus         3 qynp    6 (6)
+                      ||||
+T Consensus       155 qYnP  158 (210)
+T 4IEF_A          155 QYNP  158 (210)
+T ss_dssp             EEET
+T ss_pred             EEeC
+
+
+No 4
+>7BG8_B Structural polyprotein; Viruses, Riboviria, Orthornavirae, Pisuviricota, Pisoniviricetes; 3.9A {Kashmir bee virus}
+Probab=14.25  E-value=1.7e+02  Score=13.36  Aligned_cols=5  Identities=80%  Similarity=1.570  Sum_probs=0.0  Template_Neff=7.100
+
+Q QQQYNP            2 QQYNP    6 (6)
+Q Consensus         2 qqynp    6 (6)
+                      .||||
+T Consensus       299 ~~~~~  303 (311)
+T 7BG8_B          299 EQYNP  303 (311)
+T ss_pred             HHhCc
+
+
+No 5
+>7BGK_B Structural polyprotein; Viruses, Riboviria, Orthornavirae, Pisuviricota, Pisoniviricetes;{Kashmir bee virus}
+Probab=14.25  E-value=1.7e+02  Score=13.36  Aligned_cols=5  Identities=80%  Similarity=1.570  Sum_probs=0.0  Template_Neff=7.100
+
+Q QQQYNP            2 QQYNP    6 (6)
+Q Consensus         2 qqynp    6 (6)
+                      .||||
+T Consensus       299 ~~~~~  303 (311)
+T 7BGK_B          299 EQYNP  303 (311)
+T ss_pred             HHhCc
+
+
+No 6
+>4WT3_A AtRaf1.2; assembly chaperone, chaperone; 1.954A {Arabidopsis thaliana}
+Probab=14.08  E-value=1.8e+02  Score=14.03  Aligned_cols=6  Identities=67%  Similarity=1.104  Sum_probs=0.0  Template_Neff=3.900
+
+Q QQQYNP            1 QQQYNP    6 (6)
+Q Consensus         1 qqqynp    6 (6)
+                      ||.|+|
+T Consensus         1 ~~~~~p    6 (213)
+T 4WT3_A            1 QQLYQP    6 (213)
+T ss_dssp             ------
+T ss_pred             CCCCCC
+
+
+No 7
+>4IEF_C Gingipain R2 Pro-Domain, Gingipain R2; alpha/beta/alpha sandwich, cysteine endopeptidase, HYDROLASE; HET: CA; 2.3A {Porphyromonas gingivalis}
+Probab=13.64  E-value=1.8e+02  Score=12.07  Aligned_cols=4  Identities=100%  Similarity=1.821  Sum_probs=0.0  Template_Neff=8.100
+
+Q QQQYNP            3 QYNP    6 (6)
+Q Consensus         3 qynp    6 (6)
+                      ||||
+T Consensus       155 qY~P  158 (210)
+T 4IEF_C          155 QYNP  158 (210)
+T ss_dssp             EEET
+T ss_pred             eEeC
+
+
+No 8
+>6JLQ_C Ubiquitin carboxyl-terminal hydrolase 46 (E.C.3.4.19.12); Deubiquitinase, DUB, HYDROLASE, USP46; HET: GOL; 3.101A {Homo sapiens}
+Probab=13.41  E-value=1.9e+02  Score=11.28  Aligned_cols=6  Identities=33%  Similarity=0.761  Sum_probs=0.0  Template_Neff=12.200
+
+Q QQQYNP            1 QQQYNP    6 (6)
+Q Consensus         1 qqqynp    6 (6)
+                      +.+|+|
+T Consensus       439 ~~~~~~  444 (444)
+T 6JLQ_C          439 VVSFNP  444 (444)
+T ss_pred             eeeeCC
+
+
+No 9
+>5NGN_B lybatide 2; cysteine-rich peptide, pi-helix, wolfberry, disulfide; HET: PG4, CCN; 1.48A {Lycium barbarum}
+Probab=13.18  E-value=1.9e+02  Score=10.98  Aligned_cols=5  Identities=60%  Similarity=0.913  Sum_probs=0.0  Template_Neff=1.700
+
+Q QQQYNP            1 QQQYN    5 (6)
+Q Consensus         1 qqqyn    5 (6)
+                      |.|||
+T Consensus        19 ~~~Y~   23 (33)
+T 5NGN_B           19 QTQYT   23 (33)
+T ss_dssp             HHHHH
+T ss_pred             cceee
+
+
+No 10
+>5U2I_E Nucleoside diphosphate kinase; SSGCID, Naegleria fowleri, nucloside diphosphate; HET: EDO; 1.4A {Naegleria fowleri}
+Probab=12.74  E-value=2e+02  Score=11.20  Aligned_cols=6  Identities=17%  Similarity=0.074  Sum_probs=0.0  Template_Neff=8.600
+
+Q QQQYNP            1 QQQYNP    6 (6)
+Q Consensus         1 qqqynp    6 (6)
+                      +++|||
+T Consensus       150 ~~~~~~  155 (159)
+T 5U2I_E          150 TPTQNK  155 (159)
+T ss_dssp             CCTTHH
+T ss_pred             Cccccc
+
+

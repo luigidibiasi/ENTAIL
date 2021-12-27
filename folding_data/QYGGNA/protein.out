@@ -1,0 +1,152 @@
+Query         QYGGNA
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 11:37:13 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QYGGNA/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QYGGNA/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2FAF_B Phosphoenolpyruvate car  15.2 1.6E+02  0.0017   15.3   0.0    6    1-6     220-225 (608)
+  2 2FAH_D Phosphoenolpyruvate car  15.2 1.6E+02  0.0017   15.3   0.0    6    1-6     220-225 (608)
+  3 4WIU_A Phosphoenolpyruvate Car  14.4 1.7E+02  0.0019   15.0   0.0    6    1-6     221-226 (608)
+  4 2ZCI_A Phosphoenolpyruvate car  14.1 1.7E+02  0.0019   14.9   0.0    6    1-6     220-225 (610)
+  5 2ZCI_B Phosphoenolpyruvate car  14.1 1.7E+02  0.0019   14.9   0.0    6    1-6     220-225 (610)
+  6 3DT7_A Phosphoenolpyruvate car  14.0 1.8E+02   0.002   15.2   0.0    6    1-6     236-241 (624)
+  7 1G5H_B MITOCHONDRIAL DNA POLYM  12.6 2.1E+02  0.0023   12.6   0.0    5    2-6       5-9   (454)
+  8 1G5I_D MITOCHONDRIAL DNA POLYM  12.6 2.1E+02  0.0023   12.6   0.0    5    2-6       5-9   (454)
+  9 5GMK_t Pre-mRNA-splicing facto  12.2 2.2E+02  0.0024   11.9   0.0    6    1-6     134-139 (175)
+ 10 7DCO_K PRP8 isoform 1, SNU114   12.2 2.2E+02  0.0024   11.9   0.0    6    1-6     134-139 (175)
+
+No 1
+>2FAF_B Phosphoenolpyruvate carboxykinase (E.C.4.1.1.32); phosphoenolpyruvate carboxykinase, PEPCK, kinase, phosphoryl; HET: EPE, TQY, 1PE, FRU; 1.7A {Gallus gallus}
+Probab=15.18  E-value=1.6e+02  Score=15.26  Aligned_cols=6  Identities=67%  Similarity=1.381  Sum_probs=3.6  Template_Neff=6.000
+
+Q QYGGNA            1 QYGGNA    6 (6)
+Q Consensus         1 qyggna    6 (6)
+                      +|+||+
+T Consensus       220 ~Y~Ge~  225 (608)
+T 2FAF_B          220 GYGGNS  225 (608)
+T ss_dssp             CSHHHH
+T ss_pred             CCcchH
+Confidence            467764
+
+
+No 2
+>2FAH_D Phosphoenolpyruvate carboxykinase (E.C.4.1.1.32); phosphoenolpyruvate carboxykinase, PEPCK, PCK, PEP; HET: GDP, TQY, MLA, FRU; 2.09A {Gallus gallus}
+Probab=15.18  E-value=1.6e+02  Score=15.26  Aligned_cols=6  Identities=67%  Similarity=1.381  Sum_probs=3.6  Template_Neff=6.000
+
+Q QYGGNA            1 QYGGNA    6 (6)
+Q Consensus         1 qyggna    6 (6)
+                      +|+||+
+T Consensus       220 ~Y~Ge~  225 (608)
+T 2FAH_D          220 GYGGNS  225 (608)
+T ss_dssp             CSHHHH
+T ss_pred             CCcchH
+Confidence            467764
+
+
+No 3
+>4WIU_A Phosphoenolpyruvate Carboxykinase  (E.C.4.1.1.32); GTP-dependent PEPCK, P-loop, R-loop, omega-loop; 2.02A {Mycobacterium tuberculosis}
+Probab=14.43  E-value=1.7e+02  Score=15.01  Aligned_cols=6  Identities=83%  Similarity=1.453  Sum_probs=3.6  Template_Neff=6.300
+
+Q QYGGNA            1 QYGGNA    6 (6)
+Q Consensus         1 qyggna    6 (6)
+                      +|+||+
+T Consensus       221 ~Y~Ge~  226 (608)
+T 4WIU_A          221 GYGGNA  226 (608)
+T ss_dssp             CSHHHH
+T ss_pred             CCchhh
+Confidence            467764
+
+
+No 4
+>2ZCI_A Phosphoenolpyruvate carboxykinase [GTP] (E.C.4.1.1.32); GTP-dependent, carboxykinase, SIGNALING PROTEIN, LYASE; 2.3A {Corynebacterium glutamicum}
+Probab=14.14  E-value=1.7e+02  Score=14.93  Aligned_cols=6  Identities=83%  Similarity=1.453  Sum_probs=3.6  Template_Neff=6.400
+
+Q QYGGNA            1 QYGGNA    6 (6)
+Q Consensus         1 qyggna    6 (6)
+                      +|+||+
+T Consensus       220 ~Y~Ge~  225 (610)
+T 2ZCI_A          220 GYGGNA  225 (610)
+T ss_dssp             CSHHHH
+T ss_pred             CCchhH
+Confidence            467763
+
+
+No 5
+>2ZCI_B Phosphoenolpyruvate carboxykinase [GTP] (E.C.4.1.1.32); GTP-dependent, carboxykinase, SIGNALING PROTEIN, LYASE; 2.3A {Corynebacterium glutamicum}
+Probab=14.14  E-value=1.7e+02  Score=14.93  Aligned_cols=6  Identities=83%  Similarity=1.453  Sum_probs=0.0  Template_Neff=6.400
+
+Q QYGGNA            1 QYGGNA    6 (6)
+Q Consensus         1 qyggna    6 (6)
+                      +|+||+
+T Consensus       220 ~Y~Ge~  225 (610)
+T 2ZCI_B          220 GYGGNA  225 (610)
+T ss_dssp             CSHHHH
+T ss_pred             CCchhH
+
+
+No 6
+>3DT7_A Phosphoenolpyruvate carboxykinase, cytosolic [GTP] (E.C.4.1.1.32); kinase, gluconeogenesis, lyase, Decarboxylase, GTP-binding; HET: SPV, 1PE, GTP, ETX; 1.5A {Rattus norvegicus}
+Probab=13.97  E-value=1.8e+02  Score=15.18  Aligned_cols=6  Identities=67%  Similarity=1.381  Sum_probs=0.0  Template_Neff=5.900
+
+Q QYGGNA            1 QYGGNA    6 (6)
+Q Consensus         1 qyggna    6 (6)
+                      +|+||+
+T Consensus       236 ~Y~Ge~  241 (624)
+T 3DT7_A          236 GYGGNS  241 (624)
+T ss_dssp             CSHHHH
+T ss_pred             CCchhh
+
+
+No 7
+>1G5H_B MITOCHONDRIAL DNA POLYMERASE ACCESSORY SUBUNIT; intermolecular four helix bundle, DNA; HET: GOL, MSE; 1.95A {Mus musculus} SCOP: c.51.1.1, d.104.1.1
+Probab=12.64  E-value=2.1e+02  Score=12.58  Aligned_cols=5  Identities=60%  Similarity=1.092  Sum_probs=0.0  Template_Neff=9.600
+
+Q QYGGNA            2 YGGNA    6 (6)
+Q Consensus         2 yggna    6 (6)
+                      ||||+
+T Consensus         5 ~~~~~    9 (454)
+T 1G5H_B            5 YAGPA    9 (454)
+T ss_dssp             -----
+T ss_pred             ccCCC
+
+
+No 8
+>1G5I_D MITOCHONDRIAL DNA POLYMERASE ACCESSORY SUBUNIT; intermolecular four helix bundle, DNA; HET: GOL; 2.3A {Mus musculus} SCOP: c.51.1.1, d.104.1.1
+Probab=12.64  E-value=2.1e+02  Score=12.58  Aligned_cols=5  Identities=60%  Similarity=1.092  Sum_probs=0.0  Template_Neff=9.600
+
+Q QYGGNA            2 YGGNA    6 (6)
+Q Consensus         2 yggna    6 (6)
+                      ||||+
+T Consensus         5 ~~~~~    9 (454)
+T 1G5I_D            5 YAGPA    9 (454)
+T ss_dssp             -----
+T ss_pred             ccCCC
+
+
+No 9
+>5GMK_t Pre-mRNA-splicing factor 8,  Pre-mRNA-splicing; RNA splicing, Spliceosome, Catalytic Step; HET: GTP; 3.4A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=12.25  E-value=2.2e+02  Score=11.93  Aligned_cols=6  Identities=33%  Similarity=0.086  Sum_probs=0.0  Template_Neff=7.300
+
+Q QYGGNA            1 QYGGNA    6 (6)
+Q Consensus         1 qyggna    6 (6)
+                      +||.|+
+T Consensus       134 k~g~n~  139 (175)
+T 5GMK_t          134 QTVSNQ  139 (175)
+T ss_pred             HHhHHH
+
+
+No 10
+>7DCO_K PRP8 isoform 1, SNU114 isoform; RNA splicing, spliceosome, Bact complex; HET: ZN, IHP, GTP; 2.5A {Saccharomyces cerevisiae}
+Probab=12.25  E-value=2.2e+02  Score=11.93  Aligned_cols=6  Identities=33%  Similarity=0.086  Sum_probs=0.0  Template_Neff=7.300
+
+Q QYGGNA            1 QYGGNA    6 (6)
+Q Consensus         1 qyggna    6 (6)
+                      +||.|+
+T Consensus       134 k~g~n~  139 (175)
+T 7DCO_K          134 QTVSNQ  139 (175)
+T ss_pred             HHhHHH
+
+

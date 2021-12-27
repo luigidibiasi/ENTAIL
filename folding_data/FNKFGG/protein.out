@@ -1,0 +1,153 @@
+Query         FNKFGG
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 21:37:04 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/FNKFGG/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/FNKFGG/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 1RV8_B fructose-1,6-bisphospha  30.5      48 0.00053   15.5   0.0    6    1-6     221-226 (305)
+  2 1RVG_B fructose-1,6-bisphospha  30.5      48 0.00053   15.5   0.0    6    1-6     221-226 (305)
+  3 2ISW_A Putative fructose-1,6-b  25.1      70 0.00077   15.3   0.0    6    1-6     223-228 (323)
+  4 3OHI_A Putative fructose-1,6-b  25.1      70 0.00077   15.3   0.0    6    1-6     223-228 (323)
+  5 1ZC1_A Ubiquitin fusion degrad  21.5      91   0.001   12.8   0.0    6    1-6       5-10  (208)
+  6 1YBX_B Conserved hypothetical   19.4 1.1E+02  0.0012   12.8   0.0    6    1-6      24-29  (143)
+  7 6HIW_DV Uncharacterized protei  19.4 1.1E+02  0.0012   15.0   0.0    5    2-6      51-55  (183)
+  8 6HIZ_DV Uncharacterized protei  19.3 1.1E+02  0.0012   15.0   0.0    5    2-6      51-55  (183)
+  9 2MM8_A Urease (E.C.3.5.1.5); d  19.3 1.1E+02  0.0012   13.2   0.0    4    3-6      86-89  (99)
+ 10 4BBQ_B LYSINE-SPECIFIC DEMETHY  19.1 1.1E+02  0.0012   12.5   0.0    4    3-6      29-32  (117)
+
+No 1
+>1RV8_B fructose-1,6-bisphosphate aldolase (E.C.4.1.2.13); class II aldolase, metal-depdendent aldolase; HET: SO4; 2.3A {Thermus aquaticus} SCOP: c.1.10.2
+Probab=30.49  E-value=48  Score=15.48  Aligned_cols=6  Identities=50%  Similarity=0.960  Sum_probs=3.6  Template_Neff=6.100
+
+Q FNKFGG            1 FNKFGG    6 (6)
+Q Consensus         1 fnkfgg    6 (6)
+                      ||++||
+T Consensus       221 ~~~~~~  226 (305)
+T 1RV8_B          221 FRASGG  226 (305)
+T ss_dssp             HHHTTC
+T ss_pred             HHHccc
+Confidence            466665
+
+
+No 2
+>1RVG_B fructose-1,6-bisphosphate aldolase (E.C.4.1.2.13); CLASS II ALDOLASE, METAL-DEPDENDENT ALDOLASE; HET: SO4; 2.0A {Thermus aquaticus} SCOP: c.1.10.2
+Probab=30.49  E-value=48  Score=15.48  Aligned_cols=6  Identities=50%  Similarity=0.960  Sum_probs=3.6  Template_Neff=6.100
+
+Q FNKFGG            1 FNKFGG    6 (6)
+Q Consensus         1 fnkfgg    6 (6)
+                      ||++||
+T Consensus       221 ~~~~~~  226 (305)
+T 1RVG_B          221 FRASGG  226 (305)
+T ss_dssp             HHHTTC
+T ss_pred             HHHccc
+Confidence            466665
+
+
+No 3
+>2ISW_A Putative fructose-1,6-bisphosphate aldolase (E.C.4.1.2.13); Class II fructose-1, 6-bisphosphate aldolase; HET: PGH; 1.75A {Giardia intestinalis}
+Probab=25.10  E-value=70  Score=15.26  Aligned_cols=6  Identities=67%  Similarity=1.459  Sum_probs=3.5  Template_Neff=5.800
+
+Q FNKFGG            1 FNKFGG    6 (6)
+Q Consensus         1 fnkfgg    6 (6)
+                      ||.+||
+T Consensus       223 ~~~~gg  228 (323)
+T 2ISW_A          223 INKYGG  228 (323)
+T ss_dssp             HHHTTC
+T ss_pred             HHHcCC
+Confidence            466665
+
+
+No 4
+>3OHI_A Putative fructose-1,6-bisphosphate aldolase (E.C.4.1.2.13); Class II fructose-1, 6-bisphosphate aldolase; HET: HDX; 2.3A {Giardia intestinalis}
+Probab=25.10  E-value=70  Score=15.26  Aligned_cols=6  Identities=67%  Similarity=1.459  Sum_probs=3.5  Template_Neff=5.800
+
+Q FNKFGG            1 FNKFGG    6 (6)
+Q Consensus         1 fnkfgg    6 (6)
+                      ||.+||
+T Consensus       223 ~~~~gg  228 (323)
+T 3OHI_A          223 INKYGG  228 (323)
+T ss_dssp             HHHTTC
+T ss_pred             HHHcCC
+Confidence            466665
+
+
+No 5
+>1ZC1_A Ubiquitin fusion degradation protein 1; Ufd1, double-psi-beta-barrel, PROTEIN TURNOVER; NMR {Saccharomyces cerevisiae}
+Probab=21.53  E-value=91  Score=12.76  Aligned_cols=6  Identities=67%  Similarity=1.564  Sum_probs=2.7  Template_Neff=8.400
+
+Q FNKFGG            1 FNKFGG    6 (6)
+Q Consensus         1 fnkfgg    6 (6)
+                      |..|||
+T Consensus         5 ~~~~~~   10 (208)
+T 1ZC1_A            5 FSSFGG   10 (208)
+T ss_dssp             CCCCCC
+T ss_pred             cccccC
+Confidence            344554
+
+
+No 6
+>1YBX_B Conserved hypothetical protein; conserved hypothetical protein, Clostridium thermocellum; 1.8A {Clostridium thermocellum}
+Probab=19.43  E-value=1.1e+02  Score=12.79  Aligned_cols=6  Identities=33%  Similarity=0.423  Sum_probs=0.0  Template_Neff=6.500
+
+Q FNKFGG            1 FNKFGG    6 (6)
+Q Consensus         1 fnkfgg    6 (6)
+                      .|+|||
+T Consensus        24 ~~~~~~   29 (143)
+T 1YBX_B           24 LYKKAG   29 (143)
+T ss_dssp             ------
+T ss_pred             hhhhhc
+
+
+No 7
+>6HIW_DV Uncharacterized protein, mS74, uS3m, 30S; mitoribosome, translation, Trypanosoma, small ribosomal; HET: GTP, SPD, MG, UTP, SPM; 3.37A {Trypanosoma brucei brucei}
+Probab=19.36  E-value=1.1e+02  Score=14.97  Aligned_cols=5  Identities=80%  Similarity=1.776  Sum_probs=0.0  Template_Neff=1.800
+
+Q FNKFGG            2 NKFGG    6 (6)
+Q Consensus         2 nkfgg    6 (6)
+                      |.|||
+T Consensus        51 nRFGG   55 (183)
+T 6HIW_DV          51 NRFGG   55 (183)
+T ss_pred             hccCC
+
+
+No 8
+>6HIZ_DV Uncharacterized protein, uS3m, UNK/RNA Complex; mitoribosome, translation, Trypanosoma, small ribosomal; HET: GTP, SPD, UTP; 3.08A {Trypanosoma brucei brucei}
+Probab=19.35  E-value=1.1e+02  Score=14.97  Aligned_cols=5  Identities=80%  Similarity=1.776  Sum_probs=0.0  Template_Neff=1.800
+
+Q FNKFGG            2 NKFGG    6 (6)
+Q Consensus         2 nkfgg    6 (6)
+                      |.|||
+T Consensus        51 nRFGG   55 (183)
+T 6HIZ_DV          51 NRFGG   55 (183)
+T ss_pred             hccCC
+
+
+No 9
+>2MM8_A Urease (E.C.3.5.1.5); disordered protein, HYDROLASE; NMR {Canavalia ensiformis}
+Probab=19.32  E-value=1.1e+02  Score=13.21  Aligned_cols=4  Identities=75%  Similarity=1.539  Sum_probs=0.0  Template_Neff=3.900
+
+Q FNKFGG            3 KFGG    6 (6)
+Q Consensus         3 kfgg    6 (6)
+                      ||||
+T Consensus        86 kFGG   89 (99)
+T 2MM8_A           86 VFGG   89 (99)
+T ss_dssp             CSCC
+T ss_pred             eeCC
+
+
+No 10
+>4BBQ_B LYSINE-SPECIFIC DEMETHYLASE 2A (E.C.1.14.11.27); OXIDOREDUCTASE, UBIQUITIN, LIGASE, UBIQUITINATION, DEMETHYLATION; 2.24A {HOMO SAPIENS}
+Probab=19.14  E-value=1.1e+02  Score=12.48  Aligned_cols=4  Identities=100%  Similarity=1.946  Sum_probs=0.0  Template_Neff=6.300
+
+Q FNKFGG            3 KFGG    6 (6)
+Q Consensus         3 kfgg    6 (6)
+                      ||||
+T Consensus        29 kfgg   32 (117)
+T 4BBQ_B           29 KFGG   32 (117)
+T ss_dssp             GGTS
+T ss_pred             ccCC
+
+

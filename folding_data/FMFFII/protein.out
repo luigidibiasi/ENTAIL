@@ -1,0 +1,151 @@
+Query         FMFFII
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 21:27:34 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/FMFFII/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/FMFFII/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5OEU_A Glutathione synthetase-  54.3      11 0.00013   16.8   0.0    6    1-6      11-16  (510)
+  2 5OEV_B Glutathione synthetase-  53.6      12 0.00013   17.0   0.0    6    1-6      11-16  (510)
+  3 4DY7_F Thrombin light chain (E  20.0   1E+02  0.0011   13.1   0.0    6    1-6     358-363 (379)
+  4 1XU8_B Maspin; maspin, serpin,  20.0   1E+02  0.0011   13.0   0.0    6    1-6     359-364 (380)
+  5 6F02_C Kallistatin; Serine pro  19.8   1E+02  0.0012   13.1   0.0    6    1-6     359-364 (389)
+  6 3PZF_A Serpin 2; serpin, prote  19.7 1.1E+02  0.0012   13.3   0.0    6    1-6     374-379 (397)
+  7 4KDS_A Plasminogen activator i  19.6 1.1E+02  0.0012   13.1   0.0    6    1-6     362-367 (386)
+  8 6KGA_A Ovalbumin; SERPIN, EGG   19.4 1.1E+02  0.0012   13.2   0.0    6    1-6     365-370 (392)
+  9 1C8O_B ICE INHIBITOR; SERPIN F  19.4 1.1E+02  0.0012    9.6   0.0    5    1-5      18-22  (41)
+ 10 5DU3_A Plasma protease C1 inhi  19.4 1.1E+02  0.0012   13.1   0.0    6    1-6     359-364 (382)
+
+No 1
+>5OEU_A Glutathione synthetase-like effector 22 (Gpa-GSS22-closed); Plant-parasitic nematode, Effector, Glutathione synthetase-like; HET: ADP; 2.57A {Globodera pallida}
+Probab=54.32  E-value=11  Score=16.84  Aligned_cols=6  Identities=83%  Similarity=1.696  Sum_probs=0.0  Template_Neff=8.900
+
+Q FMFFII            1 FMFFII    6 (6)
+Q Consensus         1 fmffii    6 (6)
+                      |.||||
+T Consensus        11 ~~~~~~   16 (510)
+T 5OEU_A           11 FFFFII   16 (510)
+T ss_dssp             ------
+T ss_pred             HHHHHH
+Confidence            345554
+
+
+No 2
+>5OEV_B Glutathione synthetase-like effector 22 (Gpa-GSS22-apo); Plant-parasitic nematode, Effector, Glutathione synthetase-like; 2.18A {Globodera pallida}
+Probab=53.65  E-value=12  Score=16.97  Aligned_cols=6  Identities=83%  Similarity=1.696  Sum_probs=0.0  Template_Neff=8.600
+
+Q FMFFII            1 FMFFII    6 (6)
+Q Consensus         1 fmffii    6 (6)
+                      |.||||
+T Consensus        11 ~~~~~~   16 (510)
+T 5OEV_B           11 FFFFII   16 (510)
+T ss_dssp             ------
+T ss_pred             HHHHHH
+Confidence            345554
+
+
+No 3
+>4DY7_F Thrombin light chain (E.C.3.4.21.5), Thrombin; serpin, protease, heparin, cell surface; HET: ACT; 2.8A {Homo sapiens}
+Probab=19.99  E-value=1e+02  Score=13.05  Aligned_cols=6  Identities=67%  Similarity=1.408  Sum_probs=0.0  Template_Neff=9.700
+
+Q FMFFII            1 FMFFII    6 (6)
+Q Consensus         1 fmffii    6 (6)
+                      |+|+|.
+T Consensus       358 F~f~I~  363 (379)
+T 4DY7_F          358 FLFFIR  363 (379)
+T ss_dssp             EEEEEE
+T ss_pred             EEEEEE
+
+
+No 4
+>1XU8_B Maspin; maspin, serpin, tumor suppressor, SERPINB5; HET: SO4; 2.8A {Homo sapiens}
+Probab=19.98  E-value=1e+02  Score=13.00  Aligned_cols=6  Identities=33%  Similarity=0.954  Sum_probs=0.0  Template_Neff=9.800
+
+Q FMFFII            1 FMFFII    6 (6)
+Q Consensus         1 fmffii    6 (6)
+                      |+|+|.
+T Consensus       359 Flf~I~  364 (380)
+T 1XU8_B          359 FIYIIR  364 (380)
+T ss_dssp             EEEEEE
+T ss_pred             EEEEEE
+
+
+No 5
+>6F02_C Kallistatin; Serine protease inhibitor, kallilrein, protease; HET: BMA, FUL, NAG, SO4; 3.0A {Homo sapiens}
+Probab=19.77  E-value=1e+02  Score=13.13  Aligned_cols=6  Identities=33%  Similarity=0.833  Sum_probs=0.0  Template_Neff=9.600
+
+Q FMFFII            1 FMFFII    6 (6)
+Q Consensus         1 fmffii    6 (6)
+                      |+|+|.
+T Consensus       359 F~f~I~  364 (389)
+T 6F02_C          359 FLVVIF  364 (389)
+T ss_pred             EEEEEE
+
+
+No 6
+>3PZF_A Serpin 2; serpin, protease inhibitor, melanization, HYDROLASE; 1.75A {Anopheles gambiae}
+Probab=19.68  E-value=1.1e+02  Score=13.27  Aligned_cols=6  Identities=67%  Similarity=1.375  Sum_probs=0.0  Template_Neff=9.400
+
+Q FMFFII            1 FMFFII    6 (6)
+Q Consensus         1 fmffii    6 (6)
+                      |+|+|.
+T Consensus       374 Flf~I~  379 (397)
+T 3PZF_A          374 FIFFIE  379 (397)
+T ss_dssp             EEEEEE
+T ss_pred             EEEEEE
+
+
+No 7
+>4KDS_A Plasminogen activator inhibitor 1; Serpin, Inactive serpin, HYDROLASE INHIBITOR; 1.6682A {Oncorhynchus mykiss}
+Probab=19.61  E-value=1.1e+02  Score=13.10  Aligned_cols=6  Identities=50%  Similarity=1.143  Sum_probs=0.0  Template_Neff=9.600
+
+Q FMFFII            1 FMFFII    6 (6)
+Q Consensus         1 fmffii    6 (6)
+                      |+|+|.
+T Consensus       362 F~f~I~  367 (386)
+T 4KDS_A          362 FLFLIH  367 (386)
+T ss_dssp             CEEEEE
+T ss_pred             EEEEEE
+
+
+No 8
+>6KGA_A Ovalbumin; SERPIN, EGG WHITE, HYDROLASE INHIBITOR; 3.3A {Dromaius novaehollandiae}
+Probab=19.42  E-value=1.1e+02  Score=13.22  Aligned_cols=6  Identities=50%  Similarity=1.148  Sum_probs=0.0  Template_Neff=9.400
+
+Q FMFFII            1 FMFFII    6 (6)
+Q Consensus         1 fmffii    6 (6)
+                      |+|+|.
+T Consensus       365 F~f~I~  370 (392)
+T 6KGA_A          365 FLFLIK  370 (392)
+T ss_dssp             EEEEEE
+T ss_pred             EEEEEE
+
+
+No 9
+>1C8O_B ICE INHIBITOR; SERPIN FOLD, Viral protein; 2.9A {Cowpox virus}
+Probab=19.37  E-value=1.1e+02  Score=9.61  Aligned_cols=5  Identities=40%  Similarity=1.245  Sum_probs=0.0  Template_Neff=8.100
+
+Q FMFFII            1 FMFFI    5 (6)
+Q Consensus         1 fmffi    5 (6)
+                      |+|+|
+T Consensus        18 Flf~i   22 (41)
+T 1C8O_B           18 FIYVI   22 (41)
+T ss_dssp             EEEEE
+T ss_pred             EEEEE
+
+
+No 10
+>5DU3_A Plasma protease C1 inhibitor; Serine protease inhibitor, hydrolase inhibitor; 2.1A {Homo sapiens}
+Probab=19.37  E-value=1.1e+02  Score=13.06  Aligned_cols=6  Identities=33%  Similarity=0.993  Sum_probs=0.0  Template_Neff=9.600
+
+Q FMFFII            1 FMFFII    6 (6)
+Q Consensus         1 fmffii    6 (6)
+                      |+|+|.
+T Consensus       359 F~f~I~  364 (382)
+T 5DU3_A          359 FLFVLW  364 (382)
+T ss_dssp             EEEEEE
+T ss_pred             EEEEEE
+
+

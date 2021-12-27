@@ -1,0 +1,150 @@
+Query         ELNIYQ
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 19:22:32 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/ELNIYQ/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/ELNIYQ/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2IGS_B Hypothetical protein; h  29.1      53 0.00058   16.3   0.0    6    1-6       5-10  (219)
+  2 2IGS_F Hypothetical protein; h  29.1      53 0.00058   16.3   0.0    6    1-6       5-10  (219)
+  3 6EM3_v Ribosome production fac  17.5 1.3E+02  0.0014   14.0   0.0    5    2-6     205-209 (231)
+  4 5AZ6_A Maltose-binding peripla  16.6 1.4E+02  0.0015   12.3   0.0    5    2-6     414-418 (433)
+  5 1JO6_A potassium large conduct  11.8 2.3E+02  0.0025   11.1   0.0    4    3-6      20-23  (45)
+  6 6ZEG_C Serine/threonine-protei  11.5 2.3E+02  0.0026   10.8   0.0    5    1-5      46-50  (70)
+  7 2P06_B Hypothetical protein AF  11.3 2.4E+02  0.0027   12.3   0.0    6    1-6     104-109 (114)
+  8 5XHB_A Nisin immunity protein;  11.2 2.5E+02  0.0027   13.4   0.0    5    2-6      73-77  (229)
+  9 5LS4_A Nucleoprotein; Mopeia v  11.1 2.5E+02  0.0027   13.8   0.0    6    1-6      36-41  (206)
+ 10 4GVE_A Nucleoprotein; DEDDH fa  11.0 2.5E+02  0.0028   13.9   0.0    6    1-6      39-44  (213)
+
+No 1
+>2IGS_B Hypothetical protein; helix-bundles, alpha-beta, Structural Genomics, PSI-2; HET: ACY, MSE, SO4; 2.17A {Pseudomonas aeruginosa} SCOP: d.2.1.11
+Probab=29.13  E-value=53  Score=16.31  Aligned_cols=6  Identities=83%  Similarity=1.370  Sum_probs=4.2  Template_Neff=1.700
+
+Q ELNIYQ            1 ELNIYQ    6 (6)
+Q Consensus         1 elniyq    6 (6)
+                      +.||||
+T Consensus         5 ~iNiYq   10 (219)
+T 2IGS_B            5 EINIYQ   10 (219)
+T ss_dssp             CCCTTT
+T ss_pred             cccccc
+Confidence            468886
+
+
+No 2
+>2IGS_F Hypothetical protein; helix-bundles, alpha-beta, Structural Genomics, PSI-2; HET: ACY, SO4; 2.17A {Pseudomonas aeruginosa} SCOP: d.2.1.11
+Probab=29.13  E-value=53  Score=16.31  Aligned_cols=6  Identities=83%  Similarity=1.370  Sum_probs=4.2  Template_Neff=1.700
+
+Q ELNIYQ            1 ELNIYQ    6 (6)
+Q Consensus         1 elniyq    6 (6)
+                      +.||||
+T Consensus         5 ~iNiYq   10 (219)
+T 2IGS_F            5 EINIYQ   10 (219)
+T ss_dssp             CCCTTT
+T ss_pred             cccccc
+Confidence            468886
+
+
+No 3
+>6EM3_v Ribosome production factor 1, 60S; Large Subunit Biogenesis Nucleolus, RIBOSOME; 3.2A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=17.47  E-value=1.3e+02  Score=14.00  Aligned_cols=5  Identities=100%  Similarity=1.484  Sum_probs=0.0  Template_Neff=5.400
+
+Q ELNIYQ            2 LNIYQ    6 (6)
+Q Consensus         2 lniyq    6 (6)
+                      ||.||
+T Consensus       205 lN~~Q  209 (231)
+T 6EM3_v          205 LNIYQ  209 (231)
+T ss_pred             cchhc
+
+
+No 4
+>5AZ6_A Maltose-binding periplasmic protein,Mitochondrial import receptor; Fusion protein, SUGAR BINDING PROTEIN; HET: MAL; 2.56A {Escherichia coli (strain K12)}
+Probab=16.55  E-value=1.4e+02  Score=12.35  Aligned_cols=5  Identities=40%  Similarity=0.700  Sum_probs=0.0  Template_Neff=10.800
+
+Q ELNIYQ            2 LNIYQ    6 (6)
+Q Consensus         2 lniyq    6 (6)
+                      |+|||
+T Consensus       414 ~~~~~  418 (433)
+T 5AZ6_A          414 LQVLQ  418 (433)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 5
+>1JO6_A potassium large conductance calcium-activated channel; helix, ion channel, cytoplasmic part; NMR {N/A} SCOP: j.89.1.1
+Probab=11.80  E-value=2.3e+02  Score=11.06  Aligned_cols=4  Identities=100%  Similarity=1.522  Sum_probs=0.0  Template_Neff=3.100
+
+Q ELNIYQ            3 NIYQ    6 (6)
+Q Consensus         3 niyq    6 (6)
+                      +|||
+T Consensus        20 ~iYq   23 (45)
+T 1JO6_A           20 NIYQ   23 (45)
+T ss_dssp             SSHH
+T ss_pred             HHHH
+
+
+No 6
+>6ZEG_C Serine/threonine-protein phosphatase PP1-alpha catalytic subunit,Brain-specific; PP1, Phosphatase, Phactr, RPEL, HYDROLASE; HET: PO4, EDO, 16P; 1.09A {Homo sapiens}
+Probab=11.53  E-value=2.3e+02  Score=10.83  Aligned_cols=5  Identities=60%  Similarity=0.919  Sum_probs=0.0  Template_Neff=5.800
+
+Q ELNIYQ            1 ELNIY    5 (6)
+Q Consensus         1 elniy    5 (6)
+                      |||-|
+T Consensus        46 ELN~f   50 (70)
+T 6ZEG_C           46 ELNEF   50 (70)
+T ss_pred             HHHhh
+
+
+No 7
+>2P06_B Hypothetical protein AF_0060; MCSG, PSI2, MAD, structural genomics; 2.1A {Archaeoglobus fulgidus DSM 4304} SCOP: a.204.1.3
+Probab=11.35  E-value=2.4e+02  Score=12.31  Aligned_cols=6  Identities=50%  Similarity=0.695  Sum_probs=0.0  Template_Neff=4.300
+
+Q ELNIYQ            1 ELNIYQ    6 (6)
+Q Consensus         1 elniyq    6 (6)
+                      .+|||+
+T Consensus       104 ~~~~~d  109 (114)
+T 2P06_B          104 VKNIYD  109 (114)
+T ss_dssp             C-----
+T ss_pred             hhhhhh
+
+
+No 8
+>5XHB_A Nisin immunity protein; Immunity protein, IMMUNE SYSTEM; HET: MSE; 1.9A {Lactococcus lactis subsp. lactis}
+Probab=11.19  E-value=2.5e+02  Score=13.41  Aligned_cols=5  Identities=60%  Similarity=0.953  Sum_probs=0.0  Template_Neff=4.700
+
+Q ELNIYQ            2 LNIYQ    6 (6)
+Q Consensus         2 lniyq    6 (6)
+                      +|+||
+T Consensus        73 ~Nvy~   77 (229)
+T 5XHB_A           73 NNIYE   77 (229)
+T ss_dssp             EEEEE
+T ss_pred             ceeEE
+
+
+No 9
+>5LS4_A Nucleoprotein; Mopeia virus, exonuclease, Calcium, inhibitor; HET: PEG; 1.469A {Mopeia virus AN20410}
+Probab=11.12  E-value=2.5e+02  Score=13.81  Aligned_cols=6  Identities=67%  Similarity=1.143  Sum_probs=0.0  Template_Neff=3.000
+
+Q ELNIYQ            1 ELNIYQ    6 (6)
+Q Consensus         1 elniyq    6 (6)
+                      |+.|||
+T Consensus        36 EiAiyq   41 (206)
+T 5LS4_A           36 EIAIYQ   41 (206)
+T ss_dssp             EEEEEC
+T ss_pred             EEEEEe
+
+
+No 10
+>4GVE_A Nucleoprotein; DEDDH family enzyme, VIRAL PROTEIN; 1.73A {Tacaribe virus}
+Probab=11.02  E-value=2.5e+02  Score=13.88  Aligned_cols=6  Identities=67%  Similarity=1.143  Sum_probs=0.0  Template_Neff=2.900
+
+Q ELNIYQ            1 ELNIYQ    6 (6)
+Q Consensus         1 elniyq    6 (6)
+                      |+.|||
+T Consensus        39 EiAiyq   44 (213)
+T 4GVE_A           39 ELALYQ   44 (213)
+T ss_dssp             EEEEEE
+T ss_pred             EEEEEe
+
+

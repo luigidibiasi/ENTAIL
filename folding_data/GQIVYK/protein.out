@@ -1,0 +1,151 @@
+Query         GQIVYK
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 03:08:01 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GQIVYK/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GQIVYK/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6SI7_F Curli production assemb  30.1      49 0.00055   14.4   0.0    6    1-6       1-6   (125)
+  2 3UC4_A Serine/threonine-protei  22.2      86 0.00095   12.5   0.0    6    1-6     356-361 (362)
+  3 6GNY_C Membrane-anchored junct  19.9   1E+02  0.0011   13.2   0.0    6    1-6      21-26  (108)
+  4 2N8N_A Translation initiation   19.7 1.1E+02  0.0012   11.0   0.0    6    1-6      65-70  (72)
+  5 4YOK_A DUF3823 family protein;  19.2 1.1E+02  0.0012   13.4   0.0    6    1-6      14-19  (204)
+  6 5G2F_A TYPE-IV LIKE PILIN TTHA  19.1 1.1E+02  0.0012   13.7   0.0    6    1-6      72-77  (95)
+  7 5G2F_C TYPE-IV LIKE PILIN TTHA  19.1 1.1E+02  0.0012   13.7   0.0    6    1-6      72-77  (95)
+  8 4QL5_B Translation initiation   19.0 1.1E+02  0.0012   11.1   0.0    6    1-6      66-71  (73)
+  9 4FXT_H Uncharacterized protein  17.8 1.2E+02  0.0014   13.4   0.0    6    1-6      12-17  (202)
+ 10 4FXT_E Uncharacterized protein  17.8 1.2E+02  0.0014   13.3   0.0    6    1-6      12-17  (202)
+
+No 1
+>6SI7_F Curli production assembly/transport component CsgF; Secretion Channel, Curli, Outer Membrane; 3.4A {Escherichia coli}
+Probab=30.15  E-value=49  Score=14.42  Aligned_cols=6  Identities=17%  Similarity=0.872  Sum_probs=4.1  Template_Neff=4.500
+
+Q GQIVYK            1 GQIVYK    6 (6)
+Q Consensus         1 gqivyk    6 (6)
+                      |++||+
+T Consensus         1 ~eLVY~    6 (125)
+T 6SI7_F            1 GTMTFQ    6 (125)
+T ss_pred             CCceee
+Confidence            677774
+
+
+No 2
+>3UC4_A Serine/threonine-protein kinase SRK2E (E.C.2.7.11.1); SnRK2.6, kinase, ABA signaling, TRANSFERASE; 2.3A {Arabidopsis thaliana}
+Probab=22.23  E-value=86  Score=12.46  Aligned_cols=6  Identities=67%  Similarity=1.281  Sum_probs=0.0  Template_Neff=11.000
+
+Q GQIVYK            1 GQIVYK    6 (6)
+Q Consensus         1 gqivyk    6 (6)
+                      |+|+|+
+T Consensus       356 ~~i~~~  361 (362)
+T 3UC4_A          356 GEIVYA  361 (362)
+T ss_dssp             ------
+T ss_pred             Cccccc
+Confidence            456663
+
+
+No 3
+>6GNY_C Membrane-anchored junction protein, Telomere repeats-binding; Meiosis, telomeres, complex, STRUCTURAL PROTEIN; HET: TRS; 1.85A {Homo sapiens}
+Probab=19.88  E-value=1e+02  Score=13.24  Aligned_cols=6  Identities=67%  Similarity=0.999  Sum_probs=3.0  Template_Neff=4.400
+
+Q GQIVYK            1 GQIVYK    6 (6)
+Q Consensus         1 gqivyk    6 (6)
+                      |+-|||
+T Consensus        21 g~~VYK   26 (108)
+T 6GNY_C           21 GPNVYK   26 (108)
+T ss_dssp             TTEEEE
+T ss_pred             CCeEEE
+Confidence            345554
+
+
+No 4
+>2N8N_A Translation initiation factor IF-1; translation initiation, RNA-binding, translation; NMR {Staphylococcus aureus subsp. aureus Mu50}
+Probab=19.67  E-value=1.1e+02  Score=11.02  Aligned_cols=6  Identities=50%  Similarity=1.254  Sum_probs=0.0  Template_Neff=7.500
+
+Q GQIVYK            1 GQIVYK    6 (6)
+Q Consensus         1 gqivyk    6 (6)
+                      |.|+|+
+T Consensus        65 g~Ii~r   70 (72)
+T 2N8N_A           65 GRITYR   70 (72)
+T ss_pred             eEEEEe
+
+
+No 5
+>4YOK_A DUF3823 family protein; Prealbumin-like fold, DUF3823, Structural Genomics; HET: MSE; 1.8A {Parabacteroides merdae ATCC 43184}
+Probab=19.24  E-value=1.1e+02  Score=13.40  Aligned_cols=6  Identities=33%  Similarity=1.137  Sum_probs=0.0  Template_Neff=6.600
+
+Q GQIVYK            1 GQIVYK    6 (6)
+Q Consensus         1 gqivyk    6 (6)
+                      |+|+|+
+T Consensus        14 G~ivd~   19 (204)
+T 4YOK_A           14 GRVTYQ   19 (204)
+T ss_dssp             EEEEET
+T ss_pred             EEEEEC
+
+
+No 6
+>5G2F_A TYPE-IV LIKE PILIN TTHA1222; UNKNOWN FUNCTION, NATURAL COMPETENCE, TYPE; 1.85A {THERMUS THERMOPHILUS}
+Probab=19.09  E-value=1.1e+02  Score=13.72  Aligned_cols=6  Identities=50%  Similarity=0.993  Sum_probs=0.0  Template_Neff=1.200
+
+Q GQIVYK            1 GQIVYK    6 (6)
+Q Consensus         1 gqivyk    6 (6)
+                      |.||||
+T Consensus        72 ~kivy~   77 (95)
+T 5G2F_A           72 KKVVYK   77 (95)
+T ss_dssp             SEEEEE
+T ss_pred             ceeEEE
+
+
+No 7
+>5G2F_C TYPE-IV LIKE PILIN TTHA1222; UNKNOWN FUNCTION, NATURAL COMPETENCE, TYPE; 1.85A {THERMUS THERMOPHILUS}
+Probab=19.09  E-value=1.1e+02  Score=13.72  Aligned_cols=6  Identities=50%  Similarity=0.993  Sum_probs=0.0  Template_Neff=1.200
+
+Q GQIVYK            1 GQIVYK    6 (6)
+Q Consensus         1 gqivyk    6 (6)
+                      |.||||
+T Consensus        72 ~kivy~   77 (95)
+T 5G2F_C           72 KKVVYK   77 (95)
+T ss_dssp             -CEEEE
+T ss_pred             ceeEEE
+
+
+No 8
+>4QL5_B Translation initiation factor IF-1; translation initiation factor, PROTEIN BIOSYNTHESIS; 2.025A {Streptococcus pneumoniae}
+Probab=18.99  E-value=1.1e+02  Score=11.08  Aligned_cols=6  Identities=50%  Similarity=1.254  Sum_probs=0.0  Template_Neff=7.300
+
+Q GQIVYK            1 GQIVYK    6 (6)
+Q Consensus         1 gqivyk    6 (6)
+                      |.|+|+
+T Consensus        66 g~Iv~R   71 (73)
+T 4QL5_B           66 GRITYR   71 (73)
+T ss_dssp             EEEEEE
+T ss_pred             eEEEEe
+
+
+No 9
+>4FXT_H Uncharacterized protein; PF12866 FAMILY, DUF3823, STRUCTURAL GENOMICS; HET: MSE, EDO; 2.77A {Bacteroides ovatus}
+Probab=17.83  E-value=1.2e+02  Score=13.37  Aligned_cols=6  Identities=33%  Similarity=1.038  Sum_probs=0.0  Template_Neff=6.300
+
+Q GQIVYK            1 GQIVYK    6 (6)
+Q Consensus         1 gqivyk    6 (6)
+                      |+|+|+
+T Consensus        12 G~ivd~   17 (202)
+T 4FXT_H           12 GKAIYD   17 (202)
+T ss_dssp             EEEEET
+T ss_pred             EEEEEC
+
+
+No 10
+>4FXT_E Uncharacterized protein; PF12866 FAMILY, DUF3823, STRUCTURAL GENOMICS; HET: EDO; 2.77A {Bacteroides ovatus}
+Probab=17.81  E-value=1.2e+02  Score=13.27  Aligned_cols=6  Identities=33%  Similarity=1.038  Sum_probs=0.0  Template_Neff=6.500
+
+Q GQIVYK            1 GQIVYK    6 (6)
+Q Consensus         1 gqivyk    6 (6)
+                      |+|+|+
+T Consensus        12 G~ivd~   17 (202)
+T 4FXT_E           12 GKAIYD   17 (202)
+T ss_dssp             EEEEET
+T ss_pred             EEEEEC
+
+

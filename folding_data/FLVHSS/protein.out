@@ -1,0 +1,151 @@
+Query         FLVHSS
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 21:24:26 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/FLVHSS/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/FLVHSS/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3G7W_A native fold for amyloid  91.0   0.099 1.1E-06   20.4   0.0    6    1-6     386-391 (393)
+  2 6YXX_BA bL28m, mt-LAF21, uL29m  25.1      69 0.00077   18.4   0.0    6    1-6     582-587 (831)
+  3 6YXY_BA bL28m, uL29m, uL30m, b  25.1      69 0.00077   18.4   0.0    6    1-6     582-587 (831)
+  4 7AM2_BK Ribosomal protein L3-l  24.8      71 0.00078   18.5   0.0    6    1-6     641-646 (893)
+  5 6C5R_D calcium uniporter; CYTO  22.0      88 0.00097   15.1   0.0    6    1-6      53-58  (210)
+  6 3SMA_B FrbF; N-acetyl transfer  18.2 1.2E+02  0.0013   13.9   0.0    5    2-6      43-47  (286)
+  7 6VGW_A VidaL; Intein, split in  18.1 1.2E+02  0.0013   12.1   0.0    6    1-6     138-143 (145)
+  8 6MB6_A Aac(3)-IIIb protein; ac  18.0 1.2E+02  0.0013   13.5   0.0    5    2-6      30-34  (274)
+  9 6MX6_D PRP8 protein; Prp8, int  18.0 1.2E+02  0.0013   11.6   0.0    6    1-6     170-176 (176)
+ 10 6O5U_A Aminoglycoside N(3)-ace  17.7 1.2E+02  0.0014   13.9   0.0    5    2-6      45-49  (302)
+
+No 1
+>3G7W_A native fold for amyloidogenic protein; HET: GLC, SO4, GOL; 1.75A {Escherichia coli}
+Probab=91.00  E-value=0.099  Score=20.41  Aligned_cols=6  Identities=100%  Similarity=1.375  Sum_probs=5.2  Template_Neff=11.100
+
+Q FLVHSS            1 FLVHSS    6 (6)
+Q Consensus         1 flvhss    6 (6)
+                      ||||||
+T Consensus       386 ~~~~~~  391 (393)
+T 3G7W_A          386 FLVHSS  391 (393)
+T ss_dssp             GGCCCC
+T ss_pred             HhhccC
+Confidence            799987
+
+
+No 2
+>6YXX_BA bL28m, mt-LAF21, uL29m, mt-LAF22, uL30m; mitoribosome, assembly, LSU, RIBOSOME; HET: GTP, ATP, NAD, MG, PM8; 3.9A {Trypanosoma brucei brucei}
+Probab=25.15  E-value=69  Score=18.40  Aligned_cols=6  Identities=67%  Similarity=1.220  Sum_probs=4.4  Template_Neff=2.300
+
+Q FLVHSS            1 FLVHSS    6 (6)
+Q Consensus         1 flvhss    6 (6)
+                      ||.|||
+T Consensus       582 FlLHSS  587 (831)
+T 6YXX_BA         582 FILHSS  587 (831)
+T ss_pred             EEEehh
+Confidence            677876
+
+
+No 3
+>6YXY_BA bL28m, uL29m, uL30m, bL32m, bL35m; mitoribosome, assembly, LSU, RIBOSOME; HET: ATP, PM8, MG, SPD, NAD, GTP; 3.1A {Trypanosoma brucei brucei}
+Probab=25.12  E-value=69  Score=18.40  Aligned_cols=6  Identities=67%  Similarity=1.220  Sum_probs=4.4  Template_Neff=2.300
+
+Q FLVHSS            1 FLVHSS    6 (6)
+Q Consensus         1 flvhss    6 (6)
+                      ||.|||
+T Consensus       582 FlLHSS  587 (831)
+T 6YXY_BA         582 FILHSS  587 (831)
+T ss_pred             EEEehh
+Confidence            677876
+
+
+No 4
+>7AM2_BK Ribosomal protein L3-like protein, uL4m; RIBOSOME, Mitochondria, Kinetoplastid; HET: GTP, ATP; 3.4A {Leishmania tarentolae}
+Probab=24.84  E-value=71  Score=18.50  Aligned_cols=6  Identities=83%  Similarity=1.287  Sum_probs=4.3  Template_Neff=2.300
+
+Q FLVHSS            1 FLVHSS    6 (6)
+Q Consensus         1 flvhss    6 (6)
+                      ||.|||
+T Consensus       641 FlLHSS  646 (893)
+T 7AM2_BK         641 FLLHSS  646 (893)
+T ss_pred             EEeehh
+Confidence            677776
+
+
+No 5
+>6C5R_D calcium uniporter; CYTOSOLIC PROTEIN; 3.09608311048A {Metarhizium acridum (strain CQMa 102)}
+Probab=21.97  E-value=88  Score=15.06  Aligned_cols=6  Identities=50%  Similarity=0.888  Sum_probs=3.4  Template_Neff=3.600
+
+Q FLVHSS            1 FLVHSS    6 (6)
+Q Consensus         1 flvhss    6 (6)
+                      ||||.+
+T Consensus        53 lLlHPq   58 (210)
+T 6C5R_D           53 LLVHPQ   58 (210)
+T ss_dssp             EEECTT
+T ss_pred             EEECCC
+Confidence            566653
+
+
+No 6
+>3SMA_B FrbF; N-acetyl transferase, acetyl CoA binding; HET: ACO; 2.0A {Streptomyces rubellomurinus}
+Probab=18.18  E-value=1.2e+02  Score=13.88  Aligned_cols=5  Identities=80%  Similarity=1.112  Sum_probs=0.0  Template_Neff=6.700
+
+Q FLVHSS            2 LVHSS    6 (6)
+Q Consensus         2 lvhss    6 (6)
+                      +||||
+T Consensus        43 ~VHss   47 (286)
+T 3SMA_B           43 LVHAS   47 (286)
+T ss_dssp             EEEEC
+T ss_pred             EEEeC
+
+
+No 7
+>6VGW_A VidaL; Intein, split intein, atypical intein; HET: GOL, MSE; 1.51A {synthetic construct}
+Probab=18.15  E-value=1.2e+02  Score=12.05  Aligned_cols=6  Identities=33%  Similarity=0.617  Sum_probs=0.0  Template_Neff=7.800
+
+Q FLVHSS            1 FLVHSS    6 (6)
+Q Consensus         1 flvhss    6 (6)
+                      |+||.|
+T Consensus       138 ilvHNs  143 (145)
+T 6VGW_A          138 IVSHAS  143 (145)
+T ss_dssp             EEEECS
+T ss_pred             EEeecc
+
+
+No 8
+>6MB6_A Aac(3)-IIIb protein; acetyltransferase, promiscuity, GNAT, antibiotic resistance; HET: COA, MLI; 2.25A {Pseudomonas aeruginosa}
+Probab=18.03  E-value=1.2e+02  Score=13.53  Aligned_cols=5  Identities=40%  Similarity=0.959  Sum_probs=0.0  Template_Neff=7.200
+
+Q FLVHSS            2 LVHSS    6 (6)
+Q Consensus         2 lvhss    6 (6)
+                      +||||
+T Consensus        30 ~vHss   34 (274)
+T 6MB6_A           30 MVHAA   34 (274)
+T ss_dssp             EEEEC
+T ss_pred             EEEcC
+
+
+No 9
+>6MX6_D PRP8 protein; Prp8, intein, cryptococcus neoformans, HYDROLASE; 1.749A {Cryptococcus neoformans var. grubii serotype A (strain H99 / ATCC 208821 / CBS 10515 / FGSC 9487)}
+Probab=17.99  E-value=1.2e+02  Score=11.63  Aligned_cols=6  Identities=67%  Similarity=1.198  Sum_probs=0.0  Template_Neff=9.300
+
+Q FLVHSS            1 FLV-HSS    6 (6)
+Q Consensus         1 flv-hss    6 (6)
+                      ++| |.|
+T Consensus       170 ~lV~HNs  176 (176)
+T 6MX6_D          170 YLVLHNS  176 (176)
+T ss_dssp             CBEEEC-
+T ss_pred             EEEEecC
+
+
+No 10
+>6O5U_A Aminoglycoside N(3)-acetyltransferase (E.C.2.3.1.81); Antibiotic modifying enzyme, substrate selectivity; HET: KAN; 1.4A {Enterobacteriaceae}
+Probab=17.72  E-value=1.2e+02  Score=13.92  Aligned_cols=5  Identities=40%  Similarity=0.547  Sum_probs=0.0  Template_Neff=6.700
+
+Q FLVHSS            2 LVHSS    6 (6)
+Q Consensus         2 lvhss    6 (6)
+                      +||||
+T Consensus        45 ~VHSs   49 (302)
+T 6O5U_A           45 MPHVS   49 (302)
+T ss_pred             EEEcC
+
+

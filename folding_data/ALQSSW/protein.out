@@ -1,0 +1,150 @@
+Query         ALQSSW
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 14:48:03 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/ALQSSW/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/ALQSSW/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6N3A_J TAR DNA-binding protein  92.5   0.045   5E-07   21.8   0.0    6    1-6      19-24  (50)
+  2 2BZT_A PROTEIN ISCX; IRON BIND  22.0      87 0.00097   12.7   0.0    6    1-6      56-61  (66)
+  3 4U8U_k Globin a chain, Globin   19.9   1E+02  0.0011   10.9   0.0    5    2-6      13-17  (151)
+  4 1XQ5_C Hemoglobin alpha-1 chai  19.8   1E+02  0.0011   10.6   0.0    5    2-6      11-15  (143)
+  5 6FPV_A Nanobody; nanobody, JBP  19.8   1E+02  0.0011   10.3   0.0    6    1-6     140-145 (154)
+  6 1B0B_A HEMOGLOBIN, PROTOPORPHY  19.7 1.1E+02  0.0012   10.7   0.0    5    2-6      10-14  (142)
+  7 2C0K_A HEMOGLOBIN; OXYGEN TRAN  19.5 1.1E+02  0.0012   10.6   0.0    5    2-6       9-13  (151)
+  8 4V93_AC EXTRACELLULAR GLOBIN-3  19.5 1.1E+02  0.0012   10.9   0.0    5    2-6      13-17  (149)
+  9 6HIT_E Hemoglobin alpha 2 chai  19.3 1.1E+02  0.0012   10.6   0.0    6    1-6      10-15  (143)
+ 10 2ZFO_B Extracellular giant hem  19.3 1.1E+02  0.0012   10.6   0.0    5    2-6      10-14  (142)
+
+No 1
+>6N3A_J TAR DNA-binding protein 43, segA; Amyloid, TDP43, ALS, FTLD-TDP, dna; 3.3A {Homo sapiens}
+Probab=92.47  E-value=0.045  Score=21.76  Aligned_cols=6  Identities=100%  Similarity=1.536  Sum_probs=5.2  Template_Neff=2.200
+
+Q ALQSSW            1 ALQSSW    6 (6)
+Q Consensus         1 alqssw    6 (6)
+                      ||||||
+T Consensus        19 aLqsSW   24 (50)
+T 6N3A_J           19 ALQSSW   24 (50)
+T ss_dssp             EEEEEE
+T ss_pred             HHHhhh
+Confidence            589999
+
+
+No 2
+>2BZT_A PROTEIN ISCX; IRON BINDING PROTEIN, IRON SULPHUR; NMR {ESCHERICHIA COLI}
+Probab=21.98  E-value=87  Score=12.71  Aligned_cols=6  Identities=33%  Similarity=0.817  Sum_probs=3.5  Template_Neff=3.800
+
+Q ALQSSW            1 ALQSSW    6 (6)
+Q Consensus         1 alqssw    6 (6)
+                      |.|..|
+T Consensus        56 AIQ~aW   61 (66)
+T 2BZT_A           56 AILLVW   61 (66)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            456666
+
+
+No 3
+>4U8U_k Globin a chain, Globin b; Erythrocruorins, Glossoscolex paulistus, Giant extracellular; HET: HEM, CYN, NAG; 3.2A {Glossoscolex paulistus}
+Probab=19.88  E-value=1e+02  Score=10.95  Aligned_cols=5  Identities=40%  Similarity=1.265  Sum_probs=0.0  Template_Neff=10.400
+
+Q ALQSSW            2 LQSSW    6 (6)
+Q Consensus         2 lqssw    6 (6)
+                      +++||
+T Consensus        13 l~~sw   17 (151)
+T 4U8U_k           13 VQKQW   17 (151)
+T ss_pred             HHHHH
+
+
+No 4
+>1XQ5_C Hemoglobin alpha-1 chain, Hemoglobin beta-2; Fish Hemoglobin, rapid oxidation, structural; HET: HEM; 1.9A {Perca flavescens} SCOP: a.1.1.2
+Probab=19.84  E-value=1e+02  Score=10.63  Aligned_cols=5  Identities=20%  Similarity=1.099  Sum_probs=0.0  Template_Neff=10.800
+
+Q ALQSSW            2 LQSSW    6 (6)
+Q Consensus         2 lqssw    6 (6)
+                      +++||
+T Consensus        11 i~~sw   15 (143)
+T 1XQ5_C           11 VKALW   15 (143)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 5
+>6FPV_A Nanobody; nanobody, JBP1, llama, IMMUNE SYSTEM; HET: GOL; 1.64A {Lama glama}
+Probab=19.82  E-value=1e+02  Score=10.27  Aligned_cols=6  Identities=33%  Similarity=0.053  Sum_probs=0.0  Template_Neff=11.700
+
+Q ALQSSW            1 ALQSSW    6 (6)
+Q Consensus         1 alqssw    6 (6)
+                      +.+++|
+T Consensus       140 ~~~~~~  145 (154)
+T 6FPV_A          140 VTVSSH  145 (154)
+T ss_dssp             EEEEC-
+T ss_pred             EEEeec
+
+
+No 6
+>1B0B_A HEMOGLOBIN, PROTOPORPHYRIN IX CONTAINING FE; HEMOPROTEIN, SULFIDE CARRIER, GLOBINS, OXYGEN; HET: HEM; 1.43A {Lucina pectinata} SCOP: a.1.1.2
+Probab=19.65  E-value=1.1e+02  Score=10.71  Aligned_cols=5  Identities=60%  Similarity=1.458  Sum_probs=0.0  Template_Neff=10.600
+
+Q ALQSSW            2 LQSSW    6 (6)
+Q Consensus         2 lqssw    6 (6)
+                      +++||
+T Consensus        10 i~~sw   14 (142)
+T 1B0B_A           10 VKSSW   14 (142)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 7
+>2C0K_A HEMOGLOBIN; OXYGEN TRANSPORT, GASTEROPHILUS INTESTINALIS HEMOGLOBIN; HET: HEM; 2.6A {GASTEROPHILUS INTESTINALIS}
+Probab=19.54  E-value=1.1e+02  Score=10.65  Aligned_cols=5  Identities=20%  Similarity=1.318  Sum_probs=0.0  Template_Neff=10.900
+
+Q ALQSSW            2 LQSSW    6 (6)
+Q Consensus         2 lqssw    6 (6)
+                      +++||
+T Consensus         9 l~~sw   13 (151)
+T 2C0K_A            9 IKRTW   13 (151)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 8
+>4V93_AC EXTRACELLULAR GLOBIN-3, HEMOGLOBIN CHAIN D1; TRANSPORT PROTEIN; 8.1A {LUMBRICUS TERRESTRIS}
+Probab=19.51  E-value=1.1e+02  Score=10.89  Aligned_cols=5  Identities=40%  Similarity=1.265  Sum_probs=0.0  Template_Neff=10.400
+
+Q ALQSSW            2 LQSSW    6 (6)
+Q Consensus         2 lqssw    6 (6)
+                      ++++|
+T Consensus        13 i~~sw   17 (149)
+T 4V93_AC          13 VQKQW   17 (149)
+T ss_pred             HHHHH
+
+
+No 9
+>6HIT_E Hemoglobin alpha 2 chain, Hemoglobin; Haemoglobin Atlantic cod Gadus morhua; HET: HEM, ACE; 2.5A {Gadus morhua}
+Probab=19.33  E-value=1.1e+02  Score=10.64  Aligned_cols=6  Identities=0%  Similarity=0.290  Sum_probs=0.0  Template_Neff=10.700
+
+Q ALQSSW            1 ALQSSW    6 (6)
+Q Consensus         1 alqssw    6 (6)
+                      .+++||
+T Consensus        10 ~i~~sw   15 (143)
+T 6HIT_E           10 TVKDFF   15 (143)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 10
+>2ZFO_B Extracellular giant hemoglobin major globin; hemoglobin, polychaete, annelida, unliganded, Heme; HET: HEM, GOL; 1.95A {Oligobrachia mashikoi}
+Probab=19.32  E-value=1.1e+02  Score=10.62  Aligned_cols=5  Identities=20%  Similarity=1.165  Sum_probs=0.0  Template_Neff=10.700
+
+Q ALQSSW            2 LQSSW    6 (6)
+Q Consensus         2 lqssw    6 (6)
+                      +++||
+T Consensus        10 i~~sw   14 (142)
+T 2ZFO_B           10 VKRQW   14 (142)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+

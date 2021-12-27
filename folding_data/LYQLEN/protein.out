@@ -1,0 +1,153 @@
+Query         LYQLEN
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 21:09:50 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LYQLEN/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LYQLEN/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2Y9U_A TUMOR PROTEIN 63; APOPT  49.7      15 0.00017   14.9   0.0    6    1-6      31-36  (69)
+  2 5N2O_A Tumor protein 63; TRANS  48.8      16 0.00018   14.9   0.0    6    1-6      34-39  (70)
+  3 2Y9T_A TUMOR PROTEIN 63; APOPT  43.2      22 0.00025   14.8   0.0    6    1-6      33-38  (82)
+  4 3VOP_B Protein A27; Vaccinia v  32.9      42 0.00046   14.2   0.0    6    1-6      59-64  (64)
+  5 3VOP_C Protein A27; Vaccinia v  29.0      53 0.00059   13.9   0.0    6    1-6      59-64  (64)
+  6 6UTG_D Proteasome subunit beta  18.9 1.1E+02  0.0012   11.8   0.0    5    1-5      15-19  (227)
+  7 5LN3_D 26S proteasome non-ATPa  17.6 1.3E+02  0.0014   12.0   0.0    5    1-5      16-20  (248)
+  8 2GPJ_A Siderophore-interacting  17.4 1.3E+02  0.0014   11.9   0.0    4    3-6     245-248 (252)
+  9 1YAR_A proteasome 20S, PA26 pr  16.1 1.4E+02  0.0016   11.7   0.0    6    1-6      21-26  (233)
+ 10 5L4G_O Proteasome subunit alph  16.0 1.5E+02  0.0016   11.7   0.0    5    1-5      19-23  (234)
+
+No 1
+>2Y9U_A TUMOR PROTEIN 63; APOPTOSIS, STERILE ALPHA MOTIF, 5-HELIX; 1.6A {HOMO SAPIENS}
+Probab=49.69  E-value=15  Score=14.89  Aligned_cols=6  Identities=50%  Similarity=1.160  Sum_probs=3.5  Template_Neff=3.900
+
+Q LYQLEN            1 LYQLEN    6 (6)
+Q Consensus         1 lyqlen    6 (6)
+                      +|||+|
+T Consensus        31 iyqL~~   36 (69)
+T 2Y9U_A           31 IYQIEH   36 (69)
+T ss_dssp             HHHHTT
+T ss_pred             eEeecc
+Confidence            466664
+
+
+No 2
+>5N2O_A Tumor protein 63; TRANSCRIPTION FACTOR, PROTEIN, transcription; NMR {Mus musculus}
+Probab=48.82  E-value=16  Score=14.86  Aligned_cols=6  Identities=50%  Similarity=1.160  Sum_probs=3.5  Template_Neff=3.900
+
+Q LYQLEN            1 LYQLEN    6 (6)
+Q Consensus         1 lyqlen    6 (6)
+                      +|||+|
+T Consensus        34 iyqL~~   39 (70)
+T 5N2O_A           34 IYQIEH   39 (70)
+T ss_dssp             HHHHTT
+T ss_pred             eEEecc
+Confidence            466664
+
+
+No 3
+>2Y9T_A TUMOR PROTEIN 63; APOPTOSIS, STERILE ALPHA MOTIF, 5-HELIX; NMR {HOMO SAPIENS}
+Probab=43.23  E-value=22  Score=14.75  Aligned_cols=6  Identities=50%  Similarity=1.160  Sum_probs=3.4  Template_Neff=4.000
+
+Q LYQLEN            1 LYQLEN    6 (6)
+Q Consensus         1 lyqlen    6 (6)
+                      +|||+|
+T Consensus        33 iyqL~~   38 (82)
+T 2Y9T_A           33 IYQIEH   38 (82)
+T ss_dssp             SGGGTT
+T ss_pred             eEEecc
+Confidence            466654
+
+
+No 4
+>3VOP_B Protein A27; Vaccinia virus, virus fusion protein; HET: PEG; 2.2A {Vaccinia virus}
+Probab=32.87  E-value=42  Score=14.17  Aligned_cols=6  Identities=67%  Similarity=1.221  Sum_probs=3.5  Template_Neff=1.600
+
+Q LYQLEN            1 LYQLEN    6 (6)
+Q Consensus         1 lyqlen    6 (6)
+                      ||.|||
+T Consensus        59 lfRLEN   64 (64)
+T 3VOP_B           59 LFRLEN   64 (64)
+T ss_dssp             HHHHHC
+T ss_pred             hhhccC
+Confidence            456665
+
+
+No 5
+>3VOP_C Protein A27; Vaccinia virus, virus fusion protein; HET: PEG; 2.2A {Vaccinia virus}
+Probab=28.96  E-value=53  Score=13.86  Aligned_cols=6  Identities=67%  Similarity=1.221  Sum_probs=3.4  Template_Neff=1.500
+
+Q LYQLEN            1 LYQLEN    6 (6)
+Q Consensus         1 lyqlen    6 (6)
+                      ||.|||
+T Consensus        59 lfrlen   64 (64)
+T 3VOP_C           59 LFRLEN   64 (64)
+T ss_dssp             HHHHHC
+T ss_pred             hhhccC
+Confidence            456665
+
+
+No 6
+>6UTG_D Proteasome subunit beta (E.C.3.4.25.1), Proteasome; proteasome, PA26/V230F, singly-capped, HYDROLASE;{Thermoplasma acidophilum}
+Probab=18.87  E-value=1.1e+02  Score=11.83  Aligned_cols=5  Identities=60%  Similarity=1.145  Sum_probs=0.0  Template_Neff=10.000
+
+Q LYQLEN            1 LYQLE    5 (6)
+Q Consensus         1 lyqle    5 (6)
+                      +||+|
+T Consensus        15 ~~qie   19 (227)
+T 6UTG_D           15 LFQVE   19 (227)
+T ss_dssp             CHHHH
+T ss_pred             chHHH
+
+
+No 7
+>5LN3_D 26S proteasome non-ATPase regulatory subunit; 26S Proteasome, Cryo-EM, Single Particle; 6.8A {Homo sapiens}
+Probab=17.60  E-value=1.3e+02  Score=12.02  Aligned_cols=5  Identities=60%  Similarity=1.145  Sum_probs=0.0  Template_Neff=9.700
+
+Q LYQLEN            1 LYQLE    5 (6)
+Q Consensus         1 lyqle    5 (6)
+                      +||+|
+T Consensus        16 ~~q~e   20 (248)
+T 5LN3_D           16 LFQVE   20 (248)
+T ss_pred             eehHH
+
+
+No 8
+>2GPJ_A Siderophore-interacting protein; SIDEROPHORE-INTERACTING PROTEIN, STRUCTURAL GENOMICS, JOINT; HET: FAD, EDO, ACY; 2.2A {Shewanella putrefaciens}
+Probab=17.39  E-value=1.3e+02  Score=11.87  Aligned_cols=4  Identities=100%  Similarity=1.174  Sum_probs=0.0  Template_Neff=10.000
+
+Q LYQLEN            3 QLEN    6 (6)
+Q Consensus         3 qlen    6 (6)
+                      ||||
+T Consensus       245 ~~~~  248 (252)
+T 2GPJ_A          245 QLEN  248 (252)
+T ss_dssp             HHHT
+T ss_pred             hhhc
+
+
+No 9
+>1YAR_A proteasome 20S, PA26 proteasome activator; HET: SO4, GOL; 1.9A {Thermoplasma acidophilum} SCOP: d.153.1.4
+Probab=16.11  E-value=1.4e+02  Score=11.69  Aligned_cols=6  Identities=50%  Similarity=0.877  Sum_probs=0.0  Template_Neff=9.800
+
+Q LYQLEN            1 LYQLEN    6 (6)
+Q Consensus         1 lyqlen    6 (6)
+                      +||+|.
+T Consensus        21 ~~q~e~   26 (233)
+T 1YAR_A           21 LFQVEY   26 (233)
+T ss_dssp             CHHHHH
+T ss_pred             chHHHH
+
+
+No 10
+>5L4G_O Proteasome subunit alpha type-6 (E.C.3.4.25.1); proteostasis, AAA-ATPase, Hydrolase; HET: ATP, ADP; 4.019A {Homo sapiens}
+Probab=16.00  E-value=1.5e+02  Score=11.74  Aligned_cols=5  Identities=60%  Similarity=0.800  Sum_probs=0.0  Template_Neff=9.700
+
+Q LYQLEN            1 LYQLE    5 (6)
+Q Consensus         1 lyqle    5 (6)
+                      |||+|
+T Consensus        19 l~q~e   23 (234)
+T 5L4G_O           19 LVQIE   23 (234)
+T ss_pred             eecHH
+
+

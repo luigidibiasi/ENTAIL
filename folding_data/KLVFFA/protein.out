@@ -1,0 +1,148 @@
+Query         KLVFFA
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 11:28:23 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/KLVFFA/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/KLVFFA/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3V7E_B Ribosome-associated pro  12.2 2.2E+02  0.0024    9.8   0.0    6    1-6      29-34  (82)
+  2 6AZ3_d ribosomal protein uL2,   11.9 2.2E+02  0.0025   10.1   0.0    6    1-6      34-39  (92)
+  3 2BO1_A 50S RIBOSOMAL PROTEIN L  11.7 2.3E+02  0.0026   10.3   0.0    6    1-6      34-39  (101)
+  4 5W93_B Breast cancer anti-estr  11.6 2.3E+02  0.0026   12.5   0.0    6    1-6      58-63  (137)
+  5 6DNO_B Serine/threonine-protei  11.6 2.3E+02  0.0026   10.0   0.0    6    1-6       1-6   (30)
+  6 3KD3_A Phosphoserine phosphohy  11.5 2.3E+02  0.0026    9.5   0.0    5    1-5       5-9   (219)
+  7 3JBO_A6 PROTEIN/RNA Complex; R  11.2 2.4E+02  0.0027   10.2   0.0    6    1-6      36-41  (98)
+  8 1PW5_A PROTEIN; nagD protein,   11.1 2.5E+02  0.0028   10.2   0.0    5    1-5       6-10  (253)
+  9 3EPR_A Hydrolase, haloacid deh  10.9 2.5E+02  0.0028   10.7   0.0    5    1-5       6-10  (264)
+ 10 5UH7_A DNA-directed RNA polyme  10.8 2.6E+02  0.0028   12.0   0.0    6    1-6      25-30  (169)
+
+No 1
+>3V7E_B Ribosome-associated protein L7Ae-like/RNA complex; RNA-protein complex, riboswitch, K-turn, L7Ae-like; HET: SAM, MG, NCO; 2.8A {Bacillus subtilis}
+Probab=12.22  E-value=2.2e+02  Score=9.84  Aligned_cols=6  Identities=50%  Similarity=0.357  Sum_probs=0.0  Template_Neff=8.800
+
+Q KLVFFA            1 KLVFFA    6 (6)
+Q Consensus         1 klvffa    6 (6)
+                      ++|++|
+T Consensus        29 ~lvv~A   34 (82)
+T 3V7E_B           29 KEVVVA   34 (82)
+T ss_dssp             SEECCB
+T ss_pred             CEEEEe
+
+
+No 2
+>6AZ3_d ribosomal protein uL2, ribosomal protein; Leishmania, ribosome, aminoglycoside, paromomycin, RIBOSOME-ANTIBIOTIC; HET: OMU, PAR, OMC, MG, A2M, OMG, C; 2.5A {Leishmania donovani}
+Probab=11.95  E-value=2.2e+02  Score=10.06  Aligned_cols=6  Identities=33%  Similarity=0.694  Sum_probs=0.0  Template_Neff=8.700
+
+Q KLVFFA            1 KLVFFA    6 (6)
+Q Consensus         1 klvffa    6 (6)
+                      ++|++|
+T Consensus        34 ~lvi~A   39 (92)
+T 6AZ3_d           34 KLIVIS   39 (92)
+T ss_pred             eEEEEE
+
+
+No 3
+>2BO1_A 50S RIBOSOMAL PROTEIN L30E; RIBOSOMAL PROTEIN, RIBONUCLEOPROTEIN; 1.7A {THERMOCOCCUS CELER} SCOP: d.79.3.1
+Probab=11.67  E-value=2.3e+02  Score=10.29  Aligned_cols=6  Identities=50%  Similarity=0.816  Sum_probs=0.0  Template_Neff=8.500
+
+Q KLVFFA            1 KLVFFA    6 (6)
+Q Consensus         1 klvffa    6 (6)
+                      ++|++|
+T Consensus        34 ~lvi~A   39 (101)
+T 2BO1_A           34 KLIIIA   39 (101)
+T ss_dssp             SEEEEE
+T ss_pred             cEEEEE
+
+
+No 4
+>5W93_B Breast cancer anti-estrogen resistance protein; p130Cas, BCAR1, paxillin, Focal Adhesion; 2.001A {Mus musculus}
+Probab=11.59  E-value=2.3e+02  Score=12.45  Aligned_cols=6  Identities=67%  Similarity=1.060  Sum_probs=0.0  Template_Neff=4.900
+
+Q KLVFFA            1 KLVFFA    6 (6)
+Q Consensus         1 klvffa    6 (6)
+                      ||||.+
+T Consensus        58 KLV~iG   63 (137)
+T 5W93_B           58 KLVFIG   63 (137)
+T ss_dssp             HHHHHH
+T ss_pred             hHHHHH
+
+
+No 5
+>6DNO_B Serine/threonine-protein phosphatase PP1-alpha catalytic subunit; Inhibitor, complex, HYDROLASE, HYDROLASE-HYDROLASE INHIBITOR; HET: 1ZN; 1.45A {Homo sapiens}
+Probab=11.59  E-value=2.3e+02  Score=9.96  Aligned_cols=6  Identities=50%  Similarity=0.584  Sum_probs=0.0  Template_Neff=4.000
+
+Q KLVFFA            1 KLVFFA    6 (6)
+Q Consensus         1 klvffa    6 (6)
+                      |-|-||
+T Consensus         1 K~V~FA    6 (30)
+T 6DNO_B            1 RRVSFA    6 (30)
+T ss_dssp             CCCEEG
+T ss_pred             CeeEec
+
+
+No 6
+>3KD3_A Phosphoserine phosphohydrolase-like protein; CSGID, Phosphoserine phosphohydrolase-like protein, Structural; HET: GOL, MSE; 1.7A {Francisella tularensis subsp. tularensis}
+Probab=11.53  E-value=2.3e+02  Score=9.53  Aligned_cols=5  Identities=40%  Similarity=0.753  Sum_probs=0.0  Template_Neff=12.700
+
+Q KLVFFA            1 KLVFF    5 (6)
+Q Consensus         1 klvff    5 (6)
+                      |+++|
+T Consensus         5 ~~v~f    9 (219)
+T 3KD3_A            5 KNIIF    9 (219)
+T ss_dssp             EEEEE
+T ss_pred             eEEEE
+
+
+No 7
+>3JBO_A6 PROTEIN/RNA Complex; RIBOSOME; 5.8A {Plasmodium falciparum 3D7}
+Probab=11.22  E-value=2.4e+02  Score=10.17  Aligned_cols=6  Identities=50%  Similarity=0.711  Sum_probs=0.0  Template_Neff=8.500
+
+Q KLVFFA            1 KLVFFA    6 (6)
+Q Consensus         1 klvffa    6 (6)
+                      ++|++|
+T Consensus        36 ~lviiA   41 (98)
+T 3JBO_A6          36 KLVIVS   41 (98)
+T ss_pred             eEEEEe
+
+
+No 8
+>1PW5_A PROTEIN; nagD protein, T. maritima, structural; HET: NDG, SO4; 2.8A {Thermotoga maritima} SCOP: c.108.1.14
+Probab=11.06  E-value=2.5e+02  Score=10.24  Aligned_cols=5  Identities=20%  Similarity=0.554  Sum_probs=0.0  Template_Neff=11.700
+
+Q KLVFFA            1 KLVFF    5 (6)
+Q Consensus         1 klvff    5 (6)
+                      |+++|
+T Consensus         6 k~v~f   10 (253)
+T 1PW5_A            6 ELFIL   10 (253)
+T ss_dssp             CEEEE
+T ss_pred             cEEEE
+
+
+No 9
+>3EPR_A Hydrolase, haloacid dehalogenase-like family; structural genomics, UNKNOWN FUNCTION, HAD; 1.55A {Streptococcus agalactiae serogroup V}
+Probab=10.93  E-value=2.5e+02  Score=10.70  Aligned_cols=5  Identities=20%  Similarity=0.049  Sum_probs=0.0  Template_Neff=10.900
+
+Q KLVFFA            1 KLVFF    5 (6)
+Q Consensus         1 klvff    5 (6)
+                      |+|+|
+T Consensus         6 k~v~f   10 (264)
+T 3EPR_A            6 KGYLI   10 (264)
+T ss_dssp             CEEEE
+T ss_pred             cEEEE
+
+
+No 10
+>5UH7_A DNA-directed RNA polymerase subunit beta'; RNA polymerase complex, transcription, DNA; 2.199A {Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv)}
+Probab=10.85  E-value=2.6e+02  Score=11.98  Aligned_cols=6  Identities=50%  Similarity=1.309  Sum_probs=0.0  Template_Neff=6.600
+
+Q KLVFFA            1 KLVFFA    6 (6)
+Q Consensus         1 klvffa    6 (6)
+                      |+++||
+T Consensus        25 kVIYFA   30 (169)
+T 5UH7_A           25 KIIYFA   30 (169)
+T ss_dssp             CCCCSC
+T ss_pred             Hhhhee
+
+

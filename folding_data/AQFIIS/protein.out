@@ -1,0 +1,150 @@
+Query         AQFIIS
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 15:22:09 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/AQFIIS/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/AQFIIS/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3IM4_C cAMP-dependent protein   10.2 2.8E+02  0.0031   10.7   0.0    6    1-6      22-27  (45)
+  2 3TMH_D Na(+)/H(+) exchange reg  10.2 2.8E+02  0.0031   10.7   0.0    6    1-6      22-27  (45)
+  3 7CC4_B Cutinase-like enzyme; c  10.1 2.8E+02  0.0031   11.2   0.0    6    1-6     189-194 (198)
+  4 7CW1_A Cutinase-like enzyme; c  10.1 2.8E+02  0.0031   11.2   0.0    6    1-6     189-194 (198)
+  5 5YBA_A Myb1 peptide, Peptidyl-  10.1 2.8E+02  0.0031   10.7   0.0    6    1-6     120-125 (175)
+  6 4Z3G_B PapG, lectin domain; UP   9.6 3.1E+02  0.0034   13.6   0.0    5    2-6      29-33  (198)
+  7 4Z3H_A PapG, lectin domain; UP   9.5 3.1E+02  0.0034   13.6   0.0    5    2-6      29-33  (198)
+  8 5MVW_A Centrosomin; Centrosome   9.3 3.2E+02  0.0035   11.1   0.0    5    2-6      46-50  (70)
+  9 7CY3_B Cutinase (E.C.3.1.1.74)   9.3 3.2E+02  0.0035   10.6   0.0    6    1-6     186-191 (195)
+ 10 7CY9_A Cutinase (E.C.3.1.1.74)   9.3 3.2E+02  0.0035   10.6   0.0    6    1-6     186-191 (195)
+
+No 1
+>3IM4_C cAMP-dependent protein kinase type I-alpha; four-helix bundle, Acetylation, cAMP, cAMP-binding; 2.285A {Bos taurus}
+Probab=10.25  E-value=2.8e+02  Score=10.67  Aligned_cols=6  Identities=50%  Similarity=0.822  Sum_probs=0.0  Template_Neff=3.600
+
+Q AQFIIS            1 AQFIIS    6 (6)
+Q Consensus         1 aqfiis    6 (6)
+                      |+.||.
+T Consensus        22 AemIV~   27 (45)
+T 3IM4_C           22 AKMIVS   27 (45)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 2
+>3TMH_D Na(+)/H(+) exchange regulatory cofactor NHE-RF3; alpha helical bundle, PDZ fold; 3.8A {Homo sapiens}
+Probab=10.25  E-value=2.8e+02  Score=10.67  Aligned_cols=6  Identities=50%  Similarity=0.822  Sum_probs=0.0  Template_Neff=3.600
+
+Q AQFIIS            1 AQFIIS    6 (6)
+Q Consensus         1 aqfiis    6 (6)
+                      |+.||.
+T Consensus        22 AemIV~   27 (45)
+T 3TMH_D           22 AKMIVS   27 (45)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 3
+>7CC4_B Cutinase-like enzyme; cutinase-like enzyme, biodegradable plastic degrading; 2.0A {Pseudozyma antarctica}
+Probab=10.11  E-value=2.8e+02  Score=11.16  Aligned_cols=6  Identities=50%  Similarity=0.539  Sum_probs=0.0  Template_Neff=8.700
+
+Q AQFIIS            1 AQFIIS    6 (6)
+Q Consensus         1 aqfiis    6 (6)
+                      ++|+++
+T Consensus       189 ~~fv~~  194 (198)
+T 7CC4_B          189 ANFGIK  194 (198)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 4
+>7CW1_A Cutinase-like enzyme; cutinase-like enzyme, biodegradable plastic degrading; HET: CAD; 1.7A {Pseudozyma antarctica}
+Probab=10.11  E-value=2.8e+02  Score=11.16  Aligned_cols=6  Identities=50%  Similarity=0.539  Sum_probs=0.0  Template_Neff=8.700
+
+Q AQFIIS            1 AQFIIS    6 (6)
+Q Consensus         1 aqfiis    6 (6)
+                      ++|+++
+T Consensus       189 ~~fv~~  194 (198)
+T 7CW1_A          189 ANFGIK  194 (198)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 5
+>5YBA_A Myb1 peptide, Peptidyl-prolyl cis-trans isomerase; Divergent loop cyclophilin, Cyclophilin A; 2.062A {Trichomonas vaginalis}
+Probab=10.08  E-value=2.8e+02  Score=10.74  Aligned_cols=6  Identities=50%  Similarity=0.960  Sum_probs=0.0  Template_Neff=9.100
+
+Q AQFIIS            1 AQFIIS    6 (6)
+Q Consensus         1 aqfiis    6 (6)
+                      .||.|+
+T Consensus       120 s~F~I~  125 (175)
+T 5YBA_A          120 SQFFIT  125 (175)
+T ss_dssp             SCEEEE
+T ss_pred             ccEEEE
+
+
+No 6
+>4Z3G_B PapG, lectin domain; UPEC, urinary tract infection, fimbrial; HET: GLA, MES, GAL, 4KS; 1.45A {Escherichia coli}
+Probab=9.55  E-value=3.1e+02  Score=13.63  Aligned_cols=5  Identities=80%  Similarity=1.019  Sum_probs=0.0  Template_Neff=2.200
+
+Q AQFIIS            2 QFIIS    6 (6)
+Q Consensus         2 qfiis    6 (6)
+                      ||||+
+T Consensus        29 Qf~i~   33 (198)
+T 4Z3G_B           29 QFITS   33 (198)
+T ss_dssp             EEEEC
+T ss_pred             eEEEe
+
+
+No 7
+>4Z3H_A PapG, lectin domain; UPEC, urinary tract infection, fimbrial; HET: GLA, GAL; 1.5A {Escherichia coli}
+Probab=9.55  E-value=3.1e+02  Score=13.63  Aligned_cols=5  Identities=80%  Similarity=1.019  Sum_probs=0.0  Template_Neff=2.200
+
+Q AQFIIS            2 QFIIS    6 (6)
+Q Consensus         2 qfiis    6 (6)
+                      ||||+
+T Consensus        29 Qf~i~   33 (198)
+T 4Z3H_A           29 QFITS   33 (198)
+T ss_dssp             EEEEC
+T ss_pred             eEEEe
+
+
+No 8
+>5MVW_A Centrosomin; Centrosome, Centriole, Coiled-coil, Mitosis, cell; HET: EDO; 1.82A {Drosophila melanogaster}
+Probab=9.27  E-value=3.2e+02  Score=11.15  Aligned_cols=5  Identities=20%  Similarity=-0.011  Sum_probs=0.0  Template_Neff=4.100
+
+Q AQFIIS            2 QFIIS    6 (6)
+Q Consensus         2 qfiis    6 (6)
+                      +||++
+T Consensus        46 ~~I~~   50 (70)
+T 5MVW_A           46 KDIKN   50 (70)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 9
+>7CY3_B Cutinase (E.C.3.1.1.74); Serine hydrolase, Cutinase, Biodegradable plastic-degrading; HET: CAD; 1.27A {Paraphoma sp. B47-9}
+Probab=9.26  E-value=3.2e+02  Score=10.60  Aligned_cols=6  Identities=50%  Similarity=0.894  Sum_probs=0.0  Template_Neff=9.500
+
+Q AQFIIS            1 AQFIIS    6 (6)
+Q Consensus         1 aqfiis    6 (6)
+                      ++||++
+T Consensus       186 ~~~~~~  191 (195)
+T 7CY3_B          186 PAFLIS  191 (195)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 10
+>7CY9_A Cutinase (E.C.3.1.1.74); Serine hydrolase, Cutinase, Biodegradable plastic-degrading; HET: CAD; 1.36A {Paraphoma sp. B47-9}
+Probab=9.26  E-value=3.2e+02  Score=10.60  Aligned_cols=6  Identities=50%  Similarity=0.894  Sum_probs=0.0  Template_Neff=9.500
+
+Q AQFIIS            1 AQFIIS    6 (6)
+Q Consensus         1 aqfiis    6 (6)
+                      ++||++
+T Consensus       186 ~~~~~~  191 (195)
+T 7CY9_A          186 PAFLIS  191 (195)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+

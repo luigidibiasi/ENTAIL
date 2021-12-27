@@ -1,0 +1,148 @@
+Query         GFNNSA
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 23:38:46 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GFNNSA/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GFNNSA/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2P09_A a non-biological ATP bi  14.5 1.7E+02  0.0019   12.9   0.0    4    2-5      52-55  (81)
+  2 3NIZ_A Rhodanese family protei  14.2 1.7E+02  0.0019   11.5   0.0    5    1-5      10-14  (311)
+  3 3LTA_A ATP BINDING PROTEIN-DX;  14.0 1.8E+02   0.002   12.8   0.0    4    2-5      52-55  (81)
+  4 6S2E_E DNA polymerase epsilon   13.2 1.9E+02  0.0021    9.9   0.0    4    1-4      17-20  (33)
+  5 2EFK_A Cdc42-interacting prote  12.5 2.1E+02  0.0023   11.3   0.0    5    1-5       1-5   (301)
+  6 5IC9_C Putative uncharacterize  11.7 2.3E+02  0.0025   12.7   0.0    6    1-6     171-176 (209)
+  7 3RIO_A PtsGHI operon antitermi  11.5 2.4E+02  0.0026   11.2   0.0    5    2-6      21-25  (180)
+  8 4J8S_A CCR4-NOT transcription   11.4 2.4E+02  0.0026   12.7   0.0    6    1-6       2-7   (203)
+  9 1WJV_A Cell growth regulating   11.3 2.4E+02  0.0027    8.8   0.0    4    2-5      74-77  (79)
+ 10 1AUU_B SACY; ANTITERMINATION,   11.3 2.4E+02  0.0027   10.6   0.0    5    2-6       7-11  (55)
+
+No 1
+>2P09_A a non-biological ATP binding protein; alpha/beta fold, DE NOVO PROTEIN; HET: ATP, 1PE; 1.65A {unidentified}
+Probab=14.52  E-value=1.7e+02  Score=12.86  Aligned_cols=4  Identities=100%  Similarity=1.398  Sum_probs=0.0  Template_Neff=1.000
+
+Q GFNNSA            2 FNNS    5 (6)
+Q Consensus         2 fnns    5 (6)
+                      ||||
+T Consensus        52 fnns   55 (81)
+T 2P09_A           52 FNNS   55 (81)
+T ss_dssp             HHHH
+T ss_pred             hcCc
+
+
+No 2
+>3NIZ_A Rhodanese family protein; Structural Genomics, Structural Genomics Consortium; HET: ADP; 2.4A {Cryptosporidium parvum}
+Probab=14.17  E-value=1.7e+02  Score=11.47  Aligned_cols=5  Identities=40%  Similarity=0.401  Sum_probs=0.0  Template_Neff=10.800
+
+Q GFNNSA            1 GFNNS    5 (6)
+Q Consensus         1 gfnns    5 (6)
+                      ||+||
+T Consensus        10 ~~~~~   14 (311)
+T 3NIZ_A           10 GRENL   14 (311)
+T ss_dssp             -----
+T ss_pred             cccch
+
+
+No 3
+>3LTA_A ATP BINDING PROTEIN-DX; ALPHA/BETA FOLD, BENT ATP, NON-BIOLOGICAL; HET: ATP, PEG; 2.7A {synthetic construct}
+Probab=13.96  E-value=1.8e+02  Score=12.78  Aligned_cols=4  Identities=100%  Similarity=1.398  Sum_probs=0.0  Template_Neff=1.000
+
+Q GFNNSA            2 FNNS    5 (6)
+Q Consensus         2 fnns    5 (6)
+                      ||||
+T Consensus        52 fnns   55 (81)
+T 3LTA_A           52 FNNS   55 (81)
+T ss_dssp             HHHH
+T ss_pred             hcCc
+
+
+No 4
+>6S2E_E DNA polymerase epsilon catalytic subunit; DNA polymerase, PCNA loader, protein; 4.2A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=13.18  E-value=1.9e+02  Score=9.92  Aligned_cols=4  Identities=75%  Similarity=1.522  Sum_probs=0.0  Template_Neff=5.100
+
+Q GFNNSA            1 GFNN    4 (6)
+Q Consensus         1 gfnn    4 (6)
+                      ||+|
+T Consensus        17 Gfsn   20 (33)
+T 6S2E_E           17 GFSN   20 (33)
+T ss_pred             CCCc
+
+
+No 5
+>2EFK_A Cdc42-interacting protein 4; EFC domain, Structural Genomics, NPPSFA; 2.3A {Homo sapiens} SCOP: a.238.1.4
+Probab=12.50  E-value=2.1e+02  Score=11.31  Aligned_cols=5  Identities=40%  Similarity=0.488  Sum_probs=0.0  Template_Neff=10.600
+
+Q GFNNSA            1 GFNNS    5 (6)
+Q Consensus         1 gfnns    5 (6)
+                      ||+|+
+T Consensus         1 ~~~~~    5 (301)
+T 2EFK_A            1 GSSGS    5 (301)
+T ss_dssp             -----
+T ss_pred             CCCcc
+
+
+No 6
+>5IC9_C Putative uncharacterized protein; solenoid structure, rRNA processing, 90S; 3.7A {Chaetomium thermophilum (strain DSM 1495 / CBS 144.50 / IMI 039719)}
+Probab=11.74  E-value=2.3e+02  Score=12.73  Aligned_cols=6  Identities=67%  Similarity=1.005  Sum_probs=0.0  Template_Neff=6.100
+
+Q GFNNSA            1 GFNNSA    6 (6)
+Q Consensus         1 gfnnsa    6 (6)
+                      |||-.|
+T Consensus       171 GfNlAa  176 (209)
+T 5IC9_C          171 GFNIAA  176 (209)
+T ss_pred             HHHHHH
+
+
+No 7
+>3RIO_A PtsGHI operon antiterminator; twisted beta sheet, four helix; HET: GOL; 1.99A {Bacillus subtilis}
+Probab=11.52  E-value=2.4e+02  Score=11.21  Aligned_cols=5  Identities=40%  Similarity=0.707  Sum_probs=0.0  Template_Neff=8.700
+
+Q GFNNSA            2 FNNSA    6 (6)
+Q Consensus         2 fnnsa    6 (6)
+                      +||++
+T Consensus        21 lNnn~   25 (180)
+T 3RIO_A           21 LNNNV   25 (180)
+T ss_dssp             EETTE
+T ss_pred             ccCcE
+
+
+No 8
+>4J8S_A CCR4-NOT transcription complex subunit 1; MIF4G, protein-protein interaction, TTP, cytosol; 1.55A {Homo sapiens}
+Probab=11.44  E-value=2.4e+02  Score=12.68  Aligned_cols=6  Identities=67%  Similarity=1.221  Sum_probs=0.0  Template_Neff=6.000
+
+Q GFNNSA            1 GFNNSA    6 (6)
+Q Consensus         1 gfnnsa    6 (6)
+                      ||||.+
+T Consensus         2 ~~~~~~    7 (203)
+T 4J8S_A            2 GFNNDP    7 (203)
+T ss_dssp             ------
+T ss_pred             CccCCc
+
+
+No 9
+>1WJV_A Cell growth regulating nucleolar protein; Cell growth regulating nucleolar protein; HET: ZN; NMR {Mus musculus} SCOP: g.37.1.2
+Probab=11.34  E-value=2.4e+02  Score=8.76  Aligned_cols=4  Identities=25%  Similarity=-0.089  Sum_probs=0.0  Template_Neff=10.600
+
+Q GFNNSA            2 FNNS    5 (6)
+Q Consensus         2 fnns    5 (6)
+                      ||+|
+T Consensus        74 ~~~~   77 (79)
+T 1WJV_A           74 SGPS   77 (79)
+T ss_dssp             CCCS
+T ss_pred             CCCC
+
+
+No 10
+>1AUU_B SACY; ANTITERMINATION, RNA BINDING DOMAIN, TRANSCRIPTION; NMR {Bacillus subtilis} SCOP: b.35.2.1
+Probab=11.30  E-value=2.4e+02  Score=10.60  Aligned_cols=5  Identities=40%  Similarity=0.687  Sum_probs=0.0  Template_Neff=5.200
+
+Q GFNNSA            2 FNNSA    6 (6)
+Q Consensus         2 fnnsa    6 (6)
+                      +||++
+T Consensus         7 lNNNv   11 (55)
+T 1AUU_B            7 LNHNA   11 (55)
+T ss_dssp             CSSSE
+T ss_pred             ccCcE
+
+

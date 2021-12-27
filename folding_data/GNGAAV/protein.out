@@ -1,0 +1,149 @@
+Query         GNGAAV
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 02:14:54 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GNGAAV/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GNGAAV/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 1ZRX_A stomoxyn; helical pepti  38.6      29 0.00032   13.7   0.0    6    1-6      33-38  (42)
+  2 2D7I_A Polypeptide N-acetylgal  19.1 1.1E+02  0.0012   13.4   0.0    6    1-6       9-14  (570)
+  3 3KE2_B uncharacterized protein  12.3 2.1E+02  0.0024   11.1   0.0    4    1-4     114-117 (117)
+  4 4KS9_A Malonyl-CoA decarboxyla  12.0 2.2E+02  0.0025   14.5   0.0    6    1-6     359-364 (428)
+  5 6YXY_BT bL28m, uL29m, uL30m, b  11.8 2.3E+02  0.0025   14.0   0.0    5    1-5     187-191 (191)
+  6 6YXX_BT bL28m, mt-LAF21, uL29m  11.7 2.3E+02  0.0025   14.0   0.0    5    1-5     187-191 (191)
+  7 1XUB_A Phenazine biosynthesis   11.1 2.5E+02  0.0028   11.6   0.0    6    1-6      37-42  (298)
+  8 3PLX_B Aspartate 1-decarboxyla  10.8 2.6E+02  0.0029   12.1   0.0    4    2-5      47-50  (102)
+  9 1UHE_A Aspartate 1-decarboxyla  10.8 2.6E+02  0.0029   12.0   0.0    4    2-5      46-49  (97)
+ 10 5G5N_C LH3 HEXON-INTERLACING C  10.7 2.6E+02  0.0029   14.1   0.0    6    1-6      50-55  (353)
+
+No 1
+>1ZRX_A stomoxyn; helical peptide in TFE, ANTIMICROBIAL; NMR {N/A}
+Probab=38.57  E-value=29  Score=13.72  Aligned_cols=6  Identities=83%  Similarity=1.237  Sum_probs=3.4  Template_Neff=1.300
+
+Q GNGAAV            1 GNGAAV    6 (6)
+Q Consensus         1 gngaav    6 (6)
+                      |.||||
+T Consensus        33 gsgaav   38 (42)
+T 1ZRX_A           33 GSGAAV   38 (42)
+T ss_dssp             GGTHHH
+T ss_pred             ccchhh
+Confidence            456654
+
+
+No 2
+>2D7I_A Polypeptide N-acetylgalactosaminyltransferase 10 (E.C.2.4.1.41); beta trefoil, Rossmann fold, TRANSFERASE; HET: NGA, NAG, UDP; 2.5A {Homo sapiens}
+Probab=19.15  E-value=1.1e+02  Score=13.41  Aligned_cols=6  Identities=83%  Similarity=1.237  Sum_probs=0.0  Template_Neff=10.300
+
+Q GNGAAV            1 GNGAAV    6 (6)
+Q Consensus         1 gngaav    6 (6)
+                      |.||||
+T Consensus         9 ~~~~~~   14 (570)
+T 2D7I_A            9 GSGAAV   14 (570)
+T ss_dssp             ------
+T ss_pred             CCcccc
+Confidence            345554
+
+
+No 3
+>3KE2_B uncharacterized protein YP_928783.1; STRUCTURAL GENOMICS, JOINT CENTER FOR; HET: NO3, MSE; 2.5A {Shewanella amazonensis SB2B}
+Probab=12.34  E-value=2.1e+02  Score=11.07  Aligned_cols=4  Identities=100%  Similarity=1.614  Sum_probs=0.0  Template_Neff=7.600
+
+Q GNGAAV            1 GNGA    4 (6)
+Q Consensus         1 gnga    4 (6)
+                      ||||
+T Consensus       114 ~~~~  117 (117)
+T 3KE2_B          114 GNGA  117 (117)
+T ss_dssp             ----
+T ss_pred             cCCC
+
+
+No 4
+>4KS9_A Malonyl-CoA decarboxylase (E.C.4.1.1.9); NESGC, Structural Genomics, PSI-Biology, Northeast; 2.3A {Cupriavidus metallidurans}
+Probab=12.02  E-value=2.2e+02  Score=14.53  Aligned_cols=6  Identities=83%  Similarity=1.293  Sum_probs=0.0  Template_Neff=5.100
+
+Q GNGAAV            1 GNGAAV    6 (6)
+Q Consensus         1 gngaav    6 (6)
+                      ||||.+
+T Consensus       359 ~NGA~l  364 (428)
+T 4KS9_A          359 GNGACV  364 (428)
+T ss_dssp             TTTCEE
+T ss_pred             cCCCeE
+
+
+No 5
+>6YXY_BT bL28m, uL29m, uL30m, bL32m, bL35m; mitoribosome, assembly, LSU, RIBOSOME; HET: ATP, PM8, MG, SPD, NAD, GTP; 3.1A {Trypanosoma brucei brucei}
+Probab=11.80  E-value=2.3e+02  Score=14.02  Aligned_cols=5  Identities=100%  Similarity=1.451  Sum_probs=0.0  Template_Neff=1.700
+
+Q GNGAAV            1 GNGAA    5 (6)
+Q Consensus         1 gngaa    5 (6)
+                      |||||
+T Consensus       187 ~~~~~  191 (191)
+T 6YXY_BT         187 GNGAA  191 (191)
+T ss_pred             CCCCC
+
+
+No 6
+>6YXX_BT bL28m, mt-LAF21, uL29m, mt-LAF22, uL30m; mitoribosome, assembly, LSU, RIBOSOME; HET: PM8, MG, ATP, GTP, NAD; 3.9A {Trypanosoma brucei brucei}
+Probab=11.73  E-value=2.3e+02  Score=14.01  Aligned_cols=5  Identities=100%  Similarity=1.451  Sum_probs=0.0  Template_Neff=1.700
+
+Q GNGAAV            1 GNGAA    5 (6)
+Q Consensus         1 gngaa    5 (6)
+                      |||||
+T Consensus       187 ~~~~~  191 (191)
+T 6YXX_BT         187 GNGAA  191 (191)
+T ss_pred             CCCCC
+
+
+No 7
+>1XUB_A Phenazine biosynthesis protein phzF; phenazine biosynthesis, BIOSYNTHETIC PROTEIN; 1.3A {Pseudomonas fluorescens} SCOP: d.21.1.2
+Probab=11.07  E-value=2.5e+02  Score=11.64  Aligned_cols=6  Identities=67%  Similarity=0.817  Sum_probs=0.0  Template_Neff=9.500
+
+Q GNGAAV            1 GNGAAV    6 (6)
+Q Consensus         1 gngaav    6 (6)
+                      ||-++|
+T Consensus        37 GN~~~V   42 (298)
+T 1XUB_A           37 GNPVAV   42 (298)
+T ss_dssp             SEEEEE
+T ss_pred             CcceEE
+
+
+No 8
+>3PLX_B Aspartate 1-decarboxylase (E.C.4.1.1.11); STRUCTURAL GENOMICS, CENTER FOR STRUCTURAL; 1.747A {Campylobacter jejuni subsp. jejuni}
+Probab=10.79  E-value=2.6e+02  Score=12.06  Aligned_cols=4  Identities=100%  Similarity=1.265  Sum_probs=0.0  Template_Neff=4.200
+
+Q GNGAAV            2 NGAA    5 (6)
+Q Consensus         2 ngaa    5 (6)
+                      ||||
+T Consensus        47 NGAA   50 (102)
+T 3PLX_B           47 NGAA   50 (102)
+T ss_dssp             EGGG
+T ss_pred             ccch
+
+
+No 9
+>1UHE_A Aspartate 1-decarboxylase (E.C.4.1.1.11); double-psi beta barrel, LYASE; HET: NSN; 1.55A {Helicobacter pylori}
+Probab=10.76  E-value=2.6e+02  Score=11.96  Aligned_cols=4  Identities=100%  Similarity=1.265  Sum_probs=0.0  Template_Neff=4.200
+
+Q GNGAAV            2 NGAA    5 (6)
+Q Consensus         2 ngaa    5 (6)
+                      ||||
+T Consensus        46 NGAA   49 (97)
+T 1UHE_A           46 NGAA   49 (97)
+T ss_pred             chHH
+
+
+No 10
+>5G5N_C LH3 HEXON-INTERLACING CAPSID PROTEIN; VIRAL PROTEIN, CAPSID PROTEIN, BETA-HELIX; HET: GOL, MMC, CL; 2.3A {SNAKE ADENOVIRUS 1}
+Probab=10.75  E-value=2.6e+02  Score=14.08  Aligned_cols=6  Identities=83%  Similarity=1.298  Sum_probs=0.0  Template_Neff=4.800
+
+Q GNGAAV            1 GNGAAV    6 (6)
+Q Consensus         1 gngaav    6 (6)
+                      ||||-|
+T Consensus        50 GNGAtV   55 (353)
+T 5G5N_C           50 GNGATV   55 (353)
+T ss_dssp             CTTCEE
+T ss_pred             cCCcEE
+
+

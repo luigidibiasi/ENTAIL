@@ -1,0 +1,149 @@
+Query         NSNTNT
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 04:21:30 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NSNTNT/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NSNTNT/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3NJ2_B DUF269-containing prote  12.4 2.1E+02  0.0024   13.4   0.0    6    1-6      23-28  (174)
+  2 5HNW_K Tubulin alpha-1B chain,   4.3 8.7E+02  0.0096   10.6   0.0    6    1-6     363-368 (371)
+  3 3FMT_A protein-DNA complex, he   3.7 1.1E+03   0.012   10.9   0.0    6    1-6     131-136 (162)
+  4 3FMT_B protein-DNA complex, he   3.7 1.1E+03   0.012   10.9   0.0    6    1-6     131-136 (162)
+  5 5L09_A Quorum-sensing transcri   3.6 1.1E+03   0.012    8.7   0.0    5    1-5     165-169 (179)
+  6 3GF5_B Major vault protein; be   3.5 1.1E+03   0.012   11.7   0.0    6    1-6      24-29  (387)
+  7 3GNF_B Major vault protein; be   3.5 1.1E+03   0.012   11.7   0.0    6    1-6      24-29  (387)
+  8 3ODG_A Xanthosine phosphorylas   3.5 1.1E+03   0.012   10.0   0.0    5    1-5       5-9   (287)
+  9 6YFA_BA coat protein; virus, v   3.4 1.1E+03   0.013   11.5   0.0    5    1-5       8-12  (167)
+ 10 6YFA_CA coat protein; virus, v   3.4 1.1E+03   0.013   11.5   0.0    5    1-5       8-12  (167)
+
+No 1
+>3NJ2_B DUF269-containing protein; cyanobacteria, circadium rhythms, nitrogen fixation; 1.59A {Cyanothece sp. ATCC 51142}
+Probab=12.35  E-value=2.1e+02  Score=13.40  Aligned_cols=6  Identities=83%  Similarity=0.872  Sum_probs=2.7  Template_Neff=3.900
+
+Q NSNTNT            1 NSNTNT    6 (6)
+Q Consensus         1 nsntnt    6 (6)
+                      ||.|||
+T Consensus        23 ~~~~~~   28 (174)
+T 3NJ2_B           23 NSETNT   28 (174)
+T ss_dssp             CHHHHH
+T ss_pred             Ccccch
+Confidence            344443
+
+
+No 2
+>5HNW_K Tubulin alpha-1B chain, Tubulin beta-2B; kinesin, kinesin-14, microtubule, ATPase, TRANSPORT; HET: GTP, GDP, TA1, ANP; 6.6A {Bos taurus}
+Probab=4.27  E-value=8.7e+02  Score=10.64  Aligned_cols=6  Identities=17%  Similarity=0.501  Sum_probs=0.0  Template_Neff=9.200
+
+Q NSNTNT            1 NSNTNT    6 (6)
+Q Consensus         1 nsntnt    6 (6)
+                      |+|+|.
+T Consensus       363 ~~~~~~  368 (371)
+T 5HNW_K          363 SNNSGS  368 (371)
+T ss_dssp             ------
+T ss_pred             CcCccc
+
+
+No 3
+>3FMT_A protein-DNA complex, hemimethylated GATC, DNA; HET: 6MA, MPD; 2.983A {Escherichia coli}
+Probab=3.66  E-value=1.1e+03  Score=10.88  Aligned_cols=6  Identities=50%  Similarity=0.656  Sum_probs=0.0  Template_Neff=4.700
+
+Q NSNTNT            1 NSNTNT    6 (6)
+Q Consensus         1 nsntnt    6 (6)
+                      |+||+.
+T Consensus       131 N~NT~r  136 (162)
+T 3FMT_A          131 NTNTGR  136 (162)
+T ss_dssp             CSCHHH
+T ss_pred             cCChHH
+
+
+No 4
+>3FMT_B protein-DNA complex, hemimethylated GATC, DNA; HET: 6MA, MPD; 2.983A {Escherichia coli}
+Probab=3.66  E-value=1.1e+03  Score=10.88  Aligned_cols=6  Identities=50%  Similarity=0.656  Sum_probs=0.0  Template_Neff=4.700
+
+Q NSNTNT            1 NSNTNT    6 (6)
+Q Consensus         1 nsntnt    6 (6)
+                      |+||+.
+T Consensus       131 N~NT~r  136 (162)
+T 3FMT_B          131 NTNTGR  136 (162)
+T ss_dssp             CSCHHH
+T ss_pred             cCChHH
+
+
+No 5
+>5L09_A Quorum-sensing transcriptional activator; alpha-beta structure, pheromone binding protein; HET: 482, ACY, SO4, MSE, EDO; 2.0A {Yersinia enterocolitica serotype O:8 / biotype 1B (strain NCTC 13174 / 8081)}
+Probab=3.59  E-value=1.1e+03  Score=8.66  Aligned_cols=5  Identities=60%  Similarity=0.807  Sum_probs=0.0  Template_Neff=10.400
+
+Q NSNTNT            1 NSNTN    5 (6)
+Q Consensus         1 nsntn    5 (6)
+                      |||.|
+T Consensus       165 ~~~~~  169 (179)
+T 5L09_A          165 NSDKN  169 (179)
+T ss_dssp             -----
+T ss_pred             cCCCC
+
+
+No 6
+>3GF5_B Major vault protein; beta sheets, Phosphoprotein, Ribonucleoprotein, STRUCTURAL; HET: GOL; 2.5A {Mus musculus}
+Probab=3.54  E-value=1.1e+03  Score=11.74  Aligned_cols=6  Identities=33%  Similarity=0.639  Sum_probs=0.0  Template_Neff=6.100
+
+Q NSNTNT            1 NSNTNT    6 (6)
+Q Consensus         1 nsntnt    6 (6)
+                      |.|||.
+T Consensus        24 d~ntn~   29 (387)
+T 3GF5_B           24 DQNSNV   29 (387)
+T ss_dssp             ETTTTE
+T ss_pred             eCCCCE
+
+
+No 7
+>3GNF_B Major vault protein; beta sheets, Phosphoprotein, Ribonucleoprotein, STRUCTURAL; 2.1A {Mus musculus}
+Probab=3.54  E-value=1.1e+03  Score=11.74  Aligned_cols=6  Identities=33%  Similarity=0.639  Sum_probs=0.0  Template_Neff=6.100
+
+Q NSNTNT            1 NSNTNT    6 (6)
+Q Consensus         1 nsntnt    6 (6)
+                      |.|||.
+T Consensus        24 d~ntn~   29 (387)
+T 3GNF_B           24 DQNSNV   29 (387)
+T ss_dssp             ETTTCC
+T ss_pred             eCCCCE
+
+
+No 8
+>3ODG_A Xanthosine phosphorylase (E.C.2.4.2.-); Structural Genomics, PSI-2, Protein Structure; HET: XAN; 1.64A {Yersinia pseudotuberculosis}
+Probab=3.50  E-value=1.1e+03  Score=10.00  Aligned_cols=5  Identities=80%  Similarity=0.866  Sum_probs=0.0  Template_Neff=9.000
+
+Q NSNTNT            1 NSNTN    5 (6)
+Q Consensus         1 nsntn    5 (6)
+                      |||.|
+T Consensus         5 ~~~~~    9 (287)
+T 3ODG_A            5 NSNIN    9 (287)
+T ss_dssp             -----
+T ss_pred             ccccc
+
+
+No 9
+>6YFA_BA coat protein; virus, virus-like particle, structural protein; HET: CA; 3.3A {Leviviridae sp.}
+Probab=3.41  E-value=1.1e+03  Score=11.51  Aligned_cols=5  Identities=80%  Similarity=1.006  Sum_probs=0.0  Template_Neff=1.000
+
+Q NSNTNT            1 NSNTN    5 (6)
+Q Consensus         1 nsntn    5 (6)
+                      |||.|
+T Consensus         8 nsnsn   12 (167)
+T 6YFA_BA           8 NSNSN   12 (167)
+T ss_pred             CCCCC
+
+
+No 10
+>6YFA_CA coat protein; virus, virus-like particle, structural protein; HET: CA; 3.3A {Leviviridae sp.}
+Probab=3.41  E-value=1.1e+03  Score=11.51  Aligned_cols=5  Identities=80%  Similarity=1.006  Sum_probs=0.0  Template_Neff=1.000
+
+Q NSNTNT            1 NSNTN    5 (6)
+Q Consensus         1 nsntn    5 (6)
+                      |||.|
+T Consensus         8 nsnsn   12 (167)
+T 6YFA_CA           8 NSNSN   12 (167)
+T ss_pred             CCCCC
+
+

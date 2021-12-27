@@ -1,0 +1,147 @@
+Query         MHVNIQ
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 21:44:19 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/MHVNIQ/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/MHVNIQ/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5NJT_x 30S ribosomal protein S  18.9 1.1E+02  0.0012   10.7   0.0    6    1-6       1-6   (104)
+  2 3PL0_B Uncharacterized protein  17.4 1.3E+02  0.0014   13.6   0.0    6    1-6       2-7   (254)
+  3 7NYR_E NADH:ubiquinone reducta  14.4 1.7E+02  0.0019   11.9   0.0    6    1-6       1-6   (166)
+  4 1R8G_B Hypothetical protein yb  14.0 1.8E+02   0.002   12.4   0.0    6    1-6     135-140 (372)
+  5 1IMU_A HYPOTHETICAL PROTEIN HI  13.1   2E+02  0.0022   10.3   0.0    6    1-6       1-6   (107)
+  6 6CZH_A mFAP0; beta barrel, Ros  12.9   2E+02  0.0022   13.2   0.0    5    1-5      66-70  (112)
+  7 7CHK_A VP20 protein, VP24 prot  12.1 2.2E+02  0.0024   13.9   0.0    6    1-6     147-152 (176)
+  8 5XYN_D Platinum sensitivity pr  11.5 2.4E+02  0.0026   12.9   0.0    5    1-5     217-221 (223)
+  9 7K58_K outer-arm dynein, axone  11.1 2.5E+02  0.0028   10.3   0.0    5    2-6       1-5   (90)
+ 10 6DEX_B ABR011Wp, Suppressor of  11.0 2.5E+02  0.0028   12.5   0.0    5    1-5     196-200 (201)
+
+No 1
+>5NJT_x 30S ribosomal protein S2, 30S; 100S, Bacillus subtilis, cryo-EM, Hibernation;{Bacillus subtilis subsp. subtilis str. 168}
+Probab=18.93  E-value=1.1e+02  Score=10.69  Aligned_cols=6  Identities=50%  Similarity=0.761  Sum_probs=0.0  Template_Neff=9.400
+
+Q MHVNIQ            1 MHVNIQ    6 (6)
+Q Consensus         1 mhvniq    6 (6)
+                      |.++|+
+T Consensus         1 M~i~i~    6 (104)
+T 5NJT_x            1 MNYNIR    6 (104)
+T ss_pred             CeEEEE
+
+
+No 2
+>3PL0_B Uncharacterized protein; QUORUM SENSING, BIOFILM FORMATION, DOUBLE-STRANDED; HET: MSE; 1.91A {Methylibium petroleiphilum}
+Probab=17.36  E-value=1.3e+02  Score=13.61  Aligned_cols=6  Identities=67%  Similarity=1.198  Sum_probs=0.0  Template_Neff=6.600
+
+Q MHVNIQ            1 MHVNIQ    6 (6)
+Q Consensus         1 mhvniq    6 (6)
+                      |||.|.
+T Consensus         2 ~~~~~~    7 (254)
+T 3PL0_B            2 MHVDIE    7 (254)
+T ss_dssp             CCCCSS
+T ss_pred             Ccccee
+
+
+No 3
+>7NYR_E NADH:ubiquinone reductase (H+-translocating), oxidative phosphorylation; HET: SF4, CSX, FMN;{Escherichia coli B}
+Probab=14.37  E-value=1.7e+02  Score=11.93  Aligned_cols=6  Identities=67%  Similarity=0.722  Sum_probs=0.0  Template_Neff=7.700
+
+Q MHVNIQ            1 MHVNIQ    6 (6)
+Q Consensus         1 mhvniq    6 (6)
+                      ||-|++
+T Consensus         1 ~~~~~~    6 (166)
+T 7NYR_E            1 MHENQQ    6 (166)
+T ss_pred             CCCCCC
+
+
+No 4
+>1R8G_B Hypothetical protein ybdK; Structural Genomics, unknown function, YbdK; 2.15A {Escherichia coli} SCOP: d.128.1.3
+Probab=14.04  E-value=1.8e+02  Score=12.35  Aligned_cols=6  Identities=33%  Similarity=0.650  Sum_probs=0.0  Template_Neff=9.700
+
+Q MHVNIQ            1 MHVNIQ    6 (6)
+Q Consensus         1 mhvniq    6 (6)
+                      +||+|+
+T Consensus       135 ~hvhv~  140 (372)
+T 1R8G_B          135 QHVHVG  140 (372)
+T ss_dssp             EEEEEE
+T ss_pred             EEEEec
+
+
+No 5
+>1IMU_A HYPOTHETICAL PROTEIN HI0257; DSRNA BINDING PROTEIN, PROTEOME, SOLUTION; NMR {Haemophilus influenzae} SCOP: d.204.1.1
+Probab=13.12  E-value=2e+02  Score=10.28  Aligned_cols=6  Identities=50%  Similarity=0.755  Sum_probs=0.0  Template_Neff=9.100
+
+Q MHVNIQ            1 MHVNIQ    6 (6)
+Q Consensus         1 mhvniq    6 (6)
+                      |.++|+
+T Consensus         1 M~i~i~    6 (107)
+T 1IMU_A            1 MTLNIT    6 (107)
+T ss_dssp             CCCEEC
+T ss_pred             CceEEE
+
+
+No 6
+>6CZH_A mFAP0; beta barrel, Rossetta, computational, de; HET: 38E; 1.8A {synthetic construct}
+Probab=12.87  E-value=2e+02  Score=13.21  Aligned_cols=5  Identities=80%  Similarity=1.331  Sum_probs=0.0  Template_Neff=1.000
+
+Q MHVNIQ            1 MHVNI    5 (6)
+Q Consensus         1 mhvni    5 (6)
+                      +||||
+T Consensus        66 lhvni   70 (112)
+T 6CZH_A           66 LHVNI   70 (112)
+T ss_dssp             EEEEE
+T ss_pred             EEEEe
+
+
+No 7
+>7CHK_A VP20 protein, VP24 protein, VP25; Cheravirus, capsid stabilization, genome release;{Apple latent spherical virus}
+Probab=12.14  E-value=2.2e+02  Score=13.89  Aligned_cols=6  Identities=50%  Similarity=1.010  Sum_probs=0.0  Template_Neff=2.100
+
+Q MHVNIQ            1 MHVNIQ    6 (6)
+Q Consensus         1 mhvniq    6 (6)
+                      .|++||
+T Consensus       147 vh~~iq  152 (176)
+T 7CHK_A          147 IHVTVQ  152 (176)
+T ss_dssp             EEEEEE
+T ss_pred             EEEEEE
+
+
+No 8
+>5XYN_D Platinum sensitivity protein 3, Chromosome; Comlex, REPLICATION, DNA BINDING PROTEIN; 3.3A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=11.48  E-value=2.4e+02  Score=12.85  Aligned_cols=5  Identities=60%  Similarity=1.311  Sum_probs=0.0  Template_Neff=6.000
+
+Q MHVNIQ            1 MHVNI    5 (6)
+Q Consensus         1 mhvni    5 (6)
+                      .|+||
+T Consensus       217 lh~ni  221 (223)
+T 5XYN_D          217 LHINI  221 (223)
+T ss_dssp             HSTTT
+T ss_pred             heeEe
+
+
+No 9
+>7K58_K outer-arm dynein, axonemal dynein, microtubule; HET: ATP, ADP; 3.5A {Tetrahymena thermophila}
+Probab=11.07  E-value=2.5e+02  Score=10.33  Aligned_cols=5  Identities=60%  Similarity=0.660  Sum_probs=0.0  Template_Neff=7.800
+
+Q MHVNIQ            2 HVNIQ    6 (6)
+Q Consensus         2 hvniq    6 (6)
+                      |.|+|
+T Consensus         1 ~~~~~    5 (90)
+T 7K58_K            1 HANEQ    5 (90)
+T ss_pred             CCcce
+
+
+No 10
+>6DEX_B ABR011Wp, Suppressor of hydroxyurea sensitivity; Homologous recombination, Rad51 paralog, Shu; HET: NHE; 2.1A {Eremothecium gossypii ATCC 10895}
+Probab=11.04  E-value=2.5e+02  Score=12.55  Aligned_cols=5  Identities=40%  Similarity=1.165  Sum_probs=0.0  Template_Neff=6.100
+
+Q MHVNIQ            1 MHVNI    5 (6)
+Q Consensus         1 mhvni    5 (6)
+                      .|+||
+T Consensus       196 lh~n~  200 (201)
+T 6DEX_B          196 LHLNV  200 (201)
+T ss_dssp             HTTTT
+T ss_pred             heeee
+
+

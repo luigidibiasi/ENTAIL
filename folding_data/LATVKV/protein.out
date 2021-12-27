@@ -1,0 +1,149 @@
+Query         LATVKV
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 15:41:35 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LATVKV/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LATVKV/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5ZT0_I Serine/threonine-protei   3.8   1E+03   0.011    9.5   0.0    6    1-6      43-48  (75)
+  2 4R4G_A putative lipoprotein Yc   3.7   1E+03   0.011   10.3   0.0    5    2-6     234-238 (326)
+  3 7DCK_A Phosphodiesterase, Mang   3.7   1E+03   0.011    9.5   0.0    4    3-6      14-17  (248)
+  4 3NSW_B Excretory-secretory pro   3.6 1.1E+03   0.012    9.3   0.0    6    1-6      25-30  (106)
+  5 5ZQV_E Serine/threonine-protei   3.5 1.1E+03   0.012   10.0   0.0    6    1-6      74-79  (99)
+  6 6VAG_A Phosphoprotein; Paramyx   3.1 1.3E+03   0.014    9.7   0.0    6    1-6     100-105 (107)
+  7 1TQJ_A Ribulose-phosphate 3-ep   2.8 1.5E+03   0.016    8.7   0.0    4    1-4     227-230 (230)
+  8 4DS7_E Calmodulin, Spindle pol   2.8 1.5E+03   0.016    8.9   0.0    6    1-6      20-25  (55)
+  9 2GA4_D Shiga-like toxin II sub   2.7 1.5E+03   0.017    9.8   0.0    4    3-6      20-23  (70)
+ 10 4M1U_B Shiga toxin 2 A-subunit   2.7 1.5E+03   0.017    9.8   0.0    4    3-6      20-23  (70)
+
+No 1
+>5ZT0_I Serine/threonine-protein phosphatase PP1-alpha catalytic subunit; protein phosphorylase 1 holoenzyme, HYDROLASE; HET: PO4, MN; 3.32042678506A {Mus musculus}
+Probab=3.77  E-value=1e+03  Score=9.54  Aligned_cols=6  Identities=67%  Similarity=0.778  Sum_probs=0.0  Template_Neff=5.000
+
+Q LATVKV            1 LATVKV    6 (6)
+Q Consensus         1 latvkv    6 (6)
+                      |..|++
+T Consensus        43 L~~Vr~   48 (75)
+T 5ZT0_I           43 LTMVKV   48 (75)
+T ss_pred             ceEEEE
+
+
+No 2
+>4R4G_A putative lipoprotein YcdA; Two domain protein, N-terminal domain; HET: PG4; 2.62A {Bacillus subtilis subsp. subtilis str. 168}
+Probab=3.72  E-value=1e+03  Score=10.35  Aligned_cols=5  Identities=40%  Similarity=0.434  Sum_probs=0.0  Template_Neff=8.900
+
+Q LATVKV            2 ATVKV    6 (6)
+Q Consensus         2 atvkv    6 (6)
+                      |+|+|
+T Consensus       234 a~V~V  238 (326)
+T 4R4G_A          234 AIVEA  238 (326)
+T ss_dssp             EEEEE
+T ss_pred             EEEEE
+
+
+No 3
+>7DCK_A Phosphodiesterase, Manganese, HYDROLASE; 2.34A {Epsilonproteobacteria bacterium (ex Lamellibrachia satsuma)}
+Probab=3.72  E-value=1e+03  Score=9.46  Aligned_cols=4  Identities=75%  Similarity=1.016  Sum_probs=0.0  Template_Neff=9.900
+
+Q LATVKV            3 TVKV    6 (6)
+Q Consensus         3 tvkv    6 (6)
+                      ||||
+T Consensus        14 ~~~~   17 (248)
+T 7DCK_A           14 TVKI   17 (248)
+T ss_dssp             CCEE
+T ss_pred             eeEE
+
+
+No 4
+>3NSW_B Excretory-secretory protein 2; Ancylostoma ceylanicum, hookworm, excretory-secretory protein; HET: EPE; 1.75A {Ancylostoma ceylanicum}
+Probab=3.56  E-value=1.1e+03  Score=9.33  Aligned_cols=6  Identities=50%  Similarity=0.512  Sum_probs=0.0  Template_Neff=6.800
+
+Q LATVKV            1 LATVKV    6 (6)
+Q Consensus         1 latvkv    6 (6)
+                      .|.|||
+T Consensus        25 Va~VkV   30 (106)
+T 3NSW_B           25 VAYVTV   30 (106)
+T ss_dssp             EEEEEE
+T ss_pred             eEEEEE
+
+
+No 5
+>5ZQV_E Serine/threonine-protein phosphatase PP1-alpha catalytic subunit; Glycogen metabolism, Protein Phosphate 1; HET: FLC; 2.95A {Mus musculus}
+Probab=3.50  E-value=1.1e+03  Score=9.99  Aligned_cols=6  Identities=50%  Similarity=0.573  Sum_probs=0.0  Template_Neff=4.700
+
+Q LATVKV            1 LATVKV    6 (6)
+Q Consensus         1 latvkv    6 (6)
+                      |..||+
+T Consensus        74 L~~Vk~   79 (99)
+T 5ZQV_E           74 LVSVKE   79 (99)
+T ss_dssp             SEEEEE
+T ss_pred             CeEEEE
+
+
+No 6
+>6VAG_A Phosphoprotein; Paramyxovirus, Phosphoprotein, Oligomerization domain, VIRAL; HET: GOL; 1.4A {Parainfluenza virus 5 (strain W3)}
+Probab=3.12  E-value=1.3e+03  Score=9.66  Aligned_cols=6  Identities=50%  Similarity=0.866  Sum_probs=0.0  Template_Neff=5.500
+
+Q LATVKV            1 LATVKV    6 (6)
+Q Consensus         1 latvkv    6 (6)
+                      |+++|+
+T Consensus       100 lssi~I  105 (107)
+T 6VAG_A          100 ITTVKI  105 (107)
+T ss_dssp             C-----
+T ss_pred             HHhhhc
+
+
+No 7
+>1TQJ_A Ribulose-phosphate 3-epimerase (E.C.5.1.3.1); beta-alpha barrel epimerase, ISOMERASE; 1.6A {Synechocystis sp.} SCOP: c.1.2.2
+Probab=2.78  E-value=1.5e+03  Score=8.75  Aligned_cols=4  Identities=100%  Similarity=1.024  Sum_probs=0.0  Template_Neff=10.300
+
+Q LATVKV            1 LATV    4 (6)
+Q Consensus         1 latv    4 (6)
+                      ||||
+T Consensus       227 ~~~~  230 (230)
+T 1TQJ_A          227 LATV  230 (230)
+T ss_dssp             ----
+T ss_pred             cccC
+
+
+No 8
+>4DS7_E Calmodulin, Spindle pole body component; PROTEIN BINDING, METAL BINDING, SPINDLE; HET: GOL; 2.15A {Kluyveromyces lactis}
+Probab=2.76  E-value=1.5e+03  Score=8.89  Aligned_cols=6  Identities=50%  Similarity=0.756  Sum_probs=0.0  Template_Neff=4.100
+
+Q LATVKV            1 LATVKV    6 (6)
+Q Consensus         1 latvkv    6 (6)
+                      ||.|+.
+T Consensus        20 LA~VRm   25 (55)
+T 4DS7_E           20 LACVRM   25 (55)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 9
+>2GA4_D Shiga-like toxin II subunit A; AB5-toxin, TOXIN; HET: ADE, 1PS, FMT; 1.8A {Enterobacteria phage 933W} SCOP: b.40.2.1
+Probab=2.73  E-value=1.5e+03  Score=9.83  Aligned_cols=4  Identities=100%  Similarity=1.041  Sum_probs=0.0  Template_Neff=1.400
+
+Q LATVKV            3 TVKV    6 (6)
+Q Consensus         3 tvkv    6 (6)
+                      ||||
+T Consensus        20 tvkv   23 (70)
+T 2GA4_D           20 TVKV   23 (70)
+T ss_dssp             EEEE
+T ss_pred             EEEE
+
+
+No 10
+>4M1U_B Shiga toxin 2 A-subunit (E.C.3.2.2.22); rRNA N-glycosylase, HYDROLASE; HET: 1PS, MBG, A2G; 1.56A {Escherichia coli O157:H7}
+Probab=2.73  E-value=1.5e+03  Score=9.83  Aligned_cols=4  Identities=100%  Similarity=1.041  Sum_probs=0.0  Template_Neff=1.400
+
+Q LATVKV            3 TVKV    6 (6)
+Q Consensus         3 tvkv    6 (6)
+                      ||||
+T Consensus        20 tvkv   23 (70)
+T 4M1U_B           20 TVKV   23 (70)
+T ss_dssp             EEEE
+T ss_pred             EEEE
+
+

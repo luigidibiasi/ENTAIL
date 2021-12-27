@@ -1,0 +1,148 @@
+Query         PSDIEV
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 06:29:53 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/PSDIEV/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/PSDIEV/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 7DN2_2 CAPSID, PHAGE, PHAGE HE  14.7 1.7E+02  0.0018   13.2   0.0    6    1-6     119-124 (126)
+  2 7F2P_2 CAPSID, PHAGE, PHAGE HE  13.5 1.9E+02  0.0021   12.9   0.0    6    1-6     117-122 (124)
+  3 1UT7_A NO APICAL MERISTEM PROT  11.8 2.3E+02  0.0025   11.1   0.0    6    1-6      25-30  (171)
+  4 6HQU_J DNA repair and recombin  11.6 2.3E+02  0.0026   10.6   0.0    4    2-5      17-20  (38)
+  5 6HQU_K DNA repair and recombin  11.6 2.3E+02  0.0026   10.6   0.0    4    2-5      17-20  (38)
+  6 7C11_B Formate--tetrahydrofola  11.5 2.4E+02  0.0026   14.7   0.0    6    1-6       2-7   (568)
+  7 2AGH_C Myb proto-oncogene prot  11.4 2.4E+02  0.0026   10.6   0.0    4    1-4       8-11  (31)
+  8 6UN8_A Kanamycin nucleotidyltr  11.4 2.4E+02  0.0026   11.1   0.0    5    2-6      49-53  (253)
+  9 6M6U_F Toxin-antitoxin system   11.2 2.5E+02  0.0027   10.3   0.0    5    2-6      38-42  (139)
+ 10 1YLQ_A putative nucleotidyltra  11.0 2.5E+02  0.0028    9.4   0.0    6    1-6      35-40  (96)
+
+No 1
+>7DN2_2 CAPSID, PHAGE, PHAGE HEAD, CRYOEM;{Helicobacter pylori bacteriophage KHP30}
+Probab=14.67  E-value=1.7e+02  Score=13.16  Aligned_cols=6  Identities=83%  Similarity=0.994  Sum_probs=3.3  Template_Neff=3.800
+
+Q PSDIEV            1 PSDIEV    6 (6)
+Q Consensus         1 psdiev    6 (6)
+                      ||.|++
+T Consensus       119 PS~i~v  124 (126)
+T 7DN2_2          119 PSVIEV  124 (126)
+T ss_pred             cceEEE
+Confidence            566653
+
+
+No 2
+>7F2P_2 CAPSID, PHAGE, PHAGE HEAD, CRYOEM;{Helicobacter phage KHP40}
+Probab=13.51  E-value=1.9e+02  Score=12.90  Aligned_cols=6  Identities=83%  Similarity=0.994  Sum_probs=3.1  Template_Neff=4.000
+
+Q PSDIEV            1 PSDIEV    6 (6)
+Q Consensus         1 psdiev    6 (6)
+                      ||.|++
+T Consensus       117 PS~i~v  122 (124)
+T 7F2P_2          117 PSVIEV  122 (124)
+T ss_pred             cceEEE
+Confidence            555553
+
+
+No 3
+>1UT7_A NO APICAL MERISTEM PROTEIN; TRANSCRIPTION REGULATION, TRANSCRIPTION, TRANSCRIPTION FACTOR; 1.9A {ARABIDOPSIS THALIANA} SCOP: b.143.1.1
+Probab=11.78  E-value=2.3e+02  Score=11.05  Aligned_cols=6  Identities=50%  Similarity=0.916  Sum_probs=0.0  Template_Neff=8.900
+
+Q PSDIEV            1 PSDIEV    6 (6)
+Q Consensus         1 psdiev    6 (6)
+                      |+|.|+
+T Consensus        25 Ptd~El   30 (171)
+T 1UT7_A           25 PTDEEL   30 (171)
+T ss_dssp             CCHHHC
+T ss_pred             CCHHHH
+
+
+No 4
+>6HQU_J DNA repair and recombination protein; RadA, Rad51, BRC repeat, recombinase; HET: ADP; 1.97A {Pyrococcus furiosus (strain ATCC 43587 / DSM 3638 / JCM 8422 / Vc1)}
+Probab=11.61  E-value=2.3e+02  Score=10.59  Aligned_cols=4  Identities=100%  Similarity=1.207  Sum_probs=0.0  Template_Neff=3.500
+
+Q PSDIEV            2 SDIE    5 (6)
+Q Consensus         2 sdie    5 (6)
+                      ||||
+T Consensus        17 SdiE   20 (38)
+T 6HQU_J           17 SDIE   20 (38)
+T ss_dssp             CC--
+T ss_pred             Hhhh
+
+
+No 5
+>6HQU_K DNA repair and recombination protein; RadA, Rad51, BRC repeat, recombinase; HET: ADP; 1.97A {Pyrococcus furiosus (strain ATCC 43587 / DSM 3638 / JCM 8422 / Vc1)}
+Probab=11.61  E-value=2.3e+02  Score=10.59  Aligned_cols=4  Identities=100%  Similarity=1.207  Sum_probs=0.0  Template_Neff=3.500
+
+Q PSDIEV            2 SDIE    5 (6)
+Q Consensus         2 sdie    5 (6)
+                      ||||
+T Consensus        17 SdiE   20 (38)
+T 6HQU_K           17 SDIE   20 (38)
+T ss_pred             Hhhh
+
+
+No 6
+>7C11_B Formate--tetrahydrofolate ligase (E.C.6.3.4.3); Formate assimilation, Methylobacterium extorquens CM4; HET: TLA, FLC; 2.815A {Methylorubrum extorquens (strain CM4 / NCIMB 13688)}
+Probab=11.46  E-value=2.4e+02  Score=14.74  Aligned_cols=6  Identities=83%  Similarity=1.398  Sum_probs=0.0  Template_Neff=5.600
+
+Q PSDIEV            1 PSDIEV    6 (6)
+Q Consensus         1 psdiev    6 (6)
+                      |||||+
+T Consensus         2 ~~d~ei    7 (568)
+T 7C11_B            2 PSDIEI    7 (568)
+T ss_dssp             CCHHHH
+T ss_pred             CCHHHH
+
+
+No 7
+>2AGH_C Myb proto-oncogene protein, Crebbp protein; Transcription; NMR {Mus musculus}
+Probab=11.44  E-value=2.4e+02  Score=10.61  Aligned_cols=4  Identities=100%  Similarity=1.539  Sum_probs=0.0  Template_Neff=1.800
+
+Q PSDIEV            1 PSDI    4 (6)
+Q Consensus         1 psdi    4 (6)
+                      ||||
+T Consensus         8 Psdi   11 (31)
+T 2AGH_C            8 PSDI   11 (31)
+T ss_dssp             CHHH
+T ss_pred             cchH
+
+
+No 8
+>6UN8_A Kanamycin nucleotidyltransferase (E.C.2.7.7.-); antibiotic resistance, neomycin, TRANSFERASE-ANTIBIOTIC complex; HET: NMY; 1.65A {Staphylococcus aureus}
+Probab=11.41  E-value=2.4e+02  Score=11.10  Aligned_cols=5  Identities=80%  Similarity=1.072  Sum_probs=0.0  Template_Neff=10.100
+
+Q PSDIEV            2 SDIEV    6 (6)
+Q Consensus         2 sdiev    6 (6)
+                      |||++
+T Consensus        49 SDiDl   53 (253)
+T 6UN8_A           49 SDIEM   53 (253)
+T ss_dssp             CCEEE
+T ss_pred             CCeEE
+
+
+No 9
+>6M6U_F Toxin-antitoxin system antidote Mnt family; crystal structure of a unique; 2.349A {Shewanella oneidensis MR-1}
+Probab=11.17  E-value=2.5e+02  Score=10.25  Aligned_cols=5  Identities=60%  Similarity=1.039  Sum_probs=0.0  Template_Neff=9.600
+
+Q PSDIEV            2 SDIEV    6 (6)
+Q Consensus         2 sdiev    6 (6)
+                      |||.+
+T Consensus        38 SDIDl   42 (139)
+T 6M6U_F           38 SEIEI   42 (139)
+T ss_pred             CCeEE
+
+
+No 10
+>1YLQ_A putative nucleotidyltransferase, hypothetical protein AF0614; nucleotidyltransferase, Structural Genomics, PSI, Protein; HET: SO4; 2.016A {Archaeoglobus fulgidus} SCOP: d.218.1.5
+Probab=11.02  E-value=2.5e+02  Score=9.37  Aligned_cols=6  Identities=67%  Similarity=0.816  Sum_probs=0.0  Template_Neff=10.000
+
+Q PSDIEV            1 PSDIEV    6 (6)
+Q Consensus         1 psdiev    6 (6)
+                      .|||++
+T Consensus        35 ~SDiDl   40 (96)
+T 1YLQ_A           35 LSDIDV   40 (96)
+T ss_dssp             CCSEEE
+T ss_pred             CCceEE
+
+

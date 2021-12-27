@@ -1,0 +1,150 @@
+Query         SSTNVG
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 16:49:45 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/SSTNVG/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/SSTNVG/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 1K4M_A E.coli NaMN adenylyltra  11.7 2.3E+02  0.0026   10.8   0.0    5    1-5     180-184 (213)
+  2 3DO8_A Phosphopantetheine aden  10.5 2.7E+02   0.003   10.2   0.0    5    1-5     132-136 (148)
+  3 1V8F_A Pantoate-beta-alanine l  10.5 2.7E+02   0.003   12.3   0.0    5    1-5     181-185 (276)
+  4 3N8H_A Pantothenate synthetase  10.4 2.7E+02   0.003   12.8   0.0    5    1-5     188-192 (264)
+  5 2DGZ_A Werner syndrome protein  10.0 2.9E+02  0.0032   10.4   0.0    6    1-6       2-7   (113)
+  6 3NV7_A Phosphopantetheine aden   9.9 2.9E+02  0.0032    9.6   0.0    5    1-5     128-132 (157)
+  7 1COZ_B GLYCEROL-3-PHOSPHATE CY   9.9 2.9E+02  0.0032    9.4   0.0    5    1-5     118-122 (129)
+  8 3MLA_B nicotinate-nucleotide a   9.7   3E+02  0.0033   10.2   0.0    5    1-5     157-161 (191)
+  9 6VW2_B Islet amyloid polypepti   9.7   3E+02  0.0033   11.1   0.0    6    1-6     146-151 (155)
+ 10 1UFV_A Pantoate-beta-alanine l   9.7   3E+02  0.0033   12.2   0.0    5    1-5     181-185 (276)
+
+No 1
+>1K4M_A E.coli NaMN adenylyltransferase, NICOTINAMIDE-ADENINE-DINUCLEOTIDE, CITRIC; Nucleotidyltransferase, TRANSFERASE; HET: CIT, NAD; 1.9A {Escherichia coli} SCOP: c.26.1.3
+Probab=11.67  E-value=2.3e+02  Score=10.83  Aligned_cols=5  Identities=40%  Similarity=0.408  Sum_probs=0.0  Template_Neff=10.100
+
+Q SSTNVG            1 SSTNV    5 (6)
+Q Consensus         1 sstnv    5 (6)
+                      |||.+
+T Consensus       180 SST~I  184 (213)
+T 1K4M_A          180 SATII  184 (213)
+T ss_dssp             CHHHH
+T ss_pred             CHHHH
+
+
+No 2
+>3DO8_A Phosphopantetheine adenylyltransferase (E.C.2.7.7.3); Protein with unknown function, Archaeoglobus; 1.6A {Archaeoglobus fulgidus}
+Probab=10.51  E-value=2.7e+02  Score=10.17  Aligned_cols=5  Identities=60%  Similarity=0.687  Sum_probs=0.0  Template_Neff=9.800
+
+Q SSTNVG            1 SSTNV    5 (6)
+Q Consensus         1 sstnv    5 (6)
+                      |||.+
+T Consensus       132 SSt~I  136 (148)
+T 3DO8_A          132 SSTRI  136 (148)
+T ss_dssp             CCCCC
+T ss_pred             cHHHH
+
+
+No 3
+>1V8F_A Pantoate-beta-alanine ligase(E.C.6.3.2.1); Ligase, Rossmann Fold, Dimer, Structural; HET: GOL, P6G; 1.9A {Thermus thermophilus} SCOP: c.26.1.4
+Probab=10.47  E-value=2.7e+02  Score=12.34  Aligned_cols=5  Identities=80%  Similarity=0.760  Sum_probs=0.0  Template_Neff=7.600
+
+Q SSTNVG            1 SSTNV    5 (6)
+Q Consensus         1 sstnv    5 (6)
+                      ||+|+
+T Consensus       181 SSrn~  185 (276)
+T 1V8F_A          181 SSRNV  185 (276)
+T ss_dssp             CGGGG
+T ss_pred             cccce
+
+
+No 4
+>3N8H_A Pantothenate synthetase (E.C.6.3.2.1); alpha-beta sandwich, Ligase, Structural Genomics; HET: AMP, GOL, PRO, MSE; 2.001A {Francisella tularensis subsp. tularensis}
+Probab=10.40  E-value=2.7e+02  Score=12.75  Aligned_cols=5  Identities=60%  Similarity=0.421  Sum_probs=0.0  Template_Neff=6.500
+
+Q SSTNVG            1 SSTNV    5 (6)
+Q Consensus         1 sstnv    5 (6)
+                      ||+|+
+T Consensus       188 SSrni  192 (264)
+T 3N8H_A          188 SSRNK  192 (264)
+T ss_dssp             CGGGG
+T ss_pred             ccccc
+
+
+No 5
+>2DGZ_A Werner syndrome protein variant (E.C.3.6.1.-); HRDC domain, Structural Genomics, NPPSFA; NMR {Homo sapiens} SCOP: a.60.8.1
+Probab=9.98  E-value=2.9e+02  Score=10.38  Aligned_cols=6  Identities=50%  Similarity=0.545  Sum_probs=0.0  Template_Neff=8.200
+
+Q SSTNVG            1 SSTNVG    6 (6)
+Q Consensus         1 sstnvg    6 (6)
+                      ||+|++
+T Consensus         2 ~~~~~~    7 (113)
+T 2DGZ_A            2 SSGSSG    7 (113)
+T ss_dssp             CCCCCC
+T ss_pred             CCCccc
+
+
+No 6
+>3NV7_A Phosphopantetheine adenylyltransferase (E.C.2.7.7.3); Helicobacter pylori 26695 strain, mutant; HET: SO4; 1.75A {Helicobacter pylori}
+Probab=9.89  E-value=2.9e+02  Score=9.63  Aligned_cols=5  Identities=60%  Similarity=0.434  Sum_probs=0.0  Template_Neff=10.900
+
+Q SSTNVG            1 SSTNV    5 (6)
+Q Consensus         1 sstnv    5 (6)
+                      |||.+
+T Consensus       128 Sst~i  132 (157)
+T 3NV7_A          128 SSSIV  132 (157)
+T ss_dssp             CHHHH
+T ss_pred             CHHHH
+
+
+No 7
+>1COZ_B GLYCEROL-3-PHOSPHATE CYTIDYLYLTRANSFERASE; TRANSFERASE; HET: CTP; 2.0A {Bacillus subtilis} SCOP: c.26.1.2
+Probab=9.88  E-value=2.9e+02  Score=9.39  Aligned_cols=5  Identities=40%  Similarity=0.674  Sum_probs=0.0  Template_Neff=10.700
+
+Q SSTNVG            1 SSTNV    5 (6)
+Q Consensus         1 sstnv    5 (6)
+                      |||.+
+T Consensus       118 Sst~I  122 (129)
+T 1COZ_B          118 STTKI  122 (129)
+T ss_dssp             CHHHH
+T ss_pred             CHHHH
+
+
+No 8
+>3MLA_B nicotinate-nucleotide adenylyltransferase (E.C.2.7.7.18); NMNAT-inhibitor complex, TRANSFERASE; HET: JJZ, FMT; 1.75A {Bacillus anthracis}
+Probab=9.73  E-value=3e+02  Score=10.20  Aligned_cols=5  Identities=40%  Similarity=0.315  Sum_probs=0.0  Template_Neff=10.400
+
+Q SSTNVG            1 SSTNV    5 (6)
+Q Consensus         1 sstnv    5 (6)
+                      |||.+
+T Consensus       157 SSt~I  161 (191)
+T 3MLA_B          157 SSSLL  161 (191)
+T ss_dssp             CHHHH
+T ss_pred             CHHHH
+
+
+No 9
+>6VW2_B Islet amyloid polypeptide (SUMO-tagged); hIAPP, type II diabetes, amyloid; 3.4A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=9.70  E-value=3e+02  Score=11.13  Aligned_cols=6  Identities=100%  Similarity=1.149  Sum_probs=0.0  Template_Neff=7.700
+
+Q SSTNVG            1 SSTNVG    6 (6)
+Q Consensus         1 sstnvg    6 (6)
+                      .+||+|
+T Consensus       146 ~~~~~~  151 (155)
+T 6VW2_B          146 SSTNVG  151 (155)
+T ss_dssp             EEEEES
+T ss_pred             eecccC
+
+
+No 10
+>1UFV_A Pantoate-beta-alanine ligase(E.C.6.3.2.1); Structural Genomics, Dimer, Domains, Rossmann; HET: GOL, MSE; 2.05A {Thermus thermophilus} SCOP: c.26.1.4
+Probab=9.67  E-value=3e+02  Score=12.20  Aligned_cols=5  Identities=80%  Similarity=0.760  Sum_probs=0.0  Template_Neff=7.600
+
+Q SSTNVG            1 SSTNV    5 (6)
+Q Consensus         1 sstnv    5 (6)
+                      ||+|+
+T Consensus       181 SS~n~  185 (276)
+T 1UFV_A          181 SSRNV  185 (276)
+T ss_dssp             CGGGG
+T ss_pred             cccce
+
+

@@ -1,0 +1,150 @@
+Query         KAKEGV
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 10:13:08 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/KAKEGV/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/KAKEGV/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3Q25_A Maltose-binding peripla  58.3     8.8 9.7E-05   15.2   0.0    6    1-6     381-386 (390)
+  2 3U4G_A NaMN:DMB phosphoribosyl   9.9 2.9E+02  0.0032   13.2   0.0    5    2-6     299-303 (337)
+  3 2E60_A Splicing factor, argini   9.4 3.1E+02  0.0035   10.7   0.0    6    1-6      95-100 (101)
+  4 2N9Z_A Tau-theraphotoxin-Hs1a;   9.2 3.2E+02  0.0036   10.9   0.0    4    2-5       3-6   (42)
+  5 1T0B_G ThuA-like protein; treh   8.5 3.6E+02  0.0039   10.9   0.0    5    1-5     244-248 (252)
+  6 7LC9_D N-terminal alpha-synucl   8.3 3.7E+02  0.0041   11.9   0.0    6    1-6       3-8   (100)
+  7 2HZ8_A De novo designed diiron   8.0 3.9E+02  0.0043   12.4   0.0    5    1-5      24-28  (115)
+  8 1T0B_C ThuA-like protein; treh   7.8   4E+02  0.0045   10.8   0.0    5    1-5     244-248 (252)
+  9 6A6B_I Alpha-synuclein; alpha-   7.2 4.5E+02  0.0049   10.9   0.0    6    1-6       7-12  (63)
+ 10 3NYN_A G protein-coupled recep   7.0 4.7E+02  0.0052   12.5   0.0    5    1-5      14-18  (576)
+
+No 1
+>3Q25_A Maltose-binding periplasmic protein/alpha-synuclein chimeric protein; fusion protein, amyloid, SUGAR BINDING; HET: GLC, SO4, GOL; 1.9A {Escherichia coli}
+Probab=58.30  E-value=8.8  Score=15.19  Aligned_cols=6  Identities=100%  Similarity=1.243  Sum_probs=3.8  Template_Neff=11.100
+
+Q KAKEGV            1 KAKEGV    6 (6)
+Q Consensus         1 kakegv    6 (6)
+                      ++||||
+T Consensus       381 ~~~~~~  386 (390)
+T 3Q25_A          381 KAKEGV  386 (390)
+T ss_dssp             HHTCCC
+T ss_pred             Hhhccc
+Confidence            467775
+
+
+No 2
+>3U4G_A NaMN:DMB phosphoribosyltransferase; Structural Genomics, PSI-Biology, Midwest Center; HET: SO4; 1.9A {Pyrococcus horikoshii}
+Probab=9.86  E-value=2.9e+02  Score=13.23  Aligned_cols=5  Identities=80%  Similarity=1.125  Sum_probs=0.0  Template_Neff=6.200
+
+Q KAKEGV            2 AKEGV    6 (6)
+Q Consensus         2 akegv    6 (6)
+                      .||||
+T Consensus       299 vKEGv  303 (337)
+T 3U4G_A          299 VKEGV  303 (337)
+T ss_dssp             SCCCT
+T ss_pred             CCCCC
+
+
+No 3
+>2E60_A Splicing factor, arginine/serine-rich 8; SURP domain, Structural Genomics, NPPSFA; NMR {Homo sapiens}
+Probab=9.40  E-value=3.1e+02  Score=10.73  Aligned_cols=6  Identities=67%  Similarity=0.900  Sum_probs=0.0  Template_Neff=6.800
+
+Q KAKEGV            1 KAKEGV    6 (6)
+Q Consensus         1 kakegv    6 (6)
+                      ++|.||
+T Consensus        95 ~~~~~~  100 (101)
+T 2E60_A           95 KKKSGV  100 (101)
+T ss_pred             hhhhcc
+
+
+No 4
+>2N9Z_A Tau-theraphotoxin-Hs1a; trpv1, tarantula, spider, ICK, double-knot; NMR {N/A}
+Probab=9.20  E-value=3.2e+02  Score=10.87  Aligned_cols=4  Identities=100%  Similarity=1.315  Sum_probs=0.0  Template_Neff=1.200
+
+Q KAKEGV            2 AKEG    5 (6)
+Q Consensus         2 akeg    5 (6)
+                      ||||
+T Consensus         3 akeg    6 (42)
+T 2N9Z_A            3 AKEG    6 (42)
+T ss_dssp             BCTT
+T ss_pred             cccc
+
+
+No 5
+>1T0B_G ThuA-like protein; trehalose metabolism, NCS symmetry, Structural; 1.7A {Geobacillus stearothermophilus} SCOP: c.23.16.6
+Probab=8.52  E-value=3.6e+02  Score=10.87  Aligned_cols=5  Identities=80%  Similarity=1.139  Sum_probs=0.0  Template_Neff=9.600
+
+Q KAKEGV            1 KAKEG    5 (6)
+Q Consensus         1 kakeg    5 (6)
+                      |||.|
+T Consensus       244 ~~~~~  248 (252)
+T 1T0B_G          244 KAKQG  248 (252)
+T ss_dssp             CCCC-
+T ss_pred             hhhcC
+
+
+No 6
+>7LC9_D N-terminal alpha-synuclein truncation, PROTEIN FIBRIL;{Homo sapiens}
+Probab=8.35  E-value=3.7e+02  Score=11.92  Aligned_cols=6  Identities=83%  Similarity=1.143  Sum_probs=0.0  Template_Neff=3.200
+
+Q KAKEGV            1 KAKEGV    6 (6)
+Q Consensus         1 kakegv    6 (6)
+                      |-||||
+T Consensus         3 ktkegv    8 (100)
+T 7LC9_D            3 KTKEGV    8 (100)
+T ss_dssp             ---CCB
+T ss_pred             cchhch
+
+
+No 7
+>2HZ8_A De novo designed diiron protein; four-helix bundle, DE NOVO PROTEIN; NMR {Escherichia coli}
+Probab=8.01  E-value=3.9e+02  Score=12.38  Aligned_cols=5  Identities=100%  Similarity=1.265  Sum_probs=0.0  Template_Neff=1.000
+
+Q KAKEGV            1 KAKEG    5 (6)
+Q Consensus         1 kakeg    5 (6)
+                      |||||
+T Consensus        24 kakeg   28 (115)
+T 2HZ8_A           24 KAKEG   28 (115)
+T ss_dssp             HHHHT
+T ss_pred             HhhcC
+
+
+No 8
+>1T0B_C ThuA-like protein; trehalose metabolism, NCS symmetry, Structural; 1.7A {Geobacillus stearothermophilus} SCOP: c.23.16.6
+Probab=7.76  E-value=4e+02  Score=10.82  Aligned_cols=5  Identities=80%  Similarity=1.139  Sum_probs=0.0  Template_Neff=9.400
+
+Q KAKEGV            1 KAKEG    5 (6)
+Q Consensus         1 kakeg    5 (6)
+                      |||.|
+T Consensus       244 ~~~~~  248 (252)
+T 1T0B_C          244 KAKQG  248 (252)
+T ss_dssp             CC---
+T ss_pred             hhhcC
+
+
+No 9
+>6A6B_I Alpha-synuclein; alpha-syn fiber, Parkinson disease, PROTEIN; 3.07A {Homo sapiens}
+Probab=7.19  E-value=4.5e+02  Score=10.87  Aligned_cols=6  Identities=83%  Similarity=1.143  Sum_probs=0.0  Template_Neff=3.100
+
+Q KAKEGV            1 KAKEGV    6 (6)
+Q Consensus         1 kakegv    6 (6)
+                      |.|||+
+T Consensus         7 Ktkegv   12 (63)
+T 6A6B_I            7 KTKEGV   12 (63)
+T ss_dssp             SCCBSC
+T ss_pred             ccccce
+
+
+No 10
+>3NYN_A G protein-coupled receptor kinase 6; Kinase, GRK, RGS homology domain; HET: BU3, SO4, SGV; 2.72A {Homo sapiens}
+Probab=6.95  E-value=4.7e+02  Score=12.51  Aligned_cols=5  Identities=80%  Similarity=1.232  Sum_probs=0.0  Template_Neff=8.500
+
+Q KAKEGV            1 KAKEG    5 (6)
+Q Consensus         1 kakeg    5 (6)
+                      ||+||
+T Consensus        14 ~~~~~   18 (576)
+T 3NYN_A           14 KAREG   18 (576)
+T ss_dssp             HHHHH
+T ss_pred             eeccc
+
+

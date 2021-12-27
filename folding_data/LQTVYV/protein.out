@@ -1,0 +1,150 @@
+Query         LQTVYV
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 20:16:41 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LQTVYV/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LQTVYV/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 7CUJ_C telomere, DNA BINDING P  23.9      76 0.00084   12.6   0.0    6    1-6      24-29  (45)
+  2 6TN7_B Activity-regulated cyto   8.1 3.8E+02  0.0042   12.1   0.0    5    2-6      37-41  (97)
+  3 5XOG_C DNA-directed RNA polyme   7.8   4E+02  0.0045   12.1   0.0    4    2-5     282-285 (304)
+  4 1K8F_C ADENYLYL CYCLASE-ASSOCI   7.6 4.2E+02  0.0046   11.6   0.0    5    2-6      31-35  (157)
+  5 1K4Z_A Adenylyl Cyclase-Associ   7.4 4.3E+02  0.0048   11.6   0.0    5    2-6      32-36  (159)
+  6 4X3X_A ACTIVITY-REGULATED CYTO   7.4 4.3E+02  0.0048   11.8   0.0    5    2-6      38-42  (90)
+  7 4Q2L_A Major facilitator super   7.1 4.5E+02   0.005   10.5   0.0    5    2-6      47-51  (70)
+  8 7DS2_B F-actin-capping protein   6.9 4.7E+02  0.0052   12.6   0.0    6    1-6     228-233 (244)
+  9 7DS6_B F-actin-capping protein   6.9 4.7E+02  0.0052   12.6   0.0    6    1-6     228-233 (244)
+ 10 2M7O_A uncharacterized protein   6.7 4.9E+02  0.0054   10.8   0.0    6    1-6      27-32  (70)
+
+No 1
+>7CUJ_C telomere, DNA BINDING PROTEIN; 2.4A {Schizosaccharomyces pombe (strain 972 / ATCC 24843)}
+Probab=23.93  E-value=76  Score=12.63  Aligned_cols=6  Identities=67%  Similarity=1.088  Sum_probs=3.2  Template_Neff=2.100
+
+Q LQTVYV            1 LQTVYV    6 (6)
+Q Consensus         1 lqtvyv    6 (6)
+                      |+++|+
+T Consensus        24 L~e~Y~   29 (45)
+T 7CUJ_C           24 LQELYV   29 (45)
+T ss_pred             HHHHHH
+Confidence            456663
+
+
+No 2
+>6TN7_B Activity-regulated cytoskeleton-associated protein; Arc, capsid homology, PROTEIN BINDING; HET: GOL; 1.67A {Homo sapiens}
+Probab=8.08  E-value=3.8e+02  Score=12.13  Aligned_cols=5  Identities=80%  Similarity=1.212  Sum_probs=0.0  Template_Neff=1.500
+
+Q LQTVYV            2 QTVYV    6 (6)
+Q Consensus         2 qtvyv    6 (6)
+                      ||.||
+T Consensus        37 qtLYv   41 (97)
+T 6TN7_B           37 QTLYV   41 (97)
+T ss_dssp             HHHST
+T ss_pred             hhhcc
+
+
+No 3
+>5XOG_C DNA-directed RNA polymerase subunit, DNA-directed; transcription, complex; HET: APC; 3.0A {Komagataella phaffii (strain GS115 / ATCC 20864)}
+Probab=7.76  E-value=4e+02  Score=12.13  Aligned_cols=4  Identities=100%  Similarity=1.364  Sum_probs=0.0  Template_Neff=7.300
+
+Q LQTVYV            2 QTVY    5 (6)
+Q Consensus         2 qtvy    5 (6)
+                      ||||
+T Consensus       282 ~~~~  285 (304)
+T 5XOG_C          282 QTVY  285 (304)
+T ss_dssp             ----
+T ss_pred             eeee
+
+
+No 4
+>1K8F_C ADENYLYL CYCLASE-ASSOCIATED PROTEIN; CAP, CAP1, ADENYLYL CYCLASE ASSOCIATED; 2.8A {Homo sapiens} SCOP: b.80.5.1
+Probab=7.60  E-value=4.2e+02  Score=11.59  Aligned_cols=5  Identities=40%  Similarity=0.913  Sum_probs=0.0  Template_Neff=5.800
+
+Q LQTVYV            2 QTVYV    6 (6)
+Q Consensus         2 qtvyv    6 (6)
+                      |+||+
+T Consensus        31 qsVyI   35 (157)
+T 1K8F_C           31 QVAYI   35 (157)
+T ss_dssp             CEEEE
+T ss_pred             cEEEE
+
+
+No 5
+>1K4Z_A Adenylyl Cyclase-Associated Protein; right-handed parallel beta-helix, intertwined dimer; 2.3A {Saccharomyces cerevisiae} SCOP: b.80.5.1
+Probab=7.41  E-value=4.3e+02  Score=11.57  Aligned_cols=5  Identities=0%  Similarity=0.966  Sum_probs=0.0  Template_Neff=5.800
+
+Q LQTVYV            2 QTVYV    6 (6)
+Q Consensus         2 qtvyv    6 (6)
+                      |+||+
+T Consensus        32 qsVyI   36 (159)
+T 1K4Z_A           32 ESIFI   36 (159)
+T ss_dssp             CEEEE
+T ss_pred             CEEEE
+
+
+No 6
+>4X3X_A ACTIVITY-REGULATED CYTOSKELETON-ASSOCIATED PROTEIN; ENDOCYTOSIS MEDIATOR, SIGNALING PROTEIN; 2.0A {Rattus norvegicus}
+Probab=7.38  E-value=4.3e+02  Score=11.84  Aligned_cols=5  Identities=80%  Similarity=1.212  Sum_probs=0.0  Template_Neff=1.500
+
+Q LQTVYV            2 QTVYV    6 (6)
+Q Consensus         2 qtvyv    6 (6)
+                      ||.||
+T Consensus        38 qtLYv   42 (90)
+T 4X3X_A           38 QTLYV   42 (90)
+T ss_dssp             HHHST
+T ss_pred             Hhhcc
+
+
+No 7
+>4Q2L_A Major facilitator superfamily MFS_1; Feredoxin Fold, transporter, TRANSPORT PROTEIN; 1.071A {Escherichia coli}
+Probab=7.12  E-value=4.5e+02  Score=10.46  Aligned_cols=5  Identities=40%  Similarity=0.933  Sum_probs=0.0  Template_Neff=4.800
+
+Q LQTVYV            2 QTVYV    6 (6)
+Q Consensus         2 qtvyv    6 (6)
+                      |++|+
+T Consensus        47 ~~vYv   51 (70)
+T 4Q2L_A           47 HSAYV   51 (70)
+T ss_dssp             TEEEE
+T ss_pred             CEEEE
+
+
+No 8
+>7DS2_B F-actin-capping protein subunit alpha-1, F-actin-capping; actin dynamics, actin capping protein; 1.95A {Gallus gallus}
+Probab=6.94  E-value=4.7e+02  Score=12.62  Aligned_cols=6  Identities=33%  Similarity=0.866  Sum_probs=0.0  Template_Neff=4.800
+
+Q LQTVYV            1 LQTVYV    6 (6)
+Q Consensus         1 lqtvyv    6 (6)
+                      ||.||+
+T Consensus       228 L~~VYf  233 (244)
+T 7DS2_B          228 LNEIYF  233 (244)
+T ss_dssp             HHHCCC
+T ss_pred             hhhhhh
+
+
+No 9
+>7DS6_B F-actin-capping protein subunit alpha-1, F-actin-capping; actin dynamics, actin capping protein; 1.69A {Gallus gallus}
+Probab=6.94  E-value=4.7e+02  Score=12.62  Aligned_cols=6  Identities=33%  Similarity=0.866  Sum_probs=0.0  Template_Neff=4.800
+
+Q LQTVYV            1 LQTVYV    6 (6)
+Q Consensus         1 lqtvyv    6 (6)
+                      ||.||+
+T Consensus       228 L~~VYf  233 (244)
+T 7DS6_B          228 LNEIYF  233 (244)
+T ss_dssp             HCCCCC
+T ss_pred             hhhhhh
+
+
+No 10
+>2M7O_A uncharacterized protein; Structural Genomics, Unknown Function; NMR {Streptococcus pneumoniae}
+Probab=6.71  E-value=4.9e+02  Score=10.76  Aligned_cols=6  Identities=50%  Similarity=1.005  Sum_probs=0.0  Template_Neff=3.700
+
+Q LQTVYV            1 LQTVYV    6 (6)
+Q Consensus         1 lqtvyv    6 (6)
+                      ++++||
+T Consensus        27 I~vLYv   32 (70)
+T 2M7O_A           27 IATLYV   32 (70)
+T ss_dssp             EEECCC
+T ss_pred             eEEEEE
+
+

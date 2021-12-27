@@ -1,0 +1,152 @@
+Query         SIVIIE
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 15:00:22 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/SIVIIE/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/SIVIIE/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5KLQ_A Orf34; Ser/Thr acetyltr  18.2 1.2E+02  0.0013   14.6   0.0    6    1-6     138-143 (342)
+  2 5KLP_A Orf34; Ser/Thr acetyltr  17.1 1.3E+02  0.0014   14.5   0.0    6    1-6     138-143 (342)
+  3 5KEW_C VtrA Protein, VtrC Prot  15.7 1.5E+02  0.0017   12.5   0.0    6    1-6      58-63  (94)
+  4 6BE0_A AvrA; acetyltransferase  13.3 1.9E+02  0.0021   13.7   0.0    6    1-6     138-143 (302)
+  5 6P7B_B Holliday junction resol  11.6 2.3E+02  0.0026   10.4   0.0    5    2-6      56-60  (149)
+  6 1XJC_A MobB protein homolog; s  11.1 2.5E+02  0.0027   10.4   0.0    5    2-6      99-103 (169)
+  7 6LCM_C ZmMoc1; chloroplast, re  10.9 2.5E+02  0.0028   10.6   0.0    5    2-6      67-71  (177)
+  8 1HJR_A HOLLIDAY JUNCTION RESOL  10.8 2.6E+02  0.0028   10.4   0.0    5    2-6      62-66  (158)
+  9 5E6F_A CNPV261 Holliday juncti  10.8 2.6E+02  0.0029   10.5   0.0    5    2-6      55-59  (152)
+ 10 6P7B_A Holliday junction resol  10.5 2.7E+02   0.003   10.5   0.0    6    1-6      55-60  (149)
+
+No 1
+>5KLQ_A Orf34; Ser/Thr acetyltransferase, TRANSFERASE; HET: IHP, COA, CIT; 3.4A {Pseudomonas syringae pv. syringae}
+Probab=18.18  E-value=1.2e+02  Score=14.60  Aligned_cols=6  Identities=50%  Similarity=0.866  Sum_probs=2.8  Template_Neff=5.900
+
+Q SIVIIE            1 SIVIIE    6 (6)
+Q Consensus         1 siviie    6 (6)
+                      |||++|
+T Consensus       138 SiIv~E  143 (342)
+T 5KLQ_A          138 TIIITE  143 (342)
+T ss_dssp             EEEEEE
+T ss_pred             EEEEEe
+Confidence            345444
+
+
+No 2
+>5KLP_A Orf34; Ser/Thr acetyltransferase, TRANSFERASE; HET: IHP, MSE, CIT; 2.002A {Pseudomonas syringae pv. syringae}
+Probab=17.13  E-value=1.3e+02  Score=14.52  Aligned_cols=6  Identities=50%  Similarity=0.866  Sum_probs=2.8  Template_Neff=5.800
+
+Q SIVIIE            1 SIVIIE    6 (6)
+Q Consensus         1 siviie    6 (6)
+                      |||++|
+T Consensus       138 SiIviE  143 (342)
+T 5KLP_A          138 TIIITE  143 (342)
+T ss_dssp             EEEEEE
+T ss_pred             EEEEEe
+Confidence            345544
+
+
+No 3
+>5KEW_C VtrA Protein, VtrC Protein; heterodimer, alpha/beta, calycin beta barrel; HET: 6SB, SO4, ACT, EDO; 2.103A {Vibrio parahaemolyticus serotype O3:K6 (strain RIMD 2210633)}
+Probab=15.67  E-value=1.5e+02  Score=12.51  Aligned_cols=6  Identities=33%  Similarity=0.412  Sum_probs=0.0  Template_Neff=4.400
+
+Q SIVIIE            1 SIVIIE    6 (6)
+Q Consensus         1 siviie    6 (6)
+                      |||+|.
+T Consensus        58 SiviI~   63 (94)
+T 5KEW_C           58 SFSFIS   63 (94)
+T ss_dssp             EEEEEE
+T ss_pred             EEEEec
+
+
+No 4
+>6BE0_A AvrA; acetyltransferase, YopJ family, IP6, bacterial; HET: IHP, COA; 2.438A {Salmonella typhimurium (strain 4/74)}
+Probab=13.32  E-value=1.9e+02  Score=13.69  Aligned_cols=6  Identities=33%  Similarity=0.877  Sum_probs=0.0  Template_Neff=6.000
+
+Q SIVIIE            1 SIVIIE    6 (6)
+Q Consensus         1 siviie    6 (6)
+                      |||++|
+T Consensus       138 SlIviE  143 (302)
+T 6BE0_A          138 SVILFE  143 (302)
+T ss_dssp             EEEEEE
+T ss_pred             EEEEEe
+
+
+No 5
+>6P7B_B Holliday junction resolvase/DNA complex; resolvase-DNA complex, HYDROLASE-DNA complex, TRANSCRIPTION; 3.317A {Fowlpox virus}
+Probab=11.63  E-value=2.3e+02  Score=10.44  Aligned_cols=5  Identities=60%  Similarity=1.125  Sum_probs=0.0  Template_Neff=9.600
+
+Q SIVIIE            2 IVIIE    6 (6)
+Q Consensus         2 iviie    6 (6)
+                      +|+||
+T Consensus        56 ~vviE   60 (149)
+T 6P7B_B           56 VVILE   60 (149)
+T ss_dssp             EEEEE
+T ss_pred             EEEEe
+
+
+No 6
+>1XJC_A MobB protein homolog; structural genomics, MobB, Midwest Center; 2.1A {Geobacillus stearothermophilus} SCOP: c.37.1.10
+Probab=11.15  E-value=2.5e+02  Score=10.45  Aligned_cols=5  Identities=40%  Similarity=1.046  Sum_probs=0.0  Template_Neff=9.900
+
+Q SIVIIE            2 IVIIE    6 (6)
+Q Consensus         2 iviie    6 (6)
+                      +||||
+T Consensus        99 ~viiE  103 (169)
+T 1XJC_A           99 LVLVE  103 (169)
+T ss_dssp             EEEEE
+T ss_pred             EEEEE
+
+
+No 7
+>6LCM_C ZmMoc1; chloroplast, resolvase, Holliday junction, PLANT; HET: I3C; 2.5A {Zea mays}
+Probab=10.92  E-value=2.5e+02  Score=10.60  Aligned_cols=5  Identities=40%  Similarity=0.428  Sum_probs=0.0  Template_Neff=9.700
+
+Q SIVIIE            2 IVIIE    6 (6)
+Q Consensus         2 iviie    6 (6)
+                      +|+||
+T Consensus        67 ~VviE   71 (177)
+T 6LCM_C           67 TAYIE   71 (177)
+T ss_dssp             EEEEE
+T ss_pred             EEEEE
+
+
+No 8
+>1HJR_A HOLLIDAY JUNCTION RESOLVASE (E.C.3.1.22.4) (RUVC); SITE-SPECIFIC RECOMBINASE; 2.5A {Escherichia coli} SCOP: c.55.3.6
+Probab=10.83  E-value=2.6e+02  Score=10.38  Aligned_cols=5  Identities=40%  Similarity=0.414  Sum_probs=0.0  Template_Neff=9.700
+
+Q SIVIIE            2 IVIIE    6 (6)
+Q Consensus         2 iviie    6 (6)
+                      +|+||
+T Consensus        62 ~vviE   66 (158)
+T 1HJR_A           62 YFAIE   66 (158)
+T ss_dssp             EEEEE
+T ss_pred             EEEEe
+
+
+No 9
+>5E6F_A CNPV261 Holliday junction resolvase protein; Poxvirus, Resolvase, Holliday Junction, Metal-binding; HET: TAR; 2.6A {Canarypox virus}
+Probab=10.76  E-value=2.6e+02  Score=10.55  Aligned_cols=5  Identities=40%  Similarity=1.105  Sum_probs=0.0  Template_Neff=9.200
+
+Q SIVIIE            2 IVIIE    6 (6)
+Q Consensus         2 iviie    6 (6)
+                      +|+||
+T Consensus        55 ~vviE   59 (152)
+T 5E6F_A           55 IIVLE   59 (152)
+T ss_dssp             EEEEE
+T ss_pred             EEEEe
+
+
+No 10
+>6P7B_A Holliday junction resolvase/DNA complex; resolvase-DNA complex, HYDROLASE-DNA complex, TRANSCRIPTION; 3.317A {Fowlpox virus}
+Probab=10.53  E-value=2.7e+02  Score=10.48  Aligned_cols=6  Identities=50%  Similarity=0.966  Sum_probs=0.0  Template_Neff=9.200
+
+Q SIVIIE            1 SIVIIE    6 (6)
+Q Consensus         1 siviie    6 (6)
+                      ..|+||
+T Consensus        55 ~~v~iE   60 (149)
+T 6P7B_A           55 DVVILE   60 (149)
+T ss_dssp             SEEEEE
+T ss_pred             CEEEEe
+
+

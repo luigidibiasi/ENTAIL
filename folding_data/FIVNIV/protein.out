@@ -1,0 +1,149 @@
+Query         FIVNIV
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 21:15:03 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/FIVNIV/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/FIVNIV/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 7K3G_A Envelope small membrane  68.5     4.2 4.6E-05   15.2   0.0    6    1-6       5-10  (31)
+  2 6S8B_I CRISPR-associated prote  19.1 1.1E+02  0.0012   13.9   0.0    6    1-6       5-10  (296)
+  3 6AM0_E KLLA0F23980p, KLLA0A113  18.8 1.1E+02  0.0013   13.0   0.0    5    1-5      25-29  (275)
+  4 6AM0_A KLLA0F23980p, KLLA0A113  18.7 1.1E+02  0.0013   13.1   0.0    5    1-5      25-29  (275)
+  5 6O5K_A Transcription intermedi  18.6 1.2E+02  0.0013   10.7   0.0    6    1-6       4-9   (72)
+  6 2A6T_A SPAC19A8.12; alpha/beta  18.0 1.2E+02  0.0013   12.7   0.0    5    1-5      24-28  (271)
+  7 5KQ1_E mRNA-decapping enzyme s  17.8 1.2E+02  0.0014   12.4   0.0    5    1-5      24-28  (249)
+  8 6SH8_I CRISPR-associated prote  16.7 1.4E+02  0.0015   13.8   0.0    6    1-6       5-10  (296)
+  9 6RXV_CV Periodic tryptophan pr  16.5 1.4E+02  0.0015   13.2   0.0    5    1-5      52-56  (322)
+ 10 5J3T_B mRNA-decapping enzyme s  16.2 1.4E+02  0.0016   12.1   0.0    5    1-5      19-23  (242)
+
+No 1
+>7K3G_A Envelope small membrane protein; Viroporin, Pentameric Ion Channel, Transmembrane; NMR {Severe acute respiratory syndrome coronavirus 2}
+Probab=68.49  E-value=4.2  Score=15.17  Aligned_cols=6  Identities=67%  Similarity=0.822  Sum_probs=3.9  Template_Neff=2.000
+
+Q FIVNIV            1 FIVNIV    6 (6)
+Q Consensus         1 fivniv    6 (6)
+                      ||||++
+T Consensus         5 ~IVN~~   10 (31)
+T 7K3G_A            5 LIVNSV   10 (31)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            577763
+
+
+No 2
+>6S8B_I CRISPR-associated protein, Cmr5 family, CRISPR-associated; CRISPR-Cas, Effector complex, nuclease, cyclic; HET: ANP; 2.41A {Sulfolobus islandicus (strain REY15A)}
+Probab=19.10  E-value=1.1e+02  Score=13.89  Aligned_cols=6  Identities=67%  Similarity=1.265  Sum_probs=0.0  Template_Neff=7.000
+
+Q FIVNIV            1 FIVNIV    6 (6)
+Q Consensus         1 fivniv    6 (6)
+                      |+|||.
+T Consensus         5 ~~~~~~   10 (296)
+T 6S8B_I            5 FLVNIL   10 (296)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 3
+>6AM0_E KLLA0F23980p, KLLA0A11308p, KLLA0E01827p, KLLA0A01474p; mRNA decay, decapping, Nudix, nucleotide; HET: 6VQ; 2.84A {Kluyveromyces lactis (strain ATCC 8585 / CBS 2359 / DSM 70799 / NBRC 1267 / NRRL Y-1140 / WM37)}
+Probab=18.78  E-value=1.1e+02  Score=13.01  Aligned_cols=5  Identities=60%  Similarity=1.311  Sum_probs=0.0  Template_Neff=8.400
+
+Q FIVNIV            1 FIVNI    5 (6)
+Q Consensus         1 fivni    5 (6)
+                      ||+|+
+T Consensus        25 f~~n~   29 (275)
+T 6AM0_E           25 FILNV   29 (275)
+T ss_dssp             CCCTS
+T ss_pred             HHhcC
+
+
+No 4
+>6AM0_A KLLA0F23980p, KLLA0A11308p, KLLA0E01827p, KLLA0A01474p; mRNA decay, decapping, Nudix, nucleotide; HET: 6VQ; 2.84A {Kluyveromyces lactis (strain ATCC 8585 / CBS 2359 / DSM 70799 / NBRC 1267 / NRRL Y-1140 / WM37)}
+Probab=18.73  E-value=1.1e+02  Score=13.06  Aligned_cols=5  Identities=60%  Similarity=1.311  Sum_probs=0.0  Template_Neff=8.300
+
+Q FIVNIV            1 FIVNI    5 (6)
+Q Consensus         1 fivni    5 (6)
+                      ||+|+
+T Consensus        25 f~~n~   29 (275)
+T 6AM0_A           25 FILNV   29 (275)
+T ss_dssp             HTSSS
+T ss_pred             HHhCC
+
+
+No 5
+>6O5K_A Transcription intermediary factor 1-beta (E.C.2.3.2.27); B-box KAP1 TIF1beta Krab-ZFP Co-repressor; 1.6A {Mus musculus}
+Probab=18.59  E-value=1.2e+02  Score=10.72  Aligned_cols=6  Identities=17%  Similarity=0.257  Sum_probs=0.0  Template_Neff=7.900
+
+Q FIVNIV            1 FIVNIV    6 (6)
+Q Consensus         1 fivniv    6 (6)
+                      |+.|++
+T Consensus         4 ~~~~~~    9 (72)
+T 6O5K_A            4 FMRDSG    9 (72)
+T ss_dssp             ------
+T ss_pred             chhccc
+
+
+No 6
+>2A6T_A SPAC19A8.12; alpha/beta/alpha, RNA BINDING PROTEIN, HYDROLASE; 2.5A {Schizosaccharomyces pombe} SCOP: d.113.1.7, a.242.1.1
+Probab=17.95  E-value=1.2e+02  Score=12.74  Aligned_cols=5  Identities=60%  Similarity=1.291  Sum_probs=0.0  Template_Neff=8.700
+
+Q FIVNIV            1 FIVNI    5 (6)
+Q Consensus         1 fivni    5 (6)
+                      ||+|+
+T Consensus        24 f~~n~   28 (271)
+T 2A6T_A           24 FILNL   28 (271)
+T ss_dssp             CCTTS
+T ss_pred             hhcCC
+
+
+No 7
+>5KQ1_E mRNA-decapping enzyme subunit 1, Proline-rich; decapping mRNA decay Nudix cap; 3.002A {Schizosaccharomyces pombe (strain 972 / ATCC 24843)}
+Probab=17.83  E-value=1.2e+02  Score=12.42  Aligned_cols=5  Identities=60%  Similarity=1.291  Sum_probs=0.0  Template_Neff=9.000
+
+Q FIVNIV            1 FIVNI    5 (6)
+Q Consensus         1 fivni    5 (6)
+                      ||+|+
+T Consensus        24 f~~n~   28 (249)
+T 5KQ1_E           24 FILNL   28 (249)
+T ss_pred             hhcCC
+
+
+No 8
+>6SH8_I CRISPR-associated protein, Cmr5 family, CRISPR-associated; CRISPR-Cas, Effector complex, nuclease, cyclic; HET: ANP; 3.14A {Sulfolobus islandicus REY15A}
+Probab=16.70  E-value=1.4e+02  Score=13.82  Aligned_cols=6  Identities=67%  Similarity=1.265  Sum_probs=0.0  Template_Neff=6.600
+
+Q FIVNIV            1 FIVNIV    6 (6)
+Q Consensus         1 fivniv    6 (6)
+                      |+|||.
+T Consensus         5 ~~~~~~   10 (296)
+T 6SH8_I            5 FLVNIL   10 (296)
+T ss_dssp             HHHTHH
+T ss_pred             HHHHHH
+
+
+No 9
+>6RXV_CV Periodic tryptophan protein 2-like protein; ribosome, ribosome biogenesis, rRNA; HET: GTP; 4.0A {Chaetomium thermophilum (strain DSM 1495 / CBS 144.50 / IMI 039719)}
+Probab=16.54  E-value=1.4e+02  Score=13.21  Aligned_cols=5  Identities=40%  Similarity=1.132  Sum_probs=0.0  Template_Neff=8.100
+
+Q FIVNIV            1 FIVNI    5 (6)
+Q Consensus         1 fivni    5 (6)
+                      ||+|+
+T Consensus        52 Fv~NL   56 (322)
+T 6RXV_CV          52 FVTNV   56 (322)
+T ss_pred             EEEcC
+
+
+No 10
+>5J3T_B mRNA-decapping enzyme subunit 1, mRNA; hydrolase, decapping, mRNA decay, EVH1; HET: FMT; 1.6A {Schizosaccharomyces pombe}
+Probab=16.16  E-value=1.4e+02  Score=12.08  Aligned_cols=5  Identities=60%  Similarity=1.291  Sum_probs=0.0  Template_Neff=9.200
+
+Q FIVNIV            1 FIVNI    5 (6)
+Q Consensus         1 fivni    5 (6)
+                      ||+|+
+T Consensus        19 fi~~~   23 (242)
+T 5J3T_B           19 FILNL   23 (242)
+T ss_dssp             HTTTC
+T ss_pred             HhhCC
+
+

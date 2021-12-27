@@ -1,0 +1,150 @@
+Query         LVSSSG
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 21:00:28 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LVSSSG/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LVSSSG/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6GZF_A Glutathione S-transfera  28.6      55 0.00061   14.3   0.0    6    1-6     335-340 (341)
+  2 7ALC_F GTP cyclohydrolase 1, G  12.4 2.1E+02  0.0023   11.7   0.0    6    1-6      70-75  (87)
+  3 7ACC_A GTP cyclohydrolase 1 (E  12.0 2.2E+02  0.0025   11.5   0.0    6    1-6      69-74  (86)
+  4 1WYM_A Transgelin-2; CH domain  11.3 2.4E+02  0.0027   11.0   0.0    4    3-6     152-155 (155)
+  5 6GZF_B Glutathione S-transfera  10.4 2.7E+02   0.003   12.3   0.0    6    1-6     335-340 (341)
+  6 1XC0_A Pardaxin P-4; Bend-heli   9.1 3.3E+02  0.0036   10.4   0.0    5    2-6      26-30  (33)
+  7 5WEZ_B Tir chaperone, Transloc   9.1 3.3E+02  0.0036   11.6   0.0    6    1-6      20-25  (63)
+  8 5YK3_n Ragulator complex prote   8.6 3.5E+02  0.0039   10.8   0.0    6    1-6      22-27  (88)
+  9 5YK3_D Ragulator complex prote   8.6 3.5E+02  0.0039   11.0   0.0    6    1-6      25-30  (96)
+ 10 2CSU_B 457aa long hypothetical   8.5 3.6E+02  0.0039   12.4   0.0    6    1-6     154-159 (457)
+
+No 1
+>6GZF_A Glutathione S-transferase (E.C.2.5.1.18); Natrialba Magadii, Extremozyme, Glutathionyl-hydroquinone reductase; 2.614A { Natrialba magadii ATCC 43099}
+Probab=28.58  E-value=55  Score=14.27  Aligned_cols=6  Identities=83%  Similarity=1.082  Sum_probs=0.0  Template_Neff=8.500
+
+Q LVSSSG            1 LVSSSG    6 (6)
+Q Consensus         1 lvsssg    6 (6)
+                      ||||.|
+T Consensus       335 ~~~~~~  340 (341)
+T 6GZF_A          335 LVSSAG  340 (341)
+T ss_dssp             ------
+T ss_pred             hcCCCC
+Confidence            466654
+
+
+No 2
+>7ALC_F GTP cyclohydrolase 1, GTPCH1, GTP; HET: PHE; 1.726A {Homo sapiens}
+Probab=12.43  E-value=2.1e+02  Score=11.66  Aligned_cols=6  Identities=33%  Similarity=0.695  Sum_probs=0.0  Template_Neff=5.100
+
+Q LVSSSG            1 LVSSSG    6 (6)
+Q Consensus         1 lvsssg    6 (6)
+                      +|+++|
+T Consensus        70 VV~msg   75 (87)
+T 7ALC_F           70 VLSMTG   75 (87)
+T ss_dssp             EEEEEE
+T ss_pred             EEEeec
+
+
+No 3
+>7ACC_A GTP cyclohydrolase 1 (E.C.3.5.4.16); GTP cyclohydrolase 1 feedback regulatory; HET: K; 2.04A {Homo sapiens}
+Probab=11.97  E-value=2.2e+02  Score=11.53  Aligned_cols=6  Identities=33%  Similarity=0.695  Sum_probs=0.0  Template_Neff=5.200
+
+Q LVSSSG            1 LVSSSG    6 (6)
+Q Consensus         1 lvsssg    6 (6)
+                      +|+++|
+T Consensus        69 VV~~tg   74 (86)
+T 7ACC_A           69 VLSMTG   74 (86)
+T ss_dssp             EEEEEE
+T ss_pred             EEEeec
+
+
+No 4
+>1WYM_A Transgelin-2; CH domain, F-actin binding, all; NMR {Homo sapiens}
+Probab=11.29  E-value=2.4e+02  Score=11.05  Aligned_cols=4  Identities=75%  Similarity=0.949  Sum_probs=0.0  Template_Neff=8.400
+
+Q LVSSSG            3 SSSG    6 (6)
+Q Consensus         3 sssg    6 (6)
+                      ||||
+T Consensus       152 ~~~~  155 (155)
+T 1WYM_A          152 PSSG  155 (155)
+T ss_dssp             SSCC
+T ss_pred             CCCC
+
+
+No 5
+>6GZF_B Glutathione S-transferase (E.C.2.5.1.18); Natrialba Magadii, Extremozyme, Glutathionyl-hydroquinone reductase; 2.614A { Natrialba magadii ATCC 43099}
+Probab=10.40  E-value=2.7e+02  Score=12.32  Aligned_cols=6  Identities=83%  Similarity=1.082  Sum_probs=0.0  Template_Neff=8.400
+
+Q LVSSSG            1 LVSSSG    6 (6)
+Q Consensus         1 lvsssg    6 (6)
+                      ||+|.|
+T Consensus       335 ~~~~~~  340 (341)
+T 6GZF_B          335 LVSSAG  340 (341)
+T ss_dssp             ------
+T ss_pred             hccccC
+
+
+No 6
+>1XC0_A Pardaxin P-4; Bend-helix-bend-helix motif, SIGNALING PROTEIN; NMR {N/A} SCOP: j.6.1.1
+Probab=9.10  E-value=3.3e+02  Score=10.41  Aligned_cols=5  Identities=80%  Similarity=0.999  Sum_probs=0.0  Template_Neff=1.000
+
+Q LVSSSG            2 VSSSG    6 (6)
+Q Consensus         2 vsssg    6 (6)
+                      .||||
+T Consensus        26 lsssg   30 (33)
+T 1XC0_A           26 LSSSG   30 (33)
+T ss_dssp             TTTTT
+T ss_pred             HhccC
+
+
+No 7
+>5WEZ_B Tir chaperone, Translocated intimin receptor; effector, complex, secretion, translocation, CHAPERONE; 2.74A {Escherichia coli O127:H6 (strain E2348/69 / EPEC)}
+Probab=9.09  E-value=3.3e+02  Score=11.57  Aligned_cols=6  Identities=67%  Similarity=1.088  Sum_probs=0.0  Template_Neff=1.400
+
+Q LVSSSG            1 LVSSSG    6 (6)
+Q Consensus         1 lvsssg    6 (6)
+                      |++|+|
+T Consensus        20 lI~StG   25 (63)
+T 5WEZ_B           20 LISSTG   25 (63)
+T ss_dssp             ECCCSS
+T ss_pred             ccccCC
+
+
+No 8
+>5YK3_n Ragulator complex protein LAMTOR3, Ragulator; cellular signal transduction, SIGNALING PROTEIN; 3.01A {Homo sapiens}
+Probab=8.58  E-value=3.5e+02  Score=10.77  Aligned_cols=6  Identities=50%  Similarity=0.872  Sum_probs=0.0  Template_Neff=5.800
+
+Q LVSSSG            1 LVSSSG    6 (6)
+Q Consensus         1 lvsssg    6 (6)
+                      .++|+|
+T Consensus        22 Vl~S~G   27 (88)
+T 5YK3_n           22 VLASSG   27 (88)
+T ss_pred             EEEecc
+
+
+No 9
+>5YK3_D Ragulator complex protein LAMTOR3, Ragulator; cellular signal transduction, SIGNALING PROTEIN; 3.01A {Homo sapiens}
+Probab=8.58  E-value=3.5e+02  Score=10.96  Aligned_cols=6  Identities=50%  Similarity=0.872  Sum_probs=0.0  Template_Neff=5.700
+
+Q LVSSSG            1 LVSSSG    6 (6)
+Q Consensus         1 lvsssg    6 (6)
+                      .++|+|
+T Consensus        25 Vl~S~G   30 (96)
+T 5YK3_D           25 VLASSG   30 (96)
+T ss_dssp             CCCEEC
+T ss_pred             EEEeCc
+
+
+No 10
+>2CSU_B 457aa long hypothetical protein; Pyrococcus horikoshii, Structural Genomics, PH0766; HET: MSE; 2.2A {Pyrococcus horikoshii} SCOP: c.23.4.1, c.2.1.8
+Probab=8.52  E-value=3.6e+02  Score=12.45  Aligned_cols=6  Identities=50%  Similarity=0.905  Sum_probs=0.0  Template_Neff=8.500
+
+Q LVSSSG            1 LVSSSG    6 (6)
+Q Consensus         1 lvsssg    6 (6)
+                      ++|.||
+T Consensus       154 lisqSg  159 (457)
+T 2CSU_B          154 FISQSG  159 (457)
+T ss_dssp             EEESCH
+T ss_pred             EEECCc
+
+

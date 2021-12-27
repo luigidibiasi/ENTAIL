@@ -1,0 +1,152 @@
+Query         PTVIIE
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 06:48:45 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/PTVIIE/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/PTVIIE/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3NE8_A N-acetylmuramoyl-l-alan  35.1      36  0.0004   13.5   0.0    6    1-6     185-190 (234)
+  2 5EMI_A Cell wall hydrolase/aut  33.8      39 0.00043   12.8   0.0    6    1-6     139-144 (180)
+  3 1XOV_A Ply protein(E.C.3.5.1.2  21.8      89 0.00098   12.8   0.0    6    1-6     148-153 (326)
+  4 2KLX_A Glutaredoxin; glutaredo  19.9   1E+02  0.0011    8.9   0.0    5    1-5      57-61  (89)
+  5 1Z6M_A conserved hypothetical   19.7 1.1E+02  0.0012   11.0   0.0    5    1-5     151-155 (175)
+  6 4JRR_A Thiol:disulfide interch  19.6 1.1E+02  0.0012   10.9   0.0    5    1-5     156-160 (189)
+  7 4OCE_A Thiol:disulfide interch  19.4 1.1E+02  0.0012   11.3   0.0    5    1-5     152-156 (190)
+  8 4K2D_A Thiol:disulfide interch  19.2 1.1E+02  0.0012   11.4   0.0    5    1-5     163-167 (200)
+  9 7RAG_B N-acetylmuramic acid (N  19.0 1.1E+02  0.0012   12.2   0.0    6    1-6     170-175 (217)
+ 10 3FZ5_C Possible 2-hydroxychrom  19.0 1.1E+02  0.0012   11.5   0.0    6    1-6     175-180 (202)
+
+No 1
+>3NE8_A N-acetylmuramoyl-l-alanine amidase; structural genomics, PSI-2, protein structure; HET: GOL, ACT; 1.239A {Bartonella henselae}
+Probab=35.09  E-value=36  Score=13.48  Aligned_cols=6  Identities=67%  Similarity=1.270  Sum_probs=2.8  Template_Neff=9.500
+
+Q PTVIIE            1 PTVIIE    6 (6)
+Q Consensus         1 ptviie    6 (6)
+                      |.|+||
+T Consensus       185 p~vliE  190 (234)
+T 3NE8_A          185 PSVLIE  190 (234)
+T ss_dssp             CEEEEE
+T ss_pred             CEEEEE
+Confidence            345544
+
+
+No 2
+>5EMI_A Cell wall hydrolase/autolysin (E.C.3.5.1.28); N-acetylmuramoyl-L-alanine amidase, multicellular cyanobacteria, peptidoglycan; HET: MRD, MES; 1.12A {Nostoc punctiforme (strain ATCC 29133 / PCC 73102)}
+Probab=33.81  E-value=39  Score=12.75  Aligned_cols=6  Identities=33%  Similarity=1.204  Sum_probs=2.5  Template_Neff=9.700
+
+Q PTVIIE            1 PTVIIE    6 (6)
+Q Consensus         1 ptviie    6 (6)
+                      |.|+||
+T Consensus       139 p~vliE  144 (180)
+T 5EMI_A          139 PSILVE  144 (180)
+T ss_dssp             CEEEEE
+T ss_pred             CEEEEE
+Confidence            344443
+
+
+No 3
+>1XOV_A Ply protein(E.C.3.5.1.28); alpha/beta hydrolase, multi-domain, hydrolase; 1.8A {Listeria phage PSA} SCOP: c.56.5.6, b.34.11.4
+Probab=21.78  E-value=89  Score=12.78  Aligned_cols=6  Identities=33%  Similarity=0.739  Sum_probs=2.5  Template_Neff=10.000
+
+Q PTVIIE            1 PTVIIE    6 (6)
+Q Consensus         1 ptviie    6 (6)
+                      |.|+||
+T Consensus       148 p~vliE  153 (326)
+T 1XOV_A          148 TAVLLE  153 (326)
+T ss_dssp             CEEEEE
+T ss_pred             eEEEEE
+Confidence            344443
+
+
+No 4
+>2KLX_A Glutaredoxin; glutaredoxin, thioredoxin type domain, SSGCID; NMR {Bartonella henselae}
+Probab=19.87  E-value=1e+02  Score=8.86  Aligned_cols=5  Identities=40%  Similarity=1.045  Sum_probs=0.0  Template_Neff=12.400
+
+Q PTVIIE            1 PTVII    5 (6)
+Q Consensus         1 ptvii    5 (6)
+                      |++++
+T Consensus        57 P~~~~   61 (89)
+T 2KLX_A           57 PQIFI   61 (89)
+T ss_pred             CEEEE
+
+
+No 5
+>1Z6M_A conserved hypothetical protein; conserved hypothetical protein, structural genomics; 1.3A {Enterococcus faecalis} SCOP: c.47.1.13
+Probab=19.67  E-value=1.1e+02  Score=10.99  Aligned_cols=5  Identities=80%  Similarity=1.411  Sum_probs=0.0  Template_Neff=10.800
+
+Q PTVIIE            1 PTVII    5 (6)
+Q Consensus         1 ptvii    5 (6)
+                      |+++|
+T Consensus       151 P~~~i  155 (175)
+T 1Z6M_A          151 PTIII  155 (175)
+T ss_dssp             CEEEE
+T ss_pred             CEEEE
+
+
+No 6
+>4JRR_A Thiol:disulfide interchange protein DsbA; Structural Genomics, Center for Structural; HET: SO4, GOL; 1.88A {Legionella pneumophila subsp. pneumophila}
+Probab=19.62  E-value=1.1e+02  Score=10.91  Aligned_cols=5  Identities=20%  Similarity=0.966  Sum_probs=0.0  Template_Neff=11.200
+
+Q PTVIIE            1 PTVII    5 (6)
+Q Consensus         1 ptvii    5 (6)
+                      |+++|
+T Consensus       156 Pt~~i  160 (189)
+T 4JRR_A          156 PAFVV  160 (189)
+T ss_dssp             SEEEE
+T ss_pred             CEEEE
+
+
+No 7
+>4OCE_A Thiol:disulfide interchange protein; Oxidative folding protein, virulence factor; 1.768A {Proteus mirabilis HI4320}
+Probab=19.38  E-value=1.1e+02  Score=11.33  Aligned_cols=5  Identities=40%  Similarity=1.125  Sum_probs=0.0  Template_Neff=10.400
+
+Q PTVIIE            1 PTVII    5 (6)
+Q Consensus         1 ptvii    5 (6)
+                      |+++|
+T Consensus       152 Pt~vi  156 (190)
+T 4OCE_A          152 PAMVI  156 (190)
+T ss_dssp             SEEEE
+T ss_pred             CEEEE
+
+
+No 8
+>4K2D_A Thiol:disulfide interchange protein; thioredoxin fold, disulfide oxidoreductase, oxidoreductase; HET: GOL; 1.9A {Burkholderia pseudomallei}
+Probab=19.15  E-value=1.1e+02  Score=11.40  Aligned_cols=5  Identities=40%  Similarity=1.291  Sum_probs=0.0  Template_Neff=10.400
+
+Q PTVIIE            1 PTVII    5 (6)
+Q Consensus         1 ptvii    5 (6)
+                      |+++|
+T Consensus       163 Pt~ii  167 (200)
+T 4K2D_A          163 PTIVV  167 (200)
+T ss_dssp             SEEEE
+T ss_pred             CEEEE
+
+
+No 9
+>7RAG_B N-acetylmuramic acid (NAM) hydrolase Cortex; HET: MSE; 2.4A {Clostridioides difficile}
+Probab=19.02  E-value=1.1e+02  Score=12.23  Aligned_cols=6  Identities=67%  Similarity=1.270  Sum_probs=0.0  Template_Neff=9.100
+
+Q PTVIIE            1 PTVIIE    6 (6)
+Q Consensus         1 ptviie    6 (6)
+                      |.|+||
+T Consensus       170 p~vliE  175 (217)
+T 7RAG_B          170 PSVLIE  175 (217)
+T ss_dssp             CEEEEE
+T ss_pred             CEEEEE
+
+
+No 10
+>3FZ5_C Possible 2-hydroxychromene-2-carboxylate isomerase; Rhodobacter sphaeroides, 2-hydroxychromene-2-carboxylate isomerase, Structural; HET: PGE, GSH; 2.4A {Rhodobacter sphaeroides 2.4.1}
+Probab=19.02  E-value=1.1e+02  Score=11.52  Aligned_cols=6  Identities=17%  Similarity=0.783  Sum_probs=0.0  Template_Neff=10.200
+
+Q PTVIIE            1 PTVIIE    6 (6)
+Q Consensus         1 ptviie    6 (6)
+                      |+++|.
+T Consensus       175 P~~vi~  180 (202)
+T 3FZ5_C          175 PFFLVD  180 (202)
+T ss_dssp             SEEEET
+T ss_pred             CEEEEC
+
+

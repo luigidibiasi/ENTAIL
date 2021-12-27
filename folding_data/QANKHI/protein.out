@@ -1,0 +1,150 @@
+Query         QANKHI
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 07:10:42 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QANKHI/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QANKHI/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6XVM_C Proto-oncogene tyrosine   6.3 5.4E+02  0.0059    7.7   0.0    6    1-6       5-10  (79)
+  2 6G6E_G CC-Type2-deLI; de novo,   6.0 5.6E+02  0.0062    9.7   0.0    6    1-6       6-11  (32)
+  3 3T50_B Blue-light-activated hi   5.3 6.6E+02  0.0073    6.9   0.0    5    1-5     124-128 (128)
+  4 5Z38_C CesT protein, Translati   5.0 7.2E+02  0.0079    9.6   0.0    5    1-5     149-153 (158)
+  5 5YO8_B Tetraprenyl-beta-curcum   4.6 7.8E+02  0.0087   12.6   0.0    6    1-6     173-178 (354)
+  6 6LOP_A Tetraprenyl-beta-curcum   4.6 7.8E+02  0.0087   12.6   0.0    6    1-6     173-178 (354)
+  7 5NAO_A Toll-like receptor 4; T   4.6   8E+02  0.0088    9.5   0.0    6    1-6       6-11  (35)
+  8 5YO8_A Tetraprenyl-beta-curcum   4.5 8.1E+02  0.0089   12.6   0.0    6    1-6     173-178 (354)
+  9 1W0A_A ALPHA-HEMOGLOBIN STABIL   4.5 8.2E+02   0.009   11.0   0.0    6    1-6       3-8   (92)
+ 10 4N54_B Inositol dehydrogenase    4.5 8.2E+02  0.0091   10.1   0.0    6    1-6      99-104 (352)
+
+No 1
+>6XVM_C Proto-oncogene tyrosine-protein kinase Src (E.C.2.7.10.2); beta barrel, SH3 domain, PROTEIN; HET: GOL; 0.9A {Gallus gallus}
+Probab=6.26  E-value=5.4e+02  Score=7.71  Aligned_cols=6  Identities=17%  Similarity=0.335  Sum_probs=0.0  Template_Neff=11.100
+
+Q QANKHI            1 QANKHI    6 (6)
+Q Consensus         1 qankhi    6 (6)
+                      |-|+++
+T Consensus         5 ~~~~~~   10 (79)
+T 6XVM_C            5 HHHHHH   10 (79)
+T ss_dssp             ------
+T ss_pred             cccccc
+
+
+No 2
+>6G6E_G CC-Type2-deLI; de novo, coiled coil, alpha-helical; HET: GOL, EO2, ACE; 1.26A {N/A}
+Probab=6.02  E-value=5.6e+02  Score=9.72  Aligned_cols=6  Identities=67%  Similarity=0.705  Sum_probs=0.0  Template_Neff=1.000
+
+Q QANKHI            1 QANKHI    6 (6)
+Q Consensus         1 qankhi    6 (6)
+                      ||.|.|
+T Consensus         6 qa~kei   11 (32)
+T 6G6E_G            6 QAXKEI   11 (32)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 3
+>3T50_B Blue-light-activated histidine kinase (E.C.2.7.13.3); PAS superfamily, Blue-light photoreceptor, FMN; HET: FMN; 1.64A {Brucella melitensis}
+Probab=5.32  E-value=6.6e+02  Score=6.86  Aligned_cols=5  Identities=20%  Similarity=0.547  Sum_probs=0.0  Template_Neff=14.100
+
+Q QANKHI            1 QANKH    5 (6)
+Q Consensus         1 qankh    5 (6)
+                      .++||
+T Consensus       124 ~~~~~  128 (128)
+T 3T50_B          124 HHHHH  128 (128)
+T ss_dssp             -----
+T ss_pred             ccCCC
+
+
+No 4
+>5Z38_C CesT protein, Translational regulator CsrA; EHEC and EPEC, RNA BINDING; 2.292A {Escherichia coli}
+Probab=4.99  E-value=7.2e+02  Score=9.59  Aligned_cols=5  Identities=60%  Similarity=0.860  Sum_probs=0.0  Template_Neff=8.900
+
+Q QANKHI            1 QANKH    5 (6)
+Q Consensus         1 qankh    5 (6)
+                      +-|||
+T Consensus       149 ~~~~~  153 (158)
+T 5Z38_C          149 SDNKH  153 (158)
+T ss_dssp             CGGGG
+T ss_pred             ccccc
+
+
+No 5
+>5YO8_B Tetraprenyl-beta-curcumene synthase; Terpene synthase, LYASE; 1.64A {Bacillus alcalophilus ATCC 27647 = CGMCC 1.3604}
+Probab=4.64  E-value=7.8e+02  Score=12.60  Aligned_cols=6  Identities=50%  Similarity=0.905  Sum_probs=0.0  Template_Neff=4.700
+
+Q QANKHI            1 QANKHI    6 (6)
+Q Consensus         1 qankhi    6 (6)
+                      |..||+
+T Consensus       173 Qv~KHv  178 (354)
+T 5YO8_B          173 QVHKHV  178 (354)
+T ss_dssp             HHHHHS
+T ss_pred             HHhcCC
+
+
+No 6
+>6LOP_A Tetraprenyl-beta-curcumene synthase; TERPENE SYNTHASE, LYASE; HET: ELX; 1.91A {Bacillus alcalophilus ATCC 27647 = CGMCC 1.3604}
+Probab=4.64  E-value=7.8e+02  Score=12.60  Aligned_cols=6  Identities=50%  Similarity=0.905  Sum_probs=0.0  Template_Neff=4.700
+
+Q QANKHI            1 QANKHI    6 (6)
+Q Consensus         1 qankhi    6 (6)
+                      |..||+
+T Consensus       173 Qv~KHv  178 (354)
+T 6LOP_A          173 QVHKHV  178 (354)
+T ss_dssp             HHHHTS
+T ss_pred             HHhcCC
+
+
+No 7
+>5NAO_A Toll-like receptor 4; Toll-like receptor, PROTEIN RECEPTOR, transmembrane; NMR {Homo sapiens}
+Probab=4.57  E-value=8e+02  Score=9.48  Aligned_cols=6  Identities=67%  Similarity=0.706  Sum_probs=0.0  Template_Neff=1.200
+
+Q QANKHI            1 QANKHI    6 (6)
+Q Consensus         1 qankhi    6 (6)
+                      |.||.|
+T Consensus         6 qm~k~i   11 (35)
+T 5NAO_A            6 QMNKTI   11 (35)
+T ss_dssp             CCCHHH
+T ss_pred             hhcHHH
+
+
+No 8
+>5YO8_A Tetraprenyl-beta-curcumene synthase; Terpene synthase, LYASE; 1.64A {Bacillus alcalophilus ATCC 27647 = CGMCC 1.3604}
+Probab=4.53  E-value=8.1e+02  Score=12.59  Aligned_cols=6  Identities=50%  Similarity=0.905  Sum_probs=0.0  Template_Neff=4.600
+
+Q QANKHI            1 QANKHI    6 (6)
+Q Consensus         1 qankhi    6 (6)
+                      |..||+
+T Consensus       173 Qv~KHv  178 (354)
+T 5YO8_A          173 QVHKHV  178 (354)
+T ss_dssp             HHHHTS
+T ss_pred             HHhcCC
+
+
+No 9
+>1W0A_A ALPHA-HEMOGLOBIN STABILIZING PROTEIN; AHSP NMR STRUCTURE, PROLINE CIS/TRANS; NMR {HOMO SAPIENS} SCOP: a.7.11.1
+Probab=4.49  E-value=8.2e+02  Score=11.00  Aligned_cols=6  Identities=50%  Similarity=0.783  Sum_probs=0.0  Template_Neff=2.100
+
+Q QANKHI            1 QANKHI    6 (6)
+Q Consensus         1 qankhi    6 (6)
+                      |+||.+
+T Consensus         3 q~NkDl    8 (92)
+T 1W0A_A            3 KANKDL    8 (92)
+T ss_dssp             HHHHHH
+T ss_pred             hhhHHH
+
+
+No 10
+>4N54_B Inositol dehydrogenase (E.C.1.1.1.-); hydrogen bonding, NAD, sugar alcohol; HET: NAI, 2H3; 2.05A {Lactobacillus casei}
+Probab=4.47  E-value=8.2e+02  Score=10.08  Aligned_cols=6  Identities=50%  Similarity=0.877  Sum_probs=0.0  Template_Neff=10.400
+
+Q QANKHI            1 QANKHI    6 (6)
+Q Consensus         1 qankhi    6 (6)
+                      +++||+
+T Consensus        99 ~~gk~v  104 (352)
+T 4N54_B           99 NAGKHV  104 (352)
+T ss_dssp             HTTCEE
+T ss_pred             HcCCeE
+
+

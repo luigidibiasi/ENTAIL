@@ -1,0 +1,147 @@
+Query         EPTREP
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 19:35:03 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/EPTREP/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/EPTREP/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6LCP_A Phospholipid-transporti   8.3 3.7E+02  0.0041   15.2   0.0    6    1-6    1548-1553(1555)
+  2 4RVY_I Photosystem II protein    6.9 4.7E+02  0.0052   10.1   0.0    6    1-6      27-32  (38)
+  3 5B66_I Photosystem II protein    6.8 4.8E+02  0.0053   10.1   0.0    6    1-6      27-32  (38)
+  4 5V2C_i Photosystem II protein    6.8 4.8E+02  0.0053   10.1   0.0    6    1-6      27-32  (38)
+  5 3FD0_A putative cystathionine    6.2 5.4E+02   0.006   11.1   0.0    5    2-6     379-383 (409)
+  6 5T46_C Eukaryotic translation    6.1 5.5E+02  0.0061   11.3   0.0    6    1-6       8-13  (220)
+  7 2GK4_A conserved hypothetical    5.8 5.9E+02  0.0065   10.5   0.0    5    2-6      12-16  (232)
+  8 2RPS_A Chemokine; IMMUNE SYSTE   5.5 6.3E+02  0.0069    9.6   0.0    5    2-6      21-25  (32)
+  9 3HVY_C Cystathionine beta-lyas   5.3 6.7E+02  0.0074   10.9   0.0    6    1-6     395-400 (427)
+ 10 5ZUT_A Proliferating cell nucl   5.2 6.9E+02  0.0076   10.2   0.0    6    1-6     267-272 (289)
+
+No 1
+>6LCP_A Phospholipid-transporting ATPase (E.C.7.6.2.1), Cdc50; P-type ATPase, lipid flippase, LIPID; HET: NAG, MAN, P5S, BMA, POV;{Chaetomium thermophilum (strain DSM 1495 / CBS 144.50 / IMI 039719)}
+Probab=8.25  E-value=3.7e+02  Score=15.19  Aligned_cols=6  Identities=83%  Similarity=1.508  Sum_probs=0.0  Template_Neff=7.300
+
+Q EPTREP            1 EPTREP    6 (6)
+Q Consensus         1 eptrep    6 (6)
+                      ||.|||
+T Consensus      1548 ~~~~~~ 1553 (1555)
+T 6LCP_A         1548 EPPREP 1553 (1555)
+T ss_dssp             ------
+T ss_pred             CCCCCC
+Confidence            466665
+
+
+No 2
+>4RVY_I Photosystem II protein D1 1; Photosystem II, Time resolved, Free; HET: LMG, CLA, LHG, BCR, HEM, PHO, OEX, SQD, DGD, PL9; 5.5A {Thermosynechococcus elongatus}
+Probab=6.92  E-value=4.7e+02  Score=10.09  Aligned_cols=6  Identities=50%  Similarity=1.337  Sum_probs=0.0  Template_Neff=2.400
+
+Q EPTREP            1 EPTREP    6 (6)
+Q Consensus         1 eptrep    6 (6)
+                      .|.|.|
+T Consensus        27 Dp~RnP   32 (38)
+T 4RVY_I           27 DPARNP   32 (38)
+T ss_pred             CcccCC
+
+
+No 3
+>5B66_I Photosystem II protein D1 (E.C.1.10.3.9); psii, photosystem, oxygen evolving, water; HET: SQD, LMT, DGD, UNL, HEM, HTG, LMG, HEC, PL9, FME, OEX, RRX, LHG, BCR, DMS, PHO, CLA; 1.85A {Thermosynechococcus vulcanus}
+Probab=6.83  E-value=4.8e+02  Score=10.07  Aligned_cols=6  Identities=50%  Similarity=1.337  Sum_probs=0.0  Template_Neff=2.400
+
+Q EPTREP            1 EPTREP    6 (6)
+Q Consensus         1 eptrep    6 (6)
+                      .|.|.|
+T Consensus        27 Dp~RnP   32 (38)
+T 5B66_I           27 DPARNP   32 (38)
+T ss_pred             CcccCC
+
+
+No 4
+>5V2C_i Photosystem II protein D1 (E.C.1.10.3.9); ELECTRON TRANSPORT, PHOTOSYNTHESIS; HET: GOL, BCT, P6G, PHO, SQD, MHS, HEC, PE8, OEX, PG4, LHG, HEM, DGD, HTG, EDO, LMG, FME, PGE, CLA, LMT, 1PE, PL9, BCR, 2PE; 1.9A {Thermosynechococcus vulcanus}
+Probab=6.83  E-value=4.8e+02  Score=10.07  Aligned_cols=6  Identities=50%  Similarity=1.337  Sum_probs=0.0  Template_Neff=2.400
+
+Q EPTREP            1 EPTREP    6 (6)
+Q Consensus         1 eptrep    6 (6)
+                      .|.|.|
+T Consensus        27 Dp~RnP   32 (38)
+T 5V2C_i           27 DPARNP   32 (38)
+T ss_pred             CcccCC
+
+
+No 5
+>3FD0_A putative cystathionine beta-lyase involved in; NP_470671.1, putative cystathionine beta-lyase involved; HET: PEG, MSE, LLP, PGE, EDO; 2.12A {Listeria innocua}
+Probab=6.19  E-value=5.4e+02  Score=11.06  Aligned_cols=5  Identities=80%  Similarity=1.524  Sum_probs=0.0  Template_Neff=9.900
+
+Q EPTREP            2 PTREP    6 (6)
+Q Consensus         2 ptrep    6 (6)
+                      |.|+|
+T Consensus       379 ~~~~~  383 (409)
+T 3FD0_A          379 PIREP  383 (409)
+T ss_dssp             ESSTT
+T ss_pred             CCCcc
+
+
+No 6
+>5T46_C Eukaryotic translation initiation factor 4E; TRANSLATION, GENE REGULATION, CAP BINDING; HET: GOL, MGP; 1.53A {Homo sapiens}
+Probab=6.12  E-value=5.5e+02  Score=11.30  Aligned_cols=6  Identities=50%  Similarity=1.021  Sum_probs=0.0  Template_Neff=7.000
+
+Q EPTREP            1 EPTREP    6 (6)
+Q Consensus         1 eptrep    6 (6)
+                      ||.++|
+T Consensus         8 ~~~~~~   13 (220)
+T 5T46_C            8 EPETTP   13 (220)
+T ss_dssp             ------
+T ss_pred             CCCCCC
+
+
+No 7
+>2GK4_A conserved hypothetical protein; alpha-beta-alpha sandwich, Flavoprotein, Structural Genomics; HET: GOL; 1.83A {Streptococcus pneumoniae}
+Probab=5.83  E-value=5.9e+02  Score=10.51  Aligned_cols=5  Identities=40%  Similarity=0.308  Sum_probs=0.0  Template_Neff=8.800
+
+Q EPTREP            2 PTREP    6 (6)
+Q Consensus         2 ptrep    6 (6)
+                      +|+||
+T Consensus        12 ~t~~~   16 (232)
+T 2GK4_A           12 GTSEA   16 (232)
+T ss_dssp             BCEEE
+T ss_pred             CCCCC
+
+
+No 8
+>2RPS_A Chemokine; IMMUNE SYSTEM; NMR {Pseudaletia separata}
+Probab=5.55  E-value=6.3e+02  Score=9.58  Aligned_cols=5  Identities=60%  Similarity=0.919  Sum_probs=0.0  Template_Neff=1.700
+
+Q EPTREP            2 PTREP    6 (6)
+Q Consensus         2 ptrep    6 (6)
+                      ||-||
+T Consensus        21 pTTEp   25 (32)
+T 2RPS_A           21 ATTEP   25 (32)
+T ss_dssp             ESCCC
+T ss_pred             CCCCC
+
+
+No 9
+>3HVY_C Cystathionine beta-lyase family protein, YNBB; NP_348457.1, PUTATIVE CYSTATHIONINE BETA-LYASE INVOLVED; HET: LLP, MSE, EDO; 2.0A {Clostridium acetobutylicum}
+Probab=5.27  E-value=6.7e+02  Score=10.88  Aligned_cols=6  Identities=67%  Similarity=1.270  Sum_probs=0.0  Template_Neff=9.900
+
+Q EPTREP            1 EPTREP    6 (6)
+Q Consensus         1 eptrep    6 (6)
+                      +|.|+|
+T Consensus       395 ~~~~~~  400 (427)
+T 3HVY_C          395 APIREP  400 (427)
+T ss_dssp             EESCTT
+T ss_pred             CCCCCC
+
+
+No 10
+>5ZUT_A Proliferating cell nuclear antigen, N24; Yeast PCNA, PI3K, N24 Peptide; 2.82A {Saccharomyces cerevisiae S288c}
+Probab=5.16  E-value=6.9e+02  Score=10.24  Aligned_cols=6  Identities=33%  Similarity=0.130  Sum_probs=0.0  Template_Neff=9.800
+
+Q EPTREP            1 EPTREP    6 (6)
+Q Consensus         1 eptrep    6 (6)
+                      +|.+||
+T Consensus       267 ~~~~~~  272 (289)
+T 5ZUT_A          267 ADWREV  272 (289)
+T ss_pred             CchHHh
+
+

@@ -1,0 +1,147 @@
+Query         AIVAGT
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 14:38:44 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/AIVAGT/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/AIVAGT/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 7A23_n 51kDa, Nad2m, Nad3m, Na  13.3 1.9E+02  0.0021   12.9   0.0    6    1-6      85-90  (113)
+  2 4H6A_A Allene oxide cyclase (E  12.8   2E+02  0.0022   12.9   0.0    6    1-6     121-126 (194)
+  3 7A24_n 51kDa, Nad2m, Nad3m, Na  12.7 2.1E+02  0.0023   12.9   0.0    6    1-6      85-90  (113)
+  4 6OOC_F Dirigent protein; Dirig  12.2 2.2E+02  0.0024   12.9   0.0    6    1-6     148-153 (220)
+  5 2BRJ_B ARABIDOPSIS THALIANA GE  11.7 2.3E+02  0.0025   12.7   0.0    6    1-6     114-119 (188)
+  6 4CQ6_C ALLENE OXIDE CYCLASE 2,  11.3 2.4E+02  0.0027   12.6   0.0    6    1-6     114-119 (188)
+  7 3KYD_B SUMO-activating enzyme   11.1 2.5E+02  0.0027   13.5   0.0    5    1-5     394-398 (551)
+  8 3OZB_C Methylthioadenosine pho  11.0 2.5E+02  0.0028   11.5   0.0    6    1-6      19-24  (259)
+  9 1WTA_A 5'-methylthioadenosine   10.8 2.6E+02  0.0029   11.6   0.0    6    1-6      15-20  (275)
+ 10 2A8Y_J 5'-methylthioadenosine   10.6 2.6E+02  0.0029   11.5   0.0    6    1-6      11-16  (270)
+
+No 1
+>7A23_n 51kDa, Nad2m, Nad3m, Nad6m, Nad1m; Respiration, Complex I, mitochondria, plant; HET: FMN, NDP, PEV, SF4, U10, T7X, CDL; 3.7A {Brassica oleracea}
+Probab=13.32  E-value=1.9e+02  Score=12.92  Aligned_cols=6  Identities=67%  Similarity=0.994  Sum_probs=0.0  Template_Neff=3.400
+
+Q AIVAGT            1 AIVAGT    6 (6)
+Q Consensus         1 aivagt    6 (6)
+                      |++||+
+T Consensus        85 aV~AG~   90 (113)
+T 7A23_n           85 AVVAGV   90 (113)
+T ss_pred             HHHHHH
+
+
+No 2
+>4H6A_A Allene oxide cyclase (E.C.5.3.99.6); B-barrel, Oxylipins, fatty acid, metabolites; HET: MPD, IPA; 1.95A {Physcomitrella patens subsp. patens}
+Probab=12.82  E-value=2e+02  Score=12.89  Aligned_cols=6  Identities=33%  Similarity=0.711  Sum_probs=0.0  Template_Neff=5.800
+
+Q AIVAGT            1 AIVAGT    6 (6)
+Q Consensus         1 aivagt    6 (6)
+                      ||+.||
+T Consensus       121 AIvGGT  126 (194)
+T 4H6A_A          121 VVTGGT  126 (194)
+T ss_dssp             EEEEES
+T ss_pred             EEeecc
+
+
+No 3
+>7A24_n 51kDa, Nad2m, Nad3m, Nad6m, Nad1m; Respiration, Complex I, mitochondria, plant; HET: CDL, SF4, T7X, NDP, FMN, PEV; 3.8A {Brassica oleracea}
+Probab=12.67  E-value=2.1e+02  Score=12.85  Aligned_cols=6  Identities=67%  Similarity=0.994  Sum_probs=0.0  Template_Neff=3.300
+
+Q AIVAGT            1 AIVAGT    6 (6)
+Q Consensus         1 aivagt    6 (6)
+                      |++||+
+T Consensus        85 aV~AG~   90 (113)
+T 7A24_n           85 AVVAGV   90 (113)
+T ss_pred             HHHHHH
+
+
+No 4
+>6OOC_F Dirigent protein; Dirigent protein, apo-form, PLANT PROTEIN; 2.6A {Glycyrrhiza echinata}
+Probab=12.18  E-value=2.2e+02  Score=12.89  Aligned_cols=6  Identities=83%  Similarity=1.077  Sum_probs=0.0  Template_Neff=6.100
+
+Q AIVAGT            1 AIVAGT    6 (6)
+Q Consensus         1 aivagt    6 (6)
+                      +||.||
+T Consensus       148 aVVGGT  153 (220)
+T 6OOC_F          148 AIVGGT  153 (220)
+T ss_dssp             EEEEEC
+T ss_pred             eeeeCc
+
+
+No 5
+>2BRJ_B ARABIDOPSIS THALIANA GENOMIC DNA, CHROMOSOME; CYCLASE, JASMONATE SYNTHESIS, ALLENE OXIDE; HET: GOL, MSE; 1.5A {ARABIDOPSIS THALIANA} SCOP: b.159.1.1
+Probab=11.74  E-value=2.3e+02  Score=12.71  Aligned_cols=6  Identities=50%  Similarity=0.783  Sum_probs=0.0  Template_Neff=5.700
+
+Q AIVAGT            1 AIVAGT    6 (6)
+Q Consensus         1 aivagt    6 (6)
+                      ||+.||
+T Consensus       114 AVvGGT  119 (188)
+T 2BRJ_B          114 AITGGA  119 (188)
+T ss_dssp             EEEEEE
+T ss_pred             EEeecc
+
+
+No 6
+>4CQ6_C ALLENE OXIDE CYCLASE 2, CHLOROPLASTIC; ISOMERASE, JASMONATES, CYCLIZATION, OXYLIPINS; HET: T25, MRD; 1.8A {ARABIDOPSIS THALIANA}
+Probab=11.29  E-value=2.4e+02  Score=12.64  Aligned_cols=6  Identities=50%  Similarity=0.783  Sum_probs=0.0  Template_Neff=5.700
+
+Q AIVAGT            1 AIVAGT    6 (6)
+Q Consensus         1 aivagt    6 (6)
+                      ||+.||
+T Consensus       114 AVvGGT  119 (188)
+T 4CQ6_C          114 AITGGA  119 (188)
+T ss_dssp             EEEEEE
+T ss_pred             EEeecc
+
+
+No 7
+>3KYD_B SUMO-activating enzyme subunit 1, SUMO-activating; E1, SUMO, UBIQUITIN, THIOESTER, ADENYLATION; HET: VMX, EDO; 2.61A {Homo sapiens}
+Probab=11.10  E-value=2.5e+02  Score=13.55  Aligned_cols=5  Identities=60%  Similarity=1.172  Sum_probs=0.0  Template_Neff=7.900
+
+Q AIVAGT            1 AIVAG    5 (6)
+Q Consensus         1 aivag    5 (6)
+                      |||||
+T Consensus       394 AiVAg  398 (551)
+T 3KYD_B          394 AVIAG  398 (551)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 8
+>3OZB_C Methylthioadenosine phosphorylase (E.C.2.4.2.28); 5'-methylthioinosine, phosphorylase, TRANSFERASE; HET: SO4, HPA; 2.8A {Pseudomonas aeruginosa}
+Probab=10.96  E-value=2.5e+02  Score=11.53  Aligned_cols=6  Identities=67%  Similarity=1.060  Sum_probs=0.0  Template_Neff=9.200
+
+Q AIVAGT            1 AIVAGT    6 (6)
+Q Consensus         1 aivagt    6 (6)
+                      +||.|+
+T Consensus        19 ~iI~Gs   24 (259)
+T 3OZB_C           19 AIIGGT   24 (259)
+T ss_dssp             EEEECT
+T ss_pred             EEEeCC
+
+
+No 9
+>1WTA_A 5'-methylthioadenosine phosphorylase (E.C.2.4.2.28); A/B STRUCTURE, TRANSFERASE; HET: ADE; 1.78A {Aeropyrum pernix}
+Probab=10.75  E-value=2.6e+02  Score=11.60  Aligned_cols=6  Identities=17%  Similarity=0.850  Sum_probs=0.0  Template_Neff=9.200
+
+Q AIVAGT            1 AIVAGT    6 (6)
+Q Consensus         1 aivagt    6 (6)
+                      |||.|+
+T Consensus        15 aii~Gs   20 (275)
+T 1WTA_A           15 GVIGGS   20 (275)
+T ss_pred             EEEeCC
+
+
+No 10
+>2A8Y_J 5'-methylthioadenosine phosphorylase (mtaP) (E.C.2.4.2.28); alpha/beta, beta sheet, beta barrel; HET: MTA, SO4; 1.45A {Sulfolobus solfataricus}
+Probab=10.63  E-value=2.6e+02  Score=11.50  Aligned_cols=6  Identities=33%  Similarity=0.900  Sum_probs=0.0  Template_Neff=9.300
+
+Q AIVAGT            1 AIVAGT    6 (6)
+Q Consensus         1 aivagt    6 (6)
+                      |||.|+
+T Consensus        11 ~ii~Gs   16 (270)
+T 2A8Y_J           11 GIIGGS   16 (270)
+T ss_dssp             EEEECT
+T ss_pred             EEEeCC
+
+

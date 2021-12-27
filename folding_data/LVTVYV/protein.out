@@ -1,0 +1,147 @@
+Query         LVTVYV
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 21:03:35 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LVTVYV/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LVTVYV/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2MQ9_A Eukaryotic peptide chai  20.0   1E+02  0.0011   13.1   0.0    6    1-6      34-39  (142)
+  2 3TCX_W Intercellular adhesion    5.8 5.9E+02  0.0065    9.7   0.0    4    2-5      80-83  (85)
+  3 5L74_A Plexin-A2; signaling pr   5.3 6.5E+02  0.0072    9.6   0.0    4    2-5     147-150 (151)
+  4 1YGT_A Dynein Light Chain TcTe   5.3 6.6E+02  0.0073    9.4   0.0    5    1-5     103-107 (111)
+  5 2PLT_A PLASTOCYANIN; ELECTRON    5.3 6.6E+02  0.0073    7.9   0.0    5    2-6       2-6   (98)
+  6 6XA1_j translation termination   5.2 6.8E+02  0.0076   11.2   0.0    6    1-6      24-29  (411)
+  7 3AGK_A Peptide chain release f   5.2 6.9E+02  0.0076   10.8   0.0    6    1-6      34-39  (373)
+  8 3VMF_B Elongation factor 1-alp   5.2 6.9E+02  0.0076   10.8   0.0    6    1-6      34-39  (373)
+  9 4DL0_C V-type proton ATPase su   5.2 6.9E+02  0.0076   10.8   0.0    6    1-6      44-49  (130)
+ 10 4EFA_C V-type proton ATPase su   5.2 6.9E+02  0.0076   10.8   0.0    6    1-6      44-49  (130)
+
+No 1
+>2MQ9_A Eukaryotic peptide chain release factor; Translation Termination, eRF1, RDC, TRANSLATION; NMR {Homo sapiens}
+Probab=20.01  E-value=1e+02  Score=13.12  Aligned_cols=6  Identities=0%  Similarity=0.645  Sum_probs=3.0  Template_Neff=5.900
+
+Q LVTVYV            1 LVTVYV    6 (6)
+Q Consensus         1 lvtvyv    6 (6)
+                      ||++|+
+T Consensus        34 LiSlyI   39 (142)
+T 2MQ9_A           34 MISLII   39 (142)
+T ss_dssp             CEEEEE
+T ss_pred             ceEEEe
+Confidence            455553
+
+
+No 2
+>3TCX_W Intercellular adhesion molecule 1, Integrin; Rossmann Fold, Immunoglobulin-Like Fold, Cell; HET: MG; 3.6A {Homo sapiens}
+Probab=5.80  E-value=5.9e+02  Score=9.68  Aligned_cols=4  Identities=75%  Similarity=1.290  Sum_probs=0.0  Template_Neff=6.800
+
+Q LVTVYV            2 VTVY    5 (6)
+Q Consensus         2 vtvy    5 (6)
+                      ++||
+T Consensus        80 itvY   83 (85)
+T 3TCX_W           80 LTVY   83 (85)
+T ss_dssp             EEEE
+T ss_pred             eEEe
+
+
+No 3
+>5L74_A Plexin-A2; signaling protein, receptor, axon guidance; HET: NAG; 1.36A {Mus musculus}
+Probab=5.35  E-value=6.5e+02  Score=9.61  Aligned_cols=4  Identities=50%  Similarity=1.057  Sum_probs=0.0  Template_Neff=8.900
+
+Q LVTVYV            2 VTVY    5 (6)
+Q Consensus         2 vtvy    5 (6)
+                      |++|
+T Consensus       147 V~lY  150 (151)
+T 5L74_A          147 VHLY  150 (151)
+T ss_dssp             EEEE
+T ss_pred             EEEe
+
+
+No 4
+>1YGT_A Dynein Light Chain TcTex-1; Domain Swapping, PROTEIN TRANSPORT; 1.7A {Drosophila melanogaster}
+Probab=5.32  E-value=6.6e+02  Score=9.40  Aligned_cols=5  Identities=40%  Similarity=1.079  Sum_probs=0.0  Template_Neff=8.200
+
+Q LVTVYV            1 LVTVY    5 (6)
+Q Consensus         1 lvtvy    5 (6)
+                      ++|||
+T Consensus       103 ~vtVf  107 (111)
+T 1YGT_A          103 IVSVF  107 (111)
+T ss_pred             EEEEE
+
+
+No 5
+>2PLT_A PLASTOCYANIN; ELECTRON TRANSPORT; 1.5A {Chlamydomonas reinhardtii} SCOP: b.6.1.1
+Probab=5.31  E-value=6.6e+02  Score=7.91  Aligned_cols=5  Identities=40%  Similarity=0.381  Sum_probs=0.0  Template_Neff=11.000
+
+Q LVTVYV            2 VTVYV    6 (6)
+Q Consensus         2 vtvyv    6 (6)
+                      ++|+|
+T Consensus         2 ~~v~v    6 (98)
+T 2PLT_A            2 ATVKL    6 (98)
+T ss_dssp             EEEEE
+T ss_pred             cEEEe
+
+
+No 6
+>6XA1_j translation termination complex; Selectively stalling, translation termination, drug-like; HET: A2M, MEQ, 4AC, M2G, MLZ, OMG, OMU, PSU, B8N, 5MC, H2U, MVM, 2MG, G7M, UY1, 1MG, MA6, UXY, 6MZ, 1MA, UY4, MG, OMC, UR3; 2.8A {Homo sapiens}
+Probab=5.16  E-value=6.8e+02  Score=11.20  Aligned_cols=6  Identities=0%  Similarity=0.645  Sum_probs=0.0  Template_Neff=9.000
+
+Q LVTVYV            1 LVTVYV    6 (6)
+Q Consensus         1 lvtvyv    6 (6)
+                      ++++|+
+T Consensus        24 ~vSlYl   29 (411)
+T 6XA1_j           24 MISLII   29 (411)
+T ss_pred             eEEEEe
+
+
+No 7
+>3AGK_A Peptide chain release factor subunit; TRANSLATION; 2.1A {Aeropyrum pernix}
+Probab=5.15  E-value=6.9e+02  Score=10.80  Aligned_cols=6  Identities=33%  Similarity=1.110  Sum_probs=0.0  Template_Neff=9.500
+
+Q LVTVYV            1 LVTVYV    6 (6)
+Q Consensus         1 lvtvyv    6 (6)
+                      ++++|+
+T Consensus        34 ~vSlyl   39 (373)
+T 3AGK_A           34 LLSLYI   39 (373)
+T ss_dssp             EEEEEE
+T ss_pred             eEEEEE
+
+
+No 8
+>3VMF_B Elongation factor 1-alpha, Peptide chain; translation termination, TRANSLATION; HET: GTP; 2.3A {Aeropyrum pernix}
+Probab=5.15  E-value=6.9e+02  Score=10.80  Aligned_cols=6  Identities=33%  Similarity=1.110  Sum_probs=0.0  Template_Neff=9.500
+
+Q LVTVYV            1 LVTVYV    6 (6)
+Q Consensus         1 lvtvyv    6 (6)
+                      ++++|+
+T Consensus        34 ~vSlyl   39 (373)
+T 3VMF_B           34 LLSLYI   39 (373)
+T ss_dssp             EEEEEE
+T ss_pred             eEEEEE
+
+
+No 9
+>4DL0_C V-type proton ATPase subunit C; coiled-coil, heterotrimer, peripheral stalk, stator; HET: SO4; 2.905A {Saccharomyces cerevisiae}
+Probab=5.15  E-value=6.9e+02  Score=10.79  Aligned_cols=6  Identities=67%  Similarity=0.739  Sum_probs=0.0  Template_Neff=5.400
+
+Q LVTVYV            1 LVTVYV    6 (6)
+Q Consensus         1 lvtvyv    6 (6)
+                      |.|++|
+T Consensus        44 L~Tl~V   49 (130)
+T 4DL0_C           44 LTTVLV   49 (130)
+T ss_pred             eEEEEE
+
+
+No 10
+>4EFA_C V-type proton ATPase subunit C; heterotrimer, peripheral stalk, vacuolar ATPase; HET: SO4; 2.8163A {Saccharomyces cerevisiae}
+Probab=5.15  E-value=6.9e+02  Score=10.79  Aligned_cols=6  Identities=67%  Similarity=0.739  Sum_probs=0.0  Template_Neff=5.400
+
+Q LVTVYV            1 LVTVYV    6 (6)
+Q Consensus         1 lvtvyv    6 (6)
+                      |.|++|
+T Consensus        44 L~Tl~V   49 (130)
+T 4EFA_C           44 LTTVLV   49 (130)
+T ss_pred             eEEEEE
+
+

@@ -1,0 +1,149 @@
+Query         LATVYM
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 16:47:20 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LATVYM/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LATVYM/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6U42_7D Tubulin beta, Tubulin   14.6 1.7E+02  0.0019   14.0   0.0    6    1-6     119-124 (146)
+  2 1BML_C PLASMIN, STREPTOKINASE;   7.1 4.6E+02   0.005   13.6   0.0    4    3-6     355-358 (362)
+  3 6DR3_A Penicillin-binding prot   6.7 4.9E+02  0.0055    9.9   0.0    5    2-6       6-10  (223)
+  4 2W57_B FERRIC UPTAKE REGULATIO   6.5 5.1E+02  0.0056    9.6   0.0    5    1-5      52-56  (150)
+  5 6D57_B Ferric uptake regulatio   6.5 5.1E+02  0.0056   10.0   0.0    5    1-5      68-72  (161)
+  6 3VG8_B Hypothetical Protein TT   6.2 5.4E+02  0.0059   11.7   0.0    6    1-6      43-48  (116)
+  7 3VG8_F Hypothetical Protein TT   6.2 5.4E+02   0.006   11.7   0.0    6    1-6      43-48  (116)
+  8 7K34_C Threonine aldolase (E.C   6.1 5.5E+02  0.0061   11.0   0.0    5    1-5     443-447 (452)
+  9 2KY9_A Uncharacterized protein   6.0 5.7E+02  0.0063   11.6   0.0    4    3-6      95-98  (132)
+ 10 4MDW_A Uncharacterized protein   5.7   6E+02  0.0066   11.9   0.0    4    3-6     137-140 (166)
+
+No 1
+>6U42_7D Tubulin beta, Tubulin alpha, PACRG; motile cilia, microtubule doublet, repetitive; HET: GDP, GTP, MG; 3.4A {Chlamydomonas reinhardtii}
+Probab=14.56  E-value=1.7e+02  Score=13.95  Aligned_cols=6  Identities=67%  Similarity=1.154  Sum_probs=3.3  Template_Neff=1.200
+
+Q LATVYM            1 LATVYM    6 (6)
+Q Consensus         1 latvym    6 (6)
+                      +|-|||
+T Consensus       119 ~akvym  124 (146)
+T 6U42_7D         119 MAKVYM  124 (146)
+T ss_pred             heeeeh
+Confidence            355665
+
+
+No 2
+>1BML_C PLASMIN, STREPTOKINASE; HUMAN PLASMIN, STREPTOKINASE, BLOOD CLOTTING; 2.9A {Streptococcus dysgalactiae subsp. equisimilis} SCOP: d.15.5.1
+Probab=7.08  E-value=4.6e+02  Score=13.65  Aligned_cols=4  Identities=100%  Similarity=1.497  Sum_probs=0.0  Template_Neff=4.000
+
+Q LATVYM            3 TVYM    6 (6)
+Q Consensus         3 tvym    6 (6)
+                      +|||
+T Consensus       355 ~vym  358 (362)
+T 1BML_C          355 TVYM  358 (362)
+T ss_dssp             EEEE
+T ss_pred             EEEE
+
+
+No 3
+>6DR3_A Penicillin-binding protein activator LpoA; TPR-like motifs OUTER MEMBRANE LIPOPROTEIN; 2.101A {Escherichia coli (strain K12)}
+Probab=6.67  E-value=4.9e+02  Score=9.90  Aligned_cols=5  Identities=60%  Similarity=1.052  Sum_probs=0.0  Template_Neff=10.400
+
+Q LATVYM            2 ATVYM    6 (6)
+Q Consensus         2 atvym    6 (6)
+                      .|.||
+T Consensus         6 ~~~~~   10 (223)
+T 6DR3_A            6 STAYM   10 (223)
+T ss_pred             cCCCc
+
+
+No 4
+>2W57_B FERRIC UPTAKE REGULATION PROTEIN; GENE REGULATION, VIBRIO CHOLERAE, TRANSCRIPTION; 2.6A {VIBRIO CHOLERAE}
+Probab=6.54  E-value=5.1e+02  Score=9.62  Aligned_cols=5  Identities=100%  Similarity=1.338  Sum_probs=0.0  Template_Neff=9.500
+
+Q LATVYM            1 LATVY    5 (6)
+Q Consensus         1 latvy    5 (6)
+                      .+|||
+T Consensus        52 ~~Tvy   56 (150)
+T 2W57_B           52 LATVY   56 (150)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 5
+>6D57_B Ferric uptake regulation protein; Fur, ferric uptake regulator, Campylobacter; HET: FMT, OHI, GOL; 1.81A {Campylobacter jejuni}
+Probab=6.51  E-value=5.1e+02  Score=9.97  Aligned_cols=5  Identities=80%  Similarity=1.258  Sum_probs=0.0  Template_Neff=9.000
+
+Q LATVYM            1 LATVY    5 (6)
+Q Consensus         1 latvy    5 (6)
+                      .+|||
+T Consensus        68 ~~TVy   72 (161)
+T 6D57_B           68 IATVY   72 (161)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 6
+>3VG8_B Hypothetical Protein TTHB210; Alpha and beta proteins (a+b); 2.2A {Thermus thermophilus}
+Probab=6.24  E-value=5.4e+02  Score=11.72  Aligned_cols=6  Identities=33%  Similarity=0.789  Sum_probs=0.0  Template_Neff=3.100
+
+Q LATVYM            1 LATVYM    6 (6)
+Q Consensus         1 latvym    6 (6)
+                      .+++||
+T Consensus        43 V~~~yM   48 (116)
+T 3VG8_B           43 VKVVFM   48 (116)
+T ss_dssp             EEEEEE
+T ss_pred             EEEEEE
+
+
+No 7
+>3VG8_F Hypothetical Protein TTHB210; Alpha and beta proteins (a+b); HET: MSE; 2.2A {Thermus thermophilus}
+Probab=6.20  E-value=5.4e+02  Score=11.71  Aligned_cols=6  Identities=33%  Similarity=0.789  Sum_probs=0.0  Template_Neff=3.100
+
+Q LATVYM            1 LATVYM    6 (6)
+Q Consensus         1 latvym    6 (6)
+                      .+++||
+T Consensus        43 V~~~yM   48 (116)
+T 3VG8_F           43 VKVVFM   48 (116)
+T ss_dssp             EEEEEE
+T ss_pred             EEEEEE
+
+
+No 8
+>7K34_C Threonine aldolase (E.C.4.1.2.5); threonine transaldolase, pyridoxal phosphate, PLP; HET: SO4, LLP; 1.66A {Pseudomonas fluorescens}
+Probab=6.14  E-value=5.5e+02  Score=10.98  Aligned_cols=5  Identities=80%  Similarity=1.212  Sum_probs=0.0  Template_Neff=10.400
+
+Q LATVYM            1 LATVY    5 (6)
+Q Consensus         1 latvy    5 (6)
+                      ||.||
+T Consensus       443 ~~~~~  447 (452)
+T 7K34_C          443 LAAVY  447 (452)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 9
+>2KY9_A Uncharacterized protein ydhK; tandem tudor, Structural Genomics, NORTHEAST; NMR {Bacillus subtilis}
+Probab=5.95  E-value=5.7e+02  Score=11.58  Aligned_cols=4  Identities=100%  Similarity=1.497  Sum_probs=0.0  Template_Neff=4.000
+
+Q LATVYM            3 TVYM    6 (6)
+Q Consensus         3 tvym    6 (6)
+                      ||||
+T Consensus        95 tvY~   98 (132)
+T 2KY9_A           95 TVYM   98 (132)
+T ss_dssp             EEEE
+T ss_pred             cEEE
+
+
+No 10
+>4MDW_A Uncharacterized protein YdhK; PF07563 family, DUF1541, Structural Genomics; 2.0A {Bacillus subtilis subsp. subtilis}
+Probab=5.74  E-value=6e+02  Score=11.91  Aligned_cols=4  Identities=100%  Similarity=1.497  Sum_probs=0.0  Template_Neff=4.000
+
+Q LATVYM            3 TVYM    6 (6)
+Q Consensus         3 tvym    6 (6)
+                      ||||
+T Consensus       137 tvY~  140 (166)
+T 4MDW_A          137 TVYM  140 (166)
+T ss_dssp             EEEE
+T ss_pred             cEEE
+
+

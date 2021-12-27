@@ -1,0 +1,148 @@
+Query         LFNNST
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 18:08:35 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LFNNST/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LFNNST/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6NCL_b0 PBCV-1 capsid; tape-me  16.3 1.4E+02  0.0016   14.8   0.0    5    2-6     191-195 (207)
+  2 4XB0_A Serine/threonine-protei  16.1 1.4E+02  0.0016   12.8   0.0    6    1-6      61-66  (218)
+  3 6NCL_b7 PBCV-1 capsid; tape-me  15.4 1.5E+02  0.0017   14.7   0.0    5    2-6     191-195 (207)
+  4 6MF4_A Cell cycle serine/threo  15.4 1.5E+02  0.0017   13.9   0.0    6    1-6     123-128 (290)
+  5 6MF5_B Cell cycle serine/threo  15.4 1.5E+02  0.0017   13.9   0.0    6    1-6     123-128 (290)
+  6 4X9R_A Serine/threonine-protei  15.4 1.5E+02  0.0017   13.1   0.0    6    1-6      69-74  (237)
+  7 6AX4_A polo-box domain of huma  15.4 1.5E+02  0.0017   13.1   0.0    6    1-6      69-74  (237)
+  8 5HU6_D Hemoglobin subunit alph  14.6 1.7E+02  0.0019   14.9   0.0    6    1-6      97-102 (260)
+  9 4X0J_B Trypanosoma brucei hapt  14.6 1.7E+02  0.0019   15.0   0.0    6    1-6     100-105 (265)
+ 10 5Z06_B BDI_3064 protein; Sopho  14.5 1.7E+02  0.0019   14.4   0.0    6    1-6      10-15  (712)
+
+No 1
+>6NCL_b0 PBCV-1 capsid; tape-measure protein, minor capsid proteins; 3.5A {Paramecium bursaria Chlorella virus 1}
+Probab=16.28  E-value=1.4e+02  Score=14.79  Aligned_cols=5  Identities=20%  Similarity=0.196  Sum_probs=0.0  Template_Neff=2.100
+
+Q LFNNST            2 FNNST    6 (6)
+Q Consensus         2 fnnst    6 (6)
+                      |||||
+T Consensus       191 WnNST  195 (207)
+T 6NCL_b0         191 WMMSS  195 (207)
+T ss_pred             cccCC
+
+
+No 2
+>4XB0_A Serine/threonine-protein kinase PLK2; polo-box domain, Polo-like kinase 2; 2.701A {Homo sapiens}
+Probab=16.12  E-value=1.4e+02  Score=12.84  Aligned_cols=6  Identities=67%  Similarity=1.088  Sum_probs=0.0  Template_Neff=7.300
+
+Q LFNNST            1 LFNNST    6 (6)
+Q Consensus         1 lfnnst    6 (6)
+                      +||++|
+T Consensus        61 ~FND~t   66 (218)
+T 4XB0_A           61 LFNNGA   66 (218)
+T ss_dssp             EETTSC
+T ss_pred             EEeCCC
+
+
+No 3
+>6NCL_b7 PBCV-1 capsid; tape-measure protein, minor capsid proteins; 3.5A {Paramecium bursaria Chlorella virus 1}
+Probab=15.39  E-value=1.5e+02  Score=14.68  Aligned_cols=5  Identities=20%  Similarity=0.196  Sum_probs=0.0  Template_Neff=2.000
+
+Q LFNNST            2 FNNST    6 (6)
+Q Consensus         2 fnnst    6 (6)
+                      |||||
+T Consensus       191 WnNST  195 (207)
+T 6NCL_b7         191 WMMSS  195 (207)
+T ss_pred             ccccC
+
+
+No 4
+>6MF4_A Cell cycle serine/threonine-protein kinase CDC5/MSD2; Mitosis, Polo-like kinase, Cdc5, Dbf4; 1.8A {Saccharomyces cerevisiae}
+Probab=15.38  E-value=1.5e+02  Score=13.94  Aligned_cols=6  Identities=83%  Similarity=1.193  Sum_probs=0.0  Template_Neff=5.900
+
+Q LFNNST            1 LFNNST    6 (6)
+Q Consensus         1 lfnnst    6 (6)
+                      +||++|
+T Consensus       123 lFND~T  128 (290)
+T 6MF4_A          123 LFNNGT  128 (290)
+T ss_dssp             ECTTSC
+T ss_pred             EEecCC
+
+
+No 5
+>6MF5_B Cell cycle serine/threonine-protein kinase CDC5/MSD2; Mitosis, Dbf4, Polo-like kinases, CELL; HET: SEP; 2.7A {Saccharomyces cerevisiae}
+Probab=15.38  E-value=1.5e+02  Score=13.94  Aligned_cols=6  Identities=83%  Similarity=1.193  Sum_probs=0.0  Template_Neff=5.900
+
+Q LFNNST            1 LFNNST    6 (6)
+Q Consensus         1 lfnnst    6 (6)
+                      +||++|
+T Consensus       123 lFND~T  128 (290)
+T 6MF5_B          123 LFNNGT  128 (290)
+T ss_dssp             ECTTSC
+T ss_pred             EEecCC
+
+
+No 6
+>4X9R_A Serine/threonine-protein kinase PLK1/Phosphopeptide macrocycle 3B; POLO BOX DOMAIN PHOSPHOPEPTIDE MACROCYCLE; HET: 4L0, 56A, TPO; 1.398A {Homo sapiens}
+Probab=15.36  E-value=1.5e+02  Score=13.09  Aligned_cols=6  Identities=83%  Similarity=1.204  Sum_probs=0.0  Template_Neff=6.900
+
+Q LFNNST            1 LFNNST    6 (6)
+Q Consensus         1 lfnnst    6 (6)
+                      +||++|
+T Consensus        69 ~FND~T   74 (237)
+T 4X9R_A           69 LFNDST   74 (237)
+T ss_dssp             EETTSC
+T ss_pred             EEeCCC
+
+
+No 7
+>6AX4_A polo-box domain of human Plk-1; macrocyclic phosphopeptide, mitotic kinase. polo-box; HET: 56A, N7P, TPO, AML; 1.45A {Homo sapiens}
+Probab=15.36  E-value=1.5e+02  Score=13.09  Aligned_cols=6  Identities=83%  Similarity=1.204  Sum_probs=0.0  Template_Neff=6.900
+
+Q LFNNST            1 LFNNST    6 (6)
+Q Consensus         1 lfnnst    6 (6)
+                      +||++|
+T Consensus        69 ~FND~T   74 (237)
+T 6AX4_A           69 LFNDST   74 (237)
+T ss_dssp             EETTSC
+T ss_pred             EEeCCC
+
+
+No 8
+>5HU6_D Hemoglobin subunit alpha, Hemoglobin subunit; Trypanosome haptoglobin-haemoglobin, Transport Protein; HET: NAG, HEM; 2.9A {Homo sapiens}
+Probab=14.57  E-value=1.7e+02  Score=14.95  Aligned_cols=6  Identities=83%  Similarity=1.182  Sum_probs=0.0  Template_Neff=1.000
+
+Q LFNNST            1 LFNNST    6 (6)
+Q Consensus         1 lfnnst    6 (6)
+                      ||||.|
+T Consensus        97 lfnnet  102 (260)
+T 5HU6_D           97 LFNNET  102 (260)
+T ss_dssp             HHHHHH
+T ss_pred             ccccch
+
+
+No 9
+>4X0J_B Trypanosoma brucei haptoglobin-haemoglobin receptor; Trypanosoma brucei, Haptoglobin-haemoglobin receptor, protein; 1.85A {Trypanosoma brucei brucei}
+Probab=14.57  E-value=1.7e+02  Score=14.98  Aligned_cols=6  Identities=83%  Similarity=1.182  Sum_probs=0.0  Template_Neff=1.000
+
+Q LFNNST            1 LFNNST    6 (6)
+Q Consensus         1 lfnnst    6 (6)
+                      ||||.|
+T Consensus       100 lfnnet  105 (265)
+T 4X0J_B          100 LFNNET  105 (265)
+T ss_dssp             HHHHHH
+T ss_pred             ccccch
+
+
+No 10
+>5Z06_B BDI_3064 protein; Sophorose, Parabacteroides, GH144, Glycoside hydrolase; HET: GOL; 2.1A {Parabacteroides distasonis (strain ATCC 8503 / DSM 20701 / CIP 104284 / JCM 5825 / NCTC 11152)}
+Probab=14.50  E-value=1.7e+02  Score=14.43  Aligned_cols=6  Identities=50%  Similarity=0.811  Sum_probs=0.0  Template_Neff=8.100
+
+Q LFNNST            1 LFNNST    6 (6)
+Q Consensus         1 lfnnst    6 (6)
+                      +|+||.
+T Consensus        10 ~f~~~~   15 (712)
+T 5Z06_B           10 FFENSL   15 (712)
+T ss_dssp             EESCCS
+T ss_pred             eeecCC
+
+

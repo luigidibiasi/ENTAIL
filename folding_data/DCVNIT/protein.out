@@ -1,0 +1,280 @@
+Query         DCVNIT
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 16:55:55 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/DCVNIT/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/DCVNIT/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2KTM_A Major prion protein; H2  94.4  0.0084 9.3E-08   25.6   0.0    6    1-6      36-41  (89)
+  2 6AQ7_A Major prion protein, PO  93.8   0.015 1.7E-07   25.8   0.0    6    1-6      74-79  (122)
+  3 1Y16_A prion protein, PrP, Prn  93.8   0.016 1.8E-07   25.4   0.0    6    1-6      58-63  (112)
+  4 1I17_A PRION-LIKE PROTEIN; mou  92.3   0.051 5.6E-07   23.4   0.0    6    1-6      58-63  (107)
+  5 1LG4_A Prion-like protein; pri  91.9   0.062 6.8E-07   23.7   0.0    6    1-6      84-89  (129)
+  6 1U5L_A prion protein; Prnp, Pr  90.3    0.13 1.5E-06   21.9   0.0    6    1-6      61-66  (108)
+  7 1XU0_A prion protein; PRION, A  89.7    0.17 1.8E-06   22.3   0.0    6    1-6      84-89  (130)
+  8 1U3M_A prion-like protein; PRI  89.4    0.19 2.1E-06   21.7   0.0    6    1-6      60-65  (117)
+  9 4HLS_B Major prion protein; pr  87.8     0.3 3.3E-06   22.0   0.0    6    1-6      80-85  (132)
+ 10 4HMM_A Major prion protein; pr  87.8     0.3 3.4E-06   22.0   0.0    6    1-6      80-85  (132)
+ 11 6HER_A Nanobody 484, Mouse Pri  87.1    0.36   4E-06   20.7   0.0    6    1-6      61-66  (110)
+ 12 4N9O_A Major prion protein, Na  86.8    0.39 4.3E-06   21.8   0.0    6    1-6      89-94  (142)
+ 13 7LNA_A infectious mammalian pr  86.7     0.4 4.4E-06   21.8   0.0    6    1-6      89-94  (142)
+ 14 2LFT_A Major prion protein; pr  86.5    0.41 4.6E-06   21.7   0.0    6    1-6      89-94  (142)
+ 15 1QLZ_A PRION PROTEIN; PRION PR  86.3    0.43 4.8E-06   22.3   0.0    6    1-6     158-163 (210)
+ 16 4KML_A Major prion protein (E.  85.1    0.56 6.2E-06   22.4   0.0    6    1-6     188-193 (241)
+ 17 2HLG_A Fruit-specific protein;  34.4      38 0.00042   13.2   0.0    6    1-6      11-16  (39)
+ 18 7M12_B Capsid protein; Capsid,  22.3      86 0.00095   17.7   0.0    6    1-6      88-93  (665)
+
+No 1
+>2KTM_A Major prion protein; H2H3, Prion Protein, Peptide folding; NMR {Ovis aries}
+Probab=94.37  E-value=0.0084  Score=25.61  Aligned_cols=6  Identities=100%  Similarity=1.658  Sum_probs=5.4  Template_Neff=2.300
+
+Q DCVNIT            1 DCVNIT    6 (6)
+Q Consensus         1 dcvnit    6 (6)
+                      ||||||
+T Consensus        36 DCvNIT   41 (89)
+T 2KTM_A           36 DCVNIT   41 (89)
+T ss_dssp             HHHHHH
+T ss_pred             eceeee
+Confidence            899997
+
+
+No 2
+>6AQ7_A Major prion protein, POM6 FAB; Prion, antibody, chaperone, antigen-antibody, IMMUNE; HET: TCE, GOL; 1.83A {Mus musculus}
+Probab=93.83  E-value=0.015  Score=25.81  Aligned_cols=6  Identities=100%  Similarity=1.658  Sum_probs=5.4  Template_Neff=2.300
+
+Q DCVNIT            1 DCVNIT    6 (6)
+Q Consensus         1 dcvnit    6 (6)
+                      ||||||
+T Consensus        74 DCvNIT   79 (122)
+T 6AQ7_A           74 DCVNIT   79 (122)
+T ss_dssp             HHHHHH
+T ss_pred             eceece
+Confidence            899997
+
+
+No 3
+>1Y16_A prion protein, PrP, PrnP, TSE; NMR {Mus musculus}
+Probab=93.76  E-value=0.016  Score=25.42  Aligned_cols=6  Identities=100%  Similarity=1.658  Sum_probs=5.4  Template_Neff=2.400
+
+Q DCVNIT            1 DCVNIT    6 (6)
+Q Consensus         1 dcvnit    6 (6)
+                      ||||||
+T Consensus        58 DCvNiT   63 (112)
+T 1Y16_A           58 DCVNIT   63 (112)
+T ss_dssp             HHHHHH
+T ss_pred             eceeee
+Confidence            899997
+
+
+No 4
+>1I17_A PRION-LIKE PROTEIN; mouse doppel, doppel, dpl, prion; NMR {Mus musculus} SCOP: d.6.1.1
+Probab=92.28  E-value=0.051  Score=23.36  Aligned_cols=6  Identities=67%  Similarity=1.160  Sum_probs=5.3  Template_Neff=3.400
+
+Q DCVNIT            1 DCVNIT    6 (6)
+Q Consensus         1 dcvnit    6 (6)
+                      ||||||
+T Consensus        58 dCvNiT   63 (107)
+T 1I17_A           58 SCVNAT   63 (107)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            799987
+
+
+No 5
+>1LG4_A Prion-like protein; prion, doppel, scrapie, Prion Protein; NMR {Homo sapiens} SCOP: d.6.1.1
+Probab=91.93  E-value=0.062  Score=23.68  Aligned_cols=6  Identities=50%  Similarity=1.121  Sum_probs=5.3  Template_Neff=3.300
+
+Q DCVNIT            1 DCVNIT    6 (6)
+Q Consensus         1 dcvnit    6 (6)
+                      ||||||
+T Consensus        84 dCvNiT   89 (129)
+T 1LG4_A           84 GCINAT   89 (129)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            799987
+
+
+No 6
+>1U5L_A prion protein; Prnp, PrP, prion, TSE, MEMBRANE; NMR {Trachemys scripta} SCOP: d.6.1.1
+Probab=90.31  E-value=0.13  Score=21.89  Aligned_cols=6  Identities=100%  Similarity=1.658  Sum_probs=5.1  Template_Neff=3.900
+
+Q DCVNIT            1 DCVNIT    6 (6)
+Q Consensus         1 dcvnit    6 (6)
+                      ||||||
+T Consensus        61 dCvN~T   66 (108)
+T 1U5L_A           61 DCVNIT   66 (108)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            799987
+
+
+No 7
+>1XU0_A prion protein; PRION, AMPHIBIAN, GLYCOPROTEIN, MEMBRANE PROTEIN; NMR {Xenopus laevis} SCOP: d.6.1.1
+Probab=89.73  E-value=0.17  Score=22.33  Aligned_cols=6  Identities=50%  Similarity=1.270  Sum_probs=5.2  Template_Neff=3.500
+
+Q DCVNIT            1 DCVNIT    6 (6)
+Q Consensus         1 dcvnit    6 (6)
+                      ||||||
+T Consensus        84 dCvN~T   89 (130)
+T 1XU0_A           84 DCYNMS   89 (130)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHh
+Confidence            799987
+
+
+No 8
+>1U3M_A prion-like protein; PRION PROTEIN, TSE, PRP, MEMBRANE; NMR {Gallus gallus} SCOP: d.6.1.1
+Probab=89.37  E-value=0.19  Score=21.73  Aligned_cols=6  Identities=83%  Similarity=1.475  Sum_probs=5.1  Template_Neff=3.800
+
+Q DCVNIT            1 DCVNIT    6 (6)
+Q Consensus         1 dcvnit    6 (6)
+                      ||||||
+T Consensus        60 dCvN~T   65 (117)
+T 1U3M_A           60 DCFNIT   65 (117)
+T ss_dssp             HHHHHH
+T ss_pred             HHhHHh
+Confidence            799987
+
+
+No 9
+>4HLS_B Major prion protein; prp, prion, membrane, MEMBRANE PROTEIN; HET: GOL; 1.45A {Oryctolagus cuniculus}
+Probab=87.77  E-value=0.3  Score=21.97  Aligned_cols=6  Identities=100%  Similarity=1.658  Sum_probs=5.1  Template_Neff=2.600
+
+Q DCVNIT            1 DCVNIT    6 (6)
+Q Consensus         1 dcvnit    6 (6)
+                      ||+|||
+T Consensus        80 dC~niT   85 (132)
+T 4HLS_B           80 DCVNIT   85 (132)
+T ss_dssp             HHHHHH
+T ss_pred             HHHhcc
+Confidence            799986
+
+
+No 10
+>4HMM_A Major prion protein; prp, prion, membrane, MEMBRANE PROTEIN; HET: GOL; 1.5A {Oryctolagus cuniculus}
+Probab=87.75  E-value=0.3  Score=21.97  Aligned_cols=6  Identities=100%  Similarity=1.658  Sum_probs=5.1  Template_Neff=2.600
+
+Q DCVNIT            1 DCVNIT    6 (6)
+Q Consensus         1 dcvnit    6 (6)
+                      ||+|||
+T Consensus        80 dC~niT   85 (132)
+T 4HMM_A           80 DCVNIT   85 (132)
+T ss_dssp             HHHHHH
+T ss_pred             HHHhcc
+Confidence            799986
+
+
+No 11
+>6HER_A Nanobody 484, Mouse Prion protein; Prion, Nanobody, aggregation, B-sheet, PROTEIN; HET: SO4; 1.199A {Mus musculus}
+Probab=87.09  E-value=0.36  Score=20.72  Aligned_cols=6  Identities=100%  Similarity=1.658  Sum_probs=5.0  Template_Neff=3.800
+
+Q DCVNIT            1 DCVNIT    6 (6)
+Q Consensus         1 dcvnit    6 (6)
+                      ||+|+|
+T Consensus        61 dCvN~T   66 (110)
+T 6HER_A           61 DCVNIT   66 (110)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            799986
+
+
+No 12
+>4N9O_A Major prion protein, Nanobody Nb484; Prion-like fold, antibody, nanobody, MEMBRANE; 1.5A {Homo sapiens}
+Probab=86.79  E-value=0.39  Score=21.80  Aligned_cols=6  Identities=100%  Similarity=1.658  Sum_probs=5.1  Template_Neff=2.700
+
+Q DCVNIT            1 DCVNIT    6 (6)
+Q Consensus         1 dcvnit    6 (6)
+                      ||+|||
+T Consensus        89 dC~niT   94 (142)
+T 4N9O_A           89 DCVNIT   94 (142)
+T ss_dssp             HHHHHH
+T ss_pred             HHHhcc
+Confidence            799986
+
+
+No 13
+>7LNA_A infectious mammalian prion, templating, glycosylated; 3.1A {Mesocricetus auratus}
+Probab=86.70  E-value=0.4  Score=21.81  Aligned_cols=6  Identities=100%  Similarity=1.658  Sum_probs=5.1  Template_Neff=2.600
+
+Q DCVNIT            1 DCVNIT    6 (6)
+Q Consensus         1 dcvnit    6 (6)
+                      ||+|||
+T Consensus        89 dC~niT   94 (142)
+T 7LNA_A           89 DCVNIT   94 (142)
+T ss_dssp             CSEEEE
+T ss_pred             HHHhcc
+Confidence            799986
+
+
+No 14
+>2LFT_A Major prion protein; protective mutant, membrane protein, protein; NMR {Homo sapiens}
+Probab=86.50  E-value=0.41  Score=21.71  Aligned_cols=6  Identities=100%  Similarity=1.658  Sum_probs=5.1  Template_Neff=2.700
+
+Q DCVNIT            1 DCVNIT    6 (6)
+Q Consensus         1 dcvnit    6 (6)
+                      ||+|||
+T Consensus        89 dC~niT   94 (142)
+T 2LFT_A           89 DCVNIT   94 (142)
+T ss_dssp             HHHHHH
+T ss_pred             HHHhcc
+Confidence            799986
+
+
+No 15
+>1QLZ_A PRION PROTEIN; PRION PROTEIN, PRION, BRAIN, GLYCOPROTEIN; NMR {HOMO SAPIENS} SCOP: d.6.1.1
+Probab=86.30  E-value=0.43  Score=22.30  Aligned_cols=6  Identities=100%  Similarity=1.658  Sum_probs=5.1  Template_Neff=3.500
+
+Q DCVNIT            1 DCVNIT    6 (6)
+Q Consensus         1 dcvnit    6 (6)
+                      ||||||
+T Consensus       158 dCvN~T  163 (210)
+T 1QLZ_A          158 DCVNIT  163 (210)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            799987
+
+
+No 16
+>4KML_A Major prion protein (E.C.04156-1), ; Prion-like fold, antibody, nanobody, MEMBRANE; 1.5A {Homo sapiens}
+Probab=85.07  E-value=0.56  Score=22.42  Aligned_cols=6  Identities=100%  Similarity=1.658  Sum_probs=5.1  Template_Neff=3.200
+
+Q DCVNIT            1 DCVNIT    6 (6)
+Q Consensus         1 dcvnit    6 (6)
+                      ||||||
+T Consensus       188 dCvN~T  193 (241)
+T 4KML_A          188 DCVNIT  193 (241)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            799987
+
+
+No 17
+>2HLG_A Fruit-specific protein; beta antiparallel, PLANT PROTEIN; NMR {Lycopersicon esculentum}
+Probab=34.37  E-value=38  Score=13.23  Aligned_cols=6  Identities=67%  Similarity=1.453  Sum_probs=3.6  Template_Neff=1.600
+
+Q DCVNIT            1 DCVNIT    6 (6)
+Q Consensus         1 dcvnit    6 (6)
+                      ||+.||
+T Consensus        11 DC~GiT   16 (39)
+T 2HLG_A           11 DCIGIT   16 (39)
+T ss_dssp             GGSSSS
+T ss_pred             ceeeEE
+Confidence            566664
+
+
+No 18
+>7M12_B Capsid protein; Capsid, Viral Protein; 4.0A {Trichomonas vaginalis virus 2}
+Probab=22.25  E-value=86  Score=17.66  Aligned_cols=6  Identities=50%  Similarity=0.656  Sum_probs=4.3  Template_Neff=2.300
+
+Q DCVNIT            1 DCVNIT    6 (6)
+Q Consensus         1 dcvnit    6 (6)
+                      |||||+
+T Consensus        88 d~~~~~   93 (665)
+T 7M12_B           88 DSTTIT   93 (665)
+T ss_dssp             CCCCEE
+T ss_pred             ccceeC
+Confidence            678775
+
+

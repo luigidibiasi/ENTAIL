@@ -1,0 +1,153 @@
+Query         LSGDHC
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 20:26:06 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LSGDHC/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LSGDHC/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2E2S_A Agelenin; cystine knot,  23.7      77 0.00085   12.2   0.0    6    1-6      13-18  (36)
+  2 4OG4_A --REMARK   3; PROTEIN B  21.7      89 0.00099   16.7   0.0    6    1-6     162-167 (480)
+  3 3RE2_A Predicted protein; meni  21.6      90   0.001   16.7   0.0    6    1-6     154-159 (472)
+  4 2MQU_A toxin Hm-3; spider toxi  17.7 1.2E+02  0.0014   11.5   0.0    6    1-6      12-17  (35)
+  5 6O5I_A Menin; Menin-inhibitor   16.7 1.4E+02  0.0015   16.2   0.0    6    1-6     162-167 (489)
+  6 2KAK_A EC protein I/II; metall  16.1 1.4E+02  0.0016   12.0   0.0    4    3-6       9-12  (53)
+  7 3U84_A Menin; menin, MEN1, MLL  15.6 1.5E+02  0.0017   16.2   0.0    6    1-6     177-182 (550)
+  8 6WNH_A Menin; Inhibitor, PROTE  15.6 1.5E+02  0.0017   16.2   0.0    6    1-6     177-182 (550)
+  9 7M4T_A Inhibitor, TRANSCRIPTIO  15.3 1.6E+02  0.0017   16.1   0.0    6    1-6     177-182 (550)
+ 10 3TXV_A Probable tagatose 6-pho  14.9 1.6E+02  0.0018   14.6   0.0    6    1-6      91-96  (450)
+
+No 1
+>2E2S_A Agelenin; cystine knot, presynaptic calcium channel; NMR {Allagelena opulenta}
+Probab=23.66  E-value=77  Score=12.19  Aligned_cols=6  Identities=67%  Similarity=1.342  Sum_probs=3.2  Template_Neff=1.900
+
+Q LSGDHC            1 LSGDHC    6 (6)
+Q Consensus         1 lsgdhc    6 (6)
+                      +||.+|
+T Consensus        13 ~SGp~C   18 (36)
+T 2E2S_A           13 LSGPRC   18 (36)
+T ss_dssp             SSSCCB
+T ss_pred             ccCCCc
+Confidence            356555
+
+
+No 2
+>4OG4_A --REMARK   3; PROTEIN BINDING-INHIBITOR complex; HET: PEG, PG4, DMS, 2VK, PGE; 1.45A {Homo sapiens}
+Probab=21.71  E-value=89  Score=16.66  Aligned_cols=6  Identities=67%  Similarity=0.922  Sum_probs=4.1  Template_Neff=3.500
+
+Q LSGDHC            1 LSGDHC    6 (6)
+Q Consensus         1 lsgdhc    6 (6)
+                      ||.|||
+T Consensus       162 LSEDHa  167 (480)
+T 4OG4_A          162 LSEDHA  167 (480)
+T ss_dssp             ECSSCE
+T ss_pred             ecCCce
+Confidence            577775
+
+
+No 3
+>3RE2_A Predicted protein; menin, Multiple Endocrine Neoplasia 1; 1.95A {Nematostella vectensis}
+Probab=21.62  E-value=90  Score=16.66  Aligned_cols=6  Identities=67%  Similarity=0.922  Sum_probs=4.0  Template_Neff=3.400
+
+Q LSGDHC            1 LSGDHC    6 (6)
+Q Consensus         1 lsgdhc    6 (6)
+                      ||.|||
+T Consensus       154 LSEDHa  159 (472)
+T 3RE2_A          154 LSEDHA  159 (472)
+T ss_dssp             ECSSCE
+T ss_pred             ecCCee
+Confidence            577775
+
+
+No 4
+>2MQU_A toxin Hm-3; spider toxins, voltage-gated sodium channels; NMR {Heriaeus melloteei}
+Probab=17.72  E-value=1.2e+02  Score=11.50  Aligned_cols=6  Identities=50%  Similarity=1.343  Sum_probs=0.0  Template_Neff=2.300
+
+Q LSGDHC            1 LSGDHC    6 (6)
+Q Consensus         1 lsgdhc    6 (6)
+                      .||.+|
+T Consensus        12 wSGP~C   17 (35)
+T 2MQU_A           12 FSGEWC   17 (35)
+T ss_dssp             TSSCCB
+T ss_pred             ccCCcc
+
+
+No 5
+>6O5I_A Menin; Menin-inhibitor complex, PROTEIN BINDING; HET: DMS, PG4, SO4, LMY; 1.24025624626A {Homo sapiens}
+Probab=16.68  E-value=1.4e+02  Score=16.16  Aligned_cols=6  Identities=67%  Similarity=0.922  Sum_probs=0.0  Template_Neff=3.300
+
+Q LSGDHC            1 LSGDHC    6 (6)
+Q Consensus         1 lsgdhc    6 (6)
+                      ||.|||
+T Consensus       162 LSEDHa  167 (489)
+T 6O5I_A          162 LSEDHA  167 (489)
+T ss_dssp             ECSSCE
+T ss_pred             ecCCce
+
+
+No 6
+>2KAK_A EC protein I/II; metallothionein, solution structure, wheat Ec-1; HET: ZN; NMR {Triticum aestivum}
+Probab=16.11  E-value=1.4e+02  Score=11.95  Aligned_cols=4  Identities=75%  Similarity=2.228  Sum_probs=0.0  Template_Neff=3.000
+
+Q LSGDHC            3 GDHC    6 (6)
+Q Consensus         3 gdhc    6 (6)
+                      |+||
+T Consensus         9 GeHC   12 (53)
+T 2KAK_A            9 GEHC   12 (53)
+T ss_dssp             TBCC
+T ss_pred             CCCc
+
+
+No 7
+>3U84_A Menin; menin, MEN1, MLL, JunD, LEDGF; 2.5A {Homo sapiens}
+Probab=15.65  E-value=1.5e+02  Score=16.20  Aligned_cols=6  Identities=67%  Similarity=0.922  Sum_probs=0.0  Template_Neff=3.400
+
+Q LSGDHC            1 LSGDHC    6 (6)
+Q Consensus         1 lsgdhc    6 (6)
+                      ||.|||
+T Consensus       177 LSEDHa  182 (550)
+T 3U84_A          177 LSEDHA  182 (550)
+T ss_dssp             ECSSCE
+T ss_pred             ecCCce
+
+
+No 8
+>6WNH_A Menin; Inhibitor, PROTEIN BINDING, TRANSCRIPTION; HET: 7MM, 7PR; 2.1A {Homo sapiens}
+Probab=15.65  E-value=1.5e+02  Score=16.20  Aligned_cols=6  Identities=67%  Similarity=0.922  Sum_probs=0.0  Template_Neff=3.400
+
+Q LSGDHC            1 LSGDHC    6 (6)
+Q Consensus         1 lsgdhc    6 (6)
+                      ||.|||
+T Consensus       177 LSEDHa  182 (550)
+T 6WNH_A          177 LSEDHA  182 (550)
+T ss_dssp             ECSSCE
+T ss_pred             ecCCce
+
+
+No 9
+>7M4T_A Inhibitor, TRANSCRIPTION; HET: YQV, 7PR; 2.74A {Homo sapiens}
+Probab=15.30  E-value=1.6e+02  Score=16.12  Aligned_cols=6  Identities=67%  Similarity=0.922  Sum_probs=0.0  Template_Neff=3.500
+
+Q LSGDHC            1 LSGDHC    6 (6)
+Q Consensus         1 lsgdhc    6 (6)
+                      ||.||+
+T Consensus       177 LSEDHa  182 (550)
+T 7M4T_A          177 LSEDHA  182 (550)
+T ss_dssp             ECSSCE
+T ss_pred             ecCCce
+
+
+No 10
+>3TXV_A Probable tagatose 6-phosphate kinase (E.C.2.7.1.144); Structural Genomics, PSI-Biology, New York; 2.8A {Sinorhizobium meliloti}
+Probab=14.88  E-value=1.6e+02  Score=14.65  Aligned_cols=6  Identities=67%  Similarity=1.121  Sum_probs=0.0  Template_Neff=6.000
+
+Q LSGDHC            1 LSGDHC    6 (6)
+Q Consensus         1 lsgdhc    6 (6)
+                      |.+|||
+T Consensus        91 Lh~DH~   96 (450)
+T 3TXV_A           91 LGGDHL   96 (450)
+T ss_dssp             EEEEEE
+T ss_pred             EecCCC
+
+

@@ -1,0 +1,154 @@
+Query         FGAFSI
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 20:43:46 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/FGAFSI/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/FGAFSI/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6N3A_J TAR DNA-binding protein  62.7     6.5 7.2E-05   15.8   0.0    6    1-6       3-8   (50)
+  2 7KX0_A Complex, TNF, Costimula  34.0      39 0.00043   13.7   0.0    6    1-6     151-156 (158)
+  3 6N3C_D TAR DNA-binding protein  31.3      46 0.00051   13.0   0.0    6    1-6      28-33  (46)
+  4 6UCT_A p9-1; Fijivirus, MRCV,   25.0      70 0.00078   16.6   0.0    6    1-6      15-20  (319)
+  5 3VJJ_A P9-1; Viroplasm, VIRAL   22.7      83 0.00092   16.6   0.0    6    1-6      30-35  (368)
+  6 5EFT_H p9-1; Specific Recognit  20.2   1E+02  0.0011   16.1   0.0    6    1-6       6-11  (321)
+  7 2BEZ_C E2 GLYCOPROTEIN; MEMBRA  19.8   1E+02  0.0012   13.1   0.0    5    1-5      57-61  (77)
+  8 7KP7_A Tumor necrosis factor,   19.8   1E+02  0.0012   11.9   0.0    6    1-6     143-148 (148)
+  9 4MXV_D Lymphotoxin-alpha, anti  19.3 1.1E+02  0.0012   12.1   0.0    6    1-6     152-157 (157)
+ 10 6I50_A SFRICE_029225; TNF, Tum  19.2 1.1E+02  0.0012   12.7   0.0    6    1-6     155-160 (170)
+
+No 1
+>6N3A_J TAR DNA-binding protein 43, segA; Amyloid, TDP43, ALS, FTLD-TDP, dna; 3.3A {Homo sapiens}
+Probab=62.69  E-value=6.5  Score=15.77  Aligned_cols=6  Identities=100%  Similarity=1.619  Sum_probs=4.2  Template_Neff=2.200
+
+Q FGAFSI            1 FGAFSI    6 (6)
+Q Consensus         1 fgafsi    6 (6)
+                      ||+|+|
+T Consensus         3 fg~~~i    8 (50)
+T 6N3A_J            3 FGAFSI    8 (50)
+T ss_dssp             CSCCEE
+T ss_pred             CccccC
+Confidence            677775
+
+
+No 2
+>7KX0_A Complex, TNF, Costimulation, Trimer, IMMUNE; HET: FUC, BMA, MAN, NAG, TRS; 2.69A {Homo sapiens}
+Probab=33.97  E-value=39  Score=13.67  Aligned_cols=6  Identities=33%  Similarity=0.606  Sum_probs=3.6  Template_Neff=7.600
+
+Q FGAFSI            1 FGAFSI    6 (6)
+Q Consensus         1 fgafsi    6 (6)
+                      ||+|-|
+T Consensus       151 FGlf~v  156 (158)
+T 7KX0_A          151 FGVQWV  156 (158)
+T ss_dssp             EEEEEE
+T ss_pred             EEEEEe
+Confidence            677643
+
+
+No 3
+>6N3C_D TAR DNA-binding protein 43; Amyloid, TDP43, ALS, FTLD-TDP, dna; 3.3A {Homo sapiens}
+Probab=31.29  E-value=46  Score=13.02  Aligned_cols=6  Identities=83%  Similarity=1.486  Sum_probs=3.0  Template_Neff=3.000
+
+Q FGAFSI            1 FGAFSI    6 (6)
+Q Consensus         1 fgafsi    6 (6)
+                      ||+|+|
+T Consensus        28 ~ga~~i   33 (46)
+T 6N3C_D           28 FGEFSI   33 (46)
+T ss_dssp             EESCCB
+T ss_pred             cccccc
+Confidence            455554
+
+
+No 4
+>6UCT_A p9-1; Fijivirus, MRCV, Wheat, Maize, Reoviridae; 3.47A {Mal de Rio Cuarto virus}
+Probab=24.98  E-value=70  Score=16.56  Aligned_cols=6  Identities=50%  Similarity=1.326  Sum_probs=4.5  Template_Neff=2.300
+
+Q FGAFSI            1 FGAFSI    6 (6)
+Q Consensus         1 fgafsi    6 (6)
+                      |||++|
+T Consensus        15 fGaykI   20 (319)
+T 6UCT_A           15 FGSYKI   20 (319)
+T ss_dssp             TTCCCE
+T ss_pred             cccEEE
+Confidence            788875
+
+
+No 5
+>3VJJ_A P9-1; Viroplasm, VIRAL PROTEIN; 3.0A {Rice black streaked dwarf virus}
+Probab=22.73  E-value=83  Score=16.61  Aligned_cols=6  Identities=50%  Similarity=1.326  Sum_probs=4.3  Template_Neff=2.200
+
+Q FGAFSI            1 FGAFSI    6 (6)
+Q Consensus         1 fgafsi    6 (6)
+                      |||++|
+T Consensus        30 FGaYkI   35 (368)
+T 3VJJ_A           30 FGSYKI   35 (368)
+T ss_dssp             TTCEEC
+T ss_pred             hccEEE
+Confidence            677775
+
+
+No 6
+>5EFT_H p9-1; Specific Recognition, ssDNA, SRBSDV P9-1; 2.5A {Rice black-streaked dwarf virus 2}
+Probab=20.20  E-value=1e+02  Score=16.07  Aligned_cols=6  Identities=50%  Similarity=1.326  Sum_probs=4.5  Template_Neff=2.200
+
+Q FGAFSI            1 FGAFSI    6 (6)
+Q Consensus         1 fgafsi    6 (6)
+                      |||++|
+T Consensus         6 fGsykI   11 (321)
+T 5EFT_H            6 FGSYKI   11 (321)
+T ss_dssp             TTCCEE
+T ss_pred             ccceEE
+Confidence            788875
+
+
+No 7
+>2BEZ_C E2 GLYCOPROTEIN; MEMBRANE FUSION, SEVERE ACUTE RESPIRATORY; 1.6A {SARS CORONAVIRUS} SCOP: h.3.3.1
+Probab=19.80  E-value=1e+02  Score=13.08  Aligned_cols=5  Identities=80%  Similarity=1.278  Sum_probs=0.0  Template_Neff=3.000
+
+Q FGAFSI            1 FGAFS    5 (6)
+Q Consensus         1 fgafs    5 (6)
+                      |||.|
+T Consensus        57 FgAIS   61 (77)
+T 2BEZ_C           57 FGAIS   61 (77)
+T ss_dssp             HHHHH
+T ss_pred             HhHHH
+
+
+No 8
+>7KP7_A Tumor necrosis factor, Tumor necrosis; Tumour necrosis factor alpha, TNF; HET: SO4, NAG; 2.65A {Mus musculus}
+Probab=19.75  E-value=1e+02  Score=11.95  Aligned_cols=6  Identities=33%  Similarity=1.032  Sum_probs=0.0  Template_Neff=8.400
+
+Q FGAFSI            1 FGAFSI    6 (6)
+Q Consensus         1 fgafsi    6 (6)
+                      ||+|-+
+T Consensus       143 FGlf~l  148 (148)
+T 7KP7_A          143 FGVIAL  148 (148)
+T ss_dssp             EEEEEC
+T ss_pred             EEEEeC
+
+
+No 9
+>4MXV_D Lymphotoxin-alpha, anti-Lymphotoxin alpha antibody light; TNF, Tumor Necrosis Factor, TNFR; 3.2A {Homo sapiens}
+Probab=19.25  E-value=1.1e+02  Score=12.11  Aligned_cols=6  Identities=67%  Similarity=1.492  Sum_probs=0.0  Template_Neff=8.200
+
+Q FGAFSI            1 FGAFSI    6 (6)
+Q Consensus         1 fgafsi    6 (6)
+                      ||+|-+
+T Consensus       152 FG~f~l  157 (157)
+T 4MXV_D          152 FGAFAL  157 (157)
+T ss_pred             EEEEeC
+
+
+No 10
+>6I50_A SFRICE_029225; TNF, Tumour Necrosis Factor, Apoptosis; 1.69A {Spodoptera frugiperda}
+Probab=19.24  E-value=1.1e+02  Score=12.66  Aligned_cols=6  Identities=17%  Similarity=0.523  Sum_probs=0.0  Template_Neff=7.400
+
+Q FGAFSI            1 FGAFSI    6 (6)
+Q Consensus         1 fgafsi    6 (6)
+                      ||+|-+
+T Consensus       155 FGlfkL  160 (170)
+T 6I50_A          155 IGLVKL  160 (170)
+T ss_pred             EEEEEe
+
+

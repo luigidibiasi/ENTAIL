@@ -1,0 +1,149 @@
+Query         GTVWWG
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 04:22:51 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GTVWWG/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GTVWWG/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 7BYE_B Antitoxin MazE, Unchara  19.4 1.1E+02  0.0012   10.8   0.0    5    1-5       9-13  (112)
+  2 7BYE_C Antitoxin MazE, Unchara  19.4 1.1E+02  0.0012   10.8   0.0    5    1-5       9-13  (112)
+  3 7D28_B Endoribonuclease MazF (  19.0 1.1E+02  0.0012   10.9   0.0    5    1-5      10-14  (117)
+  4 2H9X_A Toxin CgNa; beta sheet,  18.9 1.1E+02  0.0012   12.0   0.0    6    1-6      20-25  (47)
+  5 1SHI_A NEUROTOXIN I (SHI) (NMR  18.4 1.2E+02  0.0013   12.1   0.0    6    1-6      19-24  (49)
+  6 3KPA_B UBL CONJUGATION PATHWAY  18.3 1.2E+02  0.0013   14.5   0.0    6    1-6      69-74  (168)
+  7 6KYT_D beta-glucosidase 1317;   18.3 1.2E+02  0.0013   11.3   0.0    5    1-5       9-13  (122)
+  8 2ATM_A Hyaluronoglucosaminidas  18.1 1.2E+02  0.0013   14.4   0.0    6    1-6     292-297 (331)
+  9 1ATX_A ATX IA (NMR, 8 STRUCTUR  18.0 1.2E+02  0.0013   11.9   0.0    6    1-6      20-25  (46)
+ 10 1FCU_A HYALURONIDASE (3.2.1.35  17.8 1.2E+02  0.0014   14.6   0.0    6    1-6     297-302 (350)
+
+No 1
+>7BYE_B Antitoxin MazE, Uncharacterized protein; protein complex, HYDROLASE; HET: PO4; 2.3A {Klebsiella pneumoniae}
+Probab=19.36  E-value=1.1e+02  Score=10.82  Aligned_cols=5  Identities=40%  Similarity=0.501  Sum_probs=0.0  Template_Neff=9.500
+
+Q GTVWWG            1 GTVWW    5 (6)
+Q Consensus         1 gtvww    5 (6)
+                      |.+||
+T Consensus         9 GdI~~   13 (112)
+T 7BYE_B            9 GDVIL   13 (112)
+T ss_dssp             TEEEE
+T ss_pred             CcEEE
+
+
+No 2
+>7BYE_C Antitoxin MazE, Uncharacterized protein; protein complex, HYDROLASE; HET: PO4; 2.3A {Klebsiella pneumoniae}
+Probab=19.36  E-value=1.1e+02  Score=10.82  Aligned_cols=5  Identities=40%  Similarity=0.501  Sum_probs=0.0  Template_Neff=9.500
+
+Q GTVWWG            1 GTVWW    5 (6)
+Q Consensus         1 gtvww    5 (6)
+                      |.+||
+T Consensus         9 GdI~~   13 (112)
+T 7BYE_C            9 GDVIL   13 (112)
+T ss_dssp             TEEEE
+T ss_pred             CcEEE
+
+
+No 3
+>7D28_B Endoribonuclease MazF (E.C.3.1.27.-); MazEF toxin system, Toxin, endonuclease; HET: GOL, MES; 1.5A {Deinococcus radiodurans}
+Probab=19.05  E-value=1.1e+02  Score=10.92  Aligned_cols=5  Identities=40%  Similarity=1.312  Sum_probs=0.0  Template_Neff=9.400
+
+Q GTVWWG            1 GTVWW    5 (6)
+Q Consensus         1 gtvww    5 (6)
+                      |.|||
+T Consensus        10 G~I~~   14 (117)
+T 7D28_B           10 GHLVW   14 (117)
+T ss_dssp             TEEEE
+T ss_pred             CeEEE
+
+
+No 4
+>2H9X_A Toxin CgNa; beta sheet, Toxin; NMR {Condylactis gigantea}
+Probab=18.91  E-value=1.1e+02  Score=12.04  Aligned_cols=6  Identities=83%  Similarity=1.703  Sum_probs=0.0  Template_Neff=2.900
+
+Q GTVWWG            1 GTVWWG    6 (6)
+Q Consensus         1 gtvwwg    6 (6)
+                      ||||.+
+T Consensus        20 Gtvw~~   25 (47)
+T 2H9X_A           20 GTVWVG   25 (47)
+T ss_dssp             SEEESS
+T ss_pred             EEEEEe
+
+
+No 5
+>1SHI_A NEUROTOXIN I (SHI) (NMR, 20; NEUROTOXIN; HET: NH2; NMR {Stichodactyla helianthus} SCOP: g.9.1.1
+Probab=18.41  E-value=1.2e+02  Score=12.07  Aligned_cols=6  Identities=67%  Similarity=0.734  Sum_probs=0.0  Template_Neff=2.900
+
+Q GTVWWG            1 GTVWWG    6 (6)
+Q Consensus         1 gtvwwg    6 (6)
+                      ||+|.+
+T Consensus        19 Gtvw~~   24 (49)
+T 1SHI_A           19 GTVDLG   24 (49)
+T ss_dssp             CBCCSS
+T ss_pred             EEEEcc
+
+
+No 6
+>3KPA_B UBL CONJUGATION PATHWAY, LIGASE, Structural; HET: MSE; 2.2A {Leishmania major}
+Probab=18.33  E-value=1.2e+02  Score=14.54  Aligned_cols=6  Identities=67%  Similarity=1.775  Sum_probs=0.0  Template_Neff=2.600
+
+Q GTVWWG            1 GTVWWG    6 (6)
+Q Consensus         1 gtvwwg    6 (6)
+                      ||-|+|
+T Consensus        69 GTrW~G   74 (168)
+T 3KPA_B           69 GTRWYG   74 (168)
+T ss_dssp             SCEEEE
+T ss_pred             CCceee
+
+
+No 7
+>6KYT_D beta-glucosidase 1317; RNA endonlease, protein engineering, toxin; 2.00101167265A {Mycobacterium tuberculosis H37Rv}
+Probab=18.31  E-value=1.2e+02  Score=11.34  Aligned_cols=5  Identities=40%  Similarity=1.405  Sum_probs=0.0  Template_Neff=8.600
+
+Q GTVWWG            1 GTVWW    5 (6)
+Q Consensus         1 gtvww    5 (6)
+                      |.+||
+T Consensus         9 GdI~~   13 (122)
+T 6KYT_D            9 GEIWQ   13 (122)
+T ss_dssp             TEEEE
+T ss_pred             CeEEE
+
+
+No 8
+>2ATM_A Hyaluronoglucosaminidase (E.C.3.2.1.35); beta-alpha-barrels, HYDROLASE; HET: MES; 2.0A {Vespula vulgaris}
+Probab=18.11  E-value=1.2e+02  Score=14.43  Aligned_cols=6  Identities=50%  Similarity=1.559  Sum_probs=0.0  Template_Neff=6.100
+
+Q GTVWWG            1 GTVWWG    6 (6)
+Q Consensus         1 gtvwwg    6 (6)
+                      |.|.||
+T Consensus       292 GvViWg  297 (331)
+T 2ATM_A          292 GIIIWG  297 (331)
+T ss_dssp             EEEEEC
+T ss_pred             eEEEec
+
+
+No 9
+>1ATX_A ATX IA (NMR, 8 STRUCTURES); SEA ANEMONE TOXIN; NMR {Anemonia sulcata} SCOP: g.9.1.1
+Probab=18.00  E-value=1.2e+02  Score=11.88  Aligned_cols=6  Identities=50%  Similarity=1.032  Sum_probs=0.0  Template_Neff=3.000
+
+Q GTVWWG            1 GTVWWG    6 (6)
+Q Consensus         1 gtvwwg    6 (6)
+                      |+||.+
+T Consensus        20 Gtvw~~   25 (46)
+T 1ATX_A           20 GTIWVF   25 (46)
+T ss_pred             EEEEee
+
+
+No 10
+>1FCU_A HYALURONIDASE (3.2.1.35); 7 stranded (beta/alpha) TIM barrel; 2.1A {Apis mellifera} SCOP: c.1.8.9
+Probab=17.81  E-value=1.2e+02  Score=14.55  Aligned_cols=6  Identities=50%  Similarity=1.470  Sum_probs=0.0  Template_Neff=6.000
+
+Q GTVWWG            1 GTVWWG    6 (6)
+Q Consensus         1 gtvwwg    6 (6)
+                      |.|.||
+T Consensus       297 GvViWg  302 (350)
+T 1FCU_A          297 GFIIWG  302 (350)
+T ss_dssp             EEEEEC
+T ss_pred             eEEEec
+
+

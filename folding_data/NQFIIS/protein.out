@@ -1,0 +1,152 @@
+Query         NQFIIS
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 03:15:48 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NQFIIS/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NQFIIS/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6QVP_A Inner membrane protein;  31.1      47 0.00052   14.8   0.0    6    1-6       9-14  (104)
+  2 6QVP_E Inner membrane protein;  29.6      51 0.00056   14.7   0.0    6    1-6       9-14  (104)
+  3 6T9I_H Transcription factor SP  17.3 1.3E+02  0.0014   15.3   0.0    6    1-6     130-135 (488)
+  4 4BWY_I P4; HYDROLASE, NTPASE,   12.3 2.1E+02  0.0024   15.0   0.0    6    1-6     293-298 (321)
+  5 7BDX_C Heat shock factor 2-bin  11.2 2.4E+02  0.0027   13.3   0.0    6    1-6      60-65  (214)
+  6 4Z3G_B PapG, lectin domain; UP  10.5 2.7E+02   0.003   13.8   0.0    5    2-6      29-33  (198)
+  7 4Z3H_A PapG, lectin domain; UP  10.5 2.7E+02   0.003   13.8   0.0    5    2-6      29-33  (198)
+  8 7LDG_A Complex, Recruiter, Pro  10.4 2.7E+02   0.003   13.6   0.0    6    1-6      99-104 (253)
+  9 7LDG_C Complex, Recruiter, Pro  10.4 2.7E+02   0.003   13.6   0.0    6    1-6      99-104 (253)
+ 10 6T9K_H Transcription factor SP  10.0 2.9E+02  0.0032   14.4   0.0    6    1-6     130-135 (488)
+
+No 1
+>6QVP_A Inner membrane protein; OmpA-like domain, Peptidoglycan binding, periplasmic; HET: PO4, MSE; 1.9A {Salmonella typhimurium}
+Probab=31.06  E-value=47  Score=14.82  Aligned_cols=6  Identities=33%  Similarity=0.894  Sum_probs=3.7  Template_Neff=2.600
+
+Q NQFIIS            1 NQFIIS    6 (6)
+Q Consensus         1 nqfiis    6 (6)
+                      |||||+
+T Consensus         9 n~~iI~   14 (104)
+T 6QVP_A            9 NELVIT   14 (104)
+T ss_dssp             TEEEEE
+T ss_pred             CEEEEE
+Confidence            567663
+
+
+No 2
+>6QVP_E Inner membrane protein; OmpA-like domain, Peptidoglycan binding, periplasmic; HET: PO4, MSE; 1.9A {Salmonella typhimurium}
+Probab=29.65  E-value=51  Score=14.70  Aligned_cols=6  Identities=33%  Similarity=0.894  Sum_probs=3.6  Template_Neff=2.600
+
+Q NQFIIS            1 NQFIIS    6 (6)
+Q Consensus         1 nqfiis    6 (6)
+                      |||||+
+T Consensus         9 n~~iI~   14 (104)
+T 6QVP_E            9 NELVIT   14 (104)
+T ss_dssp             TEEEEE
+T ss_pred             CEEEEE
+Confidence            567663
+
+
+No 3
+>6T9I_H Transcription factor SPT20, Protein SPT3; Coactivator, Transcription, Histone acetyltransferase, Histone; 3.9A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=17.26  E-value=1.3e+02  Score=15.34  Aligned_cols=6  Identities=33%  Similarity=0.805  Sum_probs=3.6  Template_Neff=5.500
+
+Q NQFIIS            1 NQFIIS    6 (6)
+Q Consensus         1 nqfiis    6 (6)
+                      ||||++
+T Consensus       130 NqLILs  135 (488)
+T 6T9I_H          130 NQLLLG  135 (488)
+T ss_pred             HHHHHH
+Confidence            566653
+
+
+No 4
+>4BWY_I P4; HYDROLASE, NTPASE, CYSTOVIRIDAE; 3.1A {PSEUDOMONAS PHAGE PHI8}
+Probab=12.29  E-value=2.1e+02  Score=14.95  Aligned_cols=6  Identities=67%  Similarity=1.182  Sum_probs=3.6  Template_Neff=1.000
+
+Q NQFIIS            1 NQFIIS    6 (6)
+Q Consensus         1 nqfiis    6 (6)
+                      |||+.|
+T Consensus       293 nqflls  298 (321)
+T 4BWY_I          293 NQFLLS  298 (321)
+T ss_dssp             HHHHTS
+T ss_pred             HHHhhc
+Confidence            577654
+
+
+No 5
+>7BDX_C Heat shock factor 2-binding protein; HSF2BP, BRCA2, NUCLEAR PROTEIN; HET: MSE; 2.6A {Homo sapiens}
+Probab=11.23  E-value=2.4e+02  Score=13.33  Aligned_cols=6  Identities=33%  Similarity=0.877  Sum_probs=0.0  Template_Neff=4.600
+
+Q NQFIIS            1 NQFIIS    6 (6)
+Q Consensus         1 nqfiis    6 (6)
+                      +||+++
+T Consensus        60 ~qFVla   65 (214)
+T 7BDX_C           60 SQFVFA   65 (214)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 6
+>4Z3G_B PapG, lectin domain; UPEC, urinary tract infection, fimbrial; HET: GLA, MES, GAL, 4KS; 1.45A {Escherichia coli}
+Probab=10.54  E-value=2.7e+02  Score=13.81  Aligned_cols=5  Identities=80%  Similarity=1.019  Sum_probs=0.0  Template_Neff=2.200
+
+Q NQFIIS            2 QFIIS    6 (6)
+Q Consensus         2 qfiis    6 (6)
+                      ||||+
+T Consensus        29 Qf~i~   33 (198)
+T 4Z3G_B           29 QFITS   33 (198)
+T ss_dssp             EEEEC
+T ss_pred             eEEEe
+
+
+No 7
+>4Z3H_A PapG, lectin domain; UPEC, urinary tract infection, fimbrial; HET: GLA, GAL; 1.5A {Escherichia coli}
+Probab=10.53  E-value=2.7e+02  Score=13.81  Aligned_cols=5  Identities=80%  Similarity=1.019  Sum_probs=0.0  Template_Neff=2.200
+
+Q NQFIIS            2 QFIIS    6 (6)
+Q Consensus         2 qfiis    6 (6)
+                      ||||+
+T Consensus        29 Qf~i~   33 (198)
+T 4Z3H_A           29 QFITS   33 (198)
+T ss_dssp             EEEEC
+T ss_pred             eEEEe
+
+
+No 8
+>7LDG_A Complex, Recruiter, Protein-protein interaction, Armadillo-repeat; HET: MSE; 2.56A {Homo sapiens}
+Probab=10.41  E-value=2.7e+02  Score=13.57  Aligned_cols=6  Identities=33%  Similarity=0.877  Sum_probs=0.0  Template_Neff=4.400
+
+Q NQFIIS            1 NQFIIS    6 (6)
+Q Consensus         1 nqfiis    6 (6)
+                      +||+++
+T Consensus        99 ~qFVla  104 (253)
+T 7LDG_A           99 SQFVFA  104 (253)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 9
+>7LDG_C Complex, Recruiter, Protein-protein interaction, Armadillo-repeat; HET: MSE; 2.56A {Homo sapiens}
+Probab=10.41  E-value=2.7e+02  Score=13.57  Aligned_cols=6  Identities=33%  Similarity=0.877  Sum_probs=0.0  Template_Neff=4.400
+
+Q NQFIIS            1 NQFIIS    6 (6)
+Q Consensus         1 nqfiis    6 (6)
+                      +||+++
+T Consensus        99 ~qFVla  104 (253)
+T 7LDG_C           99 SQFVFA  104 (253)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 10
+>6T9K_H Transcription factor SPT20, Protein SPT3; Coactivator, Transcription, Histone acetyltransferase, Histone; 3.3A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=9.97  E-value=2.9e+02  Score=14.40  Aligned_cols=6  Identities=33%  Similarity=0.805  Sum_probs=0.0  Template_Neff=5.100
+
+Q NQFIIS            1 NQFIIS    6 (6)
+Q Consensus         1 nqfiis    6 (6)
+                      ||||.+
+T Consensus       130 NqLLLA  135 (488)
+T 6T9K_H          130 NQLLLG  135 (488)
+T ss_pred             HHHHHH
+
+

@@ -1,0 +1,151 @@
+Query         QAYNAQ
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 07:23:12 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QAYNAQ/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QAYNAQ/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2ZF9_B ScaE cell-surface ancho  18.2 1.2E+02  0.0013   14.2   0.0    6    1-6      16-21  (194)
+  2 1TUC_A ALPHA-SPECTRIN; CAPPING   7.0 4.7E+02  0.0052    7.0   0.0    4    3-6      59-62  (63)
+  3 6FC4_A Soluble lytic transglyc   6.4 5.2E+02  0.0057   10.9   0.0    4    2-5     547-550 (614)
+  4 3G7Z_C Cytotoxic protein ccdB,   6.1 5.5E+02  0.0061    8.7   0.0    5    1-5      17-21  (36)
+  5 3HPW_C Cytotoxic protein ccdB,   6.1 5.5E+02  0.0061    8.7   0.0    5    1-5      17-21  (36)
+  6 7N0K_A lipid metabolism, coenz   5.9 5.8E+02  0.0064   12.7   0.0    5    1-5     286-290 (343)
+  7 2C7B_B CARBOXYLESTERASE (E.C.3   5.9 5.8E+02  0.0064    9.9   0.0    6    1-6      19-24  (311)
+  8 1QTE_A SOLUBLE LYTIC TRANSGLYC   5.8 5.9E+02  0.0065   10.8   0.0    4    2-5     551-554 (618)
+  9 4HPE_A Putative cell wall hydr   5.8 5.9E+02  0.0066   10.6   0.0    5    1-5     109-113 (308)
+ 10 1CPM_A CIRCULARLY PERMUTED (1-   5.6 6.1E+02  0.0068   10.0   0.0    4    2-5     211-214 (214)
+
+No 1
+>2ZF9_B ScaE cell-surface anchored scaffoldin protein; Dockerin-binding module, anchoring module, alpha; HET: MSE; 1.95A {Ruminococcus flavefaciens}
+Probab=18.21  E-value=1.2e+02  Score=14.19  Aligned_cols=6  Identities=67%  Similarity=0.916  Sum_probs=3.3  Template_Neff=4.400
+
+Q QAYNAQ            1 QAYNAQ    6 (6)
+Q Consensus         1 qaynaq    6 (6)
+                      |||.+|
+T Consensus        16 ~~~~~~   21 (194)
+T 2ZF9_B           16 QAYDAG   21 (194)
+T ss_dssp             SCCCCT
+T ss_pred             cccccC
+Confidence            566554
+
+
+No 2
+>1TUC_A ALPHA-SPECTRIN; CAPPING PROTEIN, CALCIUM-BINDING, DUPLICATION, SH3; 2.02A {Gallus gallus} SCOP: b.34.2.1
+Probab=6.95  E-value=4.7e+02  Score=7.05  Aligned_cols=4  Identities=25%  Similarity=0.833  Sum_probs=0.0  Template_Neff=11.900
+
+Q QAYNAQ            3 YNAQ    6 (6)
+Q Consensus         3 ynaq    6 (6)
+                      |+++
+T Consensus        59 ~~~~   62 (63)
+T 1TUC_A           59 YQEK   62 (63)
+T ss_dssp             BCC-
+T ss_pred             ccCC
+
+
+No 3
+>6FC4_A Soluble lytic transglycosylase B; Lytic Transglycosylase, LYASE; 3.05A {Pseudomonas aeruginosa}
+Probab=6.44  E-value=5.2e+02  Score=10.91  Aligned_cols=4  Identities=100%  Similarity=1.364  Sum_probs=0.0  Template_Neff=11.800
+
+Q QAYNAQ            2 AYNA    5 (6)
+Q Consensus         2 ayna    5 (6)
+                      +||+
+T Consensus       547 ayn~  550 (614)
+T 6FC4_A          547 AYNA  550 (614)
+T ss_dssp             HHHH
+T ss_pred             HHhc
+
+
+No 4
+>3G7Z_C Cytotoxic protein ccdB, Protein ccdA; ALPHA+BETA, SH3 domain, intrinsically disordered; 2.351A {Escherichia coli}
+Probab=6.10  E-value=5.5e+02  Score=8.75  Aligned_cols=5  Identities=0%  Similarity=-0.144  Sum_probs=0.0  Template_Neff=5.600
+
+Q QAYNAQ            1 QAYNA    5 (6)
+Q Consensus         1 qayna    5 (6)
+                      ++||.
+T Consensus        17 ~a~N~   21 (36)
+T 3G7Z_C           17 AEVAR   21 (36)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 5
+>3HPW_C Cytotoxic protein ccdB, Protein ccdA; ALPHA+BETA, SH3 domain, intrinsically disordered; 1.452A {Escherichia coli}
+Probab=6.10  E-value=5.5e+02  Score=8.75  Aligned_cols=5  Identities=0%  Similarity=-0.144  Sum_probs=0.0  Template_Neff=5.600
+
+Q QAYNAQ            1 QAYNA    5 (6)
+Q Consensus         1 qayna    5 (6)
+                      ++||.
+T Consensus        17 ~a~N~   21 (36)
+T 3HPW_C           17 AEVAR   21 (36)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 6
+>7N0K_A lipid metabolism, coenzyme A, MEMBRANE;{Mus musculus}
+Probab=5.89  E-value=5.8e+02  Score=12.73  Aligned_cols=5  Identities=60%  Similarity=0.853  Sum_probs=0.0  Template_Neff=5.300
+
+Q QAYNAQ            1 QAYNA    5 (6)
+Q Consensus         1 qayna    5 (6)
+                      |.|||
+T Consensus       286 Qlyna  290 (343)
+T 7N0K_A          286 QLFNA  290 (343)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 7
+>2C7B_B CARBOXYLESTERASE (E.C.3.1.1.1); CARBOXYESTERASE, THERMOPHILIC ENZYME, HYDROLASE, HSL; HET: MSE; 2.3A {UNCULTURED ARCHAEON}
+Probab=5.86  E-value=5.8e+02  Score=9.89  Aligned_cols=6  Identities=33%  Similarity=0.124  Sum_probs=0.0  Template_Neff=11.200
+
+Q QAYNAQ            1 QAYNAQ    6 (6)
+Q Consensus         1 qaynaq    6 (6)
+                      ++|+++
+T Consensus        19 ~~~~~~   24 (311)
+T 2C7B_B           19 IAASPQ   24 (311)
+T ss_dssp             --CCHH
+T ss_pred             cCCCHH
+
+
+No 8
+>1QTE_A SOLUBLE LYTIC TRANSGLYCOSYLASE SLT70 (E.C.3.2.1.-); ALPHA-SUPERHELIX, HYDROLASE; HET: SO4, GOL, AH0, NAG; 1.9A {Escherichia coli} SCOP: a.118.5.1, d.2.1.6
+Probab=5.80  E-value=5.9e+02  Score=10.76  Aligned_cols=4  Identities=100%  Similarity=1.364  Sum_probs=0.0  Template_Neff=11.800
+
+Q QAYNAQ            2 AYNA    5 (6)
+Q Consensus         2 ayna    5 (6)
+                      +||+
+T Consensus       551 ~yn~  554 (618)
+T 1QTE_A          551 AYNA  554 (618)
+T ss_dssp             HHHH
+T ss_pred             HHhc
+
+
+No 9
+>4HPE_A Putative cell wall hydrolase Tn916-like,CTn1-Orf17; Two domains protein, Slt/lysozyme-like muramidase; HET: GOL, MSE, OCS; 2.38A {Clostridium difficile}
+Probab=5.77  E-value=5.9e+02  Score=10.56  Aligned_cols=5  Identities=60%  Similarity=0.880  Sum_probs=0.0  Template_Neff=9.700
+
+Q QAYNAQ            1 QAYNA    5 (6)
+Q Consensus         1 qayna    5 (6)
+                      ++||+
+T Consensus       109 ~aYn~  113 (308)
+T 4HPE_A          109 QSYNY  113 (308)
+T ss_dssp             HHHHH
+T ss_pred             HHhhc
+
+
+No 10
+>1CPM_A CIRCULARLY PERMUTED (1-3,1-4)-BETA-D-GLUCAN 4-GLUCANOHYDROLASE (E.C.3.2.1.73); HYDROLASE(GLUCANASE); 2.0A {Paenibacillus macerans} SCOP: b.29.1.2
+Probab=5.62  E-value=6.1e+02  Score=9.95  Aligned_cols=4  Identities=100%  Similarity=1.364  Sum_probs=0.0  Template_Neff=9.600
+
+Q QAYNAQ            2 AYNA    5 (6)
+Q Consensus         2 ayna    5 (6)
+                      +|||
+T Consensus       211 ~~~~  214 (214)
+T 1CPM_A          211 AYNA  214 (214)
+T ss_dssp             GGGC
+T ss_pred             ccCC
+
+

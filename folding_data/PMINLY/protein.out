@@ -1,0 +1,150 @@
+Query         PMINLY
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 06:01:41 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/PMINLY/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/PMINLY/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6GJ1_A Putative type VI secret  44.4      21 0.00023   17.0   0.0    6    1-6     300-305 (587)
+  2 6N38_I Putative type VI secret  44.4      21 0.00023   17.0   0.0    6    1-6     300-305 (587)
+  3 3VOY_A Glutaminase kidney isof  20.0   1E+02  0.0011   14.5   0.0    4    1-4     114-117 (315)
+  4 4YCG_B pro-BMP9 prodomain, hum  19.5 1.1E+02  0.0012   13.2   0.0    5    2-6      66-70  (296)
+  5 5JYO_C Glutaminase kidney isof  19.4 1.1E+02  0.0012   14.7   0.0    4    1-4     132-135 (333)
+  6 6ULA_F Glutaminase kidney isof  19.2 1.1E+02  0.0012   15.1   0.0    4    1-4     261-264 (527)
+  7 4BQM_A GLUTAMINASE LIVER ISOFO  18.6 1.1E+02  0.0013   14.7   0.0    4    1-4     135-138 (349)
+  8 5W2J_A Glutaminase kidney isof  18.4 1.2E+02  0.0013   15.1   0.0    4    1-4     197-200 (411)
+  9 7B0Q_A Hypothetical Membrane S  18.3 1.2E+02  0.0013   13.4   0.0    6    1-6     189-194 (237)
+ 10 3S1B_A Vascular endothelial gr  18.1 1.2E+02  0.0013   11.6   0.0    6    1-6      16-21  (34)
+
+No 1
+>6GJ1_A Putative type VI secretion protein; Secretion, baseplate, complex, STRUCTURAL PROTEIN; 4.7A {Escherichia coli}
+Probab=44.39  E-value=21  Score=17.01  Aligned_cols=6  Identities=67%  Similarity=1.447  Sum_probs=4.2  Template_Neff=7.800
+
+Q PMINLY            1 PMINLY    6 (6)
+Q Consensus         1 pminly    6 (6)
+                      |.||||
+T Consensus       300 PvINLF  305 (587)
+T 6GJ1_A          300 PVINLF  305 (587)
+T ss_dssp             CBCBCC
+T ss_pred             eeeecc
+Confidence            677775
+
+
+No 2
+>6N38_I Putative type VI secretion protein; Type VI secretion system, enteroaggregative; 3.7A {Escherichia coli O44:H18 (strain 042 / EAEC)}
+Probab=44.39  E-value=21  Score=17.01  Aligned_cols=6  Identities=67%  Similarity=1.447  Sum_probs=4.2  Template_Neff=7.800
+
+Q PMINLY            1 PMINLY    6 (6)
+Q Consensus         1 pminly    6 (6)
+                      |.||||
+T Consensus       300 PvINLF  305 (587)
+T 6N38_I          300 PVINLF  305 (587)
+T ss_pred             eeeecc
+Confidence            677775
+
+
+No 3
+>3VOY_A Glutaminase kidney isoform, mitochondrial (E.C.3.5.1.2); Hydrolase; HET: SO4; 2.2A {Homo sapiens}
+Probab=19.97  E-value=1e+02  Score=14.55  Aligned_cols=4  Identities=75%  Similarity=1.564  Sum_probs=0.0  Template_Neff=6.100
+
+Q PMINLY            1 PMIN    4 (6)
+Q Consensus         1 pmin    4 (6)
+                      ||||
+T Consensus       114 PmiN  117 (315)
+T 3VOY_A          114 PMVN  117 (315)
+T ss_dssp             TTSH
+T ss_pred             chhH
+
+
+No 4
+>4YCG_B pro-BMP9 prodomain, human BMP9 growth; pro-BMP complex, morphogen, transforming growth; HET: NAG, ZN; 3.3A {Mus musculus}
+Probab=19.51  E-value=1.1e+02  Score=13.17  Aligned_cols=5  Identities=80%  Similarity=1.484  Sum_probs=0.0  Template_Neff=8.500
+
+Q PMINLY            2 MINLY    6 (6)
+Q Consensus         2 minly    6 (6)
+                      |++||
+T Consensus        66 Ml~LY   70 (296)
+T 4YCG_B           66 MIDLY   70 (296)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 5
+>5JYO_C Glutaminase kidney isoform, mitochondrial (E.C.3.5.1.2); KGA, GAC, allosteric inhibition, Warburg; HET: 63J; 2.098A {Homo sapiens}
+Probab=19.40  E-value=1.1e+02  Score=14.68  Aligned_cols=4  Identities=75%  Similarity=1.564  Sum_probs=0.0  Template_Neff=5.900
+
+Q PMINLY            1 PMIN    4 (6)
+Q Consensus         1 pmin    4 (6)
+                      ||||
+T Consensus       132 PmiN  135 (333)
+T 5JYO_C          132 PMVN  135 (333)
+T ss_dssp             TTSH
+T ss_pred             chhH
+
+
+No 6
+>6ULA_F Glutaminase kidney isoform, mitochondrial (E.C.3.5.1.2); Inhibitor, Complex, HYDROLASE, HYDROLASE-HYDROLASE INHIBITOR; HET: QA4; 2.95A {Homo sapiens}
+Probab=19.15  E-value=1.1e+02  Score=15.14  Aligned_cols=4  Identities=75%  Similarity=1.564  Sum_probs=0.0  Template_Neff=6.700
+
+Q PMINLY            1 PMIN    4 (6)
+Q Consensus         1 pmin    4 (6)
+                      ||||
+T Consensus       261 PmiN  264 (527)
+T 6ULA_F          261 PMVN  264 (527)
+T ss_dssp             TTSH
+T ss_pred             chhH
+
+
+No 7
+>4BQM_A GLUTAMINASE LIVER ISOFORM, MITOCHONDRIAL (E.C.3.5.1.2); HYDROLASE; HET: EDO; 2.18A {HOMO SAPIENS}
+Probab=18.65  E-value=1.1e+02  Score=14.69  Aligned_cols=4  Identities=75%  Similarity=1.564  Sum_probs=0.0  Template_Neff=5.900
+
+Q PMINLY            1 PMIN    4 (6)
+Q Consensus         1 pmin    4 (6)
+                      ||||
+T Consensus       135 PmiN  138 (349)
+T 4BQM_A          135 PMVN  138 (349)
+T ss_dssp             TTSH
+T ss_pred             chhH
+
+
+No 8
+>5W2J_A Glutaminase kidney isoform, mitochondrial (E.C.3.5.1.2); Glutamine metabolism, Glutaminase, HYDROLASE; 2.5A {Mus musculus}
+Probab=18.37  E-value=1.2e+02  Score=15.06  Aligned_cols=4  Identities=75%  Similarity=1.564  Sum_probs=0.0  Template_Neff=5.700
+
+Q PMINLY            1 PMIN    4 (6)
+Q Consensus         1 pmin    4 (6)
+                      ||||
+T Consensus       197 PmiN  200 (411)
+T 5W2J_A          197 PMVN  200 (411)
+T ss_dssp             TTSH
+T ss_pred             Chhh
+
+
+No 9
+>7B0Q_A Hypothetical Membrane Spanning Protein; lipoprotein, lipid cubic phase, Lit; HET: PG5, CIT, OLC, GOL; 2.42A {Bacillus cereus (strain ATCC 14579 / DSM 31 / JCM 2152 / NBRC 15305 / NCIMB 9373 / NRRL B-3711)}
+Probab=18.25  E-value=1.2e+02  Score=13.43  Aligned_cols=6  Identities=33%  Similarity=0.772  Sum_probs=0.0  Template_Neff=6.900
+
+Q PMINLY            1 PMINLY    6 (6)
+Q Consensus         1 pminly    6 (6)
+                      ||||++
+T Consensus       189 ~iI~il  194 (237)
+T 7B0Q_A          189 PIILML  194 (237)
+T ss_dssp             GGGGGS
+T ss_pred             hHHHhC
+
+
+No 10
+>3S1B_A Vascular endothelial growth factor A; VEGF, cystine knot, mini-Z, SIGNALING; 2.9A {Homo sapiens}
+Probab=18.07  E-value=1.2e+02  Score=11.63  Aligned_cols=6  Identities=67%  Similarity=1.320  Sum_probs=0.0  Template_Neff=1.000
+
+Q PMINLY            1 PMINLY    6 (6)
+Q Consensus         1 pminly    6 (6)
+                      |-.|||
+T Consensus        16 pnlnly   21 (34)
+T 3S1B_A           16 PNLNLY   21 (34)
+T ss_pred             CCCCHH
+
+

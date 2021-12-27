@@ -1,0 +1,205 @@
+Query         IGRTLW
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 08:08:07 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/IGRTLW/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/IGRTLW/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 7AG1_Z 3-sulfolactaldehyde red  66.6     4.8 5.4E-05   17.5   0.0    6    1-6     251-256 (300)
+  2 7NE2_C Sulfofructosephosphate   64.1     5.9 6.5E-05   17.6   0.0    6    1-6     271-276 (312)
+  3 4MOZ_C Fructose-bisphosphate a  61.7       7 7.7E-05   17.6   0.0    6    1-6     269-274 (319)
+  4 3JRK_D Tagatose 1,6-diphosphat  58.9     8.4 9.3E-05   17.2   0.0    6    1-6     272-277 (322)
+  5 3KAO_A Tagatose 1,6-diphosphat  58.0     8.9 9.9E-05   17.2   0.0    6    1-6     279-284 (329)
+  6 3MYO_A Tagatose 1,6-diphosphat  57.2     9.4  0.0001   17.1   0.0    6    1-6     275-280 (333)
+  7 4MOZ_D Fructose-bisphosphate a  56.8     9.7 0.00011   17.2   0.0    6    1-6     269-274 (319)
+  8 5F4W_B Tagatose 1,6-diphosphat  56.8     9.7 0.00011   17.1   0.0    6    1-6     277-282 (327)
+  9 3FOK_F uncharacterized protein  55.7      10 0.00011   17.0   0.0    6    1-6     272-277 (307)
+ 10 6N0S_A LlaJI.R1; EVE domain, r  36.1      34 0.00038   16.0   0.0    6    1-6      27-32  (181)
+ 11 3U2L_A FAD-linked sulfhydryl o  34.5      38 0.00042   13.1   0.0    6    1-6      12-17  (115)
+ 12 3GLC_R Crystal Structure of E.  23.1      80 0.00089   13.5   0.0    6    1-6     256-261 (295)
+ 13 3GND_Q Crystal Structure of E.  23.1      80 0.00089   13.5   0.0    6    1-6     256-261 (295)
+
+No 1
+>7AG1_Z 3-sulfolactaldehyde reductase (E.C.1.1.1.373); sulfofructose phosphate, SFP aldolase, sulfoglycolysis; HET: EDO; 2.0A {Escherichia coli (strain K12)}
+Probab=66.64  E-value=4.8  Score=17.53  Aligned_cols=6  Identities=50%  Similarity=1.503  Sum_probs=4.4  Template_Neff=7.700
+
+Q IGRTLW            1 IGRTLW    6 (6)
+Q Consensus         1 igrtlw    6 (6)
+                      +||.+|
+T Consensus       251 ~GRniw  256 (300)
+T 7AG1_Z          251 AGRAVW  256 (300)
+T ss_dssp             ESHHHH
+T ss_pred             EeHHHH
+Confidence            578777
+
+
+No 2
+>7NE2_C Sulfofructosephosphate aldolase (E.C.4.1.2.57); sulfoglycolysis, SFP aldolase, class I; HET: U8W, U8Z; 1.5A {Salmonella enterica}
+Probab=64.09  E-value=5.9  Score=17.61  Aligned_cols=6  Identities=50%  Similarity=1.503  Sum_probs=4.5  Template_Neff=7.300
+
+Q IGRTLW            1 IGRTLW    6 (6)
+Q Consensus         1 igrtlw    6 (6)
+                      +||.+|
+T Consensus       271 ~GRnIw  276 (312)
+T 7NE2_C          271 AGRAVW  276 (312)
+T ss_dssp             ESHHHH
+T ss_pred             EcHHHH
+Confidence            578877
+
+
+No 3
+>4MOZ_C Fructose-bisphosphate aldolase; PSI-Biology, MCSG, Midwest Center for; 2.15A {Slackia heliotrinireducens}
+Probab=61.70  E-value=7  Score=17.62  Aligned_cols=6  Identities=33%  Similarity=0.734  Sum_probs=4.5  Template_Neff=7.000
+
+Q IGRTLW            1 IGRTLW    6 (6)
+Q Consensus         1 igrtlw    6 (6)
+                      +||.+|
+T Consensus       269 ~GRnIw  274 (319)
+T 4MOZ_C          269 TGRNIH  274 (319)
+T ss_dssp             ECHHHH
+T ss_pred             ecchhh
+Confidence            578877
+
+
+No 4
+>3JRK_D Tagatose 1,6-diphosphate aldolase 2 (E.C.4.1.2.40); APC80109.1, Streptococcus pyogenes M1 GAS; HET: GOL, MSE; 1.97A {Streptococcus pyogenes serotype M1}
+Probab=58.90  E-value=8.4  Score=17.16  Aligned_cols=6  Identities=50%  Similarity=1.315  Sum_probs=4.3  Template_Neff=7.400
+
+Q IGRTLW            1 IGRTLW    6 (6)
+Q Consensus         1 igrtlw    6 (6)
+                      +||.+|
+T Consensus       272 ~GRniw  277 (322)
+T 3JRK_D          272 CGRATW  277 (322)
+T ss_dssp             ECHHHH
+T ss_pred             eeHHHh
+Confidence            578777
+
+
+No 5
+>3KAO_A Tagatose 1,6-diphosphate aldolase (E.C.4.1.2.40); tagatose 1,6-diphosphate aldolase, Structural Genomics; HET: GOL, SO4; 1.9A {Staphylococcus aureus subsp. aureus Mu50}
+Probab=58.03  E-value=8.9  Score=17.19  Aligned_cols=6  Identities=50%  Similarity=1.315  Sum_probs=4.3  Template_Neff=7.300
+
+Q IGRTLW            1 IGRTLW    6 (6)
+Q Consensus         1 igrtlw    6 (6)
+                      +||.+|
+T Consensus       279 ~GRnIw  284 (329)
+T 3KAO_A          279 CGRATW  284 (329)
+T ss_dssp             ECHHHH
+T ss_pred             echHHh
+Confidence            578777
+
+
+No 6
+>3MYO_A Tagatose 1,6-diphosphate aldolase 1 (E.C.4.1.2.40); beta-alpha-barrel, LYASE; 2.5A {Streptococcus pyogenes}
+Probab=57.23  E-value=9.4  Score=17.15  Aligned_cols=6  Identities=50%  Similarity=1.315  Sum_probs=4.3  Template_Neff=7.300
+
+Q IGRTLW            1 IGRTLW    6 (6)
+Q Consensus         1 igrtlw    6 (6)
+                      +||.+|
+T Consensus       275 ~GRniw  280 (333)
+T 3MYO_A          275 CGRATW  280 (333)
+T ss_dssp             ECHHHH
+T ss_pred             echhHh
+Confidence            578777
+
+
+No 7
+>4MOZ_D Fructose-bisphosphate aldolase; PSI-Biology, MCSG, Midwest Center for; HET: MSE; 2.15A {Slackia heliotrinireducens}
+Probab=56.84  E-value=9.7  Score=17.20  Aligned_cols=6  Identities=33%  Similarity=0.734  Sum_probs=4.4  Template_Neff=7.000
+
+Q IGRTLW            1 IGRTLW    6 (6)
+Q Consensus         1 igrtlw    6 (6)
+                      +||.+|
+T Consensus       269 ~GRnIw  274 (319)
+T 4MOZ_D          269 TGRNIH  274 (319)
+T ss_dssp             ECHHHH
+T ss_pred             ecchhh
+Confidence            578777
+
+
+No 8
+>5F4W_B Tagatose 1,6-diphosphate aldolase 2 (E.C.4.1.2.40); Covalent intermediate, Acidic pH, Substrate; HET: P6T; 1.663A {Streptococcus pyogenes serotype M1}
+Probab=56.84  E-value=9.7  Score=17.13  Aligned_cols=6  Identities=50%  Similarity=1.315  Sum_probs=4.3  Template_Neff=7.200
+
+Q IGRTLW            1 IGRTLW    6 (6)
+Q Consensus         1 igrtlw    6 (6)
+                      +||.+|
+T Consensus       277 ~GRniw  282 (327)
+T 5F4W_B          277 CGRATW  282 (327)
+T ss_dssp             CCHHHH
+T ss_pred             ecHhHh
+Confidence            577777
+
+
+No 9
+>3FOK_F uncharacterized protein Cgl0159; Cgl0159, Brevibacterium flavum., Structural Genomics; HET: MSE; 2.5A {Corynebacterium glutamicum}
+Probab=55.73  E-value=10  Score=16.96  Aligned_cols=6  Identities=67%  Similarity=1.121  Sum_probs=4.5  Template_Neff=7.100
+
+Q IGRTLW            1 IGRTLW    6 (6)
+Q Consensus         1 igrtlw    6 (6)
+                      +||.+|
+T Consensus       272 ~GRnIw  277 (307)
+T 3FOK_F          272 VGRTLL  277 (307)
+T ss_dssp             ECTTTS
+T ss_pred             eccccc
+Confidence            578877
+
+
+No 10
+>6N0S_A LlaJI.R1; EVE domain, restriction endonuclease, DNA; HET: SO4, MSE; 1.92A {Staphylothermus marinus (strain ATCC 43588 / DSM 3639 / JCM 9404 / F1)}
+Probab=36.11  E-value=34  Score=15.96  Aligned_cols=6  Identities=83%  Similarity=1.614  Sum_probs=4.1  Template_Neff=3.800
+
+Q IGRTLW            1 IGRTLW    6 (6)
+Q Consensus         1 igrtlw    6 (6)
+                      ||+.||
+T Consensus        27 iG~~LW   32 (181)
+T 6N0S_A           27 IGLTLW   32 (181)
+T ss_dssp             TTTEEE
+T ss_pred             hhcchh
+Confidence            467776
+
+
+No 11
+>3U2L_A FAD-linked sulfhydryl oxidase ALR (E.C.1.8.3.2); Flavoprotein, ALR, Sulfhydryl oxidase, Flavin; HET: FAD; 1.95A {Homo sapiens}
+Probab=34.46  E-value=38  Score=13.06  Aligned_cols=6  Identities=50%  Similarity=1.437  Sum_probs=3.3  Template_Neff=7.600
+
+Q IGRTLW            1 IGRTLW    6 (6)
+Q Consensus         1 igrtlw    6 (6)
+                      +|+.+|
+T Consensus        12 ~G~~~W   17 (115)
+T 3U2L_A           12 LGRHSW   17 (115)
+T ss_dssp             HHHHHH
+T ss_pred             hcHHHH
+Confidence            356555
+
+
+No 12
+>3GLC_R Crystal Structure of E. coli; TIM barrel, Lyase, Schiff base; HET: R5P; 2.5A {Escherichia coli}
+Probab=23.10  E-value=80  Score=13.46  Aligned_cols=6  Identities=33%  Similarity=1.149  Sum_probs=2.9  Template_Neff=8.600
+
+Q IGRTLW            1 IGRTLW    6 (6)
+Q Consensus         1 igrtlw    6 (6)
+                      +||.+|
+T Consensus       256 vGr~I~  261 (295)
+T 3GLC_R          256 MGRNIF  261 (295)
+T ss_dssp             ESHHHH
+T ss_pred             EchHHh
+Confidence            355554
+
+
+No 13
+>3GND_Q Crystal Structure of E. coli; TIM barrel, Lyase, Schiff base; HET: 5RP; 2.9A {Escherichia coli}
+Probab=23.10  E-value=80  Score=13.46  Aligned_cols=6  Identities=33%  Similarity=1.149  Sum_probs=2.9  Template_Neff=8.600
+
+Q IGRTLW            1 IGRTLW    6 (6)
+Q Consensus         1 igrtlw    6 (6)
+                      +||.+|
+T Consensus       256 vGr~I~  261 (295)
+T 3GND_Q          256 MGRNIF  261 (295)
+T ss_dssp             ESHHHH
+T ss_pred             EchHHh
+Confidence            355554
+
+

@@ -1,0 +1,151 @@
+Query         LFMSND
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 18:05:27 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LFMSND/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LFMSND/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4BWP_A PAB-DEPENDENT POLY(A)-S  22.6      84 0.00093   14.0   0.0    6    1-6       5-10  (448)
+  2 4W79_A Human Protein N-termina  19.7   1E+02  0.0012   14.1   0.0    6    1-6      53-58  (202)
+  3 2QXV_B Embryonic ectoderm deve  19.7   1E+02  0.0012   10.1   0.0    5    1-5       3-7   (30)
+  4 6KGJ_A Protein N-terminal glut  18.6 1.2E+02  0.0013   14.0   0.0    6    1-6      53-58  (202)
+  5 3V34_B Ribonuclease ZC3H12A (E  18.4 1.2E+02  0.0013   12.7   0.0    6    1-6     128-133 (185)
+  6 5U5T_C Polycomb protein EED, H  17.9 1.2E+02  0.0014    9.9   0.0    5    1-5       3-7   (30)
+  7 3C9Q_A Uncharacterized protein  17.6 1.3E+02  0.0014   13.8   0.0    6    1-6      53-58  (205)
+  8 3V32_A Ribonuclease ZC3H12A (E  15.1 1.6E+02  0.0018   12.4   0.0    6    1-6     128-133 (185)
+  9 7ONU_E RNA Processing, Mitocho  14.4 1.7E+02  0.0019   13.1   0.0    6    1-6     452-457 (541)
+ 10 7NDH_A Probable ribonuclease Z  14.3 1.7E+02  0.0019   11.8   0.0    6    1-6     110-115 (169)
+
+No 1
+>4BWP_A PAB-DEPENDENT POLY(A)-SPECIFIC RIBONUCLEASE SUBUNIT PAN-3; GENE REGULATION, DEADENYLASE, PAN2, MIRNA; HET: AN2; 3.6A {DROSOPHILA MELANOGASTER}
+Probab=22.56  E-value=84  Score=14.05  Aligned_cols=6  Identities=33%  Similarity=0.540  Sum_probs=0.0  Template_Neff=8.900
+
+Q LFMSND            1 LFMSND    6 (6)
+Q Consensus         1 lfmsnd    6 (6)
+                      +||+|+
+T Consensus         5 ~f~~~~   10 (448)
+T 4BWP_A            5 LEMPDE   10 (448)
+T ss_dssp             ------
+T ss_pred             cCCCHH
+Confidence            467664
+
+
+No 2
+>4W79_A Human Protein N-terminal Glutamine Amidohydrolase; PROTEIN STRUCTURE INITIATIVE, PSI-2, CENTER; HET: MSE, CO3, EDO, SO4, PG4; 1.5A {Homo sapiens}
+Probab=19.74  E-value=1e+02  Score=14.09  Aligned_cols=6  Identities=50%  Similarity=1.110  Sum_probs=0.0  Template_Neff=5.200
+
+Q LFMSND            1 LFMSND    6 (6)
+Q Consensus         1 lfmsnd    6 (6)
+                      +|+||.
+T Consensus        53 VFISN~   58 (202)
+T 4W79_A           53 VFISNE   58 (202)
+T ss_dssp             EEEECT
+T ss_pred             EEEecC
+
+
+No 3
+>2QXV_B Embryonic ectoderm development, Enhancer of; WD-repeat domain, Polycomb Repressive Complex; 1.82A {Mus musculus}
+Probab=19.70  E-value=1e+02  Score=10.05  Aligned_cols=5  Identities=60%  Similarity=0.959  Sum_probs=0.0  Template_Neff=5.900
+
+Q LFMSND            1 LFMSN    5 (6)
+Q Consensus         1 lfmsn    5 (6)
+                      +|++|
+T Consensus         3 a~~~N    7 (30)
+T 2QXV_B            3 MFSSN    7 (30)
+T ss_dssp             HHHHH
+T ss_pred             hhhHH
+
+
+No 4
+>6KGJ_A Protein N-terminal glutamine amidohydrolase; NTAQ1, HYDROLASE; 1.8A {Homo sapiens}
+Probab=18.59  E-value=1.2e+02  Score=13.96  Aligned_cols=6  Identities=50%  Similarity=1.110  Sum_probs=0.0  Template_Neff=5.200
+
+Q LFMSND            1 LFMSND    6 (6)
+Q Consensus         1 lfmsnd    6 (6)
+                      +|+||.
+T Consensus        53 VFISN~   58 (202)
+T 6KGJ_A           53 VFISNE   58 (202)
+T ss_dssp             EEEECT
+T ss_pred             EEEecC
+
+
+No 5
+>3V34_B Ribonuclease ZC3H12A (E.C.3.1.-.-); Rossmann-like sandwich fold, RNase, cytoplastic; 2.003A {Homo sapiens}
+Probab=18.40  E-value=1.2e+02  Score=12.69  Aligned_cols=6  Identities=50%  Similarity=0.844  Sum_probs=0.0  Template_Neff=7.500
+
+Q LFMSND            1 LFMSND    6 (6)
+Q Consensus         1 lfmsnd    6 (6)
+                      .+.|||
+T Consensus       128 ~IVSND  133 (185)
+T 3V34_B          128 IVVSND  133 (185)
+T ss_dssp             EEECSC
+T ss_pred             EEEECC
+
+
+No 6
+>5U5T_C Polycomb protein EED, Histone-lysine N-methyltransferase; EED, fragment-based generation, oncology, Transcription-Transferase; HET: 7W7; 1.6A {Homo sapiens}
+Probab=17.91  E-value=1.2e+02  Score=9.89  Aligned_cols=5  Identities=60%  Similarity=0.959  Sum_probs=0.0  Template_Neff=5.900
+
+Q LFMSND            1 LFMSN    5 (6)
+Q Consensus         1 lfmsn    5 (6)
+                      +|++|
+T Consensus         3 a~~~N    7 (30)
+T 5U5T_C            3 MFSSN    7 (30)
+T ss_dssp             --CHH
+T ss_pred             hhhHH
+
+
+No 7
+>3C9Q_A Uncharacterized protein C8orf32, Synthetic peptide; Medically relevant, putative involvement in; HET: EDO, MSE, SO4; 1.5A {Homo sapiens}
+Probab=17.62  E-value=1.3e+02  Score=13.84  Aligned_cols=6  Identities=50%  Similarity=1.110  Sum_probs=0.0  Template_Neff=5.300
+
+Q LFMSND            1 LFMSND    6 (6)
+Q Consensus         1 lfmsnd    6 (6)
+                      +|+||+
+T Consensus        53 VFISN~   58 (205)
+T 3C9Q_A           53 VFISNE   58 (205)
+T ss_dssp             EEEECT
+T ss_pred             EEEecC
+
+
+No 8
+>3V32_A Ribonuclease ZC3H12A (E.C.3.1.-.-); Rossmann-like sandwich fold, RNase, cytoplastic; 2.0A {Homo sapiens}
+Probab=15.08  E-value=1.6e+02  Score=12.36  Aligned_cols=6  Identities=50%  Similarity=0.844  Sum_probs=0.0  Template_Neff=7.400
+
+Q LFMSND            1 LFMSND    6 (6)
+Q Consensus         1 lfmsnd    6 (6)
+                      .+.|||
+T Consensus       128 ~IVSND  133 (185)
+T 3V32_A          128 IVVSND  133 (185)
+T ss_dssp             EEECSC
+T ss_pred             EEEECC
+
+
+No 9
+>7ONU_E RNA Processing, Mitochondria, Gene Expression; HET: NAD;{Homo sapiens}
+Probab=14.43  E-value=1.7e+02  Score=13.14  Aligned_cols=6  Identities=33%  Similarity=0.766  Sum_probs=0.0  Template_Neff=9.600
+
+Q LFMSND            1 LFMSND    6 (6)
+Q Consensus         1 lfmsnd    6 (6)
+                      +|.|||
+T Consensus       452 ~~vsnD  457 (541)
+T 7ONU_E          452 RFITRD  457 (541)
+T ss_dssp             EEECCC
+T ss_pred             EEEECc
+
+
+No 10
+>7NDH_A Probable ribonuclease ZC3H12C (E.C.3.1.-.-); Endo-ribonuclease, regnase, RNA BINDING PROTEIN; HET: EDO; 1.94A {Mus musculus}
+Probab=14.35  E-value=1.7e+02  Score=11.76  Aligned_cols=6  Identities=50%  Similarity=0.894  Sum_probs=0.0  Template_Neff=8.100
+
+Q LFMSND            1 LFMSND    6 (6)
+Q Consensus         1 lfmsnd    6 (6)
+                      .+.|||
+T Consensus       110 ~IVSND  115 (169)
+T 7NDH_A          110 IIVSND  115 (169)
+T ss_dssp             EEECSC
+T ss_pred             EEEECc
+
+

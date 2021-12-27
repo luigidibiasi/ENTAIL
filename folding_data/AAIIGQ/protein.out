@@ -1,0 +1,150 @@
+Query         AAIIGQ
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 13:02:42 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/AAIIGQ/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/AAIIGQ/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5LAA_C Tetrahydromethanopterin  12.2 2.2E+02  0.0024   12.7   0.0    6    1-6      48-53  (170)
+  2 1LQJ_C URACIL-DNA GLYCOSYLASE   12.1 2.2E+02  0.0024   12.7   0.0    4    3-6      60-63  (229)
+  3 2CWS_A alginate lyase A1-II';   12.1 2.2E+02  0.0024   12.4   0.0    4    3-6     107-110 (237)
+  4 6ITH_A Syndecan-2; membrane pr  12.1 2.2E+02  0.0024   11.0   0.0    5    1-5       9-13  (41)
+  5 6OUG_F Matrix protein 2; viral  11.9 2.2E+02  0.0025   11.2   0.0    5    1-5      10-14  (41)
+  6 1EMJ_A URACIL-DNA GLYCOSYLASE   11.5 2.4E+02  0.0026   12.5   0.0    4    3-6      60-63  (223)
+  7 1F2K_B ACANTHAMOEBA CASTELLANI  11.4 2.4E+02  0.0026   10.4   0.0    5    1-5      19-23  (125)
+  8 1VAV_A Alginate lyase PA1167;   11.2 2.5E+02  0.0027   12.2   0.0    4    3-6      98-101 (222)
+  9 5L8X_B Tetrahydromethanopterin  11.1 2.5E+02  0.0027   12.6   0.0    6    1-6      49-54  (173)
+ 10 5EVE_A Profilin, Poly-Proline   11.0 2.5E+02  0.0028   10.5   0.0    5    1-5      24-28  (132)
+
+No 1
+>5LAA_C Tetrahydromethanopterin S-methyltransferase subunit A (E.C.2.1.1.86); Methanogenesis, Motor pump, Membrane protein; HET: B12; 3.0A {Methanothermus fervidus (strain ATCC 43054 / DSM 2088 / JCM 10308 / V24 S)}
+Probab=12.18  E-value=2.2e+02  Score=12.68  Aligned_cols=6  Identities=67%  Similarity=0.800  Sum_probs=0.0  Template_Neff=5.500
+
+Q AAIIGQ            1 AAIIGQ    6 (6)
+Q Consensus         1 aaiigq    6 (6)
+                      +||+|+
+T Consensus        48 ~AiiG~   53 (170)
+T 5LAA_C           48 AAIAGP   53 (170)
+T ss_dssp             CSEEEC
+T ss_pred             eEEEee
+
+
+No 2
+>1LQJ_C URACIL-DNA GLYCOSYLASE (E.C.3.2.2.-); GLYCOSYLASE, DNA REPAIR, BASE EXCISION; 3.35A {Escherichia coli} SCOP: c.18.1.1
+Probab=12.14  E-value=2.2e+02  Score=12.68  Aligned_cols=4  Identities=75%  Similarity=1.340  Sum_probs=0.0  Template_Neff=6.700
+
+Q AAIIGQ            3 IIGQ    6 (6)
+Q Consensus         3 iigq    6 (6)
+                      |+||
+T Consensus        60 IlGQ   63 (229)
+T 1LQJ_C           60 ILGQ   63 (229)
+T ss_dssp             EEEC
+T ss_pred             EEcc
+
+
+No 3
+>2CWS_A alginate lyase A1-II'; alginate lyase, polysaccharide lyase family-7; HET: SO4; 1.0A {Sphingomonas sp. A1}
+Probab=12.13  E-value=2.2e+02  Score=12.42  Aligned_cols=4  Identities=50%  Similarity=0.858  Sum_probs=0.0  Template_Neff=7.400
+
+Q AAIIGQ            3 IIGQ    6 (6)
+Q Consensus         3 iigq    6 (6)
+                      ||||
+T Consensus       107 iigQ  110 (237)
+T 2CWS_A          107 IVAQ  110 (237)
+T ss_dssp             EEEE
+T ss_pred             EEEE
+
+
+No 4
+>6ITH_A Syndecan-2; membrane protein, DPC, micelles; NMR {Homo sapiens}
+Probab=12.07  E-value=2.2e+02  Score=11.04  Aligned_cols=5  Identities=60%  Similarity=0.826  Sum_probs=0.0  Template_Neff=2.700
+
+Q AAIIGQ            1 AAIIG    5 (6)
+Q Consensus         1 aaiig    5 (6)
+                      ||+||
+T Consensus         9 aavIg   13 (41)
+T 6ITH_A            9 AAVIA   13 (41)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 5
+>6OUG_F Matrix protein 2; viral protein, proton channel, MEMBRANE; HET: E01; 3.01A {N/A}
+Probab=11.95  E-value=2.2e+02  Score=11.21  Aligned_cols=5  Identities=80%  Similarity=1.205  Sum_probs=0.0  Template_Neff=1.800
+
+Q AAIIGQ            1 AAIIG    5 (6)
+Q Consensus         1 aaiig    5 (6)
+                      |.|||
+T Consensus        10 A~IiG   14 (41)
+T 6OUG_F           10 ASIIG   14 (41)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 6
+>1EMJ_A URACIL-DNA GLYCOSYLASE (E.C.3.2.2.3)/DNA COMPLEX; alpha/beta fold, Uracil-DNA Glycosylase, protein/DNA; HET: ASU; 2.0A {Homo sapiens} SCOP: c.18.1.1
+Probab=11.52  E-value=2.4e+02  Score=12.50  Aligned_cols=4  Identities=75%  Similarity=1.340  Sum_probs=0.0  Template_Neff=6.800
+
+Q AAIIGQ            3 IIGQ    6 (6)
+Q Consensus         3 iigq    6 (6)
+                      |+||
+T Consensus        60 IlGQ   63 (223)
+T 1EMJ_A           60 ILGQ   63 (223)
+T ss_dssp             EEES
+T ss_pred             EEec
+
+
+No 7
+>1F2K_B ACANTHAMOEBA CASTELLANII PROFILIN II; SEVEN-STRANDED INCOMPLETE ANTIPARALLEL UP-AND-DOWN BETA; 2.3A {Acanthamoeba castellanii} SCOP: d.110.1.1
+Probab=11.44  E-value=2.4e+02  Score=10.39  Aligned_cols=5  Identities=100%  Similarity=1.291  Sum_probs=0.0  Template_Neff=9.000
+
+Q AAIIGQ            1 AAIIG    5 (6)
+Q Consensus         1 aaiig    5 (6)
+                      |||++
+T Consensus        19 aaI~~   23 (125)
+T 1F2K_B           19 AAIIG   23 (125)
+T ss_dssp             EEEEE
+T ss_pred             EEEEe
+
+
+No 8
+>1VAV_A Alginate lyase PA1167; beta-sandwich, STRUCTURAL GENOMICS, LYASE; 2.0A {Pseudomonas aeruginosa} SCOP: b.29.1.18
+Probab=11.17  E-value=2.5e+02  Score=12.20  Aligned_cols=4  Identities=100%  Similarity=1.439  Sum_probs=0.0  Template_Neff=7.300
+
+Q AAIIGQ            3 IIGQ    6 (6)
+Q Consensus         3 iigq    6 (6)
+                      ||||
+T Consensus        98 iigQ  101 (222)
+T 1VAV_A           98 IIGQ  101 (222)
+T ss_dssp             EEEE
+T ss_pred             EEEE
+
+
+No 9
+>5L8X_B Tetrahydromethanopterin S-methyltransferase subunit A (E.C.2.1.1.86); Methanogenesis, Motor pump, Membrane protein; 1.85A {Methanocaldococcus jannaschii (strain ATCC 43067 / DSM 2661 / JAL-1 / JCM 10045 / NBRC 100440)}
+Probab=11.12  E-value=2.5e+02  Score=12.60  Aligned_cols=6  Identities=67%  Similarity=0.800  Sum_probs=0.0  Template_Neff=5.400
+
+Q AAIIGQ            1 AAIIGQ    6 (6)
+Q Consensus         1 aaiigq    6 (6)
+                      +||+|+
+T Consensus        49 ~AiiG~   54 (173)
+T 5L8X_B           49 AAIAGP   54 (173)
+T ss_dssp             CSEEEC
+T ss_pred             eEEEEe
+
+
+No 10
+>5EVE_A Profilin, Poly-Proline peptide; Allergen; 2.55A {Ambrosia artemisiifolia}
+Probab=11.01  E-value=2.5e+02  Score=10.48  Aligned_cols=5  Identities=80%  Similarity=1.092  Sum_probs=0.0  Template_Neff=8.900
+
+Q AAIIGQ            1 AAIIG    5 (6)
+Q Consensus         1 aaiig    5 (6)
+                      |||++
+T Consensus        24 aaI~~   28 (132)
+T 5EVE_A           24 AAIFG   28 (132)
+T ss_dssp             EEEEE
+T ss_pred             EEEEc
+
+

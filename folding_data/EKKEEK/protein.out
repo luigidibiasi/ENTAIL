@@ -1,0 +1,146 @@
+Query         EKKEEK
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 19:06:56 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/EKKEEK/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/EKKEEK/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 7DEG_A Cytochrome c oxidase su  57.1     9.5 0.00011   18.0   0.0    6    1-6     569-574 (587)
+  2 5LN3_D 26S proteasome non-ATPa   7.5 4.3E+02  0.0047   10.6   0.0    6    1-6     241-246 (248)
+  3 1DDW_A GLGF-DOMAIN PROTEIN HOM   6.8 4.8E+02  0.0053    9.6   0.0    6    1-6     115-120 (120)
+  4 6EPC_U Proteasome subunit alph   6.8 4.8E+02  0.0053   11.3   0.0    6    1-6     315-320 (320)
+  5 4BEH_B 60S ACIDIC RIBOSOMAL PR   6.5 5.1E+02  0.0056   10.2   0.0    6    1-6      98-103 (116)
+  6 4NSX_A U3 small nucleolar RNA-   6.2 5.4E+02   0.006   10.4   0.0    5    1-5       8-12  (684)
+  7 2ZZ9_A Aquaporin-4; WATER TRAN   6.1 5.5E+02  0.0061   11.4   0.0    6    1-6     283-288 (301)
+  8 5VKU_R Tegument protein pp150,   6.0 5.6E+02  0.0062   11.0   0.0    6    1-6      11-16  (75)
+  9 6MSB_Z 26S proteasome; Proteos   6.0 5.7E+02  0.0063   11.3   0.0    6    1-6     319-324 (324)
+ 10 2D57_A Aquaporin-4; WATER TRAN   5.9 5.7E+02  0.0063   11.4   0.0    6    1-6     283-288 (301)
+
+No 1
+>7DEG_A Cytochrome c oxidase subunit I; electron cryo-microscopy, heme-copper oxidase, cytochrome; HET: 3PE, HEM, HAS, DLX, PGV; 3.4A {Aquifex aeolicus (strain VF5)}
+Probab=57.05  E-value=9.5  Score=17.98  Aligned_cols=6  Identities=100%  Similarity=1.132  Sum_probs=3.3  Template_Neff=7.900
+
+Q EKKEEK            1 EKKEEK    6 (6)
+Q Consensus         1 ekkeek    6 (6)
+                      +|||||
+T Consensus       569 ~~~~~~  574 (587)
+T 7DEG_A          569 EKKEEK  574 (587)
+T ss_dssp             HHHHHH
+T ss_pred             hhHHHH
+Confidence            456654
+
+
+No 2
+>5LN3_D 26S proteasome non-ATPase regulatory subunit; 26S Proteasome, Cryo-EM, Single Particle; 6.8A {Homo sapiens}
+Probab=7.46  E-value=4.3e+02  Score=10.59  Aligned_cols=6  Identities=50%  Similarity=0.761  Sum_probs=0.0  Template_Neff=9.700
+
+Q EKKEEK            1 EKKEEK    6 (6)
+Q Consensus         1 ekkeek    6 (6)
+                      ++||||
+T Consensus       241 ~~~~~~  246 (248)
+T 5LN3_D          241 KKKQKK  246 (248)
+T ss_pred             HHHhhh
+
+
+No 3
+>1DDW_A GLGF-DOMAIN PROTEIN HOMER; PLECKSTRIN HOMOLOGY DOMAIN FOLD, SIGNALING; 1.7A {Rattus norvegicus} SCOP: b.55.1.4
+Probab=6.83  E-value=4.8e+02  Score=9.58  Aligned_cols=6  Identities=67%  Similarity=0.855  Sum_probs=0.0  Template_Neff=8.900
+
+Q EKKEEK            1 EKKEEK    6 (6)
+Q Consensus         1 ekkeek    6 (6)
+                      ||+.||
+T Consensus       115 ~~~~~~  120 (120)
+T 1DDW_A          115 EKSQEK  120 (120)
+T ss_pred             ccCCCC
+
+
+No 4
+>6EPC_U Proteasome subunit alpha type-6 (E.C.3.4.25.1); UPS, Ground state, Neuron degeneration; 12.3A {Rattus norvegicus}
+Probab=6.79  E-value=4.8e+02  Score=11.30  Aligned_cols=6  Identities=83%  Similarity=0.999  Sum_probs=0.0  Template_Neff=8.800
+
+Q EKKEEK            1 EKKEEK    6 (6)
+Q Consensus         1 ekkeek    6 (6)
+                      ||||.|
+T Consensus       315 ~~~~~~  320 (320)
+T 6EPC_U          315 EKKEKK  320 (320)
+T ss_pred             HHhhcC
+
+
+No 5
+>4BEH_B 60S ACIDIC RIBOSOMAL PROTEIN P1; STALK, RIBOSOME, TRANSLATION; NMR {HOMO SAPIENS}
+Probab=6.54  E-value=5.1e+02  Score=10.18  Aligned_cols=6  Identities=83%  Similarity=0.961  Sum_probs=0.0  Template_Neff=7.300
+
+Q EKKEEK            1 EKKEEK    6 (6)
+Q Consensus         1 ekkeek    6 (6)
+                      +|+||+
+T Consensus        98 ~~~ee~  103 (116)
+T 4BEH_B           98 EKKEES  103 (116)
+T ss_dssp             CCCCCC
+T ss_pred             hhhhhc
+
+
+No 6
+>4NSX_A U3 small nucleolar RNA-associated protein; ribosome biogenesis, UTPB complex, 90S; HET: FLC; 2.1A {Saccharomyces cerevisiae}
+Probab=6.19  E-value=5.4e+02  Score=10.40  Aligned_cols=5  Identities=60%  Similarity=0.607  Sum_probs=0.0  Template_Neff=13.100
+
+Q EKKEEK            1 EKKEE    5 (6)
+Q Consensus         1 ekkee    5 (6)
+                      +||||
+T Consensus         8 ~~~~~   12 (684)
+T 4NSX_A            8 RKVEE   12 (684)
+T ss_dssp             -----
+T ss_pred             ccHHH
+
+
+No 7
+>2ZZ9_A Aquaporin-4; WATER TRANSPORT, WATER CHANNEL, AQUAPORIN; HET: PEE; 2.8A {Rattus norvegicus}
+Probab=6.13  E-value=5.5e+02  Score=11.40  Aligned_cols=6  Identities=33%  Similarity=0.767  Sum_probs=0.0  Template_Neff=8.000
+
+Q EKKEEK            1 EKKEEK    6 (6)
+Q Consensus         1 ekkeek    6 (6)
+                      |+++||
+T Consensus       283 ~~~~~~  288 (301)
+T 2ZZ9_A          283 DRGDEK  288 (301)
+T ss_dssp             ------
+T ss_pred             ccCccc
+
+
+No 8
+>5VKU_R Tegument protein pp150, Major capsid; icosahedral, capsid, tegument, Herpesvirus, VIRUS; 3.9A {Human cytomegalovirus (strain AD169)}
+Probab=6.03  E-value=5.6e+02  Score=11.01  Aligned_cols=6  Identities=17%  Similarity=0.462  Sum_probs=0.0  Template_Neff=2.700
+
+Q EKKEEK            1 EKKEEK    6 (6)
+Q Consensus         1 ekkeek    6 (6)
+                      +||||+
+T Consensus        11 ~kkeEe   16 (75)
+T 5VKU_R           11 ANKRDE   16 (75)
+T ss_pred             cchHHH
+
+
+No 9
+>6MSB_Z 26S proteasome; Proteosome, HYDROLASE; HET: ADP, ATP; 3.0A {Homo sapiens}
+Probab=5.97  E-value=5.7e+02  Score=11.26  Aligned_cols=6  Identities=83%  Similarity=0.999  Sum_probs=0.0  Template_Neff=8.500
+
+Q EKKEEK            1 EKKEEK    6 (6)
+Q Consensus         1 ekkeek    6 (6)
+                      ||||.|
+T Consensus       319 ~~~~~~  324 (324)
+T 6MSB_Z          319 EKKEKK  324 (324)
+T ss_pred             HHhhcC
+
+
+No 10
+>2D57_A Aquaporin-4; WATER TRANSPORT, WATER CHANNEL, AQUAPORIN; 3.2A {Rattus norvegicus}
+Probab=5.94  E-value=5.7e+02  Score=11.39  Aligned_cols=6  Identities=33%  Similarity=0.767  Sum_probs=0.0  Template_Neff=7.900
+
+Q EKKEEK            1 EKKEEK    6 (6)
+Q Consensus         1 ekkeek    6 (6)
+                      |+.+||
+T Consensus       283 ~~~~~~  288 (301)
+T 2D57_A          283 DRGDEK  288 (301)
+T ss_dssp             ------
+T ss_pred             ccCccc
+
+

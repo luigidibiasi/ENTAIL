@@ -1,0 +1,150 @@
+Query         NYVWIV
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 05:27:17 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NYVWIV/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NYVWIV/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5OUO_A Perforin-like protein 1  39.5      28 0.00031   15.9   0.0    6    1-6     158-163 (277)
+  2 6D7A_A Beta-rich domain of T.   31.7      45  0.0005   16.2   0.0    6    1-6     173-178 (359)
+  3 6U7L_A Arginase (E.C.3.5.3.1);  22.1      87 0.00096   16.0   0.0    6    1-6     137-142 (526)
+  4 5A1K_A ADSEVERIN; ACTIN-BINDIN  19.9   1E+02  0.0011   12.7   0.0    4    2-5     289-292 (344)
+  5 1NRE_A RECEPTOR-ASSOCIATED PRO  19.8   1E+02  0.0011   12.5   0.0    4    1-4      10-13  (81)
+  6 5TD8_C Kinetochore protein NDC  19.8   1E+02  0.0012   12.8   0.0    4    1-4     106-109 (114)
+  7 6RK4_A Lysostaphin (E.C.3.4.24  19.6 1.1E+02  0.0012   13.7   0.0    5    1-5     457-461 (493)
+  8 6MNJ_B Hz136; Sialidase, micro  19.2 1.1E+02  0.0012   13.9   0.0    6    1-6     140-145 (549)
+  9 1H1V_G ACTIN, GELSOLIN; ACTIN-  18.8 1.1E+02  0.0013   12.5   0.0    4    2-5     270-273 (331)
+ 10 6YJ4_k NADH-ubiquinone oxidore  18.4 1.2E+02  0.0013   11.2   0.0    4    1-4      12-15  (60)
+
+No 1
+>5OUO_A Perforin-like protein 1; Toxoplasma, cell egress, beta prism; 1.11A {Toxoplasma gondii}
+Probab=39.45  E-value=28  Score=15.86  Aligned_cols=6  Identities=33%  Similarity=1.608  Sum_probs=3.9  Template_Neff=6.400
+
+Q NYVWIV            1 NYVWIV    6 (6)
+Q Consensus         1 nyvwiv    6 (6)
+                      +|+||+
+T Consensus       158 ~~iWi~  163 (277)
+T 5OUO_A          158 NFLWMM  163 (277)
+T ss_dssp             EEEEEE
+T ss_pred             eEEEEE
+Confidence            467875
+
+
+No 2
+>6D7A_A Beta-rich domain of T. gondii; Pore forming protein, toxin, perforin-like; 1.13A {Toxoplasma gondii}
+Probab=31.67  E-value=45  Score=16.16  Aligned_cols=6  Identities=33%  Similarity=1.608  Sum_probs=3.9  Template_Neff=5.600
+
+Q NYVWIV            1 NYVWIV    6 (6)
+Q Consensus         1 nyvwiv    6 (6)
+                      +|+||+
+T Consensus       173 ~~IWiv  178 (359)
+T 6D7A_A          173 NFLWMM  178 (359)
+T ss_pred             eEEEEE
+Confidence            467875
+
+
+No 3
+>6U7L_A Arginase (E.C.3.5.3.1); Structural Genomics, Center for Structural; HET: MSE, PHD; 2.75A {Escherichia coli (strain K12)}
+Probab=22.08  E-value=87  Score=16.04  Aligned_cols=6  Identities=33%  Similarity=0.312  Sum_probs=3.9  Template_Neff=5.500
+
+Q NYVWIV            1 NYVWIV    6 (6)
+Q Consensus         1 nyvwiv    6 (6)
+                      |||||+
+T Consensus       137 N~v~Vi  142 (526)
+T 6U7L_A          137 NLLGIT  142 (526)
+T ss_dssp             CEEEEE
+T ss_pred             cEEEEE
+Confidence            677764
+
+
+No 4
+>5A1K_A ADSEVERIN; ACTIN-BINDING PROTEIN, ACTIN; 2.9A {HOMO SAPIENS}
+Probab=19.87  E-value=1e+02  Score=12.70  Aligned_cols=4  Identities=50%  Similarity=1.713  Sum_probs=0.0  Template_Neff=10.000
+
+Q NYVWIV            2 YVWI    5 (6)
+Q Consensus         2 yvwi    5 (6)
+                      |||+
+T Consensus       289 yvW~  292 (344)
+T 5A1K_A          289 FVWK  292 (344)
+T ss_dssp             EEEE
+T ss_pred             EEEe
+
+
+No 5
+>1NRE_A RECEPTOR-ASSOCIATED PROTEIN; ALPHA2MACROGLOBULIN RECEPTOR ASSOCIATED PROTEIN, LOW; NMR {Homo sapiens} SCOP: a.13.1.1
+Probab=19.85  E-value=1e+02  Score=12.55  Aligned_cols=4  Identities=50%  Similarity=1.506  Sum_probs=0.0  Template_Neff=4.700
+
+Q NYVWIV            1 NYVW    4 (6)
+Q Consensus         1 nyvw    4 (6)
+                      |++|
+T Consensus        10 N~lW   13 (81)
+T 1NRE_A           10 NQLW   13 (81)
+T ss_dssp             HHHH
+T ss_pred             HHHH
+
+
+No 6
+>5TD8_C Kinetochore protein NDC80, Kinetochore protein; RWD, CH, coiled-coil, tetramer, Ndc80; 7.531A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=19.79  E-value=1e+02  Score=12.81  Aligned_cols=4  Identities=50%  Similarity=2.154  Sum_probs=0.0  Template_Neff=5.600
+
+Q NYVWIV            1 NYVW    4 (6)
+Q Consensus         1 nyvw    4 (6)
+                      ||+|
+T Consensus       106 n~iW  109 (114)
+T 5TD8_C          106 KYIW  109 (114)
+T ss_dssp             HHHH
+T ss_pred             HHHH
+
+
+No 7
+>6RK4_A Lysostaphin (E.C.3.4.24.75); Peptidoglycan Hydrolase, PEPTIDE BINDING PROTEIN; HET: K5T; 1.43A {Staphylococcus simulans}
+Probab=19.62  E-value=1.1e+02  Score=13.67  Aligned_cols=5  Identities=40%  Similarity=1.258  Sum_probs=0.0  Template_Neff=9.400
+
+Q NYVWIV            1 NYVWI    5 (6)
+Q Consensus         1 nyvwi    5 (6)
+                      +|+||
+T Consensus       457 g~~W~  461 (493)
+T 6RK4_A          457 GHVWV  461 (493)
+T ss_dssp             TEEEE
+T ss_pred             CeEEE
+
+
+No 8
+>6MNJ_B Hz136; Sialidase, microbiome, Hadza, Neu5Gc, Neu5Ac; 2.2A {Alistipes}
+Probab=19.15  E-value=1.1e+02  Score=13.88  Aligned_cols=6  Identities=50%  Similarity=1.486  Sum_probs=0.0  Template_Neff=9.300
+
+Q NYVWIV            1 NYVWIV    6 (6)
+Q Consensus         1 nyvwiv    6 (6)
+                      ||.|+.
+T Consensus       140 nyfwvs  145 (549)
+T 6MNJ_B          140 NYYWVS  145 (549)
+T ss_dssp             EEEEEE
+T ss_pred             EEEEEE
+
+
+No 9
+>1H1V_G ACTIN, GELSOLIN; ACTIN-BINDING, SEVERING, CAPPING, AMYLOID, MUSCLE; HET: ATP; 2.99A {ORYCTOLAGUS CUNICULUS} SCOP: d.109.1.1
+Probab=18.78  E-value=1.1e+02  Score=12.51  Aligned_cols=4  Identities=50%  Similarity=2.145  Sum_probs=0.0  Template_Neff=10.000
+
+Q NYVWIV            2 YVWI    5 (6)
+Q Consensus         2 yvwi    5 (6)
+                      |||+
+T Consensus       270 yvW~  273 (331)
+T 1H1V_G          270 FVWV  273 (331)
+T ss_pred             EEEE
+
+
+No 10
+>6YJ4_k NADH-ubiquinone oxidoreductase chain 3 (E.C.7.1.1.2); NADH:Ubiquinone Oxidoreductase, complex I, MEMBRANE; HET: SF4, FME, 2MR, PLC, FMN, NDP, EHZ, CDL, 3PE, LMT; 2.7A {Yarrowia lipolytica}
+Probab=18.38  E-value=1.2e+02  Score=11.21  Aligned_cols=4  Identities=25%  Similarity=0.991  Sum_probs=0.0  Template_Neff=6.100
+
+Q NYVWIV            1 NYVW    4 (6)
+Q Consensus         1 nyvw    4 (6)
+                      |++|
+T Consensus        12 neaW   15 (60)
+T 6YJ4_k           12 REAW   15 (60)
+T ss_pred             HhHH
+
+

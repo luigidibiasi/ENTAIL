@@ -1,0 +1,152 @@
+Query         LWTVYV
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 21:06:42 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LWTVYV/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LWTVYV/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 7KPO_A Two-component regulator  34.7      37 0.00041   14.9   0.0    6    1-6      40-45  (108)
+  2 6W9Z_A De novo designed recept  26.4      64  0.0007   12.1   0.0    6    1-6      20-25  (30)
+  3 6W9Z_D De novo designed recept  26.4      64  0.0007   12.1   0.0    6    1-6      20-25  (30)
+  4 4D77_A GLIOMEDIN; MYELIN, BETA  19.4 1.1E+02  0.0012   14.1   0.0    5    1-5     173-177 (285)
+  5 1R17_B fibrinogen-binding prot  18.5 1.2E+02  0.0013   13.2   0.0    5    2-6     196-200 (343)
+  6 6SWB_A Two-component response   18.3 1.2E+02  0.0013   10.0   0.0    5    2-6       7-11  (135)
+  7 3AT0_A Clumping factor B, C-te  18.2 1.2E+02  0.0013   13.3   0.0    5    2-6     189-193 (338)
+  8 1N67_A Clumping Factor; DEv-Ig  17.9 1.2E+02  0.0014   13.3   0.0    5    2-6     195-199 (359)
+  9 4JE0_B Ser-Asp rich fibrinogen  17.8 1.2E+02  0.0014   12.8   0.0    5    2-6     187-191 (316)
+ 10 4JE0_A Ser-Asp rich fibrinogen  17.0 1.3E+02  0.0015   12.7   0.0    5    2-6     187-191 (316)
+
+No 1
+>7KPO_A Two-component regulatory system response regulator; Structural Genomics, Center for Structural; HET: MSE, SO4; 1.28A {Vibrio cholerae O1 biovar El Tor}
+Probab=34.66  E-value=37  Score=14.89  Aligned_cols=6  Identities=67%  Similarity=1.719  Sum_probs=3.7  Template_Neff=3.500
+
+Q LWTVYV            1 LWTVYV    6 (6)
+Q Consensus         1 lwtvyv    6 (6)
+                      +|.||+
+T Consensus        40 lWrVyl   45 (108)
+T 7KPO_A           40 LWRVYL   45 (108)
+T ss_dssp             SSCCEE
+T ss_pred             CCeEEe
+Confidence            577763
+
+
+No 2
+>6W9Z_A De novo designed receptor transmembrane; Transmembrane domain, de novo design; HET: SCH, OLB; 2.7A {synthetic construct}
+Probab=26.38  E-value=64  Score=12.11  Aligned_cols=6  Identities=50%  Similarity=1.619  Sum_probs=3.6  Template_Neff=1.000
+
+Q LWTVYV            1 LWTVYV    6 (6)
+Q Consensus         1 lwtvyv    6 (6)
+                      .|.||.
+T Consensus        20 fwvvyl   25 (30)
+T 6W9Z_A           20 FWVVYL   25 (30)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            377763
+
+
+No 3
+>6W9Z_D De novo designed receptor transmembrane; Transmembrane domain, de novo design; HET: OLB, SCH; 2.7A {synthetic construct}
+Probab=26.38  E-value=64  Score=12.11  Aligned_cols=6  Identities=50%  Similarity=1.619  Sum_probs=3.6  Template_Neff=1.000
+
+Q LWTVYV            1 LWTVYV    6 (6)
+Q Consensus         1 lwtvyv    6 (6)
+                      .|.||.
+T Consensus        20 fwvvyl   25 (30)
+T 6W9Z_D           20 FWVVYL   25 (30)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            377763
+
+
+No 4
+>4D77_A GLIOMEDIN; MYELIN, BETA-PROPELLER, SIGNALING PROTEIN; HET: MPD; 1.481A {RATTUS NORVEGICUS}
+Probab=19.42  E-value=1.1e+02  Score=14.05  Aligned_cols=5  Identities=60%  Similarity=1.896  Sum_probs=0.0  Template_Neff=6.600
+
+Q LWTVYV            1 LWTVY    5 (6)
+Q Consensus         1 lwtvy    5 (6)
+                      ||.+|
+T Consensus       173 LWvIY  177 (285)
+T 4D77_A          173 LWIIY  177 (285)
+T ss_dssp             EEEEE
+T ss_pred             eEEEE
+
+
+No 5
+>1R17_B fibrinogen-binding protein SdrG, fibrinopeptide B; SdrG, MSCRAMM-ligand complex, SdrG-fibrinopeptide complex; 1.86A {Staphylococcus epidermidis} SCOP: b.2.3.4
+Probab=18.46  E-value=1.2e+02  Score=13.24  Aligned_cols=5  Identities=40%  Similarity=0.919  Sum_probs=0.0  Template_Neff=8.700
+
+Q LWTVYV            2 WTVYV    6 (6)
+Q Consensus         2 wtvyv    6 (6)
+                      |++||
+T Consensus       196 w~i~V  200 (343)
+T 1R17_B          196 QTIYI  200 (343)
+T ss_dssp             EEEEE
+T ss_pred             EEEEE
+
+
+No 6
+>6SWB_A Two-component response regulator; response regulator, geobacillus stearothermophilus, two; HET: PEG; 2.259A {Geobacillus stearothermophilus}
+Probab=18.30  E-value=1.2e+02  Score=9.95  Aligned_cols=5  Identities=40%  Similarity=1.385  Sum_probs=0.0  Template_Neff=11.600
+
+Q LWTVYV            2 WTVYV    6 (6)
+Q Consensus         2 wtvyv    6 (6)
+                      |-||.
+T Consensus         7 ~~~~~   11 (135)
+T 6SWB_A            7 WKVLI   11 (135)
+T ss_dssp             EEEEE
+T ss_pred             ceEEE
+
+
+No 7
+>3AT0_A Clumping factor B, C-terminal alpha; IgG like, Adhesin, Fibrinogen, cytokeratin; 2.5A {Staphylococcus aureus}
+Probab=18.18  E-value=1.2e+02  Score=13.33  Aligned_cols=5  Identities=60%  Similarity=0.780  Sum_probs=0.0  Template_Neff=8.400
+
+Q LWTVYV            2 WTVYV    6 (6)
+Q Consensus         2 wtvyv    6 (6)
+                      |+|||
+T Consensus       189 W~v~v  193 (338)
+T 3AT0_A          189 QTVFV  193 (338)
+T ss_dssp             EEEEE
+T ss_pred             EEEEE
+
+
+No 8
+>1N67_A Clumping Factor; DEv-IgG, IgG, Immunoglobulin, IgSF, Clumping; 1.9A {Staphylococcus aureus} SCOP: b.2.3.4
+Probab=17.89  E-value=1.2e+02  Score=13.26  Aligned_cols=5  Identities=60%  Similarity=0.939  Sum_probs=0.0  Template_Neff=8.700
+
+Q LWTVYV            2 WTVYV    6 (6)
+Q Consensus         2 wtvyv    6 (6)
+                      |+|||
+T Consensus       195 W~i~v  199 (359)
+T 1N67_A          195 QTIYV  199 (359)
+T ss_dssp             EEEEE
+T ss_pred             EEEEE
+
+
+No 9
+>4JE0_B Ser-Asp rich fibrinogen/bone sialoprotein-binding protein; Receptor, Surface, MSCRAMM, Staphylococcus aureus; 1.7A {Staphylococcus aureus subsp. aureus}
+Probab=17.77  E-value=1.2e+02  Score=12.80  Aligned_cols=5  Identities=80%  Similarity=0.959  Sum_probs=0.0  Template_Neff=9.100
+
+Q LWTVYV            2 WTVYV    6 (6)
+Q Consensus         2 wtvyv    6 (6)
+                      |+++|
+T Consensus       187 W~i~v  191 (316)
+T 4JE0_B          187 QTVYV  191 (316)
+T ss_pred             EEEEE
+
+
+No 10
+>4JE0_A Ser-Asp rich fibrinogen/bone sialoprotein-binding protein; Receptor, Surface, MSCRAMM, Staphylococcus aureus; HET: MSE; 1.7A {Staphylococcus aureus subsp. aureus}
+Probab=17.02  E-value=1.3e+02  Score=12.72  Aligned_cols=5  Identities=80%  Similarity=0.959  Sum_probs=0.0  Template_Neff=9.100
+
+Q LWTVYV            2 WTVYV    6 (6)
+Q Consensus         2 wtvyv    6 (6)
+                      |+++|
+T Consensus       187 W~i~v  191 (316)
+T 4JE0_A          187 QTVYV  191 (316)
+T ss_dssp             EEEEE
+T ss_pred             EEEEE
+
+

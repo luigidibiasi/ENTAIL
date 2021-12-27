@@ -1,0 +1,148 @@
+Query         QQQFNP
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 09:50:38 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QQQFNP/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QQQFNP/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3ANO_B AP-4-A phosphorylase (E  11.3 2.4E+02  0.0027   12.1   0.0    6    1-6      43-48  (218)
+  2 1H20_A METALLOCARBOXYPEPTIDASE  11.0 2.5E+02  0.0028   11.0   0.0    6    1-6       1-6   (39)
+  3 7C7Y_B Uncharacterized protein  10.9 2.5E+02  0.0028   12.3   0.0    5    2-6       5-9   (80)
+  4 7C7Y_C Uncharacterized protein  10.9 2.5E+02  0.0028   12.3   0.0    5    2-6       5-9   (80)
+  5 2K31_A Phosphodiesterase 5A, c  10.9 2.6E+02  0.0028    8.6   0.0    4    3-6     173-176 (176)
+  6 3GD8_A Aquaporin-4; brain edem  10.4 2.7E+02   0.003   11.1   0.0    4    3-6      64-67  (223)
+  7 2GWO_D Dual specificity protei  10.2 2.8E+02  0.0031   10.3   0.0    6    1-6       7-12  (198)
+  8 6RWX_J Protein MxiG, Lipoprote   9.9 2.9E+02  0.0032   12.4   0.0    4    3-6      92-95  (371)
+  9 4NEF_C Aquaporin-2; water chan   9.8 2.9E+02  0.0032   11.4   0.0    4    3-6      66-69  (242)
+ 10 6YFP_CN coat protein; virus, v   9.6 3.1E+02  0.0034   13.3   0.0    4    2-5      55-58  (164)
+
+No 1
+>3ANO_B AP-4-A phosphorylase (E.C.2.7.7.53); Mycobacterium, diadenosine polyphosphate, phosphorylase, HIT; HET: PO4, PG4; 1.894A {Mycobacterium tuberculosis}
+Probab=11.33  E-value=2.4e+02  Score=12.10  Aligned_cols=6  Identities=33%  Similarity=0.794  Sum_probs=0.0  Template_Neff=7.500
+
+Q QQQFNP            1 QQQFNP    6 (6)
+Q Consensus         1 qqqfnp    6 (6)
+                      +.+|||
+T Consensus        43 ~~l~~p   48 (218)
+T 3ANO_B           43 QRLWTP   48 (218)
+T ss_dssp             HHHHGG
+T ss_pred             hhhhch
+
+
+No 2
+>1H20_A METALLOCARBOXYPEPTIDASE INHIBITOR; INHIBITOR, METALLOENZYME INHIBITOR, PLANT DEFENSE; NMR {SOLANUM TUBEROSUM} SCOP: g.3.2.1
+Probab=11.00  E-value=2.5e+02  Score=10.99  Aligned_cols=6  Identities=33%  Similarity=0.728  Sum_probs=0.0  Template_Neff=1.700
+
+Q QQQFNP            1 QQQFNP    6 (6)
+Q Consensus         1 qqqfnp    6 (6)
+                      |||..|
+T Consensus         1 ~~q~Dp    6 (39)
+T 1H20_A            1 EQHADP    6 (39)
+T ss_dssp             CCCCCS
+T ss_pred             CCCCCC
+
+
+No 3
+>7C7Y_B Uncharacterized protein; DNA binding protein, DNA segregation; HET: MSE; 2.6A {Bacillus cereus (strain ATCC 10987 / NRS 248)}
+Probab=10.90  E-value=2.5e+02  Score=12.30  Aligned_cols=5  Identities=80%  Similarity=1.125  Sum_probs=0.0  Template_Neff=1.000
+
+Q QQQFNP            2 QQFNP    6 (6)
+Q Consensus         2 qqfnp    6 (6)
+                      ||.||
+T Consensus         5 qqvnp    9 (80)
+T 7C7Y_B            5 QQVNP    9 (80)
+T ss_dssp             ---CH
+T ss_pred             hhcCH
+
+
+No 4
+>7C7Y_C Uncharacterized protein; DNA binding protein, DNA segregation; HET: MSE; 2.6A {Bacillus cereus (strain ATCC 10987 / NRS 248)}
+Probab=10.90  E-value=2.5e+02  Score=12.30  Aligned_cols=5  Identities=80%  Similarity=1.125  Sum_probs=0.0  Template_Neff=1.000
+
+Q QQQFNP            2 QQFNP    6 (6)
+Q Consensus         2 qqfnp    6 (6)
+                      ||.||
+T Consensus         5 qqvnp    9 (80)
+T 7C7Y_C            5 QQVNP    9 (80)
+T ss_dssp             ---CH
+T ss_pred             hhcCH
+
+
+No 5
+>2K31_A Phosphodiesterase 5A, cGMP-specific (E.C.3.1.4.35); cyclic nucleotide phosphodiesterase, PDE5, GAF; HET: 35G; NMR {Mus musculus}
+Probab=10.88  E-value=2.6e+02  Score=8.59  Aligned_cols=4  Identities=0%  Similarity=0.102  Sum_probs=0.0  Template_Neff=13.600
+
+Q QQQFNP            3 QFNP    6 (6)
+Q Consensus         3 qfnp    6 (6)
+                      ++||
+T Consensus       173 ~~~~  176 (176)
+T 2K31_A          173 HHHH  176 (176)
+T ss_pred             hcCC
+
+
+No 6
+>3GD8_A Aquaporin-4; brain edema,aquaporin, proton exclusion, Structural; HET: BOG, GOL; 1.8A {Homo sapiens}
+Probab=10.45  E-value=2.7e+02  Score=11.08  Aligned_cols=4  Identities=50%  Similarity=1.132  Sum_probs=0.0  Template_Neff=9.400
+
+Q QQQFNP            3 QFNP    6 (6)
+Q Consensus         3 qfnp    6 (6)
+                      ++||
+T Consensus        64 h~NP   67 (223)
+T 3GD8_A           64 HINP   67 (223)
+T ss_dssp             CCSH
+T ss_pred             CcCH
+
+
+No 7
+>2GWO_D Dual specificity protein phosphatase 13; alpha/beta, HYDROLASE; 2.4A {Homo sapiens}
+Probab=10.21  E-value=2.8e+02  Score=10.29  Aligned_cols=6  Identities=33%  Similarity=0.374  Sum_probs=0.0  Template_Neff=10.500
+
+Q QQQFNP            1 QQQFNP    6 (6)
+Q Consensus         1 qqqfnp    6 (6)
+                      |+++||
+T Consensus         7 ~~~~~~   12 (198)
+T 2GWO_D            7 QDLRRP   12 (198)
+T ss_dssp             ------
+T ss_pred             HhhcCc
+
+
+No 8
+>6RWX_J Protein MxiG, Lipoprotein MxiJ; type 3 secretion system, shigella;{Shigella flexneri}
+Probab=9.91  E-value=2.9e+02  Score=12.38  Aligned_cols=4  Identities=75%  Similarity=1.157  Sum_probs=0.0  Template_Neff=8.400
+
+Q QQQFNP            3 QFNP    6 (6)
+Q Consensus         3 qfnp    6 (6)
+                      ||||
+T Consensus        92 ~~~~   95 (371)
+T 6RWX_J           92 QFNS   95 (371)
+T ss_dssp             ----
+T ss_pred             ccce
+
+
+No 9
+>4NEF_C Aquaporin-2; water channel, cadmium binding, MEMBRANE; 2.75A {Homo sapiens}
+Probab=9.84  E-value=2.9e+02  Score=11.42  Aligned_cols=4  Identities=50%  Similarity=1.132  Sum_probs=0.0  Template_Neff=8.800
+
+Q QQQFNP            3 QFNP    6 (6)
+Q Consensus         3 qfnp    6 (6)
+                      +|||
+T Consensus        66 h~NP   69 (242)
+T 4NEF_C           66 HINP   69 (242)
+T ss_dssp             CCSH
+T ss_pred             CCCH
+
+
+No 10
+>6YFP_CN coat protein; virus, virus-like particle, structural protein; 3.1A {Leviviridae sp.}
+Probab=9.56  E-value=3.1e+02  Score=13.31  Aligned_cols=4  Identities=100%  Similarity=1.348  Sum_probs=0.0  Template_Neff=1.000
+
+Q QQQFNP            2 QQFN    5 (6)
+Q Consensus         2 qqfn    5 (6)
+                      ||||
+T Consensus        55 qqfn   58 (164)
+T 6YFP_CN          55 QQFN   58 (164)
+T ss_pred             ceec
+
+

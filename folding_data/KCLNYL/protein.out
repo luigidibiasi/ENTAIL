@@ -1,0 +1,152 @@
+Query         KCLNYL
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 10:19:24 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/KCLNYL/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/KCLNYL/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3P5P_A Taxadiene synthase (E.C  21.4      92   0.001   15.4   0.0    6    1-6     222-227 (764)
+  2 3P5R_A Taxadiene synthase (E.C  21.4      92   0.001   15.4   0.0    6    1-6     222-227 (764)
+  3 3SAE_A Alpha-bisabolene syntha  19.8   1E+02  0.0012   15.3   0.0    6    1-6     274-279 (817)
+  4 5U89_B Amino acid adenylation   19.7 1.1E+02  0.0012   12.6   0.0    5    2-6      51-55  (83)
+  5 3SDR_A Alpha-bisabolene syntha  19.4 1.1E+02  0.0012   15.3   0.0    6    1-6     274-279 (817)
+  6 2LPD_A Uncharacterized protein  18.0 1.2E+02  0.0013   12.9   0.0    5    2-6      62-66  (95)
+  7 7KSC_B Non-specific lipid-tran  18.0 1.2E+02  0.0013   10.9   0.0    5    2-6      14-18  (93)
+  8 5WMM_B NRPS, MbtH homologue; N  16.9 1.3E+02  0.0015   12.4   0.0    5    2-6      64-68  (87)
+  9 1BWO_A NONSPECIFIC LIPID-TRANS  16.6 1.4E+02  0.0015   10.7   0.0    5    2-6      13-17  (90)
+ 10 5N2H_A DNA polymerase (E.C.2.7  16.5 1.4E+02  0.0015   15.2   0.0    6    1-6       8-13  (1009)
+
+No 1
+>3P5P_A Taxadiene synthase (E.C.4.2.3.17); class I and II terpene; HET: A3C, EDO; 1.816A {Taxus brevifolia}
+Probab=21.38  E-value=92  Score=15.38  Aligned_cols=6  Identities=50%  Similarity=1.458  Sum_probs=3.6  Template_Neff=8.100
+
+Q KCLNYL            1 KCLNYL    6 (6)
+Q Consensus         1 kclnyl    6 (6)
+                      +|++||
+T Consensus       222 ~~~~yL  227 (764)
+T 3P5P_A          222 KCFTFL  227 (764)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            466665
+
+
+No 2
+>3P5R_A Taxadiene synthase (E.C.4.2.3.17); class I and II terpene; HET: FGG; 2.247A {Taxus brevifolia}
+Probab=21.38  E-value=92  Score=15.38  Aligned_cols=6  Identities=50%  Similarity=1.458  Sum_probs=3.6  Template_Neff=8.100
+
+Q KCLNYL            1 KCLNYL    6 (6)
+Q Consensus         1 kclnyl    6 (6)
+                      +|++||
+T Consensus       222 ~~~~yL  227 (764)
+T 3P5R_A          222 KCFTFL  227 (764)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            466665
+
+
+No 3
+>3SAE_A Alpha-bisabolene synthase (E.C.4.2.3.38); Lyase, Terpene Synthase; HET: FPS; 1.96A {Abies grandis}
+Probab=19.75  E-value=1e+02  Score=15.34  Aligned_cols=6  Identities=67%  Similarity=1.591  Sum_probs=0.0  Template_Neff=8.100
+
+Q KCLNYL            1 KCLNYL    6 (6)
+Q Consensus         1 kclnyl    6 (6)
+                      +|+.||
+T Consensus       274 ~~~~yL  279 (817)
+T 3SAE_A          274 KCLEFL  279 (817)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 4
+>5U89_B Amino acid adenylation domain protein; nonribosomal peptide synthetase, MbtH-like protein; HET: MJ8; 3.075A {Geobacillus sp.}
+Probab=19.66  E-value=1.1e+02  Score=12.62  Aligned_cols=5  Identities=60%  Similarity=1.883  Sum_probs=0.0  Template_Neff=4.600
+
+Q KCLNYL            2 CLNYL    6 (6)
+Q Consensus         2 clnyl    6 (6)
+                      ||.|+
+T Consensus        51 CL~~I   55 (83)
+T 5U89_B           51 CLDYI   55 (83)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 5
+>3SDR_A Alpha-bisabolene synthase (E.C.4.2.3.38); LYASE, TERPENE SYNTHASE; HET: 210; 1.86A {Abies grandis}
+Probab=19.36  E-value=1.1e+02  Score=15.29  Aligned_cols=6  Identities=67%  Similarity=1.591  Sum_probs=0.0  Template_Neff=8.100
+
+Q KCLNYL            1 KCLNYL    6 (6)
+Q Consensus         1 kclnyl    6 (6)
+                      +|+.||
+T Consensus       274 ~~~~yL  279 (817)
+T 3SDR_A          274 KCLEFL  279 (817)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 6
+>2LPD_A Uncharacterized protein; infectious disease, melioidosis, Seattle Structural; NMR {Burkholderia pseudomallei}
+Probab=18.00  E-value=1.2e+02  Score=12.87  Aligned_cols=5  Identities=40%  Similarity=1.145  Sum_probs=0.0  Template_Neff=4.200
+
+Q KCLNYL            2 CLNYL    6 (6)
+Q Consensus         2 clnyl    6 (6)
+                      ||.|+
+T Consensus        62 CL~~I   66 (95)
+T 2LPD_A           62 CLQRI   66 (95)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 7
+>7KSC_B Non-specific lipid-transfer protein; nsLTP, food allergen, ALLERGEN; HET: SO4; 2.4A {Punica granatum}
+Probab=17.99  E-value=1.2e+02  Score=10.85  Aligned_cols=5  Identities=40%  Similarity=1.331  Sum_probs=0.0  Template_Neff=8.500
+
+Q KCLNYL            2 CLNYL    6 (6)
+Q Consensus         2 clnyl    6 (6)
+                      |+.|+
+T Consensus        14 C~~yl   18 (93)
+T 7KSC_B           14 CIPYA   18 (93)
+T ss_dssp             GHHHH
+T ss_pred             hHHHH
+
+
+No 8
+>5WMM_B NRPS, MbtH homologue; Nonribosomal peptide, Thiocoraline, Depsipeptide, Thiolation; HET: B6G, SAH; 2.9A {Micromonospora sp. ML1}
+Probab=16.89  E-value=1.3e+02  Score=12.42  Aligned_cols=5  Identities=20%  Similarity=0.746  Sum_probs=0.0  Template_Neff=4.600
+
+Q KCLNYL            2 CLNYL    6 (6)
+Q Consensus         2 clnyl    6 (6)
+                      ||.|+
+T Consensus        64 CL~~I   68 (87)
+T 5WMM_B           64 SVAYV   68 (87)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 9
+>1BWO_A NONSPECIFIC LIPID-TRANSFER PROTEIN, [1-MYRISTOYL-GLYCEROL-3-YL]PHOSPHONYLCHOLINE; LIPID TRANSFER PROTEIN, WHEAT, LIPID; HET: LPC; 2.1A {Triticum aestivum} SCOP: a.52.1.1
+Probab=16.62  E-value=1.4e+02  Score=10.65  Aligned_cols=5  Identities=60%  Similarity=1.730  Sum_probs=0.0  Template_Neff=8.500
+
+Q KCLNYL            2 CLNYL    6 (6)
+Q Consensus         2 clnyl    6 (6)
+                      |+.|+
+T Consensus        13 C~~yl   17 (90)
+T 1BWO_A           13 CLSYV   17 (90)
+T ss_dssp             GHHHH
+T ss_pred             hHHHH
+
+
+No 10
+>5N2H_A DNA polymerase (E.C.2.7.7.7,3.1.11.-); Vaccinia virus, DNA polymerase, protein-protein; HET: MES, GOL, EPE; 2.81A {Vaccinia virus Copenhagen}
+Probab=16.47  E-value=1.4e+02  Score=15.25  Aligned_cols=6  Identities=33%  Similarity=1.492  Sum_probs=0.0  Template_Neff=8.300
+
+Q KCLNYL            1 KCLNYL    6 (6)
+Q Consensus         1 kclnyl    6 (6)
+                      ||+|++
+T Consensus         8 ~~~~w~   13 (1009)
+T 5N2H_A            8 RCINWF   13 (1009)
+T ss_dssp             EEEEEE
+T ss_pred             eEEece
+
+

@@ -1,0 +1,156 @@
+Query         GVNYFL
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 04:41:35 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GVNYFL/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GVNYFL/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6QB2_A Monomer of SQT-1C; Engi  45.7      19 0.00021   15.2   0.0    6    1-6      57-62  (130)
+  2 2VDW_F VACCINIA VIRUS CAPPING   38.8      29 0.00032   17.4   0.0    6    1-6      40-45  (287)
+  3 4CKB_E MRNA-CAPPING ENZYME CAT  38.8      29 0.00032   17.4   0.0    6    1-6      40-45  (287)
+  4 6RIE_L DNA-dependent RNA polym  38.8      29 0.00032   17.4   0.0    6    1-6      40-45  (287)
+  5 2MPW_A Intimin; PEPTIDOGLYCAN   22.9      82  0.0009   11.4   0.0    6    1-6       3-8   (115)
+  6 4V00_A MONOTREME LACTATING PRO  21.5      91   0.001   15.8   0.0    6    1-6     131-136 (366)
+  7 4V3J_A MONOTREME LACTATING PRO  21.5      91   0.001   15.8   0.0    6    1-6     131-136 (366)
+  8 3WG6_B Conjugated polyketone r  20.0   1E+02  0.0011   12.6   0.0    5    1-5      53-57  (307)
+  9 6KIK_A Oxidoreductase, aldo/ke  19.9   1E+02  0.0011   12.2   0.0    5    1-5      49-53  (275)
+ 10 5C7H_A Aldo-keto reductase (E.  19.7   1E+02  0.0012   12.6   0.0    5    1-5      47-51  (281)
+
+No 1
+>6QB2_A Monomer of SQT-1C; Engineered Scaffold protein, De novo; 2.5A {synthetic construct}
+Probab=45.74  E-value=19  Score=15.18  Aligned_cols=6  Identities=33%  Similarity=1.104  Sum_probs=3.5  Template_Neff=5.600
+
+Q GVNYFL            1 GVNYFL    6 (6)
+Q Consensus         1 gvnyfl    6 (6)
+                      |+||++
+T Consensus        57 GtNY~i   62 (130)
+T 6QB2_A           57 STNYYI   62 (130)
+T ss_dssp             CEEEEE
+T ss_pred             CeEEEE
+Confidence            566654
+
+
+No 2
+>2VDW_F VACCINIA VIRUS CAPPING ENZYME D1; NUCLEOTIDYLTRANSFERASE, S-ADENOSYL-L-METHIONINE, RNA METABOLISM, MRNA; HET: SO4, SAH; 2.7A {VACCINIA VIRUS}
+Probab=38.78  E-value=29  Score=17.38  Aligned_cols=6  Identities=83%  Similarity=1.625  Sum_probs=4.3  Template_Neff=3.100
+
+Q GVNYFL            1 GVNYFL    6 (6)
+Q Consensus         1 gvnyfl    6 (6)
+                      |.||||
+T Consensus        40 G~nYfl   45 (287)
+T 2VDW_F           40 GANYFL   45 (287)
+T ss_dssp             TCCHHH
+T ss_pred             cchhhh
+Confidence            678875
+
+
+No 3
+>4CKB_E MRNA-CAPPING ENZYME CATALYTIC SUBUNIT (E.C.3.1.3.33; TRANSFERASE-HYDROLASE COMPLEX, TRIFUNCTIONAL VACCINIA VIRUS; HET: GTP, SAH; 2.8A {VACCINIA VIRUS}
+Probab=38.78  E-value=29  Score=17.38  Aligned_cols=6  Identities=83%  Similarity=1.625  Sum_probs=4.3  Template_Neff=3.100
+
+Q GVNYFL            1 GVNYFL    6 (6)
+Q Consensus         1 gvnyfl    6 (6)
+                      |.||||
+T Consensus        40 G~nYfl   45 (287)
+T 4CKB_E           40 GANYFL   45 (287)
+T ss_dssp             TCCHCC
+T ss_pred             cchhhh
+Confidence            678875
+
+
+No 4
+>6RIE_L DNA-dependent RNA polymerase subunit rpo147; Vaccinia, RNA polymerase, Transcription, Gene; HET: SAM, GDP; 3.1A {Vaccinia virus}
+Probab=38.78  E-value=29  Score=17.38  Aligned_cols=6  Identities=83%  Similarity=1.625  Sum_probs=4.3  Template_Neff=3.100
+
+Q GVNYFL            1 GVNYFL    6 (6)
+Q Consensus         1 gvnyfl    6 (6)
+                      |.||||
+T Consensus        40 G~nYfl   45 (287)
+T 6RIE_L           40 GANYFL   45 (287)
+T ss_pred             cchhhh
+Confidence            678875
+
+
+No 5
+>2MPW_A Intimin; PEPTIDOGLYCAN BINDING PROTEIN; NMR {Escherichia coli}
+Probab=22.89  E-value=82  Score=11.39  Aligned_cols=6  Identities=67%  Similarity=1.176  Sum_probs=2.8  Template_Neff=9.100
+
+Q GVNYFL            1 GVNYFL    6 (6)
+Q Consensus         1 gvnyfl    6 (6)
+                      |-+||+
+T Consensus         3 ~~~~~~    8 (115)
+T 2MPW_A            3 GENYFK    8 (115)
+T ss_dssp             GGGSCC
+T ss_pred             Cccccc
+Confidence            345553
+
+
+No 6
+>4V00_A MONOTREME LACTATING PROTEIN; ANTIMICROBIAL PROTEIN, NOVEL FOLD, MILK; HET: GOL, NAG; 1.82A {ORNITHORHYNCHUS ANATINUS}
+Probab=21.46  E-value=91  Score=15.85  Aligned_cols=6  Identities=17%  Similarity=0.241  Sum_probs=3.9  Template_Neff=4.200
+
+Q GVNYFL            1 GVNYFL    6 (6)
+Q Consensus         1 gvnyfl    6 (6)
+                      ++||||
+T Consensus       131 ~mNYyL  136 (366)
+T 4V00_A          131 CIKYNP  136 (366)
+T ss_dssp             HHHHHH
+T ss_pred             HhhHHH
+Confidence            367875
+
+
+No 7
+>4V3J_A MONOTREME LACTATING PROTEIN; UNKNOWN FUNCTION, NOVEL MONOTREME SPECIFIC; HET: NAG; 1.97A {ORNITHORHYNCHUS ANATINUS}
+Probab=21.46  E-value=91  Score=15.85  Aligned_cols=6  Identities=17%  Similarity=0.241  Sum_probs=3.9  Template_Neff=4.200
+
+Q GVNYFL            1 GVNYFL    6 (6)
+Q Consensus         1 gvnyfl    6 (6)
+                      ++||||
+T Consensus       131 ~mNYyL  136 (366)
+T 4V3J_A          131 CIKYNP  136 (366)
+T ss_dssp             HHHHHH
+T ss_pred             HhhHHH
+Confidence            367875
+
+
+No 8
+>3WG6_B Conjugated polyketone reductase C1; AKR SUPERFAMILY, TIM BARREL, OXIDOREDUCTASE; HET: NDP; 2.2A {Candida parapsilosis}
+Probab=19.97  E-value=1e+02  Score=12.60  Aligned_cols=5  Identities=20%  Similarity=0.388  Sum_probs=0.0  Template_Neff=9.800
+
+Q GVNYFL            1 GVNYF    5 (6)
+Q Consensus         1 gvnyf    5 (6)
+                      |+|+|
+T Consensus        53 Gin~~   57 (307)
+T 3WG6_B           53 GFRHI   57 (307)
+T ss_dssp             TCCEE
+T ss_pred             CCCEE
+
+
+No 9
+>6KIK_A Oxidoreductase, aldo/keto reductase family; Aldo-ketone reductase, Tolrestat, Competitive inhibitor; HET: TOL; 1.601A {Thermotoga maritima (strain ATCC 43589 / MSB8 / DSM 3109 / JCM 10099)}
+Probab=19.89  E-value=1e+02  Score=12.23  Aligned_cols=5  Identities=20%  Similarity=0.321  Sum_probs=0.0  Template_Neff=10.100
+
+Q GVNYFL            1 GVNYF    5 (6)
+Q Consensus         1 gvnyf    5 (6)
+                      |+|+|
+T Consensus        49 Gi~~~   53 (275)
+T 6KIK_A           49 GYTHI   53 (275)
+T ss_dssp             TCCEE
+T ss_pred             CCCEE
+
+
+No 10
+>5C7H_A Aldo-keto reductase (E.C.1.1.1.-); aldo-keto reductase, AKR, NADPH, NYSGRC; HET: NDP; 1.3A {Rhizobium meliloti (strain 1021)}
+Probab=19.70  E-value=1e+02  Score=12.57  Aligned_cols=5  Identities=20%  Similarity=0.647  Sum_probs=0.0  Template_Neff=9.500
+
+Q GVNYFL            1 GVNYF    5 (6)
+Q Consensus         1 gvnyf    5 (6)
+                      |+|+|
+T Consensus        47 G~~~~   51 (281)
+T 5C7H_A           47 GMTLI   51 (281)
+T ss_dssp             TCCEE
+T ss_pred             CCCEE
+
+

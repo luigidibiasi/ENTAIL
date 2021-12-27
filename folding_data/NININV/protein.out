@@ -1,0 +1,149 @@
+Query         NININV
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 01:07:44 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NININV/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NININV/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 1IRL_A INTERLEUKIN-2; CYTOKINE  11.5 2.4E+02  0.0026   13.2   0.0    6    1-6      88-93  (133)
+  2 5LSI_E Kinetochore-associated   11.3 2.4E+02  0.0027   11.8   0.0    5    1-5      64-68  (76)
+  3 3TY2_A 5'-nucleotidase surE (E  11.0 2.5E+02  0.0028   12.5   0.0    5    2-6     168-172 (261)
+  4 2V4N_A MULTIFUNCTIONAL PROTEIN  10.6 2.6E+02  0.0029   12.4   0.0    5    2-6     157-161 (254)
+  5 5KSR_D 5'-nucleotidase SurE (E  10.3 2.8E+02  0.0031   12.4   0.0    5    2-6     163-167 (270)
+  6 5LSK_N Protein MIS12 homolog,   10.1 2.8E+02  0.0031   12.0   0.0    5    1-5      87-91  (206)
+  7 4ZG5_D 5'-nucleotidase SurE (E   9.9 2.9E+02  0.0032   12.4   0.0    5    2-6     163-167 (263)
+  8 1J9J_B STATIONARY PHASE SURVIV   9.8 2.9E+02  0.0033   12.3   0.0    5    2-6     161-165 (247)
+  9 1J9K_B STATIONARY PHASE SURVIV   9.8 2.9E+02  0.0033   12.3   0.0    5    2-6     161-165 (247)
+ 10 4F87_C PlyCB; Lysin, bacteriop   9.5 3.1E+02  0.0034   11.9   0.0    5    2-6       4-8   (72)
+
+No 1
+>1IRL_A INTERLEUKIN-2; CYTOKINE; NMR {Homo sapiens} SCOP: a.26.1.2
+Probab=11.53  E-value=2.4e+02  Score=13.18  Aligned_cols=6  Identities=67%  Similarity=0.850  Sum_probs=0.0  Template_Neff=2.600
+
+Q NININV            1 NININV    6 (6)
+Q Consensus         1 nininv    6 (6)
+                      |||+.|
+T Consensus        88 NInvtv   93 (133)
+T 1IRL_A           88 NINVIV   93 (133)
+T ss_dssp             HHHHHH
+T ss_pred             ceeeEE
+
+
+No 2
+>5LSI_E Kinetochore-associated protein DSN1 homolog, Kinetochore-associated; ALPHA-HELICAL, cell cycle; 2.002A {Homo sapiens}
+Probab=11.32  E-value=2.4e+02  Score=11.85  Aligned_cols=5  Identities=80%  Similarity=1.099  Sum_probs=0.0  Template_Neff=3.500
+
+Q NININV            1 NININ    5 (6)
+Q Consensus         1 ninin    5 (6)
+                      ||.||
+T Consensus        64 NV~in   68 (76)
+T 5LSI_E           64 NISIN   68 (76)
+T ss_dssp             TEEET
+T ss_pred             cceeC
+
+
+No 3
+>3TY2_A 5'-nucleotidase surE (E.C.3.1.3.5); survival protein, phosphatase, Hydrolase; HET: MSE; 1.885A {Coxiella burnetii}
+Probab=10.95  E-value=2.5e+02  Score=12.46  Aligned_cols=5  Identities=80%  Similarity=1.185  Sum_probs=0.0  Template_Neff=7.300
+
+Q NININV            2 ININV    6 (6)
+Q Consensus         2 ininv    6 (6)
+                      +|||+
+T Consensus       168 lNVN~  172 (261)
+T 3TY2_A          168 LNINV  172 (261)
+T ss_dssp             EEEEE
+T ss_pred             EEEec
+
+
+No 4
+>2V4N_A MULTIFUNCTIONAL PROTEIN SUR E (E.C.3.1.3.5; HYDROLASE, SUR E, SURVIVAL PROTEIN; 1.7A {SALMONELLA TYPHIMURIUM}
+Probab=10.63  E-value=2.6e+02  Score=12.40  Aligned_cols=5  Identities=60%  Similarity=1.125  Sum_probs=0.0  Template_Neff=7.200
+
+Q NININV            2 ININV    6 (6)
+Q Consensus         2 ininv    6 (6)
+                      +|||+
+T Consensus       157 lNVN~  161 (254)
+T 2V4N_A          157 LNVNV  161 (254)
+T ss_dssp             EEEEE
+T ss_pred             EEEec
+
+
+No 5
+>5KSR_D 5'-nucleotidase SurE (E.C.3.1.3.5); Stationary phase survival protein E; 1.96A {Xylella fastidiosa (strain 9a5c)}
+Probab=10.28  E-value=2.8e+02  Score=12.40  Aligned_cols=5  Identities=60%  Similarity=1.125  Sum_probs=0.0  Template_Neff=7.300
+
+Q NININV            2 ININV    6 (6)
+Q Consensus         2 ininv    6 (6)
+                      +|||+
+T Consensus       163 lNVN~  167 (270)
+T 5KSR_D          163 LNVNV  167 (270)
+T ss_dssp             EEEEE
+T ss_pred             EEEec
+
+
+No 6
+>5LSK_N Protein MIS12 homolog, Polyamine-modulated factor; ALPHA-HELICAL, cell cycle; 3.502A {Homo sapiens}
+Probab=10.12  E-value=2.8e+02  Score=12.03  Aligned_cols=5  Identities=80%  Similarity=1.099  Sum_probs=0.0  Template_Neff=7.000
+
+Q NININV            1 NININ    5 (6)
+Q Consensus         1 ninin    5 (6)
+                      ||.||
+T Consensus        87 Nl~VN   91 (206)
+T 5LSK_N           87 NISIN   91 (206)
+T ss_pred             CEEEC
+
+
+No 7
+>4ZG5_D 5'-nucleotidase SurE (E.C.3.1.3.5 ); Hydrolase; 1.9A {Brucella abortus S19}
+Probab=9.93  E-value=2.9e+02  Score=12.39  Aligned_cols=5  Identities=40%  Similarity=0.886  Sum_probs=0.0  Template_Neff=7.100
+
+Q NININV            2 ININV    6 (6)
+Q Consensus         2 ininv    6 (6)
+                      +|||+
+T Consensus       163 lNVN~  167 (263)
+T 4ZG5_D          163 LNLNF  167 (263)
+T ss_dssp             EEEEE
+T ss_pred             EEEec
+
+
+No 8
+>1J9J_B STATIONARY PHASE SURVIVAL PROTEIN; THERMOTOGA MARITIMA, surE protein, UNKNOWN; 1.9A {Thermotoga maritima} SCOP: c.106.1.1
+Probab=9.82  E-value=2.9e+02  Score=12.26  Aligned_cols=5  Identities=80%  Similarity=1.185  Sum_probs=0.0  Template_Neff=7.100
+
+Q NININV            2 ININV    6 (6)
+Q Consensus         2 ininv    6 (6)
+                      +|||+
+T Consensus       161 lNVN~  165 (247)
+T 1J9J_B          161 LNINV  165 (247)
+T ss_dssp             EEEEE
+T ss_pred             EEEec
+
+
+No 9
+>1J9K_B STATIONARY PHASE SURVIVAL PROTEIN, 4-(2-HYDROXYETHYL)-1-PIPERAZINE; Tungstate complex, surE protein, UNKNOWN; HET: EPE, WO4; 2.1A {Thermotoga maritima} SCOP: c.106.1.1
+Probab=9.82  E-value=2.9e+02  Score=12.26  Aligned_cols=5  Identities=80%  Similarity=1.185  Sum_probs=0.0  Template_Neff=7.100
+
+Q NININV            2 ININV    6 (6)
+Q Consensus         2 ininv    6 (6)
+                      +|||+
+T Consensus       161 lNVN~  165 (247)
+T 1J9K_B          161 LNINV  165 (247)
+T ss_dssp             EEEEE
+T ss_pred             EEEec
+
+
+No 10
+>4F87_C PlyCB; Lysin, bacteriophage, ANTIMICROBIAL PROTEIN, VIRAL; 1.4A {Streptococcus phage C1}
+Probab=9.50  E-value=3.1e+02  Score=11.87  Aligned_cols=5  Identities=80%  Similarity=1.205  Sum_probs=0.0  Template_Neff=1.000
+
+Q NININV            2 ININV    6 (6)
+Q Consensus         2 ininv    6 (6)
+                      ||+||
+T Consensus         4 invnv    8 (72)
+T 4F87_C            4 INVNV    8 (72)
+T ss_dssp             -----
+T ss_pred             eeeee
+
+

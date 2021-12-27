@@ -1,0 +1,149 @@
+Query         LKTVYV
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 19:01:39 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LKTVYV/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LKTVYV/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2N8X_A LPS-assembly lipoprotei   7.2 4.5E+02   0.005   10.3   0.0    6    1-6      17-22  (166)
+  2 3BF2_A Putative lipoprotein; L   7.1 4.5E+02   0.005    9.9   0.0    6    1-6      17-22  (152)
+  3 2JXP_A Putative lipoprotein B;   7.1 4.6E+02   0.005   10.0   0.0    6    1-6      14-19  (155)
+  4 2N6D_A N-acetylglucosamine-1-p   6.8 4.8E+02  0.0053   10.0   0.0    6    1-6       4-9   (172)
+  5 3MD3_A Nuclear and cytoplasmic   6.5 5.1E+02  0.0057    8.4   0.0    5    2-6       1-5   (166)
+  6 1GJJ_A LAP2; INNER NUCLEAR MEM   5.7 6.1E+02  0.0067   11.7   0.0    5    2-6      34-38  (168)
+  7 2DHX_A poly (ADP-ribose) polym   5.3 6.6E+02  0.0073    7.6   0.0    5    2-6      87-91  (104)
+  8 4N4R_D LPS-assembly protein Lp   5.3 6.7E+02  0.0074   10.4   0.0    6    1-6      33-38  (196)
+  9 5IVA_B LPS-assembly protein Lp   4.9 7.3E+02  0.0081   10.3   0.0    6    1-6      19-24  (192)
+ 10 6C3R_B Cricket paralysis virus   4.8 7.5E+02  0.0083   11.8   0.0    6    1-6      25-30  (141)
+
+No 1
+>2N8X_A LPS-assembly lipoprotein LptE; LPS biosynthesis, LIPID BINDING PROTEIN; NMR {Pseudomonas aeruginosa PAO1}
+Probab=7.17  E-value=4.5e+02  Score=10.26  Aligned_cols=6  Identities=50%  Similarity=0.600  Sum_probs=0.0  Template_Neff=8.800
+
+Q LKTVYV            1 LKTVYV    6 (6)
+Q Consensus         1 lktvyv    6 (6)
+                      +++|||
+T Consensus        17 ~~~I~I   22 (166)
+T 2N8X_A           17 LKEIDV   22 (166)
+T ss_dssp             CSEEEE
+T ss_pred             CcEEEE
+
+
+No 2
+>3BF2_A Putative lipoprotein; Lipoprotein, NESG, MR36a, Structural Genomics; 2.6A {Neisseria meningitidis FAM18}
+Probab=7.15  E-value=4.5e+02  Score=9.87  Aligned_cols=6  Identities=0%  Similarity=0.141  Sum_probs=0.0  Template_Neff=9.300
+
+Q LKTVYV            1 LKTVYV    6 (6)
+Q Consensus         1 lktvyv    6 (6)
+                      +++|||
+T Consensus        17 ~~~i~i   22 (152)
+T 3BF2_A           17 YRSWHI   22 (152)
+T ss_dssp             SCEEEE
+T ss_pred             ceeEEE
+
+
+No 3
+>2JXP_A Putative lipoprotein B; Uncharacterized Lipoprotein B, Northeast Structural; NMR {Nitrosomonas europaea ATCC 19718}
+Probab=7.08  E-value=4.6e+02  Score=9.98  Aligned_cols=6  Identities=33%  Similarity=0.960  Sum_probs=0.0  Template_Neff=9.100
+
+Q LKTVYV            1 LKTVYV    6 (6)
+Q Consensus         1 lktvyv    6 (6)
+                      +++|||
+T Consensus        14 ~~~i~i   19 (155)
+T 2JXP_A           14 FERVYI   19 (155)
+T ss_dssp             CCEEEE
+T ss_pred             CeeEEE
+
+
+No 4
+>2N6D_A N-acetylglucosamine-1-phosphotransferase subunits alpha/beta (E.C.2.7.8.17); PSI-Biology, N-acetylglucosamine-1-phosphate transferase, transferase; NMR {Homo sapiens}
+Probab=6.82  E-value=4.8e+02  Score=10.01  Aligned_cols=6  Identities=17%  Similarity=-0.247  Sum_probs=0.0  Template_Neff=9.300
+
+Q LKTVYV            1 LKTVYV    6 (6)
+Q Consensus         1 lktvyv    6 (6)
+                      .+||||
+T Consensus         4 ~~~l~V    9 (172)
+T 2N6D_A            4 PMLVLD    9 (172)
+T ss_dssp             CEEEEC
+T ss_pred             CEEEEc
+
+
+No 5
+>3MD3_A Nuclear and cytoplasmic polyadenylated RNA-binding; RRM, RNP, RBD, poly(U) binding; HET: GOL, SO4; 2.7A {Saccharomyces cerevisiae}
+Probab=6.46  E-value=5.1e+02  Score=8.39  Aligned_cols=5  Identities=40%  Similarity=1.045  Sum_probs=0.0  Template_Neff=12.400
+
+Q LKTVYV            2 KTVYV    6 (6)
+Q Consensus         2 ktvyv    6 (6)
+                      ++|||
+T Consensus         1 r~v~i    5 (166)
+T 3MD3_A            1 RVLYV    5 (166)
+T ss_pred             CeEEe
+
+
+No 6
+>1GJJ_A LAP2; INNER NUCLEAR MEMBRANE PROTEIN, LAMIN-ASSOCIATED; NMR {Homo sapiens} SCOP: a.140.1.1
+Probab=5.68  E-value=6.1e+02  Score=11.74  Aligned_cols=5  Identities=80%  Similarity=1.185  Sum_probs=0.0  Template_Neff=4.500
+
+Q LKTVYV            2 KTVYV    6 (6)
+Q Consensus         2 ktvyv    6 (6)
+                      |-|||
+T Consensus        34 KdvYV   38 (168)
+T 1GJJ_A           34 KDVYV   38 (168)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 7
+>2DHX_A poly (ADP-ribose) polymerase family, member; poly (ADP-ribose) polymerase family, RRM; NMR {Homo sapiens}
+Probab=5.30  E-value=6.6e+02  Score=7.63  Aligned_cols=5  Identities=0%  Similarity=0.202  Sum_probs=0.0  Template_Neff=11.800
+
+Q LKTVYV            2 KTVYV    6 (6)
+Q Consensus         2 ktvyv    6 (6)
+                      +++||
+T Consensus        87 ~~l~v   91 (104)
+T 2DHX_A           87 ARLLL   91 (104)
+T ss_dssp             CCCCC
+T ss_pred             ceEEE
+
+
+No 8
+>4N4R_D LPS-assembly protein LptD, LPS-assembly lipoprotein; Beta barrel, Translocase, Lipopolysaccharide transport; HET: CAC, MSE; 2.8A {Salmonella enterica subsp. enterica serovar Typhimurium}
+Probab=5.27  E-value=6.7e+02  Score=10.39  Aligned_cols=6  Identities=33%  Similarity=0.622  Sum_probs=0.0  Template_Neff=8.100
+
+Q LKTVYV            1 LKTVYV    6 (6)
+Q Consensus         1 lktvyv    6 (6)
+                      +++|||
+T Consensus        33 l~~I~I   38 (196)
+T 4N4R_D           33 MKTMIL   38 (196)
+T ss_dssp             GSEEEE
+T ss_pred             cceEEE
+
+
+No 9
+>5IVA_B LPS-assembly protein LptD, LPS-assembly lipoprotein; LptD, LptE, lipopolysaccharide, Transporter, TRANSPORT; HET: C8E; 2.988A {Pseudomonas aeruginosa}
+Probab=4.90  E-value=7.3e+02  Score=10.28  Aligned_cols=6  Identities=50%  Similarity=0.600  Sum_probs=0.0  Template_Neff=8.000
+
+Q LKTVYV            1 LKTVYV    6 (6)
+Q Consensus         1 lktvyv    6 (6)
+                      +++|||
+T Consensus        19 l~~I~I   24 (192)
+T 5IVA_B           19 LKEIDV   24 (192)
+T ss_dssp             CCEEEE
+T ss_pred             ccEEEE
+
+
+No 10
+>6C3R_B Cricket paralysis virus 1A protein; RNAi inhibitor, VIRAL PROTEIN; 2.6A {Cricket paralysis virus}
+Probab=4.78  E-value=7.5e+02  Score=11.79  Aligned_cols=6  Identities=50%  Similarity=0.722  Sum_probs=0.0  Template_Neff=2.300
+
+Q LKTVYV            1 LKTVYV    6 (6)
+Q Consensus         1 lktvyv    6 (6)
+                      ++++||
+T Consensus        25 ~~~~YV   30 (141)
+T 6C3R_B           25 FCTFYV   30 (141)
+T ss_dssp             SEEEEE
+T ss_pred             eeEEee
+
+

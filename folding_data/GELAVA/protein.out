@@ -1,0 +1,149 @@
+Query         GELAVA
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 23:04:28 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GELAVA/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GELAVA/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 1NJH_A protein yojF; YojF, Str   7.3 4.4E+02  0.0048   12.0   0.0    6    1-6     104-109 (119)
+  2 5OMD_A DNA damage checkpoint p   7.0 4.6E+02  0.0051   10.1   0.0    5    1-5       3-7   (66)
+  3 4ILU_A RNA polymerase-binding    6.8 4.8E+02  0.0053   10.6   0.0    6    1-6     137-142 (170)
+  4 5MPD_W 26S proteasome regulato   6.8 4.8E+02  0.0054   10.8   0.0    5    2-6     227-231 (268)
+  5 4JJA_A hypothetical protein; P   6.4 5.2E+02  0.0057   12.6   0.0    4    1-4     177-180 (371)
+  6 6G68_R CC-Type2-IL-Sg; de novo   5.8 5.9E+02  0.0065    9.7   0.0    4    1-4       2-5   (32)
+  7 6G69_F CC-Type2-IL-Sg-L17E; de   5.7   6E+02  0.0066    9.7   0.0    4    1-4       2-5   (32)
+  8 2OST_A protein-DNA complex, re   5.6 6.1E+02  0.0068    9.9   0.0    6    1-6      11-16  (151)
+  9 2OST_D protein-DNA complex, re   5.6 6.1E+02  0.0068    9.9   0.0    6    1-6      11-16  (151)
+ 10 4K05_B Conserved hypothetical    5.5 6.4E+02  0.0071   12.6   0.0    4    1-4     187-190 (399)
+
+No 1
+>1NJH_A protein yojF; YojF, Structural Genomics, PSI, Protein; 1.7A {Bacillus subtilis} SCOP: b.128.1.1
+Probab=7.34  E-value=4.4e+02  Score=11.98  Aligned_cols=6  Identities=50%  Similarity=1.021  Sum_probs=0.0  Template_Neff=3.300
+
+Q GELAVA            1 GELAVA    6 (6)
+Q Consensus         1 gelava    6 (6)
+                      |.|+||
+T Consensus       104 GrLava  109 (119)
+T 1NJH_A          104 GKLAIS  109 (119)
+T ss_dssp             TTEEEE
+T ss_pred             CCEEEE
+
+
+No 2
+>5OMD_A DNA damage checkpoint protein LCD1; coiled-coil, dimerization, PROTEIN BINDING; 2.1A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=7.00  E-value=4.6e+02  Score=10.10  Aligned_cols=5  Identities=40%  Similarity=0.780  Sum_probs=0.0  Template_Neff=5.400
+
+Q GELAVA            1 GELAV    5 (6)
+Q Consensus         1 gelav    5 (6)
+                      ||.++
+T Consensus         3 GEisI    7 (66)
+T 5OMD_A            3 GEASM    7 (66)
+T ss_dssp             HHHHH
+T ss_pred             cHHHH
+
+
+No 3
+>4ILU_A RNA polymerase-binding transcription factor CarD; Tudor like domain, five helical; HET: SO4; 2.3A {Mycobacterium tuberculosis}
+Probab=6.81  E-value=4.8e+02  Score=10.63  Aligned_cols=6  Identities=83%  Similarity=1.154  Sum_probs=0.0  Template_Neff=7.900
+
+Q GELAVA            1 GELAVA    6 (6)
+Q Consensus         1 gelava    6 (6)
+                      +|+|++
+T Consensus       137 ~Ela~~  142 (170)
+T 4ILU_A          137 GELALA  142 (170)
+T ss_dssp             HHHSCC
+T ss_pred             HHHHHH
+
+
+No 4
+>5MPD_W 26S proteasome regulatory subunit RPN10; Macromolecular complex, 26S proteasome, Protease; 4.1A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=6.76  E-value=4.8e+02  Score=10.80  Aligned_cols=5  Identities=80%  Similarity=0.933  Sum_probs=0.0  Template_Neff=9.200
+
+Q GELAVA            2 ELAVA    6 (6)
+Q Consensus         2 elava    6 (6)
+                      |||.|
+T Consensus       227 ela~a  231 (268)
+T 5MPD_W          227 ELAMA  231 (268)
+T ss_pred             HHHHH
+
+
+No 5
+>4JJA_A hypothetical protein; PF07075 family protein, DUF1343, Structural; HET: GOL; 1.3A {Bacteroides fragilis}
+Probab=6.43  E-value=5.2e+02  Score=12.55  Aligned_cols=4  Identities=100%  Similarity=1.381  Sum_probs=0.0  Template_Neff=6.400
+
+Q GELAVA            1 GELA    4 (6)
+Q Consensus         1 gela    4 (6)
+                      ||||
+T Consensus       177 GELA  180 (371)
+T 4JJA_A          177 GELA  180 (371)
+T ss_dssp             HHHH
+T ss_pred             HHHH
+
+
+No 6
+>6G68_R CC-Type2-IL-Sg; de novo, coiled coil, alpha-helical; HET: SO4, ACE; 1.95A {N/A}
+Probab=5.82  E-value=5.9e+02  Score=9.67  Aligned_cols=4  Identities=100%  Similarity=1.381  Sum_probs=0.0  Template_Neff=1.000
+
+Q GELAVA            1 GELA    4 (6)
+Q Consensus         1 gela    4 (6)
+                      ||||
+T Consensus         2 gela    5 (32)
+T 6G68_R            2 GELA    5 (32)
+T ss_dssp             CHHH
+T ss_pred             CHHH
+
+
+No 7
+>6G69_F CC-Type2-IL-Sg-L17E; de novo, coiled coil, alpha-helical; HET: MPD, ACE; 2.2A {N/A}
+Probab=5.75  E-value=6e+02  Score=9.66  Aligned_cols=4  Identities=100%  Similarity=1.381  Sum_probs=0.0  Template_Neff=1.000
+
+Q GELAVA            1 GELA    4 (6)
+Q Consensus         1 gela    4 (6)
+                      ||||
+T Consensus         2 gela    5 (32)
+T 6G69_F            2 GELA    5 (32)
+T ss_dssp             CHHH
+T ss_pred             CHHH
+
+
+No 8
+>2OST_A protein-DNA complex, restriction enzyme fold; 3.1A {Synechocystis sp.}
+Probab=5.63  E-value=6.1e+02  Score=9.91  Aligned_cols=6  Identities=17%  Similarity=0.130  Sum_probs=0.0  Template_Neff=8.400
+
+Q GELAVA            1 GELAVA    6 (6)
+Q Consensus         1 gelava    6 (6)
+                      ||..|+
+T Consensus        11 gE~~v~   16 (151)
+T 2OST_A           11 AQQAAI   16 (151)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 9
+>2OST_D protein-DNA complex, restriction enzyme fold; 3.1A {Synechocystis sp.}
+Probab=5.63  E-value=6.1e+02  Score=9.91  Aligned_cols=6  Identities=17%  Similarity=0.130  Sum_probs=0.0  Template_Neff=8.400
+
+Q GELAVA            1 GELAVA    6 (6)
+Q Consensus         1 gelava    6 (6)
+                      ||..|+
+T Consensus        11 gE~~v~   16 (151)
+T 2OST_D           11 AQQAAI   16 (151)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 10
+>4K05_B Conserved hypothetical exported protein; PF07075 family protein, DUF1343, Structural; HET: 1PE, MSE; 1.65A {Bacteroides fragilis}
+Probab=5.45  E-value=6.4e+02  Score=12.57  Aligned_cols=4  Identities=100%  Similarity=1.381  Sum_probs=0.0  Template_Neff=6.000
+
+Q GELAVA            1 GELA    4 (6)
+Q Consensus         1 gela    4 (6)
+                      ||||
+T Consensus       187 GELA  190 (399)
+T 4K05_B          187 GELA  190 (399)
+T ss_dssp             HHHH
+T ss_pred             HHHH
+
+

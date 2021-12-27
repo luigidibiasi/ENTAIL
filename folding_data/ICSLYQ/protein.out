@@ -1,0 +1,150 @@
+Query         ICSLYQ
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 07:33:42 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/ICSLYQ/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/ICSLYQ/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 7O6L_B Enhancer of rudimentary  18.1 1.2E+02  0.0013   12.9   0.0    6    1-6      39-44  (103)
+  2 7O6N_B ERH-2 PID-3 complex piR  18.1 1.2E+02  0.0013   12.9   0.0    6    1-6      39-44  (103)
+  3 1HLQ_A HIGH-POTENTIAL IRON-SUL  17.9 1.2E+02  0.0013   11.8   0.0    5    2-6      41-45  (75)
+  4 2YP1_C AROMATIC PEROXYGENASE (  17.5 1.3E+02  0.0014   13.9   0.0    6    1-6     274-279 (325)
+  5 1HPI_A HIGH-POTENTIAL IRON-SUL  16.9 1.3E+02  0.0015   11.6   0.0    5    2-6      37-41  (71)
+  6 7CNC_A Enhancer of rudimentary  16.5 1.4E+02  0.0015   13.0   0.0    5    1-5      40-44  (112)
+  7 5OLT_A Cellulose biosynthesis   15.9 1.5E+02  0.0016   15.4   0.0    4    1-4      66-69  (383)
+  8 1WWQ_A Enhancer of rudimentary  15.6 1.5E+02  0.0017   12.8   0.0    5    1-5      39-43  (111)
+  9 6PCZ_B Cellulose biosynthesis   15.5 1.5E+02  0.0017   15.5   0.0    4    1-4     100-103 (417)
+ 10 4NOO_B VgrG protein, Putative   15.3 1.6E+02  0.0017   13.0   0.0    4    2-5      58-61  (98)
+
+No 1
+>7O6L_B Enhancer of rudimentary ERH Homodimer; 1.5A {Caenorhabditis elegans}
+Probab=18.11  E-value=1.2e+02  Score=12.88  Aligned_cols=6  Identities=17%  Similarity=1.331  Sum_probs=0.0  Template_Neff=4.600
+
+Q ICSLYQ            1 ICSLYQ    6 (6)
+Q Consensus         1 icslyq    6 (6)
+                      ||.+|.
+T Consensus        39 Ic~~YE   44 (103)
+T 7O6L_B           39 LCKMFE   44 (103)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 2
+>7O6N_B ERH-2 PID-3 complex piRNA processing; 2.17A {Caenorhabditis elegans}
+Probab=18.11  E-value=1.2e+02  Score=12.88  Aligned_cols=6  Identities=17%  Similarity=1.331  Sum_probs=0.0  Template_Neff=4.600
+
+Q ICSLYQ            1 ICSLYQ    6 (6)
+Q Consensus         1 icslyq    6 (6)
+                      ||.+|.
+T Consensus        39 Ic~~YE   44 (103)
+T 7O6N_B           39 LCKMFE   44 (103)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 3
+>1HLQ_A HIGH-POTENTIAL IRON-SULFUR PROTEIN; Iron sulfur cluster, electron transport; HET: SO4, SF4; 1.45A {Rhodoferax fermentans} SCOP: g.35.1.1
+Probab=17.93  E-value=1.2e+02  Score=11.82  Aligned_cols=5  Identities=80%  Similarity=1.803  Sum_probs=0.0  Template_Neff=5.600
+
+Q ICSLYQ            2 CSLYQ    6 (6)
+Q Consensus         2 cslyq    6 (6)
+                      |.+||
+T Consensus        41 C~fy~   45 (75)
+T 1HLQ_A           41 CALYQ   45 (75)
+T ss_dssp             CTTCC
+T ss_pred             Chhhc
+
+
+No 4
+>2YP1_C AROMATIC PEROXYGENASE (E.C.1.11.2.1); OXIDOREDUCTASE, PEROXIDASE/PEROXYGENASE, UNSPECIFIC/AROMATIC PEROXYGENASE, HEME; HET: ACT, MAN, HEM, BMA, NAG, SO4; 2.31A {AGROCYBE AEGERITA}
+Probab=17.54  E-value=1.3e+02  Score=13.94  Aligned_cols=6  Identities=33%  Similarity=1.060  Sum_probs=0.0  Template_Neff=6.900
+
+Q ICSLYQ            1 ICSLYQ    6 (6)
+Q Consensus         1 icslyq    6 (6)
+                      +|.+||
+T Consensus       274 ~C~ly~  279 (325)
+T 2YP1_C          274 PCLMYE  279 (325)
+T ss_dssp             HHHHHH
+T ss_pred             hHHHHH
+
+
+No 5
+>1HPI_A HIGH-POTENTIAL IRON-SULFUR PROTEIN FROM ECTOTHIORHODOSPIRA; ELECTRON TRANSFER(IRON-SULFUR PROTEIN); 1.8A {Ectothiorhodospira shaposhnikovii} SCOP: g.35.1.1
+Probab=16.91  E-value=1.3e+02  Score=11.65  Aligned_cols=5  Identities=60%  Similarity=1.411  Sum_probs=0.0  Template_Neff=5.500
+
+Q ICSLYQ            2 CSLYQ    6 (6)
+Q Consensus         2 cslyq    6 (6)
+                      |.+||
+T Consensus        37 C~~f~   41 (71)
+T 1HPI_A           37 CLLYT   41 (71)
+T ss_dssp             BTTBS
+T ss_pred             Ccccc
+
+
+No 6
+>7CNC_A Enhancer of rudimentary homolog, Microprocessor; Protein-protein interaction, PROTEIN BINDING; 1.6A {Homo sapiens}
+Probab=16.50  E-value=1.4e+02  Score=12.98  Aligned_cols=5  Identities=40%  Similarity=1.683  Sum_probs=0.0  Template_Neff=4.300
+
+Q ICSLYQ            1 ICSLY    5 (6)
+Q Consensus         1 icsly    5 (6)
+                      ||.+|
+T Consensus        40 IC~~Y   44 (112)
+T 7CNC_A           40 VCKMY   44 (112)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 7
+>5OLT_A Cellulose biosynthesis protein BcsG; Cellulose biosynthesis, biofilm, metalloenzyme, alkaline; HET: CIT; 1.45A {Salmonella typhimurium LT2}
+Probab=15.95  E-value=1.5e+02  Score=15.39  Aligned_cols=4  Identities=100%  Similarity=1.804  Sum_probs=0.0  Template_Neff=3.900
+
+Q ICSLYQ            1 ICSL    4 (6)
+Q Consensus         1 icsl    4 (6)
+                      ||||
+T Consensus        66 ICSL   69 (383)
+T 5OLT_A           66 ICSL   69 (383)
+T ss_dssp             ESSC
+T ss_pred             CCcc
+
+
+No 8
+>1WWQ_A Enhancer of rudimentary homolog; structural genomics, regulation of cell; NMR {Mus musculus} SCOP: d.330.1.1
+Probab=15.56  E-value=1.5e+02  Score=12.77  Aligned_cols=5  Identities=40%  Similarity=1.683  Sum_probs=0.0  Template_Neff=4.500
+
+Q ICSLYQ            1 ICSLY    5 (6)
+Q Consensus         1 icsly    5 (6)
+                      ||.+|
+T Consensus        39 IC~~Y   43 (111)
+T 1WWQ_A           39 VCKMY   43 (111)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 9
+>6PCZ_B Cellulose biosynthesis protein BcsG (E.C.2.7.-.-); Cellulose, Biofilm, Phosphoethanolamine, TRANSFERASE; HET: MSE; 1.44A {Escherichia coli (strain K12)}
+Probab=15.52  E-value=1.5e+02  Score=15.53  Aligned_cols=4  Identities=100%  Similarity=1.804  Sum_probs=0.0  Template_Neff=3.800
+
+Q ICSLYQ            1 ICSL    4 (6)
+Q Consensus         1 icsl    4 (6)
+                      ||||
+T Consensus       100 ICSL  103 (417)
+T 6PCZ_B          100 ICSL  103 (417)
+T ss_dssp             ESSC
+T ss_pred             Cccc
+
+
+No 10
+>4NOO_B VgrG protein, Putative uncharacterized protein; self-protection, chitosanase-fold, three-helical bundle, glycoside; HET: MSE; 2.3A {Vibrio cholerae O1 biovar El Tor}
+Probab=15.29  E-value=1.6e+02  Score=13.04  Aligned_cols=4  Identities=75%  Similarity=1.821  Sum_probs=0.0  Template_Neff=3.000
+
+Q ICSLYQ            2 CSLY    5 (6)
+Q Consensus         2 csly    5 (6)
+                      |+||
+T Consensus        58 CsLy   61 (98)
+T 4NOO_B           58 CMLY   61 (98)
+T ss_dssp             HGGG
+T ss_pred             ccee
+
+

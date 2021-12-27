@@ -1,0 +1,152 @@
+Query         NIQYQF
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 01:23:21 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NIQYQF/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NIQYQF/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5CHH_A AraC family transcripti  58.5     8.7 9.6E-05   15.5   0.0    6    1-6       5-10  (341)
+  2 4HHU_B OR280; Engineered Prote  29.7      51 0.00056   15.8   0.0    6    1-6      72-77  (170)
+  3 5JG9_B de novo design, hyper s  25.6      67 0.00074   13.0   0.0    6    1-6      29-34  (47)
+  4 2EX3_J DNA POLYMERASE: PROTEIN  16.3 1.4E+02  0.0016   14.9   0.0    6    1-6      36-41  (230)
+  5 4GIO_B Putative lipoprotein; L  15.2 1.6E+02  0.0017   11.9   0.0    6    1-6      51-56  (107)
+  6 3O0L_B Uncharacterized protein  14.4 1.7E+02  0.0019   11.7   0.0    6    1-6      55-60  (112)
+  7 3O0L_A Uncharacterized protein  13.5 1.9E+02  0.0021   11.6   0.0    6    1-6      55-60  (112)
+  8 6HIZ_DY Uncharacterized protei  11.9 2.2E+02  0.0025   13.8   0.0    4    2-5      98-101 (163)
+  9 1UPT_H ADP-RIBOSYLATION FACTOR  11.5 2.3E+02  0.0026   10.7   0.0    6    1-6      12-17  (60)
+ 10 1R4A_E ADP-ribosylation factor  11.0 2.5E+02  0.0028   10.4   0.0    6    1-6       9-14  (51)
+
+No 1
+>5CHH_A AraC family transcriptional regulator; Quorum-sensing, ATP-dependent protease, protein degradation; HET: MSE; 1.85A {Pseudomonas aeruginosa}
+Probab=58.49  E-value=8.7  Score=15.50  Aligned_cols=6  Identities=83%  Similarity=1.453  Sum_probs=4.0  Template_Neff=10.200
+
+Q NIQYQF            1 NIQYQF    6 (6)
+Q Consensus         1 niqyqf    6 (6)
+                      ||||.|
+T Consensus         5 ~~~~~~   10 (341)
+T 5CHH_A            5 NIQYDF   10 (341)
+T ss_dssp             CCCCCT
+T ss_pred             cccccc
+Confidence            678754
+
+
+No 2
+>4HHU_B OR280; Engineered Protein, PSI-Biology, Protein Structure; HET: PG4, AE4, MSE; 2.0A {synthetic construct}
+Probab=29.67  E-value=51  Score=15.84  Aligned_cols=6  Identities=67%  Similarity=1.171  Sum_probs=3.7  Template_Neff=1.000
+
+Q NIQYQF            1 NIQYQF    6 (6)
+Q Consensus         1 niqyqf    6 (6)
+                      |+|||.
+T Consensus        72 nvqyqi   77 (170)
+T 4HHU_B           72 NVQYQI   77 (170)
+T ss_dssp             EEEEEE
+T ss_pred             eEEEEE
+Confidence            567763
+
+
+No 3
+>5JG9_B de novo design, hyper stable; de novo design of hyper; 2.09A {synthetic construct}
+Probab=25.58  E-value=67  Score=12.96  Aligned_cols=6  Identities=67%  Similarity=0.938  Sum_probs=3.6  Template_Neff=1.000
+
+Q NIQYQF            1 NIQYQF    6 (6)
+Q Consensus         1 niqyqf    6 (6)
+                      |-|||.
+T Consensus        29 ncqyqi   34 (47)
+T 5JG9_B           29 NCQYQI   34 (47)
+T ss_dssp             TCEEEE
+T ss_pred             cceeEe
+Confidence            457763
+
+
+No 4
+>2EX3_J DNA POLYMERASE: PROTEIN PRIMER COMPLEX; HET: PB; 3.0A {Bacillus phage phi29} SCOP: a.263.1.1
+Probab=16.33  E-value=1.4e+02  Score=14.93  Aligned_cols=6  Identities=67%  Similarity=1.403  Sum_probs=3.5  Template_Neff=2.400
+
+Q NIQYQF            1 NIQYQF    6 (6)
+Q Consensus         1 niqyqf    6 (6)
+                      |.+|||
+T Consensus        36 N~~~QF   41 (230)
+T 2EX3_J           36 NMRYQF   41 (230)
+T ss_dssp             CTTSCE
+T ss_pred             Ccccee
+Confidence            456665
+
+
+No 5
+>4GIO_B Putative lipoprotein; LIPOPROTEIN, UNKNOWN FUNCTION; 1.9A {Campylobacter jejuni subsp. jejuni}
+Probab=15.16  E-value=1.6e+02  Score=11.87  Aligned_cols=6  Identities=17%  Similarity=0.711  Sum_probs=0.0  Template_Neff=6.300
+
+Q NIQYQF            1 NIQYQF    6 (6)
+Q Consensus         1 niqyqf    6 (6)
+                      +++|+|
+T Consensus        51 ~l~Yrf   56 (107)
+T 4GIO_B           51 DVIYKV   56 (107)
+T ss_dssp             EEEEEE
+T ss_pred             EEEEEE
+
+
+No 6
+>3O0L_B Uncharacterized protein; PFAM DUF1425 FAMILY MEMBER, STRUCTURAL; HET: MSE, EDO; 1.81A {Shewanella loihica}
+Probab=14.40  E-value=1.7e+02  Score=11.68  Aligned_cols=6  Identities=50%  Similarity=1.226  Sum_probs=0.0  Template_Neff=6.700
+
+Q NIQYQF            1 NIQYQF    6 (6)
+Q Consensus         1 niqyqf    6 (6)
+                      +++|+|
+T Consensus        55 ~l~YR~   60 (112)
+T 3O0L_B           55 RLQYKF   60 (112)
+T ss_dssp             EEEEEE
+T ss_pred             EEEEEE
+
+
+No 7
+>3O0L_A Uncharacterized protein; PFAM DUF1425 FAMILY MEMBER, STRUCTURAL; HET: EDO; 1.81A {Shewanella loihica}
+Probab=13.46  E-value=1.9e+02  Score=11.56  Aligned_cols=6  Identities=50%  Similarity=1.226  Sum_probs=0.0  Template_Neff=6.700
+
+Q NIQYQF            1 NIQYQF    6 (6)
+Q Consensus         1 niqyqf    6 (6)
+                      +++|+|
+T Consensus        55 ~l~Yrf   60 (112)
+T 3O0L_A           55 RLQYKF   60 (112)
+T ss_dssp             EEEEEE
+T ss_pred             EEEEEE
+
+
+No 8
+>6HIZ_DY Uncharacterized protein, uS3m, UNK/RNA Complex; mitoribosome, translation, Trypanosoma, small ribosomal; HET: GTP, SPD, UTP; 3.08A {Trypanosoma brucei brucei}
+Probab=11.91  E-value=2.2e+02  Score=13.76  Aligned_cols=4  Identities=100%  Similarity=1.431  Sum_probs=0.0  Template_Neff=1.700
+
+Q NIQYQF            2 IQYQ    5 (6)
+Q Consensus         2 iqyq    5 (6)
+                      ||||
+T Consensus        98 iqYQ  101 (163)
+T 6HIZ_DY          98 IQYQ  101 (163)
+T ss_pred             HHhH
+
+
+No 9
+>1UPT_H ADP-RIBOSYLATION FACTOR-LIKE PROTEIN 1, GOLGI; HYDROLASE/PROTEIN-BINDING, COMPLEX (GTPASE-GOLGIN), GOLGIN-245, GRIP; HET: GTP, MSE; 1.7A {HOMO SAPIENS} SCOP: a.193.1.1
+Probab=11.53  E-value=2.3e+02  Score=10.67  Aligned_cols=6  Identities=0%  Similarity=0.789  Sum_probs=0.0  Template_Neff=5.500
+
+Q NIQYQF            1 NIQYQF    6 (6)
+Q Consensus         1 niqyqf    6 (6)
+                      ||-+||
+T Consensus        12 NV~~kf   17 (60)
+T 1UPT_H           12 KVLFEY   17 (60)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 10
+>1R4A_E ADP-ribosylation factor-like protein 1/Golgi autoantigen; Ras-like G Protein structure, Three-helix; HET: GNP; 2.3A {Rattus norvegicus} SCOP: a.193.1.1
+Probab=10.97  E-value=2.5e+02  Score=10.37  Aligned_cols=6  Identities=0%  Similarity=0.789  Sum_probs=0.0  Template_Neff=5.300
+
+Q NIQYQF            1 NIQYQF    6 (6)
+Q Consensus         1 niqyqf    6 (6)
+                      ||-+||
+T Consensus         9 NV~~kf   14 (51)
+T 1R4A_E            9 KVLFEY   14 (51)
+T ss_pred             HHHHHH
+
+

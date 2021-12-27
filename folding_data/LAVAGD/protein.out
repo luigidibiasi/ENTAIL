@@ -1,0 +1,151 @@
+Query         LAVAGD
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 17:24:48 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LAVAGD/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LAVAGD/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3QBR_B SJCHGC06286 protein, Bc  38.4      30 0.00033   12.2   0.0    6    1-6      16-21  (34)
+  2 5FMK_B BCL-XL, BCL-2 HOMOLOGOU  36.2      34 0.00037   12.1   0.0    6    1-6      16-21  (34)
+  3 5UA4_B 5-HL, BH3-interacting d  15.3 1.6E+02  0.0017   10.5   0.0    6    1-6      15-20  (34)
+  4 4BD2_C APOPTOSIS REGULATOR BAX  15.3 1.6E+02  0.0017   10.5   0.0    6    1-6      15-20  (34)
+  5 3IFN_P 12A11 FAB antibody heav  14.7 1.7E+02  0.0018    9.8   0.0    5    1-5      34-38  (40)
+  6 2JC5_A EXODEOXYRIBONUCLEASE (E  14.6 1.7E+02  0.0018   10.2   0.0    6    1-6     144-149 (259)
+  7 1BIX_A AP ENDONUCLEASE 1; DNA   14.4 1.7E+02  0.0019   10.5   0.0    6    1-6     174-179 (287)
+  8 1VYB_A ORF2 CONTAINS A REVERSE  14.0 1.8E+02   0.002   10.0   0.0    6    1-6     140-145 (238)
+  9 5EWT_A Exodeoxyribonuclease II  14.0 1.8E+02   0.002   10.1   0.0    6    1-6     139-144 (247)
+ 10 5AJJ_B HOMOLOG OF VACCINIA VIR  13.7 1.8E+02   0.002   10.4   0.0    6    1-6      12-17  (34)
+
+No 1
+>3QBR_B SJCHGC06286 protein, Bcl-2 homologous antagonist/killer; helical bundle, Bcl-2-like fold, APOPTOSIS; HET: NHE; 2.601A {Schistosoma japonicum}
+Probab=38.37  E-value=30  Score=12.25  Aligned_cols=6  Identities=67%  Similarity=1.110  Sum_probs=3.4  Template_Neff=4.600
+
+Q LAVAGD            1 LAVAGD    6 (6)
+Q Consensus         1 lavagd    6 (6)
+                      ||+.||
+T Consensus        16 La~IGD   21 (34)
+T 3QBR_B           16 LAIIGD   21 (34)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHhH
+Confidence            456665
+
+
+No 2
+>5FMK_B BCL-XL, BCL-2 HOMOLOGOUS ANTAGONIST/KILLER; BCL-XL, BAK, BH3 DOMAIN, APOPTOSIS; HET: GOL; 1.731A {HOMO SAPIENS}
+Probab=36.19  E-value=34  Score=12.14  Aligned_cols=6  Identities=67%  Similarity=1.110  Sum_probs=3.3  Template_Neff=4.500
+
+Q LAVAGD            1 LAVAGD    6 (6)
+Q Consensus         1 lavagd    6 (6)
+                      ||+.||
+T Consensus        16 La~IGD   21 (34)
+T 5FMK_B           16 LAIIGD   21 (34)
+T ss_pred             HHHHhH
+Confidence            455565
+
+
+No 3
+>5UA4_B 5-HL, BH3-interacting domain death agonist; Apoptosis, Bcl-2; 2.6A {African swine fever virus}
+Probab=15.32  E-value=1.6e+02  Score=10.50  Aligned_cols=6  Identities=67%  Similarity=0.828  Sum_probs=2.6  Template_Neff=4.400
+
+Q LAVAGD            1 LAVAGD    6 (6)
+Q Consensus         1 lavagd    6 (6)
+                      ||..||
+T Consensus        15 LA~IGD   20 (34)
+T 5UA4_B           15 LARIGD   20 (34)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHhh
+Confidence            344454
+
+
+No 4
+>4BD2_C APOPTOSIS REGULATOR BAX, BH3-INTERACTING DOMAIN; APOPTOSIS, PROGRAMMED CELL DEATH, BCL-2; 2.206A {HOMO SAPIENS}
+Probab=15.30  E-value=1.6e+02  Score=10.50  Aligned_cols=6  Identities=67%  Similarity=0.905  Sum_probs=2.6  Template_Neff=4.400
+
+Q LAVAGD            1 LAVAGD    6 (6)
+Q Consensus         1 lavagd    6 (6)
+                      ||..||
+T Consensus        15 LA~IGD   20 (34)
+T 4BD2_C           15 LAQVGD   20 (34)
+T ss_pred             HHHHhh
+Confidence            344454
+
+
+No 5
+>3IFN_P 12A11 FAB antibody heavy chain; antibody, amyloid beta peptide, IMMUNE; 1.5A {Mus musculus}
+Probab=14.67  E-value=1.7e+02  Score=9.82  Aligned_cols=5  Identities=60%  Similarity=0.919  Sum_probs=0.0  Template_Neff=6.600
+
+Q LAVAGD            1 LAVAG    5 (6)
+Q Consensus         1 lavag    5 (6)
+                      |+|+|
+T Consensus        34 L~v~g   38 (40)
+T 3IFN_P           34 LMVGG   38 (40)
+T ss_pred             EeeEe
+
+
+No 6
+>2JC5_A EXODEOXYRIBONUCLEASE (E.C.3.1.11.2); HYDROLASE, NEISSERIA MENINGITIDIS, REPAIR PHOSPHODIESTERASE; HET: GOL, BCN, DIO; 1.5A {NEISSERIA MENINGITIDIS}
+Probab=14.59  E-value=1.7e+02  Score=10.18  Aligned_cols=6  Identities=50%  Similarity=1.005  Sum_probs=0.0  Template_Neff=12.700
+
+Q LAVAGD            1 LAVAGD    6 (6)
+Q Consensus         1 lavagd    6 (6)
+                      +.++||
+T Consensus       144 ~ii~GD  149 (259)
+T 2JC5_A          144 IVVCGD  149 (259)
+T ss_dssp             EEEEEE
+T ss_pred             EEEEee
+
+
+No 7
+>1BIX_A AP ENDONUCLEASE 1; DNA REPAIR, ENDONUCLEASE, HAP1, REF-1; 2.2A {Homo sapiens} SCOP: d.151.1.1
+Probab=14.36  E-value=1.7e+02  Score=10.45  Aligned_cols=6  Identities=50%  Similarity=0.983  Sum_probs=0.0  Template_Neff=12.500
+
+Q LAVAGD            1 LAVAGD    6 (6)
+Q Consensus         1 lavagd    6 (6)
+                      +.++||
+T Consensus       174 ~ii~GD  179 (287)
+T 1BIX_A          174 LVLCGD  179 (287)
+T ss_dssp             EEEEEE
+T ss_pred             EEEEEe
+
+
+No 8
+>1VYB_A ORF2 CONTAINS A REVERSE TRANSCRIPTASE; ENDONUCLEASE, APE-1 TYPE, RETROTRANSPOSITION, RETROTRANSPOSON; HET: SO4; 1.8A {HOMO SAPIENS} SCOP: d.151.1.1
+Probab=14.05  E-value=1.8e+02  Score=10.03  Aligned_cols=6  Identities=33%  Similarity=0.623  Sum_probs=0.0  Template_Neff=12.600
+
+Q LAVAGD            1 LAVAGD    6 (6)
+Q Consensus         1 lavagd    6 (6)
+                      ..++||
+T Consensus       140 ~ii~GD  145 (238)
+T 1VYB_A          140 TLIMGD  145 (238)
+T ss_dssp             EEEEEE
+T ss_pred             EEEEEe
+
+
+No 9
+>5EWT_A Exodeoxyribonuclease III Xth; AP endonuclease, Disulfide bond, Hyperthermophilic; 1.8A {Sulfolobus islandicus REY15A}
+Probab=13.96  E-value=1.8e+02  Score=10.14  Aligned_cols=6  Identities=33%  Similarity=0.811  Sum_probs=0.0  Template_Neff=12.500
+
+Q LAVAGD            1 LAVAGD    6 (6)
+Q Consensus         1 lavagd    6 (6)
+                      +.++||
+T Consensus       139 ~ii~GD  144 (247)
+T 5EWT_A          139 VILCGD  144 (247)
+T ss_dssp             EEEEEE
+T ss_pred             EEEEEe
+
+
+No 10
+>5AJJ_B HOMOLOG OF VACCINIA VIRUS CDS; VIRAL PROTEIN, BCL-2, APOPTOSIS, POXVIRUS; HET: GOL; 1.75A {VARIOLA VIRUS}
+Probab=13.73  E-value=1.8e+02  Score=10.36  Aligned_cols=6  Identities=67%  Similarity=0.905  Sum_probs=0.0  Template_Neff=4.300
+
+Q LAVAGD            1 LAVAGD    6 (6)
+Q Consensus         1 lavagd    6 (6)
+                      ||..||
+T Consensus        12 LA~IGD   17 (34)
+T 5AJJ_B           12 LAQVGD   17 (34)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHhh
+
+

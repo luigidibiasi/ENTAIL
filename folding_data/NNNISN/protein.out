@@ -1,0 +1,145 @@
+Query         NNNISN
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 02:13:23 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NNNISN/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NNNISN/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6XFJ_D Type 3 secretion system  32.8      42 0.00046   14.5   0.0    6    1-6      11-16  (82)
+  2 7NVG_Q2 bacterial flagellum, f   9.4 3.1E+02  0.0035   10.8   0.0    5    2-6      28-32  (138)
+  3 2GWW_B vinculin, IpaA; protein   8.5 3.6E+02   0.004   10.1   0.0    4    1-4       8-11  (30)
+  4 7ASE_V kDDX60, 40S ribosomal p   8.4 3.7E+02   0.004   10.6   0.0    6    1-6       3-8   (109)
+  5 1CEJ_A MEROZOITE SURFACE PROTE   7.5 4.3E+02  0.0047    8.8   0.0    4    3-6       1-4   (96)
+  6 6K3I_BD Flagellar hook protein   7.2 4.4E+02  0.0049   12.4   0.0    5    2-6      21-25  (402)
+  7 6K3I_FA Flagellar hook protein   7.2 4.4E+02  0.0049   12.4   0.0    5    2-6      21-25  (402)
+  8 1B2P_B LECTIN; MANNOSE-BINDING   7.1 4.5E+02   0.005    9.2   0.0    4    2-5       1-4   (119)
+  9 6ZVJ_P Eukaryotic translation    7.1 4.6E+02   0.005    8.4   0.0    5    1-5       2-6   (70)
+ 10 2OWA_A Arfgap-like finger doma   5.9 5.7E+02  0.0064   10.3   0.0    4    3-6       3-6   (138)
+
+No 1
+>6XFJ_D Type 3 secretion system pilotin; pilotin, chaperone, type III secretion; HET: CD, CL; 1.2A {Salmonella typhimurium (strain LT2 / SGSC1412 / ATCC 700720)}
+Probab=32.79  E-value=42  Score=14.52  Aligned_cols=6  Identities=50%  Similarity=0.639  Sum_probs=3.4  Template_Neff=2.400
+
+Q NNNISN            1 NNNISN    6 (6)
+Q Consensus         1 nnnisn    6 (6)
+                      ||+||+
+T Consensus        11 n~~is~   16 (82)
+T 6XFJ_D           11 NSAISS   16 (82)
+T ss_dssp             HHHHHH
+T ss_pred             cccchh
+Confidence            466663
+
+
+No 2
+>7NVG_Q2 bacterial flagellum, flagella, basal body; 3.7A {Salmonella enterica subsp. enterica serovar Typhimurium}
+Probab=9.36  E-value=3.1e+02  Score=10.82  Aligned_cols=5  Identities=60%  Similarity=0.826  Sum_probs=0.0  Template_Neff=7.800
+
+Q NNNISN            2 NNISN    6 (6)
+Q Consensus         2 nnisn    6 (6)
+                      +||.|
+T Consensus        28 ~NiAN   32 (138)
+T 7NVG_Q2          28 ANIAN   32 (138)
+T ss_pred             HHhhc
+
+
+No 3
+>2GWW_B vinculin, IpaA; protein complex, CELL ADHESION, STRUCTURAL; 2.72A {Homo sapiens}
+Probab=8.49  E-value=3.6e+02  Score=10.13  Aligned_cols=4  Identities=100%  Similarity=1.282  Sum_probs=0.0  Template_Neff=1.000
+
+Q NNNISN            1 NNNI    4 (6)
+Q Consensus         1 nnni    4 (6)
+                      ||||
+T Consensus         8 nnni   11 (30)
+T 2GWW_B            8 NNNI   11 (30)
+T ss_dssp             -CHH
+T ss_pred             cchH
+
+
+No 4
+>7ASE_V kDDX60, 40S ribosomal protein S24; preinitiation, factors, kinetoplastid, helicase, TRANSLATION; HET: GNP; 3.33A {Trypanosoma cruzi}
+Probab=8.37  E-value=3.7e+02  Score=10.59  Aligned_cols=6  Identities=50%  Similarity=0.900  Sum_probs=0.0  Template_Neff=7.000
+
+Q NNNISN            1 NNNISN    6 (6)
+Q Consensus         1 nnnisn    6 (6)
+                      ||+.||
+T Consensus         3 ~~~~~~    8 (109)
+T 7ASE_V            3 NNELAN    8 (109)
+T ss_pred             chHHHH
+
+
+No 5
+>1CEJ_A MEROZOITE SURFACE PROTEIN 1; EGF-LIKE DOMAIN, EXTRACELLULAR, MODULAR PROTEIN; NMR {Plasmodium falciparum} SCOP: g.3.11.4
+Probab=7.47  E-value=4.3e+02  Score=8.76  Aligned_cols=4  Identities=75%  Similarity=0.891  Sum_probs=0.0  Template_Neff=10.100
+
+Q NNNISN            3 NISN    6 (6)
+Q Consensus         3 nisn    6 (6)
+                      |||+
+T Consensus         1 ~~~~    4 (96)
+T 1CEJ_A            1 NISQ    4 (96)
+T ss_pred             CCCc
+
+
+No 6
+>6K3I_BD Flagellar hook protein FlgE; bacterial, hook, flexible joint, flagella; 2.86A {Salmonella typhimurium (strain LT2 / SGSC1412 / ATCC 700720)}
+Probab=7.21  E-value=4.4e+02  Score=12.36  Aligned_cols=5  Identities=80%  Similarity=1.099  Sum_probs=0.0  Template_Neff=7.600
+
+Q NNNISN            2 NNISN    6 (6)
+Q Consensus         2 nnisn    6 (6)
+                      |||.|
+T Consensus        21 nNIAN   25 (402)
+T 6K3I_BD          21 NNIAN   25 (402)
+T ss_pred             Hhhcc
+
+
+No 7
+>6K3I_FA Flagellar hook protein FlgE; bacterial, hook, flexible joint, flagella; 2.86A {Salmonella typhimurium (strain LT2 / SGSC1412 / ATCC 700720)}
+Probab=7.21  E-value=4.4e+02  Score=12.36  Aligned_cols=5  Identities=80%  Similarity=1.099  Sum_probs=0.0  Template_Neff=7.600
+
+Q NNNISN            2 NNISN    6 (6)
+Q Consensus         2 nnisn    6 (6)
+                      |||.|
+T Consensus        21 nNIAN   25 (402)
+T 6K3I_FA          21 NNIAN   25 (402)
+T ss_pred             Hhhcc
+
+
+No 8
+>1B2P_B LECTIN; MANNOSE-BINDING LECTIN, MONOCOT, AGLUTININ, BLUEBELL; 1.7A {Hyacinthoides hispanica} SCOP: b.78.1.1
+Probab=7.12  E-value=4.5e+02  Score=9.16  Aligned_cols=4  Identities=75%  Similarity=0.817  Sum_probs=0.0  Template_Neff=9.900
+
+Q NNNISN            2 NNIS    5 (6)
+Q Consensus         2 nnis    5 (6)
+                      |+|+
+T Consensus         1 ~~~~    4 (119)
+T 1B2P_B            1 NNII    4 (119)
+T ss_dssp             CCEE
+T ss_pred             CCee
+
+
+No 9
+>6ZVJ_P Eukaryotic translation initiation factor 3; Translation, Initiation, Ribosome Recycling, ABC; HET: SF4, ATP, ADP;{Homo sapiens}
+Probab=7.08  E-value=4.6e+02  Score=8.42  Aligned_cols=5  Identities=40%  Similarity=0.375  Sum_probs=0.0  Template_Neff=9.500
+
+Q NNNISN            1 NNNIS    5 (6)
+Q Consensus         1 nnnis    5 (6)
+                      ||+++
+T Consensus         2 ~~~~~    6 (70)
+T 6ZVJ_P            2 NNLVL    6 (70)
+T ss_pred             CCccc
+
+
+No 10
+>2OWA_A Arfgap-like finger domain containing protein; Zinc finger protein, cysteine-rich motif; 2.0A {Cryptosporidium parvum Iowa II}
+Probab=5.93  E-value=5.7e+02  Score=10.33  Aligned_cols=4  Identities=100%  Similarity=1.149  Sum_probs=0.0  Template_Neff=7.300
+
+Q NNNISN            3 NISN    6 (6)
+Q Consensus         3 nisn    6 (6)
+                      ||||
+T Consensus         3 ~~~~    6 (138)
+T 2OWA_A            3 NISN    6 (138)
+T ss_dssp             ----
+T ss_pred             chHH
+
+

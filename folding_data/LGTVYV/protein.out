@@ -1,0 +1,149 @@
+Query         LGTVYV
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 18:17:56 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LGTVYV/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LGTVYV/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3STB_C single domain antibody   25.3      69 0.00076   12.8   0.0    6    1-6       5-10  (148)
+  2 4ZR7_D Sensor histidine kinase  19.1 1.1E+02  0.0012   11.3   0.0    5    2-6     116-120 (126)
+  3 1IW0_B heme oxygenase (E.C.1.1  18.2 1.2E+02  0.0013   11.8   0.0    6    1-6     126-131 (215)
+  4 1IW1_A heme oxygenase (E.C.1.1  18.2 1.2E+02  0.0013   11.8   0.0    6    1-6     126-131 (215)
+  5 1WZD_B Heme oxygenase (E.C.1.1  18.2 1.2E+02  0.0013   11.8   0.0    6    1-6     126-131 (215)
+  6 2W9J_B SIGNAL RECOGNITION PART  18.2 1.2E+02  0.0013   12.0   0.0    5    2-6      25-29  (91)
+  7 7OBR_t SRP SRP receptor, co-tr  17.0 1.3E+02  0.0015   12.2   0.0    5    2-6      24-28  (110)
+  8 1CHD_A CHEB METHYLESTERASE; CH  16.4 1.4E+02  0.0015   12.6   0.0    5    2-6      77-81  (203)
+  9 3JAJ_S4 Ribosomal protein uL2,  16.3 1.4E+02  0.0016   11.7   0.0    5    2-6      23-27  (76)
+ 10 7A02_B Pilli, Endospore, Gram-  16.2 1.4E+02  0.0016   12.3   0.0    5    2-6      47-51  (117)
+
+No 1
+>3STB_C single domain antibody VHH, KREPA3; RNA EDITING, Editosome, Nanobody, Single; 2.5A {Lama glama}
+Probab=25.31  E-value=69  Score=12.80  Aligned_cols=6  Identities=67%  Similarity=1.198  Sum_probs=0.0  Template_Neff=7.700
+
+Q LGTVYV            1 LGTVYV    6 (6)
+Q Consensus         1 lgtvyv    6 (6)
+                      +|++|+
+T Consensus         5 ~~~~~~   10 (148)
+T 3STB_C            5 MGTQYV   10 (148)
+T ss_dssp             ------
+T ss_pred             cceeee
+Confidence            366664
+
+
+No 2
+>4ZR7_D Sensor histidine kinase ResE (E.C.2.7.13.3); structural genomics, PSI-Biology, protein structure; HET: MSE; 1.86A {Bacillus subtilis}
+Probab=19.12  E-value=1.1e+02  Score=11.33  Aligned_cols=5  Identities=40%  Similarity=1.085  Sum_probs=0.0  Template_Neff=8.900
+
+Q LGTVYV            2 GTVYV    6 (6)
+Q Consensus         2 gtvyv    6 (6)
+                      |.||+
+T Consensus       116 GaVfi  120 (126)
+T 4ZR7_D          116 GMVFL  120 (126)
+T ss_dssp             EEEEE
+T ss_pred             eEEEE
+
+
+No 3
+>1IW0_B heme oxygenase (E.C.1.14.99.3); alpha helix, bacterial iron acquisition; HET: GLC, SO4, HEM, FRU; 1.4A {Corynebacterium diphtheriae} SCOP: a.132.1.1
+Probab=18.20  E-value=1.2e+02  Score=11.76  Aligned_cols=6  Identities=33%  Similarity=0.622  Sum_probs=0.0  Template_Neff=9.800
+
+Q LGTVYV            1 LGTVYV    6 (6)
+Q Consensus         1 lgtvyv    6 (6)
+                      +|.+||
+T Consensus       126 lg~~yv  131 (215)
+T 1IW0_B          126 VAHHYV  131 (215)
+T ss_dssp             HHHHCC
+T ss_pred             HHHHHH
+
+
+No 4
+>1IW1_A heme oxygenase (E.C.1.14.99.3); alpha helix, bacterial iron acquisition; HET: HEM, SO4, GLC, FRU; 1.5A {Corynebacterium diphtheriae} SCOP: a.132.1.1
+Probab=18.20  E-value=1.2e+02  Score=11.76  Aligned_cols=6  Identities=33%  Similarity=0.622  Sum_probs=0.0  Template_Neff=9.800
+
+Q LGTVYV            1 LGTVYV    6 (6)
+Q Consensus         1 lgtvyv    6 (6)
+                      +|.+||
+T Consensus       126 lg~~yv  131 (215)
+T 1IW1_A          126 VAHHYV  131 (215)
+T ss_dssp             HHHHCC
+T ss_pred             HHHHHH
+
+
+No 5
+>1WZD_B Heme oxygenase (E.C.1.14.99.3); Electron-Transfer, Artificial Metalloprotein, Heme oxygenase; HET: SO4, GOL, YOK; 1.35A {Corynebacterium diphtheriae} SCOP: a.132.1.1
+Probab=18.20  E-value=1.2e+02  Score=11.76  Aligned_cols=6  Identities=33%  Similarity=0.622  Sum_probs=0.0  Template_Neff=9.800
+
+Q LGTVYV            1 LGTVYV    6 (6)
+Q Consensus         1 lgtvyv    6 (6)
+                      +|.+||
+T Consensus       126 lg~~yv  131 (215)
+T 1WZD_B          126 VAHHYV  131 (215)
+T ss_dssp             HHHHCC
+T ss_pred             HHHHHH
+
+
+No 6
+>2W9J_B SIGNAL RECOGNITION PARTICLE SUBUNIT SRP14; SCHIZOSACCHAROMYCES POMBE, RADIATION-INDUCED PHASING, RNA-BINDING; 2.6A {SCHIZOSACCHAROMYCES POMBE}
+Probab=18.18  E-value=1.2e+02  Score=12.03  Aligned_cols=5  Identities=60%  Similarity=1.404  Sum_probs=0.0  Template_Neff=6.000
+
+Q LGTVYV            2 GTVYV    6 (6)
+Q Consensus         2 gtvyv    6 (6)
+                      |+||+
+T Consensus        25 gSV~l   29 (91)
+T 2W9J_B           25 GSVYL   29 (91)
+T ss_dssp             SCEEE
+T ss_pred             CeEEE
+
+
+No 7
+>7OBR_t SRP SRP receptor, co-translational protein; HET: GDP, MG; 2.8A {Canis lupus familiaris}
+Probab=17.04  E-value=1.3e+02  Score=12.18  Aligned_cols=5  Identities=40%  Similarity=1.311  Sum_probs=0.0  Template_Neff=6.200
+
+Q LGTVYV            2 GTVYV    6 (6)
+Q Consensus         2 gtvyv    6 (6)
+                      |+||+
+T Consensus        24 gSV~l   28 (110)
+T 7OBR_t           24 GSVFI   28 (110)
+T ss_pred             CcEEE
+
+
+No 8
+>1CHD_A CHEB METHYLESTERASE; CHEMOTAXIS PROTEIN, SERINE HYDROLASE, CARBOXYL; 1.75A {Salmonella typhimurium} SCOP: c.40.1.1
+Probab=16.43  E-value=1.4e+02  Score=12.64  Aligned_cols=5  Identities=40%  Similarity=1.152  Sum_probs=0.0  Template_Neff=7.500
+
+Q LGTVYV            2 GTVYV    6 (6)
+Q Consensus         2 gtvyv    6 (6)
+                      |++||
+T Consensus        77 g~iYv   81 (203)
+T 1CHD_A           77 GHAYI   81 (203)
+T ss_dssp             TEEEE
+T ss_pred             CEEEE
+
+
+No 9
+>3JAJ_S4 Ribosomal protein uL2, Ribosomal protein; mammalian, SRP, translocation, translation, RIBOSOME; HET: MG;{Oryctolagus cuniculus}
+Probab=16.30  E-value=1.4e+02  Score=11.67  Aligned_cols=5  Identities=60%  Similarity=1.491  Sum_probs=0.0  Template_Neff=5.600
+
+Q LGTVYV            2 GTVYV    6 (6)
+Q Consensus         2 gtvyv    6 (6)
+                      |+||+
+T Consensus        23 gSV~l   27 (76)
+T 3JAJ_S4          23 GSVYI   27 (76)
+T ss_pred             CcEEE
+
+
+No 10
+>7A02_B Pilli, Endospore, Gram-Positive, Helical reconstruction;{Bacillus cereus}
+Probab=16.19  E-value=1.4e+02  Score=12.30  Aligned_cols=5  Identities=20%  Similarity=0.554  Sum_probs=0.0  Template_Neff=6.000
+
+Q LGTVYV            2 GTVYV    6 (6)
+Q Consensus         2 gtvyv    6 (6)
+                      ||+||
+T Consensus        47 gTv~V   51 (117)
+T 7A02_B           47 ASGYL   51 (117)
+T ss_dssp             EEEEE
+T ss_pred             EEEEE
+
+

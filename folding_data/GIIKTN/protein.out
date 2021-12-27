@@ -1,0 +1,149 @@
+Query         GIIKTN
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 01:18:43 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GIIKTN/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GIIKTN/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5OBA_K Ferritin heavy chain (E  36.7      33 0.00036   13.6   0.0    6    1-6     180-185 (197)
+  2 3LWT_X ---; sac1, Sac3/Fig4, p  15.1 1.6E+02  0.0017   14.1   0.0    6    1-6     387-392 (505)
+  3 7OJ0_6 Arrest Peptide, Transla  12.7   2E+02  0.0023   11.3   0.0    6    1-6       9-14  (46)
+  4 5MGP_w 50S ribosomal protein L  11.5 2.3E+02  0.0026   11.1   0.0    6    1-6       8-13  (45)
+  5 4TU3_X Sac1, Vps74; Protein Co  11.1 2.5E+02  0.0027   14.3   0.0    6    1-6     386-391 (623)
+  6 5U4I_w Ribosome; Ribosome, Arf  10.3 2.7E+02   0.003   11.3   0.0    6    1-6      11-16  (57)
+  7 7K1W_F Fig4 Sac homology model   9.6   3E+02  0.0033   15.0   0.0    6    1-6     491-496 (918)
+  8 6DG6_A neoleukin-2/15; cytokin   8.9 3.4E+02  0.0037   12.4   0.0    5    2-6      26-30  (104)
+  9 5VMR_C Botulinum neurotoxin ty   8.6 3.5E+02  0.0039   10.8   0.0    5    2-6      38-42  (43)
+ 10 5MYJ_AT 30S ribosomal protein    8.1 3.8E+02  0.0042   10.4   0.0    6    1-6      58-63  (77)
+
+No 1
+>5OBA_K Ferritin heavy chain (E.C.1.16.3.1); ferritin, lanthanide, metal transport; HET: FE; 2.85A {Mus musculus}
+Probab=36.67  E-value=33  Score=13.64  Aligned_cols=6  Identities=67%  Similarity=0.927  Sum_probs=0.0  Template_Neff=8.800
+
+Q GIIKTN            1 GIIKTN    6 (6)
+Q Consensus         1 giiktn    6 (6)
+                      |+|.||
+T Consensus       180 ~~~~~~  185 (197)
+T 5OBA_K          180 GYIDTN  185 (197)
+T ss_dssp             ------
+T ss_pred             CccccC
+Confidence            456554
+
+
+No 2
+>3LWT_X ---; sac1, Sac3/Fig4, phosphoinositide phosphatase, lipid; 1.956A {Saccharomyces cerevisiae}
+Probab=15.14  E-value=1.6e+02  Score=14.13  Aligned_cols=6  Identities=33%  Similarity=0.866  Sum_probs=2.8  Template_Neff=7.600
+
+Q GIIKTN            1 GIIKTN    6 (6)
+Q Consensus         1 giiktn    6 (6)
+                      |+++||
+T Consensus       387 Gv~RtN  392 (505)
+T 3LWT_X          387 SVVRTN  392 (505)
+T ss_dssp             EEEEEE
+T ss_pred             eEEEee
+Confidence            344444
+
+
+No 3
+>7OJ0_6 Arrest Peptide, Translational stalling, Gene; HET: OMG, MG, 4OC, OMC, MA6, G7M, 1MG, 3TD, OMU, 6MZ, 5MU, MEQ, TRP, UR3, PSU, 2MG, 5MC, 2MA; 3.5A {Escherichia coli K-12}
+Probab=12.72  E-value=2e+02  Score=11.29  Aligned_cols=6  Identities=67%  Similarity=0.872  Sum_probs=2.8  Template_Neff=2.900
+
+Q GIIKTN            1 GIIKTN    6 (6)
+Q Consensus         1 giiktn    6 (6)
+                      |.|+.|
+T Consensus         9 G~I~dN   14 (46)
+T 7OJ0_6            9 GQIKDN   14 (46)
+T ss_pred             CCCCcC
+Confidence            445543
+
+
+No 4
+>5MGP_w 50S ribosomal protein L2, 50S; Cryo-Em, Ribosome, Termination, alternative rescue; 3.1A {Escherichia coli}
+Probab=11.54  E-value=2.3e+02  Score=11.11  Aligned_cols=6  Identities=67%  Similarity=0.872  Sum_probs=2.7  Template_Neff=2.800
+
+Q GIIKTN            1 GIIKTN    6 (6)
+Q Consensus         1 giiktn    6 (6)
+                      |.|+.|
+T Consensus         8 G~I~dN   13 (45)
+T 5MGP_w            8 GQIKDN   13 (45)
+T ss_pred             CcCCcc
+Confidence            445543
+
+
+No 5
+>4TU3_X Sac1, Vps74; Protein Complex, Phosphoric Monoester Hydrolases; 3.187A {Saccharomyces cerevisiae}
+Probab=11.13  E-value=2.5e+02  Score=14.30  Aligned_cols=6  Identities=33%  Similarity=0.866  Sum_probs=0.0  Template_Neff=6.800
+
+Q GIIKTN            1 GIIKTN    6 (6)
+Q Consensus         1 giiktn    6 (6)
+                      |+++||
+T Consensus       386 GV~RtN  391 (623)
+T 4TU3_X          386 SVVRTN  391 (623)
+T ss_pred             eEEEec
+
+
+No 6
+>5U4I_w Ribosome; Ribosome, ArfA, RF2, nonstop translation; HET: OMG, PSU, OMC, MEQ, MG, 2MG, UR3, 5MU, OMU, 4OC, 5MC, 1MG, MA6; 3.5A {Escherichia coli}
+Probab=10.34  E-value=2.7e+02  Score=11.35  Aligned_cols=6  Identities=67%  Similarity=0.872  Sum_probs=0.0  Template_Neff=2.900
+
+Q GIIKTN            1 GIIKTN    6 (6)
+Q Consensus         1 giiktn    6 (6)
+                      |.|+.|
+T Consensus        11 G~I~dN   16 (57)
+T 5U4I_w           11 GQIKDN   16 (57)
+T ss_pred             CCCCcc
+
+
+No 7
+>7K1W_F Fig4 Sac homology model; Lipid kinase, Lipid phosphatase, protein;{Homo sapiens}
+Probab=9.64  E-value=3e+02  Score=14.97  Aligned_cols=6  Identities=67%  Similarity=1.243  Sum_probs=0.0  Template_Neff=6.300
+
+Q GIIKTN            1 GIIKTN    6 (6)
+Q Consensus         1 giiktn    6 (6)
+                      |+++||
+T Consensus       491 GV~RTN  496 (918)
+T 7K1W_F          491 GILRTN  496 (918)
+T ss_dssp             CEEEEE
+T ss_pred             cEEEEe
+
+
+No 8
+>6DG6_A neoleukin-2/15; cytokine mimetic, BIOSYNTHETIC PROTEIN; 1.999A {synthetic construct}
+Probab=8.86  E-value=3.4e+02  Score=12.39  Aligned_cols=5  Identities=80%  Similarity=1.105  Sum_probs=0.0  Template_Neff=1.000
+
+Q GIIKTN            2 IIKTN    6 (6)
+Q Consensus         2 iiktn    6 (6)
+                      |+|||
+T Consensus        26 ivktn   30 (104)
+T 6DG6_A           26 IVKTN   30 (104)
+T ss_dssp             HHTCC
+T ss_pred             HHhcC
+
+
+No 9
+>5VMR_C Botulinum neurotoxin type B (E.C.3.4.24.69); mini-protein binder, inhibitor, TOXIN; 1.95A {Clostridium botulinum}
+Probab=8.61  E-value=3.5e+02  Score=10.80  Aligned_cols=5  Identities=80%  Similarity=1.006  Sum_probs=0.0  Template_Neff=1.000
+
+Q GIIKTN            2 IIKTN    6 (6)
+Q Consensus         2 iiktn    6 (6)
+                      |||.|
+T Consensus        38 iikkn   42 (43)
+T 5VMR_C           38 IIKKN   42 (43)
+T ss_dssp             HC---
+T ss_pred             HHHhc
+
+
+No 10
+>5MYJ_AT 30S ribosomal protein S2, 30S; ribosome, 70S, lactoccocus lactis, Cryo-EM; 5.6A {Lactococcus lactis subsp. cremoris MG1363}
+Probab=8.12  E-value=3.8e+02  Score=10.40  Aligned_cols=6  Identities=50%  Similarity=1.021  Sum_probs=0.0  Template_Neff=5.900
+
+Q GIIKTN            1 GIIKTN    6 (6)
+Q Consensus         1 giiktn    6 (6)
+                      |||.-|
+T Consensus        58 giihkN   63 (77)
+T 5MYJ_AT          58 GLIHAN   63 (77)
+T ss_pred             CCCcHh
+
+

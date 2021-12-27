@@ -1,0 +1,150 @@
+Query         ERIEKV
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 19:47:34 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/ERIEKV/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/ERIEKV/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6K2J_B UPF0335 protein CCNA_03  12.8   2E+02  0.0022   12.2   0.0    6    1-6      25-30  (97)
+  2 7D88_A GH10 family, Thermostab  12.3 2.1E+02  0.0024   12.2   0.0    6    1-6      50-55  (428)
+  3 3KJP_A Protection of telomeres  12.1 2.2E+02  0.0024   11.8   0.0    6    1-6     290-295 (299)
+  4 1XJV_A Protection of telomeres  11.8 2.3E+02  0.0025   11.8   0.0    6    1-6     285-290 (294)
+  5 6JYK_A UPF0335 protein CCNA_03  11.8 2.3E+02  0.0025   12.1   0.0    6    1-6      25-30  (97)
+  6 6OZZ_A UPF0335 protein CC_3319  11.7 2.3E+02  0.0026   12.2   0.0    6    1-6      37-42  (101)
+  7 6CG8_B UPF0335 protein B7Z12_1  11.5 2.4E+02  0.0026   11.4   0.0    6    1-6      14-19  (78)
+  8 6OZZ_B UPF0335 protein CC_3319  10.7 2.6E+02  0.0029   12.1   0.0    6    1-6      37-42  (101)
+  9 6CFX_B UPF0335 protein ASE63_0  10.6 2.6E+02  0.0029   11.2   0.0    6    1-6      15-20  (80)
+ 10 4DCZ_A DnaJ-like protein MG200  10.2 2.8E+02  0.0031   12.4   0.0    5    2-6      16-20  (92)
+
+No 1
+>6K2J_B UPF0335 protein CCNA_03428/DNA Complex; C. crescentus, GapR/DNA, NAPs, DNA; 2.4A {Caulobacter vibrioides (strain NA1000 / CB15N)}
+Probab=12.79  E-value=2e+02  Score=12.15  Aligned_cols=6  Identities=50%  Similarity=1.082  Sum_probs=0.0  Template_Neff=4.500
+
+Q ERIEKV            1 ERIEKV    6 (6)
+Q Consensus         1 eriekv    6 (6)
+                      ||||.+
+T Consensus        25 eRIErL   30 (97)
+T 6K2J_B           25 ERVERL   30 (97)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 2
+>7D88_A GH10 family, Thermostable, Bifunctional., HYDROLASE; 2.34482019351A {Bacillus sp.}
+Probab=12.31  E-value=2.1e+02  Score=12.22  Aligned_cols=6  Identities=33%  Similarity=0.451  Sum_probs=0.0  Template_Neff=10.000
+
+Q ERIEKV            1 ERIEKV    6 (6)
+Q Consensus         1 eriekv    6 (6)
+                      +||+++
+T Consensus        50 ~~i~~~   55 (428)
+T 7D88_A           50 DRILQH   55 (428)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHh
+
+
+No 3
+>3KJP_A Protection of telomeres protein 1/DNA; OB domain, Protein-DNA complex, Chromosomal; 1.8A {Homo sapiens}
+Probab=12.07  E-value=2.2e+02  Score=11.80  Aligned_cols=6  Identities=17%  Similarity=0.418  Sum_probs=0.0  Template_Neff=9.500
+
+Q ERIEKV            1 ERIEKV    6 (6)
+Q Consensus         1 eriekv    6 (6)
+                      +|+|++
+T Consensus       290 ~~~~~~  295 (299)
+T 3KJP_A          290 KDLESA  295 (299)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHhc
+
+
+No 4
+>1XJV_A Protection of telomeres 1/DNMA complex; telomere  protein-DNA complex ; 1.73A {Homo sapiens} SCOP: b.40.4.3
+Probab=11.84  E-value=2.3e+02  Score=11.78  Aligned_cols=6  Identities=17%  Similarity=0.418  Sum_probs=0.0  Template_Neff=9.400
+
+Q ERIEKV            1 ERIEKV    6 (6)
+Q Consensus         1 eriekv    6 (6)
+                      +|+|++
+T Consensus       285 ~~~~~~  290 (294)
+T 1XJV_A          285 KDLESA  290 (294)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHhc
+
+
+No 5
+>6JYK_A UPF0335 protein CCNA_03428; C. crescentus, free, NAPs, DNA; 2.0A {Caulobacter vibrioides (strain NA1000 / CB15N)}
+Probab=11.81  E-value=2.3e+02  Score=12.09  Aligned_cols=6  Identities=50%  Similarity=1.082  Sum_probs=0.0  Template_Neff=4.300
+
+Q ERIEKV            1 ERIEKV    6 (6)
+Q Consensus         1 eriekv    6 (6)
+                      ||||.+
+T Consensus        25 ERIErL   30 (97)
+T 6JYK_A           25 ERVERL   30 (97)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 6
+>6OZZ_A UPF0335 protein CC_3319; DNA-binding, cell-division, DNA BINDING PROTEIN; 3.304A {Caulobacter vibrioides (strain ATCC 19089 / CB15)}
+Probab=11.68  E-value=2.3e+02  Score=12.18  Aligned_cols=6  Identities=50%  Similarity=1.082  Sum_probs=0.0  Template_Neff=4.200
+
+Q ERIEKV            1 ERIEKV    6 (6)
+Q Consensus         1 eriekv    6 (6)
+                      ||||.+
+T Consensus        37 eRIErL   42 (101)
+T 6OZZ_A           37 ERVERL   42 (101)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 7
+>6CG8_B UPF0335 protein B7Z12_12435/DNA Complex; GapR, DNA binding, DNA BINDING; 2.299A {Caulobacter vibrioides}
+Probab=11.52  E-value=2.4e+02  Score=11.36  Aligned_cols=6  Identities=50%  Similarity=1.082  Sum_probs=0.0  Template_Neff=5.000
+
+Q ERIEKV            1 ERIEKV    6 (6)
+Q Consensus         1 eriekv    6 (6)
+                      ||||.+
+T Consensus        14 eRierL   19 (78)
+T 6CG8_B           14 ERVERL   19 (78)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 8
+>6OZZ_B UPF0335 protein CC_3319; DNA-binding, cell-division, DNA BINDING PROTEIN; 3.304A {Caulobacter vibrioides (strain ATCC 19089 / CB15)}
+Probab=10.68  E-value=2.6e+02  Score=12.06  Aligned_cols=6  Identities=50%  Similarity=1.082  Sum_probs=0.0  Template_Neff=4.100
+
+Q ERIEKV            1 ERIEKV    6 (6)
+Q Consensus         1 eriekv    6 (6)
+                      ||||.+
+T Consensus        37 ERIErL   42 (101)
+T 6OZZ_B           37 ERVERL   42 (101)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 9
+>6CFX_B UPF0335 protein ASE63_04290; Caulobacter, DNA binding, NAP, DNA; HET: PO4; 2.0A {Bosea sp. Root381}
+Probab=10.60  E-value=2.6e+02  Score=11.23  Aligned_cols=6  Identities=67%  Similarity=1.132  Sum_probs=0.0  Template_Neff=5.100
+
+Q ERIEKV            1 ERIEKV    6 (6)
+Q Consensus         1 eriekv    6 (6)
+                      ||||.+
+T Consensus        15 eRierL   20 (80)
+T 6CFX_B           15 ERIERL   20 (80)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 10
+>4DCZ_A DnaJ-like protein MG200; DIMER, INTRA-DOMAIN SYMMETRY AXIS, UNKNOWN; 2.9A {Mycoplasma genitalium}
+Probab=10.16  E-value=2.8e+02  Score=12.36  Aligned_cols=5  Identities=60%  Similarity=0.773  Sum_probs=0.0  Template_Neff=2.200
+
+Q ERIEKV            2 RIEKV    6 (6)
+Q Consensus         2 riekv    6 (6)
+                      ||++|
+T Consensus        16 ~i~~v   20 (92)
+T 4DCZ_A           16 TIKKV   20 (92)
+T ss_dssp             -----
+T ss_pred             HHHHH
+
+

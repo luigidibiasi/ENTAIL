@@ -1,0 +1,152 @@
+Query         LMSLFG
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 19:36:02 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LMSLFG/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LMSLFG/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 7LXD_G DNA polymerase zeta cat  63.4     6.2 6.9E-05   18.6   0.0    6    1-6     341-346 (350)
+  2 6TNY_C DNA polymerase delta ca  54.5      11 0.00012   18.2   0.0    6    1-6     467-472 (474)
+  3 6S1M_C DNA polymerase delta ca  53.4      12 0.00013   18.1   0.0    6    1-6     467-472 (474)
+  4 3WY9_D Elongation factor 1-alp  50.0      15 0.00016   13.4   0.0    6    1-6      27-32  (32)
+  5 6VBU_9 Bardet-Biedl syndrome 1  19.5 1.1E+02  0.0012   15.7   0.0    4    2-5       1-4   (887)
+  6 6PE4_F Hemolysin E, chromosoma  19.0 1.1E+02  0.0012   11.7   0.0    6    1-6      15-20  (85)
+  7 2LPB_B Mediator of RNA polymer  19.0 1.1E+02  0.0012   11.1   0.0    4    3-6      22-25  (34)
+  8 3K4I_B uncharacterized protein  18.9 1.1E+02  0.0012   13.6   0.0    5    2-6       1-5   (244)
+  9 4WHE_A phage shock protein A (  18.1 1.2E+02  0.0013   12.0   0.0    5    2-6       1-5   (150)
+ 10 3CL3_D ORF K13, NF-kappa-B ess  17.7 1.2E+02  0.0014   13.2   0.0    6    1-6       4-9   (130)
+
+No 1
+>7LXD_G DNA polymerase zeta catalytic subunit; nucleic acid binding, DNA polymerase;{Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=63.35  E-value=6.2  Score=18.62  Aligned_cols=6  Identities=50%  Similarity=0.672  Sum_probs=5.0  Template_Neff=5.900
+
+Q LMSLFG            1 LMSLFG    6 (6)
+Q Consensus         1 lmslfg    6 (6)
+                      |||+||
+T Consensus       341 LmsFFk  346 (350)
+T 7LXD_G          341 LESFFK  346 (350)
+T ss_pred             HHHhhc
+Confidence            799996
+
+
+No 2
+>6TNY_C DNA polymerase delta catalytic subunit; Protein, REPLICATION; HET: DOC, TTP; 3.08A {Homo sapiens}
+Probab=54.49  E-value=11  Score=18.19  Aligned_cols=6  Identities=17%  Similarity=0.589  Sum_probs=0.0  Template_Neff=6.400
+
+Q LMSLFG            1 LMSLFG    6 (6)
+Q Consensus         1 lmslfg    6 (6)
+                      |||+|+
+T Consensus       467 IMsFF~  472 (474)
+T 6TNY_C          467 ITGFFQ  472 (474)
+T ss_dssp             ------
+T ss_pred             hhhhcc
+Confidence            699986
+
+
+No 3
+>6S1M_C DNA polymerase delta catalytic subunit; Protein, REPLICATION; HET: DOC, TTP; 4.27A {Homo sapiens}
+Probab=53.43  E-value=12  Score=18.10  Aligned_cols=6  Identities=17%  Similarity=0.589  Sum_probs=0.0  Template_Neff=6.400
+
+Q LMSLFG            1 LMSLFG    6 (6)
+Q Consensus         1 lmslfg    6 (6)
+                      |||+|+
+T Consensus       467 IMsFF~  472 (474)
+T 6S1M_C          467 ITGFFQ  472 (474)
+T ss_dssp             ------
+T ss_pred             hhhhcc
+Confidence            689986
+
+
+No 4
+>3WY9_D Elongation factor 1-alpha, 50S ribosomal; multi-domain, GTPase, aminoacyl-tRNA delivery, GTP; HET: GDP; 2.3A {Pyrococcus horikoshii OT3}
+Probab=49.95  E-value=15  Score=13.37  Aligned_cols=6  Identities=67%  Similarity=1.182  Sum_probs=4.2  Template_Neff=3.400
+
+Q LMSLFG            1 LMSLFG    6 (6)
+Q Consensus         1 lmslfg    6 (6)
+                      |-+|||
+T Consensus        27 LgaLFG   32 (32)
+T 3WY9_D           27 LSALFG   32 (32)
+T ss_dssp             HHHHHC
+T ss_pred             HHHHhC
+Confidence            457887
+
+
+No 5
+>6VBU_9 Bardet-Biedl syndrome 18 protein, BBS1; Cilia, ciliopathy, complex, membrane-protein transport; 3.1A {Bos taurus}
+Probab=19.46  E-value=1.1e+02  Score=15.72  Aligned_cols=4  Identities=100%  Similarity=1.456  Sum_probs=0.0  Template_Neff=7.600
+
+Q LMSLFG            2 MSLF    5 (6)
+Q Consensus         2 mslf    5 (6)
+                      ||||
+T Consensus         1 MSLF    4 (887)
+T 6VBU_9            1 MSLF    4 (887)
+T ss_dssp             CCTT
+T ss_pred             CCcc
+
+
+No 6
+>6PE4_F Hemolysin E, chromosomal; complex, TRANSPORT PROTEIN; 3.1A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=19.04  E-value=1.1e+02  Score=11.71  Aligned_cols=6  Identities=50%  Similarity=1.065  Sum_probs=0.0  Template_Neff=6.600
+
+Q LMSLFG            1 LMSLFG    6 (6)
+Q Consensus         1 lmslfg    6 (6)
+                      ++|+||
+T Consensus        15 ilSi~G   20 (85)
+T 6PE4_F           15 VLSAFG   20 (85)
+T ss_pred             HHHHHH
+
+
+No 7
+>2LPB_B Mediator of RNA polymerase II; Mediator, Activator, Co-Activator, Transcription, Nucleus; NMR {Saccharomyces cerevisiae}
+Probab=18.97  E-value=1.1e+02  Score=11.06  Aligned_cols=4  Identities=75%  Similarity=1.107  Sum_probs=0.0  Template_Neff=3.900
+
+Q LMSLFG            3 SLFG    6 (6)
+Q Consensus         3 slfg    6 (6)
+                      |||+
+T Consensus        22 SLF~   25 (34)
+T 2LPB_B           22 SLFD   25 (34)
+T ss_dssp             GGGT
+T ss_pred             hhcC
+
+
+No 8
+>3K4I_B uncharacterized protein; STRUCTURAL GENOMICS, PROTEIN STRUCTURE INITIATIVE; HET: MSE; 1.69A {Pseudomonas syringae pv. tomato}
+Probab=18.86  E-value=1.1e+02  Score=13.60  Aligned_cols=5  Identities=60%  Similarity=0.295  Sum_probs=0.0  Template_Neff=6.800
+
+Q LMSLFG            2 MSLFG    6 (6)
+Q Consensus         2 mslfg    6 (6)
+                      ||||+
+T Consensus         1 ~~~~~    5 (244)
+T 3K4I_B            1 MSLSV    5 (244)
+T ss_dssp             -----
+T ss_pred             CCccC
+
+
+No 9
+>4WHE_A phage shock protein A (PspA); PspA/IM30 family, AAA+ protein regulation; 1.8A {Escherichia coli K-12}
+Probab=18.13  E-value=1.2e+02  Score=11.96  Aligned_cols=5  Identities=40%  Similarity=0.992  Sum_probs=0.0  Template_Neff=8.100
+
+Q LMSLFG            2 MSLFG    6 (6)
+Q Consensus         2 mslfg    6 (6)
+                      |++|+
+T Consensus         1 M~if~    5 (150)
+T 4WHE_A            1 MGIFS    5 (150)
+T ss_dssp             --CCC
+T ss_pred             CcHHH
+
+
+No 10
+>3CL3_D ORF K13, NF-kappa-B essential modulator; Death effector domain, coiled-coil, Disease; 3.2A {Human herpesvirus 8}
+Probab=17.66  E-value=1.2e+02  Score=13.23  Aligned_cols=6  Identities=17%  Similarity=0.241  Sum_probs=0.0  Template_Neff=4.700
+
+Q LMSLFG            1 LMSLFG    6 (6)
+Q Consensus         1 lmslfg    6 (6)
+                      .|||||
+T Consensus         4 ~~sL~~    9 (130)
+T 3CL3_D            4 ASGSLG    9 (130)
+T ss_dssp             ------
+T ss_pred             hhHHHH
+
+

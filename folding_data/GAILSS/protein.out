@@ -1,0 +1,153 @@
+Query         GAILSS
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 22:42:44 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GAILSS/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GAILSS/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5YK3_n Ragulator complex prote  38.0      30 0.00034   13.7   0.0    6    1-6      20-25  (88)
+  2 5YK3_D Ragulator complex prote  36.9      32 0.00036   13.8   0.0    6    1-6      23-28  (96)
+  3 6B9X_D Ragulator complex prote  35.4      36 0.00039   13.9   0.0    6    1-6      24-29  (99)
+  4 6EHP_D Ragulator complex prote  35.4      36 0.00039   13.9   0.0    6    1-6      24-29  (99)
+  5 4ESM_A Phenylalanine-4-hydroxy  19.2 1.1E+02  0.0012   14.9   0.0    6    1-6     204-209 (302)
+  6 5PAH_A PHENYLALANINE 4-MONOOXY  17.1 1.3E+02  0.0015   14.6   0.0    6    1-6     229-234 (308)
+  7 2TOH_A TYROSINE 3-MONOOXYGENAS  15.8 1.5E+02  0.0016   14.6   0.0    6    1-6     236-241 (343)
+  8 1J8U_A PHENYLALANINE-4-HYDROXY  15.7 1.5E+02  0.0017   14.5   0.0    6    1-6     243-248 (325)
+  9 1DMW_A PHENYLALANINE HYDROXYLA  15.6 1.5E+02  0.0017   14.4   0.0    6    1-6     228-233 (307)
+ 10 2XSN_C TYROSINE 3-MONOOXYGENAS  14.3 1.7E+02  0.0019   14.5   0.0    6    1-6     229-234 (343)
+
+No 1
+>5YK3_n Ragulator complex protein LAMTOR3, Ragulator; cellular signal transduction, SIGNALING PROTEIN; 3.01A {Homo sapiens}
+Probab=37.98  E-value=30  Score=13.69  Aligned_cols=6  Identities=67%  Similarity=1.077  Sum_probs=2.8  Template_Neff=5.800
+
+Q GAILSS            1 GAILSS    6 (6)
+Q Consensus         1 gailss    6 (6)
+                      |+||+|
+T Consensus        20 G~Vl~S   25 (88)
+T 5YK3_n           20 GAVLAS   25 (88)
+T ss_pred             CCEEEe
+Confidence            445543
+
+
+No 2
+>5YK3_D Ragulator complex protein LAMTOR3, Ragulator; cellular signal transduction, SIGNALING PROTEIN; 3.01A {Homo sapiens}
+Probab=36.93  E-value=32  Score=13.85  Aligned_cols=6  Identities=67%  Similarity=1.077  Sum_probs=2.7  Template_Neff=5.700
+
+Q GAILSS            1 GAILSS    6 (6)
+Q Consensus         1 gailss    6 (6)
+                      |+||+|
+T Consensus        23 G~Vl~S   28 (96)
+T 5YK3_D           23 GAVLAS   28 (96)
+T ss_dssp             SCCCCE
+T ss_pred             CCEEEe
+Confidence            445543
+
+
+No 3
+>6B9X_D Ragulator complex protein LAMTOR1, Ragulator; Ragulator, Lamtor, SIGNALING PROTEIN; 1.42A {Homo sapiens}
+Probab=35.41  E-value=36  Score=13.90  Aligned_cols=6  Identities=67%  Similarity=1.077  Sum_probs=2.8  Template_Neff=5.500
+
+Q GAILSS            1 GAILSS    6 (6)
+Q Consensus         1 gailss    6 (6)
+                      |+||+|
+T Consensus        24 G~Vl~S   29 (99)
+T 6B9X_D           24 GAVLAS   29 (99)
+T ss_dssp             TEEEEE
+T ss_pred             CCEEEe
+Confidence            445543
+
+
+No 4
+>6EHP_D Ragulator complex protein LAMTOR3, Ragulator; Scaffolding complex, Rag-GTPase, mTOR, Ragulator; 2.3A {Homo sapiens}
+Probab=35.41  E-value=36  Score=13.90  Aligned_cols=6  Identities=67%  Similarity=1.077  Sum_probs=2.8  Template_Neff=5.500
+
+Q GAILSS            1 GAILSS    6 (6)
+Q Consensus         1 gailss    6 (6)
+                      |+||+|
+T Consensus        24 G~Vl~S   29 (99)
+T 6EHP_D           24 GAVLAS   29 (99)
+T ss_dssp             TEEEEE
+T ss_pred             CCEEEe
+Confidence            445543
+
+
+No 5
+>4ESM_A Phenylalanine-4-hydroxylase (E.C.1.14.16.1); Mutation, Alpha helix-Beta sheet, Hydroxylase; 1.35A {Chromobacterium violaceum}
+Probab=19.20  E-value=1.1e+02  Score=14.89  Aligned_cols=6  Identities=67%  Similarity=0.744  Sum_probs=0.0  Template_Neff=5.000
+
+Q GAILSS            1 GAILSS    6 (6)
+Q Consensus         1 gailss    6 (6)
+                      ++||||
+T Consensus       204 AGLLSS  209 (302)
+T 4ESM_A          204 AGILSS  209 (302)
+T ss_dssp             HHHHTC
+T ss_pred             echhcC
+
+
+No 6
+>5PAH_A PHENYLALANINE 4-MONOOXYGENASE, L-DOPAMINE; NON-HEME IRON-CONTAINING MONOOXYGENASE, OXIDOREDUCTASE, MONOOXYGENASE; HET: LDP; 2.1A {Homo sapiens} SCOP: d.178.1.1
+Probab=17.06  E-value=1.3e+02  Score=14.58  Aligned_cols=6  Identities=50%  Similarity=0.678  Sum_probs=0.0  Template_Neff=5.200
+
+Q GAILSS            1 GAILSS    6 (6)
+Q Consensus         1 gailss    6 (6)
+                      ++||||
+T Consensus       229 AGLLSS  234 (308)
+T 5PAH_A          229 AGLLSS  234 (308)
+T ss_dssp             HHHHTC
+T ss_pred             hhHhcc
+
+
+No 7
+>2TOH_A TYROSINE 3-MONOOXYGENASE, 7,8-DIHYDROBIOPTERIN; HYDROXYLASE, NEUROTRANSMITTER BIOSYNTHESIS, NON-HEME IRON; HET: MTY, HBI; 2.3A {Rattus norvegicus} SCOP: d.178.1.1
+Probab=15.84  E-value=1.5e+02  Score=14.63  Aligned_cols=6  Identities=50%  Similarity=0.678  Sum_probs=0.0  Template_Neff=5.200
+
+Q GAILSS            1 GAILSS    6 (6)
+Q Consensus         1 gailss    6 (6)
+                      ++||||
+T Consensus       236 AGLLSS  241 (343)
+T 2TOH_A          236 AGLLSS  241 (343)
+T ss_dssp             HHHHTC
+T ss_pred             hhhhcc
+
+
+No 8
+>1J8U_A PHENYLALANINE-4-HYDROXYLASE (E.C.1.14.16.1); ferrous iron, 2-His-1-carboxylate facial triad; HET: H4B; 1.5A {Homo sapiens} SCOP: d.178.1.1
+Probab=15.70  E-value=1.5e+02  Score=14.51  Aligned_cols=6  Identities=50%  Similarity=0.678  Sum_probs=0.0  Template_Neff=5.200
+
+Q GAILSS            1 GAILSS    6 (6)
+Q Consensus         1 gailss    6 (6)
+                      ++||||
+T Consensus       243 AGLLSS  248 (325)
+T 1J8U_A          243 AGLLSS  248 (325)
+T ss_dssp             HHHHTC
+T ss_pred             hhhhcc
+
+
+No 9
+>1DMW_A PHENYLALANINE HYDROXYLASE (E.C.1.14.16.1); IRON ENZYME, 7, 8-DIHYDRO-L-BIOPTERIN, COFACTOR; HET: HBI; 2.0A {Homo sapiens} SCOP: d.178.1.1
+Probab=15.56  E-value=1.5e+02  Score=14.39  Aligned_cols=6  Identities=50%  Similarity=0.678  Sum_probs=0.0  Template_Neff=5.200
+
+Q GAILSS            1 GAILSS    6 (6)
+Q Consensus         1 gailss    6 (6)
+                      ++||||
+T Consensus       228 AGLLSS  233 (307)
+T 1DMW_A          228 AGLLSS  233 (307)
+T ss_dssp             HHHHTC
+T ss_pred             hhhhcc
+
+
+No 10
+>2XSN_C TYROSINE 3-MONOOXYGENASE (E.C.1.14.16.2); OXIDOREDUCTASE; 2.68A {HOMO SAPIENS}
+Probab=14.32  E-value=1.7e+02  Score=14.47  Aligned_cols=6  Identities=50%  Similarity=0.678  Sum_probs=0.0  Template_Neff=5.100
+
+Q GAILSS            1 GAILSS    6 (6)
+Q Consensus         1 gailss    6 (6)
+                      ++||||
+T Consensus       229 AGLLSS  234 (343)
+T 2XSN_C          229 AGLLSS  234 (343)
+T ss_dssp             HHHHTC
+T ss_pred             eehhcc
+
+

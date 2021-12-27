@@ -1,0 +1,149 @@
+Query         LATSYV
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 15:10:21 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LATSYV/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LATSYV/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2YNQ_B ESSB; MEMBRANE PROTEIN,  42.5      23 0.00026   15.4   0.0    6    1-6      47-52  (161)
+  2 5X90_G IcmJ (DotN); Type IV se   5.6 6.2E+02  0.0068   10.7   0.0    5    1-5      68-72  (108)
+  3 5OBZ_B Putative transcription    5.4 6.5E+02  0.0071   11.4   0.0    5    1-5       5-9   (167)
+  4 1W4A_B NTPASE P4; VIRUS DSRNA,   5.4 6.5E+02  0.0072   12.8   0.0    5    1-5     284-288 (331)
+  5 2VHJ_A NTPASE P4; NON- HYDROLY   5.4 6.5E+02  0.0072   12.8   0.0    5    1-5     284-288 (331)
+  6 2VHT_A NTPASE P4; NON-HYDROLYS   5.3 6.7E+02  0.0074   12.8   0.0    5    1-5     284-288 (331)
+  7 4RKU_N Photosystem I P700 chlo   5.0 7.2E+02   0.008   11.0   0.0    5    1-5      22-26  (85)
+  8 5WRV_A Ig gamma-1 chain C regi   4.9 7.4E+02  0.0082    9.5   0.0    6    1-6      85-90  (106)
+  9 4LOH_A Stimulator of interfero   4.7 7.7E+02  0.0085   11.1   0.0    5    1-5       6-10  (188)
+ 10 4LOI_B Stimulator of interfero   4.7 7.7E+02  0.0085   11.1   0.0    5    1-5       6-10  (188)
+
+No 1
+>2YNQ_B ESSB; MEMBRANE PROTEIN, SECRETION, ESS, TYPE; HET: MLI; 2.4A {GEOBACILLUS THERMODENITRIFICANS}
+Probab=42.48  E-value=23  Score=15.43  Aligned_cols=6  Identities=83%  Similarity=1.182  Sum_probs=3.5  Template_Neff=5.500
+
+Q LATSYV            1 LATSYV    6 (6)
+Q Consensus         1 latsyv    6 (6)
+                      ||.|||
+T Consensus        47 LA~SYI   52 (161)
+T 2YNQ_B           47 LASSYV   52 (161)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            466664
+
+
+No 2
+>5X90_G IcmJ (DotN); Type IV secretion system, Coupling; 2.8A {Legionella pneumophila subsp. pneumophila (strain Philadelphia 1 / ATCC 33152 / DSM 7513)}
+Probab=5.60  E-value=6.2e+02  Score=10.69  Aligned_cols=5  Identities=80%  Similarity=1.178  Sum_probs=0.0  Template_Neff=5.200
+
+Q LATSYV            1 LATSY    5 (6)
+Q Consensus         1 latsy    5 (6)
+                      +||+|
+T Consensus        68 ~aT~Y   72 (108)
+T 5X90_G           68 IATSY   72 (108)
+T ss_dssp             HHSCB
+T ss_pred             HHhcC
+
+
+No 3
+>5OBZ_B Putative transcription factor; complex, TRANSCRIPTION; 3.7A {Chaetomium thermophilum (strain DSM 1495 / CBS 144.50 / IMI 039719)}
+Probab=5.41  E-value=6.5e+02  Score=11.38  Aligned_cols=5  Identities=80%  Similarity=1.079  Sum_probs=0.0  Template_Neff=5.200
+
+Q LATSYV            1 LATSY    5 (6)
+Q Consensus         1 latsy    5 (6)
+                      ||-||
+T Consensus         5 LARSY    9 (167)
+T 5OBZ_B            5 LARSY    9 (167)
+T ss_dssp             -----
+T ss_pred             hhhcH
+
+
+No 4
+>1W4A_B NTPASE P4; VIRUS DSRNA, PACKAGING ATPASE, HEXAMERIC; HET: APC; 2.4A {BACTERIOPHAGE PHI-12} SCOP: c.37.1.11
+Probab=5.38  E-value=6.5e+02  Score=12.82  Aligned_cols=5  Identities=80%  Similarity=1.085  Sum_probs=0.0  Template_Neff=4.500
+
+Q LATSYV            1 LATSY    5 (6)
+Q Consensus         1 latsy    5 (6)
+                      |+|||
+T Consensus       284 ~~~~~  288 (331)
+T 1W4A_B          284 LQTSY  288 (331)
+T ss_dssp             EEEEE
+T ss_pred             ecccc
+
+
+No 5
+>2VHJ_A NTPASE P4; NON- HYDROLYSABLE ATP ANALOGUE, HYDROLASE; HET: ADP; 1.8A {PSEUDOMONAS PHAGE PHI12}
+Probab=5.36  E-value=6.5e+02  Score=12.81  Aligned_cols=5  Identities=80%  Similarity=1.085  Sum_probs=0.0  Template_Neff=4.500
+
+Q LATSYV            1 LATSY    5 (6)
+Q Consensus         1 latsy    5 (6)
+                      |+|||
+T Consensus       284 ~~~~~  288 (331)
+T 2VHJ_A          284 LQTSY  288 (331)
+T ss_dssp             EEEEE
+T ss_pred             eeccc
+
+
+No 6
+>2VHT_A NTPASE P4; NON-HYDROLYSABLE ATP ANALOGUE, HYDROLASE, VIRUS; HET: ATP; 3.0A {PSEUDOMONAS PHAGE PHI12}
+Probab=5.26  E-value=6.7e+02  Score=12.81  Aligned_cols=5  Identities=80%  Similarity=1.085  Sum_probs=0.0  Template_Neff=4.400
+
+Q LATSYV            1 LATSY    5 (6)
+Q Consensus         1 latsy    5 (6)
+                      |+|||
+T Consensus       284 ~~~~~  288 (331)
+T 2VHT_A          284 LQTSY  288 (331)
+T ss_dssp             EEEEE
+T ss_pred             eeccc
+
+
+No 7
+>4RKU_N Photosystem I P700 chlorophyll a; light harvesting, membrane complex, plastocyanin; HET: G3P, BCR, CL0, NEX, LMG, SF4, LHG, LUT, DGD, CLA, PQN; 3.0A {Pisum sativum}
+Probab=4.97  E-value=7.2e+02  Score=11.01  Aligned_cols=5  Identities=80%  Similarity=0.474  Sum_probs=0.0  Template_Neff=2.200
+
+Q LATSYV            1 LATSY    5 (6)
+Q Consensus         1 latsy    5 (6)
+                      ||||+
+T Consensus        22 lAtsg   26 (85)
+T 4RKU_N           22 LATSG   26 (85)
+T ss_pred             Hhhhh
+
+
+No 8
+>5WRV_A Ig gamma-1 chain C region; Complex, human, SRP72, SRP68, signal; HET: GOL, SO4; 1.7A {Homo sapiens}
+Probab=4.85  E-value=7.4e+02  Score=9.49  Aligned_cols=6  Identities=50%  Similarity=0.401  Sum_probs=0.0  Template_Neff=7.500
+
+Q LATSYV            1 LATSYV    6 (6)
+Q Consensus         1 latsyv    6 (6)
+                      ||-+|+
+T Consensus        85 lA~NyI   90 (106)
+T 5WRV_A           85 LALNHV   90 (106)
+T ss_pred             hhcccc
+
+
+No 9
+>4LOH_A Stimulator of interferon genes protein; innate immunity, IMMUNE SYSTEM; HET: 1SY; 2.25A {Homo sapiens}
+Probab=4.71  E-value=7.7e+02  Score=11.08  Aligned_cols=5  Identities=80%  Similarity=0.860  Sum_probs=0.0  Template_Neff=5.900
+
+Q LATSYV            1 LATSY    5 (6)
+Q Consensus         1 latsy    5 (6)
+                      ||.||
+T Consensus         6 lAwSy   10 (188)
+T 4LOH_A            6 LAWSY   10 (188)
+T ss_dssp             HHHHH
+T ss_pred             HHhch
+
+
+No 10
+>4LOI_B Stimulator of interferon genes protein; innate immunity, IMMUNE SYSTEM; HET: 1YC; 1.89A {Homo sapiens}
+Probab=4.71  E-value=7.7e+02  Score=11.08  Aligned_cols=5  Identities=80%  Similarity=0.860  Sum_probs=0.0  Template_Neff=5.900
+
+Q LATSYV            1 LATSY    5 (6)
+Q Consensus         1 latsy    5 (6)
+                      ||.||
+T Consensus         6 lAwSy   10 (188)
+T 4LOI_B            6 LAWSY   10 (188)
+T ss_dssp             HHHHH
+T ss_pred             HHhch
+
+

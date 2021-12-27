@@ -1,0 +1,250 @@
+Query         GGYLLG
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 00:56:49 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GGYLLG/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GGYLLG/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 1Y16_A prion protein, PrP, Prn  77.0     1.8   2E-05   19.2   0.0    6    1-6       6-11  (112)
+  2 6AQ7_A Major prion protein, PO  74.8     2.3 2.6E-05   19.2   0.0    6    1-6      22-27  (122)
+  3 1U3M_A prion-like protein; PRI  59.7       8 8.9E-05   16.9   0.0    6    1-6       8-13  (117)
+  4 1U5L_A prion protein; Prnp, Pr  59.1     8.3 9.2E-05   16.6   0.0    6    1-6       8-13  (108)
+  5 6HER_A Nanobody 484, Mouse Pri  57.2     9.5  0.0001   16.6   0.0    6    1-6       9-14  (110)
+  6 4HLS_B Major prion protein; pr  44.9      20 0.00022   16.4   0.0    6    1-6      28-33  (132)
+  7 4HMM_A Major prion protein; pr  44.9      20 0.00022   16.4   0.0    6    1-6      28-33  (132)
+  8 3RZU_C STAM-binding protein (E  41.6      24 0.00027   13.6   0.0    6    1-6      45-50  (187)
+  9 7LNA_A infectious mammalian pr  40.6      26 0.00029   16.2   0.0    6    1-6      37-42  (142)
+ 10 3RZU_F STAM-binding protein (E  39.6      28  0.0003   13.5   0.0    6    1-6      45-50  (187)
+ 11 2LFT_A Major prion protein; pr  38.8      29 0.00032   16.1   0.0    6    1-6      37-42  (142)
+ 12 4N9O_A Major prion protein, Na  38.3      30 0.00033   16.0   0.0    6    1-6      37-42  (142)
+ 13 3RZV_A STAM-binding protein (E  34.1      38 0.00043   14.0   0.0    6    1-6      69-74  (211)
+ 14 1QLZ_A PRION PROTEIN; PRION PR  29.8      51 0.00056   15.8   0.0    6    1-6     106-111 (210)
+ 15 1XU0_A prion protein; PRION, A  25.3      69 0.00076   14.5   0.0    6    1-6      30-35  (130)
+ 16 4KML_A Major prion protein (E.  24.0      75 0.00083   15.7   0.0    6    1-6     136-141 (241)
+
+No 1
+>1Y16_A prion protein, PrP, PrnP, TSE; NMR {Mus musculus}
+Probab=77.02  E-value=1.8  Score=19.24  Aligned_cols=6  Identities=83%  Similarity=1.907  Sum_probs=5.0  Template_Neff=2.400
+
+Q GGYLLG            1 GGYLLG    6 (6)
+Q Consensus         1 ggyllg    6 (6)
+                      |||+||
+T Consensus         6 GGY~LG   11 (112)
+T 1Y16_A            6 GGYMLG   11 (112)
+T ss_dssp             SSCEEC
+T ss_pred             hHHhHH
+Confidence            789887
+
+
+No 2
+>6AQ7_A Major prion protein, POM6 FAB; Prion, antibody, chaperone, antigen-antibody, IMMUNE; HET: TCE, GOL; 1.83A {Mus musculus}
+Probab=74.82  E-value=2.3  Score=19.17  Aligned_cols=6  Identities=83%  Similarity=1.907  Sum_probs=4.8  Template_Neff=2.300
+
+Q GGYLLG            1 GGYLLG    6 (6)
+Q Consensus         1 ggyllg    6 (6)
+                      |||+||
+T Consensus        22 GGY~LG   27 (122)
+T 6AQ7_A           22 GGYMLG   27 (122)
+T ss_dssp             CCCEEC
+T ss_pred             HHHhHH
+Confidence            688887
+
+
+No 3
+>1U3M_A prion-like protein; PRION PROTEIN, TSE, PRP, MEMBRANE; NMR {Gallus gallus} SCOP: d.6.1.1
+Probab=59.69  E-value=8  Score=16.91  Aligned_cols=6  Identities=67%  Similarity=1.619  Sum_probs=4.4  Template_Neff=3.800
+
+Q GGYLLG            1 GGYLLG    6 (6)
+Q Consensus         1 ggyllg    6 (6)
+                      |||.||
+T Consensus         8 ~gy~lG   13 (117)
+T 1U3M_A            8 GGYAMG   13 (117)
+T ss_dssp             SCCEEC
+T ss_pred             hhhhcc
+Confidence            578876
+
+
+No 4
+>1U5L_A prion protein; Prnp, PrP, prion, TSE, MEMBRANE; NMR {Trachemys scripta} SCOP: d.6.1.1
+Probab=59.08  E-value=8.3  Score=16.63  Aligned_cols=6  Identities=83%  Similarity=1.686  Sum_probs=4.4  Template_Neff=3.900
+
+Q GGYLLG            1 GGYLLG    6 (6)
+Q Consensus         1 ggyllg    6 (6)
+                      |||.||
+T Consensus         8 ~gy~lG   13 (108)
+T 1U5L_A            8 GGYALG   13 (108)
+T ss_dssp             TTSEEC
+T ss_pred             hhhhcc
+Confidence            578776
+
+
+No 5
+>6HER_A Nanobody 484, Mouse Prion protein; Prion, Nanobody, aggregation, B-sheet, PROTEIN; HET: SO4; 1.199A {Mus musculus}
+Probab=57.15  E-value=9.5  Score=16.56  Aligned_cols=6  Identities=83%  Similarity=1.907  Sum_probs=3.5  Template_Neff=3.800
+
+Q GGYLLG            1 GGYLLG    6 (6)
+Q Consensus         1 ggyllg    6 (6)
+                      |||.||
+T Consensus         9 ~gy~lG   14 (110)
+T 6HER_A            9 GGYMLG   14 (110)
+T ss_dssp             EEEC-C
+T ss_pred             hHHhhh
+Confidence            577776
+
+
+No 6
+>4HLS_B Major prion protein; prp, prion, membrane, MEMBRANE PROTEIN; HET: GOL; 1.45A {Oryctolagus cuniculus}
+Probab=44.92  E-value=20  Score=16.42  Aligned_cols=6  Identities=83%  Similarity=1.907  Sum_probs=4.0  Template_Neff=2.600
+
+Q GGYLLG            1 GGYLLG    6 (6)
+Q Consensus         1 ggyllg    6 (6)
+                      |||.||
+T Consensus        28 gGY~LG   33 (132)
+T 4HLS_B           28 GGYMLG   33 (132)
+T ss_dssp             CCCEEC
+T ss_pred             HHHHhh
+Confidence            577775
+
+
+No 7
+>4HMM_A Major prion protein; prp, prion, membrane, MEMBRANE PROTEIN; HET: GOL; 1.5A {Oryctolagus cuniculus}
+Probab=44.92  E-value=20  Score=16.42  Aligned_cols=6  Identities=83%  Similarity=1.907  Sum_probs=4.0  Template_Neff=2.600
+
+Q GGYLLG            1 GGYLLG    6 (6)
+Q Consensus         1 ggyllg    6 (6)
+                      |||.||
+T Consensus        28 gGY~LG   33 (132)
+T 4HMM_A           28 GGYMLG   33 (132)
+T ss_dssp             CCCEEC
+T ss_pred             HHHHhh
+Confidence            577775
+
+
+No 8
+>3RZU_C STAM-binding protein (E.C.3.4.19.-); Ubiquitin Hydrolase, STAM, Endosome-associated deubiquitinating; HET: ZN; 2.5A {Homo sapiens}
+Probab=41.63  E-value=24  Score=13.60  Aligned_cols=6  Identities=50%  Similarity=0.722  Sum_probs=3.0  Template_Neff=9.300
+
+Q GGYLLG            1 GGYLLG    6 (6)
+Q Consensus         1 ggyllg    6 (6)
+                      +|+|+|
+T Consensus        45 ~G~LlG   50 (187)
+T 3RZU_C           45 CGILCG   50 (187)
+T ss_dssp             EEEEEE
+T ss_pred             eEEEEE
+Confidence            355554
+
+
+No 9
+>7LNA_A infectious mammalian prion, templating, glycosylated; 3.1A {Mesocricetus auratus}
+Probab=40.64  E-value=26  Score=16.24  Aligned_cols=6  Identities=83%  Similarity=1.907  Sum_probs=3.8  Template_Neff=2.600
+
+Q GGYLLG            1 GGYLLG    6 (6)
+Q Consensus         1 ggyllg    6 (6)
+                      |||.||
+T Consensus        37 ~GY~LG   42 (142)
+T 7LNA_A           37 GGYMLG   42 (142)
+T ss_dssp             SCSCBS
+T ss_pred             HHHHhH
+Confidence            467665
+
+
+No 10
+>3RZU_F STAM-binding protein (E.C.3.4.19.-); Ubiquitin Hydrolase, STAM, Endosome-associated deubiquitinating; HET: ZN; 2.5A {Homo sapiens}
+Probab=39.61  E-value=28  Score=13.52  Aligned_cols=6  Identities=50%  Similarity=0.722  Sum_probs=3.0  Template_Neff=9.200
+
+Q GGYLLG            1 GGYLLG    6 (6)
+Q Consensus         1 ggyllg    6 (6)
+                      +|+|+|
+T Consensus        45 ~G~LlG   50 (187)
+T 3RZU_F           45 CGILCG   50 (187)
+T ss_dssp             EEEEEE
+T ss_pred             cEEEEE
+Confidence            355554
+
+
+No 11
+>2LFT_A Major prion protein; protective mutant, membrane protein, protein; NMR {Homo sapiens}
+Probab=38.79  E-value=29  Score=16.06  Aligned_cols=6  Identities=83%  Similarity=1.907  Sum_probs=3.8  Template_Neff=2.700
+
+Q GGYLLG            1 GGYLLG    6 (6)
+Q Consensus         1 ggyllg    6 (6)
+                      |||.||
+T Consensus        37 ~GY~LG   42 (142)
+T 2LFT_A           37 GGYMLG   42 (142)
+T ss_dssp             SSCCEE
+T ss_pred             HHHHHH
+Confidence            467665
+
+
+No 12
+>4N9O_A Major prion protein, Nanobody Nb484; Prion-like fold, antibody, nanobody, MEMBRANE; 1.5A {Homo sapiens}
+Probab=38.28  E-value=30  Score=16.02  Aligned_cols=6  Identities=83%  Similarity=1.907  Sum_probs=3.7  Template_Neff=2.700
+
+Q GGYLLG            1 GGYLLG    6 (6)
+Q Consensus         1 ggyllg    6 (6)
+                      |||.||
+T Consensus        37 ~GY~LG   42 (142)
+T 4N9O_A           37 GGYMLG   42 (142)
+T ss_dssp             EEEEEC
+T ss_pred             HHHHHH
+Confidence            467665
+
+
+No 13
+>3RZV_A STAM-binding protein (E.C.3.4.19.-); Ubiquitin Hydrolase, STAM, Endosome-associated deubiquitinating; 1.67A {Homo sapiens}
+Probab=34.12  E-value=38  Score=13.98  Aligned_cols=6  Identities=50%  Similarity=0.722  Sum_probs=3.2  Template_Neff=8.100
+
+Q GGYLLG            1 GGYLLG    6 (6)
+Q Consensus         1 ggyllg    6 (6)
+                      +|+|+|
+T Consensus        69 ~G~LlG   74 (211)
+T 3RZV_A           69 CGILCG   74 (211)
+T ss_dssp             EEEEEE
+T ss_pred             cEEEEE
+Confidence            355554
+
+
+No 14
+>1QLZ_A PRION PROTEIN; PRION PROTEIN, PRION, BRAIN, GLYCOPROTEIN; NMR {HOMO SAPIENS} SCOP: d.6.1.1
+Probab=29.76  E-value=51  Score=15.84  Aligned_cols=6  Identities=83%  Similarity=1.907  Sum_probs=3.6  Template_Neff=3.500
+
+Q GGYLLG            1 GGYLLG    6 (6)
+Q Consensus         1 ggyllg    6 (6)
+                      |||+||
+T Consensus       106 gGy~LG  111 (210)
+T 1QLZ_A          106 GGYMLG  111 (210)
+T ss_dssp             CSCEEE
+T ss_pred             HHHHHH
+Confidence            466665
+
+
+No 15
+>1XU0_A prion protein; PRION, AMPHIBIAN, GLYCOPROTEIN, MEMBRANE PROTEIN; NMR {Xenopus laevis} SCOP: d.6.1.1
+Probab=25.31  E-value=69  Score=14.48  Aligned_cols=6  Identities=83%  Similarity=1.907  Sum_probs=3.2  Template_Neff=3.500
+
+Q GGYLLG            1 GGYLLG    6 (6)
+Q Consensus         1 ggyllg    6 (6)
+                      |||+||
+T Consensus        30 ~G~~lg   35 (130)
+T 1XU0_A           30 GGYMLG   35 (130)
+T ss_dssp             CEEEEE
+T ss_pred             HHHHHH
+Confidence            455554
+
+
+No 16
+>4KML_A Major prion protein (E.C.04156-1), ; Prion-like fold, antibody, nanobody, MEMBRANE; 1.5A {Homo sapiens}
+Probab=23.97  E-value=75  Score=15.67  Aligned_cols=6  Identities=83%  Similarity=1.907  Sum_probs=3.5  Template_Neff=3.200
+
+Q GGYLLG            1 GGYLLG    6 (6)
+Q Consensus         1 ggyllg    6 (6)
+                      |||+||
+T Consensus       136 GGylLG  141 (241)
+T 4KML_A          136 GGYMLG  141 (241)
+T ss_dssp             EEEEEC
+T ss_pred             HHHHhh
+Confidence            466664
+
+

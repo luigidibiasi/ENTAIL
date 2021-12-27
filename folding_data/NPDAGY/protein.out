@@ -1,0 +1,204 @@
+Query         NPDAGY
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 03:06:27 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NPDAGY/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NPDAGY/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2C34_A INHIBITOR OF CYSTEINE P  47.6      17 0.00019   13.6   0.0    6    1-6      32-37  (116)
+  2 5SWK_C E3 ubiquitin-protein li  41.3      25 0.00028   13.2   0.0    6    1-6      30-35  (110)
+  3 2WGN_B INHIBITOR OF CYSTEINE P  36.9      32 0.00036   13.7   0.0    6    1-6      52-57  (132)
+  4 4BGP_A NUCLEOPROTEIN; VIRAL PR  30.3      49 0.00054   15.8   0.0    6    1-6      19-24  (236)
+  5 4BHH_F NUCLEOPROTEIN; VIRAL PR  30.3      49 0.00054   15.8   0.0    6    1-6      19-24  (236)
+  6 4J1J_C Nucleocapsid; PROTEIN-D  30.2      49 0.00054   15.8   0.0    6    1-6      21-26  (235)
+  7 6NVX_B penicillin G acylase, a  23.2      80 0.00088   14.5   0.0    6    1-6     235-240 (538)
+  8 3ZL9_D NUCLEOCAPSID PROTEIN; V  21.7      89 0.00099   14.8   0.0    6    1-6      20-25  (234)
+  9 3ZLA_B NUCLEOPROTEIN; VIRAL PR  21.7      90 0.00099   14.8   0.0    6    1-6      20-25  (235)
+ 10 4JNG_D PROTEIN/RNA Complex; Ne  21.6      90   0.001   14.8   0.0    6    1-6      19-24  (233)
+ 11 4J1J_B Nucleocapsid; PROTEIN-D  21.3      92   0.001   14.8   0.0    6    1-6      21-26  (235)
+ 12 4IJS_B Nucleoprotein; nucleoca  20.7      96  0.0011   14.9   0.0    6    1-6      33-38  (248)
+ 13 1CP9_B PENICILLIN AMIDOHYDROLA  20.5      98  0.0011   14.3   0.0    6    1-6     231-236 (553)
+
+No 1
+>2C34_A INHIBITOR OF CYSTEINE PEPTIDASES; ICP, CHAGASIN, CYSTEINE PEPTIDASE, INHIBITOR; NMR {LEISHMANIA MEXICANA} SCOP: b.1.26.1
+Probab=47.63  E-value=17  Score=13.61  Aligned_cols=6  Identities=67%  Similarity=1.464  Sum_probs=2.5  Template_Neff=8.300
+
+Q NPDAGY            1 NPDAGY    6 (6)
+Q Consensus         1 npdagy    6 (6)
+                      ||..||
+T Consensus        32 npsTGy   37 (116)
+T 2C34_A           32 NPTTGY   37 (116)
+T ss_dssp             CTTSSC
+T ss_pred             CCCCCc
+Confidence            344443
+
+
+No 2
+>5SWK_C E3 ubiquitin-protein ligase Mdm2 (E.C.6.3.2.-); peptidomimetics, biosensor, scaffold, designed, DE; HET: SO4; 1.923A {Homo sapiens}
+Probab=41.33  E-value=25  Score=13.24  Aligned_cols=6  Identities=67%  Similarity=1.464  Sum_probs=2.6  Template_Neff=8.000
+
+Q NPDAGY            1 NPDAGY    6 (6)
+Q Consensus         1 npdagy    6 (6)
+                      ||..||
+T Consensus        30 npsTGy   35 (110)
+T 5SWK_C           30 NPTTGY   35 (110)
+T ss_dssp             CGGGTC
+T ss_pred             CCCCCc
+Confidence            344444
+
+
+No 3
+>2WGN_B INHIBITOR OF CYSTEINE PEPTIDASE COMPND; HYDROLASE INHIBITOR, DYNAMICS, PEPTIDASE INHIBITOR; NMR {PSEUDOMONAS AERUGINOSA}
+Probab=36.89  E-value=32  Score=13.68  Aligned_cols=6  Identities=50%  Similarity=1.315  Sum_probs=2.4  Template_Neff=7.300
+
+Q NPDAGY            1 NPDAGY    6 (6)
+Q Consensus         1 npdagy    6 (6)
+                      ||..||
+T Consensus        52 NpsTGY   57 (132)
+T 2WGN_B           52 NPTTGF   57 (132)
+T ss_dssp             CTTTSC
+T ss_pred             CCCCCc
+Confidence            344443
+
+
+No 4
+>4BGP_A NUCLEOPROTEIN; VIRAL PROTEIN, ORTHOBUNYAVIRUS, NUCLEOPROTEIN; HET: SO4; 1.8A {LA CROSSE VIRUS}
+Probab=30.29  E-value=49  Score=15.84  Aligned_cols=6  Identities=83%  Similarity=1.736  Sum_probs=4.1  Template_Neff=4.200
+
+Q NPDAGY            1 NPDAGY    6 (6)
+Q Consensus         1 npdagy    6 (6)
+                      ||+++|
+T Consensus        19 dP~~~Y   24 (236)
+T 4BGP_A           19 DPDAGY   24 (236)
+T ss_dssp             CHHHHH
+T ss_pred             ChHHHH
+Confidence            577776
+
+
+No 5
+>4BHH_F NUCLEOPROTEIN; VIRAL PROTEIN-RNA COMPLEX, RNA-BINDING, GENOME; 3.4A {LA CROSSE VIRUS}
+Probab=30.29  E-value=49  Score=15.84  Aligned_cols=6  Identities=83%  Similarity=1.736  Sum_probs=4.1  Template_Neff=4.200
+
+Q NPDAGY            1 NPDAGY    6 (6)
+Q Consensus         1 npdagy    6 (6)
+                      ||+++|
+T Consensus        19 dP~~~Y   24 (236)
+T 4BHH_F           19 DPDAGY   24 (236)
+T ss_dssp             CHHHHH
+T ss_pred             ChHHHH
+Confidence            577776
+
+
+No 6
+>4J1J_C Nucleocapsid; PROTEIN-DNA COMPLEX, nucleic acids binding; 2.65A {Leanyer virus}
+Probab=30.20  E-value=49  Score=15.78  Aligned_cols=6  Identities=67%  Similarity=1.558  Sum_probs=4.0  Template_Neff=4.300
+
+Q NPDAGY            1 NPDAGY    6 (6)
+Q Consensus         1 npdagy    6 (6)
+                      ||+++|
+T Consensus        21 dP~~~Y   26 (235)
+T 4J1J_C           21 NPEKGY   26 (235)
+T ss_dssp             CHHHHH
+T ss_pred             CHHHHH
+Confidence            577766
+
+
+No 7
+>6NVX_B penicillin G acylase, alpha-subunit, penicillin; penicillin, acylase, HYDROLASE; HET: GOL, EPE; 1.36A {Bacillus sp. FJAT-27231}
+Probab=23.21  E-value=80  Score=14.51  Aligned_cols=6  Identities=67%  Similarity=1.437  Sum_probs=2.8  Template_Neff=8.800
+
+Q NPDAGY            1 NPDAGY    6 (6)
+Q Consensus         1 npdagy    6 (6)
+                      ||..||
+T Consensus       235 NP~~G~  240 (538)
+T 6NVX_B          235 NPKKGY  240 (538)
+T ss_pred             CCCCCe
+Confidence            455443
+
+
+No 8
+>3ZL9_D NUCLEOCAPSID PROTEIN; VIRAL PROTEIN, ORTHOBUNYAVIRUS, NUCLEOPROTEIN; 2.75A {SCHMALLENBERG VIRUS}
+Probab=21.73  E-value=89  Score=14.85  Aligned_cols=6  Identities=67%  Similarity=1.586  Sum_probs=3.7  Template_Neff=4.600
+
+Q NPDAGY            1 NPDAGY    6 (6)
+Q Consensus         1 npdagy    6 (6)
+                      ||+++|
+T Consensus        20 dP~~~Y   25 (234)
+T 3ZL9_D           20 NPEVGY   25 (234)
+T ss_dssp             CHHHHH
+T ss_pred             ChHHHH
+Confidence            466665
+
+
+No 9
+>3ZLA_B NUCLEOPROTEIN; VIRAL PROTEIN-RNA COMPLEX; 3.2A {ESCHERICHIA COLI}
+Probab=21.67  E-value=90  Score=14.85  Aligned_cols=6  Identities=33%  Similarity=1.160  Sum_probs=3.7  Template_Neff=4.600
+
+Q NPDAGY            1 NPDAGY    6 (6)
+Q Consensus         1 npdagy    6 (6)
+                      ||+++|
+T Consensus        20 dP~~~Y   25 (235)
+T 3ZLA_B           20 DPEVAY   25 (235)
+T ss_dssp             CHHHHH
+T ss_pred             CHHHHH
+Confidence            466665
+
+
+No 10
+>4JNG_D PROTEIN/RNA Complex; Negative-stranded RNA virus nucleoprotein, bunyavirus; 2.12A {Schmallenberg virus}
+Probab=21.59  E-value=90  Score=14.82  Aligned_cols=6  Identities=67%  Similarity=1.586  Sum_probs=3.7  Template_Neff=4.600
+
+Q NPDAGY            1 NPDAGY    6 (6)
+Q Consensus         1 npdagy    6 (6)
+                      ||+++|
+T Consensus        19 dP~~~Y   24 (233)
+T 4JNG_D           19 NPEVGY   24 (233)
+T ss_dssp             CHHHHH
+T ss_pred             ChHHHH
+Confidence            466665
+
+
+No 11
+>4J1J_B Nucleocapsid; PROTEIN-DNA COMPLEX, nucleic acids binding; 2.65A {Leanyer virus}
+Probab=21.27  E-value=92  Score=14.81  Aligned_cols=6  Identities=67%  Similarity=1.558  Sum_probs=3.6  Template_Neff=4.600
+
+Q NPDAGY            1 NPDAGY    6 (6)
+Q Consensus         1 npdagy    6 (6)
+                      ||+++|
+T Consensus        21 dP~~~Y   26 (235)
+T 4J1J_B           21 NPEKGY   26 (235)
+T ss_dssp             CHHHHH
+T ss_pred             ChHHHH
+Confidence            466665
+
+
+No 12
+>4IJS_B Nucleoprotein; nucleocapsid protein, RNA binding, RNA; 3.2A {Bunyamwera virus}
+Probab=20.75  E-value=96  Score=14.94  Aligned_cols=6  Identities=33%  Similarity=1.160  Sum_probs=3.5  Template_Neff=4.400
+
+Q NPDAGY            1 NPDAGY    6 (6)
+Q Consensus         1 npdagy    6 (6)
+                      ||+++|
+T Consensus        33 dP~~~Y   38 (248)
+T 4IJS_B           33 DPEVAY   38 (248)
+T ss_dssp             CHHHHH
+T ss_pred             CHHHHH
+Confidence            466665
+
+
+No 13
+>1CP9_B PENICILLIN AMIDOHYDROLASE (E.C.3.5.1.11); ANTIBIOTIC RESISTANCE, AMIDOHYDROLASE, NTN-HYDROLASE FOLD; HET: SO4; 2.5A {Providencia rettgeri}
+Probab=20.52  E-value=98  Score=14.30  Aligned_cols=6  Identities=67%  Similarity=1.520  Sum_probs=2.8  Template_Neff=8.800
+
+Q NPDAGY            1 NPDAGY    6 (6)
+Q Consensus         1 npdagy    6 (6)
+                      ||..||
+T Consensus       231 NP~~G~  236 (553)
+T 1CP9_B          231 NPKSGY  236 (553)
+T ss_dssp             SCTTSE
+T ss_pred             CCCCCe
+Confidence            444443
+
+

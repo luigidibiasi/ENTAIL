@@ -1,0 +1,152 @@
+Query         FQPQSQ
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 21:52:46 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/FQPQSQ/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/FQPQSQ/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3HWU_A Putative DNA-binding pr  30.8      47 0.00052   13.1   0.0    6    1-6     142-147 (147)
+  2 5AN9_J 60S RIBOSOMAL PROTEIN L  24.1      75 0.00082   14.5   0.0    6    1-6       4-9   (250)
+  3 1AM7_B LYSOZYME; GLYCOSIDASE,   17.6 1.3E+02  0.0014   13.0   0.0    6    1-6      86-91  (158)
+  4 3D3D_B BACTERIOPHAGE LAMBDA LY  16.3 1.4E+02  0.0016   12.7   0.0    6    1-6      86-91  (154)
+  5 3H92_A Uncharacterized ATP-bin  16.2 1.4E+02  0.0016   12.2   0.0    4    2-5      78-81  (92)
+  6 3ON5_A BH1974 protein; STRUCTU  14.5 1.7E+02  0.0019   13.5   0.0    5    1-5     355-359 (362)
+  7 6PTJ_F DNA replication licensi  13.8 1.8E+02   0.002   14.2   0.0    5    1-5     479-483 (927)
+  8 1TUC_A ALPHA-SPECTRIN; CAPPING  13.7 1.8E+02   0.002    7.9   0.0    5    1-5      59-63  (63)
+  9 3BJO_A Uncharacterized ATP-bin  12.4 2.1E+02  0.0023   12.0   0.0    4    2-5      89-92  (103)
+ 10 6CZH_A mFAP0; beta barrel, Ros  12.4 2.1E+02  0.0024   13.1   0.0    5    1-5      30-34  (112)
+
+No 1
+>3HWU_A Putative DNA-binding protein; YP_299413.1, Putative DNA-binding protein, Structural; 1.3A {Ralstonia eutropha}
+Probab=30.83  E-value=47  Score=13.13  Aligned_cols=6  Identities=17%  Similarity=0.080  Sum_probs=2.3  Template_Neff=7.900
+
+Q FQPQSQ            1 FQPQSQ    6 (6)
+Q Consensus         1 fqpqsq    6 (6)
+                      |+|++|
+T Consensus       142 ~~~~~~  147 (147)
+T 3HWU_A          142 LGLPQQ  147 (147)
+T ss_dssp             ECCC--
+T ss_pred             cCCCCC
+Confidence            456665
+
+
+No 2
+>5AN9_J 60S RIBOSOMAL PROTEIN L3, 60S; TRANSLATION, RIBOSOMOPATHY, EFL1, GTPASE, RIBOSOME; 3.3A {DICTYOSTELIUM DISCOIDEUM}
+Probab=24.14  E-value=75  Score=14.47  Aligned_cols=6  Identities=50%  Similarity=1.010  Sum_probs=4.0  Template_Neff=6.200
+
+Q FQPQSQ            1 FQPQSQ    6 (6)
+Q Consensus         1 fqpqsq    6 (6)
+                      |||..|
+T Consensus         4 ~~P~nq    9 (250)
+T 5AN9_J            4 FTPTNQ    9 (250)
+T ss_dssp             SSCCCC
+T ss_pred             ccCCcc
+Confidence            677654
+
+
+No 3
+>1AM7_B LYSOZYME; GLYCOSIDASE, TRANSGLYCOSYLASE, EVOLUTION, LYSOZYME; HET: TRN, IPA; 2.3A {Enterobacteria phage lambda} SCOP: d.2.1.4
+Probab=17.61  E-value=1.3e+02  Score=12.98  Aligned_cols=6  Identities=67%  Similarity=1.176  Sum_probs=2.6  Template_Neff=6.100
+
+Q FQPQSQ            1 FQPQSQ    6 (6)
+Q Consensus         1 fqpqsq    6 (6)
+                      |.|.+|
+T Consensus        86 Fsp~~Q   91 (158)
+T 1AM7_B           86 FSPKSQ   91 (158)
+T ss_dssp             CCHHHH
+T ss_pred             CCHHHH
+Confidence            444443
+
+
+No 4
+>3D3D_B BACTERIOPHAGE LAMBDA LYSOZYME COMPLEXED WITH; GLYCOSIDASE, TRANSGLYCOSYLASE, LYSOZYME, PROTEIN-CHITOHEXASSACHARIDE COMPLEX; HET: SO4, NAG; 2.6A {Enterobacteria phage lambda} SCOP: d.2.1.4
+Probab=16.27  E-value=1.4e+02  Score=12.68  Aligned_cols=6  Identities=67%  Similarity=1.176  Sum_probs=0.0  Template_Neff=6.300
+
+Q FQPQSQ            1 FQPQSQ    6 (6)
+Q Consensus         1 fqpqsq    6 (6)
+                      |.|.+|
+T Consensus        86 Fsp~~Q   91 (154)
+T 3D3D_B           86 FSPKSQ   91 (154)
+T ss_dssp             CSHHHH
+T ss_pred             CCHHHH
+
+
+No 5
+>3H92_A Uncharacterized ATP-binding protein MJECL15; Protein with unknown function, structural; HET: PG6; 2.2A {Methanocaldococcus jannaschii}
+Probab=16.23  E-value=1.4e+02  Score=12.16  Aligned_cols=4  Identities=75%  Similarity=1.165  Sum_probs=0.0  Template_Neff=5.300
+
+Q FQPQSQ            2 QPQS    5 (6)
+Q Consensus         2 qpqs    5 (6)
+                      +|||
+T Consensus        78 KpQs   81 (92)
+T 3H92_A           78 KPQS   81 (92)
+T ss_dssp             EESS
+T ss_pred             Ccch
+
+
+No 6
+>3ON5_A BH1974 protein; STRUCTURAL GENOMICS, JOINT CENTER FOR; 2.8A {Bacillus halodurans}
+Probab=14.49  E-value=1.7e+02  Score=13.52  Aligned_cols=5  Identities=80%  Similarity=1.411  Sum_probs=0.0  Template_Neff=7.400
+
+Q FQPQSQ            1 FQPQS    5 (6)
+Q Consensus         1 fqpqs    5 (6)
+                      |||.|
+T Consensus       355 ~~~~~  359 (362)
+T 3ON5_A          355 FQPES  359 (362)
+T ss_dssp             C----
+T ss_pred             cCccc
+
+
+No 7
+>6PTJ_F DNA replication licensing factor MCM2; Replication factory, sister replication forks; 3.8A {Saccharomyces cerevisiae}
+Probab=13.75  E-value=1.8e+02  Score=14.21  Aligned_cols=5  Identities=40%  Similarity=0.999  Sum_probs=0.0  Template_Neff=9.300
+
+Q FQPQSQ            1 FQPQS    5 (6)
+Q Consensus         1 fqpqs    5 (6)
+                      |||-|
+T Consensus       479 fqpgs  483 (927)
+T 6PTJ_F          479 FSPAG  483 (927)
+T ss_pred             CCCCC
+
+
+No 8
+>1TUC_A ALPHA-SPECTRIN; CAPPING PROTEIN, CALCIUM-BINDING, DUPLICATION, SH3; 2.02A {Gallus gallus} SCOP: b.34.2.1
+Probab=13.74  E-value=1.8e+02  Score=7.94  Aligned_cols=5  Identities=40%  Similarity=0.733  Sum_probs=0.0  Template_Neff=11.900
+
+Q FQPQSQ            1 FQPQS    5 (6)
+Q Consensus         1 fqpqs    5 (6)
+                      |.|++
+T Consensus        59 ~~~~~   63 (63)
+T 1TUC_A           59 YQEKS   63 (63)
+T ss_dssp             BCC--
+T ss_pred             ccCCC
+
+
+No 9
+>3BJO_A Uncharacterized ATP-binding protein MJ1010; APC87992.1, Methanocaldococcus jannaschii DSM 2661; 2.05A {Methanocaldococcus jannaschii DSM 2661}
+Probab=12.42  E-value=2.1e+02  Score=12.05  Aligned_cols=4  Identities=75%  Similarity=1.165  Sum_probs=0.0  Template_Neff=4.900
+
+Q FQPQSQ            2 QPQS    5 (6)
+Q Consensus         2 qpqs    5 (6)
+                      +|||
+T Consensus        89 KPQS   92 (103)
+T 3BJO_A           89 KPQS   92 (103)
+T ss_dssp             EESS
+T ss_pred             CCcc
+
+
+No 10
+>6CZH_A mFAP0; beta barrel, Rossetta, computational, de; HET: 38E; 1.8A {synthetic construct}
+Probab=12.36  E-value=2.1e+02  Score=13.13  Aligned_cols=5  Identities=80%  Similarity=1.398  Sum_probs=0.0  Template_Neff=1.000
+
+Q FQPQSQ            1 FQPQS    5 (6)
+Q Consensus         1 fqpqs    5 (6)
+                      |||.|
+T Consensus        30 fqprs   34 (112)
+T 6CZH_A           30 FQPRS   34 (112)
+T ss_dssp             EEEEE
+T ss_pred             ecCCC
+
+

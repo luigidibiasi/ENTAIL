@@ -1,0 +1,358 @@
+Query         FSKDWS
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 21:59:08 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/FSKDWS/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/FSKDWS/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3R8R_A Transaldolase (E.C.2.2.  40.2      27 0.00029   14.7   0.0    6    1-6     206-211 (212)
+  2 4E8U_A Putative uncharacterize  35.1      36  0.0004   14.6   0.0    6    1-6      69-74  (172)
+  3 3R8R_M Transaldolase (E.C.2.2.  32.5      42 0.00047   14.1   0.0    6    1-6     206-211 (212)
+  4 4RZ4_A Fructose-6-phosphate al  29.0      53 0.00059   14.2   0.0    6    1-6     213-218 (226)
+  5 1WX0_C transaldolase (E.C.2.2.  27.9      57 0.00063   13.9   0.0    6    1-6     214-219 (223)
+  6 3U5Z_A DNA polymerase accessor  26.9      62 0.00068   15.1   0.0    6    1-6      17-22  (199)
+  7 3U61_A DNA polymerase accessor  26.3      64 0.00071   15.1   0.0    6    1-6      17-22  (199)
+  8 6YR3_D Probable transaldolase   26.2      64 0.00071   13.8   0.0    6    1-6     208-213 (223)
+  9 3U60_A DNA polymerase accessor  25.9      66 0.00073   15.0   0.0    6    1-6      17-22  (195)
+ 10 1VPX_G Transaldolase (EC 2.2.1  24.7      71 0.00079   14.0   0.0    6    1-6     217-222 (230)
+ 11 1VPX_N Transaldolase (EC 2.2.1  24.7      71 0.00079   14.0   0.0    6    1-6     217-222 (230)
+ 12 5XY3_L Ribosomal protein L8, p  24.7      71 0.00079   15.0   0.0    6    1-6      13-18  (189)
+ 13 6T4Q_LL 40S ribosomal protein   24.3      74 0.00081   14.8   0.0    6    1-6      13-18  (193)
+ 14 5TBW_CN ?; Protein translation  24.1      75 0.00083   14.8   0.0    6    1-6      13-18  (193)
+ 15 6WOO_L 80S ribosome/eIF5B/RNA   24.0      75 0.00083   14.8   0.0    6    1-6      13-18  (198)
+ 16 5ZOL_B Fructose-6-phosphate al  22.5      84 0.00093   14.0   0.0    6    1-6     242-247 (255)
+ 17 5ZOL_G Fructose-6-phosphate al  22.5      84 0.00093   14.0   0.0    6    1-6     242-247 (255)
+ 18 3J79_L PROTEIN/RNA Complex; em  22.5      84 0.00093   15.0   0.0    6    1-6      13-18  (215)
+ 19 4V7E_CL Ribosome; eukaryotic r  22.1      86 0.00096   14.7   0.0    6    1-6      13-18  (208)
+ 20 3JBP_AL PROTEIN/RNA Complex; R  21.6      90   0.001   14.8   0.0    6    1-6      12-17  (211)
+ 21 6XU6_CL Specialised ribosome,   21.0      95   0.001   14.6   0.0    6    1-6      12-17  (210)
+ 22 6XU8_CL Specialised ribosome,   21.0      95   0.001   14.6   0.0    6    1-6      12-17  (210)
+ 23 4V8P_DU Ribosome; RIBOSOME, EU  20.9      95  0.0011   14.6   0.0    6    1-6      12-17  (206)
+ 24 7CM1_A Neuraminidase (E.C.3.2.  20.7      97  0.0011   16.3   0.0    6    1-6      18-23  (387)
+
+No 1
+>3R8R_A Transaldolase (E.C.2.2.1.2); transaldolase, pentose phosphate pathway, Schiff; HET: SO4, GOL; 1.9A {Bacillus subtilis}
+Probab=40.17  E-value=27  Score=14.66  Aligned_cols=6  Identities=50%  Similarity=1.348  Sum_probs=4.1  Template_Neff=7.700
+
+Q FSKDWS            1 FSKDWS    6 (6)
+Q Consensus         1 fskdws    6 (6)
+                      |.+||+
+T Consensus       206 F~~~~~  211 (212)
+T 3R8R_A          206 FLADWN  211 (212)
+T ss_dssp             HHHHHC
+T ss_pred             HHHHHh
+Confidence            667774
+
+
+No 2
+>4E8U_A Putative uncharacterized protein T8P19.180; XS domain, RNA Binding protein; HET: SO4; 2.701A {Arabidopsis thaliana}
+Probab=35.06  E-value=36  Score=14.60  Aligned_cols=6  Identities=67%  Similarity=1.713  Sum_probs=2.9  Template_Neff=6.300
+
+Q FSKDWS            1 FSKDWS    6 (6)
+Q Consensus         1 fskdws    6 (6)
+                      |.+||+
+T Consensus        69 F~~dw~   74 (172)
+T 4E8U_A           69 FNKDWN   74 (172)
+T ss_dssp             CCSSHH
+T ss_pred             ECCCch
+Confidence            445553
+
+
+No 3
+>3R8R_M Transaldolase (E.C.2.2.1.2); transaldolase, pentose phosphate pathway, Schiff; HET: SO4, GOL; 1.9A {Bacillus subtilis}
+Probab=32.53  E-value=42  Score=14.09  Aligned_cols=6  Identities=50%  Similarity=1.348  Sum_probs=4.0  Template_Neff=7.700
+
+Q FSKDWS            1 FSKDWS    6 (6)
+Q Consensus         1 fskdws    6 (6)
+                      |.+||.
+T Consensus       206 F~~~~~  211 (212)
+T 3R8R_M          206 FLADWN  211 (212)
+T ss_dssp             HHHHHT
+T ss_pred             HHHHHh
+Confidence            667773
+
+
+No 4
+>4RZ4_A Fructose-6-phosphate aldolase 1 (E.C.4.1.2.-); TIM barrel, homodecamer, Lyase; HET: CL, PO4, PGE; 1.75A {Escherichia coli}
+Probab=28.96  E-value=53  Score=14.19  Aligned_cols=6  Identities=50%  Similarity=1.542  Sum_probs=3.8  Template_Neff=7.200
+
+Q FSKDWS            1 FSKDWS    6 (6)
+Q Consensus         1 fskdws    6 (6)
+                      |.+||.
+T Consensus       213 F~~d~~  218 (226)
+T 4RZ4_A          213 FEQDWQ  218 (226)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            567773
+
+
+No 5
+>1WX0_C transaldolase (E.C.2.2.1.2); structural genomics, Thermus thermophilus HB8; 2.27A {Thermus thermophilus HB8} SCOP: c.1.10.1
+Probab=27.94  E-value=57  Score=13.93  Aligned_cols=6  Identities=50%  Similarity=1.398  Sum_probs=0.0  Template_Neff=7.500
+
+Q FSKDWS            1 FSKDWS    6 (6)
+Q Consensus         1 fskdws    6 (6)
+                      |.+||.
+T Consensus       214 F~~~~~  219 (223)
+T 1WX0_C          214 FLEDWE  219 (223)
+T ss_dssp             ------
+T ss_pred             HHHHHH
+Confidence            667773
+
+
+No 6
+>3U5Z_A DNA polymerase accessory protein 44; AAA+, ATP hydrolase, clamp loader; HET: ADP, 08T, MSE; 3.5A {Enterobacteria phage T4}
+Probab=26.86  E-value=62  Score=15.11  Aligned_cols=6  Identities=67%  Similarity=1.713  Sum_probs=4.0  Template_Neff=4.400
+
+Q FSKDWS            1 FSKDWS    6 (6)
+Q Consensus         1 fskdws    6 (6)
+                      +||||.
+T Consensus        17 ~skDw~   22 (199)
+T 3U5Z_A           17 YSKDWT   22 (199)
+T ss_pred             HcCCHH
+Confidence            478883
+
+
+No 7
+>3U61_A DNA polymerase accessory protein 44; AAA+, ATP hydrolase, clamp loader; HET: 08T, ADP; 3.2A {Enterobacteria phage T4}
+Probab=26.26  E-value=64  Score=15.10  Aligned_cols=6  Identities=67%  Similarity=1.713  Sum_probs=4.0  Template_Neff=4.300
+
+Q FSKDWS            1 FSKDWS    6 (6)
+Q Consensus         1 fskdws    6 (6)
+                      +||||.
+T Consensus        17 ~skDw~   22 (199)
+T 3U61_A           17 YSKDWT   22 (199)
+T ss_pred             HcCCHH
+Confidence            478883
+
+
+No 8
+>6YR3_D Probable transaldolase (E.C.2.2.1.2); ALPHA-BETA BARREL, CONFORMATIONAL SELECTION, DOMAIN; HET: F6R, GOL, ACT; 1.48A {Thermoplasma acidophilum (strain ATCC 25905 / DSM 1728 / JCM 9062 / NBRC 15155 / AMRC-C165)}
+Probab=26.20  E-value=64  Score=13.78  Aligned_cols=6  Identities=50%  Similarity=1.392  Sum_probs=3.6  Template_Neff=7.500
+
+Q FSKDWS            1 FSKDWS    6 (6)
+Q Consensus         1 fskdws    6 (6)
+                      |.+||.
+T Consensus       208 F~~~~~  213 (223)
+T 6YR3_D          208 FLEDWK  213 (223)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            566763
+
+
+No 9
+>3U60_A DNA polymerase accessory protein 44; AAA+, ATP hydrolase, sliding clamp; HET: ADP, 08T; 3.34A {Enterobacteria phage T4}
+Probab=25.86  E-value=66  Score=15.02  Aligned_cols=6  Identities=67%  Similarity=1.713  Sum_probs=4.0  Template_Neff=4.300
+
+Q FSKDWS            1 FSKDWS    6 (6)
+Q Consensus         1 fskdws    6 (6)
+                      +||||.
+T Consensus        17 ~skDw~   22 (195)
+T 3U60_A           17 YSKDWT   22 (195)
+T ss_pred             HcCCHH
+Confidence            478883
+
+
+No 10
+>1VPX_G Transaldolase (EC 2.2.1.2); TM0295, TRANSALDOLASE (EC 2.2.1.2), Structural; HET: GOL; 2.4A {Thermotoga maritima} SCOP: c.1.10.1
+Probab=24.74  E-value=71  Score=13.97  Aligned_cols=6  Identities=50%  Similarity=1.431  Sum_probs=3.7  Template_Neff=7.000
+
+Q FSKDWS            1 FSKDWS    6 (6)
+Q Consensus         1 fskdws    6 (6)
+                      |.+||.
+T Consensus       217 F~~d~~  222 (230)
+T 1VPX_G          217 FMEDWK  222 (230)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            566773
+
+
+No 11
+>1VPX_N Transaldolase (EC 2.2.1.2); TM0295, TRANSALDOLASE (EC 2.2.1.2), Structural; HET: GOL; 2.4A {Thermotoga maritima} SCOP: c.1.10.1
+Probab=24.74  E-value=71  Score=13.97  Aligned_cols=6  Identities=50%  Similarity=1.431  Sum_probs=1.2  Template_Neff=7.000
+
+Q FSKDWS            1 FSKDWS    6 (6)
+Q Consensus         1 fskdws    6 (6)
+                      |.+||.
+T Consensus       217 F~~d~~  222 (230)
+T 1VPX_N          217 FMEDWK  222 (230)
+T ss_dssp             TC----
+T ss_pred             HHHHHH
+Confidence            566773
+
+
+No 12
+>5XY3_L Ribosomal protein L8, putative, Uncharacterized; Trichomonas vaginalis ribosome, rRNA, rprotein; 3.2A {Trichomonas vaginalis}
+Probab=24.72  E-value=71  Score=15.01  Aligned_cols=6  Identities=33%  Similarity=0.805  Sum_probs=4.0  Template_Neff=3.900
+
+Q FSKDWS            1 FSKDWS    6 (6)
+Q Consensus         1 fskdws    6 (6)
+                      |.|||.
+T Consensus        13 f~K~wq   18 (189)
+T 5XY3_L           13 LRKYWY   18 (189)
+T ss_pred             cchhhh
+Confidence            567774
+
+
+No 13
+>6T4Q_LL 40S ribosomal protein S1-A, 40S; stalling dicodon codon pair, TRANSLATION; HET: MG; 2.6A {Saccharomyces cerevisiae}
+Probab=24.32  E-value=74  Score=14.77  Aligned_cols=6  Identities=50%  Similarity=1.376  Sum_probs=3.9  Template_Neff=4.500
+
+Q FSKDWS            1 FSKDWS    6 (6)
+Q Consensus         1 fskdws    6 (6)
+                      |.|||.
+T Consensus        13 f~K~wq   18 (193)
+T 6T4Q_LL          13 FRKHWQ   18 (193)
+T ss_pred             cchHHH
+Confidence            567773
+
+
+No 14
+>5TBW_CN ?; Protein translation inhibitor, complex, ribosome; HET: 7AL, MG, ZN, OHX; 3.0A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=24.08  E-value=75  Score=14.79  Aligned_cols=6  Identities=50%  Similarity=1.376  Sum_probs=4.0  Template_Neff=4.400
+
+Q FSKDWS            1 FSKDWS    6 (6)
+Q Consensus         1 fskdws    6 (6)
+                      |.|||.
+T Consensus        13 f~K~wq   18 (193)
+T 5TBW_CN          13 FRKHWQ   18 (193)
+T ss_pred             ccchhh
+Confidence            567773
+
+
+No 15
+>6WOO_L 80S ribosome/eIF5B/RNA Complex; yeast, ribosome, initiation, eIF5B, GDP; HET: GDP, U6A; 2.9A {Saccharomyces cerevisiae}
+Probab=24.00  E-value=75  Score=14.83  Aligned_cols=6  Identities=50%  Similarity=1.376  Sum_probs=4.0  Template_Neff=4.400
+
+Q FSKDWS            1 FSKDWS    6 (6)
+Q Consensus         1 fskdws    6 (6)
+                      |.|||.
+T Consensus        13 f~K~wq   18 (198)
+T 6WOO_L           13 FRKHWQ   18 (198)
+T ss_pred             ccchhh
+Confidence            567773
+
+
+No 16
+>5ZOL_B Fructose-6-phosphate aldolase 1 (E.C.4.1.2.-); Fructose-6-phosphate aldolase, donor, acceptor, mutant; HET: 4Y8, SO4, LW2; 2.172A {Escherichia coli (strain K12)}
+Probab=22.53  E-value=84  Score=14.01  Aligned_cols=6  Identities=50%  Similarity=1.542  Sum_probs=3.8  Template_Neff=6.900
+
+Q FSKDWS            1 FSKDWS    6 (6)
+Q Consensus         1 fskdws    6 (6)
+                      |.+||.
+T Consensus       242 F~~d~~  247 (255)
+T 5ZOL_B          242 FEQDWQ  247 (255)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            567773
+
+
+No 17
+>5ZOL_G Fructose-6-phosphate aldolase 1 (E.C.4.1.2.-); Fructose-6-phosphate aldolase, donor, acceptor, mutant; HET: SO4, LW2, 4Y8; 2.172A {Escherichia coli (strain K12)}
+Probab=22.53  E-value=84  Score=14.01  Aligned_cols=6  Identities=50%  Similarity=1.542  Sum_probs=3.8  Template_Neff=6.900
+
+Q FSKDWS            1 FSKDWS    6 (6)
+Q Consensus         1 fskdws    6 (6)
+                      |.+||.
+T Consensus       242 F~~d~~  247 (255)
+T 5ZOL_G          242 FEQDWQ  247 (255)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            567773
+
+
+No 18
+>3J79_L PROTEIN/RNA Complex; emetine, RIBOSOME-INHIBITOR complex; HET: MG; 3.2A {Plasmodium falciparum}
+Probab=22.49  E-value=84  Score=14.97  Aligned_cols=6  Identities=33%  Similarity=0.789  Sum_probs=4.1  Template_Neff=4.100
+
+Q FSKDWS            1 FSKDWS    6 (6)
+Q Consensus         1 fskdws    6 (6)
+                      |.|||.
+T Consensus        13 f~K~Wq   18 (215)
+T 3J79_L           13 LHKWWQ   18 (215)
+T ss_dssp             CCSCGG
+T ss_pred             cchhHH
+Confidence            667873
+
+
+No 19
+>4V7E_CL Ribosome; eukaryotic ribosome, homology modeling, de; 5.5A {Triticum aestivum}
+Probab=22.14  E-value=86  Score=14.70  Aligned_cols=6  Identities=50%  Similarity=1.392  Sum_probs=3.9  Template_Neff=4.500
+
+Q FSKDWS            1 FSKDWS    6 (6)
+Q Consensus         1 fskdws    6 (6)
+                      |.|||.
+T Consensus        13 f~K~wq   18 (208)
+T 4V7E_CL          13 FKKHWQ   18 (208)
+T ss_pred             ccchhh
+Confidence            567773
+
+
+No 20
+>3JBP_AL PROTEIN/RNA Complex; RIBOSOME; 6.7A {Plasmodium falciparum 3D7}
+Probab=21.62  E-value=90  Score=14.76  Aligned_cols=6  Identities=33%  Similarity=0.789  Sum_probs=4.0  Template_Neff=4.300
+
+Q FSKDWS            1 FSKDWS    6 (6)
+Q Consensus         1 fskdws    6 (6)
+                      |.|||.
+T Consensus        12 f~K~wq   17 (211)
+T 3JBP_AL          12 LHKWWQ   17 (211)
+T ss_pred             cchhhH
+Confidence            567773
+
+
+No 21
+>6XU6_CL Specialised ribosome, Drosophila melanogaster, Testis; 3.5A {Drosophila melanogaster}
+Probab=20.95  E-value=95  Score=14.64  Aligned_cols=6  Identities=33%  Similarity=0.961  Sum_probs=3.9  Template_Neff=4.400
+
+Q FSKDWS            1 FSKDWS    6 (6)
+Q Consensus         1 fskdws    6 (6)
+                      |.|||.
+T Consensus        12 f~K~wq   17 (210)
+T 6XU6_CL          12 YHKWWQ   17 (210)
+T ss_pred             cchhhh
+Confidence            567773
+
+
+No 22
+>6XU8_CL Specialised ribosome, Drosophila melanogaster, Ovary; 3.0A {Drosophila melanogaster}
+Probab=20.95  E-value=95  Score=14.64  Aligned_cols=6  Identities=33%  Similarity=0.961  Sum_probs=3.9  Template_Neff=4.400
+
+Q FSKDWS            1 FSKDWS    6 (6)
+Q Consensus         1 fskdws    6 (6)
+                      |.|||.
+T Consensus        12 f~K~wq   17 (210)
+T 6XU8_CL          12 YHKWWQ   17 (210)
+T ss_pred             cchhhh
+Confidence            567773
+
+
+No 23
+>4V8P_DU Ribosome; RIBOSOME, EUKARYOTIC INITIATION FACTOR 6; HET: MG, ZN; 3.52A {TETRAHYMENA THERMOPHILA}
+Probab=20.92  E-value=95  Score=14.60  Aligned_cols=6  Identities=17%  Similarity=0.163  Sum_probs=3.9  Template_Neff=4.400
+
+Q FSKDWS            1 FSKDWS    6 (6)
+Q Consensus         1 fskdws    6 (6)
+                      |.|||.
+T Consensus        12 f~K~wq   17 (206)
+T 4V8P_DU          12 LRKHQQ   17 (206)
+T ss_pred             cccccc
+Confidence            567773
+
+
+No 24
+>7CM1_A Neuraminidase (E.C.3.2.1.18); Lattice-translocation defects LTD Neuraminidase NA; HET: G39; 2.14A {Wuhan asiatic toad influenza virus}
+Probab=20.72  E-value=97  Score=16.27  Aligned_cols=6  Identities=33%  Similarity=0.966  Sum_probs=4.1  Template_Neff=3.100
+
+Q FSKDWS            1 FSKDWS    6 (6)
+Q Consensus         1 fskdws    6 (6)
+                      |||||+
+T Consensus        18 ~skdn~   23 (387)
+T 7CM1_A           18 MSNVWT   23 (387)
+T ss_dssp             EEEECH
+T ss_pred             eeccCc
+Confidence            677775
+
+

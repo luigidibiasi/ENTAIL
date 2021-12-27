@@ -1,0 +1,148 @@
+Query         QATVYV
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 07:20:05 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QATVYV/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QATVYV/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6SGA_F8 ?; mitochondrial ribos  13.5 1.9E+02  0.0021   16.6   0.0    6    1-6     696-701 (726)
+  2 6SGB_F8 uS5m, Uncharacterized   12.7   2E+02  0.0023   16.4   0.0    6    1-6     696-701 (726)
+  3 6JLC_A CAMP factor; Bacterial   12.5 2.1E+02  0.0023   13.9   0.0    5    2-6     150-154 (231)
+  4 1KKG_A ribosome-binding factor  12.2 2.2E+02  0.0024   10.5   0.0    6    1-6      49-54  (108)
+  5 6ZI0_AAA Endoribonuclease VapD  11.2 2.4E+02  0.0027   11.6   0.0    6    1-6      43-48  (102)
+  6 7BOG_V 30S ribosomal protein S  11.0 2.5E+02  0.0028   11.0   0.0    5    2-6      50-54  (133)
+  7 1JOS_A RIBOSOME-BINDING FACTOR  10.9 2.5E+02  0.0028   10.8   0.0    5    2-6      49-53  (128)
+  8 2KZF_A Ribosome-binding factor  10.9 2.5E+02  0.0028   10.3   0.0    5    2-6      50-54  (106)
+  9 5H6I_A Protein B; Pore forming  10.8 2.6E+02  0.0029   13.9   0.0    5    2-6     174-178 (246)
+ 10 6ZN8_B Virulence-associated pr  10.7 2.6E+02  0.0029   11.5   0.0    6    1-6      41-46  (100)
+
+No 1
+>6SGA_F8 ?; mitochondrial ribosome, assembly intermediate, translation; HET: UBD, PM8; 3.1A {Trypanosoma brucei brucei}
+Probab=13.54  E-value=1.9e+02  Score=16.57  Aligned_cols=6  Identities=67%  Similarity=0.988  Sum_probs=4.1  Template_Neff=2.800
+
+Q QATVYV            1 QATVYV    6 (6)
+Q Consensus         1 qatvyv    6 (6)
+                      ||.|||
+T Consensus       696 QAavYV  701 (726)
+T 6SGA_F8         696 QASTYV  701 (726)
+T ss_pred             HHHHHH
+Confidence            677775
+
+
+No 2
+>6SGB_F8 uS5m, Uncharacterized protein, uS8m, uS17m; mitochondrial ribosome, assembly intermediate, translation; HET: PM8, SAH, GTP, UBD; 3.3A {Trypanosoma brucei brucei}
+Probab=12.71  E-value=2e+02  Score=16.41  Aligned_cols=6  Identities=67%  Similarity=0.988  Sum_probs=0.0  Template_Neff=2.900
+
+Q QATVYV            1 QATVYV    6 (6)
+Q Consensus         1 qatvyv    6 (6)
+                      ||.|||
+T Consensus       696 QAavYV  701 (726)
+T 6SGB_F8         696 QASTYV  701 (726)
+T ss_pred             HHHHHh
+
+
+No 3
+>6JLC_A CAMP factor; Bacterial vaginosis, Mobiluncus curtisii, toxin; 1.847A {Mobiluncus curtisii (strain ATCC 43063 / DSM 2711 / V125)}
+Probab=12.51  E-value=2.1e+02  Score=13.91  Aligned_cols=5  Identities=80%  Similarity=1.278  Sum_probs=0.0  Template_Neff=4.000
+
+Q QATVYV            2 ATVYV    6 (6)
+Q Consensus         2 atvyv    6 (6)
+                      ||+|+
+T Consensus       150 ATiYv  154 (231)
+T 6JLC_A          150 ATIYV  154 (231)
+T ss_dssp             CCHHH
+T ss_pred             hhHHH
+
+
+No 4
+>1KKG_A ribosome-binding factor A; cold-shock adaptation, ribosome-binding factor, NESG; NMR {Escherichia coli} SCOP: d.52.7.1
+Probab=12.17  E-value=2.2e+02  Score=10.52  Aligned_cols=6  Identities=67%  Similarity=0.855  Sum_probs=0.0  Template_Neff=8.400
+
+Q QATVYV            1 QATVYV    6 (6)
+Q Consensus         1 qatvyv    6 (6)
+                      .|.||+
+T Consensus        49 ~a~Vy~   54 (108)
+T 1KKG_A           49 YAKVYV   54 (108)
+T ss_dssp             EEEEEE
+T ss_pred             EEEEEE
+
+
+No 5
+>6ZI0_AAA Endoribonuclease VapD (E.C.3.1.-.-); Toxin-antitoxin, VapXD, RNase, Nucleic-Acid Binding; 2.5A {Haemophilus influenzae 86-028NP}
+Probab=11.20  E-value=2.4e+02  Score=11.60  Aligned_cols=6  Identities=33%  Similarity=0.794  Sum_probs=0.0  Template_Neff=5.500
+
+Q QATVYV            1 QATVYV    6 (6)
+Q Consensus         1 qatvyv    6 (6)
+                      |..||+
+T Consensus        43 QgSvY~   48 (102)
+T 6ZI0_AAA         43 QGSLYT   48 (102)
+T ss_pred             cCceee
+
+
+No 6
+>7BOG_V 30S ribosomal protein S4, 30S; Cryo-EM, 30S biogenesis, ribosome assembly; HET: 5MC, PSU, G7M, MA6, 2MG, D2T, UR3, MG; 2.75A {Escherichia coli (strain K12)}
+Probab=10.96  E-value=2.5e+02  Score=10.97  Aligned_cols=5  Identities=80%  Similarity=1.139  Sum_probs=0.0  Template_Neff=7.900
+
+Q QATVYV            2 ATVYV    6 (6)
+Q Consensus         2 atvyv    6 (6)
+                      |+||+
+T Consensus        50 a~Vy~   54 (133)
+T 7BOG_V           50 AKVYV   54 (133)
+T ss_dssp             EEEEE
+T ss_pred             EEEEE
+
+
+No 7
+>1JOS_A RIBOSOME-BINDING FACTOR A; RNA BINDING PROTEIN, Structure 2; 1.7A {Haemophilus influenzae} SCOP: d.52.7.1
+Probab=10.93  E-value=2.5e+02  Score=10.84  Aligned_cols=5  Identities=40%  Similarity=0.939  Sum_probs=0.0  Template_Neff=8.000
+
+Q QATVYV            2 ATVYV    6 (6)
+Q Consensus         2 atvyv    6 (6)
+                      |+||+
+T Consensus        49 a~Vy~   53 (128)
+T 1JOS_A           49 AKIFV   53 (128)
+T ss_dssp             EEEEE
+T ss_pred             EEEEE
+
+
+No 8
+>2KZF_A Ribosome-binding factor A; JCSG, Joint Center Structural Genomics; NMR {Thermotoga maritima}
+Probab=10.92  E-value=2.5e+02  Score=10.31  Aligned_cols=5  Identities=80%  Similarity=1.132  Sum_probs=0.0  Template_Neff=8.400
+
+Q QATVYV            2 ATVYV    6 (6)
+Q Consensus         2 atvyv    6 (6)
+                      |.||+
+T Consensus        50 a~Vy~   54 (106)
+T 2KZF_A           50 ADVYV   54 (106)
+T ss_dssp             EEEEE
+T ss_pred             EEEEE
+
+
+No 9
+>5H6I_A Protein B; Pore forming toxin, TOXIN; HET: SO4; 2.45A {Streptococcus agalactiae}
+Probab=10.75  E-value=2.6e+02  Score=13.88  Aligned_cols=5  Identities=60%  Similarity=1.052  Sum_probs=0.0  Template_Neff=3.600
+
+Q QATVYV            2 ATVYV    6 (6)
+Q Consensus         2 atvyv    6 (6)
+                      ||+|+
+T Consensus       174 ATiYv  178 (246)
+T 5H6I_A          174 ATIYT  178 (246)
+T ss_dssp             CCTTT
+T ss_pred             hhHHh
+
+
+No 10
+>6ZN8_B Virulence-associated protein D, VapX; Toxin-antitoxin, VapXD, RNase, Nucleic-Acid Binding; HET: MSE; 3.211A {Haemophilus influenzae (strain 86-028NP)}
+Probab=10.74  E-value=2.6e+02  Score=11.49  Aligned_cols=6  Identities=33%  Similarity=0.794  Sum_probs=0.0  Template_Neff=5.500
+
+Q QATVYV            1 QATVYV    6 (6)
+Q Consensus         1 qatvyv    6 (6)
+                      |..||+
+T Consensus        41 QgSvY~   46 (100)
+T 6ZN8_B           41 QGSLYT   46 (100)
+T ss_dssp             STTCEE
+T ss_pred             cCceee
+
+

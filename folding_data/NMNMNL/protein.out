@@ -1,0 +1,148 @@
+Query         NMNMNL
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 01:57:45 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NMNMNL/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NMNMNL/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 7DWN_C Predicted DNA-binding t  11.2 2.5E+02  0.0027   10.4   0.0    5    2-6       1-5   (293)
+  2 2BRF_A BIFUNCTIONAL POLYNUCLEO  11.1 2.5E+02  0.0027    9.5   0.0    4    2-5       1-4   (110)
+  3 6ZVJ_P Eukaryotic translation   10.7 2.6E+02  0.0029    9.0   0.0    4    2-5       1-4   (70)
+  4 3SXU_B DNA polymerase III subu  10.4 2.7E+02   0.003   11.0   0.0    4    2-5       1-4   (138)
+  5 3O60_A Lin0861 protein; PSI, M  10.2 2.8E+02  0.0031    9.7   0.0    4    2-5       1-4   (185)
+  6 3PGW_J U1-A , U1-70K , Sm-D3;    9.9 2.9E+02  0.0032    9.3   0.0    6    1-6      37-42  (76)
+  7 4F7U_J Small nuclear ribonucle   9.9 2.9E+02  0.0032    9.3   0.0    6    1-6      37-42  (76)
+  8 4C1O_A BETA-XYLOSIDASE (E.C.3.   9.9 2.9E+02  0.0032   14.1   0.0    5    1-5      23-27  (727)
+  9 7DWO_B Predicted DNA-binding t   9.7   3E+02  0.0033   10.2   0.0    5    2-6       1-5   (293)
+ 10 4M7D_G U6 snRNA-associated Sm-   9.6   3E+02  0.0034    9.6   0.0    6    1-6      35-40  (93)
+
+No 1
+>7DWN_C Predicted DNA-binding transcriptional regulator; transcriptional regulators, tetramer, DNA BINDING; HET: MES; 2.32A {Aliivibrio fischeri ES114}
+Probab=11.17  E-value=2.5e+02  Score=10.41  Aligned_cols=5  Identities=40%  Similarity=0.567  Sum_probs=0.0  Template_Neff=11.900
+
+Q NMNMNL            2 MNMNL    6 (6)
+Q Consensus         2 mnmnl    6 (6)
+                      |+||+
+T Consensus         1 ~~~~~    5 (293)
+T 7DWN_C            1 MNVES    5 (293)
+T ss_dssp             CCCBH
+T ss_pred             CCCch
+
+
+No 2
+>2BRF_A BIFUNCTIONAL POLYNUCLEOTIDE PHOSPHATASE/KINASE (E.C.3.1.3.32, 2.7.1.78); HYDROLASE/TRANSFERASE, FHA, FORKHEAD-ASSOCIATED, PNKP, PNK; HET: SO4; 1.4A {HOMO SAPIENS} SCOP: b.26.1.2
+Probab=11.14  E-value=2.5e+02  Score=9.53  Aligned_cols=4  Identities=25%  Similarity=0.044  Sum_probs=0.0  Template_Neff=10.200
+
+Q NMNMNL            2 MNMN    5 (6)
+Q Consensus         2 mnmn    5 (6)
+                      |||.
+T Consensus         1 ~~~~    4 (110)
+T 2BRF_A            1 MGEV    4 (110)
+T ss_dssp             ----
+T ss_pred             CCCC
+
+
+No 3
+>6ZVJ_P Eukaryotic translation initiation factor 3; Translation, Initiation, Ribosome Recycling, ABC; HET: SF4, ATP, ADP;{Homo sapiens}
+Probab=10.74  E-value=2.6e+02  Score=9.01  Aligned_cols=4  Identities=25%  Similarity=0.119  Sum_probs=0.0  Template_Neff=9.500
+
+Q NMNMNL            2 MNMN    5 (6)
+Q Consensus         2 mnmn    5 (6)
+                      |||+
+T Consensus         1 ~~~~    4 (70)
+T 6ZVJ_P            1 LNNL    4 (70)
+T ss_pred             CCCc
+
+
+No 4
+>3SXU_B DNA polymerase III subunit chi; DNA replication, Chi binds to; 1.85A {Escherichia coli}
+Probab=10.41  E-value=2.7e+02  Score=10.99  Aligned_cols=4  Identities=25%  Similarity=0.418  Sum_probs=0.0  Template_Neff=7.800
+
+Q NMNMNL            2 MNMN    5 (6)
+Q Consensus         2 mnmn    5 (6)
+                      |||+
+T Consensus         1 ~~~~    4 (138)
+T 3SXU_B            1 MGTS    4 (138)
+T ss_dssp             ----
+T ss_pred             CCCc
+
+
+No 5
+>3O60_A Lin0861 protein; PSI, MCSG, Structural Genomics, Midwest; HET: SO4, MSE; 2.8A {Listeria innocua}
+Probab=10.25  E-value=2.8e+02  Score=9.72  Aligned_cols=4  Identities=50%  Similarity=0.377  Sum_probs=0.0  Template_Neff=11.400
+
+Q NMNMNL            2 MNMN    5 (6)
+Q Consensus         2 mnmn    5 (6)
+                      |||+
+T Consensus         1 ~~~~    4 (185)
+T 3O60_A            1 MNNY    4 (185)
+T ss_dssp             --CC
+T ss_pred             CCcc
+
+
+No 6
+>3PGW_J U1-A , U1-70K , Sm-D3; PROTEIN-RNA COMPLEX, U1 snRNA, Sm; 4.4A {Homo sapiens}
+Probab=9.90  E-value=2.9e+02  Score=9.28  Aligned_cols=6  Identities=33%  Similarity=0.468  Sum_probs=0.0  Template_Neff=9.000
+
+Q NMNMNL            1 NMNMNL    6 (6)
+Q Consensus         1 nmnmnl    6 (6)
+                      +||+.|
+T Consensus        37 ~~Nl~L   42 (76)
+T 3PGW_J           37 FMNLVI   42 (76)
+T ss_pred             CCCEEE
+
+
+No 7
+>4F7U_J Small nuclear ribonucleoprotein Sm D1; Assembly Machine, SPLICING; HET: P6G; 1.898A {Mus musculus}
+Probab=9.90  E-value=2.9e+02  Score=9.28  Aligned_cols=6  Identities=33%  Similarity=0.468  Sum_probs=0.0  Template_Neff=9.000
+
+Q NMNMNL            1 NMNMNL    6 (6)
+Q Consensus         1 nmnmnl    6 (6)
+                      +||+.|
+T Consensus        37 ~~Nl~L   42 (76)
+T 4F7U_J           37 FMNLVI   42 (76)
+T ss_dssp             TCEEEE
+T ss_pred             CCCEEE
+
+
+No 8
+>4C1O_A BETA-XYLOSIDASE (E.C.3.2.1.37); HYDROLASE, GH52; HET: PEG, EDO, PGE, GOL, SO4; 1.7A {GEOBACILLUS THERMOGLUCOSIDASIUS}
+Probab=9.89  E-value=2.9e+02  Score=14.13  Aligned_cols=5  Identities=40%  Similarity=0.448  Sum_probs=0.0  Template_Neff=7.300
+
+Q NMNMNL            1 NMNMN    5 (6)
+Q Consensus         1 nmnmn    5 (6)
+                      |||+|
+T Consensus        23 ~~~~~   27 (727)
+T 4C1O_A           23 SMPKN   27 (727)
+T ss_dssp             --CCC
+T ss_pred             cCCcc
+
+
+No 9
+>7DWO_B Predicted DNA-binding transcriptional regulator; transcriptional regulators, tetramer, DNA BINDING; 2.611A {Aliivibrio fischeri ES114}
+Probab=9.72  E-value=3e+02  Score=10.20  Aligned_cols=5  Identities=40%  Similarity=0.567  Sum_probs=0.0  Template_Neff=11.900
+
+Q NMNMNL            2 MNMNL    6 (6)
+Q Consensus         2 mnmnl    6 (6)
+                      |+||+
+T Consensus         1 ~~~~~    5 (293)
+T 7DWO_B            1 MNVES    5 (293)
+T ss_dssp             CCCCH
+T ss_pred             CCCch
+
+
+No 10
+>4M7D_G U6 snRNA-associated Sm-like protein LSm8; Sm Like Fold, RNA splicing; 2.595A {Saccharomyces cerevisiae}
+Probab=9.58  E-value=3e+02  Score=9.64  Aligned_cols=6  Identities=50%  Similarity=0.656  Sum_probs=0.0  Template_Neff=8.900
+
+Q NMNMNL            1 NMNMNL    6 (6)
+Q Consensus         1 nmnmnl    6 (6)
+                      .||+-|
+T Consensus        35 ~~Ni~L   40 (93)
+T 4M7D_G           35 WMNLTL   40 (93)
+T ss_dssp             TCCEEE
+T ss_pred             CCCEEE
+
+

@@ -1,0 +1,148 @@
+Query         NSNTTK
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 04:24:38 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NSNTTK/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NSNTTK/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3J9E_D VP5; non-enveloped viru   5.3 6.7E+02  0.0074   13.8   0.0    6    1-6      20-25  (526)
+  2 6K4F_U DUF1987 domain-containi   4.3 8.7E+02  0.0096   10.3   0.0    6    1-6      69-74  (128)
+  3 4V6W_Ae Ribosome; eukarya, euk   4.2 8.9E+02  0.0098    8.7   0.0    5    1-5     128-132 (132)
+  4 6I9B_A La-related protein 4; L   3.8   1E+03   0.011    8.5   0.0    6    1-6       1-6   (177)
+  5 1AXH_A ATRACOTOXIN-HVI; NEUROT   3.7   1E+03   0.011    9.1   0.0    6    1-6      29-34  (37)
+  6 4OGD_A Succinate-semialdehyde    3.7   1E+03   0.012   10.6   0.0    4    1-4     460-463 (465)
+  7 4OHT_A Succinate-semialdehyde    3.7   1E+03   0.012   10.6   0.0    4    1-4     460-463 (465)
+  8 2EOY_A Zinc finger protein 473   3.7   1E+03   0.012    5.2   0.0    6    1-6       1-6   (46)
+  9 3HE4_F SYNZIP6, SYNZIP5; heter   3.7   1E+03   0.012    9.6   0.0    5    2-6       2-6   (46)
+ 10 6BP2_A Envelope Glycoprotein G   3.5 1.1E+03   0.012   12.2   0.0    5    2-6     233-237 (250)
+
+No 1
+>3J9E_D VP5; non-enveloped virus, cell entry, pH; 3.5A {Bluetongue virus 1}
+Probab=5.26  E-value=6.7e+02  Score=13.83  Aligned_cols=6  Identities=67%  Similarity=0.711  Sum_probs=3.1  Template_Neff=3.800
+
+Q NSNTTK            1 NSNTTK    6 (6)
+Q Consensus         1 nsnttk    6 (6)
+                      +|||+|
+T Consensus        20 tS~TAk   25 (526)
+T 3J9E_D           20 TSNTAK   25 (526)
+T ss_dssp             CCCHHH
+T ss_pred             ccHHHH
+Confidence            356654
+
+
+No 2
+>6K4F_U DUF1987 domain-containing protein; SiaC, Biofilm, BIOSYNTHETIC PROTEIN; 1.735A {Pseudomonas aeruginosa}
+Probab=4.26  E-value=8.7e+02  Score=10.27  Aligned_cols=6  Identities=33%  Similarity=0.573  Sum_probs=0.0  Template_Neff=5.900
+
+Q NSNTTK            1 NSNTTK    6 (6)
+Q Consensus         1 nsnttk    6 (6)
+                      ||.++|
+T Consensus        69 NtsSsk   74 (128)
+T 6K4F_U           69 NTSSIK   74 (128)
+T ss_pred             cchHHH
+
+
+No 3
+>4V6W_Ae Ribosome; eukarya, eukaryotic, ribosomal, 80S, RNA; 6.0A {Drosophila melanogaster}
+Probab=4.19  E-value=8.9e+02  Score=8.73  Aligned_cols=5  Identities=60%  Similarity=0.846  Sum_probs=0.0  Template_Neff=9.600
+
+Q NSNTTK            1 NSNTT    5 (6)
+Q Consensus         1 nsntt    5 (6)
+                      |+|.+
+T Consensus       128 ~~~~~  132 (132)
+T 4V6W_Ae         128 NANST  132 (132)
+T ss_pred             CCCCC
+
+
+No 4
+>6I9B_A La-related protein 4; La-related proteins, LARPs, PABP-binding protein; NMR {Homo sapiens}
+Probab=3.77  E-value=1e+03  Score=8.53  Aligned_cols=6  Identities=33%  Similarity=0.407  Sum_probs=0.0  Template_Neff=10.800
+
+Q NSNTTK            1 NSNTTK    6 (6)
+Q Consensus         1 nsnttk    6 (6)
+                      |||...
+T Consensus         1 ~~~~~~    6 (177)
+T 6I9B_A            1 NSAVST    6 (177)
+T ss_pred             CCCCCH
+
+
+No 5
+>1AXH_A ATRACOTOXIN-HVI; NEUROTOXIN, INSECTICIDAL TOXIN, CYSTINE KNOT; NMR {Hadronyche versuta} SCOP: g.3.6.2
+Probab=3.71  E-value=1e+03  Score=9.13  Aligned_cols=6  Identities=67%  Similarity=0.761  Sum_probs=0.0  Template_Neff=2.400
+
+Q NSNTTK            1 NSNTTK    6 (6)
+Q Consensus         1 nsnttk    6 (6)
+                      |+|+.+
+T Consensus        29 ngn~V~   34 (37)
+T 1AXH_A           29 NGNTVK   34 (37)
+T ss_dssp             SSCEEE
+T ss_pred             cCCcee
+
+
+No 6
+>4OGD_A Succinate-semialdehyde dehydrogenase; SSADH, GabD, Rossmann Fold, Dehydrogenase; 1.6A {Streptococcus pyogenes MGAS1882}
+Probab=3.69  E-value=1e+03  Score=10.57  Aligned_cols=4  Identities=100%  Similarity=1.024  Sum_probs=0.0  Template_Neff=9.700
+
+Q NSNTTK            1 NSNT    4 (6)
+Q Consensus         1 nsnt    4 (6)
+                      ||||
+T Consensus       460 ~~~~  463 (465)
+T 4OGD_A          460 NSNT  463 (465)
+T ss_dssp             ----
+T ss_pred             CCcc
+
+
+No 7
+>4OHT_A Succinate-semialdehyde dehydrogenase; SSADH, GabD, OXIDOREDUCTASE, Rossmann Fold; HET: NAP; 2.1A {Streptococcus pyogenes MGAS1882}
+Probab=3.69  E-value=1e+03  Score=10.57  Aligned_cols=4  Identities=100%  Similarity=1.024  Sum_probs=0.0  Template_Neff=9.700
+
+Q NSNTTK            1 NSNT    4 (6)
+Q Consensus         1 nsnt    4 (6)
+                      ||||
+T Consensus       460 ~~~~  463 (465)
+T 4OHT_A          460 NSNT  463 (465)
+T ss_dssp             ----
+T ss_pred             CCcc
+
+
+No 8
+>2EOY_A Zinc finger protein 473; zf-C2H2, Structural Genomics, NPPSFA, National; HET: ZN; NMR {Homo sapiens}
+Probab=3.68  E-value=1e+03  Score=5.15  Aligned_cols=6  Identities=17%  Similarity=0.224  Sum_probs=0.0  Template_Neff=13.100
+
+Q NSNTTK            1 NSNTTK    6 (6)
+Q Consensus         1 nsnttk    6 (6)
+                      +|+...
+T Consensus         1 ~~~~~~    6 (46)
+T 2EOY_A            1 GSSGSS    6 (46)
+T ss_dssp             CCCCCC
+T ss_pred             CCCCCC
+
+
+No 9
+>3HE4_F SYNZIP6, SYNZIP5; heterodimeric coiled-coil, DE NOVO PROTEIN; 2.46A {artificial gene}
+Probab=3.67  E-value=1e+03  Score=9.59  Aligned_cols=5  Identities=80%  Similarity=0.780  Sum_probs=0.0  Template_Neff=1.000
+
+Q NSNTTK            2 SNTTK    6 (6)
+Q Consensus         2 snttk    6 (6)
+                      |||.|
+T Consensus         2 sntvk    6 (46)
+T 3HE4_F            2 SNTVK    6 (46)
+T ss_dssp             -CCHH
+T ss_pred             chHHH
+
+
+No 10
+>6BP2_A Envelope Glycoprotein GP1, Envelope Glycoprotein; Marburg, Ravn, Glycoprotein, Complex, VIRAL; HET: NAG, BMA, MAN; 3.172A {Marburg marburgvirus}
+Probab=3.46  E-value=1.1e+03  Score=12.23  Aligned_cols=5  Identities=60%  Similarity=0.554  Sum_probs=0.0  Template_Neff=1.900
+
+Q NSNTTK            2 SNTTK    6 (6)
+Q Consensus         2 snttk    6 (6)
+                      ||+||
+T Consensus       233 sntt~  237 (250)
+T 6BP2_A          233 INTAK  237 (250)
+T ss_dssp             -----
+T ss_pred             ccccc
+
+

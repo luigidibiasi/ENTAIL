@@ -1,0 +1,151 @@
+Query         QAALQS
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 07:01:19 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QAALQS/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QAALQS/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6N3A_J TAR DNA-binding protein  67.7     4.4 4.9E-05   16.2   0.0    6    1-6      17-22  (50)
+  2 4O65_A Putative archaeal ammon  10.3 2.7E+02   0.003   13.4   0.0    6    1-6       4-9   (166)
+  3 6N3C_D TAR DNA-binding protein   9.1 3.3E+02  0.0036   10.7   0.0    5    1-5      42-46  (46)
+  4 4RA4_A Protein kinase C (E.C.2   8.2 3.8E+02  0.0042   10.8   0.0    6    1-6     348-353 (355)
+  5 7KWZ_A Isoform 2 of TAR DNA-bi   7.6 4.2E+02  0.0046   12.5   0.0    6    1-6      61-66  (148)
+  6 1T23_A Chromosomal protein MC1   7.3 4.4E+02  0.0049   11.6   0.0    4    1-4      26-29  (93)
+  7 1ZL8_A LIN-7, Peripheral plasm   6.4 5.2E+02  0.0057   10.4   0.0    6    1-6      34-39  (53)
+  8 4ZRK_G Merlin, Serine/threonin   6.2 5.4E+02   0.006    9.6   0.0    5    1-5       7-11  (32)
+  9 1Y74_C lin 7 homolog b, Periph   6.0 5.7E+02  0.0063   10.4   0.0    6    1-6      32-37  (57)
+ 10 1NBW_B Glycerol dehydratase la   5.7   6E+02  0.0066   10.7   0.0    6    1-6      53-58  (117)
+
+No 1
+>6N3A_J TAR DNA-binding protein 43, segA; Amyloid, TDP43, ALS, FTLD-TDP, dna; 3.3A {Homo sapiens}
+Probab=67.72  E-value=4.4  Score=16.23  Aligned_cols=6  Identities=100%  Similarity=0.911  Sum_probs=3.9  Template_Neff=2.200
+
+Q QAALQS            1 QAALQS    6 (6)
+Q Consensus         1 qaalqs    6 (6)
+                      ||||||
+T Consensus        17 qaaLqs   22 (50)
+T 6N3A_J           17 QAALQS   22 (50)
+T ss_dssp             SEEEEE
+T ss_pred             HHHHHh
+Confidence            567775
+
+
+No 2
+>4O65_A Putative archaeal ammonia monooxygenase subunit; Cupredoxin, ammonia monooxygenase, AMO, Ammonia; HET: SO4; 1.796A {Candidatus Nitrosocaldus yellowstonii}
+Probab=10.31  E-value=2.7e+02  Score=13.35  Aligned_cols=6  Identities=83%  Similarity=0.767  Sum_probs=0.0  Template_Neff=2.700
+
+Q QAALQS            1 QAALQS    6 (6)
+Q Consensus         1 qaalqs    6 (6)
+                      ||.|||
+T Consensus         4 q~~l~s    9 (166)
+T 4O65_A            4 QAQLQS    9 (166)
+T ss_dssp             --CCSC
+T ss_pred             cccccc
+
+
+No 3
+>6N3C_D TAR DNA-binding protein 43; Amyloid, TDP43, ALS, FTLD-TDP, dna; 3.3A {Homo sapiens}
+Probab=9.06  E-value=3.3e+02  Score=10.70  Aligned_cols=5  Identities=100%  Similarity=0.946  Sum_probs=0.0  Template_Neff=3.000
+
+Q QAALQS            1 QAALQ    5 (6)
+Q Consensus         1 qaalq    5 (6)
+                      |++||
+T Consensus        42 l~~lq   46 (46)
+T 6N3C_D           42 QAALQ   46 (46)
+T ss_dssp             -----
+T ss_pred             HHHhC
+
+
+No 4
+>4RA4_A Protein kinase C (E.C.2.7.11.13); Kinase domain, Transferase-transferase inhibitor complex; HET: 3KZ; 2.63A {Homo sapiens}
+Probab=8.18  E-value=3.8e+02  Score=10.77  Aligned_cols=6  Identities=50%  Similarity=0.534  Sum_probs=0.0  Template_Neff=10.900
+
+Q QAALQS            1 QAALQS    6 (6)
+Q Consensus         1 qaalqs    6 (6)
+                      ||.+||
+T Consensus       348 ~~~~~~  353 (355)
+T 4RA4_A          348 HPILQS  353 (355)
+T ss_dssp             CC----
+T ss_pred             HHHHhh
+
+
+No 5
+>7KWZ_A Isoform 2 of TAR DNA-binding; TDP-43, amyloid, neurodegenerative diseases, amyotropic; 3.2A {Homo sapiens}
+Probab=7.59  E-value=4.2e+02  Score=12.54  Aligned_cols=6  Identities=100%  Similarity=0.911  Sum_probs=0.0  Template_Neff=2.900
+
+Q QAALQS            1 QAALQS    6 (6)
+Q Consensus         1 qaalqs    6 (6)
+                      |++||+
+T Consensus        61 qa~LQs   66 (148)
+T 7KWZ_A           61 QAALQS   66 (148)
+T ss_dssp             SCEESC
+T ss_pred             HHHHHh
+
+
+No 6
+>1T23_A Chromosomal protein MC1; alpha/beta barrel, DNA BINDING PROTEIN; NMR {Methanosarcina thermophila} SCOP: d.247.1.1
+Probab=7.26  E-value=4.4e+02  Score=11.58  Aligned_cols=4  Identities=100%  Similarity=0.958  Sum_probs=0.0  Template_Neff=3.100
+
+Q QAALQS            1 QAAL    4 (6)
+Q Consensus         1 qaal    4 (6)
+                      ||||
+T Consensus        26 qAAl   29 (93)
+T 1T23_A           26 QAAL   29 (93)
+T ss_dssp             HHHH
+T ss_pred             HHHH
+
+
+No 7
+>1ZL8_A LIN-7, Peripheral plasma membrane protein; heterodimer, L27, alpha helix, scaffold; NMR {Caenorhabditis elegans} SCOP: a.194.1.1
+Probab=6.43  E-value=5.2e+02  Score=10.39  Aligned_cols=6  Identities=67%  Similarity=0.639  Sum_probs=0.0  Template_Neff=3.100
+
+Q QAALQS            1 QAALQS    6 (6)
+Q Consensus         1 qaalqs    6 (6)
+                      |..|||
+T Consensus        34 qkVLqS   39 (53)
+T 1ZL8_A           34 QQVLQS   39 (53)
+T ss_dssp             HHHHSC
+T ss_pred             HHHHhc
+
+
+No 8
+>4ZRK_G Merlin, Serine/threonine-protein kinase LATS1; Merlin, FERM, Lats1, SIGNALING PROTEIN-TRANSFERASE; 2.316A {Mus musculus}
+Probab=6.20  E-value=5.4e+02  Score=9.60  Aligned_cols=5  Identities=60%  Similarity=0.660  Sum_probs=0.0  Template_Neff=2.500
+
+Q QAALQS            1 QAALQ    5 (6)
+Q Consensus         1 qaalq    5 (6)
+                      |.|||
+T Consensus         7 ~kAL~   11 (32)
+T 4ZRK_G            7 HKALQ   11 (32)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 9
+>1Y74_C lin 7 homolog b, Peripheral; L27 domain, scaffold protein, protein; NMR {Mus musculus} SCOP: a.194.1.1
+Probab=5.99  E-value=5.7e+02  Score=10.41  Aligned_cols=6  Identities=67%  Similarity=0.617  Sum_probs=0.0  Template_Neff=3.100
+
+Q QAALQS            1 QAALQS    6 (6)
+Q Consensus         1 qaalqs    6 (6)
+                      |..|||
+T Consensus        32 qkVLqS   37 (57)
+T 1Y74_C           32 QRVLQS   37 (57)
+T ss_dssp             HHHHHS
+T ss_pred             HHHHhc
+
+
+No 10
+>1NBW_B Glycerol dehydratase large subunit/Glycerol dehydratase; Glycerol dehydratase, Reactivase, Molecular chaperone; 2.4A {Klebsiella pneumoniae} SCOP: c.51.3.2
+Probab=5.75  E-value=6e+02  Score=10.71  Aligned_cols=6  Identities=50%  Similarity=0.191  Sum_probs=0.0  Template_Neff=5.600
+
+Q QAALQS            1 QAALQS    6 (6)
+Q Consensus         1 qaalqs    6 (6)
+                      |||..|
+T Consensus        53 ~AA~~S   58 (117)
+T 1NBW_B           53 LAARSS   58 (117)
+T ss_dssp             HHHHHC
+T ss_pred             HHHHhC
+
+

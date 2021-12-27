@@ -1,0 +1,153 @@
+Query         KTKEGV
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 12:18:23 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/KTKEGV/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/KTKEGV/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3Q27_A Maltose-binding peripla  77.2     1.8   2E-05   17.1   0.0    6    1-6     383-388 (397)
+  2 7LC9_D N-terminal alpha-synucl  62.0     6.8 7.5E-05   17.0   0.0    6    1-6       3-8   (100)
+  3 6ZIE_A CMPX-383B, Induced myel  13.5 1.9E+02  0.0021   13.8   0.0    6    1-6     126-131 (143)
+  4 3DL3_F Tellurite resistance pr  11.6 2.3E+02  0.0026   11.9   0.0    5    2-6      34-38  (119)
+  5 3DL3_G Tellurite resistance pr  10.1 2.8E+02  0.0031   11.6   0.0    5    2-6      34-38  (119)
+  6 2J5Y_B PEPTOSTREPTOCOCCAL ALBU   9.1 3.3E+02  0.0036   11.0   0.0    6    1-6      44-49  (61)
+  7 3BB6_C Uncharacterized protein   8.2 3.7E+02  0.0041   11.6   0.0    5    2-6      35-39  (127)
+  8 1XD9_B [FeS] Cluster, Fe prote   7.8   4E+02  0.0045   10.2   0.0    6    1-6     284-289 (289)
+  9 3MGG_B Methyltransferase (E.C.   7.6 4.2E+02  0.0046    9.8   0.0    4    2-5     267-270 (276)
+ 10 3U4G_A NaMN:DMB phosphoribosyl   7.4 4.3E+02  0.0048   12.7   0.0    4    3-6     300-303 (337)
+
+No 1
+>3Q27_A Maltose-binding periplasmic protein/alpha-synuclein chimeric protein; fusion protein, amyloid, SUGAR BINDING; HET: MAL, GOL, SO4; 1.302A {Escherichia coli, Homo sapiens}
+Probab=77.23  E-value=1.8  Score=17.14  Aligned_cols=6  Identities=100%  Similarity=1.248  Sum_probs=4.3  Template_Neff=11.000
+
+Q KTKEGV            1 KTKEGV    6 (6)
+Q Consensus         1 ktkegv    6 (6)
+                      ||||||
+T Consensus       383 ~~~~~~  388 (397)
+T 3Q27_A          383 KTKEGV  388 (397)
+T ss_dssp             HHCSSC
+T ss_pred             ccccce
+Confidence            578875
+
+
+No 2
+>7LC9_D N-terminal alpha-synuclein truncation, PROTEIN FIBRIL;{Homo sapiens}
+Probab=62.01  E-value=6.8  Score=17.00  Aligned_cols=6  Identities=100%  Similarity=1.248  Sum_probs=1.9  Template_Neff=3.200
+
+Q KTKEGV            1 KTKEGV    6 (6)
+Q Consensus         1 ktkegv    6 (6)
+                      ||||||
+T Consensus         3 ktkegv    8 (100)
+T 7LC9_D            3 KTKEGV    8 (100)
+T ss_dssp             ---CCB
+T ss_pred             cchhch
+Confidence            577764
+
+
+No 3
+>6ZIE_A CMPX-383B, Induced myeloid leukemia cell; de novo protein design, 3; 2.3A {synthetic construct}
+Probab=13.45  E-value=1.9e+02  Score=13.77  Aligned_cols=6  Identities=83%  Similarity=0.916  Sum_probs=3.0  Template_Neff=1.400
+
+Q KTKEGV            1 KTKEGV    6 (6)
+Q Consensus         1 ktkegv    6 (6)
+                      ||+|||
+T Consensus       126 KTvEGV  131 (143)
+T 6ZIE_A          126 KTCEGV  131 (143)
+T ss_dssp             SSHHHH
+T ss_pred             hcchhH
+Confidence            355554
+
+
+No 4
+>3DL3_F Tellurite resistance protein B; X-Ray NESG VfR98 Q5E3X2_VIBF1, Structural; 2.3A {Vibrio fischeri ES114} SCOP: b.82.2.13
+Probab=11.61  E-value=2.3e+02  Score=11.86  Aligned_cols=5  Identities=40%  Similarity=0.248  Sum_probs=0.0  Template_Neff=5.700
+
+Q KTKEGV            2 TKEGV    6 (6)
+Q Consensus         2 tkegv    6 (6)
+                      ||+|+
+T Consensus        34 TK~G~   38 (119)
+T 3DL3_F           34 TAVDV   38 (119)
+T ss_dssp             CCTTC
+T ss_pred             CCCce
+
+
+No 5
+>3DL3_G Tellurite resistance protein B; X-Ray NESG VfR98 Q5E3X2_VIBF1, Structural; HET: MSE; 2.3A {Vibrio fischeri ES114} SCOP: b.82.2.13
+Probab=10.11  E-value=2.8e+02  Score=11.62  Aligned_cols=5  Identities=40%  Similarity=0.248  Sum_probs=0.0  Template_Neff=5.700
+
+Q KTKEGV            2 TKEGV    6 (6)
+Q Consensus         2 tkegv    6 (6)
+                      ||+|+
+T Consensus        34 TK~G~   38 (119)
+T 3DL3_G           34 TAVDV   38 (119)
+T ss_dssp             ECTTE
+T ss_pred             CCCce
+
+
+No 6
+>2J5Y_B PEPTOSTREPTOCOCCAL ALBUMIN-BINDING PROTEIN; PROTEIN BINDING, CELL WALL, PEPTIDOGLYCAN-ANCHOR; 1.4A {PEPTOSTREPTOCOCCUS MAGNUS} SCOP: a.8.1.2
+Probab=9.05  E-value=3.3e+02  Score=11.03  Aligned_cols=6  Identities=67%  Similarity=0.567  Sum_probs=0.0  Template_Neff=3.600
+
+Q KTKEGV            1 KTKEGV    6 (6)
+Q Consensus         1 ktkegv    6 (6)
+                      +|.|||
+T Consensus        44 kTVegV   49 (61)
+T 2J5Y_B           44 KTVEEV   49 (61)
+T ss_dssp             CSHHHH
+T ss_pred             cCHHHH
+
+
+No 7
+>3BB6_C Uncharacterized protein yeaR; P64488, ER596, Structural Genomics, PSI-2; 2.3A {Escherichia coli} SCOP: b.82.2.13
+Probab=8.23  E-value=3.7e+02  Score=11.60  Aligned_cols=5  Identities=60%  Similarity=0.979  Sum_probs=0.0  Template_Neff=5.200
+
+Q KTKEGV            2 TKEGV    6 (6)
+Q Consensus         2 tkegv    6 (6)
+                      ||+|+
+T Consensus        35 TK~Gv   39 (127)
+T 3BB6_C           35 TRPGV   39 (127)
+T ss_dssp             SSSCC
+T ss_pred             CCCce
+
+
+No 8
+>1XD9_B [FeS] Cluster, Fe protein, Signal; HET: ADP; 2.8A {Azotobacter vinelandii}
+Probab=7.75  E-value=4e+02  Score=10.23  Aligned_cols=6  Identities=67%  Similarity=0.639  Sum_probs=0.0  Template_Neff=11.100
+
+Q KTKEGV            1 KTKEGV    6 (6)
+Q Consensus         1 ktkegv    6 (6)
+                      +|-|+|
+T Consensus       284 ~~~~~~  289 (289)
+T 1XD9_B          284 KTAEEV  289 (289)
+T ss_dssp             CCTTTC
+T ss_pred             cccccC
+
+
+No 9
+>3MGG_B Methyltransferase (E.C.2.1.1.-); NYSGXRC, PSI-II, Protein structure Initiative; 1.86A {Methanosarcina mazei}
+Probab=7.60  E-value=4.2e+02  Score=9.78  Aligned_cols=4  Identities=100%  Similarity=1.323  Sum_probs=0.0  Template_Neff=11.800
+
+Q KTKEGV            2 TKEG    5 (6)
+Q Consensus         2 tkeg    5 (6)
+                      +|||
+T Consensus       267 ~~~~  270 (276)
+T 3MGG_B          267 TKEG  270 (276)
+T ss_dssp             ECCC
+T ss_pred             cCCC
+
+
+No 10
+>3U4G_A NaMN:DMB phosphoribosyltransferase; Structural Genomics, PSI-Biology, Midwest Center; HET: SO4; 1.9A {Pyrococcus horikoshii}
+Probab=7.36  E-value=4.3e+02  Score=12.71  Aligned_cols=4  Identities=100%  Similarity=1.398  Sum_probs=0.0  Template_Neff=6.200
+
+Q KTKEGV            3 KEGV    6 (6)
+Q Consensus         3 kegv    6 (6)
+                      ||||
+T Consensus       300 KEGv  303 (337)
+T 3U4G_A          300 KEGV  303 (337)
+T ss_dssp             CCCT
+T ss_pred             CCCC
+
+

@@ -1,0 +1,151 @@
+Query         QYGGGN
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 11:34:06 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QYGGGN/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QYGGGN/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2APL_A hypothetical protein PG  77.7     1.7 1.9E-05   19.1   0.0    6    1-6     149-154 (157)
+  2 5XZK_C lectin (PhoSL); Lectin,  14.1 1.8E+02   0.002   11.4   0.0    6    1-6      22-27  (40)
+  3 6JK2_A Lectin; PhoSL, core-fuc  13.0   2E+02  0.0022   11.2   0.0    6    1-6      22-27  (40)
+  4 6JK3_A Lectin; PhoSL, core-fuc  12.9   2E+02  0.0022   11.2   0.0    6    1-6      22-27  (40)
+  5 7S5H_B Cholesterol, LDL Recept  12.8   2E+02  0.0022   12.0   0.0    6    1-6     296-301 (308)
+  6 5MP3_C antibody Fab heavy chai  12.8   2E+02  0.0023   10.1   0.0    4    3-6      11-14  (30)
+  7 6Z5N_A DnaJ homolog subfamily   12.3 2.1E+02  0.0024   10.1   0.0    5    2-6     106-110 (110)
+  8 5B74_B L-asparaginase, LEU-VAL  12.1 2.2E+02  0.0024   10.7   0.0    5    2-6      33-37  (127)
+  9 6QJM_A Microtubule-associated   11.3 2.4E+02  0.0027   10.4   0.0    4    3-6      29-32  (48)
+ 10 6UEV_A tRNA (guanine-N(1)-)-me  10.7 2.6E+02  0.0029   13.3   0.0    4    2-5      55-58  (219)
+
+No 1
+>2APL_A hypothetical protein PG0816; Structural genomics, Porphyromonas gingivalis, PSI; 2.01A {Porphyromonas gingivalis} SCOP: a.258.1.1
+Probab=77.68  E-value=1.7  Score=19.14  Aligned_cols=6  Identities=67%  Similarity=1.271  Sum_probs=1.4  Template_Neff=4.700
+
+Q QYGGGN            1 QYGGGN    6 (6)
+Q Consensus         1 qygggn    6 (6)
+                      +|||||
+T Consensus       149 ~~~~~~  154 (157)
+T 2APL_A          149 TIGGGN  154 (157)
+T ss_dssp             CC----
+T ss_pred             CCCCCc
+Confidence            588887
+
+
+No 2
+>5XZK_C lectin (PhoSL); Lectin, Trimer, Fucose, SUGAR BINDING; NMR {N/A}
+Probab=14.05  E-value=1.8e+02  Score=11.37  Aligned_cols=6  Identities=50%  Similarity=1.265  Sum_probs=2.8  Template_Neff=2.200
+
+Q QYGGGN            1 QYGGGN    6 (6)
+Q Consensus         1 qygggn    6 (6)
+                      |||.||
+T Consensus        22 ~FGDG~   27 (40)
+T 5XZK_C           22 DYGDGK   27 (40)
+T ss_dssp             CSTTSC
+T ss_pred             EecCCc
+Confidence            355553
+
+
+No 3
+>6JK2_A Lectin; PhoSL, core-fucosylated chitobiose, SUGAR BINDING; HET: SO4; 1.06A {Pholiota squarrosa}
+Probab=13.02  E-value=2e+02  Score=11.24  Aligned_cols=6  Identities=33%  Similarity=1.088  Sum_probs=0.0  Template_Neff=2.200
+
+Q QYGGGN            1 QYGGGN    6 (6)
+Q Consensus         1 qygggn    6 (6)
+                      |+|.||
+T Consensus        22 ~FGDG~   27 (40)
+T 6JK2_A           22 DFGDGR   27 (40)
+T ss_dssp             SSTTTT
+T ss_pred             EecCCc
+
+
+No 4
+>6JK3_A Lectin; PhoSL, core-fucosylated chitobiose, SUGAR BINDING; HET: GOL, FUC, NAG; 1.12A {Pholiota squarrosa}
+Probab=12.87  E-value=2e+02  Score=11.22  Aligned_cols=6  Identities=33%  Similarity=1.088  Sum_probs=0.0  Template_Neff=2.200
+
+Q QYGGGN            1 QYGGGN    6 (6)
+Q Consensus         1 qygggn    6 (6)
+                      |+|.||
+T Consensus        22 ~FGDG~   27 (40)
+T 6JK3_A           22 DFGDGR   27 (40)
+T ss_dssp             CSTTSC
+T ss_pred             EecCCc
+
+
+No 5
+>7S5H_B Cholesterol, LDL Receptor, EGFA Domain; HET: 8DN, 0A1, FTR; 1.272A {Homo sapiens}
+Probab=12.82  E-value=2e+02  Score=11.95  Aligned_cols=6  Identities=50%  Similarity=0.850  Sum_probs=0.0  Template_Neff=9.500
+
+Q QYGGGN            1 QYGGGN    6 (6)
+Q Consensus         1 qygggn    6 (6)
+                      ||+.||
+T Consensus       296 ~~~~~~  301 (308)
+T 7S5H_B          296 THGAGN  301 (308)
+T ss_dssp             ------
+T ss_pred             cCCCCC
+
+
+No 6
+>5MP3_C antibody Fab heavy chain, antibody; Antibody Fab, complex, tau protein; HET: PCA; 2.75A {Mus musculus}
+Probab=12.75  E-value=2e+02  Score=10.11  Aligned_cols=4  Identities=75%  Similarity=1.722  Sum_probs=0.0  Template_Neff=4.000
+
+Q QYGGGN            3 GGGN    6 (6)
+Q Consensus         3 gggn    6 (6)
+                      ||||
+T Consensus        11 gGG~   14 (30)
+T 5MP3_C           11 GGGS   14 (30)
+T ss_pred             CCCC
+
+
+No 7
+>6Z5N_A DnaJ homolog subfamily B member; Molecular Chaperone, J-domain protein, Hsp40; NMR {Homo sapiens}
+Probab=12.33  E-value=2.1e+02  Score=10.09  Aligned_cols=5  Identities=60%  Similarity=1.405  Sum_probs=0.0  Template_Neff=9.400
+
+Q QYGGGN            2 YGGGN    6 (6)
+Q Consensus         2 ygggn    6 (6)
+                      +|++|
+T Consensus       106 ~~~~~  110 (110)
+T 6Z5N_A          106 FGGRN  110 (110)
+T ss_dssp             TSSCC
+T ss_pred             hCCCC
+
+
+No 8
+>5B74_B L-asparaginase, LEU-VAL-VAL-ASN; Truncated Pyrococcus furiosus L-asparaginase, Linkerless; HET: FLC; 2.039A {Pyrococcus furiosus DSM 3638}
+Probab=12.05  E-value=2.2e+02  Score=10.65  Aligned_cols=5  Identities=60%  Similarity=1.458  Sum_probs=0.0  Template_Neff=8.700
+
+Q QYGGGN            2 YGGGN    6 (6)
+Q Consensus         2 ygggn    6 (6)
+                      ||.||
+T Consensus        33 ~G~G~   37 (127)
+T 5B74_B           33 YGAGG   37 (127)
+T ss_dssp             SSSCC
+T ss_pred             cCCCC
+
+
+No 9
+>6QJM_A Microtubule-associated protein tau; Recombinant tau protein, heparin, filament; 3.3A {Homo sapiens}
+Probab=11.25  E-value=2.4e+02  Score=10.38  Aligned_cols=4  Identities=75%  Similarity=1.722  Sum_probs=0.0  Template_Neff=5.100
+
+Q QYGGGN            3 GGGN    6 (6)
+Q Consensus         3 gggn    6 (6)
+                      ||||
+T Consensus        29 gGG~   32 (48)
+T 6QJM_A           29 GGGS   32 (48)
+T ss_dssp             --CC
+T ss_pred             CCCc
+
+
+No 10
+>6UEV_A tRNA (guanine-N(1)-)-methyltransferase; methyltransferase, tRNA, halo, TRANSFERASE; HET: GOL; 2.7A {Anaplasma phagocytophilum}
+Probab=10.66  E-value=2.6e+02  Score=13.32  Aligned_cols=4  Identities=100%  Similarity=2.295  Sum_probs=0.0  Template_Neff=4.500
+
+Q QYGGGN            2 YGGG    5 (6)
+Q Consensus         2 yggg    5 (6)
+                      ||||
+T Consensus        55 yGGG   58 (219)
+T 6UEV_A           55 YGGG   58 (219)
+T ss_dssp             TTCC
+T ss_pred             CCCC
+
+

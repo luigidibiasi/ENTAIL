@@ -1,0 +1,149 @@
+Query         DIEVDL
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 17:26:59 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/DIEVDL/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/DIEVDL/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6NII_B Uncharacterized protein  15.9 1.5E+02  0.0016   14.7   0.0    6    1-6      45-50  (205)
+  2 1O1Z_A glycerophosphodiester p  15.0 1.6E+02  0.0018   11.6   0.0    5    2-6      44-48  (234)
+  3 3CH0_A Glycerophosphodiester p  14.5 1.7E+02  0.0019   11.3   0.0    5    2-6      40-44  (272)
+  4 5XTI_BK NADH dehydrogenase [ub  14.0 1.8E+02   0.002   10.6   0.0    6    1-6      13-18  (33)
+  5 2O55_A putative glycerophospho  13.6 1.9E+02  0.0021   11.1   0.0    5    2-6      40-44  (258)
+  6 5XTB_K NADH dehydrogenase [ubi  12.8   2E+02  0.0022   10.4   0.0    6    1-6      13-18  (33)
+  7 3QVQ_A Olei02445 (E.C.3.1.4.2)  12.4 2.1E+02  0.0023   11.2   0.0    5    2-6      41-45  (252)
+  8 6NJD_B Di-ubiquitin, RavD; Deu  11.9 2.3E+02  0.0025   14.1   0.0    6    1-6      45-50  (205)
+  9 3QVQ_D Olei02445 (E.C.3.1.4.2)  11.8 2.3E+02  0.0025   11.0   0.0    5    2-6      41-45  (252)
+ 10 7JYN_A Brd3 ET, NSD3 solution   11.7 2.3E+02  0.0026   10.5   0.0    6    1-6      69-74  (96)
+
+No 1
+>6NII_B Uncharacterized protein RavD; Deubiquitinase, Bacterial effector, HYDROLASE; 2.15A {Legionella pneumophila}
+Probab=15.86  E-value=1.5e+02  Score=14.71  Aligned_cols=6  Identities=83%  Similarity=1.248  Sum_probs=2.9  Template_Neff=1.000
+
+Q DIEVDL            1 DIEVDL    6 (6)
+Q Consensus         1 dievdl    6 (6)
+                      ||.|||
+T Consensus        45 diqvdl   50 (205)
+T 6NII_B           45 DIQVDL   50 (205)
+T ss_dssp             CCCCCC
+T ss_pred             eEEeee
+Confidence            455553
+
+
+No 2
+>1O1Z_A glycerophosphodiester phosphodiesterase (GDPD); TM1621, GLYCEROPHOSPHODIESTER PHOSPHODIESTERASE (GDPD), STRUCTURAL; 1.6A {Thermotoga maritima} SCOP: c.1.18.3
+Probab=14.98  E-value=1.6e+02  Score=11.57  Aligned_cols=5  Identities=40%  Similarity=0.999  Sum_probs=0.0  Template_Neff=9.800
+
+Q DIEVDL            2 IEVDL    6 (6)
+Q Consensus         2 ievdl    6 (6)
+                      ||+|+
+T Consensus        44 iE~Dv   48 (234)
+T 1O1Z_A           44 VELDV   48 (234)
+T ss_dssp             EEEEE
+T ss_pred             EEEEE
+
+
+No 3
+>3CH0_A Glycerophosphodiester phosphodiesterase (E.C.3.1.4.46); YP_677622.1, glycerophosphoryl diester phosphodiesterase, Structural; HET: CIT, EDO, GOL; 1.5A {Cytophaga hutchinsonii ATCC 33406}
+Probab=14.47  E-value=1.7e+02  Score=11.27  Aligned_cols=5  Identities=60%  Similarity=1.012  Sum_probs=0.0  Template_Neff=10.800
+
+Q DIEVDL            2 IEVDL    6 (6)
+Q Consensus         2 ievdl    6 (6)
+                      ||+|+
+T Consensus        40 iE~Dv   44 (272)
+T 3CH0_A           40 LEFDL   44 (272)
+T ss_dssp             EEEEE
+T ss_pred             EEeeE
+
+
+No 4
+>5XTI_BK NADH dehydrogenase [ubiquinone] flavoprotein 1; Homo sapiens, Oxidoreductase, Respiratory, OXIDOREDUCTASE-ELECTRON; HET: FES, SF4, CDL, NDP, PLX, HEC, FMN, PEE, HEA, 8Q1, HEM; 17.4A {Homo sapiens}
+Probab=14.02  E-value=1.8e+02  Score=10.56  Aligned_cols=6  Identities=33%  Similarity=0.938  Sum_probs=0.0  Template_Neff=3.700
+
+Q DIEVDL            1 DIEVDL    6 (6)
+Q Consensus         1 dievdl    6 (6)
+                      |.||++
+T Consensus        13 d~evem   18 (33)
+T 5XTI_BK          13 DLNLEL   18 (33)
+T ss_pred             Hheeee
+
+
+No 5
+>2O55_A putative glycerophosphodiester phosphodiesterase; beta barrel, Structural Genomics, Protein; HET: SO4; 2.806A {Galdieria sulphuraria}
+Probab=13.56  E-value=1.9e+02  Score=11.11  Aligned_cols=5  Identities=80%  Similarity=1.086  Sum_probs=0.0  Template_Neff=10.700
+
+Q DIEVDL            2 IEVDL    6 (6)
+Q Consensus         2 ievdl    6 (6)
+                      ||+|+
+T Consensus        40 iE~Dv   44 (258)
+T 2O55_A           40 IETDL   44 (258)
+T ss_dssp             EEEEE
+T ss_pred             EEEEE
+
+
+No 6
+>5XTB_K NADH dehydrogenase [ubiquinone] flavoprotein 1; Respiratory, OXIDOREDUCTASE-ELECTRON TRANSPORT complex; HET: SF4, 8Q1, NDP, FMN; 3.4A {Homo sapiens}
+Probab=12.77  E-value=2e+02  Score=10.37  Aligned_cols=6  Identities=33%  Similarity=0.938  Sum_probs=0.0  Template_Neff=3.800
+
+Q DIEVDL            1 DIEVDL    6 (6)
+Q Consensus         1 dievdl    6 (6)
+                      |.||++
+T Consensus        13 d~evem   18 (33)
+T 5XTB_K           13 DLNLEL   18 (33)
+T ss_pred             hheehh
+
+
+No 7
+>3QVQ_A Olei02445 (E.C.3.1.4.2); Structural Genomics, PSI-Biology, Midwest Center; HET: G3P, CL, PEG, MG; 1.602A {Oleispira antarctica}
+Probab=12.39  E-value=2.1e+02  Score=11.18  Aligned_cols=5  Identities=40%  Similarity=1.085  Sum_probs=0.0  Template_Neff=10.200
+
+Q DIEVDL            2 IEVDL    6 (6)
+Q Consensus         2 ievdl    6 (6)
+                      ||+|+
+T Consensus        41 iE~Dv   45 (252)
+T 3QVQ_A           41 VEIDV   45 (252)
+T ss_dssp             EEEEE
+T ss_pred             EEEEe
+
+
+No 8
+>6NJD_B Di-ubiquitin, RavD; Deubiquitinase, Bacterial effector, HYDROLASE; HET: MSE; 2.05A {Homo sapiens}
+Probab=11.87  E-value=2.3e+02  Score=14.13  Aligned_cols=6  Identities=83%  Similarity=1.248  Sum_probs=0.0  Template_Neff=1.100
+
+Q DIEVDL            1 DIEVDL    6 (6)
+Q Consensus         1 dievdl    6 (6)
+                      ||.|||
+T Consensus        45 diqidl   50 (205)
+T 6NJD_B           45 DIQVDL   50 (205)
+T ss_dssp             CSCCCC
+T ss_pred             eeEEEe
+
+
+No 9
+>3QVQ_D Olei02445 (E.C.3.1.4.2); Structural Genomics, PSI-Biology, Midwest Center; HET: MG, G3P, MSE, PEG, CL; 1.602A {Oleispira antarctica}
+Probab=11.77  E-value=2.3e+02  Score=11.04  Aligned_cols=5  Identities=40%  Similarity=1.085  Sum_probs=0.0  Template_Neff=10.300
+
+Q DIEVDL            2 IEVDL    6 (6)
+Q Consensus         2 ievdl    6 (6)
+                      ||+|+
+T Consensus        41 iE~Dv   45 (252)
+T 3QVQ_D           41 VEIDV   45 (252)
+T ss_dssp             EEEEE
+T ss_pred             EEEEE
+
+
+No 10
+>7JYN_A Brd3 ET, NSD3 solution NMR; NMR {Homo sapiens}
+Probab=11.68  E-value=2.3e+02  Score=10.53  Aligned_cols=6  Identities=50%  Similarity=1.115  Sum_probs=0.0  Template_Neff=7.800
+
+Q DIEVDL            1 DIEVDL    6 (6)
+Q Consensus         1 dievdl    6 (6)
+                      ++++|+
+T Consensus        69 eieIDl   74 (96)
+T 7JYN_A           69 EIEIDF   74 (96)
+T ss_dssp             EEEEEG
+T ss_pred             eEEEeh
+
+

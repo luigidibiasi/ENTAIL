@@ -1,0 +1,149 @@
+Query         AQPAGG
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 15:28:20 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/AQPAGG/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/AQPAGG/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 7ALB_T GTP cyclohydrolase 1, G  21.2      93   0.001   14.0   0.0    6    1-6       6-11  (209)
+  2 7ALC_D GTP cyclohydrolase 1, G  21.2      93   0.001   14.0   0.0    6    1-6       6-11  (209)
+  3 6RM3_SBB uL2, uS2, uL15, eS26,  19.8   1E+02  0.0011   12.8   0.0    6    1-6      71-76  (94)
+  4 5N5A_A Microtubule-associated   18.5 1.2E+02  0.0013   11.2   0.0    5    2-6      16-20  (37)
+  5 7O7Y_AA 40S ribosomal protein   18.3 1.2E+02  0.0013   12.2   0.0    6    1-6      64-69  (84)
+  6 3KDR_C HK97 Family Phage Porta  17.9 1.2E+02  0.0014   12.6   0.0    6    1-6     303-308 (310)
+  7 4Y0B_A ClpT1; caseinolytic pro  16.3 1.4E+02  0.0016   11.5   0.0    6    1-6      11-16  (184)
+  8 1QVC_A E.COLI SINGLE STRANDED   12.1 2.2E+02  0.0024   10.8   0.0    5    2-6     140-144 (145)
+  9 2MZ7_A Microtubule-associated    9.9 2.9E+02  0.0032   10.2   0.0    5    2-6       3-7   (46)
+ 10 7AGL_A N-acetylmuramoyl-L-alan   9.7   3E+02  0.0033   11.2   0.0    6    1-6     228-233 (233)
+
+No 1
+>7ALB_T GTP cyclohydrolase 1, GTPCH1, GTP; HET: ZN, QBQ, PHE; 1.979A {Homo sapiens}
+Probab=21.22  E-value=93  Score=14.03  Aligned_cols=6  Identities=83%  Similarity=1.210  Sum_probs=0.0  Template_Neff=5.800
+
+Q AQPAGG            1 AQPAGG    6 (6)
+Q Consensus         1 aqpagg    6 (6)
+                      ||||.|
+T Consensus         6 ~~~~~~   11 (209)
+T 7ALB_T            6 AQPADG   11 (209)
+T ss_dssp             ------
+T ss_pred             CCCCCC
+Confidence            466654
+
+
+No 2
+>7ALC_D GTP cyclohydrolase 1, GTPCH1, GTP; HET: PHE; 1.726A {Homo sapiens}
+Probab=21.22  E-value=93  Score=14.03  Aligned_cols=6  Identities=83%  Similarity=1.210  Sum_probs=0.0  Template_Neff=5.800
+
+Q AQPAGG            1 AQPAGG    6 (6)
+Q Consensus         1 aqpagg    6 (6)
+                      ||||.|
+T Consensus         6 ~~~~~~   11 (209)
+T 7ALC_D            6 AQPADG   11 (209)
+T ss_dssp             ------
+T ss_pred             CCCCCC
+Confidence            466654
+
+
+No 3
+>6RM3_SBB uL2, uS2, uL15, eS26, uL3; Microsporidia, Ribosome, Intracellular Parasite; HET: MG; 3.4A {Vairimorpha necatrix}
+Probab=19.82  E-value=1e+02  Score=12.75  Aligned_cols=6  Identities=33%  Similarity=0.805  Sum_probs=0.0  Template_Neff=4.900
+
+Q AQPAGG            1 AQPAGG    6 (6)
+Q Consensus         1 aqpagg    6 (6)
+                      ++|.||
+T Consensus        71 ~~PtGG   76 (94)
+T 6RM3_SBB         71 LKSTGG   76 (94)
+T ss_pred             ccccCC
+
+
+No 4
+>5N5A_A Microtubule-associated protein tau; tau, F-actin, protein binding, Alzheimer's; NMR {N/A}
+Probab=18.45  E-value=1.2e+02  Score=11.22  Aligned_cols=5  Identities=80%  Similarity=1.597  Sum_probs=0.0  Template_Neff=3.800
+
+Q AQPAGG            2 QPAGG    6 (6)
+Q Consensus         2 qpagg    6 (6)
+                      +|.||
+T Consensus        16 ~PgGG   20 (37)
+T 5N5A_A           16 QPGGG   20 (37)
+T ss_pred             CCCCC
+
+
+No 5
+>7O7Y_AA 40S ribosomal protein S27, Ribosomal; Frameshift, virus, pseudoknot, RIBOSOME; HET: GTP, HIC, 5MC, UNX, A2M, 5MU, M2G, 7MG, 1MA, SAC, OMU, PSU, MG, OMG, V5N, YYG, 2MG, UY1, 6MZ, H2U, OMC, SPD, B8N, NMM, MA6, UR3, 4AC, MLZ, M3L, AME, SPM; 2.2A {Oryctolagus cuniculus}
+Probab=18.29  E-value=1.2e+02  Score=12.16  Aligned_cols=6  Identities=67%  Similarity=1.365  Sum_probs=0.0  Template_Neff=5.400
+
+Q AQPAGG            1 AQPAGG    6 (6)
+Q Consensus         1 aqpagg    6 (6)
+                      ++|.||
+T Consensus        64 ~~ptGG   69 (84)
+T 7O7Y_AA          64 CQPTGG   69 (84)
+T ss_pred             ccccCC
+
+
+No 6
+>3KDR_C HK97 Family Phage Portal Protein; Phage, HK97 family, Portal, Corynebacterium; HET: PO4, GOL, SO4; 2.9A {Corynebacterium diphtheriae}
+Probab=17.92  E-value=1.2e+02  Score=12.57  Aligned_cols=6  Identities=67%  Similarity=0.983  Sum_probs=0.0  Template_Neff=9.500
+
+Q AQPAGG            1 AQPAGG    6 (6)
+Q Consensus         1 aqpagg    6 (6)
+                      |||.||
+T Consensus       303 ~~~~~~  308 (310)
+T 3KDR_C          303 AQPHGE  308 (310)
+T ss_dssp             ------
+T ss_pred             CCCCCC
+
+
+No 7
+>4Y0B_A ClpT1; caseinolytic protease, N-domain, alpha helical; HET: MSE; 2.4A {Arabidopsis thaliana}
+Probab=16.33  E-value=1.4e+02  Score=11.54  Aligned_cols=6  Identities=67%  Similarity=1.093  Sum_probs=0.0  Template_Neff=9.300
+
+Q AQPAGG            1 AQPAGG    6 (6)
+Q Consensus         1 aqpagg    6 (6)
+                      |||+++
+T Consensus        11 ~~~~~~   16 (184)
+T 4Y0B_A           11 AQPENG   16 (184)
+T ss_dssp             ------
+T ss_pred             CCCCCC
+
+
+No 8
+>1QVC_A E.COLI SINGLE STRANDED DNA BINDING; BETA-BARREL, SINGLE STRANDED DNA BINDING; 2.2A {Escherichia coli} SCOP: b.40.4.3
+Probab=12.09  E-value=2.2e+02  Score=10.85  Aligned_cols=5  Identities=80%  Similarity=1.551  Sum_probs=0.0  Template_Neff=8.800
+
+Q AQPAGG            2 QPAGG    6 (6)
+Q Consensus         2 qpagg    6 (6)
+                      ||+++
+T Consensus       140 ~~~~~  144 (145)
+T 1QVC_A          140 QPQGG  144 (145)
+T ss_dssp             SSCCC
+T ss_pred             CCCCC
+
+
+No 9
+>2MZ7_A Microtubule-associated protein tau; Tau, microtubule, dynamics, PROTEIN BINDING; NMR {N/A}
+Probab=9.88  E-value=2.9e+02  Score=10.22  Aligned_cols=5  Identities=80%  Similarity=1.597  Sum_probs=0.0  Template_Neff=4.800
+
+Q AQPAGG            2 QPAGG    6 (6)
+Q Consensus         2 qpagg    6 (6)
+                      +|.||
+T Consensus         3 ~PgGG    7 (46)
+T 2MZ7_A            3 QPGGG    7 (46)
+T ss_dssp             TTSCT
+T ss_pred             CCCCC
+
+
+No 10
+>7AGL_A N-acetylmuramoyl-L-alanine amidase; amidase, peptidoglycan, SUGAR BINDING PROTEIN; 1.6A {Mycobacteroides abscessus}
+Probab=9.68  E-value=3e+02  Score=11.23  Aligned_cols=6  Identities=83%  Similarity=1.409  Sum_probs=0.0  Template_Neff=9.000
+
+Q AQPAGG            1 AQPAGG    6 (6)
+Q Consensus         1 aqpagg    6 (6)
+                      +.|+||
+T Consensus       228 ~~~~~~  233 (233)
+T 7AGL_A          228 AAPAGG  233 (233)
+T ss_dssp             ------
+T ss_pred             cCCCCC
+
+

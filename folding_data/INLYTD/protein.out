@@ -1,0 +1,147 @@
+Query         INLYTD
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 08:51:51 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/INLYTD/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/INLYTD/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3LRU_A Pre-mRNA-processing-spl  17.3 1.3E+02  0.0014   13.8   0.0    6    1-6      87-92  (160)
+  2 1R1A_4 RHINOVIRUS SEROTYPE 1 (  17.2 1.3E+02  0.0014   10.3   0.0    6    1-6      29-34  (44)
+  3 1Y3D_I subtilisin BPN' (E.C.3.  17.0 1.3E+02  0.0015   10.3   0.0    6    1-6      47-52  (64)
+  4 2HWD_4 HUMAN RHINOVIRUS 1A COM  17.0 1.3E+02  0.0015   10.1   0.0    6    1-6      29-34  (44)
+  5 6I2K_D Polyprotein, Lysosome m  14.5 1.7E+02  0.0019   10.7   0.0    6    1-6      19-24  (58)
+  6 4PDW_D VP1, VP2, VP3, VP4; ben  14.5 1.7E+02  0.0019   11.0   0.0    6    1-6      29-34  (68)
+  7 5W3M_D C5 antibody variable he  14.5 1.7E+02  0.0019   11.0   0.0    6    1-6      29-34  (68)
+  8 6ZCK_D Genome polyprotein (E.C  14.4 1.7E+02  0.0019   10.6   0.0    6    1-6      19-24  (58)
+  9 7A3M_A Subtilisin-chymotrypsin  14.3 1.7E+02  0.0019   10.0   0.0    6    1-6      47-52  (64)
+ 10 2C8I_D ECHOVIRUS 11 COAT PROTE  14.0 1.8E+02   0.002   10.6   0.0    6    1-6      21-26  (60)
+
+No 1
+>3LRU_A Pre-mRNA-processing-splicing factor 8; alternate folding of protein, Disease; 1.85A {Homo sapiens}
+Probab=17.32  E-value=1.3e+02  Score=13.79  Aligned_cols=6  Identities=67%  Similarity=1.182  Sum_probs=3.1  Template_Neff=4.200
+
+Q INLYTD            1 INLYTD    6 (6)
+Q Consensus         1 inlytd    6 (6)
+                      +|+|-|
+T Consensus        87 fnlYDd   92 (160)
+T 3LRU_A           87 FNLYDD   92 (160)
+T ss_dssp             EETTTT
+T ss_pred             EEcchH
+Confidence            356643
+
+
+No 2
+>1R1A_4 RHINOVIRUS SEROTYPE 1 (HRV1) COAT; RHINOVIRUS COAT PROTEIN, Icosahedral virus; HET: SUC; 3.2A {Human rhinovirus 1A} SCOP: b.121.4.1
+Probab=17.21  E-value=1.3e+02  Score=10.31  Aligned_cols=6  Identities=50%  Similarity=0.982  Sum_probs=0.0  Template_Neff=6.500
+
+Q INLYTD            1 INLYTD    6 (6)
+Q Consensus         1 inlytd    6 (6)
+                      ||-|.|
+T Consensus        29 iNyY~~   34 (44)
+T 1R1A_4           29 INYFKD   34 (44)
+T ss_pred             eeeecc
+
+
+No 3
+>1Y3D_I subtilisin BPN' (E.C.3.4.21.62)/chymotrypsin inhibitor 2; serine protease  inhibitor, HYDROLASE-HYDROLASE; HET: CIT, 15P; 1.8A {Bacillus amyloliquefaciens} SCOP: d.40.1.1
+Probab=16.98  E-value=1.3e+02  Score=10.34  Aligned_cols=6  Identities=33%  Similarity=0.922  Sum_probs=0.0  Template_Neff=7.900
+
+Q INLYTD            1 INLYTD    6 (6)
+Q Consensus         1 inlytd    6 (6)
+                      +|++.|
+T Consensus        47 v~v~vd   52 (64)
+T 1Y3D_I           47 VALFVD   52 (64)
+T ss_dssp             EEEEEC
+T ss_pred             EEEEEC
+
+
+No 4
+>2HWD_4 HUMAN RHINOVIRUS 1A COMPLEXED WITH; RHINOVIRUS COAT PROTEIN, Icosahedral virus; HET: W91; 3.8A {Human rhinovirus 1A} SCOP: b.121.4.1
+Probab=16.97  E-value=1.3e+02  Score=10.15  Aligned_cols=6  Identities=50%  Similarity=0.982  Sum_probs=0.0  Template_Neff=6.800
+
+Q INLYTD            1 INLYTD    6 (6)
+Q Consensus         1 inlytd    6 (6)
+                      ||-|.|
+T Consensus        29 iNyY~~   34 (44)
+T 2HWD_4           29 INYFKD   34 (44)
+T ss_pred             eeeech
+
+
+No 5
+>6I2K_D Polyprotein, Lysosome membrane protein 2; Enterovirus 71, SCARB2, Hand-foot-mouth disease; HET: 906, BMA, MAN, NAG; 3.4A {Enterovirus A71}
+Probab=14.47  E-value=1.7e+02  Score=10.68  Aligned_cols=6  Identities=67%  Similarity=1.132  Sum_probs=0.0  Template_Neff=6.200
+
+Q INLYTD            1 INLYTD    6 (6)
+Q Consensus         1 inlytd    6 (6)
+                      ||-|.|
+T Consensus        19 iNyY~~   24 (58)
+T 6I2K_D           19 INYYKD   24 (58)
+T ss_dssp             CCCSSB
+T ss_pred             eeeecc
+
+
+No 6
+>4PDW_D VP1, VP2, VP3, VP4; benzonitrile inhibitor, virus; HET: 2XK, GOL; 3.0A {Human rhinovirus 14}
+Probab=14.46  E-value=1.7e+02  Score=10.98  Aligned_cols=6  Identities=67%  Similarity=1.132  Sum_probs=0.0  Template_Neff=6.200
+
+Q INLYTD            1 INLYTD    6 (6)
+Q Consensus         1 inlytd    6 (6)
+                      ||-|.|
+T Consensus        29 iNyY~~   34 (68)
+T 4PDW_D           29 INYYKD   34 (68)
+T ss_dssp             CCCSSS
+T ss_pred             Eeeecc
+
+
+No 7
+>5W3M_D C5 antibody variable heavy domain; virus, antibody, VIRUS-IMMUNE SYSTEM complex; 2.26A {Mus musculus}
+Probab=14.46  E-value=1.7e+02  Score=10.98  Aligned_cols=6  Identities=67%  Similarity=1.132  Sum_probs=0.0  Template_Neff=6.200
+
+Q INLYTD            1 INLYTD    6 (6)
+Q Consensus         1 inlytd    6 (6)
+                      ||-|.|
+T Consensus        29 iNyY~~   34 (68)
+T 5W3M_D           29 INYYKD   34 (68)
+T ss_pred             Eeeecc
+
+
+No 8
+>6ZCK_D Genome polyprotein (E.C.3.4.22.29,3.6.1.15,3.4.22.28,2.7.7.48); Enterovirus, Coxsackievirus B4, Inhibitor, Capsid; HET: MYR, QFW; 2.7A {Coxsackievirus B4 (strain E2)}
+Probab=14.42  E-value=1.7e+02  Score=10.63  Aligned_cols=6  Identities=67%  Similarity=1.132  Sum_probs=0.0  Template_Neff=6.300
+
+Q INLYTD            1 INLYTD    6 (6)
+Q Consensus         1 inlytd    6 (6)
+                      ||-|.+
+T Consensus        19 iNyY~~   24 (58)
+T 6ZCK_D           19 INYYKD   24 (58)
+T ss_dssp             CCCSSS
+T ss_pred             eeeecc
+
+
+No 9
+>7A3M_A Subtilisin-chymotrypsin inhibitor-2A; Chymotrypsin inhibitor CI-2, mutant, PROTEIN; 1.01A {Hordeum vulgare}
+Probab=14.35  E-value=1.7e+02  Score=10.02  Aligned_cols=6  Identities=33%  Similarity=0.955  Sum_probs=0.0  Template_Neff=8.000
+
+Q INLYTD            1 INLYTD    6 (6)
+Q Consensus         1 inlytd    6 (6)
+                      +|++.|
+T Consensus        47 v~v~vd   52 (64)
+T 7A3M_A           47 VRLFVD   52 (64)
+T ss_dssp             EEEEEC
+T ss_pred             EEEEEC
+
+
+No 10
+>2C8I_D ECHOVIRUS 11 COAT PROTEIN VP1; PICORNAVIRUS, DAF, VIRUS-RECEPTOR COMPLEX, ANTIGEN; 14.0A {HUMAN ECHOVIRUS 11}
+Probab=13.99  E-value=1.8e+02  Score=10.60  Aligned_cols=6  Identities=67%  Similarity=1.132  Sum_probs=0.0  Template_Neff=6.400
+
+Q INLYTD            1 INLYTD    6 (6)
+Q Consensus         1 inlytd    6 (6)
+                      ||-|.+
+T Consensus        21 iNyY~~   26 (60)
+T 2C8I_D           21 INYYKD   26 (60)
+T ss_pred             eeeccc
+
+

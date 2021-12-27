@@ -1,0 +1,149 @@
+Query         LNTVYV
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 19:51:38 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LNTVYV/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LNTVYV/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5Y2P_B Uric acid degradation b  11.2 2.5E+02  0.0027   13.7   0.0    5    2-6      71-75  (312)
+  2 2HMA_A Probable tRNA (5-methyl  10.3 2.8E+02  0.0031   12.0   0.0    5    2-6     273-277 (376)
+  3 5M98_D Uricase (E.C.1.7.3.3);   10.1 2.8E+02  0.0031   13.5   0.0    5    2-6      68-72  (298)
+  4 2DET_A tRNA-specific 2-thiouri  10.1 2.8E+02  0.0031   12.1   0.0    5    2-6     281-285 (380)
+  5 4R8X_D Uricase (E.C.3.1.2.4);    9.5 3.1E+02  0.0034   13.5   0.0    5    2-6      74-78  (322)
+  6 6SXW_A Zinc finger protein 638   8.8 3.4E+02  0.0038    7.6   0.0    5    2-6       1-5   (74)
+  7 5K0Y_O Eukaryotic translation    8.4 3.6E+02   0.004    7.1   0.0    5    2-6       1-5   (77)
+  8 3SFT_A Chemotaxis response reg   6.9 4.7E+02  0.0052   10.9   0.0    5    2-6      75-79  (193)
+  9 2DER_A tRNA-specific 2-thiouri   6.9 4.7E+02  0.0052   11.4   0.0    5    2-6     281-285 (380)
+ 10 3NYN_A G protein-coupled recep   6.9 4.7E+02  0.0052   12.5   0.0    5    2-6       9-13  (576)
+
+No 1
+>5Y2P_B Uric acid degradation bifunctional protein; Protein engineering, Oxidase, pH dependence; HET: EDO, OCS, AZA; 1.5A {Bacillus sp. (strain TB-90)}
+Probab=11.16  E-value=2.5e+02  Score=13.68  Aligned_cols=5  Identities=20%  Similarity=0.089  Sum_probs=0.0  Template_Neff=5.400
+
+Q LNTVYV            2 NTVYV    6 (6)
+Q Consensus         2 ntvyv    6 (6)
+                      ||||+
+T Consensus        71 NtVy~   75 (312)
+T 5Y2P_B           71 NFIQK   75 (312)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 2
+>2HMA_A Probable tRNA (5-methylaminomethyl-2-thiouridylate)-methyltransferase (E.C.2.1.1.61); alpha-beta, beta barrel, Structural Genomics; HET: SAM; 2.41A {Streptococcus pneumoniae}
+Probab=10.28  E-value=2.8e+02  Score=12.03  Aligned_cols=5  Identities=60%  Similarity=1.079  Sum_probs=0.0  Template_Neff=9.300
+
+Q LNTVYV            2 NTVYV    6 (6)
+Q Consensus         2 ntvyv    6 (6)
+                      |+|||
+T Consensus       273 n~v~v  277 (376)
+T 2HMA_A          273 NILYV  277 (376)
+T ss_dssp             TEEEE
+T ss_pred             CEEEE
+
+
+No 3
+>5M98_D Uricase (E.C.1.7.3.3); uric acid, urate, purine metabolism; 2.8A {Danio rerio}
+Probab=10.13  E-value=2.8e+02  Score=13.45  Aligned_cols=5  Identities=60%  Similarity=0.507  Sum_probs=0.0  Template_Neff=5.300
+
+Q LNTVYV            2 NTVYV    6 (6)
+Q Consensus         2 ntvyv    6 (6)
+                      ||||+
+T Consensus        68 NtVy~   72 (298)
+T 5M98_D           68 NTVHA   72 (298)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 4
+>2DET_A tRNA-specific 2-thiouridylase mnmA(E.C.2.8.1.-)/RNA Complex; Protein-RNA complex, Transferase-RNA COMPLEX; 3.4A {Escherichia coli}
+Probab=10.08  E-value=2.8e+02  Score=12.07  Aligned_cols=5  Identities=40%  Similarity=0.487  Sum_probs=0.0  Template_Neff=9.200
+
+Q LNTVYV            2 NTVYV    6 (6)
+Q Consensus         2 ntvyv    6 (6)
+                      |+|||
+T Consensus       281 n~i~v  285 (380)
+T 2DET_A          281 NILVV  285 (380)
+T ss_dssp             TCCEE
+T ss_pred             CEEEE
+
+
+No 5
+>4R8X_D Uricase (E.C.3.1.2.4); Bacillus fastidious uricase, fold, stability; 1.401A {Bacillus fastidiosus}
+Probab=9.51  E-value=3.1e+02  Score=13.48  Aligned_cols=5  Identities=20%  Similarity=0.069  Sum_probs=0.0  Template_Neff=5.300
+
+Q LNTVYV            2 NTVYV    6 (6)
+Q Consensus         2 ntvyv    6 (6)
+                      ||||+
+T Consensus        74 NtVy~   78 (322)
+T 4R8X_D           74 NFIQR   78 (322)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 6
+>6SXW_A Zinc finger protein 638; Zinc finger, RNA binding, RRM; HET: SO4; 2.751A {Homo sapiens}
+Probab=8.79  E-value=3.4e+02  Score=7.64  Aligned_cols=5  Identities=0%  Similarity=0.388  Sum_probs=0.0  Template_Neff=11.900
+
+Q LNTVYV            2 NTVYV    6 (6)
+Q Consensus         2 ntvyv    6 (6)
+                      +++++
+T Consensus         1 ~~~~i    5 (74)
+T 6SXW_A            1 SVLLI    5 (74)
+T ss_dssp             CEEEE
+T ss_pred             CEEEE
+
+
+No 7
+>5K0Y_O Eukaryotic translation initiation factor 2; eukaryotic translation initiation, ribosome, eIF3; 5.8A {Oryctolagus cuniculus}
+Probab=8.40  E-value=3.6e+02  Score=7.13  Aligned_cols=5  Identities=40%  Similarity=0.461  Sum_probs=0.0  Template_Neff=12.900
+
+Q LNTVYV            2 NTVYV    6 (6)
+Q Consensus         2 ntvyv    6 (6)
+                      +++++
+T Consensus         1 ~~~~i    5 (77)
+T 5K0Y_O            1 ATIRV    5 (77)
+T ss_pred             CEEEE
+
+
+No 8
+>3SFT_A Chemotaxis response regulator protein-glutamate methylesterase; modified doubly-wound/fold, Methylesterase, chemoreceptor, HYDROLASE; 2.15A {Thermotoga maritima}
+Probab=6.90  E-value=4.7e+02  Score=10.92  Aligned_cols=5  Identities=40%  Similarity=0.833  Sum_probs=0.0  Template_Neff=7.800
+
+Q LNTVYV            2 NTVYV    6 (6)
+Q Consensus         2 ntvyv    6 (6)
+                      ++|||
+T Consensus        75 g~iYv   79 (193)
+T 3SFT_A           75 GFVYI   79 (193)
+T ss_dssp             TEEEE
+T ss_pred             CEEEE
+
+
+No 9
+>2DER_A tRNA-specific 2-thiouridylase mnmA(E.C.2.8.1.-)/RNA Complex; Protein-RNA complex, Transferase-RNA COMPLEX; HET: SO4, PO4; 3.1A {Escherichia coli}
+Probab=6.90  E-value=4.7e+02  Score=11.44  Aligned_cols=5  Identities=40%  Similarity=0.487  Sum_probs=0.0  Template_Neff=9.200
+
+Q LNTVYV            2 NTVYV    6 (6)
+Q Consensus         2 ntvyv    6 (6)
+                      |++||
+T Consensus       281 n~~~v  285 (380)
+T 2DER_A          281 NILVV  285 (380)
+T ss_dssp             TEEEE
+T ss_pred             CEEEE
+
+
+No 10
+>3NYN_A G protein-coupled receptor kinase 6; Kinase, GRK, RGS homology domain; HET: BU3, SO4, SGV; 2.72A {Homo sapiens}
+Probab=6.88  E-value=4.7e+02  Score=12.49  Aligned_cols=5  Identities=60%  Similarity=0.767  Sum_probs=0.0  Template_Neff=8.500
+
+Q LNTVYV            2 NTVYV    6 (6)
+Q Consensus         2 ntvyv    6 (6)
+                      ||||+
+T Consensus         9 ~~~~~   13 (576)
+T 3NYN_A            9 NTVLL   13 (576)
+T ss_dssp             HHHHH
+T ss_pred             ceeee
+
+

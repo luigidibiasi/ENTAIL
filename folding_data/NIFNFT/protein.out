@@ -1,0 +1,146 @@
+Query         NIFNFT
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 00:45:48 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NIFNFT/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NIFNFT/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6D5F_d Fimbrial protein/DNA Co   8.8 3.4E+02  0.0038   12.8   0.0    5    1-5      41-45  (137)
+  2 3CHM_A COP9 signalosome comple   8.3 3.7E+02  0.0041   11.1   0.0    6    1-6      38-43  (169)
+  3 6R7H_G COP9 signalosome comple   8.2 3.7E+02  0.0041   10.9   0.0    6    1-6      32-37  (208)
+  4 7KZM_D Tubulin beta, Tubulin a   8.0 3.9E+02  0.0043   12.6   0.0    6    1-6     165-170 (683)
+  5 7KZN_D Heavy chain alpha, Flag   8.0 3.9E+02  0.0043   12.6   0.0    6    1-6     165-170 (683)
+  6 4PQK_B pTZ2162 RepA CTD fused    8.0 3.9E+02  0.0043   11.9   0.0    4    1-4     483-486 (487)
+  7 4PQK_D pTZ2162 RepA CTD fused    8.0 3.9E+02  0.0043   11.9   0.0    4    1-4     483-486 (487)
+  8 2QC3_A Malonyl CoA-acyl carrie   8.0 3.9E+02  0.0043    9.8   0.0    5    1-5     299-303 (303)
+  9 6J9L_B AcrIIC2, HNH endonuclea   7.7 4.1E+02  0.0045   12.4   0.0    4    1-4       7-10  (125)
+ 10 1AGS_B ALPHA GLUTATHIONE S-TRA   7.3 4.4E+02  0.0049    9.9   0.0    4    2-5     218-221 (221)
+
+No 1
+>6D5F_d Fimbrial protein/DNA Complex; filamentous virus, helical symmetry, membrane; 3.7A {Sulfolobus filamentous virus 1}
+Probab=8.76  E-value=3.4e+02  Score=12.84  Aligned_cols=5  Identities=80%  Similarity=1.345  Sum_probs=0.0  Template_Neff=1.000
+
+Q NIFNFT            1 NIFNF    5 (6)
+Q Consensus         1 nifnf    5 (6)
+                      ||.||
+T Consensus        41 nimnf   45 (137)
+T 6D5F_d           41 NIMNF   45 (137)
+T ss_pred             HHhhH
+
+
+No 2
+>3CHM_A COP9 signalosome complex subunit 7; HEAT/ARM repeats, winged helix motif; HET: ACT; 1.5A {Arabidopsis thaliana}
+Probab=8.26  E-value=3.7e+02  Score=11.07  Aligned_cols=6  Identities=33%  Similarity=1.049  Sum_probs=0.0  Template_Neff=7.600
+
+Q NIFNFT            1 NIFNFT    6 (6)
+Q Consensus         1 nifnft    6 (6)
+                      ++|+|.
+T Consensus        38 ~v~~f~   43 (169)
+T 3CHM_A           38 SLFAFS   43 (169)
+T ss_dssp             TCCCCH
+T ss_pred             CeeCHH
+
+
+No 3
+>6R7H_G COP9 signalosome complex subunit 1; Cullin-Ring E3 Ligases (CRLs) COP9; 8.8A {Homo sapiens}
+Probab=8.22  E-value=3.7e+02  Score=10.86  Aligned_cols=6  Identities=17%  Similarity=0.683  Sum_probs=0.0  Template_Neff=8.800
+
+Q NIFNFT            1 NIFNFT    6 (6)
+Q Consensus         1 nifnft    6 (6)
+                      ++|+|.
+T Consensus        32 ~~~~f~   37 (208)
+T 6R7H_G           32 GVYVFG   37 (208)
+T ss_pred             CeeeHH
+
+
+No 4
+>7KZM_D Tubulin beta, Tubulin alpha, Heavy; dynein, microtubule, cilia, MOTOR PROTEIN; HET: GTP, GDP; 7.5A {Chlamydomonas reinhardtii}
+Probab=8.03  E-value=3.9e+02  Score=12.57  Aligned_cols=6  Identities=67%  Similarity=1.176  Sum_probs=0.0  Template_Neff=9.500
+
+Q NIFNFT            1 NIFNFT    6 (6)
+Q Consensus         1 nifnft    6 (6)
+                      |-|||.
+T Consensus       165 n~~~~~  170 (683)
+T 7KZM_D          165 NQFNFS  170 (683)
+T ss_pred             cccchh
+
+
+No 5
+>7KZN_D Heavy chain alpha, Flagellar outer; dynein, microtubule, cilia, MOTOR PROTEIN; 4.0A {Chlamydomonas reinhardtii}
+Probab=8.03  E-value=3.9e+02  Score=12.57  Aligned_cols=6  Identities=67%  Similarity=1.176  Sum_probs=0.0  Template_Neff=9.500
+
+Q NIFNFT            1 NIFNFT    6 (6)
+Q Consensus         1 nifnft    6 (6)
+                      |-|||.
+T Consensus       165 n~~~~~  170 (683)
+T 7KZN_D          165 NQFNFS  170 (683)
+T ss_dssp             ------
+T ss_pred             cccchh
+
+
+No 6
+>4PQK_B pTZ2162 RepA CTD fused to; DNA BINDING PROTEIN; HET: GLC; 3.401A {Escherichia coli}
+Probab=8.01  E-value=3.9e+02  Score=11.92  Aligned_cols=4  Identities=100%  Similarity=1.547  Sum_probs=0.0  Template_Neff=9.600
+
+Q NIFNFT            1 NIFN    4 (6)
+Q Consensus         1 nifn    4 (6)
+                      ||||
+T Consensus       483 ~~~~  486 (487)
+T 4PQK_B          483 NIFN  486 (487)
+T ss_dssp             ----
+T ss_pred             cccc
+
+
+No 7
+>4PQK_D pTZ2162 RepA CTD fused to; DNA BINDING PROTEIN; HET: GLC; 3.401A {Escherichia coli}
+Probab=8.01  E-value=3.9e+02  Score=11.92  Aligned_cols=4  Identities=100%  Similarity=1.547  Sum_probs=0.0  Template_Neff=9.600
+
+Q NIFNFT            1 NIFN    4 (6)
+Q Consensus         1 nifn    4 (6)
+                      ||||
+T Consensus       483 ~~~~  486 (487)
+T 4PQK_D          483 NIFN  486 (487)
+T ss_dssp             ----
+T ss_pred             cccc
+
+
+No 8
+>2QC3_A Malonyl CoA-acyl carrier protein transacylase; malonyl-CoA:ACP transacylase  Crystal structure; 2.3A {Mycobacterium tuberculosis}
+Probab=7.97  E-value=3.9e+02  Score=9.76  Aligned_cols=5  Identities=20%  Similarity=0.481  Sum_probs=0.0  Template_Neff=12.300
+
+Q NIFNFT            1 NIFNF    5 (6)
+Q Consensus         1 nifnf    5 (6)
+                      +|++|
+T Consensus       299 ~~~~~  303 (303)
+T 2QC3_A          299 ELANL  303 (303)
+T ss_dssp             TTTC-
+T ss_pred             HHhcC
+
+
+No 9
+>6J9L_B AcrIIC2, HNH endonuclease family protein; AcrIIC2, HYDROLASE INHIBITOR-HYDROLASE complex; 1.78A {Neisseria meningitidis}
+Probab=7.73  E-value=4.1e+02  Score=12.37  Aligned_cols=4  Identities=100%  Similarity=1.547  Sum_probs=0.0  Template_Neff=2.500
+
+Q NIFNFT            1 NIFN    4 (6)
+Q Consensus         1 nifn    4 (6)
+                      ||||
+T Consensus         7 ~~~~   10 (125)
+T 6J9L_B            7 NIFN   10 (125)
+T ss_dssp             HHHT
+T ss_pred             cccc
+
+
+No 10
+>1AGS_B ALPHA GLUTATHIONE S-TRANSFERASE (E.C.2.5.1.18) 1-2-1; TRANSFERASE (GLUTATHIONE); HET: GTX; 2.5A {synthetic construct} SCOP: a.45.1.1, c.47.1.5
+Probab=7.27  E-value=4.4e+02  Score=9.87  Aligned_cols=4  Identities=75%  Similarity=1.522  Sum_probs=0.0  Template_Neff=10.700
+
+Q NIFNFT            2 IFNF    5 (6)
+Q Consensus         2 ifnf    5 (6)
+                      ||||
+T Consensus       218 ~~~~  221 (221)
+T 1AGS_B          218 IFRF  221 (221)
+T ss_pred             HhcC
+
+

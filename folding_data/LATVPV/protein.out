@@ -1,0 +1,146 @@
+Query         LATVPV
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 15:54:07 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LATVPV/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LATVPV/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5ZIH_B Sensory opsin A,Chrimso   9.6   3E+02  0.0034   13.2   0.0    5    2-6      29-33  (347)
+  2 7C86_A Channelrhodopsin (ChR)    9.4 3.1E+02  0.0035   13.2   0.0    5    2-6      29-33  (356)
+  3 6VQV_K CRISPR system single-st   8.8 3.4E+02  0.0038   11.8   0.0    4    2-5     182-185 (187)
+  4 6A97_C MHC I-like leukocyte 2    8.8 3.4E+02  0.0038   11.0   0.0    6    1-6       8-13  (292)
+  5 1SFC_I PROTEIN (SYNAPTOBREVIN    8.5 3.6E+02  0.0039   10.4   0.0    4    2-5       6-9   (96)
+  6 2XLK_B CSY4 ENDORIBONUCLEASE;    8.5 3.6E+02   0.004   11.9   0.0    4    2-5     186-189 (191)
+  7 6QPH_J Chlorophyll a-b binding   8.1 3.8E+02  0.0042   10.0   0.0    6    1-6       8-13  (41)
+  8 6FOS_J Similar to chlorophyll    7.7 4.1E+02  0.0045    9.9   0.0    6    1-6       7-12  (38)
+  9 5ZGH_J Lhcr1, Lhcr2, Lhcr3, Ps   7.6 4.1E+02  0.0046    9.8   0.0    6    1-6       7-12  (38)
+ 10 6L4U_J PROTEIN; Photosystem I,   7.6 4.1E+02  0.0046    9.9   0.0    6    1-6       8-13  (41)
+
+No 1
+>5ZIH_B Sensory opsin A,Chrimson; membrane protein, rhodopsin, ion channel; HET: LYR, OLC; 2.6A {Chlamydomonas reinhardtii}
+Probab=9.59  E-value=3e+02  Score=13.24  Aligned_cols=5  Identities=100%  Similarity=1.285  Sum_probs=0.0  Template_Neff=6.200
+
+Q LATVPV            2 ATVPV    6 (6)
+Q Consensus         2 atvpv    6 (6)
+                      |||||
+T Consensus        29 ~~~~~   33 (347)
+T 5ZIH_B           29 ATVPV   33 (347)
+T ss_dssp             -----
+T ss_pred             CccCe
+
+
+No 2
+>7C86_A Channelrhodopsin (ChR) chimera between ChR1; Channelrhodopsin, Rhodopsin, Membrane Protein; HET: RET, OLC, NAG; 2.3A {Chlamydomonas reinhardtii}
+Probab=9.38  E-value=3.1e+02  Score=13.24  Aligned_cols=5  Identities=100%  Similarity=1.285  Sum_probs=0.0  Template_Neff=6.200
+
+Q LATVPV            2 ATVPV    6 (6)
+Q Consensus         2 atvpv    6 (6)
+                      |||||
+T Consensus        29 ~~~~~   33 (356)
+T 7C86_A           29 ATVPV   33 (356)
+T ss_dssp             -----
+T ss_pred             CccCe
+
+
+No 3
+>6VQV_K CRISPR system single-strand-specific deoxyribonuclease Cas10/Csm1; CRISPR, Type I-F, Csy, AcrF9;{Pseudomonas aeruginosa}
+Probab=8.81  E-value=3.4e+02  Score=11.85  Aligned_cols=4  Identities=50%  Similarity=0.775  Sum_probs=0.0  Template_Neff=6.500
+
+Q LATVPV            2 ATVP    5 (6)
+Q Consensus         2 atvp    5 (6)
+                      ||||
+T Consensus       182 atVP  185 (187)
+T 6VQV_K          182 GFVP  185 (187)
+T ss_dssp             CCCC
+T ss_pred             Cccc
+
+
+No 4
+>6A97_C MHC I-like leukocyte 2 long; MHC-like, IMMUNE SYSTEM; 2.148A {Mus musculus}
+Probab=8.77  E-value=3.4e+02  Score=11.03  Aligned_cols=6  Identities=67%  Similarity=0.706  Sum_probs=0.0  Template_Neff=9.900
+
+Q LATVPV            1 LATVPV    6 (6)
+Q Consensus         1 latvpv    6 (6)
+                      ||.||+
+T Consensus         8 ~~~~~~   13 (292)
+T 6A97_C            8 LADVEV   13 (292)
+T ss_dssp             ------
+T ss_pred             hhcccc
+
+
+No 5
+>1SFC_I PROTEIN (SYNAPTOBREVIN 2); MEMBRANE FUSION PROTEIN COMPLEX, TRANSPORT; HET: MPD, SR; 2.4A {Rattus norvegicus} SCOP: h.1.15.1
+Probab=8.54  E-value=3.6e+02  Score=10.44  Aligned_cols=4  Identities=100%  Similarity=1.323  Sum_probs=0.0  Template_Neff=6.900
+
+Q LATVPV            2 ATVP    5 (6)
+Q Consensus         2 atvp    5 (6)
+                      ||||
+T Consensus         6 ~~~~    9 (96)
+T 1SFC_I            6 ATVP    9 (96)
+T ss_dssp             ----
+T ss_pred             CCCC
+
+
+No 6
+>2XLK_B CSY4 ENDORIBONUCLEASE; HYDROLASE-RNA COMPLEX, ENDORIBONUCLEASE, CRISPR; 1.805A {PSEUDOMONAS AERUGINOSA}
+Probab=8.48  E-value=3.6e+02  Score=11.86  Aligned_cols=4  Identities=50%  Similarity=0.775  Sum_probs=0.0  Template_Neff=6.400
+
+Q LATVPV            2 ATVP    5 (6)
+Q Consensus         2 atvp    5 (6)
+                      ||||
+T Consensus       186 aTVP  189 (191)
+T 2XLK_B          186 GFVP  189 (191)
+T ss_dssp             CCEE
+T ss_pred             Cccc
+
+
+No 7
+>6QPH_J Chlorophyll a-b binding protein, chloroplastic; Photosystem I, Dunaliella, Electron Transport; HET: LMG, DGD, CL0, LMT, CLA, PQN, LUT, XAT, CAC, SQD, CHL, GSH, SF4, LHG, BCR; 3.4A {Dunaliella salina}
+Probab=8.10  E-value=3.8e+02  Score=10.03  Aligned_cols=6  Identities=67%  Similarity=1.038  Sum_probs=0.0  Template_Neff=3.900
+
+Q LATVPV            1 LATVPV    6 (6)
+Q Consensus         1 latvpv    6 (6)
+                      |.+.||
+T Consensus         8 LStAPV   13 (41)
+T 6QPH_J            8 LSTAPV   13 (41)
+T ss_pred             hhHhHH
+
+
+No 8
+>6FOS_J Similar to chlorophyll a/b-binding protein; membrane protein, photosynthetic complex, reaction; HET: SF4, CLA, BCR, PQN; 4.0A {Cyanidioschyzon merolae (strain 10D)}
+Probab=7.73  E-value=4.1e+02  Score=9.89  Aligned_cols=6  Identities=67%  Similarity=1.038  Sum_probs=0.0  Template_Neff=3.700
+
+Q LATVPV            1 LATVPV    6 (6)
+Q Consensus         1 latvpv    6 (6)
+                      +.+.||
+T Consensus         7 lstAPV   12 (38)
+T 6FOS_J            7 LSTAPV   12 (38)
+T ss_pred             hhHHHH
+
+
+No 9
+>5ZGH_J Lhcr1, Lhcr2, Lhcr3, PsaA (E.C.1.97.1.12); super-complex, red alga, photosynthesis, PSI-5Lhcr; HET: BCR, 1DO, SF4, BGC, 3XQ, ZEX, DGD, PQN, CL0, LHG, CLA;{Cyanidioschyzon merolae (strain 10D)}
+Probab=7.64  E-value=4.1e+02  Score=9.84  Aligned_cols=6  Identities=67%  Similarity=1.038  Sum_probs=0.0  Template_Neff=3.800
+
+Q LATVPV            1 LATVPV    6 (6)
+Q Consensus         1 latvpv    6 (6)
+                      +.+.||
+T Consensus         7 lstAPV   12 (38)
+T 5ZGH_J            7 LSTAPV   12 (38)
+T ss_pred             hhHHHH
+
+
+No 10
+>6L4U_J PROTEIN; Photosystem I, ELECTRON TRANSPORT; HET: SF4, LHG, LMG, BCR, CL0, LMT, KC1, PQN, DD6, A86, CLA; 2.4A {Chaetoceros gracilis}
+Probab=7.61  E-value=4.1e+02  Score=9.93  Aligned_cols=6  Identities=67%  Similarity=1.038  Sum_probs=0.0  Template_Neff=3.900
+
+Q LATVPV            1 LATVPV    6 (6)
+Q Consensus         1 latvpv    6 (6)
+                      |.+.||
+T Consensus         8 LStAPV   13 (41)
+T 6L4U_J            8 LSTAPV   13 (41)
+T ss_pred             HhHHHH
+
+

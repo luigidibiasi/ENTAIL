@@ -1,0 +1,148 @@
+Query         LATVYI
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 16:37:56 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LATVYI/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LATVYI/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 7BOG_V 30S ribosomal protein S   8.0 3.9E+02  0.0043   10.5   0.0    5    2-6      50-54  (133)
+  2 2E7G_A Putative ribosome-bindi   8.0 3.9E+02  0.0043   10.3   0.0    5    2-6      58-62  (129)
+  3 4RAY_A DNA-binding transcripti   7.1 4.5E+02   0.005    9.7   0.0    5    1-5      54-58  (145)
+  4 4RB0_A DNA-binding transcripti   7.1 4.5E+02   0.005    9.7   0.0    5    1-5      54-58  (145)
+  5 1KKG_A ribosome-binding factor   6.8 4.8E+02  0.0053    9.6   0.0    5    2-6      50-54  (108)
+  6 7O71_c Complex I, NADH dehydro   6.6   5E+02  0.0055    9.7   0.0    6    1-6      40-45  (60)
+  7 2MQ9_A Eukaryotic peptide chai   6.1 5.6E+02  0.0062   11.0   0.0    6    1-6      34-39  (142)
+  8 2W57_B FERRIC UPTAKE REGULATIO   6.0 5.6E+02  0.0062    9.5   0.0    5    1-5      52-56  (150)
+  9 6D57_B Ferric uptake regulatio   6.0 5.6E+02  0.0062    9.8   0.0    5    1-5      68-72  (161)
+ 10 6YJ4_k NADH-ubiquinone oxidore   5.5 6.3E+02   0.007    9.3   0.0    6    1-6      40-45  (60)
+
+No 1
+>7BOG_V 30S ribosomal protein S4, 30S; Cryo-EM, 30S biogenesis, ribosome assembly; HET: 5MC, PSU, G7M, MA6, 2MG, D2T, UR3, MG; 2.75A {Escherichia coli (strain K12)}
+Probab=8.00  E-value=3.9e+02  Score=10.46  Aligned_cols=5  Identities=60%  Similarity=1.119  Sum_probs=0.0  Template_Neff=7.900
+
+Q LATVYI            2 ATVYI    6 (6)
+Q Consensus         2 atvyi    6 (6)
+                      |.||+
+T Consensus        50 a~Vy~   54 (133)
+T 7BOG_V           50 AKVYV   54 (133)
+T ss_dssp             EEEEE
+T ss_pred             EEEEE
+
+
+No 2
+>2E7G_A Putative ribosome-binding factor A; RbfA, Structural Genomics, NPPSFA, National; NMR {Homo sapiens} SCOP: d.52.7.1
+Probab=7.97  E-value=3.9e+02  Score=10.26  Aligned_cols=5  Identities=20%  Similarity=0.428  Sum_probs=0.0  Template_Neff=8.200
+
+Q LATVYI            2 ATVYI    6 (6)
+Q Consensus         2 atvyi    6 (6)
+                      |.||+
+T Consensus        58 a~Vy~   62 (129)
+T 2E7G_A           58 CRAYW   62 (129)
+T ss_dssp             EEEEE
+T ss_pred             EEEEE
+
+
+No 3
+>4RAY_A DNA-binding transcriptional dual regulator of; ferric uptake regulator (FUR), metal; HET: FLC, SO4; 1.55A {Magnetospirillum gryphiswaldense}
+Probab=7.15  E-value=4.5e+02  Score=9.74  Aligned_cols=5  Identities=80%  Similarity=1.258  Sum_probs=0.0  Template_Neff=9.400
+
+Q LATVYI            1 LATVY    5 (6)
+Q Consensus         1 latvy    5 (6)
+                      .+|||
+T Consensus        54 ~~Tvy   58 (145)
+T 4RAY_A           54 IATVY   58 (145)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 4
+>4RB0_A DNA-binding transcriptional dual regulator of; ferric uptake regulator (FUR), metal; HET: FLC, MSE, SO4; 1.85A {Magnetospirillum gryphiswaldense}
+Probab=7.15  E-value=4.5e+02  Score=9.74  Aligned_cols=5  Identities=80%  Similarity=1.258  Sum_probs=0.0  Template_Neff=9.400
+
+Q LATVYI            1 LATVY    5 (6)
+Q Consensus         1 latvy    5 (6)
+                      .+|||
+T Consensus        54 ~~Tvy   58 (145)
+T 4RB0_A           54 IATVY   58 (145)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 5
+>1KKG_A ribosome-binding factor A; cold-shock adaptation, ribosome-binding factor, NESG; NMR {Escherichia coli} SCOP: d.52.7.1
+Probab=6.83  E-value=4.8e+02  Score=9.63  Aligned_cols=5  Identities=60%  Similarity=1.119  Sum_probs=0.0  Template_Neff=8.400
+
+Q LATVYI            2 ATVYI    6 (6)
+Q Consensus         2 atvyi    6 (6)
+                      |.||+
+T Consensus        50 a~Vy~   54 (108)
+T 1KKG_A           50 AKVYV   54 (108)
+T ss_dssp             EEEEE
+T ss_pred             EEEEE
+
+
+No 6
+>7O71_c Complex I, NADH dehydrogenase, Mitochondrion; HET: CDL, SF4, T7X, 2MR, 3PE, NDP, ZMP, CPL, PLC, FMN, FME, LMN; 2.4A {Yarrowia lipolytica}
+Probab=6.64  E-value=5e+02  Score=9.65  Aligned_cols=6  Identities=17%  Similarity=0.340  Sum_probs=0.0  Template_Neff=5.900
+
+Q LATVYI            1 LATVYI    6 (6)
+Q Consensus         1 latvyi    6 (6)
+                      +++|||
+T Consensus        40 af~vyi   45 (60)
+T 7O71_c           40 AFGAYL   45 (60)
+T ss_pred             HHHHHH
+
+
+No 7
+>2MQ9_A Eukaryotic peptide chain release factor; Translation Termination, eRF1, RDC, TRANSLATION; NMR {Homo sapiens}
+Probab=6.06  E-value=5.6e+02  Score=11.00  Aligned_cols=6  Identities=17%  Similarity=0.478  Sum_probs=0.0  Template_Neff=5.900
+
+Q LATVYI            1 LATVYI    6 (6)
+Q Consensus         1 latvyi    6 (6)
+                      |.++||
+T Consensus        34 LiSlyI   39 (142)
+T 2MQ9_A           34 MISLII   39 (142)
+T ss_dssp             CEEEEE
+T ss_pred             ceEEEe
+
+
+No 8
+>2W57_B FERRIC UPTAKE REGULATION PROTEIN; GENE REGULATION, VIBRIO CHOLERAE, TRANSCRIPTION; 2.6A {VIBRIO CHOLERAE}
+Probab=6.04  E-value=5.6e+02  Score=9.51  Aligned_cols=5  Identities=100%  Similarity=1.338  Sum_probs=0.0  Template_Neff=9.500
+
+Q LATVYI            1 LATVY    5 (6)
+Q Consensus         1 latvy    5 (6)
+                      .+|||
+T Consensus        52 ~~Tvy   56 (150)
+T 2W57_B           52 LATVY   56 (150)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 9
+>6D57_B Ferric uptake regulation protein; Fur, ferric uptake regulator, Campylobacter; HET: FMT, OHI, GOL; 1.81A {Campylobacter jejuni}
+Probab=6.01  E-value=5.6e+02  Score=9.85  Aligned_cols=5  Identities=80%  Similarity=1.258  Sum_probs=0.0  Template_Neff=9.000
+
+Q LATVYI            1 LATVY    5 (6)
+Q Consensus         1 latvy    5 (6)
+                      .+|||
+T Consensus        68 ~~TVy   72 (161)
+T 6D57_B           68 IATVY   72 (161)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 10
+>6YJ4_k NADH-ubiquinone oxidoreductase chain 3 (E.C.7.1.1.2); NADH:Ubiquinone Oxidoreductase, complex I, MEMBRANE; HET: SF4, FME, 2MR, PLC, FMN, NDP, EHZ, CDL, 3PE, LMT; 2.7A {Yarrowia lipolytica}
+Probab=5.52  E-value=6.3e+02  Score=9.30  Aligned_cols=6  Identities=17%  Similarity=0.340  Sum_probs=0.0  Template_Neff=6.100
+
+Q LATVYI            1 LATVYI    6 (6)
+Q Consensus         1 latvyi    6 (6)
+                      +++|||
+T Consensus        40 af~vyv   45 (60)
+T 6YJ4_k           40 AFGAYL   45 (60)
+T ss_pred             HHHHHH
+
+

@@ -1,0 +1,205 @@
+Query         GGMNFG
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 00:25:37 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GGMNFG/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GGMNFG/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4MAD_A Beta-galactosidase (E.C  38.2      30 0.00033   16.2   0.0    6    1-6     289-294 (600)
+  2 3W5F_A Beta-galactosidase (E.C  36.8      33 0.00036   16.2   0.0    6    1-6     276-281 (718)
+  3 2JUI_A PlnE; ampiphilic alpha   35.4      35 0.00039   13.0   0.0    6    1-6       4-9   (33)
+  4 3D3A_A Beta-galactosidase; bet  32.5      43 0.00047   15.6   0.0    6    1-6     281-286 (612)
+  5 7KDV_E Beta-galactosidase (E.C  32.5      43 0.00047   15.5   0.0    6    1-6     294-299 (630)
+  6 6IK8_A Beta-galactosidase (E.C  29.4      52 0.00057   15.6   0.0    6    1-6     276-281 (718)
+  7 6EON_A Beta-galactosidase; ara  27.6      58 0.00065   15.5   0.0    6    1-6     301-306 (779)
+  8 3WEZ_B Beta-galactosidase (E.C  25.2      69 0.00076   15.4   0.0    6    1-6     311-316 (678)
+  9 4E8C_A Glycosyl hydrolase, fam  24.5      73  0.0008   14.9   0.0    6    1-6     279-284 (595)
+ 10 4E8D_B Glycosyl hydrolase, fam  24.5      73  0.0008   14.9   0.0    6    1-6     279-284 (595)
+ 11 4Q2C_A CRISPR-associated helic  21.6      90   0.001   15.3   0.0    6    1-6       4-9   (949)
+ 12 4Q2D_A CRISPR-associated helic  21.6      90   0.001   15.3   0.0    6    1-6       4-9   (949)
+ 13 4B2T_h T-COMPLEX PROTEIN 1 SUB  20.6      98  0.0011   13.6   0.0    6    1-6     533-538 (543)
+
+No 1
+>4MAD_A Beta-galactosidase (E.C.3.2.1.35); Beta-Galactosidase, bgaC, GH-A, (b/a)8/GH, family; HET: PG0; 1.8A {Bacillus circulans}
+Probab=38.22  E-value=30  Score=16.16  Aligned_cols=6  Identities=83%  Similarity=1.664  Sum_probs=3.4  Template_Neff=8.500
+
+Q GGMNFG            1 GGMNFG    6 (6)
+Q Consensus         1 ggmnfg    6 (6)
+                      ||.|||
+T Consensus       289 GGtnfg  294 (600)
+T 4MAD_A          289 GGTNFG  294 (600)
+T ss_dssp             CCBCCT
+T ss_pred             ccCCcc
+Confidence            455664
+
+
+No 2
+>3W5F_A Beta-galactosidase (E.C.3.2.1.23); Tim Barrel, beta-Sandwich, Hydrolase, Glycosylation; HET: EPE, NAG, ARG; 1.65A {Solanum lycopersicum}
+Probab=36.78  E-value=33  Score=16.24  Aligned_cols=6  Identities=83%  Similarity=1.664  Sum_probs=3.4  Template_Neff=8.800
+
+Q GGMNFG            1 GGMNFG    6 (6)
+Q Consensus         1 ggmnfg    6 (6)
+                      ||.|||
+T Consensus       276 GGtnfg  281 (718)
+T 3W5F_A          276 GGTNFG  281 (718)
+T ss_dssp             CCBCCS
+T ss_pred             CCCCCc
+Confidence            456664
+
+
+No 3
+>2JUI_A PlnE; ampiphilic alpha helix, TOXIN; NMR {Lactobacillus plantarum}
+Probab=35.44  E-value=35  Score=12.98  Aligned_cols=6  Identities=83%  Similarity=1.686  Sum_probs=3.6  Template_Neff=1.300
+
+Q GGMNFG            1 GGMNFG    6 (6)
+Q Consensus         1 ggmnfg    6 (6)
+                      |+.||+
+T Consensus         4 ~~~nf~    9 (33)
+T 2JUI_A            4 GGYNFG    9 (33)
+T ss_dssp             CSCCSS
+T ss_pred             cccccc
+Confidence            456775
+
+
+No 4
+>3D3A_A Beta-galactosidase; beta-galactosidase, Bacteroides thetaiotaomicron, Protein Structure; 2.15A {Bacteroides thetaiotaomicron VPI-5482}
+Probab=32.45  E-value=43  Score=15.63  Aligned_cols=6  Identities=67%  Similarity=1.503  Sum_probs=3.0  Template_Neff=8.700
+
+Q GGMNFG            1 GGMNFG    6 (6)
+Q Consensus         1 ggmnfg    6 (6)
+                      ||.|||
+T Consensus       281 GGtnfG  286 (612)
+T 3D3A_A          281 GGTSFG  286 (612)
+T ss_dssp             CCBCCT
+T ss_pred             CCCCcc
+Confidence            455554
+
+
+No 5
+>7KDV_E Beta-galactosidase (E.C.3.2.1.23), Lysosomal protective protein; glycosidase, protease, lysosome, HYDROLASE; HET: BMA, NAG;{Mus musculus}
+Probab=32.45  E-value=43  Score=15.46  Aligned_cols=6  Identities=67%  Similarity=1.326  Sum_probs=3.0  Template_Neff=9.100
+
+Q GGMNFG            1 GGMNFG    6 (6)
+Q Consensus         1 ggmnfg    6 (6)
+                      ||-|||
+T Consensus       294 GGtnfg  299 (630)
+T 7KDV_E          294 GGTNFA  299 (630)
+T ss_dssp             CCBCCT
+T ss_pred             ccCCcc
+Confidence            455554
+
+
+No 6
+>6IK8_A Beta-galactosidase (E.C.3.2.1.23); Glycoside Hydrolase, Plant cell wall; HET: NAG, GAL; 2.8A {Solanum lycopersicum}
+Probab=29.41  E-value=52  Score=15.63  Aligned_cols=6  Identities=83%  Similarity=1.664  Sum_probs=3.2  Template_Neff=8.800
+
+Q GGMNFG            1 GGMNFG    6 (6)
+Q Consensus         1 ggmnfg    6 (6)
+                      ||.|||
+T Consensus       276 GGtnfg  281 (718)
+T 6IK8_A          276 GGTNFG  281 (718)
+T ss_dssp             CCBCCS
+T ss_pred             CCCCCc
+Confidence            455554
+
+
+No 7
+>6EON_A Beta-galactosidase; arabinogalactan proteins  X-ray crystallography; HET: GLA; 1.75A {Bacteroides thetaiotaomicron}
+Probab=27.61  E-value=58  Score=15.47  Aligned_cols=6  Identities=67%  Similarity=1.503  Sum_probs=3.0  Template_Neff=9.100
+
+Q GGMNFG            1 GGMNFG    6 (6)
+Q Consensus         1 ggmnfg    6 (6)
+                      ||-|||
+T Consensus       301 GGtnfg  306 (779)
+T 6EON_A          301 GGTSFG  306 (779)
+T ss_dssp             CCBCCT
+T ss_pred             CCCCcc
+Confidence            455554
+
+
+No 8
+>3WEZ_B Beta-galactosidase (E.C.3.2.1.23); GLYCOSYL HYDROLASE, TIM-BARREL DOMAIN, HYDROLASE; HET: N8V, SO4, EDO, NAG; 2.11A {Homo sapiens}
+Probab=25.20  E-value=69  Score=15.37  Aligned_cols=6  Identities=67%  Similarity=1.326  Sum_probs=3.0  Template_Neff=8.400
+
+Q GGMNFG            1 GGMNFG    6 (6)
+Q Consensus         1 ggmnfg    6 (6)
+                      ||.|||
+T Consensus       311 GGtnfg  316 (678)
+T 3WEZ_B          311 GGTNFA  316 (678)
+T ss_dssp             CCBCCT
+T ss_pred             CCCChh
+Confidence            455554
+
+
+No 9
+>4E8C_A Glycosyl hydrolase, family 35; TIM barrel, Beta-Propeller, glycohydrolase, Hydrolase; HET: GAL, GOL; 1.95A {Streptococcus pneumoniae}
+Probab=24.47  E-value=73  Score=14.88  Aligned_cols=6  Identities=83%  Similarity=1.664  Sum_probs=2.9  Template_Neff=8.700
+
+Q GGMNFG            1 GGMNFG    6 (6)
+Q Consensus         1 ggmnfg    6 (6)
+                      ||-|||
+T Consensus       279 GGtnfg  284 (595)
+T 4E8C_A          279 GGTNFG  284 (595)
+T ss_dssp             CCBCCT
+T ss_pred             CCCCCc
+Confidence            445553
+
+
+No 10
+>4E8D_B Glycosyl hydrolase, family 35; TIM barrel, Beta-Propeller, glycohydrolase, HYDROLASE; HET: GOL; 1.8A {Streptococcus pneumoniae}
+Probab=24.47  E-value=73  Score=14.88  Aligned_cols=6  Identities=83%  Similarity=1.664  Sum_probs=2.9  Template_Neff=8.700
+
+Q GGMNFG            1 GGMNFG    6 (6)
+Q Consensus         1 ggmnfg    6 (6)
+                      ||-|||
+T Consensus       279 GGtnfg  284 (595)
+T 4E8D_B          279 GGTNFG  284 (595)
+T ss_dssp             CCBCCT
+T ss_pred             CCCCCc
+Confidence            445553
+
+
+No 11
+>4Q2C_A CRISPR-associated helicase Cas3; RecA, HD nuclease, Hydrolase; 2.5A {Thermobaculum terrenum}
+Probab=21.56  E-value=90  Score=15.28  Aligned_cols=6  Identities=83%  Similarity=1.259  Sum_probs=0.0  Template_Neff=9.100
+
+Q GGMNFG            1 GGMNFG    6 (6)
+Q Consensus         1 ggmnfg    6 (6)
+                      ||||-|
+T Consensus         4 ~~~~~~    9 (949)
+T 4Q2C_A            4 GGMNGG    9 (949)
+T ss_dssp             ------
+T ss_pred             CCCCCC
+Confidence            567743
+
+
+No 12
+>4Q2D_A CRISPR-associated helicase Cas3; RecA, HD nuclease, Hydrolase; HET: DTP; 2.771A {Thermobaculum terrenum}
+Probab=21.56  E-value=90  Score=15.28  Aligned_cols=6  Identities=83%  Similarity=1.259  Sum_probs=0.0  Template_Neff=9.100
+
+Q GGMNFG            1 GGMNFG    6 (6)
+Q Consensus         1 ggmnfg    6 (6)
+                      ||||-|
+T Consensus         4 ~~~~~~    9 (949)
+T 4Q2D_A            4 GGMNGG    9 (949)
+T ss_dssp             ------
+T ss_pred             CCCCCC
+Confidence            567743
+
+
+No 13
+>4B2T_h T-COMPLEX PROTEIN 1 SUBUNIT ALPHA; CHAPERONE; 5.5A {BOS TAURUS}
+Probab=20.56  E-value=98  Score=13.62  Aligned_cols=6  Identities=33%  Similarity=0.512  Sum_probs=3.6  Template_Neff=10.000
+
+Q GGMNFG            1 GGMNFG    6 (6)
+Q Consensus         1 ggmnfg    6 (6)
+                      ||||.|
+T Consensus       533 ~~~~~~  538 (543)
+T 4B2T_h          533 AGRGRG  538 (543)
+T ss_dssp             HSTTES
+T ss_pred             CCCCCC
+Confidence            567654
+
+

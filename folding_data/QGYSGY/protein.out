@@ -1,0 +1,147 @@
+Query         QGYSGY
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 08:07:10 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QGYSGY/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QGYSGY/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2XHC_A TRANSCRIPTION ANTITERMI  22.4      85 0.00094   13.5   0.0    6    1-6       9-14  (352)
+  2 2OY9_A UPF0223 protein BH2638;  19.9   1E+02  0.0011   13.2   0.0    5    2-6      70-74  (98)
+  3 7DCO_W PRP8 isoform 1, SNU114   19.4 1.1E+02  0.0012   12.4   0.0    4    1-4       5-8   (455)
+  4 3IWC_D S-adenosylmethionine de  19.2 1.1E+02  0.0012   10.2   0.0    5    1-5      52-56  (62)
+  5 3IWD_B S-adenosylmethionine de  19.2 1.1E+02  0.0012   10.2   0.0    5    1-5      52-56  (62)
+  6 3G87_A Malonyl CoA-acyl carrie  18.9 1.1E+02  0.0012   12.4   0.0    5    2-6     381-385 (394)
+  7 6UJU_C Envelope glycoprotein G  18.7 1.1E+02  0.0013   12.5   0.0    4    1-4      34-37  (112)
+  8 7DRG_A T6SS, antitoxin; HET: M  17.4 1.3E+02  0.0014   13.6   0.0    6    1-6     177-182 (362)
+  9 7DRG_B PA0821; T6SS, antitoxin  17.4 1.3E+02  0.0014   13.6   0.0    6    1-6     177-182 (362)
+ 10 3MLF_E transcriptional regulat  16.9 1.3E+02  0.0015   10.4   0.0    6    1-6       6-11  (111)
+
+No 1
+>2XHC_A TRANSCRIPTION ANTITERMINATION PROTEIN NUSG; TRANSCRIPTION; 2.45A {THERMOTOGA MARITIMA}
+Probab=22.44  E-value=85  Score=13.52  Aligned_cols=6  Identities=50%  Similarity=0.761  Sum_probs=3.6  Template_Neff=9.000
+
+Q QGYSGY            1 QGYSGY    6 (6)
+Q Consensus         1 qgysgy    6 (6)
+                      |-||||
+T Consensus         9 ~~~~g~   14 (352)
+T 2XHC_A            9 LTMSGY   14 (352)
+T ss_pred             EeecCc
+Confidence            347775
+
+
+No 2
+>2OY9_A UPF0223 protein BH2638; pfam, UPF0223, 10286b, Structural Genomics; 1.6A {Bacillus halodurans C-125} SCOP: a.276.1.1
+Probab=19.91  E-value=1e+02  Score=13.25  Aligned_cols=5  Identities=40%  Similarity=0.468  Sum_probs=0.0  Template_Neff=3.900
+
+Q QGYSGY            2 GYSGY    6 (6)
+Q Consensus         2 gysgy    6 (6)
+                      |||.|
+T Consensus        70 GySiY   74 (98)
+T 2OY9_A           70 DVSCY   74 (98)
+T ss_dssp             SCCHH
+T ss_pred             CCcHH
+
+
+No 3
+>7DCO_W PRP8 isoform 1, SNU114 isoform; RNA splicing, spliceosome, Bact complex; HET: ZN, IHP, GTP; 2.5A {Saccharomyces cerevisiae}
+Probab=19.41  E-value=1.1e+02  Score=12.35  Aligned_cols=4  Identities=50%  Similarity=1.315  Sum_probs=0.0  Template_Neff=11.500
+
+Q QGYSGY            1 QGYS    4 (6)
+Q Consensus         1 qgys    4 (6)
+                      ||||
+T Consensus         5 ~~~~    8 (455)
+T 7DCO_W            5 DGYD    8 (455)
+T ss_pred             cccc
+
+
+No 4
+>3IWC_D S-adenosylmethionine decarboxylase (E.C.4.1.1.50); Autocatalytic cleavage, Decarboxylase, Lyase, Polyamine; HET: SMM; 1.9A {Thermotoga maritima}
+Probab=19.18  E-value=1.1e+02  Score=10.19  Aligned_cols=5  Identities=60%  Similarity=0.840  Sum_probs=0.0  Template_Neff=8.500
+
+Q QGYSGY            1 QGYSG    5 (6)
+Q Consensus         1 qgysg    5 (6)
+                      +|+|+
+T Consensus        52 ~G~s~   56 (62)
+T 3IWC_D           52 YGVSG   56 (62)
+T ss_pred             CceEE
+
+
+No 5
+>3IWD_B S-adenosylmethionine decarboxylase (E.C.4.1.1.50); Autocatalytic cleavage, Decarboxylase, Lyase, Polyamine; HET: M2T, PYR; 1.9A {Thermotoga maritima}
+Probab=19.18  E-value=1.1e+02  Score=10.19  Aligned_cols=5  Identities=60%  Similarity=0.840  Sum_probs=0.0  Template_Neff=8.500
+
+Q QGYSGY            1 QGYSG    5 (6)
+Q Consensus         1 qgysg    5 (6)
+                      +|+|+
+T Consensus        52 ~G~s~   56 (62)
+T 3IWD_B           52 YGVSG   56 (62)
+T ss_pred             CceEE
+
+
+No 6
+>3G87_A Malonyl CoA-acyl carrier protein transacylase; SSGCID, NIAID, deCODE biostructures, dried; 2.3A {Burkholderia pseudomallei}
+Probab=18.91  E-value=1.1e+02  Score=12.42  Aligned_cols=5  Identities=80%  Similarity=1.976  Sum_probs=0.0  Template_Neff=10.800
+
+Q QGYSGY            2 GYSGY    6 (6)
+Q Consensus         2 gysgy    6 (6)
+                      ||+|+
+T Consensus       381 g~~~~  385 (394)
+T 3G87_A          381 GYNGY  385 (394)
+T ss_dssp             -----
+T ss_pred             ccceE
+
+
+No 7
+>6UJU_C Envelope glycoprotein GP41; Viral protein, Transmembrane domain, Cytoplasmic; NMR {Human immunodeficiency virus 1}
+Probab=18.72  E-value=1.1e+02  Score=12.49  Aligned_cols=4  Identities=100%  Similarity=1.605  Sum_probs=0.0  Template_Neff=6.000
+
+Q QGYSGY            1 QGYS    4 (6)
+Q Consensus         1 qgys    4 (6)
+                      ||||
+T Consensus        34 qGY~   37 (112)
+T 6UJU_C           34 QGYS   37 (112)
+T ss_dssp             TTSS
+T ss_pred             hccC
+
+
+No 8
+>7DRG_A T6SS, antitoxin; HET: MSE; 1.6A {Pseudomonas aeruginosa (strain ATCC 15692 / DSM 22644 / CIP 104116 / JCM 14847 / LMG 12228 / 1C / PRS 101 / PAO1)}
+Probab=17.43  E-value=1.3e+02  Score=13.63  Aligned_cols=6  Identities=67%  Similarity=1.254  Sum_probs=0.0  Template_Neff=7.900
+
+Q QGYSGY            1 QGYSGY    6 (6)
+Q Consensus         1 qgysgy    6 (6)
+                      +||.|+
+T Consensus       177 ~GyaGl  182 (362)
+T 7DRG_A          177 QGYAGH  182 (362)
+T ss_dssp             EEEEEE
+T ss_pred             eEEEEE
+
+
+No 9
+>7DRG_B PA0821; T6SS, antitoxin; HET: MSE; 1.6A {Pseudomonas aeruginosa (strain ATCC 15692 / DSM 22644 / CIP 104116 / JCM 14847 / LMG 12228 / 1C / PRS 101 / PAO1)}
+Probab=17.43  E-value=1.3e+02  Score=13.63  Aligned_cols=6  Identities=67%  Similarity=1.254  Sum_probs=0.0  Template_Neff=7.900
+
+Q QGYSGY            1 QGYSGY    6 (6)
+Q Consensus         1 qgysgy    6 (6)
+                      +||.|+
+T Consensus       177 ~GyaGl  182 (362)
+T 7DRG_B          177 QGYAGH  182 (362)
+T ss_dssp             EEEEEE
+T ss_pred             eEEEEE
+
+
+No 10
+>3MLF_E transcriptional regulator; structural genomics, Helix-turn-helix XRE-family like; HET: MSE; 2.6A {Staphylococcus aureus subsp. aureus}
+Probab=16.91  E-value=1.3e+02  Score=10.36  Aligned_cols=6  Identities=33%  Similarity=0.312  Sum_probs=0.0  Template_Neff=9.900
+
+Q QGYSGY            1 QGYSGY    6 (6)
+Q Consensus         1 qgysgy    6 (6)
+                      |+++++
+T Consensus         6 ~~~~~~   11 (111)
+T 3MLF_E            6 HHSSGV   11 (111)
+T ss_dssp             ------
+T ss_pred             cccccc
+
+

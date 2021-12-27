@@ -1,0 +1,151 @@
+Query         GYQQQF
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 05:38:01 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GYQQQF/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GYQQQF/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2VBU_A RIBOFLAVIN KINASE (E.C.  40.0      27  0.0003   14.6   0.0    6    1-6      26-31  (136)
+  2 2P3M_A Riboflavin Kinase MJ005  32.4      43 0.00047   14.0   0.0    6    1-6      26-31  (136)
+  3 2OZX_A 14 kDa phosphohistidine  15.9 1.5E+02  0.0016   12.6   0.0    6    1-6      92-97  (125)
+  4 7KHA_L CRISPR-associated prote  10.6 2.6E+02  0.0029   11.1   0.0    5    1-5     108-112 (124)
+  5 2HW4_A 14 kDa phosphohistidine  10.4 2.7E+02   0.003   12.3   0.0    6    1-6     111-116 (144)
+  6 6MGH_G fluorescent protein lan   9.4 3.1E+02  0.0035    8.4   0.0    6    1-6       2-7   (163)
+  7 1PTO_F PERTUSSIS TOXIN; TOXIN;   9.3 3.2E+02  0.0035   12.4   0.0    6    1-6      20-25  (98)
+  8 1BCP_L PERTUSSIS TOXIN, ADENOS   9.2 3.2E+02  0.0035   12.4   0.0    6    1-6      21-26  (99)
+  9 7KMT_E Trafficking protein par   8.9 3.3E+02  0.0037   12.9   0.0    4    3-6      27-30  (268)
+ 10 5UWB_A Toluene tolerance prote   8.7 3.5E+02  0.0038   11.6   0.0    5    2-6     173-177 (223)
+
+No 1
+>2VBU_A RIBOFLAVIN KINASE (E.C.2.7.1.161); TRANSFERASE, CRADLE-LOOP BARREL, CTP-DEPENDENT KINASE; HET: MRD, CDP; 1.7A {METHANOCOCCUS JANNASCHII} SCOP: b.43.5.2
+Probab=40.02  E-value=27  Score=14.65  Aligned_cols=6  Identities=33%  Similarity=0.805  Sum_probs=3.6  Template_Neff=6.000
+
+Q GYQQQF            1 GYQQQF    6 (6)
+Q Consensus         1 gyqqqf    6 (6)
+                      +||+||
+T Consensus        26 ~y~~~f   31 (136)
+T 2VBU_A           26 PYKEIF   31 (136)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            466665
+
+
+No 2
+>2P3M_A Riboflavin Kinase MJ0056; RIFT barrel, phosphotransferase, riboflavin kinase; NMR {Methanocaldococcus jannaschii} SCOP: b.43.5.2
+Probab=32.36  E-value=43  Score=14.02  Aligned_cols=6  Identities=33%  Similarity=0.805  Sum_probs=3.4  Template_Neff=6.100
+
+Q GYQQQF            1 GYQQQF    6 (6)
+Q Consensus         1 gyqqqf    6 (6)
+                      +||.||
+T Consensus        26 ~y~~~f   31 (136)
+T 2P3M_A           26 PYKEIF   31 (136)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            366665
+
+
+No 3
+>2OZX_A 14 kDa phosphohistidine phosphatase (E.C.3.1.3.-); alpha/beta architecture, HYDROLASE; NMR {Homo sapiens} SCOP: d.322.1.1
+Probab=15.90  E-value=1.5e+02  Score=12.57  Aligned_cols=6  Identities=33%  Similarity=1.027  Sum_probs=2.5  Template_Neff=5.600
+
+Q GYQQQF            1 GYQQQF    6 (6)
+Q Consensus         1 gyqqqf    6 (6)
+                      ||.|+|
+T Consensus        92 GyS~~f   97 (125)
+T 2OZX_A           92 GYSMAY   97 (125)
+T ss_dssp             CCCTTS
+T ss_pred             eecccc
+Confidence            344443
+
+
+No 4
+>7KHA_L CRISPR-associated protein, CT1134 family, CRISPR-associated; CRISPR, Cascade, RNA BINDING PROTEIN-RNA;{Desulfovibrio vulgaris (strain Hildenborough / ATCC 29579 / DSM 644 / NCIMB 8303)}
+Probab=10.61  E-value=2.6e+02  Score=11.07  Aligned_cols=5  Identities=60%  Similarity=1.105  Sum_probs=0.0  Template_Neff=7.300
+
+Q GYQQQF            1 GYQQQ    5 (6)
+Q Consensus         1 gyqqq    5 (6)
+                      ||.+|
+T Consensus       108 GYy~Q  112 (124)
+T 7KHA_L          108 GYYHQ  112 (124)
+T ss_pred             HHHHH
+
+
+No 5
+>2HW4_A 14 kDa phosphohistidine phosphatase (E.C.3.1.3.-); phosphohistidine, phosphatase, phpt1, human, Structural; HET: FMT; 1.9A {Homo sapiens} SCOP: d.322.1.1
+Probab=10.39  E-value=2.7e+02  Score=12.31  Aligned_cols=6  Identities=33%  Similarity=1.027  Sum_probs=0.0  Template_Neff=5.000
+
+Q GYQQQF            1 GYQQQF    6 (6)
+Q Consensus         1 gyqqqf    6 (6)
+                      ||.|+|
+T Consensus       111 GyS~~f  116 (144)
+T 2HW4_A          111 GYSMAY  116 (144)
+T ss_dssp             CCCTTT
+T ss_pred             eecccc
+
+
+No 6
+>6MGH_G fluorescent protein lanFP10G; NEAR-INFRARED FLUORESCENT PROTEIN, GAF DOMAIN; HET: GOL, JRA; 1.95A {Acaryochloris marina}
+Probab=9.37  E-value=3.1e+02  Score=8.35  Aligned_cols=6  Identities=17%  Similarity=0.456  Sum_probs=0.0  Template_Neff=13.400
+
+Q GYQQQF            1 GYQQQF    6 (6)
+Q Consensus         1 gyqqqf    6 (6)
+                      +|+.++
+T Consensus         2 ~~~~~~    7 (163)
+T 6MGH_G            2 GSHHHH    7 (163)
+T ss_dssp             ------
+T ss_pred             CCCccc
+
+
+No 7
+>1PTO_F PERTUSSIS TOXIN; TOXIN; HET: GAL, SIA; 3.5A {Bordetella pertussis} SCOP: b.40.2.1
+Probab=9.29  E-value=3.2e+02  Score=12.38  Aligned_cols=6  Identities=50%  Similarity=0.922  Sum_probs=0.0  Template_Neff=1.700
+
+Q GYQQQF            1 GYQQQF    6 (6)
+Q Consensus         1 gyqqqf    6 (6)
+                      |-||||
+T Consensus        20 ~~~~~F   25 (98)
+T 1PTO_F           20 GKNQEF   25 (98)
+T ss_dssp             TTEEEE
+T ss_pred             cccceE
+
+
+No 8
+>1BCP_L PERTUSSIS TOXIN, ADENOSINE-5'-TRIPHOSPHATE; TOXIN, ADP-RIBOSYLTRANSFERASE, TRANSFERASE, WHOOPING COUGH; HET: ATP; 2.7A {Bordetella pertussis} SCOP: b.40.2.1
+Probab=9.22  E-value=3.2e+02  Score=12.39  Aligned_cols=6  Identities=50%  Similarity=0.922  Sum_probs=0.0  Template_Neff=1.700
+
+Q GYQQQF            1 GYQQQF    6 (6)
+Q Consensus         1 gyqqqf    6 (6)
+                      |-||||
+T Consensus        21 ~~~~~F   26 (99)
+T 1BCP_L           21 GKNQEF   26 (99)
+T ss_dssp             TTEEEE
+T ss_pred             cccceE
+
+
+No 9
+>7KMT_E Trafficking protein particle complex subunit; GTPase, GEF, ER, Golgi, Autophagy; HET: PLM; 3.7A {Saccharomyces cerevisiae}
+Probab=8.94  E-value=3.3e+02  Score=12.91  Aligned_cols=4  Identities=75%  Similarity=1.099  Sum_probs=0.0  Template_Neff=5.600
+
+Q GYQQQF            3 QQQF    6 (6)
+Q Consensus         3 qqqf    6 (6)
+                      ||||
+T Consensus        27 ~~q~   30 (268)
+T 7KMT_E           27 QQQY   30 (268)
+T ss_pred             HHHH
+
+
+No 10
+>5UWB_A Toluene tolerance protein; Lipid-binding, periplasmic, MlaC, transport, TRANSPORT; HET: PEF, MSE; 2.604A {Pseudomonas putida (strain ATCC 47054 / DSM 6125 / NCIMB 11950 / KT2440)}
+Probab=8.72  E-value=3.5e+02  Score=11.64  Aligned_cols=5  Identities=40%  Similarity=1.145  Sum_probs=0.0  Template_Neff=7.600
+
+Q GYQQQF            2 YQQQF    6 (6)
+Q Consensus         2 yqqqf    6 (6)
+                      |+.||
+T Consensus       173 yR~qF  177 (223)
+T 5UWB_A          173 FRDQF  177 (223)
+T ss_dssp             HHHHH
+T ss_pred             hHHHH
+
+

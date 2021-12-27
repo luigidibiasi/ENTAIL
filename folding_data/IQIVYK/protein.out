@@ -1,0 +1,151 @@
+Query         IQIVYK
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 09:07:28 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/IQIVYK/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/IQIVYK/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5FYN_B PUUMALA VIRUS GN GLYCOP  16.8 1.4E+02  0.0015   15.5   0.0    6    1-6     149-154 (358)
+  2 7NRH_A VLP, virus-like particl  16.6 1.4E+02  0.0015   15.5   0.0    6    1-6     151-156 (365)
+  3 5FXU_B ENVELOPE POLYPROTEIN; H  16.1 1.4E+02  0.0016   15.5   0.0    6    1-6     149-154 (367)
+  4 6Y6P_A Envelope polyprotein; c  15.6 1.5E+02  0.0017   15.5   0.0    6    1-6     147-152 (389)
+  5 4OT1_A Envelope glycoprotein B  13.6 1.8E+02   0.002   13.0   0.0    6    1-6      22-27  (129)
+  6 6SG9_FI ?; mitochondrial ribos  13.4 1.9E+02  0.0021   15.7   0.0    6    1-6      39-44  (445)
+  7 6SGB_FI uS5m, Uncharacterized   13.3 1.9E+02  0.0021   15.7   0.0    6    1-6      39-44  (445)
+  8 3LYV_B Ribosome-associated fac  12.1 2.2E+02  0.0024   10.9   0.0    6    1-6      41-46  (66)
+  9 3APA_A Zymogen granule membran  12.0 2.2E+02  0.0024   10.4   0.0    6    1-6      46-51  (141)
+ 10 3HFO_B Ssr3341 protein; HFQ, S  12.0 2.2E+02  0.0025   10.8   0.0    5    2-6      56-60  (70)
+
+No 1
+>5FYN_B PUUMALA VIRUS GN GLYCOPROTEIN; VIRAL PROTEIN, TULA VIRUS, MEMBRANE; HET: NAG, BMA, MAN; 15.6A {PUUMALA VIRUS}
+Probab=16.79  E-value=1.4e+02  Score=15.48  Aligned_cols=6  Identities=50%  Similarity=0.921  Sum_probs=3.5  Template_Neff=3.600
+
+Q IQIVYK            1 IQIVYK    6 (6)
+Q Consensus         1 iqivyk    6 (6)
+                      ||++|+
+T Consensus       149 Iqv~fe  154 (358)
+T 5FYN_B          149 IQVNYE  154 (358)
+T ss_dssp             EEEEEE
+T ss_pred             EEEEEE
+Confidence            566664
+
+
+No 2
+>7NRH_A VLP, virus-like particle, Hantaan, HTNV; HET: BMA, MAN, NAG; 19.0A {Oryctolagus cuniculus}
+Probab=16.64  E-value=1.4e+02  Score=15.50  Aligned_cols=6  Identities=50%  Similarity=1.182  Sum_probs=3.5  Template_Neff=3.600
+
+Q IQIVYK            1 IQIVYK    6 (6)
+Q Consensus         1 iqivyk    6 (6)
+                      ||++|+
+T Consensus       151 Iqv~fe  156 (365)
+T 7NRH_A          151 VQVVYE  156 (365)
+T ss_pred             EEEEEE
+Confidence            566664
+
+
+No 3
+>5FXU_B ENVELOPE POLYPROTEIN; HANTAVIRUS, GN, VIRAL GLYCOPROTEIN, BUNYAVIRUS; HET: BMA, NAG, MAN; 2.28A { Puumala orthohantavirus}
+Probab=16.11  E-value=1.4e+02  Score=15.47  Aligned_cols=6  Identities=50%  Similarity=0.921  Sum_probs=3.5  Template_Neff=3.500
+
+Q IQIVYK            1 IQIVYK    6 (6)
+Q Consensus         1 iqivyk    6 (6)
+                      ||++|+
+T Consensus       149 Iqv~fe  154 (367)
+T 5FXU_B          149 IQVNYE  154 (367)
+T ss_dssp             EEEEEE
+T ss_pred             EEEEEE
+Confidence            566664
+
+
+No 4
+>6Y6P_A Envelope polyprotein; class-II fusion protein hantavirus bunyavirus; HET: NAG; 1.938A {Hantaan orthohantavirus}
+Probab=15.56  E-value=1.5e+02  Score=15.54  Aligned_cols=6  Identities=50%  Similarity=1.182  Sum_probs=3.5  Template_Neff=3.400
+
+Q IQIVYK            1 IQIVYK    6 (6)
+Q Consensus         1 iqivyk    6 (6)
+                      |||+|+
+T Consensus       147 IQv~fe  152 (389)
+T 6Y6P_A          147 VQVVYE  152 (389)
+T ss_dssp             EEEEEE
+T ss_pred             EEEEEE
+Confidence            566664
+
+
+No 5
+>4OT1_A Envelope glycoprotein B, SM5-1 Fab; Immunoglobulin, PH domain, Antibody-Antigen Recognition; HET: EDO, EPE; 2.11A {Human Cytomegalovirus}
+Probab=13.62  E-value=1.8e+02  Score=12.99  Aligned_cols=6  Identities=67%  Similarity=1.137  Sum_probs=0.0  Template_Neff=4.000
+
+Q IQIVYK            1 IQIVYK    6 (6)
+Q Consensus         1 iqivyk    6 (6)
+                      |-+|||
+T Consensus        22 ~~~~yk   27 (129)
+T 4OT1_A           22 IMVVYK   27 (129)
+T ss_dssp             EEEEEE
+T ss_pred             eEEEEc
+
+
+No 6
+>6SG9_FI ?; mitochondrial ribosome, assembly intermediate, translation; HET: SAH, GTP; 3.1A {Trypanosoma brucei brucei}
+Probab=13.43  E-value=1.9e+02  Score=15.72  Aligned_cols=6  Identities=50%  Similarity=1.115  Sum_probs=0.0  Template_Neff=2.500
+
+Q IQIVYK            1 IQIVYK    6 (6)
+Q Consensus         1 iqivyk    6 (6)
+                      +||+|+
+T Consensus        39 Lqi~YR   44 (445)
+T 6SG9_FI          39 LQIAYR   44 (445)
+T ss_pred             HHHHcc
+
+
+No 7
+>6SGB_FI uS5m, Uncharacterized protein, uS8m, uS17m; mitochondrial ribosome, assembly intermediate, translation; HET: GTP, SAH, PM8, UBD; 3.3A {Trypanosoma brucei brucei}
+Probab=13.29  E-value=1.9e+02  Score=15.70  Aligned_cols=6  Identities=50%  Similarity=1.115  Sum_probs=0.0  Template_Neff=2.500
+
+Q IQIVYK            1 IQIVYK    6 (6)
+Q Consensus         1 iqivyk    6 (6)
+                      +||+|+
+T Consensus        39 Lqi~YR   44 (445)
+T 6SGB_FI          39 LQIAYR   44 (445)
+T ss_pred             HHHHcc
+
+
+No 8
+>3LYV_B Ribosome-associated factor Y; ribosomal protein S30Ae family, Structural; HET: MSE; 2.7A {Streptococcus pyogenes}
+Probab=12.06  E-value=2.2e+02  Score=10.88  Aligned_cols=6  Identities=33%  Similarity=0.910  Sum_probs=0.0  Template_Neff=5.600
+
+Q IQIVYK            1 IQIVYK    6 (6)
+Q Consensus         1 iqivyk    6 (6)
+                      ++++|+
+T Consensus        41 ~~VvYr   46 (66)
+T 3LYV_B           41 TNILYR   46 (66)
+T ss_dssp             EEEEEE
+T ss_pred             EEEEEE
+
+
+No 9
+>3APA_A Zymogen granule membrane protein 16; beta-prism fold, SUGAR BINDING PROTEIN; 1.65A {Homo sapiens}
+Probab=12.03  E-value=2.2e+02  Score=10.39  Aligned_cols=6  Identities=33%  Similarity=0.739  Sum_probs=0.0  Template_Neff=9.600
+
+Q IQIVYK            1 IQIVYK    6 (6)
+Q Consensus         1 iqivyk    6 (6)
+                      ||+.|.
+T Consensus        46 I~~~y~   51 (141)
+T 3APA_A           46 LQVRYG   51 (141)
+T ss_dssp             EEEEET
+T ss_pred             EEEEEe
+
+
+No 10
+>3HFO_B Ssr3341 protein; HFQ, SM, RNA-BINDING PROTEIN, SRNA; 1.3A {Synechocystis sp. PCC 6803}
+Probab=11.97  E-value=2.2e+02  Score=10.76  Aligned_cols=5  Identities=40%  Similarity=0.235  Sum_probs=0.0  Template_Neff=6.100
+
+Q IQIVYK            2 QIVYK    6 (6)
+Q Consensus         2 qivyk    6 (6)
+                      |++||
+T Consensus        56 ~lIyK   60 (70)
+T 3HFO_B           56 TIVRL   60 (70)
+T ss_dssp             EEEEG
+T ss_pred             EEEEe
+
+

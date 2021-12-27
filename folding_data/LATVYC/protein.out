@@ -1,0 +1,151 @@
+Query         LATVYC
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 16:19:09 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LATVYC/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LATVYC/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6IGZ_F PsaA, PsaB, PsaC, PsaD,  18.1 1.2E+02  0.0013   15.0   0.0    6    1-6       1-6   (236)
+  2 3G74_E Protein of unknown func  16.3 1.4E+02  0.0016   12.0   0.0    6    1-6      28-33  (100)
+  3 2K4E_A Gag-Pol polyprotein; AI  16.3 1.4E+02  0.0016   12.7   0.0    6    1-6      81-86  (134)
+  4 1HEK_B GAG POLYPROTEIN, CORE P  15.9 1.5E+02  0.0016   12.7   0.0    6    1-6      89-94  (131)
+  5 1L6N_A Gag polyprotein; gag, m  15.1 1.6E+02  0.0018   14.3   0.0    6    1-6      82-87  (289)
+  6 4IC9_A Matrix protein p15; FIV  15.1 1.6E+02  0.0018   12.9   0.0    6    1-6      87-92  (149)
+  7 6T61_N Gag polyprotein; Retrov  14.6 1.7E+02  0.0018   13.3   0.0    6    1-6      79-84  (486)
+  8 1AV6_A VP39 PROTEIN (E.C.2.7.7  14.4 1.7E+02  0.0019   14.0   0.0    6    1-6     265-270 (295)
+  9 7JXR_C HIV-1, gag, STRUCTURAL   14.1 1.8E+02  0.0019   12.6   0.0    6    1-6      81-86  (137)
+ 10 2N1R_A Matrix protein p15; myr  14.0 1.8E+02   0.002   12.5   0.0    6    1-6      87-92  (135)
+
+No 1
+>6IGZ_F PsaA, PsaB, PsaC, PsaD, PsaE; PSI-LHCI, PLANT PROTEIN; HET: DGD, XAT, LMG, CLA, CHL, 8CT, SF4, PQN, LHG, HTG;{Bryopsis corticulans}
+Probab=18.06  E-value=1.2e+02  Score=14.95  Aligned_cols=6  Identities=67%  Similarity=1.536  Sum_probs=0.0  Template_Neff=3.300
+
+Q LATVYC            1 LATVYC    6 (6)
+Q Consensus         1 latvyc    6 (6)
+                      +|||+|
+T Consensus         1 ~~~~~~    6 (236)
+T 6IGZ_F            1 MATVFC    6 (236)
+T ss_dssp             ------
+T ss_pred             Cceeee
+Confidence            367776
+
+
+No 2
+>3G74_E Protein of unknown function; APC21008.1, Eubacterium ventriosum ATCC 27560; HET: MSE, SO4; 2.43A {Eubacterium ventriosum ATCC 27560}
+Probab=16.33  E-value=1.4e+02  Score=11.97  Aligned_cols=6  Identities=33%  Similarity=0.883  Sum_probs=0.0  Template_Neff=6.100
+
+Q LATVYC            1 LATVYC    6 (6)
+Q Consensus         1 latvyc    6 (6)
+                      +|.+||
+T Consensus        28 IA~v~~   33 (100)
+T 3G74_E           28 VAKLQC   33 (100)
+T ss_dssp             TEEEEC
+T ss_pred             eEEEEe
+
+
+No 3
+>2K4E_A Gag-Pol polyprotein; AIDS, CAPSID PROTEIN, MYRISTATE, MATRIX; NMR {Human immunodeficiency virus type 2}
+Probab=16.27  E-value=1.4e+02  Score=12.74  Aligned_cols=6  Identities=17%  Similarity=1.165  Sum_probs=0.0  Template_Neff=5.600
+
+Q LATVYC            1 LATVYC    6 (6)
+Q Consensus         1 latvyc    6 (6)
+                      ++++||
+T Consensus        81 l~~L~c   86 (134)
+T 2K4E_A           81 VCVIWC   86 (134)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 4
+>1HEK_B GAG POLYPROTEIN, CORE PROTEIN P15; VIRAL PROTEIN, MEMBRANE-BINDING SWITCHING; HET: MSE; 2.8A {EQUINE INFECTIOUS ANEMIA VIRUS} SCOP: a.61.1.5
+Probab=15.91  E-value=1.5e+02  Score=12.65  Aligned_cols=6  Identities=17%  Similarity=0.274  Sum_probs=0.0  Template_Neff=5.600
+
+Q LATVYC            1 LATVYC    6 (6)
+Q Consensus         1 latvyc    6 (6)
+                      ++++||
+T Consensus        89 va~L~c   94 (131)
+T 1HEK_B           89 ISAVKM   94 (131)
+T ss_dssp             HHHHHT
+T ss_pred             HHHHHc
+
+
+No 5
+>1L6N_A Gag polyprotein; gag, matrix, capsid, maturation, Viral; NMR {Human immunodeficiency virus 1} SCOP: a.61.1.1, a.73.1.1
+Probab=15.13  E-value=1.6e+02  Score=14.30  Aligned_cols=6  Identities=50%  Similarity=1.458  Sum_probs=0.0  Template_Neff=5.000
+
+Q LATVYC            1 LATVYC    6 (6)
+Q Consensus         1 latvyc    6 (6)
+                      +|++||
+T Consensus        82 vavL~C   87 (289)
+T 1L6N_A           82 IAVLYC   87 (289)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 6
+>4IC9_A Matrix protein p15; FIV, p15, Retroviral matrix protein; HET: EDO; 2.0A {Feline immunodeficiency virus}
+Probab=15.06  E-value=1.6e+02  Score=12.88  Aligned_cols=6  Identities=17%  Similarity=0.086  Sum_probs=0.0  Template_Neff=5.400
+
+Q LATVYC            1 LATVYC    6 (6)
+Q Consensus         1 latvyc    6 (6)
+                      +|++||
+T Consensus        87 lavL~c   92 (149)
+T 4IC9_A           87 LKVFAV   92 (149)
+T ss_dssp             HHHCCC
+T ss_pred             HHHHHH
+
+
+No 7
+>6T61_N Gag polyprotein; Retrovirus, lentivirus, Equine infectious anemia; 3.7A {Equine infectious anemia virus}
+Probab=14.58  E-value=1.7e+02  Score=13.27  Aligned_cols=6  Identities=0%  Similarity=-0.108  Sum_probs=0.0  Template_Neff=9.000
+
+Q LATVYC            1 LATVYC    6 (6)
+Q Consensus         1 latvyc    6 (6)
+                      +|++||
+T Consensus        79 ~~~l~c   84 (486)
+T 6T61_N           79 WWAISA   84 (486)
+T ss_dssp             ------
+T ss_pred             HHHHHH
+
+
+No 8
+>1AV6_A VP39 PROTEIN (E.C.2.7.7.19) MUTANT/RNA COMPLEX; SINGLE-STRANDED RNA, METHYLTRANSFERASE, RNA CAP; HET: SAH, MGT; 2.8A {Vaccinia virus WR} SCOP: c.66.1.25
+Probab=14.44  E-value=1.7e+02  Score=14.03  Aligned_cols=6  Identities=83%  Similarity=1.586  Sum_probs=0.0  Template_Neff=5.500
+
+Q LATVYC            1 LATVYC    6 (6)
+Q Consensus         1 latvyc    6 (6)
+                      ||+|+|
+T Consensus       265 l~~v~~  270 (295)
+T 1AV6_A          265 LRTVYC  270 (295)
+T ss_dssp             HTTSCC
+T ss_pred             hhheee
+
+
+No 9
+>7JXR_C HIV-1, gag, STRUCTURAL PROTEIN; HET: SO4, P6G; 2.04A {Human immunodeficiency virus 1}
+Probab=14.09  E-value=1.8e+02  Score=12.64  Aligned_cols=6  Identities=50%  Similarity=1.458  Sum_probs=0.0  Template_Neff=5.300
+
+Q LATVYC            1 LATVYC    6 (6)
+Q Consensus         1 latvyc    6 (6)
+                      ++++||
+T Consensus        81 lavL~C   86 (137)
+T 7JXR_C           81 IAVLYC   86 (137)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 10
+>2N1R_A Matrix protein p15; myristoylated, FIV, HIV, SIV, feline; HET: MYR; NMR {Feline immunodeficiency virus (isolate Petaluma)}
+Probab=13.98  E-value=1.8e+02  Score=12.51  Aligned_cols=6  Identities=17%  Similarity=0.086  Sum_probs=0.0  Template_Neff=5.500
+
+Q LATVYC            1 LATVYC    6 (6)
+Q Consensus         1 latvyc    6 (6)
+                      ++++||
+T Consensus        87 lavL~c   92 (135)
+T 2N1R_A           87 LKVFAV   92 (135)
+T ss_dssp             HHHHCC
+T ss_pred             HHHHHH
+
+

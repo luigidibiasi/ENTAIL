@@ -1,0 +1,148 @@
+Query         LSTVYV
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 20:32:21 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LSTVYV/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LSTVYV/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6TMG_f ATPTG11, ATPTG7, ATPTG1  11.7 2.3E+02  0.0026   12.3   0.0    6    1-6      15-20  (267)
+  2 4RAY_A DNA-binding transcripti   9.4 3.1E+02  0.0035   10.2   0.0    5    1-5      54-58  (145)
+  3 4RB0_A DNA-binding transcripti   9.4 3.1E+02  0.0035   10.2   0.0    5    1-5      54-58  (145)
+  4 6N7R_C Pre-mRNA-splicing facto   8.7 3.5E+02  0.0038   11.3   0.0    6    1-6       1-6   (350)
+  5 7CNW_D Phosphatidylserine deca   8.1 3.8E+02  0.0042    9.3   0.0    5    2-6       1-5   (42)
+  6 7CNZ_H Phosphatidylserine deca   8.1 3.8E+02  0.0042    9.3   0.0    5    2-6       1-5   (42)
+  7 6D57_B Ferric uptake regulatio   7.5 4.2E+02  0.0047   10.2   0.0    5    1-5      68-72  (161)
+  8 4GOS_A V-set domain-containing   7.5 4.2E+02  0.0047    7.8   0.0    6    1-6     116-121 (125)
+  9 2W57_B FERRIC UPTAKE REGULATIO   7.4 4.3E+02  0.0047    9.8   0.0    5    1-5      52-56  (150)
+ 10 5NBC_C Ferric uptake regulator   7.4 4.3E+02  0.0048    9.6   0.0    5    1-5      52-56  (140)
+
+No 1
+>6TMG_f ATPTG11, ATPTG7, ATPTG14, ATPTG5, subunit; mitochondrial, ATP synthase, membrane region; HET: PEE, LMT, PC1, CDL; 2.8A {Toxoplasma gondii (strain ATCC 50853 / GT1)}
+Probab=11.67  E-value=2.3e+02  Score=12.27  Aligned_cols=6  Identities=67%  Similarity=0.971  Sum_probs=0.0  Template_Neff=8.000
+
+Q LSTVYV            1 LSTVYV    6 (6)
+Q Consensus         1 lstvyv    6 (6)
+                      +|.|||
+T Consensus        15 ~~~~~~   20 (267)
+T 6TMG_f           15 VSGVYV   20 (267)
+T ss_pred             eeeeEe
+
+
+No 2
+>4RAY_A DNA-binding transcriptional dual regulator of; ferric uptake regulator (FUR), metal; HET: FLC, SO4; 1.55A {Magnetospirillum gryphiswaldense}
+Probab=9.38  E-value=3.1e+02  Score=10.15  Aligned_cols=5  Identities=60%  Similarity=1.172  Sum_probs=0.0  Template_Neff=9.400
+
+Q LSTVYV            1 LSTVY    5 (6)
+Q Consensus         1 lstvy    5 (6)
+                      .+|||
+T Consensus        54 ~~Tvy   58 (145)
+T 4RAY_A           54 IATVY   58 (145)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 3
+>4RB0_A DNA-binding transcriptional dual regulator of; ferric uptake regulator (FUR), metal; HET: FLC, MSE, SO4; 1.85A {Magnetospirillum gryphiswaldense}
+Probab=9.38  E-value=3.1e+02  Score=10.15  Aligned_cols=5  Identities=60%  Similarity=1.172  Sum_probs=0.0  Template_Neff=9.400
+
+Q LSTVYV            1 LSTVY    5 (6)
+Q Consensus         1 lstvy    5 (6)
+                      .+|||
+T Consensus        54 ~~Tvy   58 (145)
+T 4RB0_A           54 IATVY   58 (145)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 4
+>6N7R_C Pre-mRNA-splicing factor 8, Pre-mRNA-splicing factor; pre-mRNA splicing, spliceosome, E complex; 3.2A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=8.73  E-value=3.5e+02  Score=11.34  Aligned_cols=6  Identities=33%  Similarity=0.849  Sum_probs=0.0  Template_Neff=9.900
+
+Q LSTVYV            1 LSTVYV    6 (6)
+Q Consensus         1 lstvyv    6 (6)
+                      ++|+||
+T Consensus         1 ~~~l~~    6 (350)
+T 6N7R_C            1 MSALYF    6 (350)
+T ss_pred             CCeeec
+
+
+No 5
+>7CNW_D Phosphatidylserine decarboxylase beta chain (E.C.4.1.1.65); Phosphatidylserine decarboxylase, pyruvoyl-dependent decarboxylase, auto-cleaved; HET: PYR, LMT; 1.9A {Escherichia coli K-12}
+Probab=8.10  E-value=3.8e+02  Score=9.31  Aligned_cols=5  Identities=40%  Similarity=0.201  Sum_probs=0.0  Template_Neff=5.900
+
+Q LSTVYV            2 STVYV    6 (6)
+Q Consensus         2 stvyv    6 (6)
+                      |||-+
+T Consensus         1 STVVl    5 (42)
+T 7CNW_D            1 XTVIN    5 (42)
+T ss_dssp             -CEEE
+T ss_pred             CCEEE
+
+
+No 6
+>7CNZ_H Phosphatidylserine decarboxylase beta chain (E.C.4.1.1.65); Phosphatidylserine decarboxylase, pyruvoyl-dependent decarboxylase, auto-cleaved; HET: PYR, PO4, PEX; 2.7A {Escherichia coli K-12}
+Probab=8.10  E-value=3.8e+02  Score=9.31  Aligned_cols=5  Identities=40%  Similarity=0.201  Sum_probs=0.0  Template_Neff=5.900
+
+Q LSTVYV            2 STVYV    6 (6)
+Q Consensus         2 stvyv    6 (6)
+                      |||-+
+T Consensus         1 STVVl    5 (42)
+T 7CNZ_H            1 XTVIN    5 (42)
+T ss_dssp             -CEEE
+T ss_pred             CCEEE
+
+
+No 7
+>6D57_B Ferric uptake regulation protein; Fur, ferric uptake regulator, Campylobacter; HET: FMT, OHI, GOL; 1.81A {Campylobacter jejuni}
+Probab=7.50  E-value=4.2e+02  Score=10.18  Aligned_cols=5  Identities=60%  Similarity=1.172  Sum_probs=0.0  Template_Neff=9.000
+
+Q LSTVYV            1 LSTVY    5 (6)
+Q Consensus         1 lstvy    5 (6)
+                      .+|||
+T Consensus        68 ~~TVy   72 (161)
+T 6D57_B           68 IATVY   72 (161)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 8
+>4GOS_A V-set domain-containing T-cell activation inhibitor; IMMUNOGLOBULIN DOMAIN, GLYCOPROTEIN, DISULFIDE BOND; HET: BMA, MAN, NAG; 1.59A {Homo sapiens}
+Probab=7.48  E-value=4.2e+02  Score=7.85  Aligned_cols=6  Identities=17%  Similarity=-0.269  Sum_probs=0.0  Template_Neff=12.900
+
+Q LSTVYV            1 LSTVYV    6 (6)
+Q Consensus         1 lstvyv    6 (6)
+                      ++++|+
+T Consensus       116 ~~~~~~  121 (125)
+T 4GOS_A          116 YKTGHH  121 (125)
+T ss_dssp             EEEEC-
+T ss_pred             EecCCC
+
+
+No 9
+>2W57_B FERRIC UPTAKE REGULATION PROTEIN; GENE REGULATION, VIBRIO CHOLERAE, TRANSCRIPTION; 2.6A {VIBRIO CHOLERAE}
+Probab=7.43  E-value=4.3e+02  Score=9.81  Aligned_cols=5  Identities=80%  Similarity=1.251  Sum_probs=0.0  Template_Neff=9.500
+
+Q LSTVYV            1 LSTVY    5 (6)
+Q Consensus         1 lstvy    5 (6)
+                      .+|||
+T Consensus        52 ~~Tvy   56 (150)
+T 2W57_B           52 LATVY   56 (150)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 10
+>5NBC_C Ferric uptake regulator family protein; Virulence factor, DNA binding protein; 1.699A {Francisella tularensis}
+Probab=7.39  E-value=4.3e+02  Score=9.59  Aligned_cols=5  Identities=60%  Similarity=1.172  Sum_probs=0.0  Template_Neff=9.700
+
+Q LSTVYV            1 LSTVY    5 (6)
+Q Consensus         1 lstvy    5 (6)
+                      .+|||
+T Consensus        52 ~~tvy   56 (140)
+T 5NBC_C           52 IATVY   56 (140)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+

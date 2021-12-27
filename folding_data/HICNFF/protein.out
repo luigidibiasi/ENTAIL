@@ -1,0 +1,154 @@
+Query         HICNFF
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 06:21:45 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/HICNFF/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/HICNFF/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4G1G_A Matrix protein; Beta st  62.6     6.6 7.3E-05   19.0   0.0    6    1-6     238-243 (364)
+  2 6BK6_A Hendra virus matrix pro  56.7     9.8 0.00011   18.7   0.0    6    1-6     256-261 (372)
+  3 6ZYM_P Corepressor interacting  50.2      15 0.00016   16.8   0.0    6    1-6     163-168 (218)
+  4 2N5L_A Ribonuclease ZC3H12A (E  47.5      17 0.00019   14.1   0.0    6    1-6      17-22  (57)
+  5 6ID1_O Pre-mRNA-processing-spl  44.3      21 0.00023   15.9   0.0    6    1-6     163-168 (420)
+  6 6ID0_O Pre-mRNA-processing-spl  42.7      23 0.00025   15.8   0.0    6    1-6     163-168 (420)
+  7 3U9G_A Zinc finger CCCH-type a  28.4      56 0.00061   14.6   0.0    6    1-6      90-95  (229)
+  8 7K3G_A Envelope small membrane  19.7   1E+02  0.0012   11.5   0.0    5    2-6       6-10  (31)
+  9 3LAC_A Pyrrolidone-carboxylate  18.5 1.2E+02  0.0013   12.7   0.0    5    1-5     141-145 (215)
+ 10 3A1G_C RNA-directed RNA polyme  18.2 1.2E+02  0.0013   13.0   0.0    5    2-6      15-19  (80)
+
+No 1
+>4G1G_A Matrix protein; Beta strand, Virus assembly, Membrane; 2.2A {Newcastle disease virus}
+Probab=62.56  E-value=6.6  Score=19.01  Aligned_cols=6  Identities=33%  Similarity=0.213  Sum_probs=4.6  Template_Neff=5.200
+
+Q HICNFF            1 HICNFF    6 (6)
+Q Consensus         1 hicnff    6 (6)
+                      |||||.
+T Consensus       238 HigN~~  243 (364)
+T 4G1G_A          238 HIGLMS  243 (364)
+T ss_dssp             EEEEEE
+T ss_pred             EEeccc
+Confidence            788873
+
+
+No 2
+>6BK6_A Hendra virus matrix protein; Hendra virus, viral assembly, VIRAL; HET: CME; 2.5A {Hendra henipavirus}
+Probab=56.66  E-value=9.8  Score=18.71  Aligned_cols=6  Identities=50%  Similarity=0.983  Sum_probs=4.6  Template_Neff=4.800
+
+Q HICNFF            1 HICNFF    6 (6)
+Q Consensus         1 hicnff    6 (6)
+                      |||||.
+T Consensus       256 HigNf~  261 (372)
+T 6BK6_A          256 HLGNFV  261 (372)
+T ss_dssp             EEEEEE
+T ss_pred             Eecccc
+Confidence            789873
+
+
+No 3
+>6ZYM_P Corepressor interacting with RBPJ 1; human C complex, spliceosome, hC; HET: IHP, GTP;{Homo sapiens}
+Probab=50.17  E-value=15  Score=16.82  Aligned_cols=6  Identities=67%  Similarity=1.829  Sum_probs=4.2  Template_Neff=5.200
+
+Q HICNFF            1 HICNFF    6 (6)
+Q Consensus         1 hicnff    6 (6)
+                      |||.||
+T Consensus       163 ~icSf~  168 (218)
+T 6ZYM_P          163 HICSFW  168 (218)
+T ss_pred             cccchh
+Confidence            577776
+
+
+No 4
+>2N5L_A Ribonuclease ZC3H12A (E.C.3.1.-.-); Regnase, Regnase-1, Zc3h12a, HYDROLASE; NMR {Mus musculus}
+Probab=47.53  E-value=17  Score=14.14  Aligned_cols=6  Identities=33%  Similarity=1.243  Sum_probs=3.7  Template_Neff=4.300
+
+Q HICNFF            1 HICNFF    6 (6)
+Q Consensus         1 hicnff    6 (6)
+                      |+||.|
+T Consensus        17 ~Lc~IF   22 (57)
+T 2N5L_A           17 KLCGVF   22 (57)
+T ss_dssp             HHTTTS
+T ss_pred             HHHhhC
+Confidence            457665
+
+
+No 5
+>6ID1_O Pre-mRNA-processing-splicing factor 8, 116 kDa; Human Intron Lariat Spliceosome, SPLICING; HET: GTP, SEP, I6P; 2.86A {Homo sapiens}
+Probab=44.31  E-value=21  Score=15.91  Aligned_cols=6  Identities=67%  Similarity=1.829  Sum_probs=3.9  Template_Neff=8.500
+
+Q HICNFF            1 HICNFF    6 (6)
+Q Consensus         1 hicnff    6 (6)
+                      |+|.||
+T Consensus       163 ~~C~ff  168 (420)
+T 6ID1_O          163 HICSFW  168 (420)
+T ss_pred             cccchH
+Confidence            467765
+
+
+No 6
+>6ID0_O Pre-mRNA-processing-splicing factor 8, 116 kDa; Human Intron Lariat Spliceosome, SPLICING; HET: GTP, IHP, SEP; 2.9A {Homo sapiens}
+Probab=42.66  E-value=23  Score=15.84  Aligned_cols=6  Identities=67%  Similarity=1.829  Sum_probs=3.8  Template_Neff=8.400
+
+Q HICNFF            1 HICNFF    6 (6)
+Q Consensus         1 hicnff    6 (6)
+                      +||.||
+T Consensus       163 ~iC~ff  168 (420)
+T 6ID0_O          163 HICSFW  168 (420)
+T ss_pred             cccchh
+Confidence            467765
+
+
+No 7
+>3U9G_A Zinc finger CCCH-type antiviral protein; zinc finger protein, ANTIVIRAL PROTEIN; 1.801A {Rattus norvegicus}
+Probab=28.37  E-value=56  Score=14.58  Aligned_cols=6  Identities=33%  Similarity=1.110  Sum_probs=3.1  Template_Neff=6.400
+
+Q HICNFF            1 HICNFF    6 (6)
+Q Consensus         1 hicnff    6 (6)
+                      |+|-||
+T Consensus        90 hlCk~f   95 (229)
+T 3U9G_A           90 HLCKLN   95 (229)
+T ss_dssp             CCCHHH
+T ss_pred             cccHHH
+Confidence            455554
+
+
+No 8
+>7K3G_A Envelope small membrane protein; Viroporin, Pentameric Ion Channel, Transmembrane; NMR {Severe acute respiratory syndrome coronavirus 2}
+Probab=19.74  E-value=1e+02  Score=11.51  Aligned_cols=5  Identities=40%  Similarity=0.341  Sum_probs=0.0  Template_Neff=2.000
+
+Q HICNFF            2 ICNFF    6 (6)
+Q Consensus         2 icnff    6 (6)
+                      |.|||
+T Consensus         6 IVN~~   10 (31)
+T 7K3G_A            6 IVNSV   10 (31)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 9
+>3LAC_A Pyrrolidone-carboxylate peptidase (E.C.3.4.19.3); alpha beta class, three layer; HET: MSE, CSO, PEG; 2.0A {Bacillus anthracis}
+Probab=18.48  E-value=1.2e+02  Score=12.72  Aligned_cols=5  Identities=40%  Similarity=1.211  Sum_probs=0.0  Template_Neff=8.000
+
+Q HICNFF            1 HICNF    5 (6)
+Q Consensus         1 hicnf    5 (6)
+                      .+|||
+T Consensus       141 ylCN~  145 (215)
+T 3LAC_A          141 FVCNH  145 (215)
+T ss_dssp             SHHHH
+T ss_pred             cHHHH
+
+
+No 10
+>3A1G_C RNA-directed RNA polymerase catalytic subunit; Influenza virus, RNA polymerase, Nucleotide-binding; HET: MSE; 1.7A {Influenza A virus (A/Puerto Rico/8/34(H1N1))}
+Probab=18.25  E-value=1.2e+02  Score=13.02  Aligned_cols=5  Identities=60%  Similarity=1.544  Sum_probs=0.0  Template_Neff=2.900
+
+Q HICNFF            2 ICNFF    6 (6)
+Q Consensus         2 icnff    6 (6)
+                      +||+|
+T Consensus        15 vc~~~   19 (80)
+T 3A1G_C           15 CCNLF   19 (80)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+

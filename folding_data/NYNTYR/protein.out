@@ -1,0 +1,155 @@
+Query         NYNTYR
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 05:17:53 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NYNTYR/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NYNTYR/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3IWU_E 5-hydroxyisourate hydro  48.9      16 0.00018   15.3   0.0    6    1-6     131-136 (138)
+  2 5Z5M_C Predicted protein; Alla  41.5      25 0.00027   16.1   0.0    6    1-6     292-297 (299)
+  3 4Q14_A 5-hydroxyisourate hydro  40.8      26 0.00028   14.9   0.0    6    1-6     132-137 (139)
+  4 5Z5M_A Predicted protein; Alla  40.6      26 0.00029   15.9   0.0    6    1-6     292-297 (299)
+  5 3IWV_C 5-hydroxyisourate hydro  39.5      28 0.00031   14.6   0.0    6    1-6     131-136 (138)
+  6 6R67_B Transthyretin; Amyloido  16.8 1.4E+02  0.0015   11.9   0.0    6    1-6     135-140 (147)
+  7 2MM4_A Envelope small membrane  16.7 1.4E+02  0.0015   11.9   0.0    5    2-6      52-56  (58)
+  8 1XDX_A Tctex1 Light Chain prot  16.6 1.4E+02  0.0015   11.2   0.0    4    3-6       3-6   (114)
+  9 3JB8_A Coat protein; MCMV, Sin  14.7 1.7E+02  0.0018   12.8   0.0    6    1-6      53-58  (185)
+ 10 3JB8_C Coat protein; MCMV, Sin  14.7 1.7E+02  0.0018   12.8   0.0    6    1-6      53-58  (185)
+
+No 1
+>3IWU_E 5-hydroxyisourate hydrolase; HIUase, Transthyretin, TRP, thyroid hormones; 2.3A {Danio rerio}
+Probab=48.90  E-value=16  Score=15.28  Aligned_cols=6  Identities=50%  Similarity=0.827  Sum_probs=4.1  Template_Neff=6.100
+
+Q NYNTYR            1 NYNTYR    6 (6)
+Q Consensus         1 nyntyr    6 (6)
+                      .|.|||
+T Consensus       131 ~YSTYR  136 (138)
+T 3IWU_E          131 SYSTTR  136 (138)
+T ss_dssp             EEEEEC
+T ss_pred             cceeec
+Confidence            377876
+
+
+No 2
+>5Z5M_C Predicted protein; Allantoin synthase, OHCU decarboxylase, HIU; 1.85A {Phaeodactylum tricornutum CCAP 1055/1}
+Probab=41.53  E-value=25  Score=16.07  Aligned_cols=6  Identities=50%  Similarity=1.215  Sum_probs=4.3  Template_Neff=6.600
+
+Q NYNTYR            1 NYNTYR    6 (6)
+Q Consensus         1 nyntyr    6 (6)
+                      .|.|||
+T Consensus       292 ~YstYR  297 (299)
+T 5Z5M_C          292 SFSTYR  297 (299)
+T ss_dssp             EEEEEC
+T ss_pred             cceeec
+Confidence            377887
+
+
+No 3
+>4Q14_A 5-hydroxyisourate hydrolase; SSGCID, 5-hydroxyisourate hydrolase, Structural Genomics; HET: CIT; 1.7A {Brucella melitensis biovar Abortus 2308}
+Probab=40.84  E-value=26  Score=14.90  Aligned_cols=6  Identities=67%  Similarity=1.364  Sum_probs=4.1  Template_Neff=5.700
+
+Q NYNTYR            1 NYNTYR    6 (6)
+Q Consensus         1 nyntyr    6 (6)
+                      .|.|||
+T Consensus       132 gYSTYR  137 (139)
+T 4Q14_A          132 SYSTYR  137 (139)
+T ss_dssp             EEEEEC
+T ss_pred             cceeec
+Confidence            367776
+
+
+No 4
+>5Z5M_A Predicted protein; Allantoin synthase, OHCU decarboxylase, HIU; 1.85A {Phaeodactylum tricornutum CCAP 1055/1}
+Probab=40.58  E-value=26  Score=15.89  Aligned_cols=6  Identities=50%  Similarity=1.215  Sum_probs=4.3  Template_Neff=6.800
+
+Q NYNTYR            1 NYNTYR    6 (6)
+Q Consensus         1 nyntyr    6 (6)
+                      .|.|||
+T Consensus       292 ~YstYr  297 (299)
+T 5Z5M_A          292 SFSTYR  297 (299)
+T ss_dssp             EEEEEC
+T ss_pred             ccceec
+Confidence            377887
+
+
+No 5
+>3IWV_C 5-hydroxyisourate hydrolase; Transthyretin, molecular evolution, uric acid; 1.68A {Danio rerio}
+Probab=39.46  E-value=28  Score=14.58  Aligned_cols=6  Identities=50%  Similarity=0.827  Sum_probs=3.9  Template_Neff=6.100
+
+Q NYNTYR            1 NYNTYR    6 (6)
+Q Consensus         1 nyntyr    6 (6)
+                      .|.|||
+T Consensus       131 ~YSTYR  136 (138)
+T 3IWV_C          131 SYSTTR  136 (138)
+T ss_dssp             EEEEEC
+T ss_pred             cceeec
+Confidence            367776
+
+
+No 6
+>6R67_B Transthyretin; Amyloidosis, tetramer, binding protein, TRANSPORT; HET: JTE; 1.3A {Homo sapiens}
+Probab=16.78  E-value=1.4e+02  Score=11.93  Aligned_cols=6  Identities=33%  Similarity=0.534  Sum_probs=0.0  Template_Neff=7.800
+
+Q NYNTYR            1 NYNTYR    6 (6)
+Q Consensus         1 nyntyr    6 (6)
+                      +|.|||
+T Consensus       135 ~yst~~  140 (147)
+T 6R67_B          135 SYSTTA  140 (147)
+T ss_dssp             EEEEEE
+T ss_pred             CcceEe
+
+
+No 7
+>2MM4_A Envelope small membrane protein (E.C.40A; SARS coronavirus, envelope protein, membrane; NMR {SARS coronavirus}
+Probab=16.71  E-value=1.4e+02  Score=11.92  Aligned_cols=5  Identities=20%  Similarity=0.673  Sum_probs=0.0  Template_Neff=3.800
+
+Q NYNTYR            2 YNTYR    6 (6)
+Q Consensus         2 yntyr    6 (6)
+                      ||+|+
+T Consensus        52 Y~~yk   56 (58)
+T 2MM4_A           52 YSRVK   56 (58)
+T ss_dssp             HHHHH
+T ss_pred             HHHhh
+
+
+No 8
+>1XDX_A Tctex1 Light Chain protein; Chlamydomonas flagella, Tctex1 dimer, NMR; NMR {Chlamydomonas reinhardtii}
+Probab=16.56  E-value=1.4e+02  Score=11.19  Aligned_cols=4  Identities=0%  Similarity=-0.271  Sum_probs=0.0  Template_Neff=8.300
+
+Q NYNTYR            3 NTYR    6 (6)
+Q Consensus         3 ntyr    6 (6)
+                      ||||
+T Consensus         3 ~ty~    6 (114)
+T 1XDX_A            3 GVDP    6 (114)
+T ss_dssp             SCCS
+T ss_pred             CCcc
+
+
+No 9
+>3JB8_A Coat protein; MCMV, Single Particle Analysis, Three-dimensional; 3.6A {Maize chlorotic mottle virus}
+Probab=14.71  E-value=1.7e+02  Score=12.79  Aligned_cols=6  Identities=33%  Similarity=0.307  Sum_probs=0.0  Template_Neff=6.400
+
+Q NYNTYR            1 NYNTYR    6 (6)
+Q Consensus         1 nyntyr    6 (6)
+                      ||+.||
+T Consensus        53 ~y~kyr   58 (185)
+T 3JB8_A           53 MWNTIV   58 (185)
+T ss_dssp             SCSEEE
+T ss_pred             HheeeE
+
+
+No 10
+>3JB8_C Coat protein; MCMV, Single Particle Analysis, Three-dimensional; 3.6A {Maize chlorotic mottle virus}
+Probab=14.71  E-value=1.7e+02  Score=12.79  Aligned_cols=6  Identities=33%  Similarity=0.307  Sum_probs=0.0  Template_Neff=6.400
+
+Q NYNTYR            1 NYNTYR    6 (6)
+Q Consensus         1 nyntyr    6 (6)
+                      ||+.||
+T Consensus        53 ~y~kyr   58 (185)
+T 3JB8_C           53 MWNTIV   58 (185)
+T ss_dssp             SCSEEE
+T ss_pred             HheeeE
+
+

@@ -1,0 +1,155 @@
+Query         SGFHPS
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 14:26:07 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/SGFHPS/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/SGFHPS/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6U42_7Y Tubulin beta, Tubulin   73.4     2.7   3E-05   21.3   0.0    6    1-6     130-135 (312)
+  2 3JWG_A Methyltransferase type   63.6     6.1 6.8E-05   14.0   0.0    6    1-6     211-216 (219)
+  3 2K4M_A UPF0146 protein MTH_100  45.1      20 0.00022   12.9   0.0    6    1-6       4-9   (153)
+  4 2K24_A Putative uncharacterize  41.0      25 0.00028   15.5   0.0    6    1-6      12-17  (110)
+  5 4BZ4_A COPPER-REPRESSIBLE POLY  33.3      41 0.00045   16.7   0.0    6    1-6      88-93  (231)
+  6 4BZ4_E COPPER-REPRESSIBLE POLY  33.3      41 0.00045   16.7   0.0    6    1-6      88-93  (231)
+  7 5Y6P_eZ LRC6, LRC4, LRC5, alph  27.3      60 0.00066   17.0   0.0    6    1-6      21-26  (352)
+  8 4XP8_A EtgA; peptidoglycan hyd  19.8   1E+02  0.0011    9.7   0.0    5    1-5      26-30  (88)
+  9 2N8X_A LPS-assembly lipoprotei  19.8   1E+02  0.0012   12.0   0.0    4    2-5       4-7   (166)
+ 10 4Q7Q_A Lipolytic protein G-D-S  19.7 1.1E+02  0.0012   11.5   0.0    5    2-6     236-240 (266)
+
+No 1
+>6U42_7Y Tubulin beta, Tubulin alpha, PACRG; motile cilia, microtubule doublet, repetitive; HET: GDP, MG, GTP; 3.4A {Chlamydomonas reinhardtii}
+Probab=73.41  E-value=2.7  Score=21.26  Aligned_cols=6  Identities=83%  Similarity=1.636  Sum_probs=4.9  Template_Neff=1.400
+
+Q SGFHPS            1 SGFHPS    6 (6)
+Q Consensus         1 sgfhps    6 (6)
+                      |||||+
+T Consensus       130 sgfhPk  135 (312)
+T 6U42_7Y         130 SGFHPK  135 (312)
+T ss_pred             cCCCHH
+Confidence            789985
+
+
+No 2
+>3JWG_A Methyltransferase type 12; Methyltransferase, Transferase; 1.9A {Clostridium thermocellum}
+Probab=63.55  E-value=6.1  Score=13.98  Aligned_cols=6  Identities=33%  Similarity=0.401  Sum_probs=0.4  Template_Neff=11.700
+
+Q SGFHPS            1 SGFHPS    6 (6)
+Q Consensus         1 sgfhps    6 (6)
+                      |+|||+
+T Consensus       211 ~~~~~~  216 (219)
+T 3JWG_A          211 AGGHHH  216 (219)
+T ss_dssp             C-----
+T ss_pred             CCCCCC
+Confidence            456654
+
+
+No 3
+>2K4M_A UPF0146 protein MTH_1000; alpha+beta, Rossmann fold, Structural Genomics; NMR {Methanothermobacter thermautotrophicus str. Delta H}
+Probab=45.11  E-value=20  Score=12.90  Aligned_cols=6  Identities=33%  Similarity=0.301  Sum_probs=3.0  Template_Neff=10.200
+
+Q SGFHPS            1 SGFHPS    6 (6)
+Q Consensus         1 sgfhps    6 (6)
+                      |||++|
+T Consensus         4 ~~~~~~    9 (153)
+T 2K4M_A            4 SHHHHH    9 (153)
+T ss_dssp             CCCCCC
+T ss_pred             Cccccc
+Confidence            455553
+
+
+No 4
+>2K24_A Putative uncharacterized protein Ta0956; AUTOMATION, FAPSY, MOAD, MOLYBDOPTERIN, UNKNOWN; NMR {Thermoplasma acidophilum}
+Probab=40.96  E-value=25  Score=15.45  Aligned_cols=6  Identities=50%  Similarity=1.110  Sum_probs=4.1  Template_Neff=3.400
+
+Q SGFHPS            1 SGFHPS    6 (6)
+Q Consensus         1 sgfhps    6 (6)
+                      +|+|||
+T Consensus        12 ~~~hpS   17 (110)
+T 2K24_A           12 AGSHPT   17 (110)
+T ss_dssp             SSSCCE
+T ss_pred             cCCCCc
+Confidence            467876
+
+
+No 5
+>4BZ4_A COPPER-REPRESSIBLE POLYPEPTIDE; COPPER-BINDING PROTEIN, COPPER ACQUISITION, METHANOTROPH; HET: PG4, P6G, KYN; 1.6A {METHYLOMICROBIUM ALBUM BG8}
+Probab=33.28  E-value=41  Score=16.70  Aligned_cols=6  Identities=83%  Similarity=1.475  Sum_probs=4.1  Template_Neff=2.300
+
+Q SGFHPS            1 SGFHPS    6 (6)
+Q Consensus         1 sgfhps    6 (6)
+                      +|+||+
+T Consensus        88 ~G~HPg   93 (231)
+T 4BZ4_A           88 SGLHPS   93 (231)
+T ss_dssp             TTCCEE
+T ss_pred             CCCCce
+Confidence            478874
+
+
+No 6
+>4BZ4_E COPPER-REPRESSIBLE POLYPEPTIDE; COPPER-BINDING PROTEIN, COPPER ACQUISITION, METHANOTROPH; HET: PG4, P6G, KYN; 1.6A {METHYLOMICROBIUM ALBUM BG8}
+Probab=33.28  E-value=41  Score=16.70  Aligned_cols=6  Identities=83%  Similarity=1.475  Sum_probs=4.1  Template_Neff=2.300
+
+Q SGFHPS            1 SGFHPS    6 (6)
+Q Consensus         1 sgfhps    6 (6)
+                      +|+||+
+T Consensus        88 ~G~HPg   93 (231)
+T 4BZ4_E           88 SGLHPS   93 (231)
+T ss_dssp             TTCCEE
+T ss_pred             CCCCce
+Confidence            478874
+
+
+No 7
+>5Y6P_eZ LRC6, LRC4, LRC5, alpha_APC, beta_APC; phycobilisome, PHOTOSYNTHESIS; HET: PVN, PUB, PEB, CYC; 3.5A {Griffithsia pacifica}
+Probab=27.29  E-value=60  Score=16.98  Aligned_cols=6  Identities=33%  Similarity=0.982  Sum_probs=4.3  Template_Neff=2.300
+
+Q SGFHPS            1 SGFHPS    6 (6)
+Q Consensus         1 sgfhps    6 (6)
+                      +||||+
+T Consensus        21 ~~~~p~   26 (352)
+T 5Y6P_eZ          21 RGLRPA   26 (352)
+T ss_pred             cCCcCC
+Confidence            578875
+
+
+No 8
+>4XP8_A EtgA; peptidoglycan hydrolase, hydrolase; HET: MSE; 2.03A {Escherichia coli}
+Probab=19.84  E-value=1e+02  Score=9.66  Aligned_cols=5  Identities=20%  Similarity=-0.150  Sum_probs=0.0  Template_Neff=10.900
+
+Q SGFHPS            1 SGFHP    5 (6)
+Q Consensus         1 sgfhp    5 (6)
+                      |+|+|
+T Consensus        26 S~~~~   30 (88)
+T 4XP8_A           26 SKNKN   30 (88)
+T ss_dssp             HSSCC
+T ss_pred             cCCCC
+
+
+No 9
+>2N8X_A LPS-assembly lipoprotein LptE; LPS biosynthesis, LIPID BINDING PROTEIN; NMR {Pseudomonas aeruginosa PAO1}
+Probab=19.80  E-value=1e+02  Score=11.96  Aligned_cols=4  Identities=50%  Similarity=1.040  Sum_probs=0.0  Template_Neff=8.800
+
+Q SGFHPS            2 GFHP    5 (6)
+Q Consensus         2 gfhp    5 (6)
+                      |||+
+T Consensus         4 Gf~l    7 (166)
+T 2N8X_A            4 GFQL    7 (166)
+T ss_dssp             CCCC
+T ss_pred             cccc
+
+
+No 10
+>4Q7Q_A Lipolytic protein G-D-S-L family; structural genomics, PSI-Biology, protein structure; HET: FMT, PG4; 1.451A {Chitinophaga pinensis}
+Probab=19.68  E-value=1.1e+02  Score=11.49  Aligned_cols=5  Identities=80%  Similarity=1.624  Sum_probs=0.0  Template_Neff=11.300
+
+Q SGFHPS            2 GFHPS    6 (6)
+Q Consensus         2 gfhps    6 (6)
+                      ++||+
+T Consensus       236 ~~Hp~  240 (266)
+T 4Q7Q_A          236 GLHPS  240 (266)
+T ss_dssp             SSSBC
+T ss_pred             CCCCC
+
+

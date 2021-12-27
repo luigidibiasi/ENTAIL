@@ -1,0 +1,173 @@
+Query         MERLRI
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 21:28:37 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/MERLRI/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/MERLRI/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2GJH_B Designed protein; Oblig  67.7     4.5 4.9E-05   16.9   0.0    6    1-6       1-6   (62)
+  2 3UC0_B envelope protein, Heavy  49.9      15 0.00016   16.8   0.0    6    1-6     118-123 (165)
+  3 3VTO_B Protein gp45; beta-heli  44.7      20 0.00022   13.7   0.0    6    1-6       1-6   (115)
+  4 3VTO_P Protein gp45; beta-heli  43.0      23 0.00025   13.6   0.0    6    1-6       1-6   (115)
+  5 3IA0_J STRUCTURAL PROTEIN; 2.5  41.8      24 0.00027   14.8   0.0    6    1-6       1-6   (119)
+  6 3I96_A Ethanolamine utilizatio  40.9      25 0.00028   14.7   0.0    6    1-6       1-6   (119)
+  7 4FNM_A E3 alpha-esterase-7 car  31.7      45 0.00049   14.7   0.0    6    1-6       7-12  (569)
+  8 5CH5_A Carboxylic ester hydrol  30.9      47 0.00052   14.6   0.0    6    1-6      15-20  (577)
+  9 6YWY_5 uL2m, uL3m, uL4m, uL5m,  28.7      55  0.0006   15.7   0.0    6    1-6       1-6   (439)
+ 10 5MG3_G Protein translocase sub  21.3      92   0.001   13.5   0.0    6    1-6      17-22  (136)
+ 11 6UEB_B Large structural protei  21.2      93   0.001   11.8   0.0    6    1-6       8-13  (42)
+
+No 1
+>2GJH_B Designed protein; Obligate symmetric homo-dimer, DE NOVO; NMR {?}
+Probab=67.70  E-value=4.5  Score=16.91  Aligned_cols=6  Identities=83%  Similarity=1.282  Sum_probs=3.9  Template_Neff=1.000
+
+Q MERLRI            1 MERLRI    6 (6)
+Q Consensus         1 merlri    6 (6)
+                      |||.||
+T Consensus         1 mervri    6 (62)
+T 2GJH_B            1 MERVRI    6 (62)
+T ss_dssp             -CEEEE
+T ss_pred             CceeeE
+Confidence            788876
+
+
+No 2
+>3UC0_B envelope protein, Heavy chain, monoclonal; dengue antibody membrane fusion, VIRAL; HET: SO4; 2.71A {Dengue virus 4}
+Probab=49.89  E-value=15  Score=16.77  Aligned_cols=6  Identities=83%  Similarity=1.293  Sum_probs=4.2  Template_Neff=4.000
+
+Q MERLRI            1 MERLRI    6 (6)
+Q Consensus         1 merlri    6 (6)
+                      ||.|||
+T Consensus       118 ~~~~~~  123 (165)
+T 3UC0_B          118 MEKLRI  123 (165)
+T ss_dssp             CTTBCC
+T ss_pred             eeeeee
+Confidence            677776
+
+
+No 3
+>3VTO_B Protein gp45; beta-helix, central spike, Mu phage; 1.44A {Enterobacteria phage Mu}
+Probab=44.72  E-value=20  Score=13.73  Aligned_cols=6  Identities=50%  Similarity=0.639  Sum_probs=3.6  Template_Neff=7.700
+
+Q MERLRI            1 MERLRI    6 (6)
+Q Consensus         1 merlri    6 (6)
+                      |+|.||
+T Consensus         1 ~~~~r~    6 (115)
+T 3VTO_B            1 MRRYRP    6 (115)
+T ss_dssp             CCCSCC
+T ss_pred             CCccCC
+Confidence            566664
+
+
+No 4
+>3VTO_P Protein gp45; beta-helix, central spike, Mu phage; 1.44A {Enterobacteria phage Mu}
+Probab=42.98  E-value=23  Score=13.55  Aligned_cols=6  Identities=50%  Similarity=0.639  Sum_probs=3.5  Template_Neff=7.800
+
+Q MERLRI            1 MERLRI    6 (6)
+Q Consensus         1 merlri    6 (6)
+                      |+|.|+
+T Consensus         1 ~~~~r~    6 (115)
+T 3VTO_P            1 MRRYRP    6 (115)
+T ss_dssp             CCCSCC
+T ss_pred             CCcccC
+Confidence            566664
+
+
+No 5
+>3IA0_J STRUCTURAL PROTEIN; 2.5A {Escherichia coli}
+Probab=41.80  E-value=24  Score=14.80  Aligned_cols=6  Identities=50%  Similarity=0.866  Sum_probs=3.8  Template_Neff=5.400
+
+Q MERLRI            1 MERLRI    6 (6)
+Q Consensus         1 merlri    6 (6)
+                      |.||||
+T Consensus         1 ~~~~~~    6 (119)
+T 3IA0_J            1 MDKERI    6 (119)
+T ss_dssp             EEECEE
+T ss_pred             CCceee
+Confidence            567764
+
+
+No 6
+>3I96_A Ethanolamine utilization protein eutS; STRUCTURAL PROTEIN; HET: GOL, NHE; 1.65A {Escherichia coli}
+Probab=40.92  E-value=25  Score=14.73  Aligned_cols=6  Identities=50%  Similarity=0.866  Sum_probs=0.5  Template_Neff=5.400
+
+Q MERLRI            1 MERLRI    6 (6)
+Q Consensus         1 merlri    6 (6)
+                      |.||||
+T Consensus         1 ~~~~~~    6 (119)
+T 3I96_A            1 MDKERI    6 (119)
+T ss_dssp             -----C
+T ss_pred             CCceee
+Confidence            567764
+
+
+No 7
+>4FNM_A E3 alpha-esterase-7 carboxylesterase; alpha/beta hydrolase fold, carboxylesterase, HYDROLASE; 1.804A {Lucilia cuprina}
+Probab=31.74  E-value=45  Score=14.68  Aligned_cols=6  Identities=50%  Similarity=0.861  Sum_probs=3.9  Template_Neff=10.000
+
+Q MERLRI            1 MERLRI    6 (6)
+Q Consensus         1 merlri    6 (6)
+                      ||||.|
+T Consensus         7 ~~~~~~   12 (569)
+T 4FNM_A            7 MEKLKW   12 (569)
+T ss_dssp             HHHHHH
+T ss_pred             hhhhhe
+Confidence            677754
+
+
+No 8
+>5CH5_A Carboxylic ester hydrolase (E.C.3.1.1.-); Carboxylesterase, OP-hydrolase, organophosphates, structural dynamics; 1.53A {Lucilia cuprina}
+Probab=30.91  E-value=47  Score=14.59  Aligned_cols=6  Identities=50%  Similarity=0.861  Sum_probs=3.6  Template_Neff=10.100
+
+Q MERLRI            1 MERLRI    6 (6)
+Q Consensus         1 merlri    6 (6)
+                      ||||.|
+T Consensus        15 ~~~~~~   20 (577)
+T 5CH5_A           15 MEKLKW   20 (577)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            667653
+
+
+No 9
+>6YWY_5 uL2m, uL3m, uL4m, uL5m, uL6m; Neurospora crassa, translating Mitoribosomes, tRNA; HET: ATP, NAD, MG, K, SPM;{Neurospora crassa}
+Probab=28.66  E-value=55  Score=15.68  Aligned_cols=6  Identities=33%  Similarity=0.656  Sum_probs=4.2  Template_Neff=6.800
+
+Q MERLRI            1 MERLRI    6 (6)
+Q Consensus         1 merlri    6 (6)
+                      |.||||
+T Consensus         1 ~~~~~~    6 (439)
+T 6YWY_5            1 MKRIAT    6 (439)
+T ss_pred             CCcccc
+Confidence            677775
+
+
+No 10
+>5MG3_G Protein translocase subunit SecY, Protein; holotranslocon, membrane protein insertion machinery; 14.0A {Escherichia coli}
+Probab=21.34  E-value=92  Score=13.49  Aligned_cols=6  Identities=67%  Similarity=0.661  Sum_probs=3.2  Template_Neff=5.200
+
+Q MERLRI            1 MERLRI    6 (6)
+Q Consensus         1 merlri    6 (6)
+                      ||++||
+T Consensus        17 ~~~~~~   22 (136)
+T 5MG3_G           17 PEVLRI   22 (136)
+T ss_pred             HHHHHH
+Confidence            456654
+
+
+No 11
+>6UEB_B Large structural protein (E.C.2.7.7.48,2.1.1.56,2.7.7.88,2.1.1.296), Phosphoprotein; Polymerase, Phosphoprotein, Complex, VIRAL PROTEIN; 3.3A {Rabies virus (strain SAD B19)}
+Probab=21.23  E-value=93  Score=11.84  Aligned_cols=6  Identities=50%  Similarity=0.866  Sum_probs=3.2  Template_Neff=3.500
+
+Q MERLRI            1 MERLRI    6 (6)
+Q Consensus         1 merlri    6 (6)
+                      |.||.|
+T Consensus         8 mrrLql   13 (42)
+T 6UEB_B            8 MGRLHL   13 (42)
+T ss_dssp             CCCSEE
+T ss_pred             cccccc
+Confidence            456654
+
+

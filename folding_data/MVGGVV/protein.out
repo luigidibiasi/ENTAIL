@@ -1,0 +1,151 @@
+Query         MVGGVV
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 22:40:40 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/MVGGVV/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/MVGGVV/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2M7O_A uncharacterized protein  43.7      22 0.00024   14.6   0.0    6    1-6      42-47  (70)
+  2 4WC4_A A-adding enzyme/RNA Com  27.6      58 0.00065   14.2   0.0    6    1-6      15-20  (396)
+  3 1MIW_A tRNA CCA-adding enzyme;  19.6 1.1E+02  0.0012   13.6   0.0    6    1-6      24-29  (404)
+  4 3AQL_A Poly(A) polymerase (E.C  19.1 1.1E+02  0.0012   13.7   0.0    6    1-6      37-42  (415)
+  5 3AQK_A Poly(A) polymerase (E.C  18.4 1.2E+02  0.0013   13.7   0.0    6    1-6      36-41  (414)
+  6 7OTR_A tRNA maturation, tRNA n  18.2 1.2E+02  0.0013   13.9   0.0    6    1-6      63-68  (421)
+  7 3IFN_P 12A11 FAB antibody heav  16.9 1.3E+02  0.0015   10.1   0.0    6    1-6      35-40  (40)
+  8 4WBY_A A-adding enzyme; RNA Nu  16.3 1.4E+02  0.0016   13.3   0.0    6    1-6      29-34  (410)
+  9 4X4W_A A.fulgidus CCA-adding e  15.9 1.5E+02  0.0016   13.3   0.0    6    1-6      35-40  (416)
+ 10 3WFP_A Poly A polymerase (E.C.  15.6 1.5E+02  0.0017   14.1   0.0    6    1-6      24-29  (497)
+
+No 1
+>2M7O_A uncharacterized protein; Structural Genomics, Unknown Function; NMR {Streptococcus pneumoniae}
+Probab=43.67  E-value=22  Score=14.57  Aligned_cols=6  Identities=67%  Similarity=1.437  Sum_probs=3.7  Template_Neff=3.700
+
+Q MVGGVV            1 MVGGVV    6 (6)
+Q Consensus         1 mvggvv    6 (6)
+                      ++||||
+T Consensus        42 l~GGvV   47 (70)
+T 2M7O_A           42 LVGGVI   47 (70)
+T ss_dssp             EECCEE
+T ss_pred             EEEEEE
+Confidence            357775
+
+
+No 2
+>4WC4_A A-adding enzyme/RNA Complex; RNA Nucleotidyltransferase, CCA-adding enzyme, A-adding; HET: ATP; 3.501A {Aquifex aeolicus}
+Probab=27.63  E-value=58  Score=14.15  Aligned_cols=6  Identities=83%  Similarity=1.437  Sum_probs=3.3  Template_Neff=9.100
+
+Q MVGGVV            1 MVGGVV    6 (6)
+Q Consensus         1 mvggvv    6 (6)
+                      +|||.|
+T Consensus        15 lvGG~v   20 (396)
+T 4WC4_A           15 IVGGVV   20 (396)
+T ss_dssp             EETHHH
+T ss_pred             EECchH
+Confidence            366654
+
+
+No 3
+>1MIW_A tRNA CCA-adding enzyme; CCA-adding enzyme, tRNA nucleotidyltransferase, TRANSLATION; HET: ATP, MSE; 3.0A {Geobacillus stearothermophilus} SCOP: a.173.1.1, d.218.1.4
+Probab=19.57  E-value=1.1e+02  Score=13.55  Aligned_cols=6  Identities=67%  Similarity=1.204  Sum_probs=0.0  Template_Neff=8.900
+
+Q MVGGVV            1 MVGGVV    6 (6)
+Q Consensus         1 mvggvv    6 (6)
+                      .|||.|
+T Consensus        24 lvGG~v   29 (404)
+T 1MIW_A           24 FVGGAV   29 (404)
+T ss_dssp             EESHHH
+T ss_pred             EECcHH
+
+
+No 4
+>3AQL_A Poly(A) polymerase (E.C.2.7.7.19); TRANSFERASE/RNA, ATP-BINDING, NUCLEOTIDE-BINDING, RNA-BINDING, transferase; HET: GOL; 3.0A {Escherichia coli}
+Probab=19.06  E-value=1.1e+02  Score=13.71  Aligned_cols=6  Identities=67%  Similarity=1.082  Sum_probs=0.0  Template_Neff=8.600
+
+Q MVGGVV            1 MVGGVV    6 (6)
+Q Consensus         1 mvggvv    6 (6)
+                      +|||.|
+T Consensus        37 lvGG~V   42 (415)
+T 3AQL_A           37 LVGGGV   42 (415)
+T ss_dssp             EETHHH
+T ss_pred             EEChHH
+
+
+No 5
+>3AQK_A Poly(A) polymerase (E.C.2.7.7.19); TRANSFERASE/RNA, ATP-BINDING, NUCLEOTIDE-BINDING, RNA-BINDING, transferase; 3.65A {Escherichia coli}
+Probab=18.43  E-value=1.2e+02  Score=13.69  Aligned_cols=6  Identities=67%  Similarity=1.082  Sum_probs=0.0  Template_Neff=8.500
+
+Q MVGGVV            1 MVGGVV    6 (6)
+Q Consensus         1 mvggvv    6 (6)
+                      +|||.|
+T Consensus        36 lvGG~V   41 (414)
+T 3AQK_A           36 LVGGGV   41 (414)
+T ss_dssp             ECTTTH
+T ss_pred             EECHHH
+
+
+No 6
+>7OTR_A tRNA maturation, tRNA nucleotidyltransferase, psychrophilic; HET: PO4, ACT, GOL; 2.25A {Planococcus halocryophilus}
+Probab=18.16  E-value=1.2e+02  Score=13.90  Aligned_cols=6  Identities=67%  Similarity=1.254  Sum_probs=0.0  Template_Neff=8.100
+
+Q MVGGVV            1 MVGGVV    6 (6)
+Q Consensus         1 mvggvv    6 (6)
+                      .|||.|
+T Consensus        63 lvGG~V   68 (421)
+T 7OTR_A           63 IVGGAV   68 (421)
+T ss_dssp             EETHHH
+T ss_pred             EECchH
+
+
+No 7
+>3IFN_P 12A11 FAB antibody heavy chain; antibody, amyloid beta peptide, IMMUNE; 1.5A {Mus musculus}
+Probab=16.94  E-value=1.3e+02  Score=10.05  Aligned_cols=6  Identities=100%  Similarity=1.536  Sum_probs=0.0  Template_Neff=6.600
+
+Q MVGGVV            1 MVGGVV    6 (6)
+Q Consensus         1 mvggvv    6 (6)
+                      +|+||.
+T Consensus        35 ~v~gVa   40 (40)
+T 3IFN_P           35 MVGGVV   40 (40)
+T ss_pred             eeEecC
+
+
+No 8
+>4WBY_A A-adding enzyme; RNA Nucleotidyltransferase, CCA-adding enzyme, A-adding; HET: SO4; 1.5A {Aquifex aeolicus}
+Probab=16.27  E-value=1.4e+02  Score=13.32  Aligned_cols=6  Identities=83%  Similarity=1.437  Sum_probs=0.0  Template_Neff=8.700
+
+Q MVGGVV            1 MVGGVV    6 (6)
+Q Consensus         1 mvggvv    6 (6)
+                      .|||.|
+T Consensus        29 lvGG~V   34 (410)
+T 4WBY_A           29 IVGGVV   34 (410)
+T ss_dssp             EETHHH
+T ss_pred             EEChHH
+
+
+No 9
+>4X4W_A A.fulgidus CCA-adding enzyme (E.C.2.7.7.72); protein-RNA complex, tRNA, non-coding RNA; HET: SO4, FLC, GOL; 1.9A {Homo sapiens}
+Probab=15.88  E-value=1.5e+02  Score=13.25  Aligned_cols=6  Identities=50%  Similarity=1.071  Sum_probs=0.0  Template_Neff=8.800
+
+Q MVGGVV            1 MVGGVV    6 (6)
+Q Consensus         1 mvggvv    6 (6)
+                      .|||.|
+T Consensus        35 lvGG~v   40 (416)
+T 4X4W_A           35 IAGGAV   40 (416)
+T ss_dssp             EETHHH
+T ss_pred             EECcHH
+
+
+No 10
+>3WFP_A Poly A polymerase (E.C.2.7.7.72); Terminal Nucleotide Transferase, Transferase; HET: SO4; 4.005A {Aquifex aeolicus}
+Probab=15.58  E-value=1.5e+02  Score=14.05  Aligned_cols=6  Identities=67%  Similarity=1.104  Sum_probs=0.0  Template_Neff=7.800
+
+Q MVGGVV            1 MVGGVV    6 (6)
+Q Consensus         1 mvggvv    6 (6)
+                      +|||.|
+T Consensus        24 lVGG~V   29 (497)
+T 3WFP_A           24 IVGGWV   29 (497)
+T ss_dssp             EETHHH
+T ss_pred             EEchHH
+
+

@@ -1,0 +1,151 @@
+Query         LIVAGK
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 18:46:02 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LIVAGK/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LIVAGK/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6J56_A Unconventional myosin-V  17.2 1.3E+02  0.0014   13.8   0.0    6    1-6      60-65  (129)
+  2 2KIA_A Myosin-VI; Myosin VI, C  16.8 1.3E+02  0.0015   13.7   0.0    6    1-6      60-65  (129)
+  3 1V7L_B 3-isopropylmalate dehyd  16.2 1.4E+02  0.0016   12.2   0.0    6    1-6      54-59  (163)
+  4 3H5J_B 3-isopropylmalate dehyd  12.4 2.1E+02  0.0024   12.0   0.0    6    1-6      67-72  (171)
+  5 2HCU_A 3-isopropylmalate dehyd  11.1 2.5E+02  0.0028   12.5   0.0    6    1-6      88-93  (213)
+  6 3H5J_A 3-isopropylmalate dehyd  10.9 2.5E+02  0.0028   12.1   0.0    6    1-6      67-72  (171)
+  7 2HST_A Eukaryotic peptide chai  10.0 2.9E+02  0.0032   10.6   0.0    5    1-5      85-89  (143)
+  8 2MRW_A Cell division factor; F   8.9 3.4E+02  0.0037   10.2   0.0    6    1-6      10-15  (40)
+  9 6TWR_A Beta-glucoside bgl oper   8.5 3.6E+02  0.0039   10.5   0.0    6    1-6      22-27  (175)
+ 10 4MVI_B Neutrophil gelatinase-a   8.3 3.7E+02  0.0041    8.9   0.0    5    1-5      34-38  (40)
+
+No 1
+>6J56_A Unconventional myosin-VI, Peptide from Target; Myosin VI, Tom1, complex, autophagy; 1.798A {Homo sapiens}
+Probab=17.18  E-value=1.3e+02  Score=13.76  Aligned_cols=6  Identities=83%  Similarity=1.243  Sum_probs=3.1  Template_Neff=3.100
+
+Q LIVAGK            1 LIVAGK    6 (6)
+Q Consensus         1 livagk    6 (6)
+                      |.|||+
+T Consensus        60 LLvAG~   65 (129)
+T 6J56_A           60 LLVAGK   65 (129)
+T ss_dssp             EEETBT
+T ss_pred             EEeccC
+Confidence            345654
+
+
+No 2
+>2KIA_A Myosin-VI; Myosin VI, Cargo-binding domain, Molecular; NMR {Mus musculus}
+Probab=16.84  E-value=1.3e+02  Score=13.72  Aligned_cols=6  Identities=83%  Similarity=1.243  Sum_probs=3.1  Template_Neff=3.100
+
+Q LIVAGK            1 LIVAGK    6 (6)
+Q Consensus         1 livagk    6 (6)
+                      |.|||+
+T Consensus        60 LLvAG~   65 (129)
+T 2KIA_A           60 LLVAGK   65 (129)
+T ss_dssp             EEETTT
+T ss_pred             EEeccC
+Confidence            345654
+
+
+No 3
+>1V7L_B 3-isopropylmalate dehydratase small subunit (E.C.4.2.1.33); BETA BARREL, LYASE; 1.98A {Pyrococcus horikoshii} SCOP: c.8.2.1
+Probab=16.18  E-value=1.4e+02  Score=12.16  Aligned_cols=6  Identities=67%  Similarity=1.138  Sum_probs=0.0  Template_Neff=7.600
+
+Q LIVAGK            1 LIVAGK    6 (6)
+Q Consensus         1 livagk    6 (6)
+                      +||||+
+T Consensus        54 IiVaG~   59 (163)
+T 1V7L_B           54 VVVAGK   59 (163)
+T ss_dssp             EEECCS
+T ss_pred             EEEEec
+
+
+No 4
+>3H5J_B 3-isopropylmalate dehydratase small subunit (E.C.4.2.1.33); Leucine biosynthesis, isopropylmalate isomerase, LeuD; HET: EDO; 1.2A {Mycobacterium tuberculosis}
+Probab=12.35  E-value=2.1e+02  Score=11.95  Aligned_cols=6  Identities=50%  Similarity=0.910  Sum_probs=0.0  Template_Neff=7.200
+
+Q LIVAGK            1 LIVAGK    6 (6)
+Q Consensus         1 livagk    6 (6)
+                      +||||+
+T Consensus        67 iivaG~   72 (171)
+T 3H5J_B           67 VLVAGP   72 (171)
+T ss_dssp             EEEECS
+T ss_pred             EEEEeC
+
+
+No 5
+>2HCU_A 3-isopropylmalate dehydratase small subunit (E.C.4.2.1.33); BETA BARREL, LYASE; HET: SO4; 2.1A {Streptococcus mutans}
+Probab=11.07  E-value=2.5e+02  Score=12.52  Aligned_cols=6  Identities=17%  Similarity=0.911  Sum_probs=0.0  Template_Neff=6.400
+
+Q LIVAGK            1 LIVAGK    6 (6)
+Q Consensus         1 livagk    6 (6)
+                      +||||+
+T Consensus        88 IlVaG~   93 (213)
+T 2HCU_A           88 ILITGD   93 (213)
+T ss_dssp             EEEECS
+T ss_pred             EEEEec
+
+
+No 6
+>3H5J_A 3-isopropylmalate dehydratase small subunit (E.C.4.2.1.33); Leucine biosynthesis, isopropylmalate isomerase, LeuD; HET: EDO; 1.2A {Mycobacterium tuberculosis}
+Probab=10.94  E-value=2.5e+02  Score=12.11  Aligned_cols=6  Identities=50%  Similarity=0.910  Sum_probs=0.0  Template_Neff=6.400
+
+Q LIVAGK            1 LIVAGK    6 (6)
+Q Consensus         1 livagk    6 (6)
+                      +||+|+
+T Consensus        67 ilVaG~   72 (171)
+T 3H5J_A           67 VLVAGP   72 (171)
+T ss_dssp             EEEECS
+T ss_pred             EEEEec
+
+
+No 7
+>2HST_A Eukaryotic peptide chain release factor; Termination of protein synthesis, peptidyl-tRNA; NMR {Homo sapiens} SCOP: c.55.4.2
+Probab=9.98  E-value=2.9e+02  Score=10.56  Aligned_cols=5  Identities=60%  Similarity=1.192  Sum_probs=0.0  Template_Neff=8.700
+
+Q LIVAGK            1 LIVAG    5 (6)
+Q Consensus         1 livag    5 (6)
+                      ++++|
+T Consensus        85 Ivv~G   89 (143)
+T 2HST_A           85 LVLAG   89 (143)
+T ss_pred             EEEEc
+
+
+No 8
+>2MRW_A Cell division factor; FtsZ, CELL CYCLE; NMR {N/A}
+Probab=8.91  E-value=3.4e+02  Score=10.17  Aligned_cols=6  Identities=33%  Similarity=0.922  Sum_probs=0.0  Template_Neff=3.800
+
+Q LIVAGK            1 LIVAGK    6 (6)
+Q Consensus         1 livagk    6 (6)
+                      +++.||
+T Consensus        10 i~lvGK   15 (40)
+T 2MRW_A           10 VVLVGK   15 (40)
+T ss_dssp             SCCCSS
+T ss_pred             EEEecc
+
+
+No 9
+>6TWR_A Beta-glucoside bgl operon antiterminator BglG; antitermination protein, Bacillus subtilis, dimeric; NMR {Bacillus subtilis}
+Probab=8.52  E-value=3.6e+02  Score=10.48  Aligned_cols=6  Identities=50%  Similarity=1.060  Sum_probs=0.0  Template_Neff=9.100
+
+Q LIVAGK            1 LIVAGK    6 (6)
+Q Consensus         1 livagk    6 (6)
+                      .|+.||
+T Consensus        22 ~i~~Gk   27 (175)
+T 6TWR_A           22 LVVMGR   27 (175)
+T ss_dssp             EEEEES
+T ss_pred             EEEEec
+
+
+No 10
+>4MVI_B Neutrophil gelatinase-associated lipocalin, Beta-amyloid protein; beta-barrel, engineered lipocalin, binding protein; 1.7A {Homo sapiens}
+Probab=8.30  E-value=3.7e+02  Score=8.87  Aligned_cols=5  Identities=60%  Similarity=1.132  Sum_probs=0.0  Template_Neff=6.800
+
+Q LIVAGK            1 LIVAG    5 (6)
+Q Consensus         1 livag    5 (6)
+                      |.|+|
+T Consensus        34 Lavag   38 (40)
+T 4MVI_B           34 LMVGG   38 (40)
+T ss_dssp             -----
+T ss_pred             Eeeee
+
+

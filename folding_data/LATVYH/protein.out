@@ -1,0 +1,150 @@
+Query         LATVYH
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 16:34:49 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LATVYH/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LATVYH/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3COL_A Putative transcription   14.8 1.6E+02  0.0018   10.0   0.0    5    2-6      45-49  (196)
+  2 2OGF_A Hypothetical protein MJ  14.4 1.7E+02  0.0019   13.2   0.0    6    1-6      31-36  (122)
+  3 2OGF_D Hypothetical protein MJ  14.4 1.7E+02  0.0019   13.2   0.0    6    1-6      31-36  (122)
+  4 2I10_B transcriptional regulat  14.1 1.8E+02  0.0019   10.1   0.0    5    2-6      46-50  (202)
+  5 7K1C_B TtgR, TetR family, epis  13.8 1.8E+02   0.002   10.1   0.0    5    2-6      46-50  (210)
+  6 2I52_F Structure of hypothetic  13.7 1.8E+02   0.002   13.0   0.0    6    1-6      26-31  (121)
+  7 3BT9_A QacR, multidrug binding  13.6 1.9E+02  0.0021    9.9   0.0    5    2-6      37-41  (188)
+  8 3QKX_A Uncharacterized HTH-typ  13.5 1.9E+02  0.0021    9.9   0.0    5    2-6      43-47  (188)
+  9 2DG7_A putative transcriptiona  13.5 1.9E+02  0.0021   10.0   0.0    5    2-6      42-46  (195)
+ 10 6U18_B macrolide, biosensor, D  13.1 1.9E+02  0.0022   10.0   0.0    5    2-6      42-46  (194)
+
+No 1
+>3COL_A Putative transcription regulator; Transcription regulator, Lactobacillus plantarum, Structural; 2.1A {Lactobacillus plantarum WCFS1}
+Probab=14.78  E-value=1.6e+02  Score=10.02  Aligned_cols=5  Identities=40%  Similarity=0.727  Sum_probs=0.0  Template_Neff=12.100
+
+Q LATVYH            2 ATVYH    6 (6)
+Q Consensus         2 atvyh    6 (6)
+                      +|+|+
+T Consensus        45 ~t~y~   49 (196)
+T 3COL_A           45 SNVYL   49 (196)
+T ss_dssp             HHHHT
+T ss_pred             HHHHH
+
+
+No 2
+>2OGF_A Hypothetical protein MJ0408; structural genomics, UNKNOWN FUNCTION, NYSGXRC; HET: SO4, GOL, MSE, OXG; 1.89A {Methanocaldococcus jannaschii}
+Probab=14.37  E-value=1.7e+02  Score=13.17  Aligned_cols=6  Identities=33%  Similarity=0.999  Sum_probs=0.0  Template_Neff=3.500
+
+Q LATVYH            1 LATVYH    6 (6)
+Q Consensus         1 latvyh    6 (6)
+                      |.++||
+T Consensus        31 lGaLyH   36 (122)
+T 2OGF_A           31 LGALFH   36 (122)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 3
+>2OGF_D Hypothetical protein MJ0408; structural genomics, UNKNOWN FUNCTION, NYSGXRC; HET: SO4, GOL, MSE, OXG; 1.89A {Methanocaldococcus jannaschii}
+Probab=14.37  E-value=1.7e+02  Score=13.17  Aligned_cols=6  Identities=33%  Similarity=0.999  Sum_probs=0.0  Template_Neff=3.500
+
+Q LATVYH            1 LATVYH    6 (6)
+Q Consensus         1 latvyh    6 (6)
+                      |.++||
+T Consensus        31 lGaLyH   36 (122)
+T 2OGF_D           31 LGALFH   36 (122)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 4
+>2I10_B transcriptional regulator; structural genomics, APC5890, TetR family; HET: PGE, NPO; 2.05A {Rhodococcus sp.} SCOP: a.4.1.9, a.121.1.1
+Probab=14.10  E-value=1.8e+02  Score=10.11  Aligned_cols=5  Identities=20%  Similarity=0.707  Sum_probs=0.0  Template_Neff=11.900
+
+Q LATVYH            2 ATVYH    6 (6)
+Q Consensus         2 atvyh    6 (6)
+                      +|+|+
+T Consensus        46 ~t~y~   50 (202)
+T 2I10_B           46 PSLYA   50 (202)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 5
+>7K1C_B TtgR, TetR family, epistasis, resveratrol; HET: STL; 1.9A {Pseudomonas putida}
+Probab=13.80  E-value=1.8e+02  Score=10.15  Aligned_cols=5  Identities=20%  Similarity=0.747  Sum_probs=0.0  Template_Neff=11.900
+
+Q LATVYH            2 ATVYH    6 (6)
+Q Consensus         2 atvyh    6 (6)
+                      +|+|+
+T Consensus        46 ~t~y~   50 (210)
+T 7K1C_B           46 GAIYW   50 (210)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 6
+>2I52_F Structure of hypothetical protein PTO0218; structural genomics, UNKNOWN FUNCTION, PSI; HET: GOL, CA; 2.08A {Picrophilus torridus} SCOP: d.316.1.1
+Probab=13.73  E-value=1.8e+02  Score=12.96  Aligned_cols=6  Identities=33%  Similarity=1.071  Sum_probs=0.0  Template_Neff=3.800
+
+Q LATVYH            1 LATVYH    6 (6)
+Q Consensus         1 latvyh    6 (6)
+                      |.++||
+T Consensus        26 lGaLyH   31 (121)
+T 2I52_F           26 LGAIFH   31 (121)
+T ss_dssp             HHHHHH
+T ss_pred             HHhhHH
+
+
+No 7
+>3BT9_A QacR, multidrug binding, dequalinium, bivalent; HET: SO4, DEQ; 2.75A {Staphylococcus aureus subsp. aureus Mu50} SCOP: a.4.1.9, a.121.1.1
+Probab=13.60  E-value=1.9e+02  Score=9.87  Aligned_cols=5  Identities=20%  Similarity=0.560  Sum_probs=0.0  Template_Neff=12.000
+
+Q LATVYH            2 ATVYH    6 (6)
+Q Consensus         2 atvyh    6 (6)
+                      +|+|+
+T Consensus        37 ~t~y~   41 (188)
+T 3BT9_A           37 GNLYY   41 (188)
+T ss_dssp             TCTTS
+T ss_pred             chhhH
+
+
+No 8
+>3QKX_A Uncharacterized HTH-type transcriptional regulator HI_0893; STRUCTURAL GENOMICS, JOINT CENTER FOR; HET: EDO, SO4; 2.35A {Haemophilus influenzae}
+Probab=13.51  E-value=1.9e+02  Score=9.91  Aligned_cols=5  Identities=40%  Similarity=0.800  Sum_probs=0.0  Template_Neff=11.900
+
+Q LATVYH            2 ATVYH    6 (6)
+Q Consensus         2 atvyh    6 (6)
+                      +|+|+
+T Consensus        43 ~t~y~   47 (188)
+T 3QKX_A           43 GTIYL   47 (188)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 9
+>2DG7_A putative transcriptional regulator; helix-turn-helix motif, TetR family, GENE; 2.3A {Streptomyces coelicolor}
+Probab=13.50  E-value=1.9e+02  Score=10.03  Aligned_cols=5  Identities=0%  Similarity=0.368  Sum_probs=0.0  Template_Neff=11.800
+
+Q LATVYH            2 ATVYH    6 (6)
+Q Consensus         2 atvyh    6 (6)
+                      +|+||
+T Consensus        42 ~t~y~   46 (195)
+T 2DG7_A           42 RSYFR   46 (195)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 10
+>6U18_B macrolide, biosensor, DNA-binding, DNA BINDING; HET: CTY, FLC; 2.0A {Escherichia coli}
+Probab=13.14  E-value=1.9e+02  Score=10.03  Aligned_cols=5  Identities=20%  Similarity=0.354  Sum_probs=0.0  Template_Neff=11.700
+
+Q LATVYH            2 ATVYH    6 (6)
+Q Consensus         2 atvyh    6 (6)
+                      +|+|+
+T Consensus        42 ~t~y~   46 (194)
+T 6U18_B           42 AALIQ   46 (194)
+T ss_dssp             HHHHH
+T ss_pred             HHHhH
+
+

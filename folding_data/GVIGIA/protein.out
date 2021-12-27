@@ -1,0 +1,148 @@
+Query         GVIGIA
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 04:32:13 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GVIGIA/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GVIGIA/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3EOP_A Thymocyte nuclear prote  22.3      86 0.00095   14.2   0.0    6    1-6      69-74  (176)
+  2 1OEW_A ENDOTHIAPEPSIN (E.C.3.4  20.0   1E+02  0.0011   12.4   0.0    6    1-6     123-128 (329)
+  3 6TMF_C 30S ribosomal protein S  19.7 1.1E+02  0.0012   12.7   0.0    5    1-5     174-178 (193)
+  4 4YBB_BC Ribosome; Protein bios  19.4 1.1E+02  0.0012   12.6   0.0    5    1-5     193-197 (206)
+  5 5J8A_AC 30S ribosomal protein   19.4 1.1E+02  0.0012   12.6   0.0    5    1-5     193-197 (206)
+  6 6WDD_H ribosome; Ribosome, EF-  19.4 1.1E+02  0.0012   12.6   0.0    5    1-5     193-197 (206)
+  7 3EOP_B Thymocyte nuclear prote  19.4 1.1E+02  0.0012   13.9   0.0    6    1-6      69-74  (176)
+  8 1MPP_A PEPSIN (RENIN) (E.C.3.4  19.3 1.1E+02  0.0012   12.4   0.0    6    1-6     131-136 (361)
+  9 4AA9_A CHYMOSIN (E.C.3.4.23.4)  19.3 1.1E+02  0.0012   12.2   0.0    6    1-6     118-123 (320)
+ 10 2RMP_A MUCOROPEPSIN, PEPSTATIN  19.3 1.1E+02  0.0012   12.4   0.0    6    1-6     131-136 (361)
+
+No 1
+>3EOP_A Thymocyte nuclear protein 1; unknown function, Nucleus, Phosphoprotein; HET: SO4; 2.3A {Homo sapiens}
+Probab=22.25  E-value=86  Score=14.21  Aligned_cols=6  Identities=33%  Similarity=0.977  Sum_probs=3.1  Template_Neff=4.900
+
+Q GVIGIA            1 GVIGIA    6 (6)
+Q Consensus         1 gvigia    6 (6)
+                      |++||+
+T Consensus        69 gIvGi~   74 (176)
+T 3EOP_A           69 GIAGLM   74 (176)
+T ss_dssp             EEEEEE
+T ss_pred             eEEEEE
+Confidence            455553
+
+
+No 2
+>1OEW_A ENDOTHIAPEPSIN (E.C.3.4.23.22); HYDROLASE, ASPARTIC PROTEINASE MECHANISM, ATOMIC; HET: SO4; 0.9A {CRYPHONECTRIA PARASITICA} SCOP: b.50.1.2
+Probab=19.96  E-value=1e+02  Score=12.40  Aligned_cols=6  Identities=50%  Similarity=1.276  Sum_probs=0.0  Template_Neff=10.400
+
+Q GVIGIA            1 GVIGIA    6 (6)
+Q Consensus         1 gvigia    6 (6)
+                      |++|++
+T Consensus       123 GilGLg  128 (329)
+T 1OEW_A          123 GLLGLA  128 (329)
+T ss_dssp             EEEECS
+T ss_pred             EEEEEe
+
+
+No 3
+>6TMF_C 30S ribosomal protein S2, 30S; ABC Proteins, Ribosome Recycling, Translation; HET: MG, SF4, ANP;{Thermococcus celer Vu 13 = JCM 8558}
+Probab=19.68  E-value=1.1e+02  Score=12.75  Aligned_cols=5  Identities=80%  Similarity=1.577  Sum_probs=0.0  Template_Neff=7.800
+
+Q GVIGIA            1 GVIGI    5 (6)
+Q Consensus         1 gvigi    5 (6)
+                      |++||
+T Consensus       174 G~~GI  178 (193)
+T 6TMF_C          174 GVIGV  178 (193)
+T ss_dssp             CEEEE
+T ss_pred             eeeeE
+
+
+No 4
+>4YBB_BC Ribosome; Protein biosynthesis, ribosomes, RNA, transfer; HET: 6MZ, 4OC, H2U, UR3, MA6, G7M, MPD, 5MU, EDO, ACY, GUN, 2MA, OMG, PUT, 4D4, PG4, 5MC, OMC, 1MG, MEQ, MG, SPD, PGE, D2T, 3TD, PEG, PSU, 1PE, OMU, 2MG; 2.1A {Escherichia coli K-12}
+Probab=19.39  E-value=1.1e+02  Score=12.59  Aligned_cols=5  Identities=80%  Similarity=1.577  Sum_probs=0.0  Template_Neff=8.300
+
+Q GVIGIA            1 GVIGI    5 (6)
+Q Consensus         1 gvigi    5 (6)
+                      |++||
+T Consensus       193 G~~Gi  197 (206)
+T 4YBB_BC         193 GVIGV  197 (206)
+T ss_pred             eEeEE
+
+
+No 5
+>5J8A_AC 30S ribosomal protein S2, 30S; ribosome, resistance, negamycin, tigecycline, tetracycline; HET: 2MA, MEQ, GUN, ACY, 5MC, 4OC, 4D4, PUT, D2T, MPD, OMC, 6MZ, OMG, PSU, T1C, SPD, MG, PG4, EDO, 3TD, MA6, H2U, PGE, OMU, 7MG, 2MG, 1MG, 1PE, PEG, UR3, 5MU; 3.1A {Escherichia coli (strain K12)}
+Probab=19.39  E-value=1.1e+02  Score=12.59  Aligned_cols=5  Identities=80%  Similarity=1.577  Sum_probs=0.0  Template_Neff=8.300
+
+Q GVIGIA            1 GVIGI    5 (6)
+Q Consensus         1 gvigi    5 (6)
+                      |++||
+T Consensus       193 G~~Gi  197 (206)
+T 5J8A_AC         193 GVIGV  197 (206)
+T ss_pred             eEeEE
+
+
+No 6
+>6WDD_H ribosome; Ribosome, EF-Tu, tRNA; HET: FME, PHE; 3.2A {Escherichia coli}
+Probab=19.39  E-value=1.1e+02  Score=12.59  Aligned_cols=5  Identities=80%  Similarity=1.577  Sum_probs=0.0  Template_Neff=8.300
+
+Q GVIGIA            1 GVIGI    5 (6)
+Q Consensus         1 gvigi    5 (6)
+                      |++||
+T Consensus       193 G~~Gi  197 (206)
+T 6WDD_H          193 GVIGV  197 (206)
+T ss_pred             eEeEE
+
+
+No 7
+>3EOP_B Thymocyte nuclear protein 1; unknown function, Nucleus, Phosphoprotein; HET: SO4; 2.3A {Homo sapiens}
+Probab=19.37  E-value=1.1e+02  Score=13.92  Aligned_cols=6  Identities=33%  Similarity=0.977  Sum_probs=0.0  Template_Neff=4.900
+
+Q GVIGIA            1 GVIGIA    6 (6)
+Q Consensus         1 gvigia    6 (6)
+                      |++||+
+T Consensus        69 gIvGi~   74 (176)
+T 3EOP_B           69 GIAGLM   74 (176)
+T ss_dssp             EEEEEE
+T ss_pred             eEEEEE
+
+
+No 8
+>1MPP_A PEPSIN (RENIN) (E.C.3.4.23.23); HYDROLASE(ACID PROTEINASE); 2.0A {Rhizomucor pusillus} SCOP: b.50.1.2
+Probab=19.31  E-value=1.1e+02  Score=12.41  Aligned_cols=6  Identities=50%  Similarity=1.049  Sum_probs=0.0  Template_Neff=10.600
+
+Q GVIGIA            1 GVIGIA    6 (6)
+Q Consensus         1 gvigia    6 (6)
+                      |++|++
+T Consensus       131 GilGLg  136 (361)
+T 1MPP_A          131 GIFGAA  136 (361)
+T ss_dssp             EEEECS
+T ss_pred             ccceec
+
+
+No 9
+>4AA9_A CHYMOSIN (E.C.3.4.23.4); HYDROLASE, ASPARTIC PEPTIDASE, RENNET; HET: SO4, NAG; 1.6A {CAMELUS DROMEDARIUS}
+Probab=19.30  E-value=1.1e+02  Score=12.18  Aligned_cols=6  Identities=50%  Similarity=1.348  Sum_probs=0.0  Template_Neff=10.600
+
+Q GVIGIA            1 GVIGIA    6 (6)
+Q Consensus         1 gvigia    6 (6)
+                      |++|++
+T Consensus       118 GilGLg  123 (320)
+T 4AA9_A          118 GILGLA  123 (320)
+T ss_dssp             EEEECS
+T ss_pred             eEEEcC
+
+
+No 10
+>2RMP_A MUCOROPEPSIN, PEPSTATIN; ASPARTIC PROTEINASE, PEPSTATIN A, ASPARTYL; HET: NAG, BMA; 2.7A {Rhizomucor miehei} SCOP: b.50.1.2
+Probab=19.27  E-value=1.1e+02  Score=12.40  Aligned_cols=6  Identities=50%  Similarity=0.977  Sum_probs=0.0  Template_Neff=10.600
+
+Q GVIGIA            1 GVIGIA    6 (6)
+Q Consensus         1 gvigia    6 (6)
+                      |++|++
+T Consensus       131 GilGLg  136 (361)
+T 2RMP_A          131 GLFGAA  136 (361)
+T ss_dssp             EEEECS
+T ss_pred             cceecC
+
+

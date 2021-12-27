@@ -1,0 +1,149 @@
+Query         NLQGYQ
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 01:48:22 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NLQGYQ/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NLQGYQ/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5XJY_A ATP-binding cassette su  12.1 2.2E+02  0.0024   16.8   0.0    5    2-6     205-209 (2305)
+  2 5JYN_A Envelope glycoprotein g  11.2 2.4E+02  0.0027   10.5   0.0    4    3-6      34-37  (40)
+  3 6IVD_A nsp1 mutant protein; Tr  10.0 2.9E+02  0.0032   12.3   0.0    5    1-5      85-89  (107)
+  4 3ZBD_B NON-STRUCTURAL PROTEIN    9.9 2.9E+02  0.0032   12.4   0.0    5    1-5      91-95  (113)
+  5 5XBC_B PEDV nsp1; Porcine epid   9.3 3.1E+02  0.0035   12.4   0.0    5    1-5      83-87  (118)
+  6 2MOF_A Lysosome-associated mem   9.3 3.2E+02  0.0035    9.7   0.0    4    3-6      37-40  (42)
+  7 6LP9_A nsp1 mutant protein; Ca   9.3 3.2E+02  0.0035   12.4   0.0    5    1-5      90-94  (117)
+  8 5XBC_A PEDV nsp1; Porcine epid   9.2 3.2E+02  0.0036   12.4   0.0    5    1-5      83-87  (118)
+  9 5HEA_A Putative glycosyltransf   8.8 3.4E+02  0.0038   10.1   0.0    5    2-6     289-293 (296)
+ 10 5HEC_B Putative glycosyltransf   8.8 3.4E+02  0.0038   10.1   0.0    5    2-6     289-293 (296)
+
+No 1
+>5XJY_A ATP-binding cassette sub-family A member; membrane transporter, TRANSPORT PROTEIN; HET: NAG, BMA;{Homo sapiens}
+Probab=12.10  E-value=2.2e+02  Score=16.76  Aligned_cols=5  Identities=100%  Similarity=1.584  Sum_probs=0.0  Template_Neff=7.200
+
+Q NLQGYQ            2 LQGYQ    6 (6)
+Q Consensus         2 lqgyq    6 (6)
+                      |||||
+T Consensus       205 ~~~~~  209 (2305)
+T 5XJY_A          205 LQGYQ  209 (2305)
+T ss_dssp             -----
+T ss_pred             hcchh
+
+
+No 2
+>5JYN_A Envelope glycoprotein gp160; transmembrane domain, lipid bilayer, transmembrane; NMR {Human immunodeficiency virus 1}
+Probab=11.21  E-value=2.4e+02  Score=10.46  Aligned_cols=4  Identities=75%  Similarity=1.439  Sum_probs=0.0  Template_Neff=4.000
+
+Q NLQGYQ            3 QGYQ    6 (6)
+Q Consensus         3 qgyq    6 (6)
+                      |||+
+T Consensus        34 qGY~   37 (40)
+T 5JYN_A           34 QGYS   37 (40)
+T ss_dssp             HSSC
+T ss_pred             cCCC
+
+
+No 3
+>6IVD_A nsp1 mutant protein; Transmissible Gastroenteritis Virus, nsp1 mutant; 1.975A {Transmissible gastroenteritis virus}
+Probab=10.03  E-value=2.9e+02  Score=12.30  Aligned_cols=5  Identities=60%  Similarity=1.079  Sum_probs=0.0  Template_Neff=3.400
+
+Q NLQGYQ            1 NLQGY    5 (6)
+Q Consensus         1 nlqgy    5 (6)
+                      ||||+
+T Consensus        85 nLrGw   89 (107)
+T 6IVD_A           85 MLQGF   89 (107)
+T ss_pred             eeeeE
+
+
+No 4
+>3ZBD_B NON-STRUCTURAL PROTEIN 1; VIRAL PROTEIN, CORONAVIRUS, ALPHACORONAVIRUS, NSP1; 1.49A {PORCINE TRANSMISSIBLE GASTROENTERITIS CORONAVIRUS}
+Probab=9.86  E-value=2.9e+02  Score=12.43  Aligned_cols=5  Identities=60%  Similarity=1.079  Sum_probs=0.0  Template_Neff=3.200
+
+Q NLQGYQ            1 NLQGY    5 (6)
+Q Consensus         1 nlqgy    5 (6)
+                      ||||+
+T Consensus        91 nLrGw   95 (113)
+T 3ZBD_B           91 MLQGF   95 (113)
+T ss_dssp             TEEEE
+T ss_pred             ceeEE
+
+
+No 5
+>5XBC_B PEDV nsp1; Porcine epidemic diarrhea virus, nsp1; 1.249A {Porcine epidemic diarrhea virus}
+Probab=9.34  E-value=3.1e+02  Score=12.41  Aligned_cols=5  Identities=40%  Similarity=0.993  Sum_probs=0.0  Template_Neff=3.200
+
+Q NLQGYQ            1 NLQGY    5 (6)
+Q Consensus         1 nlqgy    5 (6)
+                      ||||+
+T Consensus        83 nLrGw   87 (118)
+T 5XBC_B           83 NICGW   87 (118)
+T ss_dssp             TEEEE
+T ss_pred             eeeEE
+
+
+No 6
+>2MOF_A Lysosome-associated membrane glycoprotein 2; MEMBRANE PROTEIN; NMR {Homo sapiens}
+Probab=9.29  E-value=3.2e+02  Score=9.68  Aligned_cols=4  Identities=50%  Similarity=1.323  Sum_probs=0.0  Template_Neff=5.500
+
+Q NLQGYQ            3 QGYQ    6 (6)
+Q Consensus         3 qgyq    6 (6)
+                      .|||
+T Consensus        37 ~gYq   40 (42)
+T 2MOF_A           37 AGYE   40 (42)
+T ss_dssp             TTSC
+T ss_pred             cccc
+
+
+No 7
+>6LP9_A nsp1 mutant protein; Cat virus, VIRAL PROTEIN; 1.803A {Feline infectious peritonitis virus}
+Probab=9.27  E-value=3.2e+02  Score=12.38  Aligned_cols=5  Identities=60%  Similarity=1.079  Sum_probs=0.0  Template_Neff=3.200
+
+Q NLQGYQ            1 NLQGY    5 (6)
+Q Consensus         1 nlqgy    5 (6)
+                      ||||+
+T Consensus        90 nL~Gw   94 (117)
+T 6LP9_A           90 MLQGF   94 (117)
+T ss_dssp             TEEEE
+T ss_pred             ceeEE
+
+
+No 8
+>5XBC_A PEDV nsp1; Porcine epidemic diarrhea virus, nsp1; 1.249A {Porcine epidemic diarrhea virus}
+Probab=9.19  E-value=3.2e+02  Score=12.38  Aligned_cols=5  Identities=40%  Similarity=0.993  Sum_probs=0.0  Template_Neff=3.200
+
+Q NLQGYQ            1 NLQGY    5 (6)
+Q Consensus         1 nlqgy    5 (6)
+                      ||||+
+T Consensus        83 nLrGw   87 (118)
+T 5XBC_A           83 NICGW   87 (118)
+T ss_dssp             TEEEE
+T ss_pred             eeeEE
+
+
+No 9
+>5HEA_A Putative glycosyltransferase (GalT1); Glycosyltransferase, helix binding domain, TRANSFERASE; 2.003A {Streptococcus parasanguinis FW213}
+Probab=8.82  E-value=3.4e+02  Score=10.07  Aligned_cols=5  Identities=20%  Similarity=0.833  Sum_probs=0.0  Template_Neff=11.900
+
+Q NLQGYQ            2 LQGYQ    6 (6)
+Q Consensus         2 lqgyq    6 (6)
+                      |++|+
+T Consensus       289 ~~~~~  293 (296)
+T 5HEA_A          289 IENYP  293 (296)
+T ss_dssp             HHHSC
+T ss_pred             HHhCC
+
+
+No 10
+>5HEC_B Putative glycosyltransferase (GalT1); glycosyltransferase, helix binding domain, TRANSFERASE; 2.395A {Streptococcus parasanguinis FW213}
+Probab=8.82  E-value=3.4e+02  Score=10.07  Aligned_cols=5  Identities=20%  Similarity=0.833  Sum_probs=0.0  Template_Neff=11.900
+
+Q NLQGYQ            2 LQGYQ    6 (6)
+Q Consensus         2 lqgyq    6 (6)
+                      |++|+
+T Consensus       289 ~~~~~  293 (296)
+T 5HEC_B          289 IENYP  293 (296)
+T ss_dssp             HHHSC
+T ss_pred             HHhCC
+
+

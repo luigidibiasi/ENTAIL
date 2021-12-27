@@ -1,0 +1,149 @@
+Query         LTFIQV
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 20:35:29 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LTFIQV/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LTFIQV/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5JNP_B Probable cellulose synt   8.5 3.6E+02  0.0039   10.9   0.0    5    2-6     105-109 (128)
+  2 1T6A_A RBSTP2229 gene product;   7.9   4E+02  0.0044   12.3   0.0    5    2-6      80-84  (126)
+  3 4LVN_P Subtilisin-like serine    7.5 4.2E+02  0.0046   11.9   0.0    5    1-5      39-43  (93)
+  4 4LVO_P Subtilisin-like serine    7.5 4.2E+02  0.0046   11.9   0.0    5    1-5      39-43  (93)
+  5 3SNF_A Protein P-30 (E.C.3.1.2   6.4 5.2E+02  0.0058   10.0   0.0    4    2-5      35-38  (104)
+  6 1KVZ_A RC-RNase4; antitumor, b   6.3 5.3E+02  0.0059   10.0   0.0    4    2-5      36-39  (107)
+  7 4K7L_B Ribonuclease pancreatic   6.3 5.4E+02  0.0059    9.9   0.0    4    2-5      25-28  (104)
+  8 1DY5_B RIBONUCLEASE A (E.C.3.1   5.8 5.9E+02  0.0066   10.0   0.0    4    2-5      45-48  (124)
+  9 2IYI_B APPA, ANTIREPRESSOR OF    5.7   6E+02  0.0067   10.4   0.0    5    2-6      60-64  (124)
+ 10 1YRX_B hypothetical protein Rs   5.6 6.1E+02  0.0068   10.3   0.0    4    3-6      49-52  (121)
+
+No 1
+>5JNP_B Probable cellulose synthase A catalytic; cellulose synthase, plant conserved region; HET: PO4, GOL, MSE, FLC; 2.404A {Oryza sativa subsp. japonica}
+Probab=8.54  E-value=3.6e+02  Score=10.95  Aligned_cols=5  Identities=60%  Similarity=0.707  Sum_probs=0.0  Template_Neff=6.900
+
+Q LTFIQV            2 TFIQV    6 (6)
+Q Consensus         2 tfiqv    6 (6)
+                      +.|||
+T Consensus       105 sIIQV  109 (128)
+T 5JNP_B          105 GMIQV  109 (128)
+T ss_dssp             -----
+T ss_pred             hhhhH
+
+
+No 2
+>1T6A_A RBSTP2229 gene product; structural genomics, hypothetical protein, Bacillus; 2.05A {Geobacillus stearothermophilus} SCOP: d.129.8.1
+Probab=7.86  E-value=4e+02  Score=12.26  Aligned_cols=5  Identities=60%  Similarity=1.165  Sum_probs=0.0  Template_Neff=3.100
+
+Q LTFIQV            2 TFIQV    6 (6)
+Q Consensus         2 tfiqv    6 (6)
+                      +||||
+T Consensus        80 ~~IQi   84 (126)
+T 1T6A_A           80 TFIDI   84 (126)
+T ss_dssp             EEEEE
+T ss_pred             eeEEE
+
+
+No 3
+>4LVN_P Subtilisin-like serine protease (E.C.3.4.21.61), NIMP.M7; alpha beta, enzyme-prodomain complex, Rossmann; 2.25A {Mus musculus}
+Probab=7.55  E-value=4.2e+02  Score=11.94  Aligned_cols=5  Identities=40%  Similarity=1.132  Sum_probs=0.0  Template_Neff=1.400
+
+Q LTFIQV            1 LTFIQ    5 (6)
+Q Consensus         1 ltfiq    5 (6)
+                      +.|||
+T Consensus        39 ~sfiq   43 (93)
+T 4LVN_P           39 LSFLE   43 (93)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 4
+>4LVO_P Subtilisin-like serine protease (E.C.3.4.21.61), NIMP.M7; alpha beta, enzyme-prodomain complex, Rossmann; 2.26A {Mus musculus}
+Probab=7.55  E-value=4.2e+02  Score=11.94  Aligned_cols=5  Identities=40%  Similarity=1.132  Sum_probs=0.0  Template_Neff=1.400
+
+Q LTFIQV            1 LTFIQ    5 (6)
+Q Consensus         1 ltfiq    5 (6)
+                      +.|||
+T Consensus        39 ~sfiq   43 (93)
+T 4LVO_P           39 LSFLE   43 (93)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 5
+>3SNF_A Protein P-30 (E.C.3.1.27.-); ribonuclease, alpha/beta, Hydrolase; HET: SO4; 1.1A {Rana pipiens}
+Probab=6.40  E-value=5.2e+02  Score=9.96  Aligned_cols=4  Identities=75%  Similarity=0.982  Sum_probs=0.0  Template_Neff=7.300
+
+Q LTFIQV            2 TFIQ    5 (6)
+Q Consensus         2 tfiq    5 (6)
+                      |||.
+T Consensus        35 TFIh   38 (104)
+T 3SNF_A           35 TFIY   38 (104)
+T ss_dssp             EEEE
+T ss_pred             eEEe
+
+
+No 6
+>1KVZ_A RC-RNase4; antitumor, bullfrog, cytotoxicity,ribonuclease, Structure from; NMR {Rana catesbeiana} SCOP: d.5.1.1
+Probab=6.27  E-value=5.3e+02  Score=9.98  Aligned_cols=4  Identities=75%  Similarity=0.982  Sum_probs=0.0  Template_Neff=7.300
+
+Q LTFIQV            2 TFIQ    5 (6)
+Q Consensus         2 tfiq    5 (6)
+                      |||.
+T Consensus        36 TFIh   39 (107)
+T 1KVZ_A           36 TFIY   39 (107)
+T ss_pred             eeee
+
+
+No 7
+>4K7L_B Ribonuclease pancreatic (E.C.3.1.27.5); HYDROLASE, S-peptide; HET: SO4; 1.38A {Bos taurus}
+Probab=6.26  E-value=5.4e+02  Score=9.88  Aligned_cols=4  Identities=50%  Similarity=1.148  Sum_probs=0.0  Template_Neff=7.400
+
+Q LTFIQV            2 TFIQ    5 (6)
+Q Consensus         2 tfiq    5 (6)
+                      |||.
+T Consensus        25 TFIh   28 (104)
+T 4K7L_B           25 TFVH   28 (104)
+T ss_dssp             EEEC
+T ss_pred             eEee
+
+
+No 8
+>1DY5_B RIBONUCLEASE A (E.C.3.1.27.5); HYDROLASE, RIBONUCLEASE, DEAMIDATION; HET: ACT, IPA, SO4, IAS; 0.87A {BOS TAURUS} SCOP: d.5.1.1
+Probab=5.77  E-value=5.9e+02  Score=9.97  Aligned_cols=4  Identities=50%  Similarity=1.148  Sum_probs=0.0  Template_Neff=7.600
+
+Q LTFIQV            2 TFIQ    5 (6)
+Q Consensus         2 tfiq    5 (6)
+                      |||.
+T Consensus        45 TFIh   48 (124)
+T 1DY5_B           45 TFVH   48 (124)
+T ss_dssp             EEEC
+T ss_pred             eEee
+
+
+No 9
+>2IYI_B APPA, ANTIREPRESSOR OF PPSR, SENSOR; SIGNAL TRANSDUCTION, BLUF; HET: FMN; 2.95A {RHODOBACTER SPHAEROIDES}
+Probab=5.70  E-value=6e+02  Score=10.38  Aligned_cols=5  Identities=40%  Similarity=0.541  Sum_probs=0.0  Template_Neff=6.600
+
+Q LTFIQV            2 TFIQV    6 (6)
+Q Consensus         2 tfiqv    6 (6)
+                      .|+|+
+T Consensus        60 ~F~Q~   64 (124)
+T 2IYI_B           60 VFFQW   64 (124)
+T ss_dssp             EEEEE
+T ss_pred             EEEEE
+
+
+No 10
+>1YRX_B hypothetical protein Rsph03001874; ferredoxin-like fold, flavin binding, photoreceptor; HET: D9G, FMN; 2.3A {Rhodobacter sphaeroides 2.4.1} SCOP: d.58.10.2
+Probab=5.62  E-value=6.1e+02  Score=10.28  Aligned_cols=4  Identities=50%  Similarity=0.675  Sum_probs=0.0  Template_Neff=6.700
+
+Q LTFIQV            3 FIQV    6 (6)
+Q Consensus         3 fiqv    6 (6)
+                      |+|+
+T Consensus        49 FlQ~   52 (121)
+T 1YRX_B           49 FFQW   52 (121)
+T ss_dssp             EEEE
+T ss_pred             EEEE
+
+

@@ -1,0 +1,155 @@
+Query         NYFAIR
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 05:02:13 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NYFAIR/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NYFAIR/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6AAY_A RNP/RNA Complex; Cas13b  62.0     6.8 7.6E-05   22.4   0.0    6    1-6     420-425 (1232)
+  2 6DTD_A nuclease/RNA Complex; N  45.6      19 0.00021   20.4   0.0    6    1-6     361-366 (1127)
+  3 3ZNV_A PROTEIN FAM105B (E.C.3.  35.6      35 0.00039   16.5   0.0    6    1-6      50-55  (275)
+  4 6I9C_A Ubiquitin thioesterase   35.5      35 0.00039   16.5   0.0    6    1-6      50-55  (268)
+  5 6SAK_A OTULIN (E.C.3.4.19.12),  35.4      35 0.00039   16.5   0.0    6    1-6      50-55  (275)
+  6 5ZHU_B Myelin regulatory facto  19.5 1.1E+02  0.0012   13.2   0.0    5    1-5      52-56  (183)
+  7 1KN6_A Prohormone Convertase 1  16.8 1.3E+02  0.0015   11.1   0.0    6    1-6      13-18  (90)
+  8 1M6U_A Ndt80 protein; transcri  16.7 1.4E+02  0.0015   13.7   0.0    5    1-5      54-58  (272)
+  9 3O65_C Putative ataxin-3-like   16.5 1.4E+02  0.0015   13.1   0.0    5    2-6     121-125 (191)
+ 10 3NWH_A Bone marrow stromal ant  15.7 1.5E+02  0.0017   13.4   0.0    5    2-6       3-7   (112)
+
+No 1
+>6AAY_A RNP/RNA Complex; Cas13b, CRISPR, crRNA, Cas, binary; HET: MSE; 2.79A {Bergeyella zoohelcum ATCC 43767}
+Probab=61.97  E-value=6.8  Score=22.37  Aligned_cols=6  Identities=100%  Similarity=1.647  Sum_probs=5.1  Template_Neff=3.500
+
+Q NYFAIR            1 NYFAIR    6 (6)
+Q Consensus         1 nyfair    6 (6)
+                      ||||||
+T Consensus       420 pYFALR  425 (1232)
+T 6AAY_A          420 NYFAIR  425 (1232)
+T ss_dssp             HHHHHH
+T ss_pred             chHHHH
+Confidence            699987
+
+
+No 2
+>6DTD_A nuclease/RNA Complex; Nuclease, HYDROLASE-RNA complex; HET: PG4, CIT; 1.65A {Prevotella buccae}
+Probab=45.59  E-value=19  Score=20.43  Aligned_cols=6  Identities=50%  Similarity=1.193  Sum_probs=4.9  Template_Neff=4.000
+
+Q NYFAIR            1 NYFAIR    6 (6)
+Q Consensus         1 nyfair    6 (6)
+                      +|||+|
+T Consensus       361 pYFaLR  366 (1127)
+T 6DTD_A          361 PYFVLR  366 (1127)
+T ss_dssp             HHHHHH
+T ss_pred             cHHHhh
+Confidence            589887
+
+
+No 3
+>3ZNV_A PROTEIN FAM105B (E.C.3.4.19.12); HYDROLASE; HET: GOL; 1.3A {HOMO SAPIENS}
+Probab=35.57  E-value=35  Score=16.51  Aligned_cols=6  Identities=67%  Similarity=1.148  Sum_probs=4.1  Template_Neff=4.400
+
+Q NYFAIR            1 NYFAIR    6 (6)
+Q Consensus         1 nyfair    6 (6)
+                      ||.|+|
+T Consensus        50 NYcalR   55 (275)
+T 3ZNV_A           50 NYCALR   55 (275)
+T ss_dssp             TTHHHH
+T ss_pred             chHHHH
+Confidence            677766
+
+
+No 4
+>6I9C_A Ubiquitin thioesterase otulin (E.C.3.4.19.12); Met1-specific deubiquitinase, HYDROLASE; HET: GOL; 1.77A {Homo sapiens}
+Probab=35.50  E-value=35  Score=16.45  Aligned_cols=6  Identities=67%  Similarity=1.148  Sum_probs=4.1  Template_Neff=4.400
+
+Q NYFAIR            1 NYFAIR    6 (6)
+Q Consensus         1 nyfair    6 (6)
+                      ||.|+|
+T Consensus        50 NYcalR   55 (268)
+T 6I9C_A           50 NYCALR   55 (268)
+T ss_dssp             TTHHHH
+T ss_pred             chHHHH
+Confidence            677765
+
+
+No 5
+>6SAK_A OTULIN (E.C.3.4.19.12), SNX27; MET1-SPECIFIC DEUBIQUITINASE, HYDROLASE; HET: SO4, GOL; 2.0A {Homo sapiens}
+Probab=35.43  E-value=35  Score=16.50  Aligned_cols=6  Identities=67%  Similarity=1.065  Sum_probs=4.1  Template_Neff=4.400
+
+Q NYFAIR            1 NYFAIR    6 (6)
+Q Consensus         1 nyfair    6 (6)
+                      ||.|+|
+T Consensus        50 NYcalR   55 (275)
+T 6SAK_A           50 NYAALR   55 (275)
+T ss_dssp             TTHHHH
+T ss_pred             chHHHH
+Confidence            677766
+
+
+No 6
+>5ZHU_B Myelin regulatory factor (E.C.3.4.-.-); myelingene regulatory factor, DNA-binding domain; 2.202A {Homo sapiens}
+Probab=19.51  E-value=1.1e+02  Score=13.17  Aligned_cols=5  Identities=40%  Similarity=0.766  Sum_probs=0.0  Template_Neff=6.700
+
+Q NYFAIR            1 NYFAI    5 (6)
+Q Consensus         1 nyfai    5 (6)
+                      |||.+
+T Consensus        52 NyFqv   56 (183)
+T 5ZHU_B           52 NHFQV   56 (183)
+T ss_dssp             SCEEE
+T ss_pred             CcEEE
+
+
+No 7
+>1KN6_A Prohormone Convertase 1 (E.C.3.4.21.93); BETA-ALPHA-BETA-BETA-ALPHA-BETA, HYDROLASE; NMR {Mus musculus} SCOP: d.58.3.3
+Probab=16.81  E-value=1.3e+02  Score=11.12  Aligned_cols=6  Identities=33%  Similarity=0.374  Sum_probs=0.0  Template_Neff=7.600
+
+Q NYFAIR            1 NYFAIR    6 (6)
+Q Consensus         1 nyfair    6 (6)
+                      |+|+++
+T Consensus        13 n~~~V~   18 (90)
+T 1KN6_A           13 NEWAAE   18 (90)
+T ss_dssp             CCEEEE
+T ss_pred             ceEEeE
+
+
+No 8
+>1M6U_A Ndt80 protein; transcription activator, yeast protein, DNA-binding; HET: SO4; 2.3A {Saccharomyces cerevisiae} SCOP: b.2.5.7
+Probab=16.69  E-value=1.4e+02  Score=13.66  Aligned_cols=5  Identities=60%  Similarity=1.464  Sum_probs=0.0  Template_Neff=6.600
+
+Q NYFAIR            1 NYFAI    5 (6)
+Q Consensus         1 nyfai    5 (6)
+                      |||.+
+T Consensus        54 NyFqv   58 (272)
+T 1M6U_A           54 NYFTL   58 (272)
+T ss_dssp             SCEEE
+T ss_pred             ceEEE
+
+
+No 9
+>3O65_C Putative ataxin-3-like protein (E.C.3.1.2.15), Ubiquitin; Papain-like fold, Ubiquitin thiolesterase, hydrolase-protein; HET: MSE, NEH; 2.7A {Homo sapiens}
+Probab=16.54  E-value=1.4e+02  Score=13.12  Aligned_cols=5  Identities=60%  Similarity=1.358  Sum_probs=0.0  Template_Neff=6.300
+
+Q NYFAIR            2 YFAIR    6 (6)
+Q Consensus         2 yfair    6 (6)
+                      +||||
+T Consensus       121 WfaiR  125 (191)
+T 3O65_C          121 WFTIR  125 (191)
+T ss_dssp             EEEEE
+T ss_pred             eEEEE
+
+
+No 10
+>3NWH_A Bone marrow stromal antigen 2; Coiled-coil, innate immunity, ANTIVIRAL PROTEIN; HET: MSE; 2.6A {Homo sapiens}
+Probab=15.68  E-value=1.5e+02  Score=13.37  Aligned_cols=5  Identities=0%  Similarity=-0.449  Sum_probs=0.0  Template_Neff=2.900
+
+Q NYFAIR            2 YFAIR    6 (6)
+Q Consensus         2 yfair    6 (6)
+                      |||++
+T Consensus         3 ~Fav~    7 (112)
+T 3NWH_A            3 DPFTK    7 (112)
+T ss_dssp             -----
+T ss_pred             ccccc
+
+

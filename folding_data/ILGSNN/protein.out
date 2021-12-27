@@ -1,0 +1,150 @@
+Query         ILGSNN
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 08:39:23 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/ILGSNN/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/ILGSNN/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3ZTH_B STU0660; DNA BINDING, C  19.6 1.1E+02  0.0012   13.2   0.0    6    1-6      23-28  (350)
+  2 1CBK_A PYROPHOSPHOKINASE; PYRO  19.5 1.1E+02  0.0012   12.7   0.0    4    2-5       8-11  (160)
+  3 2C1L_A RESTRICTION ENDONUCLEAS  19.3 1.1E+02  0.0012   13.6   0.0    6    1-6     120-125 (358)
+  4 4URJ_D PROTEIN FAM83A; UNKNOWN  18.8 1.1E+02  0.0013   10.8   0.0    6    1-6     134-139 (185)
+  5 5LZK_A FAM83B; domain of unkno  18.2 1.2E+02  0.0013   10.8   0.0    6    1-6     126-131 (180)
+  6 5QHL_A Protein FAM83B; PanDDA,  18.2 1.2E+02  0.0013   10.8   0.0    6    1-6     126-131 (180)
+  7 2CG8_C DIHYDRONEOPTERIN ALDOLA  17.3 1.3E+02  0.0014   13.2   0.0    4    2-5     126-129 (270)
+  8 2CG8_B DIHYDRONEOPTERIN ALDOLA  17.1 1.3E+02  0.0015   13.1   0.0    4    2-5     126-129 (270)
+  9 3AUX_A DNA double-strand break  16.0 1.5E+02  0.0016   11.1   0.0    6    1-6      30-35  (371)
+ 10 3AUY_A DNA double-strand break  15.8 1.5E+02  0.0016   11.1   0.0    6    1-6      30-35  (371)
+
+No 1
+>3ZTH_B STU0660; DNA BINDING, CRISPR, CAS; HET: MSE; 2.4A {STREPTOCOCCUS THERMOPHILUS}
+Probab=19.64  E-value=1.1e+02  Score=13.24  Aligned_cols=6  Identities=67%  Similarity=1.121  Sum_probs=0.0  Template_Neff=9.000
+
+Q ILGSNN            1 ILGSNN    6 (6)
+Q Consensus         1 ilgsnn    6 (6)
+                      |+|.||
+T Consensus        23 liG~N~   28 (350)
+T 3ZTH_B           23 IVGQNN   28 (350)
+T ss_dssp             EECSCH
+T ss_pred             EEcCCh
+
+
+No 2
+>1CBK_A PYROPHOSPHOKINASE; PYROPHOSPHOKINASE, TRANSFERASE; HET: ROI, SO4; 2.02A {Haemophilus influenzae} SCOP: d.58.30.1
+Probab=19.50  E-value=1.1e+02  Score=12.72  Aligned_cols=4  Identities=100%  Similarity=1.381  Sum_probs=0.0  Template_Neff=7.100
+
+Q ILGSNN            2 LGSN    5 (6)
+Q Consensus         2 lgsn    5 (6)
+                      ||||
+T Consensus         8 lGSN   11 (160)
+T 1CBK_A            8 LGSN   11 (160)
+T ss_dssp             EEEC
+T ss_pred             eCCC
+
+
+No 3
+>2C1L_A RESTRICTION ENDONUCLEASE (E.C.3.1.21.4); BFII, RESTRICTION ENDONUCLEASE, DOMAIN FUSION; HET: MES, TAR, GOL, TLA, SRT; 1.9A {BACILLUS FIRMUS}
+Probab=19.33  E-value=1.1e+02  Score=13.56  Aligned_cols=6  Identities=33%  Similarity=0.650  Sum_probs=0.0  Template_Neff=8.400
+
+Q ILGSNN            1 ILGSNN    6 (6)
+Q Consensus         1 ilgsnn    6 (6)
+                      ++||.|
+T Consensus       120 iiGS~N  125 (358)
+T 2C1L_A          120 VVSSGN  125 (358)
+T ss_dssp             EEESCC
+T ss_pred             EEEecc
+
+
+No 4
+>4URJ_D PROTEIN FAM83A; UNKNOWN FUNCTION; HET: EDO; 2.68A {HOMO SAPIENS}
+Probab=18.79  E-value=1.1e+02  Score=10.85  Aligned_cols=6  Identities=33%  Similarity=0.501  Sum_probs=0.0  Template_Neff=11.100
+
+Q ILGSNN            1 ILGSNN    6 (6)
+Q Consensus         1 ilgsnn    6 (6)
+                      ++||.|
+T Consensus       134 ~~gs~n  139 (185)
+T 4URJ_D          134 LSGSYS  139 (185)
+T ss_dssp             EEESCC
+T ss_pred             EEeeec
+
+
+No 5
+>5LZK_A FAM83B; domain of unknown function, Structural; HET: EDO; 1.575A {Homo sapiens}
+Probab=18.16  E-value=1.2e+02  Score=10.79  Aligned_cols=6  Identities=33%  Similarity=0.600  Sum_probs=0.0  Template_Neff=11.000
+
+Q ILGSNN            1 ILGSNN    6 (6)
+Q Consensus         1 ilgsnn    6 (6)
+                      ++||.|
+T Consensus       126 ~~gs~N  131 (180)
+T 5LZK_A          126 MYGSYS  131 (180)
+T ss_dssp             EEESCC
+T ss_pred             EEeecc
+
+
+No 6
+>5QHL_A Protein FAM83B; PanDDA, SGC - Diamond I04-1; HET: GQ7, EDO; 1.68A {Homo sapiens}
+Probab=18.16  E-value=1.2e+02  Score=10.79  Aligned_cols=6  Identities=33%  Similarity=0.600  Sum_probs=0.0  Template_Neff=11.000
+
+Q ILGSNN            1 ILGSNN    6 (6)
+Q Consensus         1 ilgsnn    6 (6)
+                      ++||.|
+T Consensus       126 ~~gs~N  131 (180)
+T 5QHL_A          126 MYGSYS  131 (180)
+T ss_dssp             EEESCC
+T ss_pred             EEeecc
+
+
+No 7
+>2CG8_C DIHYDRONEOPTERIN ALDOLASE 6-HYDROXYMETHYL-7,8-DIHYDROPTERIN SYNTHASE (E.C.4.1.2.25; LYASE/TRANSFERASE, ALDOLASE, FOLATE BIOSYNTHESIS, PYROPHOSPHOKINASE; 2.9A {STREPTOCOCCUS PNEUMONIAE}
+Probab=17.29  E-value=1.3e+02  Score=13.22  Aligned_cols=4  Identities=100%  Similarity=1.381  Sum_probs=0.0  Template_Neff=7.600
+
+Q ILGSNN            2 LGSN    5 (6)
+Q Consensus         2 lgsn    5 (6)
+                      ||||
+T Consensus       126 lGSN  129 (270)
+T 2CG8_C          126 LGSN  129 (270)
+T ss_dssp             EEEC
+T ss_pred             cccc
+
+
+No 8
+>2CG8_B DIHYDRONEOPTERIN ALDOLASE 6-HYDROXYMETHYL-7,8-DIHYDROPTERIN SYNTHASE (E.C.4.1.2.25; LYASE/TRANSFERASE, ALDOLASE, FOLATE BIOSYNTHESIS, PYROPHOSPHOKINASE; 2.9A {STREPTOCOCCUS PNEUMONIAE}
+Probab=17.10  E-value=1.3e+02  Score=13.10  Aligned_cols=4  Identities=100%  Similarity=1.381  Sum_probs=0.0  Template_Neff=7.800
+
+Q ILGSNN            2 LGSN    5 (6)
+Q Consensus         2 lgsn    5 (6)
+                      ||||
+T Consensus       126 lGSN  129 (270)
+T 2CG8_B          126 LGSN  129 (270)
+T ss_dssp             EEEC
+T ss_pred             ecCC
+
+
+No 9
+>3AUX_A DNA double-strand break repair rad50; DNA repair, ABC transporter ATPase; HET: ADP; 2.8A {Methanocaldococcus jannaschii, Methanocaldococcus jannaschii}
+Probab=15.99  E-value=1.5e+02  Score=11.14  Aligned_cols=6  Identities=50%  Similarity=0.988  Sum_probs=0.0  Template_Neff=12.400
+
+Q ILGSNN            1 ILGSNN    6 (6)
+Q Consensus         1 ilgsnn    6 (6)
+                      |+|.|+
+T Consensus        30 iiG~Ng   35 (371)
+T 3AUX_A           30 IIGENG   35 (371)
+T ss_dssp             EECCTT
+T ss_pred             EEcCCC
+
+
+No 10
+>3AUY_A DNA double-strand break repair rad50; DNA repair, ABC transporter ATPase; HET: ADP; 2.7A {Methanocaldococcus jannaschii, Methanocaldococcus jannaschii}
+Probab=15.77  E-value=1.5e+02  Score=11.12  Aligned_cols=6  Identities=50%  Similarity=0.988  Sum_probs=0.0  Template_Neff=12.400
+
+Q ILGSNN            1 ILGSNN    6 (6)
+Q Consensus         1 ilgsnn    6 (6)
+                      |.|.|+
+T Consensus        30 iiG~Ng   35 (371)
+T 3AUY_A           30 IIGENG   35 (371)
+T ss_dssp             EEECTT
+T ss_pred             EECCCC
+
+

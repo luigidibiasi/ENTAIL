@@ -1,0 +1,148 @@
+Query         GVTIIT
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 04:50:55 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GVTIIT/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GVTIIT/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 1I0R_B CONSERVED HYPOTHETICAL    8.1 3.8E+02  0.0042   10.5   0.0    6    1-6      12-17  (169)
+  2 1I0S_A CONSERVED HYPOTHETICAL    8.1 3.8E+02  0.0042   10.5   0.0    6    1-6      12-17  (169)
+  3 3DWU_A Elongation factor Tu-B;   8.1 3.8E+02  0.0042    7.3   0.0    4    1-4      41-44  (46)
+  4 5ZYR_B p-hydroxyphenylacetate    6.9 4.7E+02  0.0052   10.8   0.0    6    1-6      29-34  (315)
+  5 3TND_A tRNA(fMet)-specific end   6.9 4.7E+02  0.0053    8.7   0.0    6    1-6     109-114 (132)
+  6 2LU2_A H4, putative; Micronema   6.6   5E+02  0.0055   12.4   0.0    5    1-5     100-104 (138)
+  7 2CU9_A Histone chaperone cia1;   6.0 5.6E+02  0.0062   11.5   0.0    5    1-5      92-96  (161)
+  8 1YOA_A putative flavoprotein;    6.0 5.7E+02  0.0063    9.8   0.0    6    1-6      16-21  (159)
+  9 2H1C_A Trafficking protein B,    5.9 5.8E+02  0.0064    8.7   0.0    6    1-6     115-120 (139)
+ 10 6A7V_A Ribonuclease VapC11 (E.   5.8 5.8E+02  0.0065    8.9   0.0    6    1-6     114-119 (139)
+
+No 1
+>1I0R_B CONSERVED HYPOTHETICAL PROTEIN; six stranded antiparallel beta-barrel, FMN; HET: FMN; 1.5A {Archaeoglobus fulgidus} SCOP: b.45.1.2
+Probab=8.07  E-value=3.8e+02  Score=10.52  Aligned_cols=6  Identities=50%  Similarity=0.894  Sum_probs=0.0  Template_Neff=8.700
+
+Q GVTIIT            1 GVTIIT    6 (6)
+Q Consensus         1 gvtiit    6 (6)
+                      +|.|||
+T Consensus        12 ~v~ivt   17 (169)
+T 1I0R_B           12 GLYIVT   17 (169)
+T ss_dssp             BCEEEE
+T ss_pred             ceEEEE
+
+
+No 2
+>1I0S_A CONSERVED HYPOTHETICAL PROTEIN; six stranded antiparallel beta-barrel, FMN; HET: NAP, FMN; 1.65A {Archaeoglobus fulgidus} SCOP: b.45.1.2
+Probab=8.07  E-value=3.8e+02  Score=10.52  Aligned_cols=6  Identities=50%  Similarity=0.894  Sum_probs=0.0  Template_Neff=8.700
+
+Q GVTIIT            1 GVTIIT    6 (6)
+Q Consensus         1 gvtiit    6 (6)
+                      +|.|||
+T Consensus        12 ~v~ivt   17 (169)
+T 1I0S_A           12 GLYIVT   17 (169)
+T ss_dssp             BCEEEE
+T ss_pred             ceEEEE
+
+
+No 3
+>3DWU_A Elongation factor Tu-B; Transition state, conserved switch I; 12.6A {Thermus thermophilus HB8}
+Probab=8.06  E-value=3.8e+02  Score=7.27  Aligned_cols=4  Identities=75%  Similarity=1.348  Sum_probs=0.0  Template_Neff=10.700
+
+Q GVTIIT            1 GVTI    4 (6)
+Q Consensus         1 gvti    4 (6)
+                      |+||
+T Consensus        41 giti   44 (46)
+T 3DWU_A           41 GITI   44 (46)
+T ss_pred             CCCC
+
+
+No 4
+>5ZYR_B p-hydroxyphenylacetate 3-hydroxylase, reductase component (E.C.1.5.1.36); Reductase, Monooxygenase, Acinetobacter baumannii, FLAVOPROTEIN; HET: FMN, ACT; 2.20001320062A {Acinetobacter baumannii}
+Probab=6.91  E-value=4.7e+02  Score=10.83  Aligned_cols=6  Identities=83%  Similarity=1.193  Sum_probs=0.0  Template_Neff=9.800
+
+Q GVTIIT            1 GVTIIT    6 (6)
+Q Consensus         1 gvtiit    6 (6)
+                      +|+|||
+T Consensus        29 ~v~vvt   34 (315)
+T 5ZYR_B           29 GVTIMT   34 (315)
+T ss_dssp             ECEEEE
+T ss_pred             ceEEEE
+
+
+No 5
+>3TND_A tRNA(fMet)-specific endonuclease VapC (E.C.3.1.-.-), Antitoxin; PIN domain, SpoVT/AbrB-like domain, Ribonuclease; HET: SO4; 2.7A {Shigella flexneri}
+Probab=6.87  E-value=4.7e+02  Score=8.71  Aligned_cols=6  Identities=50%  Similarity=0.966  Sum_probs=0.0  Template_Neff=11.100
+
+Q GVTIIT            1 GVTIIT    6 (6)
+Q Consensus         1 gvtiit    6 (6)
+                      |++|+|
+T Consensus       109 ~~~ivT  114 (132)
+T 3TND_A          109 GLIIVT  114 (132)
+T ss_dssp             TCEEEE
+T ss_pred             CCEEEe
+
+
+No 6
+>2LU2_A H4, putative; Micronemal Protein 5, invasion, pathogenesis; NMR {Toxoplasma gondii}
+Probab=6.59  E-value=5e+02  Score=12.38  Aligned_cols=5  Identities=80%  Similarity=1.265  Sum_probs=0.0  Template_Neff=1.500
+
+Q GVTIIT            1 GVTII    5 (6)
+Q Consensus         1 gvtii    5 (6)
+                      |||.|
+T Consensus       100 GVTmI  104 (138)
+T 2LU2_A          100 GVTMI  104 (138)
+T ss_dssp             TEEEE
+T ss_pred             ceeee
+
+
+No 7
+>2CU9_A Histone chaperone cia1; immunoglobulin fold, Structural Genomics, NPPSFA; 1.8A {Schizosaccharomyces pombe} SCOP: b.1.22.1
+Probab=6.03  E-value=5.6e+02  Score=11.53  Aligned_cols=5  Identities=80%  Similarity=1.305  Sum_probs=0.0  Template_Neff=5.100
+
+Q GVTIIT            1 GVTII    5 (6)
+Q Consensus         1 gvtii    5 (6)
+                      |||+|
+T Consensus        92 GvTvi   96 (161)
+T 2CU9_A           92 GVTVI   96 (161)
+T ss_dssp             EEEEE
+T ss_pred             hheEE
+
+
+No 8
+>1YOA_A putative flavoprotein; flavoprotein, HB8, FAD, Structural Genomics; HET: FAD, FMN; 1.9A {Thermus thermophilus} SCOP: b.45.1.2
+Probab=5.99  E-value=5.7e+02  Score=9.82  Aligned_cols=6  Identities=33%  Similarity=0.827  Sum_probs=0.0  Template_Neff=9.000
+
+Q GVTIIT            1 GVTIIT    6 (6)
+Q Consensus         1 gvtiit    6 (6)
+                      +|.+|+
+T Consensus        16 ~v~vit   21 (159)
+T 1YOA_A           16 GLYVLT   21 (159)
+T ss_dssp             BCEEEE
+T ss_pred             ceEEEE
+
+
+No 9
+>2H1C_A Trafficking protein B, Trafficking protein; DNA binding, PIN domain, RHH; HET: SO4; 1.8A {Neisseria gonorrhoeae} SCOP: c.120.1.1
+Probab=5.92  E-value=5.8e+02  Score=8.69  Aligned_cols=6  Identities=33%  Similarity=0.529  Sum_probs=0.0  Template_Neff=10.900
+
+Q GVTIIT            1 GVTIIT    6 (6)
+Q Consensus         1 gvtiit    6 (6)
+                      |++|+|
+T Consensus       115 ~~~ivT  120 (139)
+T 2H1C_A          115 SLTVAT  120 (139)
+T ss_pred             CCCEEE
+
+
+No 10
+>6A7V_A Ribonuclease VapC11 (E.C.3.1.-.-), Antitoxin VapB11; VapBC, Endoribonuclease, tRNase, Rv1560-Rv1561, TOXIN; HET: SO4, 1PE; 1.67A {Mycobacterium tuberculosis H37Rv}
+Probab=5.84  E-value=5.8e+02  Score=8.86  Aligned_cols=6  Identities=33%  Similarity=0.739  Sum_probs=0.0  Template_Neff=10.500
+
+Q GVTIIT            1 GVTIIT    6 (6)
+Q Consensus         1 gvtiit    6 (6)
+                      |++++|
+T Consensus       114 ~~~liT  119 (139)
+T 6A7V_A          114 GARIVH  119 (139)
+T ss_dssp             TCEEEE
+T ss_pred             CCEEEe
+
+

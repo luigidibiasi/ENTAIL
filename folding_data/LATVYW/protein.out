@@ -1,0 +1,220 @@
+Query         LATVYW
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 17:12:21 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LATVYW/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LATVYW/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5TPG_A Tryptophan 5-hydroxylas  40.1      27  0.0003   16.8   0.0    6    1-6     205-210 (307)
+  2 5JK5_A Phenylalanine-4-hydroxy  39.9      27  0.0003   17.1   0.0    6    1-6     332-337 (438)
+  3 5JK6_A Phenylalanine-4-hydroxy  39.9      27  0.0003   17.1   0.0    6    1-6     332-337 (438)
+  4 5L01_A Tryptophan 5-hydroxylas  39.6      27  0.0003   17.2   0.0    6    1-6     308-313 (444)
+  5 3E2T_A Tryptophan 5-hydroxylas  38.2      30 0.00033   16.7   0.0    6    1-6     209-214 (314)
+  6 1DMW_A PHENYLALANINE HYDROXYLA  37.2      32 0.00035   16.5   0.0    6    1-6     204-209 (307)
+  7 4V06_A TRYPTOPHAN 5-HYDROXYLAS  37.0      32 0.00036   16.8   0.0    6    1-6     213-218 (349)
+  8 5PAH_A PHENYLALANINE 4-MONOOXY  36.9      32 0.00036   16.5   0.0    6    1-6     205-210 (308)
+  9 1J8U_A PHENYLALANINE-4-HYDROXY  36.5      33 0.00037   16.6   0.0    6    1-6     219-224 (325)
+ 10 2XSN_D TYROSINE 3-MONOOXYGENAS  34.1      38 0.00042   16.5   0.0    6    1-6     205-210 (343)
+ 11 2XSN_C TYROSINE 3-MONOOXYGENAS  34.1      39 0.00043   16.5   0.0    6    1-6     205-210 (343)
+ 12 6HPO_A Phenylalanine-4-hydroxy  33.3      41 0.00045   16.8   0.0    6    1-6     321-326 (452)
+ 13 5FGJ_A Phenylalanine-4-hydroxy  31.1      46 0.00051   16.5   0.0    6    1-6     321-326 (453)
+ 14 2TOH_A TYROSINE 3-MONOOXYGENAS  29.9      50 0.00056   16.1   0.0    6    1-6     212-217 (343)
+
+No 1
+>5TPG_A Tryptophan 5-hydroxylase 1 (E.C.1.14.16.4); TPH1, Iron, acyl, quanidine, OXIDOREDUCTASE-INHIBITOR; HET: 7H5; 1.5A {Homo sapiens}
+Probab=40.09  E-value=27  Score=16.78  Aligned_cols=6  Identities=67%  Similarity=1.126  Sum_probs=4.2  Template_Neff=5.100
+
+Q LATVYW            1 LATVYW    6 (6)
+Q Consensus         1 latvyw    6 (6)
+                      |+++||
+T Consensus       205 LarlYW  210 (307)
+T 5TPG_A          205 LATCYF  210 (307)
+T ss_dssp             HHHHHC
+T ss_pred             HHHHHH
+Confidence            467787
+
+
+No 2
+>5JK5_A Phenylalanine-4-hydroxylase (E.C.1.14.16.1,1.14.16.4); phenylalanine hydroxylase, Dictyostelium, enzyme regulation; HET: PIN, HBI; 2.071A {Dictyostelium discoideum}
+Probab=39.86  E-value=27  Score=17.14  Aligned_cols=6  Identities=67%  Similarity=1.641  Sum_probs=4.4  Template_Neff=5.800
+
+Q LATVYW            1 LATVYW    6 (6)
+Q Consensus         1 latvyw    6 (6)
+                      |+++||
+T Consensus       332 L~rlyW  337 (438)
+T 5JK5_A          332 LSTCYW  337 (438)
+T ss_dssp             HHHHHC
+T ss_pred             HHHHHH
+Confidence            567787
+
+
+No 3
+>5JK6_A Phenylalanine-4-hydroxylase (E.C.1.14.16.1,1.14.16.4); Phenyalanine hydroxylase, Dictyostelium, enzyme regulation; HET: PIN; 2.072A {Dictyostelium discoideum}
+Probab=39.86  E-value=27  Score=17.14  Aligned_cols=6  Identities=67%  Similarity=1.641  Sum_probs=4.4  Template_Neff=5.800
+
+Q LATVYW            1 LATVYW    6 (6)
+Q Consensus         1 latvyw    6 (6)
+                      |+++||
+T Consensus       332 L~rlyW  337 (438)
+T 5JK6_A          332 LSTCYW  337 (438)
+T ss_dssp             HHHHHC
+T ss_pred             HHHHHH
+Confidence            567787
+
+
+No 4
+>5L01_A Tryptophan 5-hydroxylase 1 (E.C.1.14.16.4); TPH1, Iron, acyl, quanidine, OXIDOREDUCTASE-INHIBITOR; HET: 6Z4; 1.9A {Homo sapiens}
+Probab=39.65  E-value=27  Score=17.20  Aligned_cols=6  Identities=67%  Similarity=1.126  Sum_probs=4.4  Template_Neff=5.700
+
+Q LATVYW            1 LATVYW    6 (6)
+Q Consensus         1 latvyw    6 (6)
+                      |+++||
+T Consensus       308 L~rlyW  313 (444)
+T 5L01_A          308 LATCYF  313 (444)
+T ss_dssp             HHHHHC
+T ss_pred             HHHHHH
+Confidence            567887
+
+
+No 5
+>3E2T_A Tryptophan 5-hydroxylase 1 (E.C.1.14.16.4); aromatic amino acid hydroxylase tryptophan; HET: TRP, PGE; 1.9A {Gallus gallus}
+Probab=38.20  E-value=30  Score=16.67  Aligned_cols=6  Identities=67%  Similarity=1.126  Sum_probs=4.2  Template_Neff=5.100
+
+Q LATVYW            1 LATVYW    6 (6)
+Q Consensus         1 latvyw    6 (6)
+                      |+++||
+T Consensus       209 L~rlYW  214 (314)
+T 3E2T_A          209 LATCYF  214 (314)
+T ss_dssp             HHHHHC
+T ss_pred             HHHHHH
+Confidence            467787
+
+
+No 6
+>1DMW_A PHENYLALANINE HYDROXYLASE (E.C.1.14.16.1); IRON ENZYME, 7, 8-DIHYDRO-L-BIOPTERIN, COFACTOR; HET: HBI; 2.0A {Homo sapiens} SCOP: d.178.1.1
+Probab=37.19  E-value=32  Score=16.50  Aligned_cols=6  Identities=83%  Similarity=1.885  Sum_probs=4.2  Template_Neff=5.200
+
+Q LATVYW            1 LATVYW    6 (6)
+Q Consensus         1 latvyw    6 (6)
+                      |+++||
+T Consensus       204 LarlYW  209 (307)
+T 1DMW_A          204 LATIYW  209 (307)
+T ss_dssp             HHHHHC
+T ss_pred             HHHHHH
+Confidence            467777
+
+
+No 7
+>4V06_A TRYPTOPHAN 5-HYDROXYLASE 2 (E.C.1.14.16.4); OXIDOREDUCTASE; HET: IMD; 2.63A {HOMO SAPIENS}
+Probab=36.96  E-value=32  Score=16.84  Aligned_cols=6  Identities=67%  Similarity=1.126  Sum_probs=4.3  Template_Neff=5.000
+
+Q LATVYW            1 LATVYW    6 (6)
+Q Consensus         1 latvyw    6 (6)
+                      |+++||
+T Consensus       213 LarlYW  218 (349)
+T 4V06_A          213 LATCYF  218 (349)
+T ss_dssp             HHHHHC
+T ss_pred             HHHHHH
+Confidence            467787
+
+
+No 8
+>5PAH_A PHENYLALANINE 4-MONOOXYGENASE, L-DOPAMINE; NON-HEME IRON-CONTAINING MONOOXYGENASE, OXIDOREDUCTASE, MONOOXYGENASE; HET: LDP; 2.1A {Homo sapiens} SCOP: d.178.1.1
+Probab=36.89  E-value=32  Score=16.48  Aligned_cols=6  Identities=83%  Similarity=1.885  Sum_probs=4.2  Template_Neff=5.200
+
+Q LATVYW            1 LATVYW    6 (6)
+Q Consensus         1 latvyw    6 (6)
+                      |+++||
+T Consensus       205 L~rlyW  210 (308)
+T 5PAH_A          205 LATIYW  210 (308)
+T ss_dssp             HHHHHC
+T ss_pred             HHHHHH
+Confidence            467777
+
+
+No 9
+>1J8U_A PHENYLALANINE-4-HYDROXYLASE (E.C.1.14.16.1); ferrous iron, 2-His-1-carboxylate facial triad; HET: H4B; 1.5A {Homo sapiens} SCOP: d.178.1.1
+Probab=36.53  E-value=33  Score=16.56  Aligned_cols=6  Identities=83%  Similarity=1.885  Sum_probs=4.2  Template_Neff=5.200
+
+Q LATVYW            1 LATVYW    6 (6)
+Q Consensus         1 latvyw    6 (6)
+                      |+++||
+T Consensus       219 L~rlYW  224 (325)
+T 1J8U_A          219 LATIYW  224 (325)
+T ss_dssp             HHHHHC
+T ss_pred             HHHHHH
+Confidence            467777
+
+
+No 10
+>2XSN_D TYROSINE 3-MONOOXYGENASE (E.C.1.14.16.2); OXIDOREDUCTASE; 2.68A {HOMO SAPIENS}
+Probab=34.14  E-value=38  Score=16.52  Aligned_cols=6  Identities=67%  Similarity=1.741  Sum_probs=4.2  Template_Neff=5.100
+
+Q LATVYW            1 LATVYW    6 (6)
+Q Consensus         1 latvyw    6 (6)
+                      |+++||
+T Consensus       205 LarlyW  210 (343)
+T 2XSN_D          205 LSTLYW  210 (343)
+T ss_dssp             HHHHHC
+T ss_pred             HHHHHH
+Confidence            467777
+
+
+No 11
+>2XSN_C TYROSINE 3-MONOOXYGENASE (E.C.1.14.16.2); OXIDOREDUCTASE; 2.68A {HOMO SAPIENS}
+Probab=34.08  E-value=39  Score=16.51  Aligned_cols=6  Identities=67%  Similarity=1.741  Sum_probs=4.2  Template_Neff=5.100
+
+Q LATVYW            1 LATVYW    6 (6)
+Q Consensus         1 latvyw    6 (6)
+                      |+++||
+T Consensus       205 LarlyW  210 (343)
+T 2XSN_C          205 LSTLYW  210 (343)
+T ss_dssp             HHHHHC
+T ss_pred             HHHHHH
+Confidence            467777
+
+
+No 12
+>6HPO_A Phenylalanine-4-hydroxylase (E.C.1.14.16.1); Tetrahydrobiopterin, amino acid hydroxylases, phenylketonuria; 1.67A {Homo sapiens}
+Probab=33.25  E-value=41  Score=16.75  Aligned_cols=6  Identities=83%  Similarity=1.885  Sum_probs=4.3  Template_Neff=5.600
+
+Q LATVYW            1 LATVYW    6 (6)
+Q Consensus         1 latvyw    6 (6)
+                      |+++||
+T Consensus       321 L~rlyW  326 (452)
+T 6HPO_A          321 LATIYW  326 (452)
+T ss_dssp             HHHHHC
+T ss_pred             HHHHHH
+Confidence            467787
+
+
+No 13
+>5FGJ_A Phenylalanine-4-hydroxylase (E.C.1.14.16.1); phenylketonuria, PKU mutation, allostery, ACT; 3.6A {Rattus norvegicus}
+Probab=31.13  E-value=46  Score=16.52  Aligned_cols=6  Identities=83%  Similarity=1.885  Sum_probs=4.2  Template_Neff=5.700
+
+Q LATVYW            1 LATVYW    6 (6)
+Q Consensus         1 latvyw    6 (6)
+                      |+++||
+T Consensus       321 L~rlyW  326 (453)
+T 5FGJ_A          321 LATIYW  326 (453)
+T ss_dssp             HHHHHC
+T ss_pred             HHHHHH
+Confidence            467777
+
+
+No 14
+>2TOH_A TYROSINE 3-MONOOXYGENASE, 7,8-DIHYDROBIOPTERIN; HYDROXYLASE, NEUROTRANSMITTER BIOSYNTHESIS, NON-HEME IRON; HET: MTY, HBI; 2.3A {Rattus norvegicus} SCOP: d.178.1.1
+Probab=29.87  E-value=50  Score=16.10  Aligned_cols=6  Identities=83%  Similarity=1.830  Sum_probs=4.0  Template_Neff=5.200
+
+Q LATVYW            1 LATVYW    6 (6)
+Q Consensus         1 latvyw    6 (6)
+                      |+++||
+T Consensus       212 L~rlyW  217 (343)
+T 2TOH_A          212 LSTVYW  217 (343)
+T ss_dssp             HHHHHC
+T ss_pred             HHHHHH
+Confidence            466777
+
+

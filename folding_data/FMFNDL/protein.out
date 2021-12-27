@@ -1,0 +1,157 @@
+Query         FMFNDL
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 21:30:44 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/FMFNDL/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/FMFNDL/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6BTC_A LP1413 - SCCmec type IV  69.4     3.9 4.3E-05   17.7   0.0    6    1-6      28-33  (96)
+  2 1UCR_A Protein dsvD; dissimila  54.9      11 0.00012   15.7   0.0    6    1-6      22-27  (78)
+  3 1UCR_B Protein dsvD; dissimila  48.3      16 0.00018   15.2   0.0    6    1-6      22-27  (78)
+  4 4C0A_B IQ MOTIF AND SEC7 DOMAI  38.8      29 0.00032   15.1   0.0    6    1-6     277-282 (383)
+  5 4N6Q_A VosA; Ig-fold, NFKB, be  30.9      47 0.00052   14.1   0.0    6    1-6     116-121 (200)
+  6 6VKL_H Exocyst complex compone  25.0      70 0.00078   16.1   0.0    6    1-6     371-376 (753)
+  7 4N6R_B VosA, VelB; Ig-fold, tr  21.9      88 0.00098   15.2   0.0    6    1-6     260-265 (377)
+  8 1QC7_A T. MARITIMA FLIG C-TERM  21.1      94   0.001   11.8   0.0    6    1-6       2-7   (101)
+  9 4XH9_D Neuroepithelial cell-tr  20.0   1E+02  0.0011   12.4   0.0    6    1-6     258-263 (361)
+ 10 1TXD_A Rho guanine nucleotide   19.9   1E+02  0.0011   12.5   0.0    6    1-6     278-283 (385)
+
+No 1
+>6BTC_A LP1413 - SCCmec type IV-encoded; DNA binding protein; HET: MSE; 2.17740739208A {Staphylococcus aureus}
+Probab=69.39  E-value=3.9  Score=17.71  Aligned_cols=6  Identities=33%  Similarity=1.032  Sum_probs=4.4  Template_Neff=3.000
+
+Q FMFNDL            1 FMFNDL    6 (6)
+Q Consensus         1 fmfndl    6 (6)
+                      |.||||
+T Consensus        28 Ftf~DL   33 (96)
+T 6BTC_A           28 FTYGEL   33 (96)
+T ss_dssp             ECHHHH
+T ss_pred             EEeccc
+Confidence            678876
+
+
+No 2
+>1UCR_A Protein dsvD; dissimilatory sulfite reductase D, DNA; HET: SO4; 1.2A {Desulfovibrio vulgaris} SCOP: a.4.5.45
+Probab=54.92  E-value=11  Score=15.69  Aligned_cols=6  Identities=67%  Similarity=1.348  Sum_probs=3.9  Template_Neff=3.600
+
+Q FMFNDL            1 FMFNDL    6 (6)
+Q Consensus         1 fmfndl    6 (6)
+                      |+|||+
+T Consensus        22 fYfkD~   27 (78)
+T 1UCR_A           22 FYFNDF   27 (78)
+T ss_dssp             EEHHHH
+T ss_pred             hhHhhH
+Confidence            567774
+
+
+No 3
+>1UCR_B Protein dsvD; dissimilatory sulfite reductase D, DNA; HET: SO4; 1.2A {Desulfovibrio vulgaris} SCOP: a.4.5.45
+Probab=48.34  E-value=16  Score=15.19  Aligned_cols=6  Identities=67%  Similarity=1.348  Sum_probs=3.8  Template_Neff=3.600
+
+Q FMFNDL            1 FMFNDL    6 (6)
+Q Consensus         1 fmfndl    6 (6)
+                      |+|+|+
+T Consensus        22 fYfkD~   27 (78)
+T 1UCR_B           22 FYFNDF   27 (78)
+T ss_dssp             EEHHHH
+T ss_pred             hhHhhH
+Confidence            567764
+
+
+No 4
+>4C0A_B IQ MOTIF AND SEC7 DOMAIN-CONTAINING; PROTEIN TRANSPORT, ENDOCYTOSIS; HET: G3D; 3.3A {BOS TAURUS}
+Probab=38.80  E-value=29  Score=15.07  Aligned_cols=6  Identities=83%  Similarity=1.625  Sum_probs=3.5  Template_Neff=8.900
+
+Q FMFNDL            1 FMFNDL    6 (6)
+Q Consensus         1 fmfndl    6 (6)
+                      |+|||+
+T Consensus       277 fLFnD~  282 (383)
+T 4C0A_B          277 FLFNDL  282 (383)
+T ss_dssp             EEESSE
+T ss_pred             Eecccc
+Confidence            456663
+
+
+No 5
+>4N6Q_A VosA; Ig-fold, NFKB, beta-sandwich, transcription factor; 1.79A {Emericella nidulans}
+Probab=30.87  E-value=47  Score=14.11  Aligned_cols=6  Identities=50%  Similarity=1.182  Sum_probs=3.2  Template_Neff=7.200
+
+Q FMFNDL            1 FMFNDL    6 (6)
+Q Consensus         1 fmfndl    6 (6)
+                      |.|.||
+T Consensus       116 FvF~DL  121 (200)
+T 4N6Q_A          116 FVWGDL  121 (200)
+T ss_dssp             EECSSE
+T ss_pred             EEcCce
+Confidence            455554
+
+
+No 6
+>6VKL_H Exocyst complex component SEC3, Exocyst; EXOCYST, COILED-COIL, EXOCYTOSIS; 4.4A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=24.97  E-value=70  Score=16.14  Aligned_cols=6  Identities=67%  Similarity=1.331  Sum_probs=3.9  Template_Neff=7.300
+
+Q FMFNDL            1 FMFNDL    6 (6)
+Q Consensus         1 fmfndl    6 (6)
+                      |+|||+
+T Consensus       371 fLFND~  376 (753)
+T 6VKL_H          371 FILNDL  376 (753)
+T ss_dssp             EECSSE
+T ss_pred             EEcCCE
+Confidence            567774
+
+
+No 7
+>4N6R_B VosA, VelB; Ig-fold, transcription factor, DNA BINDING; 2.2A {Emericella nidulans}
+Probab=21.89  E-value=88  Score=15.19  Aligned_cols=6  Identities=50%  Similarity=1.110  Sum_probs=3.5  Template_Neff=5.900
+
+Q FMFNDL            1 FMFNDL    6 (6)
+Q Consensus         1 fmfndl    6 (6)
+                      |.|.||
+T Consensus       260 FvF~DL  265 (377)
+T 4N6R_B          260 FVLQDL  265 (377)
+T ss_dssp             EECCCE
+T ss_pred             EecCCc
+Confidence            556664
+
+
+No 8
+>1QC7_A T. MARITIMA FLIG C-TERMINAL DOMAIN; FLAGELLAR MOTOR SWITCH PROTEIN, STRUCTURAL; 2.2A {Thermotoga maritima} SCOP: a.118.14.1
+Probab=21.11  E-value=94  Score=11.75  Aligned_cols=6  Identities=50%  Similarity=1.331  Sum_probs=2.7  Template_Neff=7.600
+
+Q FMFNDL            1 FMFNDL    6 (6)
+Q Consensus         1 fmfndl    6 (6)
+                      |-|+||
+T Consensus         2 ftfedl    7 (101)
+T 1QC7_A            2 FVFEDI    7 (101)
+T ss_dssp             CCGGGG
+T ss_pred             ccHHHH
+Confidence            345553
+
+
+No 9
+>4XH9_D Neuroepithelial cell-transforming gene 1 protein; RHOA GTPASE, SIGNALING PROTEIN, ACTIVATOR; 2.0A {Homo sapiens}
+Probab=19.96  E-value=1e+02  Score=12.41  Aligned_cols=6  Identities=50%  Similarity=1.386  Sum_probs=0.0  Template_Neff=10.700
+
+Q FMFNDL            1 FMFNDL    6 (6)
+Q Consensus         1 fmfndl    6 (6)
+                      |.|||.
+T Consensus       258 fLf~d~  263 (361)
+T 4XH9_D          258 FLFQDI  263 (361)
+T ss_pred             EEeCCE
+
+
+No 10
+>1TXD_A Rho guanine nucleotide exchange factor; helical bundle (DH), beta sandwich; 2.13A {Homo sapiens} SCOP: a.87.1.1, b.55.1.1
+Probab=19.94  E-value=1e+02  Score=12.48  Aligned_cols=6  Identities=17%  Similarity=0.844  Sum_probs=0.0  Template_Neff=10.800
+
+Q FMFNDL            1 FMFNDL    6 (6)
+Q Consensus         1 fmfndl    6 (6)
+                      |.|||.
+T Consensus       278 fLf~d~  283 (385)
+T 1TXD_A          278 LLLEDI  283 (385)
+T ss_dssp             EEESSE
+T ss_pred             EEecCE
+
+

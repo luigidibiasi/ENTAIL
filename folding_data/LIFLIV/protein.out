@@ -1,0 +1,149 @@
+Query         LIFLIV
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 18:27:18 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LIFLIV/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LIFLIV/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 7BR8_Y Small capsomere-interac  23.8      76 0.00085   15.3   0.0    6    1-6      48-53  (176)
+  2 7BSI_J Small capsomere-interac  23.8      76 0.00085   15.3   0.0    6    1-6      48-53  (176)
+  3 6PPD_2 Small capsomere-interac  22.2      86 0.00096   15.0   0.0    6    1-6      49-54  (170)
+  4 5CV1_A P granule abnormality p  11.2 2.5E+02  0.0027   14.1   0.0    6    1-6      61-66  (243)
+  5 2GO5_1 signal receptor protein  11.0 2.5E+02  0.0028   12.1   0.0    6    1-6      73-78  (185)
+  6 5CK3_A SRX domain, Putative si  10.8 2.6E+02  0.0028   12.2   0.0    6    1-6      84-89  (181)
+  7 1OSY_A IMMUNOMODULATORY PROTEI  10.8 2.6E+02  0.0028   12.2   0.0    6    1-6       6-11  (115)
+  8 6TKL_I Prothrombin (E.C.3.4.21  10.2 2.8E+02  0.0031   11.4   0.0    6    1-6      13-18  (53)
+  9 5O4U_F Flagellin; archaellar f   9.7   3E+02  0.0033   11.4   0.0    6    1-6      12-17  (212)
+ 10 5CK3_E SRX domain, Putative si   9.7   3E+02  0.0033   12.0   0.0    6    1-6      84-89  (181)
+
+No 1
+>7BR8_Y Small capsomere-interacting protein, Major capsid; C5 penton vertex, CATC absent; 3.8A {Epstein-Barr virus (strain B95-8)}
+Probab=23.80  E-value=76  Score=15.31  Aligned_cols=6  Identities=50%  Similarity=0.916  Sum_probs=3.8  Template_Neff=2.200
+
+Q LIFLIV            1 LIFLIV    6 (6)
+Q Consensus         1 lifliv    6 (6)
+                      |+|||+
+T Consensus        48 LVFLtA   53 (176)
+T 7BR8_Y           48 LVFLTS   53 (176)
+T ss_pred             HHHHhH
+Confidence            577763
+
+
+No 2
+>7BSI_J Small capsomere-interacting protein, Major capsid; tegumented capsid, icosahedral reconstruction, VIRUS; 4.1A {Epstein-Barr virus (strain B95-8)}
+Probab=23.80  E-value=76  Score=15.31  Aligned_cols=6  Identities=50%  Similarity=0.916  Sum_probs=3.8  Template_Neff=2.200
+
+Q LIFLIV            1 LIFLIV    6 (6)
+Q Consensus         1 lifliv    6 (6)
+                      |+|||+
+T Consensus        48 LVFLtA   53 (176)
+T 7BSI_J           48 LVFLTS   53 (176)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHhH
+Confidence            577763
+
+
+No 3
+>6PPD_2 Small capsomere-interacting protein, Major capsid; capsid, tegument, vertex, complex, VIRUS;{Human herpesvirus 8}
+Probab=22.16  E-value=86  Score=15.01  Aligned_cols=6  Identities=67%  Similarity=1.231  Sum_probs=3.8  Template_Neff=2.500
+
+Q LIFLIV            1 LIFLIV    6 (6)
+Q Consensus         1 lifliv    6 (6)
+                      |+|||+
+T Consensus        49 LVFLtA   54 (170)
+T 6PPD_2           49 LVFLIA   54 (170)
+T ss_pred             HHHHHH
+Confidence            567763
+
+
+No 4
+>5CV1_A P granule abnormality protein 1; guanosine endonuclease, dimer, P-granule, HYDROLASE; 3.599A {Caenorhabditis elegans}
+Probab=11.18  E-value=2.5e+02  Score=14.06  Aligned_cols=6  Identities=83%  Similarity=1.298  Sum_probs=0.0  Template_Neff=3.200
+
+Q LIFLIV            1 LIFLIV    6 (6)
+Q Consensus         1 lifliv    6 (6)
+                      |+||||
+T Consensus        61 L~FLiv   66 (243)
+T 5CV1_A           61 LFFLIV   66 (243)
+T ss_dssp             HHHHHH
+T ss_pred             hhhHHH
+
+
+No 5
+>2GO5_1 signal receptor proteins/RNA Complex; SR, SRP, RIBOSOME, TRANSLATION-RNA COMPLEX; 7.4A {Canis sp.} SCOP: d.110.4.4
+Probab=11.01  E-value=2.5e+02  Score=12.08  Aligned_cols=6  Identities=33%  Similarity=0.872  Sum_probs=0.0  Template_Neff=6.800
+
+Q LIFLIV            1 LIFLIV    6 (6)
+Q Consensus         1 lifliv    6 (6)
+                      |||.+|
+T Consensus        73 LVFVav   78 (185)
+T 2GO5_1           73 LVFVVG   78 (185)
+T ss_pred             eEEEEE
+
+
+No 6
+>5CK3_A SRX domain, Putative signal recognition; GTPase, Longin domain, regulator complex; HET: GOL, GTP; 3.2A {Chaetomium thermophilum}
+Probab=10.83  E-value=2.6e+02  Score=12.19  Aligned_cols=6  Identities=50%  Similarity=1.010  Sum_probs=0.0  Template_Neff=6.400
+
+Q LIFLIV            1 LIFLIV    6 (6)
+Q Consensus         1 lifliv    6 (6)
+                      |+|.+|
+T Consensus        84 LVFVvv   89 (181)
+T 5CK3_A           84 IIFVAV   89 (181)
+T ss_dssp             EEEEEC
+T ss_pred             eEEEEE
+
+
+No 7
+>1OSY_A IMMUNOMODULATORY PROTEIN FIP-FVE; fungal protein, immunomodulatory, fibronectin fold; HET: BR; 1.7A {Flammulina velutipes} SCOP: b.1.21.1
+Probab=10.83  E-value=2.6e+02  Score=12.17  Aligned_cols=6  Identities=33%  Similarity=0.650  Sum_probs=0.0  Template_Neff=4.500
+
+Q LIFLIV            1 LIFLIV    6 (6)
+Q Consensus         1 lifliv    6 (6)
+                      |+|++|
+T Consensus         6 ~~f~~~   11 (115)
+T 1OSY_A            6 LTFQLA   11 (115)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 8
+>6TKL_I Prothrombin (E.C.3.4.21.5), Tsetse thrombin inhibitor; anticoagulant tyrosine sulfation posttranslational modification; HET: TYS, MLE, NAG; 1.3A {Homo sapiens}
+Probab=10.16  E-value=2.8e+02  Score=11.44  Aligned_cols=6  Identities=67%  Similarity=1.292  Sum_probs=0.0  Template_Neff=1.000
+
+Q LIFLIV            1 LIFLIV    6 (6)
+Q Consensus         1 lifliv    6 (6)
+                      +|+|||
+T Consensus        13 iiyliv   18 (53)
+T 6TKL_I           13 IIYLIV   18 (53)
+T ss_pred             HHHHHH
+
+
+No 9
+>5O4U_F Flagellin; archaellar flagellum glycoprotein helical filament;{Pyrococcus furiosus DSM 3638}
+Probab=9.75  E-value=3e+02  Score=11.41  Aligned_cols=6  Identities=50%  Similarity=0.789  Sum_probs=0.0  Template_Neff=8.300
+
+Q LIFLIV            1 LIFLIV    6 (6)
+Q Consensus         1 lifliv    6 (6)
+                      +|+||+
+T Consensus        12 aIv~IA   17 (212)
+T 5O4U_F           12 LIVFIA   17 (212)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 10
+>5CK3_E SRX domain, Putative signal recognition; GTPase, Longin domain, regulator complex; HET: GTP, GOL; 3.2A {Chaetomium thermophilum}
+Probab=9.66  E-value=3e+02  Score=11.99  Aligned_cols=6  Identities=50%  Similarity=1.010  Sum_probs=0.0  Template_Neff=6.400
+
+Q LIFLIV            1 LIFLIV    6 (6)
+Q Consensus         1 lifliv    6 (6)
+                      |+|.+|
+T Consensus        84 LVFVvv   89 (181)
+T 5CK3_E           84 IIFVAV   89 (181)
+T ss_dssp             EEEEEC
+T ss_pred             eEEEEE
+
+

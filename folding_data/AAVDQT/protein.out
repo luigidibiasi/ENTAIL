@@ -1,0 +1,142 @@
+Query         AAVDQT
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 13:21:17 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/AAVDQT/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/AAVDQT/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5X8R_w 30S ribosomal protein S   3.7   1E+03   0.012   11.0   0.0    4    2-5      55-58  (121)
+  2 4Y28_E photosystem I reaction    3.7 1.1E+03   0.012   10.0   0.0    5    1-5      28-32  (66)
+  3 5X8P_w 50S ribosomal protein L   3.7 1.1E+03   0.012   11.0   0.0    4    2-5      55-58  (121)
+  4 6DV9_E DNA-directed RNA polyme   3.6 1.1E+03   0.012   10.1   0.0    4    2-5      15-18  (110)
+  5 6FOS_E Similar to chlorophyll    3.4 1.2E+03   0.013   10.0   0.0    5    1-5      25-29  (69)
+  6 3KPE_B Fusion glycoprotein F0/   3.4 1.2E+03   0.013    9.1   0.0    5    1-5       9-13  (39)
+  7 7DKZ_E Chlorophyll a-b binding   3.4 1.2E+03   0.013    9.9   0.0    5    1-5      28-32  (66)
+  8 6LY5_e FCPI-7, FCPI-1, FCPI-11   3.4 1.2E+03   0.013    9.8   0.0    5    1-5      25-29  (63)
+  9 6QPH_E Chlorophyll a-b binding   3.3 1.2E+03   0.013    9.8   0.0    5    1-5      27-31  (64)
+ 10 6RHZ_E Chlorophyll a-b binding   3.3 1.2E+03   0.013    9.8   0.0    5    1-5      27-31  (64)
+
+No 1
+>5X8R_w 30S ribosomal protein S1, chloroplastic,30S; Cryo-EM, ribosome, chloroplast ribosome; 3.7A {Spinacia oleracea}
+Probab=3.67  E-value=1e+03  Score=11.02  Aligned_cols=4  Identities=75%  Similarity=0.966  Sum_probs=0.0  Template_Neff=2.700
+
+Q AAVDQT            2 AVDQ    5 (6)
+Q Consensus         2 avdq    5 (6)
+                      |+||
+T Consensus        55 AlDQ   58 (121)
+T 5X8R_w           55 ALDQ   58 (121)
+T ss_pred             Eece
+
+
+No 2
+>4Y28_E photosystem I reaction center (E.C.1.97.1.12); photosynthesis, light harvesting, antenna, reaction; HET: SF4, LMU, ZEX, LMG, LUT, CHL, PQN, LHG, BCR, CL0, DGD, CLA; 2.8A {Pisum sativum}
+Probab=3.66  E-value=1.1e+03  Score=10.03  Aligned_cols=5  Identities=60%  Similarity=0.767  Sum_probs=0.0  Template_Neff=2.600
+
+Q AAVDQT            1 AAVDQ    5 (6)
+Q Consensus         1 aavdq    5 (6)
+                      +.|||
+T Consensus        28 ~sVD~   32 (66)
+T 4Y28_E           28 VTVDQ   32 (66)
+T ss_pred             EEEcC
+
+
+No 3
+>5X8P_w 50S ribosomal protein L13, chloroplastic,50S; Cryo-EM, ribosome, chloroplast ribosome; 3.4A {Spinacia oleracea}
+Probab=3.65  E-value=1.1e+03  Score=11.01  Aligned_cols=4  Identities=75%  Similarity=0.966  Sum_probs=0.0  Template_Neff=2.700
+
+Q AAVDQT            2 AVDQ    5 (6)
+Q Consensus         2 avdq    5 (6)
+                      |+||
+T Consensus        55 AvDQ   58 (121)
+T 5X8P_w           55 ALDQ   58 (121)
+T ss_pred             EecE
+
+
+No 4
+>6DV9_E DNA-directed RNA polymerase/ECF RNA polymerase; Mycobacterium tuberculosis, RNA polymerase, ECF; 3.8A {Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv)}
+Probab=3.58  E-value=1.1e+03  Score=10.06  Aligned_cols=4  Identities=100%  Similarity=1.099  Sum_probs=0.0  Template_Neff=5.100
+
+Q AAVDQT            2 AVDQ    5 (6)
+Q Consensus         2 avdq    5 (6)
+                      ||||
+T Consensus        15 ~~~~   18 (110)
+T 6DV9_E           15 AVDQ   18 (110)
+T ss_dssp             ----
+T ss_pred             CCCC
+
+
+No 5
+>6FOS_E Similar to chlorophyll a/b-binding protein; membrane protein, photosynthetic complex, reaction; HET: SF4, CLA, BCR, PQN; 4.0A {Cyanidioschyzon merolae (strain 10D)}
+Probab=3.40  E-value=1.2e+03  Score=10.01  Aligned_cols=5  Identities=20%  Similarity=0.395  Sum_probs=0.0  Template_Neff=2.500
+
+Q AAVDQT            1 AAVDQ    5 (6)
+Q Consensus         1 aavdq    5 (6)
+                      ++|||
+T Consensus        25 ~sVDk   29 (69)
+T 6FOS_E           25 VNVET   29 (69)
+T ss_pred             EEEcC
+
+
+No 6
+>3KPE_B Fusion glycoprotein F0/Fusion glycoprotein F0; peptide-small-molecule complex, alpha helix, coiled-coil; HET: TM3, PG4; 1.47A {Human respiratory syncytial virus}
+Probab=3.38  E-value=1.2e+03  Score=9.08  Aligned_cols=5  Identities=40%  Similarity=0.654  Sum_probs=0.0  Template_Neff=2.400
+
+Q AAVDQT            1 AAVDQ    5 (6)
+Q Consensus         1 aavdq    5 (6)
+                      +|+||
+T Consensus         9 valdq   13 (39)
+T 3KPE_B            9 ASISQ   13 (39)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 7
+>7DKZ_E Chlorophyll a-b binding protein, chloroplastic; PSI-LHCI high plants, PHOTOSYNTHESIS; HET: LHG, XAT, LMG, PQN, CHL, LMT, BCR, LUT, CLA, HTG, DGD, SF4; 2.393A {Pisum sativum}
+Probab=3.37  E-value=1.2e+03  Score=9.90  Aligned_cols=5  Identities=80%  Similarity=0.886  Sum_probs=0.0  Template_Neff=2.600
+
+Q AAVDQT            1 AAVDQ    5 (6)
+Q Consensus         1 aavdq    5 (6)
+                      +.|||
+T Consensus        28 ~sVD~   32 (66)
+T 7DKZ_E           28 VAVDQ   32 (66)
+T ss_pred             EEEcC
+
+
+No 8
+>6LY5_e FCPI-7, FCPI-1, FCPI-11, FCPI-6, FCPI-5; diatom, PSI-FCPI, photosysyem, photosynthesis; HET: PQN, LHG, LMT, BCR, CLA, SF4, DGD, A86, LMG, SQD, KC1, DD6; 2.38A {Chaetoceros gracilis}
+Probab=3.36  E-value=1.2e+03  Score=9.82  Aligned_cols=5  Identities=80%  Similarity=0.886  Sum_probs=0.0  Template_Neff=2.600
+
+Q AAVDQT            1 AAVDQ    5 (6)
+Q Consensus         1 aavdq    5 (6)
+                      +.|||
+T Consensus        25 ~svD~   29 (63)
+T 6LY5_e           25 VAVDQ   29 (63)
+T ss_pred             EEEcC
+
+
+No 9
+>6QPH_E Chlorophyll a-b binding protein, chloroplastic; Photosystem I, Dunaliella, Electron Transport; HET: CAC, BCR, LMG, SF4, LHG, XAT, LMT, DGD, CL0, LUT, CHL, PQN, GSH, SQD, CLA; 3.4A {Dunaliella salina}
+Probab=3.31  E-value=1.2e+03  Score=9.85  Aligned_cols=5  Identities=60%  Similarity=0.800  Sum_probs=0.0  Template_Neff=2.500
+
+Q AAVDQT            1 AAVDQ    5 (6)
+Q Consensus         1 aavdq    5 (6)
+                      +.|||
+T Consensus        27 ~sVDk   31 (64)
+T 6QPH_E           27 VSVDQ   31 (64)
+T ss_pred             EEECC
+
+
+No 10
+>6RHZ_E Chlorophyll a-b binding protein, chloroplastic; photosystem I, photosynthesis, green algae; HET: XAT, LHG, BCR, CLA, LUT, CL0, DGD, SF4, PQN, CHL, LMG; 3.2A {Dunaliella salina}
+Probab=3.31  E-value=1.2e+03  Score=9.85  Aligned_cols=5  Identities=60%  Similarity=0.800  Sum_probs=0.0  Template_Neff=2.500
+
+Q AAVDQT            1 AAVDQ    5 (6)
+Q Consensus         1 aavdq    5 (6)
+                      +.|||
+T Consensus        27 ~sVDk   31 (64)
+T 6RHZ_E           27 VSVDQ   31 (64)
+T ss_pred             EEECC
+
+

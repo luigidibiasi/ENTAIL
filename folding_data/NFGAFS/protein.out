@@ -1,0 +1,355 @@
+Query         NFGAFS
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 23:30:40 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NFGAFS/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NFGAFS/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6N3A_J TAR DNA-binding protein  78.2     1.6 1.8E-05   17.4   0.0    6    1-6       2-7   (50)
+  2 1ZVB_C E2 glycoprotein; SARS c  66.4     4.9 5.4E-05   14.9   0.0    6    1-6      12-17  (34)
+  3 2BEZ_C E2 GLYCOPROTEIN; MEMBRA  64.5     5.7 6.3E-05   16.7   0.0    6    1-6      56-61  (77)
+  4 5ZVK_A Human Coronavirus MERS   62.8     6.5 7.1E-05   16.7   0.0    6    1-6      61-66  (80)
+  5 1WDF_B E2 glycoprotein; MHV, c  58.5     8.7 9.6E-05   16.9   0.0    6    1-6      51-56  (95)
+  6 1WDF_A E2 glycoprotein; MHV, c  57.5     9.2  0.0001   16.8   0.0    6    1-6      51-56  (95)
+  7 5YL9_A Spike glycoprotein; Spi  55.5      11 0.00012   16.3   0.0    6    1-6      71-76  (89)
+  8 4MOD_A HR1 of S protein, LINKE  53.7      12 0.00013   16.9   0.0    6    1-6      53-58  (129)
+  9 7COT_B COVID-19, SARS-CoV-2, S  53.5      12 0.00013   17.1   0.0    6    1-6      60-65  (130)
+ 10 7COT_C COVID-19, SARS-CoV-2, S  53.5      12 0.00013   17.1   0.0    6    1-6      60-65  (130)
+ 11 4NJL_A S protein; six-helix-bu  52.1      13 0.00014   17.0   0.0    6    1-6      61-66  (131)
+ 12 6N3C_D TAR DNA-binding protein  51.8      13 0.00015   14.5   0.0    6    1-6      27-32  (46)
+ 13 1WYY_A E2 Glycoprotein; membra  46.8      18  0.0002   16.9   0.0    6    1-6      69-74  (149)
+ 14 5ZUV_A Spike glycoprotein,EK1,  45.8      19 0.00021   16.6   0.0    6    1-6      71-76  (133)
+ 15 6M1V_A spike protein; 2019-nCo  45.0      20 0.00022   15.9   0.0    6    1-6      53-58  (119)
+ 16 5ZUV_B Spike glycoprotein,EK1,  44.5      21 0.00023   16.4   0.0    6    1-6      71-76  (133)
+ 17 5ZHY_A Spike glycoprotein,Spik  36.3      34 0.00037   16.1   0.0    6    1-6      66-71  (148)
+ 18 6PZ8_A S protein, G2 heavy cha  27.6      59 0.00065   17.3   0.0    6    1-6     292-297 (472)
+ 19 6M3W_A Spike glycoprotein,Spik  26.8      62 0.00069   17.2   0.0    6    1-6     264-269 (491)
+ 20 1ZVA_A E2 glycoprotein; SARS c  24.8      71 0.00079   13.2   0.0    6    1-6      26-31  (77)
+ 21 6B3O_C Spike glycoprotein; Cor  24.5      73  0.0008   17.5   0.0    6    1-6     324-329 (605)
+ 22 6M39_B Spike glycoprotein; SAD  21.1      94   0.001   17.6   0.0    6    1-6     806-811 (981)
+ 23 7C53_E Spike protein S2',pan-C  20.7      97  0.0011   13.6   0.0    6    1-6      60-65  (107)
+
+No 1
+>6N3A_J TAR DNA-binding protein 43, segA; Amyloid, TDP43, ALS, FTLD-TDP, dna; 3.3A {Homo sapiens}
+Probab=78.16  E-value=1.6  Score=17.45  Aligned_cols=6  Identities=100%  Similarity=1.608  Sum_probs=4.6  Template_Neff=2.200
+
+Q NFGAFS            1 NFGAFS    6 (6)
+Q Consensus         1 nfgafs    6 (6)
+                      |||+|+
+T Consensus         2 Nfg~~~    7 (50)
+T 6N3A_J            2 NFGAFS    7 (50)
+T ss_dssp             BCSCCE
+T ss_pred             CCcccc
+Confidence            788875
+
+
+No 2
+>1ZVB_C E2 glycoprotein; SARS coronavirus, membrane fusion, S2; 1.7A {SARS coronavirus} SCOP: h.3.3.1
+Probab=66.45  E-value=4.9  Score=14.87  Aligned_cols=6  Identities=83%  Similarity=1.276  Sum_probs=4.4  Template_Neff=3.100
+
+Q NFGAFS            1 NFGAFS    6 (6)
+Q Consensus         1 nfgafs    6 (6)
+                      ||||.|
+T Consensus        12 nF~aIS   17 (34)
+T 1ZVB_C           12 NFGAIS   17 (34)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            688865
+
+
+No 3
+>2BEZ_C E2 GLYCOPROTEIN; MEMBRANE FUSION, SEVERE ACUTE RESPIRATORY; 1.6A {SARS CORONAVIRUS} SCOP: h.3.3.1
+Probab=64.51  E-value=5.7  Score=16.70  Aligned_cols=6  Identities=83%  Similarity=1.276  Sum_probs=4.4  Template_Neff=3.000
+
+Q NFGAFS            1 NFGAFS    6 (6)
+Q Consensus         1 nfgafs    6 (6)
+                      ||||.|
+T Consensus        56 nFgAIS   61 (77)
+T 2BEZ_C           56 NFGAIS   61 (77)
+T ss_dssp             HHHHHH
+T ss_pred             HHhHHH
+Confidence            688865
+
+
+No 4
+>5ZVK_A Human Coronavirus MERS HR1 motif; MERS, Spike protein, S2 domain; 3.31A {Middle East respiratory syndrome-related coronavirus}
+Probab=62.78  E-value=6.5  Score=16.67  Aligned_cols=6  Identities=67%  Similarity=1.093  Sum_probs=4.4  Template_Neff=2.900
+
+Q NFGAFS            1 NFGAFS    6 (6)
+Q Consensus         1 nfgafs    6 (6)
+                      ||||.|
+T Consensus        61 nFgAIS   66 (80)
+T 5ZVK_A           61 TFGAIS   66 (80)
+T ss_dssp             HHHHHH
+T ss_pred             HHhHHH
+Confidence            688865
+
+
+No 5
+>1WDF_B E2 glycoprotein; MHV, coronavirus, heptad repeat, fusion; 2.5A {Murine hepatitis virus} SCOP: h.3.3.1
+Probab=58.50  E-value=8.7  Score=16.85  Aligned_cols=6  Identities=67%  Similarity=1.082  Sum_probs=3.0  Template_Neff=2.400
+
+Q NFGAFS            1 NFGAFS    6 (6)
+Q Consensus         1 nfgafs    6 (6)
+                      ||||.|
+T Consensus        51 NFgAIS   56 (95)
+T 1WDF_B           51 RFGAIS   56 (95)
+T ss_dssp             HTCC--
+T ss_pred             hHchHH
+Confidence            688765
+
+
+No 6
+>1WDF_A E2 glycoprotein; MHV, coronavirus, heptad repeat, fusion; 2.5A {Murine hepatitis virus} SCOP: h.3.3.1
+Probab=57.54  E-value=9.2  Score=16.77  Aligned_cols=6  Identities=67%  Similarity=1.082  Sum_probs=3.7  Template_Neff=2.400
+
+Q NFGAFS            1 NFGAFS    6 (6)
+Q Consensus         1 nfgafs    6 (6)
+                      ||||.|
+T Consensus        51 NFgAIS   56 (95)
+T 1WDF_A           51 RFGAIS   56 (95)
+T ss_dssp             HTTCC-
+T ss_pred             HHhHHH
+Confidence            688765
+
+
+No 7
+>5YL9_A Spike glycoprotein; Spike protein, 6-helical bundle, post-fusion; 1.861A {Human coronavirus 229E}
+Probab=55.51  E-value=11  Score=16.30  Aligned_cols=6  Identities=67%  Similarity=0.855  Sum_probs=4.4  Template_Neff=2.900
+
+Q NFGAFS            1 NFGAFS    6 (6)
+Q Consensus         1 nfgafs    6 (6)
+                      ||||.|
+T Consensus        71 NF~AIS   76 (89)
+T 5YL9_A           71 NFQAIS   76 (89)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            688865
+
+
+No 8
+>4MOD_A HR1 of S protein, LINKER; MERS-CoV, Viral envelope proteins, Spike; 1.901A {Human betacoronavirus 2c EMC/2012}
+Probab=53.70  E-value=12  Score=16.87  Aligned_cols=6  Identities=67%  Similarity=1.093  Sum_probs=0.0  Template_Neff=3.200
+
+Q NFGAFS            1 NFGAFS    6 (6)
+Q Consensus         1 nfgafs    6 (6)
+                      ||||.|
+T Consensus        53 nFgAIS   58 (129)
+T 4MOD_A           53 TFGAIS   58 (129)
+T ss_dssp             ------
+T ss_pred             HHchhH
+Confidence            677765
+
+
+No 9
+>7COT_B COVID-19, SARS-CoV-2, Spike protein, Heptad; 2.16A {Severe acute respiratory syndrome coronavirus 2}
+Probab=53.53  E-value=12  Score=17.08  Aligned_cols=6  Identities=83%  Similarity=1.276  Sum_probs=4.2  Template_Neff=2.600
+
+Q NFGAFS            1 NFGAFS    6 (6)
+Q Consensus         1 nfgafs    6 (6)
+                      ||||.|
+T Consensus        60 NFgAIS   65 (130)
+T 7COT_B           60 NFGAIS   65 (130)
+T ss_dssp             HHHHHH
+T ss_pred             HHhHHH
+Confidence            688765
+
+
+No 10
+>7COT_C COVID-19, SARS-CoV-2, Spike protein, Heptad; 2.16A {Severe acute respiratory syndrome coronavirus 2}
+Probab=53.53  E-value=12  Score=17.08  Aligned_cols=6  Identities=83%  Similarity=1.276  Sum_probs=4.2  Template_Neff=2.600
+
+Q NFGAFS            1 NFGAFS    6 (6)
+Q Consensus         1 nfgafs    6 (6)
+                      ||||.|
+T Consensus        60 NFgAIS   65 (130)
+T 7COT_C           60 NFGAIS   65 (130)
+T ss_dssp             HHHHHH
+T ss_pred             HHhHHH
+Confidence            688765
+
+
+No 11
+>4NJL_A S protein; six-helix-bundle, coronavirus, MERS-Cov, fusion inhibitor; HET: PGE; 2.3A {Middle East respiratory syndrome coronavirus}
+Probab=52.10  E-value=13  Score=17.01  Aligned_cols=6  Identities=67%  Similarity=1.093  Sum_probs=4.2  Template_Neff=2.500
+
+Q NFGAFS            1 NFGAFS    6 (6)
+Q Consensus         1 nfgafs    6 (6)
+                      ||||.|
+T Consensus        61 NFgAIS   66 (131)
+T 4NJL_A           61 TFGAIS   66 (131)
+T ss_dssp             HHHHHH
+T ss_pred             HHhHHH
+Confidence            678765
+
+
+No 12
+>6N3C_D TAR DNA-binding protein 43; Amyloid, TDP43, ALS, FTLD-TDP, dna; 3.3A {Homo sapiens}
+Probab=51.83  E-value=13  Score=14.48  Aligned_cols=6  Identities=83%  Similarity=1.475  Sum_probs=3.6  Template_Neff=3.000
+
+Q NFGAFS            1 NFGAFS    6 (6)
+Q Consensus         1 nfgafs    6 (6)
+                      |||+|+
+T Consensus        27 N~ga~~   32 (46)
+T 6N3C_D           27 NFGEFS   32 (46)
+T ss_dssp             EEESCC
+T ss_pred             Cccccc
+Confidence            566654
+
+
+No 13
+>1WYY_A E2 Glycoprotein; membrane fusion, severe acute respiratory; 2.2A {SARS coronavirus} SCOP: h.3.3.1
+Probab=46.82  E-value=18  Score=16.91  Aligned_cols=6  Identities=83%  Similarity=1.276  Sum_probs=4.2  Template_Neff=2.300
+
+Q NFGAFS            1 NFGAFS    6 (6)
+Q Consensus         1 nfgafs    6 (6)
+                      ||||.|
+T Consensus        69 NFgAIS   74 (149)
+T 1WYY_A           69 NFGAIS   74 (149)
+T ss_dssp             HHHHHH
+T ss_pred             HHhHHH
+Confidence            688765
+
+
+No 14
+>5ZUV_A Spike glycoprotein,EK1, Spike glycoprotein,inhibitor EK1; Human Coronavirus 229E, Spike protein; 2.21A {Human coronavirus 229E}
+Probab=45.84  E-value=19  Score=16.56  Aligned_cols=6  Identities=67%  Similarity=0.855  Sum_probs=3.9  Template_Neff=2.400
+
+Q NFGAFS            1 NFGAFS    6 (6)
+Q Consensus         1 nfgafs    6 (6)
+                      ||||.|
+T Consensus        71 NFqAIS   76 (133)
+T 5ZUV_A           71 NFQAIS   76 (133)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            677754
+
+
+No 15
+>6M1V_A spike protein; 2019-nCoV, spike protein, fusion core; 1.5A {Severe acute respiratory syndrome coronavirus 2}
+Probab=44.99  E-value=20  Score=15.93  Aligned_cols=6  Identities=17%  Similarity=-0.064  Sum_probs=1.3  Template_Neff=3.400
+
+Q NFGAFS            1 NFGAFS    6 (6)
+Q Consensus         1 nfgafs    6 (6)
+                      ||||.|
+T Consensus        53 nf~ais   58 (119)
+T 6M1V_A           53 PRGSGG   58 (119)
+T ss_dssp             CC----
+T ss_pred             ccCCCc
+Confidence            577654
+
+
+No 16
+>5ZUV_B Spike glycoprotein,EK1, Spike glycoprotein,inhibitor EK1; Human Coronavirus 229E, Spike protein; 2.21A {Human coronavirus 229E}
+Probab=44.53  E-value=21  Score=16.43  Aligned_cols=6  Identities=67%  Similarity=0.855  Sum_probs=4.1  Template_Neff=2.500
+
+Q NFGAFS            1 NFGAFS    6 (6)
+Q Consensus         1 nfgafs    6 (6)
+                      ||||.|
+T Consensus        71 NFqAIS   76 (133)
+T 5ZUV_B           71 NFQAIS   76 (133)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            677765
+
+
+No 17
+>5ZHY_A Spike glycoprotein,Spike glycoprotein; membrane fusion, broad-spectrum inhibitor design; 2.441A {Human coronavirus 229E}
+Probab=36.30  E-value=34  Score=16.05  Aligned_cols=6  Identities=33%  Similarity=0.506  Sum_probs=0.0  Template_Neff=2.300
+
+Q NFGAFS            1 NFGAFS    6 (6)
+Q Consensus         1 nfgafs    6 (6)
+                      ||||.|
+T Consensus        66 NFqAIS   71 (148)
+T 5ZHY_A           66 NFQLVP   71 (148)
+T ss_dssp             ------
+T ss_pred             hhCcch
+Confidence            677754
+
+
+No 18
+>6PZ8_A S protein, G2 heavy chain; MERS-CoV, coronavirus, DPP4, receptor-binding, membrane; HET: BMA, MAN, NAG; 4.19A {Middle East respiratory syndrome-related coronavirus}
+Probab=27.58  E-value=59  Score=17.31  Aligned_cols=6  Identities=67%  Similarity=1.093  Sum_probs=4.3  Template_Neff=3.300
+
+Q NFGAFS            1 NFGAFS    6 (6)
+Q Consensus         1 nfgafs    6 (6)
+                      ||||.|
+T Consensus       292 nFgAIS  297 (472)
+T 6PZ8_A          292 TFGAIS  297 (472)
+T ss_dssp             CSSSSC
+T ss_pred             HHchHH
+Confidence            688765
+
+
+No 19
+>6M3W_A Spike glycoprotein,Spike glycoprotein; spike, post-fusion, SARS-CoV, coronavirus, glycoprotein; HET: NAG;{Human SARS coronavirus}
+Probab=26.76  E-value=62  Score=17.24  Aligned_cols=6  Identities=83%  Similarity=1.276  Sum_probs=4.3  Template_Neff=3.500
+
+Q NFGAFS            1 NFGAFS    6 (6)
+Q Consensus         1 nfgafs    6 (6)
+                      ||||.|
+T Consensus       264 nFgAIS  269 (491)
+T 6M3W_A          264 NFGAIS  269 (491)
+T ss_dssp             HHHHHH
+T ss_pred             HHhHHH
+Confidence            688765
+
+
+No 20
+>1ZVA_A E2 glycoprotein; SARS coronavirus, membrane fusion, S2; 1.5A {SARS coronavirus} SCOP: h.3.3.1
+Probab=24.78  E-value=71  Score=13.15  Aligned_cols=6  Identities=83%  Similarity=1.276  Sum_probs=2.8  Template_Neff=4.100
+
+Q NFGAFS            1 NFGAFS    6 (6)
+Q Consensus         1 nfgafs    6 (6)
+                      ||+|.|
+T Consensus        26 ~FkaiS   31 (77)
+T 1ZVA_A           26 NFGAIS   31 (77)
+T ss_dssp             HHHHHH
+T ss_pred             Hhchhh
+Confidence            355543
+
+
+No 21
+>6B3O_C Spike glycoprotein; Coronavirus, membrane fusion, MHV, SARS; 4.1A {Murine coronavirus}
+Probab=24.49  E-value=73  Score=17.51  Aligned_cols=6  Identities=67%  Similarity=1.082  Sum_probs=4.4  Template_Neff=3.200
+
+Q NFGAFS            1 NFGAFS    6 (6)
+Q Consensus         1 nfgafs    6 (6)
+                      ||||.|
+T Consensus       324 NFgAIS  329 (605)
+T 6B3O_C          324 RFGAIS  329 (605)
+T ss_dssp             HHHHHH
+T ss_pred             HHhHHH
+Confidence            688865
+
+
+No 22
+>6M39_B Spike glycoprotein; SADS-CoV spike, VIRAL PROTEIN; HET: NAG; 3.55A {Swine acute diarrhea syndrome coronavirus}
+Probab=21.12  E-value=94  Score=17.55  Aligned_cols=6  Identities=83%  Similarity=1.276  Sum_probs=4.4  Template_Neff=4.600
+
+Q NFGAFS            1 NFGAFS    6 (6)
+Q Consensus         1 nfgafs    6 (6)
+                      ||||.|
+T Consensus       806 nFgAIS  811 (981)
+T 6M39_B          806 NFGAIS  811 (981)
+T ss_dssp             CSSSSC
+T ss_pred             HhhHHH
+Confidence            688865
+
+
+No 23
+>7C53_E Spike protein S2',pan-CoVs inhibitor EK1; SARS-CoV-2 HR1, pan-CoVs inhibitor, EK1; 2.278A {Severe acute respiratory syndrome coronavirus 2}
+Probab=20.69  E-value=97  Score=13.58  Aligned_cols=6  Identities=83%  Similarity=1.276  Sum_probs=1.0  Template_Neff=3.700
+
+Q NFGAFS            1 NFGAFS    6 (6)
+Q Consensus         1 nfgafs    6 (6)
+                      ||||.|
+T Consensus        60 nFkAIS   65 (107)
+T 7C53_E           60 NFGAIS   65 (107)
+T ss_dssp             CC----
+T ss_pred             HhCccc
+Confidence            455543
+
+

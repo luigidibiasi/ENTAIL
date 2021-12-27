@@ -1,0 +1,150 @@
+Query         NISNNN
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 01:26:28 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NISNNN/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NISNNN/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3H7N_A Nucleoporin NUP120; Nuc  34.8      37 0.00041   16.3   0.0    6    1-6      30-35  (729)
+  2 3F7F_D Nucleoporin, Nuclear Po  34.5      37 0.00041   16.3   0.0    6    1-6      30-35  (729)
+  3 5UMD_W 60S ribosomal protein L  16.6 1.4E+02  0.0015   13.6   0.0    6    1-6     184-189 (203)
+  4 4XNH_A Yeast Saccharomyces cer   8.0 3.9E+02  0.0043   12.9   0.0    6    1-6     789-794 (854)
+  5 5NP9_A tRNA threonylcarbamoyla   7.9 3.9E+02  0.0043   10.7   0.0    4    1-4     155-158 (158)
+  6 4K6J_A Wings apart-like protei   7.7 4.1E+02  0.0045   12.9   0.0    6    1-6     317-322 (568)
+  7 1CEJ_A MEROZOITE SURFACE PROTE   7.4 4.3E+02  0.0047    8.8   0.0    4    1-4       1-4   (96)
+  8 3B9N_B Alkane monooxygenase; G   7.2 4.4E+02  0.0049   12.0   0.0    5    1-5     435-439 (440)
+  9 7CG0_j Flagellar hook protein    6.8 4.8E+02  0.0053    9.9   0.0    6    1-6      27-32  (134)
+ 10 7NVG_V2 bacterial flagellum, f   6.8 4.8E+02  0.0053    9.9   0.0    6    1-6      27-32  (134)
+
+No 1
+>3H7N_A Nucleoporin NUP120; Nucleoporin, Nuclear Pore Complex, Macromolecular; 3.0A {Saccharomyces cerevisiae}
+Probab=34.79  E-value=37  Score=16.28  Aligned_cols=6  Identities=83%  Similarity=0.811  Sum_probs=0.0  Template_Neff=8.500
+
+Q NISNNN            1 NISNNN    6 (6)
+Q Consensus         1 nisnnn    6 (6)
+                      |+||||
+T Consensus        30 ~~~~~~   35 (729)
+T 3H7N_A           30 NNSNNN   35 (729)
+T ss_dssp             ------
+T ss_pred             ccccCC
+Confidence            455554
+
+
+No 2
+>3F7F_D Nucleoporin, Nuclear Pore Complex, Macromolecular; HET: HG; 2.6A {Saccharomyces cerevisiae}
+Probab=34.53  E-value=37  Score=16.26  Aligned_cols=6  Identities=83%  Similarity=0.811  Sum_probs=0.0  Template_Neff=8.500
+
+Q NISNNN            1 NISNNN    6 (6)
+Q Consensus         1 nisnnn    6 (6)
+                      |+||||
+T Consensus        30 ~~~~~~   35 (729)
+T 3F7F_D           30 NNSNNN   35 (729)
+T ss_dssp             ------
+T ss_pred             ccccCC
+Confidence            455554
+
+
+No 3
+>5UMD_W 60S ribosomal protein L2, 60S; Ribosome, protein synthesis, antimalarial; HET: MG, YMZ; 3.2A {Plasmodium falciparum 3D7}
+Probab=16.57  E-value=1.4e+02  Score=13.56  Aligned_cols=6  Identities=83%  Similarity=1.016  Sum_probs=2.8  Template_Neff=5.600
+
+Q NISNNN            1 NISNNN    6 (6)
+Q Consensus         1 nisnnn    6 (6)
+                      ||||.|
+T Consensus       184 ~~~~~~  189 (203)
+T 5UMD_W          184 NISNQN  189 (203)
+T ss_dssp             -CCCCH
+T ss_pred             hcccch
+Confidence            566643
+
+
+No 4
+>4XNH_A Yeast Saccharomyces cerevisiae Naa15, Yeast; N-terminal acetyltransferase, bisubstrate, inositol hexaxisphosphate; HET: CMC, I6P, ACO; 2.1A {Saccharomyces cerevisiae}
+Probab=7.98  E-value=3.9e+02  Score=12.86  Aligned_cols=6  Identities=67%  Similarity=0.866  Sum_probs=0.0  Template_Neff=9.700
+
+Q NISNNN            1 NISNNN    6 (6)
+Q Consensus         1 nisnnn    6 (6)
+                      +||||.
+T Consensus       789 ~~~~~~  794 (854)
+T 4XNH_A          789 EISNNS  794 (854)
+T ss_dssp             GGGCTT
+T ss_pred             cccCCc
+
+
+No 5
+>5NP9_A tRNA threonylcarbamoyladenosine biosynthesis protein TsaE; Kinase, ADP, phosphorylastion, transferase; HET: ADP; 2.0A {Bacillus subtilis}
+Probab=7.92  E-value=3.9e+02  Score=10.65  Aligned_cols=4  Identities=100%  Similarity=1.149  Sum_probs=0.0  Template_Neff=8.100
+
+Q NISNNN            1 NISN    4 (6)
+Q Consensus         1 nisn    4 (6)
+                      ||||
+T Consensus       155 ~~~~  158 (158)
+T 5NP9_A          155 NISN  158 (158)
+T ss_dssp             ----
+T ss_pred             CCCC
+
+
+No 6
+>4K6J_A Wings apart-like protein homolog; heat repeats, cohesin regulator, Cell; HET: ACT, SO4; 2.6205A {Homo sapiens}
+Probab=7.66  E-value=4.1e+02  Score=12.93  Aligned_cols=6  Identities=50%  Similarity=0.994  Sum_probs=0.0  Template_Neff=7.900
+
+Q NISNNN            1 NISNNN    6 (6)
+Q Consensus         1 nisnnn    6 (6)
+                      |++|+|
+T Consensus       317 NLTn~n  322 (568)
+T 4K6J_A          317 NLTNDN  322 (568)
+T ss_dssp             HHHSSC
+T ss_pred             HHhCCC
+
+
+No 7
+>1CEJ_A MEROZOITE SURFACE PROTEIN 1; EGF-LIKE DOMAIN, EXTRACELLULAR, MODULAR PROTEIN; NMR {Plasmodium falciparum} SCOP: g.3.11.4
+Probab=7.44  E-value=4.3e+02  Score=8.76  Aligned_cols=4  Identities=75%  Similarity=0.891  Sum_probs=0.0  Template_Neff=10.100
+
+Q NISNNN            1 NISN    4 (6)
+Q Consensus         1 nisn    4 (6)
+                      |||+
+T Consensus         1 ~~~~    4 (96)
+T 1CEJ_A            1 NISQ    4 (96)
+T ss_pred             CCCc
+
+
+No 8
+>3B9N_B Alkane monooxygenase; Geobacillus thermodenitrificans, LADA, ALKANE HYDROXYLASE; 2.7A {Geobacillus thermodenitrificans}
+Probab=7.22  E-value=4.4e+02  Score=12.05  Aligned_cols=5  Identities=80%  Similarity=0.979  Sum_probs=0.0  Template_Neff=8.600
+
+Q NISNNN            1 NISNN    5 (6)
+Q Consensus         1 nisnn    5 (6)
+                      |||.|
+T Consensus       435 ~~~~~  439 (440)
+T 3B9N_B          435 NISSN  439 (440)
+T ss_pred             CCCCC
+
+
+No 9
+>7CG0_j Flagellar hook protein FlgE, Flagellar; Proximal rod, FlgC, FlgB, FliF; 3.2A {Salmonella typhimurium (strain LT2 / SGSC1412 / ATCC 700720)}
+Probab=6.80  E-value=4.8e+02  Score=9.95  Aligned_cols=6  Identities=33%  Similarity=0.745  Sum_probs=0.0  Template_Neff=8.500
+
+Q NISNNN            1 NISNNN    6 (6)
+Q Consensus         1 nisnnn    6 (6)
+                      ||.|-|
+T Consensus        27 NIAN~~   32 (134)
+T 7CG0_j           27 NLANAD   32 (134)
+T ss_dssp             HHHTTT
+T ss_pred             HhhccC
+
+
+No 10
+>7NVG_V2 bacterial flagellum, flagella, basal body; 3.7A {Salmonella enterica subsp. enterica serovar Typhimurium}
+Probab=6.80  E-value=4.8e+02  Score=9.95  Aligned_cols=6  Identities=33%  Similarity=0.745  Sum_probs=0.0  Template_Neff=8.500
+
+Q NISNNN            1 NISNNN    6 (6)
+Q Consensus         1 nisnnn    6 (6)
+                      ||.|-|
+T Consensus        27 NIAN~~   32 (134)
+T 7NVG_V2          27 NLANAD   32 (134)
+T ss_pred             HhhccC
+
+

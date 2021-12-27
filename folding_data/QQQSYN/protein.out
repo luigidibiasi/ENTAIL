@@ -1,0 +1,150 @@
+Query         QQQSYN
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 10:00:03 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QQQSYN/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QQQSYN/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 1R3U_A phosphoribosyltransfera  27.5      59 0.00065   13.3   0.0    6    1-6       8-13  (205)
+  2 7MY8_A Fusion Peptide, LIPID B  10.4 2.7E+02   0.003   10.7   0.0    4    3-6      38-41  (42)
+  3 1M56_D CYTOCHROME C OXIDASE(E.   9.8   3E+02  0.0033   10.4   0.0    6    1-6      21-26  (51)
+  4 1DP5_B PROTEINASE A/IA3 MUTANT   9.4 3.1E+02  0.0034   11.7   0.0    5    2-6      54-58  (68)
+  5 2IZR_A CASEIN KINASE I ISOFORM   8.7 3.4E+02  0.0038   11.0   0.0    6    1-6     324-329 (330)
+  6 5WEH_J Cytochrome c oxidase su   8.7 3.5E+02  0.0038   10.2   0.0    6    1-6      20-25  (50)
+  7 6XOR_A Dynein intermediate cha   7.9 3.9E+02  0.0044   11.4   0.0    6    1-6      25-30  (71)
+  8 4KBM_A DNA-directed RNA polyme   6.6   5E+02  0.0055   11.7   0.0    6    1-6      27-32  (409)
+  9 3KYS_B Transcriptional enhance   5.8   6E+02  0.0066   11.4   0.0    5    2-6     116-120 (125)
+ 10 4KBJ_B DNA-directed RNA polyme   5.7   6E+02  0.0066   12.0   0.0    6    1-6      27-32  (409)
+
+No 1
+>1R3U_A phosphoribosyltransferase, Thermoanaerobacter tengcongensis, purine salvage; 2.5A {Thermoanaerobacter tengcongensis} SCOP: c.61.1.1
+Probab=27.55  E-value=59  Score=13.25  Aligned_cols=6  Identities=33%  Similarity=0.191  Sum_probs=0.0  Template_Neff=8.400
+
+Q QQQSYN            1 QQQSYN    6 (6)
+Q Consensus         1 qqqsyn    6 (6)
+                      ||.+||
+T Consensus         8 ~~~~~~   13 (205)
+T 1R3U_A            8 QQMGRG   13 (205)
+T ss_dssp             ------
+T ss_pred             cccCCC
+Confidence            455553
+
+
+No 2
+>7MY8_A Fusion Peptide, LIPID BINDING PROTEIN; NMR {Severe acute respiratory syndrome coronavirus 2}
+Probab=10.35  E-value=2.7e+02  Score=10.72  Aligned_cols=4  Identities=50%  Similarity=0.974  Sum_probs=0.0  Template_Neff=3.100
+
+Q QQQSYN            3 QSYN    6 (6)
+Q Consensus         3 qsyn    6 (6)
+                      |.||
+T Consensus        38 Q~yN   41 (42)
+T 7MY8_A           38 QKFN   41 (42)
+T ss_dssp             TTTT
+T ss_pred             hhcC
+
+
+No 3
+>1M56_D CYTOCHROME C OXIDASE(E.C.1.9.3.1); Membrane Protein, OXIDOREDUCTASE; HET: HEA, 3PE; 2.3A {Rhodobacter sphaeroides} SCOP: f.23.8.1
+Probab=9.78  E-value=3e+02  Score=10.35  Aligned_cols=6  Identities=17%  Similarity=0.678  Sum_probs=0.0  Template_Neff=4.900
+
+Q QQQSYN            1 QQQSYN    6 (6)
+Q Consensus         1 qqqsyn    6 (6)
+                      |++.|+
+T Consensus        21 he~Ty~   26 (51)
+T 1M56_D           21 QEKTFA   26 (51)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 4
+>1DP5_B PROTEINASE A/IA3 MUTANT INHIBITOR COMPLEX; Proteinase A, MMM, IA3 mutant; HET: BMA, NAG, MAN; 2.2A {Saccharomyces cerevisiae} SCOP: a.137.7.1
+Probab=9.44  E-value=3.1e+02  Score=11.75  Aligned_cols=5  Identities=60%  Similarity=1.079  Sum_probs=0.0  Template_Neff=1.800
+
+Q QQQSYN            2 QQSYN    6 (6)
+Q Consensus         2 qqsyn    6 (6)
+                      |.+||
+T Consensus        54 QeqYN   58 (68)
+T 1DP5_B           54 QEQYN   58 (68)
+T ss_dssp             -----
+T ss_pred             HHHHH
+
+
+No 5
+>2IZR_A CASEIN KINASE I ISOFORM GAMMA-3; SERINE/THREONINE-PROTEIN KINASE, KINASE, TRANSFERASE, ATP-BINDING; HET: BRK; 1.3A {HOMO SAPIENS}
+Probab=8.74  E-value=3.4e+02  Score=10.99  Aligned_cols=6  Identities=67%  Similarity=0.462  Sum_probs=0.0  Template_Neff=10.400
+
+Q QQQSYN            1 QQQSYN    6 (6)
+Q Consensus         1 qqqsyn    6 (6)
+                      ||||-|
+T Consensus       324 ~~~~~~  329 (330)
+T 2IZR_A          324 MQQSKN  329 (330)
+T ss_dssp             ------
+T ss_pred             HHHhhc
+
+
+No 6
+>5WEH_J Cytochrome c oxidase subunit 1; oxidase, Complex IV, reduced, OXIDOREDUCTASE; HET: LMU, PEH, HEA; 3.45A {Rhodobacter sphaeroides}
+Probab=8.70  E-value=3.5e+02  Score=10.25  Aligned_cols=6  Identities=17%  Similarity=0.678  Sum_probs=0.0  Template_Neff=4.600
+
+Q QQQSYN            1 QQQSYN    6 (6)
+Q Consensus         1 qqqsyn    6 (6)
+                      |++.|+
+T Consensus        20 he~Ty~   25 (50)
+T 5WEH_J           20 QEKTFA   25 (50)
+T ss_pred             HHHHHH
+
+
+No 7
+>6XOR_A Dynein intermediate chain protein; coiled coil, self-association domain, RNA; NMR {Drosophila melanogaster}
+Probab=7.91  E-value=3.9e+02  Score=11.35  Aligned_cols=6  Identities=33%  Similarity=0.662  Sum_probs=0.0  Template_Neff=2.700
+
+Q QQQSYN            1 QQQSYN    6 (6)
+Q Consensus         1 qqqsyn    6 (6)
+                      |-||||
+T Consensus        25 rLqsyN   30 (71)
+T 6XOR_A           25 RLQGFN   30 (71)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 8
+>4KBM_A DNA-directed RNA polymerase subunit beta; Structural Genomics, TB Structural Genomics; 2.1146A {Mycobacterium tuberculosis}
+Probab=6.64  E-value=5e+02  Score=11.74  Aligned_cols=6  Identities=33%  Similarity=0.656  Sum_probs=0.0  Template_Neff=8.700
+
+Q QQQSYN            1 QQQSYN    6 (6)
+Q Consensus         1 qqqsyn    6 (6)
+                      |..|||
+T Consensus        27 q~~Sf~   32 (409)
+T 4KBM_A           27 QTDSFE   32 (409)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 9
+>3KYS_B Transcriptional enhancer factor TEF-1, 65; immunoglobulin-like fold, Activator, Disease mutation; 2.8A {Homo sapiens}
+Probab=5.76  E-value=6e+02  Score=11.39  Aligned_cols=5  Identities=40%  Similarity=0.740  Sum_probs=0.0  Template_Neff=4.100
+
+Q QQQSYN            2 QQSYN    6 (6)
+Q Consensus         2 qqsyn    6 (6)
+                      |+||.
+T Consensus       116 Q~Syd  120 (125)
+T 3KYS_B          116 QSSFE  120 (125)
+T ss_dssp             -----
+T ss_pred             ccccC
+
+
+No 10
+>4KBJ_B DNA-directed RNA polymerase subunit beta; Structural Genomics, TB Structural Genomics; 2.4532A {Mycobacterium tuberculosis}
+Probab=5.72  E-value=6e+02  Score=11.99  Aligned_cols=6  Identities=33%  Similarity=0.656  Sum_probs=0.0  Template_Neff=7.600
+
+Q QQQSYN            1 QQQSYN    6 (6)
+Q Consensus         1 qqqsyn    6 (6)
+                      |..|||
+T Consensus        27 q~~Sfn   32 (409)
+T 4KBJ_B           27 QTDSFE   32 (409)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+

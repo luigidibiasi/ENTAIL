@@ -1,0 +1,148 @@
+Query         QGGRGN
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 07:42:03 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QGGRGN/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QGGRGN/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5BWA_B Ornithine decarboxylase  55.1      11 0.00012   16.6   0.0    6    1-6      10-15  (160)
+  2 1LNZ_A SPO0B-associated GTP-bi  18.2 1.2E+02  0.0013   12.9   0.0    6    1-6     121-126 (342)
+  3 6QB8_h T-complex protein 1 sub  18.0 1.2E+02  0.0013   13.4   0.0    5    1-5     534-538 (543)
+  4 7BL6_9 50S ribosomal protein L  17.4 1.3E+02  0.0014   12.9   0.0    5    2-6     123-127 (390)
+  5 7OF7_x 39S ribosomal protein L  16.6 1.4E+02  0.0015   13.8   0.0    6    1-6     187-192 (406)
+  6 5XY3_a Ribosomal protein L8, p  15.9 1.5E+02  0.0016   12.0   0.0    6    1-6      29-34  (151)
+  7 6OEI_A Spindle pole body compo  15.9 1.5E+02  0.0016   10.9   0.0    5    2-6       1-5   (298)
+  8 3BP8_C Putative NAGC-like tran  14.8 1.6E+02  0.0018   10.7   0.0    5    2-6      10-14  (75)
+  9 5M04_A GTPase ObgE/CgtA (E.C.3  14.6 1.7E+02  0.0018   12.9   0.0    6    1-6     142-147 (360)
+ 10 5CHX_B DNA repair protein XRCC  14.4 1.7E+02  0.0019   12.0   0.0    5    2-6       1-5   (214)
+
+No 1
+>5BWA_B Ornithine decarboxylase (E.C.4.1.1.17), Ornithine decarboxylase; Ornithine decarboxylase, Antizyme1, Ornithine decarboxylase-Antizyme1; HET: PLP; 3.2A {Homo sapiens}
+Probab=55.11  E-value=11  Score=16.55  Aligned_cols=6  Identities=83%  Similarity=1.559  Sum_probs=0.0  Template_Neff=5.200
+
+Q QGGRGN            1 QGGRGN    6 (6)
+Q Consensus         1 qggrgn    6 (6)
+                      +|||||
+T Consensus        10 ~~grg~   15 (160)
+T 5BWA_B           10 PGGRGN   15 (160)
+T ss_dssp             ------
+T ss_pred             CCCCCC
+Confidence            478886
+
+
+No 2
+>1LNZ_A SPO0B-associated GTP-binding protein; GTPase, Obg, stringent factor, stress; HET: G4P; 2.6A {Bacillus subtilis} SCOP: c.37.1.8, b.117.1.1
+Probab=18.24  E-value=1.2e+02  Score=12.94  Aligned_cols=6  Identities=83%  Similarity=1.653  Sum_probs=0.0  Template_Neff=9.200
+
+Q QGGRGN            1 QGGRGN    6 (6)
+Q Consensus         1 qggrgn    6 (6)
+                      .||+||
+T Consensus       121 ~gg~gn  126 (342)
+T 1LNZ_A          121 RGGRGN  126 (342)
+T ss_dssp             CCCCCG
+T ss_pred             CCCCCc
+
+
+No 3
+>6QB8_h T-complex protein 1 subunit alpha; CCT, folding, WD40, mLST8, CHAPERONE; HET: ADP; 3.97A {Homo sapiens}
+Probab=18.00  E-value=1.2e+02  Score=13.41  Aligned_cols=5  Identities=60%  Similarity=1.059  Sum_probs=0.0  Template_Neff=9.900
+
+Q QGGRGN            1 QGGRG    5 (6)
+Q Consensus         1 qggrg    5 (6)
+                      |||||
+T Consensus       534 ~~~~~  538 (543)
+T 6QB8_h          534 GRGRG  538 (543)
+T ss_dssp             SSCEE
+T ss_pred             CCCCC
+
+
+No 4
+>7BL6_9 50S ribosomal protein L36, 50S; RIBOSOME, pre-50S, ribosome biogenesis, ribosome; HET: GNP;{Escherichia coli}
+Probab=17.40  E-value=1.3e+02  Score=12.94  Aligned_cols=5  Identities=60%  Similarity=0.893  Sum_probs=0.0  Template_Neff=9.500
+
+Q QGGRGN            2 GGRGN    6 (6)
+Q Consensus         2 ggrgn    6 (6)
+                      ||+||
+T Consensus       123 gg~gn  127 (390)
+T 7BL6_9          123 HGLGN  127 (390)
+T ss_dssp             CCCCG
+T ss_pred             ccccc
+
+
+No 5
+>7OF7_x 39S ribosomal protein L32, mitochondrial; Mitochondria, Ribosome, Biogenesis, GTPase, NSUN4; HET: MG, OMU, OMG; 2.5A {Homo sapiens}
+Probab=16.57  E-value=1.4e+02  Score=13.85  Aligned_cols=6  Identities=67%  Similarity=1.448  Sum_probs=0.0  Template_Neff=7.700
+
+Q QGGRGN            1 QGGRGN    6 (6)
+Q Consensus         1 qggrgn    6 (6)
+                      .||+||
+T Consensus       187 ~GG~Gn  192 (406)
+T 7OF7_x          187 AGGKGN  192 (406)
+T ss_pred             CcccCc
+
+
+No 6
+>5XY3_a Ribosomal protein L8, putative, Uncharacterized; Trichomonas vaginalis ribosome, rRNA, rprotein; 3.2A {Trichomonas vaginalis}
+Probab=15.93  E-value=1.5e+02  Score=12.04  Aligned_cols=6  Identities=50%  Similarity=1.138  Sum_probs=0.0  Template_Neff=7.500
+
+Q QGGRGN            1 QGGRGN    6 (6)
+Q Consensus         1 qggrgn    6 (6)
+                      .||||+
+T Consensus        29 ~gg~G~   34 (151)
+T 5XY3_a           29 PGGHGR   34 (151)
+T ss_pred             CCCCCC
+
+
+No 7
+>6OEI_A Spindle pole body component SPC42; Yeast Centrosome, Coiled-Coil, Spindle Pole; HET: MSE, MPD; 2.58A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=15.89  E-value=1.5e+02  Score=10.90  Aligned_cols=5  Identities=60%  Similarity=1.365  Sum_probs=0.0  Template_Neff=12.100
+
+Q QGGRGN            2 GGRGN    6 (6)
+Q Consensus         2 ggrgn    6 (6)
+                      ||.||
+T Consensus         1 ~~~~~    5 (298)
+T 6OEI_A            1 GGSGS    5 (298)
+T ss_pred             CCCCC
+
+
+No 8
+>3BP8_C Putative NAGC-like transcriptional regulator, PTS; enzyme, IICBGlc, glucose signaling, Mlc; HET: ACT; 2.85A {Escherichia coli} SCOP: d.95.1.1
+Probab=14.76  E-value=1.6e+02  Score=10.69  Aligned_cols=5  Identities=60%  Similarity=1.258  Sum_probs=0.0  Template_Neff=7.300
+
+Q QGGRGN            2 GGRGN    6 (6)
+Q Consensus         2 ggrgn    6 (6)
+                      ||..|
+T Consensus        10 GG~eN   14 (75)
+T 3BP8_C           10 GGKEN   14 (75)
+T ss_dssp             TCTTT
+T ss_pred             cCHHH
+
+
+No 9
+>5M04_A GTPase ObgE/CgtA (E.C.3.6.5.-); GTPase, ObgE, CgtA, hydrolase; HET: GDP; 1.85A {Escherichia coli DH5[alpha]}
+Probab=14.58  E-value=1.7e+02  Score=12.93  Aligned_cols=6  Identities=50%  Similarity=0.595  Sum_probs=0.0  Template_Neff=8.600
+
+Q QGGRGN            1 QGGRGN    6 (6)
+Q Consensus         1 qggrgn    6 (6)
+                      .||+||
+T Consensus       142 ~GG~Gn  147 (360)
+T 5M04_A          142 WHGLGN  147 (360)
+T ss_dssp             CCCCCG
+T ss_pred             ccCccc
+
+
+No 10
+>5CHX_B DNA repair protein XRCC4,Myosin-7; Myosin, coiled-coil, MOTOR PROTEIN; HET: MLY; 2.3A {Homo sapiens}
+Probab=14.37  E-value=1.7e+02  Score=12.00  Aligned_cols=5  Identities=60%  Similarity=1.365  Sum_probs=0.0  Template_Neff=8.500
+
+Q QGGRGN            2 GGRGN    6 (6)
+Q Consensus         2 ggrgn    6 (6)
+                      ||+++
+T Consensus         1 ~~~~~    5 (214)
+T 5CHX_B            1 GGSGE    5 (214)
+T ss_dssp             --CCE
+T ss_pred             CCCCc
+
+

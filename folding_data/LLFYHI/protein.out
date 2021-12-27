@@ -1,0 +1,149 @@
+Query         LLFYHI
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 19:14:10 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LLFYHI/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LLFYHI/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 1W7D_A BETA-IG-H3/FASCICLIN; F  15.0 1.6E+02  0.0018   10.1   0.0    6    1-6      70-75  (137)
+  2 5J3E_B Thymocyte nuclear prote  13.8 1.8E+02   0.002   13.7   0.0    5    1-5     111-115 (225)
+  3 3EOP_B Thymocyte nuclear prote  13.7 1.8E+02   0.002   13.2   0.0    4    2-5      59-62  (176)
+  4 4IOX_C Tripartite terminase su  13.6 1.9E+02  0.0021   14.7   0.0    5    1-5     168-172 (286)
+  5 3N4P_B Terminase subunit UL89   13.5 1.9E+02  0.0021   14.5   0.0    5    1-5     166-170 (279)
+  6 3N4P_D Terminase subunit UL89   13.5 1.9E+02  0.0021   14.5   0.0    5    1-5     166-170 (279)
+  7 6EY7_C UL89 HCMV terminase; Cy  13.5 1.9E+02  0.0021   14.5   0.0    5    1-5     166-170 (279)
+  8 6KGX_31 Phycoerythrin alpha su  13.4 1.9E+02  0.0021   12.6   0.0    6    1-6     232-237 (288)
+  9 6TJV_Q NAD(P)H-quinone oxidore  13.4 1.9E+02  0.0021   10.5   0.0    6    1-6      67-72  (149)
+ 10 6M5T_A Tripartite terminase su  13.4 1.9E+02  0.0021   14.6   0.0    5    1-5     168-172 (286)
+
+No 1
+>1W7D_A BETA-IG-H3/FASCICLIN; FASCICLIN, CELL ADHESION; NMR {RHODOBACTER SPHAEROIDES}
+Probab=15.01  E-value=1.6e+02  Score=10.14  Aligned_cols=6  Identities=50%  Similarity=1.193  Sum_probs=0.0  Template_Neff=10.700
+
+Q LLFYHI            1 LLFYHI    6 (6)
+Q Consensus         1 llfyhi    6 (6)
+                      ++-|||
+T Consensus        70 ~l~~hi   75 (137)
+T 1W7D_A           70 ILTYHV   75 (137)
+T ss_dssp             HHHHHE
+T ss_pred             HHHHhh
+
+
+No 2
+>5J3E_B Thymocyte nuclear protein 1/DNA Complex; protein-DNA complex, modified DNA, 5-methylcytosine; HET: 5CM; 2.6A {Homo sapiens}
+Probab=13.77  E-value=1.8e+02  Score=13.69  Aligned_cols=5  Identities=60%  Similarity=1.437  Sum_probs=0.0  Template_Neff=4.900
+
+Q LLFYHI            1 LLFYH    5 (6)
+Q Consensus         1 llfyh    5 (6)
+                      .+|||
+T Consensus       111 vffYH  115 (225)
+T 5J3E_B          111 AFFYH  115 (225)
+T ss_dssp             EEEEE
+T ss_pred             EEEEe
+
+
+No 3
+>3EOP_B Thymocyte nuclear protein 1; unknown function, Nucleus, Phosphoprotein; HET: SO4; 2.3A {Homo sapiens}
+Probab=13.69  E-value=1.8e+02  Score=13.22  Aligned_cols=4  Identities=75%  Similarity=1.896  Sum_probs=0.0  Template_Neff=4.900
+
+Q LLFYHI            2 LFYH    5 (6)
+Q Consensus         2 lfyh    5 (6)
+                      +|||
+T Consensus        59 ~fYH   62 (176)
+T 3EOP_B           59 FFYH   62 (176)
+T ss_dssp             EEEE
+T ss_pred             EEEe
+
+
+No 4
+>4IOX_C Tripartite terminase subunit UL15, unknown; nuclease, VIRAL PROTEIN; HET: PG4, PGE; 2.458A {Human herpesvirus 1}
+Probab=13.56  E-value=1.9e+02  Score=14.68  Aligned_cols=5  Identities=100%  Similarity=1.916  Sum_probs=0.0  Template_Neff=3.400
+
+Q LLFYHI            1 LLFYH    5 (6)
+Q Consensus         1 llfyh    5 (6)
+                      ++|||
+T Consensus       168 ~~FyH  172 (286)
+T 4IOX_C          168 LLFYH  172 (286)
+T ss_dssp             EEECC
+T ss_pred             EEEEE
+
+
+No 5
+>3N4P_B Terminase subunit UL89 protein; Terminase, Nuclease, Human cytomegalovirus, HCMV; 2.15A {Human herpesvirus 5}
+Probab=13.52  E-value=1.9e+02  Score=14.49  Aligned_cols=5  Identities=80%  Similarity=1.769  Sum_probs=0.0  Template_Neff=3.800
+
+Q LLFYHI            1 LLFYH    5 (6)
+Q Consensus         1 llfyh    5 (6)
+                      ++|||
+T Consensus       166 ~~FyH  170 (279)
+T 3N4P_B          166 VLFYH  170 (279)
+T ss_dssp             EEEEC
+T ss_pred             EEEEE
+
+
+No 6
+>3N4P_D Terminase subunit UL89 protein; Terminase, Nuclease, Human cytomegalovirus, HCMV; 2.15A {Human herpesvirus 5}
+Probab=13.52  E-value=1.9e+02  Score=14.49  Aligned_cols=5  Identities=80%  Similarity=1.769  Sum_probs=0.0  Template_Neff=3.800
+
+Q LLFYHI            1 LLFYH    5 (6)
+Q Consensus         1 llfyh    5 (6)
+                      ++|||
+T Consensus       166 ~~FyH  170 (279)
+T 3N4P_D          166 VLFYH  170 (279)
+T ss_dssp             EEEEC
+T ss_pred             EEEEE
+
+
+No 7
+>6EY7_C UL89 HCMV terminase; Cytomegalovirus, UL89, terminase, inhibitors, drug; HET: C3W, MN; 2.9A {Human herpesvirus 5 strain AD169}
+Probab=13.52  E-value=1.9e+02  Score=14.49  Aligned_cols=5  Identities=80%  Similarity=1.769  Sum_probs=0.0  Template_Neff=3.800
+
+Q LLFYHI            1 LLFYH    5 (6)
+Q Consensus         1 llfyh    5 (6)
+                      ++|||
+T Consensus       166 ~~FyH  170 (279)
+T 6EY7_C          166 VLFYH  170 (279)
+T ss_dssp             EEEEC
+T ss_pred             EEEEE
+
+
+No 8
+>6KGX_31 Phycoerythrin alpha subunit, B-phycoerythrin beta; phycobilisome, Complex, PHOTOSYNTHESIS; HET: MEN, PUB, PEB, CYC; 2.8A {Porphyridium purpureum}
+Probab=13.41  E-value=1.9e+02  Score=12.56  Aligned_cols=6  Identities=33%  Similarity=0.683  Sum_probs=0.0  Template_Neff=8.200
+
+Q LLFYHI            1 LLFYHI    6 (6)
+Q Consensus         1 llfyhi    6 (6)
+                      ++-|||
+T Consensus       232 vl~yHI  237 (288)
+T 6KGX_31         232 FVDYQI  237 (288)
+T ss_pred             HHheeE
+
+
+No 9
+>6TJV_Q NAD(P)H-quinone oxidoreductase subunit 1 (E.C.7.1.1.-); carbon concentrating photosynthetic complex I; HET: BCR, CLA, DGD, SF4, SQD, PGT;{Thermosynechococcus elongatus (strain BP-1)}
+Probab=13.36  E-value=1.9e+02  Score=10.51  Aligned_cols=6  Identities=50%  Similarity=1.132  Sum_probs=0.0  Template_Neff=9.900
+
+Q LLFYHI            1 LLFYHI    6 (6)
+Q Consensus         1 llfyhi    6 (6)
+                      ++.||+
+T Consensus        67 ll~~hi   72 (149)
+T 6TJV_Q           67 ILKYHV   72 (149)
+T ss_dssp             HHHHHB
+T ss_pred             HHHHhh
+
+
+No 10
+>6M5T_A Tripartite terminase subunit 3 (E.C.3.1.-.-); HSV-1, nuclease domain, apo terminase; 2.46A {Human alphaherpesvirus 1 strain 17}
+Probab=13.36  E-value=1.9e+02  Score=14.65  Aligned_cols=5  Identities=100%  Similarity=1.916  Sum_probs=0.0  Template_Neff=3.400
+
+Q LLFYHI            1 LLFYH    5 (6)
+Q Consensus         1 llfyh    5 (6)
+                      ++|||
+T Consensus       168 ~~FyH  172 (286)
+T 6M5T_A          168 LLFYH  172 (286)
+T ss_dssp             CEECC
+T ss_pred             EEEEE
+
+

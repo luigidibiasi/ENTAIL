@@ -1,0 +1,148 @@
+Query         LANATK
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 13:55:18 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LANATK/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LANATK/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6T9K_Q Transcription factor SP  10.3 2.8E+02  0.0031   15.4   0.0    6    1-6     563-568 (657)
+  2 2XZ2_A CSTF-50, ISOFORM B; RNA   4.9 7.4E+02  0.0082    9.6   0.0    6    1-6      39-44  (66)
+  3 5KBQ_A Serine/threonine-protei   4.5 8.1E+02  0.0089    9.4   0.0    4    3-6     286-289 (289)
+  4 3J0G_P E3 protein (E.C.3.4.21.   4.4 8.5E+02  0.0094   10.1   0.0    5    1-5       9-13  (59)
+  5 7FFF_L Virus, Receptor, Comple   4.4 8.5E+02  0.0094   10.1   0.0    5    1-5       9-13  (59)
+  6 6YB2_D alpha-helical barrel, d   4.3 8.7E+02  0.0096    9.2   0.0    6    1-6      11-16  (32)
+  7 6NK7_U E1 glycoprotein, E2 gly   4.3 8.7E+02  0.0096   10.1   0.0    5    1-5       6-10  (60)
+  8 1U6H_B Vinculin, Talin; Protei   3.9 9.6E+02   0.011    7.9   0.0    6    1-6      15-20  (31)
+  9 4NYQ_A Milk protein; In-vivo c   3.7   1E+03   0.011   11.7   0.0    6    1-6       6-11  (164)
+ 10 4NYR_A Milk protein; In-vivo c   3.7   1E+03   0.011   11.7   0.0    6    1-6       6-11  (164)
+
+No 1
+>6T9K_Q Transcription factor SPT20, Protein SPT3; Coactivator, Transcription, Histone acetyltransferase, Histone; 3.3A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=10.27  E-value=2.8e+02  Score=15.40  Aligned_cols=6  Identities=100%  Similarity=1.016  Sum_probs=3.3  Template_Neff=4.100
+
+Q LANATK            1 LANATK    6 (6)
+Q Consensus         1 lanatk    6 (6)
+                      ||||||
+T Consensus       563 ~~n~~~  568 (657)
+T 6T9K_Q          563 LANATK  568 (657)
+T ss_pred             HHHhhh
+Confidence            456654
+
+
+No 2
+>2XZ2_A CSTF-50, ISOFORM B; RNA-BINDING PROTEIN, 3' END MRNA; 1.4A {DROSOPHILA MELANOGASTER}
+Probab=4.87  E-value=7.4e+02  Score=9.63  Aligned_cols=6  Identities=33%  Similarity=0.274  Sum_probs=0.0  Template_Neff=5.200
+
+Q LANATK            1 LANATK    6 (6)
+Q Consensus         1 lanatk    6 (6)
+                      |+++++
+T Consensus        39 la~a~~   44 (66)
+T 2XZ2_A           39 LSMLVK   44 (66)
+T ss_dssp             HHHHHT
+T ss_pred             HHHHhC
+
+
+No 3
+>5KBQ_A Serine/threonine-protein kinase PAK 1 (E.C.2.7.11.1); Serine/threonine-protein kinase PAK1, KINASE, TRANSFERASE; HET: IPV; 2.58A {Homo sapiens}
+Probab=4.54  E-value=8.1e+02  Score=9.36  Aligned_cols=4  Identities=75%  Similarity=0.750  Sum_probs=0.0  Template_Neff=11.300
+
+Q LANATK            3 NATK    6 (6)
+Q Consensus         3 natk    6 (6)
+                      +|||
+T Consensus       286 ~~~~  289 (289)
+T 5KBQ_A          286 EATK  289 (289)
+T ss_dssp             HHCC
+T ss_pred             HhhC
+
+
+No 4
+>3J0G_P E3 protein (E.C.3.4.21.90); alphavirus, bioweapon, VEEV, VIRUS; 4.8A {Venezuelan equine encephalitis virus}
+Probab=4.35  E-value=8.5e+02  Score=10.08  Aligned_cols=5  Identities=80%  Similarity=0.853  Sum_probs=0.0  Template_Neff=2.700
+
+Q LANATK            1 LANAT    5 (6)
+Q Consensus         1 lanat    5 (6)
+                      |+|.|
+T Consensus         9 LaN~t   13 (59)
+T 3J0G_P            9 LANVT   13 (59)
+T ss_dssp             ETTEE
+T ss_pred             hhccc
+
+
+No 5
+>7FFF_L Virus, Receptor, Complex, VIRUS LIKE; 3.0A {Venezuelan equine encephalitis virus (strain TC-83)}
+Probab=4.35  E-value=8.5e+02  Score=10.08  Aligned_cols=5  Identities=80%  Similarity=0.853  Sum_probs=0.0  Template_Neff=2.700
+
+Q LANATK            1 LANAT    5 (6)
+Q Consensus         1 lanat    5 (6)
+                      |+|.|
+T Consensus         9 LaN~t   13 (59)
+T 7FFF_L            9 LANVT   13 (59)
+T ss_pred             hhccc
+
+
+No 6
+>6YB2_D alpha-helical barrel, de novo protein; HET: GOL, ACE; 1.18A {N/A}
+Probab=4.27  E-value=8.7e+02  Score=9.22  Aligned_cols=6  Identities=67%  Similarity=0.783  Sum_probs=0.0  Template_Neff=1.000
+
+Q LANATK            1 LANATK    6 (6)
+Q Consensus         1 lanatk    6 (6)
+                      +|.|||
+T Consensus        11 iakatk   16 (32)
+T 6YB2_D           11 IAKATK   16 (32)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 7
+>6NK7_U E1 glycoprotein, E2 glycoprotein, Capsid; Chikungunya, viral receptor, Mxra8, Structural; HET: NAG; 4.99A {Chikungunya virus}
+Probab=4.27  E-value=8.7e+02  Score=10.05  Aligned_cols=5  Identities=80%  Similarity=0.886  Sum_probs=0.0  Template_Neff=2.800
+
+Q LANATK            1 LANAT    5 (6)
+Q Consensus         1 lanat    5 (6)
+                      |+|.|
+T Consensus         6 LaN~t   10 (60)
+T 6NK7_U            6 LANTT   10 (60)
+T ss_pred             ecCce
+
+
+No 8
+>1U6H_B Vinculin, Talin; Protein-protein complex, cell adhesion; 2.38A {Gallus gallus}
+Probab=3.94  E-value=9.6e+02  Score=7.86  Aligned_cols=6  Identities=67%  Similarity=0.728  Sum_probs=0.0  Template_Neff=5.700
+
+Q LANATK            1 LANATK    6 (6)
+Q Consensus         1 lanatk    6 (6)
+                      |+.+|.
+T Consensus        15 la~at~   20 (31)
+T 1U6H_B           15 LADATA   20 (31)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 9
+>4NYQ_A Milk protein; In-vivo crystallization, cockroach, SAD phasing; HET: NAG, BMA, OLA, EIC, GOL; 1.2A {Diploptera punctata}
+Probab=3.74  E-value=1e+03  Score=11.69  Aligned_cols=6  Identities=50%  Similarity=0.650  Sum_probs=0.0  Template_Neff=1.400
+
+Q LANATK            1 LANATK    6 (6)
+Q Consensus         1 lanatk    6 (6)
+                      +|||.|
+T Consensus         6 ~ana~~   11 (164)
+T 4NYQ_A            6 VANAKE   11 (164)
+T ss_dssp             ----CC
+T ss_pred             EecCCC
+
+
+No 10
+>4NYR_A Milk protein; In-vivo crystallization, cockroach, SAD phasing; HET: NAG; 2.49A {Diploptera punctata}
+Probab=3.74  E-value=1e+03  Score=11.69  Aligned_cols=6  Identities=50%  Similarity=0.650  Sum_probs=0.0  Template_Neff=1.400
+
+Q LANATK            1 LANATK    6 (6)
+Q Consensus         1 lanatk    6 (6)
+                      +|||.|
+T Consensus         6 ~ana~~   11 (164)
+T 4NYR_A            6 VANAKE   11 (164)
+T ss_dssp             ----CC
+T ss_pred             EecCCC
+
+

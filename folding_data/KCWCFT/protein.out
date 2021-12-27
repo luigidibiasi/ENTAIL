@@ -1,0 +1,279 @@
+Query         KCWCFT
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 10:22:37 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/KCWCFT/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/KCWCFT/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5YWZ_A SUN domain-containing p  88.7    0.23 2.5E-06   21.1   0.0    6    1-6     125-130 (242)
+  2 4DXT_A SUN domain-containing p  88.4    0.25 2.8E-06   19.6   0.0    6    1-6      81-86  (198)
+  3 6H8O_A Replication-associated   87.8     0.3 3.3E-06   17.6   0.0    6    1-6       5-10  (95)
+  4 5XOR_A Rep protein; PCV2, Rep,  87.2    0.35 3.9E-06   18.8   0.0    6    1-6      15-20  (158)
+  5 5XOR_B Rep protein; PCV2, Rep,  87.0    0.37   4E-06   18.8   0.0    6    1-6      15-20  (158)
+  6 5ED8_A MKIAA0668 protein; SUN   86.7     0.4 4.4E-06   21.0   0.0    6    1-6     151-156 (268)
+  7 7LAS_D Rolling circle replicat  86.7     0.4 4.4E-06   18.9   0.0    6    1-6      15-20  (314)
+  8 4BKW_A ZINC FINGER FYVE DOMAIN  86.5    0.42 4.6E-06   23.7   0.0    6    1-6      67-72  (531)
+  9 6R2I_A SUN domain-containing p  85.8    0.48 5.4E-06   19.1   0.0    6    1-6      85-90  (203)
+ 10 6WMD_A SUN domain-containing p  84.8     0.6 6.6E-06   18.6   0.0    6    1-6      85-90  (202)
+ 11 6WDZ_A Replication-associated   84.0    0.69 7.7E-06   17.1   0.0    6    1-6      14-19  (115)
+ 12 2HW0_A Replicase; alpha+beta,   83.6    0.74 8.2E-06   17.0   0.0    6    1-6      14-19  (115)
+ 13 1SO9_A Cytochrome C oxidase as  62.5     6.6 7.3E-05   17.3   0.0    6    1-6      99-104 (164)
+ 14 2PE4_A Hyaluronidase-1 (E.C.3.  49.6      15 0.00017   17.9   0.0    6    1-6     398-403 (424)
+ 15 2E01_A Cysteine proteinase 1 (  41.4      25 0.00027   16.0   0.0    6    1-6      76-81  (457)
+ 16 3GCB_A GAL6; BLEOMYCIN HYDROLA  36.9      33 0.00036   15.8   0.0    6    1-6      89-94  (470)
+ 17 2E00_A bleomycin hydrolase, th  33.4      40 0.00044   15.4   0.0    6    1-6      76-81  (457)
+ 18 4CSQ_A UNCHARACTERIZED PROTEIN  25.2      69 0.00076   14.4   0.0    6    1-6      68-73  (113)
+
+No 1
+>5YWZ_A SUN domain-containing protein 1; LINC complex  SUN proteins; 2.2A {Mus musculus}
+Probab=88.72  E-value=0.23  Score=21.13  Aligned_cols=6  Identities=50%  Similarity=1.890  Sum_probs=4.7  Template_Neff=7.300
+
+Q KCWCFT            1 KCWCFT    6 (6)
+Q Consensus         1 kcwcft    6 (6)
+                      .||||+
+T Consensus       125 ~CW~~~  130 (242)
+T 5YWZ_A          125 NCWAFK  130 (242)
+T ss_dssp             CCEEEE
+T ss_pred             ceeeec
+Confidence            499984
+
+
+No 2
+>4DXT_A SUN domain-containing protein 2; beta-sandwich, LINC complex, STRUCTURAL PROTEIN; 2.22A {Homo sapiens}
+Probab=88.40  E-value=0.25  Score=19.56  Aligned_cols=6  Identities=50%  Similarity=1.885  Sum_probs=4.6  Template_Neff=8.600
+
+Q KCWCFT            1 KCWCFT    6 (6)
+Q Consensus         1 kcwcft    6 (6)
+                      .||||.
+T Consensus        81 ~CW~~~   86 (198)
+T 4DXT_A           81 NCWAFQ   86 (198)
+T ss_dssp             CSEEEE
+T ss_pred             CeEEee
+Confidence            599984
+
+
+No 3
+>6H8O_A Replication-associated protein; endonuclease, Faba Bean Necrotic Yellows; HET: SO4; 1.15A {Faba bean necrotic yellows virus}
+Probab=87.82  E-value=0.3  Score=17.58  Aligned_cols=6  Identities=83%  Similarity=2.472  Sum_probs=4.5  Template_Neff=8.500
+
+Q KCWCFT            1 KCWCFT    6 (6)
+Q Consensus         1 kcwcft    6 (6)
+                      +.||||
+T Consensus         5 r~w~~T   10 (95)
+T 6H8O_A            5 ICWCFT   10 (95)
+T ss_dssp             EEEEEE
+T ss_pred             eEEEEE
+Confidence            478887
+
+
+No 4
+>5XOR_A Rep protein; PCV2, Rep, Dimer, Replication; 2.699A {Porcine circovirus 2}
+Probab=87.15  E-value=0.35  Score=18.82  Aligned_cols=6  Identities=67%  Similarity=1.370  Sum_probs=4.7  Template_Neff=8.300
+
+Q KCWCFT            1 KCWCFT    6 (6)
+Q Consensus         1 kcwcft    6 (6)
+                      ++||||
+T Consensus        15 r~w~~T   20 (158)
+T 5XOR_A           15 KRWVFT   20 (158)
+T ss_dssp             EEEEEE
+T ss_pred             cEEEEE
+Confidence            579987
+
+
+No 5
+>5XOR_B Rep protein; PCV2, Rep, Dimer, Replication; 2.699A {Porcine circovirus 2}
+Probab=87.02  E-value=0.37  Score=18.85  Aligned_cols=6  Identities=67%  Similarity=1.370  Sum_probs=4.7  Template_Neff=8.200
+
+Q KCWCFT            1 KCWCFT    6 (6)
+Q Consensus         1 kcwcft    6 (6)
+                      ++||||
+T Consensus        15 r~w~~T   20 (158)
+T 5XOR_B           15 KRWVFT   20 (158)
+T ss_pred             cEEEEE
+Confidence            579987
+
+
+No 6
+>5ED8_A MKIAA0668 protein; SUN domain, nuclear membrane, TRANSPORT; 2.5A {Mus musculus}
+Probab=86.67  E-value=0.4  Score=20.98  Aligned_cols=6  Identities=50%  Similarity=1.885  Sum_probs=4.7  Template_Neff=6.900
+
+Q KCWCFT            1 KCWCFT    6 (6)
+Q Consensus         1 kcwcft    6 (6)
+                      .||||.
+T Consensus       151 ~CW~f~  156 (268)
+T 5ED8_A          151 NCWAFQ  156 (268)
+T ss_dssp             CSEEEE
+T ss_pred             ceeEee
+Confidence            499984
+
+
+No 7
+>7LAS_D Rolling circle replication, CRESS-DNA virus; HET: ADP;{Escherichia coli}
+Probab=86.65  E-value=0.4  Score=18.87  Aligned_cols=6  Identities=67%  Similarity=1.370  Sum_probs=0.0  Template_Neff=10.300
+
+Q KCWCFT            1 KCWCFT    6 (6)
+Q Consensus         1 kcwcft    6 (6)
+                      +.||||
+T Consensus        15 r~~~~T   20 (314)
+T 7LAS_D           15 KRWVFT   20 (314)
+T ss_dssp             ------
+T ss_pred             CEEEEE
+Confidence            579987
+
+
+No 8
+>4BKW_A ZINC FINGER FYVE DOMAIN-CONTAINING PROTEIN; RECEPTOR, PROTEIN INTERACTION DOMAIN, TGF-BETA; HET: EDO, PG4; 2.53A {HOMO SAPIENS}
+Probab=86.48  E-value=0.42  Score=23.71  Aligned_cols=6  Identities=100%  Similarity=2.765  Sum_probs=4.9  Template_Neff=5.200
+
+Q KCWCFT            1 KCWCFT    6 (6)
+Q Consensus         1 kcwcft    6 (6)
+                      +||||+
+T Consensus        67 ~cW~f~   72 (531)
+T 4BKW_A           67 KCWCFT   72 (531)
+T ss_dssp             EEEEEE
+T ss_pred             eEEEEE
+Confidence            699985
+
+
+No 9
+>6R2I_A SUN domain-containing protein 1, Nesprin-1; SUN1, KASH5, LINC complex, Nucleoskeleton; 1.541A {Homo sapiens}
+Probab=85.80  E-value=0.48  Score=19.06  Aligned_cols=6  Identities=50%  Similarity=1.890  Sum_probs=4.5  Template_Neff=8.300
+
+Q KCWCFT            1 KCWCFT    6 (6)
+Q Consensus         1 kcwcft    6 (6)
+                      .||||.
+T Consensus        85 ~CW~~~   90 (203)
+T 6R2I_A           85 NCWAFK   90 (203)
+T ss_dssp             CSEEEE
+T ss_pred             CeEEec
+Confidence            499984
+
+
+No 10
+>6WMD_A SUN domain-containing protein 2, Nesprin-4; LINC Complex, STRUCTURAL PROTEIN; 1.5A {Homo sapiens}
+Probab=84.75  E-value=0.6  Score=18.59  Aligned_cols=6  Identities=50%  Similarity=1.885  Sum_probs=4.4  Template_Neff=8.600
+
+Q KCWCFT            1 KCWCFT    6 (6)
+Q Consensus         1 kcwcft    6 (6)
+                      .||||.
+T Consensus        85 ~CW~~~   90 (202)
+T 6WMD_A           85 NCWAFQ   90 (202)
+T ss_dssp             CSEEEE
+T ss_pred             ceEEEc
+Confidence            499984
+
+
+No 11
+>6WDZ_A Replication-associated protein (E.C.3.1.21.-); HUH-tag, HUH motif, Rep domain; 2.03A {Porcine circovirus 2}
+Probab=83.96  E-value=0.69  Score=17.11  Aligned_cols=6  Identities=67%  Similarity=1.370  Sum_probs=4.4  Template_Neff=8.500
+
+Q KCWCFT            1 KCWCFT    6 (6)
+Q Consensus         1 kcwcft    6 (6)
+                      +.||||
+T Consensus        14 r~w~~T   19 (115)
+T 6WDZ_A           14 KRWVFT   19 (115)
+T ss_dssp             EEEEEE
+T ss_pred             cEEEEE
+Confidence            468887
+
+
+No 12
+>2HW0_A Replicase; alpha+beta, HYDROLASE, REPLICATION; NMR {Porcine circovirus 2}
+Probab=83.60  E-value=0.74  Score=16.97  Aligned_cols=6  Identities=67%  Similarity=1.370  Sum_probs=4.4  Template_Neff=8.600
+
+Q KCWCFT            1 KCWCFT    6 (6)
+Q Consensus         1 kcwcft    6 (6)
+                      +.||||
+T Consensus        14 r~~~~T   19 (115)
+T 2HW0_A           14 KRWVFT   19 (115)
+T ss_dssp             SCEEEE
+T ss_pred             cEEEEE
+Confidence            468886
+
+
+No 13
+>1SO9_A Cytochrome C oxidase assembly protein; immunoglobulin-like fold, copper protein, cytochrome; NMR {Sinorhizobium meliloti} SCOP: b.146.1.1
+Probab=62.50  E-value=6.6  Score=17.34  Aligned_cols=6  Identities=67%  Similarity=2.084  Sum_probs=4.3  Template_Neff=5.000
+
+Q KCWCFT            1 KCWCFT    6 (6)
+Q Consensus         1 kcwcft    6 (6)
+                      .|.||.
+T Consensus        99 qCFCF~  104 (164)
+T 1SO9_A           99 QCFCFT  104 (164)
+T ss_dssp             CCSSCS
+T ss_pred             EEEEcc
+Confidence            388884
+
+
+No 14
+>2PE4_A Hyaluronidase-1 (E.C.3.2.1.35); Hyaluronidase, Hyaluronan, EGF-like domain, HYDROLASE; HET: ACT, MAN, NAG, BMA; 2.0A {Homo sapiens}
+Probab=49.61  E-value=15  Score=17.87  Aligned_cols=6  Identities=50%  Similarity=1.653  Sum_probs=4.4  Template_Neff=5.800
+
+Q KCWCFT            1 KCWCFT    6 (6)
+Q Consensus         1 kcwcft    6 (6)
+                      +|||++
+T Consensus       398 ~C~Cy~  403 (424)
+T 2PE4_A          398 KCRCYP  403 (424)
+T ss_dssp             EEEECT
+T ss_pred             eeeecC
+Confidence            589974
+
+
+No 15
+>2E01_A Cysteine proteinase 1 (E.C.3.4.22.40); bleomycin hydrolase, thiol protease, C1; 1.73A {Saccharomyces cerevisiae}
+Probab=41.42  E-value=25  Score=15.98  Aligned_cols=6  Identities=50%  Similarity=1.913  Sum_probs=4.1  Template_Neff=8.300
+
+Q KCWCFT            1 KCWCFT    6 (6)
+Q Consensus         1 kcwcft    6 (6)
+                      .||.|.
+T Consensus        76 sCWafA   81 (457)
+T 2E01_A           76 RCWLFA   81 (457)
+T ss_dssp             CHHHHH
+T ss_pred             cccHHH
+Confidence            388874
+
+
+No 16
+>3GCB_A GAL6; BLEOMYCIN HYDROLASE, PEPTIDASE, PROTEASE, DNA-BINDING; HET: GOL, SO4; 1.87A {Saccharomyces cerevisiae} SCOP: d.3.1.1
+Probab=36.86  E-value=33  Score=15.79  Aligned_cols=6  Identities=33%  Similarity=1.304  Sum_probs=4.1  Template_Neff=8.100
+
+Q KCWCFT            1 KCWCFT    6 (6)
+Q Consensus         1 kcwcft    6 (6)
+                      .||.|.
+T Consensus        89 sCWafA   94 (470)
+T 3GCB_A           89 RAWLFA   94 (470)
+T ss_dssp             CHHHHH
+T ss_pred             chhHHH
+Confidence            388874
+
+
+No 17
+>2E00_A bleomycin hydrolase, thiol protease, C1; 2.0A {Saccharomyces cerevisiae}
+Probab=33.43  E-value=40  Score=15.35  Aligned_cols=6  Identities=50%  Similarity=1.913  Sum_probs=4.0  Template_Neff=8.300
+
+Q KCWCFT            1 KCWCFT    6 (6)
+Q Consensus         1 kcwcft    6 (6)
+                      .||.|.
+T Consensus        76 sCWafA   81 (457)
+T 2E00_A           76 RCWLFA   81 (457)
+T ss_dssp             CHHHHH
+T ss_pred             chhHHH
+Confidence            388774
+
+
+No 18
+>4CSQ_A UNCHARACTERIZED PROTEIN; STRUCTURAL PROTEIN, PUTATIVE PROTEIN, PH-FOLD; NMR {PSEUDOMONAS AERUGINOSA}
+Probab=25.20  E-value=69  Score=14.39  Aligned_cols=6  Identities=33%  Similarity=1.121  Sum_probs=3.5  Template_Neff=2.900
+
+Q KCWCFT            1 KCWCFT    6 (6)
+Q Consensus         1 kcwcft    6 (6)
+                      |.|-||
+T Consensus        68 k~W~Fs   73 (113)
+T 4CSQ_A           68 REWRFS   73 (113)
+T ss_dssp             EEEEEE
+T ss_pred             eEEEec
+Confidence            456664
+
+

@@ -1,0 +1,149 @@
+Query         EKDEYA
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 19:03:49 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/EKDEYA/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/EKDEYA/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3B49_A Lin2189 protein; Big 86  46.2      19 0.00021   14.1   0.0    6    1-6      15-20  (211)
+  2 4G7X_A Putative uncharacterize   9.0 3.3E+02  0.0037   12.4   0.0    5    1-5      46-50  (105)
+  3 4JRZ_A Leukotriene C4 synthase   8.2 3.7E+02  0.0041   11.1   0.0    5    2-6       8-12  (156)
+  4 5SWC_B CcaA (E.C.4.2.1.1); car   8.2 3.8E+02  0.0042   11.6   0.0    6    1-6     232-237 (239)
+  5 5SWC_C CcaA (E.C.4.2.1.1); car   8.2 3.8E+02  0.0042   11.6   0.0    6    1-6     232-237 (239)
+  6 5EFM_A Beclin-1; flexible heli   7.9 3.9E+02  0.0044    8.3   0.0    5    1-5      18-22  (31)
+  7 4G7W_B Putative uncharacterize   6.9 4.7E+02  0.0052   12.7   0.0    5    1-5      63-67  (160)
+  8 4G7W_C Putative uncharacterize   6.9 4.7E+02  0.0052   12.7   0.0    5    1-5      63-67  (160)
+  9 2GUT_A Positive cofactor 2 glu   6.5 5.1E+02  0.0056   10.1   0.0    4    2-5      51-54  (77)
+ 10 6R7Q_YY 40S ribosomal protein    6.1 5.5E+02  0.0061    9.9   0.0    5    1-5      23-27  (62)
+
+No 1
+>3B49_A Lin2189 protein; Big 860.1, structural genomics, MCSG; HET: GOL; 1.6A {Listeria innocua Clip11262}
+Probab=46.16  E-value=19  Score=14.10  Aligned_cols=6  Identities=67%  Similarity=0.755  Sum_probs=3.2  Template_Neff=9.400
+
+Q EKDEYA            1 EKDEYA    6 (6)
+Q Consensus         1 ekdeya    6 (6)
+                      |||+|+
+T Consensus        15 ~~~~~~   20 (211)
+T 3B49_A           15 EKKFYA   20 (211)
+T ss_dssp             CHHHHC
+T ss_pred             hHHHhC
+Confidence            456654
+
+
+No 2
+>4G7X_A Putative uncharacterized protein, TolA protein; Membrane, PROTEIN BINDING-PROTEIN BINDING complex; 1.44A {Vibrio cholerae}
+Probab=8.98  E-value=3.3e+02  Score=12.43  Aligned_cols=5  Identities=80%  Similarity=1.464  Sum_probs=0.0  Template_Neff=1.000
+
+Q EKDEYA            1 EKDEY    5 (6)
+Q Consensus         1 ekdey    5 (6)
+                      |||.|
+T Consensus        46 ekddy   50 (105)
+T 4G7X_A           46 EKDDY   50 (105)
+T ss_dssp             CEETT
+T ss_pred             ecccc
+
+
+No 3
+>4JRZ_A Leukotriene C4 synthase (E.C.4.4.1.20); Leukotriene C4 synthase, product analogs; HET: PAM, GTX, PLM; 2.4A {Homo sapiens}
+Probab=8.22  E-value=3.7e+02  Score=11.10  Aligned_cols=5  Identities=80%  Similarity=0.853  Sum_probs=0.0  Template_Neff=7.200
+
+Q EKDEYA            2 KDEYA    6 (6)
+Q Consensus         2 kdeya    6 (6)
+                      |||+.
+T Consensus         8 ~~~~~   12 (156)
+T 4JRZ_A            8 KDEVA   12 (156)
+T ss_dssp             HHHHH
+T ss_pred             cHHHH
+
+
+No 4
+>5SWC_B CcaA (E.C.4.2.1.1); carboxysome, bacterial microcompartment, carbonic anhydrase; HET: FMT; 1.45A {Synechocystis sp. (strain PCC 6803 / Kazusa)}
+Probab=8.20  E-value=3.8e+02  Score=11.57  Aligned_cols=6  Identities=67%  Similarity=1.066  Sum_probs=0.0  Template_Neff=7.800
+
+Q EKDEYA            1 EKDEYA    6 (6)
+Q Consensus         1 ekdeya    6 (6)
+                      +.||||
+T Consensus       232 ~~~~~~  237 (239)
+T 5SWC_B          232 PEDEYA  237 (239)
+T ss_dssp             GGGCCC
+T ss_pred             cchhhc
+
+
+No 5
+>5SWC_C CcaA (E.C.4.2.1.1); carboxysome, bacterial microcompartment, carbonic anhydrase; HET: FMT; 1.45A {Synechocystis sp. (strain PCC 6803 / Kazusa)}
+Probab=8.20  E-value=3.8e+02  Score=11.57  Aligned_cols=6  Identities=67%  Similarity=1.066  Sum_probs=0.0  Template_Neff=7.800
+
+Q EKDEYA            1 EKDEYA    6 (6)
+Q Consensus         1 ekdeya    6 (6)
+                      +.||||
+T Consensus       232 ~~~~~~  237 (239)
+T 5SWC_C          232 PEDEYA  237 (239)
+T ss_dssp             ------
+T ss_pred             cchhhc
+
+
+No 6
+>5EFM_A Beclin-1; flexible helix, APOPTOSIS; 1.95A {N/A}
+Probab=7.90  E-value=3.9e+02  Score=8.26  Aligned_cols=5  Identities=40%  Similarity=0.694  Sum_probs=0.0  Template_Neff=7.000
+
+Q EKDEYA            1 EKDEY    5 (6)
+Q Consensus         1 ekdey    5 (6)
+                      |.|.|
+T Consensus        18 E~d~Y   22 (31)
+T 5EFM_A           18 ECQNY   22 (31)
+T ss_pred             HHHHH
+
+
+No 7
+>4G7W_B Putative uncharacterized protein; beta barrel, TolA binding domain; HET: MSE; 2.9A {Vibrio cholerae}
+Probab=6.94  E-value=4.7e+02  Score=12.68  Aligned_cols=5  Identities=80%  Similarity=1.464  Sum_probs=0.0  Template_Neff=1.000
+
+Q EKDEYA            1 EKDEY    5 (6)
+Q Consensus         1 ekdey    5 (6)
+                      |||.|
+T Consensus        63 ekddy   67 (160)
+T 4G7W_B           63 EKDDY   67 (160)
+T ss_dssp             CEESS
+T ss_pred             eccCc
+
+
+No 8
+>4G7W_C Putative uncharacterized protein; beta barrel, TolA binding domain; 2.9A {Vibrio cholerae}
+Probab=6.94  E-value=4.7e+02  Score=12.68  Aligned_cols=5  Identities=80%  Similarity=1.464  Sum_probs=0.0  Template_Neff=1.000
+
+Q EKDEYA            1 EKDEY    5 (6)
+Q Consensus         1 ekdey    5 (6)
+                      |||.|
+T Consensus        63 ekddy   67 (160)
+T 4G7W_C           63 EKDDY   67 (160)
+T ss_dssp             CEETT
+T ss_pred             ecccc
+
+
+No 9
+>2GUT_A Positive cofactor 2 glutamine/Q-rich-associated protein; KIX, 3 HELICAL BUNDLE, TRANSCRIPTION; NMR {Homo sapiens}
+Probab=6.50  E-value=5.1e+02  Score=10.09  Aligned_cols=4  Identities=75%  Similarity=1.564  Sum_probs=0.0  Template_Neff=5.800
+
+Q EKDEYA            2 KDEY    5 (6)
+Q Consensus         2 kdey    5 (6)
+                      |+||
+T Consensus        51 keeY   54 (77)
+T 2GUT_A           51 RDEY   54 (77)
+T ss_dssp             HHHH
+T ss_pred             HHHH
+
+
+No 10
+>6R7Q_YY 40S ribosomal protein S30, 40S; translational pausing, XBP1, UPR, RIBOSOME; HET: MG; 3.9A {Oryctolagus cuniculus}
+Probab=6.14  E-value=5.5e+02  Score=9.91  Aligned_cols=5  Identities=20%  Similarity=0.973  Sum_probs=0.0  Template_Neff=5.100
+
+Q EKDEYA            1 EKDEY    5 (6)
+Q Consensus         1 ekdey    5 (6)
+                      .++||
+T Consensus        23 ~~~Ef   27 (62)
+T 6R7Q_YY          23 DRKEF   27 (62)
+T ss_pred             CHHHH
+
+

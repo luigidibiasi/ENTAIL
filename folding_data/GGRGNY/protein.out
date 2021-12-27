@@ -1,0 +1,145 @@
+Query         GGRGNY
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 00:47:27 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GGRGNY/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GGRGNY/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5ZWM_s Pre-mRNA-splicing facto  18.2 1.2E+02  0.0013   13.6   0.0    6    1-6     117-122 (187)
+  2 4CSU_9 50S RIBOSOMAL PROTEIN L  17.6 1.3E+02  0.0014   13.1   0.0    5    1-5     123-127 (390)
+  3 7BL6_9 50S ribosomal protein L  17.5 1.3E+02  0.0014   12.9   0.0    6    1-6     123-128 (390)
+  4 2QPV_A Uncharacterized protein  16.6 1.4E+02  0.0015   10.6   0.0    5    2-6      13-17  (156)
+  5 1LNZ_A SPO0B-associated GTP-bi  16.4 1.4E+02  0.0016   12.7   0.0    5    1-5     122-126 (342)
+  6 1AG7_A CONOTOXIN GS; NEUROTOXI  16.1 1.4E+02  0.0016   11.4   0.0    4    2-5      20-23  (34)
+  7 1H2V_Z 80 KDA NUCLEAR CAP BIND  15.8 1.5E+02  0.0016   10.0   0.0    6    1-6     144-149 (156)
+  8 6MST_D Serum amyloid A-2 prote  15.1 1.6E+02  0.0018   11.8   0.0    4    3-6      38-41  (66)
+  9 6MST_I Serum amyloid A-2 prote  15.1 1.6E+02  0.0018   11.8   0.0    4    3-6      38-41  (66)
+ 10 6OEI_A Spindle pole body compo  15.0 1.6E+02  0.0018   10.8   0.0    5    1-5       1-5   (298)
+
+No 1
+>5ZWM_s Pre-mRNA-splicing factor 8, U4/U6 small; spliceosome, assembly, pre-B complex, U1; HET: GTP; 3.4A {Saccharomyces cerevisiae S288c}
+Probab=18.23  E-value=1.2e+02  Score=13.60  Aligned_cols=6  Identities=67%  Similarity=1.315  Sum_probs=0.0  Template_Neff=5.600
+
+Q GGRGNY            1 GGRGNY    6 (6)
+Q Consensus         1 ggrgny    6 (6)
+                      ++||||
+T Consensus       117 ~~~~~~  122 (187)
+T 5ZWM_s          117 NNRGNY  122 (187)
+T ss_pred             CCCCcc
+
+
+No 2
+>4CSU_9 50S RIBOSOMAL PROTEIN L28, 50S; (P)PPGPP, OBG, RIBOSOME ASSEMBLY, STRINGENT; 5.5A {ESCHERICHIA COLI}
+Probab=17.56  E-value=1.3e+02  Score=13.06  Aligned_cols=5  Identities=60%  Similarity=0.893  Sum_probs=0.0  Template_Neff=9.300
+
+Q GGRGNY            1 GGRGN    5 (6)
+Q Consensus         1 ggrgn    5 (6)
+                      ||+||
+T Consensus       123 gg~gn  127 (390)
+T 4CSU_9          123 HGLGN  127 (390)
+T ss_dssp             CEECH
+T ss_pred             CCccc
+
+
+No 3
+>7BL6_9 50S ribosomal protein L36, 50S; RIBOSOME, pre-50S, ribosome biogenesis, ribosome; HET: GNP;{Escherichia coli}
+Probab=17.47  E-value=1.3e+02  Score=12.95  Aligned_cols=6  Identities=50%  Similarity=0.639  Sum_probs=0.0  Template_Neff=9.500
+
+Q GGRGNY            1 GGRGNY    6 (6)
+Q Consensus         1 ggrgny    6 (6)
+                      ||+||.
+T Consensus       123 gg~gn~  128 (390)
+T 7BL6_9          123 HGLGNT  128 (390)
+T ss_dssp             CCCCGG
+T ss_pred             cccccc
+
+
+No 4
+>2QPV_A Uncharacterized protein Atu1531; Agrobacterium tumefaciens, Atu1531, Structural Genomics; HET: MSE; 2.35A {Agrobacterium tumefaciens str.} SCOP: d.129.3.8
+Probab=16.62  E-value=1.4e+02  Score=10.65  Aligned_cols=5  Identities=60%  Similarity=0.953  Sum_probs=0.0  Template_Neff=10.500
+
+Q GGRGNY            2 GRGNY    6 (6)
+Q Consensus         2 grgny    6 (6)
+                      ||.||
+T Consensus        13 ~~~~~   17 (156)
+T 2QPV_A           13 GRENL   17 (156)
+T ss_dssp             -----
+T ss_pred             Cccce
+
+
+No 5
+>1LNZ_A SPO0B-associated GTP-binding protein; GTPase, Obg, stringent factor, stress; HET: G4P; 2.6A {Bacillus subtilis} SCOP: c.37.1.8, b.117.1.1
+Probab=16.35  E-value=1.4e+02  Score=12.74  Aligned_cols=5  Identities=100%  Similarity=1.883  Sum_probs=0.0  Template_Neff=9.200
+
+Q GGRGNY            1 GGRGN    5 (6)
+Q Consensus         1 ggrgn    5 (6)
+                      ||+||
+T Consensus       122 gg~gn  126 (342)
+T 1LNZ_A          122 GGRGN  126 (342)
+T ss_dssp             CCCCG
+T ss_pred             CCCCc
+
+
+No 6
+>1AG7_A CONOTOXIN GS; NEUROTOXIN, MU-CONOTOXIN, SODIUM CHANNEL BLOCKER; NMR {Conus geographus} SCOP: g.3.6.1
+Probab=16.12  E-value=1.4e+02  Score=11.42  Aligned_cols=4  Identities=100%  Similarity=1.805  Sum_probs=0.0  Template_Neff=1.000
+
+Q GGRGNY            2 GRGN    5 (6)
+Q Consensus         2 grgn    5 (6)
+                      ||||
+T Consensus        20 grgn   23 (34)
+T 1AG7_A           20 GRGN   23 (34)
+
+
+No 7
+>1H2V_Z 80 KDA NUCLEAR CAP BINDING; CAP-BINDING-COMPLEX, RNP DOMAIN, MIF4G DOMAIN; 2.0A {HOMO SAPIENS} SCOP: d.58.7.1
+Probab=15.82  E-value=1.5e+02  Score=10.04  Aligned_cols=6  Identities=67%  Similarity=1.475  Sum_probs=0.0  Template_Neff=11.500
+
+Q GGRGNY            1 GGRGNY    6 (6)
+Q Consensus         1 ggrgny    6 (6)
+                      |++|.|
+T Consensus       144 ~~~g~~  149 (156)
+T 1H2V_Z          144 AGRGGY  149 (156)
+T ss_pred             CCCCCC
+
+
+No 8
+>6MST_D Serum amyloid A-2 protein; AA-amyloidosis, Serum Amyloid A, cross-beta; 2.7A {Homo sapiens}
+Probab=15.05  E-value=1.6e+02  Score=11.80  Aligned_cols=4  Identities=100%  Similarity=1.904  Sum_probs=0.0  Template_Neff=4.300
+
+Q GGRGNY            3 RGNY    6 (6)
+Q Consensus         3 rgny    6 (6)
+                      ||||
+T Consensus        38 rgNy   41 (66)
+T 6MST_D           38 RGNY   41 (66)
+T ss_dssp             ESCE
+T ss_pred             HhcH
+
+
+No 9
+>6MST_I Serum amyloid A-2 protein; AA-amyloidosis, Serum Amyloid A, cross-beta; 2.7A {Homo sapiens}
+Probab=15.05  E-value=1.6e+02  Score=11.80  Aligned_cols=4  Identities=100%  Similarity=1.904  Sum_probs=0.0  Template_Neff=4.300
+
+Q GGRGNY            3 RGNY    6 (6)
+Q Consensus         3 rgny    6 (6)
+                      ||||
+T Consensus        38 rgNy   41 (66)
+T 6MST_I           38 RGNY   41 (66)
+T ss_dssp             ESCE
+T ss_pred             HhcH
+
+
+No 10
+>6OEI_A Spindle pole body component SPC42; Yeast Centrosome, Coiled-Coil, Spindle Pole; HET: MSE, MPD; 2.58A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=15.02  E-value=1.6e+02  Score=10.81  Aligned_cols=5  Identities=60%  Similarity=1.365  Sum_probs=0.0  Template_Neff=12.100
+
+Q GGRGNY            1 GGRGN    5 (6)
+Q Consensus         1 ggrgn    5 (6)
+                      ||.||
+T Consensus         1 ~~~~~    5 (298)
+T 6OEI_A            1 GGSGS    5 (298)
+T ss_pred             CCCCC
+
+

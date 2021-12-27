@@ -1,0 +1,160 @@
+Query         QFGGGN
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 07:32:37 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QFGGGN/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QFGGGN/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 1ZC1_A Ubiquitin fusion degrad  76.0     2.1 2.3E-05   17.3   0.0    6    1-6       7-12  (208)
+  2 6JK2_A Lectin; PhoSL, core-fuc  49.0      16 0.00017   14.2   0.0    6    1-6      22-27  (40)
+  3 6JK3_A Lectin; PhoSL, core-fuc  48.7      16 0.00018   14.2   0.0    6    1-6      22-27  (40)
+  4 5XZK_C lectin (PhoSL); Lectin,  47.9      17 0.00019   14.1   0.0    6    1-6      22-27  (40)
+  5 2APL_A hypothetical protein PG  46.5      18  0.0002   16.1   0.0    6    1-6     149-154 (157)
+  6 1LJ8_A mannitol dehydrogenase   43.7      22 0.00024   16.9   0.0    6    1-6      31-36  (493)
+  7 1M2W_A mannitol dehydrogenase   43.0      22 0.00025   16.8   0.0    6    1-6      31-36  (493)
+  8 4IM7_A Hypothetical oxidoreduc  35.3      36  0.0004   16.5   0.0    6    1-6      46-51  (506)
+  9 5ITG_A Sorbitol dehydrogenase;  32.6      42 0.00047   15.9   0.0    6    1-6      30-35  (484)
+ 10 3H2Z_A Mannitol-1-phosphate 5-  29.9      50 0.00056   14.9   0.0    6    1-6       5-10  (382)
+
+No 1
+>1ZC1_A Ubiquitin fusion degradation protein 1; Ufd1, double-psi-beta-barrel, PROTEIN TURNOVER; NMR {Saccharomyces cerevisiae}
+Probab=76.04  E-value=2.1  Score=17.31  Aligned_cols=6  Identities=83%  Similarity=1.708  Sum_probs=4.4  Template_Neff=8.400
+
+Q QFGGGN            1 QFGGGN    6 (6)
+Q Consensus         1 qfgggn    6 (6)
+                      .|||||
+T Consensus         7 ~~~~~~   12 (208)
+T 1ZC1_A            7 SFGGGN   12 (208)
+T ss_dssp             CCCCST
+T ss_pred             cccCCC
+Confidence            378886
+
+
+No 2
+>6JK2_A Lectin; PhoSL, core-fucosylated chitobiose, SUGAR BINDING; HET: SO4; 1.06A {Pholiota squarrosa}
+Probab=49.02  E-value=16  Score=14.20  Aligned_cols=6  Identities=50%  Similarity=1.193  Sum_probs=4.0  Template_Neff=2.200
+
+Q QFGGGN            1 QFGGGN    6 (6)
+Q Consensus         1 qfgggn    6 (6)
+                      |||.||
+T Consensus        22 ~FGDG~   27 (40)
+T 6JK2_A           22 DFGDGR   27 (40)
+T ss_dssp             SSTTTT
+T ss_pred             EecCCc
+Confidence            577765
+
+
+No 3
+>6JK3_A Lectin; PhoSL, core-fucosylated chitobiose, SUGAR BINDING; HET: GOL, FUC, NAG; 1.12A {Pholiota squarrosa}
+Probab=48.71  E-value=16  Score=14.18  Aligned_cols=6  Identities=50%  Similarity=1.193  Sum_probs=4.0  Template_Neff=2.200
+
+Q QFGGGN            1 QFGGGN    6 (6)
+Q Consensus         1 qfgggn    6 (6)
+                      |||.||
+T Consensus        22 ~FGDG~   27 (40)
+T 6JK3_A           22 DFGDGR   27 (40)
+T ss_dssp             CSTTSC
+T ss_pred             EecCCc
+Confidence            577764
+
+
+No 4
+>5XZK_C lectin (PhoSL); Lectin, Trimer, Fucose, SUGAR BINDING; NMR {N/A}
+Probab=47.87  E-value=17  Score=14.12  Aligned_cols=6  Identities=33%  Similarity=1.116  Sum_probs=4.0  Template_Neff=2.200
+
+Q QFGGGN            1 QFGGGN    6 (6)
+Q Consensus         1 qfgggn    6 (6)
+                      |||.||
+T Consensus        22 ~FGDG~   27 (40)
+T 5XZK_C           22 DYGDGK   27 (40)
+T ss_dssp             CSTTSC
+T ss_pred             EecCCc
+Confidence            577764
+
+
+No 5
+>2APL_A hypothetical protein PG0816; Structural genomics, Porphyromonas gingivalis, PSI; 2.01A {Porphyromonas gingivalis} SCOP: a.258.1.1
+Probab=46.49  E-value=18  Score=16.08  Aligned_cols=6  Identities=67%  Similarity=1.365  Sum_probs=1.1  Template_Neff=4.700
+
+Q QFGGGN            1 QFGGGN    6 (6)
+Q Consensus         1 qfgggn    6 (6)
+                      +.||||
+T Consensus       149 ~~~~~~  154 (157)
+T 2APL_A          149 TIGGGN  154 (157)
+T ss_dssp             CC----
+T ss_pred             CCCCCc
+Confidence            467776
+
+
+No 6
+>1LJ8_A mannitol dehydrogenase (E.C.1.1.1.67); oxidoreductase, NAD, long-chain dehydrogenase; HET: NAD; 1.7A {Pseudomonas fluorescens} SCOP: a.100.1.9, c.2.1.6
+Probab=43.75  E-value=22  Score=16.88  Aligned_cols=6  Identities=33%  Similarity=0.695  Sum_probs=4.0  Template_Neff=7.300
+
+Q QFGGGN            1 QFGGGN    6 (6)
+Q Consensus         1 qfgggn    6 (6)
+                      |||.||
+T Consensus        31 h~G~Gn   36 (493)
+T 1LJ8_A           31 HIGVGG   36 (493)
+T ss_dssp             EECCSH
+T ss_pred             EECCCh
+Confidence            577775
+
+
+No 7
+>1M2W_A mannitol dehydrogenase (E.C.1.1.1.67); Rossmann fold, di-nucleotide binding motif; HET: MTL, MSE, NAD; 1.8A {Pseudomonas fluorescens} SCOP: c.2.1.6, a.100.1.9
+Probab=43.03  E-value=22  Score=16.77  Aligned_cols=6  Identities=33%  Similarity=0.695  Sum_probs=4.0  Template_Neff=7.400
+
+Q QFGGGN            1 QFGGGN    6 (6)
+Q Consensus         1 qfgggn    6 (6)
+                      |||.||
+T Consensus        31 hfG~Gn   36 (493)
+T 1M2W_A           31 HIGVGG   36 (493)
+T ss_dssp             EECCSH
+T ss_pred             EECCCh
+Confidence            577775
+
+
+No 8
+>4IM7_A Hypothetical oxidoreductase ydfI (E.C.1.-.-.-); rossmann fold, OXIDOREDUCTASE; HET: NAI, CS2; 1.9A {Escherichia coli}
+Probab=35.28  E-value=36  Score=16.53  Aligned_cols=6  Identities=33%  Similarity=0.606  Sum_probs=3.8  Template_Neff=6.800
+
+Q QFGGGN            1 QFGGGN    6 (6)
+Q Consensus         1 qfgggn    6 (6)
+                      |||.||
+T Consensus        46 hfG~G~   51 (506)
+T 4IM7_A           46 HLGFGA   51 (506)
+T ss_dssp             EECCCH
+T ss_pred             EECCCh
+Confidence            567665
+
+
+No 9
+>5ITG_A Sorbitol dehydrogenase; Dehydrogenase, Rossmann-fold, L-sorbose, NADPH cofactor; HET: MSE; 1.95A {Gluconobacter oxydans}
+Probab=32.63  E-value=42  Score=15.90  Aligned_cols=6  Identities=67%  Similarity=1.215  Sum_probs=3.8  Template_Neff=7.400
+
+Q QFGGGN            1 QFGGGN    6 (6)
+Q Consensus         1 qfgggn    6 (6)
+                      +||.||
+T Consensus        30 h~G~G~   35 (484)
+T 5ITG_A           30 HFGVGN   35 (484)
+T ss_dssp             EECCCH
+T ss_pred             EECCCc
+Confidence            467665
+
+
+No 10
+>3H2Z_A Mannitol-1-phosphate 5-dehydrogenase (E.C.1.1.1.17); Mmannitol-1-phosphate dehydrogenase, Shigella flexneri, PSI-2; HET: PO4, ACT; 1.9A {Shigella flexneri 2a str. 2457T}
+Probab=29.87  E-value=50  Score=14.87  Aligned_cols=6  Identities=67%  Similarity=1.425  Sum_probs=3.7  Template_Neff=8.000
+
+Q QFGGGN            1 QFGGGN    6 (6)
+Q Consensus         1 qfgggn    6 (6)
+                      +||.||
+T Consensus         5 h~GaG~   10 (382)
+T 3H2Z_A            5 HFGAGN   10 (382)
+T ss_dssp             EECCSH
+T ss_pred             EECCCh
+Confidence            467665
+
+

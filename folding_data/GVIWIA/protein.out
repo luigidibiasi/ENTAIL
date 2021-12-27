@@ -1,0 +1,250 @@
+Query         GVIWIA
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 04:35:20 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GVIWIA/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GVIWIA/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 7N0R_B Nucleoprotein, Single-d  52.4      13 0.00014   16.5   0.0    6    1-6      84-89  (129)
+  2 6LZ8_B Nucleoprotein; Middle E  51.1      14 0.00015   16.4   0.0    6    1-6      84-89  (130)
+  3 6LNN_D Nucleoprotein; Middle E  49.7      15 0.00017   16.3   0.0    6    1-6      84-89  (130)
+  4 6LZ8_D Nucleoprotein; Middle E  49.7      15 0.00017   16.3   0.0    6    1-6      84-89  (130)
+  5 7N3C_C SARS Coronavirus 2, Nuc  49.3      15 0.00017   16.3   0.0    6    1-6      86-91  (130)
+  6 2GEC_B Nucleocapsid protein; N  49.3      15 0.00017   16.5   0.0    6    1-6      91-96  (139)
+  7 2BXX_B NUCLEOCAPSID PROTEIN; N  46.0      19 0.00021   16.1   0.0    6    1-6      86-91  (134)
+  8 1SSK_A Nucleocapsid protein; n  45.2      20 0.00022   16.6   0.0    6    1-6     107-112 (158)
+  9 2OFZ_A Nucleocapsid protein; S  44.6      20 0.00023   16.2   0.0    6    1-6      94-99  (138)
+ 10 4UD1_A N PROTEIN; VIRAL PROTEI  44.5      21 0.00023   16.6   0.0    6    1-6     119-124 (164)
+ 11 5N4K_A Nucleoprotein; RNA BIND  44.2      21 0.00023   16.4   0.0    6    1-6     107-112 (150)
+ 12 4LM9_A Nucleoprotein; HCoV-OC4  43.5      22 0.00024   16.0   0.0    6    1-6      89-94  (135)
+ 13 4J3K_A Nucleoprotein; five-str  42.2      24 0.00026   15.9   0.0    6    1-6      89-94  (136)
+ 14 4KXJ_A Nucleoprotein; HCoV-OC4  42.2      24 0.00026   15.9   0.0    6    1-6      89-94  (136)
+ 15 6QPW_E Structural maintenance   34.3      38 0.00042   14.4   0.0    6    1-6      22-27  (372)
+ 16 4UX3_B STRUCTURAL MAINTENANCE   27.0      61 0.00067   13.4   0.0    6    1-6      22-27  (121)
+
+No 1
+>7N0R_B Nucleoprotein, Single-domain antibody C2; SARS-CoV-2, nanobody, nucleocapsid, VIRUS, VIRAL; HET: SO4; 1.42A {Severe acute respiratory syndrome coronavirus 2}
+Probab=52.38  E-value=13  Score=16.52  Aligned_cols=6  Identities=67%  Similarity=1.852  Sum_probs=4.4  Template_Neff=3.800
+
+Q GVIWIA            1 GVIWIA    6 (6)
+Q Consensus         1 gviwia    6 (6)
+                      ||+|+|
+T Consensus        84 gV~WVa   89 (129)
+T 7N0R_B           84 GIIWVA   89 (129)
+T ss_dssp             TEEEEE
+T ss_pred             CEEEEe
+Confidence            678875
+
+
+No 2
+>6LZ8_B Nucleoprotein; Middle East respiratory syndrome coronavirus; HET: EY9; 2.59A {Middle East respiratory syndrome-related coronavirus}
+Probab=51.05  E-value=14  Score=16.39  Aligned_cols=6  Identities=33%  Similarity=1.625  Sum_probs=4.3  Template_Neff=3.900
+
+Q GVIWIA            1 GVIWIA    6 (6)
+Q Consensus         1 gviwia    6 (6)
+                      ||+|+|
+T Consensus        84 gV~WVa   89 (130)
+T 6LZ8_B           84 GIVWVH   89 (130)
+T ss_dssp             TEEEEE
+T ss_pred             cEEEEe
+Confidence            678875
+
+
+No 3
+>6LNN_D Nucleoprotein; Middle East respiratory syndrome coronavirus; HET: EJC; 2.634A {Middle East respiratory syndrome-related coronavirus}
+Probab=49.73  E-value=15  Score=16.33  Aligned_cols=6  Identities=33%  Similarity=1.625  Sum_probs=4.3  Template_Neff=3.800
+
+Q GVIWIA            1 GVIWIA    6 (6)
+Q Consensus         1 gviwia    6 (6)
+                      ||+|+|
+T Consensus        84 gV~WVa   89 (130)
+T 6LNN_D           84 GIVWVH   89 (130)
+T ss_dssp             TEEEEE
+T ss_pred             ceEEEe
+Confidence            678875
+
+
+No 4
+>6LZ8_D Nucleoprotein; Middle East respiratory syndrome coronavirus; HET: EY9; 2.59A {Middle East respiratory syndrome-related coronavirus}
+Probab=49.73  E-value=15  Score=16.33  Aligned_cols=6  Identities=33%  Similarity=1.625  Sum_probs=4.3  Template_Neff=3.800
+
+Q GVIWIA            1 GVIWIA    6 (6)
+Q Consensus         1 gviwia    6 (6)
+                      ||+|+|
+T Consensus        84 gV~WVa   89 (130)
+T 6LZ8_D           84 GIVWVH   89 (130)
+T ss_dssp             TEEEEE
+T ss_pred             ceEEEe
+Confidence            678875
+
+
+No 5
+>7N3C_C SARS Coronavirus 2, Nucleocapsid protein; HET: IOD, EDO; 1.82A {Homo sapiens}
+Probab=49.28  E-value=15  Score=16.29  Aligned_cols=6  Identities=67%  Similarity=1.852  Sum_probs=4.3  Template_Neff=3.800
+
+Q GVIWIA            1 GVIWIA    6 (6)
+Q Consensus         1 gviwia    6 (6)
+                      ||+|+|
+T Consensus        86 gV~WVa   91 (130)
+T 7N3C_C           86 GIIWVA   91 (130)
+T ss_dssp             TEEEEE
+T ss_pred             CEEEEe
+Confidence            678875
+
+
+No 6
+>2GEC_B Nucleocapsid protein; Nucleocapsid protein, N protein, Coronavirus; 1.3A {Infectious bronchitis virus} SCOP: b.148.1.1
+Probab=49.26  E-value=15  Score=16.48  Aligned_cols=6  Identities=50%  Similarity=1.802  Sum_probs=4.4  Template_Neff=3.700
+
+Q GVIWIA            1 GVIWIA    6 (6)
+Q Consensus         1 gviwia    6 (6)
+                      ||+|+|
+T Consensus        91 gV~WVa   96 (139)
+T 2GEC_B           91 GIVWVA   96 (139)
+T ss_dssp             TEEEEE
+T ss_pred             CEEEEe
+Confidence            678875
+
+
+No 7
+>2BXX_B NUCLEOCAPSID PROTEIN; NUCLEOCAPSID PROTEIN, PHOSPHORYLATION, RNA-BINDING, VIRAL; 1.85A {AVIAN INFECTIOUS BRONCHITIS VIRUS} SCOP: b.148.1.1
+Probab=46.05  E-value=19  Score=16.15  Aligned_cols=6  Identities=50%  Similarity=1.802  Sum_probs=4.3  Template_Neff=3.700
+
+Q GVIWIA            1 GVIWIA    6 (6)
+Q Consensus         1 gviwia    6 (6)
+                      ||+|+|
+T Consensus        86 gV~WVa   91 (134)
+T 2BXX_B           86 GIVWVA   91 (134)
+T ss_dssp             TEEEEE
+T ss_pred             CEEEEe
+Confidence            678875
+
+
+No 8
+>1SSK_A Nucleocapsid protein; nucleocapsid protein, STRUCTURAL PROTEIN; NMR {SARS coronavirus} SCOP: b.148.1.1
+Probab=45.24  E-value=20  Score=16.56  Aligned_cols=6  Identities=50%  Similarity=1.802  Sum_probs=4.4  Template_Neff=3.400
+
+Q GVIWIA            1 GVIWIA    6 (6)
+Q Consensus         1 gviwia    6 (6)
+                      ||+|+|
+T Consensus       107 gV~WVa  112 (158)
+T 1SSK_A          107 GIVWVA  112 (158)
+T ss_dssp             SEEEEC
+T ss_pred             CEEEEe
+Confidence            678875
+
+
+No 9
+>2OFZ_A Nucleocapsid protein; SARS CORONAVIRUS NUCLEOCAPSID RNA BINDING; 1.17A {SARS coronavirus Tor2}
+Probab=44.64  E-value=20  Score=16.18  Aligned_cols=6  Identities=50%  Similarity=1.802  Sum_probs=4.3  Template_Neff=3.500
+
+Q GVIWIA            1 GVIWIA    6 (6)
+Q Consensus         1 gviwia    6 (6)
+                      ||+|+|
+T Consensus        94 gV~WVa   99 (138)
+T 2OFZ_A           94 GIVWVA   99 (138)
+T ss_dssp             TEEEEE
+T ss_pred             CEEEEe
+Confidence            678875
+
+
+No 10
+>4UD1_A N PROTEIN; VIRAL PROTEIN, RNA BINDING DOMAIN; HET: GOL, NH4, IMD; 2.48A {MIDDLE EAST RESPIRATORY SYNDROME CORONAVIRUS}
+Probab=44.48  E-value=21  Score=16.58  Aligned_cols=6  Identities=33%  Similarity=1.625  Sum_probs=4.4  Template_Neff=3.400
+
+Q GVIWIA            1 GVIWIA    6 (6)
+Q Consensus         1 gviwia    6 (6)
+                      ||+|+|
+T Consensus       119 gV~WVa  124 (164)
+T 4UD1_A          119 GIVWVH  124 (164)
+T ss_dssp             TEEEEE
+T ss_pred             CEEEEe
+Confidence            678875
+
+
+No 11
+>5N4K_A Nucleoprotein; RNA BINDING PROTEIN, NUCLEOCAPSID PROTEIN; HET: SO4; 1.49A {Human coronavirus NL63}
+Probab=44.25  E-value=21  Score=16.37  Aligned_cols=6  Identities=67%  Similarity=1.819  Sum_probs=4.3  Template_Neff=3.400
+
+Q GVIWIA            1 GVIWIA    6 (6)
+Q Consensus         1 gviwia    6 (6)
+                      ||+|+|
+T Consensus       107 gV~WVa  112 (150)
+T 5N4K_A          107 GVVWVA  112 (150)
+T ss_dssp             TEEEEE
+T ss_pred             CEEEEe
+Confidence            678875
+
+
+No 12
+>4LM9_A Nucleoprotein; HCoV-OC43 Nucleocapsid protein, N-terminal domain; HET: 5GP; 1.601A {Human coronavirus}
+Probab=43.50  E-value=22  Score=16.01  Aligned_cols=6  Identities=67%  Similarity=1.608  Sum_probs=4.2  Template_Neff=3.600
+
+Q GVIWIA            1 GVIWIA    6 (6)
+Q Consensus         1 gviwia    6 (6)
+                      ||+|+|
+T Consensus        89 gV~WVa   94 (135)
+T 4LM9_A           89 GVYWVA   94 (135)
+T ss_dssp             TEEEEE
+T ss_pred             CEEEEe
+Confidence            678875
+
+
+No 13
+>4J3K_A Nucleoprotein; five-stranded beta-sheet, long extended loop; 2.0A {Human coronavirus}
+Probab=42.24  E-value=24  Score=15.93  Aligned_cols=6  Identities=67%  Similarity=1.608  Sum_probs=4.2  Template_Neff=3.600
+
+Q GVIWIA            1 GVIWIA    6 (6)
+Q Consensus         1 gviwia    6 (6)
+                      ||+|+|
+T Consensus        89 gV~WVa   94 (136)
+T 4J3K_A           89 GVYWVA   94 (136)
+T ss_dssp             TEEEEE
+T ss_pred             CEEEEe
+Confidence            578875
+
+
+No 14
+>4KXJ_A Nucleoprotein; HCoV-OC43 N-NTD, RNA BINDING PROTEIN; HET: P34; 2.65A {Human coronavirus}
+Probab=42.24  E-value=24  Score=15.93  Aligned_cols=6  Identities=67%  Similarity=1.608  Sum_probs=4.2  Template_Neff=3.600
+
+Q GVIWIA            1 GVIWIA    6 (6)
+Q Consensus         1 gviwia    6 (6)
+                      ||+|+|
+T Consensus        89 gV~WVa   94 (136)
+T 4KXJ_A           89 GVYWVA   94 (136)
+T ss_dssp             TEEEEE
+T ss_pred             CEEEEe
+Confidence            578875
+
+
+No 15
+>6QPW_E Structural maintenance of chromosomes protein,Structural; Chromatin, genome segregation, cohesin, CELL; HET: AGS; 3.3A {Chaetomium thermophilum var. thermophilum DSM 1495}
+Probab=34.30  E-value=38  Score=14.39  Aligned_cols=6  Identities=50%  Similarity=1.243  Sum_probs=3.2  Template_Neff=9.400
+
+Q GVIWIA            1 GVIWIA    6 (6)
+Q Consensus         1 gviwia    6 (6)
+                      |.+|+|
+T Consensus        22 ~~~w~~   27 (372)
+T 6QPW_E           22 AQIWLA   27 (372)
+T ss_dssp             HHEEE-
+T ss_pred             HHHHHH
+Confidence            457765
+
+
+No 16
+>4UX3_B STRUCTURAL MAINTENANCE OF CHROMOSOMES PROTEIN; PROTEIN BINDING, COHESIN, MITOSIS, CHROMOSOME; HET: AGS; 3.3A {SACCHAROMYCES CEREVISIAE}
+Probab=27.05  E-value=61  Score=13.36  Aligned_cols=6  Identities=50%  Similarity=1.243  Sum_probs=1.9  Template_Neff=6.100
+
+Q GVIWIA            1 GVIWIA    6 (6)
+Q Consensus         1 gviwia    6 (6)
+                      +.+|+|
+T Consensus        22 ~~vWla   27 (121)
+T 4UX3_B           22 AQIWLA   27 (121)
+T ss_dssp             ---CGG
+T ss_pred             HHHHHH
+Confidence            356764
+
+

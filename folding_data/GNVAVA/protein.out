@@ -1,0 +1,150 @@
+Query         GNVAVA
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 02:55:30 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GNVAVA/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GNVAVA/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5GMB_A tRNA (cytidine/uridine-  17.1 1.3E+02  0.0014   11.5   0.0    5    2-6     149-153 (171)
+  2 3NK6_A 23S rRNA methyltransfer  17.1 1.3E+02  0.0015   12.8   0.0    5    2-6     251-255 (277)
+  3 6QH8_A tRNA (cytidine(34)-2'-O  16.6 1.4E+02  0.0015   11.5   0.0    5    2-6     137-141 (162)
+  4 4KDZ_A tRNA (cytidine(34)-2'-O  16.6 1.4E+02  0.0015   11.3   0.0    5    2-6     132-136 (157)
+  5 5VK2_a Pre-glycoprotein polypr  16.4 1.4E+02  0.0016   14.4   0.0    6    1-6      35-40  (164)
+  6 5VK2_b Pre-glycoprotein polypr  16.4 1.4E+02  0.0016   14.4   0.0    6    1-6      35-40  (164)
+  7 5KZK_A Probable RNA methyltran  16.3 1.4E+02  0.0016   12.9   0.0    5    2-6     265-269 (288)
+  8 5L0Z_A Probable RNA methyltran  16.3 1.4E+02  0.0016   12.9   0.0    5    2-6     265-269 (288)
+  9 4X3L_B TTHA0275; TTHA0275 Meth  16.1 1.4E+02  0.0016   12.5   0.0    5    2-6     238-242 (260)
+ 10 3NK7_B 23S rRNA methyltransfer  16.1 1.4E+02  0.0016   12.7   0.0    5    2-6     251-255 (277)
+
+No 1
+>5GMB_A tRNA (cytidine/uridine-2'-O-)-methyltransferase TrmJ (E.C.2.1.1.200); Pseudomonas aeruginosa, tRNA methyltransferase, TrmJ; 1.62A {Pseudomonas aeruginosa}
+Probab=17.13  E-value=1.3e+02  Score=11.54  Aligned_cols=5  Identities=60%  Similarity=0.700  Sum_probs=0.0  Template_Neff=9.200
+
+Q GNVAVA            2 NVAVA    6 (6)
+Q Consensus         2 nvava    6 (6)
+                      ||++|
+T Consensus       149 Nvs~a  153 (171)
+T 5GMB_A          149 NLAAA  153 (171)
+T ss_dssp             CHHHH
+T ss_pred             cHHHH
+
+
+No 2
+>3NK6_A 23S rRNA methyltransferase (E.C.2.1.1.-); Nosiheptide, Nosiheptide-resistance methyltransferase, 23S rRNA; 2.0A {Streptomyces actuosus}
+Probab=17.09  E-value=1.3e+02  Score=12.84  Aligned_cols=5  Identities=60%  Similarity=0.853  Sum_probs=0.0  Template_Neff=8.400
+
+Q GNVAVA            2 NVAVA    6 (6)
+Q Consensus         2 nvava    6 (6)
+                      ||+||
+T Consensus       251 NvsvA  255 (277)
+T 3NK6_A          251 NVSVS  255 (277)
+T ss_dssp             CHHHH
+T ss_pred             cHHHH
+
+
+No 3
+>6QH8_A tRNA (cytidine(34)-2'-O)-methyltransferase (E.C.2.1.1.207); methyltransferase, topological knot, cyclized protein; HET: SO4, PEG; 2.2A {Pseudomonas aeruginosa}
+Probab=16.59  E-value=1.4e+02  Score=11.54  Aligned_cols=5  Identities=20%  Similarity=0.341  Sum_probs=0.0  Template_Neff=8.900
+
+Q GNVAVA            2 NVAVA    6 (6)
+Q Consensus         2 nvava    6 (6)
+                      ||++|
+T Consensus       137 Nva~A  141 (162)
+T 6QH8_A          137 NLSNT  141 (162)
+T ss_dssp             CHHHH
+T ss_pred             CHHHH
+
+
+No 4
+>4KDZ_A tRNA (cytidine(34)-2'-O)-methyltransferase (E.C.2.1.1.207); Structural Genomics, PSI-Biology, New York; 2.32A {Escherichia coli}
+Probab=16.57  E-value=1.4e+02  Score=11.33  Aligned_cols=5  Identities=40%  Similarity=0.461  Sum_probs=0.0  Template_Neff=9.200
+
+Q GNVAVA            2 NVAVA    6 (6)
+Q Consensus         2 nvava    6 (6)
+                      ||++|
+T Consensus       132 Nvs~A  136 (157)
+T 4KDZ_A          132 NLSNA  136 (157)
+T ss_dssp             CHHHH
+T ss_pred             cHHHH
+
+
+No 5
+>5VK2_a Pre-glycoprotein polyprotein GP complex, Fab; Lassa, glycoprotein, arenavirus, antibody, VIRAL; HET: BMA, MAN, FUC, NAG; 3.201A {Lassa virus}
+Probab=16.39  E-value=1.4e+02  Score=14.37  Aligned_cols=6  Identities=83%  Similarity=1.032  Sum_probs=0.0  Template_Neff=2.100
+
+Q GNVAVA            1 GNVAVA    6 (6)
+Q Consensus         1 gnvava    6 (6)
+                      ||.|||
+T Consensus        35 gNtAvA   40 (164)
+T 5VK2_a           35 GNTAVA   40 (164)
+T ss_dssp             CHHHHT
+T ss_pred             ccchHH
+
+
+No 6
+>5VK2_b Pre-glycoprotein polyprotein GP complex, Fab; Lassa, glycoprotein, arenavirus, antibody, VIRAL; HET: NAG, BMA, MAN, FUC; 3.201A {Lassa virus}
+Probab=16.36  E-value=1.4e+02  Score=14.36  Aligned_cols=6  Identities=83%  Similarity=1.032  Sum_probs=0.0  Template_Neff=2.100
+
+Q GNVAVA            1 GNVAVA    6 (6)
+Q Consensus         1 gnvava    6 (6)
+                      ||.|||
+T Consensus        35 gNtAvA   40 (164)
+T 5VK2_b           35 GNTAVA   40 (164)
+T ss_dssp             CHHHHT
+T ss_pred             ccchHH
+
+
+No 7
+>5KZK_A Probable RNA methyltransferase, TrmH family; SPOUT Methyltransferase, rRNA methylation, Structural; HET: SO4, MSE; 2.28A {Rhizobium meliloti (strain 1021)}
+Probab=16.34  E-value=1.4e+02  Score=12.88  Aligned_cols=5  Identities=60%  Similarity=0.899  Sum_probs=0.0  Template_Neff=8.300
+
+Q GNVAVA            2 NVAVA    6 (6)
+Q Consensus         2 nvava    6 (6)
+                      ||+||
+T Consensus       265 NvsvA  269 (288)
+T 5KZK_A          265 NLAIA  269 (288)
+T ss_dssp             CHHHH
+T ss_pred             cHHHH
+
+
+No 8
+>5L0Z_A Probable RNA methyltransferase, TrmH family; SPOUT Methyltransferase, AdoMet binding, Trefoil; HET: MSE, SAM, SO4; 2.9A {Rhizobium meliloti (strain 1021)}
+Probab=16.34  E-value=1.4e+02  Score=12.88  Aligned_cols=5  Identities=60%  Similarity=0.899  Sum_probs=0.0  Template_Neff=8.300
+
+Q GNVAVA            2 NVAVA    6 (6)
+Q Consensus         2 nvava    6 (6)
+                      ||+||
+T Consensus       265 NvsvA  269 (288)
+T 5L0Z_A          265 NLAIA  269 (288)
+T ss_dssp             CHHHH
+T ss_pred             cHHHH
+
+
+No 9
+>4X3L_B TTHA0275; TTHA0275 Methyltransferase AdoMet 5'-methylthioadenosine, TRANSFERASE; HET: MTA; 1.7A {Thermus thermophilus}
+Probab=16.09  E-value=1.4e+02  Score=12.51  Aligned_cols=5  Identities=80%  Similarity=0.906  Sum_probs=0.0  Template_Neff=8.600
+
+Q GNVAVA            2 NVAVA    6 (6)
+Q Consensus         2 nvava    6 (6)
+                      ||+||
+T Consensus       238 NvsvA  242 (260)
+T 4X3L_B          238 NVAVT  242 (260)
+T ss_dssp             CHHHH
+T ss_pred             cHHHH
+
+
+No 10
+>3NK7_B 23S rRNA methyltransferase (E.C.2.1.1.-); Nosiheptide, Nosiheptide-resistance methyltransferase, 23S rRNA; HET: SAM; 2.1A {Streptomyces actuosus}
+Probab=16.06  E-value=1.4e+02  Score=12.67  Aligned_cols=5  Identities=60%  Similarity=0.853  Sum_probs=0.0  Template_Neff=8.500
+
+Q GNVAVA            2 NVAVA    6 (6)
+Q Consensus         2 nvava    6 (6)
+                      ||+||
+T Consensus       251 NvavA  255 (277)
+T 3NK7_B          251 NVSVS  255 (277)
+T ss_dssp             CHHHH
+T ss_pred             cHHHH
+
+

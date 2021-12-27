@@ -1,0 +1,149 @@
+Query         KLANAT
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 11:12:45 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/KLANAT/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/KLANAT/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 1U6H_B Vinculin, Talin; Protei   3.9 9.7E+02   0.011    7.8   0.0    5    2-6      15-19  (31)
+  2 3HX9_A Protein Rv3592; di-heme   3.8   1E+03   0.011    8.4   0.0    5    1-5     112-116 (124)
+  3 3E5U_B CprK, Halorespiration,    3.7   1E+03   0.011    9.0   0.0    5    1-5     242-246 (250)
+  4 3N44_A E3 envelope glycoprotei   3.7   1E+03   0.012   10.0   0.0    5    2-6      11-15  (65)
+  5 2VPG_B PYGOPUS HOMOLOG 1, B-CE   3.7 1.1E+03   0.012    8.6   0.0    4    1-4      10-13  (32)
+  6 7M8W_A prostaglandin D2 recept   3.6 1.1E+03   0.012   10.6   0.0    4    3-6       4-7   (470)
+  7 6IMM_h Spike glycoprotein E1,    3.6 1.1E+03   0.012   10.0   0.0    5    2-6      12-16  (69)
+  8 1WY6_A hypothetical protein ST   3.2 1.2E+03   0.014   11.4   0.0    5    1-5     130-134 (172)
+  9 2L8T_A Transposon Tn557 toxic    3.2 1.3E+03   0.014   10.1   0.0    5    1-5      11-15  (71)
+ 10 5FVD_B NUCLEOCAPSID, PHOSPHOPR   3.0 1.3E+03   0.015    9.3   0.0    5    1-5      18-22  (47)
+
+No 1
+>1U6H_B Vinculin, Talin; Protein-protein complex, cell adhesion; 2.38A {Gallus gallus}
+Probab=3.90  E-value=9.7e+02  Score=7.84  Aligned_cols=5  Identities=80%  Similarity=0.900  Sum_probs=0.0  Template_Neff=5.700
+
+Q KLANAT            2 LANAT    6 (6)
+Q Consensus         2 lanat    6 (6)
+                      |+.+|
+T Consensus        15 la~at   19 (31)
+T 1U6H_B           15 LADAT   19 (31)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 2
+>3HX9_A Protein Rv3592; di-heme, beta barrel, dimer, OXIDOREDUCTASE; HET: HEM; 1.75A {Mycobacterium tuberculosis}
+Probab=3.77  E-value=1e+03  Score=8.43  Aligned_cols=5  Identities=80%  Similarity=0.780  Sum_probs=0.0  Template_Neff=9.700
+
+Q KLANAT            1 KLANA    5 (6)
+Q Consensus         1 klana    5 (6)
+                      |||.|
+T Consensus       112 ~~~~~  116 (124)
+T 3HX9_A          112 KLAAA  116 (124)
+T ss_dssp             -----
+T ss_pred             hHHHH
+
+
+No 3
+>3E5U_B CprK, Halorespiration, transcriptional regulator, TRANSCRIPTION; HET: PO4, 3C4; 1.83A {Desulfitobacterium hafniense} SCOP: a.4.5.4, b.82.3.2
+Probab=3.71  E-value=1e+03  Score=9.02  Aligned_cols=5  Identities=80%  Similarity=0.780  Sum_probs=0.0  Template_Neff=10.900
+
+Q KLANAT            1 KLANA    5 (6)
+Q Consensus         1 klana    5 (6)
+                      +|++|
+T Consensus       242 ~~~~~  246 (250)
+T 3E5U_B          242 KLAAA  246 (250)
+T ss_dssp             -----
+T ss_pred             HHHHH
+
+
+No 4
+>3N44_A E3 envelope glycoprotein, E2 envelope; VIRAL PROTEIN, IMMATURE HETERODIMER, ALPHAVIRUS; HET: NAG, ACT; 2.35A {Chikungunya virus}
+Probab=3.67  E-value=1e+03  Score=10.01  Aligned_cols=5  Identities=80%  Similarity=0.886  Sum_probs=0.0  Template_Neff=2.600
+
+Q KLANAT            2 LANAT    6 (6)
+Q Consensus         2 lanat    6 (6)
+                      |+|.|
+T Consensus        11 LaN~T   15 (65)
+T 3N44_A           11 LANTT   15 (65)
+T ss_dssp             ETTEE
+T ss_pred             Hhccc
+
+
+No 5
+>2VPG_B PYGOPUS HOMOLOG 1, B-CELL CLL/LYMPHOMA; GENE REGULATION, WNT SIGNALING PATHWAY; HET: DA2, MLY; 1.6A {HOMO SAPIENS}
+Probab=3.67  E-value=1.1e+03  Score=8.61  Aligned_cols=4  Identities=50%  Similarity=0.850  Sum_probs=0.0  Template_Neff=3.400
+
+Q KLANAT            1 KLAN    4 (6)
+Q Consensus         1 klan    4 (6)
+                      +|||
+T Consensus        10 ~lAN   13 (32)
+T 2VPG_B           10 EMAN   13 (32)
+T ss_dssp             HHHH
+T ss_pred             HHHH
+
+
+No 6
+>7M8W_A prostaglandin D2 receptor, CRTH2, 15R-methyl-PGD2; HET: YCM, SO4, FLC, YSS; 2.61A {Homo sapiens}
+Probab=3.64  E-value=1.1e+03  Score=10.61  Aligned_cols=4  Identities=100%  Similarity=0.925  Sum_probs=0.0  Template_Neff=9.600
+
+Q KLANAT            3 ANAT    6 (6)
+Q Consensus         3 anat    6 (6)
+                      ||||
+T Consensus         4 ~~~~    7 (470)
+T 7M8W_A            4 ANAT    7 (470)
+T ss_dssp             CCSC
+T ss_pred             cccc
+
+
+No 7
+>6IMM_h Spike glycoprotein E1, Spike glycoprotein; Alphavirus, Sindbis virus, Glycoprotein, VIRUS; HET: 8K6; 3.5A {Sindbis virus}
+Probab=3.59  E-value=1.1e+03  Score=10.03  Aligned_cols=5  Identities=60%  Similarity=0.674  Sum_probs=0.0  Template_Neff=2.800
+
+Q KLANAT            2 LANAT    6 (6)
+Q Consensus         2 lanat    6 (6)
+                      |+|.|
+T Consensus        12 LaN~T   16 (69)
+T 6IMM_h           12 LGNMT   16 (69)
+T ss_pred             Hhhcc
+
+
+No 8
+>1WY6_A hypothetical protein ST1625; hypothetical protein, helical repeat protein; 2.2A {Sulfolobus tokodaii} SCOP: a.118.20.1
+Probab=3.23  E-value=1.2e+03  Score=11.44  Aligned_cols=5  Identities=60%  Similarity=0.733  Sum_probs=0.0  Template_Neff=2.400
+
+Q KLANAT            1 KLANA    5 (6)
+Q Consensus         1 klana    5 (6)
+                      |||+|
+T Consensus       130 Kla~A  134 (172)
+T 1WY6_A          130 AIANA  134 (172)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 9
+>2L8T_A Transposon Tn557 toxic shock syndrome; scaffold, bacteriophage, sapi, STRUCTURAL PROTEIN; NMR {Staphylococcus aureus}
+Probab=3.18  E-value=1.3e+03  Score=10.07  Aligned_cols=5  Identities=80%  Similarity=0.906  Sum_probs=0.0  Template_Neff=1.100
+
+Q KLANAT            1 KLANA    5 (6)
+Q Consensus         1 klana    5 (6)
+                      |.|||
+T Consensus        11 kvana   15 (71)
+T 2L8T_A           11 KVANA   15 (71)
+T ss_dssp             HHHHT
+T ss_pred             HHHHh
+
+
+No 10
+>5FVD_B NUCLEOCAPSID, PHOSPHOPROTEIN; VIRAL PROTEIN, NUCLEOPROTEIN, MONONEGAVIRALES, PHOSPHOPROTEIN; 1.86A {HUMAN METAPNEUMOVIRUS}
+Probab=3.01  E-value=1.3e+03  Score=9.34  Aligned_cols=5  Identities=80%  Similarity=0.860  Sum_probs=0.0  Template_Neff=1.400
+
+Q KLANAT            1 KLANA    5 (6)
+Q Consensus         1 klana    5 (6)
+                      |+|.|
+T Consensus        18 K~AeA   22 (47)
+T 5FVD_B           18 KLAEA   22 (47)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+

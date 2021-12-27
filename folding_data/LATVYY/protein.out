@@ -1,0 +1,149 @@
+Query         LATVYY
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 17:15:27 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LATVYY/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LATVYY/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2HYJ_A Putative tetR-family tr  12.1 2.2E+02  0.0024    9.8   0.0    5    2-6      47-51  (200)
+  2 7BOG_V 30S ribosomal protein S  11.8 2.3E+02  0.0025   11.1   0.0    5    2-6      50-54  (133)
+  3 6VYG_C Phosphotransferase (E.C  11.4 2.4E+02  0.0026   12.9   0.0    4    3-6      23-26  (505)
+  4 3CCY_A Putative TetR-family tr  11.1 2.5E+02  0.0027    9.6   0.0    5    2-6      49-53  (203)
+  5 6P6F_A I53-50A.1NT1, I53-50B.4  11.1 2.5E+02  0.0027   15.1   0.0    4    3-6      42-45  (898)
+  6 4NEL_A Transcriptional regulat  11.1 2.5E+02  0.0028    9.4   0.0    5    2-6      37-41  (190)
+  7 2O7T_A Transcriptional regulat  11.0 2.5E+02  0.0028    9.9   0.0    5    2-6      43-47  (199)
+  8 2QOP_A HTH-type transcriptiona  10.9 2.5E+02  0.0028    9.8   0.0    5    2-6      46-50  (215)
+  9 1KKG_A ribosome-binding factor  10.6 2.6E+02  0.0029   10.3   0.0    5    2-6      50-54  (108)
+ 10 3BJB_B Probable transcriptiona  10.6 2.7E+02  0.0029    9.8   0.0    5    2-6      57-61  (207)
+
+No 1
+>2HYJ_A Putative tetR-family transcriptional regulator; tetR, HTH DNA binding motif; 2.19A {Streptomyces coelicolor} SCOP: a.4.1.9, a.121.1.1
+Probab=12.15  E-value=2.2e+02  Score=9.81  Aligned_cols=5  Identities=20%  Similarity=-0.057  Sum_probs=0.0  Template_Neff=12.000
+
+Q LATVYY            2 ATVYY    6 (6)
+Q Consensus         2 atvyy    6 (6)
+                      +|+|+
+T Consensus        47 ~t~y~   51 (200)
+T 2HYJ_A           47 SGVHK   51 (200)
+T ss_dssp             HHHHT
+T ss_pred             HHHHH
+
+
+No 2
+>7BOG_V 30S ribosomal protein S4, 30S; Cryo-EM, 30S biogenesis, ribosome assembly; HET: 5MC, PSU, G7M, MA6, 2MG, D2T, UR3, MG; 2.75A {Escherichia coli (strain K12)}
+Probab=11.76  E-value=2.3e+02  Score=11.08  Aligned_cols=5  Identities=60%  Similarity=0.839  Sum_probs=0.0  Template_Neff=7.900
+
+Q LATVYY            2 ATVYY    6 (6)
+Q Consensus         2 atvyy    6 (6)
+                      |+||+
+T Consensus        50 a~Vy~   54 (133)
+T 7BOG_V           50 AKVYV   54 (133)
+T ss_dssp             EEEEE
+T ss_pred             EEEEE
+
+
+No 3
+>6VYG_C Phosphotransferase (E.C.2.7.1.-); Hexokinase, TRANSFERASE;{Plasmodium vivax}
+Probab=11.44  E-value=2.4e+02  Score=12.95  Aligned_cols=4  Identities=100%  Similarity=1.788  Sum_probs=0.0  Template_Neff=8.900
+
+Q LATVYY            3 TVYY    6 (6)
+Q Consensus         3 tvyy    6 (6)
+                      ||||
+T Consensus        23 ~~~~   26 (505)
+T 6VYG_C           23 TVYY   26 (505)
+T ss_dssp             ----
+T ss_pred             ceEE
+
+
+No 4
+>3CCY_A Putative TetR-family transcriptional regulator; APC88698, TetR, Bordetella parapertussis 12822; 2.01A {Bordetella parapertussis 12822}
+Probab=11.14  E-value=2.5e+02  Score=9.60  Aligned_cols=5  Identities=20%  Similarity=0.554  Sum_probs=0.0  Template_Neff=12.200
+
+Q LATVYY            2 ATVYY    6 (6)
+Q Consensus         2 atvyy    6 (6)
+                      +|+|+
+T Consensus        49 ~t~Y~   53 (203)
+T 3CCY_A           49 SRLYH   53 (203)
+T ss_dssp             GGGTT
+T ss_pred             HHHHH
+
+
+No 5
+>6P6F_A I53-50A.1NT1, I53-50B.4PT1; nanoparticle, self-assembling, HIV, immunogen, SOSIP; 4.5A {synthetic construct}
+Probab=11.14  E-value=2.5e+02  Score=15.12  Aligned_cols=4  Identities=100%  Similarity=1.788  Sum_probs=0.0  Template_Neff=6.500
+
+Q LATVYY            3 TVYY    6 (6)
+Q Consensus         3 tvyy    6 (6)
+                      ||||
+T Consensus        42 tv~y   45 (898)
+T 6P6F_A           42 TVYY   45 (898)
+T ss_pred             EEEE
+
+
+No 6
+>4NEL_A Transcriptional regulator; STRUCTURAL GENOMICS, PSI-BIOLOGY, MIDWEST CENTER; 2.05A {Saccharomonospora viridis}
+Probab=11.06  E-value=2.5e+02  Score=9.37  Aligned_cols=5  Identities=60%  Similarity=0.906  Sum_probs=0.0  Template_Neff=12.400
+
+Q LATVYY            2 ATVYY    6 (6)
+Q Consensus         2 atvyy    6 (6)
+                      +|+|+
+T Consensus        37 ~t~y~   41 (190)
+T 4NEL_A           37 ATIHY   41 (190)
+T ss_dssp             HHHHH
+T ss_pred             HHHhh
+
+
+No 7
+>2O7T_A Transcriptional regulator; Transcription regulator, dna/rna-binding 3-helical bundle; HET: UNL; 2.1A {Corynebacterium glutamicum} SCOP: a.4.1.9, a.121.1.1
+Probab=10.97  E-value=2.5e+02  Score=9.85  Aligned_cols=5  Identities=60%  Similarity=0.846  Sum_probs=0.0  Template_Neff=11.600
+
+Q LATVYY            2 ATVYY    6 (6)
+Q Consensus         2 atvyy    6 (6)
+                      +|+|+
+T Consensus        43 ~t~Y~   47 (199)
+T 2O7T_A           43 ATLYR   47 (199)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 8
+>2QOP_A HTH-type transcriptional regulator acrR; AcrB regulator, DNA-binding, Repressor, Transcription; 2.55A {Escherichia coli K12}
+Probab=10.90  E-value=2.5e+02  Score=9.77  Aligned_cols=5  Identities=20%  Similarity=1.072  Sum_probs=0.0  Template_Neff=12.000
+
+Q LATVYY            2 ATVYY    6 (6)
+Q Consensus         2 atvyy    6 (6)
+                      +|+|+
+T Consensus        46 ~t~y~   50 (215)
+T 2QOP_A           46 GAIYW   50 (215)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 9
+>1KKG_A ribosome-binding factor A; cold-shock adaptation, ribosome-binding factor, NESG; NMR {Escherichia coli} SCOP: d.52.7.1
+Probab=10.60  E-value=2.6e+02  Score=10.30  Aligned_cols=5  Identities=60%  Similarity=0.839  Sum_probs=0.0  Template_Neff=8.400
+
+Q LATVYY            2 ATVYY    6 (6)
+Q Consensus         2 atvyy    6 (6)
+                      |.||+
+T Consensus        50 a~Vy~   54 (108)
+T 1KKG_A           50 AKVYV   54 (108)
+T ss_dssp             EEEEE
+T ss_pred             EEEEE
+
+
+No 10
+>3BJB_B Probable transcriptional regulator, TetR family; APC7331, TetR, Rhodococcus sp. RHA1; HET: SO4; 2.5A {Rhodococcus sp.}
+Probab=10.56  E-value=2.7e+02  Score=9.76  Aligned_cols=5  Identities=40%  Similarity=0.720  Sum_probs=0.0  Template_Neff=11.800
+
+Q LATVYY            2 ATVYY    6 (6)
+Q Consensus         2 atvyy    6 (6)
+                      +|+|+
+T Consensus        57 ~t~Y~   61 (207)
+T 3BJB_B           57 GTLYR   61 (207)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+

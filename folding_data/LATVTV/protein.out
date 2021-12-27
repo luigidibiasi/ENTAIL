@@ -1,0 +1,146 @@
+Query         LATVTV
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 16:06:38 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LATVTV/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LATVTV/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 1BYP_A PROTEIN (PLASTOCYANIN)    3.9 9.8E+02   0.011    7.5   0.0    5    2-6       1-5   (99)
+  2 5NOP_B Attachment glycoprotein   3.9 9.9E+02   0.011   12.2   0.0    5    2-6     447-451 (471)
+  3 6QNT_D Fiber protein, Desmogle   3.7   1E+03   0.012    8.6   0.0    5    2-6     201-205 (208)
+  4 2KIC_A Nitrogenase gamma subun   3.7   1E+03   0.012   10.1   0.0    6    1-6      49-54  (98)
+  5 4KB2_A Ribosome-recycling fact   3.5 1.1E+03   0.012    9.8   0.0    6    1-6      54-59  (185)
+  6 1EH1_A RIBOSOME RECYCLING FACT   3.4 1.1E+03   0.013    9.7   0.0    6    1-6      55-60  (185)
+  7 4WOI_AV 30S ribosomal protein    3.4 1.2E+03   0.013    9.7   0.0    6    1-6      54-59  (185)
+  8 1WQG_A Ribosome recycling fact   3.3 1.2E+03   0.013    9.6   0.0    6    1-6      54-59  (185)
+  9 4KDD_A Ribosome-recycling fact   3.3 1.2E+03   0.013    9.6   0.0    6    1-6      54-59  (185)
+ 10 6NU2_z 39S ribosomal protein L   3.3 1.2E+03   0.013   10.0   0.0    6    1-6      75-80  (204)
+
+No 1
+>1BYP_A PROTEIN (PLASTOCYANIN) MUTANT (E43K, D44K); ELECTRON TRANSFER, PHOTOSYNTHESIS, ACIDIC PATCH; 1.75A {Silene latifolia subsp. alba} SCOP: b.6.1.1
+Probab=3.87  E-value=9.8e+02  Score=7.52  Aligned_cols=5  Identities=40%  Similarity=0.414  Sum_probs=0.0  Template_Neff=11.000
+
+Q LATVTV            2 ATVTV    6 (6)
+Q Consensus         2 atvtv    6 (6)
+                      ++|.|
+T Consensus         1 ~~v~v    5 (99)
+T 1BYP_A            1 AEVLL    5 (99)
+T ss_pred             CeEEe
+
+
+No 2
+>5NOP_B Attachment glycoprotein; paramyxovirus, henipavirus, viral attachment, virus; 1.94A {Mojiang virus}
+Probab=3.86  E-value=9.9e+02  Score=12.17  Aligned_cols=5  Identities=100%  Similarity=0.946  Sum_probs=0.0  Template_Neff=6.200
+
+Q LATVTV            2 ATVTV    6 (6)
+Q Consensus         2 atvtv    6 (6)
+                      |||||
+T Consensus       447 ~~~~~  451 (471)
+T 5NOP_B          447 ATVTV  451 (471)
+T ss_dssp             -CCEE
+T ss_pred             eEEEE
+
+
+No 3
+>6QNT_D Fiber protein, Desmoglein-2; virus receptor, adenovirus, vector, VIRAL; 3.5A {Human adenovirus B serotype 3}
+Probab=3.69  E-value=1e+03  Score=8.62  Aligned_cols=5  Identities=20%  Similarity=0.394  Sum_probs=0.0  Template_Neff=11.100
+
+Q LATVTV            2 ATVTV    6 (6)
+Q Consensus         2 atvtv    6 (6)
+                      ++|+|
+T Consensus       201 ~~v~v  205 (208)
+T 6QNT_D          201 IPIKV  205 (208)
+T ss_pred             EEEEE
+
+
+No 4
+>2KIC_A Nitrogenase gamma subunit; n-NafY, Nitrogenase Gamma Subunit, PROTEIN; NMR {Azotobacter vinelandii}
+Probab=3.69  E-value=1e+03  Score=10.06  Aligned_cols=6  Identities=50%  Similarity=0.612  Sum_probs=0.0  Template_Neff=4.700
+
+Q LATVTV            1 LATVTV    6 (6)
+Q Consensus         1 latvtv    6 (6)
+                      |+++||
+T Consensus        49 L~~LTv   54 (98)
+T 2KIC_A           49 LQGVSV   54 (98)
+T ss_dssp             HTTSCH
+T ss_pred             HcCCCH
+
+
+No 5
+>4KB2_A Ribosome-recycling factor; Ribosome recycling factor, ribosomes, translation; 2.3A {Mycobacterium tuberculosis}
+Probab=3.53  E-value=1.1e+03  Score=9.77  Aligned_cols=6  Identities=50%  Similarity=0.827  Sum_probs=0.0  Template_Neff=7.900
+
+Q LATVTV            1 LATVTV    6 (6)
+Q Consensus         1 latvtv    6 (6)
+                      +|+|++
+T Consensus        54 lA~V~~   59 (185)
+T 4KB2_A           54 LASINV   59 (185)
+T ss_dssp             TEEEEC
+T ss_pred             heEEEc
+
+
+No 6
+>1EH1_A RIBOSOME RECYCLING FACTOR; TRANSLATION, RIBOSOME, HINGE VARIABILITY; 2.6A {Thermus thermophilus} SCOP: d.67.3.1
+Probab=3.44  E-value=1.1e+03  Score=9.73  Aligned_cols=6  Identities=67%  Similarity=0.761  Sum_probs=0.0  Template_Neff=7.900
+
+Q LATVTV            1 LATVTV    6 (6)
+Q Consensus         1 latvtv    6 (6)
+                      +|+|++
+T Consensus        55 lA~V~~   60 (185)
+T 1EH1_A           55 IATVTA   60 (185)
+T ss_dssp             TCEEEC
+T ss_pred             eeEEEc
+
+
+No 7
+>4WOI_AV 30S ribosomal protein S2, 30S; Protein biosynthesis, ribosomes, paromomycin, antibiotic; HET: MG, PAR; 3.0A {Escherichia coli str. K-12 substr. MDS42}
+Probab=3.40  E-value=1.2e+03  Score=9.71  Aligned_cols=6  Identities=83%  Similarity=0.955  Sum_probs=0.0  Template_Neff=7.900
+
+Q LATVTV            1 LATVTV    6 (6)
+Q Consensus         1 latvtv    6 (6)
+                      +|+|++
+T Consensus        54 la~V~~   59 (185)
+T 4WOI_AV          54 LASVTV   59 (185)
+T ss_pred             ceEEEe
+
+
+No 8
+>1WQG_A Ribosome recycling factor; translation factor, triple-HELIX bundle, protein; 2.15A {Mycobacterium tuberculosis} SCOP: d.67.3.1
+Probab=3.32  E-value=1.2e+03  Score=9.63  Aligned_cols=6  Identities=50%  Similarity=0.827  Sum_probs=0.0  Template_Neff=8.000
+
+Q LATVTV            1 LATVTV    6 (6)
+Q Consensus         1 latvtv    6 (6)
+                      +|+|++
+T Consensus        54 lA~V~~   59 (185)
+T 1WQG_A           54 LASINV   59 (185)
+T ss_dssp             SEEEEE
+T ss_pred             eeEEEe
+
+
+No 9
+>4KDD_A Ribosome-recycling factor; translation, eubacteria, Ribosome recycling, post-termination; HET: DMU; 1.9A {Mycobacterium tuberculosis}
+Probab=3.32  E-value=1.2e+03  Score=9.63  Aligned_cols=6  Identities=50%  Similarity=0.827  Sum_probs=0.0  Template_Neff=8.000
+
+Q LATVTV            1 LATVTV    6 (6)
+Q Consensus         1 latvtv    6 (6)
+                      +|+|++
+T Consensus        54 lA~V~~   59 (185)
+T 4KDD_A           54 LASINV   59 (185)
+T ss_dssp             SEEEEE
+T ss_pred             eeEEEe
+
+
+No 10
+>6NU2_z 39S ribosomal protein L2, mitochondrial; mitochondrial ribosome recycling Factor, mtRRF; HET: MG; 3.9A {Homo sapiens}
+Probab=3.30  E-value=1.2e+03  Score=9.95  Aligned_cols=6  Identities=0%  Similarity=0.562  Sum_probs=0.0  Template_Neff=7.600
+
+Q LATVTV            1 LATVTV    6 (6)
+Q Consensus         1 latvtv    6 (6)
+                      +|+|++
+T Consensus        75 lA~Vs~   80 (204)
+T 6NU2_z           75 ISQISM   80 (204)
+T ss_pred             ceEEEe
+
+

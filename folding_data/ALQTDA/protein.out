@@ -1,0 +1,149 @@
+Query         ALQTDA
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 14:51:08 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/ALQTDA/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/ALQTDA/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5HYC_C Uncharacterized protein   3.8   1E+03   0.011    8.7   0.0    5    1-5      31-35  (35)
+  2 2XQN_A ACTIN-LIKE PROTEIN 7A,    3.6 1.1E+03   0.012   10.1   0.0    4    1-4      27-30  (65)
+  3 2K2U_B RNA polymerase II trans   3.5 1.1E+03   0.012    9.0   0.0    6    1-6      27-32  (35)
+  4 1FT5_A CYTOCHROME C554; heme-s   3.4 1.2E+03   0.013    9.7   0.0    6    1-6     199-204 (211)
+  5 2PG1_J Dynein light chain 1, c   3.3 1.2E+03   0.013    7.9   0.0    4    3-6      30-33  (33)
+  6 5HCC_B Complement C5, Compleme   3.2 1.2E+03   0.014   10.7   0.0    4    2-5     110-113 (656)
+  7 2WPQ_A TRIMERIC AUTOTRANSPORTE   3.2 1.3E+03   0.014   10.2   0.0    6    1-6      73-78  (99)
+  8 4R1I_A Aminobenzoyl-glutamate    3.2 1.3E+03   0.014   10.7   0.0    4    3-6       3-6   (522)
+  9 5FV8_A FOSW, CJUN; STRUCTURAL    3.1 1.3E+03   0.014    8.5   0.0    5    1-5       1-5   (38)
+ 10 2IWA_A GLUTAMINE CYCLOTRANSFER   3.1 1.3E+03   0.014    8.6   0.0    5    1-5     260-264 (266)
+
+No 1
+>5HYC_C Uncharacterized protein, Cytoplasmic dynein 1; dynein light chain Tctex-1, Magnaporthe; 2.4A {Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958)}
+Probab=3.77  E-value=1e+03  Score=8.70  Aligned_cols=5  Identities=40%  Similarity=0.627  Sum_probs=0.0  Template_Neff=3.700
+
+Q ALQTDA            1 ALQTD    5 (6)
+Q Consensus         1 alqtd    5 (6)
+                      +.||+
+T Consensus        31 gVQT~   35 (35)
+T 5HYC_C           31 GIQTQ   35 (35)
+T ss_dssp             CCCC-
+T ss_pred             cccCC
+
+
+No 2
+>2XQN_A ACTIN-LIKE PROTEIN 7A, ENABLED HOMOLOG; METAL-BINDING PROTEIN, CYTOSKELETON, FOCAL ADHESION; 2.62A {HOMO SAPIENS}
+Probab=3.65  E-value=1.1e+03  Score=10.14  Aligned_cols=4  Identities=100%  Similarity=0.966  Sum_probs=0.0  Template_Neff=1.100
+
+Q ALQTDA            1 ALQT    4 (6)
+Q Consensus         1 alqt    4 (6)
+                      ||||
+T Consensus        27 alqt   30 (65)
+T 2XQN_A           27 ALQT   30 (65)
+T ss_dssp             -CEE
+T ss_pred             hhhh
+
+
+No 3
+>2K2U_B RNA polymerase II transcription factor; VP16, TFIIH, Tfb1, Activation, Transcription; NMR {Saccharomyces cerevisiae}
+Probab=3.46  E-value=1.1e+03  Score=9.04  Aligned_cols=6  Identities=50%  Similarity=0.529  Sum_probs=0.0  Template_Neff=1.800
+
+Q ALQTDA            1 ALQTDA    6 (6)
+Q Consensus         1 alqtda    6 (6)
+                      ||+.|+
+T Consensus        27 aLgiD~   32 (35)
+T 2K2U_B           27 ALGIDE   32 (35)
+T ss_dssp             CCCCCS
+T ss_pred             HhCCcc
+
+
+No 4
+>1FT5_A CYTOCHROME C554; heme-stacking, ELECTRON TRANSPORT; HET: HEM, PO4; 1.6A {Nitrosomonas europaea} SCOP: a.138.1.3
+Probab=3.35  E-value=1.2e+03  Score=9.74  Aligned_cols=6  Identities=33%  Similarity=0.457  Sum_probs=0.0  Template_Neff=8.300
+
+Q ALQTDA            1 ALQTDA    6 (6)
+Q Consensus         1 alqtda    6 (6)
+                      ++|.+|
+T Consensus       199 ~~~~~~  204 (211)
+T 1FT5_A          199 EFQASA  204 (211)
+T ss_dssp             HHHHTC
+T ss_pred             HHHHhC
+
+
+No 5
+>2PG1_J Dynein light chain 1, cytoplasmic; Dynein intermediate chain, dynein light; HET: SO4, MSE; 2.8A {Drosophila melanogaster}
+Probab=3.33  E-value=1.2e+03  Score=7.85  Aligned_cols=4  Identities=50%  Similarity=0.385  Sum_probs=0.0  Template_Neff=5.400
+
+Q ALQTDA            3 QTDA    6 (6)
+Q Consensus         3 qtda    6 (6)
+                      ||++
+T Consensus        30 QT~~   33 (33)
+T 2PG1_J           30 QTPV   33 (33)
+T ss_dssp             ECCC
+T ss_pred             cCCC
+
+
+No 6
+>5HCC_B Complement C5, Complement inhibitor, Dermacentor; Complement, Inflammation, Inhibitor, Tick, immune; HET: NAG, EDO; 2.59A {Homo sapiens}
+Probab=3.20  E-value=1.2e+03  Score=10.70  Aligned_cols=4  Identities=50%  Similarity=0.933  Sum_probs=0.0  Template_Neff=10.200
+
+Q ALQTDA            2 LQTD    5 (6)
+Q Consensus         2 lqtd    5 (6)
+                      +|||
+T Consensus       110 IqTD  113 (656)
+T 5HCC_B          110 IHTD  113 (656)
+T ss_pred             EEeC
+
+
+No 7
+>2WPQ_A TRIMERIC AUTOTRANSPORTER ADHESIN FRAGMENT; HYDROPHOBIC CORE, ION COORDINATION, PROTEIN; 1.85A {SALMONELLA ENTERICA SUBSP. ENTERICA SEROVAR TYPHIMURIUM}
+Probab=3.17  E-value=1.3e+03  Score=10.18  Aligned_cols=6  Identities=0%  Similarity=0.224  Sum_probs=0.0  Template_Neff=3.700
+
+Q ALQTDA            1 ALQTDA    6 (6)
+Q Consensus         1 alqtda    6 (6)
+                      +|+.||
+T Consensus        73 ~L~~dA   78 (99)
+T 2WPQ_A           73 QIEDKI   78 (99)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 8
+>4R1I_A Aminobenzoyl-glutamate transporter; transmembrane protein, MEMBRANE PROTEIN; 3.959A {Neisseria gonorrhoeae FA19}
+Probab=3.15  E-value=1.3e+03  Score=10.74  Aligned_cols=4  Identities=100%  Similarity=1.024  Sum_probs=0.0  Template_Neff=9.200
+
+Q ALQTDA            3 QTDA    6 (6)
+Q Consensus         3 qtda    6 (6)
+                      |||+
+T Consensus         3 ~~~~    6 (522)
+T 4R1I_A            3 QTDA    6 (522)
+T ss_dssp             ----
+T ss_pred             cccc
+
+
+No 9
+>5FV8_A FOSW, CJUN; STRUCTURAL PROTEIN, COILED COIL DOMAIN; HET: JEF; 1.99A {N/A}
+Probab=3.14  E-value=1.3e+03  Score=8.49  Aligned_cols=5  Identities=40%  Similarity=0.321  Sum_probs=0.0  Template_Neff=4.000
+
+Q ALQTDA            1 ALQTD    5 (6)
+Q Consensus         1 alqtd    5 (6)
+                      |.|||
+T Consensus         1 ~~~T~    5 (38)
+T 5FV8_A            1 AASLD    5 (38)
+T ss_dssp             -CCHH
+T ss_pred             CccHH
+
+
+No 10
+>2IWA_A GLUTAMINE CYCLOTRANSFERASE (E.C.2.3.2.5); TRANSFERASE, PYROGLUTAMATE, ACYLTRANSFERASE, GLUTAMINYL CYCLASE; HET: NAG, GOL; 1.6A {CARICA PAPAYA}
+Probab=3.11  E-value=1.3e+03  Score=8.61  Aligned_cols=5  Identities=60%  Similarity=0.919  Sum_probs=0.0  Template_Neff=11.500
+
+Q ALQTDA            1 ALQTD    5 (6)
+Q Consensus         1 alqtd    5 (6)
+                      +++||
+T Consensus       260 ~~~~~  264 (266)
+T 2IWA_A          260 SLKTD  264 (266)
+T ss_dssp             -----
+T ss_pred             Eeeec
+
+

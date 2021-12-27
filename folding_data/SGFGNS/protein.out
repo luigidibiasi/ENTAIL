@@ -1,0 +1,152 @@
+Query         SGFGNS
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 14:23:00 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/SGFGNS/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/SGFGNS/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3NIZ_A Rhodanese family protei  49.0      16 0.00017   14.2   0.0    6    1-6       9-14  (311)
+  2 7ABI_N U5 small nuclear ribonu  31.8      44 0.00049   14.8   0.0    6    1-6     190-195 (199)
+  3 5NRL_L U6 snRNA-associated Sm-  25.1      69 0.00077   14.5   0.0    6    1-6     187-192 (194)
+  4 5ZWO_W Pre-mRNA-splicing facto  25.1      69 0.00077   14.5   0.0    6    1-6     187-192 (194)
+  5 4IL7_A Putative uncharacterize  21.3      92   0.001   15.0   0.0    6    1-6      81-86  (166)
+  6 2BT1_A DEOXYURIDINE 5'-TRIPHOS  20.0   1E+02  0.0011   13.3   0.0    6    1-6     271-276 (278)
+  7 5WAT_A Homoserine kinase (E.C.  19.9   1E+02  0.0011   12.6   0.0    6    1-6      98-103 (315)
+  8 5WAT_B Homoserine kinase (E.C.  19.9   1E+02  0.0011   12.6   0.0    6    1-6      98-103 (315)
+  9 1EY2_A jelly roll, beta sandwi  19.3 1.1E+02  0.0012   15.3   0.0    5    1-5      34-38  (471)
+ 10 6N3C_D TAR DNA-binding protein  19.3 1.1E+02  0.0012   12.0   0.0    5    2-6       3-7   (46)
+
+No 1
+>3NIZ_A Rhodanese family protein; Structural Genomics, Structural Genomics Consortium; HET: ADP; 2.4A {Cryptosporidium parvum}
+Probab=48.98  E-value=16  Score=14.24  Aligned_cols=6  Identities=50%  Similarity=0.362  Sum_probs=0.0  Template_Neff=10.800
+
+Q SGFGNS            1 SGFGNS    6 (6)
+Q Consensus         1 sgfgns    6 (6)
+                      |||+||
+T Consensus         9 ~~~~~~   14 (311)
+T 3NIZ_A            9 SGRENL   14 (311)
+T ss_dssp             ------
+T ss_pred             ccccch
+Confidence            456654
+
+
+No 2
+>7ABI_N U5 small nuclear ribonucleoprotein 40; Complex, spliceosome, catalytic activation, splicing; HET: IHP, GTP; 8.0A {Homo sapiens}
+Probab=31.82  E-value=44  Score=14.79  Aligned_cols=6  Identities=67%  Similarity=1.376  Sum_probs=3.2  Template_Neff=6.000
+
+Q SGFGNS            1 SGFGNS    6 (6)
+Q Consensus         1 sgfgns    6 (6)
+                      +|||.|
+T Consensus       190 ~gFGss  195 (199)
+T 7ABI_N          190 SGFGST  195 (199)
+T ss_pred             cccCcc
+Confidence            466643
+
+
+No 3
+>5NRL_L U6 snRNA-associated Sm-like protein LSm3; Spliceosome, Splicing, Ribonucleoprotein; HET: PSU, GTP; 7.2A {Saccharomyces cerevisiae}
+Probab=25.14  E-value=69  Score=14.50  Aligned_cols=6  Identities=50%  Similarity=0.711  Sum_probs=3.2  Template_Neff=5.300
+
+Q SGFGNS            1 SGFGNS    6 (6)
+Q Consensus         1 sgfgns    6 (6)
+                      +|||.|
+T Consensus       187 ~~FGss  192 (194)
+T 5NRL_L          187 SNFATS  192 (194)
+T ss_pred             cccccC
+Confidence            456643
+
+
+No 4
+>5ZWO_W Pre-mRNA-splicing factor 8, U4/U6 small; spliceosome, assembly, B complex, SPLICING; HET: GTP; 3.9A {Saccharomyces cerevisiae S288c}
+Probab=25.14  E-value=69  Score=14.50  Aligned_cols=6  Identities=50%  Similarity=0.711  Sum_probs=3.2  Template_Neff=5.300
+
+Q SGFGNS            1 SGFGNS    6 (6)
+Q Consensus         1 sgfgns    6 (6)
+                      +|||.|
+T Consensus       187 ~~FGss  192 (194)
+T 5ZWO_W          187 SNFATS  192 (194)
+T ss_pred             cccccC
+Confidence            456643
+
+
+No 5
+>4IL7_A Putative uncharacterized protein; partial jelly roll fold, hypothetical; 1.4A {Sulfolobus turreted icosahedral virus}
+Probab=21.35  E-value=92  Score=15.01  Aligned_cols=6  Identities=83%  Similarity=1.392  Sum_probs=3.4  Template_Neff=1.200
+
+Q SGFGNS            1 SGFGNS    6 (6)
+Q Consensus         1 sgfgns    6 (6)
+                      ||||.|
+T Consensus        81 sgfgts   86 (166)
+T 4IL7_A           81 SGFGTS   86 (166)
+T ss_dssp             EEEEEE
+T ss_pred             ecCCCC
+Confidence            566653
+
+
+No 6
+>2BT1_A DEOXYURIDINE 5'-TRIPHOSPHATE NUCLEOTIDOHYDROLASE (E.C.3.6.1.23); DUTPASE, MONOMER, HYDROLASE, NUCLEOTIDE METABOLISM; HET: DUP; 2.7A {HUMAN HERPESVIRUS 4} SCOP: b.85.4.1
+Probab=19.97  E-value=1e+02  Score=13.26  Aligned_cols=6  Identities=67%  Similarity=1.281  Sum_probs=0.0  Template_Neff=8.200
+
+Q SGFGNS            1 SGFGNS    6 (6)
+Q Consensus         1 sgfgns    6 (6)
+                      .|||.|
+T Consensus       271 ~GfGSt  276 (278)
+T 2BT1_A          271 RGFGSS  276 (278)
+T ss_dssp             ------
+T ss_pred             CCCCCC
+
+
+No 7
+>5WAT_A Homoserine kinase (E.C.2.7.1.39); Corynebacterium glutamicum, Homoserine Kinase, L-threonine; HET: PO4, P6G, SO4; 2.141A {Corynebacterium glutamicum}
+Probab=19.94  E-value=1e+02  Score=12.59  Aligned_cols=6  Identities=50%  Similarity=1.005  Sum_probs=0.0  Template_Neff=9.900
+
+Q SGFGNS            1 SGFGNS    6 (6)
+Q Consensus         1 sgfgns    6 (6)
+                      +|+|.|
+T Consensus        98 ~GLGSS  103 (315)
+T 5WAT_A           98 RGLGSS  103 (315)
+T ss_dssp             SSSCHH
+T ss_pred             CCCcHH
+
+
+No 8
+>5WAT_B Homoserine kinase (E.C.2.7.1.39); Corynebacterium glutamicum, Homoserine Kinase, L-threonine; HET: SO4, PO4, P6G; 2.141A {Corynebacterium glutamicum}
+Probab=19.92  E-value=1e+02  Score=12.64  Aligned_cols=6  Identities=50%  Similarity=1.005  Sum_probs=0.0  Template_Neff=9.800
+
+Q SGFGNS            1 SGFGNS    6 (6)
+Q Consensus         1 sgfgns    6 (6)
+                      +|+|.|
+T Consensus        98 ~GLGSS  103 (315)
+T 5WAT_B           98 RGLGSS  103 (315)
+T ss_dssp             SSSCHH
+T ss_pred             CCCCHH
+
+
+No 9
+>1EY2_A jelly roll, beta sandwich, OXIDOREDUCTASE; HET: MSE; 2.3A {Homo sapiens} SCOP: b.82.1.4
+Probab=19.35  E-value=1.1e+02  Score=15.34  Aligned_cols=5  Identities=100%  Similarity=1.743  Sum_probs=0.0  Template_Neff=5.900
+
+Q SGFGNS            1 SGFGN    5 (6)
+Q Consensus         1 sgfgn    5 (6)
+                      +||||
+T Consensus        34 ~gfgn   38 (471)
+T 1EY2_A           34 SGFGN   38 (471)
+T ss_dssp             ECTTC
+T ss_pred             cCCCC
+
+
+No 10
+>6N3C_D TAR DNA-binding protein 43; Amyloid, TDP43, ALS, FTLD-TDP, dna; 3.3A {Homo sapiens}
+Probab=19.33  E-value=1.1e+02  Score=12.01  Aligned_cols=5  Identities=100%  Similarity=1.743  Sum_probs=0.0  Template_Neff=3.000
+
+Q SGFGNS            2 GFGNS    6 (6)
+Q Consensus         2 gfgns    6 (6)
+                      |||+|
+T Consensus         3 g~g~~    7 (46)
+T 6N3C_D            3 GFGNS    7 (46)
+T ss_dssp             CCSCE
+T ss_pred             CCCCc
+
+

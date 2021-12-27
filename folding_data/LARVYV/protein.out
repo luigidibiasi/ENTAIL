@@ -1,0 +1,150 @@
+Query         LARVYV
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 14:10:59 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LARVYV/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LARVYV/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6EDG_A Exotoxin; TRANSFERASE;   23.4      78 0.00087   15.6   0.0    6    1-6     104-109 (213)
+  2 3MCX_A SusD superfamily protei  15.7 1.5E+02  0.0017   13.0   0.0    6    1-6     208-213 (477)
+  3 3LEW_A SusD-like carbohydrate   15.6 1.5E+02  0.0017   13.2   0.0    6    1-6     209-214 (495)
+  4 5CX8_A Lipoprotein RagB; Major  15.2 1.6E+02  0.0017   13.1   0.0    6    1-6     219-224 (481)
+  5 2KZF_A Ribosome-binding factor  14.9 1.6E+02  0.0018   10.8   0.0    5    2-6      50-54  (106)
+  6 3KEZ_B Putative sugar binding   14.7 1.7E+02  0.0018   12.9   0.0    6    1-6     202-207 (461)
+  7 2WXW_A ANGIOTENSINOGEN; GLYCOP  14.4 1.7E+02  0.0019   13.3   0.0    4    3-6       3-6   (453)
+  8 2WXX_B ANGIOTENSINOGEN; GLYCOP  14.1 1.8E+02  0.0019   13.2   0.0    4    3-6       2-5   (453)
+  9 2WXY_C ANGIOTENSINOGEN; GLYCOP  14.1 1.8E+02  0.0019   13.2   0.0    4    3-6       2-5   (453)
+ 10 7BOG_V 30S ribosomal protein S  14.1 1.8E+02  0.0019   11.4   0.0    5    2-6      50-54  (133)
+
+No 1
+>6EDG_A Exotoxin; TRANSFERASE; HET: P34; 1.47A {Pseudomonas aeruginosa}
+Probab=23.44  E-value=78  Score=15.62  Aligned_cols=6  Identities=83%  Similarity=1.226  Sum_probs=3.6  Template_Neff=2.300
+
+Q LARVYV            1 LARVYV    6 (6)
+Q Consensus         1 larvyv    6 (6)
+                      |.||||
+T Consensus       104 llRVYV  109 (213)
+T 6EDG_A          104 LLRVYV  109 (213)
+T ss_dssp             EEEEEE
+T ss_pred             EEEEEE
+Confidence            346775
+
+
+No 2
+>3MCX_A SusD superfamily protein; Structural Genomics, Joint Center for; HET: ACT, GOL; 1.49A {Bacteroides thetaiotaomicron}
+Probab=15.69  E-value=1.5e+02  Score=13.01  Aligned_cols=6  Identities=67%  Similarity=1.265  Sum_probs=0.0  Template_Neff=9.700
+
+Q LARVYV            1 LARVYV    6 (6)
+Q Consensus         1 larvyv    6 (6)
+                      +||+|.
+T Consensus       208 lAR~~l  213 (477)
+T 3MCX_A          208 LSRVYL  213 (477)
+T ss_pred             HHHHHH
+
+
+No 3
+>3LEW_A SusD-like carbohydrate binding protein; SusD-like carbohydrate binding protein, Structural; HET: 2PE, 1PE; 1.7A {Bacteroides vulgatus}
+Probab=15.57  E-value=1.5e+02  Score=13.17  Aligned_cols=6  Identities=33%  Similarity=0.623  Sum_probs=0.0  Template_Neff=9.500
+
+Q LARVYV            1 LARVYV    6 (6)
+Q Consensus         1 larvyv    6 (6)
+                      +||||.
+T Consensus       209 lARv~L  214 (495)
+T 3LEW_A          209 LSRACL  214 (495)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 4
+>5CX8_A Lipoprotein RagB; Major immunodominant virulence factor, membrane; HET: GOL, TG6, MSE, 3DO, RP3; 2.4A {Porphyromonas gingivalis (strain ATCC BAA-308 / W83)}
+Probab=15.17  E-value=1.6e+02  Score=13.12  Aligned_cols=6  Identities=50%  Similarity=0.977  Sum_probs=0.0  Template_Neff=9.400
+
+Q LARVYV            1 LARVYV    6 (6)
+Q Consensus         1 larvyv    6 (6)
+                      +||||.
+T Consensus       219 ~ARvyL  224 (481)
+T 5CX8_A          219 RARIYL  224 (481)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 5
+>2KZF_A Ribosome-binding factor A; JCSG, Joint Center Structural Genomics; NMR {Thermotoga maritima}
+Probab=14.91  E-value=1.6e+02  Score=10.82  Aligned_cols=5  Identities=80%  Similarity=1.112  Sum_probs=0.0  Template_Neff=8.400
+
+Q LARVYV            2 ARVYV    6 (6)
+Q Consensus         2 arvyv    6 (6)
+                      |+||+
+T Consensus        50 a~Vy~   54 (106)
+T 2KZF_A           50 ADVYV   54 (106)
+T ss_dssp             EEEEE
+T ss_pred             EEEEE
+
+
+No 6
+>3KEZ_B Putative sugar binding protein; Putative sugar binding protein, Structural; HET: MSE, EDO, PO4; 1.9A {Bacteroides vulgatus ATCC 8482}
+Probab=14.66  E-value=1.7e+02  Score=12.93  Aligned_cols=6  Identities=67%  Similarity=1.265  Sum_probs=0.0  Template_Neff=9.500
+
+Q LARVYV            1 LARVYV    6 (6)
+Q Consensus         1 larvyv    6 (6)
+                      +||+|+
+T Consensus       202 ~Ar~~l  207 (461)
+T 3KEZ_B          202 LSRVYL  207 (461)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 7
+>2WXW_A ANGIOTENSINOGEN; GLYCOPROTEIN, HYPERTENSION, VASOCONSTRICTOR, RENIN, SERPINS; 3.3A {HOMO SAPIENS}
+Probab=14.41  E-value=1.7e+02  Score=13.28  Aligned_cols=4  Identities=75%  Similarity=1.580  Sum_probs=0.0  Template_Neff=8.700
+
+Q LARVYV            3 RVYV    6 (6)
+Q Consensus         3 rvyv    6 (6)
+                      ||||
+T Consensus         3 ~~y~    6 (453)
+T 2WXW_A            3 RVYI    6 (453)
+T ss_dssp             CCCS
+T ss_pred             ceee
+
+
+No 8
+>2WXX_B ANGIOTENSINOGEN; GLYCOPROTEIN, HYPERTENSION, VASOCONSTRICTOR, RENIN, SERPINS; 2.95A {MUS MUSCULUS}
+Probab=14.14  E-value=1.8e+02  Score=13.19  Aligned_cols=4  Identities=75%  Similarity=1.580  Sum_probs=0.0  Template_Neff=8.800
+
+Q LARVYV            3 RVYV    6 (6)
+Q Consensus         3 rvyv    6 (6)
+                      ||||
+T Consensus         2 ~~y~    5 (453)
+T 2WXX_B            2 RVYI    5 (453)
+T ss_dssp             CSCC
+T ss_pred             ceee
+
+
+No 9
+>2WXY_C ANGIOTENSINOGEN; GLYCOPROTEIN, HYPERTENSION, VASOCONSTRICTOR, RENIN, SERPINS; HET: EDO; 2.1A {MUS MUSCULUS}
+Probab=14.14  E-value=1.8e+02  Score=13.19  Aligned_cols=4  Identities=75%  Similarity=1.580  Sum_probs=0.0  Template_Neff=8.800
+
+Q LARVYV            3 RVYV    6 (6)
+Q Consensus         3 rvyv    6 (6)
+                      ||||
+T Consensus         2 ~~y~    5 (453)
+T 2WXY_C            2 RVYI    5 (453)
+T ss_dssp             CCCC
+T ss_pred             ceee
+
+
+No 10
+>7BOG_V 30S ribosomal protein S4, 30S; Cryo-EM, 30S biogenesis, ribosome assembly; HET: 5MC, PSU, G7M, MA6, 2MG, D2T, UR3, MG; 2.75A {Escherichia coli (strain K12)}
+Probab=14.14  E-value=1.8e+02  Score=11.39  Aligned_cols=5  Identities=80%  Similarity=1.311  Sum_probs=0.0  Template_Neff=7.900
+
+Q LARVYV            2 ARVYV    6 (6)
+Q Consensus         2 arvyv    6 (6)
+                      |+||+
+T Consensus        50 a~Vy~   54 (133)
+T 7BOG_V           50 AKVYV   54 (133)
+T ss_dssp             EEEEE
+T ss_pred             EEEEE
+
+

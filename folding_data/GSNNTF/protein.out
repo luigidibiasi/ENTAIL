@@ -1,0 +1,145 @@
+Query         GSNNTF
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 03:48:33 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GSNNTF/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GSNNTF/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6RXU_CW Periodic tryptophan pr  21.1      94   0.001   14.3   0.0    6    1-6     660-665 (668)
+  2 6Y69_k 30S ribosomal protein S  15.7 1.5E+02  0.0017   11.5   0.0    4    3-6      16-19  (116)
+  3 3OCP_B PRKG1 protein (E.C.2.7.  14.8 1.6E+02  0.0018    9.6   0.0    6    1-6       1-6   (139)
+  4 4Y4O_1k 50S Ribosomal Protein   14.7 1.7E+02  0.0018   11.8   0.0    4    3-6      26-29  (129)
+  5 2RE1_B Aspartokinase, alpha an  14.6 1.7E+02  0.0018   10.5   0.0    5    2-6       1-5   (167)
+  6 5TCU_S2 PROTEIN/RNA Complex, P  14.5 1.7E+02  0.0019   11.2   0.0    4    3-6      14-17  (114)
+  7 5FDV_1k 50S ribosomal protein   14.2 1.7E+02  0.0019   11.4   0.0    4    3-6      14-17  (114)
+  8 6EMW_L Endopeptidase Clp ATP-b  14.2 1.7E+02  0.0019   10.5   0.0    4    2-5     153-156 (157)
+  9 4O1H_A Transcription regulator  13.9 1.8E+02   0.002    9.0   0.0    6    1-6       2-7   (139)
+ 10 3LY5_B ATP-dependent RNA helic  13.9 1.8E+02   0.002   10.9   0.0    6    1-6      14-19  (262)
+
+No 1
+>6RXU_CW Periodic tryptophan protein 2-like protein; ribosome, ribosome biogenesis, rRNA; HET: GTP; 3.5A {Chaetomium thermophilum}
+Probab=21.13  E-value=94  Score=14.34  Aligned_cols=6  Identities=50%  Similarity=0.717  Sum_probs=3.7  Template_Neff=9.500
+
+Q GSNNTF            1 GSNNTF    6 (6)
+Q Consensus         1 gsnntf    6 (6)
+                      +|.|||
+T Consensus       660 ~~~~~~  665 (668)
+T 6RXU_CW         660 ASNNAL  665 (668)
+T ss_pred             cccccc
+Confidence            366776
+
+
+No 2
+>6Y69_k 30S ribosomal protein S2, 30S; tetracenomycin, RIBOSOME; HET: OCW; 2.86A {Escherichia coli (strain K12)}
+Probab=15.66  E-value=1.5e+02  Score=11.47  Aligned_cols=4  Identities=75%  Similarity=0.924  Sum_probs=0.0  Template_Neff=7.600
+
+Q GSNNTF            3 NNTF    6 (6)
+Q Consensus         3 nntf    6 (6)
+                      ||||
+T Consensus        16 NNt~   19 (116)
+T 6Y69_k           16 NNTI   19 (116)
+T ss_pred             CCEE
+
+
+No 3
+>3OCP_B PRKG1 protein (E.C.2.7.11.12); serine/threonine kinase, TF2I and IRAG; HET: CMP; 2.49A {Homo sapiens}
+Probab=14.77  E-value=1.6e+02  Score=9.56  Aligned_cols=6  Identities=33%  Similarity=0.551  Sum_probs=0.0  Template_Neff=11.800
+
+Q GSNNTF            1 GSNNTF    6 (6)
+Q Consensus         1 gsnntf    6 (6)
+                      ||++.+
+T Consensus         1 ~~~~~~    6 (139)
+T 3OCP_B            1 GSGSHV    6 (139)
+T ss_dssp             ---CCC
+T ss_pred             CCCCcc
+
+
+No 4
+>4Y4O_1k 50S Ribosomal Protein L2, 50S; Ribosome, rRNA modofications, pseudouridine, rRNA; HET: 7MG, MA6, MPD, 5MU, UR3, PSU, ARG, 2MU, 5MC, 4OC, MG, ZN, 2MA, OMG, 2MG, M2G, SF4, 0TD; 2.3A {Thermus thermophilus HB8}
+Probab=14.65  E-value=1.7e+02  Score=11.83  Aligned_cols=4  Identities=75%  Similarity=0.924  Sum_probs=0.0  Template_Neff=7.000
+
+Q GSNNTF            3 NNTF    6 (6)
+Q Consensus         3 nntf    6 (6)
+                      ||||
+T Consensus        26 NNt~   29 (129)
+T 4Y4O_1k          26 NNTI   29 (129)
+T ss_pred             CCEE
+
+
+No 5
+>2RE1_B Aspartokinase, alpha and beta subunits; Neisseria meningitidis, aspartokinase, Structural Genomics; 2.75A {Neisseria meningitidis MC58}
+Probab=14.63  E-value=1.7e+02  Score=10.45  Aligned_cols=5  Identities=80%  Similarity=1.012  Sum_probs=0.0  Template_Neff=10.700
+
+Q GSNNTF            2 SNNTF    6 (6)
+Q Consensus         2 snntf    6 (6)
+                      ||.||
+T Consensus         1 ~~~~~    5 (167)
+T 2RE1_B            1 SNATF    5 (167)
+T ss_dssp             -----
+T ss_pred             CCccc
+
+
+No 6
+>5TCU_S2 PROTEIN/RNA Complex, PAROMOMYCIN; 70S ribosome, cryoEM, ribosome, Staphylococcus; HET: PAR, MG; 3.9A {Staphylococcus aureus (strain NCTC 8325)}
+Probab=14.55  E-value=1.7e+02  Score=11.16  Aligned_cols=4  Identities=75%  Similarity=0.924  Sum_probs=0.0  Template_Neff=7.900
+
+Q GSNNTF            3 NNTF    6 (6)
+Q Consensus         3 nntf    6 (6)
+                      ||||
+T Consensus        14 nNt~   17 (114)
+T 5TCU_S2          14 NNTI   17 (114)
+T ss_pred             CCEE
+
+
+No 7
+>5FDV_1k 50S ribosomal protein L2, 50S; bacterial ribosome, proline-rich antimicrobial peptide; HET: OMU, 2MG, SF4, OMC, 2MA, OMG, PSU, 0TD, 5MC, 4OC, MG, G7M, MA6, ZN, UR3, M2G, 5MU; 2.8A {Thermus thermophilus HB8}
+Probab=14.18  E-value=1.7e+02  Score=11.36  Aligned_cols=4  Identities=75%  Similarity=0.924  Sum_probs=0.0  Template_Neff=7.400
+
+Q GSNNTF            3 NNTF    6 (6)
+Q Consensus         3 nntf    6 (6)
+                      ||||
+T Consensus        14 NNt~   17 (114)
+T 5FDV_1k          14 NNTI   17 (114)
+T ss_pred             CCEE
+
+
+No 8
+>6EMW_L Endopeptidase Clp ATP-binding subunit C; Chaperone, AAA+ protein, unfoldase; 11.0A {Staphylococcus aureus}
+Probab=14.16  E-value=1.7e+02  Score=10.50  Aligned_cols=4  Identities=100%  Similarity=1.024  Sum_probs=0.0  Template_Neff=10.300
+
+Q GSNNTF            2 SNNT    5 (6)
+Q Consensus         2 snnt    5 (6)
+                      +|||
+T Consensus       153 ~~~~  156 (157)
+T 6EMW_L          153 SNNT  156 (157)
+T ss_pred             ccCC
+
+
+No 9
+>4O1H_A Transcription regulator GlnR; Homodimeric receiver domain, Transcription regulator; HET: MSE; 2.8A {Amycolatopsis mediterranei}
+Probab=13.95  E-value=1.8e+02  Score=9.05  Aligned_cols=6  Identities=33%  Similarity=0.584  Sum_probs=0.0  Template_Neff=12.600
+
+Q GSNNTF            1 GSNNTF    6 (6)
+Q Consensus         1 gsnntf    6 (6)
+                      ||.|++
+T Consensus         2 ~~~~~~    7 (139)
+T 4O1H_A            2 GSSHHH    7 (139)
+T ss_dssp             ------
+T ss_pred             CCCCcc
+
+
+No 10
+>3LY5_B ATP-dependent RNA helicase DDX18 (E.C.3.6.1.-); alpha-beta, Structural Genomics, Structural Genomics; 2.8A {Homo sapiens}
+Probab=13.85  E-value=1.8e+02  Score=10.92  Aligned_cols=6  Identities=33%  Similarity=0.922  Sum_probs=0.0  Template_Neff=11.200
+
+Q GSNNTF            1 GSNNTF    6 (6)
+Q Consensus         1 gsnntf    6 (6)
+                      |++++|
+T Consensus        14 ~~~~~~   19 (262)
+T 3LY5_B           14 GTENLY   19 (262)
+T ss_dssp             ------
+T ss_pred             CCcccc
+
+

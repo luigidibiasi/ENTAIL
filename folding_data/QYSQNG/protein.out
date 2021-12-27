@@ -1,0 +1,148 @@
+Query         QYSQNG
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 11:52:54 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QYSQNG/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QYSQNG/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3EPA_A S-adenosylmethionine de  10.8 2.6E+02  0.0029   13.1   0.0    5    2-6     160-164 (260)
+  2 6UZZ_G Potassium voltage-gated  10.8 2.6E+02  0.0029   13.2   0.0    4    1-4     470-473 (557)
+  3 6V00_J Potassium voltage-gated  10.8 2.6E+02  0.0029   13.2   0.0    4    1-4     470-473 (557)
+  4 6ZM8_A muramidase, fungal, GH2  10.7 2.6E+02  0.0029   10.7   0.0    6    1-6     180-185 (208)
+  5 3DZ7_A S-adenosylmethionine de  10.2 2.8E+02  0.0031   13.1   0.0    5    2-6     161-165 (267)
+  6 5DIL_A Non-structural protein   10.0 2.9E+02  0.0032   13.1   0.0    5    2-6      72-76  (141)
+  7 2J8F_A LYSOZYME (E.C.3.2.1.17)   9.9 2.9E+02  0.0032   11.2   0.0    6    1-6     175-180 (339)
+  8 4H3H_E Symplekin, RNA polymera   9.1 3.3E+02  0.0036   13.1   0.0    5    2-6      96-100 (214)
+  9 4H3K_E Symplekin, RNA polymera   9.1 3.3E+02  0.0036   13.1   0.0    5    2-6      96-100 (214)
+ 10 2NW0_A PlyB; Beta Barrel, HYDR   9.0 3.3E+02  0.0036   10.4   0.0    6    1-6     156-161 (189)
+
+No 1
+>3EPA_A S-adenosylmethionine decarboxylase beta chain (E.C.4.1.1.50); AdoMetDC with mutation in putrescine; 2.1A {Homo sapiens}
+Probab=10.80  E-value=2.6e+02  Score=13.11  Aligned_cols=5  Identities=80%  Similarity=1.291  Sum_probs=0.0  Template_Neff=5.800
+
+Q QYSQNG            2 YSQNG    6 (6)
+Q Consensus         2 ysqng    6 (6)
+                      ||.||
+T Consensus       160 YS~N~  164 (260)
+T 3EPA_A          160 YSMNG  164 (260)
+T ss_pred             eeeee
+
+
+No 2
+>6UZZ_G Potassium voltage-gated channel subfamily KQT; potassium channel, KCNQ1, CaM, MEMBRANE; 3.1A {Homo sapiens}
+Probab=10.76  E-value=2.6e+02  Score=13.16  Aligned_cols=4  Identities=100%  Similarity=1.281  Sum_probs=0.0  Template_Neff=8.600
+
+Q QYSQNG            1 QYSQ    4 (6)
+Q Consensus         1 qysq    4 (6)
+                      ||||
+T Consensus       470 qys~  473 (557)
+T 6UZZ_G          470 QYSQ  473 (557)
+T ss_dssp             HHHH
+T ss_pred             HHHH
+
+
+No 3
+>6V00_J Potassium voltage-gated channel subfamily KQT; potassium channel, KCNQ1, CaM, MEMBRANE; 3.1A {Homo sapiens}
+Probab=10.76  E-value=2.6e+02  Score=13.16  Aligned_cols=4  Identities=100%  Similarity=1.281  Sum_probs=0.0  Template_Neff=8.600
+
+Q QYSQNG            1 QYSQ    4 (6)
+Q Consensus         1 qysq    4 (6)
+                      ||||
+T Consensus       470 qys~  473 (557)
+T 6V00_J          470 QYSQ  473 (557)
+T ss_dssp             HHHH
+T ss_pred             HHHH
+
+
+No 4
+>6ZM8_A muramidase, fungal, GH25, lysozyme, industrial; 0.78A {Sodiomyces alcalophilus}
+Probab=10.66  E-value=2.6e+02  Score=10.69  Aligned_cols=6  Identities=33%  Similarity=0.506  Sum_probs=0.0  Template_Neff=10.000
+
+Q QYSQNG            1 QYSQNG    6 (6)
+Q Consensus         1 qysqng    6 (6)
+                      ||+.++
+T Consensus       180 Qyt~~~  185 (208)
+T 6ZM8_A          180 QYNDKY  185 (208)
+T ss_dssp             EEESCC
+T ss_pred             EeeCCC
+
+
+No 5
+>3DZ7_A S-adenosylmethionine decarboxylase beta chain (E.C.4.1.1.50); Complexes of AdoMetDC with 8-substituted; HET: O8M; 1.91A {Homo sapiens}
+Probab=10.23  E-value=2.8e+02  Score=13.10  Aligned_cols=5  Identities=80%  Similarity=1.291  Sum_probs=0.0  Template_Neff=5.700
+
+Q QYSQNG            2 YSQNG    6 (6)
+Q Consensus         2 ysqng    6 (6)
+                      ||.||
+T Consensus       161 YS~N~  165 (267)
+T 3DZ7_A          161 YSMNG  165 (267)
+T ss_pred             ceeee
+
+
+No 6
+>5DIL_A Non-structural protein 1; effector domain, RNA binding, RNA-binding; HET: IOD, MSE; 2.01A {Influenza B virus (B/Singapore/DSO_090134/2004)}
+Probab=10.00  E-value=2.9e+02  Score=13.14  Aligned_cols=5  Identities=80%  Similarity=1.424  Sum_probs=0.0  Template_Neff=1.000
+
+Q QYSQNG            2 YSQNG    6 (6)
+Q Consensus         2 ysqng    6 (6)
+                      |.|||
+T Consensus        72 ydqng   76 (141)
+T 5DIL_A           72 YDQNG   76 (141)
+T ss_dssp             ECTTS
+T ss_pred             ecCCC
+
+
+No 7
+>2J8F_A LYSOZYME (E.C.3.2.1.17); ANTIMICROBIAL, MUEIN HYDROLASE, BACTERIOLYTIC ENZYME; HET: AMV, ALA, NAG; 1.84A {BACTERIOPHAGE CP-1} SCOP: b.109.1.1, c.1.8.8
+Probab=9.95  E-value=2.9e+02  Score=11.19  Aligned_cols=6  Identities=67%  Similarity=0.838  Sum_probs=0.0  Template_Neff=10.500
+
+Q QYSQNG            1 QYSQNG    6 (6)
+Q Consensus         1 qysqng    6 (6)
+                      ||+.+|
+T Consensus       175 Qys~~~  180 (339)
+T 2J8F_A          175 QYSSNP  180 (339)
+T ss_dssp             EEECSS
+T ss_pred             eccCCC
+
+
+No 8
+>4H3H_E Symplekin, RNA polymerase II subunit; Heat repeat, phosphatase, RNA polymerase; HET: SEP; 2.2A {Homo sapiens}
+Probab=9.05  E-value=3.3e+02  Score=13.13  Aligned_cols=5  Identities=80%  Similarity=1.491  Sum_probs=0.0  Template_Neff=4.100
+
+Q QYSQNG            2 YSQNG    6 (6)
+Q Consensus         2 ysqng    6 (6)
+                      |.+||
+T Consensus        96 Y~~NG  100 (214)
+T 4H3H_E           96 YTQNG  100 (214)
+T ss_dssp             HHHTT
+T ss_pred             HHHcC
+
+
+No 9
+>4H3K_E Symplekin, RNA polymerase II subunit; Heat repeat, phosphatase, RNA polymerase; HET: SEP; 2.0A {Homo sapiens}
+Probab=9.05  E-value=3.3e+02  Score=13.13  Aligned_cols=5  Identities=80%  Similarity=1.491  Sum_probs=0.0  Template_Neff=4.100
+
+Q QYSQNG            2 YSQNG    6 (6)
+Q Consensus         2 ysqng    6 (6)
+                      |.+||
+T Consensus        96 Y~~NG  100 (214)
+T 4H3K_E           96 YTQNG  100 (214)
+T ss_dssp             HHHTS
+T ss_pred             HHHcC
+
+
+No 10
+>2NW0_A PlyB; Beta Barrel, HYDROLASE; HET: ACT; 1.6A {unidentified phage}
+Probab=9.02  E-value=3.3e+02  Score=10.36  Aligned_cols=6  Identities=50%  Similarity=0.994  Sum_probs=0.0  Template_Neff=9.800
+
+Q QYSQNG            1 QYSQNG    6 (6)
+Q Consensus         1 qysqng    6 (6)
+                      ||+.++
+T Consensus       156 Qyt~~~  161 (189)
+T 2NW0_A          156 QYDEYG  161 (189)
+T ss_dssp             EEEEEE
+T ss_pred             EEecCe
+
+

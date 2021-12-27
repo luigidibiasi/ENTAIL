@@ -1,0 +1,145 @@
+Query         LATTYV
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 15:13:28 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LATTYV/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LATTYV/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6MGN_A Transcription factor E2   2.6 1.6E+03   0.018    8.6   0.0    6    1-6      34-39  (52)
+  2 4A8J_E ELONGATOR COMPLEX PROTE   2.6 1.6E+03   0.018    9.6   0.0    6    1-6     164-169 (270)
+  3 1A0A_A PHOSPHATE SYSTEM POSITI   2.5 1.7E+03   0.018    6.6   0.0    5    2-6      50-54  (63)
+  4 5Y2G_A Maltose-binding peripla   2.5 1.7E+03   0.018   10.7   0.0    5    2-6     512-516 (595)
+  5 6S08_A Properdin; INNATE IMMUN   2.5 1.7E+03   0.019    8.7   0.0    5    1-5     216-220 (225)
+  6 7F0K_A Kmp11, kinetoplastid, m   2.4 1.8E+03   0.019   10.1   0.0    5    1-5       1-5   (92)
+  7 5M72_B Signal recognition part   2.4 1.8E+03   0.019    8.3   0.0    6    1-6      50-55  (71)
+  8 1AW8_B L-ASPARTATE-ALPHA-DECAR   2.4 1.8E+03    0.02    9.4   0.0    4    3-6      32-35  (91)
+  9 1UHE_A Aspartate 1-decarboxyla   2.4 1.8E+03    0.02    9.5   0.0    4    3-6      31-34  (97)
+ 10 2E54_A Acetylornithine aminotr   2.3 1.8E+03    0.02    8.8   0.0    5    1-5       3-7   (385)
+
+No 1
+>6MGN_A Transcription factor E2-alpha, DNA-binding protein; DNA-binding protein inhibitor ID-1, transcription; 1.901A {Homo sapiens}
+Probab=2.56  E-value=1.6e+03  Score=8.56  Aligned_cols=6  Identities=17%  Similarity=0.158  Sum_probs=0.0  Template_Neff=4.500
+
+Q LATTYV            1 LATTYV    6 (6)
+Q Consensus         1 lattyv    6 (6)
+                      +|..|+
+T Consensus        34 ~Av~yI   39 (52)
+T 6MGN_A           34 QAVQVI   39 (52)
+T ss_pred             HHHHHH
+
+
+No 2
+>4A8J_E ELONGATOR COMPLEX PROTEIN 4, ELONGATOR; TRANSCRIPTION; 2.1A {SACCHAROMYCES CEREVISIAE}
+Probab=2.55  E-value=1.6e+03  Score=9.60  Aligned_cols=6  Identities=67%  Similarity=0.717  Sum_probs=0.0  Template_Neff=8.600
+
+Q LATTYV            1 LATTYV    6 (6)
+Q Consensus         1 lattyv    6 (6)
+                      +|++++
+T Consensus       164 lAt~vl  169 (270)
+T 4A8J_E          164 MATTIV  169 (270)
+T ss_pred             HCCEEE
+
+
+No 3
+>1A0A_A PHOSPHATE SYSTEM POSITIVE REGULATORY PROTEIN; TRANSCRIPTION FACTOR, BASIC HELIX LOOP; 2.8A {Saccharomyces cerevisiae} SCOP: a.38.1.1
+Probab=2.52  E-value=1.7e+03  Score=6.56  Aligned_cols=5  Identities=40%  Similarity=0.840  Sum_probs=0.0  Template_Neff=10.300
+
+Q LATTYV            2 ATTYV    6 (6)
+Q Consensus         2 attyv    6 (6)
+                      |..|+
+T Consensus        50 a~~yi   54 (63)
+T 1A0A_A           50 ACRYI   54 (63)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 4
+>5Y2G_A Maltose-binding periplasmic protein,Protein B; Camp factor, pore forming toxin; HET: MAL, SO4; 3.0A {Escherichia coli}
+Probab=2.51  E-value=1.7e+03  Score=10.73  Aligned_cols=5  Identities=60%  Similarity=0.806  Sum_probs=0.0  Template_Neff=8.900
+
+Q LATTYV            2 ATTYV    6 (6)
+Q Consensus         2 attyv    6 (6)
+                      ||.||
+T Consensus       512 ~~~~~  516 (595)
+T 5Y2G_A          512 ATIYT  516 (595)
+T ss_pred             eehhh
+
+
+No 5
+>6S08_A Properdin; INNATE IMMUNITY, COMPLEMENT, IMMUNE SYSTEM; HET: BGC, FUC, MAN, PGE; 2.03A {Homo sapiens}
+Probab=2.46  E-value=1.7e+03  Score=8.72  Aligned_cols=5  Identities=40%  Similarity=0.361  Sum_probs=0.0  Template_Neff=9.900
+
+Q LATTYV            1 LATTY    5 (6)
+Q Consensus         1 latty    5 (6)
+                      ++++|
+T Consensus       216 ~~~~~  220 (225)
+T 6S08_A          216 LAAAH  220 (225)
+T ss_pred             HHHhc
+
+
+No 6
+>7F0K_A Kmp11, kinetoplastid, membrane BINDING PROTEIN; HET: MSE; 3.5A {Trypanosoma brucei gambiense (strain MHOM/CI/86/DAL972)}
+Probab=2.41  E-value=1.8e+03  Score=10.06  Aligned_cols=5  Identities=80%  Similarity=1.198  Sum_probs=0.0  Template_Neff=1.400
+
+Q LATTYV            1 LATTY    5 (6)
+Q Consensus         1 latty    5 (6)
+                      ++|||
+T Consensus         1 M~Tt~    5 (92)
+T 7F0K_A            1 MATTY    5 (92)
+T ss_dssp             CHHHH
+T ss_pred             CCchH
+
+
+No 7
+>5M72_B Signal recognition particle subunit SRP72; protein targeting, signal recognition particle; HET: GOL, SO4; 1.6A {Homo sapiens}
+Probab=2.40  E-value=1.8e+03  Score=8.28  Aligned_cols=6  Identities=50%  Similarity=0.379  Sum_probs=0.0  Template_Neff=6.400
+
+Q LATTYV            1 LATTYV    6 (6)
+Q Consensus         1 lattyv    6 (6)
+                      +|-.|+
+T Consensus        50 lA~Nyi   55 (71)
+T 5M72_B           50 LALNHV   55 (71)
+T ss_dssp             GGGGGC
+T ss_pred             hhhhcc
+
+
+No 8
+>1AW8_B L-ASPARTATE-ALPHA-DECARBOXYLASE; DECARBOXYLASE, PANTOTHENATE PATHWAY, LYASE, PROTEIN; HET: PYR; 2.2A {Escherichia coli}
+Probab=2.37  E-value=1.8e+03  Score=9.44  Aligned_cols=4  Identities=50%  Similarity=0.991  Sum_probs=0.0  Template_Neff=4.200
+
+Q LATTYV            3 TTYV    6 (6)
+Q Consensus         3 ttyv    6 (6)
+                      .|||
+T Consensus        32 ~TYv   35 (91)
+T 1AW8_B           32 STYA   35 (91)
+T ss_dssp             EEEC
+T ss_pred             EEEE
+
+
+No 9
+>1UHE_A Aspartate 1-decarboxylase (E.C.4.1.1.11); double-psi beta barrel, LYASE; HET: NSN; 1.55A {Helicobacter pylori}
+Probab=2.35  E-value=1.8e+03  Score=9.53  Aligned_cols=4  Identities=75%  Similarity=1.265  Sum_probs=0.0  Template_Neff=4.200
+
+Q LATTYV            3 TTYV    6 (6)
+Q Consensus         3 ttyv    6 (6)
+                      .|||
+T Consensus        31 ~TYv   34 (97)
+T 1UHE_A           31 STYV   34 (97)
+T ss_pred             EEEE
+
+
+No 10
+>2E54_A Acetylornithine aminotransferase (E.C.2.6.1.11); argD, Structural Genomics, NPPSFA, National; HET: PLP; 1.5A {Thermotoga maritima}
+Probab=2.34  E-value=1.8e+03  Score=8.77  Aligned_cols=5  Identities=60%  Similarity=0.939  Sum_probs=0.0  Template_Neff=11.600
+
+Q LATTYV            1 LATTY    5 (6)
+Q Consensus         1 latty    5 (6)
+                      ++.||
+T Consensus         3 ~~~~~    7 (385)
+T 2E54_A            3 LMNTY    7 (385)
+T ss_dssp             SCSCC
+T ss_pred             cCccc
+
+

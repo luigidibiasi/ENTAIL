@@ -1,0 +1,148 @@
+Query         NGAAVD
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 00:01:57 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NGAAVD/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NGAAVD/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5LS7_D Aspartate 1-decarboxyla   9.5 3.1E+02  0.0034   11.9   0.0    4    1-4      48-51  (102)
+  2 7A8Y_BBB Decarboxylase, LYASE;   9.3 3.2E+02  0.0035   11.7   0.0    4    1-4      48-51  (94)
+  3 1AW8_B L-ASPARTATE-ALPHA-DECAR   9.0 3.3E+02  0.0037   11.5   0.0    4    1-4      48-51  (91)
+  4 6P1Y_B Aspartate 1 decarboxyla   8.7 3.4E+02  0.0038   12.2   0.0    4    1-4      48-51  (123)
+  5 6P02_D Aspartate 1-decarboxyla   8.7 3.5E+02  0.0038   12.2   0.0    4    1-4      48-51  (123)
+  6 3OUG_B Aspartate 1-decarboxyla   8.2 3.7E+02  0.0041   11.9   0.0    4    1-4      75-78  (114)
+  7 3OUG_C Aspartate 1-decarboxyla   8.2 3.7E+02  0.0041   11.9   0.0    4    1-4      75-78  (114)
+  8 4MPH_B D-alanyl-D-alanine carb   7.9 3.9E+02  0.0043   10.8   0.0    5    2-6     112-116 (192)
+  9 4MUR_B D,D-dipeptidase/D,D-car   7.9   4E+02  0.0044   11.1   0.0    5    2-6     119-123 (211)
+ 10 4MUT_B D,D-dipeptidase/D,D-car   7.9   4E+02  0.0044   11.1   0.0    5    2-6     119-123 (211)
+
+No 1
+>5LS7_D Aspartate 1-decarboxylase (E.C.4.1.1.11), PanD maturation; protein derived cofactor, coenzyme A; HET: GOL, ACO; 1.16A {Escherichia coli K-12}
+Probab=9.54  E-value=3.1e+02  Score=11.88  Aligned_cols=4  Identities=100%  Similarity=1.265  Sum_probs=0.0  Template_Neff=4.100
+
+Q NGAAVD            1 NGAA    4 (6)
+Q Consensus         1 ngaa    4 (6)
+                      ||||
+T Consensus        48 NGaA   51 (102)
+T 5LS7_D           48 NGAA   51 (102)
+T ss_pred             ehhh
+
+
+No 2
+>7A8Y_BBB Decarboxylase, LYASE; HET: PYR, DSN; 1.75A {Escherichia coli}
+Probab=9.31  E-value=3.2e+02  Score=11.65  Aligned_cols=4  Identities=100%  Similarity=1.265  Sum_probs=0.0  Template_Neff=4.200
+
+Q NGAAVD            1 NGAA    4 (6)
+Q Consensus         1 ngaa    4 (6)
+                      ||||
+T Consensus        48 NGaA   51 (94)
+T 7A8Y_BBB         48 NGAA   51 (94)
+T ss_pred             cccc
+
+
+No 3
+>1AW8_B L-ASPARTATE-ALPHA-DECARBOXYLASE; DECARBOXYLASE, PANTOTHENATE PATHWAY, LYASE, PROTEIN; HET: PYR; 2.2A {Escherichia coli}
+Probab=8.99  E-value=3.3e+02  Score=11.54  Aligned_cols=4  Identities=100%  Similarity=1.265  Sum_probs=0.0  Template_Neff=4.200
+
+Q NGAAVD            1 NGAA    4 (6)
+Q Consensus         1 ngaa    4 (6)
+                      ||||
+T Consensus        48 NGaA   51 (91)
+T 1AW8_B           48 NGAA   51 (91)
+T ss_dssp             EGGG
+T ss_pred             cccc
+
+
+No 4
+>6P1Y_B Aspartate 1 decarboxylase beta chain; Structural Genomics, TB Structural Genomics; HET: TLA; 2.33A {Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv)}
+Probab=8.75  E-value=3.4e+02  Score=12.21  Aligned_cols=4  Identities=100%  Similarity=1.265  Sum_probs=0.0  Template_Neff=3.700
+
+Q NGAAVD            1 NGAA    4 (6)
+Q Consensus         1 ngaa    4 (6)
+                      ||||
+T Consensus        48 NGAA   51 (123)
+T 6P1Y_B           48 NGAA   51 (123)
+T ss_dssp             EGGG
+T ss_pred             ccch
+
+
+No 5
+>6P02_D Aspartate 1-decarboxylase beta chain, Aspartate; active, 6-Cl-POA, complex, Structural Genomics; HET: PYR, NMJ; 2.25A {Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv)}
+Probab=8.68  E-value=3.5e+02  Score=12.16  Aligned_cols=4  Identities=100%  Similarity=1.265  Sum_probs=0.0  Template_Neff=3.800
+
+Q NGAAVD            1 NGAA    4 (6)
+Q Consensus         1 ngaa    4 (6)
+                      ||||
+T Consensus        48 NGAA   51 (123)
+T 6P02_D           48 NGAA   51 (123)
+T ss_dssp             EGGG
+T ss_pred             ccch
+
+
+No 6
+>3OUG_B Aspartate 1-decarboxylase (E.C.4.1.1.11); Structural Genomics, Center for Structural; HET: GOL, MSE; 1.55A {Francisella tularensis subsp. tularensis}
+Probab=8.22  E-value=3.7e+02  Score=11.90  Aligned_cols=4  Identities=75%  Similarity=1.091  Sum_probs=0.0  Template_Neff=3.900
+
+Q NGAAVD            1 NGAA    4 (6)
+Q Consensus         1 ngaa    4 (6)
+                      ||||
+T Consensus        75 NGaA   78 (114)
+T 3OUG_B           75 NGPA   78 (114)
+T ss_dssp             EGGG
+T ss_pred             cCcc
+
+
+No 7
+>3OUG_C Aspartate 1-decarboxylase (E.C.4.1.1.11); Structural Genomics, Center for Structural; HET: GOL, MSE; 1.55A {Francisella tularensis subsp. tularensis}
+Probab=8.22  E-value=3.7e+02  Score=11.90  Aligned_cols=4  Identities=75%  Similarity=1.091  Sum_probs=0.0  Template_Neff=3.900
+
+Q NGAAVD            1 NGAA    4 (6)
+Q Consensus         1 ngaa    4 (6)
+                      ||||
+T Consensus        75 NGaA   78 (114)
+T 3OUG_C           75 NGPA   78 (114)
+T ss_dssp             EGGG
+T ss_pred             cCcc
+
+
+No 8
+>4MPH_B D-alanyl-D-alanine carboxypeptidase family protein; structural genomics, NIAID, National Institute; HET: PE3; 2.0301A {Bacillus anthracis}
+Probab=7.92  E-value=3.9e+02  Score=10.81  Aligned_cols=5  Identities=40%  Similarity=0.820  Sum_probs=0.0  Template_Neff=8.500
+
+Q NGAAVD            2 GAAVD    6 (6)
+Q Consensus         2 gaavd    6 (6)
+                      |.|||
+T Consensus       112 G~AvD  116 (192)
+T 4MPH_B          112 GLTMD  116 (192)
+T ss_dssp             TCEEE
+T ss_pred             ceEEE
+
+
+No 9
+>4MUR_B D,D-dipeptidase/D,D-carboxypeptidase; CENTER FOR STRUCTURAL GENOMICS OF; HET: PE3; 1.65A {Enterococcus gallinarum}
+Probab=7.86  E-value=4e+02  Score=11.14  Aligned_cols=5  Identities=60%  Similarity=1.039  Sum_probs=0.0  Template_Neff=8.100
+
+Q NGAAVD            2 GAAVD    6 (6)
+Q Consensus         2 gaavd    6 (6)
+                      |.|||
+T Consensus       119 G~AvD  123 (211)
+T 4MUR_B          119 GLAID  123 (211)
+T ss_dssp             TCEEE
+T ss_pred             eeEEE
+
+
+No 10
+>4MUT_B D,D-dipeptidase/D,D-carboxypeptidase; CENTER FOR STRUCTURAL GENOMICS OF; HET: DAL; 2.25A {Enterococcus gallinarum}
+Probab=7.86  E-value=4e+02  Score=11.14  Aligned_cols=5  Identities=60%  Similarity=1.039  Sum_probs=0.0  Template_Neff=8.100
+
+Q NGAAVD            2 GAAVD    6 (6)
+Q Consensus         2 gaavd    6 (6)
+                      |.|||
+T Consensus       119 G~AvD  123 (211)
+T 4MUT_B          119 GLAID  123 (211)
+T ss_dssp             TCEEE
+T ss_pred             eeEEE
+
+

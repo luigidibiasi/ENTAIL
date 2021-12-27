@@ -1,0 +1,148 @@
+Query         AQIVYK
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 15:25:16 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/AQIVYK/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/AQIVYK/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3HFN_B Asl2047 protein; HFQ, S  10.3 2.7E+02   0.003   10.6   0.0    5    2-6      58-62  (72)
+  2 6O1K_E Catabolite repression c  10.0 2.9E+02  0.0032   10.4   0.0    5    2-6      48-52  (67)
+  3 6GWK_B RNA-binding protein Hfq   9.9 2.9E+02  0.0032   10.7   0.0    5    2-6      55-59  (82)
+  4 6GWK_O RNA-binding protein Hfq   9.9 2.9E+02  0.0032   10.7   0.0    5    2-6      55-59  (82)
+  5 5SZD_A RNA-binding protein Hfq   9.8   3E+02  0.0033   10.9   0.0    5    2-6      54-58  (83)
+  6 5SZD_K RNA-binding protein Hfq   9.8   3E+02  0.0033   10.9   0.0    5    2-6      54-58  (83)
+  7 5I21_A RNA-binding protein Hfq   9.4 3.1E+02  0.0034   10.8   0.0    5    2-6      52-56  (82)
+  8 3QUI_A Protein hfq; LSM, RNA-b   9.3 3.2E+02  0.0035   10.8   0.0    5    2-6      52-56  (82)
+  9 6XYJ_AAA Hfq, SmAP, tertiary s   8.9 3.4E+02  0.0037   11.5   0.0    5    2-6      65-69  (95)
+ 10 6CVJ_D Tubulin alpha-1B chain,   8.9 3.4E+02  0.0037   12.9   0.0    6    1-6     196-201 (206)
+
+No 1
+>3HFN_B Asl2047 protein; HFQ, SM, RNA-BINDING PROTEIN, SRNA; 2.31A {Nostoc sp.}
+Probab=10.31  E-value=2.7e+02  Score=10.57  Aligned_cols=5  Identities=20%  Similarity=0.654  Sum_probs=0.0  Template_Neff=6.100
+
+Q AQIVYK            2 QIVYK    6 (6)
+Q Consensus         2 qivyk    6 (6)
+                      +++||
+T Consensus        58 ~lI~K   62 (72)
+T 3HFN_B           58 TTIWK   62 (72)
+T ss_dssp             EEEEG
+T ss_pred             EEEEe
+
+
+No 2
+>6O1K_E Catabolite repression control protein, RNA-binding; Hfq, Crc, amiE, Carbon catabolite; 3.13A {Pseudomonas aeruginosa}
+Probab=10.02  E-value=2.9e+02  Score=10.35  Aligned_cols=5  Identities=80%  Similarity=1.305  Sum_probs=0.0  Template_Neff=6.200
+
+Q AQIVYK            2 QIVYK    6 (6)
+Q Consensus         2 qivyk    6 (6)
+                      +++||
+T Consensus        48 ~lI~K   52 (67)
+T 6O1K_E           48 QMVYK   52 (67)
+T ss_dssp             EEEET
+T ss_pred             EEEEe
+
+
+No 3
+>6GWK_B RNA-binding protein Hfq; Hfq, Caulobacter, sRNA, RNA-protein interactions; 2.15A { Caulobacter vibrioides CB15}
+Probab=9.91  E-value=2.9e+02  Score=10.74  Aligned_cols=5  Identities=80%  Similarity=1.325  Sum_probs=0.0  Template_Neff=6.100
+
+Q AQIVYK            2 QIVYK    6 (6)
+Q Consensus         2 qivyk    6 (6)
+                      +++||
+T Consensus        55 ~lI~K   59 (82)
+T 6GWK_B           55 QLVYK   59 (82)
+T ss_dssp             EEEEG
+T ss_pred             EEEEe
+
+
+No 4
+>6GWK_O RNA-binding protein Hfq; Hfq, Caulobacter, sRNA, RNA-protein interactions; 2.15A { Caulobacter vibrioides CB15}
+Probab=9.91  E-value=2.9e+02  Score=10.74  Aligned_cols=5  Identities=80%  Similarity=1.325  Sum_probs=0.0  Template_Neff=6.100
+
+Q AQIVYK            2 QIVYK    6 (6)
+Q Consensus         2 qivyk    6 (6)
+                      +++||
+T Consensus        55 ~lI~K   59 (82)
+T 6GWK_O           55 QLVYK   59 (82)
+T ss_dssp             EEEEG
+T ss_pred             EEEEe
+
+
+No 5
+>5SZD_A RNA-binding protein Hfq; Hfq, Aquifex, RNA-binding, RNA BINDING; HET: PEG, MPD, GAI, MRD; 1.494A {Aquifex aeolicus (strain VF5)}
+Probab=9.77  E-value=3e+02  Score=10.87  Aligned_cols=5  Identities=60%  Similarity=1.145  Sum_probs=0.0  Template_Neff=5.800
+
+Q AQIVYK            2 QIVYK    6 (6)
+Q Consensus         2 qivyk    6 (6)
+                      +++||
+T Consensus        54 ~lI~K   58 (83)
+T 5SZD_A           54 TLVYK   58 (83)
+T ss_dssp             EEEEG
+T ss_pred             EEEEc
+
+
+No 6
+>5SZD_K RNA-binding protein Hfq; Hfq, Aquifex, RNA-binding, RNA BINDING; HET: PEG, MPD, GAI, MRD; 1.494A {Aquifex aeolicus (strain VF5)}
+Probab=9.77  E-value=3e+02  Score=10.87  Aligned_cols=5  Identities=60%  Similarity=1.145  Sum_probs=0.0  Template_Neff=5.800
+
+Q AQIVYK            2 QIVYK    6 (6)
+Q Consensus         2 qivyk    6 (6)
+                      +++||
+T Consensus        54 ~lI~K   58 (83)
+T 5SZD_K           54 TLVYK   58 (83)
+T ss_dssp             EEEEG
+T ss_pred             EEEEc
+
+
+No 7
+>5I21_A RNA-binding protein Hfq; Hfq, Pseudomonas aeruginosa, RNA binding; 1.55A {Pseudomonas aeruginosa (strain PA7)}
+Probab=9.45  E-value=3.1e+02  Score=10.84  Aligned_cols=5  Identities=60%  Similarity=1.059  Sum_probs=0.0  Template_Neff=5.700
+
+Q AQIVYK            2 QIVYK    6 (6)
+Q Consensus         2 qivyk    6 (6)
+                      +++||
+T Consensus        52 ~lIyK   56 (82)
+T 5I21_A           52 QMVWK   56 (82)
+T ss_dssp             EEEEG
+T ss_pred             EEEEe
+
+
+No 8
+>3QUI_A Protein hfq; LSM, RNA-binding protein, sRNA, mRNA; HET: ADE, ADP, ANP; 1.933A {Pseudomonas aeruginosa}
+Probab=9.30  E-value=3.2e+02  Score=10.81  Aligned_cols=5  Identities=80%  Similarity=1.305  Sum_probs=0.0  Template_Neff=5.700
+
+Q AQIVYK            2 QIVYK    6 (6)
+Q Consensus         2 qivyk    6 (6)
+                      +++||
+T Consensus        52 ~lI~K   56 (82)
+T 3QUI_A           52 QMVYK   56 (82)
+T ss_dssp             EEEEG
+T ss_pred             EEEEe
+
+
+No 9
+>6XYJ_AAA Hfq, SmAP, tertiary structure, RNA-chaperon; 2.772A {Pseudomonas aeruginosa (strain PA7)}
+Probab=8.91  E-value=3.4e+02  Score=11.52  Aligned_cols=5  Identities=80%  Similarity=1.305  Sum_probs=0.0  Template_Neff=4.400
+
+Q AQIVYK            2 QIVYK    6 (6)
+Q Consensus         2 qivyk    6 (6)
+                      |++||
+T Consensus        65 ~LIyK   69 (95)
+T 6XYJ_AAA         65 QMVYK   69 (95)
+T ss_pred             EEEEe
+
+
+No 10
+>6CVJ_D Tubulin alpha-1B chain, Tubulin beta; microtubule, tau, STRUCTURAL PROTEIN; HET: GDP, GTP; 3.2A {Sus scrofa}
+Probab=8.87  E-value=3.4e+02  Score=12.95  Aligned_cols=6  Identities=83%  Similarity=1.248  Sum_probs=0.0  Template_Neff=4.300
+
+Q AQIVYK            1 AQIVYK    6 (6)
+Q Consensus         1 aqivyk    6 (6)
+                      |.|||+
+T Consensus       196 ~~i~~~  201 (206)
+T 6CVJ_D          196 AEIVYK  201 (206)
+T ss_pred             Cceeec
+
+

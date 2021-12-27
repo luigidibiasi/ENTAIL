@@ -1,0 +1,154 @@
+Query         NFFWLL
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 23:27:33 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NFFWLL/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NFFWLL/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6BYC_A Beta-mannosidase; CARBO  27.6      58 0.00065   15.4   0.0    6    1-6     818-823 (862)
+  2 3LKU_E UPF0363 protein YOR164C  27.4      59 0.00066   14.3   0.0    6    1-6     238-243 (292)
+  3 6OWR_A Autonomous glycyl radic  26.8      62 0.00069   14.4   0.0    6    1-6      17-22  (127)
+  4 6AU8_A Golgi to ER traffic pro  25.9      66 0.00073   14.2   0.0    6    1-6     216-221 (283)
+  5 3LPZ_A Get4 (YOR164C homolog);  22.2      86 0.00095   14.4   0.0    6    1-6     246-251 (336)
+  6 2FTX_B Hypothetical 25.2 kDa p  19.5 1.1E+02  0.0012   11.7   0.0    4    1-4      56-59  (64)
+  7 6MRV_A Hz136; Sialidase, micro  19.4 1.1E+02  0.0012   13.9   0.0    5    1-5     141-145 (553)
+  8 6BYE_A Beta-mannosidase; CARBO  19.4 1.1E+02  0.0012   14.7   0.0    6    1-6     818-823 (861)
+  9 4CVU_A BETA-MANNOSIDASE; HYDRO  19.3 1.1E+02  0.0012   15.0   0.0    6    1-6     902-907 (942)
+ 10 1AC5_A KEX1(DELTA)P; CARBOXYPE  19.0 1.1E+02  0.0012   13.8   0.0    5    2-6      52-56  (483)
+
+No 1
+>6BYC_A Beta-mannosidase; CARBOHYDRATE, HYDROLASE-CARBOHYDRATE complex; HET: PEG, GOL, ACT; 1.897A {Xanthomonas axonopodis pv. citri (strain 306)}
+Probab=27.65  E-value=58  Score=15.45  Aligned_cols=6  Identities=67%  Similarity=0.628  Sum_probs=3.5  Template_Neff=9.500
+
+Q NFFWLL            1 NFFWLL    6 (6)
+Q Consensus         1 nffwll    6 (6)
+                      |+|+|+
+T Consensus       818 N~f~L~  823 (862)
+T 6BYC_A          818 NAFDLL  823 (862)
+T ss_dssp             CSEEEC
+T ss_pred             ceEEcC
+Confidence            566654
+
+
+No 2
+>3LKU_E UPF0363 protein YOR164C, Ubiquitin-like protein; ALPHA HELICAL REPEAT, TPR-LIKE, PROTEIN; HET: PRO; 2.8A {Saccharomyces cerevisiae}
+Probab=27.41  E-value=59  Score=14.30  Aligned_cols=6  Identities=67%  Similarity=1.004  Sum_probs=3.0  Template_Neff=7.700
+
+Q NFFWLL            1 NFFWLL    6 (6)
+Q Consensus         1 nffwll    6 (6)
+                      ||.|||
+T Consensus       238 nF~~lL  243 (292)
+T 3LKU_E          238 NFLQLL  243 (292)
+T ss_dssp             HHHHHH
+T ss_pred             hHHHHH
+Confidence            455553
+
+
+No 3
+>6OWR_A Autonomous glycyl radical cofactor; Glycyl radical enzyme, Cofactor repair; NMR {Escherichia coli}
+Probab=26.77  E-value=62  Score=14.37  Aligned_cols=6  Identities=83%  Similarity=1.675  Sum_probs=0.0  Template_Neff=4.000
+
+Q NFFWLL            1 NFFWLL    6 (6)
+Q Consensus         1 nffwll    6 (6)
+                      |-|||+
+T Consensus        17 ~~~~l~   22 (127)
+T 6OWR_A           17 NSFWLL   22 (127)
+T ss_dssp             ------
+T ss_pred             ceEEEE
+Confidence            457875
+
+
+No 4
+>6AU8_A Golgi to ER traffic protein; TRC Pathway Complex, CHAPERONE; HET: GOL; 1.8A {Homo sapiens}
+Probab=25.92  E-value=66  Score=14.16  Aligned_cols=6  Identities=67%  Similarity=1.774  Sum_probs=3.0  Template_Neff=7.600
+
+Q NFFWLL            1 NFFWLL    6 (6)
+Q Consensus         1 nffwll    6 (6)
+                      ||.|+|
+T Consensus       216 nF~~lL  221 (283)
+T 6AU8_A          216 NFIWFL  221 (283)
+T ss_dssp             HHHHHH
+T ss_pred             hHHHHH
+Confidence            455553
+
+
+No 5
+>3LPZ_A Get4 (YOR164C homolog); Protein targeting, tail-anchored protein biogenesis; 1.98A {Chaetomium thermophilum}
+Probab=22.23  E-value=86  Score=14.41  Aligned_cols=6  Identities=50%  Similarity=0.849  Sum_probs=3.0  Template_Neff=7.100
+
+Q NFFWLL            1 NFFWLL    6 (6)
+Q Consensus         1 nffwll    6 (6)
+                      ||.|+|
+T Consensus       246 NF~~lL  251 (336)
+T 3LPZ_A          246 NFISML  251 (336)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            455553
+
+
+No 6
+>2FTX_B Hypothetical 25.2 kDa protein in; alpha-beta, complex, coiled-coil, structural protein; 1.9A {Saccharomyces cerevisiae} SCOP: d.300.1.2
+Probab=19.51  E-value=1.1e+02  Score=11.67  Aligned_cols=4  Identities=25%  Similarity=1.755  Sum_probs=0.0  Template_Neff=5.600
+
+Q NFFWLL            1 NFFW    4 (6)
+Q Consensus         1 nffw    4 (6)
+                      |++|
+T Consensus        56 n~iW   59 (64)
+T 2FTX_B           56 KYIW   59 (64)
+T ss_pred             HHHH
+
+
+No 7
+>6MRV_A Hz136; Sialidase, microbiome, Neu5Ac, sialic acid; HET: DAN; 1.8A {unidentified bacterium}
+Probab=19.37  E-value=1.1e+02  Score=13.86  Aligned_cols=5  Identities=60%  Similarity=2.188  Sum_probs=0.0  Template_Neff=9.400
+
+Q NFFWLL            1 NFFWL    5 (6)
+Q Consensus         1 nffwl    5 (6)
+                      |+||+
+T Consensus       141 ~y~wv  145 (553)
+T 6MRV_A          141 NYFWI  145 (553)
+T ss_dssp             EEEEE
+T ss_pred             EEEEE
+
+
+No 8
+>6BYE_A Beta-mannosidase; CARBOHYDRATE, HYDROLASE-CARBOHYDRATE complex; HET: BMA; 2.126A {Xanthomonas axonopodis pv. citri (strain 306)}
+Probab=19.36  E-value=1.1e+02  Score=14.70  Aligned_cols=6  Identities=67%  Similarity=0.628  Sum_probs=0.0  Template_Neff=9.400
+
+Q NFFWLL            1 NFFWLL    6 (6)
+Q Consensus         1 nffwll    6 (6)
+                      |+|+|+
+T Consensus       818 N~f~L~  823 (861)
+T 6BYE_A          818 NAFDLL  823 (861)
+T ss_dssp             CSEEEC
+T ss_pred             CeEEeC
+
+
+No 9
+>4CVU_A BETA-MANNOSIDASE; HYDROLASE; HET: CD, NAG, PE4, BMA, MAN; 1.9A {TRICHODERMA HARZIANUM}
+Probab=19.27  E-value=1.1e+02  Score=15.03  Aligned_cols=6  Identities=50%  Similarity=0.429  Sum_probs=0.0  Template_Neff=9.100
+
+Q NFFWLL            1 NFFWLL    6 (6)
+Q Consensus         1 nffwll    6 (6)
+                      |+|+|+
+T Consensus       902 N~F~Ll  907 (942)
+T 4CVU_A          902 NAFVLR  907 (942)
+T ss_dssp             CSEEEC
+T ss_pred             ceEEeC
+
+
+No 10
+>1AC5_A KEX1(DELTA)P; CARBOXYPEPTIDASE, HYDROLASE, GLYCOPROTEIN, TRANSMEMBRANE; HET: NAG; 2.4A {Saccharomyces cerevisiae} SCOP: c.69.1.5
+Probab=19.00  E-value=1.1e+02  Score=13.78  Aligned_cols=5  Identities=60%  Similarity=1.869  Sum_probs=0.0  Template_Neff=9.000
+
+Q NFFWLL            2 FFWLL    6 (6)
+Q Consensus         2 ffwll    6 (6)
+                      |||+.
+T Consensus        52 Ffw~~   56 (483)
+T 1AC5_A           52 FFWKF   56 (483)
+T ss_dssp             EEEEE
+T ss_pred             EEEEE
+
+

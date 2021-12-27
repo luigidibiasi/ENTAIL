@@ -1,0 +1,150 @@
+Query         LTTVYV
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 20:44:52 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LTTVYV/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LTTVYV/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 7CUJ_C telomere, DNA BINDING P  15.7 1.5E+02  0.0016   11.8   0.0    6    1-6      24-29  (45)
+  2 1U7L_A Vacuolar ATP synthase s   9.5 3.1E+02  0.0034   13.4   0.0    6    1-6     191-196 (392)
+  3 5VOZ_O V-type proton ATPase ca   9.2 3.2E+02  0.0035   13.3   0.0    6    1-6     191-196 (392)
+  4 4HPQ_D Atg31, Atg29, Atg17; Au   9.2 3.2E+02  0.0036   11.3   0.0    5    2-6       6-10  (69)
+  5 4P1W_A Atg29(1-86), Atg31, Atg   8.9 3.4E+02  0.0037   11.4   0.0    5    2-6       6-10  (74)
+  6 7EVS_A complex, RNA BINDING PR   8.8 3.4E+02  0.0038    8.4   0.0    5    2-6      11-15  (110)
+  7 5WD9_A Ankyrin repeats; bacter   7.4 4.3E+02  0.0048   11.8   0.0    5    1-5      49-53  (91)
+  8 5WD8_A Ankyrin repeats; bacter   7.1 4.5E+02   0.005   11.7   0.0    5    1-5      49-53  (91)
+  9 2KM0_A Copper resistance prote   6.0 5.6E+02  0.0062   10.9   0.0    5    2-6      16-20  (74)
+ 10 3DSO_A Putative uncharacterize   5.7   6E+02  0.0066   10.9   0.0    5    2-6      16-20  (74)
+
+No 1
+>7CUJ_C telomere, DNA BINDING PROTEIN; 2.4A {Schizosaccharomyces pombe (strain 972 / ATCC 24843)}
+Probab=15.74  E-value=1.5e+02  Score=11.82  Aligned_cols=6  Identities=50%  Similarity=0.938  Sum_probs=3.0  Template_Neff=2.100
+
+Q LTTVYV            1 LTTVYV    6 (6)
+Q Consensus         1 lttvyv    6 (6)
+                      |+++|+
+T Consensus        24 L~e~Y~   29 (45)
+T 7CUJ_C           24 LQELYV   29 (45)
+T ss_pred             HHHHHH
+Confidence            455653
+
+
+No 2
+>1U7L_A Vacuolar ATP synthase subunit C; Hydrolase, STRUCTURAL PROTEIN; HET: TLA; 1.75A {Saccharomyces cerevisiae} SCOP: e.57.1.1
+Probab=9.54  E-value=3.1e+02  Score=13.36  Aligned_cols=6  Identities=83%  Similarity=0.877  Sum_probs=0.0  Template_Neff=6.400
+
+Q LTTVYV            1 LTTVYV    6 (6)
+Q Consensus         1 lttvyv    6 (6)
+                      |+|++|
+T Consensus       191 L~Tl~V  196 (392)
+T 1U7L_A          191 LTTVLV  196 (392)
+T ss_dssp             EEEEEE
+T ss_pred             ceEEEE
+
+
+No 3
+>5VOZ_O V-type proton ATPase catalytic subunit; V-ATPase, SidK, rotational state 3;{Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=9.25  E-value=3.2e+02  Score=13.25  Aligned_cols=6  Identities=83%  Similarity=0.877  Sum_probs=0.0  Template_Neff=6.500
+
+Q LTTVYV            1 LTTVYV    6 (6)
+Q Consensus         1 lttvyv    6 (6)
+                      |+|++|
+T Consensus       191 L~Tl~V  196 (392)
+T 5VOZ_O          191 LTTVLV  196 (392)
+T ss_dssp             EEEEEE
+T ss_pred             ceEEEE
+
+
+No 4
+>4HPQ_D Atg31, Atg29, Atg17; Autophagy, PROTEIN TRANSPORT; 3.06A {Lachancea thermotolerans CBS 6340}
+Probab=9.20  E-value=3.2e+02  Score=11.28  Aligned_cols=5  Identities=80%  Similarity=1.099  Sum_probs=0.0  Template_Neff=3.600
+
+Q LTTVYV            2 TTVYV    6 (6)
+Q Consensus         2 ttvyv    6 (6)
+                      ++|||
+T Consensus         6 ~~V~V   10 (69)
+T 4HPQ_D            6 TIVYV   10 (69)
+T ss_dssp             CEEEE
+T ss_pred             EEEEE
+
+
+No 5
+>4P1W_A Atg29(1-86), Atg31, Atg17, Atg13 17BR; Complex, PROTEIN TRANSPORT; 3.2A {Lachancea thermotolerans}
+Probab=8.85  E-value=3.4e+02  Score=11.38  Aligned_cols=5  Identities=80%  Similarity=1.099  Sum_probs=0.0  Template_Neff=3.500
+
+Q LTTVYV            2 TTVYV    6 (6)
+Q Consensus         2 ttvyv    6 (6)
+                      ++|||
+T Consensus         6 ~tVyV   10 (74)
+T 4P1W_A            6 TIVYV   10 (74)
+T ss_dssp             EEEEE
+T ss_pred             EEEEE
+
+
+No 6
+>7EVS_A complex, RNA BINDING PROTEIN; HET: SO4; 1.6A {Homo sapiens}
+Probab=8.76  E-value=3.4e+02  Score=8.39  Aligned_cols=5  Identities=0%  Similarity=0.029  Sum_probs=0.0  Template_Neff=11.800
+
+Q LTTVYV            2 TTVYV    6 (6)
+Q Consensus         2 ttvyv    6 (6)
+                      +++|+
+T Consensus        11 ~~~~~   15 (110)
+T 7EVS_A           11 LLLSI   15 (110)
+T ss_dssp             EEEEE
+T ss_pred             eEEEE
+
+
+No 7
+>5WD9_A Ankyrin repeats; bacterial effector, Legionella, protein binding; 1.4A {Legionella pneumophila subsp. pneumophila ATCC 43290}
+Probab=7.39  E-value=4.3e+02  Score=11.79  Aligned_cols=5  Identities=80%  Similarity=1.325  Sum_probs=0.0  Template_Neff=2.200
+
+Q LTTVYV            1 LTTVY    5 (6)
+Q Consensus         1 lttvy    5 (6)
+                      |+++|
+T Consensus        49 LstIY   53 (91)
+T 5WD9_A           49 LTTIY   53 (91)
+T ss_dssp             HHHHC
+T ss_pred             chhhc
+
+
+No 8
+>5WD8_A Ankyrin repeats; bacterial effector, Legionella, protein binding; HET: MSE; 1.944A {Legionella pneumophila subsp. pneumophila ATCC 43290}
+Probab=7.15  E-value=4.5e+02  Score=11.75  Aligned_cols=5  Identities=80%  Similarity=1.325  Sum_probs=0.0  Template_Neff=2.100
+
+Q LTTVYV            1 LTTVY    5 (6)
+Q Consensus         1 lttvy    5 (6)
+                      |+++|
+T Consensus        49 LstIY   53 (91)
+T 5WD8_A           49 LTTIY   53 (91)
+T ss_dssp             HHHHC
+T ss_pred             chhhc
+
+
+No 9
+>2KM0_A Copper resistance protein K; heavy metal resistance, periplasmic copper; HET: CU1; NMR {Ralstonia metallidurans}
+Probab=6.04  E-value=5.6e+02  Score=10.93  Aligned_cols=5  Identities=40%  Similarity=0.414  Sum_probs=0.0  Template_Neff=2.900
+
+Q LTTVYV            2 TTVYV    6 (6)
+Q Consensus         2 ttvyv    6 (6)
+                      .||||
+T Consensus        16 sTlyv   20 (74)
+T 2KM0_A           16 SKVHV   20 (74)
+T ss_dssp             EEEEE
+T ss_pred             CEEEE
+
+
+No 10
+>3DSO_A Putative uncharacterized protein copK; copper (I) bound, copper resistance; 1.55A {Ralstonia metallidurans}
+Probab=5.74  E-value=6e+02  Score=10.85  Aligned_cols=5  Identities=40%  Similarity=0.414  Sum_probs=0.0  Template_Neff=2.900
+
+Q LTTVYV            2 TTVYV    6 (6)
+Q Consensus         2 ttvyv    6 (6)
+                      .||||
+T Consensus        16 sTlyv   20 (74)
+T 3DSO_A           16 SKVHV   20 (74)
+T ss_dssp             CEEEE
+T ss_pred             CEEEE
+
+

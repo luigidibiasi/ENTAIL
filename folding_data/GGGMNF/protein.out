@@ -1,0 +1,154 @@
+Query         GGGMNF
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 00:10:01 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GGGMNF/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GGGMNF/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 1V77_A hypothetical protein PH  55.3      11 0.00012   14.8   0.0    6    1-6       4-9   (212)
+  2 2CZV_A Ribonuclease P protein   55.3      11 0.00012   14.8   0.0    6    1-6       4-9   (212)
+  3 1HUF_A TYROSINE PHOSPHATASE YO  47.2      18 0.00019   16.8   0.0    6    1-6       3-8   (140)
+  4 2JUI_A PlnE; ampiphilic alpha   29.9      50 0.00056   12.6   0.0    6    1-6       3-8   (33)
+  5 4G0O_B Protein argonaute 5; MI  19.9   1E+02  0.0011   11.1   0.0    5    2-6     133-137 (139)
+  6 1T72_A Phosphate transport sys  19.5 1.1E+02  0.0012   11.3   0.0    4    1-4       2-5   (227)
+  7 1T72_B Phosphate transport sys  19.5 1.1E+02  0.0012   11.3   0.0    4    1-4       2-5   (227)
+  8 1T8B_A Phosphate transport sys  19.5 1.1E+02  0.0012   11.3   0.0    4    1-4       2-5   (227)
+  9 6BXR_A Mitochondrial associati  18.8 1.1E+02  0.0013   15.2   0.0    5    1-5      52-56  (273)
+ 10 4G0M_A Protein argonaute 2; MI  18.4 1.2E+02  0.0013   11.1   0.0    5    2-6     144-148 (150)
+
+No 1
+>1V77_A hypothetical protein PH1877 (E.C.3.1.26.5); RNase P protein, TIM-barrel, RNA; 1.8A {Pyrococcus horikoshii} SCOP: c.6.3.2
+Probab=55.29  E-value=11  Score=14.82  Aligned_cols=6  Identities=67%  Similarity=1.619  Sum_probs=1.8  Template_Neff=9.300
+
+Q GGGMNF            1 GGGMNF    6 (6)
+Q Consensus         1 gggmnf    6 (6)
+                      ||+|-|
+T Consensus         4 ~~~~~~    9 (212)
+T 1V77_A            4 GGGVKF    9 (212)
+T ss_dssp             ---CCC
+T ss_pred             CCccEE
+Confidence            566655
+
+
+No 2
+>2CZV_A Ribonuclease P protein component 3; Ribonuclease, RNA binding protein, RNA; HET: ACY, BOG; 2.0A {Pyrococcus horikoshii} SCOP: c.6.3.2
+Probab=55.29  E-value=11  Score=14.82  Aligned_cols=6  Identities=67%  Similarity=1.619  Sum_probs=3.6  Template_Neff=9.300
+
+Q GGGMNF            1 GGGMNF    6 (6)
+Q Consensus         1 gggmnf    6 (6)
+                      ||+|-|
+T Consensus         4 ~~~~~~    9 (212)
+T 2CZV_A            4 GGGVKF    9 (212)
+T ss_dssp             SSSCCC
+T ss_pred             CCccEE
+Confidence            566655
+
+
+No 3
+>1HUF_A TYROSINE PHOSPHATASE YOPH; helical bundle, beta hairpin, HYDROLASE; 2.0A {Yersinia pestis} SCOP: d.195.1.1
+Probab=47.23  E-value=18  Score=16.83  Aligned_cols=6  Identities=83%  Similarity=1.658  Sum_probs=0.4  Template_Neff=2.200
+
+Q GGGMNF            1 GGGMNF    6 (6)
+Q Consensus         1 gggmnf    6 (6)
+                      |||||.
+T Consensus         3 ~~~m~l    8 (140)
+T 1HUF_A            3 GGGMNL    8 (140)
+T ss_dssp             -----C
+T ss_pred             Cccccc
+Confidence            578873
+
+
+No 4
+>2JUI_A PlnE; ampiphilic alpha helix, TOXIN; NMR {Lactobacillus plantarum}
+Probab=29.85  E-value=50  Score=12.57  Aligned_cols=6  Identities=67%  Similarity=1.265  Sum_probs=3.4  Template_Neff=1.300
+
+Q GGGMNF            1 GGGMNF    6 (6)
+Q Consensus         1 gggmnf    6 (6)
+                      +|+.||
+T Consensus         3 ~~~~nf    8 (33)
+T 2JUI_A            3 RGGYNF    8 (33)
+T ss_dssp             SCSCCS
+T ss_pred             Cccccc
+Confidence            356665
+
+
+No 5
+>4G0O_B Protein argonaute 5; MID domain, small RNA 5'; 2.186A {Arabidopsis thaliana}
+Probab=19.87  E-value=1e+02  Score=11.06  Aligned_cols=5  Identities=60%  Similarity=0.873  Sum_probs=0.0  Template_Neff=9.900
+
+Q GGGMNF            2 GGMNF    6 (6)
+Q Consensus         2 ggmnf    6 (6)
+                      ||.|+
+T Consensus       133 GG~n~  137 (139)
+T 4G0O_B          133 GGRNT  137 (139)
+T ss_dssp             TCEEE
+T ss_pred             CCccc
+
+
+No 6
+>1T72_A Phosphate transport system protein phoU; helix bundle, Structural Genomics, BSGC; HET: MSE; 2.9A {Aquifex aeolicus} SCOP: a.7.12.1
+Probab=19.51  E-value=1.1e+02  Score=11.35  Aligned_cols=4  Identities=75%  Similarity=1.356  Sum_probs=0.0  Template_Neff=11.000
+
+Q GGGMNF            1 GGGM    4 (6)
+Q Consensus         1 gggm    4 (6)
+                      ||||
+T Consensus         2 ~~~~    5 (227)
+T 1T72_A            2 GGGG    5 (227)
+T ss_dssp             CCTH
+T ss_pred             CCch
+
+
+No 7
+>1T72_B Phosphate transport system protein phoU; helix bundle, Structural Genomics, BSGC; HET: MSE; 2.9A {Aquifex aeolicus} SCOP: a.7.12.1
+Probab=19.51  E-value=1.1e+02  Score=11.35  Aligned_cols=4  Identities=75%  Similarity=1.356  Sum_probs=0.0  Template_Neff=11.000
+
+Q GGGMNF            1 GGGM    4 (6)
+Q Consensus         1 gggm    4 (6)
+                      ||||
+T Consensus         2 ~~~~    5 (227)
+T 1T72_B            2 GGGG    5 (227)
+T ss_dssp             CCTT
+T ss_pred             CCch
+
+
+No 8
+>1T8B_A Phosphate transport system protein phoU; alpha-helical protein consisting of two; 3.23A {Aquifex aeolicus} SCOP: a.7.12.1
+Probab=19.51  E-value=1.1e+02  Score=11.35  Aligned_cols=4  Identities=75%  Similarity=1.356  Sum_probs=0.0  Template_Neff=11.000
+
+Q GGGMNF            1 GGGM    4 (6)
+Q Consensus         1 gggm    4 (6)
+                      ||||
+T Consensus         2 ~~~~    5 (227)
+T 1T8B_A            2 GGGG    5 (227)
+T ss_dssp             ----
+T ss_pred             CCch
+
+
+No 9
+>6BXR_A Mitochondrial association factor 1; macro domain, ADPribose, neofunctionalize, membrane; HET: BR, GOL; 1.6A {Toxoplasma gondii}
+Probab=18.76  E-value=1.1e+02  Score=15.21  Aligned_cols=5  Identities=80%  Similarity=1.757  Sum_probs=0.0  Template_Neff=3.600
+
+Q GGGMNF            1 GGGMN    5 (6)
+Q Consensus         1 gggmn    5 (6)
+                      |+|||
+T Consensus        52 G~GiN   56 (273)
+T 6BXR_A           52 GGGLN   56 (273)
+T ss_dssp             SSHHH
+T ss_pred             CcchH
+
+
+No 10
+>4G0M_A Protein argonaute 2; MID domain, small RNA 5'; HET: SO4; 2.306A {Arabidopsis thaliana}
+Probab=18.36  E-value=1.2e+02  Score=11.06  Aligned_cols=5  Identities=60%  Similarity=1.046  Sum_probs=0.0  Template_Neff=9.900
+
+Q GGGMNF            2 GGMNF    6 (6)
+Q Consensus         2 ggmnf    6 (6)
+                      ||.|+
+T Consensus       144 GG~n~  148 (150)
+T 4G0M_A          144 GGSNV  148 (150)
+T ss_dssp             -----
+T ss_pred             CCccc
+
+

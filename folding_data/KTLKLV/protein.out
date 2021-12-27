@@ -1,0 +1,151 @@
+Query         KTLKLV
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 12:27:47 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/KTLKLV/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/KTLKLV/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4QXZ_B Uncharacterized protein  22.7      83 0.00092   14.4   0.0    6    1-6      22-27  (166)
+  2 4QXZ_A Uncharacterized protein  21.8      89 0.00098   14.3   0.0    6    1-6      22-27  (166)
+  3 6KSY_B Arginase/agmatinase/for  10.7 2.6E+02  0.0029   12.5   0.0    6    1-6       6-11  (290)
+  4 5V2C_i Photosystem II protein    4.1 9.2E+02    0.01    9.3   0.0    5    2-6       3-7   (38)
+  5 4RVY_I Photosystem II protein    4.0 9.5E+02   0.011    9.3   0.0    5    2-6       3-7   (38)
+  6 5LOZ_A Epsin-1; ALPHA-ALPHA SU   3.9 9.6E+02   0.011    9.0   0.0    6    1-6      62-67  (137)
+  7 5Y2W_A Rubisco operon transcri   3.7   1E+03   0.011    8.7   0.0    6    1-6     228-233 (234)
+  8 5CMY_A Epsin-5; Vesicular tran   3.5 1.1E+03   0.012   10.0   0.0    6    1-6      78-83  (170)
+  9 5K04_A Uncharacterized protein   3.5 1.1E+03   0.012   11.2   0.0    6    1-6     703-708 (750)
+ 10 2V8S_E CLATHRIN INTERACTOR 1,    3.5 1.1E+03   0.013    9.0   0.0    6    1-6      62-67  (147)
+
+No 1
+>4QXZ_B Uncharacterized protein; Beta-barrel, UNKNOWN FUNCTION; 2.49A {Staphylococcus aureus subsp. aureus Mu50}
+Probab=22.72  E-value=83  Score=14.36  Aligned_cols=6  Identities=67%  Similarity=0.728  Sum_probs=3.4  Template_Neff=4.400
+
+Q KTLKLV            1 KTLKLV    6 (6)
+Q Consensus         1 ktlklv    6 (6)
+                      ||.||+
+T Consensus        22 KTFKLv   27 (166)
+T 4QXZ_B           22 KTFKAV   27 (166)
+T ss_dssp             CEEEEE
+T ss_pred             eeeEEE
+Confidence            566654
+
+
+No 2
+>4QXZ_A Uncharacterized protein; Beta-barrel, UNKNOWN FUNCTION; 2.49A {Staphylococcus aureus subsp. aureus Mu50}
+Probab=21.81  E-value=89  Score=14.31  Aligned_cols=6  Identities=67%  Similarity=0.728  Sum_probs=3.4  Template_Neff=4.300
+
+Q KTLKLV            1 KTLKLV    6 (6)
+Q Consensus         1 ktlklv    6 (6)
+                      ||.||+
+T Consensus        22 KTFKLv   27 (166)
+T 4QXZ_A           22 KTFKAV   27 (166)
+T ss_dssp             SEEEEE
+T ss_pred             eeeEEE
+Confidence            566654
+
+
+No 3
+>6KSY_B Arginase/agmatinase/formiminoglutamase; arginase, HYDROLASE; 1.649A {Zymomonas mobilis subsp. mobilis (strain ATCC 31821 / ZM4 / CP4)}
+Probab=10.67  E-value=2.6e+02  Score=12.50  Aligned_cols=6  Identities=50%  Similarity=0.949  Sum_probs=3.0  Template_Neff=7.500
+
+Q KTLKLV            1 KTLKLV    6 (6)
+Q Consensus         1 ktlklv    6 (6)
+                      ||++|+
+T Consensus         6 ~t~~l~   11 (290)
+T 6KSY_B            6 KPLRLI   11 (290)
+T ss_dssp             SCEEEE
+T ss_pred             CceEEe
+Confidence            455553
+
+
+No 4
+>5V2C_i Photosystem II protein D1 (E.C.1.10.3.9); ELECTRON TRANSPORT, PHOTOSYNTHESIS; HET: GOL, BCT, P6G, PHO, SQD, MHS, HEC, PE8, OEX, PG4, LHG, HEM, DGD, HTG, EDO, LMG, FME, PGE, CLA, LMT, 1PE, PL9, BCR, 2PE; 1.9A {Thermosynechococcus vulcanus}
+Probab=4.08  E-value=9.2e+02  Score=9.31  Aligned_cols=5  Identities=60%  Similarity=0.833  Sum_probs=0.0  Template_Neff=2.400
+
+Q KTLKLV            2 TLKLV    6 (6)
+Q Consensus         2 tlklv    6 (6)
+                      +||++
+T Consensus         3 tLK~~    7 (38)
+T 5V2C_i            3 TLKIT    7 (38)
+T ss_pred             HHHHH
+
+
+No 5
+>4RVY_I Photosystem II protein D1 1; Photosystem II, Time resolved, Free; HET: LMG, CLA, LHG, BCR, HEM, PHO, OEX, SQD, DGD, PL9; 5.5A {Thermosynechococcus elongatus}
+Probab=3.98  E-value=9.5e+02  Score=9.27  Aligned_cols=5  Identities=60%  Similarity=0.833  Sum_probs=0.0  Template_Neff=2.400
+
+Q KTLKLV            2 TLKLV    6 (6)
+Q Consensus         2 tlklv    6 (6)
+                      |||++
+T Consensus         3 tLK~~    7 (38)
+T 4RVY_I            3 TLKIT    7 (38)
+T ss_pred             HHHHH
+
+
+No 6
+>5LOZ_A Epsin-1; ALPHA-ALPHA SUPERHELIX, UBIQUITIN RECEPTOR, ENDOCYTOSIS; 1.95A {Saccharomyces cerevisiae}
+Probab=3.95  E-value=9.6e+02  Score=9.01  Aligned_cols=6  Identities=33%  Similarity=0.711  Sum_probs=0.0  Template_Neff=8.900
+
+Q KTLKLV            1 KTLKLV    6 (6)
+Q Consensus         1 ktlklv    6 (6)
+                      |+|.++
+T Consensus        62 K~L~ll   67 (137)
+T 5LOZ_A           62 KALTVI   67 (137)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 7
+>5Y2W_A Rubisco operon transcriptional regulator; LysR-type transcription factor, TRANSCRIPTION; 2.2A {Synechocystis sp. (strain PCC 6803 / Kazusa)}
+Probab=3.71  E-value=1e+03  Score=8.73  Aligned_cols=6  Identities=50%  Similarity=0.700  Sum_probs=0.0  Template_Neff=11.300
+
+Q KTLKLV            1 KTLKLV    6 (6)
+Q Consensus         1 ktlklv    6 (6)
+                      +-+|||
+T Consensus       228 ~~~~~~  233 (234)
+T 5Y2W_A          228 TPVKLV  233 (234)
+T ss_dssp             ------
+T ss_pred             Ccceec
+
+
+No 8
+>5CMY_A Epsin-5; Vesicular transport, ENT5, N-terminal domain; HET: GOL; 2.09A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=3.52  E-value=1.1e+03  Score=10.00  Aligned_cols=6  Identities=33%  Similarity=0.551  Sum_probs=0.0  Template_Neff=7.000
+
+Q KTLKLV            1 KTLKLV    6 (6)
+Q Consensus         1 ktlklv    6 (6)
+                      |+|.++
+T Consensus        78 KaL~vl   83 (170)
+T 5CMY_A           78 KCLVVI   83 (170)
+T ss_dssp             HHHHHH
+T ss_pred             hHHHHH
+
+
+No 9
+>5K04_A Uncharacterized protein, Peptide alpha-N-acetyltransferase; N-terminal acetyltransferase complex, TRANSFERASE; HET: COA, MES; 2.4A {Candida albicans (strain WO-1)}
+Probab=3.51  E-value=1.1e+03  Score=11.20  Aligned_cols=6  Identities=83%  Similarity=1.016  Sum_probs=0.0  Template_Neff=9.900
+
+Q KTLKLV            1 KTLKLV    6 (6)
+Q Consensus         1 ktlklv    6 (6)
+                      |.||+|
+T Consensus       703 ~~~~~~  708 (750)
+T 5K04_A          703 KNLKLV  708 (750)
+T ss_dssp             HTTCHH
+T ss_pred             hchhhH
+
+
+No 10
+>2V8S_E CLATHRIN INTERACTOR 1, VESICLE TRANSPORT; PROTEIN TRANSPORT, CYTOPLASMIC VESICLE, LIPID-BINDING; HET: GOL; 2.22A {HOMO SAPIENS}
+Probab=3.45  E-value=1.1e+03  Score=8.98  Aligned_cols=6  Identities=50%  Similarity=0.689  Sum_probs=0.0  Template_Neff=8.800
+
+Q KTLKLV            1 KTLKLV    6 (6)
+Q Consensus         1 ktlklv    6 (6)
+                      |+|.++
+T Consensus        62 KaL~vl   67 (147)
+T 2V8S_E           62 KSLLLL   67 (147)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+

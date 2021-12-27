@@ -1,0 +1,151 @@
+Query         RVFNIM
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 12:55:30 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/RVFNIM/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/RVFNIM/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 1YLL_D conserved hypothetical   52.5      13 0.00014   15.9   0.0    6    1-6     109-114 (200)
+  2 1YLL_B conserved hypothetical   48.0      17 0.00018   15.3   0.0    6    1-6     109-114 (200)
+  3 2P1L_H Apoptosis regulator Bcl  47.9      17 0.00019   12.1   0.0    6    1-6      17-22  (31)
+  4 5FCC_A HutD; bicupin, histidin  46.4      18  0.0002   15.4   0.0    6    1-6     114-119 (193)
+  5 5V00_A HutD; bicupin, histidin  46.4      18  0.0002   15.4   0.0    6    1-6     114-119 (193)
+  6 7D1T_R Photosystem II protein   16.9 1.3E+02  0.0015   11.0   0.0    4    2-5      19-22  (34)
+  7 5MX2_R Photosystem II protein   16.8 1.3E+02  0.0015   11.4   0.0    4    2-5      20-23  (41)
+  8 6A5B_A Receptor-like protein k  15.8 1.5E+02  0.0016   13.2   0.0    5    1-5     317-321 (430)
+  9 7RF1_R Photosynthesis, Membran  15.7 1.5E+02  0.0016   11.2   0.0    4    2-5      20-23  (41)
+ 10 6I89_A ArdC protein; DNA bindi  15.6 1.5E+02  0.0017   12.5   0.0    5    1-5     120-124 (297)
+
+No 1
+>1YLL_D conserved hypothetical protein; Conserved hypothetical protein, Structural Genomics; 1.64A {Pseudomonas aeruginosa} SCOP: b.82.1.17
+Probab=52.48  E-value=13  Score=15.91  Aligned_cols=6  Identities=50%  Similarity=0.993  Sum_probs=3.8  Template_Neff=6.900
+
+Q RVFNIM            1 RVFNIM    6 (6)
+Q Consensus         1 rvfnim    6 (6)
+                      +.||+|
+T Consensus       109 ~dfNLM  114 (200)
+T 1YLL_D          109 RDFNLI  114 (200)
+T ss_dssp             EEEEEE
+T ss_pred             EEEEEE
+Confidence            357776
+
+
+No 2
+>1YLL_B conserved hypothetical protein; Conserved hypothetical protein, Structural Genomics; HET: MSE; 1.64A {Pseudomonas aeruginosa} SCOP: b.82.1.17
+Probab=48.00  E-value=17  Score=15.34  Aligned_cols=6  Identities=50%  Similarity=0.993  Sum_probs=3.7  Template_Neff=7.300
+
+Q RVFNIM            1 RVFNIM    6 (6)
+Q Consensus         1 rvfnim    6 (6)
+                      +.||+|
+T Consensus       109 ~dfNlM  114 (200)
+T 1YLL_B          109 RDFNLI  114 (200)
+T ss_dssp             EEEEEE
+T ss_pred             EEEEEE
+Confidence            357776
+
+
+No 3
+>2P1L_H Apoptosis regulator Bcl-X, Beclin 1; Apoptosis  autophagy  beclin; 2.5A {Homo sapiens}
+Probab=47.88  E-value=17  Score=12.10  Aligned_cols=6  Identities=50%  Similarity=1.054  Sum_probs=3.6  Template_Neff=5.800
+
+Q RVFNIM            1 RVFNIM    6 (6)
+Q Consensus         1 rvfnim    6 (6)
+                      ++|+|+
+T Consensus        17 ~lFdiL   22 (31)
+T 2P1L_H           17 DLFDIM   22 (31)
+T ss_dssp             HHHHHT
+T ss_pred             HHHHHH
+Confidence            467764
+
+
+No 4
+>5FCC_A HutD; bicupin, histidine degradation, UNKNOWN FUNCTION; HET: EDO; 1.94A {Pseudomonas fluorescens (strain SBW25)}
+Probab=46.44  E-value=18  Score=15.43  Aligned_cols=6  Identities=50%  Similarity=0.993  Sum_probs=3.7  Template_Neff=6.800
+
+Q RVFNIM            1 RVFNIM    6 (6)
+Q Consensus         1 rvfnim    6 (6)
+                      +.||+|
+T Consensus       114 ~dfNlM  119 (193)
+T 5FCC_A          114 RDFNLI  119 (193)
+T ss_dssp             EEEEEE
+T ss_pred             EEEEEE
+Confidence            357776
+
+
+No 5
+>5V00_A HutD; bicupin, histidine degradation, UNKNOWN FUNCTION; HET: GOL, FMT; 1.8A {Pseudomonas fluorescens (strain SBW25)}
+Probab=46.44  E-value=18  Score=15.43  Aligned_cols=6  Identities=50%  Similarity=0.993  Sum_probs=3.7  Template_Neff=6.800
+
+Q RVFNIM            1 RVFNIM    6 (6)
+Q Consensus         1 rvfnim    6 (6)
+                      +.||+|
+T Consensus       114 ~dfNlM  119 (193)
+T 5V00_A          114 RDFNLI  119 (193)
+T ss_dssp             EEEEEE
+T ss_pred             EEEEEE
+Confidence            357776
+
+
+No 6
+>7D1T_R Photosystem II protein D1 (E.C.1.10.3.9); Photosystem II, PHOTOSYNTHESIS; HET: SQD, DGD, LMT, UNL, HEM, LMG, HEC, PL9, FME, OEX, RRX, LHG, HSK, BCR, PHO, CLA; 1.95A {Thermosynechococcus vulcanus}
+Probab=16.86  E-value=1.3e+02  Score=11.03  Aligned_cols=4  Identities=75%  Similarity=0.667  Sum_probs=0.0  Template_Neff=3.400
+
+Q RVFNIM            2 VFNI    5 (6)
+Q Consensus         2 vfni    5 (6)
+                      +|||
+T Consensus        19 ~fNI   22 (34)
+T 7D1T_R           19 VRNI   22 (34)
+T ss_pred             HHHh
+
+
+No 7
+>5MX2_R Photosystem II protein D1 1; Photosynthesis, Metal Cluster, EDTA, Hydroxylamine; HET: LMG, BCR, PL9, LFA, CLA, DGD, PHO, SQD, HEM, LHG; 2.197A {Thermosynechococcus elongatus (strain BP-1)}
+Probab=16.82  E-value=1.3e+02  Score=11.36  Aligned_cols=4  Identities=75%  Similarity=0.667  Sum_probs=0.0  Template_Neff=3.500
+
+Q RVFNIM            2 VFNI    5 (6)
+Q Consensus         2 vfni    5 (6)
+                      +|||
+T Consensus        20 ~fNI   23 (41)
+T 5MX2_R           20 VRNI   23 (41)
+T ss_pred             HHHh
+
+
+No 8
+>6A5B_A Receptor-like protein kinase FERONIA (E.C.2.7.11.1); a plant receptor F, TRANSFERASE; 2.205A {Arabidopsis thaliana}
+Probab=15.78  E-value=1.5e+02  Score=13.25  Aligned_cols=5  Identities=80%  Similarity=1.305  Sum_probs=0.0  Template_Neff=8.900
+
+Q RVFNIM            1 RVFNI    5 (6)
+Q Consensus         1 rvfni    5 (6)
+                      |+|+|
+T Consensus       317 R~FdI  321 (430)
+T 6A5B_A          317 RVFTI  321 (430)
+T ss_pred             EEEEE
+
+
+No 9
+>7RF1_R Photosynthesis, Membrane protein, Photosystem II; HET: SQD, DGD, HEM, LMG, HEC, STE, PL9, FME, OEX, LHG, BCR, BCT, PHO, CLA; 1.89A {Thermosynechococcus elongatus (strain BP-1)}
+Probab=15.74  E-value=1.5e+02  Score=11.25  Aligned_cols=4  Identities=75%  Similarity=0.667  Sum_probs=0.0  Template_Neff=3.500
+
+Q RVFNIM            2 VFNI    5 (6)
+Q Consensus         2 vfni    5 (6)
+                      +|||
+T Consensus        20 ~fNI   23 (41)
+T 7RF1_R           20 VRNI   23 (41)
+T ss_pred             HHHH
+
+
+No 10
+>6I89_A ArdC protein; DNA binding protein Metalloprotease Antirestriction; HET: MPD; 2.0A {Escherichia coli}
+Probab=15.62  E-value=1.5e+02  Score=12.50  Aligned_cols=5  Identities=60%  Similarity=0.879  Sum_probs=0.0  Template_Neff=9.000
+
+Q RVFNIM            1 RVFNI    5 (6)
+Q Consensus         1 rvfni    5 (6)
+                      .||||
+T Consensus       120 ~VFdi  124 (297)
+T 6I89_A          120 TVFNA  124 (297)
+T ss_dssp             EEEEG
+T ss_pred             EEeeH
+
+

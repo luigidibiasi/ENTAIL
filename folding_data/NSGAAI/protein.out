@@ -1,0 +1,143 @@
+Query         NSGAAI
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 04:05:53 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NSGAAI/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NSGAAI/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4Y4O_2O 50S Ribosomal Protein   18.3 1.2E+02  0.0013   12.4   0.0    4    1-4      13-16  (122)
+  2 6Z1P_Ap Ribosomal protein L2,   17.6 1.3E+02  0.0014   12.4   0.0    4    1-4      13-16  (119)
+  3 4V4I_I Ribosome; RIBOSOME, FUN  17.2 1.3E+02  0.0014   12.3   0.0    4    1-4      13-16  (122)
+  4 3JBO_AM PROTEIN/RNA Complex; R  16.8 1.3E+02  0.0015   12.6   0.0    4    1-4      23-26  (132)
+  5 6YWV_I 60S ribosomal protein L  16.7 1.4E+02  0.0015   12.5   0.0    4    1-4      13-16  (131)
+  6 5V6C_B Hemolysin-related prote  16.6 1.4E+02  0.0015   13.1   0.0    6    1-6      28-33  (138)
+  7 5V6F_A Hemolysin-related prote  16.6 1.4E+02  0.0015   13.1   0.0    6    1-6      28-33  (138)
+  8 5V6K_A Hemolysin-related prote  16.6 1.4E+02  0.0015   13.1   0.0    6    1-6      28-33  (138)
+  9 6O8W_L 70S ribosome; 70S, ribo  16.6 1.4E+02  0.0015   12.2   0.0    4    1-4      13-16  (122)
+ 10 1VQO_K 50S RIBOSOMAL SUBUNIT;   16.1 1.4E+02  0.0016   12.5   0.0    4    1-4      23-26  (132)
+
+No 1
+>4Y4O_2O 50S Ribosomal Protein L2, 50S; Ribosome, rRNA modofications, pseudouridine, rRNA; HET: 7MG, 2MG, SF4, MPD, 2MA, OMG, PSU, 0TD, 5MC, 4OC, 2MU, MG, ARG, MA6, ZN, UR3, M2G, 5MU; 2.3A {Thermus thermophilus HB8}
+Probab=18.31  E-value=1.2e+02  Score=12.42  Aligned_cols=4  Identities=75%  Similarity=1.190  Sum_probs=0.0  Template_Neff=6.400
+
+Q NSGAAI            1 NSGA    4 (6)
+Q Consensus         1 nsga    4 (6)
+                      ||||
+T Consensus        13 NSGa   16 (122)
+T 4Y4O_2O          13 NTGA   16 (122)
+T ss_pred             CcCC
+
+
+No 2
+>6Z1P_Ap Ribosomal protein L2, 50S ribosomal; Mitochondrial ribosome, ribosome, mitochondria, ciliate; HET: MG, ATP; 3.7A {Tetrahymena thermophila (strain SB210)}
+Probab=17.63  E-value=1.3e+02  Score=12.44  Aligned_cols=4  Identities=25%  Similarity=0.634  Sum_probs=0.0  Template_Neff=6.100
+
+Q NSGAAI            1 NSGA    4 (6)
+Q Consensus         1 nsga    4 (6)
+                      ||||
+T Consensus        13 NSGa   16 (119)
+T 6Z1P_Ap          13 KCGV   16 (119)
+T ss_pred             CCCC
+
+
+No 3
+>4V4I_I Ribosome; RIBOSOME, FUNCTIONAL COMPLEX, TRNA, E; HET: 7MG, PSU, H2U, 4SU, MIA, 2MG, 5MU, M2G, 4OC, 5MC, UR3, MA6; 3.71A {Thermus thermophilus}
+Probab=17.20  E-value=1.3e+02  Score=12.26  Aligned_cols=4  Identities=75%  Similarity=1.190  Sum_probs=0.0  Template_Neff=6.500
+
+Q NSGAAI            1 NSGA    4 (6)
+Q Consensus         1 nsga    4 (6)
+                      ||||
+T Consensus        13 NSGa   16 (122)
+T 4V4I_I           13 NTGA   16 (122)
+T ss_pred             CcCC
+
+
+No 4
+>3JBO_AM PROTEIN/RNA Complex; RIBOSOME; 5.8A {Plasmodium falciparum 3D7}
+Probab=16.84  E-value=1.3e+02  Score=12.64  Aligned_cols=4  Identities=75%  Similarity=1.091  Sum_probs=0.0  Template_Neff=5.900
+
+Q NSGAAI            1 NSGA    4 (6)
+Q Consensus         1 nsga    4 (6)
+                      ||||
+T Consensus        23 NSGa   26 (132)
+T 3JBO_AM          23 NSGG   26 (132)
+T ss_pred             CCCC
+
+
+No 5
+>6YWV_I 60S ribosomal protein L2, 60S; Neurospora crassa, translating Mitoribosomes, tRNA; HET: MG, K, NAD, SPM;{Neurospora crassa OR74A}
+Probab=16.66  E-value=1.4e+02  Score=12.47  Aligned_cols=4  Identities=100%  Similarity=1.248  Sum_probs=0.0  Template_Neff=6.200
+
+Q NSGAAI            1 NSGA    4 (6)
+Q Consensus         1 nsga    4 (6)
+                      ||||
+T Consensus        13 NSGa   16 (131)
+T 6YWV_I           13 NSGA   16 (131)
+T ss_pred             CCCC
+
+
+No 6
+>5V6C_B Hemolysin-related protein; lectin, beta-prism, glycan-binding domain, SUGAR; HET: GOL; 2.2A {Vibrio cholerae serotype O1 (strain ATCC 39315 / El Tor Inaba N16961)}
+Probab=16.64  E-value=1.4e+02  Score=13.06  Aligned_cols=6  Identities=67%  Similarity=0.733  Sum_probs=0.0  Template_Neff=5.100
+
+Q NSGAAI            1 NSGAAI    6 (6)
+Q Consensus         1 nsgaai    6 (6)
+                      +||++|
+T Consensus        28 rsG~~i   33 (138)
+T 5V6C_B           28 RSGFAI   33 (138)
+T ss_dssp             EESSSE
+T ss_pred             EeeEee
+
+
+No 7
+>5V6F_A Hemolysin-related protein; lectin, beta-prism, glycan-binding domain, mannotriose; HET: BMA, MAN, SO4; 1.5A {Vibrio cholerae serotype O1 (strain ATCC 39315 / El Tor Inaba N16961)}
+Probab=16.64  E-value=1.4e+02  Score=13.06  Aligned_cols=6  Identities=67%  Similarity=0.733  Sum_probs=0.0  Template_Neff=5.100
+
+Q NSGAAI            1 NSGAAI    6 (6)
+Q Consensus         1 nsgaai    6 (6)
+                      +||++|
+T Consensus        28 rsG~~i   33 (138)
+T 5V6F_A           28 RSGFAI   33 (138)
+T ss_dssp             EESSSE
+T ss_pred             EeeEee
+
+
+No 8
+>5V6K_A Hemolysin-related protein; lectin, beta-prism, glycan-binding domain, N-acetylglucosaminyl-beta-1; HET: GOL, MAN, NAG; 1.8A {Vibrio cholerae O1 biovar El Tor str. N16961}
+Probab=16.64  E-value=1.4e+02  Score=13.06  Aligned_cols=6  Identities=67%  Similarity=0.733  Sum_probs=0.0  Template_Neff=5.100
+
+Q NSGAAI            1 NSGAAI    6 (6)
+Q Consensus         1 nsgaai    6 (6)
+                      +||++|
+T Consensus        28 rsG~~i   33 (138)
+T 5V6K_A           28 RSGFAI   33 (138)
+T ss_dssp             EESSSE
+T ss_pred             EeeEee
+
+
+No 9
+>6O8W_L 70S ribosome; 70S, ribosome, pathogen, antibiotic development; 3.53A {Enterococcus faecalis}
+Probab=16.62  E-value=1.4e+02  Score=12.24  Aligned_cols=4  Identities=100%  Similarity=1.248  Sum_probs=0.0  Template_Neff=6.400
+
+Q NSGAAI            1 NSGA    4 (6)
+Q Consensus         1 nsga    4 (6)
+                      ||||
+T Consensus        13 NSGa   16 (122)
+T 6O8W_L           13 NSGA   16 (122)
+T ss_pred             CCCC
+
+
+No 10
+>1VQO_K 50S RIBOSOMAL SUBUNIT; ribosome 50S, PROTEIN-PROTEIN COMPLEX, RNA-RNA; HET: 1MA, OMU, CL, OMG, PSU, PPU, NA, MG, SR, UR3; 2.2A {Haloarcula marismortui} SCOP: b.39.1.1
+Probab=16.07  E-value=1.4e+02  Score=12.46  Aligned_cols=4  Identities=75%  Similarity=1.190  Sum_probs=0.0  Template_Neff=6.100
+
+Q NSGAAI            1 NSGA    4 (6)
+Q Consensus         1 nsga    4 (6)
+                      ||||
+T Consensus        23 NSGa   26 (132)
+T 1VQO_K           23 NTGA   26 (132)
+T ss_pred             CcCC
+
+

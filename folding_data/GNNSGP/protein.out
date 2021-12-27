@@ -1,0 +1,149 @@
+Query         GNNSGP
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 02:33:41 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GNNSGP/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GNNSGP/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5XX9_B Bacterioferritin (E.C.1  12.6 2.1E+02  0.0023   10.5   0.0    6    1-6     159-164 (167)
+  2 6K43_O Bacterioferritin (E.C.1  12.6 2.1E+02  0.0023   10.5   0.0    6    1-6     159-164 (167)
+  3 4CP9_D PA-I GALACTOPHILIC LECT  11.4 2.4E+02  0.0026   11.0   0.0    5    1-5     106-110 (121)
+  4 4LK6_C PA-I galactophilic lect  11.4 2.4E+02  0.0026   11.0   0.0    5    1-5     106-110 (121)
+  5 4YWA_C PA-IL lectin; Galactosi  11.4 2.4E+02  0.0026   11.0   0.0    5    1-5     106-110 (121)
+  6 5MSK_G Proteasome activator co  10.7 2.6E+02  0.0029   12.4   0.0    5    1-5     135-139 (239)
+  7 5MX5_I Proteasome activator co  10.7 2.6E+02  0.0029   12.4   0.0    5    1-5     135-139 (239)
+  8 7BEM_H COVOX-269 Vh domain, CO  10.3 2.7E+02   0.003    8.2   0.0    6    1-6     130-135 (135)
+  9 5MX5_F Proteasome activator co  10.1 2.8E+02  0.0031   12.2   0.0    5    1-5     135-139 (239)
+ 10 2EDB_A Netrin receptor DCC; Tu   9.8 2.9E+02  0.0033    7.8   0.0    5    1-5       1-5   (116)
+
+No 1
+>5XX9_B Bacterioferritin (E.C.1.16.3.1); Bacterioferritin, METAL TRANSPORT; HET: FE2; 2.6A {Streptomyces coelicolor (strain ATCC BAA-471 / A3(2) / M145)}
+Probab=12.63  E-value=2.1e+02  Score=10.52  Aligned_cols=6  Identities=50%  Similarity=0.894  Sum_probs=0.0  Template_Neff=10.100
+
+Q GNNSGP            1 GNNSGP    6 (6)
+Q Consensus         1 gnnsgp    6 (6)
+                      |..|||
+T Consensus       159 ~~~~~~  164 (167)
+T 5XX9_B          159 PDPSGP  164 (167)
+T ss_dssp             ------
+T ss_pred             CCCCCC
+
+
+No 2
+>6K43_O Bacterioferritin (E.C.1.16.3.1); Ferritin, Nanocage, Bacterioferritin, METAL TRANSPORT; HET: HEM, FE2;{Streptomyces coelicolor}
+Probab=12.63  E-value=2.1e+02  Score=10.52  Aligned_cols=6  Identities=50%  Similarity=0.894  Sum_probs=0.0  Template_Neff=10.100
+
+Q GNNSGP            1 GNNSGP    6 (6)
+Q Consensus         1 gnnsgp    6 (6)
+                      |..|||
+T Consensus       159 ~~~~~~  164 (167)
+T 6K43_O          159 PDPSGP  164 (167)
+T ss_dssp             CSCC--
+T ss_pred             CCCCCC
+
+
+No 3
+>4CP9_D PA-I GALACTOPHILIC LECTIN; SUGAR BINDING PROTEIN, GALACTOSE BINDING; HET: CN8, 1PE, SO4, OCS, GAL, TRO; 1.65A {PSEUDOMONAS AERUGINOSA}
+Probab=11.40  E-value=2.4e+02  Score=11.05  Aligned_cols=5  Identities=100%  Similarity=1.531  Sum_probs=0.0  Template_Neff=7.500
+
+Q GNNSGP            1 GNNSG    5 (6)
+Q Consensus         1 gnnsg    5 (6)
+                      .||+|
+T Consensus       106 ~dN~G  110 (121)
+T 4CP9_D          106 GNNSG  110 (121)
+T ss_dssp             GGCEE
+T ss_pred             cCCce
+
+
+No 4
+>4LK6_C PA-I galactophilic lectin; Lectin Fold, Sugar Binding Protein; HET: GAL, CA, LRD; 2.859A {Pseudomonas aeruginosa}
+Probab=11.40  E-value=2.4e+02  Score=11.05  Aligned_cols=5  Identities=100%  Similarity=1.531  Sum_probs=0.0  Template_Neff=7.500
+
+Q GNNSGP            1 GNNSG    5 (6)
+Q Consensus         1 gnnsg    5 (6)
+                      .||+|
+T Consensus       106 ~dN~G  110 (121)
+T 4LK6_C          106 GNNSG  110 (121)
+T ss_dssp             GGCEE
+T ss_pred             cCCce
+
+
+No 5
+>4YWA_C PA-IL lectin; Galactosides, lectins, sugar binding protein; HET: 4J9; 1.192A {Pseudomonas aeruginosa}
+Probab=11.40  E-value=2.4e+02  Score=11.05  Aligned_cols=5  Identities=100%  Similarity=1.531  Sum_probs=0.0  Template_Neff=7.500
+
+Q GNNSGP            1 GNNSG    5 (6)
+Q Consensus         1 gnnsg    5 (6)
+                      .||+|
+T Consensus       106 ~dN~G  110 (121)
+T 4YWA_C          106 GNNSG  110 (121)
+T ss_dssp             GGCEE
+T ss_pred             cCCce
+
+
+No 6
+>5MSK_G Proteasome activator complex subunit 2; heptamer, REGbeta, interferon-gamma, hydrolase, structural; 3.6A {Mus musculus}
+Probab=10.74  E-value=2.6e+02  Score=12.40  Aligned_cols=5  Identities=60%  Similarity=1.092  Sum_probs=0.0  Template_Neff=7.000
+
+Q GNNSGP            1 GNNSG    5 (6)
+Q Consensus         1 gnnsg    5 (6)
+                      |||-|
+T Consensus       135 GnNfG  139 (239)
+T 5MSK_G          135 GNDFG  139 (239)
+T ss_dssp             SCCHH
+T ss_pred             CCCch
+
+
+No 7
+>5MX5_I Proteasome activator complex subunit 2; proteasome activator, regulator, heptamer, interferon-gamma; HET: PO4; 2.9A {Mus musculus}
+Probab=10.74  E-value=2.6e+02  Score=12.40  Aligned_cols=5  Identities=60%  Similarity=1.092  Sum_probs=0.0  Template_Neff=7.000
+
+Q GNNSGP            1 GNNSG    5 (6)
+Q Consensus         1 gnnsg    5 (6)
+                      |||-|
+T Consensus       135 GnNfG  139 (239)
+T 5MX5_I          135 GNDFG  139 (239)
+T ss_dssp             SCCHH
+T ss_pred             CCCch
+
+
+No 8
+>7BEM_H COVOX-269 Vh domain, COVOX-269 Vl; SARS-CoV-2, antibody, germline, V-gene, receptor-binding-domain; HET: NAG, FUC, GOL, PRO, PO4; 2.52A {Homo sapiens}
+Probab=10.31  E-value=2.7e+02  Score=8.20  Aligned_cols=6  Identities=50%  Similarity=0.811  Sum_probs=0.0  Template_Neff=13.300
+
+Q GNNSGP            1 GNNSGP    6 (6)
+Q Consensus         1 gnnsgp    6 (6)
+                      |..+|+
+T Consensus       130 ~~~~~~  135 (135)
+T 7BEM_H          130 GGGSGG  135 (135)
+T ss_dssp             CCCCTC
+T ss_pred             CCCCCC
+
+
+No 9
+>5MX5_F Proteasome activator complex subunit 2; proteasome activator, regulator, heptamer, interferon-gamma; HET: PO4; 2.9A {Mus musculus}
+Probab=10.06  E-value=2.8e+02  Score=12.24  Aligned_cols=5  Identities=60%  Similarity=1.092  Sum_probs=0.0  Template_Neff=7.100
+
+Q GNNSGP            1 GNNSG    5 (6)
+Q Consensus         1 gnnsg    5 (6)
+                      |||-|
+T Consensus       135 GnNfG  139 (239)
+T 5MX5_F          135 GNDFG  139 (239)
+T ss_dssp             SCCHH
+T ss_pred             CCChH
+
+
+No 10
+>2EDB_A Netrin receptor DCC; Tumor suppressor protein DCC, Colorectal; NMR {Homo sapiens}
+Probab=9.81  E-value=2.9e+02  Score=7.76  Aligned_cols=5  Identities=20%  Similarity=0.614  Sum_probs=0.0  Template_Neff=13.500
+
+Q GNNSGP            1 GNNSG    5 (6)
+Q Consensus         1 gnnsg    5 (6)
+                      ||..|
+T Consensus         1 ~~~~g    5 (116)
+T 2EDB_A            1 GSSGS    5 (116)
+T ss_pred             CCCCC
+
+

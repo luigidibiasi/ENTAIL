@@ -1,0 +1,354 @@
+Query         GFGNSR
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 23:32:30 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GFGNSR/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GFGNSR/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6N3C_D TAR DNA-binding protein  77.8     1.7 1.9E-05   16.9   0.0    6    1-6       3-8   (46)
+  2 3CL5_A Hemagglutinin-esterase   51.6      13 0.00015   19.1   0.0    6    1-6      18-23  (377)
+  3 5JIF_A Hemagglutinin-esterase   50.2      15 0.00016   19.0   0.0    6    1-6      19-24  (381)
+  4 4C7L_B HEMAGGLUTININ-ESTERASE;  49.6      15 0.00017   18.9   0.0    6    1-6      17-22  (386)
+  5 3I26_C Hemagglutinin-esterase   49.3      15 0.00017   18.9   0.0    6    1-6      19-24  (384)
+  6 3I26_D Hemagglutinin-esterase   49.3      15 0.00017   18.9   0.0    6    1-6      19-24  (384)
+  7 3I27_B Hemagglutinin-esterase   49.3      15 0.00017   18.9   0.0    6    1-6      19-24  (384)
+  8 5JIL_A Hemagglutinin-esterase   48.9      16 0.00018   18.9   0.0    6    1-6      19-24  (388)
+  9 3CL4_A Hemagglutinin-esterase   47.9      17 0.00019   18.8   0.0    6    1-6      18-23  (377)
+ 10 6Y3Y_A Hemagglutinin-esterase   47.7      17 0.00019   18.6   0.0    6    1-6      19-24  (351)
+ 11 5JIF_B Hemagglutinin-esterase   46.6      18  0.0002   18.7   0.0    6    1-6      19-24  (381)
+ 12 1FLC_C HAEMAGGLUTININ-ESTERASE  44.7      20 0.00023   18.8   0.0    6    1-6      53-58  (432)
+ 13 6YI5_C Hemagglutinin-esterase-  44.7      20 0.00023   18.8   0.0    6    1-6      53-58  (432)
+ 14 3I1K_C SGNH-hydrolase fold, Sw  44.3      21 0.00023   18.5   0.0    6    1-6      19-24  (377)
+ 15 5E5W_A Hemagglutinin-esterase;  40.5      26 0.00029   18.4   0.0    6    1-6      51-56  (427)
+ 16 5E65_C Hemagglutinin-esterase;  40.5      26 0.00029   18.4   0.0    6    1-6      51-56  (427)
+ 17 5CWS_I sAB-158 LC, sAB-158 HC,  38.5      30 0.00033   14.8   0.0    6    1-6     202-207 (208)
+ 18 6OEI_A Spindle pole body compo  33.5      40 0.00044   12.3   0.0    6    1-6       2-7   (298)
+ 19 7KWZ_A Isoform 2 of TAR DNA-bi  31.0      47 0.00052   15.4   0.0    6    1-6      22-27  (148)
+ 20 5TJA_A Mucolipin-1; endolysoso  27.4      59 0.00066   14.1   0.0    6    1-6       1-6   (223)
+ 21 5TJB_A Mucolipin-1; endolysoso  27.4      59 0.00066   14.1   0.0    6    1-6       1-6   (223)
+ 22 3LVG_A Clathrin heavy chain 1,  22.4      85 0.00094   13.8   0.0    6    1-6     619-624 (624)
+ 23 3LVH_C Clathrin heavy chain 1,  22.4      85 0.00094   13.8   0.0    6    1-6     619-624 (624)
+
+No 1
+>6N3C_D TAR DNA-binding protein 43; Amyloid, TDP43, ALS, FTLD-TDP, dna; 3.3A {Homo sapiens}
+Probab=77.82  E-value=1.7  Score=16.91  Aligned_cols=6  Identities=100%  Similarity=1.713  Sum_probs=4.3  Template_Neff=3.000
+
+Q GFGNSR            1 GFGNSR    6 (6)
+Q Consensus         1 gfgnsr    6 (6)
+                      |||+||
+T Consensus         3 g~g~~r    8 (46)
+T 6N3C_D            3 GFGNSR    8 (46)
+T ss_dssp             CCSCEE
+T ss_pred             CCCCcC
+Confidence            577776
+
+
+No 2
+>3CL5_A Hemagglutinin-esterase (E.C.3.1.1.53); SGNH-hydrolase fold, Swiss roll, Envelope; HET: NAG, SIO; 1.8A {Bovine coronavirus}
+Probab=51.62  E-value=13  Score=19.07  Aligned_cols=6  Identities=50%  Similarity=0.955  Sum_probs=4.8  Template_Neff=3.000
+
+Q GFGNSR            1 GFGNSR    6 (6)
+Q Consensus         1 gfgnsr    6 (6)
+                      |||.||
+T Consensus        18 gFGDSR   23 (377)
+T 3CL5_A           18 LFGDAR   23 (377)
+T ss_dssp             EEEEGG
+T ss_pred             eeeccc
+Confidence            688887
+
+
+No 3
+>5JIF_A Hemagglutinin-esterase (E.C.3.1.1.53); Hemagglutin, Esterase, Hepatitis virus, Coronavirus; HET: NAG, MAN, BMA, GOL; 2.0A {Murine coronavirus}
+Probab=50.19  E-value=15  Score=18.97  Aligned_cols=6  Identities=67%  Similarity=1.016  Sum_probs=4.7  Template_Neff=3.000
+
+Q GFGNSR            1 GFGNSR    6 (6)
+Q Consensus         1 gfgnsr    6 (6)
+                      |||.||
+T Consensus        19 ~FGDSR   24 (381)
+T 5JIF_A           19 LFGDSR   24 (381)
+T ss_dssp             EEECGG
+T ss_pred             eeeCch
+Confidence            688887
+
+
+No 4
+>4C7L_B HEMAGGLUTININ-ESTERASE; HYDROLASE, RECEPTOR DESTROYING, RECEPTOR BINDING; HET: BMA, GOL, MAN, NAG; 2.1A {MURINE HEPATITIS VIRUS}
+Probab=49.63  E-value=15  Score=18.94  Aligned_cols=6  Identities=50%  Similarity=0.955  Sum_probs=4.7  Template_Neff=3.000
+
+Q GFGNSR            1 GFGNSR    6 (6)
+Q Consensus         1 gfgnsr    6 (6)
+                      |||.||
+T Consensus        17 ~FGDSR   22 (386)
+T 4C7L_B           17 LFGDAR   22 (386)
+T ss_dssp             EEESGG
+T ss_pred             eeecch
+Confidence            688887
+
+
+No 5
+>3I26_C Hemagglutinin-esterase (E.C.3.1.1.53); SGNH-hydrolase fold, Swiss roll, Envelope; HET: BMA, MAN, NAG; 1.8A {Breda virus serotype 1}
+Probab=49.31  E-value=15  Score=18.90  Aligned_cols=6  Identities=83%  Similarity=1.625  Sum_probs=4.8  Template_Neff=3.000
+
+Q GFGNSR            1 GFGNSR    6 (6)
+Q Consensus         1 gfgnsr    6 (6)
+                      |||.||
+T Consensus        19 lFGDSR   24 (384)
+T 3I26_C           19 GFGDSR   24 (384)
+T ss_dssp             EEESGG
+T ss_pred             eecCcc
+Confidence            688887
+
+
+No 6
+>3I26_D Hemagglutinin-esterase (E.C.3.1.1.53); SGNH-hydrolase fold, Swiss roll, Envelope; HET: BMA, NAG, MAN; 1.8A {Breda virus serotype 1}
+Probab=49.31  E-value=15  Score=18.90  Aligned_cols=6  Identities=83%  Similarity=1.625  Sum_probs=4.8  Template_Neff=3.000
+
+Q GFGNSR            1 GFGNSR    6 (6)
+Q Consensus         1 gfgnsr    6 (6)
+                      |||.||
+T Consensus        19 lFGDSR   24 (384)
+T 3I26_D           19 GFGDSR   24 (384)
+T ss_dssp             EEESGG
+T ss_pred             eecCcc
+Confidence            688887
+
+
+No 7
+>3I27_B Hemagglutinin-esterase (E.C.3.1.1.53); SGNH-hydrolase fold, Swiss roll, Envelope; HET: SID, BMA, MAN, NAG; 2.0A {Breda virus serotype 1}
+Probab=49.31  E-value=15  Score=18.90  Aligned_cols=6  Identities=83%  Similarity=1.625  Sum_probs=4.8  Template_Neff=3.000
+
+Q GFGNSR            1 GFGNSR    6 (6)
+Q Consensus         1 gfgnsr    6 (6)
+                      |||.||
+T Consensus        19 lFGDSR   24 (384)
+T 3I27_B           19 GFGDSR   24 (384)
+T ss_dssp             EEESGG
+T ss_pred             eecCcc
+Confidence            688887
+
+
+No 8
+>5JIL_A Hemagglutinin-esterase (E.C.3.1.1.53); Hemagglutin, Esterase, Hepatitis virus, Coronavirus; HET: NAG, 6KL; 1.85A {Rat coronavirus}
+Probab=48.86  E-value=16  Score=18.89  Aligned_cols=6  Identities=50%  Similarity=0.955  Sum_probs=4.7  Template_Neff=3.000
+
+Q GFGNSR            1 GFGNSR    6 (6)
+Q Consensus         1 gfgnsr    6 (6)
+                      |||.||
+T Consensus        19 lFGDSR   24 (388)
+T 5JIL_A           19 LFGDAR   24 (388)
+T ss_dssp             EEESGG
+T ss_pred             eeeccc
+Confidence            688887
+
+
+No 9
+>3CL4_A Hemagglutinin-esterase (E.C.3.1.1.53); SGNH-hydrolase fold, Swiss roll, Envelope; HET: NAG; 2.1A {Bovine coronavirus}
+Probab=47.93  E-value=17  Score=18.78  Aligned_cols=6  Identities=67%  Similarity=1.016  Sum_probs=4.7  Template_Neff=2.900
+
+Q GFGNSR            1 GFGNSR    6 (6)
+Q Consensus         1 gfgnsr    6 (6)
+                      |||.||
+T Consensus        18 lFGDSR   23 (377)
+T 3CL4_A           18 LFGDSR   23 (377)
+T ss_dssp             EEEEGG
+T ss_pred             eeeccc
+Confidence            688887
+
+
+No 10
+>6Y3Y_A Hemagglutinin-esterase (E.C.3.1.1.53); Coronavirus, Glycoprotein, Nidovirus, Esterase, VIRAL; HET: BMA, MAN, NAG;{Human coronavirus HKU1}
+Probab=47.65  E-value=17  Score=18.64  Aligned_cols=6  Identities=67%  Similarity=1.016  Sum_probs=4.6  Template_Neff=2.800
+
+Q GFGNSR            1 GFGNSR    6 (6)
+Q Consensus         1 gfgnsr    6 (6)
+                      |||.||
+T Consensus        19 lFGDSR   24 (351)
+T 6Y3Y_A           19 LFGDSR   24 (351)
+T ss_dssp             EECCGG
+T ss_pred             eeeccc
+Confidence            688887
+
+
+No 11
+>5JIF_B Hemagglutinin-esterase (E.C.3.1.1.53); Hemagglutin, Esterase, Hepatitis virus, Coronavirus; HET: BMA, GOL, NAG, MAN; 2.0A {Murine coronavirus}
+Probab=46.60  E-value=18  Score=18.69  Aligned_cols=6  Identities=67%  Similarity=1.016  Sum_probs=4.6  Template_Neff=2.900
+
+Q GFGNSR            1 GFGNSR    6 (6)
+Q Consensus         1 gfgnsr    6 (6)
+                      |||.||
+T Consensus        19 lFGDSR   24 (381)
+T 5JIF_B           19 LFGDSR   24 (381)
+T ss_dssp             EEECGG
+T ss_pred             eeecch
+Confidence            688887
+
+
+No 12
+>1FLC_C HAEMAGGLUTININ-ESTERASE-FUSION GLYCOPROTEIN; ESTERASE, RECEPTOR BINDING, MEMBRANE FUSION; HET: MAN, BMA, NDG, NAG; 3.2A {Influenza C virus (C/Johannesburg/1/66)} SCOP: c.23.10.2, b.19.1.3
+Probab=44.68  E-value=20  Score=18.81  Aligned_cols=6  Identities=83%  Similarity=1.625  Sum_probs=4.2  Template_Neff=2.800
+
+Q GFGNSR            1 GFGNSR    6 (6)
+Q Consensus         1 gfgnsr    6 (6)
+                      |||.||
+T Consensus        53 lFGDSR   58 (432)
+T 1FLC_C           53 GFGDSR   58 (432)
+T ss_dssp             EEECSS
+T ss_pred             EEeCCc
+Confidence            577776
+
+
+No 13
+>6YI5_C Hemagglutinin-esterase-fusion glycoprotein (E.C.3.1.1.53); Receptor, esterase, fusion, influenza, VIRAL; HET: BMA, NDG, NAG; 9.1A {Influenza C virus (strain C/Johannesburg/1/1966)}
+Probab=44.68  E-value=20  Score=18.81  Aligned_cols=6  Identities=83%  Similarity=1.625  Sum_probs=4.2  Template_Neff=2.800
+
+Q GFGNSR            1 GFGNSR    6 (6)
+Q Consensus         1 gfgnsr    6 (6)
+                      |||.||
+T Consensus        53 lFGDSR   58 (432)
+T 6YI5_C           53 GFGDSR   58 (432)
+T ss_dssp             EECCSS
+T ss_pred             EEeCCc
+Confidence            577776
+
+
+No 14
+>3I1K_C SGNH-hydrolase fold, Swiss roll, Envelope; HET: ACY, NAG; 2.1A {Porcine torovirus}
+Probab=44.29  E-value=21  Score=18.47  Aligned_cols=6  Identities=67%  Similarity=1.564  Sum_probs=4.7  Template_Neff=2.900
+
+Q GFGNSR            1 GFGNSR    6 (6)
+Q Consensus         1 gfgnsr    6 (6)
+                      |||.||
+T Consensus        19 lFGDSR   24 (377)
+T 3I1K_C           19 GFGDAR   24 (377)
+T ss_dssp             EEESGG
+T ss_pred             eecCcc
+Confidence            688887
+
+
+No 15
+>5E5W_A Hemagglutinin-esterase; influenza virus, HEF, HYDROLASE; HET: BMA, MAN, NAG; 2.4A {Influenza D virus (D/swine/Oklahoma/1334/2011)}
+Probab=40.54  E-value=26  Score=18.43  Aligned_cols=6  Identities=67%  Similarity=1.564  Sum_probs=4.1  Template_Neff=2.800
+
+Q GFGNSR            1 GFGNSR    6 (6)
+Q Consensus         1 gfgnsr    6 (6)
+                      |||.||
+T Consensus        51 ~FGDSR   56 (427)
+T 5E5W_A           51 GFGDAR   56 (427)
+T ss_dssp             EEESGG
+T ss_pred             EEeccc
+Confidence            577776
+
+
+No 16
+>5E65_C Hemagglutinin-esterase; influenza virus, HEF, membrane, HYDROLASE; HET: 5N6, BMA, MAN, NAG, GAL; 2.2A {Influenza D virus (D/swine/Oklahoma/1334/2011)}
+Probab=40.54  E-value=26  Score=18.43  Aligned_cols=6  Identities=67%  Similarity=1.564  Sum_probs=4.1  Template_Neff=2.800
+
+Q GFGNSR            1 GFGNSR    6 (6)
+Q Consensus         1 gfgnsr    6 (6)
+                      |||.||
+T Consensus        51 ~FGDSR   56 (427)
+T 5E65_C           51 GFGDAR   56 (427)
+T ss_dssp             EEESGG
+T ss_pred             EEeccc
+Confidence            577776
+
+
+No 17
+>5CWS_I sAB-158 LC, sAB-158 HC, Nucleoporin; nucleocytoplasmic transport, PROTEIN TRANSPORT; 3.77A {Homo sapiens}
+Probab=38.47  E-value=30  Score=14.77  Aligned_cols=6  Identities=33%  Similarity=0.229  Sum_probs=0.0  Template_Neff=7.200
+
+Q GFGNSR            1 GFGNSR    6 (6)
+Q Consensus         1 gfgnsr    6 (6)
+                      +||.||
+T Consensus       202 ~~~~~~  207 (208)
+T 5CWS_I          202 SFYRSY  207 (208)
+T ss_dssp             ------
+T ss_pred             hccccc
+Confidence            477664
+
+
+No 18
+>6OEI_A Spindle pole body component SPC42; Yeast Centrosome, Coiled-Coil, Spindle Pole; HET: MSE, MPD; 2.58A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=33.45  E-value=40  Score=12.32  Aligned_cols=6  Identities=50%  Similarity=0.900  Sum_probs=2.8  Template_Neff=12.100
+
+Q GFGNSR            1 GFGNSR    6 (6)
+Q Consensus         1 gfgnsr    6 (6)
+                      |-|+|+
+T Consensus         2 ~~~~~~    7 (298)
+T 6OEI_A            2 GSGSSK    7 (298)
+T ss_pred             CCCCcc
+Confidence            345553
+
+
+No 19
+>7KWZ_A Isoform 2 of TAR DNA-binding; TDP-43, amyloid, neurodegenerative diseases, amyotropic; 3.2A {Homo sapiens}
+Probab=30.97  E-value=47  Score=15.44  Aligned_cols=6  Identities=100%  Similarity=1.713  Sum_probs=3.2  Template_Neff=2.900
+
+Q GFGNSR            1 GFGNSR    6 (6)
+Q Consensus         1 gfgnsr    6 (6)
+                      |||++|
+T Consensus        22 g~g~~R   27 (148)
+T 7KWZ_A           22 GFGNSR   27 (148)
+T ss_dssp             CCSCCC
+T ss_pred             CcCCCC
+Confidence            356554
+
+
+No 20
+>5TJA_A Mucolipin-1; endolysosomal lumen, tetramer, calcium and; 2.3A {Homo sapiens}
+Probab=27.38  E-value=59  Score=14.14  Aligned_cols=6  Identities=50%  Similarity=0.551  Sum_probs=3.7  Template_Neff=7.000
+
+Q GFGNSR            1 GFGNSR    6 (6)
+Q Consensus         1 gfgnsr    6 (6)
+                      |||.+|
+T Consensus         1 ~~g~~~    6 (223)
+T 5TJA_A            1 GSGLSN    6 (223)
+T ss_dssp             CHHHHH
+T ss_pred             CCCccc
+Confidence            577654
+
+
+No 21
+>5TJB_A Mucolipin-1; endolysosomal lumen, tetramer, calcium and; 2.4A {Homo sapiens}
+Probab=27.38  E-value=59  Score=14.14  Aligned_cols=6  Identities=50%  Similarity=0.551  Sum_probs=0.0  Template_Neff=7.000
+
+Q GFGNSR            1 GFGNSR    6 (6)
+Q Consensus         1 gfgnsr    6 (6)
+                      |||.+|
+T Consensus         1 ~~g~~~    6 (223)
+T 5TJB_A            1 GSGLSN    6 (223)
+T ss_dssp             ------
+T ss_pred             CCCccc
+Confidence            577654
+
+
+No 22
+>3LVG_A Clathrin heavy chain 1, Clathrin; self assembly, Coated pit, Cytoplasmic; 7.94A {Bos taurus}
+Probab=22.35  E-value=85  Score=13.84  Aligned_cols=6  Identities=67%  Similarity=1.071  Sum_probs=0.0  Template_Neff=10.400
+
+Q GFGNSR            1 GFGNSR    6 (6)
+Q Consensus         1 gfgnsr    6 (6)
+                      |||+++
+T Consensus       619 ~~~~~~  624 (624)
+T 3LVG_A          619 GFGYSM  624 (624)
+T ss_dssp             ------
+T ss_pred             CCCCCC
+Confidence            455543
+
+
+No 23
+>3LVH_C Clathrin heavy chain 1, Clathrin; self assembly, Coated pit, Cytoplasmic; 9.0A {Bos taurus}
+Probab=22.35  E-value=85  Score=13.84  Aligned_cols=6  Identities=67%  Similarity=1.071  Sum_probs=0.0  Template_Neff=10.400
+
+Q GFGNSR            1 GFGNSR    6 (6)
+Q Consensus         1 gfgnsr    6 (6)
+                      |||+++
+T Consensus       619 ~~~~~~  624 (624)
+T 3LVH_C          619 GFGYSM  624 (624)
+T ss_dssp             ------
+T ss_pred             CCCCCC
+Confidence            455543
+
+

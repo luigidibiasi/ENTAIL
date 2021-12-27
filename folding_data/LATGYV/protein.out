@@ -1,0 +1,149 @@
+Query         LATGYV
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 14:39:07 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LATGYV/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LATGYV/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6J08_D Membrane-anchored junct  15.5 1.5E+02  0.0017   11.2   0.0    4    3-6       1-4   (36)
+  2 5FLG_A 6-CARBOXYHEXANOATE--COA  15.2 1.6E+02  0.0017   14.2   0.0    4    3-6     202-205 (260)
+  3 5FLG_B 6-CARBOXYHEXANOATE--COA  15.0 1.6E+02  0.0018   14.2   0.0    4    3-6     202-205 (260)
+  4 5M0Z_A Cyclohexanone Monooxyge  14.6 1.7E+02  0.0019   13.0   0.0    5    1-5     378-382 (541)
+  5 2JOI_A Hypothetical protein Ta  14.5 1.7E+02  0.0019   12.8   0.0    4    2-5     103-106 (118)
+  6 3GWD_A Cyclohexanone monooxyge  13.5 1.9E+02  0.0021   12.8   0.0    5    1-5     378-382 (540)
+  7 6SEM_A PROTEIN; Flavin, enzyme  12.9   2E+02  0.0022   12.8   0.0    5    1-5     327-331 (535)
+  8 3UOX_A OTEMO; Baeyer-Villiger   12.8   2E+02  0.0022   12.8   0.0    5    1-5     385-389 (545)
+  9 3UOZ_A OTEMO; Baeyer-Villiger   12.8   2E+02  0.0022   12.8   0.0    5    1-5     385-389 (545)
+ 10 7AL4_C Dimethylaniline monooxy  11.7 2.3E+02  0.0026   12.6   0.0    5    1-5     327-331 (531)
+
+No 1
+>6J08_D Membrane-anchored junction protein, Telomere repeats-binding; telomere, meiosis, protein-protein complex, nuclear; 2.9A {Homo sapiens}
+Probab=15.53  E-value=1.5e+02  Score=11.24  Aligned_cols=4  Identities=75%  Similarity=1.663  Sum_probs=0.0  Template_Neff=2.600
+
+Q LATGYV            3 TGYV    6 (6)
+Q Consensus         3 tgyv    6 (6)
+                      |||+
+T Consensus         1 TGY~    4 (36)
+T 6J08_D            1 TGYI    4 (36)
+T ss_pred             CCCc
+
+
+No 2
+>5FLG_A 6-CARBOXYHEXANOATE--COA LIGASE (E.C.6.2.1.14); LIGASE; HET: PML, ANP; 2.04A {BACILLUS SUBTILIS}
+Probab=15.17  E-value=1.6e+02  Score=14.20  Aligned_cols=4  Identities=100%  Similarity=1.688  Sum_probs=0.0  Template_Neff=4.800
+
+Q LATGYV            3 TGYV    6 (6)
+Q Consensus         3 tgyv    6 (6)
+                      ||||
+T Consensus       202 TGYV  205 (260)
+T 5FLG_A          202 TGYV  205 (260)
+T ss_dssp             CEEE
+T ss_pred             cEEE
+
+
+No 3
+>5FLG_B 6-CARBOXYHEXANOATE--COA LIGASE (E.C.6.2.1.14); LIGASE; HET: PML, ANP; 2.04A {BACILLUS SUBTILIS}
+Probab=15.03  E-value=1.6e+02  Score=14.22  Aligned_cols=4  Identities=100%  Similarity=1.688  Sum_probs=0.0  Template_Neff=4.700
+
+Q LATGYV            3 TGYV    6 (6)
+Q Consensus         3 tgyv    6 (6)
+                      ||||
+T Consensus       202 TGYV  205 (260)
+T 5FLG_B          202 TGYV  205 (260)
+T ss_dssp             CEEE
+T ss_pred             cEEE
+
+
+No 4
+>5M0Z_A Cyclohexanone Monooxygenase from Thermocrispum municipale.; Baeyer-Villiger Monooxygenases Flavoenzymes, oxidoreductase; HET: GOL, FAD, NA7; 1.6A {Thermocrispum municipale DSM 44069}
+Probab=14.58  E-value=1.7e+02  Score=12.95  Aligned_cols=5  Identities=60%  Similarity=1.238  Sum_probs=0.0  Template_Neff=10.000
+
+Q LATGYV            1 LATGY    5 (6)
+Q Consensus         1 latgy    5 (6)
+                      +||||
+T Consensus       378 ~aTG~  382 (541)
+T 5M0Z_A          378 FATGF  382 (541)
+T ss_dssp             ECCCB
+T ss_pred             EcCCc
+
+
+No 5
+>2JOI_A Hypothetical protein Ta0095; protein, structural genomics, Thermoplasma acidophilum; NMR {Thermoplasma acidophilum}
+Probab=14.48  E-value=1.7e+02  Score=12.83  Aligned_cols=4  Identities=75%  Similarity=1.306  Sum_probs=0.0  Template_Neff=4.300
+
+Q LATGYV            2 ATGY    5 (6)
+Q Consensus         2 atgy    5 (6)
+                      ||||
+T Consensus       103 aTGy  106 (118)
+T 2JOI_A          103 LTGY  106 (118)
+T ss_dssp             HHCC
+T ss_pred             HHCC
+
+
+No 6
+>3GWD_A Cyclohexanone monooxygenase (E.C.1.14.13.22); Flavoprotein Biocatalysis Baeyer-Villiger oxidation Green; HET: NAP, FAD; 2.3A {Rhodococcus sp.}
+Probab=13.54  E-value=1.9e+02  Score=12.76  Aligned_cols=5  Identities=60%  Similarity=1.238  Sum_probs=0.0  Template_Neff=10.100
+
+Q LATGYV            1 LATGY    5 (6)
+Q Consensus         1 latgy    5 (6)
+                      +||||
+T Consensus       378 ~ATGf  382 (540)
+T 3GWD_A          378 FATGF  382 (540)
+T ss_dssp             ECCCB
+T ss_pred             EcCCc
+
+
+No 7
+>6SEM_A PROTEIN; Flavin, enzyme, membrane protein, Ancestral; HET: FAD; 2.8A {synthetic construct}
+Probab=12.92  E-value=2e+02  Score=12.76  Aligned_cols=5  Identities=80%  Similarity=1.418  Sum_probs=0.0  Template_Neff=9.900
+
+Q LATGYV            1 LATGY    5 (6)
+Q Consensus         1 latgy    5 (6)
+                      +||||
+T Consensus       327 ~aTG~  331 (535)
+T 6SEM_A          327 FATGY  331 (535)
+T ss_dssp             ECCCE
+T ss_pred             EecCc
+
+
+No 8
+>3UOX_A OTEMO; Baeyer-Villiger monooxygenase, OXIDOREDUCTASE; HET: FAD; 1.956A {Pseudomonas putida}
+Probab=12.83  E-value=2e+02  Score=12.78  Aligned_cols=5  Identities=60%  Similarity=1.105  Sum_probs=0.0  Template_Neff=9.900
+
+Q LATGYV            1 LATGY    5 (6)
+Q Consensus         1 latgy    5 (6)
+                      +||||
+T Consensus       385 ~aTG~  389 (545)
+T 3UOX_A          385 YATGF  389 (545)
+T ss_dssp             ECCCC
+T ss_pred             EccCc
+
+
+No 9
+>3UOZ_A OTEMO; Baeyer-Villiger monooxygenase, OXIDOREDUCTASE; HET: NAP, FAD; 2.407A {Pseudomonas putida}
+Probab=12.83  E-value=2e+02  Score=12.78  Aligned_cols=5  Identities=60%  Similarity=1.105  Sum_probs=0.0  Template_Neff=9.900
+
+Q LATGYV            1 LATGY    5 (6)
+Q Consensus         1 latgy    5 (6)
+                      +||||
+T Consensus       385 ~aTG~  389 (545)
+T 3UOZ_A          385 YATGF  389 (545)
+T ss_dssp             ECCCB
+T ss_pred             EccCc
+
+
+No 10
+>7AL4_C Dimethylaniline monooxygenase [N-oxide-forming] (E.C.1.14.13.8); FMO Paired Rossman fold Xenobiotic; HET: NAP, LMT, GOL, FAD; 3.0A {Felis catus}
+Probab=11.67  E-value=2.3e+02  Score=12.62  Aligned_cols=5  Identities=80%  Similarity=1.418  Sum_probs=0.0  Template_Neff=9.800
+
+Q LATGYV            1 LATGY    5 (6)
+Q Consensus         1 latgy    5 (6)
+                      +||||
+T Consensus       327 ~aTG~  331 (531)
+T 7AL4_C          327 FATGY  331 (531)
+T ss_dssp             ECCCB
+T ss_pred             EcCCC
+
+

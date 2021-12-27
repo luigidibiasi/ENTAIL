@@ -1,0 +1,151 @@
+Query         QGYQAG
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 08:00:56 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QGYQAG/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QGYQAG/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4V8G_AV Ribosome; ribosome mod  85.4    0.52 5.8E-06   18.2   0.0    6    1-6      15-20  (61)
+  2 6H4N_v 30S ribosomal protein S  72.7     2.9 3.2E-05   15.4   0.0    6    1-6      15-20  (55)
+  3 2JRM_A Ribosome modulation fac  72.5     2.9 3.3E-05   16.2   0.0    6    1-6      15-20  (65)
+  4 2JDJ_A REDY-LIKE PROTEIN; PROD  42.1      24 0.00026   12.3   0.0    6    1-6     100-105 (105)
+  5 2LR0_A P-loop ntpase fold; Str  15.3 1.6E+02  0.0017   13.9   0.0    4    1-4      25-28  (134)
+  6 7C4O_A Transcription factor HE  14.9 1.6E+02  0.0018    9.2   0.0    6    1-6       6-11  (48)
+  7 6Z16_b Multisubunit Na+/H+ ant  14.5 1.7E+02  0.0019   12.0   0.0    5    2-6      37-41  (140)
+  8 5JYN_A Envelope glycoprotein g  13.7 1.8E+02   0.002   10.8   0.0    4    1-4      34-37  (40)
+  9 1UUN_B MSPA; PORIN, MYCOBACTER  13.4 1.9E+02  0.0021   12.6   0.0    5    2-6      65-69  (184)
+ 10 2MOF_A Lysosome-associated mem  13.1   2E+02  0.0022   10.2   0.0    5    1-5      37-41  (42)
+
+No 1
+>4V8G_AV Ribosome; ribosome modulation factor, stress response; HET: ZN, MG; 3.0A {Thermus thermophilus}
+Probab=85.45  E-value=0.52  Score=18.22  Aligned_cols=6  Identities=83%  Similarity=1.531  Sum_probs=4.6  Template_Neff=4.700
+
+Q QGYQAG            1 QGYQAG    6 (6)
+Q Consensus         1 qgyqag    6 (6)
+                      +|||||
+T Consensus        15 ~GY~AG   20 (61)
+T 4V8G_AV          15 RGYQAG   20 (61)
+T ss_pred             HHHHHH
+Confidence            588886
+
+
+No 2
+>6H4N_v 30S ribosomal protein S2, 30S; 100S, cryo-EM, E-site tRNA, hibernation; 3.0A {Escherichia coli BW25113}
+Probab=72.68  E-value=2.9  Score=15.42  Aligned_cols=6  Identities=83%  Similarity=1.531  Sum_probs=3.7  Template_Neff=5.700
+
+Q QGYQAG            1 QGYQAG    6 (6)
+Q Consensus         1 qgyqag    6 (6)
+                      +||+||
+T Consensus        15 ~Gy~Ag   20 (55)
+T 6H4N_v           15 RGYQAG   20 (55)
+T ss_pred             HHHHHH
+Confidence            467765
+
+
+No 3
+>2JRM_A Ribosome modulation factor; solution NMR structure, Structural Genomics; NMR {Vibrio parahaemolyticus}
+Probab=72.50  E-value=2.9  Score=16.24  Aligned_cols=6  Identities=83%  Similarity=1.531  Sum_probs=3.9  Template_Neff=4.900
+
+Q QGYQAG            1 QGYQAG    6 (6)
+Q Consensus         1 qgyqag    6 (6)
+                      +||+||
+T Consensus        15 ~Gy~Ag   20 (65)
+T 2JRM_A           15 QGYKAG   20 (65)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            477775
+
+
+No 4
+>2JDJ_A REDY-LIKE PROTEIN; PRODIGIOSIN, BIOSYNTHESIS, BIOSYNTHETIC PROTEIN; HET: GOL, MSE, SO4, IPA; 2.0A {HAHELLA CHEJUENSIS}
+Probab=42.06  E-value=24  Score=12.34  Aligned_cols=6  Identities=67%  Similarity=1.298  Sum_probs=3.0  Template_Neff=9.500
+
+Q QGYQAG            1 QGYQAG    6 (6)
+Q Consensus         1 qgyqag    6 (6)
+                      +||.||
+T Consensus       100 ~~~~~~  105 (105)
+T 2JDJ_A          100 SGYAAG  105 (105)
+T ss_dssp             TCCCCC
+T ss_pred             cCccCC
+Confidence            355554
+
+
+No 5
+>2LR0_A P-loop ntpase fold; Structural Genomics, NORTHEAST STRUCTURAL GENOMICS; NMR {artificial gene}
+Probab=15.32  E-value=1.6e+02  Score=13.88  Aligned_cols=4  Identities=100%  Similarity=1.647  Sum_probs=0.0  Template_Neff=1.000
+
+Q QGYQAG            1 QGYQ    4 (6)
+Q Consensus         1 qgyq    4 (6)
+                      ||||
+T Consensus        25 qgyq   28 (134)
+T 2LR0_A           25 QGYQ   28 (134)
+T ss_dssp             TTCE
+T ss_pred             CCcc
+
+
+No 6
+>7C4O_A Transcription factor HES-1; dimer, solution structure, SIGNALING PROTEIN; NMR {Homo sapiens}
+Probab=14.88  E-value=1.6e+02  Score=9.24  Aligned_cols=6  Identities=50%  Similarity=0.900  Sum_probs=0.0  Template_Neff=8.600
+
+Q QGYQAG            1 QGYQAG    6 (6)
+Q Consensus         1 qgyqag    6 (6)
+                      +.|++|
+T Consensus         6 ~~y~~G   11 (48)
+T 7C4O_A            6 GKYRAG   11 (48)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 7
+>6Z16_b Multisubunit Na+/H+ antiporter, A subunit; Mrp antiporter, sodium/proton exchanger, bioenergetics; HET: PTY;{Anoxybacillus flavithermus (strain DSM 21510 / WK1)}
+Probab=14.51  E-value=1.7e+02  Score=11.96  Aligned_cols=5  Identities=40%  Similarity=1.125  Sum_probs=0.0  Template_Neff=7.000
+
+Q QGYQAG            2 GYQAG    6 (6)
+Q Consensus         2 gyqag    6 (6)
+                      |+|+|
+T Consensus        37 GFqgG   41 (140)
+T 6Z16_b           37 GFIGG   41 (140)
+T ss_pred             chHHH
+
+
+No 8
+>5JYN_A Envelope glycoprotein gp160; transmembrane domain, lipid bilayer, transmembrane; NMR {Human immunodeficiency virus 1}
+Probab=13.74  E-value=1.8e+02  Score=10.79  Aligned_cols=4  Identities=75%  Similarity=1.439  Sum_probs=0.0  Template_Neff=4.000
+
+Q QGYQAG            1 QGYQ    4 (6)
+Q Consensus         1 qgyq    4 (6)
+                      |||+
+T Consensus        34 qGY~   37 (40)
+T 5JYN_A           34 QGYS   37 (40)
+T ss_dssp             HSSC
+T ss_pred             cCCC
+
+
+No 9
+>1UUN_B MSPA; PORIN, MYCOBACTERIA; 2.5A {MYCOBACTERIUM SMEGMATIS} SCOP: f.6.1.2
+Probab=13.36  E-value=1.9e+02  Score=12.55  Aligned_cols=5  Identities=80%  Similarity=1.524  Sum_probs=0.0  Template_Neff=6.500
+
+Q QGYQAG            2 GYQAG    6 (6)
+Q Consensus         2 gyqag    6 (6)
+                      |||.|
+T Consensus        65 GY~VG   69 (184)
+T 1UUN_B           65 GYQIG   69 (184)
+T ss_dssp             EEEEE
+T ss_pred             EEEEE
+
+
+No 10
+>2MOF_A Lysosome-associated membrane glycoprotein 2; MEMBRANE PROTEIN; NMR {Homo sapiens}
+Probab=13.08  E-value=2e+02  Score=10.21  Aligned_cols=5  Identities=40%  Similarity=1.046  Sum_probs=0.0  Template_Neff=5.500
+
+Q QGYQAG            1 QGYQA    5 (6)
+Q Consensus         1 qgyqa    5 (6)
+                      .|||.
+T Consensus        37 ~gYq~   41 (42)
+T 2MOF_A           37 AGYEQ   41 (42)
+T ss_dssp             TTSCC
+T ss_pred             ccccC
+
+

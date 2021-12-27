@@ -1,0 +1,147 @@
+Query         NQQQGN
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 03:43:56 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NQQQGN/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NQQQGN/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6SNE_P Envelope glycoprotein g   8.9 3.3E+02  0.0037   10.2   0.0    6    1-6       3-8   (63)
+  2 3EIE_A Vacuolar protein sortin   8.3 3.7E+02  0.0041   10.6   0.0    4    3-6     319-322 (322)
+  3 6SNE_J Envelope glycoprotein g   8.3 3.7E+02  0.0041   10.1   0.0    6    1-6       3-8   (63)
+  4 2X4J_A HYPOTHETICAL PROTEIN OR   7.6 4.2E+02  0.0046   12.6   0.0    4    1-4       6-9   (137)
+  5 5U6L_A Muscleblind-like protei   7.3 4.4E+02  0.0049    8.7   0.0    5    2-6      79-83  (83)
+  6 4R80_B OR486; Structural Genom   7.0 4.6E+02  0.0051   11.6   0.0    5    2-6      34-38  (85)
+  7 6EOJ_D Protein CFT1, mRNA 3'-e   6.6   5E+02  0.0055   10.5   0.0    4    1-4       5-8   (470)
+  8 5KPH_A De novo Beta Sheet Desi   6.6   5E+02  0.0056   11.5   0.0    5    2-6      34-38  (85)
+  9 5OMT_A NucB; Endonuclease, bio   6.4 5.2E+02  0.0058   10.0   0.0    6    1-6      85-90  (110)
+ 10 5H0N_J HIV-1 gp41 NHR, HIV-1 f   6.3 5.3E+02  0.0059    8.0   0.0    6    1-6      26-31  (31)
+
+No 1
+>6SNE_P Envelope glycoprotein gp160, LN01 light; gp41, antibody, complex, MPER, IMMUNE; HET: PC, NAG; 3.9A {Human immunodeficiency virus 1}
+Probab=8.93  E-value=3.3e+02  Score=10.23  Aligned_cols=6  Identities=67%  Similarity=0.756  Sum_probs=0.0  Template_Neff=5.800
+
+Q NQQQGN            1 NQQQGN    6 (6)
+Q Consensus         1 nqqqgn    6 (6)
+                      |||+.|
+T Consensus         3 ~qqekn    8 (63)
+T 6SNE_P            3 NQQEKN    8 (63)
+T ss_pred             hhHHHH
+
+
+No 2
+>3EIE_A Vacuolar protein sorting-associated protein 4; AAA ATPase  ATP-binding cassette; HET: SO4; 2.7A {Saccharomyces cerevisiae}
+Probab=8.35  E-value=3.7e+02  Score=10.63  Aligned_cols=4  Identities=75%  Similarity=1.232  Sum_probs=0.0  Template_Neff=10.900
+
+Q NQQQGN            3 QQGN    6 (6)
+Q Consensus         3 qqgn    6 (6)
+                      ||||
+T Consensus       319 ~~~~  322 (322)
+T 3EIE_A          319 QEGN  322 (322)
+T ss_dssp             ----
+T ss_pred             ccCC
+
+
+No 3
+>6SNE_J Envelope glycoprotein gp160, LN01 light; gp41, antibody, complex, MPER, IMMUNE; HET: PC, NAG; 3.9A {Human immunodeficiency virus 1}
+Probab=8.32  E-value=3.7e+02  Score=10.12  Aligned_cols=6  Identities=67%  Similarity=0.756  Sum_probs=0.0  Template_Neff=5.800
+
+Q NQQQGN            1 NQQQGN    6 (6)
+Q Consensus         1 nqqqgn    6 (6)
+                      |||+.|
+T Consensus         3 ~qqekn    8 (63)
+T 6SNE_J            3 NQQEKN    8 (63)
+T ss_pred             hhHHHH
+
+
+No 4
+>2X4J_A HYPOTHETICAL PROTEIN ORF137; VIRAL PROTEIN; 1.62A {PYROBACULUM SPHERICAL VIRUS}
+Probab=7.59  E-value=4.2e+02  Score=12.58  Aligned_cols=4  Identities=100%  Similarity=0.991  Sum_probs=0.0  Template_Neff=1.000
+
+Q NQQQGN            1 NQQQ    4 (6)
+Q Consensus         1 nqqq    4 (6)
+                      ||||
+T Consensus         6 nqqq    9 (137)
+T 2X4J_A            6 NQQQ    9 (137)
+T ss_dssp             ----
+T ss_pred             cchh
+
+
+No 5
+>5U6L_A Muscleblind-like protein 1; Zinc fingers RNA-binding, Structure from; HET: ZN; NMR {Homo sapiens}
+Probab=7.29  E-value=4.4e+02  Score=8.71  Aligned_cols=5  Identities=60%  Similarity=0.282  Sum_probs=0.0  Template_Neff=9.600
+
+Q NQQQGN            2 QQQGN    6 (6)
+Q Consensus         2 qqqgn    6 (6)
+                      |+|.|
+T Consensus        79 q~~~~   83 (83)
+T 5U6L_A           79 QYQVN   83 (83)
+T ss_pred             HHhhC
+
+
+No 6
+>4R80_B OR486; Structural Genomics, PSI-Biology, Protein Structure; 2.445A {synthetic construct}
+Probab=7.03  E-value=4.6e+02  Score=11.64  Aligned_cols=5  Identities=80%  Similarity=1.152  Sum_probs=0.0  Template_Neff=1.000
+
+Q NQQQGN            2 QQQGN    6 (6)
+Q Consensus         2 qqqgn    6 (6)
+                      |.|||
+T Consensus        34 qkqgn   38 (85)
+T 4R80_B           34 QKQGN   38 (85)
+T ss_dssp             EEETT
+T ss_pred             eecCC
+
+
+No 7
+>6EOJ_D Protein CFT1, mRNA 3'-end-processing protein; WD40, Beta-propeller, Zinc finger, 3'end; 3.55A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=6.63  E-value=5e+02  Score=10.49  Aligned_cols=4  Identities=75%  Similarity=0.825  Sum_probs=0.0  Template_Neff=11.800
+
+Q NQQQGN            1 NQQQ    4 (6)
+Q Consensus         1 nqqq    4 (6)
+                      +|||
+T Consensus         5 ~qqq    8 (470)
+T 6EOJ_D            5 NQNQ    8 (470)
+T ss_dssp             ----
+T ss_pred             HHHH
+
+
+No 8
+>5KPH_A De novo Beta Sheet Design; Structural Genomics, PSI-Biology, Northeast Structural; NMR {synthetic construct}
+Probab=6.55  E-value=5e+02  Score=11.52  Aligned_cols=5  Identities=80%  Similarity=1.152  Sum_probs=0.0  Template_Neff=1.000
+
+Q NQQQGN            2 QQQGN    6 (6)
+Q Consensus         2 qqqgn    6 (6)
+                      |.|||
+T Consensus        34 qkqgn   38 (85)
+T 5KPH_A           34 QKQGN   38 (85)
+T ss_dssp             EEETT
+T ss_pred             eecCC
+
+
+No 9
+>5OMT_A NucB; Endonuclease, biofilm, Bacillus subtilis, DNA; 1.35A {Bacillus licheniformis}
+Probab=6.39  E-value=5.2e+02  Score=9.96  Aligned_cols=6  Identities=33%  Similarity=0.645  Sum_probs=0.0  Template_Neff=7.500
+
+Q NQQQGN            1 NQQQGN    6 (6)
+Q Consensus         1 nqqqgn    6 (6)
+                      |+.||.
+T Consensus        85 N~~~G~   90 (110)
+T 5OMT_A           85 NRGAGS   90 (110)
+T ss_dssp             HHHHHH
+T ss_pred             HhhhhH
+
+
+No 10
+>5H0N_J HIV-1 gp41 NHR, HIV-1 fusion; MT-WQ-IDL, HIV-1, fusion inhibitor, VIRAL; 2.8A {N/A}
+Probab=6.31  E-value=5.3e+02  Score=8.00  Aligned_cols=6  Identities=50%  Similarity=0.246  Sum_probs=0.0  Template_Neff=6.900
+
+Q NQQQGN            1 NQQQGN    6 (6)
+Q Consensus         1 nqqqgn    6 (6)
+                      +||.-|
+T Consensus        26 ~qqekn   31 (31)
+T 5H0N_J           26 NQQIDL   31 (31)
+T ss_dssp             HTCCCC
+T ss_pred             HhHhhC
+
+

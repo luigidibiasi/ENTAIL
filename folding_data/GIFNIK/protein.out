@@ -1,0 +1,152 @@
+Query         GIFNIK
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 01:15:34 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GIFNIK/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GIFNIK/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6YRQ_C Envelope polyprotein,En  50.4      14 0.00016   17.3   0.0    6    1-6      25-30  (149)
+  2 6YRQ_D Envelope polyprotein,En  49.5      15 0.00017   17.2   0.0    6    1-6      25-30  (149)
+  3 1HML_A ALPHA LACTALBUMIN (E.C.  19.9   1E+02  0.0011   12.3   0.0    6    1-6      70-75  (142)
+  4 1EWS_A RK-1 DEFENSIN; alpha de  19.9   1E+02  0.0011   11.7   0.0    6    1-6      20-25  (32)
+  5 4YF2_A Sperm Lysozyme-like Pro  19.9   1E+02  0.0011   12.6   0.0    5    1-5      56-60  (138)
+  6 2FBD_A Lysozyme 1 (E.C.3.2.1.1  19.4 1.1E+02  0.0012   12.0   0.0    6    1-6      52-57  (122)
+  7 2H5Z_B Lysozyme 1 (E.C.3.2.1.1  19.4 1.1E+02  0.0012   12.0   0.0    6    1-6      52-57  (122)
+  8 1IIZ_A LYSOZYME; HYDROLASE; 2.  19.2 1.1E+02  0.0012   11.7   0.0    6    1-6      52-57  (120)
+  9 2EQL_A LYSOZYME (APO FORM); HY  17.8 1.2E+02  0.0014   11.9   0.0    5    1-5      55-59  (129)
+ 10 5IFG_A mRNA interferase HigB (  17.7 1.2E+02  0.0014   12.1   0.0    5    2-6      59-63  (104)
+
+No 1
+>6YRQ_C Envelope polyprotein,Envelope polyprotein; class-II fusion protein hantavirus bunyavirus; HET: BMA, MPD, NAG; 1.902A {Drosophila melanogaster}
+Probab=50.36  E-value=14  Score=17.28  Aligned_cols=6  Identities=83%  Similarity=1.414  Sum_probs=4.4  Template_Neff=1.900
+
+Q GIFNIK            1 GIFNIK    6 (6)
+Q Consensus         1 gifnik    6 (6)
+                      |||||.
+T Consensus        25 GIfnis   30 (149)
+T 6YRQ_C           25 GIFNIS   30 (149)
+T ss_dssp             EECCEE
+T ss_pred             Cceeec
+Confidence            688873
+
+
+No 2
+>6YRQ_D Envelope polyprotein,Envelope polyprotein; class-II fusion protein hantavirus bunyavirus; HET: NAG, BMA, MPD; 1.902A {Drosophila melanogaster}
+Probab=49.55  E-value=15  Score=17.23  Aligned_cols=6  Identities=83%  Similarity=1.414  Sum_probs=4.4  Template_Neff=1.800
+
+Q GIFNIK            1 GIFNIK    6 (6)
+Q Consensus         1 gifnik    6 (6)
+                      |||||.
+T Consensus        25 GIfnis   30 (149)
+T 6YRQ_D           25 GIFNIS   30 (149)
+T ss_dssp             CCCEEE
+T ss_pred             Cceeec
+Confidence            688873
+
+
+No 3
+>1HML_A ALPHA LACTALBUMIN (E.C.2.4.1.22) COMPLEXED WITH; CALCIUM-BINDING PROTEIN; 1.7A {Homo sapiens} SCOP: d.2.1.2
+Probab=19.95  E-value=1e+02  Score=12.34  Aligned_cols=6  Identities=50%  Similarity=1.176  Sum_probs=0.0  Template_Neff=7.500
+
+Q GIFNIK            1 GIFNIK    6 (6)
+Q Consensus         1 gifnik    6 (6)
+                      |||.|.
+T Consensus        70 GlfQIn   75 (142)
+T 1HML_A           70 GLFQIS   75 (142)
+T ss_dssp             TTTTEE
+T ss_pred             eeeEec
+
+
+No 4
+>1EWS_A RK-1 DEFENSIN; alpha defensin, triple-stranded beta-sheet, ANTIMICROBIAL; NMR {Oryctolagus cuniculus} SCOP: g.9.1.1
+Probab=19.93  E-value=1e+02  Score=11.69  Aligned_cols=6  Identities=67%  Similarity=1.198  Sum_probs=0.0  Template_Neff=1.000
+
+Q GIFNIK            1 GIFNIK    6 (6)
+Q Consensus         1 gifnik    6 (6)
+                      |.||-|
+T Consensus        20 glfnsk   25 (32)
+T 1EWS_A           20 GLFNSK   25 (32)
+T ss_dssp             SSSSCS
+T ss_pred             ccccCc
+
+
+No 5
+>4YF2_A Sperm Lysozyme-like Protein 1; CELL ADHESION, SUGAR BINDING PROTEIN; 2.15A {Mus musculus}
+Probab=19.91  E-value=1e+02  Score=12.63  Aligned_cols=5  Identities=80%  Similarity=1.484  Sum_probs=0.0  Template_Neff=6.800
+
+Q GIFNIK            1 GIFNI    5 (6)
+Q Consensus         1 gifni    5 (6)
+                      |||.|
+T Consensus        56 GLFQI   60 (138)
+T 4YF2_A           56 GIFQI   60 (138)
+T ss_dssp             TTTTE
+T ss_pred             eeeEe
+
+
+No 6
+>2FBD_A Lysozyme 1 (E.C.3.2.1.17); Digestive Lysozime, Musca domestica, HYDROLASE; HET: SO4, PEG; 1.9A {Musca domestica}
+Probab=19.40  E-value=1.1e+02  Score=12.00  Aligned_cols=6  Identities=67%  Similarity=1.281  Sum_probs=0.0  Template_Neff=7.500
+
+Q GIFNIK            1 GIFNIK    6 (6)
+Q Consensus         1 gifnik    6 (6)
+                      |||.|.
+T Consensus        52 GlfQIn   57 (122)
+T 2FBD_A           52 GIFQIN   57 (122)
+T ss_dssp             TTTTEE
+T ss_pred             EeEEec
+
+
+No 7
+>2H5Z_B Lysozyme 1 (E.C.3.2.1.17); Lysozyme, ligant, Musca domestica, Hydrolase; HET: NAG; 1.92A {Musca domestica}
+Probab=19.40  E-value=1.1e+02  Score=12.00  Aligned_cols=6  Identities=67%  Similarity=1.281  Sum_probs=0.0  Template_Neff=7.500
+
+Q GIFNIK            1 GIFNIK    6 (6)
+Q Consensus         1 gifnik    6 (6)
+                      |||.|.
+T Consensus        52 GlfQIn   57 (122)
+T 2H5Z_B           52 GIFQIN   57 (122)
+T ss_dssp             TTTTEE
+T ss_pred             EeEEec
+
+
+No 8
+>1IIZ_A LYSOZYME; HYDROLASE; 2.4A {Antheraea mylitta} SCOP: d.2.1.2
+Probab=19.24  E-value=1.1e+02  Score=11.71  Aligned_cols=6  Identities=50%  Similarity=1.215  Sum_probs=0.0  Template_Neff=8.000
+
+Q GIFNIK            1 GIFNIK    6 (6)
+Q Consensus         1 gifnik    6 (6)
+                      |||.|.
+T Consensus        52 GlfQIn   57 (120)
+T 1IIZ_A           52 GLFQIN   57 (120)
+T ss_dssp             TTTTEE
+T ss_pred             Eeeeec
+
+
+No 9
+>2EQL_A LYSOZYME (APO FORM); HYDROLASE(O-GLYCOSYL); 2.5A {Equus caballus} SCOP: d.2.1.2
+Probab=17.80  E-value=1.2e+02  Score=11.95  Aligned_cols=5  Identities=40%  Similarity=1.325  Sum_probs=0.0  Template_Neff=7.500
+
+Q GIFNIK            1 GIFNI    5 (6)
+Q Consensus         1 gifni    5 (6)
+                      |||.|
+T Consensus        55 GlfQI   59 (129)
+T 2EQL_A           55 GLFQL   59 (129)
+T ss_dssp             TTTTE
+T ss_pred             Eeeec
+
+
+No 10
+>5IFG_A mRNA interferase HigB (E.C.3.1.-.-), Antitoxin; mRNA interferase, HYDROLASE-ANTITOXIN complex; HET: MSE; 2.702A {Escherichia coli (strain K12)}
+Probab=17.68  E-value=1.2e+02  Score=12.05  Aligned_cols=5  Identities=40%  Similarity=1.059  Sum_probs=0.0  Template_Neff=6.400
+
+Q GIFNIK            2 IFNIK    6 (6)
+Q Consensus         2 ifnik    6 (6)
+                      +|||+
+T Consensus        59 vFnI~   63 (104)
+T 5IFG_A           59 VFNVG   63 (104)
+T ss_dssp             EEEET
+T ss_pred             EEEec
+
+

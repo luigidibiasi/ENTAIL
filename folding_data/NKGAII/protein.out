@@ -1,0 +1,142 @@
+Query         NKGAII
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 01:38:59 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NKGAII/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NKGAII/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2X5X_A PHB DEPOLYMERASE PHAZ7;  20.9      95  0.0011   13.6   0.0    6    1-6     312-317 (342)
+  2 6FEC_o Eukaryotic translation   19.4 1.1E+02  0.0012   14.1   0.0    5    2-6      97-101 (206)
+  3 5T2A_5 eL18, uL16, uL5, eL13,   19.2 1.1E+02  0.0012   14.4   0.0    5    2-6      98-102 (220)
+  4 3JBO_L PROTEIN/RNA Complex; RI  19.2 1.1E+02  0.0012   14.2   0.0    5    2-6      94-98  (214)
+  5 6XU7_AI Specialised ribosome,   18.3 1.2E+02  0.0013   14.1   0.0    5    2-6      97-101 (207)
+  6 6XU8_AI Specialised ribosome,   18.3 1.2E+02  0.0013   14.1   0.0    5    2-6      97-101 (207)
+  7 5TGM_s8 ?; ribosome, translati  16.6 1.4E+02  0.0015   13.6   0.0    5    2-6      97-101 (188)
+  8 4BTS_D2 TRANSLATION INITIATION  15.5 1.5E+02  0.0017   13.8   0.0    5    2-6     106-110 (208)
+  9 5JPQ_t WD40 domain proteins, U  15.5 1.5E+02  0.0017   13.8   0.0    5    2-6     106-110 (208)
+ 10 5TBW_s8 ?; Protein translation  15.3 1.6E+02  0.0017   13.6   0.0    5    2-6      97-101 (199)
+
+No 1
+>2X5X_A PHB DEPOLYMERASE PHAZ7; BIOPOLYMERS, OXYANION HOLE, HYDROLASE, BIODEGRADATION; HET: PG4; 1.2A {PAUCIMONAS LEMOIGNEI}
+Probab=20.87  E-value=95  Score=13.64  Aligned_cols=6  Identities=83%  Similarity=1.160  Sum_probs=3.1  Template_Neff=8.400
+
+Q NKGAII            1 NKGAII    6 (6)
+Q Consensus         1 nkgaii    6 (6)
+                      |.|+||
+T Consensus       312 ~~~~~~  317 (342)
+T 2X5X_A          312 NTGAII  317 (342)
+T ss_dssp             TCHHHH
+T ss_pred             cccHHH
+Confidence            445654
+
+
+No 2
+>6FEC_o Eukaryotic translation initiation factor 3; Translation initiation, 48S complex, capped; 6.3A {Homo sapiens}
+Probab=19.37  E-value=1.1e+02  Score=14.13  Aligned_cols=5  Identities=40%  Similarity=0.747  Sum_probs=0.0  Template_Neff=5.100
+
+Q NKGAII            2 KGAII    6 (6)
+Q Consensus         2 kgaii    6 (6)
+                      |||||
+T Consensus        97 KgaIV  101 (206)
+T 6FEC_o           97 KNCIV  101 (206)
+T ss_pred             eeeEE
+
+
+No 3
+>5T2A_5 eL18, uL16, uL5, eL13, uL13; ribosome, Leishmania donovani; 2.9A {Leishmania donovani}
+Probab=19.22  E-value=1.1e+02  Score=14.37  Aligned_cols=5  Identities=40%  Similarity=0.747  Sum_probs=0.0  Template_Neff=4.800
+
+Q NKGAII            2 KGAII    6 (6)
+Q Consensus         2 kgaii    6 (6)
+                      |||||
+T Consensus        98 KgaII  102 (220)
+T 5T2A_5           98 KNCIV  102 (220)
+T ss_pred             cccEE
+
+
+No 4
+>3JBO_L PROTEIN/RNA Complex; RIBOSOME; 5.8A {Plasmodium falciparum 3D7}
+Probab=19.18  E-value=1.1e+02  Score=14.18  Aligned_cols=5  Identities=40%  Similarity=0.747  Sum_probs=0.0  Template_Neff=5.100
+
+Q NKGAII            2 KGAII    6 (6)
+Q Consensus         2 kgaii    6 (6)
+                      |||||
+T Consensus        94 KgaIV   98 (214)
+T 3JBO_L           94 KNCIV   98 (214)
+T ss_pred             eceEE
+
+
+No 5
+>6XU7_AI Specialised ribosome, Drosophila melanogaster, Testis; 4.9A {Drosophila melanogaster}
+Probab=18.31  E-value=1.2e+02  Score=14.11  Aligned_cols=5  Identities=40%  Similarity=0.787  Sum_probs=0.0  Template_Neff=4.900
+
+Q NKGAII            2 KGAII    6 (6)
+Q Consensus         2 kgaii    6 (6)
+                      |||||
+T Consensus        97 KgaII  101 (207)
+T 6XU7_AI          97 KNSIV  101 (207)
+T ss_pred             cceEE
+
+
+No 6
+>6XU8_AI Specialised ribosome, Drosophila melanogaster, Ovary; 3.0A {Drosophila melanogaster}
+Probab=18.31  E-value=1.2e+02  Score=14.11  Aligned_cols=5  Identities=40%  Similarity=0.787  Sum_probs=0.0  Template_Neff=4.900
+
+Q NKGAII            2 KGAII    6 (6)
+Q Consensus         2 kgaii    6 (6)
+                      |||||
+T Consensus        97 KgaII  101 (207)
+T 6XU8_AI          97 KNSIV  101 (207)
+T ss_pred             cceEE
+
+
+No 7
+>5TGM_s8 ?; ribosome, translation, protein synthesis, proline; HET: ZN, PHE, OHX, 8AN, MG, LEU, SPS; 3.5A {Saccharomyces cerevisiae}
+Probab=16.60  E-value=1.4e+02  Score=13.64  Aligned_cols=5  Identities=60%  Similarity=0.880  Sum_probs=0.0  Template_Neff=5.100
+
+Q NKGAII            2 KGAII    6 (6)
+Q Consensus         2 kgaii    6 (6)
+                      |||||
+T Consensus        97 KgaIV  101 (188)
+T 5TGM_s8          97 KAAIV  101 (188)
+T ss_pred             eceEE
+
+
+No 8
+>4BTS_D2 TRANSLATION INITIATION FACTOR EIF-1A FAMILY; RIBOSOME, TRANSLATION, TRANSLATION INITIATION, SMALL; HET: MG, ZN; 3.703A {TETRAHYMENA THERMOPHILA}
+Probab=15.52  E-value=1.5e+02  Score=13.82  Aligned_cols=5  Identities=40%  Similarity=0.787  Sum_probs=0.0  Template_Neff=4.800
+
+Q NKGAII            2 KGAII    6 (6)
+Q Consensus         2 kgaii    6 (6)
+                      |||||
+T Consensus       106 KgaIV  110 (208)
+T 4BTS_D2         106 KNSIV  110 (208)
+T ss_pred             cccEE
+
+
+No 9
+>5JPQ_t WD40 domain proteins, UTP10, UTP-A; nuclear RNP, Ribosome; 7.3A {Chaetomium thermophilum}
+Probab=15.52  E-value=1.5e+02  Score=13.82  Aligned_cols=5  Identities=40%  Similarity=0.787  Sum_probs=0.0  Template_Neff=4.800
+
+Q NKGAII            2 KGAII    6 (6)
+Q Consensus         2 kgaii    6 (6)
+                      |||||
+T Consensus       106 KgaIV  110 (208)
+T 5JPQ_t          106 KNSIV  110 (208)
+T ss_pred             cccEE
+
+
+No 10
+>5TBW_s8 ?; Protein translation inhibitor, complex, ribosome; HET: OHX, 7AL, MG, ZN; 3.0A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=15.32  E-value=1.6e+02  Score=13.63  Aligned_cols=5  Identities=60%  Similarity=0.880  Sum_probs=0.0  Template_Neff=5.000
+
+Q NKGAII            2 KGAII    6 (6)
+Q Consensus         2 kgaii    6 (6)
+                      |||||
+T Consensus        97 KgaIV  101 (199)
+T 5TBW_s8          97 KAAIV  101 (199)
+T ss_pred             ceeEE
+
+

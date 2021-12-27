@@ -1,0 +1,147 @@
+Query         HYFNIF
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 07:27:26 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/HYFNIF/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/HYFNIF/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 7ANE_p mL94, mL89, Ribosomal p  43.1      22 0.00025   18.3   0.0    6    1-6     111-116 (321)
+  2 6SGA_Cb ?; mitochondrial ribos  41.3      25 0.00028   18.0   0.0    6    1-6     111-116 (311)
+  3 7AOR_p mL94, mL89, Ribosomal p  41.2      25 0.00028   18.0   0.0    6    1-6     111-116 (308)
+  4 5WLB_B GTPase KRas, 225-15 a,   19.8   1E+02  0.0012   11.4   0.0    6    1-6      27-32  (34)
+  5 2K76_A pGolemi; protein design  19.7   1E+02  0.0012   11.2   0.0    5    1-5      25-29  (30)
+  6 4V88_BU Translation, ribosome,  19.3 1.1E+02  0.0012   13.1   0.0    5    1-5     106-110 (121)
+  7 5XXB_T uL2, uL3, uL4, uL18, eL  19.2 1.1E+02  0.0012   13.5   0.0    5    1-5     121-125 (133)
+  8 1V1D_A PANCREATIC HORMONE; HOR  18.2 1.2E+02  0.0013   11.2   0.0    5    1-5      26-30  (31)
+  9 4NPC_B Sorbitol dehydrogenase;  17.7 1.2E+02  0.0014   11.0   0.0    6    1-6       4-9   (265)
+ 10 3NV0_A Nuclear RNA export fact  17.4 1.3E+02  0.0014   12.3   0.0    6    1-6      22-27  (205)
+
+No 1
+>7ANE_p mL94, mL89, Ribosomal protein L3-like; Ribosome, Mitochondria, Kinetoplastid; HET: NAD; 3.9A {Leishmania major}
+Probab=43.07  E-value=22  Score=18.26  Aligned_cols=6  Identities=50%  Similarity=1.519  Sum_probs=4.6  Template_Neff=1.900
+
+Q HYFNIF            1 HYFNIF    6 (6)
+Q Consensus         1 hyfnif    6 (6)
+                      .|+|||
+T Consensus       111 RYyNIF  116 (321)
+T 7ANE_p          111 RYYNVF  116 (321)
+T ss_pred             cceeEE
+Confidence            388887
+
+
+No 2
+>6SGA_Cb ?; mitochondrial ribosome, assembly intermediate, translation; HET: UBD, PM8; 3.1A {Trypanosoma brucei brucei}
+Probab=41.33  E-value=25  Score=18.05  Aligned_cols=6  Identities=67%  Similarity=1.569  Sum_probs=4.6  Template_Neff=1.900
+
+Q HYFNIF            1 HYFNIF    6 (6)
+Q Consensus         1 hyfnif    6 (6)
+                      .|+|||
+T Consensus       111 RYyNIF  116 (311)
+T 6SGA_Cb         111 RYYNIF  116 (311)
+T ss_pred             cceeEE
+Confidence            378887
+
+
+No 3
+>7AOR_p mL94, mL89, Ribosomal protein L3-like; Ribosome, Mitochondria, Kinetoplastid; HET: GTP, UTP;{Trypanosoma cruzi (strain CL Brener)}
+Probab=41.18  E-value=25  Score=18.01  Aligned_cols=6  Identities=67%  Similarity=1.569  Sum_probs=4.6  Template_Neff=1.900
+
+Q HYFNIF            1 HYFNIF    6 (6)
+Q Consensus         1 hyfnif    6 (6)
+                      .|+|||
+T Consensus       111 RYyNIF  116 (308)
+T 7AOR_p          111 RYYNIF  116 (308)
+T ss_pred             cceeEE
+Confidence            378887
+
+
+No 4
+>5WLB_B GTPase KRas, 225-15 a, 225-15; Ras binders, GTP Binding Protein; HET: SO4, PG4, GNP; 1.72A {Homo sapiens}
+Probab=19.76  E-value=1e+02  Score=11.44  Aligned_cols=6  Identities=17%  Similarity=0.406  Sum_probs=0.0  Template_Neff=3.000
+
+Q HYFNIF            1 HYFNIF    6 (6)
+Q Consensus         1 hyfnif    6 (6)
+                      ||.|..
+T Consensus        27 ~YiNli   32 (34)
+T 5WLB_B           27 NYLYRV   32 (34)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHhh
+
+
+No 5
+>2K76_A pGolemi; protein design, miniature protein, aPP; NMR {N/A}
+Probab=19.73  E-value=1e+02  Score=11.16  Aligned_cols=5  Identities=40%  Similarity=1.192  Sum_probs=0.0  Template_Neff=3.100
+
+Q HYFNIF            1 HYFNI    5 (6)
+Q Consensus         1 hyfni    5 (6)
+                      ||.|.
+T Consensus        25 hYiNl   29 (30)
+T 2K76_A           25 QYLNV   29 (30)
+T ss_dssp             HHHHH
+T ss_pred             HHHhc
+
+
+No 6
+>4V88_BU Translation, ribosome, 40S, 60S, 80S; HET: MG, ZN, OHX; 3.0A {Saccharomyces cerevisiae}
+Probab=19.30  E-value=1.1e+02  Score=13.14  Aligned_cols=5  Identities=0%  Similarity=0.879  Sum_probs=0.0  Template_Neff=5.000
+
+Q HYFNIF            1 HYFNI    5 (6)
+Q Consensus         1 hyfni    5 (6)
+                      .||||
+T Consensus       106 rYfni  110 (121)
+T 4V88_BU         106 AFYQV  110 (121)
+T ss_pred             Eeeec
+
+
+No 7
+>5XXB_T uL2, uL3, uL4, uL18, eL6; parasitic ribosome, rRNA, rproteins, RIBOSOME; 3.17A {Toxoplasma gondii}
+Probab=19.19  E-value=1.1e+02  Score=13.49  Aligned_cols=5  Identities=40%  Similarity=1.238  Sum_probs=0.0  Template_Neff=4.600
+
+Q HYFNIF            1 HYFNI    5 (6)
+Q Consensus         1 hyfni    5 (6)
+                      .||||
+T Consensus       121 rYfni  125 (133)
+T 5XXB_T          121 RYFQM  125 (133)
+T ss_pred             Eeeec
+
+
+No 8
+>1V1D_A PANCREATIC HORMONE; HORMONE, CLEAVAGE ON PAIR OF; NMR {N/A} SCOP: j.6.1.1
+Probab=18.25  E-value=1.2e+02  Score=11.17  Aligned_cols=5  Identities=40%  Similarity=1.045  Sum_probs=0.0  Template_Neff=2.800
+
+Q HYFNIF            1 HYFNI    5 (6)
+Q Consensus         1 hyfni    5 (6)
+                      ||.|.
+T Consensus        26 hYiNl   30 (31)
+T 1V1D_A           26 RYINM   30 (31)
+T ss_pred             HHHhc
+
+
+No 9
+>4NPC_B Sorbitol dehydrogenase; Structural Genomics, Seattle Structural Genomics; 1.75A {Brucella suis}
+Probab=17.75  E-value=1.2e+02  Score=11.03  Aligned_cols=6  Identities=17%  Similarity=0.240  Sum_probs=0.0  Template_Neff=11.800
+
+Q HYFNIF            1 HYFNIF    6 (6)
+Q Consensus         1 hyfnif    6 (6)
+                      |.||+|
+T Consensus         4 ~~~~~~    9 (265)
+T 4NPC_B            4 HHHHHM    9 (265)
+T ss_dssp             ------
+T ss_pred             CCCcCC
+
+
+No 10
+>3NV0_A Nuclear RNA export factor 2; NTF2-LIKE DOMAIN, BETA SHEET HETERODIMER; HET: PEG, NA; 1.84A {Caenorhabditis elegans}
+Probab=17.42  E-value=1.3e+02  Score=12.27  Aligned_cols=6  Identities=33%  Similarity=1.248  Sum_probs=0.0  Template_Neff=8.500
+
+Q HYFNIF            1 HYFNIF    6 (6)
+Q Consensus         1 hyfnif    6 (6)
+                      +||++|
+T Consensus        22 ~Yy~~f   27 (205)
+T 3NV0_A           22 TYYKIY   27 (205)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHh
+
+

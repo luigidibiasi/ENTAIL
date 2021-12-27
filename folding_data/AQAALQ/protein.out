@@ -1,0 +1,153 @@
+Query         AQAALQ
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 15:15:57 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/AQAALQ/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/AQAALQ/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6N3A_J TAR DNA-binding protein  69.4     3.9 4.3E-05   16.4   0.0    6    1-6      16-21  (50)
+  2 6N3C_D TAR DNA-binding protein  41.1      25 0.00028   13.7   0.0    6    1-6      41-46  (46)
+  3 6E6N_A Pheromone from Euplotes  29.4      52 0.00057   12.7   0.0    6    1-6       4-9   (38)
+  4 5ET3_B Fullerene Organizing Pr  13.4 1.9E+02  0.0021   10.9   0.0    6    1-6      17-22  (30)
+  5 5HKR_A fullerene organizing pr  13.4 1.9E+02  0.0021   10.9   0.0    6    1-6      17-22  (30)
+  6 4QI1_C Bacteriorhodopsin-I; Ba  11.9 2.3E+02  0.0025   12.3   0.0    6    1-6       2-7   (262)
+  7 4QID_B Bacteriorhodopsin; Bact  11.9 2.3E+02  0.0025   12.3   0.0    6    1-6       2-7   (262)
+  8 5UAZ_A Nucleoporin NUP53; nucl   7.6 4.2E+02  0.0046   10.3   0.0    6    1-6      80-85  (111)
+  9 2M3K_A Minor pilin ComP; DNA u   7.4 4.3E+02  0.0048   10.3   0.0    6    1-6      12-17  (119)
+ 10 1T23_A Chromosomal protein MC1   7.1 4.6E+02  0.0051   11.5   0.0    4    2-5      26-29  (93)
+
+No 1
+>6N3A_J TAR DNA-binding protein 43, segA; Amyloid, TDP43, ALS, FTLD-TDP, dna; 3.3A {Homo sapiens}
+Probab=69.42  E-value=3.9  Score=16.40  Aligned_cols=6  Identities=100%  Similarity=0.922  Sum_probs=4.1  Template_Neff=2.200
+
+Q AQAALQ            1 AQAALQ    6 (6)
+Q Consensus         1 aqaalq    6 (6)
+                      ||||||
+T Consensus        16 AqaaLq   21 (50)
+T 6N3A_J           16 AQAALQ   21 (50)
+T ss_dssp             SSEEEE
+T ss_pred             HHHHHH
+Confidence            577775
+
+
+No 2
+>6N3C_D TAR DNA-binding protein 43; Amyloid, TDP43, ALS, FTLD-TDP, dna; 3.3A {Homo sapiens}
+Probab=41.09  E-value=25  Score=13.72  Aligned_cols=6  Identities=100%  Similarity=0.922  Sum_probs=0.0  Template_Neff=3.000
+
+Q AQAALQ            1 AQAALQ    6 (6)
+Q Consensus         1 aqaalq    6 (6)
+                      ||++||
+T Consensus        41 Al~~lq   46 (46)
+T 6N3C_D           41 AQAALQ   46 (46)
+T ss_dssp             ------
+T ss_pred             HHHHhC
+Confidence            355555
+
+
+No 3
+>6E6N_A Pheromone from Euplotes raikovi Er-13; PHEROMONE, SIGNALING PROTEIN; 1.363A {Euplotes raikovi}
+Probab=29.44  E-value=52  Score=12.74  Aligned_cols=6  Identities=67%  Similarity=0.357  Sum_probs=3.5  Template_Neff=2.000
+
+Q AQAALQ            1 AQAALQ    6 (6)
+Q Consensus         1 aqaalq    6 (6)
+                      +|||+|
+T Consensus         4 eqAa~q    9 (38)
+T 6E6N_A            4 AIAAQQ    9 (38)
+T ss_dssp             HHHHHT
+T ss_pred             HHHHHH
+Confidence            366665
+
+
+No 4
+>5ET3_B Fullerene Organizing Protein (C60Sol-COP-3); de novo protein, fullerene, complex; HET: 60C; 1.671A {N/A}
+Probab=13.40  E-value=1.9e+02  Score=10.86  Aligned_cols=6  Identities=83%  Similarity=0.722  Sum_probs=0.0  Template_Neff=1.000
+
+Q AQAALQ            1 AQAALQ    6 (6)
+Q Consensus         1 aqaalq    6 (6)
+                      ||-+||
+T Consensus        17 aqlalq   22 (30)
+T 5ET3_B           17 AQLALQ   22 (30)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 5
+>5HKR_A fullerene organizing protein; Fullerene protein complex, De novo; HET: 60C; 2.35A {N/A}
+Probab=13.40  E-value=1.9e+02  Score=10.86  Aligned_cols=6  Identities=83%  Similarity=0.722  Sum_probs=0.0  Template_Neff=1.000
+
+Q AQAALQ            1 AQAALQ    6 (6)
+Q Consensus         1 aqaalq    6 (6)
+                      ||-+||
+T Consensus        17 aqlalq   22 (30)
+T 5HKR_A           17 AQLALQ   22 (30)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 6
+>4QI1_C Bacteriorhodopsin-I; Bacteriorhodopsin, proton pump, Membrane, MEMBRANE; HET: RET, MPG; 1.85A {Haloquadratum walsbyi}
+Probab=11.86  E-value=2.3e+02  Score=12.32  Aligned_cols=6  Identities=83%  Similarity=0.722  Sum_probs=0.0  Template_Neff=7.900
+
+Q AQAALQ            1 AQAALQ    6 (6)
+Q Consensus         1 aqaalq    6 (6)
+                      ||-|||
+T Consensus         2 ~~~~~~    7 (262)
+T 4QI1_C            2 AQLALQ    7 (262)
+T ss_dssp             ------
+T ss_pred             cchhhh
+
+
+No 7
+>4QID_B Bacteriorhodopsin; Bacteriorhodopsin, proton pump, membrane, MEMBRANE; HET: RET, MPG; 2.57A {Haloquadratum walsbyi}
+Probab=11.86  E-value=2.3e+02  Score=12.32  Aligned_cols=6  Identities=83%  Similarity=0.722  Sum_probs=0.0  Template_Neff=7.900
+
+Q AQAALQ            1 AQAALQ    6 (6)
+Q Consensus         1 aqaalq    6 (6)
+                      ||-|||
+T Consensus         2 ~~~~~~    7 (262)
+T 4QID_B            2 AQLALQ    7 (262)
+T ss_dssp             ------
+T ss_pred             cchhhh
+
+
+No 8
+>5UAZ_A Nucleoporin NUP53; nucleoporin, Nuclear Pore Complex, nucleocytoplasmic; HET: EDO; 1.753A {Saccharomyces cerevisiae}
+Probab=7.58  E-value=4.2e+02  Score=10.29  Aligned_cols=6  Identities=50%  Similarity=0.462  Sum_probs=0.0  Template_Neff=7.400
+
+Q AQAALQ            1 AQAALQ    6 (6)
+Q Consensus         1 aqaalq    6 (6)
+                      |+.||+
+T Consensus        80 A~~Al~   85 (111)
+T 5UAZ_A           80 KSRALQ   85 (111)
+T ss_dssp             HHHHHT
+T ss_pred             HHHHHH
+
+
+No 9
+>2M3K_A Minor pilin ComP; DNA uptake, MOTOR PROTEIN; NMR {Neisseria meningitidis}
+Probab=7.41  E-value=4.3e+02  Score=10.33  Aligned_cols=6  Identities=50%  Similarity=0.490  Sum_probs=0.0  Template_Neff=7.500
+
+Q AQAALQ            1 AQAALQ    6 (6)
+Q Consensus         1 aqaalq    6 (6)
+                      ||++|.
+T Consensus        12 A~a~L~   17 (119)
+T 2M3K_A           12 VRAALL   17 (119)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 10
+>1T23_A Chromosomal protein MC1; alpha/beta barrel, DNA BINDING PROTEIN; NMR {Methanosarcina thermophila} SCOP: d.247.1.1
+Probab=7.06  E-value=4.6e+02  Score=11.53  Aligned_cols=4  Identities=100%  Similarity=0.958  Sum_probs=0.0  Template_Neff=3.100
+
+Q AQAALQ            2 QAAL    5 (6)
+Q Consensus         2 qaal    5 (6)
+                      ||||
+T Consensus        26 qAAl   29 (93)
+T 1T23_A           26 QAAL   29 (93)
+T ss_dssp             HHHH
+T ss_pred             HHHH
+
+

@@ -1,0 +1,149 @@
+Query         QGFNNQ
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 07:38:55 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QGFNNQ/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QGFNNQ/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4MXW_D Tumor necrosis factor r  36.7      33 0.00036   14.8   0.0    6    1-6       9-14  (210)
+  2 5AOV_A GLYOXYLATE REDUCTASE (E  19.0 1.1E+02  0.0012   13.0   0.0    5    2-6     332-336 (336)
+  3 3K1T_A Glutamate--cysteine lig  15.4 1.5E+02  0.0017   15.5   0.0    4    2-5      68-71  (432)
+  4 2PQR_C Mitochondria fission 1   14.4 1.7E+02  0.0019   11.3   0.0    4    1-4      52-55  (64)
+  5 2PQR_D Mitochondria fission 1   14.2 1.7E+02  0.0019   11.3   0.0    4    1-4      52-55  (64)
+  6 5VRQ_A Ankyrin repeats; bacter  12.6 2.1E+02  0.0023   11.8   0.0    6    1-6      13-18  (407)
+  7 2NR4_B Conserved hypothetical   12.3 2.1E+02  0.0024   11.8   0.0    6    1-6      10-15  (213)
+  8 4JPP_B Minor spike protein H;   12.2 2.2E+02  0.0024   13.5   0.0    5    2-6       5-9   (140)
+  9 4JPP_D Minor spike protein H;   12.2 2.2E+02  0.0024   13.5   0.0    5    2-6       5-9   (140)
+ 10 6S2E_E DNA polymerase epsilon   12.0 2.2E+02  0.0024    9.8   0.0    5    1-5      16-20  (33)
+
+No 1
+>4MXW_D Tumor necrosis factor receptor superfamily; TNF, Tumor Necrosis Factor, TNFR; 3.6A {Homo sapiens}
+Probab=36.68  E-value=33  Score=14.82  Aligned_cols=6  Identities=67%  Similarity=1.254  Sum_probs=0.0  Template_Neff=6.900
+
+Q QGFNNQ            1 QGFNNQ    6 (6)
+Q Consensus         1 qgfnnq    6 (6)
+                      ||||.|
+T Consensus         9 ~~~~~~   14 (210)
+T 4MXW_D            9 QGFNKE   14 (210)
+T ss_dssp             ------
+T ss_pred             cccchh
+Confidence            678754
+
+
+No 2
+>5AOV_A GLYOXYLATE REDUCTASE (E.C.1.1.1.26, 1.1.1.81, 1.1.1.79); OXIDOREDUCTASE, GLYOXYLATE HYDROXYPYRUVATE REDUCTASE, GLYOXYLATE; HET: GLV, ACY, 1PE, EDO, NAP; 1.4A {PYROCOCCUS FURIOSUS}
+Probab=19.00  E-value=1.1e+02  Score=12.99  Aligned_cols=5  Identities=80%  Similarity=1.398  Sum_probs=0.0  Template_Neff=9.200
+
+Q QGFNNQ            2 GFNNQ    6 (6)
+Q Consensus         2 gfnnq    6 (6)
+                      |||.|
+T Consensus       332 ~~~~~  336 (336)
+T 5AOV_A          332 GFNEQ  336 (336)
+T ss_dssp             SCC--
+T ss_pred             CCCCC
+
+
+No 3
+>3K1T_A Glutamate--cysteine ligase GshA; Putative gamma-glutamylcysteine synthetase, Structural Genomics; HET: GOL, SO4; 1.9A {Methylobacillus flagellatus KT}
+Probab=15.38  E-value=1.5e+02  Score=15.46  Aligned_cols=4  Identities=100%  Similarity=1.763  Sum_probs=0.0  Template_Neff=4.100
+
+Q QGFNNQ            2 GFNN    5 (6)
+Q Consensus         2 gfnn    5 (6)
+                      ||||
+T Consensus        68 GFNN   71 (432)
+T 3K1T_A           68 GFNN   71 (432)
+T ss_dssp             CGGG
+T ss_pred             chhc
+
+
+No 4
+>2PQR_C Mitochondria fission 1 protein, WD; TPR domain, protein-protein complex, APOPTOSIS; 1.88A {Saccharomyces cerevisiae}
+Probab=14.39  E-value=1.7e+02  Score=11.29  Aligned_cols=4  Identities=50%  Similarity=1.340  Sum_probs=0.0  Template_Neff=5.200
+
+Q QGFNNQ            1 QGFN    4 (6)
+Q Consensus         1 qgfn    4 (6)
+                      |||.
+T Consensus        52 QGF~   55 (64)
+T 2PQR_C           52 EGFK   55 (64)
+T ss_dssp             HHHH
+T ss_pred             HHHe
+
+
+No 5
+>2PQR_D Mitochondria fission 1 protein, WD; TPR domain, protein-protein complex, APOPTOSIS; 1.88A {Saccharomyces cerevisiae}
+Probab=14.25  E-value=1.7e+02  Score=11.28  Aligned_cols=4  Identities=50%  Similarity=1.340  Sum_probs=0.0  Template_Neff=5.200
+
+Q QGFNNQ            1 QGFN    4 (6)
+Q Consensus         1 qgfn    4 (6)
+                      |||.
+T Consensus        52 QGF~   55 (64)
+T 2PQR_D           52 EGFK   55 (64)
+T ss_pred             HHHe
+
+
+No 6
+>5VRQ_A Ankyrin repeats; bacterial effector, ankyrin repeats, Legionella; 3.205A {Legionella pneumophila subsp. pneumophila (strain Philadelphia 1 / ATCC 33152 / DSM 7513)}
+Probab=12.62  E-value=2.1e+02  Score=11.76  Aligned_cols=6  Identities=33%  Similarity=0.329  Sum_probs=0.0  Template_Neff=10.800
+
+Q QGFNNQ            1 QGFNNQ    6 (6)
+Q Consensus         1 qgfnnq    6 (6)
+                      ||++|+
+T Consensus        13 ~~~~~~   18 (407)
+T 5VRQ_A           13 LGTENL   18 (407)
+T ss_dssp             ------
+T ss_pred             Ccccch
+
+
+No 7
+>2NR4_B Conserved hypothetical protein; STRUCTURAL GENOMICS, UNKNOWN FUNCTION, FLAVOPROTEIN; HET: FMN; 1.85A {Methanosarcina mazei} SCOP: b.45.1.4
+Probab=12.27  E-value=2.1e+02  Score=11.76  Aligned_cols=6  Identities=67%  Similarity=1.149  Sum_probs=0.0  Template_Neff=8.400
+
+Q QGFNNQ            1 QGFNNQ    6 (6)
+Q Consensus         1 qgfnnq    6 (6)
+                      ||||-+
+T Consensus        10 ~~~~~~   15 (213)
+T 2NR4_B           10 QGFEKQ   15 (213)
+T ss_dssp             ------
+T ss_pred             ccccch
+
+
+No 8
+>4JPP_B Minor spike protein H; helical barrel, tail tube, pilot; 2.4A {Enterobacteria phage phiX174}
+Probab=12.19  E-value=2.2e+02  Score=13.54  Aligned_cols=5  Identities=80%  Similarity=1.398  Sum_probs=0.0  Template_Neff=1.500
+
+Q QGFNNQ            2 GFNNQ    6 (6)
+Q Consensus         2 gfnnq    6 (6)
+                      |||||
+T Consensus         5 g~~~q    9 (140)
+T 4JPP_B            5 GFENQ    9 (140)
+T ss_dssp             THHHH
+T ss_pred             hhHHH
+
+
+No 9
+>4JPP_D Minor spike protein H; helical barrel, tail tube, pilot; 2.4A {Enterobacteria phage phiX174}
+Probab=12.19  E-value=2.2e+02  Score=13.54  Aligned_cols=5  Identities=80%  Similarity=1.398  Sum_probs=0.0  Template_Neff=1.500
+
+Q QGFNNQ            2 GFNNQ    6 (6)
+Q Consensus         2 gfnnq    6 (6)
+                      |||||
+T Consensus         5 g~~~q    9 (140)
+T 4JPP_D            5 GFENQ    9 (140)
+T ss_dssp             HHHHH
+T ss_pred             hhHHH
+
+
+No 10
+>6S2E_E DNA polymerase epsilon catalytic subunit; DNA polymerase, PCNA loader, protein; 4.2A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=12.02  E-value=2.2e+02  Score=9.78  Aligned_cols=5  Identities=60%  Similarity=1.331  Sum_probs=0.0  Template_Neff=5.100
+
+Q QGFNNQ            1 QGFNN    5 (6)
+Q Consensus         1 qgfnn    5 (6)
+                      .||.|
+T Consensus        16 EGfsn   20 (33)
+T 6S2E_E           16 EGFSN   20 (33)
+T ss_pred             CCCCc
+
+

@@ -1,0 +1,150 @@
+Query         MGMLAS
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 21:38:05 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/MGMLAS/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/MGMLAS/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6N3A_J TAR DNA-binding protein  73.7     2.6 2.9E-05   16.9   0.0    6    1-6      27-32  (50)
+  2 5SYT_A CAAX prenyl protease 1   61.9     6.9 7.6E-05   18.2   0.0    6    1-6       1-6   (480)
+  3 4A54_A EDC3, MRNA DECAPPING CO  29.8      50 0.00056   13.5   0.0    6    1-6       1-6   (96)
+  4 7AOI_BK bL28m, uL29m, uL30m, b  26.9      61 0.00068   14.4   0.0    6    1-6     263-268 (273)
+  5 6HIV_BK ms48, ms51, ms56, ms59  17.6 1.3E+02  0.0014   13.9   0.0    6    1-6     376-381 (386)
+  6 3TCV_B GCN5-related N-acetyltr  17.4 1.3E+02  0.0014   11.4   0.0    6    1-6       9-14  (246)
+  7 5J11_C Thymic stromal lymphopo  16.6 1.4E+02  0.0015   10.5   0.0    6    1-6       1-6   (230)
+  8 6YXY_BK bL28m, uL29m, uL30m, b  16.3 1.4E+02  0.0016   13.8   0.0    6    1-6     376-381 (386)
+  9 5TZ8_C TarM; Glycosyltransfera  15.9 1.5E+02  0.0016   14.1   0.0    6    1-6     532-537 (572)
+ 10 3IN6_B FMN-binding protein; St  15.5 1.5E+02  0.0017   10.7   0.0    5    2-6       1-5   (148)
+
+No 1
+>6N3A_J TAR DNA-binding protein 43, segA; Amyloid, TDP43, ALS, FTLD-TDP, dna; 3.3A {Homo sapiens}
+Probab=73.71  E-value=2.6  Score=16.87  Aligned_cols=6  Identities=100%  Similarity=1.320  Sum_probs=4.0  Template_Neff=2.200
+
+Q MGMLAS            1 MGMLAS    6 (6)
+Q Consensus         1 mgmlas    6 (6)
+                      ||||++
+T Consensus        27 MgMla~   32 (50)
+T 6N3A_J           27 MGMLAS   32 (50)
+T ss_dssp             CEEEEE
+T ss_pred             HHhHHh
+Confidence            677764
+
+
+No 2
+>5SYT_A CAAX prenyl protease 1 homolog; Hydrolase, Membrane Protein, CaaX protease; HET: PEG, SO4, CXE, PC1, GOL, C8E, DMS; 2.0A {Homo sapiens}
+Probab=61.89  E-value=6.9  Score=18.16  Aligned_cols=6  Identities=83%  Similarity=1.060  Sum_probs=0.0  Template_Neff=7.600
+
+Q MGMLAS            1 MGMLAS    6 (6)
+Q Consensus         1 mgmlas    6 (6)
+                      |||+||
+T Consensus         1 ~~~~~~    6 (480)
+T 5SYT_A            1 MGMWAS    6 (480)
+T ss_dssp             ------
+T ss_pred             CCCccc
+Confidence            788875
+
+
+No 3
+>4A54_A EDC3, MRNA DECAPPING COMPLEX SUBUNIT; RNA BINDING PROTEIN-HYDROLASE COMPLEX; NMR {SCHIZOSACCHAROMYCES POMBE}
+Probab=29.82  E-value=50  Score=13.50  Aligned_cols=6  Identities=50%  Similarity=0.794  Sum_probs=3.3  Template_Neff=5.300
+
+Q MGMLAS            1 MGMLAS    6 (6)
+Q Consensus         1 mgmlas    6 (6)
+                      |||.++
+T Consensus         1 ~~~Mas    6 (96)
+T 4A54_A            1 MGMSVA    6 (96)
+T ss_pred             CCCccc
+Confidence            566553
+
+
+No 4
+>7AOI_BK bL28m, uL29m, uL30m, bL32m, bL33m; mitochondria, translation, trypanosoma, assembly, evolution; HET: ADP, GTP, NAD, 4HH; 3.5A {Trypanosoma brucei}
+Probab=26.95  E-value=61  Score=14.45  Aligned_cols=6  Identities=67%  Similarity=0.750  Sum_probs=4.0  Template_Neff=7.100
+
+Q MGMLAS            1 MGMLAS    6 (6)
+Q Consensus         1 mgmlas    6 (6)
+                      ||+|-|
+T Consensus       263 ~g~lys  268 (273)
+T 7AOI_BK         263 MGKLYS  268 (273)
+T ss_pred             cccccc
+Confidence            677754
+
+
+No 5
+>6HIV_BK ms48, ms51, ms56, ms59, ms60; mitoribosome, translation, Trypanosoma, large ribosomal; HET: MG, SPD, ZN, SPM, GTP, NAD, UTP; 7.8A {Trypanosoma brucei brucei}
+Probab=17.59  E-value=1.3e+02  Score=13.88  Aligned_cols=6  Identities=67%  Similarity=0.750  Sum_probs=0.0  Template_Neff=7.700
+
+Q MGMLAS            1 MGMLAS    6 (6)
+Q Consensus         1 mgmlas    6 (6)
+                      ||+|-|
+T Consensus       376 ~~~~~~  381 (386)
+T 6HIV_BK         376 MGKLYS  381 (386)
+T ss_pred             cccccc
+
+
+No 6
+>3TCV_B GCN5-related N-acetyltransferase (E.C.2.3.1.5); gram negative coccobacillus, brucellosis, acyl; 1.75A {Brucella melitensis biovar Abortus 2308}
+Probab=17.45  E-value=1.3e+02  Score=11.41  Aligned_cols=6  Identities=50%  Similarity=0.855  Sum_probs=0.0  Template_Neff=10.800
+
+Q MGMLAS            1 MGMLAS    6 (6)
+Q Consensus         1 mgmlas    6 (6)
+                      |||+.+
+T Consensus         9 ~~~~~~   14 (246)
+T 3TCV_B            9 MGTLEA   14 (246)
+T ss_dssp             ------
+T ss_pred             ccccch
+
+
+No 7
+>5J11_C Thymic stromal lymphopoietin, Interleukin-7 receptor; cytokine inflammation TSLP signaling complex; HET: NAG, PGE; 2.56A {Homo sapiens}
+Probab=16.57  E-value=1.4e+02  Score=10.50  Aligned_cols=6  Identities=50%  Similarity=0.623  Sum_probs=0.0  Template_Neff=12.100
+
+Q MGMLAS            1 MGMLAS    6 (6)
+Q Consensus         1 mgmlas    6 (6)
+                      ||+++.
+T Consensus         1 ~~~~~~    6 (230)
+T 5J11_C            1 MGRLVL    6 (230)
+T ss_dssp             ------
+T ss_pred             ChhHHH
+
+
+No 8
+>6YXY_BK bL28m, uL29m, uL30m, bL32m, bL35m; mitoribosome, assembly, LSU, RIBOSOME; HET: ATP, PM8, MG, SPD, NAD, GTP; 3.1A {Trypanosoma brucei brucei}
+Probab=16.29  E-value=1.4e+02  Score=13.82  Aligned_cols=6  Identities=67%  Similarity=0.750  Sum_probs=0.0  Template_Neff=7.500
+
+Q MGMLAS            1 MGMLAS    6 (6)
+Q Consensus         1 mgmlas    6 (6)
+                      ||+|-|
+T Consensus       376 ~~~~~~  381 (386)
+T 6YXY_BK         376 MGKLYS  381 (386)
+T ss_pred             cccccc
+
+
+No 9
+>5TZ8_C TarM; Glycosyltransferase, GT-A, Wall teichoic acid; 4.0A {Staphylococcus aureus}
+Probab=15.91  E-value=1.5e+02  Score=14.05  Aligned_cols=6  Identities=67%  Similarity=1.137  Sum_probs=0.0  Template_Neff=8.400
+
+Q MGMLAS            1 MGMLAS    6 (6)
+Q Consensus         1 mgmlas    6 (6)
+                      ||||.|
+T Consensus       532 ~~~~~~  537 (572)
+T 5TZ8_C          532 MGMLSQ  537 (572)
+T ss_dssp             EEEEEC
+T ss_pred             hhhccc
+
+
+No 10
+>3IN6_B FMN-binding protein; Structural genomics, Joint Center for; HET: FMN, MSE; 2.12A {Syntrophomonas wolfei subsp. wolfei}
+Probab=15.53  E-value=1.5e+02  Score=10.70  Aligned_cols=5  Identities=80%  Similarity=1.139  Sum_probs=0.0  Template_Neff=10.000
+
+Q MGMLAS            2 GMLAS    6 (6)
+Q Consensus         2 gmlas    6 (6)
+                      |||-|
+T Consensus         1 ~~~~~    5 (148)
+T 3IN6_B            1 GMLES    5 (148)
+T ss_dssp             CHHHH
+T ss_pred             CchHH
+
+

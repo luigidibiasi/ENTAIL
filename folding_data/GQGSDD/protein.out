@@ -1,0 +1,149 @@
+Query         GQGSDD
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 03:04:54 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GQGSDD/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GQGSDD/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5YSN_C Ethanolamine ammonia-ly  13.0   2E+02  0.0022   15.4   0.0    5    1-5     289-293 (453)
+  2 2E1B_A 216aa long hypothetical  12.9   2E+02  0.0022   11.7   0.0    5    1-5      43-47  (216)
+  3 3U02_B Putative transcription-  12.8   2E+02  0.0022   13.2   0.0    5    2-6     248-252 (252)
+  4 2QEZ_B Ethanolamine ammonia-ly  12.7   2E+02  0.0023   15.4   0.0    5    1-5     290-294 (455)
+  5 2QEZ_F Ethanolamine ammonia-ly  12.3 2.1E+02  0.0024   15.4   0.0    5    1-5     290-294 (455)
+  6 3U02_D Putative transcription-  11.2 2.5E+02  0.0027   13.0   0.0    5    2-6     248-252 (252)
+  7 3KEW_A DHHA1 domain protein; S  10.7 2.6E+02  0.0029   11.5   0.0    5    1-5      45-49  (241)
+  8 5ZEP_T 30S ribosomal protein S  10.4 2.7E+02   0.003   11.9   0.0    6    1-6     134-139 (153)
+  9 6HLW_D Golgi resident protein   10.0 2.9E+02  0.0032    9.8   0.0    6    1-6       1-6   (48)
+ 10 6HM8_B Golgi resident protein    9.5 3.1E+02  0.0034    9.7   0.0    6    1-6       1-6   (50)
+
+No 1
+>5YSN_C Ethanolamine ammonia-lyase heavy chain (E.C.4.3.1.7); Adenosylcobalamin, Radical enzyme, LYASE; HET: 5AD, GOL, B12; 2.001A {Escherichia coli (strain K12)}
+Probab=12.97  E-value=2e+02  Score=15.44  Aligned_cols=5  Identities=80%  Similarity=1.185  Sum_probs=0.0  Template_Neff=3.400
+
+Q GQGSDD            1 GQGSD    5 (6)
+Q Consensus         1 gqgsd    5 (6)
+                      ||||+
+T Consensus       289 GQGS~  293 (453)
+T 5YSN_C          289 GQGSA  293 (453)
+T ss_dssp             CTTHH
+T ss_pred             CCchh
+
+
+No 2
+>2E1B_A 216aa long hypothetical alanyl-tRNA synthetase(E.C.6.1.1.7; zinc-binding motif, trans-editing enzyme, Structural; 2.7A {Pyrococcus horikoshii} SCOP: b.43.3.6, d.67.1.2
+Probab=12.93  E-value=2e+02  Score=11.68  Aligned_cols=5  Identities=60%  Similarity=0.813  Sum_probs=0.0  Template_Neff=8.800
+
+Q GQGSDD            1 GQGSD    5 (6)
+Q Consensus         1 gqgsd    5 (6)
+                      ||.+|
+T Consensus        43 GQ~~D   47 (216)
+T 2E1B_A           43 GQPHD   47 (216)
+T ss_dssp             TCCCC
+T ss_pred             CCCCC
+
+
+No 3
+>3U02_B Putative transcription-associated protein TFIIS; Structural Genomics, PSI-Biology, Protein Structure; HET: MES, CIT, SO4; 2.399A {Pyrococcus furiosus DSM 3638}
+Probab=12.76  E-value=2e+02  Score=13.18  Aligned_cols=5  Identities=60%  Similarity=0.933  Sum_probs=0.0  Template_Neff=6.200
+
+Q GQGSDD            2 QGSDD    6 (6)
+Q Consensus         2 qgsdd    6 (6)
+                      ||+|+
+T Consensus       248 QgTd~  252 (252)
+T 3U02_B          248 QNTDD  252 (252)
+T ss_dssp             CCC--
+T ss_pred             CCCCC
+
+
+No 4
+>2QEZ_B Ethanolamine ammonia-lyase heavy chain (E.C.4.3.1.7); YP_013784.1, ethanolamine ammonia-lyase heavy chain; HET: GOL, MSE; 2.15A {Listeria monocytogenes serotype 4b}
+Probab=12.74  E-value=2e+02  Score=15.41  Aligned_cols=5  Identities=80%  Similarity=1.385  Sum_probs=0.0  Template_Neff=3.400
+
+Q GQGSDD            1 GQGSD    5 (6)
+Q Consensus         1 gqgsd    5 (6)
+                      ||||+
+T Consensus       290 GQGS~  294 (455)
+T 2QEZ_B          290 GQGSE  294 (455)
+T ss_dssp             C----
+T ss_pred             CCChh
+
+
+No 5
+>2QEZ_F Ethanolamine ammonia-lyase heavy chain (E.C.4.3.1.7); YP_013784.1, ethanolamine ammonia-lyase heavy chain; HET: GOL; 2.15A {Listeria monocytogenes serotype 4b}
+Probab=12.33  E-value=2.1e+02  Score=15.37  Aligned_cols=5  Identities=80%  Similarity=1.385  Sum_probs=0.0  Template_Neff=3.300
+
+Q GQGSDD            1 GQGSD    5 (6)
+Q Consensus         1 gqgsd    5 (6)
+                      ||||+
+T Consensus       290 GQGS~  294 (455)
+T 2QEZ_F          290 GQGSE  294 (455)
+T ss_dssp             CC---
+T ss_pred             CCChh
+
+
+No 6
+>3U02_D Putative transcription-associated protein TFIIS; Structural Genomics, PSI-Biology, Protein Structure; HET: CIT, MES, SO4, TPO, MSE; 2.399A {Pyrococcus furiosus DSM 3638}
+Probab=11.17  E-value=2.5e+02  Score=13.03  Aligned_cols=5  Identities=60%  Similarity=0.933  Sum_probs=0.0  Template_Neff=6.000
+
+Q GQGSDD            2 QGSDD    6 (6)
+Q Consensus         2 qgsdd    6 (6)
+                      ||+|+
+T Consensus       248 QgTD~  252 (252)
+T 3U02_D          248 QNTDD  252 (252)
+T ss_dssp             CCC--
+T ss_pred             CCCCC
+
+
+No 7
+>3KEW_A DHHA1 domain protein; STRUCTURAL GENOMICS, PSI-2, TRNA SYNTHASE; 2.0A {Clostridium perfringens}
+Probab=10.69  E-value=2.6e+02  Score=11.50  Aligned_cols=5  Identities=60%  Similarity=0.727  Sum_probs=0.0  Template_Neff=8.900
+
+Q GQGSDD            1 GQGSD    5 (6)
+Q Consensus         1 gqgsd    5 (6)
+                      ||.+|
+T Consensus        45 GQ~~D   49 (241)
+T 3KEW_A           45 GQMGD   49 (241)
+T ss_dssp             TBCCC
+T ss_pred             CCccc
+
+
+No 8
+>5ZEP_T 30S ribosomal protein S3, 30S; hibernating-state, ribosome, complex; 3.4A {Mycobacterium smegmatis str. MC2 155}
+Probab=10.45  E-value=2.7e+02  Score=11.91  Aligned_cols=6  Identities=50%  Similarity=0.678  Sum_probs=0.0  Template_Neff=6.200
+
+Q GQGSDD            1 GQGSDD    6 (6)
+Q Consensus         1 gqgsdd    6 (6)
+                      ||||-|
+T Consensus       134 ~~~~~~  139 (153)
+T 5ZEP_T          134 AQGSKA  139 (153)
+T ss_pred             cCCcch
+
+
+No 9
+>6HLW_D Golgi resident protein GCP60, Genome; complex, Golgi, enterovirus, picornavirus, VIRAL; 2.728A {Homo sapiens}
+Probab=9.96  E-value=2.9e+02  Score=9.82  Aligned_cols=6  Identities=50%  Similarity=0.900  Sum_probs=0.0  Template_Neff=6.000
+
+Q GQGSDD            1 GQGSDD    6 (6)
+Q Consensus         1 gqgsdd    6 (6)
+                      |.||+.
+T Consensus         1 ~~~~~~    6 (48)
+T 6HLW_D            1 GSGSGK    6 (48)
+T ss_dssp             ------
+T ss_pred             CCCCCC
+
+
+No 10
+>6HM8_B Golgi resident protein GCP60, Genome; complex, Golgi, enterovirus, picornavirus, VIRAL; 2.277A {Homo sapiens}
+Probab=9.54  E-value=3.1e+02  Score=9.70  Aligned_cols=6  Identities=50%  Similarity=0.872  Sum_probs=0.0  Template_Neff=6.300
+
+Q GQGSDD            1 GQGSDD    6 (6)
+Q Consensus         1 gqgsdd    6 (6)
+                      |.||+.
+T Consensus         1 ~~~~~~    6 (50)
+T 6HM8_B            1 GSGSGT    6 (50)
+T ss_dssp             -----C
+T ss_pred             CCCCCC
+
+

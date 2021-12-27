@@ -1,0 +1,149 @@
+Query         LDGFSR
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 17:43:32 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LDGFSR/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LDGFSR/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5O1L_A Rubber oxygenase (E.C.1  56.4      10 0.00011   17.2   0.0    6    1-6       1-6   (407)
+  2 7BNR_B DNA-binding protein, CT  19.1 1.1E+02  0.0012   11.9   0.0    6    1-6      56-61  (212)
+  3 2ODM_B UPF0358 protein MW0995;  18.7 1.1E+02  0.0013   13.2   0.0    4    3-6      51-54  (91)
+  4 4WWZ_A UndA, an oxygen-activat  18.7 1.1E+02  0.0013   12.1   0.0    6    1-6       4-9   (263)
+  5 4WX0_A UndA, an oxygen-activat  18.7 1.1E+02  0.0013   12.1   0.0    6    1-6       4-9   (263)
+  6 2I6H_A Hypothetical protein At  18.5 1.2E+02  0.0013   13.8   0.0    6    1-6      90-95  (207)
+  7 6HIV_CF ms48, ms51, ms56, ms59  18.5 1.2E+02  0.0013   13.0   0.0    6    1-6     118-123 (160)
+  8 6SGA_CF ?; mitochondrial ribos  18.0 1.2E+02  0.0013   13.0   0.0    6    1-6     118-123 (160)
+  9 6XQI_F HIV, viral accessory pr  17.6 1.2E+02  0.0014    8.1   0.0    4    3-6      13-16  (40)
+ 10 1IFY_A UV EXCISION REPAIR PROT  17.5 1.3E+02  0.0014    8.6   0.0    4    3-6      19-22  (49)
+
+No 1
+>5O1L_A Rubber oxygenase (E.C.1.13.-.-); heme, oxygenase, rubber, biopolymers, oxidoreductase; HET: BU3, HEM, IMD; 1.48A {Streptomyces sp. (strain K30)}
+Probab=56.37  E-value=10  Score=17.20  Aligned_cols=6  Identities=83%  Similarity=1.553  Sum_probs=0.0  Template_Neff=7.800
+
+Q LDGFSR            1 LDGFSR    6 (6)
+Q Consensus         1 ldgfsr    6 (6)
+                      +|||||
+T Consensus         1 ~~~~~~    6 (407)
+T 5O1L_A            1 MDGFSR    6 (407)
+T ss_dssp             ------
+T ss_pred             CCcccH
+Confidence            488986
+
+
+No 2
+>7BNR_B DNA-binding protein, CTP, Myxococcus, DNA-segregation; HET: UFQ, GOL; 1.7A {Myxococcus xanthus (strain DK 1622)}
+Probab=19.08  E-value=1.1e+02  Score=11.93  Aligned_cols=6  Identities=33%  Similarity=0.540  Sum_probs=0.0  Template_Neff=9.600
+
+Q LDGFSR            1 LDGFSR    6 (6)
+Q Consensus         1 ldgfsr    6 (6)
+                      +||+.|
+T Consensus        56 idG~~R   61 (212)
+T 7BNR_B           56 IAGERR   61 (212)
+T ss_dssp             EECHHH
+T ss_pred             ccChHH
+
+
+No 3
+>2ODM_B UPF0358 protein MW0995; triple helix, UNKNOWN FUNCTION; 2.24A {Staphylococcus aureus subsp. aureus}
+Probab=18.72  E-value=1.1e+02  Score=13.20  Aligned_cols=4  Identities=25%  Similarity=0.957  Sum_probs=0.0  Template_Neff=3.300
+
+Q LDGFSR            3 GFSR    6 (6)
+Q Consensus         3 gfsr    6 (6)
+                      ||||
+T Consensus        51 G~Sr   54 (91)
+T 2ODM_B           51 GLQK   54 (91)
+T ss_dssp             HHHH
+T ss_pred             hhhh
+
+
+No 4
+>4WWZ_A UndA, an oxygen-activating, non-heme iron; Non-heme iron dependent desaturase/decarboxylase, 1-Undecene; HET: SO4, 3X1, PSL; 1.8A {Pseudomonas protegens Pf-5}
+Probab=18.67  E-value=1.1e+02  Score=12.13  Aligned_cols=6  Identities=67%  Similarity=1.126  Sum_probs=0.0  Template_Neff=9.900
+
+Q LDGFSR            1 LDGFSR    6 (6)
+Q Consensus         1 ldgfsr    6 (6)
+                      +|.||+
+T Consensus         4 ~~~~~~    9 (263)
+T 4WWZ_A            4 IDTFSR    9 (263)
+T ss_dssp             CCCCCC
+T ss_pred             cccccc
+
+
+No 5
+>4WX0_A UndA, an oxygen-activating, non-heme iron; Non-heme iron dependent desaturase/decarboxylase, 1-Undecene; HET: SO4, HXD; 1.7A {Pseudomonas protegens Pf-5}
+Probab=18.67  E-value=1.1e+02  Score=12.13  Aligned_cols=6  Identities=67%  Similarity=1.126  Sum_probs=0.0  Template_Neff=9.900
+
+Q LDGFSR            1 LDGFSR    6 (6)
+Q Consensus         1 ldgfsr    6 (6)
+                      +|.||+
+T Consensus         4 ~~~~~~    9 (263)
+T 4WX0_A            4 IDTFSR    9 (263)
+T ss_dssp             CCCCCC
+T ss_pred             cccccc
+
+
+No 6
+>2I6H_A Hypothetical protein Atu0120; structural genomics, APC5905, PSI-2, Protein; 1.75A {Agrobacterium tumefaciens str.} SCOP: a.118.8.5
+Probab=18.49  E-value=1.2e+02  Score=13.77  Aligned_cols=6  Identities=67%  Similarity=1.099  Sum_probs=0.0  Template_Neff=5.700
+
+Q LDGFSR            1 LDGFSR    6 (6)
+Q Consensus         1 ldgfsr    6 (6)
+                      ||-|+|
+T Consensus        90 LDQfpR   95 (207)
+T 2I6H_A           90 LDQFPR   95 (207)
+T ss_dssp             CCCHHH
+T ss_pred             hccccc
+
+
+No 7
+>6HIV_CF ms48, ms51, ms56, ms59, ms60; mitoribosome, translation, Trypanosoma, large ribosomal; HET: GTP, SPD, NAD, MG, ZN, UTP, SPM; 7.8A {Trypanosoma brucei brucei}
+Probab=18.47  E-value=1.2e+02  Score=13.05  Aligned_cols=6  Identities=67%  Similarity=1.154  Sum_probs=0.0  Template_Neff=6.200
+
+Q LDGFSR            1 LDGFSR    6 (6)
+Q Consensus         1 ldgfsr    6 (6)
+                      ||-|+|
+T Consensus       118 l~~~~~  123 (160)
+T 6HIV_CF         118 LDTFTR  123 (160)
+T ss_pred             hhhhhh
+
+
+No 8
+>6SGA_CF ?; mitochondrial ribosome, assembly intermediate, translation; HET: UBD, PM8; 3.1A {Trypanosoma brucei brucei}
+Probab=18.04  E-value=1.2e+02  Score=13.00  Aligned_cols=6  Identities=67%  Similarity=1.154  Sum_probs=0.0  Template_Neff=6.200
+
+Q LDGFSR            1 LDGFSR    6 (6)
+Q Consensus         1 ldgfsr    6 (6)
+                      ||-|+|
+T Consensus       118 ~~~~~~  123 (160)
+T 6SGA_CF         118 LDTFTR  123 (160)
+T ss_pred             chhhch
+
+
+No 9
+>6XQI_F HIV, viral accessory protein, hHR23A; 2.34A {Human immunodeficiency virus type 1 group M subtype B (isolate NY5)}
+Probab=17.65  E-value=1.2e+02  Score=8.13  Aligned_cols=4  Identities=50%  Similarity=1.198  Sum_probs=0.0  Template_Neff=10.600
+
+Q LDGFSR            3 GFSR    6 (6)
+Q Consensus         3 gfsr    6 (6)
+                      ||++
+T Consensus        13 G~~~   16 (40)
+T 6XQI_F           13 GFPE   16 (40)
+T ss_dssp             TCCH
+T ss_pred             CCCH
+
+
+No 10
+>1IFY_A UV EXCISION REPAIR PROTEIN RAD23; Ubiquitin associated domain, UBA domain; NMR {Homo sapiens} SCOP: a.5.2.1
+Probab=17.52  E-value=1.3e+02  Score=8.56  Aligned_cols=4  Identities=50%  Similarity=1.381  Sum_probs=0.0  Template_Neff=10.500
+
+Q LDGFSR            3 GFSR    6 (6)
+Q Consensus         3 gfsr    6 (6)
+                      ||++
+T Consensus        19 Gf~~   22 (49)
+T 1IFY_A           19 GYER   22 (49)
+T ss_dssp             TCCH
+T ss_pred             CCCH
+
+

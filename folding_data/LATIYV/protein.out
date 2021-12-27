@@ -1,0 +1,149 @@
+Query         LATIYV
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 14:45:23 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LATIYV/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LATIYV/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6NZ2_A Box C/D snoRNA protein    7.4 4.3E+02  0.0047   11.0   0.0    4    3-6     168-171 (188)
+  2 2M7O_A uncharacterized protein   7.2 4.5E+02   0.005   10.9   0.0    6    1-6      27-32  (70)
+  3 6ALG_N DNA-directed RNA polyme   6.7 4.9E+02  0.0054   11.8   0.0    4    3-6       4-7   (109)
+  4 6YE5_A Ribosome-binding factor   6.6   5E+02  0.0055    9.8   0.0    5    2-6      47-51  (118)
+  5 4K7B_A Extrinsic protein in ph   6.5   5E+02  0.0056   11.9   0.0    6    1-6     118-123 (124)
+  6 4JKW_A Butyrophilin subfamily    6.5 5.1E+02  0.0056    7.7   0.0    5    1-5     114-118 (124)
+  7 4K55_A Butyrophilin (BTN3A1) o   6.5 5.1E+02  0.0056    7.7   0.0    5    1-5     114-118 (124)
+  8 1N45_B heme oxygenase 1 (E.C.1   6.0 5.7E+02  0.0063   10.2   0.0    6    1-6     130-135 (233)
+  9 1J77_A heme oxygenase (E.C.1.1   5.5 6.3E+02  0.0069   10.0   0.0    6    1-6     108-113 (209)
+ 10 1IW0_B heme oxygenase (E.C.1.1   5.5 6.3E+02   0.007    9.8   0.0    6    1-6     126-131 (215)
+
+No 1
+>6NZ2_A Box C/D snoRNA protein 1; snoRNP assembly, RNA binding, RNA; NMR {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=7.42  E-value=4.3e+02  Score=11.03  Aligned_cols=4  Identities=75%  Similarity=1.248  Sum_probs=0.0  Template_Neff=7.700
+
+Q LATIYV            3 TIYV    6 (6)
+Q Consensus         3 tiyv    6 (6)
+                      ||||
+T Consensus       168 TI~V  171 (188)
+T 6NZ2_A          168 TIFV  171 (188)
+T ss_dssp             EEEE
+T ss_pred             eEEE
+
+
+No 2
+>2M7O_A uncharacterized protein; Structural Genomics, Unknown Function; NMR {Streptococcus pneumoniae}
+Probab=7.15  E-value=4.5e+02  Score=10.87  Aligned_cols=6  Identities=67%  Similarity=1.204  Sum_probs=0.0  Template_Neff=3.700
+
+Q LATIYV            1 LATIYV    6 (6)
+Q Consensus         1 latiyv    6 (6)
+                      ++++||
+T Consensus        27 I~vLYv   32 (70)
+T 2M7O_A           27 IATLYV   32 (70)
+T ss_dssp             EEECCC
+T ss_pred             eEEEEE
+
+
+No 3
+>6ALG_N DNA-directed RNA polymerase subunit alpha; DNA-dependent RNA polymerase, TRANSCRIPTION, transcription-dna-rna;{Escherichia coli (strain K12)}
+Probab=6.73  E-value=4.9e+02  Score=11.82  Aligned_cols=4  Identities=100%  Similarity=1.472  Sum_probs=0.0  Template_Neff=2.800
+
+Q LATIYV            3 TIYV    6 (6)
+Q Consensus         3 tiyv    6 (6)
+                      ||||
+T Consensus         4 ~~~~    7 (109)
+T 6ALG_N            4 TIYV    7 (109)
+T ss_pred             eEEe
+
+
+No 4
+>6YE5_A Ribosome-binding factor A; Protein synthesis, heterologous protein expression; NMR {Staphylococcus aureus}
+Probab=6.60  E-value=5e+02  Score=9.78  Aligned_cols=5  Identities=20%  Similarity=0.833  Sum_probs=0.0  Template_Neff=8.300
+
+Q LATIYV            2 ATIYV    6 (6)
+Q Consensus         2 atiyv    6 (6)
+                      |++|+
+T Consensus        47 a~Vy~   51 (118)
+T 6YE5_A           47 AKVFL   51 (118)
+T ss_dssp             EEEEE
+T ss_pred             EEEEE
+
+
+No 5
+>4K7B_A Extrinsic protein in photosystem II; photosynthesis; HET: SO4; 1.55A {Chaetoceros gracilis}
+Probab=6.55  E-value=5e+02  Score=11.86  Aligned_cols=6  Identities=50%  Similarity=0.838  Sum_probs=0.0  Template_Neff=3.300
+
+Q LATIYV            1 LATIYV    6 (6)
+Q Consensus         1 latiyv    6 (6)
+                      +.+||+
+T Consensus       118 ~~~~~~  123 (124)
+T 4K7B_A          118 AGAIYV  123 (124)
+T ss_dssp             ------
+T ss_pred             ccceee
+
+
+No 6
+>4JKW_A Butyrophilin subfamily 3 member A1; immunoglobulin superfamily, IMMUNE SYSTEM; HET: IPE; 2.01A {Homo sapiens}
+Probab=6.50  E-value=5.1e+02  Score=7.70  Aligned_cols=5  Identities=20%  Similarity=0.248  Sum_probs=0.0  Template_Neff=12.800
+
+Q LATIYV            1 LATIY    5 (6)
+Q Consensus         1 latiy    5 (6)
+                      ++++|
+T Consensus       114 ~~~~~  118 (124)
+T 4JKW_A          114 LKVLE  118 (124)
+T ss_dssp             EEEEC
+T ss_pred             EEEec
+
+
+No 7
+>4K55_A Butyrophilin (BTN3A1) or [CD277]; immunoglobulin superfamily, SIGNALING PROTEIN; HET: H6P; 1.91A {Homo sapiens}
+Probab=6.50  E-value=5.1e+02  Score=7.70  Aligned_cols=5  Identities=20%  Similarity=0.248  Sum_probs=0.0  Template_Neff=12.800
+
+Q LATIYV            1 LATIY    5 (6)
+Q Consensus         1 latiy    5 (6)
+                      ++++|
+T Consensus       114 ~~~~~  118 (124)
+T 4K55_A          114 LKVLE  118 (124)
+T ss_dssp             EEEEC
+T ss_pred             EEEec
+
+
+No 8
+>1N45_B heme oxygenase 1 (E.C.1.14.99.3); Alpha Helices, heme-binding site, OXIDOREDUCTASE; HET: HEM; 1.5A {Homo sapiens} SCOP: a.132.1.1
+Probab=5.99  E-value=5.7e+02  Score=10.19  Aligned_cols=6  Identities=33%  Similarity=0.606  Sum_probs=0.0  Template_Neff=9.600
+
+Q LATIYV            1 LATIYV    6 (6)
+Q Consensus         1 latiyv    6 (6)
+                      |+.+||
+T Consensus       130 la~~yv  135 (233)
+T 1N45_B          130 VAHAYT  135 (233)
+T ss_dssp             HHHHCC
+T ss_pred             HHHHHH
+
+
+No 9
+>1J77_A heme oxygenase (E.C.1.14.99.3); proximal histidine, distal helix, OXIDOREDUCTASE; HET: HEM; 1.5A {Neisseria meningitidis} SCOP: a.132.1.2
+Probab=5.53  E-value=6.3e+02  Score=10.03  Aligned_cols=6  Identities=17%  Similarity=0.578  Sum_probs=0.0  Template_Neff=9.300
+
+Q LATIYV            1 LATIYV    6 (6)
+Q Consensus         1 latiyv    6 (6)
+                      ++.+||
+T Consensus       108 lG~~Yv  113 (209)
+T 1J77_A          108 IGWLYC  113 (209)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 10
+>1IW0_B heme oxygenase (E.C.1.14.99.3); alpha helix, bacterial iron acquisition; HET: GLC, SO4, HEM, FRU; 1.4A {Corynebacterium diphtheriae} SCOP: a.132.1.1
+Probab=5.48  E-value=6.3e+02  Score=9.83  Aligned_cols=6  Identities=50%  Similarity=0.717  Sum_probs=0.0  Template_Neff=9.800
+
+Q LATIYV            1 LATIYV    6 (6)
+Q Consensus         1 latiyv    6 (6)
+                      ++.+||
+T Consensus       126 lg~~yv  131 (215)
+T 1IW0_B          126 VAHHYV  131 (215)
+T ss_dssp             HHHHCC
+T ss_pred             HHHHHH
+
+

@@ -1,0 +1,146 @@
+Query         QTDARN
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 10:56:31 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QTDARN/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QTDARN/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6YP7_M Chlorophyll a-b binding   9.3 3.2E+02  0.0035   10.2   0.0    6    1-6      28-33  (33)
+  2 1BHP_A BETA-PUROTHIONIN; PLANT   8.2 3.8E+02  0.0042    9.8   0.0    5    2-6       7-11  (45)
+  3 3BV8_A Tetrahydrodipicolinate    7.9 3.9E+02  0.0044   11.1   0.0    4    3-6      76-79  (87)
+  4 6HIV_Da ms48, ms51, ms56, ms59   7.4 4.3E+02  0.0048   11.3   0.0    4    3-6      38-41  (64)
+  5 1XV3_A Penaeidin-4d; Antimicro   7.4 4.3E+02  0.0048   10.5   0.0    5    2-6      32-36  (47)
+  6 6HIY_Da Uncharacterized protei   7.2 4.4E+02  0.0049   11.2   0.0    4    3-6      38-41  (64)
+  7 6EY0_B T9SS component cytoplas   6.3 5.3E+02  0.0059   11.2   0.0    6    1-6     180-185 (197)
+  8 6EY0_C T9SS component cytoplas   6.3 5.3E+02  0.0059   11.2   0.0    6    1-6     180-185 (197)
+  9 6DHG_M Photosystem II; PHOTOSY   5.7   6E+02  0.0067    9.4   0.0    6    1-6      28-33  (33)
+ 10 6WJ6_M Photosystem II; Photosy   5.4 6.5E+02  0.0072    9.4   0.0    6    1-6      28-33  (35)
+
+No 1
+>6YP7_M Chlorophyll a-b binding protein 8; Cryo-EM, photosystem II, High Light; HET: PL9, LHG, BCR, NEX, HEM, OEX, CLA, PHO, DGD, XAT, SQD, LUT, LMG, CHL;{Pisum sativum}
+Probab=9.29  E-value=3.2e+02  Score=10.16  Aligned_cols=6  Identities=17%  Similarity=0.257  Sum_probs=2.8  Template_Neff=2.900
+
+Q QTDARN            1 QTDARN    6 (6)
+Q Consensus         1 qtdarn    6 (6)
+                      ||.+||
+T Consensus        28 qT~s~~   33 (33)
+T 6YP7_M           28 KTVSQS   33 (33)
+T ss_pred             HhhcCC
+Confidence            455543
+
+
+No 2
+>1BHP_A BETA-PUROTHIONIN; PLANT TOXIN, THIONINS; HET: GOL; 1.7A {Triticum aestivum} SCOP: g.13.1.1
+Probab=8.17  E-value=3.8e+02  Score=9.81  Aligned_cols=5  Identities=60%  Similarity=0.501  Sum_probs=0.0  Template_Neff=5.000
+
+Q QTDARN            2 TDARN    6 (6)
+Q Consensus         2 tdarn    6 (6)
+                      +.|||
+T Consensus         7 t~aRn   11 (45)
+T 1BHP_A            7 TLGRN   11 (45)
+T ss_dssp             HHHHH
+T ss_pred             ccHHH
+
+
+No 3
+>3BV8_A Tetrahydrodipicolinate acetyltransferase; acetyltransferase, pfam08503, Structural Genomics, PSI-2; 1.75A {Staphylococcus aureus subsp. aureus}
+Probab=7.91  E-value=3.9e+02  Score=11.06  Aligned_cols=4  Identities=75%  Similarity=1.049  Sum_probs=0.0  Template_Neff=4.700
+
+Q QTDARN            3 DARN    6 (6)
+Q Consensus         3 darn    6 (6)
+                      |+||
+T Consensus        76 d~RN   79 (87)
+T 3BV8_A           76 DRRN   79 (87)
+T ss_dssp             CGGG
+T ss_pred             cccc
+
+
+No 4
+>6HIV_Da ms48, ms51, ms56, ms59, ms60; mitoribosome, translation, Trypanosoma, large ribosomal; HET: GTP, SPD, NAD, MG, ZN, UTP, SPM; 7.8A {Trypanosoma brucei brucei}
+Probab=7.41  E-value=4.3e+02  Score=11.26  Aligned_cols=4  Identities=100%  Similarity=1.298  Sum_probs=0.0  Template_Neff=1.300
+
+Q QTDARN            3 DARN    6 (6)
+Q Consensus         3 darn    6 (6)
+                      ||||
+T Consensus        38 darn   41 (64)
+T 6HIV_Da          38 DARN   41 (64)
+T ss_pred             HHhh
+
+
+No 5
+>1XV3_A Penaeidin-4d; Antimicrobial peptide, Antifungal peptide, Cysteine-rich; NMR {N/A}
+Probab=7.35  E-value=4.3e+02  Score=10.49  Aligned_cols=5  Identities=40%  Similarity=0.375  Sum_probs=0.0  Template_Neff=2.700
+
+Q QTDARN            2 TDARN    6 (6)
+Q Consensus         2 tdarn    6 (6)
+                      +||||
+T Consensus        32 s~Ar~   36 (47)
+T 1XV3_A           32 STARL   36 (47)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 6
+>6HIY_Da Uncharacterized protein, mS74, 30S ribosomal; mitoribosome, translation, Trypanosoma, small ribosomal; HET: SPM, SPD, MG; 3.27A {Trypanosoma brucei brucei}
+Probab=7.24  E-value=4.4e+02  Score=11.22  Aligned_cols=4  Identities=100%  Similarity=1.298  Sum_probs=0.0  Template_Neff=1.300
+
+Q QTDARN            3 DARN    6 (6)
+Q Consensus         3 darn    6 (6)
+                      ||||
+T Consensus        38 darn   41 (64)
+T 6HIY_Da          38 DARN   41 (64)
+T ss_pred             HHhh
+
+
+No 7
+>6EY0_B T9SS component cytoplasmic membrane protein; Type IV Secretion System (T9SS); 2.4A {Porphyromonas gingivalis}
+Probab=6.31  E-value=5.3e+02  Score=11.21  Aligned_cols=6  Identities=50%  Similarity=0.684  Sum_probs=0.0  Template_Neff=6.900
+
+Q QTDARN            1 QTDARN    6 (6)
+Q Consensus         1 qtdarn    6 (6)
+                      |.|.++
+T Consensus       180 Q~DV~~  185 (197)
+T 6EY0_B          180 QSDVRY  185 (197)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 8
+>6EY0_C T9SS component cytoplasmic membrane protein; Type IV Secretion System (T9SS); 2.4A {Porphyromonas gingivalis}
+Probab=6.29  E-value=5.3e+02  Score=11.20  Aligned_cols=6  Identities=50%  Similarity=0.684  Sum_probs=0.0  Template_Neff=6.900
+
+Q QTDARN            1 QTDARN    6 (6)
+Q Consensus         1 qtdarn    6 (6)
+                      |.|.++
+T Consensus       180 Q~DV~~  185 (197)
+T 6EY0_C          180 QSDVRY  185 (197)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 9
+>6DHG_M Photosystem II; PHOTOSYSTEMS, TRANSMEMBRANE, ROOM TEMPERATURE, ELECTRON; HET: SQD, DGD, UNL, HEM, LMG, HEC, PL9, FME, OEX, LHG, BCR, BCT, PHO, CLA; 2.5A {Thermosynechococcus elongatus (strain BP-1)}
+Probab=5.72  E-value=6e+02  Score=9.43  Aligned_cols=6  Identities=33%  Similarity=0.623  Sum_probs=0.0  Template_Neff=2.900
+
+Q QTDARN            1 QTDARN    6 (6)
+Q Consensus         1 qtdarn    6 (6)
+                      ||.+++
+T Consensus        28 qT~s~~   33 (33)
+T 6DHG_M           28 QTESQQ   33 (33)
+T ss_pred             HhhcCC
+
+
+No 10
+>6WJ6_M Photosystem II; Photosystem, oxidoreductase, water-splitting, photoactivation, PHOTOSYNTHESIS; HET: LHG, CLA, FME, BCR, PL9, LMG, PHO, LMT, HEM, SQD, DGD; 2.58A {Synechocystis sp. (strain PCC 6803 / Kazusa)}
+Probab=5.35  E-value=6.5e+02  Score=9.44  Aligned_cols=6  Identities=33%  Similarity=0.407  Sum_probs=0.0  Template_Neff=2.900
+
+Q QTDARN            1 QTDARN    6 (6)
+Q Consensus         1 qtdarn    6 (6)
+                      ||.+|+
+T Consensus        28 qT~s~~   33 (35)
+T 6WJ6_M           28 QTGKQS   33 (35)
+T ss_pred             Hhhccc
+
+

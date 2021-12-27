@@ -1,0 +1,148 @@
+Query         SGSNSG
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 14:35:26 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/SGSNSG/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/SGSNSG/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6R4V_C Geranylgeranyl pyrophos  41.7      24 0.00027   15.0   0.0    6    1-6       2-7   (307)
+  2 6SLM_A Maltodextrin-binding pr  17.6 1.3E+02  0.0014   13.7   0.0    6    1-6     523-528 (551)
+  3 4NEY_B Engineered protein OR27  16.4 1.4E+02  0.0015   14.5   0.0    6    1-6      80-85  (173)
+  4 2V7Q_J ATP SYNTHASE SUBUNIT AL  16.3 1.4E+02  0.0016   12.1   0.0    5    2-6       1-5   (66)
+  5 6ER1_A Centrosome-associated z  15.5 1.5E+02  0.0017    9.8   0.0    5    1-5       1-5   (131)
+  6 6RAW_L DNA replication licensi  15.2 1.6E+02  0.0017   12.5   0.0    6    1-6     189-194 (203)
+  7 6RAX_L DNA replication licensi  15.2 1.6E+02  0.0017   12.5   0.0    6    1-6     189-194 (203)
+  8 6R4V_A Geranylgeranyl pyrophos  15.1 1.6E+02  0.0018   12.7   0.0    6    1-6       2-7   (307)
+  9 1WIF_A RIKEN cDNA 4930408O21;   14.6 1.7E+02  0.0018   10.0   0.0    6    1-6     121-126 (126)
+ 10 3IP0_A 2-amino-4-hydroxy-6-hyd  13.2 1.9E+02  0.0021   12.0   0.0    5    2-6       8-12  (158)
+
+No 1
+>6R4V_C Geranylgeranyl pyrophosphate synthase (E.C.2.5.1.-,2.5.1.1,2.5.1.29,2.5.1.10); Bisphosphonate, ibandronate, geranylgeranyl diphosphate, prenyltransferase; HET: GOL, MG, BFQ; 2.202A {Homo sapiens}
+Probab=41.73  E-value=24  Score=14.96  Aligned_cols=6  Identities=83%  Similarity=1.121  Sum_probs=3.5  Template_Neff=8.700
+
+Q SGSNSG            1 SGSNSG    6 (6)
+Q Consensus         1 sgsnsg    6 (6)
+                      ||||+|
+T Consensus         2 ~~~~~~    7 (307)
+T 6R4V_C            2 SGSGSG    7 (307)
+T ss_pred             CCCccc
+Confidence            466664
+
+
+No 2
+>6SLM_A Maltodextrin-binding protein,Protein E6; viral protein, ONCOPROTEIN; HET: GLC, GOL; 2.8A {Escherichia coli (strain K12)}
+Probab=17.56  E-value=1.3e+02  Score=13.66  Aligned_cols=6  Identities=83%  Similarity=1.121  Sum_probs=0.0  Template_Neff=9.400
+
+Q SGSNSG            1 SGSNSG    6 (6)
+Q Consensus         1 sgsnsg    6 (6)
+                      |||.||
+T Consensus       523 ~~~~~~  528 (551)
+T 6SLM_A          523 SGSGSG  528 (551)
+T ss_dssp             CC----
+T ss_pred             CCCCCC
+
+
+No 3
+>4NEY_B Engineered protein OR277; Structural Genomics, PSI-Biology, ferredoxin fold; HET: 4NE, MSE; 2.323A {N/A}
+Probab=16.44  E-value=1.4e+02  Score=14.48  Aligned_cols=6  Identities=83%  Similarity=1.121  Sum_probs=0.0  Template_Neff=1.000
+
+Q SGSNSG            1 SGSNSG    6 (6)
+Q Consensus         1 sgsnsg    6 (6)
+                      |||.||
+T Consensus        80 sgsgsg   85 (173)
+T 4NEY_B           80 SGSGSG   85 (173)
+T ss_dssp             CCSSCC
+T ss_pred             cCCCCc
+
+
+No 4
+>2V7Q_J ATP SYNTHASE SUBUNIT ALPHA HEART; ION TRANSPORT, MITOCHONDRION, TRANSIT PEPTIDE; HET: ADP, ATP; 2.1A {BOS TAURUS} SCOP: h.4.8.1
+Probab=16.31  E-value=1.4e+02  Score=12.06  Aligned_cols=5  Identities=80%  Similarity=1.232  Sum_probs=0.0  Template_Neff=4.000
+
+Q SGSNSG            2 GSNSG    6 (6)
+Q Consensus         2 gsnsg    6 (6)
+                      |||+|
+T Consensus         1 ~~~~~    5 (66)
+T 2V7Q_J            1 GSESG    5 (66)
+T ss_dssp             -----
+T ss_pred             CCCCc
+
+
+No 5
+>6ER1_A Centrosome-associated zinc finger protein CP190; Architectural protein, insulator, BTB-domain, CP190; 1.4A {Drosophila melanogaster}
+Probab=15.52  E-value=1.5e+02  Score=9.79  Aligned_cols=5  Identities=60%  Similarity=0.607  Sum_probs=0.0  Template_Neff=11.300
+
+Q SGSNSG            1 SGSNS    5 (6)
+Q Consensus         1 sgsns    5 (6)
+                      ||+++
+T Consensus         1 ~~~~~    5 (131)
+T 6ER1_A            1 SGSEF    5 (131)
+T ss_dssp             -----
+T ss_pred             Ccccc
+
+
+No 6
+>6RAW_L DNA replication licensing factor Mcm2; Helicase, ATPase, AAA+, DNA unwinding; HET: ATP, ADP; 3.7A {Drosophila melanogaster}
+Probab=15.23  E-value=1.6e+02  Score=12.55  Aligned_cols=6  Identities=67%  Similarity=1.088  Sum_probs=0.0  Template_Neff=7.400
+
+Q SGSNSG            1 SGSNSG    6 (6)
+Q Consensus         1 sgsnsg    6 (6)
+                      |||.||
+T Consensus       189 ~~~~~~  194 (203)
+T 6RAW_L          189 AGSSSG  194 (203)
+T ss_pred             hcccCC
+
+
+No 7
+>6RAX_L DNA replication licensing factor Mcm2; Helicase, ATPase, AAA+, DNA unwinding; HET: ATP, ADP; 3.99A {Drosophila melanogaster}
+Probab=15.23  E-value=1.6e+02  Score=12.55  Aligned_cols=6  Identities=67%  Similarity=1.088  Sum_probs=0.0  Template_Neff=7.400
+
+Q SGSNSG            1 SGSNSG    6 (6)
+Q Consensus         1 sgsnsg    6 (6)
+                      |||.||
+T Consensus       189 ~~~~~~  194 (203)
+T 6RAX_L          189 AGSSSG  194 (203)
+T ss_pred             hcccCC
+
+
+No 8
+>6R4V_A Geranylgeranyl pyrophosphate synthase (E.C.2.5.1.-,2.5.1.1,2.5.1.29,2.5.1.10); Bisphosphonate, ibandronate, geranylgeranyl diphosphate, prenyltransferase; HET: MG, GOL, BFQ; 2.202A {Homo sapiens}
+Probab=15.06  E-value=1.6e+02  Score=12.69  Aligned_cols=6  Identities=83%  Similarity=1.121  Sum_probs=0.0  Template_Neff=8.600
+
+Q SGSNSG            1 SGSNSG    6 (6)
+Q Consensus         1 sgsnsg    6 (6)
+                      |||+++
+T Consensus         2 ~~~~~~    7 (307)
+T 6R4V_A            2 SGSGSG    7 (307)
+T ss_dssp             ------
+T ss_pred             CCCCCc
+
+
+No 9
+>1WIF_A RIKEN cDNA 4930408O21; PDZ domain, structural genomics, mouse; NMR {Mus musculus} SCOP: b.36.1.1
+Probab=14.61  E-value=1.7e+02  Score=9.99  Aligned_cols=6  Identities=67%  Similarity=1.049  Sum_probs=0.0  Template_Neff=10.600
+
+Q SGSNSG            1 SGSNSG    6 (6)
+Q Consensus         1 sgsnsg    6 (6)
+                      +|+.||
+T Consensus       121 ~~~~~~  126 (126)
+T 1WIF_A          121 SGPSSG  126 (126)
+T ss_dssp             SCSCCC
+T ss_pred             CCCCCC
+
+
+No 10
+>3IP0_A 2-amino-4-hydroxy-6-hydroxymethyldihydropteridine pyrophosphokinase (E.C.2.7.6.3); alpha beta, ATP-binding, Folate biosynthesis; HET: HHS, APC, HHR, ACT; 0.89A {Escherichia coli}
+Probab=13.23  E-value=1.9e+02  Score=12.02  Aligned_cols=5  Identities=60%  Similarity=0.734  Sum_probs=0.0  Template_Neff=7.000
+
+Q SGSNSG            2 GSNSG    6 (6)
+Q Consensus         2 gsnsg    6 (6)
+                      |||.|
+T Consensus         8 GSNlg   12 (158)
+T 3IP0_A            8 GSNLA   12 (158)
+T ss_dssp             EECSS
+T ss_pred             CCCCC
+
+

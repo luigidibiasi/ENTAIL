@@ -1,0 +1,150 @@
+Query         STEIIE
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 17:17:55 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/STEIIE/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/STEIIE/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3P0U_A Nuclear receptor subfam   5.7   6E+02  0.0066    9.9   0.0    6    1-6       4-9   (249)
+  2 4ZCQ_A CTP:phosphocholine cyti   5.4 6.4E+02  0.0071    9.7   0.0    6    1-6     166-171 (180)
+  3 4ZCR_A CTP:phosphocholine cyti   5.4 6.4E+02  0.0071    9.7   0.0    6    1-6     166-171 (180)
+  4 1USD_A VASODILATOR-STIMULATED    5.4 6.5E+02  0.0072    9.5   0.0    4    3-6      30-33  (45)
+  5 1USE_A VASODILATOR-STIMULATED    5.2 6.8E+02  0.0075    9.4   0.0    4    3-6      30-33  (45)
+  6 4F3R_B Phosphopantetheine aden   5.2 6.8E+02  0.0076    9.0   0.0    6    1-6     131-136 (162)
+  7 4NAH_E Phosphopantetheine aden   5.0 7.1E+02  0.0079    8.8   0.0    6    1-6     130-135 (160)
+  8 4NAT_B Phosphopantetheine aden   5.0 7.1E+02  0.0079    8.8   0.0    6    1-6     130-135 (160)
+  9 6L6R_C Low-density lipoprotein   4.8 7.4E+02  0.0082   10.9   0.0    5    1-5      14-18  (158)
+ 10 6LKF_A AcrIIA5; Inhibitor, PRO   4.5 8.1E+02  0.0089   11.8   0.0    5    2-6      92-96  (140)
+
+No 1
+>3P0U_A Nuclear receptor subfamily 2 group; Ligand binding domain, Orphan nuclear; 3.0A {Homo sapiens}
+Probab=5.75  E-value=6e+02  Score=9.92  Aligned_cols=6  Identities=83%  Similarity=0.877  Sum_probs=0.0  Template_Neff=10.300
+
+Q STEIIE            1 STEIIE    6 (6)
+Q Consensus         1 steiie    6 (6)
+                      |+.|+|
+T Consensus         4 ~~~~~~    9 (249)
+T 3P0U_A            4 STPIIE    9 (249)
+T ss_dssp             SSCSSS
+T ss_pred             CCCccc
+
+
+No 2
+>4ZCQ_A CTP:phosphocholine cytidylyltransferase (E.C.2.7.7.15); enzyme, malaria, cytidylyltransferase, phosphatidylcholine, transferase; 1.92A {Plasmodium falciparum}
+Probab=5.43  E-value=6.4e+02  Score=9.75  Aligned_cols=6  Identities=33%  Similarity=0.645  Sum_probs=0.0  Template_Neff=9.300
+
+Q STEIIE            1 STEIIE    6 (6)
+Q Consensus         1 steiie    6 (6)
+                      ||+|.+
+T Consensus       166 ST~IR~  171 (180)
+T 4ZCQ_A          166 TTDLIV  171 (180)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 3
+>4ZCR_A CTP:phosphocholine cytidylyltransferase (E.C.2.7.7.15); enzyme, malaria, cytidylyltransferase, phosphatidylcholine, transferase; HET: PC; 1.8A {Plasmodium falciparum}
+Probab=5.43  E-value=6.4e+02  Score=9.75  Aligned_cols=6  Identities=33%  Similarity=0.645  Sum_probs=0.0  Template_Neff=9.300
+
+Q STEIIE            1 STEIIE    6 (6)
+Q Consensus         1 steiie    6 (6)
+                      ||+|.+
+T Consensus       166 ST~IR~  171 (180)
+T 4ZCR_A          166 TTDLIV  171 (180)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 4
+>1USD_A VASODILATOR-STIMULATED PHOSPHOPROTEIN; SIGNALING PROTEIN, PHOSPHORYLATION, ACTIN-BINDING, KINASE; 1.7A {HOMO SAPIENS} SCOP: h.1.29.1
+Probab=5.38  E-value=6.5e+02  Score=9.48  Aligned_cols=4  Identities=100%  Similarity=1.265  Sum_probs=0.0  Template_Neff=4.200
+
+Q STEIIE            3 EIIE    6 (6)
+Q Consensus         3 eiie    6 (6)
+                      |||+
+T Consensus        30 EII~   33 (45)
+T 1USD_A           30 EIIE   33 (45)
+T ss_dssp             HHHH
+T ss_pred             HHHH
+
+
+No 5
+>1USE_A VASODILATOR-STIMULATED PHOSPHOPROTEIN; SIGNALING PROTEIN,, SIGNALING PROTEIN; 1.3A {HOMO SAPIENS} SCOP: h.1.29.1
+Probab=5.22  E-value=6.8e+02  Score=9.44  Aligned_cols=4  Identities=100%  Similarity=1.265  Sum_probs=0.0  Template_Neff=4.200
+
+Q STEIIE            3 EIIE    6 (6)
+Q Consensus         3 eiie    6 (6)
+                      |||+
+T Consensus        30 EII~   33 (45)
+T 1USE_A           30 EIIE   33 (45)
+T ss_dssp             HHHH
+T ss_pred             HHHH
+
+
+No 6
+>4F3R_B Phosphopantetheine adenylyltransferase (E.C.2.7.7.3); phosphopantetheine adenylyltranferase, TRANSFERASE; HET: MSE; 2.25A {Coxiella burnetii}
+Probab=5.17  E-value=6.8e+02  Score=9.04  Aligned_cols=6  Identities=33%  Similarity=0.291  Sum_probs=0.0  Template_Neff=10.300
+
+Q STEIIE            1 STEIIE    6 (6)
+Q Consensus         1 steiie    6 (6)
+                      ||+|.+
+T Consensus       131 st~iR~  136 (162)
+T 4F3R_B          131 GTMVRE  136 (162)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 7
+>4NAH_E Phosphopantetheine adenylyltransferase (E.C.2.7.7.3); phosphopanthetheine adenylyltransferase, phosphopanthetheine, Transferase-Transferase Inhibitor; HET: 2VJ, AGS; 2.38A {Staphylococcus aureus}
+Probab=5.00  E-value=7.1e+02  Score=8.84  Aligned_cols=6  Identities=33%  Similarity=0.313  Sum_probs=0.0  Template_Neff=10.600
+
+Q STEIIE            1 STEIIE    6 (6)
+Q Consensus         1 steiie    6 (6)
+                      ||+|.+
+T Consensus       130 st~iR~  135 (160)
+T 4NAH_E          130 SSIVKE  135 (160)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 8
+>4NAT_B Phosphopantetheine adenylyltransferase (E.C.2.7.7.3); CoaD, panthetheine, Phosphopanthetheine Adenylyltransferase, CoaBC; HET: 2W5, EPE, ADP; 1.72A {Staphylococcus aureus}
+Probab=5.00  E-value=7.1e+02  Score=8.84  Aligned_cols=6  Identities=33%  Similarity=0.313  Sum_probs=0.0  Template_Neff=10.600
+
+Q STEIIE            1 STEIIE    6 (6)
+Q Consensus         1 steiie    6 (6)
+                      ||+|.+
+T Consensus       130 st~iR~  135 (160)
+T 4NAT_B          130 SSIVKE  135 (160)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 9
+>6L6R_C Low-density lipoprotein receptor-related protein 6; LRP6, Sclerostin, Wnt signaling, inhibitor; HET: FUC, NAG; 3.8A {Homo sapiens}
+Probab=4.84  E-value=7.4e+02  Score=10.86  Aligned_cols=5  Identities=80%  Similarity=1.012  Sum_probs=0.0  Template_Neff=5.800
+
+Q STEIIE            1 STEII    5 (6)
+Q Consensus         1 steii    5 (6)
+                      .||||
+T Consensus        14 ate~~   18 (158)
+T 6L6R_C           14 ATEII   18 (158)
+T ss_dssp             -----
+T ss_pred             ccccc
+
+
+No 10
+>6LKF_A AcrIIA5; Inhibitor, PROTEIN BINDING; NMR {Streptococcus phage D4276}
+Probab=4.53  E-value=8.1e+02  Score=11.76  Aligned_cols=5  Identities=60%  Similarity=0.953  Sum_probs=0.0  Template_Neff=1.400
+
+Q STEIIE            2 TEIIE    6 (6)
+Q Consensus         2 teiie    6 (6)
+                      ++|||
+T Consensus        92 ~~ii~   96 (140)
+T 6LKF_A           92 VDIIE   96 (140)
+T ss_dssp             HHHHH
+T ss_pred             HHHHh
+
+

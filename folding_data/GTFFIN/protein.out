@@ -1,0 +1,471 @@
+Query         GTFFIN
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 03:54:47 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GTFFIN/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GTFFIN/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4KBM_A DNA-directed RNA polyme  53.3      12 0.00013   16.4   0.0    6    1-6     134-139 (409)
+  2 2C71_A GLYCOSIDE HYDROLASE, FA  45.5      19 0.00021   13.7   0.0    6    1-6      34-39  (216)
+  3 3GZF_A Replicase polyprotein 1  42.4      23 0.00026   15.4   0.0    6    1-6      18-23  (96)
+  4 3S6O_C Polysaccharide deacetyl  42.4      23 0.00026   14.6   0.0    6    1-6     102-107 (321)
+  5 3VCB_A RNA-directed RNA polyme  41.9      24 0.00027   15.3   0.0    6    1-6      13-18  (94)
+  6 3VC8_B RNA-directed RNA polyme  41.4      25 0.00027   15.3   0.0    6    1-6      13-18  (94)
+  7 4KBJ_B DNA-directed RNA polyme  40.9      25 0.00028   16.1   0.0    6    1-6     134-139 (409)
+  8 3RXZ_C Polysaccharide deacetyl  40.8      26 0.00028   13.8   0.0    6    1-6      78-83  (300)
+  9 2QV5_A Uncharacterized protein  40.5      26 0.00029   14.2   0.0    6    1-6      57-62  (261)
+ 10 5Z34_A Chitin deacetylase (E.C  38.2      30 0.00033   14.9   0.0    6    1-6      72-77  (369)
+ 11 7K3G_A Envelope small membrane  37.2      32 0.00035   12.9   0.0    6    1-6       3-8   (31)
+ 12 5ZNT_A Chitin deacetylase (E.C  32.3      43 0.00048   14.5   0.0    6    1-6      74-79  (385)
+ 13 6WMP_C RNA polymerase/DNA/RNA   30.1      50 0.00055   17.5   0.0    6    1-6     139-144 (1358)
+ 14 7EEA_A Tailspike receptor-bind  27.4      59 0.00065   18.1   0.0    6    1-6     303-308 (664)
+ 15 6PST_I DNA-directed RNA polyme  27.3      60 0.00066   17.2   0.0    6    1-6     134-139 (1342)
+ 16 2CZR_A TBP-interacting protein  27.0      61 0.00067   16.1   0.0    6    1-6      81-86  (226)
+ 17 6EU2_B DNA-directed RNA polyme  26.3      64 0.00071   16.7   0.0    6    1-6     183-188 (1149)
+ 18 3WX7_A Chitin oligosaccharide   26.0      66 0.00072   14.7   0.0    6    1-6      31-36  (402)
+ 19 6J9E_C DNA-directed RNA polyme  25.9      66 0.00073   17.3   0.0    6    1-6     139-144 (1383)
+ 20 6J9F_C DNA-directed RNA polyme  25.9      66 0.00073   17.3   0.0    6    1-6     139-144 (1383)
+ 21 7AE1_B DNA-directed RNA polyme  23.3      79 0.00088   16.4   0.0    6    1-6     167-172 (1133)
+ 22 7AST_M DNA-directed RNA polyme  23.3      79 0.00088   16.4   0.0    6    1-6     167-172 (1133)
+ 23 7NVU_B RPB1, DNA-directed RNA   22.8      82 0.00091   16.3   0.0    6    1-6     183-188 (1174)
+ 24 1IIE_A HLA-DR ANTIGENS ASSOCIA  22.3      85 0.00094   12.9   0.0    6    1-6      27-32  (75)
+ 25 5IY9_B DNA-directed RNA polyme  21.8      88 0.00098   16.3   0.0    6    1-6     183-188 (1174)
+ 26 6WOY_C DNA-directed RNA polyme  21.7      90 0.00099   16.0   0.0    6    1-6     125-130 (1119)
+ 27 7OK0_B RNA polymerase, transcr  21.3      92   0.001   16.1   0.0    6    1-6     148-153 (1126)
+ 28 4NY2_B Deacetylase DA1 (E.C.3.  21.2      93   0.001   14.5   0.0    6    1-6      35-40  (419)
+ 29 5ZX3_C DNA-directed RNA polyme  21.2      93   0.001   16.3   0.0    6    1-6     160-165 (1174)
+ 30 6DV9_C DNA-directed RNA polyme  21.0      95   0.001   16.3   0.0    6    1-6     164-169 (1178)
+ 31 5VVR_B DNA-directed RNA polyme  20.1   1E+02  0.0011   16.2   0.0    6    1-6     201-206 (1224)
+
+No 1
+>4KBM_A DNA-directed RNA polymerase subunit beta; Structural Genomics, TB Structural Genomics; 2.1146A {Mycobacterium tuberculosis}
+Probab=53.27  E-value=12  Score=16.42  Aligned_cols=6  Identities=83%  Similarity=1.381  Sum_probs=3.8  Template_Neff=8.700
+
+Q GTFFIN            1 GTFFIN    6 (6)
+Q Consensus         1 gtffin    6 (6)
+                      |+|.||
+T Consensus       134 GyFIIN  139 (409)
+T 4KBM_A          134 GTFIIN  139 (409)
+T ss_dssp             SCEEET
+T ss_pred             cEEEEC
+Confidence            566665
+
+
+No 2
+>2C71_A GLYCOSIDE HYDROLASE, FAMILY 11\:CLOSTRIDIUM CELLULOSOME; ACETYL-XYLAN, ESTERASES, METAL-ION, HYDROLASE; 1.05A {CLOSTRIDIUM THERMOCELLUM} SCOP: c.6.2.3
+Probab=45.51  E-value=19  Score=13.75  Aligned_cols=6  Identities=33%  Similarity=0.694  Sum_probs=3.0  Template_Neff=10.000
+
+Q GTFFIN            1 GTFFIN    6 (6)
+Q Consensus         1 gtffin    6 (6)
+                      +|||++
+T Consensus        34 aT~fv~   39 (216)
+T 2C71_A           34 ATFMVV   39 (216)
+T ss_dssp             CEEEEC
+T ss_pred             eEEEEc
+Confidence            356653
+
+
+No 3
+>3GZF_A Replicase polyprotein 1ab; Coronavirus, FCoV, nsp4, VIRAL PROTEIN; HET: SO4; 2.756A {Feline coronavirus}
+Probab=42.44  E-value=23  Score=15.39  Aligned_cols=6  Identities=67%  Similarity=1.243  Sum_probs=3.7  Template_Neff=3.100
+
+Q GTFFIN            1 GTFFIN    6 (6)
+Q Consensus         1 gtffin    6 (6)
+                      |||.||
+T Consensus        18 ~TFvi~   23 (96)
+T 3GZF_A           18 GTFVID   23 (96)
+T ss_dssp             SCEEEC
+T ss_pred             ceEEEe
+Confidence            467664
+
+
+No 4
+>3S6O_C Polysaccharide deacetylase family protein (E.C.3.5.1.-); SSGCID, NIH, Structural Genomics, Seattle; 1.85A {Burkholderia pseudomallei}
+Probab=42.43  E-value=23  Score=14.63  Aligned_cols=6  Identities=33%  Similarity=-0.081  Sum_probs=3.4  Template_Neff=9.500
+
+Q GTFFIN            1 GTFFIN    6 (6)
+Q Consensus         1 gtffin    6 (6)
+                      +|||++
+T Consensus       102 aTffv~  107 (321)
+T 3S6O_C          102 LTVFGV  107 (321)
+T ss_dssp             CEEEEC
+T ss_pred             EEEEEc
+Confidence            466664
+
+
+No 5
+>3VCB_A RNA-directed RNA polymerase; New fold  Homodimer, Host; 2.4A {Murine hepatitis virus}
+Probab=41.91  E-value=24  Score=15.34  Aligned_cols=6  Identities=50%  Similarity=0.805  Sum_probs=3.8  Template_Neff=3.000
+
+Q GTFFIN            1 GTFFIN    6 (6)
+Q Consensus         1 gtffin    6 (6)
+                      |||.||
+T Consensus        13 ~TFvi~   18 (94)
+T 3VCB_A           13 TTFMIT   18 (94)
+T ss_dssp             SCEEEC
+T ss_pred             ceeEEc
+Confidence            567764
+
+
+No 6
+>3VC8_B RNA-directed RNA polymerase; New fold, Host membrane, Multi-pass; 2.0A {Murine hepatitis virus}
+Probab=41.36  E-value=25  Score=15.29  Aligned_cols=6  Identities=50%  Similarity=0.805  Sum_probs=3.8  Template_Neff=3.000
+
+Q GTFFIN            1 GTFFIN    6 (6)
+Q Consensus         1 gtffin    6 (6)
+                      |||.||
+T Consensus        13 ~TFvi~   18 (94)
+T 3VC8_B           13 TTFMIT   18 (94)
+T ss_dssp             SCEEEC
+T ss_pred             ceeEec
+Confidence            567764
+
+
+No 7
+>4KBJ_B DNA-directed RNA polymerase subunit beta; Structural Genomics, TB Structural Genomics; 2.4532A {Mycobacterium tuberculosis}
+Probab=40.94  E-value=25  Score=16.11  Aligned_cols=6  Identities=83%  Similarity=1.381  Sum_probs=3.6  Template_Neff=7.600
+
+Q GTFFIN            1 GTFFIN    6 (6)
+Q Consensus         1 gtffin    6 (6)
+                      |+|.||
+T Consensus       134 GyFIIN  139 (409)
+T 4KBJ_B          134 GTFIIN  139 (409)
+T ss_dssp             SCEEET
+T ss_pred             cEEEEC
+Confidence            566665
+
+
+No 8
+>3RXZ_C Polysaccharide deacetylase; Structural Genomics, PSI-Biology, Midwest Center; HET: MSE; 2.01A {Mycobacterium smegmatis}
+Probab=40.85  E-value=26  Score=13.79  Aligned_cols=6  Identities=67%  Similarity=1.403  Sum_probs=3.1  Template_Neff=10.500
+
+Q GTFFIN            1 GTFFIN    6 (6)
+Q Consensus         1 gtffin    6 (6)
+                      +|||++
+T Consensus        78 aTffv~   83 (300)
+T 3RXZ_C           78 GTFFVP   83 (300)
+T ss_dssp             EEEEEC
+T ss_pred             EEEEee
+Confidence            356653
+
+
+No 9
+>2QV5_A Uncharacterized protein Atu2773; STRUCTURAL GENOMICS, UNKNOWN FUNCTION, PSI-2; 1.9A {Agrobacterium tumefaciens str.}
+Probab=40.54  E-value=26  Score=14.20  Aligned_cols=6  Identities=17%  Similarity=-0.180  Sum_probs=3.4  Template_Neff=9.300
+
+Q GTFFIN            1 GTFFIN    6 (6)
+Q Consensus         1 gtffin    6 (6)
+                      .|||++
+T Consensus        57 aTFfv~   62 (261)
+T 2QV5_A           57 VTLGFA   62 (261)
+T ss_dssp             SEEEEE
+T ss_pred             eEEEEC
+Confidence            367763
+
+
+No 10
+>5Z34_A Chitin deacetylase (E.C.3.5.1.41); Chitin deacetylase, Bombyx mori, activity; HET: NAG; 2.399A {Bombyx mori}
+Probab=38.17  E-value=30  Score=14.89  Aligned_cols=6  Identities=33%  Similarity=1.060  Sum_probs=3.5  Template_Neff=9.000
+
+Q GTFFIN            1 GTFFIN    6 (6)
+Q Consensus         1 gtffin    6 (6)
+                      +||||+
+T Consensus        72 aTffv~   77 (369)
+T 5Z34_A           72 ATFYVS   77 (369)
+T ss_pred             eEEEec
+Confidence            467763
+
+
+No 11
+>7K3G_A Envelope small membrane protein; Viroporin, Pentameric Ion Channel, Transmembrane; NMR {Severe acute respiratory syndrome coronavirus 2}
+Probab=37.21  E-value=32  Score=12.87  Aligned_cols=6  Identities=50%  Similarity=1.054  Sum_probs=3.0  Template_Neff=2.000
+
+Q GTFFIN            1 GTFFIN    6 (6)
+Q Consensus         1 gtffin    6 (6)
+                      |+|.+|
+T Consensus         3 Gt~IVN    8 (31)
+T 7K3G_A            3 GTLIVN    8 (31)
+T ss_dssp             THHHHH
+T ss_pred             chHHHH
+Confidence            455544
+
+
+No 12
+>5ZNT_A Chitin deacetylase (E.C.3.5.1.41); Chitin deacetylase, Bombyx mori, activity; HET: NAG; 1.979A {Bombyx mori}
+Probab=32.32  E-value=43  Score=14.48  Aligned_cols=6  Identities=33%  Similarity=1.060  Sum_probs=3.3  Template_Neff=9.100
+
+Q GTFFIN            1 GTFFIN    6 (6)
+Q Consensus         1 gtffin    6 (6)
+                      +||||+
+T Consensus        74 aTfFv~   79 (385)
+T 5ZNT_A           74 ATYFVS   79 (385)
+T ss_pred             eEEEec
+Confidence            366663
+
+
+No 13
+>6WMP_C RNA polymerase/DNA/RNA complex; RNA polymerase complex, TRANSCRIPTION; 2.98A {Francisella tularensis subsp. holarctica (strain LVS)}
+Probab=30.06  E-value=50  Score=17.53  Aligned_cols=6  Identities=83%  Similarity=1.381  Sum_probs=4.2  Template_Neff=7.800
+
+Q GTFFIN            1 GTFFIN    6 (6)
+Q Consensus         1 gtffin    6 (6)
+                      |+|.||
+T Consensus       139 GyFIIN  144 (1358)
+T 6WMP_C          139 GTFIIN  144 (1358)
+T ss_dssp             SCEESS
+T ss_pred             ceEEEC
+Confidence            677776
+
+
+No 14
+>7EEA_A Tailspike receptor-binding domain, VIRAL PROTEIN; 2.671A {unidentified}
+Probab=27.43  E-value=59  Score=18.12  Aligned_cols=6  Identities=83%  Similarity=1.608  Sum_probs=4.6  Template_Neff=1.000
+
+Q GTFFIN            1 GTFFIN    6 (6)
+Q Consensus         1 gtffin    6 (6)
+                      |||+||
+T Consensus       303 gtfyin  308 (664)
+T 7EEA_A          303 GTFYIN  308 (664)
+T ss_dssp             SSEEEE
+T ss_pred             ceEEec
+Confidence            678886
+
+
+No 15
+>6PST_I DNA-directed RNA polymerase subunit alpha; TRANSCRIPTION, transcription-dna complex; HET: 1N7; 3.0A {Escherichia coli}
+Probab=27.33  E-value=60  Score=17.25  Aligned_cols=6  Identities=83%  Similarity=1.331  Sum_probs=4.1  Template_Neff=7.800
+
+Q GTFFIN            1 GTFFIN    6 (6)
+Q Consensus         1 gtffin    6 (6)
+                      |+|.||
+T Consensus       134 GyFIIN  139 (1342)
+T 6PST_I          134 GTFVIN  139 (1342)
+T ss_pred             cEEEEC
+Confidence            667776
+
+
+No 16
+>2CZR_A TBP-interacting protein; TATA-binding protein (TBP), TBP-interacting protein; HET: GOL; 2.3A {Thermococcus kodakarensis} SCOP: c.52.4.1
+Probab=27.00  E-value=61  Score=16.14  Aligned_cols=6  Identities=50%  Similarity=1.303  Sum_probs=3.5  Template_Neff=2.000
+
+Q GTFFIN            1 GTFFIN    6 (6)
+Q Consensus         1 gtffin    6 (6)
+                      |||+||
+T Consensus        81 ~tFYi~   86 (226)
+T 2CZR_A           81 GVFYIK   86 (226)
+T ss_dssp             TCEEEE
+T ss_pred             CeEEEe
+Confidence            466664
+
+
+No 17
+>6EU2_B DNA-directed RNA polymerase III subunit; RNA Pol III, promoter opening;{Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=26.31  E-value=64  Score=16.73  Aligned_cols=6  Identities=50%  Similarity=1.088  Sum_probs=3.9  Template_Neff=8.000
+
+Q GTFFIN            1 GTFFIN    6 (6)
+Q Consensus         1 gtffin    6 (6)
+                      |+|.||
+T Consensus       183 GYFIIN  188 (1149)
+T 6EU2_B          183 GYFIVN  188 (1149)
+T ss_dssp             CCEEET
+T ss_pred             ceEEEC
+Confidence            567665
+
+
+No 18
+>3WX7_A Chitin oligosaccharide deacetylase; oligosaccharide deacetylace, carbohydrate-binding, HYDROLASE; HET: GOL; 1.349A {Vibrio parahaemolyticus}
+Probab=25.95  E-value=66  Score=14.74  Aligned_cols=6  Identities=50%  Similarity=1.104  Sum_probs=3.4  Template_Neff=7.800
+
+Q GTFFIN            1 GTFFIN    6 (6)
+Q Consensus         1 gtffin    6 (6)
+                      +|||++
+T Consensus        31 atff~~   36 (402)
+T 3WX7_A           31 ATFYFN   36 (402)
+T ss_dssp             CEEEEC
+T ss_pred             EEEEEc
+Confidence            466653
+
+
+No 19
+>6J9E_C DNA-directed RNA polymerase subunit alpha; RNA polymerase, transcription termination, anti-termination; 3.41A {Xanthomonas oryzae pv. oryzae (strain PXO99A)}
+Probab=25.93  E-value=66  Score=17.28  Aligned_cols=6  Identities=67%  Similarity=1.331  Sum_probs=4.1  Template_Neff=7.600
+
+Q GTFFIN            1 GTFFIN    6 (6)
+Q Consensus         1 gtffin    6 (6)
+                      |+|.||
+T Consensus       139 GyFIIN  144 (1383)
+T 6J9E_C          139 GTFIVN  144 (1383)
+T ss_dssp             SCEEET
+T ss_pred             eeEEEC
+Confidence            667776
+
+
+No 20
+>6J9F_C DNA-directed RNA polymerase subunit alpha; RNA polymerase, transcription termination, anti-termination; 3.95A {Xanthomonas oryzae pv. oryzae PXO99A}
+Probab=25.93  E-value=66  Score=17.28  Aligned_cols=6  Identities=67%  Similarity=1.331  Sum_probs=4.1  Template_Neff=7.600
+
+Q GTFFIN            1 GTFFIN    6 (6)
+Q Consensus         1 gtffin    6 (6)
+                      |+|.||
+T Consensus       139 GyFIIN  144 (1383)
+T 6J9F_C          139 GTFIVN  144 (1383)
+T ss_dssp             TBEESS
+T ss_pred             eeEEEC
+Confidence            667776
+
+
+No 21
+>7AE1_B DNA-directed RNA polymerase III subunit; HUMAN, TRANSCRIPTION, SHORT RNAs; 2.8A {Homo sapiens}
+Probab=23.28  E-value=79  Score=16.40  Aligned_cols=6  Identities=33%  Similarity=0.922  Sum_probs=3.7  Template_Neff=8.000
+
+Q GTFFIN            1 GTFFIN    6 (6)
+Q Consensus         1 gtffin    6 (6)
+                      |+|.||
+T Consensus       167 GYFIIN  172 (1133)
+T 7AE1_B          167 GYFIVK  172 (1133)
+T ss_dssp             CCEEET
+T ss_pred             ceEEEC
+Confidence            566665
+
+
+No 22
+>7AST_M DNA-directed RNA polymerase III subunit; RNA Polymerase III, tRNA, Transcription;{Homo sapiens}
+Probab=23.28  E-value=79  Score=16.40  Aligned_cols=6  Identities=33%  Similarity=0.922  Sum_probs=3.7  Template_Neff=8.000
+
+Q GTFFIN            1 GTFFIN    6 (6)
+Q Consensus         1 gtffin    6 (6)
+                      |+|.||
+T Consensus       167 GYFIIN  172 (1133)
+T 7AST_M          167 GYFIVK  172 (1133)
+T ss_pred             ceEEEC
+Confidence            566665
+
+
+No 23
+>7NVU_B RPB1, DNA-directed RNA polymerase subunit; Initiation, TRANSCRIPTION; HET: ZN; 2.5A {Sus scrofa}
+Probab=22.85  E-value=82  Score=16.32  Aligned_cols=6  Identities=67%  Similarity=1.137  Sum_probs=3.8  Template_Neff=8.200
+
+Q GTFFIN            1 GTFFIN    6 (6)
+Q Consensus         1 gtffin    6 (6)
+                      |+|.||
+T Consensus       183 GYFIIN  188 (1174)
+T 7NVU_B          183 GYFIIN  188 (1174)
+T ss_dssp             CCEEET
+T ss_pred             ceEEEC
+Confidence            566665
+
+
+No 24
+>1IIE_A HLA-DR ANTIGENS ASSOCIATED INVARIANT CHAIN; MAJOR HISTOCOMPATIBILITY COMPLEX, ANTIGEN PROCESSING; NMR {Homo sapiens} SCOP: a.109.1.1
+Probab=22.34  E-value=85  Score=12.88  Aligned_cols=6  Identities=50%  Similarity=0.689  Sum_probs=3.0  Template_Neff=4.100
+
+Q GTFFIN            1 GTFFIN    6 (6)
+Q Consensus         1 gtffin    6 (6)
+                      |+|+.|
+T Consensus        27 ~tf~~N   32 (75)
+T 1IIE_A           27 GSFPEN   32 (75)
+T ss_dssp             SCHHHH
+T ss_pred             cChHHH
+Confidence            455554
+
+
+No 25
+>5IY9_B DNA-directed RNA polymerase II subunit; initiation, RNA polymerase II, human; HET: ZN; 6.3A {Homo sapiens}
+Probab=21.85  E-value=88  Score=16.27  Aligned_cols=6  Identities=67%  Similarity=1.137  Sum_probs=3.8  Template_Neff=8.100
+
+Q GTFFIN            1 GTFFIN    6 (6)
+Q Consensus         1 gtffin    6 (6)
+                      |+|.||
+T Consensus       183 GYFIIN  188 (1174)
+T 5IY9_B          183 GYFIIN  188 (1174)
+T ss_dssp             CSEEET
+T ss_pred             ceEEEC
+Confidence            566665
+
+
+No 26
+>6WOY_C DNA-directed RNA polymerase subunit alpha; Initially transcribing complex, TRANSCRIPTION, TRANSCRIPTION-DNA-RNA; HET: CH1; 3.0A {Thermus thermophilus}
+Probab=21.67  E-value=90  Score=16.00  Aligned_cols=6  Identities=67%  Similarity=1.326  Sum_probs=3.5  Template_Neff=8.400
+
+Q GTFFIN            1 GTFFIN    6 (6)
+Q Consensus         1 gtffin    6 (6)
+                      |+|.||
+T Consensus       125 GyFIIN  130 (1119)
+T 6WOY_C          125 GSFIIN  130 (1119)
+T ss_dssp             SCEESS
+T ss_pred             cEEEEC
+Confidence            556665
+
+
+No 27
+>7OK0_B RNA polymerase, transcription, Archaea, Crenarchaea;{Sulfolobus acidocaldarius (strain ATCC 33909 / DSM 639 / JCM 8929 / NBRC 15157 / NCIMB 11770)}
+Probab=21.27  E-value=92  Score=16.13  Aligned_cols=6  Identities=50%  Similarity=1.088  Sum_probs=3.6  Template_Neff=8.100
+
+Q GTFFIN            1 GTFFIN    6 (6)
+Q Consensus         1 gtffin    6 (6)
+                      |+|.||
+T Consensus       148 GYFIIN  153 (1126)
+T 7OK0_B          148 GYFIVN  153 (1126)
+T ss_dssp             CSEEET
+T ss_pred             ceEEEC
+Confidence            566665
+
+
+No 28
+>4NY2_B Deacetylase DA1 (E.C.3.5.1.41); (beta/alpha)7, carbohydrate esterase, HYDROLASE; HET: GOL; 1.879A {Vibrio cholerae}
+Probab=21.19  E-value=93  Score=14.47  Aligned_cols=6  Identities=50%  Similarity=1.104  Sum_probs=3.3  Template_Neff=7.600
+
+Q GTFFIN            1 GTFFIN    6 (6)
+Q Consensus         1 gtffin    6 (6)
+                      +|||++
+T Consensus        35 ~tff~~   40 (419)
+T 4NY2_B           35 ATFYFN   40 (419)
+T ss_dssp             CEEEEC
+T ss_pred             EEEEEc
+Confidence            366653
+
+
+No 29
+>5ZX3_C DNA-directed RNA polymerase subunit alpha; Mycobacterium tuberculosis, RNA polymerase, holoenzyme; 2.751A {Mycobacterium tuberculosis H37Rv}
+Probab=21.15  E-value=93  Score=16.30  Aligned_cols=6  Identities=83%  Similarity=1.381  Sum_probs=3.6  Template_Neff=7.900
+
+Q GTFFIN            1 GTFFIN    6 (6)
+Q Consensus         1 gtffin    6 (6)
+                      |+|.||
+T Consensus       160 GyFIIN  165 (1174)
+T 5ZX3_C          160 GTFIIN  165 (1174)
+T ss_dssp             SCEEET
+T ss_pred             eeEEEC
+Confidence            566665
+
+
+No 30
+>6DV9_C DNA-directed RNA polymerase/ECF RNA polymerase; Mycobacterium tuberculosis, RNA polymerase, ECF; 3.8A {Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv)}
+Probab=20.97  E-value=95  Score=16.29  Aligned_cols=6  Identities=83%  Similarity=1.381  Sum_probs=3.6  Template_Neff=7.900
+
+Q GTFFIN            1 GTFFIN    6 (6)
+Q Consensus         1 gtffin    6 (6)
+                      |+|.||
+T Consensus       164 GyFIIN  169 (1178)
+T 6DV9_C          164 GTFIIN  169 (1178)
+T ss_dssp             SCEEET
+T ss_pred             eEEEEC
+Confidence            566665
+
+
+No 31
+>5VVR_B DNA-directed RNA polymerase II subunit; complex, RNA polymerase, CSB, transcription; 5.8A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=20.11  E-value=1e+02  Score=16.16  Aligned_cols=6  Identities=67%  Similarity=1.137  Sum_probs=3.7  Template_Neff=8.100
+
+Q GTFFIN            1 GTFFIN    6 (6)
+Q Consensus         1 gtffin    6 (6)
+                      |.|.||
+T Consensus       201 GYFIIN  206 (1224)
+T 5VVR_B          201 GYFIIN  206 (1224)
+T ss_dssp             CSEEET
+T ss_pred             cEEEEC
+Confidence            566665
+
+

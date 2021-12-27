@@ -1,0 +1,148 @@
+Query         KSELPK
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 12:12:09 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/KSELPK/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/KSELPK/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 1Y3D_I subtilisin BPN' (E.C.3.   6.5 5.1E+02  0.0056    8.9   0.0    6    1-6       2-7   (64)
+  2 3KMI_A Putative membrane prote   6.3 5.3E+02  0.0058   11.1   0.0    6    1-6     141-146 (177)
+  3 3LK2_T F-actin-capping protein   5.7   6E+02  0.0067    9.9   0.0    4    2-5      12-15  (52)
+  4 2K5Q_A Hypothetical Membrane A   5.7 6.1E+02  0.0067   10.0   0.0    6    1-6      83-88  (105)
+  5 3KMI_B Putative membrane prote   5.6 6.2E+02  0.0068   10.8   0.0    6    1-6     141-146 (177)
+  6 6YWX_U 60S ribosomal protein L   5.5 6.3E+02   0.007   11.8   0.0    6    1-6     152-157 (161)
+  7 2DOG_A Probable 16S rRNA-proce   5.3 6.7E+02  0.0074    8.8   0.0    6    1-6      78-83  (85)
+  8 3NPP_B Crystal structure of a    5.2 6.8E+02  0.0075    9.0   0.0    6    1-6      75-80  (87)
+  9 6Y17_D Nuclear receptor corepr   4.8 7.5E+02  0.0083    7.0   0.0    5    2-6      78-82  (82)
+ 10 7A3M_A Subtilisin-chymotrypsin   4.6 7.9E+02  0.0087    8.4   0.0    6    1-6       2-7   (64)
+
+No 1
+>1Y3D_I subtilisin BPN' (E.C.3.4.21.62)/chymotrypsin inhibitor 2; serine protease  inhibitor, HYDROLASE-HYDROLASE; HET: CIT, 15P; 1.8A {Bacillus amyloliquefaciens} SCOP: d.40.1.1
+Probab=6.52  E-value=5.1e+02  Score=8.88  Aligned_cols=6  Identities=50%  Similarity=0.911  Sum_probs=0.0  Template_Neff=7.900
+
+Q KSELPK            1 KSELPK    6 (6)
+Q Consensus         1 kselpk    6 (6)
+                      |++.|.
+T Consensus         2 k~~wp~    7 (64)
+T 1Y3D_I            2 KTEWPE    7 (64)
+T ss_dssp             CCBCGG
+T ss_pred             CccHHH
+
+
+No 2
+>3KMI_A Putative membrane protein COG4129; Structural genomics, PSI-2, Protein Structure; 1.96A {Clostridium difficile}
+Probab=6.35  E-value=5.3e+02  Score=11.08  Aligned_cols=6  Identities=33%  Similarity=0.578  Sum_probs=0.0  Template_Neff=6.800
+
+Q KSELPK            1 KSELPK    6 (6)
+Q Consensus         1 kselpk    6 (6)
+                      +++||+
+T Consensus       141 ~~~LP~  146 (177)
+T 3KMI_A          141 NQPLPV  146 (177)
+T ss_dssp             TSCCCS
+T ss_pred             cCCCCC
+
+
+No 3
+>3LK2_T F-actin-capping protein subunit alpha-1, F-actin-capping; CapZ, CARMIL, actin filaments, uncapping; 2.2A {Gallus gallus}
+Probab=5.71  E-value=6e+02  Score=9.93  Aligned_cols=4  Identities=100%  Similarity=1.448  Sum_probs=0.0  Template_Neff=3.900
+
+Q KSELPK            2 SELP    5 (6)
+Q Consensus         2 selp    5 (6)
+                      +|||
+T Consensus        12 seLP   15 (52)
+T 3LK2_T           12 SELP   15 (52)
+T ss_dssp             CCCC
+T ss_pred             ccCC
+
+
+No 4
+>2K5Q_A Hypothetical Membrane Associated Protein BcR97A; NESG, BcR97A, Bacillus cereus, Q812L6; NMR {Bacillus cereus ATCC 14579} SCOP: b.40.13.1
+Probab=5.66  E-value=6.1e+02  Score=9.96  Aligned_cols=6  Identities=67%  Similarity=1.027  Sum_probs=0.0  Template_Neff=6.900
+
+Q KSELPK            1 KSELPK    6 (6)
+Q Consensus         1 kselpk    6 (6)
+                      ++++|+
+T Consensus        83 ~~eIP~   88 (105)
+T 2K5Q_A           83 KDELPA   88 (105)
+T ss_dssp             TTTSCT
+T ss_pred             HHHCCH
+
+
+No 5
+>3KMI_B Putative membrane protein COG4129; Structural genomics, PSI-2, Protein Structure; HET: MSE; 1.96A {Clostridium difficile}
+Probab=5.61  E-value=6.2e+02  Score=10.84  Aligned_cols=6  Identities=33%  Similarity=0.578  Sum_probs=0.0  Template_Neff=6.900
+
+Q KSELPK            1 KSELPK    6 (6)
+Q Consensus         1 kselpk    6 (6)
+                      +++||+
+T Consensus       141 ~~~LP~  146 (177)
+T 3KMI_B          141 NQPLPV  146 (177)
+T ss_dssp             TSCCCC
+T ss_pred             cCCCCC
+
+
+No 6
+>6YWX_U 60S ribosomal protein L2, 60S; Neurospora crassa, translating Mitoribosomes, tRNA; HET: MG, SPM, ATP, K, NAD;{Neurospora crassa OR74A}
+Probab=5.49  E-value=6.3e+02  Score=11.75  Aligned_cols=6  Identities=83%  Similarity=1.016  Sum_probs=0.0  Template_Neff=4.100
+
+Q KSELPK            1 KSELPK    6 (6)
+Q Consensus         1 kselpk    6 (6)
+                      ||-|||
+T Consensus       152 ~~~~~~  157 (161)
+T 6YWX_U          152 KSVLPK  157 (161)
+T ss_pred             hhhhhh
+
+
+No 7
+>2DOG_A Probable 16S rRNA-processing protein rimM; beta barrel, NPPSFA, National Project; NMR {Thermus thermophilus}
+Probab=5.28  E-value=6.7e+02  Score=8.85  Aligned_cols=6  Identities=33%  Similarity=0.728  Sum_probs=0.0  Template_Neff=8.400
+
+Q KSELPK            1 KSELPK    6 (6)
+Q Consensus         1 kselpk    6 (6)
+                      ++++|+
+T Consensus        78 ~~~lp~   83 (85)
+T 2DOG_A           78 VADLPP   83 (85)
+T ss_pred             HHHCCC
+
+
+No 8
+>3NPP_B Crystal structure of a Pfam; Structural Genomics, Joint Center for; HET: SO4, GOL, MSE; 2.15A {Bacillus subtilis}
+Probab=5.21  E-value=6.8e+02  Score=9.00  Aligned_cols=6  Identities=17%  Similarity=0.584  Sum_probs=0.0  Template_Neff=8.100
+
+Q KSELPK            1 KSELPK    6 (6)
+Q Consensus         1 kselpk    6 (6)
+                      ++++|+
+T Consensus        75 ~~~vP~   80 (87)
+T 3NPP_B           75 FEDMPD   80 (87)
+T ss_dssp             GGGSCH
+T ss_pred             HHHCCH
+
+
+No 9
+>6Y17_D Nuclear receptor corepressor 1,B-cell lymphoma; BCL6, NCoR1., TRANSCRIPTION; 1.56A {Homo sapiens}
+Probab=4.82  E-value=7.5e+02  Score=6.96  Aligned_cols=5  Identities=40%  Similarity=1.099  Sum_probs=0.0  Template_Neff=12.100
+
+Q KSELPK            2 SELPK    6 (6)
+Q Consensus         2 selpk    6 (6)
+                      +++|+
+T Consensus        78 ~~~~~   82 (82)
+T 6Y17_D           78 HEIPR   82 (82)
+T ss_dssp             CCCCC
+T ss_pred             hcCCC
+
+
+No 10
+>7A3M_A Subtilisin-chymotrypsin inhibitor-2A; Chymotrypsin inhibitor CI-2, mutant, PROTEIN; 1.01A {Hordeum vulgare}
+Probab=4.63  E-value=7.9e+02  Score=8.36  Aligned_cols=6  Identities=50%  Similarity=0.911  Sum_probs=0.0  Template_Neff=8.000
+
+Q KSELPK            1 KSELPK    6 (6)
+Q Consensus         1 kselpk    6 (6)
+                      |++.|.
+T Consensus         2 k~~wpe    7 (64)
+T 7A3M_A            2 KTEWPE    7 (64)
+T ss_dssp             CCBCGG
+T ss_pred             CccHHH
+
+

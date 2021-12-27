@@ -1,0 +1,150 @@
+Query         RGFFYT
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 12:05:27 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/RGFFYT/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/RGFFYT/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5URT_B Insulin Chain A, Insuli  77.4     1.8   2E-05   14.9   0.0    6    1-6      22-27  (30)
+  2 6VEE_A E3 ubiquitin-protein li  19.9   1E+02  0.0011   13.6   0.0    5    1-5     113-117 (187)
+  3 5C3Q_C Thymine dioxygenase; di  19.7   1E+02  0.0012   12.9   0.0    4    2-5      46-49  (343)
+  4 5LUN_C Ethylene Forming Enzyme  19.5 1.1E+02  0.0012   13.1   0.0    4    2-5      36-39  (352)
+  5 6KUN_B 2-oxoglutarate-dependen  18.5 1.2E+02  0.0013   12.5   0.0    4    2-5      32-35  (300)
+  6 5V2T_A 2-oxoglutarate-dependen  18.4 1.2E+02  0.0013   13.0   0.0    4    2-5      36-39  (352)
+  7 5V2Z_A EFE (E.C.1.13.12.19); 2  18.4 1.2E+02  0.0013   13.0   0.0    4    2-5      36-39  (352)
+  8 5C3Q_A Thymine dioxygenase; di  18.3 1.2E+02  0.0013   12.6   0.0    4    2-5      46-49  (343)
+  9 5V8F_8 DNA replication licensi  18.2 1.2E+02  0.0013   14.3   0.0    4    2-5      41-44  (604)
+ 10 5XF8_C DNA replication licensi  18.2 1.2E+02  0.0013   14.3   0.0    4    2-5      41-44  (604)
+
+No 1
+>5URT_B Insulin Chain A, Insulin Chain; Insulin, HORMONE; 1.18A {Homo sapiens}
+Probab=77.36  E-value=1.8  Score=14.92  Aligned_cols=6  Identities=100%  Similarity=1.973  Sum_probs=4.3  Template_Neff=4.800
+
+Q RGFFYT            1 RGFFYT    6 (6)
+Q Consensus         1 rgffyt    6 (6)
+                      |||||.
+T Consensus        22 rGF~~~   27 (30)
+T 5URT_B           22 RGFFYT   27 (30)
+T ss_dssp             GCBCCC
+T ss_pred             CccCCC
+Confidence            688873
+
+
+No 2
+>6VEE_A E3 ubiquitin-protein ligase UHRF1 (E.C.2.3.2.27); Histone, Tandem Tudor Domain, NP95; NMR {Mus musculus}
+Probab=19.86  E-value=1e+02  Score=13.59  Aligned_cols=5  Identities=80%  Similarity=1.976  Sum_probs=0.0  Template_Neff=6.000
+
+Q RGFFYT            1 RGFFY    5 (6)
+Q Consensus         1 rgffy    5 (6)
+                      |||+|
+T Consensus       113 ~G~WY  117 (187)
+T 6VEE_A          113 RGFWY  117 (187)
+T ss_dssp             CCEEE
+T ss_pred             CceEE
+
+
+No 3
+>5C3Q_C Thymine dioxygenase; dioxygenase, substrate A, DSBH fold; HET: AKG, TDR, EDO; 2.05A {Neurospora crassa}
+Probab=19.74  E-value=1e+02  Score=12.95  Aligned_cols=4  Identities=75%  Similarity=1.863  Sum_probs=0.0  Template_Neff=9.500
+
+Q RGFFYT            2 GFFY    5 (6)
+Q Consensus         2 gffy    5 (6)
+                      ||||
+T Consensus        46 Gff~   49 (343)
+T 5C3Q_C           46 GFIY   49 (343)
+T ss_dssp             SEEE
+T ss_pred             ceEE
+
+
+No 4
+>5LUN_C Ethylene Forming Enzyme; 2-oxoglutarate and ferrous iron dependent; HET: OGA, GOL, ARG; 1.08A {Pseudomonas savastanoi pv. phaseolicola}
+Probab=19.48  E-value=1.1e+02  Score=13.13  Aligned_cols=4  Identities=50%  Similarity=1.074  Sum_probs=0.0  Template_Neff=9.200
+
+Q RGFFYT            2 GFFY    5 (6)
+Q Consensus         2 gffy    5 (6)
+                      ||||
+T Consensus        36 Gff~   39 (352)
+T 5LUN_C           36 GIFQ   39 (352)
+T ss_dssp             SCEE
+T ss_pred             CEEE
+
+
+No 5
+>6KUN_B 2-oxoglutarate-dependent dioxygenase DAO (E.C.1.14.11.-); Jelly Rolls, Metal Ion Binding; HET: GOL, IAC, AKG; 2.002A {Oryza sativa subsp. indica}
+Probab=18.47  E-value=1.2e+02  Score=12.46  Aligned_cols=4  Identities=50%  Similarity=0.916  Sum_probs=0.0  Template_Neff=9.700
+
+Q RGFFYT            2 GFFY    5 (6)
+Q Consensus         2 gffy    5 (6)
+                      ||||
+T Consensus        32 Gff~   35 (300)
+T 6KUN_B           32 GCFR   35 (300)
+T ss_dssp             SEEE
+T ss_pred             CcEE
+
+
+No 6
+>5V2T_A 2-oxoglutarate-dependent ethylene/succinate-forming enzyme (E.C.1.13.12.19,1.14.11.34); ethylene biosynthesis, OXIDOREDUCTASE; HET: MSE, TLA; 1.227A {Pseudomonas savastanoi pv. phaseolicola}
+Probab=18.43  E-value=1.2e+02  Score=12.97  Aligned_cols=4  Identities=50%  Similarity=1.074  Sum_probs=0.0  Template_Neff=9.300
+
+Q RGFFYT            2 GFFY    5 (6)
+Q Consensus         2 gffy    5 (6)
+                      ||||
+T Consensus        36 Gff~   39 (352)
+T 5V2T_A           36 GIFQ   39 (352)
+T ss_dssp             SCEE
+T ss_pred             ceEE
+
+
+No 7
+>5V2Z_A EFE (E.C.1.13.12.19); 2-oxoadipic acid, alpha-Ketoadipic acid, 2-oxohexanedioic; HET: OOG, ARG; 1.23A {Pseudomonas savastanoi pv. phaseolicola}
+Probab=18.43  E-value=1.2e+02  Score=12.97  Aligned_cols=4  Identities=50%  Similarity=1.074  Sum_probs=0.0  Template_Neff=9.300
+
+Q RGFFYT            2 GFFY    5 (6)
+Q Consensus         2 gffy    5 (6)
+                      ||||
+T Consensus        36 Gff~   39 (352)
+T 5V2Z_A           36 GIFQ   39 (352)
+T ss_dssp             SCEE
+T ss_pred             ceEE
+
+
+No 8
+>5C3Q_A Thymine dioxygenase; dioxygenase, substrate A, DSBH fold; HET: TDR, AKG, EDO; 2.05A {Neurospora crassa}
+Probab=18.25  E-value=1.2e+02  Score=12.63  Aligned_cols=4  Identities=75%  Similarity=1.863  Sum_probs=0.0  Template_Neff=9.800
+
+Q RGFFYT            2 GFFY    5 (6)
+Q Consensus         2 gffy    5 (6)
+                      ||||
+T Consensus        46 Gff~   49 (343)
+T 5C3Q_A           46 GFIY   49 (343)
+T ss_dssp             SEEE
+T ss_pred             CeEE
+
+
+No 9
+>5V8F_8 DNA replication licensing factor MCM2; DNA replication, Cryo-EM, OCCM, REPLICATION; HET: AGS; 3.9A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=18.21  E-value=1.2e+02  Score=14.32  Aligned_cols=4  Identities=25%  Similarity=0.409  Sum_probs=0.0  Template_Neff=8.600
+
+Q RGFFYT            2 GFFY    5 (6)
+Q Consensus         2 gffy    5 (6)
+                      ||||
+T Consensus        41 GFF~   44 (604)
+T 5V8F_8           41 DTFL   44 (604)
+T ss_dssp             CSCE
+T ss_pred             CeEE
+
+
+No 10
+>5XF8_C DNA replication licensing factor MCM2; helicase, DNA replication, HYDROLASE; 7.1A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=18.21  E-value=1.2e+02  Score=14.32  Aligned_cols=4  Identities=25%  Similarity=0.409  Sum_probs=0.0  Template_Neff=8.600
+
+Q RGFFYT            2 GFFY    5 (6)
+Q Consensus         2 gffy    5 (6)
+                      ||||
+T Consensus        41 GFF~   44 (604)
+T 5XF8_C           41 DTFL   44 (604)
+T ss_pred             CeEE
+
+

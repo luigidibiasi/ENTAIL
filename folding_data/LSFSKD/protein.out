@@ -1,0 +1,149 @@
+Query         LSFSKD
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 20:22:58 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LSFSKD/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LSFSKD/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2C6B_A UBIQUITIN-PROTEIN LIGAS   8.7 3.5E+02  0.0038   10.0   0.0    5    2-6       1-5   (46)
+  2 1Z7L_A Ubiquitin-activating en   8.2 3.8E+02  0.0042   11.8   0.0    6    1-6     232-237 (276)
+  3 1GRI_B GROWTH FACTOR BOUND PRO   7.7 4.1E+02  0.0045    9.3   0.0    6    1-6      17-22  (217)
+  4 1VYI_A RNA POLYMERASE ALPHA SU   7.6 4.2E+02  0.0046   12.3   0.0    4    2-5      23-26  (112)
+  5 7CEM_A Dopamine N-acetyltransf   7.4 4.3E+02  0.0048   11.0   0.0    5    1-5      48-52  (158)
+  6 7PVC_A potassium ion binding m   7.4 4.3E+02  0.0048    9.9   0.0    6    1-6       4-9   (157)
+  7 7RRO_B cilia, microtubule, dyn   7.4 4.3E+02  0.0048   13.6   0.0    4    1-4       8-11  (494)
+  8 4FAK_A Ribosomal RNA large sub   7.1 4.5E+02   0.005   11.2   0.0    5    1-5     129-133 (163)
+  9 5NX5_A Pentalenene synthase (E   7.1 4.6E+02  0.0051   10.8   0.0    6    1-6     221-226 (329)
+ 10 7CF7_B Ribosomal RNA large sub   6.9 4.7E+02  0.0052   10.9   0.0    5    1-5      48-52  (158)
+
+No 1
+>2C6B_A UBIQUITIN-PROTEIN LIGASE E3 MDM2 (E.C.6.3.2.-); ZINC FINGER, HUMAN MDM2, LIGASE; HET: ZN; NMR {HOMO SAPIENS} SCOP: g.41.11.1
+Probab=8.69  E-value=3.5e+02  Score=9.98  Aligned_cols=5  Identities=60%  Similarity=1.019  Sum_probs=0.0  Template_Neff=4.900
+
+Q LSFSKD            2 SFSKD    6 (6)
+Q Consensus         2 sfskd    6 (6)
+                      ||+-|
+T Consensus         1 ~~~~D    5 (46)
+T 2C6B_A            1 SFEED    5 (46)
+T ss_dssp             CCSSC
+T ss_pred             CcccC
+
+
+No 2
+>1Z7L_A Ubiquitin-activating enzyme E1 1; SCCH, ubiquitin-activating enzyme, second catalytic; HET: TBR; 2.8A {Mus musculus}
+Probab=8.16  E-value=3.8e+02  Score=11.77  Aligned_cols=6  Identities=50%  Similarity=1.021  Sum_probs=0.0  Template_Neff=7.900
+
+Q LSFSKD            1 LSFSKD    6 (6)
+Q Consensus         1 lsfskd    6 (6)
+                      ++|.||
+T Consensus       232 ~~FeKD  237 (276)
+T 1Z7L_A          232 IDFEKD  237 (276)
+T ss_dssp             CCCCSS
+T ss_pred             ccccCC
+
+
+No 3
+>1GRI_B GROWTH FACTOR BOUND PROTEIN 2; SH2, SH3, SIGNAL TRANSDUCTION ADAPTOR; 3.1A {Homo sapiens} SCOP: d.93.1.1, b.34.2.1
+Probab=7.71  E-value=4.1e+02  Score=9.34  Aligned_cols=6  Identities=50%  Similarity=0.894  Sum_probs=0.0  Template_Neff=11.900
+
+Q LSFSKD            1 LSFSKD    6 (6)
+Q Consensus         1 lsfskd    6 (6)
+                      |+|++.
+T Consensus        17 Ls~~~g   22 (217)
+T 1GRI_B           17 LSFKRG   22 (217)
+T ss_dssp             CCCCTT
+T ss_pred             CCcCCC
+
+
+No 4
+>1VYI_A RNA POLYMERASE ALPHA SUBUNIT (E.C.2.7.7.48); TRANSFERASE, RABIES VIRUS, REPLICATION, TRANSCRIPTION; HET: GOL; 1.5A {RABIES VIRUS (STRAIN CVS-11)} SCOP: d.293.1.1
+Probab=7.59  E-value=4.2e+02  Score=12.25  Aligned_cols=4  Identities=100%  Similarity=1.215  Sum_probs=0.0  Template_Neff=1.800
+
+Q LSFSKD            2 SFSK    5 (6)
+Q Consensus         2 sfsk    5 (6)
+                      ||||
+T Consensus        23 SFSk   26 (112)
+T 1VYI_A           23 SFSK   26 (112)
+T ss_dssp             TTTC
+T ss_pred             Hhhh
+
+
+No 5
+>7CEM_A Dopamine N-acetyltransferase (E.C.2.3.1.87); YbeA, TRANSFERASE; 2.4251A {Escherichia coli K-12}
+Probab=7.38  E-value=4.3e+02  Score=11.04  Aligned_cols=5  Identities=40%  Similarity=0.355  Sum_probs=0.0  Template_Neff=7.000
+
+Q LSFSKD            1 LSFSK    5 (6)
+Q Consensus         1 lsfsk    5 (6)
+                      +|||+
+T Consensus        48 lsls~   52 (158)
+T 7CEM_A           48 WSLSA   52 (158)
+T ss_dssp             ECCTT
+T ss_pred             eeccc
+
+
+No 6
+>7PVC_A potassium ion binding metal ion; HET: K; NMR {Escherichia coli (strain K12)}
+Probab=7.36  E-value=4.3e+02  Score=9.92  Aligned_cols=6  Identities=50%  Similarity=0.933  Sum_probs=0.0  Template_Neff=9.400
+
+Q LSFSKD            1 LSFSKD    6 (6)
+Q Consensus         1 lsfskd    6 (6)
+                      ++|-||
+T Consensus         4 ~~~~~~    9 (157)
+T 7PVC_A            4 FNFVKD    9 (157)
+T ss_dssp             EECCSS
+T ss_pred             chhccH
+
+
+No 7
+>7RRO_B cilia, microtubule, dynein, motility, STRUCTURAL; HET: GDP, GTP, MG; 3.4A {Bos taurus}
+Probab=7.35  E-value=4.3e+02  Score=13.56  Aligned_cols=4  Identities=100%  Similarity=1.281  Sum_probs=0.0  Template_Neff=5.800
+
+Q LSFSKD            1 LSFS    4 (6)
+Q Consensus         1 lsfs    4 (6)
+                      ||||
+T Consensus         8 ~~~~   11 (494)
+T 7RRO_B            8 LSFS   11 (494)
+T ss_pred             cchh
+
+
+No 8
+>4FAK_A Ribosomal RNA large subunit methyltransferase; alpha/beta methyltransferase Rossmann fold, rRNA; HET: SAM, PG4; 1.7A {Staphylococcus aureus}
+Probab=7.10  E-value=4.5e+02  Score=11.16  Aligned_cols=5  Identities=100%  Similarity=1.238  Sum_probs=0.0  Template_Neff=6.700
+
+Q LSFSKD            1 LSFSK    5 (6)
+Q Consensus         1 lsfsk    5 (6)
+                      +|||+
+T Consensus       129 lSlS~  133 (163)
+T 4FAK_A          129 LSFSK  133 (163)
+T ss_dssp             EESCS
+T ss_pred             eeecC
+
+
+No 9
+>5NX5_A Pentalenene synthase (E.C.4.2.3.7); terpene synthase, linalool, nerolidol, monoterpenoid; HET: 0FV, GOL; 1.82A {Streptomyces clavuligerus}
+Probab=7.07  E-value=4.6e+02  Score=10.75  Aligned_cols=6  Identities=67%  Similarity=0.855  Sum_probs=0.0  Template_Neff=10.200
+
+Q LSFSKD            1 LSFSKD    6 (6)
+Q Consensus         1 lsfskd    6 (6)
+                      +||.|+
+T Consensus       221 ~S~~KE  226 (329)
+T 5NX5_A          221 HSFEKD  226 (329)
+T ss_dssp             HHHHHH
+T ss_pred             hhHHHH
+
+
+No 10
+>7CF7_B Ribosomal RNA large subunit methyltransferase; YbeA, TRANSFERASE; 1.6178A {Escherichia coli K-12}
+Probab=6.88  E-value=4.7e+02  Score=10.92  Aligned_cols=5  Identities=40%  Similarity=0.355  Sum_probs=0.0  Template_Neff=7.000
+
+Q LSFSKD            1 LSFSK    5 (6)
+Q Consensus         1 lsfsk    5 (6)
+                      +|||+
+T Consensus        48 ~sls~   52 (158)
+T 7CF7_B           48 WSLSA   52 (158)
+T ss_dssp             EBCTT
+T ss_pred             eeccc
+
+

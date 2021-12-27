@@ -1,0 +1,146 @@
+Query         LYTVYV
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 21:12:58 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LYTVYV/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LYTVYV/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5BNQ_A Tumor necrosis factor l  10.9 2.6E+02  0.0028   11.0   0.0    5    1-5      56-60  (160)
+  2 2VDW_A VACCINIA VIRUS CAPPING   10.6 2.7E+02  0.0029   11.3   0.0    6    1-6     293-298 (302)
+  3 4KG8_B Tumor necrosis factor l  10.5 2.7E+02   0.003   11.0   0.0    5    1-5      58-62  (158)
+  4 7P5V_D LRRC8 family, Volume-Re  10.5 2.7E+02   0.003   13.8   0.0    6    1-6     260-265 (810)
+  5 1TNR_A TUMOR NECROSIS FACTOR R  10.4 2.7E+02   0.003   10.7   0.0    5    1-5      45-49  (144)
+  6 5UUI_A Tumor necrosis factor;   10.2 2.8E+02  0.0031   11.0   0.0    5    1-5      56-60  (158)
+  7 6NZW_E Volume-regulated anion   10.1 2.8E+02  0.0031   13.7   0.0    6    1-6     260-265 (820)
+  8 1D4V_B TNF-RELATED APOPTOSIS I   9.9 2.9E+02  0.0032   11.0   0.0    5    1-5      63-67  (163)
+  9 5XNM_W Chlorophyll a-b binding   9.9 2.9E+02  0.0032   11.1   0.0    5    1-5      36-40  (54)
+ 10 6KAC_W Photosystem II protein    9.6   3E+02  0.0034   12.5   0.0    5    1-5      95-99  (115)
+
+No 1
+>5BNQ_A Tumor necrosis factor ligand superfamily; RANK, RANKL, RANKL-RANK complex, TNFSF11; HET: PO4; 2.8A {Homo sapiens}
+Probab=10.88  E-value=2.6e+02  Score=11.04  Aligned_cols=5  Identities=40%  Similarity=1.165  Sum_probs=0.0  Template_Neff=8.400
+
+Q LYTVYV            1 LYTVY    5 (6)
+Q Consensus         1 lytvy    5 (6)
+                      +|.||
+T Consensus        56 ~Y~IY   60 (160)
+T 5BNQ_A           56 FYYLY   60 (160)
+T ss_dssp             EEEEE
+T ss_pred             EEEEE
+
+
+No 2
+>2VDW_A VACCINIA VIRUS CAPPING ENZYME D1; NUCLEOTIDYLTRANSFERASE, S-ADENOSYL-L-METHIONINE, RNA METABOLISM, MRNA; HET: SO4, SAH; 2.7A {VACCINIA VIRUS}
+Probab=10.56  E-value=2.7e+02  Score=11.34  Aligned_cols=6  Identities=67%  Similarity=1.242  Sum_probs=0.0  Template_Neff=10.000
+
+Q LYTVYV            1 LYTVYV    6 (6)
+Q Consensus         1 lytvyv    6 (6)
+                      ||.++|
+T Consensus       293 ly~~f~  298 (302)
+T 2VDW_A          293 YYVVYV  298 (302)
+T ss_dssp             TEEEEE
+T ss_pred             heeEEE
+
+
+No 3
+>4KG8_B Tumor necrosis factor ligand superfamily; STRUCTURAL GENOMICS, PSI-BIOLOGY, NEW YORK; 2.25A {Homo sapiens}
+Probab=10.48  E-value=2.7e+02  Score=10.96  Aligned_cols=5  Identities=40%  Similarity=1.118  Sum_probs=0.0  Template_Neff=8.400
+
+Q LYTVYV            1 LYTVY    5 (6)
+Q Consensus         1 lytvy    5 (6)
+                      +|.||
+T Consensus        58 ~Y~VY   62 (158)
+T 4KG8_B           58 YYYIY   62 (158)
+T ss_dssp             EEEEE
+T ss_pred             EEEEE
+
+
+No 4
+>7P5V_D LRRC8 family, Volume-Regulated Anion Channel;{Mus musculus}
+Probab=10.46  E-value=2.7e+02  Score=13.80  Aligned_cols=6  Identities=33%  Similarity=1.143  Sum_probs=0.0  Template_Neff=8.600
+
+Q LYTVYV            1 LYTVYV    6 (6)
+Q Consensus         1 lytvyv    6 (6)
+                      +|.+||
+T Consensus       260 ~~~~~~  265 (810)
+T 7P5V_D          260 VYRLYM  265 (810)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 5
+>1TNR_A TUMOR NECROSIS FACTOR RECEPTOR P55; COMPLEX(LYMPHOKINE-RECEPTOR), COMPLEX(LYMPHOKINE-RECEPTOR) complex; 2.85A {Homo sapiens} SCOP: b.22.1.1
+Probab=10.36  E-value=2.7e+02  Score=10.73  Aligned_cols=5  Identities=60%  Similarity=1.304  Sum_probs=0.0  Template_Neff=8.500
+
+Q LYTVYV            1 LYTVY    5 (6)
+Q Consensus         1 lytvy    5 (6)
+                      +|-||
+T Consensus        45 ~Y~IY   49 (144)
+T 1TNR_A           45 IYFVY   49 (144)
+T ss_dssp             EEEEE
+T ss_pred             EEEEE
+
+
+No 6
+>5UUI_A Tumor necrosis factor; T77C, TNFa, TNF alpha, cytokine; HET: MTN; 1.4A {Homo sapiens}
+Probab=10.23  E-value=2.8e+02  Score=10.97  Aligned_cols=5  Identities=60%  Similarity=1.424  Sum_probs=0.0  Template_Neff=8.300
+
+Q LYTVYV            1 LYTVY    5 (6)
+Q Consensus         1 lytvy    5 (6)
+                      +|-||
+T Consensus        56 ~Y~VY   60 (158)
+T 5UUI_A           56 LYLIY   60 (158)
+T ss_pred             eEEEE
+
+
+No 7
+>6NZW_E Volume-regulated anion channel subunit LRRC8A; Ion channel, volume-regulation, MEMBRANE PROTEIN; HET: L9Y, POV; 3.21A {Mus musculus}
+Probab=10.06  E-value=2.8e+02  Score=13.75  Aligned_cols=6  Identities=33%  Similarity=1.143  Sum_probs=0.0  Template_Neff=8.600
+
+Q LYTVYV            1 LYTVYV    6 (6)
+Q Consensus         1 lytvyv    6 (6)
+                      +|.+||
+T Consensus       260 ~~~~~~  265 (820)
+T 6NZW_E          260 VYRLYM  265 (820)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 8
+>1D4V_B TNF-RELATED APOPTOSIS INDUCING LIGAND; LIGAND-RECEPTOR COMPLEX, TRIMERIC JELLY-ROLL, TNF-R; 2.2A {Homo sapiens} SCOP: b.22.1.1
+Probab=9.94  E-value=2.9e+02  Score=11.03  Aligned_cols=5  Identities=40%  Similarity=1.251  Sum_probs=0.0  Template_Neff=8.200
+
+Q LYTVYV            1 LYTVY    5 (6)
+Q Consensus         1 lytvy    5 (6)
+                      +|-||
+T Consensus        63 ~Y~IY   67 (163)
+T 1D4V_B           63 FYYIY   67 (163)
+T ss_pred             eEEEE
+
+
+No 9
+>5XNM_W Chlorophyll a-b binding protein 8; Photosystem II, PSII-LHCII, C2S2M2, Supercomplex; HET: LMG, OEX, PL9, DGD, HEM, CLA, PHO, NEX, XAT, BCR, SQD, CHL, LHG, LUT;{Pisum sativum}
+Probab=9.87  E-value=2.9e+02  Score=11.14  Aligned_cols=5  Identities=60%  Similarity=1.364  Sum_probs=0.0  Template_Neff=3.000
+
+Q LYTVYV            1 LYTVY    5 (6)
+Q Consensus         1 lytvy    5 (6)
+                      +|++|
+T Consensus        36 ly~~y   40 (54)
+T 5XNM_W           36 LYFIY   40 (54)
+T ss_pred             HHHHH
+
+
+No 10
+>6KAC_W Photosystem II protein D1 (E.C.1.10.3.9); PhotosystemII, supercomplex, PHOTOSYNTHESIS; HET: SQD, DGD, LMU, HEM, LMG, LUT, PL9, OEX, CHL, XAT, LHG, NEX, BCR, PHO, CLA; 2.7A {Chlamydomonas reinhardtii}
+Probab=9.57  E-value=3e+02  Score=12.52  Aligned_cols=5  Identities=0%  Similarity=0.255  Sum_probs=0.0  Template_Neff=2.800
+
+Q LYTVYV            1 LYTVY    5 (6)
+Q Consensus         1 lytvy    5 (6)
+                      +|++|
+T Consensus        95 lY~vy   99 (115)
+T 6KAC_W           95 IWFIG   99 (115)
+T ss_pred             HHHHH
+
+

@@ -1,0 +1,146 @@
+Query         EKNLYL
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 19:10:02 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/EKNLYL/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/EKNLYL/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6OSW_A Forkhead box M1; transc  15.8 1.5E+02  0.0016   13.3   0.0    6    1-6      88-93  (94)
+  2 2QZQ_A Axin interactor, dorsal  13.3 1.9E+02  0.0021   12.8   0.0    6    1-6     139-144 (152)
+  3 4PO6_B Non-receptor tyrosine-p  12.8   2E+02  0.0022   10.4   0.0    5    2-6      15-19  (34)
+  4 6IXQ_B Myosin-2, Kinesin-relat  12.7 2.1E+02  0.0023   11.1   0.0    6    1-6      42-47  (48)
+  5 2OHW_B YueI protein; STRUCTURA  12.1 2.2E+02  0.0024   12.0   0.0    6    1-6      25-30  (133)
+  6 3LC9_A Ricin, disulfide bond,   11.8 2.3E+02  0.0025   11.6   0.0    6    1-6      67-72  (189)
+  7 1YTV_M Maltose-binding peripla  11.7 2.3E+02  0.0025   12.5   0.0    6    1-6      18-23  (84)
+  8 1YTV_N Maltose-binding peripla  11.7 2.3E+02  0.0025   12.5   0.0    6    1-6      18-23  (84)
+  9 6H5A_B CDP-diacylglycerol--ino  11.4 2.4E+02  0.0026   11.8   0.0    6    1-6     217-222 (223)
+ 10 6GRE_B Cysteine-rich repeat se  11.0 2.5E+02  0.0028   11.6   0.0    5    2-6     223-227 (228)
+
+No 1
+>6OSW_A Forkhead box M1; transcription factor, Cell cycle, negative; NMR {Danio rerio}
+Probab=15.79  E-value=1.5e+02  Score=13.29  Aligned_cols=6  Identities=67%  Similarity=1.243  Sum_probs=0.0  Template_Neff=1.800
+
+Q EKNLYL            1 EKNLYL    6 (6)
+Q Consensus         1 eknlyl    6 (6)
+                      |.|||+
+T Consensus        88 ~~~~~~   93 (94)
+T 6OSW_A           88 EENLYF   93 (94)
+T ss_dssp             ------
+T ss_pred             hhhccc
+Confidence            457764
+
+
+No 2
+>2QZQ_A Axin interactor, dorsalization associated protein; beta sheet sandwich, SIGNALING PROTEIN; 1.9A {Danio rerio}
+Probab=13.29  E-value=1.9e+02  Score=12.81  Aligned_cols=6  Identities=67%  Similarity=1.071  Sum_probs=0.0  Template_Neff=5.100
+
+Q EKNLYL            1 EKNLYL    6 (6)
+Q Consensus         1 eknlyl    6 (6)
+                      +|.|||
+T Consensus       139 ~k~lyL  144 (152)
+T 2QZQ_A          139 KKPLYL  144 (152)
+T ss_dssp             SSSCCE
+T ss_pred             CCCceE
+
+
+No 3
+>4PO6_B Non-receptor tyrosine-protein kinase TYK2 (E.C.2.7.10.2); FERM, SH2, kinase, receptor, cytokine; HET: GOL; 1.99A {Homo sapiens}
+Probab=12.79  E-value=2e+02  Score=10.43  Aligned_cols=5  Identities=80%  Similarity=0.999  Sum_probs=0.0  Template_Neff=3.800
+
+Q EKNLYL            2 KNLYL    6 (6)
+Q Consensus         2 knlyl    6 (6)
+                      +|+||
+T Consensus        15 ~~~~L   19 (34)
+T 4PO6_B           15 KNLLL   19 (34)
+T ss_pred             cCccc
+
+
+No 4
+>6IXQ_B Myosin-2, Kinesin-related protein SMY1; Cargo binding domain, PROTEIN BINDING; 3.06A {Saccharomyces cerevisiae}
+Probab=12.66  E-value=2.1e+02  Score=11.14  Aligned_cols=6  Identities=50%  Similarity=1.054  Sum_probs=0.0  Template_Neff=3.600
+
+Q EKNLYL            1 EKNLYL    6 (6)
+Q Consensus         1 eknlyl    6 (6)
+                      +.|||+
+T Consensus        42 ~~~~~~   47 (48)
+T 6IXQ_B           42 SENLYF   47 (48)
+T ss_pred             cccccc
+
+
+No 5
+>2OHW_B YueI protein; STRUCTURAL GENOMICS, PSI-2, Protein Structure; 1.4A {Bacillus subtilis} SCOP: d.79.8.1
+Probab=12.08  E-value=2.2e+02  Score=12.05  Aligned_cols=6  Identities=50%  Similarity=1.143  Sum_probs=0.0  Template_Neff=5.900
+
+Q EKNLYL            1 EKNLYL    6 (6)
+Q Consensus         1 eknlyl    6 (6)
+                      |++.||
+T Consensus        25 Eqr~yL   30 (133)
+T 2OHW_B           25 ERHLFL   30 (133)
+T ss_dssp             HHHHTT
+T ss_pred             HHHHhc
+
+
+No 6
+>3LC9_A Ricin, disulfide bond, Nucleotide-binding, Plant; 2.28A {Ricinus communis}
+Probab=11.76  E-value=2.3e+02  Score=11.57  Aligned_cols=6  Identities=33%  Similarity=0.418  Sum_probs=0.0  Template_Neff=8.200
+
+Q EKNLYL            1 EKNLYL    6 (6)
+Q Consensus         1 eknlyl    6 (6)
+                      ..|||+
+T Consensus        67 ~~nLYl   72 (189)
+T 3LC9_A           67 VCNAYV   72 (189)
+T ss_dssp             TTTCCE
+T ss_pred             CCCeEE
+
+
+No 7
+>1YTV_M Maltose-binding periplasmic protein/Vasopressin V1a receptor; vasopressin  receptor  GPCR; HET: MAL; 1.8A {Escherichia coli}
+Probab=11.73  E-value=2.3e+02  Score=12.53  Aligned_cols=6  Identities=67%  Similarity=1.243  Sum_probs=0.0  Template_Neff=1.700
+
+Q EKNLYL            1 EKNLYL    6 (6)
+Q Consensus         1 eknlyl    6 (6)
+                      |.|||+
+T Consensus        18 ~~~~~~   23 (84)
+T 1YTV_M           18 EENLYF   23 (84)
+T ss_pred             chhhhh
+
+
+No 8
+>1YTV_N Maltose-binding periplasmic protein/Vasopressin V1a receptor; vasopressin  receptor  GPCR; HET: GLC; 1.8A {Escherichia coli}
+Probab=11.73  E-value=2.3e+02  Score=12.53  Aligned_cols=6  Identities=67%  Similarity=1.243  Sum_probs=0.0  Template_Neff=1.700
+
+Q EKNLYL            1 EKNLYL    6 (6)
+Q Consensus         1 eknlyl    6 (6)
+                      |.|||+
+T Consensus        18 ~~~~~~   23 (84)
+T 1YTV_N           18 EENLYF   23 (84)
+T ss_pred             chhhhh
+
+
+No 9
+>6H5A_B CDP-diacylglycerol--inositol 3-phosphatidyltransferase (E.C.2.7.8.11); Phosphotransferase Glycerophospholipid metabolism Metal binding; HET: OLC, FLC, 1PE, LFA; 1.88A {Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv)}
+Probab=11.44  E-value=2.4e+02  Score=11.82  Aligned_cols=6  Identities=50%  Similarity=1.065  Sum_probs=0.0  Template_Neff=8.200
+
+Q EKNLYL            1 EKNLYL    6 (6)
+Q Consensus         1 eknlyl    6 (6)
+                      |.|+|.
+T Consensus       217 ~~~~~~  222 (223)
+T 6H5A_B          217 RENLYF  222 (223)
+T ss_pred             cccccc
+
+
+No 10
+>6GRE_B Cysteine-rich repeat secretory protein 2; lectin, membrane protein, DUF26 domain; HET: SO4, EDO, NAG; 1.29A {Arabidopsis thaliana}
+Probab=10.98  E-value=2.5e+02  Score=11.60  Aligned_cols=5  Identities=60%  Similarity=1.251  Sum_probs=0.0  Template_Neff=8.600
+
+Q EKNLYL            2 KNLYL    6 (6)
+Q Consensus         2 knlyl    6 (6)
+                      ||||+
+T Consensus       223 ~~~~~  227 (228)
+T 6GRE_B          223 ENLYF  227 (228)
+T ss_dssp             -----
+T ss_pred             ccccc
+
+

@@ -1,0 +1,147 @@
+Query         AAELRN
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 12:53:25 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/AAELRN/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/AAELRN/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4L0Y_A Runt-related transcript  18.0 1.2E+02  0.0013   15.1   0.0    5    2-6     115-119 (242)
+  2 4L0Z_A Runt-related transcript  18.0 1.2E+02  0.0013   15.1   0.0    5    2-6     115-119 (242)
+  3 2D7D_B UvrABC system protein B  13.5 1.9E+02  0.0021    9.2   0.0    6    1-6      26-31  (40)
+  4 2NMV_B UvrABC system protein B  12.9   2E+02  0.0022    9.2   0.0    6    1-6      26-31  (38)
+  5 1GP8_A SCAFFOLDING PROTEIN; SC  11.7 2.3E+02  0.0025    9.1   0.0    6    1-6      29-34  (40)
+  6 1E52_A EXCINUCLEASE ABC SUBUNI  11.2 2.4E+02  0.0027   10.4   0.0    6    1-6      45-50  (63)
+  7 1QOJ_B UVRB; DNA EXCISION REPA  11.2 2.4E+02  0.0027   10.4   0.0    6    1-6      45-50  (63)
+  8 4ZRK_G Merlin, Serine/threonin   9.8 2.9E+02  0.0033   10.3   0.0    5    2-6      11-15  (32)
+  9 1PQ1_B Apoptosis regulator Bcl   9.7   3E+02  0.0033   10.5   0.0    5    1-5       9-13  (33)
+ 10 4ZRI_C Merlin, Serine/threonin   9.5 3.1E+02  0.0034   10.2   0.0    5    2-6      11-15  (32)
+
+No 1
+>4L0Y_A Runt-related transcription factor 1, Protein; RUNT domain, ETS domain, TRANSCRIPTION-DNA; 2.5A {Mus musculus}
+Probab=18.04  E-value=1.2e+02  Score=15.15  Aligned_cols=5  Identities=100%  Similarity=1.232  Sum_probs=0.0  Template_Neff=2.800
+
+Q AAELRN            2 AELRN    6 (6)
+Q Consensus         2 aelrn    6 (6)
+                      |||||
+T Consensus       115 aELRN  119 (242)
+T 4L0Y_A          115 AELRN  119 (242)
+T ss_dssp             CCEES
+T ss_pred             hhHhc
+
+
+No 2
+>4L0Z_A Runt-related transcription factor 1, Protein; RUNT domain, ETS domain, TRANSCRIPTION-DNA; 2.7A {Mus musculus}
+Probab=18.04  E-value=1.2e+02  Score=15.15  Aligned_cols=5  Identities=100%  Similarity=1.232  Sum_probs=0.0  Template_Neff=2.800
+
+Q AAELRN            2 AELRN    6 (6)
+Q Consensus         2 aelrn    6 (6)
+                      |||||
+T Consensus       115 aELRN  119 (242)
+T 4L0Z_A          115 AELRN  119 (242)
+T ss_dssp             CCEES
+T ss_pred             hhHhc
+
+
+No 3
+>2D7D_B UvrABC system protein B/DNA Complex; Helicase, Protein-DNA-ADP ternary complex, HYDROLASE-DNA; HET: ADP; 2.1A {Bacillus subtilis}
+Probab=13.45  E-value=1.9e+02  Score=9.22  Aligned_cols=6  Identities=83%  Similarity=1.071  Sum_probs=0.0  Template_Neff=7.600
+
+Q AAELRN            1 AAELRN    6 (6)
+Q Consensus         1 aaelrn    6 (6)
+                      |+++|+
+T Consensus        26 A~~~r~   31 (40)
+T 2D7D_B           26 AAELRD   31 (40)
+T ss_pred             HHHHHH
+
+
+No 4
+>2NMV_B UvrABC system protein B (E.C.3.1.-.-)/DNA; Protein-DNA complex, T-fluorescein, hairpin, HYDROLASE-DNA; HET: ADP, FLU; 2.95A {Bacillus subtilis}
+Probab=12.89  E-value=2e+02  Score=9.15  Aligned_cols=6  Identities=83%  Similarity=1.071  Sum_probs=0.0  Template_Neff=7.400
+
+Q AAELRN            1 AAELRN    6 (6)
+Q Consensus         1 aaelrn    6 (6)
+                      |+.+|+
+T Consensus        26 A~~~rd   31 (38)
+T 2NMV_B           26 AAELRD   31 (38)
+T ss_pred             HHHHHH
+
+
+No 5
+>1GP8_A SCAFFOLDING PROTEIN; SCAFFOLDING PROTEIN, COAT PROTEIN-BINDING DOMAIN; NMR {Enterobacteria phage P22} SCOP: j.58.1.1
+Probab=11.72  E-value=2.3e+02  Score=9.11  Aligned_cols=6  Identities=17%  Similarity=0.268  Sum_probs=0.0  Template_Neff=7.400
+
+Q AAELRN            1 AAELRN    6 (6)
+Q Consensus         1 aaelrn    6 (6)
+                      |+++|+
+T Consensus        29 A~~~rd   34 (40)
+T 1GP8_A           29 YRKLKA   34 (40)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 6
+>1E52_A EXCINUCLEASE ABC SUBUNIT; DNA EXCISION REPAIR, UVRB, DNA; NMR {ESCHERICHIA COLI} SCOP: a.2.9.1
+Probab=11.23  E-value=2.4e+02  Score=10.38  Aligned_cols=6  Identities=50%  Similarity=0.900  Sum_probs=0.0  Template_Neff=6.300
+
+Q AAELRN            1 AAELRN    6 (6)
+Q Consensus         1 aaelrn    6 (6)
+                      |+++|+
+T Consensus        45 Aa~iRd   50 (63)
+T 1E52_A           45 AAQIRD   50 (63)
+T ss_dssp             HTTHHH
+T ss_pred             HHHHHH
+
+
+No 7
+>1QOJ_B UVRB; DNA EXCISION REPAIR, NUCLEOTIDE EXCISION; HET: MSE; 3.0A {ESCHERICHIA COLI} SCOP: a.2.9.1
+Probab=11.23  E-value=2.4e+02  Score=10.38  Aligned_cols=6  Identities=50%  Similarity=0.900  Sum_probs=0.0  Template_Neff=6.300
+
+Q AAELRN            1 AAELRN    6 (6)
+Q Consensus         1 aaelrn    6 (6)
+                      |+++|+
+T Consensus        45 Aa~iRd   50 (63)
+T 1QOJ_B           45 AAQIRD   50 (63)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 8
+>4ZRK_G Merlin, Serine/threonine-protein kinase LATS1; Merlin, FERM, Lats1, SIGNALING PROTEIN-TRANSFERASE; 2.316A {Mus musculus}
+Probab=9.80  E-value=2.9e+02  Score=10.29  Aligned_cols=5  Identities=60%  Similarity=0.979  Sum_probs=0.0  Template_Neff=2.500
+
+Q AAELRN            2 AELRN    6 (6)
+Q Consensus         2 aelrn    6 (6)
+                      +|+||
+T Consensus        11 ~EIR~   15 (32)
+T 4ZRK_G           11 QEIRN   15 (32)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 9
+>1PQ1_B Apoptosis regulator Bcl-X, BCL2-like protein; Bcl-xl/Bim, APOPTOSIS; 1.65A {Mus musculus}
+Probab=9.67  E-value=3e+02  Score=10.48  Aligned_cols=5  Identities=80%  Similarity=0.966  Sum_probs=0.0  Template_Neff=1.700
+
+Q AAELRN            1 AAELR    5 (6)
+Q Consensus         1 aaelr    5 (6)
+                      |.|||
+T Consensus         9 aqELr   13 (33)
+T 1PQ1_B            9 AQELR   13 (33)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 10
+>4ZRI_C Merlin, Serine/threonine-protein kinase LATS2; Merlin, FERM, Lats2, SIGNALING PROTEIN-TRANSFERASE; 2.7A {Homo sapiens}
+Probab=9.47  E-value=3.1e+02  Score=10.16  Aligned_cols=5  Identities=40%  Similarity=0.607  Sum_probs=0.0  Template_Neff=2.800
+
+Q AAELRN            2 AELRN    6 (6)
+Q Consensus         2 aelrn    6 (6)
+                      +|+||
+T Consensus        11 ~EIR~   15 (32)
+T 4ZRI_C           11 REIRY   15 (32)
+T ss_pred             HHHHH
+
+

@@ -1,0 +1,145 @@
+Query         LATVLV
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 15:44:44 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LATVLV/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LATVLV/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3BFM_A Biotin protein ligase-l   3.8   1E+03   0.011   10.3   0.0    6    1-6     228-233 (235)
+  2 4RLE_A Uncharacterized protein   3.5 1.1E+03   0.012   10.2   0.0    5    2-6     104-108 (117)
+  3 4DL0_C V-type proton ATPase su   3.3 1.2E+03   0.013   10.1   0.0    6    1-6      44-49  (130)
+  4 4EFA_C V-type proton ATPase su   3.3 1.2E+03   0.013   10.1   0.0    6    1-6      44-49  (130)
+  5 2KV5_A Putative uncharacterize   3.1 1.3E+03   0.014    8.2   0.0    6    1-6       9-14  (33)
+  6 7B6F_A Serine/threonine-protei   2.9 1.4E+03   0.015    9.6   0.0    6    1-6     348-353 (365)
+  7 1UPT_H ADP-RIBOSYLATION FACTOR   2.5 1.7E+03   0.018    8.4   0.0    5    1-5      30-34  (60)
+  8 1UPT_B ADP-RIBOSYLATION FACTOR   2.5 1.7E+03   0.019    8.3   0.0    5    1-5      30-34  (60)
+  9 7E1V_J Mycobacterium smegmatis   2.4 1.7E+03   0.019    8.9   0.0    6    1-6       6-11  (157)
+ 10 1R4A_E ADP-ribosylation factor   2.3 1.9E+03   0.021    8.1   0.0    5    1-5      27-31  (51)
+
+No 1
+>3BFM_A Biotin protein ligase-like protein of; Structural genomics, Joint Center for; HET: 2PE; 1.7A {Silicibacter sp.}
+Probab=3.78  E-value=1e+03  Score=10.26  Aligned_cols=6  Identities=83%  Similarity=0.993  Sum_probs=0.0  Template_Neff=7.900
+
+Q LATVLV            1 LATVLV    6 (6)
+Q Consensus         1 latvlv    6 (6)
+                      +++|+|
+T Consensus       228 ~~~~~~  233 (235)
+T 3BFM_A          228 LTTVLV  233 (235)
+T ss_dssp             GGGGSC
+T ss_pred             cceeee
+
+
+No 2
+>4RLE_A Uncharacterized protein YaaQ; PII-like, cdiAMP, UNKNOWN FUNCTION; HET: 2BA; 1.3A {Bacillus subtilis}
+Probab=3.52  E-value=1.1e+03  Score=10.21  Aligned_cols=5  Identities=80%  Similarity=0.913  Sum_probs=0.0  Template_Neff=4.900
+
+Q LATVLV            2 ATVLV    6 (6)
+Q Consensus         2 atvlv    6 (6)
+                      |||+|
+T Consensus       104 AtvFV  108 (117)
+T 4RLE_A          104 ATVFV  108 (117)
+T ss_dssp             EEEEE
+T ss_pred             EEEEE
+
+
+No 3
+>4DL0_C V-type proton ATPase subunit C; coiled-coil, heterotrimer, peripheral stalk, stator; HET: SO4; 2.905A {Saccharomyces cerevisiae}
+Probab=3.27  E-value=1.2e+03  Score=10.08  Aligned_cols=6  Identities=83%  Similarity=0.993  Sum_probs=0.0  Template_Neff=5.400
+
+Q LATVLV            1 LATVLV    6 (6)
+Q Consensus         1 latvlv    6 (6)
+                      |.|++|
+T Consensus        44 L~Tl~V   49 (130)
+T 4DL0_C           44 LTTVLV   49 (130)
+T ss_pred             eEEEEE
+
+
+No 4
+>4EFA_C V-type proton ATPase subunit C; heterotrimer, peripheral stalk, vacuolar ATPase; HET: SO4; 2.8163A {Saccharomyces cerevisiae}
+Probab=3.27  E-value=1.2e+03  Score=10.08  Aligned_cols=6  Identities=83%  Similarity=0.993  Sum_probs=0.0  Template_Neff=5.400
+
+Q LATVLV            1 LATVLV    6 (6)
+Q Consensus         1 latvlv    6 (6)
+                      |.|++|
+T Consensus        44 L~Tl~V   49 (130)
+T 4EFA_C           44 LTTVLV   49 (130)
+T ss_pred             eEEEEE
+
+
+No 5
+>2KV5_A Putative uncharacterized protein RNAI; toxin-antitoxin, bacterial, toxin; NMR {N/A}
+Probab=3.07  E-value=1.3e+03  Score=8.23  Aligned_cols=6  Identities=33%  Similarity=0.766  Sum_probs=0.0  Template_Neff=4.000
+
+Q LATVLV            1 LATVLV    6 (6)
+Q Consensus         1 latvlv    6 (6)
+                      +|+++|
+T Consensus         9 iapiiv   14 (33)
+T 2KV5_A            9 IAPIFV   14 (33)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 6
+>7B6F_A Serine/threonine-protein kinase 24 (E.C.2.7.11.1); kinase inhibitors, structure-based drug design; HET: SO4, PTR, SZW; 2.05A {Homo sapiens}
+Probab=2.92  E-value=1.4e+03  Score=9.56  Aligned_cols=6  Identities=67%  Similarity=1.060  Sum_probs=0.0  Template_Neff=10.300
+
+Q LATVLV            1 LATVLV    6 (6)
+Q Consensus         1 latvlv    6 (6)
+                      |+|+|.
+T Consensus       348 ~~~~~~  353 (365)
+T 7B6F_A          348 LATILI  353 (365)
+T ss_dssp             GHHHHS
+T ss_pred             ceeeec
+
+
+No 7
+>1UPT_H ADP-RIBOSYLATION FACTOR-LIKE PROTEIN 1, GOLGI; HYDROLASE/PROTEIN-BINDING, COMPLEX (GTPASE-GOLGIN), GOLGIN-245, GRIP; HET: GTP, MSE; 1.7A {HOMO SAPIENS} SCOP: a.193.1.1
+Probab=2.51  E-value=1.7e+03  Score=8.41  Aligned_cols=5  Identities=60%  Similarity=0.886  Sum_probs=0.0  Template_Neff=5.500
+
+Q LATVLV            1 LATVL    5 (6)
+Q Consensus         1 latvl    5 (6)
+                      ++|+|
+T Consensus        30 i~tlL   34 (60)
+T 1UPT_H           30 ITTVL   34 (60)
+T ss_dssp             HHHHT
+T ss_pred             HHHHh
+
+
+No 8
+>1UPT_B ADP-RIBOSYLATION FACTOR-LIKE PROTEIN 1, GOLGI; HYDROLASE/PROTEIN-BINDING, COMPLEX (GTPASE-GOLGIN), GOLGIN-245, GRIP; HET: GTP; 1.7A {HOMO SAPIENS} SCOP: a.193.1.1
+Probab=2.46  E-value=1.7e+03  Score=8.34  Aligned_cols=5  Identities=60%  Similarity=0.886  Sum_probs=0.0  Template_Neff=5.600
+
+Q LATVLV            1 LATVL    5 (6)
+Q Consensus         1 latvl    5 (6)
+                      ++|+|
+T Consensus        30 i~tlL   34 (60)
+T 1UPT_B           30 ITTVL   34 (60)
+T ss_pred             HHHHh
+
+
+No 9
+>7E1V_J Mycobacterium smegmatis, mycobacterium tuberculosis, complexIII; HET: CDL, PLM, MQ9, HEM, 9YF, HEC, HEA, 9Y0; 2.68A {Mycobacterium smegmatis MC2 51}
+Probab=2.41  E-value=1.7e+03  Score=8.95  Aligned_cols=6  Identities=50%  Similarity=0.429  Sum_probs=0.0  Template_Neff=7.900
+
+Q LATVLV            1 LATVLV    6 (6)
+Q Consensus         1 latvlv    6 (6)
+                      +|||.+
+T Consensus         6 ~~~~~~   11 (157)
+T 7E1V_J            6 IATVAN   11 (157)
+T ss_pred             cccccc
+
+
+No 10
+>1R4A_E ADP-ribosylation factor-like protein 1/Golgi autoantigen; Ras-like G Protein structure, Three-helix; HET: GNP; 2.3A {Rattus norvegicus} SCOP: a.193.1.1
+Probab=2.26  E-value=1.9e+03  Score=8.07  Aligned_cols=5  Identities=60%  Similarity=0.886  Sum_probs=0.0  Template_Neff=5.300
+
+Q LATVLV            1 LATVL    5 (6)
+Q Consensus         1 latvl    5 (6)
+                      ++++|
+T Consensus        27 i~tvL   31 (51)
+T 1R4A_E           27 ITTVL   31 (51)
+T ss_pred             HHHHh
+
+

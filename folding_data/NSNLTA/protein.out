@@ -1,0 +1,150 @@
+Query         NSNLTA
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 04:12:09 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NSNLTA/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NSNLTA/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2ACM_A Mucin-1; auto-catalytic   3.1 1.3E+03   0.014    9.9   0.0    5    1-5      24-28  (66)
+  2 5L0O_A Ras GTPase-activating-l   3.0 1.3E+03   0.015    9.6   0.0    6    1-6      25-30  (193)
+  3 2O6W_A Repeat Five Residue (Rf   3.0 1.3E+03   0.015    8.1   0.0    6    1-6       3-8   (150)
+  4 2FCW_A Alpha-2-macroglobulin r   2.9 1.4E+03   0.015    9.8   0.0    6    1-6      18-23  (109)
+  5 2BT9_B LECTIN; LECTIN, SUGAR R   2.9 1.4E+03   0.015    8.2   0.0    6    1-6       2-7   (90)
+  6 2FGX_A putative thioredoxin; N   2.9 1.4E+03   0.015    7.7   0.0    6    1-6      14-19  (107)
+  7 3Q20_A RbcX protein; helix bun   2.8 1.4E+03   0.016    9.9   0.0    4    1-4     119-122 (126)
+  8 6Z5Q_B Fucose-binding lectin p   2.8 1.5E+03   0.016    8.1   0.0    6    1-6       2-7   (90)
+  9 1KLR_A Zinc Finger, TRANSCRIPT   2.8 1.5E+03   0.016    3.1   0.0    5    1-5      15-19  (30)
+ 10 5XTT_B beta-1,4-mannanase; Com   2.7 1.5E+03   0.017   11.1   0.0    6    1-6      87-92  (162)
+
+No 1
+>2ACM_A Mucin-1; auto-catalytic proteolysis, STRUCTURAL PROTEIN; NMR {Homo sapiens}
+Probab=3.14  E-value=1.3e+03  Score=9.87  Aligned_cols=5  Identities=60%  Similarity=0.720  Sum_probs=0.0  Template_Neff=2.200
+
+Q NSNLTA            1 NSNLT    5 (6)
+Q Consensus         1 nsnlt    5 (6)
+                      ||+|+
+T Consensus        24 nSSLE   28 (66)
+T 2ACM_A           24 NSSLE   28 (66)
+T ss_dssp             CGGGG
+T ss_pred             CCCCC
+
+
+No 2
+>5L0O_A Ras GTPase-activating-like protein IQGAP1; Calponin homology, disulfide-bonded dimer, SIGNALING; 2.36A {Homo sapiens}
+Probab=3.02  E-value=1.3e+03  Score=9.65  Aligned_cols=6  Identities=67%  Similarity=0.733  Sum_probs=0.0  Template_Neff=7.800
+
+Q NSNLTA            1 NSNLTA    6 (6)
+Q Consensus         1 nsnlta    6 (6)
+                      +|++++
+T Consensus        25 ~~~~~~   30 (193)
+T 5L0O_A           25 NERLTA   30 (193)
+T ss_dssp             -----C
+T ss_pred             CccCCH
+
+
+No 3
+>2O6W_A Repeat Five Residue (Rfr) protein; Rfr protein, pentapeptide repeat protein; 2.4A {Cyanothece}
+Probab=3.00  E-value=1.3e+03  Score=8.08  Aligned_cols=6  Identities=33%  Similarity=0.373  Sum_probs=0.0  Template_Neff=10.500
+
+Q NSNLTA            1 NSNLTA    6 (6)
+Q Consensus         1 nsnlta    6 (6)
+                      ++||++
+T Consensus         3 ~~~~~~    8 (150)
+T 2O6W_A            3 TNNLYR    8 (150)
+T ss_dssp             HHHHHH
+T ss_pred             chhHHH
+
+
+No 4
+>2FCW_A Alpha-2-macroglobulin receptor-associated protein precursor, Low-density; protein-protein complex, RAP, LDLR, escort; HET: MPD; 1.26A {Homo sapiens} SCOP: a.13.1.1
+Probab=2.95  E-value=1.4e+03  Score=9.82  Aligned_cols=6  Identities=50%  Similarity=0.667  Sum_probs=0.0  Template_Neff=4.900
+
+Q NSNLTA            1 NSNLTA    6 (6)
+Q Consensus         1 nsnlta    6 (6)
+                      ++|+|.
+T Consensus        18 ~~nFs~   23 (109)
+T 2FCW_A           18 SANLTD   23 (109)
+T ss_dssp             TSCCCH
+T ss_pred             HCCCCH
+
+
+No 5
+>2BT9_B LECTIN; LECTIN, SUGAR RECOGNITION, BETA-PROPELLER; HET: MFU; 0.94A {RALSTONIA SOLANACEARUM}
+Probab=2.93  E-value=1.4e+03  Score=8.17  Aligned_cols=6  Identities=17%  Similarity=0.130  Sum_probs=0.0  Template_Neff=8.300
+
+Q NSNLTA            1 NSNLTA    6 (6)
+Q Consensus         1 nsnlta    6 (6)
+                      +|.|.|
+T Consensus         2 ~s~lAA    7 (90)
+T 2BT9_B            2 SVQTAA    7 (90)
+T ss_dssp             CCEEEE
+T ss_pred             CceeEE
+
+
+No 6
+>2FGX_A putative thioredoxin; NeT3, NESG, GFT-NMR, glutaredoxin-like, putative; NMR {Nitrosomonas europaea}
+Probab=2.92  E-value=1.4e+03  Score=7.68  Aligned_cols=6  Identities=33%  Similarity=0.230  Sum_probs=0.0  Template_Neff=10.100
+
+Q NSNLTA            1 NSNLTA    6 (6)
+Q Consensus         1 nsnlta    6 (6)
+                      +|+++.
+T Consensus        14 ~~~~~~   19 (107)
+T 2FGX_A           14 RENLYF   19 (107)
+T ss_dssp             ------
+T ss_pred             ccccee
+
+
+No 7
+>3Q20_A RbcX protein; helix bundle, chaperone, RuBisCO assembly; HET: HEZ; 1.71A {Thermosynechococcus elongatus}
+Probab=2.84  E-value=1.4e+03  Score=9.92  Aligned_cols=4  Identities=100%  Similarity=1.149  Sum_probs=0.0  Template_Neff=5.100
+
+Q NSNLTA            1 NSNL    4 (6)
+Q Consensus         1 nsnl    4 (6)
+                      |||+
+T Consensus       119 ~~~~  122 (126)
+T 3Q20_A          119 NSNL  122 (126)
+T ss_dssp             ----
+T ss_pred             cccc
+
+
+No 8
+>6Z5Q_B Fucose-binding lectin protein; calixarene, protein framework, cage, crystal; HET: GOL, EVB, BDF; 1.29A {Ralstonia solanacearum}
+Probab=2.78  E-value=1.5e+03  Score=8.10  Aligned_cols=6  Identities=17%  Similarity=0.130  Sum_probs=0.0  Template_Neff=8.300
+
+Q NSNLTA            1 NSNLTA    6 (6)
+Q Consensus         1 nsnlta    6 (6)
+                      +|.|.|
+T Consensus         2 ~s~lAA    7 (90)
+T 6Z5Q_B            2 SVQTAA    7 (90)
+T ss_dssp             CCEEEE
+T ss_pred             CceeEE
+
+
+No 9
+>1KLR_A Zinc Finger, TRANSCRIPTION; HET: ZN; NMR {N/A} SCOP: g.37.1.1
+Probab=2.76  E-value=1.5e+03  Score=3.08  Aligned_cols=5  Identities=60%  Similarity=0.733  Sum_probs=0.0  Template_Neff=15.000
+
+Q NSNLTA            1 NSNLT    5 (6)
+Q Consensus         1 nsnlt    5 (6)
+                      .+++.
+T Consensus        15 ~~~~~   19 (30)
+T 1KLR_A           15 SSNLK   19 (30)
+T ss_dssp             SHHHH
+T ss_pred             hHHHH
+
+
+No 10
+>5XTT_B beta-1,4-mannanase; Complex, HYDROLASE; HET: BMA; 1.75A {Rhizopus microsporus}
+Probab=2.74  E-value=1.5e+03  Score=11.06  Aligned_cols=6  Identities=67%  Similarity=0.756  Sum_probs=0.0  Template_Neff=2.500
+
+Q NSNLTA            1 NSNLTA    6 (6)
+Q Consensus         1 nsnlta    6 (6)
+                      ||||.+
+T Consensus        87 Nsdl~~   92 (162)
+T 5XTT_B           87 NSNLQQ   92 (162)
+T ss_dssp             GTCHHH
+T ss_pred             cccHHH
+
+

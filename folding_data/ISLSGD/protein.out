@@ -1,0 +1,148 @@
+Query         ISLSGD
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 09:23:07 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/ISLSGD/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/ISLSGD/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2E2A_B ENZYME IIA; ENZYME IIA,  13.2 1.9E+02  0.0021   11.6   0.0    6    1-6      14-19  (105)
+  2 5LPX_A Annexin A2; Calcium bin  12.8   2E+02  0.0022   12.3   0.0    6    1-6      11-16  (339)
+  3 6OSW_B Forkhead box M1; transc  12.6 2.1E+02  0.0023   11.8   0.0    5    1-5      31-35  (56)
+  4 5VX6_A Uncharacterized protein  12.5 2.1E+02  0.0023   10.7   0.0    5    1-5     131-135 (216)
+  5 7LKN_C Type IV pilus, TRANSPOR  12.4 2.1E+02  0.0023   10.1   0.0    5    1-5      29-33  (117)
+  6 7LKO_C Type IV pilus, TRANSPOR  12.4 2.1E+02  0.0023   10.1   0.0    5    1-5      29-33  (117)
+  7 4I86_A Cellulose synthase 1 (E  12.3 2.1E+02  0.0024    9.7   0.0    5    1-5      36-40  (111)
+  8 6TIF_BBB UPF0297 protein lmo15  12.3 2.1E+02  0.0024   12.1   0.0    4    3-6      48-51  (90)
+  9 6DSL_A CatN, CatC; Intein Prot  11.6 2.3E+02  0.0026   10.8   0.0    5    2-6       4-8   (33)
+ 10 3DTD_C Invasion-associated pro  10.9 2.5E+02  0.0028   11.2   0.0    5    1-5     150-154 (175)
+
+No 1
+>2E2A_B ENZYME IIA; ENZYME IIA, HELICAL BUNDLES, PTS; 2.1A {Lactococcus lactis} SCOP: a.7.2.1
+Probab=13.22  E-value=1.9e+02  Score=11.64  Aligned_cols=6  Identities=33%  Similarity=0.922  Sum_probs=0.0  Template_Neff=6.200
+
+Q ISLSGD            1 ISLSGD    6 (6)
+Q Consensus         1 islsgd    6 (6)
+                      |+.+|+
+T Consensus        14 I~~aG~   19 (105)
+T 2E2A_B           14 VAYAGD   19 (105)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHhH
+
+
+No 2
+>5LPX_A Annexin A2; Calcium binding protein, protein-protein complex; HET: GOL; 1.9A {Homo sapiens}
+Probab=12.80  E-value=2e+02  Score=12.33  Aligned_cols=6  Identities=67%  Similarity=1.138  Sum_probs=0.0  Template_Neff=9.100
+
+Q ISLSGD            1 ISLSGD    6 (6)
+Q Consensus         1 islsgd    6 (6)
+                      +||+||
+T Consensus        11 ~~~~~~   16 (339)
+T 5LPX_A           11 LSLEGD   16 (339)
+T ss_dssp             ------
+T ss_pred             ccCCCC
+
+
+No 3
+>6OSW_B Forkhead box M1; transcription factor, Cell cycle, negative; NMR {Danio rerio}
+Probab=12.58  E-value=2.1e+02  Score=11.82  Aligned_cols=5  Identities=80%  Similarity=1.132  Sum_probs=0.0  Template_Neff=2.200
+
+Q ISLSGD            1 ISLSG    5 (6)
+Q Consensus         1 islsg    5 (6)
+                      ||++|
+T Consensus        31 ISF~g   35 (56)
+T 6OSW_B           31 ISFSG   35 (56)
+T ss_dssp             -----
+T ss_pred             cccCC
+
+
+No 4
+>5VX6_A Uncharacterized protein YpfA; c-di-GMP, YcgR, MotI, PilZ, DgrA; HET: C2E; 3.197A {Bacillus subtilis (strain 168)}
+Probab=12.54  E-value=2.1e+02  Score=10.72  Aligned_cols=5  Identities=60%  Similarity=0.800  Sum_probs=0.0  Template_Neff=10.600
+
+Q ISLSGD            1 ISLSG    5 (6)
+Q Consensus         1 islsg    5 (6)
+                      ||.+|
+T Consensus       131 iS~gG  135 (216)
+T 5VX6_A          131 ISAGG  135 (216)
+T ss_dssp             ECSSE
+T ss_pred             ecCCe
+
+
+No 5
+>7LKN_C Type IV pilus, TRANSPORT PROTEIN; HET: MSE, SO4; 1.71A {Xanthomonas axonopodis pv. citri}
+Probab=12.45  E-value=2.1e+02  Score=10.11  Aligned_cols=5  Identities=20%  Similarity=0.388  Sum_probs=0.0  Template_Neff=9.600
+
+Q ISLSGD            1 ISLSG    5 (6)
+Q Consensus         1 islsg    5 (6)
+                      ||.+|
+T Consensus        29 iS~~G   33 (117)
+T 7LKN_C           29 VKGGG   33 (117)
+T ss_dssp             BTTCE
+T ss_pred             ecCCe
+
+
+No 6
+>7LKO_C Type IV pilus, TRANSPORT PROTEIN; HET: SO4; 2.88A {Xanthomonas axonopodis pv. citri}
+Probab=12.45  E-value=2.1e+02  Score=10.11  Aligned_cols=5  Identities=20%  Similarity=0.388  Sum_probs=0.0  Template_Neff=9.600
+
+Q ISLSGD            1 ISLSG    5 (6)
+Q Consensus         1 islsg    5 (6)
+                      ||.+|
+T Consensus        29 iS~~G   33 (117)
+T 7LKO_C           29 VKGGG   33 (117)
+T ss_dssp             BTTCE
+T ss_pred             ecCCe
+
+
+No 7
+>4I86_A Cellulose synthase 1 (E.C.2.4.1.12); beta-barrel fold, c-di-GMP Binding, Transferase; 2.098A {Gluconacetobacter xylinus}
+Probab=12.31  E-value=2.1e+02  Score=9.70  Aligned_cols=5  Identities=40%  Similarity=0.986  Sum_probs=0.0  Template_Neff=10.200
+
+Q ISLSGD            1 ISLSG    5 (6)
+Q Consensus         1 islsg    5 (6)
+                      ||.+|
+T Consensus        36 iS~~G   40 (111)
+T 4I86_A           36 LSMGG   40 (111)
+T ss_dssp             ECSSE
+T ss_pred             ecCCc
+
+
+No 8
+>6TIF_BBB UPF0297 protein lmo1503; 5-helical bundle, dimer, Listeria monocytogenes; HET: SO4; 1.6A {Listeria monocytogenes serovar 1/2a (strain ATCC BAA-679 / EGD-e)}
+Probab=12.28  E-value=2.1e+02  Score=12.13  Aligned_cols=4  Identities=100%  Similarity=1.456  Sum_probs=0.0  Template_Neff=4.000
+
+Q ISLSGD            3 LSGD    6 (6)
+Q Consensus         3 lsgd    6 (6)
+                      +|||
+T Consensus        48 lSGD   51 (90)
+T 6TIF_BBB         48 LSGD   51 (90)
+T ss_pred             HhCC
+
+
+No 9
+>6DSL_A CatN, CatC; Intein Protein, Trans Splicing, Consensus; NMR {Enterobacteria phage T7}
+Probab=11.56  E-value=2.3e+02  Score=10.80  Aligned_cols=5  Identities=80%  Similarity=1.238  Sum_probs=0.0  Template_Neff=1.000
+
+Q ISLSGD            2 SLSGD    6 (6)
+Q Consensus         2 slsgd    6 (6)
+                      .||||
+T Consensus         4 alsgd    8 (33)
+T 6DSL_A            4 ALSGD    8 (33)
+T ss_dssp             CEETT
+T ss_pred             ccccC
+
+
+No 10
+>3DTD_C Invasion-associated protein B; STRUCTURAL GENOMICS, INVASION ASSOCIATED PROTEIN; HET: GOL; 2.35A {Bartonella henselae}
+Probab=10.93  E-value=2.5e+02  Score=11.21  Aligned_cols=5  Identities=40%  Similarity=0.986  Sum_probs=0.0  Template_Neff=8.400
+
+Q ISLSGD            1 ISLSG    5 (6)
+Q Consensus         1 islsg    5 (6)
+                      +||+|
+T Consensus       150 ~SL~G  154 (175)
+T 3DTD_C          150 VQLNG  154 (175)
+T ss_pred             EeCcc
+
+

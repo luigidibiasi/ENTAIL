@@ -1,0 +1,146 @@
+Query         SASNAG
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 13:14:13 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/SASNAG/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/SASNAG/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5SZY_B thioesterase enzyme; Th   5.8 5.9E+02  0.0065    9.1   0.0    4    3-6       1-4   (160)
+  2 7BG8_B Structural polyprotein;   5.7   6E+02  0.0066   11.7   0.0    5    1-5      20-24  (311)
+  3 7BGK_B Structural polyprotein;   5.7   6E+02  0.0066   11.7   0.0    5    1-5      20-24  (311)
+  4 2ERV_B hypothetical protein Pa   5.4 6.5E+02  0.0071   10.2   0.0    4    3-6     128-131 (150)
+  5 5MRE_a 54S ribosomal protein R   5.3 6.6E+02  0.0073   11.2   0.0    4    1-4      19-22  (177)
+  6 2ERV_A hypothetical protein Pa   4.0 9.5E+02    0.01    9.7   0.0    4    3-6     128-131 (150)
+  7 2C0L_B PEROXISOMAL TARGETING S   3.9 9.6E+02   0.011    8.3   0.0    5    1-5       1-5   (122)
+  8 7EKN_F ipep, Protein AF-10; in   3.7   1E+03   0.011    9.5   0.0    4    2-5      36-39  (43)
+  9 2Q3B_A Cysteine synthase A (E.   3.7   1E+03   0.011    9.7   0.0    6    1-6      74-79  (313)
+ 10 4N6Q_A VosA; Ig-fold, NFKB, be   3.7 1.1E+03   0.012   10.2   0.0    5    1-5       2-6   (200)
+
+No 1
+>5SZY_B thioesterase enzyme; Thioesterase, Nisseria meningitidis, 4HBT, Hydrolase; HET: GDP, COA; 2.0A {Neisseria meningitidis}
+Probab=5.80  E-value=5.9e+02  Score=9.14  Aligned_cols=4  Identities=75%  Similarity=0.409  Sum_probs=0.0  Template_Neff=10.400
+
+Q SASNAG            3 SNAG    6 (6)
+Q Consensus         3 snag    6 (6)
+                      ||+|
+T Consensus         1 ~~~~    4 (160)
+T 5SZY_B            1 SNAM    4 (160)
+T ss_dssp             ----
+T ss_pred             Cccc
+
+
+No 2
+>7BG8_B Structural polyprotein; Viruses, Riboviria, Orthornavirae, Pisuviricota, Pisoniviricetes; 3.9A {Kashmir bee virus}
+Probab=5.73  E-value=6e+02  Score=11.75  Aligned_cols=5  Identities=80%  Similarity=0.734  Sum_probs=0.0  Template_Neff=7.100
+
+Q SASNAG            1 SASNA    5 (6)
+Q Consensus         1 sasna    5 (6)
+                      ||+||
+T Consensus        20 ~~~~~   24 (311)
+T 7BG8_B           20 SAENA   24 (311)
+T ss_pred             ccccc
+
+
+No 3
+>7BGK_B Structural polyprotein; Viruses, Riboviria, Orthornavirae, Pisuviricota, Pisoniviricetes;{Kashmir bee virus}
+Probab=5.73  E-value=6e+02  Score=11.75  Aligned_cols=5  Identities=80%  Similarity=0.734  Sum_probs=0.0  Template_Neff=7.100
+
+Q SASNAG            1 SASNA    5 (6)
+Q Consensus         1 sasna    5 (6)
+                      ||+||
+T Consensus        20 ~~~~~   24 (311)
+T 7BGK_B           20 SAENA   24 (311)
+T ss_pred             ccccc
+
+
+No 4
+>2ERV_B hypothetical protein Paer03002360; Beta barrel, outer membrane, enzyme; HET: CXE; 2.0A {Pseudomonas aeruginosa}
+Probab=5.41  E-value=6.5e+02  Score=10.15  Aligned_cols=4  Identities=100%  Similarity=1.248  Sum_probs=0.0  Template_Neff=7.700
+
+Q SASNAG            3 SNAG    6 (6)
+Q Consensus         3 snag    6 (6)
+                      ||++
+T Consensus       128 SNa~  131 (150)
+T 2ERV_B          128 SNAG  131 (150)
+T ss_dssp             ECTT
+T ss_pred             cCcc
+
+
+No 5
+>5MRE_a 54S ribosomal protein RML2, mitochondrial; yeast, mitochondrial, ribosome, saccharomyces cerevisiae; HET: GDP, MG; 3.75A {Saccharomyces cerevisiae}
+Probab=5.34  E-value=6.6e+02  Score=11.18  Aligned_cols=4  Identities=100%  Similarity=0.883  Sum_probs=0.0  Template_Neff=5.900
+
+Q SASNAG            1 SASN    4 (6)
+Q Consensus         1 sasn    4 (6)
+                      ||+|
+T Consensus        19 sa~n   22 (177)
+T 5MRE_a           19 SASN   22 (177)
+T ss_pred             cccc
+
+
+No 6
+>2ERV_A hypothetical protein Paer03002360; Beta barrel, outer membrane, enzyme; HET: CXE; 2.0A {Pseudomonas aeruginosa}
+Probab=3.99  E-value=9.5e+02  Score=9.69  Aligned_cols=4  Identities=100%  Similarity=1.248  Sum_probs=0.0  Template_Neff=7.700
+
+Q SASNAG            3 SNAG    6 (6)
+Q Consensus         3 snag    6 (6)
+                      ||++
+T Consensus       128 SN~~  131 (150)
+T 2ERV_A          128 SNAG  131 (150)
+T ss_dssp             ECTT
+T ss_pred             cCCc
+
+
+No 7
+>2C0L_B PEROXISOMAL TARGETING SIGNAL 1 RECEPTOR; TRANSPORT PROTEIN/RECEPTOR, TPR REPEAT, TRANSPORT; 2.3A {HOMO SAPIENS} SCOP: d.106.1.1
+Probab=3.94  E-value=9.6e+02  Score=8.34  Aligned_cols=5  Identities=60%  Similarity=0.634  Sum_probs=0.0  Template_Neff=10.000
+
+Q SASNAG            1 SASNA    5 (6)
+Q Consensus         1 sasna    5 (6)
+                      |||++
+T Consensus         1 ~~~~~    5 (122)
+T 2C0L_B            1 SASDG    5 (122)
+T ss_dssp             CTTTT
+T ss_pred             Cccch
+
+
+No 8
+>7EKN_F ipep, Protein AF-10; inhibitor, PROTEIN BINDING; 2.14A {Homo sapiens}
+Probab=3.72  E-value=1e+03  Score=9.50  Aligned_cols=4  Identities=100%  Similarity=0.900  Sum_probs=0.0  Template_Neff=1.000
+
+Q SASNAG            2 ASNA    5 (6)
+Q Consensus         2 asna    5 (6)
+                      ||||
+T Consensus        36 asna   39 (43)
+T 7EKN_F           36 ASNA   39 (43)
+T ss_pred             HhhH
+
+
+No 9
+>2Q3B_A Cysteine synthase A (E.C.2.5.1.47); Mycobacterium tuberculosis, Pyridoxal-5'-phosphate, sulphur metabolism; HET: MPD; 1.8A {Mycobacterium tuberculosis}
+Probab=3.70  E-value=1e+03  Score=9.74  Aligned_cols=6  Identities=33%  Similarity=0.778  Sum_probs=0.0  Template_Neff=10.100
+
+Q SASNAG            1 SASNAG    6 (6)
+Q Consensus         1 sasnag    6 (6)
+                      |.+|.|
+T Consensus        74 ssGN~g   79 (313)
+T 2Q3B_A           74 TSGNTG   79 (313)
+T ss_dssp             CSSHHH
+T ss_pred             CCchHH
+
+
+No 10
+>4N6Q_A VosA; Ig-fold, NFKB, beta-sandwich, transcription factor; 1.79A {Emericella nidulans}
+Probab=3.66  E-value=1.1e+03  Score=10.25  Aligned_cols=5  Identities=60%  Similarity=0.488  Sum_probs=0.0  Template_Neff=7.200
+
+Q SASNAG            1 SASNA    5 (6)
+Q Consensus         1 sasna    5 (6)
+                      |++|+
+T Consensus         2 ~~~~~    6 (200)
+T 4N6Q_A            2 SAANY    6 (200)
+T ss_dssp             -----
+T ss_pred             CCCCC
+
+

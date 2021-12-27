@@ -1,0 +1,324 @@
+Query         KNFNYN
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 11:40:52 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/KNFNYN/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/KNFNYN/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3K3Q_B llama Aa1 VHH domain, B  49.6      15 0.00017   16.7   0.0    6    1-6       8-13  (252)
+  2 1E1H_C BOTULINUM NEUROTOXIN TY  43.3      22 0.00024   16.7   0.0    6    1-6      43-48  (287)
+  3 1ZKW_A botulinum neurotoxin E,  29.5      52 0.00057   16.1   0.0    6    1-6       4-9   (420)
+  4 1T3A_B botulinum neurotoxin ty  29.3      52 0.00058   16.1   0.0    6    1-6       4-9   (421)
+  5 5BQM_C Botulinum neurotoxin ty  28.1      57 0.00063   16.4   0.0    6    1-6       6-11  (453)
+  6 1T3C_A Clostridium botulinum,   27.2      60 0.00067   16.1   0.0    6    1-6       4-9   (421)
+  7 2ISE_A Neurotoxin BoNT/A; Botu  26.2      65 0.00071   15.9   0.0    6    1-6       5-10  (421)
+  8 2A97_B Botulinum neurotoxin ty  25.2      69 0.00076   15.9   0.0    6    1-6       6-11  (439)
+  9 3FIE_A Botulinum neurotoxin ty  24.8      71 0.00079   16.0   0.0    6    1-6       6-11  (427)
+ 10 2A8A_A Botulinum neurotoxin ty  24.5      73  0.0008   15.9   0.0    6    1-6       6-11  (439)
+ 11 2FPQ_A BOTULINUM NEUROTOXIN D   24.1      75 0.00083   16.0   0.0    6    1-6      14-19  (444)
+ 12 4EL4_A Botulinum neurotoxin A   23.7      77 0.00085   15.9   0.0    6    1-6      26-31  (445)
+ 13 2ETF_B Botulinum neurotoxin B   23.0      81  0.0009   15.8   0.0    6    1-6       6-11  (441)
+ 14 1F82_A BOTULINUM NEUROTOXIN TY  23.0      81  0.0009   15.7   0.0    6    1-6       5-10  (424)
+ 15 1ZB7_A Crystal Structure of Bo  22.1      87 0.00096   15.9   0.0    6    1-6       6-11  (455)
+ 16 6G8U_A Light chain of botulinu  21.6      90 0.00099   15.7   0.0    6    1-6      22-27  (443)
+ 17 2QN0_A Neurotoxin; botulism, S  21.4      91   0.001   15.6   0.0    6    1-6       6-11  (430)
+ 18 3BON_A Neurotoxin A; botulinum  20.6      97  0.0011   15.5   0.0    6    1-6       6-11  (425)
+ 19 3DEB_A Botulinum neurotoxin C1  20.5      98  0.0011   15.7   0.0    6    1-6      26-31  (450)
+ 20 7KZ7_A Chemotaxis protein CheX  20.2   1E+02  0.0011   15.6   0.0    6    1-6       6-11  (445)
+ 21 6BVD_B Botulinum neurotoxin ty  20.0   1E+02  0.0011   15.6   0.0    6    1-6       8-13  (436)
+
+No 1
+>3K3Q_B llama Aa1 VHH domain, Botulinum; llama, VHH, antibody, botulinum, neurotoxin; 2.6A {Lama glama}
+Probab=49.57  E-value=15  Score=16.66  Aligned_cols=6  Identities=67%  Similarity=1.292  Sum_probs=4.2  Template_Neff=6.000
+
+Q KNFNYN            1 KNFNYN    6 (6)
+Q Consensus         1 knfnyn    6 (6)
+                      ++||||
+T Consensus         8 ~~fny~   13 (252)
+T 3K3Q_B            8 KQFNYK   13 (252)
+T ss_dssp             SCCCTT
+T ss_pred             cCCCCC
+Confidence            468886
+
+
+No 2
+>1E1H_C BOTULINUM NEUROTOXIN TYPE A LIGHT; NEUROTOXIN, ZN-ENDOPEPTIDASE, COMPLEX, SUBSTRATE BOUND; 1.8A {CLOSTRIDIUM BOTULINUM} SCOP: d.92.1.7
+Probab=43.35  E-value=22  Score=16.65  Aligned_cols=6  Identities=33%  Similarity=0.711  Sum_probs=2.8  Template_Neff=5.600
+
+Q KNFNYN            1 KNFNYN    6 (6)
+Q Consensus         1 knfnyn    6 (6)
+                      ++||||
+T Consensus        43 ~~fny~   48 (287)
+T 1E1H_C           43 KAMAYK   48 (287)
+T ss_dssp             --CCTT
+T ss_pred             cccCCC
+Confidence            467775
+
+
+No 3
+>1ZKW_A botulinum neurotoxin E, Arg347Ala mutant; 2.17A {Clostridium botulinum}
+Probab=29.51  E-value=52  Score=16.13  Aligned_cols=6  Identities=67%  Similarity=1.337  Sum_probs=4.1  Template_Neff=5.900
+
+Q KNFNYN            1 KNFNYN    6 (6)
+Q Consensus         1 knfnyn    6 (6)
+                      ++||||
+T Consensus         4 ~~fny~    9 (420)
+T 1ZKW_A            4 NSFNYN    9 (420)
+T ss_dssp             CCCCTT
+T ss_pred             CCCCCC
+Confidence            467875
+
+
+No 4
+>1T3A_B botulinum neurotoxin type E (E.C.3.4.24.69); Clostridium botulinum, catalytic domain, light; 2.16A {Clostridium botulinum} SCOP: d.92.1.7
+Probab=29.27  E-value=52  Score=16.11  Aligned_cols=6  Identities=67%  Similarity=1.337  Sum_probs=4.1  Template_Neff=5.900
+
+Q KNFNYN            1 KNFNYN    6 (6)
+Q Consensus         1 knfnyn    6 (6)
+                      ++||||
+T Consensus         4 ~~fny~    9 (421)
+T 1T3A_B            4 NSFNYN    9 (421)
+T ss_dssp             CCCCTT
+T ss_pred             CCCCCC
+Confidence            467875
+
+
+No 5
+>5BQM_C Botulinum neurotoxin type D (E.C.3.4.24.69); botulinum neurotoxin, targeted secretion inhibitors; 3.1A {Clostridium botulinum}
+Probab=28.07  E-value=57  Score=16.39  Aligned_cols=6  Identities=67%  Similarity=1.381  Sum_probs=4.2  Template_Neff=5.400
+
+Q KNFNYN            1 KNFNYN    6 (6)
+Q Consensus         1 knfnyn    6 (6)
+                      ++||||
+T Consensus         6 ~~fnyn   11 (453)
+T 5BQM_C            6 KDFNYS   11 (453)
+T ss_dssp             CCCCTT
+T ss_pred             cCCCCC
+Confidence            478875
+
+
+No 6
+>1T3C_A Clostridium botulinum, catalytic domain, E212Q; 1.9A {Clostridium botulinum} SCOP: d.92.1.7
+Probab=27.19  E-value=60  Score=16.07  Aligned_cols=6  Identities=67%  Similarity=1.337  Sum_probs=4.1  Template_Neff=5.600
+
+Q KNFNYN            1 KNFNYN    6 (6)
+Q Consensus         1 knfnyn    6 (6)
+                      ++||||
+T Consensus         4 ~~fny~    9 (421)
+T 1T3C_A            4 NSFNYN    9 (421)
+T ss_dssp             CCCCTT
+T ss_pred             CCCCCC
+Confidence            467875
+
+
+No 7
+>2ISE_A Neurotoxin BoNT/A; Botulinum Neurotoxin, TOXIN; 2.2A {Clostridium botulinum}
+Probab=26.16  E-value=65  Score=15.92  Aligned_cols=6  Identities=67%  Similarity=1.292  Sum_probs=4.1  Template_Neff=5.700
+
+Q KNFNYN            1 KNFNYN    6 (6)
+Q Consensus         1 knfnyn    6 (6)
+                      ++||||
+T Consensus         5 ~~fny~   10 (421)
+T 2ISE_A            5 KQFNYK   10 (421)
+T ss_dssp             SCCCTT
+T ss_pred             cCCCCC
+Confidence            467875
+
+
+No 8
+>2A97_B Botulinum neurotoxin type F (E.C.3.4.24.69); Clostridium botulinum neurotoxin serotype F; 1.8A {Clostridium botulinum}
+Probab=25.21  E-value=69  Score=15.87  Aligned_cols=6  Identities=67%  Similarity=1.337  Sum_probs=4.0  Template_Neff=5.800
+
+Q KNFNYN            1 KNFNYN    6 (6)
+Q Consensus         1 knfnyn    6 (6)
+                      ++||||
+T Consensus         6 ~~fny~   11 (439)
+T 2A97_B            6 NSFNYN   11 (439)
+T ss_dssp             CCCCTT
+T ss_pred             cCCCCC
+Confidence            467875
+
+
+No 9
+>3FIE_A Botulinum neurotoxin type A1 (E.C.3.4.24.69)/fragment; Clostridium botulinum, BoNT F, VAMP; 2.1A {Clostridium botulinum}
+Probab=24.81  E-value=71  Score=16.01  Aligned_cols=6  Identities=67%  Similarity=1.337  Sum_probs=4.1  Template_Neff=5.300
+
+Q KNFNYN            1 KNFNYN    6 (6)
+Q Consensus         1 knfnyn    6 (6)
+                      ++||||
+T Consensus         6 ~~fny~   11 (427)
+T 3FIE_A            6 NSFNYN   11 (427)
+T ss_dssp             CCCCTT
+T ss_pred             cCCCCC
+Confidence            467875
+
+
+No 10
+>2A8A_A Botulinum neurotoxin type F (E.C.3.4.24.69); botulinum neurotoxin serotype F ; 2.0A {Clostridium botulinum}
+Probab=24.50  E-value=73  Score=15.89  Aligned_cols=6  Identities=67%  Similarity=1.337  Sum_probs=4.1  Template_Neff=5.600
+
+Q KNFNYN            1 KNFNYN    6 (6)
+Q Consensus         1 knfnyn    6 (6)
+                      ++||||
+T Consensus         6 ~~fny~   11 (439)
+T 2A8A_A            6 NSFNYN   11 (439)
+T ss_dssp             CCCCTT
+T ss_pred             cCCCCC
+Confidence            467875
+
+
+No 11
+>2FPQ_A BOTULINUM NEUROTOXIN D LIGHT CHAIN; HEXXH METALLOPROTEASE, TOXIN; 1.65A {Clostridium botulinum}
+Probab=24.06  E-value=75  Score=16.01  Aligned_cols=6  Identities=67%  Similarity=1.381  Sum_probs=4.0  Template_Neff=5.300
+
+Q KNFNYN            1 KNFNYN    6 (6)
+Q Consensus         1 knfnyn    6 (6)
+                      ++||||
+T Consensus        14 ~~fnyn   19 (444)
+T 2FPQ_A           14 KDFNYS   19 (444)
+T ss_dssp             CCCCTT
+T ss_pred             CCCCCC
+Confidence            467775
+
+
+No 12
+>4EL4_A Botulinum neurotoxin A light chain; Metalloprotease, peptidase M27 superfamily, Clostridial; HET: GOL, IMD; 1.2A {Clostridium botulinum}
+Probab=23.69  E-value=77  Score=15.89  Aligned_cols=6  Identities=67%  Similarity=1.292  Sum_probs=3.9  Template_Neff=5.500
+
+Q KNFNYN            1 KNFNYN    6 (6)
+Q Consensus         1 knfnyn    6 (6)
+                      ++||||
+T Consensus        26 ~~fny~   31 (445)
+T 4EL4_A           26 KQFNYK   31 (445)
+T ss_dssp             CCCCTT
+T ss_pred             cCCCCC
+Confidence            467775
+
+
+No 13
+>2ETF_B Botulinum neurotoxin B light chain; BOTULINUM, METALLOPROTEASE, CATALYTIC, NEUROTOXIN, HYDROLASE; HET: CSD, SO4; 2.29A {Clostridium botulinum} SCOP: d.92.1.7
+Probab=23.00  E-value=81  Score=15.85  Aligned_cols=6  Identities=83%  Similarity=1.497  Sum_probs=4.1  Template_Neff=5.400
+
+Q KNFNYN            1 KNFNYN    6 (6)
+Q Consensus         1 knfnyn    6 (6)
+                      ++||||
+T Consensus         6 ~~fny~   11 (441)
+T 2ETF_B            6 NNFNYN   11 (441)
+T ss_dssp             CCCCTT
+T ss_pred             cCCCCC
+Confidence            467875
+
+
+No 14
+>1F82_A BOTULINUM NEUROTOXIN TYPE B (E.C.3.4.24.69); Zinc dependent protease, Botulinum neurotoxin; 2.2A {Clostridium botulinum} SCOP: d.92.1.7
+Probab=22.99  E-value=81  Score=15.72  Aligned_cols=6  Identities=83%  Similarity=1.497  Sum_probs=4.0  Template_Neff=5.500
+
+Q KNFNYN            1 KNFNYN    6 (6)
+Q Consensus         1 knfnyn    6 (6)
+                      ++||||
+T Consensus         5 ~~fny~   10 (424)
+T 1F82_A            5 NNFNYN   10 (424)
+T ss_dssp             CCCCTT
+T ss_pred             cCCCCC
+Confidence            467775
+
+
+No 15
+>1ZB7_A Crystal Structure of Botulinum Neurotoxin; HExxH metalloprotease, TOXIN; HET: FLC; 2.35A {Clostridium botulinum}
+Probab=22.09  E-value=87  Score=15.86  Aligned_cols=6  Identities=100%  Similarity=1.630  Sum_probs=4.0  Template_Neff=5.300
+
+Q KNFNYN            1 KNFNYN    6 (6)
+Q Consensus         1 knfnyn    6 (6)
+                      ++||||
+T Consensus         6 ~~fnyn   11 (455)
+T 1ZB7_A            6 KNFNYN   11 (455)
+T ss_dssp             CCCCTT
+T ss_pred             cCCCCC
+Confidence            467875
+
+
+No 16
+>6G8U_A Light chain of botulinum neurotoxin; neurotoxin, endopeptidase, TOXIN; 1.308A {Clostridium botulinum}
+Probab=21.64  E-value=90  Score=15.71  Aligned_cols=6  Identities=67%  Similarity=1.331  Sum_probs=3.9  Template_Neff=5.400
+
+Q KNFNYN            1 KNFNYN    6 (6)
+Q Consensus         1 knfnyn    6 (6)
+                      ++||||
+T Consensus        22 ~~fny~   27 (443)
+T 6G8U_A           22 NKFNYN   27 (443)
+T ss_pred             ccCCCC
+Confidence            367775
+
+
+No 17
+>2QN0_A Neurotoxin; botulism, SNAREs, protease, neurotoxin, TOXIN; 1.75A {Clostridium botulinum}
+Probab=21.44  E-value=91  Score=15.59  Aligned_cols=6  Identities=67%  Similarity=1.337  Sum_probs=4.0  Template_Neff=5.500
+
+Q KNFNYN            1 KNFNYN    6 (6)
+Q Consensus         1 knfnyn    6 (6)
+                      ++||||
+T Consensus         6 ~~fny~   11 (430)
+T 2QN0_A            6 NNFNYS   11 (430)
+T ss_dssp             CCCCTT
+T ss_pred             CCCCCC
+Confidence            467775
+
+
+No 18
+>3BON_A Neurotoxin A; botulinum, neurotoxin, metalloprotease, TOXIN; 1.2A {Clostridium botulinum} SCOP: d.92.1.7
+Probab=20.60  E-value=97  Score=15.52  Aligned_cols=6  Identities=67%  Similarity=1.292  Sum_probs=4.0  Template_Neff=5.400
+
+Q KNFNYN            1 KNFNYN    6 (6)
+Q Consensus         1 knfnyn    6 (6)
+                      ++||||
+T Consensus         6 ~~fnyn   11 (425)
+T 3BON_A            6 KQFNYK   11 (425)
+T ss_dssp             CCCCTT
+T ss_pred             CCCCCC
+Confidence            467775
+
+
+No 19
+>3DEB_A Botulinum neurotoxin C1 light chain; BOTULISM, BOTULINUM NEUROTOXIN, APO FORM; HET: FMT; 1.95A {Clostridium botulinum}
+Probab=20.52  E-value=98  Score=15.71  Aligned_cols=6  Identities=67%  Similarity=1.337  Sum_probs=3.9  Template_Neff=5.200
+
+Q KNFNYN            1 KNFNYN    6 (6)
+Q Consensus         1 knfnyn    6 (6)
+                      ++||||
+T Consensus        26 ~~fny~   31 (450)
+T 3DEB_A           26 NNFNYS   31 (450)
+T ss_dssp             CCCCTT
+T ss_pred             cCCCCC
+Confidence            367775
+
+
+No 20
+>7KZ7_A Chemotaxis protein CheX; Structural Genomics, Center for Structural; HET: GOL, EDO; 1.8A {Clostridium botulinum}
+Probab=20.21  E-value=1e+02  Score=15.61  Aligned_cols=6  Identities=67%  Similarity=1.331  Sum_probs=4.0  Template_Neff=5.300
+
+Q KNFNYN            1 KNFNYN    6 (6)
+Q Consensus         1 knfnyn    6 (6)
+                      ++||||
+T Consensus         6 ~~fny~   11 (445)
+T 7KZ7_A            6 NKFNYN   11 (445)
+T ss_dssp             CCCCTT
+T ss_pred             cCCCCC
+Confidence            367775
+
+
+No 21
+>6BVD_B Botulinum neurotoxin type B (E.C.3.4.24.69); TOXIN, Metalloendopeptidase, Proteolysis; HET: ACT; 2.09A {Clostridium botulinum}
+Probab=20.04  E-value=1e+02  Score=15.55  Aligned_cols=6  Identities=50%  Similarity=1.248  Sum_probs=4.0  Template_Neff=5.300
+
+Q KNFNYN            1 KNFNYN    6 (6)
+Q Consensus         1 knfnyn    6 (6)
+                      ++||||
+T Consensus         8 ~~fny~   13 (436)
+T 6BVD_B            8 NSFNYD   13 (436)
+T ss_dssp             CCCCTT
+T ss_pred             ccCCCC
+Confidence            467775
+
+

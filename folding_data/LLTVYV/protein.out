@@ -1,0 +1,147 @@
+Query         LLTVYV
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 19:23:31 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LLTVYV/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LLTVYV/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2JN4_A Hypothetical protein fi   7.5 4.2E+02  0.0047   11.4   0.0    5    2-6      33-37  (87)
+  2 2EKN_A Probable molybdenum cof   7.2 4.4E+02  0.0049   11.8   0.0    5    1-5     121-125 (159)
+  3 4PYA_A Molybdenum cofactor bio   7.0 4.6E+02  0.0051   11.8   0.0    5    1-5     123-127 (161)
+  4 2N6D_A N-acetylglucosamine-1-p   6.9 4.7E+02  0.0052   10.0   0.0    6    1-6       4-9   (172)
+  5 4FDF_B Molybdenum cofactor bio   6.6 4.9E+02  0.0055   12.0   0.0    5    1-5     132-136 (175)
+  6 2WTO_A ORF131 PROTEIN; METAL B   6.6   5E+02  0.0056   11.1   0.0    5    2-6     118-122 (131)
+  7 2WTP_B ORF131 PROTEIN; METAL B   6.6   5E+02  0.0056   11.1   0.0    5    2-6     118-122 (131)
+  8 5B66_m Photosystem II protein    6.3 5.3E+02  0.0059    9.7   0.0    6    1-6      22-27  (36)
+  9 5V2C_M Photosystem II protein    6.3 5.3E+02  0.0059    9.7   0.0    6    1-6      22-27  (36)
+ 10 6KAC_m Photosystem II protein    6.3 5.4E+02  0.0059    9.6   0.0    6    1-6      22-27  (34)
+
+No 1
+>2JN4_A Hypothetical protein fixU, nifT; hypothetical protein, Rhodopseudomonas palustris, Structural; NMR {Rhodopseudomonas palustris} SCOP: b.173.1.1
+Probab=7.53  E-value=4.2e+02  Score=11.43  Aligned_cols=5  Identities=40%  Similarity=0.727  Sum_probs=0.0  Template_Neff=3.400
+
+Q LLTVYV            2 LTVYV    6 (6)
+Q Consensus         2 ltvyv    6 (6)
+                      |++||
+T Consensus        33 L~~YV   37 (87)
+T 2JN4_A           33 HSAYV   37 (87)
+T ss_dssp             EEEEE
+T ss_pred             EEEEE
+
+
+No 2
+>2EKN_A Probable molybdenum cofactor biosynthesis protein; molybdenum cofactor biosynthesis protein, Structural; HET: FLC; 2.05A {Pyrococcus horikoshii}
+Probab=7.22  E-value=4.4e+02  Score=11.81  Aligned_cols=5  Identities=40%  Similarity=1.052  Sum_probs=0.0  Template_Neff=5.100
+
+Q LLTVYV            1 LLTVY    5 (6)
+Q Consensus         1 lltvy    5 (6)
+                      +||+|
+T Consensus       121 ~Ltiy  125 (159)
+T 2EKN_A          121 LLAIW  125 (159)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 3
+>4PYA_A Molybdenum cofactor biosynthesis protein MoaC; MoaC, Molybdenum Cofactor, Moco, TRANSLATION; HET: EDO, 2X3; 1.789A {Escherichia coli}
+Probab=7.02  E-value=4.6e+02  Score=11.79  Aligned_cols=5  Identities=60%  Similarity=1.079  Sum_probs=0.0  Template_Neff=5.100
+
+Q LLTVYV            1 LLTVY    5 (6)
+Q Consensus         1 lltvy    5 (6)
+                      +||+|
+T Consensus       123 ~Ltiy  127 (161)
+T 4PYA_A          123 ALTIY  127 (161)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 4
+>2N6D_A N-acetylglucosamine-1-phosphotransferase subunits alpha/beta (E.C.2.7.8.17); PSI-Biology, N-acetylglucosamine-1-phosphate transferase, transferase; NMR {Homo sapiens}
+Probab=6.94  E-value=4.7e+02  Score=10.04  Aligned_cols=6  Identities=17%  Similarity=-0.014  Sum_probs=0.0  Template_Neff=9.300
+
+Q LLTVYV            1 LLTVYV    6 (6)
+Q Consensus         1 lltvyv    6 (6)
+                      .+||||
+T Consensus         4 ~~~l~V    9 (172)
+T 2N6D_A            4 PMLVLD    9 (172)
+T ss_dssp             CEEEEC
+T ss_pred             CEEEEc
+
+
+No 5
+>4FDF_B Molybdenum cofactor biosynthesis protein C; MoaC2, Ferrodoxin-like fold, Moco biosynthesis; 2.202A {Mycobacterium tuberculosis}
+Probab=6.65  E-value=4.9e+02  Score=11.96  Aligned_cols=5  Identities=60%  Similarity=0.992  Sum_probs=0.0  Template_Neff=4.800
+
+Q LLTVYV            1 LLTVY    5 (6)
+Q Consensus         1 lltvy    5 (6)
+                      +||+|
+T Consensus       132 ~LTiy  136 (175)
+T 4FDF_B          132 ALTLY  136 (175)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 6
+>2WTO_A ORF131 PROTEIN; METAL BINDING PROTEIN, HEAVY METAL; HET: CL; 1.85A {RALSTONIA METALLIDURANS CH34}
+Probab=6.56  E-value=5e+02  Score=11.11  Aligned_cols=5  Identities=40%  Similarity=1.059  Sum_probs=0.0  Template_Neff=5.600
+
+Q LLTVYV            2 LTVYV    6 (6)
+Q Consensus         2 ltvyv    6 (6)
+                      ++|||
+T Consensus       118 v~vyV  122 (131)
+T 2WTO_A          118 VRVYI  122 (131)
+T ss_dssp             CEEEE
+T ss_pred             eEEEE
+
+
+No 7
+>2WTP_B ORF131 PROTEIN; METAL BINDING PROTEIN, HEAVY METAL; HET: CL, TRS, PEG; 1.5A {RALSTONIA METALLIDURANS CH34}
+Probab=6.56  E-value=5e+02  Score=11.11  Aligned_cols=5  Identities=40%  Similarity=1.059  Sum_probs=0.0  Template_Neff=5.600
+
+Q LLTVYV            2 LTVYV    6 (6)
+Q Consensus         2 ltvyv    6 (6)
+                      ++|||
+T Consensus       118 v~vyV  122 (131)
+T 2WTP_B          118 VRVYI  122 (131)
+T ss_dssp             CEEEE
+T ss_pred             eEEEE
+
+
+No 8
+>5B66_m Photosystem II protein D1 (E.C.1.10.3.9); psii, photosystem, oxygen evolving, water; HET: LMG, PL9, DMS, OEX, UNL, LMT, PHO, CLA, FME, DGD, HEM, HTG, RRX, HEC, SQD, LHG, BCR; 1.85A {Thermosynechococcus vulcanus}
+Probab=6.31  E-value=5.3e+02  Score=9.73  Aligned_cols=6  Identities=50%  Similarity=1.065  Sum_probs=0.0  Template_Neff=2.900
+
+Q LLTVYV            1 LLTVYV    6 (6)
+Q Consensus         1 lltvyv    6 (6)
+                      |+..||
+T Consensus        22 LlilYv   27 (36)
+T 5B66_m           22 LIILYV   27 (36)
+T ss_pred             HHHHHH
+
+
+No 9
+>5V2C_M Photosystem II protein D1 (E.C.1.10.3.9); ELECTRON TRANSPORT, PHOTOSYNTHESIS; HET: GOL, BCT, P6G, PHO, SQD, MHS, HEC, PE8, OEX, PG4, LHG, HEM, DGD, HTG, EDO, LMG, FME, PGE, CLA, LMT, 1PE, PL9, BCR, 2PE; 1.9A {Thermosynechococcus vulcanus}
+Probab=6.31  E-value=5.3e+02  Score=9.73  Aligned_cols=6  Identities=50%  Similarity=1.065  Sum_probs=0.0  Template_Neff=2.900
+
+Q LLTVYV            1 LLTVYV    6 (6)
+Q Consensus         1 lltvyv    6 (6)
+                      |+..||
+T Consensus        22 LlilYv   27 (36)
+T 5V2C_M           22 LIILYV   27 (36)
+T ss_pred             HHHHHH
+
+
+No 10
+>6KAC_m Photosystem II protein D1 (E.C.1.10.3.9); PhotosystemII, supercomplex, PHOTOSYNTHESIS; HET: LMG, OEX, DGD, PL9, HEM, PHO, CLA, LMU, NEX, LUT, XAT, SQD, CHL, LHG, BCR; 2.7A {Chlamydomonas reinhardtii}
+Probab=6.25  E-value=5.4e+02  Score=9.62  Aligned_cols=6  Identities=67%  Similarity=1.132  Sum_probs=0.0  Template_Neff=2.900
+
+Q LLTVYV            1 LLTVYV    6 (6)
+Q Consensus         1 lltvyv    6 (6)
+                      |+..||
+T Consensus        22 LlilYv   27 (34)
+T 6KAC_m           22 LLILYV   27 (34)
+T ss_pred             HHHHHH
+
+

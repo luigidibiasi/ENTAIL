@@ -1,0 +1,150 @@
+Query         SRQNQS
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 16:24:43 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/SRQNQS/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/SRQNQS/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 1GAK_A SPERM PROTEIN SP18; hel  12.3 2.2E+02  0.0024   13.5   0.0    6    1-6       7-12  (141)
+  2 3DHU_D Alpha-amylase (E.C.3.2.   7.3 4.4E+02  0.0048   11.5   0.0    5    2-6     436-440 (449)
+  3 7EMK_A Dendrorhynchus zhejiang   6.7 4.9E+02  0.0055    9.7   0.0    6    1-6       4-9   (169)
+  4 6N3A_J TAR DNA-binding protein   6.6   5E+02  0.0055   10.5   0.0    6    1-6      32-37  (50)
+  5 3V7B_B Uncharacterized protein   6.4 5.2E+02  0.0057   12.1   0.0    6    1-6     130-135 (151)
+  6 4YL8_B Moesin, Crumbs; protein   6.2 5.4E+02   0.006    8.8   0.0    6    1-6      19-24  (43)
+  7 6J05_A Transcriptional regulat   6.0 5.7E+02  0.0063    9.4   0.0    5    1-5     114-118 (124)
+  8 4JPN_C Minor spike protein H;    5.8   6E+02  0.0066   11.2   0.0    4    1-4      42-45  (79)
+  9 4JPN_D Minor spike protein H;    5.8   6E+02  0.0066   11.2   0.0    4    1-4      42-45  (79)
+ 10 3V7B_A Uncharacterized protein   5.7 6.1E+02  0.0067   12.0   0.0    6    1-6     130-135 (151)
+
+No 1
+>1GAK_A SPERM PROTEIN SP18; helical bundle, CELL ADHESION; 1.85A {Haliotis fulgens} SCOP: a.19.1.1
+Probab=12.26  E-value=2.2e+02  Score=13.49  Aligned_cols=6  Identities=83%  Similarity=0.855  Sum_probs=3.7  Template_Neff=2.200
+
+Q SRQNQS            1 SRQNQS    6 (6)
+Q Consensus         1 srqnqs    6 (6)
+                      |+|||+
+T Consensus         7 sk~n~a   12 (141)
+T 1GAK_A            7 SRQEQS   12 (141)
+T ss_dssp             CHHHHH
+T ss_pred             chHHHH
+Confidence            567764
+
+
+No 2
+>3DHU_D Alpha-amylase (E.C.3.2.1.1); STRUCTURAL GENOMICS, HYDROLASE, Glycosidase, PSI-2; 2.0A {Lactobacillus plantarum}
+Probab=7.33  E-value=4.4e+02  Score=11.49  Aligned_cols=5  Identities=40%  Similarity=0.328  Sum_probs=0.0  Template_Neff=9.900
+
+Q SRQNQS            2 RQNQS    6 (6)
+Q Consensus         2 rqnqs    6 (6)
+                      +||||
+T Consensus       436 ~~~~~  440 (449)
+T 3DHU_D          436 VADQS  440 (449)
+T ss_dssp             -----
+T ss_pred             ecccc
+
+
+No 3
+>7EMK_A Dendrorhynchus zhejiangensis ferritin; Dendrorhynchus zhejiangensis, Ferritin, STRUCTURAL PROTEIN; HET: CL, NA; 2.3A {Dendrorhynchus sinensis}
+Probab=6.65  E-value=4.9e+02  Score=9.71  Aligned_cols=6  Identities=50%  Similarity=0.523  Sum_probs=0.0  Template_Neff=9.800
+
+Q SRQNQS            1 SRQNQS    6 (6)
+Q Consensus         1 srqnqs    6 (6)
+                      +|||.+
+T Consensus         4 ~~~~~~    9 (169)
+T 7EMK_A            4 CRQNYH    9 (169)
+T ss_dssp             SCCSCC
+T ss_pred             cccccC
+
+
+No 4
+>6N3A_J TAR DNA-binding protein 43, segA; Amyloid, TDP43, ALS, FTLD-TDP, dna; 3.3A {Homo sapiens}
+Probab=6.59  E-value=5e+02  Score=10.55  Aligned_cols=6  Identities=83%  Similarity=0.839  Sum_probs=0.0  Template_Neff=2.200
+
+Q SRQNQS            1 SRQNQS    6 (6)
+Q Consensus         1 srqnqs    6 (6)
+                      +.||||
+T Consensus        32 ~Qq~qs   37 (50)
+T 6N3A_J           32 SQQNQS   37 (50)
+T ss_dssp             EEEEEC
+T ss_pred             hcCCCC
+
+
+No 5
+>3V7B_B Uncharacterized protein; STRUCTURAL GENOMICS, PSI-BIOLOGY, PROTEIN STRUCTURE; HET: MSE; 1.743A {Corynebacterium diphtheriae}
+Probab=6.41  E-value=5.2e+02  Score=12.13  Aligned_cols=6  Identities=67%  Similarity=0.601  Sum_probs=0.0  Template_Neff=3.400
+
+Q SRQNQS            1 SRQNQS    6 (6)
+Q Consensus         1 srqnqs    6 (6)
+                      |.|.||
+T Consensus       130 snQ~QS  135 (151)
+T 3V7B_B          130 SNQQQS  135 (151)
+T ss_dssp             ESSSCH
+T ss_pred             eCCCCc
+
+
+No 6
+>4YL8_B Moesin, Crumbs; protein complex, FERM domain, PROTEIN; HET: IOD; 1.5A {Mus musculus}
+Probab=6.19  E-value=5.4e+02  Score=8.80  Aligned_cols=6  Identities=33%  Similarity=0.202  Sum_probs=0.0  Template_Neff=6.300
+
+Q SRQNQS            1 SRQNQS    6 (6)
+Q Consensus         1 srqnqs    6 (6)
+                      |+|++.
+T Consensus        19 S~qE~~   24 (43)
+T 4YL8_B           19 SAQEYC   24 (43)
+T ss_dssp             TTCCC-
+T ss_pred             Chhhcc
+
+
+No 7
+>6J05_A Transcriptional regulator, ArsR; ArsR, As-III complex, repressor, TRANSCRIPTION; 1.86A {Acidithiobacillus ferrooxidans}
+Probab=5.99  E-value=5.7e+02  Score=9.36  Aligned_cols=5  Identities=40%  Similarity=0.408  Sum_probs=0.0  Template_Neff=9.100
+
+Q SRQNQS            1 SRQNQ    5 (6)
+Q Consensus         1 srqnq    5 (6)
+                      +.|||
+T Consensus       114 ~~~~~  118 (124)
+T 6J05_A          114 QEGNQ  118 (124)
+T ss_pred             hcccc
+
+
+No 8
+>4JPN_C Minor spike protein H; helical barrel, tail tube, pilot; 2.101A {Enterobacteria phage phiX174}
+Probab=5.76  E-value=6e+02  Score=11.21  Aligned_cols=4  Identities=100%  Similarity=1.116  Sum_probs=0.0  Template_Neff=1.400
+
+Q SRQNQS            1 SRQN    4 (6)
+Q Consensus         1 srqn    4 (6)
+                      ||||
+T Consensus        42 srqn   45 (79)
+T 4JPN_C           42 SRQN   45 (79)
+T ss_dssp             HHHH
+T ss_pred             hccc
+
+
+No 9
+>4JPN_D Minor spike protein H; helical barrel, tail tube, pilot; 2.101A {Enterobacteria phage phiX174}
+Probab=5.76  E-value=6e+02  Score=11.21  Aligned_cols=4  Identities=100%  Similarity=1.116  Sum_probs=0.0  Template_Neff=1.400
+
+Q SRQNQS            1 SRQN    4 (6)
+Q Consensus         1 srqn    4 (6)
+                      ||||
+T Consensus        42 srqn   45 (79)
+T 4JPN_D           42 SRQN   45 (79)
+T ss_dssp             HHHH
+T ss_pred             hccc
+
+
+No 10
+>3V7B_A Uncharacterized protein; STRUCTURAL GENOMICS, PSI-BIOLOGY, PROTEIN STRUCTURE; 1.743A {Corynebacterium diphtheriae}
+Probab=5.68  E-value=6.1e+02  Score=11.99  Aligned_cols=6  Identities=67%  Similarity=0.601  Sum_probs=0.0  Template_Neff=3.200
+
+Q SRQNQS            1 SRQNQS    6 (6)
+Q Consensus         1 srqnqs    6 (6)
+                      |.|.||
+T Consensus       130 snQ~QS  135 (151)
+T 3V7B_A          130 SNQQQS  135 (151)
+T ss_dssp             ESSSCH
+T ss_pred             eCCCCc
+
+

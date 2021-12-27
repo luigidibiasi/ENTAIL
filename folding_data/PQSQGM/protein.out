@@ -1,0 +1,147 @@
+Query         PQSQGM
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 06:23:35 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/PQSQGM/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/PQSQGM/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2WQM_A SERINE/THREONINE-PROTEI  48.0      17 0.00018   14.0   0.0    6    1-6       3-8   (310)
+  2 7A1I_B Complex, Cytoskeleton,   24.4      73 0.00081   13.0   0.0    6    1-6      35-40  (52)
+  3 1PYB_C methionyl-tRNA syntheta  19.5 1.1E+02  0.0012   11.7   0.0    5    2-6      81-85  (111)
+  4 3E4C_A ---; ZYMOGEN, CASPASE-1  19.3 1.1E+02  0.0012   12.7   0.0    5    2-6       1-5   (302)
+  5 7M4Y_Y ribosome; Acinetobacter  19.3 1.1E+02  0.0012   10.8   0.0    6    1-6      41-46  (58)
+  6 2Q2I_A Secretion chaperone; be  18.4 1.2E+02  0.0013   11.7   0.0    5    2-6      85-89  (116)
+  7 6O90_0 70S ribosome; 70S, ribo  17.9 1.2E+02  0.0013   10.6   0.0    6    1-6      40-45  (58)
+  8 6WU9_0 ribosome; 70S, ribosome  17.9 1.2E+02  0.0013   10.6   0.0    6    1-6      40-45  (58)
+  9 4AIP_B FE-REGULATED PROTEIN B;  17.2 1.3E+02  0.0014   13.2   0.0    6    1-6      13-18  (742)
+ 10 1BXY_B PROTEIN (RIBOSOMAL PROT  17.2 1.3E+02  0.0014   10.7   0.0    6    1-6      41-46  (60)
+
+No 1
+>2WQM_A SERINE/THREONINE-PROTEIN KINASE NEK7 (E.C.2.7.11.1); ATP-BINDING, METAL-BINDING, SERINE/THREONINE-PROTEIN KINASE, CELL; 2.1A {HOMO SAPIENS}
+Probab=48.04  E-value=17  Score=13.98  Aligned_cols=6  Identities=83%  Similarity=0.999  Sum_probs=0.0  Template_Neff=11.100
+
+Q PQSQGM            1 PQSQGM    6 (6)
+Q Consensus         1 pqsqgm    6 (6)
+                      +|||||
+T Consensus         3 ~~~~~~    8 (310)
+T 2WQM_A            3 EQSQGM    8 (310)
+T ss_dssp             ------
+T ss_pred             ccCCCc
+Confidence            356654
+
+
+No 2
+>7A1I_B Complex, Cytoskeleton, Flagellum, Trypanosoma, PEPTIDE; HET: EPE; 1.87A {Trypanosoma brucei equiperdum}
+Probab=24.41  E-value=73  Score=13.04  Aligned_cols=6  Identities=33%  Similarity=0.678  Sum_probs=3.0  Template_Neff=1.600
+
+Q PQSQGM            1 PQSQGM    6 (6)
+Q Consensus         1 pqsqgm    6 (6)
+                      ||+.||
+T Consensus        35 P~~~~~   40 (52)
+T 7A1I_B           35 PQRRRV   40 (52)
+T ss_pred             CccCCC
+Confidence            455554
+
+
+No 3
+>1PYB_C methionyl-tRNA synthetase beta subunit; oligonucleotide, oligosaccharide-binding fold, OB-fold, beta-barrel; 2.5A {Aquifex aeolicus} SCOP: b.40.4.4
+Probab=19.51  E-value=1.1e+02  Score=11.68  Aligned_cols=5  Identities=80%  Similarity=1.165  Sum_probs=0.0  Template_Neff=7.800
+
+Q PQSQGM            2 QSQGM    6 (6)
+Q Consensus         2 qsqgm    6 (6)
+                      .|+||
+T Consensus        81 ~S~gm   85 (111)
+T 1PYB_C           81 ESQGM   85 (111)
+T ss_dssp             CBSSE
+T ss_pred             eeceE
+
+
+No 4
+>3E4C_A ---; ZYMOGEN, CASPASE-1, INFLAMMASOME, ICE, CASPASE; 2.05A {Homo sapiens}
+Probab=19.31  E-value=1.1e+02  Score=12.72  Aligned_cols=5  Identities=80%  Similarity=1.052  Sum_probs=0.0  Template_Neff=9.400
+
+Q PQSQGM            2 QSQGM    6 (6)
+Q Consensus         2 qsqgm    6 (6)
+                      ||+||
+T Consensus         1 ~~~~~    5 (302)
+T 3E4C_A            1 QSQGV    5 (302)
+T ss_pred             CCCcc
+
+
+No 5
+>7M4Y_Y ribosome; Acinetobacter baumannii, ribosome, eravacycline, antibiotic; HET: UR3, 7MG, 5MC, OMG, 6MZ, 4SU, PSU, 5MU, H2U, YQM, 2MG, OMU, MA6, MG, 2MA, 4OC, 3TD; 2.5A {Acinetobacter baumannii AB0057}
+Probab=19.27  E-value=1.1e+02  Score=10.81  Aligned_cols=6  Identities=50%  Similarity=1.171  Sum_probs=0.0  Template_Neff=7.000
+
+Q PQSQGM            1 PQSQGM    6 (6)
+Q Consensus         1 pqsqgm    6 (6)
+                      |+..||
+T Consensus        41 p~~~gm   46 (58)
+T 7M4Y_Y           41 PSNRGM   46 (58)
+T ss_pred             HHHHHH
+
+
+No 6
+>2Q2I_A Secretion chaperone; beta barrel, OB fold, homodimer; HET: EDO; 1.55A {Agrobacterium tumefaciens str. C58}
+Probab=18.37  E-value=1.2e+02  Score=11.66  Aligned_cols=5  Identities=20%  Similarity=0.328  Sum_probs=0.0  Template_Neff=7.800
+
+Q PQSQGM            2 QSQGM    6 (6)
+Q Consensus         2 qsqgm    6 (6)
+                      .|+||
+T Consensus        85 ~S~gm   89 (116)
+T 2Q2I_A           85 RSEVL   89 (116)
+T ss_dssp             EECCE
+T ss_pred             EEeeE
+
+
+No 7
+>6O90_0 70S ribosome; 70S, ribosome, pathogen, antibiotic development; 3.49A {Enterococcus faecalis}
+Probab=17.94  E-value=1.2e+02  Score=10.64  Aligned_cols=6  Identities=33%  Similarity=0.551  Sum_probs=0.0  Template_Neff=7.100
+
+Q PQSQGM            1 PQSQGM    6 (6)
+Q Consensus         1 pqsqgm    6 (6)
+                      |+..||
+T Consensus        40 p~~~gm   45 (58)
+T 6O90_0           40 EAIKGM   45 (58)
+T ss_pred             HHHHHH
+
+
+No 8
+>6WU9_0 ribosome; 70S, ribosome, pathogen, antibiotic development; 2.9A {Enterococcus faecalis OG1RF}
+Probab=17.94  E-value=1.2e+02  Score=10.64  Aligned_cols=6  Identities=33%  Similarity=0.551  Sum_probs=0.0  Template_Neff=7.100
+
+Q PQSQGM            1 PQSQGM    6 (6)
+Q Consensus         1 pqsqgm    6 (6)
+                      |+..||
+T Consensus        40 p~~~gm   45 (58)
+T 6WU9_0           40 EAIKGM   45 (58)
+T ss_pred             HHHHHH
+
+
+No 9
+>4AIP_B FE-REGULATED PROTEIN B; TRANSPORT PROTEIN, OUTER MEMBRANE, TONB-DEPENDENT; HET: N8E, GLU; 2.4A {NEISSERIA MENINGITIDIS}
+Probab=17.24  E-value=1.3e+02  Score=13.21  Aligned_cols=6  Identities=50%  Similarity=1.143  Sum_probs=0.0  Template_Neff=11.200
+
+Q PQSQGM            1 PQSQGM    6 (6)
+Q Consensus         1 pqsqgm    6 (6)
+                      |.+|||
+T Consensus        13 ~~~~~~   18 (742)
+T 4AIP_B           13 PRGSGM   18 (742)
+T ss_dssp             ------
+T ss_pred             CCCCCc
+
+
+No 10
+>1BXY_B PROTEIN (RIBOSOMAL PROTEIN L30); RIBOSOMAL PROTEIN, CONFORMATIONAL CHANGES, RIBOSOME; 1.9A {Thermus thermophilus} SCOP: d.59.1.1
+Probab=17.19  E-value=1.3e+02  Score=10.67  Aligned_cols=6  Identities=33%  Similarity=0.639  Sum_probs=0.0  Template_Neff=7.000
+
+Q PQSQGM            1 PQSQGM    6 (6)
+Q Consensus         1 pqsqgm    6 (6)
+                      |+..||
+T Consensus        41 p~~~gm   46 (60)
+T 1BXY_B           41 PAIRGN   46 (60)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+

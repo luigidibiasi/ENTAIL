@@ -1,0 +1,148 @@
+Query         NSNNSN
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 04:15:16 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NSNNSN/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NSNNSN/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 1P27_C Mago nashi protein homo   7.5 4.2E+02  0.0047   12.2   0.0    4    3-6      35-38  (144)
+  2 2J0S_C ATP-DEPENDENT RNA HELIC   7.5 4.3E+02  0.0047   12.2   0.0    4    3-6      36-39  (146)
+  3 2YEP_E GLUTAMATE N-ACETYLTRANS   7.4 4.3E+02  0.0048   12.0   0.0    6    1-6      72-77  (180)
+  4 7AIH_Ah mL94, mL89, Ribosomal    7.3 4.4E+02  0.0049   15.0   0.0    5    1-5      12-16  (570)
+  5 2V4I_A GLUTAMATE N-ACETYLTRANS   7.2 4.5E+02   0.005   11.8   0.0    6    1-6      65-70  (173)
+  6 2VZK_A GLUTAMATE N-ACETYLTRANS   7.2 4.5E+02   0.005   11.8   0.0    6    1-6      65-70  (173)
+  7 3IT4_A Arginine biosynthesis b   7.0 4.6E+02  0.0051   12.1   0.0    6    1-6      83-88  (199)
+  8 4V02_A SITE-DETERMINING PROTEI   6.8 4.8E+02  0.0053    9.8   0.0    5    2-6     249-253 (258)
+  9 3H7N_A Nucleoporin NUP120; Nuc   6.1 5.5E+02  0.0061   12.7   0.0    5    2-6      29-33  (729)
+ 10 3F7F_D Nucleoporin, Nuclear Po   6.1 5.6E+02  0.0062   12.7   0.0    5    2-6      29-33  (729)
+
+No 1
+>1P27_C Mago nashi protein homolog, RNA-binding; RNA-binding, Nuclear protein, mRNA splicing; 2.0A {Homo sapiens} SCOP: d.232.1.1
+Probab=7.49  E-value=4.2e+02  Score=12.15  Aligned_cols=4  Identities=100%  Similarity=1.132  Sum_probs=0.0  Template_Neff=3.900
+
+Q NSNNSN            3 NNSN    6 (6)
+Q Consensus         3 nnsn    6 (6)
+                      ||||
+T Consensus        35 NnSn   38 (144)
+T 1P27_C           35 NNSN   38 (144)
+T ss_dssp             EEEC
+T ss_pred             ecCC
+
+
+No 2
+>2J0S_C ATP-DEPENDENT RNA HELICASE DDX48, PROTEIN; MRNA PROCESSING, PHOSPHORYLATION, RRNA PROCESSING; HET: ANP; 2.21A {HOMO SAPIENS} SCOP: d.232.1.1
+Probab=7.45  E-value=4.3e+02  Score=12.17  Aligned_cols=4  Identities=100%  Similarity=1.132  Sum_probs=0.0  Template_Neff=3.900
+
+Q NSNNSN            3 NNSN    6 (6)
+Q Consensus         3 nnsn    6 (6)
+                      ||||
+T Consensus        36 NnSn   39 (146)
+T 2J0S_C           36 NNSN   39 (146)
+T ss_pred             ecCC
+
+
+No 3
+>2YEP_E GLUTAMATE N-ACETYLTRANSFERASE 2 ALPHA CHAIN; ACYL ENZYME, TRANSFERASE, NTN HYDROLASE; HET: TH5, GLU; 2.7A {STREPTOMYCES CLAVULIGERUS}
+Probab=7.36  E-value=4.3e+02  Score=11.98  Aligned_cols=6  Identities=33%  Similarity=0.396  Sum_probs=0.0  Template_Neff=5.300
+
+Q NSNNSN            1 NSNNSN    6 (6)
+Q Consensus         1 nsnnsn    6 (6)
+                      ||.|.|
+T Consensus        72 NSGnAN   77 (180)
+T 2YEP_E           72 LARNAN   77 (180)
+T ss_dssp             ECSBCC
+T ss_pred             eCCCCC
+
+
+No 4
+>7AIH_Ah mL94, mL89, Ribosomal protein L3-like; Ribosome, Mitochondria, Kinetoplastid; HET: NAD; 3.6A {Leishmania major}
+Probab=7.25  E-value=4.4e+02  Score=14.98  Aligned_cols=5  Identities=100%  Similarity=1.052  Sum_probs=0.0  Template_Neff=1.900
+
+Q NSNNSN            1 NSNNS    5 (6)
+Q Consensus         1 nsnns    5 (6)
+                      |||||
+T Consensus        12 ~~~~~   16 (570)
+T 7AIH_Ah          12 NSNNS   16 (570)
+T ss_pred             CCCCC
+
+
+No 5
+>2V4I_A GLUTAMATE N-ACETYLTRANSFERASE 2 ALPHA CHAIN; CYTOPLASM, ACYL ENZYME, TRANSFERASE, NTN; HET: AYA; 2.2A {STREPTOMYCES CLAVULIGERUS}
+Probab=7.17  E-value=4.5e+02  Score=11.83  Aligned_cols=6  Identities=33%  Similarity=0.396  Sum_probs=0.0  Template_Neff=5.400
+
+Q NSNNSN            1 NSNNSN    6 (6)
+Q Consensus         1 nsnnsn    6 (6)
+                      ||.|.|
+T Consensus        65 NSGnAN   70 (173)
+T 2V4I_A           65 LARNAN   70 (173)
+T ss_dssp             EESCCC
+T ss_pred             eCCCCC
+
+
+No 6
+>2VZK_A GLUTAMATE N-ACETYLTRANSFERASE 2 ALPHA CHAIN; ACYL ENZYME, TRANSFERASE, NTN HYDROLASE; HET: TRS, TH5; 2.33A {STREPTOMYCES CLAVULIGERUS}
+Probab=7.17  E-value=4.5e+02  Score=11.83  Aligned_cols=6  Identities=33%  Similarity=0.396  Sum_probs=0.0  Template_Neff=5.400
+
+Q NSNNSN            1 NSNNSN    6 (6)
+Q Consensus         1 nsnnsn    6 (6)
+                      ||.|.|
+T Consensus        65 NSGnAN   70 (173)
+T 2VZK_A           65 LARNAN   70 (173)
+T ss_dssp             EESBCC
+T ss_pred             eCCCCC
+
+
+No 7
+>3IT4_A Arginine biosynthesis bifunctional protein argJ; Mycobacterium tuberculosis, Ornithine acetyltransferase, structural; HET: GOL; 1.7A {Mycobacterium tuberculosis}
+Probab=6.98  E-value=4.6e+02  Score=12.11  Aligned_cols=6  Identities=50%  Similarity=0.651  Sum_probs=0.0  Template_Neff=5.200
+
+Q NSNNSN            1 NSNNSN    6 (6)
+Q Consensus         1 nsnnsn    6 (6)
+                      ||.|.|
+T Consensus        83 NSGnAN   88 (199)
+T 3IT4_A           83 NSGGAN   88 (199)
+T ss_dssp             ECSBCC
+T ss_pred             eCCCCC
+
+
+No 8
+>4V02_A SITE-DETERMINING PROTEIN, PROBABLE SEPTUM SITE-DETERMINING; CELL CYCLE, BACTERIAL CELL DIVISION; HET: ATP; 2.7A {AQUIFEX AEOLICUS}
+Probab=6.83  E-value=4.8e+02  Score=9.80  Aligned_cols=5  Identities=20%  Similarity=0.189  Sum_probs=0.0  Template_Neff=11.200
+
+Q NSNNSN            2 SNNSN    6 (6)
+Q Consensus         2 snnsn    6 (6)
+                      +||||
+T Consensus       249 ~~~~~  253 (258)
+T 4V02_A          249 YGESH  253 (258)
+T ss_dssp             CCC--
+T ss_pred             hhhcc
+
+
+No 9
+>3H7N_A Nucleoporin NUP120; Nucleoporin, Nuclear Pore Complex, Macromolecular; 3.0A {Saccharomyces cerevisiae}
+Probab=6.11  E-value=5.5e+02  Score=12.70  Aligned_cols=5  Identities=100%  Similarity=1.052  Sum_probs=0.0  Template_Neff=8.500
+
+Q NSNNSN            2 SNNSN    6 (6)
+Q Consensus         2 snnsn    6 (6)
+                      |||||
+T Consensus        29 ~~~~~   33 (729)
+T 3H7N_A           29 SNNSN   33 (729)
+T ss_dssp             C----
+T ss_pred             ecccc
+
+
+No 10
+>3F7F_D Nucleoporin, Nuclear Pore Complex, Macromolecular; HET: HG; 2.6A {Saccharomyces cerevisiae}
+Probab=6.07  E-value=5.6e+02  Score=12.69  Aligned_cols=5  Identities=100%  Similarity=1.052  Sum_probs=0.0  Template_Neff=8.500
+
+Q NSNNSN            2 SNNSN    6 (6)
+Q Consensus         2 snnsn    6 (6)
+                      |||||
+T Consensus        29 ~~~~~   33 (729)
+T 3F7F_D           29 SNNSN   33 (729)
+T ss_dssp             C----
+T ss_pred             ecccc
+
+

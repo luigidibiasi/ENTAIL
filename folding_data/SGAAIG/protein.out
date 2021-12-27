@@ -1,0 +1,150 @@
+Query         SGAAIG
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 14:16:45 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/SGAAIG/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/SGAAIG/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3A5Z_C Putative lysyl-tRNA syn  13.4 1.9E+02  0.0021   12.2   0.0    6    1-6     298-303 (328)
+  2 5ZQY_A Tudor-interacting repai  12.5 2.1E+02  0.0023   11.9   0.0    5    2-6      15-19  (349)
+  3 2WOC_A ADP-RIBOSYL-[DINITROGEN  12.4 2.1E+02  0.0023   11.8   0.0    5    2-6      21-25  (299)
+  4 3A8Y_C Heat shock 70 kDa prote  12.1 2.2E+02  0.0024   12.3   0.0    6    1-6       6-11  (142)
+  5 3FXA_A SIS domain protein; Str  12.0 2.2E+02  0.0025   11.0   0.0    5    2-6     191-195 (201)
+  6 3FXA_B SIS domain protein; Str  12.0 2.2E+02  0.0025   11.0   0.0    5    2-6     191-195 (201)
+  7 3O5T_A Dinitrogenase reductase  11.9 2.2E+02  0.0025   11.8   0.0    5    2-6      16-20  (297)
+  8 6G1P_B Appr-1-p processing dom  11.8 2.3E+02  0.0025   12.0   0.0    5    2-6      15-19  (350)
+  9 5V6C_B Hemolysin-related prote  11.6 2.3E+02  0.0026   12.4   0.0    5    1-5      29-33  (138)
+ 10 5V6F_A Hemolysin-related prote  11.6 2.3E+02  0.0026   12.4   0.0    5    1-5      29-33  (138)
+
+No 1
+>3A5Z_C Putative lysyl-tRNA synthetase (E.C.6.1.1.6), Elongation; aminoacyl-tRNA synthetase paralog, Translation, tRNA; HET: KAA; 2.5A {Escherichia coli}
+Probab=13.40  E-value=1.9e+02  Score=12.25  Aligned_cols=6  Identities=67%  Similarity=1.149  Sum_probs=0.0  Template_Neff=9.300
+
+Q SGAAIG            1 SGAAIG    6 (6)
+Q Consensus         1 sgaaig    6 (6)
+                      +|.+||
+T Consensus       298 ~G~giG  303 (328)
+T 3A5Z_C          298 SGVALG  303 (328)
+T ss_dssp             EEEEEE
+T ss_pred             eeEEEe
+
+
+No 2
+>5ZQY_A Tudor-interacting repair regulator protein, TP53-binding; poly(ADP-ribose) glycohydrolase, LYASE, HYDROLASE; HET: AR6; 1.577A {Homo sapiens}
+Probab=12.46  E-value=2.1e+02  Score=11.93  Aligned_cols=5  Identities=60%  Similarity=1.145  Sum_probs=0.0  Template_Neff=9.900
+
+Q SGAAIG            2 GAAIG    6 (6)
+Q Consensus         2 gaaig    6 (6)
+                      |++||
+T Consensus        15 G~aiG   19 (349)
+T 5ZQY_A           15 GALLG   19 (349)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 3
+>2WOC_A ADP-RIBOSYL-[DINITROGEN REDUCTASE] GLYCOHYDROLASE (E.C.3.2.2.24); HYDROLASE, DIMANGANESE, NITROGEN FIXATION, ADP-RIBOSYLGLYCOHYDROLASE; HET: GOL; 2.2A {RHODOSPIRILLUM RUBRUM}
+Probab=12.43  E-value=2.1e+02  Score=11.80  Aligned_cols=5  Identities=60%  Similarity=1.165  Sum_probs=0.0  Template_Neff=9.600
+
+Q SGAAIG            2 GAAIG    6 (6)
+Q Consensus         2 gaaig    6 (6)
+                      |++||
+T Consensus        21 G~aiG   25 (299)
+T 2WOC_A           21 GLAVG   25 (299)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 4
+>3A8Y_C Heat shock 70 kDa protein; BAG domain, Hsp70, ATPase domain; HET: TRS; 2.3A {Homo sapiens}
+Probab=12.12  E-value=2.2e+02  Score=12.35  Aligned_cols=6  Identities=50%  Similarity=0.617  Sum_probs=0.0  Template_Neff=5.500
+
+Q SGAAIG            1 SGAAIG    6 (6)
+Q Consensus         1 sgaaig    6 (6)
+                      ||+.||
+T Consensus         6 ~~~~~~   11 (142)
+T 3A8Y_C            6 SGTLIT   11 (142)
+T ss_dssp             ------
+T ss_pred             chheee
+
+
+No 5
+>3FXA_A SIS domain protein; Structural genomics, Joint Center for; HET: MSE; 1.6A {Listeria monocytogenes str. 4b F2365}
+Probab=12.01  E-value=2.2e+02  Score=10.98  Aligned_cols=5  Identities=60%  Similarity=1.278  Sum_probs=0.0  Template_Neff=9.700
+
+Q SGAAIG            2 GAAIG    6 (6)
+Q Consensus         2 gaaig    6 (6)
+                      |++||
+T Consensus       191 ~~~~~  195 (201)
+T 3FXA_A          191 GGAVG  195 (201)
+T ss_dssp             CCC--
+T ss_pred             CcHHH
+
+
+No 6
+>3FXA_B SIS domain protein; Structural genomics, Joint Center for; HET: MSE; 1.6A {Listeria monocytogenes str. 4b F2365}
+Probab=12.01  E-value=2.2e+02  Score=10.98  Aligned_cols=5  Identities=60%  Similarity=1.278  Sum_probs=0.0  Template_Neff=9.700
+
+Q SGAAIG            2 GAAIG    6 (6)
+Q Consensus         2 gaaig    6 (6)
+                      |++||
+T Consensus       191 ~~~~~  195 (201)
+T 3FXA_B          191 GGAVG  195 (201)
+T ss_dssp             C----
+T ss_pred             CcHHH
+
+
+No 7
+>3O5T_A Dinitrogenase reductase activacting glicohydrolase (E.C.3.2.2.24); ADP binding, HYDROLASE-TRANSCRIPTION complex; HET: ADP; 2.09A {Azospirillum brasilense}
+Probab=11.95  E-value=2.2e+02  Score=11.77  Aligned_cols=5  Identities=60%  Similarity=0.886  Sum_probs=0.0  Template_Neff=9.500
+
+Q SGAAIG            2 GAAIG    6 (6)
+Q Consensus         2 gaaig    6 (6)
+                      |++||
+T Consensus        16 G~aiG   20 (297)
+T 3O5T_A           16 GLACG   20 (297)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 8
+>6G1P_B Appr-1-p processing domain protein; ADP-ribosylation, ADP-ribose, ADPRHL2, ADP-ribosylhydrolase like; HET: GOL, ACT, CIT; 1.55A {Latimeria chalumnae}
+Probab=11.77  E-value=2.3e+02  Score=11.98  Aligned_cols=5  Identities=60%  Similarity=1.145  Sum_probs=0.0  Template_Neff=9.600
+
+Q SGAAIG            2 GAAIG    6 (6)
+Q Consensus         2 gaaig    6 (6)
+                      |++||
+T Consensus        15 G~aiG   19 (350)
+T 6G1P_B           15 GALLG   19 (350)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 9
+>5V6C_B Hemolysin-related protein; lectin, beta-prism, glycan-binding domain, SUGAR; HET: GOL; 2.2A {Vibrio cholerae serotype O1 (strain ATCC 39315 / El Tor Inaba N16961)}
+Probab=11.57  E-value=2.3e+02  Score=12.38  Aligned_cols=5  Identities=80%  Similarity=0.860  Sum_probs=0.0  Template_Neff=5.100
+
+Q SGAAIG            1 SGAAI    5 (6)
+Q Consensus         1 sgaai    5 (6)
+                      ||++|
+T Consensus        29 sG~~i   33 (138)
+T 5V6C_B           29 SGFAI   33 (138)
+T ss_dssp             ESSSE
+T ss_pred             eeEee
+
+
+No 10
+>5V6F_A Hemolysin-related protein; lectin, beta-prism, glycan-binding domain, mannotriose; HET: BMA, MAN, SO4; 1.5A {Vibrio cholerae serotype O1 (strain ATCC 39315 / El Tor Inaba N16961)}
+Probab=11.57  E-value=2.3e+02  Score=12.38  Aligned_cols=5  Identities=80%  Similarity=0.860  Sum_probs=0.0  Template_Neff=5.100
+
+Q SGAAIG            1 SGAAI    5 (6)
+Q Consensus         1 sgaai    5 (6)
+                      ||++|
+T Consensus        29 sG~~i   33 (138)
+T 5V6F_A           29 SGFAI   33 (138)
+T ss_dssp             ESSSE
+T ss_pred             eeEee
+
+

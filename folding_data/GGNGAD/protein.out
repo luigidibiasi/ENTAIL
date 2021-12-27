@@ -1,0 +1,153 @@
+Query         GGNGAD
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 00:31:52 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GGNGAD/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GGNGAD/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3RSS_A Putative uncharacterize  25.5      67 0.00075   14.6   0.0    6    1-6      62-67  (502)
+  2 3RTA_A Putative uncharacterize  25.5      67 0.00075   14.6   0.0    6    1-6      62-67  (502)
+  3 2DG2_B Apolipoprotein A-I bind  24.0      75 0.00083   14.2   0.0    6    1-6      89-94  (265)
+  4 5H67_A Chromosome partition pr  19.8   1E+02  0.0012   11.0   0.0    5    1-5      31-35  (199)
+  5 1LNZ_A SPO0B-associated GTP-bi  18.8 1.1E+02  0.0012   13.0   0.0    6    1-6      38-43  (342)
+  6 5ZJG_A Gamma-glutamyltransfera  18.1 1.2E+02  0.0013   13.7   0.0    6    1-6      26-31  (339)
+  7 3RSQ_A Putative uncharacterize  18.1 1.2E+02  0.0013   14.0   0.0    6    1-6      62-67  (502)
+  8 3QKS_A DNA double-strand break  18.0 1.2E+02  0.0013   11.2   0.0    5    1-5      30-34  (203)
+  9 3AUX_A DNA double-strand break  17.8 1.2E+02  0.0014   11.3   0.0    5    1-5      32-36  (371)
+ 10 1II8_A Rad50 ABC-ATPase; Rad50  17.5 1.3E+02  0.0014   10.8   0.0    5    1-5      30-34  (195)
+
+No 1
+>3RSS_A Putative uncharacterized protein (E.C.4.2.1.93), Unknown; Unknown function, ADP/ATP-dependent NAD(P)H-hydrate dehydratase; HET: NAP; 1.953A {Escherichia coli}
+Probab=25.53  E-value=67  Score=14.59  Aligned_cols=6  Identities=67%  Similarity=1.254  Sum_probs=3.0  Template_Neff=8.800
+
+Q GGNGAD            1 GGNGAD    6 (6)
+Q Consensus         1 ggngad    6 (6)
+                      |.||+|
+T Consensus        62 gnNGgd   67 (502)
+T 3RSS_A           62 GNNGGD   67 (502)
+T ss_dssp             SHHHHH
+T ss_pred             CchHHH
+Confidence            345554
+
+
+No 2
+>3RTA_A Putative uncharacterized protein (E.C.4.2.1.93), Unknown; Unknown function, ADP/ATP-dependent NAD(P)H-hydrate dehydratase; HET: ACO; 1.95A {Escherichia coli}
+Probab=25.53  E-value=67  Score=14.59  Aligned_cols=6  Identities=67%  Similarity=1.254  Sum_probs=3.0  Template_Neff=8.800
+
+Q GGNGAD            1 GGNGAD    6 (6)
+Q Consensus         1 ggngad    6 (6)
+                      |.||+|
+T Consensus        62 gnNGgd   67 (502)
+T 3RTA_A           62 GNNGGD   67 (502)
+T ss_dssp             SHHHHH
+T ss_pred             CchHHH
+Confidence            345554
+
+
+No 3
+>2DG2_B Apolipoprotein A-I binding protein; Disordered N-terminus, PROTEIN BINDING; HET: SO4, MSE; 2.45A {Mus musculus}
+Probab=24.04  E-value=75  Score=14.23  Aligned_cols=6  Identities=67%  Similarity=1.254  Sum_probs=2.8  Template_Neff=6.900
+
+Q GGNGAD            1 GGNGAD    6 (6)
+Q Consensus         1 ggngad    6 (6)
+                      |.||+|
+T Consensus        89 GnNGgD   94 (265)
+T 2DG2_B           89 GNNGGD   94 (265)
+T ss_dssp             SHHHHH
+T ss_pred             CCchHH
+Confidence            345544
+
+
+No 4
+>5H67_A Chromosome partition protein Smc, Segregation; SMC protein, DNA BINDING PROTEIN-CELL; HET: ATP; 2.07203506543A {Bacillus subtilis (strain 168)}
+Probab=19.77  E-value=1e+02  Score=10.96  Aligned_cols=5  Identities=60%  Similarity=1.099  Sum_probs=0.0  Template_Neff=11.300
+
+Q GGNGAD            1 GGNGA    5 (6)
+Q Consensus         1 ggnga    5 (6)
+                      |.||+
+T Consensus        31 G~NG~   35 (199)
+T 5H67_A           31 GPNGS   35 (199)
+T ss_dssp             CSTTS
+T ss_pred             CCCCC
+
+
+No 5
+>1LNZ_A SPO0B-associated GTP-binding protein; GTPase, Obg, stringent factor, stress; HET: G4P; 2.6A {Bacillus subtilis} SCOP: c.37.1.8, b.117.1.1
+Probab=18.84  E-value=1.1e+02  Score=13.01  Aligned_cols=6  Identities=67%  Similarity=1.431  Sum_probs=0.0  Template_Neff=9.200
+
+Q GGNGAD            1 GGNGAD    6 (6)
+Q Consensus         1 ggngad    6 (6)
+                      ||+|.|
+T Consensus        38 gg~gg~   43 (342)
+T 1LNZ_A           38 GGKGGD   43 (342)
+T ss_dssp             CCCCCC
+T ss_pred             CCCcCc
+
+
+No 6
+>5ZJG_A Gamma-glutamyltransferase 1 Threonine peptidase. MEROPS; theanine synthesis, transpeptidation, enzyme, protein; HET: GOL, GLY; 1.702A {Pseudomonas nitroreducens}
+Probab=18.11  E-value=1.2e+02  Score=13.69  Aligned_cols=6  Identities=67%  Similarity=1.237  Sum_probs=0.0  Template_Neff=7.700
+
+Q GGNGAD            1 GGNGAD    6 (6)
+Q Consensus         1 ggngad    6 (6)
+                      |||-+|
+T Consensus        26 GGNAvD   31 (339)
+T 5ZJG_A           26 GGNAVD   31 (339)
+T ss_dssp             TCCHHH
+T ss_pred             CCCHHH
+
+
+No 7
+>3RSQ_A Putative uncharacterized protein (E.C.4.2.1.93), Unknown; Unknown function, ADP/ATP-dependent NAD(P)H-hydrate dehydratase; HET: NAI, NAX; 2.054A {Escherichia coli}
+Probab=18.09  E-value=1.2e+02  Score=13.96  Aligned_cols=6  Identities=67%  Similarity=1.254  Sum_probs=0.0  Template_Neff=8.600
+
+Q GGNGAD            1 GGNGAD    6 (6)
+Q Consensus         1 ggngad    6 (6)
+                      |.||+|
+T Consensus        62 GnNGgd   67 (502)
+T 3RSQ_A           62 GNNGGD   67 (502)
+T ss_dssp             SHHHHH
+T ss_pred             CccHHH
+
+
+No 8
+>3QKS_A DNA double-strand break repair rad50; RecA-like fold, coiled-coils, ATPase, exonuclease; 2.1A {Pyrococcus furiosus}
+Probab=18.03  E-value=1.2e+02  Score=11.22  Aligned_cols=5  Identities=60%  Similarity=1.139  Sum_probs=0.0  Template_Neff=10.600
+
+Q GGNGAD            1 GGNGA    5 (6)
+Q Consensus         1 ggnga    5 (6)
+                      |.||+
+T Consensus        30 G~NG~   34 (203)
+T 3QKS_A           30 GQNGS   34 (203)
+T ss_dssp             CCTTS
+T ss_pred             cCCCC
+
+
+No 9
+>3AUX_A DNA double-strand break repair rad50; DNA repair, ABC transporter ATPase; HET: ADP; 2.8A {Methanocaldococcus jannaschii, Methanocaldococcus jannaschii}
+Probab=17.81  E-value=1.2e+02  Score=11.33  Aligned_cols=5  Identities=60%  Similarity=1.152  Sum_probs=0.0  Template_Neff=12.400
+
+Q GGNGAD            1 GGNGA    5 (6)
+Q Consensus         1 ggnga    5 (6)
+                      |.||+
+T Consensus        32 G~Ngs   36 (371)
+T 3AUX_A           32 GENGS   36 (371)
+T ss_dssp             CCTTS
+T ss_pred             cCCCC
+
+
+No 10
+>1II8_A Rad50 ABC-ATPase; Rad50, Mre11, DNA double-strand break; HET: PO4; 3.02A {Pyrococcus furiosus} SCOP: c.37.1.12
+Probab=17.54  E-value=1.3e+02  Score=10.77  Aligned_cols=5  Identities=60%  Similarity=1.139  Sum_probs=0.0  Template_Neff=11.200
+
+Q GGNGAD            1 GGNGA    5 (6)
+Q Consensus         1 ggnga    5 (6)
+                      |.||+
+T Consensus        30 G~Ng~   34 (195)
+T 1II8_A           30 GQNGS   34 (195)
+T ss_dssp             CCTTS
+T ss_pred             cCCCC
+
+

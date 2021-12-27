@@ -1,0 +1,153 @@
+Query         QTFLVN
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 11:02:47 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QTFLVN/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QTFLVN/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 1T07_A Hypothetical UPF0269 pr  23.0      81  0.0009   13.4   0.0    6    1-6      48-53  (94)
+  2 2MZY_A Probable Fe(2+)-traffic  22.5      84 0.00093   13.2   0.0    6    1-6      46-51  (91)
+  3 5TF3_A Inosine-5'-monophosphat  21.7      89 0.00099   14.3   0.0    6    1-6      62-67  (131)
+  4 1XS8_A yggx_20; helix-turn-hel  20.6      98  0.0011   13.1   0.0    6    1-6      46-51  (91)
+  5 4CBV_E COME; TRANSCRIPTION, NA  16.1 1.4E+02  0.0016   11.2   0.0    6    1-6     203-208 (256)
+  6 7KKA_B fluoride channel, MEMBR  15.8 1.5E+02  0.0016   11.7   0.0    5    2-6      37-41  (126)
+  7 5KBN_B Putative fluoride ion t  15.2 1.6E+02  0.0017   12.2   0.0    5    2-6      37-41  (147)
+  8 5KOM_A Putative fluoride ion t  14.2 1.7E+02  0.0019   12.1   0.0    5    2-6      37-41  (147)
+  9 6BQO_B Fluoride ion transporte  14.0 1.8E+02   0.002   11.6   0.0    5    2-6      39-43  (128)
+ 10 5X6V_F Ragulator complex prote  14.0 1.8E+02   0.002   12.8   0.0    5    1-5      31-35  (135)
+
+No 1
+>1T07_A Hypothetical UPF0269 protein PA5148; Structural genomics, APC5047, PA5148, Conserved; 1.8A {Pseudomonas aeruginosa} SCOP: d.279.1.1
+Probab=23.00  E-value=81  Score=13.35  Aligned_cols=6  Identities=67%  Similarity=0.983  Sum_probs=2.7  Template_Neff=4.200
+
+Q QTFLVN            1 QTFLVN    6 (6)
+Q Consensus         1 qtflvn    6 (6)
+                      ||.|+|
+T Consensus        48 QTmLIN   53 (94)
+T 1T07_A           48 QTMLIN   53 (94)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHh
+Confidence            444444
+
+
+No 2
+>2MZY_A Probable Fe(2+)-trafficking protein; Fe(2+)-trafficking protein, Iron Binding Protein; NMR {Burkholderia pseudomallei 1710b}
+Probab=22.53  E-value=84  Score=13.24  Aligned_cols=6  Identities=67%  Similarity=0.983  Sum_probs=2.7  Template_Neff=4.200
+
+Q QTFLVN            1 QTFLVN    6 (6)
+Q Consensus         1 qtflvn    6 (6)
+                      ||.|+|
+T Consensus        46 QTmlIN   51 (91)
+T 2MZY_A           46 QTMLIN   51 (91)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            344444
+
+
+No 3
+>5TF3_A Inosine-5'-monophosphate dehydrogenase,Inosine-5'-monophosphate dehydrogenase (E.C.1.1.1.205,1.1.1.205); alpha structure, Functional Genomics, Chicago; HET: MSE; 2.001A {Yersinia pestis CO92}
+Probab=21.70  E-value=89  Score=14.25  Aligned_cols=6  Identities=50%  Similarity=0.866  Sum_probs=2.9  Template_Neff=3.200
+
+Q QTFLVN            1 QTFLVN    6 (6)
+Q Consensus         1 qtflvn    6 (6)
+                      |+|+||
+T Consensus        62 Q~fIvd   67 (131)
+T 5TF3_A           62 HTFIKN   67 (131)
+T ss_dssp             CCCCTC
+T ss_pred             eeeccC
+Confidence            455543
+
+
+No 4
+>1XS8_A yggx_20; helix-turn-helix, METAL TRANSPORT; NMR {Salmonella typhimurium} SCOP: d.279.1.1
+Probab=20.58  E-value=98  Score=13.05  Aligned_cols=6  Identities=67%  Similarity=0.983  Sum_probs=2.6  Template_Neff=4.200
+
+Q QTFLVN            1 QTFLVN    6 (6)
+Q Consensus         1 qtflvn    6 (6)
+                      ||.|+|
+T Consensus        46 QTmlIN   51 (91)
+T 1XS8_A           46 QTMLIN   51 (91)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            344444
+
+
+No 5
+>4CBV_E COME; TRANSCRIPTION, NATURAL GENETIC TRANSFORMATION, TRANSCRIPTION; HET: MSE; 3.39A {STREPTOCOCCUS PNEUMONIAE}
+Probab=16.06  E-value=1.4e+02  Score=11.23  Aligned_cols=6  Identities=67%  Similarity=1.176  Sum_probs=0.0  Template_Neff=11.000
+
+Q QTFLVN            1 QTFLVN    6 (6)
+Q Consensus         1 qtflvn    6 (6)
+                      +.++||
+T Consensus       203 rs~iVN  208 (256)
+T 4CBV_E          203 KSFLVN  208 (256)
+T ss_dssp             TTEEEE
+T ss_pred             ccEEEe
+
+
+No 6
+>7KKA_B fluoride channel, MEMBRANE PROTEIN; HET: DMU; 2.5A {Escherichia coli}
+Probab=15.79  E-value=1.5e+02  Score=11.68  Aligned_cols=5  Identities=60%  Similarity=0.899  Sum_probs=0.0  Template_Neff=7.500
+
+Q QTFLVN            2 TFLVN    6 (6)
+Q Consensus         2 tflvn    6 (6)
+                      ||++|
+T Consensus        37 tl~vN   41 (126)
+T 7KKA_B           37 TLVVN   41 (126)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 7
+>5KBN_B Putative fluoride ion transporter CrcB; alpha helix, ion channel, membrane; HET: DMU; 2.48A {Escherichia coli}
+Probab=15.19  E-value=1.6e+02  Score=12.23  Aligned_cols=5  Identities=60%  Similarity=0.899  Sum_probs=0.0  Template_Neff=6.800
+
+Q QTFLVN            2 TFLVN    6 (6)
+Q Consensus         2 tflvn    6 (6)
+                      ||++|
+T Consensus        37 Tl~vN   41 (147)
+T 5KBN_B           37 TLVVN   41 (147)
+T ss_pred             HHHHH
+
+
+No 8
+>5KOM_A Putative fluoride ion transporter CrcB; alpha helix, ion channel, membrane; HET: DMU; 2.69A {Escherichia coli}
+Probab=14.20  E-value=1.7e+02  Score=12.06  Aligned_cols=5  Identities=60%  Similarity=0.899  Sum_probs=0.0  Template_Neff=6.900
+
+Q QTFLVN            2 TFLVN    6 (6)
+Q Consensus         2 tflvn    6 (6)
+                      ||++|
+T Consensus        37 Tl~vN   41 (147)
+T 5KOM_A           37 TLVVN   41 (147)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 9
+>6BQO_B Fluoride ion transporter CrcB, Monobody; Fluoride channel, monobody, dual topology; HET: OLC; 2.8A {Bordetella pertussis (strain Tohama I / ATCC BAA-589 / NCTC 13251)}
+Probab=14.04  E-value=1.8e+02  Score=11.60  Aligned_cols=5  Identities=40%  Similarity=0.474  Sum_probs=0.0  Template_Neff=7.300
+
+Q QTFLVN            2 TFLVN    6 (6)
+Q Consensus         2 tflvn    6 (6)
+                      ||++|
+T Consensus        39 tl~vN   43 (128)
+T 6BQO_B           39 TLTAN   43 (128)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 10
+>5X6V_F Ragulator complex protein LAMTOR3, Ragulator; Ragulator Rag GTPase complex, scaffold; 2.02A {Homo sapiens}
+Probab=14.00  E-value=1.8e+02  Score=12.77  Aligned_cols=5  Identities=80%  Similarity=1.112  Sum_probs=0.0  Template_Neff=4.900
+
+Q QTFLVN            1 QTFLV    5 (6)
+Q Consensus         1 qtflv    5 (6)
+                      .||||
+T Consensus        31 tTFLV   35 (135)
+T 5X6V_F           31 ATFLV   35 (135)
+T ss_dssp             TTCCE
+T ss_pred             ceEEE
+
+

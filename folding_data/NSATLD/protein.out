@@ -1,0 +1,150 @@
+Query         NSATLD
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 04:02:47 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NSATLD/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NSATLD/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3HCH_A PilB, Methionine sulfox   5.4 6.4E+02  0.0071   10.9   0.0    6    1-6     121-126 (146)
+  2 6SYM_A Peptide methionine sulf   5.3 6.6E+02  0.0074   10.8   0.0    6    1-6     120-125 (137)
+  3 2VL7_A XPD; HELICASE, UNKNOWN    5.3 6.7E+02  0.0074   11.0   0.0    4    2-5     326-329 (540)
+  4 2HEQ_A YorP protein; SH3-like,   5.2 6.8E+02  0.0075   11.1   0.0    6    1-6      43-48  (84)
+  5 6QA0_A Methionine-R-sulfoxide    5.2 6.8E+02  0.0075   10.8   0.0    6    1-6     132-137 (141)
+  6 7CTO_F Peptide methionine sulf   5.2 6.8E+02  0.0075   11.1   0.0    6    1-6     133-138 (159)
+  7 2L1U_A Methionine-R-sulfoxide    5.1   7E+02  0.0077   10.7   0.0    6    1-6     121-126 (143)
+  8 3HCI_B Peptide methionine sulf   5.1   7E+02  0.0077   11.0   0.0    6    1-6     127-132 (154)
+  9 3HCG_A Peptide methionine sulf   5.0 7.1E+02  0.0078   10.7   0.0    6    1-6     121-126 (146)
+ 10 7DM4_A AT-rich interactive dom   4.8 7.5E+02  0.0083   10.6   0.0    6    1-6     116-121 (151)
+
+No 1
+>3HCH_A PilB, Methionine sulfoxide reductase B; HET: RSM, CIT, P6G; 2.1A {Neisseria meningitidis serogroup A}
+Probab=5.43  E-value=6.4e+02  Score=10.91  Aligned_cols=6  Identities=50%  Similarity=0.700  Sum_probs=0.0  Template_Neff=5.800
+
+Q NSATLD            1 NSATLD    6 (6)
+Q Consensus         1 nsatld    6 (6)
+                      ||+.|.
+T Consensus       121 Ns~aL~  126 (146)
+T 3HCH_A          121 NGASLK  126 (146)
+T ss_dssp             CGGGEE
+T ss_pred             CeEEEE
+
+
+No 2
+>6SYM_A Peptide methionine sulfoxide reductase MsrB; Reductase, Zinc-binding, R-Methionine sulfoxide reductase; HET: CAF; 1.6302A {Escherichia coli (strain K12)}
+Probab=5.29  E-value=6.6e+02  Score=10.76  Aligned_cols=6  Identities=67%  Similarity=0.756  Sum_probs=0.0  Template_Neff=5.800
+
+Q NSATLD            1 NSATLD    6 (6)
+Q Consensus         1 nsatld    6 (6)
+                      ||+.|.
+T Consensus       120 Ns~aL~  125 (137)
+T 6SYM_A          120 NSASLR  125 (137)
+T ss_dssp             CGGGEE
+T ss_pred             CeEeEE
+
+
+No 3
+>2VL7_A XPD; HELICASE, UNKNOWN FUNCTION; 2.25A {SULFOLOBUS TOKODAII}
+Probab=5.26  E-value=6.7e+02  Score=11.00  Aligned_cols=4  Identities=75%  Similarity=0.767  Sum_probs=0.0  Template_Neff=10.500
+
+Q NSATLD            2 SATL    5 (6)
+Q Consensus         2 satl    5 (6)
+                      ||||
+T Consensus       326 SaTL  329 (540)
+T 2VL7_A          326 SGTL  329 (540)
+T ss_dssp             ESSC
+T ss_pred             eCCC
+
+
+No 4
+>2HEQ_A YorP protein; SH3-like, BSU2030, YorP, NESG, Structural; NMR {Bacillus subtilis} SCOP: b.34.20.1
+Probab=5.20  E-value=6.8e+02  Score=11.14  Aligned_cols=6  Identities=67%  Similarity=0.722  Sum_probs=0.0  Template_Neff=1.500
+
+Q NSATLD            1 NSATLD    6 (6)
+Q Consensus         1 nsatld    6 (6)
+                      ||++.|
+T Consensus        43 ~S~~YD   48 (84)
+T 2HEQ_A           43 HSATYD   48 (84)
+T ss_dssp             CCSSCS
+T ss_pred             ceeeee
+
+
+No 5
+>6QA0_A Methionine-R-sulfoxide reductase B3 (E.C.1.8.4.12,1.8.4.14); Enzyme, Methionine Sulfoxide, oxidoreductase; HET: CAF; 1.709A {Homo sapiens}
+Probab=5.19  E-value=6.8e+02  Score=10.79  Aligned_cols=6  Identities=67%  Similarity=0.750  Sum_probs=0.0  Template_Neff=5.800
+
+Q NSATLD            1 NSATLD    6 (6)
+Q Consensus         1 nsatld    6 (6)
+                      ||+.|.
+T Consensus       132 Ns~aL~  137 (141)
+T 6QA0_A          132 NSAALS  137 (141)
+T ss_dssp             CGGGEE
+T ss_pred             CceeEE
+
+
+No 6
+>7CTO_F Peptide methionine sulfoxide reductase MsrB; oxidoreductase, methionine sulfoxide reductase; 3.47A {Staphylococcus aureus}
+Probab=5.19  E-value=6.8e+02  Score=11.11  Aligned_cols=6  Identities=50%  Similarity=0.706  Sum_probs=0.0  Template_Neff=5.500
+
+Q NSATLD            1 NSATLD    6 (6)
+Q Consensus         1 nsatld    6 (6)
+                      ||+.|+
+T Consensus       133 NS~aL~  138 (159)
+T 7CTO_F          133 NSAAIQ  138 (159)
+T ss_dssp             CGGGEE
+T ss_pred             CeEEEE
+
+
+No 7
+>2L1U_A Methionine-R-sulfoxide reductase B2, mitochondrial (E.C.1.8.4.-); MsrB, Methionine Sulfoxide reductase, OXIDOREDUCTASE; HET: ZN; NMR {Mus musculus}
+Probab=5.09  E-value=7e+02  Score=10.70  Aligned_cols=6  Identities=50%  Similarity=0.623  Sum_probs=0.0  Template_Neff=6.000
+
+Q NSATLD            1 NSATLD    6 (6)
+Q Consensus         1 nsatld    6 (6)
+                      ||+.|.
+T Consensus       121 Ns~sL~  126 (143)
+T 2L1U_A          121 NSVALK  126 (143)
+T ss_dssp             CCTTEE
+T ss_pred             CeeEEE
+
+
+No 8
+>3HCI_B Peptide methionine sulfoxide reductase (E.C.1.8.4.11); Methionine sulfoxide reductase B, Xanthomonas; HET: RSM; 2.59A {Xanthomonas campestris pv. campestris}
+Probab=5.09  E-value=7e+02  Score=10.98  Aligned_cols=6  Identities=50%  Similarity=0.628  Sum_probs=0.0  Template_Neff=5.600
+
+Q NSATLD            1 NSATLD    6 (6)
+Q Consensus         1 nsatld    6 (6)
+                      ||+.|.
+T Consensus       127 Ns~aL~  132 (154)
+T 3HCI_B          127 NSVSLA  132 (154)
+T ss_dssp             CGGGEE
+T ss_pred             CeEeEE
+
+
+No 9
+>3HCG_A Peptide methionine sulfoxide reductase msrA/msrB; PilB, Methionine sulfoxide reductase B; HET: PO4, MSE; 1.82A {Neisseria meningitidis serogroup A}
+Probab=5.03  E-value=7.1e+02  Score=10.71  Aligned_cols=6  Identities=50%  Similarity=0.700  Sum_probs=0.0  Template_Neff=6.000
+
+Q NSATLD            1 NSATLD    6 (6)
+Q Consensus         1 nsatld    6 (6)
+                      ||+.|.
+T Consensus       121 Ns~aL~  126 (146)
+T 3HCG_A          121 NGASLK  126 (146)
+T ss_dssp             CGGGEE
+T ss_pred             CeEEEE
+
+
+No 10
+>7DM4_A AT-rich interactive domain-containing protein 4B; ARID4B, interdigitated, Tudor, disorder region; NMR {Homo sapiens}
+Probab=4.81  E-value=7.5e+02  Score=10.58  Aligned_cols=6  Identities=67%  Similarity=0.794  Sum_probs=0.0  Template_Neff=6.300
+
+Q NSATLD            1 NSATLD    6 (6)
+Q Consensus         1 nsatld    6 (6)
+                      +|.+||
+T Consensus       116 ~~~~ld  121 (151)
+T 7DM4_A          116 ESETLD  121 (151)
+T ss_dssp             CCCTTC
+T ss_pred             cccchh
+
+

@@ -1,0 +1,148 @@
+Query         EVTTGV
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 20:12:28 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/EVTTGV/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/EVTTGV/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6U3B_B Calmodulin-1, Voltage-d   4.1 9.1E+02    0.01    8.4   0.0    5    1-5       5-9   (37)
+  2 1ZZA_A Stannin; helix, MEMBRAN   4.0 9.4E+02    0.01   10.8   0.0    5    2-6      10-14  (90)
+  3 1NJH_A protein yojF; YojF, Str   4.0 9.5E+02   0.011   11.0   0.0    5    1-5      29-33  (119)
+  4 1Y8M_A Fis1; Mitochondria, Fis   3.9 9.7E+02   0.011    8.9   0.0    5    2-6     134-138 (144)
+  5 7AOI_BS bL28m, uL29m, uL30m, b   3.9 9.7E+02   0.011   11.5   0.0    6    1-6      95-100 (144)
+  6 5XBM_C light chain of JL2, hea   3.6 1.1E+03   0.012   11.0   0.0    6    1-6     334-339 (394)
+  7 5LGD_A Platelet glycoprotein 4   3.6 1.1E+03   0.012   11.3   0.0    6    1-6     374-379 (472)
+  8 2LX0_A Membrane fusion protein   3.5 1.1E+03   0.012    8.9   0.0    6    1-6       7-12  (32)
+  9 6HIZ_DG Uncharacterized protei   3.4 1.1E+03   0.013   12.4   0.0    5    1-5     480-484 (631)
+ 10 3R2T_A Putative uncharacterize   3.4 1.2E+03   0.013   11.2   0.0    5    2-6      33-37  (249)
+
+No 1
+>6U3B_B Calmodulin-1, Voltage-dependent L-type calcium channel; Complex, MEMBRANE PROTEIN, CALCIUM-BINDING PROTEIN-MEMBRANE; 1.7A {Homo sapiens}
+Probab=4.12  E-value=9.1e+02  Score=8.44  Aligned_cols=5  Identities=80%  Similarity=1.072  Sum_probs=0.0  Template_Neff=5.100
+
+Q EVTTGV            1 EVTTG    5 (6)
+Q Consensus         1 evttg    5 (6)
+                      ++|.|
+T Consensus         5 ~lTVG    9 (37)
+T 6U3B_B            5 EVTVG    9 (37)
+T ss_dssp             GGHHH
+T ss_pred             cccHH
+
+
+No 2
+>1ZZA_A Stannin; helix, MEMBRANE PROTEIN; NMR {Homo sapiens}
+Probab=4.00  E-value=9.4e+02  Score=10.83  Aligned_cols=5  Identities=80%  Similarity=0.880  Sum_probs=0.0  Template_Neff=1.600
+
+Q EVTTGV            2 VTTGV    6 (6)
+Q Consensus         2 vttgv    6 (6)
+                      .||||
+T Consensus        10 PtTGV   14 (90)
+T 1ZZA_A           10 PTTGV   14 (90)
+T ss_dssp             THHHH
+T ss_pred             CCcch
+
+
+No 3
+>1NJH_A protein yojF; YojF, Structural Genomics, PSI, Protein; 1.7A {Bacillus subtilis} SCOP: b.128.1.1
+Probab=3.97  E-value=9.5e+02  Score=10.96  Aligned_cols=5  Identities=80%  Similarity=1.013  Sum_probs=0.0  Template_Neff=3.300
+
+Q EVTTGV            1 EVTTG    5 (6)
+Q Consensus         1 evttg    5 (6)
+                      |.|+|
+T Consensus        29 EtTnG   33 (119)
+T 1NJH_A           29 ETTTG   33 (119)
+T ss_dssp             EEEEC
+T ss_pred             EcCCC
+
+
+No 4
+>1Y8M_A Fis1; Mitochondria, Fission, UNKNOWN FUNCTION; NMR {Saccharomyces cerevisiae} SCOP: a.118.8.1
+Probab=3.93  E-value=9.7e+02  Score=8.91  Aligned_cols=5  Identities=60%  Similarity=0.860  Sum_probs=0.0  Template_Neff=9.300
+
+Q EVTTGV            2 VTTGV    6 (6)
+Q Consensus         2 vttgv    6 (6)
+                      ||.||
+T Consensus       134 ~~~~~  138 (144)
+T 1Y8M_A          134 VAGGV  138 (144)
+T ss_dssp             CCCSC
+T ss_pred             HHhhc
+
+
+No 5
+>7AOI_BS bL28m, uL29m, uL30m, bL32m, bL33m; mitochondria, translation, trypanosoma, assembly, evolution; HET: ADP, GTP, NAD, 4HH; 3.5A {Trypanosoma brucei}
+Probab=3.90  E-value=9.7e+02  Score=11.54  Aligned_cols=6  Identities=83%  Similarity=1.021  Sum_probs=0.0  Template_Neff=1.300
+
+Q EVTTGV            1 EVTTGV    6 (6)
+Q Consensus         1 evttgv    6 (6)
+                      |++.||
+T Consensus        95 e~~ggv  100 (144)
+T 7AOI_BS          95 EVTGGV  100 (144)
+T ss_pred             cccCch
+
+
+No 6
+>5XBM_C light chain of JL2, heavy; SCARB2, monoclonal antibody, IMMUNE SYSTEM-PROTEIN; HET: BMA, MAN, NAG; 3.501A {Mus musculus}
+Probab=3.59  E-value=1.1e+03  Score=10.95  Aligned_cols=6  Identities=33%  Similarity=0.556  Sum_probs=0.0  Template_Neff=8.100
+
+Q EVTTGV            1 EVTTGV    6 (6)
+Q Consensus         1 evttgv    6 (6)
+                      |.+||+
+T Consensus       334 EP~tG~  339 (394)
+T 5XBM_C          334 NPLTGI  339 (394)
+T ss_dssp             CTTTCC
+T ss_pred             ecccCc
+
+
+No 7
+>5LGD_A Platelet glycoprotein 4, PfEMP1 variant; Plasmodium falciparum cytoadhesion scavenger receptor; HET: GOL, NAG, MAN, PLM, TRS; 2.07A {Homo sapiens}
+Probab=3.57  E-value=1.1e+03  Score=11.33  Aligned_cols=6  Identities=50%  Similarity=0.578  Sum_probs=0.0  Template_Neff=7.900
+
+Q EVTTGV            1 EVTTGV    6 (6)
+Q Consensus         1 evttgv    6 (6)
+                      |.+||+
+T Consensus       374 EP~TG~  379 (472)
+T 5LGD_A          374 EPITGF  379 (472)
+T ss_dssp             CTTTCB
+T ss_pred             echhCc
+
+
+No 8
+>2LX0_A Membrane fusion protein p14; Membrane fusion protein transmembrane domain; NMR {N/A}
+Probab=3.53  E-value=1.1e+03  Score=8.94  Aligned_cols=6  Identities=50%  Similarity=0.855  Sum_probs=0.0  Template_Neff=1.500
+
+Q EVTTGV            1 EVTTGV    6 (6)
+Q Consensus         1 evttgv    6 (6)
+                      ||..|+
+T Consensus         7 EVi~G~   12 (32)
+T 2LX0_A            7 EVIAGL   12 (32)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 9
+>6HIZ_DG Uncharacterized protein, uS3m, UNK/RNA Complex; mitoribosome, translation, Trypanosoma, small ribosomal; HET: GTP, SPD, UTP; 3.08A {Trypanosoma brucei brucei}
+Probab=3.43  E-value=1.1e+03  Score=12.39  Aligned_cols=5  Identities=80%  Similarity=0.926  Sum_probs=0.0  Template_Neff=6.400
+
+Q EVTTGV            1 EVTTG    5 (6)
+Q Consensus         1 evttg    5 (6)
+                      ||.||
+T Consensus       480 ~~~~~  484 (631)
+T 6HIZ_DG         480 EVFTG  484 (631)
+T ss_pred             hHHHH
+
+
+No 10
+>3R2T_A Putative uncharacterized protein; superantigen-like protein, extracellular region, Structural; HET: SO4; 2.21A {Staphylococcus aureus}
+Probab=3.36  E-value=1.2e+03  Score=11.23  Aligned_cols=5  Identities=60%  Similarity=0.707  Sum_probs=0.0  Template_Neff=5.300
+
+Q EVTTGV            2 VTTGV    6 (6)
+Q Consensus         2 vttgv    6 (6)
+                      .||||
+T Consensus        33 ltTgv   37 (249)
+T 3R2T_A           33 LTTSV   37 (249)
+T ss_dssp             -----
+T ss_pred             HHhcc
+
+

@@ -1,0 +1,150 @@
+Query         GGGGNH
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 00:03:47 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GGGGNH/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GGGGNH/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6NXI_A FAD:protein FMN transfe  37.5      31 0.00035   15.2   0.0    6    1-6     319-324 (328)
+  2 3GNN_A Nicotinate-nucleotide p  23.3      79 0.00088   14.3   0.0    6    1-6     170-175 (298)
+  3 1UF3_C hypothetical protein TT  19.9   1E+02  0.0011   11.2   0.0    3    4-6      71-73  (228)
+  4 1UF3_D hypothetical protein TT  19.9   1E+02  0.0011   11.2   0.0    3    4-6      71-73  (228)
+  5 2AHD_A Phosphodiesterase MJ093  19.8   1E+02  0.0011   10.9   0.0    3    4-6      58-60  (165)
+  6 4LS9_B DHH family protein; DHH  19.8   1E+02  0.0012   12.8   0.0    5    2-6     313-317 (341)
+  7 2HY1_A Rv0805 (E.C.3.1.4.17);   19.8   1E+02  0.0012   11.3   0.0    3    4-6      98-100 (280)
+  8 6WII_A UDP-2,3-diacylglucosami  19.3 1.1E+02  0.0012   11.5   0.0    3    4-6      78-80  (259)
+  9 4H9N_B Histone H3.3, Histone H  19.3 1.1E+02  0.0012   11.2   0.0    6    1-6      11-16  (102)
+ 10 5NSS_J DNA-directed RNA polyme  19.0 1.1E+02  0.0012   11.2   0.0    6    1-6       2-7   (295)
+
+No 1
+>6NXI_A FAD:protein FMN transferase (E.C.2.7.1.180); ApbE, Flavin Transferase, FAD, structural; HET: FAD; 1.61A {Vibrio cholerae}
+Probab=37.52  E-value=31  Score=15.23  Aligned_cols=6  Identities=83%  Similarity=1.863  Sum_probs=2.7  Template_Neff=7.900
+
+Q GGGGNH            1 GGGGNH    6 (6)
+Q Consensus         1 ggggnh    6 (6)
+                      ||||.|
+T Consensus       319 ~~~~~~  324 (328)
+T 6NXI_A          319 GGGGHH  324 (328)
+T ss_pred             CCCCCC
+Confidence            445543
+
+
+No 2
+>3GNN_A Nicotinate-nucleotide pyrophosphorylase (E.C.2.4.2.19); deCODE biostructures, SSGCID, NIAID, SBRI; 2.25A {Burkholderia pseudomallei}
+Probab=23.32  E-value=79  Score=14.34  Aligned_cols=6  Identities=67%  Similarity=1.404  Sum_probs=2.7  Template_Neff=7.000
+
+Q GGGGNH            1 GGGGNH    6 (6)
+Q Consensus         1 ggggnh    6 (6)
+                      |||-||
+T Consensus       170 GGg~~h  175 (298)
+T 3GNN_A          170 GGGANQ  175 (298)
+T ss_dssp             TTCCCC
+T ss_pred             cCCccc
+Confidence            344444
+
+
+No 3
+>1UF3_C hypothetical protein TT1561; Metallo-dependent phosphatases, Thermus thermophilus, structural; HET: CA, MSE; 2.1A {Thermus thermophilus} SCOP: d.159.1.6
+Probab=19.94  E-value=1e+02  Score=11.23  Aligned_cols=3  Identities=33%  Similarity=0.767  Sum_probs=0.0  Template_Neff=11.300
+
+Q GGGGNH            4 GNH    6 (6)
+Q Consensus         4 gnh    6 (6)
+                      |||
+T Consensus        71 GNH   73 (228)
+T 1UF3_C           71 GPQ   73 (228)
+T ss_dssp             CTT
+T ss_pred             CCC
+
+
+No 4
+>1UF3_D hypothetical protein TT1561; Metallo-dependent phosphatases, Thermus thermophilus, structural; HET: CA, MSE; 2.1A {Thermus thermophilus} SCOP: d.159.1.6
+Probab=19.94  E-value=1e+02  Score=11.23  Aligned_cols=3  Identities=33%  Similarity=0.767  Sum_probs=0.0  Template_Neff=11.300
+
+Q GGGGNH            4 GNH    6 (6)
+Q Consensus         4 gnh    6 (6)
+                      |||
+T Consensus        71 GNH   73 (228)
+T 1UF3_D           71 GPQ   73 (228)
+T ss_dssp             CTT
+T ss_pred             CCC
+
+
+No 5
+>2AHD_A Phosphodiesterase MJ0936 (E.C.3.1.4.-); phosphodiesterase, Structural Genomics, PSI, Protein; 3.0A {Methanocaldococcus jannaschii} SCOP: d.159.1.7
+Probab=19.83  E-value=1e+02  Score=10.89  Aligned_cols=3  Identities=67%  Similarity=1.287  Sum_probs=0.0  Template_Neff=10.800
+
+Q GGGGNH            4 GNH    6 (6)
+Q Consensus         4 gnh    6 (6)
+                      |||
+T Consensus        58 GNH   60 (165)
+T 2AHD_A           58 GNN   60 (165)
+T ss_dssp             CSS
+T ss_pred             cCC
+
+
+No 6
+>4LS9_B DHH family protein; DHH-family, nanoRNase, HYDROLASE; HET: MSE; 2.2A {Mycobacterium smegmatis}
+Probab=19.76  E-value=1e+02  Score=12.78  Aligned_cols=5  Identities=80%  Similarity=1.744  Sum_probs=0.0  Template_Neff=9.800
+
+Q GGGGNH            2 GGGNH    6 (6)
+Q Consensus         2 gggnh    6 (6)
+                      |||-|
+T Consensus       313 gGGGH  317 (341)
+T 4LS9_B          313 GGGGH  317 (341)
+T ss_dssp             TCEEE
+T ss_pred             CCCCc
+
+
+No 7
+>2HY1_A Rv0805 (E.C.3.1.4.17); metallophosphoesterase, cAMP, phosphodiesterase, bi-nuclear active; 1.932A {Mycobacterium tuberculosis} SCOP: d.159.1.11
+Probab=19.76  E-value=1e+02  Score=11.27  Aligned_cols=3  Identities=100%  Similarity=1.819  Sum_probs=0.0  Template_Neff=11.900
+
+Q GGGGNH            4 GNH    6 (6)
+Q Consensus         4 gnh    6 (6)
+                      |||
+T Consensus        98 GNH  100 (280)
+T 2HY1_A           98 GNH  100 (280)
+T ss_pred             CCc
+
+
+No 8
+>6WII_A UDP-2,3-diacylglucosamine hydrolase (E.C.3.6.1.54); LpxH, JH-LPH-41, Lipid A, Antibiotic; HET: U2V, DMS, GOL; 1.85A {Klebsiella pneumoniae}
+Probab=19.29  E-value=1.1e+02  Score=11.46  Aligned_cols=3  Identities=67%  Similarity=1.221  Sum_probs=0.0  Template_Neff=11.200
+
+Q GGGGNH            4 GNH    6 (6)
+Q Consensus         4 gnh    6 (6)
+                      |||
+T Consensus        78 GNH   80 (259)
+T 6WII_A           78 GNR   80 (259)
+T ss_dssp             CSS
+T ss_pred             CCc
+
+
+No 9
+>4H9N_B Histone H3.3, Histone H4, Death; histone chaperone, DNA BINDING PROTEIN-APOPTOSIS; HET: PO4; 1.95A {Homo sapiens}
+Probab=19.26  E-value=1.1e+02  Score=11.20  Aligned_cols=6  Identities=50%  Similarity=1.055  Sum_probs=0.0  Template_Neff=8.400
+
+Q GGGGNH            1 GGGGNH    6 (6)
+Q Consensus         1 ggggnh    6 (6)
+                      |++|+|
+T Consensus        11 ~~~~~~   16 (102)
+T 4H9N_B           11 GKGGAK   16 (102)
+T ss_dssp             ------
+T ss_pred             CCCcch
+
+
+No 10
+>5NSS_J DNA-directed RNA polymerase subunit alpha; transcription initiation, transcription intermediate complex;{Escherichia coli K-12}
+Probab=19.01  E-value=1.1e+02  Score=11.24  Aligned_cols=6  Identities=33%  Similarity=0.734  Sum_probs=0.0  Template_Neff=12.000
+
+Q GGGGNH            1 GGGGNH    6 (6)
+Q Consensus         1 ggggnh    6 (6)
+                      ||++||
+T Consensus         2 ~~~~~~    7 (295)
+T 5NSS_J            2 GSSHHH    7 (295)
+T ss_dssp             ------
+T ss_pred             CCCccc
+
+

@@ -1,0 +1,149 @@
+Query         SLVIIE
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 15:12:50 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/SLVIIE/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/SLVIIE/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5KLP_A Orf34; Ser/Thr acetyltr  12.9   2E+02  0.0022   13.9   0.0    6    1-6     138-143 (342)
+  2 6KVN_A NtMOC1; chloroplast, re  11.6 2.3E+02  0.0026   10.6   0.0    5    2-6      67-71  (171)
+  3 6KVO_A NtMOC1/DNA Complex; chl  11.6 2.3E+02  0.0026   10.6   0.0    5    2-6      67-71  (171)
+  4 6LQP_A4 40S ribosomal protein   11.4 2.4E+02  0.0026   12.4   0.0    6    1-6     751-756 (776)
+  5 6P7B_B Holliday junction resol  10.8 2.6E+02  0.0028   10.3   0.0    5    2-6      56-60  (149)
+  6 6KVO_B NtMOC1/DNA Complex; chl  10.7 2.6E+02  0.0029   10.5   0.0    5    2-6      67-71  (171)
+  7 1HJR_A HOLLIDAY JUNCTION RESOL  10.0 2.9E+02  0.0032   10.3   0.0    5    2-6      62-66  (158)
+  8 6ND4_N ribosome; Ribosome asse   9.9 2.9E+02  0.0032   11.6   0.0    6    1-6     702-707 (727)
+  9 3TDQ_B PilY2 protein; fimbiria   9.5 3.1E+02  0.0034   12.3   0.0    6    1-6      21-26  (98)
+ 10 3TDQ_A PilY2 protein; fimbiria   9.3 3.2E+02  0.0035   12.3   0.0    6    1-6      21-26  (98)
+
+No 1
+>5KLP_A Orf34; Ser/Thr acetyltransferase, TRANSFERASE; HET: IHP, MSE, CIT; 2.002A {Pseudomonas syringae pv. syringae}
+Probab=12.90  E-value=2e+02  Score=13.95  Aligned_cols=6  Identities=33%  Similarity=0.800  Sum_probs=2.6  Template_Neff=5.800
+
+Q SLVIIE            1 SLVIIE    6 (6)
+Q Consensus         1 slviie    6 (6)
+                      |+|++|
+T Consensus       138 SiIviE  143 (342)
+T 5KLP_A          138 TIIITE  143 (342)
+T ss_dssp             EEEEEE
+T ss_pred             EEEEEe
+Confidence            344443
+
+
+No 2
+>6KVN_A NtMOC1; chloroplast, resolvase, PLANT PROTEIN; 2.02A {Nicotiana tabacum}
+Probab=11.59  E-value=2.3e+02  Score=10.63  Aligned_cols=5  Identities=40%  Similarity=0.541  Sum_probs=0.0  Template_Neff=9.700
+
+Q SLVIIE            2 LVIIE    6 (6)
+Q Consensus         2 lviie    6 (6)
+                      +|+||
+T Consensus        67 ~VviE   71 (171)
+T 6KVN_A           67 TVYVE   71 (171)
+T ss_dssp             EEEEE
+T ss_pred             EEEEE
+
+
+No 3
+>6KVO_A NtMOC1/DNA Complex; chloroplast, resolvase, Holliday junction, PLANT; HET: SO4; 2.5A {Nicotiana tabacum}
+Probab=11.59  E-value=2.3e+02  Score=10.63  Aligned_cols=5  Identities=40%  Similarity=0.541  Sum_probs=0.0  Template_Neff=9.700
+
+Q SLVIIE            2 LVIIE    6 (6)
+Q Consensus         2 lviie    6 (6)
+                      +|+||
+T Consensus        67 ~VviE   71 (171)
+T 6KVO_A           67 TVYVE   71 (171)
+T ss_dssp             EEEEE
+T ss_pred             EEEEE
+
+
+No 4
+>6LQP_A4 40S ribosomal protein S1-A, 40S; ribosome assembly, 90S to pre-40S; HET: GTP; 3.2A {Saccharomyces cerevisiae S288C}
+Probab=11.38  E-value=2.4e+02  Score=12.39  Aligned_cols=6  Identities=67%  Similarity=0.883  Sum_probs=0.0  Template_Neff=11.500
+
+Q SLVIIE            1 SLVIIE    6 (6)
+Q Consensus         1 slviie    6 (6)
+                      .||++|
+T Consensus       751 ~~~~ve  756 (776)
+T 6LQP_A4         751 ELAIIE  756 (776)
+T ss_pred             cEEEEe
+
+
+No 5
+>6P7B_B Holliday junction resolvase/DNA complex; resolvase-DNA complex, HYDROLASE-DNA complex, TRANSCRIPTION; 3.317A {Fowlpox virus}
+Probab=10.81  E-value=2.6e+02  Score=10.32  Aligned_cols=5  Identities=60%  Similarity=1.039  Sum_probs=0.0  Template_Neff=9.600
+
+Q SLVIIE            2 LVIIE    6 (6)
+Q Consensus         2 lviie    6 (6)
+                      +|+||
+T Consensus        56 ~vviE   60 (149)
+T 6P7B_B           56 VVILE   60 (149)
+T ss_dssp             EEEEE
+T ss_pred             EEEEe
+
+
+No 6
+>6KVO_B NtMOC1/DNA Complex; chloroplast, resolvase, Holliday junction, PLANT; HET: SO4; 2.5A {Nicotiana tabacum}
+Probab=10.69  E-value=2.6e+02  Score=10.50  Aligned_cols=5  Identities=40%  Similarity=0.541  Sum_probs=0.0  Template_Neff=9.700
+
+Q SLVIIE            2 LVIIE    6 (6)
+Q Consensus         2 lviie    6 (6)
+                      +|+||
+T Consensus        67 ~vviE   71 (171)
+T 6KVO_B           67 TVYVE   71 (171)
+T ss_dssp             EEEEE
+T ss_pred             EEEEE
+
+
+No 7
+>1HJR_A HOLLIDAY JUNCTION RESOLVASE (E.C.3.1.22.4) (RUVC); SITE-SPECIFIC RECOMBINASE; 2.5A {Escherichia coli} SCOP: c.55.3.6
+Probab=9.97  E-value=2.9e+02  Score=10.25  Aligned_cols=5  Identities=40%  Similarity=0.461  Sum_probs=0.0  Template_Neff=9.700
+
+Q SLVIIE            2 LVIIE    6 (6)
+Q Consensus         2 lviie    6 (6)
+                      +|+||
+T Consensus        62 ~vviE   66 (158)
+T 1HJR_A           62 YFAIE   66 (158)
+T ss_dssp             EEEEE
+T ss_pred             EEEEe
+
+
+No 8
+>6ND4_N ribosome; Ribosome assembly, RIBOSOME; 4.3A {Saccharomyces cerevisiae BY4741}
+Probab=9.95  E-value=2.9e+02  Score=11.58  Aligned_cols=6  Identities=67%  Similarity=0.883  Sum_probs=0.0  Template_Neff=12.400
+
+Q SLVIIE            1 SLVIIE    6 (6)
+Q Consensus         1 slviie    6 (6)
+                      .||++|
+T Consensus       702 ~l~~ve  707 (727)
+T 6ND4_N          702 ELAIIE  707 (727)
+T ss_pred             cEEEEE
+
+
+No 9
+>3TDQ_B PilY2 protein; fimbiria, cell adhesion, Structural Genomics; HET: GOL, MSE; 2.1A {Pseudomonas aeruginosa}
+Probab=9.48  E-value=3.1e+02  Score=12.33  Aligned_cols=6  Identities=50%  Similarity=0.623  Sum_probs=0.0  Template_Neff=2.300
+
+Q SLVIIE            1 SLVIIE    6 (6)
+Q Consensus         1 slviie    6 (6)
+                      +||+||
+T Consensus        21 ~LVvID   26 (98)
+T 3TDQ_B           21 NLVDID   26 (98)
+T ss_dssp             TEEEET
+T ss_pred             cEEEec
+
+
+No 10
+>3TDQ_A PilY2 protein; fimbiria, cell adhesion, Structural Genomics; HET: GOL; 2.1A {Pseudomonas aeruginosa}
+Probab=9.32  E-value=3.2e+02  Score=12.32  Aligned_cols=6  Identities=50%  Similarity=0.623  Sum_probs=0.0  Template_Neff=2.200
+
+Q SLVIIE            1 SLVIIE    6 (6)
+Q Consensus         1 slviie    6 (6)
+                      +||+||
+T Consensus        21 ~LVvID   26 (98)
+T 3TDQ_A           21 NLVDID   26 (98)
+T ss_dssp             TEEEET
+T ss_pred             cEEEec
+
+

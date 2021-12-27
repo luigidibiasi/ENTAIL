@@ -1,0 +1,150 @@
+Query         DAGYQQ
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 16:49:43 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/DAGYQQ/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/DAGYQQ/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 1N2N_A Nitric oxide synthase,   12.5 2.1E+02  0.0023   15.0   0.0    5    2-6     186-190 (419)
+  2 1D0C_A BOVINE ENDOTHELIAL NITR  12.3 2.2E+02  0.0024   15.2   0.0    5    2-6     216-220 (444)
+  3 3E7G_D Nitric oxide synthase,   11.9 2.2E+02  0.0025   14.9   0.0    5    2-6     187-191 (424)
+  4 2G6O_A Nitric-oxide synthase,   11.5 2.4E+02  0.0026   14.9   0.0    5    2-6     188-192 (416)
+  5 7A4L_A PioC; iron-sulphur prot  11.4 2.4E+02  0.0026   10.4   0.0    6    1-6       9-14  (54)
+  6 1RLK_A Hypothetical protein Ta  11.3 2.4E+02  0.0027   10.9   0.0    6    1-6      83-88  (117)
+  7 2FLQ_B Nitric Oxide Synthase (  10.9 2.5E+02  0.0028   14.6   0.0    5    2-6     140-144 (375)
+  8 4D3I_A NITRIC OXIDE SYNTHASE O  10.6 2.6E+02  0.0029   14.4   0.0    5    2-6     134-138 (363)
+  9 4D7J_A NITRIC OXIDE SYNTHASE O  10.6 2.6E+02  0.0029   14.4   0.0    5    2-6     134-138 (363)
+ 10 4O8W_D Spore germination prote  10.4 2.7E+02   0.003   12.3   0.0    6    1-6      63-68  (125)
+
+No 1
+>1N2N_A Nitric oxide synthase, inducible (E.C.1.14.13.39); Nitric oxide synthase, Cyanide complex; HET: HEM, ARG, H4B; 2.4A {Mus musculus} SCOP: d.174.1.1
+Probab=12.50  E-value=2.1e+02  Score=15.01  Aligned_cols=5  Identities=80%  Similarity=1.232  Sum_probs=0.0  Template_Neff=4.000
+
+Q DAGYQQ            2 AGYQQ    6 (6)
+Q Consensus         2 agyqq    6 (6)
+                      |||+|
+T Consensus       186 AGY~~  190 (419)
+T 1N2N_A          186 AGYQM  190 (419)
+T ss_dssp             CEEEC
+T ss_pred             CCeeC
+
+
+No 2
+>1D0C_A BOVINE ENDOTHELIAL NITRIC OXIDE SYNTHASE; ALPHA-BETA FOLD, OXIDOREDUCTASE; HET: GOL, ACT, HEM, INE; 1.65A {Bos taurus} SCOP: d.174.1.1
+Probab=12.26  E-value=2.2e+02  Score=15.15  Aligned_cols=5  Identities=80%  Similarity=1.398  Sum_probs=0.0  Template_Neff=3.800
+
+Q DAGYQQ            2 AGYQQ    6 (6)
+Q Consensus         2 agyqq    6 (6)
+                      |||+|
+T Consensus       216 AGY~~  220 (444)
+T 1D0C_A          216 AGYRQ  220 (444)
+T ss_dssp             CEEEC
+T ss_pred             CCeeC
+
+
+No 3
+>3E7G_D Nitric oxide synthase, inducible (E.C.1.14.13.39); nitric oxide, NOS, HEME, tetrahydrobiopterin; HET: HEM, AT2, H4B; 2.2A {Homo sapiens} SCOP: d.174.1.1
+Probab=11.95  E-value=2.2e+02  Score=14.94  Aligned_cols=5  Identities=80%  Similarity=1.232  Sum_probs=0.0  Template_Neff=4.000
+
+Q DAGYQQ            2 AGYQQ    6 (6)
+Q Consensus         2 agyqq    6 (6)
+                      |||+|
+T Consensus       187 AGY~~  191 (424)
+T 3E7G_D          187 AGYQM  191 (424)
+T ss_dssp             CEEEC
+T ss_pred             cCeeC
+
+
+No 4
+>2G6O_A Nitric-oxide synthase, endothelial (E.C.1.14.13.39); nitric oxide synthase, heme protein; HET: HEM, GOL, ARG; 1.9A {Bos taurus} SCOP: d.174.1.1
+Probab=11.52  E-value=2.4e+02  Score=14.87  Aligned_cols=5  Identities=80%  Similarity=1.398  Sum_probs=0.0  Template_Neff=3.900
+
+Q DAGYQQ            2 AGYQQ    6 (6)
+Q Consensus         2 agyqq    6 (6)
+                      |||+|
+T Consensus       188 AGY~~  192 (416)
+T 2G6O_A          188 AGYRQ  192 (416)
+T ss_dssp             CEEEC
+T ss_pred             CCeeC
+
+
+No 5
+>7A4L_A PioC; iron-sulphur protein, paramagnetic protein, paramagnetic; HET: SF4; NMR {Rhodopseudomonas palustris TIE-1}
+Probab=11.41  E-value=2.4e+02  Score=10.38  Aligned_cols=6  Identities=83%  Similarity=1.437  Sum_probs=0.0  Template_Neff=5.700
+
+Q DAGYQQ            1 DAGYQQ    6 (6)
+Q Consensus         1 dagyqq    6 (6)
+                      +++||.
+T Consensus         9 ~~~Yq~   14 (54)
+T 7A4L_A            9 DAGYQE   14 (54)
+T ss_dssp             TTTCCS
+T ss_pred             HhCCcc
+
+
+No 6
+>1RLK_A Hypothetical protein Ta0108; structural genomics, conserved hypothetical protein; HET: SO4; 1.95A {Thermoplasma acidophilum} SCOP: c.131.1.1
+Probab=11.25  E-value=2.4e+02  Score=10.87  Aligned_cols=6  Identities=67%  Similarity=1.176  Sum_probs=0.0  Template_Neff=7.700
+
+Q DAGYQQ            1 DAGYQQ    6 (6)
+Q Consensus         1 dagyqq    6 (6)
+                      |+|+.|
+T Consensus        83 Dag~t~   88 (117)
+T 1RLK_A           83 DRGYTQ   88 (117)
+T ss_dssp             CCCSSS
+T ss_pred             cCCCcc
+
+
+No 7
+>2FLQ_B Nitric Oxide Synthase (E.C.1.14.13.39); Nitric Oxide Synthase, Geobacillus Stearothermophilus; HET: ARG, HEM; 3.2A {Geobacillus stearothermophilus}
+Probab=10.91  E-value=2.5e+02  Score=14.57  Aligned_cols=5  Identities=60%  Similarity=1.232  Sum_probs=0.0  Template_Neff=3.900
+
+Q DAGYQQ            2 AGYQQ    6 (6)
+Q Consensus         2 agyqq    6 (6)
+                      |||+|
+T Consensus       140 AGY~~  144 (375)
+T 2FLQ_B          140 AGYET  144 (375)
+T ss_dssp             CEECC
+T ss_pred             CCccc
+
+
+No 8
+>4D3I_A NITRIC OXIDE SYNTHASE OXYGENASE (E.C.1.14.13.165); NITRIC OXIDE SYNTHASE, OXIDOREDUCTASE, INHIBITOR; HET: HEM, 1ET; 2.09A {BACILLUS SUBTILIS}
+Probab=10.64  E-value=2.6e+02  Score=14.42  Aligned_cols=5  Identities=60%  Similarity=1.245  Sum_probs=0.0  Template_Neff=4.000
+
+Q DAGYQQ            2 AGYQQ    6 (6)
+Q Consensus         2 agyqq    6 (6)
+                      |||+|
+T Consensus       134 AGY~~  138 (363)
+T 4D3I_A          134 AGYES  138 (363)
+T ss_dssp             CEEES
+T ss_pred             cCccC
+
+
+No 9
+>4D7J_A NITRIC OXIDE SYNTHASE OXYGENASE (E.C.1.14.13.165); OXIDOREDUCTASE; HET: HEM, 0GD, GOL, H4B; 1.55A {BACILLUS SUBTILIS SUBSP. SUBTILIS STR. 168}
+Probab=10.64  E-value=2.6e+02  Score=14.42  Aligned_cols=5  Identities=60%  Similarity=1.245  Sum_probs=0.0  Template_Neff=4.000
+
+Q DAGYQQ            2 AGYQQ    6 (6)
+Q Consensus         2 agyqq    6 (6)
+                      |||+|
+T Consensus       134 AGY~~  138 (363)
+T 4D7J_A          134 AGYES  138 (363)
+T ss_dssp             CEEEE
+T ss_pred             cCccC
+
+
+No 10
+>4O8W_D Spore germination protein; superhelical rope fold, scaffold, spore; 2.293A {Geobacillus kaustophilus}
+Probab=10.39  E-value=2.7e+02  Score=12.29  Aligned_cols=6  Identities=50%  Similarity=0.855  Sum_probs=0.0  Template_Neff=4.400
+
+Q DAGYQQ            1 DAGYQQ    6 (6)
+Q Consensus         1 dagyqq    6 (6)
+                      |..||+
+T Consensus        63 DPeYQk   68 (125)
+T 4O8W_D           63 DPDYQA   68 (125)
+T ss_dssp             SHHHHH
+T ss_pred             CHHHHH
+
+

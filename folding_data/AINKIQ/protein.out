@@ -1,0 +1,160 @@
+Query         AINKIQ
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 14:26:21 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/AINKIQ/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/AINKIQ/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2BEQ_A E2 GLYCOPROTEIN; VIRAL   58.7     8.5 9.5E-05   14.4   0.0    6    1-6      14-19  (38)
+  2 2BEQ_B E2 GLYCOPROTEIN; VIRAL   58.7     8.5 9.5E-05   14.4   0.0    6    1-6      14-19  (38)
+  3 1ZV8_A E2 glycoprotein; SARS c  43.2      22 0.00025   14.1   0.0    6    1-6      26-31  (50)
+  4 1ZV8_G E2 glycoprotein; SARS c  43.2      22 0.00025   14.1   0.0    6    1-6      26-31  (50)
+  5 7R95_A SARS-Cov-2, Heptad repe  39.6      28  0.0003   14.1   0.0    6    1-6      29-34  (56)
+  6 7EK6_A 3C-like proteinase (E.C  38.3      30 0.00033   13.8   0.0    6    1-6      39-44  (52)
+  7 1ZVA_A E2 glycoprotein; SARS c  30.4      49 0.00054   13.6   0.0    6    1-6       1-6   (77)
+  8 1WDG_A E2 glycoprotein; MHV, c  27.3      60 0.00066   14.2   0.0    6    1-6      26-31  (94)
+  9 1ZKR_A Major allergen I polype  22.8      82 0.00091   14.1   0.0    6    1-6     112-117 (153)
+ 10 2EJN_B Major allergen I polype  22.8      82 0.00091   14.1   0.0    6    1-6     112-117 (153)
+
+No 1
+>2BEQ_A E2 GLYCOPROTEIN; VIRAL PROTEIN, COILED COIL, MEMBRANE; HET: ACE; 1.6A {N/A} SCOP: h.3.3.1
+Probab=58.72  E-value=8.5  Score=14.43  Aligned_cols=6  Identities=50%  Similarity=0.794  Sum_probs=3.8  Template_Neff=3.300
+
+Q AINKIQ            1 AINKIQ    6 (6)
+Q Consensus         1 ainkiq    6 (6)
+                      |++|||
+T Consensus        14 AL~KIQ   19 (38)
+T 2BEQ_A           14 ALGKLQ   19 (38)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            456775
+
+
+No 2
+>2BEQ_B E2 GLYCOPROTEIN; VIRAL PROTEIN, COILED COIL, MEMBRANE; HET: ACE; 1.6A {N/A} SCOP: h.3.3.1
+Probab=58.72  E-value=8.5  Score=14.43  Aligned_cols=6  Identities=50%  Similarity=0.794  Sum_probs=3.8  Template_Neff=3.300
+
+Q AINKIQ            1 AINKIQ    6 (6)
+Q Consensus         1 ainkiq    6 (6)
+                      |++|||
+T Consensus        14 AL~KIQ   19 (38)
+T 2BEQ_B           14 ALGKLQ   19 (38)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            456775
+
+
+No 3
+>1ZV8_A E2 glycoprotein; SARS coronavirus, membrane fusion, S2; 1.94A {SARS coronavirus} SCOP: h.3.3.1
+Probab=43.24  E-value=22  Score=14.06  Aligned_cols=6  Identities=50%  Similarity=0.794  Sum_probs=3.1  Template_Neff=3.000
+
+Q AINKIQ            1 AINKIQ    6 (6)
+Q Consensus         1 ainkiq    6 (6)
+                      |++|||
+T Consensus        26 AL~kiQ   31 (50)
+T 1ZV8_A           26 ALGKLQ   31 (50)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            345554
+
+
+No 4
+>1ZV8_G E2 glycoprotein; SARS coronavirus, membrane fusion, S2; 1.94A {SARS coronavirus} SCOP: h.3.3.1
+Probab=43.24  E-value=22  Score=14.06  Aligned_cols=6  Identities=50%  Similarity=0.794  Sum_probs=3.1  Template_Neff=3.000
+
+Q AINKIQ            1 AINKIQ    6 (6)
+Q Consensus         1 ainkiq    6 (6)
+                      |++|||
+T Consensus        26 AL~kiQ   31 (50)
+T 1ZV8_G           26 ALGKLQ   31 (50)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            345554
+
+
+No 5
+>7R95_A SARS-Cov-2, Heptad repeat, residual dipolar; NMR {Severe acute respiratory syndrome coronavirus 2}
+Probab=39.61  E-value=28  Score=14.08  Aligned_cols=6  Identities=50%  Similarity=0.794  Sum_probs=2.9  Template_Neff=2.900
+
+Q AINKIQ            1 AINKIQ    6 (6)
+Q Consensus         1 ainkiq    6 (6)
+                      |++|||
+T Consensus        29 AL~KIQ   34 (56)
+T 7R95_A           29 ALGKLQ   34 (56)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            345554
+
+
+No 6
+>7EK6_A 3C-like proteinase (E.C.3.4.22.69); SARS-CoV-2, spike protein, membrane fusion; 1.243A {N/A}
+Probab=38.32  E-value=30  Score=13.83  Aligned_cols=6  Identities=50%  Similarity=0.794  Sum_probs=2.9  Template_Neff=2.900
+
+Q AINKIQ            1 AINKIQ    6 (6)
+Q Consensus         1 ainkiq    6 (6)
+                      |++|||
+T Consensus        39 AL~kiQ   44 (52)
+T 7EK6_A           39 ALGKLQ   44 (52)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            345554
+
+
+No 7
+>1ZVA_A E2 glycoprotein; SARS coronavirus, membrane fusion, S2; 1.5A {SARS coronavirus} SCOP: h.3.3.1
+Probab=30.35  E-value=49  Score=13.61  Aligned_cols=6  Identities=50%  Similarity=0.794  Sum_probs=3.4  Template_Neff=4.100
+
+Q AINKIQ            1 AINKIQ    6 (6)
+Q Consensus         1 ainkiq    6 (6)
+                      |++|||
+T Consensus         1 al~k~q    6 (77)
+T 1ZVA_A            1 ALGKLQ    6 (77)
+T ss_dssp             CHHHHH
+T ss_pred             CchHHH
+Confidence            455665
+
+
+No 8
+>1WDG_A E2 glycoprotein; MHV, coronavirus, heptad repeat, fusion; 2.06A {Murine hepatitis virus} SCOP: h.3.3.1
+Probab=27.32  E-value=60  Score=14.24  Aligned_cols=6  Identities=67%  Similarity=0.861  Sum_probs=2.8  Template_Neff=2.800
+
+Q AINKIQ            1 AINKIQ    6 (6)
+Q Consensus         1 ainkiq    6 (6)
+                      |++|||
+T Consensus        26 AL~KIQ   31 (94)
+T 1WDG_A           26 ALGKIQ   31 (94)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            344554
+
+
+No 9
+>1ZKR_A Major allergen I polypeptide, fused; CAT ALLERGEN, UTEROGLOBIN, SECRETOGLOBIN, ALLERGEN; 1.64A {Felis catus} SCOP: a.101.1.1
+Probab=22.77  E-value=82  Score=14.08  Aligned_cols=6  Identities=67%  Similarity=0.866  Sum_probs=3.2  Template_Neff=4.700
+
+Q AINKIQ            1 AINKIQ    6 (6)
+Q Consensus         1 ainkiq    6 (6)
+                      |+.|||
+T Consensus       112 a~~kiq  117 (153)
+T 1ZKR_A          112 AMKKIQ  117 (153)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            345665
+
+
+No 10
+>2EJN_B Major allergen I polypeptide chain; ALLERGEN, CAT ALLERGEN, UTEROGLOBIN, SECRETOGLOBIN; 1.64A {Felis catus} SCOP: a.101.1.1
+Probab=22.77  E-value=82  Score=14.08  Aligned_cols=6  Identities=67%  Similarity=0.866  Sum_probs=3.2  Template_Neff=4.700
+
+Q AINKIQ            1 AINKIQ    6 (6)
+Q Consensus         1 ainkiq    6 (6)
+                      |+.|||
+T Consensus       112 a~~kiq  117 (153)
+T 2EJN_B          112 AMKKIQ  117 (153)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            345665
+
+

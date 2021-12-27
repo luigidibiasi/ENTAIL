@@ -1,0 +1,151 @@
+Query         DILTYT
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 17:30:06 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/DILTYT/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/DILTYT/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4KW3_A NS1; Nuclease domain, H  14.0 1.8E+02   0.002   14.1   0.0    6    1-6     186-191 (271)
+  2 1MWP_A AMYLOID A4 PROTEIN; HEP  10.0 2.9E+02  0.0032   11.5   0.0    5    1-5      41-45  (96)
+  3 1B44_E PROTEIN (B-POL SUBUNIT    9.8 2.9E+02  0.0032   13.0   0.0    6    1-6      23-28  (129)
+  4 1B44_G PROTEIN (B-POL SUBUNIT    9.8 2.9E+02  0.0032   13.0   0.0    6    1-6      23-28  (129)
+  5 3C0T_B Mediator of RNA polymer   9.4 3.1E+02  0.0034   10.5   0.0    5    1-5      12-16  (33)
+  6 5HYC_C Uncharacterized protein   9.4 3.1E+02  0.0035   10.0   0.0    6    1-6      24-29  (35)
+  7 4PUG_B BolA like protein; stre   9.2 3.2E+02  0.0036   10.2   0.0    6    1-6      85-90  (98)
+  8 2QX0_A 7,8-dihydro-6-hydroxyme   9.0 3.3E+02  0.0037   11.2   0.0    5    1-5      98-102 (159)
+  9 6DBB_C Putative aldehyde dehyd   8.9 3.3E+02  0.0037   12.3   0.0    5    1-5      13-17  (511)
+ 10 3FB9_A uncharacterized protein   8.8 3.4E+02  0.0038   11.2   0.0    4    1-4      78-81  (90)
+
+No 1
+>4KW3_A NS1; Nuclease domain, Human bocavirus 1; 2.7A {Human bocavirus}
+Probab=14.00  E-value=1.8e+02  Score=14.11  Aligned_cols=6  Identities=50%  Similarity=0.916  Sum_probs=3.1  Template_Neff=4.800
+
+Q DILTYT            1 DILTYT    6 (6)
+Q Consensus         1 diltyt    6 (6)
+                      +||+|+
+T Consensus       186 tILqYk  191 (271)
+T 4KW3_A          186 QILQYR  191 (271)
+T ss_dssp             EECCEE
+T ss_pred             EEEEEE
+Confidence            356663
+
+
+No 2
+>1MWP_A AMYLOID A4 PROTEIN; HEPARIN BINDING, SUGAR BINDING PROTEIN; 1.8A {Homo sapiens} SCOP: d.170.2.1
+Probab=10.00  E-value=2.9e+02  Score=11.55  Aligned_cols=5  Identities=60%  Similarity=1.059  Sum_probs=0.0  Template_Neff=4.900
+
+Q DILTYT            1 DILTY    5 (6)
+Q Consensus         1 dilty    5 (6)
+                      |||.|
+T Consensus        41 eiL~Y   45 (96)
+T 1MWP_A           41 GILQY   45 (96)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 3
+>1B44_E PROTEIN (B-POL SUBUNIT OF HEAT-LABILE; B SUBUNIT, HEAT-LABILE ENTEROTOXIN ANTI-HSV; 3.3A {Escherichia coli} SCOP: b.40.2.1
+Probab=9.84  E-value=2.9e+02  Score=12.98  Aligned_cols=6  Identities=67%  Similarity=1.126  Sum_probs=0.0  Template_Neff=1.300
+
+Q DILTYT            1 DILTYT    6 (6)
+Q Consensus         1 diltyt    6 (6)
+                      .|++||
+T Consensus        23 ~I~tYT   28 (129)
+T 1B44_E           23 KILSYT   28 (129)
+T ss_dssp             ECSEEE
+T ss_pred             HHHHhh
+
+
+No 4
+>1B44_G PROTEIN (B-POL SUBUNIT OF HEAT-LABILE; B SUBUNIT, HEAT-LABILE ENTEROTOXIN ANTI-HSV; 3.3A {Escherichia coli} SCOP: b.40.2.1
+Probab=9.84  E-value=2.9e+02  Score=12.98  Aligned_cols=6  Identities=67%  Similarity=1.126  Sum_probs=0.0  Template_Neff=1.300
+
+Q DILTYT            1 DILTYT    6 (6)
+Q Consensus         1 diltyt    6 (6)
+                      .|++||
+T Consensus        23 ~I~tYT   28 (129)
+T 1B44_G           23 KILSYT   28 (129)
+T ss_dssp             ECCEEE
+T ss_pred             HHHHhh
+
+
+No 5
+>3C0T_B Mediator of RNA polymerase II; BETA BARREL, CHANNEL, PROTEIN-PROTEIN COMPLEX; 2.4A {Schizosaccharomyces pombe}
+Probab=9.43  E-value=3.1e+02  Score=10.47  Aligned_cols=5  Identities=60%  Similarity=1.285  Sum_probs=0.0  Template_Neff=1.000
+
+Q DILTYT            1 DILTY    5 (6)
+Q Consensus         1 dilty    5 (6)
+                      |||.+
+T Consensus        12 dilsf   16 (33)
+T 3C0T_B           12 DILSF   16 (33)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 6
+>5HYC_C Uncharacterized protein, Cytoplasmic dynein 1; dynein light chain Tctex-1, Magnaporthe; 2.4A {Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958)}
+Probab=9.36  E-value=3.1e+02  Score=10.03  Aligned_cols=6  Identities=33%  Similarity=1.082  Sum_probs=0.0  Template_Neff=3.700
+
+Q DILTYT            1 DILTYT    6 (6)
+Q Consensus         1 diltyt    6 (6)
+                      .++||+
+T Consensus        24 E~iTYS   29 (35)
+T 5HYC_C           24 EIFSYS   29 (35)
+T ss_dssp             CCCCCC
+T ss_pred             eEEEEe
+
+
+No 7
+>4PUG_B BolA like protein; stress-responsive protein, transcriptional regulator, morphogen; 1.998A {Arabidopsis thaliana}
+Probab=9.18  E-value=3.2e+02  Score=10.23  Aligned_cols=6  Identities=33%  Similarity=0.457  Sum_probs=0.0  Template_Neff=7.700
+
+Q DILTYT            1 DILTYT    6 (6)
+Q Consensus         1 diltyt    6 (6)
+                      +|.+||
+T Consensus        85 ~i~~~t   90 (98)
+T 4PUG_B           85 SIVSKT   90 (98)
+T ss_dssp             EEEEEC
+T ss_pred             EEEEEC
+
+
+No 8
+>2QX0_A 7,8-dihydro-6-hydroxymethylpterin-pyrophosphokinase (E.C.2.7.6.3); 3-layered alpha-bata-alpha fold, homodimer, ternary; HET: PH2, CSO, APC; 1.8A {Yersinia pestis}
+Probab=8.96  E-value=3.3e+02  Score=11.23  Aligned_cols=5  Identities=60%  Similarity=1.198  Sum_probs=0.0  Template_Neff=7.300
+
+Q DILTYT            1 DILTY    5 (6)
+Q Consensus         1 dilty    5 (6)
+                      ||+.|
+T Consensus        98 DIl~~  102 (159)
+T 2QX0_A           98 DIMLY  102 (159)
+T ss_dssp             EEEEE
+T ss_pred             eeeEe
+
+
+No 9
+>6DBB_C Putative aldehyde dehydrogenase family protein; SSGCID, structural genomics, Seattle Structural; HET: NAX, NAD, EDO; 2.1A {Burkholderia cenocepacia (strain ATCC BAA-245 / DSM 16553 / LMG 16656 / NCTC 13227 / J2315 / CF5610)}
+Probab=8.95  E-value=3.3e+02  Score=12.34  Aligned_cols=5  Identities=60%  Similarity=0.740  Sum_probs=0.0  Template_Neff=9.300
+
+Q DILTYT            1 DILTY    5 (6)
+Q Consensus         1 dilty    5 (6)
+                      |||.|
+T Consensus        13 ~~~~~   17 (511)
+T 6DBB_C           13 DILAA   17 (511)
+T ss_dssp             HHHHH
+T ss_pred             cceee
+
+
+No 10
+>3FB9_A uncharacterized protein; Unknown function, structural genomics, MCSG; 1.8A {Streptococcus pneumoniae}
+Probab=8.81  E-value=3.4e+02  Score=11.18  Aligned_cols=4  Identities=100%  Similarity=1.265  Sum_probs=0.0  Template_Neff=5.000
+
+Q DILTYT            1 DILT    4 (6)
+Q Consensus         1 dilt    4 (6)
+                      ||||
+T Consensus        78 DVLT   81 (90)
+T 3FB9_A           78 DILT   81 (90)
+T ss_dssp             HHHT
+T ss_pred             eecc
+
+

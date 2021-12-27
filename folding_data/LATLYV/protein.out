@@ -1,0 +1,149 @@
+Query         LATLYV
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 14:51:36 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LATLYV/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LATLYV/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5MDT_A Rpb7-binding protein se   8.7 3.4E+02  0.0038   10.6   0.0    6    1-6      60-65  (162)
+  2 3CLJ_A Protein NRD1; CTD-inter   8.5 3.6E+02   0.004   10.6   0.0    6    1-6      59-64  (157)
+  3 6SP2_C Membrane protein TMS1d;   8.1 3.8E+02  0.0043   13.6   0.0    6    1-6     406-411 (513)
+  4 5Y2G_A Maltose-binding peripla   8.0 3.9E+02  0.0043   12.6   0.0    5    2-6     512-516 (595)
+  5 4WMH_A Human Heme Oxygenase (E   7.9 3.9E+02  0.0043   10.2   0.0    6    1-6     120-125 (207)
+  6 3D9N_B RNA-binding protein 16,   7.4 4.3E+02  0.0048    9.9   0.0    6    1-6      60-65  (145)
+  7 2N1D_A MRG/MORF4L-binding prot   7.2 4.4E+02  0.0049   10.0   0.0    5    1-5      16-20  (54)
+  8 2MOW_A Protein NRD1, Poly(A) R   7.2 4.5E+02   0.005   10.4   0.0    6    1-6      63-68  (161)
+  9 1IW0_B heme oxygenase (E.C.1.1   7.1 4.5E+02   0.005   10.2   0.0    6    1-6     126-131 (215)
+ 10 1IW1_A heme oxygenase (E.C.1.1   7.1 4.5E+02   0.005   10.2   0.0    6    1-6     126-131 (215)
+
+No 1
+>5MDT_A Rpb7-binding protein seb1; CTD-interacting domain (CID), S. pombe; 1.62A {Schizosaccharomyces pombe 972h-}
+Probab=8.74  E-value=3.4e+02  Score=10.57  Aligned_cols=6  Identities=50%  Similarity=1.110  Sum_probs=0.0  Template_Neff=8.700
+
+Q LATLYV            1 LATLYV    6 (6)
+Q Consensus         1 latlyv    6 (6)
+                      |..|||
+T Consensus        60 L~~LYl   65 (162)
+T 5MDT_A           60 LGALYI   65 (162)
+T ss_dssp             HHHHHH
+T ss_pred             hhHHHH
+
+
+No 2
+>3CLJ_A Protein NRD1; CTD-interacting domain, Nucleus, Phosphoprotein, RNA; HET: GOL; 2.1A {Saccharomyces cerevisiae}
+Probab=8.49  E-value=3.6e+02  Score=10.57  Aligned_cols=6  Identities=50%  Similarity=1.160  Sum_probs=0.0  Template_Neff=8.500
+
+Q LATLYV            1 LATLYV    6 (6)
+Q Consensus         1 latlyv    6 (6)
+                      |..||+
+T Consensus        59 L~~LYl   64 (157)
+T 3CLJ_A           59 LGSLYI   64 (157)
+T ss_dssp             HHHHHH
+T ss_pred             hHHHHH
+
+
+No 3
+>6SP2_C Membrane protein TMS1d; Anti-retroviral, TM10, SERINC fold, novel; HET: CDL, LMN, P5S; 3.33A {Drosophila melanogaster}
+Probab=8.05  E-value=3.8e+02  Score=13.62  Aligned_cols=6  Identities=67%  Similarity=0.977  Sum_probs=0.0  Template_Neff=6.200
+
+Q LATLYV            1 LATLYV    6 (6)
+Q Consensus         1 latlyv    6 (6)
+                      ||++|+
+T Consensus       406 LASmYv  411 (513)
+T 6SP2_C          406 CASLYV  411 (513)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 4
+>5Y2G_A Maltose-binding periplasmic protein,Protein B; Camp factor, pore forming toxin; HET: MAL, SO4; 3.0A {Escherichia coli}
+Probab=8.01  E-value=3.9e+02  Score=12.62  Aligned_cols=5  Identities=60%  Similarity=1.032  Sum_probs=0.0  Template_Neff=8.900
+
+Q LATLYV            2 ATLYV    6 (6)
+Q Consensus         2 atlyv    6 (6)
+                      ||+||
+T Consensus       512 ~~~~~  516 (595)
+T 5Y2G_A          512 ATIYT  516 (595)
+T ss_pred             eehhh
+
+
+No 5
+>4WMH_A Human Heme Oxygenase (E.C.1.14.99.3); HO2, Heme oxygenase, Oxygenase, Structural; 2.5A {Homo sapiens}
+Probab=7.92  E-value=3.9e+02  Score=10.18  Aligned_cols=6  Identities=33%  Similarity=0.584  Sum_probs=0.0  Template_Neff=10.100
+
+Q LATLYV            1 LATLYV    6 (6)
+Q Consensus         1 latlyv    6 (6)
+                      |+.+||
+T Consensus       120 lg~~yv  125 (207)
+T 4WMH_A          120 VAHAYT  125 (207)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 6
+>3D9N_B RNA-binding protein 16, CTD-PEPTIDE; SCAF8, RNA POLYMERASE II CTD; HET: SO4, SEP; 1.6A {Homo sapiens}
+Probab=7.36  E-value=4.3e+02  Score=9.88  Aligned_cols=6  Identities=50%  Similarity=0.899  Sum_probs=0.0  Template_Neff=9.200
+
+Q LATLYV            1 LATLYV    6 (6)
+Q Consensus         1 latlyv    6 (6)
+                      |+.||+
+T Consensus        60 l~~lYl   65 (145)
+T 3D9N_B           60 VPGLYV   65 (145)
+T ss_dssp             HHHHHH
+T ss_pred             ccHHHH
+
+
+No 7
+>2N1D_A MRG/MORF4L-binding protein, Mortality factor 4-like; MRG domain, protein-protein interaction, Tip60-NuA4; NMR {Homo sapiens}
+Probab=7.24  E-value=4.4e+02  Score=9.99  Aligned_cols=5  Identities=60%  Similarity=1.212  Sum_probs=0.0  Template_Neff=4.900
+
+Q LATLYV            1 LATLY    5 (6)
+Q Consensus         1 latly    5 (6)
+                      |.++|
+T Consensus        16 L~~~Y   20 (54)
+T 2N1D_A           16 LSTMY   20 (54)
+T ss_dssp             HHHTT
+T ss_pred             HHHhc
+
+
+No 8
+>2MOW_A Protein NRD1, Poly(A) RNA polymerase; transcription termination, RNA degradation, RNAP; NMR {Saccharomyces cerevisiae}
+Probab=7.18  E-value=4.5e+02  Score=10.39  Aligned_cols=6  Identities=50%  Similarity=1.160  Sum_probs=0.0  Template_Neff=8.400
+
+Q LATLYV            1 LATLYV    6 (6)
+Q Consensus         1 latlyv    6 (6)
+                      |+.||+
+T Consensus        63 L~~LYl   68 (161)
+T 2MOW_A           63 LGSLYI   68 (161)
+T ss_dssp             HHHHHH
+T ss_pred             hHHHHH
+
+
+No 9
+>1IW0_B heme oxygenase (E.C.1.14.99.3); alpha helix, bacterial iron acquisition; HET: GLC, SO4, HEM, FRU; 1.4A {Corynebacterium diphtheriae} SCOP: a.132.1.1
+Probab=7.12  E-value=4.5e+02  Score=10.22  Aligned_cols=6  Identities=50%  Similarity=0.733  Sum_probs=0.0  Template_Neff=9.800
+
+Q LATLYV            1 LATLYV    6 (6)
+Q Consensus         1 latlyv    6 (6)
+                      ++.+||
+T Consensus       126 lg~~yv  131 (215)
+T 1IW0_B          126 VAHHYV  131 (215)
+T ss_dssp             HHHHCC
+T ss_pred             HHHHHH
+
+
+No 10
+>1IW1_A heme oxygenase (E.C.1.14.99.3); alpha helix, bacterial iron acquisition; HET: HEM, SO4, GLC, FRU; 1.5A {Corynebacterium diphtheriae} SCOP: a.132.1.1
+Probab=7.12  E-value=4.5e+02  Score=10.22  Aligned_cols=6  Identities=50%  Similarity=0.733  Sum_probs=0.0  Template_Neff=9.800
+
+Q LATLYV            1 LATLYV    6 (6)
+Q Consensus         1 latlyv    6 (6)
+                      ++.+||
+T Consensus       126 lg~~yv  131 (215)
+T 1IW1_A          126 VAHHYV  131 (215)
+T ss_dssp             HHHHCC
+T ss_pred             HHHHHH
+
+

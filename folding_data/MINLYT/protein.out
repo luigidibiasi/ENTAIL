@@ -1,0 +1,149 @@
+Query         MINLYT
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 21:53:46 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/MINLYT/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/MINLYT/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3J92_1 rabbit 60S ribosomal su  19.6 1.1E+02  0.0012   12.9   0.0    6    1-6      91-96  (104)
+  2 1XGW_A Epsin 4; enth, enthopro  17.8 1.2E+02  0.0014   12.3   0.0    5    1-5      12-16  (176)
+  3 2RNN_A Siz1; SUMO ligase, DNA   17.0 1.3E+02  0.0015   12.3   0.0    4    1-4       4-7   (114)
+  4 6GFF_G Transforming growth fac  16.9 1.3E+02  0.0015   12.0   0.0    5    1-5      48-52  (249)
+  5 3GNI_B Calcium-binding protein  14.3 1.7E+02  0.0019   12.2   0.0    6    1-6       9-14  (389)
+  6 5EB3_B YfiR; PERIPLASMIC REPRE  13.8 1.8E+02   0.002   11.5   0.0    6    1-6     119-124 (159)
+  7 5Y61_C YfiR, YfiB; YfiB-YfiR c  13.8 1.8E+02   0.002   11.5   0.0    6    1-6     119-124 (159)
+  8 4XJY_C YfiR; Inhibitor, Peripl  12.6 2.1E+02  0.0023   11.6   0.0    6    1-6     116-121 (164)
+  9 2GNX_A hypothetical protein; S  12.4 2.1E+02  0.0023   13.5   0.0    5    1-5      38-42  (344)
+ 10 2LGE_A Uncharacterized protein  12.1 2.2E+02  0.0024   13.4   0.0    5    1-5     123-127 (129)
+
+No 1
+>3J92_1 rabbit 60S ribosomal subunit in; RWD, RING, quality control, RIBOSOME-LIGASE; HET: MG;{Oryctolagus cuniculus}
+Probab=19.61  E-value=1.1e+02  Score=12.89  Aligned_cols=6  Identities=50%  Similarity=0.838  Sum_probs=0.0  Template_Neff=5.000
+
+Q MINLYT            1 MINLYT    6 (6)
+Q Consensus         1 minlyt    6 (6)
+                      |..+||
+T Consensus        91 mlrfYT   96 (104)
+T 3J92_1           91 MWRFYT   96 (104)
+T ss_pred             ceeeee
+
+
+No 2
+>1XGW_A Epsin 4; enth, enthoprotin, clathrin-associated, epsin-related, Endocytosis; 1.9A {Homo sapiens}
+Probab=17.81  E-value=1.2e+02  Score=12.33  Aligned_cols=5  Identities=40%  Similarity=1.185  Sum_probs=0.0  Template_Neff=7.900
+
+Q MINLYT            1 MINLY    5 (6)
+Q Consensus         1 minly    5 (6)
+                      |+|+|
+T Consensus        12 ~~~~~   16 (176)
+T 1XGW_A           12 MLNMW   16 (176)
+T ss_dssp             -----
+T ss_pred             cccHH
+
+
+No 3
+>2RNN_A Siz1; SUMO ligase, DNA binding, sumoylation; NMR {Saccharomyces cerevisiae}
+Probab=17.05  E-value=1.3e+02  Score=12.30  Aligned_cols=4  Identities=100%  Similarity=1.340  Sum_probs=0.0  Template_Neff=6.100
+
+Q MINLYT            1 MINL    4 (6)
+Q Consensus         1 minl    4 (6)
+                      ||||
+T Consensus         4 ~~~~    7 (114)
+T 2RNN_A            4 MINL    7 (114)
+T ss_dssp             SCCG
+T ss_pred             ccch
+
+
+No 4
+>6GFF_G Transforming growth factor beta-1, Leucine-rich; GARP, TGF-B1, Activation, Treg, IMMUNE; HET: BMA, MAN, NAG; 3.1A {Mus musculus}
+Probab=16.92  E-value=1.3e+02  Score=11.95  Aligned_cols=5  Identities=40%  Similarity=1.059  Sum_probs=0.0  Template_Neff=9.700
+
+Q MINLYT            1 MINLY    5 (6)
+Q Consensus         1 minly    5 (6)
+                      |+.||
+T Consensus        48 m~~LY   52 (249)
+T 6GFF_G           48 VLALY   52 (249)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 5
+>3GNI_B Calcium-binding protein 39, STE20-related kinase; kinase fold, pseudokinase, alpha helical; HET: CIT, ATP; 2.35A {Homo sapiens}
+Probab=14.26  E-value=1.7e+02  Score=12.15  Aligned_cols=6  Identities=67%  Similarity=0.833  Sum_probs=0.0  Template_Neff=10.300
+
+Q MINLYT            1 MINLYT    6 (6)
+Q Consensus         1 minlyt    6 (6)
+                      |-||||
+T Consensus         9 ~~~~~~   14 (389)
+T 3GNI_B            9 MENLYF   14 (389)
+T ss_dssp             HHHSCC
+T ss_pred             hhhhhh
+
+
+No 6
+>5EB3_B YfiR; PERIPLASMIC REPRESSOR PROTEIN, TRANSCRIPTION; HET: SO4, UEG; 2.4A {Pseudomonas aeruginosa PAO1}
+Probab=13.84  E-value=1.8e+02  Score=11.54  Aligned_cols=6  Identities=33%  Similarity=0.340  Sum_probs=0.0  Template_Neff=8.200
+
+Q MINLYT            1 MINLYT    6 (6)
+Q Consensus         1 minlyt    6 (6)
+                      ||+|+.
+T Consensus       119 ~I~l~~  124 (159)
+T 5EB3_B          119 MFCLNV  124 (159)
+T ss_dssp             SEEEEC
+T ss_pred             EEEEEE
+
+
+No 7
+>5Y61_C YfiR, YfiB; YfiB-YfiR complex, GMP, biofilm, SIGNALING; HET: MSE, 5GP; 2.99A {Pseudomonas aeruginosa}
+Probab=13.80  E-value=1.8e+02  Score=11.48  Aligned_cols=6  Identities=33%  Similarity=0.340  Sum_probs=0.0  Template_Neff=8.300
+
+Q MINLYT            1 MINLYT    6 (6)
+Q Consensus         1 minlyt    6 (6)
+                      ||+|+.
+T Consensus       119 ~I~l~~  124 (159)
+T 5Y61_C          119 MFCLNV  124 (159)
+T ss_dssp             SEEEEC
+T ss_pred             EEEEEE
+
+
+No 8
+>4XJY_C YfiR; Inhibitor, Periplasm, Signal Transduction, signaling; HET: P33, MSE, TLA; 1.8A {Pseudomonas aeruginosa PAO1}
+Probab=12.56  E-value=2.1e+02  Score=11.57  Aligned_cols=6  Identities=33%  Similarity=0.340  Sum_probs=0.0  Template_Neff=7.900
+
+Q MINLYT            1 MINLYT    6 (6)
+Q Consensus         1 minlyt    6 (6)
+                      ||||+.
+T Consensus       116 ~I~l~~  121 (164)
+T 4XJY_C          116 MFCLNV  121 (164)
+T ss_dssp             SEEEEC
+T ss_pred             EEEEEE
+
+
+No 9
+>2GNX_A hypothetical protein; STRUCTURAL GENOMICS, PROTEIN STRUCTURE INITIATIVE; 2.45A {Mus musculus} SCOP: a.246.3.1, d.109.3.1
+Probab=12.44  E-value=2.1e+02  Score=13.52  Aligned_cols=5  Identities=20%  Similarity=0.912  Sum_probs=0.0  Template_Neff=6.600
+
+Q MINLYT            1 MINLY    5 (6)
+Q Consensus         1 minly    5 (6)
+                      ||++|
+T Consensus        38 mI~~Y   42 (344)
+T 2GNX_A           38 IADFY   42 (344)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 10
+>2LGE_A Uncharacterized protein; Calcium-bound, Structural Genomics, Joint Center; NMR {Parabacteroides distasonis}
+Probab=12.07  E-value=2.2e+02  Score=13.35  Aligned_cols=5  Identities=60%  Similarity=1.025  Sum_probs=0.0  Template_Neff=1.800
+
+Q MINLYT            1 MINLY    5 (6)
+Q Consensus         1 minly    5 (6)
+                      |||||
+T Consensus       123 dlnly  127 (129)
+T 2LGE_A          123 DLNLY  127 (129)
+T ss_dssp             CEEEE
+T ss_pred             Heeee
+
+

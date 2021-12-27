@@ -7,3 +7,5 @@ Questi dataset contegono sequenze amiloidi e sequenze non amiloidi (quindi due o
 
 # Step 0
 # Step 1
+
+Please note that the sequence STVIIR have no predicted structure then it was removed from balanced dataset that uses YPredStuct descriptors

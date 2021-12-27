@@ -1,0 +1,148 @@
+Query         HNNNNN
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 06:43:33 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/HNNNNN/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/HNNNNN/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2VVQ_C RIBOSE-5-PHOSPHATE ISOM   5.1 6.9E+02  0.0077   10.9   0.0    5    1-5     102-106 (162)
+  2 2B6G_A PROTEIN/RNA Complex; al   5.0 7.1E+02  0.0078    9.7   0.0    6    1-6      11-16  (119)
+  3 3M1P_A Ribose 5-phosphate isom   4.8 7.5E+02  0.0083   10.7   0.0    5    1-5     102-106 (153)
+  4 4EM8_A Ribose 5-phosphate isom   4.7 7.7E+02  0.0085   10.6   0.0    5    1-5     104-108 (148)
+  5 3HE8_A Ribose-5-phosphate isom   4.6   8E+02  0.0088   10.5   0.0    5    1-5      98-102 (149)
+  6 3HEE_B Ribose-5-phosphate isom   4.6   8E+02  0.0088   10.5   0.0    5    1-5      98-102 (149)
+  7 2VVR_E RIBOSE-5-PHOSPHATE ISOM   4.5 8.1E+02  0.0089   10.5   0.0    5    1-5      99-103 (149)
+  8 2VVR_F RIBOSE-5-PHOSPHATE ISOM   4.5 8.1E+02  0.0089   10.5   0.0    5    1-5      99-103 (149)
+  9 6EKC_N8 Ribulose bisphosphate    4.5 8.2E+02  0.0091    8.7   0.0    4    3-6       4-7   (81)
+ 10 2LFV_A Protein damX; cell divi   4.4 8.4E+02  0.0093    8.8   0.0    6    1-6      10-15  (106)
+
+No 1
+>2VVQ_C RIBOSE-5-PHOSPHATE ISOMERASE B (E.C.5.3.1.6); PENTOSE PHOSPHATE PATHWAY, RPIB, RV2465C; HET: R10, SO4; 2.0A {MYCOBACTERIUM TUBERCULOSIS} SCOP: c.121.1.1
+Probab=5.12  E-value=6.9e+02  Score=10.92  Aligned_cols=5  Identities=60%  Similarity=0.933  Sum_probs=0.0  Template_Neff=6.000
+
+Q HNNNNN            1 HNNNN    5 (6)
+Q Consensus         1 hnnnn    5 (6)
+                      |||-|
+T Consensus       102 ~NnaN  106 (162)
+T 2VVQ_C          102 HNNAQ  106 (162)
+T ss_dssp             HHCCS
+T ss_pred             HhCCC
+
+
+No 2
+>2B6G_A PROTEIN/RNA Complex; alpha-helix, pentaloop, hairpin, RNA BINDING; NMR {Saccharomyces cerevisiae}
+Probab=5.05  E-value=7.1e+02  Score=9.70  Aligned_cols=6  Identities=33%  Similarity=0.451  Sum_probs=0.0  Template_Neff=7.600
+
+Q HNNNNN            1 HNNNNN    6 (6)
+Q Consensus         1 hnnnnn    6 (6)
+                      |+|++|
+T Consensus        11 ~~~~~~   16 (119)
+T 2B6G_A           11 HPNAGP   16 (119)
+T ss_pred             CCCCCC
+
+
+No 3
+>3M1P_A Ribose 5-phosphate isomerase (E.C.5.3.1.6); type B ribose 5-phosphate isomerase; HET: PO4; 2.2A {Trypanosoma cruzi}
+Probab=4.81  E-value=7.5e+02  Score=10.68  Aligned_cols=5  Identities=60%  Similarity=1.033  Sum_probs=0.0  Template_Neff=6.100
+
+Q HNNNNN            1 HNNNN    5 (6)
+Q Consensus         1 hnnnn    5 (6)
+                      |||-|
+T Consensus       102 hNnaN  106 (153)
+T 3M1P_A          102 HNDAN  106 (153)
+T ss_dssp             TTCCS
+T ss_pred             hcCCC
+
+
+No 4
+>4EM8_A Ribose 5-phosphate isomerase B (E.C.5.3.1.6); SSGCID, Seattle Structural Genomics Center; 1.95A {Anaplasma phagocytophilum}
+Probab=4.70  E-value=7.7e+02  Score=10.59  Aligned_cols=5  Identities=60%  Similarity=1.033  Sum_probs=0.0  Template_Neff=6.100
+
+Q HNNNNN            1 HNNNN    5 (6)
+Q Consensus         1 hnnnn    5 (6)
+                      |||-|
+T Consensus       104 ~NnaN  108 (148)
+T 4EM8_A          104 HNDAN  108 (148)
+T ss_dssp             HHCCC
+T ss_pred             hhCCC
+
+
+No 5
+>3HE8_A Ribose-5-phosphate isomerase (E.C.5.3.1.6); D-Ribose Phosphate Isomerase, ctRpi B; HET: GOL; 1.9A {Clostridium thermocellum}
+Probab=4.57  E-value=8e+02  Score=10.51  Aligned_cols=5  Identities=60%  Similarity=1.033  Sum_probs=0.0  Template_Neff=6.200
+
+Q HNNNNN            1 HNNNN    5 (6)
+Q Consensus         1 hnnnn    5 (6)
+                      |||-|
+T Consensus        98 ~NnaN  102 (149)
+T 3HE8_A           98 HNDAN  102 (149)
+T ss_dssp             TTCCS
+T ss_pred             hcCCC
+
+
+No 6
+>3HEE_B Ribose-5-phosphate isomerase (E.C.5.3.1.6); D-Ribose Phosphate Isomerase, ctRpi B; HET: R5P; 2.0A {Clostridium thermocellum}
+Probab=4.57  E-value=8e+02  Score=10.51  Aligned_cols=5  Identities=60%  Similarity=1.033  Sum_probs=0.0  Template_Neff=6.200
+
+Q HNNNNN            1 HNNNN    5 (6)
+Q Consensus         1 hnnnn    5 (6)
+                      |||-|
+T Consensus        98 ~NnaN  102 (149)
+T 3HEE_B           98 HNDAN  102 (149)
+T ss_dssp             TTCCS
+T ss_pred             hcCCC
+
+
+No 7
+>2VVR_E RIBOSE-5-PHOSPHATE ISOMERASE B (E.C.5.3.1.6); RPIB, ISOMERASE, CARBOHYDRATE METABOLISM, PENTOSE; 2.1A {ESCHERICHIA COLI}
+Probab=4.54  E-value=8.1e+02  Score=10.50  Aligned_cols=5  Identities=40%  Similarity=0.767  Sum_probs=0.0  Template_Neff=6.200
+
+Q HNNNNN            1 HNNNN    5 (6)
+Q Consensus         1 hnnnn    5 (6)
+                      |||-|
+T Consensus        99 ~NnaN  103 (149)
+T 2VVR_E           99 NNDTN  103 (149)
+T ss_dssp             HHCCC
+T ss_pred             ccCCC
+
+
+No 8
+>2VVR_F RIBOSE-5-PHOSPHATE ISOMERASE B (E.C.5.3.1.6); RPIB, ISOMERASE, CARBOHYDRATE METABOLISM, PENTOSE; 2.1A {ESCHERICHIA COLI}
+Probab=4.54  E-value=8.1e+02  Score=10.50  Aligned_cols=5  Identities=40%  Similarity=0.767  Sum_probs=0.0  Template_Neff=6.200
+
+Q HNNNNN            1 HNNNN    5 (6)
+Q Consensus         1 hnnnn    5 (6)
+                      |||-|
+T Consensus        99 ~NnaN  103 (149)
+T 2VVR_F           99 NNDTN  103 (149)
+T ss_dssp             HHCCC
+T ss_pred             ccCCC
+
+
+No 9
+>6EKC_N8 Ribulose bisphosphate carboxylase large chain; zinc finger, assembly chaperone, assembly; HET: ZN; 2.63A {Thermosynechococcus elongatus (strain BP-1)}
+Probab=4.46  E-value=8.2e+02  Score=8.75  Aligned_cols=4  Identities=75%  Similarity=0.875  Sum_probs=0.0  Template_Neff=7.900
+
+Q HNNNNN            3 NNNN    6 (6)
+Q Consensus         3 nnnn    6 (6)
+                      ||+|
+T Consensus         4 ~~~~    7 (81)
+T 6EKC_N8           4 NNNP    7 (81)
+T ss_pred             CCCC
+
+
+No 10
+>2LFV_A Protein damX; cell division, peptidoglycan binding domain; NMR {Escherichia coli}
+Probab=4.38  E-value=8.4e+02  Score=8.83  Aligned_cols=6  Identities=67%  Similarity=1.038  Sum_probs=0.0  Template_Neff=8.700
+
+Q HNNNNN            1 HNNNNN    6 (6)
+Q Consensus         1 hnnnnn    6 (6)
+                      |..||+
+T Consensus        10 ~~~~~~   15 (106)
+T 2LFV_A           10 HGSNNN   15 (106)
+T ss_dssp             CCCCTT
+T ss_pred             CCCCCC
+
+

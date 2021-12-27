@@ -1,0 +1,151 @@
+Query         HSSNNF
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 07:08:32 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/HSSNNF/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/HSSNNF/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3UFX_I Succinyl-CoA ligase alp  37.7      31 0.00034   14.6   0.0    6    1-6     391-396 (397)
+  2 7E4N_A class I diterpene synth  21.6      90   0.001   12.7   0.0    6    1-6       9-14  (299)
+  3 2LFV_A Protein damX; cell divi  17.8 1.2E+02  0.0014   11.0   0.0    5    1-5      10-14  (106)
+  4 2X5T_A ORF 131; VIRAL PROTEIN,  16.4 1.4E+02  0.0016   13.3   0.0    6    1-6      54-59  (96)
+  5 2X5H_A ORF 131; VIRAL PROTEIN;  16.1 1.4E+02  0.0016   13.3   0.0    6    1-6      55-60  (97)
+  6 4P9G_A 2,4'-dihydroxyacetophen  16.0 1.5E+02  0.0016   11.9   0.0    6    1-6      10-15  (197)
+  7 6R15_B SUN domain-containing p  15.3 1.6E+02  0.0017   10.6   0.0    6    1-6      10-15  (32)
+  8 2X5G_A ORF 131; VIRAL PROTEIN;  15.2 1.6E+02  0.0017   13.2   0.0    6    1-6      54-59  (96)
+  9 4IW9_B Glutathione transferase  14.9 1.6E+02  0.0018   11.0   0.0    6    1-6       7-12  (231)
+ 10 1BM9_A REPLICATION TERMINATOR   14.3 1.7E+02  0.0019   11.1   0.0    5    2-6       7-11  (122)
+
+No 1
+>3UFX_I Succinyl-CoA ligase alpha subunit (E.C.6.2.1.5); ATP-grasp fold, LIGASE; HET: GDP; 2.35A {Thermus aquaticus}
+Probab=37.73  E-value=31  Score=14.60  Aligned_cols=6  Identities=50%  Similarity=0.711  Sum_probs=3.8  Template_Neff=9.700
+
+Q HSSNNF            1 HSSNNF    6 (6)
+Q Consensus         1 hssnnf    6 (6)
+                      ||+|||
+T Consensus       391 ~~~~~~  396 (397)
+T 3UFX_I          391 HSQYNL  396 (397)
+T ss_dssp             GHHTTC
+T ss_pred             eecccC
+Confidence            467765
+
+
+No 2
+>7E4N_A class I diterpene synthases, pimarane-type; 1.94A {Streptomyces sp.}
+Probab=21.60  E-value=90  Score=12.70  Aligned_cols=6  Identities=50%  Similarity=1.038  Sum_probs=2.9  Template_Neff=9.800
+
+Q HSSNNF            1 HSSNNF    6 (6)
+Q Consensus         1 hssnnf    6 (6)
+                      |.+|||
+T Consensus         9 ~~~~~~   14 (299)
+T 7E4N_A            9 HAGNGF   14 (299)
+T ss_dssp             CHHHHH
+T ss_pred             ccCCCh
+Confidence            345554
+
+
+No 3
+>2LFV_A Protein damX; cell division, peptidoglycan binding domain; NMR {Escherichia coli}
+Probab=17.84  E-value=1.2e+02  Score=10.98  Aligned_cols=5  Identities=80%  Similarity=1.079  Sum_probs=0.0  Template_Neff=8.700
+
+Q HSSNNF            1 HSSNN    5 (6)
+Q Consensus         1 hssnn    5 (6)
+                      |.|||
+T Consensus        10 ~~~~~   14 (106)
+T 2LFV_A           10 HGSNN   14 (106)
+T ss_dssp             CCCCT
+T ss_pred             CCCCC
+
+
+No 4
+>2X5T_A ORF 131; VIRAL PROTEIN, DOMAIN-SWAP, ARCHEAL VIRUS; 2.2A {SULFOLOBUS ISLANDICUS RUDIVIRUS 1}
+Probab=16.35  E-value=1.4e+02  Score=13.35  Aligned_cols=6  Identities=83%  Similarity=1.276  Sum_probs=0.0  Template_Neff=2.100
+
+Q HSSNNF            1 HSSNNF    6 (6)
+Q Consensus         1 hssnnf    6 (6)
+                      ||.|||
+T Consensus        54 h~~~n~   59 (96)
+T 2X5T_A           54 HSQNNF   59 (96)
+T ss_dssp             ECSTTT
+T ss_pred             EeCCce
+
+
+No 5
+>2X5H_A ORF 131; VIRAL PROTEIN; 1.8A {SULFOLOBUS ISLANDICUS RUDIVIRUS 1}
+Probab=16.09  E-value=1.4e+02  Score=13.34  Aligned_cols=6  Identities=83%  Similarity=1.276  Sum_probs=0.0  Template_Neff=2.100
+
+Q HSSNNF            1 HSSNNF    6 (6)
+Q Consensus         1 hssnnf    6 (6)
+                      ||.|||
+T Consensus        55 h~~~n~   60 (97)
+T 2X5H_A           55 HSQNNF   60 (97)
+T ss_dssp             EETTEE
+T ss_pred             EeCCce
+
+
+No 6
+>4P9G_A 2,4'-dihydroxyacetophenone dioxygenase  (E.C.1.13.11.41); Dioxygenase, cupin-fold, iron-binding, carbonate, oxidoreductase; 2.2A {Alcaligenes sp.}
+Probab=15.96  E-value=1.5e+02  Score=11.93  Aligned_cols=6  Identities=50%  Similarity=0.440  Sum_probs=0.0  Template_Neff=8.700
+
+Q HSSNNF            1 HSSNNF    6 (6)
+Q Consensus         1 hssnnf    6 (6)
+                      ||+.|+
+T Consensus        10 ~~~~~~   15 (197)
+T 4P9G_A           10 HSSGLV   15 (197)
+T ss_pred             cCCCCC
+
+
+No 7
+>6R15_B SUN domain-containing protein 1, Nesprin-1; SUN1 KASH1 NESPRIN-1 SYNE1 LINC; HET: EPE, PGE; 1.82A {Homo sapiens}
+Probab=15.32  E-value=1.6e+02  Score=10.61  Aligned_cols=6  Identities=67%  Similarity=0.772  Sum_probs=0.0  Template_Neff=3.800
+
+Q HSSNNF            1 HSSNNF    6 (6)
+Q Consensus         1 hssnnf    6 (6)
+                      ..+|||
+T Consensus        10 ~~~Nnf   15 (32)
+T 6R15_B           10 ALSNNF   15 (32)
+T ss_dssp             HHCCGG
+T ss_pred             hhccch
+
+
+No 8
+>2X5G_A ORF 131; VIRAL PROTEIN; HET: MLI; 2.0A {SULFOLOBUS ISLANDICUS RUDIVIRUS 1}
+Probab=15.22  E-value=1.6e+02  Score=13.21  Aligned_cols=6  Identities=83%  Similarity=1.276  Sum_probs=0.0  Template_Neff=2.100
+
+Q HSSNNF            1 HSSNNF    6 (6)
+Q Consensus         1 hssnnf    6 (6)
+                      ||.|||
+T Consensus        54 h~~~n~   59 (96)
+T 2X5G_A           54 HSQNNF   59 (96)
+T ss_dssp             EESSST
+T ss_pred             EeCCce
+
+
+No 9
+>4IW9_B Glutathione transferase (E.C.2.5.1.18); TRANSFERASE, GLUTATHIONE, ENZYME FUNCTION INITIATIVE; HET: PGE, GSH; 1.76A {Mannheimia haemolytica PHL213}
+Probab=14.90  E-value=1.6e+02  Score=11.02  Aligned_cols=6  Identities=50%  Similarity=0.229  Sum_probs=0.0  Template_Neff=10.800
+
+Q HSSNNF            1 HSSNNF    6 (6)
+Q Consensus         1 hssnnf    6 (6)
+                      |+||++
+T Consensus         7 ~~~~~~   12 (231)
+T 4IW9_B            7 HSSGVD   12 (231)
+T ss_dssp             ------
+T ss_pred             ccCCCC
+
+
+No 10
+>1BM9_A REPLICATION TERMINATOR PROTEIN; DNA-BINDING PROTEIN, CONTRAHELICASE; 2.0A {Bacillus subtilis} SCOP: a.4.5.7
+Probab=14.27  E-value=1.7e+02  Score=11.06  Aligned_cols=5  Identities=60%  Similarity=0.820  Sum_probs=0.0  Template_Neff=8.300
+
+Q HSSNNF            2 SSNNF    6 (6)
+Q Consensus         2 ssnnf    6 (6)
+                      ||+||
+T Consensus         7 ~~~~~   11 (122)
+T 1BM9_A            7 SSTGF   11 (122)
+T ss_dssp             CCCSS
+T ss_pred             hcccc
+
+

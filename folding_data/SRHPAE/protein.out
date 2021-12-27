@@ -1,0 +1,147 @@
+Query         SRHPAE
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 16:21:34 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/SRHPAE/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/SRHPAE/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5LBD_A Copper-transporting ATP  11.7 2.3E+02  0.0026   10.2   0.0    4    1-4      40-43  (131)
+  2 5V7P_A Protein-S-isoprenylcyst  11.6 2.3E+02  0.0026   12.8   0.0    4    1-4     207-210 (288)
+  3 2A2N_A peptidylprolyl isomeras  11.6 2.3E+02  0.0026   11.1   0.0    6    1-6       2-7   (176)
+  4 7RRO_H7 cilia, microtubule, dy   9.2 3.2E+02  0.0036   13.5   0.0    6    1-6      43-48  (1044)
+  5 7RRO_H8 cilia, microtubule, dy   9.2 3.2E+02  0.0036   13.5   0.0    6    1-6      43-48  (1044)
+  6 4V6M_AZ PROTEIN/RNA Complex; R   7.9 3.9E+02  0.0044    9.7   0.0    3    2-4      93-95  (98)
+  7 3REB_B Protein Nef, Tyrosine-p   7.8   4E+02  0.0044    7.9   0.0    6    1-6      72-77  (90)
+  8 4QUV_A Delta(14)-sterol reduct   7.6 4.2E+02  0.0046   12.2   0.0    4    1-4     355-358 (427)
+  9 3AJF_A Non-structural protein    6.8 4.8E+02  0.0053   11.8   0.0    4    1-4      29-32  (94)
+ 10 2NYG_A YokD protein; pfam02522   6.7 4.9E+02  0.0055   11.5   0.0    4    1-4     128-131 (273)
+
+No 1
+>5LBD_A Copper-transporting ATPase PAA1, chloroplastic (E.C.3.6.3.54); P-type ATPase, copper transporter, chloroplast; HET: EDO, MSE; 1.5A {Arabidopsis thaliana}
+Probab=11.68  E-value=2.3e+02  Score=10.22  Aligned_cols=4  Identities=50%  Similarity=1.240  Sum_probs=0.0  Template_Neff=9.600
+
+Q SRHPAE            1 SRHP    4 (6)
+Q Consensus         1 srhp    4 (6)
+                      |.||
+T Consensus        40 S~HP   43 (131)
+T 5LBD_A           40 TTHP   43 (131)
+T ss_dssp             CCSH
+T ss_pred             CCCH
+
+
+No 2
+>5V7P_A Protein-S-isoprenylcysteine O-methyltransferase (E.C.2.1.1.100), monobody; membrane protein, membrane enzyme, methyltransferase; HET: UND, D10, MPG, SAH; 2.3A {Tribolium castaneum}
+Probab=11.63  E-value=2.3e+02  Score=12.84  Aligned_cols=4  Identities=75%  Similarity=1.290  Sum_probs=0.0  Template_Neff=7.100
+
+Q SRHPAE            1 SRHP    4 (6)
+Q Consensus         1 srhp    4 (6)
+                      +|||
+T Consensus       207 vRHP  210 (288)
+T 5V7P_A          207 FRHP  210 (288)
+T ss_dssp             CSCH
+T ss_pred             cCCH
+
+
+No 3
+>2A2N_A peptidylprolyl isomerase domain and WD; CIS-TRANS ISOMERIZATION, PROTEIN-FOLDING, PEPTIDYLPROLYL ISOMERASE; 1.65A {Homo sapiens} SCOP: b.62.1.1
+Probab=11.56  E-value=2.3e+02  Score=11.12  Aligned_cols=6  Identities=33%  Similarity=0.230  Sum_probs=0.0  Template_Neff=8.800
+
+Q SRHPAE            1 SRHPAE    6 (6)
+Q Consensus         1 srhpae    6 (6)
+                      ||.|+|
+T Consensus         2 ~~~~~~    7 (176)
+T 2A2N_A            2 SPSKEE    7 (176)
+T ss_dssp             ------
+T ss_pred             CCCHHH
+
+
+No 4
+>7RRO_H7 cilia, microtubule, dynein, motility, STRUCTURAL; HET: GDP, GTP, MG; 3.4A {Bos taurus}
+Probab=9.15  E-value=3.2e+02  Score=13.52  Aligned_cols=6  Identities=33%  Similarity=0.534  Sum_probs=0.0  Template_Neff=9.600
+
+Q SRHPAE            1 SRHPAE    6 (6)
+Q Consensus         1 srhpae    6 (6)
+                      ++||.|
+T Consensus        43 ~~~~~~   48 (1044)
+T 7RRO_H7          43 YKYPQE   48 (1044)
+T ss_pred             HHCHHH
+
+
+No 5
+>7RRO_H8 cilia, microtubule, dynein, motility, STRUCTURAL; HET: GTP, GDP, MG; 3.4A {Bos taurus}
+Probab=9.15  E-value=3.2e+02  Score=13.52  Aligned_cols=6  Identities=33%  Similarity=0.534  Sum_probs=0.0  Template_Neff=9.600
+
+Q SRHPAE            1 SRHPAE    6 (6)
+Q Consensus         1 srhpae    6 (6)
+                      ++||.|
+T Consensus        43 ~~~~~~   48 (1044)
+T 7RRO_H8          43 YKYPQE   48 (1044)
+T ss_pred             HHCHHH
+
+
+No 6
+>4V6M_AZ PROTEIN/RNA Complex; RIBOSOMAL PROTEIN, RIBONUCLEOPROTEIN, NUCLEOTIDE-BINDING, PROTEIN; HET: PGV, PEV; 7.1A {Escherichia coli}
+Probab=7.92  E-value=3.9e+02  Score=9.73  Aligned_cols=3  Identities=100%  Similarity=2.029  Sum_probs=0.0  Template_Neff=8.300
+
+Q SRHPAE            2 RHP    4 (6)
+Q Consensus         2 rhp    4 (6)
+                      |||
+T Consensus        93 ~~~   95 (98)
+T 4V6M_AZ          93 RHP   95 (98)
+T ss_pred             CCC
+
+
+No 7
+>3REB_B Protein Nef, Tyrosine-protein kinase HCK; HIV-1 Nef, SH3 domain binding; 3.45A {HIV-1 M:B_ARV2/SF2}
+Probab=7.85  E-value=4e+02  Score=7.89  Aligned_cols=6  Identities=50%  Similarity=0.606  Sum_probs=0.0  Template_Neff=11.800
+
+Q SRHPAE            1 SRHPAE    6 (6)
+Q Consensus         1 srhpae    6 (6)
+                      +|..||
+T Consensus        72 ~~~~a~   77 (90)
+T 3REB_B           72 RRRQAE   77 (90)
+T ss_dssp             ------
+T ss_pred             CHHHHH
+
+
+No 8
+>4QUV_A Delta(14)-sterol reductase (E.C.1.3.1.70); Membrane protein, Cholesterol Biosynthesis, Oxidoreductase; HET: NDP; 2.743A {Methylomicrobium alcaliphilum}
+Probab=7.56  E-value=4.2e+02  Score=12.17  Aligned_cols=4  Identities=50%  Similarity=0.783  Sum_probs=0.0  Template_Neff=8.400
+
+Q SRHPAE            1 SRHP    4 (6)
+Q Consensus         1 srhp    4 (6)
+                      +|||
+T Consensus       355 vRhP  358 (427)
+T 4QUV_A          355 ARHM  358 (427)
+T ss_dssp             CTTH
+T ss_pred             hhCh
+
+
+No 9
+>3AJF_A Non-structural protein 3; RNA silencing suppression, negative strand; HET: SO4, MSE; 2.0A {Rice hoja blanca virus}
+Probab=6.78  E-value=4.8e+02  Score=11.77  Aligned_cols=4  Identities=75%  Similarity=1.539  Sum_probs=0.0  Template_Neff=1.700
+
+Q SRHPAE            1 SRHP    4 (6)
+Q Consensus         1 srhp    4 (6)
+                      +|||
+T Consensus        29 ~RhP   32 (94)
+T 3AJF_A           29 ERHP   32 (94)
+T ss_dssp             HHCT
+T ss_pred             hcCC
+
+
+No 10
+>2NYG_A YokD protein; pfam02522, NYSGXRC, 10116c, Aminoglycoside 3-N-acetyltransferase; HET: COA; 2.6A {Bacillus subtilis} SCOP: c.140.1.2
+Probab=6.65  E-value=4.9e+02  Score=11.55  Aligned_cols=4  Identities=75%  Similarity=1.340  Sum_probs=0.0  Template_Neff=7.600
+
+Q SRHPAE            1 SRHP    4 (6)
+Q Consensus         1 srhp    4 (6)
+                      |.||
+T Consensus       128 S~HP  131 (273)
+T 2NYG_A          128 SNHP  131 (273)
+T ss_dssp             CSCS
+T ss_pred             eCCC
+
+

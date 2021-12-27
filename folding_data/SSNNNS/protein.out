@@ -1,0 +1,150 @@
+Query         SSNNNS
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 16:40:20 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/SSNNNS/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/SSNNNS/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6WT4_A Bacterial STING (Flacob  38.9      29 0.00032   16.5   0.0    6    1-6     114-119 (162)
+  2 6WT4_B Bacterial STING (Flavob  38.9      29 0.00032   16.5   0.0    6    1-6     114-119 (162)
+  3 6EMW_L Endopeptidase Clp ATP-b   6.3 5.4E+02  0.0059    9.3   0.0    5    1-5     151-155 (157)
+  4 3FG8_D uncharacterized protein   5.5 6.4E+02   0.007    7.0   0.0    6    1-6       3-8   (118)
+  5 3FG8_F uncharacterized protein   5.5 6.4E+02   0.007    7.0   0.0    6    1-6       3-8   (118)
+  6 7C7M_A D-histidine (S)-2-amino   4.9 7.3E+02  0.0081   10.0   0.0    5    1-5      11-15  (283)
+  7 3OMW_D CG14216; phosphatase, l   4.5 8.2E+02  0.0091   11.5   0.0    5    1-5       9-13  (190)
+  8 3G7W_A native fold for amyloid   4.4 8.4E+02  0.0093    9.9   0.0    4    1-4     390-393 (393)
+  9 6TWR_A Beta-glucoside bgl oper   4.2 8.9E+02  0.0099    9.4   0.0    3    3-5       8-10  (175)
+ 10 1YTV_M Maltose-binding peripla   4.1   9E+02    0.01   10.8   0.0    5    1-5       3-7   (84)
+
+No 1
+>6WT4_A Bacterial STING (Flacobacteriaceae sp.)/RNA Complex; CBASS, cyclic dinucleotide receptor, CD-NTase; HET: SO4, 4BW; 1.78A {Flavobacteriaceae bacterium}
+Probab=38.85  E-value=29  Score=16.53  Aligned_cols=6  Identities=100%  Similarity=0.999  Sum_probs=0.0  Template_Neff=1.000
+
+Q SSNNNS            1 SSNNNS    6 (6)
+Q Consensus         1 ssnnns    6 (6)
+                      ||||||
+T Consensus       114 ssnnns  119 (162)
+T 6WT4_A          114 SSNNNS  119 (162)
+T ss_dssp             ------
+T ss_pred             cCCCCc
+Confidence            456654
+
+
+No 2
+>6WT4_B Bacterial STING (Flavobacteriaceae sp.)/RNA Complex; CBASS, cyclic dinucleotide receptor, CD-NTase; HET: SO4, 4BW; 1.78A {Flavobacteriaceae}
+Probab=38.85  E-value=29  Score=16.53  Aligned_cols=6  Identities=100%  Similarity=0.999  Sum_probs=0.0  Template_Neff=1.000
+
+Q SSNNNS            1 SSNNNS    6 (6)
+Q Consensus         1 ssnnns    6 (6)
+                      ||||||
+T Consensus       114 ssnnns  119 (162)
+T 6WT4_B          114 SSNNNS  119 (162)
+T ss_dssp             ------
+T ss_pred             cCCCCc
+Confidence            456654
+
+
+No 3
+>6EMW_L Endopeptidase Clp ATP-binding subunit C; Chaperone, AAA+ protein, unfoldase; 11.0A {Staphylococcus aureus}
+Probab=6.25  E-value=5.4e+02  Score=9.26  Aligned_cols=5  Identities=60%  Similarity=0.720  Sum_probs=0.0  Template_Neff=10.300
+
+Q SSNNNS            1 SSNNN    5 (6)
+Q Consensus         1 ssnnn    5 (6)
+                      |-+||
+T Consensus       151 ~~~~~  155 (157)
+T 6EMW_L          151 SKSNN  155 (157)
+T ss_pred             hhccC
+
+
+No 4
+>3FG8_D uncharacterized protein RHA05790; PAS domain, uncharacterized protein, structural; HET: 3PB, MSE; 1.8A {Rhodococcus sp. RHA1}
+Probab=5.47  E-value=6.4e+02  Score=6.95  Aligned_cols=6  Identities=33%  Similarity=0.434  Sum_probs=0.0  Template_Neff=13.700
+
+Q SSNNNS            1 SSNNNS    6 (6)
+Q Consensus         1 ssnnns    6 (6)
+                      ++++|.
+T Consensus         3 ~~~~~~    8 (118)
+T 3FG8_D            3 SSHHHH    8 (118)
+T ss_dssp             ------
+T ss_pred             CCcccc
+
+
+No 5
+>3FG8_F uncharacterized protein RHA05790; PAS domain, uncharacterized protein, structural; HET: 3PB, MSE; 1.8A {Rhodococcus sp. RHA1}
+Probab=5.47  E-value=6.4e+02  Score=6.95  Aligned_cols=6  Identities=33%  Similarity=0.434  Sum_probs=0.0  Template_Neff=13.700
+
+Q SSNNNS            1 SSNNNS    6 (6)
+Q Consensus         1 ssnnns    6 (6)
+                      ++++|.
+T Consensus         3 ~~~~~~    8 (118)
+T 3FG8_F            3 SSHHHH    8 (118)
+T ss_dssp             ------
+T ss_pred             CCcccc
+
+
+No 6
+>7C7M_A D-histidine (S)-2-aminobutanoyltransferase CntL; Metallophore, Biosynthesis, Substrate, Aminobutyrate, Transferase; HET: SAM, MSE; 1.81A {Staphylococcus aureus}
+Probab=4.89  E-value=7.3e+02  Score=9.98  Aligned_cols=5  Identities=80%  Similarity=0.827  Sum_probs=0.0  Template_Neff=10.100
+
+Q SSNNNS            1 SSNNN    5 (6)
+Q Consensus         1 ssnnn    5 (6)
+                      ||.||
+T Consensus        11 ~~~~~   15 (283)
+T 7C7M_A           11 SSGNN   15 (283)
+T ss_dssp             -----
+T ss_pred             ccCcc
+
+
+No 7
+>3OMW_D CG14216; phosphatase, low molecular weight protein; 2.8701A {Drosophila melanogaster}
+Probab=4.45  E-value=8.2e+02  Score=11.51  Aligned_cols=5  Identities=80%  Similarity=0.654  Sum_probs=0.0  Template_Neff=4.600
+
+Q SSNNNS            1 SSNNN    5 (6)
+Q Consensus         1 ssnnn    5 (6)
+                      +||.|
+T Consensus         9 aSN~N   13 (190)
+T 3OMW_D            9 SSNMN   13 (190)
+T ss_dssp             SSSSS
+T ss_pred             CCccc
+
+
+No 8
+>3G7W_A native fold for amyloidogenic protein; HET: GLC, SO4, GOL; 1.75A {Escherichia coli}
+Probab=4.39  E-value=8.4e+02  Score=9.91  Aligned_cols=4  Identities=100%  Similarity=0.999  Sum_probs=0.0  Template_Neff=11.100
+
+Q SSNNNS            1 SSNN    4 (6)
+Q Consensus         1 ssnn    4 (6)
+                      ||||
+T Consensus       390 ~~~~  393 (393)
+T 3G7W_A          390 SSNN  393 (393)
+T ss_dssp             CCCC
+T ss_pred             cCCC
+
+
+No 9
+>6TWR_A Beta-glucoside bgl operon antiterminator BglG; antitermination protein, Bacillus subtilis, dimeric; NMR {Bacillus subtilis}
+Probab=4.18  E-value=8.9e+02  Score=9.41  Aligned_cols=3  Identities=100%  Similarity=1.265  Sum_probs=0.0  Template_Neff=9.100
+
+Q SSNNNS            3 NNN    5 (6)
+Q Consensus         3 nnn    5 (6)
+                      |||
+T Consensus         8 nnn   10 (175)
+T 6TWR_A            8 NNN   10 (175)
+T ss_dssp             SSS
+T ss_pred             eCc
+
+
+No 10
+>1YTV_M Maltose-binding periplasmic protein/Vasopressin V1a receptor; vasopressin  receptor  GPCR; HET: MAL; 1.8A {Escherichia coli}
+Probab=4.14  E-value=9e+02  Score=10.76  Aligned_cols=5  Identities=100%  Similarity=1.052  Sum_probs=0.0  Template_Neff=1.700
+
+Q SSNNNS            1 SSNNN    5 (6)
+Q Consensus         1 ssnnn    5 (6)
+                      |||||
+T Consensus         3 ~~~~~    7 (84)
+T 1YTV_M            3 SSNNN    7 (84)
+T ss_pred             ccccc
+
+

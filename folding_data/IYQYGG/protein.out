@@ -1,0 +1,148 @@
+Query         IYQYGG
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 10:00:40 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/IYQYGG/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/IYQYGG/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6FTX_W Histone H3.3C, Histone   16.8 1.3E+02  0.0015   14.5   0.0    5    1-5     828-832 (878)
+  2 3MTV_A Papain-like cysteine pr  16.0 1.4E+02  0.0016   14.1   0.0    6    1-6       3-8   (203)
+  3 1XV2_D hypothetical protein, s  16.0 1.4E+02  0.0016   13.3   0.0    5    1-5       8-12  (237)
+  4 4OBM_A Uncharacterized protein  16.0 1.5E+02  0.0016   12.6   0.0    6    1-6      73-78  (259)
+  5 6INC_A Alpha-acetolactate deca  15.9 1.5E+02  0.0016   13.6   0.0    5    1-5      29-33  (259)
+  6 6J3D_B PadR family transcripti  15.4 1.5E+02  0.0017   13.6   0.0    5    1-5      28-32  (261)
+  7 7AM2_BQ Ribosomal protein L3-l  15.3 1.5E+02  0.0017   12.7   0.0    5    2-6      11-15  (445)
+  8 4BT2_A ALPHA-ACETOLACTATE DECA  14.3 1.7E+02  0.0019   13.4   0.0    5    1-5      25-29  (257)
+  9 4BT3_A ALPHA-ACETOLACTATE DECA  14.3 1.7E+02  0.0019   13.4   0.0    5    1-5      25-29  (257)
+ 10 6GY5_A Kelch-like protein 20,   13.8 1.8E+02   0.002   10.4   0.0    6    1-6      19-24  (304)
+
+No 1
+>6FTX_W Histone H3.3C, Histone H4, Histone; Chromatin remodellers, MOTOR PROTEIN; HET: ADP; 4.5A {Petromyzon marinus}
+Probab=16.84  E-value=1.3e+02  Score=14.50  Aligned_cols=5  Identities=40%  Similarity=1.603  Sum_probs=0.0  Template_Neff=9.300
+
+Q IYQYGG            1 IYQYG    5 (6)
+Q Consensus         1 iyqyg    5 (6)
+                      ||+||
+T Consensus       828 ~~~~g  832 (878)
+T 6FTX_W          828 VFKYG  832 (878)
+T ss_dssp             HHHHC
+T ss_pred             HHHHC
+
+
+No 2
+>3MTV_A Papain-like cysteine protease; PRRSV, nsp1, nuclease, papain-like cysteine; 2.8A {Porcine reproductive and respiratory syndrome virus}
+Probab=16.04  E-value=1.4e+02  Score=14.13  Aligned_cols=6  Identities=33%  Similarity=0.927  Sum_probs=0.0  Template_Neff=4.100
+
+Q IYQYGG            1 IYQYGG    6 (6)
+Q Consensus         1 iyqygg    6 (6)
+                      +||||+
+T Consensus         3 vy~~g~    8 (203)
+T 3MTV_A            3 VYDIGR    8 (203)
+T ss_pred             eeEecC
+
+
+No 3
+>1XV2_D hypothetical protein, similar to alpha-acetolactate; alpha-acetolactate, Staphylococcus aureus, structural genomics; HET: MSE; 2.0A {Staphylococcus aureus subsp. aureus} SCOP: d.290.1.1
+Probab=16.04  E-value=1.4e+02  Score=13.27  Aligned_cols=5  Identities=60%  Similarity=1.178  Sum_probs=0.0  Template_Neff=6.700
+
+Q IYQYGG            1 IYQYG    5 (6)
+Q Consensus         1 iyqyg    5 (6)
+                      |||++
+T Consensus         8 l~Q~s   12 (237)
+T 1XV2_D            8 LYQHG   12 (237)
+T ss_dssp             EEEES
+T ss_pred             EEEec
+
+
+No 4
+>4OBM_A Uncharacterized protein; PF03816 family, LytR_cpsA_psr, Structural Genomics; HET: 1PE, PG4; 2.15A {Eubacterium siraeum}
+Probab=16.00  E-value=1.5e+02  Score=12.59  Aligned_cols=6  Identities=33%  Similarity=0.584  Sum_probs=0.0  Template_Neff=8.400
+
+Q IYQYGG            1 IYQYGG    6 (6)
+Q Consensus         1 iyqygg    6 (6)
+                      +|++||
+T Consensus        73 ~y~~gG   78 (259)
+T 4OBM_A           73 ICEQSG   78 (259)
+T ss_dssp             HHHHHH
+T ss_pred             HHHccC
+
+
+No 5
+>6INC_A Alpha-acetolactate decarboxylase (E.C.4.1.1.5); Acetolactate decarboxylase, UNKNOWN FUNCTION; HET: EDO; 1.604A {Klebsiella pneumoniae}
+Probab=15.90  E-value=1.5e+02  Score=13.61  Aligned_cols=5  Identities=40%  Similarity=0.787  Sum_probs=0.0  Template_Neff=6.300
+
+Q IYQYGG            1 IYQYG    5 (6)
+Q Consensus         1 iyqyg    5 (6)
+                      |||+|
+T Consensus        29 iyQ~s   33 (259)
+T 6INC_A           29 LYQTS   33 (259)
+T ss_dssp             EEEES
+T ss_pred             EEEec
+
+
+No 6
+>6J3D_B PadR family transcriptional regulator; enzyme, decarboxylase, LYASE; 1.7A {Bacillus subtilis subsp. spizizenii (strain ATCC 23059 / NRRL B-14472 / W23)}
+Probab=15.40  E-value=1.5e+02  Score=13.61  Aligned_cols=5  Identities=60%  Similarity=0.919  Sum_probs=0.0  Template_Neff=6.200
+
+Q IYQYGG            1 IYQYG    5 (6)
+Q Consensus         1 iyqyg    5 (6)
+                      |||++
+T Consensus        28 iyQ~s   32 (261)
+T 6J3D_B           28 IYQVS   32 (261)
+T ss_dssp             EEEES
+T ss_pred             EEEEe
+
+
+No 7
+>7AM2_BQ Ribosomal protein L3-like protein, uL4m; RIBOSOME, Mitochondria, Kinetoplastid; HET: GTP, ATP; 3.4A {Leishmania tarentolae}
+Probab=15.35  E-value=1.5e+02  Score=12.69  Aligned_cols=5  Identities=60%  Similarity=1.046  Sum_probs=0.0  Template_Neff=10.000
+
+Q IYQYGG            2 YQYGG    6 (6)
+Q Consensus         2 yqygg    6 (6)
+                      ||-||
+T Consensus        11 ~~~~~   15 (445)
+T 7AM2_BQ          11 YQRGS   15 (445)
+T ss_pred             cccCC
+
+
+No 8
+>4BT2_A ALPHA-ACETOLACTATE DECARBOXYLASE (E.C.4.1.1.5); LYASE, ACETOIN BIOSYNTHESIS, STEREOSELECTIVE DECARBOXYLATION; 1.1A {BREVIBACILLUS BREVIS}
+Probab=14.29  E-value=1.7e+02  Score=13.39  Aligned_cols=5  Identities=40%  Similarity=1.251  Sum_probs=0.0  Template_Neff=6.300
+
+Q IYQYGG            1 IYQYG    5 (6)
+Q Consensus         1 iyqyg    5 (6)
+                      |||+|
+T Consensus        25 i~Q~s   29 (257)
+T 4BT2_A           25 LFQYS   29 (257)
+T ss_dssp             EEEES
+T ss_pred             EEEee
+
+
+No 9
+>4BT3_A ALPHA-ACETOLACTATE DECARBOXYLASE (E.C.4.1.1.5); LYASE, ACETOIN BIOSYNTHESIS, STEREOSELECTIVE DECARBOXYLATION; 1.1A {BREVIBACILLUS BREVIS}
+Probab=14.29  E-value=1.7e+02  Score=13.39  Aligned_cols=5  Identities=40%  Similarity=1.251  Sum_probs=0.0  Template_Neff=6.300
+
+Q IYQYGG            1 IYQYG    5 (6)
+Q Consensus         1 iyqyg    5 (6)
+                      |||+|
+T Consensus        25 i~Q~s   29 (257)
+T 4BT3_A           25 LFQYS   29 (257)
+T ss_dssp             EEEES
+T ss_pred             EEEee
+
+
+No 10
+>6GY5_A Kelch-like protein 20, Death-associated protein; Complex, E3 ligase, substrate, Ubiquitination; HET: EDO, NA; 1.086A {Homo sapiens}
+Probab=13.77  E-value=1.8e+02  Score=10.44  Aligned_cols=6  Identities=33%  Similarity=1.099  Sum_probs=0.0  Template_Neff=12.600
+
+Q IYQYGG            1 IYQYGG    6 (6)
+Q Consensus         1 iyqygg    6 (6)
+                      ||.+||
+T Consensus        19 i~~~GG   24 (304)
+T 6GY5_A           19 LFAVGG   24 (304)
+T ss_dssp             EEEECC
+T ss_pred             EEEEee
+
+

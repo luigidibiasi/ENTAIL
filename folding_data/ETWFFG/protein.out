@@ -1,0 +1,257 @@
+Query         ETWFFG
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 20:06:16 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/ETWFFG/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/ETWFFG/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2CI8_A CYTOPLASMIC PROTEIN NCK  72.9     2.8 3.1E-05   13.3   0.0    6    1-6       1-6   (99)
+  2 2BV0_A PROTOCATECHUATE 3,4-DIO  54.1      12 0.00013   16.2   0.0    6    1-6     203-208 (209)
+  3 2CR4_A SH3 domain-binding prot  53.7      12 0.00013   13.5   0.0    6    1-6      17-22  (126)
+  4 3R84_V Mediator of RNA polymer  46.4      18  0.0002   14.3   0.0    6    1-6      84-89  (92)
+  5 3R84_R Mediator of RNA polymer  42.4      23 0.00026   14.1   0.0    6    1-6      84-89  (92)
+  6 2BV0_B PROTOCATECHUATE 3,4-DIO  42.3      23 0.00026   15.8   0.0    6    1-6     233-238 (241)
+  7 2BUW_B PROTOCATECHUATE 3,4-DIO  41.5      25 0.00027   15.7   0.0    6    1-6     233-238 (241)
+  8 4GWP_D Mediator of RNA polymer  38.9      29 0.00032   14.4   0.0    6    1-6      81-86  (121)
+  9 4GWQ_D Mediator of RNA polymer  38.7      29 0.00032   14.4   0.0    6    1-6      81-86  (121)
+ 10 3MV4_C intradiol, non-heme, ho  37.1      32 0.00036   14.8   0.0    6    1-6     194-199 (200)
+ 11 3PCB_B PROTOCATECHUATE 3,4-DIO  37.1      32 0.00036   14.8   0.0    6    1-6     194-199 (200)
+ 12 4WHS_E 3,4-PCD alpha subunit (  37.1      32 0.00036   14.8   0.0    6    1-6     194-199 (200)
+ 13 5XLO_M CRISPR-associated prote  35.9      34 0.00038   14.8   0.0    6    1-6      51-56  (78)
+ 14 6W1S_Q Mediator of RNA polymer  26.5      63  0.0007   13.2   0.0    6    1-6      76-81  (131)
+ 15 4FL2_A Tyrosine-protein kinase  25.3      69 0.00076   14.3   0.0    6    1-6      14-19  (636)
+ 16 4FL3_A Tyrosine-protein kinase  25.1      69 0.00077   14.3   0.0    6    1-6      13-18  (635)
+ 17 5N9J_Z Mediator of RNA polymer  23.4      79 0.00087   13.6   0.0    6    1-6      79-84  (136)
+
+No 1
+>2CI8_A CYTOPLASMIC PROTEIN NCK1; TRANSLATION, BINDING SPECIFICITY, HOST-PATHOGEN, INTERACTIONS; HET: SO4, 1PE; 1.8A {HOMO SAPIENS}
+Probab=72.95  E-value=2.8  Score=13.33  Aligned_cols=6  Identities=33%  Similarity=1.736  Sum_probs=3.5  Template_Neff=11.300
+
+Q ETWFFG            1 ETWFFG    6 (6)
+Q Consensus         1 etwffg    6 (6)
+                      +.||+|
+T Consensus         1 ~~w~~g    6 (99)
+T 2CI8_A            1 SPWYYG    6 (99)
+T ss_dssp             CTTCCC
+T ss_pred             CCCccC
+Confidence            357764
+
+
+No 2
+>2BV0_A PROTOCATECHUATE 3,4-DIOXYGENASE ALPHA CHAIN (E.C.1.13.11.3); DIOXYGENASE, AROMATIC DEGRADATION, NON-HEME IRON; HET: DHB; 1.8A {ACINETOBACTER CALCOACETICUS} SCOP: b.3.6.1
+Probab=54.08  E-value=12  Score=16.18  Aligned_cols=6  Identities=67%  Similarity=0.977  Sum_probs=4.4  Template_Neff=6.800
+
+Q ETWFFG            1 ETWFFG    6 (6)
+Q Consensus         1 etwffg    6 (6)
+                      ||+||.
+T Consensus       203 et~f~~  208 (209)
+T 2BV0_A          203 ETVFFD  208 (209)
+T ss_dssp             CCCCEE
+T ss_pred             ceeccc
+Confidence            688874
+
+
+No 3
+>2CR4_A SH3 domain-binding protein 2; SH2 domain, 3BP-2, Structural Genomics; NMR {Homo sapiens}
+Probab=53.72  E-value=12  Score=13.49  Aligned_cols=6  Identities=17%  Similarity=0.407  Sum_probs=3.4  Template_Neff=9.500
+
+Q ETWFFG            1 ETWFFG    6 (6)
+Q Consensus         1 etwffg    6 (6)
+                      |.||+|
+T Consensus        17 ~~w~~g   22 (126)
+T 2CR4_A           17 NSVFVN   22 (126)
+T ss_dssp             TTTBCS
+T ss_pred             Cccccc
+Confidence            457654
+
+
+No 4
+>3R84_V Mediator of RNA polymerase II; four-helix bundle, transcription, nucleus; 2.05A {Saccharomyces cerevisiae}
+Probab=46.38  E-value=18  Score=14.28  Aligned_cols=6  Identities=33%  Similarity=1.237  Sum_probs=4.3  Template_Neff=6.000
+
+Q ETWFFG            1 ETWFFG    6 (6)
+Q Consensus         1 etwffg    6 (6)
+                      |.|.||
+T Consensus        84 E~Wllg   89 (92)
+T 3R84_V           84 EKWLLN   89 (92)
+T ss_pred             HHHHhc
+Confidence            568776
+
+
+No 5
+>3R84_R Mediator of RNA polymerase II; four-helix bundle, transcription, nucleus; HET: MSE; 2.05A {Saccharomyces cerevisiae}
+Probab=42.43  E-value=23  Score=14.05  Aligned_cols=6  Identities=33%  Similarity=1.237  Sum_probs=4.2  Template_Neff=5.900
+
+Q ETWFFG            1 ETWFFG    6 (6)
+Q Consensus         1 etwffg    6 (6)
+                      |.|.||
+T Consensus        84 E~Wllg   89 (92)
+T 3R84_R           84 EKWLLN   89 (92)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHhc
+Confidence            568776
+
+
+No 6
+>2BV0_B PROTOCATECHUATE 3,4-DIOXYGENASE ALPHA CHAIN (E.C.1.13.11.3); DIOXYGENASE, AROMATIC DEGRADATION, NON-HEME IRON; HET: DHB; 1.8A {ACINETOBACTER CALCOACETICUS} SCOP: b.3.6.1
+Probab=42.33  E-value=23  Score=15.80  Aligned_cols=6  Identities=33%  Similarity=0.562  Sum_probs=4.4  Template_Neff=6.400
+
+Q ETWFFG            1 ETWFFG    6 (6)
+Q Consensus         1 etwffg    6 (6)
+                      ||+||.
+T Consensus       233 et~f~~  238 (241)
+T 2BV0_B          233 ATYFEN  238 (241)
+T ss_dssp             EESSCC
+T ss_pred             CCcccc
+Confidence            688873
+
+
+No 7
+>2BUW_B PROTOCATECHUATE 3,4-DIOXYGENASE ALPHA CHAIN (E.C.1.13.11.3); DIOXYGENASE, AROMATIC DEGRADATION, NON-HEME IRON; HET: PHB; 1.8A {ACINETOBACTER CALCOACETICUS} SCOP: b.3.6.1
+Probab=41.52  E-value=25  Score=15.73  Aligned_cols=6  Identities=33%  Similarity=0.562  Sum_probs=4.3  Template_Neff=6.400
+
+Q ETWFFG            1 ETWFFG    6 (6)
+Q Consensus         1 etwffg    6 (6)
+                      ||+||.
+T Consensus       233 ~t~f~~  238 (241)
+T 2BUW_B          233 ATYFEN  238 (241)
+T ss_dssp             EESSCC
+T ss_pred             cccccc
+Confidence            688874
+
+
+No 8
+>4GWP_D Mediator of RNA polymerase II; Binding Sites, Mediator Complex, Models; 4.2A {Saccharomyces cerevisiae}
+Probab=38.92  E-value=29  Score=14.37  Aligned_cols=6  Identities=33%  Similarity=1.237  Sum_probs=3.9  Template_Neff=5.900
+
+Q ETWFFG            1 ETWFFG    6 (6)
+Q Consensus         1 etwffg    6 (6)
+                      |.|.||
+T Consensus        81 E~WLlg   86 (121)
+T 4GWP_D           81 EKWLLN   86 (121)
+T ss_pred             HHHHhc
+Confidence            467765
+
+
+No 9
+>4GWQ_D Mediator of RNA polymerase II; Binding Sites, Mediator Complex, Models; 4.5A {Saccharomyces cerevisiae}
+Probab=38.72  E-value=29  Score=14.36  Aligned_cols=6  Identities=33%  Similarity=1.237  Sum_probs=3.9  Template_Neff=5.900
+
+Q ETWFFG            1 ETWFFG    6 (6)
+Q Consensus         1 etwffg    6 (6)
+                      |.|.||
+T Consensus        81 E~WLlg   86 (121)
+T 4GWQ_D           81 EKWLLN   86 (121)
+T ss_dssp             HHHHTC
+T ss_pred             HHHHhc
+Confidence            467775
+
+
+No 10
+>3MV4_C intradiol, non-heme, holoenzyme, ferric iron; HET: SO4, GOL, BME, CO3; 1.59A {Pseudomonas putida}
+Probab=37.05  E-value=32  Score=14.80  Aligned_cols=6  Identities=67%  Similarity=0.977  Sum_probs=4.1  Template_Neff=6.800
+
+Q ETWFFG            1 ETWFFG    6 (6)
+Q Consensus         1 etwffg    6 (6)
+                      ||+||.
+T Consensus       194 e~~f~~  199 (200)
+T 3MV4_C          194 ETVFFD  199 (200)
+T ss_dssp             CCCCEE
+T ss_pred             ceeccC
+Confidence            677873
+
+
+No 11
+>3PCB_B PROTOCATECHUATE 3,4-DIOXYGENASE, BETA-MERCAPTOETHANOL, 3-HYDROXYBENZOIC ACID; DIOXYGENASE, IRON, NONHEME, METALLOPROTEIN, OXIDOREDUCTASE; HET: BME, 3HB; 2.19A {Pseudomonas putida} SCOP: b.3.6.1
+Probab=37.05  E-value=32  Score=14.80  Aligned_cols=6  Identities=67%  Similarity=0.977  Sum_probs=4.1  Template_Neff=6.800
+
+Q ETWFFG            1 ETWFFG    6 (6)
+Q Consensus         1 etwffg    6 (6)
+                      ||+||.
+T Consensus       194 e~~f~~  199 (200)
+T 3PCB_B          194 ETVFFD  199 (200)
+T ss_pred             ceeccC
+Confidence            677873
+
+
+No 12
+>4WHS_E 3,4-PCD alpha subunit (E.C.1.13.11.13), 3,4-PCD; dioxygen activation, non-heme iron, intradiol; HET: 3N8, MUC, BME; 1.35A {Pseudomonas putida}
+Probab=37.05  E-value=32  Score=14.80  Aligned_cols=6  Identities=67%  Similarity=0.977  Sum_probs=4.1  Template_Neff=6.800
+
+Q ETWFFG            1 ETWFFG    6 (6)
+Q Consensus         1 etwffg    6 (6)
+                      ||+||.
+T Consensus       194 e~~f~~  199 (200)
+T 4WHS_E          194 ETVFFD  199 (200)
+T ss_pred             ceeccC
+Confidence            677873
+
+
+No 13
+>5XLO_M CRISPR-associated protein Csy3, Uncharacterized protein; anti-CRISPR protein, Csy complex, Type;{Pseudomonas aeruginosa (strain UCBPP-PA14)}
+Probab=35.91  E-value=34  Score=14.83  Aligned_cols=6  Identities=67%  Similarity=2.106  Sum_probs=4.0  Template_Neff=1.200
+
+Q ETWFFG            1 ETWFFG    6 (6)
+Q Consensus         1 etwffg    6 (6)
+                      +.||.|
+T Consensus        51 ~swf~~   56 (78)
+T 5XLO_M           51 ESWFYG   56 (78)
+T ss_pred             HHHHhC
+Confidence            468864
+
+
+No 14
+>6W1S_Q Mediator of RNA polymerase II; mouse mediator, complex, GENE REGULATION; 4.02A {Mus musculus}
+Probab=26.52  E-value=63  Score=13.23  Aligned_cols=6  Identities=0%  Similarity=0.124  Sum_probs=3.4  Template_Neff=6.600
+
+Q ETWFFG            1 ETWFFG    6 (6)
+Q Consensus         1 etwffg    6 (6)
+                      |.|.||
+T Consensus        76 e~wllg   81 (131)
+T 6W1S_Q           76 QFLILN   81 (131)
+T ss_dssp             HHCCCC
+T ss_pred             HHHHhc
+Confidence            356664
+
+
+No 15
+>4FL2_A Tyrosine-protein kinase SYK (E.C.2.7.10.2); Transferase, Protein Kinase; HET: ANP; 2.19A {Homo sapiens}
+Probab=25.29  E-value=69  Score=14.31  Aligned_cols=6  Identities=50%  Similarity=1.193  Sum_probs=3.8  Template_Neff=10.100
+
+Q ETWFFG            1 ETWFFG    6 (6)
+Q Consensus         1 etwffg    6 (6)
+                      +.||+|
+T Consensus        14 ~~w~~g   19 (636)
+T 4FL2_A           14 LPFFFG   19 (636)
+T ss_pred             CCCcCC
+Confidence            358875
+
+
+No 16
+>4FL3_A Tyrosine-protein kinase SYK (E.C.2.7.10.2); Transferase, Protein Kinase; HET: ANP; 1.9A {Homo sapiens}
+Probab=25.12  E-value=69  Score=14.29  Aligned_cols=6  Identities=50%  Similarity=1.193  Sum_probs=3.8  Template_Neff=10.100
+
+Q ETWFFG            1 ETWFFG    6 (6)
+Q Consensus         1 etwffg    6 (6)
+                      +.||+|
+T Consensus        13 ~~w~~g   18 (635)
+T 4FL3_A           13 LPFFFG   18 (635)
+T ss_pred             CCCcCC
+Confidence            358775
+
+
+No 17
+>5N9J_Z Mediator of RNA polymerase II; Transcription, RNA polymerase II; 3.4A {Schizosaccharomyces pombe}
+Probab=23.37  E-value=79  Score=13.59  Aligned_cols=6  Identities=17%  Similarity=0.706  Sum_probs=3.6  Template_Neff=5.400
+
+Q ETWFFG            1 ETWFFG    6 (6)
+Q Consensus         1 etwffg    6 (6)
+                      |.|.||
+T Consensus        79 e~wLlg   84 (136)
+T 5N9J_Z           79 SYWLTN   84 (136)
+T ss_pred             HHHHhc
+Confidence            457665
+
+

@@ -1,0 +1,151 @@
+Query         SDVIIE
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 13:48:35 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/SDVIIE/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/SDVIIE/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2G04_F PROBABLE FATTY-ACID-CoA  28.7      54  0.0006   14.2   0.0    6    1-6      79-84  (359)
+  2 5J73_A designed protein 2L4HC2  19.2 1.1E+02  0.0012   13.4   0.0    6    1-6       7-12  (81)
+  3 5J73_D designed protein 2L4HC2  19.2 1.1E+02  0.0012   13.4   0.0    6    1-6       7-12  (81)
+  4 2B0T_A NADP Isocitrate dehydro  17.9 1.2E+02  0.0013   17.1   0.0    6    1-6     341-346 (738)
+  5 3MBC_B Isocitrate dehydrogenas  17.6 1.3E+02  0.0014   17.0   0.0    6    1-6     341-346 (738)
+  6 6G3U_A Isocitrate dehydrogenas  17.5 1.3E+02  0.0014   17.0   0.0    6    1-6     341-346 (737)
+  7 6G3U_B Isocitrate dehydrogenas  17.3 1.3E+02  0.0014   17.0   0.0    6    1-6     341-346 (737)
+  8 1ITW_B Isocitrate dehydrogenas  17.2 1.3E+02  0.0014   17.0   0.0    6    1-6     345-350 (741)
+  9 1ITW_C Isocitrate dehydrogenas  17.2 1.3E+02  0.0014   17.0   0.0    6    1-6     345-350 (741)
+ 10 5KVU_B Isocitrate dehydrogenas  17.0 1.3E+02  0.0015   17.0   0.0    6    1-6     347-352 (745)
+
+No 1
+>2G04_F PROBABLE FATTY-ACID-CoA RACEMASE FAR (E.C.5.1.99.4); Isomerase; 2.7A {Mycobacterium tuberculosis}
+Probab=28.68  E-value=54  Score=14.16  Aligned_cols=6  Identities=33%  Similarity=0.972  Sum_probs=3.1  Template_Neff=8.900
+
+Q SDVIIE            1 SDVIIE    6 (6)
+Q Consensus         1 sdviie    6 (6)
+                      +||+|+
+T Consensus        79 aDVvi~   84 (359)
+T 2G04_F           79 ADVLLD   84 (359)
+T ss_dssp             CSEEEE
+T ss_pred             CCEEEE
+Confidence            356553
+
+
+No 2
+>5J73_A designed protein 2L4HC2_23; rosetta, de novo design, DE; 2.56A {synthetic construct}
+Probab=19.24  E-value=1.1e+02  Score=13.42  Aligned_cols=6  Identities=83%  Similarity=0.966  Sum_probs=0.0  Template_Neff=1.000
+
+Q SDVIIE            1 SDVIIE    6 (6)
+Q Consensus         1 sdviie    6 (6)
+                      ||.|||
+T Consensus         7 sdyiie   12 (81)
+T 5J73_A            7 SDYIIE   12 (81)
+T ss_dssp             CHHHHH
+T ss_pred             hHHHHH
+
+
+No 3
+>5J73_D designed protein 2L4HC2_23; rosetta, de novo design, DE; 2.56A {synthetic construct}
+Probab=19.24  E-value=1.1e+02  Score=13.42  Aligned_cols=6  Identities=83%  Similarity=0.966  Sum_probs=0.0  Template_Neff=1.000
+
+Q SDVIIE            1 SDVIIE    6 (6)
+Q Consensus         1 sdviie    6 (6)
+                      ||.|||
+T Consensus         7 sdyiie   12 (81)
+T 5J73_D            7 SDYIIE   12 (81)
+T ss_dssp             CHHHHH
+T ss_pred             hHHHHH
+
+
+No 4
+>2B0T_A NADP Isocitrate dehydrogenase  (E.C.1.1.1.42); monomeric, NADP, IDH, OXIDOREDUCTASE; 1.75A {Corynebacterium glutamicum}
+Probab=17.94  E-value=1.2e+02  Score=17.07  Aligned_cols=6  Identities=67%  Similarity=1.115  Sum_probs=0.0  Template_Neff=3.400
+
+Q SDVIIE            1 SDVIIE    6 (6)
+Q Consensus         1 sdviie    6 (6)
+                      |||||.
+T Consensus       341 sdvIiD  346 (738)
+T 2B0T_A          341 SDVIVD  346 (738)
+T ss_dssp             TTSBHH
+T ss_pred             Cceeee
+
+
+No 5
+>3MBC_B Isocitrate dehydrogenase [NADP] (E.C.1.1.1.42); Holoenzyme, Apoenzyme, Open conformation, NADP; HET: NAP; 1.9A {Corynebacterium glutamicum}
+Probab=17.61  E-value=1.3e+02  Score=17.03  Aligned_cols=6  Identities=67%  Similarity=1.115  Sum_probs=0.0  Template_Neff=3.400
+
+Q SDVIIE            1 SDVIIE    6 (6)
+Q Consensus         1 sdviie    6 (6)
+                      |||||.
+T Consensus       341 sdvIiD  346 (738)
+T 3MBC_B          341 SDVIVD  346 (738)
+T ss_dssp             TTSBHH
+T ss_pred             Cceeec
+
+
+No 6
+>6G3U_A Isocitrate dehydrogenase; Isocitrate dehydrogenase, TCA cycle, metabolism; HET: AKG, NAP; 2.707A {Pseudomonas aeruginosa}
+Probab=17.46  E-value=1.3e+02  Score=17.03  Aligned_cols=6  Identities=67%  Similarity=1.115  Sum_probs=0.0  Template_Neff=3.300
+
+Q SDVIIE            1 SDVIIE    6 (6)
+Q Consensus         1 sdviie    6 (6)
+                      |||||.
+T Consensus       341 sdvIiD  346 (737)
+T 6G3U_A          341 SDVIVD  346 (737)
+T ss_dssp             TSSBHH
+T ss_pred             Cceeec
+
+
+No 7
+>6G3U_B Isocitrate dehydrogenase; Isocitrate dehydrogenase, TCA cycle, metabolism; HET: AKG, NAP; 2.707A {Pseudomonas aeruginosa}
+Probab=17.26  E-value=1.3e+02  Score=17.01  Aligned_cols=6  Identities=67%  Similarity=1.115  Sum_probs=0.0  Template_Neff=3.300
+
+Q SDVIIE            1 SDVIIE    6 (6)
+Q Consensus         1 sdviie    6 (6)
+                      |||||.
+T Consensus       341 sdvIiD  346 (737)
+T 6G3U_B          341 SDVIVD  346 (737)
+T ss_dssp             TSCBHH
+T ss_pred             Cceeec
+
+
+No 8
+>1ITW_B Isocitrate dehydrogenase(E.C.1.1.1.42); Greece key motif, OXIDOREDUCTASE; HET: ICT; 1.95A {Azotobacter vinelandii} SCOP: c.77.1.2
+Probab=17.18  E-value=1.3e+02  Score=17.01  Aligned_cols=6  Identities=67%  Similarity=1.115  Sum_probs=0.0  Template_Neff=3.300
+
+Q SDVIIE            1 SDVIIE    6 (6)
+Q Consensus         1 sdviie    6 (6)
+                      |||||.
+T Consensus       345 sdvIiD  350 (741)
+T 1ITW_B          345 SDVIVD  350 (741)
+T ss_dssp             TTSBHH
+T ss_pred             Cceeee
+
+
+No 9
+>1ITW_C Isocitrate dehydrogenase(E.C.1.1.1.42); Greece key motif, OXIDOREDUCTASE; HET: ICT; 1.95A {Azotobacter vinelandii} SCOP: c.77.1.2
+Probab=17.18  E-value=1.3e+02  Score=17.01  Aligned_cols=6  Identities=67%  Similarity=1.115  Sum_probs=0.0  Template_Neff=3.300
+
+Q SDVIIE            1 SDVIIE    6 (6)
+Q Consensus         1 sdviie    6 (6)
+                      |||||.
+T Consensus       345 sdvIiD  350 (741)
+T 1ITW_C          345 SDVIVD  350 (741)
+T ss_dssp             TTSBHH
+T ss_pred             Cceeee
+
+
+No 10
+>5KVU_B Isocitrate dehydrogenase (E.C.1.1.1.42); ICD, OXIDOREDUCTASE, Structural Genomics, TB; HET: GOL, NAP, MLA, EDO; 2.66A {Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv)}
+Probab=17.04  E-value=1.3e+02  Score=17.00  Aligned_cols=6  Identities=67%  Similarity=1.115  Sum_probs=0.0  Template_Neff=3.300
+
+Q SDVIIE            1 SDVIIE    6 (6)
+Q Consensus         1 sdviie    6 (6)
+                      |||||.
+T Consensus       347 sdvIiD  352 (745)
+T 5KVU_B          347 SDVIVD  352 (745)
+T ss_dssp             TTSBHH
+T ss_pred             Cceeee
+
+

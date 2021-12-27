@@ -1,0 +1,154 @@
+Query         GYFLNM
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 05:19:16 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GYFLNM/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GYFLNM/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2H7A_A Hypothetical protein yc  37.8      31 0.00034   14.8   0.0    6    1-6      81-86  (110)
+  2 5OKI_A DNA polymerase epsilon   33.5      40 0.00044   15.5   0.0    6    1-6      77-82  (524)
+  3 2W91_A ENDO-BETA-N-ACETYLGLUCO  27.4      59 0.00066   15.9   0.0    6    1-6     164-169 (653)
+  4 2W92_A ENDO-BETA-N-ACETYLGLUCO  26.3      64 0.00071   15.8   0.0    6    1-6     164-169 (653)
+  5 3GDB_A Putative uncharacterize  26.3      64 0.00071   16.6   0.0    6    1-6     315-320 (937)
+  6 1LK5_D D-Ribose-5-Phosphate Is  22.5      84 0.00093   13.4   0.0    6    1-6     207-212 (229)
+  7 1LK7_D D-Ribose-5-Phosphate Is  22.5      84 0.00093   13.4   0.0    6    1-6     207-212 (229)
+  8 5OKI_B DNA polymerase epsilon   18.9 1.1E+02  0.0012   14.3   0.0    6    1-6      77-82  (524)
+  9 7C3F_M Ferredoxin-thioredoxin   18.2 1.2E+02  0.0013   12.9   0.0    5    1-5      25-29  (115)
+ 10 3A76_B gamma-hexachlorocyclohe  17.9 1.2E+02  0.0014   10.9   0.0    5    2-6      12-16  (176)
+
+No 1
+>2H7A_A Hypothetical protein ycgL; Mixed ALPHA/BETA/ALPHA Sandwich Structure, 3-layer; NMR {Escherichia coli} SCOP: d.350.1.1
+Probab=37.83  E-value=31  Score=14.80  Aligned_cols=6  Identities=50%  Similarity=1.497  Sum_probs=3.8  Template_Neff=4.400
+
+Q GYFLNM            1 GYFLNM    6 (6)
+Q Consensus         1 gyflnm    6 (6)
+                      ||||.|
+T Consensus        81 GfyLQm   86 (110)
+T 2H7A_A           81 GYYLQL   86 (110)
+T ss_dssp             SEEEEC
+T ss_pred             CccccC
+Confidence            677654
+
+
+No 2
+>5OKI_A DNA polymerase epsilon catalytic subunit; Clamp loader DNA-binding protein DNA; 4.5A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=33.48  E-value=40  Score=15.52  Aligned_cols=6  Identities=50%  Similarity=1.082  Sum_probs=3.8  Template_Neff=8.500
+
+Q GYFLNM            1 GYFLNM    6 (6)
+Q Consensus         1 gyflnm    6 (6)
+                      ||.+||
+T Consensus        77 g~l~n~   82 (524)
+T 5OKI_A           77 GWLTNM   82 (524)
+T ss_dssp             EEEEEE
+T ss_pred             EEEEEE
+Confidence            566665
+
+
+No 3
+>2W91_A ENDO-BETA-N-ACETYLGLUCOSAMINIDASE D; HYDROLASE, N-GLYCAN, SECRETED, OXAZOLINE, NAG-THIAZOLINE; 1.4A {STREPTOCOCCUS PNEUMONIAE}
+Probab=27.42  E-value=59  Score=15.88  Aligned_cols=6  Identities=67%  Similarity=1.497  Sum_probs=3.7  Template_Neff=7.700
+
+Q GYFLNM            1 GYFLNM    6 (6)
+Q Consensus         1 gyflnm    6 (6)
+                      |||+|+
+T Consensus       164 GwliN~  169 (653)
+T 2W91_A          164 GYFINQ  169 (653)
+T ss_dssp             EEEEEE
+T ss_pred             eEEEEe
+Confidence            567663
+
+
+No 4
+>2W92_A ENDO-BETA-N-ACETYLGLUCOSAMINIDASE D; HYDROLASE, NAG-THIAZOLINE, ANCHIMERIC ASSISTANCE, N-GLYCAN; HET: NGT; 1.65A {STREPTOCOCCUS PNEUMONIAE}
+Probab=26.30  E-value=64  Score=15.77  Aligned_cols=6  Identities=67%  Similarity=1.497  Sum_probs=3.6  Template_Neff=7.700
+
+Q GYFLNM            1 GYFLNM    6 (6)
+Q Consensus         1 gyflnm    6 (6)
+                      |||+|+
+T Consensus       164 Gw~iN~  169 (653)
+T 2W92_A          164 GYFINQ  169 (653)
+T ss_dssp             EEEEEE
+T ss_pred             eEEEEe
+Confidence            566663
+
+
+No 5
+>3GDB_A Putative uncharacterized protein spr0440 (E.C.3.2.1.96); alpha-beta-barrels, Cell wall, Peptidoglycan-anchor, Secreted; HET: PGE; 1.87A {Streptococcus pneumoniae}
+Probab=26.25  E-value=64  Score=16.64  Aligned_cols=6  Identities=67%  Similarity=1.497  Sum_probs=3.9  Template_Neff=7.400
+
+Q GYFLNM            1 GYFLNM    6 (6)
+Q Consensus         1 gyflnm    6 (6)
+                      |||+|+
+T Consensus       315 Gw~iN~  320 (937)
+T 3GDB_A          315 GYFINQ  320 (937)
+T ss_pred             Ceeeec
+Confidence            677763
+
+
+No 6
+>1LK5_D D-Ribose-5-Phosphate Isomerase(E.C.5.3.1.6); ALPHA/BETA STRUCTURE, ISOMERASE; HET: CL; 1.75A {Pyrococcus horikoshii} SCOP: c.124.1.4, d.58.40.1
+Probab=22.48  E-value=84  Score=13.39  Aligned_cols=6  Identities=33%  Similarity=0.910  Sum_probs=3.0  Template_Neff=7.700
+
+Q GYFLNM            1 GYFLNM    6 (6)
+Q Consensus         1 gyflnm    6 (6)
+                      |+|.+|
+T Consensus       207 GlF~~~  212 (229)
+T 1LK5_D          207 GIFADI  212 (229)
+T ss_dssp             SEECSC
+T ss_pred             ceecCC
+Confidence            455543
+
+
+No 7
+>1LK7_D D-Ribose-5-Phosphate Isomerase(E.C.5.3.1.6); alpha/beta structure, ISOMERASE; HET: CL, DER; 2.0A {Pyrococcus horikoshii} SCOP: c.124.1.4, d.58.40.1
+Probab=22.48  E-value=84  Score=13.39  Aligned_cols=6  Identities=33%  Similarity=0.910  Sum_probs=3.0  Template_Neff=7.700
+
+Q GYFLNM            1 GYFLNM    6 (6)
+Q Consensus         1 gyflnm    6 (6)
+                      |+|.+|
+T Consensus       207 GlF~~~  212 (229)
+T 1LK7_D          207 GIFADI  212 (229)
+T ss_dssp             SEECSC
+T ss_pred             ceecCC
+Confidence            455543
+
+
+No 8
+>5OKI_B DNA polymerase epsilon catalytic subunit; Clamp loader DNA-binding protein DNA; 4.5A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=18.92  E-value=1.1e+02  Score=14.29  Aligned_cols=6  Identities=50%  Similarity=1.082  Sum_probs=0.0  Template_Neff=8.300
+
+Q GYFLNM            1 GYFLNM    6 (6)
+Q Consensus         1 gyflnm    6 (6)
+                      ||.+||
+T Consensus        77 g~l~n~   82 (524)
+T 5OKI_B           77 GWLTNM   82 (524)
+T ss_pred             EEEEEE
+
+
+No 9
+>7C3F_M Ferredoxin-thioredoxin reductase catalytic chain, chloroplastic; FTR, Trx m2, ELECTRON TRANSPORT; HET: NA, SF4; 2.3986A {Arabidopsis thaliana}
+Probab=18.23  E-value=1.2e+02  Score=12.93  Aligned_cols=5  Identities=20%  Similarity=0.667  Sum_probs=0.0  Template_Neff=5.000
+
+Q GYFLNM            1 GYFLN    5 (6)
+Q Consensus         1 gyfln    5 (6)
+                      ||+||
+T Consensus        25 G~~lN   29 (115)
+T 7C3F_M           25 GTYFC   29 (115)
+T ss_dssp             TCBCB
+T ss_pred             CCEEe
+
+
+No 10
+>3A76_B gamma-hexachlorocyclohexane dehydrochlorinase (E.C.4.5.1.-); barrel fold, LYASE, Detoxification; HET: GOL, SPD; 2.25A {Sphingomonas paucimobilis}
+Probab=17.89  E-value=1.2e+02  Score=10.94  Aligned_cols=5  Identities=20%  Similarity=-0.510  Sum_probs=0.0  Template_Neff=10.600
+
+Q GYFLNM            2 YFLNM    6 (6)
+Q Consensus         2 yflnm    6 (6)
+                      |||+|
+T Consensus        12 ~~~~~   16 (176)
+T 3A76_B           12 SGLVP   16 (176)
+T ss_pred             cchhh
+
+

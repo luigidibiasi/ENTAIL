@@ -1,0 +1,151 @@
+Query         MMGMLA
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 22:09:23 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/MMGMLA/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/MMGMLA/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6N3A_J TAR DNA-binding protein  81.1     1.1 1.2E-05   17.9   0.0    6    1-6      26-31  (50)
+  2 6HU9_F Cytochrome b-c1 complex  16.9 1.3E+02  0.0015   13.5   0.0    4    2-5       1-4   (147)
+  3 1S61_B Hemoglobin-like protein  15.7 1.5E+02  0.0017   10.7   0.0    4    2-5       1-4   (136)
+  4 2KKQ_A Myotilin; unknown funct  15.0 1.6E+02  0.0018    8.3   0.0    6    1-6       1-6   (116)
+  5 5J11_C Thymic stromal lymphopo  14.1 1.8E+02   0.002   10.2   0.0    5    2-6       1-5   (230)
+  6 5AMW_B FRA A 2 ALLERGEN; ALLER  13.9 1.8E+02   0.002   10.1   0.0    4    1-4       2-5   (162)
+  7 3VIQ_B Swi5-dependent recombin  13.9 1.8E+02   0.002   11.8   0.0    6    1-6      60-65  (85)
+  8 3RUV_A Chaperonin; double-ring  13.4 1.9E+02  0.0021   12.9   0.0    6    1-6     536-541 (543)
+  9 3RUQ_A Chaperonin; double-ring  13.1 1.9E+02  0.0022   12.9   0.0    6    1-6     536-541 (543)
+ 10 4G9Q_A 4-carboxymuconolactone   12.7 2.1E+02  0.0023   12.2   0.0    6    1-6      23-28  (269)
+
+No 1
+>6N3A_J TAR DNA-binding protein 43, segA; Amyloid, TDP43, ALS, FTLD-TDP, dna; 3.3A {Homo sapiens}
+Probab=81.11  E-value=1.1  Score=17.92  Aligned_cols=6  Identities=100%  Similarity=1.437  Sum_probs=4.3  Template_Neff=2.200
+
+Q MMGMLA            1 MMGMLA    6 (6)
+Q Consensus         1 mmgmla    6 (6)
+                      ||||||
+T Consensus        26 ~MgMla   31 (50)
+T 6N3A_J           26 MMGMLA   31 (50)
+T ss_dssp             SCEEEE
+T ss_pred             hHHhHH
+Confidence            578875
+
+
+No 2
+>6HU9_F Cytochrome b-c1 complex subunit 1; Cytochrome c oxidase Cytochrome bc1; HET: CDL, HEC, PCF, HEA, UQ6, HEM, PEF;{Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=16.89  E-value=1.3e+02  Score=13.46  Aligned_cols=4  Identities=100%  Similarity=1.597  Sum_probs=0.0  Template_Neff=4.500
+
+Q MMGMLA            2 MGML    5 (6)
+Q Consensus         2 mgml    5 (6)
+                      |||+
+T Consensus         1 ~~m~    4 (147)
+T 6HU9_F            1 MGML    4 (147)
+T ss_dssp             ----
+T ss_pred             CCcc
+
+
+No 3
+>1S61_B Hemoglobin-like protein HbN; truncated hemoglobin, OXYGEN STORAGE-TRANSPORT COMPLEX; HET: PO4, HEM; 2.1A {Mycobacterium tuberculosis} SCOP: a.1.1.1
+Probab=15.65  E-value=1.5e+02  Score=10.71  Aligned_cols=4  Identities=75%  Similarity=1.472  Sum_probs=0.0  Template_Neff=9.700
+
+Q MMGMLA            2 MGML    5 (6)
+Q Consensus         2 mgml    5 (6)
+                      ||||
+T Consensus         1 ~~~~    4 (136)
+T 1S61_B            1 MGLL    4 (136)
+T ss_dssp             -CHH
+T ss_pred             Cchh
+
+
+No 4
+>2KKQ_A Myotilin; unknown function, Actin-binding, Cell membrane; NMR {Homo sapiens}
+Probab=14.98  E-value=1.6e+02  Score=8.33  Aligned_cols=6  Identities=17%  Similarity=-0.252  Sum_probs=0.0  Template_Neff=13.500
+
+Q MMGMLA            1 MMGMLA    6 (6)
+Q Consensus         1 mmgmla    6 (6)
+                      ||-|++
+T Consensus         1 ~~~~~~    6 (116)
+T 2KKQ_A            1 MGHHHH    6 (116)
+T ss_dssp             CCCCCC
+T ss_pred             CCCccc
+
+
+No 5
+>5J11_C Thymic stromal lymphopoietin, Interleukin-7 receptor; cytokine inflammation TSLP signaling complex; HET: NAG, PGE; 2.56A {Homo sapiens}
+Probab=14.07  E-value=1.8e+02  Score=10.23  Aligned_cols=5  Identities=60%  Similarity=0.886  Sum_probs=0.0  Template_Neff=12.100
+
+Q MMGMLA            2 MGMLA    6 (6)
+Q Consensus         2 mgmla    6 (6)
+                      ||+++
+T Consensus         1 ~~~~~    5 (230)
+T 5J11_C            1 MGRLV    5 (230)
+T ss_dssp             -----
+T ss_pred             ChhHH
+
+
+No 6
+>5AMW_B FRA A 2 ALLERGEN; ALLERGEN, PYR/PYL/RCAR, BET V 1; 1.9A {Fragaria ananassa}
+Probab=13.95  E-value=1.8e+02  Score=10.11  Aligned_cols=4  Identities=50%  Similarity=0.983  Sum_probs=0.0  Template_Neff=11.100
+
+Q MMGMLA            1 MMGM    4 (6)
+Q Consensus         1 mmgm    4 (6)
+                      ||+|
+T Consensus         2 ~~~~    5 (162)
+T 5AMW_B            2 MAGV    5 (162)
+T ss_dssp             CEEE
+T ss_pred             Cccc
+
+
+No 7
+>3VIQ_B Swi5-dependent recombination DNA repair protein; recombination activator; HET: GOL; 2.2A {Schizosaccharomyces pombe}
+Probab=13.94  E-value=1.8e+02  Score=11.77  Aligned_cols=6  Identities=50%  Similarity=0.899  Sum_probs=0.0  Template_Neff=5.200
+
+Q MMGMLA            1 MMGMLA    6 (6)
+Q Consensus         1 mmgmla    6 (6)
+                      ++|++|
+T Consensus        60 Lig~iA   65 (85)
+T 3VIQ_B           60 MIGKVA   65 (85)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 8
+>3RUV_A Chaperonin; double-ring, protein folding machinery, group; HET: SO4, ANP; 2.242A {Methanococcus maripaludis}
+Probab=13.39  E-value=1.9e+02  Score=12.91  Aligned_cols=6  Identities=50%  Similarity=0.551  Sum_probs=0.0  Template_Neff=9.800
+
+Q MMGMLA            1 MMGMLA    6 (6)
+Q Consensus         1 mmgmla    6 (6)
+                      |+||.+
+T Consensus       536 ~~~~~~  541 (543)
+T 3RUV_A          536 MGGMPG  541 (543)
+T ss_dssp             ------
+T ss_pred             CCCCCC
+
+
+No 9
+>3RUQ_A Chaperonin; double-ring, protein folding machinery, group; HET: ADP; 2.798A {Methanococcus maripaludis}
+Probab=13.15  E-value=1.9e+02  Score=12.87  Aligned_cols=6  Identities=50%  Similarity=0.551  Sum_probs=0.0  Template_Neff=9.800
+
+Q MMGMLA            1 MMGMLA    6 (6)
+Q Consensus         1 mmgmla    6 (6)
+                      |+||.+
+T Consensus       536 ~~~~~~  541 (543)
+T 3RUQ_A          536 MGGMPG  541 (543)
+T ss_dssp             ------
+T ss_pred             CCCCCC
+
+
+No 10
+>4G9Q_A 4-carboxymuconolactone decarboxylase; PSI-biology, nysgrc, Structural Genomics, New; 1.77A {Sinorhizobium meliloti}
+Probab=12.67  E-value=2.1e+02  Score=12.19  Aligned_cols=6  Identities=33%  Similarity=0.252  Sum_probs=0.0  Template_Neff=8.500
+
+Q MMGMLA            1 MMGMLA    6 (6)
+Q Consensus         1 mmgmla    6 (6)
+                      ||++++
+T Consensus        23 ~~~~~~   28 (269)
+T 4G9Q_A           23 MMTTSN   28 (269)
+T ss_dssp             ------
+T ss_pred             HHhccC
+
+

@@ -1,0 +1,149 @@
+Query         INNVSN
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 08:58:04 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/INNVSN/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/INNVSN/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 7NVG_12 bacterial flagellum, f   9.7   3E+02  0.0033   11.9   0.0    5    2-6      24-28  (260)
+  2 6A5D_A GPI-anchored protein LL   8.5 3.6E+02   0.004   12.4   0.0    6    1-6      67-72  (136)
+  3 1OC7_A CELLOBIOHYDROLASE II (E   8.3 3.7E+02  0.0041   13.0   0.0    4    3-6     221-224 (364)
+  4 2DB9_A Paf1/RNA polymerase II    8.3 3.7E+02  0.0041   10.9   0.0    6    1-6     100-105 (149)
+  5 1UP3_A PUTATIVE CELLULASE CEL6   8.2 3.7E+02  0.0041   12.7   0.0    4    3-6     188-191 (294)
+  6 1TML_A ENDO-1,4-BETA-D-GLUCANA   8.2 3.8E+02  0.0042   12.7   0.0    4    3-6     187-190 (286)
+  7 2BOG_X ENDOGLUCANASE E-2 (E.C.   8.0 3.9E+02  0.0043   12.6   0.0    4    3-6     187-190 (286)
+  8 5JX5_D Glucanase (E.C.3.2.1.-)   7.9   4E+02  0.0044   12.8   0.0    4    3-6     199-202 (322)
+  9 3UB1_A ORF13-like protein; NTF   7.7 4.1E+02  0.0045   11.4   0.0    6    1-6     255-260 (261)
+ 10 6FAO_A Glycoside hydrolase fam   7.7 4.1E+02  0.0045   12.6   0.0    4    3-6     189-192 (296)
+
+No 1
+>7NVG_12 bacterial flagellum, flagella, basal body; 3.7A {Salmonella enterica subsp. enterica serovar Typhimurium}
+Probab=9.71  E-value=3e+02  Score=11.86  Aligned_cols=5  Identities=60%  Similarity=0.953  Sum_probs=0.0  Template_Neff=8.100
+
+Q INNVSN            2 NNVSN    6 (6)
+Q Consensus         2 nnvsn    6 (6)
+                      ||++|
+T Consensus        24 nNIAN   28 (260)
+T 7NVG_12          24 NNLAN   28 (260)
+T ss_pred             Hhhhc
+
+
+No 2
+>6A5D_A GPI-anchored protein LLG1; a plant receptor L1, TRANSFERASE; HET: FUC, NAG; 1.401A {Arabidopsis thaliana}
+Probab=8.51  E-value=3.6e+02  Score=12.38  Aligned_cols=6  Identities=33%  Similarity=0.761  Sum_probs=0.0  Template_Neff=3.600
+
+Q INNVSN            1 INNVSN    6 (6)
+Q Consensus         1 innvsn    6 (6)
+                      |||.+|
+T Consensus        67 iND~~n   72 (136)
+T 6A5D_A           67 LNDLSS   72 (136)
+T ss_dssp             HTCTTB
+T ss_pred             hccCCC
+
+
+No 3
+>1OC7_A CELLOBIOHYDROLASE II (E.C.3.2.1.91); HYDROLASE, CELLULOSE DEGRADATION, CELLOBIOHYDROLASE, CELLULASE; HET: SGC, NAG, DMF, MA3, BGC, GOL; 1.11A {HUMICOLA INSOLENS} SCOP: c.6.1.1
+Probab=8.31  E-value=3.7e+02  Score=13.02  Aligned_cols=4  Identities=75%  Similarity=1.008  Sum_probs=0.0  Template_Neff=6.300
+
+Q INNVSN            3 NVSN    6 (6)
+Q Consensus         3 nvsn    6 (6)
+                      ||||
+T Consensus       221 NvSN  224 (364)
+T 1OC7_A          221 NVAN  224 (364)
+T ss_dssp             STTC
+T ss_pred             eccc
+
+
+No 4
+>2DB9_A Paf1/RNA polymerase II complex component; plus-3 domain  structural genomics; NMR {Homo sapiens} SCOP: b.34.21.1
+Probab=8.30  E-value=3.7e+02  Score=10.95  Aligned_cols=6  Identities=50%  Similarity=0.556  Sum_probs=0.0  Template_Neff=7.400
+
+Q INNVSN            1 INNVSN    6 (6)
+Q Consensus         1 innvsn    6 (6)
+                      |+.+||
+T Consensus       100 ~~~iSN  105 (149)
+T 2DB9_A          100 LEFVSN  105 (149)
+T ss_dssp             TTTCBC
+T ss_pred             eEEecC
+
+
+No 5
+>1UP3_A PUTATIVE CELLULASE CEL6; HYDROLASE, GLYCOSIDE HYDROLASE, FAMILY 6; HET: BGC, 1PG, SGC, MGL, SO4; 1.6A {MYCOBACTERIUM TUBERCULOSIS} SCOP: c.6.1.1
+Probab=8.21  E-value=3.7e+02  Score=12.70  Aligned_cols=4  Identities=100%  Similarity=1.099  Sum_probs=0.0  Template_Neff=6.100
+
+Q INNVSN            3 NVSN    6 (6)
+Q Consensus         3 nvsn    6 (6)
+                      ||||
+T Consensus       188 NvSN  191 (294)
+T 1UP3_A          188 NVSN  191 (294)
+T ss_dssp             CTTC
+T ss_pred             cccc
+
+
+No 6
+>1TML_A ENDO-1,4-BETA-D-GLUCANASE (E.C.3.2.1.4); BETA-AMYLASE, ENDOCELLULASE,CATALYTIC DOMAIN; 1.8A {Thermobifida fusca} SCOP: c.6.1.1
+Probab=8.19  E-value=3.8e+02  Score=12.69  Aligned_cols=4  Identities=75%  Similarity=0.817  Sum_probs=0.0  Template_Neff=6.000
+
+Q INNVSN            3 NVSN    6 (6)
+Q Consensus         3 nvsn    6 (6)
+                      ||||
+T Consensus       187 NvSN  190 (286)
+T 1TML_A          187 NTSN  190 (286)
+T ss_dssp             CTTC
+T ss_pred             eccc
+
+
+No 7
+>2BOG_X ENDOGLUCANASE E-2 (E.C.3.2.1.4); HYDROLASE, ENDOGLUCANASE, THERMOBIFIDA FUSCA, TIM; HET: MGL, BGC, SGC; 1.04A {THERMOMONOSPORA FUSCA}
+Probab=8.01  E-value=3.9e+02  Score=12.61  Aligned_cols=4  Identities=75%  Similarity=0.817  Sum_probs=0.0  Template_Neff=6.100
+
+Q INNVSN            3 NVSN    6 (6)
+Q Consensus         3 nvsn    6 (6)
+                      ||||
+T Consensus       187 NvSN  190 (286)
+T 2BOG_X          187 NTSN  190 (286)
+T ss_dssp             STTC
+T ss_pred             eccc
+
+
+No 8
+>5JX5_D Glucanase (E.C.3.2.1.-); Orpinomyces sp., GH6, Cbh7, endoglucanases; HET: PEG, GOL, NH4, EDO; 1.8A {Orpinomyces sp. Y102}
+Probab=7.89  E-value=4e+02  Score=12.79  Aligned_cols=4  Identities=100%  Similarity=1.099  Sum_probs=0.0  Template_Neff=6.100
+
+Q INNVSN            3 NVSN    6 (6)
+Q Consensus         3 nvsn    6 (6)
+                      ||||
+T Consensus       199 NvSN  202 (322)
+T 5JX5_D          199 NVSN  202 (322)
+T ss_dssp             CTTC
+T ss_pred             cccc
+
+
+No 9
+>3UB1_A ORF13-like protein; NTF2-LIKE, TRANSPORT PROTEIN; HET: PEG, MSE; 1.8A {Clostridium perfringens}
+Probab=7.70  E-value=4.1e+02  Score=11.39  Aligned_cols=6  Identities=67%  Similarity=0.816  Sum_probs=0.0  Template_Neff=8.300
+
+Q INNVSN            1 INNVSN    6 (6)
+Q Consensus         1 innvsn    6 (6)
+                      |||-||
+T Consensus       255 ~~~~~~  260 (261)
+T 3UB1_A          255 LNNKSN  260 (261)
+T ss_dssp             CC----
+T ss_pred             cccccC
+
+
+No 10
+>6FAO_A Glycoside hydrolase family 6 (E.C.3.2.1.4); glycoside hydrolase family 6, carbohydrate; 1.88A {metagenome}
+Probab=7.67  E-value=4.1e+02  Score=12.64  Aligned_cols=4  Identities=100%  Similarity=1.099  Sum_probs=0.0  Template_Neff=6.000
+
+Q INNVSN            3 NVSN    6 (6)
+Q Consensus         3 nvsn    6 (6)
+                      ||||
+T Consensus       189 NvSN  192 (296)
+T 6FAO_A          189 NVSN  192 (296)
+T ss_dssp             STTC
+T ss_pred             eccc
+
+

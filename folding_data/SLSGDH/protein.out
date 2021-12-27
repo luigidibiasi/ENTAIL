@@ -1,0 +1,148 @@
+Query         SLSGDH
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 15:09:43 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/SLSGDH/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/SLSGDH/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5LPX_A Annexin A2; Calcium bin  39.4      28 0.00031   14.8   0.0    6    1-6      12-17  (339)
+  2 7KFF_A Phenylalanine--tRNA lig  19.2 1.1E+02  0.0012   15.3   0.0    5    2-6     255-259 (308)
+  3 3KY7_A tRNA (guanine-N(1)-)-me  18.2 1.2E+02  0.0013   15.0   0.0    5    2-6     219-223 (269)
+  4 2DI9_A Filamin-B; beta-sandwic  17.2 1.3E+02  0.0014   10.6   0.0    5    2-6       1-5   (131)
+  5 4NTD_A Thioredoxin reductase;   11.5 2.4E+02  0.0026   11.4   0.0    6    1-6       2-7   (340)
+  6 6ITC_B Protein translocase sub  11.5 2.4E+02  0.0026   11.8   0.0    5    1-5      45-49  (59)
+  7 2QAZ_C Hypothetical protein; s  11.4 2.4E+02  0.0026   12.8   0.0    6    1-6      40-45  (128)
+  8 5US5_A UPF0297 protein EF_1202  11.3 2.4E+02  0.0027   12.0   0.0    4    2-5      47-50  (89)
+  9 3NK4_C Zona pellucida 3; FERTI  10.7 2.6E+02  0.0029   10.5   0.0    5    2-6      21-25  (30)
+ 10 3NK4_D Zona pellucida 3; FERTI  10.7 2.6E+02  0.0029   10.5   0.0    5    2-6      21-25  (30)
+
+No 1
+>5LPX_A Annexin A2; Calcium binding protein, protein-protein complex; HET: GOL; 1.9A {Homo sapiens}
+Probab=39.39  E-value=28  Score=14.76  Aligned_cols=6  Identities=83%  Similarity=1.315  Sum_probs=0.0  Template_Neff=9.100
+
+Q SLSGDH            1 SLSGDH    6 (6)
+Q Consensus         1 slsgdh    6 (6)
+                      ||+|||
+T Consensus        12 ~~~~~~   17 (339)
+T 5LPX_A           12 SLEGDH   17 (339)
+T ss_dssp             ------
+T ss_pred             cCCCCC
+Confidence            466665
+
+
+No 2
+>7KFF_A Phenylalanine--tRNA ligase alpha subunit, Phenylalanine--tRNA; CSGID, knot, Center for Structural; HET: SAH, MSE; 1.35A {Corynebacterium diphtheriae}
+Probab=19.24  E-value=1.1e+02  Score=15.27  Aligned_cols=5  Identities=60%  Similarity=1.046  Sum_probs=0.0  Template_Neff=4.200
+
+Q SLSGDH            2 LSGDH    6 (6)
+Q Consensus         2 lsgdh    6 (6)
+                      |||+|
+T Consensus       255 lSGnH  259 (308)
+T 7KFF_A          255 TSGNH  259 (308)
+T ss_dssp             GSCCH
+T ss_pred             hcCCH
+
+
+No 3
+>3KY7_A tRNA (guanine-N(1)-)-methyltransferase (E.C.2.1.1.31); Putative tRNA (Guanine-7-)-Methyltransferase, Structural Genomics; 2.35A {Staphylococcus aureus subsp. aureus}
+Probab=18.18  E-value=1.2e+02  Score=14.96  Aligned_cols=5  Identities=80%  Similarity=1.398  Sum_probs=0.0  Template_Neff=4.000
+
+Q SLSGDH            2 LSGDH    6 (6)
+Q Consensus         2 lsgdh    6 (6)
+                      |||+|
+T Consensus       219 lSGnH  223 (269)
+T 3KY7_A          219 LSGNH  223 (269)
+T ss_dssp             GSCCH
+T ss_pred             hcCCH
+
+
+No 4
+>2DI9_A Filamin-B; beta-sandwich, immunoglobulin-like fold, filamin domain; NMR {Homo sapiens} SCOP: b.1.18.10
+Probab=17.25  E-value=1.3e+02  Score=10.60  Aligned_cols=5  Identities=20%  Similarity=-0.124  Sum_probs=0.0  Template_Neff=10.100
+
+Q SLSGDH            2 LSGDH    6 (6)
+Q Consensus         2 lsgdh    6 (6)
+                      ++|+|
+T Consensus         1 ~~~~~    5 (131)
+T 2DI9_A            1 GSSGS    5 (131)
+T ss_dssp             CCCCC
+T ss_pred             CCCce
+
+
+No 5
+>4NTD_A Thioredoxin reductase; disulfide bond, natural sulfur products; HET: GSH, FAD; 1.6A {Streptomyces clavuligerus}
+Probab=11.52  E-value=2.4e+02  Score=11.44  Aligned_cols=6  Identities=67%  Similarity=1.126  Sum_probs=0.0  Template_Neff=10.500
+
+Q SLSGDH            1 SLSGDH    6 (6)
+Q Consensus         1 slsgdh    6 (6)
+                      |+||.|
+T Consensus         2 ~~~~~~    7 (340)
+T 4NTD_A            2 SMSGSH    7 (340)
+T ss_dssp             ------
+T ss_pred             CCCCCc
+
+
+No 6
+>6ITC_B Protein translocase subunit SecA, Protein; SecA, SecY, Translocation, Cryo-EM, PROTEIN; HET: ADP, GYS, PGV; 3.45A {Bacillus subtilis (strain 168)}
+Probab=11.49  E-value=2.4e+02  Score=11.85  Aligned_cols=5  Identities=80%  Similarity=1.232  Sum_probs=0.0  Template_Neff=1.000
+
+Q SLSGDH            1 SLSGD    5 (6)
+Q Consensus         1 slsgd    5 (6)
+                      |+|||
+T Consensus        45 sisgd   49 (59)
+T 6ITC_B           45 SISGD   49 (59)
+
+
+No 7
+>2QAZ_C Hypothetical protein; sspB, adaptor, ClpX, ssrA, UNKNOWN; 2.7A {Caulobacter vibrioides}
+Probab=11.38  E-value=2.4e+02  Score=12.75  Aligned_cols=6  Identities=33%  Similarity=0.518  Sum_probs=0.0  Template_Neff=3.700
+
+Q SLSGDH            1 SLSGDH    6 (6)
+Q Consensus         1 slsgdh    6 (6)
+                      +|.|+|
+T Consensus        40 ~LpG~H   45 (128)
+T 2QAZ_C           40 GLPEPH   45 (128)
+T ss_dssp             CCCTTC
+T ss_pred             CCCCCc
+
+
+No 8
+>5US5_A UPF0297 protein EF_1202; IreB, dimer, Structural Genomics, PSI-2; NMR {Enterococcus faecalis (strain ATCC 700802 / V583)}
+Probab=11.32  E-value=2.4e+02  Score=11.97  Aligned_cols=4  Identities=100%  Similarity=1.456  Sum_probs=0.0  Template_Neff=4.000
+
+Q SLSGDH            2 LSGD    5 (6)
+Q Consensus         2 lsgd    5 (6)
+                      +|||
+T Consensus        47 lSGD   50 (89)
+T 5US5_A           47 LSGD   50 (89)
+T ss_dssp             TTCC
+T ss_pred             HhCC
+
+
+No 9
+>3NK4_C Zona pellucida 3; FERTILIZATION, OOCYTE, EGG COAT, ZONA; HET: FLC, A2G; 2.0A {Gallus gallus}
+Probab=10.74  E-value=2.6e+02  Score=10.50  Aligned_cols=5  Identities=80%  Similarity=1.159  Sum_probs=0.0  Template_Neff=1.000
+
+Q SLSGDH            2 LSGDH    6 (6)
+Q Consensus         2 lsgdh    6 (6)
+                      ||.||
+T Consensus        21 lsadh   25 (30)
+T 3NK4_C           21 LSADH   25 (30)
+T ss_dssp             BCSCT
+T ss_pred             ecCCC
+
+
+No 10
+>3NK4_D Zona pellucida 3; FERTILIZATION, OOCYTE, EGG COAT, ZONA; HET: FLC, A2G; 2.0A {Gallus gallus}
+Probab=10.74  E-value=2.6e+02  Score=10.50  Aligned_cols=5  Identities=80%  Similarity=1.159  Sum_probs=0.0  Template_Neff=1.000
+
+Q SLSGDH            2 LSGDH    6 (6)
+Q Consensus         2 lsgdh    6 (6)
+                      ||.||
+T Consensus        21 lsadh   25 (30)
+T 3NK4_D           21 LSADH   25 (30)
+T ss_pred             ecCCC
+
+

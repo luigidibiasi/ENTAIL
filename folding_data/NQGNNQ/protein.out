@@ -1,0 +1,149 @@
+Query         NQGNNQ
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 03:22:02 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NQGNNQ/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NQGNNQ/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6ZNJ_A NADP-dependent malate d  15.7 1.5E+02  0.0017   15.5   0.0    5    1-5     328-332 (780)
+  2 6URF_D NAD-dependent malic enz  15.3 1.6E+02  0.0017   15.6   0.0    5    1-5     473-477 (570)
+  3 5OU5_B Malic enzyme; malic enz  15.0 1.6E+02  0.0018   15.5   0.0    5    1-5     473-477 (576)
+  4 6C7N_A Malic enzyme; enzyme su  14.4 1.7E+02  0.0019   15.6   0.0    5    1-5     510-514 (613)
+  5 6ZNG_D Malate dehydrogenase (E  13.8 1.8E+02   0.002   15.2   0.0    5    1-5     339-343 (791)
+  6 6UEB_A Large structural protei  11.5 2.3E+02  0.0026   16.8   0.0    5    2-6     727-731 (2127)
+  7 6PWD_A Type III effector HopBF  10.9 2.5E+02  0.0028   11.2   0.0    5    1-5       4-8   (204)
+  8 6UEN_A RNA-directed RNA polyme  10.5 2.7E+02   0.003   16.3   0.0    5    2-6     809-813 (1500)
+  9 5A22_A VESICULAR STOMATITIS VI  10.1 2.8E+02  0.0031   16.5   0.0    5    2-6     712-716 (2109)
+ 10 6U1X_A RNA-directed RNA polyme  10.1 2.8E+02  0.0031   16.5   0.0    5    2-6     712-716 (2109)
+
+No 1
+>6ZNJ_A NADP-dependent malate dehydrogenase,Malate dehydrogenase (E.C.1.1.1.40,1.1.1.40); malic enzyme, OXIDOREDUCTASE; 3.7A {Bdellovibrio bacteriovorus (strain ATCC 15356 / DSM 50701 / NCIB 9529 / HD100)}
+Probab=15.73  E-value=1.5e+02  Score=15.47  Aligned_cols=5  Identities=80%  Similarity=0.720  Sum_probs=0.0  Template_Neff=6.700
+
+Q NQGNNQ            1 NQGNN    5 (6)
+Q Consensus         1 nqgnn    5 (6)
+                      ||+||
+T Consensus       328 ~Q~NN  332 (780)
+T 6ZNJ_A          328 NQVNN  332 (780)
+T ss_dssp             SBCCG
+T ss_pred             CcCCC
+
+
+No 2
+>6URF_D NAD-dependent malic enzyme (E.C.1.1.1.38); Malic enzyme, Fatty acid synthesis; HET: GOL; 3.6A {Mycobacterium tuberculosis}
+Probab=15.29  E-value=1.6e+02  Score=15.56  Aligned_cols=5  Identities=60%  Similarity=0.747  Sum_probs=0.0  Template_Neff=5.100
+
+Q NQGNNQ            1 NQGNN    5 (6)
+Q Consensus         1 nqgnn    5 (6)
+                      ||+||
+T Consensus       473 ~Q~NN  477 (570)
+T 6URF_D          473 GQANN  477 (570)
+T ss_dssp             EECCG
+T ss_pred             ccCCc
+
+
+No 3
+>5OU5_B Malic enzyme; malic enzyme, oxidative decarboxylase, NADP-dependent; HET: NA; 2.2A {Zea mays}
+Probab=15.01  E-value=1.6e+02  Score=15.49  Aligned_cols=5  Identities=60%  Similarity=0.740  Sum_probs=0.0  Template_Neff=5.200
+
+Q NQGNNQ            1 NQGNN    5 (6)
+Q Consensus         1 nqgnn    5 (6)
+                      ||+||
+T Consensus       473 ~Q~NN  477 (576)
+T 5OU5_B          473 GQSNN  477 (576)
+T ss_dssp             EECCG
+T ss_pred             CCccc
+
+
+No 4
+>6C7N_A Malic enzyme; enzyme substrate complex, OXIDOREDUCTASE; HET: PYR, GOL, NAP; 2.0A {Sorghum bicolor}
+Probab=14.39  E-value=1.7e+02  Score=15.57  Aligned_cols=5  Identities=60%  Similarity=0.740  Sum_probs=0.0  Template_Neff=5.100
+
+Q NQGNNQ            1 NQGNN    5 (6)
+Q Consensus         1 nqgnn    5 (6)
+                      ||+||
+T Consensus       510 ~Q~NN  514 (613)
+T 6C7N_A          510 GQSNN  514 (613)
+T ss_dssp             EECCG
+T ss_pred             CCCCc
+
+
+No 5
+>6ZNG_D Malate dehydrogenase (E.C.1.1.1.40); malic enzyme, OXIDOREDUCTASE; HET: ACO; 2.72A {Bdellovibrio bacteriovorus (strain ATCC 15356 / DSM 50701 / NCIB 9529 / HD100)}
+Probab=13.81  E-value=1.8e+02  Score=15.18  Aligned_cols=5  Identities=80%  Similarity=0.720  Sum_probs=0.0  Template_Neff=6.800
+
+Q NQGNNQ            1 NQGNN    5 (6)
+Q Consensus         1 nqgnn    5 (6)
+                      ||.||
+T Consensus       339 nQ~NN  343 (791)
+T 6ZNG_D          339 NQVNN  343 (791)
+T ss_dssp             SCCCG
+T ss_pred             CCCCc
+
+
+No 6
+>6UEB_A Large structural protein (E.C.2.7.7.48,2.1.1.56,2.7.7.88,2.1.1.296), Phosphoprotein; Polymerase, Phosphoprotein, Complex, VIRAL PROTEIN; 3.3A {Rabies virus (strain SAD B19)}
+Probab=11.54  E-value=2.3e+02  Score=16.80  Aligned_cols=5  Identities=80%  Similarity=1.199  Sum_probs=0.0  Template_Neff=6.600
+
+Q NQGNNQ            2 QGNNQ    6 (6)
+Q Consensus         2 qgnnq    6 (6)
+                      ||.||
+T Consensus       727 QGDNQ  731 (2127)
+T 6UEB_A          727 QGDNQ  731 (2127)
+T ss_dssp             SSSEE
+T ss_pred             eCCCe
+
+
+No 7
+>6PWD_A Type III effector HopBF1; HSP90, phosphorylation, chaperone, immunity, kinase; HET: EDO; 2.47A {Ewingella americana}
+Probab=10.90  E-value=2.5e+02  Score=11.24  Aligned_cols=5  Identities=60%  Similarity=0.687  Sum_probs=0.0  Template_Neff=8.900
+
+Q NQGNNQ            1 NQGNN    5 (6)
+Q Consensus         1 nqgnn    5 (6)
+                      |||||
+T Consensus         4 ~~~~~    8 (204)
+T 6PWD_A            4 NVSNN    8 (204)
+T ss_pred             cCCCc
+
+
+No 8
+>6UEN_A RNA-directed RNA polymerase L (E.C.2.7.7.48,2.1.1.56,2.7.7.-,2.7.7.88); Viral protein complexes, VIRAL PROTEIN;{Human respiratory syncytial virus}
+Probab=10.52  E-value=2.7e+02  Score=16.25  Aligned_cols=5  Identities=60%  Similarity=1.066  Sum_probs=0.0  Template_Neff=5.900
+
+Q NQGNNQ            2 QGNNQ    6 (6)
+Q Consensus         2 qgnnq    6 (6)
+                      ||.||
+T Consensus       809 QGDNQ  813 (1500)
+T 6UEN_A          809 NGDNQ  813 (1500)
+T ss_dssp             CSSEE
+T ss_pred             cCCce
+
+
+No 9
+>5A22_A VESICULAR STOMATITIS VIRUS L POLYMERASE; TRANSFERASE, RNA-DEPENDENT RNA POLYMERASE, RNA; 3.8A {VESICULAR STOMATITIS VIRUS}
+Probab=10.15  E-value=2.8e+02  Score=16.51  Aligned_cols=5  Identities=80%  Similarity=1.199  Sum_probs=0.0  Template_Neff=6.600
+
+Q NQGNNQ            2 QGNNQ    6 (6)
+Q Consensus         2 qgnnq    6 (6)
+                      ||.||
+T Consensus       712 QGDNQ  716 (2109)
+T 5A22_A          712 QGDNQ  716 (2109)
+T ss_dssp             ETTEE
+T ss_pred             eCCCe
+
+
+No 10
+>6U1X_A RNA-directed RNA polymerase L (E.C.2.7.7.48,2.1.1.56,2.7.7.88,2.1.1.296); Vesicular stomatitis virus, RNA-dependent RNA;{Vesicular stomatitis Indiana virus (strain San Juan)}
+Probab=10.15  E-value=2.8e+02  Score=16.51  Aligned_cols=5  Identities=80%  Similarity=1.199  Sum_probs=0.0  Template_Neff=6.600
+
+Q NQGNNQ            2 QGNNQ    6 (6)
+Q Consensus         2 qgnnq    6 (6)
+                      ||.||
+T Consensus       712 QGDNQ  716 (2109)
+T 6U1X_A          712 QGDNQ  716 (2109)
+T ss_dssp             SSSCE
+T ss_pred             eCCCe
+
+

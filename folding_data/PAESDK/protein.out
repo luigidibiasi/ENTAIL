@@ -1,0 +1,150 @@
+Query         PAESDK
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 05:30:25 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/PAESDK/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/PAESDK/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3VOG_A Cellobiohydrolase (E.C.   6.1 5.6E+02  0.0062   12.5   0.0    5    1-5     313-317 (373)
+  2 4HGA_A Death domain-associated   6.1 5.6E+02  0.0062   12.1   0.0    6    1-6     173-178 (213)
+  3 3E97_A Transcriptional regulat   6.0 5.6E+02  0.0062    9.3   0.0    5    1-5     227-231 (231)
+  4 5XCZ_A Glucanase (E.C.3.2.1.-)   5.8 5.9E+02  0.0065   12.5   0.0    5    1-5     309-313 (358)
+  5 3A64_A Cellobiohydrolase (E.C.   5.5 6.3E+02   0.007   12.6   0.0    5    1-5     330-334 (395)
+  6 3A9B_A Cellobiohydrolase (E.C.   5.5 6.4E+02   0.007   12.6   0.0    5    1-5     330-334 (395)
+  7 6KJI_C Dual-functional monooxy   5.4 6.4E+02  0.0071   10.8   0.0    6    1-6      32-37  (378)
+  8 5XCY_A Glucanase (E.C.3.2.1.-)   5.4 6.5E+02  0.0072   12.4   0.0    5    1-5     309-313 (358)
+  9 4NWY_A Protein disulfide-isome   5.4 6.5E+02  0.0072    8.0   0.0    6    1-6     129-134 (134)
+ 10 1UOZ_A PUTATIVE CELLULASE; HYD   5.3 6.7E+02  0.0074   12.3   0.0    5    1-5     284-288 (315)
+
+No 1
+>3VOG_A Cellobiohydrolase (E.C.3.2.1.91); Seven-stranded beta-alpha barrel, Cellobiohydrolase, HYDROLASE; HET: EPE; 1.45A {Coprinopsis cinerea}
+Probab=6.07  E-value=5.6e+02  Score=12.55  Aligned_cols=5  Identities=40%  Similarity=0.554  Sum_probs=0.0  Template_Neff=6.200
+
+Q PAESDK            1 PAESD    5 (6)
+Q Consensus         1 paesd    5 (6)
+                      |.|||
+T Consensus       313 PGESD  317 (373)
+T 3VOG_A          313 GGEAD  317 (373)
+T ss_dssp             TTBCS
+T ss_pred             CCCCC
+
+
+No 2
+>4HGA_A Death domain-associated protein 6, Histone; histone chaperone, CHAPERONE-APOPTOSIS complex; HET: PC4; 2.799A {Homo sapiens}
+Probab=6.06  E-value=5.6e+02  Score=12.07  Aligned_cols=6  Identities=67%  Similarity=0.750  Sum_probs=0.0  Template_Neff=5.000
+
+Q PAESDK            1 PAESDK    6 (6)
+Q Consensus         1 paesdk    6 (6)
+                      ||.+|.
+T Consensus       173 PA~~D~  178 (213)
+T 4HGA_A          173 PALSDP  178 (213)
+T ss_dssp             HHHHCH
+T ss_pred             cccCCH
+
+
+No 3
+>3E97_A Transcriptional regulator, Crp/Fnr family; YP_604437.1, transcriptional regulator, Crp/Fnr family; 1.86A {Deinococcus geothermalis DSM 11300}
+Probab=6.03  E-value=5.6e+02  Score=9.34  Aligned_cols=5  Identities=60%  Similarity=0.707  Sum_probs=0.0  Template_Neff=11.400
+
+Q PAESDK            1 PAESD    5 (6)
+Q Consensus         1 paesd    5 (6)
+                      ++|||
+T Consensus       227 ~~~~~  231 (231)
+T 3E97_A          227 GAETD  231 (231)
+T ss_dssp             -----
+T ss_pred             cccCC
+
+
+No 4
+>5XCZ_A Glucanase (E.C.3.2.1.-); Glycosidehydrolase family 6, HYDROLASE; HET: TRS, GLC, BGC; 2.1A {Phanerochaete chrysosporium}
+Probab=5.80  E-value=5.9e+02  Score=12.53  Aligned_cols=5  Identities=40%  Similarity=0.488  Sum_probs=0.0  Template_Neff=5.900
+
+Q PAESDK            1 PAESD    5 (6)
+Q Consensus         1 paesd    5 (6)
+                      |.|||
+T Consensus       309 PGESD  313 (358)
+T 5XCZ_A          309 GGECD  313 (358)
+T ss_dssp             TTBCS
+T ss_pred             CCccC
+
+
+No 5
+>3A64_A Cellobiohydrolase (E.C.3.2.1.91); seven-stranded beta-alpha barrel, cellulase, glycoside; 1.6A {Coprinopsis cinerea}
+Probab=5.51  E-value=6.3e+02  Score=12.56  Aligned_cols=5  Identities=60%  Similarity=0.627  Sum_probs=0.0  Template_Neff=6.000
+
+Q PAESDK            1 PAESD    5 (6)
+Q Consensus         1 paesd    5 (6)
+                      |.|||
+T Consensus       330 PGESD  334 (395)
+T 3A64_A          330 GGESD  334 (395)
+T ss_dssp             TTBCS
+T ss_pred             CCCCC
+
+
+No 6
+>3A9B_A Cellobiohydrolase (E.C.3.2.1.91); seven-stranded beta-alpha barrel, cellulase, glycoside; HET: BGC, CBI; 1.2A {Coprinopsis cinerea}
+Probab=5.48  E-value=6.4e+02  Score=12.56  Aligned_cols=5  Identities=60%  Similarity=0.627  Sum_probs=0.0  Template_Neff=6.000
+
+Q PAESDK            1 PAESD    5 (6)
+Q Consensus         1 paesd    5 (6)
+                      |.|||
+T Consensus       330 PGESD  334 (395)
+T 3A9B_A          330 GGESD  334 (395)
+T ss_dssp             TTBCS
+T ss_pred             CCCCC
+
+
+No 7
+>6KJI_C Dual-functional monooxygenase/methyltransferase psoF; metyltransferase, OXIDOREDUCTASE; HET: SO4, SAH; 1.99A {Neosartorya fumigata (strain ATCC MYA-4609 / Af293 / CBS 101355 / FGSC A1100)}
+Probab=5.45  E-value=6.4e+02  Score=10.77  Aligned_cols=6  Identities=67%  Similarity=1.055  Sum_probs=0.0  Template_Neff=9.800
+
+Q PAESDK            1 PAESDK    6 (6)
+Q Consensus         1 paesdk    6 (6)
+                      |.+||+
+T Consensus        32 ~~~~~~   37 (378)
+T 6KJI_C           32 PLEADK   37 (378)
+T ss_dssp             CCHHHH
+T ss_pred             chhccc
+
+
+No 8
+>5XCY_A Glucanase (E.C.3.2.1.-); Glycoside hydrolase family 6, HYDROLASE; 1.199A {Phanerochaete chrysosporium}
+Probab=5.37  E-value=6.5e+02  Score=12.35  Aligned_cols=5  Identities=40%  Similarity=0.488  Sum_probs=0.0  Template_Neff=6.000
+
+Q PAESDK            1 PAESD    5 (6)
+Q Consensus         1 paesd    5 (6)
+                      |.|||
+T Consensus       309 PGESD  313 (358)
+T 5XCY_A          309 GGECD  313 (358)
+T ss_dssp             TTBCS
+T ss_pred             CCccC
+
+
+No 9
+>4NWY_A Protein disulfide-isomerase-like protein of the; thioredoxin-like fold, substrate-binding domain, endoplasmic; HET: FMT; 2.0A {Homo sapiens}
+Probab=5.35  E-value=6.5e+02  Score=8.02  Aligned_cols=6  Identities=33%  Similarity=0.412  Sum_probs=0.0  Template_Neff=11.900
+
+Q PAESDK            1 PAESDK    6 (6)
+Q Consensus         1 paesdk    6 (6)
+                      |.+.|+
+T Consensus       129 p~~~~~  134 (134)
+T 4NWY_A          129 PKYWDQ  134 (134)
+T ss_dssp             CCCC--
+T ss_pred             CCCCCC
+
+
+No 10
+>1UOZ_A PUTATIVE CELLULASE; HYDROLASE, GLYCOSIDE HYDROLASE, FAMILY 6; HET: GOL, SSG, GLC; 1.1A {MYCOBACTERIUM TUBERCULOSIS} SCOP: c.6.1.1
+Probab=5.28  E-value=6.7e+02  Score=12.27  Aligned_cols=5  Identities=80%  Similarity=1.238  Sum_probs=0.0  Template_Neff=5.600
+
+Q PAESDK            1 PAESD    5 (6)
+Q Consensus         1 paesd    5 (6)
+                      |-|||
+T Consensus       284 PGeSD  288 (315)
+T 1UOZ_A          284 PGESD  288 (315)
+T ss_dssp             TTBCC
+T ss_pred             CCccC
+
+

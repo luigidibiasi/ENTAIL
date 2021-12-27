@@ -1,0 +1,145 @@
+Query         LAPVYV
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 14:04:42 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LAPVYV/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LAPVYV/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4CCT_D DENGUE VIRUS 1 E PROTEI  17.4 1.3E+02  0.0014   12.6   0.0    5    1-5      70-74  (74)
+  2 5O6A_E Envelope protein, Small  16.5 1.4E+02  0.0015   12.6   0.0    5    1-5      70-74  (75)
+  3 2AXC_A Colicin E7 (E.C.3.1.-.-  16.4 1.4E+02  0.0015   13.8   0.0    6    1-6     221-226 (264)
+  4 4CBF_F ENVELOPE PROTEIN E, M P  16.3 1.4E+02  0.0016   12.5   0.0    5    1-5      70-74  (74)
+  5 5IZ7_E structural protein E, s  16.3 1.4E+02  0.0016   12.5   0.0    5    1-5      70-74  (75)
+  6 7KCR_B ADI30056 mAb heavy chai  16.3 1.4E+02  0.0016   12.5   0.0    5    1-5      70-74  (75)
+  7 3FBR_A Protein hipA, peptide o  16.2 1.4E+02  0.0016   13.5   0.0    5    1-5     327-331 (437)
+  8 7KV8_c Flavivirus, glycoprotei  16.1 1.4E+02  0.0016   12.5   0.0    5    1-5      70-74  (75)
+  9 7LCG_D Flavivirus, envelope gl  16.1 1.4E+02  0.0016   12.5   0.0    5    1-5      70-74  (75)
+ 10 7LCH_B Flavivirus, envelope gl  16.1 1.4E+02  0.0016   12.5   0.0    5    1-5      70-74  (75)
+
+No 1
+>4CCT_D DENGUE VIRUS 1 E PROTEIN; VIRUS, FLAVIVIRUS; 4.5A {DENGUE VIRUS 1}
+Probab=17.35  E-value=1.3e+02  Score=12.64  Aligned_cols=5  Identities=40%  Similarity=1.119  Sum_probs=0.0  Template_Neff=3.300
+
+Q LAPVYV            1 LAPVY    5 (6)
+Q Consensus         1 lapvy    5 (6)
+                      +||.|
+T Consensus        70 vaPaY   74 (74)
+T 4CCT_D           70 VTPSY   74 (74)
+T ss_pred             hccCC
+
+
+No 2
+>5O6A_E Envelope protein, Small envelope protein; tick-borne encephalitis virus, mature particle; HET: NAG; 3.9A {Tick-borne encephalitis virus (strain Hypr)}
+Probab=16.50  E-value=1.4e+02  Score=12.57  Aligned_cols=5  Identities=100%  Similarity=1.677  Sum_probs=0.0  Template_Neff=3.300
+
+Q LAPVYV            1 LAPVY    5 (6)
+Q Consensus         1 lapvy    5 (6)
+                      +||.|
+T Consensus        70 vaPay   74 (75)
+T 5O6A_E           70 LAPVY   74 (75)
+T ss_dssp             HCC--
+T ss_pred             Hhhhc
+
+
+No 3
+>2AXC_A Colicin E7 (E.C.3.1.-.-); colicin, translocation domain, hydrolase; 1.7A {Escherichia coli str. K12 substr.}
+Probab=16.44  E-value=1.4e+02  Score=13.76  Aligned_cols=6  Identities=67%  Similarity=1.121  Sum_probs=0.0  Template_Neff=6.200
+
+Q LAPVYV            1 LAPVYV    6 (6)
+Q Consensus         1 lapvyv    6 (6)
+                      +.|+||
+T Consensus       221 l~PIYV  226 (264)
+T 2AXC_A          221 QKPVYV  226 (264)
+T ss_pred             CCCEEE
+
+
+No 4
+>4CBF_F ENVELOPE PROTEIN E, M PROTEIN; FLAVIVIRUS, VIRUS; 4.1A {DENGUE VIRUS 2}
+Probab=16.34  E-value=1.4e+02  Score=12.53  Aligned_cols=5  Identities=60%  Similarity=1.238  Sum_probs=0.0  Template_Neff=3.300
+
+Q LAPVYV            1 LAPVY    5 (6)
+Q Consensus         1 lapvy    5 (6)
+                      +||.|
+T Consensus        70 vaPay   74 (74)
+T 4CBF_F           70 VAPSY   74 (74)
+T ss_pred             hcccC
+
+
+No 5
+>5IZ7_E structural protein E, structural protein; viral protein, flavivirus, glycoprotein, zika; HET: NAG; 3.7A {Zika virus}
+Probab=16.29  E-value=1.4e+02  Score=12.55  Aligned_cols=5  Identities=60%  Similarity=1.378  Sum_probs=0.0  Template_Neff=3.300
+
+Q LAPVYV            1 LAPVY    5 (6)
+Q Consensus         1 lapvy    5 (6)
+                      +||.|
+T Consensus        70 vaPay   74 (75)
+T 5IZ7_E           70 IAPAY   74 (75)
+T ss_dssp             HGGGT
+T ss_pred             Hhhhc
+
+
+No 6
+>7KCR_B ADI30056 mAb heavy chain, ADI30056; Zika Virus, Flavivirus, Zika-Antibody, VIRUS-IMMUNE; HET: NAG;{Homo sapiens}
+Probab=16.29  E-value=1.4e+02  Score=12.55  Aligned_cols=5  Identities=60%  Similarity=1.378  Sum_probs=0.0  Template_Neff=3.300
+
+Q LAPVYV            1 LAPVY    5 (6)
+Q Consensus         1 lapvy    5 (6)
+                      +||.|
+T Consensus        70 vaPay   74 (75)
+T 7KCR_B           70 IAPAY   74 (75)
+T ss_pred             Hhhhc
+
+
+No 7
+>3FBR_A Protein hipA, peptide of EF-Tu; persistence, multidrug tolerance hipA, hipB; HET: ACP; 3.5A {Escherichia coli}
+Probab=16.16  E-value=1.4e+02  Score=13.48  Aligned_cols=5  Identities=60%  Similarity=1.338  Sum_probs=0.0  Template_Neff=8.600
+
+Q LAPVYV            1 LAPVY    5 (6)
+Q Consensus         1 lapvy    5 (6)
+                      |||+|
+T Consensus       327 LaP~Y  331 (437)
+T 3FBR_A          327 LTPFY  331 (437)
+T ss_dssp             ECCCC
+T ss_pred             EcCcc
+
+
+No 8
+>7KV8_c Flavivirus, glycoprotein, entry, fusion, VIRUS; HET: 1Q0, 6OU, NAG; 2.5A {Dengue virus 2}
+Probab=16.14  E-value=1.4e+02  Score=12.53  Aligned_cols=5  Identities=40%  Similarity=0.707  Sum_probs=0.0  Template_Neff=3.300
+
+Q LAPVYV            1 LAPVY    5 (6)
+Q Consensus         1 lapvy    5 (6)
+                      +||.|
+T Consensus        70 vaPay   74 (75)
+T 7KV8_c           70 VAPSM   74 (75)
+T ss_pred             hhhcc
+
+
+No 9
+>7LCG_D Flavivirus, envelope glycoprotein, VIRUS; HET: PC7, 0SM, NAG; 2.42A {Usutu virus}
+Probab=16.08  E-value=1.4e+02  Score=12.52  Aligned_cols=5  Identities=60%  Similarity=1.311  Sum_probs=0.0  Template_Neff=3.300
+
+Q LAPVYV            1 LAPVY    5 (6)
+Q Consensus         1 lapvy    5 (6)
+                      +||.|
+T Consensus        70 vaPay   74 (75)
+T 7LCG_D           70 VAPAY   74 (75)
+T ss_dssp             HTTTT
+T ss_pred             Hhhhc
+
+
+No 10
+>7LCH_B Flavivirus, envelope glycoprotein, VIRUS; HET: PC7, 0SM, NAG; 2.35A {Usutu virus}
+Probab=16.08  E-value=1.4e+02  Score=12.52  Aligned_cols=5  Identities=60%  Similarity=1.311  Sum_probs=0.0  Template_Neff=3.300
+
+Q LAPVYV            1 LAPVY    5 (6)
+Q Consensus         1 lapvy    5 (6)
+                      +||.|
+T Consensus        70 vaPay   74 (75)
+T 7LCH_B           70 VAPAY   74 (75)
+T ss_dssp             HHHHT
+T ss_pred             Hhhhc
+
+

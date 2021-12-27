@@ -1,0 +1,153 @@
+Query         LATPYV
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 15:00:59 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LATPYV/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LATPYV/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6NU2_o 39S ribosomal protein L  37.4      31 0.00035   13.7   0.0    6    1-6      41-46  (94)
+  2 7OF0_o 39S ribosomal protein L  30.7      48 0.00053   13.5   0.0    6    1-6      49-54  (102)
+  3 4Q5K_A Uncharacterized protein  30.4      48 0.00054   14.7   0.0    6    1-6      15-20  (240)
+  4 4Q68_A Uncharacterized protein  29.1      53 0.00059   14.6   0.0    6    1-6      15-20  (240)
+  5 2P1G_A Putative xylanase; STRU  26.5      63  0.0007   14.6   0.0    6    1-6      17-22  (249)
+  6 2P1G_B Putative xylanase; STRU  25.8      66 0.00073   14.6   0.0    6    1-6      17-22  (249)
+  7 2IM9_A Hypothetical protein; s  19.8   1E+02  0.0012   14.8   0.0    6    1-6      65-70  (333)
+  8 2EQ7_C 2-oxoglutarate dehydrog  15.2 1.6E+02  0.0017    9.4   0.0    6    1-6       1-6   (40)
+  9 5VIT_K Malonate decarboxylase   12.9   2E+02  0.0022   11.8   0.0    5    2-6      80-84  (99)
+ 10 1IU9_A aspartate racemase(E.C.  12.2 2.2E+02  0.0024    9.9   0.0    5    1-5      20-24  (111)
+
+No 1
+>6NU2_o 39S ribosomal protein L2, mitochondrial; mitochondrial ribosome recycling Factor, mtRRF; HET: MG; 3.9A {Homo sapiens}
+Probab=37.42  E-value=31  Score=13.74  Aligned_cols=6  Identities=50%  Similarity=1.193  Sum_probs=3.4  Template_Neff=5.900
+
+Q LATPYV            1 LATPYV    6 (6)
+Q Consensus         1 latpyv    6 (6)
+                      |+.||.
+T Consensus        41 Ls~PYL   46 (94)
+T 6NU2_o           41 LSMPYM   46 (94)
+T ss_pred             HhCCCC
+Confidence            456663
+
+
+No 2
+>7OF0_o 39S ribosomal protein L32, mitochondrial; Mitochondria, Ribosome, Biogenesis, GTPase, NSUN4; HET: MG; 2.2A {Homo sapiens}
+Probab=30.74  E-value=48  Score=13.46  Aligned_cols=6  Identities=50%  Similarity=1.193  Sum_probs=3.3  Template_Neff=5.800
+
+Q LATPYV            1 LATPYV    6 (6)
+Q Consensus         1 latpyv    6 (6)
+                      |+.||.
+T Consensus        49 Ls~PYL   54 (102)
+T 7OF0_o           49 LSMPYM   54 (102)
+T ss_pred             HhCCCC
+Confidence            456663
+
+
+No 3
+>4Q5K_A Uncharacterized protein; PF07313 family protein, DUF 1460; HET: MSE, 2YP; 1.3A {Bacteroides uniformis}
+Probab=30.44  E-value=48  Score=14.75  Aligned_cols=6  Identities=67%  Similarity=1.248  Sum_probs=3.8  Template_Neff=6.600
+
+Q LATPYV            1 LATPYV    6 (6)
+Q Consensus         1 latpyv    6 (6)
+                      |.|||+
+T Consensus        15 lGtPY~   20 (240)
+T 4Q5K_A           15 LDVPYV   20 (240)
+T ss_dssp             TTCBBC
+T ss_pred             CCCCcC
+Confidence            457875
+
+
+No 4
+>4Q68_A Uncharacterized protein; PF07313 family protein, DUF 1460; HET: NAG; 1.07A {Bacteroides uniformis ATCC 8492}
+Probab=29.06  E-value=53  Score=14.63  Aligned_cols=6  Identities=67%  Similarity=1.248  Sum_probs=3.8  Template_Neff=6.600
+
+Q LATPYV            1 LATPYV    6 (6)
+Q Consensus         1 latpyv    6 (6)
+                      |.+||+
+T Consensus        15 lG~PY~   20 (240)
+T 4Q68_A           15 LDVPYV   20 (240)
+T ss_dssp             TTCBBC
+T ss_pred             cCCCcC
+Confidence            357775
+
+
+No 5
+>2P1G_A Putative xylanase; STRUCTURAL GENOMICS, UNKNOWN FUNCTION, PSI-2; 1.8A {Bacteroides fragilis}
+Probab=26.50  E-value=63  Score=14.58  Aligned_cols=6  Identities=50%  Similarity=0.982  Sum_probs=3.7  Template_Neff=6.400
+
+Q LATPYV            1 LATPYV    6 (6)
+Q Consensus         1 latpyv    6 (6)
+                      |.+||+
+T Consensus        17 lGtPY~   22 (249)
+T 2P1G_A           17 VDTPYK   22 (249)
+T ss_dssp             TTCBBC
+T ss_pred             CCCCCC
+Confidence            357775
+
+
+No 6
+>2P1G_B Putative xylanase; STRUCTURAL GENOMICS, UNKNOWN FUNCTION, PSI-2; 1.8A {Bacteroides fragilis}
+Probab=25.82  E-value=66  Score=14.62  Aligned_cols=6  Identities=50%  Similarity=0.982  Sum_probs=3.7  Template_Neff=6.200
+
+Q LATPYV            1 LATPYV    6 (6)
+Q Consensus         1 latpyv    6 (6)
+                      |.|||+
+T Consensus        17 lGtPY~   22 (249)
+T 2P1G_B           17 VDTPYK   22 (249)
+T ss_dssp             HTCBBC
+T ss_pred             CCCCCC
+Confidence            357775
+
+
+No 7
+>2IM9_A Hypothetical protein; structural genomics, hypothetical protein, PSI-2; 1.67A {Legionella pneumophila subsp. pneumophila} SCOP: d.3.1.13
+Probab=19.76  E-value=1e+02  Score=14.77  Aligned_cols=6  Identities=33%  Similarity=0.623  Sum_probs=3.4  Template_Neff=5.800
+
+Q LATPYV            1 LATPYV    6 (6)
+Q Consensus         1 latpyv    6 (6)
+                      |.+||+
+T Consensus        65 LGtPY~   70 (333)
+T 2IM9_A           65 KGTKYI   70 (333)
+T ss_dssp             TTCBBC
+T ss_pred             CCCCCC
+Confidence            346774
+
+
+No 8
+>2EQ7_C 2-oxoglutarate dehydrogenase E3 component (E.C.1.8.1.4); PROTEIN-PROTEIN COMPLEX, OXIDOREDUCTASE, Structural Genomics; HET: FAD, NAD; 1.8A {Thermus thermophilus}
+Probab=15.22  E-value=1.6e+02  Score=9.41  Aligned_cols=6  Identities=50%  Similarity=0.628  Sum_probs=0.0  Template_Neff=7.600
+
+Q LATPYV            1 LATPYV    6 (6)
+Q Consensus         1 latpyv    6 (6)
+                      +++|.+
+T Consensus         1 ~~sP~a    6 (40)
+T 2EQ7_C            1 LAMPAA    6 (40)
+T ss_dssp             CCCHHH
+T ss_pred             CCCHHH
+
+
+No 9
+>5VIT_K Malonate decarboxylase alpha subunit, Malonate; acyl carrier protein, acetyl-CoA carboxylase; HET: MLI; 2.203A {Pseudomonas aeruginosa (strain ATCC 15692 / DSM 22644 / CIP 104116 / JCM 14847 / LMG 12228 / 1C / PRS 101 / PAO1)}
+Probab=12.89  E-value=2e+02  Score=11.79  Aligned_cols=5  Identities=80%  Similarity=0.793  Sum_probs=0.0  Template_Neff=5.500
+
+Q LATPYV            2 ATPYV    6 (6)
+Q Consensus         2 atpyv    6 (6)
+                      |+|+|
+T Consensus        80 Ald~v   84 (99)
+T 5VIT_K           80 ATPGV   84 (99)
+T ss_pred             CCchH
+
+
+No 10
+>1IU9_A aspartate racemase(E.C.5.1.1.13); Aspartate racemase, C-terminal domain, ISOMERASE; 2.04A {Pyrococcus horikoshii} SCOP: c.78.2.1
+Probab=12.15  E-value=2.2e+02  Score=9.93  Aligned_cols=5  Identities=60%  Similarity=0.335  Sum_probs=0.0  Template_Neff=9.700
+
+Q LATPYV            1 LATPY    5 (6)
+Q Consensus         1 latpy    5 (6)
+                      |+||+
+T Consensus        20 laT~~   24 (111)
+T 1IU9_A           20 LATTG   24 (111)
+T ss_pred             EEChH
+
+

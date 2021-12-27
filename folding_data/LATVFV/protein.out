@@ -1,0 +1,148 @@
+Query         LATVFV
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 15:29:06 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LATVFV/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LATVFV/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4U10_A Poly-beta-1,6-N-acetyl-   8.0 3.9E+02  0.0043   11.2   0.0    5    2-6      95-99  (280)
+  2 5UQ1_D Cyclin-dependent kinase   7.9 3.9E+02  0.0044   12.3   0.0    6    1-6      48-53  (160)
+  3 5UQ2_B Cyclin-dependent kinase   7.9   4E+02  0.0044   12.3   0.0    6    1-6      48-53  (160)
+  4 4DL0_C V-type proton ATPase su   7.7   4E+02  0.0045   11.5   0.0    6    1-6      44-49  (130)
+  5 4EFA_C V-type proton ATPase su   7.7   4E+02  0.0045   11.5   0.0    6    1-6      44-49  (130)
+  6 2QV5_A Uncharacterized protein   7.6 4.2E+02  0.0046   10.9   0.0    5    2-6      57-61  (261)
+  7 4QPV_A Uncharacterized protein   7.5 4.3E+02  0.0047   13.1   0.0    5    2-6      79-83  (296)
+  8 6YSF_B Chemotaxis motB protein   6.9 4.7E+02  0.0053   10.7   0.0    6    1-6      30-35  (251)
+  9 5WT7_A Periostin; Periostin, I   6.7 4.9E+02  0.0055    9.0   0.0    4    3-6      40-43  (140)
+ 10 4D3H_B PSTA; SIGNALLING PROTEI   6.7 4.9E+02  0.0055   10.7   0.0    5    2-6     115-119 (128)
+
+No 1
+>4U10_A Poly-beta-1,6-N-acetyl-D-glucosamine N-deacetylase (E.C.3.5.1.41); de-N-acetylase, Aggregatibacter actinomycetemcomitans, Zinc Inhibition; HET: MSE; 2.05A {Aggregatibacter actinomycetemcomitans}
+Probab=8.03  E-value=3.9e+02  Score=11.20  Aligned_cols=5  Identities=20%  Similarity=-0.104  Sum_probs=0.0  Template_Neff=9.100
+
+Q LATVFV            2 ATVFV    6 (6)
+Q Consensus         2 atvfv    6 (6)
+                      ||+||
+T Consensus        95 at~Fv   99 (280)
+T 4U10_A           95 AVFAP   99 (280)
+T ss_dssp             EEEEE
+T ss_pred             EEEEE
+
+
+No 2
+>5UQ1_D Cyclin-dependent kinase 2 (E.C.2.7.11.22), Speedy; phosphotransferase, protein kinase, cell cycle; 3.201A {Homo sapiens}
+Probab=7.91  E-value=3.9e+02  Score=12.29  Aligned_cols=6  Identities=67%  Similarity=0.899  Sum_probs=0.0  Template_Neff=4.300
+
+Q LATVFV            1 LATVFV    6 (6)
+Q Consensus         1 latvfv    6 (6)
+                      ||.||+
+T Consensus        48 LAmV~~   53 (160)
+T 5UQ1_D           48 LAMTFV   53 (160)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 3
+>5UQ2_B Cyclin-dependent kinase 2 (E.C.2.7.11.22), Speedy; phosphotransferase, protein kinase, cell cycle; 2.7A {Homo sapiens}
+Probab=7.89  E-value=4e+02  Score=12.29  Aligned_cols=6  Identities=67%  Similarity=0.899  Sum_probs=0.0  Template_Neff=4.300
+
+Q LATVFV            1 LATVFV    6 (6)
+Q Consensus         1 latvfv    6 (6)
+                      ||.||+
+T Consensus        48 LAmV~~   53 (160)
+T 5UQ2_B           48 LAMTFV   53 (160)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 4
+>4DL0_C V-type proton ATPase subunit C; coiled-coil, heterotrimer, peripheral stalk, stator; HET: SO4; 2.905A {Saccharomyces cerevisiae}
+Probab=7.75  E-value=4e+02  Score=11.46  Aligned_cols=6  Identities=67%  Similarity=0.883  Sum_probs=0.0  Template_Neff=5.400
+
+Q LATVFV            1 LATVFV    6 (6)
+Q Consensus         1 latvfv    6 (6)
+                      |.|+||
+T Consensus        44 L~Tl~V   49 (130)
+T 4DL0_C           44 LTTVLV   49 (130)
+T ss_pred             eEEEEE
+
+
+No 5
+>4EFA_C V-type proton ATPase subunit C; heterotrimer, peripheral stalk, vacuolar ATPase; HET: SO4; 2.8163A {Saccharomyces cerevisiae}
+Probab=7.75  E-value=4e+02  Score=11.46  Aligned_cols=6  Identities=67%  Similarity=0.883  Sum_probs=0.0  Template_Neff=5.400
+
+Q LATVFV            1 LATVFV    6 (6)
+Q Consensus         1 latvfv    6 (6)
+                      |.|+||
+T Consensus        44 L~Tl~V   49 (130)
+T 4EFA_C           44 LTTVLV   49 (130)
+T ss_pred             eEEEEE
+
+
+No 6
+>2QV5_A Uncharacterized protein Atu2773; STRUCTURAL GENOMICS, UNKNOWN FUNCTION, PSI-2; 1.9A {Agrobacterium tumefaciens str.}
+Probab=7.57  E-value=4.2e+02  Score=10.89  Aligned_cols=5  Identities=20%  Similarity=-0.044  Sum_probs=0.0  Template_Neff=9.300
+
+Q LATVFV            2 ATVFV    6 (6)
+Q Consensus         2 atvfv    6 (6)
+                      ||+|+
+T Consensus        57 aTFfv   61 (261)
+T 2QV5_A           57 VTLGF   61 (261)
+T ss_dssp             SEEEE
+T ss_pred             eEEEE
+
+
+No 7
+>4QPV_A Uncharacterized protein; PF07901 family protein, DUF1672, unique; HET: MSE; 1.8A {Staphylococcus aureus subsp. aureus Mu50}
+Probab=7.46  E-value=4.3e+02  Score=13.13  Aligned_cols=5  Identities=60%  Similarity=0.919  Sum_probs=0.0  Template_Neff=4.700
+
+Q LATVFV            2 ATVFV    6 (6)
+Q Consensus         2 atvfv    6 (6)
+                      ++|||
+T Consensus        79 v~VfV   83 (296)
+T 4QPV_A           79 VEVFV   83 (296)
+T ss_dssp             EEEEE
+T ss_pred             EEEEE
+
+
+No 8
+>6YSF_B Chemotaxis motB protein, Chemotaxis MotA; Stator Flagellar rotation ion driven;{Clostridium sporogenes}
+Probab=6.86  E-value=4.7e+02  Score=10.67  Aligned_cols=6  Identities=50%  Similarity=0.861  Sum_probs=0.0  Template_Neff=9.300
+
+Q LATVFV            1 LATVFV    6 (6)
+Q Consensus         1 latvfv    6 (6)
+                      |.++||
+T Consensus        30 Ll~fFv   35 (251)
+T 6YSF_B           30 LLTFFI   35 (251)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 9
+>5WT7_A Periostin; Periostin, Integrin, Cell adhesion, Cancer; NMR {Homo sapiens}
+Probab=6.67  E-value=4.9e+02  Score=9.02  Aligned_cols=4  Identities=75%  Similarity=1.223  Sum_probs=0.0  Template_Neff=10.600
+
+Q LATVFV            3 TVFV    6 (6)
+Q Consensus         3 tvfv    6 (6)
+                      |+|+
+T Consensus        40 Tvfa   43 (140)
+T 5WT7_A           40 TLFV   43 (140)
+T ss_dssp             EEEE
+T ss_pred             EEEE
+
+
+No 10
+>4D3H_B PSTA; SIGNALLING PROTEIN, GRAM-POSITIVE, C-DI-AMP; HET: 2BA; 2.0A {STAPHYLOCOCCUS AUREUS}
+Probab=6.67  E-value=4.9e+02  Score=10.72  Aligned_cols=5  Identities=100%  Similarity=1.245  Sum_probs=0.0  Template_Neff=6.500
+
+Q LATVFV            2 ATVFV    6 (6)
+Q Consensus         2 atvfv    6 (6)
+                      +++||
+T Consensus       115 ~~Ifv  119 (128)
+T 4D3H_B          115 ATVFV  119 (128)
+T ss_dssp             EEEEE
+T ss_pred             EEEEE
+
+

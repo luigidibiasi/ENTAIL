@@ -1,0 +1,264 @@
+Query         DECFFF
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 17:02:10 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/DECFFF/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/DECFFF/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 7RYJ_F MmuPV1, papillomavirus,  50.2      15 0.00016   19.5   0.0    6    1-6     240-245 (509)
+  2 1U96_A Cytochrome c oxidase co  48.3      16 0.00018   14.8   0.0    6    1-6      34-39  (69)
+  3 5JB1_F Major capsid protein L1  45.5      19 0.00022   19.0   0.0    6    1-6     236-241 (500)
+  4 5W1O_A Major capsid protein L1  45.3      20 0.00022   18.7   0.0    6    1-6     225-230 (427)
+  5 5W1O_E Major capsid protein L1  45.3      20 0.00022   18.7   0.0    6    1-6     225-230 (427)
+  6 5Y9F_A Major capsid protein L1  45.0      20 0.00022   19.0   0.0    6    1-6     236-241 (500)
+  7 4GGJ_A Mitochondrial cardiolip  44.9      20 0.00022   13.5   0.0    6    1-6       9-14  (196)
+  8 3IYJ_A Major capsid protein L1  44.7      20 0.00023   19.0   0.0    6    1-6     240-245 (495)
+  9 5W1X_G Major capsid protein L1  44.2      21 0.00023   18.6   0.0    6    1-6     225-230 (427)
+ 10 2R5I_K HPV18, pentamer, type s  43.9      21 0.00024   18.6   0.0    6    1-6     225-230 (428)
+ 11 5Y9E_D Major capsid protein L1  43.1      22 0.00025   18.8   0.0    6    1-6     236-241 (490)
+ 12 3J6R_A Major capsid protein L1  42.1      24 0.00026   18.6   0.0    6    1-6     236-241 (478)
+ 13 2RN9_A Cytochrome c oxidase co  39.1      28 0.00032   14.1   0.0    6    1-6      38-43  (67)
+ 14 6ITW_A Type VI immunity protei  32.3      43 0.00048   14.2   0.0    6    1-6     168-173 (232)
+ 15 3EOP_B Thymocyte nuclear prote  31.3      46 0.00051   15.0   0.0    6    1-6      56-61  (176)
+ 16 3EOP_A Thymocyte nuclear prote  31.3      46 0.00051   15.0   0.0    6    1-6      56-61  (176)
+ 17 5J3E_B Thymocyte nuclear prote  20.9      95  0.0011   14.6   0.0    6    1-6     109-114 (225)
+
+No 1
+>7RYJ_F MmuPV1, papillomavirus, L1, capsomer, subparticle; 3.3A {Mus musculus papillomavirus type 1}
+Probab=50.24  E-value=15  Score=19.47  Aligned_cols=6  Identities=67%  Similarity=1.442  Sum_probs=4.6  Template_Neff=3.300
+
+Q DECFFF            1 DECFFF    6 (6)
+Q Consensus         1 decfff    6 (6)
+                      |.||||
+T Consensus       240 ds~FFf  245 (509)
+T 7RYJ_F          240 DKMFFF  245 (509)
+T ss_dssp             CSCSEE
+T ss_pred             CeeEEE
+Confidence            578886
+
+
+No 2
+>1U96_A Cytochrome c oxidase copper chaperone; Metallochaperone, Unstructured N-terminus, Two Alpha-Helices; HET: CU1; NMR {Saccharomyces cerevisiae} SCOP: a.17.1.2
+Probab=48.31  E-value=16  Score=14.83  Aligned_cols=6  Identities=50%  Similarity=1.447  Sum_probs=3.7  Template_Neff=3.800
+
+Q DECFFF            1 DECFFF    6 (6)
+Q Consensus         1 decfff    6 (6)
+                      |||+.+
+T Consensus        34 DeCil~   39 (69)
+T 1U96_A           34 DTCILF   39 (69)
+T ss_dssp             HHHHHH
+T ss_pred             HhHHHH
+Confidence            677653
+
+
+No 3
+>5JB1_F Major capsid protein L1; Capsid, T=7 icosahedral, Virus-like Particle; 6.0A {Human papillomavirus type 59}
+Probab=45.48  E-value=19  Score=19.02  Aligned_cols=6  Identities=50%  Similarity=0.954  Sum_probs=4.5  Template_Neff=3.300
+
+Q DECFFF            1 DECFFF    6 (6)
+Q Consensus         1 decfff    6 (6)
+                      |.||||
+T Consensus       236 ds~FF~  241 (500)
+T 5JB1_F          236 DSMFFC  241 (500)
+T ss_dssp             CSCSEE
+T ss_pred             CceeEE
+Confidence            578886
+
+
+No 4
+>5W1O_A Major capsid protein L1; human papillomavirus, jelly roll, capsid; HET: IDS, JHM; 2.8A {Human papillomavirus}
+Probab=45.31  E-value=20  Score=18.68  Aligned_cols=6  Identities=50%  Similarity=1.248  Sum_probs=4.5  Template_Neff=3.300
+
+Q DECFFF            1 DECFFF    6 (6)
+Q Consensus         1 decfff    6 (6)
+                      |.||||
+T Consensus       225 ds~FF~  230 (427)
+T 5W1O_A          225 DSLFFY  230 (427)
+T ss_dssp             CSCSEE
+T ss_pred             CeeEEE
+Confidence            568886
+
+
+No 5
+>5W1O_E Major capsid protein L1; human papillomavirus, jelly roll, capsid; HET: IDS, JHM; 2.8A {Human papillomavirus}
+Probab=45.31  E-value=20  Score=18.68  Aligned_cols=6  Identities=50%  Similarity=1.248  Sum_probs=4.5  Template_Neff=3.300
+
+Q DECFFF            1 DECFFF    6 (6)
+Q Consensus         1 decfff    6 (6)
+                      |.||||
+T Consensus       225 ds~FF~  230 (427)
+T 5W1O_E          225 DSLFFY  230 (427)
+T ss_dssp             CSCSEE
+T ss_pred             CeeEEE
+Confidence            568886
+
+
+No 6
+>5Y9F_A Major capsid protein L1, light; capsid protein, immune complex, STRUCTURAL; 3.35A {Mus musculus}
+Probab=45.05  E-value=20  Score=18.98  Aligned_cols=6  Identities=50%  Similarity=0.954  Sum_probs=4.5  Template_Neff=3.300
+
+Q DECFFF            1 DECFFF    6 (6)
+Q Consensus         1 decfff    6 (6)
+                      |.||||
+T Consensus       236 ds~FF~  241 (500)
+T 5Y9F_A          236 DSMFFC  241 (500)
+T ss_dssp             CSCSEE
+T ss_pred             CceeEE
+Confidence            568886
+
+
+No 7
+>4GGJ_A Mitochondrial cardiolipin hydrolase (E.C.3.1.4.-); piRNA pathway, protein-RNA interactions, piRNA; 1.75A {Mus musculus}
+Probab=44.91  E-value=20  Score=13.51  Aligned_cols=6  Identities=50%  Similarity=1.071  Sum_probs=3.3  Template_Neff=10.000
+
+Q DECFFF            1 DECFFF    6 (6)
+Q Consensus         1 decfff    6 (6)
+                      ++|+||
+T Consensus         9 ~~~~~~   14 (196)
+T 4GGJ_A            9 REVLFF   14 (196)
+T ss_dssp             EEEEEE
+T ss_pred             eeEEec
+Confidence            356654
+
+
+No 8
+>3IYJ_A Major capsid protein L1; bovine papillomavirus BPV1, major capsid; 4.2A {Bovine papillomavirus type 1}
+Probab=44.66  E-value=20  Score=18.96  Aligned_cols=6  Identities=50%  Similarity=1.248  Sum_probs=4.5  Template_Neff=3.200
+
+Q DECFFF            1 DECFFF    6 (6)
+Q Consensus         1 decfff    6 (6)
+                      |.||||
+T Consensus       240 ds~FF~  245 (495)
+T 3IYJ_A          240 NSMFFF  245 (495)
+T ss_dssp             TTCSEE
+T ss_pred             ceeEEE
+Confidence            568886
+
+
+No 9
+>5W1X_G Major capsid protein L1; protein oligosaccharide complex, jelly roll; HET: IDS, JHM; 3.374A {Human papillomavirus type 18}
+Probab=44.22  E-value=21  Score=18.59  Aligned_cols=6  Identities=50%  Similarity=0.954  Sum_probs=4.4  Template_Neff=3.300
+
+Q DECFFF            1 DECFFF    6 (6)
+Q Consensus         1 decfff    6 (6)
+                      |.||||
+T Consensus       225 ds~FF~  230 (427)
+T 5W1X_G          225 DSMFFC  230 (427)
+T ss_dssp             CSCSCE
+T ss_pred             CceeEE
+Confidence            568886
+
+
+No 10
+>2R5I_K HPV18, pentamer, type specific epitope; 3.4A {Human papillomavirus type 18}
+Probab=43.91  E-value=21  Score=18.56  Aligned_cols=6  Identities=50%  Similarity=0.954  Sum_probs=4.4  Template_Neff=3.300
+
+Q DECFFF            1 DECFFF    6 (6)
+Q Consensus         1 decfff    6 (6)
+                      |.||||
+T Consensus       225 ds~FFf  230 (428)
+T 2R5I_K          225 DSMFFC  230 (428)
+T ss_dssp             CSCSEE
+T ss_pred             CceeEE
+Confidence            568886
+
+
+No 11
+>5Y9E_D Major capsid protein L1; capsid protein, pentamer, STRUCTURAL PROTEIN; HET: GOL, MG; 2.042A {Human papillomavirus type 58}
+Probab=43.10  E-value=22  Score=18.81  Aligned_cols=6  Identities=67%  Similarity=1.353  Sum_probs=4.5  Template_Neff=3.200
+
+Q DECFFF            1 DECFFF    6 (6)
+Q Consensus         1 decfff    6 (6)
+                      |.||||
+T Consensus       236 ds~FF~  241 (490)
+T 5Y9E_D          236 DSLFFF  241 (490)
+T ss_dssp             CSCSEE
+T ss_pred             CeeEEE
+Confidence            568886
+
+
+No 12
+>3J6R_A Major capsid protein L1; capsid protein, VIRUS; 9.1A {Human papillomavirus type 16}
+Probab=42.07  E-value=24  Score=18.63  Aligned_cols=6  Identities=50%  Similarity=1.248  Sum_probs=4.4  Template_Neff=3.300
+
+Q DECFFF            1 DECFFF    6 (6)
+Q Consensus         1 decfff    6 (6)
+                      |.||||
+T Consensus       236 ds~FF~  241 (478)
+T 3J6R_A          236 DSLFFY  241 (478)
+T ss_dssp             SSCSBC
+T ss_pred             CeeEEE
+Confidence            568886
+
+
+No 13
+>2RN9_A Cytochrome c oxidase copper chaperone; coiled coil-helix-coiled coil-helix domain, copper; NMR {Homo sapiens}
+Probab=39.06  E-value=28  Score=14.10  Aligned_cols=6  Identities=33%  Similarity=0.794  Sum_probs=3.5  Template_Neff=3.800
+
+Q DECFFF            1 DECFFF    6 (6)
+Q Consensus         1 decfff    6 (6)
+                      |+|+.+
+T Consensus        38 DeCil~   43 (67)
+T 2RN9_A           38 DACIIE   43 (67)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHh
+Confidence            567653
+
+
+No 14
+>6ITW_A Type VI immunity protein Atu4351; type six secretion system effector-immunity; HET: MSE; 2.4A {Agrobacterium fabrum (strain C58 / ATCC 33970)}
+Probab=32.29  E-value=43  Score=14.20  Aligned_cols=6  Identities=0%  Similarity=-0.042  Sum_probs=3.1  Template_Neff=7.800
+
+Q DECFFF            1 DECFFF    6 (6)
+Q Consensus         1 decfff    6 (6)
+                      ||||.|
+T Consensus       168 ~E~ygf  173 (232)
+T 6ITW_A          168 GQIYSP  173 (232)
+T ss_pred             CcEEEe
+Confidence            456543
+
+
+No 15
+>3EOP_B Thymocyte nuclear protein 1; unknown function, Nucleus, Phosphoprotein; HET: SO4; 2.3A {Homo sapiens}
+Probab=31.31  E-value=46  Score=15.03  Aligned_cols=6  Identities=50%  Similarity=1.436  Sum_probs=3.5  Template_Neff=4.900
+
+Q DECFFF            1 DECFFF    6 (6)
+Q Consensus         1 decfff    6 (6)
+                      |.|||+
+T Consensus        56 D~v~fY   61 (176)
+T 3EOP_B           56 EEAFFY   61 (176)
+T ss_dssp             CEEEEE
+T ss_pred             CEEEEE
+Confidence            566663
+
+
+No 16
+>3EOP_A Thymocyte nuclear protein 1; unknown function, Nucleus, Phosphoprotein; HET: SO4; 2.3A {Homo sapiens}
+Probab=31.27  E-value=46  Score=15.03  Aligned_cols=6  Identities=50%  Similarity=1.436  Sum_probs=3.5  Template_Neff=4.900
+
+Q DECFFF            1 DECFFF    6 (6)
+Q Consensus         1 decfff    6 (6)
+                      |.|||+
+T Consensus        56 D~vffY   61 (176)
+T 3EOP_A           56 EEAFFY   61 (176)
+T ss_dssp             CEEEEE
+T ss_pred             CEEEEE
+Confidence            566663
+
+
+No 17
+>5J3E_B Thymocyte nuclear protein 1/DNA Complex; protein-DNA complex, modified DNA, 5-methylcytosine; HET: 5CM; 2.6A {Homo sapiens}
+Probab=20.93  E-value=95  Score=14.56  Aligned_cols=6  Identities=50%  Similarity=1.436  Sum_probs=3.3  Template_Neff=4.900
+
+Q DECFFF            1 DECFFF    6 (6)
+Q Consensus         1 decfff    6 (6)
+                      |+|||+
+T Consensus       109 D~vffY  114 (225)
+T 5J3E_B          109 EEAFFY  114 (225)
+T ss_dssp             CEEEEE
+T ss_pred             CEEEEE
+Confidence            456653
+
+

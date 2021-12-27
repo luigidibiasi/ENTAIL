@@ -1,0 +1,220 @@
+Query         CILFWG
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 16:24:13 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/CILFWG/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/CILFWG/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 1EU1_A DIMETHYL SULFOXIDE REDU  36.2      34 0.00037   15.8   0.0    6    1-6     180-185 (780)
+  2 6CZ8_A ArrA, 4Fe-4S ferredoxin  31.1      47 0.00052   15.6   0.0    6    1-6     180-185 (814)
+  3 2NAP_A PROTEIN (PERIPLASMIC NI  28.4      56 0.00061   15.0   0.0    6    1-6     169-174 (723)
+  4 2V45_A PERIPLASMIC NITRATE RED  28.4      56 0.00061   15.0   0.0    6    1-6     169-174 (723)
+  5 5E7O_A DMSO reductase family t  25.8      66 0.00073   15.7   0.0    6    1-6     196-201 (899)
+  6 2E7Z_A Acetylene hydratase Ahy  25.2      69 0.00076   14.8   0.0    6    1-6     163-168 (727)
+  7 6CZ7_A ArrA, 4Fe-4S ferredoxin  22.7      83 0.00091   15.1   0.0    6    1-6     180-185 (814)
+  8 6CZA_C Arsenate respiratory re  22.7      83 0.00091   15.1   0.0    6    1-6     180-185 (814)
+  9 4AAY_C AROA, AROB; OXIDOREDUCT  21.6      90   0.001   15.1   0.0    6    1-6     231-236 (845)
+ 10 1KQF_A FORMATE DEHYDROGENASE,   21.5      91   0.001   15.7   0.0    6    1-6     225-230 (1015)
+ 11 4YDD_E DMSO reductase family t  21.5      91   0.001   15.4   0.0    6    1-6     196-201 (899)
+ 12 5CHC_E DMSO reductase family t  21.5      91   0.001   15.4   0.0    6    1-6     196-201 (899)
+ 13 5NQD_A Arsenite oxidase large   20.8      96  0.0011   15.0   0.0    6    1-6     230-235 (843)
+ 14 6YJ4_G NADH-ubiquinone oxidore  20.6      97  0.0011   14.9   0.0    6    1-6     409-414 (728)
+
+No 1
+>1EU1_A DIMETHYL SULFOXIDE REDUCTASE (E.C.1.8.99.-); Molybdenum, Molybdenum Cofactor, DMSO, Reductase; HET: MGD, EPE, GLC; 1.3A {Rhodobacter sphaeroides} SCOP: c.81.1.1, b.52.2.2
+Probab=36.22  E-value=34  Score=15.84  Aligned_cols=6  Identities=33%  Similarity=1.359  Sum_probs=3.4  Template_Neff=9.700
+
+Q CILFWG            1 CILFWG    6 (6)
+Q Consensus         1 cilfwg    6 (6)
+                      +|++||
+T Consensus       180 ~il~~G  185 (780)
+T 1EU1_A          180 LMVFWA  185 (780)
+T ss_dssp             EEEEES
+T ss_pred             EEEEEe
+Confidence            456665
+
+
+No 2
+>6CZ8_A ArrA, 4Fe-4S ferredoxin, iron-sulfur binding; arsenate, molybdoprotein, molybdopterin, OXIDOREDUCTASE; HET: FMT, MGD, PG5, ART, SF4; 1.78A {Shewanella sp. (strain ANA-3)}
+Probab=31.06  E-value=47  Score=15.57  Aligned_cols=6  Identities=50%  Similarity=0.811  Sum_probs=3.5  Template_Neff=9.600
+
+Q CILFWG            1 CILFWG    6 (6)
+Q Consensus         1 cilfwg    6 (6)
+                      +|++||
+T Consensus       180 ~il~~G  185 (814)
+T 6CZ8_A          180 FILSFG  185 (814)
+T ss_dssp             EEEEES
+T ss_pred             EEEEEC
+Confidence            456665
+
+
+No 3
+>2NAP_A PROTEIN (PERIPLASMIC NITRATE REDUCTASE); NITROGENOUS ACCEPTOR, DISSIMILATORY NITRATE REDUCTASE; HET: MES, MGD; 1.9A {Desulfovibrio desulfuricans} SCOP: b.52.2.2, c.81.1.1
+Probab=28.37  E-value=56  Score=14.99  Aligned_cols=6  Identities=33%  Similarity=1.126  Sum_probs=3.3  Template_Neff=9.800
+
+Q CILFWG            1 CILFWG    6 (6)
+Q Consensus         1 cilfwg    6 (6)
+                      +|++||
+T Consensus       169 ~ii~~G  174 (723)
+T 2NAP_A          169 CFFIIG  174 (723)
+T ss_dssp             EEEEES
+T ss_pred             EEEEeC
+Confidence            355665
+
+
+No 4
+>2V45_A PERIPLASMIC NITRATE REDUCTASE (E.C.1.7.99.4); NITRATE ASSIMILATION, NITROGENOUS ACCEPTOR, IRON; HET: MGD; 2.4A {DESULFOVIBRIO DESULFURICANS} SCOP: c.81.1.1, b.52.2.2
+Probab=28.37  E-value=56  Score=14.99  Aligned_cols=6  Identities=33%  Similarity=1.126  Sum_probs=3.3  Template_Neff=9.800
+
+Q CILFWG            1 CILFWG    6 (6)
+Q Consensus         1 cilfwg    6 (6)
+                      +|++||
+T Consensus       169 ~ii~~G  174 (723)
+T 2V45_A          169 CFFIIG  174 (723)
+T ss_dssp             EEEEES
+T ss_pred             EEEEeC
+Confidence            355665
+
+
+No 5
+>5E7O_A DMSO reductase family type II; oxidoreductase Mo-bisMGD Fe-S cluster perchlorate; HET: SF4, MD1, F3S, GOL, MGD, EDO; 2.4A {Dechlorosoma suillum (strain ATCC BAA-33 / DSM 13638 / PS)}
+Probab=25.83  E-value=66  Score=15.70  Aligned_cols=6  Identities=50%  Similarity=1.614  Sum_probs=3.6  Template_Neff=8.900
+
+Q CILFWG            1 CILFWG    6 (6)
+Q Consensus         1 cilfwg    6 (6)
+                      +|++||
+T Consensus       196 ~il~~G  201 (899)
+T 5E7O_A          196 YIILWG  201 (899)
+T ss_dssp             EEEEES
+T ss_pred             EEEEEc
+Confidence            466665
+
+
+No 6
+>2E7Z_A Acetylene hydratase Ahy (E.C.4.2.1.71); tungstoprotein, DMSO reductase family, iron-sulfur-cluster; HET: MPD, MGD; 1.26A {Pelobacter acetylenicus}
+Probab=25.19  E-value=69  Score=14.78  Aligned_cols=6  Identities=67%  Similarity=1.669  Sum_probs=3.2  Template_Neff=9.700
+
+Q CILFWG            1 CILFWG    6 (6)
+Q Consensus         1 cilfwg    6 (6)
+                      +|++||
+T Consensus       163 ~il~~G  168 (727)
+T 2E7Z_A          163 CLLFIG  168 (727)
+T ss_dssp             EEEEES
+T ss_pred             EEEEEc
+Confidence            355565
+
+
+No 7
+>6CZ7_A ArrA, 4Fe-4S ferredoxin, iron-sulfur binding; arsenate, molybdoprotein, molybdopterin, OXIDOREDUCTASE; HET: MGD, SF4, PG5, FMT, PEG; 1.62A {Shewanella sp. (strain ANA-3)}
+Probab=22.73  E-value=83  Score=15.10  Aligned_cols=6  Identities=50%  Similarity=0.811  Sum_probs=3.3  Template_Neff=9.100
+
+Q CILFWG            1 CILFWG    6 (6)
+Q Consensus         1 cilfwg    6 (6)
+                      +||+||
+T Consensus       180 ~il~~G  185 (814)
+T 6CZ7_A          180 FILSFG  185 (814)
+T ss_dssp             EEEEES
+T ss_pred             EEEEEc
+Confidence            356665
+
+
+No 8
+>6CZA_C Arsenate respiratory reductase, large subunit; arsenate, molybdoprotein, molybdopterin, phosphate, OXIDOREDUCTASE; HET: SF4, PG5, FMT, PEG, PO4, MGD; 1.71A {Shewanella sp. (strain ANA-3)}
+Probab=22.73  E-value=83  Score=15.10  Aligned_cols=6  Identities=50%  Similarity=0.811  Sum_probs=3.3  Template_Neff=9.100
+
+Q CILFWG            1 CILFWG    6 (6)
+Q Consensus         1 cilfwg    6 (6)
+                      +||+||
+T Consensus       180 ~il~~G  185 (814)
+T 6CZA_C          180 FILSFG  185 (814)
+T ss_dssp             EEEEES
+T ss_pred             EEEEEc
+Confidence            356665
+
+
+No 9
+>4AAY_C AROA, AROB; OXIDOREDUCTASE, RIESKE, IRON SULFUR, MOLYBDOPTERIN; HET: MGD, F3S, FES; 2.7A {ARSENITE-OXIDISING BACTERIUM NT-26}
+Probab=21.59  E-value=90  Score=15.06  Aligned_cols=6  Identities=33%  Similarity=0.390  Sum_probs=3.2  Template_Neff=9.100
+
+Q CILFWG            1 CILFWG    6 (6)
+Q Consensus         1 cilfwg    6 (6)
+                      +|++||
+T Consensus       231 ~il~~G  236 (845)
+T 4AAY_C          231 TIVAVG  236 (845)
+T ss_dssp             EEEEES
+T ss_pred             EEEEEc
+Confidence            355665
+
+
+No 10
+>1KQF_A FORMATE DEHYDROGENASE, NITRATE-INDUCIBLE, MAJOR, IRON-SULFUR; OXIDOREDUCTASE, SELENIUM, SELENOCYSTEINE, SECYS, MOLYBDENUM; HET: SF4, MGD, HEM, CDL; 1.6A {Escherichia coli} SCOP: c.81.1.1, b.52.2.2
+Probab=21.54  E-value=91  Score=15.74  Aligned_cols=6  Identities=17%  Similarity=0.645  Sum_probs=3.5  Template_Neff=8.500
+
+Q CILFWG            1 CILFWG    6 (6)
+Q Consensus         1 cilfwg    6 (6)
+                      +|++||
+T Consensus       225 ~Iv~~G  230 (1015)
+T 1KQF_A          225 VVMVMG  230 (1015)
+T ss_dssp             EEEEES
+T ss_pred             EEEEEC
+Confidence            456665
+
+
+No 11
+>4YDD_E DMSO reductase family type II; electron-shuttling protein, OXIDOREDUCTASE; HET: GOL, F3S, MGD, PEG, MD1, EDO, SF4; 1.86A {Dechlorosoma suillum}
+Probab=21.54  E-value=91  Score=15.39  Aligned_cols=6  Identities=50%  Similarity=1.614  Sum_probs=3.5  Template_Neff=8.700
+
+Q CILFWG            1 CILFWG    6 (6)
+Q Consensus         1 cilfwg    6 (6)
+                      +|++||
+T Consensus       196 ~il~~G  201 (899)
+T 4YDD_E          196 YIILWG  201 (899)
+T ss_dssp             EEEEES
+T ss_pred             EEEEEc
+Confidence            356665
+
+
+No 12
+>5CHC_E DMSO reductase family type II; electron-shuttling protein, OXIDOREDUCTASE; HET: F3S, BSY, MGD, MD1, EDO, SO3, SF4; 2.38A {Azospira oryzae (strain ATCC BAA-33 / DSM 13638 / PS)}
+Probab=21.54  E-value=91  Score=15.39  Aligned_cols=6  Identities=50%  Similarity=1.614  Sum_probs=3.5  Template_Neff=8.700
+
+Q CILFWG            1 CILFWG    6 (6)
+Q Consensus         1 cilfwg    6 (6)
+                      +|++||
+T Consensus       196 ~il~~G  201 (899)
+T 5CHC_E          196 YIILWG  201 (899)
+T ss_dssp             EEEEES
+T ss_pred             EEEEEc
+Confidence            356665
+
+
+No 13
+>5NQD_A Arsenite oxidase large subunit AioA; Arsenite oxidase, DMSOR family, Rieske; HET: GOL, F3S, FES, MGD, PGE, EDO, P33, SO4; 2.2A {Rhizobium sp. NT-26}
+Probab=20.83  E-value=96  Score=15.03  Aligned_cols=6  Identities=33%  Similarity=0.390  Sum_probs=3.2  Template_Neff=9.000
+
+Q CILFWG            1 CILFWG    6 (6)
+Q Consensus         1 cilfwg    6 (6)
+                      +|++||
+T Consensus       230 ~il~~G  235 (843)
+T 5NQD_A          230 TIVAVG  235 (843)
+T ss_dssp             EEEEES
+T ss_pred             EEEEEc
+Confidence            355565
+
+
+No 14
+>6YJ4_G NADH-ubiquinone oxidoreductase chain 3 (E.C.7.1.1.2); NADH:Ubiquinone Oxidoreductase, complex I, MEMBRANE; HET: SF4, FME, 2MR, PLC, FMN, NDP, EHZ, CDL, 3PE, LMT; 2.7A {Yarrowia lipolytica}
+Probab=20.61  E-value=97  Score=14.89  Aligned_cols=6  Identities=50%  Similarity=0.805  Sum_probs=3.3  Template_Neff=8.700
+
+Q CILFWG            1 CILFWG    6 (6)
+Q Consensus         1 cilfwg    6 (6)
+                      +||+||
+T Consensus       409 ~ill~G  414 (728)
+T 6YJ4_G          409 AILLVG  414 (728)
+T ss_dssp             EEEEES
+T ss_pred             EEEEEC
+Confidence            356665
+
+

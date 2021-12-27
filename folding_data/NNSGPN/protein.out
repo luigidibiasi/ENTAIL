@@ -1,0 +1,146 @@
+Query         NNSGPN
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 02:53:59 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NNSGPN/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NNSGPN/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 1X4Q_A U4/U6 small nuclear rib   8.5 3.6E+02   0.004   10.2   0.0    5    1-5      85-89  (92)
+  2 2EEF_A Protein phosphatase 1,    8.1 3.8E+02  0.0042   11.4   0.0    6    1-6     127-132 (156)
+  3 7EGB_E Integrator complex subu   7.6 4.1E+02  0.0046   13.4   0.0    5    2-6      41-45  (800)
+  4 7EGG_E Transcription initiatio   7.6 4.1E+02  0.0046   13.4   0.0    5    2-6      41-45  (800)
+  5 4ERX_B Peptidyl-tRNA hydrolase   7.5 4.2E+02  0.0047   11.5   0.0    5    1-5      70-74  (194)
+  6 1R00_A aclacinomycin-10-hydrox   7.4 4.3E+02  0.0048   10.9   0.0    6    1-6       2-7   (374)
+  7 1RYN_A protein CRS2; ALPHA-BET   7.3 4.4E+02  0.0049   11.7   0.0    5    1-5      70-74  (202)
+  8 2VOY_B POTENTIAL COPPER-TRANSP   7.1 4.5E+02   0.005    7.3   0.0    3    4-6       2-4   (42)
+  9 4V6W_Ae Ribosome; eukarya, euk   7.0 4.6E+02  0.0051    9.5   0.0    3    4-6     126-128 (132)
+ 10 1WTE_A EcoO109IR/DNA Complex;    7.0 4.6E+02  0.0051   12.8   0.0    4    3-6     127-130 (272)
+
+No 1
+>1X4Q_A U4/U6 small nuclear ribonucleoprotein Prp3; PWI domain, Structural Genomics, NPPSFA; NMR {Homo sapiens}
+Probab=8.48  E-value=3.6e+02  Score=10.22  Aligned_cols=5  Identities=60%  Similarity=1.232  Sum_probs=0.0  Template_Neff=7.200
+
+Q NNSGPN            1 NNSGP    5 (6)
+Q Consensus         1 nnsgp    5 (6)
+                      +.|||
+T Consensus        85 ~~~~~   89 (92)
+T 1X4Q_A           85 HSSGP   89 (92)
+T ss_dssp             CCSSC
+T ss_pred             ccCCC
+
+
+No 2
+>2EEF_A Protein phosphatase 1, regulatory (Inhibitor); CBM_21 domain, carbohydrate binding domain; NMR {Homo sapiens}
+Probab=8.07  E-value=3.8e+02  Score=11.38  Aligned_cols=6  Identities=50%  Similarity=0.794  Sum_probs=0.0  Template_Neff=6.500
+
+Q NNSGPN            1 NNSGPN    6 (6)
+Q Consensus         1 nnsgpn    6 (6)
+                      ||.|-|
+T Consensus       127 NN~G~N  132 (156)
+T 2EEF_A          127 SNRGKN  132 (156)
+T ss_dssp             SGGGSC
+T ss_pred             CCCCee
+
+
+No 3
+>7EGB_E Integrator complex subunit 1, Integrator; TFIID, preinitiation complex, core promoter; HET: ZN; 3.3A {Homo sapiens}
+Probab=7.64  E-value=4.1e+02  Score=13.35  Aligned_cols=5  Identities=80%  Similarity=1.511  Sum_probs=0.0  Template_Neff=8.300
+
+Q NNSGPN            2 NSGPN    6 (6)
+Q Consensus         2 nsgpn    6 (6)
+                      |+|||
+T Consensus        41 ~~~~~   45 (800)
+T 7EGB_E           41 NNGPN   45 (800)
+T ss_pred             CCCCC
+
+
+No 4
+>7EGG_E Transcription initiation factor TFIID subunit; TFIID, preinitiation complex, core promoter; 2.77A {Homo sapiens}
+Probab=7.64  E-value=4.1e+02  Score=13.35  Aligned_cols=5  Identities=80%  Similarity=1.511  Sum_probs=0.0  Template_Neff=8.300
+
+Q NNSGPN            2 NSGPN    6 (6)
+Q Consensus         2 nsgpn    6 (6)
+                      |+|||
+T Consensus        41 ~~~~~   45 (800)
+T 7EGG_E           41 NNGPN   45 (800)
+T ss_pred             CCCCC
+
+
+No 5
+>4ERX_B Peptidyl-tRNA hydrolase (E.C.3.1.1.29); Hydrolase; HET: PEG; 2.5A {Pseudomonas aeruginosa}
+Probab=7.48  E-value=4.2e+02  Score=11.46  Aligned_cols=5  Identities=60%  Similarity=0.847  Sum_probs=0.0  Template_Neff=6.900
+
+Q NNSGPN            1 NNSGP    5 (6)
+Q Consensus         1 nnsgp    5 (6)
+                      |+||+
+T Consensus        70 N~SG~   74 (194)
+T 4ERX_B           70 NRSGQ   74 (194)
+T ss_dssp             GGHHH
+T ss_pred             cchhH
+
+
+No 6
+>1R00_A aclacinomycin-10-hydroxylase; Anthracycline, hydroxylase, methyltransferase, polyketide, Streptomyces; HET: SAH; 2.5A {Streptomyces purpurascens} SCOP: c.66.1.12, a.4.5.29
+Probab=7.40  E-value=4.3e+02  Score=10.95  Aligned_cols=6  Identities=33%  Similarity=0.689  Sum_probs=0.0  Template_Neff=10.400
+
+Q NNSGPN            1 NNSGPN    6 (6)
+Q Consensus         1 nnsgpn    6 (6)
+                      ||+.||
+T Consensus         2 ~~~~~~    7 (374)
+T 1R00_A            2 SSSSPG    7 (374)
+T ss_dssp             ------
+T ss_pred             CCCCCC
+
+
+No 7
+>1RYN_A protein CRS2; ALPHA-BETA, TRANSLATION; 1.75A {Zea mays} SCOP: c.56.3.1
+Probab=7.27  E-value=4.4e+02  Score=11.66  Aligned_cols=5  Identities=60%  Similarity=0.714  Sum_probs=0.0  Template_Neff=6.500
+
+Q NNSGPN            1 NNSGP    5 (6)
+Q Consensus         1 nnsgp    5 (6)
+                      |+||+
+T Consensus        70 N~SG~   74 (202)
+T 1RYN_A           70 NYSGE   74 (202)
+T ss_dssp             GGTHH
+T ss_pred             cccch
+
+
+No 8
+>2VOY_B POTENTIAL COPPER-TRANSPORTING ATPASE (E.C.3.6.3.4), SARCOPLASMIC/ENDOPLASMIC; HYDROLASEP-TYPE ATPASE, CRYO-EM, HELICAL RECONSTRUCTION; 18.0A {ORYCTOLAGUS CUNICULUS}
+Probab=7.10  E-value=4.5e+02  Score=7.29  Aligned_cols=3  Identities=67%  Similarity=1.033  Sum_probs=0.0  Template_Neff=10.000
+
+Q NNSGPN            4 GPN    6 (6)
+Q Consensus         4 gpn    6 (6)
+                      |+|
+T Consensus         2 G~N    4 (42)
+T 2VOY_B            2 GHN    4 (42)
+T ss_pred             CCC
+
+
+No 9
+>4V6W_Ae Ribosome; eukarya, eukaryotic, ribosomal, 80S, RNA; 6.0A {Drosophila melanogaster}
+Probab=7.05  E-value=4.6e+02  Score=9.47  Aligned_cols=3  Identities=100%  Similarity=1.996  Sum_probs=0.0  Template_Neff=9.600
+
+Q NNSGPN            4 GPN    6 (6)
+Q Consensus         4 gpn    6 (6)
+                      |||
+T Consensus       126 ~~~  128 (132)
+T 4V6W_Ae         126 GPN  128 (132)
+T ss_pred             CCC
+
+
+No 10
+>1WTE_A EcoO109IR/DNA Complex; Restriction endonuclease, DNA complex, hydrolase-DNA; 1.9A {Escherichia coli} SCOP: c.52.1.29
+Probab=7.04  E-value=4.6e+02  Score=12.83  Aligned_cols=4  Identities=25%  Similarity=0.294  Sum_probs=0.0  Template_Neff=4.800
+
+Q NNSGPN            3 SGPN    6 (6)
+Q Consensus         3 sgpn    6 (6)
+                      ||||
+T Consensus       127 SGpn  130 (272)
+T 1WTE_A          127 AGKW  130 (272)
+T ss_dssp             SSTT
+T ss_pred             ccCC
+
+

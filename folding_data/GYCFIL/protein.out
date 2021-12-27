@@ -1,0 +1,154 @@
+Query         GYCFIL
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 05:09:51 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GYCFIL/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GYCFIL/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6LGQ_D Histidine kinase KdpD (  78.5     1.5 1.7E-05   15.4   0.0    6    1-6     236-241 (241)
+  2 4KNY_B KDP operon transcriptio  70.4     3.6 3.9E-05   14.1   0.0    6    1-6     222-227 (227)
+  3 4KFC_A KDP operon transcriptio  63.4     6.2 6.9E-05   13.5   0.0    6    1-6     222-227 (227)
+  4 6YRO_A SadP; Bacterial adhesio  27.4      59 0.00066   16.1   0.0    6    1-6      76-81  (223)
+  5 5BOB_B Translation initiation   27.2      60 0.00067   16.1   0.0    6    1-6      79-84  (226)
+  6 5ZMP_A lysine deacylase; lysin  19.9   1E+02  0.0011   13.7   0.0    5    1-5     135-139 (307)
+  7 5CA5_A NONO-1; DBHS homodimer,  19.7   1E+02  0.0012   11.9   0.0    5    1-5     136-140 (259)
+  8 2CQH_A IGF-II mRNA-binding pro  19.6 1.1E+02  0.0012    9.7   0.0    5    1-5      45-49  (93)
+  9 6TR0_A Splicing factor U2AF 65  19.5 1.1E+02  0.0012   10.6   0.0    5    1-5      59-63  (205)
+ 10 7C2H_G Actin, alpha skeletal m  19.3 1.1E+02  0.0012   11.4   0.0    6    1-6      28-33  (200)
+
+No 1
+>6LGQ_D Histidine kinase KdpD (E.C.2.7.13.3), DNA-binding; Two-component system, histidine kinase, response; 3.0A {Escherichia coli}
+Probab=78.54  E-value=1.5  Score=15.40  Aligned_cols=6  Identities=67%  Similarity=1.425  Sum_probs=4.2  Template_Neff=12.100
+
+Q GYCFIL            1 GYCFIL    6 (6)
+Q Consensus         1 gycfil    6 (6)
+                      |||+++
+T Consensus       236 Gy~l~~  241 (241)
+T 6LGQ_D          236 GYRFML  241 (241)
+T ss_dssp             EEEECC
+T ss_pred             eeEEeC
+Confidence            788764
+
+
+No 2
+>4KNY_B KDP operon transcriptional regulatory protein; receiver domain, DNA-binding domain, TRANSCRIPTION; 2.945A {Escherichia coli}
+Probab=70.36  E-value=3.6  Score=14.09  Aligned_cols=6  Identities=67%  Similarity=1.425  Sum_probs=3.8  Template_Neff=12.500
+
+Q GYCFIL            1 GYCFIL    6 (6)
+Q Consensus         1 gycfil    6 (6)
+                      ||+|.+
+T Consensus       222 gy~l~~  227 (227)
+T 4KNY_B          222 GYRFML  227 (227)
+T ss_pred             eeEEeC
+Confidence            677754
+
+
+No 3
+>4KFC_A KDP operon transcriptional regulatory protein; receiver domain, DNA-binding domain, TRANSCRIPTION; 2.53A {Escherichia coli}
+Probab=63.36  E-value=6.2  Score=13.51  Aligned_cols=6  Identities=67%  Similarity=1.425  Sum_probs=3.6  Template_Neff=12.500
+
+Q GYCFIL            1 GYCFIL    6 (6)
+Q Consensus         1 gycfil    6 (6)
+                      ||++.+
+T Consensus       222 gy~l~~  227 (227)
+T 4KFC_A          222 GYRFML  227 (227)
+T ss_dssp             EEEECC
+T ss_pred             eeEEeC
+Confidence            677653
+
+
+No 4
+>6YRO_A SadP; Bacterial adhesion, glycoconjugates, Streptococcus suis; HET: GOL; 2.05A {Streptococcus suis}
+Probab=27.38  E-value=59  Score=16.05  Aligned_cols=6  Identities=67%  Similarity=1.110  Sum_probs=4.1  Template_Neff=2.500
+
+Q GYCFIL            1 GYCFIL    6 (6)
+Q Consensus         1 gycfil    6 (6)
+                      ||-|||
+T Consensus        76 GyYFIl   81 (223)
+T 6YRO_A           76 GVYFIL   81 (223)
+T ss_dssp             EEEEEE
+T ss_pred             EEEEEe
+Confidence            577775
+
+
+No 5
+>5BOB_B Translation initiation factor 2 (IF-2; beta sandwich core, TRANSLATION; HET: GOL, MSE; 1.5A {Streptococcus suis (strain 05ZYH33)}
+Probab=27.19  E-value=60  Score=16.06  Aligned_cols=6  Identities=67%  Similarity=1.110  Sum_probs=4.1  Template_Neff=2.500
+
+Q GYCFIL            1 GYCFIL    6 (6)
+Q Consensus         1 gycfil    6 (6)
+                      ||-|||
+T Consensus        79 GyYFIl   84 (226)
+T 5BOB_B           79 GVYFIL   84 (226)
+T ss_dssp             EEEEEE
+T ss_pred             EEEEEe
+Confidence            577775
+
+
+No 6
+>5ZMP_A lysine deacylase; lysine deacylase, HYDROLASE; 2.19A {Synechococcus sp. PCC 73109}
+Probab=19.93  E-value=1e+02  Score=13.70  Aligned_cols=5  Identities=40%  Similarity=1.863  Sum_probs=0.0  Template_Neff=7.700
+
+Q GYCFIL            1 GYCFI    5 (6)
+Q Consensus         1 gycfi    5 (6)
+                      |||++
+T Consensus       135 GFC~~  139 (307)
+T 5ZMP_A          135 GFCLL  139 (307)
+T ss_dssp             TTBSS
+T ss_pred             cchhH
+
+
+No 7
+>5CA5_A NONO-1; DBHS homodimer, RNA binding protein; HET: EDO; 2.4A {Caenorhabditis elegans}
+Probab=19.70  E-value=1e+02  Score=11.88  Aligned_cols=5  Identities=20%  Similarity=0.401  Sum_probs=0.0  Template_Neff=10.500
+
+Q GYCFIL            1 GYCFI    5 (6)
+Q Consensus         1 gycfi    5 (6)
+                      |||||
+T Consensus       136 g~~fv  140 (259)
+T 5CA5_A          136 GEGIV  140 (259)
+T ss_dssp             EEEEE
+T ss_pred             eEEEE
+
+
+No 8
+>2CQH_A IGF-II mRNA-binding protein 2 isoform; RNA recognition motif, RRM, RNA; NMR {Homo sapiens} SCOP: d.58.7.1
+Probab=19.61  E-value=1.1e+02  Score=9.69  Aligned_cols=5  Identities=60%  Similarity=1.663  Sum_probs=0.0  Template_Neff=11.000
+
+Q GYCFIL            1 GYCFI    5 (6)
+Q Consensus         1 gycfi    5 (6)
+                      +|+||
+T Consensus        45 ~~a~v   49 (93)
+T 2CQH_A           45 GYAFV   49 (93)
+T ss_dssp             TEEEE
+T ss_pred             cEEEE
+
+
+No 9
+>6TR0_A Splicing factor U2AF 65 kDa; 3'-splice site, polypyrimidine tract, splicing; NMR {Homo sapiens}
+Probab=19.53  E-value=1.1e+02  Score=10.62  Aligned_cols=5  Identities=20%  Similarity=1.052  Sum_probs=0.0  Template_Neff=12.000
+
+Q GYCFIL            1 GYCFI    5 (6)
+Q Consensus         1 gycfi    5 (6)
+                      |+|||
+T Consensus        59 ~~a~v   63 (205)
+T 6TR0_A           59 NFAFL   63 (205)
+T ss_dssp             SCEEE
+T ss_pred             CEEEE
+
+
+No 10
+>7C2H_G Actin, alpha skeletal muscle, 2DGel3; actin regulator, STRUCTURAL PROTEIN; HET: ATP, HIC; 2.352A {Oryctolagus cuniculus}
+Probab=19.27  E-value=1.1e+02  Score=11.41  Aligned_cols=6  Identities=33%  Similarity=1.387  Sum_probs=0.0  Template_Neff=10.400
+
+Q GYCFIL            1 GYCFIL    6 (6)
+Q Consensus         1 gycfil    6 (6)
+                      +.|||+
+T Consensus        28 ~~~yil   33 (200)
+T 7C2H_G           28 GDCYLV   33 (200)
+T ss_dssp             TCEEEE
+T ss_pred             CCEEEE
+
+

@@ -1,0 +1,149 @@
+Query         NINKSN
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 01:10:52 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NINKSN/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NINKSN/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4H62_K Mediator of RNA polymer   5.7 6.1E+02  0.0067    9.8   0.0    6    1-6       6-11  (40)
+  2 1J26_A immature colon carcinom   5.6 6.2E+02  0.0069   10.3   0.0    6    1-6      36-41  (112)
+  3 6FTK_A Envelope glycoprotein g   5.1 6.9E+02  0.0077   10.1   0.0    6    1-6      16-21  (50)
+  4 7EK6_B 3C-like proteinase (E.C   5.1   7E+02  0.0077    9.3   0.0    5    1-5      18-22  (37)
+  5 2JVA_A Peptidyl-tRNA hydrolase   5.0 7.1E+02  0.0078   10.1   0.0    6    1-6      29-34  (108)
+  6 6TL0_B Vacuolar protein sortin   4.9 7.2E+02   0.008    9.5   0.0    6    1-6      50-55  (61)
+  7 1ZV8_B E2 glycoprotein; SARS c   4.8 7.4E+02  0.0082    9.0   0.0    5    1-5      25-29  (36)
+  8 6LVN_D Spike protein S2; 2019-   4.8 7.4E+02  0.0082    9.0   0.0    5    1-5      25-29  (36)
+  9 6LVN_B 2019-nCoV S2 subunit; 2   4.8 7.5E+02  0.0083    9.0   0.0    5    1-5      25-29  (36)
+ 10 2P1I_F Ribonucleotide reductas   4.6   8E+02  0.0089   11.0   0.0    5    1-5       6-10  (349)
+
+No 1
+>4H62_K Mediator of RNA polymerase II; TRANSCRIPTION, MEDIATOR COMPLEX, NUCLEUS; HET: MES; 3.0A {Saccharomyces cerevisiae}
+Probab=5.67  E-value=6.1e+02  Score=9.78  Aligned_cols=6  Identities=50%  Similarity=0.761  Sum_probs=0.0  Template_Neff=2.800
+
+Q NINKSN            1 NINKSN    6 (6)
+Q Consensus         1 ninksn    6 (6)
+                      ||||-+
+T Consensus         6 nVnKKA   11 (40)
+T 4H62_K            6 NVNKKA   11 (40)
+T ss_pred             ccChhh
+
+
+No 2
+>1J26_A immature colon carcinoma transcript 1; peptide chain release factors, RF-1; NMR {Mus musculus} SCOP: d.50.4.1
+Probab=5.56  E-value=6.2e+02  Score=10.34  Aligned_cols=6  Identities=67%  Similarity=0.927  Sum_probs=0.0  Template_Neff=6.200
+
+Q NINKSN            1 NINKSN    6 (6)
+Q Consensus         1 ninksn    6 (6)
+                      |+||.+
+T Consensus        36 ~VNk~~   41 (112)
+T 1J26_A           36 NVNKVN   41 (112)
+T ss_dssp             CCSSCC
+T ss_pred             ccccCC
+
+
+No 3
+>6FTK_A Envelope glycoprotein gp150; MPER, Gp36, FIV, VIRAL PROTEIN; NMR {Feline immunodeficiency virus}
+Probab=5.10  E-value=6.9e+02  Score=10.11  Aligned_cols=6  Identities=33%  Similarity=0.739  Sum_probs=0.0  Template_Neff=2.400
+
+Q NINKSN            1 NINKSN    6 (6)
+Q Consensus         1 ninksn    6 (6)
+                      ||.++|
+T Consensus        16 nieq~N   21 (50)
+T 6FTK_A           16 DIEQNN   21 (50)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHhc
+
+
+No 4
+>7EK6_B 3C-like proteinase (E.C.3.4.22.69); SARS-CoV-2, spike protein, membrane fusion; 1.243A {N/A}
+Probab=5.09  E-value=7e+02  Score=9.29  Aligned_cols=5  Identities=60%  Similarity=0.919  Sum_probs=0.0  Template_Neff=3.500
+
+Q NINKSN            1 NINKS    5 (6)
+Q Consensus         1 ninks    5 (6)
+                      ++|+|
+T Consensus        18 ~LN~s   22 (37)
+T 7EK6_B           18 NLNES   22 (37)
+T ss_dssp             HGGGG
+T ss_pred             HHHhc
+
+
+No 5
+>2JVA_A Peptidyl-tRNA hydrolase domain protein; GFT NMR, Hydrolase, Structural Genomics; NMR {Pseudomonas syringae pv. tomato}
+Probab=5.02  E-value=7.1e+02  Score=10.12  Aligned_cols=6  Identities=50%  Similarity=0.767  Sum_probs=0.0  Template_Neff=6.200
+
+Q NINKSN            1 NINKSN    6 (6)
+Q Consensus         1 ninksn    6 (6)
+                      |+||.+
+T Consensus        29 nVNk~~   34 (108)
+T 2JVA_A           29 NVNKVS   34 (108)
+T ss_dssp             SSCCCC
+T ss_pred             cccccC
+
+
+No 6
+>6TL0_B Vacuolar protein sorting-associated protein 29; VARP, retromer, NMR complex structure; HET: ZN; NMR {Mus musculus}
+Probab=4.94  E-value=7.2e+02  Score=9.48  Aligned_cols=6  Identities=17%  Similarity=0.446  Sum_probs=0.0  Template_Neff=5.300
+
+Q NINKSN            1 NINKSN    6 (6)
+Q Consensus         1 ninksn    6 (6)
+                      +||..|
+T Consensus        50 ~VN~~n   55 (61)
+T 6TL0_B           50 GVNVTS   55 (61)
+T ss_dssp             STTSCC
+T ss_pred             Cceeec
+
+
+No 7
+>1ZV8_B E2 glycoprotein; SARS coronavirus, membrane fusion, S2; 1.94A {SARS coronavirus}
+Probab=4.84  E-value=7.4e+02  Score=9.04  Aligned_cols=5  Identities=60%  Similarity=0.919  Sum_probs=0.0  Template_Neff=3.900
+
+Q NINKSN            1 NINKS    5 (6)
+Q Consensus         1 ninks    5 (6)
+                      ++|+|
+T Consensus        25 ~LN~s   29 (36)
+T 1ZV8_B           25 NLNES   29 (36)
+T ss_dssp             HGGGG
+T ss_pred             HHHhh
+
+
+No 8
+>6LVN_D Spike protein S2; 2019-nCoV, HR2 domain, VIRUS, VIRAL; 2.47A {Severe acute respiratory syndrome coronavirus 2}
+Probab=4.84  E-value=7.4e+02  Score=9.04  Aligned_cols=5  Identities=60%  Similarity=0.919  Sum_probs=0.0  Template_Neff=3.900
+
+Q NINKSN            1 NINKS    5 (6)
+Q Consensus         1 ninks    5 (6)
+                      ++|+|
+T Consensus        25 ~LN~s   29 (36)
+T 6LVN_D           25 NLNES   29 (36)
+T ss_dssp             HHHHH
+T ss_pred             HHHhh
+
+
+No 9
+>6LVN_B 2019-nCoV S2 subunit; 2019-nCoV, HR2 domain, VIRUS, VIRAL; 2.47A {COVID-19 virus}
+Probab=4.81  E-value=7.5e+02  Score=9.03  Aligned_cols=5  Identities=60%  Similarity=0.919  Sum_probs=0.0  Template_Neff=3.900
+
+Q NINKSN            1 NINKS    5 (6)
+Q Consensus         1 ninks    5 (6)
+                      ++|+|
+T Consensus        25 ~LN~s   29 (36)
+T 6LVN_B           25 NLNES   29 (36)
+T ss_dssp             HHHHH
+T ss_pred             HHHhh
+
+
+No 10
+>2P1I_F Ribonucleotide reductase, small chain; ribonucleotide reductase, F222 twinning, plasmodb; 2.7A {Plasmodium yoelii yoelii}
+Probab=4.55  E-value=8e+02  Score=10.99  Aligned_cols=5  Identities=80%  Similarity=0.939  Sum_probs=0.0  Template_Neff=8.400
+
+Q NINKSN            1 NINKS    5 (6)
+Q Consensus         1 ninks    5 (6)
+                      ||.||
+T Consensus         6 ~~~~~   10 (349)
+T 2P1I_F            6 NISKS   10 (349)
+T ss_dssp             -----
+T ss_pred             eeccC
+
+

@@ -1,0 +1,146 @@
+Query         GNNQQN
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 02:27:24 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GNNQQN/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GNNQQN/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2WJV_E REGULATOR OF NONSENSE T   4.7 7.7E+02  0.0085    9.4   0.0    5    1-5      77-81  (97)
+  2 2GPI_A conserved hypothetical    4.6 7.9E+02  0.0087    9.0   0.0    5    1-5       1-5   (91)
+  3 1A5Z_A L-LACTATE DEHYDROGENASE   4.5 8.1E+02   0.009   10.0   0.0    6    1-6     311-316 (319)
+  4 2W1P_A AQUAPORIN PIP2-7 7 ; ME   4.5 8.2E+02  0.0091   10.7   0.0    4    3-6       6-9   (279)
+  5 4DMZ_A Putative uncharacterize   4.4 8.5E+02  0.0094    9.6   0.0    5    1-5     313-317 (321)
+  6 3H0G_F DNA-directed RNA polyme   4.0 9.4E+02    0.01   11.2   0.0    6    1-6      31-36  (142)
+  7 5U0S_f Mediator of RNA polymer   4.0 9.4E+02    0.01   11.2   0.0    6    1-6      31-36  (142)
+  8 4O3V_B VirB8-like protein of t   4.0 9.4E+02    0.01    9.8   0.0    5    1-5     177-181 (181)
+  9 3RMI_A Chorismate mutase prote   4.0 9.5E+02    0.01    9.2   0.0    6    1-6     109-114 (114)
+ 10 3PEU_A ATP-dependent RNA helic   3.9 9.7E+02   0.011    8.6   0.0    6    1-6       1-6   (188)
+
+No 1
+>2WJV_E REGULATOR OF NONSENSE TRANSCRIPTS 1; HYDROLASE, ZINC-FINGER, ATP-BINDING, RNA-BINDING, NONSENSE-MEDIATED; HET: SO4; 2.85A {HOMO SAPIENS}
+Probab=4.69  E-value=7.7e+02  Score=9.42  Aligned_cols=5  Identities=80%  Similarity=1.106  Sum_probs=0.0  Template_Neff=7.200
+
+Q GNNQQN            1 GNNQQ    5 (6)
+Q Consensus         1 gnnqq    5 (6)
+                      ||.||
+T Consensus        77 GnK~q   81 (97)
+T 2WJV_E           77 GNKQQ   81 (97)
+T ss_pred             CCccc
+
+
+No 2
+>2GPI_A conserved hypothetical protein; Transcriptional regulation of the shikimate; 1.6A {Shewanella loihica} SCOP: d.354.1.1
+Probab=4.61  E-value=7.9e+02  Score=9.03  Aligned_cols=5  Identities=60%  Similarity=0.740  Sum_probs=0.0  Template_Neff=7.800
+
+Q GNNQQN            1 GNNQQ    5 (6)
+Q Consensus         1 gnnqq    5 (6)
+                      |-||+
+T Consensus         1 ~mnq~    5 (91)
+T 2GPI_A            1 GMNQS    5 (91)
+T ss_dssp             CCCCC
+T ss_pred             CCCce
+
+
+No 3
+>1A5Z_A L-LACTATE DEHYDROGENASE, OXAMIC ACID, NICOTINAMIDE-ADENINE-DINUCLEOTIDE; OXIDOREDUCTASE, GLYCOLYSIS, HYPERTHERMOPHILES, THERMOTOGA MARITIMA; HET: FBP, NAD; 2.1A {Thermotoga maritima} SCOP: c.2.1.5, d.162.1.1
+Probab=4.52  E-value=8.1e+02  Score=9.98  Aligned_cols=6  Identities=50%  Similarity=0.639  Sum_probs=0.0  Template_Neff=10.300
+
+Q GNNQQN            1 GNNQQN    6 (6)
+Q Consensus         1 gnnqqn    6 (6)
+                      ++.|||
+T Consensus       311 ~~~~~~  316 (319)
+T 1A5Z_A          311 ENKHQN  316 (319)
+T ss_dssp             CC----
+T ss_pred             Hhhhhc
+
+
+No 4
+>2W1P_A AQUAPORIN PIP2-7 7 ; MEMBRANE PROTEIN, GATING, YEAST; HET: BOG; 1.4A {KOMAGATAELLA PASTORIS}
+Probab=4.46  E-value=8.2e+02  Score=10.72  Aligned_cols=4  Identities=50%  Similarity=0.501  Sum_probs=0.0  Template_Neff=8.100
+
+Q GNNQQN            3 NQQN    6 (6)
+Q Consensus         3 nqqn    6 (6)
+                      ||||
+T Consensus         6 ~~~~    9 (279)
+T 2W1P_A            6 NQAA    9 (279)
+T ss_dssp             ----
+T ss_pred             cccc
+
+
+No 5
+>4DMZ_A Putative uncharacterized protein pelD; GAF domain, GGDEF domain, c-di-GMP; HET: MG, EDO; 2.102A {Pseudomonas aeruginosa}
+Probab=4.37  E-value=8.5e+02  Score=9.57  Aligned_cols=5  Identities=60%  Similarity=0.734  Sum_probs=0.0  Template_Neff=11.100
+
+Q GNNQQN            1 GNNQQ    5 (6)
+Q Consensus         1 gnnqq    5 (6)
+                      |+|+|
+T Consensus       313 ~~~~~  317 (321)
+T 4DMZ_A          313 GLNDQ  317 (321)
+T ss_dssp             CCCTT
+T ss_pred             CCccc
+
+
+No 6
+>3H0G_F DNA-directed RNA polymerase II subunit; Transcription, Multi-protein complex, Polymerase, DNA-binding; HET: ZN; 3.65A {Schizosaccharomyces pombe}
+Probab=4.02  E-value=9.4e+02  Score=11.15  Aligned_cols=6  Identities=50%  Similarity=0.778  Sum_probs=0.0  Template_Neff=3.700
+
+Q GNNQQN            1 GNNQQN    6 (6)
+Q Consensus         1 gnnqqn    6 (6)
+                      |++|+|
+T Consensus        31 ~~~~~~   36 (142)
+T 3H0G_F           31 GQSQQG   36 (142)
+T ss_dssp             ------
+T ss_pred             cccccC
+
+
+No 7
+>5U0S_f Mediator of RNA polymerase II; transcriptional, transcription, Mediator, Srb, RNA; 7.8A {Schizosaccharomyces pombe}
+Probab=4.02  E-value=9.4e+02  Score=11.15  Aligned_cols=6  Identities=50%  Similarity=0.778  Sum_probs=0.0  Template_Neff=3.700
+
+Q GNNQQN            1 GNNQQN    6 (6)
+Q Consensus         1 gnnqqn    6 (6)
+                      |++|+|
+T Consensus        31 ~~~~~~   36 (142)
+T 5U0S_f           31 GQSQQG   36 (142)
+T ss_pred             cccccC
+
+
+No 8
+>4O3V_B VirB8-like protein of type IV; Structural Genomics, NIAID, National Institute; HET: SRT; 1.95A {Rickettsia typhi}
+Probab=4.01  E-value=9.4e+02  Score=9.75  Aligned_cols=5  Identities=60%  Similarity=0.694  Sum_probs=0.0  Template_Neff=8.300
+
+Q GNNQQN            1 GNNQQ    5 (6)
+Q Consensus         1 gnnqq    5 (6)
+                      .+|||
+T Consensus       177 ~~~~~  181 (181)
+T 4O3V_B          177 NKNQQ  181 (181)
+T ss_pred             cccCC
+
+
+No 9
+>3RMI_A Chorismate mutase protein (E.C.5.4.99.5); Emerald BioStructures, Structural Genomics, Seattle; 2.4A {Bartonella henselae}
+Probab=3.99  E-value=9.5e+02  Score=9.16  Aligned_cols=6  Identities=50%  Similarity=0.390  Sum_probs=0.0  Template_Neff=7.900
+
+Q GNNQQN            1 GNNQQN    6 (6)
+Q Consensus         1 gnnqqn    6 (6)
+                      +|..||
+T Consensus       109 ~~~~~~  114 (114)
+T 3RMI_A          109 LNESQN  114 (114)
+T ss_pred             cccccC
+
+
+No 10
+>3PEU_A ATP-dependent RNA helicase DBP5 (E.C.3.6.4.13); RecA, HEAT, DEAD-box, ATPase, Helicase; HET: GOL, IHP; 2.6A {Saccharomyces cerevisiae}
+Probab=3.92  E-value=9.7e+02  Score=8.59  Aligned_cols=6  Identities=50%  Similarity=0.783  Sum_probs=0.0  Template_Neff=11.000
+
+Q GNNQQN            1 GNNQQN    6 (6)
+Q Consensus         1 gnnqqn    6 (6)
+                      |+++++
+T Consensus         1 ~~~~~~    6 (188)
+T 3PEU_A            1 GANEVN    6 (188)
+T ss_dssp             ------
+T ss_pred             Cccccc
+
+

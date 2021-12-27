@@ -1,0 +1,155 @@
+Query         KTKQGV
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 12:24:39 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/KTKQGV/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/KTKQGV/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2N0A_B Alpha-synuclein; Protei  62.1     6.8 7.5E-05   17.9   0.0    6    1-6      21-26  (140)
+  2 6SSX_D Alpha-synuclein; amyloi  62.1     6.8 7.5E-05   17.9   0.0    6    1-6      21-26  (140)
+  3 6H6B_E ATP-binding cassette su  60.7     7.5 8.3E-05   17.5   0.0    6    1-6      21-26  (121)
+  4 3Q26_A Maltose-binding peripla  38.8      29 0.00032   14.1   0.0    6    1-6     383-388 (404)
+  5 3Q27_A Maltose-binding peripla  35.9      34 0.00038   13.7   0.0    6    1-6     383-388 (397)
+  6 7LC9_D N-terminal alpha-synucl  26.9      62 0.00068   14.2   0.0    6    1-6       3-8   (100)
+  7 1T0B_G ThuA-like protein; treh  10.8 2.6E+02  0.0029   11.3   0.0    5    1-5     244-248 (252)
+  8 4USG_B ACTIVATED RNA POLYMERAS  10.2 2.8E+02  0.0031   10.0   0.0    5    2-6      38-42  (66)
+  9 4V4N_BC Preprotein translocase  10.1 2.8E+02  0.0031   11.4   0.0    6    1-6     170-175 (186)
+ 10 1T0B_C ThuA-like protein; treh  10.0 2.9E+02  0.0032   11.2   0.0    5    1-5     244-248 (252)
+
+No 1
+>2N0A_B Alpha-synuclein; Protein Fibril, Amyloid, Parkinson's Disease; NMR {Homo sapiens}
+Probab=62.07  E-value=6.8  Score=17.89  Aligned_cols=6  Identities=100%  Similarity=1.199  Sum_probs=3.2  Template_Neff=2.900
+
+Q KTKQGV            1 KTKQGV    6 (6)
+Q Consensus         1 ktkqgv    6 (6)
+                      ||||||
+T Consensus        21 KTK~Gv   26 (140)
+T 2N0A_B           21 KTKQGV   26 (140)
+T ss_dssp             CCTTCC
+T ss_pred             HHccch
+Confidence            455554
+
+
+No 2
+>6SSX_D Alpha-synuclein; amyloid, parkinson, PROTEIN FIBRIL; 2.98A {Homo sapiens}
+Probab=62.07  E-value=6.8  Score=17.89  Aligned_cols=6  Identities=100%  Similarity=1.199  Sum_probs=2.7  Template_Neff=2.900
+
+Q KTKQGV            1 KTKQGV    6 (6)
+Q Consensus         1 ktkqgv    6 (6)
+                      ||||||
+T Consensus        21 KTK~Gv   26 (140)
+T 6SSX_D           21 KTKQGV   26 (140)
+T ss_dssp             EEECC-
+T ss_pred             HHccch
+Confidence            455554
+
+
+No 3
+>6H6B_E ATP-binding cassette sub-family G member; Parkinson's disease, apha-synuclein, fibril, filament; 3.4A {Homo sapiens}
+Probab=60.68  E-value=7.5  Score=17.47  Aligned_cols=6  Identities=100%  Similarity=1.199  Sum_probs=0.0  Template_Neff=2.800
+
+Q KTKQGV            1 KTKQGV    6 (6)
+Q Consensus         1 ktkqgv    6 (6)
+                      ||||||
+T Consensus        21 KTK~Gv   26 (121)
+T 6H6B_E           21 KTKQGV   26 (121)
+T ss_dssp             ------
+T ss_pred             HHcchh
+Confidence            455554
+
+
+No 4
+>3Q26_A Maltose-binding periplasmic protein/alpha-synuclein chimeric protein; fusion protein, amyloid, SUGAR BINDING; HET: GLC, SO4, GOL; 1.54A {Escherichia coli}
+Probab=38.76  E-value=29  Score=14.05  Aligned_cols=6  Identities=100%  Similarity=1.199  Sum_probs=2.8  Template_Neff=10.800
+
+Q KTKQGV            1 KTKQGV    6 (6)
+Q Consensus         1 ktkqgv    6 (6)
+                      |||||+
+T Consensus       383 ~~~~~~  388 (404)
+T 3Q26_A          383 KTKQGV  388 (404)
+T ss_dssp             HHHHHH
+T ss_pred             HHHhHH
+Confidence            355553
+
+
+No 5
+>3Q27_A Maltose-binding periplasmic protein/alpha-synuclein chimeric protein; fusion protein, amyloid, SUGAR BINDING; HET: MAL, GOL, SO4; 1.302A {Escherichia coli, Homo sapiens}
+Probab=35.90  E-value=34  Score=13.70  Aligned_cols=6  Identities=83%  Similarity=1.143  Sum_probs=3.1  Template_Neff=11.000
+
+Q KTKQGV            1 KTKQGV    6 (6)
+Q Consensus         1 ktkqgv    6 (6)
+                      |||.||
+T Consensus       383 ~~~~~~  388 (397)
+T 3Q27_A          383 KTKEGV  388 (397)
+T ss_dssp             HHCSSC
+T ss_pred             ccccce
+Confidence            455554
+
+
+No 6
+>7LC9_D N-terminal alpha-synuclein truncation, PROTEIN FIBRIL;{Homo sapiens}
+Probab=26.86  E-value=62  Score=14.20  Aligned_cols=6  Identities=83%  Similarity=1.143  Sum_probs=1.5  Template_Neff=3.200
+
+Q KTKQGV            1 KTKQGV    6 (6)
+Q Consensus         1 ktkqgv    6 (6)
+                      |||.||
+T Consensus         3 ktkegv    8 (100)
+T 7LC9_D            3 KTKEGV    8 (100)
+T ss_dssp             ---CCB
+T ss_pred             cchhch
+Confidence            456553
+
+
+No 7
+>1T0B_G ThuA-like protein; trehalose metabolism, NCS symmetry, Structural; 1.7A {Geobacillus stearothermophilus} SCOP: c.23.16.6
+Probab=10.78  E-value=2.6e+02  Score=11.25  Aligned_cols=5  Identities=80%  Similarity=1.086  Sum_probs=0.0  Template_Neff=9.600
+
+Q KTKQGV            1 KTKQG    5 (6)
+Q Consensus         1 ktkqg    5 (6)
+                      |.|||
+T Consensus       244 ~~~~~  248 (252)
+T 1T0B_G          244 KAKQG  248 (252)
+T ss_dssp             CCCC-
+T ss_pred             hhhcC
+
+
+No 8
+>4USG_B ACTIVATED RNA POLYMERASE II TRANSCRIPTIONAL; TRANSCRIPTION; 1.973A {HOMO SAPIENS}
+Probab=10.15  E-value=2.8e+02  Score=10.04  Aligned_cols=5  Identities=20%  Similarity=0.853  Sum_probs=0.0  Template_Neff=6.900
+
+Q KTKQGV            2 TKQGV    6 (6)
+Q Consensus         2 tkqgv    6 (6)
+                      ||.|+
+T Consensus        38 tkKGI   42 (66)
+T 4USG_B           38 GRKGI   42 (66)
+T ss_dssp             EEEEE
+T ss_pred             cCCEE
+
+
+No 9
+>4V4N_BC Preprotein translocase subunit SecE, Preprotein; archaea, archaeal, ribosomal, 50S, protein; 9.0A {Methanococcus jannaschii}
+Probab=10.07  E-value=2.8e+02  Score=11.38  Aligned_cols=6  Identities=50%  Similarity=0.457  Sum_probs=0.0  Template_Neff=8.000
+
+Q KTKQGV            1 KTKQGV    6 (6)
+Q Consensus         1 ktkqgv    6 (6)
+                      +|++|+
+T Consensus       170 ~tk~G~  175 (186)
+T 4V4N_BC         170 LLKLGV  175 (186)
+T ss_pred             ecCCeE
+
+
+No 10
+>1T0B_C ThuA-like protein; trehalose metabolism, NCS symmetry, Structural; 1.7A {Geobacillus stearothermophilus} SCOP: c.23.16.6
+Probab=9.98  E-value=2.9e+02  Score=11.22  Aligned_cols=5  Identities=80%  Similarity=1.086  Sum_probs=0.0  Template_Neff=9.400
+
+Q KTKQGV            1 KTKQG    5 (6)
+Q Consensus         1 ktkqg    5 (6)
+                      |.|||
+T Consensus       244 ~~~~~  248 (252)
+T 1T0B_C          244 KAKQG  248 (252)
+T ss_dssp             CC---
+T ss_pred             hhhcC
+
+

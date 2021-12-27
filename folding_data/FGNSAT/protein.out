@@ -1,0 +1,148 @@
+Query         FGNSAT
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 20:59:25 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/FGNSAT/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/FGNSAT/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5XOJ_F GTP-binding nuclear pro  17.5 1.3E+02  0.0014   11.6   0.0    5    1-5      10-14  (35)
+  2 7AOI_BH bL28m, uL29m, uL30m, b  17.2 1.3E+02  0.0014   15.1   0.0    6    1-6      12-17  (225)
+  3 6FSA_A Myosin-7, Myosin light   17.1 1.3E+02  0.0015   15.5   0.0    6    1-6     230-235 (1935)
+  4 1I84_V SMOOTH MUSCLE MYOSIN HE  17.0 1.3E+02  0.0015   15.1   0.0    6    1-6     233-238 (1184)
+  5 4IYJ_B GDSL-like protein; PF13  16.9 1.3E+02  0.0015   10.2   0.0    6    1-6      35-40  (212)
+  6 6NJC_B Inosine-5'-monophosphat  16.3 1.4E+02  0.0016   10.1   0.0    6    1-6      31-36  (202)
+  7 2HSJ_D Putative platelet activ  16.2 1.4E+02  0.0016   10.4   0.0    6    1-6      40-45  (214)
+  8 2DFS_A Myosin-5A, Calmodulin;   16.1 1.4E+02  0.0016   15.2   0.0    6    1-6     206-211 (1080)
+  9 5VK2_b Pre-glycoprotein polypr  15.7 1.5E+02  0.0016   14.3   0.0    5    1-5      34-38  (164)
+ 10 5VK2_a Pre-glycoprotein polypr  15.7 1.5E+02  0.0016   14.3   0.0    5    1-5      34-38  (164)
+
+No 1
+>5XOJ_F GTP-binding nuclear protein, Exportin-1, cAMP-dependent; exportin, nucleoporin, GTP BINDING PROTEIN; HET: GTP; 2.2A {Saccharomyces cerevisiae (strain AWRI796)}
+Probab=17.46  E-value=1.3e+02  Score=11.62  Aligned_cols=5  Identities=80%  Similarity=1.271  Sum_probs=0.0  Template_Neff=1.000
+
+Q FGNSAT            1 FGNSA    5 (6)
+Q Consensus         1 fgnsa    5 (6)
+                      ||.||
+T Consensus        10 fgssa   14 (35)
+T 5XOJ_F           10 FGSSA   14 (35)
+T ss_pred             cCCCC
+
+
+No 2
+>7AOI_BH bL28m, uL29m, uL30m, bL32m, bL33m; mitochondria, translation, trypanosoma, assembly, evolution; HET: ADP, GTP, NAD, 4HH; 3.5A {Trypanosoma brucei}
+Probab=17.16  E-value=1.3e+02  Score=15.08  Aligned_cols=6  Identities=67%  Similarity=1.143  Sum_probs=0.0  Template_Neff=1.900
+
+Q FGNSAT            1 FGNSAT    6 (6)
+Q Consensus         1 fgnsat    6 (6)
+                      |||.|+
+T Consensus        12 fGNEAa   17 (225)
+T 7AOI_BH          12 FGNEAA   17 (225)
+T ss_pred             cCchHH
+
+
+No 3
+>6FSA_A Myosin-7, Myosin light chain 3; Motor protein, myosin, hypertrophic cardiomyopathy; HET: MLY, FMT, ADP; 2.33A {Bos taurus}
+Probab=17.11  E-value=1.3e+02  Score=15.53  Aligned_cols=6  Identities=67%  Similarity=1.143  Sum_probs=0.0  Template_Neff=10.300
+
+Q FGNSAT            1 FGNSAT    6 (6)
+Q Consensus         1 fgnsat    6 (6)
+                      |||..|
+T Consensus       230 fgna~t  235 (1935)
+T 6FSA_A          230 FGNAKT  235 (1935)
+T ss_dssp             HHEECC
+T ss_pred             cCCCcc
+
+
+No 4
+>1I84_V SMOOTH MUSCLE MYOSIN HEAVY CHAIN/SMOOTH; muscle protein, smooth muscle, myosin; HET: MLY; 20.0A {Gallus gallus} SCOP: i.15.1.1
+Probab=16.98  E-value=1.3e+02  Score=15.15  Aligned_cols=6  Identities=67%  Similarity=1.143  Sum_probs=0.0  Template_Neff=9.200
+
+Q FGNSAT            1 FGNSAT    6 (6)
+Q Consensus         1 fgnsat    6 (6)
+                      |||..|
+T Consensus       233 FGna~T  238 (1184)
+T 1I84_V          233 FGNAKT  238 (1184)
+T ss_dssp             TTEEEE
+T ss_pred             hccccc
+
+
+No 5
+>4IYJ_B GDSL-like protein; PF13472 family, GDSL-like Lipase, Structural; HET: MSE; 1.37A {Bacteroides uniformis}
+Probab=16.85  E-value=1.3e+02  Score=10.21  Aligned_cols=6  Identities=67%  Similarity=0.883  Sum_probs=0.0  Template_Neff=12.400
+
+Q FGNSAT            1 FGNSAT    6 (6)
+Q Consensus         1 fgnsat    6 (6)
+                      +|+|-+
+T Consensus        35 iGDS~~   40 (212)
+T 4IYJ_B           35 MGNSIT   40 (212)
+T ss_dssp             EESHHH
+T ss_pred             Eechhh
+
+
+No 6
+>6NJC_B Inosine-5'-monophosphate dehydrogenase,Inosine-5'-monophosphate dehydrogenase (E.C.1.1.1.205,1.1.1.205); Sialate O-acetylesterase, alpha-beta fold, Structural; HET: GOL, ACY, MSE; 1.9A {Bacteroides vulgatus (strain ATCC 8482 / DSM 1447 / JCM 5826 / NBRC 14291 / NCTC 11154)}
+Probab=16.27  E-value=1.4e+02  Score=10.12  Aligned_cols=6  Identities=67%  Similarity=0.905  Sum_probs=0.0  Template_Neff=12.300
+
+Q FGNSAT            1 FGNSAT    6 (6)
+Q Consensus         1 fgnsat    6 (6)
+                      +|+|-+
+T Consensus        31 iGDS~~   36 (202)
+T 6NJC_B           31 LGNSIT   36 (202)
+T ss_dssp             EESHHH
+T ss_pred             Eechhh
+
+
+No 7
+>2HSJ_D Putative platelet activating factor; platelet activating factor, Streptococcus pneumonia; HET: GOL; 1.5A {Streptococcus pneumoniae} SCOP: c.23.10.3
+Probab=16.20  E-value=1.4e+02  Score=10.38  Aligned_cols=6  Identities=33%  Similarity=0.623  Sum_probs=0.0  Template_Neff=12.000
+
+Q FGNSAT            1 FGNSAT    6 (6)
+Q Consensus         1 fgnsat    6 (6)
+                      +|+|.+
+T Consensus        40 ~GdS~~   45 (214)
+T 2HSJ_D           40 IGDSIV   45 (214)
+T ss_dssp             EESHHH
+T ss_pred             EcCchh
+
+
+No 8
+>2DFS_A Myosin-5A, Calmodulin; myosin-V, inhibited state, calmodulin, cryoelectron; 24.0A {Gallus gallus}
+Probab=16.13  E-value=1.4e+02  Score=15.18  Aligned_cols=6  Identities=50%  Similarity=0.811  Sum_probs=0.0  Template_Neff=8.600
+
+Q FGNSAT            1 FGNSAT    6 (6)
+Q Consensus         1 fgnsat    6 (6)
+                      |||..|
+T Consensus       206 FGnA~T  211 (1080)
+T 2DFS_A          206 IGNAKT  211 (1080)
+T ss_dssp             HHEEEE
+T ss_pred             ccCccc
+
+
+No 9
+>5VK2_b Pre-glycoprotein polyprotein GP complex, Fab; Lassa, glycoprotein, arenavirus, antibody, VIRAL; HET: NAG, BMA, MAN, FUC; 3.201A {Lassa virus}
+Probab=15.74  E-value=1.5e+02  Score=14.28  Aligned_cols=5  Identities=80%  Similarity=1.418  Sum_probs=0.0  Template_Neff=2.100
+
+Q FGNSAT            1 FGNSA    5 (6)
+Q Consensus         1 fgnsa    5 (6)
+                      |||.|
+T Consensus        34 FgNtA   38 (164)
+T 5VK2_b           34 FGNTA   38 (164)
+T ss_dssp             ECHHH
+T ss_pred             cccch
+
+
+No 10
+>5VK2_a Pre-glycoprotein polyprotein GP complex, Fab; Lassa, glycoprotein, arenavirus, antibody, VIRAL; HET: BMA, MAN, FUC, NAG; 3.201A {Lassa virus}
+Probab=15.74  E-value=1.5e+02  Score=14.28  Aligned_cols=5  Identities=80%  Similarity=1.418  Sum_probs=0.0  Template_Neff=2.100
+
+Q FGNSAT            1 FGNSA    5 (6)
+Q Consensus         1 fgnsa    5 (6)
+                      |||.|
+T Consensus        34 FgNtA   38 (164)
+T 5VK2_a           34 FGNTA   38 (164)
+T ss_dssp             ECHHH
+T ss_pred             cccch
+
+

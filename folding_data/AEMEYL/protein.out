@@ -1,0 +1,148 @@
+Query         AEMEYL
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 13:36:48 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/AEMEYL/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/AEMEYL/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6QWN_C Pollen-specific leucine  32.1      44 0.00048   13.5   0.0    6    1-6       6-11  (379)
+  2 4BK0_B ATP-DEPENDENT DNA HELIC  11.7 2.3E+02  0.0025   11.4   0.0    5    1-5      72-76  (111)
+  3 6YXY_Ap bL28m, uL29m, uL30m, b  10.9 2.6E+02  0.0028   14.7   0.0    5    2-6      96-100 (309)
+  4 5SUP_H ATP-dependent RNA helic  10.6 2.6E+02  0.0029    9.9   0.0    4    1-4      23-26  (32)
+  5 2I6H_A Hypothetical protein At  10.4 2.7E+02   0.003   12.7   0.0    6    1-6     193-198 (207)
+  6 2OHD_C Probable molybdenum cof  10.2 2.8E+02  0.0031   12.3   0.0    5    2-6     101-105 (151)
+  7 7AOI_Ap bL28m, uL29m, uL30m, b  10.2 2.8E+02  0.0031   14.5   0.0    5    2-6      82-86  (288)
+  8 3JQK_A Molybdenum cofactor bio  10.1 2.8E+02  0.0031   12.3   0.0    5    2-6     110-114 (157)
+  9 3JQM_E Molybdenum cofactor bio  10.1 2.8E+02  0.0031   12.3   0.0    5    2-6     110-114 (157)
+ 10 4GWQ_F Mediator of RNA polymer   9.9 2.9E+02  0.0032   11.7   0.0    5    2-6     154-158 (210)
+
+No 1
+>6QWN_C Pollen-specific leucine-rich repeat extensin-like protein; Leucine rich extensin, peptide signaling; HET: BMA, MAN, NAG; 3.892A {Arabidopsis thaliana}
+Probab=32.11  E-value=44  Score=13.51  Aligned_cols=6  Identities=33%  Similarity=0.678  Sum_probs=0.0  Template_Neff=10.700
+
+Q AEMEYL            1 AEMEYL    6 (6)
+Q Consensus         1 aemeyl    6 (6)
+                      +||+|+
+T Consensus         6 ~~~~~~   11 (379)
+T 6QWN_C            6 EEASFL   11 (379)
+T ss_dssp             ------
+T ss_pred             HHHHHH
+Confidence            466653
+
+
+No 2
+>4BK0_B ATP-DEPENDENT DNA HELICASE Q5 (E.C.3.6.4.12); TRANSCRIPTION, DNA HELICASE, TRANSCRIPTIONAL REPRESSION; HET: PEG; 1.9A {HOMO SAPIENS}
+Probab=11.73  E-value=2.3e+02  Score=11.44  Aligned_cols=5  Identities=40%  Similarity=0.527  Sum_probs=0.0  Template_Neff=6.400
+
+Q AEMEYL            1 AEMEY    5 (6)
+Q Consensus         1 aemey    5 (6)
+                      ++|||
+T Consensus        72 ~~lEy   76 (111)
+T 4BK0_B           72 VELEH   76 (111)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 3
+>6YXY_Ap bL28m, uL29m, uL30m, bL32m, bL35m; mitoribosome, assembly, LSU, RIBOSOME; HET: ATP, PM8, MG, SPD, NAD, GTP; 3.1A {Trypanosoma brucei brucei}
+Probab=10.87  E-value=2.6e+02  Score=14.71  Aligned_cols=5  Identities=80%  Similarity=1.371  Sum_probs=0.0  Template_Neff=1.900
+
+Q AEMEYL            2 EMEYL    6 (6)
+Q Consensus         2 emeyl    6 (6)
+                      |||||
+T Consensus        96 EfeyL  100 (309)
+T 6YXY_Ap          96 EFEYL  100 (309)
+T ss_pred             ceeeE
+
+
+No 4
+>5SUP_H ATP-dependent RNA helicase SUB2, YRA1/RNA; mRNA export, HYDROLASE-RNA complex; HET: ADP, BEF; 2.6A {Saccharomyces cerevisiae}
+Probab=10.63  E-value=2.6e+02  Score=9.88  Aligned_cols=4  Identities=50%  Similarity=0.626  Sum_probs=0.0  Template_Neff=4.200
+
+Q AEMEYL            1 AEME    4 (6)
+Q Consensus         1 aeme    4 (6)
+                      +||+
+T Consensus        23 aEld   26 (32)
+T 5SUP_H           23 KEMA   26 (32)
+T ss_pred             HHHH
+
+
+No 5
+>2I6H_A Hypothetical protein Atu0120; structural genomics, APC5905, PSI-2, Protein; 1.75A {Agrobacterium tumefaciens str.} SCOP: a.118.8.5
+Probab=10.39  E-value=2.7e+02  Score=12.67  Aligned_cols=6  Identities=50%  Similarity=0.855  Sum_probs=0.0  Template_Neff=5.700
+
+Q AEMEYL            1 AEMEYL    6 (6)
+Q Consensus         1 aemeyl    6 (6)
+                      +|.+||
+T Consensus       193 eE~~~L  198 (207)
+T 2I6H_A          193 EERQYL  198 (207)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 6
+>2OHD_C Probable molybdenum cofactor biosynthesis protein; alpha + beta, BIOSYNTHETIC PROTEIN; 2.2A {Sulfolobus tokodaii str. 7}
+Probab=10.21  E-value=2.8e+02  Score=12.32  Aligned_cols=5  Identities=80%  Similarity=0.886  Sum_probs=0.0  Template_Neff=5.100
+
+Q AEMEYL            2 EMEYL    6 (6)
+Q Consensus         2 emeyl    6 (6)
+                      |||-|
+T Consensus       101 EMEAL  105 (151)
+T 2OHD_C          101 EMEAL  105 (151)
+T ss_dssp             HHHHH
+T ss_pred             hHHHH
+
+
+No 7
+>7AOI_Ap bL28m, uL29m, uL30m, bL32m, bL33m; mitochondria, translation, trypanosoma, assembly, evolution; HET: ADP, GTP, NAD, 4HH; 3.5A {Trypanosoma brucei}
+Probab=10.17  E-value=2.8e+02  Score=14.46  Aligned_cols=5  Identities=80%  Similarity=1.371  Sum_probs=0.0  Template_Neff=1.800
+
+Q AEMEYL            2 EMEYL    6 (6)
+Q Consensus         2 emeyl    6 (6)
+                      |||||
+T Consensus        82 EfeyL   86 (288)
+T 7AOI_Ap          82 EFEYL   86 (288)
+T ss_pred             ceeeE
+
+
+No 8
+>3JQK_A Molybdenum cofactor biosynthesis protein C; MOAC, MOLYBDENUM COFACTOR (MOCO), MOCO; 1.75A {Thermus thermophilus}
+Probab=10.06  E-value=2.8e+02  Score=12.32  Aligned_cols=5  Identities=60%  Similarity=0.806  Sum_probs=0.0  Template_Neff=5.200
+
+Q AEMEYL            2 EMEYL    6 (6)
+Q Consensus         2 emeyl    6 (6)
+                      |||-|
+T Consensus       110 EMEAL  114 (157)
+T 3JQK_A          110 EMEAM  114 (157)
+T ss_dssp             HHHHH
+T ss_pred             hHHHH
+
+
+No 9
+>3JQM_E Molybdenum cofactor biosynthesis protein C; MOAC, MOLYBDENUM COFACTOR (MOCO), MOCO; HET: PEG, FLC, GOL, EDO, GTP; 2.5A {Thermus thermophilus}
+Probab=10.06  E-value=2.8e+02  Score=12.32  Aligned_cols=5  Identities=60%  Similarity=0.806  Sum_probs=0.0  Template_Neff=5.200
+
+Q AEMEYL            2 EMEYL    6 (6)
+Q Consensus         2 emeyl    6 (6)
+                      |||-|
+T Consensus       110 EMEAL  114 (157)
+T 3JQM_E          110 EMEAM  114 (157)
+T ss_dssp             HHHHH
+T ss_pred             hHHHH
+
+
+No 10
+>4GWQ_F Mediator of RNA polymerase II; Binding Sites, Mediator Complex, Models; 4.5A {Saccharomyces cerevisiae}
+Probab=9.92  E-value=2.9e+02  Score=11.71  Aligned_cols=5  Identities=20%  Similarity=0.129  Sum_probs=0.0  Template_Neff=7.700
+
+Q AEMEYL            2 EMEYL    6 (6)
+Q Consensus         2 emeyl    6 (6)
+                      |+||+
+T Consensus       154 EiEy~  158 (210)
+T 4GWQ_F          154 ELQAD  158 (210)
+T ss_dssp             EEEES
+T ss_pred             EEEEc
+
+

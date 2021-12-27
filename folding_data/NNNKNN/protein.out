@@ -1,0 +1,147 @@
+Query         NNNKNN
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 02:19:37 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NNNKNN/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NNNKNN/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3UB1_A ORF13-like protein; NTF   3.8   1E+03   0.011   10.3   0.0    5    2-6     256-260 (261)
+  2 6TWR_A Beta-glucoside bgl oper   3.6 1.1E+03   0.012    9.2   0.0    3    1-3       8-10  (175)
+  3 6EKC_N8 Ribulose bisphosphate    3.5 1.1E+03   0.012    8.4   0.0    6    1-6       4-9   (81)
+  4 5L09_A Quorum-sensing transcri   3.5 1.1E+03   0.012    8.6   0.0    5    1-5     165-169 (179)
+  5 3RIO_A PtsGHI operon antitermi   3.2 1.2E+03   0.014    9.2   0.0    3    1-3      22-24  (180)
+  6 1YTV_M Maltose-binding peripla   3.0 1.3E+03   0.015   10.2   0.0    6    1-6       5-10  (84)
+  7 1YTV_N Maltose-binding peripla   3.0 1.3E+03   0.015   10.2   0.0    6    1-6       5-10  (84)
+  8 2JSO_A Polymyxin resistance pr   2.9 1.4E+03   0.016    9.6   0.0    5    1-5      57-61  (88)
+  9 4HN7_A Signal transduction pro   2.9 1.4E+03   0.016    9.6   0.0    5    1-5      57-61  (88)
+ 10 7BU0_B Uncharacterized protein   2.7 1.5E+03   0.017   12.6   0.0    5    2-6     298-302 (420)
+
+No 1
+>3UB1_A ORF13-like protein; NTF2-LIKE, TRANSPORT PROTEIN; HET: PEG, MSE; 1.8A {Clostridium perfringens}
+Probab=3.77  E-value=1e+03  Score=10.26  Aligned_cols=5  Identities=80%  Similarity=1.032  Sum_probs=0.0  Template_Neff=8.300
+
+Q NNNKNN            2 NNKNN    6 (6)
+Q Consensus         2 nnknn    6 (6)
+                      |||.|
+T Consensus       256 ~~~~~  260 (261)
+T 3UB1_A          256 NNKSN  260 (261)
+T ss_dssp             C----
+T ss_pred             ccccC
+
+
+No 2
+>6TWR_A Beta-glucoside bgl operon antiterminator BglG; antitermination protein, Bacillus subtilis, dimeric; NMR {Bacillus subtilis}
+Probab=3.60  E-value=1.1e+03  Score=9.20  Aligned_cols=3  Identities=100%  Similarity=1.265  Sum_probs=0.0  Template_Neff=9.100
+
+Q NNNKNN            1 NNN    3 (6)
+Q Consensus         1 nnn    3 (6)
+                      |||
+T Consensus         8 nnn   10 (175)
+T 6TWR_A            8 NNN   10 (175)
+T ss_dssp             SSS
+T ss_pred             eCc
+
+
+No 3
+>6EKC_N8 Ribulose bisphosphate carboxylase large chain; zinc finger, assembly chaperone, assembly; HET: ZN; 2.63A {Thermosynechococcus elongatus (strain BP-1)}
+Probab=3.49  E-value=1.1e+03  Score=8.41  Aligned_cols=6  Identities=50%  Similarity=0.662  Sum_probs=0.0  Template_Neff=7.900
+
+Q NNNKNN            1 NNNKNN    6 (6)
+Q Consensus         1 nnnknn    6 (6)
+                      ||++..
+T Consensus         4 ~~~~~~    9 (81)
+T 6EKC_N8           4 NNNPQG    9 (81)
+T ss_pred             CCCCCC
+
+
+No 4
+>5L09_A Quorum-sensing transcriptional activator; alpha-beta structure, pheromone binding protein; HET: 482, ACY, SO4, MSE, EDO; 2.0A {Yersinia enterocolitica serotype O:8 / biotype 1B (strain NCTC 13174 / 8081)}
+Probab=3.47  E-value=1.1e+03  Score=8.61  Aligned_cols=5  Identities=60%  Similarity=0.926  Sum_probs=0.0  Template_Neff=10.400
+
+Q NNNKNN            1 NNNKN    5 (6)
+Q Consensus         1 nnnkn    5 (6)
+                      +.+||
+T Consensus       165 ~~~~~  169 (179)
+T 5L09_A          165 NSDKN  169 (179)
+T ss_dssp             -----
+T ss_pred             cCCCC
+
+
+No 5
+>3RIO_A PtsGHI operon antiterminator; twisted beta sheet, four helix; HET: GOL; 1.99A {Bacillus subtilis}
+Probab=3.21  E-value=1.2e+03  Score=9.25  Aligned_cols=3  Identities=100%  Similarity=1.265  Sum_probs=0.0  Template_Neff=8.700
+
+Q NNNKNN            1 NNN    3 (6)
+Q Consensus         1 nnn    3 (6)
+                      |||
+T Consensus        22 Nnn   24 (180)
+T 3RIO_A           22 NNN   24 (180)
+T ss_dssp             ETT
+T ss_pred             cCc
+
+
+No 6
+>1YTV_M Maltose-binding periplasmic protein/Vasopressin V1a receptor; vasopressin  receptor  GPCR; HET: MAL; 1.8A {Escherichia coli}
+Probab=2.99  E-value=1.3e+03  Score=10.25  Aligned_cols=6  Identities=83%  Similarity=1.099  Sum_probs=0.0  Template_Neff=1.700
+
+Q NNNKNN            1 NNNKNN    6 (6)
+Q Consensus         1 nnnknn    6 (6)
+                      |||.||
+T Consensus         5 ~~~~~~   10 (84)
+T 1YTV_M            5 NNNNNN   10 (84)
+T ss_pred             cccCCC
+
+
+No 7
+>1YTV_N Maltose-binding periplasmic protein/Vasopressin V1a receptor; vasopressin  receptor  GPCR; HET: GLC; 1.8A {Escherichia coli}
+Probab=2.99  E-value=1.3e+03  Score=10.25  Aligned_cols=6  Identities=83%  Similarity=1.099  Sum_probs=0.0  Template_Neff=1.700
+
+Q NNNKNN            1 NNNKNN    6 (6)
+Q Consensus         1 nnnknn    6 (6)
+                      |||.||
+T Consensus         5 ~~~~~~   10 (84)
+T 1YTV_N            5 NNNNNN   10 (84)
+T ss_pred             cccCCC
+
+
+No 8
+>2JSO_A Polymyxin resistance protein pmrD; protein, Antibiotic resistance, TRANSCRIPTION, SIGNALING; NMR {Escherichia coli}
+Probab=2.89  E-value=1.4e+03  Score=9.58  Aligned_cols=5  Identities=40%  Similarity=0.348  Sum_probs=0.0  Template_Neff=4.500
+
+Q NNNKNN            1 NNNKN    5 (6)
+Q Consensus         1 nnnkn    5 (6)
+                      ||++.
+T Consensus        57 Nn~k~   61 (88)
+T 2JSO_A           57 NREKL   61 (88)
+T ss_dssp             BTEEE
+T ss_pred             eCCce
+
+
+No 9
+>4HN7_A Signal transduction protein pmrD; Signaling protein; 2.352A {Escherichia coli}
+Probab=2.89  E-value=1.4e+03  Score=9.58  Aligned_cols=5  Identities=40%  Similarity=0.348  Sum_probs=0.0  Template_Neff=4.500
+
+Q NNNKNN            1 NNNKN    5 (6)
+Q Consensus         1 nnnkn    5 (6)
+                      ||++.
+T Consensus        57 Nn~k~   61 (88)
+T 4HN7_A           57 NREKL   61 (88)
+T ss_dssp             TTEEE
+T ss_pred             eCCce
+
+
+No 10
+>7BU0_B Uncharacterized protein, Polyubiquitin-B; complex, HYDROLASE; 2.43A {Legionella pneumophila subsp. pneumophila (strain Philadelphia 1 / ATCC 33152 / DSM 7513)}
+Probab=2.70  E-value=1.5e+03  Score=12.56  Aligned_cols=5  Identities=60%  Similarity=0.866  Sum_probs=0.0  Template_Neff=2.600
+
+Q NNNKNN            2 NNKNN    6 (6)
+Q Consensus         2 nnknn    6 (6)
+                      ||++|
+T Consensus       298 NN~~N  302 (420)
+T 7BU0_B          298 NNEGN  302 (420)
+T ss_dssp             EEETT
+T ss_pred             ecCCC
+
+

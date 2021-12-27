@@ -1,0 +1,152 @@
+Query         LKNGER
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 18:58:31 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LKNGER/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LKNGER/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 1OX3_A Fibritin; foldon, cappi  28.2      56 0.00062   14.1   0.0    6    1-6      25-30  (109)
+  2 2IBL_A Fibritin; mini-fibritin  23.0      81 0.00089   14.2   0.0    6    1-6      36-41  (130)
+  3 5Z1V_A AvrPib protein; Magnapo  21.4      91   0.001   13.2   0.0    6    1-6      18-23  (64)
+  4 5Z1V_C AvrPib protein; Magnapo  21.4      91   0.001   13.2   0.0    6    1-6      18-23  (64)
+  5 3L32_B Phosphoprotein; antipar  20.7      97  0.0011   12.3   0.0    6    1-6      20-25  (45)
+  6 4Z47_A G/T mismatch-specific t  13.2 1.9E+02  0.0021   11.4   0.0    6    1-6     195-200 (204)
+  7 7EQ9_BA Artificial designed pr  13.2 1.9E+02  0.0021   12.8   0.0    5    1-5      22-26  (153)
+  8 5FOY_B 41.9 KDA INSECTICIDAL T  13.1   2E+02  0.0022   13.1   0.0    5    1-5     429-433 (448)
+  9 1VC3_B L-Aspartate-alpha-Decar  12.4 2.1E+02  0.0023   12.2   0.0    6    1-6      25-30  (96)
+ 10 1UHE_A Aspartate 1-decarboxyla  12.2 2.2E+02  0.0024   12.2   0.0    6    1-6      24-29  (97)
+
+No 1
+>1OX3_A Fibritin; foldon, capping motif, CHAPERONE; 2.0A {Enterobacteria phage T4} SCOP: h.1.17.1
+Probab=28.16  E-value=56  Score=14.14  Aligned_cols=6  Identities=67%  Similarity=1.132  Sum_probs=3.5  Template_Neff=4.100
+
+Q LKNGER            1 LKNGER    6 (6)
+Q Consensus         1 lknger    6 (6)
+                      +||||+
+T Consensus        25 ikNge~   30 (109)
+T 1OX3_A           25 IKNGEE   30 (109)
+T ss_dssp             CCTTSC
+T ss_pred             hHcCcc
+Confidence            367763
+
+
+No 2
+>2IBL_A Fibritin; mini-fibritin, foldon, trimerization, bacteriophage t4; 1.32A {unidentified phage}
+Probab=23.03  E-value=81  Score=14.23  Aligned_cols=6  Identities=67%  Similarity=1.132  Sum_probs=3.3  Template_Neff=3.600
+
+Q LKNGER            1 LKNGER    6 (6)
+Q Consensus         1 lknger    6 (6)
+                      +||||+
+T Consensus        36 IkNGE~   41 (130)
+T 2IBL_A           36 IKNGEE   41 (130)
+T ss_dssp             CCTTSC
+T ss_pred             HHcCcc
+Confidence            366663
+
+
+No 3
+>5Z1V_A AvrPib protein; Magnaporthe oryzae, MAX effector, protein; HET: MSE; 1.661A {Magnaporthe oryzae}
+Probab=21.44  E-value=91  Score=13.20  Aligned_cols=6  Identities=83%  Similarity=1.271  Sum_probs=2.9  Template_Neff=1.200
+
+Q LKNGER            1 LKNGER    6 (6)
+Q Consensus         1 lknger    6 (6)
+                      |+.|||
+T Consensus        18 l~~ger   23 (64)
+T 5Z1V_A           18 LKKGER   23 (64)
+T ss_dssp             EETTEE
+T ss_pred             EecCce
+Confidence            345554
+
+
+No 4
+>5Z1V_C AvrPib protein; Magnaporthe oryzae, MAX effector, protein; HET: MSE; 1.661A {Magnaporthe oryzae}
+Probab=21.44  E-value=91  Score=13.20  Aligned_cols=6  Identities=83%  Similarity=1.271  Sum_probs=2.9  Template_Neff=1.200
+
+Q LKNGER            1 LKNGER    6 (6)
+Q Consensus         1 lknger    6 (6)
+                      |+.|||
+T Consensus        18 l~~ger   23 (64)
+T 5Z1V_C           18 LKKGER   23 (64)
+T ss_dssp             EETTEE
+T ss_pred             EecCce
+Confidence            345554
+
+
+No 5
+>3L32_B Phosphoprotein; antiparallel alpha-helices, VIRAL PROTEIN, dimerisation; 1.5A {Rabies virus}
+Probab=20.67  E-value=97  Score=12.26  Aligned_cols=6  Identities=50%  Similarity=1.182  Sum_probs=3.3  Template_Neff=2.400
+
+Q LKNGER            1 LKNGER    6 (6)
+Q Consensus         1 lknger    6 (6)
+                      +|.||+
+T Consensus        20 mKtGe~   25 (45)
+T 3L32_B           20 MRSGER   25 (45)
+T ss_dssp             HHTTCC
+T ss_pred             hhcCCc
+Confidence            356664
+
+
+No 6
+>4Z47_A G/T mismatch-specific thymine DNA glycosylase/DNA; protein-DNA complex, DNA binding protein-DNA; HET: EDO, ORP; 1.45A {Homo sapiens}
+Probab=13.18  E-value=1.9e+02  Score=11.41  Aligned_cols=6  Identities=67%  Similarity=0.634  Sum_probs=0.0  Template_Neff=9.200
+
+Q LKNGER            1 LKNGER    6 (6)
+Q Consensus         1 lknger    6 (6)
+                      |+.|||
+T Consensus       195 l~~~~~  200 (204)
+T 4Z47_A          195 LKGIER  200 (204)
+T ss_dssp             HHHHHH
+T ss_pred             Hhcchh
+
+
+No 7
+>7EQ9_BA Artificial designed protein complex, VIRUS;{synthetic construct}
+Probab=13.17  E-value=1.9e+02  Score=12.81  Aligned_cols=5  Identities=60%  Similarity=0.866  Sum_probs=0.0  Template_Neff=5.100
+
+Q LKNGER            1 LKNGE    5 (6)
+Q Consensus         1 lknge    5 (6)
+                      |+|||
+T Consensus        22 L~SGE   26 (153)
+T 7EQ9_BA          22 LVTGE   26 (153)
+T ss_pred             ecCCC
+
+
+No 8
+>5FOY_B 41.9 KDA INSECTICIDAL TOXIN, LARVICIDAL; TOXIN, BINAB INSECTICIDAL TOXIN, PORE; 2.25A {LYSINIBACILLUS SPHAERICUS}
+Probab=13.07  E-value=2e+02  Score=13.07  Aligned_cols=5  Identities=80%  Similarity=1.278  Sum_probs=0.0  Template_Neff=8.700
+
+Q LKNGER            1 LKNGE    5 (6)
+Q Consensus         1 lknge    5 (6)
+                      +|||+
+T Consensus       429 ~~~~~  433 (448)
+T 5FOY_B          429 FKNGE  433 (448)
+T ss_pred             eeCCE
+
+
+No 9
+>1VC3_B L-Aspartate-alpha-Decarboxylase (E.C.4.1.1); Tetramer, pyruvoyl group, RIKEN Structural; 1.5A {Thermus thermophilus}
+Probab=12.42  E-value=2.1e+02  Score=12.20  Aligned_cols=6  Identities=50%  Similarity=0.999  Sum_probs=0.0  Template_Neff=4.200
+
+Q LKNGER            1 LKNGER    6 (6)
+Q Consensus         1 lknger    6 (6)
+                      +.||+|
+T Consensus        25 v~NG~R   30 (96)
+T 1VC3_B           25 ITNGAR   30 (96)
+T ss_dssp             TTTCCE
+T ss_pred             CCCCCe
+
+
+No 10
+>1UHE_A Aspartate 1-decarboxylase (E.C.4.1.1.11); double-psi beta barrel, LYASE; HET: NSN; 1.55A {Helicobacter pylori}
+Probab=12.22  E-value=2.2e+02  Score=12.19  Aligned_cols=6  Identities=67%  Similarity=1.182  Sum_probs=0.0  Template_Neff=4.200
+
+Q LKNGER            1 LKNGER    6 (6)
+Q Consensus         1 lknger    6 (6)
+                      +.||+|
+T Consensus        24 v~NG~R   29 (97)
+T 1UHE_A           24 VNNGER   29 (97)
+T ss_pred             CCCCCe
+
+

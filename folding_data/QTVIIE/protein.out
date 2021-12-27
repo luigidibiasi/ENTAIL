@@ -1,0 +1,151 @@
+Query         QTVIIE
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 11:12:09 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QTVIIE/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QTVIIE/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3EGA_A Protein pellino homolog  10.9 2.5E+02  0.0028   13.9   0.0    6    1-6      75-80  (263)
+  2 4LXR_J Protein toll, Protein s   9.3 3.2E+02  0.0035   11.0   0.0    6    1-6      40-45  (114)
+  3 3IXS_H E3 ubiquitin-protein li   9.0 3.3E+02  0.0037   10.4   0.0    4    2-5      25-28  (37)
+  4 1BXU_A PLASTOCYANIN; COPPER PR   8.6 3.5E+02  0.0039    8.7   0.0    6    1-6       1-6   (91)
+  5 1BXV_A PLASTOCYANIN; COPPER PR   8.6 3.5E+02  0.0039    8.7   0.0    6    1-6       1-6   (91)
+  6 3E07_A Protein spaetzle; cysti   8.1 3.8E+02  0.0043   10.7   0.0    6    1-6      40-45  (114)
+  7 4XB6_F PhnG, PhnH, PhnI, PhnJ;   8.0 3.9E+02  0.0043   11.8   0.0    5    2-6     122-126 (194)
+  8 6P7A_A Holliday junction resol   7.9   4E+02  0.0044    9.8   0.0    6    1-6      55-60  (148)
+  9 1XS8_A yggx_20; helix-turn-hel   7.9   4E+02  0.0044   11.3   0.0    5    1-5      46-50  (91)
+ 10 1T07_A Hypothetical UPF0269 pr   7.7 4.1E+02  0.0045   11.3   0.0    5    1-5      48-52  (94)
+
+No 1
+>3EGA_A Protein pellino homolog 2; Pellino, FHA Domain, E3 ubiquitin; 1.8A {Homo sapiens}
+Probab=10.89  E-value=2.5e+02  Score=13.92  Aligned_cols=6  Identities=67%  Similarity=1.021  Sum_probs=2.9  Template_Neff=3.900
+
+Q QTVIIE            1 QTVIIE    6 (6)
+Q Consensus         1 qtviie    6 (6)
+                      |+|++|
+T Consensus        75 ~tVvVE   80 (263)
+T 3EGA_A           75 QTVVVE   80 (263)
+T ss_dssp             EEEEEE
+T ss_pred             eEEEEE
+Confidence            355554
+
+
+No 2
+>4LXR_J Protein toll, Protein spaetzle C-106; TLR, LEUCINE-RICH REPEAT, IMMUNE SYSTEM; HET: BMA, MAN, NAG, EPE; 2.2A {Drosophila melanogaster}
+Probab=9.29  E-value=3.2e+02  Score=10.97  Aligned_cols=6  Identities=50%  Similarity=0.673  Sum_probs=0.0  Template_Neff=6.700
+
+Q QTVIIE            1 QTVIIE    6 (6)
+Q Consensus         1 qtviie    6 (6)
+                      |+|.||
+T Consensus        40 Q~v~iE   45 (114)
+T 4LXR_J           40 QAIQIE   45 (114)
+T ss_dssp             CCCEEE
+T ss_pred             eeEEEE
+
+
+No 3
+>3IXS_H E3 ubiquitin-protein ligase RING2 (E.C.6.3.2.-); RING1B, RYBP, polycomb, e3-ligase, chromosomal; HET: NHE, EDO; 1.7A {Homo sapiens}
+Probab=8.96  E-value=3.3e+02  Score=10.44  Aligned_cols=4  Identities=100%  Similarity=1.157  Sum_probs=0.0  Template_Neff=2.400
+
+Q QTVIIE            2 TVII    5 (6)
+Q Consensus         2 tvii    5 (6)
+                      ||||
+T Consensus        25 TViI   28 (37)
+T 3IXS_H           25 TVII   28 (37)
+T ss_dssp             EEEE
+T ss_pred             EEEE
+
+
+No 4
+>1BXU_A PLASTOCYANIN; COPPER PROTEIN, ELECTRON TRANSFER; 1.9A {Synechococcus elongatus} SCOP: b.6.1.1
+Probab=8.65  E-value=3.5e+02  Score=8.68  Aligned_cols=6  Identities=67%  Similarity=0.722  Sum_probs=0.0  Template_Neff=10.500
+
+Q QTVIIE            1 QTVIIE    6 (6)
+Q Consensus         1 qtviie    6 (6)
+                      |++.|+
+T Consensus         1 ~~~~i~    6 (91)
+T 1BXU_A            1 QTVAIK    6 (91)
+T ss_dssp             CEEEEE
+T ss_pred             CeEEEE
+
+
+No 5
+>1BXV_A PLASTOCYANIN; COPPER PROTEIN, ELECTRON TRANSFER; 1.8A {Synechococcus elongatus} SCOP: b.6.1.1
+Probab=8.65  E-value=3.5e+02  Score=8.68  Aligned_cols=6  Identities=67%  Similarity=0.722  Sum_probs=0.0  Template_Neff=10.500
+
+Q QTVIIE            1 QTVIIE    6 (6)
+Q Consensus         1 qtviie    6 (6)
+                      |++.|+
+T Consensus         1 ~~~~i~    6 (91)
+T 1BXV_A            1 QTVAIK    6 (91)
+T ss_dssp             CEEEEE
+T ss_pred             CeEEEE
+
+
+No 6
+>3E07_A Protein spaetzle; cystine knot, Toll ligand, Antimicrobial; 2.4A {Drosophila melanogaster}
+Probab=8.05  E-value=3.8e+02  Score=10.69  Aligned_cols=6  Identities=50%  Similarity=0.673  Sum_probs=0.0  Template_Neff=6.800
+
+Q QTVIIE            1 QTVIIE    6 (6)
+Q Consensus         1 qtviie    6 (6)
+                      |.|.+|
+T Consensus        40 Q~v~~E   45 (114)
+T 3E07_A           40 QAIQIE   45 (114)
+T ss_dssp             EEEEEE
+T ss_pred             eeEEEE
+
+
+No 7
+>4XB6_F PhnG, PhnH, PhnI, PhnJ; protein complex, transferase; HET: CME, SO4; 1.7A {Escherichia coli str. K-12 substr. MG1655}
+Probab=8.02  E-value=3.9e+02  Score=11.80  Aligned_cols=5  Identities=40%  Similarity=0.853  Sum_probs=0.0  Template_Neff=6.400
+
+Q QTVIIE            2 TVIIE    6 (6)
+Q Consensus         2 tviie    6 (6)
+                      |+|||
+T Consensus       122 TlIi~  126 (194)
+T 4XB6_F          122 TLILQ  126 (194)
+T ss_dssp             EEEEE
+T ss_pred             EEEEE
+
+
+No 8
+>6P7A_A Holliday junction resolvase (E.C.3.1.-.-); RESOLVASE, HYDROLASE; 3.081A {Fowlpox virus}
+Probab=7.89  E-value=4e+02  Score=9.83  Aligned_cols=6  Identities=50%  Similarity=0.816  Sum_probs=0.0  Template_Neff=9.600
+
+Q QTVIIE            1 QTVIIE    6 (6)
+Q Consensus         1 qtviie    6 (6)
+                      ..|+||
+T Consensus        55 d~vviE   60 (148)
+T 6P7A_A           55 DVVILE   60 (148)
+T ss_dssp             SEEEEE
+T ss_pred             CEEEEe
+
+
+No 9
+>1XS8_A yggx_20; helix-turn-helix, METAL TRANSPORT; NMR {Salmonella typhimurium} SCOP: d.279.1.1
+Probab=7.88  E-value=4e+02  Score=11.32  Aligned_cols=5  Identities=60%  Similarity=0.906  Sum_probs=0.0  Template_Neff=4.200
+
+Q QTVIIE            1 QTVII    5 (6)
+Q Consensus         1 qtvii    5 (6)
+                      ||.+|
+T Consensus        46 QTmlI   50 (91)
+T 1XS8_A           46 QTMLI   50 (91)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 10
+>1T07_A Hypothetical UPF0269 protein PA5148; Structural genomics, APC5047, PA5148, Conserved; 1.8A {Pseudomonas aeruginosa} SCOP: d.279.1.1
+Probab=7.74  E-value=4.1e+02  Score=11.34  Aligned_cols=5  Identities=60%  Similarity=0.906  Sum_probs=0.0  Template_Neff=4.200
+
+Q QTVIIE            1 QTVII    5 (6)
+Q Consensus         1 qtvii    5 (6)
+                      ||.+|
+T Consensus        48 QTmLI   52 (94)
+T 1T07_A           48 QTMLI   52 (94)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+

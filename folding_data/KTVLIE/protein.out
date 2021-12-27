@@ -1,0 +1,150 @@
+Query         KTVLIE
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 12:46:33 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/KTVLIE/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/KTVLIE/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5I5N_A Matrix protein; Viral p  12.7 2.1E+02  0.0023   13.7   0.0    6    1-6     132-137 (154)
+  2 1G2Y_C dimerization domain, fo   9.0 3.3E+02  0.0036   10.0   0.0    6    1-6      23-28  (32)
+  3 5H67_A Chromosome partition pr   8.9 3.3E+02  0.0037    9.7   0.0    6    1-6      37-42  (199)
+  4 1D5C_A RAB6 GTPASE; G-PROTEIN,   8.9 3.3E+02  0.0037    9.1   0.0    6    1-6      14-19  (162)
+  5 2GYP_A Hepatocyte nuclear fact   8.6 3.5E+02  0.0039   10.0   0.0    6    1-6      23-28  (33)
+  6 5H66_A Chromosome partition pr   8.0 3.9E+02  0.0043    9.5   0.0    6    1-6      37-42  (199)
+  7 4O6V_B Oxidoreductase, short-c   8.0 3.9E+02  0.0043   10.2   0.0    5    1-5      13-17  (242)
+  8 5T2U_C Oxidoreductase, short c   7.7 4.1E+02  0.0045    9.3   0.0    5    1-5      14-18  (248)
+  9 3QKS_A DNA double-strand break   7.7 4.1E+02  0.0045    9.9   0.0    6    1-6      36-41  (203)
+ 10 2EKD_B Hypothetical protein PH   7.7 4.1E+02  0.0045   11.3   0.0    5    2-6      17-21  (207)
+
+No 1
+>5I5N_A Matrix protein; Viral protein; 1.418A {Thogoto virus}
+Probab=12.66  E-value=2.1e+02  Score=13.71  Aligned_cols=6  Identities=33%  Similarity=0.556  Sum_probs=3.0  Template_Neff=2.200
+
+Q KTVLIE            1 KTVLIE    6 (6)
+Q Consensus         1 ktvlie    6 (6)
+                      |++|+|
+T Consensus       132 K~il~e  137 (154)
+T 5I5N_A          132 KRQVID  137 (154)
+T ss_dssp             HHHHHH
+T ss_pred             cHHHHH
+Confidence            455554
+
+
+No 2
+>1G2Y_C dimerization domain, four-helix bundle, transcription; HET: MSE; 1.0A {N/A} SCOP: a.34.2.1
+Probab=9.03  E-value=3.3e+02  Score=10.03  Aligned_cols=6  Identities=50%  Similarity=0.717  Sum_probs=0.0  Template_Neff=3.000
+
+Q KTVLIE            1 KTVLIE    6 (6)
+Q Consensus         1 ktvlie    6 (6)
+                      |.+||+
+T Consensus        23 ke~Li~   28 (32)
+T 1G2Y_C           23 KEALIQ   28 (32)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 3
+>5H67_A Chromosome partition protein Smc, Segregation; SMC protein, DNA BINDING PROTEIN-CELL; HET: ATP; 2.07203506543A {Bacillus subtilis (strain 168)}
+Probab=8.95  E-value=3.3e+02  Score=9.70  Aligned_cols=6  Identities=17%  Similarity=0.412  Sum_probs=0.0  Template_Neff=11.300
+
+Q KTVLIE            1 KTVLIE    6 (6)
+Q Consensus         1 ktvlie    6 (6)
+                      ||.+++
+T Consensus        37 KStil~   42 (199)
+T 5H67_A           37 KSNITD   42 (199)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 4
+>1D5C_A RAB6 GTPASE; G-PROTEIN, GTPASE, RAB, RAB6, VESICULAR; HET: GDP, MSE; 2.3A {Plasmodium falciparum} SCOP: c.37.1.8
+Probab=8.94  E-value=3.3e+02  Score=9.09  Aligned_cols=6  Identities=50%  Similarity=0.634  Sum_probs=0.0  Template_Neff=11.800
+
+Q KTVLIE            1 KTVLIE    6 (6)
+Q Consensus         1 ktvlie    6 (6)
+                      |+.|+.
+T Consensus        14 Kstl~~   19 (162)
+T 1D5C_A           14 KTSIIT   19 (162)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 5
+>2GYP_A Hepatocyte nuclear factor 1-alpha; energy landscape, gene regulation, protein; HET: DAL, NLE; 1.4A {N/A}
+Probab=8.62  E-value=3.5e+02  Score=10.04  Aligned_cols=6  Identities=50%  Similarity=0.717  Sum_probs=0.0  Template_Neff=2.900
+
+Q KTVLIE            1 KTVLIE    6 (6)
+Q Consensus         1 ktvlie    6 (6)
+                      |.+||+
+T Consensus        23 ke~Liq   28 (33)
+T 2GYP_A           23 KEALIQ   28 (33)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 6
+>5H66_A Chromosome partition protein Smc, Segregation; SMC protein, DNA BINDING PROTEIN-CELL; 1.82194772804A {Bacillus subtilis (strain 168)}
+Probab=8.03  E-value=3.9e+02  Score=9.49  Aligned_cols=6  Identities=17%  Similarity=0.412  Sum_probs=0.0  Template_Neff=11.400
+
+Q KTVLIE            1 KTVLIE    6 (6)
+Q Consensus         1 ktvlie    6 (6)
+                      ||.+++
+T Consensus        37 KStil~   42 (199)
+T 5H66_A           37 KSNITD   42 (199)
+T ss_pred             HHHHHH
+
+
+No 7
+>4O6V_B Oxidoreductase, short-chain dehydrogenase/reductase family (E.C.1.1.1.100); Structural Genomics, NIAID, National Institute; HET: GOL; 1.85A {Brucella suis}
+Probab=8.00  E-value=3.9e+02  Score=10.22  Aligned_cols=5  Identities=40%  Similarity=0.674  Sum_probs=0.0  Template_Neff=10.600
+
+Q KTVLIE            1 KTVLI    5 (6)
+Q Consensus         1 ktvli    5 (6)
+                      |++||
+T Consensus        13 ~~~li   17 (242)
+T 4O6V_B           13 KVAII   17 (242)
+T ss_dssp             CEEEE
+T ss_pred             CEEEE
+
+
+No 8
+>5T2U_C Oxidoreductase, short chain dehydrogenase/reductase family; FabG, mycobacterium, fatty acids, OXIDOREDUCTASE; HET: NAP; 2.2A {Mycobacterium smegmatis (strain ATCC 700084 / mc(2)155)}
+Probab=7.73  E-value=4.1e+02  Score=9.27  Aligned_cols=5  Identities=40%  Similarity=0.507  Sum_probs=0.0  Template_Neff=12.500
+
+Q KTVLIE            1 KTVLI    5 (6)
+Q Consensus         1 ktvli    5 (6)
+                      |+++|
+T Consensus        14 ~~~li   18 (248)
+T 5T2U_C           14 LTALV   18 (248)
+T ss_dssp             CEEEE
+T ss_pred             CEEEE
+
+
+No 9
+>3QKS_A DNA double-strand break repair rad50; RecA-like fold, coiled-coils, ATPase, exonuclease; 2.1A {Pyrococcus furiosus}
+Probab=7.68  E-value=4.1e+02  Score=9.85  Aligned_cols=6  Identities=33%  Similarity=0.733  Sum_probs=0.0  Template_Neff=10.600
+
+Q KTVLIE            1 KTVLIE    6 (6)
+Q Consensus         1 ktvlie    6 (6)
+                      ||.+++
+T Consensus        36 KStil~   41 (203)
+T 3QKS_A           36 KSSLLD   41 (203)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 10
+>2EKD_B Hypothetical protein PH0250; NPPSFA, National Project on Protein; HET: MSE; 2.3A {Pyrococcus horikoshii}
+Probab=7.66  E-value=4.1e+02  Score=11.34  Aligned_cols=5  Identities=80%  Similarity=1.105  Sum_probs=0.0  Template_Neff=7.500
+
+Q KTVLIE            2 TVLIE    6 (6)
+Q Consensus         2 tvlie    6 (6)
+                      +||||
+T Consensus        17 ~vLIe   21 (207)
+T 2EKD_B           17 TVLVE   21 (207)
+T ss_dssp             EEEEE
+T ss_pred             EEEEE
+
+

@@ -1,0 +1,150 @@
+Query         LHTVYV
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 18:21:04 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LHTVYV/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LHTVYV/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 7CUJ_C telomere, DNA BINDING P  26.3      64 0.00071   12.8   0.0    6    1-6      24-29  (45)
+  2 7EEB_J Enhanced green fluoresc  11.1 2.5E+02  0.0027   13.3   0.0    6    1-6      70-75  (171)
+  3 5D6E_A Methionine aminopeptida   8.2 3.8E+02  0.0042   12.0   0.0    5    2-6     353-357 (371)
+  4 2V4H_D NF-KAPPA-B ESSENTIAL MO   8.0 3.9E+02  0.0043    7.9   0.0    4    2-5       1-4   (136)
+  5 2V6C_A PROLIFERATION-ASSOCIATE   7.7 4.1E+02  0.0045   11.7   0.0    5    2-6     314-318 (353)
+  6 6M3W_A Spike glycoprotein,Spik   7.6 4.2E+02  0.0046   14.5   0.0    6    1-6     358-363 (491)
+  7 5ZWN_X U1 small nuclear ribonu   7.0 4.7E+02  0.0052   13.7   0.0    6    1-6     114-119 (619)
+  8 1YW8_A Methionine aminopeptida   6.9 4.7E+02  0.0052   11.7   0.0    5    2-6     351-355 (369)
+  9 4KWY_A Putative uncharacterize   6.2 5.4E+02   0.006    9.6   0.0    6    1-6      10-15  (140)
+ 10 6B3O_C Spike glycoprotein; Cor   6.2 5.4E+02   0.006   14.6   0.0    6    1-6     418-423 (605)
+
+No 1
+>7CUJ_C telomere, DNA BINDING PROTEIN; 2.4A {Schizosaccharomyces pombe (strain 972 / ATCC 24843)}
+Probab=26.32  E-value=64  Score=12.83  Aligned_cols=6  Identities=50%  Similarity=1.005  Sum_probs=3.5  Template_Neff=2.100
+
+Q LHTVYV            1 LHTVYV    6 (6)
+Q Consensus         1 lhtvyv    6 (6)
+                      ||++|+
+T Consensus        24 L~e~Y~   29 (45)
+T 7CUJ_C           24 LQELYV   29 (45)
+T ss_pred             HHHHHH
+Confidence            466663
+
+
+No 2
+>7EEB_J Enhanced green fluorescent protein,Cation channel; ion channel, membrane protein, calcium; HET: NAG, BMA, 9Z9; 2.9A {Mus musculus}
+Probab=11.12  E-value=2.5e+02  Score=13.28  Aligned_cols=6  Identities=67%  Similarity=1.226  Sum_probs=2.9  Template_Neff=3.600
+
+Q LHTVYV            1 LHTVYV    6 (6)
+Q Consensus         1 lhtvyv    6 (6)
+                      +|.||+
+T Consensus        70 lHnIYi   75 (171)
+T 7EEB_J           70 MHLVYV   75 (171)
+T ss_dssp             CSSCBC
+T ss_pred             hhhEEE
+Confidence            355553
+
+
+No 3
+>5D6E_A Methionine aminopeptidase 2 (E.C.3.4.11.18); Methionine aminopeptidase 2, Spiroepoxytriazoles, inhibitor; HET: TBU, 94A; 1.49A {Homo sapiens}
+Probab=8.17  E-value=3.8e+02  Score=12.01  Aligned_cols=5  Identities=40%  Similarity=0.893  Sum_probs=0.0  Template_Neff=8.500
+
+Q LHTVYV            2 HTVYV    6 (6)
+Q Consensus         2 htvyv    6 (6)
+                      |||+|
+T Consensus       353 ~Tv~v  357 (371)
+T 5D6E_A          353 HTILL  357 (371)
+T ss_dssp             EEEEE
+T ss_pred             EEEEe
+
+
+No 4
+>2V4H_D NF-KAPPA-B ESSENTIAL MODULATOR, 1D5 DARPIN; TRANSCRIPTION, METAL-BINDING, NEMO - IKK; 2.9A {MUS MUSCULUS}
+Probab=8.01  E-value=3.9e+02  Score=7.93  Aligned_cols=4  Identities=25%  Similarity=0.127  Sum_probs=0.0  Template_Neff=13.200
+
+Q LHTVYV            2 HTVY    5 (6)
+Q Consensus         2 htvy    5 (6)
+                      |++|
+T Consensus         1 ~~~~    4 (136)
+T 2V4H_D            1 HHHH    4 (136)
+T ss_dssp             ----
+T ss_pred             CCCC
+
+
+No 5
+>2V6C_A PROLIFERATION-ASSOCIATED PROTEIN 2G4; TRANSLATION REGULATION, TRANSLATIONAL REGULATOR, RNA-BINDING; 2.5A {MUS MUSCULUS}
+Probab=7.68  E-value=4.1e+02  Score=11.67  Aligned_cols=5  Identities=40%  Similarity=0.507  Sum_probs=0.0  Template_Neff=8.800
+
+Q LHTVYV            2 HTVYV    6 (6)
+Q Consensus         2 htvyv    6 (6)
+                      |||+|
+T Consensus       314 ~Tv~v  318 (353)
+T 2V6C_A          314 FTVLL  318 (353)
+T ss_dssp             EEEEE
+T ss_pred             EEEEE
+
+
+No 6
+>6M3W_A Spike glycoprotein,Spike glycoprotein; spike, post-fusion, SARS-CoV, coronavirus, glycoprotein; HET: NAG;{Human SARS coronavirus}
+Probab=7.60  E-value=4.2e+02  Score=14.49  Aligned_cols=6  Identities=67%  Similarity=1.176  Sum_probs=0.0  Template_Neff=3.500
+
+Q LHTVYV            1 LHTVYV    6 (6)
+Q Consensus         1 lhtvyv    6 (6)
+                      +|++|+
+T Consensus       358 ~H~~~~  363 (491)
+T 6M3W_A          358 LHVTYV  363 (491)
+T ss_dssp             EEEEEE
+T ss_pred             EEEEeC
+
+
+No 7
+>5ZWN_X U1 small nuclear ribonucleoprotein 70; spliceosme, assemply, pre-B complex, U1; 3.3A {Saccharomyces cerevisiae S288c}
+Probab=6.96  E-value=4.7e+02  Score=13.73  Aligned_cols=6  Identities=50%  Similarity=0.811  Sum_probs=0.0  Template_Neff=6.100
+
+Q LHTVYV            1 LHTVYV    6 (6)
+Q Consensus         1 lhtvyv    6 (6)
+                      ||||+|
+T Consensus       114 L~TV~V  119 (619)
+T 5ZWN_X          114 IHTVSL  119 (619)
+T ss_pred             cEEEEE
+
+
+No 8
+>1YW8_A Methionine aminopeptidase 2 (E.C.3.4.11.18); Hydrolase; HET: A75; 2.65A {Homo sapiens} SCOP: a.4.5.25, d.127.1.1
+Probab=6.89  E-value=4.7e+02  Score=11.71  Aligned_cols=5  Identities=40%  Similarity=0.893  Sum_probs=0.0  Template_Neff=8.500
+
+Q LHTVYV            2 HTVYV    6 (6)
+Q Consensus         2 htvyv    6 (6)
+                      |||+|
+T Consensus       351 ~Tv~v  355 (369)
+T 1YW8_A          351 HTILL  355 (369)
+T ss_dssp             EEEEE
+T ss_pred             EEEEe
+
+
+No 9
+>4KWY_A Putative uncharacterized protein; LptE, PF04390 family, lipoprotein, Structural; 2.4A {Caulobacter crescentus}
+Probab=6.22  E-value=5.4e+02  Score=9.62  Aligned_cols=6  Identities=17%  Similarity=0.318  Sum_probs=0.0  Template_Neff=9.100
+
+Q LHTVYV            1 LHTVYV    6 (6)
+Q Consensus         1 lhtvyv    6 (6)
+                      +++|||
+T Consensus        10 ~~~I~I   15 (140)
+T 4KWY_A           10 LSSIET   15 (140)
+T ss_dssp             HTTEEE
+T ss_pred             cccEEE
+
+
+No 10
+>6B3O_C Spike glycoprotein; Coronavirus, membrane fusion, MHV, SARS; 4.1A {Murine coronavirus}
+Probab=6.22  E-value=5.4e+02  Score=14.57  Aligned_cols=6  Identities=50%  Similarity=0.932  Sum_probs=0.0  Template_Neff=3.200
+
+Q LHTVYV            1 LHTVYV    6 (6)
+Q Consensus         1 lhtvyv    6 (6)
+                      +|++|+
+T Consensus       418 lH~~y~  423 (605)
+T 6B3O_C          418 IHFSYV  423 (605)
+T ss_dssp             EEEEEE
+T ss_pred             EEEEEc
+
+

@@ -1,0 +1,147 @@
+Query         LDGSSR
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 17:46:39 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LDGSSR/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LDGSSR/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2HCU_A 3-isopropylmalate dehyd  17.4 1.3E+02  0.0014   13.4   0.0    4    3-6      98-101 (213)
+  2 6NU2_m 39S ribosomal protein L  16.6 1.4E+02  0.0015   11.4   0.0    4    2-5      27-30  (45)
+  3 2GQ1_A Fructose-1,6-bisphospha  12.8   2E+02  0.0022   12.3   0.0    5    1-5     112-116 (332)
+  4 2QVR_A Fructose-1,6-bisphospha  12.8   2E+02  0.0022   12.3   0.0    5    1-5     112-116 (332)
+  5 4M7R_B Anamorsin; ROSSMANN FOL  12.7   2E+02  0.0023   10.1   0.0    5    2-6     192-196 (196)
+  6 5OEY_C FBP protein (E.C.3.1.3.  12.5 2.1E+02  0.0023   12.5   0.0    5    1-5     120-124 (351)
+  7 7K74_A Fructose-1,6-bisphospha  11.2 2.4E+02  0.0027   12.3   0.0    5    1-5     118-122 (342)
+  8 5VGU_A Microcompartments prote  10.9 2.5E+02  0.0028   12.0   0.0    6    1-6     109-114 (125)
+  9 4M7R_A Anamorsin; ROSSMANN FOL  10.9 2.6E+02  0.0028    9.9   0.0    5    2-6     192-196 (196)
+ 10 1RDX_A HYDROLASE R243A MUTANT    9.9 2.9E+02  0.0032   11.9   0.0    5    1-5     120-124 (337)
+
+No 1
+>2HCU_A 3-isopropylmalate dehydratase small subunit (E.C.4.2.1.33); BETA BARREL, LYASE; HET: SO4; 2.1A {Streptococcus mutans}
+Probab=17.40  E-value=1.3e+02  Score=13.38  Aligned_cols=4  Identities=100%  Similarity=1.307  Sum_probs=0.0  Template_Neff=6.400
+
+Q LDGSSR            3 GSSR    6 (6)
+Q Consensus         3 gssr    6 (6)
+                      ||||
+T Consensus        98 GSSR  101 (213)
+T 2HCU_A           98 GSSR  101 (213)
+T ss_dssp             SSCC
+T ss_pred             CCcH
+
+
+No 2
+>6NU2_m 39S ribosomal protein L2, mitochondrial; mitochondrial ribosome recycling Factor, mtRRF; HET: MG; 3.9A {Homo sapiens}
+Probab=16.60  E-value=1.4e+02  Score=11.38  Aligned_cols=4  Identities=75%  Similarity=1.248  Sum_probs=0.0  Template_Neff=3.900
+
+Q LDGSSR            2 DGSS    5 (6)
+Q Consensus         2 dgss    5 (6)
+                      |||+
+T Consensus        27 DGSt   30 (45)
+T 6NU2_m           27 DGST   30 (45)
+T ss_pred             CCCe
+
+
+No 3
+>2GQ1_A Fructose-1,6-bisphosphatase (E.C.3.1.3.11); Allosteric Activator Site, Quaternary Conformation; HET: SO4; 1.45A {Escherichia coli}
+Probab=12.79  E-value=2e+02  Score=12.34  Aligned_cols=5  Identities=100%  Similarity=1.311  Sum_probs=0.0  Template_Neff=9.000
+
+Q LDGSSR            1 LDGSS    5 (6)
+Q Consensus         1 ldgss    5 (6)
+                      |||++
+T Consensus       112 lDGT~  116 (332)
+T 2GQ1_A          112 LDGSS  116 (332)
+T ss_dssp             EETGG
+T ss_pred             CCCCc
+
+
+No 4
+>2QVR_A Fructose-1,6-bisphosphatase (E.C.3.1.3.11); tetramer, sugar phosphatase fold, Carbohydrate; HET: FDP, CIT; 2.18A {Escherichia coli}
+Probab=12.79  E-value=2e+02  Score=12.34  Aligned_cols=5  Identities=100%  Similarity=1.311  Sum_probs=0.0  Template_Neff=9.000
+
+Q LDGSSR            1 LDGSS    5 (6)
+Q Consensus         1 ldgss    5 (6)
+                      |||++
+T Consensus       112 lDGT~  116 (332)
+T 2QVR_A          112 LDGSS  116 (332)
+T ss_dssp             EECGG
+T ss_pred             CCCCc
+
+
+No 5
+>4M7R_B Anamorsin; ROSSMANN FOLD, APOPTOSIS; 1.801A {Homo sapiens}
+Probab=12.70  E-value=2e+02  Score=10.10  Aligned_cols=5  Identities=80%  Similarity=0.853  Sum_probs=0.0  Template_Neff=11.500
+
+Q LDGSSR            2 DGSSR    6 (6)
+Q Consensus         2 dgssr    6 (6)
+                      .||||
+T Consensus       192 ~~~~~  196 (196)
+T 4M7R_B          192 VGSSR  196 (196)
+T ss_pred             cCCCC
+
+
+No 6
+>5OEY_C FBP protein (E.C.3.1.3.11); Allostery, Gluconeogenesis, hydrolase; HET: PO4, CIT; 2.8A {Leishmania major}
+Probab=12.45  E-value=2.1e+02  Score=12.54  Aligned_cols=5  Identities=100%  Similarity=1.311  Sum_probs=0.0  Template_Neff=8.700
+
+Q LDGSSR            1 LDGSS    5 (6)
+Q Consensus         1 ldgss    5 (6)
+                      |||++
+T Consensus       120 LDGT~  124 (351)
+T 5OEY_C          120 LDGSS  124 (351)
+T ss_dssp             EETGG
+T ss_pred             CCCCc
+
+
+No 7
+>7K74_A Fructose-1,6-bisphosphatase class 1 (E.C.3.1.3.11); SSGCID, Stenotrophomonas maltophilia K279a, Stenotrophomonas; HET: PO4; 2.2A {Stenotrophomonas maltophilia (strain K279a)}
+Probab=11.20  E-value=2.4e+02  Score=12.31  Aligned_cols=5  Identities=100%  Similarity=1.311  Sum_probs=0.0  Template_Neff=8.700
+
+Q LDGSSR            1 LDGSS    5 (6)
+Q Consensus         1 ldgss    5 (6)
+                      |||++
+T Consensus       118 LDGT~  122 (342)
+T 7K74_A          118 LDGSS  122 (342)
+T ss_dssp             EESGG
+T ss_pred             CCCCC
+
+
+No 8
+>5VGU_A Microcompartments protein; Bacterial Microcompartment, STRUCTURAL PROTEIN; 1.80719333143A {Halothece sp. PCC 7418}
+Probab=10.89  E-value=2.5e+02  Score=12.01  Aligned_cols=6  Identities=67%  Similarity=0.706  Sum_probs=0.0  Template_Neff=5.300
+
+Q LDGSSR            1 LDGSSR    6 (6)
+Q Consensus         1 ldgssr    6 (6)
+                      +||||.
+T Consensus       109 ~~~~~~  114 (125)
+T 5VGU_A          109 LIGSSQ  114 (125)
+T ss_dssp             ------
+T ss_pred             CCCCcC
+
+
+No 9
+>4M7R_A Anamorsin; ROSSMANN FOLD, APOPTOSIS; 1.801A {Homo sapiens}
+Probab=10.87  E-value=2.6e+02  Score=9.86  Aligned_cols=5  Identities=80%  Similarity=0.853  Sum_probs=0.0  Template_Neff=11.500
+
+Q LDGSSR            2 DGSSR    6 (6)
+Q Consensus         2 dgssr    6 (6)
+                      .||||
+T Consensus       192 ~~~~~  196 (196)
+T 4M7R_A          192 VGSSR  196 (196)
+T ss_pred             cCCCC
+
+
+No 10
+>1RDX_A HYDROLASE R243A MUTANT IN THE; HET: F6P; 2.75A {Sus scrofa} SCOP: e.7.1.1
+Probab=9.89  E-value=2.9e+02  Score=11.92  Aligned_cols=5  Identities=100%  Similarity=1.311  Sum_probs=0.0  Template_Neff=9.000
+
+Q LDGSSR            1 LDGSS    5 (6)
+Q Consensus         1 ldgss    5 (6)
+                      |||++
+T Consensus       120 lDGT~  124 (337)
+T 1RDX_A          120 LDGSS  124 (337)
+T ss_dssp             CSCTT
+T ss_pred             CCCCc
+
+

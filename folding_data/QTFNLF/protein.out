@@ -1,0 +1,154 @@
+Query         QTFNLF
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 11:05:55 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QTFNLF/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QTFNLF/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6LQN_A Cytoplasmic envelopment  60.0     7.9 8.7E-05   18.3   0.0    6    1-6     230-235 (269)
+  2 4M4R_G Ephrin type-A receptor   39.7      27  0.0003   15.4   0.0    6    1-6      95-100 (518)
+  3 5WEH_J Cytochrome c oxidase su  31.4      46 0.00051   12.6   0.0    6    1-6      22-27  (50)
+  4 1QLE_D CYTOCHROME C OXIDASE PO  30.0      50 0.00055   12.0   0.0    6    1-6      15-20  (43)
+  5 1B5L_A INTERFERON TAU; CYTOKIN  27.4      59 0.00066   14.1   0.0    6    1-6      63-68  (172)
+  6 2MN2_A YmoB; four helix bundle  19.8   1E+02  0.0012   14.2   0.0    5    2-6      94-98  (133)
+  7 4A8J_B ELONGATOR COMPLEX PROTE  18.1 1.2E+02  0.0013   13.1   0.0    4    2-5     257-260 (270)
+  8 5IJC_D Toll-like receptor 4,Va  17.7 1.2E+02  0.0014   12.3   0.0    5    1-5       9-13  (191)
+  9 3PIV_B Interferon; Interferon,  17.5 1.3E+02  0.0014   12.8   0.0    6    1-6      61-66  (164)
+ 10 2N4C_A Uncharacterized protein  12.6 2.1E+02  0.0023    9.3   0.0    6    1-6       8-13  (85)
+
+No 1
+>6LQN_A Cytoplasmic envelopment protein 1; Epstein-Barr virus (EBV), Human herpesvirus; HET: MSE, SO4; 1.60002201523A {Human gammaherpesvirus 4}
+Probab=59.97  E-value=7.9  Score=18.26  Aligned_cols=6  Identities=83%  Similarity=1.204  Sum_probs=4.5  Template_Neff=4.900
+
+Q QTFNLF            1 QTFNLF    6 (6)
+Q Consensus         1 qtfnlf    6 (6)
+                      ++||||
+T Consensus       230 ~~fnlf  235 (269)
+T 6LQN_A          230 FTFNLF  235 (269)
+T ss_dssp             CEEEEE
+T ss_pred             CEEEEE
+Confidence            578887
+
+
+No 2
+>4M4R_G Ephrin type-A receptor 4 (E.C.2.7.10.1); eph receptor ephrin complex, TRANSFERASE; HET: NAG; 3.13A {Homo sapiens}
+Probab=39.71  E-value=27  Score=15.40  Aligned_cols=6  Identities=67%  Similarity=1.337  Sum_probs=3.6  Template_Neff=9.500
+
+Q QTFNLF            1 QTFNLF    6 (6)
+Q Consensus         1 qtfnlf    6 (6)
+                      +|||||
+T Consensus        95 etf~l~  100 (518)
+T 4M4R_G           95 ETFNLY  100 (518)
+T ss_dssp             SEEEEE
+T ss_pred             ceEEEE
+Confidence            367764
+
+
+No 3
+>5WEH_J Cytochrome c oxidase subunit 1; oxidase, Complex IV, reduced, OXIDOREDUCTASE; HET: LMU, PEH, HEA; 3.45A {Rhodobacter sphaeroides}
+Probab=31.35  E-value=46  Score=12.58  Aligned_cols=6  Identities=50%  Similarity=0.739  Sum_probs=3.1  Template_Neff=4.600
+
+Q QTFNLF            1 QTFNLF    6 (6)
+Q Consensus         1 qtfnlf    6 (6)
+                      +||+.|
+T Consensus        22 ~Ty~gF   27 (50)
+T 5WEH_J           22 KTFAGF   27 (50)
+T ss_pred             HHHHHH
+Confidence            356554
+
+
+No 4
+>1QLE_D CYTOCHROME C OXIDASE POLYPEPTIDE I-BETA; OXIDOREDUCTASE/IMMUNE SYSTEM, COMPLEX (OXIDOREDUCTASE-ANTIBODY), ELECTRON; HET: PC1, HEA; 3.0A {PARACOCCUS DENITRIFICANS} SCOP: f.23.8.1
+Probab=30.01  E-value=50  Score=12.04  Aligned_cols=6  Identities=50%  Similarity=0.645  Sum_probs=3.0  Template_Neff=4.900
+
+Q QTFNLF            1 QTFNLF    6 (6)
+Q Consensus         1 qtfnlf    6 (6)
+                      +||+.|
+T Consensus        15 ~Ty~gF   20 (43)
+T 1QLE_D           15 ATFAGF   20 (43)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            355554
+
+
+No 5
+>1B5L_A INTERFERON TAU; CYTOKINE; HET: SO4; 2.1A {Pichia pastoris} SCOP: a.26.1.3
+Probab=27.37  E-value=59  Score=14.08  Aligned_cols=6  Identities=83%  Similarity=1.442  Sum_probs=2.9  Template_Neff=6.100
+
+Q QTFNLF            1 QTFNLF    6 (6)
+Q Consensus         1 qtfnlf    6 (6)
+                      |.|+||
+T Consensus        63 qIf~LF   68 (172)
+T 1B5L_A           63 QSFNLF   68 (172)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            345554
+
+
+No 6
+>2MN2_A YmoB; four helix bundle, buried cysteine; NMR {Yersinia enterocolitica}
+Probab=19.79  E-value=1e+02  Score=14.18  Aligned_cols=5  Identities=60%  Similarity=1.271  Sum_probs=0.0  Template_Neff=2.900
+
+Q QTFNLF            2 TFNLF    6 (6)
+Q Consensus         2 tfnlf    6 (6)
+                      ||+||
+T Consensus        94 Ty~LF   98 (133)
+T 2MN2_A           94 TYTLF   98 (133)
+T ss_dssp             HHHHH
+T ss_pred             HHHhh
+
+
+No 7
+>4A8J_B ELONGATOR COMPLEX PROTEIN 4, ELONGATOR; TRANSCRIPTION; HET: MSE; 2.1A {SACCHAROMYCES CEREVISIAE}
+Probab=18.15  E-value=1.2e+02  Score=13.12  Aligned_cols=4  Identities=100%  Similarity=1.439  Sum_probs=0.0  Template_Neff=8.000
+
+Q QTFNLF            2 TFNL    5 (6)
+Q Consensus         2 tfnl    5 (6)
+                      ||||
+T Consensus       257 TFNL  260 (270)
+T 4A8J_B          257 TFNL  260 (270)
+T ss_dssp             ----
+T ss_pred             ceec
+
+
+No 8
+>5IJC_D Toll-like receptor 4,Variable lymphocyte receptor; Immune response, protein complex, small; HET: V2A, NAG; 2.57A {Mus musculus}
+Probab=17.67  E-value=1.2e+02  Score=12.32  Aligned_cols=5  Identities=60%  Similarity=0.687  Sum_probs=0.0  Template_Neff=8.200
+
+Q QTFNLF            1 QTFNL    5 (6)
+Q Consensus         1 qtfnl    5 (6)
+                      |.||+
+T Consensus         9 ~~~~~   13 (191)
+T 5IJC_D            9 QGFNK   13 (191)
+T ss_dssp             -----
+T ss_pred             ccCCh
+
+
+No 9
+>3PIV_B Interferon; Interferon, zebrafish, CYTOKINE; 2.086A {Danio rerio}
+Probab=17.48  E-value=1.3e+02  Score=12.75  Aligned_cols=6  Identities=17%  Similarity=0.468  Sum_probs=0.0  Template_Neff=6.700
+
+Q QTFNLF            1 QTFNLF    6 (6)
+Q Consensus         1 qtfnlf    6 (6)
+                      |.|+||
+T Consensus        61 qi~~lF   66 (164)
+T 3PIV_B           61 HIIHLM   66 (164)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 10
+>2N4C_A Uncharacterized protein Atu1203; putative metal-binding domain ATU1203, EC-NMR; NMR {Agrobacterium fabrum str. C58}
+Probab=12.62  E-value=2.1e+02  Score=9.31  Aligned_cols=6  Identities=0%  Similarity=-0.308  Sum_probs=0.0  Template_Neff=10.100
+
+Q QTFNLF            1 QTFNLF    6 (6)
+Q Consensus         1 qtfnlf    6 (6)
+                      |+|+.|
+T Consensus         8 ~~~~~~   13 (85)
+T 2N4C_A            8 HHHSSG   13 (85)
+T ss_dssp             ------
+T ss_pred             cccccC
+
+

@@ -1,0 +1,152 @@
+Query         NNSYSG
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 02:57:06 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NNSYSG/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NNSYSG/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5U89_B Amino acid adenylation   32.6      42 0.00047   13.7   0.0    6    1-6      76-81  (83)
+  2 6PX4_B Antiholin, Holin; phage  26.2      64 0.00071   14.9   0.0    6    1-6     105-110 (142)
+  3 6PXE_T Antiholin, Holin; phage  25.5      68 0.00075   15.1   0.0    6    1-6     127-132 (164)
+  4 6PXE_F Antiholin, Holin; phage  25.4      68 0.00075   15.1   0.0    6    1-6     127-132 (164)
+  5 6X1H_C ULP_PROTEASE domain-con  19.3 1.1E+02  0.0012   15.3   0.0    5    1-5     149-153 (219)
+  6 6X1H_D ULP_PROTEASE domain-con  19.3 1.1E+02  0.0012   15.3   0.0    5    1-5     149-153 (219)
+  7 4UJ3_K RAS-RELATED PROTEIN RAB  15.9 1.5E+02  0.0016   13.1   0.0    6    1-6       5-10  (195)
+  8 4UJ5_D RAS-RELATED PROTEIN RAB  15.9 1.5E+02  0.0016   13.1   0.0    6    1-6       5-10  (195)
+  9 6JLU_j PsbA, PsbB, PsbC, PsbD,  13.2 1.9E+02  0.0021   10.9   0.0    4    3-6      27-30  (34)
+ 10 6YP7_J Chlorophyll a-b binding  13.2 1.9E+02  0.0021   11.0   0.0    4    3-6      27-30  (35)
+
+No 1
+>5U89_B Amino acid adenylation domain protein; nonribosomal peptide synthetase, MbtH-like protein; HET: MJ8; 3.075A {Geobacillus sp.}
+Probab=32.59  E-value=42  Score=13.73  Aligned_cols=6  Identities=67%  Similarity=1.282  Sum_probs=0.0  Template_Neff=4.600
+
+Q NNSYSG            1 NNSYSG    6 (6)
+Q Consensus         1 nnsysg    6 (6)
+                      ||.|||
+T Consensus        76 ~~~~~~   81 (83)
+T 5U89_B           76 DNDYSG   81 (83)
+T ss_dssp             ------
+T ss_pred             ccccCC
+Confidence            466765
+
+
+No 2
+>6PX4_B Antiholin, Holin; phage, lysis inhibition, VIRAL PROTEIN; 1.65A {Escherichia phage ECML-134}
+Probab=26.22  E-value=64  Score=14.94  Aligned_cols=6  Identities=50%  Similarity=1.093  Sum_probs=3.4  Template_Neff=2.900
+
+Q NNSYSG            1 NNSYSG    6 (6)
+Q Consensus         1 nnsysg    6 (6)
+                      +|.|+|
+T Consensus       105 dNiYaG  110 (142)
+T 6PX4_B          105 DNIYAG  110 (142)
+T ss_dssp             TSBEEE
+T ss_pred             ccccce
+Confidence            356665
+
+
+No 3
+>6PXE_T Antiholin, Holin; phage, lysis inhibition, VIRAL PROTEIN; 2.3A {Enterobacteria phage T4}
+Probab=25.45  E-value=68  Score=15.09  Aligned_cols=6  Identities=50%  Similarity=1.093  Sum_probs=3.5  Template_Neff=3.100
+
+Q NNSYSG            1 NNSYSG    6 (6)
+Q Consensus         1 nnsysg    6 (6)
+                      +|.|+|
+T Consensus       127 dNiYaG  132 (164)
+T 6PXE_T          127 DNIYAG  132 (164)
+T ss_dssp             TCBEEE
+T ss_pred             ccccce
+Confidence            466665
+
+
+No 4
+>6PXE_F Antiholin, Holin; phage, lysis inhibition, VIRAL PROTEIN; 2.3A {Enterobacteria phage T4}
+Probab=25.44  E-value=68  Score=15.09  Aligned_cols=6  Identities=50%  Similarity=1.093  Sum_probs=3.5  Template_Neff=3.100
+
+Q NNSYSG            1 NNSYSG    6 (6)
+Q Consensus         1 nnsysg    6 (6)
+                      +|.|+|
+T Consensus       127 dNiYaG  132 (164)
+T 6PXE_F          127 DNIYAG  132 (164)
+T ss_dssp             TCBEEE
+T ss_pred             ccccce
+Confidence            466665
+
+
+No 5
+>6X1H_C ULP_PROTEASE domain-containing protein; guanine nucleotide exchange factor, GEF; 2.91A {Orientia tsutsugamushi}
+Probab=19.34  E-value=1.1e+02  Score=15.28  Aligned_cols=5  Identities=60%  Similarity=1.105  Sum_probs=0.0  Template_Neff=2.000
+
+Q NNSYSG            1 NNSYS    5 (6)
+Q Consensus         1 nnsys    5 (6)
+                      +||||
+T Consensus       149 dnSYS  153 (219)
+T 6X1H_C          149 DDSYS  153 (219)
+T ss_dssp             TTGGG
+T ss_pred             CCcHH
+
+
+No 6
+>6X1H_D ULP_PROTEASE domain-containing protein; guanine nucleotide exchange factor, GEF; 2.91A {Orientia tsutsugamushi}
+Probab=19.34  E-value=1.1e+02  Score=15.28  Aligned_cols=5  Identities=60%  Similarity=1.105  Sum_probs=0.0  Template_Neff=2.000
+
+Q NNSYSG            1 NNSYS    5 (6)
+Q Consensus         1 nnsys    5 (6)
+                      +||||
+T Consensus       149 dnSYS  153 (219)
+T 6X1H_D          149 DDSYS  153 (219)
+T ss_dssp             TTGGG
+T ss_pred             CCcHH
+
+
+No 7
+>4UJ3_K RAS-RELATED PROTEIN RAB-11A, RAB-3A-INTERACTING PROTEIN; TRANSPORT PROTEIN, CILIARY TARGETING COMPLEX; HET: PG4, GNP; 3.0A {HOMO SAPIENS}
+Probab=15.87  E-value=1.5e+02  Score=13.08  Aligned_cols=6  Identities=50%  Similarity=0.418  Sum_probs=0.0  Template_Neff=6.300
+
+Q NNSYSG            1 NNSYSG    6 (6)
+Q Consensus         1 nnsysg    6 (6)
+                      |||+++
+T Consensus         5 ~~~~~~   10 (195)
+T 4UJ3_K            5 NKSTSS   10 (195)
+T ss_dssp             ------
+T ss_pred             cccccc
+
+
+No 8
+>4UJ5_D RAS-RELATED PROTEIN RAB-11A, RAB-3A-INTERACTING PROTEIN; TRANSPORT PROTEIN, CILIARY TARGETING COMPLEX; HET: GNP; 2.604A {HOMO SAPIENS}
+Probab=15.87  E-value=1.5e+02  Score=13.08  Aligned_cols=6  Identities=50%  Similarity=0.418  Sum_probs=0.0  Template_Neff=6.300
+
+Q NNSYSG            1 NNSYSG    6 (6)
+Q Consensus         1 nnsysg    6 (6)
+                      |||+++
+T Consensus         5 ~~~~~~   10 (195)
+T 4UJ5_D            5 NKSTSS   10 (195)
+T ss_dssp             ------
+T ss_pred             cccccc
+
+
+No 9
+>6JLU_j PsbA, PsbB, PsbC, PsbD, PsbE; PSII-FCP supercomplex, PLANT PROTEIN; HET: PL9, OEX, LMG, DGD, HEM, PHO, CLA, A86, KC1, DD6, KC2, SQD, LHG, BCR; 3.02A {Chaetoceros gracilis}
+Probab=13.21  E-value=1.9e+02  Score=10.93  Aligned_cols=4  Identities=100%  Similarity=1.564  Sum_probs=0.0  Template_Neff=2.300
+
+Q NNSYSG            3 SYSG    6 (6)
+Q Consensus         3 sysg    6 (6)
+                      ||||
+T Consensus        27 sYsG   30 (34)
+T 6JLU_j           27 SYSG   30 (34)
+T ss_pred             hccc
+
+
+No 10
+>6YP7_J Chlorophyll a-b binding protein 8; Cryo-EM, photosystem II, High Light; HET: PL9, LHG, BCR, NEX, HEM, OEX, CLA, PHO, DGD, XAT, SQD, LUT, LMG, CHL;{Pisum sativum}
+Probab=13.19  E-value=1.9e+02  Score=10.99  Aligned_cols=4  Identities=100%  Similarity=1.564  Sum_probs=0.0  Template_Neff=2.300
+
+Q NNSYSG            3 SYSG    6 (6)
+Q Consensus         3 sysg    6 (6)
+                      ||||
+T Consensus        27 sYsG   30 (35)
+T 6YP7_J           27 SYSG   30 (35)
+T ss_pred             hccc
+
+

@@ -1,0 +1,146 @@
+Query         QQSYGQ
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 10:09:27 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QQSYGQ/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QQSYGQ/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5YNM_B nsp16 protein, nsp10 pr  12.6 2.1E+02  0.0023   13.5   0.0    5    1-5      65-69  (140)
+  2 5YVG_X Transportin-1, RNA-bind  12.4 2.1E+02  0.0023   14.9   0.0    6    1-6      32-37  (528)
+  3 7MC5_M ?; RNA binding, VIRAL P  12.2 2.2E+02  0.0024   13.4   0.0    5    1-5      66-70  (140)
+  4 7L6T_B 2'-O-methyltransferase,  11.9 2.2E+02  0.0025   13.4   0.0    5    1-5      67-71  (141)
+  5 5HAX_B Nucleoporin NUP170, Nuc  11.9 2.2E+02  0.0025   10.3   0.0    6    1-6      28-33  (33)
+  6 6TTB_A Formate dehydrogenase;   11.2 2.4E+02  0.0027   13.0   0.0    5    2-6     368-372 (373)
+  7 1DX8_A RUBREDOXIN; ELECTRON TR   9.9 2.9E+02  0.0032   10.4   0.0    4    2-5      67-70  (70)
+  8 6YXY_BR bL28m, uL29m, uL30m, b   9.7   3E+02  0.0033   13.8   0.0    5    2-6     114-118 (205)
+  9 3KYS_B Transcriptional enhance   9.6   3E+02  0.0034   12.3   0.0    5    1-5     116-120 (125)
+ 10 7AOI_BR bL28m, uL29m, uL30m, b   9.4 3.1E+02  0.0034   13.6   0.0    5    2-6     104-108 (195)
+
+No 1
+>5YNM_B nsp16 protein, nsp10 protein; inhibitor, cofactor, complex, TRANSFERASE; HET: SAM, GTA; 1.68A {Human betacoronavirus 2c EMC/2012}
+Probab=12.65  E-value=2.1e+02  Score=13.50  Aligned_cols=5  Identities=60%  Similarity=1.351  Sum_probs=0.0  Template_Neff=2.400
+
+Q QQSYGQ            1 QQSYG    5 (6)
+Q Consensus         1 qqsyg    5 (6)
+                      |.|||
+T Consensus        65 QdSYG   69 (140)
+T 5YNM_B           65 QETYG   69 (140)
+T ss_dssp             EEEEE
+T ss_pred             ccccc
+
+
+No 2
+>5YVG_X Transportin-1, RNA-binding protein FUS; Importin family, PROTEIN TRANSPORT, PROTEIN; 4.05A {Homo sapiens}
+Probab=12.41  E-value=2.1e+02  Score=14.85  Aligned_cols=6  Identities=67%  Similarity=1.132  Sum_probs=0.0  Template_Neff=5.400
+
+Q QQSYGQ            1 QQSYGQ    6 (6)
+Q Consensus         1 qqsygq    6 (6)
+                      ||+|+|
+T Consensus        32 ~~~y~q   37 (528)
+T 5YVG_X           32 SQPYGQ   37 (528)
+T ss_pred             CCCCcc
+
+
+No 3
+>7MC5_M ?; RNA binding, VIRAL PROTEIN; HET: EDO, TLA; 1.64A {Severe acute respiratory syndrome coronavirus 2}
+Probab=12.16  E-value=2.2e+02  Score=13.42  Aligned_cols=5  Identities=60%  Similarity=1.218  Sum_probs=0.0  Template_Neff=2.400
+
+Q QQSYGQ            1 QQSYG    5 (6)
+Q Consensus         1 qqsyg    5 (6)
+                      |.|||
+T Consensus        66 QdSYG   70 (140)
+T 7MC5_M           66 QESFG   70 (140)
+T ss_dssp             EEEEE
+T ss_pred             ccccC
+
+
+No 4
+>7L6T_B 2'-O-methyltransferase, Non-structural protein 10,RNA (5'-D(*(M7G))-R(P*(A2M)P*UP*U)-3'); Structural Genomics, Center for Structural; HET: SAH, M7G, BDF, A2M, GLC; 1.78A {Severe acute respiratory syndrome coronavirus 2}
+Probab=11.92  E-value=2.2e+02  Score=13.40  Aligned_cols=5  Identities=60%  Similarity=1.218  Sum_probs=0.0  Template_Neff=2.400
+
+Q QQSYGQ            1 QQSYG    5 (6)
+Q Consensus         1 qqsyg    5 (6)
+                      |.|||
+T Consensus        67 QdSYG   71 (141)
+T 7L6T_B           67 QESFG   71 (141)
+T ss_dssp             EEEEE
+T ss_pred             ccccc
+
+
+No 5
+>5HAX_B Nucleoporin NUP170, Nucleoporin NUP53; Nucleocytoplasmic Transport, Protein Transport, TRANSPORT; HET: GOL, PO4, EDO; 2.1A {Chaetomium thermophilum (strain DSM 1495 / CBS 144.50 / IMI 039719)}
+Probab=11.90  E-value=2.2e+02  Score=10.33  Aligned_cols=6  Identities=17%  Similarity=0.434  Sum_probs=0.0  Template_Neff=3.600
+
+Q QQSYGQ            1 QQSYGQ    6 (6)
+Q Consensus         1 qqsygq    6 (6)
+                      |+|+.|
+T Consensus        28 q~s~~q   33 (33)
+T 5HAX_B           28 APTFTQ   33 (33)
+T ss_pred             CCCCCC
+
+
+No 6
+>6TTB_A Formate dehydrogenase; formate dehydrogenase, NAD, formate oxidation; HET: NAD; 2.7A {Staphylococcus aureus}
+Probab=11.23  E-value=2.4e+02  Score=13.00  Aligned_cols=5  Identities=40%  Similarity=0.680  Sum_probs=0.0  Template_Neff=7.600
+
+Q QQSYGQ            2 QSYGQ    6 (6)
+Q Consensus         2 qsygq    6 (6)
+                      ++|||
+T Consensus       368 ~~~~~  372 (373)
+T 6TTB_A          368 KSYTA  372 (373)
+T ss_dssp             -----
+T ss_pred             ccccC
+
+
+No 7
+>1DX8_A RUBREDOXIN; ELECTRON TRANSPORT, RUBREDOXIN, GUILLARDIA THETA; HET: ZN; NMR {GUILLARDIA THETA} SCOP: g.41.5.1
+Probab=9.91  E-value=2.9e+02  Score=10.37  Aligned_cols=4  Identities=75%  Similarity=1.431  Sum_probs=0.0  Template_Neff=6.300
+
+Q QQSYGQ            2 QSYG    5 (6)
+Q Consensus         2 qsyg    5 (6)
+                      |+||
+T Consensus        67 ~~~~   70 (70)
+T 1DX8_A           67 QKYG   70 (70)
+T ss_dssp             SCCC
+T ss_pred             cCCC
+
+
+No 8
+>6YXY_BR bL28m, uL29m, uL30m, bL32m, bL35m; mitoribosome, assembly, LSU, RIBOSOME; HET: ATP, PM8, MG, SPD, NAD, GTP; 3.1A {Trypanosoma brucei brucei}
+Probab=9.70  E-value=3e+02  Score=13.77  Aligned_cols=5  Identities=80%  Similarity=1.219  Sum_probs=0.0  Template_Neff=1.400
+
+Q QQSYGQ            2 QSYGQ    6 (6)
+Q Consensus         2 qsygq    6 (6)
+                      ||+||
+T Consensus       114 qswgq  118 (205)
+T 6YXY_BR         114 QSWGQ  118 (205)
+T ss_pred             eeeCC
+
+
+No 9
+>3KYS_B Transcriptional enhancer factor TEF-1, 65; immunoglobulin-like fold, Activator, Disease mutation; 2.8A {Homo sapiens}
+Probab=9.60  E-value=3e+02  Score=12.26  Aligned_cols=5  Identities=40%  Similarity=0.627  Sum_probs=0.0  Template_Neff=4.100
+
+Q QQSYGQ            1 QQSYG    5 (6)
+Q Consensus         1 qqsyg    5 (6)
+                      |+||+
+T Consensus       116 Q~Syd  120 (125)
+T 3KYS_B          116 QSSFE  120 (125)
+T ss_dssp             -----
+T ss_pred             ccccC
+
+
+No 10
+>7AOI_BR bL28m, uL29m, uL30m, bL32m, bL33m; mitochondria, translation, trypanosoma, assembly, evolution; HET: ADP, GTP, NAD, 4HH; 3.5A {Trypanosoma brucei}
+Probab=9.44  E-value=3.1e+02  Score=13.63  Aligned_cols=5  Identities=80%  Similarity=1.219  Sum_probs=0.0  Template_Neff=1.400
+
+Q QQSYGQ            2 QSYGQ    6 (6)
+Q Consensus         2 qsygq    6 (6)
+                      ||+||
+T Consensus       104 qswgq  108 (195)
+T 7AOI_BR         104 QSWGQ  108 (195)
+T ss_pred             eeeCC
+
+

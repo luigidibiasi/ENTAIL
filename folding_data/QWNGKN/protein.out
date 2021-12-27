@@ -1,0 +1,149 @@
+Query         QWNGKN
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 11:24:43 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QWNGKN/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QWNGKN/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6LJE_B Gelsolin; fragmin, gels  19.9   1E+02  0.0011   10.3   0.0    5    2-6      49-53  (101)
+  2 6LJF_A Gelsolin; fragmin, gels  19.9   1E+02  0.0011   10.3   0.0    5    2-6      49-53  (101)
+  3 1CMB_A MET APO-REPRESSOR (METJ  19.8   1E+02  0.0012   13.9   0.0    5    1-5       2-6   (104)
+  4 1MJL_B METHIONINE REPRESSOR PR  19.6 1.1E+02  0.0012   13.9   0.0    5    1-5       2-6   (104)
+  5 1MJQ_I TRANSCRIPTION REGULATIO  19.6 1.1E+02  0.0012   13.9   0.0    5    1-5       2-6   (104)
+  6 4ZZK_B Hook assembly protein,   18.3 1.2E+02  0.0013   11.5   0.0    6    1-6      72-77  (146)
+  7 6YLG_b Probable metalloproteas  18.0 1.2E+02  0.0013   14.4   0.0    5    2-6     436-440 (647)
+  8 6Z1P_AH Ribosomal protein L2,   18.0 1.2E+02  0.0013   15.0   0.0    5    2-6     117-121 (199)
+  9 5ODU_D PllA; PllA, Complex, Le  18.0 1.2E+02  0.0013   12.1   0.0    5    1-5       3-7   (122)
+ 10 5OFI_A Uncharacterized protein  18.0 1.2E+02  0.0013   12.1   0.0    5    1-5       3-7   (122)
+
+No 1
+>6LJE_B Gelsolin; fragmin, gelsolin family protein, calcium; HET: GOL; 1.4A {Homo sapiens}
+Probab=19.91  E-value=1e+02  Score=10.25  Aligned_cols=5  Identities=60%  Similarity=1.697  Sum_probs=0.0  Template_Neff=10.300
+
+Q QWNGKN            2 WNGKN    6 (6)
+Q Consensus         2 wngkn    6 (6)
+                      |.|++
+T Consensus        49 W~G~~   53 (101)
+T 6LJE_B           49 WKGKQ   53 (101)
+T ss_dssp             EECTT
+T ss_pred             EecCC
+
+
+No 2
+>6LJF_A Gelsolin; fragmin, gelsolin family protein, calcium; HET: GOL; 1.5A {Homo sapiens}
+Probab=19.91  E-value=1e+02  Score=10.25  Aligned_cols=5  Identities=60%  Similarity=1.697  Sum_probs=0.0  Template_Neff=10.300
+
+Q QWNGKN            2 WNGKN    6 (6)
+Q Consensus         2 wngkn    6 (6)
+                      |.|++
+T Consensus        49 W~G~~   53 (101)
+T 6LJF_A           49 WKGKQ   53 (101)
+T ss_dssp             EECTT
+T ss_pred             EecCC
+
+
+No 3
+>1CMB_A MET APO-REPRESSOR (METJ); DNA-BINDING REGULATORY PROTEIN; 1.8A {Escherichia coli} SCOP: a.43.1.5
+Probab=19.80  E-value=1e+02  Score=13.93  Aligned_cols=5  Identities=40%  Similarity=1.637  Sum_probs=0.0  Template_Neff=1.900
+
+Q QWNGKN            1 QWNGK    5 (6)
+Q Consensus         1 qwngk    5 (6)
+                      .|||+
+T Consensus         2 ~wng~    6 (104)
+T 1CMB_A            2 EWSGE    6 (104)
+T ss_dssp             CCCSC
+T ss_pred             CCCcc
+
+
+No 4
+>1MJL_B METHIONINE REPRESSOR PROTEIN METJ; METJ, REPRESSOR, SHEET-HELIX-HELIX, SAM, S-ADENOSYL; HET: SAM; 2.1A {Escherichia coli} SCOP: a.43.1.5
+Probab=19.63  E-value=1.1e+02  Score=13.91  Aligned_cols=5  Identities=40%  Similarity=1.637  Sum_probs=0.0  Template_Neff=1.900
+
+Q QWNGKN            1 QWNGK    5 (6)
+Q Consensus         1 qwngk    5 (6)
+                      .|||+
+T Consensus         2 ~wng~    6 (104)
+T 1MJL_B            2 EWSGE    6 (104)
+T ss_dssp             CCCCC
+T ss_pred             CCCcc
+
+
+No 5
+>1MJQ_I TRANSCRIPTION REGULATION, METJ, METHIONINE REPRESSOR; HET: SAM; 2.4A {Escherichia coli} SCOP: a.43.1.5
+Probab=19.63  E-value=1.1e+02  Score=13.91  Aligned_cols=5  Identities=40%  Similarity=1.637  Sum_probs=0.0  Template_Neff=1.900
+
+Q QWNGKN            1 QWNGK    5 (6)
+Q Consensus         1 qwngk    5 (6)
+                      .|||+
+T Consensus         2 ~wng~    6 (104)
+T 1MJQ_I            2 EWSGE    6 (104)
+T ss_dssp             CSCSC
+T ss_pred             CCCcc
+
+
+No 6
+>4ZZK_B Hook assembly protein, flagella; Flagellum, Hook-caping protein, motor protein; 2.75A {Helicobacter pylori (strain G27)}
+Probab=18.35  E-value=1.2e+02  Score=11.48  Aligned_cols=6  Identities=50%  Similarity=1.586  Sum_probs=0.0  Template_Neff=9.000
+
+Q QWNGKN            1 QWNGKN    6 (6)
+Q Consensus         1 qwngkn    6 (6)
+                      .|+|++
+T Consensus        72 ~Wdg~~   77 (146)
+T 4ZZK_B           72 EWDGTN   77 (146)
+T ss_dssp             EECSBC
+T ss_pred             EECCcC
+
+
+No 7
+>6YLG_b Probable metalloprotease ARX1, rRNA-processing protein; pre-60S, Biogenesis, LSU, Large subunit; HET: GTP; 3.0A {Saccharomyces cerevisiae}
+Probab=18.00  E-value=1.2e+02  Score=14.38  Aligned_cols=5  Identities=60%  Similarity=1.006  Sum_probs=0.0  Template_Neff=8.700
+
+Q QWNGKN            2 WNGKN    6 (6)
+Q Consensus         2 wngkn    6 (6)
+                      |+|+|
+T Consensus       436 ~~g~N  440 (647)
+T 6YLG_b          436 LDGKN  440 (647)
+T ss_dssp             CSSSB
+T ss_pred             HCCcc
+
+
+No 8
+>6Z1P_AH Ribosomal protein L2, 50S ribosomal; Mitochondrial ribosome, ribosome, mitochondria, ciliate; HET: MG, ATP; 3.7A {Tetrahymena thermophila (strain SB210)}
+Probab=17.99  E-value=1.2e+02  Score=14.97  Aligned_cols=5  Identities=60%  Similarity=0.548  Sum_probs=0.0  Template_Neff=1.600
+
+Q QWNGKN            2 WNGKN    6 (6)
+Q Consensus         2 wngkn    6 (6)
+                      |||||
+T Consensus       117 ~~~K~  121 (199)
+T 6Z1P_AH         117 INEKN  121 (199)
+T ss_pred             Hchhh
+
+
+No 9
+>5ODU_D PllA; PllA, Complex, Lectin, CARBOHYDRATE, sugar; HET: AMG; 1.56A {Photorhabdus luminescens}
+Probab=17.99  E-value=1.2e+02  Score=12.10  Aligned_cols=5  Identities=40%  Similarity=1.511  Sum_probs=0.0  Template_Neff=7.000
+
+Q QWNGKN            1 QWNGK    5 (6)
+Q Consensus         1 qwngk    5 (6)
+                      +|+|+
+T Consensus         3 ~w~g~    7 (122)
+T 5ODU_D            3 DWSGS    7 (122)
+T ss_dssp             CEEEE
+T ss_pred             Ccccc
+
+
+No 10
+>5OFI_A Uncharacterized protein; PIIA, Complex, Lectin, SUGAR BINDING; HET: 9TQ; 2.0A {Photorhabdus luminescens}
+Probab=17.99  E-value=1.2e+02  Score=12.10  Aligned_cols=5  Identities=40%  Similarity=1.511  Sum_probs=0.0  Template_Neff=7.000
+
+Q QWNGKN            1 QWNGK    5 (6)
+Q Consensus         1 qwngk    5 (6)
+                      +|+|+
+T Consensus         3 ~w~g~    7 (122)
+T 5OFI_A            3 DWSGS    7 (122)
+T ss_dssp             CEEEE
+T ss_pred             Ccccc
+
+

@@ -1,0 +1,149 @@
+Query         FSNATN
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 22:02:15 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/FSNATN/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/FSNATN/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3GKZ_A anti-methamphetamine si  13.3 1.9E+02  0.0021   10.4   0.0    5    1-5     239-243 (257)
+  2 5HQH_A Lmo2119 protein; Ybbr l  12.9   2E+02  0.0022   10.0   0.0    4    2-5       1-4   (109)
+  3 3P2A_B Putative thioredoxin-li  12.5 2.1E+02  0.0023   10.0   0.0    5    2-6       1-5   (148)
+  4 2QSW_A Methionine import ATP-b  10.1 2.8E+02  0.0031   10.4   0.0    5    2-6       1-5   (100)
+  5 3P2A_A Putative thioredoxin-li  10.0 2.9E+02  0.0032    9.6   0.0    5    2-6       1-5   (148)
+  6 4I83_B 3-hydroxyacyl-[acyl-car   9.8 2.9E+02  0.0032   10.0   0.0    5    2-6       1-5   (152)
+  7 3IJM_A uncharacterized restric   9.8   3E+02  0.0033   11.0   0.0    5    2-6       1-5   (151)
+  8 4Q88_A Uncharacterized protein   9.5 3.1E+02  0.0034   11.4   0.0    5    2-6       1-5   (359)
+  9 2RE1_B Aspartokinase, alpha an   8.9 3.4E+02  0.0037    9.7   0.0    4    2-5       1-4   (167)
+ 10 3ZHD_B MG8-4 SCAFFOLD ANTIBODY   8.8 3.4E+02  0.0038    8.7   0.0    6    1-6     109-114 (127)
+
+No 1
+>3GKZ_A anti-methamphetamine single chain Fv; Therapeutic antibody, Methamphetamine, amphetamine, MDMA,IgG; HET: B40; 1.9A {Mus musculus}
+Probab=13.32  E-value=1.9e+02  Score=10.40  Aligned_cols=5  Identities=40%  Similarity=0.753  Sum_probs=0.0  Template_Neff=12.000
+
+Q FSNATN            1 FSNAT    5 (6)
+Q Consensus         1 fsnat    5 (6)
+                      |+|+|
+T Consensus       239 ~~~~t  243 (257)
+T 3GKZ_A          239 FGSGT  243 (257)
+T ss_dssp             ECCCE
+T ss_pred             EcCCc
+
+
+No 2
+>5HQH_A Lmo2119 protein; Ybbr like domain, CSGID, Structural; 1.32A {Listeria monocytogenes serovar 1/2a}
+Probab=12.86  E-value=2e+02  Score=10.04  Aligned_cols=4  Identities=100%  Similarity=0.908  Sum_probs=0.0  Template_Neff=9.600
+
+Q FSNATN            2 SNAT    5 (6)
+Q Consensus         2 snat    5 (6)
+                      ||||
+T Consensus         1 ~~~~    4 (109)
+T 5HQH_A            1 SNAT    4 (109)
+T ss_dssp             ----
+T ss_pred             CCCc
+
+
+No 3
+>3P2A_B Putative thioredoxin-like protein; Structural Genomics, Center for Structural; HET: MSE; 2.195A {Yersinia pestis}
+Probab=12.46  E-value=2.1e+02  Score=10.03  Aligned_cols=5  Identities=80%  Similarity=0.773  Sum_probs=0.0  Template_Neff=10.600
+
+Q FSNATN            2 SNATN    6 (6)
+Q Consensus         2 snatn    6 (6)
+                      |||.|
+T Consensus         1 ~~~~~    5 (148)
+T 3P2A_B            1 SNAMN    5 (148)
+T ss_dssp             -CEEE
+T ss_pred             CCccc
+
+
+No 4
+>2QSW_A Methionine import ATP-binding protein metN; ABC transporter, ATP-binding protein, structural; 1.5A {Enterococcus faecalis} SCOP: d.58.18.13
+Probab=10.08  E-value=2.8e+02  Score=10.37  Aligned_cols=5  Identities=80%  Similarity=0.820  Sum_probs=0.0  Template_Neff=7.800
+
+Q FSNATN            2 SNATN    6 (6)
+Q Consensus         2 snatn    6 (6)
+                      |||.|
+T Consensus         1 ~~~~~    5 (100)
+T 2QSW_A            1 SNAKN    5 (100)
+T ss_dssp             -----
+T ss_pred             Ccccc
+
+
+No 5
+>3P2A_A Putative thioredoxin-like protein; Structural Genomics, Center for Structural; 2.195A {Yersinia pestis}
+Probab=9.98  E-value=2.9e+02  Score=9.64  Aligned_cols=5  Identities=80%  Similarity=0.773  Sum_probs=0.0  Template_Neff=10.700
+
+Q FSNATN            2 SNATN    6 (6)
+Q Consensus         2 snatn    6 (6)
+                      |||.|
+T Consensus         1 ~~~~~    5 (148)
+T 3P2A_A            1 SNAMN    5 (148)
+T ss_pred             Ccccc
+
+
+No 6
+>4I83_B 3-hydroxyacyl-[acyl-carrier-protein] dehydratase FabZ (E.C.4.2.1.59); FabZ, Hot Dog Fold, thioesterase; 2.6A {Neisseria meningitidis}
+Probab=9.83  E-value=2.9e+02  Score=10.02  Aligned_cols=5  Identities=60%  Similarity=0.667  Sum_probs=0.0  Template_Neff=10.000
+
+Q FSNATN            2 SNATN    6 (6)
+Q Consensus         2 snatn    6 (6)
+                      |||-|
+T Consensus         1 ~~~~~    5 (152)
+T 4I83_B            1 SNAMD    5 (152)
+T ss_dssp             -----
+T ss_pred             CCccc
+
+
+No 7
+>3IJM_A uncharacterized restriction endonuclease-like fold superfamily; DUF820, Cyanobacteria, PD(D/E)xK superfamily, Structural; HET: GOL; 1.7A {Spirosoma linguale}
+Probab=9.77  E-value=3e+02  Score=11.00  Aligned_cols=5  Identities=80%  Similarity=0.773  Sum_probs=0.0  Template_Neff=7.900
+
+Q FSNATN            2 SNATN    6 (6)
+Q Consensus         2 snatn    6 (6)
+                      |||.|
+T Consensus         1 ~~~~~    5 (151)
+T 3IJM_A            1 SNAMN    5 (151)
+T ss_dssp             -----
+T ss_pred             CCccc
+
+
+No 8
+>4Q88_A Uncharacterized protein; structural genomics, PSI-Biology, Midwest Center; HET: SO4, EDO; 1.73A {Bacteroides vulgatus}
+Probab=9.54  E-value=3.1e+02  Score=11.38  Aligned_cols=5  Identities=80%  Similarity=0.913  Sum_probs=0.0  Template_Neff=10.200
+
+Q FSNATN            2 SNATN    6 (6)
+Q Consensus         2 snatn    6 (6)
+                      |||.|
+T Consensus         1 ~~~~~    5 (359)
+T 4Q88_A            1 SNASN    5 (359)
+T ss_dssp             -----
+T ss_pred             CCccc
+
+
+No 9
+>2RE1_B Aspartokinase, alpha and beta subunits; Neisseria meningitidis, aspartokinase, Structural Genomics; 2.75A {Neisseria meningitidis MC58}
+Probab=8.91  E-value=3.4e+02  Score=9.69  Aligned_cols=4  Identities=100%  Similarity=0.908  Sum_probs=0.0  Template_Neff=10.700
+
+Q FSNATN            2 SNAT    5 (6)
+Q Consensus         2 snat    5 (6)
+                      ||||
+T Consensus         1 ~~~~    4 (167)
+T 2RE1_B            1 SNAT    4 (167)
+T ss_dssp             ----
+T ss_pred             CCcc
+
+
+No 10
+>3ZHD_B MG8-4 SCAFFOLD ANTIBODY; IMMUNE SYSTEM, SINGLE DOMAIN ANTIBODY; 1.962A {HOMO SAPIENS}
+Probab=8.83  E-value=3.4e+02  Score=8.70  Aligned_cols=6  Identities=17%  Similarity=0.263  Sum_probs=0.0  Template_Neff=11.700
+
+Q FSNATN            1 FSNATN    6 (6)
+Q Consensus         1 fsnatn    6 (6)
+                      |+|+|+
+T Consensus       109 ~~~~t~  114 (127)
+T 3ZHD_B          109 WGQGTL  114 (127)
+T ss_dssp             SCSCEE
+T ss_pred             ecCCee
+
+

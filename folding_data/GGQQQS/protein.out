@@ -1,0 +1,156 @@
+Query         GGQQQS
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 00:44:20 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GGQQQS/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GGQQQS/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 1LWU_C heterotrimer, protein-p  72.5     2.9 3.3E-05   18.6   0.0    6    1-6     317-322 (323)
+  2 1LWU_I heterotrimer, protein-p  72.5     2.9 3.3E-05   18.6   0.0    6    1-6     317-322 (323)
+  3 1R3U_A phosphoribosyltransfera  61.0     7.3 8.1E-05   15.8   0.0    6    1-6       6-11  (205)
+  4 5USH_A IMV membrane protein, F  44.3      21 0.00023   14.7   0.0    6    1-6       1-6   (241)
+  5 2HCU_A 3-isopropylmalate dehyd  42.4      23 0.00026   15.5   0.0    6    1-6       9-14  (213)
+  6 5O5O_C RNase adapter protein R  23.8      77 0.00085   13.0   0.0    6    1-6     249-254 (284)
+  7 3CA9_B Deoxyuridine triphospha  19.3 1.1E+02  0.0012   12.6   0.0    4    1-4       6-9   (165)
+  8 3JXF_A Receptor-type tyrosine-  19.1 1.1E+02  0.0012   13.0   0.0    6    1-6      27-32  (272)
+  9 4QQ0_A Adenylate cyclase-like   18.8 1.1E+02  0.0012   13.5   0.0    6    1-6      17-22  (280)
+ 10 6QQM_A Putative carbonic anhyd  18.7 1.1E+02  0.0013   13.4   0.0    6    1-6      46-51  (300)
+
+No 1
+>1LWU_C heterotrimer, protein-peptide complex, BLOOD CLOTTING; HET: MAN, NAG, BMA, GAL, NDG; 2.8A {Petromyzon marinus} SCOP: h.1.8.1, d.171.1.1
+Probab=72.48  E-value=2.9  Score=18.64  Aligned_cols=6  Identities=100%  Similarity=1.304  Sum_probs=3.9  Template_Neff=7.200
+
+Q GGQQQS            1 GGQQQS    6 (6)
+Q Consensus         1 ggqqqs    6 (6)
+                      +|||||
+T Consensus       317 ~~~~~~  322 (323)
+T 1LWU_C          317 GGQQQS  322 (323)
+T ss_dssp             CCCCC-
+T ss_pred             CccccC
+Confidence            588886
+
+
+No 2
+>1LWU_I heterotrimer, protein-peptide complex, BLOOD CLOTTING; HET: BMA, MAN, NAG, GAL, NDG; 2.8A {Petromyzon marinus} SCOP: d.171.1.1, h.1.8.1
+Probab=72.48  E-value=2.9  Score=18.64  Aligned_cols=6  Identities=100%  Similarity=1.304  Sum_probs=0.6  Template_Neff=7.200
+
+Q GGQQQS            1 GGQQQS    6 (6)
+Q Consensus         1 ggqqqs    6 (6)
+                      +|||||
+T Consensus       317 ~~~~~~  322 (323)
+T 1LWU_I          317 GGQQQS  322 (323)
+T ss_dssp             C-----
+T ss_pred             CccccC
+Confidence            588886
+
+
+No 3
+>1R3U_A phosphoribosyltransferase, Thermoanaerobacter tengcongensis, purine salvage; 2.5A {Thermoanaerobacter tengcongensis} SCOP: c.61.1.1
+Probab=60.97  E-value=7.3  Score=15.75  Aligned_cols=6  Identities=67%  Similarity=0.999  Sum_probs=0.0  Template_Neff=8.400
+
+Q GGQQQS            1 GGQQQS    6 (6)
+Q Consensus         1 ggqqqs    6 (6)
+                      ||||.+
+T Consensus         6 ~~~~~~   11 (205)
+T 1R3U_A            6 GGQQMG   11 (205)
+T ss_dssp             ------
+T ss_pred             cccccC
+Confidence            677753
+
+
+No 4
+>5USH_A IMV membrane protein, Fab vv66; viral protein, antibody, Fab, Immune; 2.3A {Homo sapiens}
+Probab=44.30  E-value=21  Score=14.71  Aligned_cols=6  Identities=50%  Similarity=0.052  Sum_probs=2.8  Template_Neff=8.600
+
+Q GGQQQS            1 GGQQQS    6 (6)
+Q Consensus         1 ggqqqs    6 (6)
+                      +|.+||
+T Consensus         1 ~G~~QS    6 (241)
+T 5USH_A            1 MPQQLS    6 (241)
+T ss_dssp             --CCCS
+T ss_pred             CCCCCC
+Confidence            467776
+
+
+No 5
+>2HCU_A 3-isopropylmalate dehydratase small subunit (E.C.4.2.1.33); BETA BARREL, LYASE; HET: SO4; 2.1A {Streptococcus mutans}
+Probab=42.41  E-value=23  Score=15.55  Aligned_cols=6  Identities=67%  Similarity=0.999  Sum_probs=1.1  Template_Neff=6.400
+
+Q GGQQQS            1 GGQQQS    6 (6)
+Q Consensus         1 ggqqqs    6 (6)
+                      |||||+
+T Consensus         9 ~~~~~~   14 (213)
+T 2HCU_A            9 GGQQMG   14 (213)
+T ss_dssp             ----CC
+T ss_pred             cccccc
+Confidence            577764
+
+
+No 6
+>5O5O_C RNase adapter protein RapZ; RNA binding Amino-sugar metabolism Kinase; HET: SO4; 3.404A {Escherichia coli}
+Probab=23.77  E-value=77  Score=13.02  Aligned_cols=6  Identities=50%  Similarity=1.088  Sum_probs=2.7  Template_Neff=9.400
+
+Q GGQQQS            1 GGQQQS    6 (6)
+Q Consensus         1 ggqqqs    6 (6)
+                      |||..|
+T Consensus       249 gg~hrs  254 (284)
+T 5O5O_C          249 GGKHRS  254 (284)
+T ss_dssp             SSSSHH
+T ss_pred             CCCcHH
+Confidence            455443
+
+
+No 7
+>3CA9_B Deoxyuridine triphosphatase (E.C.3.6.1.23); dUTPase Chlorella Virus, HYDROLASE; HET: DUD; 3.0A {Paramecium bursaria Chlorella virus IL3A}
+Probab=19.28  E-value=1.1e+02  Score=12.56  Aligned_cols=4  Identities=100%  Similarity=1.548  Sum_probs=0.0  Template_Neff=7.500
+
+Q GGQQQS            1 GGQQ    4 (6)
+Q Consensus         1 ggqq    4 (6)
+                      ||||
+T Consensus         6 ~~~~    9 (165)
+T 3CA9_B            6 GGQQ    9 (165)
+T ss_dssp             ----
+T ss_pred             cccc
+
+
+No 8
+>3JXF_A Receptor-type tyrosine-protein phosphatase zeta (E.C.3.1.3.48); CA-like domain, Alternative splicing, Glycoprotein; 2.004A {Homo sapiens}
+Probab=19.12  E-value=1.1e+02  Score=12.98  Aligned_cols=6  Identities=33%  Similarity=0.390  Sum_probs=0.0  Template_Neff=8.500
+
+Q GGQQQS            1 GGQQQS    6 (6)
+Q Consensus         1 ggqqqs    6 (6)
+                      +|++||
+T Consensus        27 ~g~~QS   32 (272)
+T 3JXF_A           27 NSPKQS   32 (272)
+T ss_dssp             GSSSCS
+T ss_pred             CCCCCC
+
+
+No 9
+>4QQ0_A Adenylate cyclase-like protein; BON-domain, type III secretion, membrane; HET: SO4; 2.0A {Chlamydia trachomatis}
+Probab=18.84  E-value=1.1e+02  Score=13.51  Aligned_cols=6  Identities=67%  Similarity=0.999  Sum_probs=0.0  Template_Neff=7.500
+
+Q GGQQQS            1 GGQQQS    6 (6)
+Q Consensus         1 ggqqqs    6 (6)
+                      ||||.+
+T Consensus        17 ~~~~~~   22 (280)
+T 4QQ0_A           17 GGQQMG   22 (280)
+T ss_dssp             ------
+T ss_pred             cccccc
+
+
+No 10
+>6QQM_A Putative carbonic anhydrase (E.C.4.2.1.1); Lyase; HET: GOL, NAG; 1.75A {Schistosoma mansoni}
+Probab=18.68  E-value=1.1e+02  Score=13.42  Aligned_cols=6  Identities=50%  Similarity=0.473  Sum_probs=0.0  Template_Neff=7.900
+
+Q GGQQQS            1 GGQQQS    6 (6)
+Q Consensus         1 ggqqqs    6 (6)
+                      +|.+||
+T Consensus        46 ~G~~QS   51 (300)
+T 6QQM_A           46 SGYYQS   51 (300)
+T ss_dssp             TSSSCS
+T ss_pred             CCCCCC
+
+

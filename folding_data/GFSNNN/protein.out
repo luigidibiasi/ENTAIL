@@ -1,0 +1,151 @@
+Query         GFSNNN
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 23:54:24 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GFSNNN/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GFSNNN/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2QY7_C Clathrin interactor 1;   30.7      48 0.00053   12.6   0.0    6    1-6     142-147 (147)
+  2 5DMY_B Beta-galactosidase (E.C  14.1 1.8E+02  0.0019   14.4   0.0    6    1-6     898-903 (904)
+  3 1S29_A La protein; winged heli  13.2 1.9E+02  0.0021   10.8   0.0    5    2-6      22-26  (92)
+  4 6TMG_L ATPTG11, ATPTG7, ATPTG1  12.6 2.1E+02  0.0023   14.1   0.0    6    1-6      73-78  (208)
+  5 4LR3_K protein YfbU; Helical T  12.3 2.1E+02  0.0024   12.0   0.0    6    1-6      94-99  (164)
+  6 2CPC_A KIAA0657 protein; Immun  11.5 2.4E+02  0.0026    7.7   0.0    5    1-5       1-5   (113)
+  7 1WPB_I hypothetical protein yf  11.5 2.4E+02  0.0026   12.1   0.0    6    1-6     102-107 (172)
+  8 2CQK_A C-Mpl binding protein;   11.1 2.5E+02  0.0028   10.9   0.0    5    2-6      26-30  (101)
+  9 1HXR_B GUANINE NUCLEOTIDE EXCH  11.0 2.5E+02  0.0028   11.5   0.0    5    1-5      73-77  (115)
+ 10 1HXR_A GUANINE NUCLEOTIDE EXCH  10.7 2.6E+02  0.0029   11.5   0.0    5    1-5      73-77  (115)
+
+No 1
+>2QY7_C Clathrin interactor 1; ENTH domain, epsin, Alternative splicing; 2.0A {Homo sapiens}
+Probab=30.73  E-value=48  Score=12.58  Aligned_cols=6  Identities=33%  Similarity=0.717  Sum_probs=0.0  Template_Neff=8.900
+
+Q GFSNNN            1 GFSNNN    6 (6)
+Q Consensus         1 gfsnnn    6 (6)
+                      ||+++|
+T Consensus       142 ~~g~~~  147 (147)
+T 2QY7_C          142 GVSSDS  147 (147)
+T ss_dssp             ------
+T ss_pred             CCCCCC
+Confidence            455543
+
+
+No 2
+>5DMY_B Beta-galactosidase (E.C.3.2.1.23); galactosidase, hydrolase, truncation mutant; 1.95A {Bifidobacterium bifidum}
+Probab=14.08  E-value=1.8e+02  Score=14.41  Aligned_cols=6  Identities=33%  Similarity=0.335  Sum_probs=0.0  Template_Neff=8.900
+
+Q GFSNNN            1 GFSNNN    6 (6)
+Q Consensus         1 gfsnnn    6 (6)
+                      +|++||
+T Consensus       898 ~~~~~~  903 (904)
+T 5DMY_B          898 YYSRNY  903 (904)
+T ss_dssp             ------
+T ss_pred             Eeeccc
+Confidence            466664
+
+
+No 3
+>1S29_A La protein; winged helix-turn-helix, autoantigen, RNA-binding, RNA; 1.6A {Trypanosoma brucei} SCOP: a.4.5.46
+Probab=13.24  E-value=1.9e+02  Score=10.80  Aligned_cols=5  Identities=60%  Similarity=0.866  Sum_probs=0.0  Template_Neff=7.500
+
+Q GFSNNN            2 FSNNN    6 (6)
+Q Consensus         2 fsnnn    6 (6)
+                      ||+.|
+T Consensus        22 FSd~N   26 (92)
+T 1S29_A           22 FSDVN   26 (92)
+T ss_dssp             TSHHH
+T ss_pred             hChhh
+
+
+No 4
+>6TMG_L ATPTG11, ATPTG7, ATPTG14, ATPTG5, subunit; mitochondrial, ATP synthase, membrane region; HET: LMT, PEE, CDL, PC1; 2.8A {Toxoplasma gondii (strain ATCC 50853 / GT1)}
+Probab=12.57  E-value=2.1e+02  Score=14.14  Aligned_cols=6  Identities=67%  Similarity=0.899  Sum_probs=0.0  Template_Neff=2.700
+
+Q GFSNNN            1 GFSNNN    6 (6)
+Q Consensus         1 gfsnnn    6 (6)
+                      |+|.||
+T Consensus        73 GLSiNn   78 (208)
+T 6TMG_L           73 GLSVNN   78 (208)
+T ss_pred             eeeccC
+
+
+No 5
+>4LR3_K protein YfbU; Helical Tetramer, APOPTOSIS; HET: MG, PO4; 2.5A {Escherichia coli}
+Probab=12.31  E-value=2.1e+02  Score=11.96  Aligned_cols=6  Identities=33%  Similarity=0.778  Sum_probs=0.0  Template_Neff=7.000
+
+Q GFSNNN            1 GFSNNN    6 (6)
+Q Consensus         1 gfsnnn    6 (6)
+                      ||..||
+T Consensus        94 GFDgN~   99 (164)
+T 4LR3_K           94 GFDAAT   99 (164)
+T ss_dssp             CBCTTT
+T ss_pred             ceeCCC
+
+
+No 6
+>2CPC_A KIAA0657 protein; Immunoglobulin domain, ig domain, Structural; NMR {Homo sapiens}
+Probab=11.49  E-value=2.4e+02  Score=7.70  Aligned_cols=5  Identities=40%  Similarity=0.488  Sum_probs=0.0  Template_Neff=13.900
+
+Q GFSNNN            1 GFSNN    5 (6)
+Q Consensus         1 gfsnn    5 (6)
+                      |.+++
+T Consensus         1 ~~~~~    5 (113)
+T 2CPC_A            1 GSSGS    5 (113)
+T ss_dssp             CCCCC
+T ss_pred             CCCCC
+
+
+No 7
+>1WPB_I hypothetical protein yfbU; structural genomics, MCSG, NCS, regulatory; HET: CL, GOL; 2.0A {Escherichia coli} SCOP: a.233.1.1
+Probab=11.48  E-value=2.4e+02  Score=12.11  Aligned_cols=6  Identities=33%  Similarity=0.778  Sum_probs=0.0  Template_Neff=6.600
+
+Q GFSNNN            1 GFSNNN    6 (6)
+Q Consensus         1 gfsnnn    6 (6)
+                      ||..||
+T Consensus       102 GFDgN~  107 (172)
+T 1WPB_I          102 GFDAAT  107 (172)
+T ss_dssp             CBCTTT
+T ss_pred             ceeCCC
+
+
+No 8
+>2CQK_A C-Mpl binding protein; La domain, Structural Genomics, NPPSFA; NMR {Homo sapiens} SCOP: a.4.5.46
+Probab=11.05  E-value=2.5e+02  Score=10.95  Aligned_cols=5  Identities=60%  Similarity=0.946  Sum_probs=0.0  Template_Neff=6.900
+
+Q GFSNNN            2 FSNNN    6 (6)
+Q Consensus         2 fsnnn    6 (6)
+                      ||+.|
+T Consensus        26 FSd~N   30 (101)
+T 2CQK_A           26 FSREN   30 (101)
+T ss_dssp             TSHHH
+T ss_pred             cCHHH
+
+
+No 9
+>1HXR_B GUANINE NUCLEOTIDE EXCHANGE FACTOR MSS4; nucleotide exchange factor, Rab GTPase; 1.65A {Rattus norvegicus} SCOP: b.88.1.1
+Probab=11.02  E-value=2.5e+02  Score=11.53  Aligned_cols=5  Identities=40%  Similarity=1.205  Sum_probs=0.0  Template_Neff=6.100
+
+Q GFSNNN            1 GFSNN    5 (6)
+Q Consensus         1 gfsnn    5 (6)
+                      |||+.
+T Consensus        73 GfS~~   77 (115)
+T 1HXR_B           73 GFTKD   77 (115)
+T ss_dssp             EECCC
+T ss_pred             Eeece
+
+
+No 10
+>1HXR_A GUANINE NUCLEOTIDE EXCHANGE FACTOR MSS4; nucleotide exchange factor, Rab GTPase; 1.65A {Rattus norvegicus} SCOP: b.88.1.1
+Probab=10.69  E-value=2.6e+02  Score=11.52  Aligned_cols=5  Identities=40%  Similarity=1.205  Sum_probs=0.0  Template_Neff=6.000
+
+Q GFSNNN            1 GFSNN    5 (6)
+Q Consensus         1 gfsnn    5 (6)
+                      |||+.
+T Consensus        73 GfS~~   77 (115)
+T 1HXR_A           73 GFTKD   77 (115)
+T ss_dssp             EECCC
+T ss_pred             Eeece
+
+

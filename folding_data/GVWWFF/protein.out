@@ -1,0 +1,272 @@
+Query         GVWWFF
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 05:03:32 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GVWWFF/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GVWWFF/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5PDJ_A ?; PanDDA, SGC - Diamon  78.1     1.6 1.8E-05   16.1   0.0    6    1-6      10-15  (138)
+  2 2MUB_A Toxin APETx2; Disulfide  45.3      20 0.00022   13.9   0.0    6    1-6      11-16  (42)
+  3 3HAG_A Capsid protein; jelly-r  45.0      20 0.00022   18.8   0.0    6    1-6     282-287 (504)
+  4 7BWI_A Kappa-actitoxin-Ael2a;   44.5      21 0.00023   13.8   0.0    6    1-6      11-16  (42)
+  5 6MZM_X TAF1, Transcription ini  43.2      22 0.00025   13.9   0.0    6    1-6      68-73  (97)
+  6 1BDS_A BDS-I (NMR, MINIMIZED M  43.0      23 0.00025   13.8   0.0    6    1-6      13-18  (43)
+  7 5FUR_D TATA-BOX-BINDING PROTEI  42.6      23 0.00026   13.9   0.0    6    1-6      68-73  (97)
+  8 2ZZQ_A Protein ORF3, Capsid pr  42.5      23 0.00026   18.9   0.0    6    1-6     336-341 (552)
+  9 1NVP_D TATA box binding protei  40.8      26 0.00028   14.1   0.0    6    1-6      69-74  (108)
+ 10 3IYO_B Capsid protein; Amino A  38.0      30 0.00034   18.9   0.0    6    1-6     392-397 (660)
+ 11 7NVZ_V TFIIH basal transcripti  37.7      31 0.00034   13.9   0.0    6    1-6      70-75  (109)
+ 12 2ZTN_A Capsid protein; HEV, VI  35.3      36  0.0004   17.9   0.0    6    1-6     264-269 (478)
+ 13 6TDV_J ATPTB1, ATPTB3, ATPTB6,  35.0      37  0.0004   15.3   0.0    6    1-6      32-37  (104)
+ 14 7OQZ_B Transmembrane protein 4  30.5      48 0.00054   15.0   0.0    6    1-6      17-22  (281)
+ 15 7OHA_M DNA binding protein nuc  27.4      59 0.00066   13.5   0.0    6    1-6      74-79  (122)
+ 16 1NH2_D Transcription initiatio  24.2      74 0.00082   13.2   0.0    6    1-6      73-78  (121)
+ 17 5IBV_A Capsid polyprotein VP90  23.9      76 0.00084   16.0   0.0    6    1-6     278-283 (354)
+ 18 6YWE_T 60S ribosomal protein L  21.5      91   0.001   15.2   0.0    6    1-6     101-106 (263)
+
+No 1
+>5PDJ_A ?; PanDDA, SGC - Diamond I04-1; 1.84A {Homo sapiens}
+Probab=78.14  E-value=1.6  Score=16.11  Aligned_cols=6  Identities=33%  Similarity=-0.180  Sum_probs=0.0  Template_Neff=9.200
+
+Q GVWWFF            1 GVWWFF    6 (6)
+Q Consensus         1 gvwwff    6 (6)
+                      |+|||+
+T Consensus        10 ~~~~~~   15 (138)
+T 5PDJ_A           10 GVDLGT   15 (138)
+T ss_dssp             ------
+T ss_pred             cccccC
+Confidence            578874
+
+
+No 2
+>2MUB_A Toxin APETx2; Disulfide-rich toxin, Defensin fold, Toxin; NMR {N/A}
+Probab=45.31  E-value=20  Score=13.88  Aligned_cols=6  Identities=50%  Similarity=2.223  Sum_probs=3.8  Template_Neff=2.800
+
+Q GVWWFF            1 GVWWFF    6 (6)
+Q Consensus         1 gvwwff    6 (6)
+                      |+.||+
+T Consensus        11 G~yW~~   16 (42)
+T 2MUB_A           11 GIYWFY   16 (42)
+T ss_dssp             EEEETT
+T ss_pred             eeEEEE
+Confidence            566774
+
+
+No 3
+>3HAG_A Capsid protein; jelly-roll beta sheets, beta barrel; 3.5A {Hepatitis E virus type 4}
+Probab=44.97  E-value=20  Score=18.84  Aligned_cols=6  Identities=33%  Similarity=0.667  Sum_probs=4.3  Template_Neff=3.700
+
+Q GVWWFF            1 GVWWFF    6 (6)
+Q Consensus         1 gvwwff    6 (6)
+                      |.|||+
+T Consensus       282 GGWWFV  287 (504)
+T 3HAG_A          282 GGQLFY  287 (504)
+T ss_dssp             SSSCEE
+T ss_pred             ceeEEE
+Confidence            568884
+
+
+No 4
+>7BWI_A Kappa-actitoxin-Ael2a; TOXIN; NMR {Anthopleura elegantissima}
+Probab=44.53  E-value=21  Score=13.83  Aligned_cols=6  Identities=50%  Similarity=1.652  Sum_probs=3.8  Template_Neff=2.800
+
+Q GVWWFF            1 GVWWFF    6 (6)
+Q Consensus         1 gvwwff    6 (6)
+                      |+.||+
+T Consensus        11 G~yW~~   16 (42)
+T 7BWI_A           11 GIYWFG   16 (42)
+T ss_dssp             EEEEET
+T ss_pred             eeEEEE
+Confidence            566774
+
+
+No 5
+>6MZM_X TAF1, Transcription initiation factor TFIID; Transcription, DNA, Nuclear, transcription-dna complex;{Homo sapiens}
+Probab=43.17  E-value=22  Score=13.86  Aligned_cols=6  Identities=50%  Similarity=1.199  Sum_probs=3.6  Template_Neff=6.600
+
+Q GVWWFF            1 GVWWFF    6 (6)
+Q Consensus         1 gvwwff    6 (6)
+                      +||.|+
+T Consensus        68 ~vWtf~   73 (97)
+T 6MZM_X           68 NVWTFV   73 (97)
+T ss_pred             CEEEEE
+Confidence            467664
+
+
+No 6
+>1BDS_A BDS-I (NMR, MINIMIZED MEAN STRUCTURE); ANTI-HYPERTENSIVE, ANTI-VIRAL PROTEIN; NMR {Anemonia sulcata} SCOP: g.9.1.1
+Probab=43.01  E-value=23  Score=13.77  Aligned_cols=6  Identities=33%  Similarity=1.121  Sum_probs=3.7  Template_Neff=2.800
+
+Q GVWWFF            1 GVWWFF    6 (6)
+Q Consensus         1 gvwwff    6 (6)
+                      |+.||+
+T Consensus        13 G~yW~~   18 (43)
+T 1BDS_A           13 GDLWIL   18 (43)
+T ss_dssp             CEEECS
+T ss_pred             ccEEEE
+Confidence            466774
+
+
+No 7
+>5FUR_D TATA-BOX-BINDING PROTEIN, TRANSCRIPTION INITIATION FACTOR; TFIID, TFIIA, TRANSCRIPTION, RNA POLYMERASE; HET: TPO, SEP; 8.5A {HOMO SAPIENS}
+Probab=42.56  E-value=23  Score=13.87  Aligned_cols=6  Identities=50%  Similarity=1.199  Sum_probs=3.6  Template_Neff=6.500
+
+Q GVWWFF            1 GVWWFF    6 (6)
+Q Consensus         1 gvwwff    6 (6)
+                      +||.|+
+T Consensus        68 ~vWtf~   73 (97)
+T 5FUR_D           68 NVWTFV   73 (97)
+T ss_pred             CEEEEE
+Confidence            467664
+
+
+No 8
+>2ZZQ_A Protein ORF3, Capsid protein; Virus, Viral capsid protein, Virus-like; 3.81A {Hepatitis E virus}
+Probab=42.48  E-value=23  Score=18.93  Aligned_cols=6  Identities=33%  Similarity=0.667  Sum_probs=4.1  Template_Neff=3.400
+
+Q GVWWFF            1 GVWWFF    6 (6)
+Q Consensus         1 gvwwff    6 (6)
+                      |.|||+
+T Consensus       336 GGWWFV  341 (552)
+T 2ZZQ_A          336 GGQLFY  341 (552)
+T ss_dssp             TTTEEE
+T ss_pred             cceEEE
+Confidence            568884
+
+
+No 9
+>1NVP_D TATA box binding protein, Transcription; TRANSCRIPTION REGULATION, DNA, COMPLEX, TRANSCRIPTION-DNA; 2.1A {Homo sapiens} SCOP: a.32.1.1, b.56.1.1
+Probab=40.84  E-value=26  Score=14.07  Aligned_cols=6  Identities=50%  Similarity=1.199  Sum_probs=3.6  Template_Neff=6.300
+
+Q GVWWFF            1 GVWWFF    6 (6)
+Q Consensus         1 gvwwff    6 (6)
+                      +||.|+
+T Consensus        69 ~vWtf~   74 (108)
+T 1NVP_D           69 NVWTFV   74 (108)
+T ss_pred             CEEEEE
+Confidence            467664
+
+
+No 10
+>3IYO_B Capsid protein; Amino Acid Sequence, Capsid, Capsid; 10.5A {Hepatitis E virus}
+Probab=37.96  E-value=30  Score=18.93  Aligned_cols=6  Identities=33%  Similarity=0.667  Sum_probs=4.2  Template_Neff=3.300
+
+Q GVWWFF            1 GVWWFF    6 (6)
+Q Consensus         1 gvwwff    6 (6)
+                      |-|||+
+T Consensus       392 GGWWFv  397 (660)
+T 3IYO_B          392 GGQLFY  397 (660)
+T ss_pred             cceEEE
+Confidence            568884
+
+
+No 11
+>7NVZ_V TFIIH basal transcription factor complex; Initiation, TRANSCRIPTION; HET: ZN; 7.2A {Sus scrofa}
+Probab=37.72  E-value=31  Score=13.92  Aligned_cols=6  Identities=50%  Similarity=1.199  Sum_probs=3.5  Template_Neff=6.200
+
+Q GVWWFF            1 GVWWFF    6 (6)
+Q Consensus         1 gvwwff    6 (6)
+                      +||.|+
+T Consensus        70 ~vWtf~   75 (109)
+T 7NVZ_V           70 NVWTFV   75 (109)
+T ss_pred             CEEEEE
+Confidence            467663
+
+
+No 12
+>2ZTN_A Capsid protein; HEV, VIRUS; 3.56A {Hepatitis E virus}
+Probab=35.28  E-value=36  Score=17.86  Aligned_cols=6  Identities=33%  Similarity=0.667  Sum_probs=4.2  Template_Neff=3.800
+
+Q GVWWFF            1 GVWWFF    6 (6)
+Q Consensus         1 gvwwff    6 (6)
+                      |-|||.
+T Consensus       264 GGWWFV  269 (478)
+T 2ZTN_A          264 GGQLFY  269 (478)
+T ss_dssp             TTTEEE
+T ss_pred             cceEEE
+Confidence            568884
+
+
+No 13
+>6TDV_J ATPTB1, ATPTB3, ATPTB6, ATPTB12, subunit; mitochondria, ATP synthase, MEMBRANE PROTEIN; HET: CDL, LMT, LPP, TRT; 2.8A {Euglena gracilis}
+Probab=34.95  E-value=37  Score=15.33  Aligned_cols=6  Identities=67%  Similarity=2.317  Sum_probs=3.6  Template_Neff=1.000
+
+Q GVWWFF            1 GVWWFF    6 (6)
+Q Consensus         1 gvwwff    6 (6)
+                      |+||-|
+T Consensus        32 giwwkf   37 (104)
+T 6TDV_J           32 GIWWKF   37 (104)
+T ss_pred             eehHHh
+Confidence            567754
+
+
+No 14
+>7OQZ_B Transmembrane protein 45A; Transmembrane Protein 45A, MEMBRANE PROTEIN; HET: PC1;{Homo sapiens}
+Probab=30.46  E-value=48  Score=14.96  Aligned_cols=6  Identities=50%  Similarity=1.874  Sum_probs=3.6  Template_Neff=6.800
+
+Q GVWWFF            1 GVWWFF    6 (6)
+Q Consensus         1 gvwwff    6 (6)
+                      |+||.+
+T Consensus        17 Glww~~   22 (281)
+T 7OQZ_B           17 GLWWCT   22 (281)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            567753
+
+
+No 15
+>7OHA_M DNA binding protein nucleosome, TRANSCRIPTION;{Xenopus laevis}
+Probab=27.39  E-value=59  Score=13.45  Aligned_cols=6  Identities=50%  Similarity=1.232  Sum_probs=3.3  Template_Neff=6.000
+
+Q GVWWFF            1 GVWWFF    6 (6)
+Q Consensus         1 gvwwff    6 (6)
+                      +||.|+
+T Consensus        74 nvWtf~   79 (122)
+T 7OHA_M           74 DVWTFI   79 (122)
+T ss_dssp             TEEEEE
+T ss_pred             CEEEEE
+Confidence            366653
+
+
+No 16
+>1NH2_D Transcription initiation factor TFIID, Transcription; TRANSCRIPTION/DNA, TRANSCRIPTION-DNA complex; 1.9A {Saccharomyces cerevisiae} SCOP: a.32.1.1, b.56.1.1
+Probab=24.20  E-value=74  Score=13.16  Aligned_cols=6  Identities=50%  Similarity=1.232  Sum_probs=3.2  Template_Neff=6.000
+
+Q GVWWFF            1 GVWWFF    6 (6)
+Q Consensus         1 gvwwff    6 (6)
+                      +||.|+
+T Consensus        73 ~vWtF~   78 (121)
+T 1NH2_D           73 DVWTFI   78 (121)
+T ss_pred             CEEEEE
+Confidence            356653
+
+
+No 17
+>5IBV_A Capsid polyprotein VP90; Astrovirus, Capsid, VIRAL PROTEIN; HET: MSE; 2.15A {Human astrovirus-8}
+Probab=23.89  E-value=76  Score=16.04  Aligned_cols=6  Identities=67%  Similarity=2.151  Sum_probs=3.7  Template_Neff=4.200
+
+Q GVWWFF            1 GVWWFF    6 (6)
+Q Consensus         1 gvwwff    6 (6)
+                      |-|||.
+T Consensus       278 GGwWfv  283 (354)
+T 5IBV_A          278 GGWWFV  283 (354)
+T ss_dssp             HTEEEE
+T ss_pred             ceeeee
+Confidence            457873
+
+
+No 18
+>6YWE_T 60S ribosomal protein L1, mitochondrial; Neurospora crassa, translating Mitoribosomes, tRNA; HET: ATP, NAD, MG, K, SPM;{Neurospora crassa}
+Probab=21.48  E-value=91  Score=15.17  Aligned_cols=6  Identities=67%  Similarity=1.741  Sum_probs=3.1  Template_Neff=4.300
+
+Q GVWWFF            1 GVWWFF    6 (6)
+Q Consensus         1 gvwwff    6 (6)
+                      |.|-||
+T Consensus       101 GLw~FF  106 (263)
+T 6YWE_T          101 GLWDFF  106 (263)
+T ss_pred             cHHHHh
+Confidence            445555
+
+

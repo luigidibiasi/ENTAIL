@@ -1,0 +1,150 @@
+Query         SAETKE
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 13:07:59 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/SAETKE/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/SAETKE/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5O60_T 50S ribosomal protein b  40.2      27 0.00029   14.8   0.0    6    1-6     145-150 (153)
+  2 5XYM_S 50S ribosomal protein L  40.2      27 0.00029   14.8   0.0    6    1-6     145-150 (153)
+  3 5ZEP_T 30S ribosomal protein S  36.1      34 0.00038   14.5   0.0    6    1-6     145-150 (153)
+  4 6UCU_M Mitochondrial import re  21.9      88 0.00097   12.3   0.0    6    1-6      10-15  (60)
+  5 7CK6_H Mitochondrial import re  20.9      95  0.0011   12.0   0.0    6    1-6       5-10  (55)
+  6 7CP9_F Mitochondrial import re  20.9      95  0.0011   12.0   0.0    6    1-6       5-10  (55)
+  7 3A98_B Dedicator of cytokinesi   4.4 8.4E+02  0.0093    9.8   0.0    6    1-6     155-160 (203)
+  8 4ZB4_A WD40; Spliceosome, liga   4.0 9.3E+02    0.01   10.1   0.0    5    2-6       3-7   (360)
+  9 5YSZ_A Transcriptional regulat   4.0 9.3E+02    0.01    9.6   0.0    6    1-6      54-59  (360)
+ 10 2Q97_T Actin, alpha skeletal m   3.9 9.7E+02   0.011   11.4   0.0    5    1-5      82-86  (129)
+
+No 1
+>5O60_T 50S ribosomal protein bL37, 50S; ribosome, translation; HET: MG, PHE; 3.203A {Mycobacterium smegmatis str. MC2 155}
+Probab=40.20  E-value=27  Score=14.80  Aligned_cols=6  Identities=100%  Similarity=0.972  Sum_probs=3.4  Template_Neff=6.200
+
+Q SAETKE            1 SAETKE    6 (6)
+Q Consensus         1 saetke    6 (6)
+                      ||||||
+T Consensus       145 ~~~~~~  150 (153)
+T 5O60_T          145 SAETKE  150 (153)
+T ss_pred             hccccc
+Confidence            456654
+
+
+No 2
+>5XYM_S 50S ribosomal protein L32, 50S; Mycobacterium smegmatis ribosome, rRNA, rprotein; HET: MG; 3.08A {Mycobacterium smegmatis (strain ATCC 700084 / mc(2)155)}
+Probab=40.20  E-value=27  Score=14.80  Aligned_cols=6  Identities=100%  Similarity=0.972  Sum_probs=3.4  Template_Neff=6.200
+
+Q SAETKE            1 SAETKE    6 (6)
+Q Consensus         1 saetke    6 (6)
+                      ||||||
+T Consensus       145 ~~~~~~  150 (153)
+T 5XYM_S          145 SAETKE  150 (153)
+T ss_pred             hccccc
+Confidence            456654
+
+
+No 3
+>5ZEP_T 30S ribosomal protein S3, 30S; hibernating-state, ribosome, complex; 3.4A {Mycobacterium smegmatis str. MC2 155}
+Probab=36.15  E-value=34  Score=14.50  Aligned_cols=6  Identities=100%  Similarity=0.972  Sum_probs=3.4  Template_Neff=6.200
+
+Q SAETKE            1 SAETKE    6 (6)
+Q Consensus         1 saetke    6 (6)
+                      |+||||
+T Consensus       145 ~~~~~~  150 (153)
+T 5ZEP_T          145 SAETKE  150 (153)
+T ss_pred             cccccc
+Confidence            456654
+
+
+No 4
+>6UCU_M Mitochondrial import receptor subunit TOM40; Membrane protein, mitochondrial protein import; HET: LMT; 3.06A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=21.92  E-value=88  Score=12.28  Aligned_cols=6  Identities=67%  Similarity=0.767  Sum_probs=2.9  Template_Neff=4.400
+
+Q SAETKE            1 SAETKE    6 (6)
+Q Consensus         1 saetke    6 (6)
+                      |.|+||
+T Consensus        10 S~e~Ke   15 (60)
+T 6UCU_M           10 SDESKE   15 (60)
+T ss_pred             CHHHHH
+Confidence            345554
+
+
+No 5
+>7CK6_H Mitochondrial import receptor subunit TOM40; Complex, Mitochondria, STRUCTURAL PROTEIN; HET: PC1; 3.4A {Homo sapiens}
+Probab=20.87  E-value=95  Score=11.97  Aligned_cols=6  Identities=50%  Similarity=0.606  Sum_probs=2.4  Template_Neff=4.500
+
+Q SAETKE            1 SAETKE    6 (6)
+Q Consensus         1 saetke    6 (6)
+                      |.|+||
+T Consensus         5 s~~~Ke   10 (55)
+T 7CK6_H            5 SKEAKQ   10 (55)
+T ss_dssp             -CHHHH
+T ss_pred             CHHHHH
+Confidence            345553
+
+
+No 6
+>7CP9_F Mitochondrial import receptor subunit TOM5; human mitochondrial translocase TOM complex; HET: PC1;{Homo sapiens}
+Probab=20.87  E-value=95  Score=11.97  Aligned_cols=6  Identities=50%  Similarity=0.606  Sum_probs=2.8  Template_Neff=4.500
+
+Q SAETKE            1 SAETKE    6 (6)
+Q Consensus         1 saetke    6 (6)
+                      |.|+||
+T Consensus         5 s~~~Ke   10 (55)
+T 7CP9_F            5 SKEAKQ   10 (55)
+T ss_dssp             HHHHHH
+T ss_pred             CHHHHH
+Confidence            345553
+
+
+No 7
+>3A98_B Dedicator of cytokinesis protein 2; protein-protein complex, DOCK2, ELMO1, SH3; 2.1A {Homo sapiens}
+Probab=4.39  E-value=8.4e+02  Score=9.81  Aligned_cols=6  Identities=33%  Similarity=0.291  Sum_probs=0.0  Template_Neff=8.900
+
+Q SAETKE            1 SAETKE    6 (6)
+Q Consensus         1 saetke    6 (6)
+                      |+||++
+T Consensus       155 s~et~~  160 (203)
+T 3A98_B          155 SDLTRN  160 (203)
+T ss_pred             CHHHHH
+
+
+No 8
+>4ZB4_A WD40; Spliceosome, ligase, splicing; 2.3A {Saccharomyces cerevisiae}
+Probab=4.05  E-value=9.3e+02  Score=10.06  Aligned_cols=5  Identities=60%  Similarity=0.567  Sum_probs=0.0  Template_Neff=10.200
+
+Q SAETKE            2 AETKE    6 (6)
+Q Consensus         2 aetke    6 (6)
+                      ||++|
+T Consensus         3 ~~~~~    7 (360)
+T 4ZB4_A            3 AITRE    7 (360)
+T ss_pred             cchHH
+
+
+No 9
+>5YSZ_A Transcriptional regulator, LacI family; transcriptional regulator, cellulase gene regulator; HET: CBI, GOL; 1.631A {Thermobifida fusca YX}
+Probab=4.03  E-value=9.3e+02  Score=9.64  Aligned_cols=6  Identities=50%  Similarity=0.628  Sum_probs=0.0  Template_Neff=11.100
+
+Q SAETKE            1 SAETKE    6 (6)
+Q Consensus         1 saetke    6 (6)
+                      |.+|++
+T Consensus        54 s~~t~~   59 (360)
+T 5YSZ_A           54 SPATRE   59 (360)
+T ss_dssp             CHHHHH
+T ss_pred             CHHHHH
+
+
+No 10
+>2Q97_T Actin, alpha skeletal muscle/Toxofilin; STRUCTURAL PROTEIN, STRUCTURAL PROTEIN-CELL INVASION; HET: ATP; 2.5A {Oryctolagus cuniculus}
+Probab=3.92  E-value=9.7e+02  Score=11.36  Aligned_cols=5  Identities=80%  Similarity=0.787  Sum_probs=0.0  Template_Neff=1.900
+
+Q SAETKE            1 SAETK    5 (6)
+Q Consensus         1 saetk    5 (6)
+                      |.|||
+T Consensus        82 SPetK   86 (129)
+T 2Q97_T           82 SPETK   86 (129)
+T ss_dssp             CTTHH
+T ss_pred             CHHHH
+
+

@@ -1,0 +1,292 @@
+Query         GDCFIL
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 22:52:03 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GDCFIL/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GDCFIL/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 1SVY_A SEVERIN; ACTIN-BINDING   81.7       1 1.1E-05   16.1   0.0    6    1-6      39-44  (114)
+  2 7C2F_B Actin, alpha skeletal m  75.6     2.2 2.4E-05   14.2   0.0    6    1-6      28-33  (94)
+  3 7C2G_G Actin, alpha skeletal m  74.8     2.3 2.6E-05   15.8   0.0    6    1-6      28-33  (200)
+  4 5FAF_A Gelsolin; amyloidosis,   70.0     3.7 4.1E-05   15.1   0.0    6    1-6      39-44  (119)
+  5 1KCQ_A GELSOLIN; alpha-beta st  69.9     3.7 4.1E-05   14.5   0.0    6    1-6      29-34  (104)
+  6 7C2H_G Actin, alpha skeletal m  69.4     3.9 4.3E-05   15.2   0.0    6    1-6      28-33  (200)
+  7 1H1V_G ACTIN, GELSOLIN; ACTIN-  68.2     4.3 4.7E-05   16.4   0.0    6    1-6      33-38  (331)
+  8 1RGI_G Gelsolin/Actin, alpha s  66.3       5 5.5E-05   16.3   0.0    6    1-6      40-45  (346)
+  9 3FG6_H Adseverin; C-terminus o  63.9     5.9 6.6E-05   16.8   0.0    6    1-6      78-83  (371)
+ 10 6LJC_C Actin-binding protein f  63.0     6.4 7.1E-05   15.0   0.0    6    1-6      33-38  (212)
+ 11 5A1K_B ADSEVERIN; ACTIN-BINDIN  60.3     7.7 8.5E-05   15.8   0.0    6    1-6      38-43  (344)
+ 12 2FH1_A Gelsolin; gelsolin, cal  57.9       9  0.0001   15.8   0.0    6    1-6      33-38  (344)
+ 13 3FG6_B Adseverin; C-terminus o  54.1      12 0.00013   15.8   0.0    6    1-6      78-83  (371)
+ 14 5A1K_A ADSEVERIN; ACTIN-BINDIN  53.5      12 0.00013   15.3   0.0    6    1-6     158-163 (344)
+ 15 3FG7_A Villin-1; actin binding  52.8      12 0.00014   16.4   0.0    6    1-6      88-93  (398)
+ 16 1D0N_A HORSE PLASMA GELSOLIN;   48.3      16 0.00018   16.7   0.0    6    1-6      39-44  (729)
+ 17 6JEG_A Gelsolin; gelsolin, amy  44.5      21 0.00023   16.5   0.0    6    1-6     160-165 (729)
+ 18 1J72_A Macrophage capping prot  42.0      24 0.00027   14.6   0.0    6    1-6     162-167 (347)
+ 19 4UI9_R ANAPHASE-PROMOTING COMP  35.8      35 0.00038   14.2   0.0    6    1-6      45-50  (493)
+
+No 1
+>1SVY_A SEVERIN; ACTIN-BINDING PROTEIN, CALCIUM-BINDING, CYTOSKELETON, GELSOLIN; 1.75A {Dictyostelium discoideum} SCOP: d.109.1.1
+Probab=81.69  E-value=1  Score=16.05  Aligned_cols=6  Identities=83%  Similarity=2.029  Sum_probs=3.7  Template_Neff=9.400
+
+Q GDCFIL            1 GDCFIL    6 (6)
+Q Consensus         1 gdcfil    6 (6)
+                      +|||||
+T Consensus        39 ~~~fil   44 (114)
+T 1SVY_A           39 GDCFLL   44 (114)
+T ss_dssp             TSEEEE
+T ss_pred             CCeEEE
+Confidence            467765
+
+
+No 2
+>7C2F_B Actin, alpha skeletal muscle, Gelsolin-like; actin regulator, STRUCTURAL PROTEIN; HET: LAB, ATP, HIC; 2.03A {Oryctolagus cuniculus}
+Probab=75.58  E-value=2.2  Score=14.23  Aligned_cols=6  Identities=0%  Similarity=0.379  Sum_probs=3.2  Template_Neff=10.200
+
+Q GDCFIL            1 GDCFIL    6 (6)
+Q Consensus         1 gdcfil    6 (6)
+                      +||||+
+T Consensus        28 ~~~~il   33 (94)
+T 7C2F_B           28 EKVLVF   33 (94)
+T ss_dssp             TCEEEE
+T ss_pred             CCEEEE
+Confidence            356654
+
+
+No 3
+>7C2G_G Actin, alpha skeletal muscle, 2DGel3; actin regulator, STRUCTURAL PROTEIN; HET: ATP, HIC; 1.71A {Oryctolagus cuniculus}
+Probab=74.81  E-value=2.3  Score=15.79  Aligned_cols=6  Identities=50%  Similarity=1.802  Sum_probs=3.8  Template_Neff=10.300
+
+Q GDCFIL            1 GDCFIL    6 (6)
+Q Consensus         1 gdcfil    6 (6)
+                      +||||+
+T Consensus        28 ~~~yil   33 (200)
+T 7C2G_G           28 GDCYLV   33 (200)
+T ss_dssp             TSEEEE
+T ss_pred             CCEEEE
+Confidence            467764
+
+
+No 4
+>5FAF_A Gelsolin; amyloidosis, calcium, mutation, actin, structural; HET: GOL; 1.05A {Homo sapiens}
+Probab=69.96  E-value=3.7  Score=15.10  Aligned_cols=6  Identities=100%  Similarity=2.095  Sum_probs=3.4  Template_Neff=8.800
+
+Q GDCFIL            1 GDCFIL    6 (6)
+Q Consensus         1 gdcfil    6 (6)
+                      +|||||
+T Consensus        39 ~~vfiL   44 (119)
+T 5FAF_A           39 GDCFIL   44 (119)
+T ss_dssp             TSEEEE
+T ss_pred             CCEEEE
+Confidence            356664
+
+
+No 5
+>1KCQ_A GELSOLIN; alpha-beta structure, actin-binding protein, familial; 1.65A {Homo sapiens} SCOP: d.109.1.1
+Probab=69.93  E-value=3.7  Score=14.54  Aligned_cols=6  Identities=100%  Similarity=2.095  Sum_probs=3.3  Template_Neff=9.200
+
+Q GDCFIL            1 GDCFIL    6 (6)
+Q Consensus         1 gdcfil    6 (6)
+                      +|||||
+T Consensus        29 ~~~fvl   34 (104)
+T 1KCQ_A           29 GDCFIL   34 (104)
+T ss_dssp             TSEEEE
+T ss_pred             CCeEEE
+Confidence            356654
+
+
+No 6
+>7C2H_G Actin, alpha skeletal muscle, 2DGel3; actin regulator, STRUCTURAL PROTEIN; HET: ATP, HIC; 2.352A {Oryctolagus cuniculus}
+Probab=69.41  E-value=3.9  Score=15.16  Aligned_cols=6  Identities=50%  Similarity=1.802  Sum_probs=3.7  Template_Neff=10.400
+
+Q GDCFIL            1 GDCFIL    6 (6)
+Q Consensus         1 gdcfil    6 (6)
+                      +||||+
+T Consensus        28 ~~~yil   33 (200)
+T 7C2H_G           28 GDCYLV   33 (200)
+T ss_dssp             TCEEEE
+T ss_pred             CCEEEE
+Confidence            467764
+
+
+No 7
+>1H1V_G ACTIN, GELSOLIN; ACTIN-BINDING, SEVERING, CAPPING, AMYLOID, MUSCLE; HET: ATP; 2.99A {ORYCTOLAGUS CUNICULUS} SCOP: d.109.1.1
+Probab=68.18  E-value=4.3  Score=16.41  Aligned_cols=6  Identities=50%  Similarity=1.292  Sum_probs=4.0  Template_Neff=10.000
+
+Q GDCFIL            1 GDCFIL    6 (6)
+Q Consensus         1 gdcfil    6 (6)
+                      +||||+
+T Consensus        33 ~d~yil   38 (331)
+T 1H1V_G           33 GDSYII   38 (331)
+T ss_pred             CCEEEE
+Confidence            577774
+
+
+No 8
+>1RGI_G Gelsolin/Actin, alpha skeletal muscle; Domain movement, CONTRACTILE PROTEIN; HET: ATP; 3.0A {Equus caballus} SCOP: d.109.1.1
+Probab=66.30  E-value=5  Score=16.33  Aligned_cols=6  Identities=33%  Similarity=1.265  Sum_probs=3.8  Template_Neff=10.000
+
+Q GDCFIL            1 GDCFIL    6 (6)
+Q Consensus         1 gdcfil    6 (6)
+                      |||||+
+T Consensus        40 ~d~yii   45 (346)
+T 1RGI_G           40 GDAYVI   45 (346)
+T ss_pred             CcEEEE
+Confidence            567764
+
+
+No 9
+>3FG6_H Adseverin; C-terminus of adseverin, Actin capping; HET: CA; 3.0A {Homo sapiens}
+Probab=63.94  E-value=5.9  Score=16.78  Aligned_cols=6  Identities=67%  Similarity=1.924  Sum_probs=4.1  Template_Neff=9.200
+
+Q GDCFIL            1 GDCFIL    6 (6)
+Q Consensus         1 gdcfil    6 (6)
+                      |||||+
+T Consensus        78 ~d~Yii   83 (371)
+T 3FG6_H           78 GDCYII   83 (371)
+T ss_dssp             TCEEEE
+T ss_pred             CCEEEE
+Confidence            577774
+
+
+No 10
+>6LJC_C Actin-binding protein fragmin P; fragmin, gelsolin family protein, calcium; HET: MES, GOL; 1.85A {Physarum polycephalum}
+Probab=62.97  E-value=6.4  Score=14.98  Aligned_cols=6  Identities=67%  Similarity=1.409  Sum_probs=3.5  Template_Neff=10.000
+
+Q GDCFIL            1 GDCFIL    6 (6)
+Q Consensus         1 gdcfil    6 (6)
+                      +||||+
+T Consensus        33 ~~~yil   38 (212)
+T 6LJC_C           33 GDVFVL   38 (212)
+T ss_dssp             TSEEEE
+T ss_pred             CCEEEE
+Confidence            466664
+
+
+No 11
+>5A1K_B ADSEVERIN; ACTIN-BINDING PROTEIN, ACTIN; 2.9A {HOMO SAPIENS}
+Probab=60.26  E-value=7.7  Score=15.79  Aligned_cols=6  Identities=33%  Similarity=1.193  Sum_probs=3.6  Template_Neff=10.000
+
+Q GDCFIL            1 GDCFIL    6 (6)
+Q Consensus         1 gdcfil    6 (6)
+                      |||||+
+T Consensus        38 ~d~yil   43 (344)
+T 5A1K_B           38 GDAYLV   43 (344)
+T ss_dssp             TCEEEE
+T ss_pred             ccEEEE
+Confidence            467664
+
+
+No 12
+>2FH1_A Gelsolin; gelsolin, calcium, CONTRACTILE PROTEIN; 1.55A {Homo sapiens} SCOP: d.109.1.1
+Probab=57.87  E-value=9  Score=15.79  Aligned_cols=6  Identities=50%  Similarity=1.292  Sum_probs=3.8  Template_Neff=9.700
+
+Q GDCFIL            1 GDCFIL    6 (6)
+Q Consensus         1 gdcfil    6 (6)
+                      |||||+
+T Consensus        33 ~d~Yiv   38 (344)
+T 2FH1_A           33 GDSYII   38 (344)
+T ss_dssp             TSEEEE
+T ss_pred             CCEEEE
+Confidence            567764
+
+
+No 13
+>3FG6_B Adseverin; C-terminus of adseverin, Actin capping; HET: CA; 3.0A {Homo sapiens}
+Probab=54.11  E-value=12  Score=15.85  Aligned_cols=6  Identities=67%  Similarity=1.924  Sum_probs=3.7  Template_Neff=9.400
+
+Q GDCFIL            1 GDCFIL    6 (6)
+Q Consensus         1 gdcfil    6 (6)
+                      +||||+
+T Consensus        78 ~d~yil   83 (371)
+T 3FG6_B           78 GDCYII   83 (371)
+T ss_dssp             TCEEEE
+T ss_pred             CCEEEE
+Confidence            467764
+
+
+No 14
+>5A1K_A ADSEVERIN; ACTIN-BINDING PROTEIN, ACTIN; 2.9A {HOMO SAPIENS}
+Probab=53.53  E-value=12  Score=15.27  Aligned_cols=6  Identities=83%  Similarity=2.029  Sum_probs=3.5  Template_Neff=10.000
+
+Q GDCFIL            1 GDCFIL    6 (6)
+Q Consensus         1 gdcfil    6 (6)
+                      +|||||
+T Consensus       158 ~~~yil  163 (344)
+T 5A1K_A          158 GDCFII  163 (344)
+T ss_dssp             TSEEEE
+T ss_pred             CCEEEE
+Confidence            466664
+
+
+No 15
+>3FG7_A Villin-1; actin binding protein, Villin head; 2.0A {Homo sapiens}
+Probab=52.79  E-value=12  Score=16.38  Aligned_cols=6  Identities=67%  Similarity=1.924  Sum_probs=0.0  Template_Neff=8.600
+
+Q GDCFIL            1 GDCFIL    6 (6)
+Q Consensus         1 gdcfil    6 (6)
+                      |||||+
+T Consensus        88 ~d~YIi   93 (398)
+T 3FG7_A           88 GDCYLL   93 (398)
+T ss_dssp             ------
+T ss_pred             CCEEEE
+Confidence            577764
+
+
+No 16
+>1D0N_A HORSE PLASMA GELSOLIN; MIXED ALPHA-BETA STRUCTURE, ACTIN-BINDING PROTEIN; 2.5A {Equus caballus} SCOP: d.109.1.1
+Probab=48.25  E-value=16  Score=16.74  Aligned_cols=6  Identities=33%  Similarity=1.265  Sum_probs=4.0  Template_Neff=9.500
+
+Q GDCFIL            1 GDCFIL    6 (6)
+Q Consensus         1 gdcfil    6 (6)
+                      |||||+
+T Consensus        39 ~d~yiv   44 (729)
+T 1D0N_A           39 GDAYVI   44 (729)
+T ss_dssp             TCEEEE
+T ss_pred             CceEEE
+Confidence            577764
+
+
+No 17
+>6JEG_A Gelsolin; gelsolin, amyloidosis, calcium activation, Actin; HET: GOL; 2.975A {Homo sapiens}
+Probab=44.47  E-value=21  Score=16.45  Aligned_cols=6  Identities=100%  Similarity=2.095  Sum_probs=4.0  Template_Neff=9.500
+
+Q GDCFIL            1 GDCFIL    6 (6)
+Q Consensus         1 gdcfil    6 (6)
+                      +|||||
+T Consensus       160 ~d~yil  165 (729)
+T 6JEG_A          160 GDCFIL  165 (729)
+T ss_dssp             TSEEEE
+T ss_pred             CCEEEE
+Confidence            477775
+
+
+No 18
+>1J72_A Macrophage capping protein; actin, human, capping, cap g; 2.5A {Homo sapiens} SCOP: d.109.1.1
+Probab=41.96  E-value=24  Score=14.58  Aligned_cols=6  Identities=100%  Similarity=2.095  Sum_probs=3.3  Template_Neff=9.800
+
+Q GDCFIL            1 GDCFIL    6 (6)
+Q Consensus         1 gdcfil    6 (6)
+                      +||||+
+T Consensus       162 ~~~yil  167 (347)
+T 1J72_A          162 GDCFIL  167 (347)
+T ss_dssp             TSEEEE
+T ss_pred             CCEEEE
+Confidence            356654
+
+
+No 19
+>4UI9_R ANAPHASE-PROMOTING COMPLEX SUBUNIT 1, ANAPHASE-PROMOTING; UBIQUITINATION, CELL CYCLE, APC/C, APC; 3.6A {HOMO SAPIENS}
+Probab=35.85  E-value=35  Score=14.24  Aligned_cols=6  Identities=67%  Similarity=0.988  Sum_probs=3.7  Template_Neff=10.800
+
+Q GDCFIL            1 GDCFIL    6 (6)
+Q Consensus         1 gdcfil    6 (6)
+                      +|||++
+T Consensus        45 ~~~~~~   50 (493)
+T 4UI9_R           45 GDRFIP   50 (493)
+T ss_pred             CCcccc
+Confidence            577753
+
+

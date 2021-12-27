@@ -1,0 +1,150 @@
+Query         NQQNYQ
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 03:40:49 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NQQNYQ/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NQQNYQ/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4Z7K_A Cas6b RNA/DNA Complex;   51.8      13 0.00015   16.8   0.0    6    1-6     125-130 (218)
+  2 4Z7K_B Cas6b RNA/DNA Complex;   51.1      14 0.00015   16.8   0.0    6    1-6     125-130 (218)
+  3 6C0F_7 Ribosome; Pre-60S, ribo   5.0 7.1E+02  0.0079   11.6   0.0    5    2-6      47-51  (231)
+  4 7KPX_A Meiotic mRNA stability    4.9 7.2E+02   0.008   11.4   0.0    6    1-6       8-13  (555)
+  5 4BFO_A GLUCOAMYLASE (E.C.3.2.1   4.8 7.5E+02  0.0083    9.6   0.0    6    1-6      98-103 (106)
+  6 5Z62_J Cytochrome c oxidase su   4.8 7.5E+02  0.0083    8.8   0.0    5    2-6       8-12  (56)
+  7 3C30_A Autoinducer 2 sensor ki   4.6 7.8E+02  0.0087   11.4   0.0    4    3-6       5-8   (270)
+  8 3C38_A Autoinducer 2 sensor ki   4.6 7.8E+02  0.0087   11.4   0.0    4    3-6       5-8   (270)
+  9 5JFF_D Probable adenosine mono   4.3 8.7E+02  0.0096   10.1   0.0    5    2-6      31-35  (68)
+ 10 2C9W_A SUPPRESSOR OF CYTOKINE    4.2 8.9E+02  0.0098    9.1   0.0    6    1-6     163-168 (169)
+
+No 1
+>4Z7K_A Cas6b RNA/DNA Complex; Cas6, endoribonuclease, CRISPR RNA, Hydrolase-RNA-DNA; 3.0A {Methanococcus maripaludis (strain C5 / ATCC BAA-1333)}
+Probab=51.79  E-value=13  Score=16.85  Aligned_cols=6  Identities=33%  Similarity=0.484  Sum_probs=3.9  Template_Neff=5.400
+
+Q NQQNYQ            1 NQQNYQ    6 (6)
+Q Consensus         1 nqqnyq    6 (6)
+                      ||+||+
+T Consensus       125 NqeNy~  130 (218)
+T 4Z7K_A          125 NAKNSE  130 (218)
+T ss_dssp             CHHHHH
+T ss_pred             cHHHHH
+Confidence            677764
+
+
+No 2
+>4Z7K_B Cas6b RNA/DNA Complex; Cas6, endoribonuclease, CRISPR RNA, Hydrolase-RNA-DNA; 3.0A {Methanococcus maripaludis (strain C5 / ATCC BAA-1333)}
+Probab=51.08  E-value=14  Score=16.79  Aligned_cols=6  Identities=33%  Similarity=0.484  Sum_probs=3.9  Template_Neff=5.400
+
+Q NQQNYQ            1 NQQNYQ    6 (6)
+Q Consensus         1 nqqnyq    6 (6)
+                      ||+||+
+T Consensus       125 NqeNy~  130 (218)
+T 4Z7K_B          125 NAKNSE  130 (218)
+T ss_dssp             CHHHHH
+T ss_pred             cHHHHH
+Confidence            677764
+
+
+No 3
+>6C0F_7 Ribosome; Pre-60S, ribosome biogenesis, LSU processome; 3.7A {Saccharomyces cerevisiae BY4741}
+Probab=5.02  E-value=7.1e+02  Score=11.65  Aligned_cols=5  Identities=60%  Similarity=1.039  Sum_probs=0.0  Template_Neff=5.600
+
+Q NQQNYQ            2 QQNYQ    6 (6)
+Q Consensus         2 qqnyq    6 (6)
+                      .|||.
+T Consensus        47 ~QNY~   51 (231)
+T 6C0F_7           47 AQNYK   51 (231)
+T ss_pred             HHHHH
+
+
+No 4
+>7KPX_A Meiotic mRNA stability protein kinase; Mediator, Transcription, Kinase, Cdk8, Med13; 4.4A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=4.95  E-value=7.2e+02  Score=11.37  Aligned_cols=6  Identities=50%  Similarity=0.805  Sum_probs=0.0  Template_Neff=9.600
+
+Q NQQNYQ            1 NQQNYQ    6 (6)
+Q Consensus         1 nqqnyq    6 (6)
+                      +||.||
+T Consensus         8 ~~~~~~   13 (555)
+T 7KPX_A            8 AQNSYQ   13 (555)
+T ss_dssp             ------
+T ss_pred             ccccCC
+
+
+No 5
+>4BFO_A GLUCOAMYLASE (E.C.3.2.1.3); HYDROLASE, CARBOHYDRATE BINDING; HET: GLC; 1.175A {RHIZOPUS ORYZAE}
+Probab=4.80  E-value=7.5e+02  Score=9.65  Aligned_cols=6  Identities=67%  Similarity=1.005  Sum_probs=0.0  Template_Neff=7.100
+
+Q NQQNYQ            1 NQQNYQ    6 (6)
+Q Consensus         1 nqqnyq    6 (6)
+                      +.+||+
+T Consensus        98 ~G~NY~  103 (106)
+T 4BFO_A           98 NSANYQ  103 (106)
+T ss_dssp             TTTCEE
+T ss_pred             CCcceE
+
+
+No 6
+>5Z62_J Cytochrome c oxidase subunit 1; cytochrome c oxidase, electron transport; HET: PEE, HEA, CDL; 3.6A {Homo sapiens}
+Probab=4.78  E-value=7.5e+02  Score=8.81  Aligned_cols=5  Identities=40%  Similarity=0.600  Sum_probs=0.0  Template_Neff=6.500
+
+Q NQQNYQ            2 QQNYQ    6 (6)
+Q Consensus         2 qqnyq    6 (6)
+                      |+.||
+T Consensus         8 Qk~fQ   12 (56)
+T 5Z62_J            8 QKLFQ   12 (56)
+T ss_pred             HHHHH
+
+
+No 7
+>3C30_A Autoinducer 2 sensor kinase/phosphatase luxQ; 2-Component System, Quorum Sensing, Histidine; HET: MES; 2.8A {Vibrio cholerae}
+Probab=4.65  E-value=7.8e+02  Score=11.38  Aligned_cols=4  Identities=75%  Similarity=1.173  Sum_probs=0.0  Template_Neff=6.600
+
+Q NQQNYQ            3 QNYQ    6 (6)
+Q Consensus         3 qnyq    6 (6)
+                      ||||
+T Consensus         5 ~sYq    8 (270)
+T 3C30_A            5 QSYQ    8 (270)
+T ss_dssp             ----
+T ss_pred             EEEe
+
+
+No 8
+>3C38_A Autoinducer 2 sensor kinase/phosphatase luxQ; 2-Component System, Quorum Sensing, Histidine; 2.3A {Vibrio cholerae}
+Probab=4.65  E-value=7.8e+02  Score=11.38  Aligned_cols=4  Identities=75%  Similarity=1.173  Sum_probs=0.0  Template_Neff=6.600
+
+Q NQQNYQ            3 QNYQ    6 (6)
+Q Consensus         3 qnyq    6 (6)
+                      ||||
+T Consensus         5 ~sYq    8 (270)
+T 3C38_A            5 QSYQ    8 (270)
+T ss_dssp             ----
+T ss_pred             EEEe
+
+
+No 9
+>5JFF_D Probable adenosine monophosphate-protein transferase fic; FIC domain, fic-1, Class I; 2.0A {Escherichia coli (strain K12)}
+Probab=4.27  E-value=8.7e+02  Score=10.13  Aligned_cols=5  Identities=40%  Similarity=0.919  Sum_probs=0.0  Template_Neff=3.300
+
+Q NQQNYQ            2 QQNYQ    6 (6)
+Q Consensus         2 qqnyq    6 (6)
+                      ..|||
+T Consensus        31 ~~Nyq   35 (68)
+T 5JFF_D           31 NRNFQ   35 (68)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 10
+>2C9W_A SUPPRESSOR OF CYTOKINE SIGNALING 2; GROWTH REGULATION, SH2 DOMAIN, SIGNAL; HET: SO4; 1.9A {HOMO SAPIENS} SCOP: a.271.1.1, d.93.1.1
+Probab=4.21  E-value=8.9e+02  Score=9.14  Aligned_cols=6  Identities=17%  Similarity=0.528  Sum_probs=0.0  Template_Neff=9.600
+
+Q NQQNYQ            1 NQQNYQ    6 (6)
+Q Consensus         1 nqqnyq    6 (6)
+                      .+++||
+T Consensus       163 ~~~~~~  168 (169)
+T 2C9W_A          163 EEYKFQ  168 (169)
+T ss_dssp             HTCCCC
+T ss_pred             HhcCCC
+
+

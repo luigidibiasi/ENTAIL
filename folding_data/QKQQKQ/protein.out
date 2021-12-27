@@ -1,0 +1,147 @@
+Query         QKQQKQ
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 08:22:53 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QKQQKQ/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QKQQKQ/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5MU7_B Coatomer subunit beta,    6.5 5.1E+02  0.0056   10.2   0.0    5    2-6     167-171 (175)
+  2 2FF0_A Steroidogenic factor 1/   6.0 5.6E+02  0.0062    9.1   0.0    5    2-6      97-101 (102)
+  3 1DCE_D RAB GERANYLGERANYLTRANS   5.9 5.8E+02  0.0064   10.1   0.0    4    3-6       4-7   (331)
+  4 4O8S_A Putative; nucleotidyl t   5.9 5.8E+02  0.0064   10.6   0.0    5    2-6     219-223 (232)
+  5 1QB3_B CRYSTAL STRUCTURE OF TH   5.7   6E+02  0.0067   11.8   0.0    6    1-6     119-124 (150)
+  6 6SJ8_B Methylcorrinoid:tetrahy   5.4 6.5E+02  0.0072   11.4   0.0    5    1-5       6-10  (307)
+  7 5OEK_A Growth hormone receptor   5.3 6.6E+02  0.0073    9.5   0.0    4    2-5      38-41  (43)
+  8 3BJC_A cGMP-specific 3',5'-cyc   5.2 6.8E+02  0.0075   12.2   0.0    6    1-6      14-19  (878)
+  9 5WVM_A Maltose-binding peripla   4.8 7.5E+02  0.0083   11.1   0.0    6    1-6     495-500 (509)
+ 10 5WVN_A Maltose-binding peripla   4.8 7.5E+02  0.0083   11.1   0.0    6    1-6     495-500 (509)
+
+No 1
+>5MU7_B Coatomer subunit beta, Coatomer subunit; coatomer, COPI, beta COP, delta; 2.57A {Chaetomium thermophilum var. thermophilum DSM 1495}
+Probab=6.54  E-value=5.1e+02  Score=10.16  Aligned_cols=5  Identities=20%  Similarity=0.474  Sum_probs=0.0  Template_Neff=8.900
+
+Q QKQQKQ            2 KQQKQ    6 (6)
+Q Consensus         2 kqqkq    6 (6)
+                      +||||
+T Consensus       167 ~~~~~  171 (175)
+T 5MU7_B          167 EMQRK  171 (175)
+T ss_dssp             -----
+T ss_pred             HHHHH
+
+
+No 2
+>2FF0_A Steroidogenic factor 1/DNA Complex; Nuclear Hormone Receptor, Protein-DNA complex; HET: ZN; NMR {Mus musculus}
+Probab=6.03  E-value=5.6e+02  Score=9.08  Aligned_cols=5  Identities=80%  Similarity=0.886  Sum_probs=0.0  Template_Neff=9.000
+
+Q QKQQKQ            2 KQQKQ    6 (6)
+Q Consensus         2 kqqkq    6 (6)
+                      +||+|
+T Consensus        97 ~~~~~  101 (102)
+T 2FF0_A           97 KQQKK  101 (102)
+T ss_dssp             HTCCC
+T ss_pred             HHHhh
+
+
+No 3
+>1DCE_D RAB GERANYLGERANYLTRANSFERASE (ALPHA AND BETA; RAB GERANYLGERANYLTRANSFERASE, 2.0 A RESOLUTION; HET: FME; 2.0A {Rattus norvegicus} SCOP: a.102.4.3
+Probab=5.92  E-value=5.8e+02  Score=10.11  Aligned_cols=4  Identities=75%  Similarity=0.792  Sum_probs=0.0  Template_Neff=11.000
+
+Q QKQQKQ            3 QQKQ    6 (6)
+Q Consensus         3 qqkq    6 (6)
+                      ||||
+T Consensus         4 ~~~~    7 (331)
+T 1DCE_D            4 QQKD    7 (331)
+T ss_dssp             CCSS
+T ss_pred             cccc
+
+
+No 4
+>4O8S_A Putative; nucleotidyl transferase, HYDROLASE; 2.1A {Helicobacter pylori}
+Probab=5.89  E-value=5.8e+02  Score=10.62  Aligned_cols=5  Identities=60%  Similarity=0.614  Sum_probs=0.0  Template_Neff=8.600
+
+Q QKQQKQ            2 KQQKQ    6 (6)
+Q Consensus         2 kqqkq    6 (6)
+                      +++||
+T Consensus       219 ~~~~~  223 (232)
+T 4O8S_A          219 KLEKQ  223 (232)
+T ss_dssp             HHHHH
+T ss_pred             HHHHh
+
+
+No 5
+>1QB3_B CRYSTAL STRUCTURE OF THE CELL; CELL CYCLE MUTAGENESIS DOMAIN SWAPPING; 3.0A {Saccharomyces cerevisiae} SCOP: d.97.1.1
+Probab=5.71  E-value=6e+02  Score=11.80  Aligned_cols=6  Identities=67%  Similarity=0.767  Sum_probs=0.0  Template_Neff=3.800
+
+Q QKQQKQ            1 QKQQKQ    6 (6)
+Q Consensus         1 qkqqkq    6 (6)
+                      |.||+|
+T Consensus       119 Qqqq~~  124 (150)
+T 1QB3_B          119 QQQQQQ  124 (150)
+T ss_dssp             HSTTCC
+T ss_pred             HHHHHH
+
+
+No 6
+>6SJ8_B Methylcorrinoid:tetrahydrofolate methyltransferase (E.C.2.1.1.-); Anaerobic Bacteria, Glycine Betaine Metabolism; HET: 44V, GOL; 1.35A {Desulfitobacterium hafniense DCB-2}
+Probab=5.37  E-value=6.5e+02  Score=11.44  Aligned_cols=5  Identities=40%  Similarity=0.375  Sum_probs=0.0  Template_Neff=7.500
+
+Q QKQQKQ            1 QKQQK    5 (6)
+Q Consensus         1 qkqqk    5 (6)
+                      |+||+
+T Consensus         6 ~~~~~   10 (307)
+T 6SJ8_B            6 TAQQH   10 (307)
+T ss_dssp             SSCCC
+T ss_pred             cccce
+
+
+No 7
+>5OEK_A Growth hormone receptor; Dimer, GHR, Growth hormone receptor; NMR {Homo sapiens}
+Probab=5.33  E-value=6.6e+02  Score=9.49  Aligned_cols=4  Identities=75%  Similarity=0.941  Sum_probs=0.0  Template_Neff=3.900
+
+Q QKQQKQ            2 KQQK    5 (6)
+Q Consensus         2 kqqk    5 (6)
+                      +||+
+T Consensus        38 qQqR   41 (43)
+T 5OEK_A           38 KQQR   41 (43)
+T ss_dssp             HHHH
+T ss_pred             hHHh
+
+
+No 8
+>3BJC_A cGMP-specific 3',5'-cyclic phosphodiesterase (E.C.3.1.4.35); PDE5, erectile dysfunction, inhibitor design; HET: WAN; 2.0A {Homo sapiens} SCOP: a.211.1.2
+Probab=5.21  E-value=6.8e+02  Score=12.20  Aligned_cols=6  Identities=67%  Similarity=0.833  Sum_probs=0.0  Template_Neff=9.700
+
+Q QKQQKQ            1 QKQQKQ    6 (6)
+Q Consensus         1 qkqqkq    6 (6)
+                      |+||.|
+T Consensus        14 ~~~~~~   19 (878)
+T 3BJC_A           14 QRQQQQ   19 (878)
+T ss_pred             HHHhhC
+
+
+No 9
+>5WVM_A Maltose-binding periplasmic protein,Two-component system sensor; BaeS, sensor domain, Indole, two; HET: SO4; 2.9A {Escherichia coli}
+Probab=4.82  E-value=7.5e+02  Score=11.13  Aligned_cols=6  Identities=33%  Similarity=0.734  Sum_probs=0.0  Template_Neff=9.700
+
+Q QKQQKQ            1 QKQQKQ    6 (6)
+Q Consensus         1 qkqqkq    6 (6)
+                      |+||.+
+T Consensus       495 ~~~~~~  500 (509)
+T 5WVM_A          495 DRQQRR  500 (509)
+T ss_pred             HHHHHH
+
+
+No 10
+>5WVN_A Maltose-binding periplasmic protein,Two-component system sensor; BaeS, sensor domain, Indole, two; HET: SO4; 2.8A {Escherichia coli}
+Probab=4.82  E-value=7.5e+02  Score=11.13  Aligned_cols=6  Identities=33%  Similarity=0.734  Sum_probs=0.0  Template_Neff=9.700
+
+Q QKQQKQ            1 QKQQKQ    6 (6)
+Q Consensus         1 qkqqkq    6 (6)
+                      |+||.+
+T Consensus       495 ~~~~~~  500 (509)
+T 5WVN_A          495 DRQQRR  500 (509)
+T ss_pred             HHHHHH
+
+

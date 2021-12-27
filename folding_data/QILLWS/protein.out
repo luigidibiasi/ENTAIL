@@ -1,0 +1,150 @@
+Query         QILLWS
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 08:16:34 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QILLWS/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QILLWS/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6NE9_A Bifunctional GH43-CE pr  53.5      12 0.00013   15.2   0.0    6    1-6       4-9   (382)
+  2 2R41_C Uncharacterized protein  22.4      85 0.00094   12.6   0.0    6    1-6      29-34  (110)
+  3 2Z2B_A Dihydroorotase (E.C.3.5  21.9      88 0.00098   12.7   0.0    6    1-6     329-334 (337)
+  4 5T58_D KLLA0F02343p, KLLA0E058  19.4 1.1E+02  0.0012   14.0   0.0    6    1-6      33-38  (250)
+  5 6YSL_A Motility protein A, Mot  18.8 1.1E+02  0.0013   12.5   0.0    5    2-6      34-38  (261)
+  6 2R41_D Uncharacterized protein  15.6 1.5E+02  0.0017   11.9   0.0    6    1-6      29-34  (110)
+  7 6FWY_B Collagen Adhesion prote  14.5 1.7E+02  0.0019   12.3   0.0    5    1-5     107-111 (280)
+  8 6FWY_C Collagen Adhesion prote  14.5 1.7E+02  0.0019   12.3   0.0    5    1-5     107-111 (280)
+  9 4L53_A Mitogen-activated prote  14.4 1.7E+02  0.0019   11.4   0.0    5    2-6     299-303 (307)
+ 10 2GO5_1 signal receptor protein  13.7 1.8E+02   0.002   12.5   0.0    5    2-6      22-26  (185)
+
+No 1
+>6NE9_A Bifunctional GH43-CE protein; carbohydrate esterase family 1, HYDROLASE; HET: EDO, MSE, PEG; 1.738A {Bacteroides intestinalis}
+Probab=53.52  E-value=12  Score=15.17  Aligned_cols=6  Identities=83%  Similarity=1.614  Sum_probs=0.0  Template_Neff=10.500
+
+Q QILLWS            1 QILLWS    6 (6)
+Q Consensus         1 qillws    6 (6)
+                      |||+||
+T Consensus         4 ~~~~~~    9 (382)
+T 6NE9_A            4 QILFWS    9 (382)
+T ss_dssp             ------
+T ss_pred             hHHHHH
+Confidence            567775
+
+
+No 2
+>2R41_C Uncharacterized protein; alpha-beta structure, Structural Genomics, PSI-2; 2.9A {Enterococcus faecalis}
+Probab=22.41  E-value=85  Score=12.57  Aligned_cols=6  Identities=17%  Similarity=0.396  Sum_probs=2.9  Template_Neff=6.500
+
+Q QILLWS            1 QILLWS    6 (6)
+Q Consensus         1 qillws    6 (6)
+                      |.++|+
+T Consensus        29 q~~lW~   34 (110)
+T 2R41_C           29 IDSIWL   34 (110)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            345563
+
+
+No 3
+>2Z2B_A Dihydroorotase (E.C.3.5.2.3); TIM barrel, hydrolase; HET: KCX; 1.85A {Escherichia coli}
+Probab=21.88  E-value=88  Score=12.68  Aligned_cols=6  Identities=33%  Similarity=0.949  Sum_probs=3.3  Template_Neff=10.300
+
+Q QILLWS            1 QILLWS    6 (6)
+Q Consensus         1 qillws    6 (6)
+                      |++-||
+T Consensus       329 ~~~~~~  334 (337)
+T 2Z2B_A          329 ETVRWS  334 (337)
+T ss_dssp             CEEEEE
+T ss_pred             CccccE
+Confidence            455665
+
+
+No 4
+>5T58_D KLLA0F02343p, KLLA0E05809p, KLLA0D15741p, KLLA0C15939p; cell cycle, kinetochore, complex, chromosome; 3.2131A {Kluyveromyces lactis (strain ATCC 8585 / CBS 2359 / DSM 70799 / NBRC 1267 / NRRL Y-1140 / WM37)}
+Probab=19.42  E-value=1.1e+02  Score=14.05  Aligned_cols=6  Identities=33%  Similarity=1.088  Sum_probs=0.0  Template_Neff=6.100
+
+Q QILLWS            1 QILLWS    6 (6)
+Q Consensus         1 qillws    6 (6)
+                      |+|.|.
+T Consensus        33 QLl~WC   38 (250)
+T 5T58_D           33 QLMNWC   38 (250)
+T ss_pred             HHHHHH
+
+
+No 5
+>6YSL_A Motility protein A, Motility protein; Stator Flagellar rotation ion driven;{Bacillus subtilis (strain 168)}
+Probab=18.75  E-value=1.1e+02  Score=12.50  Aligned_cols=5  Identities=40%  Similarity=0.999  Sum_probs=0.0  Template_Neff=9.200
+
+Q QILLWS            2 ILLWS    6 (6)
+Q Consensus         2 illws    6 (6)
+                      |+|||
+T Consensus        34 vlL~s   38 (261)
+T 6YSL_A           34 IVLYA   38 (261)
+T ss_pred             HHHHH
+
+
+No 6
+>2R41_D Uncharacterized protein; alpha-beta structure, Structural Genomics, PSI-2; HET: MSE; 2.9A {Enterococcus faecalis}
+Probab=15.64  E-value=1.5e+02  Score=11.93  Aligned_cols=6  Identities=17%  Similarity=0.396  Sum_probs=0.0  Template_Neff=6.400
+
+Q QILLWS            1 QILLWS    6 (6)
+Q Consensus         1 qillws    6 (6)
+                      |.++|+
+T Consensus        29 q~~lW~   34 (110)
+T 2R41_D           29 IDSIWL   34 (110)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 7
+>6FWY_B Collagen Adhesion protein; LPXTG-anchored, surface protein, thioester domain; HET: PG4; 2.14A {Enterococcus faecium}
+Probab=14.52  E-value=1.7e+02  Score=12.31  Aligned_cols=5  Identities=40%  Similarity=1.292  Sum_probs=0.0  Template_Neff=8.900
+
+Q QILLWS            1 QILLW    5 (6)
+Q Consensus         1 qillw    5 (6)
+                      |+.+|
+T Consensus       107 Q~aIW  111 (280)
+T 6FWY_B          107 QLVSW  111 (280)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 8
+>6FWY_C Collagen Adhesion protein; LPXTG-anchored, surface protein, thioester domain; HET: PG4; 2.14A {Enterococcus faecium}
+Probab=14.52  E-value=1.7e+02  Score=12.31  Aligned_cols=5  Identities=40%  Similarity=1.292  Sum_probs=0.0  Template_Neff=8.900
+
+Q QILLWS            1 QILLW    5 (6)
+Q Consensus         1 qillw    5 (6)
+                      |+.+|
+T Consensus       107 Q~aIW  111 (280)
+T 6FWY_C          107 QLVSW  111 (280)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 9
+>4L53_A Mitogen-activated protein kinase kinase kinase; TAK1 kinase, TRANSFERASE-TRANSFERASE INHIBITOR complex; HET: 1UO; 2.55A {Homo sapiens}
+Probab=14.37  E-value=1.7e+02  Score=11.42  Aligned_cols=5  Identities=60%  Similarity=1.165  Sum_probs=0.0  Template_Neff=10.900
+
+Q QILLWS            2 ILLWS    6 (6)
+Q Consensus         2 illws    6 (6)
+                      ++|||
+T Consensus       299 ~~~~~  303 (307)
+T 4L53_A          299 YRLWS  303 (307)
+T ss_dssp             HHHHH
+T ss_pred             HHHHh
+
+
+No 10
+>2GO5_1 signal receptor proteins/RNA Complex; SR, SRP, RIBOSOME, TRANSLATION-RNA COMPLEX; 7.4A {Canis sp.} SCOP: d.110.4.4
+Probab=13.69  E-value=1.8e+02  Score=12.47  Aligned_cols=5  Identities=40%  Similarity=1.524  Sum_probs=0.0  Template_Neff=6.800
+
+Q QILLWS            2 ILLWS    6 (6)
+Q Consensus         2 illws    6 (6)
+                      ++||+
+T Consensus        22 ~VLW~   26 (185)
+T 2GO5_1           22 LVLWC   26 (185)
+T ss_pred             EEEEE
+
+

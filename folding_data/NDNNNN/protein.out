@@ -1,0 +1,149 @@
+Query         NDNNNN
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 23:15:02 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NDNNNN/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NDNNNN/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4EIB_B Glucoamylase; BETA BARR   5.6 6.1E+02  0.0068    9.9   0.0    4    2-5       7-10  (109)
+  2 1NEI_B hypothetical protein yo   5.3 6.6E+02  0.0073   10.5   0.0    4    3-6      12-15  (60)
+  3 5VK3_A Polycomb Protein EED, H   5.2 6.8E+02  0.0075   11.5   0.0    6    1-6     478-483 (605)
+  4 7PMK_X Genome stability, DNA r   5.2 6.8E+02  0.0075   14.3   0.0    6    1-6    1158-1163(1238)
+  5 5WFC_A Histone-lysine-N-methyl   5.2 6.8E+02  0.0075   11.5   0.0    6    1-6     478-483 (605)
+  6 4XPM_B Meh1, Ycr075w, SLM4; EG   5.0 7.1E+02  0.0078   10.5   0.0    5    2-6      17-21  (76)
+  7 6JWP_D GTP-binding protein GTR   5.0 7.1E+02  0.0079   10.4   0.0    5    2-6      16-20  (75)
+  8 2EEF_A Protein phosphatase 1,    4.8 7.5E+02  0.0083   10.5   0.0    5    2-6     126-130 (156)
+  9 4EV1_A Anabena Tic22; Tic22 fo   4.4 8.4E+02  0.0092   10.8   0.0    6    1-6     233-238 (252)
+ 10 6EKC_N8 Ribulose bisphosphate    4.4 8.5E+02  0.0094    8.7   0.0    4    3-6       4-7   (81)
+
+No 1
+>4EIB_B Glucoamylase; BETA BARREL, Starch Binding, Amylose; HET: NA, SO4, CL; 1.86A {Rhizopus oryzae}
+Probab=5.64  E-value=6.1e+02  Score=9.89  Aligned_cols=4  Identities=100%  Similarity=1.340  Sum_probs=0.0  Template_Neff=7.200
+
+Q NDNNNN            2 DNNN    5 (6)
+Q Consensus         2 dnnn    5 (6)
+                      |||+
+T Consensus         7 dnN~   10 (109)
+T 4EIB_B            7 DNNN   10 (109)
+T ss_dssp             CCTT
+T ss_pred             cCCC
+
+
+No 2
+>1NEI_B hypothetical protein yoaG; Alpha/Beta protein, homodimer, OCSP, NESG; NMR {Escherichia coli} SCOP: d.253.1.1
+Probab=5.30  E-value=6.6e+02  Score=10.50  Aligned_cols=4  Identities=75%  Similarity=1.024  Sum_probs=0.0  Template_Neff=2.300
+
+Q NDNNNN            3 NNNN    6 (6)
+Q Consensus         3 nnnn    6 (6)
+                      ||||
+T Consensus        12 NnnN   15 (60)
+T 1NEI_B           12 NNSN   15 (60)
+T ss_dssp             ETTT
+T ss_pred             eCCC
+
+
+No 3
+>5VK3_A Polycomb Protein EED, Histone-lysine N-methyltransferase; transferase; 2.114A {Chaetomium thermophilum}
+Probab=5.20  E-value=6.8e+02  Score=11.50  Aligned_cols=6  Identities=83%  Similarity=1.177  Sum_probs=0.0  Template_Neff=9.800
+
+Q NDNNNN            1 NDNNNN    6 (6)
+Q Consensus         1 ndnnnn    6 (6)
+                      |.||||
+T Consensus       478 ~~~~~~  483 (605)
+T 5VK3_A          478 NNNNNN  483 (605)
+T ss_dssp             ------
+T ss_pred             ccCcCC
+
+
+No 4
+>7PMK_X Genome stability, DNA replication, Ubiquitination; HET: ANP; 3.2A {Saccharomyces cerevisiae}
+Probab=5.19  E-value=6.8e+02  Score=14.27  Aligned_cols=6  Identities=83%  Similarity=1.177  Sum_probs=0.0  Template_Neff=6.500
+
+Q NDNNNN            1 NDNNNN    6 (6)
+Q Consensus         1 ndnnnn    6 (6)
+                      |.||||
+T Consensus      1158 ~~~~~~ 1163 (1238)
+T 7PMK_X         1158 NNNNNN 1163 (1238)
+T ss_dssp             ------
+T ss_pred             CCCCCC
+
+
+No 5
+>5WFC_A Histone-lysine-N-methyltransferase EZH2, Polycomb protein SUZ12; transferase, inhibitor, complex, epigenetics, TRANSFERASE-TRANSFERASE; HET: M3L, A97; 2.282A {Chaetomium thermophilum (strain DSM 1495 / CBS 144.50 / IMI 039719)}
+Probab=5.18  E-value=6.8e+02  Score=11.50  Aligned_cols=6  Identities=83%  Similarity=1.177  Sum_probs=0.0  Template_Neff=9.800
+
+Q NDNNNN            1 NDNNNN    6 (6)
+Q Consensus         1 ndnnnn    6 (6)
+                      |.||||
+T Consensus       478 ~~~~~~  483 (605)
+T 5WFC_A          478 NNNNNN  483 (605)
+T ss_dssp             ------
+T ss_pred             ccCcCC
+
+
+No 6
+>4XPM_B Meh1, Ycr075w, SLM4; EGO complex, Ego1, Ego2, Ego3; 2.4A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=5.03  E-value=7.1e+02  Score=10.45  Aligned_cols=5  Identities=40%  Similarity=0.707  Sum_probs=0.0  Template_Neff=3.700
+
+Q NDNNNN            2 DNNNN    6 (6)
+Q Consensus         2 dnnnn    6 (6)
+                      |.|+|
+T Consensus        17 Den~n   21 (76)
+T 4XPM_B           17 DTHGN   21 (76)
+T ss_dssp             ETTSC
+T ss_pred             CCCCC
+
+
+No 7
+>6JWP_D GTP-binding protein GTR1, GTP-binding protein; EGOC, roadblock domain, Gtr1, TORC1; HET: GNP; 3.2A {Saccharomyces cerevisiae S288c}
+Probab=5.00  E-value=7.1e+02  Score=10.42  Aligned_cols=5  Identities=40%  Similarity=0.707  Sum_probs=0.0  Template_Neff=3.700
+
+Q NDNNNN            2 DNNNN    6 (6)
+Q Consensus         2 dnnnn    6 (6)
+                      |.|+|
+T Consensus        16 Den~n   20 (75)
+T 6JWP_D           16 DTHGN   20 (75)
+T ss_dssp             CSSSC
+T ss_pred             CCCCC
+
+
+No 8
+>2EEF_A Protein phosphatase 1, regulatory (Inhibitor); CBM_21 domain, carbohydrate binding domain; NMR {Homo sapiens}
+Probab=4.81  E-value=7.5e+02  Score=10.55  Aligned_cols=5  Identities=40%  Similarity=0.674  Sum_probs=0.0  Template_Neff=6.500
+
+Q NDNNNN            2 DNNNN    6 (6)
+Q Consensus         2 dnnnn    6 (6)
+                      |||+.
+T Consensus       126 DNN~G  130 (156)
+T 2EEF_A          126 DSNRG  130 (156)
+T ss_dssp             ESGGG
+T ss_pred             ECCCC
+
+
+No 9
+>4EV1_A Anabena Tic22; Tic22 fold, chaperon, protein transport; HET: NHE, EDO; 1.95A {Anabaena sp.}
+Probab=4.41  E-value=8.4e+02  Score=10.84  Aligned_cols=6  Identities=83%  Similarity=1.038  Sum_probs=0.0  Template_Neff=7.400
+
+Q NDNNNN            1 NDNNNN    6 (6)
+Q Consensus         1 ndnnnn    6 (6)
+                      +.||||
+T Consensus       233 ~~~~~~  238 (252)
+T 4EV1_A          233 NRNNNN  238 (252)
+T ss_dssp             ------
+T ss_pred             CCCCCC
+
+
+No 10
+>6EKC_N8 Ribulose bisphosphate carboxylase large chain; zinc finger, assembly chaperone, assembly; HET: ZN; 2.63A {Thermosynechococcus elongatus (strain BP-1)}
+Probab=4.35  E-value=8.5e+02  Score=8.72  Aligned_cols=4  Identities=75%  Similarity=0.875  Sum_probs=0.0  Template_Neff=7.900
+
+Q NDNNNN            3 NNNN    6 (6)
+Q Consensus         3 nnnn    6 (6)
+                      ||+|
+T Consensus         4 ~~~~    7 (81)
+T 6EKC_N8           4 NNNP    7 (81)
+T ss_pred             CCCC
+
+

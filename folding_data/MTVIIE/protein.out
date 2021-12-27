@@ -1,0 +1,150 @@
+Query         MTVIIE
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 22:34:24 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/MTVIIE/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/MTVIIE/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4AAI_A ORF E73; VIRAL PROTEIN,  20.2   1E+02  0.0011   13.3   0.0    6    1-6      35-40  (73)
+  2 5NYP_A Anbu; Ntn-hydrolase-fol  16.3 1.4E+02  0.0016   12.3   0.0    5    1-5       1-5   (244)
+  3 4MAK_B CRISPR-associated endor  14.7 1.7E+02  0.0018   12.1   0.0    5    1-5       3-7   (94)
+  4 5DQZ_F CRISPR-associated endon  14.7 1.7E+02  0.0018   12.1   0.0    5    1-5       3-7   (94)
+  5 3H4P_n Proteasome subunit alph  14.6 1.7E+02  0.0018   11.5   0.0    5    1-5       1-5   (219)
+  6 1XYH_A cyclophilin-like protei  14.0 1.8E+02   0.002   11.1   0.0    6    1-6       1-6   (161)
+  7 2OK3_A Peptidyl-prolyl cis-tra  14.0 1.8E+02   0.002   11.1   0.0    6    1-6       1-6   (161)
+  8 6QM7_Y Proteasome alpha1 chain  13.8 1.8E+02   0.002   11.2   0.0    5    1-5       2-6   (206)
+  9 5C74_A Protein arginine N-meth  13.3 1.9E+02  0.0021   13.3   0.0    6    1-6       1-6   (212)
+ 10 2NYS_B AGR_C_3712; AGR_C_3712,  12.2 2.2E+02  0.0024   13.4   0.0    6    1-6      64-69  (176)
+
+No 1
+>4AAI_A ORF E73; VIRAL PROTEIN, EXTREMOPHILE, ARCHAEA, RIBBON-HELIX-HELIX; NMR {SULFOLOBUS VIRUS RAGGED HILLS}
+Probab=20.23  E-value=1e+02  Score=13.33  Aligned_cols=6  Identities=83%  Similarity=0.916  Sum_probs=2.9  Template_Neff=1.100
+
+Q MTVIIE            1 MTVIIE    6 (6)
+Q Consensus         1 mtviie    6 (6)
+                      ||-|||
+T Consensus        35 mteiie   40 (73)
+T 4AAI_A           35 MTEIIE   40 (73)
+T ss_dssp             HHHHHH
+T ss_pred             hHHHHH
+Confidence            444554
+
+
+No 2
+>5NYP_A Anbu; Ntn-hydrolase-fold, proteasome, evolution, hydrolase; HET: PO4; 1.9A {Hyphomicrobium sp. (strain MC1)}
+Probab=16.28  E-value=1.4e+02  Score=12.26  Aligned_cols=5  Identities=40%  Similarity=0.534  Sum_probs=0.0  Template_Neff=8.900
+
+Q MTVIIE            1 MTVII    5 (6)
+Q Consensus         1 mtvii    5 (6)
+                      ||.+|
+T Consensus         1 MT~ii    5 (244)
+T 5NYP_A            1 MTYAV    5 (244)
+T ss_dssp             -CEEE
+T ss_pred             CeEEE
+
+
+No 3
+>4MAK_B CRISPR-associated endoribonuclease Cas2 (E.C.3.1.-.-); CAS2, CRISPR, MCSG, PSI-BIOLOGY, Structural; 1.1A {Escherichia coli}
+Probab=14.67  E-value=1.7e+02  Score=12.10  Aligned_cols=5  Identities=40%  Similarity=0.840  Sum_probs=0.0  Template_Neff=5.100
+
+Q MTVIIE            1 MTVII    5 (6)
+Q Consensus         1 mtvii    5 (6)
+                      |+||+
+T Consensus         3 m~Viv    7 (94)
+T 4MAK_B            3 MLVVV    7 (94)
+T ss_dssp             EEEEE
+T ss_pred             eEEEE
+
+
+No 4
+>5DQZ_F CRISPR-associated endonuclease Cas1, CRISPR-associated endoribonuclease; protein-DNA complex, HYDROLASE-DNA complex; 2.7A {Escherichia coli K12}
+Probab=14.67  E-value=1.7e+02  Score=12.10  Aligned_cols=5  Identities=40%  Similarity=0.840  Sum_probs=0.0  Template_Neff=5.100
+
+Q MTVIIE            1 MTVII    5 (6)
+Q Consensus         1 mtvii    5 (6)
+                      |+||+
+T Consensus         3 m~Viv    7 (94)
+T 5DQZ_F            3 MLVVV    7 (94)
+T ss_dssp             EEEEE
+T ss_pred             eEEEE
+
+
+No 5
+>3H4P_n Proteasome subunit alpha (E.C.3.4.25.1), Proteasome; 20S, Proteasome, core particle, Hydrolase; 4.1A {Methanocaldococcus jannaschii}
+Probab=14.60  E-value=1.7e+02  Score=11.46  Aligned_cols=5  Identities=40%  Similarity=0.620  Sum_probs=0.0  Template_Neff=9.700
+
+Q MTVIIE            1 MTVII    5 (6)
+Q Consensus         1 mtvii    5 (6)
+                      ||.+|
+T Consensus         1 Mt~vi    5 (219)
+T 3H4P_n            1 MTTTV    5 (219)
+T ss_pred             CceEE
+
+
+No 6
+>1XYH_A cyclophilin-like protein PPIL3b (E.C.5.2.1.8); cyclophilin J, beta-barrel, helix, disulfide; 2.6A {Homo sapiens} SCOP: b.62.1.1
+Probab=14.04  E-value=1.8e+02  Score=11.09  Aligned_cols=6  Identities=33%  Similarity=0.656  Sum_probs=0.0  Template_Neff=9.200
+
+Q MTVIIE            1 MTVIIE    6 (6)
+Q Consensus         1 mtviie    6 (6)
+                      |.|.++
+T Consensus         1 m~v~~~    6 (161)
+T 1XYH_A            1 MSVTLH    6 (161)
+T ss_dssp             CEEEEE
+T ss_pred             CEEEEE
+
+
+No 7
+>2OK3_A Peptidyl-prolyl cis-trans isomerase-like 3 (E.C.5.2.1.8); beta-barrel, helix, disulfide bridge, ISOMERASE; 2.0A {Homo sapiens} SCOP: b.62.1.1
+Probab=14.04  E-value=1.8e+02  Score=11.09  Aligned_cols=6  Identities=33%  Similarity=0.656  Sum_probs=0.0  Template_Neff=9.200
+
+Q MTVIIE            1 MTVIIE    6 (6)
+Q Consensus         1 mtviie    6 (6)
+                      |.|.++
+T Consensus         1 m~v~~~    6 (161)
+T 2OK3_A            1 MSVTLH    6 (161)
+T ss_dssp             CEEEEE
+T ss_pred             CEEEEE
+
+
+No 8
+>6QM7_Y Proteasome alpha1 chain, Proteasome alpha2; Proteasome 20S subunit, hydrolase; HET: J6E; 2.8A {Leishmania tarentolae}
+Probab=13.79  E-value=1.8e+02  Score=11.20  Aligned_cols=5  Identities=20%  Similarity=0.162  Sum_probs=0.0  Template_Neff=9.800
+
+Q MTVIIE            1 MTVII    5 (6)
+Q Consensus         1 mtvii    5 (6)
+                      ||.+|
+T Consensus         2 Mt~vi    6 (206)
+T 6QM7_Y            2 AETAI    6 (206)
+T ss_dssp             CSCEE
+T ss_pred             CceEE
+
+
+No 9
+>5C74_A Protein arginine N-methyltransferase SFM1 (E.C.2.1.1.-); Protein arginine methyltransferase, Binging seites; HET: SO4; 1.9A {Saccharomyces cerevisiae}
+Probab=13.26  E-value=1.9e+02  Score=13.34  Aligned_cols=6  Identities=67%  Similarity=0.827  Sum_probs=0.0  Template_Neff=5.300
+
+Q MTVIIE            1 MTVIIE    6 (6)
+Q Consensus         1 mtviie    6 (6)
+                      |+.|||
+T Consensus         1 ~~yiIE    6 (212)
+T 5C74_A            1 MKYIIE    6 (212)
+T ss_dssp             CEEEEE
+T ss_pred             CeEEEe
+
+
+No 10
+>2NYS_B AGR_C_3712; AGR_C_3712, SspB, Stringent starvation protein; HET: MSE; 2.7A {Agrobacterium tumefaciens str. C58} SCOP: b.136.1.2
+Probab=12.17  E-value=2.2e+02  Score=13.36  Aligned_cols=6  Identities=50%  Similarity=1.038  Sum_probs=0.0  Template_Neff=4.000
+
+Q MTVIIE            1 MTVIIE    6 (6)
+Q Consensus         1 mtviie    6 (6)
+                      ||+++.
+T Consensus        64 MTIVLQ   69 (176)
+T 2NYS_B           64 MTIVIQ   69 (176)
+T ss_dssp             EECCBC
+T ss_pred             cEEEEE
+
+

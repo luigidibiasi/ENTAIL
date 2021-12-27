@@ -1,0 +1,148 @@
+Query         FQIVYK
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 21:46:25 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/FQIVYK/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/FQIVYK/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4WJ7_A CCM2 Phosphotyrosine Bi  31.4      46 0.00051   14.6   0.0    6    1-6     169-174 (180)
+  2 3HFO_B Ssr3341 protein; HFQ, S  13.3 1.9E+02  0.0021   10.9   0.0    5    2-6      56-60  (70)
+  3 1MAI_A PHOSPHOLIPASE C DELTA-1  13.0   2E+02  0.0022   10.2   0.0    6    1-6      88-93  (131)
+  4 1Z9B_A Translation initiation   12.4 2.1E+02  0.0023   12.0   0.0    6    1-6     121-126 (135)
+  5 4MML_A Protein hfq; LSM fold,   12.1 2.2E+02  0.0024   11.2   0.0    5    2-6      52-56  (82)
+  6 6SG9_FI ?; mitochondrial ribos  11.7 2.3E+02  0.0025   15.4   0.0    6    1-6      39-44  (445)
+  7 2HDE_A Histone deacetylase com  11.6 2.3E+02  0.0026   12.3   0.0    5    1-5      88-92  (148)
+  8 6SGB_FI uS5m, Uncharacterized   11.6 2.3E+02  0.0026   15.4   0.0    6    1-6      39-44  (445)
+  9 3OTP_K Protease do (E.C.3.4.21  11.1 2.5E+02  0.0027    9.5   0.0    3    1-3      42-44  (44)
+ 10 3QVC_A Histo-aspartic protease  11.0 2.5E+02  0.0028   12.8   0.0    5    1-5      38-42  (451)
+
+No 1
+>4WJ7_A CCM2 Phosphotyrosine Binding (PTB) Domain; Complex, PTB domain, NPxY motif; 2.753A {Homo sapiens}
+Probab=31.37  E-value=46  Score=14.60  Aligned_cols=6  Identities=67%  Similarity=1.337  Sum_probs=3.5  Template_Neff=5.900
+
+Q FQIVYK            1 FQIVYK    6 (6)
+Q Consensus         1 fqivyk    6 (6)
+                      ||++|+
+T Consensus       169 F~vay~  174 (180)
+T 4WJ7_A          169 FQVVYT  174 (180)
+T ss_dssp             HHHCC-
+T ss_pred             HHHHHH
+Confidence            677764
+
+
+No 2
+>3HFO_B Ssr3341 protein; HFQ, SM, RNA-BINDING PROTEIN, SRNA; 1.3A {Synechocystis sp. PCC 6803}
+Probab=13.26  E-value=1.9e+02  Score=10.93  Aligned_cols=5  Identities=40%  Similarity=0.235  Sum_probs=0.0  Template_Neff=6.100
+
+Q FQIVYK            2 QIVYK    6 (6)
+Q Consensus         2 qivyk    6 (6)
+                      |++||
+T Consensus        56 ~lIyK   60 (70)
+T 3HFO_B           56 TIVRL   60 (70)
+T ss_dssp             EEEEG
+T ss_pred             EEEEe
+
+
+No 3
+>1MAI_A PHOSPHOLIPASE C DELTA-1, D-MYO-INOSITOL-1,4,5-TRIPHOSPHATE; PLECKSTRIN, PHOSPHOLIPASE, INOSITOL TRISPHOSPHATE, SIGNAL; HET: I3P; 1.9A {Rattus norvegicus} SCOP: b.55.1.1
+Probab=12.99  E-value=2e+02  Score=10.23  Aligned_cols=6  Identities=67%  Similarity=1.270  Sum_probs=0.0  Template_Neff=9.900
+
+Q FQIVYK            1 FQIVYK    6 (6)
+Q Consensus         1 fqivyk    6 (6)
+                      |.|+|.
+T Consensus        88 fsI~~~   93 (131)
+T 1MAI_A           88 FSIVFK   93 (131)
+T ss_dssp             EEEEES
+T ss_pred             EEEEEC
+
+
+No 4
+>1Z9B_A Translation initiation factor IF-2; protein synthesis translation intiation IF2; NMR {Geobacillus stearothermophilus}
+Probab=12.44  E-value=2.1e+02  Score=11.99  Aligned_cols=6  Identities=33%  Similarity=0.949  Sum_probs=0.0  Template_Neff=6.200
+
+Q FQIVYK            1 FQIVYK    6 (6)
+Q Consensus         1 fqivyk    6 (6)
+                      |.|+|+
+T Consensus       121 ~~IIY~  126 (135)
+T 1Z9B_A          121 HRIIYN  126 (135)
+T ss_dssp             CTTCCC
+T ss_pred             cchHHH
+
+
+No 5
+>4MML_A Protein hfq; LSM fold, RNA BINDING PROTEIN; HET: U; 1.801A {Pseudomonas aeruginosa}
+Probab=12.06  E-value=2.2e+02  Score=11.20  Aligned_cols=5  Identities=80%  Similarity=1.305  Sum_probs=0.0  Template_Neff=5.800
+
+Q FQIVYK            2 QIVYK    6 (6)
+Q Consensus         2 qivyk    6 (6)
+                      +++||
+T Consensus        52 ~lIyK   56 (82)
+T 4MML_A           52 QMVYK   56 (82)
+T ss_dssp             EEEEG
+T ss_pred             EEEEe
+
+
+No 6
+>6SG9_FI ?; mitochondrial ribosome, assembly intermediate, translation; HET: SAH, GTP; 3.1A {Trypanosoma brucei brucei}
+Probab=11.73  E-value=2.3e+02  Score=15.44  Aligned_cols=6  Identities=50%  Similarity=1.071  Sum_probs=0.0  Template_Neff=2.500
+
+Q FQIVYK            1 FQIVYK    6 (6)
+Q Consensus         1 fqivyk    6 (6)
+                      .||+|+
+T Consensus        39 Lqi~YR   44 (445)
+T 6SG9_FI          39 LQIAYR   44 (445)
+T ss_pred             HHHHcc
+
+
+No 7
+>2HDE_A Histone deacetylase complex subunit SAP18; HDAC, histone deacetylase, Sin3, Gli; NMR {Homo sapiens}
+Probab=11.62  E-value=2.3e+02  Score=12.30  Aligned_cols=5  Identities=60%  Similarity=1.285  Sum_probs=0.0  Template_Neff=5.600
+
+Q FQIVYK            1 FQIVY    5 (6)
+Q Consensus         1 fqivy    5 (6)
+                      |++||
+T Consensus        88 Fr~Vy   92 (148)
+T 2HDE_A           88 FAIVF   92 (148)
+T ss_dssp             EEECC
+T ss_pred             EEEEE
+
+
+No 8
+>6SGB_FI uS5m, Uncharacterized protein, uS8m, uS17m; mitochondrial ribosome, assembly intermediate, translation; HET: GTP, SAH, PM8, UBD; 3.3A {Trypanosoma brucei brucei}
+Probab=11.61  E-value=2.3e+02  Score=15.41  Aligned_cols=6  Identities=50%  Similarity=1.071  Sum_probs=0.0  Template_Neff=2.500
+
+Q FQIVYK            1 FQIVYK    6 (6)
+Q Consensus         1 fqivyk    6 (6)
+                      .||+|+
+T Consensus        39 Lqi~YR   44 (445)
+T 6SGB_FI          39 LQIAYR   44 (445)
+T ss_pred             HHHHcc
+
+
+No 9
+>3OTP_K Protease do (E.C.3.4.21.-)/Lysozyme C (E.C.3.2.1.17); typsin-like protease domain PDZ domains; 3.76A {Escherichia coli}
+Probab=11.08  E-value=2.5e+02  Score=9.47  Aligned_cols=3  Identities=67%  Similarity=0.966  Sum_probs=0.0  Template_Neff=6.800
+
+Q FQIVYK            1 FQI    3 (6)
+Q Consensus         1 fqi    3 (6)
+                      |||
+T Consensus        42 fQI   44 (44)
+T 3OTP_K           42 LQI   44 (44)
+T ss_pred             ccC
+
+
+No 10
+>3QVC_A Histo-aspartic protease; Histo-aspartic protease, HAP, Plasmepsin, Aspartic; HET: EDO; 2.1A {Plasmodium falciparum}
+Probab=11.04  E-value=2.5e+02  Score=12.78  Aligned_cols=5  Identities=40%  Similarity=1.291  Sum_probs=0.0  Template_Neff=8.700
+
+Q FQIVYK            1 FQIVY    5 (6)
+Q Consensus         1 fqivy    5 (6)
+                      |||.|
+T Consensus        38 ~~~~~   42 (451)
+T 3QVC_A           38 FKILF   42 (451)
+T ss_dssp             -----
+T ss_pred             HHHHH
+
+

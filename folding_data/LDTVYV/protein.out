@@ -1,0 +1,150 @@
+Query         LDTVYV
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 17:52:54 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LDTVYV/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LDTVYV/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4D5T_E PROTEIN A49R; VIRAL PRO   9.8   3E+02  0.0033   13.3   0.0    6    1-6      54-59  (160)
+  2 4D5T_G PROTEIN A49R; VIRAL PRO   9.8   3E+02  0.0033   13.3   0.0    6    1-6      54-59  (160)
+  3 1HCU_B ALPHA-1,2-MANNOSIDASE (   9.7   3E+02  0.0033   13.1   0.0    6    1-6      62-67  (503)
+  4 2P5M_A Arginine repressor; alp   9.6   3E+02  0.0034   10.4   0.0    5    2-6      60-64  (83)
+  5 5Z8N_C Probable lysine-specifi   9.4 3.1E+02  0.0034   10.6   0.0    5    2-6      35-39  (199)
+  6 2WNV_E COMPLEMENT C1Q SUBCOMPO   9.0 3.3E+02  0.0036   10.0   0.0    5    2-6     103-107 (136)
+  7 2J58_F OUTER MEMBRANE LIPOPROT   9.0 3.3E+02  0.0037   12.3   0.0    5    2-6     318-322 (359)
+  8 2R2O_A Plexin-B1; Plexin, effe   8.9 3.3E+02  0.0037   11.6   0.0    5    1-5      61-65  (138)
+  9 4AYO_A MANNOSYL-OLIGOSACCHARID   8.9 3.4E+02  0.0037   12.9   0.0    6    1-6      63-68  (447)
+ 10 6WJP_A Arginine repressor; enz   8.8 3.4E+02  0.0038   10.4   0.0    5    2-6      57-61  (83)
+
+No 1
+>4D5T_E PROTEIN A49R; VIRAL PROTEIN, POX VIRUS, B; HET: SO4; 1.84A {VACCINIA VIRUS}
+Probab=9.78  E-value=3e+02  Score=13.35  Aligned_cols=6  Identities=83%  Similarity=1.243  Sum_probs=0.0  Template_Neff=1.700
+
+Q LDTVYV            1 LDTVYV    6 (6)
+Q Consensus         1 ldtvyv    6 (6)
+                      |||||.
+T Consensus        54 Ldtvyi   59 (160)
+T 4D5T_E           54 LDTVYT   59 (160)
+T ss_dssp             HHHHHH
+T ss_pred             HhHHHH
+
+
+No 2
+>4D5T_G PROTEIN A49R; VIRAL PROTEIN, POX VIRUS, B; HET: SO4; 1.84A {VACCINIA VIRUS}
+Probab=9.78  E-value=3e+02  Score=13.35  Aligned_cols=6  Identities=83%  Similarity=1.243  Sum_probs=0.0  Template_Neff=1.700
+
+Q LDTVYV            1 LDTVYV    6 (6)
+Q Consensus         1 ldtvyv    6 (6)
+                      |||||.
+T Consensus        54 Ldtvyi   59 (160)
+T 4D5T_G           54 LDTVYT   59 (160)
+T ss_dssp             HHHHHH
+T ss_pred             HhHHHH
+
+
+No 3
+>1HCU_B ALPHA-1,2-MANNOSIDASE (E.C.3.2.1.113); GLYCOSYLATION, GLYCOSYL HYDROLASE; HET: NAG; 2.37A {TRICHODERMA REESEI} SCOP: a.102.2.1
+Probab=9.70  E-value=3e+02  Score=13.08  Aligned_cols=6  Identities=50%  Similarity=0.689  Sum_probs=0.0  Template_Neff=8.000
+
+Q LDTVYV            1 LDTVYV    6 (6)
+Q Consensus         1 ldtvyv    6 (6)
+                      |||.|+
+T Consensus        62 LdTL~i   67 (503)
+T 1HCU_B           62 LDTAIL   67 (503)
+T ss_dssp             HHHHHH
+T ss_pred             HhHHHH
+
+
+No 4
+>2P5M_A Arginine repressor; alpha-beta, L-arginine binding domain, DNA; HET: ARG; 1.95A {Bacillus subtilis} SCOP: d.74.2.1
+Probab=9.57  E-value=3e+02  Score=10.45  Aligned_cols=5  Identities=40%  Similarity=0.893  Sum_probs=0.0  Template_Neff=6.700
+
+Q LDTVYV            2 DTVYV    6 (6)
+Q Consensus         2 dtvyv    6 (6)
+                      |||.|
+T Consensus        60 DTVli   64 (83)
+T 2P5M_A           60 DTILI   64 (83)
+T ss_dssp             SEEEE
+T ss_pred             CEEEE
+
+
+No 5
+>5Z8N_C Probable lysine-specific demethylase JMJ14 (E.C.1.14.11.-); EBS, BAH, PHD, H3K4me2, histone; HET: MLY; 3.1A {Arabidopsis thaliana}
+Probab=9.41  E-value=3.1e+02  Score=10.57  Aligned_cols=5  Identities=40%  Similarity=0.614  Sum_probs=0.0  Template_Neff=9.700
+
+Q LDTVYV            2 DTVYV    6 (6)
+Q Consensus         2 dtvyv    6 (6)
+                      |.|+|
+T Consensus        35 D~V~v   39 (199)
+T 5Z8N_C           35 DCVLM   39 (199)
+T ss_dssp             CEEEE
+T ss_pred             CEEEE
+
+
+No 6
+>2WNV_E COMPLEMENT C1Q SUBCOMPONENT SUBUNIT A; IMMUNE SYSTEM, C1Q, SECRETED, COLLAGEN; HET: NAG; 1.25A {HOMO SAPIENS}
+Probab=9.04  E-value=3.3e+02  Score=9.98  Aligned_cols=5  Identities=20%  Similarity=0.899  Sum_probs=0.0  Template_Neff=9.400
+
+Q LDTVYV            2 DTVYV    6 (6)
+Q Consensus         2 dtvyv    6 (6)
+                      |+|++
+T Consensus       103 D~V~v  107 (136)
+T 2WNV_E          103 ENVFL  107 (136)
+T ss_dssp             CEEEE
+T ss_pred             CEEEE
+
+
+No 7
+>2J58_F OUTER MEMBRANE LIPOPROTEIN WZA; MEMBRANE PROTEIN; HET: OCT, HEX, SO4, MSE, SC2; 2.25A {ESCHERICHIA COLI}
+Probab=9.01  E-value=3.3e+02  Score=12.31  Aligned_cols=5  Identities=80%  Similarity=1.245  Sum_probs=0.0  Template_Neff=8.100
+
+Q LDTVYV            2 DTVYV    6 (6)
+Q Consensus         2 dtvyv    6 (6)
+                      |.|||
+T Consensus       318 DvIyV  322 (359)
+T 2J58_F          318 DIVYV  322 (359)
+T ss_dssp             EEEEE
+T ss_pred             CEEEE
+
+
+No 8
+>2R2O_A Plexin-B1; Plexin, effector domain, structural genomics; HET: UNX, MSE; 2.0A {Homo sapiens}
+Probab=8.92  E-value=3.3e+02  Score=11.59  Aligned_cols=5  Identities=60%  Similarity=1.218  Sum_probs=0.0  Template_Neff=5.900
+
+Q LDTVYV            1 LDTVY    5 (6)
+Q Consensus         1 ldtvy    5 (6)
+                      ||.+|
+T Consensus        61 LDaiY   65 (138)
+T 2R2O_A           61 LDQLY   65 (138)
+T ss_dssp             HHHHT
+T ss_pred             HHHHh
+
+
+No 9
+>4AYO_A MANNOSYL-OLIGOSACCHARIDE 1,2-ALPHA-MANNOSIDASE (E.C.3.2.1.113); HYDROLASE, ALPHA-MANNOSIDASE, GLYCOSIDE HYDROLASE, GH47; HET: BTB; 0.85A {CAULOBACTER SP.}
+Probab=8.86  E-value=3.4e+02  Score=12.95  Aligned_cols=6  Identities=50%  Similarity=1.121  Sum_probs=0.0  Template_Neff=7.500
+
+Q LDTVYV            1 LDTVYV    6 (6)
+Q Consensus         1 ldtvyv    6 (6)
+                      |||.|+
+T Consensus        63 LdTL~i   68 (447)
+T 4AYO_A           63 LDTLWI   68 (447)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 10
+>6WJP_A Arginine repressor; enzyme specificity, DNA BINDING PROTEIN; HET: ARG; 1.701A {Corynebacterium pseudotuberculosis (strain C231)}
+Probab=8.80  E-value=3.4e+02  Score=10.40  Aligned_cols=5  Identities=80%  Similarity=1.271  Sum_probs=0.0  Template_Neff=6.500
+
+Q LDTVYV            2 DTVYV    6 (6)
+Q Consensus         2 dtvyv    6 (6)
+                      ||+++
+T Consensus        57 DTIlI   61 (83)
+T 6WJP_A           57 DTVFV   61 (83)
+T ss_dssp             SEEEE
+T ss_pred             CEEEE
+
+

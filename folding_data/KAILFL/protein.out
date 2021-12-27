@@ -1,0 +1,148 @@
+Query         KAILFL
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 10:10:01 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/KAILFL/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/KAILFL/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 1QYI_A hypothetical protein; S  12.9   2E+02  0.0022   13.1   0.0    5    1-5       2-6   (384)
+  2 7B2T_aa Serpin, Inhibitor, Hyd  12.8   2E+02  0.0022    7.8   0.0    6    1-6      20-25  (31)
+  3 3W6J_F ScpA, ScpB; regulatory   12.8   2E+02  0.0022   12.0   0.0    5    2-6      16-20  (184)
+  4 2YRV_A AT-rich interactive dom  12.2 2.2E+02  0.0024   12.3   0.0    6    1-6      88-93  (117)
+  5 3GV3_A CXCL12 protein; SDF, CX  11.5 2.3E+02  0.0026    9.7   0.0    6    1-6      33-38  (63)
+  6 5H66_C Chromosome partition pr  11.5 2.4E+02  0.0026    9.9   0.0    5    2-6      48-52  (80)
+  7 5H67_C Chromosome partition pr  11.5 2.4E+02  0.0026    9.9   0.0    5    2-6      48-52  (80)
+  8 3EWI_B Structural analysis of   11.3 2.4E+02  0.0027   10.1   0.0    5    1-5      10-14  (168)
+  9 2HO4_A Crystal Structure of Pr  11.1 2.5E+02  0.0027   10.4   0.0    5    1-5       8-12  (259)
+ 10 1X42_A hypothetical protein PH  11.0 2.5E+02  0.0028    9.8   0.0    5    1-5       3-7   (232)
+
+No 1
+>1QYI_A hypothetical protein; STRUCTURAL GENOMICS, PSI, Protein Structure; 2.5A {Staphylococcus aureus subsp. aureus} SCOP: c.108.1.13
+Probab=12.86  E-value=2e+02  Score=13.11  Aligned_cols=5  Identities=80%  Similarity=1.185  Sum_probs=0.0  Template_Neff=8.000
+
+Q KAILFL            1 KAILF    5 (6)
+Q Consensus         1 kailf    5 (6)
+                      |.|||
+T Consensus         2 k~ilf    6 (384)
+T 1QYI_A            2 KKILF    6 (384)
+T ss_dssp             CEEEE
+T ss_pred             ceEEE
+
+
+No 2
+>7B2T_aa Serpin, Inhibitor, Hydrolase inhibitor, Ixodes; 1.5A {Ixodes scapularis}
+Probab=12.78  E-value=2e+02  Score=7.79  Aligned_cols=6  Identities=50%  Similarity=0.861  Sum_probs=0.0  Template_Neff=9.400
+
+Q KAILFL            1 KAILFL    6 (6)
+Q Consensus         1 kailfl    6 (6)
+                      +.++|+
+T Consensus        20 ~~~lf~   25 (31)
+T 7B2T_aa          20 KDLLFA   25 (31)
+T ss_pred             CcEEEE
+
+
+No 3
+>3W6J_F ScpA, ScpB; regulatory subcomplex, SMC, winged HTH; 2.6A {Geobacillus stearothermophilus}
+Probab=12.76  E-value=2e+02  Score=12.05  Aligned_cols=5  Identities=60%  Similarity=0.999  Sum_probs=0.0  Template_Neff=7.400
+
+Q KAILFL            2 AILFL    6 (6)
+Q Consensus         2 ailfl    6 (6)
+                      ||||.
+T Consensus        16 A~Lf~   20 (184)
+T 3W6J_F           16 ALLFA   20 (184)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 4
+>2YRV_A AT-rich interactive domain-containing protein 4A; ARID domain-containing protein 4A, Retinoblastoma-binding; NMR {Homo sapiens}
+Probab=12.24  E-value=2.2e+02  Score=12.34  Aligned_cols=6  Identities=67%  Similarity=0.977  Sum_probs=0.0  Template_Neff=4.700
+
+Q KAILFL            1 KAILFL    6 (6)
+Q Consensus         1 kailfl    6 (6)
+                      +|+.|+
+T Consensus        88 ~A~~fl   93 (117)
+T 2YRV_A           88 KASIFL   93 (117)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 5
+>3GV3_A CXCL12 protein; SDF, CXCL12, chemokine, Disulfide bond; 1.6A {Homo sapiens}
+Probab=11.55  E-value=2.3e+02  Score=9.70  Aligned_cols=6  Identities=17%  Similarity=0.191  Sum_probs=0.0  Template_Neff=7.900
+
+Q KAILFL            1 KAILFL    6 (6)
+Q Consensus         1 kailfl    6 (6)
+                      +||+|.
+T Consensus        33 ~aii~~   38 (63)
+T 3GV3_A           33 QIVARL   38 (63)
+T ss_dssp             CEEEEE
+T ss_pred             cEEEEE
+
+
+No 6
+>5H66_C Chromosome partition protein Smc, Segregation; SMC protein, DNA BINDING PROTEIN-CELL; 1.82194772804A {Bacillus subtilis (strain 168)}
+Probab=11.47  E-value=2.4e+02  Score=9.93  Aligned_cols=5  Identities=60%  Similarity=0.640  Sum_probs=0.0  Template_Neff=8.300
+
+Q KAILFL            2 AILFL    6 (6)
+Q Consensus         2 ailfl    6 (6)
+                      |+|+|
+T Consensus        48 alLeL   52 (80)
+T 5H66_C           48 AVLEL   52 (80)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 7
+>5H67_C Chromosome partition protein Smc, Segregation; SMC protein, DNA BINDING PROTEIN-CELL; HET: ATP; 2.07203506543A {Bacillus subtilis (strain 168)}
+Probab=11.47  E-value=2.4e+02  Score=9.93  Aligned_cols=5  Identities=60%  Similarity=0.640  Sum_probs=0.0  Template_Neff=8.300
+
+Q KAILFL            2 AILFL    6 (6)
+Q Consensus         2 ailfl    6 (6)
+                      |+|+|
+T Consensus        48 alLeL   52 (80)
+T 5H67_C           48 AVLEL   52 (80)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 8
+>3EWI_B Structural analysis of the C-terminal; beta barrel, HAD-like, rossmannoid fold; 1.9A {Mus Musculus}
+Probab=11.30  E-value=2.4e+02  Score=10.06  Aligned_cols=5  Identities=20%  Similarity=0.388  Sum_probs=0.0  Template_Neff=10.700
+
+Q KAILFL            1 KAILF    5 (6)
+Q Consensus         1 kailf    5 (6)
+                      |+++|
+T Consensus        10 k~vi~   14 (168)
+T 3EWI_B           10 KLLVC   14 (168)
+T ss_dssp             CEEEE
+T ss_pred             cEEEE
+
+
+No 9
+>2HO4_A Crystal Structure of Protein from; Haloacid dehalogenase-like hydrolase domain containing; HET: MSE, PO4; 2.2A {Mus musculus}
+Probab=11.11  E-value=2.5e+02  Score=10.44  Aligned_cols=5  Identities=60%  Similarity=0.853  Sum_probs=0.0  Template_Neff=11.400
+
+Q KAILFL            1 KAILF    5 (6)
+Q Consensus         1 kailf    5 (6)
+                      |+|+|
+T Consensus         8 k~v~f   12 (259)
+T 2HO4_A            8 KAVLV   12 (259)
+T ss_dssp             CEEEE
+T ss_pred             cEEEE
+
+
+No 10
+>1X42_A hypothetical protein PH0459(E.C.3.8.1.-); haloacid dehalogenase, Structural Genomics, NPPSFA; 2.0A {Pyrococcus horikoshii} SCOP: c.108.1.1
+Probab=10.96  E-value=2.5e+02  Score=9.76  Aligned_cols=5  Identities=40%  Similarity=1.145  Sum_probs=0.0  Template_Neff=12.300
+
+Q KAILFL            1 KAILF    5 (6)
+Q Consensus         1 kailf    5 (6)
+                      |+|+|
+T Consensus         3 ~~vif    7 (232)
+T 1X42_A            3 RAVFF    7 (232)
+T ss_pred             eEEEE
+
+

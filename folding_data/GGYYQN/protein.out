@@ -1,0 +1,149 @@
+Query         GGYYQN
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 01:12:27 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GGYYQN/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GGYYQN/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5MRF_O 54S ribosomal protein R  23.5      78 0.00087   14.4   0.0    6    1-6      45-50  (225)
+  2 7KYC_B Phospholipid-transporti  19.8   1E+02  0.0012   15.0   0.0    5    2-6     181-185 (414)
+  3 6A6Y_A Histone chaperone ASF1,  19.5 1.1E+02  0.0012   13.6   0.0    5    2-6     115-119 (161)
+  4 5UCB_B Fab Heavy Chain, Fab Li  19.3 1.1E+02  0.0012   13.5   0.0    5    2-6     109-113 (153)
+  5 1ZNP_G hypothetical protein At  18.6 1.1E+02  0.0013   13.0   0.0    4    1-4      22-25  (154)
+  6 5ZBB_B DNA damage response pro  18.3 1.2E+02  0.0013   14.0   0.0    5    2-6     144-148 (188)
+  7 5ZBA_B DNA damage response pro  18.1 1.2E+02  0.0013   14.0   0.0    5    2-6     144-148 (188)
+  8 6DZI_I CONSERVED PROTEIN DOMAI  17.9 1.2E+02  0.0014   11.0   0.0    6    1-6     107-112 (126)
+  9 3LOI_A Putative uncharacterize  17.5 1.3E+02  0.0014   12.9   0.0    4    1-4      28-31  (172)
+ 10 3LZZ_B Putative uncharacterize  17.2 1.3E+02  0.0014   12.9   0.0    4    1-4      28-31  (172)
+
+No 1
+>5MRF_O 54S ribosomal protein RML2, mitochondrial; yeast, mitochondrial, ribosome, saccharomyces cerevisiae; HET: MG, GDP; 4.97A {Saccharomyces cerevisiae}
+Probab=23.46  E-value=78  Score=14.40  Aligned_cols=6  Identities=50%  Similarity=1.575  Sum_probs=3.2  Template_Neff=5.800
+
+Q GGYYQN            1 GGYYQN    6 (6)
+Q Consensus         1 ggyyqn    6 (6)
+                      ||+|.|
+T Consensus        45 ~gf~~~   50 (225)
+T 5MRF_O           45 GGFYKK   50 (225)
+T ss_dssp             TSSCCT
+T ss_pred             CCcCCC
+Confidence            466643
+
+
+No 2
+>7KYC_B Phospholipid-transporting ATPase DNF1 (E.C.7.6.2.1), Alkylphosphocholine; P4 ATPase, Phosphatidylcholine Flippases, TRANSLOCASE; HET: POV, NAG, MAN; 2.8A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=19.80  E-value=1e+02  Score=14.95  Aligned_cols=5  Identities=20%  Similarity=0.361  Sum_probs=0.0  Template_Neff=6.300
+
+Q GGYYQN            2 GYYQN    6 (6)
+Q Consensus         2 gyyqn    6 (6)
+                      +||||
+T Consensus       181 NFYQN  185 (414)
+T 7KYC_B          181 KFAAN  185 (414)
+T ss_dssp             SCCCC
+T ss_pred             chhHH
+
+
+No 3
+>6A6Y_A Histone chaperone ASF1, putative; Histone chaperone, Chromatin assembly and; HET: SCN; 2.491A {Plasmodium falciparum}
+Probab=19.48  E-value=1.1e+02  Score=13.63  Aligned_cols=5  Identities=60%  Similarity=1.258  Sum_probs=0.0  Template_Neff=5.200
+
+Q GGYYQN            2 GYYQN    6 (6)
+Q Consensus         2 gyyqn    6 (6)
+                      |||-|
+T Consensus       115 GYyVn  119 (161)
+T 6A6Y_A          115 AYYMN  119 (161)
+T ss_dssp             EEEEE
+T ss_pred             EEEEe
+
+
+No 4
+>5UCB_B Fab Heavy Chain, Fab Light; Antibody, Fab, Asf1, histone chaperone; 1.521A {Homo sapiens}
+Probab=19.28  E-value=1.1e+02  Score=13.46  Aligned_cols=5  Identities=80%  Similarity=1.630  Sum_probs=0.0  Template_Neff=5.300
+
+Q GGYYQN            2 GYYQN    6 (6)
+Q Consensus         2 gyyqn    6 (6)
+                      |||-|
+T Consensus       109 GYyv~  113 (153)
+T 5UCB_B          109 GYYVN  113 (153)
+T ss_pred             EEEEE
+
+
+No 5
+>1ZNP_G hypothetical protein Atu3615; NESG, ATR55, Q8U9W0, Structural Genomics; HET: MSE; 2.5A {Agrobacterium tumefaciens str. C58} SCOP: b.82.1.16
+Probab=18.63  E-value=1.1e+02  Score=12.99  Aligned_cols=4  Identities=75%  Similarity=2.170  Sum_probs=0.0  Template_Neff=6.200
+
+Q GGYYQN            1 GGYY    4 (6)
+Q Consensus         1 ggyy    4 (6)
+                      ||||
+T Consensus        22 GG~f   25 (154)
+T 1ZNP_G           22 GGFY   25 (154)
+T ss_dssp             SSEE
+T ss_pred             CceE
+
+
+No 6
+>5ZBB_B DNA damage response protein Rtt109; Histone, acetylation, chaperone, DNA replication; HET: ALY, IOD; 3.6A {Neosartorya fumigata (strain ATCC MYA-4609 / Af293 / CBS 101355 / FGSC A1100)}
+Probab=18.27  E-value=1.2e+02  Score=14.05  Aligned_cols=5  Identities=80%  Similarity=1.630  Sum_probs=0.0  Template_Neff=4.600
+
+Q GGYYQN            2 GYYQN    6 (6)
+Q Consensus         2 gyyqn    6 (6)
+                      |||.|
+T Consensus       144 GYYVn  148 (188)
+T 5ZBB_B          144 GYYVN  148 (188)
+T ss_dssp             EEEEE
+T ss_pred             EEEEE
+
+
+No 7
+>5ZBA_B DNA damage response protein Rtt109; Histone, acetylation, chaperone, DNA replication; HET: COA, ALY, IOD; 3.5A {Neosartorya fumigata (strain ATCC MYA-4609 / Af293 / CBS 101355 / FGSC A1100)}
+Probab=18.15  E-value=1.2e+02  Score=14.03  Aligned_cols=5  Identities=80%  Similarity=1.630  Sum_probs=0.0  Template_Neff=4.600
+
+Q GGYYQN            2 GYYQN    6 (6)
+Q Consensus         2 gyyqn    6 (6)
+                      |||.|
+T Consensus       144 GYYVn  148 (188)
+T 5ZBA_B          144 GYYVN  148 (188)
+T ss_dssp             EEEEE
+T ss_pred             EEEEE
+
+
+No 8
+>6DZI_I CONSERVED PROTEIN DOMAIN, 30S ribosomal; Hibernation factor complex, RIBOSOME; 3.46A {Mycobacterium smegmatis str. MC2 155}
+Probab=17.87  E-value=1.2e+02  Score=11.00  Aligned_cols=6  Identities=50%  Similarity=1.226  Sum_probs=0.0  Template_Neff=9.300
+
+Q GGYYQN            1 GGYYQN    6 (6)
+Q Consensus         1 ggyyqn    6 (6)
+                      ||++++
+T Consensus       107 gg~~~~  112 (126)
+T 6DZI_I          107 GGYMDG  112 (126)
+T ss_pred             EEEECC
+
+
+No 9
+>3LOI_A Putative uncharacterized protein; Beta barrel, UNKNOWN FUNCTION; 2.1A {Branchiostoma belcheri tsingtauense}
+Probab=17.49  E-value=1.3e+02  Score=12.94  Aligned_cols=4  Identities=50%  Similarity=1.863  Sum_probs=0.0  Template_Neff=6.500
+
+Q GGYYQN            1 GGYY    4 (6)
+Q Consensus         1 ggyy    4 (6)
+                      ||||
+T Consensus        28 GG~f   31 (172)
+T 3LOI_A           28 GGWF   31 (172)
+T ss_dssp             SSEE
+T ss_pred             CceE
+
+
+No 10
+>3LZZ_B Putative uncharacterized protein; beta barrel, UNKNOWN FUNCTION; HET: GDP; 2.5A {Branchiostoma belcheri tsingtauense}
+Probab=17.23  E-value=1.3e+02  Score=12.86  Aligned_cols=4  Identities=50%  Similarity=1.863  Sum_probs=0.0  Template_Neff=6.600
+
+Q GGYYQN            1 GGYY    4 (6)
+Q Consensus         1 ggyy    4 (6)
+                      ||||
+T Consensus        28 GG~f   31 (172)
+T 3LZZ_B           28 GGWF   31 (172)
+T ss_dssp             SEEE
+T ss_pred             CceE
+
+

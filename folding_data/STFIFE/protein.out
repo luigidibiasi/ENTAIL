@@ -1,0 +1,149 @@
+Query         STFIFE
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 17:21:02 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/STFIFE/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/STFIFE/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5KOM_A Putative fluoride ion t  16.1 1.4E+02  0.0016   12.3   0.0    6    1-6      81-86  (147)
+  2 6BQO_B Fluoride ion transporte  15.6 1.5E+02  0.0017   11.8   0.0    6    1-6      83-88  (128)
+  3 6B2A_A Fluoride ion transporte  15.6 1.5E+02  0.0017   11.7   0.0    6    1-6      81-86  (126)
+  4 3ZHC_B PHYTASE; HYDROLASE; HET  15.5 1.5E+02  0.0017   12.8   0.0    6    1-6     352-357 (433)
+  5 3DNX_A uncharacterized protein  15.0 1.6E+02  0.0018   12.2   0.0    6    1-6     148-153 (153)
+  6 5LKQ_B DNA repair protein RadA  15.0 1.6E+02  0.0018   12.4   0.0    6    1-6       5-10  (198)
+  7 7KKA_B fluoride channel, MEMBR  14.7 1.7E+02  0.0018   11.6   0.0    6    1-6      81-86  (126)
+  8 4V8M_AZ Ribosome; RIBOSOME, EU  13.6 1.8E+02   0.002   12.8   0.0    6    1-6       4-9   (103)
+  9 1DKL_B PHYTASE (E.C.3.1.3.2);   13.2 1.9E+02  0.0021   12.6   0.0    6    1-6     331-336 (410)
+ 10 3IT3_A Acid phosphatase (E.C.3  12.5 2.1E+02  0.0023   11.8   0.0    6    1-6     283-288 (342)
+
+No 1
+>5KOM_A Putative fluoride ion transporter CrcB; alpha helix, ion channel, membrane; HET: DMU; 2.69A {Escherichia coli}
+Probab=16.06  E-value=1.4e+02  Score=12.29  Aligned_cols=6  Identities=50%  Similarity=0.423  Sum_probs=0.0  Template_Neff=6.900
+
+Q STFIFE            1 STFIFE    6 (6)
+Q Consensus         1 stfife    6 (6)
+                      |||+.|
+T Consensus        81 Stf~~e   86 (147)
+T 5KOM_A           81 STISVE   86 (147)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 2
+>6BQO_B Fluoride ion transporter CrcB, Monobody; Fluoride channel, monobody, dual topology; HET: OLC; 2.8A {Bordetella pertussis (strain Tohama I / ATCC BAA-589 / NCTC 13251)}
+Probab=15.62  E-value=1.5e+02  Score=11.79  Aligned_cols=6  Identities=67%  Similarity=0.623  Sum_probs=0.0  Template_Neff=7.300
+
+Q STFIFE            1 STFIFE    6 (6)
+Q Consensus         1 stfife    6 (6)
+                      |||+.|
+T Consensus        83 Stf~~e   88 (128)
+T 6BQO_B           83 STFSAE   88 (128)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 3
+>6B2A_A Fluoride ion transporter CrcB, monobody; alpha helix, ion channel, membrane; HET: DMU; 2.65A {Escherichia coli}
+Probab=15.59  E-value=1.5e+02  Score=11.66  Aligned_cols=6  Identities=67%  Similarity=0.755  Sum_probs=0.0  Template_Neff=7.500
+
+Q STFIFE            1 STFIFE    6 (6)
+Q Consensus         1 stfife    6 (6)
+                      |||+.|
+T Consensus        81 Stf~~e   86 (126)
+T 6B2A_A           81 STFSVE   86 (126)
+T ss_dssp             HHHHHH
+T ss_pred             hHHHHH
+
+
+No 4
+>3ZHC_B PHYTASE; HYDROLASE; HET: CL, FMT; 2.3A {CITROBACTER BRAAKII}
+Probab=15.49  E-value=1.5e+02  Score=12.76  Aligned_cols=6  Identities=33%  Similarity=0.888  Sum_probs=0.0  Template_Neff=9.800
+
+Q STFIFE            1 STFIFE    6 (6)
+Q Consensus         1 stfife    6 (6)
+                      |+++||
+T Consensus       352 S~l~fE  357 (433)
+T 3ZHC_B          352 GELVFE  357 (433)
+T ss_dssp             CEEEEE
+T ss_pred             cEEEEE
+
+
+No 5
+>3DNX_A uncharacterized protein SPO1766; structural genomics, APC88088, protein of; 1.94A {Silicibacter pomeroyi}
+Probab=15.03  E-value=1.6e+02  Score=12.24  Aligned_cols=6  Identities=50%  Similarity=0.528  Sum_probs=0.0  Template_Neff=6.900
+
+Q STFIFE            1 STFIFE    6 (6)
+Q Consensus         1 stfife    6 (6)
+                      +.||||
+T Consensus       148 ~~~~~~  153 (153)
+T 3DNX_A          148 GHGIFE  153 (153)
+T ss_dssp             SSCSCC
+T ss_pred             CCCccC
+
+
+No 6
+>5LKQ_B DNA repair protein RadA; Helicase, recombination, DNA-binding, Lon-protease, hydrolase; 2.498A {Streptococcus pneumoniae}
+Probab=14.95  E-value=1.6e+02  Score=12.37  Aligned_cols=6  Identities=50%  Similarity=0.379  Sum_probs=0.0  Template_Neff=7.600
+
+Q STFIFE            1 STFIFE    6 (6)
+Q Consensus         1 stfife    6 (6)
+                      |.|+||
+T Consensus         5 ~~~~f~   10 (198)
+T 5LKQ_B            5 SHPQFE   10 (198)
+T ss_dssp             ------
+T ss_pred             ccceee
+
+
+No 7
+>7KKA_B fluoride channel, MEMBRANE PROTEIN; HET: DMU; 2.5A {Escherichia coli}
+Probab=14.69  E-value=1.7e+02  Score=11.55  Aligned_cols=6  Identities=50%  Similarity=0.695  Sum_probs=0.0  Template_Neff=7.500
+
+Q STFIFE            1 STFIFE    6 (6)
+Q Consensus         1 stfife    6 (6)
+                      |||+.|
+T Consensus        81 Stf~~e   86 (126)
+T 7KKA_B           81 ATFSVE   86 (126)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 8
+>4V8M_AZ Ribosome; RIBOSOME, EUKARYOTIC, KINETOPLASTIDS, EXPANSION SEGMENTS; 5.57A {TRYPANOSOMA BRUCEI BRUCEI}
+Probab=13.64  E-value=1.8e+02  Score=12.79  Aligned_cols=6  Identities=33%  Similarity=0.207  Sum_probs=0.0  Template_Neff=3.400
+
+Q STFIFE            1 STFIFE    6 (6)
+Q Consensus         1 stfife    6 (6)
+                      |+|+|+
+T Consensus         4 ~~~~~~    9 (103)
+T 4V8M_AZ           4 SVAMAE    9 (103)
+T ss_pred             eeehhh
+
+
+No 9
+>1DKL_B PHYTASE (E.C.3.1.3.2); HISTIDINE ACID PHOSPHATASE FOLD, HYDROLASE; 2.3A {Escherichia coli} SCOP: c.60.1.2
+Probab=13.24  E-value=1.9e+02  Score=12.58  Aligned_cols=6  Identities=33%  Similarity=0.888  Sum_probs=0.0  Template_Neff=9.400
+
+Q STFIFE            1 STFIFE    6 (6)
+Q Consensus         1 stfife    6 (6)
+                      |+++||
+T Consensus       331 s~l~fE  336 (410)
+T 1DKL_B          331 GELVFE  336 (410)
+T ss_dssp             CEEEEE
+T ss_pred             cEEEEE
+
+
+No 10
+>3IT3_A Acid phosphatase (E.C.3.1.3.2); Histidine Acid Phosphatase, HAP, Hydrolase; HET: 3AM; 1.5A {Francisella tularensis subsp. holarctica}
+Probab=12.48  E-value=2.1e+02  Score=11.79  Aligned_cols=6  Identities=33%  Similarity=0.401  Sum_probs=0.0  Template_Neff=10.100
+
+Q STFIFE            1 STFIFE    6 (6)
+Q Consensus         1 stfife    6 (6)
+                      |.++||
+T Consensus       283 s~l~~E  288 (342)
+T 3IT3_A          283 SNLEME  288 (342)
+T ss_dssp             CEEEEE
+T ss_pred             eEEEEE
+
+

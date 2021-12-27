@@ -1,0 +1,147 @@
+Query         QNYQGY
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 08:57:22 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QNYQGY/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QNYQGY/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6GMS_A Prelipin peptidase depe  11.5 2.4E+02  0.0026   10.6   0.0    4    3-6       1-4   (132)
+  2 5CVM_B Ubiquitin carboxyl-term  11.1 2.5E+02  0.0027    9.2   0.0    5    2-6       3-7   (96)
+  3 6GML_W DNA-directed RNA polyme  11.1 2.5E+02  0.0028   14.4   0.0    5    2-6      80-84  (584)
+  4 3OV9_A Nucleoprotein; Orthogon  11.0 2.5E+02  0.0028   12.9   0.0    4    3-6      30-33  (245)
+  5 1PBA_A PROCARBOXYPEPTIDASE B (  10.8 2.6E+02  0.0028    9.5   0.0    6    1-6       5-10  (81)
+  6 6BBK_A Fimbrial protein; Pseud  10.8 2.6E+02  0.0029   10.2   0.0    4    3-6       2-5   (126)
+  7 2VY5_A U11/U12 SMALL NUCLEAR R  10.3 2.8E+02  0.0031    9.1   0.0    6    1-6      30-35  (37)
+  8 2KL3_A Alr3790 protein; alpha+  10.3 2.8E+02  0.0031    9.9   0.0    6    1-6     117-122 (132)
+  9 3GV0_A Transcriptional regulat  10.0 2.9E+02  0.0032   10.3   0.0    5    2-6     279-283 (288)
+ 10 7EQX_A Procarboxypeptidase B1,   9.8 2.9E+02  0.0033    9.8   0.0    6    1-6       5-10  (98)
+
+No 1
+>6GMS_A Prelipin peptidase dependent protein; TYPE IV PILIN ADHESION EHEC; NMR {Escherichia coli O157:H7}
+Probab=11.51  E-value=2.4e+02  Score=10.65  Aligned_cols=4  Identities=25%  Similarity=0.808  Sum_probs=0.0  Template_Neff=8.700
+
+Q QNYQGY            3 YQGY    6 (6)
+Q Consensus         3 yqgy    6 (6)
+                      ||.|
+T Consensus         1 YqdY    4 (132)
+T 6GMS_A            1 MENY    4 (132)
+T ss_pred             CCcH
+
+
+No 2
+>5CVM_B Ubiquitin carboxyl-terminal hydrolase 46 (E.C.3.4.19.12); USP46 Ubiquitin covalent complex, DUB; 1.9A {Homo sapiens}
+Probab=11.12  E-value=2.5e+02  Score=9.19  Aligned_cols=5  Identities=0%  Similarity=-0.224  Sum_probs=0.0  Template_Neff=10.400
+
+Q QNYQGY            2 NYQGY    6 (6)
+Q Consensus         2 nyqgy    6 (6)
+                      +||++
+T Consensus         3 ~~~~~    7 (96)
+T 5CVM_B            3 SSHHH    7 (96)
+T ss_dssp             -----
+T ss_pred             Ccccc
+
+
+No 3
+>6GML_W DNA-directed RNA polymerase subunit, DNA-directed; RNA polymerase II, pausing, NELF; 3.2A {Sus scrofa}
+Probab=11.06  E-value=2.5e+02  Score=14.36  Aligned_cols=5  Identities=0%  Similarity=0.000  Sum_probs=0.0  Template_Neff=6.400
+
+Q QNYQGY            2 NYQGY    6 (6)
+Q Consensus         2 nyqgy    6 (6)
+                      ||.||
+T Consensus        80 nY~G~   84 (584)
+T 6GML_W           80 XXXXX   84 (584)
+T ss_pred             cCchH
+
+
+No 4
+>3OV9_A Nucleoprotein; Orthogonal Bundle, Viral genomic encapsidation; 1.6A {Rift valley fever virus}
+Probab=10.99  E-value=2.5e+02  Score=12.90  Aligned_cols=4  Identities=75%  Similarity=1.846  Sum_probs=0.0  Template_Neff=6.100
+
+Q QNYQGY            3 YQGY    6 (6)
+Q Consensus         3 yqgy    6 (6)
+                      |||+
+T Consensus        30 YqGF   33 (245)
+T 3OV9_A           30 YQGF   33 (245)
+T ss_dssp             BCSC
+T ss_pred             hcCC
+
+
+No 5
+>1PBA_A PROCARBOXYPEPTIDASE B (E.C.3.4.17.2) (ACTIVATION DOMAIN); HYDROLASE(C-TERMINAL PEPTIDASE); NMR {Sus scrofa} SCOP: d.58.3.1
+Probab=10.83  E-value=2.6e+02  Score=9.48  Aligned_cols=6  Identities=17%  Similarity=0.756  Sum_probs=0.0  Template_Neff=9.100
+
+Q QNYQGY            1 QNYQGY    6 (6)
+Q Consensus         1 qnyqgy    6 (6)
+                      .+|.||
+T Consensus         5 ~~y~g~   10 (81)
+T 1PBA_A            5 EHFEGE   10 (81)
+T ss_dssp             SSCCCC
+T ss_pred             CccCCc
+
+
+No 6
+>6BBK_A Fimbrial protein; Pseudomonas aeruginosa, type IV pili; 1.73A {Pseudomonas aeruginosa}
+Probab=10.77  E-value=2.6e+02  Score=10.17  Aligned_cols=4  Identities=0%  Similarity=0.310  Sum_probs=0.0  Template_Neff=9.300
+
+Q QNYQGY            3 YQGY    6 (6)
+Q Consensus         3 yqgy    6 (6)
+                      ||.|
+T Consensus         2 yq~Y    5 (126)
+T 6BBK_A            2 IDPF    5 (126)
+T ss_dssp             -CHH
+T ss_pred             chhH
+
+
+No 7
+>2VY5_A U11/U12 SMALL NUCLEAR RIBONUCLEOPROTEIN 48; SPLICING, MRNA PROCESSING, ALTERNATIVE SPLICING; NMR {HOMO SAPIENS} SCOP: g.37.1.7
+Probab=10.28  E-value=2.8e+02  Score=9.08  Aligned_cols=6  Identities=33%  Similarity=0.556  Sum_probs=0.0  Template_Neff=6.700
+
+Q QNYQGY            1 QNYQGY    6 (6)
+Q Consensus         1 qnyqgy    6 (6)
+                      .+++||
+T Consensus        30 ~~~~gy   35 (37)
+T 2VY5_A           30 LRKMGY   35 (37)
+T ss_dssp             HHHSSC
+T ss_pred             HhccCC
+
+
+No 8
+>2KL3_A Alr3790 protein; alpha+beta, Structural Genomics, PSI-2, Protein; NMR {Nostoc sp.}
+Probab=10.25  E-value=2.8e+02  Score=9.93  Aligned_cols=6  Identities=17%  Similarity=0.401  Sum_probs=0.0  Template_Neff=9.800
+
+Q QNYQGY            1 QNYQGY    6 (6)
+Q Consensus         1 qnyqgy    6 (6)
+                      ++|+.|
+T Consensus       117 ~~~~~~  122 (132)
+T 2KL3_A          117 DDYNVV  122 (132)
+T ss_pred             CCcccc
+
+
+No 9
+>3GV0_A Transcriptional regulator, LacI family; Transcription regulator, PSI-II, 11224e, Structural; 2.35A {Agrobacterium tumefaciens str.}
+Probab=9.98  E-value=2.9e+02  Score=10.26  Aligned_cols=5  Identities=20%  Similarity=0.208  Sum_probs=0.0  Template_Neff=11.800
+
+Q QNYQGY            2 NYQGY    6 (6)
+Q Consensus         2 nyqgy    6 (6)
+                      +|++|
+T Consensus       279 ~~~~~  283 (288)
+T 3GV0_A          279 PKEGH  283 (288)
+T ss_dssp             -----
+T ss_pred             CCCCC
+
+
+No 10
+>7EQX_A Procarboxypeptidase B1, ANTIVIRAL PROTEIN, HYDROLASE; 2.08A {Aedes aegypti}
+Probab=9.80  E-value=2.9e+02  Score=9.77  Aligned_cols=6  Identities=50%  Similarity=1.459  Sum_probs=0.0  Template_Neff=8.900
+
+Q QNYQGY            1 QNYQGY    6 (6)
+Q Consensus         1 qnyqgy    6 (6)
+                      .+|.||
+T Consensus         5 ~~y~g~   10 (98)
+T 7EQX_A            5 RSYEGY   10 (98)
+T ss_dssp             CCCTTC
+T ss_pred             cccCCc
+
+

@@ -1,0 +1,155 @@
+Query         GGYQQY
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 01:06:11 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GGYQQY/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GGYQQY/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3VJZ_A Putative uncharacterize  46.4      18  0.0002   14.4   0.0    6    1-6      62-67  (166)
+  2 3WUR_B Uncharacterized protein  40.7      26 0.00029   14.1   0.0    6    1-6      67-72  (171)
+  3 2JOX_A Churchill protein; PROT  33.0      41 0.00046   14.8   0.0    6    1-6      78-83  (106)
+  4 3X0T_A Uncharacterized protein  29.1      53 0.00059   14.7   0.0    6    1-6      64-69  (119)
+  5 4V1J_A FIMBRIAL PROTEIN; CELL   28.4      55 0.00061   12.5   0.0    6    1-6       1-6   (142)
+  6 4UUU_B CYSTATHIONINE BETA-SYNT  14.8 1.6E+02  0.0018   10.1   0.0    5    2-6       3-7   (155)
+  7 1I78_A PROTEASE VII (E.C.3.4.2  14.8 1.6E+02  0.0018   12.6   0.0    6    1-6     145-150 (297)
+  8 3JYZ_A Type IV pilin structura  14.5 1.7E+02  0.0019   11.6   0.0    5    2-6       1-5   (150)
+  9 6RQF_G PROTEIN; Plastoquinol-p  14.0 1.8E+02   0.002   11.1   0.0    4    3-6      26-29  (37)
+ 10 4OGQ_G Cytochrome b6, Cytochro  13.9 1.8E+02   0.002   11.1   0.0    4    3-6      26-29  (37)
+
+No 1
+>3VJZ_A Putative uncharacterized protein; helix bundle, DNA mimic, GENE; 1.8A {Neisseria meningitidis}
+Probab=46.38  E-value=18  Score=14.44  Aligned_cols=6  Identities=50%  Similarity=1.082  Sum_probs=3.1  Template_Neff=8.000
+
+Q GGYQQY            1 GGYQQY    6 (6)
+Q Consensus         1 ggyqqy    6 (6)
+                      ||+.||
+T Consensus        62 GGf~Qf   67 (166)
+T 3VJZ_A           62 GGFVQL   67 (166)
+T ss_dssp             HHHHHH
+T ss_pred             chHHHH
+Confidence            455554
+
+
+No 2
+>3WUR_B Uncharacterized protein; helix bundle, DNA mimic, GENE; HET: O4B, SO4, TLA; 1.45A {Neisseria meningitidis}
+Probab=40.67  E-value=26  Score=14.09  Aligned_cols=6  Identities=50%  Similarity=1.082  Sum_probs=2.9  Template_Neff=8.000
+
+Q GGYQQY            1 GGYQQY    6 (6)
+Q Consensus         1 ggyqqy    6 (6)
+                      ||+.||
+T Consensus        67 GGf~Qf   72 (171)
+T 3WUR_B           67 GGFVQL   72 (171)
+T ss_dssp             HHHHHH
+T ss_pred             chHHHH
+Confidence            455554
+
+
+No 3
+>2JOX_A Churchill protein; PROTEIN, TRANSCRIPTION; HET: ZN; NMR {Homo sapiens}
+Probab=32.96  E-value=41  Score=14.79  Aligned_cols=6  Identities=33%  Similarity=0.922  Sum_probs=3.8  Template_Neff=3.300
+
+Q GGYQQY            1 GGYQQY    6 (6)
+Q Consensus         1 ggyqqy    6 (6)
+                      ++||.|
+T Consensus        78 d~yQeY   83 (106)
+T 2JOX_A           78 DEFQEY   83 (106)
+T ss_dssp             TTEEEE
+T ss_pred             Chhhhh
+Confidence            467765
+
+
+No 4
+>3X0T_A Uncharacterized protein; Jelly roll fold, pore forming; HET: NO3; 1.17A {Vibrio parahaemolyticus M0605}
+Probab=29.06  E-value=53  Score=14.67  Aligned_cols=6  Identities=33%  Similarity=0.839  Sum_probs=3.5  Template_Neff=3.400
+
+Q GGYQQY            1 GGYQQY    6 (6)
+Q Consensus         1 ggyqqy    6 (6)
+                      |+|+||
+T Consensus        64 G~y~~y   69 (119)
+T 3X0T_A           64 GGWKVA   69 (119)
+T ss_dssp             TCCEEE
+T ss_pred             CCcEEc
+Confidence            466665
+
+
+No 5
+>4V1J_A FIMBRIAL PROTEIN; CELL ADHESION, TYPE IV PILLUS; HET: EDO; 1.43A {NEISSERIA MENINGITIDIS MC58}
+Probab=28.44  E-value=55  Score=12.50  Aligned_cols=6  Identities=50%  Similarity=0.899  Sum_probs=3.2  Template_Neff=8.600
+
+Q GGYQQY            1 GGYQQY    6 (6)
+Q Consensus         1 ggyqqy    6 (6)
+                      |-||.|
+T Consensus         1 ~aYqdY    6 (142)
+T 4V1J_A            1 GPMQDY    6 (142)
+T ss_dssp             CHHHHH
+T ss_pred             CCcchH
+Confidence            346655
+
+
+No 6
+>4UUU_B CYSTATHIONINE BETA-SYNTHASE (E.C.4.2.1.22); LYASE; HET: SAM, EDO; 1.71A {HOMO SAPIENS}
+Probab=14.76  E-value=1.6e+02  Score=10.07  Aligned_cols=5  Identities=0%  Similarity=-0.224  Sum_probs=0.0  Template_Neff=11.200
+
+Q GGYQQY            2 GYQQY    6 (6)
+Q Consensus         2 gyqqy    6 (6)
+                      |||++
+T Consensus         3 ~~~~~    7 (155)
+T 4UUU_B            3 HHHHH    7 (155)
+T ss_dssp             -----
+T ss_pred             CCccc
+
+
+No 7
+>1I78_A PROTEASE VII (E.C.3.4.21.87); integral outer membrane protein, protease; HET: BOG, MPD; 2.6A {Escherichia coli} SCOP: f.4.4.1
+Probab=14.76  E-value=1.6e+02  Score=12.65  Aligned_cols=6  Identities=50%  Similarity=0.861  Sum_probs=0.0  Template_Neff=8.500
+
+Q GGYQQY            1 GGYQQY    6 (6)
+Q Consensus         1 ggyqqy    6 (6)
+                      +|+|+|
+T Consensus       145 ~g~~~y  150 (297)
+T 1I78_A          145 GGSYIY  150 (297)
+T ss_dssp             CCEEEB
+T ss_pred             cceEEe
+
+
+No 8
+>3JYZ_A Type IV pilin structural subunit; PilA, Methylation, STRUCTURAL PROTEIN; 1.55A {Pseudomonas aeruginosa}
+Probab=14.47  E-value=1.7e+02  Score=11.56  Aligned_cols=5  Identities=20%  Similarity=0.780  Sum_probs=0.0  Template_Neff=8.100
+
+Q GGYQQY            2 GYQQY    6 (6)
+Q Consensus         2 gyqqy    6 (6)
+                      +||.|
+T Consensus         1 ~YqdY    5 (150)
+T 3JYZ_A            1 GIDPF    5 (150)
+T ss_dssp             CCCHH
+T ss_pred             CCchH
+
+
+No 9
+>6RQF_G PROTEIN; Plastoquinol-plastocyanin oxido-reductase Cytochrome b6f Photosynthesis; HET: BCR, PGV, SQD, 6PL, HEM, CLA, LMG, PL9, HEC; 3.58A {Spinacia oleracea}
+Probab=13.95  E-value=1.8e+02  Score=11.14  Aligned_cols=4  Identities=75%  Similarity=1.389  Sum_probs=0.0  Template_Neff=2.500
+
+Q GGYQQY            3 YQQY    6 (6)
+Q Consensus         3 yqqy    6 (6)
+                      |.||
+T Consensus        26 Y~Qy   29 (37)
+T 6RQF_G           26 YLQY   29 (37)
+T ss_dssp             HHHH
+T ss_pred             HHHH
+
+
+No 10
+>4OGQ_G Cytochrome b6, Cytochrome b6-f complex; Electron transfer, Plastocyanin, cytochrome c6; HET: HEM, 2WD, SQD, OPC, CLA, 1O2, 2WM, 2WA, 8K6, 7PH, 3WM, UMQ, MYS, BCR; 2.501A {Nostoc sp.}
+Probab=13.91  E-value=1.8e+02  Score=11.13  Aligned_cols=4  Identities=75%  Similarity=1.647  Sum_probs=0.0  Template_Neff=2.500
+
+Q GGYQQY            3 YQQY    6 (6)
+Q Consensus         3 yqqy    6 (6)
+                      |.||
+T Consensus        26 Y~Qy   29 (37)
+T 4OGQ_G           26 YKQY   29 (37)
+T ss_dssp             HHHH
+T ss_pred             HHHH
+
+

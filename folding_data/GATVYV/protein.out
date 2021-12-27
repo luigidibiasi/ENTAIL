@@ -1,0 +1,154 @@
+Query         GATVYV
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 22:48:57 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GATVYV/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GATVYV/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4RLE_A Uncharacterized protein  56.9     9.6 0.00011   16.2   0.0    6    1-6     103-108 (117)
+  2 2KM0_A Copper resistance prote  42.2      24 0.00026   14.9   0.0    6    1-6      15-20  (74)
+  3 3DSO_A Putative uncharacterize  41.0      25 0.00028   14.8   0.0    6    1-6      15-20  (74)
+  4 4QPV_A Uncharacterized protein  26.4      64  0.0007   15.7   0.0    6    1-6      78-83  (296)
+  5 3WW0_A Protein Hikeshi; Nuclea  24.5      73  0.0008   13.8   0.0    6    1-6      53-58  (199)
+  6 3LQ9_B DNA-damage-inducible tr  17.9 1.2E+02  0.0013   13.3   0.0    6    1-6      57-62  (134)
+  7 5Y2G_A Maltose-binding peripla  16.0 1.5E+02  0.0016   13.9   0.0    5    2-6     512-516 (595)
+  8 1VQ2_A DEOXYCYTIDYLATE DEAMINA  14.6 1.7E+02  0.0019   12.1   0.0    6    1-6     122-127 (193)
+  9 6YE5_A Ribosome-binding factor  14.3 1.7E+02  0.0019   11.0   0.0    5    2-6      47-51  (118)
+ 10 2II1_D Acetamidase; 10172637,   14.3 1.7E+02  0.0019   13.9   0.0    6    1-6     164-169 (301)
+
+No 1
+>4RLE_A Uncharacterized protein YaaQ; PII-like, cdiAMP, UNKNOWN FUNCTION; HET: 2BA; 1.3A {Bacillus subtilis}
+Probab=56.95  E-value=9.6  Score=16.16  Aligned_cols=6  Identities=83%  Similarity=1.298  Sum_probs=4.2  Template_Neff=4.900
+
+Q GATVYV            1 GATVYV    6 (6)
+Q Consensus         1 gatvyv    6 (6)
+                      ||||+|
+T Consensus       103 GAtvFV  108 (117)
+T 4RLE_A          103 GATVFV  108 (117)
+T ss_dssp             SEEEEE
+T ss_pred             CEEEEE
+Confidence            677775
+
+
+No 2
+>2KM0_A Copper resistance protein K; heavy metal resistance, periplasmic copper; HET: CU1; NMR {Ralstonia metallidurans}
+Probab=42.25  E-value=24  Score=14.88  Aligned_cols=6  Identities=50%  Similarity=0.689  Sum_probs=3.9  Template_Neff=2.900
+
+Q GATVYV            1 GATVYV    6 (6)
+Q Consensus         1 gatvyv    6 (6)
+                      |.||||
+T Consensus        15 GsTlyv   20 (74)
+T 2KM0_A           15 GSKVHV   20 (74)
+T ss_dssp             SEEEEE
+T ss_pred             CCEEEE
+Confidence            567775
+
+
+No 3
+>3DSO_A Putative uncharacterized protein copK; copper (I) bound, copper resistance; 1.55A {Ralstonia metallidurans}
+Probab=40.96  E-value=25  Score=14.78  Aligned_cols=6  Identities=50%  Similarity=0.689  Sum_probs=3.8  Template_Neff=2.900
+
+Q GATVYV            1 GATVYV    6 (6)
+Q Consensus         1 gatvyv    6 (6)
+                      |.||||
+T Consensus        15 GsTlyv   20 (74)
+T 3DSO_A           15 GSKVHV   20 (74)
+T ss_dssp             SCEEEE
+T ss_pred             CCEEEE
+Confidence            567775
+
+
+No 4
+>4QPV_A Uncharacterized protein; PF07901 family protein, DUF1672, unique; HET: MSE; 1.8A {Staphylococcus aureus subsp. aureus Mu50}
+Probab=26.40  E-value=64  Score=15.72  Aligned_cols=6  Identities=50%  Similarity=1.027  Sum_probs=3.6  Template_Neff=4.700
+
+Q GATVYV            1 GATVYV    6 (6)
+Q Consensus         1 gatvyv    6 (6)
+                      |++|||
+T Consensus        78 gv~VfV   83 (296)
+T 4QPV_A           78 GVEVFV   83 (296)
+T ss_dssp             EEEEEE
+T ss_pred             eEEEEE
+Confidence            566665
+
+
+No 5
+>3WW0_A Protein Hikeshi; Nuclear transport receptor, TRANSPORT PROTEIN; 2.5A {Homo sapiens}
+Probab=24.48  E-value=73  Score=13.76  Aligned_cols=6  Identities=50%  Similarity=1.104  Sum_probs=3.0  Template_Neff=6.800
+
+Q GATVYV            1 GATVYV    6 (6)
+Q Consensus         1 gatvyv    6 (6)
+                      ||+||+
+T Consensus        53 ga~VY~   58 (199)
+T 3WW0_A           53 GGSVYF   58 (199)
+T ss_dssp             EEEEEE
+T ss_pred             eEEEEE
+Confidence            455553
+
+
+No 6
+>3LQ9_B DNA-damage-inducible transcript 4 protein; REDD1 DDIT4 mTOR, hypoxia, cancer; HET: MSE; 2.0A {Homo sapiens}
+Probab=17.93  E-value=1.2e+02  Score=13.28  Aligned_cols=6  Identities=50%  Similarity=0.562  Sum_probs=0.0  Template_Neff=4.800
+
+Q GATVYV            1 GATVYV    6 (6)
+Q Consensus         1 gatvyv    6 (6)
+                      |+++||
+T Consensus        57 Gc~i~v   62 (134)
+T 3LQ9_B           57 GALLDV   62 (134)
+T ss_dssp             GEEEEE
+T ss_pred             ccEEEE
+
+
+No 7
+>5Y2G_A Maltose-binding periplasmic protein,Protein B; Camp factor, pore forming toxin; HET: MAL, SO4; 3.0A {Escherichia coli}
+Probab=16.02  E-value=1.5e+02  Score=13.88  Aligned_cols=5  Identities=60%  Similarity=1.052  Sum_probs=0.0  Template_Neff=8.900
+
+Q GATVYV            2 ATVYV    6 (6)
+Q Consensus         2 atvyv    6 (6)
+                      ||+||
+T Consensus       512 ~~~~~  516 (595)
+T 5Y2G_A          512 ATIYT  516 (595)
+T ss_pred             eehhh
+
+
+No 8
+>1VQ2_A DEOXYCYTIDYLATE DEAMINASE (E.C.3.5.4.12); HYDROLASE; HET: DDN; 2.2A {Enterobacteria phage T4} SCOP: c.97.1.2
+Probab=14.56  E-value=1.7e+02  Score=12.13  Aligned_cols=6  Identities=83%  Similarity=1.348  Sum_probs=0.0  Template_Neff=7.900
+
+Q GATVYV            1 GATVYV    6 (6)
+Q Consensus         1 gatvyv    6 (6)
+                      |+++|+
+T Consensus       122 g~tlYv  127 (193)
+T 1VQ2_A          122 GATMYV  127 (193)
+T ss_dssp             TCEEEE
+T ss_pred             CCEEEE
+
+
+No 9
+>6YE5_A Ribosome-binding factor A; Protein synthesis, heterologous protein expression; NMR {Staphylococcus aureus}
+Probab=14.34  E-value=1.7e+02  Score=11.00  Aligned_cols=5  Identities=40%  Similarity=0.853  Sum_probs=0.0  Template_Neff=8.300
+
+Q GATVYV            2 ATVYV    6 (6)
+Q Consensus         2 atvyv    6 (6)
+                      |+||+
+T Consensus        47 a~Vy~   51 (118)
+T 6YE5_A           47 AKVFL   51 (118)
+T ss_dssp             EEEEE
+T ss_pred             EEEEE
+
+
+No 10
+>2II1_D Acetamidase; 10172637, ACETAMIDASE, STRUCTURAL GENOMICS, JOINT; HET: MSE, CA; 1.95A {Bacillus halodurans}
+Probab=14.26  E-value=1.7e+02  Score=13.86  Aligned_cols=6  Identities=67%  Similarity=1.259  Sum_probs=0.0  Template_Neff=5.900
+
+Q GATVYV            1 GATVYV    6 (6)
+Q Consensus         1 gatvyv    6 (6)
+                      |+|+|.
+T Consensus       164 GstlYL  169 (301)
+T 2II1_D          164 GTTVYL  169 (301)
+T ss_dssp             TCEEEE
+T ss_pred             CCEEEE
+
+

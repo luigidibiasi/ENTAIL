@@ -1,0 +1,152 @@
+Query         GVVTSE
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 04:57:11 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GVVTSE/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GVVTSE/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 1QYI_A hypothetical protein; S  15.4 1.5E+02  0.0017   13.5   0.0    6    1-6      10-15  (384)
+  2 2OP5_E hypothetical protein; F  14.8 1.6E+02  0.0018   13.5   0.0    6    1-6     107-112 (117)
+  3 2OP5_C hypothetical protein; F  14.8 1.6E+02  0.0018   13.5   0.0    6    1-6     107-112 (117)
+  4 2OD6_D hypothetical protein; M   9.8   3E+02  0.0033   12.6   0.0    6    1-6     104-109 (110)
+  5 3PRY_C Heat shock protein HSP    9.1 3.2E+02  0.0036   12.2   0.0    6    1-6      97-102 (268)
+  6 1Y6Z_B heat shock protein, put   9.0 3.3E+02  0.0037   12.2   0.0    6    1-6      99-104 (263)
+  7 1HK7_A HEAT SHOCK PROTEIN HSP8   8.9 3.4E+02  0.0037   12.4   0.0    6    1-6      95-100 (288)
+  8 1USU_A HEAT SHOCK PROTEIN HSP8   8.9 3.4E+02  0.0037   12.3   0.0    6    1-6      97-102 (260)
+  9 2N75_A De novo designed protei   8.9 3.4E+02  0.0037   12.3   0.0    5    2-6       7-11  (99)
+ 10 2QKH_B Glucose-dependent insul   8.0 3.9E+02  0.0043    9.8   0.0    6    1-6       4-9   (42)
+
+No 1
+>1QYI_A hypothetical protein; STRUCTURAL GENOMICS, PSI, Protein Structure; 2.5A {Staphylococcus aureus subsp. aureus} SCOP: c.108.1.13
+Probab=15.42  E-value=1.5e+02  Score=13.45  Aligned_cols=6  Identities=67%  Similarity=0.811  Sum_probs=3.3  Template_Neff=8.000
+
+Q GVVTSE            1 GVVTSE    6 (6)
+Q Consensus         1 gvvtse    6 (6)
+                      ||..||
+T Consensus        10 gv~lse   15 (384)
+T 1QYI_A           10 GVFLSE   15 (384)
+T ss_dssp             TTTBCS
+T ss_pred             ccccch
+Confidence            555554
+
+
+No 2
+>2OP5_E hypothetical protein; FERREDOXIN-LIKE PROTEIN, STRUCTURAL GENOMICS, JOINT; HET: MSE, EDO; 2.2A {uncultured marine organism} SCOP: d.58.4.22
+Probab=14.83  E-value=1.6e+02  Score=13.55  Aligned_cols=6  Identities=83%  Similarity=1.066  Sum_probs=3.4  Template_Neff=2.000
+
+Q GVVTSE            1 GVVTSE    6 (6)
+Q Consensus         1 gvvtse    6 (6)
+                      |||.||
+T Consensus       107 gVVv~E  112 (117)
+T 2OP5_E          107 GVVVSE  112 (117)
+T ss_dssp             EEEEEE
+T ss_pred             eeEEee
+Confidence            566554
+
+
+No 3
+>2OP5_C hypothetical protein; FERREDOXIN-LIKE PROTEIN, STRUCTURAL GENOMICS, JOINT; HET: EDO; 2.2A {uncultured marine organism} SCOP: d.58.4.22
+Probab=14.82  E-value=1.6e+02  Score=13.54  Aligned_cols=6  Identities=83%  Similarity=1.066  Sum_probs=3.4  Template_Neff=2.000
+
+Q GVVTSE            1 GVVTSE    6 (6)
+Q Consensus         1 gvvtse    6 (6)
+                      |||.||
+T Consensus       107 gVVv~E  112 (117)
+T 2OP5_C          107 GVVVSE  112 (117)
+T ss_dssp             EEEEEE
+T ss_pred             eeEEee
+Confidence            566554
+
+
+No 4
+>2OD6_D hypothetical protein; Metagenomics target, structural genomics, Joint; HET: OHA, MSE, EDO; 1.85A {uncultured marine organism} SCOP: d.58.4.22
+Probab=9.78  E-value=3e+02  Score=12.56  Aligned_cols=6  Identities=33%  Similarity=0.302  Sum_probs=2.9  Template_Neff=2.500
+
+Q GVVTSE            1 GVVTSE    6 (6)
+Q Consensus         1 gvvtse    6 (6)
+                      |+|++|
+T Consensus       104 gvVv~E  109 (110)
+T 2OD6_D          104 CLVVME  109 (110)
+T ss_dssp             EEEEEE
+T ss_pred             eEEEEe
+Confidence            455544
+
+
+No 5
+>3PRY_C Heat shock protein HSP 90-beta; Structural Genomics, Structural Genomics Consortium; HET: SO4, EDO; 2.28A {Homo sapiens}
+Probab=9.15  E-value=3.2e+02  Score=12.19  Aligned_cols=6  Identities=83%  Similarity=1.066  Sum_probs=0.0  Template_Neff=7.300
+
+Q GVVTSE            1 GVVTSE    6 (6)
+Q Consensus         1 gvvtse    6 (6)
+                      |||.|+
+T Consensus        97 gvVDs~  102 (268)
+T 3PRY_C           97 GVVDSE  102 (268)
+T ss_dssp             EEEEES
+T ss_pred             eeeCCC
+
+
+No 6
+>1Y6Z_B heat shock protein, putative; heat shock, chaperone, Structural Genomics; 1.88A {Plasmodium falciparum}
+Probab=8.96  E-value=3.3e+02  Score=12.21  Aligned_cols=6  Identities=67%  Similarity=1.049  Sum_probs=0.0  Template_Neff=7.100
+
+Q GVVTSE            1 GVVTSE    6 (6)
+Q Consensus         1 gvvtse    6 (6)
+                      |||.|+
+T Consensus        99 gvVDs~  104 (263)
+T 1Y6Z_B           99 GIVDSE  104 (263)
+T ss_dssp             EEEEEC
+T ss_pred             eeecCC
+
+
+No 7
+>1HK7_A HEAT SHOCK PROTEIN HSP82; HEAT SHOCK PROTEIN, ATPASE, CHAPERONE; 2.5A {SACCHAROMYCES CEREVISIAE} SCOP: d.14.1.8
+Probab=8.88  E-value=3.4e+02  Score=12.35  Aligned_cols=6  Identities=83%  Similarity=1.066  Sum_probs=0.0  Template_Neff=7.100
+
+Q GVVTSE            1 GVVTSE    6 (6)
+Q Consensus         1 gvvtse    6 (6)
+                      |||.|+
+T Consensus        95 gvVDs~  100 (288)
+T 1HK7_A           95 GVVDSE  100 (288)
+T ss_pred             eecCCC
+
+
+No 8
+>1USU_A HEAT SHOCK PROTEIN HSP82, AHA1; CHAPERONE-COMPLEX, CHAPERONE, ACTIVATOR, HSP90; 2.15A {SACCHAROMYCES CEREVISIAE} SCOP: d.14.1.8
+Probab=8.87  E-value=3.4e+02  Score=12.26  Aligned_cols=6  Identities=83%  Similarity=1.066  Sum_probs=0.0  Template_Neff=6.900
+
+Q GVVTSE            1 GVVTSE    6 (6)
+Q Consensus         1 gvvtse    6 (6)
+                      |||.|+
+T Consensus        97 gVVDs~  102 (260)
+T 1USU_A           97 GVVDSE  102 (260)
+T ss_dssp             EEEEES
+T ss_pred             eeeCCC
+
+
+No 9
+>2N75_A De novo designed protein; Structural Genomics, NORTHEAST STRUCTURAL GENOMICS; NMR {synthetic construct}
+Probab=8.87  E-value=3.4e+02  Score=12.31  Aligned_cols=5  Identities=100%  Similarity=1.006  Sum_probs=0.0  Template_Neff=1.000
+
+Q GVVTSE            2 VVTSE    6 (6)
+Q Consensus         2 vvtse    6 (6)
+                      |||||
+T Consensus         7 vvtse   11 (99)
+T 2N75_A            7 VVTSE   11 (99)
+T ss_dssp             EESSH
+T ss_pred             EEehH
+
+
+No 10
+>2QKH_B Glucose-dependent insulinotropic polypeptide, Glucose-dependent insulinotropic; GPCR, incretin, hormone-GPCR complex, extracellular; HET: QKH; 1.9A {Homo sapiens}
+Probab=7.99  E-value=3.9e+02  Score=9.84  Aligned_cols=6  Identities=33%  Similarity=0.612  Sum_probs=0.0  Template_Neff=4.500
+
+Q GVVTSE            1 GVVTSE    6 (6)
+Q Consensus         1 gvvtse    6 (6)
+                      |+.||+
+T Consensus         4 g~ftsd    9 (42)
+T 2QKH_B            4 GTFISD    9 (42)
+T ss_pred             chhhhh
+
+

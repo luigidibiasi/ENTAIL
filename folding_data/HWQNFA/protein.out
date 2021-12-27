@@ -1,0 +1,149 @@
+Query         HWQNFA
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 07:21:06 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/HWQNFA/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/HWQNFA/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6CCR_A Glucose-induced degrada  19.9   1E+02  0.0011   13.7   0.0    6    1-6      87-92  (186)
+  2 1VQV_B thiamine monophosphate   19.9   1E+02  0.0011   12.9   0.0    4    2-5     303-306 (306)
+  3 4V0W_D SERINE/THREONINE-PROTEI  19.7 1.1E+02  0.0012   12.0   0.0    6    1-6      36-41  (44)
+  4 6AYM_A Adenine phosphoribosylt  19.5 1.1E+02  0.0012   11.9   0.0    5    1-5       7-11  (238)
+  5 6AYQ_B Adenine phosphoribosylt  19.5 1.1E+02  0.0012   11.9   0.0    5    1-5       7-11  (238)
+  6 6AYS_E Adenine phosphoribosylt  19.5 1.1E+02  0.0012   11.9   0.0    5    1-5       7-11  (238)
+  7 3MEZ_D Mannose-specific lectin  19.1 1.1E+02  0.0012   10.3   0.0    5    2-6     109-113 (113)
+  8 6WDZ_A Replication-associated   18.3 1.2E+02  0.0013   11.3   0.0    6    1-6      56-61  (115)
+  9 6VU7_C YbjN protein; STRUCTURA  18.3 1.2E+02  0.0013   14.1   0.0    5    1-5      36-40  (158)
+ 10 5FR7_A AMYR; SIGNALING PROTEIN  18.2 1.2E+02  0.0013   14.1   0.0    5    1-5      40-44  (163)
+
+No 1
+>6CCR_A Glucose-induced degradation protein 4 homolog; Structural Genomics, Structural Genomics Consortium; HET: UNX; 1.6A {Homo sapiens}
+Probab=19.92  E-value=1e+02  Score=13.68  Aligned_cols=6  Identities=50%  Similarity=1.431  Sum_probs=0.0  Template_Neff=5.800
+
+Q HWQNFA            1 HWQNFA    6 (6)
+Q Consensus         1 hwqnfa    6 (6)
+                      ||..|.
+T Consensus        87 hW~kf~   92 (186)
+T 6CCR_A           87 HWGKFL   92 (186)
+T ss_dssp             HHTTSG
+T ss_pred             hHhcCc
+
+
+No 2
+>1VQV_B thiamine monophosphate kinase (E.C.2.7.4.16); THIL, KINASE, DIMER, PHOSPHATE, New; HET: PO4; 2.65A {Aquifex aeolicus} SCOP: d.79.4.1, d.139.1.1
+Probab=19.87  E-value=1e+02  Score=12.85  Aligned_cols=4  Identities=50%  Similarity=1.987  Sum_probs=0.0  Template_Neff=9.300
+
+Q HWQNFA            2 WQNF    5 (6)
+Q Consensus         2 wqnf    5 (6)
+                      |+||
+T Consensus       303 ~~~f  306 (306)
+T 1VQV_B          303 WKHF  306 (306)
+T ss_dssp             ----
+T ss_pred             ccCC
+
+
+No 3
+>4V0W_D SERINE/THREONINE-PROTEIN PHOSPHATASE PP1-GAMMA CATALYTIC SUBUNIT; HYDROLASE-HYDROLASE REGULATOR COMPLEX; 1.55A {MUS MUSCULUS}
+Probab=19.66  E-value=1.1e+02  Score=11.95  Aligned_cols=6  Identities=50%  Similarity=1.392  Sum_probs=0.0  Template_Neff=3.000
+
+Q HWQNFA            1 HWQNFA    6 (6)
+Q Consensus         1 hwqnfa    6 (6)
+                      .|+.||
+T Consensus        36 pWEe~A   41 (44)
+T 4V0W_D           36 PWEEFA   41 (44)
+T ss_pred             chHHhh
+
+
+No 4
+>6AYM_A Adenine phosphoribosyltransferase 1 (E.C.2.4.2.7); MTAN enzyme, Foodborne Diseases, HYDROLASE; HET: EDO; 1.25A {Campylobacter jejuni}
+Probab=19.46  E-value=1.1e+02  Score=11.86  Aligned_cols=5  Identities=20%  Similarity=0.494  Sum_probs=0.0  Template_Neff=10.200
+
+Q HWQNFA            1 HWQNF    5 (6)
+Q Consensus         1 hwqnf    5 (6)
+                      |||.|
+T Consensus         7 ~~~~~   11 (238)
+T 6AYM_A            7 HHSGM   11 (238)
+T ss_dssp             ---CC
+T ss_pred             cccCC
+
+
+No 5
+>6AYQ_B Adenine phosphoribosyltransferase 1 (E.C.2.4.2.7); MTAN enzyme, Foodborne Diseases, HYDROLASE; HET: TDI; 1.42A {Campylobacter jejuni}
+Probab=19.46  E-value=1.1e+02  Score=11.86  Aligned_cols=5  Identities=20%  Similarity=0.494  Sum_probs=0.0  Template_Neff=10.200
+
+Q HWQNFA            1 HWQNF    5 (6)
+Q Consensus         1 hwqnf    5 (6)
+                      |||.|
+T Consensus         7 ~~~~~   11 (238)
+T 6AYQ_B            7 HHSGM   11 (238)
+T ss_dssp             ----C
+T ss_pred             cccCC
+
+
+No 6
+>6AYS_E Adenine phosphoribosyltransferase 1 (E.C.2.4.2.7); MTAN enzyme, Foodborne Diseases, HYDROLASE; HET: HT6, EDO; 1.7A {Campylobacter jejuni}
+Probab=19.46  E-value=1.1e+02  Score=11.86  Aligned_cols=5  Identities=20%  Similarity=0.494  Sum_probs=0.0  Template_Neff=10.200
+
+Q HWQNFA            1 HWQNF    5 (6)
+Q Consensus         1 hwqnf    5 (6)
+                      |||.|
+T Consensus         7 ~~~~~   11 (238)
+T 6AYS_E            7 HHSGM   11 (238)
+T ss_dssp             ---CC
+T ss_pred             cccCC
+
+
+No 7
+>3MEZ_D Mannose-specific lectin 3 chain 1; Lectin, Crocus, Heterotetramer, SUGAR BINDING; HET: GOL, FMT; 1.94A {Crocus vernus}
+Probab=19.10  E-value=1.1e+02  Score=10.34  Aligned_cols=5  Identities=40%  Similarity=0.999  Sum_probs=0.0  Template_Neff=10.400
+
+Q HWQNFA            2 WQNFA    6 (6)
+Q Consensus         2 wqnfa    6 (6)
+                      ||.++
+T Consensus       109 W~s~~  113 (113)
+T 3MEZ_D          109 WSTAA  113 (113)
+T ss_dssp             EECC-
+T ss_pred             eecCC
+
+
+No 8
+>6WDZ_A Replication-associated protein (E.C.3.1.21.-); HUH-tag, HUH motif, Rep domain; 2.03A {Porcine circovirus 2}
+Probab=18.34  E-value=1.2e+02  Score=11.29  Aligned_cols=6  Identities=67%  Similarity=0.988  Sum_probs=0.0  Template_Neff=8.500
+
+Q HWQNFA            1 HWQNFA    6 (6)
+Q Consensus         1 hwqnfa    6 (6)
+                      |||-|.
+T Consensus        56 H~Q~~v   61 (115)
+T 6WDZ_A           56 HLQGFA   61 (115)
+T ss_dssp             EEEEEE
+T ss_pred             EEEEEE
+
+
+No 9
+>6VU7_C YbjN protein; STRUCTURAL GENOMICS, CSGID, CENTER FOR; 2.59A {Escherichia coli (strain 55989 / EAEC)}
+Probab=18.32  E-value=1.2e+02  Score=14.08  Aligned_cols=5  Identities=80%  Similarity=1.232  Sum_probs=0.0  Template_Neff=3.700
+
+Q HWQNFA            1 HWQNF    5 (6)
+Q Consensus         1 hwqnf    5 (6)
+                      |+|||
+T Consensus        36 ~mQn~   40 (158)
+T 6VU7_C           36 HMQNF   40 (158)
+T ss_dssp             GGGGS
+T ss_pred             hhcCC
+
+
+No 10
+>5FR7_A AMYR; SIGNALING PROTEIN, AMYLOVORAN, YBJN, FIRE; 1.95A {ERWINIA AMYLOVORA}
+Probab=18.16  E-value=1.2e+02  Score=14.12  Aligned_cols=5  Identities=80%  Similarity=1.232  Sum_probs=0.0  Template_Neff=3.700
+
+Q HWQNFA            1 HWQNF    5 (6)
+Q Consensus         1 hwqnf    5 (6)
+                      |+|||
+T Consensus        40 ~mQn~   44 (163)
+T 5FR7_A           40 HMQNF   44 (163)
+T ss_dssp             GGGGS
+T ss_pred             hhcCC
+
+

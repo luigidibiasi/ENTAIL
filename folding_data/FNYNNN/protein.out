@@ -1,0 +1,148 @@
+Query         FNYNNN
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 21:43:18 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/FNYNNN/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/FNYNNN/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6GAP_A Outer capsid protein si  59.0     8.4 9.3E-05   16.7   0.0    6    1-6     224-229 (261)
+  2 6GAO_B Outer capsid protein si  37.3      32 0.00035   15.0   0.0    6    1-6     213-218 (240)
+  3 6YXX_A2 bL28m, mt-LAF21, uL29m  12.7   2E+02  0.0023   15.6   0.0    5    1-5     411-415 (471)
+  4 6YXY_A2 bL28m, uL29m, uL30m, b  12.7   2E+02  0.0023   15.6   0.0    5    1-5     411-415 (471)
+  5 7AM2_R Ribosomal protein L3-li  11.7 2.3E+02  0.0025   15.5   0.0    5    1-5     420-424 (480)
+  6 7BV0_A Protein ORF2; ORF2, E2S  11.6 2.3E+02  0.0026   14.4   0.0    6    1-6     181-186 (239)
+  7 7ANE_R mL94, mL89, Ribosomal p  11.1 2.5E+02  0.0027   15.4   0.0    5    1-5     419-423 (479)
+  8 7K95_B Isoform 2 of Cleavage a  10.9 2.6E+02  0.0028   10.6   0.0    6    1-6      18-23  (42)
+  9 3K3Q_B llama Aa1 VHH domain, B  10.8 2.6E+02  0.0029   13.0   0.0    5    1-5      10-14  (252)
+ 10 3R2V_A PB2 C-terminal subunit;  10.3 2.8E+02  0.0031   14.0   0.0    4    1-4     119-122 (216)
+
+No 1
+>6GAP_A Outer capsid protein sigma-1; cell attachment protein, reovirus sigma1; 2.15A {Mammalian orthoreovirus 3 Dearing}
+Probab=58.96  E-value=8.4  Score=16.71  Aligned_cols=6  Identities=50%  Similarity=0.689  Sum_probs=3.5  Template_Neff=7.400
+
+Q FNYNNN            1 FNYNNN    6 (6)
+Q Consensus         1 fnynnn    6 (6)
+                      |+|++|
+T Consensus       224 ~~~~~~  229 (261)
+T 6GAP_A          224 FQIVNN  229 (261)
+T ss_dssp             EEEETT
+T ss_pred             EEEEcC
+Confidence            566654
+
+
+No 2
+>6GAO_B Outer capsid protein sigma-1; cell attachment protein, reovirus sigma1; 2.101A {Mammalian orthoreovirus 1 Lang}
+Probab=37.30  E-value=32  Score=14.97  Aligned_cols=6  Identities=67%  Similarity=1.276  Sum_probs=2.9  Template_Neff=7.200
+
+Q FNYNNN            1 FNYNNN    6 (6)
+Q Consensus         1 fnynnn    6 (6)
+                      |+|++|
+T Consensus       213 ~~~~~~  218 (240)
+T 6GAO_B          213 FAYNSN  218 (240)
+T ss_dssp             EEECTT
+T ss_pred             eEEecC
+Confidence            455543
+
+
+No 3
+>6YXX_A2 bL28m, mt-LAF21, uL29m, mt-LAF22, uL30m; mitoribosome, assembly, LSU, RIBOSOME; HET: GTP, ATP, NAD, PM8, MG; 3.9A {Trypanosoma brucei brucei}
+Probab=12.70  E-value=2e+02  Score=15.61  Aligned_cols=5  Identities=60%  Similarity=1.398  Sum_probs=0.0  Template_Neff=2.900
+
+Q FNYNNN            1 FNYNN    5 (6)
+Q Consensus         1 fnynn    5 (6)
+                      |||+|
+T Consensus       411 ~nysn  415 (471)
+T 6YXX_A2         411 YNYTN  415 (471)
+T ss_pred             ccCCc
+
+
+No 4
+>6YXY_A2 bL28m, uL29m, uL30m, bL32m, bL35m; mitoribosome, assembly, LSU, RIBOSOME; HET: ATP, PM8, MG, SPD, NAD, GTP; 3.1A {Trypanosoma brucei brucei}
+Probab=12.70  E-value=2e+02  Score=15.61  Aligned_cols=5  Identities=60%  Similarity=1.398  Sum_probs=0.0  Template_Neff=2.900
+
+Q FNYNNN            1 FNYNN    5 (6)
+Q Consensus         1 fnynn    5 (6)
+                      |||+|
+T Consensus       411 ~nysn  415 (471)
+T 6YXY_A2         411 YNYTN  415 (471)
+T ss_pred             ccCCc
+
+
+No 5
+>7AM2_R Ribosomal protein L3-like protein, uL4m; RIBOSOME, Mitochondria, Kinetoplastid; HET: GTP, ATP; 3.4A {Leishmania tarentolae}
+Probab=11.72  E-value=2.3e+02  Score=15.51  Aligned_cols=5  Identities=60%  Similarity=1.424  Sum_probs=0.0  Template_Neff=2.800
+
+Q FNYNNN            1 FNYNN    5 (6)
+Q Consensus         1 fnynn    5 (6)
+                      |||+|
+T Consensus       420 ~nysn  424 (480)
+T 7AM2_R          420 YNYSN  424 (480)
+T ss_pred             ccccc
+
+
+No 6
+>7BV0_A Protein ORF2; ORF2, E2S, VIRAL PROTEIN; 1.801A {Hepatitis E virus}
+Probab=11.59  E-value=2.3e+02  Score=14.35  Aligned_cols=6  Identities=50%  Similarity=1.193  Sum_probs=0.0  Template_Neff=2.100
+
+Q FNYNNN            1 FNYNNN    6 (6)
+Q Consensus         1 fnynnn    6 (6)
+                      +|||++
+T Consensus       181 Y~Yn~~  186 (239)
+T 7BV0_A          181 YNYNTT  186 (239)
+T ss_dssp             TTTTSS
+T ss_pred             eeccCC
+
+
+No 7
+>7ANE_R mL94, mL89, Ribosomal protein L3-like; Ribosome, Mitochondria, Kinetoplastid; HET: NAD; 3.9A {Leishmania major}
+Probab=11.11  E-value=2.5e+02  Score=15.37  Aligned_cols=5  Identities=60%  Similarity=1.424  Sum_probs=0.0  Template_Neff=2.900
+
+Q FNYNNN            1 FNYNN    5 (6)
+Q Consensus         1 fnynn    5 (6)
+                      |||+|
+T Consensus       419 ~nysn  423 (479)
+T 7ANE_R          419 YNYSN  423 (479)
+T ss_pred             ccccc
+
+
+No 8
+>7K95_B Isoform 2 of Cleavage and; mRNA processing, NUCLEAR PROTEIN; 1.9A {Homo sapiens}
+Probab=10.86  E-value=2.6e+02  Score=10.60  Aligned_cols=6  Identities=67%  Similarity=1.093  Sum_probs=0.0  Template_Neff=3.700
+
+Q FNYNNN            1 FNYNNN    6 (6)
+Q Consensus         1 fnynnn    6 (6)
+                      |||.-|
+T Consensus        18 FNYGF~   23 (42)
+T 7K95_B           18 FNYGFN   23 (42)
+T ss_dssp             BSTTCC
+T ss_pred             cCCCCC
+
+
+No 9
+>3K3Q_B llama Aa1 VHH domain, Botulinum; llama, VHH, antibody, botulinum, neurotoxin; 2.6A {Lama glama}
+Probab=10.79  E-value=2.6e+02  Score=12.96  Aligned_cols=5  Identities=60%  Similarity=1.437  Sum_probs=0.0  Template_Neff=6.000
+
+Q FNYNNN            1 FNYNN    5 (6)
+Q Consensus         1 fnynn    5 (6)
+                      ||||.
+T Consensus        10 fny~d   14 (252)
+T 3K3Q_B           10 FNYKD   14 (252)
+T ss_dssp             CCTTS
+T ss_pred             CCCCC
+
+
+No 10
+>3R2V_A PB2 C-terminal subunit; Structural Genomics, Seattle Structural Genomics; HET: IOD; 1.3A {Influenza A virus}
+Probab=10.28  E-value=2.8e+02  Score=13.98  Aligned_cols=4  Identities=100%  Similarity=1.863  Sum_probs=0.0  Template_Neff=1.600
+
+Q FNYNNN            1 FNYN    4 (6)
+Q Consensus         1 fnyn    4 (6)
+                      ||||
+T Consensus       119 FnYN  122 (216)
+T 3R2V_A          119 FNYN  122 (216)
+T ss_dssp             EEEC
+T ss_pred             cccC
+
+

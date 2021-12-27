@@ -1,0 +1,152 @@
+Query         QAQNQW
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 07:13:50 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QAQNQW/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QAQNQW/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2LN3_A DE NOVO DESIGNED PROTEI  22.8      82 0.00091   13.8   0.0    6    1-6      58-63  (83)
+  2 6PMP_D 1-phosphatidylinositol   22.6      83 0.00092   16.1   0.0    6    1-6     791-796 (818)
+  3 7A48_B Nanobody 49, APH colied  19.1 1.1E+02  0.0012   12.1   0.0    5    2-6      21-25  (42)
+  4 4FBR_A Myxobacterial hemagglut  18.8 1.1E+02  0.0012   14.2   0.0    6    1-6       5-10  (267)
+  5 5YOX_D HD domain-containing pr  17.6 1.3E+02  0.0014   12.7   0.0    5    2-6       3-7   (215)
+  6 5DBR_C Calmodulin, Sodium chan  15.8 1.5E+02  0.0016    9.3   0.0    5    2-6      12-16  (51)
+  7 6SMH_J Ribulose bisphosphate c  14.7 1.7E+02  0.0018   13.8   0.0    4    3-6      47-50  (188)
+  8 6SMH_M Ribulose bisphosphate c  14.6 1.7E+02  0.0018   13.8   0.0    4    3-6      47-50  (188)
+  9 4J7O_A Putative surface cell a  13.8 1.8E+02   0.002   15.4   0.0    6    1-6      20-25  (367)
+ 10 6PMP_C 1-phosphatidylinositol   13.7 1.8E+02   0.002   15.0   0.0    6    1-6     791-796 (818)
+
+No 1
+>2LN3_A DE NOVO DESIGNED PROTEIN OR135; Structural Genomics, NORTHEAST STRUCTURAL GENOMICS; NMR {artificial gene}
+Probab=22.84  E-value=82  Score=13.83  Aligned_cols=6  Identities=67%  Similarity=1.237  Sum_probs=3.5  Template_Neff=1.000
+
+Q QAQNQW            1 QAQNQW    6 (6)
+Q Consensus         1 qaqnqw    6 (6)
+                      |.|.||
+T Consensus        58 qiqkqw   63 (83)
+T 2LN3_A           58 QIQKQW   63 (83)
+T ss_dssp             CEEEEE
+T ss_pred             chhhhh
+Confidence            346666
+
+
+No 2
+>6PMP_D 1-phosphatidylinositol 4,5-bisphosphate phosphodiesterase epsilon-1 (E.C.3.1.4.11); phospholipase, lipase, TIM barrel, Ras-association; 2.73A {Rattus norvegicus}
+Probab=22.64  E-value=83  Score=16.12  Aligned_cols=6  Identities=50%  Similarity=1.027  Sum_probs=4.3  Template_Neff=7.200
+
+Q QAQNQW            1 QAQNQW    6 (6)
+Q Consensus         1 qaqnqw    6 (6)
+                      +||++|
+T Consensus       791 ~~~~~W  796 (818)
+T 6PMP_D          791 QILNSW  796 (818)
+T ss_dssp             HHHTTC
+T ss_pred             HHHHhc
+Confidence            477777
+
+
+No 3
+>7A48_B Nanobody 49, APH colied-coil; coiled-coil, nanobody, antibody, protein design; 1.547A {Lama glama}
+Probab=19.11  E-value=1.1e+02  Score=12.14  Aligned_cols=5  Identities=80%  Similarity=1.265  Sum_probs=0.0  Template_Neff=1.000
+
+Q QAQNQW            2 AQNQW    6 (6)
+Q Consensus         2 aqnqw    6 (6)
+                      ||-||
+T Consensus        21 aqlqw   25 (42)
+T 7A48_B           21 AQLQW   25 (42)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 4
+>4FBR_A Myxobacterial hemagglutinin; beta-barrel, HIV-inactivating, Carbohydrate binding protein; 1.6A {Myxococcus xanthus}
+Probab=18.82  E-value=1.1e+02  Score=14.20  Aligned_cols=6  Identities=67%  Similarity=1.215  Sum_probs=0.0  Template_Neff=5.900
+
+Q QAQNQW            1 QAQNQW    6 (6)
+Q Consensus         1 qaqnqw    6 (6)
+                      +++|||
+T Consensus         5 ~~~~~~   10 (267)
+T 4FBR_A            5 LVQNQW   10 (267)
+T ss_dssp             EEEEEC
+T ss_pred             eeeeec
+
+
+No 5
+>5YOX_D HD domain-containing protein YGL101W; HD domain, Zn, Saccharomyces cerevisiae; HET: MSE; 2.61A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=17.65  E-value=1.3e+02  Score=12.74  Aligned_cols=5  Identities=60%  Similarity=1.132  Sum_probs=0.0  Template_Neff=7.800
+
+Q QAQNQW            2 AQNQW    6 (6)
+Q Consensus         2 aqnqw    6 (6)
+                      |+++|
+T Consensus         3 ~~~~~    7 (215)
+T 5YOX_D            3 AVNIW    7 (215)
+T ss_dssp             ----C
+T ss_pred             CCCCC
+
+
+No 6
+>5DBR_C Calmodulin, Sodium channel protein type; Calmodulin, NaV1.5, Inactivation gate, Metal; 2.25A {Homo sapiens}
+Probab=15.76  E-value=1.5e+02  Score=9.30  Aligned_cols=5  Identities=20%  Similarity=0.607  Sum_probs=0.0  Template_Neff=8.900
+
+Q QAQNQW            2 AQNQW    6 (6)
+Q Consensus         2 aqnqw    6 (6)
+                      .|.+|
+T Consensus        12 ~Qr~W   16 (51)
+T 5DBR_C           12 EQKKY   16 (51)
+T ss_dssp             HHH--
+T ss_pred             HHHHH
+
+
+No 7
+>6SMH_J Ribulose bisphosphate carboxylase large chain; Rubisco, Rubisco accumulation factor1, Raf1; 4.3A {Synechococcus elongatus (strain PCC 7942 / FACHB-805)}
+Probab=14.65  E-value=1.7e+02  Score=13.84  Aligned_cols=4  Identities=75%  Similarity=0.617  Sum_probs=0.0  Template_Neff=4.000
+
+Q QAQNQW            3 QNQW    6 (6)
+Q Consensus         3 qnqw    6 (6)
+                      ||||
+T Consensus        47 QN~i   50 (188)
+T 6SMH_J           47 QNQI   50 (188)
+T ss_dssp             TTHH
+T ss_pred             hchh
+
+
+No 8
+>6SMH_M Ribulose bisphosphate carboxylase large chain; Rubisco, Rubisco accumulation factor1, Raf1; 4.3A {Synechococcus elongatus (strain PCC 7942 / FACHB-805)}
+Probab=14.60  E-value=1.7e+02  Score=13.83  Aligned_cols=4  Identities=75%  Similarity=0.617  Sum_probs=0.0  Template_Neff=4.000
+
+Q QAQNQW            3 QNQW    6 (6)
+Q Consensus         3 qnqw    6 (6)
+                      ||||
+T Consensus        47 QN~i   50 (188)
+T 6SMH_M           47 QNQI   50 (188)
+T ss_dssp             HHHH
+T ss_pred             hhhh
+
+
+No 9
+>4J7O_A Putative surface cell antigen sca2; Helical repeat, actin nucleation, actin; HET: GOL; 2.175A {Rickettsia conorii}
+Probab=13.75  E-value=1.8e+02  Score=15.39  Aligned_cols=6  Identities=67%  Similarity=1.182  Sum_probs=0.0  Template_Neff=2.600
+
+Q QAQNQW            1 QAQNQW    6 (6)
+Q Consensus         1 qaqnqw    6 (6)
+                      |.||.|
+T Consensus        20 q~~n~w   25 (367)
+T 4J7O_A           20 QQQNIW   25 (367)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 10
+>6PMP_C 1-phosphatidylinositol 4,5-bisphosphate phosphodiesterase epsilon-1 (E.C.3.1.4.11); phospholipase, lipase, TIM barrel, Ras-association; 2.73A {Rattus norvegicus}
+Probab=13.72  E-value=1.8e+02  Score=14.98  Aligned_cols=6  Identities=50%  Similarity=1.027  Sum_probs=0.0  Template_Neff=7.300
+
+Q QAQNQW            1 QAQNQW    6 (6)
+Q Consensus         1 qaqnqw    6 (6)
+                      +|+++|
+T Consensus       791 ~a~~~W  796 (818)
+T 6PMP_C          791 QILNSW  796 (818)
+T ss_dssp             HHHTTC
+T ss_pred             HHHHhh
+
+

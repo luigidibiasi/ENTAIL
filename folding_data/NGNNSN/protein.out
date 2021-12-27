@@ -1,0 +1,148 @@
+Query         NGNNSN
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 00:23:50 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NGNNSN/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NGNNSN/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5KJH_A Putative uncharacterize   6.9 4.7E+02  0.0052   11.7   0.0    6    1-6     481-486 (605)
+  2 2N28_A Protein Vpu; alpha heli   6.4 5.2E+02  0.0057   10.8   0.0    6    1-6      52-57  (81)
+  3 3HXP_A Iron(3+)-hydroxamate-bi   6.1 5.5E+02  0.0061   10.7   0.0    4    2-5       2-5   (300)
+  4 7DAA_A Basigin, Fab, antibody,   6.0 5.6E+02  0.0062    8.4   0.0    6    1-6     163-168 (176)
+  5 7DCE_B XKR8, basigin, scrambla   6.0 5.6E+02  0.0062    8.4   0.0    6    1-6     163-168 (176)
+  6 4V6W_Ae Ribosome; eukarya, euk   5.9 5.7E+02  0.0063    9.2   0.0    5    2-6     126-130 (132)
+  7 3FIW_C Putative tetR-family tr   5.3 6.7E+02  0.0074    9.1   0.0    6    1-6       1-6   (211)
+  8 1ZV4_X Regulator of G-protein    5.0 7.1E+02  0.0078    9.5   0.0    5    1-5      14-18  (158)
+  9 6ZJ8_D Virulence sensor protei   4.5 8.1E+02  0.0089    7.4   0.0    5    2-6       3-7   (162)
+ 10 4OGD_A Succinate-semialdehyde    4.5 8.2E+02  0.0091   10.9   0.0    4    3-6     459-462 (465)
+
+No 1
+>5KJH_A Putative uncharacterized protein, Zinc finger; Complex, Methyltransferase, TRANSFERASE; HET: SAH, M3L; 2.27A {Chaetomium thermophilum (strain DSM 1495 / CBS 144.50 / IMI 039719)}
+Probab=6.94  E-value=4.7e+02  Score=11.73  Aligned_cols=6  Identities=67%  Similarity=0.916  Sum_probs=0.0  Template_Neff=10.300
+
+Q NGNNSN            1 NGNNSN    6 (6)
+Q Consensus         1 ngnnsn    6 (6)
+                      |+||++
+T Consensus       481 ~~~~~~  486 (605)
+T 5KJH_A          481 NNNNNN  486 (605)
+T ss_dssp             ------
+T ss_pred             cCCcCC
+
+
+No 2
+>2N28_A Protein Vpu; alpha helix, VIRAL PROTEIN; NMR {Human immunodeficiency virus 1}
+Probab=6.43  E-value=5.2e+02  Score=10.82  Aligned_cols=6  Identities=50%  Similarity=0.850  Sum_probs=0.0  Template_Neff=4.100
+
+Q NGNNSN            1 NGNNSN    6 (6)
+Q Consensus         1 ngnnsn    6 (6)
+                      .||.|+
+T Consensus        52 SGnES~   57 (81)
+T 2N28_A           52 SGNESE   57 (81)
+T ss_dssp             CCSCCC
+T ss_pred             CCCCcC
+
+
+No 3
+>3HXP_A Iron(3+)-hydroxamate-binding protein fhuD; alpha-beta protein, Structural Genomics, PSI-2; 3.2A {Bacillus subtilis}
+Probab=6.12  E-value=5.5e+02  Score=10.70  Aligned_cols=4  Identities=100%  Similarity=1.365  Sum_probs=0.0  Template_Neff=9.500
+
+Q NGNNSN            2 GNNS    5 (6)
+Q Consensus         2 gnns    5 (6)
+                      ||||
+T Consensus         2 ~~~~    5 (300)
+T 3HXP_A            2 GNNS    5 (300)
+T ss_dssp             ----
+T ss_pred             CCcc
+
+
+No 4
+>7DAA_A Basigin, Fab, antibody, complex, CHAPERONE; HET: CD; 2.51A {Homo sapiens}
+Probab=6.03  E-value=5.6e+02  Score=8.45  Aligned_cols=6  Identities=33%  Similarity=0.362  Sum_probs=0.0  Template_Neff=12.300
+
+Q NGNNSN            1 NGNNSN    6 (6)
+Q Consensus         1 ngnnsn    6 (6)
+                      +.+|||
+T Consensus       163 ~~~~~~  168 (176)
+T 7DAA_A          163 RQRNSS  168 (176)
+T ss_dssp             ------
+T ss_pred             hhhccc
+
+
+No 5
+>7DCE_B XKR8, basigin, scramblase, phospholipid, TRANSPORT; HET: DLP; 3.8A {Homo sapiens}
+Probab=6.03  E-value=5.6e+02  Score=8.45  Aligned_cols=6  Identities=33%  Similarity=0.362  Sum_probs=0.0  Template_Neff=12.300
+
+Q NGNNSN            1 NGNNSN    6 (6)
+Q Consensus         1 ngnnsn    6 (6)
+                      +.+|||
+T Consensus       163 ~~~~~~  168 (176)
+T 7DCE_B          163 RQRNSS  168 (176)
+T ss_pred             hhhccc
+
+
+No 6
+>4V6W_Ae Ribosome; eukarya, eukaryotic, ribosomal, 80S, RNA; 6.0A {Drosophila melanogaster}
+Probab=5.95  E-value=5.7e+02  Score=9.22  Aligned_cols=5  Identities=60%  Similarity=0.959  Sum_probs=0.0  Template_Neff=9.600
+
+Q NGNNSN            2 GNNSN    6 (6)
+Q Consensus         2 gnnsn    6 (6)
+                      |.|+|
+T Consensus       126 ~~~~~  130 (132)
+T 4V6W_Ae         126 GPNAN  130 (132)
+T ss_pred             CCCCC
+
+
+No 7
+>3FIW_C Putative tetR-family transcriptional regulator; TETR-FAMILY TRANSCRIPTIONAL REGULATOR Streptomyces, Structural; HET: MSE; 2.2A {Streptomyces coelicolor}
+Probab=5.27  E-value=6.7e+02  Score=9.14  Aligned_cols=6  Identities=17%  Similarity=0.401  Sum_probs=0.0  Template_Neff=11.100
+
+Q NGNNSN            1 NGNNSN    6 (6)
+Q Consensus         1 ngnnsn    6 (6)
+                      ++|+++
+T Consensus         1 ~~~~~~    6 (211)
+T 3FIW_C            1 MGSSHH    6 (211)
+T ss_dssp             ------
+T ss_pred             CCCccc
+
+
+No 8
+>1ZV4_X Regulator of G-protein signaling 17; Human RGSZ2, Human RGS17(Z2) ; 2.4A {Homo sapiens}
+Probab=5.02  E-value=7.1e+02  Score=9.46  Aligned_cols=5  Identities=20%  Similarity=0.129  Sum_probs=0.0  Template_Neff=9.200
+
+Q NGNNSN            1 NGNNS    5 (6)
+Q Consensus         1 ngnns    5 (6)
+                      +|++|
+T Consensus        14 ~~~~~   18 (158)
+T 1ZV4_X           14 GTENL   18 (158)
+T ss_dssp             ----C
+T ss_pred             Ccccc
+
+
+No 9
+>6ZJ8_D Virulence sensor protein BvgS (E.C.2.7.13.3); PAS domain sensor histidine-kinase, SIGNALING; 2.4A {Bordetella pertussis (strain Tohama I / ATCC BAA-589 / NCTC 13251)}
+Probab=4.54  E-value=8.1e+02  Score=7.41  Aligned_cols=5  Identities=20%  Similarity=0.302  Sum_probs=0.0  Template_Neff=13.400
+
+Q NGNNSN            2 GNNSN    6 (6)
+Q Consensus         2 gnnsn    6 (6)
+                      .|||+
+T Consensus         3 ~~~~~    7 (162)
+T 6ZJ8_D            3 SRGSH    7 (162)
+T ss_dssp             -----
+T ss_pred             Ccccc
+
+
+No 10
+>4OGD_A Succinate-semialdehyde dehydrogenase; SSADH, GabD, Rossmann Fold, Dehydrogenase; 1.6A {Streptococcus pyogenes MGAS1882}
+Probab=4.48  E-value=8.2e+02  Score=10.87  Aligned_cols=4  Identities=100%  Similarity=1.132  Sum_probs=0.0  Template_Neff=9.700
+
+Q NGNNSN            3 NNSN    6 (6)
+Q Consensus         3 nnsn    6 (6)
+                      ||||
+T Consensus       459 ~~~~  462 (465)
+T 4OGD_A          459 NNSN  462 (465)
+T ss_dssp             ----
+T ss_pred             CCCc
+
+

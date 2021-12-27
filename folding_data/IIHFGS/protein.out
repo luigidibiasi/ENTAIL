@@ -1,0 +1,150 @@
+Query         IIHFGS
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 08:17:30 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/IIHFGS/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/IIHFGS/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6GG1_A Interleukin-24; cytokin  36.9      33 0.00036   14.4   0.0    6    1-6       1-6   (154)
+  2 3TZT_A Glycosyl transferase fa  19.8   1E+02  0.0011   11.7   0.0    6    1-6     242-247 (276)
+  3 5Z48_B Pyrrolidone-carboxylate  19.4 1.1E+02  0.0012   13.0   0.0    5    1-5      68-72  (220)
+  4 1NO5_B Hypothetical protein HI  19.1 1.1E+02  0.0012   10.6   0.0    6    1-6      30-35  (114)
+  5 1IU8_B Pyrrolidone-carboxylate  19.1 1.1E+02  0.0012   12.6   0.0    5    1-5      61-65  (206)
+  6 2H3H_A Sugar ABC transporter,   19.0 1.1E+02  0.0012   11.7   0.0    5    2-6     303-307 (313)
+  7 3CR3_D PTS-dependent dihydroxy  18.5 1.2E+02  0.0013   11.8   0.0    6    1-6      62-67  (121)
+  8 7NS1_A pepG1, sprG1 product, S  18.0 1.2E+02  0.0013   10.8   0.0    6    1-6       7-12  (31)
+  9 3DPJ_A Transcription regulator  17.5 1.3E+02  0.0014   10.4   0.0    4    3-6      48-51  (194)
+ 10 3DPJ_H Transcription regulator  17.5 1.3E+02  0.0014   10.4   0.0    4    3-6      48-51  (194)
+
+No 1
+>6GG1_A Interleukin-24; cytokine, IL-10 family, immunity, automated; HET: SO4; 1.3A {Homo sapiens}
+Probab=36.86  E-value=33  Score=14.41  Aligned_cols=6  Identities=50%  Similarity=1.121  Sum_probs=3.9  Template_Neff=6.500
+
+Q IIHFGS            1 IIHFGS    6 (6)
+Q Consensus         1 iihfgs    6 (6)
+                      +.|||+
+T Consensus         1 ~~~~g~    6 (154)
+T 6GG1_A            1 AFHFGP    6 (154)
+T ss_pred             CCCcCC
+Confidence            457775
+
+
+No 2
+>3TZT_A Glycosyl transferase family 8; Structural Genomics, PSI-Biology, Midwest Center; HET: CIT, EDO; 2.1A {Anaerococcus prevotii}
+Probab=19.84  E-value=1e+02  Score=11.69  Aligned_cols=6  Identities=33%  Similarity=0.960  Sum_probs=0.0  Template_Neff=11.100
+
+Q IIHFGS            1 IIHFGS    6 (6)
+Q Consensus         1 iihfgs    6 (6)
+                      ||||.+
+T Consensus       242 iiHf~g  247 (276)
+T 3TZT_A          242 VLHFCG  247 (276)
+T ss_dssp             EEECCS
+T ss_pred             EEecCC
+
+
+No 3
+>5Z48_B Pyrrolidone-carboxylate peptidase (E.C.3.4.19.3); omega peptidase, pyroglutamate, exopeptidase, HYDROLASE; HET: DMS, PCA; 1.551A {Deinococcus radiodurans R1}
+Probab=19.43  E-value=1.1e+02  Score=12.97  Aligned_cols=5  Identities=20%  Similarity=0.561  Sum_probs=0.0  Template_Neff=7.800
+
+Q IIHFGS            1 IIHFG    5 (6)
+Q Consensus         1 iihfg    5 (6)
+                      +||+|
+T Consensus        68 vih~G   72 (220)
+T 5Z48_B           68 VLLTG   72 (220)
+T ss_dssp             EEEEE
+T ss_pred             EEEEE
+
+
+No 4
+>1NO5_B Hypothetical protein HI0073; HI0073, HI0074, structural genomics, nucleotidyl; HET: SO4; 1.8A {Haemophilus influenzae} SCOP: d.218.1.5
+Probab=19.10  E-value=1.1e+02  Score=10.62  Aligned_cols=6  Identities=50%  Similarity=0.905  Sum_probs=0.0  Template_Neff=9.900
+
+Q IIHFGS            1 IIHFGS    6 (6)
+Q Consensus         1 iihfgs    6 (6)
+                      ++-|||
+T Consensus        30 v~lfGS   35 (114)
+T 1NO5_B           30 VWAFGS   35 (114)
+T ss_dssp             EEEEST
+T ss_pred             EEEEec
+
+
+No 5
+>1IU8_B Pyrrolidone-carboxylate peptidase(E.C.3.4.19.3); Hydrolase, Thiol protease; 1.6A {Pyrococcus horikoshii} SCOP: c.56.4.1
+Probab=19.09  E-value=1.1e+02  Score=12.61  Aligned_cols=5  Identities=40%  Similarity=0.879  Sum_probs=0.0  Template_Neff=8.200
+
+Q IIHFGS            1 IIHFG    5 (6)
+Q Consensus         1 iihfg    5 (6)
+                      +||+|
+T Consensus        61 vlh~G   65 (206)
+T 1IU8_B           61 TINLG   65 (206)
+T ss_dssp             EEEEE
+T ss_pred             EEEee
+
+
+No 6
+>2H3H_A Sugar ABC transporter, periplasmic sugar-binding; glucose binding protein, periplasmic binding; HET: BGC; 1.7A {Thermotoga maritima}
+Probab=18.99  E-value=1.1e+02  Score=11.73  Aligned_cols=5  Identities=80%  Similarity=1.358  Sum_probs=0.0  Template_Neff=11.300
+
+Q IIHFGS            2 IHFGS    6 (6)
+Q Consensus         2 ihfgs    6 (6)
+                      |.|||
+T Consensus       303 ~~~~~  307 (313)
+T 2H3H_A          303 IKFGS  307 (313)
+T ss_dssp             CSSSC
+T ss_pred             cccCC
+
+
+No 7
+>3CR3_D PTS-dependent dihydroxyacetone kinase, ADP-binding subunit; Transient Protein-protein complex TRANSFERASE complex; HET: ADP, MSE; 2.1A {Lactococcus lactis subsp. lactis} SCOP: c.54.1.2
+Probab=18.55  E-value=1.2e+02  Score=11.75  Aligned_cols=6  Identities=33%  Similarity=0.733  Sum_probs=0.0  Template_Neff=7.800
+
+Q IIHFGS            1 IIHFGS    6 (6)
+Q Consensus         1 iihfgs    6 (6)
+                      ++|+|+
+T Consensus        62 lihlG~   67 (121)
+T 3CR3_D           62 FFDLGS   67 (121)
+T ss_dssp             EESSHH
+T ss_pred             EEEEeh
+
+
+No 8
+>7NS1_A pepG1, sprG1 product, S. aureus; NMR {N/A}
+Probab=18.04  E-value=1.2e+02  Score=10.75  Aligned_cols=6  Identities=33%  Similarity=0.999  Sum_probs=0.0  Template_Neff=4.000
+
+Q IIHFGS            1 IIHFGS    6 (6)
+Q Consensus         1 iihfgs    6 (6)
+                      ++.||+
+T Consensus         7 ml~FG~   12 (31)
+T 7NS1_A            7 MLQFGL   12 (31)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 9
+>3DPJ_A Transcription regulator, TetR family; APC88616, TetR, Silicibacter pomeroyi DSS; HET: MES, MSE, EDO; 1.9A {Silicibacter pomeroyi}
+Probab=17.54  E-value=1.3e+02  Score=10.39  Aligned_cols=4  Identities=50%  Similarity=1.115  Sum_probs=0.0  Template_Neff=11.900
+
+Q IIHFGS            3 HFGS    6 (6)
+Q Consensus         3 hfgs    6 (6)
+                      ||+|
+T Consensus        48 ~F~s   51 (194)
+T 3DPJ_A           48 HFKT   51 (194)
+T ss_dssp             HCSS
+T ss_pred             hCCC
+
+
+No 10
+>3DPJ_H Transcription regulator, TetR family; APC88616, TetR, Silicibacter pomeroyi DSS; HET: MES, MSE, EDO; 1.9A {Silicibacter pomeroyi}
+Probab=17.54  E-value=1.3e+02  Score=10.39  Aligned_cols=4  Identities=50%  Similarity=1.115  Sum_probs=0.0  Template_Neff=11.900
+
+Q IIHFGS            3 HFGS    6 (6)
+Q Consensus         3 hfgs    6 (6)
+                      ||+|
+T Consensus        48 ~F~s   51 (194)
+T 3DPJ_H           48 HFKT   51 (194)
+T ss_dssp             TCSC
+T ss_pred             hCCC
+
+

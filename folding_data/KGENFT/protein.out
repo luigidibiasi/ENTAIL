@@ -1,0 +1,155 @@
+Query         KGENFT
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 10:47:41 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/KGENFT/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/KGENFT/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2KTM_A Major prion protein; H2  45.0      20 0.00022   15.7   0.0    6    1-6      52-57  (89)
+  2 6AQ7_A Major prion protein, PO  31.8      44 0.00049   15.3   0.0    6    1-6      90-95  (122)
+  3 1Y16_A prion protein, PrP, Prn  31.2      46 0.00051   15.0   0.0    6    1-6      74-79  (112)
+  4 4HLS_B Major prion protein; pr  25.1      70 0.00077   14.8   0.0    6    1-6      96-101 (132)
+  5 4HMM_A Major prion protein; pr  25.0      70 0.00078   14.8   0.0    6    1-6      96-101 (132)
+  6 2LFT_A Major prion protein; pr  15.1 1.6E+02  0.0018   13.8   0.0    6    1-6     105-110 (142)
+  7 3IAG_C Recombining binding pro  15.1 1.6E+02  0.0018   14.8   0.0    5    2-6     349-353 (422)
+  8 1YUI_A GAGA-FACTOR/DNA Complex  13.8 1.8E+02   0.002    7.2   0.0    6    1-6       2-7   (54)
+  9 5E24_F Maltose-binding peripla  13.2 1.9E+02  0.0021   14.5   0.0    5    2-6     351-355 (424)
+ 10 1UAD_D Ras-related protein Ral  11.3 2.4E+02  0.0027    9.5   0.0    5    1-5      27-31  (99)
+
+No 1
+>2KTM_A Major prion protein; H2H3, Prion Protein, Peptide folding; NMR {Ovis aries}
+Probab=45.05  E-value=20  Score=15.67  Aligned_cols=6  Identities=100%  Similarity=1.481  Sum_probs=3.6  Template_Neff=2.300
+
+Q KGENFT            1 KGENFT    6 (6)
+Q Consensus         1 kgenft    6 (6)
+                      |||||+
+T Consensus        52 kgen~t   57 (89)
+T 2KTM_A           52 KGENFT   57 (89)
+T ss_dssp             TTSCCH
+T ss_pred             CCcccc
+Confidence            466764
+
+
+No 2
+>6AQ7_A Major prion protein, POM6 FAB; Prion, antibody, chaperone, antigen-antibody, IMMUNE; HET: TCE, GOL; 1.83A {Mus musculus}
+Probab=31.83  E-value=44  Score=15.29  Aligned_cols=6  Identities=100%  Similarity=1.481  Sum_probs=3.5  Template_Neff=2.300
+
+Q KGENFT            1 KGENFT    6 (6)
+Q Consensus         1 kgenft    6 (6)
+                      ||||||
+T Consensus        90 kgen~t   95 (122)
+T 6AQ7_A           90 KGENFT   95 (122)
+T ss_dssp             TTCCCC
+T ss_pred             CCcccc
+Confidence            466664
+
+
+No 3
+>1Y16_A prion protein, PrP, PrnP, TSE; NMR {Mus musculus}
+Probab=31.16  E-value=46  Score=15.03  Aligned_cols=6  Identities=100%  Similarity=1.481  Sum_probs=3.4  Template_Neff=2.400
+
+Q KGENFT            1 KGENFT    6 (6)
+Q Consensus         1 kgenft    6 (6)
+                      ||||||
+T Consensus        74 kg~n~t   79 (112)
+T 1Y16_A           74 KGENFT   79 (112)
+T ss_dssp             TTCCCC
+T ss_pred             CCcccc
+Confidence            356664
+
+
+No 4
+>4HLS_B Major prion protein; prp, prion, membrane, MEMBRANE PROTEIN; HET: GOL; 1.45A {Oryctolagus cuniculus}
+Probab=25.07  E-value=70  Score=14.77  Aligned_cols=6  Identities=100%  Similarity=1.481  Sum_probs=3.3  Template_Neff=2.600
+
+Q KGENFT            1 KGENFT    6 (6)
+Q Consensus         1 kgenft    6 (6)
+                      |||||+
+T Consensus        96 kgen~t  101 (132)
+T 4HLS_B           96 KGENFT  101 (132)
+T ss_dssp             TTCCCC
+T ss_pred             CCCCcc
+Confidence            356664
+
+
+No 5
+>4HMM_A Major prion protein; prp, prion, membrane, MEMBRANE PROTEIN; HET: GOL; 1.5A {Oryctolagus cuniculus}
+Probab=24.98  E-value=70  Score=14.77  Aligned_cols=6  Identities=100%  Similarity=1.481  Sum_probs=3.3  Template_Neff=2.600
+
+Q KGENFT            1 KGENFT    6 (6)
+Q Consensus         1 kgenft    6 (6)
+                      |||||+
+T Consensus        96 kgen~t  101 (132)
+T 4HMM_A           96 KGENFT  101 (132)
+T ss_dssp             TTCCCC
+T ss_pred             CCCCcc
+Confidence            356664
+
+
+No 6
+>2LFT_A Major prion protein; protective mutant, membrane protein, protein; NMR {Homo sapiens}
+Probab=15.12  E-value=1.6e+02  Score=13.80  Aligned_cols=6  Identities=100%  Similarity=1.481  Sum_probs=0.0  Template_Neff=2.700
+
+Q KGENFT            1 KGENFT    6 (6)
+Q Consensus         1 kgenft    6 (6)
+                      ||+||+
+T Consensus       105 kg~n~~  110 (142)
+T 2LFT_A          105 KGENFT  110 (142)
+T ss_dssp             HHCCCC
+T ss_pred             CCCccc
+
+
+No 7
+>3IAG_C Recombining binding protein suppressor of; protein-DNA complex, signaling, transcription, Notch; HET: EDO, XYL; 2.0A {Mus musculus}
+Probab=15.11  E-value=1.6e+02  Score=14.79  Aligned_cols=5  Identities=80%  Similarity=1.438  Sum_probs=0.0  Template_Neff=5.500
+
+Q KGENFT            2 GENFT    6 (6)
+Q Consensus         2 genft    6 (6)
+                      ||||+
+T Consensus       349 G~nF~  353 (422)
+T 3IAG_C          349 GQNFT  353 (422)
+T ss_dssp             EESCC
+T ss_pred             EeCCC
+
+
+No 8
+>1YUI_A GAGA-FACTOR/DNA Complex; COMPLEX (DNA-BINDING PROTEIN-DNA), CHROMATIN REMODELING; NMR {Drosophila melanogaster} SCOP: g.37.1.1
+Probab=13.77  E-value=1.8e+02  Score=7.16  Aligned_cols=6  Identities=17%  Similarity=0.169  Sum_probs=0.0  Template_Neff=12.800
+
+Q KGENFT            1 KGENFT    6 (6)
+Q Consensus         1 kgenft    6 (6)
+                      +|..|.
+T Consensus         2 ~~~~~~    7 (54)
+T 1YUI_A            2 KAKRAK    7 (54)
+T ss_dssp             CCCCCS
+T ss_pred             ccccCC
+
+
+No 9
+>5E24_F Maltose-binding periplasmic protein, Protein hairless; Notch Signaling, Suppressor of Hairless; HET: GLC, EDO; 2.14A {Escherichia coli O157:H7}
+Probab=13.24  E-value=1.9e+02  Score=14.53  Aligned_cols=5  Identities=80%  Similarity=1.504  Sum_probs=0.0  Template_Neff=5.500
+
+Q KGENFT            2 GENFT    6 (6)
+Q Consensus         2 genft    6 (6)
+                      ||||+
+T Consensus       351 GenF~  355 (424)
+T 5E24_F          351 GDNFT  355 (424)
+T ss_dssp             EECCC
+T ss_pred             EeCCC
+
+
+No 10
+>1UAD_D Ras-related protein Ral-A/Exocyst complex component; small GTP-binding protein, immunogloblin-like fold; HET: GNP; 2.1A {Homo sapiens} SCOP: b.1.18.18
+Probab=11.30  E-value=2.4e+02  Score=9.47  Aligned_cols=5  Identities=60%  Similarity=1.245  Sum_probs=0.0  Template_Neff=10.000
+
+Q KGENFT            1 KGENF    5 (6)
+Q Consensus         1 kgenf    5 (6)
+                      .|.||
+T Consensus        27 ~G~nf   31 (99)
+T 1UAD_D           27 RGENL   31 (99)
+T ss_dssp             EEECC
+T ss_pred             EEEcC
+
+

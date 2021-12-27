@@ -1,0 +1,153 @@
+Query         QFNPQG
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 07:35:48 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QFNPQG/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QFNPQG/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3FXD_B Protein IcmQ, Protein I  34.9      37 0.00041   14.6   0.0    6    1-6      35-40  (73)
+  2 3FXD_D Protein IcmQ, Protein I  34.9      37 0.00041   14.6   0.0    6    1-6      35-40  (73)
+  3 3FXE_B 4 helix bundle, helix-t  34.9      37 0.00041   14.6   0.0    6    1-6      35-40  (73)
+  4 5B7I_A CRISPR-associated nucle  28.8      54  0.0006   17.1   0.0    6    1-6      87-92  (1082)
+  5 4CWC_A REPLICATION INITIATION   19.6 1.1E+02  0.0012   13.5   0.0    6    1-6      78-83  (281)
+  6 5LE5_G Proteasome subunit alph  19.5 1.1E+02  0.0012   12.3   0.0    5    2-6      16-20  (246)
+  7 4R18_S PROTEASOME SUBUNIT ALPH  19.5 1.1E+02  0.0012   12.2   0.0    5    2-6      13-17  (234)
+  8 3UP8_A Putative 2,5-diketo-D-g  19.2 1.1E+02  0.0012   12.8   0.0    5    2-6     287-291 (298)
+  9 6Z46_B Proteasome subunit alph  18.9 1.1E+02  0.0012   12.2   0.0    5    2-6      17-21  (242)
+ 10 1RYP_A 20S PROTEASOME; MULTICA  18.8 1.1E+02  0.0012   12.3   0.0    5    2-6      10-14  (243)
+
+No 1
+>3FXD_B Protein IcmQ, Protein IcmR; 4 helix bundle, helix-turn-helix, UNKNOWN; 2.1A {Legionella pneumophila}
+Probab=34.87  E-value=37  Score=14.61  Aligned_cols=6  Identities=67%  Similarity=1.342  Sum_probs=3.9  Template_Neff=1.400
+
+Q QFNPQG            1 QFNPQG    6 (6)
+Q Consensus         1 qfnpqg    6 (6)
+                      .|||.|
+T Consensus        35 sfnpgg   40 (73)
+T 3FXD_B           35 SFNPGG   40 (73)
+T ss_dssp             HHSCCC
+T ss_pred             ccCCCC
+Confidence            378765
+
+
+No 2
+>3FXD_D Protein IcmQ, Protein IcmR; 4 helix bundle, helix-turn-helix, UNKNOWN; 2.1A {Legionella pneumophila}
+Probab=34.87  E-value=37  Score=14.61  Aligned_cols=6  Identities=67%  Similarity=1.342  Sum_probs=3.9  Template_Neff=1.400
+
+Q QFNPQG            1 QFNPQG    6 (6)
+Q Consensus         1 qfnpqg    6 (6)
+                      .|||.|
+T Consensus        35 sfnpgg   40 (73)
+T 3FXD_D           35 SFNPGG   40 (73)
+T ss_dssp             GGTTTC
+T ss_pred             ccCCCC
+Confidence            378765
+
+
+No 3
+>3FXE_B 4 helix bundle, helix-turn-helix, Se-Met; 2.2A {Legionella pneumophila}
+Probab=34.86  E-value=37  Score=14.61  Aligned_cols=6  Identities=67%  Similarity=1.342  Sum_probs=3.9  Template_Neff=1.400
+
+Q QFNPQG            1 QFNPQG    6 (6)
+Q Consensus         1 qfnpqg    6 (6)
+                      .|||.|
+T Consensus        35 sfnpgg   40 (73)
+T 3FXE_B           35 SFNPGG   40 (73)
+T ss_dssp             HHCCSC
+T ss_pred             ccCCCC
+Confidence            378765
+
+
+No 4
+>5B7I_A CRISPR-associated nuclease/helicase Cas3 subtype I-F/YPEST; DNA nuclease, phagy protein, Anti-CRISPR; HET: ADP, MSE; 2.6A {Pseudomonas aeruginosa (strain UCBPP-PA14)}
+Probab=28.80  E-value=54  Score=17.06  Aligned_cols=6  Identities=67%  Similarity=1.215  Sum_probs=4.5  Template_Neff=7.600
+
+Q QFNPQG            1 QFNPQG    6 (6)
+Q Consensus         1 qfnpqg    6 (6)
+                      +||+||
+T Consensus        87 ~fn~~g   92 (1082)
+T 5B7I_A           87 RFNAQG   92 (1082)
+T ss_dssp             TBCSSS
+T ss_pred             ccCCCC
+Confidence            588876
+
+
+No 5
+>4CWC_A REPLICATION INITIATION PROTEIN, REPLICATION INITIATION; ISOMERASE, ANTIBIOTIC RESISTANCE, RELAXASE, PCRA; 2.9A {STAPHYLOCOCCUS AUREUS}
+Probab=19.56  E-value=1.1e+02  Score=13.54  Aligned_cols=6  Identities=50%  Similarity=1.093  Sum_probs=0.0  Template_Neff=7.600
+
+Q QFNPQG            1 QFNPQG    6 (6)
+Q Consensus         1 qfnpqg    6 (6)
+                      +|||++
+T Consensus        78 ef~p~~   83 (281)
+T 4CWC_A           78 EFNPNK   83 (281)
+T ss_dssp             EECGGG
+T ss_pred             EECHHh
+
+
+No 6
+>5LE5_G Proteasome subunit alpha type-2 (E.C.3.4.25.1); Proteasome, Multicatalytic Proteinase, NTN-Hydrolase, hydrolase; HET: 6V1, YCM, 1PE, MG, CL; 1.8A {Homo sapiens}
+Probab=19.54  E-value=1.1e+02  Score=12.31  Aligned_cols=5  Identities=60%  Similarity=1.584  Sum_probs=0.0  Template_Neff=9.500
+
+Q QFNPQG            2 FNPQG    6 (6)
+Q Consensus         2 fnpqg    6 (6)
+                      |+|+|
+T Consensus        16 f~~~G   20 (246)
+T 5LE5_G           16 FSPEG   20 (246)
+T ss_dssp             CCTTS
+T ss_pred             eCCCC
+
+
+No 7
+>4R18_S PROTEASOME SUBUNIT ALPHA TYPE-2 (E.C.3.4.25.1); Proteasome, Drug Development, Binding Analysis; HET: MG, ABA; 2.4A {Saccharomyces cerevisiae S288c}
+Probab=19.48  E-value=1.1e+02  Score=12.15  Aligned_cols=5  Identities=60%  Similarity=1.471  Sum_probs=0.0  Template_Neff=9.600
+
+Q QFNPQG            2 FNPQG    6 (6)
+Q Consensus         2 fnpqg    6 (6)
+                      |+|.|
+T Consensus        13 fs~~G   17 (234)
+T 4R18_S           13 FSPTG   17 (234)
+T ss_dssp             CCTTS
+T ss_pred             cCCCC
+
+
+No 8
+>3UP8_A Putative 2,5-diketo-D-gluconic acid reductase B; NYSGRC, PSI-Biology, Structural Genomics, New; HET: MSE; 1.96A {Sinorhizobium meliloti}
+Probab=19.18  E-value=1.1e+02  Score=12.79  Aligned_cols=5  Identities=80%  Similarity=1.385  Sum_probs=0.0  Template_Neff=9.200
+
+Q QFNPQG            2 FNPQG    6 (6)
+Q Consensus         2 fnpqg    6 (6)
+                      +||+|
+T Consensus       287 ~~~~~  291 (298)
+T 3UP8_A          287 VNPQG  291 (298)
+T ss_dssp             CCBTT
+T ss_pred             cCCCC
+
+
+No 9
+>6Z46_B Proteasome subunit alpha (E.C.3.4.25.1), Proteasome; 20S, proteasome, archaea, sulfolobus acidocaldarius; 3.698A {Sulfolobus acidocaldarius}
+Probab=18.93  E-value=1.1e+02  Score=12.21  Aligned_cols=5  Identities=60%  Similarity=1.531  Sum_probs=0.0  Template_Neff=9.500
+
+Q QFNPQG            2 FNPQG    6 (6)
+Q Consensus         2 fnpqg    6 (6)
+                      |+|.|
+T Consensus        17 f~~~g   21 (242)
+T 6Z46_B           17 FSPDG   21 (242)
+T ss_pred             eCCCC
+
+
+No 10
+>1RYP_A 20S PROTEASOME; MULTICATALYTIC PROTEINASE, 20S PROTEASOME, PROTEIN; HET: MG; 1.9A {Saccharomyces cerevisiae} SCOP: d.153.1.4
+Probab=18.83  E-value=1.1e+02  Score=12.26  Aligned_cols=5  Identities=60%  Similarity=1.584  Sum_probs=0.0  Template_Neff=9.400
+
+Q QFNPQG            2 FNPQG    6 (6)
+Q Consensus         2 fnpqg    6 (6)
+                      |+|+|
+T Consensus        10 f~~~G   14 (243)
+T 1RYP_A           10 FSPEG   14 (243)
+T ss_dssp             CCTTS
+T ss_pred             cCCCC
+
+

@@ -1,0 +1,153 @@
+Query         PDAGYQ
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 05:42:55 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/PDAGYQ/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/PDAGYQ/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2I3F_B Crystal Structure of a   34.6      37 0.00041   14.7   0.0    6    1-6     202-207 (224)
+  2 2Q52_A glycolipid transfer-lik  34.6      37 0.00041   14.7   0.0    6    1-6     202-207 (224)
+  3 1ZWW_A SH3-containing GRB2-lik  29.0      53 0.00059   12.5   0.0    6    1-6     251-256 (256)
+  4 2C34_A INHIBITOR OF CYSTEINE P  18.0 1.2E+02  0.0013   11.4   0.0    6    1-6      33-38  (116)
+  5 6Y5P_B E3 ubiquitin-protein li  17.4 1.3E+02  0.0014   12.5   0.0    5    1-5     211-215 (235)
+  6 2NQD_A Chagasin, Cathepsin L (  16.1 1.4E+02  0.0016   11.0   0.0    6    1-6      29-34  (109)
+  7 3M86_A Amoebiasin-2; cysteine   14.3 1.7E+02  0.0019   10.8   0.0    6    1-6      34-39  (111)
+  8 5SWK_C E3 ubiquitin-protein li  13.9 1.8E+02   0.002   11.0   0.0    6    1-6      31-36  (110)
+  9 4J1J_C Nucleocapsid; PROTEIN-D  13.9 1.8E+02   0.002   14.0   0.0    6    1-6      22-27  (235)
+ 10 4BGP_A NUCLEOPROTEIN; VIRAL PR  13.7 1.8E+02   0.002   14.1   0.0    6    1-6      20-25  (236)
+
+No 1
+>2I3F_B Crystal Structure of a Glycolipid; GLTP superfamily, GLTP-like, Protein structure; 1.38A {Galdieria sulphuraria}
+Probab=34.61  E-value=37  Score=14.68  Aligned_cols=6  Identities=50%  Similarity=0.573  Sum_probs=3.7  Template_Neff=7.100
+
+Q PDAGYQ            1 PDAGYQ    6 (6)
+Q Consensus         1 pdagyq    6 (6)
+                      +|++||
+T Consensus       202 ~~~~~~  207 (224)
+T 2I3F_B          202 GDEVYQ  207 (224)
+T ss_dssp             CCTTTT
+T ss_pred             Cchhhc
+Confidence            466776
+
+
+No 2
+>2Q52_A glycolipid transfer-like protein; Ensemble Refinement, Refinement Methodology Development; 1.38A {Galdieria sulphuraria}
+Probab=34.61  E-value=37  Score=14.68  Aligned_cols=6  Identities=50%  Similarity=0.573  Sum_probs=3.7  Template_Neff=7.100
+
+Q PDAGYQ            1 PDAGYQ    6 (6)
+Q Consensus         1 pdagyq    6 (6)
+                      +|++||
+T Consensus       202 ~~~~~~  207 (224)
+T 2Q52_A          202 GDEVYQ  207 (224)
+T ss_dssp             CCTTTT
+T ss_pred             Cchhhc
+Confidence            466776
+
+
+No 3
+>1ZWW_A SH3-containing GRB2-like protein 2 (E.C.2.3.1.-); coiled coil, TRANSFERASE; HET: CD; 2.3A {Mus musculus} SCOP: a.238.1.1
+Probab=29.04  E-value=53  Score=12.52  Aligned_cols=6  Identities=50%  Similarity=0.910  Sum_probs=0.0  Template_Neff=10.700
+
+Q PDAGYQ            1 PDAGYQ    6 (6)
+Q Consensus         1 pdagyq    6 (6)
+                      |+-|||
+T Consensus       251 ~~~~~~  256 (256)
+T 1ZWW_A          251 PRREYQ  256 (256)
+T ss_dssp             ------
+T ss_pred             CccccC
+Confidence            345665
+
+
+No 4
+>2C34_A INHIBITOR OF CYSTEINE PEPTIDASES; ICP, CHAGASIN, CYSTEINE PEPTIDASE, INHIBITOR; NMR {LEISHMANIA MEXICANA} SCOP: b.1.26.1
+Probab=17.98  E-value=1.2e+02  Score=11.37  Aligned_cols=6  Identities=50%  Similarity=1.198  Sum_probs=0.0  Template_Neff=8.300
+
+Q PDAGYQ            1 PDAGYQ    6 (6)
+Q Consensus         1 pdagyq    6 (6)
+                      |..||+
+T Consensus        33 psTGy~   38 (116)
+T 2C34_A           33 PTTGYM   38 (116)
+T ss_dssp             TTSSCE
+T ss_pred             CCCCce
+
+
+No 5
+>6Y5P_B E3 ubiquitin-protein ligase DTX1 (E.C.2.3.2.27); Ubiquitination, E3 RING ligase, NAD; HET: EDO, NAD; 1.74A {Homo sapiens}
+Probab=17.38  E-value=1.3e+02  Score=12.52  Aligned_cols=5  Identities=80%  Similarity=1.524  Sum_probs=0.0  Template_Neff=8.500
+
+Q PDAGYQ            1 PDAGY    5 (6)
+Q Consensus         1 pdagy    5 (6)
+                      ||+.|
+T Consensus       211 pd~~y  215 (235)
+T 6Y5P_B          211 PDASY  215 (235)
+T ss_dssp             CCTTH
+T ss_pred             CCchH
+
+
+No 6
+>2NQD_A Chagasin, Cathepsin L (E.C.3.4.22.15); chagasin-cathepsin L complex, three prong; HET: NDG, NAG; 1.75A {Trypanosoma cruzi} SCOP: b.1.26.1
+Probab=16.13  E-value=1.4e+02  Score=11.01  Aligned_cols=6  Identities=33%  Similarity=1.093  Sum_probs=0.0  Template_Neff=8.400
+
+Q PDAGYQ            1 PDAGYQ    6 (6)
+Q Consensus         1 pdagyq    6 (6)
+                      |..||+
+T Consensus        29 psTGy~   34 (109)
+T 2NQD_A           29 PTTGFA   34 (109)
+T ss_dssp             GGGTCE
+T ss_pred             CCCCce
+
+
+No 7
+>3M86_A Amoebiasin-2; cysteine protease inhibitor, Protease, PROTEIN; HET: SO4, 1PE; 1.65A {Entamoeba histolytica}
+Probab=14.27  E-value=1.7e+02  Score=10.83  Aligned_cols=6  Identities=50%  Similarity=1.270  Sum_probs=0.0  Template_Neff=8.400
+
+Q PDAGYQ            1 PDAGYQ    6 (6)
+Q Consensus         1 pdagyq    6 (6)
+                      |..||+
+T Consensus        34 pstGy~   39 (111)
+T 3M86_A           34 PSTGYA   39 (111)
+T ss_dssp             GGGTCE
+T ss_pred             CCCCcE
+
+
+No 8
+>5SWK_C E3 ubiquitin-protein ligase Mdm2 (E.C.6.3.2.-); peptidomimetics, biosensor, scaffold, designed, DE; HET: SO4; 1.923A {Homo sapiens}
+Probab=13.91  E-value=1.8e+02  Score=10.97  Aligned_cols=6  Identities=50%  Similarity=1.265  Sum_probs=0.0  Template_Neff=8.000
+
+Q PDAGYQ            1 PDAGYQ    6 (6)
+Q Consensus         1 pdagyq    6 (6)
+                      |..||+
+T Consensus        31 psTGy~   36 (110)
+T 5SWK_C           31 PTTGYS   36 (110)
+T ss_dssp             GGGTCE
+T ss_pred             CCCCcE
+
+
+No 9
+>4J1J_C Nucleocapsid; PROTEIN-DNA COMPLEX, nucleic acids binding; 2.65A {Leanyer virus}
+Probab=13.87  E-value=1.8e+02  Score=14.03  Aligned_cols=6  Identities=50%  Similarity=1.292  Sum_probs=0.0  Template_Neff=4.300
+
+Q PDAGYQ            1 PDAGYQ    6 (6)
+Q Consensus         1 pdagyq    6 (6)
+                      |+++|+
+T Consensus        22 P~~~Y~   27 (235)
+T 4J1J_C           22 PEKGYM   27 (235)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 10
+>4BGP_A NUCLEOPROTEIN; VIRAL PROTEIN, ORTHOBUNYAVIRUS, NUCLEOPROTEIN; HET: SO4; 1.8A {LA CROSSE VIRUS}
+Probab=13.72  E-value=1.8e+02  Score=14.06  Aligned_cols=6  Identities=83%  Similarity=1.558  Sum_probs=0.0  Template_Neff=4.200
+
+Q PDAGYQ            1 PDAGYQ    6 (6)
+Q Consensus         1 pdagyq    6 (6)
+                      |+++|+
+T Consensus        20 P~~~Y~   25 (236)
+T 4BGP_A           20 PDAGYM   25 (236)
+T ss_dssp             HHHHHH
+T ss_pred             hHHHHH
+
+

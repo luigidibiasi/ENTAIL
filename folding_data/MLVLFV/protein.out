@@ -1,0 +1,151 @@
+Query         MLVLFV
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 22:03:09 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/MLVLFV/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/MLVLFV/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 1SKH_A Major prion protein 2;   80.5     1.2 1.3E-05   16.7   0.0    6    1-6      10-15  (30)
+  2 6CI2_A formyltransferase PseJ;  33.3      40 0.00045   13.9   0.0    6    1-6       1-6   (192)
+  3 5Z38_G CesT protein, Translati  16.0 1.5E+02  0.0016   11.0   0.0    4    1-4       6-9   (49)
+  4 5Z38_I CesT protein, Translati  15.1 1.6E+02  0.0018   10.9   0.0    4    1-4       6-9   (49)
+  5 2BTI_B CARBON STORAGE REGULATO  14.8 1.6E+02  0.0018   11.3   0.0    4    1-4       3-6   (63)
+  6 5B7I_A CRISPR-associated nucle  14.5 1.7E+02  0.0019   15.5   0.0    6    1-6       7-12  (1082)
+  7 5NVM_D Eukaryotic translation   14.1 1.8E+02  0.0019   11.1   0.0    5    1-5      18-22  (42)
+  8 3RH0_B ARSENATE REDUCTASE (E.C  13.7 1.8E+02   0.002   10.9   0.0    4    3-6      23-26  (148)
+  9 4KK4_A Low molecular weight pr  13.6 1.8E+02   0.002   10.7   0.0    6    1-6       1-6   (152)
+ 10 5XTD_m NADH dehydrogenase [ubi  13.4 1.9E+02  0.0021   12.2   0.0    6    1-6      63-68  (174)
+
+No 1
+>1SKH_A Major prion protein 2; coil-helix-coil, UNKNOWN FUNCTION; NMR {Bos taurus}
+Probab=80.52  E-value=1.2  Score=16.66  Aligned_cols=6  Identities=83%  Similarity=1.348  Sum_probs=4.6  Template_Neff=1.200
+
+Q MLVLFV            1 MLVLFV    6 (6)
+Q Consensus         1 mlvlfv    6 (6)
+                      ||||||
+T Consensus        10 ilvlfv   15 (30)
+T 1SKH_A           10 ILVLFV   15 (30)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            678886
+
+
+No 2
+>6CI2_A formyltransferase PseJ; formyltransferase, TRANSFERASE; HET: MES; 1.96A {Anoxybacillus kamchatkensis G10}
+Probab=33.32  E-value=40  Score=13.90  Aligned_cols=6  Identities=17%  Similarity=0.296  Sum_probs=3.6  Template_Neff=7.800
+
+Q MLVLFV            1 MLVLFV    6 (6)
+Q Consensus         1 mlvlfv    6 (6)
+                      |+|||+
+T Consensus         1 ~~v~~~    6 (192)
+T 6CI2_A            1 GKILLL    6 (192)
+T ss_dssp             CEEEEE
+T ss_pred             CeEEEe
+Confidence            566654
+
+
+No 3
+>5Z38_G CesT protein, Translational regulator CsrA; EHEC and EPEC, RNA BINDING; 2.292A {Escherichia coli}
+Probab=15.98  E-value=1.5e+02  Score=11.05  Aligned_cols=4  Identities=75%  Similarity=1.281  Sum_probs=0.0  Template_Neff=5.000
+
+Q MLVLFV            1 MLVL    4 (6)
+Q Consensus         1 mlvl    4 (6)
+                      ||+|
+T Consensus         6 MLvL    9 (49)
+T 5Z38_G            6 MLIL    9 (49)
+T ss_dssp             CEEE
+T ss_pred             eEEE
+
+
+No 4
+>5Z38_I CesT protein, Translational regulator CsrA; EHEC and EPEC, RNA BINDING; 2.292A {Escherichia coli}
+Probab=15.09  E-value=1.6e+02  Score=10.87  Aligned_cols=4  Identities=75%  Similarity=1.281  Sum_probs=0.0  Template_Neff=5.200
+
+Q MLVLFV            1 MLVL    4 (6)
+Q Consensus         1 mlvl    4 (6)
+                      ||+|
+T Consensus         6 MLvL    9 (49)
+T 5Z38_I            6 MLIL    9 (49)
+T ss_dssp             CEEE
+T ss_pred             eEEE
+
+
+No 5
+>2BTI_B CARBON STORAGE REGULATOR HOMOLOG; RMSA, CSRA, RNA BINDING PROTEIN; HET: MSE; 2.0A {YERSINIA ENTEROCOLITICA}
+Probab=14.84  E-value=1.6e+02  Score=11.32  Aligned_cols=4  Identities=75%  Similarity=1.281  Sum_probs=0.0  Template_Neff=5.200
+
+Q MLVLFV            1 MLVL    4 (6)
+Q Consensus         1 mlvl    4 (6)
+                      ||+|
+T Consensus         3 MLvL    6 (63)
+T 2BTI_B            3 MLIL    6 (63)
+T ss_dssp             EEEE
+T ss_pred             cEEE
+
+
+No 6
+>5B7I_A CRISPR-associated nuclease/helicase Cas3 subtype I-F/YPEST; DNA nuclease, phagy protein, Anti-CRISPR; HET: ADP, MSE; 2.6A {Pseudomonas aeruginosa (strain UCBPP-PA14)}
+Probab=14.53  E-value=1.7e+02  Score=15.48  Aligned_cols=6  Identities=50%  Similarity=0.766  Sum_probs=0.0  Template_Neff=7.600
+
+Q MLVLFV            1 MLVLFV    6 (6)
+Q Consensus         1 mlvlfv    6 (6)
+                      |.|+||
+T Consensus         7 m~v~~v   12 (1082)
+T 5B7I_A            7 MNILLV   12 (1082)
+T ss_dssp             EEEEEE
+T ss_pred             ceeeee
+
+
+No 7
+>5NVM_D Eukaryotic translation initiation factor 4E; translational regulation, cap-binding protein, 4EHP-binding; HET: PO4; 2.0A {Homo sapiens}
+Probab=14.08  E-value=1.8e+02  Score=11.13  Aligned_cols=5  Identities=80%  Similarity=1.291  Sum_probs=0.0  Template_Neff=3.400
+
+Q MLVLFV            1 MLVLF    5 (6)
+Q Consensus         1 mlvlf    5 (6)
+                      ||.||
+T Consensus        18 mLaL~   22 (42)
+T 5NVM_D           18 MLALF   22 (42)
+T ss_dssp             HHHTC
+T ss_pred             HHHHH
+
+
+No 8
+>3RH0_B ARSENATE REDUCTASE (E.C.1.20.4.1); Reductase, OXIDOREDUCTASE; 1.724A {Corynebacterium glutamicum}
+Probab=13.71  E-value=1.8e+02  Score=10.90  Aligned_cols=4  Identities=100%  Similarity=1.481  Sum_probs=0.0  Template_Neff=9.200
+
+Q MLVLFV            3 VLFV    6 (6)
+Q Consensus         3 vlfv    6 (6)
+                      ||||
+T Consensus        23 ilFV   26 (148)
+T 3RH0_B           23 VLFV   26 (148)
+T ss_dssp             EEEE
+T ss_pred             EEEE
+
+
+No 9
+>4KK4_A Low molecular weight protein-tyrosine-phosphatase YwlE; protein modification, arginine phosphorylation, arginine; 1.8A {Bacillus subtilis subsp. subtilis}
+Probab=13.63  E-value=1.8e+02  Score=10.68  Aligned_cols=6  Identities=50%  Similarity=0.921  Sum_probs=0.0  Template_Neff=9.700
+
+Q MLVLFV            1 MLVLFV    6 (6)
+Q Consensus         1 mlvlfv    6 (6)
+                      |=||||
+T Consensus         1 ~~ilFv    6 (152)
+T 4KK4_A            1 MDIIFV    6 (152)
+T ss_dssp             CEEEEE
+T ss_pred             CeEEEE
+
+
+No 10
+>5XTD_m NADH dehydrogenase [ubiquinone] flavoprotein 1; Homo sapiens, Oxidoreductase, Respiratory, OXIDOREDUCTASE-ELECTRON; HET: CDL, SF4, NDP, PLX, FMN, PEE, 8Q1; 3.7A {Homo sapiens}
+Probab=13.42  E-value=1.9e+02  Score=12.18  Aligned_cols=6  Identities=50%  Similarity=0.888  Sum_probs=0.0  Template_Neff=7.100
+
+Q MLVLFV            1 MLVLFV    6 (6)
+Q Consensus         1 mlvlfv    6 (6)
+                      |+|+|.
+T Consensus        63 mLVlF~   68 (174)
+T 5XTD_m           63 MMVVFG   68 (174)
+T ss_pred             HHHHHH
+
+

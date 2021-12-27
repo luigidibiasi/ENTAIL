@@ -1,0 +1,151 @@
+Query         RQVLIF
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 12:42:59 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/RQVLIF/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/RQVLIF/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2V1N_A PROTEIN KIN HOMOLOG; KI  17.8 1.2E+02  0.0014   12.9   0.0    6    1-6       3-8   (111)
+  2 6HIX_Ad ?; mitoribosome, trans  16.5 1.4E+02  0.0015   15.4   0.0    6    1-6     227-232 (289)
+  3 7AIH_Y mL94, mL89, Ribosomal p  15.5 1.5E+02  0.0017   15.3   0.0    6    1-6     230-235 (292)
+  4 7ANE_Y mL94, mL89, Ribosomal p  15.5 1.5E+02  0.0017   15.3   0.0    6    1-6     230-235 (292)
+  5 4J6S_H 14-3-3 protein gamma, N  12.7   2E+02  0.0023   11.4   0.0    5    1-5      38-42  (43)
+  6 2RB4_B ATP-dependent RNA helic  12.1 2.2E+02  0.0024   10.1   0.0    6    1-6      35-40  (175)
+  7 3HFO_B Ssr3341 protein; HFQ, S  11.8 2.3E+02  0.0025   10.7   0.0    6    1-6      54-59  (70)
+  8 2MCH_A Murine norovirus 1; Nor  11.7 2.3E+02  0.0025   12.2   0.0    5    2-6      35-39  (69)
+  9 6KTO_D Mitotic spindle assembl  11.6 2.3E+02  0.0026   11.4   0.0    6    1-6       7-12  (54)
+ 10 4I1S_A Melanoma differentiatio  11.4 2.4E+02  0.0026   10.5   0.0    6    1-6     151-156 (243)
+
+No 1
+>2V1N_A PROTEIN KIN HOMOLOG; KIN17, NUCLEAR PROTEIN, WINGED HELIX; NMR {HOMO SAPIENS}
+Probab=17.76  E-value=1.2e+02  Score=12.94  Aligned_cols=6  Identities=50%  Similarity=0.761  Sum_probs=3.1  Template_Neff=4.700
+
+Q RQVLIF            1 RQVLIF    6 (6)
+Q Consensus         1 rqvlif    6 (6)
+                      ||+++|
+T Consensus         3 Rqm~lf    8 (111)
+T 2V1N_A            3 RQLLLA    8 (111)
+T ss_dssp             CCCCCC
+T ss_pred             cchhhh
+Confidence            455554
+
+
+No 2
+>6HIX_Ad ?; mitoribosome, translation, Trypanosoma, large ribosomal; HET: NAD; 3.39A {Trypanosoma equiperdum}
+Probab=16.49  E-value=1.4e+02  Score=15.42  Aligned_cols=6  Identities=83%  Similarity=1.160  Sum_probs=3.8  Template_Neff=2.200
+
+Q RQVLIF            1 RQVLIF    6 (6)
+Q Consensus         1 rqvlif    6 (6)
+                      ||-|||
+T Consensus       227 RQ~LI~  232 (289)
+T 6HIX_Ad         227 RQQLIF  232 (289)
+T ss_pred             hcHHHH
+Confidence            566665
+
+
+No 3
+>7AIH_Y mL94, mL89, Ribosomal protein L3-like; Ribosome, Mitochondria, Kinetoplastid; HET: NAD; 3.6A {Leishmania major}
+Probab=15.52  E-value=1.5e+02  Score=15.31  Aligned_cols=6  Identities=67%  Similarity=0.833  Sum_probs=3.7  Template_Neff=2.200
+
+Q RQVLIF            1 RQVLIF    6 (6)
+Q Consensus         1 rqvlif    6 (6)
+                      ||-|||
+T Consensus       230 RQ~LI~  235 (292)
+T 7AIH_Y          230 RQHLIM  235 (292)
+T ss_dssp             HHHHHH
+T ss_pred             HchhHH
+Confidence            566664
+
+
+No 4
+>7ANE_Y mL94, mL89, Ribosomal protein L3-like; Ribosome, Mitochondria, Kinetoplastid; HET: NAD; 3.9A {Leishmania major}
+Probab=15.52  E-value=1.5e+02  Score=15.31  Aligned_cols=6  Identities=67%  Similarity=0.833  Sum_probs=3.7  Template_Neff=2.200
+
+Q RQVLIF            1 RQVLIF    6 (6)
+Q Consensus         1 rqvlif    6 (6)
+                      ||-|||
+T Consensus       230 RQ~LI~  235 (292)
+T 7ANE_Y          230 RQHLIM  235 (292)
+T ss_pred             HchhHH
+Confidence            566664
+
+
+No 5
+>4J6S_H 14-3-3 protein gamma, N-terminal motif; 14-3-3 proteins, peptide binding, Dopamine; HET: SEP; 3.08A {Homo sapiens}
+Probab=12.74  E-value=2e+02  Score=11.38  Aligned_cols=5  Identities=80%  Similarity=0.959  Sum_probs=0.0  Template_Neff=2.000
+
+Q RQVLIF            1 RQVLI    5 (6)
+Q Consensus         1 rqvli    5 (6)
+                      ||-||
+T Consensus        38 RqSLI   42 (43)
+T 4J6S_H           38 RQSLI   42 (43)
+T ss_pred             chhhc
+
+
+No 6
+>2RB4_B ATP-dependent RNA helicase DDX25 (E.C.3.6.1.-); RNA helicase, Rossmann fold, Structural; HET: SO4; 2.8A {Homo sapiens}
+Probab=12.07  E-value=2.2e+02  Score=10.13  Aligned_cols=6  Identities=50%  Similarity=0.866  Sum_probs=0.0  Template_Neff=10.900
+
+Q RQVLIF            1 RQVLIF    6 (6)
+Q Consensus         1 rqvlif    6 (6)
+                      .+++||
+T Consensus        35 ~~~iIf   40 (175)
+T 2RB4_B           35 GQAIIF   40 (175)
+T ss_dssp             SEEEEE
+T ss_pred             CeEEEE
+
+
+No 7
+>3HFO_B Ssr3341 protein; HFQ, SM, RNA-BINDING PROTEIN, SRNA; 1.3A {Synechocystis sp. PCC 6803}
+Probab=11.76  E-value=2.3e+02  Score=10.73  Aligned_cols=6  Identities=17%  Similarity=0.423  Sum_probs=0.0  Template_Neff=6.100
+
+Q RQVLIF            1 RQVLIF    6 (6)
+Q Consensus         1 rqvlif    6 (6)
+                      +|.|||
+T Consensus        54 ~~~lIy   59 (70)
+T 3HFO_B           54 RSTIVR   59 (70)
+T ss_dssp             CEEEEE
+T ss_pred             ceEEEE
+
+
+No 8
+>2MCH_A Murine norovirus 1; Norovirus, NS1/2, HYDROLASE; NMR {Murine norovirus 1}
+Probab=11.75  E-value=2.3e+02  Score=12.17  Aligned_cols=5  Identities=80%  Similarity=1.324  Sum_probs=0.0  Template_Neff=1.000
+
+Q RQVLIF            2 QVLIF    6 (6)
+Q Consensus         2 qvlif    6 (6)
+                      .||||
+T Consensus        35 rvlif   39 (69)
+T 2MCH_A           35 RVLIF   39 (69)
+T ss_dssp             HHHHH
+T ss_pred             eEEEe
+
+
+No 9
+>6KTO_D Mitotic spindle assembly checkpoint protein; Shieldin, Complex, Conformational dimer, NHEJ; 3.44976331487A {Homo sapiens}
+Probab=11.64  E-value=2.3e+02  Score=11.41  Aligned_cols=6  Identities=67%  Similarity=0.833  Sum_probs=0.0  Template_Neff=3.000
+
+Q RQVLIF            1 RQVLIF    6 (6)
+Q Consensus         1 rqvlif    6 (6)
+                      .||=||
+T Consensus         7 sQVHIF   12 (54)
+T 6KTO_D            7 SQVHIF   12 (54)
+T ss_dssp             CEECCB
+T ss_pred             CcEEEE
+
+
+No 10
+>4I1S_A Melanoma differentiation associated protein-5, Non-structural; SF2-ATPase, Helicase, Hydrolase-Hydrolase Inhibitor complex; 2.293A {Sus scrofa}
+Probab=11.42  E-value=2.4e+02  Score=10.47  Aligned_cols=6  Identities=33%  Similarity=0.634  Sum_probs=0.0  Template_Neff=11.200
+
+Q RQVLIF            1 RQVLIF    6 (6)
+Q Consensus         1 rqvlif    6 (6)
+                      .+++||
+T Consensus       151 ~~~iIf  156 (243)
+T 4I1S_A          151 ARGIIF  156 (243)
+T ss_dssp             CCEEEE
+T ss_pred             ceEEEE
+
+

@@ -1,0 +1,150 @@
+Query         SEVIIE
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 14:01:07 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/SEVIIE/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/SEVIIE/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5O3N_A 3,4-dihydroxybenzoate d  13.2 1.9E+02  0.0022   14.5   0.0    6    1-6     281-286 (515)
+  2 5NY5_A 3,4-dihydroxybenzoate d  12.8   2E+02  0.0022   14.3   0.0    6    1-6     261-266 (495)
+  3 6H6X_B 3-polyprenyl-4-hydroxyb  11.2 2.5E+02  0.0027   13.7   0.0    6    1-6     238-243 (448)
+  4 6GAZ_AC Translation initiation  11.0 2.5E+02  0.0028   13.2   0.0    5    1-5     106-110 (167)
+  5 6ZM6_AC 28S ribosomal protein   10.9 2.5E+02  0.0028   13.2   0.0    5    1-5     106-110 (167)
+  6 7NF4_A decarboxylase, prFMN, L  10.8 2.6E+02  0.0029   13.8   0.0    6    1-6     261-266 (508)
+  7 4IWS_C PA0254  (E.C.4.1.1.-);   10.7 2.6E+02  0.0029   14.0   0.0    6    1-6     279-284 (518)
+  8 4ZAC_B S. cerevisiae Fdc1; (de  10.7 2.6E+02  0.0029   13.8   0.0    6    1-6     264-269 (503)
+  9 3IC8_A uncharacterized GST-lik  10.6 2.7E+02  0.0029   11.3   0.0    6    1-6     282-287 (310)
+ 10 6DA7_A TtnD decarboxylase; Ttn  10.3 2.7E+02   0.003   13.8   0.0    6    1-6     272-277 (501)
+
+No 1
+>5O3N_A 3,4-dihydroxybenzoate decarboxylase; Decarboxylase, prFMN, lyase; HET: 4LU, GOL; 2.05A {Enterobacter cloacae}
+Probab=13.16  E-value=1.9e+02  Score=14.47  Aligned_cols=6  Identities=67%  Similarity=1.077  Sum_probs=3.0  Template_Neff=6.400
+
+Q SEVIIE            1 SEVIIE    6 (6)
+Q Consensus         1 seviie    6 (6)
+                      +|++||
+T Consensus       281 AEiViE  286 (515)
+T 5O3N_A          281 AEIIIE  286 (515)
+T ss_dssp             CSEEEE
+T ss_pred             cEEEEE
+Confidence            355554
+
+
+No 2
+>5NY5_A 3,4-dihydroxybenzoate decarboxylase; UbiD-family, Carboxylation, Catechols, Prenylated FMN; HET: GOL, MSE; 2.501A {Enterobacter cloacae}
+Probab=12.84  E-value=2e+02  Score=14.25  Aligned_cols=6  Identities=67%  Similarity=1.077  Sum_probs=3.0  Template_Neff=6.600
+
+Q SEVIIE            1 SEVIIE    6 (6)
+Q Consensus         1 seviie    6 (6)
+                      +|++||
+T Consensus       261 AEiViE  266 (495)
+T 5NY5_A          261 AEIIIE  266 (495)
+T ss_dssp             CSEEEE
+T ss_pred             cEEEEE
+Confidence            355554
+
+
+No 3
+>6H6X_B 3-polyprenyl-4-hydroxybenzoate decarboxylase and related decarboxylases; prFMN, decarboxylation, thermophilic, UbiD, HmfF; HET: 4LU; 2.25A {Pelotomaculum thermopropionicum (strain DSM 13744 / JCM 10971 / SI)}
+Probab=11.15  E-value=2.5e+02  Score=13.70  Aligned_cols=6  Identities=50%  Similarity=1.027  Sum_probs=0.0  Template_Neff=6.800
+
+Q SEVIIE            1 SEVIIE    6 (6)
+Q Consensus         1 seviie    6 (6)
+                      +|++||
+T Consensus       238 AEiViE  243 (448)
+T 6H6X_B          238 AEIVIE  243 (448)
+T ss_dssp             CSEEEE
+T ss_pred             ceEEEE
+
+
+No 4
+>6GAZ_AC Translation initiation factor IF-2, mitochondrial; translation initiation, initiation factor IF2; HET: GTP, MG, FME, GSP, SPM; 3.1A {Sus scrofa}
+Probab=11.04  E-value=2.5e+02  Score=13.22  Aligned_cols=5  Identities=0%  Similarity=0.660  Sum_probs=0.0  Template_Neff=3.600
+
+Q SEVIIE            1 SEVII    5 (6)
+Q Consensus         1 sevii    5 (6)
+                      ||+||
+T Consensus       106 sEiII  110 (167)
+T 6GAZ_AC         106 DQLVL  110 (167)
+T ss_pred             cchhh
+
+
+No 5
+>6ZM6_AC 28S ribosomal protein S2, mitochondrial; mitochondrion, translation, closed nascent-polypeptide tunnel; HET: SAC, K, GTP, FES, THC, ATP, MG, IAS, AYA; 2.59A {Homo sapiens}
+Probab=10.91  E-value=2.5e+02  Score=13.16  Aligned_cols=5  Identities=0%  Similarity=0.660  Sum_probs=0.0  Template_Neff=3.700
+
+Q SEVIIE            1 SEVII    5 (6)
+Q Consensus         1 sevii    5 (6)
+                      |||||
+T Consensus       106 sEiiI  110 (167)
+T 6ZM6_AC         106 DQLVL  110 (167)
+T ss_pred             ceeee
+
+
+No 6
+>7NF4_A decarboxylase, prFMN, LYASE; HET: BYN; 1.69A {Aspergillus niger (strain CBS 513.88 / FGSC A1513)}
+Probab=10.79  E-value=2.6e+02  Score=13.78  Aligned_cols=6  Identities=50%  Similarity=1.021  Sum_probs=0.0  Template_Neff=7.000
+
+Q SEVIIE            1 SEVIIE    6 (6)
+Q Consensus         1 seviie    6 (6)
+                      +|++||
+T Consensus       261 AEiViE  266 (508)
+T 7NF4_A          261 SEIVLE  266 (508)
+T ss_dssp             CSEEEE
+T ss_pred             CeEEEE
+
+
+No 7
+>4IWS_C PA0254  (E.C.4.1.1.-); UbiD like split beta-barrel domain; 2.3A {Pseudomonas aeruginosa}
+Probab=10.72  E-value=2.6e+02  Score=13.99  Aligned_cols=6  Identities=33%  Similarity=0.983  Sum_probs=0.0  Template_Neff=6.600
+
+Q SEVIIE            1 SEVIIE    6 (6)
+Q Consensus         1 seviie    6 (6)
+                      +|++||
+T Consensus       279 AEiViE  284 (518)
+T 4IWS_C          279 TEIVLE  284 (518)
+T ss_dssp             CSEEEE
+T ss_pred             ceEEEE
+
+
+No 8
+>4ZAC_B S. cerevisiae Fdc1; (de)carboxylase, prenylated flavin binding, UbiD-type; HET: 4LU; 1.65A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=10.69  E-value=2.6e+02  Score=13.79  Aligned_cols=6  Identities=50%  Similarity=0.839  Sum_probs=0.0  Template_Neff=6.900
+
+Q SEVIIE            1 SEVIIE    6 (6)
+Q Consensus         1 seviie    6 (6)
+                      +|++||
+T Consensus       264 AEiViE  269 (503)
+T 4ZAC_B          264 SEMVFE  269 (503)
+T ss_dssp             CSEEEE
+T ss_pred             CeEEEE
+
+
+No 9
+>3IC8_A uncharacterized GST-like proteinprotein; Glutathione, transferase, pseudomonas, syringae, PSI; 2.4A {Pseudomonas syringae pv. tomato}
+Probab=10.56  E-value=2.7e+02  Score=11.28  Aligned_cols=6  Identities=33%  Similarity=0.711  Sum_probs=0.0  Template_Neff=10.200
+
+Q SEVIIE            1 SEVIIE    6 (6)
+Q Consensus         1 seviie    6 (6)
+                      +||+|+
+T Consensus       282 ~~~~~~  287 (310)
+T 3IC8_A          282 EELILR  287 (310)
+T ss_dssp             SCEEEE
+T ss_pred             CEEEEE
+
+
+No 10
+>6DA7_A TtnD decarboxylase; TtnD, decarboxylase, tautomycetin biosynthesis, prFMN; HET: EPE, GOL; 1.83A {Streptomyces griseochromogenes}
+Probab=10.32  E-value=2.7e+02  Score=13.81  Aligned_cols=6  Identities=50%  Similarity=1.027  Sum_probs=0.0  Template_Neff=6.700
+
+Q SEVIIE            1 SEVIIE    6 (6)
+Q Consensus         1 seviie    6 (6)
+                      +|++||
+T Consensus       272 AEiViE  277 (501)
+T 6DA7_A          272 AEIVIE  277 (501)
+T ss_dssp             CSEEEE
+T ss_pred             CeEEEE
+
+

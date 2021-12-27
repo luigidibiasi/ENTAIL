@@ -1,0 +1,151 @@
+Query         GGNGAA
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 00:28:43 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GGNGAA/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GGNGAA/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2D7I_A Polypeptide N-acetylgal  23.6      78 0.00086   13.8   0.0    6    1-6       8-13  (570)
+  2 7K36_F Serine/threonine-protei  16.3 1.4E+02  0.0016   14.2   0.0    6    1-6      33-38  (713)
+  3 3AUY_B DNA double-strand break  16.2 1.4E+02  0.0016   11.5   0.0    5    1-5      32-36  (371)
+  4 3KTA_C Chromosome segregation   16.2 1.4E+02  0.0016   11.1   0.0    5    1-5      33-37  (182)
+  5 6KYZ_E Genome polyprotein (E.C  16.1 1.4E+02  0.0016    9.8   0.0    5    1-5     138-142 (145)
+  6 6ZZ6_A Structural maintenance   16.0 1.5E+02  0.0016   11.0   0.0    5    1-5      32-36  (360)
+  7 6ZZ6_B Structural maintenance   15.8 1.5E+02  0.0016   12.3   0.0    5    1-5      33-37  (423)
+  8 2YC1_E SINGLE CHAIN ANTIBODY F  13.8 1.8E+02   0.002    9.2   0.0    4    3-6     137-140 (146)
+  9 4CSU_9 50S RIBOSOMAL PROTEIN L  13.2 1.9E+02  0.0021   12.5   0.0    6    1-6      16-21  (390)
+ 10 3ZGX_A CHROMOSOME PARTITION PR  12.8   2E+02  0.0022   11.2   0.0    5    1-5      31-35  (426)
+
+No 1
+>2D7I_A Polypeptide N-acetylgalactosaminyltransferase 10 (E.C.2.4.1.41); beta trefoil, Rossmann fold, TRANSFERASE; HET: NGA, NAG, UDP; 2.5A {Homo sapiens}
+Probab=23.58  E-value=78  Score=13.83  Aligned_cols=6  Identities=83%  Similarity=1.415  Sum_probs=0.0  Template_Neff=10.300
+
+Q GGNGAA            1 GGNGAA    6 (6)
+Q Consensus         1 ggngaa    6 (6)
+                      ||.|||
+T Consensus         8 ~~~~~~   13 (570)
+T 2D7I_A            8 GGSGAA   13 (570)
+T ss_dssp             ------
+T ss_pred             CCCccc
+Confidence            455543
+
+
+No 2
+>7K36_F Serine/threonine-protein phosphatase 2A 65 kDa; phosphorylation, complex, PP2A, SIGNALING PROTEIN; HET: IHP; 3.3A {Homo sapiens}
+Probab=16.28  E-value=1.4e+02  Score=14.20  Aligned_cols=6  Identities=100%  Similarity=1.575  Sum_probs=0.0  Template_Neff=9.000
+
+Q GGNGAA            1 GGNGAA    6 (6)
+Q Consensus         1 ggngaa    6 (6)
+                      |+||++
+T Consensus        33 ~~~~~~   38 (713)
+T 7K36_F           33 GGNGAA   38 (713)
+T ss_dssp             ------
+T ss_pred             CCCCCC
+
+
+No 3
+>3AUY_B DNA double-strand break repair rad50; DNA repair, ABC transporter ATPase; HET: ADP; 2.7A {Methanocaldococcus jannaschii}
+Probab=16.22  E-value=1.4e+02  Score=11.55  Aligned_cols=5  Identities=60%  Similarity=1.152  Sum_probs=0.0  Template_Neff=11.700
+
+Q GGNGAA            1 GGNGA    5 (6)
+Q Consensus         1 ggnga    5 (6)
+                      |.||+
+T Consensus        32 G~Ngs   36 (371)
+T 3AUY_B           32 GENGS   36 (371)
+T ss_dssp             ECTTS
+T ss_pred             cCCCC
+
+
+No 4
+>3KTA_C Chromosome segregation protein smc; structural maintenance of chromosomes, SMC; HET: MSE, AP5; 1.627A {Pyrococcus furiosus}
+Probab=16.17  E-value=1.4e+02  Score=11.09  Aligned_cols=5  Identities=60%  Similarity=1.239  Sum_probs=0.0  Template_Neff=10.100
+
+Q GGNGAA            1 GGNGA    5 (6)
+Q Consensus         1 ggnga    5 (6)
+                      |.||+
+T Consensus        33 G~NG~   37 (182)
+T 3KTA_C           33 GANGS   37 (182)
+T ss_dssp             ECTTS
+T ss_pred             cCCCC
+
+
+No 5
+>6KYZ_E Genome polyprotein (E.C.3.4.22.29,3.6.1.15,3.4.22.28,2.7.7.48), YDF H; protease, inhibitor, complex structure, VIRAL; 1.845A {Human rhinovirus 14}
+Probab=16.11  E-value=1.4e+02  Score=9.82  Aligned_cols=5  Identities=60%  Similarity=1.411  Sum_probs=0.0  Template_Neff=11.700
+
+Q GGNGAA            1 GGNGA    5 (6)
+Q Consensus         1 ggnga    5 (6)
+                      ||+|+
+T Consensus       138 ~~~~~  142 (145)
+T 6KYZ_E          138 GGSGG  142 (145)
+T ss_dssp             -----
+T ss_pred             CCCCC
+
+
+No 6
+>6ZZ6_A Structural maintenance of chromosomes protein; SMC, cohesin, DNA, CELL CYCLE; HET: ATP; 3.4A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=15.98  E-value=1.5e+02  Score=11.03  Aligned_cols=5  Identities=60%  Similarity=1.099  Sum_probs=0.0  Template_Neff=12.500
+
+Q GGNGAA            1 GGNGA    5 (6)
+Q Consensus         1 ggnga    5 (6)
+                      |.||+
+T Consensus        32 G~Ngs   36 (360)
+T 6ZZ6_A           32 GPNGS   36 (360)
+T ss_dssp             CSTTS
+T ss_pred             CCCCC
+
+
+No 7
+>6ZZ6_B Structural maintenance of chromosomes protein; SMC, cohesin, DNA, CELL CYCLE; HET: ATP; 3.4A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=15.80  E-value=1.5e+02  Score=12.28  Aligned_cols=5  Identities=60%  Similarity=1.232  Sum_probs=0.0  Template_Neff=10.700
+
+Q GGNGAA            1 GGNGA    5 (6)
+Q Consensus         1 ggnga    5 (6)
+                      |.||+
+T Consensus        33 G~NGa   37 (423)
+T 6ZZ6_B           33 GSNGS   37 (423)
+T ss_dssp             CCTTS
+T ss_pred             CCCCC
+
+
+No 8
+>2YC1_E SINGLE CHAIN ANTIBODY FRAGMENT 9004G; IMMUNE SYSTEM-TOXIN COMPLEX, SCORPION TOXIN; HET: GOL; 1.9A {CENTRUROIDES NOXIUS HOFFMANN}
+Probab=13.76  E-value=1.8e+02  Score=9.22  Aligned_cols=4  Identities=100%  Similarity=1.265  Sum_probs=0.0  Template_Neff=12.400
+
+Q GGNGAA            3 NGAA    6 (6)
+Q Consensus         3 ngaa    6 (6)
+                      ||+|
+T Consensus       137 ~~~~  140 (146)
+T 2YC1_E          137 NGAA  140 (146)
+T ss_dssp             ----
+T ss_pred             cccc
+
+
+No 9
+>4CSU_9 50S RIBOSOMAL PROTEIN L28, 50S; (P)PPGPP, OBG, RIBOSOME ASSEMBLY, STRINGENT; 5.5A {ESCHERICHIA COLI}
+Probab=13.20  E-value=1.9e+02  Score=12.53  Aligned_cols=6  Identities=67%  Similarity=1.343  Sum_probs=0.0  Template_Neff=9.300
+
+Q GGNGAA            1 GGNGAA    6 (6)
+Q Consensus         1 ggngaa    6 (6)
+                      ||+|+.
+T Consensus        16 gg~g~~   21 (390)
+T 4CSU_9           16 GGNGCV   21 (390)
+T ss_dssp             CCCCCC
+T ss_pred             CCCcee
+
+
+No 10
+>3ZGX_A CHROMOSOME PARTITION PROTEIN SMC, SEGREGATION; CELL CYCLE; 3.4A {BACILLUS SUBTILIS}
+Probab=12.83  E-value=2e+02  Score=11.19  Aligned_cols=5  Identities=60%  Similarity=1.099  Sum_probs=0.0  Template_Neff=12.100
+
+Q GGNGAA            1 GGNGA    5 (6)
+Q Consensus         1 ggnga    5 (6)
+                      |.||+
+T Consensus        31 G~Ngs   35 (426)
+T 3ZGX_A           31 GPNGS   35 (426)
+T ss_dssp             CC---
+T ss_pred             CCCCC
+
+

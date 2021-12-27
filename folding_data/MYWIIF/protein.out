@@ -1,0 +1,151 @@
+Query         MYWIIF
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 22:46:56 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/MYWIIF/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/MYWIIF/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6VRD_A Ribonuclease H1/RNA Com  23.8      76 0.00084   13.5   0.0    6    1-6       9-14  (294)
+  2 1KLF_O CHAPERONE PROTEIN FIMC/  19.9   1E+02  0.0011   12.2   0.0    6    1-6      82-87  (205)
+  3 4YG0_A Outer capsid protein VP  19.8   1E+02  0.0012   13.7   0.0    5    2-6      19-23  (164)
+  4 2XG5_A CHAPERONE PROTEIN PAPD,  19.7 1.1E+02  0.0012   12.4   0.0    6    1-6      85-90  (218)
+  5 3ME0_A Chaperone protein papD,  19.7 1.1E+02  0.0012   12.4   0.0    6    1-6      85-90  (218)
+  6 1IIE_A HLA-DR ANTIGENS ASSOCIA  19.7 1.1E+02  0.0012   12.6   0.0    5    2-6      54-58  (75)
+  7 3TAY_B Outer capsid protein VP  19.5 1.1E+02  0.0012   13.7   0.0    5    2-6      19-23  (163)
+  8 6NIW_B Protease-sensitive oute  19.1 1.1E+02  0.0012   13.6   0.0    5    2-6      17-21  (159)
+  9 7C8P_B Outer capsid protein VP  19.0 1.1E+02  0.0012   13.7   0.0    5    2-6      17-21  (161)
+ 10 6VPP_C Tubulin alpha-1A chain,  18.9 1.1E+02  0.0012   13.0   0.0    4    1-4       1-4   (377)
+
+No 1
+>6VRD_A Ribonuclease H1/RNA Complex; RNase H, Complex, RNA, ASO; HET: SC, 6NW, SO4, RFJ, PST, A2M, N7X, T39, OMC, C5L, 6OO, AS; 1.299A {Homo sapiens}
+Probab=23.81  E-value=76  Score=13.47  Aligned_cols=6  Identities=50%  Similarity=1.619  Sum_probs=0.0  Template_Neff=8.700
+
+Q MYWIIF            1 MYWIIF    6 (6)
+Q Consensus         1 mywiif    6 (6)
+                      |-|++|
+T Consensus         9 ~~~~~~   14 (294)
+T 6VRD_A            9 MSWLLF   14 (294)
+T ss_dssp             ------
+T ss_pred             HHHHHH
+Confidence            456654
+
+
+No 2
+>1KLF_O CHAPERONE PROTEIN FIMC/FIMH PROTEIN complex; ADHESIN-CHAPERONE COMPLEX, MANNOSE-BOUND, CHAPERONE-ADHESIN COMPLEX; HET: MAN; 2.79A {Escherichia coli} SCOP: b.1.11.1, b.7.2.1
+Probab=19.87  E-value=1e+02  Score=12.21  Aligned_cols=6  Identities=17%  Similarity=1.215  Sum_probs=0.0  Template_Neff=9.100
+
+Q MYWIIF            1 MYWIIF    6 (6)
+Q Consensus         1 mywiif    6 (6)
+                      +||+.|
+T Consensus        82 ~y~l~~   87 (205)
+T 1KLF_O           82 LFWMNV   87 (205)
+T ss_dssp             EEEEEE
+T ss_pred             EEEEEE
+
+
+No 3
+>4YG0_A Outer capsid protein VP4; rotavirus, structural biology, glycan, VIRAL; HET: GAL, BGC, NAG; 1.285A {Human rotavirus A}
+Probab=19.79  E-value=1e+02  Score=13.74  Aligned_cols=5  Identities=40%  Similarity=1.670  Sum_probs=0.0  Template_Neff=5.100
+
+Q MYWIIF            2 YWIIF    6 (6)
+Q Consensus         2 ywiif    6 (6)
+                      ||++|
+T Consensus        19 yW~L~   23 (164)
+T 4YG0_A           19 YWYLI   23 (164)
+T ss_dssp             EEEEE
+T ss_pred             eEEEE
+
+
+No 4
+>2XG5_A CHAPERONE PROTEIN PAPD, PAP FIMBRIAL; CHAPERONE, CHAPERONE-SURFACE ACTIVE PROTEIN COMPLEX; HET: EC2, EC5; 2.0A {ESCHERICHIA COLI}
+Probab=19.65  E-value=1.1e+02  Score=12.35  Aligned_cols=6  Identities=0%  Similarity=0.678  Sum_probs=0.0  Template_Neff=9.000
+
+Q MYWIIF            1 MYWIIF    6 (6)
+Q Consensus         1 mywiif    6 (6)
+                      +||+.|
+T Consensus        85 ~y~l~~   90 (218)
+T 2XG5_A           85 LFYFNL   90 (218)
+T ss_dssp             EEEEEE
+T ss_pred             EEEEEE
+
+
+No 5
+>3ME0_A Chaperone protein papD, PapG protein; IMMUNOGLOBULIN PILIN CHAPERONE, CHAPERONE, FIMBRIUM; 2.03A {Escherichia coli}
+Probab=19.65  E-value=1.1e+02  Score=12.35  Aligned_cols=6  Identities=0%  Similarity=0.678  Sum_probs=0.0  Template_Neff=9.000
+
+Q MYWIIF            1 MYWIIF    6 (6)
+Q Consensus         1 mywiif    6 (6)
+                      +||+.|
+T Consensus        85 ~y~l~~   90 (218)
+T 3ME0_A           85 LFYFNL   90 (218)
+T ss_dssp             EEEEEE
+T ss_pred             EEEEEE
+
+
+No 6
+>1IIE_A HLA-DR ANTIGENS ASSOCIATED INVARIANT CHAIN; MAJOR HISTOCOMPATIBILITY COMPLEX, ANTIGEN PROCESSING; NMR {Homo sapiens} SCOP: a.109.1.1
+Probab=19.65  E-value=1.1e+02  Score=12.62  Aligned_cols=5  Identities=40%  Similarity=1.637  Sum_probs=0.0  Template_Neff=4.100
+
+Q MYWIIF            2 YWIIF    6 (6)
+Q Consensus         2 ywiif    6 (6)
+                      +|.+|
+T Consensus        54 ~WLLF   58 (75)
+T 1IIE_A           54 HWLLF   58 (75)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 7
+>3TAY_B Outer capsid protein VP4; BETA SANDWICH, LECTIN, SUGAR BINDING; HET: EPE, SO4, MN0, MPD; 1.85A {Porcine rotavirus}
+Probab=19.48  E-value=1.1e+02  Score=13.74  Aligned_cols=5  Identities=60%  Similarity=2.049  Sum_probs=0.0  Template_Neff=5.000
+
+Q MYWIIF            2 YWIIF    6 (6)
+Q Consensus         2 ywiif    6 (6)
+                      ||++|
+T Consensus        19 yW~L~   23 (163)
+T 3TAY_B           19 YWILL   23 (163)
+T ss_dssp             EEEEE
+T ss_pred             eEEEE
+
+
+No 8
+>6NIW_B Protease-sensitive outer capsid protein; Rotavirus, host receptor interaction, VIRUS; HET: PEG; 1.55A {Human rotavirus A}
+Probab=19.10  E-value=1.1e+02  Score=13.65  Aligned_cols=5  Identities=60%  Similarity=2.049  Sum_probs=0.0  Template_Neff=5.000
+
+Q MYWIIF            2 YWIIF    6 (6)
+Q Consensus         2 ywiif    6 (6)
+                      ||++|
+T Consensus        17 yW~L~   21 (159)
+T 6NIW_B           17 YWILL   21 (159)
+T ss_dssp             EEEEE
+T ss_pred             eEEEE
+
+
+No 9
+>7C8P_B Outer capsid protein VP4; human P[25] rotavirus, glycan binding; 2.6A {Rotavirus A}
+Probab=19.05  E-value=1.1e+02  Score=13.67  Aligned_cols=5  Identities=40%  Similarity=1.903  Sum_probs=0.0  Template_Neff=5.000
+
+Q MYWIIF            2 YWIIF    6 (6)
+Q Consensus         2 ywiif    6 (6)
+                      ||++|
+T Consensus        17 yW~L~   21 (161)
+T 7C8P_B           17 YWMMM   21 (161)
+T ss_dssp             EEEEE
+T ss_pred             eEEEe
+
+
+No 10
+>6VPP_C Tubulin alpha-1A chain, Tubulin beta; Kinesin-5, KLP61F, microtubules, mitotic spindles; HET: GTP, GDP; 4.4A {Sus scrofa}
+Probab=18.91  E-value=1.1e+02  Score=13.04  Aligned_cols=4  Identities=25%  Similarity=-0.172  Sum_probs=0.0  Template_Neff=9.500
+
+Q MYWIIF            1 MYWI    4 (6)
+Q Consensus         1 mywi    4 (6)
+                      |||+
+T Consensus         1 ~~~~    4 (377)
+T 6VPP_C            1 MDIS    4 (377)
+T ss_dssp             ----
+T ss_pred             CCCC
+
+

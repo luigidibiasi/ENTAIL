@@ -1,0 +1,145 @@
+Query         QTEEKK
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 10:59:39 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QTEEKK/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QTEEKK/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3ZNF_A ZINC FINGER (NMR); ZINC   3.7   1E+03   0.012    3.1   0.0    5    2-6      26-30  (30)
+  2 2KWY_A V-type proton ATPase su   3.6 1.1E+03   0.012    7.4   0.0    5    1-5      17-21  (43)
+  3 2Y7J_C PHOSPHORYLASE B KINASE    3.5 1.1E+03   0.012    9.6   0.0    5    2-6      10-14  (365)
+  4 6GPU_A Phototropin-2 (E.C.2.7.   3.5 1.1E+03   0.012    5.8   0.0    5    2-6     107-111 (115)
+  5 2VLG_C SPORULATION KINASE A (E   3.5 1.1E+03   0.012    5.6   0.0    4    2-5     108-111 (111)
+  6 5I4L_sM 40S ribosomal protein    3.4 1.2E+03   0.013   10.9   0.0    5    1-5     128-132 (159)
+  7 7EMF_H Mediator of RNA polymer   3.4 1.2E+03   0.013   11.4   0.0    6    1-6       2-7   (268)
+  8 7ENC_h Mediator of RNA polymer   3.4 1.2E+03   0.013   11.4   0.0    6    1-6       2-7   (268)
+  9 5HX2_B Baseplate wedge protein   3.2 1.3E+03   0.014   12.2   0.0    4    1-4     324-327 (334)
+ 10 5IV5_CA Baseplate wedge protei   3.2 1.3E+03   0.014   12.2   0.0    4    1-4     324-327 (334)
+
+No 1
+>3ZNF_A ZINC FINGER (NMR); ZINC FINGER DNA BINDING DOMAIN; NMR {Homo sapiens} SCOP: g.37.1.1
+Probab=3.67  E-value=1e+03  Score=3.07  Aligned_cols=5  Identities=40%  Similarity=0.508  Sum_probs=0.0  Template_Neff=15.500
+
+Q QTEEKK            2 TEEKK    6 (6)
+Q Consensus         2 teekk    6 (6)
+                      +.++.
+T Consensus        26 ~~~~~   30 (30)
+T 3ZNF_A           26 AHSKK   30 (30)
+T ss_dssp             SSCCC
+T ss_pred             hcCCC
+
+
+No 2
+>2KWY_A V-type proton ATPase subunit G; G61-101, PROTON TRANSPORT; NMR {Saccharomyces cerevisiae}
+Probab=3.55  E-value=1.1e+03  Score=7.39  Aligned_cols=5  Identities=0%  Similarity=0.076  Sum_probs=0.0  Template_Neff=7.900
+
+Q QTEEKK            1 QTEEK    5 (6)
+Q Consensus         1 qteek    5 (6)
+                      +|+++
+T Consensus        17 eT~~k   21 (43)
+T 2KWY_A           17 GVQGE   21 (43)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 3
+>2Y7J_C PHOSPHORYLASE B KINASE GAMMA CATALYTIC; TRANSFERASE; HET: B49; 2.5A {HOMO SAPIENS}
+Probab=3.52  E-value=1.1e+03  Score=9.61  Aligned_cols=5  Identities=20%  Similarity=0.249  Sum_probs=0.0  Template_Neff=10.800
+
+Q QTEEKK            2 TEEKK    6 (6)
+Q Consensus         2 teekk    6 (6)
+                      ++++|
+T Consensus        10 ~~~~~   14 (365)
+T 2Y7J_C           10 GVDNK   14 (365)
+T ss_dssp             -----
+T ss_pred             ccccc
+
+
+No 4
+>6GPU_A Phototropin-2 (E.C.2.7.11.1); Singlet oxygen generator, fluorescent protein; HET: FMN; 1.17A {Arabidopsis thaliana}
+Probab=3.49  E-value=1.1e+03  Score=5.85  Aligned_cols=5  Identities=0%  Similarity=-0.429  Sum_probs=0.0  Template_Neff=14.800
+
+Q QTEEKK            2 TEEKK    6 (6)
+Q Consensus         2 teekk    6 (6)
+                      ++.|+
+T Consensus       107 t~~~~  111 (115)
+T 6GPU_A          107 EFIPN  111 (115)
+T ss_pred             hHHHH
+
+
+No 5
+>2VLG_C SPORULATION KINASE A (E.C.2.7.13.3); HISTIDINE KINASE, TWO-COMPONENT REGULATORY SYSTEM; 1.7A {BACILLUS SUBTILIS}
+Probab=3.47  E-value=1.1e+03  Score=5.59  Aligned_cols=4  Identities=50%  Similarity=0.592  Sum_probs=0.0  Template_Neff=15.200
+
+Q QTEEKK            2 TEEK    5 (6)
+Q Consensus         2 teek    5 (6)
+                      |+++
+T Consensus       108 t~~~  111 (111)
+T 2VLG_C          108 LEEE  111 (111)
+T ss_dssp             CCC-
+T ss_pred             cccC
+
+
+No 6
+>5I4L_sM 40S ribosomal protein S0-A, 40S; ribosome, inhibitor; HET: OHX, UAM, MG, ZN; 3.1A {Saccharomyces cerevisiae S288c}
+Probab=3.36  E-value=1.2e+03  Score=10.89  Aligned_cols=5  Identities=0%  Similarity=0.000  Sum_probs=0.0  Template_Neff=4.200
+
+Q QTEEKK            1 QTEEK    5 (6)
+Q Consensus         1 qteek    5 (6)
+                      |+|+|
+T Consensus       128 ~~~~~  132 (159)
+T 5I4L_sM         128 XXXXX  132 (159)
+T ss_pred             CCCCC
+
+
+No 7
+>7EMF_H Mediator of RNA polymerase II; Mediator complex, TRANSCRIPTION; 3.5A {Homo sapiens}
+Probab=3.35  E-value=1.2e+03  Score=11.39  Aligned_cols=6  Identities=67%  Similarity=0.800  Sum_probs=0.0  Template_Neff=5.200
+
+Q QTEEKK            1 QTEEKK    6 (6)
+Q Consensus         1 qteekk    6 (6)
+                      |.|||+
+T Consensus         2 q~eek~    7 (268)
+T 7EMF_H            2 QREEKQ    7 (268)
+T ss_pred             chhHHH
+
+
+No 8
+>7ENC_h Mediator of RNA polymerase II; mediator, preinitiation complex, transcription initiation; HET: ZN; 4.13A {Sus scrofa}
+Probab=3.35  E-value=1.2e+03  Score=11.39  Aligned_cols=6  Identities=67%  Similarity=0.800  Sum_probs=0.0  Template_Neff=5.200
+
+Q QTEEKK            1 QTEEKK    6 (6)
+Q Consensus         1 qteekk    6 (6)
+                      |.|||+
+T Consensus         2 q~eek~    7 (268)
+T 7ENC_h            2 QREEKQ    7 (268)
+T ss_pred             chhHHH
+
+
+No 9
+>5HX2_B Baseplate wedge protein gp7, Baseplate; T4, baseplate, complex, VIRAL PROTEIN; 3.8A {Enterobacteria phage T4}
+Probab=3.18  E-value=1.3e+03  Score=12.22  Aligned_cols=4  Identities=100%  Similarity=1.033  Sum_probs=0.0  Template_Neff=3.600
+
+Q QTEEKK            1 QTEE    4 (6)
+Q Consensus         1 qtee    4 (6)
+                      ||||
+T Consensus       324 qtee  327 (334)
+T 5HX2_B          324 QTEE  327 (334)
+T ss_dssp             CCEE
+T ss_pred             ccee
+
+
+No 10
+>5IV5_CA Baseplate wedge protein gp6, Baseplate; T4, baseplate-tail tube complex, pre-attachment; 4.11A {Enterobacteria phage T4}
+Probab=3.18  E-value=1.3e+03  Score=12.22  Aligned_cols=4  Identities=100%  Similarity=1.033  Sum_probs=0.0  Template_Neff=3.600
+
+Q QTEEKK            1 QTEE    4 (6)
+Q Consensus         1 qtee    4 (6)
+                      ||||
+T Consensus       324 qtee  327 (334)
+T 5IV5_CA         324 QTEE  327 (334)
+T ss_pred             ccee
+
+

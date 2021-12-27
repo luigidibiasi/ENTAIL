@@ -1,0 +1,149 @@
+Query         NLGPVL
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 01:45:15 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NLGPVL/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NLGPVL/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3TEV_A Glycosyl hyrolase, fami  19.6 1.1E+02  0.0012   13.7   0.0    6    1-6     129-134 (351)
+  2 5B1B_X Oxidoreductase, respira  19.5 1.1E+02  0.0012   12.3   0.0    5    1-5      36-40  (49)
+  3 7D5X_K cytochrome c oxidase me  19.5 1.1E+02  0.0012   12.3   0.0    5    1-5      36-40  (49)
+  4 4G6C_B Beta-hexosaminidase 1 (  19.2 1.1E+02  0.0012   13.9   0.0    6    1-6     128-133 (348)
+  5 4GVH_A Beta-hexosaminidase (E.  18.8 1.1E+02  0.0012   13.8   0.0    6    1-6     116-121 (349)
+  6 5CSF_C Protein S100-B, Ribosom  18.5 1.2E+02  0.0013   11.1   0.0    5    1-5      33-37  (55)
+  7 2OXN_A Beta-hexosaminidase (E.  18.0 1.2E+02  0.0013   13.6   0.0    6    1-6     113-118 (340)
+  8 5IOB_G Beta-glucosidase-relate  18.0 1.2E+02  0.0013   13.6   0.0    6    1-6     141-146 (348)
+  9 4GNV_B Beta-hexosaminidase 1 (  17.9 1.2E+02  0.0014   13.6   0.0    6    1-6     130-135 (350)
+ 10 5G1M_A BETA-HEXOSAMINIDASE (E.  17.9 1.2E+02  0.0014   13.7   0.0    6    1-6     133-138 (352)
+
+No 1
+>3TEV_A Glycosyl hyrolase, family 3; PSI-BIOLOGY, midwest center for structural; HET: MSE; 2.3A {Deinococcus radiodurans}
+Probab=19.65  E-value=1.1e+02  Score=13.72  Aligned_cols=6  Identities=67%  Similarity=1.093  Sum_probs=0.0  Template_Neff=8.100
+
+Q NLGPVL            1 NLGPVL    6 (6)
+Q Consensus         1 nlgpvl    6 (6)
+                      |++||+
+T Consensus       129 ~laPv~  134 (351)
+T 3TEV_A          129 NFTPVL  134 (351)
+T ss_dssp             ECCCBC
+T ss_pred             EEcccc
+
+
+No 2
+>5B1B_X Oxidoreductase, respiratory chain, Proton pump; HET: PGV, CDL, PEK, DMU, SAC, HEA, FME, PSC, CHD, PO4, TGL, EDO; 1.6A {Bos taurus}
+Probab=19.51  E-value=1.1e+02  Score=12.35  Aligned_cols=5  Identities=60%  Similarity=0.860  Sum_probs=0.0  Template_Neff=2.300
+
+Q NLGPVL            1 NLGPV    5 (6)
+Q Consensus         1 nlgpv    5 (6)
+                      ||.||
+T Consensus        36 nlSPV   40 (49)
+T 5B1B_X           36 NPSPV   40 (49)
+T ss_dssp             CCCCT
+T ss_pred             CCCCC
+
+
+No 3
+>7D5X_K cytochrome c oxidase membrane protein; HET: PGV, CDL, PEK, DMU, SAC, HEA, FME, PSC, CHD, PO4, TGL, EDO; 1.74A {Bos taurus}
+Probab=19.51  E-value=1.1e+02  Score=12.35  Aligned_cols=5  Identities=60%  Similarity=0.860  Sum_probs=0.0  Template_Neff=2.300
+
+Q NLGPVL            1 NLGPV    5 (6)
+Q Consensus         1 nlgpv    5 (6)
+                      ||.||
+T Consensus        36 nlSPV   40 (49)
+T 7D5X_K           36 NPSPV   40 (49)
+T ss_dssp             CCCCT
+T ss_pred             CCCCC
+
+
+No 4
+>4G6C_B Beta-hexosaminidase 1 (E.C.3.2.1.52); SSGCID, NIAID, BETA- HEXOSAMINIDASE, Structural; 1.38A {Burkholderia cenocepacia}
+Probab=19.19  E-value=1.1e+02  Score=13.86  Aligned_cols=6  Identities=50%  Similarity=0.932  Sum_probs=0.0  Template_Neff=7.700
+
+Q NLGPVL            1 NLGPVL    6 (6)
+Q Consensus         1 nlgpvl    6 (6)
+                      |++||+
+T Consensus       128 ~laPv~  133 (348)
+T 4G6C_B          128 SFTPVL  133 (348)
+T ss_dssp             ECCCBC
+T ss_pred             EEcccc
+
+
+No 5
+>4GVH_A Beta-hexosaminidase (E.C.3.2.1.52); TIM-BARREL, HYDROLASE, 5-F-GlcNAc, HYDROLASE-SUBSTRATE complex; HET: 0XY, MES; 1.45A {Salmonella enterica subsp. enterica serovar Typhimurium}
+Probab=18.81  E-value=1.1e+02  Score=13.82  Aligned_cols=6  Identities=50%  Similarity=1.021  Sum_probs=0.0  Template_Neff=7.700
+
+Q NLGPVL            1 NLGPVL    6 (6)
+Q Consensus         1 nlgpvl    6 (6)
+                      |++||+
+T Consensus       116 ~laPv~  121 (349)
+T 4GVH_A          116 SFAPVL  121 (349)
+T ss_dssp             ECCCBC
+T ss_pred             Eeeccc
+
+
+No 6
+>5CSF_C Protein S100-B, Ribosomal protein S6; Complex, Kinase, Signaling, Inhibitor, transferase; 2.4A {Homo sapiens}
+Probab=18.51  E-value=1.2e+02  Score=11.14  Aligned_cols=5  Identities=40%  Similarity=0.953  Sum_probs=0.0  Template_Neff=5.900
+
+Q NLGPVL            1 NLGPV    5 (6)
+Q Consensus         1 nlgpv    5 (6)
+                      +|+||
+T Consensus        33 ~L~pV   37 (55)
+T 5CSF_C           33 QLKPI   37 (55)
+T ss_pred             CCCCc
+
+
+No 7
+>2OXN_A Beta-hexosaminidase (E.C.3.2.1.52); TIM-barrel, HYDROLASE; HET: OAN; 1.7A {Vibrio cholerae}
+Probab=18.03  E-value=1.2e+02  Score=13.64  Aligned_cols=6  Identities=50%  Similarity=1.021  Sum_probs=0.0  Template_Neff=7.800
+
+Q NLGPVL            1 NLGPVL    6 (6)
+Q Consensus         1 nlgpvl    6 (6)
+                      |++|++
+T Consensus       113 ~laPv~  118 (340)
+T 2OXN_A          113 SFAPVL  118 (340)
+T ss_dssp             ECCCBC
+T ss_pred             cccCcC
+
+
+No 8
+>5IOB_G Beta-glucosidase-related glycosidases (E.C.3.2.1.52); Structural Genomics, Midwest Center for; HET: GOL, SO4, MES, MSE; 2.252A {Corynebacterium glutamicum (strain ATCC 13032 / DSM 20300 / JCM 1318 / LMG 3730 / NCIMB 10025)}
+Probab=17.97  E-value=1.2e+02  Score=13.62  Aligned_cols=6  Identities=50%  Similarity=1.060  Sum_probs=0.0  Template_Neff=7.900
+
+Q NLGPVL            1 NLGPVL    6 (6)
+Q Consensus         1 nlgpvl    6 (6)
+                      |++||+
+T Consensus       141 ~laPv~  146 (348)
+T 5IOB_G          141 NFAPVV  146 (348)
+T ss_dssp             ECCCBC
+T ss_pred             eecccc
+
+
+No 9
+>4GNV_B Beta-hexosaminidase 1 (E.C.3.2.1.52); HYDROLASE, Structural Genomics, NIAID, National; HET: NAG; 1.5A {Burkholderia cenocepacia}
+Probab=17.89  E-value=1.2e+02  Score=13.62  Aligned_cols=6  Identities=50%  Similarity=0.932  Sum_probs=0.0  Template_Neff=7.900
+
+Q NLGPVL            1 NLGPVL    6 (6)
+Q Consensus         1 nlgpvl    6 (6)
+                      |++|++
+T Consensus       130 ~laPv~  135 (350)
+T 4GNV_B          130 SFTPVL  135 (350)
+T ss_dssp             ECCCBC
+T ss_pred             EEcccc
+
+
+No 10
+>5G1M_A BETA-HEXOSAMINIDASE (E.C.3.2.1.52); HYDROLASE, CELL-WALL RECYCLING, PEPTIDOGLYCAN, ANTIBIOTIC; HET: PEG; 1.8A {PSEUDOMONAS AERUGINOSA}
+Probab=17.87  E-value=1.2e+02  Score=13.73  Aligned_cols=6  Identities=50%  Similarity=1.021  Sum_probs=0.0  Template_Neff=7.700
+
+Q NLGPVL            1 NLGPVL    6 (6)
+Q Consensus         1 nlgpvl    6 (6)
+                      |++|++
+T Consensus       133 ~laPv~  138 (352)
+T 5G1M_A          133 SFAPVL  138 (352)
+T ss_dssp             ECCCBC
+T ss_pred             eeCcee
+
+

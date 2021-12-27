@@ -1,0 +1,146 @@
+Query         LATVHV
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 15:35:20 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LATVHV/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LATVHV/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 1POQ_A YPM; Jelly roll fold, I   4.7 7.7E+02  0.0085   11.5   0.0    4    2-5     101-104 (118)
+  2 1PM4_A YPM; Jelly roll fold, T   4.7 7.7E+02  0.0085   11.5   0.0    4    2-5     102-105 (119)
+  3 5TVM_E S-adenosylmethionine de   4.6 7.9E+02  0.0087   12.0   0.0    5    2-6     232-236 (325)
+  4 1MHM_A S-adenosylmethionine de   4.6 7.9E+02  0.0087   11.9   0.0    4    3-6     175-178 (288)
+  5 6DT7_B RNAP1, RNAP2/DNA Comple   4.4 8.4E+02  0.0093   12.3   0.0    5    1-5     337-341 (404)
+  6 6HD1_A Metalloreductase STEAP4   4.2 8.9E+02  0.0098   11.1   0.0    6    1-6     393-398 (459)
+  7 7NKG_C Methyl-coenzyme M reduc   4.2 8.9E+02  0.0099   12.5   0.0    4    2-5     154-157 (248)
+  8 6RWX_t Protein MxiG, Lipoprote   4.2 8.9E+02  0.0099   11.1   0.0    5    2-6     127-131 (241)
+  9 3WMI_B EIAV gp45 wild type; al   4.2 8.9E+02  0.0099    9.4   0.0    6    1-6      18-23  (37)
+ 10 3WMJ_B EIAV vaccine gp45; alph   4.2 8.9E+02  0.0099    9.4   0.0    6    1-6      18-23  (37)
+
+No 1
+>1POQ_A YPM; Jelly roll fold, IMMUNE SYSTEM; NMR {Yersinia pseudotuberculosis} SCOP: b.135.1.1
+Probab=4.73  E-value=7.7e+02  Score=11.53  Aligned_cols=4  Identities=100%  Similarity=1.190  Sum_probs=0.0  Template_Neff=1.100
+
+Q LATVHV            2 ATVH    5 (6)
+Q Consensus         2 atvh    5 (6)
+                      ||||
+T Consensus       101 atvh  104 (118)
+T 1POQ_A          101 ATVH  104 (118)
+T ss_dssp             ECCC
+T ss_pred             eEec
+
+
+No 2
+>1PM4_A YPM; Jelly roll fold, TOXIN; 1.755A {Yersinia pseudotuberculosis} SCOP: b.135.1.1
+Probab=4.70  E-value=7.7e+02  Score=11.53  Aligned_cols=4  Identities=100%  Similarity=1.190  Sum_probs=0.0  Template_Neff=1.100
+
+Q LATVHV            2 ATVH    5 (6)
+Q Consensus         2 atvh    5 (6)
+                      ||||
+T Consensus       102 atvh  105 (119)
+T 1PM4_A          102 ATVH  105 (119)
+T ss_dssp             EECS
+T ss_pred             eEec
+
+
+No 3
+>5TVM_E S-adenosylmethionine decarboxylase beta chain (E.C.4.1.1.50); allostery, pseudoenzyme, LYASE; HET: PYR, B3P, PUT; 2.408A {Trypanosoma brucei brucei (strain 927/4 GUTat10.1)}
+Probab=4.63  E-value=7.9e+02  Score=12.02  Aligned_cols=5  Identities=40%  Similarity=0.554  Sum_probs=0.0  Template_Neff=5.800
+
+Q LATVHV            2 ATVHV    6 (6)
+Q Consensus         2 atvhv    6 (6)
+                      .|+||
+T Consensus       232 ~TIHV  236 (325)
+T 5TVM_E          232 ETLRV  236 (325)
+T ss_dssp             EEEEE
+T ss_pred             EEEEE
+
+
+No 4
+>1MHM_A S-adenosylmethionine decarboxylase alpha & beta; covalent pyruvoyl group, LYASE; 2.3A {Solanum tuberosum}
+Probab=4.62  E-value=7.9e+02  Score=11.89  Aligned_cols=4  Identities=50%  Similarity=1.223  Sum_probs=0.0  Template_Neff=5.600
+
+Q LATVHV            3 TVHV    6 (6)
+Q Consensus         3 tvhv    6 (6)
+                      |+||
+T Consensus       175 TIHV  178 (288)
+T 1MHM_A          175 TIHI  178 (288)
+T ss_pred             EEEE
+
+
+No 5
+>6DT7_B RNAP1, RNAP2/DNA Complex; Bacteriophage, N4, RNA polymerase, TRANSCRIPTION; 2.5A {Enterobacteria phage N4}
+Probab=4.40  E-value=8.4e+02  Score=12.30  Aligned_cols=5  Identities=60%  Similarity=0.833  Sum_probs=0.0  Template_Neff=5.800
+
+Q LATVHV            1 LATVH    5 (6)
+Q Consensus         1 latvh    5 (6)
+                      ++|||
+T Consensus       337 ~~tVH  341 (404)
+T 6DT7_B          337 VLTVH  341 (404)
+T ss_dssp             CEESS
+T ss_pred             EEEEe
+
+
+No 6
+>6HD1_A Metalloreductase STEAP4 (E.C.1.16.1.-); Enzyme, Metalloreductase, Electron Transfer, Cofactor-binding; HET: NAP, FAD, NAG, HEM, 44E;{Homo sapiens}
+Probab=4.21  E-value=8.9e+02  Score=11.11  Aligned_cols=6  Identities=50%  Similarity=0.728  Sum_probs=0.0  Template_Neff=8.900
+
+Q LATVHV            1 LATVHV    6 (6)
+Q Consensus         1 latvhv    6 (6)
+                      |+++|+
+T Consensus       393 l~~~H~  398 (459)
+T 6HD1_A          393 LCTAHT  398 (459)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 7
+>7NKG_C Methyl-coenzyme M reductase alpha subunit; Methyl-coenzyme M reductase, cofactor F430; HET: GOL, MHS, COM, TP7, F43, AGM, GL3, SO4; 1.6A {Methermicoccus shengliensis DSM 18856}
+Probab=4.19  E-value=8.9e+02  Score=12.49  Aligned_cols=4  Identities=100%  Similarity=1.190  Sum_probs=0.0  Template_Neff=2.400
+
+Q LATVHV            2 ATVH    5 (6)
+Q Consensus         2 atvh    5 (6)
+                      ||||
+T Consensus       154 aTVH  157 (248)
+T 7NKG_C          154 ATVH  157 (248)
+T ss_dssp             SCCC
+T ss_pred             cccc
+
+
+No 8
+>6RWX_t Protein MxiG, Lipoprotein MxiJ; type 3 secretion system, shigella;{Shigella flexneri}
+Probab=4.19  E-value=8.9e+02  Score=11.10  Aligned_cols=5  Identities=60%  Similarity=0.999  Sum_probs=0.0  Template_Neff=6.400
+
+Q LATVHV            2 ATVHV    6 (6)
+Q Consensus         2 atvhv    6 (6)
+                      |.||+
+T Consensus       127 ArV~i  131 (241)
+T 6RWX_t          127 AKIHV  131 (241)
+T ss_pred             EEEEE
+
+
+No 9
+>3WMI_B EIAV gp45 wild type; alpha-helix, virus fusion, VIRAL PROTEIN; 1.9A {Equine}
+Probab=4.18  E-value=8.9e+02  Score=9.43  Aligned_cols=6  Identities=50%  Similarity=0.827  Sum_probs=0.0  Template_Neff=1.400
+
+Q LATVHV            1 LATVHV    6 (6)
+Q Consensus         1 latvhv    6 (6)
+                      |.|.|+
+T Consensus        18 lttlh~   23 (37)
+T 3WMI_B           18 LTTLHT   23 (37)
+T ss_pred             HHHHHH
+
+
+No 10
+>3WMJ_B EIAV vaccine gp45; alpha-helix, virus fusion, envelope, VIRAL; 1.998A {Equine}
+Probab=4.18  E-value=8.9e+02  Score=9.43  Aligned_cols=6  Identities=50%  Similarity=0.827  Sum_probs=0.0  Template_Neff=1.400
+
+Q LATVHV            1 LATVHV    6 (6)
+Q Consensus         1 latvhv    6 (6)
+                      |.|.|+
+T Consensus        18 lttlh~   23 (37)
+T 3WMJ_B           18 LTTLHT   23 (37)
+T ss_pred             HHHHHH
+
+

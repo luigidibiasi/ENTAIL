@@ -1,0 +1,145 @@
+Query         AVDQTA
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 16:05:35 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/AVDQTA/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/AVDQTA/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6DV9_E DNA-directed RNA polyme   4.4 8.4E+02  0.0093   10.4   0.0    4    1-4      15-18  (110)
+  2 6ID0_W Pre-mRNA-processing-spl   3.8 9.9E+02   0.011   11.0   0.0    6    1-6      53-58  (579)
+  3 6ID1_W Pre-mRNA-processing-spl   3.8 9.9E+02   0.011   11.0   0.0    6    1-6      53-58  (579)
+  4 7KIX_A Anti-CRISPR protein Acr   3.8   1E+03   0.011   10.7   0.0    6    1-6      23-28  (91)
+  5 3K1F_M DNA-directed RNA polyme   3.8   1E+03   0.011   11.8   0.0    6    1-6       6-11  (197)
+  6 7CHQ_A anti-CRISPR AcrIE2; Acr   3.8   1E+03   0.011   10.7   0.0    6    1-6      23-28  (92)
+  7 4V6W_AT Ribosome; eukarya, euk   3.7 1.1E+03   0.012   10.7   0.0    5    1-5     145-149 (156)
+  8 5MMJ_w 50S ribosomal protein L   3.6 1.1E+03   0.012   11.6   0.0    4    1-4     113-116 (179)
+  9 5MMM_w 50S ribosomal protein L   3.5 1.1E+03   0.012   11.6   0.0    4    1-4     113-116 (179)
+ 10 7D2Z_A SR31 against SARS-CoV-2   3.3 1.2E+03   0.013    7.3   0.0    3    1-3     136-138 (144)
+
+No 1
+>6DV9_E DNA-directed RNA polymerase/ECF RNA polymerase; Mycobacterium tuberculosis, RNA polymerase, ECF; 3.8A {Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv)}
+Probab=4.40  E-value=8.4e+02  Score=10.38  Aligned_cols=4  Identities=100%  Similarity=1.099  Sum_probs=0.0  Template_Neff=5.100
+
+Q AVDQTA            1 AVDQ    4 (6)
+Q Consensus         1 avdq    4 (6)
+                      ||||
+T Consensus        15 ~~~~   18 (110)
+T 6DV9_E           15 AVDQ   18 (110)
+T ss_dssp             ----
+T ss_pred             CCCC
+
+
+No 2
+>6ID0_W Pre-mRNA-processing-splicing factor 8, 116 kDa; Human Intron Lariat Spliceosome, SPLICING; HET: GTP, SEP, I6P; 2.9A {Homo sapiens}
+Probab=3.84  E-value=9.9e+02  Score=10.95  Aligned_cols=6  Identities=50%  Similarity=0.645  Sum_probs=0.0  Template_Neff=9.800
+
+Q AVDQTA            1 AVDQTA    6 (6)
+Q Consensus         1 avdqta    6 (6)
+                      +||.|+
+T Consensus        53 ~~~~~~   58 (579)
+T 6ID0_W           53 AVDSAP   58 (579)
+T ss_pred             CCCCCc
+
+
+No 3
+>6ID1_W Pre-mRNA-processing-splicing factor 8, 116 kDa; Human Intron Lariat Spliceosome, SPLICING; HET: GTP, SEP, I6P; 2.86A {Homo sapiens}
+Probab=3.84  E-value=9.9e+02  Score=10.95  Aligned_cols=6  Identities=50%  Similarity=0.645  Sum_probs=0.0  Template_Neff=9.800
+
+Q AVDQTA            1 AVDQTA    6 (6)
+Q Consensus         1 avdqta    6 (6)
+                      +||.|+
+T Consensus        53 ~~~~~~   58 (579)
+T 6ID1_W           53 AVDSAP   58 (579)
+T ss_pred             CCCCCc
+
+
+No 4
+>7KIX_A Anti-CRISPR protein AcrIE2; VIRAL PROTEIN; NMR {Pseudomonas phage JBD16C}
+Probab=3.80  E-value=1e+03  Score=10.73  Aligned_cols=6  Identities=83%  Similarity=0.750  Sum_probs=0.0  Template_Neff=1.000
+
+Q AVDQTA            1 AVDQTA    6 (6)
+Q Consensus         1 avdqta    6 (6)
+                      |||-||
+T Consensus        23 avdita   28 (91)
+T 7KIX_A           23 AVDITA   28 (91)
+T ss_dssp             ESSHHH
+T ss_pred             eehHHH
+
+
+No 5
+>3K1F_M DNA-directed RNA polymerase II subunit; RNA Polymerase II, TFIIB, Transcription; 4.3A {Saccharomyces cerevisiae}
+Probab=3.79  E-value=1e+03  Score=11.75  Aligned_cols=6  Identities=33%  Similarity=0.700  Sum_probs=0.0  Template_Neff=3.200
+
+Q AVDQTA            1 AVDQTA    6 (6)
+Q Consensus         1 avdqta    6 (6)
+                      +|||++
+T Consensus         6 ~~~~~~   11 (197)
+T 3K1F_M            6 SIDKRA   11 (197)
+T ss_dssp             ------
+T ss_pred             cccccc
+
+
+No 6
+>7CHQ_A anti-CRISPR AcrIE2; AcrIE2, IMMUNE SYSTEM, CRISPR Cascade; 1.33A {Pseudomonas phage JBD16C}
+Probab=3.79  E-value=1e+03  Score=10.75  Aligned_cols=6  Identities=83%  Similarity=0.750  Sum_probs=0.0  Template_Neff=1.000
+
+Q AVDQTA            1 AVDQTA    6 (6)
+Q Consensus         1 avdqta    6 (6)
+                      |||-||
+T Consensus        23 avdita   28 (92)
+T 7CHQ_A           23 AVDITA   28 (92)
+T ss_dssp             ESSHHH
+T ss_pred             hhhHHH
+
+
+No 7
+>4V6W_AT Ribosome; eukarya, eukaryotic, ribosomal, 80S, RNA; 6.0A {Drosophila melanogaster}
+Probab=3.66  E-value=1.1e+03  Score=10.75  Aligned_cols=5  Identities=60%  Similarity=0.548  Sum_probs=0.0  Template_Neff=4.900
+
+Q AVDQTA            1 AVDQT    5 (6)
+Q Consensus         1 avdqt    5 (6)
+                      |+|||
+T Consensus       145 ~~~~~  149 (156)
+T 4V6W_AT         145 AAKQT  149 (156)
+T ss_pred             HHHhh
+
+
+No 8
+>5MMJ_w 50S ribosomal protein L31, plastid; chloroplast, translation, ribosome, cryo-EM; HET: MG; 3.646A {Spinacia oleracea}
+Probab=3.56  E-value=1.1e+03  Score=11.57  Aligned_cols=4  Identities=75%  Similarity=0.966  Sum_probs=0.0  Template_Neff=2.900
+
+Q AVDQTA            1 AVDQ    4 (6)
+Q Consensus         1 avdq    4 (6)
+                      |+||
+T Consensus       113 AlDQ  116 (179)
+T 5MMJ_w          113 ALDQ  116 (179)
+T ss_pred             Eece
+
+
+No 9
+>5MMM_w 50S ribosomal protein L31, 50S; chloroplast, translation, ribosome, cryo-EM; HET: MG; 3.4A {Spinacia oleracea}
+Probab=3.55  E-value=1.1e+03  Score=11.56  Aligned_cols=4  Identities=75%  Similarity=0.966  Sum_probs=0.0  Template_Neff=2.900
+
+Q AVDQTA            1 AVDQ    4 (6)
+Q Consensus         1 avdq    4 (6)
+                      |+||
+T Consensus       113 AlDQ  116 (179)
+T 5MMM_w          113 ALDQ  116 (179)
+T ss_pred             EecE
+
+
+No 10
+>7D2Z_A SR31 against SARS-CoV-2 RBD, non; coronavirus, Covid-19, nanobody, neutralizing antibody; HET: NAG, MAN, BMA, GOL, FMT, FUC; 1.97A {synthetic construct}
+Probab=3.34  E-value=1.2e+03  Score=7.31  Aligned_cols=3  Identities=100%  Similarity=1.165  Sum_probs=0.0  Template_Neff=12.400
+
+Q AVDQTA            1 AVD    3 (6)
+Q Consensus         1 avd    3 (6)
+                      |||
+T Consensus       136 ~~~  138 (144)
+T 7D2Z_A          136 AVD  138 (144)
+T ss_dssp             ---
+T ss_pred             hhc
+
+

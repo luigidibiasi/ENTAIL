@@ -1,0 +1,147 @@
+Query         SATLDQ
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 13:17:19 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/SATLDQ/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/SATLDQ/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 1Q0U_A BstDEAD; DEAD PROTEIN,    5.3 6.6E+02  0.0073    9.6   0.0    6    1-6     188-193 (219)
+  2 2Z3U_A Cytochrome P450 (E.C.1.   4.9 7.3E+02  0.0081   10.2   0.0    6    1-6       3-8   (425)
+  3 2KMC_A Fermitin family homolog   4.7 7.7E+02  0.0085   10.8   0.0    4    3-6      82-85  (102)
+  4 1T6N_A Probable ATP-dependent    4.6 7.9E+02  0.0087    9.1   0.0    6    1-6     197-202 (220)
+  5 2LGX_A Fermitin family homolog   4.4 8.3E+02  0.0092   10.8   0.0    4    3-6      85-88  (112)
+  6 6OD1_B Regulator of RpoS, Anti   4.4 8.4E+02  0.0093    9.0   0.0    5    1-5     108-112 (115)
+  7 3BER_A Probable ATP-dependent    3.9 9.8E+02   0.011    9.2   0.0    6    1-6     224-229 (249)
+  8 5H8C_A XPD/Rad3 related DNA he   3.8 9.9E+02   0.011   10.6   0.0    4    1-4     322-325 (551)
+  9 6YOS_C 14-3-3 protein zeta/del   3.8   1E+03   0.011    9.0   0.0    5    2-6       6-10  (31)
+ 10 5GJU_A ATP-dependent RNA helic   3.7   1E+03   0.011    8.0   0.0    6    1-6     182-187 (205)
+
+No 1
+>1Q0U_A BstDEAD; DEAD PROTEIN, RNA BINDING PROTEIN; HET: MSE; 1.85A {Geobacillus stearothermophilus} SCOP: c.37.1.19
+Probab=5.34  E-value=6.6e+02  Score=9.59  Aligned_cols=6  Identities=50%  Similarity=0.606  Sum_probs=0.0  Template_Neff=10.300
+
+Q SATLDQ            1 SATLDQ    6 (6)
+Q Consensus         1 satldq    6 (6)
+                      |||+..
+T Consensus       188 SaT~~~  193 (219)
+T 1Q0U_A          188 SATIPE  193 (219)
+T ss_dssp             ESCCCG
+T ss_pred             ECCCCH
+
+
+No 2
+>2Z3U_A Cytochrome P450 (E.C.1.-.-.-); cytochrome P450, monoxygenase, oxydoreductase, heme-enzyme; HET: CRR, EDO, HEM; 2.4A {Streptomyces sp. TP-A0274}
+Probab=4.91  E-value=7.3e+02  Score=10.21  Aligned_cols=6  Identities=67%  Similarity=0.661  Sum_probs=0.0  Template_Neff=11.100
+
+Q SATLDQ            1 SATLDQ    6 (6)
+Q Consensus         1 satldq    6 (6)
+                      |+|+++
+T Consensus         3 ~~~~~~    8 (425)
+T 2Z3U_A            3 SATLPR    8 (425)
+T ss_pred             cccCCC
+
+
+No 3
+>2KMC_A Fermitin family homolog 1; kindlin, cytoskeleton, integrin, N-terminal, talin; NMR {Mus musculus}
+Probab=4.70  E-value=7.7e+02  Score=10.81  Aligned_cols=4  Identities=75%  Similarity=1.057  Sum_probs=0.0  Template_Neff=3.800
+
+Q SATLDQ            3 TLDQ    6 (6)
+Q Consensus         3 tldq    6 (6)
+                      ||||
+T Consensus        82 TLDq   85 (102)
+T 2KMC_A           82 TLDK   85 (102)
+T ss_dssp             BHHH
+T ss_pred             eHHH
+
+
+No 4
+>1T6N_A Probable ATP-dependent RNA helicase p47; RecA-like fold, pre-mRNA processing protein; HET: FLC; 1.94A {Homo sapiens} SCOP: c.37.1.19
+Probab=4.61  E-value=7.9e+02  Score=9.07  Aligned_cols=6  Identities=67%  Similarity=0.728  Sum_probs=0.0  Template_Neff=11.000
+
+Q SATLDQ            1 SATLDQ    6 (6)
+Q Consensus         1 satldq    6 (6)
+                      |||++.
+T Consensus       197 Sat~~~  202 (220)
+T 1T6N_A          197 SATLSK  202 (220)
+T ss_dssp             ESCCCT
+T ss_pred             eCCCCH
+
+
+No 5
+>2LGX_A Fermitin family homolog 2; Kindlin, membrane, integrin activation, cell; NMR {Homo sapiens}
+Probab=4.41  E-value=8.3e+02  Score=10.84  Aligned_cols=4  Identities=75%  Similarity=1.057  Sum_probs=0.0  Template_Neff=3.900
+
+Q SATLDQ            3 TLDQ    6 (6)
+Q Consensus         3 tldq    6 (6)
+                      ||||
+T Consensus        85 TLdq   88 (112)
+T 2LGX_A           85 TLDK   88 (112)
+T ss_dssp             CHHH
+T ss_pred             eHHH
+
+
+No 6
+>6OD1_B Regulator of RpoS, Anti-adapter protein; response regulator, ClpXP adaptor, anti-adaptor; 2.0A {Escherichia coli 907672}
+Probab=4.39  E-value=8.4e+02  Score=9.05  Aligned_cols=5  Identities=80%  Similarity=0.919  Sum_probs=0.0  Template_Neff=8.500
+
+Q SATLDQ            1 SATLD    5 (6)
+Q Consensus         1 satld    5 (6)
+                      +|||.
+T Consensus       108 ~~~~~  112 (115)
+T 6OD1_B          108 SATLE  112 (115)
+T ss_pred             EEEEE
+
+
+No 7
+>3BER_A Probable ATP-dependent RNA helicase DDX47; RNA HELICASE, DEAD, AMP, Structural; HET: PGE, AMP; 1.4A {Homo sapiens}
+Probab=3.87  E-value=9.8e+02  Score=9.21  Aligned_cols=6  Identities=50%  Similarity=0.634  Sum_probs=0.0  Template_Neff=10.600
+
+Q SATLDQ            1 SATLDQ    6 (6)
+Q Consensus         1 satldq    6 (6)
+                      |||+..
+T Consensus       224 SAT~~~  229 (249)
+T 3BER_A          224 SATMTK  229 (249)
+T ss_dssp             ESSCCH
+T ss_pred             ECCCCH
+
+
+No 8
+>5H8C_A XPD/Rad3 related DNA helicase; helicase, hydrolase; 2.29A {Sulfolobus acidocaldarius}
+Probab=3.84  E-value=9.9e+02  Score=10.60  Aligned_cols=4  Identities=75%  Similarity=0.767  Sum_probs=0.0  Template_Neff=10.400
+
+Q SATLDQ            1 SATL    4 (6)
+Q Consensus         1 satl    4 (6)
+                      ||||
+T Consensus       322 SaTL  325 (551)
+T 5H8C_A          322 SGTL  325 (551)
+T ss_dssp             ESSC
+T ss_pred             cCCC
+
+
+No 9
+>6YOS_C 14-3-3 protein zeta/delta, Glucocorticoid receptor; 14-3-3 protein zeta/delta, glucocorticoid Receptor; HET: TPO, SEP; 2.75A {Homo sapiens}
+Probab=3.76  E-value=1e+03  Score=8.99  Aligned_cols=5  Identities=80%  Similarity=0.727  Sum_probs=0.0  Template_Neff=1.000
+
+Q SATLDQ            2 ATLDQ    6 (6)
+Q Consensus         2 atldq    6 (6)
+                      |||.|
+T Consensus         6 atlpq   10 (31)
+T 6YOS_C            6 ATLPQ   10 (31)
+T ss_pred             cCCCc
+
+
+No 10
+>5GJU_A ATP-dependent RNA helicase DeaD (E.C.3.6.4.13); RecA-like, RNA helicase, HYDROLASE; HET: AMP; 1.6A {Escherichia coli (strain K12)}
+Probab=3.72  E-value=1e+03  Score=8.02  Aligned_cols=6  Identities=50%  Similarity=0.606  Sum_probs=0.0  Template_Neff=12.400
+
+Q SATLDQ            1 SATLDQ    6 (6)
+Q Consensus         1 satldq    6 (6)
+                      |+|+.+
+T Consensus       182 sat~~~  187 (205)
+T 5GJU_A          182 SATMPE  187 (205)
+T ss_dssp             CSSCCH
+T ss_pred             EcCCCH
+
+

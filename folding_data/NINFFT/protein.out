@@ -1,0 +1,147 @@
+Query         NINFFT
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 01:01:29 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NINFFT/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NINFFT/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4XB6_E PhnG, PhnH, PhnI, PhnJ;  17.3 1.3E+02  0.0014   12.7   0.0    5    2-6     139-143 (150)
+  2 4XB6_A PhnG, PhnH, PhnI, PhnJ;  14.5 1.7E+02  0.0019   12.4   0.0    5    2-6     139-143 (150)
+  3 1ULI_D Biphenyl dioxygenase (E  13.3 1.9E+02  0.0021   11.5   0.0    5    1-5     182-186 (187)
+  4 5C0T_A Alkylmercury lyase (E.C  12.3 2.1E+02  0.0024   12.6   0.0    6    1-6     161-166 (212)
+  5 5C0U_A Alkylmercury lyase (E.C  12.3 2.1E+02  0.0024   12.6   0.0    6    1-6     161-166 (212)
+  6 5U7A_B Alkylmercury lyase (E.C  12.2 2.2E+02  0.0024   12.5   0.0    6    1-6     161-166 (212)
+  7 5C17_A MerB2; Bacterial Protei  12.0 2.2E+02  0.0025   12.1   0.0    6    1-6     167-172 (209)
+  8 1R1A_4 RHINOVIRUS SEROTYPE 1 (  11.8 2.3E+02  0.0025    9.7   0.0    5    1-5      28-32  (44)
+  9 6Z1P_Bt Ribosomal protein L2,   11.6 2.3E+02  0.0026   12.8   0.0    4    2-5      84-87  (102)
+ 10 2HWD_4 HUMAN RHINOVIRUS 1A COM  11.3 2.4E+02  0.0027    9.5   0.0    5    1-5      28-32  (44)
+
+No 1
+>4XB6_E PhnG, PhnH, PhnI, PhnJ; protein complex, transferase; HET: SO4, CME; 1.7A {Escherichia coli str. K-12 substr. MG1655}
+Probab=17.25  E-value=1.3e+02  Score=12.75  Aligned_cols=5  Identities=60%  Similarity=1.451  Sum_probs=0.0  Template_Neff=6.300
+
+Q NINFFT            2 INFFT    6 (6)
+Q Consensus         2 infft    6 (6)
+                      ++|||
+T Consensus       139 V~F~t  143 (150)
+T 4XB6_E          139 VDFFT  143 (150)
+T ss_dssp             ECCEE
+T ss_pred             cChhh
+
+
+No 2
+>4XB6_A PhnG, PhnH, PhnI, PhnJ; protein complex, transferase; HET: SO4, CME; 1.7A {Escherichia coli str. K-12 substr. MG1655}
+Probab=14.46  E-value=1.7e+02  Score=12.41  Aligned_cols=5  Identities=60%  Similarity=1.451  Sum_probs=0.0  Template_Neff=6.300
+
+Q NINFFT            2 INFFT    6 (6)
+Q Consensus         2 infft    6 (6)
+                      ++|||
+T Consensus       139 V~F~t  143 (150)
+T 4XB6_A          139 VDFFT  143 (150)
+T ss_dssp             ECCEE
+T ss_pred             cChhh
+
+
+No 3
+>1ULI_D Biphenyl dioxygenase (E.C.1.14.12.18); Alpha3 Beta3 hetero hexamer, OXIDOREDUCTASE; HET: FES; 2.2A {Rhodococcus sp.} SCOP: d.17.4.4
+Probab=13.32  E-value=1.9e+02  Score=11.47  Aligned_cols=5  Identities=60%  Similarity=1.431  Sum_probs=0.0  Template_Neff=8.800
+
+Q NINFFT            1 NINFF    5 (6)
+Q Consensus         1 ninff    5 (6)
+                      |.+||
+T Consensus       182 ~~~~~  186 (187)
+T 1ULI_D          182 NLSFF  186 (187)
+T ss_dssp             CCCSC
+T ss_pred             ccccc
+
+
+No 4
+>5C0T_A Alkylmercury lyase (E.C.4.99.1.2); Bacterial Proteins, Cysteine, Escherichia coli; 1.96A {Escherichia coli}
+Probab=12.29  E-value=2.1e+02  Score=12.61  Aligned_cols=6  Identities=33%  Similarity=1.115  Sum_probs=0.0  Template_Neff=6.600
+
+Q NINFFT            1 NINFFT    6 (6)
+Q Consensus         1 ninfft    6 (6)
+                      .++||.
+T Consensus       161 ~i~FF~  166 (212)
+T 5C0T_A          161 HVHFFA  166 (212)
+T ss_dssp             GCCEES
+T ss_pred             ccEEEc
+
+
+No 5
+>5C0U_A Alkylmercury lyase (E.C.4.99.1.2); Bacterial Proteins, Cysteine, Escherichia coli; 1.87A {Escherichia coli}
+Probab=12.29  E-value=2.1e+02  Score=12.61  Aligned_cols=6  Identities=33%  Similarity=1.115  Sum_probs=0.0  Template_Neff=6.600
+
+Q NINFFT            1 NINFFT    6 (6)
+Q Consensus         1 ninfft    6 (6)
+                      .++||.
+T Consensus       161 ~i~FF~  166 (212)
+T 5C0U_A          161 HVHFFA  166 (212)
+T ss_dssp             GCCEES
+T ss_pred             ccEEEc
+
+
+No 6
+>5U7A_B Alkylmercury lyase (E.C.4.99.1.2); Bacterial Proteins, Cysteine, Escherichia coli; 1.532A {Escherichia coli}
+Probab=12.20  E-value=2.2e+02  Score=12.51  Aligned_cols=6  Identities=33%  Similarity=1.115  Sum_probs=0.0  Template_Neff=6.800
+
+Q NINFFT            1 NINFFT    6 (6)
+Q Consensus         1 ninfft    6 (6)
+                      .++||.
+T Consensus       161 ~i~FF~  166 (212)
+T 5U7A_B          161 HVHFFA  166 (212)
+T ss_dssp             GCCEES
+T ss_pred             ccEEEc
+
+
+No 7
+>5C17_A MerB2; Bacterial Proteins, Cysteine, Lyases, Mercury; HET: GOL, DTV; 1.24A {Bacillus megaterium}
+Probab=12.01  E-value=2.2e+02  Score=12.08  Aligned_cols=6  Identities=33%  Similarity=1.082  Sum_probs=0.0  Template_Neff=7.600
+
+Q NINFFT            1 NINFFT    6 (6)
+Q Consensus         1 ninfft    6 (6)
+                      .++||.
+T Consensus       167 ~~~fF~  172 (209)
+T 5C17_A          167 QIHYFS  172 (209)
+T ss_dssp             GCEEES
+T ss_pred             ceEEEC
+
+
+No 8
+>1R1A_4 RHINOVIRUS SEROTYPE 1 (HRV1) COAT; RHINOVIRUS COAT PROTEIN, Icosahedral virus; HET: SUC; 3.2A {Human rhinovirus 1A} SCOP: b.121.4.1
+Probab=11.75  E-value=2.3e+02  Score=9.70  Aligned_cols=5  Identities=80%  Similarity=1.577  Sum_probs=0.0  Template_Neff=6.500
+
+Q NINFFT            1 NINFF    5 (6)
+Q Consensus         1 ninff    5 (6)
+                      +||++
+T Consensus        28 ~iNyY   32 (44)
+T 1R1A_4           28 NINYF   32 (44)
+T ss_pred             Eeeee
+
+
+No 9
+>6Z1P_Bt Ribosomal protein L2, 50S ribosomal; Mitochondrial ribosome, ribosome, mitochondria, ciliate; HET: MG, ATP; 3.7A {Tetrahymena thermophila (strain SB210)}
+Probab=11.61  E-value=2.3e+02  Score=12.85  Aligned_cols=4  Identities=100%  Similarity=1.813  Sum_probs=0.0  Template_Neff=1.000
+
+Q NINFFT            2 INFF    5 (6)
+Q Consensus         2 inff    5 (6)
+                      ||||
+T Consensus        84 inff   87 (102)
+T 6Z1P_Bt          84 INFF   87 (102)
+T ss_pred             HHHH
+
+
+No 10
+>2HWD_4 HUMAN RHINOVIRUS 1A COMPLEXED WITH; RHINOVIRUS COAT PROTEIN, Icosahedral virus; HET: W91; 3.8A {Human rhinovirus 1A} SCOP: b.121.4.1
+Probab=11.27  E-value=2.4e+02  Score=9.50  Aligned_cols=5  Identities=80%  Similarity=1.577  Sum_probs=0.0  Template_Neff=6.800
+
+Q NINFFT            1 NINFF    5 (6)
+Q Consensus         1 ninff    5 (6)
+                      +||++
+T Consensus        28 ~iNyY   32 (44)
+T 2HWD_4           28 NINYF   32 (44)
+T ss_pred             Eeeee
+
+

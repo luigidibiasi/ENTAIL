@@ -1,0 +1,150 @@
+Query         LAMVYV
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 13:52:12 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LAMVYV/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LAMVYV/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6BXS_A Mitochondrial Associati  16.4 1.4E+02  0.0015   15.0   0.0    6    1-6     165-170 (281)
+  2 5FIR_D 5'-3' EXORIBONUCLEASE 2  15.9 1.5E+02  0.0016   11.8   0.0    6    1-6      45-50  (78)
+  3 6BXR_A Mitochondrial associati  15.6 1.5E+02  0.0017   14.8   0.0    6    1-6     158-163 (273)
+  4 6BXS_B Mitochondrial Associati  15.4 1.5E+02  0.0017   14.8   0.0    6    1-6     165-170 (281)
+  5 5FIR_B 5'-3' EXORIBONUCLEASE 2  14.1 1.8E+02  0.0019   11.7   0.0    6    1-6      45-50  (78)
+  6 2B4H_B Outer capsid protein VP  13.0   2E+02  0.0022   14.6   0.0    4    3-6     140-143 (254)
+  7 2B4I_B Outer capsid protein VP  13.0   2E+02  0.0022   14.6   0.0    4    3-6     140-143 (254)
+  8 4MVE_B Uncharacterized protein  12.1 2.2E+02  0.0024   12.3   0.0    5    1-5     109-113 (151)
+  9 1SK7_A hypothetical protein pa  10.8 2.6E+02  0.0029   10.8   0.0    6    1-6     113-118 (198)
+ 10 1J77_A heme oxygenase (E.C.1.1   9.8 2.9E+02  0.0033   10.9   0.0    6    1-6     108-113 (209)
+
+No 1
+>6BXS_A Mitochondrial Association Factor 1 A; macro domain, ADPribose, neofunctionalize, MEMBRANE; HET: SO4; 2.1A {Toxoplasma gondii}
+Probab=16.40  E-value=1.4e+02  Score=14.97  Aligned_cols=6  Identities=33%  Similarity=0.556  Sum_probs=0.0  Template_Neff=3.600
+
+Q LAMVYV            1 LAMVYV    6 (6)
+Q Consensus         1 lamvyv    6 (6)
+                      .+|+||
+T Consensus       165 ~gMiYv  170 (281)
+T 6BXS_A          165 DVMLYT  170 (281)
+T ss_dssp             CEEEEE
+T ss_pred             ceEEEE
+
+
+No 2
+>5FIR_D 5'-3' EXORIBONUCLEASE 2 HOMOLOG (E.C.3.1.13.-); HYDROLASE, 5'-3' EXORIBONUCLEASE, MIRNA TURNOVER; HET: SO4, MSE; 2.836A {CAENORHABDITIS ELEGANS}
+Probab=15.90  E-value=1.5e+02  Score=11.85  Aligned_cols=6  Identities=17%  Similarity=0.783  Sum_probs=0.0  Template_Neff=5.200
+
+Q LAMVYV            1 LAMVYV    6 (6)
+Q Consensus         1 lamvyv    6 (6)
+                      |+++|+
+T Consensus        45 LS~~f~   50 (78)
+T 5FIR_D           45 LSQLFI   50 (78)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 3
+>6BXR_A Mitochondrial association factor 1; macro domain, ADPribose, neofunctionalize, membrane; HET: BR, GOL; 1.6A {Toxoplasma gondii}
+Probab=15.64  E-value=1.5e+02  Score=14.82  Aligned_cols=6  Identities=33%  Similarity=0.600  Sum_probs=0.0  Template_Neff=3.600
+
+Q LAMVYV            1 LAMVYV    6 (6)
+Q Consensus         1 lamvyv    6 (6)
+                      .+|+||
+T Consensus       158 ~~MiYv  163 (273)
+T 6BXR_A          158 NVMMYT  163 (273)
+T ss_dssp             CEEEEE
+T ss_pred             CeEEEE
+
+
+No 4
+>6BXS_B Mitochondrial Association Factor 1 A; macro domain, ADPribose, neofunctionalize, MEMBRANE; HET: SO4; 2.1A {Toxoplasma gondii}
+Probab=15.43  E-value=1.5e+02  Score=14.81  Aligned_cols=6  Identities=33%  Similarity=0.556  Sum_probs=0.0  Template_Neff=3.700
+
+Q LAMVYV            1 LAMVYV    6 (6)
+Q Consensus         1 lamvyv    6 (6)
+                      .+|+||
+T Consensus       165 ~~MiYv  170 (281)
+T 6BXS_B          165 DVMLYT  170 (281)
+T ss_dssp             CEEEEE
+T ss_pred             ceEEEE
+
+
+No 5
+>5FIR_B 5'-3' EXORIBONUCLEASE 2 HOMOLOG (E.C.3.1.13.-); HYDROLASE, 5'-3' EXORIBONUCLEASE, MIRNA TURNOVER; HET: SO4, MSE; 2.836A {CAENORHABDITIS ELEGANS}
+Probab=14.08  E-value=1.8e+02  Score=11.71  Aligned_cols=6  Identities=17%  Similarity=0.783  Sum_probs=0.0  Template_Neff=5.000
+
+Q LAMVYV            1 LAMVYV    6 (6)
+Q Consensus         1 lamvyv    6 (6)
+                      |+++|+
+T Consensus        45 LS~~f~   50 (78)
+T 5FIR_B           45 LSQLFI   50 (78)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 6
+>2B4H_B Outer capsid protein VP4; BETA SANDWICH  GREEK KEY; HET: MPD; 1.6A {Rhesus rotavirus}
+Probab=13.02  E-value=2e+02  Score=14.65  Aligned_cols=4  Identities=100%  Similarity=1.572  Sum_probs=0.0  Template_Neff=2.400
+
+Q LAMVYV            3 MVYV    6 (6)
+Q Consensus         3 mvyv    6 (6)
+                      ||||
+T Consensus       140 MVYV  143 (254)
+T 2B4H_B          140 MVYV  143 (254)
+T ss_dssp             TTSE
+T ss_pred             eeEE
+
+
+No 7
+>2B4I_B Outer capsid protein VP4; BETA SANDWICH  GREEK KEY; 2.0A {Rhesus rotavirus}
+Probab=13.01  E-value=2e+02  Score=14.65  Aligned_cols=4  Identities=100%  Similarity=1.572  Sum_probs=0.0  Template_Neff=2.400
+
+Q LAMVYV            3 MVYV    6 (6)
+Q Consensus         3 mvyv    6 (6)
+                      ||||
+T Consensus       140 MVYV  143 (254)
+T 2B4I_B          140 MVYV  143 (254)
+T ss_dssp             CCSE
+T ss_pred             eeEE
+
+
+No 8
+>4MVE_B Uncharacterized protein; Structural Genomics, PSI-Biology, Midwest Center; HET: MSE; 2.11A {Thermomonospora curvata}
+Probab=12.14  E-value=2.2e+02  Score=12.33  Aligned_cols=5  Identities=60%  Similarity=1.092  Sum_probs=0.0  Template_Neff=5.800
+
+Q LAMVYV            1 LAMVY    5 (6)
+Q Consensus         1 lamvy    5 (6)
+                      .+|+|
+T Consensus       109 aamiY  113 (151)
+T 4MVE_B          109 AAMIY  113 (151)
+T ss_dssp             EEEEE
+T ss_pred             EEEEe
+
+
+No 9
+>1SK7_A hypothetical protein pa-HO (E.C.1.14.99.3); heme oxygenase, heme degradation, regioselectivity; HET: HEM; 1.6A {Pseudomonas aeruginosa} SCOP: a.132.1.2
+Probab=10.79  E-value=2.6e+02  Score=10.78  Aligned_cols=6  Identities=33%  Similarity=0.767  Sum_probs=0.0  Template_Neff=9.700
+
+Q LAMVYV            1 LAMVYV    6 (6)
+Q Consensus         1 lamvyv    6 (6)
+                      |+.+||
+T Consensus       113 lG~~Yv  118 (198)
+T 1SK7_A          113 LGWLFV  118 (198)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 10
+>1J77_A heme oxygenase (E.C.1.14.99.3); proximal histidine, distal helix, OXIDOREDUCTASE; HET: HEM; 1.5A {Neisseria meningitidis} SCOP: a.132.1.2
+Probab=9.80  E-value=2.9e+02  Score=10.91  Aligned_cols=6  Identities=17%  Similarity=0.661  Sum_probs=0.0  Template_Neff=9.300
+
+Q LAMVYV            1 LAMVYV    6 (6)
+Q Consensus         1 lamvyv    6 (6)
+                      ++++||
+T Consensus       108 lG~~Yv  113 (209)
+T 1J77_A          108 IGWLYC  113 (209)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+

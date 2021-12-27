@@ -1,0 +1,145 @@
+Query         APKPKK
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 15:12:51 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/APKPKK/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/APKPKK/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2M6O_A Uncharacterized protein  10.9 2.5E+02  0.0028    9.2   0.0    6    1-6      43-48  (48)
+  2 4BY2_A ANASTRAL SPINDLE 2, SAS  10.5 2.7E+02   0.003   12.0   0.0    4    1-4      17-20  (252)
+  3 4BY2_C ANASTRAL SPINDLE 2, SAS  10.5 2.7E+02   0.003   12.0   0.0    4    1-4      17-20  (252)
+  4 2GK1_G Beta-hexosaminidase alp  10.1 2.8E+02  0.0031    8.3   0.0    4    2-5       3-6   (52)
+  5 7AIH_Al mL94, mL89, Ribosomal    9.7   3E+02  0.0033   14.7   0.0    5    2-6      93-97  (346)
+  6 7AM2_Al Ribosomal protein L3-l   9.7   3E+02  0.0033   14.7   0.0    5    2-6      93-97  (346)
+  7 6ZJ3_Lt Ribosomal protein eS1,   9.7   3E+02  0.0033   12.3   0.0    6    1-6      23-28  (151)
+  8 1T44_G Gelsolin, Actin, alpha;   9.5 3.1E+02  0.0034   11.2   0.0    6    1-6     134-139 (147)
+  9 6YXY_BH bL28m, uL29m, uL30m, b   9.4 3.1E+02  0.0035   14.6   0.0    5    2-6      94-98  (349)
+ 10 3NW8_D Envelope glycoprotein B   8.8 3.4E+02  0.0038   15.0   0.0    5    2-6      40-44  (703)
+
+No 1
+>2M6O_A Uncharacterized protein; RbpA, RNAP, Sigma factor, TRANSCRIPTION; NMR {Streptomyces coelicolor}
+Probab=10.89  E-value=2.5e+02  Score=9.25  Aligned_cols=6  Identities=50%  Similarity=0.844  Sum_probs=0.0  Template_Neff=7.600
+
+Q APKPKK            1 APKPKK    6 (6)
+Q Consensus         1 apkpkk    6 (6)
+                      .|++|+
+T Consensus        43 ~p~~~~   48 (48)
+T 2M6O_A           43 GPEEKK   48 (48)
+T ss_dssp             SSTTCC
+T ss_pred             CCCCCC
+
+
+No 2
+>4BY2_A ANASTRAL SPINDLE 2, SAS 4; STRUCTURAL PROTEIN, CPAP, STIL, MICROCEPHALY; 2.57A {DROSOPHILA MELANOGASTER}
+Probab=10.47  E-value=2.7e+02  Score=12.03  Aligned_cols=4  Identities=75%  Similarity=1.688  Sum_probs=0.0  Template_Neff=7.900
+
+Q APKPKK            1 APKP    4 (6)
+Q Consensus         1 apkp    4 (6)
+                      ||+|
+T Consensus        17 ~~~~   20 (252)
+T 4BY2_A           17 APRP   20 (252)
+T ss_dssp             CCCC
+T ss_pred             CCCC
+
+
+No 3
+>4BY2_C ANASTRAL SPINDLE 2, SAS 4; STRUCTURAL PROTEIN, CPAP, STIL, MICROCEPHALY; 2.57A {DROSOPHILA MELANOGASTER}
+Probab=10.47  E-value=2.7e+02  Score=12.03  Aligned_cols=4  Identities=75%  Similarity=1.688  Sum_probs=0.0  Template_Neff=7.900
+
+Q APKPKK            1 APKP    4 (6)
+Q Consensus         1 apkp    4 (6)
+                      ||+|
+T Consensus        17 ~~~~   20 (252)
+T 4BY2_C           17 APRP   20 (252)
+T ss_dssp             CCCC
+T ss_pred             CCCC
+
+
+No 4
+>2GK1_G Beta-hexosaminidase alpha chain (E.C.3.2.1.52), Beta-hexosaminidase; beta-hexoasaminidase A, glycosidase, Tay-Sachs disease; HET: NGT, BMA, NAG; 3.25A {Homo sapiens} SCOP: d.92.2.1, c.1.8.6
+Probab=10.14  E-value=2.8e+02  Score=8.34  Aligned_cols=4  Identities=50%  Similarity=1.099  Sum_probs=0.0  Template_Neff=9.600
+
+Q APKPKK            2 PKPK    5 (6)
+Q Consensus         2 pkpk    5 (6)
+                      |+|.
+T Consensus         3 P~P~    6 (52)
+T 2GK1_G            3 PWPQ    6 (52)
+T ss_pred             CCCe
+
+
+No 5
+>7AIH_Al mL94, mL89, Ribosomal protein L3-like; Ribosome, Mitochondria, Kinetoplastid; HET: NAD; 3.6A {Leishmania major}
+Probab=9.74  E-value=3e+02  Score=14.69  Aligned_cols=5  Identities=80%  Similarity=1.325  Sum_probs=0.0  Template_Neff=1.800
+
+Q APKPKK            2 PKPKK    6 (6)
+Q Consensus         2 pkpkk    6 (6)
+                      ||||+
+T Consensus        93 PKPK~   97 (346)
+T 7AIH_Al          93 PKPKV   97 (346)
+T ss_pred             CCCcc
+
+
+No 6
+>7AM2_Al Ribosomal protein L3-like protein, uL4m; RIBOSOME, Mitochondria, Kinetoplastid; HET: GTP, ATP; 3.4A {Leishmania tarentolae}
+Probab=9.74  E-value=3e+02  Score=14.69  Aligned_cols=5  Identities=80%  Similarity=1.325  Sum_probs=0.0  Template_Neff=1.800
+
+Q APKPKK            2 PKPKK    6 (6)
+Q Consensus         2 pkpkk    6 (6)
+                      ||||+
+T Consensus        93 PKPK~   97 (346)
+T 7AM2_Al          93 PKPKV   97 (346)
+T ss_pred             CCCcc
+
+
+No 7
+>6ZJ3_Lt Ribosomal protein eS1, Ribosomal protein; Single particle cryo-EM RNA modifications; HET: JMC, B8H, MA6, PSU, B8N, A2M, UR3, 7MG, MIA, 5MC, 6MZ, OMG, OMU, OMC, 1MA, JMH; 3.15A {Euglena gracilis}
+Probab=9.68  E-value=3e+02  Score=12.31  Aligned_cols=6  Identities=67%  Similarity=0.639  Sum_probs=0.0  Template_Neff=4.900
+
+Q APKPKK            1 APKPKK    6 (6)
+Q Consensus         1 apkpkk    6 (6)
+                      ||||++
+T Consensus        23 ~~~~~~   28 (151)
+T 6ZJ3_Lt          23 AKKTKK   28 (151)
+T ss_pred             ccCCCC
+
+
+No 8
+>1T44_G Gelsolin, Actin, alpha; STRUCTURAL PROTEIN; HET: ATP; 2.0A {Oryctolagus cuniculus} SCOP: d.109.1.1
+Probab=9.47  E-value=3.1e+02  Score=11.18  Aligned_cols=6  Identities=50%  Similarity=0.894  Sum_probs=0.0  Template_Neff=7.300
+
+Q APKPKK            1 APKPKK    6 (6)
+Q Consensus         1 apkpkk    6 (6)
+                      +|+|.|
+T Consensus       134 ~~~~~~  139 (147)
+T 1T44_G          134 NPLPSK  139 (147)
+T ss_dssp             CCCCCH
+T ss_pred             CCCCcH
+
+
+No 9
+>6YXY_BH bL28m, uL29m, uL30m, bL32m, bL35m; mitoribosome, assembly, LSU, RIBOSOME; HET: ATP, PM8, MG, SPD, NAD, GTP; 3.1A {Trypanosoma brucei brucei}
+Probab=9.38  E-value=3.1e+02  Score=14.63  Aligned_cols=5  Identities=80%  Similarity=1.617  Sum_probs=0.0  Template_Neff=1.900
+
+Q APKPKK            2 PKPKK    6 (6)
+Q Consensus         2 pkpkk    6 (6)
+                      ||||+
+T Consensus        94 PKPK~   98 (349)
+T 6YXY_BH          94 PKPKR   98 (349)
+T ss_pred             CCCcc
+
+
+No 10
+>3NW8_D Envelope glycoprotein B; ENVELOPE GLYCOPROTEIN, MEMBRANE FUSION, VIRAL; HET: MRY, NAG; 2.75915A {Human herpesvirus 1}
+Probab=8.84  E-value=3.4e+02  Score=15.04  Aligned_cols=5  Identities=100%  Similarity=1.650  Sum_probs=0.0  Template_Neff=4.600
+
+Q APKPKK            2 PKPKK    6 (6)
+Q Consensus         2 pkpkk    6 (6)
+                      |||||
+T Consensus        40 ~~~~~   44 (703)
+T 3NW8_D           40 PKPKK   44 (703)
+T ss_dssp             -----
+T ss_pred             CCCCC
+
+

@@ -1,0 +1,150 @@
+Query         NQGYNT
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 03:25:09 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NQGYNT/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NQGYNT/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6ZTU_A Cyclodipeptide synthase  10.4 2.7E+02   0.003   12.4   0.0    4    1-4     222-225 (232)
+  2 6EZ3_A Cyclo(L-leucyl-L-leucyl  10.1 2.8E+02  0.0031   12.4   0.0    4    1-4     217-220 (234)
+  3 6EZ3_F Cyclo(L-leucyl-L-leucyl  10.1 2.8E+02  0.0031   12.4   0.0    4    1-4     217-220 (234)
+  4 3U62_A Shikimate dehydrogenase  10.1 2.8E+02  0.0031   11.1   0.0    4    3-6      90-93  (253)
+  5 6ZU3_A Cyclodipeptide synthase  10.0 2.9E+02  0.0032   12.3   0.0    4    1-4     222-225 (232)
+  6 4XIJ_A MyfoA.00999.b; SSGCID,    9.8 2.9E+02  0.0033   11.3   0.0    5    2-6     109-113 (275)
+  7 2O7Q_A Bifunctional 3-dehydroq   9.5 3.1E+02  0.0034   12.5   0.0    4    3-6     330-333 (523)
+  8 2O7S_A Bifunctional 3-dehydroq   9.5 3.1E+02  0.0034   12.5   0.0    4    3-6     330-333 (523)
+  9 4A5O_B BIFUNCTIONAL PROTEIN FO   9.2 3.2E+02  0.0035   11.7   0.0    6    1-6     129-134 (286)
+ 10 4Q24_A Cyclo(L-leucyl-L-phenyl   9.2 3.2E+02  0.0036   12.5   0.0    4    1-4     224-227 (247)
+
+No 1
+>6ZTU_A Cyclodipeptide synthase, BtCDPS; CDPS, cyclodipeptide synthase, RNA BINDING; 1.69A {Bacillus thermoamylovorans}
+Probab=10.38  E-value=2.7e+02  Score=12.43  Aligned_cols=4  Identities=100%  Similarity=1.738  Sum_probs=0.0  Template_Neff=6.700
+
+Q NQGYNT            1 NQGY    4 (6)
+Q Consensus         1 nqgy    4 (6)
+                      +|||
+T Consensus       222 ~Qg~  225 (232)
+T 6ZTU_A          222 NQGY  225 (232)
+T ss_dssp             TEEE
+T ss_pred             Ccce
+
+
+No 2
+>6EZ3_A Cyclo(L-leucyl-L-leucyl) synthase (E.C.2.3.2.22); tRNA, cyclodipeptide, RNA BINDING PROTEIN; HET: SO4; 3.0A {Staphylococcus haemolyticus (strain JCSC1435)}
+Probab=10.11  E-value=2.8e+02  Score=12.40  Aligned_cols=4  Identities=75%  Similarity=1.489  Sum_probs=0.0  Template_Neff=6.700
+
+Q NQGYNT            1 NQGY    4 (6)
+Q Consensus         1 nqgy    4 (6)
+                      +|||
+T Consensus       217 ~Qg~  220 (234)
+T 6EZ3_A          217 KQGY  220 (234)
+T ss_dssp             TEEE
+T ss_pred             Ccce
+
+
+No 3
+>6EZ3_F Cyclo(L-leucyl-L-leucyl) synthase (E.C.2.3.2.22); tRNA, cyclodipeptide, RNA BINDING PROTEIN; HET: SO4; 3.0A {Staphylococcus haemolyticus (strain JCSC1435)}
+Probab=10.09  E-value=2.8e+02  Score=12.39  Aligned_cols=4  Identities=75%  Similarity=1.489  Sum_probs=0.0  Template_Neff=6.700
+
+Q NQGYNT            1 NQGY    4 (6)
+Q Consensus         1 nqgy    4 (6)
+                      +|||
+T Consensus       217 ~Qg~  220 (234)
+T 6EZ3_F          217 KQGY  220 (234)
+T ss_dssp             TEEE
+T ss_pred             Ccce
+
+
+No 4
+>3U62_A Shikimate dehydrogenase (E.C.1.1.1.25); shikimate pathway, OXIDOREDUCTASE; HET: SO4; 1.45A {Thermotoga maritima}
+Probab=10.09  E-value=2.8e+02  Score=11.10  Aligned_cols=4  Identities=100%  Similarity=1.722  Sum_probs=0.0  Template_Neff=9.700
+
+Q NQGYNT            3 GYNT    6 (6)
+Q Consensus         3 gynt    6 (6)
+                      ||||
+T Consensus        90 g~nt   93 (253)
+T 3U62_A           90 GYNT   93 (253)
+T ss_dssp             EECC
+T ss_pred             ccCC
+
+
+No 5
+>6ZU3_A Cyclodipeptide synthase, BtCDPS; CDPS, cyclodipeptide synthase, RNA BINDING; 1.78A {Bacillus thermoamylovorans}
+Probab=9.95  E-value=2.9e+02  Score=12.31  Aligned_cols=4  Identities=100%  Similarity=1.738  Sum_probs=0.0  Template_Neff=6.800
+
+Q NQGYNT            1 NQGY    4 (6)
+Q Consensus         1 nqgy    4 (6)
+                      +|||
+T Consensus       222 ~qg~  225 (232)
+T 6ZU3_A          222 NQGY  225 (232)
+T ss_dssp             TEEE
+T ss_pred             Ccce
+
+
+No 6
+>4XIJ_A MyfoA.00999.b; SSGCID, Mycobacterium fortuitum, Shikimate 5-dehydrogenase; HET: SO4, EDO; 1.45A {Mycobacterium fortuitum subsp. fortuitum DSM 46621}
+Probab=9.80  E-value=2.9e+02  Score=11.35  Aligned_cols=5  Identities=40%  Similarity=0.368  Sum_probs=0.0  Template_Neff=9.400
+
+Q NQGYNT            2 QGYNT    6 (6)
+Q Consensus         2 qgynt    6 (6)
+                      .||||
+T Consensus       109 ~G~nt  113 (275)
+T 4XIJ_A          109 RADNT  113 (275)
+T ss_dssp             EEECT
+T ss_pred             EEEec
+
+
+No 7
+>2O7Q_A Bifunctional 3-dehydroquinate dehydratase/shikimate dehydrogenase (E.C.1.1.1.25; Shikimate  NADPH  dehydroshikimate; HET: SO4, DHK; 2.2A {Arabidopsis thaliana}
+Probab=9.48  E-value=3.1e+02  Score=12.53  Aligned_cols=4  Identities=100%  Similarity=1.722  Sum_probs=0.0  Template_Neff=9.200
+
+Q NQGYNT            3 GYNT    6 (6)
+Q Consensus         3 gynt    6 (6)
+                      ||||
+T Consensus       330 G~NT  333 (523)
+T 2O7Q_A          330 GYNT  333 (523)
+T ss_dssp             EECC
+T ss_pred             EEec
+
+
+No 8
+>2O7S_A Bifunctional 3-dehydroquinate dehydratase/shikimate dehydrogenase (E.C.1.1.1.25; Shikimate  NADPH  dehydroshikimate; HET: DHK, TLA, NAP; 1.78A {Arabidopsis thaliana}
+Probab=9.48  E-value=3.1e+02  Score=12.53  Aligned_cols=4  Identities=100%  Similarity=1.722  Sum_probs=0.0  Template_Neff=9.200
+
+Q NQGYNT            3 GYNT    6 (6)
+Q Consensus         3 gynt    6 (6)
+                      ||||
+T Consensus       330 G~NT  333 (523)
+T 2O7S_A          330 GYNT  333 (523)
+T ss_dssp             EECC
+T ss_pred             EEec
+
+
+No 9
+>4A5O_B BIFUNCTIONAL PROTEIN FOLD (E.C.1.5.1.5, 3.5.4.9); OXIDOREDUCTASE, HYDROLASE; 2.2A {PSEUDOMONAS AERUGINOSA PAO1}
+Probab=9.23  E-value=3.2e+02  Score=11.71  Aligned_cols=6  Identities=33%  Similarity=0.241  Sum_probs=0.0  Template_Neff=8.600
+
+Q NQGYNT            1 NQGYNT    6 (6)
+Q Consensus         1 nqgynt    6 (6)
+                      ++|+||
+T Consensus       129 ~~g~~~  134 (286)
+T 4A5O_B          129 NIGRLA  134 (286)
+T ss_dssp             HHHHHH
+T ss_pred             hHHHhc
+
+
+No 10
+>4Q24_A Cyclo(L-leucyl-L-phenylalanyl) synthase (E.C.2.3.2.20); Rossmann fold, cyclodipeptide synthase, aminoacyl-tRNA; HET: XVE; 2.9A {Streptomyces noursei}
+Probab=9.16  E-value=3.2e+02  Score=12.45  Aligned_cols=4  Identities=50%  Similarity=0.949  Sum_probs=0.0  Template_Neff=6.400
+
+Q NQGYNT            1 NQGY    4 (6)
+Q Consensus         1 nqgy    4 (6)
+                      +|||
+T Consensus       224 ~Qg~  227 (247)
+T 4Q24_A          224 GQAY  227 (247)
+T ss_dssp             TEEE
+T ss_pred             CccE
+
+

@@ -1,0 +1,150 @@
+Query         LTQRGF
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 20:41:44 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LTQRGF/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LTQRGF/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 1HFE_T FE-ONLY HYDROGENASE (E.  56.3      10 0.00011   14.8   0.0    6    1-6       6-11  (123)
+  2 3DFG_A Regulatory protein recX  40.7      26 0.00029   14.0   0.0    6    1-6     142-147 (162)
+  3 3C1D_B Regulatory protein recX  34.0      39 0.00043   13.3   0.0    6    1-6     140-145 (159)
+  4 3D5L_A Regulatory protein RecX  33.1      41 0.00045   14.1   0.0    6    1-6     189-194 (221)
+  5 7E1V_O Mycobacterium smegmatis  17.7 1.2E+02  0.0014   12.4   0.0    6    1-6       1-6   (280)
+  6 7E1W_O Mycobacterium smegmatis  17.7 1.2E+02  0.0014   12.4   0.0    6    1-6       1-6   (280)
+  7 4JLQ_B Transportin-1, Nuclear   17.2 1.3E+02  0.0014   11.7   0.0    5    1-5       2-6   (38)
+  8 2A2P_A Selenoprotein M; Seleno  16.3 1.4E+02  0.0016   12.8   0.0    6    1-6      86-91  (129)
+  9 3M0D_D TNF receptor-associated  15.6 1.5E+02  0.0017   10.2   0.0    6    1-6      26-31  (75)
+ 10 3M1D_A Baculoviral IAP repeat-  14.3 1.7E+02  0.0019   10.4   0.0    6    1-6      33-38  (85)
+
+No 1
+>1HFE_T FE-ONLY HYDROGENASE (E.C.1.18.99.1); FE-ONLY HYDROGENASE, HYDROGENE METABOLISM, PERIPLASM; HET: SF4, PDT, CYS; 1.6A {Desulfovibrio vulgaris subsp. vulgaris str. Hildenborough} SCOP: a.137.4.1
+Probab=56.27  E-value=10  Score=14.81  Aligned_cols=6  Identities=67%  Similarity=1.392  Sum_probs=3.9  Template_Neff=7.500
+
+Q LTQRGF            1 LTQRGF    6 (6)
+Q Consensus         1 ltqrgf    6 (6)
+                      ||.|+|
+T Consensus         6 ~~~~~~   11 (123)
+T 1HFE_T            6 ITRRGF   11 (123)
+T ss_dssp             GHHTTC
+T ss_pred             cccccc
+Confidence            566776
+
+
+No 2
+>3DFG_A Regulatory protein recX; RecX crystal structure, RecA, homologous; 1.5A {Xanthomonas campestris pv. campestris}
+Probab=40.71  E-value=26  Score=13.99  Aligned_cols=6  Identities=67%  Similarity=1.353  Sum_probs=3.5  Template_Neff=8.000
+
+Q LTQRGF            1 LTQRGF    6 (6)
+Q Consensus         1 ltqrgf    6 (6)
+                      |.+|||
+T Consensus       142 L~~rGF  147 (162)
+T 3DFG_A          142 LARRGF  147 (162)
+T ss_dssp             HHHTTC
+T ss_pred             HHhCCC
+Confidence            346676
+
+
+No 3
+>3C1D_B Regulatory protein recX; tandem repeats, helix-turn-helix, DNA damage; 1.8A {Escherichia coli}
+Probab=34.03  E-value=39  Score=13.30  Aligned_cols=6  Identities=50%  Similarity=0.966  Sum_probs=3.2  Template_Neff=8.300
+
+Q LTQRGF            1 LTQRGF    6 (6)
+Q Consensus         1 ltqrgf    6 (6)
+                      |.+|||
+T Consensus       140 L~rrGf  145 (159)
+T 3C1D_B          140 LLYRGY  145 (159)
+T ss_dssp             HHHTTC
+T ss_pred             HHHCCC
+Confidence            345665
+
+
+No 4
+>3D5L_A Regulatory protein RecX; PSI-II, NYSGXRC, RecX, DNA repair; 2.35A {Lactobacillus reuteri}
+Probab=33.10  E-value=41  Score=14.05  Aligned_cols=6  Identities=67%  Similarity=1.265  Sum_probs=3.3  Template_Neff=8.000
+
+Q LTQRGF            1 LTQRGF    6 (6)
+Q Consensus         1 ltqrgf    6 (6)
+                      |.+|||
+T Consensus       189 L~rkGF  194 (221)
+T 3D5L_A          189 LTTKGF  194 (221)
+T ss_dssp             HHHTTC
+T ss_pred             HHhCCC
+Confidence            345665
+
+
+No 5
+>7E1V_O Mycobacterium smegmatis, mycobacterium tuberculosis, complexIII; HET: HEA, HEC, HEM, PLM, 9Y0, 9YF, CDL, MQ9; 2.68A {Mycobacterium smegmatis MC2 51}
+Probab=17.68  E-value=1.2e+02  Score=12.41  Aligned_cols=6  Identities=67%  Similarity=1.076  Sum_probs=0.0  Template_Neff=9.400
+
+Q LTQRGF            1 LTQRGF    6 (6)
+Q Consensus         1 ltqrgf    6 (6)
+                      |+|-||
+T Consensus         1 ~~~~~~    6 (280)
+T 7E1V_O            1 LTKLGF    6 (280)
+T ss_pred             CcccCC
+
+
+No 6
+>7E1W_O Mycobacterium smegmatis, mycobacterium tuberculosis, complexIII; HET: HEM, HEA, HUU, 9Y0, CDL, HEC, MQ9, 9YF, PLM;{Mycobacterium smegmatis MC2 51}
+Probab=17.68  E-value=1.2e+02  Score=12.41  Aligned_cols=6  Identities=67%  Similarity=1.076  Sum_probs=0.0  Template_Neff=9.400
+
+Q LTQRGF            1 LTQRGF    6 (6)
+Q Consensus         1 ltqrgf    6 (6)
+                      |+|-||
+T Consensus         1 ~~~~~~    6 (280)
+T 7E1W_O            1 LTKLGF    6 (280)
+T ss_pred             CcccCC
+
+
+No 7
+>4JLQ_B Transportin-1, Nuclear polyadenylated RNA-binding protein; HEAT REPEATS, KARYOPHERIN, NUCLEAR IMPORT; 3.05A {Homo sapiens}
+Probab=17.18  E-value=1.3e+02  Score=11.75  Aligned_cols=5  Identities=80%  Similarity=1.232  Sum_probs=0.0  Template_Neff=1.000
+
+Q LTQRGF            1 LTQRG    5 (6)
+Q Consensus         1 ltqrg    5 (6)
+                      +||||
+T Consensus         2 ftqrg    6 (38)
+T 4JLQ_B            2 FTQRG    6 (38)
+T ss_pred             CcccC
+
+
+No 8
+>2A2P_A Selenoprotein M; Selenoprotein, Redox enzyme, OXIDOREDUCTASE; NMR {Mus musculus} SCOP: c.47.1.23
+Probab=16.25  E-value=1.4e+02  Score=12.84  Aligned_cols=6  Identities=33%  Similarity=0.827  Sum_probs=0.0  Template_Neff=5.200
+
+Q LTQRGF            1 LTQRGF    6 (6)
+Q Consensus         1 ltqrgf    6 (6)
+                      |.++||
+T Consensus        86 L~ekGF   91 (129)
+T 2A2P_A           86 VQELGF   91 (129)
+T ss_dssp             HHHHTC
+T ss_pred             HHHcCC
+
+
+No 9
+>3M0D_D TNF receptor-associated factor 2, TNF; trimeric helix coiled coiled, apoptosis; 2.8A {Homo sapiens}
+Probab=15.56  E-value=1.5e+02  Score=10.15  Aligned_cols=6  Identities=50%  Similarity=1.060  Sum_probs=0.0  Template_Neff=8.600
+
+Q LTQRGF            1 LTQRGF    6 (6)
+Q Consensus         1 ltqrgf    6 (6)
+                      |.+.||
+T Consensus        26 la~aGF   31 (75)
+T 3M0D_D           26 LARAGF   31 (75)
+T ss_dssp             HHHTTE
+T ss_pred             HHHhCe
+
+
+No 10
+>3M1D_A Baculoviral IAP repeat-containing protein 2; BIR, IAP, Apoptosis, Zinc-finger, METAL; 2.0A {Homo sapiens}
+Probab=14.27  E-value=1.7e+02  Score=10.44  Aligned_cols=6  Identities=50%  Similarity=1.060  Sum_probs=0.0  Template_Neff=8.200
+
+Q LTQRGF            1 LTQRGF    6 (6)
+Q Consensus         1 ltqrgf    6 (6)
+                      |.+.||
+T Consensus        33 LA~aGF   38 (85)
+T 3M1D_A           33 LARAGF   38 (85)
+T ss_pred             HHHcCe
+
+

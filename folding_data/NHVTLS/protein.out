@@ -1,0 +1,153 @@
+Query         NHVTLS
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 00:39:34 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NHVTLS/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NHVTLS/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3LHO_A Putative hydrolase; Str  27.4      59 0.00066   14.9   0.0    6    1-6     164-169 (267)
+  2 6W1K_D Hydroxyglutarate syntha  22.2      86 0.00095   15.0   0.0    6    1-6     194-199 (322)
+  3 6W1K_A Hydroxyglutarate syntha  20.6      97  0.0011   14.8   0.0    6    1-6     194-199 (322)
+  4 2D4G_B hypothetical protein BS  19.0 1.1E+02  0.0012   11.0   0.0    5    2-6     115-119 (171)
+  5 2QLV_B Carbon catabolite derep  19.0 1.1E+02  0.0012   13.4   0.0    5    1-5     214-218 (252)
+  6 1VDX_A 2'-5' RNA ligase relate  18.5 1.2E+02  0.0013   11.0   0.0    4    2-5      40-43  (184)
+  7 7K3N_A Cysteine hydrolase; SAR  17.0 1.3E+02  0.0015   13.9   0.0    6    1-6      12-17  (180)
+  8 5JJ2_A A-kinase anchor protein  15.9 1.5E+02  0.0016   11.3   0.0    4    2-5      52-55  (211)
+  9 5AF2_D VP3; HYDROLASE, PHOSPHO  15.8 1.5E+02  0.0016   14.1   0.0    5    2-6     105-109 (143)
+ 10 5H7F_A RNA 2',3'-cyclic phosph  15.8 1.5E+02  0.0016   10.8   0.0    5    2-6     127-131 (182)
+
+No 1
+>3LHO_A Putative hydrolase; Structural Genomics, Joint Center for; HET: SO4, PG4, PEG, GOL; 1.8A {Shewanella frigidimarina}
+Probab=27.42  E-value=59  Score=14.85  Aligned_cols=6  Identities=67%  Similarity=0.911  Sum_probs=3.5  Template_Neff=6.300
+
+Q NHVTLS            1 NHVTLS    6 (6)
+Q Consensus         1 nhvtls    6 (6)
+                      ||+|.+
+T Consensus       164 NH~T~~  169 (267)
+T 3LHO_A          164 NHFTVS  169 (267)
+T ss_dssp             SEEEEE
+T ss_pred             ceeeee
+Confidence            666653
+
+
+No 2
+>6W1K_D Hydroxyglutarate synthase; Decarboxylase Lysine catabolism, LYASE; HET: SO4, OOG; 1.85A {Oryza sativa}
+Probab=22.23  E-value=86  Score=14.97  Aligned_cols=6  Identities=67%  Similarity=0.960  Sum_probs=3.5  Template_Neff=5.800
+
+Q NHVTLS            1 NHVTLS    6 (6)
+Q Consensus         1 nhvtls    6 (6)
+                      ||+|.+
+T Consensus       194 NH~T~~  199 (322)
+T 6W1K_D          194 NHTTIS  199 (322)
+T ss_dssp             CEEEEE
+T ss_pred             cceeee
+Confidence            666653
+
+
+No 3
+>6W1K_A Hydroxyglutarate synthase; Decarboxylase Lysine catabolism, LYASE; HET: SO4, OOG; 1.85A {Oryza sativa}
+Probab=20.65  E-value=97  Score=14.80  Aligned_cols=6  Identities=67%  Similarity=0.960  Sum_probs=3.4  Template_Neff=5.800
+
+Q NHVTLS            1 NHVTLS    6 (6)
+Q Consensus         1 nhvtls    6 (6)
+                      ||+|.+
+T Consensus       194 NH~T~~  199 (322)
+T 6W1K_A          194 NHTTIS  199 (322)
+T ss_dssp             CEEEEE
+T ss_pred             ceeEhh
+Confidence            566653
+
+
+No 4
+>2D4G_B hypothetical protein BSU11850; beta barrel, alpha helix, STRUCTURAL; HET: MSE; 2.3A {Bacillus subtilis}
+Probab=19.02  E-value=1.1e+02  Score=10.99  Aligned_cols=5  Identities=60%  Similarity=0.939  Sum_probs=0.0  Template_Neff=10.600
+
+Q NHVTLS            2 HVTLS    6 (6)
+Q Consensus         2 hvtls    6 (6)
+                      |+||.
+T Consensus       115 HiTl~  119 (171)
+T 2D4G_B          115 HVTVG  119 (171)
+T ss_dssp             EEEEE
+T ss_pred             eEEEE
+
+
+No 5
+>2QLV_B Carbon catabolite derepressing protein kinase; heterotrimer, ATP-binding, Carbohydrate metabolism, Kinase; 2.6A {Saccharomyces cerevisiae} SCOP: b.1.18.21, d.353.1.1
+Probab=18.99  E-value=1.1e+02  Score=13.38  Aligned_cols=5  Identities=80%  Similarity=1.145  Sum_probs=0.0  Template_Neff=7.400
+
+Q NHVTLS            1 NHVTL    5 (6)
+Q Consensus         1 nhvtl    5 (6)
+                      |||.|
+T Consensus       214 ~Hv~L  218 (252)
+T 2QLV_B          214 NHVVL  218 (252)
+T ss_dssp             -CCSC
+T ss_pred             Ccccc
+
+
+No 6
+>1VDX_A 2'-5' RNA ligase related protein; LIGASE, Structural genomics, NPPSFA, National; 2.4A {Pyrococcus horikoshii}
+Probab=18.50  E-value=1.2e+02  Score=10.97  Aligned_cols=4  Identities=75%  Similarity=1.298  Sum_probs=0.0  Template_Neff=10.800
+
+Q NHVTLS            2 HVTL    5 (6)
+Q Consensus         2 hvtl    5 (6)
+                      |+||
+T Consensus        40 HiTl   43 (184)
+T 1VDX_A           40 HITL   43 (184)
+T ss_dssp             EEEE
+T ss_pred             cEEE
+
+
+No 7
+>7K3N_A Cysteine hydrolase; SARS-CoV2, NSP1, Non-structural protein 1; 1.65A {Severe acute respiratory syndrome coronavirus 2}
+Probab=16.95  E-value=1.3e+02  Score=13.85  Aligned_cols=6  Identities=67%  Similarity=0.894  Sum_probs=0.0  Template_Neff=4.500
+
+Q NHVTLS            1 NHVTLS    6 (6)
+Q Consensus         1 nhvtls    6 (6)
+                      |||+++
+T Consensus        12 ~HV~~~   17 (180)
+T 7K3N_A           12 THVQLS   17 (180)
+T ss_dssp             --CEEE
+T ss_pred             CcEEEE
+
+
+No 8
+>5JJ2_A A-kinase anchor protein 7 isoform; AKAP, A-kinase anchoring, phospoesterase, malonate; HET: MLI; 1.25A {Homo sapiens}
+Probab=15.93  E-value=1.5e+02  Score=11.28  Aligned_cols=4  Identities=75%  Similarity=1.298  Sum_probs=0.0  Template_Neff=10.200
+
+Q NHVTLS            2 HVTL    5 (6)
+Q Consensus         2 hvtl    5 (6)
+                      |+||
+T Consensus        52 HITL   55 (211)
+T 5JJ2_A           52 HITL   55 (211)
+T ss_dssp             EEEE
+T ss_pred             eEEE
+
+
+No 9
+>5AF2_D VP3; HYDROLASE, PHOSPHODIESTERASE, 2-5A, 2H PHOSPHOESTERASE; HET: 15P; 1.39A {ROTAVIRUS A}
+Probab=15.82  E-value=1.5e+02  Score=14.06  Aligned_cols=5  Identities=80%  Similarity=1.185  Sum_probs=0.0  Template_Neff=1.900
+
+Q NHVTLS            2 HVTLS    6 (6)
+Q Consensus         2 hvtls    6 (6)
+                      |+|||
+T Consensus       105 HITLs  109 (143)
+T 5AF2_D          105 HITLS  109 (143)
+T ss_dssp             EEEEE
+T ss_pred             eEEEE
+
+
+No 10
+>5H7F_A RNA 2',3'-cyclic phosphodiesterase (E.C.3.1.4.-); RNA repair, CPDase, 2, 3; HET: SO4; 1.601A {Deinococcus radiodurans}
+Probab=15.80  E-value=1.5e+02  Score=10.84  Aligned_cols=5  Identities=60%  Similarity=1.112  Sum_probs=0.0  Template_Neff=10.500
+
+Q NHVTLS            2 HVTLS    6 (6)
+Q Consensus         2 hvtls    6 (6)
+                      |+||.
+T Consensus       127 HiTL~  131 (182)
+T 5H7F_A          127 HITLA  131 (182)
+T ss_dssp             EEEEE
+T ss_pred             eEEEE
+
+

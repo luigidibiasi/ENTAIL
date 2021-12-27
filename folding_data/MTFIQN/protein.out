@@ -1,0 +1,150 @@
+Query         MTFIQN
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 22:31:17 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/MTFIQN/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/MTFIQN/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2YB5_F PUTATIVE FUSIDIC ACID R  28.1      57 0.00063   15.0   0.0    6    1-6       4-9   (215)
+  2 2GKP_A hypothetical protein NM  21.7      90 0.00099   13.2   0.0    6    1-6       4-9   (167)
+  3 5ILU_A ETS translocation varia  21.3      93   0.001   12.2   0.0    6    1-6      91-96  (97)
+  4 5TTT_A Degenerin mec-4; Struct  16.3 1.4E+02  0.0016   13.5   0.0    6    1-6       1-6   (111)
+  5 2BYG_A CHANNEL ASSOCIATED PROT  15.0 1.6E+02  0.0018    9.6   0.0    6    1-6       1-6   (117)
+  6 5A48_B MATERNAL EFFECT PROTEIN  14.1 1.8E+02   0.002   11.7   0.0    6    1-6       3-8   (104)
+  7 2JX4_A Vasopressin V2 receptor  12.9   2E+02  0.0022    9.1   0.0    4    1-4      49-52  (52)
+  8 6HIY_Cm Uncharacterized protei  12.8   2E+02  0.0022   14.4   0.0    4    3-6     147-150 (215)
+  9 3V7P_A Amidohydrolase family p  12.6 2.1E+02  0.0023   12.0   0.0    6    1-6       1-6   (427)
+ 10 7AOR_v mL94, mL89, Ribosomal p  11.9 2.2E+02  0.0025   14.3   0.0    4    3-6     147-150 (215)
+
+No 1
+>2YB5_F PUTATIVE FUSIDIC ACID RESISTANCE PROTEIN; TRANSLATION, ANTIBIOTIC RESISTANCE, ZINC FINGER; HET: EDO; 2.1A {STAPHYLOCOCCUS AUREUS}
+Probab=28.08  E-value=57  Score=14.97  Aligned_cols=6  Identities=33%  Similarity=0.279  Sum_probs=3.8  Template_Neff=5.300
+
+Q MTFIQN            1 MTFIQN    6 (6)
+Q Consensus         1 mtfiqn    6 (6)
+                      |.||+|
+T Consensus         4 ~~fI~~    9 (215)
+T 2YB5_F            4 MNKIEV    9 (215)
+T ss_dssp             TTCBCH
+T ss_pred             ccccCH
+Confidence            567764
+
+
+No 2
+>2GKP_A hypothetical protein NMB0488; structural genomics, APC83854, hypothetical protein; 1.35A {Neisseria meningitidis} SCOP: d.351.1.1
+Probab=21.66  E-value=90  Score=13.21  Aligned_cols=6  Identities=67%  Similarity=0.811  Sum_probs=3.2  Template_Neff=6.700
+
+Q MTFIQN            1 MTFIQN    6 (6)
+Q Consensus         1 mtfiqn    6 (6)
+                      |+|.||
+T Consensus         4 ~~~~~~    9 (167)
+T 2GKP_A            4 MTFNQE    9 (167)
+T ss_dssp             CCCCTT
+T ss_pred             cccccc
+Confidence            566553
+
+
+No 3
+>5ILU_A ETS translocation variant 4; ETV4, ETS, transcription factor, autoinhibition; 1.101A {Homo sapiens}
+Probab=21.27  E-value=93  Score=12.23  Aligned_cols=6  Identities=33%  Similarity=0.695  Sum_probs=2.7  Template_Neff=6.500
+
+Q MTFIQN            1 MTFIQN    6 (6)
+Q Consensus         1 mtfiqn    6 (6)
+                      |+|+.|
+T Consensus        91 ~~~~~~   96 (97)
+T 5ILU_A           91 LAFPDN   96 (97)
+T ss_dssp             HHCSSC
+T ss_pred             ccCCCC
+Confidence            445443
+
+
+No 4
+>5TTT_A Degenerin mec-4; Structural Genomics, PSI-Biology, Northeast Structural; NMR {Caenorhabditis elegans}
+Probab=16.29  E-value=1.4e+02  Score=13.46  Aligned_cols=6  Identities=50%  Similarity=1.021  Sum_probs=0.0  Template_Neff=2.800
+
+Q MTFIQN            1 MTFIQN    6 (6)
+Q Consensus         1 mtfiqn    6 (6)
+                      |.||+|
+T Consensus         1 m~w~~n    6 (111)
+T 5TTT_A            1 MSWMQN    6 (111)
+T ss_dssp             CTHHHH
+T ss_pred             Cccccc
+
+
+No 5
+>2BYG_A CHANNEL ASSOCIATED PROTEIN OF SYNAPSE-110; DLG2, PDZ, PDZ DOMAIN, STRUCTURAL; 1.85A {HOMO SAPIENS} SCOP: b.36.1.1
+Probab=14.99  E-value=1.6e+02  Score=9.58  Aligned_cols=6  Identities=17%  Similarity=0.229  Sum_probs=0.0  Template_Neff=11.200
+
+Q MTFIQN            1 MTFIQN    6 (6)
+Q Consensus         1 mtfiqn    6 (6)
+                      |.|+++
+T Consensus         1 ~~~~~~    6 (117)
+T 2BYG_A            1 MHHHHH    6 (117)
+T ss_dssp             ------
+T ss_pred             CCCCCc
+
+
+No 6
+>5A48_B MATERNAL EFFECT PROTEIN OSKAR; PROTEIN BINDING, OST-HTH DOMAIN, WINGED; 2.35A {DROSOPHILA MELANOGASTER}
+Probab=14.07  E-value=1.8e+02  Score=11.73  Aligned_cols=6  Identities=50%  Similarity=0.800  Sum_probs=0.0  Template_Neff=6.200
+
+Q MTFIQN            1 MTFIQN    6 (6)
+Q Consensus         1 mtfiqn    6 (6)
+                      |||+++
+T Consensus         3 ~~~~~~    8 (104)
+T 5A48_B            3 MTIIES    8 (104)
+T ss_pred             cccccc
+
+
+No 7
+>2JX4_A Vasopressin V2 receptor; protein, G-protein coupled receptor, Glycoprotein; NMR {N/A}
+Probab=12.88  E-value=2e+02  Score=9.13  Aligned_cols=4  Identities=25%  Similarity=0.441  Sum_probs=0.0  Template_Neff=8.700
+
+Q MTFIQN            1 MTFI    4 (6)
+Q Consensus         1 mtfi    4 (6)
+                      |||+
+T Consensus        49 mT~v   52 (52)
+T 2JX4_A           49 LTXX   52 (52)
+T ss_dssp             HHC-
+T ss_pred             cCCC
+
+
+No 8
+>6HIY_Cm Uncharacterized protein, mS74, 30S ribosomal; mitoribosome, translation, Trypanosoma, small ribosomal; HET: SPM, SPD, MG; 3.27A {Trypanosoma brucei brucei}
+Probab=12.77  E-value=2e+02  Score=14.39  Aligned_cols=4  Identities=100%  Similarity=1.456  Sum_probs=0.0  Template_Neff=1.800
+
+Q MTFIQN            3 FIQN    6 (6)
+Q Consensus         3 fiqn    6 (6)
+                      ||||
+T Consensus       147 FiqN  150 (215)
+T 6HIY_Cm         147 FIQN  150 (215)
+T ss_pred             hhhh
+
+
+No 9
+>3V7P_A Amidohydrolase family protein; HYDROLASE, AMIDOHYDROLASE, IRON BINDING SITE; HET: TLA; 1.35A {Nitratiruptor sp. SB155-2}
+Probab=12.56  E-value=2.1e+02  Score=11.99  Aligned_cols=6  Identities=33%  Similarity=0.539  Sum_probs=0.0  Template_Neff=10.500
+
+Q MTFIQN            1 MTFIQN    6 (6)
+Q Consensus         1 mtfiqn    6 (6)
+                      |+.|+|
+T Consensus         1 ~~~i~n    6 (427)
+T 3V7P_A            1 MRIIKP    6 (427)
+T ss_dssp             CEEEEE
+T ss_pred             Ceeeec
+
+
+No 10
+>7AOR_v mL94, mL89, Ribosomal protein L3-like; Ribosome, Mitochondria, Kinetoplastid; HET: GTP, UTP;{Trypanosoma cruzi (strain CL Brener)}
+Probab=11.93  E-value=2.2e+02  Score=14.25  Aligned_cols=4  Identities=100%  Similarity=1.456  Sum_probs=0.0  Template_Neff=1.800
+
+Q MTFIQN            3 FIQN    6 (6)
+Q Consensus         3 fiqn    6 (6)
+                      ||||
+T Consensus       147 FiqN  150 (215)
+T 7AOR_v          147 FIQN  150 (215)
+T ss_pred             hhhh
+
+

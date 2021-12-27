@@ -1,0 +1,151 @@
+Query         LNIYQY
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 19:45:24 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LNIYQY/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LNIYQY/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6C0F_7 Ribosome; Pre-60S, ribo  28.9      53 0.00059   15.0   0.0    6    1-6     205-210 (231)
+  2 2YAW_E SULFUR OXYGENASE/REDUCT  18.8 1.1E+02  0.0012   15.6   0.0    6    1-6      72-77  (318)
+  3 6QO0_A Sulfur oxygenase/reduct  18.8 1.1E+02  0.0013   15.6   0.0    6    1-6      72-77  (318)
+  4 6M35_H Sulfur oxygenase/reduct  18.8 1.1E+02  0.0013   15.6   0.0    6    1-6      72-77  (311)
+  5 6M3X_O Sulfur oxygenase/reduct  18.8 1.1E+02  0.0013   15.6   0.0    6    1-6      72-77  (311)
+  6 6QPA_C Sulfur oxygenase/reduct  18.0 1.2E+02  0.0013   15.6   0.0    6    1-6      74-79  (314)
+  7 3BXV_A Sulfur oxygenase/reduct  17.5 1.3E+02  0.0014   15.5   0.0    6    1-6      72-77  (308)
+  8 4IGB_D LPXTG cell wall surface  17.4 1.3E+02  0.0014   14.6   0.0    6    1-6      14-19  (423)
+  9 5AZ6_A Maltose-binding peripla  14.5 1.7E+02  0.0019   12.1   0.0    5    1-5     414-418 (433)
+ 10 5Y9O_A WipA; phosphotase, PEPT  12.1 2.2E+02  0.0024   14.2   0.0    6    1-6      12-17  (412)
+
+No 1
+>6C0F_7 Ribosome; Pre-60S, ribosome biogenesis, LSU processome; 3.7A {Saccharomyces cerevisiae BY4741}
+Probab=28.94  E-value=53  Score=15.04  Aligned_cols=6  Identities=83%  Similarity=1.143  Sum_probs=3.9  Template_Neff=5.600
+
+Q LNIYQY            1 LNIYQY    6 (6)
+Q Consensus         1 lniyqy    6 (6)
+                      ||.||+
+T Consensus       205 lN~~Q~  210 (231)
+T 6C0F_7          205 LNIYQQ  210 (231)
+T ss_pred             cccccC
+Confidence            577774
+
+
+No 2
+>2YAW_E SULFUR OXYGENASE/REDUCTASE (E.C.1.13.11.55); OXIDOREDUCTASE, MONONUCLEAR NON-HEME IRON, BIOGEOCHEMICAL; HET: HG, ACT, CSS; 2.499A {ACIDIANUS AMBIVALENS}
+Probab=18.82  E-value=1.1e+02  Score=15.61  Aligned_cols=6  Identities=33%  Similarity=0.872  Sum_probs=3.7  Template_Neff=3.300
+
+Q LNIYQY            1 LNIYQY    6 (6)
+Q Consensus         1 lniyqy    6 (6)
+                      +++|||
+T Consensus        72 ~~~~Qy   77 (318)
+T 2YAW_E           72 VRVLQY   77 (318)
+T ss_dssp             EEEEEE
+T ss_pred             ceeeEe
+Confidence            356776
+
+
+No 3
+>6QO0_A Sulfur oxygenase/reductase (E.C.1.13.11.55); SULFUR OXYGENASE REDUCTASE, 2-HIS-1-CARBOXYLATE FACIAL; 1.65A {Acidianus ambivalens}
+Probab=18.79  E-value=1.1e+02  Score=15.61  Aligned_cols=6  Identities=33%  Similarity=0.872  Sum_probs=0.0  Template_Neff=3.300
+
+Q LNIYQY            1 LNIYQY    6 (6)
+Q Consensus         1 lniyqy    6 (6)
+                      +++|||
+T Consensus        72 ~~~~Qy   77 (318)
+T 6QO0_A           72 VRVLQY   77 (318)
+T ss_dssp             EEEEEE
+T ss_pred             ceeeEe
+
+
+No 4
+>6M35_H Sulfur oxygenase/reductase (E.C.1.13.11.55); spherical homo 24-mer, OXIDOREDUCTASE; HET: SO4, GOL; 1.73A {Sulfurisphaera tokodaii (strain DSM 16993 / JCM 10545 / NBRC 100140 / 7)}
+Probab=18.77  E-value=1.1e+02  Score=15.56  Aligned_cols=6  Identities=50%  Similarity=0.827  Sum_probs=0.0  Template_Neff=3.300
+
+Q LNIYQY            1 LNIYQY    6 (6)
+Q Consensus         1 lniyqy    6 (6)
+                      +++|||
+T Consensus        72 ~~~~Qy   77 (311)
+T 6M35_H           72 LMLMQY   77 (311)
+T ss_dssp             EEEEEE
+T ss_pred             hhhhhh
+
+
+No 5
+>6M3X_O Sulfur oxygenase/reductase (E.C.1.13.11.55); spherical homo 24-mer, OXIDOREDUCTASE; HET: FE; 2.24A {Sulfurisphaera tokodaii (strain DSM 16993 / JCM 10545 / NBRC 100140 / 7)}
+Probab=18.77  E-value=1.1e+02  Score=15.56  Aligned_cols=6  Identities=50%  Similarity=0.827  Sum_probs=0.0  Template_Neff=3.300
+
+Q LNIYQY            1 LNIYQY    6 (6)
+Q Consensus         1 lniyqy    6 (6)
+                      +++|||
+T Consensus        72 ~~~~Qy   77 (311)
+T 6M3X_O           72 LMLMQY   77 (311)
+T ss_dssp             EEEEEE
+T ss_pred             hhhhhh
+
+
+No 6
+>6QPA_C Sulfur oxygenase/reductase (E.C.1.13.11.55); SULFUR OXYGENASE REDUCTASE, 2-HIS-1-CARBOXYLATE FACIAL; HET: FE, SO4, CSS; 2.1A {Halothiobacillus neapolitanus (strain ATCC 23641 / c2)}
+Probab=18.02  E-value=1.2e+02  Score=15.64  Aligned_cols=6  Identities=33%  Similarity=1.182  Sum_probs=0.0  Template_Neff=2.800
+
+Q LNIYQY            1 LNIYQY    6 (6)
+Q Consensus         1 lniyqy    6 (6)
+                      +++|||
+T Consensus        74 i~~~QY   79 (314)
+T 6QPA_C           74 MGMFQY   79 (314)
+T ss_dssp             EEEEEE
+T ss_pred             ccceee
+
+
+No 7
+>3BXV_A Sulfur oxygenase/reductase (E.C.1.13.11.55); beta barrel, OXIDOREDUCTASE; 2.7A {Acidianus tengchongenses}
+Probab=17.51  E-value=1.3e+02  Score=15.54  Aligned_cols=6  Identities=33%  Similarity=0.872  Sum_probs=0.0  Template_Neff=2.800
+
+Q LNIYQY            1 LNIYQY    6 (6)
+Q Consensus         1 lniyqy    6 (6)
+                      +++|||
+T Consensus        72 i~~~QY   77 (308)
+T 3BXV_A           72 VRVLQY   77 (308)
+T ss_dssp             EEEEEE
+T ss_pred             ceeeEE
+
+
+No 8
+>4IGB_D LPXTG cell wall surface protein; Beta-sandwich folds, Adhesin, Collagen-binding, oral; HET: GOL, SO4; 2.09A {Streptococcus gordonii}
+Probab=17.43  E-value=1.3e+02  Score=14.62  Aligned_cols=6  Identities=33%  Similarity=0.833  Sum_probs=0.0  Template_Neff=6.500
+
+Q LNIYQY            1 LNIYQY    6 (6)
+Q Consensus         1 lniyqy    6 (6)
+                      |+|||+
+T Consensus        14 ~~~~~~   19 (423)
+T 4IGB_D           14 LDIRKF   19 (423)
+T ss_dssp             CCCEEC
+T ss_pred             ceEEee
+
+
+No 9
+>5AZ6_A Maltose-binding periplasmic protein,Mitochondrial import receptor; Fusion protein, SUGAR BINDING PROTEIN; HET: MAL; 2.56A {Escherichia coli (strain K12)}
+Probab=14.47  E-value=1.7e+02  Score=12.11  Aligned_cols=5  Identities=40%  Similarity=0.700  Sum_probs=0.0  Template_Neff=10.800
+
+Q LNIYQY            1 LNIYQ    5 (6)
+Q Consensus         1 lniyq    5 (6)
+                      |+|||
+T Consensus       414 ~~~~~  418 (433)
+T 5AZ6_A          414 LQVLQ  418 (433)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 10
+>5Y9O_A WipA; phosphotase, PEPTIDE BINDING PROTEIN; 2.554A {Legionella pneumophila}
+Probab=12.07  E-value=2.2e+02  Score=14.16  Aligned_cols=6  Identities=50%  Similarity=1.403  Sum_probs=0.0  Template_Neff=5.800
+
+Q LNIYQY            1 LNIYQY    6 (6)
+Q Consensus         1 lniyqy    6 (6)
+                      .|||+|
+T Consensus        12 ~~i~~~   17 (412)
+T 5Y9O_A           12 IDIYNY   17 (412)
+T ss_dssp             CCTTSC
+T ss_pred             CChhhC
+
+

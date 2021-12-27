@@ -1,0 +1,147 @@
+Query         PKPKKT
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 05:55:27 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/PKPKKT/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/PKPKKT/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 7AIH_BP mL94, mL89, Ribosomal   18.2 1.2E+02  0.0013   15.4   0.0    6    1-6     245-250 (254)
+  2 7AM2_BP Ribosomal protein L3-l  18.2 1.2E+02  0.0013   15.4   0.0    6    1-6     245-250 (254)
+  3 6HIV_Ao ms48, ms51, ms56, ms59  16.7 1.4E+02  0.0015   15.3   0.0    6    1-6     250-255 (259)
+  4 6HIX_Ao ?; mitoribosome, trans  16.6 1.4E+02  0.0015   15.3   0.0    6    1-6     250-255 (259)
+  5 5IM2_A Twin-arginine transloca  13.0   2E+02  0.0022   12.5   0.0    5    2-6     381-385 (385)
+  6 6WDN_F Calcium uptake protein   12.6 2.1E+02  0.0023   11.0   0.0    6    1-6      11-16  (51)
+  7 5OK4_A 5,10-methenyltetrahydro  12.1 2.2E+02  0.0024   13.8   0.0    5    1-5     108-112 (344)
+  8 6YXY_Ao bL28m, uL29m, uL30m, b  11.5 2.4E+02  0.0026   16.7   0.0    6    1-6    1511-1516(1520)
+  9 3LK2_T F-actin-capping protein  11.4 2.4E+02  0.0026   11.0   0.0    6    1-6      30-35  (52)
+ 10 2GK1_G Beta-hexosaminidase alp  10.3 2.8E+02   0.003    8.4   0.0    4    1-4       3-6   (52)
+
+No 1
+>7AIH_BP mL94, mL89, Ribosomal protein L3-like; Ribosome, Mitochondria, Kinetoplastid; HET: NAD; 3.6A {Leishmania major}
+Probab=18.17  E-value=1.2e+02  Score=15.44  Aligned_cols=6  Identities=83%  Similarity=1.381  Sum_probs=3.7  Template_Neff=1.800
+
+Q PKPKKT            1 PKPKKT    6 (6)
+Q Consensus         1 pkpkkt    6 (6)
+                      ||||.|
+T Consensus       245 PKpKNT  250 (254)
+T 7AIH_BP         245 PKPKNT  250 (254)
+T ss_pred             CCCCCC
+Confidence            567654
+
+
+No 2
+>7AM2_BP Ribosomal protein L3-like protein, uL4m; RIBOSOME, Mitochondria, Kinetoplastid; HET: GTP, ATP; 3.4A {Leishmania tarentolae}
+Probab=18.17  E-value=1.2e+02  Score=15.44  Aligned_cols=6  Identities=83%  Similarity=1.381  Sum_probs=3.7  Template_Neff=1.800
+
+Q PKPKKT            1 PKPKKT    6 (6)
+Q Consensus         1 pkpkkt    6 (6)
+                      ||||.|
+T Consensus       245 PKpKNT  250 (254)
+T 7AM2_BP         245 PKPKNT  250 (254)
+T ss_pred             CCCCCC
+Confidence            567654
+
+
+No 3
+>6HIV_Ao ms48, ms51, ms56, ms59, ms60; mitoribosome, translation, Trypanosoma, large ribosomal; HET: GTP, SPD, NAD, MG, ZN, UTP, SPM; 7.8A {Trypanosoma brucei brucei}
+Probab=16.66  E-value=1.4e+02  Score=15.29  Aligned_cols=6  Identities=83%  Similarity=1.381  Sum_probs=3.6  Template_Neff=1.700
+
+Q PKPKKT            1 PKPKKT    6 (6)
+Q Consensus         1 pkpkkt    6 (6)
+                      ||||.|
+T Consensus       250 PKpKNT  255 (259)
+T 6HIV_Ao         250 PKPKNT  255 (259)
+T ss_pred             CCCCCC
+Confidence            567654
+
+
+No 4
+>6HIX_Ao ?; mitoribosome, translation, Trypanosoma, large ribosomal; HET: NAD; 3.39A {Trypanosoma equiperdum}
+Probab=16.59  E-value=1.4e+02  Score=15.28  Aligned_cols=6  Identities=83%  Similarity=1.381  Sum_probs=3.6  Template_Neff=1.700
+
+Q PKPKKT            1 PKPKKT    6 (6)
+Q Consensus         1 pkpkkt    6 (6)
+                      ||||.|
+T Consensus       250 PKpKNT  255 (259)
+T 6HIX_Ao         250 PKPKNT  255 (259)
+T ss_pred             CCCCCC
+Confidence            567654
+
+
+No 5
+>5IM2_A Twin-arginine translocation pathway signal; ENZYME FUNCTION INITIATIVE, EFI, Structural; HET: BEZ; 1.7A {Rhodoferax ferrireducens}
+Probab=13.00  E-value=2e+02  Score=12.48  Aligned_cols=5  Identities=80%  Similarity=1.278  Sum_probs=0.0  Template_Neff=9.300
+
+Q PKPKKT            2 KPKKT    6 (6)
+Q Consensus         2 kpkkt    6 (6)
+                      +||||
+T Consensus       381 ~~~~~  385 (385)
+T 5IM2_A          381 RPKKT  385 (385)
+T ss_dssp             -----
+T ss_pred             CCCCC
+
+
+No 6
+>6WDN_F Calcium uptake protein 2, mitochondrial; membrane protein; 3.2A {Homo sapiens}
+Probab=12.61  E-value=2.1e+02  Score=11.00  Aligned_cols=6  Identities=67%  Similarity=1.071  Sum_probs=0.0  Template_Neff=4.300
+
+Q PKPKKT            1 PKPKKT    6 (6)
+Q Consensus         1 pkpkkt    6 (6)
+                      |+|+++
+T Consensus        11 ~~P~~~   16 (51)
+T 6WDN_F           11 PKPVKM   16 (51)
+T ss_pred             CCCeeC
+
+
+No 7
+>5OK4_A 5,10-methenyltetrahydromethanopterin hydrogenase (E.C.1.12.98.2); [Fe]-hydrogenase, Fe-Guanylylpyridinol cofactor, H2, hydrogenase; HET: FEG; 1.29A {Methanothermobacter marburgensis str. Marburg}
+Probab=12.13  E-value=2.2e+02  Score=13.84  Aligned_cols=5  Identities=60%  Similarity=1.265  Sum_probs=0.0  Template_Neff=5.800
+
+Q PKPKKT            1 PKPKK    5 (6)
+Q Consensus         1 pkpkk    5 (6)
+                      |||+|
+T Consensus       108 ~~~~~  112 (344)
+T 5OK4_A          108 PKPPE  112 (344)
+T ss_dssp             CCTTT
+T ss_pred             CCCCC
+
+
+No 8
+>6YXY_Ao bL28m, uL29m, uL30m, bL32m, bL35m; mitoribosome, assembly, LSU, RIBOSOME; HET: ATP, PM8, MG, SPD, NAD, GTP; 3.1A {Trypanosoma brucei brucei}
+Probab=11.47  E-value=2.4e+02  Score=16.68  Aligned_cols=6  Identities=83%  Similarity=1.381  Sum_probs=0.0  Template_Neff=5.400
+
+Q PKPKKT            1 PKPKKT    6 (6)
+Q Consensus         1 pkpkkt    6 (6)
+                      ||||.|
+T Consensus      1511 ~~~~~~ 1516 (1520)
+T 6YXY_Ao        1511 PKPKNT 1516 (1520)
+T ss_pred             CCCCCC
+
+
+No 9
+>3LK2_T F-actin-capping protein subunit alpha-1, F-actin-capping; CapZ, CARMIL, actin filaments, uncapping; 2.2A {Gallus gallus}
+Probab=11.45  E-value=2.4e+02  Score=11.02  Aligned_cols=6  Identities=50%  Similarity=0.778  Sum_probs=0.0  Template_Neff=3.900
+
+Q PKPKKT            1 PKPKKT    6 (6)
+Q Consensus         1 pkpkkt    6 (6)
+                      ||+.|+
+T Consensus        30 Pkr~K~   35 (52)
+T 3LK2_T           30 PKRNKK   35 (52)
+T ss_dssp             CCCCCS
+T ss_pred             CCCCcc
+
+
+No 10
+>2GK1_G Beta-hexosaminidase alpha chain (E.C.3.2.1.52), Beta-hexosaminidase; beta-hexoasaminidase A, glycosidase, Tay-Sachs disease; HET: NGT, BMA, NAG; 3.25A {Homo sapiens} SCOP: d.92.2.1, c.1.8.6
+Probab=10.30  E-value=2.8e+02  Score=8.36  Aligned_cols=4  Identities=50%  Similarity=1.099  Sum_probs=0.0  Template_Neff=9.600
+
+Q PKPKKT            1 PKPK    4 (6)
+Q Consensus         1 pkpk    4 (6)
+                      |+|.
+T Consensus         3 P~P~    6 (52)
+T 2GK1_G            3 PWPQ    6 (52)
+T ss_pred             CCCe
+
+

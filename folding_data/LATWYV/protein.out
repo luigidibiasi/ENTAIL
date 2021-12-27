@@ -1,0 +1,152 @@
+Query         LATWYV
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 17:18:34 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LATWYV/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LATWYV/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4BHK_B FLORICAULA/LEAFY HOMOLO  44.8      20 0.00022   17.1   0.0    6    1-6     150-155 (171)
+  2 2VY1_A PROTEIN LEAFY; DNA-BIND  42.0      24 0.00026   17.1   0.0    6    1-6     143-148 (194)
+  3 5JI5_A BuphA.10154.a.B1; SSGCI  37.3      32 0.00035   15.1   0.0    6    1-6       9-14  (315)
+  4 2KLQ_A DNA replication licensi  20.0   1E+02  0.0011   11.7   0.0    6    1-6      41-46  (114)
+  5 2Z0R_I Putative uncharacterize  20.0   1E+02  0.0011   13.6   0.0    5    2-6       7-11  (103)
+  6 2Z0R_K Putative uncharacterize  20.0   1E+02  0.0011   13.6   0.0    5    2-6       7-11  (103)
+  7 3CQR_A Violaxanthin de-epoxida  19.9   1E+02  0.0011   11.9   0.0    6    1-6      24-29  (185)
+  8 1T0V_A BILIN-BINDING PROTEIN;   19.7   1E+02  0.0012   11.4   0.0    6    1-6      23-28  (184)
+  9 1NGL_A NEUTROPHIL GELATINASE-A  19.5 1.1E+02  0.0012   11.3   0.0    6    1-6      29-34  (179)
+ 10 4RUN_B Odorant-binding protein  19.5 1.1E+02  0.0012   11.3   0.0    6    1-6      11-16  (161)
+
+No 1
+>4BHK_B FLORICAULA/LEAFY HOMOLOG 1; TRANSCRIPTION-DNA COMPLEX; 2.32A {PHYSCOMITRELLA PATENS}
+Probab=44.84  E-value=20  Score=17.10  Aligned_cols=6  Identities=67%  Similarity=1.564  Sum_probs=4.3  Template_Neff=2.000
+
+Q LATWYV            1 LATWYV    6 (6)
+Q Consensus         1 latwyv    6 (6)
+                      |+.|||
+T Consensus       150 L~iwyV  155 (171)
+T 4BHK_B          150 LRIWYV  155 (171)
+T ss_dssp             TTTSCC
+T ss_pred             ceEEec
+Confidence            567886
+
+
+No 2
+>2VY1_A PROTEIN LEAFY; DNA-BINDING, TRANSCRIPTION, DEVELOPMENTAL PROTEIN, TRANSCRIPTION; 2.104A {ARABIDOPSIS THALIANA}
+Probab=41.98  E-value=24  Score=17.15  Aligned_cols=6  Identities=67%  Similarity=1.658  Sum_probs=4.2  Template_Neff=1.900
+
+Q LATWYV            1 LATWYV    6 (6)
+Q Consensus         1 latwyv    6 (6)
+                      |+.|||
+T Consensus       143 L~iWyV  148 (194)
+T 2VY1_A          143 LSIWYV  148 (194)
+T ss_dssp             GGGSCC
+T ss_pred             cEEEec
+Confidence            467886
+
+
+No 3
+>5JI5_A BuphA.10154.a.B1; SSGCID, Histone deacetylase superfamily, Burkholderia; HET: EDO; 2.1A {Burkholderia phymatum (strain DSM 17167 / STM815)}
+Probab=37.26  E-value=32  Score=15.08  Aligned_cols=6  Identities=33%  Similarity=0.429  Sum_probs=3.7  Template_Neff=8.000
+
+Q LATWYV            1 LATWYV    6 (6)
+Q Consensus         1 latwyv    6 (6)
+                      +||||+
+T Consensus         9 ~~~~~~   14 (315)
+T 5JI5_A            9 MATGFY   14 (315)
+T ss_dssp             -CEEEE
+T ss_pred             cCceee
+Confidence            478875
+
+
+No 4
+>2KLQ_A DNA replication licensing factor MCM6; DNA replication, Pre-RC, Mcm6, Cdt1; NMR {Homo sapiens}
+Probab=19.98  E-value=1e+02  Score=11.73  Aligned_cols=6  Identities=50%  Similarity=1.575  Sum_probs=0.0  Template_Neff=7.900
+
+Q LATWYV            1 LATWYV    6 (6)
+Q Consensus         1 latwyv    6 (6)
+                      |..||.
+T Consensus        41 Li~wYl   46 (114)
+T 2KLQ_A           41 LVNWYL   46 (114)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 5
+>2Z0R_I Putative uncharacterized protein TTHA0547; alpha/beta protein, STRUCTURAL GENOMICS, UNKNOWN; HET: SO4, CL; 2.3A {Thermus thermophilus}
+Probab=19.97  E-value=1e+02  Score=13.64  Aligned_cols=5  Identities=80%  Similarity=1.890  Sum_probs=0.0  Template_Neff=3.100
+
+Q LATWYV            2 ATWYV    6 (6)
+Q Consensus         2 atwyv    6 (6)
+                      ++||+
+T Consensus         7 g~wY~   11 (103)
+T 2Z0R_I            7 GTWYV   11 (103)
+T ss_dssp             SCEEE
+T ss_pred             cceEE
+
+
+No 6
+>2Z0R_K Putative uncharacterized protein TTHA0547; alpha/beta protein, STRUCTURAL GENOMICS, UNKNOWN; HET: CL, SO4, MSE; 2.3A {Thermus thermophilus}
+Probab=19.97  E-value=1e+02  Score=13.64  Aligned_cols=5  Identities=80%  Similarity=1.890  Sum_probs=0.0  Template_Neff=3.100
+
+Q LATWYV            2 ATWYV    6 (6)
+Q Consensus         2 atwyv    6 (6)
+                      ++||+
+T Consensus         7 g~wY~   11 (103)
+T 2Z0R_K            7 GTWYV   11 (103)
+T ss_dssp             SCEEE
+T ss_pred             cceEE
+
+
+No 7
+>3CQR_A Violaxanthin de-epoxidase, chloroplast (E.C.1.10.99.3); Lipocalin, Enzyme, de-epoxidase, Xanthophyll cycle; 2.0A {Arabidopsis thaliana}
+Probab=19.93  E-value=1e+02  Score=11.86  Aligned_cols=6  Identities=33%  Similarity=1.259  Sum_probs=0.0  Template_Neff=9.400
+
+Q LATWYV            1 LATWYV    6 (6)
+Q Consensus         1 latwyv    6 (6)
+                      +..||+
+T Consensus        24 ~G~WY~   29 (185)
+T 3CQR_A           24 NGKWYI   29 (185)
+T ss_dssp             CEEEEE
+T ss_pred             CeeeeE
+
+
+No 8
+>1T0V_A BILIN-BINDING PROTEIN; PIERIS BRASSICAE, LIPOCALIN, ANTICALIN, PROTEIN; NMR {Pieris brassicae} SCOP: b.60.1.1
+Probab=19.71  E-value=1e+02  Score=11.41  Aligned_cols=6  Identities=17%  Similarity=0.839  Sum_probs=0.0  Template_Neff=10.200
+
+Q LATWYV            1 LATWYV    6 (6)
+Q Consensus         1 latwyv    6 (6)
+                      ...||+
+T Consensus        23 ~G~Wy~   28 (184)
+T 1T0V_A           23 HGKWWE   28 (184)
+T ss_dssp             CSCCEE
+T ss_pred             CeEEEE
+
+
+No 9
+>1NGL_A NEUTROPHIL GELATINASE-ASSOCIATED LIPOCALIN NGAL; TRANSPORT PROTEIN, MMP-9 COMPONENT, LIPOCALIN; NMR {Homo sapiens} SCOP: b.60.1.1
+Probab=19.53  E-value=1.1e+02  Score=11.29  Aligned_cols=6  Identities=50%  Similarity=1.354  Sum_probs=0.0  Template_Neff=10.300
+
+Q LATWYV            1 LATWYV    6 (6)
+Q Consensus         1 latwyv    6 (6)
+                      +.+||+
+T Consensus        29 ~G~Wy~   34 (179)
+T 1NGL_A           29 QGKWYV   34 (179)
+T ss_pred             CeEeEE
+
+
+No 10
+>4RUN_B Odorant-binding protein 2a; human lipocalin, lipid binding protein; HET: FLC; 2.6A {Homo sapiens}
+Probab=19.53  E-value=1.1e+02  Score=11.30  Aligned_cols=6  Identities=67%  Similarity=1.503  Sum_probs=0.0  Template_Neff=9.900
+
+Q LATWYV            1 LATWYV    6 (6)
+Q Consensus         1 latwyv    6 (6)
+                      +..||.
+T Consensus        11 ~G~Wy~   16 (161)
+T 4RUN_B           11 TGTWYV   16 (161)
+T ss_dssp             SEEEEE
+T ss_pred             ceEeEE
+
+

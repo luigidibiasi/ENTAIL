@@ -1,0 +1,149 @@
+Query         KKVDTK
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 11:09:39 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/KKVDTK/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/KKVDTK/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6RXU_CZ Periodic tryptophan pr   5.4 6.4E+02  0.0071   13.5   0.0    6    1-6     532-537 (609)
+  2 6KJU_A Transcriptional regulat   4.9 7.3E+02  0.0081    9.4   0.0    4    1-4     239-242 (254)
+  3 3P5J_B Ribonuclease H2 subunit   4.8 7.6E+02  0.0084   11.5   0.0    6    1-6     308-313 (332)
+  4 1U2W_C cadmium, lead, represso   4.7 7.6E+02  0.0085    9.0   0.0    5    1-5       2-6   (122)
+  5 6BFJ_A Caspase-3 (E.C.3.4.22.5   4.1 9.1E+02    0.01    9.5   0.0    6    1-6       6-11  (175)
+  6 4XFR_B Uncharacterized protein   4.1 9.2E+02    0.01   11.6   0.0    5    1-5     109-113 (427)
+  7 5WZ3_A NS5 RdRp; Zika virus, N   3.9 9.6E+02   0.011   12.5   0.0    6    1-6      90-95  (619)
+  8 4XG0_A TRAP PERIPLASMIC SOLUTE   3.8   1E+03   0.011   11.5   0.0    5    1-5     109-113 (427)
+  9 5U0B_B Genome polyprotein (E.C   3.6 1.1E+03   0.012   13.0   0.0    6    1-6     358-363 (903)
+ 10 3DQQ_A Putative tRNA synthase;   3.6 1.1E+03   0.012   11.2   0.0    5    1-5      82-86  (421)
+
+No 1
+>6RXU_CZ Periodic tryptophan protein 2-like protein; ribosome, ribosome biogenesis, rRNA; HET: GTP; 3.5A {Chaetomium thermophilum}
+Probab=5.43  E-value=6.4e+02  Score=13.55  Aligned_cols=6  Identities=50%  Similarity=0.811  Sum_probs=0.0  Template_Neff=5.400
+
+Q KKVDTK            1 KKVDTK    6 (6)
+Q Consensus         1 kkvdtk    6 (6)
+                      |.||+|
+T Consensus       532 K~VDrK  537 (609)
+T 6RXU_CZ         532 KNVDRR  537 (609)
+T ss_pred             ccCCcc
+
+
+No 2
+>6KJU_A Transcriptional regulator LuxR family/DNA Complex; Vibrio cholera, Quorum sensing, transcription; HET: A1U; 1.75A {Vibrio cholerae}
+Probab=4.92  E-value=7.3e+02  Score=9.35  Aligned_cols=4  Identities=100%  Similarity=1.207  Sum_probs=0.0  Template_Neff=11.100
+
+Q KKVDTK            1 KKVD    4 (6)
+Q Consensus         1 kkvd    4 (6)
+                      +|||
+T Consensus       239 ~~~~  242 (254)
+T 6KJU_A          239 KKVD  242 (254)
+T ss_dssp             C---
+T ss_pred             cccc
+
+
+No 3
+>3P5J_B Ribonuclease H2 subunit A (E.C.3.1.26.4); RNase H2 fold, triple beta-barrel; 2.9A {Mus musculus}
+Probab=4.78  E-value=7.6e+02  Score=11.51  Aligned_cols=6  Identities=50%  Similarity=0.617  Sum_probs=0.0  Template_Neff=7.200
+
+Q KKVDTK            1 KKVDTK    6 (6)
+Q Consensus         1 kkvdtk    6 (6)
+                      +|||++
+T Consensus       308 ~Kvn~k  313 (332)
+T 3P5J_B          308 AKVDKS  313 (332)
+T ss_dssp             ------
+T ss_pred             hccccC
+
+
+No 4
+>1U2W_C cadmium, lead, repressor, soft metal; 1.9A {Staphylococcus aureus} SCOP: a.4.5.5
+Probab=4.74  E-value=7.6e+02  Score=8.99  Aligned_cols=5  Identities=80%  Similarity=0.793  Sum_probs=0.0  Template_Neff=9.100
+
+Q KKVDTK            1 KKVDT    5 (6)
+Q Consensus         1 kkvdt    5 (6)
+                      ||+++
+T Consensus         2 ~~~~~    6 (122)
+T 1U2W_C            2 KKKDT    6 (122)
+T ss_dssp             -----
+T ss_pred             Cccce
+
+
+No 5
+>6BFJ_A Caspase-3 (E.C.3.4.22.56), ACE-ASP-GLU-VAL-ASP-0QE; allosteric regulation  apoptosis ; 1.543A {Homo sapiens}
+Probab=4.12  E-value=9.1e+02  Score=9.52  Aligned_cols=6  Identities=50%  Similarity=0.761  Sum_probs=0.0  Template_Neff=8.800
+
+Q KKVDTK            1 KKVDTK    6 (6)
+Q Consensus         1 kkvdtk    6 (6)
+                      ++||++
+T Consensus         6 ~~~~~~   11 (175)
+T 6BFJ_A            6 NSVDSK   11 (175)
+T ss_dssp             ------
+T ss_pred             cccccc
+
+
+No 6
+>4XFR_B Uncharacterized protein; ENZYME FUNCTION INITIATIVE, EFI, Structural; HET: MSE, CIT; 2.0A {Bordetella bronchiseptica}
+Probab=4.07  E-value=9.2e+02  Score=11.63  Aligned_cols=5  Identities=80%  Similarity=1.066  Sum_probs=0.0  Template_Neff=7.300
+
+Q KKVDTK            1 KKVDT    5 (6)
+Q Consensus         1 kkvdt    5 (6)
+                      ||+|.
+T Consensus       109 kKiDS  113 (427)
+T 4XFR_B          109 KKVDS  113 (427)
+T ss_dssp             EECCT
+T ss_pred             Eeecc
+
+
+No 7
+>5WZ3_A NS5 RdRp; Zika virus, NS5, RdRp, RNA-dependent; 1.804A {Zika virus}
+Probab=3.94  E-value=9.6e+02  Score=12.47  Aligned_cols=6  Identities=67%  Similarity=0.983  Sum_probs=0.0  Template_Neff=6.700
+
+Q KKVDTK            1 KKVDTK    6 (6)
+Q Consensus         1 kkvdtk    6 (6)
+                      +|||++
+T Consensus        90 ~KvD~~   95 (619)
+T 5WZ3_A           90 EKVDTR   95 (619)
+T ss_dssp             CCCSCC
+T ss_pred             hcCCCC
+
+
+No 8
+>4XG0_A TRAP PERIPLASMIC SOLUTE BINDING PROTEIN; UNKNOWN FUNCTION, ENZYME FUNCTION INITIATIVE; HET: CIT, SO4; 1.7A {Bordetella bronchiseptica}
+Probab=3.80  E-value=1e+03  Score=11.48  Aligned_cols=5  Identities=80%  Similarity=1.066  Sum_probs=0.0  Template_Neff=7.400
+
+Q KKVDTK            1 KKVDT    5 (6)
+Q Consensus         1 kkvdt    5 (6)
+                      ||+|.
+T Consensus       109 KKiDS  113 (427)
+T 4XG0_A          109 KKVDS  113 (427)
+T ss_dssp             EECCT
+T ss_pred             Eeecc
+
+
+No 9
+>5U0B_B Genome polyprotein (E.C.2.1.1.56,2.1.1.57,2.7.7.48); Viral RNA polymerase, TRANSFERASE; HET: SO4, SAH; 3.0A {Zika virus (strain Mr 766)}
+Probab=3.63  E-value=1.1e+03  Score=13.02  Aligned_cols=6  Identities=67%  Similarity=0.983  Sum_probs=0.0  Template_Neff=6.600
+
+Q KKVDTK            1 KKVDTK    6 (6)
+Q Consensus         1 kkvdtk    6 (6)
+                      +|||++
+T Consensus       358 ~KvD~~  363 (903)
+T 5U0B_B          358 EKVDTR  363 (903)
+T ss_dssp             HHTSCC
+T ss_pred             eeccCC
+
+
+No 10
+>3DQQ_A Putative tRNA synthase; tRNA synthase, Salmonella typhimurium, Structural; 2.7A {Salmonella typhimurium}
+Probab=3.59  E-value=1.1e+03  Score=11.24  Aligned_cols=5  Identities=20%  Similarity=-0.190  Sum_probs=0.0  Template_Neff=7.700
+
+Q KKVDTK            1 KKVDT    5 (6)
+Q Consensus         1 kkvdt    5 (6)
+                      ||+|.
+T Consensus        82 kKiDS   86 (421)
+T 3DQQ_A           82 FKYCS   86 (421)
+T ss_dssp             EECCT
+T ss_pred             EEeec
+
+

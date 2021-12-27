@@ -1,0 +1,146 @@
+Query         LATVYG
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 16:31:41 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LATVYG/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LATVYG/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 7ANE_c mL94, mL89, Ribosomal p  18.2 1.2E+02  0.0013   15.0   0.0    6    1-6       9-14  (311)
+  2 6O90_W 70S ribosome; 70S, ribo  18.0 1.2E+02  0.0013   11.4   0.0    5    2-6      27-31  (94)
+  3 6HIW_CH Uncharacterized protei  18.0 1.2E+02  0.0013   14.7   0.0    6    1-6       9-14  (282)
+  4 3FM7_B Dynein light chain Tcte  17.8 1.2E+02  0.0014   11.4   0.0    6    1-6     103-108 (111)
+  5 1DFU_P RIBOSOMAL PROTEIN L25/5  17.8 1.2E+02  0.0014   11.4   0.0    5    2-6      28-32  (94)
+  6 5J8A_DW 30S ribosomal protein   16.3 1.4E+02  0.0016   11.3   0.0    5    2-6      28-32  (94)
+  7 6ENU_V 30S ribosomal protein S  16.3 1.4E+02  0.0016   11.3   0.0    5    2-6      28-32  (94)
+  8 5IZN_A 50S ribosomal protein L  15.9 1.5E+02  0.0016   11.3   0.0    5    2-6      30-34  (95)
+  9 5IZN_F 50S ribosomal protein L  15.9 1.5E+02  0.0016   11.3   0.0    5    2-6      30-34  (95)
+ 10 6WRU_H 50S ribosomal protein L  15.5 1.5E+02  0.0017   11.5   0.0    5    2-6      29-33  (107)
+
+No 1
+>7ANE_c mL94, mL89, Ribosomal protein L3-like; Ribosome, Mitochondria, Kinetoplastid; HET: NAD; 3.9A {Leishmania major}
+Probab=18.23  E-value=1.2e+02  Score=15.05  Aligned_cols=6  Identities=83%  Similarity=1.331  Sum_probs=3.8  Template_Neff=4.500
+
+Q LATVYG            1 LATVYG    6 (6)
+Q Consensus         1 latvyg    6 (6)
+                      ||-|||
+T Consensus         9 ~~~~~~   14 (311)
+T 7ANE_c            9 LARVYG   14 (311)
+T ss_pred             HHHHhC
+Confidence            466776
+
+
+No 2
+>6O90_W 70S ribosome; 70S, ribosome, pathogen, antibiotic development; 3.49A {Enterococcus faecalis}
+Probab=17.97  E-value=1.2e+02  Score=11.41  Aligned_cols=5  Identities=80%  Similarity=1.305  Sum_probs=0.0  Template_Neff=7.400
+
+Q LATVYG            2 ATVYG    6 (6)
+Q Consensus         2 atvyg    6 (6)
+                      |.+||
+T Consensus        27 aviYg   31 (94)
+T 6O90_W           27 AIVYG   31 (94)
+T ss_pred             EEEEc
+
+
+No 3
+>6HIW_CH Uncharacterized protein, mS74, uS3m, 30S; mitoribosome, translation, Trypanosoma, small ribosomal; HET: GTP, SPD, MG, UTP, SPM; 3.37A {Trypanosoma brucei brucei}
+Probab=17.96  E-value=1.2e+02  Score=14.74  Aligned_cols=6  Identities=83%  Similarity=1.348  Sum_probs=0.0  Template_Neff=4.700
+
+Q LATVYG            1 LATVYG    6 (6)
+Q Consensus         1 latvyg    6 (6)
+                      ||-|||
+T Consensus         9 ~~~~~~   14 (282)
+T 6HIW_CH           9 LAKVYG   14 (282)
+T ss_pred             HHHHHC
+
+
+No 4
+>3FM7_B Dynein light chain Tctex-type, Dynein; Cytoplasmic Dynein, Light Chain Tctex-1; 3.5A {Drosophila melanogaster}
+Probab=17.82  E-value=1.2e+02  Score=11.37  Aligned_cols=6  Identities=33%  Similarity=1.082  Sum_probs=0.0  Template_Neff=8.100
+
+Q LATVYG            1 LATVYG    6 (6)
+Q Consensus         1 latvyg    6 (6)
+                      ++||||
+T Consensus       103 ~vtV~~  108 (111)
+T 3FM7_B          103 IVSVFG  108 (111)
+T ss_dssp             EEEEEE
+T ss_pred             EEEEEE
+
+
+No 5
+>1DFU_P RIBOSOMAL PROTEIN L25/5S RRNA COMPLEX; PROTEIN-RNA COMPLEX, RIBOSOME; 1.8A {Escherichia coli} SCOP: b.53.1.1
+Probab=17.77  E-value=1.2e+02  Score=11.44  Aligned_cols=5  Identities=60%  Similarity=1.285  Sum_probs=0.0  Template_Neff=7.300
+
+Q LATVYG            2 ATVYG    6 (6)
+Q Consensus         2 atvyg    6 (6)
+                      |.+||
+T Consensus        28 aviYG   32 (94)
+T 1DFU_P           28 AIIYG   32 (94)
+T ss_dssp             EEEEC
+T ss_pred             EEEeC
+
+
+No 6
+>5J8A_DW 30S ribosomal protein S2, 30S; ribosome, resistance, negamycin, tigecycline, tetracycline; HET: 2MA, MEQ, GUN, ACY, 5MC, 4OC, 4D4, PUT, D2T, MPD, OMC, 6MZ, OMG, PSU, T1C, SPD, MG, PG4, EDO, 3TD, MA6, H2U, PGE, OMU, 7MG, 2MG, 1MG, 1PE, PEG, UR3, 5MU; 3.1A {Escherichia coli (strain K12)}
+Probab=16.25  E-value=1.4e+02  Score=11.28  Aligned_cols=5  Identities=60%  Similarity=1.285  Sum_probs=0.0  Template_Neff=7.300
+
+Q LATVYG            2 ATVYG    6 (6)
+Q Consensus         2 atvyg    6 (6)
+                      |.+||
+T Consensus        28 aviYG   32 (94)
+T 5J8A_DW          28 AIIYG   32 (94)
+T ss_pred             EEEeC
+
+
+No 7
+>6ENU_V 30S ribosomal protein S2, 30S; Proline, EF-P, ribosome, nascent chain; HET: KEO, PRO; 3.1A {Escherichia coli}
+Probab=16.25  E-value=1.4e+02  Score=11.28  Aligned_cols=5  Identities=60%  Similarity=1.285  Sum_probs=0.0  Template_Neff=7.300
+
+Q LATVYG            2 ATVYG    6 (6)
+Q Consensus         2 atvyg    6 (6)
+                      |.+||
+T Consensus        28 aviYG   32 (94)
+T 6ENU_V           28 AIIYG   32 (94)
+T ss_pred             EEEeC
+
+
+No 8
+>5IZN_A 50S ribosomal protein L25; structural genomics, The Center for; HET: PO4, MSE; 2.35A {Vibrio vulnificus (strain CMCP6)}
+Probab=15.92  E-value=1.5e+02  Score=11.27  Aligned_cols=5  Identities=80%  Similarity=1.345  Sum_probs=0.0  Template_Neff=7.300
+
+Q LATVYG            2 ATVYG    6 (6)
+Q Consensus         2 atvyg    6 (6)
+                      |.+||
+T Consensus        30 aviYG   34 (95)
+T 5IZN_A           30 AVVYG   34 (95)
+T ss_dssp             EEEEC
+T ss_pred             EEEeC
+
+
+No 9
+>5IZN_F 50S ribosomal protein L25; structural genomics, The Center for; HET: PO4, MSE; 2.35A {Vibrio vulnificus (strain CMCP6)}
+Probab=15.92  E-value=1.5e+02  Score=11.27  Aligned_cols=5  Identities=80%  Similarity=1.345  Sum_probs=0.0  Template_Neff=7.300
+
+Q LATVYG            2 ATVYG    6 (6)
+Q Consensus         2 atvyg    6 (6)
+                      |.+||
+T Consensus        30 aviYG   34 (95)
+T 5IZN_F           30 AVVYG   34 (95)
+T ss_dssp             EEEEC
+T ss_pred             EEEeC
+
+
+No 10
+>6WRU_H 50S ribosomal protein L19, 50S; antibiotic, tedizolid, oxazolidinone, RIBOSOME; HET: U7Y; 3.1A {Staphylococcus aureus}
+Probab=15.51  E-value=1.5e+02  Score=11.54  Aligned_cols=5  Identities=80%  Similarity=1.345  Sum_probs=0.0  Template_Neff=7.100
+
+Q LATVYG            2 ATVYG    6 (6)
+Q Consensus         2 atvyg    6 (6)
+                      |.+||
+T Consensus        29 aviYG   33 (107)
+T 6WRU_H           29 AVVYG   33 (107)
+T ss_dssp             EEEES
+T ss_pred             EEEEC
+
+

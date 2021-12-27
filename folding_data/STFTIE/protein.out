@@ -1,0 +1,150 @@
+Query         STFTIE
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 17:33:32 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/STFTIE/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/STFTIE/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2AB9_A pro-SFTI-1; Protein, be  44.0      21 0.00023   13.4   0.0    6    1-6       7-12  (31)
+  2 3S8K_A Latex serine proteinase  15.5 1.5E+02  0.0017   12.1   0.0    6    1-6     124-129 (184)
+  3 5DVH_A PCPI-3; Plant Kunitz-fa  15.3 1.6E+02  0.0017   12.2   0.0    6    1-6     129-134 (193)
+  4 6DWU_DB Cationic trypsin (E.C.  15.0 1.6E+02  0.0018   11.9   0.0    6    1-6     110-115 (163)
+  5 1WBA_A WINGED BEAN ALBUMIN 1;   14.9 1.6E+02  0.0018   11.9   0.0    6    1-6     116-121 (175)
+  6 3TC2_C Kunitz-type proteinase   14.8 1.6E+02  0.0018   12.1   0.0    6    1-6     129-134 (187)
+  7 5HPZ_B Water-soluble chlorophy  13.7 1.8E+02   0.002   11.9   0.0    6    1-6     122-127 (179)
+  8 3S8K_B Latex serine proteinase  13.3 1.9E+02  0.0021   11.9   0.0    6    1-6     124-129 (184)
+  9 6GIX_C Water-soluble chlorophy  12.9   2E+02  0.0022   11.9   0.0    6    1-6     120-125 (180)
+ 10 4IHZ_A CrataBL; beta-trefoil,   12.9   2E+02  0.0022   11.8   0.0    6    1-6     110-115 (165)
+
+No 1
+>2AB9_A pro-SFTI-1; Protein, beta-sheet, random coil, HYDROLASE; NMR {Helianthus annuus}
+Probab=44.05  E-value=21  Score=13.45  Aligned_cols=6  Identities=83%  Similarity=0.877  Sum_probs=3.7  Template_Neff=1.000
+
+Q STFTIE            1 STFTIE    6 (6)
+Q Consensus         1 stftie    6 (6)
+                      ||.|||
+T Consensus         7 stitie   12 (31)
+T 2AB9_A            7 STITIE   12 (31)
+T ss_dssp             CCSSSC
+T ss_pred             eeEEEc
+Confidence            566665
+
+
+No 2
+>3S8K_A Latex serine proteinase inhibitor; Kunitz-STI fold, protease inhibitor, HYDROLASE; HET: NAG, FUC, SO4, GOL; 1.7A {Carica papaya}
+Probab=15.54  E-value=1.5e+02  Score=12.11  Aligned_cols=6  Identities=50%  Similarity=0.772  Sum_probs=0.0  Template_Neff=8.000
+
+Q STFTIE            1 STFTIE    6 (6)
+Q Consensus         1 stftie    6 (6)
+                      +.|.||
+T Consensus       124 ~~F~Ie  129 (184)
+T 3S8K_A          124 SMFKIK  129 (184)
+T ss_dssp             GCBEEE
+T ss_pred             cceEEE
+
+
+No 3
+>5DVH_A PCPI-3; Plant Kunitz-family inhibitor, protease inhibitor; 1.8A {Solanum tuberosum}
+Probab=15.32  E-value=1.6e+02  Score=12.22  Aligned_cols=6  Identities=50%  Similarity=0.673  Sum_probs=0.0  Template_Neff=7.900
+
+Q STFTIE            1 STFTIE    6 (6)
+Q Consensus         1 stftie    6 (6)
+                      +.|.||
+T Consensus       129 ~~F~Ie  134 (193)
+T 5DVH_A          129 NWFKIE  134 (193)
+T ss_dssp             GCBEEE
+T ss_pred             CcEEEE
+
+
+No 4
+>6DWU_DB Cationic trypsin (E.C.3.4.21.4), Kunitz-type inihibitor; BBKI, HYDROLASE; 3.96A {Bos taurus}
+Probab=14.99  E-value=1.6e+02  Score=11.87  Aligned_cols=6  Identities=33%  Similarity=0.794  Sum_probs=0.0  Template_Neff=7.900
+
+Q STFTIE            1 STFTIE    6 (6)
+Q Consensus         1 stftie    6 (6)
+                      +.|.||
+T Consensus       110 ~~F~Ie  115 (163)
+T 6DWU_DB         110 GPFKVE  115 (163)
+T ss_pred             ccEEEE
+
+
+No 5
+>1WBA_A WINGED BEAN ALBUMIN 1; SEED STORAGE PROTEIN, ALBUMIN; 1.8A {Psophocarpus tetragonolobus} SCOP: b.42.4.1
+Probab=14.85  E-value=1.6e+02  Score=11.94  Aligned_cols=6  Identities=50%  Similarity=0.899  Sum_probs=0.0  Template_Neff=8.000
+
+Q STFTIE            1 STFTIE    6 (6)
+Q Consensus         1 stftie    6 (6)
+                      +.|.||
+T Consensus       116 ~~F~Ie  121 (175)
+T 1WBA_A          116 GAFTIQ  121 (175)
+T ss_dssp             EEEEEE
+T ss_pred             ecEEEE
+
+
+No 6
+>3TC2_C Kunitz-type proteinase inhibitor P1H5; beta-trefoil fold, Protease inhibitor, Hydrolase; 1.6A {Solanum tuberosum}
+Probab=14.80  E-value=1.6e+02  Score=12.15  Aligned_cols=6  Identities=50%  Similarity=0.440  Sum_probs=0.0  Template_Neff=7.800
+
+Q STFTIE            1 STFTIE    6 (6)
+Q Consensus         1 stftie    6 (6)
+                      +.|.||
+T Consensus       129 ~~F~Ie  134 (187)
+T 3TC2_C          129 SWFKIV  134 (187)
+T ss_dssp             CCEEEE
+T ss_pred             ccEEEE
+
+
+No 7
+>5HPZ_B Water-soluble chlorophyll protein; Chl spectra in the type; HET: 68G; 1.96A {Brassicaceae}
+Probab=13.74  E-value=1.8e+02  Score=11.89  Aligned_cols=6  Identities=67%  Similarity=0.866  Sum_probs=0.0  Template_Neff=7.900
+
+Q STFTIE            1 STFTIE    6 (6)
+Q Consensus         1 stftie    6 (6)
+                      +.|.||
+T Consensus       122 ~~FkI~  127 (179)
+T 5HPZ_B          122 SLFKIE  127 (179)
+T ss_dssp             GCEEEE
+T ss_pred             CceeEE
+
+
+No 8
+>3S8K_B Latex serine proteinase inhibitor; Kunitz-STI fold, protease inhibitor, HYDROLASE; HET: GOL, SO4, FUC, NAG; 1.7A {Carica papaya}
+Probab=13.29  E-value=1.9e+02  Score=11.93  Aligned_cols=6  Identities=50%  Similarity=0.772  Sum_probs=0.0  Template_Neff=7.800
+
+Q STFTIE            1 STFTIE    6 (6)
+Q Consensus         1 stftie    6 (6)
+                      +.|.||
+T Consensus       124 ~~F~Ie  129 (184)
+T 3S8K_B          124 SMFKIK  129 (184)
+T ss_dssp             GCBEEE
+T ss_pred             CceEEE
+
+
+No 9
+>6GIX_C Water-soluble chlorophyll protein; Tetramer, Plant, Lepidium virginicum, Chlorophyll; HET: CHL; 2.8A {Lepidium virginicum}
+Probab=12.95  E-value=2e+02  Score=11.94  Aligned_cols=6  Identities=67%  Similarity=0.800  Sum_probs=0.0  Template_Neff=7.600
+
+Q STFTIE            1 STFTIE    6 (6)
+Q Consensus         1 stftie    6 (6)
+                      +.|.||
+T Consensus       120 ~~F~Ie  125 (180)
+T 6GIX_C          120 SFFRIE  125 (180)
+T ss_dssp             GCEEEE
+T ss_pred             cceeEE
+
+
+No 10
+>4IHZ_A CrataBL; beta-trefoil, Serine protease inhibitor, HYDROLASE; HET: FUC, SO4, BMA, GOL, NAG, CSX; 1.5A {Crataeva tapia}
+Probab=12.92  E-value=2e+02  Score=11.78  Aligned_cols=6  Identities=67%  Similarity=0.728  Sum_probs=0.0  Template_Neff=7.600
+
+Q STFTIE            1 STFTIE    6 (6)
+Q Consensus         1 stftie    6 (6)
+                      +.|.||
+T Consensus       110 ~~F~Ie  115 (165)
+T 4IHZ_A          110 SWFRIE  115 (165)
+T ss_dssp             CCEEEE
+T ss_pred             ccEEEE
+
+

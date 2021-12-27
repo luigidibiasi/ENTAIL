@@ -1,0 +1,231 @@
+Query         NGERIE
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 00:08:11 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NGERIE/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NGERIE/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 7A8Y_BBB Decarboxylase, LYASE;  45.2      20 0.00022   15.1   0.0    6    1-6      27-32  (94)
+  2 1UHE_A Aspartate 1-decarboxyla  44.2      21 0.00023   15.1   0.0    6    1-6      26-31  (97)
+  3 1VC3_B L-Aspartate-alpha-Decar  43.3      22 0.00024   15.0   0.0    6    1-6      27-32  (96)
+  4 5LS7_D Aspartate 1-decarboxyla  43.2      22 0.00025   15.2   0.0    6    1-6      27-32  (102)
+  5 3PLX_B Aspartate 1-decarboxyla  40.9      26 0.00028   15.0   0.0    6    1-6      27-32  (102)
+  6 2EEO_B Aspartate 1-decarboxyla  40.2      27 0.00029   14.7   0.0    6    1-6      26-31  (95)
+  7 1PPY_A Aspartate 1-decarboxyla  40.0      27  0.0003   15.5   0.0    6    1-6      51-56  (126)
+  8 3OUG_B Aspartate 1-decarboxyla  38.4      30 0.00033   15.1   0.0    6    1-6      54-59  (114)
+  9 3OUG_C Aspartate 1-decarboxyla  38.4      30 0.00033   15.1   0.0    6    1-6      54-59  (114)
+ 10 4CRZ_A ASPARTATE 1-DECARBOXYLA  36.1      34 0.00038   15.5   0.0    6    1-6      68-73  (143)
+ 11 1PQH_A pyruvoyl dependent deca  35.9      35 0.00038   15.5   0.0    6    1-6      68-73  (143)
+ 12 5U18_A Putative gentamicin met  33.0      41 0.00046   13.3   0.0    6    1-6       4-9   (321)
+ 13 1U8V_A Gamma-aminobutyrate met  28.2      56 0.00062   14.7   0.0    6    1-6      22-27  (490)
+ 14 6JHM_A Chlorophenol monooxygen  23.2      80 0.00088   14.4   0.0    6    1-6      21-26  (517)
+ 15 7E8P_A flavin monooxygenase, c  21.4      92   0.001   14.3   0.0    6    1-6      21-26  (517)
+
+No 1
+>7A8Y_BBB Decarboxylase, LYASE; HET: PYR, DSN; 1.75A {Escherichia coli}
+Probab=45.20  E-value=20  Score=15.11  Aligned_cols=6  Identities=50%  Similarity=0.972  Sum_probs=3.3  Template_Neff=4.200
+
+Q NGERIE            1 NGERIE    6 (6)
+Q Consensus         1 ngerie    6 (6)
+                      ||+|++
+T Consensus        27 NG~Rf~   32 (94)
+T 7A8Y_BBB         27 NGKRFS   32 (94)
+T ss_pred             CCCeEE
+Confidence            566653
+
+
+No 2
+>1UHE_A Aspartate 1-decarboxylase (E.C.4.1.1.11); double-psi beta barrel, LYASE; HET: NSN; 1.55A {Helicobacter pylori}
+Probab=44.24  E-value=21  Score=15.10  Aligned_cols=6  Identities=67%  Similarity=1.105  Sum_probs=3.4  Template_Neff=4.200
+
+Q NGERIE            1 NGERIE    6 (6)
+Q Consensus         1 ngerie    6 (6)
+                      ||+|++
+T Consensus        26 NG~Rf~   31 (97)
+T 1UHE_A           26 NGERFS   31 (97)
+T ss_pred             CCCeEE
+Confidence            566653
+
+
+No 3
+>1VC3_B L-Aspartate-alpha-Decarboxylase (E.C.4.1.1); Tetramer, pyruvoyl group, RIKEN Structural; 1.5A {Thermus thermophilus}
+Probab=43.30  E-value=22  Score=15.01  Aligned_cols=6  Identities=50%  Similarity=0.988  Sum_probs=3.3  Template_Neff=4.200
+
+Q NGERIE            1 NGERIE    6 (6)
+Q Consensus         1 ngerie    6 (6)
+                      ||+|++
+T Consensus        27 NG~Rf~   32 (96)
+T 1VC3_B           27 NGARLT   32 (96)
+T ss_dssp             TCCEEE
+T ss_pred             CCCeEE
+Confidence            566653
+
+
+No 4
+>5LS7_D Aspartate 1-decarboxylase (E.C.4.1.1.11), PanD maturation; protein derived cofactor, coenzyme A; HET: GOL, ACO; 1.16A {Escherichia coli K-12}
+Probab=43.19  E-value=22  Score=15.18  Aligned_cols=6  Identities=50%  Similarity=0.972  Sum_probs=3.4  Template_Neff=4.100
+
+Q NGERIE            1 NGERIE    6 (6)
+Q Consensus         1 ngerie    6 (6)
+                      ||+|++
+T Consensus        27 NG~Rf~   32 (102)
+T 5LS7_D           27 NGKRFS   32 (102)
+T ss_pred             CCCeEE
+Confidence            566653
+
+
+No 5
+>3PLX_B Aspartate 1-decarboxylase (E.C.4.1.1.11); STRUCTURAL GENOMICS, CENTER FOR STRUCTURAL; 1.747A {Campylobacter jejuni subsp. jejuni}
+Probab=40.86  E-value=26  Score=14.96  Aligned_cols=6  Identities=67%  Similarity=1.093  Sum_probs=3.3  Template_Neff=4.200
+
+Q NGERIE            1 NGERIE    6 (6)
+Q Consensus         1 ngerie    6 (6)
+                      ||+|++
+T Consensus        27 NG~Rf~   32 (102)
+T 3PLX_B           27 NGARFE   32 (102)
+T ss_dssp             TCCEEE
+T ss_pred             CCCeEE
+Confidence            566653
+
+
+No 6
+>2EEO_B Aspartate 1-decarboxylase (E.C.4.1.1.11); Pyruvoyl group dependent enzyme, Lyase; 1.6A {Thermus thermophilus}
+Probab=40.25  E-value=27  Score=14.72  Aligned_cols=6  Identities=50%  Similarity=0.988  Sum_probs=3.2  Template_Neff=4.300
+
+Q NGERIE            1 NGERIE    6 (6)
+Q Consensus         1 ngerie    6 (6)
+                      ||+|++
+T Consensus        26 NG~Rf~   31 (95)
+T 2EEO_B           26 NGARLT   31 (95)
+T ss_dssp             TCCEEE
+T ss_pred             CCCeeE
+Confidence            566643
+
+
+No 7
+>1PPY_A Aspartate 1-decarboxylase precursor (E.C.4.1.1.11); decarboxylase, pantothenate pathway, intramolecular protein; 1.95A {Escherichia coli} SCOP: b.52.2.1
+Probab=39.98  E-value=27  Score=15.47  Aligned_cols=6  Identities=50%  Similarity=0.972  Sum_probs=3.3  Template_Neff=3.900
+
+Q NGERIE            1 NGERIE    6 (6)
+Q Consensus         1 ngerie    6 (6)
+                      ||+|++
+T Consensus        51 NG~Rf~   56 (126)
+T 1PPY_A           51 NGKRFS   56 (126)
+T ss_pred             CCCeEE
+Confidence            566653
+
+
+No 8
+>3OUG_B Aspartate 1-decarboxylase (E.C.4.1.1.11); Structural Genomics, Center for Structural; HET: GOL, MSE; 1.55A {Francisella tularensis subsp. tularensis}
+Probab=38.38  E-value=30  Score=15.13  Aligned_cols=6  Identities=83%  Similarity=1.392  Sum_probs=3.2  Template_Neff=3.900
+
+Q NGERIE            1 NGERIE    6 (6)
+Q Consensus         1 ngerie    6 (6)
+                      ||+|++
+T Consensus        54 nG~Rf~   59 (114)
+T 3OUG_B           54 NGERLE   59 (114)
+T ss_dssp             TCCEEE
+T ss_pred             CCCeEE
+Confidence            466653
+
+
+No 9
+>3OUG_C Aspartate 1-decarboxylase (E.C.4.1.1.11); Structural Genomics, Center for Structural; HET: GOL, MSE; 1.55A {Francisella tularensis subsp. tularensis}
+Probab=38.38  E-value=30  Score=15.13  Aligned_cols=6  Identities=83%  Similarity=1.392  Sum_probs=3.2  Template_Neff=3.900
+
+Q NGERIE            1 NGERIE    6 (6)
+Q Consensus         1 ngerie    6 (6)
+                      ||+|++
+T Consensus        54 nG~Rf~   59 (114)
+T 3OUG_C           54 NGERLE   59 (114)
+T ss_dssp             TCCEEE
+T ss_pred             CCCeEE
+Confidence            466653
+
+
+No 10
+>4CRZ_A ASPARTATE 1-DECARBOXYLASE (E.C.4.1.1.11), PANZ; LYASE, COENZYME A, RADIATION DAMAGE; HET: ACO; 1.7A {ESCHERICHIA COLI K-12}
+Probab=36.15  E-value=34  Score=15.51  Aligned_cols=6  Identities=50%  Similarity=0.972  Sum_probs=3.3  Template_Neff=3.700
+
+Q NGERIE            1 NGERIE    6 (6)
+Q Consensus         1 ngerie    6 (6)
+                      ||+|++
+T Consensus        68 NG~Rf~   73 (143)
+T 4CRZ_A           68 NGKRFS   73 (143)
+T ss_dssp             TCCEEE
+T ss_pred             CCCeEE
+Confidence            566653
+
+
+No 11
+>1PQH_A pyruvoyl dependent decarboxylase, protein self-processing; HET: MLA, CSX; 1.29A {Escherichia coli} SCOP: b.52.2.1
+Probab=35.85  E-value=35  Score=15.53  Aligned_cols=6  Identities=50%  Similarity=0.972  Sum_probs=3.3  Template_Neff=3.600
+
+Q NGERIE            1 NGERIE    6 (6)
+Q Consensus         1 ngerie    6 (6)
+                      ||+|++
+T Consensus        68 NG~Rf~   73 (143)
+T 1PQH_A           68 NGKRFS   73 (143)
+T ss_dssp             TCCEEE
+T ss_pred             CCCeEE
+Confidence            566653
+
+
+No 12
+>5U18_A Putative gentamicin methyltransferase; gentamicin methyltransferase SAH G418, TRANSFERASE; HET: GET, SAH; 2.195A {Micromonospora echinospora}
+Probab=33.03  E-value=41  Score=13.31  Aligned_cols=6  Identities=33%  Similarity=0.706  Sum_probs=3.4  Template_Neff=10.600
+
+Q NGERIE            1 NGERIE    6 (6)
+Q Consensus         1 ngerie    6 (6)
+                      +|.|||
+T Consensus         4 ~G~ri~    9 (321)
+T 5U18_A            4 GGSTIQ    9 (321)
+T ss_dssp             SCCCCC
+T ss_pred             ccEEec
+Confidence            366664
+
+
+No 13
+>1U8V_A Gamma-aminobutyrate metabolism dehydratase/isomerase (E.C.4.2.-.-, 5.3.3.3); alfa-helixes, beta-strands, LYASE, ISOMERASE; HET: FAD, SF4; 1.6A {Clostridium aminobutyricum} SCOP: a.29.3.1, e.6.1.1
+Probab=28.19  E-value=56  Score=14.72  Aligned_cols=6  Identities=67%  Similarity=0.966  Sum_probs=3.6  Template_Neff=8.900
+
+Q NGERIE            1 NGERIE    6 (6)
+Q Consensus         1 ngerie    6 (6)
+                      +||||+
+T Consensus        22 ~Ge~v~   27 (490)
+T 1U8V_A           22 FGEKIE   27 (490)
+T ss_dssp             TTEECS
+T ss_pred             CCEEcc
+Confidence            467764
+
+
+No 14
+>6JHM_A Chlorophenol monooxygenase (E.C.1.14.14.9); flavin monooxygenase, chlorophenol 4-monooxygenase, OXIDOREDUCTASE; 2.3A {Ralstonia pickettii DTP0602}
+Probab=23.19  E-value=80  Score=14.38  Aligned_cols=6  Identities=33%  Similarity=0.767  Sum_probs=3.5  Template_Neff=8.900
+
+Q NGERIE            1 NGERIE    6 (6)
+Q Consensus         1 ngerie    6 (6)
+                      +||||+
+T Consensus        21 ~Ge~v~   26 (517)
+T 6JHM_A           21 GNEKID   26 (517)
+T ss_dssp             TTEECS
+T ss_pred             CCEEcC
+Confidence            466663
+
+
+No 15
+>7E8P_A flavin monooxygenase, chlorophenol 4-monooxygenase, OXIDOREDUCTASE; HET: NPO, FDA; 2.3A {Ralstonia pickettii DTP0602}
+Probab=21.40  E-value=92  Score=14.26  Aligned_cols=6  Identities=33%  Similarity=0.767  Sum_probs=3.5  Template_Neff=8.800
+
+Q NGERIE            1 NGERIE    6 (6)
+Q Consensus         1 ngerie    6 (6)
+                      +||||+
+T Consensus        21 ~Ge~v~   26 (517)
+T 7E8P_A           21 GNEKID   26 (517)
+T ss_dssp             TTEECS
+T ss_pred             CcEEec
+Confidence            466663
+
+

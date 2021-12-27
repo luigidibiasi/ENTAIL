@@ -1,0 +1,148 @@
+Query         ANNNSN
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 15:06:38 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/ANNNSN/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/ANNNSN/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6GYM_1 General transcription a   5.7   6E+02  0.0066   14.5   0.0    5    2-6     637-641 (641)
+  2 5OQJ_1 DNA-directed RNA polyme   5.4 6.5E+02  0.0072   14.3   0.0    5    2-6     637-641 (641)
+  3 2OLV_B Penicillin-binding prot   4.6 7.9E+02  0.0087   12.4   0.0    6    1-6     647-652 (669)
+  4 2A3J_A 1urn.pdb; COMPUTATIONAL   4.4 8.4E+02  0.0093    8.1   0.0    5    1-5     115-119 (127)
+  5 4OGD_A Succinate-semialdehyde    4.4 8.5E+02  0.0094   10.8   0.0    4    3-6     459-462 (465)
+  6 4OHT_A Succinate-semialdehyde    4.4 8.5E+02  0.0094   10.8   0.0    4    3-6     459-462 (465)
+  7 5HLE_A Minus-end kinesin-1/kin   4.2 8.8E+02  0.0098   10.6   0.0    5    2-6     363-367 (371)
+  8 5HNW_K Tubulin alpha-1B chain,   4.2 8.8E+02  0.0098   10.6   0.0    5    2-6     363-367 (371)
+  9 1J3E_A SeqA protein/DNA Comple   4.1   9E+02    0.01   10.5   0.0    5    2-6      84-88  (115)
+ 10 1IU3_F SEQA PROTEIN/DNA Comple   4.1 9.2E+02    0.01   10.5   0.0    5    2-6      85-89  (116)
+
+No 1
+>6GYM_1 General transcription and DNA repair; rna polymerase ii, transcription initiation; HET: ZN; 6.7A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=5.73  E-value=6e+02  Score=14.46  Aligned_cols=5  Identities=100%  Similarity=1.159  Sum_probs=0.0  Template_Neff=3.400
+
+Q ANNNSN            2 NNNSN    6 (6)
+Q Consensus         2 nnnsn    6 (6)
+                      |||||
+T Consensus       637 ~~~~~  641 (641)
+T 6GYM_1          637 NNNSN  641 (641)
+T ss_pred             cCCCC
+
+
+No 2
+>5OQJ_1 DNA-directed RNA polymerase II subunit; transcription initiation, TRANSCRIPTION, macromolecular complex; HET: ZN; 4.7A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=5.36  E-value=6.5e+02  Score=14.30  Aligned_cols=5  Identities=100%  Similarity=1.159  Sum_probs=0.0  Template_Neff=3.500
+
+Q ANNNSN            2 NNNSN    6 (6)
+Q Consensus         2 nnnsn    6 (6)
+                      |||||
+T Consensus       637 ~~~~~  641 (641)
+T 5OQJ_1          637 NNNSN  641 (641)
+T ss_pred             cCCCC
+
+
+No 3
+>2OLV_B Penicillin-binding protein 2 (E.C.2.3.2.-); transpeptidase fold, glycosyltransferase family 51; HET: MSE, M0E; 2.8A {Staphylococcus aureus} SCOP: d.2.1.10, e.3.1.1
+Probab=4.63  E-value=7.9e+02  Score=12.40  Aligned_cols=6  Identities=50%  Similarity=0.695  Sum_probs=0.0  Template_Neff=7.800
+
+Q ANNNSN            1 ANNNSN    6 (6)
+Q Consensus         1 annnsn    6 (6)
+                      ||+|+|
+T Consensus       647 ~~~~~~  652 (669)
+T 2OLV_B          647 AQSNNN  652 (669)
+T ss_dssp             ------
+T ss_pred             cccCCc
+
+
+No 4
+>2A3J_A 1urn.pdb; COMPUTATIONALLY DESIGNED PROTEIN, RRM, U1A; NMR {Homo sapiens}
+Probab=4.39  E-value=8.4e+02  Score=8.14  Aligned_cols=5  Identities=40%  Similarity=0.541  Sum_probs=0.0  Template_Neff=10.900
+
+Q ANNNSN            1 ANNNS    5 (6)
+Q Consensus         1 annns    5 (6)
+                      +|+|+
+T Consensus       115 ~~~~~  119 (127)
+T 2A3J_A          115 AEDGS  119 (127)
+T ss_dssp             HCC--
+T ss_pred             ccccC
+
+
+No 5
+>4OGD_A Succinate-semialdehyde dehydrogenase; SSADH, GabD, Rossmann Fold, Dehydrogenase; 1.6A {Streptococcus pyogenes MGAS1882}
+Probab=4.36  E-value=8.5e+02  Score=10.82  Aligned_cols=4  Identities=100%  Similarity=1.132  Sum_probs=0.0  Template_Neff=9.700
+
+Q ANNNSN            3 NNSN    6 (6)
+Q Consensus         3 nnsn    6 (6)
+                      ||||
+T Consensus       459 ~~~~  462 (465)
+T 4OGD_A          459 NNSN  462 (465)
+T ss_dssp             ----
+T ss_pred             CCCc
+
+
+No 6
+>4OHT_A Succinate-semialdehyde dehydrogenase; SSADH, GabD, OXIDOREDUCTASE, Rossmann Fold; HET: NAP; 2.1A {Streptococcus pyogenes MGAS1882}
+Probab=4.36  E-value=8.5e+02  Score=10.82  Aligned_cols=4  Identities=100%  Similarity=1.132  Sum_probs=0.0  Template_Neff=9.700
+
+Q ANNNSN            3 NNSN    6 (6)
+Q Consensus         3 nnsn    6 (6)
+                      ||||
+T Consensus       459 ~~~~  462 (465)
+T 4OHT_A          459 NNSN  462 (465)
+T ss_dssp             ----
+T ss_pred             CCCc
+
+
+No 7
+>5HLE_A Minus-end kinesin-1/kinesin-14 chimera nKn664; kinesin, kinesin-14, microtubule, ATPase, HYDROLASE; HET: ADP; 2.9A {Drosophila melanogaster}
+Probab=4.22  E-value=8.8e+02  Score=10.62  Aligned_cols=5  Identities=60%  Similarity=0.740  Sum_probs=0.0  Template_Neff=9.200
+
+Q ANNNSN            2 NNNSN    6 (6)
+Q Consensus         2 nnnsn    6 (6)
+                      |||+|
+T Consensus       363 ~~~~~  367 (371)
+T 5HLE_A          363 SNNSG  367 (371)
+T ss_dssp             -----
+T ss_pred             CcCcc
+
+
+No 8
+>5HNW_K Tubulin alpha-1B chain, Tubulin beta-2B; kinesin, kinesin-14, microtubule, ATPase, TRANSPORT; HET: GTP, GDP, TA1, ANP; 6.6A {Bos taurus}
+Probab=4.22  E-value=8.8e+02  Score=10.62  Aligned_cols=5  Identities=60%  Similarity=0.740  Sum_probs=0.0  Template_Neff=9.200
+
+Q ANNNSN            2 NNNSN    6 (6)
+Q Consensus         2 nnnsn    6 (6)
+                      |||+|
+T Consensus       363 ~~~~~  367 (371)
+T 5HNW_K          363 SNNSG  367 (371)
+T ss_dssp             -----
+T ss_pred             CcCcc
+
+
+No 9
+>1J3E_A SeqA protein/DNA Complex; Protein-DNA complex, Recognition of hemimethylated; 2.5A {Escherichia coli} SCOP: d.228.1.1
+Probab=4.15  E-value=9e+02  Score=10.51  Aligned_cols=5  Identities=40%  Similarity=0.667  Sum_probs=0.0  Template_Neff=4.700
+
+Q ANNNSN            2 NNNSN    6 (6)
+Q Consensus         2 nnnsn    6 (6)
+                      |+|++
+T Consensus        84 N~NT~   88 (115)
+T 1J3E_A           84 NTNTG   88 (115)
+T ss_dssp             CSCHH
+T ss_pred             eCCHH
+
+
+No 10
+>1IU3_F SEQA PROTEIN/DNA Complex; Protein-DNA complex, Recognition of hemimethylated; 3.0A {Escherichia coli} SCOP: d.228.1.1
+Probab=4.08  E-value=9.2e+02  Score=10.50  Aligned_cols=5  Identities=40%  Similarity=0.667  Sum_probs=0.0  Template_Neff=4.700
+
+Q ANNNSN            2 NNNSN    6 (6)
+Q Consensus         2 nnnsn    6 (6)
+                      |+|++
+T Consensus        85 N~NT~   89 (116)
+T 1IU3_F           85 NTNTG   89 (116)
+T ss_dssp             CCCHH
+T ss_pred             eCCHH
+
+

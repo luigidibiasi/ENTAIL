@@ -1,0 +1,150 @@
+Query         LINNSV
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 18:30:28 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LINNSV/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LINNSV/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 1L1C_A Transcription antitermi   8.8 3.4E+02  0.0038   10.2   0.0    5    2-6       7-11  (55)
+  2 1R4G_A RNA polymerase alpha su   8.5 3.6E+02   0.004   11.1   0.0    5    1-5      10-14  (53)
+  3 3G75_B DNA gyrase subunit B (E   7.3 4.4E+02  0.0048    9.6   0.0    6    1-6      28-33  (184)
+  4 3ZXO_A REDOX SENSOR HISTIDINE    6.2 5.5E+02  0.0061    7.9   0.0    6    1-6      51-56  (129)
+  5 4H0N_C DNMT2 (E.C.2.1.1.-); SA   5.9 5.7E+02  0.0063   10.6   0.0    6    1-6     314-319 (333)
+  6 6LZI_A DNA mismatch repair pro   5.8 5.9E+02  0.0065   10.4   0.0    6    1-6      23-28  (308)
+  7 6LZJ_A DNA mismatch repair pro   5.8 5.9E+02  0.0065   10.4   0.0    6    1-6      23-28  (308)
+  8 7LSZ_A Heat shock protein HSP    5.6 6.2E+02  0.0069   10.6   0.0    6    1-6      48-53  (293)
+  9 7LT0_A Heat shock protein HSP    5.6 6.2E+02  0.0069   10.6   0.0    6    1-6      48-53  (293)
+ 10 4P8O_A DNA gyrase subunit B ;    5.5 6.3E+02  0.0069    9.3   0.0    6    1-6      30-35  (187)
+
+No 1
+>1L1C_A Transcription antiterminator licT/RNA Complex; protein RNA complex, antiterminator complex; NMR {Bacillus subtilis} SCOP: b.35.2.1
+Probab=8.78  E-value=3.4e+02  Score=10.20  Aligned_cols=5  Identities=80%  Similarity=1.059  Sum_probs=0.0  Template_Neff=5.200
+
+Q LINNSV            2 INNSV    6 (6)
+Q Consensus         2 innsv    6 (6)
+                      +||.+
+T Consensus         7 lNNNv   11 (55)
+T 1L1C_A            7 INNNV   11 (55)
+T ss_dssp             EETTE
+T ss_pred             eeCcE
+
+
+No 2
+>1R4G_A RNA polymerase alpha subunit (E.C.2.7.7.48); three helix-bundle, Viral protein, transferase; NMR {Sendai virus (strain Harris)} SCOP: a.8.5.1
+Probab=8.47  E-value=3.6e+02  Score=11.10  Aligned_cols=5  Identities=40%  Similarity=0.654  Sum_probs=0.0  Template_Neff=1.900
+
+Q LINNSV            1 LINNS    5 (6)
+Q Consensus         1 linns    5 (6)
+                      .||||
+T Consensus        10 vI~nS   14 (53)
+T 1R4G_A           10 VIESS   14 (53)
+T ss_dssp             HHTTS
+T ss_pred             hhhcC
+
+
+No 3
+>3G75_B DNA gyrase subunit B (E.C.5.99.1.3); Antibiotic resistance, Isomerase, Isomerase-Isomerase inhibitor; HET: B48; 2.3A {Staphylococcus aureus}
+Probab=7.31  E-value=4.4e+02  Score=9.61  Aligned_cols=6  Identities=33%  Similarity=0.955  Sum_probs=0.0  Template_Neff=10.600
+
+Q LINNSV            1 LINNSV    6 (6)
+Q Consensus         1 linnsv    6 (6)
+                      |+.|++
+T Consensus        28 lv~Na~   33 (184)
+T 3G75_B           28 IVDNSI   33 (184)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 4
+>3ZXO_A REDOX SENSOR HISTIDINE KINASE RESPONSE; TRANSFERASE; HET: MSE, ACT, OCS; 1.9A {MYCOBACTERIUM TUBERCULOSIS}
+Probab=6.15  E-value=5.5e+02  Score=7.95  Aligned_cols=6  Identities=33%  Similarity=0.617  Sum_probs=0.0  Template_Neff=12.300
+
+Q LINNSV            1 LINNSV    6 (6)
+Q Consensus         1 linnsv    6 (6)
+                      ++.|++
+T Consensus        51 ll~na~   56 (129)
+T 3ZXO_A           51 AVSNAV   56 (129)
+T ss_dssp             HHHHCC
+T ss_pred             HHHHHH
+
+
+No 5
+>4H0N_C DNMT2 (E.C.2.1.1.-); SAH binding, TRANSFERASE; HET: SAH; 2.712A {Spodoptera frugiperda}
+Probab=5.94  E-value=5.7e+02  Score=10.55  Aligned_cols=6  Identities=67%  Similarity=0.922  Sum_probs=0.0  Template_Neff=10.100
+
+Q LINNSV            1 LINNSV    6 (6)
+Q Consensus         1 linnsv    6 (6)
+                      +|-|||
+T Consensus       314 ~iGNaV  319 (333)
+T 4H0N_C          314 LLGNSV  319 (333)
+T ss_dssp             HHHHCC
+T ss_pred             HHccCC
+
+
+No 6
+>6LZI_A DNA mismatch repair protein MutL; DNA repair, ATPase, DNA BINDING; HET: ADP, PEG; 1.69105685009A {Aquifex aeolicus (strain VF5)}
+Probab=5.83  E-value=5.9e+02  Score=10.44  Aligned_cols=6  Identities=50%  Similarity=0.877  Sum_probs=0.0  Template_Neff=10.000
+
+Q LINNSV            1 LINNSV    6 (6)
+Q Consensus         1 linnsv    6 (6)
+                      ||.||+
+T Consensus        23 Li~Nsi   28 (308)
+T 6LZI_A           23 LVENSL   28 (308)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 7
+>6LZJ_A DNA mismatch repair protein MutL; DNA repair, ATPase, DNA BINDING; HET: ACP; 1.72835563454A {Aquifex aeolicus VF5}
+Probab=5.83  E-value=5.9e+02  Score=10.44  Aligned_cols=6  Identities=50%  Similarity=0.877  Sum_probs=0.0  Template_Neff=10.000
+
+Q LINNSV            1 LINNSV    6 (6)
+Q Consensus         1 linnsv    6 (6)
+                      ||.||+
+T Consensus        23 Li~Nsi   28 (308)
+T 6LZJ_A           23 LVENSL   28 (308)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 8
+>7LSZ_A Heat shock protein HSP 90-alpha; inhibitor, Hsp90a, chaperone; HET: ONG; 1.7A {Homo sapiens}
+Probab=5.57  E-value=6.2e+02  Score=10.61  Aligned_cols=6  Identities=67%  Similarity=0.772  Sum_probs=0.0  Template_Neff=9.300
+
+Q LINNSV            1 LINNSV    6 (6)
+Q Consensus         1 linnsv    6 (6)
+                      ||.|++
+T Consensus        48 LI~Na~   53 (293)
+T 7LSZ_A           48 LISNSS   53 (293)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 9
+>7LT0_A Heat shock protein HSP 90-alpha; inhibitor, Hsp90, chaperone; HET: ONJ; 1.697A {Homo sapiens}
+Probab=5.57  E-value=6.2e+02  Score=10.61  Aligned_cols=6  Identities=67%  Similarity=0.772  Sum_probs=0.0  Template_Neff=9.300
+
+Q LINNSV            1 LINNSV    6 (6)
+Q Consensus         1 linnsv    6 (6)
+                      ||.|++
+T Consensus        48 LI~Na~   53 (293)
+T 7LT0_A           48 LISNSS   53 (293)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 10
+>4P8O_A DNA gyrase subunit B ; antibacterial, gram-positive, gyrase, topoisomerase, Staphylococcus; HET: 883; 2.4A {Staphylococcus aureus}
+Probab=5.55  E-value=6.3e+02  Score=9.29  Aligned_cols=6  Identities=33%  Similarity=0.955  Sum_probs=0.0  Template_Neff=10.500
+
+Q LINNSV            1 LINNSV    6 (6)
+Q Consensus         1 linnsv    6 (6)
+                      |+.|++
+T Consensus        30 lv~Na~   35 (187)
+T 4P8O_A           30 IVDNSI   35 (187)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+

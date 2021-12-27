@@ -1,0 +1,150 @@
+Query         REPTKV
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 11:59:11 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/REPTKV/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/REPTKV/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6KAC_T Photosystem II protein   47.4      17 0.00019   13.3   0.0    6    1-6      24-29  (31)
+  2 4RVY_T Photosystem II protein   46.8      18  0.0002   13.2   0.0    6    1-6      24-29  (30)
+  3 6WJ6_T Photosystem II; Photosy  46.1      19 0.00021   13.2   0.0    6    1-6      24-29  (31)
+  4 4YUU_t1 Photosystem Q(B) prote  45.9      19 0.00021   13.3   0.0    6    1-6      24-29  (32)
+  5 5B66_T Photosystem II protein   44.9      20 0.00022   13.2   0.0    6    1-6      24-29  (32)
+  6 5V2C_t Photosystem II protein   44.9      20 0.00022   13.2   0.0    6    1-6      24-29  (32)
+  7 6YP7_T Chlorophyll a-b binding  44.1      21 0.00023   13.2   0.0    6    1-6      24-29  (32)
+  8 7E34_C Cyclin-dependent kinase  15.7 1.5E+02  0.0017   11.7   0.0    6    1-6      16-21  (46)
+  9 1VK3_A Phosphoribosylformylgly   8.7 3.4E+02  0.0038   13.1   0.0    6    1-6      27-32  (615)
+ 10 3VIU_A Phosphoribosylformylgly   8.1 3.8E+02  0.0042   13.0   0.0    6    1-6      24-29  (725)
+
+No 1
+>6KAC_T Photosystem II protein D1 (E.C.1.10.3.9); PhotosystemII, supercomplex, PHOTOSYNTHESIS; HET: SQD, DGD, LMU, HEM, LMG, LUT, PL9, OEX, CHL, XAT, LHG, NEX, BCR, PHO, CLA; 2.7A {Chlamydomonas reinhardtii}
+Probab=47.36  E-value=17  Score=13.30  Aligned_cols=6  Identities=33%  Similarity=1.077  Sum_probs=4.1  Template_Neff=2.900
+
+Q REPTKV            1 REPTKV    6 (6)
+Q Consensus         1 reptkv    6 (6)
+                      |||.|+
+T Consensus        24 RepPki   29 (31)
+T 6KAC_T           24 RDPPRM   29 (31)
+T ss_pred             cCCCCC
+Confidence            677764
+
+
+No 2
+>4RVY_T Photosystem II protein D1 1; Photosystem II, Time resolved, Free; HET: DGD, LMG, SQD, HEM, PL9, LHG, PHO, BCR, CLA, OEX; 5.5A {Thermosynechococcus elongatus}
+Probab=46.82  E-value=18  Score=13.22  Aligned_cols=6  Identities=50%  Similarity=1.209  Sum_probs=4.1  Template_Neff=2.800
+
+Q REPTKV            1 REPTKV    6 (6)
+Q Consensus         1 reptkv    6 (6)
+                      |||.|+
+T Consensus        24 RepPki   29 (30)
+T 4RVY_T           24 REPPRI   29 (30)
+T ss_pred             cCCCCC
+Confidence            677764
+
+
+No 3
+>6WJ6_T Photosystem II; Photosystem, oxidoreductase, water-splitting, photoactivation, PHOTOSYNTHESIS; HET: LHG, CLA, FME, BCR, PL9, LMG, PHO, LMT, HEM, SQD, DGD; 2.58A {Synechocystis sp. (strain PCC 6803 / Kazusa)}
+Probab=46.11  E-value=19  Score=13.25  Aligned_cols=6  Identities=50%  Similarity=1.209  Sum_probs=4.1  Template_Neff=2.800
+
+Q REPTKV            1 REPTKV    6 (6)
+Q Consensus         1 reptkv    6 (6)
+                      |||.|+
+T Consensus        24 RepPki   29 (31)
+T 6WJ6_T           24 REPPRI   29 (31)
+T ss_pred             cCCCCC
+Confidence            677764
+
+
+No 4
+>4YUU_t1 Photosystem Q(B) protein (E.C.1.10.3.9), Photosystem; TRANSMEMBRANE ALPHA-HELIX, ELECTRON TRANSPORT, PHOTOSYNTHESIS; HET: DGD, LMT, SQD, UNL, HEM, LMG, PL9, OEX, GOL, LHG, BCR, BCT, PHO, CLA; 2.77000368116A {Cyanidium caldarium}
+Probab=45.88  E-value=19  Score=13.27  Aligned_cols=6  Identities=33%  Similarity=1.160  Sum_probs=3.9  Template_Neff=2.900
+
+Q REPTKV            1 REPTKV    6 (6)
+Q Consensus         1 reptkv    6 (6)
+                      |||.|+
+T Consensus        24 RepPki   29 (32)
+T 4YUU_t1          24 RDPPRI   29 (32)
+T ss_pred             cCCCCC
+Confidence            677664
+
+
+No 5
+>5B66_T Photosystem II protein D1 (E.C.1.10.3.9); psii, photosystem, oxygen evolving, water; HET: UNL, BCR, PL9, OEX, SQD, HTG, LHG, LMT, HEC, FME, HEM, DGD, PHO, RRX, CLA, LMG, DMS; 1.85A {Thermosynechococcus vulcanus}
+Probab=44.92  E-value=20  Score=13.17  Aligned_cols=6  Identities=50%  Similarity=1.209  Sum_probs=3.9  Template_Neff=3.000
+
+Q REPTKV            1 REPTKV    6 (6)
+Q Consensus         1 reptkv    6 (6)
+                      |||.|+
+T Consensus        24 RepPki   29 (32)
+T 5B66_T           24 REPPRI   29 (32)
+T ss_pred             cCCCCC
+Confidence            677664
+
+
+No 6
+>5V2C_t Photosystem II protein D1 (E.C.1.10.3.9); ELECTRON TRANSPORT, PHOTOSYNTHESIS; HET: FME, HTG, HEC, EDO, PL9, HEM, PE8, CLA, PHO, PG4, P6G, GOL, OEX, LMT, PGE, 2PE, SQD, BCR, LMG, MHS, DGD, 1PE, BCT, LHG; 1.9A {Thermosynechococcus vulcanus}
+Probab=44.92  E-value=20  Score=13.17  Aligned_cols=6  Identities=50%  Similarity=1.209  Sum_probs=3.9  Template_Neff=3.000
+
+Q REPTKV            1 REPTKV    6 (6)
+Q Consensus         1 reptkv    6 (6)
+                      |||.|+
+T Consensus        24 RepPki   29 (32)
+T 5V2C_t           24 REPPRI   29 (32)
+T ss_pred             cCCCCC
+Confidence            677664
+
+
+No 7
+>6YP7_T Chlorophyll a-b binding protein 8; Cryo-EM, photosystem II, High Light; HET: PL9, LHG, BCR, NEX, HEM, OEX, CLA, PHO, DGD, XAT, SQD, LUT, LMG, CHL;{Pisum sativum}
+Probab=44.13  E-value=21  Score=13.16  Aligned_cols=6  Identities=83%  Similarity=1.254  Sum_probs=3.8  Template_Neff=2.900
+
+Q REPTKV            1 REPTKV    6 (6)
+Q Consensus         1 reptkv    6 (6)
+                      |||.|+
+T Consensus        24 RepPki   29 (32)
+T 6YP7_T           24 REPPKV   29 (32)
+T ss_dssp             CCCCCC
+T ss_pred             cCCCCC
+Confidence            677664
+
+
+No 8
+>7E34_C Cyclin-dependent kinase 2 (E.C.2.7.11.22), Speedy; Telomere, Meiosis, Kinase, CELL CYCLE; 3.19A {Homo sapiens}
+Probab=15.73  E-value=1.5e+02  Score=11.69  Aligned_cols=6  Identities=67%  Similarity=0.783  Sum_probs=2.8  Template_Neff=2.800
+
+Q REPTKV            1 REPTKV    6 (6)
+Q Consensus         1 reptkv    6 (6)
+                      ||.|+|
+T Consensus        16 rEqT~V   21 (46)
+T 7E34_C           16 REQTTV   21 (46)
+T ss_pred             hccccc
+Confidence            344543
+
+
+No 9
+>1VK3_A Phosphoribosylformylglycinamidine synthase II (E.C.6.3.5.3); TM1246, PHOSPHORIBOSYLFORMYLGLYCINAMIDINE SYNTHASE II, STRUCTURAL; 2.15A {Thermotoga maritima} SCOP: d.79.4.1, d.139.1.1
+Probab=8.74  E-value=3.4e+02  Score=13.07  Aligned_cols=6  Identities=83%  Similarity=1.027  Sum_probs=0.0  Template_Neff=8.400
+
+Q REPTKV            1 REPTKV    6 (6)
+Q Consensus         1 reptkv    6 (6)
+                      |+||.+
+T Consensus        27 r~pt~~   32 (615)
+T 1VK3_A           27 REPTFV   32 (615)
+T ss_dssp             SCCCHH
+T ss_pred             CCCCHH
+
+
+No 10
+>3VIU_A Phosphoribosylformylglycinamidine synthase 2 (E.C.6.3.5.3); Structural Genomics, RIKEN Structural Genomics/Proteomics; HET: ADP; 2.35A {Thermus thermophilus}
+Probab=8.13  E-value=3.8e+02  Score=12.99  Aligned_cols=6  Identities=67%  Similarity=1.248  Sum_probs=0.0  Template_Neff=8.900
+
+Q REPTKV            1 REPTKV    6 (6)
+Q Consensus         1 reptkv    6 (6)
+                      |+||.+
+T Consensus        24 r~p~~~   29 (725)
+T 3VIU_A           24 REPNRV   29 (725)
+T ss_pred             CCCcHH
+
+

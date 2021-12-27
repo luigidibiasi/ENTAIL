@@ -1,0 +1,152 @@
+Query         GIKLAN
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 01:21:49 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GIKLAN/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GIKLAN/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5D1F_A Pyruvate, phosphate dik  14.0 1.8E+02   0.002   15.2   0.0    6    1-6     297-302 (413)
+  2 5D0N_A Pyruvate, phosphate dik  13.5 1.9E+02  0.0021   15.1   0.0    6    1-6     297-302 (413)
+  3 2I52_F Structure of hypothetic  10.5 2.7E+02  0.0029   12.5   0.0    5    1-5      23-27  (121)
+  4 2IEC_B Uncharacterized protein  10.1 2.8E+02  0.0031   12.6   0.0    5    1-5      20-24  (131)
+  5 2IEC_D Uncharacterized protein  10.1 2.8E+02  0.0031   12.6   0.0    5    1-5      20-24  (131)
+  6 6OSW_A Forkhead box M1; transc   9.8 2.9E+02  0.0033   12.4   0.0    6    1-6      32-37  (94)
+  7 6N2N_D Pyruvate flavodoxin/fer   9.5 3.1E+02  0.0034   12.1   0.0    6    1-6      86-91  (292)
+  8 6N2O_B Pyruvate flavodoxin/fer   9.5 3.1E+02  0.0034   12.1   0.0    6    1-6      86-91  (292)
+  9 4B1W_M ACTIN, ALPHA SKELETAL M   9.4 3.1E+02  0.0034    9.7   0.0    6    1-6       9-14  (32)
+ 10 5B46_B 2-oxoacid--ferredoxin o   9.4 3.1E+02  0.0034   12.1   0.0    6    1-6      74-79  (304)
+
+No 1
+>5D1F_A Pyruvate, phosphate dikinase regulatory protein; PDRP, reversible phosphorylation, C4 photosynthesis; HET: AMP; 3.4A {Zea mays}
+Probab=13.96  E-value=1.8e+02  Score=15.17  Aligned_cols=6  Identities=67%  Similarity=0.949  Sum_probs=3.3  Template_Neff=4.100
+
+Q GIKLAN            1 GIKLAN    6 (6)
+Q Consensus         1 giklan    6 (6)
+                      |+|.||
+T Consensus       297 GyKVAN  302 (413)
+T 5D1F_A          297 GYKVAN  302 (413)
+T ss_dssp             TCCEEE
+T ss_pred             CCcccc
+Confidence            455555
+
+
+No 2
+>5D0N_A Pyruvate, phosphate dikinase regulatory protein; PDRP, reversible phosphorylation, C4 photosynthesis; HET: AMP; 3.2A {Zea mays}
+Probab=13.55  E-value=1.9e+02  Score=15.07  Aligned_cols=6  Identities=67%  Similarity=0.949  Sum_probs=3.2  Template_Neff=4.200
+
+Q GIKLAN            1 GIKLAN    6 (6)
+Q Consensus         1 giklan    6 (6)
+                      |+|.||
+T Consensus       297 G~KVAN  302 (413)
+T 5D0N_A          297 GYKVAN  302 (413)
+T ss_dssp             TCCEEE
+T ss_pred             CCcccc
+Confidence            455555
+
+
+No 3
+>2I52_F Structure of hypothetical protein PTO0218; structural genomics, UNKNOWN FUNCTION, PSI; HET: GOL, CA; 2.08A {Picrophilus torridus} SCOP: d.316.1.1
+Probab=10.54  E-value=2.7e+02  Score=12.48  Aligned_cols=5  Identities=80%  Similarity=1.218  Sum_probs=0.0  Template_Neff=3.800
+
+Q GIKLAN            1 GIKLA    5 (6)
+Q Consensus         1 gikla    5 (6)
+                      ||||.
+T Consensus        23 GIKlG   27 (121)
+T 2I52_F           23 GIKLG   27 (121)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 4
+>2IEC_B Uncharacterized protein conserved in archaea; tetramer with intra-molecular and inter-molecular; 2.33A {Methanopyrus kandleri} SCOP: d.316.1.1
+Probab=10.08  E-value=2.8e+02  Score=12.57  Aligned_cols=5  Identities=60%  Similarity=1.012  Sum_probs=0.0  Template_Neff=3.700
+
+Q GIKLAN            1 GIKLA    5 (6)
+Q Consensus         1 gikla    5 (6)
+                      ||||.
+T Consensus        20 GIKlG   24 (131)
+T 2IEC_B           20 GITLG   24 (131)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 5
+>2IEC_D Uncharacterized protein conserved in archaea; tetramer with intra-molecular and inter-molecular; 2.33A {Methanopyrus kandleri} SCOP: d.316.1.1
+Probab=10.05  E-value=2.8e+02  Score=12.57  Aligned_cols=5  Identities=60%  Similarity=1.012  Sum_probs=0.0  Template_Neff=3.700
+
+Q GIKLAN            1 GIKLA    5 (6)
+Q Consensus         1 gikla    5 (6)
+                      ||||.
+T Consensus        20 GIKlG   24 (131)
+T 2IEC_D           20 GITLG   24 (131)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 6
+>6OSW_A Forkhead box M1; transcription factor, Cell cycle, negative; NMR {Danio rerio}
+Probab=9.80  E-value=2.9e+02  Score=12.40  Aligned_cols=6  Identities=33%  Similarity=0.922  Sum_probs=0.0  Template_Neff=1.800
+
+Q GIKLAN            1 GIKLAN    6 (6)
+Q Consensus         1 giklan    6 (6)
+                      |||+.|
+T Consensus        32 gikiin   37 (94)
+T 6OSW_A           32 GIRVMD   37 (94)
+T ss_dssp             CCEEEE
+T ss_pred             CcEEec
+
+
+No 7
+>6N2N_D Pyruvate flavodoxin/ferredoxin oxidoreductase domain protein; thiamine pyrophosphate, [4Fe-4S] cluster, carbon; HET: TPP, SF4, SO4; 1.937A {Magnetococcus marinus (strain ATCC BAA-1437 / JCM 17883 / MC-1)}
+Probab=9.46  E-value=3.1e+02  Score=12.12  Aligned_cols=6  Identities=33%  Similarity=0.667  Sum_probs=0.0  Template_Neff=7.900
+
+Q GIKLAN            1 GIKLAN    6 (6)
+Q Consensus         1 giklan    6 (6)
+                      |+++||
+T Consensus        86 G~ala~   91 (292)
+T 6N2N_D           86 GTQVAR   91 (292)
+T ss_dssp             HHHHHC
+T ss_pred             HHHHhC
+
+
+No 8
+>6N2O_B Pyruvate flavodoxin/ferredoxin oxidoreductase domain protein; thiamine pyrophosphate, [4Fe-4S] cluster, carbon; HET: SCA, COA, TPP, SF4, AKG; 2.824A {Magnetococcus marinus (strain ATCC BAA-1437 / JCM 17883 / MC-1)}
+Probab=9.46  E-value=3.1e+02  Score=12.12  Aligned_cols=6  Identities=33%  Similarity=0.667  Sum_probs=0.0  Template_Neff=7.900
+
+Q GIKLAN            1 GIKLAN    6 (6)
+Q Consensus         1 giklan    6 (6)
+                      |+++||
+T Consensus        86 G~ala~   91 (292)
+T 6N2O_B           86 GTQVAR   91 (292)
+T ss_dssp             HHHHHC
+T ss_pred             HHHHhC
+
+
+No 9
+>4B1W_M ACTIN, ALPHA SKELETAL MUSCLE, PHOSPHATASE; STRUCTURAL PROTEIN, NUCLEOTIDE-BINDING, TRANSCRIPTION REGULATION; HET: ATP, LAB; 1.95A {ORYCTOLAGUS CUNICULUS}
+Probab=9.45  E-value=3.1e+02  Score=9.74  Aligned_cols=6  Identities=67%  Similarity=0.922  Sum_probs=0.0  Template_Neff=4.100
+
+Q GIKLAN            1 GIKLAN    6 (6)
+Q Consensus         1 giklan    6 (6)
+                      .|||.|
+T Consensus         9 AlKL~~   14 (32)
+T 4B1W_M            9 AIKLSN   14 (32)
+T ss_dssp             HHHHHT
+T ss_pred             HHHccC
+
+
+No 10
+>5B46_B 2-oxoacid--ferredoxin oxidoreductase alpha subunit (E.C.1.2.7.-); oxidoreductase, thiamin pyrophosphate, iron-sulfur cluster; HET: TPP; 2.1A {Sulfolobus tokodaii str. 7}
+Probab=9.41  E-value=3.1e+02  Score=12.13  Aligned_cols=6  Identities=83%  Similarity=1.259  Sum_probs=0.0  Template_Neff=8.000
+
+Q GIKLAN            1 GIKLAN    6 (6)
+Q Consensus         1 giklan    6 (6)
+                      |+++|+
+T Consensus        74 G~~la~   79 (304)
+T 5B46_B           74 GIKLSN   79 (304)
+T ss_dssp             HHHHHC
+T ss_pred             HHHHhC
+
+

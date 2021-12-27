@@ -1,0 +1,474 @@
+Query         ECFFFE
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 18:29:21 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/ECFFFE/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/ECFFFE/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4OW4_B Beta-terfoil designed b  62.1     6.8 7.5E-05   14.7   0.0    6    1-6     115-120 (123)
+  2 1SO9_A Cytochrome C oxidase as  56.9     9.6 0.00011   16.9   0.0    6    1-6      99-104 (164)
+  3 3O4C_A de novo designed beta-t  51.4      14 0.00015   14.0   0.0    6    1-6     130-135 (142)
+  4 5ZXE_A Consensus sequence base  47.4      17 0.00019   14.1   0.0    6    1-6      74-79  (130)
+  5 6M6F_A Fibroblast growth facto  40.4      26 0.00029   13.9   0.0    6    1-6      80-85  (129)
+  6 3HBW_B Fibroblast growth facto  36.3      34 0.00037   15.2   0.0    6    1-6      88-93  (193)
+  7 1QQK_B FIBROBLAST GROWTH FACTO  35.3      36 0.00039   13.6   0.0    6    1-6      82-87  (140)
+  8 1Q1U_A fibroblast growth facto  35.1      36  0.0004   13.9   0.0    6    1-6      82-87  (144)
+  9 4OEE_A Fibroblast growth facto  34.3      38 0.00042   14.0   0.0    6    1-6     100-105 (155)
+ 10 6L4O_B Apoptosis inhibitor 5,   32.4      43 0.00047   14.3   0.0    6    1-6     121-126 (176)
+ 11 2M49_C Fibroblast growth facto  31.9      44 0.00049   13.0   0.0    6    1-6      73-78  (126)
+ 12 4CJM_A FIBROBLAST GROWTH FACTO  31.4      46  0.0005   13.4   0.0    6    1-6      77-82  (141)
+ 13 4CJM_C FIBROBLAST GROWTH FACTO  31.4      46  0.0005   13.4   0.0    6    1-6      77-82  (141)
+ 14 1EV2_B IMMUNOGLOBULIN (IG)LIKE  31.3      46 0.00051   13.2   0.0    6    1-6      77-82  (132)
+ 15 1NUN_A Fibroblast growth facto  30.9      47 0.00052   13.5   0.0    6    1-6      86-91  (145)
+ 16 1PWA_A Fibroblast growth facto  30.6      48 0.00053   14.1   0.0    6    1-6      85-90  (162)
+ 17 1QQL_A FIBROBLAST GROWTH FACTO  30.5      48 0.00053   13.3   0.0    6    1-6      82-87  (140)
+ 18 2P23_B Fibroblast growth facto  30.0      50 0.00055   14.5   0.0    6    1-6      97-102 (194)
+ 19 3HAL_A Fibroblast growth facto  29.8      51 0.00056   13.7   0.0    6    1-6      88-93  (146)
+ 20 2P39_A Fibroblast growth facto  27.9      57 0.00063   13.6   0.0    6    1-6      88-93  (155)
+ 21 3BA4_A beta-trefoil, Acetylati  27.7      58 0.00064   13.3   0.0    6    1-6      88-93  (146)
+ 22 1G82_B FIBROBLAST GROWTH FACTO  27.6      59 0.00065   13.6   0.0    6    1-6      85-90  (160)
+ 23 4DCK_C Sodium channel protein   26.1      65 0.00072   14.2   0.0    6    1-6      87-92  (192)
+ 24 2FDB_M fibroblast growth facto  25.9      66 0.00073   13.5   0.0    6    1-6     104-109 (164)
+ 25 1BLD_A GROWTH FACTOR; NMR {Hom  25.0      70 0.00078   13.3   0.0    6    1-6     100-105 (155)
+ 26 4QBV_B Fibroblast growth facto  23.6      78 0.00086   13.0   0.0    6    1-6      88-93  (146)
+ 27 6KTR_C G1A8-Fab-HC, G1A8-Fab-L  22.5      84 0.00093   14.3   0.0    6    1-6      97-102 (218)
+ 28 5W59_A Fibroblast growth facto  21.9      88 0.00097   13.4   0.0    6    1-6     100-105 (175)
+ 29 4JQ0_A Fibroblast growth facto  21.0      94   0.001   14.5   0.0    6    1-6     144-149 (243)
+ 30 5W21_B Klotho (E.C.3.2.1.31),   20.9      95  0.0011   14.2   0.0    6    1-6     134-139 (226)
+ 31 3F1R_A Fibroblast growth facto  20.4      99  0.0011   14.0   0.0    6    1-6     136-141 (211)
+
+No 1
+>4OW4_B Beta-terfoil designed by folding nucleus; Beta-trefoil, folding nucleus symmetric expansion; 2.148A {synthetic construct}
+Probab=62.11  E-value=6.8  Score=14.73  Aligned_cols=6  Identities=0%  Similarity=0.141  Sum_probs=3.9  Template_Neff=8.400
+
+Q ECFFFE            1 ECFFFE    6 (6)
+Q Consensus         1 ecfffe    6 (6)
+                      ||.|||
+T Consensus       115 ~c~~~e  120 (123)
+T 4OW4_B          115 QHIQLQ  120 (123)
+T ss_dssp             TTCCEE
+T ss_pred             CceEEE
+Confidence            577765
+
+
+No 2
+>1SO9_A Cytochrome C oxidase assembly protein; immunoglobulin-like fold, copper protein, cytochrome; NMR {Sinorhizobium meliloti} SCOP: b.146.1.1
+Probab=56.93  E-value=9.6  Score=16.86  Aligned_cols=6  Identities=50%  Similarity=1.458  Sum_probs=3.9  Template_Neff=5.000
+
+Q ECFFFE            1 ECFFFE    6 (6)
+Q Consensus         1 ecfffe    6 (6)
+                      |||-|+
+T Consensus        99 qCFCF~  104 (164)
+T 1SO9_A           99 QCFCFT  104 (164)
+T ss_dssp             CCSSCS
+T ss_pred             EEEEcc
+Confidence            577664
+
+
+No 3
+>3O4C_A de novo designed beta-trefoil architecture; beta-trefoil, DE NOVO PROTEIN; HET: SO4; 1.75A {synthetic construct}
+Probab=51.42  E-value=14  Score=14.00  Aligned_cols=6  Identities=17%  Similarity=0.219  Sum_probs=3.3  Template_Neff=8.800
+
+Q ECFFFE            1 ECFFFE    6 (6)
+Q Consensus         1 ecfffe    6 (6)
+                      |||++|
+T Consensus       130 ~~~~~e  135 (142)
+T 3O4C_A          130 VHIQFQ  135 (142)
+T ss_dssp             GGGCEE
+T ss_pred             CcEEEE
+Confidence            466654
+
+
+No 4
+>5ZXE_A Consensus sequence based basic form; FGF, basic form, CELL CYCLE; HET: GOL; 1.3A {Homo sapiens}
+Probab=47.39  E-value=17  Score=14.11  Aligned_cols=6  Identities=67%  Similarity=1.060  Sum_probs=3.2  Template_Neff=7.800
+
+Q ECFFFE            1 ECFFFE    6 (6)
+Q Consensus         1 ecfffe    6 (6)
+                      ||.|.|
+T Consensus        74 ~C~F~E   79 (130)
+T 5ZXE_A           74 ECKFKE   79 (130)
+T ss_dssp             GGCEEE
+T ss_pred             CceEEE
+Confidence            466644
+
+
+No 5
+>6M6F_A Fibroblast growth factor 21; Disulfide bond mutaion, beta-trefoil conformation; NMR {Homo sapiens}
+Probab=40.40  E-value=26  Score=13.88  Aligned_cols=6  Identities=50%  Similarity=0.894  Sum_probs=3.3  Template_Neff=7.300
+
+Q ECFFFE            1 ECFFFE    6 (6)
+Q Consensus         1 ecfffe    6 (6)
+                      +|.|.|
+T Consensus        80 ~C~F~E   85 (129)
+T 6M6F_A           80 ACSFRE   85 (129)
+T ss_dssp             HHCEEE
+T ss_pred             cceEEE
+Confidence            466654
+
+
+No 6
+>3HBW_B Fibroblast growth factor 13; beta-trefoil fold, Alternative splicing, Growth; 1.9A {Homo sapiens}
+Probab=36.30  E-value=34  Score=15.19  Aligned_cols=6  Identities=67%  Similarity=1.060  Sum_probs=3.6  Template_Neff=5.800
+
+Q ECFFFE            1 ECFFFE    6 (6)
+Q Consensus         1 ecfffe    6 (6)
+                      ||.|-|
+T Consensus        88 eC~F~E   93 (193)
+T 3HBW_B           88 ECKFKE   93 (193)
+T ss_dssp             GGEEEE
+T ss_pred             cceEEE
+Confidence            566654
+
+
+No 7
+>1QQK_B FIBROBLAST GROWTH FACTOR 7; BETA-TREFOIL, HORMONE-GROWTH FACTOR COMPLEX; 3.1A {Rattus norvegicus} SCOP: b.42.1.1
+Probab=35.33  E-value=36  Score=13.63  Aligned_cols=6  Identities=50%  Similarity=1.021  Sum_probs=3.1  Template_Neff=7.400
+
+Q ECFFFE            1 ECFFFE    6 (6)
+Q Consensus         1 ecfffe    6 (6)
+                      +|.|.|
+T Consensus        82 ~C~F~E   87 (140)
+T 1QQK_B           82 DCNFKE   87 (140)
+T ss_dssp             GGCEEE
+T ss_pred             CceEEE
+Confidence            465543
+
+
+No 8
+>1Q1U_A fibroblast growth factor homologous factor; FGF-12  Human  crystal; HET: SO4; 1.7A {Homo sapiens} SCOP: b.42.1.1
+Probab=35.05  E-value=36  Score=13.88  Aligned_cols=6  Identities=67%  Similarity=1.060  Sum_probs=3.1  Template_Neff=7.000
+
+Q ECFFFE            1 ECFFFE    6 (6)
+Q Consensus         1 ecfffe    6 (6)
+                      ||.|.|
+T Consensus        82 ~C~F~E   87 (144)
+T 1Q1U_A           82 ECKFKE   87 (144)
+T ss_dssp             GGCEEE
+T ss_pred             CceeEE
+Confidence            466543
+
+
+No 9
+>4OEE_A Fibroblast growth factor 2; Heparin/Heparin Sulfate Binding, PROTEIN BINDING; HET: GNX, IDY; 1.5A {Homo sapiens}
+Probab=34.33  E-value=38  Score=14.03  Aligned_cols=6  Identities=100%  Similarity=2.200  Sum_probs=3.2  Template_Neff=6.900
+
+Q ECFFFE            1 ECFFFE    6 (6)
+Q Consensus         1 ecfffe    6 (6)
+                      +|.|.|
+T Consensus       100 dC~F~E  105 (155)
+T 4OEE_A          100 ECFFFE  105 (155)
+T ss_dssp             GGCEEE
+T ss_pred             CceEEE
+Confidence            466644
+
+
+No 10
+>6L4O_B Apoptosis inhibitor 5, Fibroblast growth; API5, FGF2, complex, STRUCTURAL PROTEIN; 2.6A {Homo sapiens}
+Probab=32.43  E-value=43  Score=14.34  Aligned_cols=6  Identities=100%  Similarity=2.200  Sum_probs=3.3  Template_Neff=6.500
+
+Q ECFFFE            1 ECFFFE    6 (6)
+Q Consensus         1 ecfffe    6 (6)
+                      +|.|.|
+T Consensus       121 ~C~F~E  126 (176)
+T 6L4O_B          121 ECFFFE  126 (176)
+T ss_dssp             GGCEEE
+T ss_pred             CceEEE
+Confidence            466654
+
+
+No 11
+>2M49_C Fibroblast growth factor 2, Protein; S100B, FGF2, CYTOKINE-METAL BINDING PROTEIN; NMR {Homo sapiens}
+Probab=31.86  E-value=44  Score=13.00  Aligned_cols=6  Identities=100%  Similarity=2.200  Sum_probs=2.8  Template_Neff=7.700
+
+Q ECFFFE            1 ECFFFE    6 (6)
+Q Consensus         1 ecfffe    6 (6)
+                      +|.|.|
+T Consensus        73 ~C~F~E   78 (126)
+T 2M49_C           73 ECFFFE   78 (126)
+T ss_pred             CceEEE
+Confidence            355543
+
+
+No 12
+>4CJM_A FIBROBLAST GROWTH FACTOR 18; SIGNALING PROTEIN, SIGNALLING; HET: SO4; 2.7A {HOMO SAPIENS}
+Probab=31.41  E-value=46  Score=13.41  Aligned_cols=6  Identities=67%  Similarity=1.486  Sum_probs=3.0  Template_Neff=7.300
+
+Q ECFFFE            1 ECFFFE    6 (6)
+Q Consensus         1 ecfffe    6 (6)
+                      +|.|.|
+T Consensus        77 ~C~F~E   82 (141)
+T 4CJM_A           77 ECVFIE   82 (141)
+T ss_dssp             GGCEEE
+T ss_pred             ceeEEE
+Confidence            455543
+
+
+No 13
+>4CJM_C FIBROBLAST GROWTH FACTOR 18; SIGNALING PROTEIN, SIGNALLING; HET: SO4; 2.7A {HOMO SAPIENS}
+Probab=31.41  E-value=46  Score=13.41  Aligned_cols=6  Identities=67%  Similarity=1.486  Sum_probs=3.0  Template_Neff=7.300
+
+Q ECFFFE            1 ECFFFE    6 (6)
+Q Consensus         1 ecfffe    6 (6)
+                      +|.|.|
+T Consensus        77 ~C~F~E   82 (141)
+T 4CJM_C           77 ECVFIE   82 (141)
+T ss_dssp             GGCEEE
+T ss_pred             ceeEEE
+Confidence            455543
+
+
+No 14
+>1EV2_B IMMUNOGLOBULIN (IG)LIKE DOMAINS BELONGING TO; HET: SO4; 2.2A {Homo sapiens} SCOP: b.42.1.1
+Probab=31.34  E-value=46  Score=13.16  Aligned_cols=6  Identities=100%  Similarity=2.200  Sum_probs=2.9  Template_Neff=7.500
+
+Q ECFFFE            1 ECFFFE    6 (6)
+Q Consensus         1 ecfffe    6 (6)
+                      +|.|.|
+T Consensus        77 ~C~F~E   82 (132)
+T 1EV2_B           77 ECFFFE   82 (132)
+T ss_dssp             TSCEEE
+T ss_pred             cceEEE
+Confidence            455543
+
+
+No 15
+>1NUN_A Fibroblast growth factor-10, fibroblast growth; BETA-TREFOIL FOLD, IMMUNOGLOBULIN-LIKE DOMAIN, HORMONE-GROWTH; HET: 15P, SO4; 2.9A {Homo sapiens} SCOP: b.42.1.1
+Probab=30.88  E-value=47  Score=13.47  Aligned_cols=6  Identities=33%  Similarity=0.733  Sum_probs=2.9  Template_Neff=7.200
+
+Q ECFFFE            1 ECFFFE    6 (6)
+Q Consensus         1 ecfffe    6 (6)
+                      +|.|.|
+T Consensus        86 ~C~F~E   91 (145)
+T 1NUN_A           86 DCKLKE   91 (145)
+T ss_dssp             TSEEEE
+T ss_pred             CceEEE
+Confidence            455543
+
+
+No 16
+>1PWA_A Fibroblast growth factor-19; BETA TREFOIL, DISULPHIDE BONDS, HORMONE-GROWTH; 1.3A {Homo sapiens} SCOP: b.42.1.1
+Probab=30.64  E-value=48  Score=14.08  Aligned_cols=6  Identities=50%  Similarity=1.032  Sum_probs=3.3  Template_Neff=6.400
+
+Q ECFFFE            1 ECFFFE    6 (6)
+Q Consensus         1 ecfffe    6 (6)
+                      +|.|.|
+T Consensus        85 dC~F~E   90 (162)
+T 1PWA_A           85 DCAFEE   90 (162)
+T ss_dssp             HHEEEE
+T ss_pred             hceeEE
+Confidence            466654
+
+
+No 17
+>1QQL_A FIBROBLAST GROWTH FACTOR 7/1 CHIMERA; BETA-TREFOIL, HORMONE-GROWTH FACTOR COMPLEX; 2.3A {Rattus norvegicus, Homo sapiens} SCOP: b.42.1.1
+Probab=30.54  E-value=48  Score=13.27  Aligned_cols=6  Identities=67%  Similarity=1.647  Sum_probs=2.9  Template_Neff=7.400
+
+Q ECFFFE            1 ECFFFE    6 (6)
+Q Consensus         1 ecfffe    6 (6)
+                      +|.|.|
+T Consensus        82 ~C~F~E   87 (140)
+T 1QQL_A           82 ECLFLE   87 (140)
+T ss_dssp             GGEEEE
+T ss_pred             cceEEE
+Confidence            455543
+
+
+No 18
+>2P23_B Fibroblast growth factor 19; atypical beta-trefoil fold, SIGNALING PROTEIN; 1.8A {Homo sapiens} SCOP: b.42.1.1
+Probab=30.05  E-value=50  Score=14.49  Aligned_cols=6  Identities=50%  Similarity=1.032  Sum_probs=3.5  Template_Neff=6.200
+
+Q ECFFFE            1 ECFFFE    6 (6)
+Q Consensus         1 ecfffe    6 (6)
+                      +|.|.|
+T Consensus        97 dC~F~E  102 (194)
+T 2P23_B           97 DCAFEE  102 (194)
+T ss_dssp             HHEEEE
+T ss_pred             hcceEE
+Confidence            466654
+
+
+No 19
+>3HAL_A Fibroblast growth factor 1 isoform; beta-trefoil, HORMONE; HET: SO4; 1.8A {Oryctolagus cuniculus}
+Probab=29.77  E-value=51  Score=13.71  Aligned_cols=6  Identities=67%  Similarity=1.647  Sum_probs=3.1  Template_Neff=6.600
+
+Q ECFFFE            1 ECFFFE    6 (6)
+Q Consensus         1 ecfffe    6 (6)
+                      +|.|.|
+T Consensus        88 dC~F~E   93 (146)
+T 3HAL_A           88 ECLFLE   93 (146)
+T ss_dssp             GGCEEE
+T ss_pred             cceeEE
+Confidence            465543
+
+
+No 20
+>2P39_A Fibroblast growth factor 23; atypical beta-trefoil fold, SIGNALING PROTEIN; HET: SCR; 1.5A {Homo sapiens}
+Probab=27.90  E-value=57  Score=13.57  Aligned_cols=6  Identities=33%  Similarity=0.778  Sum_probs=3.2  Template_Neff=6.800
+
+Q ECFFFE            1 ECFFFE    6 (6)
+Q Consensus         1 ecfffe    6 (6)
+                      +|.|.|
+T Consensus        88 ~C~F~E   93 (155)
+T 2P39_A           88 NCRFQH   93 (155)
+T ss_dssp             TSCEEE
+T ss_pred             hcceEE
+Confidence            466644
+
+
+No 21
+>3BA4_A beta-trefoil, Acetylation, Angiogenesis, Developmental protein; HET: SO4; 1.8A {Homo sapiens}
+Probab=27.74  E-value=58  Score=13.34  Aligned_cols=6  Identities=67%  Similarity=1.647  Sum_probs=2.9  Template_Neff=7.000
+
+Q ECFFFE            1 ECFFFE    6 (6)
+Q Consensus         1 ecfffe    6 (6)
+                      +|.|.|
+T Consensus        88 ~C~F~E   93 (146)
+T 3BA4_A           88 ECLFLE   93 (146)
+T ss_dssp             GGCEEE
+T ss_pred             CceeEE
+Confidence            455543
+
+
+No 22
+>1G82_B FIBROBLAST GROWTH FACTOR 9; Fibroblast Growth Factor, HORMONE-GROWTH FACTOR; HET: SO4, FUC, NAG; 2.6A {Homo sapiens} SCOP: b.42.1.1
+Probab=27.58  E-value=59  Score=13.56  Aligned_cols=6  Identities=67%  Similarity=1.254  Sum_probs=3.0  Template_Neff=6.900
+
+Q ECFFFE            1 ECFFFE    6 (6)
+Q Consensus         1 ecfffe    6 (6)
+                      +|.|.|
+T Consensus        85 ~C~F~E   90 (160)
+T 1G82_B           85 ECVFRE   90 (160)
+T ss_dssp             GGCEEE
+T ss_pred             cceEEE
+Confidence            455543
+
+
+No 23
+>4DCK_C Sodium channel protein type 5; IQ-motif, EF-hand, Voltage-gated Sodium Channel; 2.2A {Homo sapiens}
+Probab=26.10  E-value=65  Score=14.23  Aligned_cols=6  Identities=67%  Similarity=1.060  Sum_probs=3.2  Template_Neff=6.000
+
+Q ECFFFE            1 ECFFFE    6 (6)
+Q Consensus         1 ecfffe    6 (6)
+                      ||.|.|
+T Consensus        87 eC~F~E   92 (192)
+T 4DCK_C           87 ECKFKE   92 (192)
+T ss_dssp             GGCEEE
+T ss_pred             cceEEE
+Confidence            466644
+
+
+No 24
+>2FDB_M fibroblast growth factor 8 isoform; beta-trefoil fold  immunoglobulin fold; 2.28A {Homo sapiens} SCOP: b.42.1.1
+Probab=25.89  E-value=66  Score=13.51  Aligned_cols=6  Identities=50%  Similarity=1.259  Sum_probs=3.0  Template_Neff=6.800
+
+Q ECFFFE            1 ECFFFE    6 (6)
+Q Consensus         1 ecfffe    6 (6)
+                      +|.|-|
+T Consensus       104 ~C~F~E  109 (164)
+T 2FDB_M          104 DCVFTE  109 (164)
+T ss_dssp             GGEEEE
+T ss_pred             cceEEE
+Confidence            465543
+
+
+No 25
+>1BLD_A GROWTH FACTOR; NMR {Homo sapiens} SCOP: b.42.1.1
+Probab=24.96  E-value=70  Score=13.27  Aligned_cols=6  Identities=100%  Similarity=2.200  Sum_probs=2.9  Template_Neff=6.900
+
+Q ECFFFE            1 ECFFFE    6 (6)
+Q Consensus         1 ecfffe    6 (6)
+                      +|.|.|
+T Consensus       100 dC~F~E  105 (155)
+T 1BLD_A          100 ECFFFE  105 (155)
+T ss_dssp             TTBEEE
+T ss_pred             CceEEE
+Confidence            455543
+
+
+No 26
+>4QBV_B Fibroblast growth factor 1; Beta-trefoil, growth factor, FGFR binding; HET: FLC; 1.497A {Homo sapiens}
+Probab=23.59  E-value=78  Score=13.04  Aligned_cols=6  Identities=67%  Similarity=1.647  Sum_probs=2.8  Template_Neff=6.900
+
+Q ECFFFE            1 ECFFFE    6 (6)
+Q Consensus         1 ecfffe    6 (6)
+                      +|.|.|
+T Consensus        88 ~C~F~E   93 (146)
+T 4QBV_B           88 ECLFLE   93 (146)
+T ss_dssp             GGCEEE
+T ss_pred             cceeEE
+Confidence            355543
+
+
+No 27
+>6KTR_C G1A8-Fab-HC, G1A8-Fab-LC, Fibroblast growth factor; complex, growth factor, antibody, CELL; HET: SO4; 2.59775753879A {Homo sapiens}
+Probab=22.53  E-value=84  Score=14.34  Aligned_cols=6  Identities=50%  Similarity=1.032  Sum_probs=3.4  Template_Neff=5.600
+
+Q ECFFFE            1 ECFFFE    6 (6)
+Q Consensus         1 ecfffe    6 (6)
+                      +|.|.|
+T Consensus        97 dC~F~E  102 (218)
+T 6KTR_C           97 DCAFEE  102 (218)
+T ss_dssp             HHEEEE
+T ss_pred             hceeEE
+Confidence            466654
+
+
+No 28
+>5W59_A Fibroblast growth factor 9, Fibroblast; Growth factor, Growth Factor Receptor; HET: SO4; 2.498A {Homo sapiens}
+Probab=21.95  E-value=88  Score=13.43  Aligned_cols=6  Identities=67%  Similarity=1.254  Sum_probs=2.9  Template_Neff=6.500
+
+Q ECFFFE            1 ECFFFE    6 (6)
+Q Consensus         1 ecfffe    6 (6)
+                      +|.|.|
+T Consensus       100 dC~F~E  105 (175)
+T 5W59_A          100 ECVFRE  105 (175)
+T ss_dssp             GGCEEE
+T ss_pred             CeeEEE
+Confidence            455543
+
+
+No 29
+>4JQ0_A Fibroblast growth factor 12, Calmodulin; EF hand, ion channel, membrane; 3.84A {Homo sapiens}
+Probab=21.04  E-value=94  Score=14.49  Aligned_cols=6  Identities=67%  Similarity=1.060  Sum_probs=3.3  Template_Neff=5.400
+
+Q ECFFFE            1 ECFFFE    6 (6)
+Q Consensus         1 ecfffe    6 (6)
+                      ||.|.|
+T Consensus       144 eC~F~E  149 (243)
+T 4JQ0_A          144 ECKFKE  149 (243)
+T ss_dssp             GGCEEE
+T ss_pred             CceEEE
+Confidence            466654
+
+
+No 30
+>5W21_B Klotho (E.C.3.2.1.31), Fibroblast growth factor; complex, ligand, receptor, co-receptor, HYDROLASE-PROTEIN; HET: NAG; 3.0A {Homo sapiens}
+Probab=20.89  E-value=95  Score=14.24  Aligned_cols=6  Identities=33%  Similarity=0.778  Sum_probs=3.4  Template_Neff=5.600
+
+Q ECFFFE            1 ECFFFE    6 (6)
+Q Consensus         1 ecfffe    6 (6)
+                      +|.|.|
+T Consensus       134 dC~F~E  139 (226)
+T 5W21_B          134 NCRFQH  139 (226)
+T ss_dssp             TSCEEE
+T ss_pred             hccEEE
+Confidence            466654
+
+
+No 31
+>3F1R_A Fibroblast growth factor 20; beta-trefoil fold, Growth factor, Polymorphism; HET: SO4; 2.5A {Homo sapiens}
+Probab=20.35  E-value=99  Score=13.96  Aligned_cols=6  Identities=67%  Similarity=1.303  Sum_probs=3.2  Template_Neff=5.800
+
+Q ECFFFE            1 ECFFFE    6 (6)
+Q Consensus         1 ecfffe    6 (6)
+                      +|.|.|
+T Consensus       136 dC~F~E  141 (211)
+T 3F1R_A          136 ECIFRE  141 (211)
+T ss_dssp             GGCEEE
+T ss_pred             ceEEEE
+Confidence            466644
+
+

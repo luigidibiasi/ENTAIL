@@ -1,0 +1,154 @@
+Query         MAAAQA
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 21:19:12 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/MAAAQA/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/MAAAQA/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6N3A_J TAR DNA-binding protein  62.4     6.6 7.3E-05   15.7   0.0    6    1-6      13-18  (50)
+  2 5JGW_A Aldose reductase, AKR4C  52.3      13 0.00014   15.7   0.0    6    1-6       1-6   (327)
+  3 6N3C_D TAR DNA-binding protein  50.4      14 0.00016   14.4   0.0    6    1-6      38-43  (46)
+  4 7KWZ_A Isoform 2 of TAR DNA-bi  35.5      35 0.00039   15.8   0.0    6    1-6      57-62  (148)
+  5 4JQ0_A Fibroblast growth facto  13.4 1.9E+02  0.0021   13.6   0.0    6    1-6       1-6   (243)
+  6 5JIE_D Protein delta; Delta pr  13.2 1.9E+02  0.0021   12.3   0.0    6    1-6      15-20  (66)
+  7 5JIE_E Protein delta; Delta pr  13.2 1.9E+02  0.0021   12.3   0.0    6    1-6      15-20  (66)
+  8 5JGY_B Aldose reductase, AKR4C  13.0   2E+02  0.0022   12.3   0.0    6    1-6       1-6   (327)
+  9 7K67_A phosphatase-like myo-in  12.7   2E+02  0.0023   12.2   0.0    6    1-6       2-7   (291)
+ 10 7K67_D phosphatase-like myo-in  12.7   2E+02  0.0023   12.2   0.0    6    1-6       2-7   (291)
+
+No 1
+>6N3A_J TAR DNA-binding protein 43, segA; Amyloid, TDP43, ALS, FTLD-TDP, dna; 3.3A {Homo sapiens}
+Probab=62.42  E-value=6.6  Score=15.75  Aligned_cols=6  Identities=100%  Similarity=0.922  Sum_probs=3.5  Template_Neff=2.200
+
+Q MAAAQA            1 MAAAQA    6 (6)
+Q Consensus         1 maaaqa    6 (6)
+                      ||||||
+T Consensus        13 mAAAqa   18 (50)
+T 6N3A_J           13 MAAAQA   18 (50)
+T ss_dssp             ECCSSE
+T ss_pred             HHHHHH
+Confidence            466664
+
+
+No 2
+>5JGW_A Aldose reductase, AKR4C13; aldo-keto reductase superfamily, AKR4C subfamily; HET: ACT, NAP; 2.3A {Zea mays}
+Probab=52.34  E-value=13  Score=15.69  Aligned_cols=6  Identities=83%  Similarity=0.850  Sum_probs=0.5  Template_Neff=9.000
+
+Q MAAAQA            1 MAAAQA    6 (6)
+Q Consensus         1 maaaqa    6 (6)
+                      ||.||+
+T Consensus         1 ~~~~~~    6 (327)
+T 5JGW_A            1 MASAQA    6 (327)
+T ss_dssp             -----C
+T ss_pred             Cccccc
+Confidence            677775
+
+
+No 3
+>6N3C_D TAR DNA-binding protein 43; Amyloid, TDP43, ALS, FTLD-TDP, dna; 3.3A {Homo sapiens}
+Probab=50.38  E-value=14  Score=14.38  Aligned_cols=6  Identities=100%  Similarity=0.922  Sum_probs=0.0  Template_Neff=3.000
+
+Q MAAAQA            1 MAAAQA    6 (6)
+Q Consensus         1 maaaqa    6 (6)
+                      |||||+
+T Consensus        38 mAAAl~   43 (46)
+T 6N3C_D           38 MAAAQA   43 (46)
+T ss_dssp             ------
+T ss_pred             HHHHHH
+Confidence            466653
+
+
+No 4
+>7KWZ_A Isoform 2 of TAR DNA-binding; TDP-43, amyloid, neurodegenerative diseases, amyotropic; 3.2A {Homo sapiens}
+Probab=35.52  E-value=35  Score=15.82  Aligned_cols=6  Identities=100%  Similarity=0.922  Sum_probs=3.1  Template_Neff=2.900
+
+Q MAAAQA            1 MAAAQA    6 (6)
+Q Consensus         1 maaaqa    6 (6)
+                      |||||+
+T Consensus        57 vAAAqa   62 (148)
+T 7KWZ_A           57 MAAAQA   62 (148)
+T ss_dssp             EEECSC
+T ss_pred             HHHHHH
+Confidence            456553
+
+
+No 5
+>4JQ0_A Fibroblast growth factor 12, Calmodulin; EF hand, ion channel, membrane; 3.84A {Homo sapiens}
+Probab=13.37  E-value=1.9e+02  Score=13.56  Aligned_cols=6  Identities=83%  Similarity=0.667  Sum_probs=0.0  Template_Neff=5.400
+
+Q MAAAQA            1 MAAAQA    6 (6)
+Q Consensus         1 maaaqa    6 (6)
+                      ||||-|
+T Consensus         1 ~~aa~a    6 (243)
+T 4JQ0_A            1 MAAAIA    6 (243)
+T ss_dssp             ------
+T ss_pred             ChhHHH
+
+
+No 6
+>5JIE_D Protein delta; Delta protein, Orsay virus, C.; 2.1374A {Orsay virus}
+Probab=13.23  E-value=1.9e+02  Score=12.30  Aligned_cols=6  Identities=67%  Similarity=0.623  Sum_probs=0.0  Template_Neff=1.700
+
+Q MAAAQA            1 MAAAQA    6 (6)
+Q Consensus         1 maaaqa    6 (6)
+                      ||+.||
+T Consensus        15 iAaLQA   20 (66)
+T 5JIE_D           15 IAALQA   20 (66)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 7
+>5JIE_E Protein delta; Delta protein, Orsay virus, C.; 2.1374A {Orsay virus}
+Probab=13.23  E-value=1.9e+02  Score=12.30  Aligned_cols=6  Identities=67%  Similarity=0.623  Sum_probs=0.0  Template_Neff=1.700
+
+Q MAAAQA            1 MAAAQA    6 (6)
+Q Consensus         1 maaaqa    6 (6)
+                      ||+.||
+T Consensus        15 iAaLQA   20 (66)
+T 5JIE_E           15 IAALQA   20 (66)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 8
+>5JGY_B Aldose reductase, AKR4C13; aldo-keto reductase superfamily, AKR4C subfamily; HET: 6KB, CSO, EDO; 1.45A {Zea mays}
+Probab=13.03  E-value=2e+02  Score=12.34  Aligned_cols=6  Identities=83%  Similarity=0.850  Sum_probs=0.0  Template_Neff=9.000
+
+Q MAAAQA            1 MAAAQA    6 (6)
+Q Consensus         1 maaaqa    6 (6)
+                      ||.||+
+T Consensus         1 ~~~~~~    6 (327)
+T 5JGY_B            1 MASAQA    6 (327)
+T ss_dssp             ------
+T ss_pred             Cccccc
+
+
+No 9
+>7K67_A phosphatase-like myo-inositol phosphatase, phosphate binding; HET: PO4, GOL, TAR; 1.6A {Desulfovibrio magneticus}
+Probab=12.72  E-value=2e+02  Score=12.19  Aligned_cols=6  Identities=50%  Similarity=0.556  Sum_probs=0.0  Template_Neff=8.800
+
+Q MAAAQA            1 MAAAQA    6 (6)
+Q Consensus         1 maaaqa    6 (6)
+                      ||++|+
+T Consensus         2 ~~~~~~    7 (291)
+T 7K67_A            2 MAASAE    7 (291)
+T ss_dssp             ------
+T ss_pred             CcccCC
+
+
+No 10
+>7K67_D phosphatase-like myo-inositol phosphatase, phosphate binding; HET: PO4, GOL, TAR; 1.6A {Desulfovibrio magneticus}
+Probab=12.72  E-value=2e+02  Score=12.19  Aligned_cols=6  Identities=50%  Similarity=0.556  Sum_probs=0.0  Template_Neff=8.800
+
+Q MAAAQA            1 MAAAQA    6 (6)
+Q Consensus         1 maaaqa    6 (6)
+                      ||++|+
+T Consensus         2 ~~~~~~    7 (291)
+T 7K67_D            2 MAASAE    7 (291)
+T ss_dssp             ------
+T ss_pred             CcccCC
+
+

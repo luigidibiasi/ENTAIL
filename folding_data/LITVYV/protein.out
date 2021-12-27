@@ -1,0 +1,143 @@
+Query         LITVYV
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 18:33:36 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LITVYV/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LITVYV/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2MQ9_A Eukaryotic peptide chai  25.0      70 0.00078   13.6   0.0    6    1-6      34-39  (142)
+  2 4H43_A 27.5 kDa virulence prot   6.6   5E+02  0.0055   12.5   0.0    6    1-6     154-159 (241)
+  3 5B66_m Photosystem II protein    6.6   5E+02  0.0055    9.8   0.0    6    1-6      22-27  (36)
+  4 5V2C_M Photosystem II protein    6.6   5E+02  0.0055    9.8   0.0    6    1-6      22-27  (36)
+  5 6WJ6_M Photosystem II; Photosy   6.6   5E+02  0.0055    9.7   0.0    6    1-6      22-27  (35)
+  6 6KAC_m Photosystem II protein    6.6   5E+02  0.0056    9.7   0.0    6    1-6      22-27  (34)
+  7 6DHG_M Photosystem II; PHOTOSY   6.5 5.1E+02  0.0056    9.6   0.0    6    1-6      22-27  (33)
+  8 3JCU_m Photosystem II protein    6.5 5.1E+02  0.0057    9.7   0.0    6    1-6      22-27  (34)
+  9 4RVY_M Photosystem II protein    6.4 5.2E+02  0.0057    9.7   0.0    6    1-6      22-27  (34)
+ 10 6YP7_M Chlorophyll a-b binding   6.4 5.2E+02  0.0057    9.6   0.0    6    1-6      22-27  (33)
+
+No 1
+>2MQ9_A Eukaryotic peptide chain release factor; Translation Termination, eRF1, RDC, TRANSLATION; NMR {Homo sapiens}
+Probab=24.99  E-value=70  Score=13.59  Aligned_cols=6  Identities=17%  Similarity=0.694  Sum_probs=3.2  Template_Neff=5.900
+
+Q LITVYV            1 LITVYV    6 (6)
+Q Consensus         1 litvyv    6 (6)
+                      ||++|+
+T Consensus        34 LiSlyI   39 (142)
+T 2MQ9_A           34 MISLII   39 (142)
+T ss_dssp             CEEEEE
+T ss_pred             ceEEEe
+Confidence            456653
+
+
+No 2
+>4H43_A 27.5 kDa virulence protein; phosphothreonine lyase, dephosphorylation, lyase; 2.304A {Salmonella enterica subsp. enterica serovar Typhimurium}
+Probab=6.63  E-value=5e+02  Score=12.51  Aligned_cols=6  Identities=33%  Similarity=0.811  Sum_probs=0.0  Template_Neff=4.800
+
+Q LITVYV            1 LITVYV    6 (6)
+Q Consensus         1 litvyv    6 (6)
+                      .||+|.
+T Consensus       154 fITIYP  159 (241)
+T 4H43_A          154 QFTLYI  159 (241)
+T ss_dssp             CEEEEC
+T ss_pred             EEEEEe
+
+
+No 3
+>5B66_m Photosystem II protein D1 (E.C.1.10.3.9); psii, photosystem, oxygen evolving, water; HET: LMG, PL9, DMS, OEX, UNL, LMT, PHO, CLA, FME, DGD, HEM, HTG, RRX, HEC, SQD, LHG, BCR; 1.85A {Thermosynechococcus vulcanus}
+Probab=6.61  E-value=5e+02  Score=9.80  Aligned_cols=6  Identities=67%  Similarity=1.132  Sum_probs=0.0  Template_Neff=2.900
+
+Q LITVYV            1 LITVYV    6 (6)
+Q Consensus         1 litvyv    6 (6)
+                      |+..||
+T Consensus        22 LlilYv   27 (36)
+T 5B66_m           22 LIILYV   27 (36)
+T ss_pred             HHHHHH
+
+
+No 4
+>5V2C_M Photosystem II protein D1 (E.C.1.10.3.9); ELECTRON TRANSPORT, PHOTOSYNTHESIS; HET: GOL, BCT, P6G, PHO, SQD, MHS, HEC, PE8, OEX, PG4, LHG, HEM, DGD, HTG, EDO, LMG, FME, PGE, CLA, LMT, 1PE, PL9, BCR, 2PE; 1.9A {Thermosynechococcus vulcanus}
+Probab=6.61  E-value=5e+02  Score=9.80  Aligned_cols=6  Identities=67%  Similarity=1.132  Sum_probs=0.0  Template_Neff=2.900
+
+Q LITVYV            1 LITVYV    6 (6)
+Q Consensus         1 litvyv    6 (6)
+                      |+..||
+T Consensus        22 LlilYv   27 (36)
+T 5V2C_M           22 LIILYV   27 (36)
+T ss_pred             HHHHHH
+
+
+No 5
+>6WJ6_M Photosystem II; Photosystem, oxidoreductase, water-splitting, photoactivation, PHOTOSYNTHESIS; HET: LHG, CLA, FME, BCR, PL9, LMG, PHO, LMT, HEM, SQD, DGD; 2.58A {Synechocystis sp. (strain PCC 6803 / Kazusa)}
+Probab=6.61  E-value=5e+02  Score=9.75  Aligned_cols=6  Identities=17%  Similarity=0.899  Sum_probs=0.0  Template_Neff=2.900
+
+Q LITVYV            1 LITVYV    6 (6)
+Q Consensus         1 litvyv    6 (6)
+                      |+..||
+T Consensus        22 LlilYv   27 (35)
+T 6WJ6_M           22 LLILFI   27 (35)
+T ss_pred             HHHHHH
+
+
+No 6
+>6KAC_m Photosystem II protein D1 (E.C.1.10.3.9); PhotosystemII, supercomplex, PHOTOSYNTHESIS; HET: LMG, OEX, DGD, PL9, HEM, PHO, CLA, LMU, NEX, LUT, XAT, SQD, CHL, LHG, BCR; 2.7A {Chlamydomonas reinhardtii}
+Probab=6.56  E-value=5e+02  Score=9.69  Aligned_cols=6  Identities=50%  Similarity=1.065  Sum_probs=0.0  Template_Neff=2.900
+
+Q LITVYV            1 LITVYV    6 (6)
+Q Consensus         1 litvyv    6 (6)
+                      |+..||
+T Consensus        22 LlilYv   27 (34)
+T 6KAC_m           22 LLILYV   27 (34)
+T ss_pred             HHHHHH
+
+
+No 7
+>6DHG_M Photosystem II; PHOTOSYSTEMS, TRANSMEMBRANE, ROOM TEMPERATURE, ELECTRON; HET: SQD, DGD, UNL, HEM, LMG, HEC, PL9, FME, OEX, LHG, BCR, BCT, PHO, CLA; 2.5A {Thermosynechococcus elongatus (strain BP-1)}
+Probab=6.55  E-value=5.1e+02  Score=9.63  Aligned_cols=6  Identities=67%  Similarity=1.132  Sum_probs=0.0  Template_Neff=2.900
+
+Q LITVYV            1 LITVYV    6 (6)
+Q Consensus         1 litvyv    6 (6)
+                      |+..||
+T Consensus        22 LlilYv   27 (33)
+T 6DHG_M           22 LIILYV   27 (33)
+T ss_pred             HHHHHH
+
+
+No 8
+>3JCU_m Photosystem II protein D1, Photosystem; membrane protein; HET: SQD, DGD, HEM, LMG, LUT, PL9, OEX, CHL, XAT, LHG, NEX, BCR, PHO, CLA; 3.2A {Spinacia oleracea}
+Probab=6.48  E-value=5.1e+02  Score=9.67  Aligned_cols=6  Identities=50%  Similarity=1.137  Sum_probs=0.0  Template_Neff=2.900
+
+Q LITVYV            1 LITVYV    6 (6)
+Q Consensus         1 litvyv    6 (6)
+                      |+..||
+T Consensus        22 LlilYv   27 (34)
+T 3JCU_m           22 LLIIYV   27 (34)
+T ss_pred             HHHHHH
+
+
+No 9
+>4RVY_M Photosystem II protein D1 1; Photosystem II, Time resolved, Free; HET: BCR, LMG, CLA, HEM, PL9, OEX, DGD, PHO, LHG, SQD; 5.5A {Thermosynechococcus elongatus}
+Probab=6.43  E-value=5.2e+02  Score=9.68  Aligned_cols=6  Identities=67%  Similarity=1.132  Sum_probs=0.0  Template_Neff=2.800
+
+Q LITVYV            1 LITVYV    6 (6)
+Q Consensus         1 litvyv    6 (6)
+                      |+..||
+T Consensus        22 LlilYv   27 (34)
+T 4RVY_M           22 LIILYV   27 (34)
+T ss_pred             HHHHHH
+
+
+No 10
+>6YP7_M Chlorophyll a-b binding protein 8; Cryo-EM, photosystem II, High Light; HET: PL9, LHG, BCR, NEX, HEM, OEX, CLA, PHO, DGD, XAT, SQD, LUT, LMG, CHL;{Pisum sativum}
+Probab=6.42  E-value=5.2e+02  Score=9.60  Aligned_cols=6  Identities=50%  Similarity=1.137  Sum_probs=0.0  Template_Neff=2.900
+
+Q LITVYV            1 LITVYV    6 (6)
+Q Consensus         1 litvyv    6 (6)
+                      |+..||
+T Consensus        22 LlilYv   27 (33)
+T 6YP7_M           22 LLIIYV   27 (33)
+T ss_pred             HHHHHH
+
+

@@ -1,0 +1,218 @@
+Query         GVQVGD
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 04:47:49 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GVQVGD/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GVQVGD/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6JPD_A Receptor-interacting se  72.1     3.1 3.4E-05   17.9   0.0    6    1-6      45-50  (84)
+  2 7DAC_C Receptor-interacting se  62.9     6.4 7.1E-05   17.5   0.0    6    1-6      47-52  (108)
+  3 6LQO_H Cytoplasmic envelopment  57.7     9.2  0.0001   17.5   0.0    6    1-6      22-27  (131)
+  4 6LQO_L Cytoplasmic envelopment  57.7     9.2  0.0001   17.5   0.0    6    1-6      22-27  (131)
+  5 7DA4_A Receptor-interacting se  53.7      12 0.00013   17.4   0.0    6    1-6      72-77  (141)
+  6 3HIQ_A Vacuolar saporin (E.C.3  49.1      16 0.00017   16.7   0.0    6    1-6      18-23  (345)
+  7 6VE2_T Fimbrial assembly prote  38.8      29 0.00032   14.7   0.0    6    1-6     276-281 (341)
+  8 3W1E_A Flagella basal-body pro  36.2      34 0.00037   14.2   0.0    6    1-6     288-293 (360)
+  9 4QEN_A Histone-lysine N-methyl  26.5      63  0.0007   15.1   0.0    6    1-6      62-67  (533)
+ 10 4QEO_A Histone-lysine N-methyl  25.9      66 0.00073   15.0   0.0    6    1-6      62-67  (533)
+ 11 6A5K_A Histone-lysine N-methyl  24.7      72 0.00079   14.8   0.0    6    1-6      71-76  (527)
+ 12 6A5N_A Histone-lysine N-methyl  24.7      72 0.00079   14.8   0.0    6    1-6      71-76  (527)
+ 13 3JC8_Tc PilA, Type IV-A pilus   24.5      72  0.0008   14.4   0.0    6    1-6     330-335 (411)
+ 14 4NJ5_A Probable histone-lysine  21.2      93   0.001   14.7   0.0    6    1-6      77-82  (518)
+
+No 1
+>6JPD_A Receptor-interacting serine/threonine-protein kinase 3 (E.C.2.7.11.1); programmed necrosis, amyloid, PROTEIN FIBRIL; NMR {Mus musculus}
+Probab=72.08  E-value=3.1  Score=17.86  Aligned_cols=6  Identities=50%  Similarity=0.955  Sum_probs=4.5  Template_Neff=2.500
+
+Q GVQVGD            1 GVQVGD    6 (6)
+Q Consensus         1 gvqvgd    6 (6)
+                      +||||+
+T Consensus        45 ~VQIGn   50 (84)
+T 6JPD_A           45 EVQIGN   50 (84)
+T ss_dssp             SEEECT
+T ss_pred             eeeeCC
+Confidence            588885
+
+
+No 2
+>7DAC_C Receptor-interacting serine/threonine-protein kinase 3 (E.C.2.7.11.1); programmed necrosis, amyloid, PROTEIN FIBRIL; NMR {Homo sapiens}
+Probab=62.92  E-value=6.4  Score=17.54  Aligned_cols=6  Identities=100%  Similarity=1.520  Sum_probs=4.3  Template_Neff=2.400
+
+Q GVQVGD            1 GVQVGD    6 (6)
+Q Consensus         1 gvqvgd    6 (6)
+                      +||||+
+T Consensus        47 ~VQIGn   52 (108)
+T 7DAC_C           47 GVQVGD   52 (108)
+T ss_dssp             EEEEEE
+T ss_pred             eeeecC
+Confidence            578875
+
+
+No 3
+>6LQO_H Cytoplasmic envelopment protein 1, Tegument; Epstein-Barr virus (EBV)/Human herpesvirus 4; HET: GOL, ACT; 3.09112613349A {Human gammaherpesvirus 4}
+Probab=57.68  E-value=9.2  Score=17.53  Aligned_cols=6  Identities=100%  Similarity=1.520  Sum_probs=4.6  Template_Neff=2.300
+
+Q GVQVGD            1 GVQVGD    6 (6)
+Q Consensus         1 gvqvgd    6 (6)
+                      ||++||
+T Consensus        22 GV~~GD   27 (131)
+T 6LQO_H           22 GVQVGD   27 (131)
+T ss_dssp             TCCHHH
+T ss_pred             CcCHHH
+Confidence            678887
+
+
+No 4
+>6LQO_L Cytoplasmic envelopment protein 1, Tegument; Epstein-Barr virus (EBV)/Human herpesvirus 4; HET: GOL, ACT; 3.09112613349A {Human gammaherpesvirus 4}
+Probab=57.68  E-value=9.2  Score=17.53  Aligned_cols=6  Identities=100%  Similarity=1.520  Sum_probs=4.6  Template_Neff=2.300
+
+Q GVQVGD            1 GVQVGD    6 (6)
+Q Consensus         1 gvqvgd    6 (6)
+                      ||++||
+T Consensus        22 GV~~GD   27 (131)
+T 6LQO_L           22 GVQVGD   27 (131)
+T ss_dssp             TCCSHH
+T ss_pred             CcCHHH
+Confidence            678887
+
+
+No 5
+>7DA4_A Receptor-interacting serine/threonine-protein kinase 3 (E.C.2.7.11.1); Amyloid fibril, PROTEIN FIBRIL; 4.24A {Homo sapiens}
+Probab=53.74  E-value=12  Score=17.36  Aligned_cols=6  Identities=100%  Similarity=1.520  Sum_probs=4.2  Template_Neff=2.300
+
+Q GVQVGD            1 GVQVGD    6 (6)
+Q Consensus         1 gvqvgd    6 (6)
+                      +||||+
+T Consensus        72 ~VQIG~   77 (141)
+T 7DA4_A           72 GVQVGD   77 (141)
+T ss_dssp             CBCCSS
+T ss_pred             eeeecC
+Confidence            578775
+
+
+No 6
+>3HIQ_A Vacuolar saporin (E.C.3.2.2.22); ribosome inactivating proteins, RIPs, Hydrolase; 2.19A {Saponaria officinalis}
+Probab=49.08  E-value=16  Score=16.73  Aligned_cols=6  Identities=67%  Similarity=1.149  Sum_probs=4.4  Template_Neff=7.000
+
+Q GVQVGD            1 GVQVGD    6 (6)
+Q Consensus         1 gvqvgd    6 (6)
+                      |+|+||
+T Consensus        18 ~~~~~~   23 (345)
+T 3HIQ_A           18 GQQMGD   23 (345)
+T ss_pred             CccHHH
+Confidence            578886
+
+
+No 7
+>6VE2_T Fimbrial assembly protein PilQ, LysM; Type IV pilus, T4P, PilQ; 4.3A {Pseudomonas aeruginosa (strain ATCC 15692 / DSM 22644 / CIP 104116 / JCM 14847 / LMG 12228 / 1C / PRS 101 / PAO1)}
+Probab=38.83  E-value=29  Score=14.67  Aligned_cols=6  Identities=33%  Similarity=0.839  Sum_probs=3.0  Template_Neff=9.200
+
+Q GVQVGD            1 GVQVGD    6 (6)
+Q Consensus         1 gvqvgd    6 (6)
+                      |+++||
+T Consensus       276 Gv~~Gd  281 (341)
+T 6VE2_T          276 GLAEGN  281 (341)
+T ss_dssp             HHHHCC
+T ss_pred             CcCCCC
+Confidence            455554
+
+
+No 8
+>3W1E_A Flagella basal-body protein; H-ring formation, the flagellar basal; 2.0A {Vibrio alginolyticus}
+Probab=36.23  E-value=34  Score=14.24  Aligned_cols=6  Identities=67%  Similarity=1.160  Sum_probs=2.8  Template_Neff=9.800
+
+Q GVQVGD            1 GVQVGD    6 (6)
+Q Consensus         1 gvqvgd    6 (6)
+                      |+++||
+T Consensus       288 Gv~~Gd  293 (360)
+T 3W1E_A          288 GVKEGD  293 (360)
+T ss_dssp             TCCTTC
+T ss_pred             CCCCCC
+Confidence            344554
+
+
+No 9
+>4QEN_A Histone-lysine N-methyltransferase, H3 lysine-9 specific; SRA, SET, histone methylation, methylated; HET: SAH; 2.002A {Arabidopsis thaliana}
+Probab=26.49  E-value=63  Score=15.07  Aligned_cols=6  Identities=50%  Similarity=1.165  Sum_probs=3.3  Template_Neff=8.300
+
+Q GVQVGD            1 GVQVGD    6 (6)
+Q Consensus         1 gvqvgd    6 (6)
+                      ||.|||
+T Consensus        62 gv~vG~   67 (533)
+T 4QEN_A           62 GIDVGH   67 (533)
+T ss_dssp             TCCTTC
+T ss_pred             CCCCCc
+Confidence            455664
+
+
+No 10
+>4QEO_A Histone-lysine N-methyltransferase, H3 lysine-9 specific; SRA, SET, histone methylation, methylated; HET: SAH; 2.0A {Arabidopsis thaliana}
+Probab=25.89  E-value=66  Score=15.02  Aligned_cols=6  Identities=50%  Similarity=1.165  Sum_probs=3.3  Template_Neff=8.300
+
+Q GVQVGD            1 GVQVGD    6 (6)
+Q Consensus         1 gvqvgd    6 (6)
+                      ||.|||
+T Consensus        62 gv~vG~   67 (533)
+T 4QEO_A           62 GIDVGH   67 (533)
+T ss_dssp             TCCTTC
+T ss_pred             CCcCCc
+Confidence            455654
+
+
+No 11
+>6A5K_A Histone-lysine N-methyltransferase, H3 lysine-9 specific; SRA, SET, histone methyltransferase, DNA; HET: MSE, SAM; 1.9A {Arabidopsis thaliana}
+Probab=24.69  E-value=72  Score=14.78  Aligned_cols=6  Identities=83%  Similarity=1.464  Sum_probs=3.0  Template_Neff=8.500
+
+Q GVQVGD            1 GVQVGD    6 (6)
+Q Consensus         1 gvqvgd    6 (6)
+                      ||.|||
+T Consensus        71 gv~vG~   76 (527)
+T 6A5K_A           71 GVEVGD   76 (527)
+T ss_dssp             TCCTTC
+T ss_pred             CCCCCc
+Confidence            455554
+
+
+No 12
+>6A5N_A Histone-lysine N-methyltransferase, H3 lysine-9 specific; SRA, SET, histone methyltransferase, DNA; HET: 5CM; 2.4A {Arabidopsis thaliana}
+Probab=24.69  E-value=72  Score=14.78  Aligned_cols=6  Identities=83%  Similarity=1.464  Sum_probs=3.0  Template_Neff=8.500
+
+Q GVQVGD            1 GVQVGD    6 (6)
+Q Consensus         1 gvqvgd    6 (6)
+                      ||.|||
+T Consensus        71 gv~vG~   76 (527)
+T 6A5N_A           71 GVEVGD   76 (527)
+T ss_dssp             TCCTTC
+T ss_pred             CCCCCc
+Confidence            455554
+
+
+No 13
+>3JC8_Tc PilA, Type IV-A pilus assembly; motor, pilus, ring, membrane channel; HET: MEA;{Myxococcus xanthus DK 1622}
+Probab=24.54  E-value=72  Score=14.44  Aligned_cols=6  Identities=50%  Similarity=1.237  Sum_probs=2.8  Template_Neff=8.200
+
+Q GVQVGD            1 GVQVGD    6 (6)
+Q Consensus         1 gvqvgd    6 (6)
+                      |+++||
+T Consensus       330 Gv~~G~  335 (411)
+T 3JC8_Tc         330 GVELGN  335 (411)
+T ss_pred             ccccCc
+Confidence            445554
+
+
+No 14
+>4NJ5_A Probable histone-lysine N-methyltransferase, H3 lysine-9; SET domain, Zinc binding motif; 2.4A {Arabidopsis thaliana}
+Probab=21.25  E-value=93  Score=14.67  Aligned_cols=6  Identities=100%  Similarity=1.520  Sum_probs=3.0  Template_Neff=8.000
+
+Q GVQVGD            1 GVQVGD    6 (6)
+Q Consensus         1 gvqvgd    6 (6)
+                      ||.|||
+T Consensus        77 gv~vGd   82 (518)
+T 4NJ5_A           77 GVQVGD   82 (518)
+T ss_dssp             TCCTTC
+T ss_pred             CccCCc
+Confidence            455554
+
+

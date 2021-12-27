@@ -1,0 +1,149 @@
+Query         QNYQQY
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 09:00:29 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QNYQQY/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QNYQQY/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2MIJ_A SPBc2 prophage-derived   15.0 1.6E+02  0.0018   11.4   0.0    6    1-6      30-35  (37)
+  2 6BBK_A Fimbrial protein; Pseud  12.5 2.1E+02  0.0023   10.4   0.0    4    3-6       2-5   (126)
+  3 2WLP_A COAT PROTEIN; VIRAL PRO  12.3 2.1E+02  0.0024   12.6   0.0    6    1-6      48-53  (203)
+  4 2IZW_C RYEGRASS MOTTLE VIRUS C  11.9 2.3E+02  0.0025   12.7   0.0    6    1-6     105-110 (234)
+  5 5DV0_A Sortase; Sortase, HYDRO  11.8 2.3E+02  0.0025   11.4   0.0    6    1-6     164-169 (170)
+  6 4V99_GA Capsid protein; icosah  11.8 2.3E+02  0.0025   13.0   0.0    6    1-6     108-113 (242)
+  7 4V99_JH Capsid protein; icosah  11.8 2.3E+02  0.0025   13.0   0.0    6    1-6     108-113 (242)
+  8 1C8N_C COAT PROTEIN; VIRUS, Ic  10.9 2.5E+02  0.0028   13.4   0.0    6    1-6     127-132 (276)
+  9 6RQF_G PROTEIN; Plastoquinol-p  10.8 2.6E+02  0.0028   10.7   0.0    4    3-6      26-29  (37)
+ 10 4OGQ_G Cytochrome b6, Cytochro  10.8 2.6E+02  0.0029   10.7   0.0    4    3-6      26-29  (37)
+
+No 1
+>2MIJ_A SPBc2 prophage-derived bacteriocin sublancin-168; glycopeptide, ANTIMICROBIAL PROTEIN; HET: BGC; NMR {Bacillus subtilis}
+Probab=15.02  E-value=1.6e+02  Score=11.44  Aligned_cols=6  Identities=67%  Similarity=1.309  Sum_probs=3.2  Template_Neff=1.600
+
+Q QNYQQY            1 QNYQQY    6 (6)
+Q Consensus         1 qnyqqy    6 (6)
+                      +||.+|
+T Consensus        30 ~~Yr~~   35 (37)
+T 2MIJ_A           30 QNYRQF   35 (37)
+T ss_dssp             HHHHHH
+T ss_pred             hHhHhh
+Confidence            456554
+
+
+No 2
+>6BBK_A Fimbrial protein; Pseudomonas aeruginosa, type IV pili; 1.73A {Pseudomonas aeruginosa}
+Probab=12.48  E-value=2.1e+02  Score=10.40  Aligned_cols=4  Identities=0%  Similarity=0.426  Sum_probs=0.0  Template_Neff=9.300
+
+Q QNYQQY            3 YQQY    6 (6)
+Q Consensus         3 yqqy    6 (6)
+                      ||.|
+T Consensus         2 yq~Y    5 (126)
+T 6BBK_A            2 IDPF    5 (126)
+T ss_dssp             -CHH
+T ss_pred             chhH
+
+
+No 3
+>2WLP_A COAT PROTEIN; VIRAL PROTEIN, PROTEIN-PROTEIN INTERACTIONS, CA2+; 2.65A {SESBANIA MOSAIC VIRUS}
+Probab=12.31  E-value=2.1e+02  Score=12.58  Aligned_cols=6  Identities=33%  Similarity=0.955  Sum_probs=0.0  Template_Neff=6.500
+
+Q QNYQQY            1 QNYQQY    6 (6)
+Q Consensus         1 qnyqqy    6 (6)
+                      +||++|
+T Consensus        48 ~~y~ky   53 (203)
+T 2WLP_A           48 ANWSKY   53 (203)
+T ss_dssp             TTEEEE
+T ss_pred             hheeEE
+
+
+No 4
+>2IZW_C RYEGRASS MOTTLE VIRUS COAT PROTEIN; RNA, VIRUS, ASSEMBLY, CAPSID PROTEIN; 2.9A {RYEGRASS MOTTLE VIRUS}
+Probab=11.88  E-value=2.3e+02  Score=12.68  Aligned_cols=6  Identities=33%  Similarity=0.988  Sum_probs=0.0  Template_Neff=6.700
+
+Q QNYQQY            1 QNYQQY    6 (6)
+Q Consensus         1 qnyqqy    6 (6)
+                      +||++|
+T Consensus       105 ~~y~ky  110 (234)
+T 2IZW_C          105 SRYSKY  110 (234)
+T ss_dssp             TTEEEE
+T ss_pred             hheeeE
+
+
+No 5
+>5DV0_A Sortase; Sortase, HYDROLASE; 3.299A {Streptococcus pneumoniae}
+Probab=11.80  E-value=2.3e+02  Score=11.43  Aligned_cols=6  Identities=50%  Similarity=1.049  Sum_probs=0.0  Template_Neff=8.100
+
+Q QNYQQY            1 QNYQQY    6 (6)
+Q Consensus         1 qnyqqy    6 (6)
+                      +||+|+
+T Consensus       164 ~~~~~~  169 (170)
+T 5DV0_A          164 QPYKQF  169 (170)
+T ss_dssp             SCCCCC
+T ss_pred             cccccc
+
+
+No 6
+>4V99_GA Capsid protein; icosahedral virus, tombusviridae, RNA hairpin; HET: CA; 2.9A {Panicum mosaic virus}
+Probab=11.76  E-value=2.3e+02  Score=12.96  Aligned_cols=6  Identities=0%  Similarity=0.041  Sum_probs=0.0  Template_Neff=6.200
+
+Q QNYQQY            1 QNYQQY    6 (6)
+Q Consensus         1 qnyqqy    6 (6)
+                      +||++|
+T Consensus       108 ~~y~kY  113 (242)
+T 4V99_GA         108 SAFAIH  113 (242)
+T ss_pred             HhccEE
+
+
+No 7
+>4V99_JH Capsid protein; icosahedral virus, tombusviridae, RNA hairpin; HET: CA; 2.9A {Panicum mosaic virus}
+Probab=11.76  E-value=2.3e+02  Score=12.96  Aligned_cols=6  Identities=0%  Similarity=0.041  Sum_probs=0.0  Template_Neff=6.200
+
+Q QNYQQY            1 QNYQQY    6 (6)
+Q Consensus         1 qnyqqy    6 (6)
+                      +||++|
+T Consensus       108 ~~y~kY  113 (242)
+T 4V99_JH         108 SAFAIH  113 (242)
+T ss_pred             HhccEE
+
+
+No 8
+>1C8N_C COAT PROTEIN; VIRUS, Icosahedral virus; 2.25A {unidentified tobacco necrosis virus} SCOP: b.121.4.7
+Probab=10.93  E-value=2.5e+02  Score=13.37  Aligned_cols=6  Identities=33%  Similarity=1.016  Sum_probs=0.0  Template_Neff=5.500
+
+Q QNYQQY            1 QNYQQY    6 (6)
+Q Consensus         1 qnyqqy    6 (6)
+                      +||++|
+T Consensus       127 ~~y~KY  132 (276)
+T 1C8N_C          127 DNYSKW  132 (276)
+T ss_dssp             TTEEEE
+T ss_pred             HHhcEe
+
+
+No 9
+>6RQF_G PROTEIN; Plastoquinol-plastocyanin oxido-reductase Cytochrome b6f Photosynthesis; HET: BCR, PGV, SQD, 6PL, HEM, CLA, LMG, PL9, HEC; 3.58A {Spinacia oleracea}
+Probab=10.81  E-value=2.6e+02  Score=10.72  Aligned_cols=4  Identities=75%  Similarity=1.389  Sum_probs=0.0  Template_Neff=2.500
+
+Q QNYQQY            3 YQQY    6 (6)
+Q Consensus         3 yqqy    6 (6)
+                      |.||
+T Consensus        26 Y~Qy   29 (37)
+T 6RQF_G           26 YLQY   29 (37)
+T ss_dssp             HHHH
+T ss_pred             HHHH
+
+
+No 10
+>4OGQ_G Cytochrome b6, Cytochrome b6-f complex; Electron transfer, Plastocyanin, cytochrome c6; HET: HEM, 2WD, SQD, OPC, CLA, 1O2, 2WM, 2WA, 8K6, 7PH, 3WM, UMQ, MYS, BCR; 2.501A {Nostoc sp.}
+Probab=10.79  E-value=2.6e+02  Score=10.71  Aligned_cols=4  Identities=75%  Similarity=1.647  Sum_probs=0.0  Template_Neff=2.500
+
+Q QNYQQY            3 YQQY    6 (6)
+Q Consensus         3 yqqy    6 (6)
+                      |.||
+T Consensus        26 Y~Qy   29 (37)
+T 4OGQ_G           26 YKQY   29 (37)
+T ss_dssp             HHHH
+T ss_pred             HHHH
+
+

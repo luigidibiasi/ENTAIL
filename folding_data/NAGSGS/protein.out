@@ -1,0 +1,459 @@
+Query         NAGSGS
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 22:50:03 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NAGSGS/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NAGSGS/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4H0P_A acetate kinase (E.C.2.7  47.1      18 0.00019   17.3   0.0    6    1-6      12-17  (438)
+  2 1TUU_A Acetate kinase (E.C.2.7  44.6      20 0.00023   16.0   0.0    6    1-6       7-12  (399)
+  3 3KHY_A Propionate kinase (E.C.  44.4      21 0.00023   15.9   0.0    6    1-6       8-13  (384)
+  4 1G99_A ACETATE KINASE (E.C.2.7  42.0      24 0.00026   16.1   0.0    6    1-6       7-12  (408)
+  5 2IIR_I Acetate kinase (E.C.2.7  41.4      25 0.00027   15.9   0.0    6    1-6       7-12  (403)
+  6 6IOY_B Acetate kinase (E.C.2.7  41.3      25 0.00028   15.7   0.0    6    1-6      12-17  (403)
+  7 6IOY_C Acetate kinase (E.C.2.7  39.7      27  0.0003   15.7   0.0    6    1-6      12-17  (403)
+  8 4XH4_A Propionate kinase (E.C.  38.3      30 0.00033   16.0   0.0    6    1-6      25-30  (416)
+  9 4FWM_A Propionate kinase (E.C.  37.8      31 0.00034   15.9   0.0    6    1-6      24-29  (410)
+ 10 1X3M_A Propionate kinase (E.C.  37.4      31 0.00035   15.9   0.0    6    1-6      24-29  (415)
+ 11 6NQ6_A N(4)-(Beta-N-acetylgluc  36.2      34 0.00037   14.1   0.0    6    1-6      50-55  (138)
+ 12 4IJN_A Acetate kinase (E.C.2.7  34.3      38 0.00042   15.7   0.0    6    1-6      29-34  (398)
+ 13 3SLC_A Acetate kinase (E.C.2.7  32.6      42 0.00047   16.1   0.0    6    1-6      25-30  (415)
+ 14 6DEY_A Glycosylasparaginase; H  29.6      51 0.00057   13.8   0.0    6    1-6      49-54  (141)
+ 15 4H0O_B Acetate kinase (E.C.2.7  28.7      54  0.0006   15.6   0.0    6    1-6      20-25  (404)
+ 16 4O0C_A Isoaspartyl peptidase/L  28.6      55  0.0006   15.0   0.0    6    1-6      63-68  (309)
+ 17 4OSX_A Isoaspartyl peptidase/L  28.6      55  0.0006   15.0   0.0    6    1-6      63-68  (309)
+ 18 1APY_A ASPARTYLGLUCOSAMINIDASE  28.3      56 0.00062   13.9   0.0    6    1-6      49-54  (162)
+ 19 3LJQ_C Aspartylglucosylaminase  28.1      57 0.00063   14.9   0.0    6    1-6      54-59  (299)
+ 20 4PVR_B Isoaspartyl peptidase/L  27.8      58 0.00064   15.0   0.0    6    1-6      64-69  (310)
+ 21 1T3M_A Putative L-asparaginase  27.7      58 0.00065   14.2   0.0    6    1-6      66-71  (177)
+ 22 1P4K_C ALPHA BETA, BETA ALPHA,  27.4      59 0.00066   14.8   0.0    6    1-6      50-55  (295)
+ 23 5V2I_A Glycosylasparaginase; B  26.0      65 0.00072   14.7   0.0    6    1-6      50-55  (295)
+ 24 3C17_B L-asparaginase precurso  25.1      70 0.00077   14.7   0.0    6    1-6      66-71  (320)
+ 25 3C17_A L-asparaginase precurso  24.9      70 0.00078   14.7   0.0    6    1-6      66-71  (320)
+ 26 3SK3_B Acetate kinase (E.C.2.7  24.9      71 0.00078   15.2   0.0    6    1-6      25-30  (415)
+ 27 2A8L_A Taspase1, MLL, Leukemia  24.0      75 0.00083   15.3   0.0    6    1-6     100-105 (420)
+ 28 2A8I_A Threonine aspartase 1 (  21.8      89 0.00098   15.2   0.0    6    1-6     100-105 (420)
+ 29 1X9J_A Probable butyrate kinas  21.6      90   0.001   13.7   0.0    6    1-6       8-13  (375)
+ 30 3G3L_A Putative uncharacterize  20.1   1E+02  0.0011   14.7   0.0    6    1-6     320-325 (327)
+
+No 1
+>4H0P_A acetate kinase (E.C.2.7.2.1); ATP-dependent acetate kinase, ASKHA (acetate; 1.894A {Cryptococcus neoformans}
+Probab=47.14  E-value=18  Score=17.30  Aligned_cols=6  Identities=67%  Similarity=0.872  Sum_probs=4.4  Template_Neff=6.600
+
+Q NAGSGS            1 NAGSGS    6 (6)
+Q Consensus         1 nagsgs    6 (6)
+                      |+||.|
+T Consensus        12 N~GSSS   17 (438)
+T 4H0P_A           12 NCGSSS   17 (438)
+T ss_dssp             EECSSC
+T ss_pred             eCCCCc
+Confidence            778865
+
+
+No 2
+>1TUU_A Acetate kinase (E.C.2.7.2.1); alpha/beta, ASKHA (acetate and sugar; HET: ADP, AMP; 2.5A {Methanosarcina thermophila} SCOP: c.55.1.2
+Probab=44.59  E-value=20  Score=16.00  Aligned_cols=6  Identities=83%  Similarity=0.977  Sum_probs=4.1  Template_Neff=8.200
+
+Q NAGSGS            1 NAGSGS    6 (6)
+Q Consensus         1 nagsgs    6 (6)
+                      |+||.|
+T Consensus         7 N~GSsS   12 (399)
+T 1TUU_A            7 NAGSSS   12 (399)
+T ss_dssp             EECSSC
+T ss_pred             eCCCCc
+Confidence            677765
+
+
+No 3
+>3KHY_A Propionate kinase (E.C.2.7.2.-); propionate kinase, CSGID, IDP01739, ATP-binding; HET: MSE; 1.978A {Francisella tularensis subsp. tularensis}
+Probab=44.43  E-value=21  Score=15.91  Aligned_cols=6  Identities=67%  Similarity=0.872  Sum_probs=4.1  Template_Neff=8.200
+
+Q NAGSGS            1 NAGSGS    6 (6)
+Q Consensus         1 nagsgs    6 (6)
+                      |+||.|
+T Consensus         8 N~GSsS   13 (384)
+T 3KHY_A            8 NCGSSS   13 (384)
+T ss_dssp             EECSSC
+T ss_pred             eCCCCc
+Confidence            677765
+
+
+No 4
+>1G99_A ACETATE KINASE (E.C.2.7.2.1); ALPHA/BETA  ASKHA (ACETATE AND; HET: SO4, ADP; 2.5A {Methanosarcina thermophila} SCOP: c.55.1.2
+Probab=41.97  E-value=24  Score=16.13  Aligned_cols=6  Identities=83%  Similarity=0.977  Sum_probs=4.2  Template_Neff=7.700
+
+Q NAGSGS            1 NAGSGS    6 (6)
+Q Consensus         1 nagsgs    6 (6)
+                      |+||.|
+T Consensus         7 N~GSSS   12 (408)
+T 1G99_A            7 NAGSSS   12 (408)
+T ss_dssp             EECSSC
+T ss_pred             eCCCCc
+Confidence            677765
+
+
+No 5
+>2IIR_I Acetate kinase (E.C.2.7.2.1); Transferase, acetate kinase, thermotoga maritima; 3.3A {Thermotoga maritima}
+Probab=41.37  E-value=25  Score=15.95  Aligned_cols=6  Identities=67%  Similarity=0.905  Sum_probs=4.1  Template_Neff=7.900
+
+Q NAGSGS            1 NAGSGS    6 (6)
+Q Consensus         1 nagsgs    6 (6)
+                      |+||.|
+T Consensus         7 N~GSSS   12 (403)
+T 2IIR_I            7 NSGSSS   12 (403)
+T ss_dssp             EEETTE
+T ss_pred             ECCCCc
+Confidence            677765
+
+
+No 6
+>6IOY_B Acetate kinase (E.C.2.7.2.1); Porphyromonas gingivalis, acetate kinase, ATP; HET: MPD, SO4; 1.94A {Porphyromonas gingivalis (strain ATCC 33277 / DSM 20709 / CIP 103683 / JCM 12257 / NCTC 11834 / 2561)}
+Probab=41.33  E-value=25  Score=15.71  Aligned_cols=6  Identities=67%  Similarity=0.872  Sum_probs=4.0  Template_Neff=8.300
+
+Q NAGSGS            1 NAGSGS    6 (6)
+Q Consensus         1 nagsgs    6 (6)
+                      |+||.|
+T Consensus        12 N~GSsS   17 (403)
+T 6IOY_B           12 NCGSSS   17 (403)
+T ss_pred             eCCCCc
+Confidence            677765
+
+
+No 7
+>6IOY_C Acetate kinase (E.C.2.7.2.1); Porphyromonas gingivalis, acetate kinase, ATP; HET: MPD, SO4; 1.94A {Porphyromonas gingivalis (strain ATCC 33277 / DSM 20709 / CIP 103683 / JCM 12257 / NCTC 11834 / 2561)}
+Probab=39.71  E-value=27  Score=15.70  Aligned_cols=6  Identities=67%  Similarity=0.872  Sum_probs=3.9  Template_Neff=8.100
+
+Q NAGSGS            1 NAGSGS    6 (6)
+Q Consensus         1 nagsgs    6 (6)
+                      |+||.|
+T Consensus        12 N~GSsS   17 (403)
+T 6IOY_C           12 NCGSSS   17 (403)
+T ss_dssp             EEETTE
+T ss_pred             eCCCCc
+Confidence            677765
+
+
+No 8
+>4XH4_A Propionate kinase (E.C.2.7.2.15); TRANSFERASE, KINASE, TDCD, AMPPNP, PROPIONATE; HET: ANP; 1.8A {Salmonella typhimurium (strain LT2 / SGSC1412 / ATCC 700720)}
+Probab=38.26  E-value=30  Score=15.99  Aligned_cols=6  Identities=67%  Similarity=0.872  Sum_probs=3.9  Template_Neff=7.500
+
+Q NAGSGS            1 NAGSGS    6 (6)
+Q Consensus         1 nagsgs    6 (6)
+                      |+||.|
+T Consensus        25 N~GSsS   30 (416)
+T 4XH4_A           25 NCGSSS   30 (416)
+T ss_dssp             EECSSC
+T ss_pred             ECCCCc
+Confidence            667765
+
+
+No 9
+>4FWM_A Propionate kinase (E.C.2.7.2.15); Transferase, Kinase, Acetate and Sugar; HET: EDO, ATP; 2.95A {Salmonella typhimurium}
+Probab=37.79  E-value=31  Score=15.87  Aligned_cols=6  Identities=67%  Similarity=0.872  Sum_probs=3.8  Template_Neff=7.600
+
+Q NAGSGS            1 NAGSGS    6 (6)
+Q Consensus         1 nagsgs    6 (6)
+                      |+||.|
+T Consensus        24 N~GSsS   29 (410)
+T 4FWM_A           24 NCGSSS   29 (410)
+T ss_dssp             EECSSC
+T ss_pred             ECCCCc
+Confidence            667755
+
+
+No 10
+>1X3M_A Propionate kinase (E.C.2.7.2.-); Propionate Kinase, TdcD, ADP, L-threonine; HET: ADP; 2.2A {Salmonella typhimurium} SCOP: c.55.1.2
+Probab=37.43  E-value=31  Score=15.92  Aligned_cols=6  Identities=67%  Similarity=0.872  Sum_probs=3.8  Template_Neff=7.500
+
+Q NAGSGS            1 NAGSGS    6 (6)
+Q Consensus         1 nagsgs    6 (6)
+                      |+||.|
+T Consensus        24 N~GSsS   29 (415)
+T 1X3M_A           24 NCGSSS   29 (415)
+T ss_dssp             EECSSE
+T ss_pred             ECCCCc
+Confidence            667755
+
+
+No 11
+>6NQ6_A N(4)-(Beta-N-acetylglucosaminyl)-L-asparaginase (E.C.3.5.1.26), Glycosylasparaginase; Hydrolase; 1.5A {Elizabethkingia meningoseptica}
+Probab=36.22  E-value=34  Score=14.14  Aligned_cols=6  Identities=33%  Similarity=0.706  Sum_probs=2.8  Template_Neff=6.500
+
+Q NAGSGS            1 NAGSGS    6 (6)
+Q Consensus         1 nagsgs    6 (6)
+                      |||-||
+T Consensus        50 NaG~Gs   55 (138)
+T 6NQ6_A           50 SVGYGG   55 (138)
+T ss_dssp             TSGGGC
+T ss_pred             CCCCCC
+Confidence            445443
+
+
+No 12
+>4IJN_A Acetate kinase (E.C.2.7.2.1); proprionate kinase, ATP-dependent, Metabolic intermediate; HET: EDO, SO4, AMP; 1.7A {Mycobacterium smegmatis}
+Probab=34.31  E-value=38  Score=15.70  Aligned_cols=6  Identities=67%  Similarity=0.905  Sum_probs=3.8  Template_Neff=7.300
+
+Q NAGSGS            1 NAGSGS    6 (6)
+Q Consensus         1 nagsgs    6 (6)
+                      |+||.|
+T Consensus        29 N~GSsS   34 (398)
+T 4IJN_A           29 NSGSSS   34 (398)
+T ss_dssp             EECSSC
+T ss_pred             ecCCCc
+Confidence            667654
+
+
+No 13
+>3SLC_A Acetate kinase (E.C.2.7.2.1); Actin-like ATPase domain, ASKHA superfamily; HET: EDO; 2.7A {Salmonella enterica subsp. enterica serovar Typhimurium}
+Probab=32.62  E-value=42  Score=16.12  Aligned_cols=6  Identities=67%  Similarity=0.872  Sum_probs=3.8  Template_Neff=6.400
+
+Q NAGSGS            1 NAGSGS    6 (6)
+Q Consensus         1 nagsgs    6 (6)
+                      |+||.|
+T Consensus        25 N~GSSS   30 (415)
+T 3SLC_A           25 NCGSSS   30 (415)
+T ss_dssp             EECSSC
+T ss_pred             eCCCCc
+Confidence            667754
+
+
+No 14
+>6DEY_A Glycosylasparaginase; HYDROLASE; 1.63A {Elizabethkingia meningoseptica}
+Probab=29.58  E-value=51  Score=13.82  Aligned_cols=6  Identities=33%  Similarity=0.706  Sum_probs=2.7  Template_Neff=6.200
+
+Q NAGSGS            1 NAGSGS    6 (6)
+Q Consensus         1 nagsgs    6 (6)
+                      |||-||
+T Consensus        49 NaG~Gs   54 (141)
+T 6DEY_A           49 SVGYGG   54 (141)
+T ss_dssp             TSSTTC
+T ss_pred             CCCCCC
+Confidence            355443
+
+
+No 15
+>4H0O_B Acetate kinase (E.C.2.7.2.12); pyrophosphate-dependent acetate kinase, ASKHA (acetate; 2.4A {Entamoeba histolytica}
+Probab=28.70  E-value=54  Score=15.63  Aligned_cols=6  Identities=67%  Similarity=0.850  Sum_probs=3.7  Template_Neff=6.600
+
+Q NAGSGS            1 NAGSGS    6 (6)
+Q Consensus         1 nagsgs    6 (6)
+                      |+||.|
+T Consensus        20 N~GSSS   25 (404)
+T 4H0O_B           20 NVGSSS   25 (404)
+T ss_dssp             EECSSC
+T ss_pred             ecCCCc
+Confidence            566654
+
+
+No 16
+>4O0C_A Isoaspartyl peptidase/L-asparaginase (E.C.3.4.19.5, 3.5.1.1); NTN ENZYME, HOMODIMER, Asparaginase, Hydrolase; 1.5A {Homo sapiens}
+Probab=28.65  E-value=55  Score=14.99  Aligned_cols=6  Identities=83%  Similarity=1.204  Sum_probs=3.1  Template_Neff=6.800
+
+Q NAGSGS            1 NAGSGS    6 (6)
+Q Consensus         1 nagsgs    6 (6)
+                      |||.||
+T Consensus        63 NaG~Gs   68 (309)
+T 4O0C_A           63 NAGCGS   68 (309)
+T ss_dssp             SSSTTC
+T ss_pred             cCCCCc
+Confidence            455554
+
+
+No 17
+>4OSX_A Isoaspartyl peptidase/L-asparaginase (E.C.3.4.19.5, 3.5.1.1); NTN ENZYME, HYDROLASE; HET: GLY; 1.95A {Homo sapiens}
+Probab=28.65  E-value=55  Score=14.99  Aligned_cols=6  Identities=83%  Similarity=1.204  Sum_probs=3.1  Template_Neff=6.800
+
+Q NAGSGS            1 NAGSGS    6 (6)
+Q Consensus         1 nagsgs    6 (6)
+                      |||.||
+T Consensus        63 NaG~Gs   68 (309)
+T 4OSX_A           63 NAGCGS   68 (309)
+T ss_dssp             SSSTTC
+T ss_pred             cCCCCc
+Confidence            455554
+
+
+No 18
+>1APY_A ASPARTYLGLUCOSAMINIDASE; ASPARTYLGLUCOSAMINIDASE, GLYCOSYLASPARAGINASE, HYDROLASE; HET: BMA, NAG; 2.0A {Homo sapiens} SCOP: d.153.1.5
+Probab=28.31  E-value=56  Score=13.89  Aligned_cols=6  Identities=33%  Similarity=0.656  Sum_probs=2.7  Template_Neff=6.400
+
+Q NAGSGS            1 NAGSGS    6 (6)
+Q Consensus         1 nagsgs    6 (6)
+                      |||-||
+T Consensus        49 naG~Gs   54 (162)
+T 1APY_A           49 SVGFGG   54 (162)
+T ss_dssp             SSSSSS
+T ss_pred             CCCCCC
+Confidence            355443
+
+
+No 19
+>3LJQ_C Aspartylglucosylaminase, Active Precursors, Precursor structure; 1.9A {Flavobacterium meningosepticum}
+Probab=28.11  E-value=57  Score=14.93  Aligned_cols=6  Identities=33%  Similarity=0.706  Sum_probs=3.1  Template_Neff=6.700
+
+Q NAGSGS            1 NAGSGS    6 (6)
+Q Consensus         1 nagsgs    6 (6)
+                      |||.||
+T Consensus        54 NaG~GS   59 (299)
+T 3LJQ_C           54 SVGYGG   59 (299)
+T ss_dssp             TSSTTC
+T ss_pred             CCCCCC
+Confidence            455554
+
+
+No 20
+>4PVR_B Isoaspartyl peptidase/L-asparaginase (E.C.3.4.19.5, 3.5.1.1); NTN ENZYME, HOMODIMER, HYDROLASE, L-ASPARAGINE; HET: ASP; 1.75A {Homo sapiens}
+Probab=27.84  E-value=58  Score=14.98  Aligned_cols=6  Identities=83%  Similarity=1.204  Sum_probs=3.1  Template_Neff=6.700
+
+Q NAGSGS            1 NAGSGS    6 (6)
+Q Consensus         1 nagsgs    6 (6)
+                      |||.||
+T Consensus        64 NaG~Gs   69 (310)
+T 4PVR_B           64 NAGCGS   69 (310)
+T ss_dssp             SSSTTC
+T ss_pred             CcCCCC
+Confidence            455554
+
+
+No 21
+>1T3M_A Putative L-asparaginase precursor (E.C.3.5.1.1); TYPE III L-ASPARAGINASE, PLANT-TYPE ASPARAGINASE; HET: NO3; 1.65A {Escherichia coli} SCOP: d.153.1.5
+Probab=27.65  E-value=58  Score=14.16  Aligned_cols=6  Identities=67%  Similarity=1.038  Sum_probs=2.7  Template_Neff=6.100
+
+Q NAGSGS            1 NAGSGS    6 (6)
+Q Consensus         1 nagsgs    6 (6)
+                      |||-||
+T Consensus        66 NaG~GS   71 (177)
+T 1T3M_A           66 NAGIGA   71 (177)
+T ss_dssp             SSSTTC
+T ss_pred             CCCCCc
+Confidence            445443
+
+
+No 22
+>1P4K_C ALPHA BETA, BETA ALPHA, SANDWICH; HET: GOL; 1.9A {Elizabethkingia meningoseptica} SCOP: d.153.1.5
+Probab=27.36  E-value=59  Score=14.84  Aligned_cols=6  Identities=33%  Similarity=0.706  Sum_probs=3.1  Template_Neff=6.700
+
+Q NAGSGS            1 NAGSGS    6 (6)
+Q Consensus         1 nagsgs    6 (6)
+                      |||.||
+T Consensus        50 NaG~Gs   55 (295)
+T 1P4K_C           50 SVGYGG   55 (295)
+T ss_dssp             TSSTTC
+T ss_pred             CCCCCC
+Confidence            455554
+
+
+No 23
+>5V2I_A Glycosylasparaginase; Beta-AHA, catalytic mechanism, HYDROLASE; 1.83A {Elizabethkingia meningoseptica}
+Probab=26.04  E-value=65  Score=14.67  Aligned_cols=6  Identities=33%  Similarity=0.706  Sum_probs=3.0  Template_Neff=6.800
+
+Q NAGSGS            1 NAGSGS    6 (6)
+Q Consensus         1 nagsgs    6 (6)
+                      |||.||
+T Consensus        50 NaG~Gs   55 (295)
+T 5V2I_A           50 SVGYGG   55 (295)
+T ss_dssp             TSSTTC
+T ss_pred             CCCCCC
+Confidence            455553
+
+
+No 24
+>3C17_B L-asparaginase precursor (E.C.3.4.19.5, 3.5.1.1); ISOASPARTYL PEPTIDASE, ASPARAGINASE, NTN-HYDROLASE, AUTOPROTEOLYSIS; HET: NA, CL; 1.95A {Escherichia coli}
+Probab=25.11  E-value=70  Score=14.74  Aligned_cols=6  Identities=67%  Similarity=1.038  Sum_probs=3.0  Template_Neff=6.800
+
+Q NAGSGS            1 NAGSGS    6 (6)
+Q Consensus         1 nagsgs    6 (6)
+                      |||.||
+T Consensus        66 NaG~Gs   71 (320)
+T 3C17_B           66 NAGIGA   71 (320)
+T ss_dssp             SSSTTC
+T ss_pred             CCCCCC
+Confidence            455553
+
+
+No 25
+>3C17_A L-asparaginase precursor (E.C.3.4.19.5, 3.5.1.1); ISOASPARTYL PEPTIDASE, ASPARAGINASE, NTN-HYDROLASE, AUTOPROTEOLYSIS; HET: CL, NA; 1.95A {Escherichia coli}
+Probab=24.94  E-value=70  Score=14.73  Aligned_cols=6  Identities=67%  Similarity=1.038  Sum_probs=3.0  Template_Neff=6.800
+
+Q NAGSGS            1 NAGSGS    6 (6)
+Q Consensus         1 nagsgs    6 (6)
+                      |||.||
+T Consensus        66 NaG~Gs   71 (320)
+T 3C17_A           66 NAGIGA   71 (320)
+T ss_dssp             SSSTTC
+T ss_pred             Cccccc
+Confidence            455543
+
+
+No 26
+>3SK3_B Acetate kinase (E.C.2.7.2.1); Actin-like ATPase domain, ASKHA superfamily; HET: CIT, EDO; 1.9A {Salmonella enterica subsp. enterica serovar Typhimurium}
+Probab=24.87  E-value=71  Score=15.18  Aligned_cols=6  Identities=67%  Similarity=0.872  Sum_probs=3.5  Template_Neff=6.900
+
+Q NAGSGS            1 NAGSGS    6 (6)
+Q Consensus         1 nagsgs    6 (6)
+                      |+||.|
+T Consensus        25 N~GSSS   30 (415)
+T 3SK3_B           25 NCGSSS   30 (415)
+T ss_dssp             EECSSC
+T ss_pred             eCCCCc
+Confidence            566654
+
+
+No 27
+>2A8L_A Taspase1, MLL, Leukemia, Glycosylasparaginase, asparaginase; 2.0A {Homo sapiens}
+Probab=24.02  E-value=75  Score=15.32  Aligned_cols=6  Identities=83%  Similarity=1.121  Sum_probs=3.2  Template_Neff=6.500
+
+Q NAGSGS            1 NAGSGS    6 (6)
+Q Consensus         1 nagsgs    6 (6)
+                      |||.||
+T Consensus       100 NaG~GS  105 (420)
+T 2A8L_A          100 NAGMGS  105 (420)
+T ss_dssp             SSSTTC
+T ss_pred             cccCCc
+Confidence            555554
+
+
+No 28
+>2A8I_A Threonine aspartase 1 (E.C.3.4.25.-); Taspase1, Asparaginase, Glycosylspaginse, MLL, THREONINE; 2.0A {Homo sapiens}
+Probab=21.82  E-value=89  Score=15.25  Aligned_cols=6  Identities=83%  Similarity=1.121  Sum_probs=3.3  Template_Neff=6.200
+
+Q NAGSGS            1 NAGSGS    6 (6)
+Q Consensus         1 nagsgs    6 (6)
+                      |||-||
+T Consensus       100 NAG~GS  105 (420)
+T 2A8I_A          100 NAGMGS  105 (420)
+T ss_dssp             SSSTTC
+T ss_pred             cccCCc
+Confidence            556554
+
+
+No 29
+>1X9J_A Probable butyrate kinase 2 (E.C.2.7.2.7); ASKHA (ACETATE AND SUGAR KINASES; HET: PO4, GOL, CIT; 3.0A {Thermotoga maritima} SCOP: c.55.1.2
+Probab=21.58  E-value=90  Score=13.67  Aligned_cols=6  Identities=67%  Similarity=0.778  Sum_probs=3.5  Template_Neff=8.800
+
+Q NAGSGS            1 NAGSGS    6 (6)
+Q Consensus         1 nagsgs    6 (6)
+                      |+||.|
+T Consensus         8 N~GSsS   13 (375)
+T 1X9J_A            8 NPGSTS   13 (375)
+T ss_dssp             EECSSE
+T ss_pred             eCCCCc
+Confidence            566654
+
+
+No 30
+>3G3L_A Putative uncharacterized membrane-associated protein; YP_211325.1, putative membrane-associated protein of; HET: GOL; 2.2A {Bacteroides fragilis NCTC 9343}
+Probab=20.05  E-value=1e+02  Score=14.72  Aligned_cols=6  Identities=83%  Similarity=1.221  Sum_probs=0.0  Template_Neff=5.900
+
+Q NAGSGS            1 NAGSGS    6 (6)
+Q Consensus         1 nagsgs    6 (6)
+                      |||.||
+T Consensus       320 ~~~~~~  325 (327)
+T 3G3L_A          320 NAGGGS  325 (327)
+T ss_dssp             ------
+T ss_pred             CCCCCC
+Confidence            456554
+
+

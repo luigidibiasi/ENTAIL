@@ -1,0 +1,150 @@
+Query         LATVYR
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 16:59:50 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LATVYR/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LATVYR/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5L0P_A Transcription factor ET  58.2     8.9 9.8E-05   17.1   0.0    6    1-6     320-325 (353)
+  2 5GM6_W Prp8, Brr2, Snu114, Rse  19.8   1E+02  0.0011   14.6   0.0    4    3-6     121-124 (266)
+  3 7ACM_B transcription factor, H  16.1 1.4E+02  0.0016   10.1   0.0    5    2-6      43-47  (178)
+  4 2MJF_B Ribosome assembly 1 pro  15.7 1.5E+02  0.0017   12.9   0.0    6    1-6      33-38  (95)
+  5 3CCY_A Putative TetR-family tr  15.4 1.5E+02  0.0017   10.1   0.0    5    2-6      49-53  (203)
+  6 4NEL_A Transcriptional regulat  15.1 1.6E+02  0.0018    9.8   0.0    5    2-6      37-41  (190)
+  7 2GEN_A probable transcriptiona  14.2 1.7E+02  0.0019    9.9   0.0    5    2-6      42-46  (197)
+  8 3EUP_A Transcriptional regulat  13.5 1.9E+02  0.0021    9.9   0.0    5    2-6      46-50  (204)
+  9 3VPR_A Transcriptional regulat  13.4 1.9E+02  0.0021    9.8   0.0    5    2-6      38-42  (190)
+ 10 3CRJ_C Transcription regulator  13.1   2E+02  0.0022    9.8   0.0    5    2-6      49-53  (199)
+
+No 1
+>5L0P_A Transcription factor ETV6,Transcription factor ETV6,Transcription; design, lattice, 2D, assembly, DE; 2.3A {Homo sapiens}
+Probab=58.15  E-value=8.9  Score=17.11  Aligned_cols=6  Identities=100%  Similarity=1.376  Sum_probs=4.1  Template_Neff=7.700
+
+Q LATVYR            1 LATVYR    6 (6)
+Q Consensus         1 latvyr    6 (6)
+                      .+||||
+T Consensus       320 ~~TVYR  325 (353)
+T 5L0P_A          320 LATVYR  325 (353)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            367886
+
+
+No 2
+>5GM6_W Prp8, Brr2, Snu114, Rse1, Cus1; spliceosome, RNA splicing, Bact, Catalytically; HET: ADP, GTP, ZN; 3.5A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=19.84  E-value=1e+02  Score=14.58  Aligned_cols=4  Identities=75%  Similarity=1.506  Sum_probs=0.0  Template_Neff=5.300
+
+Q LATVYR            3 TVYR    6 (6)
+Q Consensus         3 tvyr    6 (6)
+                      ||||
+T Consensus       121 TVyR  124 (266)
+T 5GM6_W          121 TIYR  124 (266)
+T ss_pred             eeee
+
+
+No 3
+>7ACM_B transcription factor, HTH motif, DNA-binding; HET: TMO; 1.763A {Escherichia coli}
+Probab=16.09  E-value=1.4e+02  Score=10.09  Aligned_cols=5  Identities=0%  Similarity=-0.004  Sum_probs=0.0  Template_Neff=11.900
+
+Q LATVYR            2 ATVYR    6 (6)
+Q Consensus         2 atvyr    6 (6)
+                      +|+|+
+T Consensus        43 ~t~y~   47 (178)
+T 7ACM_B           43 GSMTY   47 (178)
+T ss_dssp             GGGGG
+T ss_pred             HHHHH
+
+
+No 4
+>2MJF_B Ribosome assembly 1 protein, Protein; PROTEIN BINDING; NMR {Saccharomyces cerevisiae}
+Probab=15.69  E-value=1.5e+02  Score=12.86  Aligned_cols=6  Identities=83%  Similarity=1.243  Sum_probs=0.0  Template_Neff=3.500
+
+Q LATVYR            1 LATVYR    6 (6)
+Q Consensus         1 latvyr    6 (6)
+                      |++|||
+T Consensus        33 L~~V~k   38 (95)
+T 2MJF_B           33 LAKVYR   38 (95)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 5
+>3CCY_A Putative TetR-family transcriptional regulator; APC88698, TetR, Bordetella parapertussis 12822; 2.01A {Bordetella parapertussis 12822}
+Probab=15.38  E-value=1.5e+02  Score=10.10  Aligned_cols=5  Identities=20%  Similarity=0.740  Sum_probs=0.0  Template_Neff=12.200
+
+Q LATVYR            2 ATVYR    6 (6)
+Q Consensus         2 atvyr    6 (6)
+                      +|+|+
+T Consensus        49 ~t~Y~   53 (203)
+T 3CCY_A           49 SRLYH   53 (203)
+T ss_dssp             GGGTT
+T ss_pred             HHHHH
+
+
+No 6
+>4NEL_A Transcriptional regulator; STRUCTURAL GENOMICS, PSI-BIOLOGY, MIDWEST CENTER; 2.05A {Saccharomonospora viridis}
+Probab=15.09  E-value=1.6e+02  Score=9.84  Aligned_cols=5  Identities=40%  Similarity=0.268  Sum_probs=0.0  Template_Neff=12.400
+
+Q LATVYR            2 ATVYR    6 (6)
+Q Consensus         2 atvyr    6 (6)
+                      +|+|+
+T Consensus        37 ~t~y~   41 (190)
+T 4NEL_A           37 ATIHY   41 (190)
+T ss_dssp             HHHHH
+T ss_pred             HHHhh
+
+
+No 7
+>2GEN_A probable transcriptional regulator; APC6095, Pseudomonas aeruginosa PA01, TetR; 1.7A {Pseudomonas aeruginosa PAO1} SCOP: a.4.1.9, a.121.1.1
+Probab=14.24  E-value=1.7e+02  Score=9.92  Aligned_cols=5  Identities=20%  Similarity=0.813  Sum_probs=0.0  Template_Neff=12.200
+
+Q LATVYR            2 ATVYR    6 (6)
+Q Consensus         2 atvyr    6 (6)
+                      +|+|+
+T Consensus        42 ~t~y~   46 (197)
+T 2GEN_A           42 GSLYH   46 (197)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 8
+>3EUP_A Transcriptional regulator, TetR family; Transcriptional regulator, TetR family, Structural; HET: SO4; 1.99A {Cytophaga hutchinsonii}
+Probab=13.46  E-value=1.9e+02  Score=9.95  Aligned_cols=5  Identities=20%  Similarity=0.793  Sum_probs=0.0  Template_Neff=12.100
+
+Q LATVYR            2 ATVYR    6 (6)
+Q Consensus         2 atvyr    6 (6)
+                      +|+|+
+T Consensus        46 ~t~y~   50 (204)
+T 3EUP_A           46 GSIYG   50 (204)
+T ss_dssp             HHHTT
+T ss_pred             HHHHH
+
+
+No 9
+>3VPR_A Transcriptional regulator, TetR family; All Alpha, Helix-Turn-Helix, Transcriptional Repressor; 2.27A {Thermus thermophilus}
+Probab=13.37  E-value=1.9e+02  Score=9.76  Aligned_cols=5  Identities=40%  Similarity=0.879  Sum_probs=0.0  Template_Neff=12.200
+
+Q LATVYR            2 ATVYR    6 (6)
+Q Consensus         2 atvyr    6 (6)
+                      +|+|+
+T Consensus        38 ~t~Y~   42 (190)
+T 3VPR_A           38 AALYH   42 (190)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 10
+>3CRJ_C Transcription regulator; APC88200, TetR, Haloarcula marismortui ATCC; HET: MSE; 2.6A {Haloarcula marismortui ATCC 43049}
+Probab=13.09  E-value=2e+02  Score=9.81  Aligned_cols=5  Identities=40%  Similarity=0.162  Sum_probs=0.0  Template_Neff=12.200
+
+Q LATVYR            2 ATVYR    6 (6)
+Q Consensus         2 atvyr    6 (6)
+                      +|+|+
+T Consensus        49 ~t~y~   53 (199)
+T 3CRJ_C           49 AAVHY   53 (199)
+T ss_dssp             TTSCT
+T ss_pred             HHHHH
+
+

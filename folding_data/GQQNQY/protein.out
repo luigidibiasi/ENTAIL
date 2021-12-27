@@ -1,0 +1,152 @@
+Query         GQQNQY
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 03:14:16 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GQQNQY/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GQQNQY/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6XFM_1 RNA-binding protein FUS  59.1     8.3 9.2E-05   17.2   0.0    6    1-6      46-51  (104)
+  2 2BJQ_A MFP2A; MOTILITY, ASCARI  50.8      14 0.00016   17.8   0.0    6    1-6      28-33  (345)
+  3 2BJR_B MFP2B; MOTILITY, ASCARI  44.5      21 0.00023   17.5   0.0    6    1-6      29-34  (368)
+  4 2BJR_A MFP2B; MOTILITY, ASCARI  29.6      51 0.00057   16.2   0.0    6    1-6      29-34  (368)
+  5 6S7T_H Dolichyl-diphosphooligo  15.2 1.6E+02  0.0017   12.5   0.0    6    1-6     260-265 (335)
+  6 2LW1_A ABC transporter ATP-bin  14.5 1.7E+02  0.0019   11.5   0.0    6    1-6       1-6   (108)
+  7 6FTJ_3 Uncharacterized protein  12.5 2.1E+02  0.0023   11.4   0.0    6    1-6      49-54  (120)
+  8 7AOI_BH bL28m, uL29m, uL30m, b  12.2 2.2E+02  0.0024   14.4   0.0    4    3-6     156-159 (225)
+  9 1ZDA_A MINI PROTEIN A DOMAIN,   11.7 2.3E+02  0.0025   10.7   0.0    6    1-6       9-14  (38)
+ 10 1OQX_D Immunoglobulin Gamma-1   11.5 2.4E+02  0.0026   10.4   0.0    6    1-6       4-9   (34)
+
+No 1
+>6XFM_1 RNA-binding protein FUS; Low complexity domain, Protein aggregation; 2.62A {Homo sapiens}
+Probab=59.13  E-value=8.3  Score=17.23  Aligned_cols=6  Identities=100%  Similarity=1.459  Sum_probs=3.4  Template_Neff=1.900
+
+Q GQQNQY            1 GQQNQY    6 (6)
+Q Consensus         1 gqqnqy    6 (6)
+                      +|||||
+T Consensus        46 gQQnqy   51 (104)
+T 6XFM_1           46 GQQNQY   51 (104)
+T ss_dssp             EEEEEE
+T ss_pred             cccccc
+Confidence            356665
+
+
+No 2
+>2BJQ_A MFP2A; MOTILITY, ASCARIS, NEMATODE, MSP; 1.75A {ASCARIS SUUM} SCOP: b.169.1.1
+Probab=50.78  E-value=14  Score=17.79  Aligned_cols=6  Identities=83%  Similarity=1.254  Sum_probs=4.4  Template_Neff=5.300
+
+Q GQQNQY            1 GQQNQY    6 (6)
+Q Consensus         1 gqqnqy    6 (6)
+                      ||||||
+T Consensus        28 G~~n~Y   33 (345)
+T 2BJQ_A           28 GQQNMY   33 (345)
+T ss_dssp             TCSSCE
+T ss_pred             CCCcee
+Confidence            577876
+
+
+No 3
+>2BJR_B MFP2B; MOTILITY, ASCARIS, NEMATODE, MSP; HET: SO4, MSE; 1.8A {ASCARIS SUUM} SCOP: b.169.1.1
+Probab=44.45  E-value=21  Score=17.46  Aligned_cols=6  Identities=83%  Similarity=1.254  Sum_probs=4.3  Template_Neff=5.200
+
+Q GQQNQY            1 GQQNQY    6 (6)
+Q Consensus         1 gqqnqy    6 (6)
+                      ||||||
+T Consensus        29 G~~n~Y   34 (368)
+T 2BJR_B           29 GQQNMY   34 (368)
+T ss_dssp             TCSSCE
+T ss_pred             CCCCeE
+Confidence            577876
+
+
+No 4
+>2BJR_A MFP2B; MOTILITY, ASCARIS, NEMATODE, MSP; HET: SO4; 1.8A {ASCARIS SUUM} SCOP: b.169.1.1
+Probab=29.62  E-value=51  Score=16.22  Aligned_cols=6  Identities=83%  Similarity=1.254  Sum_probs=3.8  Template_Neff=5.200
+
+Q GQQNQY            1 GQQNQY    6 (6)
+Q Consensus         1 gqqnqy    6 (6)
+                      ||||||
+T Consensus        29 g~~n~Y   34 (368)
+T 2BJR_A           29 GQQNMY   34 (368)
+T ss_dssp             TCSSCE
+T ss_pred             CCcccE
+Confidence            467776
+
+
+No 5
+>6S7T_H Dolichyl-diphosphooligosaccharide--protein glycosyltransferase subunit STT3B (E.C.2.4.99.18); N-glycosylation, Oligosaccharyltransferase, OSTB, TRANSFERASE; HET: MAN, EGY, KZB, BMA, 0K3, NAG; 3.5A {Homo sapiens}
+Probab=15.18  E-value=1.6e+02  Score=12.46  Aligned_cols=6  Identities=33%  Similarity=0.601  Sum_probs=0.0  Template_Neff=9.400
+
+Q GQQNQY            1 GQQNQY    6 (6)
+Q Consensus         1 gqqnqy    6 (6)
+                      |+++||
+T Consensus       260 ~~~~Q~  265 (335)
+T 6S7T_H          260 SSQAQF  265 (335)
+T ss_dssp             SSSCCC
+T ss_pred             CCcchH
+
+
+No 6
+>2LW1_A ABC transporter ATP-binding protein uup; ABC REG subfamily, DNA BINDING; NMR {Escherichia coli}
+Probab=14.46  E-value=1.7e+02  Score=11.53  Aligned_cols=6  Identities=83%  Similarity=1.298  Sum_probs=0.0  Template_Neff=6.900
+
+Q GQQNQY            1 GQQNQY    6 (6)
+Q Consensus         1 gqqnqy    6 (6)
+                      |+|.+|
+T Consensus         1 ~~~~~~    6 (108)
+T 2LW1_A            1 GQQEQY    6 (108)
+T ss_dssp             ------
+T ss_pred             ChhHHH
+
+
+No 7
+>6FTJ_3 Uncharacterized protein, Ribosomal protein L4; Protein translocon of the endoplasmic; HET: 9UB, MG, BMA, MAN, NAG; 4.7A {Oryctolagus cuniculus}
+Probab=12.46  E-value=2.1e+02  Score=11.37  Aligned_cols=6  Identities=33%  Similarity=0.507  Sum_probs=0.0  Template_Neff=7.100
+
+Q GQQNQY            1 GQQNQY    6 (6)
+Q Consensus         1 gqqnqy    6 (6)
+                      ++|+||
+T Consensus        49 ~~~~Q~   54 (120)
+T 6FTJ_3           49 RVNGQY   54 (120)
+T ss_pred             CCCccH
+
+
+No 8
+>7AOI_BH bL28m, uL29m, uL30m, bL32m, bL33m; mitochondria, translation, trypanosoma, assembly, evolution; HET: ADP, GTP, NAD, 4HH; 3.5A {Trypanosoma brucei}
+Probab=12.17  E-value=2.2e+02  Score=14.37  Aligned_cols=4  Identities=100%  Similarity=1.414  Sum_probs=0.0  Template_Neff=1.900
+
+Q GQQNQY            3 QNQY    6 (6)
+Q Consensus         3 qnqy    6 (6)
+                      ||||
+T Consensus       156 QNqy  159 (225)
+T 7AOI_BH         156 QNQY  159 (225)
+T ss_pred             Ccce
+
+
+No 9
+>1ZDA_A MINI PROTEIN A DOMAIN, Z38; IGG BINDING DOMAIN, PROTEIN A; NMR {synthetic construct} SCOP: k.13.1.1
+Probab=11.72  E-value=2.3e+02  Score=10.70  Aligned_cols=6  Identities=33%  Similarity=0.628  Sum_probs=0.0  Template_Neff=3.200
+
+Q GQQNQY            1 GQQNQY    6 (6)
+Q Consensus         1 gqqnqy    6 (6)
+                      +|||-|
+T Consensus         9 ~qQnAF   14 (38)
+T 1ZDA_A            9 QQQRRF   14 (38)
+T ss_dssp             TSSHHH
+T ss_pred             HHHHHH
+
+
+No 10
+>1OQX_D Immunoglobulin Gamma-1 Heavy Chain Constant; Antibody, Glycosylation, Oligosaccharides, IgG, Peptide; HET: FUC, BMA, MAN, NAG, FUL; 2.6A {Homo sapiens} SCOP: k.13.1.1
+Probab=11.48  E-value=2.4e+02  Score=10.36  Aligned_cols=6  Identities=17%  Similarity=0.346  Sum_probs=0.0  Template_Neff=3.500
+
+Q GQQNQY            1 GQQNQY    6 (6)
+Q Consensus         1 gqqnqy    6 (6)
+                      +|||-|
+T Consensus         4 ~qQ~Af    9 (34)
+T 1OQX_D            4 QCQRRF    9 (34)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+

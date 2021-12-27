@@ -1,0 +1,245 @@
+Query         MSLNDF
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 22:28:09 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/MSLNDF/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/MSLNDF/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5ZWM_Y Pre-mRNA-splicing facto  71.5     3.2 3.6E-05   19.2   0.0    6    1-6       1-6   (266)
+  2 5GM6_W Prp8, Brr2, Snu114, Rse  71.4     3.2 3.6E-05   19.2   0.0    6    1-6       1-6   (266)
+  3 6FEC_u Eukaryotic translation   60.8     7.4 8.2E-05   19.6   0.0    6    1-6      40-45  (636)
+  4 1M0O_A 2,2-Dialkylglycine Deca  52.6      13 0.00014   14.9   0.0    6    1-6       1-6   (433)
+  5 1ZOD_A 2,2-dialkylglycine deca  52.6      13 0.00014   14.9   0.0    6    1-6       1-6   (433)
+  6 2MMB_A Uncharacterized protein  38.2      30 0.00033   15.5   0.0    6    1-6      29-34  (107)
+  7 2O8V_A Phosphoadenosine phosph  28.4      56 0.00062   12.9   0.0    6    1-6       1-6   (252)
+  8 2DUW_A putative CoA-binding pr  27.0      61 0.00067   12.2   0.0    6    1-6       1-6   (145)
+  9 2M4G_A Murine Norovirus VPg pr  25.3      69 0.00076   13.6   0.0    6    1-6      30-35  (75)
+ 10 2P0R_B Calpain-9 (E.C.3.4.22.5  25.0      70 0.00077   13.8   0.0    6    1-6     312-317 (333)
+ 11 2NQA_B Calpain 8 (E.C.3.4.22.5  24.6      72  0.0008   13.6   0.0    6    1-6     306-311 (326)
+ 12 1ZCM_A Calpain 1, large [catal  23.1      81 0.00089   13.4   0.0    6    1-6     304-309 (321)
+ 13 2R9C_A Calpain-1 catalytic sub  23.0      81  0.0009   13.7   0.0    6    1-6     311-316 (339)
+ 14 2R9F_A Calpain-1 catalytic sub  22.3      85 0.00094   13.5   0.0    6    1-6     311-316 (339)
+ 15 6ASO_A Lsm2-8 spliceosome U6 P  22.3      86 0.00095   13.1   0.0    6    1-6     406-411 (424)
+ 16 3SLR_A uncharacterized protein  20.2   1E+02  0.0011   13.6   0.0    6    1-6       1-6   (387)
+
+No 1
+>5ZWM_Y Pre-mRNA-splicing factor 8, U4/U6 small; spliceosome, assembly, pre-B complex, U1; HET: GTP; 3.4A {Saccharomyces cerevisiae S288c}
+Probab=71.53  E-value=3.2  Score=19.22  Aligned_cols=6  Identities=33%  Similarity=0.922  Sum_probs=5.0  Template_Neff=5.300
+
+Q MSLNDF            1 MSLNDF    6 (6)
+Q Consensus         1 mslndf    6 (6)
+                      ||||||
+T Consensus         1 Msl~~y    6 (266)
+T 5ZWM_Y            1 MALHQY    6 (266)
+T ss_pred             CcHHHH
+Confidence            899886
+
+
+No 2
+>5GM6_W Prp8, Brr2, Snu114, Rse1, Cus1; spliceosome, RNA splicing, Bact, Catalytically; HET: ADP, GTP, ZN; 3.5A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=71.45  E-value=3.2  Score=19.21  Aligned_cols=6  Identities=33%  Similarity=0.922  Sum_probs=5.0  Template_Neff=5.300
+
+Q MSLNDF            1 MSLNDF    6 (6)
+Q Consensus         1 mslndf    6 (6)
+                      ||||||
+T Consensus         1 Msl~~y    6 (266)
+T 5GM6_W            1 MALHQY    6 (266)
+T ss_pred             CcHHHH
+Confidence            899886
+
+
+No 3
+>6FEC_u Eukaryotic translation initiation factor 3; Translation initiation, 48S complex, capped; 6.3A {Homo sapiens}
+Probab=60.76  E-value=7.4  Score=19.55  Aligned_cols=6  Identities=67%  Similarity=1.160  Sum_probs=4.8  Template_Neff=6.100
+
+Q MSLNDF            1 MSLNDF    6 (6)
+Q Consensus         1 mslndf    6 (6)
+                      |||+||
+T Consensus        40 msL~eF   45 (636)
+T 6FEC_u           40 ISLTDF   45 (636)
+T ss_pred             ecHHHH
+Confidence            788887
+
+
+No 4
+>1M0O_A 2,2-Dialkylglycine Decarboxylase (E.C.4.1.1.64); Decarboxylase, pyridoxal phosphate, Lyase; HET: MPM; 2.4A {Burkholderia cepacia} SCOP: c.67.1.4
+Probab=52.58  E-value=13  Score=14.92  Aligned_cols=6  Identities=83%  Similarity=0.805  Sum_probs=2.6  Template_Neff=11.200
+
+Q MSLNDF            1 MSLNDF    6 (6)
+Q Consensus         1 mslndf    6 (6)
+                      ||++|+
+T Consensus         1 ~~~~~~    6 (433)
+T 1M0O_A            1 MSLNDD    6 (433)
+T ss_dssp             --CTTC
+T ss_pred             CCcccc
+Confidence            677764
+
+
+No 5
+>1ZOD_A 2,2-dialkylglycine decarboxylase (E.C.4.1.1.64); decarboxylase, pyridoxal, cesium, LYASE; HET: PLP, MES; 1.8A {Burkholderia cepacia} SCOP: c.67.1.4
+Probab=52.58  E-value=13  Score=14.92  Aligned_cols=6  Identities=83%  Similarity=0.805  Sum_probs=2.6  Template_Neff=11.200
+
+Q MSLNDF            1 MSLNDF    6 (6)
+Q Consensus         1 mslndf    6 (6)
+                      ||++|+
+T Consensus         1 ~~~~~~    6 (433)
+T 1ZOD_A            1 MSLNDD    6 (433)
+T ss_dssp             --CTTC
+T ss_pred             CCcccc
+Confidence            677764
+
+
+No 6
+>2MMB_A Uncharacterized protein; PSI-Biology, Unknown Function, STRUCTURAL GENOMICS; NMR {Acinetobacter baumannii}
+Probab=38.15  E-value=30  Score=15.50  Aligned_cols=6  Identities=33%  Similarity=0.706  Sum_probs=3.9  Template_Neff=2.400
+
+Q MSLNDF            1 MSLNDF    6 (6)
+Q Consensus         1 mslndf    6 (6)
+                      ||||.|
+T Consensus        29 msl~~F   34 (107)
+T 2MMB_A           29 IPLPAF   34 (107)
+T ss_dssp             CCHHHH
+T ss_pred             CCccch
+Confidence            567665
+
+
+No 7
+>2O8V_A Phosphoadenosine phosphosulfate reductase (E.C.1.8.4.8), Thioredoxin; Disulfide crosslinked complex, OXIDOREDUCTASE; 3.0A {Escherichia coli}
+Probab=28.35  E-value=56  Score=12.95  Aligned_cols=6  Identities=50%  Similarity=0.451  Sum_probs=3.0  Template_Neff=9.800
+
+Q MSLNDF            1 MSLNDF    6 (6)
+Q Consensus         1 mslndf    6 (6)
+                      ||+.||
+T Consensus         1 ~~~~~~    6 (252)
+T 2O8V_A            1 MSKLDL    6 (252)
+T ss_pred             CChhhH
+Confidence            555553
+
+
+No 8
+>2DUW_A putative CoA-binding protein; Klebsiella pneumoniae, putative CoA-binding protein; NMR {Klebsiella pneumoniae}
+Probab=27.05  E-value=61  Score=12.22  Aligned_cols=6  Identities=50%  Similarity=0.617  Sum_probs=2.8  Template_Neff=9.000
+
+Q MSLNDF            1 MSLNDF    6 (6)
+Q Consensus         1 mslndf    6 (6)
+                      ||-|||
+T Consensus         1 ~~~~~~    6 (145)
+T 2DUW_A            1 MKENDI    6 (145)
+T ss_dssp             CCCCSH
+T ss_pred             CchHHH
+Confidence            444543
+
+
+No 9
+>2M4G_A Murine Norovirus VPg protein; VPg, Viral Protein, NS5; NMR {Murine norovirus 1}
+Probab=25.26  E-value=69  Score=13.63  Aligned_cols=6  Identities=33%  Similarity=0.933  Sum_probs=2.9  Template_Neff=2.700
+
+Q MSLNDF            1 MSLNDF    6 (6)
+Q Consensus         1 mslndf    6 (6)
+                      ||++||
+T Consensus        30 ySVdEf   35 (75)
+T 2M4G_A           30 YSIDDY   35 (75)
+T ss_dssp             CCHHHH
+T ss_pred             ccHHHH
+Confidence            455554
+
+
+No 10
+>2P0R_B Calpain-9 (E.C.3.4.22.52)/leupeptin, LLR; inhibitor complex  alpha-beta protein; HET: AR7; 2.5A {Homo sapiens}
+Probab=25.05  E-value=70  Score=13.76  Aligned_cols=6  Identities=50%  Similarity=1.104  Sum_probs=3.0  Template_Neff=8.800
+
+Q MSLNDF            1 MSLNDF    6 (6)
+Q Consensus         1 mslndf    6 (6)
+                      |+++||
+T Consensus       312 m~~~df  317 (333)
+T 2P0R_B          312 MAFKDF  317 (333)
+T ss_dssp             EEHHHH
+T ss_pred             EEHHHH
+Confidence            455554
+
+
+No 11
+>2NQA_B Calpain 8 (E.C.3.4.22.52), Leupeptin Inhibitor; CALPAIN  CALCIUM-DEPENDENT CYTOPLASMIC CYSTEINE; 2.2A {Homo sapiens}
+Probab=24.59  E-value=72  Score=13.57  Aligned_cols=6  Identities=83%  Similarity=1.281  Sum_probs=3.0  Template_Neff=9.000
+
+Q MSLNDF            1 MSLNDF    6 (6)
+Q Consensus         1 mslndf    6 (6)
+                      |+++||
+T Consensus       306 m~~~df  311 (326)
+T 2NQA_B          306 MSLSDF  311 (326)
+T ss_dssp             EEHHHH
+T ss_pred             EEHHHH
+Confidence            455554
+
+
+No 12
+>1ZCM_A Calpain 1, large [catalytic] subunit; Calcium binding, Hydrolase, Protease, Thiol; HET: C1N; 2.0A {Homo sapiens} SCOP: d.3.1.3
+Probab=23.06  E-value=81  Score=13.35  Aligned_cols=6  Identities=67%  Similarity=1.137  Sum_probs=3.0  Template_Neff=9.100
+
+Q MSLNDF            1 MSLNDF    6 (6)
+Q Consensus         1 mslndf    6 (6)
+                      |+++||
+T Consensus       304 m~~~df  309 (321)
+T 1ZCM_A          304 MSFRDF  309 (321)
+T ss_dssp             EEHHHH
+T ss_pred             EEHHHH
+Confidence            455554
+
+
+No 13
+>2R9C_A Calpain-1 catalytic subunit (E.C.3.4.22.52); PROTEASE, PEPTIDASE, INHIBITOR, ALPHA-KETOAMIDE, Hydrolase; HET: GOL, GRD; 1.8A {Rattus norvegicus} SCOP: d.3.1.3
+Probab=22.96  E-value=81  Score=13.66  Aligned_cols=6  Identities=67%  Similarity=1.137  Sum_probs=2.9  Template_Neff=8.700
+
+Q MSLNDF            1 MSLNDF    6 (6)
+Q Consensus         1 mslndf    6 (6)
+                      |+++||
+T Consensus       311 m~~~df  316 (339)
+T 2R9C_A          311 MSFRDF  316 (339)
+T ss_dssp             EEHHHH
+T ss_pred             EEHHHH
+Confidence            445554
+
+
+No 14
+>2R9F_A Calpain-1 catalytic subunit (E.C.3.4.22.52); PROTEASE, PEPTIDASE, INHIBITOR, ALPHA-KETOAMIDE, Hydrolase; HET: K2Z, GOL; 1.6A {Rattus norvegicus} SCOP: d.3.1.3
+Probab=22.34  E-value=85  Score=13.55  Aligned_cols=6  Identities=67%  Similarity=1.137  Sum_probs=2.9  Template_Neff=8.800
+
+Q MSLNDF            1 MSLNDF    6 (6)
+Q Consensus         1 mslndf    6 (6)
+                      |+++||
+T Consensus       311 m~~~df  316 (339)
+T 2R9F_A          311 MSFRDF  316 (339)
+T ss_dssp             EEHHHH
+T ss_pred             EEHHHH
+Confidence            445554
+
+
+No 15
+>6ASO_A Lsm2-8 spliceosome U6 Prp24; Lsm2-8 spliceosome U6 Prp24, SPLICING; HET: UBD; 2.71A {Saccharomyces cerevisiae}
+Probab=22.28  E-value=86  Score=13.10  Aligned_cols=6  Identities=67%  Similarity=0.966  Sum_probs=3.1  Template_Neff=10.400
+
+Q MSLNDF            1 MSLNDF    6 (6)
+Q Consensus         1 mslndf    6 (6)
+                      ||..||
+T Consensus       406 ~s~~df  411 (424)
+T 6ASO_A          406 MSNDDF  411 (424)
+T ss_pred             cCHHHH
+Confidence            455555
+
+
+No 16
+>3SLR_A uncharacterized protein BF1531; Structural Genomics, PSI-2, Protein Structure; 1.712A {Bacteroides fragilis}
+Probab=20.23  E-value=1e+02  Score=13.59  Aligned_cols=6  Identities=67%  Similarity=0.894  Sum_probs=2.3  Template_Neff=8.800
+
+Q MSLNDF            1 MSLNDF    6 (6)
+Q Consensus         1 mslndf    6 (6)
+                      |||-||
+T Consensus         1 ~~~~~~    6 (387)
+T 3SLR_A            1 MSLYTF    6 (387)
+T ss_dssp             --CCCH
+T ss_pred             CCcccH
+Confidence            566555
+
+

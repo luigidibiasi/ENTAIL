@@ -1,0 +1,152 @@
+Query         NSNYTQ
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 04:27:47 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NSNYTQ/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NSNYTQ/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4JQP_A 4-hydroxythreonine-4-ph  18.8 1.1E+02  0.0013   13.7   0.0    6    1-6       2-7   (342)
+  2 7B0N_O NADH:Ubiquinone Oxidore  13.2 1.9E+02  0.0021   13.0   0.0    6    1-6     142-147 (169)
+  3 7O71_X Complex I, NADH dehydro  13.2 1.9E+02  0.0021   13.0   0.0    6    1-6     142-147 (169)
+  4 1P27_C Mago nashi protein homo  12.9   2E+02  0.0022   13.1   0.0    4    1-4      36-39  (144)
+  5 2AW6_A PrgX; Repressor, pherom   9.9 2.9E+02  0.0032   10.9   0.0    5    1-5     307-311 (317)
+  6 7F38_B Major capsid proteins,    8.1 3.8E+02  0.0042   12.2   0.0    5    2-6      67-71  (365)
+  7 5E4Y_A Homoserine O-acetyltran   8.0 3.9E+02  0.0043   10.3   0.0    5    1-5      14-18  (361)
+  8 5EFZ_C Homoserine O-acetyltran   8.0 3.9E+02  0.0043   10.3   0.0    5    1-5      14-18  (361)
+  9 5OGL_A Peptide-binding protein   7.8   4E+02  0.0045   12.4   0.0    6    1-6     679-684 (713)
+ 10 2G7J_A putative cytoplasmic pr   6.2 5.4E+02   0.006   10.8   0.0    6    1-6      72-77  (124)
+
+No 1
+>4JQP_A 4-hydroxythreonine-4-phosphate dehydrogenase (E.C.1.1.1.262); Structural Genomics, NIAID, National Institute; 1.65A {Burkholderia phymatum}
+Probab=18.76  E-value=1.1e+02  Score=13.73  Aligned_cols=6  Identities=50%  Similarity=0.960  Sum_probs=0.0  Template_Neff=7.800
+
+Q NSNYTQ            1 NSNYTQ    6 (6)
+Q Consensus         1 nsnytq    6 (6)
+                      ||.|+|
+T Consensus         2 ~~~~~~    7 (342)
+T 4JQP_A            2 NSTYSR    7 (342)
+T ss_dssp             ------
+T ss_pred             CCccCh
+Confidence            566664
+
+
+No 2
+>7B0N_O NADH:Ubiquinone Oxidoreductase, complex I, MEMBRANE; HET: CDL, SF4, EHZ, LMT, 3PE, NDP, PLC, FMN, FME; 3.7A {Yarrowia lipolytica}
+Probab=13.23  E-value=1.9e+02  Score=13.04  Aligned_cols=6  Identities=33%  Similarity=0.174  Sum_probs=2.7  Template_Neff=5.000
+
+Q NSNYTQ            1 NSNYTQ    6 (6)
+Q Consensus         1 nsnytq    6 (6)
+                      ||.|+|
+T Consensus       142 nS~~s~  147 (169)
+T 7B0N_O          142 NSAHSI  147 (169)
+T ss_dssp             HHTTGG
+T ss_pred             hhhhHH
+Confidence            444443
+
+
+No 3
+>7O71_X Complex I, NADH dehydrogenase, Mitochondrion; HET: CDL, SF4, T7X, 2MR, 3PE, NDP, ZMP, CPL, PLC, FMN, FME, LMN; 2.4A {Yarrowia lipolytica}
+Probab=13.23  E-value=1.9e+02  Score=13.04  Aligned_cols=6  Identities=33%  Similarity=0.174  Sum_probs=2.7  Template_Neff=5.000
+
+Q NSNYTQ            1 NSNYTQ    6 (6)
+Q Consensus         1 nsnytq    6 (6)
+                      ||.|+|
+T Consensus       142 nS~~s~  147 (169)
+T 7O71_X          142 NSAHSI  147 (169)
+T ss_pred             hhhhHH
+Confidence            444443
+
+
+No 4
+>1P27_C Mago nashi protein homolog, RNA-binding; RNA-binding, Nuclear protein, mRNA splicing; 2.0A {Homo sapiens} SCOP: d.232.1.1
+Probab=12.86  E-value=2e+02  Score=13.13  Aligned_cols=4  Identities=100%  Similarity=1.464  Sum_probs=0.0  Template_Neff=3.900
+
+Q NSNYTQ            1 NSNY    4 (6)
+Q Consensus         1 nsny    4 (6)
+                      ||||
+T Consensus        36 nSnY   39 (144)
+T 1P27_C           36 NSNY   39 (144)
+T ss_dssp             EECS
+T ss_pred             cCCC
+
+
+No 5
+>2AW6_A PrgX; Repressor, pheromone, DNA binding, regulatory; 3.0A {Enterococcus faecalis} SCOP: a.35.1.11, a.118.8.4
+Probab=9.92  E-value=2.9e+02  Score=10.92  Aligned_cols=5  Identities=20%  Similarity=0.215  Sum_probs=0.0  Template_Neff=10.800
+
+Q NSNYTQ            1 NSNYT    5 (6)
+Q Consensus         1 nsnyt    5 (6)
+                      |+|++
+T Consensus       307 ~~~~~  311 (317)
+T 2AW6_A          307 NNPIP  311 (317)
+T ss_dssp             -----
+T ss_pred             cCCch
+
+
+No 6
+>7F38_B Major capsid proteins, VIRUS; 3.35A {Nostoc phage A1}
+Probab=8.14  E-value=3.8e+02  Score=12.21  Aligned_cols=5  Identities=60%  Similarity=0.488  Sum_probs=0.0  Template_Neff=8.000
+
+Q NSNYTQ            2 SNYTQ    6 (6)
+Q Consensus         2 snytq    6 (6)
+                      +||+|
+T Consensus        67 ~N~tq   71 (365)
+T 7F38_B           67 ANDTQ   71 (365)
+T ss_dssp             CCCCC
+T ss_pred             ecccc
+
+
+No 7
+>5E4Y_A Homoserine O-acetyltransferase (E.C.2.3.1.-,2.3.1.31); Esterase, alpha/beta hydrolase, methyl alkyl; 2.8A {Pseudomonas veronii}
+Probab=8.02  E-value=3.9e+02  Score=10.27  Aligned_cols=5  Identities=80%  Similarity=0.992  Sum_probs=0.0  Template_Neff=11.900
+
+Q NSNYTQ            1 NSNYT    5 (6)
+Q Consensus         1 nsnyt    5 (6)
+                      ||-||
+T Consensus        14 ~~~~~   18 (361)
+T 5E4Y_A           14 NSYYT   18 (361)
+T ss_dssp             CCSSS
+T ss_pred             Cceec
+
+
+No 8
+>5EFZ_C Homoserine O-acetyltransferase (E.C.2.3.1.-,2.3.1.31); alpha/beta hydrolase, acetyl ester hydrolase; HET: GOL, ACT, EDO; 1.82A {Pseudomonas veronii}
+Probab=8.02  E-value=3.9e+02  Score=10.27  Aligned_cols=5  Identities=80%  Similarity=0.992  Sum_probs=0.0  Template_Neff=11.900
+
+Q NSNYTQ            1 NSNYT    5 (6)
+Q Consensus         1 nsnyt    5 (6)
+                      ||-||
+T Consensus        14 ~~~~~   18 (361)
+T 5EFZ_C           14 NSYYT   18 (361)
+T ss_dssp             -----
+T ss_pred             Cceec
+
+
+No 9
+>5OGL_A Peptide-binding protein, Substrate mimicking peptide; Oligosaccharyltransferase, Complex, Protein N-glycosylation, Bacteria; HET: 9UB, PPN; 2.7A {Campylobacter lari (strain RM2100 / D67 / ATCC BAA-1060)}
+Probab=7.78  E-value=4e+02  Score=12.40  Aligned_cols=6  Identities=67%  Similarity=0.933  Sum_probs=0.0  Template_Neff=9.900
+
+Q NSNYTQ            1 NSNYTQ    6 (6)
+Q Consensus         1 nsnytq    6 (6)
+                      ||+++|
+T Consensus       679 ~S~~~q  684 (713)
+T 5OGL_A          679 NSSYIQ  684 (713)
+T ss_dssp             TSHHCC
+T ss_pred             ccHHHH
+
+
+No 10
+>2G7J_A putative cytoplasmic protein; StR72, AUTOSTRUCTURE, Structural Genomics, PSI; NMR {Salmonella typhimurium} SCOP: d.198.5.1
+Probab=6.19  E-value=5.4e+02  Score=10.85  Aligned_cols=6  Identities=17%  Similarity=0.468  Sum_probs=0.0  Template_Neff=5.800
+
+Q NSNYTQ            1 NSNYTQ    6 (6)
+Q Consensus         1 nsnytq    6 (6)
+                      |++|++
+T Consensus        72 ns~~~~   77 (124)
+T 2G7J_A           72 CDHYQN   77 (124)
+T ss_dssp             ESSCCC
+T ss_pred             Chhhhc
+
+

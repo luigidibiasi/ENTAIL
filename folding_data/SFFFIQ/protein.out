@@ -1,0 +1,144 @@
+Query         SFFFIQ
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 14:04:15 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/SFFFIQ/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/SFFFIQ/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5YMY_C Ubiquitin, Proteasomal   17.3 1.3E+02  0.0014   12.9   0.0    5    2-6     106-110 (150)
+  2 5IRS_A Proteasomal ubiquitin r  16.9 1.3E+02  0.0015   12.9   0.0    5    2-6     105-109 (149)
+  3 5MMI_1 50S ribosomal protein L  16.3 1.4E+02  0.0016   11.9   0.0    6    1-6      45-50  (57)
+  4 6YNX_g Ymf66, subunit b, subun  16.0 1.4E+02  0.0016   15.4   0.0    6    1-6     115-120 (286)
+  5 6YNY_G Ymf66, subunit b, subun  16.0 1.4E+02  0.0016   15.4   0.0    6    1-6     115-120 (286)
+  6 4V61_B2 Ribosome; SMALL RIBOSO  14.9 1.6E+02  0.0018   11.7   0.0    6    1-6      45-50  (57)
+  7 4RMO_M CptN Toxin; protein-RNA  13.7 1.8E+02   0.002   13.0   0.0    6    1-6      85-90  (155)
+  8 2KR0_A Proteasomal ubiquitin r  13.5 1.9E+02  0.0021   14.2   0.0    5    2-6     110-114 (411)
+  9 4WZ7_I Subunit ND1, Subunit ND  13.4 1.9E+02  0.0021   11.0   0.0    6    1-6       6-11  (137)
+ 10 6YP6_A NanS-p; Carbohydrate bi  12.7   2E+02  0.0023   13.9   0.0    4    3-6     117-120 (218)
+
+No 1
+>5YMY_C Ubiquitin, Proteasomal ubiquitin receptor ADRM1; complex, ubiquitin receptor, compacted, PROTEIN; NMR {Homo sapiens}
+Probab=17.32  E-value=1.3e+02  Score=12.94  Aligned_cols=5  Identities=60%  Similarity=1.517  Sum_probs=0.0  Template_Neff=5.900
+
+Q SFFFIQ            2 FFFIQ    6 (6)
+Q Consensus         2 fffiq    6 (6)
+                      ||.+|
+T Consensus       106 FFWmQ  110 (150)
+T 5YMY_C          106 FFWMQ  110 (150)
+T ss_dssp             EEEEC
+T ss_pred             EEEEc
+
+
+No 2
+>5IRS_A Proteasomal ubiquitin receptor ADRM1; Ubiquitin, PROTEIN BINDING; HET: DTT; 1.796A {Homo sapiens}
+Probab=16.86  E-value=1.3e+02  Score=12.87  Aligned_cols=5  Identities=60%  Similarity=1.517  Sum_probs=0.0  Template_Neff=5.900
+
+Q SFFFIQ            2 FFFIQ    6 (6)
+Q Consensus         2 fffiq    6 (6)
+                      ||.+|
+T Consensus       105 FFWmQ  109 (149)
+T 5IRS_A          105 FFWMQ  109 (149)
+T ss_pred             EEEEc
+
+
+No 3
+>5MMI_1 50S ribosomal protein L31, 50S; chloroplast, translation, ribosome, cryo-EM; HET: MG; 3.25A {Spinacia oleracea}
+Probab=16.33  E-value=1.4e+02  Score=11.88  Aligned_cols=6  Identities=50%  Similarity=0.855  Sum_probs=0.0  Template_Neff=3.700
+
+Q SFFFIQ            1 SFFFIQ    6 (6)
+Q Consensus         1 sfffiq    6 (6)
+                      ||+|.|
+T Consensus        45 sF~~~~   50 (57)
+T 5MMI_1           45 SFFVRK   50 (57)
+T ss_pred             ceeeec
+
+
+No 4
+>6YNX_g Ymf66, subunit b, subunit d; mitochondria, ATP synthase, Fo-subcomplex, IF1; HET: CDL, ATP, PC1, NAD, PEE, PO4, UQ8; 2.5A {Tetrahymena thermophila}
+Probab=16.04  E-value=1.4e+02  Score=15.39  Aligned_cols=6  Identities=67%  Similarity=1.121  Sum_probs=0.0  Template_Neff=1.600
+
+Q SFFFIQ            1 SFFFIQ    6 (6)
+Q Consensus         1 sfffiq    6 (6)
+                      ||||.|
+T Consensus       115 Sl~F~q  120 (286)
+T 6YNX_g          115 SLFFYQ  120 (286)
+T ss_pred             HHHHHH
+
+
+No 5
+>6YNY_G Ymf66, subunit b, subunit d; mitochondria, ATP synthase, F1Fo dimer; HET: CDL, ATP, ADP, PC1, NAD, MG, PO4, UQ8, PEE; 2.7A {Tetrahymena thermophila}
+Probab=16.04  E-value=1.4e+02  Score=15.39  Aligned_cols=6  Identities=67%  Similarity=1.121  Sum_probs=0.0  Template_Neff=1.600
+
+Q SFFFIQ            1 SFFFIQ    6 (6)
+Q Consensus         1 sfffiq    6 (6)
+                      ||||.|
+T Consensus       115 Sl~F~q  120 (286)
+T 6YNY_G          115 SLFFYQ  120 (286)
+T ss_pred             HHHHHH
+
+
+No 6
+>4V61_B2 Ribosome; SMALL RIBOSOMAL SUBUNIT, SPINACH CHLOROPLAST; 9.4A {Spinacea oleracea}
+Probab=14.94  E-value=1.6e+02  Score=11.72  Aligned_cols=6  Identities=50%  Similarity=0.855  Sum_probs=0.0  Template_Neff=3.700
+
+Q SFFFIQ            1 SFFFIQ    6 (6)
+Q Consensus         1 sfffiq    6 (6)
+                      ||++.|
+T Consensus        45 sF~y~~   50 (57)
+T 4V61_B2          45 SFFVRK   50 (57)
+T ss_pred             ceeEEe
+
+
+No 7
+>4RMO_M CptN Toxin; protein-RNA complex, pseudoknot, RNA twist; HET: A23, CA, MSE; 2.2A {Eubacterium rectale DSM 17629}
+Probab=13.71  E-value=1.8e+02  Score=13.03  Aligned_cols=6  Identities=67%  Similarity=0.866  Sum_probs=0.0  Template_Neff=4.800
+
+Q SFFFIQ            1 SFFFIQ    6 (6)
+Q Consensus         1 sfffiq    6 (6)
+                      |.|+||
+T Consensus        85 saFLIQ   90 (155)
+T 4RMO_M           85 SAFLIQ   90 (155)
+T ss_dssp             EEECGG
+T ss_pred             eEEEee
+
+
+No 8
+>2KR0_A Proteasomal ubiquitin receptor ADRM1; Proteasome, ubiquitin, 19S regulator, PROTEIN; NMR {Homo sapiens}
+Probab=13.48  E-value=1.9e+02  Score=14.24  Aligned_cols=5  Identities=60%  Similarity=1.517  Sum_probs=0.0  Template_Neff=6.100
+
+Q SFFFIQ            2 FFFIQ    6 (6)
+Q Consensus         2 fffiq    6 (6)
+                      ||++|
+T Consensus       110 FFWmQ  114 (411)
+T 2KR0_A          110 FFWMQ  114 (411)
+T ss_dssp             EEEEC
+T ss_pred             EEEEe
+
+
+No 9
+>4WZ7_I Subunit ND1, Subunit ND2, subunit; Complex I, respiratory chain, oxidoreductase; HET: SF4; 3.6A {Yarrowia lipolytica}
+Probab=13.37  E-value=1.9e+02  Score=10.96  Aligned_cols=6  Identities=17%  Similarity=0.661  Sum_probs=0.0  Template_Neff=8.700
+
+Q SFFFIQ            1 SFFFIQ    6 (6)
+Q Consensus         1 sfffiq    6 (6)
+                      +||+++
+T Consensus         6 ~~~~~~   11 (137)
+T 4WZ7_I            6 XFLLAE   11 (137)
+T ss_pred             ChhHHH
+
+
+No 10
+>6YP6_A NanS-p; Carbohydrate binding protein, SUGAR BINDING; HET: GOL; 0.97A {Escherichia phage vB_EcoP_24B}
+Probab=12.74  E-value=2e+02  Score=13.91  Aligned_cols=4  Identities=75%  Similarity=1.564  Sum_probs=0.0  Template_Neff=3.800
+
+Q SFFFIQ            3 FFIQ    6 (6)
+Q Consensus         3 ffiq    6 (6)
+                      ||||
+T Consensus       117 FfiQ  120 (218)
+T 6YP6_A          117 FYIQ  120 (218)
+T ss_dssp             EEEE
+T ss_pred             EEEE
+
+

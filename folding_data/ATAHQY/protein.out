@@ -1,0 +1,147 @@
+Query         ATAHQY
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 15:43:52 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/ATAHQY/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/ATAHQY/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6V92_C Chromatin structure-rem   7.9 3.9E+02  0.0043   11.5   0.0    4    2-5      25-28  (78)
+  2 2F40_A hypothetical protein PF   7.9   4E+02  0.0044   11.9   0.0    6    1-6      23-28  (96)
+  3 5KIS_B YenB, RHS2; ABC toxin,    7.8   4E+02  0.0044   12.9   0.0    5    2-6     951-955 (965)
+  4 1JOG_B HYPOTHETICAL PROTEIN HI   7.8   4E+02  0.0045   10.3   0.0    6    1-6     108-113 (146)
+  5 2YBB_M NADH-QUINONE OXIDOREDUC   7.7 4.1E+02  0.0045   11.2   0.0    6    1-6      99-104 (227)
+  6 1WWP_B hypothetical protein TT   7.6 4.2E+02  0.0046    9.6   0.0    6    1-6      86-91  (119)
+  7 1JOG_D HYPOTHETICAL PROTEIN HI   7.1 4.6E+02  0.0051    9.9   0.0    4    3-6     110-113 (146)
+  8 1YLM_B hypothetical protein BS   7.1 4.6E+02  0.0051    9.8   0.0    4    3-6     100-103 (144)
+  9 4OI3_B Nickel responsive prote   6.9 4.7E+02  0.0052   10.4   0.0    4    3-6       9-12  (89)
+ 10 4OI6_B Nickel responsive prote   6.9 4.7E+02  0.0052   10.4   0.0    4    3-6       9-12  (89)
+
+No 1
+>6V92_C Chromatin structure-remodeling complex proteins; Chromatin remodeler, RSC, GENE REGULATION; 20.0A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=7.94  E-value=3.9e+02  Score=11.53  Aligned_cols=4  Identities=75%  Similarity=0.625  Sum_probs=0.0  Template_Neff=2.700
+
+Q ATAHQY            2 TAHQ    5 (6)
+Q Consensus         2 tahq    5 (6)
+                      ||||
+T Consensus        25 TA~q   28 (78)
+T 6V92_C           25 TAFQ   28 (78)
+T ss_pred             hHHH
+
+
+No 2
+>2F40_A hypothetical protein PF1455; protein structure prediction, residual dipolar; NMR {Pyrococcus furiosus} SCOP: i.11.1.1
+Probab=7.86  E-value=4e+02  Score=11.93  Aligned_cols=6  Identities=50%  Similarity=0.567  Sum_probs=0.0  Template_Neff=2.500
+
+Q ATAHQY            1 ATAHQY    6 (6)
+Q Consensus         1 atahqy    6 (6)
+                      |++-||
+T Consensus        23 A~~~QY   28 (96)
+T 2F40_A           23 AKIVQY   28 (96)
+T ss_dssp             THHHHH
+T ss_pred             HHHHhH
+
+
+No 3
+>5KIS_B YenB, RHS2; ABC toxin, RHS, TOXIN; 2.4A {Yersinia entomophaga}
+Probab=7.81  E-value=4e+02  Score=12.85  Aligned_cols=5  Identities=60%  Similarity=1.258  Sum_probs=0.0  Template_Neff=10.100
+
+Q ATAHQY            2 TAHQY    6 (6)
+Q Consensus         2 tahqy    6 (6)
+                      |||.|
+T Consensus       951 ~~~~~  955 (965)
+T 5KIS_B          951 TSHRY  955 (965)
+T ss_pred             cchhe
+
+
+No 4
+>1JOG_B HYPOTHETICAL PROTEIN HI0074; HI0074, Structural genomics, hypothetical protein; HET: MSE; 2.4A {Haemophilus influenzae} SCOP: a.24.16.2
+Probab=7.76  E-value=4e+02  Score=10.25  Aligned_cols=6  Identities=50%  Similarity=0.922  Sum_probs=0.0  Template_Neff=8.600
+
+Q ATAHQY            1 ATAHQY    6 (6)
+Q Consensus         1 atahqy    6 (6)
+                      ..+|.|
+T Consensus       108 ~lvH~Y  113 (146)
+T 1JOG_B          108 ITSHTY  113 (146)
+T ss_dssp             TGGGTT
+T ss_pred             hHhccC
+
+
+No 5
+>2YBB_M NADH-QUINONE OXIDOREDUCTASE SUBUNIT 1 (E.C.1.6.99.5); SUPERCOMPLEX B, MITOCHONDRIA, RESPIRATORY CHAIN; HET: SMA, FES, HEA, SF4, HEM, NAI, FMN, HEC, CDL, UQ1; 19.0A {BOS TAURUS}
+Probab=7.69  E-value=4.1e+02  Score=11.24  Aligned_cols=6  Identities=33%  Similarity=0.739  Sum_probs=0.0  Template_Neff=8.100
+
+Q ATAHQY            1 ATAHQY    6 (6)
+Q Consensus         1 atahqy    6 (6)
+                      .++||+
+T Consensus        99 V~g~QW  104 (227)
+T 2YBB_M           99 TMGHQW  104 (227)
+T ss_pred             eeeecc
+
+
+No 6
+>1WWP_B hypothetical protein TTHA0636; STRUCTURAL GENOMICS, UNKNOWN FUNCTION, RIKEN; HET: MSE; 2.11A {Thermus thermophilus HB8}
+Probab=7.56  E-value=4.2e+02  Score=9.63  Aligned_cols=6  Identities=50%  Similarity=0.844  Sum_probs=0.0  Template_Neff=9.100
+
+Q ATAHQY            1 ATAHQY    6 (6)
+Q Consensus         1 atahqy    6 (6)
+                      ..+|.|
+T Consensus        86 ~l~H~Y   91 (119)
+T 1WWP_B           86 LTVHTY   91 (119)
+T ss_dssp             HTSSCC
+T ss_pred             hHHhcC
+
+
+No 7
+>1JOG_D HYPOTHETICAL PROTEIN HI0074; HI0074, Structural genomics, hypothetical protein; 2.4A {Haemophilus influenzae} SCOP: a.24.16.2
+Probab=7.06  E-value=4.6e+02  Score=9.92  Aligned_cols=4  Identities=50%  Similarity=1.240  Sum_probs=0.0  Template_Neff=9.000
+
+Q ATAHQY            3 AHQY    6 (6)
+Q Consensus         3 ahqy    6 (6)
+                      +|+|
+T Consensus       110 ~H~Y  113 (146)
+T 1JOG_D          110 SHTY  113 (146)
+T ss_dssp             SSTT
+T ss_pred             hcCC
+
+
+No 8
+>1YLM_B hypothetical protein BSU32300; MCSG, structural genomics, Bacillus subtilis; HET: MSE; 1.83A {Bacillus subtilis subsp. subtilis str. 168}
+Probab=7.06  E-value=4.6e+02  Score=9.76  Aligned_cols=4  Identities=50%  Similarity=0.982  Sum_probs=0.0  Template_Neff=9.300
+
+Q ATAHQY            3 AHQY    6 (6)
+Q Consensus         3 ahqy    6 (6)
+                      +|+|
+T Consensus       100 ~H~Y  103 (144)
+T 1YLM_B          100 VQQY  103 (144)
+T ss_dssp             HTCG
+T ss_pred             HhcH
+
+
+No 9
+>4OI3_B Nickel responsive protein; nickel responsive protein, Structural Genomics; HET: MSE; 1.3A {Streptomyces coelicolor}
+Probab=6.90  E-value=4.7e+02  Score=10.40  Aligned_cols=4  Identities=50%  Similarity=0.468  Sum_probs=0.0  Template_Neff=5.900
+
+Q ATAHQY            3 AHQY    6 (6)
+Q Consensus         3 ahqy    6 (6)
+                      ||||
+T Consensus         9 ~~~~   12 (89)
+T 4OI3_B            9 AHFM   12 (89)
+T ss_dssp             CEEE
+T ss_pred             hhhc
+
+
+No 10
+>4OI6_B Nickel responsive protein; nickel responsive protein, Structural Genomics; HET: MSE, CIT; 2.04A {Streptomyces coelicolor}
+Probab=6.90  E-value=4.7e+02  Score=10.40  Aligned_cols=4  Identities=50%  Similarity=0.468  Sum_probs=0.0  Template_Neff=5.900
+
+Q ATAHQY            3 AHQY    6 (6)
+Q Consensus         3 ahqy    6 (6)
+                      ||||
+T Consensus         9 ~~~~   12 (89)
+T 4OI6_B            9 AHFM   12 (89)
+T ss_dssp             CEEE
+T ss_pred             hhhc
+
+

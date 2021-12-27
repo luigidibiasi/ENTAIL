@@ -1,0 +1,150 @@
+Query         GTFFQE
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 04:01:02 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GTFFQE/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GTFFQE/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6HIZ_DF Uncharacterized protei  28.6      55  0.0006   18.4   0.0    6    1-6     171-176 (666)
+  2 7ABG_K U5 small nuclear ribonu  28.3      56 0.00062   16.5   0.0    6    1-6     345-350 (439)
+  3 7ANE_ae mL94, mL89, Ribosomal   26.2      64 0.00071   18.1   0.0    6    1-6     171-176 (655)
+  4 6HIV_DF ms48, ms51, ms56, ms59  24.8      71 0.00078   18.0   0.0    6    1-6     171-176 (666)
+  5 6AHD_0 Pre-mRNA-processing-spl  23.7      77 0.00085   16.0   0.0    6    1-6     345-350 (439)
+  6 2R9I_A Putative phage capsid p  23.5      78 0.00086   14.9   0.0    6    1-6     136-141 (141)
+  7 1YRX_B hypothetical protein Rs  19.7   1E+02  0.0012   12.4   0.0    5    1-5      47-51  (121)
+  8 4AX6_B EXOGLUCANASE 2 (E.C.3.2  19.5 1.1E+02  0.0012   14.8   0.0    6    1-6     344-349 (363)
+  9 1UP3_A PUTATIVE CELLULASE CEL6  18.8 1.1E+02  0.0012   14.3   0.0    6    1-6     278-283 (294)
+ 10 6T59_1 Ribosomal protein L8, u  18.5 1.2E+02  0.0013    9.2   0.0    5    2-6      49-53  (64)
+
+No 1
+>6HIZ_DF Uncharacterized protein, uS3m, UNK/RNA Complex; mitoribosome, translation, Trypanosoma, small ribosomal; HET: GTP, SPD, UTP; 3.08A {Trypanosoma brucei brucei}
+Probab=28.63  E-value=55  Score=18.36  Aligned_cols=6  Identities=67%  Similarity=1.193  Sum_probs=4.5  Template_Neff=2.100
+
+Q GTFFQE            1 GTFFQE    6 (6)
+Q Consensus         1 gtffqe    6 (6)
+                      |-||||
+T Consensus       171 gPFfqe  176 (666)
+T 6HIZ_DF         171 GPFFQV  176 (666)
+T ss_pred             CCcccc
+Confidence            568886
+
+
+No 2
+>7ABG_K U5 small nuclear ribonucleoprotein 40; Complex, spliceosome, catalytic activation, splicing; HET: GTP, IHP, GTG; 7.8A {Homo sapiens}
+Probab=28.30  E-value=56  Score=16.54  Aligned_cols=6  Identities=50%  Similarity=1.270  Sum_probs=3.9  Template_Neff=5.000
+
+Q GTFFQE            1 GTFFQE    6 (6)
+Q Consensus         1 gtffqe    6 (6)
+                      |.|||+
+T Consensus       345 GAFfqD  350 (439)
+T 7ABG_K          345 GAFFMD  350 (439)
+T ss_pred             ccccCC
+Confidence            567773
+
+
+No 3
+>7ANE_ae mL94, mL89, Ribosomal protein L3-like; Ribosome, Mitochondria, Kinetoplastid; HET: NAD; 3.9A {Leishmania major}
+Probab=26.24  E-value=64  Score=18.10  Aligned_cols=6  Identities=83%  Similarity=1.497  Sum_probs=4.5  Template_Neff=1.900
+
+Q GTFFQE            1 GTFFQE    6 (6)
+Q Consensus         1 gtffqe    6 (6)
+                      |-||||
+T Consensus       171 gPFfqe  176 (655)
+T 7ANE_ae         171 GPFFQE  176 (655)
+T ss_pred             CCCccc
+Confidence            568886
+
+
+No 4
+>6HIV_DF ms48, ms51, ms56, ms59, ms60; mitoribosome, translation, Trypanosoma, large ribosomal; HET: GTP, SPD, NAD, MG, ZN, UTP, SPM; 7.8A {Trypanosoma brucei brucei}
+Probab=24.83  E-value=71  Score=17.98  Aligned_cols=6  Identities=67%  Similarity=1.193  Sum_probs=4.4  Template_Neff=1.900
+
+Q GTFFQE            1 GTFFQE    6 (6)
+Q Consensus         1 gtffqe    6 (6)
+                      |-||||
+T Consensus       171 gPFfqe  176 (666)
+T 6HIV_DF         171 GPFFQV  176 (666)
+T ss_pred             CCcccc
+Confidence            568886
+
+
+No 5
+>6AHD_0 Pre-mRNA-processing-splicing factor 8, Thioredoxin-like protein; Spliceosome, SPLICING; HET: IHP, GTP; 3.8A {Homo sapiens}
+Probab=23.66  E-value=77  Score=16.04  Aligned_cols=6  Identities=50%  Similarity=1.270  Sum_probs=3.8  Template_Neff=5.100
+
+Q GTFFQE            1 GTFFQE    6 (6)
+Q Consensus         1 gtffqe    6 (6)
+                      |.|||.
+T Consensus       345 GAFf~D  350 (439)
+T 6AHD_0          345 GAFFMD  350 (439)
+T ss_pred             eeecCC
+Confidence            567763
+
+
+No 6
+>2R9I_A Putative phage capsid protein; Putative phage capsid domain, PSI-2; 2.6A {Corynebacterium diphtheriae NCTC 13129}
+Probab=23.51  E-value=78  Score=14.90  Aligned_cols=6  Identities=67%  Similarity=1.348  Sum_probs=0.0  Template_Neff=1.000
+
+Q GTFFQE            1 GTFFQE    6 (6)
+Q Consensus         1 gtffqe    6 (6)
+                      |||+|.
+T Consensus       136 gtfyqr  141 (141)
+T 2R9I_A          136 GTFYQR  141 (141)
+T ss_dssp             ------
+T ss_pred             cccccC
+Confidence            688873
+
+
+No 7
+>1YRX_B hypothetical protein Rsph03001874; ferredoxin-like fold, flavin binding, photoreceptor; HET: D9G, FMN; 2.3A {Rhodobacter sphaeroides 2.4.1} SCOP: d.58.10.2
+Probab=19.72  E-value=1e+02  Score=12.41  Aligned_cols=5  Identities=80%  Similarity=1.550  Sum_probs=0.0  Template_Neff=6.700
+
+Q GTFFQE            1 GTFFQ    5 (6)
+Q Consensus         1 gtffq    5 (6)
+                      |.|||
+T Consensus        47 ~~FlQ   51 (121)
+T 1YRX_B           47 GVFFQ   51 (121)
+T ss_dssp             TEEEE
+T ss_pred             CEEEE
+
+
+No 8
+>4AX6_B EXOGLUCANASE 2 (E.C.3.2.1.91); HYDROLASE, HYDROLASE(O-GLYCOSYL), GLYCOSIDASE, GLYCOSIDE HYDROLASE; HET: UWU, NAG, MAN, BGC; 2.3A {TRICHODERMA REESEI}
+Probab=19.53  E-value=1.1e+02  Score=14.77  Aligned_cols=6  Identities=50%  Similarity=1.138  Sum_probs=0.0  Template_Neff=6.100
+
+Q GTFFQE            1 GTFFQE    6 (6)
+Q Consensus         1 gtffqe    6 (6)
+                      |.||++
+T Consensus       344 G~w~~~  349 (363)
+T 4AX6_B          344 GAWFQA  349 (363)
+T ss_dssp             TSBCHH
+T ss_pred             CCcCHH
+
+
+No 9
+>1UP3_A PUTATIVE CELLULASE CEL6; HYDROLASE, GLYCOSIDE HYDROLASE, FAMILY 6; HET: BGC, 1PG, SGC, MGL, SO4; 1.6A {MYCOBACTERIUM TUBERCULOSIS} SCOP: c.6.1.1
+Probab=18.82  E-value=1.1e+02  Score=14.29  Aligned_cols=6  Identities=33%  Similarity=0.855  Sum_probs=0.0  Template_Neff=6.100
+
+Q GTFFQE            1 GTFFQE    6 (6)
+Q Consensus         1 gtffqe    6 (6)
+                      |+||++
+T Consensus       278 G~w~~~  283 (294)
+T 1UP3_A          278 GRFVSQ  283 (294)
+T ss_dssp             TCBCHH
+T ss_pred             CcccHH
+
+
+No 10
+>6T59_1 Ribosomal protein L8, uL3, uL4; TUBULIN, nascent chain-associated complex, ribosome-nascent; HET: MG; 3.11A {Oryctolagus cuniculus}
+Probab=18.47  E-value=1.2e+02  Score=9.21  Aligned_cols=5  Identities=20%  Similarity=0.966  Sum_probs=0.0  Template_Neff=10.400
+
+Q GTFFQE            2 TFFQE    6 (6)
+Q Consensus         2 tffqe    6 (6)
+                      +||.|
+T Consensus        49 v~f~e   53 (64)
+T 6T59_1           49 VYYNE   53 (64)
+T ss_pred             eEEEe
+
+

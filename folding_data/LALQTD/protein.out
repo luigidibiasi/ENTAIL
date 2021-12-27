@@ -1,0 +1,147 @@
+Query         LALQTD
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 13:45:57 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LALQTD/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LALQTD/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5HYC_C Uncharacterized protein   4.0 9.3E+02    0.01    8.8   0.0    5    2-6      31-35  (35)
+  2 4LD7_B Dimethylallyl tryptopha   4.0 9.3E+02    0.01   11.6   0.0    6    1-6       4-9   (445)
+  3 5XIU_A E3 ubiquitin-protein li   4.0 9.4E+02    0.01    9.5   0.0    4    1-4      36-39  (49)
+  4 5ET3_B Fullerene Organizing Pr   4.0 9.5E+02    0.01    9.0   0.0    4    1-4      19-22  (30)
+  5 5HKR_A fullerene organizing pr   4.0 9.5E+02    0.01    9.0   0.0    4    1-4      19-22  (30)
+  6 1WYY_A E2 Glycoprotein; membra   3.9 9.7E+02   0.011   11.5   0.0    6    1-6       9-14  (149)
+  7 6V8I_AA Distal Tail Protein, g   3.7   1E+03   0.011   10.4   0.0    6    1-6      26-31  (193)
+  8 6V8I_AB Distal Tail Protein, g   3.7   1E+03   0.011   10.4   0.0    6    1-6      26-31  (193)
+  9 5FV8_A FOSW, CJUN; STRUCTURAL    3.6 1.1E+03   0.012    8.7   0.0    5    2-6       1-5   (38)
+ 10 4QMF_C KRR1 small subunit proc   3.6 1.1E+03   0.012    9.1   0.0    4    1-4      10-13  (48)
+
+No 1
+>5HYC_C Uncharacterized protein, Cytoplasmic dynein 1; dynein light chain Tctex-1, Magnaporthe; 2.4A {Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958)}
+Probab=4.03  E-value=9.3e+02  Score=8.80  Aligned_cols=5  Identities=40%  Similarity=0.627  Sum_probs=0.0  Template_Neff=3.700
+
+Q LALQTD            2 ALQTD    6 (6)
+Q Consensus         2 alqtd    6 (6)
+                      +.||+
+T Consensus        31 gVQT~   35 (35)
+T 5HYC_C           31 GIQTQ   35 (35)
+T ss_dssp             CCCC-
+T ss_pred             cccCC
+
+
+No 2
+>4LD7_B Dimethylallyl tryptophan synthase (E.C.2.5.1.34); ABBA-prenyltransferase, prenyltransferase, TRANSFERASE; HET: NA, PIS; 2.83A {Neosartorya fischeri}
+Probab=4.03  E-value=9.3e+02  Score=11.56  Aligned_cols=6  Identities=67%  Similarity=0.988  Sum_probs=0.0  Template_Neff=7.600
+
+Q LALQTD            1 LALQTD    6 (6)
+Q Consensus         1 lalqtd    6 (6)
+                      |.+|||
+T Consensus         4 ~~~~~~    9 (445)
+T 4LD7_B            4 LSMQTD    9 (445)
+T ss_dssp             ------
+T ss_pred             cccccc
+
+
+No 3
+>5XIU_A E3 ubiquitin-protein ligase RNF168 (E.C.2.3.2.27); ubiquitin, TRANSFERASE-RIBOSOMAL PROTEIN complex; HET: EDO; 1.8A {Homo sapiens}
+Probab=4.00  E-value=9.4e+02  Score=9.54  Aligned_cols=4  Identities=100%  Similarity=1.090  Sum_probs=0.0  Template_Neff=3.100
+
+Q LALQTD            1 LALQ    4 (6)
+Q Consensus         1 lalq    4 (6)
+                      ||||
+T Consensus        36 LALq   39 (49)
+T 5XIU_A           36 LALQ   39 (49)
+T ss_dssp             HHHH
+T ss_pred             HHHH
+
+
+No 4
+>5ET3_B Fullerene Organizing Protein (C60Sol-COP-3); de novo protein, fullerene, complex; HET: 60C; 1.671A {N/A}
+Probab=3.99  E-value=9.5e+02  Score=9.02  Aligned_cols=4  Identities=100%  Similarity=1.090  Sum_probs=0.0  Template_Neff=1.000
+
+Q LALQTD            1 LALQ    4 (6)
+Q Consensus         1 lalq    4 (6)
+                      ||||
+T Consensus        19 lalq   22 (30)
+T 5ET3_B           19 LALQ   22 (30)
+T ss_dssp             HHHH
+T ss_pred             HHHH
+
+
+No 5
+>5HKR_A fullerene organizing protein; Fullerene protein complex, De novo; HET: 60C; 2.35A {N/A}
+Probab=3.99  E-value=9.5e+02  Score=9.02  Aligned_cols=4  Identities=100%  Similarity=1.090  Sum_probs=0.0  Template_Neff=1.000
+
+Q LALQTD            1 LALQ    4 (6)
+Q Consensus         1 lalq    4 (6)
+                      ||||
+T Consensus        19 lalq   22 (30)
+T 5HKR_A           19 LALQ   22 (30)
+T ss_dssp             HHHH
+T ss_pred             HHHH
+
+
+No 6
+>1WYY_A E2 Glycoprotein; membrane fusion, severe acute respiratory; 2.2A {SARS coronavirus} SCOP: h.3.3.1
+Probab=3.90  E-value=9.7e+02  Score=11.54  Aligned_cols=6  Identities=0%  Similarity=0.407  Sum_probs=0.0  Template_Neff=2.300
+
+Q LALQTD            1 LALQTD    6 (6)
+Q Consensus         1 lalqtd    6 (6)
+                      +|+|||
+T Consensus         9 valqt~   14 (149)
+T 1WYY_A            9 IGVTQN   14 (149)
+T ss_dssp             CSCHHH
+T ss_pred             hhhcHH
+
+
+No 7
+>6V8I_AA Distal Tail Protein, gp58, Tail-Associated; phage tail, tail tip, tape; 3.7A {Staphylococcus virus 80alpha}
+Probab=3.74  E-value=1e+03  Score=10.39  Aligned_cols=6  Identities=17%  Similarity=0.401  Sum_probs=0.0  Template_Neff=6.800
+
+Q LALQTD            1 LALQTD    6 (6)
+Q Consensus         1 lalqtd    6 (6)
+                      +++||.
+T Consensus        26 l~~QT~   31 (193)
+T 6V8I_AA          26 MLFLTE   31 (193)
+T ss_pred             eceecc
+
+
+No 8
+>6V8I_AB Distal Tail Protein, gp58, Tail-Associated; phage tail, tail tip, tape; 3.7A {Staphylococcus virus 80alpha}
+Probab=3.74  E-value=1e+03  Score=10.39  Aligned_cols=6  Identities=17%  Similarity=0.401  Sum_probs=0.0  Template_Neff=6.800
+
+Q LALQTD            1 LALQTD    6 (6)
+Q Consensus         1 lalqtd    6 (6)
+                      +++||.
+T Consensus        26 l~~QT~   31 (193)
+T 6V8I_AB          26 MLFLTE   31 (193)
+T ss_pred             eceecc
+
+
+No 9
+>5FV8_A FOSW, CJUN; STRUCTURAL PROTEIN, COILED COIL DOMAIN; HET: JEF; 1.99A {N/A}
+Probab=3.57  E-value=1.1e+03  Score=8.67  Aligned_cols=5  Identities=40%  Similarity=0.321  Sum_probs=0.0  Template_Neff=4.000
+
+Q LALQTD            2 ALQTD    6 (6)
+Q Consensus         2 alqtd    6 (6)
+                      |.|||
+T Consensus         1 ~~~T~    5 (38)
+T 5FV8_A            1 AASLD    5 (38)
+T ss_dssp             -CCHH
+T ss_pred             CccHH
+
+
+No 10
+>4QMF_C KRR1 small subunit processome component; protein-protein complex, K-homology domain, ribosome; 2.804A {Saccharomyces cerevisiae}
+Probab=3.56  E-value=1.1e+03  Score=9.12  Aligned_cols=4  Identities=75%  Similarity=0.891  Sum_probs=0.0  Template_Neff=3.800
+
+Q LALQTD            1 LALQ    4 (6)
+Q Consensus         1 lalq    4 (6)
+                      ++||
+T Consensus        10 laLQ   13 (48)
+T 4QMF_C           10 LELQ   13 (48)
+T ss_pred             HHHH
+
+

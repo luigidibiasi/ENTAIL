@@ -1,0 +1,151 @@
+Query         STADWE
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 17:08:30 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/STADWE/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/STADWE/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6GR8_B Poly [ADP-ribose] polym  34.3      38 0.00042   12.7   0.0    6    1-6      60-65  (70)
+  2 4Q1Z_A Putative lipoprotein; t  17.3 1.3E+02  0.0014   14.7   0.0    6    1-6     219-224 (400)
+  3 5E05_A Nucleocapsid protein; h  16.0 1.5E+02  0.0016   15.0   0.0    4    2-5       3-6   (284)
+  4 5E04_A Nucleoprotein; hantavir  15.6 1.5E+02  0.0017   15.0   0.0    4    2-5       1-4   (284)
+  5 6VEP_O Insulin A chain, Insuli  15.6 1.5E+02  0.0017    9.2   0.0    4    3-6     135-138 (138)
+  6 7FE6_B AvmM, Macrocyclization,  13.5 1.9E+02  0.0021   14.3   0.0    6    1-6      84-89  (197)
+  7 7FE0_B Alchivemycin, BIOSYNTHE  12.7 2.1E+02  0.0023   14.4   0.0    6    1-6     104-109 (217)
+  8 1E0B_A SWI6 PROTEIN; CHROMATIN  12.6 2.1E+02  0.0023   10.1   0.0    6    1-6       5-10  (68)
+  9 7FE5_B Alchivemycin, BIOSYNTHE  12.5 2.1E+02  0.0023   14.3   0.0    6    1-6     104-109 (217)
+ 10 6I2N_D Nucleoprotein/RNA Compl  12.1 2.2E+02  0.0024   15.3   0.0    4    2-5     117-120 (430)
+
+No 1
+>6GR8_B Poly [ADP-ribose] polymerase 14 (E.C.2.4.2.30); Kinase, Structural Genomics Consortium, SGC; HET: TPO, SEP, F8Z; 1.75A {Homo sapiens}
+Probab=34.29  E-value=38  Score=12.66  Aligned_cols=6  Identities=50%  Similarity=1.016  Sum_probs=3.4  Template_Neff=6.400
+
+Q STADWE            1 STADWE    6 (6)
+Q Consensus         1 stadwe    6 (6)
+                      |.|.|+
+T Consensus        60 SSa~W~   65 (70)
+T 6GR8_B           60 SSAVWN   65 (70)
+T ss_dssp             GGGCCC
+T ss_pred             CccccC
+Confidence            456664
+
+
+No 2
+>4Q1Z_A Putative lipoprotein; two domains protein, PF16215 family; HET: PGE, PEG; 2.5A {Bacteroides thetaiotaomicron}
+Probab=17.28  E-value=1.3e+02  Score=14.74  Aligned_cols=6  Identities=33%  Similarity=0.817  Sum_probs=0.0  Template_Neff=6.000
+
+Q STADWE            1 STADWE    6 (6)
+Q Consensus         1 stadwe    6 (6)
+                      |.||||
+T Consensus       219 S~AdFE  224 (400)
+T 4Q1Z_A          219 SSSEFE  224 (400)
+T ss_dssp             GGCSEE
+T ss_pred             ccCceE
+
+
+No 3
+>5E05_A Nucleocapsid protein; hantavirus, Sin Nombre virus, nucleoprotein; 2.3A {Sin Nombre virus}
+Probab=15.97  E-value=1.5e+02  Score=15.01  Aligned_cols=4  Identities=100%  Similarity=1.979  Sum_probs=0.0  Template_Neff=3.400
+
+Q STADWE            2 TADW    5 (6)
+Q Consensus         2 tadw    5 (6)
+                      ||||
+T Consensus         3 tAdW    6 (284)
+T 5E05_A            3 TADW    6 (284)
+T ss_dssp             CCCH
+T ss_pred             CccH
+
+
+No 4
+>5E04_A Nucleoprotein; hantavirus, andes virus, nucleoprotein, NUCLEAR; 2.25A {Andes virus}
+Probab=15.62  E-value=1.5e+02  Score=14.96  Aligned_cols=4  Identities=75%  Similarity=1.896  Sum_probs=0.0  Template_Neff=3.400
+
+Q STADWE            2 TADW    5 (6)
+Q Consensus         2 tadw    5 (6)
+                      ||||
+T Consensus         1 tAdW    4 (284)
+T 5E04_A            1 SADW    4 (284)
+T ss_dssp             CCCH
+T ss_pred             CccH
+
+
+No 5
+>6VEP_O Insulin A chain, Insulin B; HORMONE, HORMONE RECEPTOR-HORMONE-IMMUNE SYSTEM complex; HET: NAG, BMA, MAN, FUC; 2.9A {Homo sapiens}
+Probab=15.58  E-value=1.5e+02  Score=9.20  Aligned_cols=4  Identities=25%  Similarity=0.410  Sum_probs=0.0  Template_Neff=12.600
+
+Q STADWE            3 ADWE    6 (6)
+Q Consensus         3 adwe    6 (6)
+                      |+||
+T Consensus       135 ~~~~  138 (138)
+T 6VEP_O          135 EDLN  138 (138)
+T ss_dssp             ----
+T ss_pred             hhcC
+
+
+No 6
+>7FE6_B AvmM, Macrocyclization, Michael addition, BIOSYNTHETIC; HET: ZHU; 2.5A {Streptomyces sp. NBRC 109436}
+Probab=13.45  E-value=1.9e+02  Score=14.31  Aligned_cols=6  Identities=67%  Similarity=1.387  Sum_probs=0.0  Template_Neff=1.100
+
+Q STADWE            1 STADWE    6 (6)
+Q Consensus         1 stadwe    6 (6)
+                      |.|||.
+T Consensus        84 sradwq   89 (197)
+T 7FE6_B           84 SRADWQ   89 (197)
+T ss_dssp             TTSCCE
+T ss_pred             ehhhhh
+
+
+No 7
+>7FE0_B Alchivemycin, BIOSYNTHETIC PROTEIN, Michael addition; HET: MSE; 2.2A {Streptomyces sp. NBRC 109436}
+Probab=12.68  E-value=2.1e+02  Score=14.36  Aligned_cols=6  Identities=67%  Similarity=1.387  Sum_probs=0.0  Template_Neff=1.100
+
+Q STADWE            1 STADWE    6 (6)
+Q Consensus         1 stadwe    6 (6)
+                      |.|||.
+T Consensus       104 sradwq  109 (217)
+T 7FE0_B          104 SRADWQ  109 (217)
+T ss_dssp             TTSCCE
+T ss_pred             ehhhhh
+
+
+No 8
+>1E0B_A SWI6 PROTEIN; CHROMATIN-BINDING, CHROMODOMAIN, SHADOW, HETEROCHROMATIN, SWI6; HET: 1PG; 1.9A {SCHIZOSACCHAROMYCES POMBE} SCOP: b.34.13.2
+Probab=12.64  E-value=2.1e+02  Score=10.12  Aligned_cols=6  Identities=33%  Similarity=0.944  Sum_probs=0.0  Template_Neff=7.600
+
+Q STADWE            1 STADWE    6 (6)
+Q Consensus         1 stadwe    6 (6)
+                      +..||+
+T Consensus         5 ~~~~W~   10 (68)
+T 1E0B_A            5 NYDSWE   10 (68)
+T ss_dssp             TTCTTT
+T ss_pred             ccCChH
+
+
+No 9
+>7FE5_B Alchivemycin, BIOSYNTHETIC PROTEIN, Michael addition; 2.09A {Streptomyces sp. NBRC 109436}
+Probab=12.54  E-value=2.1e+02  Score=14.34  Aligned_cols=6  Identities=67%  Similarity=1.387  Sum_probs=0.0  Template_Neff=1.100
+
+Q STADWE            1 STADWE    6 (6)
+Q Consensus         1 stadwe    6 (6)
+                      |.|||.
+T Consensus       104 sradwq  109 (217)
+T 7FE5_B          104 SRADWQ  109 (217)
+T ss_dssp             TTSCCE
+T ss_pred             ehhhhh
+
+
+No 10
+>6I2N_D Nucleoprotein/RNA Complex; Nucleoprotein, Nucleocapsid, RNA-binding, VIRAL PROTEIN; 3.3A {Spodoptera frugiperda}
+Probab=12.09  E-value=2.2e+02  Score=15.26  Aligned_cols=4  Identities=100%  Similarity=1.979  Sum_probs=0.0  Template_Neff=3.200
+
+Q STADWE            2 TADW    5 (6)
+Q Consensus         2 tadw    5 (6)
+                      ||||
+T Consensus       117 TAdW  120 (430)
+T 6I2N_D          117 TADW  120 (430)
+T ss_dssp             CCCS
+T ss_pred             CCcH
+
+

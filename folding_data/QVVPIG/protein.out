@@ -1,0 +1,148 @@
+Query         QVVPIG
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 11:21:31 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QVVPIG/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QVVPIG/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3SIQ_A Apoptosis 1 inhibitor (  11.2 2.5E+02  0.0027   11.8   0.0    4    2-5       4-7   (136)
+  2 2EKY_B UPF0045 protein MJ1052;  10.8 2.6E+02  0.0028   10.7   0.0    6    1-6      12-17  (100)
+  3 2EKY_E UPF0045 protein MJ1052;  10.3 2.8E+02   0.003   10.6   0.0    6    1-6      12-17  (100)
+  4 2EPI_C UPF0045 protein MJ1052;  10.3 2.8E+02   0.003   10.6   0.0    6    1-6      12-17  (100)
+  5 2KIG_A Inositol polyphosphate   10.2 2.8E+02  0.0031   11.3   0.0    5    1-5      76-80  (161)
+  6 6NRC_5 Prefoldin subunit 1, Pr  10.2 2.8E+02  0.0031   10.3   0.0    4    3-6      54-57  (127)
+  7 1LXJ_A HYPOTHETICAL 11.5KDA PR  10.0 2.9E+02  0.0032   10.6   0.0    6    1-6      11-16  (104)
+  8 3LUB_F Putative creatinine ami  10.0 2.9E+02  0.0032   11.8   0.0    5    2-6      25-29  (254)
+  9 6NRD_3 T-complex protein 1 sub   9.5 3.1E+02  0.0034   10.4   0.0    4    3-6      57-60  (132)
+ 10 4XNH_A Yeast Saccharomyces cer   9.4 3.1E+02  0.0034   13.2   0.0    4    3-6     823-826 (854)
+
+No 1
+>3SIQ_A Apoptosis 1 inhibitor (E.C.6.3.2.-); dIAP1-BIR1 domain, LIGASE; 2.4A {Drosophila melanogaster}
+Probab=11.19  E-value=2.5e+02  Score=11.82  Aligned_cols=4  Identities=100%  Similarity=1.530  Sum_probs=0.0  Template_Neff=6.200
+
+Q QVVPIG            2 VVPI    5 (6)
+Q Consensus         2 vvpi    5 (6)
+                      ||||
+T Consensus         4 ~~~~    7 (136)
+T 3SIQ_A            4 VVPI    7 (136)
+T ss_dssp             ECCC
+T ss_pred             ccce
+
+
+No 2
+>2EKY_B UPF0045 protein MJ1052; STRUCTURAL GENOMICS, UNKNOWN FUNCTION, NPPSFA; 1.8A {Methanocaldococcus jannaschii}
+Probab=10.81  E-value=2.6e+02  Score=10.66  Aligned_cols=6  Identities=33%  Similarity=1.298  Sum_probs=0.0  Template_Neff=7.400
+
+Q QVVPIG            1 QVVPIG    6 (6)
+Q Consensus         1 qvvpig    6 (6)
+                      ++.|+|
+T Consensus        12 si~Pl~   17 (100)
+T 2EKY_B           12 SIIPLG   17 (100)
+T ss_dssp             EEEEEC
+T ss_pred             EEeecC
+
+
+No 3
+>2EKY_E UPF0045 protein MJ1052; STRUCTURAL GENOMICS, UNKNOWN FUNCTION, NPPSFA; 1.8A {Methanocaldococcus jannaschii}
+Probab=10.29  E-value=2.8e+02  Score=10.58  Aligned_cols=6  Identities=33%  Similarity=1.298  Sum_probs=0.0  Template_Neff=7.400
+
+Q QVVPIG            1 QVVPIG    6 (6)
+Q Consensus         1 qvvpig    6 (6)
+                      ++.|+|
+T Consensus        12 s~~Pl~   17 (100)
+T 2EKY_E           12 SIIPLG   17 (100)
+T ss_dssp             EEEEEC
+T ss_pred             EEEecC
+
+
+No 4
+>2EPI_C UPF0045 protein MJ1052; NPPSFA, National Project on Protein; 1.7A {Methanocaldococcus jannaschii}
+Probab=10.29  E-value=2.8e+02  Score=10.58  Aligned_cols=6  Identities=33%  Similarity=1.298  Sum_probs=0.0  Template_Neff=7.400
+
+Q QVVPIG            1 QVVPIG    6 (6)
+Q Consensus         1 qvvpig    6 (6)
+                      ++.|+|
+T Consensus        12 s~~Pl~   17 (100)
+T 2EPI_C           12 SIIPLG   17 (100)
+T ss_dssp             EEEECS
+T ss_pred             EEEecC
+
+
+No 5
+>2KIG_A Inositol polyphosphate 5-phosphatase II isoform; OCRL, INPP5B, PH, clathrin, endocytosis; NMR {Mus musculus}
+Probab=10.25  E-value=2.8e+02  Score=11.34  Aligned_cols=5  Identities=60%  Similarity=1.305  Sum_probs=0.0  Template_Neff=7.600
+
+Q QVVPIG            1 QVVPI    5 (6)
+Q Consensus         1 qvvpi    5 (6)
+                      +|+||
+T Consensus        76 ~v~PI   80 (161)
+T 2KIG_A           76 QIVPL   80 (161)
+T ss_dssp             EEECC
+T ss_pred             EEEEe
+
+
+No 6
+>6NRC_5 Prefoldin subunit 1, Prefoldin subunit; TRiC/CCT, PFD, CryoEM, Molecular Chaperone; 8.3A {Homo sapiens}
+Probab=10.21  E-value=2.8e+02  Score=10.34  Aligned_cols=4  Identities=50%  Similarity=1.057  Sum_probs=0.0  Template_Neff=8.800
+
+Q QVVPIG            3 VPIG    6 (6)
+Q Consensus         3 vpig    6 (6)
+                      ||+|
+T Consensus        54 vplg   57 (127)
+T 6NRC_5           54 VPLT   57 (127)
+T ss_pred             EEcC
+
+
+No 7
+>1LXJ_A HYPOTHETICAL 11.5KDA PROTEIN IN HTB2-NTH2; Hypothetical protein, HTB2-NTH2 intergenic region; 1.8A {Saccharomyces cerevisiae} SCOP: d.58.48.1
+Probab=10.04  E-value=2.9e+02  Score=10.61  Aligned_cols=6  Identities=67%  Similarity=1.154  Sum_probs=0.0  Template_Neff=7.400
+
+Q QVVPIG            1 QVVPIG    6 (6)
+Q Consensus         1 qvvpig    6 (6)
+                      ++.|+|
+T Consensus        11 sv~Pl~   16 (104)
+T 1LXJ_A           11 CMVPIG   16 (104)
+T ss_dssp             EEEEES
+T ss_pred             EEEecC
+
+
+No 8
+>3LUB_F Putative creatinine amidohydrolase; Putative creatinine amidohydrolase, Structural Genomics; HET: ZN, CL, EDO, CA; 2.11A {Bacteroides fragilis}
+Probab=10.00  E-value=2.9e+02  Score=11.77  Aligned_cols=5  Identities=40%  Similarity=1.152  Sum_probs=0.0  Template_Neff=8.300
+
+Q QVVPIG            2 VVPIG    6 (6)
+Q Consensus         2 vvpig    6 (6)
+                      ++|+|
+T Consensus        25 ilPvG   29 (254)
+T 3LUB_F           25 ILPWG   29 (254)
+T ss_dssp             EEEEC
+T ss_pred             EEeec
+
+
+No 9
+>6NRD_3 T-complex protein 1 subunit alpha; TRiC/CCT, PFD, CryoEM, Molecular Chaperone; 8.2A {Homo sapiens}
+Probab=9.52  E-value=3.1e+02  Score=10.39  Aligned_cols=4  Identities=0%  Similarity=0.094  Sum_probs=0.0  Template_Neff=8.600
+
+Q QVVPIG            3 VPIG    6 (6)
+Q Consensus         3 vpig    6 (6)
+                      ||+|
+T Consensus        57 vplg   60 (132)
+T 6NRD_3           57 FLLA   60 (132)
+T ss_pred             EEcC
+
+
+No 10
+>4XNH_A Yeast Saccharomyces cerevisiae Naa15, Yeast; N-terminal acetyltransferase, bisubstrate, inositol hexaxisphosphate; HET: CMC, I6P, ACO; 2.1A {Saccharomyces cerevisiae}
+Probab=9.44  E-value=3.1e+02  Score=13.16  Aligned_cols=4  Identities=100%  Similarity=1.796  Sum_probs=0.0  Template_Neff=9.700
+
+Q QVVPIG            3 VPIG    6 (6)
+Q Consensus         3 vpig    6 (6)
+                      ||||
+T Consensus       823 ~~~~  826 (854)
+T 4XNH_A          823 VPIG  826 (854)
+T ss_dssp             SCSC
+T ss_pred             CCCC
+
+

@@ -1,0 +1,150 @@
+Query         IEMIFV
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 07:46:13 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/IEMIFV/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/IEMIFV/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2HI2_A Fimbrial protein; TYPE   17.7 1.2E+02  0.0014   11.5   0.0    6    1-6       4-9   (158)
+  2 1OQW_A Fimbrial protein; Type   17.6 1.3E+02  0.0014   11.2   0.0    6    1-6       4-9   (144)
+  3 5VXY_J Fimbrial protein; Melte  17.6 1.3E+02  0.0014   11.2   0.0    6    1-6       4-9   (144)
+  4 4XLW_C Notch1 EGF11-13, Delta-  16.1 1.4E+02  0.0016    8.3   0.0    6    1-6     119-124 (124)
+  5 6I2V_A Uncharacterized protein  16.0 1.5E+02  0.0016   12.7   0.0    6    1-6      46-51  (114)
+  6 4FTF_A Alternate secretin path  15.5 1.5E+02  0.0017   12.6   0.0    6    1-6      44-49  (112)
+  7 5ZDH_V Type II secretion syste  15.2 1.6E+02  0.0017   12.6   0.0    6    1-6      42-47  (112)
+  8 3SOK_B Fimbrial protein; pilus  14.5 1.7E+02  0.0019   11.2   0.0    6    1-6       4-9   (151)
+  9 6GV9_H Prepilin peptidase-depe  14.0 1.8E+02   0.002   10.8   0.0    6    1-6       4-9   (140)
+ 10 1TZP_A Penicillin-insensitive   13.9 1.8E+02   0.002   13.5   0.0    6    1-6     154-159 (255)
+
+No 1
+>2HI2_A Fimbrial protein; TYPE IV PILIN, FIBER-FORMING PROTEIN; HET: GLA, HTO, DT6; 2.3A {Neisseria gonorrhoeae}
+Probab=17.73  E-value=1.2e+02  Score=11.46  Aligned_cols=6  Identities=50%  Similarity=0.960  Sum_probs=0.0  Template_Neff=9.200
+
+Q IEMIFV            1 IEMIFV    6 (6)
+Q Consensus         1 iemifv    6 (6)
+                      ||+++|
+T Consensus         4 iElliv    9 (158)
+T 2HI2_A            4 IELMIV    9 (158)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 2
+>1OQW_A Fimbrial protein; Type IV pilin, fiber-forming protein; 2.0A {Pseudomonas aeruginosa} SCOP: d.24.1.1
+Probab=17.61  E-value=1.3e+02  Score=11.22  Aligned_cols=6  Identities=50%  Similarity=0.960  Sum_probs=0.0  Template_Neff=9.300
+
+Q IEMIFV            1 IEMIFV    6 (6)
+Q Consensus         1 iemifv    6 (6)
+                      ||++.|
+T Consensus         4 iEllvv    9 (144)
+T 1OQW_A            4 IELMIV    9 (144)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 3
+>5VXY_J Fimbrial protein; Melted helix, type IV pili;{Pseudomonas aeruginosa PAK}
+Probab=17.61  E-value=1.3e+02  Score=11.22  Aligned_cols=6  Identities=50%  Similarity=0.960  Sum_probs=0.0  Template_Neff=9.300
+
+Q IEMIFV            1 IEMIFV    6 (6)
+Q Consensus         1 iemifv    6 (6)
+                      ||++.|
+T Consensus         4 iEllvv    9 (144)
+T 5VXY_J            4 IELMIV    9 (144)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 4
+>4XLW_C Notch1 EGF11-13, Delta-like 4 (N-EGF2); glycosylation, EGF domains, receptor-ligand complex; HET: MLY, FUC, CA, NAG, BGC; 3.39A {Rattus norvegicus}
+Probab=16.13  E-value=1.4e+02  Score=8.34  Aligned_cols=6  Identities=33%  Similarity=0.905  Sum_probs=0.0  Template_Neff=13.900
+
+Q IEMIFV            1 IEMIFV    6 (6)
+Q Consensus         1 iemifv    6 (6)
+                      ++.+|+
+T Consensus       119 ~~~~~~  124 (124)
+T 4XLW_C          119 LEVLFQ  124 (124)
+T ss_dssp             ------
+T ss_pred             ccceeC
+
+
+No 5
+>6I2V_A Uncharacterized protein; Pilotin, T2SS, V.vulnificus, Outer-membrane, PROTEIN; HET: SO4, 1PE; 1.75A {Vibrio vulnificus}
+Probab=15.98  E-value=1.5e+02  Score=12.70  Aligned_cols=6  Identities=17%  Similarity=0.910  Sum_probs=0.0  Template_Neff=4.900
+
+Q IEMIFV            1 IEMIFV    6 (6)
+Q Consensus         1 iemifv    6 (6)
+                      |||.|+
+T Consensus        46 Vei~~i   51 (114)
+T 6I2V_A           46 VEIMMI   51 (114)
+T ss_dssp             EEEEEE
+T ss_pred             EEEEEE
+
+
+No 6
+>4FTF_A Alternate secretin pathway subunit S; pilotin, lipoprotein, secretin, protein secretion; HET: ACT; 1.48A {Vibrio cholerae}
+Probab=15.48  E-value=1.5e+02  Score=12.61  Aligned_cols=6  Identities=33%  Similarity=0.944  Sum_probs=0.0  Template_Neff=4.900
+
+Q IEMIFV            1 IEMIFV    6 (6)
+Q Consensus         1 iemifv    6 (6)
+                      |||.|+
+T Consensus        44 Vei~~i   49 (112)
+T 4FTF_A           44 VELMMV   49 (112)
+T ss_dssp             EEEEEE
+T ss_pred             EEEEEE
+
+
+No 7
+>5ZDH_V Type II secretion system protein; Pilotin, Secretin, PROTEIN TRANSPORT; 3.2A {Escherichia coli O78:H11 (strain H10407 / ETEC)}
+Probab=15.23  E-value=1.6e+02  Score=12.58  Aligned_cols=6  Identities=17%  Similarity=0.672  Sum_probs=0.0  Template_Neff=4.900
+
+Q IEMIFV            1 IEMIFV    6 (6)
+Q Consensus         1 iemifv    6 (6)
+                      |||.|+
+T Consensus        42 Vei~~i   47 (112)
+T 5ZDH_V           42 VKMTII   47 (112)
+T ss_dssp             EEEEC-
+T ss_pred             EEEEEE
+
+
+No 8
+>3SOK_B Fimbrial protein; pilus subunit, extracellular, CELL ADHESION; 2.3A {Dichelobacter nodosus}
+Probab=14.51  E-value=1.7e+02  Score=11.18  Aligned_cols=6  Identities=50%  Similarity=0.960  Sum_probs=0.0  Template_Neff=8.900
+
+Q IEMIFV            1 IEMIFV    6 (6)
+Q Consensus         1 iemifv    6 (6)
+                      ||++.|
+T Consensus         4 iEl~iv    9 (151)
+T 3SOK_B            4 IELMIV    9 (151)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 9
+>6GV9_H Prepilin peptidase-dependent protein D; TYPE IV PILI EHEC T4P; 8.0A {Escherichia coli O157:H7}
+Probab=14.00  E-value=1.8e+02  Score=10.78  Aligned_cols=6  Identities=50%  Similarity=0.910  Sum_probs=0.0  Template_Neff=9.300
+
+Q IEMIFV            1 IEMIFV    6 (6)
+Q Consensus         1 iemifv    6 (6)
+                      ||++.+
+T Consensus         4 iElliv    9 (140)
+T 6GV9_H            4 IELMVV    9 (140)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 10
+>1TZP_A Penicillin-insensitive murein endopeptidase (E.C.3.4.99.-); LAS enzyme, metallopeptidase, peptidoglycan hydrolase; HET: SO4; 1.4A {Escherichia coli} SCOP: d.65.1.3
+Probab=13.86  E-value=1.8e+02  Score=13.45  Aligned_cols=6  Identities=50%  Similarity=0.872  Sum_probs=0.0  Template_Neff=6.000
+
+Q IEMIFV            1 IEMIFV    6 (6)
+Q Consensus         1 iemifv    6 (6)
+                      ++.|||
+T Consensus       154 V~rIFv  159 (255)
+T 1TZP_A          154 VTRIFV  159 (255)
+T ss_dssp             EEEEEE
+T ss_pred             eeEEEe
+
+

@@ -1,0 +1,148 @@
+Query         ETKEPT
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 19:56:55 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/ETKEPT/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/ETKEPT/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6NDU_A Parkin coregulated gene   3.4 1.1E+03   0.013   10.8   0.0    5    1-5      54-58  (193)
+  2 2KNX_A Prolow-density lipoprot   3.1 1.3E+03   0.014    5.9   0.0    5    2-6      46-50  (50)
+  3 4XS5_C Sulfate transporter/ant   3.1 1.3E+03   0.014    8.5   0.0    5    1-5     139-143 (143)
+  4 3HR6_A Putative surface-anchor   2.9 1.4E+03   0.016   10.4   0.0    5    1-5     396-400 (436)
+  5 3HTL_X Putative surface-anchor   2.9 1.4E+03   0.016   10.4   0.0    5    1-5     396-400 (436)
+  6 3I6U_A Serine/threonine-protei   2.8 1.5E+03   0.016    9.8   0.0    6    1-6       1-6   (419)
+  7 5UW2_C Probable phospholipid A   2.7 1.5E+03   0.017    9.7   0.0    5    1-5     156-160 (165)
+  8 7O7Y_An 40S ribosomal protein    2.7 1.5E+03   0.017    9.7   0.0    6    1-6       8-13  (151)
+  9 2M9M_A Fanconi anemia-associat   2.7 1.5E+03   0.017    9.9   0.0    5    1-5     136-140 (147)
+ 10 3UXF_A Fimbrial subunit type 1   2.5 1.7E+03   0.019   10.5   0.0    6    1-6     449-454 (488)
+
+No 1
+>6NDU_A Parkin coregulated gene protein, Meiosis; Microtubule, axoneme, primary cilia, flagella; 2.1A {Homo sapiens}
+Probab=3.43  E-value=1.1e+03  Score=10.77  Aligned_cols=5  Identities=40%  Similarity=0.454  Sum_probs=0.0  Template_Neff=5.500
+
+Q ETKEPT            1 ETKEP    5 (6)
+Q Consensus         1 etkep    5 (6)
+                      ||++|
+T Consensus        54 E~~~P   58 (193)
+T 6NDU_A           54 EMTFP   58 (193)
+T ss_dssp             CCSTT
+T ss_pred             cCCCc
+
+
+No 2
+>2KNX_A Prolow-density lipoprotein receptor-related protein 1; LDLR, ligand binding module, ligand; HET: CA; NMR {Homo sapiens}
+Probab=3.13  E-value=1.3e+03  Score=5.94  Aligned_cols=5  Identities=20%  Similarity=0.029  Sum_probs=0.0  Template_Neff=11.400
+
+Q ETKEPT            2 TKEPT    6 (6)
+Q Consensus         2 tkept    6 (6)
+                      .++|+
+T Consensus        46 ~~~~~   50 (50)
+T 2KNX_A           46 LYNST   50 (50)
+T ss_pred             CCCCC
+
+
+No 3
+>4XS5_C Sulfate transporter/antisigma-factor antagonist STAS; Structural Genomics, PSI-Biology, Midwest Center; HET: MSE; 2.9A {Dyadobacter fermentans (strain ATCC 700827 / DSM 18053 / NS114)}
+Probab=3.08  E-value=1.3e+03  Score=8.52  Aligned_cols=5  Identities=80%  Similarity=1.298  Sum_probs=0.0  Template_Neff=9.400
+
+Q ETKEPT            1 ETKEP    5 (6)
+Q Consensus         1 etkep    5 (6)
+                      +.+||
+T Consensus       139 ~~~~~  143 (143)
+T 4XS5_C          139 ESKEP  143 (143)
+T ss_dssp             -----
+T ss_pred             cCCCC
+
+
+No 4
+>3HR6_A Putative surface-anchored fimbrial subunit; Multiple Ig-like domains, Cell wall; 1.6A {Corynebacterium diphtheriae}
+Probab=2.87  E-value=1.4e+03  Score=10.42  Aligned_cols=5  Identities=40%  Similarity=0.395  Sum_probs=0.0  Template_Neff=8.900
+
+Q ETKEPT            1 ETKEP    5 (6)
+Q Consensus         1 etkep    5 (6)
+                      |++.|
+T Consensus       396 EtkAP  400 (436)
+T 3HR6_A          396 ETATA  400 (436)
+T ss_dssp             EEECC
+T ss_pred             EeecC
+
+
+No 5
+>3HTL_X Putative surface-anchored fimbrial subunit; Isopeptide bond, Ig-like fold, Cell; 1.8A {Corynebacterium diphtheriae}
+Probab=2.87  E-value=1.4e+03  Score=10.42  Aligned_cols=5  Identities=40%  Similarity=0.395  Sum_probs=0.0  Template_Neff=8.900
+
+Q ETKEPT            1 ETKEP    5 (6)
+Q Consensus         1 etkep    5 (6)
+                      |++.|
+T Consensus       396 EtkAP  400 (436)
+T 3HTL_X          396 ETATA  400 (436)
+T ss_dssp             EEECC
+T ss_pred             EeecC
+
+
+No 6
+>3I6U_A Serine/threonine-protein kinase Chk2 (E.C.2.7.11.1); Ser/Thr protein kinase, FHA domain; 3.0A {Homo sapiens}
+Probab=2.81  E-value=1.5e+03  Score=9.81  Aligned_cols=6  Identities=67%  Similarity=1.032  Sum_probs=0.0  Template_Neff=10.100
+
+Q ETKEPT            1 ETKEPT    6 (6)
+Q Consensus         1 etkept    6 (6)
+                      |..|||
+T Consensus         1 ~~~~~~    6 (419)
+T 3I6U_A            1 EPEEPT    6 (419)
+T ss_dssp             -----C
+T ss_pred             CCCCCC
+
+
+No 7
+>5UW2_C Probable phospholipid ABC transporter-binding protein; MCE protein, bacterial lipid transport; 2.85A {Escherichia coli O157:H7}
+Probab=2.74  E-value=1.5e+03  Score=9.66  Aligned_cols=5  Identities=80%  Similarity=1.159  Sum_probs=0.0  Template_Neff=6.800
+
+Q ETKEPT            1 ETKEP    5 (6)
+Q Consensus         1 etkep    5 (6)
+                      ||.||
+T Consensus       156 ~~~~~  160 (165)
+T 5UW2_C          156 ETTEP  160 (165)
+T ss_dssp             -----
+T ss_pred             cCCCC
+
+
+No 8
+>7O7Y_An 40S ribosomal protein S27, Ribosomal; Frameshift, virus, pseudoknot, RIBOSOME; HET: GTP, HIC, 5MC, UNX, A2M, 5MU, M2G, 7MG, 1MA, SAC, OMU, PSU, MG, OMG, V5N, YYG, 2MG, UY1, 6MZ, H2U, OMC, SPD, B8N, NMM, MA6, UR3, 4AC, MLZ, M3L, AME, SPM; 2.2A {Oryctolagus cuniculus}
+Probab=2.72  E-value=1.5e+03  Score=9.74  Aligned_cols=6  Identities=50%  Similarity=0.556  Sum_probs=0.0  Template_Neff=6.200
+
+Q ETKEPT            1 ETKEPT    6 (6)
+Q Consensus         1 etkept    6 (6)
+                      |.|||+
+T Consensus         8 ~~~~~~   13 (151)
+T 7O7Y_An           8 EKKEEQ   13 (151)
+T ss_pred             cCccee
+
+
+No 9
+>2M9M_A Fanconi anemia-associated protein of 24; Fanconi anemia, FAAP24, ERCC4 domain; NMR {Homo sapiens}
+Probab=2.69  E-value=1.5e+03  Score=9.87  Aligned_cols=5  Identities=60%  Similarity=0.581  Sum_probs=0.0  Template_Neff=5.700
+
+Q ETKEPT            1 ETKEP    5 (6)
+Q Consensus         1 etkep    5 (6)
+                      |+|+|
+T Consensus       136 ~~k~~  140 (147)
+T 2M9M_A          136 QTKEL  140 (147)
+T ss_dssp             HHCC-
+T ss_pred             hhccc
+
+
+No 10
+>3UXF_A Fimbrial subunit type 1; fimbria, adhesin, isopeptide, Gram-positive, beta; 1.603A {Actinomyces oris}
+Probab=2.50  E-value=1.7e+03  Score=10.52  Aligned_cols=6  Identities=67%  Similarity=0.933  Sum_probs=0.0  Template_Neff=8.600
+
+Q ETKEPT            1 ETKEPT    6 (6)
+Q Consensus         1 etkept    6 (6)
+                      |||.|.
+T Consensus       449 ETkAP~  454 (488)
+T 3UXF_A          449 ETKAPE  454 (488)
+T ss_dssp             EEECCT
+T ss_pred             EeeCCC
+
+

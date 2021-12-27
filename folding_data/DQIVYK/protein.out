@@ -1,0 +1,150 @@
+Query         DQIVYK
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 17:48:50 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/DQIVYK/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/DQIVYK/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6GQ4_A Adhesin; Neisseria gono  31.9      44 0.00049   13.9   0.0    6    1-6      93-98  (111)
+  2 7ENA_g CDK-activating kinase a  15.9 1.5E+02  0.0016   13.8   0.0    6    1-6     213-218 (233)
+  3 4NL2_B Protein hfq; LSm/Sm pro   9.9 2.9E+02  0.0032   10.6   0.0    5    2-6      54-58  (77)
+  4 4NL2_F Protein hfq; LSm/Sm pro   9.9 2.9E+02  0.0032   10.6   0.0    5    2-6      54-58  (77)
+  5 6XYJ_BBB RNA-binding protein H   9.8   3E+02  0.0033   11.5   0.0    5    2-6      65-69  (95)
+  6 5LDD_B Mon1, Ccz1, Rab small m   9.6   3E+02  0.0034   12.6   0.0    5    1-5      37-41  (250)
+  7 3SB2_A Protein hfq; Sm-like, R   9.5 3.1E+02  0.0034   10.7   0.0    5    2-6      53-57  (79)
+  8 1KQ1_H Host Factor for Q beta;   9.4 3.1E+02  0.0035   10.6   0.0    5    2-6      53-57  (77)
+  9 3HFN_B Asl2047 protein; HFQ, S   9.2 3.2E+02  0.0036   10.4   0.0    5    2-6      58-62  (72)
+ 10 6GWK_B RNA-binding protein Hfq   9.0 3.3E+02  0.0037   10.6   0.0    5    2-6      55-59  (82)
+
+No 1
+>6GQ4_A Adhesin; Neisseria gonorrhoeae-Adhesin Complex Protein, NGO1981; 1.65A {Neisseria gonorrhoeae}
+Probab=31.92  E-value=44  Score=13.86  Aligned_cols=6  Identities=67%  Similarity=1.143  Sum_probs=3.5  Template_Neff=5.500
+
+Q DQIVYK            1 DQIVYK    6 (6)
+Q Consensus         1 dqivyk    6 (6)
+                      ++|+||
+T Consensus        93 ~~il~K   98 (111)
+T 6GQ4_A           93 NQIVFK   98 (111)
+T ss_dssp             SCEEEE
+T ss_pred             CeEEEe
+Confidence            456665
+
+
+No 2
+>7ENA_g CDK-activating kinase assembly factor MAT1; mediator, preinitiation complex, transcription initiation; HET: ZN; 4.07A {Sus scrofa}
+Probab=15.87  E-value=1.5e+02  Score=13.78  Aligned_cols=6  Identities=67%  Similarity=0.833  Sum_probs=3.3  Template_Neff=5.500
+
+Q DQIVYK            1 DQIVYK    6 (6)
+Q Consensus         1 dqivyk    6 (6)
+                      |||.||
+T Consensus       213 ~~~~~~  218 (233)
+T 7ENA_g          213 DQIIEK  218 (233)
+T ss_pred             cchHHH
+Confidence            456554
+
+
+No 3
+>4NL2_B Protein hfq; LSm/Sm proteins, RNA chaperone, RNA; HET: PGO; 2.6A {Listeria monocytogenes}
+Probab=9.86  E-value=2.9e+02  Score=10.62  Aligned_cols=5  Identities=60%  Similarity=1.145  Sum_probs=0.0  Template_Neff=6.100
+
+Q DQIVYK            2 QIVYK    6 (6)
+Q Consensus         2 qivyk    6 (6)
+                      +++||
+T Consensus        54 ~lI~K   58 (77)
+T 4NL2_B           54 QLVFK   58 (77)
+T ss_dssp             EEEEG
+T ss_pred             EEEEe
+
+
+No 4
+>4NL2_F Protein hfq; LSm/Sm proteins, RNA chaperone, RNA; HET: PGO; 2.6A {Listeria monocytogenes}
+Probab=9.86  E-value=2.9e+02  Score=10.62  Aligned_cols=5  Identities=60%  Similarity=1.145  Sum_probs=0.0  Template_Neff=6.100
+
+Q DQIVYK            2 QIVYK    6 (6)
+Q Consensus         2 qivyk    6 (6)
+                      +++||
+T Consensus        54 ~lI~K   58 (77)
+T 4NL2_F           54 QLVFK   58 (77)
+T ss_dssp             EEEEG
+T ss_pred             EEEEe
+
+
+No 5
+>6XYJ_BBB RNA-binding protein Hfq; Hfq, SmAP, tertiary structure, RNA-chaperon; 2.772A {Pseudomonas aeruginosa (strain PA7)}
+Probab=9.77  E-value=3e+02  Score=11.49  Aligned_cols=5  Identities=80%  Similarity=1.305  Sum_probs=0.0  Template_Neff=4.900
+
+Q DQIVYK            2 QIVYK    6 (6)
+Q Consensus         2 qivyk    6 (6)
+                      |++||
+T Consensus        65 ~LIyK   69 (95)
+T 6XYJ_BBB         65 QMVYK   69 (95)
+T ss_pred             EEEEe
+
+
+No 6
+>5LDD_B Mon1, Ccz1, Rab small monomeric; heterodimeric GEF protein, endosomal maturation; HET: SO4; 2.496A {Chaetomium thermophilum (strain DSM 1495 / CBS 144.50 / IMI 039719)}
+Probab=9.58  E-value=3e+02  Score=12.55  Aligned_cols=5  Identities=100%  Similarity=1.504  Sum_probs=0.0  Template_Neff=6.400
+
+Q DQIVYK            1 DQIVY    5 (6)
+Q Consensus         1 dqivy    5 (6)
+                      +||+|
+T Consensus        37 ~qIl~   41 (250)
+T 5LDD_B           37 DQIVY   41 (250)
+T ss_dssp             GGEEE
+T ss_pred             hcEEE
+
+
+No 7
+>3SB2_A Protein hfq; Sm-like, RNA chaperone, CHAPERONE; 2.6301A {Herbaspirillum seropedicae}
+Probab=9.54  E-value=3.1e+02  Score=10.70  Aligned_cols=5  Identities=80%  Similarity=1.305  Sum_probs=0.0  Template_Neff=5.900
+
+Q DQIVYK            2 QIVYK    6 (6)
+Q Consensus         2 qivyk    6 (6)
+                      +++||
+T Consensus        53 ~lIyK   57 (79)
+T 3SB2_A           53 QMVYK   57 (79)
+T ss_dssp             EEEEG
+T ss_pred             EEEEe
+
+
+No 8
+>1KQ1_H Host Factor for Q beta; Hfq, hexamer, RNA binding protein; HET: ACY; 1.55A {Staphylococcus aureus} SCOP: b.38.1.2
+Probab=9.35  E-value=3.1e+02  Score=10.62  Aligned_cols=5  Identities=40%  Similarity=1.205  Sum_probs=0.0  Template_Neff=5.900
+
+Q DQIVYK            2 QIVYK    6 (6)
+Q Consensus         2 qivyk    6 (6)
+                      +++||
+T Consensus        53 ~lI~K   57 (77)
+T 1KQ1_H           53 HLIYK   57 (77)
+T ss_dssp             EEEEG
+T ss_pred             EEEEe
+
+
+No 9
+>3HFN_B Asl2047 protein; HFQ, SM, RNA-BINDING PROTEIN, SRNA; 2.31A {Nostoc sp.}
+Probab=9.20  E-value=3.2e+02  Score=10.39  Aligned_cols=5  Identities=20%  Similarity=0.654  Sum_probs=0.0  Template_Neff=6.100
+
+Q DQIVYK            2 QIVYK    6 (6)
+Q Consensus         2 qivyk    6 (6)
+                      +++||
+T Consensus        58 ~lI~K   62 (72)
+T 3HFN_B           58 TTIWK   62 (72)
+T ss_dssp             EEEEG
+T ss_pred             EEEEe
+
+
+No 10
+>6GWK_B RNA-binding protein Hfq; Hfq, Caulobacter, sRNA, RNA-protein interactions; 2.15A { Caulobacter vibrioides CB15}
+Probab=9.00  E-value=3.3e+02  Score=10.59  Aligned_cols=5  Identities=80%  Similarity=1.325  Sum_probs=0.0  Template_Neff=6.100
+
+Q DQIVYK            2 QIVYK    6 (6)
+Q Consensus         2 qivyk    6 (6)
+                      +++||
+T Consensus        55 ~lI~K   59 (82)
+T 6GWK_B           55 QLVYK   59 (82)
+T ss_dssp             EEEEG
+T ss_pred             EEEEe
+
+

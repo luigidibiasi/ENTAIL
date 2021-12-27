@@ -1,0 +1,150 @@
+Query         HLFNLT
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 06:34:13 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/HLFNLT/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/HLFNLT/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6HIX_Ab ?; mitoribosome, trans  55.0      11 0.00012   19.1   0.0    6    1-6      90-95  (507)
+  2 6HIV_Ab ms48, ms51, ms56, ms59  54.8      11 0.00012   19.1   0.0    6    1-6      90-95  (507)
+  3 7ANE_X mL94, mL89, Ribosomal p  38.7      29 0.00032   17.8   0.0    6    1-6      92-97  (512)
+  4 7AIH_X mL94, mL89, Ribosomal p  37.3      32 0.00035   17.8   0.0    6    1-6      93-98  (513)
+  5 5LGD_A Platelet glycoprotein 4  18.9 1.1E+02  0.0012   14.3   0.0    6    1-6      66-71  (472)
+  6 4Q4F_A Lysosome membrane prote  16.3 1.4E+02  0.0016   13.9   0.0    6    1-6      41-46  (416)
+  7 6TYL_A Resistance to inhibitor  16.1 1.4E+02  0.0016   14.1   0.0    5    2-6     228-232 (492)
+  8 6N85_B Synembryn-A, G alpha t   15.7 1.5E+02  0.0017   14.3   0.0    5    2-6     247-251 (512)
+  9 6NMG_B Resistance to inhibitor  13.1   2E+02  0.0022   13.5   0.0    5    2-6     228-232 (453)
+ 10 5UPH_A Lysosome membrane prote  12.7   2E+02  0.0023   13.3   0.0    6    1-6      38-43  (410)
+
+No 1
+>6HIX_Ab ?; mitoribosome, translation, Trypanosoma, large ribosomal; HET: NAD; 3.39A {Trypanosoma equiperdum}
+Probab=54.98  E-value=11  Score=19.07  Aligned_cols=6  Identities=83%  Similarity=1.447  Sum_probs=4.6  Template_Neff=5.100
+
+Q HLFNLT            1 HLFNLT    6 (6)
+Q Consensus         1 hlfnlt    6 (6)
+                      ||||+|
+T Consensus        90 ~~~~~~   95 (507)
+T 6HIX_Ab          90 HLFNIT   95 (507)
+T ss_pred             cccCCC
+Confidence            688875
+
+
+No 2
+>6HIV_Ab ms48, ms51, ms56, ms59, ms60; mitoribosome, translation, Trypanosoma, large ribosomal; HET: GTP, SPD, NAD, MG, ZN, UTP, SPM; 7.8A {Trypanosoma brucei brucei}
+Probab=54.83  E-value=11  Score=19.11  Aligned_cols=6  Identities=83%  Similarity=1.447  Sum_probs=4.6  Template_Neff=5.000
+
+Q HLFNLT            1 HLFNLT    6 (6)
+Q Consensus         1 hlfnlt    6 (6)
+                      ||||+|
+T Consensus        90 ~~~~~~   95 (507)
+T 6HIV_Ab          90 HLFNIT   95 (507)
+T ss_pred             cccCCC
+Confidence            688875
+
+
+No 3
+>7ANE_X mL94, mL89, Ribosomal protein L3-like; Ribosome, Mitochondria, Kinetoplastid; HET: NAD; 3.9A {Leishmania major}
+Probab=38.66  E-value=29  Score=17.81  Aligned_cols=6  Identities=83%  Similarity=1.248  Sum_probs=4.3  Template_Neff=4.900
+
+Q HLFNLT            1 HLFNLT    6 (6)
+Q Consensus         1 hlfnlt    6 (6)
+                      ||||+|
+T Consensus        92 ~~f~~~   97 (512)
+T 7ANE_X           92 QLFNLT   97 (512)
+T ss_pred             ccccCC
+Confidence            678775
+
+
+No 4
+>7AIH_X mL94, mL89, Ribosomal protein L3-like; Ribosome, Mitochondria, Kinetoplastid; HET: NAD; 3.6A {Leishmania major}
+Probab=37.28  E-value=32  Score=17.79  Aligned_cols=6  Identities=83%  Similarity=1.248  Sum_probs=4.3  Template_Neff=4.700
+
+Q HLFNLT            1 HLFNLT    6 (6)
+Q Consensus         1 hlfnlt    6 (6)
+                      ||||+|
+T Consensus        93 ~~f~~t   98 (513)
+T 7AIH_X           93 QLFNLT   98 (513)
+T ss_dssp             TTTSCC
+T ss_pred             ccccCC
+Confidence            678775
+
+
+No 5
+>5LGD_A Platelet glycoprotein 4, PfEMP1 variant; Plasmodium falciparum cytoadhesion scavenger receptor; HET: GOL, NAG, MAN, PLM, TRS; 2.07A {Homo sapiens}
+Probab=18.92  E-value=1.1e+02  Score=14.30  Aligned_cols=6  Identities=17%  Similarity=0.722  Sum_probs=0.0  Template_Neff=7.900
+
+Q HLFNLT            1 HLFNLT    6 (6)
+Q Consensus         1 hlfnlt    6 (6)
+                      ++||+|
+T Consensus        66 Y~FNvT   71 (472)
+T 5LGD_A           66 WIFDVQ   71 (472)
+T ss_dssp             EEEEES
+T ss_pred             EEEecc
+
+
+No 6
+>4Q4F_A Lysosome membrane protein 2; Lysosomal targeting, beta-glucocerebrosidase, CI-MPR, ER; HET: M6D, NAG, MAN, BMA; 2.8A {Homo sapiens}
+Probab=16.29  E-value=1.4e+02  Score=13.86  Aligned_cols=6  Identities=50%  Similarity=0.827  Sum_probs=0.0  Template_Neff=7.700
+
+Q HLFNLT            1 HLFNLT    6 (6)
+Q Consensus         1 hlfnlt    6 (6)
+                      ++||+|
+T Consensus        41 y~FN~T   46 (416)
+T 4Q4F_A           41 YFFNVT   46 (416)
+T ss_dssp             EEEEES
+T ss_pred             EEEEcc
+
+
+No 7
+>6TYL_A Resistance to inhibitors of cholinesterase; Ric-8A, G protein, GEF, SIGNALING; HET: TPO, SEP; 3.3A {Rattus norvegicus}
+Probab=16.15  E-value=1.4e+02  Score=14.11  Aligned_cols=5  Identities=80%  Similarity=1.338  Sum_probs=0.0  Template_Neff=7.800
+
+Q HLFNLT            2 LFNLT    6 (6)
+Q Consensus         2 lfnlt    6 (6)
+                      +||++
+T Consensus       228 LFNlt  232 (492)
+T 6TYL_A          228 LFNIT  232 (492)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 8
+>6N85_B Synembryn-A, G alpha t C; Ric8a, Armadillo repeat, G alpha; HET: MAL; 2.5A {Bos taurus}
+Probab=15.67  E-value=1.5e+02  Score=14.27  Aligned_cols=5  Identities=80%  Similarity=1.338  Sum_probs=0.0  Template_Neff=7.500
+
+Q HLFNLT            2 LFNLT    6 (6)
+Q Consensus         2 lfnlt    6 (6)
+                      +||+|
+T Consensus       247 lFNlt  251 (512)
+T 6N85_B          247 LFNIT  251 (512)
+T ss_pred             HHHHH
+
+
+No 9
+>6NMG_B Resistance to inhibitors of cholinesterase; guanine nucleotide exchange factor heterotrimeric; HET: SO4; 2.2A {Rattus norvegicus}
+Probab=13.08  E-value=2e+02  Score=13.54  Aligned_cols=5  Identities=80%  Similarity=1.338  Sum_probs=0.0  Template_Neff=7.800
+
+Q HLFNLT            2 LFNLT    6 (6)
+Q Consensus         2 lfnlt    6 (6)
+                      +||++
+T Consensus       228 lFNl~  232 (453)
+T 6NMG_B          228 LFNIT  232 (453)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 10
+>5UPH_A Lysosome membrane protein 2; lysosomal integral membrane protein 2; HET: CLR, MAN, NAG, BMA, PCW, M6D; 3.0A {Homo sapiens}
+Probab=12.75  E-value=2e+02  Score=13.26  Aligned_cols=6  Identities=50%  Similarity=0.827  Sum_probs=0.0  Template_Neff=7.900
+
+Q HLFNLT            1 HLFNLT    6 (6)
+Q Consensus         1 hlfnlt    6 (6)
+                      ++||+|
+T Consensus        38 y~fN~T   43 (410)
+T 5UPH_A           38 YFFNVT   43 (410)
+T ss_dssp             EEEEES
+T ss_pred             EEEEcc
+
+

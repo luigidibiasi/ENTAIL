@@ -1,0 +1,151 @@
+Query         NPQGGY
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 03:12:41 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NPQGGY/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NPQGGY/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3SIG_A poly(ADP-ribose) glycoh  22.3      85 0.00094   14.1   0.0    6    1-6      99-104 (277)
+  2 3SIH_A poly(ADP-ribose) glycoh  22.3      85 0.00094   14.1   0.0    6    1-6      99-104 (277)
+  3 6VJ4_A Peptidylprolyl isomeras  20.7      97  0.0011   12.3   0.0    6    1-6     254-259 (264)
+  4 2DA7_A Zinc finger homeobox pr  19.5 1.1E+02  0.0012    8.5   0.0    5    1-5      67-71  (71)
+  5 6YXY_BR bL28m, uL29m, uL30m, b  19.4 1.1E+02  0.0012   15.2   0.0    5    2-6      31-35  (205)
+  6 7AOI_BR bL28m, uL29m, uL30m, b  19.0 1.1E+02  0.0012   15.1   0.0    5    2-6      21-25  (195)
+  7 5ZDB_A Poly ADP-ribose glycohy  18.5 1.2E+02  0.0013   13.3   0.0    6    1-6      70-75  (253)
+  8 5TPV_B WlaRA, TDP-fucose-3,4-k  18.3 1.2E+02  0.0013   11.8   0.0    6    1-6     134-139 (153)
+  9 2H7W_B Chagasin; beta-strands,  17.7 1.2E+02  0.0014   12.1   0.0    6    1-6      50-55  (131)
+ 10 6XVU_B Response regulator, two  17.2 1.3E+02  0.0014   10.2   0.0    6    1-6     161-166 (171)
+
+No 1
+>3SIG_A poly(ADP-ribose) glycohydrolase (E.C. 3.2.1.143); poly ADP ribose, HYDROLASE; HET: AR6; 1.28A {Thermomonospora curvata}
+Probab=22.32  E-value=85  Score=14.15  Aligned_cols=6  Identities=50%  Similarity=1.448  Sum_probs=3.0  Template_Neff=6.900
+
+Q NPQGGY            1 NPQGGY    6 (6)
+Q Consensus         1 npqggy    6 (6)
+                      +|.|||
+T Consensus        99 ~PGGg~  104 (277)
+T 3SIG_A           99 HPGGGF  104 (277)
+T ss_dssp             STTTTG
+T ss_pred             CCCCCc
+Confidence            355554
+
+
+No 2
+>3SIH_A poly(ADP-ribose) glycohydrolase (E.C. 3.2.1.143); poly ADP-ribose, HYDROLASE; 1.5A {Thermomonospora curvata}
+Probab=22.32  E-value=85  Score=14.15  Aligned_cols=6  Identities=50%  Similarity=1.448  Sum_probs=3.0  Template_Neff=6.900
+
+Q NPQGGY            1 NPQGGY    6 (6)
+Q Consensus         1 npqggy    6 (6)
+                      +|.|||
+T Consensus        99 ~PGGg~  104 (277)
+T 3SIH_A           99 HPGGGF  104 (277)
+T ss_dssp             STTTTG
+T ss_pred             CCCCCc
+Confidence            355554
+
+
+No 3
+>6VJ4_A Peptidylprolyl isomerase PrsA (E.C.5.2.1.8); Structural Genomics, Center for Structural; HET: MSE; 1.7A {Bacillus anthracis}
+Probab=20.72  E-value=97  Score=12.34  Aligned_cols=6  Identities=50%  Similarity=0.861  Sum_probs=0.0  Template_Neff=9.900
+
+Q NPQGGY            1 NPQGGY    6 (6)
+Q Consensus         1 npqggy    6 (6)
+                      ||||.|
+T Consensus       254 ~~~~~~  259 (264)
+T 6VJ4_A          254 SPQGNE  259 (264)
+T ss_dssp             ------
+T ss_pred             cCCCcc
+Confidence            466643
+
+
+No 4
+>2DA7_A Zinc finger homeobox protein 1b; homeobox domain, three helices with; NMR {Homo sapiens}
+Probab=19.49  E-value=1.1e+02  Score=8.46  Aligned_cols=5  Identities=40%  Similarity=1.013  Sum_probs=0.0  Template_Neff=12.300
+
+Q NPQGGY            1 NPQGG    5 (6)
+Q Consensus         1 npqgg    5 (6)
+                      ||++|
+T Consensus        67 ~~~~~   71 (71)
+T 2DA7_A           67 GPSSG   71 (71)
+T ss_dssp             CCSCC
+T ss_pred             CCCCC
+
+
+No 5
+>6YXY_BR bL28m, uL29m, uL30m, bL32m, bL35m; mitoribosome, assembly, LSU, RIBOSOME; HET: ATP, PM8, MG, SPD, NAD, GTP; 3.1A {Trypanosoma brucei brucei}
+Probab=19.41  E-value=1.1e+02  Score=15.20  Aligned_cols=5  Identities=80%  Similarity=1.903  Sum_probs=0.0  Template_Neff=1.400
+
+Q NPQGGY            2 PQGGY    6 (6)
+Q Consensus         2 pqggy    6 (6)
+                      ||||+
+T Consensus        31 pqggf   35 (205)
+T 6YXY_BR          31 PQGGF   35 (205)
+T ss_pred             CCCCc
+
+
+No 6
+>7AOI_BR bL28m, uL29m, uL30m, bL32m, bL33m; mitochondria, translation, trypanosoma, assembly, evolution; HET: ADP, GTP, NAD, 4HH; 3.5A {Trypanosoma brucei}
+Probab=19.01  E-value=1.1e+02  Score=15.06  Aligned_cols=5  Identities=80%  Similarity=1.903  Sum_probs=0.0  Template_Neff=1.400
+
+Q NPQGGY            2 PQGGY    6 (6)
+Q Consensus         2 pqggy    6 (6)
+                      ||||+
+T Consensus        21 p~ggf   25 (195)
+T 7AOI_BR          21 PQGGF   25 (195)
+T ss_pred             CCCCc
+
+
+No 7
+>5ZDB_A Poly ADP-ribose glycohydrolase; ADP-ribose, poly(ADP-ribose) glycohydrolase, HYDROLASE; HET: AR6; 1.972A {Deinococcus radiodurans (strain ATCC 13939 / DSM 20539 / JCM 16871 / LMG 4051 / NBRC 15346 / NCIMB 9279 / R1 / VKM B-1422)}
+Probab=18.53  E-value=1.2e+02  Score=13.34  Aligned_cols=6  Identities=67%  Similarity=1.592  Sum_probs=0.0  Template_Neff=7.400
+
+Q NPQGGY            1 NPQGGY    6 (6)
+Q Consensus         1 npqggy    6 (6)
+                      +|.|||
+T Consensus        70 ~pGGg~   75 (253)
+T 5ZDB_A           70 NPGGGF   75 (253)
+T ss_dssp             SGGGGG
+T ss_pred             CCCCCC
+
+
+No 8
+>5TPV_B WlaRA, TDP-fucose-3,4-ketoisomerase; ketoisomerase, lipooligosaccharide, deoxy-sugar, unusual sugar; HET: PO4, TYD; 2.14A {Campylobacter jejuni subsp. jejuni 81116}
+Probab=18.29  E-value=1.2e+02  Score=11.82  Aligned_cols=6  Identities=50%  Similarity=0.850  Sum_probs=0.0  Template_Neff=8.500
+
+Q NPQGGY            1 NPQGGY    6 (6)
+Q Consensus         1 npqggy    6 (6)
+                      ++.|||
+T Consensus       134 ~~~~~~  139 (153)
+T 5TPV_B          134 VWRGGY  139 (153)
+T ss_dssp             HHHTC-
+T ss_pred             ceecce
+
+
+No 9
+>2H7W_B Chagasin; beta-strands, Immunoglobulin-fold, HYDROLASE INHIBITOR; 1.7A {Trypanosoma cruzi} SCOP: b.1.26.1
+Probab=17.67  E-value=1.2e+02  Score=12.11  Aligned_cols=6  Identities=50%  Similarity=1.221  Sum_probs=0.0  Template_Neff=7.200
+
+Q NPQGGY            1 NPQGGY    6 (6)
+Q Consensus         1 npqggy    6 (6)
+                      ||..||
+T Consensus        50 npsTGy   55 (131)
+T 2H7W_B           50 NPTTGF   55 (131)
+T ss_dssp             CGGGTC
+T ss_pred             CCCCCc
+
+
+No 10
+>6XVU_B Response regulator, two-component system, signaling; 2.1A {Deinococcus radiodurans R1}
+Probab=17.24  E-value=1.3e+02  Score=10.18  Aligned_cols=6  Identities=33%  Similarity=0.202  Sum_probs=0.0  Template_Neff=11.800
+
+Q NPQGGY            1 NPQGGY    6 (6)
+Q Consensus         1 npqggy    6 (6)
+                      +|+|++
+T Consensus       161 ~~~~~~  166 (171)
+T 6XVU_B          161 QPQLEH  166 (171)
+T ss_dssp             ------
+T ss_pred             CcccCC
+
+

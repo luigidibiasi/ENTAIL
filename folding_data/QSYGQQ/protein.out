@@ -1,0 +1,148 @@
+Query         QSYGQQ
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 10:47:09 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QSYGQQ/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QSYGQQ/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6TTB_A Formate dehydrogenase;   14.0 1.8E+02   0.002   13.4   0.0    6    1-6     368-373 (373)
+  2 6YXY_BR bL28m, uL29m, uL30m, b   9.8 2.9E+02  0.0033   13.8   0.0    5    1-5     114-118 (205)
+  3 1DX8_A RUBREDOXIN; ELECTRON TR   9.7   3E+02  0.0033   10.3   0.0    4    1-4      67-70  (70)
+  4 7AOI_BR bL28m, uL29m, uL30m, b   9.5 3.1E+02  0.0034   13.7   0.0    5    1-5     104-108 (195)
+  5 3LCN_A Nuclear polyadenylated    9.3 3.2E+02  0.0035   11.2   0.0    5    1-5      97-101 (105)
+  6 5W3N_A RNA-binding protein FUS   8.7 3.4E+02  0.0038   13.7   0.0    6    1-6      58-63  (241)
+  7 6NCL_a5 PBCV-1 capsid; tape-me   8.1 3.8E+02  0.0042   13.5   0.0    6    1-6      42-47  (216)
+  8 3JV2_A Protein translocase sub   7.9 3.9E+02  0.0043   12.3   0.0    6    1-6     744-749 (783)
+  9 6T4H_A Protein translocase sub   7.9   4E+02  0.0044   12.7   0.0    6    1-6     743-748 (781)
+ 10 1M74_A Preprotein translocase    7.7 4.1E+02  0.0045   12.3   0.0    6    1-6     741-746 (802)
+
+No 1
+>6TTB_A Formate dehydrogenase; formate dehydrogenase, NAD, formate oxidation; HET: NAD; 2.7A {Staphylococcus aureus}
+Probab=14.02  E-value=1.8e+02  Score=13.42  Aligned_cols=6  Identities=33%  Similarity=0.650  Sum_probs=0.0  Template_Neff=7.600
+
+Q QSYGQQ            1 QSYGQQ    6 (6)
+Q Consensus         1 qsygqq    6 (6)
+                      ++|||.
+T Consensus       368 ~~~~~~  373 (373)
+T 6TTB_A          368 KSYTAK  373 (373)
+T ss_dssp             ------
+T ss_pred             ccccCC
+Confidence            367763
+
+
+No 2
+>6YXY_BR bL28m, uL29m, uL30m, bL32m, bL35m; mitoribosome, assembly, LSU, RIBOSOME; HET: ATP, PM8, MG, SPD, NAD, GTP; 3.1A {Trypanosoma brucei brucei}
+Probab=9.81  E-value=2.9e+02  Score=13.79  Aligned_cols=5  Identities=80%  Similarity=1.219  Sum_probs=0.0  Template_Neff=1.400
+
+Q QSYGQQ            1 QSYGQ    5 (6)
+Q Consensus         1 qsygq    5 (6)
+                      ||+||
+T Consensus       114 qswgq  118 (205)
+T 6YXY_BR         114 QSWGQ  118 (205)
+T ss_pred             eeeCC
+
+
+No 3
+>1DX8_A RUBREDOXIN; ELECTRON TRANSPORT, RUBREDOXIN, GUILLARDIA THETA; HET: ZN; NMR {GUILLARDIA THETA} SCOP: g.41.5.1
+Probab=9.65  E-value=3e+02  Score=10.33  Aligned_cols=4  Identities=75%  Similarity=1.431  Sum_probs=0.0  Template_Neff=6.300
+
+Q QSYGQQ            1 QSYG    4 (6)
+Q Consensus         1 qsyg    4 (6)
+                      |+||
+T Consensus        67 ~~~~   70 (70)
+T 1DX8_A           67 QKYG   70 (70)
+T ss_dssp             SCCC
+T ss_pred             cCCC
+
+
+No 4
+>7AOI_BR bL28m, uL29m, uL30m, bL32m, bL33m; mitochondria, translation, trypanosoma, assembly, evolution; HET: ADP, GTP, NAD, 4HH; 3.5A {Trypanosoma brucei}
+Probab=9.55  E-value=3.1e+02  Score=13.65  Aligned_cols=5  Identities=80%  Similarity=1.219  Sum_probs=0.0  Template_Neff=1.400
+
+Q QSYGQQ            1 QSYGQ    5 (6)
+Q Consensus         1 qsygq    5 (6)
+                      ||+||
+T Consensus       104 qswgq  108 (195)
+T 7AOI_BR         104 QSWGQ  108 (195)
+T ss_pred             eeeCC
+
+
+No 5
+>3LCN_A Nuclear polyadenylated RNA-binding protein NAB2; nuclear mRNA export, Metal-binding, Nucleus; 2.0A {Saccharomyces cerevisiae}
+Probab=9.33  E-value=3.2e+02  Score=11.18  Aligned_cols=5  Identities=80%  Similarity=0.946  Sum_probs=0.0  Template_Neff=5.900
+
+Q QSYGQQ            1 QSYGQ    5 (6)
+Q Consensus         1 qsygq    5 (6)
+                      ||.||
+T Consensus        97 ~~~~~  101 (105)
+T 3LCN_A           97 QSLGQ  101 (105)
+T ss_dssp             TCCC-
+T ss_pred             hHhcc
+
+
+No 6
+>5W3N_A RNA-binding protein FUS; Low complexity sequence domain, RNA; NMR {Homo sapiens}
+Probab=8.75  E-value=3.4e+02  Score=13.69  Aligned_cols=6  Identities=83%  Similarity=1.271  Sum_probs=0.0  Template_Neff=2.800
+
+Q QSYGQQ            1 QSYGQQ    6 (6)
+Q Consensus         1 qsygqq    6 (6)
+                      |+|+||
+T Consensus        58 q~YgQQ   63 (241)
+T 5W3N_A           58 QPYGQQ   63 (241)
+T ss_dssp             ------
+T ss_pred             CCCccc
+
+
+No 7
+>6NCL_a5 PBCV-1 capsid; tape-measure protein, minor capsid proteins; 3.5A {Paramecium bursaria Chlorella virus 1}
+Probab=8.08  E-value=3.8e+02  Score=13.52  Aligned_cols=6  Identities=17%  Similarity=0.224  Sum_probs=0.0  Template_Neff=1.500
+
+Q QSYGQQ            1 QSYGQQ    6 (6)
+Q Consensus         1 qsygqq    6 (6)
+                      |+|.||
+T Consensus        42 q~~t~~   47 (216)
+T 6NCL_a5          42 QDFTLL   47 (216)
+T ss_pred             Cccccc
+
+
+No 8
+>3JV2_A Protein translocase subunit secA; protein translocation, ATPase, conformational change; HET: ADP; 2.5A {Bacillus subtilis}
+Probab=7.94  E-value=3.9e+02  Score=12.31  Aligned_cols=6  Identities=33%  Similarity=0.756  Sum_probs=0.0  Template_Neff=10.500
+
+Q QSYGQQ            1 QSYGQQ    6 (6)
+Q Consensus         1 qsygqq    6 (6)
+                      ++|||+
+T Consensus       744 r~~~q~  749 (783)
+T 3JV2_A          744 RAYAQT  749 (783)
+T ss_dssp             TSCTTS
+T ss_pred             HhcccC
+
+
+No 9
+>6T4H_A Protein translocase subunit SecA 2; SecA2, ATPase, Pathogenesis, Protein Transport; HET: AGS; 2.9A {Peptoclostridium difficile (strain 630)}
+Probab=7.85  E-value=4e+02  Score=12.68  Aligned_cols=6  Identities=50%  Similarity=0.899  Sum_probs=0.0  Template_Neff=9.700
+
+Q QSYGQQ            1 QSYGQQ    6 (6)
+Q Consensus         1 qsygqq    6 (6)
+                      ++|||+
+T Consensus       743 r~~~q~  748 (781)
+T 6T4H_A          743 KSYAQK  748 (781)
+T ss_dssp             CCTTTC
+T ss_pred             HhcccC
+
+
+No 10
+>1M74_A Preprotein translocase secA; protein translocation  atpase ; HET: SO4, ADP; 3.0A {Bacillus subtilis} SCOP: c.37.1.19, a.172.1.1, a.162.1.1
+Probab=7.67  E-value=4.1e+02  Score=12.34  Aligned_cols=6  Identities=33%  Similarity=0.756  Sum_probs=0.0  Template_Neff=10.400
+
+Q QSYGQQ            1 QSYGQQ    6 (6)
+Q Consensus         1 qsygqq    6 (6)
+                      ++|||+
+T Consensus       741 ~~~~q~  746 (802)
+T 1M74_A          741 RAYAQT  746 (802)
+T ss_dssp             SCCSSS
+T ss_pred             HhccCC
+
+

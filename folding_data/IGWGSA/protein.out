@@ -1,0 +1,146 @@
+Query         IGWGSA
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 08:11:14 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/IGWGSA/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/IGWGSA/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5TRD_A Riboflavin kinase/DNA C  26.8      62 0.00068   12.7   0.0    6    1-6     218-223 (230)
+  2 5TBW_AF ?; Protein translation  19.7   1E+02  0.0012   13.1   0.0    5    1-5      54-58  (127)
+  3 3HDF_B Lysozyme (E.C.3.2.1.17)  19.6 1.1E+02  0.0012   11.4   0.0    4    1-4      26-29  (140)
+  4 6IIH_B Probable septum site-de  19.6 1.1E+02  0.0012   13.1   0.0    5    1-5      35-39  (493)
+  5 6RM3_LEE uL2, uS2, uL15, eS26,  19.5 1.1E+02  0.0012   13.4   0.0    6    1-6      62-67  (139)
+  6 4V4N_Ab Preprotein translocase  19.1 1.1E+02  0.0012   13.0   0.0    5    1-5      61-65  (127)
+  7 6H9D_A Lysozyme (E.C.3.2.1.17)  19.1 1.1E+02  0.0012   11.4   0.0    4    1-4      34-37  (149)
+  8 6W6L_4 60S ribosome-TMCO1 tran  19.1 1.1E+02  0.0012   14.3   0.0    6    1-6     104-109 (224)
+  9 4V8P_BX Ribosome; RIBOSOME, EU  18.9 1.1E+02  0.0012   13.1   0.0    5    1-5      57-61  (134)
+ 10 4FUV_A porin protein associate  18.8 1.1E+02  0.0012   13.4   0.0    6    1-6     152-157 (233)
+
+No 1
+>5TRD_A Riboflavin kinase/DNA Complex; ribflavin kinase, MarR type regulatory; HET: CTP; 1.85A {Thermoplasma acidophilum}
+Probab=26.78  E-value=62  Score=12.70  Aligned_cols=6  Identities=0%  Similarity=-0.152  Sum_probs=3.3  Template_Neff=9.700
+
+Q IGWGSA            1 IGWGSA    6 (6)
+Q Consensus         1 igwgsa    6 (6)
+                      |+||++
+T Consensus       218 ~~~~~~  223 (230)
+T 5TRD_A          218 VEVYTE  223 (230)
+T ss_dssp             EEECSS
+T ss_pred             EEEecC
+Confidence            456653
+
+
+No 2
+>5TBW_AF ?; Protein translation inhibitor, complex, ribosome; HET: 7AL, MG, ZN, OHX; 3.0A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=19.69  E-value=1e+02  Score=13.06  Aligned_cols=5  Identities=80%  Similarity=1.564  Sum_probs=0.0  Template_Neff=5.500
+
+Q IGWGSA            1 IGWGS    5 (6)
+Q Consensus         1 igwgs    5 (6)
+                      ||+||
+T Consensus        54 iGYgs   58 (127)
+T 5TBW_AF          54 IGYGS   58 (127)
+T ss_pred             CCCCC
+
+
+No 3
+>3HDF_B Lysozyme (E.C.3.2.1.17); lysozyme-like, Antimicrobial, Bacteriolytic enzyme, Glycosidase; HET: GOL, NO3; 1.7A {Enterobacteria phage P21}
+Probab=19.60  E-value=1.1e+02  Score=11.36  Aligned_cols=4  Identities=25%  Similarity=0.576  Sum_probs=0.0  Template_Neff=9.300
+
+Q IGWGSA            1 IGWG    4 (6)
+Q Consensus         1 igwg    4 (6)
+                      ||+|
+T Consensus        26 IG~G   29 (140)
+T 3HDF_B           26 VCHG   29 (140)
+T ss_dssp             EETT
+T ss_pred             EEec
+
+
+No 4
+>6IIH_B Probable septum site-determining protein MinC; calcium binding protein  mitochondrial; 1.958A {Enterobacteria phage T4}
+Probab=19.57  E-value=1.1e+02  Score=13.07  Aligned_cols=5  Identities=60%  Similarity=1.013  Sum_probs=0.0  Template_Neff=10.500
+
+Q IGWGSA            1 IGWGS    5 (6)
+Q Consensus         1 igwgs    5 (6)
+                      ||||.
+T Consensus        35 ig~G~   39 (493)
+T 6IIH_B           35 IGIGH   39 (493)
+T ss_dssp             EETTE
+T ss_pred             EEEEE
+
+
+No 5
+>6RM3_LEE uL2, uS2, uL15, eS26, uL3; Microsporidia, Ribosome, Intracellular Parasite; HET: MG; 3.4A {Vairimorpha necatrix}
+Probab=19.48  E-value=1.1e+02  Score=13.43  Aligned_cols=6  Identities=33%  Similarity=0.778  Sum_probs=0.0  Template_Neff=5.000
+
+Q IGWGSA            1 IGWGSA    6 (6)
+Q Consensus         1 igwgsa    6 (6)
+                      ||+||.
+T Consensus        62 iGYgS~   67 (139)
+T 6RM3_LEE         62 IGYKKP   67 (139)
+T ss_pred             CCCCCC
+
+
+No 6
+>4V4N_Ab Preprotein translocase subunit SecE, Preprotein; archaea, archaeal, ribosomal, 50S, protein; 9.0A {Methanococcus jannaschii}
+Probab=19.11  E-value=1.1e+02  Score=13.04  Aligned_cols=5  Identities=80%  Similarity=1.823  Sum_probs=0.0  Template_Neff=5.400
+
+Q IGWGSA            1 IGWGS    5 (6)
+Q Consensus         1 igwgs    5 (6)
+                      ||+||
+T Consensus        61 iGYgs   65 (127)
+T 4V4N_Ab          61 IGWSS   65 (127)
+T ss_pred             CCCCC
+
+
+No 7
+>6H9D_A Lysozyme (E.C.3.2.1.17); lysozyme, peptidoglycan hydrolase, cell morphogenesis; HET: GOL; 1.9A {Asticcacaulis excentricus}
+Probab=19.08  E-value=1.1e+02  Score=11.43  Aligned_cols=4  Identities=75%  Similarity=1.772  Sum_probs=0.0  Template_Neff=9.300
+
+Q IGWGSA            1 IGWG    4 (6)
+Q Consensus         1 igwg    4 (6)
+                      ||+|
+T Consensus        34 IG~G   37 (149)
+T 6H9D_A           34 IGYG   37 (149)
+T ss_dssp             EETT
+T ss_pred             EEec
+
+
+No 8
+>6W6L_4 60S ribosome-TMCO1 translocon assembly; RIBOSOME-PROTEIN TRANSPORT complex; HET: MG; 3.84A {Homo sapiens}
+Probab=19.07  E-value=1.1e+02  Score=14.35  Aligned_cols=6  Identities=50%  Similarity=1.553  Sum_probs=0.0  Template_Neff=4.900
+
+Q IGWGSA            1 IGWGSA    6 (6)
+Q Consensus         1 igwgsa    6 (6)
+                      +||+.|
+T Consensus       104 lGWa~a  109 (224)
+T 6W6L_4          104 LGWATA  109 (224)
+T ss_pred             HHHHHH
+
+
+No 9
+>4V8P_BX Ribosome; RIBOSOME, EUKARYOTIC INITIATION FACTOR 6; HET: MG, ZN; 3.52A {TETRAHYMENA THERMOPHILA}
+Probab=18.90  E-value=1.1e+02  Score=13.12  Aligned_cols=5  Identities=60%  Similarity=1.125  Sum_probs=0.0  Template_Neff=5.400
+
+Q IGWGSA            1 IGWGS    5 (6)
+Q Consensus         1 igwgs    5 (6)
+                      ||+||
+T Consensus        57 iGYgs   61 (134)
+T 4V8P_BX          57 IGFAS   61 (134)
+T ss_pred             CCCCC
+
+
+No 10
+>4FUV_A porin protein associated with imipenem; 8-stranded b-barrel, ornithine/imipenem transport, outer; HET: C8E; 2.151A {Acinetobacter baumannii}
+Probab=18.83  E-value=1.1e+02  Score=13.41  Aligned_cols=6  Identities=17%  Similarity=0.650  Sum_probs=0.0  Template_Neff=7.000
+
+Q IGWGSA            1 IGWGSA    6 (6)
+Q Consensus         1 igwgsa    6 (6)
+                      ||||.+
+T Consensus       152 iG~g~~  157 (233)
+T 4FUV_A          152 FGFAPK  157 (233)
+T ss_dssp             EEECCB
+T ss_pred             EEecCc
+
+

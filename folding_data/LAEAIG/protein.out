@@ -1,0 +1,152 @@
+Query         LAEAIG
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 13:24:01 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LAEAIG/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LAEAIG/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 1YJG_E silent VspA; helical bu  18.0 1.2E+02  0.0013   14.0   0.0    6    1-6      27-32  (158)
+  2 2GA0_D surface protein VspA; h  16.2 1.4E+02  0.0016   14.1   0.0    6    1-6      38-43  (181)
+  3 1F1M_B LYME DISEASE, OSPC, HB1  15.3 1.6E+02  0.0017   13.8   0.0    6    1-6      35-40  (164)
+  4 1LCD_A LAC REPRESSOR/DNA COMPL   9.9 2.9E+02  0.0032    6.9   0.0    6    1-6       9-14  (51)
+  5 2HIN_A Repressor protein; TRAN   9.5 3.1E+02  0.0034    8.9   0.0    6    1-6      16-21  (71)
+  6 4I6U_A Regulatory protein; Res   9.5 3.1E+02  0.0034    8.6   0.0    6    1-6      30-35  (82)
+  7 2DN5_A General transcription f   9.4 3.1E+02  0.0035   11.1   0.0    6    1-6      20-25  (89)
+  8 2XSD_C POU DOMAIN, CLASS 3, TR   9.4 3.1E+02  0.0035    9.8   0.0    6    1-6      36-41  (164)
+  9 1UJL_A Potassium voltage-gated   9.3 3.2E+02  0.0035    8.9   0.0    6    1-6      20-25  (42)
+ 10 2D99_A General transcription f   9.0 3.3E+02  0.0036   11.1   0.0    6    1-6      20-25  (90)
+
+No 1
+>1YJG_E silent VspA; helical bundle, IMMUNE SYSTEM; 2.22A {Borrelia turicatae}
+Probab=17.98  E-value=1.2e+02  Score=14.04  Aligned_cols=6  Identities=83%  Similarity=1.143  Sum_probs=3.0  Template_Neff=3.700
+
+Q LAEAIG            1 LAEAIG    6 (6)
+Q Consensus         1 laeaig    6 (6)
+                      ||.|||
+T Consensus        27 LAKaIG   32 (158)
+T 1YJG_E           27 LAKAIG   32 (158)
+T ss_dssp             HHTTTT
+T ss_pred             HHHHHh
+Confidence            355554
+
+
+No 2
+>2GA0_D surface protein VspA; helical bundle, Ni(II) binding sites; HET: NI; 2.7A {Borrelia turicatae}
+Probab=16.19  E-value=1.4e+02  Score=14.08  Aligned_cols=6  Identities=83%  Similarity=1.143  Sum_probs=2.8  Template_Neff=3.700
+
+Q LAEAIG            1 LAEAIG    6 (6)
+Q Consensus         1 laeaig    6 (6)
+                      ||.|||
+T Consensus        38 LAKaIG   43 (181)
+T 2GA0_D           38 LAKAIG   43 (181)
+T ss_dssp             HHHTTT
+T ss_pred             HHHHHh
+Confidence            344554
+
+
+No 3
+>1F1M_B LYME DISEASE, OSPC, HB19, HELICAL; 1.8A {Borrelia burgdorferi} SCOP: a.24.12.1
+Probab=15.26  E-value=1.6e+02  Score=13.85  Aligned_cols=6  Identities=83%  Similarity=1.143  Sum_probs=2.7  Template_Neff=3.500
+
+Q LAEAIG            1 LAEAIG    6 (6)
+Q Consensus         1 laeaig    6 (6)
+                      ||.|||
+T Consensus        35 LAKaIG   40 (164)
+T 1F1M_B           35 LAKAIG   40 (164)
+T ss_dssp             HHTTTT
+T ss_pred             HHHHHH
+Confidence            344554
+
+
+No 4
+>1LCD_A LAC REPRESSOR/DNA COMPLEX; GENE REGULATION/DNA, GENE REGULATION-DNA complex; NMR {Escherichia coli} SCOP: a.35.1.5
+Probab=9.85  E-value=2.9e+02  Score=6.89  Aligned_cols=6  Identities=50%  Similarity=0.634  Sum_probs=0.0  Template_Neff=12.300
+
+Q LAEAIG            1 LAEAIG    6 (6)
+Q Consensus         1 laeaig    6 (6)
+                      +++.+|
+T Consensus         9 i~~~~~   14 (51)
+T 1LCD_A            9 VAEYAG   14 (51)
+T ss_dssp             HHHHHT
+T ss_pred             HHHHHC
+
+
+No 5
+>2HIN_A Repressor protein; TRANSCRIPTION FACTOR, DIMER INTERFACE, HELIX-TURN-HELIX; HET: SO4; 1.05A {Enterobacteria phage N15}
+Probab=9.55  E-value=3.1e+02  Score=8.87  Aligned_cols=6  Identities=33%  Similarity=0.529  Sum_probs=0.0  Template_Neff=9.500
+
+Q LAEAIG            1 LAEAIG    6 (6)
+Q Consensus         1 laeaig    6 (6)
+                      +|+.+|
+T Consensus        16 la~~lg   21 (71)
+T 2HIN_A           16 AAVGVG   21 (71)
+T ss_dssp             HHHHHT
+T ss_pred             HHHHhC
+
+
+No 6
+>4I6U_A Regulatory protein; Restriction-modification, helix-turn-helix, transcriptional regulato, DNA; HET: GOL, PEG, ACT; 1.97A {Enterobacter sp.}
+Probab=9.46  E-value=3.1e+02  Score=8.62  Aligned_cols=6  Identities=33%  Similarity=0.108  Sum_probs=0.0  Template_Neff=10.500
+
+Q LAEAIG            1 LAEAIG    6 (6)
+Q Consensus         1 laeaig    6 (6)
+                      +|+.+|
+T Consensus        30 la~~~g   35 (82)
+T 4I6U_A           30 LAYKSN   35 (82)
+T ss_dssp             HHHHHT
+T ss_pred             HHHHcC
+
+
+No 7
+>2DN5_A General transcription factor II-I repeat; Transcription factor, Structural Genomics, NPPSFA; NMR {Homo sapiens}
+Probab=9.38  E-value=3.1e+02  Score=11.10  Aligned_cols=6  Identities=50%  Similarity=0.883  Sum_probs=0.0  Template_Neff=5.400
+
+Q LAEAIG            1 LAEAIG    6 (6)
+Q Consensus         1 laeaig    6 (6)
+                      .+||+|
+T Consensus        20 y~eAlG   25 (89)
+T 2DN5_A           20 YGEALG   25 (89)
+T ss_dssp             HHHHTT
+T ss_pred             HHHHhC
+
+
+No 8
+>2XSD_C POU DOMAIN, CLASS 3, TRANSCRIPTION; TRANSCRIPTION-DNA COMPLEX, SOX; HET: EDO; 2.049A {MUS MUSCULUS}
+Probab=9.37  E-value=3.1e+02  Score=9.78  Aligned_cols=6  Identities=33%  Similarity=0.628  Sum_probs=0.0  Template_Neff=10.600
+
+Q LAEAIG            1 LAEAIG    6 (6)
+Q Consensus         1 laeaig    6 (6)
+                      +|+++|
+T Consensus        36 ~a~~~~   41 (164)
+T 2XSD_C           36 VGLALG   41 (164)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 9
+>1UJL_A Potassium voltage-gated channel subfamily H; two helices, amphiphatic helix, MEMBRANE; NMR {N/A} SCOP: j.12.1.1
+Probab=9.26  E-value=3.2e+02  Score=8.86  Aligned_cols=6  Identities=50%  Similarity=0.977  Sum_probs=0.0  Template_Neff=7.400
+
+Q LAEAIG            1 LAEAIG    6 (6)
+Q Consensus         1 laeaig    6 (6)
+                      |++.++
+T Consensus        20 La~~~~   25 (42)
+T 1UJL_A           20 LGDQIG   25 (42)
+T ss_pred             HHHHcC
+
+
+No 10
+>2D99_A General transcription factor II-I repeat; TRANSCRIPTION FACTOR, Structural Genomics, NPPSFA; NMR {Homo sapiens}
+Probab=9.04  E-value=3.3e+02  Score=11.10  Aligned_cols=6  Identities=50%  Similarity=0.916  Sum_probs=0.0  Template_Neff=5.300
+
+Q LAEAIG            1 LAEAIG    6 (6)
+Q Consensus         1 laeaig    6 (6)
+                      .+||+|
+T Consensus        20 y~eAlG   25 (90)
+T 2D99_A           20 YSEALG   25 (90)
+T ss_dssp             HHHHHT
+T ss_pred             HHHHcC
+
+

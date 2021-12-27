@@ -1,0 +1,151 @@
+Query         GFGNSA
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 23:29:21 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GFGNSA/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GFGNSA/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6NMJ_B Resistance to inhibitor  74.0     2.6 2.8E-05   19.2   0.0    6    1-6     412-417 (453)
+  2 6NMG_B Resistance to inhibitor  71.8     3.1 3.5E-05   18.9   0.0    6    1-6     412-417 (453)
+  3 6N85_B Synembryn-A, G alpha t   65.6     5.3 5.8E-05   18.7   0.0    6    1-6     431-436 (512)
+  4 6TYL_A Resistance to inhibitor  63.4     6.2 6.8E-05   18.2   0.0    6    1-6     412-417 (492)
+  5 1KVK_A mevalonate kinase (E.C.  19.9   1E+02  0.0011   13.1   0.0    6    1-6     142-147 (395)
+  6 1KKH_A Mevalonate Kinase (E.C.  19.7   1E+02  0.0012   12.4   0.0    6    1-6     113-118 (317)
+  7 2BSY_A DEOXYURIDINE 5'-TRIPHOS  19.6 1.1E+02  0.0012   13.2   0.0    5    1-5     272-276 (278)
+  8 5WAS_A Homoserine kinase (E.C.  19.3 1.1E+02  0.0012   11.9   0.0    6    1-6      99-104 (185)
+  9 2WE2_A DEOXYURIDINE 5'-TRIPHOS  19.0 1.1E+02  0.0012   13.3   0.0    5    1-5     280-284 (286)
+ 10 1OJ4_A 4-DIPHOSPHOCYTIDYL-2-C-  18.9 1.1E+02  0.0012   12.6   0.0    6    1-6     103-108 (283)
+
+No 1
+>6NMJ_B Resistance to inhibitors of cholinesterase; guanine nucleotide exchange factor heterotrimeric; 2.3A {Rattus norvegicus}
+Probab=73.95  E-value=2.6  Score=19.21  Aligned_cols=6  Identities=67%  Similarity=1.420  Sum_probs=0.8  Template_Neff=7.800
+
+Q GFGNSA            1 GFGNSA    6 (6)
+Q Consensus         1 gfgnsa    6 (6)
+                      ||||.|
+T Consensus       412 GyGnAA  417 (453)
+T 6NMJ_B          412 GYGNAA  417 (453)
+T ss_dssp             C-----
+T ss_pred             CcccHH
+Confidence            788875
+
+
+No 2
+>6NMG_B Resistance to inhibitors of cholinesterase; guanine nucleotide exchange factor heterotrimeric; HET: SO4; 2.2A {Rattus norvegicus}
+Probab=71.76  E-value=3.1  Score=18.93  Aligned_cols=6  Identities=67%  Similarity=1.420  Sum_probs=4.6  Template_Neff=7.800
+
+Q GFGNSA            1 GFGNSA    6 (6)
+Q Consensus         1 gfgnsa    6 (6)
+                      ||||.|
+T Consensus       412 GyGnAA  417 (453)
+T 6NMG_B          412 GYGNAA  417 (453)
+T ss_dssp             CHHHHH
+T ss_pred             CcccHH
+Confidence            788865
+
+
+No 3
+>6N85_B Synembryn-A, G alpha t C; Ric8a, Armadillo repeat, G alpha; HET: MAL; 2.5A {Bos taurus}
+Probab=65.56  E-value=5.3  Score=18.72  Aligned_cols=6  Identities=67%  Similarity=1.420  Sum_probs=4.4  Template_Neff=7.500
+
+Q GFGNSA            1 GFGNSA    6 (6)
+Q Consensus         1 gfgnsa    6 (6)
+                      ||||.|
+T Consensus       431 GyGnAA  436 (512)
+T 6N85_B          431 GYGNAA  436 (512)
+T ss_pred             CccchH
+Confidence            788865
+
+
+No 4
+>6TYL_A Resistance to inhibitors of cholinesterase; Ric-8A, G protein, GEF, SIGNALING; HET: TPO, SEP; 3.3A {Rattus norvegicus}
+Probab=63.38  E-value=6.2  Score=18.23  Aligned_cols=6  Identities=67%  Similarity=1.420  Sum_probs=4.3  Template_Neff=7.800
+
+Q GFGNSA            1 GFGNSA    6 (6)
+Q Consensus         1 gfgnsa    6 (6)
+                      ||||.|
+T Consensus       412 GyGnAa  417 (492)
+T 6TYL_A          412 GYGNAA  417 (492)
+T ss_dssp             SHHHHH
+T ss_pred             CcchHH
+Confidence            778764
+
+
+No 5
+>1KVK_A mevalonate kinase (E.C.2.7.1.36); RMK, GHMP, TRANSFERASE; HET: ATP; 2.4A {Rattus norvegicus} SCOP: d.58.26.3, d.14.1.5
+Probab=19.88  E-value=1e+02  Score=13.06  Aligned_cols=6  Identities=67%  Similarity=1.149  Sum_probs=0.0  Template_Neff=9.800
+
+Q GFGNSA            1 GFGNSA    6 (6)
+Q Consensus         1 gfgnsa    6 (6)
+                      |+|.|+
+T Consensus       142 GLGSSa  147 (395)
+T 1KVK_A          142 GLGSSA  147 (395)
+T ss_dssp             SSCHHH
+T ss_pred             CCCHHH
+
+
+No 6
+>1KKH_A Mevalonate Kinase (E.C.2.7.1.36); mixed beta sheet, phosphate-binding loop; HET: DIO; 2.4A {Methanocaldococcus jannaschii} SCOP: d.58.26.3, d.14.1.5
+Probab=19.74  E-value=1e+02  Score=12.42  Aligned_cols=6  Identities=67%  Similarity=1.149  Sum_probs=0.0  Template_Neff=10.200
+
+Q GFGNSA            1 GFGNSA    6 (6)
+Q Consensus         1 gfgnsa    6 (6)
+                      |+|.|+
+T Consensus       113 GLGSSs  118 (317)
+T 1KKH_A          113 GLGSSA  118 (317)
+T ss_dssp             SSCHHH
+T ss_pred             CCCHHH
+
+
+No 7
+>2BSY_A DEOXYURIDINE 5'-TRIPHOSPHATE NUCLEOTIDOHYDROLASE (E.C.3.6.1.23); DUTPASE, MONOMER, HYDROLASE, NUCLEOTIDE METABOLISM; HET: SO4, UMP; 1.5A {HUMAN HERPESVIRUS 4} SCOP: b.85.4.1
+Probab=19.61  E-value=1.1e+02  Score=13.22  Aligned_cols=5  Identities=80%  Similarity=1.551  Sum_probs=0.0  Template_Neff=8.200
+
+Q GFGNSA            1 GFGNS    5 (6)
+Q Consensus         1 gfgns    5 (6)
+                      |||.|
+T Consensus       272 GfGSt  276 (278)
+T 2BSY_A          272 GFGSS  276 (278)
+T ss_pred             CCCCC
+
+
+No 8
+>5WAS_A Homoserine kinase (E.C.2.7.1.39); Corynebacterium glutamicum, Homoserine Kinase, L-threonine; 1.799A {Corynebacterium glutamicum}
+Probab=19.29  E-value=1.1e+02  Score=11.91  Aligned_cols=6  Identities=67%  Similarity=1.149  Sum_probs=0.0  Template_Neff=9.200
+
+Q GFGNSA            1 GFGNSA    6 (6)
+Q Consensus         1 gfgnsa    6 (6)
+                      |+|.|+
+T Consensus        99 GLgSSa  104 (185)
+T 5WAS_A           99 GLGSSA  104 (185)
+T ss_pred             CCCHHH
+
+
+No 9
+>2WE2_A DEOXYURIDINE 5'-TRIPHOSPHATE NUCLEOTIDOHYDROLASE (E.C.3.6.1.23); DUTPASE, MONOMER, HYDROLASE, HERPES VIRUS; HET: UMP; 1.5A {HUMAN HERPESVIRUS 4}
+Probab=19.00  E-value=1.1e+02  Score=13.26  Aligned_cols=5  Identities=80%  Similarity=1.551  Sum_probs=0.0  Template_Neff=8.100
+
+Q GFGNSA            1 GFGNS    5 (6)
+Q Consensus         1 gfgns    5 (6)
+                      |||.|
+T Consensus       280 GfGST  284 (286)
+T 2WE2_A          280 GFGSS  284 (286)
+T ss_dssp             -----
+T ss_pred             CCCCC
+
+
+No 10
+>1OJ4_A 4-DIPHOSPHOCYTIDYL-2-C-METHYL-D-ERYTHRITOL KINASE (E.C.2.7.1.148); TRANSFERASE, KINASE, ISOPRENOIDS BIOSYNTHESIS, GHMP; HET: MSE, ANP, CDM; 2.01A {ESCHERICHIA COLI} SCOP: d.14.1.5, d.58.26.5
+Probab=18.91  E-value=1.1e+02  Score=12.56  Aligned_cols=6  Identities=33%  Similarity=0.949  Sum_probs=0.0  Template_Neff=9.400
+
+Q GFGNSA            1 GFGNSA    6 (6)
+Q Consensus         1 gfgnsa    6 (6)
+                      |+|.|+
+T Consensus       103 GlGsSs  108 (283)
+T 1OJ4_A          103 GLGGGS  108 (283)
+T ss_dssp             TSCHHH
+T ss_pred             CCCHHH
+
+

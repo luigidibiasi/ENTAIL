@@ -1,0 +1,149 @@
+Query         RQNQSG
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 12:39:50 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/RQNQSG/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/RQNQSG/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 1KKM_B phosphorylation, protei   6.6   5E+02  0.0056   10.9   0.0    6    1-6     198-203 (205)
+  2 1A5Z_A L-LACTATE DEHYDROGENASE   6.2 5.4E+02   0.006   10.4   0.0    5    2-6     315-319 (319)
+  3 6XNE_A GCN4-p1 Peptide; Coil-c   5.7   6E+02  0.0067    9.0   0.0    4    1-4       1-4   (30)
+  4 6XNF_C GCN4-p1 peptide with TF   5.7 6.1E+02  0.0067    9.0   0.0    4    1-4       1-4   (30)
+  5 6A4U_B Ferritin (E.C.1.16.3.1)   5.4 6.5E+02  0.0072    9.3   0.0    5    1-5       5-9   (169)
+  6 4CTF_FD VP1; VIRUS, PICORNAVIR   5.3 6.6E+02  0.0073   11.1   0.0    5    2-6      12-16  (80)
+  7 6LOE_F MULTIHEME_CYTC domain-c   5.2 6.7E+02  0.0074   11.6   0.0    6    1-6     395-400 (414)
+  8 7EEB_F Enhanced green fluoresc   5.2 6.9E+02  0.0076   15.3   0.0    4    1-4     311-314 (1145)
+  9 4YL8_B Moesin, Crumbs; protein   5.2 6.9E+02  0.0076    8.5   0.0    6    1-6      20-25  (43)
+ 10 6QEQ_B Bacterial mobilisation    5.1   7E+02  0.0077    9.1   0.0    5    1-5     114-118 (118)
+
+No 1
+>1KKM_B phosphorylation, protein kinase, bacteria, protein/protein; HET: PO4, SEP; 2.8A {Lactobacillus casei} SCOP: c.91.1.2
+Probab=6.56  E-value=5e+02  Score=10.94  Aligned_cols=6  Identities=67%  Similarity=0.844  Sum_probs=0.0  Template_Neff=7.800
+
+Q RQNQSG            1 RQNQSG    6 (6)
+Q Consensus         1 rqnqsg    6 (6)
+                      ++|.||
+T Consensus       198 ~~~~~~  203 (205)
+T 1KKM_B          198 DQNSSG  203 (205)
+T ss_dssp             ------
+T ss_pred             ccccCC
+
+
+No 2
+>1A5Z_A L-LACTATE DEHYDROGENASE, OXAMIC ACID, NICOTINAMIDE-ADENINE-DINUCLEOTIDE; OXIDOREDUCTASE, GLYCOLYSIS, HYPERTHERMOPHILES, THERMOTOGA MARITIMA; HET: FBP, NAD; 2.1A {Thermotoga maritima} SCOP: c.2.1.5, d.162.1.1
+Probab=6.18  E-value=5.4e+02  Score=10.44  Aligned_cols=5  Identities=80%  Similarity=1.019  Sum_probs=0.0  Template_Neff=10.300
+
+Q RQNQSG            2 QNQSG    6 (6)
+Q Consensus         2 qnqsg    6 (6)
+                      ||.||
+T Consensus       315 ~~~~~  319 (319)
+T 1A5Z_A          315 QNTSG  319 (319)
+T ss_dssp             -----
+T ss_pred             hccCC
+
+
+No 3
+>6XNE_A GCN4-p1 Peptide; Coil-coil, p-methylphenylalanine modified phenylalanine, TRANSCRIPTION; HET: 4PH; 1.96A {N/A}
+Probab=5.70  E-value=6e+02  Score=9.02  Aligned_cols=4  Identities=50%  Similarity=0.601  Sum_probs=0.0  Template_Neff=3.700
+
+Q RQNQSG            1 RQNQ    4 (6)
+Q Consensus         1 rqnq    4 (6)
+                      |++|
+T Consensus         1 Rm~q    4 (30)
+T 6XNE_A            1 RMKQ    4 (30)
+T ss_dssp             CHHH
+T ss_pred             ChHH
+
+
+No 4
+>6XNF_C GCN4-p1 peptide with TFI-F16, GCN4-p1; Coil-coil, tetrafluoroiodo-modified phenylalanine, TRANSCRIPTION; HET: V61; 2.0A {N/A}
+Probab=5.66  E-value=6.1e+02  Score=9.01  Aligned_cols=4  Identities=50%  Similarity=0.601  Sum_probs=0.0  Template_Neff=3.700
+
+Q RQNQSG            1 RQNQ    4 (6)
+Q Consensus         1 rqnq    4 (6)
+                      |++|
+T Consensus         1 Rm~q    4 (30)
+T 6XNF_C            1 RMKQ    4 (30)
+T ss_dssp             CHHH
+T ss_pred             ChHH
+
+
+No 5
+>6A4U_B Ferritin (E.C.1.16.3.1); ferritin, crustacean, iron, ferroxidase site; HET: SO4, EDO; 1.16A {Marsupenaeus japonicus}
+Probab=5.35  E-value=6.5e+02  Score=9.35  Aligned_cols=5  Identities=60%  Similarity=0.620  Sum_probs=0.0  Template_Neff=9.900
+
+Q RQNQSG            1 RQNQS    5 (6)
+Q Consensus         1 rqnqs    5 (6)
+                      |||..
+T Consensus         5 ~~~~~    9 (169)
+T 6A4U_B            5 RQNYH    9 (169)
+T ss_dssp             CCSCC
+T ss_pred             cCCcC
+
+
+No 6
+>4CTF_FD VP1; VIRUS, PICORNAVIRUS, CAPSID STRUCTURE, CAPSID; 17.0A {EQUINE RHINITIS A VIRUS}
+Probab=5.30  E-value=6.6e+02  Score=11.07  Aligned_cols=5  Identities=80%  Similarity=0.953  Sum_probs=0.0  Template_Neff=1.800
+
+Q RQNQSG            2 QNQSG    6 (6)
+Q Consensus         2 qnqsg    6 (6)
+                      +|+||
+T Consensus        12 ~n~SG   16 (80)
+T 4CTF_FD          12 QNMSG   16 (80)
+T ss_pred             cCCCC
+
+
+No 7
+>6LOE_F MULTIHEME_CYTC domain-containing protein, Fe-S-cluster-containing hydrogenase; quinol:electron acceptor oxidoreductase, PHOTOSYNTHESIS; HET: SF4, EL6, HEC; 3.5A {Roseiflexus castenholzii (strain DSM 13941 / HLO8)}
+Probab=5.24  E-value=6.7e+02  Score=11.64  Aligned_cols=6  Identities=67%  Similarity=0.938  Sum_probs=0.0  Template_Neff=8.100
+
+Q RQNQSG            1 RQNQSG    6 (6)
+Q Consensus         1 rqnqsg    6 (6)
+                      ||..||
+T Consensus       395 ~~~~~~  400 (414)
+T 6LOE_F          395 RQEASG  400 (414)
+T ss_dssp             TTTCC-
+T ss_pred             hhcccC
+
+
+No 8
+>7EEB_F Enhanced green fluorescent protein,Cation channel; ion channel, membrane protein, calcium; HET: NAG, BMA, 9Z9; 2.9A {Mus musculus}
+Probab=5.16  E-value=6.9e+02  Score=15.26  Aligned_cols=4  Identities=100%  Similarity=1.157  Sum_probs=0.0  Template_Neff=3.500
+
+Q RQNQSG            1 RQNQ    4 (6)
+Q Consensus         1 rqnq    4 (6)
+                      ||||
+T Consensus       311 RQNQ  314 (1145)
+T 7EEB_F          311 RQNQ  314 (1145)
+T ss_dssp             EETT
+T ss_pred             eccc
+
+
+No 9
+>4YL8_B Moesin, Crumbs; protein complex, FERM domain, PROTEIN; HET: IOD; 1.5A {Mus musculus}
+Probab=5.15  E-value=6.9e+02  Score=8.54  Aligned_cols=6  Identities=17%  Similarity=0.102  Sum_probs=0.0  Template_Neff=6.300
+
+Q RQNQSG            1 RQNQSG    6 (6)
+Q Consensus         1 rqnqsg    6 (6)
+                      +|++.|
+T Consensus        20 ~qE~~g   25 (43)
+T 4YL8_B           20 AQEYCN   25 (43)
+T ss_dssp             TCCC--
+T ss_pred             hhhccC
+
+
+No 10
+>6QEQ_B Bacterial mobilisation protein (MobC); Accessory factor, DNA BINDING PROTEIN; HET: MSE; 1.9A {Enterococcus faecalis}
+Probab=5.09  E-value=7e+02  Score=9.08  Aligned_cols=5  Identities=60%  Similarity=0.886  Sum_probs=0.0  Template_Neff=9.000
+
+Q RQNQSG            1 RQNQS    5 (6)
+Q Consensus         1 rqnqs    5 (6)
+                      |+.||
+T Consensus       114 r~~~~  118 (118)
+T 6QEQ_B          114 RKDQS  118 (118)
+T ss_dssp             HHHHC
+T ss_pred             hhccC
+
+

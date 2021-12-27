@@ -1,0 +1,293 @@
+Query         LNDFQK
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 19:42:17 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LNDFQK/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LNDFQK/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3PXI_a Adapter protein mecA 1,  69.9     3.7 4.1E-05   15.9   0.0    6    1-6       1-6   (111)
+  2 6W6V_E Ribonucleases P/MRP pro  66.4     4.9 5.5E-05   17.0   0.0    6    1-6     156-161 (173)
+  3 7C79_E Ribonucleases P/MRP pro  66.4     4.9 5.5E-05   17.0   0.0    6    1-6     156-161 (173)
+  4 1BHT_A HEPATOCYTE GROWTH FACTO  60.5     7.6 8.4E-05   16.2   0.0    6    1-6       5-10  (176)
+  5 5CP9_B Hepatocyte growth facto  57.4     9.3  0.0001   16.3   0.0    6    1-6      12-17  (183)
+  6 2QJ2_A Hepatocyte growth facto  56.3      10 0.00011   16.2   0.0    6    1-6      14-19  (184)
+  7 1NQK_A Alkanesulfonate monooxy  53.1      12 0.00014   16.0   0.0    6    1-6     370-375 (381)
+  8 3SP8_A Hepatocyte growth facto  52.4      13 0.00014   16.3   0.0    6    1-6      14-19  (264)
+  9 3HN4_A HGF/SF, hormone/growth   50.2      15 0.00016   16.1   0.0    6    1-6      14-19  (264)
+ 10 4D3C_A HEPATOCYTE GROWTH FACTO  47.9      17 0.00019   15.8   0.0    6    1-6      22-27  (193)
+ 11 7MOB_A c-MET, HGF, receptor ty  44.8      20 0.00022   15.9   0.0    6    1-6      39-44  (210)
+ 12 4DUR_A Plasminogen (E.C.3.4.21  43.6      22 0.00024   16.8   0.0    6    1-6       3-8   (791)
+ 13 2L3O_A Interleukin 3; cytokine  41.7      24 0.00027   16.0   0.0    6    1-6      95-100 (127)
+ 14 4A5T_S PLASMINOGEN (E.C.3.4.21  35.9      35 0.00038   16.1   0.0    6    1-6       3-8   (791)
+ 15 3WWT_B Signal transducer and a  34.5      38 0.00042   15.6   0.0    6    1-6      82-87  (119)
+ 16 6KP3_B Programmed cell death 6  34.5      38 0.00042   15.6   0.0    6    1-6      82-87  (119)
+ 17 7MO7_A c-MET, HGF, receptor ty  32.2      43 0.00048   16.2   0.0    6    1-6      39-44  (728)
+ 18 1JLI_A INTERLEUKIN 3; HEMATOPO  29.3      52 0.00058   14.7   0.0    6    1-6      91-96  (112)
+ 19 5MNT_B A2 maturation protein;   21.6      90   0.001   16.5   0.0    6    1-6      18-23  (421)
+
+No 1
+>3PXI_a Adapter protein mecA 1, Negative; ClpB, proteolysis, ClpC, ClpX, Hsp100/Clp; 6.926A {Bacillus subtilis}
+Probab=69.95  E-value=3.7  Score=15.87  Aligned_cols=6  Identities=83%  Similarity=1.320  Sum_probs=4.1  Template_Neff=7.300
+
+Q LNDFQK            1 LNDFQK    6 (6)
+Q Consensus         1 lndfqk    6 (6)
+                      |.||||
+T Consensus         1 ~~~~~~    6 (111)
+T 3PXI_a            1 LDDFQK    6 (111)
+T ss_pred             CchHHH
+Confidence            467876
+
+
+No 2
+>6W6V_E Ribonucleases P/MRP protein subunit POP1; ribozyme, RNP, ribonucleoprotein, HYDROLASE;{Saccharomyces cerevisiae S288C}
+Probab=66.37  E-value=4.9  Score=17.00  Aligned_cols=6  Identities=67%  Similarity=1.276  Sum_probs=4.3  Template_Neff=6.500
+
+Q LNDFQK            1 LNDFQK    6 (6)
+Q Consensus         1 lndfqk    6 (6)
+                      +||||+
+T Consensus       156 ~~~~~~  161 (173)
+T 6W6V_E          156 INDFKK  161 (173)
+T ss_pred             HHHHHH
+Confidence            578875
+
+
+No 3
+>7C79_E Ribonucleases P/MRP protein subunit POP1; Ribonuclease MRP, RNA-protein complex, RNA; 2.5A {Saccharomyces cerevisiae S288C}
+Probab=66.37  E-value=4.9  Score=17.00  Aligned_cols=6  Identities=67%  Similarity=1.276  Sum_probs=0.0  Template_Neff=6.500
+
+Q LNDFQK            1 LNDFQK    6 (6)
+Q Consensus         1 lndfqk    6 (6)
+                      +||||+
+T Consensus       156 ~~~~~~  161 (173)
+T 7C79_E          156 INDFKK  161 (173)
+T ss_dssp             ------
+T ss_pred             HHHHHH
+Confidence            578875
+
+
+No 4
+>1BHT_A HEPATOCYTE GROWTH FACTOR, 4-(2-HYDROXYETHYL)-1-PIPERAZINE ETHANESULFONIC; HEPARIN-BINDING DOMAIN, KRINGLE, C-MET RECEPTOR; HET: EPE, SO4; 2.0A {Homo sapiens} SCOP: g.10.1.1, g.14.1.1
+Probab=60.53  E-value=7.6  Score=16.22  Aligned_cols=6  Identities=33%  Similarity=1.021  Sum_probs=4.3  Template_Neff=7.000
+
+Q LNDFQK            1 LNDFQK    6 (6)
+Q Consensus         1 lndfqk    6 (6)
+                      |+||||
+T Consensus         5 l~~y~~   10 (176)
+T 1BHT_A            5 IHEFKK   10 (176)
+T ss_dssp             GGGEEE
+T ss_pred             hhhhee
+Confidence            578875
+
+
+No 5
+>5CP9_B Hepatocyte growth factor; HGF/SF, NK1 fragment, fragment based; HET: 6O5; 1.9A {Homo sapiens}
+Probab=57.37  E-value=9.3  Score=16.27  Aligned_cols=6  Identities=33%  Similarity=1.021  Sum_probs=4.3  Template_Neff=6.600
+
+Q LNDFQK            1 LNDFQK    6 (6)
+Q Consensus         1 lndfqk    6 (6)
+                      |+||||
+T Consensus        12 l~~y~~   17 (183)
+T 5CP9_B           12 IHEFKK   17 (183)
+T ss_dssp             GGGEEE
+T ss_pred             hHHhee
+Confidence            578875
+
+
+No 6
+>2QJ2_A Hepatocyte growth factor; HGF/SF, HORMONE/GROWTH FACTOR, HORMONE; HET: SO4; 1.81A {Homo sapiens} SCOP: g.14.1.1, g.10.1.1
+Probab=56.29  E-value=10  Score=16.20  Aligned_cols=6  Identities=33%  Similarity=1.021  Sum_probs=4.2  Template_Neff=6.600
+
+Q LNDFQK            1 LNDFQK    6 (6)
+Q Consensus         1 lndfqk    6 (6)
+                      |+||||
+T Consensus        14 l~~y~~   19 (184)
+T 2QJ2_A           14 IHEFKK   19 (184)
+T ss_dssp             GGGEEE
+T ss_pred             hHheee
+Confidence            577875
+
+
+No 7
+>1NQK_A Alkanesulfonate monooxygenase; STRUCTURAL GENOMICS, BETA BARREL, PSI; 2.2A {Escherichia coli} SCOP: c.1.16.4
+Probab=53.14  E-value=12  Score=15.95  Aligned_cols=6  Identities=50%  Similarity=0.656  Sum_probs=0.0  Template_Neff=9.200
+
+Q LNDFQK            1 LNDFQK    6 (6)
+Q Consensus         1 lndfqk    6 (6)
+                      +|||||
+T Consensus       370 ~~~~~~  375 (381)
+T 1NQK_A          370 ANDFIP  375 (381)
+T ss_dssp             ------
+T ss_pred             hccccc
+Confidence            478875
+
+
+No 8
+>3SP8_A Hepatocyte growth factor; kringle domain, MET Tyrosine Kinase; HET: MES, SO4, MRD; 1.86A {Homo sapiens}
+Probab=52.45  E-value=13  Score=16.26  Aligned_cols=6  Identities=33%  Similarity=1.021  Sum_probs=4.2  Template_Neff=7.300
+
+Q LNDFQK            1 LNDFQK    6 (6)
+Q Consensus         1 lndfqk    6 (6)
+                      |+||||
+T Consensus        14 l~~~~~   19 (264)
+T 3SP8_A           14 IHEFKK   19 (264)
+T ss_dssp             GGGEEE
+T ss_pred             hHhhee
+Confidence            577875
+
+
+No 9
+>3HN4_A HGF/SF, hormone/growth factor, Disulfide bond; HET: MPD, SO4, EPE; 2.6A {Homo sapiens}
+Probab=50.15  E-value=15  Score=16.14  Aligned_cols=6  Identities=33%  Similarity=1.021  Sum_probs=4.2  Template_Neff=7.200
+
+Q LNDFQK            1 LNDFQK    6 (6)
+Q Consensus         1 lndfqk    6 (6)
+                      |+||||
+T Consensus        14 ~~~~~~   19 (264)
+T 3HN4_A           14 IHEFKK   19 (264)
+T ss_dssp             GGGEEE
+T ss_pred             hHhhee
+Confidence            577775
+
+
+No 10
+>4D3C_A HEPATOCYTE GROWTH FACTOR, SFN68 FAB; PROTEIN BINDING; 2.62A {ORYCTOLAGUS CUNICULUS}
+Probab=47.94  E-value=17  Score=15.76  Aligned_cols=6  Identities=33%  Similarity=1.021  Sum_probs=3.9  Template_Neff=6.400
+
+Q LNDFQK            1 LNDFQK    6 (6)
+Q Consensus         1 lndfqk    6 (6)
+                      |+||||
+T Consensus        22 l~~y~~   27 (193)
+T 4D3C_A           22 IHEFKK   27 (193)
+T ss_dssp             STTEEE
+T ss_pred             hHHHHh
+Confidence            567765
+
+
+No 11
+>7MOB_A c-MET, HGF, receptor tyrosine kinase; 5.0A {Homo sapiens}
+Probab=44.79  E-value=20  Score=15.86  Aligned_cols=6  Identities=33%  Similarity=1.021  Sum_probs=3.8  Template_Neff=6.100
+
+Q LNDFQK            1 LNDFQK    6 (6)
+Q Consensus         1 lndfqk    6 (6)
+                      |+||||
+T Consensus        39 l~~y~~   44 (210)
+T 7MOB_A           39 IHEFKK   44 (210)
+T ss_dssp             GGTSEE
+T ss_pred             hHHhhh
+Confidence            567765
+
+
+No 12
+>4DUR_A Plasminogen (E.C.3.4.21.7); serine protease, fibrinolysis, HYDROLASE; HET: GAL, SIA, NAG; 2.45A {Homo sapiens}
+Probab=43.55  E-value=22  Score=16.79  Aligned_cols=6  Identities=33%  Similarity=0.850  Sum_probs=4.4  Template_Neff=9.100
+
+Q LNDFQK            1 LNDFQK    6 (6)
+Q Consensus         1 lndfqk    6 (6)
+                      |+||||
+T Consensus         3 ~~~~~~    8 (791)
+T 4DUR_A            3 LDDYVN    8 (791)
+T ss_dssp             CTTEEE
+T ss_pred             hhhccc
+Confidence            678876
+
+
+No 13
+>2L3O_A Interleukin 3; cytokine, Murine Interleukin-3; NMR {Mus musculus}
+Probab=41.68  E-value=24  Score=16.02  Aligned_cols=6  Identities=67%  Similarity=1.254  Sum_probs=3.7  Template_Neff=2.800
+
+Q LNDFQK            1 LNDFQK    6 (6)
+Q Consensus         1 lndfqk    6 (6)
+                      ++|||+
+T Consensus        95 w~DFR~  100 (127)
+T 2L3O_A           95 LDDFRK  100 (127)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            467764
+
+
+No 14
+>4A5T_S PLASMINOGEN (E.C.3.4.21.7); HYDROLASE, MULTI-DOMAIN CONFORMATIONAL CHANGE; HET: GAL, SIA, NGA; 3.49A {HOMO SAPIENS}
+Probab=35.86  E-value=35  Score=16.13  Aligned_cols=6  Identities=33%  Similarity=0.850  Sum_probs=4.2  Template_Neff=9.200
+
+Q LNDFQK            1 LNDFQK    6 (6)
+Q Consensus         1 lndfqk    6 (6)
+                      |+||||
+T Consensus         3 ~~~~~~    8 (791)
+T 4A5T_S            3 LDDYVN    8 (791)
+T ss_dssp             STTEEE
+T ss_pred             hHHhhc
+Confidence            577775
+
+
+No 15
+>3WWT_B Signal transducer and activator of; alpha protein, interferon inhibition, signal; 2.0A {Homo sapiens}
+Probab=34.47  E-value=38  Score=15.57  Aligned_cols=6  Identities=83%  Similarity=1.243  Sum_probs=3.8  Template_Neff=1.600
+
+Q LNDFQK            1 LNDFQK    6 (6)
+Q Consensus         1 lndfqk    6 (6)
+                      |.|||+
+T Consensus        82 Lk~FQ~   87 (119)
+T 3WWT_B           82 LKDFQK   87 (119)
+T ss_dssp             SHHHHH
+T ss_pred             HHHHHH
+Confidence            457775
+
+
+No 16
+>6KP3_B Programmed cell death 6-interacting protein; virus budding, viral protein; 2.2A {Homo sapiens}
+Probab=34.47  E-value=38  Score=15.57  Aligned_cols=6  Identities=83%  Similarity=1.243  Sum_probs=3.8  Template_Neff=1.600
+
+Q LNDFQK            1 LNDFQK    6 (6)
+Q Consensus         1 lndfqk    6 (6)
+                      |.|||+
+T Consensus        82 Lk~FQ~   87 (119)
+T 6KP3_B           82 LKDFQK   87 (119)
+T ss_dssp             TSSTHH
+T ss_pred             HHHHHH
+Confidence            457775
+
+
+No 17
+>7MO7_A c-MET, HGF, receptor tyrosine kinase; HET: SGN, IDS;{Homo sapiens}
+Probab=32.17  E-value=43  Score=16.23  Aligned_cols=6  Identities=33%  Similarity=1.021  Sum_probs=0.0  Template_Neff=8.200
+
+Q LNDFQK            1 LNDFQK    6 (6)
+Q Consensus         1 lndfqk    6 (6)
+                      |+||||
+T Consensus        39 ~~~~~~   44 (728)
+T 7MO7_A           39 IHEFKK   44 (728)
+T ss_dssp             ------
+T ss_pred             HHHhHh
+Confidence            567765
+
+
+No 18
+>1JLI_A INTERLEUKIN 3; HEMATOPOIETIC GROWTH FACTOR, COLONY-STIMULATING FACTOR; NMR {Homo sapiens} SCOP: a.26.1.2
+Probab=29.29  E-value=52  Score=14.67  Aligned_cols=6  Identities=33%  Similarity=0.944  Sum_probs=3.2  Template_Neff=3.100
+
+Q LNDFQK            1 LNDFQK    6 (6)
+Q Consensus         1 lndfqk    6 (6)
+                      ++|||+
+T Consensus        91 ~~DFr~   96 (112)
+T 1JLI_A           91 WNEFRR   96 (112)
+T ss_dssp             HHHHHH
+T ss_pred             hHHHHH
+Confidence            356653
+
+
+No 19
+>5MNT_B A2 maturation protein; virus attachment, minor capsid protein; 3.32A {Enterobacteria phage Qbeta}
+Probab=21.56  E-value=90  Score=16.50  Aligned_cols=6  Identities=83%  Similarity=1.298  Sum_probs=4.3  Template_Neff=3.200
+
+Q LNDFQK            1 LNDFQK    6 (6)
+Q Consensus         1 lndfqk    6 (6)
+                      |||||.
+T Consensus        18 ~~df~~   23 (421)
+T 5MNT_B           18 LNDFQE   23 (421)
+T ss_dssp             EECHHH
+T ss_pred             cccHHH
+Confidence            688873
+
+

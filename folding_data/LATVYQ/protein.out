@@ -1,0 +1,153 @@
+Query         LATVYQ
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 16:56:42 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LATVYQ/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LATVYQ/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 7K34_C Threonine aldolase (E.C  44.0      21 0.00024   14.9   0.0    6    1-6     443-448 (452)
+  2 7K34_D Threonine aldolase (E.C  37.1      32 0.00035   14.4   0.0    6    1-6     443-448 (452)
+  3 5NV6_A Transforming growth fac  10.7 2.6E+02  0.0029   13.4   0.0    6    1-6     670-675 (683)
+  4 4WQK_A ANT(2")-Ia; antibiotic    6.9 4.7E+02  0.0052    9.9   0.0    6    1-6     172-177 (178)
+  5 7DH7_C Transcriptional regulat   6.7 4.9E+02  0.0054   10.4   0.0    6    1-6      80-85  (170)
+  6 7DH8_A Transcriptional regulat   6.7 4.9E+02  0.0054   10.4   0.0    6    1-6      80-85  (170)
+  7 5N76_B CooT; CODH maturation,    6.5 5.1E+02  0.0056    9.9   0.0    5    1-5       3-7   (66)
+  8 6FAN_A Uncharacterized protein   6.4 5.2E+02  0.0058    9.8   0.0    5    1-5       3-7   (63)
+  9 6FAN_F Uncharacterized protein   6.4 5.2E+02  0.0058    9.8   0.0    5    1-5       3-7   (63)
+ 10 6D57_A Ferric uptake regulatio   6.3 5.3E+02  0.0059    9.9   0.0    6    1-6      68-73  (161)
+
+No 1
+>7K34_C Threonine aldolase (E.C.4.1.2.5); threonine transaldolase, pyridoxal phosphate, PLP; HET: SO4, LLP; 1.66A {Pseudomonas fluorescens}
+Probab=43.96  E-value=21  Score=14.89  Aligned_cols=6  Identities=83%  Similarity=1.160  Sum_probs=3.9  Template_Neff=10.400
+
+Q LATVYQ            1 LATVYQ    6 (6)
+Q Consensus         1 latvyq    6 (6)
+                      ||.|||
+T Consensus       443 ~~~~~~  448 (452)
+T 7K34_C          443 LAAVYQ  448 (452)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            466776
+
+
+No 2
+>7K34_D Threonine aldolase (E.C.4.1.2.5); threonine transaldolase, pyridoxal phosphate, PLP; HET: SO4, LLP; 1.66A {Pseudomonas fluorescens}
+Probab=37.14  E-value=32  Score=14.40  Aligned_cols=6  Identities=83%  Similarity=1.160  Sum_probs=3.6  Template_Neff=10.400
+
+Q LATVYQ            1 LATVYQ    6 (6)
+Q Consensus         1 latvyq    6 (6)
+                      |+++||
+T Consensus       443 ~~~~~~  448 (452)
+T 7K34_D          443 LAAVYQ  448 (452)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            456665
+
+
+No 3
+>5NV6_A Transforming growth factor-beta-induced protein ig-h3; Structural protein; 2.93A {Homo sapiens}
+Probab=10.71  E-value=2.6e+02  Score=13.43  Aligned_cols=6  Identities=83%  Similarity=1.132  Sum_probs=0.0  Template_Neff=8.800
+
+Q LATVYQ            1 LATVYQ    6 (6)
+Q Consensus         1 latvyq    6 (6)
+                      ||-|||
+T Consensus       670 ~~~~~~  675 (683)
+T 5NV6_A          670 LAPVYQ  675 (683)
+T ss_dssp             ------
+T ss_pred             hhhHhH
+Confidence            455665
+
+
+No 4
+>4WQK_A ANT(2")-Ia; antibiotic resistance, aminoglycosides, kanamycin, nucleotidylyltransferase; HET: IPA, GOL; 1.482A {Klebsiella pneumoniae}
+Probab=6.95  E-value=4.7e+02  Score=9.91  Aligned_cols=6  Identities=17%  Similarity=0.473  Sum_probs=0.0  Template_Neff=9.700
+
+Q LATVYQ            1 LATVYQ    6 (6)
+Q Consensus         1 latvyq    6 (6)
+                      +.++||
+T Consensus       172 ~~~~~~  177 (178)
+T 4WQK_A          172 FRSRYA  177 (178)
+T ss_dssp             HHHHHC
+T ss_pred             HHHhcc
+
+
+No 5
+>7DH7_C Transcriptional regulator fur family; Zinc perception, Conformational change, Zinc; HET: PO4; 2.2A {Xanthomonas campestris pv. campestris (strain 8004)}
+Probab=6.70  E-value=4.9e+02  Score=10.43  Aligned_cols=6  Identities=50%  Similarity=0.733  Sum_probs=0.0  Template_Neff=8.300
+
+Q LATVYQ            1 LATVYQ    6 (6)
+Q Consensus         1 latvyq    6 (6)
+                      .+|||.
+T Consensus        80 ~sTVyr   85 (170)
+T 7DH7_C           80 PPTVYR   85 (170)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 6
+>7DH8_A Transcriptional regulator fur family; Zinc perception, Conformational change, Zinc; 1.85A {Xanthomonas campestris pv. campestris (strain 8004)}
+Probab=6.70  E-value=4.9e+02  Score=10.43  Aligned_cols=6  Identities=50%  Similarity=0.733  Sum_probs=0.0  Template_Neff=8.300
+
+Q LATVYQ            1 LATVYQ    6 (6)
+Q Consensus         1 latvyq    6 (6)
+                      .+|||.
+T Consensus        80 ~sTVyr   85 (170)
+T 7DH8_A           80 PPTVYR   85 (170)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 7
+>5N76_B CooT; CODH maturation, nickel-binding protein, anaerobic; 1.9A {Rhodospirillum rubrum}
+Probab=6.50  E-value=5.1e+02  Score=9.91  Aligned_cols=5  Identities=40%  Similarity=0.507  Sum_probs=0.0  Template_Neff=5.600
+
+Q LATVYQ            1 LATVY    5 (6)
+Q Consensus         1 latvy    5 (6)
+                      +++||
+T Consensus         3 es~vy    7 (66)
+T 5N76_B            3 MAKVV    7 (66)
+T ss_dssp             CCEEE
+T ss_pred             cceEE
+
+
+No 8
+>6FAN_A Uncharacterized protein; Carbon monoxide dehydrogenase, nickel chaperone; HET: GOL, MPD; 2.0A {Carboxydothermus hydrogenoformans (strain ATCC BAA-161 / DSM 6008 / Z-2901)}
+Probab=6.38  E-value=5.2e+02  Score=9.76  Aligned_cols=5  Identities=20%  Similarity=0.421  Sum_probs=0.0  Template_Neff=5.700
+
+Q LATVYQ            1 LATVY    5 (6)
+Q Consensus         1 latvy    5 (6)
+                      .++||
+T Consensus         3 es~vy    7 (63)
+T 6FAN_A            3 EASAF    7 (63)
+T ss_dssp             CEEEE
+T ss_pred             eceEE
+
+
+No 9
+>6FAN_F Uncharacterized protein; Carbon monoxide dehydrogenase, nickel chaperone; HET: GOL, MPD; 2.0A {Carboxydothermus hydrogenoformans (strain ATCC BAA-161 / DSM 6008 / Z-2901)}
+Probab=6.38  E-value=5.2e+02  Score=9.76  Aligned_cols=5  Identities=20%  Similarity=0.421  Sum_probs=0.0  Template_Neff=5.700
+
+Q LATVYQ            1 LATVY    5 (6)
+Q Consensus         1 latvy    5 (6)
+                      .++||
+T Consensus         3 es~vy    7 (63)
+T 6FAN_F            3 EASAF    7 (63)
+T ss_dssp             TEEEE
+T ss_pred             eceEE
+
+
+No 10
+>6D57_A Ferric uptake regulation protein; Fur, ferric uptake regulator, Campylobacter; HET: GOL, OHI, FMT; 1.81A {Campylobacter jejuni}
+Probab=6.31  E-value=5.3e+02  Score=9.92  Aligned_cols=6  Identities=67%  Similarity=1.132  Sum_probs=0.0  Template_Neff=9.000
+
+Q LATVYQ            1 LATVYQ    6 (6)
+Q Consensus         1 latvyq    6 (6)
+                      .+|||.
+T Consensus        68 ~~TVyr   73 (161)
+T 6D57_A           68 IATVYR   73 (161)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+

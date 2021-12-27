@@ -1,0 +1,148 @@
+Query         GTVIIE
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 04:16:38 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GTVIIE/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GTVIIE/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6NZ2_A Box C/D snoRNA protein   15.5 1.5E+02  0.0017   12.3   0.0    6    1-6     160-165 (188)
+  2 6S95_B Genome polyprotein; DII  15.5 1.5E+02  0.0017   12.3   0.0    6    1-6      23-28  (102)
+  3 3J8D_F glycoprotein DIII, anti  15.3 1.6E+02  0.0017   12.2   0.0    6    1-6      20-25  (97)
+  4 6FLB_G Domain 3 of Dengue viru  15.1 1.6E+02  0.0018   12.3   0.0    6    1-6      21-26  (100)
+  5 4BZ2_A ENVELOPE PROTEIN, FAB 2  14.9 1.6E+02  0.0018   12.3   0.0    6    1-6      23-28  (101)
+  6 6E0Y_C Cytochrome P460; nitrif  14.9 1.6E+02  0.0018   12.3   0.0    5    1-5      74-78  (169)
+  7 4R7P_B UTP--glucose-1-phosphat  14.3 1.7E+02  0.0019   14.0   0.0    6    1-6     492-497 (526)
+  8 6E0X_D Cytochrome P460; nitrif  13.7 1.8E+02   0.002   12.2   0.0    5    1-5      74-78  (169)
+  9 5J8A_DN 30S ribosomal protein   13.6 1.9E+02  0.0021   11.8   0.0    6    1-6      99-104 (136)
+ 10 2JSF_A domain III of ENVELOPE   13.5 1.9E+02  0.0021   12.5   0.0    6    1-6      30-35  (117)
+
+No 1
+>6NZ2_A Box C/D snoRNA protein 1; snoRNP assembly, RNA binding, RNA; NMR {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=15.51  E-value=1.5e+02  Score=12.29  Aligned_cols=6  Identities=50%  Similarity=0.756  Sum_probs=0.0  Template_Neff=7.700
+
+Q GTVIIE            1 GTVIIE    6 (6)
+Q Consensus         1 gtviie    6 (6)
+                      |..|||
+T Consensus       160 gk~ViE  165 (188)
+T 6NZ2_A          160 NTTVIE  165 (188)
+T ss_dssp             TCEEES
+T ss_pred             CCEEEE
+
+
+No 2
+>6S95_B Genome polyprotein; DIII, Usutu virus, USUV, envelope; 1.19A {Usutu virus}
+Probab=15.46  E-value=1.5e+02  Score=12.35  Aligned_cols=6  Identities=67%  Similarity=1.221  Sum_probs=0.0  Template_Neff=5.100
+
+Q GTVIIE            1 GTVIIE    6 (6)
+Q Consensus         1 gtviie    6 (6)
+                      |||++|
+T Consensus        23 gtVVme   28 (102)
+T 6S95_B           23 GTVVLE   28 (102)
+T ss_dssp             SCEEEE
+T ss_pred             CcEEEE
+
+
+No 3
+>3J8D_F glycoprotein DIII, antibody E111 Fab; Dengue virus, DENV2 Fab E104; 26.0A {Mus musculus}
+Probab=15.28  E-value=1.6e+02  Score=12.23  Aligned_cols=6  Identities=50%  Similarity=1.115  Sum_probs=0.0  Template_Neff=5.100
+
+Q GTVIIE            1 GTVIIE    6 (6)
+Q Consensus         1 gtviie    6 (6)
+                      |||++|
+T Consensus        20 gtVVm~   25 (97)
+T 3J8D_F           20 GTVLVQ   25 (97)
+T ss_pred             CcEEEE
+
+
+No 4
+>6FLB_G Domain 3 of Dengue virus; Dengue virus, antibody, macromolecular complex; HET: GOL; 2.2A {Dengue virus 2}
+Probab=15.06  E-value=1.6e+02  Score=12.30  Aligned_cols=6  Identities=50%  Similarity=1.093  Sum_probs=0.0  Template_Neff=5.000
+
+Q GTVIIE            1 GTVIIE    6 (6)
+Q Consensus         1 gtviie    6 (6)
+                      |||++|
+T Consensus        21 gtVVm~   26 (100)
+T 6FLB_G           21 GTIVIR   26 (100)
+T ss_dssp             SCEEEE
+T ss_pred             CcEEEE
+
+
+No 5
+>4BZ2_A ENVELOPE PROTEIN, FAB 2D73 HEAVY; IMMUNE SYSTEM-VIRAL PROTEIN COMPLEX, IMMUNE; HET: PEG, GOL; 2.03A {MUS MUSCULUS}
+Probab=14.88  E-value=1.6e+02  Score=12.34  Aligned_cols=6  Identities=33%  Similarity=0.916  Sum_probs=0.0  Template_Neff=4.900
+
+Q GTVIIE            1 GTVIIE    6 (6)
+Q Consensus         1 gtviie    6 (6)
+                      |||++|
+T Consensus        23 gTVVme   28 (101)
+T 4BZ2_A           23 GTTVVK   28 (101)
+T ss_dssp             SCEEEE
+T ss_pred             CcEEEE
+
+
+No 6
+>6E0Y_C Cytochrome P460; nitrification, ammonia-oxidizing bacteria, METAL BINDING; HET: HEC; 2.257A {Nitrosomonas sp. AL212}
+Probab=14.86  E-value=1.6e+02  Score=12.31  Aligned_cols=5  Identities=80%  Similarity=1.305  Sum_probs=0.0  Template_Neff=7.100
+
+Q GTVIIE            1 GTVII    5 (6)
+Q Consensus         1 gtvii    5 (6)
+                      ||+|+
+T Consensus        74 GtviV   78 (169)
+T 6E0Y_C           74 GTVIV   78 (169)
+T ss_dssp             TCEEE
+T ss_pred             CcEEE
+
+
+No 7
+>4R7P_B UTP--glucose-1-phosphate uridylyltransferase (E.C.2.7.7.9); Rossmann-like alpha/beta/alpha sandwich fold, pyrophosphorylase; HET: ZN, EDO, UPG, ACT, SO4; 3.35A {Homo sapiens}
+Probab=14.27  E-value=1.7e+02  Score=14.04  Aligned_cols=6  Identities=83%  Similarity=0.988  Sum_probs=0.0  Template_Neff=7.700
+
+Q GTVIIE            1 GTVIIE    6 (6)
+Q Consensus         1 gtviie    6 (6)
+                      |+|||.
+T Consensus       492 G~v~i~  497 (526)
+T 4R7P_B          492 GTVIII  497 (526)
+T ss_dssp             EEEEEE
+T ss_pred             eeEEEE
+
+
+No 8
+>6E0X_D Cytochrome P460; nitrification, ammonia-oxidizing bacteria, METAL BINDING; HET: HEC; 1.974A {Nitrosomonas sp. AL212}
+Probab=13.71  E-value=1.8e+02  Score=12.16  Aligned_cols=5  Identities=80%  Similarity=1.305  Sum_probs=0.0  Template_Neff=7.100
+
+Q GTVIIE            1 GTVII    5 (6)
+Q Consensus         1 gtvii    5 (6)
+                      ||+|+
+T Consensus        74 GtviV   78 (169)
+T 6E0X_D           74 GTVIV   78 (169)
+T ss_dssp             TCEEE
+T ss_pred             CcEEE
+
+
+No 9
+>5J8A_DN 30S ribosomal protein S2, 30S; ribosome, resistance, negamycin, tigecycline, tetracycline; HET: 2MA, MEQ, GUN, ACY, 5MC, 4OC, 4D4, PUT, D2T, MPD, OMC, 6MZ, OMG, PSU, T1C, SPD, MG, PG4, EDO, 3TD, MA6, H2U, PGE, OMU, 7MG, 2MG, 1MG, 1PE, PEG, UR3, 5MU; 3.1A {Escherichia coli (strain K12)}
+Probab=13.57  E-value=1.9e+02  Score=11.79  Aligned_cols=6  Identities=50%  Similarity=0.877  Sum_probs=0.0  Template_Neff=7.000
+
+Q GTVIIE            1 GTVIIE    6 (6)
+Q Consensus         1 gtviie    6 (6)
+                      |++|+|
+T Consensus        99 G~iifE  104 (136)
+T 5J8A_DN          99 GKVLYE  104 (136)
+T ss_pred             CcEEEE
+
+
+No 10
+>2JSF_A domain III of ENVELOPE PROTEIN; Domain III, VIRAL PROTEIN; NMR {Dengue virus} SCOP: b.1.18.4
+Probab=13.46  E-value=1.9e+02  Score=12.52  Aligned_cols=6  Identities=50%  Similarity=1.093  Sum_probs=0.0  Template_Neff=4.700
+
+Q GTVIIE            1 GTVIIE    6 (6)
+Q Consensus         1 gtviie    6 (6)
+                      |||++|
+T Consensus        30 gTVVme   35 (117)
+T 2JSF_A           30 GTIVIR   35 (117)
+T ss_dssp             SCEEEE
+T ss_pred             CcEEEE
+
+

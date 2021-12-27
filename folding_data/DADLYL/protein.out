@@ -1,0 +1,152 @@
+Query         DADLYL
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 16:46:37 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/DADLYL/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/DADLYL/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3K8G_B 30kLP; Treponema pallid  33.4      40 0.00044   16.0   0.0    6    1-6      18-23  (262)
+  2 3K8H_A 30kLP; Treponema pallid  33.1      41 0.00045   16.0   0.0    6    1-6      18-23  (262)
+  3 4BWS_F THIOREDOXIN-LIKE PROTEI  12.5 2.1E+02  0.0023   11.1   0.0    6    1-6      66-71  (71)
+  4 3WB0_A Uncharacterized protein  12.1 2.2E+02  0.0024   13.7   0.0    6    1-6      95-100 (166)
+  5 3WB2_A Uncharacterized protein  12.1 2.2E+02  0.0024   13.7   0.0    6    1-6      95-100 (166)
+  6 3WB2_C Uncharacterized protein  12.1 2.2E+02  0.0024   13.7   0.0    6    1-6      95-100 (166)
+  7 6AOZ_D CASP8-associated protei  11.8 2.3E+02  0.0025   11.9   0.0    5    1-5       5-9   (96)
+  8 6AP0_A CASP8-associated protei  11.8 2.3E+02  0.0025   11.9   0.0    5    1-5       5-9   (96)
+  9 6MCK_C Transitional endoplasmi  11.7 2.3E+02  0.0026   12.3   0.0    5    1-5     593-597 (606)
+ 10 6AP0_B CASP8-associated protei  11.4 2.4E+02  0.0026   11.9   0.0    5    1-5       5-9   (96)
+
+No 1
+>3K8G_B 30kLP; Treponema pallidum, outmer membrane protein; HET: MPD; 1.95A {Treponema pallidum}
+Probab=33.44  E-value=40  Score=16.01  Aligned_cols=6  Identities=67%  Similarity=1.154  Sum_probs=4.1  Template_Neff=4.900
+
+Q DADLYL            1 DADLYL    6 (6)
+Q Consensus         1 dadlyl    6 (6)
+                      |||+|+
+T Consensus        18 dAdvY~   23 (262)
+T 3K8G_B           18 GADVYL   23 (262)
+T ss_dssp             SCSEEE
+T ss_pred             CCeEEE
+Confidence            577774
+
+
+No 2
+>3K8H_A 30kLP; Treponema pallidum, outer membrane protein; HET: MPD; 2.39A {Treponema pallidum}
+Probab=33.06  E-value=41  Score=16.02  Aligned_cols=6  Identities=67%  Similarity=1.154  Sum_probs=4.1  Template_Neff=4.800
+
+Q DADLYL            1 DADLYL    6 (6)
+Q Consensus         1 dadlyl    6 (6)
+                      |||+|+
+T Consensus        18 dAdvY~   23 (262)
+T 3K8H_A           18 GADVYL   23 (262)
+T ss_dssp             SCSEEE
+T ss_pred             CCeEEE
+Confidence            577774
+
+
+No 3
+>4BWS_F THIOREDOXIN-LIKE PROTEIN 4A, POLYGLUTAMINE-BINDING PROTEIN; TRANSCRIPTION, NEURODEGENERATIVE DISORDERS; 2.5A {HOMO SAPIENS}
+Probab=12.51  E-value=2.1e+02  Score=11.08  Aligned_cols=6  Identities=67%  Similarity=0.977  Sum_probs=0.0  Template_Neff=5.600
+
+Q DADLYL            1 DADLYL    6 (6)
+Q Consensus         1 dadlyl    6 (6)
+                      |.|||+
+T Consensus        66 dF~ly~   71 (71)
+T 4BWS_F           66 DFDLYT   71 (71)
+T ss_dssp             CGGGGC
+T ss_pred             CeeccC
+
+
+No 4
+>3WB0_A Uncharacterized protein MJ0488 (E.C.2.7.7.-); GTP-binding domain, Guanylyltransferase, Transferase; HET: FEG; 1.91A {Methanocaldococcus jannaschii}
+Probab=12.12  E-value=2.2e+02  Score=13.68  Aligned_cols=6  Identities=67%  Similarity=1.232  Sum_probs=0.0  Template_Neff=2.600
+
+Q DADLYL            1 DADLYL    6 (6)
+Q Consensus         1 dadlyl    6 (6)
+                      ||||+.
+T Consensus        95 daDlvI  100 (166)
+T 3WB0_A           95 KADLYI  100 (166)
+T ss_dssp             CCSEEE
+T ss_pred             CCCEEE
+
+
+No 5
+>3WB2_A Uncharacterized protein MJ0488; GTP-binding domain, Guanylyltransferase, TRANSFERASE; HET: GDP, YGP; 2.44A {Methanocaldococcus jannaschii}
+Probab=12.12  E-value=2.2e+02  Score=13.68  Aligned_cols=6  Identities=67%  Similarity=1.232  Sum_probs=0.0  Template_Neff=2.600
+
+Q DADLYL            1 DADLYL    6 (6)
+Q Consensus         1 dadlyl    6 (6)
+                      ||||+.
+T Consensus        95 daDlvI  100 (166)
+T 3WB2_A           95 KADLYI  100 (166)
+T ss_dssp             CCSEEE
+T ss_pred             CCCEEE
+
+
+No 6
+>3WB2_C Uncharacterized protein MJ0488; GTP-binding domain, Guanylyltransferase, TRANSFERASE; HET: GDP, YGP; 2.44A {Methanocaldococcus jannaschii}
+Probab=12.12  E-value=2.2e+02  Score=13.68  Aligned_cols=6  Identities=67%  Similarity=1.232  Sum_probs=0.0  Template_Neff=2.600
+
+Q DADLYL            1 DADLYL    6 (6)
+Q Consensus         1 dadlyl    6 (6)
+                      ||||+.
+T Consensus        95 daDlvI  100 (166)
+T 3WB2_C           95 KADLYI  100 (166)
+T ss_dssp             CCSEEE
+T ss_pred             CCCEEE
+
+
+No 7
+>6AOZ_D CASP8-associated protein 2; coiled-coil, GENE REGULATION; HET: EDO; 2.1A {Homo sapiens}
+Probab=11.78  E-value=2.3e+02  Score=11.95  Aligned_cols=5  Identities=60%  Similarity=1.052  Sum_probs=0.0  Template_Neff=4.600
+
+Q DADLYL            1 DADLY    5 (6)
+Q Consensus         1 dadly    5 (6)
+                      +.|||
+T Consensus         5 ~lDLY    9 (96)
+T 6AOZ_D            5 SLDLY    9 (96)
+T ss_dssp             -----
+T ss_pred             hcchH
+
+
+No 8
+>6AP0_A CASP8-associated protein 2; coiled-coil, GENE REGULATION; 2.581A {Homo sapiens}
+Probab=11.78  E-value=2.3e+02  Score=11.95  Aligned_cols=5  Identities=60%  Similarity=1.052  Sum_probs=0.0  Template_Neff=4.600
+
+Q DADLYL            1 DADLY    5 (6)
+Q Consensus         1 dadly    5 (6)
+                      +.|||
+T Consensus         5 ~lDLY    9 (96)
+T 6AP0_A            5 SLDLY    9 (96)
+T ss_dssp             HHHHH
+T ss_pred             hcchH
+
+
+No 9
+>6MCK_C Transitional endoplasmic reticulum ATPase (E.C.3.6.4.6); VCP, p97, CB-5083, AAA ATPase; HET: JDP; 3.77A {Homo sapiens}
+Probab=11.67  E-value=2.3e+02  Score=12.29  Aligned_cols=5  Identities=80%  Similarity=1.391  Sum_probs=0.0  Template_Neff=10.900
+
+Q DADLYL            1 DADLY    5 (6)
+Q Consensus         1 dadly    5 (6)
+                      |+|||
+T Consensus       593 ~~~~~  597 (606)
+T 6MCK_C          593 DDDLY  597 (606)
+T ss_dssp             -----
+T ss_pred             CCCcc
+
+
+No 10
+>6AP0_B CASP8-associated protein 2; coiled-coil, GENE REGULATION; 2.581A {Homo sapiens}
+Probab=11.44  E-value=2.4e+02  Score=11.90  Aligned_cols=5  Identities=60%  Similarity=1.052  Sum_probs=0.0  Template_Neff=4.600
+
+Q DADLYL            1 DADLY    5 (6)
+Q Consensus         1 dadly    5 (6)
+                      +.|||
+T Consensus         5 ~lDLY    9 (96)
+T 6AP0_B            5 SLDLY    9 (96)
+T ss_dssp             --CTT
+T ss_pred             hccch
+
+

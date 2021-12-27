@@ -1,0 +1,154 @@
+Query         AAIGWG
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 12:59:37 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/AAIGWG/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/AAIGWG/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 1MT1_F Pyruvoyl-dependent argi  60.1     7.8 8.6E-05   15.5   0.0    6    1-6      39-44  (113)
+  2 1N13_J Pyruvoyl-dependent argi  60.1     7.8 8.6E-05   15.5   0.0    6    1-6      39-44  (113)
+  3 1N2M_A Pyruvoyl-dependent argi  41.5      25 0.00027   15.2   0.0    6    1-6      91-96  (165)
+  4 1N2M_C Pyruvoyl-dependent argi  40.4      26 0.00029   15.3   0.0    6    1-6      91-96  (165)
+  5 7KWZ_A Isoform 2 of TAR DNA-bi  39.4      28 0.00031   16.1   0.0    6    1-6     115-120 (148)
+  6 7JRG_K Mitochondrial-processin  23.0      81  0.0009   13.7   0.0    6    1-6      17-22  (81)
+  7 7JRP_W Mitochondrial-processin  23.0      81  0.0009   13.7   0.0    6    1-6      17-22  (81)
+  8 1PL3_A B-TYPE CYTOCHROME, MUTA  20.0   1E+02  0.0011   12.2   0.0    6    1-6      57-62  (186)
+  9 4L4Z_B Transcriptional regulat  19.8   1E+02  0.0012   12.8   0.0    5    2-6      70-74  (266)
+ 10 6Z5Q_B Fucose-binding lectin p  19.8   1E+02  0.0012   11.1   0.0    6    1-6       6-11  (90)
+
+No 1
+>1MT1_F Pyruvoyl-dependent arginine decarboxylase beta subunit; pyruvoyl group, pyruvate, agmatine, arginine; HET: PYR, AG2, MSE; 2.2A {Methanocaldococcus jannaschii}
+Probab=60.06  E-value=7.8  Score=15.49  Aligned_cols=6  Identities=50%  Similarity=0.396  Sum_probs=3.6  Template_Neff=6.500
+
+Q AAIGWG            1 AAIGWG    6 (6)
+Q Consensus         1 aaigwg    6 (6)
+                      |+|||+
+T Consensus        39 Agvg~a   44 (113)
+T 1MT1_F           39 AAISVA   44 (113)
+T ss_dssp             EEEEEE
+T ss_pred             EEEEEE
+Confidence            456664
+
+
+No 2
+>1N13_J Pyruvoyl-dependent arginine decarboxylase beta chain; pyruvoyl group, pyruvate, arginine decarboxylase; HET: PYR, AG2, MRD; 1.4A {Methanocaldococcus jannaschii}
+Probab=60.06  E-value=7.8  Score=15.49  Aligned_cols=6  Identities=50%  Similarity=0.396  Sum_probs=3.6  Template_Neff=6.500
+
+Q AAIGWG            1 AAIGWG    6 (6)
+Q Consensus         1 aaigwg    6 (6)
+                      |+|||+
+T Consensus        39 Agvg~a   44 (113)
+T 1N13_J           39 AAISVA   44 (113)
+T ss_dssp             EEEEEE
+T ss_pred             EEEEEE
+Confidence            456664
+
+
+No 3
+>1N2M_A Pyruvoyl-dependent arginine decarboxylase (E.C.4.1.1.19); pyruvoyl group, pyruvate, agmatine, arginine; HET: MRD; 1.9A {Methanocaldococcus jannaschii} SCOP: d.155.1.2
+Probab=41.49  E-value=25  Score=15.16  Aligned_cols=6  Identities=50%  Similarity=0.396  Sum_probs=3.4  Template_Neff=6.000
+
+Q AAIGWG            1 AAIGWG    6 (6)
+Q Consensus         1 aaigwg    6 (6)
+                      |+|||+
+T Consensus        91 A~Ig~a   96 (165)
+T 1N2M_A           91 AAISVA   96 (165)
+T ss_dssp             EEEEEE
+T ss_pred             EEEEEE
+Confidence            456664
+
+
+No 4
+>1N2M_C Pyruvoyl-dependent arginine decarboxylase (E.C.4.1.1.19); pyruvoyl group, pyruvate, agmatine, arginine; HET: MRD; 1.9A {Methanocaldococcus jannaschii} SCOP: d.155.1.2
+Probab=40.42  E-value=26  Score=15.33  Aligned_cols=6  Identities=50%  Similarity=0.396  Sum_probs=3.5  Template_Neff=5.500
+
+Q AAIGWG            1 AAIGWG    6 (6)
+Q Consensus         1 aaigwg    6 (6)
+                      |+|||+
+T Consensus        91 Agvg~a   96 (165)
+T 1N2M_C           91 AAISVA   96 (165)
+T ss_dssp             EEEEEE
+T ss_pred             EEEEEE
+Confidence            456664
+
+
+No 5
+>7KWZ_A Isoform 2 of TAR DNA-binding; TDP-43, amyloid, neurodegenerative diseases, amyotropic; 3.2A {Homo sapiens}
+Probab=39.37  E-value=28  Score=16.13  Aligned_cols=6  Identities=100%  Similarity=2.007  Sum_probs=3.8  Template_Neff=2.900
+
+Q AAIGWG            1 AAIGWG    6 (6)
+Q Consensus         1 aaigwg    6 (6)
+                      +++||+
+T Consensus       115 aa~gWg  120 (148)
+T 7KWZ_A          115 AAIGWG  120 (148)
+T ss_dssp             CEESTT
+T ss_pred             cccccc
+Confidence            467775
+
+
+No 6
+>7JRG_K Mitochondrial-processing peptidase subunit beta, mitochondrial; mitochondria, respiration, bioenergetics, plants, ELECTRON; HET: CDL, 3PE, PC1, HEC, HEM; 3.2A {Vigna radiata var. radiata}
+Probab=22.99  E-value=81  Score=13.66  Aligned_cols=6  Identities=67%  Similarity=1.182  Sum_probs=3.2  Template_Neff=2.400
+
+Q AAIGWG            1 AAIGWG    6 (6)
+Q Consensus         1 aaigwg    6 (6)
+                      ||.+||
+T Consensus        17 AAA~WG   22 (81)
+T 7JRG_K           17 AAAMWG   22 (81)
+T ss_pred             HHHHHH
+Confidence            345665
+
+
+No 7
+>7JRP_W Mitochondrial-processing peptidase subunit beta, mitochondrial; mitochondria, respiration, bioenergetics, plants, OXIDOREDUCTASE; HET: CDL, 3PE, PC1, HEC, HEA, HEM; 3.8A {Vigna radiata var. radiata}
+Probab=22.99  E-value=81  Score=13.66  Aligned_cols=6  Identities=67%  Similarity=1.182  Sum_probs=3.2  Template_Neff=2.400
+
+Q AAIGWG            1 AAIGWG    6 (6)
+Q Consensus         1 aaigwg    6 (6)
+                      ||.+||
+T Consensus        17 AAA~WG   22 (81)
+T 7JRP_W           17 AAAMWG   22 (81)
+T ss_pred             HHHHHH
+Confidence            345665
+
+
+No 8
+>1PL3_A B-TYPE CYTOCHROME, MUTANT, BIS-HIS LIGATION; HET: HEM, 1PG, PCA, NAG; 1.9A {Phanerochaete chrysosporium} SCOP: b.1.9.1
+Probab=19.96  E-value=1e+02  Score=12.24  Aligned_cols=6  Identities=33%  Similarity=0.562  Sum_probs=0.0  Template_Neff=8.700
+
+Q AAIGWG            1 AAIGWG    6 (6)
+Q Consensus         1 aaigwg    6 (6)
+                      .+||+|
+T Consensus        57 ~aiGfg   62 (186)
+T 1PL3_A           57 IGIALG   62 (186)
+T ss_dssp             EEEETT
+T ss_pred             EEEEec
+
+
+No 9
+>4L4Z_B Transcriptional regulator LsrR; DNA transcriptional regulator, Phospho-AI-2 binding; HET: D5X; 2.3A {Escherichia coli}
+Probab=19.80  E-value=1e+02  Score=12.79  Aligned_cols=5  Identities=80%  Similarity=1.544  Sum_probs=0.0  Template_Neff=8.900
+
+Q AAIGWG            2 AIGWG    6 (6)
+Q Consensus         2 aigwg    6 (6)
+                      +++||
+T Consensus        70 gvs~G   74 (266)
+T 4L4Z_B           70 AIGFG   74 (266)
+T ss_pred             EEcCC
+
+
+No 10
+>6Z5Q_B Fucose-binding lectin protein; calixarene, protein framework, cage, crystal; HET: GOL, EVB, BDF; 1.29A {Ralstonia solanacearum}
+Probab=19.77  E-value=1e+02  Score=11.06  Aligned_cols=6  Identities=67%  Similarity=1.409  Sum_probs=0.0  Template_Neff=8.300
+
+Q AAIGWG            1 AAIGWG    6 (6)
+Q Consensus         1 aaigwg    6 (6)
+                      ||++|.
+T Consensus         6 AA~~~~   11 (90)
+T 6Z5Q_B            6 AATSWG   11 (90)
+T ss_dssp             EEEEET
+T ss_pred             EEEEeC
+
+

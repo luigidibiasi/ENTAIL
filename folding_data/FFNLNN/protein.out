@@ -1,0 +1,155 @@
+Query         FFNLNN
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 20:34:20 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/FFNLNN/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/FFNLNN/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6PXE_T Antiholin, Holin; phage  64.4     5.7 6.3E-05   18.4   0.0    6    1-6     123-128 (164)
+  2 6PXE_F Antiholin, Holin; phage  64.4     5.7 6.3E-05   18.4   0.0    6    1-6     123-128 (164)
+  3 6PX4_B Antiholin, Holin; phage  63.5     6.1 6.8E-05   18.1   0.0    6    1-6     101-106 (142)
+  4 5LGD_A Platelet glycoprotein 4  15.8 1.5E+02  0.0016   13.9   0.0    6    1-6      67-72  (472)
+  5 7C4J_I Transcription regulator  13.8 1.8E+02   0.002   16.8   0.0    6    1-6       3-8   (1314)
+  6 5XBM_C light chain of JL2, hea  13.1   2E+02  0.0022   13.1   0.0    6    1-6      30-35  (394)
+  7 6UTU_C Quercetin 2,3-dioxygena  11.8 2.3E+02  0.0025   11.9   0.0    5    2-6      67-71  (273)
+  8 5UPH_A Lysosome membrane prote  11.4 2.4E+02  0.0026   13.1   0.0    6    1-6      39-44  (410)
+  9 3GUE_A UTP-glucose-1-phosphate  11.3 2.4E+02  0.0027   13.8   0.0    6    1-6     300-305 (484)
+ 10 6N67_A tRNA ligase (E.C.6.5.1.  11.2 2.5E+02  0.0027   13.9   0.0    5    1-5     141-145 (434)
+
+No 1
+>6PXE_T Antiholin, Holin; phage, lysis inhibition, VIRAL PROTEIN; 2.3A {Enterobacteria phage T4}
+Probab=64.43  E-value=5.7  Score=18.40  Aligned_cols=6  Identities=67%  Similarity=1.436  Sum_probs=4.5  Template_Neff=3.100
+
+Q FFNLNN            1 FFNLNN    6 (6)
+Q Consensus         1 ffnlnn    6 (6)
+                      +|||+|
+T Consensus       123 yFNLdN  128 (164)
+T 6PXE_T          123 YFNLDN  128 (164)
+T ss_dssp             EECTTC
+T ss_pred             cccccc
+Confidence            588886
+
+
+No 2
+>6PXE_F Antiholin, Holin; phage, lysis inhibition, VIRAL PROTEIN; 2.3A {Enterobacteria phage T4}
+Probab=64.43  E-value=5.7  Score=18.40  Aligned_cols=6  Identities=67%  Similarity=1.436  Sum_probs=4.5  Template_Neff=3.100
+
+Q FFNLNN            1 FFNLNN    6 (6)
+Q Consensus         1 ffnlnn    6 (6)
+                      +|||+|
+T Consensus       123 yFNLdN  128 (164)
+T 6PXE_F          123 YFNLDN  128 (164)
+T ss_dssp             EECTTC
+T ss_pred             cccccc
+Confidence            588886
+
+
+No 3
+>6PX4_B Antiholin, Holin; phage, lysis inhibition, VIRAL PROTEIN; 1.65A {Escherichia phage ECML-134}
+Probab=63.49  E-value=6.1  Score=18.05  Aligned_cols=6  Identities=67%  Similarity=1.436  Sum_probs=4.5  Template_Neff=2.900
+
+Q FFNLNN            1 FFNLNN    6 (6)
+Q Consensus         1 ffnlnn    6 (6)
+                      +|||+|
+T Consensus       101 yFNLdN  106 (142)
+T 6PX4_B          101 YFNLDN  106 (142)
+T ss_dssp             EECTTS
+T ss_pred             cccccc
+Confidence            588876
+
+
+No 4
+>5LGD_A Platelet glycoprotein 4, PfEMP1 variant; Plasmodium falciparum cytoadhesion scavenger receptor; HET: GOL, NAG, MAN, PLM, TRS; 2.07A {Homo sapiens}
+Probab=15.77  E-value=1.5e+02  Score=13.93  Aligned_cols=6  Identities=33%  Similarity=0.916  Sum_probs=2.8  Template_Neff=7.900
+
+Q FFNLNN            1 FFNLNN    6 (6)
+Q Consensus         1 ffnlnn    6 (6)
+                      |||+.|
+T Consensus        67 ~FNvTN   72 (472)
+T 5LGD_A           67 IFDVQN   72 (472)
+T ss_dssp             EEEESC
+T ss_pred             EEeccC
+Confidence            355543
+
+
+No 5
+>7C4J_I Transcription regulatory protein SNF12, SWI/SNF; SWI/SNF remodeling, Swi-Snf complex, nucleosome; 2.89A {Saccharomyces cerevisiae S288C}
+Probab=13.82  E-value=1.8e+02  Score=16.84  Aligned_cols=6  Identities=100%  Similarity=1.630  Sum_probs=3.3  Template_Neff=5.300
+
+Q FFNLNN            1 FFNLNN    6 (6)
+Q Consensus         1 ffnlnn    6 (6)
+                      |||+||
+T Consensus         3 ~~~~~~    8 (1314)
+T 7C4J_I            3 FFNLNN    8 (1314)
+T ss_pred             ccccCC
+Confidence            566553
+
+
+No 6
+>5XBM_C light chain of JL2, heavy; SCARB2, monoclonal antibody, IMMUNE SYSTEM-PROTEIN; HET: BMA, MAN, NAG; 3.501A {Mus musculus}
+Probab=13.10  E-value=2e+02  Score=13.14  Aligned_cols=6  Identities=67%  Similarity=1.326  Sum_probs=2.7  Template_Neff=8.100
+
+Q FFNLNN            1 FFNLNN    6 (6)
+Q Consensus         1 ffnlnn    6 (6)
+                      +||+.|
+T Consensus        30 ~FNvTN   35 (394)
+T 5XBM_C           30 FFNVTN   35 (394)
+T ss_dssp             EEEESC
+T ss_pred             EEEccC
+Confidence            355443
+
+
+No 7
+>6UTU_C Quercetin 2,3-dioxygenase (E.C.1.13.11.24); pseudopilus, minor pseduopilin, PROTEIN TRANSPORT; 2.85A {Pseudomonas aeruginosa (strain ATCC 15692 / DSM 22644 / CIP 104116 / JCM 14847 / LMG 12228 / 1C / PRS 101 / PAO1)}
+Probab=11.83  E-value=2.3e+02  Score=11.90  Aligned_cols=5  Identities=80%  Similarity=1.265  Sum_probs=0.0  Template_Neff=8.900
+
+Q FFNLNN            2 FNLNN    6 (6)
+Q Consensus         2 fnlnn    6 (6)
+                      ||||.
+T Consensus        67 ~nlN~   71 (273)
+T 6UTU_C           67 FNLNG   71 (273)
+T ss_dssp             EESGG
+T ss_pred             eechh
+
+
+No 8
+>5UPH_A Lysosome membrane protein 2; lysosomal integral membrane protein 2; HET: CLR, MAN, NAG, BMA, PCW, M6D; 3.0A {Homo sapiens}
+Probab=11.44  E-value=2.4e+02  Score=13.06  Aligned_cols=6  Identities=67%  Similarity=1.326  Sum_probs=0.0  Template_Neff=7.900
+
+Q FFNLNN            1 FFNLNN    6 (6)
+Q Consensus         1 ffnlnn    6 (6)
+                      |||+.|
+T Consensus        39 ~fN~TN   44 (410)
+T 5UPH_A           39 FFNVTN   44 (410)
+T ss_dssp             EEEESC
+T ss_pred             EEEccC
+
+
+No 9
+>3GUE_A UTP-glucose-1-phosphate uridylyltransferase 2 (E.C.2.7.7.9); TRYPANOSOMA BRUCEI, phosphatase, UDP, glucose; HET: SO4, PG4, GOL, UPG; 1.92A {Trypanosoma brucei}
+Probab=11.30  E-value=2.4e+02  Score=13.77  Aligned_cols=6  Identities=83%  Similarity=1.337  Sum_probs=0.0  Template_Neff=7.000
+
+Q FFNLNN            1 FFNLNN    6 (6)
+Q Consensus         1 ffnlnn    6 (6)
+                      |||.||
+T Consensus       300 ~fNTnn  305 (484)
+T 3GUE_A          300 FFNTNN  305 (484)
+T ss_dssp             EEEEEE
+T ss_pred             ceecce
+
+
+No 10
+>6N67_A tRNA ligase (E.C.6.5.1.3); RNA ligase, tRNA splicing, inhibitor; HET: SO4, APC, GOL, MSE; 1.9A {Chaetomium thermophilum (strain DSM 1495 / CBS 144.50 / IMI 039719)}
+Probab=11.18  E-value=2.5e+02  Score=13.88  Aligned_cols=5  Identities=60%  Similarity=1.517  Sum_probs=0.0  Template_Neff=6.300
+
+Q FFNLNN            1 FFNLN    5 (6)
+Q Consensus         1 ffnln    5 (6)
+                      |||++
+T Consensus       141 FFNi~  145 (434)
+T 6N67_A          141 FFNID  145 (434)
+T ss_dssp             CCBT-
+T ss_pred             ccCCC
+
+

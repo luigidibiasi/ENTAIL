@@ -1,0 +1,152 @@
+Query         NNGGNN
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 02:03:57 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NNGGNN/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NNGGNN/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2M83_A Protein phosphatase 1 r  44.0      21 0.00024   14.5   0.0    6    1-6     125-130 (139)
+  2 2EEF_A Protein phosphatase 1,   31.5      45  0.0005   14.0   0.0    6    1-6     127-132 (156)
+  3 6ZXQ_A Complex, Synthetase, N-  10.4 2.7E+02   0.003   13.3   0.0    5    2-6      33-37  (419)
+  4 1NHT_A ADENYLOSUCCINATE SYNTHE  10.3 2.8E+02  0.0031   13.2   0.0    5    2-6      34-38  (431)
+  5 4M9D_B Adenylosuccinate synthe  10.0 2.9E+02  0.0032   13.2   0.0    5    2-6      37-41  (432)
+  6 3HID_A Adenylosuccinate synthe   9.8   3E+02  0.0033   13.2   0.0    5    2-6      35-39  (432)
+  7 6C25_A Adenylosuccinate synthe   9.7   3E+02  0.0033   13.2   0.0    5    2-6      43-47  (439)
+  8 3R7T_A Adenylosuccinate synthe   9.5 3.1E+02  0.0034   13.1   0.0    5    2-6      38-42  (419)
+  9 1P9B_A Adenylosuccinate Synthe   9.4 3.1E+02  0.0035   13.2   0.0    5    2-6      47-51  (442)
+ 10 3VJZ_A Putative uncharacterize   9.4 3.1E+02  0.0035   11.1   0.0    4    1-4      60-63  (166)
+
+No 1
+>2M83_A Protein phosphatase 1 regulatory subunit; protein, starch binding domain, carbohydrate; NMR {Oryctolagus cuniculus}
+Probab=43.97  E-value=21  Score=14.45  Aligned_cols=6  Identities=67%  Similarity=1.049  Sum_probs=3.0  Template_Neff=7.000
+
+Q NNGGNN            1 NNGGNN    6 (6)
+Q Consensus         1 nnggnn    6 (6)
+                      ||+|.|
+T Consensus       125 NN~G~N  130 (139)
+T 2M83_A          125 NNNGTN  130 (139)
+T ss_dssp             CCSSCS
+T ss_pred             CCCCee
+Confidence            455544
+
+
+No 2
+>2EEF_A Protein phosphatase 1, regulatory (Inhibitor); CBM_21 domain, carbohydrate binding domain; NMR {Homo sapiens}
+Probab=31.53  E-value=45  Score=14.03  Aligned_cols=6  Identities=50%  Similarity=0.828  Sum_probs=2.7  Template_Neff=6.500
+
+Q NNGGNN            1 NNGGNN    6 (6)
+Q Consensus         1 nnggnn    6 (6)
+                      ||+|.|
+T Consensus       127 NN~G~N  132 (156)
+T 2EEF_A          127 SNRGKN  132 (156)
+T ss_dssp             SGGGSC
+T ss_pred             CCCCee
+Confidence            444443
+
+
+No 3
+>6ZXQ_A Complex, Synthetase, N-C Ligase, Purine; HET: IMO, GDP; 1.4A {Helicobacter pylori 26695}
+Probab=10.44  E-value=2.7e+02  Score=13.32  Aligned_cols=5  Identities=60%  Similarity=1.258  Sum_probs=0.0  Template_Neff=7.100
+
+Q NNGGNN            2 NGGNN    6 (6)
+Q Consensus         2 nggnn    6 (6)
+                      |||+|
+T Consensus        33 ~GG~n   37 (419)
+T 6ZXQ_A           33 QGGHN   37 (419)
+T ss_dssp             SBCTT
+T ss_pred             CCCcc
+
+
+No 4
+>1NHT_A ADENYLOSUCCINATE SYNTHETASE, GUANOSINE-5'-DIPHOSPHATE, (CARBOXYHYDROXYAMINO)ETHANOIC ACID; LIGASE, SYNTHETASE, PURINE NUCLEOTIDE BIOSYNTHESIS; HET: GDP, PGS; 2.5A {Escherichia coli} SCOP: c.37.1.10
+Probab=10.28  E-value=2.8e+02  Score=13.25  Aligned_cols=5  Identities=60%  Similarity=1.258  Sum_probs=0.0  Template_Neff=7.300
+
+Q NNGGNN            2 NGGNN    6 (6)
+Q Consensus         2 nggnn    6 (6)
+                      |||+|
+T Consensus        34 ~GG~n   38 (431)
+T 1NHT_A           34 QGGHN   38 (431)
+T ss_dssp             SCCTT
+T ss_pred             CCccc
+
+
+No 5
+>4M9D_B Adenylosuccinate synthetase (E.C.6.3.4.4); structural genomics, The Center for; HET: EDO, AMP, MLI; 1.821A {Bacillus anthracis}
+Probab=10.04  E-value=2.9e+02  Score=13.21  Aligned_cols=5  Identities=80%  Similarity=1.431  Sum_probs=0.0  Template_Neff=7.300
+
+Q NNGGNN            2 NGGNN    6 (6)
+Q Consensus         2 nggnn    6 (6)
+                      |||+|
+T Consensus        37 ~GG~n   41 (432)
+T 4M9D_B           37 QGGNN   41 (432)
+T ss_dssp             SBCTT
+T ss_pred             cCCcc
+
+
+No 6
+>3HID_A Adenylosuccinate synthetase (E.C.6.3.4.4); NIAID Structural Genomics, adenylosuccinate synthetase; 1.6A {Yersinia pestis CO92}
+Probab=9.78  E-value=3e+02  Score=13.16  Aligned_cols=5  Identities=60%  Similarity=1.258  Sum_probs=0.0  Template_Neff=7.300
+
+Q NNGGNN            2 NGGNN    6 (6)
+Q Consensus         2 nggnn    6 (6)
+                      |||+|
+T Consensus        35 ~GG~n   39 (432)
+T 3HID_A           35 QGGHN   39 (432)
+T ss_dssp             SBCSC
+T ss_pred             cCccc
+
+
+No 7
+>6C25_A Adenylosuccinate synthetase (E.C.6.3.4.4); SSGCID, Structural Genomics, Seattle Structural; HET: GDP; 1.9A {Legionella pneumophila}
+Probab=9.65  E-value=3e+02  Score=13.21  Aligned_cols=5  Identities=60%  Similarity=1.258  Sum_probs=0.0  Template_Neff=7.200
+
+Q NNGGNN            2 NGGNN    6 (6)
+Q Consensus         2 nggnn    6 (6)
+                      |||+|
+T Consensus        43 ~GG~n   47 (439)
+T 6C25_A           43 QGGHN   47 (439)
+T ss_dssp             SCCSS
+T ss_pred             CCCcC
+
+
+No 8
+>3R7T_A Adenylosuccinate synthetase (E.C.6.3.4.4); Structural Genomics, Center for Structural; HET: PGE, CIT, PEG; 2.3A {Campylobacter jejuni}
+Probab=9.50  E-value=3.1e+02  Score=13.05  Aligned_cols=5  Identities=60%  Similarity=1.192  Sum_probs=0.0  Template_Neff=7.300
+
+Q NNGGNN            2 NGGNN    6 (6)
+Q Consensus         2 nggnn    6 (6)
+                      |||+|
+T Consensus        38 ~GG~n   42 (419)
+T 3R7T_A           38 AGGHN   42 (419)
+T ss_dssp             SBCTT
+T ss_pred             CCCcc
+
+
+No 9
+>1P9B_A Adenylosuccinate Synthetase (E.C.6.3.4.4); LIGASE; HET: GDP, IMO; 2.0A {Plasmodium falciparum} SCOP: c.37.1.10
+Probab=9.36  E-value=3.1e+02  Score=13.21  Aligned_cols=5  Identities=80%  Similarity=1.365  Sum_probs=0.0  Template_Neff=7.100
+
+Q NNGGNN            2 NGGNN    6 (6)
+Q Consensus         2 nggnn    6 (6)
+                      |||+|
+T Consensus        47 ~GG~n   51 (442)
+T 1P9B_A           47 NGGAN   51 (442)
+T ss_dssp             SCCTT
+T ss_pred             CCccc
+
+
+No 10
+>3VJZ_A Putative uncharacterized protein; helix bundle, DNA mimic, GENE; 1.8A {Neisseria meningitidis}
+Probab=9.35  E-value=3.1e+02  Score=11.05  Aligned_cols=4  Identities=50%  Similarity=1.249  Sum_probs=0.0  Template_Neff=8.000
+
+Q NNGGNN            1 NNGG    4 (6)
+Q Consensus         1 nngg    4 (6)
+                      +|||
+T Consensus        60 ~NGG   63 (166)
+T 3VJZ_A           60 EEGG   63 (166)
+T ss_dssp             HHHH
+T ss_pred             Hcch
+
+

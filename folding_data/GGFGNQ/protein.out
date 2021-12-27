@@ -1,0 +1,352 @@
+Query         GGFGNQ
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 23:57:33 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GGFGNQ/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GGFGNQ/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3ZY2_A PUTATIVE GDP-FUCOSE PRO  82.7    0.86 9.6E-06   18.8   0.0    6    1-6      18-23  (362)
+  2 3ZY5_A PUTATIVE GDP-FUCOSE PRO  82.7    0.86 9.6E-06   18.8   0.0    6    1-6      18-23  (362)
+  3 5KY0_A GDP-fucose protein O-fu  77.5     1.7 1.9E-05   18.0   0.0    6    1-6      18-23  (355)
+  4 2HHC_A Nodulation fucosyltrans  74.8     2.3 2.6E-05   17.4   0.0    6    1-6      13-18  (330)
+  5 3ZY6_A PUTATIVE GDP-FUCOSE PRO  74.7     2.4 2.6E-05   17.5   0.0    6    1-6      18-23  (362)
+  6 5KXH_A GDP-fucose protein O-fu  74.6     2.4 2.7E-05   17.6   0.0    6    1-6      18-23  (355)
+  7 5KY2_A GDP-fucose protein O-fu  74.6     2.4 2.7E-05   17.6   0.0    6    1-6      18-23  (355)
+  8 3SIX_A Nodulation fucosyltrans  73.3     2.7   3E-05   17.1   0.0    6    1-6      13-18  (330)
+  9 6TKV_B Alpha-(1,6)-fucosyltran  65.1     5.5   6E-05   17.3   0.0    6    1-6     111-116 (453)
+ 10 6X5S_B Alpha-(1,6)-fucosyltran  59.8     7.9 8.8E-05   16.9   0.0    6    1-6     111-116 (466)
+ 11 5FOE_B GDP-FUCOSE PROTEIN O-FU  59.2     8.3 9.2E-05   16.8   0.0    6    1-6      52-57  (500)
+ 12 6X5T_C Alpha-(1,6)-fucosyltran  56.9     9.6 0.00011   17.4   0.0    6    1-6     178-183 (535)
+ 13 6VLF_A Alpha-(1,6)-fucosyltran  47.5      17 0.00019   17.0   0.0    6    1-6     186-191 (543)
+ 14 4AP5_A GDP-FUCOSE PROTEIN O-FU  46.8      18  0.0002   15.7   0.0    6    1-6      33-38  (408)
+ 15 2DE0_X Alpha-(1,6)-fucosyltran  42.7      23 0.00025   16.3   0.0    6    1-6     156-161 (526)
+ 16 4DRX_B Tubulin alpha chain, Tu  30.8      48 0.00053   14.5   0.0    6    1-6      10-15  (431)
+ 17 2BTQ_B TUBULIN BTUBA, TUBULIN   28.5      55 0.00061   14.1   0.0    6    1-6      10-15  (426)
+ 18 5N5N_E Tubulin beta chain, Tub  28.2      56 0.00062   14.2   0.0    6    1-6      10-15  (426)
+ 19 6S8K_B Tubulin alpha-1B chain,  22.7      83 0.00092   13.9   0.0    6    1-6      10-15  (445)
+ 20 5KOE_C C-terminal domain of a   22.5      84 0.00093   14.7   0.0    6    1-6      98-103 (476)
+ 21 5XTB_O NADH dehydrogenase [ubi  22.4      85 0.00094   13.7   0.0    6    1-6     206-211 (212)
+ 22 5O09_4B Tubulin, Tubulin BtubB  21.0      94   0.001   13.5   0.0    6    1-6      10-15  (426)
+ 23 5KOR_A Galactoside 2-alpha-L-f  20.7      96  0.0011   15.0   0.0    6    1-6     143-148 (521)
+
+No 1
+>3ZY2_A PUTATIVE GDP-FUCOSE PROTEIN O-FUCOSYLTRANSFERASE 1; TRANSFERASE, GLYCOSYLTRANSFERASE, GT-B, CATALYTIC MECHANISM; HET: GDP; 1.54A {CAENORHABDITIS ELEGANS}
+Probab=82.66  E-value=0.86  Score=18.81  Aligned_cols=6  Identities=83%  Similarity=1.426  Sum_probs=4.7  Template_Neff=9.600
+
+Q GGFGNQ            1 GGFGNQ    6 (6)
+Q Consensus         1 ggfgnq    6 (6)
+                      |||+||
+T Consensus        18 Gg~~NQ   23 (362)
+T 3ZY2_A           18 GRFGNQ   23 (362)
+T ss_dssp             SSHHHH
+T ss_pred             CCcHHH
+Confidence            678887
+
+
+No 2
+>3ZY5_A PUTATIVE GDP-FUCOSE PROTEIN O-FUCOSYLTRANSFERASE 1; TRANSFERASE, GLYCOSYLTRANSFERASE, GT-B, CATALYTIC MECHANISM; HET: SO4, BTB, GFB; 1.96A {CAENORHABDITIS ELEGANS}
+Probab=82.66  E-value=0.86  Score=18.81  Aligned_cols=6  Identities=83%  Similarity=1.426  Sum_probs=4.7  Template_Neff=9.600
+
+Q GGFGNQ            1 GGFGNQ    6 (6)
+Q Consensus         1 ggfgnq    6 (6)
+                      |||+||
+T Consensus        18 Gg~~NQ   23 (362)
+T 3ZY5_A           18 GRFGNQ   23 (362)
+T ss_dssp             SSHHHH
+T ss_pred             CCcHHH
+Confidence            678887
+
+
+No 3
+>5KY0_A GDP-fucose protein O-fucosyltransferase 1 (E.C.2.4.1.221); glycosyltransferase, TRANSFERASE; HET: GOL, NAG, GDP; 1.53A {Mus musculus}
+Probab=77.49  E-value=1.7  Score=17.98  Aligned_cols=6  Identities=83%  Similarity=1.426  Sum_probs=4.3  Template_Neff=9.500
+
+Q GGFGNQ            1 GGFGNQ    6 (6)
+Q Consensus         1 ggfgnq    6 (6)
+                      |||+||
+T Consensus        18 G~~~Nq   23 (355)
+T 5KY0_A           18 GRFGNQ   23 (355)
+T ss_dssp             SSHHHH
+T ss_pred             CCcHHH
+Confidence            458887
+
+
+No 4
+>2HHC_A Nodulation fucosyltransferase NodZ (E.C.2.4.1.-); glycosyltransferase, fucosyltransferase, NodZ, nodulation, TRANSFERASE; HET: PO4; 1.54A {Bradyrhizobium sp.}
+Probab=74.82  E-value=2.3  Score=17.39  Aligned_cols=6  Identities=50%  Similarity=1.049  Sum_probs=4.5  Template_Neff=9.600
+
+Q GGFGNQ            1 GGFGNQ    6 (6)
+Q Consensus         1 ggfgnq    6 (6)
+                      ||||||
+T Consensus        13 ~GlGn~   18 (330)
+T 2HHC_A           13 TGFGDC   18 (330)
+T ss_dssp             SCHHHH
+T ss_pred             CCHHHH
+Confidence            588886
+
+
+No 5
+>3ZY6_A PUTATIVE GDP-FUCOSE PROTEIN O-FUCOSYLTRANSFERASE 1; TRANSFERASE, GLYCOSYLTRANSFERASE, GT-B, CATALYTIC MECHANISM; HET: GFB; 1.91A {CAENORHABDITIS ELEGANS}
+Probab=74.74  E-value=2.4  Score=17.45  Aligned_cols=6  Identities=83%  Similarity=1.426  Sum_probs=4.4  Template_Neff=9.800
+
+Q GGFGNQ            1 GGFGNQ    6 (6)
+Q Consensus         1 ggfgnq    6 (6)
+                      |||+||
+T Consensus        18 gg~nNQ   23 (362)
+T 3ZY6_A           18 GRFGNQ   23 (362)
+T ss_dssp             SSHHHH
+T ss_pred             CCcHHH
+Confidence            568887
+
+
+No 6
+>5KXH_A GDP-fucose protein O-fucosyltransferase 1 (E.C.2.4.1.221); glycosyltransferase O-fucosylation GT-B inverting, transferase; HET: GDP, NAG; 1.33A {Mus musculus}
+Probab=74.56  E-value=2.4  Score=17.59  Aligned_cols=6  Identities=83%  Similarity=1.426  Sum_probs=4.2  Template_Neff=9.500
+
+Q GGFGNQ            1 GGFGNQ    6 (6)
+Q Consensus         1 ggfgnq    6 (6)
+                      |||+||
+T Consensus        18 G~~nNQ   23 (355)
+T 5KXH_A           18 GRFGNQ   23 (355)
+T ss_dssp             SSHHHH
+T ss_pred             CCcHHH
+Confidence            458887
+
+
+No 7
+>5KY2_A GDP-fucose protein O-fucosyltransferase 1 (E.C.2.4.1.221); glycosyltransferase, TRANSFERASE; HET: GDP, NAG, GOL, BGC; 1.47A {Mus musculus}
+Probab=74.56  E-value=2.4  Score=17.59  Aligned_cols=6  Identities=83%  Similarity=1.426  Sum_probs=4.2  Template_Neff=9.500
+
+Q GGFGNQ            1 GGFGNQ    6 (6)
+Q Consensus         1 ggfgnq    6 (6)
+                      |||+||
+T Consensus        18 G~~nNQ   23 (355)
+T 5KY2_A           18 GRFGNQ   23 (355)
+T ss_dssp             SSHHHH
+T ss_pred             CCcHHH
+Confidence            458887
+
+
+No 8
+>3SIX_A Nodulation fucosyltransferase NodZ (E.C.2.4.1.-); family GT23 glycosyltransferase, GT-B fold; HET: GDP; 2.35A {Bradyrhizobium sp.}
+Probab=73.27  E-value=2.7  Score=17.07  Aligned_cols=6  Identities=50%  Similarity=1.049  Sum_probs=4.4  Template_Neff=9.800
+
+Q GGFGNQ            1 GGFGNQ    6 (6)
+Q Consensus         1 ggfgnq    6 (6)
+                      +|||||
+T Consensus        13 ~GlGn~   18 (330)
+T 3SIX_A           13 TGFGDC   18 (330)
+T ss_dssp             SCHHHH
+T ss_pred             CChHHH
+Confidence            578875
+
+
+No 9
+>6TKV_B Alpha-(1,6)-fucosyltransferase (E.C.2.4.1.68); Glycosyltransferase, sugar nucleotide, acceptor substrate; HET: GOL, BMA, MAN, NAG, GDP; 1.95A {Homo sapiens}
+Probab=65.10  E-value=5.5  Score=17.26  Aligned_cols=6  Identities=50%  Similarity=0.955  Sum_probs=4.2  Template_Neff=9.300
+
+Q GGFGNQ            1 GGFGNQ    6 (6)
+Q Consensus         1 ggfgnq    6 (6)
+                      +|||||
+T Consensus       111 ~G~G~~  116 (453)
+T 6TKV_B          111 CGYGCQ  116 (453)
+T ss_dssp             SCHHHH
+T ss_pred             ccHHHH
+Confidence            478875
+
+
+No 10
+>6X5S_B Alpha-(1,6)-fucosyltransferase (E.C.2.4.1.68), A3'-ASN; Glycosyl transferase, Fucosyl transferase, GT-B; HET: MAN, NAG, BMA, GDP, CL; 3.3A {Gallus gallus}
+Probab=59.85  E-value=7.9  Score=16.85  Aligned_cols=6  Identities=50%  Similarity=0.955  Sum_probs=4.1  Template_Neff=9.300
+
+Q GGFGNQ            1 GGFGNQ    6 (6)
+Q Consensus         1 ggfgnq    6 (6)
+                      +|||||
+T Consensus       111 ~G~G~~  116 (466)
+T 6X5S_B          111 CGYGCQ  116 (466)
+T ss_dssp             SCHHHH
+T ss_pred             ccHHHH
+Confidence            477775
+
+
+No 11
+>5FOE_B GDP-FUCOSE PROTEIN O-FUCOSYLTRANSFERASE 2, THROMBOSPONDIN-1; TRANSFERASE, POFUT2, WATERS, FUSION PROTEIN; HET: GDP, NAG, EDO; 1.98A {CAENORHABDITIS ELEGANS, HOMO SAPIENS}
+Probab=59.20  E-value=8.3  Score=16.76  Aligned_cols=6  Identities=33%  Similarity=0.650  Sum_probs=4.2  Template_Neff=9.600
+
+Q GGFGNQ            1 GGFGNQ    6 (6)
+Q Consensus         1 ggfgnq    6 (6)
+                      |||.||
+T Consensus        52 ~G~Nnq   57 (500)
+T 5FOE_B           52 EGFNLR   57 (500)
+T ss_dssp             CCHHHH
+T ss_pred             CChHHH
+Confidence            577776
+
+
+No 12
+>6X5T_C Alpha-(1,6)-fucosyltransferase (E.C.2.4.1.68); Glycosyl transferase, Fucosyl transferase, GT-B; HET: GOL, BMA, MAN, NAG, GDP; 2.47A {Homo sapiens}
+Probab=56.93  E-value=9.6  Score=17.40  Aligned_cols=6  Identities=50%  Similarity=0.955  Sum_probs=4.3  Template_Neff=8.500
+
+Q GGFGNQ            1 GGFGNQ    6 (6)
+Q Consensus         1 ggfgnq    6 (6)
+                      +|||||
+T Consensus       178 ~GfG~q  183 (535)
+T 6X5T_C          178 CGYGCQ  183 (535)
+T ss_dssp             SCHHHH
+T ss_pred             CCHHHH
+Confidence            478875
+
+
+No 13
+>6VLF_A Alpha-(1,6)-fucosyltransferase (E.C.2.4.1.68); FUT8, Fucosyltransferase, Glycosyltransferase, N-glycan, Core; HET: SO4, EDO; 1.8A {Mus musculus}
+Probab=47.55  E-value=17  Score=16.98  Aligned_cols=6  Identities=50%  Similarity=0.955  Sum_probs=4.1  Template_Neff=8.000
+
+Q GGFGNQ            1 GGFGNQ    6 (6)
+Q Consensus         1 ggfgnq    6 (6)
+                      +|||||
+T Consensus       186 ~GfG~q  191 (543)
+T 6VLF_A          186 CGYGCQ  191 (543)
+T ss_dssp             SCHHHH
+T ss_pred             CCHHHH
+Confidence            477875
+
+
+No 14
+>4AP5_A GDP-FUCOSE PROTEIN O-FUCOSYLTRANSFERASE 2 (E.C.2.4.1.221); TRANSFERASE, GT-B, GT68; HET: NAG; 3.003A {HOMO SAPIENS}
+Probab=46.81  E-value=18  Score=15.68  Aligned_cols=6  Identities=33%  Similarity=0.650  Sum_probs=3.9  Template_Neff=9.100
+
+Q GGFGNQ            1 GGFGNQ    6 (6)
+Q Consensus         1 ggfgnq    6 (6)
+                      +||.||
+T Consensus        33 ~G~nnq   38 (408)
+T 4AP5_A           33 EGFNLR   38 (408)
+T ss_dssp             CCHHHH
+T ss_pred             CChHHH
+Confidence            467776
+
+
+No 15
+>2DE0_X Alpha-(1,6)-fucosyltransferase (E.C.2.4.1.68); FUT8, Fucosyltransferase, Glycosyltransferase, N-glycan, Core; 2.61A {Homo sapiens}
+Probab=42.74  E-value=23  Score=16.31  Aligned_cols=6  Identities=50%  Similarity=0.955  Sum_probs=4.0  Template_Neff=8.400
+
+Q GGFGNQ            1 GGFGNQ    6 (6)
+Q Consensus         1 ggfgnq    6 (6)
+                      .|||||
+T Consensus       156 ~GfG~q  161 (526)
+T 2DE0_X          156 CGYGCQ  161 (526)
+T ss_dssp             SCHHHH
+T ss_pred             CCHHHH
+Confidence            377775
+
+
+No 16
+>4DRX_B Tubulin alpha chain, Tubulin beta; ALPHA-TUBULIN, BETA-TUBULIN, GTPASE, MICROTUBULE, DARPin; HET: GTP; 2.22A {Ovis aries}
+Probab=30.76  E-value=48  Score=14.46  Aligned_cols=6  Identities=67%  Similarity=0.994  Sum_probs=3.4  Template_Neff=9.300
+
+Q GGFGNQ            1 GGFGNQ    6 (6)
+Q Consensus         1 ggfgnq    6 (6)
+                      |+.|||
+T Consensus        10 Gq~gn~   15 (431)
+T 4DRX_B           10 GQCGNQ   15 (431)
+T ss_dssp             HHHHHH
+T ss_pred             cChHHH
+Confidence            456664
+
+
+No 17
+>2BTQ_B TUBULIN BTUBA, TUBULIN BTUBB; STRUCTURAL PROTEIN, CYTOSKELETAL PROTEIN-COMPLEX, BACTERIAL; HET: GDP, SO4; 3.2A {PROSTHECOBACTER DEJONGEII}
+Probab=28.52  E-value=55  Score=14.14  Aligned_cols=6  Identities=67%  Similarity=0.994  Sum_probs=3.2  Template_Neff=9.500
+
+Q GGFGNQ            1 GGFGNQ    6 (6)
+Q Consensus         1 ggfgnq    6 (6)
+                      |++|||
+T Consensus        10 G~~Gn~   15 (426)
+T 2BTQ_B           10 GQCGNQ   15 (426)
+T ss_dssp             HHHHHH
+T ss_pred             cChhHH
+Confidence            455554
+
+
+No 18
+>5N5N_E Tubulin beta chain, Tubulin alpha-1B; Microtubules Dynamics Tubulin Isoform, structural; HET: MG, G2P, GTP; 4.0A {Homo sapiens}
+Probab=28.24  E-value=56  Score=14.23  Aligned_cols=6  Identities=67%  Similarity=0.994  Sum_probs=3.3  Template_Neff=9.300
+
+Q GGFGNQ            1 GGFGNQ    6 (6)
+Q Consensus         1 ggfgnq    6 (6)
+                      |.+|||
+T Consensus        10 Gq~gn~   15 (426)
+T 5N5N_E           10 GQCGNQ   15 (426)
+T ss_pred             cCchHH
+Confidence            455664
+
+
+No 19
+>6S8K_B Tubulin alpha-1B chain, Tubulin beta-2B; Tubulin, Microtubules, Microtubule targeting agents; HET: GDP, PN6, GTP; 1.52A {Bos taurus}
+Probab=22.72  E-value=83  Score=13.89  Aligned_cols=6  Identities=67%  Similarity=0.994  Sum_probs=3.1  Template_Neff=9.200
+
+Q GGFGNQ            1 GGFGNQ    6 (6)
+Q Consensus         1 ggfgnq    6 (6)
+                      |.+|||
+T Consensus        10 Gq~gn~   15 (445)
+T 6S8K_B           10 GQCGNQ   15 (445)
+T ss_dssp             HHHHHH
+T ss_pred             cCchHH
+Confidence            445554
+
+
+No 20
+>5KOE_C C-terminal domain of a possible; acetyl transferase, XXLG, GT37, Arabidopsis; HET: CL, GAL, XYS, GOL, EDO, BGC, MES; 1.79A {Arabidopsis thaliana}
+Probab=22.46  E-value=84  Score=14.69  Aligned_cols=6  Identities=50%  Similarity=1.160  Sum_probs=3.5  Template_Neff=7.900
+
+Q GGFGNQ            1 GGFGNQ    6 (6)
+Q Consensus         1 ggfgnq    6 (6)
+                      +|+||+
+T Consensus        98 ~GLGNR  103 (476)
+T 5KOE_C           98 SGLGNR  103 (476)
+T ss_dssp             SCHHHH
+T ss_pred             CCchHH
+Confidence            466663
+
+
+No 21
+>5XTB_O NADH dehydrogenase [ubiquinone] flavoprotein 1; Respiratory, OXIDOREDUCTASE-ELECTRON TRANSPORT complex; HET: NDP, 8Q1, FMN, SF4; 3.4A {Homo sapiens}
+Probab=22.43  E-value=85  Score=13.75  Aligned_cols=6  Identities=67%  Similarity=1.060  Sum_probs=3.5  Template_Neff=6.700
+
+Q GGFGNQ            1 GGFGNQ    6 (6)
+Q Consensus         1 ggfgnq    6 (6)
+                      +|||.|
+T Consensus       206 ~~~~~~  211 (212)
+T 5XTB_O          206 PGFGVQ  211 (212)
+T ss_pred             CCcccC
+Confidence            467654
+
+
+No 22
+>5O09_4B Tubulin, Tubulin BtubB, Bacterial kinesin; bacterial cytoskeleton, microtubules, structural protein; HET: GDP; 3.6A {Prosthecobacter dejongeii}
+Probab=21.04  E-value=94  Score=13.53  Aligned_cols=6  Identities=67%  Similarity=0.994  Sum_probs=2.9  Template_Neff=9.400
+
+Q GGFGNQ            1 GGFGNQ    6 (6)
+Q Consensus         1 ggfgnq    6 (6)
+                      |+.|||
+T Consensus        10 Gq~Gn~   15 (426)
+T 5O09_4B          10 GQCGNQ   15 (426)
+T ss_pred             cChHHH
+Confidence            445554
+
+
+No 23
+>5KOR_A Galactoside 2-alpha-L-fucosyltransferase (E.C.2.4.1.69); fucosyltransferase, complex, XLLG, transferase; HET: GDP, XYS, GAL, BGC, EDO; 2.2A {Arabidopsis thaliana}
+Probab=20.74  E-value=96  Score=15.00  Aligned_cols=6  Identities=50%  Similarity=1.160  Sum_probs=3.6  Template_Neff=7.300
+
+Q GGFGNQ            1 GGFGNQ    6 (6)
+Q Consensus         1 ggfgnq    6 (6)
+                      +|+||+
+T Consensus       143 ~GLGNR  148 (521)
+T 5KOR_A          143 SGLGNR  148 (521)
+T ss_dssp             SCHHHH
+T ss_pred             CchHHH
+Confidence            466663
+
+

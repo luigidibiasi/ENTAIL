@@ -1,0 +1,150 @@
+Query         QNSLNM
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 08:54:14 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QNSLNM/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QNSLNM/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6GDJ_A Uncharacterized protein   9.8 2.9E+02  0.0032   12.3   0.0    6    1-6      78-83  (88)
+  2 6GDJ_B Uncharacterized protein   9.8 2.9E+02  0.0032   12.3   0.0    6    1-6      78-83  (88)
+  3 2B38_A kalata B8; cyclic backb   9.0 3.3E+02  0.0036    9.7   0.0    6    1-6      25-30  (31)
+  4 5MPW_B Multiple organellar RNA   8.0 3.9E+02  0.0043   10.3   0.0    6    1-6     107-112 (115)
+  5 5MPX_D Multiple organellar RNA   8.0 3.9E+02  0.0043   10.3   0.0    6    1-6     107-112 (115)
+  6 5OED_A GtgE, Ras-related prote   7.5 4.2E+02  0.0047   13.4   0.0    5    1-5       8-12  (230)
+  7 5L7Z_A Maternal protein exuper   7.3 4.4E+02  0.0049   12.2   0.0    4    1-4     321-324 (333)
+  8 3S19_A NADPH-dependent 7-cyano   7.2 4.5E+02   0.005   13.1   0.0    5    2-6     106-110 (290)
+  9 3UXJ_C NADPH-dependent 7-cyano   7.2 4.5E+02   0.005   13.1   0.0    5    2-6     106-110 (290)
+ 10 7JKC_J Gap junction alpha-3 pr   7.0 4.6E+02  0.0051   13.5   0.0    6    1-6     325-330 (413)
+
+No 1
+>6GDJ_A Uncharacterized protein C902.06; Microtubule organisation Microtubule nucleation, STRUCTURAL; HET: GOL; 1.5A {Schizosaccharomyces pombe}
+Probab=9.84  E-value=2.9e+02  Score=12.31  Aligned_cols=6  Identities=50%  Similarity=0.844  Sum_probs=0.0  Template_Neff=1.500
+
+Q QNSLNM            1 QNSLNM    6 (6)
+Q Consensus         1 qnslnm    6 (6)
+                      |||+.|
+T Consensus        78 ~~s~~l   83 (88)
+T 6GDJ_A           78 SNSLDL   83 (88)
+T ss_dssp             --C---
+T ss_pred             Cccccc
+
+
+No 2
+>6GDJ_B Uncharacterized protein C902.06; Microtubule organisation Microtubule nucleation, STRUCTURAL; HET: GOL; 1.5A {Schizosaccharomyces pombe}
+Probab=9.83  E-value=2.9e+02  Score=12.30  Aligned_cols=6  Identities=50%  Similarity=0.844  Sum_probs=0.0  Template_Neff=1.500
+
+Q QNSLNM            1 QNSLNM    6 (6)
+Q Consensus         1 qnslnm    6 (6)
+                      |||+.|
+T Consensus        78 ~~s~dl   83 (88)
+T 6GDJ_B           78 SNSLDL   83 (88)
+T ss_dssp             ------
+T ss_pred             cccccc
+
+
+No 3
+>2B38_A kalata B8; cyclic backbone, cystine knot, beta-hairpin; NMR {Oldenlandia affinis}
+Probab=9.03  E-value=3.3e+02  Score=9.71  Aligned_cols=6  Identities=0%  Similarity=0.146  Sum_probs=0.0  Template_Neff=3.800
+
+Q QNSLNM            1 QNSLNM    6 (6)
+Q Consensus         1 qnslnm    6 (6)
+                      .|||.|
+T Consensus        25 ~nsl~~   30 (31)
+T 2B38_A           25 KDGSVL   30 (31)
+T ss_dssp             SSSCSC
+T ss_pred             cCcccC
+
+
+No 4
+>5MPW_B Multiple organellar RNA editing factor; NFLD-related fold, plant protein; HET: BR, SO4; 1.499A {Arabidopsis thaliana}
+Probab=7.98  E-value=3.9e+02  Score=10.34  Aligned_cols=6  Identities=17%  Similarity=0.241  Sum_probs=0.0  Template_Neff=7.600
+
+Q QNSLNM            1 QNSLNM    6 (6)
+Q Consensus         1 qnslnm    6 (6)
+                      +|+.+|
+T Consensus       107 ~~~~~~  112 (115)
+T 5MPW_B          107 ENGVIT  112 (115)
+T ss_dssp             ETTEEE
+T ss_pred             cCCeEe
+
+
+No 5
+>5MPX_D Multiple organellar RNA editing factor; NFLD-related fold, plant protein; HET: SO4; 1.938A {Arabidopsis thaliana}
+Probab=7.98  E-value=3.9e+02  Score=10.34  Aligned_cols=6  Identities=17%  Similarity=0.241  Sum_probs=0.0  Template_Neff=7.600
+
+Q QNSLNM            1 QNSLNM    6 (6)
+Q Consensus         1 qnslnm    6 (6)
+                      +|+.+|
+T Consensus       107 ~~~~~~  112 (115)
+T 5MPX_D          107 ENGVIT  112 (115)
+T ss_dssp             ETTEEE
+T ss_pred             cCCeEe
+
+
+No 6
+>5OED_A GtgE, Ras-related protein Rab-32; Rab GTPase, Posttranslational Modification, Proteolysis; HET: MLY, GDP; 2.9A {Salmonella choleraesuis}
+Probab=7.52  E-value=4.2e+02  Score=13.45  Aligned_cols=5  Identities=80%  Similarity=0.873  Sum_probs=0.0  Template_Neff=1.100
+
+Q QNSLNM            1 QNSLN    5 (6)
+Q Consensus         1 qnsln    5 (6)
+                      ||||+
+T Consensus         8 qnsl~   12 (230)
+T 5OED_A            8 QNSLG   12 (230)
+T ss_dssp             -----
+T ss_pred             HHhhh
+
+
+No 7
+>5L7Z_A Maternal protein exuperantia; Exonuclease, RNA, pseudo nuclease, hydrolase; 2.37A {Drosophila melanogaster}
+Probab=7.26  E-value=4.4e+02  Score=12.22  Aligned_cols=4  Identities=75%  Similarity=0.891  Sum_probs=0.0  Template_Neff=7.200
+
+Q QNSLNM            1 QNSL    4 (6)
+Q Consensus         1 qnsl    4 (6)
+                      |||+
+T Consensus       321 q~s~  324 (333)
+T 5L7Z_A          321 QNSF  324 (333)
+T ss_dssp             CC--
+T ss_pred             HHcc
+
+
+No 8
+>3S19_A NADPH-dependent 7-cyano-7-deazaguanine reductase (E.C.1.7.1.13); Structural Genomics, Center for Structural; HET: GOL, MSE, PRF; 1.5009A {Vibrio cholerae}
+Probab=7.16  E-value=4.5e+02  Score=13.09  Aligned_cols=5  Identities=60%  Similarity=0.587  Sum_probs=0.0  Template_Neff=4.500
+
+Q QNSLNM            2 NSLNM    6 (6)
+Q Consensus         2 nslnm    6 (6)
+                      ||+|+
+T Consensus       106 NSfN~  110 (290)
+T 3S19_A          106 NSYNQ  110 (290)
+T ss_dssp             HTTTT
+T ss_pred             HhccC
+
+
+No 9
+>3UXJ_C NADPH-dependent 7-cyano-7-deazaguanine reductase (E.C.1.7.1.13); Structural Genomics, Center for Structural; HET: NAP, EDO, MSE, PRF; 1.401A {Vibrio cholerae O1 biovar El Tor}
+Probab=7.16  E-value=4.5e+02  Score=13.09  Aligned_cols=5  Identities=60%  Similarity=0.587  Sum_probs=0.0  Template_Neff=4.500
+
+Q QNSLNM            2 NSLNM    6 (6)
+Q Consensus         2 nslnm    6 (6)
+                      ||+|+
+T Consensus       106 NSfN~  110 (290)
+T 3UXJ_C          106 NSYNQ  110 (290)
+T ss_dssp             HTTTT
+T ss_pred             HhccC
+
+
+No 10
+>7JKC_J Gap junction alpha-3 protein; Connexin, Gap Junction, Nanodisc, Lipid; HET: MC3;{Ovis aries}
+Probab=7.02  E-value=4.6e+02  Score=13.49  Aligned_cols=6  Identities=50%  Similarity=0.418  Sum_probs=0.0  Template_Neff=5.000
+
+Q QNSLNM            1 QNSLNM    6 (6)
+Q Consensus         1 qnslnm    6 (6)
+                      ||+-||
+T Consensus       325 qn~~n~  330 (413)
+T 7JKC_J          325 QNCANR  330 (413)
+T ss_dssp             ------
+T ss_pred             hhHHhH
+
+

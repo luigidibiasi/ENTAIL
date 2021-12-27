@@ -1,0 +1,151 @@
+Query         IFDFIQ
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 07:49:21 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/IFDFIQ/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/IFDFIQ/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2MJF_A Ribosome assembly 1 pro  23.3      79 0.00088   12.4   0.0    6    1-6      12-17  (40)
+  2 7EC2_A Glycosyl transferase, g  19.3 1.1E+02  0.0012   12.6   0.0    6    1-6      62-67  (499)
+  3 7EC2_B Glycosylation, TRANSFER  19.3 1.1E+02  0.0012   12.6   0.0    6    1-6      62-67  (499)
+  4 6OKD_C Transferrin receptor pr  18.2 1.2E+02  0.0013   11.0   0.0    6    1-6      38-43  (51)
+  5 4X7M_B TarM; Glycosyltransfera  18.0 1.2E+02  0.0013   12.5   0.0    6    1-6      69-74  (493)
+  6 4X7R_A TarM; Glycosyltransfera  18.0 1.2E+02  0.0013   12.5   0.0    6    1-6      69-74  (493)
+  7 6LNW_A Accessory Sec system pr  17.9 1.2E+02  0.0013   12.7   0.0    6    1-6      76-81  (526)
+  8 1XE1_A conserved hypothetical   17.3 1.3E+02  0.0014   11.6   0.0    5    1-5      11-15  (116)
+  9 4PGO_A HYPOTHETICAL PROTEIN PF  17.3 1.3E+02  0.0014   11.6   0.0    5    1-5      11-15  (116)
+ 10 6CKA_B Paratox; prophage, natu  17.0 1.3E+02  0.0015   12.7   0.0    5    1-5      30-34  (68)
+
+No 1
+>2MJF_A Ribosome assembly 1 protein, Protein; PROTEIN BINDING; NMR {Saccharomyces cerevisiae}
+Probab=23.28  E-value=79  Score=12.35  Aligned_cols=6  Identities=50%  Similarity=1.220  Sum_probs=3.5  Template_Neff=2.000
+
+Q IFDFIQ            1 IFDFIQ    6 (6)
+Q Consensus         1 ifdfiq    6 (6)
+                      |.|||.
+T Consensus        12 lLdFIk   17 (40)
+T 2MJF_A           12 LLDFIR   17 (40)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            457773
+
+
+No 2
+>7EC2_A Glycosyl transferase, group 1 family; Glycosylation, TRANSFERASE; 2.8A {Staphylococcus aureus (strain USA300)}
+Probab=19.26  E-value=1.1e+02  Score=12.62  Aligned_cols=6  Identities=33%  Similarity=1.171  Sum_probs=0.0  Template_Neff=11.300
+
+Q IFDFIQ            1 IFDFIQ    6 (6)
+Q Consensus         1 ifdfiq    6 (6)
+                      +||++|
+T Consensus        62 ~~d~~~   67 (499)
+T 7EC2_A           62 MYDYFQ   67 (499)
+T ss_dssp             HHHHHT
+T ss_pred             hHHHHH
+
+
+No 3
+>7EC2_B Glycosylation, TRANSFERASE; 2.8A {Staphylococcus aureus (strain USA300)}
+Probab=19.26  E-value=1.1e+02  Score=12.62  Aligned_cols=6  Identities=33%  Similarity=1.171  Sum_probs=0.0  Template_Neff=11.300
+
+Q IFDFIQ            1 IFDFIQ    6 (6)
+Q Consensus         1 ifdfiq    6 (6)
+                      +||++|
+T Consensus        62 ~~d~~~   67 (499)
+T 7EC2_B           62 MYDYFQ   67 (499)
+T ss_dssp             HHHHHT
+T ss_pred             hHHHHH
+
+
+No 4
+>6OKD_C Transferrin receptor protein 1, transferrin; protein-protein complex, cystine-dense peptide, TRANSPORT; HET: NAG, MES, GOL; 1.85A {Homo sapiens}
+Probab=18.17  E-value=1.2e+02  Score=10.96  Aligned_cols=6  Identities=17%  Similarity=0.373  Sum_probs=0.0  Template_Neff=5.900
+
+Q IFDFIQ            1 IFDFIQ    6 (6)
+Q Consensus         1 ifdfiq    6 (6)
+                      +|||++
+T Consensus        38 ~~d~~~   43 (51)
+T 6OKD_C           38 LEDLLY   43 (51)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 5
+>4X7M_B TarM; Glycosyltransferase GT-B Retaining Wall teichoic; HET: UDP, UD1; 2.4A {Staphylococcus aureus subsp. aureus 21178}
+Probab=17.98  E-value=1.2e+02  Score=12.47  Aligned_cols=6  Identities=17%  Similarity=1.132  Sum_probs=0.0  Template_Neff=11.300
+
+Q IFDFIQ            1 IFDFIQ    6 (6)
+Q Consensus         1 ifdfiq    6 (6)
+                      +||++|
+T Consensus        69 ~~d~~~   74 (493)
+T 4X7M_B           69 VFEYFK   74 (493)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHh
+
+
+No 6
+>4X7R_A TarM; Glycosyltransferase GT-B Retaining Wall teichoic; HET: ZDO, IDS, SUS, 3YW, SGN, BDP, UDP; 2.15A {Staphylococcus aureus subsp. aureus 21178}
+Probab=17.98  E-value=1.2e+02  Score=12.47  Aligned_cols=6  Identities=17%  Similarity=1.132  Sum_probs=0.0  Template_Neff=11.300
+
+Q IFDFIQ            1 IFDFIQ    6 (6)
+Q Consensus         1 ifdfiq    6 (6)
+                      +||++|
+T Consensus        69 ~~d~~~   74 (493)
+T 4X7R_A           69 VFEYFK   74 (493)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHh
+
+
+No 7
+>6LNW_A Accessory Sec system protein Asp1; Complex, TRANSPORT PROTEIN; 2.9A {Streptococcus pneumoniae TIGR4}
+Probab=17.92  E-value=1.2e+02  Score=12.75  Aligned_cols=6  Identities=50%  Similarity=1.115  Sum_probs=0.0  Template_Neff=11.000
+
+Q IFDFIQ            1 IFDFIQ    6 (6)
+Q Consensus         1 ifdfiq    6 (6)
+                      +||++|
+T Consensus        76 ~~d~~q   81 (526)
+T 6LNW_A           76 VFDVMQ   81 (526)
+T ss_dssp             HHHHHT
+T ss_pred             HHHHHc
+
+
+No 8
+>1XE1_A conserved hypothetical protein; Structural genomics, Unknown function, Protein; 2.0A {Pyrococcus furiosus} SCOP: b.43.3.1
+Probab=17.34  E-value=1.3e+02  Score=11.65  Aligned_cols=5  Identities=60%  Similarity=1.617  Sum_probs=0.0  Template_Neff=7.600
+
+Q IFDFIQ            1 IFDFI    5 (6)
+Q Consensus         1 ifdfi    5 (6)
+                      +|||+
+T Consensus        11 ~~~~~   15 (116)
+T 1XE1_A           11 LFDFL   15 (116)
+T ss_dssp             -----
+T ss_pred             hhHhh
+
+
+No 9
+>4PGO_A HYPOTHETICAL PROTEIN PF0907; Sulfur SAD, SOUTHEAST COLLABORATORY FOR; 2.3A {Pyrococcus furiosus}
+Probab=17.34  E-value=1.3e+02  Score=11.65  Aligned_cols=5  Identities=60%  Similarity=1.617  Sum_probs=0.0  Template_Neff=7.600
+
+Q IFDFIQ            1 IFDFI    5 (6)
+Q Consensus         1 ifdfi    5 (6)
+                      +|||+
+T Consensus        11 ~~~~~   15 (116)
+T 4PGO_A           11 LFDFL   15 (116)
+T ss_dssp             -----
+T ss_pred             hhHhh
+
+
+No 10
+>6CKA_B Paratox; prophage, natural competence, Streptococcus, protein; HET: MSE; 1.559A {Streptococcus pyogenes serotype M3}
+Probab=16.99  E-value=1.3e+02  Score=12.67  Aligned_cols=5  Identities=60%  Similarity=1.590  Sum_probs=0.0  Template_Neff=2.500
+
+Q IFDFIQ            1 IFDFI    5 (6)
+Q Consensus         1 ifdfi    5 (6)
+                      |||++
+T Consensus        30 IfDYV   34 (68)
+T 6CKA_B           30 IFDYV   34 (68)
+T ss_dssp             EEEEE
+T ss_pred             EEEEE
+
+

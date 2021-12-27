@@ -1,0 +1,147 @@
+Query         ILENIS
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 08:36:15 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/ILENIS/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/ILENIS/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5Z38_C CesT protein, Translati  12.9   2E+02  0.0022   11.1   0.0    5    2-6     143-147 (158)
+  2 1BTK_B BRUTON'S TYROSINE KINAS  11.6 2.3E+02  0.0026   10.9   0.0    4    1-4     166-169 (169)
+  3 4LQ4_A 50S ribosomal protein L  10.9 2.5E+02  0.0028   11.5   0.0    5    1-5     174-178 (211)
+  4 5Z38_A CesT protein, Translati  10.9 2.6E+02  0.0028   10.8   0.0    5    2-6     143-147 (158)
+  5 3USY_A Flagellar motor switch   10.6 2.6E+02  0.0029   11.7   0.0    6    1-6     177-182 (234)
+  6 2RBG_A Putative uncharacterize  10.4 2.7E+02   0.003   12.9   0.0    5    1-5      57-61  (126)
+  7 4JPZ_H Fibroblast growth facto  10.3 2.8E+02   0.003   11.6   0.0    6    1-6      22-27  (184)
+  8 4V68_BC PROTEIN/RNA Complex; c  10.2 2.8E+02  0.0031   11.2   0.0    5    1-5     152-156 (191)
+  9 2FTC_A MITOCHONDRIAL RIBOSOME,  10.2 2.8E+02  0.0031   11.2   0.0    5    1-5     145-149 (189)
+ 10 4V6S_AC PROTEIN/RNA Complex; c  10.1 2.8E+02  0.0031   11.7   0.0    5    1-5     185-189 (234)
+
+No 1
+>5Z38_C CesT protein, Translational regulator CsrA; EHEC and EPEC, RNA BINDING; 2.292A {Escherichia coli}
+Probab=12.92  E-value=2e+02  Score=11.06  Aligned_cols=5  Identities=60%  Similarity=0.900  Sum_probs=0.0  Template_Neff=8.900
+
+Q ILENIS            2 LENIS    6 (6)
+Q Consensus         2 lenis    6 (6)
+                      +|+||
+T Consensus       143 ~~~~~  147 (158)
+T 5Z38_C          143 IEEIS  147 (158)
+T ss_dssp             CSCCC
+T ss_pred             hhhcc
+
+
+No 2
+>1BTK_B BRUTON'S TYROSINE KINASE; TRANSFERASE, PH DOMAIN, BTK MOTIF; 1.6A {Homo sapiens} SCOP: b.55.1.1
+Probab=11.64  E-value=2.3e+02  Score=10.91  Aligned_cols=4  Identities=100%  Similarity=1.281  Sum_probs=0.0  Template_Neff=9.100
+
+Q ILENIS            1 ILEN    4 (6)
+Q Consensus         1 ilen    4 (6)
+                      ||||
+T Consensus       166 ~~~~  169 (169)
+T 1BTK_B          166 ILEN  169 (169)
+T ss_dssp             ECCC
+T ss_pred             ccCC
+
+
+No 3
+>4LQ4_A 50S ribosomal protein L1; Beta-Alpha-Beta, structural constituent of ribosome; HET: TLA; 1.75A {Methanocaldococcus jannaschii}
+Probab=10.88  E-value=2.5e+02  Score=11.49  Aligned_cols=5  Identities=60%  Similarity=1.086  Sum_probs=0.0  Template_Neff=8.500
+
+Q ILENIS            1 ILENI    5 (6)
+Q Consensus         1 ileni    5 (6)
+                      |.|||
+T Consensus       174 l~eNi  178 (211)
+T 4LQ4_A          174 IVDNI  178 (211)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 4
+>5Z38_A CesT protein, Translational regulator CsrA; EHEC and EPEC, RNA BINDING; 2.292A {Escherichia coli}
+Probab=10.86  E-value=2.6e+02  Score=10.78  Aligned_cols=5  Identities=60%  Similarity=0.900  Sum_probs=0.0  Template_Neff=8.900
+
+Q ILENIS            2 LENIS    6 (6)
+Q Consensus         2 lenis    6 (6)
+                      ++|||
+T Consensus       143 ~~~~~  147 (158)
+T 5Z38_A          143 IEEIS  147 (158)
+T ss_dssp             CCCCC
+T ss_pred             HHHcc
+
+
+No 5
+>3USY_A Flagellar motor switch protein; motor switch protein, flagellar motor; 2.706A {Helicobacter pylori}
+Probab=10.64  E-value=2.6e+02  Score=11.69  Aligned_cols=6  Identities=50%  Similarity=0.800  Sum_probs=0.0  Template_Neff=8.400
+
+Q ILENIS            1 ILENIS    6 (6)
+Q Consensus         1 ilenis    6 (6)
+                      ||.|+|
+T Consensus       177 il~~~s  182 (234)
+T 3USY_A          177 FLNNMS  182 (234)
+T ss_dssp             HHHTSC
+T ss_pred             HHhcCC
+
+
+No 6
+>2RBG_A Putative uncharacterized protein ST0493; Hypothetical protein, STRUCTURAL GENOMICS, UNKNOWN; HET: MSE; 1.75A {Sulfolobus tokodaii}
+Probab=10.41  E-value=2.7e+02  Score=12.89  Aligned_cols=5  Identities=80%  Similarity=1.212  Sum_probs=0.0  Template_Neff=2.600
+
+Q ILENIS            1 ILENI    5 (6)
+Q Consensus         1 ileni    5 (6)
+                      ||+||
+T Consensus        57 iLDNI   61 (126)
+T 2RBG_A           57 LLENI   61 (126)
+T ss_dssp             HHHTT
+T ss_pred             HHhcC
+
+
+No 7
+>4JPZ_H Fibroblast growth factor 13, Sodium; EF hand and IQ motif; 3.02A {Homo sapiens}
+Probab=10.29  E-value=2.8e+02  Score=11.63  Aligned_cols=6  Identities=50%  Similarity=0.429  Sum_probs=0.0  Template_Neff=7.500
+
+Q ILENIS            1 ILENIS    6 (6)
+Q Consensus         1 ilenis    6 (6)
+                      ||||.+
+T Consensus        22 ILenF~   27 (184)
+T 4JPZ_H           22 ASENFS   27 (184)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 8
+>4V68_BC PROTEIN/RNA Complex; cryo-electron microscopy/elongation factor/GTPase/ribosome/translation, Ribonucleoprotein, Ribosomal; HET: PSU, GDP, PHA, MAU, 5MU, 1MA, M2G, 7MG, 2MG, 5MC, OMG, OMC, YG; 6.4A {Thermus thermophilus}
+Probab=10.19  E-value=2.8e+02  Score=11.16  Aligned_cols=5  Identities=40%  Similarity=0.807  Sum_probs=0.0  Template_Neff=8.600
+
+Q ILENIS            1 ILENI    5 (6)
+Q Consensus         1 ileni    5 (6)
+                      |.|||
+T Consensus       152 l~eNi  156 (191)
+T 4V68_BC         152 LADNI  156 (191)
+T ss_pred             HHHHH
+
+
+No 9
+>2FTC_A MITOCHONDRIAL RIBOSOME, LARGE SUBUNIT; MITOCHONDRIAL RIBOSOME, LARGE RIBOSOMAL SUBUNIT; 12.1A {Bos taurus}
+Probab=10.17  E-value=2.8e+02  Score=11.18  Aligned_cols=5  Identities=40%  Similarity=0.627  Sum_probs=0.0  Template_Neff=8.500
+
+Q ILENIS            1 ILENI    5 (6)
+Q Consensus         1 ileni    5 (6)
+                      |.|||
+T Consensus       145 l~eNi  149 (189)
+T 2FTC_A          145 IAANL  149 (189)
+T ss_pred             HHHHH
+
+
+No 10
+>4V6S_AC PROTEIN/RNA Complex; cryoelectron microscopy, molecular dynamics flexible; HET: OMU, 2MG, 7MG, CH, OMC, 6MZ, 1MG, PSU, OMG, 3TD, 2MA, 4SU, 5MC, 4OC, H2U, MA6, UR3, 5MU; 13.1A {Escherichia coli}
+Probab=10.07  E-value=2.8e+02  Score=11.69  Aligned_cols=5  Identities=40%  Similarity=0.727  Sum_probs=0.0  Template_Neff=8.200
+
+Q ILENIS            1 ILENI    5 (6)
+Q Consensus         1 ileni    5 (6)
+                      |.|||
+T Consensus       185 i~eNi  189 (234)
+T 4V6S_AC         185 LKENL  189 (234)
+T ss_pred             HHHHH
+
+

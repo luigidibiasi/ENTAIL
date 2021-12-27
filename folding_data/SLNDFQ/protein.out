@@ -1,0 +1,294 @@
+Query         SLNDFQ
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 15:06:36 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/SLNDFQ/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/SLNDFQ/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4V7E_CM Ribosome; eukaryotic r  58.4     8.7 9.7E-05   15.9   0.0    6    1-6     101-106 (134)
+  2 5TBW_CO ?; Protein translation  54.6      11 0.00012   15.5   0.0    6    1-6     109-114 (136)
+  3 6GQB_M Eukaryotic 80S ribosome  54.6      11 0.00012   15.5   0.0    6    1-6     109-114 (136)
+  4 6JMU_C Ras-related protein Rab  54.3      11 0.00013   13.8   0.0    6    1-6      22-27  (32)
+  5 6OM7_N ribosome/tRNA; selectiv  53.4      12 0.00013   15.6   0.0    6    1-6     102-107 (139)
+  6 6XA1_LM translation terminatio  53.4      12 0.00013   15.6   0.0    6    1-6     102-107 (139)
+  7 5XY3_M Ribosomal protein L8, p  52.1      13 0.00014   15.3   0.0    6    1-6     101-106 (128)
+  8 3JBN_AN PROTEIN/RNA Complex; R  50.9      14 0.00016   15.7   0.0    6    1-6     118-123 (146)
+  9 5XXB_L uL2, uL3, uL4, uL18, eL  50.5      14 0.00016   15.1   0.0    6    1-6     105-110 (134)
+ 10 3JBP_AN PROTEIN/RNA Complex; R  50.1      15 0.00016   15.5   0.0    6    1-6     118-123 (146)
+ 11 4BJJ_A TRANSCRIPTION FACTOR TA  48.3      16 0.00018   14.5   0.0    6    1-6     103-108 (112)
+ 12 6AZ3_K ribosomal protein uL2,   45.6      19 0.00021   15.3   0.0    6    1-6     102-107 (149)
+ 13 4V3P_LN 40S WHEAT GERM RIBOSOM  44.0      21 0.00023   14.8   0.0    6    1-6     101-106 (134)
+ 14 6P5N_AM Ribosome; Israeli Acut  41.4      25 0.00027   16.1   0.0    6    1-6     103-108 (198)
+ 15 6XU8_CM Specialised ribosome,   40.0      27  0.0003   15.2   0.0    6    1-6     103-108 (159)
+ 16 3J79_N PROTEIN/RNA Complex; em  36.9      32 0.00036   15.2   0.0    6    1-6     122-127 (165)
+ 17 7O7Y_BM 40S ribosomal protein   31.4      46  0.0005   15.6   0.0    6    1-6     103-108 (218)
+ 18 6ZJ3_LZ Ribosomal protein eS1,  30.7      48 0.00053   15.6   0.0    6    1-6     107-112 (219)
+ 19 3JCS_K PROTEIN/RNA Complex; Le  29.2      53 0.00058   15.6   0.0    6    1-6     162-167 (233)
+ 20 4V8M_BP Ribosome; RIBOSOME, EU  25.4      68 0.00075   14.4   0.0    6    1-6     104-109 (189)
+
+No 1
+>4V7E_CM Ribosome; eukaryotic ribosome, homology modeling, de; 5.5A {Triticum aestivum}
+Probab=58.40  E-value=8.7  Score=15.90  Aligned_cols=6  Identities=83%  Similarity=1.254  Sum_probs=4.0  Template_Neff=6.200
+
+Q SLNDFQ            1 SLNDFQ    6 (6)
+Q Consensus         1 slndfq    6 (6)
+                      +||||.
+T Consensus       101 ~l~DF~  106 (134)
+T 4V7E_CM         101 SLNDFD  106 (134)
+T ss_pred             hCChHH
+Confidence            478874
+
+
+No 2
+>5TBW_CO ?; Protein translation inhibitor, complex, ribosome; HET: 7AL, MG, ZN, OHX; 3.0A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=54.60  E-value=11  Score=15.47  Aligned_cols=6  Identities=50%  Similarity=1.054  Sum_probs=3.9  Template_Neff=6.500
+
+Q SLNDFQ            1 SLNDFQ    6 (6)
+Q Consensus         1 slndfq    6 (6)
+                      +||||+
+T Consensus       109 ~l~Dfe  114 (136)
+T 5TBW_CO         109 ALTDFE  114 (136)
+T ss_pred             hcChHH
+Confidence            467874
+
+
+No 3
+>6GQB_M Eukaryotic 80S ribosome, eEF2, translation; HET: DDE, GDP, SO1; 3.9A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=54.60  E-value=11  Score=15.47  Aligned_cols=6  Identities=50%  Similarity=1.054  Sum_probs=3.9  Template_Neff=6.500
+
+Q SLNDFQ            1 SLNDFQ    6 (6)
+Q Consensus         1 slndfq    6 (6)
+                      +||||+
+T Consensus       109 ~l~Dfe  114 (136)
+T 6GQB_M          109 ALTDFE  114 (136)
+T ss_pred             hcChHH
+Confidence            467874
+
+
+No 4
+>6JMU_C Ras-related protein Rab-35, Iporin; GIT1, Paxillin, Complex, CELL ADHESION; 2.0A {Mus musculus}
+Probab=54.31  E-value=11  Score=13.82  Aligned_cols=6  Identities=67%  Similarity=1.126  Sum_probs=4.0  Template_Neff=3.000
+
+Q SLNDFQ            1 SLNDFQ    6 (6)
+Q Consensus         1 slndfq    6 (6)
+                      ||.|||
+T Consensus        22 sLs~fq   27 (32)
+T 6JMU_C           22 SLSDFK   27 (32)
+T ss_dssp             HHHHHT
+T ss_pred             HHHHhh
+Confidence            567775
+
+
+No 5
+>6OM7_N ribosome/tRNA; selective stalling, drug-like small molecule; HET: OMU, OMC, 6MZ, OMG, PSU, B8N, A2M, 4AC, 5MC, M7A, MG, MA6, B8Q, E3C, UR3, MVM, 5MU; 3.7A {Homo sapiens}
+Probab=53.36  E-value=12  Score=15.63  Aligned_cols=6  Identities=33%  Similarity=0.888  Sum_probs=3.9  Template_Neff=6.100
+
+Q SLNDFQ            1 SLNDFQ    6 (6)
+Q Consensus         1 slndfq    6 (6)
+                      +||||.
+T Consensus       102 ~l~DFd  107 (139)
+T 6OM7_N          102 KMTDFD  107 (139)
+T ss_pred             hCChHH
+Confidence            477874
+
+
+No 6
+>6XA1_LM translation termination complex; Selectively stalling, translation termination, drug-like; HET: 6MZ, H2U, UR3, 4AC, G7M, MA6, OMG, MVM, M2G, OMC, 5MC, 1MA, 1MG, MEQ, MG, UXY, B8N, A2M, PSU, UY1, MLZ, UY4, OMU, 2MG; 2.8A {Homo sapiens}
+Probab=53.36  E-value=12  Score=15.63  Aligned_cols=6  Identities=33%  Similarity=0.888  Sum_probs=3.9  Template_Neff=6.100
+
+Q SLNDFQ            1 SLNDFQ    6 (6)
+Q Consensus         1 slndfq    6 (6)
+                      +||||.
+T Consensus       102 ~l~DFd  107 (139)
+T 6XA1_LM         102 KMTDFD  107 (139)
+T ss_pred             hCChHH
+Confidence            477874
+
+
+No 7
+>5XY3_M Ribosomal protein L8, putative, Uncharacterized; Trichomonas vaginalis ribosome, rRNA, rprotein; 3.2A {Trichomonas vaginalis}
+Probab=52.07  E-value=13  Score=15.30  Aligned_cols=6  Identities=67%  Similarity=1.176  Sum_probs=4.0  Template_Neff=6.200
+
+Q SLNDFQ            1 SLNDFQ    6 (6)
+Q Consensus         1 slndfq    6 (6)
+                      +||||.
+T Consensus       101 ~l~Dfd  106 (128)
+T 5XY3_M          101 QMNDFQ  106 (128)
+T ss_pred             hcCHHH
+Confidence            478874
+
+
+No 8
+>3JBN_AN PROTEIN/RNA Complex; RIBOSOME; 4.7A {Plasmodium falciparum 3D7}
+Probab=50.87  E-value=14  Score=15.71  Aligned_cols=6  Identities=33%  Similarity=0.717  Sum_probs=4.0  Template_Neff=5.800
+
+Q SLNDFQ            1 SLNDFQ    6 (6)
+Q Consensus         1 slndfq    6 (6)
+                      +||||.
+T Consensus       118 ~l~DFd  123 (146)
+T 3JBN_AN         118 EATDFE  123 (146)
+T ss_pred             hCCHHH
+Confidence            478874
+
+
+No 9
+>5XXB_L uL2, uL3, uL4, uL18, eL6; parasitic ribosome, rRNA, rproteins, RIBOSOME; 3.17A {Toxoplasma gondii}
+Probab=50.46  E-value=14  Score=15.07  Aligned_cols=6  Identities=33%  Similarity=0.955  Sum_probs=3.9  Template_Neff=6.600
+
+Q SLNDFQ            1 SLNDFQ    6 (6)
+Q Consensus         1 slndfq    6 (6)
+                      +||||.
+T Consensus       105 ~l~Dfe  110 (134)
+T 5XXB_L          105 NMSDFD  110 (134)
+T ss_pred             hcChHH
+Confidence            477773
+
+
+No 10
+>3JBP_AN PROTEIN/RNA Complex; RIBOSOME; 6.7A {Plasmodium falciparum 3D7}
+Probab=50.06  E-value=15  Score=15.49  Aligned_cols=6  Identities=33%  Similarity=0.717  Sum_probs=4.0  Template_Neff=6.100
+
+Q SLNDFQ            1 SLNDFQ    6 (6)
+Q Consensus         1 slndfq    6 (6)
+                      +||||.
+T Consensus       118 ~l~DFd  123 (146)
+T 3JBP_AN         118 EATDFE  123 (146)
+T ss_pred             hCCHHH
+Confidence            478874
+
+
+No 11
+>4BJJ_A TRANSCRIPTION FACTOR TAU SUBUNIT SFC1; TRANSCRIPTION; 2.4A {SCHIZOSACCHAROMYCES POMBE}
+Probab=48.30  E-value=16  Score=14.53  Aligned_cols=6  Identities=50%  Similarity=0.966  Sum_probs=4.0  Template_Neff=6.600
+
+Q SLNDFQ            1 SLNDFQ    6 (6)
+Q Consensus         1 slndfq    6 (6)
+                      ++-|||
+T Consensus       103 ~maDFQ  108 (112)
+T 4BJJ_A          103 DMADFQ  108 (112)
+T ss_dssp             TSGGGC
+T ss_pred             Ccccee
+Confidence            356887
+
+
+No 12
+>6AZ3_K ribosomal protein uL2, ribosomal protein; Leishmania, ribosome, aminoglycoside, paromomycin, RIBOSOME-ANTIBIOTIC; HET: OMU, PAR, OMC, MG, A2M, OMG, C; 2.5A {Leishmania donovani}
+Probab=45.56  E-value=19  Score=15.30  Aligned_cols=6  Identities=33%  Similarity=0.717  Sum_probs=3.8  Template_Neff=5.900
+
+Q SLNDFQ            1 SLNDFQ    6 (6)
+Q Consensus         1 slndfq    6 (6)
+                      +||||.
+T Consensus       102 ~l~DFd  107 (149)
+T 6AZ3_K          102 ASTDFE  107 (149)
+T ss_dssp             TCCHHH
+T ss_pred             hcChhH
+Confidence            467773
+
+
+No 13
+>4V3P_LN 40S WHEAT GERM RIBOSOME1/RNA Complex; RIBOSOME; 34.0A {Triticum aestivum}
+Probab=44.02  E-value=21  Score=14.75  Aligned_cols=6  Identities=83%  Similarity=1.254  Sum_probs=3.7  Template_Neff=6.300
+
+Q SLNDFQ            1 SLNDFQ    6 (6)
+Q Consensus         1 slndfq    6 (6)
+                      ++|||.
+T Consensus       101 ~l~Dfd  106 (134)
+T 4V3P_LN         101 SLNDFD  106 (134)
+T ss_pred             hcChHH
+Confidence            467773
+
+
+No 14
+>6P5N_AM Ribosome; Israeli Acute Paralysis Virus, Internal; 3.2A {Oryctolagus cuniculus}
+Probab=41.35  E-value=25  Score=16.12  Aligned_cols=6  Identities=33%  Similarity=0.888  Sum_probs=4.0  Template_Neff=4.800
+
+Q SLNDFQ            1 SLNDFQ    6 (6)
+Q Consensus         1 slndfq    6 (6)
+                      +||||.
+T Consensus       103 ~lnDFd  108 (198)
+T 6P5N_AM         103 KMTDFD  108 (198)
+T ss_pred             hCCHHH
+Confidence            478874
+
+
+No 15
+>6XU8_CM Specialised ribosome, Drosophila melanogaster, Ovary; 3.0A {Drosophila melanogaster}
+Probab=39.97  E-value=27  Score=15.17  Aligned_cols=6  Identities=83%  Similarity=1.254  Sum_probs=3.8  Template_Neff=5.600
+
+Q SLNDFQ            1 SLNDFQ    6 (6)
+Q Consensus         1 slndfq    6 (6)
+                      +||||.
+T Consensus       103 ~ltDFd  108 (159)
+T 6XU8_CM         103 SLNDFD  108 (159)
+T ss_pred             hCCHHH
+Confidence            467773
+
+
+No 16
+>3J79_N PROTEIN/RNA Complex; emetine, RIBOSOME-INHIBITOR complex; HET: MG; 3.2A {Plasmodium falciparum}
+Probab=36.90  E-value=32  Score=15.16  Aligned_cols=6  Identities=33%  Similarity=0.717  Sum_probs=3.8  Template_Neff=5.300
+
+Q SLNDFQ            1 SLNDFQ    6 (6)
+Q Consensus         1 slndfq    6 (6)
+                      +||||.
+T Consensus       122 ~l~DFd  127 (165)
+T 3J79_N          122 EATDFE  127 (165)
+T ss_dssp             HCCHHH
+T ss_pred             hcCHHH
+Confidence            467773
+
+
+No 17
+>7O7Y_BM 40S ribosomal protein S27, Ribosomal; Frameshift, virus, pseudoknot, RIBOSOME; HET: GTP, HIC, 5MC, UNX, A2M, 5MU, M2G, 7MG, 1MA, SAC, OMU, PSU, MG, OMG, V5N, YYG, 2MG, UY1, 6MZ, H2U, OMC, SPD, B8N, NMM, MA6, UR3, 4AC, MLZ, M3L, AME, SPM; 2.2A {Oryctolagus cuniculus}
+Probab=31.39  E-value=46  Score=15.65  Aligned_cols=6  Identities=33%  Similarity=0.888  Sum_probs=3.9  Template_Neff=4.500
+
+Q SLNDFQ            1 SLNDFQ    6 (6)
+Q Consensus         1 slndfq    6 (6)
+                      +||||.
+T Consensus       103 ~ltDFd  108 (218)
+T 7O7Y_BM         103 KMTDFD  108 (218)
+T ss_pred             hCCHHH
+Confidence            477873
+
+
+No 18
+>6ZJ3_LZ Ribosomal protein eS1, Ribosomal protein; Single particle cryo-EM RNA modifications; HET: JMC, B8H, MA6, PSU, B8N, A2M, UR3, 7MG, MIA, 5MC, 6MZ, OMG, OMU, OMC, 1MA, JMH; 3.15A {Euglena gracilis}
+Probab=30.74  E-value=48  Score=15.64  Aligned_cols=6  Identities=17%  Similarity=0.429  Sum_probs=3.9  Template_Neff=4.400
+
+Q SLNDFQ            1 SLNDFQ    6 (6)
+Q Consensus         1 slndfq    6 (6)
+                      +||||+
+T Consensus       107 ~LtDFd  112 (219)
+T 6ZJ3_LZ         107 NSTDLE  112 (219)
+T ss_pred             hcCHHH
+Confidence            467774
+
+
+No 19
+>3JCS_K PROTEIN/RNA Complex; Leishmania donovani, ribosome, the large; HET: H2U, MG, OMG, A2M, OMC, OMU;{Leishmania donovani}
+Probab=29.21  E-value=53  Score=15.59  Aligned_cols=6  Identities=33%  Similarity=0.717  Sum_probs=3.7  Template_Neff=4.500
+
+Q SLNDFQ            1 SLNDFQ    6 (6)
+Q Consensus         1 slndfq    6 (6)
+                      +||||.
+T Consensus       162 ~LnDFd  167 (233)
+T 3JCS_K          162 ASTDFE  167 (233)
+T ss_pred             hCChHH
+Confidence            467773
+
+
+No 20
+>4V8M_BP Ribosome; RIBOSOME, EUKARYOTIC, KINETOPLASTIDS, EXPANSION SEGMENTS; 5.57A {TRYPANOSOMA BRUCEI BRUCEI}
+Probab=25.44  E-value=68  Score=14.43  Aligned_cols=6  Identities=33%  Similarity=0.667  Sum_probs=3.5  Template_Neff=5.400
+
+Q SLNDFQ            1 SLNDFQ    6 (6)
+Q Consensus         1 slndfq    6 (6)
+                      +||||.
+T Consensus       104 ~ltDFd  109 (189)
+T 4V8M_BP         104 ESTDFE  109 (189)
+T ss_pred             hcChhH
+Confidence            367763
+
+

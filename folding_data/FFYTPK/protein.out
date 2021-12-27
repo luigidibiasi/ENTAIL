@@ -1,0 +1,154 @@
+Query         FFYTPK
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 20:40:39 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/FFYTPK/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/FFYTPK/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5WXM_V U3 small nucleolar ribo  54.3      11 0.00013   13.0   0.0    6    1-6      27-32  (34)
+  2 5WXM_U U3 small nucleolar ribo  52.3      13 0.00014   12.7   0.0    6    1-6      27-32  (34)
+  3 6TMG_w ATPTG11, ATPTG7, ATPTG1  48.5      16 0.00018   16.3   0.0    6    1-6      99-104 (106)
+  4 3ZEF_E A1 CISTRON-SPLICING FAC  26.3      64 0.00071   19.0   0.0    6    1-6     505-510 (1531)
+  5 4I43_B A1 cistron-splicing fac  26.0      65 0.00072   19.1   0.0    6    1-6     538-543 (1564)
+  6 4KMN_A Baculoviral IAP repeat-  19.7 1.1E+02  0.0012   11.6   0.0    5    1-5      39-43  (103)
+  7 1QBH_A INHIBITOR OF APOPTOSIS   19.2 1.1E+02  0.0012   11.4   0.0    6    1-6      33-38  (101)
+  8 3JSS_A NF-kB, intertwined dime  19.2 1.1E+02  0.0012   12.1   0.0    5    1-5      96-100 (101)
+  9 4HY4_B Baculoviral IAP repeat-  18.1 1.2E+02  0.0013   11.9   0.0    6    1-6      58-63  (115)
+ 10 4HY5_A Baculoviral IAP repeat-  18.1 1.2E+02  0.0013   11.9   0.0    6    1-6      58-63  (115)
+
+No 1
+>5WXM_V U3 small nucleolar ribonucleoprotein protein; protein complex, components of 90S; HET: SO4, MSE; 2.304A {Saccharomyces cerevisiae S288c}
+Probab=54.28  E-value=11  Score=12.97  Aligned_cols=6  Identities=33%  Similarity=0.883  Sum_probs=3.8  Template_Neff=5.300
+
+Q FFYTPK            1 FFYTPK    6 (6)
+Q Consensus         1 ffytpk    6 (6)
+                      |-|+||
+T Consensus        27 ~hf~Pk   32 (34)
+T 5WXM_V           27 VHFVPK   32 (34)
+T ss_dssp             CCCCCC
+T ss_pred             ccCCCC
+Confidence            457775
+
+
+No 2
+>5WXM_U U3 small nucleolar ribonucleoprotein protein; protein complex, components of 90S; HET: MSE, SO4; 2.304A {Saccharomyces cerevisiae S288c}
+Probab=52.30  E-value=13  Score=12.74  Aligned_cols=6  Identities=33%  Similarity=0.883  Sum_probs=3.7  Template_Neff=5.500
+
+Q FFYTPK            1 FFYTPK    6 (6)
+Q Consensus         1 ffytpk    6 (6)
+                      |.|+||
+T Consensus        27 ~hf~Pk   32 (34)
+T 5WXM_U           27 VHFVPK   32 (34)
+T ss_dssp             CCCCCC
+T ss_pred             ccCCCC
+Confidence            357775
+
+
+No 3
+>6TMG_w ATPTG11, ATPTG7, ATPTG14, ATPTG5, subunit; mitochondrial, ATP synthase, membrane region; HET: PC1, LMT, PEE, CDL; 2.8A {Toxoplasma gondii (strain ATCC 50853 / GT1)}
+Probab=48.50  E-value=16  Score=16.26  Aligned_cols=6  Identities=33%  Similarity=0.589  Sum_probs=3.8  Template_Neff=2.500
+
+Q FFYTPK            1 FFYTPK    6 (6)
+Q Consensus         1 ffytpk    6 (6)
+                      |||.|+
+T Consensus        99 fFyAp~  104 (106)
+T 6TMG_w           99 PFYAHT  104 (106)
+T ss_pred             cccccC
+Confidence            567664
+
+
+No 4
+>3ZEF_E A1 CISTRON-SPLICING FACTOR AAR2, PRE-MRNA-SPLICING; TRANSLATION, PRE-MRNA SPLICING, SPLICEOSOME, U5; 3.1A {SACCHAROMYCES CEREVISIAE}
+Probab=26.31  E-value=64  Score=19.04  Aligned_cols=6  Identities=83%  Similarity=1.564  Sum_probs=4.6  Template_Neff=4.500
+
+Q FFYTPK            1 FFYTPK    6 (6)
+Q Consensus         1 ffytpk    6 (6)
+                      .||+||
+T Consensus       505 vFYsPk  510 (1531)
+T 3ZEF_E          505 VFYTPK  510 (1531)
+T ss_dssp             HHHSCG
+T ss_pred             hccccH
+Confidence            388886
+
+
+No 5
+>4I43_B A1 cistron-splicing factor AAR2, Pre-mRNA-splicing; spliceosome, U5 snRNP, Prp8, Reverse; 2.0A {Saccharomyces cerevisiae}
+Probab=25.97  E-value=65  Score=19.09  Aligned_cols=6  Identities=83%  Similarity=1.564  Sum_probs=4.6  Template_Neff=4.400
+
+Q FFYTPK            1 FFYTPK    6 (6)
+Q Consensus         1 ffytpk    6 (6)
+                      .||+||
+T Consensus       538 vFYsPk  543 (1564)
+T 4I43_B          538 VFYTPK  543 (1564)
+T ss_dssp             HHHSCG
+T ss_pred             hccCcH
+Confidence            388886
+
+
+No 6
+>4KMN_A Baculoviral IAP repeat-containing protein 2; apoptosis, cIAP1-BIR3, LIGASE-LIGASE INHIBITOR complex; HET: 436; 1.523A {Homo sapiens}
+Probab=19.67  E-value=1.1e+02  Score=11.56  Aligned_cols=5  Identities=40%  Similarity=1.218  Sum_probs=0.0  Template_Neff=7.800
+
+Q FFYTPK            1 FFYTP    5 (6)
+Q Consensus         1 ffytp    5 (6)
+                      |+|++
+T Consensus        39 Fy~~g   43 (103)
+T 4KMN_A           39 FYYVG   43 (103)
+T ss_dssp             EEECS
+T ss_pred             eEEcc
+
+
+No 7
+>1QBH_A INHIBITOR OF APOPTOSIS PROTEIN (2MIHB/C-IAP-1); INHIBITOR OF APOPTOSIS (IAP), BACULOVIRAL; HET: ZN; NMR {Homo sapiens} SCOP: g.52.1.1
+Probab=19.21  E-value=1.1e+02  Score=11.38  Aligned_cols=6  Identities=33%  Similarity=1.165  Sum_probs=0.0  Template_Neff=8.000
+
+Q FFYTPK            1 FFYTPK    6 (6)
+Q Consensus         1 ffytpk    6 (6)
+                      |||++.
+T Consensus        33 Fyy~g~   38 (101)
+T 1QBH_A           33 FYYVGR   38 (101)
+T ss_dssp             CTTSSC
+T ss_pred             eEEccc
+
+
+No 8
+>3JSS_A NF-kB, intertwined dimer, Activator, Nucleus; 2.6A {Mus musculus}
+Probab=19.20  E-value=1.1e+02  Score=12.06  Aligned_cols=5  Identities=60%  Similarity=1.258  Sum_probs=0.0  Template_Neff=6.600
+
+Q FFYTPK            1 FFYTP    5 (6)
+Q Consensus         1 ffytp    5 (6)
+                      |.|.|
+T Consensus        96 F~Y~P  100 (101)
+T 3JSS_A           96 FTYLP  100 (101)
+T ss_dssp             EEECC
+T ss_pred             eEEcC
+
+
+No 9
+>4HY4_B Baculoviral IAP repeat-containing protein 2; IAP family, BIR repeats, CARD; HET: 1BG; 1.249A {Homo sapiens}
+Probab=18.07  E-value=1.2e+02  Score=11.85  Aligned_cols=6  Identities=33%  Similarity=1.165  Sum_probs=0.0  Template_Neff=7.300
+
+Q FFYTPK            1 FFYTPK    6 (6)
+Q Consensus         1 ffytpk    6 (6)
+                      |||++.
+T Consensus        58 Fyy~g~   63 (115)
+T 4HY4_B           58 FYYVGR   63 (115)
+T ss_dssp             EEECSB
+T ss_pred             eeecCC
+
+
+No 10
+>4HY5_A Baculoviral IAP repeat-containing protein 2; IAP family, BIR repeats, CARD; HET: 1AQ; 1.752A {Homo sapiens}
+Probab=18.07  E-value=1.2e+02  Score=11.85  Aligned_cols=6  Identities=33%  Similarity=1.165  Sum_probs=0.0  Template_Neff=7.300
+
+Q FFYTPK            1 FFYTPK    6 (6)
+Q Consensus         1 ffytpk    6 (6)
+                      |||++.
+T Consensus        58 Fyy~g~   63 (115)
+T 4HY5_A           58 FYYVGR   63 (115)
+T ss_dssp             EEECSS
+T ss_pred             eeecCC
+
+

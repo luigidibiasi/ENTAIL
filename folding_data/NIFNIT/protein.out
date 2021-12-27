@@ -1,0 +1,151 @@
+Query         NIFNIT
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 00:48:55 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NIFNIT/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NIFNIT/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 7CQP_C Calmodulin-1, Peptide f  22.2      86 0.00095   11.7   0.0    6    1-6       9-14  (30)
+  2 6PNS_E RNA-directed RNA polyme  19.3 1.1E+02  0.0012   17.6   0.0    6    1-6     386-391 (901)
+  3 2BTV_A PROTEIN (VP3); VIRUS/VI  19.2 1.1E+02  0.0012   17.6   0.0    6    1-6     386-391 (901)
+  4 6YRQ_C Envelope polyprotein,En  15.2 1.6E+02  0.0017   14.1   0.0    5    2-6      26-30  (149)
+  5 5LSJ_C Protein MIS12 homolog,   15.0 1.6E+02  0.0018   12.1   0.0    5    1-5      89-93  (205)
+  6 5LGD_A Platelet glycoprotein 4  14.9 1.6E+02  0.0018   13.8   0.0    5    2-6      67-71  (472)
+  7 6YRQ_D Envelope polyprotein,En  14.8 1.6E+02  0.0018   14.0   0.0    5    2-6      26-30  (149)
+  8 2P1L_H Apoptosis regulator Bcl  14.5 1.7E+02  0.0019    9.7   0.0    5    1-5      17-21  (31)
+  9 6KML_C mRNA interferase toxin   13.6 1.8E+02   0.002   12.2   0.0    4    2-5      73-76  (118)
+ 10 5GHW_P FAB 10E8 HEAVY CHAIN, F  13.2 1.9E+02  0.0022   10.3   0.0    6    1-6      12-17  (36)
+
+No 1
+>7CQP_C Calmodulin-1, Peptide from Short transient; Calmodulin, TRP channel, SIGNALING PROTEIN; 1.9A {Mus musculus}
+Probab=22.17  E-value=86  Score=11.68  Aligned_cols=6  Identities=33%  Similarity=1.010  Sum_probs=3.4  Template_Neff=1.900
+
+Q NIFNIT            1 NIFNIT    6 (6)
+Q Consensus         1 nifnit    6 (6)
+                      |.|.||
+T Consensus         9 sLFdiT   14 (30)
+T 7CQP_C            9 SLFDLT   14 (30)
+T ss_dssp             CHHHHH
+T ss_pred             cchhhh
+Confidence            456664
+
+
+No 2
+>6PNS_E RNA-directed RNA polymerase (E.C.2.7.7.48), Inner; RNA dependent RNA polymerase, Viral; 3.7A {Bluetongue virus 1}
+Probab=19.25  E-value=1.1e+02  Score=17.62  Aligned_cols=6  Identities=33%  Similarity=0.456  Sum_probs=4.2  Template_Neff=3.400
+
+Q NIFNIT            1 NIFNIT    6 (6)
+Q Consensus         1 nifnit    6 (6)
+                      ++||||
+T Consensus       386 ~~fNIT  391 (901)
+T 6PNS_E          386 RFTNLT  391 (901)
+T ss_dssp             SCBSSC
+T ss_pred             ccccCC
+Confidence            467876
+
+
+No 3
+>2BTV_A PROTEIN (VP3); VIRUS/VIRAL PROTEIN, Icosahedral virus, Virus; 3.5A {Bluetongue virus (serotype 1 / isolate South Africa)} SCOP: e.28.1.1
+Probab=19.21  E-value=1.1e+02  Score=17.61  Aligned_cols=6  Identities=33%  Similarity=0.456  Sum_probs=4.2  Template_Neff=3.400
+
+Q NIFNIT            1 NIFNIT    6 (6)
+Q Consensus         1 nifnit    6 (6)
+                      ++||||
+T Consensus       386 ~~fNIT  391 (901)
+T 2BTV_A          386 RFTNLT  391 (901)
+T ss_dssp             SCCCBC
+T ss_pred             ccccCC
+Confidence            467876
+
+
+No 4
+>6YRQ_C Envelope polyprotein,Envelope polyprotein; class-II fusion protein hantavirus bunyavirus; HET: BMA, MPD, NAG; 1.902A {Drosophila melanogaster}
+Probab=15.21  E-value=1.6e+02  Score=14.06  Aligned_cols=5  Identities=80%  Similarity=1.351  Sum_probs=0.0  Template_Neff=1.900
+
+Q NIFNIT            2 IFNIT    6 (6)
+Q Consensus         2 ifnit    6 (6)
+                      ||||+
+T Consensus        26 Ifnis   30 (149)
+T 6YRQ_C           26 IFNIS   30 (149)
+T ss_dssp             ECCEE
+T ss_pred             ceeec
+
+
+No 5
+>5LSJ_C Protein MIS12 homolog, Polyamine-modulated factor; ALPHA-HELICAL, cell cycle; 3.25A {Homo sapiens}
+Probab=15.02  E-value=1.6e+02  Score=12.15  Aligned_cols=5  Identities=40%  Similarity=0.487  Sum_probs=0.0  Template_Neff=8.200
+
+Q NIFNIT            1 NIFNI    5 (6)
+Q Consensus         1 nifni    5 (6)
+                      |||.|
+T Consensus        89 nif~I   93 (205)
+T 5LSJ_C           89 LILRI   93 (205)
+T ss_pred             HccCC
+
+
+No 6
+>5LGD_A Platelet glycoprotein 4, PfEMP1 variant; Plasmodium falciparum cytoadhesion scavenger receptor; HET: GOL, NAG, MAN, PLM, TRS; 2.07A {Homo sapiens}
+Probab=14.91  E-value=1.6e+02  Score=13.82  Aligned_cols=5  Identities=40%  Similarity=1.085  Sum_probs=0.0  Template_Neff=7.900
+
+Q NIFNIT            2 IFNIT    6 (6)
+Q Consensus         2 ifnit    6 (6)
+                      +||+|
+T Consensus        67 ~FNvT   71 (472)
+T 5LGD_A           67 IFDVQ   71 (472)
+T ss_dssp             EEEES
+T ss_pred             EEecc
+
+
+No 7
+>6YRQ_D Envelope polyprotein,Envelope polyprotein; class-II fusion protein hantavirus bunyavirus; HET: NAG, BMA, MPD; 1.902A {Drosophila melanogaster}
+Probab=14.78  E-value=1.6e+02  Score=14.01  Aligned_cols=5  Identities=80%  Similarity=1.351  Sum_probs=0.0  Template_Neff=1.800
+
+Q NIFNIT            2 IFNIT    6 (6)
+Q Consensus         2 ifnit    6 (6)
+                      ||||+
+T Consensus        26 Ifnis   30 (149)
+T 6YRQ_D           26 IFNIS   30 (149)
+T ss_dssp             CCEEE
+T ss_pred             ceeec
+
+
+No 8
+>2P1L_H Apoptosis regulator Bcl-X, Beclin 1; Apoptosis  autophagy  beclin; 2.5A {Homo sapiens}
+Probab=14.55  E-value=1.7e+02  Score=9.67  Aligned_cols=5  Identities=40%  Similarity=1.212  Sum_probs=0.0  Template_Neff=5.800
+
+Q NIFNIT            1 NIFNI    5 (6)
+Q Consensus         1 nifni    5 (6)
+                      ++|+|
+T Consensus        17 ~lFdi   21 (31)
+T 2P1L_H           17 DLFDI   21 (31)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 9
+>6KML_C mRNA interferase toxin HigB (E.C.3.1.-.-); Toxin-antitoxin complex, HigBA, endoribonuclease, protein-protein; 2.095A {Escherichia coli K-12}
+Probab=13.63  E-value=1.8e+02  Score=12.17  Aligned_cols=4  Identities=50%  Similarity=1.414  Sum_probs=0.0  Template_Neff=5.600
+
+Q NIFNIT            2 IFNI    5 (6)
+Q Consensus         2 ifni    5 (6)
+                      +|||
+T Consensus        73 VFnI   76 (118)
+T 6KML_C           73 VFNV   76 (118)
+T ss_dssp             EEEE
+T ss_pred             EEEe
+
+
+No 10
+>5GHW_P FAB 10E8 HEAVY CHAIN, FAB; BROAD NEUTRALIZING ANTIBODY, RECOMBINANT FAB; HET: PO4; 2.4A {Homo sapiens}
+Probab=13.16  E-value=1.9e+02  Score=10.33  Aligned_cols=6  Identities=83%  Similarity=1.071  Sum_probs=0.0  Template_Neff=4.500
+
+Q NIFNIT            1 NIFNIT    6 (6)
+Q Consensus         1 nifnit    6 (6)
+                      |.|++|
+T Consensus        12 nWfdit   17 (36)
+T 5GHW_P           12 NWFNIT   17 (36)
+T ss_pred             HHHhHH
+
+

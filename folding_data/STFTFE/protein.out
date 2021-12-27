@@ -1,0 +1,148 @@
+Query         STFTFE
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 17:30:25 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/STFTFE/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/STFTFE/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4P0L_A IL-36Ra, chimera; chime  14.9 1.6E+02  0.0018   12.3   0.0    6    1-6     110-115 (154)
+  2 6NCU_A Interleukin-37; inflamm  14.8 1.6E+02  0.0018   12.3   0.0    6    1-6     111-116 (154)
+  3 5N2N_A Histidine kinase CKI1 (  14.7 1.7E+02  0.0018   11.0   0.0    6    1-6      33-38  (206)
+  4 1TWE_A Hydrophobic cavity, Hyd  14.4 1.7E+02  0.0019   12.2   0.0    6    1-6     108-113 (153)
+  5 2K6W_A Putative uncharacterize  14.3 1.7E+02  0.0019   11.3   0.0    5    2-6     102-106 (120)
+  6 1ILT_A INTERLEUKIN-1 RECEPTOR   14.3 1.7E+02  0.0019   12.4   0.0    6    1-6     107-112 (152)
+  7 1T4Q_A Hydration Cavity, il1b,  14.3 1.7E+02  0.0019   12.2   0.0    6    1-6     108-113 (153)
+  8 5HN1_A Interleukin-37; Interle  13.5 1.9E+02  0.0021   12.5   0.0    6    1-6     120-125 (175)
+  9 4GAI_A EBI-005; IL-1beta, IL-1  13.3 1.9E+02  0.0021   12.1   0.0    6    1-6     107-112 (153)
+ 10 4GAI_B EBI-005; IL-1beta, IL-1  13.3 1.9E+02  0.0021   12.1   0.0    6    1-6     107-112 (153)
+
+No 1
+>4P0L_A IL-36Ra, chimera; chimera protein, interleukin; 1.55A {Homo sapiens}
+Probab=14.94  E-value=1.6e+02  Score=12.34  Aligned_cols=6  Identities=50%  Similarity=0.540  Sum_probs=0.0  Template_Neff=6.700
+
+Q STFTFE            1 STFTFE    6 (6)
+Q Consensus         1 stftfe    6 (6)
+                      ++++||
+T Consensus       110 ~~~~FE  115 (154)
+T 4P0L_A          110 LTSSFE  115 (154)
+T ss_dssp             SCEEEE
+T ss_pred             CeEEEE
+
+
+No 2
+>6NCU_A Interleukin-37; inflammation, interleukin, cytokine, innate immune; 3.5A {Homo sapiens}
+Probab=14.76  E-value=1.6e+02  Score=12.31  Aligned_cols=6  Identities=33%  Similarity=0.036  Sum_probs=0.0  Template_Neff=6.700
+
+Q STFTFE            1 STFTFE    6 (6)
+Q Consensus         1 stftfe    6 (6)
+                      ++++||
+T Consensus       111 ~~~~FE  116 (154)
+T 6NCU_A          111 SWNMLE  116 (154)
+T ss_dssp             TBBCEE
+T ss_pred             CeeEEE
+
+
+No 3
+>5N2N_A Histidine kinase CKI1 (E.C.2.7.13.3); receiver domain, histidine kinase CKI1; 2.05A {Arabidopsis thaliana}
+Probab=14.71  E-value=1.7e+02  Score=11.00  Aligned_cols=6  Identities=33%  Similarity=-0.180  Sum_probs=0.0  Template_Neff=10.400
+
+Q STFTFE            1 STFTFE    6 (6)
+Q Consensus         1 stftfe    6 (6)
+                      |+|+|.
+T Consensus        33 s~f~~~   38 (206)
+T 5N2N_A           33 SVRTGR   38 (206)
+T ss_dssp             ------
+T ss_pred             cEEEEE
+
+
+No 4
+>1TWE_A Hydrophobic cavity, Hydrophobicity, water, IMMUNE; 2.1A {Homo sapiens} SCOP: b.42.1.2
+Probab=14.39  E-value=1.7e+02  Score=12.21  Aligned_cols=6  Identities=33%  Similarity=0.750  Sum_probs=0.0  Template_Neff=6.800
+
+Q STFTFE            1 STFTFE    6 (6)
+Q Consensus         1 stftfe    6 (6)
+                      ++++||
+T Consensus       108 ~~~~FE  113 (153)
+T 1TWE_A          108 NKLEFE  113 (153)
+T ss_dssp             SCEEEE
+T ss_pred             CEEEEE
+
+
+No 5
+>2K6W_A Putative uncharacterized protein TTHA1943; PCuA, copper transfer protein, METAL; NMR {Thermus thermophilus}
+Probab=14.34  E-value=1.7e+02  Score=11.28  Aligned_cols=5  Identities=20%  Similarity=0.514  Sum_probs=0.0  Template_Neff=7.800
+
+Q STFTFE            2 TFTFE    6 (6)
+Q Consensus         2 tftfe    6 (6)
+                      ||+|+
+T Consensus       102 tl~F~  106 (120)
+T 2K6W_A          102 DLLFA  106 (120)
+T ss_dssp             EEEET
+T ss_pred             EEEEC
+
+
+No 6
+>1ILT_A INTERLEUKIN-1 RECEPTOR ANTAGONIST (IL-1RA) (ALPHA; CYTOKINE; 2.0A {Homo sapiens} SCOP: b.42.1.2
+Probab=14.29  E-value=1.7e+02  Score=12.37  Aligned_cols=6  Identities=50%  Similarity=0.711  Sum_probs=0.0  Template_Neff=6.400
+
+Q STFTFE            1 STFTFE    6 (6)
+Q Consensus         1 stftfe    6 (6)
+                      |+++||
+T Consensus       107 s~~~FE  112 (152)
+T 1ILT_A          107 PTTSFE  112 (152)
+T ss_pred             CceEEE
+
+
+No 7
+>1T4Q_A Hydration Cavity, il1b, IL-1b, IMMUNE; 2.1A {Homo sapiens} SCOP: b.42.1.2
+Probab=14.28  E-value=1.7e+02  Score=12.20  Aligned_cols=6  Identities=33%  Similarity=0.750  Sum_probs=0.0  Template_Neff=6.800
+
+Q STFTFE            1 STFTFE    6 (6)
+Q Consensus         1 stftfe    6 (6)
+                      ++++||
+T Consensus       108 ~~~~FE  113 (153)
+T 1T4Q_A          108 NKLEFE  113 (153)
+T ss_dssp             SCEEEE
+T ss_pred             CEEEEE
+
+
+No 8
+>5HN1_A Interleukin-37; Interleukin-1 Cytokine Inflammation Interleukin-18, CYTOKINE; HET: SO4; 2.25A {Homo sapiens}
+Probab=13.55  E-value=1.9e+02  Score=12.49  Aligned_cols=6  Identities=33%  Similarity=0.036  Sum_probs=0.0  Template_Neff=6.500
+
+Q STFTFE            1 STFTFE    6 (6)
+Q Consensus         1 stftfe    6 (6)
+                      ++++||
+T Consensus       120 ~~~~FE  125 (175)
+T 5HN1_A          120 SWNMLE  125 (175)
+T ss_pred             CceEEE
+
+
+No 9
+>4GAI_A EBI-005; IL-1beta, IL-1Ra, IL-1R1, IL-1 signaling; 1.49A {Homo sapiens}
+Probab=13.32  E-value=1.9e+02  Score=12.12  Aligned_cols=6  Identities=33%  Similarity=0.750  Sum_probs=0.0  Template_Neff=6.700
+
+Q STFTFE            1 STFTFE    6 (6)
+Q Consensus         1 stftfe    6 (6)
+                      ++++||
+T Consensus       107 ~~~~FE  112 (153)
+T 4GAI_A          107 NKLEFE  112 (153)
+T ss_dssp             TEEEEE
+T ss_pred             CeEEEE
+
+
+No 10
+>4GAI_B EBI-005; IL-1beta, IL-1Ra, IL-1R1, IL-1 signaling; 1.49A {Homo sapiens}
+Probab=13.32  E-value=1.9e+02  Score=12.12  Aligned_cols=6  Identities=33%  Similarity=0.750  Sum_probs=0.0  Template_Neff=6.700
+
+Q STFTFE            1 STFTFE    6 (6)
+Q Consensus         1 stftfe    6 (6)
+                      ++++||
+T Consensus       107 ~~~~FE  112 (153)
+T 4GAI_B          107 NKLEFE  112 (153)
+T ss_dssp             TEEEEE
+T ss_pred             CeEEEE
+
+

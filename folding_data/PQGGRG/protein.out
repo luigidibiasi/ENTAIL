@@ -1,0 +1,155 @@
+Query         PQGGRG
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 06:14:12 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/PQGGRG/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/PQGGRG/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3EIQ_C Eukaryotic initiation f  58.7     8.6 9.5E-05   17.1   0.0    6    1-6       6-11  (358)
+  2 6QB8_h T-complex protein 1 sub  53.4      12 0.00013   16.3   0.0    6    1-6     533-538 (543)
+  3 5DA8_L 60 kDa chaperonin; Stru  46.2      19 0.00021   16.1   0.0    6    1-6     536-541 (545)
+  4 5DA8_P 60 kDa chaperonin; Stru  46.2      19 0.00021   16.1   0.0    6    1-6     536-541 (545)
+  5 2X79_A HYDANTOIN TRANSPORT PRO  26.9      62 0.00068   14.9   0.0    6    1-6     489-494 (501)
+  6 2JLN_A MHP1; HYDANTOIN, TRANSP  26.7      62 0.00069   14.9   0.0    6    1-6     489-494 (501)
+  7 5TV8_B 6-carboxyhexanoate--CoA  12.5 2.1E+02  0.0023   13.7   0.0    5    1-5     211-215 (240)
+  8 5TVA_A 6-carboxyhexanoate--CoA  12.5 2.1E+02  0.0023   13.7   0.0    5    1-5     211-215 (240)
+  9 4B2T_h T-COMPLEX PROTEIN 1 SUB  12.5 2.1E+02  0.0023   12.7   0.0    6    1-6     533-538 (543)
+ 10 5BWA_B Ornithine decarboxylase  12.2 2.2E+02  0.0024   12.7   0.0    5    2-6      10-14  (160)
+
+No 1
+>3EIQ_C Eukaryotic initiation factor 4A-I (E.C.3.6.1.-); Pdcd4, Anti-oncogene, Apoptosis, Cell cycle; 3.5A {Homo sapiens}
+Probab=58.70  E-value=8.6  Score=17.07  Aligned_cols=6  Identities=50%  Similarity=1.110  Sum_probs=4.3  Template_Neff=7.900
+
+Q PQGGRG            1 PQGGRG    6 (6)
+Q Consensus         1 pqggrg    6 (6)
+                      ||||+|
+T Consensus         6 ~~~~~~   11 (358)
+T 3EIQ_C            6 PEFGKG   11 (358)
+T ss_pred             CCCCCC
+Confidence            678875
+
+
+No 2
+>6QB8_h T-complex protein 1 subunit alpha; CCT, folding, WD40, mLST8, CHAPERONE; HET: ADP; 3.97A {Homo sapiens}
+Probab=53.42  E-value=12  Score=16.28  Aligned_cols=6  Identities=50%  Similarity=0.900  Sum_probs=3.5  Template_Neff=9.900
+
+Q PQGGRG            1 PQGGRG    6 (6)
+Q Consensus         1 pqggrg    6 (6)
+                      ||||||
+T Consensus       533 ~~~~~~  538 (543)
+T 6QB8_h          533 AGRGRG  538 (543)
+T ss_dssp             HSSCEE
+T ss_pred             CCCCCC
+Confidence            466665
+
+
+No 3
+>5DA8_L 60 kDa chaperonin; Structural Genomics, PSI-Biology, Midwest Center; HET: SO4, CA; 3.0A {Chlorobium tepidum (strain ATCC 49652 / DSM 12025 / NBRC 103806 / TLS)}
+Probab=46.16  E-value=19  Score=16.10  Aligned_cols=6  Identities=67%  Similarity=1.415  Sum_probs=0.0  Template_Neff=9.300
+
+Q PQGGRG            1 PQGGRG    6 (6)
+Q Consensus         1 pqggrg    6 (6)
+                      |+||+|
+T Consensus       536 ~~~~~~  541 (545)
+T 5DA8_L          536 PPGGMG  541 (545)
+T ss_dssp             ------
+T ss_pred             CCCCCC
+Confidence            667764
+
+
+No 4
+>5DA8_P 60 kDa chaperonin; Structural Genomics, PSI-Biology, Midwest Center; HET: CA, SO4; 3.0A {Chlorobium tepidum (strain ATCC 49652 / DSM 12025 / NBRC 103806 / TLS)}
+Probab=46.16  E-value=19  Score=16.10  Aligned_cols=6  Identities=67%  Similarity=1.415  Sum_probs=0.0  Template_Neff=9.300
+
+Q PQGGRG            1 PQGGRG    6 (6)
+Q Consensus         1 pqggrg    6 (6)
+                      |+||+|
+T Consensus       536 ~~~~~~  541 (545)
+T 5DA8_P          536 PPGGMG  541 (545)
+T ss_dssp             ------
+T ss_pred             CCCCCC
+Confidence            667764
+
+
+No 5
+>2X79_A HYDANTOIN TRANSPORT PROTEIN; TRANSPORT PROTEIN, TRANSPORTER, MEMBRANE PROTEIN; 3.8A {MICROBACTERIUM LIQUEFACIENS}
+Probab=26.85  E-value=62  Score=14.93  Aligned_cols=6  Identities=83%  Similarity=1.769  Sum_probs=0.0  Template_Neff=8.400
+
+Q PQGGRG            1 PQGGRG    6 (6)
+Q Consensus         1 pqggrg    6 (6)
+                      |.||||
+T Consensus       489 ~~~~~~  494 (501)
+T 2X79_A          489 PAGGRG  494 (501)
+T ss_dssp             ------
+T ss_pred             CCCCCC
+Confidence            456765
+
+
+No 6
+>2JLN_A MHP1; HYDANTOIN, TRANSPORTER, MEMBRANE PROTEIN, NUCLEOBASE-CATION-SYMPORT-1; 2.85A {MICROBACTERIUM LIQUEFACIENS}
+Probab=26.68  E-value=62  Score=14.91  Aligned_cols=6  Identities=83%  Similarity=1.769  Sum_probs=0.0  Template_Neff=8.400
+
+Q PQGGRG            1 PQGGRG    6 (6)
+Q Consensus         1 pqggrg    6 (6)
+                      |.||||
+T Consensus       489 ~~~~~~  494 (501)
+T 2JLN_A          489 PAGGRG  494 (501)
+T ss_dssp             ------
+T ss_pred             CCCCCC
+Confidence            456765
+
+
+No 7
+>5TV8_B 6-carboxyhexanoate--CoA ligase (E.C.6.2.1.14); Pimeloyl-CoA Ligase, adenylation, LIGASE; HET: PML, APC; 2.55A {Aquifex aeolicus}
+Probab=12.54  E-value=2.1e+02  Score=13.71  Aligned_cols=5  Identities=80%  Similarity=1.591  Sum_probs=0.0  Template_Neff=4.700
+
+Q PQGGRG            1 PQGGR    5 (6)
+Q Consensus         1 pqggr    5 (6)
+                      |+|||
+T Consensus       211 ~~GGR  215 (240)
+T 5TV8_B          211 PLGGR  215 (240)
+T ss_dssp             CCCEE
+T ss_pred             CCCcE
+
+
+No 8
+>5TVA_A 6-carboxyhexanoate--CoA ligase (E.C.6.2.1.14); Pimeloyl-CoA Ligase, adenylation, LIGASE; HET: AMP, COA; 2.25A {Aquifex aeolicus}
+Probab=12.54  E-value=2.1e+02  Score=13.71  Aligned_cols=5  Identities=80%  Similarity=1.591  Sum_probs=0.0  Template_Neff=4.700
+
+Q PQGGRG            1 PQGGR    5 (6)
+Q Consensus         1 pqggr    5 (6)
+                      |+|||
+T Consensus       211 ~~GGR  215 (240)
+T 5TVA_A          211 PLGGR  215 (240)
+T ss_dssp             CCCEE
+T ss_pred             CCCcE
+
+
+No 9
+>4B2T_h T-COMPLEX PROTEIN 1 SUBUNIT ALPHA; CHAPERONE; 5.5A {BOS TAURUS}
+Probab=12.51  E-value=2.1e+02  Score=12.68  Aligned_cols=6  Identities=50%  Similarity=0.900  Sum_probs=0.0  Template_Neff=10.000
+
+Q PQGGRG            1 PQGGRG    6 (6)
+Q Consensus         1 pqggrg    6 (6)
+                      |++|||
+T Consensus       533 ~~~~~~  538 (543)
+T 4B2T_h          533 AGRGRG  538 (543)
+T ss_dssp             HSTTES
+T ss_pred             CCCCCC
+
+
+No 10
+>5BWA_B Ornithine decarboxylase (E.C.4.1.1.17), Ornithine decarboxylase; Ornithine decarboxylase, Antizyme1, Ornithine decarboxylase-Antizyme1; HET: PLP; 3.2A {Homo sapiens}
+Probab=12.23  E-value=2.2e+02  Score=12.71  Aligned_cols=5  Identities=80%  Similarity=1.617  Sum_probs=0.0  Template_Neff=5.200
+
+Q PQGGRG            2 QGGRG    6 (6)
+Q Consensus         2 qggrg    6 (6)
+                      +||||
+T Consensus        10 ~~grg   14 (160)
+T 5BWA_B           10 PGGRG   14 (160)
+T ss_dssp             -----
+T ss_pred             CCCCC
+
+

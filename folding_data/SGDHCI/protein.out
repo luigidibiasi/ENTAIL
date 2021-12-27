@@ -1,0 +1,151 @@
+Query         SGDHCI
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 14:19:52 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/SGDHCI/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/SGDHCI/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3HHC_A Interleukin-28B; Interf  20.6      98  0.0011   14.6   0.0    6    1-6     191-196 (196)
+  2 6TWE_A Putative chitin binding  19.0 1.1E+02  0.0012   12.6   0.0    6    1-6     143-148 (172)
+  3 1V06_A HMG BOX-CONTAINING PROT  19.0 1.1E+02  0.0012   12.6   0.0    5    2-6     128-132 (142)
+  4 6T5Z_B Chitin-binding type-4 d  18.9 1.1E+02  0.0012   12.5   0.0    6    1-6     145-150 (174)
+  5 3HHC_B Interleukin-28B; Interf  18.6 1.1E+02  0.0013   14.5   0.0    6    1-6     191-196 (196)
+  6 5FTZ_A CHITIN BINDING PROTEIN;  17.0 1.3E+02  0.0015   12.3   0.0    6    1-6     146-151 (172)
+  7 5MSZ_A Thermobia domestica dom  17.0 1.3E+02  0.0015   12.4   0.0    6    1-6     150-155 (201)
+  8 2KAK_A EC protein I/II; metall  15.5 1.5E+02  0.0017   11.9   0.0    4    2-5       9-12  (53)
+  9 2PIH_B Protein ymcA; ymcA, reg  14.8 1.6E+02  0.0018   11.8   0.0    5    1-5     137-141 (151)
+ 10 5JGE_B Autophagy-related prote  14.6 1.7E+02  0.0018   11.0   0.0    5    2-6       1-5   (32)
+
+No 1
+>3HHC_A Interleukin-28B; Interferon, IL-22, antiviral, Antiviral defense; HET: IOD; 2.8A {Homo sapiens}
+Probab=20.56  E-value=98  Score=14.62  Aligned_cols=6  Identities=67%  Similarity=1.453  Sum_probs=4.1  Template_Neff=4.000
+
+Q SGDHCI            1 SGDHCI    6 (6)
+Q Consensus         1 sgdhci    6 (6)
+                      +||.|+
+T Consensus       191 ~~d~C~  196 (196)
+T 3HHC_A          191 SGDLCV  196 (196)
+T ss_dssp             TGGGCC
+T ss_pred             cCCCCC
+Confidence            577775
+
+
+No 2
+>6TWE_A Putative chitin binding protein; lytic polysaccharide monooxygenase, lpmo, AA10; HET: CU1; NMR {Bacillus licheniformis DSM 13 = ATCC 14580}
+Probab=18.99  E-value=1.1e+02  Score=12.56  Aligned_cols=6  Identities=50%  Similarity=0.650  Sum_probs=0.0  Template_Neff=7.600
+
+Q SGDHCI            1 SGDHCI    6 (6)
+Q Consensus         1 sgdhci    6 (6)
+                      +|.|||
+T Consensus       143 tg~~~i  148 (172)
+T 6TWE_A          143 LGYHVI  148 (172)
+T ss_dssp             CEEEEE
+T ss_pred             CCcEEE
+
+
+No 3
+>1V06_A HMG BOX-CONTAINING PROTEIN 1; DNA-BINDING PROTEIN, TRANSCRIPTION FACTOR, PROTEIN-PROTEIN; NMR {MUS MUSCULUS}
+Probab=18.96  E-value=1.1e+02  Score=12.64  Aligned_cols=5  Identities=60%  Similarity=1.570  Sum_probs=0.0  Template_Neff=6.700
+
+Q SGDHCI            2 GDHCI    6 (6)
+Q Consensus         2 gdhci    6 (6)
+                      ||-|+
+T Consensus       128 GDvcl  132 (142)
+T 1V06_A          128 GDVCL  132 (142)
+T ss_dssp             TCEEC
+T ss_pred             CCEEe
+
+
+No 4
+>6T5Z_B Chitin-binding type-4 domain-containing protein; lytic polysaccharide monooxygenase, copper metalloenzyme; 1.6000030918A {Photorhabdus laumondii subsp. laumondii (strain DSM 15139 / CIP 105565 / TT01)}
+Probab=18.94  E-value=1.1e+02  Score=12.48  Aligned_cols=6  Identities=50%  Similarity=0.778  Sum_probs=0.0  Template_Neff=7.800
+
+Q SGDHCI            1 SGDHCI    6 (6)
+Q Consensus         1 sgdhci    6 (6)
+                      +|.|||
+T Consensus       145 tg~~~i  150 (174)
+T 6T5Z_B          145 QGYHVI  150 (174)
+T ss_dssp             CEEEEE
+T ss_pred             cceEEE
+
+
+No 5
+>3HHC_B Interleukin-28B; Interferon, IL-22, antiviral, Antiviral defense; HET: IOD; 2.8A {Homo sapiens}
+Probab=18.62  E-value=1.1e+02  Score=14.49  Aligned_cols=6  Identities=67%  Similarity=1.453  Sum_probs=0.0  Template_Neff=3.800
+
+Q SGDHCI            1 SGDHCI    6 (6)
+Q Consensus         1 sgdhci    6 (6)
+                      |||.|+
+T Consensus       191 ~~d~C~  196 (196)
+T 3HHC_B          191 SGDLCV  196 (196)
+T ss_dssp             HSSCCC
+T ss_pred             ccCCCC
+
+
+No 6
+>5FTZ_A CHITIN BINDING PROTEIN; LYASE, CHITIN, HYPHAL DEVELOPMENT; 1.38A {STREPTOMYCES LIVIDANS}
+Probab=16.97  E-value=1.3e+02  Score=12.30  Aligned_cols=6  Identities=67%  Similarity=1.066  Sum_probs=0.0  Template_Neff=7.700
+
+Q SGDHCI            1 SGDHCI    6 (6)
+Q Consensus         1 sgdhci    6 (6)
+                      +|.|||
+T Consensus       146 tg~~~i  151 (172)
+T 5FTZ_A          146 SGHHVI  151 (172)
+T ss_dssp             CSEEEE
+T ss_pred             CccEEE
+
+
+No 7
+>5MSZ_A Thermobia domestica domestica AA14; Lytic Polysaccharide Monooxygenase, CAZy, AA15; 1.1A {Thermobia domestica}
+Probab=16.96  E-value=1.3e+02  Score=12.43  Aligned_cols=6  Identities=17%  Similarity=0.850  Sum_probs=0.0  Template_Neff=8.000
+
+Q SGDHCI            1 SGDHCI    6 (6)
+Q Consensus         1 sgdhci    6 (6)
+                      +++||+
+T Consensus       150 tc~~CV  155 (201)
+T 5MSZ_A          150 TCTNCV  155 (201)
+T ss_dssp             CEEEEE
+T ss_pred             ccCCEE
+
+
+No 8
+>2KAK_A EC protein I/II; metallothionein, solution structure, wheat Ec-1; HET: ZN; NMR {Triticum aestivum}
+Probab=15.51  E-value=1.5e+02  Score=11.88  Aligned_cols=4  Identities=75%  Similarity=2.228  Sum_probs=0.0  Template_Neff=3.000
+
+Q SGDHCI            2 GDHC    5 (6)
+Q Consensus         2 gdhc    5 (6)
+                      |+||
+T Consensus         9 GeHC   12 (53)
+T 2KAK_A            9 GEHC   12 (53)
+T ss_dssp             TBCC
+T ss_pred             CCCc
+
+
+No 9
+>2PIH_B Protein ymcA; ymcA, regulate community development, Structural; HET: MSE; 2.1A {Bacillus subtilis} SCOP: a.281.1.1
+Probab=14.78  E-value=1.6e+02  Score=11.80  Aligned_cols=5  Identities=40%  Similarity=1.072  Sum_probs=0.0  Template_Neff=7.700
+
+Q SGDHCI            1 SGDHC    5 (6)
+Q Consensus         1 sgdhc    5 (6)
+                      |||.|
+T Consensus       137 ~~~~~  141 (151)
+T 2PIH_B          137 SNNSC  141 (151)
+T ss_dssp             -----
+T ss_pred             CCCcc
+
+
+No 10
+>5JGE_B Autophagy-related protein 19, Ape1 propeptide; Receptor, Complex, PROTEIN TRANSPORT; 1.91A {Saccharomyces cerevisiae}
+Probab=14.65  E-value=1.7e+02  Score=11.03  Aligned_cols=5  Identities=40%  Similarity=0.919  Sum_probs=0.0  Template_Neff=2.100
+
+Q SGDHCI            2 GDHCI    6 (6)
+Q Consensus         2 gdhci    6 (6)
+                      |.||.
+T Consensus         1 ~~~cL    5 (32)
+T 5JGE_B            1 GPHML    5 (32)
+T ss_dssp             CHHHH
+T ss_pred             CchhH
+
+

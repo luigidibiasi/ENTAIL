@@ -1,0 +1,155 @@
+Query         SGSGFN
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 14:32:20 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/SGSGFN/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/SGSGFN/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 1HZL_A ANTITUMOR ANTIBIOTIC C-  42.8      23 0.00025   14.1   0.0    6    1-6      21-26  (110)
+  2 1J48_A Apoprotein of C1027; An  42.8      23 0.00025   14.1   0.0    6    1-6      21-26  (110)
+  3 1AKP_A APOKEDARCIDIN (APO FORM  38.0      30 0.00034   14.2   0.0    6    1-6      22-27  (114)
+  4 1NOA_A NEOCARZINOSTATIN; ANTIB  37.9      31 0.00034   14.2   0.0    6    1-6      22-27  (113)
+  5 2CBO_A NEOCARZINOSTATIN; ANTIB  36.4      33 0.00037   13.9   0.0    6    1-6      22-27  (115)
+  6 2MCM_A MACROMOMYCIN; APOPROTEI  35.4      36 0.00039   13.9   0.0    6    1-6      21-26  (112)
+  7 1NCO_A HOLO-NEOCARZINOSTATIN (  34.0      39 0.00043   13.8   0.0    6    1-6      22-27  (113)
+  8 6VLK_A Envelope glycoprotein B  19.6 1.1E+02  0.0012   16.9   0.0    5    2-6      38-42  (744)
+  9 7CR6_E Tubulin alpha-1B chain,  19.2 1.1E+02  0.0012   12.3   0.0    6    1-6       3-8   (105)
+ 10 7CR8_F CRISPR-associated endon  19.2 1.1E+02  0.0012   12.3   0.0    6    1-6       3-8   (105)
+
+No 1
+>1HZL_A ANTITUMOR ANTIBIOTIC C-1027 APOPROTEIN; chromoprotein, C-1027, apoprotein, aromatized chromophore; HET: ROM; NMR {Streptomyces globisporus} SCOP: b.1.7.1
+Probab=42.79  E-value=23  Score=14.15  Aligned_cols=6  Identities=50%  Similarity=0.285  Sum_probs=3.2  Template_Neff=6.500
+
+Q SGSGFN            1 SGSGFN    6 (6)
+Q Consensus         1 sgsgfn    6 (6)
+                      +|+||+
+T Consensus        21 sGsG~~   26 (110)
+T 1HZL_A           21 SVSGAA   26 (110)
+T ss_dssp             EEESCC
+T ss_pred             EEeCcC
+Confidence            456653
+
+
+No 2
+>1J48_A Apoprotein of C1027; Antibiotic, DNA-binding; 1.8A {Streptomyces globisporus} SCOP: b.1.7.1
+Probab=42.79  E-value=23  Score=14.15  Aligned_cols=6  Identities=50%  Similarity=0.285  Sum_probs=3.2  Template_Neff=6.500
+
+Q SGSGFN            1 SGSGFN    6 (6)
+Q Consensus         1 sgsgfn    6 (6)
+                      +|+||+
+T Consensus        21 sGsG~~   26 (110)
+T 1J48_A           21 SVSGAA   26 (110)
+T ss_dssp             EEESSC
+T ss_pred             EEeCcC
+Confidence            456653
+
+
+No 3
+>1AKP_A APOKEDARCIDIN (APO FORM OF KEDARCIDIN); ANTIBIOTIC CHROMOPROTEIN; NMR {actinomycete ATCC 53650} SCOP: b.1.7.1
+Probab=37.96  E-value=30  Score=14.23  Aligned_cols=6  Identities=67%  Similarity=1.010  Sum_probs=3.2  Template_Neff=5.800
+
+Q SGSGFN            1 SGSGFN    6 (6)
+Q Consensus         1 sgsgfn    6 (6)
+                      +|+||+
+T Consensus        22 sgsG~~   27 (114)
+T 1AKP_A           22 SASGFA   27 (114)
+T ss_pred             EEeccc
+Confidence            356653
+
+
+No 4
+>1NOA_A NEOCARZINOSTATIN; ANTIBACTERIAL PROTEIN; 1.5A {Streptomyces carzinostaticus} SCOP: b.1.7.1
+Probab=37.87  E-value=31  Score=14.16  Aligned_cols=6  Identities=33%  Similarity=1.005  Sum_probs=3.1  Template_Neff=5.900
+
+Q SGSGFN            1 SGSGFN    6 (6)
+Q Consensus         1 sgsgfn    6 (6)
+                      +|+||+
+T Consensus        22 tgsG~~   27 (113)
+T 1NOA_A           22 AGAGLQ   27 (113)
+T ss_dssp             EEESCC
+T ss_pred             EEeCcc
+Confidence            355653
+
+
+No 5
+>2CBO_A NEOCARZINOSTATIN; ANTIBIOTIC, PHAGE-DISPLAY, HAPTEN BINDING, NEOCARZINOSTATIN; HET: TH2; 1.7A {STREPTOMYCES CARZINOSTATICUS}
+Probab=36.39  E-value=33  Score=13.93  Aligned_cols=6  Identities=33%  Similarity=1.005  Sum_probs=3.0  Template_Neff=6.200
+
+Q SGSGFN            1 SGSGFN    6 (6)
+Q Consensus         1 sgsgfn    6 (6)
+                      +|+||+
+T Consensus        22 tgsG~~   27 (115)
+T 2CBO_A           22 AGAGLQ   27 (115)
+T ss_pred             EEeccc
+Confidence            355553
+
+
+No 6
+>2MCM_A MACROMOMYCIN; APOPROTEIN; HET: MRD; 1.5A {Streptomyces macromomyceticus} SCOP: b.1.7.1
+Probab=35.38  E-value=36  Score=13.90  Aligned_cols=6  Identities=33%  Similarity=0.739  Sum_probs=3.0  Template_Neff=6.000
+
+Q SGSGFN            1 SGSGFN    6 (6)
+Q Consensus         1 sgsgfn    6 (6)
+                      +|+||+
+T Consensus        21 tgsG~~   26 (112)
+T 2MCM_A           21 SATGLT   26 (112)
+T ss_dssp             EEESCC
+T ss_pred             EEeccC
+Confidence            355653
+
+
+No 7
+>1NCO_A HOLO-NEOCARZINOSTATIN (CONTAINING CHROMOPHORE) COMPLEX WITH; ANTIBACTERIAL AND ANTITUMOR PROTEIN; HET: CHR; 1.8A {Streptomyces carzinostaticus} SCOP: b.1.7.1
+Probab=33.98  E-value=39  Score=13.77  Aligned_cols=6  Identities=33%  Similarity=1.005  Sum_probs=2.9  Template_Neff=6.100
+
+Q SGSGFN            1 SGSGFN    6 (6)
+Q Consensus         1 sgsgfn    6 (6)
+                      +|+||+
+T Consensus        22 tgsG~~   27 (113)
+T 1NCO_A           22 AGAGLQ   27 (113)
+T ss_dssp             EEESCC
+T ss_pred             EEeCcc
+Confidence            355553
+
+
+No 8
+>6VLK_A Envelope glycoprotein B; viral membrane glycoprotein, VIRAL PROTEIN; HET: MAN, NAG, BMA; 2.4529A {Varicella-zoster virus (strain Oka vaccine)}
+Probab=19.63  E-value=1.1e+02  Score=16.88  Aligned_cols=5  Identities=100%  Similarity=1.743  Sum_probs=0.0  Template_Neff=4.500
+
+Q SGSGFN            2 GSGFN    6 (6)
+Q Consensus         2 gsgfn    6 (6)
+                      |||||
+T Consensus        38 ~~~~~   42 (744)
+T 6VLK_A           38 GSGFN   42 (744)
+T ss_dssp             -----
+T ss_pred             cCCCC
+
+
+No 9
+>7CR6_E Tubulin alpha-1B chain, Tubulin beta-2B; CRISPR, adaptation, IMMUNE SYSTEM, IMMUNE; 3.72A {Synechocystis sp. (strain PCC 6803 / Kazusa)}
+Probab=19.23  E-value=1.1e+02  Score=12.28  Aligned_cols=6  Identities=67%  Similarity=0.877  Sum_probs=0.0  Template_Neff=6.300
+
+Q SGSGFN            1 SGSGFN    6 (6)
+Q Consensus         1 sgsgfn    6 (6)
+                      |||+++
+T Consensus         3 ~~~~~~    8 (105)
+T 7CR6_E            3 SGSGTG    8 (105)
+T ss_dssp             ------
+T ss_pred             CCcCcC
+
+
+No 10
+>7CR8_F CRISPR-associated endonuclease Cas1, CRISPR-associated endoribonuclease; CRISPR, adaptation, IMMUNE SYSTEM-DNA complex; 3.7A {Synechocystis sp. (strain PCC 6803 / Kazusa)}
+Probab=19.23  E-value=1.1e+02  Score=12.28  Aligned_cols=6  Identities=67%  Similarity=0.877  Sum_probs=0.0  Template_Neff=6.300
+
+Q SGSGFN            1 SGSGFN    6 (6)
+Q Consensus         1 sgsgfn    6 (6)
+                      |||+++
+T Consensus         3 ~~~~~~    8 (105)
+T 7CR8_F            3 SGSGTG    8 (105)
+T ss_dssp             ------
+T ss_pred             CCcCcC
+
+

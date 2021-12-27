@@ -1,0 +1,157 @@
+Query         RVNHVT
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 12:58:37 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/RVNHVT/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/RVNHVT/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3LHO_A Putative hydrolase; Str  46.1      19 0.00021   16.4   0.0    6    1-6     162-167 (267)
+  2 6W1K_D Hydroxyglutarate syntha  34.4      38 0.00042   16.1   0.0    6    1-6     192-197 (322)
+  3 6W1K_A Hydroxyglutarate syntha  32.9      41 0.00046   15.9   0.0    6    1-6     192-197 (322)
+  4 3IUZ_A Putative glyoxalase sup  27.1      60 0.00067   15.5   0.0    6    1-6     235-240 (340)
+  5 6W1G_A Hydroxyglutarate syntha  21.6      90 0.00099   16.0   0.0    6    1-6     223-228 (464)
+  6 6W1H_A Hydroxyglutarate syntha  21.6      90 0.00099   16.0   0.0    6    1-6     223-228 (464)
+  7 2RJB_A Uncharacterized protein  12.7 2.1E+02  0.0023   15.0   0.0    6    1-6     221-226 (455)
+  8 5JXD_A Tumor necrosis factor a   7.0 4.6E+02  0.0051   12.1   0.0    5    1-5     154-158 (198)
+  9 2BJF_A CHOLOYLGLYCINE HYDROLAS   7.0 4.6E+02  0.0051   11.2   0.0    5    1-5     324-328 (329)
+ 10 3F4M_A Tumor necrosis factor,    6.6   5E+02  0.0056   11.5   0.0    5    1-5     119-123 (161)
+
+No 1
+>3LHO_A Putative hydrolase; Structural Genomics, Joint Center for; HET: SO4, PG4, PEG, GOL; 1.8A {Shewanella frigidimarina}
+Probab=46.14  E-value=19  Score=16.35  Aligned_cols=6  Identities=67%  Similarity=0.955  Sum_probs=3.8  Template_Neff=6.300
+
+Q RVNHVT            1 RVNHVT    6 (6)
+Q Consensus         1 rvnhvt    6 (6)
+                      ++||+|
+T Consensus       162 ~~NH~T  167 (267)
+T 3LHO_A          162 RANHFT  167 (267)
+T ss_dssp             SCSEEE
+T ss_pred             ccceee
+Confidence            467765
+
+
+No 2
+>6W1K_D Hydroxyglutarate synthase; Decarboxylase Lysine catabolism, LYASE; HET: SO4, OOG; 1.85A {Oryza sativa}
+Probab=34.42  E-value=38  Score=16.07  Aligned_cols=6  Identities=50%  Similarity=0.750  Sum_probs=3.7  Template_Neff=5.800
+
+Q RVNHVT            1 RVNHVT    6 (6)
+Q Consensus         1 rvnhvt    6 (6)
+                      ++||+|
+T Consensus       192 ~~NH~T  197 (322)
+T 6W1K_D          192 ALNHTT  197 (322)
+T ss_dssp             SCCEEE
+T ss_pred             ccccee
+Confidence            467765
+
+
+No 3
+>6W1K_A Hydroxyglutarate synthase; Decarboxylase Lysine catabolism, LYASE; HET: SO4, OOG; 1.85A {Oryza sativa}
+Probab=32.91  E-value=41  Score=15.94  Aligned_cols=6  Identities=50%  Similarity=0.750  Sum_probs=3.7  Template_Neff=5.800
+
+Q RVNHVT            1 RVNHVT    6 (6)
+Q Consensus         1 rvnhvt    6 (6)
+                      ++||+|
+T Consensus       192 ~~NH~T  197 (322)
+T 6W1K_A          192 ALNHTT  197 (322)
+T ss_dssp             SCCEEE
+T ss_pred             ccceeE
+Confidence            467765
+
+
+No 4
+>3IUZ_A Putative glyoxalase superfamily protein; YP_299723.1, Putative glyoxalase superfamily protein; HET: PGE, P6G; 1.9A {Ralstonia eutropha}
+Probab=27.15  E-value=60  Score=15.55  Aligned_cols=6  Identities=50%  Similarity=0.661  Sum_probs=3.6  Template_Neff=5.800
+
+Q RVNHVT            1 RVNHVT    6 (6)
+Q Consensus         1 rvnhvt    6 (6)
+                      ++||+|
+T Consensus       235 ~~NH~T  240 (340)
+T 3IUZ_A          235 AFNHAT  240 (340)
+T ss_dssp             SCSEEE
+T ss_pred             ccceee
+Confidence            367765
+
+
+No 5
+>6W1G_A Hydroxyglutarate synthase; Decarboxylase Lysine catabolism, LYASE; 1.14A {Pseudomonas putida}
+Probab=21.65  E-value=90  Score=16.03  Aligned_cols=6  Identities=50%  Similarity=0.988  Sum_probs=3.9  Template_Neff=4.900
+
+Q RVNHVT            1 RVNHVT    6 (6)
+Q Consensus         1 rvnhvt    6 (6)
+                      ++||.|
+T Consensus       223 hiNHlT  228 (464)
+T 6W1G_A          223 HINHLT  228 (464)
+T ss_dssp             CCSEEE
+T ss_pred             CCcccc
+Confidence            467765
+
+
+No 6
+>6W1H_A Hydroxyglutarate synthase; Decarboxylase, Lysine catabolism, LYASE; HET: OOG; 1.42A {Pseudomonas putida}
+Probab=21.65  E-value=90  Score=16.03  Aligned_cols=6  Identities=50%  Similarity=0.988  Sum_probs=3.9  Template_Neff=4.900
+
+Q RVNHVT            1 RVNHVT    6 (6)
+Q Consensus         1 rvnhvt    6 (6)
+                      ++||.|
+T Consensus       223 hiNHlT  228 (464)
+T 6W1H_A          223 HINHLT  228 (464)
+T ss_dssp             CCSEEE
+T ss_pred             CCcccc
+Confidence            467765
+
+
+No 7
+>2RJB_A Uncharacterized protein; Uncharacterized protein, Structural Genomics, PSI-2; HET: MSE; 2.6A {Shigella flexneri}
+Probab=12.67  E-value=2.1e+02  Score=14.96  Aligned_cols=6  Identities=50%  Similarity=0.988  Sum_probs=3.5  Template_Neff=4.600
+
+Q RVNHVT            1 RVNHVT    6 (6)
+Q Consensus         1 rvnhvt    6 (6)
+                      ++||.|
+T Consensus       221 hiNHlT  226 (455)
+T 2RJB_A          221 HINHLT  226 (455)
+T ss_dssp             CCSEEE
+T ss_pred             cccccc
+Confidence            357765
+
+
+No 8
+>5JXD_A Tumor necrosis factor alpha-induced protein; Tnfaip8, Oxi-a, phosphatidylethanolamine, IMMUNE SYSTEM; HET: 6OU; 2.029A {N/A}
+Probab=7.00  E-value=4.6e+02  Score=12.07  Aligned_cols=5  Identities=80%  Similarity=1.099  Sum_probs=0.0  Template_Neff=5.300
+
+Q RVNHVT            1 RVNHV    5 (6)
+Q Consensus         1 rvnhv    5 (6)
+                      |++||
+T Consensus       154 Ri~~V  158 (198)
+T 5JXD_A          154 RVNNV  158 (198)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 9
+>2BJF_A CHOLOYLGLYCINE HYDROLASE (E.C.3.5.1.24); AMIDOHYDROLASE, NTN-HYDROLASE, BILE ACIDS, HYDROLASE; HET: GOL, DXC; 1.67A {CLOSTRIDIUM PERFRINGENS}
+Probab=7.00  E-value=4.6e+02  Score=11.16  Aligned_cols=5  Identities=60%  Similarity=1.072  Sum_probs=0.0  Template_Neff=9.300
+
+Q RVNHVT            1 RVNHV    5 (6)
+Q Consensus         1 rvnhv    5 (6)
+                      ++|||
+T Consensus       324 ~~~~~  328 (329)
+T 2BJF_A          324 SINHV  328 (329)
+T ss_dssp             CCCCC
+T ss_pred             ceeec
+
+
+No 10
+>3F4M_A Tumor necrosis factor, alpha-induced protein; TIPE2, immune homeostasis, TNFAIP8, IMMUNE; 1.696A {Homo sapiens}
+Probab=6.57  E-value=5e+02  Score=11.52  Aligned_cols=5  Identities=60%  Similarity=1.165  Sum_probs=0.0  Template_Neff=5.500
+
+Q RVNHVT            1 RVNHV    5 (6)
+Q Consensus         1 rvnhv    5 (6)
+                      |++||
+T Consensus       119 Ri~~V  123 (161)
+T 3F4M_A          119 RIRHV  123 (161)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+

@@ -1,0 +1,153 @@
+Query         QSYNPP
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 10:50:16 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QSYNPP/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QSYNPP/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3JCT_q 60S ribosomal protein L  86.3    0.43 4.8E-06   22.3   0.0    6    1-6     225-230 (455)
+  2 6EM5_m 60S ribosomal protein L  83.8    0.71 7.8E-06   22.0   0.0    6    1-6     336-341 (807)
+  3 6I9E_A Major head protein, Aux  27.1      61 0.00067   14.9   0.0    6    1-6     397-402 (409)
+  4 6O3H_F Major head protein, P74  27.1      61 0.00067   14.9   0.0    6    1-6     397-402 (409)
+  5 5GWN_A Protein RCC2; seven-bla  18.6 1.2E+02  0.0013   12.4   0.0    6    1-6     432-437 (439)
+  6 1M8P_A sulfate adenylyltransfe  18.5 1.2E+02  0.0013   14.0   0.0    6    1-6     197-202 (573)
+  7 1NUP_A FKSG76; NAD BIOSYNTHESI  18.4 1.2E+02  0.0013   12.4   0.0    5    2-6      14-18  (252)
+  8 1NUT_A FKSG76; NAD BIOSYNTHESI  18.4 1.2E+02  0.0013   12.4   0.0    5    2-6      14-18  (252)
+  9 1I2D_B ATP SULFURYLASE (EC 2.7  18.2 1.2E+02  0.0013   14.0   0.0    6    1-6     197-202 (573)
+ 10 1UTR_A UTEROGLOBIN, 4,4'-BIS([  18.2 1.2E+02  0.0013   11.7   0.0    6    1-6      47-52  (96)
+
+No 1
+>3JCT_q 60S ribosomal protein L2-A, 60S; pre-60S ribosome, RIBOSOME; HET: GTP; 3.08A {Saccharomyces cerevisiae S288c}
+Probab=86.30  E-value=0.43  Score=22.30  Aligned_cols=6  Identities=67%  Similarity=1.220  Sum_probs=4.9  Template_Neff=6.700
+
+Q QSYNPP            1 QSYNPP    6 (6)
+Q Consensus         1 qsynpp    6 (6)
+                      +||||+
+T Consensus       225 ~SYNPs  230 (455)
+T 3JCT_q          225 KSYNPN  230 (455)
+T ss_pred             CcCCCC
+Confidence            699995
+
+
+No 2
+>6EM5_m 60S ribosomal protein L13-A, 60S; Large Subunit Biogenesis Nucleolus, RIBOSOME; 4.3A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=83.85  E-value=0.71  Score=21.97  Aligned_cols=6  Identities=83%  Similarity=1.702  Sum_probs=4.7  Template_Neff=8.200
+
+Q QSYNPP            1 QSYNPP    6 (6)
+Q Consensus         1 qsynpp    6 (6)
+                      .|||||
+T Consensus       336 esynpp  341 (807)
+T 6EM5_m          336 ESYNPP  341 (807)
+T ss_dssp             CBSSCC
+T ss_pred             hhcCCc
+Confidence            389987
+
+
+No 3
+>6I9E_A Major head protein, Auxiliary protein; bacteriophage, thermophage, caudovirales, siphoviridae, capsid; 3.74A {Thermus virus P23-45}
+Probab=27.07  E-value=61  Score=14.88  Aligned_cols=6  Identities=83%  Similarity=1.381  Sum_probs=3.7  Template_Neff=7.800
+
+Q QSYNPP            1 QSYNPP    6 (6)
+Q Consensus         1 qsynpp    6 (6)
+                      |||-||
+T Consensus       397 ~~~~~~  402 (409)
+T 6I9E_A          397 QSYLPP  402 (409)
+T ss_dssp             GGGSCC
+T ss_pred             hhhCCC
+Confidence            567665
+
+
+No 4
+>6O3H_F Major head protein, P74-26 Head; Virus, Virion, Capsid, Major Capsid; 2.8A {Thermus virus P74-26}
+Probab=27.07  E-value=61  Score=14.88  Aligned_cols=6  Identities=83%  Similarity=1.381  Sum_probs=3.7  Template_Neff=7.800
+
+Q QSYNPP            1 QSYNPP    6 (6)
+Q Consensus         1 qsynpp    6 (6)
+                      |||-||
+T Consensus       397 ~~~~~~  402 (409)
+T 6O3H_F          397 QSYLPP  402 (409)
+T ss_dssp             GGGSCC
+T ss_pred             hhhCCC
+Confidence            567665
+
+
+No 5
+>5GWN_A Protein RCC2; seven-bladed propeller, PROTEIN BINDING; HET: SO4; 1.309A {Homo sapiens}
+Probab=18.58  E-value=1.2e+02  Score=12.37  Aligned_cols=6  Identities=50%  Similarity=1.016  Sum_probs=0.0  Template_Neff=11.200
+
+Q QSYNPP            1 QSYNPP    6 (6)
+Q Consensus         1 qsynpp    6 (6)
+                      +.||||
+T Consensus       432 ~~~~~~  437 (439)
+T 5GWN_A          432 PEYNPR  437 (439)
+T ss_dssp             CEECCC
+T ss_pred             CccCCC
+
+
+No 6
+>1M8P_A sulfate adenylyltransferase (E.C.2.7.7.4); Rossmann fold, phosphosulfate binding, T-state; HET: PPS; 2.6A {Penicillium chrysogenum} SCOP: c.26.1.5, b.122.1.3, c.37.1.15
+Probab=18.48  E-value=1.2e+02  Score=13.99  Aligned_cols=6  Identities=50%  Similarity=0.633  Sum_probs=0.0  Template_Neff=9.100
+
+Q QSYNPP            1 QSYNPP    6 (6)
+Q Consensus         1 qsynpp    6 (6)
+                      |++||+
+T Consensus       197 ~tfnP~  202 (573)
+T 1M8P_A          197 QTRNPM  202 (573)
+T ss_dssp             CCSSCC
+T ss_pred             EcCCCC
+
+
+No 7
+>1NUP_A FKSG76; NAD BIOSYNTHESIS, MITOCHONDRIA, PYRIDINE ADENYLYLTRANSFERASE; HET: SO4, NMN; 1.9A {Homo sapiens} SCOP: c.26.1.3
+Probab=18.37  E-value=1.2e+02  Score=12.44  Aligned_cols=5  Identities=60%  Similarity=1.072  Sum_probs=0.0  Template_Neff=9.100
+
+Q QSYNPP            2 SYNPP    6 (6)
+Q Consensus         2 synpp    6 (6)
+                      |+|||
+T Consensus        14 sFnP~   18 (252)
+T 1NUP_A           14 SFNPI   18 (252)
+T ss_dssp             CCTTC
+T ss_pred             CCCcc
+
+
+No 8
+>1NUT_A FKSG76; NAD BIOSYNTHESIS, MITOCHONDRIA, PYRIDINE ADENYLYLTRANSFERASE; HET: APC, SO4; 1.9A {Homo sapiens} SCOP: c.26.1.3
+Probab=18.37  E-value=1.2e+02  Score=12.44  Aligned_cols=5  Identities=60%  Similarity=1.072  Sum_probs=0.0  Template_Neff=9.100
+
+Q QSYNPP            2 SYNPP    6 (6)
+Q Consensus         2 synpp    6 (6)
+                      |+|||
+T Consensus        14 sFnP~   18 (252)
+T 1NUT_A           14 SFNPI   18 (252)
+T ss_dssp             CCTTC
+T ss_pred             CCCcc
+
+
+No 9
+>1I2D_B ATP SULFURYLASE (EC 2.7.7.4); nucleotide binding, allosteric, hexamer, TRANSFERASE; HET: ADX; 2.81A {Penicillium chrysogenum} SCOP: c.26.1.5, b.122.1.3, c.37.1.15
+Probab=18.24  E-value=1.2e+02  Score=13.96  Aligned_cols=6  Identities=50%  Similarity=0.633  Sum_probs=0.0  Template_Neff=9.100
+
+Q QSYNPP            1 QSYNPP    6 (6)
+Q Consensus         1 qsynpp    6 (6)
+                      |++||+
+T Consensus       197 ~tfnP~  202 (573)
+T 1I2D_B          197 QTRNPM  202 (573)
+T ss_dssp             EESSCC
+T ss_pred             ecCCCC
+
+
+No 10
+>1UTR_A UTEROGLOBIN, 4,4'-BIS([H]METHYLSULFONYL)-2,2',5,5'-TETRACHLOROBIPHENYL; UTEROGLOBIN, CLARA CELL 17 KDA; HET: PCB; NMR {Rattus norvegicus} SCOP: a.101.1.1
+Probab=18.20  E-value=1.2e+02  Score=11.72  Aligned_cols=6  Identities=33%  Similarity=1.038  Sum_probs=0.0  Template_Neff=6.900
+
+Q QSYNPP            1 QSYNPP    6 (6)
+Q Consensus         1 qsynpp    6 (6)
+                      +.||||
+T Consensus        47 ~~y~~~   52 (96)
+T 1UTR_A           47 KPFNPA   52 (96)
+T ss_dssp             GGGCCC
+T ss_pred             hccCCC
+
+

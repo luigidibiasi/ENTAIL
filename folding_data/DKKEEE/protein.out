@@ -1,0 +1,146 @@
+Query         DKKEEE
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 17:33:13 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/DKKEEE/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/DKKEEE/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6YSL_D Motility protein A, Mot  44.1      21 0.00023   15.6   0.0    6    1-6     264-269 (270)
+  2 5HCE_D Complement C5, Compleme  10.5 2.7E+02   0.003   12.3   0.0    6    1-6      74-79  (81)
+  3 2WFF_2 P1; VIRUS, CAPSID, PICO   9.6   3E+02  0.0033   11.6   0.0    6    1-6       1-6   (230)
+  4 6M04_D Volume-regulated anion    9.0 3.3E+02  0.0037   13.8   0.0    6    1-6     277-282 (866)
+  5 6Q1F_1 Major capsid protein, L   8.6 3.5E+02  0.0039   12.0   0.0    5    2-6      22-26  (89)
+  6 6Q1F_M Major capsid protein, L   8.6 3.5E+02  0.0039   12.0   0.0    5    2-6      22-26  (89)
+  7 5VKU_R Tegument protein pp150,   8.4 3.7E+02   0.004   11.5   0.0    5    2-6      12-16  (75)
+  8 1AFE_L ALPHA-THROMBIN, HIRUGEN   7.8   4E+02  0.0045   10.3   0.0    6    1-6      22-27  (36)
+  9 3RM2_L Thrombin Light Chain (E   7.8   4E+02  0.0045   10.3   0.0    6    1-6      22-27  (36)
+ 10 5MM6_L Thrombin light chain (E   7.8   4E+02  0.0045   10.3   0.0    6    1-6      22-27  (36)
+
+No 1
+>6YSL_D Motility protein A, Motility protein; Stator Flagellar rotation ion driven;{Bacillus subtilis (strain 168)}
+Probab=44.11  E-value=21  Score=15.56  Aligned_cols=6  Identities=83%  Similarity=1.105  Sum_probs=0.0  Template_Neff=7.500
+
+Q DKKEEE            1 DKKEEE    6 (6)
+Q Consensus         1 dkkeee    6 (6)
+                      ||||||
+T Consensus       264 ~~~~~~  269 (270)
+T 6YSL_D          264 EKKEEE  269 (270)
+T ss_dssp             ------
+T ss_pred             chhhhc
+Confidence            456654
+
+
+No 2
+>5HCE_D Complement C5, Complement inhibitor, Rhipicephalus; Complement, Inflammation, Inhibitor, Tick, immune; HET: NAG; 3.12A {Homo sapiens}
+Probab=10.49  E-value=2.7e+02  Score=12.27  Aligned_cols=6  Identities=83%  Similarity=1.082  Sum_probs=0.0  Template_Neff=1.300
+
+Q DKKEEE            1 DKKEEE    6 (6)
+Q Consensus         1 dkkeee    6 (6)
+                      |.||||
+T Consensus        74 dnkeee   79 (81)
+T 5HCE_D           74 DNKEEE   79 (81)
+T ss_pred             ccchhc
+
+
+No 3
+>2WFF_2 P1; VIRUS, CAPSID, PICORNAVIRUS; 4.0A {EQUINE RHINITIS A VIRUS}
+Probab=9.62  E-value=3e+02  Score=11.58  Aligned_cols=6  Identities=83%  Similarity=1.010  Sum_probs=0.0  Template_Neff=8.200
+
+Q DKKEEE            1 DKKEEE    6 (6)
+Q Consensus         1 dkkeee    6 (6)
+                      ||+.||
+T Consensus         1 ~~~~~e    6 (230)
+T 2WFF_2            1 DKKTEE    6 (230)
+T ss_pred             CCChhh
+
+
+No 4
+>6M04_D Volume-regulated anion channel subunit LRRC8D; Ion channel, MEMBRANE PROTEIN;{Homo sapiens}
+Probab=8.99  E-value=3.3e+02  Score=13.79  Aligned_cols=6  Identities=67%  Similarity=0.922  Sum_probs=0.0  Template_Neff=8.300
+
+Q DKKEEE            1 DKKEEE    6 (6)
+Q Consensus         1 dkkeee    6 (6)
+                      ||||.|
+T Consensus       277 ~~~~~~  282 (866)
+T 6M04_D          277 DKKDGE  282 (866)
+T ss_dssp             CCSHHH
+T ss_pred             ccchhH
+
+
+No 5
+>6Q1F_1 Major capsid protein, Large structural; beta-herpesvirus, HHV-6B, murine cytomegalovirus, human; 9.0A {Human herpesvirus 6B (strain Z29)}
+Probab=8.60  E-value=3.5e+02  Score=11.97  Aligned_cols=5  Identities=100%  Similarity=1.145  Sum_probs=0.0  Template_Neff=2.400
+
+Q DKKEEE            2 KKEEE    6 (6)
+Q Consensus         2 kkeee    6 (6)
+                      +||||
+T Consensus        22 kKeeE   26 (89)
+T 6Q1F_1           22 KKEEE   26 (89)
+T ss_pred             hhHHH
+
+
+No 6
+>6Q1F_M Major capsid protein, Large structural; beta-herpesvirus, HHV-6B, murine cytomegalovirus, human; 9.0A {Human herpesvirus 6B (strain Z29)}
+Probab=8.60  E-value=3.5e+02  Score=11.97  Aligned_cols=5  Identities=100%  Similarity=1.145  Sum_probs=0.0  Template_Neff=2.400
+
+Q DKKEEE            2 KKEEE    6 (6)
+Q Consensus         2 kkeee    6 (6)
+                      +||||
+T Consensus        22 kKeeE   26 (89)
+T 6Q1F_M           22 KKEEE   26 (89)
+T ss_pred             hhHHH
+
+
+No 7
+>5VKU_R Tegument protein pp150, Major capsid; icosahedral, capsid, tegument, Herpesvirus, VIRUS; 3.9A {Human cytomegalovirus (strain AD169)}
+Probab=8.37  E-value=3.7e+02  Score=11.55  Aligned_cols=5  Identities=40%  Similarity=0.714  Sum_probs=0.0  Template_Neff=2.700
+
+Q DKKEEE            2 KKEEE    6 (6)
+Q Consensus         2 kkeee    6 (6)
+                      |||||
+T Consensus        12 kkeEe   16 (75)
+T 5VKU_R           12 NKRDE   16 (75)
+T ss_pred             chHHH
+
+
+No 8
+>1AFE_L ALPHA-THROMBIN, HIRUGEN, 2-[N'-(4-AMINO-BUTYL)-HYDRAZINOCARBONYL]-PYRROLIDINE-1-CARBOXYLIC ACID BENZYL; COMPLEX (SERINE PROTEASE-INHIBITOR), BLOOD COAGULATION; HET: ALZ, TYS, NAG; 2.0A {Homo sapiens} SCOP: b.47.1.2
+Probab=7.77  E-value=4e+02  Score=10.31  Aligned_cols=6  Identities=67%  Similarity=0.866  Sum_probs=0.0  Template_Neff=1.600
+
+Q DKKEEE            1 DKKEEE    6 (6)
+Q Consensus         1 dkkeee    6 (6)
+                      |++|.|
+T Consensus        22 D~~E~E   27 (36)
+T 1AFE_L           22 DKTERE   27 (36)
+T ss_dssp             CTTHHH
+T ss_pred             ChhHHH
+
+
+No 9
+>3RM2_L Thrombin Light Chain (E.C.3.4.21.5), Thrombin; Serine Protease, Kringle, Hydrolase, Blood; HET: GOL, S00, TYS, NAG; 1.23A {Homo sapiens}
+Probab=7.77  E-value=4e+02  Score=10.31  Aligned_cols=6  Identities=67%  Similarity=0.866  Sum_probs=0.0  Template_Neff=1.600
+
+Q DKKEEE            1 DKKEEE    6 (6)
+Q Consensus         1 dkkeee    6 (6)
+                      |++|.|
+T Consensus        22 D~~E~E   27 (36)
+T 3RM2_L           22 DKTERE   27 (36)
+T ss_dssp             CSSHHH
+T ss_pred             ChhHHH
+
+
+No 10
+>5MM6_L Thrombin light chain (E.C.3.4.21.5), thrombin; COAGULATION, BLOOD CLOTTING, CONVERTION OF; HET: GOL, 32U, TYS; 1.29A {Homo sapiens}
+Probab=7.77  E-value=4e+02  Score=10.31  Aligned_cols=6  Identities=67%  Similarity=0.866  Sum_probs=0.0  Template_Neff=1.600
+
+Q DKKEEE            1 DKKEEE    6 (6)
+Q Consensus         1 dkkeee    6 (6)
+                      |++|.|
+T Consensus        22 D~~E~E   27 (36)
+T 5MM6_L           22 DKTERE   27 (36)
+T ss_dssp             CSSHHH
+T ss_pred             ChhHHH
+
+

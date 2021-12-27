@@ -1,0 +1,150 @@
+Query         NFGSVQ
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 23:40:05 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NFGSVQ/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NFGSVQ/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6DFK_I Proteasome activator 28  54.2      11 0.00013   17.2   0.0    6    1-6     176-182 (280)
+  2 6OIT_G Protein RDM1, Protein D  16.8 1.3E+02  0.0015   12.7   0.0    4    2-5      18-21  (71)
+  3 6AF0_C Ctr9 protein, Paf1 prot  15.4 1.5E+02  0.0017   11.8   0.0    6    1-6      40-45  (74)
+  4 7N0I_G Nucleoprotein, Single-d  14.4 1.7E+02  0.0019   12.4   0.0    4    1-4      17-20  (96)
+  5 1ZVB_C E2 glycoprotein; SARS c  14.0 1.8E+02   0.002   10.8   0.0    5    1-5      12-16  (34)
+  6 2CA1_A NUCLEOCAPSID PROTEIN; N  13.8 1.8E+02   0.002   12.6   0.0    4    1-4      37-40  (111)
+  7 2CA1_B NUCLEOCAPSID PROTEIN; N  13.8 1.8E+02   0.002   12.6   0.0    4    1-4      37-40  (111)
+  8 2GIB_B Nucleocapsid protein; S  13.8 1.8E+02   0.002   12.5   0.0    4    1-4      19-22  (103)
+  9 1WOT_A putative minimal nucleo  13.7 1.8E+02   0.002    9.7   0.0    4    2-5      31-34  (98)
+ 10 1NO5_B Hypothetical protein HI  13.6 1.9E+02  0.0021   10.1   0.0    4    2-5      33-36  (114)
+
+No 1
+>6DFK_I Proteasome activator 28 subunit beta; 11S proteasome subunit, 11S regulatory; HET: SO4; 3.1A {Plasmodium falciparum}
+Probab=54.21  E-value=11  Score=17.15  Aligned_cols=6  Identities=67%  Similarity=1.309  Sum_probs=3.3  Template_Neff=6.200
+
+Q NFGSVQ            1 NFG-SVQ    6 (6)
+Q Consensus         1 nfg-svq    6 (6)
+                      ||| +||
+T Consensus       176 NFGV~VQ  182 (280)
+T 6DFK_I          176 NFGVGIQ  182 (280)
+T ss_pred             chHHHHH
+Confidence            576 444
+
+
+No 2
+>6OIT_G Protein RDM1, Protein DEFECTIVE IN; SMC-hinge, Coiled-coil, SNF2, RNA-directed DNA; 3.5A {Arabidopsis thaliana}
+Probab=16.80  E-value=1.3e+02  Score=12.71  Aligned_cols=4  Identities=100%  Similarity=1.597  Sum_probs=0.0  Template_Neff=2.600
+
+Q NFGSVQ            2 FGSV    5 (6)
+Q Consensus         2 fgsv    5 (6)
+                      ||||
+T Consensus        18 YGSV   21 (71)
+T 6OIT_G           18 FGSV   21 (71)
+T ss_dssp             TTTT
+T ss_pred             CCch
+
+
+No 3
+>6AF0_C Ctr9 protein, Paf1 protein, Cdc73; Transcription elongation  Paf1 ; 2.88A {Myceliophthora thermophila (strain ATCC 42464 / BCRC 31852 / DSM 1799)}
+Probab=15.35  E-value=1.5e+02  Score=11.81  Aligned_cols=6  Identities=33%  Similarity=0.794  Sum_probs=0.0  Template_Neff=4.900
+
+Q NFGSVQ            1 NFGSVQ    6 (6)
+Q Consensus         1 nfgsvq    6 (6)
+                      ||++++
+T Consensus        40 dFssvr   45 (74)
+T 6AF0_C           40 DFSHVR   45 (74)
+T ss_dssp             CCSHHH
+T ss_pred             chHHHH
+
+
+No 4
+>7N0I_G Nucleoprotein, Single-domain antibody E2; SARS-CoV-2, nanobody, nucleocapsid, VIRUS, VIRAL; 2.2A {Severe acute respiratory syndrome coronavirus 2}
+Probab=14.41  E-value=1.7e+02  Score=12.43  Aligned_cols=4  Identities=75%  Similarity=1.489  Sum_probs=0.0  Template_Neff=4.300
+
+Q NFGSVQ            1 NFGS    4 (6)
+Q Consensus         1 nfgs    4 (6)
+                      |||+
+T Consensus        17 NfGd   20 (96)
+T 7N0I_G           17 NFGD   20 (96)
+T ss_dssp             CBCC
+T ss_pred             ccCC
+
+
+No 5
+>1ZVB_C E2 glycoprotein; SARS coronavirus, membrane fusion, S2; 1.7A {SARS coronavirus} SCOP: h.3.3.1
+Probab=13.99  E-value=1.8e+02  Score=10.81  Aligned_cols=5  Identities=60%  Similarity=1.438  Sum_probs=0.0  Template_Neff=3.100
+
+Q NFGSVQ            1 NFGSV    5 (6)
+Q Consensus         1 nfgsv    5 (6)
+                      |||.+
+T Consensus        12 nF~aI   16 (34)
+T 1ZVB_C           12 NFGAI   16 (34)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 6
+>2CA1_A NUCLEOCAPSID PROTEIN; NUCLEOCAPSID PROTEIN, VIRAL NUCLEOPROTEIN, VIRAL; 2.6A {AVIAN INFECTIOUS BRONCHITIS VIRUS} SCOP: d.254.1.2
+Probab=13.83  E-value=1.8e+02  Score=12.59  Aligned_cols=4  Identities=75%  Similarity=1.489  Sum_probs=0.0  Template_Neff=4.400
+
+Q NFGSVQ            1 NFGS    4 (6)
+Q Consensus         1 nfgs    4 (6)
+                      |||+
+T Consensus        37 NfGd   40 (111)
+T 2CA1_A           37 NFGD   40 (111)
+T ss_dssp             CBCC
+T ss_pred             CcCC
+
+
+No 7
+>2CA1_B NUCLEOCAPSID PROTEIN; NUCLEOCAPSID PROTEIN, VIRAL NUCLEOPROTEIN, VIRAL; 2.6A {AVIAN INFECTIOUS BRONCHITIS VIRUS} SCOP: d.254.1.2
+Probab=13.83  E-value=1.8e+02  Score=12.59  Aligned_cols=4  Identities=75%  Similarity=1.489  Sum_probs=0.0  Template_Neff=4.400
+
+Q NFGSVQ            1 NFGS    4 (6)
+Q Consensus         1 nfgs    4 (6)
+                      |||+
+T Consensus        37 NfGd   40 (111)
+T 2CA1_B           37 NFGD   40 (111)
+T ss_dssp             CCCC
+T ss_pred             CcCC
+
+
+No 8
+>2GIB_B Nucleocapsid protein; SARS, nucleocapsid, dimer, VIRAL PROTEIN; 1.75A {SARS coronavirus} SCOP: d.254.1.2
+Probab=13.79  E-value=1.8e+02  Score=12.52  Aligned_cols=4  Identities=75%  Similarity=1.489  Sum_probs=0.0  Template_Neff=4.200
+
+Q NFGSVQ            1 NFGS    4 (6)
+Q Consensus         1 nfgs    4 (6)
+                      |||+
+T Consensus        19 NFGd   22 (103)
+T 2GIB_B           19 NFGD   22 (103)
+T ss_dssp             CBCC
+T ss_pred             ccCC
+
+
+No 9
+>1WOT_A putative minimal nucleotidyltransferase; ALPHA AND BETA, STRUCTURAL GENOMICS; NMR {Thermus thermophilus} SCOP: d.218.1.5
+Probab=13.74  E-value=1.8e+02  Score=9.75  Aligned_cols=4  Identities=100%  Similarity=1.597  Sum_probs=0.0  Template_Neff=10.000
+
+Q NFGSVQ            2 FGSV    5 (6)
+Q Consensus         2 fgsv    5 (6)
+                      |||.
+T Consensus        31 ~GS~   34 (98)
+T 1WOT_A           31 FGSV   34 (98)
+T ss_dssp             CSHH
+T ss_pred             Eehh
+
+
+No 10
+>1NO5_B Hypothetical protein HI0073; HI0073, HI0074, structural genomics, nucleotidyl; HET: SO4; 1.8A {Haemophilus influenzae} SCOP: d.218.1.5
+Probab=13.57  E-value=1.9e+02  Score=10.05  Aligned_cols=4  Identities=75%  Similarity=1.149  Sum_probs=0.0  Template_Neff=9.900
+
+Q NFGSVQ            2 FGSV    5 (6)
+Q Consensus         2 fgsv    5 (6)
+                      |||+
+T Consensus        33 fGS~   36 (114)
+T 1NO5_B           33 FGSR   36 (114)
+T ss_dssp             ESTT
+T ss_pred             Eece
+
+

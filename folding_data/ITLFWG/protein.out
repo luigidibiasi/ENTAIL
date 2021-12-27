@@ -1,0 +1,150 @@
+Query         ITLFWG
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 09:29:23 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/ITLFWG/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/ITLFWG/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 1XB9_A Nucleophosmin; NO38, dr  19.6 1.1E+02  0.0012   12.0   0.0    3    4-6       9-11  (114)
+  2 1XE0_E Nucleophosmin; NO38, Dr  19.6 1.1E+02  0.0012   12.0   0.0    3    4-6       9-11  (114)
+  3 1F20_A NITRIC-OXIDE SYNTHASE (  19.6 1.1E+02  0.0012   13.5   0.0    6    1-6     315-320 (435)
+  4 4N8M_B Nucleophosmin; histone   19.5 1.1E+02  0.0012   12.3   0.0    5    2-6      19-23  (133)
+  5 4N8M_D Nucleophosmin; histone   19.5 1.1E+02  0.0012   12.3   0.0    5    2-6      19-23  (133)
+  6 4FIW_A Putative glutaredoxin N  19.2 1.1E+02  0.0012    8.3   0.0    6    1-6       3-8   (77)
+  7 4DQK_A Bifunctional P-450/NADP  19.2 1.1E+02  0.0012   13.2   0.0    6    1-6     273-278 (391)
+  8 6J2Z_B Peptidyl-prolyl cis-tra  19.0 1.1E+02  0.0012   11.6   0.0    3    4-6       3-5   (108)
+  9 1NLQ_A Nucleoplasmin-like prot  18.9 1.1E+02  0.0012   11.6   0.0    3    4-6       6-8   (108)
+ 10 2BPO_A NADPH-CYTOCHROM P450 RE  18.8 1.1E+02  0.0012   14.4   0.0    6    1-6     565-570 (682)
+
+No 1
+>1XB9_A Nucleophosmin; NO38, drosophila Nucleoplasmin-like protein (dNLP); 1.9A {Xenopus laevis} SCOP: b.121.3.1
+Probab=19.58  E-value=1.1e+02  Score=12.04  Aligned_cols=3  Identities=33%  Similarity=1.353  Sum_probs=0.0  Template_Neff=7.200
+
+Q ITLFWG            4 FWG    6 (6)
+Q Consensus         4 fwg    6 (6)
+                      |||
+T Consensus         9 fwG   11 (114)
+T 1XB9_A            9 LFG   11 (114)
+T ss_dssp             EEE
+T ss_pred             eEE
+
+
+No 2
+>1XE0_E Nucleophosmin; NO38, Drosophila Nucleoplasmin-Like Protein (dNLP); 1.7A {Xenopus laevis} SCOP: b.121.3.1
+Probab=19.58  E-value=1.1e+02  Score=12.04  Aligned_cols=3  Identities=33%  Similarity=1.353  Sum_probs=0.0  Template_Neff=7.200
+
+Q ITLFWG            4 FWG    6 (6)
+Q Consensus         4 fwg    6 (6)
+                      |||
+T Consensus         9 fwG   11 (114)
+T 1XE0_E            9 LFG   11 (114)
+T ss_dssp             EEE
+T ss_pred             eEE
+
+
+No 3
+>1F20_A NITRIC-OXIDE SYNTHASE (E.C.1.14.13.39); Nitric-xoide synthase, reductase domain, FAD; HET: NAP, GOL, FAD; 1.9A {Rattus norvegicus} SCOP: b.43.4.1, c.25.1.4
+Probab=19.55  E-value=1.1e+02  Score=13.53  Aligned_cols=6  Identities=33%  Similarity=0.933  Sum_probs=0.0  Template_Neff=9.200
+
+Q ITLFWG            1 ITLFWG    6 (6)
+Q Consensus         1 itlfwg    6 (6)
+                      ++||||
+T Consensus       315 i~L~~g  320 (435)
+T 1F20_A          315 MVLVFG  320 (435)
+T ss_dssp             EEEEEE
+T ss_pred             EEEEEe
+
+
+No 4
+>4N8M_B Nucleophosmin; histone chaperone, nucleolar protein, phosphoprotein; 1.802A {Mus musculus}
+Probab=19.55  E-value=1.1e+02  Score=12.33  Aligned_cols=5  Identities=20%  Similarity=0.846  Sum_probs=0.0  Template_Neff=7.200
+
+Q ITLFWG            2 TLFWG    6 (6)
+Q Consensus         2 tlfwg    6 (6)
+                      ..|||
+T Consensus        19 ~~FwG   23 (133)
+T 4N8M_B           19 NYLFG   23 (133)
+T ss_dssp             EEEEE
+T ss_pred             cceEE
+
+
+No 5
+>4N8M_D Nucleophosmin; histone chaperone, nucleolar protein, phosphoprotein; 1.802A {Mus musculus}
+Probab=19.55  E-value=1.1e+02  Score=12.33  Aligned_cols=5  Identities=20%  Similarity=0.846  Sum_probs=0.0  Template_Neff=7.200
+
+Q ITLFWG            2 TLFWG    6 (6)
+Q Consensus         2 tlfwg    6 (6)
+                      ..|||
+T Consensus        19 ~~FwG   23 (133)
+T 4N8M_D           19 NYLFG   23 (133)
+T ss_dssp             EEEEE
+T ss_pred             cceEE
+
+
+No 6
+>4FIW_A Putative glutaredoxin NrdH (E.C.1.20.4.3); Thioredoxin fold, OXIDOREDUCTASE; HET: GOL; 1.5011A {Corynebacterium glutamicum}
+Probab=19.24  E-value=1.1e+02  Score=8.31  Aligned_cols=6  Identities=33%  Similarity=0.490  Sum_probs=0.0  Template_Neff=12.800
+
+Q ITLFWG            1 ITLFWG    6 (6)
+Q Consensus         1 itlfwg    6 (6)
+                      +.+||.
+T Consensus         3 ~~~~~~    8 (77)
+T 4FIW_A            3 ITVYTK    8 (77)
+T ss_dssp             EEEEEC
+T ss_pred             EEEEeC
+
+
+No 7
+>4DQK_A Bifunctional P-450/NADPH-P450 reductase (E.C.1.14.14.1, 1.6.2.4); Rossmann Fold, redox partner to; HET: PG4, FAD, SO4; 2.4A {Bacillus megaterium}
+Probab=19.21  E-value=1.1e+02  Score=13.19  Aligned_cols=6  Identities=33%  Similarity=1.010  Sum_probs=0.0  Template_Neff=9.400
+
+Q ITLFWG            1 ITLFWG    6 (6)
+Q Consensus         1 itlfwg    6 (6)
+                      ++||||
+T Consensus       273 ~~L~~g  278 (391)
+T 4DQK_A          273 AHLYFG  278 (391)
+T ss_dssp             EEEEEE
+T ss_pred             EEEEEe
+
+
+No 8
+>6J2Z_B Peptidyl-prolyl cis-trans isomerase FKBP53 (E.C.5.2.1.8); FKBP, FKBP-nucleoplasmin, histone chaperone, CHAPERONE; 2.4A {Arabidopsis thaliana}
+Probab=19.00  E-value=1.1e+02  Score=11.63  Aligned_cols=3  Identities=100%  Similarity=3.081  Sum_probs=0.0  Template_Neff=7.700
+
+Q ITLFWG            4 FWG    6 (6)
+Q Consensus         4 fwg    6 (6)
+                      |||
+T Consensus         3 Fwg    5 (108)
+T 6J2Z_B            3 FWG    5 (108)
+T ss_dssp             CEE
+T ss_pred             eee
+
+
+No 9
+>1NLQ_A Nucleoplasmin-like protein; dNLP, Nucleoplasmin, chaperone, histone binding; 1.5A {Drosophila melanogaster} SCOP: b.121.3.1
+Probab=18.89  E-value=1.1e+02  Score=11.62  Aligned_cols=3  Identities=67%  Similarity=1.962  Sum_probs=0.0  Template_Neff=7.700
+
+Q ITLFWG            4 FWG    6 (6)
+Q Consensus         4 fwg    6 (6)
+                      |||
+T Consensus         6 Fwg    8 (108)
+T 1NLQ_A            6 FYG    8 (108)
+T ss_dssp             EEE
+T ss_pred             eEE
+
+
+No 10
+>2BPO_A NADPH-CYTOCHROM P450 REDUCTASE (E.C.1.6.2.4); REDUCTASE, NADPH-CYTOCHROME P450 REDUCTASE, CPR; HET: FAD, NAP, SO4, FMN; 2.9A {SACCHAROMYCES CEREVISIAE}
+Probab=18.84  E-value=1.1e+02  Score=14.41  Aligned_cols=6  Identities=50%  Similarity=1.049  Sum_probs=0.0  Template_Neff=9.000
+
+Q ITLFWG            1 ITLFWG    6 (6)
+Q Consensus         1 itlfwg    6 (6)
+                      ++||||
+T Consensus       565 i~L~~g  570 (682)
+T 2BPO_A          565 HILFYG  570 (682)
+T ss_dssp             EEEEEE
+T ss_pred             EEEEEE
+
+

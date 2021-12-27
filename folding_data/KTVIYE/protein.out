@@ -1,0 +1,151 @@
+Query         KTVIYE
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 12:43:25 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/KTVIYE/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/KTVIYE/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2B8I_A PAS factor; Four helix   34.1      39 0.00043   14.5   0.0    6    1-6       6-11  (77)
+  2 1ZJA_A Trehalulose synthase Mu   8.9 3.4E+02  0.0037   12.2   0.0    6    1-6       9-14  (557)
+  3 5LY0_B LOB family transfactor    8.8 3.4E+02  0.0038   11.6   0.0    6    1-6      69-74  (131)
+  4 1BCP_L PERTUSSIS TOXIN, ADENOS   8.1 3.8E+02  0.0042   12.2   0.0    5    2-6       4-8   (99)
+  5 1PTO_F PERTUSSIS TOXIN; TOXIN;   8.0 3.8E+02  0.0043   12.1   0.0    5    2-6       3-7   (98)
+  6 4H2C_A Sucrose isomerase (E.C.   7.9   4E+02  0.0044   11.9   0.0    6    1-6       9-14  (557)
+  7 5X7U_A Trehalose synthase; tre   7.6 4.2E+02  0.0046   11.8   0.0    6    1-6      10-15  (549)
+  8 2LU1_A Subtilase; Sub2 inhibit   7.5 4.2E+02  0.0047   12.7   0.0    6    1-6      47-52  (149)
+  9 2VUY_B GLYCOGEN OPERON PROTEIN   7.4 4.3E+02  0.0048   12.6   0.0    6    1-6     173-178 (718)
+ 10 4GKL_A Alpha-amylase (E.C.3.2.   7.2 4.5E+02   0.005   11.3   0.0    6    1-6       5-10  (422)
+
+No 1
+>2B8I_A PAS factor; Four helix bundle, LIPID BINDING; 1.8A {Vibrio vulnificus}
+Probab=34.08  E-value=39  Score=14.54  Aligned_cols=6  Identities=67%  Similarity=1.165  Sum_probs=3.8  Template_Neff=2.200
+
+Q KTVIYE            1 KTVIYE    6 (6)
+Q Consensus         1 ktviye    6 (6)
+                      |++|||
+T Consensus         6 k~LIyd   11 (77)
+T 2B8I_A            6 KALIYE   11 (77)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            566775
+
+
+No 2
+>1ZJA_A Trehalulose synthase MutB  (E.C.5.4.99.11); trehalulose synthase, sucrose isomerase, alpha-amylase; HET: TRS; 1.6A {Pseudomonas mesoacidophila}
+Probab=8.88  E-value=3.4e+02  Score=12.18  Aligned_cols=6  Identities=33%  Similarity=0.811  Sum_probs=0.0  Template_Neff=9.900
+
+Q KTVIYE            1 KTVIYE    6 (6)
+Q Consensus         1 ktviye    6 (6)
+                      +.+|||
+T Consensus         9 ~~~iY~   14 (557)
+T 1ZJA_A            9 SAVFYQ   14 (557)
+T ss_dssp             HCCEEE
+T ss_pred             cCcEEE
+
+
+No 3
+>5LY0_B LOB family transfactor Ramosa2.1; LOB domain, Ramosa2, Dimerization, Transcription; 1.877A {Triticum turgidum}
+Probab=8.77  E-value=3.4e+02  Score=11.60  Aligned_cols=6  Identities=33%  Similarity=0.778  Sum_probs=0.0  Template_Neff=5.600
+
+Q KTVIYE            1 KTVIYE    6 (6)
+Q Consensus         1 ktviye    6 (6)
+                      .+++||
+T Consensus        69 ~SliyE   74 (131)
+T 5LY0_B           69 SSLAYE   74 (131)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 4
+>1BCP_L PERTUSSIS TOXIN, ADENOSINE-5'-TRIPHOSPHATE; TOXIN, ADP-RIBOSYLTRANSFERASE, TRANSFERASE, WHOOPING COUGH; HET: ATP; 2.7A {Bordetella pertussis} SCOP: b.40.2.1
+Probab=8.10  E-value=3.8e+02  Score=12.16  Aligned_cols=5  Identities=40%  Similarity=0.820  Sum_probs=0.0  Template_Neff=1.700
+
+Q KTVIYE            2 TVIYE    6 (6)
+Q Consensus         2 tviye    6 (6)
+                      ++|||
+T Consensus         4 ~~iY~    8 (99)
+T 1BCP_L            4 THLYK    8 (99)
+T ss_dssp             CCCEE
+T ss_pred             eeeec
+
+
+No 5
+>1PTO_F PERTUSSIS TOXIN; TOXIN; HET: GAL, SIA; 3.5A {Bordetella pertussis} SCOP: b.40.2.1
+Probab=8.05  E-value=3.8e+02  Score=12.13  Aligned_cols=5  Identities=40%  Similarity=0.820  Sum_probs=0.0  Template_Neff=1.700
+
+Q KTVIYE            2 TVIYE    6 (6)
+Q Consensus         2 tviye    6 (6)
+                      ++|||
+T Consensus         3 ~~iY~    7 (98)
+T 1PTO_F            3 THLYK    7 (98)
+T ss_dssp             CEEEE
+T ss_pred             eeeec
+
+
+No 6
+>4H2C_A Sucrose isomerase (E.C.5.4.11.99); MUTANT ENZYME, TIM-BARREL, (BETA/ALPHA)8, SUCROSE; HET: GOL; 1.7A {Rhizobium}
+Probab=7.88  E-value=4e+02  Score=11.89  Aligned_cols=6  Identities=33%  Similarity=0.811  Sum_probs=0.0  Template_Neff=10.100
+
+Q KTVIYE            1 KTVIYE    6 (6)
+Q Consensus         1 ktviye    6 (6)
+                      +.+|||
+T Consensus         9 ~~~iY~   14 (557)
+T 4H2C_A            9 SAVFYQ   14 (557)
+T ss_dssp             SCCEEE
+T ss_pred             cCcEEE
+
+
+No 7
+>5X7U_A Trehalose synthase; trehalose synathase, GH13 family, complex; 2.501A {Thermobaculum terrenum}
+Probab=7.58  E-value=4.2e+02  Score=11.80  Aligned_cols=6  Identities=50%  Similarity=1.088  Sum_probs=0.0  Template_Neff=10.100
+
+Q KTVIYE            1 KTVIYE    6 (6)
+Q Consensus         1 ktviye    6 (6)
+                      +.||||
+T Consensus        10 ~~v~Y~   15 (549)
+T 5X7U_A           10 DAIIYE   15 (549)
+T ss_dssp             GCCEEE
+T ss_pred             cCcEEE
+
+
+No 8
+>2LU1_A Subtilase; Sub2 inhibitor prodomain, HYDROLASE; NMR {Plasmodium falciparum}
+Probab=7.53  E-value=4.2e+02  Score=12.73  Aligned_cols=6  Identities=50%  Similarity=0.589  Sum_probs=0.0  Template_Neff=1.900
+
+Q KTVIYE            1 KTVIYE    6 (6)
+Q Consensus         1 ktviye    6 (6)
+                      |+||.|
+T Consensus        47 k~VI~~   52 (149)
+T 2LU1_A           47 KNVINN   52 (149)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 9
+>2VUY_B GLYCOGEN OPERON PROTEIN GLGX (E.C.3.2.1.-); HYDROLASE, GLYCOSIDASE, GLYCOSYL HYDROLASE; 3.0A {SULFOLOBUS SOLFATARICUS}
+Probab=7.40  E-value=4.3e+02  Score=12.57  Aligned_cols=6  Identities=83%  Similarity=1.209  Sum_probs=0.0  Template_Neff=9.400
+
+Q KTVIYE            1 KTVIYE    6 (6)
+Q Consensus         1 ktviye    6 (6)
+                      ..||||
+T Consensus       173 ~~viYe  178 (718)
+T 2VUY_B          173 DTVIYE  178 (718)
+T ss_dssp             TCCEEE
+T ss_pred             hCeEEE
+
+
+No 10
+>4GKL_A Alpha-amylase (E.C.3.2.1.1); (alpha/beta)8 barrel, maltogenic alpha-amylase, HYDROLASE; 2.4A {Thermotoga neapolitana}
+Probab=7.17  E-value=4.5e+02  Score=11.35  Aligned_cols=6  Identities=50%  Similarity=0.999  Sum_probs=0.0  Template_Neff=9.900
+
+Q KTVIYE            1 KTVIYE    6 (6)
+Q Consensus         1 ktviye    6 (6)
+                      +.+|||
+T Consensus         5 ~~~iY~   10 (422)
+T 4GKL_A            5 NLIIYE   10 (422)
+T ss_dssp             GCCEEE
+T ss_pred             ccEEEE
+
+

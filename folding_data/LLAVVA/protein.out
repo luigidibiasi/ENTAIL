@@ -1,0 +1,150 @@
+Query         LLAVVA
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 19:07:53 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LLAVVA/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LLAVVA/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6SAN_A Complement C5, Putative  71.0     3.4 3.7E-05   14.5   0.0    6    1-6       6-11  (137)
+  2 6SA5_A Complement C5, Putative  69.9     3.7 4.1E-05   14.5   0.0    6    1-6       6-11  (137)
+  3 4V9G_AI Light-harvesting prote   4.5 8.1E+02   0.009    9.2   0.0    6    1-6      33-38  (49)
+  4 6Q53_B light-harvesting protei   4.1   9E+02    0.01    9.1   0.0    6    1-6      29-34  (45)
+  5 7C9R_R Photosynthetic reaction   4.0 9.5E+02   0.011    9.1   0.0    6    1-6      30-35  (46)
+  6 6Z5R_6 Light-harvesting comple   3.9 9.6E+02   0.011    9.2   0.0    6    1-6      30-35  (52)
+  7 6B3O_C Spike glycoprotein; Cor   3.9 9.8E+02   0.011   13.7   0.0    6    1-6       6-11  (605)
+  8 5Y5S_B Photosynthetic reaction   3.8 9.9E+02   0.011    9.1   0.0    6    1-6      31-36  (47)
+  9 5YQ7_G Beta subunit of light-h   3.8   1E+03   0.011    9.4   0.0    6    1-6      38-43  (55)
+ 10 6ET5_Z Photosynthetic reaction   3.6 1.1E+03   0.012    9.2   0.0    6    1-6      32-37  (56)
+
+No 1
+>6SAN_A Complement C5, Putative 8.9 kDa; Scavenger receptor cysteine-rich, pattern recognition; HET: GOL; 1.36A {Homo sapiens}
+Probab=70.96  E-value=3.4  Score=14.54  Aligned_cols=6  Identities=100%  Similarity=1.088  Sum_probs=0.0  Template_Neff=10.300
+
+Q LLAVVA            1 LLAVVA    6 (6)
+Q Consensus         1 llavva    6 (6)
+                      ||||||
+T Consensus         6 ~~~~~~   11 (137)
+T 6SAN_A            6 LLAVVA   11 (137)
+T ss_dssp             ------
+T ss_pred             HHHHHH
+Confidence            456654
+
+
+No 2
+>6SA5_A Complement C5, Putative 8.9 kDa; Scavenger receptor cysteine-rich, pattern recognition; HET: GOL; 1.29A {Homo sapiens}
+Probab=69.91  E-value=3.7  Score=14.50  Aligned_cols=6  Identities=100%  Similarity=1.088  Sum_probs=0.0  Template_Neff=10.200
+
+Q LLAVVA            1 LLAVVA    6 (6)
+Q Consensus         1 llavva    6 (6)
+                      ||||||
+T Consensus         6 ~~~~~~   11 (137)
+T 6SA5_A            6 LLAVVA   11 (137)
+T ss_dssp             ------
+T ss_pred             HHHHHH
+Confidence            456654
+
+
+No 3
+>4V9G_AI Light-harvesting protein B-875 alpha chain; photosynthesis, antenna complex LH1, Reaction; HET: BPH, PO4, U10, SPO, BCL; 7.78A {Rhodobacter sphaeroides}
+Probab=4.51  E-value=8.1e+02  Score=9.23  Aligned_cols=6  Identities=50%  Similarity=0.661  Sum_probs=0.0  Template_Neff=4.600
+
+Q LLAVVA            1 LLAVVA    6 (6)
+Q Consensus         1 llavva    6 (6)
+                      .+|++|
+T Consensus        33 ~IA~vA   38 (49)
+T 4V9G_AI          33 AVAIVA   38 (49)
+T ss_pred             HHHHHH
+
+
+No 4
+>6Q53_B light-harvesting protein subunit alpha, Light-harvesting; LIGHT HARVESTING COMPLEX, BACTERIOCHLOROPHYLL, DEXTER; HET: BCL, LYC, DET; 3.701A {Ectothiorhodospira haloalkaliphila}
+Probab=4.14  E-value=9e+02  Score=9.13  Aligned_cols=6  Identities=50%  Similarity=0.600  Sum_probs=0.0  Template_Neff=4.100
+
+Q LLAVVA            1 LLAVVA    6 (6)
+Q Consensus         1 llavva    6 (6)
+                      .+|++|
+T Consensus        29 ~IA~~A   34 (45)
+T 6Q53_B           29 VLAAAA   34 (45)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 5
+>7C9R_R Photosynthetic reaction center cytochrome c; LH1-RC, PHOTOSYNTHESIS, PURPLE BACTERIA; HET: PGV, CDL, DGA, CA, BPH, LMT, MQ8, H4X, 8K6, UQ8, HEM, BCL; 2.82A {Thiorhodovibrio sp. 970}
+Probab=3.97  E-value=9.5e+02  Score=9.08  Aligned_cols=6  Identities=50%  Similarity=0.407  Sum_probs=0.0  Template_Neff=4.200
+
+Q LLAVVA            1 LLAVVA    6 (6)
+Q Consensus         1 llavva    6 (6)
+                      .+|++|
+T Consensus        30 ~IA~~A   35 (46)
+T 7C9R_R           30 GLVVLA   35 (46)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 6
+>6Z5R_6 Light-harvesting complex 1 alpha chain; Reaction center, Light harvesting, Protein; HET: LMT, FME, BCL, 6PL, U10, CDL, QAK, PGT, BPH, CRT;{Rhodopseudomonas palustris (strain ATCC BAA-98 / CGA009)}
+Probab=3.93  E-value=9.6e+02  Score=9.17  Aligned_cols=6  Identities=67%  Similarity=0.844  Sum_probs=0.0  Template_Neff=4.500
+
+Q LLAVVA            1 LLAVVA    6 (6)
+Q Consensus         1 llavva    6 (6)
+                      .+|++|
+T Consensus        30 ~IA~vA   35 (52)
+T 6Z5R_6           30 VVAVVA   35 (52)
+T ss_pred             HHHHHH
+
+
+No 7
+>6B3O_C Spike glycoprotein; Coronavirus, membrane fusion, MHV, SARS; 4.1A {Murine coronavirus}
+Probab=3.88  E-value=9.8e+02  Score=13.69  Aligned_cols=6  Identities=100%  Similarity=1.088  Sum_probs=0.0  Template_Neff=3.200
+
+Q LLAVVA            1 LLAVVA    6 (6)
+Q Consensus         1 llavva    6 (6)
+                      ||||||
+T Consensus         6 ~~~~~~   11 (605)
+T 6B3O_C            6 LLAVVA   11 (605)
+T ss_dssp             ------
+T ss_pred             HHHHHH
+
+
+No 8
+>5Y5S_B Photosynthetic reaction center cytochrome c; LH1-RC, photosynthesis, purple bacteria; HET: PGV, CDL, LMT, BPH, UNL, CA, CRT, MQ8, PEF, HEC, SO4, GOL, UQ8, BCL, LDA; 1.9A {Thermochromatium tepidum}
+Probab=3.84  E-value=9.9e+02  Score=9.10  Aligned_cols=6  Identities=50%  Similarity=0.479  Sum_probs=0.0  Template_Neff=4.100
+
+Q LLAVVA            1 LLAVVA    6 (6)
+Q Consensus         1 llavva    6 (6)
+                      .+|++|
+T Consensus        31 ~IA~~A   36 (47)
+T 5Y5S_B           31 GLVVIA   36 (47)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 9
+>5YQ7_G Beta subunit of light-harvesting 1; Photosynthetic core complex, PHOTOSYNTHESIS; HET: HEM, BCL, BPH, MQE, KGD;{Roseiflexus castenholzii}
+Probab=3.75  E-value=1e+03  Score=9.43  Aligned_cols=6  Identities=50%  Similarity=0.938  Sum_probs=0.0  Template_Neff=3.800
+
+Q LLAVVA            1 LLAVVA    6 (6)
+Q Consensus         1 llavva    6 (6)
+                      .+|++|
+T Consensus        38 ~IAvvA   43 (55)
+T 5YQ7_G           38 IIAVIA   43 (55)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 10
+>6ET5_Z Photosynthetic reaction center cytochrome c; Reaction centre light harvesting complex; HET: HEM, NS0, UQ9, FME, LDA, NS5, MQ9, BPB, BCB, SO4; 3.0A {Blastochloris viridis}
+Probab=3.65  E-value=1.1e+03  Score=9.22  Aligned_cols=6  Identities=33%  Similarity=0.362  Sum_probs=0.0  Template_Neff=4.400
+
+Q LLAVVA            1 LLAVVA    6 (6)
+Q Consensus         1 llavva    6 (6)
+                      .+|++|
+T Consensus        32 ~IA~vA   37 (56)
+T 6ET5_Z           32 ATAVIV   37 (56)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+

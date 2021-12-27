@@ -1,0 +1,151 @@
+Query         RQIVYK
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 12:36:43 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/RQIVYK/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/RQIVYK/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5W78_A Acyloxyacyl hydrolase (  33.1      41 0.00045   13.5   0.0    6    1-6     128-133 (139)
+  2 4Y91_H RNA-binding protein Hfq  12.6 2.1E+02  0.0023   11.7   0.0    6    1-6      57-62  (95)
+  3 4MML_A Protein hfq; LSM fold,   12.5 2.1E+02  0.0023   11.3   0.0    5    2-6      52-56  (82)
+  4 3QUI_A Protein hfq; LSM, RNA-b  12.5 2.1E+02  0.0023   11.3   0.0    6    1-6      51-56  (82)
+  5 6O1K_E Catabolite repression c  12.4 2.1E+02  0.0023   10.7   0.0    6    1-6      47-52  (67)
+  6 3HSB_A Protein hfq/RNA complex  12.3 2.1E+02  0.0024   11.1   0.0    6    1-6      56-61  (78)
+  7 3HFN_B Asl2047 protein; HFQ, S  12.2 2.2E+02  0.0024   10.8   0.0    6    1-6      57-62  (72)
+  8 3SB2_A Protein hfq; Sm-like, R  12.1 2.2E+02  0.0024   11.1   0.0    6    1-6      52-57  (79)
+  9 3FYB_B Protein of unknown func  12.0 2.2E+02  0.0025   12.7   0.0    5    1-5      68-72  (104)
+ 10 3FYB_A Protein of unknown func  11.9 2.2E+02  0.0025   12.7   0.0    5    1-5      68-72  (104)
+
+No 1
+>5W78_A Acyloxyacyl hydrolase (E.C.3.1.1.77); lipopolysaccharide, LPS, GDSL esterase, saposin; HET: DAO, NAG, MYR, PLM; 2.271A {Homo sapiens}
+Probab=33.08  E-value=41  Score=13.50  Aligned_cols=6  Identities=83%  Similarity=0.883  Sum_probs=3.5  Template_Neff=7.300
+
+Q RQIVYK            1 RQIVYK    6 (6)
+Q Consensus         1 rqivyk    6 (6)
+                      ||||-|
+T Consensus       128 ~~~~~~  133 (139)
+T 5W78_A          128 RQIVKK  133 (139)
+T ss_dssp             HHHHHC
+T ss_pred             HHHHHh
+Confidence            567643
+
+
+No 2
+>4Y91_H RNA-binding protein Hfq/RNA Complex; Hfq, Sm protein, beta barrel; 2.656A {Thermotoga maritima}
+Probab=12.64  E-value=2.1e+02  Score=11.72  Aligned_cols=6  Identities=33%  Similarity=1.032  Sum_probs=0.0  Template_Neff=5.400
+
+Q RQIVYK            1 RQIVYK    6 (6)
+Q Consensus         1 rqivyk    6 (6)
+                      .++|||
+T Consensus        57 ~~lIyK   62 (95)
+T 4Y91_H           57 QSLIYK   62 (95)
+T ss_dssp             EEEEEG
+T ss_pred             EEEEEe
+
+
+No 3
+>4MML_A Protein hfq; LSM fold, RNA BINDING PROTEIN; HET: U; 1.801A {Pseudomonas aeruginosa}
+Probab=12.54  E-value=2.1e+02  Score=11.26  Aligned_cols=5  Identities=80%  Similarity=1.305  Sum_probs=0.0  Template_Neff=5.800
+
+Q RQIVYK            2 QIVYK    6 (6)
+Q Consensus         2 qivyk    6 (6)
+                      +++||
+T Consensus        52 ~lIyK   56 (82)
+T 4MML_A           52 QMVYK   56 (82)
+T ss_dssp             EEEEG
+T ss_pred             EEEEe
+
+
+No 4
+>3QUI_A Protein hfq; LSM, RNA-binding protein, sRNA, mRNA; HET: ADE, ADP, ANP; 1.933A {Pseudomonas aeruginosa}
+Probab=12.51  E-value=2.1e+02  Score=11.30  Aligned_cols=6  Identities=67%  Similarity=1.077  Sum_probs=0.0  Template_Neff=5.700
+
+Q RQIVYK            1 RQIVYK    6 (6)
+Q Consensus         1 rqivyk    6 (6)
+                      .+++||
+T Consensus        51 ~~lI~K   56 (82)
+T 3QUI_A           51 SQMVYK   56 (82)
+T ss_dssp             CEEEEG
+T ss_pred             cEEEEe
+
+
+No 5
+>6O1K_E Catabolite repression control protein, RNA-binding; Hfq, Crc, amiE, Carbon catabolite; 3.13A {Pseudomonas aeruginosa}
+Probab=12.43  E-value=2.1e+02  Score=10.70  Aligned_cols=6  Identities=67%  Similarity=1.077  Sum_probs=0.0  Template_Neff=6.200
+
+Q RQIVYK            1 RQIVYK    6 (6)
+Q Consensus         1 rqivyk    6 (6)
+                      .+++||
+T Consensus        47 ~~lI~K   52 (67)
+T 6O1K_E           47 SQMVYK   52 (67)
+T ss_dssp             EEEEET
+T ss_pred             cEEEEe
+
+
+No 6
+>3HSB_A Protein hfq/RNA complex; Sm-like motif, Protein-RNA complex, RNA-binding; 2.2A {Bacillus subtilis}
+Probab=12.33  E-value=2.1e+02  Score=11.06  Aligned_cols=6  Identities=50%  Similarity=1.171  Sum_probs=0.0  Template_Neff=6.000
+
+Q RQIVYK            1 RQIVYK    6 (6)
+Q Consensus         1 rqivyk    6 (6)
+                      .+++||
+T Consensus        56 ~~lI~K   61 (78)
+T 3HSB_A           56 QQLIYK   61 (78)
+T ss_dssp             EEEEEG
+T ss_pred             EEEEEe
+
+
+No 7
+>3HFN_B Asl2047 protein; HFQ, SM, RNA-BINDING PROTEIN, SRNA; 2.31A {Nostoc sp.}
+Probab=12.16  E-value=2.2e+02  Score=10.84  Aligned_cols=6  Identities=17%  Similarity=0.628  Sum_probs=0.0  Template_Neff=6.100
+
+Q RQIVYK            1 RQIVYK    6 (6)
+Q Consensus         1 rqivyk    6 (6)
+                      .+++||
+T Consensus        57 ~~lI~K   62 (72)
+T 3HFN_B           57 QTTIWK   62 (72)
+T ss_dssp             EEEEEG
+T ss_pred             EEEEEe
+
+
+No 8
+>3SB2_A Protein hfq; Sm-like, RNA chaperone, CHAPERONE; 2.6301A {Herbaspirillum seropedicae}
+Probab=12.12  E-value=2.2e+02  Score=11.10  Aligned_cols=6  Identities=67%  Similarity=1.077  Sum_probs=0.0  Template_Neff=5.900
+
+Q RQIVYK            1 RQIVYK    6 (6)
+Q Consensus         1 rqivyk    6 (6)
+                      .+++||
+T Consensus        52 ~~lIyK   57 (79)
+T 3SB2_A           52 TQMVYK   57 (79)
+T ss_dssp             EEEEEG
+T ss_pred             eEEEEe
+
+
+No 9
+>3FYB_B Protein of unknown function (DUF1244); unknown function, DUF1244, Alcanivorax borkumensis; HET: MSE, PEG; 1.8A {Alcanivorax borkumensis SK2}
+Probab=11.97  E-value=2.2e+02  Score=12.66  Aligned_cols=5  Identities=60%  Similarity=1.125  Sum_probs=0.0  Template_Neff=3.100
+
+Q RQIVYK            1 RQIVY    5 (6)
+Q Consensus         1 rqivy    5 (6)
+                      |.+||
+T Consensus        68 RE~vY   72 (104)
+T 3FYB_B           68 REYVY   72 (104)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 10
+>3FYB_A Protein of unknown function (DUF1244); unknown function, DUF1244, Alcanivorax borkumensis; HET: PEG; 1.8A {Alcanivorax borkumensis SK2}
+Probab=11.94  E-value=2.2e+02  Score=12.71  Aligned_cols=5  Identities=60%  Similarity=1.125  Sum_probs=0.0  Template_Neff=2.900
+
+Q RQIVYK            1 RQIVY    5 (6)
+Q Consensus         1 rqivy    5 (6)
+                      |++||
+T Consensus        68 RE~vY   72 (104)
+T 3FYB_A           68 REYVY   72 (104)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+

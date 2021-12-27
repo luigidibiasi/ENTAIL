@@ -1,0 +1,150 @@
+Query         GMLASR
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 01:53:04 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GMLASR/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GMLASR/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2WE8_A XANTHINE DEHYDROGENASE   21.9      88 0.00097   14.3   0.0    6    1-6     302-307 (386)
+  2 7A24_C 51kDa, Nad2m, Nad3m, Na  11.9 2.2E+02  0.0025   13.8   0.0    6    1-6       4-9   (748)
+  3 4RVN_D Phenylacetate-coenzyme   11.4 2.4E+02  0.0027   11.1   0.0    5    1-5       1-5   (436)
+  4 2RHQ_B Phenylalanyl-tRNA synth  10.7 2.6E+02  0.0029   14.0   0.0    5    1-5     113-117 (795)
+  5 6JHO_C Cag pathogenicity islan  10.6 2.6E+02  0.0029   11.9   0.0    6    1-6      50-55  (210)
+  6 1B7Y_B PHENYLALANYL-TRNA SYNTH  10.3 2.8E+02  0.0031   14.0   0.0    5    1-5     115-119 (785)
+  7 1EIY_B PHENYLALANYL-TRNA SYNTH  10.3 2.8E+02  0.0031   14.0   0.0    5    1-5     115-119 (785)
+  8 2AKW_B Phenylalanyl-tRNA synth  10.3 2.8E+02  0.0031   14.0   0.0    5    1-5     115-119 (785)
+  9 3I16_C Aluminum resistance pro  10.1 2.8E+02  0.0031   12.0   0.0    5    1-5       1-5   (427)
+ 10 3R1X_A 2-oxo-3-deoxygalactonat  10.0 2.9E+02  0.0032   12.9   0.0    6    1-6      68-73  (295)
+
+No 1
+>2WE8_A XANTHINE DEHYDROGENASE (E.C.1.17.1.4); OXIDOREDUCTASE; HET: ACT, GOL; 2.3A {MYCOBACTERIUM SMEGMATIS}
+Probab=21.90  E-value=88  Score=14.33  Aligned_cols=6  Identities=50%  Similarity=0.894  Sum_probs=3.0  Template_Neff=7.700
+
+Q GMLASR            1 GMLASR    6 (6)
+Q Consensus         1 gmlasr    6 (6)
+                      ||+.||
+T Consensus       302 G~lGSr  307 (386)
+T 2WE8_A          302 GAMGSR  307 (386)
+T ss_dssp             EECCCH
+T ss_pred             EeccCh
+Confidence            455554
+
+
+No 2
+>7A24_C 51kDa, Nad2m, Nad3m, Nad6m, Nad1m; Respiration, Complex I, mitochondria, plant; HET: T7X, FMN, NDP, PEV, SF4, CDL; 3.8A {Brassica oleracea}
+Probab=11.90  E-value=2.2e+02  Score=13.84  Aligned_cols=6  Identities=83%  Similarity=1.243  Sum_probs=3.0  Template_Neff=8.700
+
+Q GMLASR            1 GMLASR    6 (6)
+Q Consensus         1 gmlasr    6 (6)
+                      |.||||
+T Consensus         4 ~~~~~~    9 (748)
+T 7A24_C            4 GILASR    9 (748)
+T ss_pred             hhhhcc
+Confidence            345554
+
+
+No 3
+>4RVN_D Phenylacetate-coenzyme A ligase; Acetyl-CoA synthetase-like, Structural Genomics, Joint; HET: UNL, SO4, COA, AMP, MSE, EDO; 2.2A {Bacteroides thetaiotaomicron VPI-5482}
+Probab=11.36  E-value=2.4e+02  Score=11.14  Aligned_cols=5  Identities=40%  Similarity=0.640  Sum_probs=0.0  Template_Neff=11.900
+
+Q GMLASR            1 GMLAS    5 (6)
+Q Consensus         1 gmlas    5 (6)
+                      ||+++
+T Consensus         1 ~~~~~    5 (436)
+T 4RVN_D            1 GMSTQ    5 (436)
+T ss_dssp             --CCC
+T ss_pred             CCccc
+
+
+No 4
+>2RHQ_B Phenylalanyl-tRNA synthetase alpha chain (E.C.6.1.1.20); heterotetramer, phenylalanine, tRNA, Aminoacyl-tRNA synthetase; HET: GAX; 2.2A {Staphylococcus haemolyticus}
+Probab=10.73  E-value=2.6e+02  Score=14.01  Aligned_cols=5  Identities=60%  Similarity=1.092  Sum_probs=0.0  Template_Neff=8.200
+
+Q GMLASR            1 GMLAS    5 (6)
+Q Consensus         1 gmlas    5 (6)
+                      ||+.|
+T Consensus       113 GM~cs  117 (795)
+T 2RHQ_B          113 GMICS  117 (795)
+T ss_dssp             SEECC
+T ss_pred             Ceeec
+
+
+No 5
+>6JHO_C Cag pathogenicity island protein (Cag6); Complex crystal structure  CagZ; 2.1A {Helicobacter pylori 26695}
+Probab=10.65  E-value=2.6e+02  Score=11.92  Aligned_cols=6  Identities=67%  Similarity=0.905  Sum_probs=0.0  Template_Neff=7.500
+
+Q GMLASR            1 GMLASR    6 (6)
+Q Consensus         1 gmlasr    6 (6)
+                      ||+|++
+T Consensus        50 ~~~~~~   55 (210)
+T 6JHO_C           50 GMVASG   55 (210)
+T ss_dssp             -CCCCC
+T ss_pred             ccccCc
+
+
+No 6
+>1B7Y_B PHENYLALANYL-TRNA SYNTHETASE (E.C.6.1.1.20); ENZYME, TRNA SYNTHETASE, ALPHA/BETA HOMODIMER; HET: FYA; 2.5A {Thermus thermophilus} SCOP: b.153.1.1, a.6.1.1, b.40.4.4, d.104.1.1, d.58.13.1
+Probab=10.27  E-value=2.8e+02  Score=13.95  Aligned_cols=5  Identities=60%  Similarity=0.713  Sum_probs=0.0  Template_Neff=8.100
+
+Q GMLASR            1 GMLAS    5 (6)
+Q Consensus         1 gmlas    5 (6)
+                      ||+.|
+T Consensus       115 GMlcs  119 (785)
+T 1B7Y_B          115 GMALS  119 (785)
+T ss_dssp             SEECC
+T ss_pred             CeeeC
+
+
+No 7
+>1EIY_B PHENYLALANYL-TRNA SYNTHETASE CHAINS A AND; aminoacyl-tRNA synthetase, tRNA recognition, LIGASE-RNA; 3.3A {Thermus thermophilus} SCOP: d.58.13.1, d.104.1.1, b.153.1.1, a.6.1.1, b.40.4.4
+Probab=10.27  E-value=2.8e+02  Score=13.95  Aligned_cols=5  Identities=60%  Similarity=0.713  Sum_probs=0.0  Template_Neff=8.100
+
+Q GMLASR            1 GMLAS    5 (6)
+Q Consensus         1 gmlas    5 (6)
+                      ||+.|
+T Consensus       115 GMlcs  119 (785)
+T 1EIY_B          115 GMALS  119 (785)
+T ss_pred             CeeeC
+
+
+No 8
+>2AKW_B Phenylalanyl-tRNA synthetase alpha and beta; protein-unnatural amino acid complex, LIGASE; HET: 200; 2.8A {Thermus thermophilus} SCOP: d.58.13.1, b.40.4.4, b.153.1.1, d.104.1.1, a.6.1.1
+Probab=10.27  E-value=2.8e+02  Score=13.95  Aligned_cols=5  Identities=60%  Similarity=0.713  Sum_probs=0.0  Template_Neff=8.100
+
+Q GMLASR            1 GMLAS    5 (6)
+Q Consensus         1 gmlas    5 (6)
+                      ||+.|
+T Consensus       115 GMlcs  119 (785)
+T 2AKW_B          115 GMALS  119 (785)
+T ss_dssp             SEECC
+T ss_pred             CeeeC
+
+
+No 9
+>3I16_C Aluminum resistance protein; YP_878183.1, carbon-sulfur lyase involved in; HET: PLP, MSE, TLA, EDO; 2.0A {Clostridium novyi}
+Probab=10.12  E-value=2.8e+02  Score=11.98  Aligned_cols=5  Identities=80%  Similarity=1.139  Sum_probs=0.0  Template_Neff=9.800
+
+Q GMLASR            1 GMLAS    5 (6)
+Q Consensus         1 gmlas    5 (6)
+                      ||++|
+T Consensus         1 ~~~~~    5 (427)
+T 3I16_C            1 GMLES    5 (427)
+T ss_dssp             CCCHH
+T ss_pred             Cchhh
+
+
+No 10
+>3R1X_A 2-oxo-3-deoxygalactonate kinase (E.C.2.7.1.58); Structural Genomics, PSI-Biology, Midwest Center; HET: FMT, MSE, GOL; 2.093A {Klebsiella pneumoniae subsp. pneumoniae}
+Probab=10.02  E-value=2.9e+02  Score=12.89  Aligned_cols=6  Identities=50%  Similarity=0.872  Sum_probs=0.0  Template_Neff=6.500
+
+Q GMLASR            1 GMLASR    6 (6)
+Q Consensus         1 gmlasr    6 (6)
+                      ||..|+
+T Consensus        68 GMigS~   73 (295)
+T 3R1X_A           68 GMVGSN   73 (295)
+T ss_dssp             EGGGST
+T ss_pred             CCCCCC
+
+

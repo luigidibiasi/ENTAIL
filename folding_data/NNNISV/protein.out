@@ -1,0 +1,150 @@
+Query         NNNISV
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 02:16:31 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NNNISV/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NNNISV/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5UR4_A Abscisic acid receptor    7.3 4.4E+02  0.0049    9.7   0.0    5    2-6      15-19  (181)
+  2 5UR5_A Abscisic acid receptor    7.3 4.4E+02  0.0049    9.7   0.0    5    2-6      15-19  (181)
+  3 1PVT_A sugar-phosphate aldolas   7.2 4.5E+02   0.005   10.9   0.0    6    1-6      27-32  (238)
+  4 5VT9_D Myosin light chain TgML   7.0 4.6E+02  0.0051   10.2   0.0    6    1-6      22-27  (37)
+  5 2FUA_A L-FUCULOSE-1-PHOSPHATE    7.0 4.7E+02  0.0052   10.8   0.0    6    1-6      27-32  (215)
+  6 1KP6_A TOXIN; KILLER TOXIN, IO   6.7 4.9E+02  0.0054   11.4   0.0    5    1-5      69-73  (79)
+  7 4GVB_A KP6 killer toxin subuni   6.7 4.9E+02  0.0054   11.5   0.0    5    1-5      69-73  (80)
+  8 2FK5_A fuculose-1-phosphate al   6.6   5E+02  0.0055   10.5   0.0    6    1-6      26-31  (200)
+  9 4C24_A L-FUCULOSE PHOSPHATE AL   6.1 5.5E+02  0.0061   10.5   0.0    6    1-6      30-35  (217)
+ 10 1AUU_B SACY; ANTITERMINATION,    6.1 5.5E+02  0.0061    9.7   0.0    6    1-6       8-13  (55)
+
+No 1
+>5UR4_A Abscisic acid receptor PYR1; PYR/PYL/RCAR, PYR1, Pyrabactiln, HORMONE RECEPTOR; HET: GOL, PYV; 1.52A {Arabidopsis thaliana}
+Probab=7.27  E-value=4.4e+02  Score=9.67  Aligned_cols=5  Identities=40%  Similarity=0.527  Sum_probs=0.0  Template_Neff=10.400
+
+Q NNNISV            2 NNISV    6 (6)
+Q Consensus         2 nnisv    6 (6)
+                      |||++
+T Consensus        15 ~~~~~   19 (181)
+T 5UR4_A           15 NSIAE   19 (181)
+T ss_dssp             HHHHH
+T ss_pred             Hhhee
+
+
+No 2
+>5UR5_A Abscisic acid receptor PYR1; PYR/PYL/RCAR, PYR1, agonist, HORMONE RECEPTOR; HET: 8KP, SO4, GOL; 1.93A {Arabidopsis thaliana}
+Probab=7.27  E-value=4.4e+02  Score=9.67  Aligned_cols=5  Identities=40%  Similarity=0.527  Sum_probs=0.0  Template_Neff=10.400
+
+Q NNNISV            2 NNISV    6 (6)
+Q Consensus         2 nnisv    6 (6)
+                      |||++
+T Consensus        15 ~~~~~   19 (181)
+T 5UR5_A           15 NSIAE   19 (181)
+T ss_dssp             HHHHH
+T ss_pred             Hhhee
+
+
+No 3
+>1PVT_A sugar-phosphate aldolase; Structural genomics, sugar-phosphate aldolase, PSI; 2.5A {Thermotoga maritima} SCOP: c.74.1.1
+Probab=7.15  E-value=4.5e+02  Score=10.92  Aligned_cols=6  Identities=67%  Similarity=0.750  Sum_probs=0.0  Template_Neff=8.700
+
+Q NNNISV            1 NNNISV    6 (6)
+Q Consensus         1 nnnisv    6 (6)
+                      ..|||+
+T Consensus        27 ~GniS~   32 (238)
+T 1PVT_A           27 AGNISV   32 (238)
+T ss_dssp             BEEEEE
+T ss_pred             CCceEE
+
+
+No 4
+>5VT9_D Myosin light chain TgMLC1, Myosin-A; Myosin light chain, MOTOR PROTEIN; 1.85A {Toxoplasma gondii}
+Probab=6.98  E-value=4.6e+02  Score=10.18  Aligned_cols=6  Identities=50%  Similarity=0.739  Sum_probs=0.0  Template_Neff=1.700
+
+Q NNNISV            1 NNNISV    6 (6)
+Q Consensus         1 nnnisv    6 (6)
+                      .+|||+
+T Consensus        22 d~nvsp   27 (37)
+T 5VT9_D           22 DNNVSP   27 (37)
+T ss_dssp             GGSCCC
+T ss_pred             HCCCCc
+
+
+No 5
+>2FUA_A L-FUCULOSE-1-PHOSPHATE ALDOLASE, BETA-MERCAPTOETHANOL; CLASS II ALDOLASE, LYASE (ALDEHYDE); HET: SO4; 2.0A {Escherichia coli} SCOP: c.74.1.1
+Probab=6.96  E-value=4.7e+02  Score=10.75  Aligned_cols=6  Identities=50%  Similarity=0.700  Sum_probs=0.0  Template_Neff=8.600
+
+Q NNNISV            1 NNNISV    6 (6)
+Q Consensus         1 nnnisv    6 (6)
+                      ..|||+
+T Consensus        27 ~GniS~   32 (215)
+T 2FUA_A           27 AGNVSV   32 (215)
+T ss_dssp             CCEEEE
+T ss_pred             CCCeEE
+
+
+No 6
+>1KP6_A TOXIN; KILLER TOXIN, ION CHANNEL MODULATOR; 1.8A {Ustilago maydis} SCOP: d.58.25.1
+Probab=6.74  E-value=4.9e+02  Score=11.45  Aligned_cols=5  Identities=80%  Similarity=1.072  Sum_probs=0.0  Template_Neff=1.000
+
+Q NNNISV            1 NNNIS    5 (6)
+Q Consensus         1 nnnis    5 (6)
+                      |||.|
+T Consensus        69 nnnms   73 (79)
+T 1KP6_A           69 NNNMS   73 (79)
+T ss_dssp             TCEEE
+T ss_pred             ccccc
+
+
+No 7
+>4GVB_A KP6 killer toxin subunit alpha; Antifungal protein, Secreted, TOXIN; 1.8A {Ustilago maydis virus P6}
+Probab=6.72  E-value=4.9e+02  Score=11.46  Aligned_cols=5  Identities=80%  Similarity=1.072  Sum_probs=0.0  Template_Neff=1.000
+
+Q NNNISV            1 NNNIS    5 (6)
+Q Consensus         1 nnnis    5 (6)
+                      |||.|
+T Consensus        69 nnnms   73 (80)
+T 4GVB_A           69 NNNMS   73 (80)
+T ss_dssp             TCEEE
+T ss_pred             ccccc
+
+
+No 8
+>2FK5_A fuculose-1-phosphate aldolase; Class II aldolase, METAL BINDING; HET: SO4; 1.9A {Thermus thermophilus}
+Probab=6.62  E-value=5e+02  Score=10.50  Aligned_cols=6  Identities=50%  Similarity=0.584  Sum_probs=0.0  Template_Neff=8.700
+
+Q NNNISV            1 NNNISV    6 (6)
+Q Consensus         1 nnnisv    6 (6)
+                      ..|||+
+T Consensus        26 ~GniSv   31 (200)
+T 2FK5_A           26 AGNFSV   31 (200)
+T ss_dssp             CCEEEE
+T ss_pred             CCeeEE
+
+
+No 9
+>4C24_A L-FUCULOSE PHOSPHATE ALDOLASE (E.C.4.1.2.17); LYASE, FUCOSE PROCESSING; HET: SO4; 1.5A {STREPTOCOCCUS PNEUMONIAE}
+Probab=6.13  E-value=5.5e+02  Score=10.48  Aligned_cols=6  Identities=50%  Similarity=0.722  Sum_probs=0.0  Template_Neff=8.800
+
+Q NNNISV            1 NNNISV    6 (6)
+Q Consensus         1 nnnisv    6 (6)
+                      .+|||+
+T Consensus        30 ~GniS~   35 (217)
+T 4C24_A           30 GGNLSV   35 (217)
+T ss_dssp             TCEEEE
+T ss_pred             CCCeEE
+
+
+No 10
+>1AUU_B SACY; ANTITERMINATION, RNA BINDING DOMAIN, TRANSCRIPTION; NMR {Bacillus subtilis} SCOP: b.35.2.1
+Probab=6.12  E-value=5.5e+02  Score=9.65  Aligned_cols=6  Identities=50%  Similarity=0.534  Sum_probs=0.0  Template_Neff=5.200
+
+Q NNNISV            1 NNNISV    6 (6)
+Q Consensus         1 nnnisv    6 (6)
+                      |||.-+
+T Consensus         8 NNNvvl   13 (55)
+T 1AUU_B            8 NHNAIV   13 (55)
+T ss_dssp             SSSEEE
+T ss_pred             cCcEEE
+
+

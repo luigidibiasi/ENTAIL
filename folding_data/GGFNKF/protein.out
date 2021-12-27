@@ -1,0 +1,151 @@
+Query         GGFNKF
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 00:00:41 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GGFNKF/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GGFNKF/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3MZK_B Protein transport prote  35.6      35 0.00039   15.6   0.0    6    1-6     432-437 (441)
+  2 6FXD_B MupZ; epoxide hydrolase  22.3      85 0.00095   12.3   0.0    6    1-6     132-137 (141)
+  3 6FXD_A MupZ; epoxide hydrolase  19.3 1.1E+02  0.0012   12.0   0.0    6    1-6     132-137 (141)
+  4 6N0V_B tRNA ligase (E.C.6.5.1.  19.2 1.1E+02  0.0012   14.5   0.0    5    2-6     117-121 (407)
+  5 3TG3_C Dual specificity protei  18.9 1.1E+02  0.0012   10.6   0.0    6    1-6     119-124 (142)
+  6 1AF6_B MALTOPORIN; MEMBRANE PR  18.9 1.1E+02  0.0012   14.1   0.0    6    1-6     225-230 (421)
+  7 5IUE_H HLA class I histocompat  18.6 1.1E+02  0.0013   12.7   0.0    4    2-5      10-13  (182)
+  8 3O3W_A Crystal Structure of BH  18.5 1.2E+02  0.0013   10.6   0.0    6    1-6     108-113 (126)
+  9 2RMS_A Paired amphipathic heli  18.2 1.2E+02  0.0013   10.4   0.0    5    2-6      63-67  (71)
+ 10 2OUC_A Dual specificity protei  17.2 1.3E+02  0.0014   10.4   0.0    6    1-6     124-129 (142)
+
+No 1
+>3MZK_B Protein transport protein SEC13, Protein; alpha-helical-stack, beta-propeller, PROTEIN TRANSPORT; 2.69A {Saccharomyces cerevisiae}
+Probab=35.61  E-value=35  Score=15.57  Aligned_cols=6  Identities=50%  Similarity=1.021  Sum_probs=0.0  Template_Neff=8.100
+
+Q GGFNKF            1 GGFNKF    6 (6)
+Q Consensus         1 ggfnkf    6 (6)
+                      ++||||
+T Consensus       432 ~~~~kf  437 (441)
+T 3MZK_B          432 KSFNKY  437 (441)
+T ss_dssp             ------
+T ss_pred             hhhhhh
+Confidence            367876
+
+
+No 2
+>6FXD_B MupZ; epoxide hydrolase, BIOSYNTHETIC PROTEIN; 1.45A {Pseudomonas fluorescens}
+Probab=22.29  E-value=85  Score=12.35  Aligned_cols=6  Identities=17%  Similarity=0.213  Sum_probs=3.1  Template_Neff=7.900
+
+Q GGFNKF            1 GGFNKF    6 (6)
+Q Consensus         1 ggfnkf    6 (6)
+                      +||+++
+T Consensus       132 ~gf~r~  137 (141)
+T 6FXD_B          132 QCFSRP  137 (141)
+T ss_dssp             EEEECT
+T ss_pred             cceecc
+Confidence            356553
+
+
+No 3
+>6FXD_A MupZ; epoxide hydrolase, BIOSYNTHETIC PROTEIN; 1.45A {Pseudomonas fluorescens}
+Probab=19.29  E-value=1.1e+02  Score=12.01  Aligned_cols=6  Identities=17%  Similarity=0.213  Sum_probs=0.0  Template_Neff=8.000
+
+Q GGFNKF            1 GGFNKF    6 (6)
+Q Consensus         1 ggfnkf    6 (6)
+                      +||+++
+T Consensus       132 ~gf~r~  137 (141)
+T 6FXD_A          132 QCFSRP  137 (141)
+T ss_pred             ccccCc
+
+
+No 4
+>6N0V_B tRNA ligase (E.C.6.5.1.3); tRNA, RNA ligase, nucleotidyltransferase, N6-AMP-lysine; HET: APK; 2.502A {Chaetomium thermophilum (strain DSM 1495 / CBS 144.50 / IMI 039719)}
+Probab=19.16  E-value=1.1e+02  Score=14.50  Aligned_cols=5  Identities=60%  Similarity=1.604  Sum_probs=0.0  Template_Neff=7.000
+
+Q GGFNKF            2 GFNKF    6 (6)
+Q Consensus         2 gfnkf    6 (6)
+                      ||+||
+T Consensus       117 gy~KF  121 (407)
+T 6N0V_B          117 GYDKF  121 (407)
+T ss_dssp             CCBCC
+T ss_pred             CCCCC
+
+
+No 5
+>3TG3_C Dual specificity protein phosphatase 16; Rhodanese-like domain, phosphatase, HYDROLASE; 2.675A {Homo sapiens}
+Probab=18.94  E-value=1.1e+02  Score=10.64  Aligned_cols=6  Identities=67%  Similarity=1.558  Sum_probs=0.0  Template_Neff=10.600
+
+Q GGFNKF            1 GGFNKF    6 (6)
+Q Consensus         1 ggfnkf    6 (6)
+                      |||..|
+T Consensus       119 gG~~~w  124 (142)
+T 3TG3_C          119 GGFAEF  124 (142)
+T ss_dssp             THHHHH
+T ss_pred             ChHHHH
+
+
+No 6
+>1AF6_B MALTOPORIN; MEMBRANE PROTEIN, SPECIFIC PORIN, BETA; HET: GLC, FRU; 2.4A {Escherichia coli} SCOP: f.4.3.2
+Probab=18.94  E-value=1.1e+02  Score=14.14  Aligned_cols=6  Identities=83%  Similarity=1.470  Sum_probs=0.0  Template_Neff=7.800
+
+Q GGFNKF            1 GGFNKF    6 (6)
+Q Consensus         1 ggfnkf    6 (6)
+                      +|||||
+T Consensus       225 gG~n~~  230 (421)
+T 1AF6_B          225 KGFNKF  230 (421)
+T ss_dssp             TEEEEE
+T ss_pred             CceEEE
+
+
+No 7
+>5IUE_H HLA class I histocompatibility antigen; MHC-Ib, IMMUNE SYSTEM, PEPTIDE BINDING; HET: NAG; 2.62A {Trichoplusia ni}
+Probab=18.64  E-value=1.1e+02  Score=12.68  Aligned_cols=4  Identities=100%  Similarity=1.713  Sum_probs=0.0  Template_Neff=7.500
+
+Q GGFNKF            2 GFNK    5 (6)
+Q Consensus         2 gfnk    5 (6)
+                      ||||
+T Consensus        10 ~~~~   13 (182)
+T 5IUE_H           10 GFNK   13 (182)
+T ss_dssp             ----
+T ss_pred             CCCh
+
+
+No 8
+>3O3W_A Crystal Structure of BH2092 protein; alpha-beta protein, Structural Genomics, PSI-Biology; HET: MSE; 2.91A {Bacillus halodurans}
+Probab=18.51  E-value=1.2e+02  Score=10.64  Aligned_cols=6  Identities=33%  Similarity=0.922  Sum_probs=0.0  Template_Neff=10.100
+
+Q GGFNKF            1 GGFNKF    6 (6)
+Q Consensus         1 ggfnkf    6 (6)
+                      ||++.|
+T Consensus       108 gG~~~w  113 (126)
+T 3O3W_A          108 GGIEYW  113 (126)
+T ss_dssp             THHHHH
+T ss_pred             CcHHHH
+
+
+No 9
+>2RMS_A Paired amphipathic helix protein Sin3a; Protein/Protein interaction, PAH domain, SIN3; NMR {Mus musculus}
+Probab=18.17  E-value=1.2e+02  Score=10.41  Aligned_cols=5  Identities=80%  Similarity=1.630  Sum_probs=0.0  Template_Neff=8.400
+
+Q GGFNKF            2 GFNKF    6 (6)
+Q Consensus         2 gfnkf    6 (6)
+                      +|+.|
+T Consensus        63 ~F~~f   67 (71)
+T 2RMS_A           63 GFNTF   67 (71)
+T ss_dssp             HHTTT
+T ss_pred             HHHHh
+
+
+No 10
+>2OUC_A Dual specificity protein phosphatase 10; Rhodanese fold, HYDROLASE; 2.2A {Homo sapiens}
+Probab=17.23  E-value=1.3e+02  Score=10.43  Aligned_cols=6  Identities=50%  Similarity=1.287  Sum_probs=0.0  Template_Neff=10.700
+
+Q GGFNKF            1 GGFNKF    6 (6)
+Q Consensus         1 ggfnkf    6 (6)
+                      |||..|
+T Consensus       124 gg~~~w  129 (142)
+T 2OUC_A          124 GGLSSF  129 (142)
+T ss_dssp             THHHHH
+T ss_pred             ChHHHH
+
+

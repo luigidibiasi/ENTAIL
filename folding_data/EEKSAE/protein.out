@@ -1,0 +1,148 @@
+Query         EEKSAE
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 18:48:10 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/EEKSAE/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/EEKSAE/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 7P2P_A Endoplasmic Reticulum,    4.4 8.3E+02  0.0092   10.1   0.0    5    2-6     189-193 (198)
+  2 1WQJ_I Insulin-like growth fac   4.2 8.9E+02  0.0098    8.9   0.0    5    1-5      66-70  (70)
+  3 4XSS_B Insulin-like growth fac   4.2 8.9E+02  0.0098    8.9   0.0    5    1-5      66-70  (70)
+  4 3LRI_A INSULIN-LIKE GROWTH FAC   3.6 1.1E+03   0.012    9.1   0.0    5    1-5      79-83  (83)
+  5 1J2J_B ADP-ribosylation factor   3.5 1.1E+03   0.013    8.8   0.0    5    1-5       7-11  (45)
+  6 5VYQ_A Uncharacterized protein   3.4 1.1E+03   0.013   10.2   0.0    6    1-6     249-254 (255)
+  7 2LXR_A NADH dehydrogenase I su   3.3 1.2E+03   0.013   10.1   0.0    5    2-6      44-48  (76)
+  8 6ZMQ_A Cytochrome C-type bioge   3.1 1.3E+03   0.014   11.9   0.0    5    2-6       7-11  (660)
+  9 4PVZ_C yeast importin alpha (K   2.9 1.4E+03   0.016    9.1   0.0    4    1-4      26-29  (43)
+ 10 4PVZ_D yeast importin alpha (K   2.9 1.4E+03   0.016    9.1   0.0    4    1-4      26-29  (43)
+
+No 1
+>7P2P_A Endoplasmic Reticulum, Signal peptide, Serine; HET: BMA, MAN, NAG; 4.9A {Homo sapiens}
+Probab=4.42  E-value=8.3e+02  Score=10.14  Aligned_cols=5  Identities=60%  Similarity=0.421  Sum_probs=0.0  Template_Neff=8.100
+
+Q EEKSAE            2 EKSAE    6 (6)
+Q Consensus         2 eksae    6 (6)
+                      ++|||
+T Consensus       189 ~~~~~  193 (198)
+T 7P2P_A          189 GGSAE  193 (198)
+T ss_dssp             -----
+T ss_pred             Ccccc
+
+
+No 2
+>1WQJ_I Insulin-like growth factor binding protein; PROTEIN-PROTEIN COMPLEX, DISULFIDE RICH, DISULFIDE; 1.6A {Homo sapiens} SCOP: g.1.1.1
+Probab=4.21  E-value=8.9e+02  Score=8.93  Aligned_cols=5  Identities=60%  Similarity=0.488  Sum_probs=0.0  Template_Neff=6.700
+
+Q EEKSAE            1 EEKSA    5 (6)
+Q Consensus         1 eeksa    5 (6)
+                      ++|||
+T Consensus        66 ~~~~~   70 (70)
+T 1WQJ_I           66 PAKSA   70 (70)
+T ss_dssp             -----
+T ss_pred             CCCCC
+
+
+No 3
+>4XSS_B Insulin-like growth factor I, Insulin; CELL SURFACE RECEPTOR/IMMUNE SYSTEM, INSULIN; HET: BMA, FUC, NAG; 3.0A {Homo sapiens}
+Probab=4.21  E-value=8.9e+02  Score=8.93  Aligned_cols=5  Identities=60%  Similarity=0.488  Sum_probs=0.0  Template_Neff=6.700
+
+Q EEKSAE            1 EEKSA    5 (6)
+Q Consensus         1 eeksa    5 (6)
+                      ++|||
+T Consensus        66 ~~~~~   70 (70)
+T 4XSS_B           66 PAKSA   70 (70)
+T ss_pred             CCCCC
+
+
+No 4
+>3LRI_A INSULIN-LIKE GROWTH FACTOR-1 IGF-I; INSULIN-LIKE GROWTH FACTOR-1, GROWTH FACTOR; NMR {Homo sapiens} SCOP: g.1.1.1
+Probab=3.65  E-value=1.1e+03  Score=9.12  Aligned_cols=5  Identities=60%  Similarity=0.488  Sum_probs=0.0  Template_Neff=6.400
+
+Q EEKSAE            1 EEKSA    5 (6)
+Q Consensus         1 eeksa    5 (6)
+                      ++|||
+T Consensus        79 ~~~~~   83 (83)
+T 3LRI_A           79 PAKSA   83 (83)
+T ss_dssp             CSCCC
+T ss_pred             CCCCC
+
+
+No 5
+>1J2J_B ADP-ribosylation factor 1/ADP-ribosylation factor binding; PROTEIN TRANSPORT; HET: GTP; 1.6A {Mus musculus} SCOP: a.7.8.1
+Probab=3.45  E-value=1.1e+03  Score=8.81  Aligned_cols=5  Identities=80%  Similarity=0.813  Sum_probs=0.0  Template_Neff=4.300
+
+Q EEKSAE            1 EEKSA    5 (6)
+Q Consensus         1 eeksa    5 (6)
+                      |++|+
+T Consensus         7 e~ks~   11 (45)
+T 1J2J_B            7 EEKSK   11 (45)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 6
+>5VYQ_A Uncharacterized protein; formyltransferase, deoxysugar, TRANSFERASE; HET: FON, EP1, EDO, 0FX, TYD; 1.6A {Mycobacterium tuberculosis CAS/NITR204}
+Probab=3.42  E-value=1.1e+03  Score=10.20  Aligned_cols=6  Identities=67%  Similarity=0.706  Sum_probs=0.0  Template_Neff=8.000
+
+Q EEKSAE            1 EEKSAE    6 (6)
+Q Consensus         1 eeksae    6 (6)
+                      +||.||
+T Consensus       249 ~~~~~~  254 (255)
+T 5VYQ_A          249 PEKPAE  254 (255)
+T ss_dssp             ECCC--
+T ss_pred             cCCccc
+
+
+No 7
+>2LXR_A NADH dehydrogenase I subunit E; HP1264, OXIDOREDUCTASE; NMR {Helicobacter pylori}
+Probab=3.27  E-value=1.2e+03  Score=10.09  Aligned_cols=5  Identities=80%  Similarity=0.727  Sum_probs=0.0  Template_Neff=2.600
+
+Q EEKSAE            2 EKSAE    6 (6)
+Q Consensus         2 eksae    6 (6)
+                      +|||+
+T Consensus        44 qkSad   48 (76)
+T 2LXR_A           44 PKSAE   48 (76)
+T ss_dssp             HHHHH
+T ss_pred             hHHHH
+
+
+No 8
+>6ZMQ_A Cytochrome C-type biogenesis protein ccmF; Heme lyase cytochrome c maturation; HET: LMT, PTY, HEM; 2.67A {Thermus thermophilus (strain HB27 / ATCC BAA-163 / DSM 7039)}
+Probab=3.09  E-value=1.3e+03  Score=11.87  Aligned_cols=5  Identities=80%  Similarity=0.880  Sum_probs=0.0  Template_Neff=7.400
+
+Q EEKSAE            2 EKSAE    6 (6)
+Q Consensus         2 eksae    6 (6)
+                      ||.+|
+T Consensus         7 ~~~~~   11 (660)
+T 6ZMQ_A            7 EKGAE   11 (660)
+T ss_dssp             -CCCC
+T ss_pred             HHHHH
+
+
+No 9
+>4PVZ_C yeast importin alpha (Kap60), Heh2; ARMADILLO repeated structure, nuclear import; 2.5A {Saccharomyces cerevisiae S288c}
+Probab=2.88  E-value=1.4e+03  Score=9.12  Aligned_cols=4  Identities=100%  Similarity=1.049  Sum_probs=0.0  Template_Neff=1.000
+
+Q EEKSAE            1 EEKS    4 (6)
+Q Consensus         1 eeks    4 (6)
+                      ||||
+T Consensus        26 eeks   29 (43)
+T 4PVZ_C           26 EEKS   29 (43)
+T ss_dssp             TCCS
+T ss_pred             hhcC
+
+
+No 10
+>4PVZ_D yeast importin alpha (Kap60), Heh2; ARMADILLO repeated structure, nuclear import; 2.5A {Saccharomyces cerevisiae S288c}
+Probab=2.88  E-value=1.4e+03  Score=9.12  Aligned_cols=4  Identities=100%  Similarity=1.049  Sum_probs=0.0  Template_Neff=1.000
+
+Q EEKSAE            1 EEKS    4 (6)
+Q Consensus         1 eeks    4 (6)
+                      ||||
+T Consensus        26 eeks   29 (43)
+T 4PVZ_D           26 EEKS   29 (43)
+T ss_pred             hhcC
+
+

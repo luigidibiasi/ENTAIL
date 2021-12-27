@@ -1,0 +1,148 @@
+Query         SELPKV
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 13:54:51 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/SELPKV/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/SELPKV/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3U6P_A Formamidopyrimidine-DNA   9.6   3E+02  0.0034   12.0   0.0    5    2-6       2-6   (273)
+  2 3JR5_A DNA glycosylase (E.C.4.   9.1 3.2E+02  0.0036   11.9   0.0    5    2-6       2-6   (273)
+  3 6N4V_F Coat protein; T4, icosa   9.0 3.3E+02  0.0037   14.0   0.0    5    2-6      74-78  (258)
+  4 6N4V_HD Coat protein; T4, icos   9.0 3.3E+02  0.0037   14.0   0.0    5    2-6      74-78  (258)
+  5 1K3X_A ENDONUCLEASE VIII (E.C.   8.3 3.7E+02  0.0041   11.7   0.0    5    2-6       2-6   (262)
+  6 6FL1_A Formamidopyrimidine-DNA   8.2 3.7E+02  0.0041   11.8   0.0    5    2-6       2-6   (271)
+  7 7JH6_C Two-domain di-Zn(II) an   8.1 3.8E+02  0.0042   11.8   0.0    5    1-5      65-69  (174)
+  8 3MT6_P ATP-dependent Clp prote   8.0 3.9E+02  0.0043   10.6   0.0    5    2-6      16-20  (207)
+  9 1K82_D Formamidopyrimidine-DNA   8.0 3.9E+02  0.0043   11.7   0.0    5    2-6       2-6   (268)
+ 10 6QDV_G Eukaryotic initiation f   7.9 3.9E+02  0.0043   10.5   0.0    5    2-6      52-56  (60)
+
+No 1
+>3U6P_A Formamidopyrimidine-DNA glycosylase (E.C.3.2.2.23)/DNA complex; DNA glycosylase, DNA repair, sequence; 1.6A {Geobacillus stearothermophilus}
+Probab=9.59  E-value=3e+02  Score=12.02  Aligned_cols=5  Identities=60%  Similarity=1.192  Sum_probs=0.0  Template_Neff=7.900
+
+Q SELPKV            2 ELPKV    6 (6)
+Q Consensus         2 elpkv    6 (6)
+                      |||.|
+T Consensus         2 ElPEV    6 (273)
+T 3U6P_A            2 QLPEV    6 (273)
+T ss_dssp             CHHHH
+T ss_pred             CHHHH
+
+
+No 2
+>3JR5_A DNA glycosylase (E.C.4.2.99.18); DNA glycosylase, DNA repair, damage; 1.704A {Geobacillus stearothermophilus}
+Probab=9.13  E-value=3.2e+02  Score=11.94  Aligned_cols=5  Identities=60%  Similarity=1.192  Sum_probs=0.0  Template_Neff=7.900
+
+Q SELPKV            2 ELPKV    6 (6)
+Q Consensus         2 elpkv    6 (6)
+                      |||.|
+T Consensus         2 ElPEv    6 (273)
+T 3JR5_A            2 QLPEV    6 (273)
+T ss_dssp             CHHHH
+T ss_pred             CHHHH
+
+
+No 3
+>6N4V_F Coat protein; T4, icosahedral, PP7, biotechnology, vaccine; 3.0A {Pseudomonas phage PP7}
+Probab=8.97  E-value=3.3e+02  Score=13.95  Aligned_cols=5  Identities=100%  Similarity=1.451  Sum_probs=0.0  Template_Neff=1.000
+
+Q SELPKV            2 ELPKV    6 (6)
+Q Consensus         2 elpkv    6 (6)
+                      |||||
+T Consensus        74 elpkv   78 (258)
+T 6N4V_F           74 ELPKV   78 (258)
+T ss_dssp             CCCEE
+T ss_pred             CCCce
+
+
+No 4
+>6N4V_HD Coat protein; T4, icosahedral, PP7, biotechnology, vaccine; 3.0A {Pseudomonas phage PP7}
+Probab=8.97  E-value=3.3e+02  Score=13.95  Aligned_cols=5  Identities=100%  Similarity=1.451  Sum_probs=0.0  Template_Neff=1.000
+
+Q SELPKV            2 ELPKV    6 (6)
+Q Consensus         2 elpkv    6 (6)
+                      |||||
+T Consensus        74 elpkv   78 (258)
+T 6N4V_HD          74 ELPKV   78 (258)
+T ss_pred             CCCce
+
+
+No 5
+>1K3X_A ENDONUCLEASE VIII (E.C.3.2.-.-)/DNA Complex; HYDROLASE/DNA, HYDROLASE-DNA complex; HET: GOL, SO4; 1.25A {Escherichia coli} SCOP: g.39.1.8, b.113.1.1, a.156.1.2
+Probab=8.27  E-value=3.7e+02  Score=11.65  Aligned_cols=5  Identities=40%  Similarity=0.740  Sum_probs=0.0  Template_Neff=8.000
+
+Q SELPKV            2 ELPKV    6 (6)
+Q Consensus         2 elpkv    6 (6)
+                      |||.|
+T Consensus         2 ElPEv    6 (262)
+T 1K3X_A            2 EGPEI    6 (262)
+T ss_dssp             CHHHH
+T ss_pred             CHHHH
+
+
+No 6
+>6FL1_A Formamidopyrimidine-DNA glycosylase/DNA Complex; PROTEIN-DNA COMPLEX, GLYCOSYLASE, FAPY LESION; HET: FOX; 1.6A {Lactococcus lactis subsp. cremoris}
+Probab=8.21  E-value=3.7e+02  Score=11.79  Aligned_cols=5  Identities=80%  Similarity=1.318  Sum_probs=0.0  Template_Neff=7.800
+
+Q SELPKV            2 ELPKV    6 (6)
+Q Consensus         2 elpkv    6 (6)
+                      |||.|
+T Consensus         2 ElPEV    6 (271)
+T 6FL1_A            2 ELPEV    6 (271)
+T ss_dssp             CHHHH
+T ss_pred             CHHHH
+
+
+No 7
+>7JH6_C Two-domain di-Zn(II) and porphyrin-binding protein; Metalloprotein, inter-domain coupling and cooperation; HET: 2PE, 7BU; 3.5A {synthetic construct}
+Probab=8.13  E-value=3.8e+02  Score=11.76  Aligned_cols=5  Identities=100%  Similarity=1.371  Sum_probs=0.0  Template_Neff=6.100
+
+Q SELPKV            1 SELPK    5 (6)
+Q Consensus         1 selpk    5 (6)
+                      ||||+
+T Consensus        65 ~~~~~   69 (174)
+T 7JH6_C           65 SELPK   69 (174)
+T ss_dssp             HHHHH
+T ss_pred             hcCHH
+
+
+No 8
+>3MT6_P ATP-dependent Clp protease proteolytic subunit; ENDOPEPTIDASE CLP, CASEINOLYTIC PROTEASE, PROTEASE; HET: MAA, OTT, MP8, MPD; 1.901A {STREPTOMYCES HAWAIIENSIS}
+Probab=8.03  E-value=3.9e+02  Score=10.63  Aligned_cols=5  Identities=40%  Similarity=0.574  Sum_probs=0.0  Template_Neff=9.200
+
+Q SELPKV            2 ELPKV    6 (6)
+Q Consensus         2 elpkv    6 (6)
+                      ++|+|
+T Consensus        16 ~~~~~   20 (207)
+T 3MT6_P           16 LVPMV   20 (207)
+T ss_dssp             CCCEE
+T ss_pred             cccee
+
+
+No 9
+>1K82_D Formamidopyrimidine-DNA glycosylase (E.C.3.2.2.23)/DNA Complex; PROTEIN-DNA COMPLEX, DNA REPAIR, BETA; HET: PED; 2.1A {Escherichia coli} SCOP: g.39.1.8, a.156.1.2, b.113.1.1
+Probab=7.96  E-value=3.9e+02  Score=11.67  Aligned_cols=5  Identities=80%  Similarity=1.318  Sum_probs=0.0  Template_Neff=7.900
+
+Q SELPKV            2 ELPKV    6 (6)
+Q Consensus         2 elpkv    6 (6)
+                      |||.|
+T Consensus         2 ElPEv    6 (268)
+T 1K82_D            2 ELPEV    6 (268)
+T ss_dssp             CHHHH
+T ss_pred             CHHHH
+
+
+No 10
+>6QDV_G Eukaryotic initiation factor 4A-III, RNA-binding; spliceosome, RNA, complex, SPLICING; HET: GTP, I6P, ATP, SEP; 3.3A {Homo sapiens}
+Probab=7.95  E-value=3.9e+02  Score=10.47  Aligned_cols=5  Identities=60%  Similarity=1.311  Sum_probs=0.0  Template_Neff=4.500
+
+Q SELPKV            2 ELPKV    6 (6)
+Q Consensus         2 elpkv    6 (6)
+                      ++|||
+T Consensus        52 DiPkv   56 (60)
+T 6QDV_G           52 DIPKV   56 (60)
+T ss_pred             cCCCc
+
+

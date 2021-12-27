@@ -1,0 +1,150 @@
+Query         LACVYV
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 13:17:47 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LACVYV/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LACVYV/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 7ESZ_B Wolbachia, Nuclease, An  18.5 1.2E+02  0.0013   16.0   0.0    5    1-5     102-106 (453)
+  2 7ET0_B Wolbachia, Nuclease, An  18.5 1.2E+02  0.0013   16.0   0.0    5    1-5     102-106 (453)
+  3 7ESX_A Wolbachia, antitoxin, c  18.4 1.2E+02  0.0013   16.1   0.0    5    1-5     101-105 (499)
+  4 7ESX_B Wolbachia, antitoxin, c  18.4 1.2E+02  0.0013   16.1   0.0    5    1-5     101-105 (499)
+  5 4ROC_A TFIIB-related factor 2,  18.3 1.2E+02  0.0013   13.1   0.0    6    1-6      60-65  (360)
+  6 4ROE_A TFIIB-related factor 2,  18.3 1.2E+02  0.0013   13.1   0.0    6    1-6      60-65  (360)
+  7 1AIS_B TATA-BINDING PROTEIN, T  17.7 1.2E+02  0.0014   11.0   0.0    6    1-6      56-61  (200)
+  8 5IYB_M DNA-directed RNA polyme  16.8 1.4E+02  0.0015   12.2   0.0    6    1-6     161-166 (316)
+  9 7NVU_M RPB1, DNA-directed RNA   16.8 1.4E+02  0.0015   12.2   0.0    6    1-6     161-166 (316)
+ 10 2HKA_C CRYSTAL STRUCTURE OF BO  15.3 1.6E+02  0.0017   10.5   0.0    6    1-6     119-124 (130)
+
+No 1
+>7ESZ_B Wolbachia, Nuclease, Antitoxin, Toxin, PROTEIN; 2.476A {Wolbachia pipientis subsp. Culex pipiens (strain wPip)}
+Probab=18.50  E-value=1.2e+02  Score=16.03  Aligned_cols=5  Identities=80%  Similarity=1.597  Sum_probs=0.0  Template_Neff=3.900
+
+Q LACVYV            1 LACVY    5 (6)
+Q Consensus         1 lacvy    5 (6)
+                      |||+|
+T Consensus       102 LAC~y  106 (453)
+T 7ESZ_B          102 LACKY  106 (453)
+T ss_dssp             HHHHT
+T ss_pred             HHHHH
+
+
+No 2
+>7ET0_B Wolbachia, Nuclease, Antitoxin, Toxin, PROTEIN; 2.2A {Wolbachia pipientis subsp. Culex pipiens (strain wPip)}
+Probab=18.50  E-value=1.2e+02  Score=16.03  Aligned_cols=5  Identities=80%  Similarity=1.597  Sum_probs=0.0  Template_Neff=3.900
+
+Q LACVYV            1 LACVY    5 (6)
+Q Consensus         1 lacvy    5 (6)
+                      |||+|
+T Consensus       102 LAC~y  106 (453)
+T 7ET0_B          102 LACKY  106 (453)
+T ss_dssp             HHHHT
+T ss_pred             HHHHH
+
+
+No 3
+>7ESX_A Wolbachia, antitoxin, cytoplasmic incompatibility; 1.8A {Wolbachia pipientis subsp. Culex pipiens (strain wPip)}
+Probab=18.36  E-value=1.2e+02  Score=16.12  Aligned_cols=5  Identities=60%  Similarity=1.564  Sum_probs=0.0  Template_Neff=4.100
+
+Q LACVYV            1 LACVY    5 (6)
+Q Consensus         1 lacvy    5 (6)
+                      |||+|
+T Consensus       101 LAC~Y  105 (499)
+T 7ESX_A          101 MACSY  105 (499)
+T ss_dssp             HHHHT
+T ss_pred             HHHHH
+
+
+No 4
+>7ESX_B Wolbachia, antitoxin, cytoplasmic incompatibility; 1.8A {Wolbachia pipientis subsp. Culex pipiens (strain wPip)}
+Probab=18.36  E-value=1.2e+02  Score=16.12  Aligned_cols=5  Identities=60%  Similarity=1.564  Sum_probs=0.0  Template_Neff=4.100
+
+Q LACVYV            1 LACVY    5 (6)
+Q Consensus         1 lacvy    5 (6)
+                      |||+|
+T Consensus       101 LAC~Y  105 (499)
+T 7ESX_B          101 MACSY  105 (499)
+T ss_dssp             HHHHT
+T ss_pred             HHHHH
+
+
+No 5
+>4ROC_A TFIIB-related factor 2, TATA Binding; Transcription factor, TRANSCRIPTION; 1.9A {Homo sapiens}
+Probab=18.27  E-value=1.2e+02  Score=13.15  Aligned_cols=6  Identities=33%  Similarity=0.783  Sum_probs=0.0  Template_Neff=9.000
+
+Q LACVYV            1 LACVYV    6 (6)
+Q Consensus         1 lacvyv    6 (6)
+                      .||+|+
+T Consensus        60 aaCl~i   65 (360)
+T 4ROC_A           60 GCCVLI   65 (360)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 6
+>4ROE_A TFIIB-related factor 2, TATA Binding; Transcription factor, TRANSCRIPTION; 2.2A {Homo sapiens}
+Probab=18.27  E-value=1.2e+02  Score=13.15  Aligned_cols=6  Identities=33%  Similarity=0.783  Sum_probs=0.0  Template_Neff=9.000
+
+Q LACVYV            1 LACVYV    6 (6)
+Q Consensus         1 lacvyv    6 (6)
+                      .||+|+
+T Consensus        60 aaCl~i   65 (360)
+T 4ROE_A           60 GCCVLI   65 (360)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 7
+>1AIS_B TATA-BINDING PROTEIN, TRANSCRIPTION INITIATION FACTOR; TRANSCRIPTION, HYPERTHERMOPHILE, RIBOSOME BINDING, COMPLEX; 2.1A {Pyrococcus woesei} SCOP: a.74.1.2
+Probab=17.69  E-value=1.2e+02  Score=11.00  Aligned_cols=6  Identities=67%  Similarity=1.331  Sum_probs=0.0  Template_Neff=10.900
+
+Q LACVYV            1 LACVYV    6 (6)
+Q Consensus         1 lacvyv    6 (6)
+                      .+|+|+
+T Consensus        56 ~acl~i   61 (200)
+T 1AIS_B           56 AACVYA   61 (200)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 8
+>5IYB_M DNA-directed RNA polymerase II subunit; initiation, RNA polymerase II, human; HET: ZN; 3.9A {Homo sapiens}
+Probab=16.78  E-value=1.4e+02  Score=12.22  Aligned_cols=6  Identities=50%  Similarity=1.359  Sum_probs=0.0  Template_Neff=10.000
+
+Q LACVYV            1 LACVYV    6 (6)
+Q Consensus         1 lacvyv    6 (6)
+                      .||+|+
+T Consensus       161 aaclyl  166 (316)
+T 5IYB_M          161 SACLYI  166 (316)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 9
+>7NVU_M RPB1, DNA-directed RNA polymerase subunit; Initiation, TRANSCRIPTION; HET: ZN; 2.5A {Sus scrofa}
+Probab=16.78  E-value=1.4e+02  Score=12.22  Aligned_cols=6  Identities=50%  Similarity=1.359  Sum_probs=0.0  Template_Neff=10.000
+
+Q LACVYV            1 LACVYV    6 (6)
+Q Consensus         1 lacvyv    6 (6)
+                      .||+|+
+T Consensus       161 aaclyl  166 (316)
+T 7NVU_M          161 SACLYI  166 (316)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 10
+>2HKA_C CRYSTAL STRUCTURE OF BOVINE NPC2; BETA BARREL, LIPID BINDING PROTEIN; HET: ACT, C3S, SO4, GOL, NAG; 1.81A {Bos taurus} SCOP: b.1.18.7
+Probab=15.32  E-value=1.6e+02  Score=10.49  Aligned_cols=6  Identities=17%  Similarity=0.556  Sum_probs=0.0  Template_Neff=9.900
+
+Q LACVYV            1 LACVYV    6 (6)
+Q Consensus         1 lacvyv    6 (6)
+                      ++|+.+
+T Consensus       119 l~C~~~  124 (130)
+T 2HKA_C          119 FFCWQI  124 (130)
+T ss_dssp             EEEEEE
+T ss_pred             EEEEEE
+
+

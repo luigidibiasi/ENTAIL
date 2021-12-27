@@ -1,0 +1,148 @@
+Query         LAEVYV
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 13:27:10 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LAEVYV/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LAEVYV/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2F6M_D endosomes, trafficking   12.0 2.2E+02  0.0025   11.9   0.0    5    1-5      31-35  (109)
+  2 6VME_V Tumor susceptibility ge  11.6 2.3E+02  0.0026   12.1   0.0    5    1-5      39-43  (122)
+  3 6VME_W Tumor susceptibility ge  11.4 2.4E+02  0.0026   12.1   0.0    5    1-5      39-43  (122)
+  4 4MAL_B Motility protein FimV;   10.8 2.6E+02  0.0028    9.9   0.0    6    1-6      24-29  (64)
+  5 4MBQ_C Motility protein FimV;   10.8 2.6E+02  0.0028    9.9   0.0    6    1-6      24-29  (64)
+  6 2CAZ_E SUPPRESSOR PROTEIN STP2  10.6 2.6E+02  0.0029   12.7   0.0    5    1-5      48-52  (155)
+  7 6RXU_CL Periodic tryptophan pr  10.4 2.7E+02   0.003   15.6   0.0    5    1-5     587-591 (785)
+  8 2A3S_A Myocyte Nuclear Factor;   8.1 3.8E+02  0.0042    9.8   0.0    5    1-5      26-30  (101)
+  9 6GCZ_A Starch-binding associat   7.0 4.6E+02  0.0051   11.8   0.0    6    1-6     398-403 (498)
+ 10 3I4G_A SusD-like carbohydrate    7.0 4.7E+02  0.0052   11.8   0.0    6    1-6     387-392 (528)
+
+No 1
+>2F6M_D endosomes, trafficking complex, Vps23, Vps28; HET: DDQ; 2.1A {Saccharomyces cerevisiae} SCOP: a.2.17.2
+Probab=12.00  E-value=2.2e+02  Score=11.89  Aligned_cols=5  Identities=60%  Similarity=1.305  Sum_probs=0.0  Template_Neff=5.400
+
+Q LAEVYV            1 LAEVY    5 (6)
+Q Consensus         1 laevy    5 (6)
+                      |||+|
+T Consensus        31 laeLY   35 (109)
+T 2F6M_D           31 LSEIY   35 (109)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 2
+>6VME_V Tumor susceptibility gene 101 protein; Endosomal transport, HIV release, macroautophagy; 2.19A {Homo sapiens}
+Probab=11.64  E-value=2.3e+02  Score=12.12  Aligned_cols=5  Identities=40%  Similarity=1.046  Sum_probs=0.0  Template_Neff=5.200
+
+Q LAEVYV            1 LAEVY    5 (6)
+Q Consensus         1 laevy    5 (6)
+                      |||+|
+T Consensus        39 laeLY   43 (122)
+T 6VME_V           39 MAELF   43 (122)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 3
+>6VME_W Tumor susceptibility gene 101 protein; Endosomal transport, HIV release, macroautophagy; 2.19A {Homo sapiens}
+Probab=11.45  E-value=2.4e+02  Score=12.09  Aligned_cols=5  Identities=40%  Similarity=1.046  Sum_probs=0.0  Template_Neff=5.200
+
+Q LAEVYV            1 LAEVY    5 (6)
+Q Consensus         1 laevy    5 (6)
+                      |||+|
+T Consensus        39 laeLY   43 (122)
+T 6VME_W           39 MAELF   43 (122)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 4
+>4MAL_B Motility protein FimV; TPR, UNKNOWN FUNCTION; HET: MSE; 2.05A {Pseudomonas aeruginosa}
+Probab=10.81  E-value=2.6e+02  Score=9.85  Aligned_cols=6  Identities=50%  Similarity=0.988  Sum_probs=0.0  Template_Neff=7.400
+
+Q LAEVYV            1 LAEVYV    6 (6)
+Q Consensus         1 laevyv    6 (6)
+                      ||+.|.
+T Consensus        24 LA~aY~   29 (64)
+T 4MAL_B           24 LARAYI   29 (64)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 5
+>4MBQ_C Motility protein FimV; TPR, UNKNOWN FUNCTION; 2.006A {Pseudomonas aeruginosa}
+Probab=10.81  E-value=2.6e+02  Score=9.85  Aligned_cols=6  Identities=50%  Similarity=0.988  Sum_probs=0.0  Template_Neff=7.400
+
+Q LAEVYV            1 LAEVYV    6 (6)
+Q Consensus         1 laevyv    6 (6)
+                      ||+.|.
+T Consensus        24 LA~aY~   29 (64)
+T 4MBQ_C           24 LARAYI   29 (64)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 6
+>2CAZ_E SUPPRESSOR PROTEIN STP22 OF TEMPERATURE-SENSITIVE; PROTEIN TRANSPORT, ESCRT, MVB, MULTIVESICULAR; 3.6A {SACCHAROMYCES CEREVISIAE} SCOP: a.2.17.2
+Probab=10.62  E-value=2.6e+02  Score=12.68  Aligned_cols=5  Identities=60%  Similarity=1.305  Sum_probs=0.0  Template_Neff=4.500
+
+Q LAEVYV            1 LAEVY    5 (6)
+Q Consensus         1 laevy    5 (6)
+                      |||+|
+T Consensus        48 LAELY   52 (155)
+T 2CAZ_E           48 LSEIY   52 (155)
+T ss_pred             HHHHH
+
+
+No 7
+>6RXU_CL Periodic tryptophan protein 2-like protein; ribosome, ribosome biogenesis, rRNA; HET: GTP; 3.5A {Chaetomium thermophilum}
+Probab=10.42  E-value=2.7e+02  Score=15.57  Aligned_cols=5  Identities=80%  Similarity=1.391  Sum_probs=0.0  Template_Neff=4.600
+
+Q LAEVYV            1 LAEVY    5 (6)
+Q Consensus         1 laevy    5 (6)
+                      |||+|
+T Consensus       587 LAEiY  591 (785)
+T 6RXU_CL         587 LAEIY  591 (785)
+T ss_pred             HHHHH
+
+
+No 8
+>2A3S_A Myocyte Nuclear Factor; DNA-BINDING DOMAIN, WINGED-HELIX, Forkhead, DNA; NMR {Mus musculus}
+Probab=8.15  E-value=3.8e+02  Score=9.82  Aligned_cols=5  Identities=40%  Similarity=1.012  Sum_probs=0.0  Template_Neff=8.300
+
+Q LAEVYV            1 LAEVY    5 (6)
+Q Consensus         1 laevy    5 (6)
+                      ++|+|
+T Consensus        26 l~eIy   30 (101)
+T 2A3S_A           26 LSGIY   30 (101)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 9
+>6GCZ_A Starch-binding associating with outer membrane; Laminarin, Marine Bacteria, X-ray crystal; HET: GOL; 1.8A {Gramella sp. MAR_2010_102}
+Probab=7.01  E-value=4.6e+02  Score=11.79  Aligned_cols=6  Identities=50%  Similarity=1.038  Sum_probs=0.0  Template_Neff=9.500
+
+Q LAEVYV            1 LAEVYV    6 (6)
+Q Consensus         1 laevyv    6 (6)
+                      +||+|.
+T Consensus       398 ~aE~yL  403 (498)
+T 6GCZ_A          398 LADTYL  403 (498)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 10
+>3I4G_A SusD-like carbohydrate binding protein BF1063; SUSD-LIKE CARBOHYDRATE BINDING PROTEIN, STRUCTURAL; HET: EPE, EDO; 1.35A {Bacteroides fragilis NCTC 9343}
+Probab=6.96  E-value=4.7e+02  Score=11.83  Aligned_cols=6  Identities=50%  Similarity=0.623  Sum_probs=0.0  Template_Neff=9.600
+
+Q LAEVYV            1 LAEVYV    6 (6)
+Q Consensus         1 laevyv    6 (6)
+                      +||||.
+T Consensus       387 ~aEv~L  392 (528)
+T 3I4G_A          387 YAEVLL  392 (528)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+

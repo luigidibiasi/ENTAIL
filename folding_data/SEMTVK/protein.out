@@ -1,0 +1,153 @@
+Query         SEMTVK
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 13:57:59 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/SEMTVK/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/SEMTVK/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6JP2_C Pyrrolysyl-tRNA synthet  36.1      34 0.00038   14.1   0.0    6    1-6       2-7   (278)
+  2 6TLB_B Serine/threonine protei  14.0 1.8E+02   0.002   14.4   0.0    6    1-6      83-88  (196)
+  3 5NBQ_G Complement C3, Compleme  11.7 2.3E+02  0.0026   13.3   0.0    6    1-6       1-6   (129)
+  4 5NBQ_I Complement C3, Compleme  10.9 2.5E+02  0.0028   13.2   0.0    6    1-6       1-6   (129)
+  5 3TQC_B Pantothenate kinase (E.  10.9 2.6E+02  0.0028   11.7   0.0    4    3-6       4-7   (321)
+  6 3I9F_A Putative type 11 methyl  10.1 2.8E+02  0.0031    9.6   0.0    6    1-6     162-167 (170)
+  7 2JGS_A CIRCULAR PERMUTANT OF A   9.4 3.1E+02  0.0035   11.8   0.0    6    1-6     108-113 (130)
+  8 4BOD_A ERPC; CELL ADHESION, LI   9.2 3.2E+02  0.0036   13.2   0.0    6    1-6      20-25  (157)
+  9 4BXM_A ERPC; CELL ADHESION, LI   9.2 3.2E+02  0.0036   13.2   0.0    6    1-6      20-25  (157)
+ 10 6CSU_A Centrosomal protein of    8.4 3.6E+02   0.004   10.3   0.0    6    1-6      33-38  (44)
+
+No 1
+>6JP2_C Pyrrolysyl-tRNA synthetase (E.C.6.1.1.26); aminoacyl-tRNA synthetase, tRNA, pyrrolysyl-tRNA synthetase; 2.272A {Candidatus Methanomethylophilus alvus}
+Probab=36.11  E-value=34  Score=14.12  Aligned_cols=6  Identities=83%  Similarity=0.888  Sum_probs=3.2  Template_Neff=9.100
+
+Q SEMTVK            1 SEMTVK    6 (6)
+Q Consensus         1 semtvk    6 (6)
+                      |.||||
+T Consensus         2 ~~~~~~    7 (278)
+T 6JP2_C            2 SHMTVK    7 (278)
+T ss_dssp             -CCCEE
+T ss_pred             CCcccc
+Confidence            457765
+
+
+No 2
+>6TLB_B Serine/threonine protein kinase; Lipocalin, Malaria, Infection, UNKNOWN FUNCTION; HET: GOL; 2.85A {Plasmodium falciparum (isolate 3D7)}
+Probab=13.97  E-value=1.8e+02  Score=14.40  Aligned_cols=6  Identities=83%  Similarity=0.883  Sum_probs=3.3  Template_Neff=1.200
+
+Q SEMTVK            1 SEMTVK    6 (6)
+Q Consensus         1 semtvk    6 (6)
+                      |||+.|
+T Consensus        83 sem~fk   88 (196)
+T 6TLB_B           83 SEMTFK   88 (196)
+T ss_dssp             EEEEEE
+T ss_pred             ceeEEE
+Confidence            566643
+
+
+No 3
+>5NBQ_G Complement C3, Complement factor H; complement, regulation, microbe, evasion, immune; 3.18A {Homo sapiens}
+Probab=11.68  E-value=2.3e+02  Score=13.29  Aligned_cols=6  Identities=67%  Similarity=0.783  Sum_probs=3.6  Template_Neff=1.800
+
+Q SEMTVK            1 SEMTVK    6 (6)
+Q Consensus         1 semtvk    6 (6)
+                      ||.|||
+T Consensus         1 SeFtVk    6 (129)
+T 5NBQ_G            1 SKFTVK    6 (129)
+T ss_dssp             CEEEEE
+T ss_pred             CceEEE
+Confidence            566664
+
+
+No 4
+>5NBQ_I Complement C3, Complement factor H; complement, regulation, microbe, evasion, immune; 3.18A {Homo sapiens}
+Probab=10.95  E-value=2.5e+02  Score=13.17  Aligned_cols=6  Identities=67%  Similarity=0.783  Sum_probs=3.5  Template_Neff=1.800
+
+Q SEMTVK            1 SEMTVK    6 (6)
+Q Consensus         1 semtvk    6 (6)
+                      ||.|||
+T Consensus         1 SeFtVk    6 (129)
+T 5NBQ_I            1 SKFTVK    6 (129)
+T ss_dssp             CEEEEE
+T ss_pred             CceEEE
+Confidence            566664
+
+
+No 5
+>3TQC_B Pantothenate kinase (E.C.2.7.1.33); Biosynthesis of cofactors, prosthetic groups; HET: ADP; 2.3A {Coxiella burnetii}
+Probab=10.86  E-value=2.6e+02  Score=11.69  Aligned_cols=4  Identities=100%  Similarity=1.115  Sum_probs=0.0  Template_Neff=9.600
+
+Q SEMTVK            3 MTVK    6 (6)
+Q Consensus         3 mtvk    6 (6)
+                      ||||
+T Consensus         4 ~~~~    7 (321)
+T 3TQC_B            4 MTVK    7 (321)
+T ss_dssp             ----
+T ss_pred             cccc
+
+
+No 6
+>3I9F_A Putative type 11 methyltransferase; STRUCTURAL GENOMICS, TRANSFERASE, PSI-2, Protein; 2.5A {Sulfolobus solfataricus}
+Probab=10.10  E-value=2.8e+02  Score=9.55  Aligned_cols=6  Identities=33%  Similarity=0.036  Sum_probs=0.0  Template_Neff=11.400
+
+Q SEMTVK            1 SEMTVK    6 (6)
+Q Consensus         1 semtvk    6 (6)
+                      |+|+++
+T Consensus       162 ~~~~~~  167 (170)
+T 3I9F_A          162 SEGHHH  167 (170)
+T ss_dssp             CCSCCC
+T ss_pred             CCCCCC
+
+
+No 7
+>2JGS_A CIRCULAR PERMUTANT OF AVIDIN; BIOTIN-BINDING PROTEIN, GLYCOPROTEIN; HET: BTN; 1.9A {GALLUS GALLUS}
+Probab=9.35  E-value=3.1e+02  Score=11.82  Aligned_cols=6  Identities=50%  Similarity=0.661  Sum_probs=0.0  Template_Neff=5.300
+
+Q SEMTVK            1 SEMTVK    6 (6)
+Q Consensus         1 semtvk    6 (6)
+                      |.|+|.
+T Consensus       108 S~M~I~  113 (130)
+T 2JGS_A          108 SNMTIG  113 (130)
+T ss_dssp             CEEEEC
+T ss_pred             CeEEEE
+
+
+No 8
+>4BOD_A ERPC; CELL ADHESION, LIPOPROTEIN, COMPLEMENT FACTORS; 3.15A {BORRELIA BURGDORFERI}
+Probab=9.17  E-value=3.2e+02  Score=13.19  Aligned_cols=6  Identities=83%  Similarity=0.916  Sum_probs=0.0  Template_Neff=1.800
+
+Q SEMTVK            1 SEMTVK    6 (6)
+Q Consensus         1 semtvk    6 (6)
+                      ||.|||
+T Consensus        20 seFtVk   25 (157)
+T 4BOD_A           20 SEFTVK   25 (157)
+T ss_dssp             CEEEEE
+T ss_pred             eEEEEE
+
+
+No 9
+>4BXM_A ERPC; CELL ADHESION, LIPOPROTEIN, COMPLEMENT FACTORS; 2.15A {BORRELIA BURGDORFERI}
+Probab=9.17  E-value=3.2e+02  Score=13.19  Aligned_cols=6  Identities=83%  Similarity=0.916  Sum_probs=0.0  Template_Neff=1.800
+
+Q SEMTVK            1 SEMTVK    6 (6)
+Q Consensus         1 semtvk    6 (6)
+                      ||.|||
+T Consensus        20 seFtVk   25 (157)
+T 4BXM_A           20 SEFTVK   25 (157)
+T ss_dssp             CEEEEE
+T ss_pred             eEEEEE
+
+
+No 10
+>6CSU_A Centrosomal protein of 152 kDa; Centrosome, Hydrophobic, CELL CYCLE; 2.5A {Homo sapiens}
+Probab=8.43  E-value=3.6e+02  Score=10.25  Aligned_cols=6  Identities=67%  Similarity=0.722  Sum_probs=0.0  Template_Neff=3.800
+
+Q SEMTVK            1 SEMTVK    6 (6)
+Q Consensus         1 semtvk    6 (6)
+                      |+.||+
+T Consensus        33 se~Tv~   38 (44)
+T 6CSU_A           33 SEKTVR   38 (44)
+T ss_pred             hHHHHH
+
+

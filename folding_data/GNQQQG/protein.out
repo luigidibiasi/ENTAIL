@@ -1,0 +1,150 @@
+Query         GNQQQG
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 02:39:57 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GNQQQG/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GNQQQG/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3IYZ_A Aquaporin-4; WATER TRAN  18.2 1.2E+02  0.0013   13.9   0.0    6    1-6      18-23  (340)
+  2 4J3H_A Nuclear pore complex pr  13.1   2E+02  0.0022    9.4   0.0    6    1-6      23-28  (46)
+  3 4J3H_B Nuclear pore complex pr  13.1   2E+02  0.0022    9.4   0.0    6    1-6      23-28  (46)
+  4 4NN1_A Transcriptional regulat  11.1 2.5E+02  0.0028   10.4   0.0    4    3-6     204-207 (218)
+  5 3RJ1_J Mediator of RNA polymer   9.6   3E+02  0.0034   12.7   0.0    6    1-6      12-17  (223)
+  6 5YHP_B Cold active proline imi   9.4 3.1E+02  0.0034   10.7   0.0    6    1-6      17-22  (355)
+  7 7V7Y_A HYDROLASE; HET: PEG; 2.   8.3 3.7E+02  0.0041   11.4   0.0    6    1-6       6-11  (343)
+  8 2X4J_A HYPOTHETICAL PROTEIN OR   8.0 3.9E+02  0.0043   12.7   0.0    4    2-5       6-9   (137)
+  9 1R3U_A phosphoribosyltransfera   7.3 4.4E+02  0.0048   10.8   0.0    6    1-6       6-11  (205)
+ 10 6O09_D Proliferating cellular    7.1 4.5E+02   0.005   11.1   0.0    6    1-6      26-31  (312)
+
+No 1
+>3IYZ_A Aquaporin-4; WATER TRANSPORT, WATER CHANNEL, AQUAPORIN; 10.0A {Rattus norvegicus}
+Probab=18.16  E-value=1.2e+02  Score=13.90  Aligned_cols=6  Identities=67%  Similarity=0.999  Sum_probs=3.1  Template_Neff=7.300
+
+Q GNQQQG            1 GNQQQG    6 (6)
+Q Consensus         1 gnqqqg    6 (6)
+                      |.||+|
+T Consensus        18 ~~~~~~   23 (340)
+T 3IYZ_A           18 GGQQMG   23 (340)
+T ss_pred             CCcccc
+Confidence            445554
+
+
+No 2
+>4J3H_A Nuclear pore complex protein Nup54; FG-repeat, mid-plane ring, gating, nup; HET: MSE; 1.5002A {Rattus norvegicus}
+Probab=13.12  E-value=2e+02  Score=9.45  Aligned_cols=6  Identities=50%  Similarity=0.739  Sum_probs=0.0  Template_Neff=7.600
+
+Q GNQQQG            1 GNQQQG    6 (6)
+Q Consensus         1 gnqqqg    6 (6)
+                      .+||.|
+T Consensus        23 ~~qq~g   28 (46)
+T 4J3H_A           23 KQQQEG   28 (46)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 3
+>4J3H_B Nuclear pore complex protein Nup54; FG-repeat, mid-plane ring, gating, nup; HET: MSE; 1.5002A {Rattus norvegicus}
+Probab=13.12  E-value=2e+02  Score=9.45  Aligned_cols=6  Identities=50%  Similarity=0.739  Sum_probs=0.0  Template_Neff=7.600
+
+Q GNQQQG            1 GNQQQG    6 (6)
+Q Consensus         1 gnqqqg    6 (6)
+                      .+||.|
+T Consensus        23 ~~qq~g   28 (46)
+T 4J3H_B           23 KQQQEG   28 (46)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 4
+>4NN1_A Transcriptional regulator; Helix turn helix motif, DNA; 2.99A {Mycobacterium tuberculosis}
+Probab=11.07  E-value=2.5e+02  Score=10.44  Aligned_cols=4  Identities=75%  Similarity=0.983  Sum_probs=0.0  Template_Neff=10.800
+
+Q GNQQQG            3 QQQG    6 (6)
+Q Consensus         3 qqqg    6 (6)
+                      ||||
+T Consensus       204 ~~~~  207 (218)
+T 4NN1_A          204 AQQG  207 (218)
+T ss_dssp             HHHH
+T ss_pred             HHhc
+
+
+No 5
+>3RJ1_J Mediator of RNA polymerase II; Mediator, RNA polymeras II, Pol; HET: SE, MSE; 4.3A {Saccharomyces cerevisiae}
+Probab=9.59  E-value=3e+02  Score=12.66  Aligned_cols=6  Identities=50%  Similarity=0.440  Sum_probs=0.0  Template_Neff=5.700
+
+Q GNQQQG            1 GNQQQG    6 (6)
+Q Consensus         1 gnqqqg    6 (6)
+                      |||+.|
+T Consensus        12 ~~~~~~   17 (223)
+T 3RJ1_J           12 GNQGSL   17 (223)
+T ss_dssp             ------
+T ss_pred             ccCCCc
+
+
+No 6
+>5YHP_B Cold active proline iminopeptidase (E.C.3.4.11.5); COLD ACTIVE ENZYME, PROTEASE, AMINOPEPTIDASE; HET: FLC; 2.393A {Glaciozyma antarctica}
+Probab=9.44  E-value=3.1e+02  Score=10.74  Aligned_cols=6  Identities=67%  Similarity=0.999  Sum_probs=0.0  Template_Neff=11.400
+
+Q GNQQQG            1 GNQQQG    6 (6)
+Q Consensus         1 gnqqqg    6 (6)
+                      |.||-|
+T Consensus        17 ~~~~~g   22 (355)
+T 5YHP_B           17 GGQQMG   22 (355)
+T ss_dssp             ------
+T ss_pred             ccCccc
+
+
+No 7
+>7V7Y_A HYDROLASE; HET: PEG; 2.702A {Bacillus pumilus}
+Probab=8.31  E-value=3.7e+02  Score=11.42  Aligned_cols=6  Identities=67%  Similarity=0.999  Sum_probs=0.0  Template_Neff=9.500
+
+Q GNQQQG            1 GNQQQG    6 (6)
+Q Consensus         1 gnqqqg    6 (6)
+                      ||||-+
+T Consensus         6 ~~~~~~   11 (343)
+T 7V7Y_A            6 GGQQMG   11 (343)
+T ss_dssp             ------
+T ss_pred             cccccC
+
+
+No 8
+>2X4J_A HYPOTHETICAL PROTEIN ORF137; VIRAL PROTEIN; 1.62A {PYROBACULUM SPHERICAL VIRUS}
+Probab=7.97  E-value=3.9e+02  Score=12.67  Aligned_cols=4  Identities=100%  Similarity=0.991  Sum_probs=0.0  Template_Neff=1.000
+
+Q GNQQQG            2 NQQQ    5 (6)
+Q Consensus         2 nqqq    5 (6)
+                      ||||
+T Consensus         6 nqqq    9 (137)
+T 2X4J_A            6 NQQQ    9 (137)
+T ss_dssp             ----
+T ss_pred             cchh
+
+
+No 9
+>1R3U_A phosphoribosyltransferase, Thermoanaerobacter tengcongensis, purine salvage; 2.5A {Thermoanaerobacter tengcongensis} SCOP: c.61.1.1
+Probab=7.30  E-value=4.4e+02  Score=10.84  Aligned_cols=6  Identities=67%  Similarity=0.999  Sum_probs=0.0  Template_Neff=8.400
+
+Q GNQQQG            1 GNQQQG    6 (6)
+Q Consensus         1 gnqqqg    6 (6)
+                      |.||.|
+T Consensus         6 ~~~~~~   11 (205)
+T 1R3U_A            6 GGQQMG   11 (205)
+T ss_dssp             ------
+T ss_pred             cccccC
+
+
+No 10
+>6O09_D Proliferating cellular nuclear antigen 1; histone, methylation, nucleosome, PCNA, PIP; 2.06A {Arabidopsis thaliana}
+Probab=7.14  E-value=4.5e+02  Score=11.06  Aligned_cols=6  Identities=67%  Similarity=0.999  Sum_probs=0.0  Template_Neff=9.400
+
+Q GNQQQG            1 GNQQQG    6 (6)
+Q Consensus         1 gnqqqg    6 (6)
+                      |+||-|
+T Consensus        26 ~~~~~~   31 (312)
+T 6O09_D           26 GGQQMG   31 (312)
+T ss_dssp             TCTCSE
+T ss_pred             cccccc
+
+

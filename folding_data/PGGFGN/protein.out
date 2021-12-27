@@ -1,0 +1,160 @@
+Query         PGGFGN
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 05:46:03 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/PGGFGN/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/PGGFGN/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 1YZY_A Hypothetical protein HI  49.3      15 0.00017   16.7   0.0    6    1-6     396-401 (413)
+  2 3DQQ_A Putative tRNA synthase;  45.4      20 0.00022   16.5   0.0    6    1-6     403-408 (421)
+  3 4XG0_A TRAP PERIPLASMIC SOLUTE  41.5      25 0.00027   16.4   0.0    6    1-6     404-409 (427)
+  4 5DMH_B Uncharacterized protein  40.6      26 0.00029   16.5   0.0    6    1-6     435-440 (454)
+  5 4XFM_A Uncharacterized protein  40.3      26 0.00029   16.7   0.0    6    1-6     442-447 (464)
+  6 4XGJ_A Uncharacterized protein  39.5      28 0.00031   16.6   0.0    6    1-6     442-447 (464)
+  7 5DMH_A Uncharacterized protein  37.7      31 0.00034   16.3   0.0    6    1-6     435-440 (454)
+  8 4XFR_B Uncharacterized protein  34.8      37 0.00041   15.9   0.0    6    1-6     404-409 (427)
+  9 3K1T_A Glutamate--cysteine lig  27.7      58 0.00064   16.8   0.0    6    1-6      66-71  (432)
+ 10 3RLK_A A1 protein; Beta-barrel  22.5      84 0.00093   15.4   0.0    6    1-6     123-128 (192)
+
+No 1
+>1YZY_A Hypothetical protein HI1011; PUTATIVE TRNA SYNTHASE, STRUCTURAL GENOMICS; 2.1A {Haemophilus influenzae} SCOP: c.146.1.1
+Probab=49.33  E-value=15  Score=16.73  Aligned_cols=6  Identities=50%  Similarity=1.210  Sum_probs=4.4  Template_Neff=7.700
+
+Q PGGFGN            1 PGGFGN    6 (6)
+Q Consensus         1 pggfgn    6 (6)
+                      +|+||+
+T Consensus       396 ~G~fG~  401 (413)
+T 1YZY_A          396 SGNFGK  401 (413)
+T ss_dssp             CTTCSC
+T ss_pred             cccCCC
+Confidence            578885
+
+
+No 2
+>3DQQ_A Putative tRNA synthase; tRNA synthase, Salmonella typhimurium, Structural; 2.7A {Salmonella typhimurium}
+Probab=45.37  E-value=20  Score=16.46  Aligned_cols=6  Identities=50%  Similarity=1.287  Sum_probs=4.3  Template_Neff=7.700
+
+Q PGGFGN            1 PGGFGN    6 (6)
+Q Consensus         1 pggfgn    6 (6)
+                      +|+||+
+T Consensus       403 aG~fG~  408 (421)
+T 3DQQ_A          403 SGNFGD  408 (421)
+T ss_dssp             CTTCSC
+T ss_pred             cccCCC
+Confidence            578874
+
+
+No 3
+>4XG0_A TRAP PERIPLASMIC SOLUTE BINDING PROTEIN; UNKNOWN FUNCTION, ENZYME FUNCTION INITIATIVE; HET: CIT, SO4; 1.7A {Bordetella bronchiseptica}
+Probab=41.49  E-value=25  Score=16.36  Aligned_cols=6  Identities=67%  Similarity=1.553  Sum_probs=4.1  Template_Neff=7.400
+
+Q PGGFGN            1 PGGFGN    6 (6)
+Q Consensus         1 pggfgn    6 (6)
+                      +|+||+
+T Consensus       404 aG~fG~  409 (427)
+T 4XG0_A          404 AGGFGE  409 (427)
+T ss_dssp             CTTCSC
+T ss_pred             CCCCCC
+Confidence            577874
+
+
+No 4
+>5DMH_B Uncharacterized protein conserved in bacteria; DOMAIN OF UNKNOWN FUNCTION, DUF1537; HET: ADP, MSE; 1.8A {Cupriavidus necator (strain ATCC 17699 / H16 / DSM 428 / Stanier 337)}
+Probab=40.62  E-value=26  Score=16.47  Aligned_cols=6  Identities=50%  Similarity=1.188  Sum_probs=4.3  Template_Neff=7.300
+
+Q PGGFGN            1 PGGFGN    6 (6)
+Q Consensus         1 pggfgn    6 (6)
+                      +|+||+
+T Consensus       435 aG~fG~  440 (454)
+T 5DMH_B          435 SGNFGG  440 (454)
+T ss_dssp             CTTCSC
+T ss_pred             cCcCCC
+Confidence            578874
+
+
+No 5
+>4XFM_A Uncharacterized protein; ENZYME FUNCTION INITIATIVE, EFI, Structural; 1.55A {Pectobacterium atrosepticum}
+Probab=40.31  E-value=26  Score=16.66  Aligned_cols=6  Identities=83%  Similarity=1.713  Sum_probs=4.2  Template_Neff=7.000
+
+Q PGGFGN            1 PGGFGN    6 (6)
+Q Consensus         1 pggfgn    6 (6)
+                      +|+||+
+T Consensus       442 aG~fG~  447 (464)
+T 4XFM_A          442 AGGFGN  447 (464)
+T ss_dssp             CTTCSC
+T ss_pred             CCCCCC
+Confidence            578874
+
+
+No 6
+>4XGJ_A Uncharacterized protein; ENZYME FUNCTION INITIATIVE, EFI, Structural; HET: MSE; 1.9A {Pectobacterium atrosepticum}
+Probab=39.46  E-value=28  Score=16.64  Aligned_cols=6  Identities=83%  Similarity=1.713  Sum_probs=4.2  Template_Neff=6.900
+
+Q PGGFGN            1 PGGFGN    6 (6)
+Q Consensus         1 pggfgn    6 (6)
+                      +|+||+
+T Consensus       442 aG~fG~  447 (464)
+T 4XGJ_A          442 AGGFGN  447 (464)
+T ss_dssp             CTTCSC
+T ss_pred             CCCCCC
+Confidence            578874
+
+
+No 7
+>5DMH_A Uncharacterized protein conserved in bacteria; DOMAIN OF UNKNOWN FUNCTION, DUF1537; HET: ADP, MSE; 1.8A {Cupriavidus necator (strain ATCC 17699 / H16 / DSM 428 / Stanier 337)}
+Probab=37.70  E-value=31  Score=16.35  Aligned_cols=6  Identities=50%  Similarity=1.188  Sum_probs=4.2  Template_Neff=7.100
+
+Q PGGFGN            1 PGGFGN    6 (6)
+Q Consensus         1 pggfgn    6 (6)
+                      +|+||+
+T Consensus       435 aG~fG~  440 (454)
+T 5DMH_A          435 SGNFGG  440 (454)
+T ss_dssp             CTTCSC
+T ss_pred             CccCCC
+Confidence            578874
+
+
+No 8
+>4XFR_B Uncharacterized protein; ENZYME FUNCTION INITIATIVE, EFI, Structural; HET: MSE, CIT; 2.0A {Bordetella bronchiseptica}
+Probab=34.76  E-value=37  Score=15.88  Aligned_cols=6  Identities=67%  Similarity=1.553  Sum_probs=4.0  Template_Neff=7.300
+
+Q PGGFGN            1 PGGFGN    6 (6)
+Q Consensus         1 pggfgn    6 (6)
+                      +|+||+
+T Consensus       404 aG~fG~  409 (427)
+T 4XFR_B          404 AGGFGE  409 (427)
+T ss_dssp             CTTCSC
+T ss_pred             CCCCCC
+Confidence            577774
+
+
+No 9
+>3K1T_A Glutamate--cysteine ligase GshA; Putative gamma-glutamylcysteine synthetase, Structural Genomics; HET: GOL, SO4; 1.9A {Methylobacillus flagellatus KT}
+Probab=27.70  E-value=58  Score=16.85  Aligned_cols=6  Identities=83%  Similarity=1.774  Sum_probs=4.4  Template_Neff=4.100
+
+Q PGGFGN            1 PGGFGN    6 (6)
+Q Consensus         1 pggfgn    6 (6)
+                      |+||-|
+T Consensus        66 PaGFNN   71 (432)
+T 3K1T_A           66 PGGFNN   71 (432)
+T ss_dssp             CCCGGG
+T ss_pred             CCchhc
+Confidence            778865
+
+
+No 10
+>3RLK_A A1 protein; Beta-barrel, polyproline helix, STRUCTURAL PROTEIN; HET: PG4; 1.76A {Enterobacteria phage Qbeta}
+Probab=22.48  E-value=84  Score=15.41  Aligned_cols=6  Identities=83%  Similarity=1.780  Sum_probs=3.6  Template_Neff=1.700
+
+Q PGGFGN            1 PGGFGN    6 (6)
+Q Consensus         1 pggfgn    6 (6)
+                      ||-|||
+T Consensus       123 PG~Fg~  128 (192)
+T 3RLK_A          123 PGAFGN  128 (192)
+T ss_dssp             SSSSCC
+T ss_pred             CCcccc
+Confidence            566664
+
+

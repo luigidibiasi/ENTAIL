@@ -1,0 +1,143 @@
+Query         FLKYFT
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 21:21:18 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/FLKYFT/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/FLKYFT/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 7NX0_A Cell Surface Receptor C  40.6      26 0.00029   15.1   0.0    6    1-6      20-25  (79)
+  2 4N6V_8 Cystatin-B; stefin B, c  19.7   1E+02  0.0012   10.6   0.0    4    2-5      88-91  (91)
+  3 5L7Z_A Maternal protein exuper  18.8 1.1E+02  0.0013   14.0   0.0    5    1-5     328-332 (333)
+  4 4V6X_CU Ribosome; eukarya, euk  17.3 1.3E+02  0.0014   13.0   0.0    6    1-6      82-87  (128)
+  5 5T5H_V PROTEIN/RNA Complex; Tr  17.0 1.3E+02  0.0015   12.5   0.0    6    1-6      66-71  (99)
+  6 1JB0_J PHOTOSYSTEM I SUBUNIT P  16.8 1.3E+02  0.0015   11.2   0.0    6    1-6       4-9   (41)
+  7 6QPH_J Chlorophyll a-b binding  16.8 1.3E+02  0.0015   11.2   0.0    6    1-6       4-9   (41)
+  8 7O7Y_BU 40S ribosomal protein   16.4 1.4E+02  0.0016   12.9   0.0    6    1-6      82-87  (128)
+  9 6JO5_J Photosystem I P700 chlo  16.0 1.5E+02  0.0016   11.1   0.0    6    1-6       4-9   (41)
+ 10 4V7E_CU Ribosome; eukaryotic r  15.3 1.6E+02  0.0017   13.0   0.0    6    1-6      84-89  (130)
+
+No 1
+>7NX0_A Cell Surface Receptor Cytokine binding; 1.95A {Homo sapiens}
+Probab=40.64  E-value=26  Score=15.08  Aligned_cols=6  Identities=67%  Similarity=1.126  Sum_probs=3.5  Template_Neff=2.300
+
+Q FLKYFT            1 FLKYFT    6 (6)
+Q Consensus         1 flkyft    6 (6)
+                      |+|+||
+T Consensus        20 FikhlT   25 (79)
+T 7NX0_A           20 FIKHFT   25 (79)
+T ss_pred             HHHHhc
+Confidence            566664
+
+
+No 2
+>4N6V_8 Cystatin-B; stefin B, cystatin B, partial; HET: SO4; 1.8A {Homo sapiens}
+Probab=19.72  E-value=1e+02  Score=10.62  Aligned_cols=4  Identities=75%  Similarity=1.572  Sum_probs=0.0  Template_Neff=9.200
+
+Q FLKYFT            2 LKYF    5 (6)
+Q Consensus         2 lkyf    5 (6)
+                      |+||
+T Consensus        88 ~~~~   91 (91)
+T 4N6V_8           88 LTYF   91 (91)
+T ss_dssp             CCCC
+T ss_pred             CcCC
+
+
+No 3
+>5L7Z_A Maternal protein exuperantia; Exonuclease, RNA, pseudo nuclease, hydrolase; 2.37A {Drosophila melanogaster}
+Probab=18.77  E-value=1.1e+02  Score=13.98  Aligned_cols=5  Identities=80%  Similarity=1.769  Sum_probs=0.0  Template_Neff=7.200
+
+Q FLKYFT            1 FLKYF    5 (6)
+Q Consensus         1 flkyf    5 (6)
+                      |+.||
+T Consensus       328 f~~~~  332 (333)
+T 5L7Z_A          328 FLNYF  332 (333)
+T ss_dssp             -----
+T ss_pred             HHHhh
+
+
+No 4
+>4V6X_CU Ribosome; eukarya, eukaryotic, ribosomal, 80S, RNA; 5.0A {Homo sapiens}
+Probab=17.29  E-value=1.3e+02  Score=12.99  Aligned_cols=6  Identities=67%  Similarity=1.364  Sum_probs=0.0  Template_Neff=5.100
+
+Q FLKYFT            1 FLKYFT    6 (6)
+Q Consensus         1 flkyft    6 (6)
+                      .|||+|
+T Consensus        82 YlKYLt   87 (128)
+T 4V6X_CU          82 YLKYLT   87 (128)
+T ss_pred             HHHHHH
+
+
+No 5
+>5T5H_V PROTEIN/RNA Complex; Trypanosoma cruzi, ribosomal subunit, assmebly; HET: OMU, MG, A2M, 5MC, OMG, OMC, 7MG; 2.54A {Trypanosoma cruzi}
+Probab=17.00  E-value=1.3e+02  Score=12.51  Aligned_cols=6  Identities=50%  Similarity=1.253  Sum_probs=0.0  Template_Neff=5.000
+
+Q FLKYFT            1 FLKYFT    6 (6)
+Q Consensus         1 flkyft    6 (6)
+                      .|||+|
+T Consensus        66 YlKYLt   71 (99)
+T 5T5H_V           66 YFKYLT   71 (99)
+T ss_pred             HHHHHH
+
+
+No 6
+>1JB0_J PHOTOSYSTEM I SUBUNIT PSAA, PHOTOSYSTEM; MEMBRANE PROTEIN, MULTIPROTEIN-PIGMENT COMPLEX, PHOTOSYNTHESIS; HET: LHG, PQN, BCR, LMG, SF4, CLA; 2.5A {Synechococcus elongatus} SCOP: f.23.18.1
+Probab=16.85  E-value=1.3e+02  Score=11.22  Aligned_cols=6  Identities=50%  Similarity=1.242  Sum_probs=0.0  Template_Neff=3.900
+
+Q FLKYFT            1 FLKYFT    6 (6)
+Q Consensus         1 flkyft    6 (6)
+                      |.||++
+T Consensus         4 ~~kyls    9 (41)
+T 1JB0_J            4 FLTYLS    9 (41)
+T ss_pred             hHHHhh
+
+
+No 7
+>6QPH_J Chlorophyll a-b binding protein, chloroplastic; Photosystem I, Dunaliella, Electron Transport; HET: LMG, DGD, CL0, LMT, CLA, PQN, LUT, XAT, CAC, SQD, CHL, GSH, SF4, LHG, BCR; 3.4A {Dunaliella salina}
+Probab=16.81  E-value=1.3e+02  Score=11.22  Aligned_cols=6  Identities=33%  Similarity=0.949  Sum_probs=0.0  Template_Neff=3.900
+
+Q FLKYFT            1 FLKYFT    6 (6)
+Q Consensus         1 flkyft    6 (6)
+                      |.||++
+T Consensus         4 ~~kyLS    9 (41)
+T 6QPH_J            4 FTTYLS    9 (41)
+T ss_pred             hHHHhh
+
+
+No 8
+>7O7Y_BU 40S ribosomal protein S27, Ribosomal; Frameshift, virus, pseudoknot, RIBOSOME; HET: GTP, HIC, 5MC, UNX, A2M, 5MU, M2G, 7MG, 1MA, SAC, OMU, PSU, MG, OMG, V5N, YYG, 2MG, UY1, 6MZ, H2U, OMC, SPD, B8N, NMM, MA6, UR3, 4AC, MLZ, M3L, AME, SPM; 2.2A {Oryctolagus cuniculus}
+Probab=16.36  E-value=1.4e+02  Score=12.93  Aligned_cols=6  Identities=67%  Similarity=1.364  Sum_probs=0.0  Template_Neff=5.000
+
+Q FLKYFT            1 FLKYFT    6 (6)
+Q Consensus         1 flkyft    6 (6)
+                      .|||+|
+T Consensus        82 YlKYLt   87 (128)
+T 7O7Y_BU          82 YLKYLT   87 (128)
+T ss_pred             HHHHHH
+
+
+No 9
+>6JO5_J Photosystem I P700 chlorophyll a; photosystem membrane protein, PHOTOSYNTHESIS; HET: LMG, DGD, CL0, CLA, CHL, LUT, PQN, SF4, LHG, BCR; 2.9A {Chlamydomonas reinhardtii}
+Probab=15.96  E-value=1.5e+02  Score=11.13  Aligned_cols=6  Identities=33%  Similarity=0.949  Sum_probs=0.0  Template_Neff=3.900
+
+Q FLKYFT            1 FLKYFT    6 (6)
+Q Consensus         1 flkyft    6 (6)
+                      |.||++
+T Consensus         4 ~~kylS    9 (41)
+T 6JO5_J            4 FTTYLS    9 (41)
+T ss_pred             hHHHhh
+
+
+No 10
+>4V7E_CU Ribosome; eukaryotic ribosome, homology modeling, de; 5.5A {Triticum aestivum}
+Probab=15.34  E-value=1.6e+02  Score=12.96  Aligned_cols=6  Identities=67%  Similarity=1.364  Sum_probs=0.0  Template_Neff=4.700
+
+Q FLKYFT            1 FLKYFT    6 (6)
+Q Consensus         1 flkyft    6 (6)
+                      .|||+|
+T Consensus        84 YlKYLt   89 (130)
+T 4V7E_CU          84 YLKYLT   89 (130)
+T ss_pred             HHHHhh
+
+

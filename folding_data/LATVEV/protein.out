@@ -1,0 +1,148 @@
+Query         LATVEV
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 15:25:59 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LATVEV/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LATVEV/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2BCW_B 50S ribosomal protein L   3.5 1.1E+03   0.012    8.3   0.0    5    2-6      63-67  (68)
+  2 4FBW_D DNA repair protein rad3   3.5 1.1E+03   0.012    9.0   0.0    5    1-5      18-22  (59)
+  3 4UZM_A PUTATIVE MEMBRANE PROTE   3.5 1.1E+03   0.012   10.0   0.0    6    1-6      78-83  (120)
+  4 6HTL_A Phosphoprotein; Coiled-   3.4 1.2E+03   0.013   10.1   0.0    5    1-5      57-61  (78)
+  5 4R4G_A putative lipoprotein Yc   3.3 1.2E+03   0.013   10.2   0.0    5    2-6     234-238 (326)
+  6 5X7M_A Diaminopimelate decarbo   3.2 1.2E+03   0.014   10.5   0.0    5    1-5       1-5   (453)
+  7 5X7N_A Diaminopimelate decarbo   3.2 1.2E+03   0.014   10.5   0.0    5    1-5       1-5   (453)
+  8 6P7P_B E. coli MS115-1 NucC 2-   3.1 1.3E+03   0.014   10.1   0.0    6    1-6     102-107 (243)
+  9 3JRU_A Probable cytosol aminop   3.1 1.3E+03   0.014   11.2   0.0    4    3-6     337-340 (490)
+ 10 2D0O_A diol dehydratase-reacti   3.1 1.3E+03   0.014   11.9   0.0    6    1-6     196-201 (610)
+
+No 1
+>2BCW_B 50S ribosomal protein L11, 50S; Components involved in interaction between; 11.2A {Thermotoga maritima} SCOP: d.45.1.1
+Probab=3.51  E-value=1.1e+03  Score=8.26  Aligned_cols=5  Identities=80%  Similarity=0.846  Sum_probs=0.0  Template_Neff=7.600
+
+Q LATVEV            2 ATVEV    6 (6)
+Q Consensus         2 atvev    6 (6)
+                      |+|++
+T Consensus        63 a~v~i   67 (68)
+T 2BCW_B           63 AEVEV   67 (68)
+T ss_pred             CEEEE
+
+
+No 2
+>4FBW_D DNA repair protein rad32, DNA; DNA double-strand break repair, Nuclease; 2.2A {Schizosaccharomyces pombe}
+Probab=3.50  E-value=1.1e+03  Score=9.00  Aligned_cols=5  Identities=60%  Similarity=0.866  Sum_probs=0.0  Template_Neff=5.100
+
+Q LATVEV            1 LATVE    5 (6)
+Q Consensus         1 latve    5 (6)
+                      |+.||
+T Consensus        18 l~iVe   22 (59)
+T 4FBW_D           18 LGSVE   22 (59)
+T ss_pred             ceeEE
+
+
+No 3
+>4UZM_A PUTATIVE MEMBRANE PROTEIN IGAA HOMOLOG; STRUCTURAL PROTEIN; NMR {ESCHERICHIA COLI}
+Probab=3.49  E-value=1.1e+03  Score=9.97  Aligned_cols=6  Identities=67%  Similarity=0.866  Sum_probs=0.0  Template_Neff=5.600
+
+Q LATVEV            1 LATVEV    6 (6)
+Q Consensus         1 latvev    6 (6)
+                      |..+||
+T Consensus        78 ld~vEV   83 (120)
+T 4UZM_A           78 LDSVEV   83 (120)
+T ss_dssp             ETTEEE
+T ss_pred             EccEEE
+
+
+No 4
+>6HTL_A Phosphoprotein; Coiled-Coil, Alpha Helix, Tetramer, 3-10; 2.3A {Measles morbillivirus}
+Probab=3.39  E-value=1.2e+03  Score=10.14  Aligned_cols=5  Identities=40%  Similarity=0.787  Sum_probs=0.0  Template_Neff=2.800
+
+Q LATVEV            1 LATVE    5 (6)
+Q Consensus         1 latve    5 (6)
+                      ++|+|
+T Consensus        57 lSTiE   61 (78)
+T 6HTL_A           57 ISTLE   61 (78)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 5
+>4R4G_A putative lipoprotein YcdA; Two domain protein, N-terminal domain; HET: PG4; 2.62A {Bacillus subtilis subsp. subtilis str. 168}
+Probab=3.34  E-value=1.2e+03  Score=10.18  Aligned_cols=5  Identities=60%  Similarity=0.594  Sum_probs=0.0  Template_Neff=8.900
+
+Q LATVEV            2 ATVEV    6 (6)
+Q Consensus         2 atvev    6 (6)
+                      |+|+|
+T Consensus       234 a~V~V  238 (326)
+T 4R4G_A          234 AIVEA  238 (326)
+T ss_dssp             EEEEE
+T ss_pred             EEEEE
+
+
+No 6
+>5X7M_A Diaminopimelate decarboxylase (E.C.4.1.1.20); Decarboxylase, LYASE; HET: PLP; 2.4A {Corynebacterium glutamicum (strain ATCC 13032 / DSM 20300 / JCM 1318 / LMG 3730 / NCIMB 10025)}
+Probab=3.23  E-value=1.2e+03  Score=10.54  Aligned_cols=5  Identities=80%  Similarity=0.979  Sum_probs=0.0  Template_Neff=9.200
+
+Q LATVEV            1 LATVE    5 (6)
+Q Consensus         1 latve    5 (6)
+                      +||||
+T Consensus         1 ~~~~~    5 (453)
+T 5X7M_A            1 MATVE    5 (453)
+T ss_dssp             --CHH
+T ss_pred             CCccc
+
+
+No 7
+>5X7N_A Diaminopimelate decarboxylase (E.C.4.1.1.20); Decarboxylase, LYASE; HET: GOL, LYS, PLP; 1.72A {Corynebacterium glutamicum (strain ATCC 13032 / DSM 20300 / JCM 1318 / LMG 3730 / NCIMB 10025)}
+Probab=3.23  E-value=1.2e+03  Score=10.54  Aligned_cols=5  Identities=80%  Similarity=0.979  Sum_probs=0.0  Template_Neff=9.200
+
+Q LATVEV            1 LATVE    5 (6)
+Q Consensus         1 latve    5 (6)
+                      +||||
+T Consensus         1 ~~~~~    5 (453)
+T 5X7N_A            1 MATVE    5 (453)
+T ss_dssp             --CHH
+T ss_pred             CCccc
+
+
+No 8
+>6P7P_B E. coli MS115-1 NucC 2-241/RNA; nuclease, DNA BINDING PROTEIN; 1.665A {Escherichia coli MS 115-1}
+Probab=3.13  E-value=1.3e+03  Score=10.07  Aligned_cols=6  Identities=33%  Similarity=0.346  Sum_probs=0.0  Template_Neff=7.800
+
+Q LATVEV            1 LATVEV    6 (6)
+Q Consensus         1 latvev    6 (6)
+                      +|.+||
+T Consensus       102 ~aviEV  107 (243)
+T 6P7P_B          102 YAVFEA  107 (243)
+T ss_dssp             EEEEEE
+T ss_pred             EEEEEE
+
+
+No 9
+>3JRU_A Probable cytosol aminopeptidase (E.C.3.4.11.1); Bacterial blight, Xoo0834, pepA, Xanthomonas; 2.6A {Xanthomonas oryzae pv. oryzae}
+Probab=3.10  E-value=1.3e+03  Score=11.17  Aligned_cols=4  Identities=75%  Similarity=1.049  Sum_probs=0.0  Template_Neff=7.900
+
+Q LATVEV            3 TVEV    6 (6)
+Q Consensus         3 tvev    6 (6)
+                      ||||
+T Consensus       337 tvEi  340 (490)
+T 3JRU_A          337 TIEV  340 (490)
+T ss_dssp             EEEC
+T ss_pred             EEEe
+
+
+No 10
+>2D0O_A diol dehydratase-reactivating factor large subunit; CHAPERONE; HET: ADP, SO4; 2.0A {Klebsiella oxytoca} SCOP: c.8.6.1, c.55.1.6
+Probab=3.08  E-value=1.3e+03  Score=11.90  Aligned_cols=6  Identities=67%  Similarity=0.949  Sum_probs=0.0  Template_Neff=7.000
+
+Q LATVEV            1 LATVEV    6 (6)
+Q Consensus         1 latvev    6 (6)
+                      +|.|||
+T Consensus       196 ~~~~ev  201 (610)
+T 2D0O_A          196 LAAIEV  201 (610)
+T ss_dssp             EEEEEE
+T ss_pred             EEEEEE
+
+

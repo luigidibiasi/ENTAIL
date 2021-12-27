@@ -1,0 +1,148 @@
+Query         NANTSN
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 22:56:17 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NANTSN/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NANTSN/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6DAQ_A PhdJ; aldolase, LYASE;    4.5   8E+02  0.0089   10.8   0.0    6    1-6     328-333 (334)
+  2 6BGK_B Caspase-3 Mutant- D9A,D   4.3 8.6E+02  0.0095    9.6   0.0    4    3-6       3-6   (175)
+  3 6N7M_A Hypothetical Protein CD   4.0 9.3E+02    0.01   11.2   0.0    6    1-6       2-7   (110)
+  4 6N7M_B Hypothetical Protein CD   4.0 9.3E+02    0.01   11.2   0.0    6    1-6       2-7   (110)
+  5 7CG0_k Flagellar hook protein    4.0 9.4E+02    0.01    9.5   0.0    6    1-6      32-37  (138)
+  6 7NVG_Q2 bacterial flagellum, f   4.0 9.4E+02    0.01    9.5   0.0    6    1-6      32-37  (138)
+  7 2KKE_B Uncharacterized protein   3.8   1E+03   0.011    9.9   0.0    4    2-5      34-37  (53)
+  8 3P20_A V-type ATP synthase alp   3.6 1.1E+03   0.012   12.2   0.0    5    2-6     295-299 (588)
+  9 6XBW_C V-type proton ATPase ca   3.6 1.1E+03   0.012   12.4   0.0    5    2-6     313-317 (617)
+ 10 7L3O_A Threonyl-tRNA synthetas   3.5 1.1E+03   0.012   10.3   0.0    6    1-6     436-441 (442)
+
+No 1
+>6DAQ_A PhdJ; aldolase, LYASE; HET: 9KP, KPI; 2.0A {Mycobacterium vanbaalenii}
+Probab=4.55  E-value=8e+02  Score=10.83  Aligned_cols=6  Identities=33%  Similarity=0.302  Sum_probs=0.0  Template_Neff=8.600
+
+Q NANTSN            1 NANTSN    6 (6)
+Q Consensus         1 nantsn    6 (6)
+                      +-|+||
+T Consensus       328 ~~~~~~  333 (334)
+T 6DAQ_A          328 SLAVSN  333 (334)
+T ss_dssp             ------
+T ss_pred             hhhccC
+
+
+No 2
+>6BGK_B Caspase-3 Mutant- D9A,D28A,T152D, ACE-ASP-GLU-VAL-ASP-0QE; allosteric regulation  apoptosis ; 1.87A {Homo sapiens}
+Probab=4.32  E-value=8.6e+02  Score=9.63  Aligned_cols=4  Identities=75%  Similarity=0.858  Sum_probs=0.0  Template_Neff=8.700
+
+Q NANTSN            3 NTSN    6 (6)
+Q Consensus         3 ntsn    6 (6)
+                      ||+|
+T Consensus         3 ~~~~    6 (175)
+T 6BGK_B            3 NTEN    6 (175)
+T ss_pred             cccc
+
+
+No 3
+>6N7M_A Hypothetical Protein CD630_05490; Structural Genomics, Center for Structural; HET: MSE; 1.78A {Peptoclostridium difficile (strain 630)}
+Probab=4.04  E-value=9.3e+02  Score=11.17  Aligned_cols=6  Identities=67%  Similarity=0.883  Sum_probs=0.0  Template_Neff=1.300
+
+Q NANTSN            1 NANTSN    6 (6)
+Q Consensus         1 nantsn    6 (6)
+                      |++.||
+T Consensus         2 nsd~sn    7 (110)
+T 6N7M_A            2 NADSSN    7 (110)
+T ss_dssp             ------
+T ss_pred             Cccccc
+
+
+No 4
+>6N7M_B Hypothetical Protein CD630_05490; Structural Genomics, Center for Structural; HET: MSE; 1.78A {Peptoclostridium difficile (strain 630)}
+Probab=4.04  E-value=9.3e+02  Score=11.17  Aligned_cols=6  Identities=67%  Similarity=0.883  Sum_probs=0.0  Template_Neff=1.300
+
+Q NANTSN            1 NANTSN    6 (6)
+Q Consensus         1 nantsn    6 (6)
+                      |++.||
+T Consensus         2 nsd~sn    7 (110)
+T 6N7M_B            2 NADSSN    7 (110)
+T ss_dssp             ------
+T ss_pred             Cccccc
+
+
+No 5
+>7CG0_k Flagellar hook protein FlgE, Flagellar; Proximal rod, FlgC, FlgB, FliF; 3.2A {Salmonella typhimurium (strain LT2 / SGSC1412 / ATCC 700720)}
+Probab=4.00  E-value=9.4e+02  Score=9.52  Aligned_cols=6  Identities=50%  Similarity=0.651  Sum_probs=0.0  Template_Neff=7.800
+
+Q NANTSN            1 NANTSN    6 (6)
+Q Consensus         1 nantsn    6 (6)
+                      |++|.+
+T Consensus        32 N~~tpg   37 (138)
+T 7CG0_k           32 NADTPG   37 (138)
+T ss_dssp             TTTSTT
+T ss_pred             cCCCCC
+
+
+No 6
+>7NVG_Q2 bacterial flagellum, flagella, basal body; 3.7A {Salmonella enterica subsp. enterica serovar Typhimurium}
+Probab=4.00  E-value=9.4e+02  Score=9.52  Aligned_cols=6  Identities=50%  Similarity=0.651  Sum_probs=0.0  Template_Neff=7.800
+
+Q NANTSN            1 NANTSN    6 (6)
+Q Consensus         1 nantsn    6 (6)
+                      |++|.+
+T Consensus        32 N~~tpg   37 (138)
+T 7NVG_Q2          32 NADTPG   37 (138)
+T ss_pred             cCCCCC
+
+
+No 7
+>2KKE_B Uncharacterized protein; Protein NMR, NORTHEAST STRUCTURAL GENOMICS; NMR {Methanothermobacter thermautotrophicus str. Delta H}
+Probab=3.79  E-value=1e+03  Score=9.87  Aligned_cols=4  Identities=100%  Similarity=0.908  Sum_probs=0.0  Template_Neff=1.000
+
+Q NANTSN            2 ANTS    5 (6)
+Q Consensus         2 ants    5 (6)
+                      ||||
+T Consensus        34 ants   37 (53)
+T 2KKE_B           34 ANTS   37 (53)
+T ss_dssp             TTSC
+T ss_pred             CCcc
+
+
+No 8
+>3P20_A V-type ATP synthase alpha chain; HYDROLASE, ATP Binding; HET: ACY, VO4, MPD; 2.85A {Pyrococcus horikoshii, Pyrococcus horikoshii}
+Probab=3.62  E-value=1.1e+03  Score=12.24  Aligned_cols=5  Identities=100%  Similarity=0.979  Sum_probs=0.0  Template_Neff=6.700
+
+Q NANTSN            2 ANTSN    6 (6)
+Q Consensus         2 antsn    6 (6)
+                      +||||
+T Consensus       295 ants~  299 (588)
+T 3P20_A          295 ANTSN  299 (588)
+T ss_dssp             ECCSS
+T ss_pred             EeCCC
+
+
+No 9
+>6XBW_C V-type proton ATPase catalytic subunit; PROTON TRANSPORT; HET: POV, ADP, OLA, NAG; 3.37A {Bos taurus}
+Probab=3.61  E-value=1.1e+03  Score=12.35  Aligned_cols=5  Identities=100%  Similarity=0.979  Sum_probs=0.0  Template_Neff=6.600
+
+Q NANTSN            2 ANTSN    6 (6)
+Q Consensus         2 antsn    6 (6)
+                      +||||
+T Consensus       313 ants~  317 (617)
+T 6XBW_C          313 ANTSN  317 (617)
+T ss_dssp             EEESS
+T ss_pred             EeCCC
+
+
+No 10
+>7L3O_A Threonyl-tRNA synthetase (E.C.6.1.1.3); SSGCID, Threonyl-tRNA synthetase, class-II aminoacyl-tRNA; 2.1A {Cryptosporidium parvum (strain Iowa II)}
+Probab=3.49  E-value=1.1e+03  Score=10.31  Aligned_cols=6  Identities=50%  Similarity=0.811  Sum_probs=0.0  Template_Neff=9.900
+
+Q NANTSN            1 NANTSN    6 (6)
+Q Consensus         1 nantsn    6 (6)
+                      +.|.||
+T Consensus       436 ~~~~~~  441 (442)
+T 7L3O_A          436 DSNSSN  441 (442)
+T ss_dssp             C-----
+T ss_pred             ccCcCC
+
+

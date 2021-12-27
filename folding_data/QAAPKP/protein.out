@@ -1,0 +1,149 @@
+Query         QAAPKP
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 07:04:27 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QAAPKP/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QAAPKP/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6JQB_A Glucan 1,4-alpha-maltot   5.8 5.9E+02  0.0065   11.5   0.0    6    1-6       2-7   (530)
+  2 3U2S_C PG9 heavy chain, PG9 li   5.8 5.9E+02  0.0065   10.9   0.0    5    1-5      80-84  (124)
+  3 2H7Z_B Irditoxin subunit A, Ir   5.6 6.2E+02  0.0068    8.9   0.0    6    1-6       1-6   (77)
+  4 3SEB_A STAPHYLOCOCCAL ENTEROTO   5.5 6.3E+02   0.007   11.9   0.0    6    1-6       3-8   (238)
+  5 6D1T_A Methyl-CpG-binding doma   5.5 6.4E+02  0.0071    9.3   0.0    5    2-6      74-78  (79)
+  6 3M1I_B GTP-binding nuclear pro   5.0   7E+02  0.0078   10.7   0.0    6    1-6       5-10  (191)
+  7 5Z8Q_A Heat shock protein SSA1   5.0 7.1E+02  0.0078    8.5   0.0    4    1-4      96-99  (101)
+  8 6LGB_B Sucrose hydrolase; Sucr   5.0 7.2E+02   0.008   11.5   0.0    6    1-6      24-29  (598)
+  9 3MC9_B Alr2269 protein; Polype   4.9 7.3E+02  0.0081   11.0   0.0    6    1-6      18-23  (316)
+ 10 1JDW_A L-ARGININE\:GLYCINE AMI   4.8 7.5E+02  0.0083   11.7   0.0    5    2-6     212-216 (423)
+
+No 1
+>6JQB_A Glucan 1,4-alpha-maltotetraohydrolase (E.C.3.2.1.60); Maltooligosaccharide-forming amylase, saccharophila STB07, Sugar; HET: 7SA, EDO; 1.101A {Pelomonas saccharophila}
+Probab=5.84  E-value=5.9e+02  Score=11.51  Aligned_cols=6  Identities=50%  Similarity=0.706  Sum_probs=0.0  Template_Neff=9.700
+
+Q QAAPKP            1 QAAPKP    6 (6)
+Q Consensus         1 qaapkp    6 (6)
+                      |++|.|
+T Consensus         2 ~~~~~~    7 (530)
+T 6JQB_A            2 QAGKSP    7 (530)
+T ss_dssp             CCCCCT
+T ss_pred             CCcCCC
+
+
+No 2
+>3U2S_C PG9 heavy chain, PG9 light; greek key, immunoglobulin, immune recognition; HET: TYS, PCA, BU3, SO4, BMA, MAN, NAG; 1.797A {Homo sapiens}
+Probab=5.81  E-value=5.9e+02  Score=10.90  Aligned_cols=5  Identities=20%  Similarity=0.209  Sum_probs=0.0  Template_Neff=5.400
+
+Q QAAPKP            1 QAAPK    5 (6)
+Q Consensus         1 qaapk    5 (6)
+                      ||-||
+T Consensus        80 QaCpK   84 (124)
+T 3U2S_C           80 EAVDA   84 (124)
+T ss_dssp             CCSCH
+T ss_pred             HhcCH
+
+
+No 3
+>2H7Z_B Irditoxin subunit A, Irditoxin subunit; three-finger toxin, neurotoxin, snake venom; 1.5A {Boiga irregularis} SCOP: g.7.1.1
+Probab=5.60  E-value=6.2e+02  Score=8.85  Aligned_cols=6  Identities=50%  Similarity=0.562  Sum_probs=0.0  Template_Neff=8.200
+
+Q QAAPKP            1 QAAPKP    6 (6)
+Q Consensus         1 qaapkp    6 (6)
+                      ||++.+
+T Consensus         1 ~~~~~~    6 (77)
+T 2H7Z_B            1 QAKGPP    6 (77)
+T ss_pred             CCCCCC
+
+
+No 4
+>3SEB_A STAPHYLOCOCCAL ENTEROTOXIN B; TOXIN, SUPERANTIGEN, ENTEROTOXIN; 1.48A {Staphylococcus aureus} SCOP: d.15.6.1, b.40.2.2
+Probab=5.49  E-value=6.3e+02  Score=11.89  Aligned_cols=6  Identities=67%  Similarity=1.171  Sum_probs=0.0  Template_Neff=5.500
+
+Q QAAPKP            1 QAAPKP    6 (6)
+Q Consensus         1 qaapkp    6 (6)
+                      |.+|+|
+T Consensus         3 ~~~~~~    8 (238)
+T 3SEB_A            3 QPDPKP    8 (238)
+T ss_dssp             CCCSSS
+T ss_pred             CCCCCh
+
+
+No 5
+>6D1T_A Methyl-CpG-binding domain protein 1/DNA Complex; mbd, dna-methylation, Structural Genomics, Structural; HET: UNX, 5CM; 2.25A {Homo sapiens}
+Probab=5.46  E-value=6.4e+02  Score=9.25  Aligned_cols=5  Identities=60%  Similarity=0.919  Sum_probs=0.0  Template_Neff=7.300
+
+Q QAAPKP            2 AAPKP    6 (6)
+Q Consensus         2 aapkp    6 (6)
+                      .+|||
+T Consensus        74 ~~~~~   78 (79)
+T 6D1T_A           74 PAPKA   78 (79)
+T ss_dssp             -----
+T ss_pred             CCCCC
+
+
+No 6
+>3M1I_B GTP-binding nuclear protein GSP1/CNR1, Ran-specific; HEAT REPEAT, EXPORTIN, GTP-binding, Nucleotide-binding; HET: GTP; 2.0A {Saccharomyces cerevisiae}
+Probab=5.05  E-value=7e+02  Score=10.67  Aligned_cols=6  Identities=83%  Similarity=1.381  Sum_probs=0.0  Template_Neff=7.200
+
+Q QAAPKP            1 QAAPKP    6 (6)
+Q Consensus         1 qaapkp    6 (6)
+                      ||+++|
+T Consensus         5 ~~~~~~   10 (191)
+T 3M1I_B            5 EAAPKP   10 (191)
+T ss_dssp             ------
+T ss_pred             cCCCCC
+
+
+No 7
+>5Z8Q_A Heat shock protein SSA1; yeast Ssa1, SBDalpha domain, CHAPERONE; NMR {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=5.03  E-value=7.1e+02  Score=8.49  Aligned_cols=4  Identities=50%  Similarity=0.792  Sum_probs=0.0  Template_Neff=9.700
+
+Q QAAPKP            1 QAAP    4 (6)
+Q Consensus         1 qaap    4 (6)
+                      |++|
+T Consensus        96 ~~~~   99 (101)
+T 5Z8Q_A           96 GGAP   99 (101)
+T ss_dssp             CCCC
+T ss_pred             CCCC
+
+
+No 8
+>6LGB_B Sucrose hydrolase; Sucrose, Glycoside hydrolase, GH13, HYDROLASE; HET: GLC, GOL; 1.7A {Bombyx mori}
+Probab=4.95  E-value=7.2e+02  Score=11.54  Aligned_cols=6  Identities=67%  Similarity=1.115  Sum_probs=0.0  Template_Neff=9.500
+
+Q QAAPKP            1 QAAPKP    6 (6)
+Q Consensus         1 qaapkp    6 (6)
+                      |.||+|
+T Consensus        24 ~~~~~~   29 (598)
+T 6LGB_B           24 QNAPTP   29 (598)
+T ss_dssp             ------
+T ss_pred             CCCCCC
+
+
+No 9
+>3MC9_B Alr2269 protein; Polypeptide transport associated, POTRA, outer; 2.2A {Nostoc sp.}
+Probab=4.91  E-value=7.3e+02  Score=10.99  Aligned_cols=6  Identities=67%  Similarity=1.226  Sum_probs=0.0  Template_Neff=8.300
+
+Q QAAPKP            1 QAAPKP    6 (6)
+Q Consensus         1 qaapkp    6 (6)
+                      |.||.|
+T Consensus        18 ~~~~~~   23 (316)
+T 3MC9_B           18 QPAPQP   23 (316)
+T ss_dssp             ------
+T ss_pred             CCCCCC
+
+
+No 10
+>1JDW_A L-ARGININE\:GLYCINE AMIDINOTRANSFERASE, BETA-MERCAPTOETHANOL; TRANSFERASE, CREATINE BIOSYNTHESIS, CATALYTIC TRIAD; 1.9A {Homo sapiens} SCOP: d.126.1.2
+Probab=4.81  E-value=7.5e+02  Score=11.72  Aligned_cols=5  Identities=80%  Similarity=1.424  Sum_probs=0.0  Template_Neff=7.700
+
+Q QAAPKP            2 AAPKP    6 (6)
+Q Consensus         2 aapkp    6 (6)
+                      ++|+|
+T Consensus       212 ~~P~p  216 (423)
+T 1JDW_A          212 TAPKP  216 (423)
+T ss_dssp             ECCCC
+T ss_pred             eCCCC
+
+

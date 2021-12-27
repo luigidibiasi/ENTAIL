@@ -1,0 +1,151 @@
+Query         CTVWWG
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 16:43:32 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/CTVWWG/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/CTVWWG/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2CKZ_D DNA-DIRECTED RNA POLYME  29.7      51 0.00056   13.8   0.0    6    1-6     207-212 (218)
+  2 6EU0_G DNA-directed RNA polyme  22.9      82  0.0009   13.0   0.0    6    1-6     207-212 (212)
+  3 2Q3T_A Protein At3g22680; Ense  18.5 1.2E+02  0.0013   14.4   0.0    6    1-6      64-69  (157)
+  4 6OIT_B Protein RDM1, Protein D  17.6 1.3E+02  0.0014   14.6   0.0    6    1-6      82-87  (175)
+  5 3QH6_A CT296; CT296, Iron, mod  17.3 1.3E+02  0.0014   12.6   0.0    5    1-5     111-115 (157)
+  6 1PA4_A Probable ribosome-bindi  16.5 1.4E+02  0.0015   11.2   0.0    5    1-5      47-51  (116)
+  7 4NU3_A ice-binding protein; Be  16.5 1.4E+02  0.0015   14.0   0.0    5    1-5     198-202 (255)
+  8 3WP9_A Ice-binding protein; Ri  15.5 1.5E+02  0.0017   13.5   0.0    5    1-5     161-165 (226)
+  9 6MYI_B Ostreolysin A6; BETA-SA  15.4 1.5E+02  0.0017   12.4   0.0    5    1-5      89-93  (139)
+ 10 6L7P_Q photosystem I, cyclic e  15.4 1.5E+02  0.0017   11.7   0.0    4    3-6      36-39  (45)
+
+No 1
+>2CKZ_D DNA-DIRECTED RNA POLYMERASE III 18; DNA-DIRECTED RNA POLYMERASE, MULTIPROTEIN COMPLEX; 3.2A {SACCHAROMYCES CEREVISIAE}
+Probab=29.72  E-value=51  Score=13.76  Aligned_cols=6  Identities=33%  Similarity=1.392  Sum_probs=3.9  Template_Neff=8.000
+
+Q CTVWWG            1 CTVWWG    6 (6)
+Q Consensus         1 ctvwwg    6 (6)
+                      ++.||.
+T Consensus       207 ~~~w~~  212 (218)
+T 2CKZ_D          207 LVSWWE  212 (218)
+T ss_dssp             EGGGTS
+T ss_pred             ceehhh
+Confidence            357884
+
+
+No 2
+>6EU0_G DNA-directed RNA polymerase III subunit; RNA Pol III, promoter opening;{Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=22.90  E-value=82  Score=13.03  Aligned_cols=6  Identities=33%  Similarity=1.392  Sum_probs=3.7  Template_Neff=8.200
+
+Q CTVWWG            1 CTVWWG    6 (6)
+Q Consensus         1 ctvwwg    6 (6)
+                      ++.||.
+T Consensus       207 ~~~Ww~  212 (212)
+T 6EU0_G          207 LVSWWE  212 (212)
+T ss_dssp             CCSTTC
+T ss_pred             ccccCC
+Confidence            356884
+
+
+No 3
+>2Q3T_A Protein At3g22680; Ensemble Refinement, Refinement Methodology Development; HET: SO4, EDO, CPS; 1.6A {Arabidopsis thaliana} SCOP: a.220.1.1
+Probab=18.51  E-value=1.2e+02  Score=14.43  Aligned_cols=6  Identities=50%  Similarity=1.049  Sum_probs=0.0  Template_Neff=2.600
+
+Q CTVWWG            1 CTVWWG    6 (6)
+Q Consensus         1 ctvwwg    6 (6)
+                      ||-|+|
+T Consensus        64 ftsW~G   69 (157)
+T 2Q3T_A           64 FTSWVG   69 (157)
+T ss_dssp             CSSHHH
+T ss_pred             ccchhH
+
+
+No 4
+>6OIT_B Protein RDM1, Protein DEFECTIVE IN; SMC-hinge, Coiled-coil, SNF2, RNA-directed DNA; 3.5A {Arabidopsis thaliana}
+Probab=17.64  E-value=1.3e+02  Score=14.56  Aligned_cols=6  Identities=50%  Similarity=1.049  Sum_probs=0.0  Template_Neff=2.500
+
+Q CTVWWG            1 CTVWWG    6 (6)
+Q Consensus         1 ctvwwg    6 (6)
+                      ||-|+|
+T Consensus        82 ftsW~G   87 (175)
+T 6OIT_B           82 FTSWVG   87 (175)
+T ss_dssp             CSSHHH
+T ss_pred             ccchHH
+
+
+No 5
+>3QH6_A CT296; CT296, Iron, modeling, Chlamydia, UNKNOWN; HET: PG4; 1.8A {Chlamydia trachomatis}
+Probab=17.34  E-value=1.3e+02  Score=12.61  Aligned_cols=5  Identities=40%  Similarity=0.999  Sum_probs=0.0  Template_Neff=6.800
+
+Q CTVWWG            1 CTVWW    5 (6)
+Q Consensus         1 ctvww    5 (6)
+                      ||+|+
+T Consensus       111 vtiWI  115 (157)
+T 3QH6_A          111 CSVLL  115 (157)
+T ss_pred             EEEEE
+
+
+No 6
+>1PA4_A Probable ribosome-binding factor A; Ribosome-binding Factor, Structural Genomics, Distant; NMR {Mycoplasma pneumoniae} SCOP: d.52.7.1
+Probab=16.53  E-value=1.4e+02  Score=11.17  Aligned_cols=5  Identities=40%  Similarity=0.621  Sum_probs=0.0  Template_Neff=8.400
+
+Q CTVWWG            1 CTVWW    5 (6)
+Q Consensus         1 ctvww    5 (6)
+                      |+|||
+T Consensus        47 a~Vy~   51 (116)
+T 1PA4_A           47 VTVYL   51 (116)
+T ss_dssp             EEECC
+T ss_pred             EEEEE
+
+
+No 7
+>4NU3_A ice-binding protein; Beta-helical, antifreeze activity, ice-crystal, ANTIFREEZE; HET: SO4; 1.399A {Flavobacterium frigoris PS1}
+Probab=16.52  E-value=1.4e+02  Score=14.03  Aligned_cols=5  Identities=20%  Similarity=1.238  Sum_probs=0.0  Template_Neff=5.500
+
+Q CTVWWG            1 CTVWW    5 (6)
+Q Consensus         1 ctvww    5 (6)
+                      |-|||
+T Consensus       198 ~NVfW  202 (255)
+T 4NU3_A          198 KNIFW  202 (255)
+T ss_dssp             GGEEE
+T ss_pred             cceEE
+
+
+No 8
+>3WP9_A Ice-binding protein; Right-handed Beta-helix, antifreeze protein; 1.6A {Colwellia}
+Probab=15.47  E-value=1.5e+02  Score=13.49  Aligned_cols=5  Identities=20%  Similarity=1.238  Sum_probs=0.0  Template_Neff=5.900
+
+Q CTVWWG            1 CTVWW    5 (6)
+Q Consensus         1 ctvww    5 (6)
+                      |-|+|
+T Consensus       161 ~NVfW  165 (226)
+T 3WP9_A          161 KNIFW  165 (226)
+T ss_dssp             GGEEE
+T ss_pred             cceEE
+
+
+No 9
+>6MYI_B Ostreolysin A6; BETA-SANDWICH FOLD, MEMBRANE BINDING PROTEIN; HET: EDO; 1.15A {Pleurotus ostreatus}
+Probab=15.45  E-value=1.5e+02  Score=12.44  Aligned_cols=5  Identities=20%  Similarity=1.059  Sum_probs=0.0  Template_Neff=6.200
+
+Q CTVWWG            1 CTVWW    5 (6)
+Q Consensus         1 ctvww    5 (6)
+                      |++.|
+T Consensus        89 ~~iyW   93 (139)
+T 6MYI_B           89 RHFYW   93 (139)
+T ss_dssp             EEEEE
+T ss_pred             EEEEE
+
+
+No 10
+>6L7P_Q photosystem I, cyclic electron transfer; HET: SQD, SF4, AJP, PQN, LHG, BCR, DGD; 3.6A {Thermosynechococcus elongatus BP-1}
+Probab=15.40  E-value=1.5e+02  Score=11.66  Aligned_cols=4  Identities=50%  Similarity=2.661  Sum_probs=0.0  Template_Neff=2.600
+
+Q CTVWWG            3 VWWG    6 (6)
+Q Consensus         3 vwwg    6 (6)
+                      +||+
+T Consensus        36 I~Wa   39 (45)
+T 6L7P_Q           36 IWWA   39 (45)
+T ss_dssp             HHHH
+T ss_pred             HHHH
+
+

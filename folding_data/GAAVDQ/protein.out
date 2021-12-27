@@ -1,0 +1,150 @@
+Query         GAAVDQ
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 22:30:17 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GAAVDQ/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GAAVDQ/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4MUT_B D,D-dipeptidase/D,D-car   6.8 4.8E+02  0.0054   10.9   0.0    5    1-5     119-123 (211)
+  2 4OAK_B D,D-dipeptidase/D,D-car   6.8 4.8E+02  0.0054   10.9   0.0    5    1-5     119-123 (211)
+  3 2MXZ_A L-alanyl-D-glutamate pe   6.8 4.8E+02  0.0054    9.8   0.0    5    1-5      69-73  (137)
+  4 4OX3_A LdcB (YodJ); LAS family   6.2 5.5E+02  0.0061   11.0   0.0    5    1-5     132-136 (219)
+  5 5HNM_B D-alanyl-D-alanine carb   6.1 5.6E+02  0.0062   10.7   0.0    5    1-5     120-124 (197)
+  6 4OX5_A LdcB (Spr0554); LAS fam   5.9 5.8E+02  0.0065   10.6   0.0    5    1-5     105-109 (187)
+  7 5OPZ_A ChiX; L-Ala D-Glu endop   5.6 6.2E+02  0.0069    9.7   0.0    5    1-5      75-79  (137)
+  8 5OQ1_A ChiX; L-Ala D-Glu endop   5.6 6.2E+02  0.0069    9.7   0.0    5    1-5      75-79  (137)
+  9 3U8I_B Phospholipase A2, membr   5.4 6.4E+02  0.0071   10.1   0.0    6    1-6      34-39  (124)
+ 10 4D0Y_B DACB (E.C.3.4.17.13); H   5.4 6.5E+02  0.0072   10.4   0.0    5    1-5     102-106 (184)
+
+No 1
+>4MUT_B D,D-dipeptidase/D,D-carboxypeptidase; CENTER FOR STRUCTURAL GENOMICS OF; HET: DAL; 2.25A {Enterococcus gallinarum}
+Probab=6.76  E-value=4.8e+02  Score=10.90  Aligned_cols=5  Identities=60%  Similarity=1.039  Sum_probs=0.0  Template_Neff=8.100
+
+Q GAAVDQ            1 GAAVD    5 (6)
+Q Consensus         1 gaavd    5 (6)
+                      |.|||
+T Consensus       119 G~AvD  123 (211)
+T 4MUT_B          119 GLAID  123 (211)
+T ss_dssp             TCEEE
+T ss_pred             eeEEE
+
+
+No 2
+>4OAK_B D,D-dipeptidase/D,D-carboxypeptidase; CENTER FOR STRUCTURAL GENOMICS OF; HET: PE3, DAL, SO4; 2.0A {Enterococcus gallinarum}
+Probab=6.76  E-value=4.8e+02  Score=10.90  Aligned_cols=5  Identities=60%  Similarity=1.039  Sum_probs=0.0  Template_Neff=8.100
+
+Q GAAVDQ            1 GAAVD    5 (6)
+Q Consensus         1 gaavd    5 (6)
+                      |.|||
+T Consensus       119 G~AvD  123 (211)
+T 4OAK_B          119 GLAID  123 (211)
+T ss_dssp             TCEEE
+T ss_pred             eeEEE
+
+
+No 3
+>2MXZ_A L-alanyl-D-glutamate peptidase (E.C.3.4.24.-); bacteriophage T5, endolysin, l-alanoyl-d-glutamate peptidase; HET: ZN; NMR {Enterobacteria phage T5}
+Probab=6.76  E-value=4.8e+02  Score=9.84  Aligned_cols=5  Identities=60%  Similarity=1.099  Sum_probs=0.0  Template_Neff=8.800
+
+Q GAAVDQ            1 GAAVD    5 (6)
+Q Consensus         1 gaavd    5 (6)
+                      |-|||
+T Consensus        69 G~AvD   73 (137)
+T 2MXZ_A           69 GDAID   73 (137)
+T ss_dssp             TCEEE
+T ss_pred             ccEEE
+
+
+No 4
+>4OX3_A LdcB (YodJ); LAS family, LD-carboxypeptidase, Cell wall; 2.0A {Bacillus subtilis}
+Probab=6.16  E-value=5.5e+02  Score=11.00  Aligned_cols=5  Identities=60%  Similarity=0.939  Sum_probs=0.0  Template_Neff=7.700
+
+Q GAAVDQ            1 GAAVD    5 (6)
+Q Consensus         1 gaavd    5 (6)
+                      |.|||
+T Consensus       132 GlAvD  136 (219)
+T 4OX3_A          132 GLAMD  136 (219)
+T ss_dssp             TCEEE
+T ss_pred             ceeEE
+
+
+No 5
+>5HNM_B D-alanyl-D-alanine carboxypeptidase (E.C.3.4.16.4); CENTER FOR STRUCTURAL GENOMICS OF; HET: SO4; 2.3A {Enterococcus faecalis (strain ATCC 700802 / V583)}
+Probab=6.06  E-value=5.6e+02  Score=10.66  Aligned_cols=5  Identities=80%  Similarity=1.059  Sum_probs=0.0  Template_Neff=8.000
+
+Q GAAVDQ            1 GAAVD    5 (6)
+Q Consensus         1 gaavd    5 (6)
+                      |.|||
+T Consensus       120 G~AvD  124 (197)
+T 5HNM_B          120 GLAVD  124 (197)
+T ss_dssp             TCEEE
+T ss_pred             eeEEE
+
+
+No 6
+>4OX5_A LdcB (Spr0554); LAS family, LD-carboxypeptidase, Cell wall; HET: MSE; 1.8A {Streptococcus pneumoniae}
+Probab=5.86  E-value=5.8e+02  Score=10.56  Aligned_cols=5  Identities=60%  Similarity=0.840  Sum_probs=0.0  Template_Neff=7.900
+
+Q GAAVDQ            1 GAAVD    5 (6)
+Q Consensus         1 gaavd    5 (6)
+                      |.|||
+T Consensus       105 G~AvD  109 (187)
+T 4OX5_A          105 GLAFD  109 (187)
+T ss_dssp             TCEEE
+T ss_pred             eeEEE
+
+
+No 7
+>5OPZ_A ChiX; L-Ala D-Glu endopeptidase Serratia marcescens; 1.34A {Serratia marcescens}
+Probab=5.59  E-value=6.2e+02  Score=9.69  Aligned_cols=5  Identities=80%  Similarity=1.086  Sum_probs=0.0  Template_Neff=8.500
+
+Q GAAVDQ            1 GAAVD    5 (6)
+Q Consensus         1 gaavd    5 (6)
+                      |.|+|
+T Consensus        75 G~AiD   79 (137)
+T 5OPZ_A           75 GHAVD   79 (137)
+T ss_dssp             TCEEE
+T ss_pred             eeEEE
+
+
+No 8
+>5OQ1_A ChiX; L-Ala D-Glu endopeptidase Serratia marcescens; 1.34A {Serratia marcescens}
+Probab=5.59  E-value=6.2e+02  Score=9.69  Aligned_cols=5  Identities=80%  Similarity=1.086  Sum_probs=0.0  Template_Neff=8.500
+
+Q GAAVDQ            1 GAAVD    5 (6)
+Q Consensus         1 gaavd    5 (6)
+                      |.|+|
+T Consensus        75 G~AiD   79 (137)
+T 5OQ1_A           75 GHAVD   79 (137)
+T ss_dssp             TCEEE
+T ss_pred             eeEEE
+
+
+No 9
+>3U8I_B Phospholipase A2, membrane associated (E.C.3.1.1.4); Secreted phospholipase A2, HYDROLASE; HET: OLD; 1.1A {Homo sapiens}
+Probab=5.42  E-value=6.4e+02  Score=10.05  Aligned_cols=6  Identities=33%  Similarity=0.601  Sum_probs=0.0  Template_Neff=7.200
+
+Q GAAVDQ            1 GAAVDQ    6 (6)
+Q Consensus         1 gaavdq    6 (6)
+                      |..||.
+T Consensus        34 G~PvD~   39 (124)
+T 3U8I_B           34 GSPKDA   39 (124)
+T ss_dssp             SCCCSH
+T ss_pred             CCcccC
+
+
+No 10
+>4D0Y_B DACB (E.C.3.4.17.13); HYDROLASE, L-D-CARBOXIPEPTIDASE, PNEUMOCOCCUS; HET: ZN, PO4; 2.0A {STREPTOCOCCUS PNEUMONIAE D39}
+Probab=5.36  E-value=6.5e+02  Score=10.35  Aligned_cols=5  Identities=60%  Similarity=0.840  Sum_probs=0.0  Template_Neff=8.000
+
+Q GAAVDQ            1 GAAVD    5 (6)
+Q Consensus         1 gaavd    5 (6)
+                      |.|||
+T Consensus       102 GlAvD  106 (184)
+T 4D0Y_B          102 GLAFD  106 (184)
+T ss_dssp             TCEEE
+T ss_pred             eeEEE
+
+

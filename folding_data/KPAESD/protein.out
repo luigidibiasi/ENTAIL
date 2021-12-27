@@ -1,0 +1,150 @@
+Query         KPAESD
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 11:44:00 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/KPAESD/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/KPAESD/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2BOG_X ENDOGLUCANASE E-2 (E.C.   6.9 4.7E+02  0.0052   12.4   0.0    5    2-6     261-265 (286)
+  2 6TDD_B Beta-ketoacyl synthase;   6.5 5.1E+02  0.0056   10.4   0.0    6    1-6       7-12  (45)
+  3 1TML_A ENDO-1,4-BETA-D-GLUCANA   6.3 5.3E+02  0.0058   12.2   0.0    5    2-6     261-265 (286)
+  4 4AX6_B EXOGLUCANASE 2 (E.C.3.2   6.2 5.4E+02   0.006   12.6   0.0    5    2-6     313-317 (363)
+  5 3VOG_A Cellobiohydrolase (E.C.   6.2 5.5E+02  0.0061   12.6   0.0    5    2-6     313-317 (373)
+  6 2M3A_A Protein KNL-2; MYB-like   6.0 5.7E+02  0.0063   11.0   0.0    6    1-6      28-33  (67)
+  7 5XCZ_A Glucanase (E.C.3.2.1.-)   5.9 5.8E+02  0.0064   12.5   0.0    5    2-6     309-313 (358)
+  8 4H9N_C Histone H3.3, Histone H   5.8 5.9E+02  0.0066   12.0   0.0    5    2-6     173-177 (212)
+  9 4H9Q_C Histone H3.3, Histone H   5.7   6E+02  0.0067   12.0   0.0    5    2-6     173-177 (212)
+ 10 3A64_A Cellobiohydrolase (E.C.   5.6 6.2E+02  0.0069   12.6   0.0    5    2-6     330-334 (395)
+
+No 1
+>2BOG_X ENDOGLUCANASE E-2 (E.C.3.2.1.4); HYDROLASE, ENDOGLUCANASE, THERMOBIFIDA FUSCA, TIM; HET: MGL, BGC, SGC; 1.04A {THERMOMONOSPORA FUSCA}
+Probab=6.92  E-value=4.7e+02  Score=12.36  Aligned_cols=5  Identities=60%  Similarity=1.165  Sum_probs=0.0  Template_Neff=6.100
+
+Q KPAESD            2 PAESD    6 (6)
+Q Consensus         2 paesd    6 (6)
+                      |.|||
+T Consensus       261 PGeSD  265 (286)
+T 2BOG_X          261 PGEAD  265 (286)
+T ss_dssp             TTBCC
+T ss_pred             CCccC
+
+
+No 2
+>6TDD_B Beta-ketoacyl synthase; docking domain, polyketide synthase, PROTEIN; NMR {Burkholderia ambifaria AMMD}
+Probab=6.50  E-value=5.1e+02  Score=10.43  Aligned_cols=6  Identities=67%  Similarity=1.027  Sum_probs=0.0  Template_Neff=1.000
+
+Q KPAESD            1 KPAESD    6 (6)
+Q Consensus         1 kpaesd    6 (6)
+                      ||..||
+T Consensus         7 kptssd   12 (45)
+T 6TDD_B            7 KPTSSD   12 (45)
+T ss_dssp             SCTTST
+T ss_pred             CCCCCC
+
+
+No 3
+>1TML_A ENDO-1,4-BETA-D-GLUCANASE (E.C.3.2.1.4); BETA-AMYLASE, ENDOCELLULASE,CATALYTIC DOMAIN; 1.8A {Thermobifida fusca} SCOP: c.6.1.1
+Probab=6.33  E-value=5.3e+02  Score=12.25  Aligned_cols=5  Identities=60%  Similarity=1.165  Sum_probs=0.0  Template_Neff=6.000
+
+Q KPAESD            2 PAESD    6 (6)
+Q Consensus         2 paesd    6 (6)
+                      |-|||
+T Consensus       261 PGeSD  265 (286)
+T 1TML_A          261 PGEAD  265 (286)
+T ss_dssp             TTBCC
+T ss_pred             CCccC
+
+
+No 4
+>4AX6_B EXOGLUCANASE 2 (E.C.3.2.1.91); HYDROLASE, HYDROLASE(O-GLYCOSYL), GLYCOSIDASE, GLYCOSIDE HYDROLASE; HET: UWU, NAG, MAN, BGC; 2.3A {TRICHODERMA REESEI}
+Probab=6.22  E-value=5.4e+02  Score=12.59  Aligned_cols=5  Identities=40%  Similarity=0.488  Sum_probs=0.0  Template_Neff=6.100
+
+Q KPAESD            2 PAESD    6 (6)
+Q Consensus         2 paesd    6 (6)
+                      |.|||
+T Consensus       313 PGESD  317 (363)
+T 4AX6_B          313 GGECD  317 (363)
+T ss_dssp             TTBCS
+T ss_pred             CCcCC
+
+
+No 5
+>3VOG_A Cellobiohydrolase (E.C.3.2.1.91); Seven-stranded beta-alpha barrel, Cellobiohydrolase, HYDROLASE; HET: EPE; 1.45A {Coprinopsis cinerea}
+Probab=6.15  E-value=5.5e+02  Score=12.57  Aligned_cols=5  Identities=40%  Similarity=0.554  Sum_probs=0.0  Template_Neff=6.200
+
+Q KPAESD            2 PAESD    6 (6)
+Q Consensus         2 paesd    6 (6)
+                      |.|||
+T Consensus       313 PGESD  317 (373)
+T 3VOG_A          313 GGEAD  317 (373)
+T ss_dssp             TTBCS
+T ss_pred             CCCCC
+
+
+No 6
+>2M3A_A Protein KNL-2; MYB-like domain, DNA BINDING PROTEIN; NMR {Caenorhabditis elegans}
+Probab=5.98  E-value=5.7e+02  Score=10.99  Aligned_cols=6  Identities=67%  Similarity=1.043  Sum_probs=0.0  Template_Neff=1.500
+
+Q KPAESD            1 KPAESD    6 (6)
+Q Consensus         1 kpaesd    6 (6)
+                      ||+.||
+T Consensus        28 KPt~sd   33 (67)
+T 2M3A_A           28 KPSASD   33 (67)
+T ss_dssp             CCCSCH
+T ss_pred             CCCccc
+
+
+No 7
+>5XCZ_A Glucanase (E.C.3.2.1.-); Glycosidehydrolase family 6, HYDROLASE; HET: TRS, GLC, BGC; 2.1A {Phanerochaete chrysosporium}
+Probab=5.88  E-value=5.8e+02  Score=12.55  Aligned_cols=5  Identities=40%  Similarity=0.488  Sum_probs=0.0  Template_Neff=5.900
+
+Q KPAESD            2 PAESD    6 (6)
+Q Consensus         2 paesd    6 (6)
+                      |.|||
+T Consensus       309 PGESD  313 (358)
+T 5XCZ_A          309 GGECD  313 (358)
+T ss_dssp             TTBCS
+T ss_pred             CCccC
+
+
+No 8
+>4H9N_C Histone H3.3, Histone H4, Death; histone chaperone, DNA BINDING PROTEIN-APOPTOSIS; HET: PO4; 1.95A {Homo sapiens}
+Probab=5.77  E-value=5.9e+02  Score=11.97  Aligned_cols=5  Identities=80%  Similarity=0.939  Sum_probs=0.0  Template_Neff=5.000
+
+Q KPAESD            2 PAESD    6 (6)
+Q Consensus         2 paesd    6 (6)
+                      ||.+|
+T Consensus       173 PA~~D  177 (212)
+T 4H9N_C          173 PALSD  177 (212)
+T ss_dssp             GGGGC
+T ss_pred             cccCC
+
+
+No 9
+>4H9Q_C Histone H3.3, Histone H4, Death; histone chaperone, DNA BINDING PROTEIN-APOPTOSIS; HET: PO4; 1.95A {Homo sapiens}
+Probab=5.69  E-value=6e+02  Score=11.95  Aligned_cols=5  Identities=80%  Similarity=0.939  Sum_probs=0.0  Template_Neff=5.000
+
+Q KPAESD            2 PAESD    6 (6)
+Q Consensus         2 paesd    6 (6)
+                      ||.+|
+T Consensus       173 PA~~D  177 (212)
+T 4H9Q_C          173 PALSD  177 (212)
+T ss_dssp             GGGGC
+T ss_pred             cccCC
+
+
+No 10
+>3A64_A Cellobiohydrolase (E.C.3.2.1.91); seven-stranded beta-alpha barrel, cellulase, glycoside; 1.6A {Coprinopsis cinerea}
+Probab=5.58  E-value=6.2e+02  Score=12.59  Aligned_cols=5  Identities=60%  Similarity=0.627  Sum_probs=0.0  Template_Neff=6.000
+
+Q KPAESD            2 PAESD    6 (6)
+Q Consensus         2 paesd    6 (6)
+                      |.|||
+T Consensus       330 PGESD  334 (395)
+T 3A64_A          330 GGESD  334 (395)
+T ss_dssp             TTBCS
+T ss_pred             CCCCC
+
+

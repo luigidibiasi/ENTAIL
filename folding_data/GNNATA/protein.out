@@ -1,0 +1,149 @@
+Query         GNNATA
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 02:24:15 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GNNATA/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GNNATA/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 1VKO_A inositol-3-phosphate sy   6.7 4.9E+02  0.0054   14.1   0.0    5    1-5      86-90  (537)
+  2 2K76_A pGolemi; protein design   6.5 5.1E+02  0.0057    9.4   0.0    6    1-6       8-13  (30)
+  3 1PPT_A AVIAN PANCREATIC POLYPE   6.5 5.1E+02  0.0057    9.8   0.0    6    1-6       9-14  (36)
+  4 1RU5_A Peptide YY; alpha-helic   6.3 5.3E+02  0.0058    9.8   0.0    6    1-6       9-14  (37)
+  5 4HQZ_B Thioredoxin family prot   6.3 5.4E+02  0.0059    9.4   0.0    6    1-6      13-18  (187)
+  6 1TZ5_A Chimera of Pancreatic h   6.2 5.4E+02   0.006    9.8   0.0    6    1-6       9-14  (37)
+  7 1V1D_A PANCREATIC HORMONE; HOR   6.2 5.4E+02   0.006    9.5   0.0    6    1-6       9-14  (31)
+  8 1TZ4_A Chimera of Neuropeptide   6.2 5.5E+02   0.006    9.8   0.0    6    1-6       9-14  (37)
+  9 1FVN_A alpha, 310-helix, HORMO   6.1 5.5E+02  0.0061    9.8   0.0    6    1-6       9-14  (37)
+ 10 5LO3_A PPaOMe; Designed minipr   6.0 5.7E+02  0.0063    9.6   0.0    6    1-6      10-15  (36)
+
+No 1
+>1VKO_A inositol-3-phosphate synthase (EC 5.5.1.4); ce21227, INOSITOL-3-PHOSPHATE SYNTHASE, STRUCTURAL GENOMICS; HET: NAD; 2.3A {Caenorhabditis elegans} SCOP: c.2.1.3, d.81.1.3
+Probab=6.69  E-value=4.9e+02  Score=14.10  Aligned_cols=5  Identities=60%  Similarity=1.079  Sum_probs=0.0  Template_Neff=4.400
+
+Q GNNATA            1 GNNAT    5 (6)
+Q Consensus         1 gnnat    5 (6)
+                      |||+|
+T Consensus        86 GnngT   90 (537)
+T 1VKO_A           86 GNNGS   90 (537)
+T ss_dssp             SHHHH
+T ss_pred             chhHH
+
+
+No 2
+>2K76_A pGolemi; protein design, miniature protein, aPP; NMR {N/A}
+Probab=6.48  E-value=5.1e+02  Score=9.39  Aligned_cols=6  Identities=33%  Similarity=0.612  Sum_probs=0.0  Template_Neff=3.100
+
+Q GNNATA            1 GNNATA    6 (6)
+Q Consensus         1 gnnata    6 (6)
+                      |.+|+.
+T Consensus         8 g~~A~p   13 (30)
+T 2K76_A            8 GEEAPV   13 (30)
+T ss_dssp             CSSSCH
+T ss_pred             CCCCCH
+
+
+No 3
+>1PPT_A AVIAN PANCREATIC POLYPEPTIDE; PANCREATIC HORMONE; 1.37A {Meleagris gallopavo} SCOP: j.6.1.1
+Probab=6.45  E-value=5.1e+02  Score=9.79  Aligned_cols=6  Identities=33%  Similarity=0.756  Sum_probs=0.0  Template_Neff=2.800
+
+Q GNNATA            1 GNNATA    6 (6)
+Q Consensus         1 gnnata    6 (6)
+                      |++|+.
+T Consensus         9 g~~A~p   14 (36)
+T 1PPT_A            9 GDDAPV   14 (36)
+T ss_dssp             CTTSCH
+T ss_pred             CCCCCH
+
+
+No 4
+>1RU5_A Peptide YY; alpha-helical, PP-fold, HORMONE-GROWTH FACTOR COMPLEX; HET: NH2; NMR {Sus scrofa} SCOP: j.6.1.1
+Probab=6.33  E-value=5.3e+02  Score=9.84  Aligned_cols=6  Identities=33%  Similarity=0.772  Sum_probs=0.0  Template_Neff=2.700
+
+Q GNNATA            1 GNNATA    6 (6)
+Q Consensus         1 gnnata    6 (6)
+                      |++|+.
+T Consensus         9 g~~A~p   14 (37)
+T 1RU5_A            9 GEDASP   14 (37)
+T ss_dssp             STTCCH
+T ss_pred             CCCCCH
+
+
+No 5
+>4HQZ_B Thioredoxin family protein; lipoprotein, Disulfide Bridge, Thiorredoxin, membrane; HET: HED; 1.22A {Streptococcus pneumoniae}
+Probab=6.26  E-value=5.4e+02  Score=9.37  Aligned_cols=6  Identities=33%  Similarity=0.329  Sum_probs=0.0  Template_Neff=10.700
+
+Q GNNATA            1 GNNATA    6 (6)
+Q Consensus         1 gnnata    6 (6)
+                      |.|+++
+T Consensus        13 ~~~~~~   18 (187)
+T 4HQZ_B           13 GENLYF   18 (187)
+T ss_dssp             ------
+T ss_pred             ccceEe
+
+
+No 6
+>1TZ5_A Chimera of Pancreatic hormone and; NPY-PP Chimera, HORMONE-GROWTH FACTOR COMPLEX; HET: NH2; NMR {Homo sapiens} SCOP: j.6.1.1
+Probab=6.23  E-value=5.4e+02  Score=9.79  Aligned_cols=6  Identities=67%  Similarity=0.988  Sum_probs=0.0  Template_Neff=2.800
+
+Q GNNATA            1 GNNATA    6 (6)
+Q Consensus         1 gnnata    6 (6)
+                      |.+|+.
+T Consensus         9 G~~A~p   14 (37)
+T 1TZ5_A            9 GDNATP   14 (37)
+T ss_dssp             CCCCCH
+T ss_pred             CCCCCH
+
+
+No 7
+>1V1D_A PANCREATIC HORMONE; HORMONE, CLEAVAGE ON PAIR OF; NMR {N/A} SCOP: j.6.1.1
+Probab=6.18  E-value=5.4e+02  Score=9.46  Aligned_cols=6  Identities=67%  Similarity=0.988  Sum_probs=0.0  Template_Neff=2.800
+
+Q GNNATA            1 GNNATA    6 (6)
+Q Consensus         1 gnnata    6 (6)
+                      |.+|+.
+T Consensus         9 g~~A~p   14 (31)
+T 1V1D_A            9 GDNATP   14 (31)
+T ss_pred             CCCCCH
+
+
+No 8
+>1TZ4_A Chimera of Neuropeptide Y and; NPY-PP Chimera, NEUROPEPTIDE; HET: NH2; NMR {Sus scrofa} SCOP: j.6.1.1
+Probab=6.17  E-value=5.5e+02  Score=9.80  Aligned_cols=6  Identities=50%  Similarity=0.811  Sum_probs=0.0  Template_Neff=2.700
+
+Q GNNATA            1 GNNATA    6 (6)
+Q Consensus         1 gnnata    6 (6)
+                      |++|+.
+T Consensus         9 g~~A~p   14 (37)
+T 1TZ4_A            9 GEDAPA   14 (37)
+T ss_dssp             CCCCSC
+T ss_pred             CCCCCH
+
+
+No 9
+>1FVN_A alpha, 310-helix, HORMONE-GROWTH FACTOR COMPLEX; HET: NH2, AIB; NMR {N/A} SCOP: j.6.1.1
+Probab=6.14  E-value=5.5e+02  Score=9.79  Aligned_cols=6  Identities=50%  Similarity=0.811  Sum_probs=0.0  Template_Neff=2.700
+
+Q GNNATA            1 GNNATA    6 (6)
+Q Consensus         1 gnnata    6 (6)
+                      |++|+.
+T Consensus         9 g~~A~p   14 (37)
+T 1FVN_A            9 GEDAPA   14 (37)
+T ss_dssp             CSSCSS
+T ss_pred             CCCCCH
+
+
+No 10
+>5LO3_A PPaOMe; Designed miniprotein CH-pi interactions weak; HET: 0A1, NH2, ACE; NMR {N/A}
+Probab=5.99  E-value=5.7e+02  Score=9.63  Aligned_cols=6  Identities=67%  Similarity=0.988  Sum_probs=0.0  Template_Neff=3.000
+
+Q GNNATA            1 GNNATA    6 (6)
+Q Consensus         1 gnnata    6 (6)
+                      |.+|+.
+T Consensus        10 g~~A~p   15 (36)
+T 5LO3_A           10 GDNATP   15 (36)
+T ss_dssp             SSSCCH
+T ss_pred             CcCCCH
+
+

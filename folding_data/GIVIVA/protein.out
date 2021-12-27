@@ -1,0 +1,149 @@
+Query         GIVIVA
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 01:24:57 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GIVIVA/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GIVIVA/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5WC3_G Stage III sporulation e  24.3      73 0.00081   14.4   0.0    6    1-6     136-141 (179)
+  2 1PRZ_A Ribosomal large subunit  10.7 2.6E+02  0.0029   11.7   0.0    6    1-6      70-75  (252)
+  3 1TJN_A Sirohydrochlorin cobalt  10.0 2.9E+02  0.0032   10.6   0.0    6    1-6      26-31  (156)
+  4 1KSK_A RIBOSOMAL SMALL SUBUNIT  10.0 2.9E+02  0.0032   11.2   0.0    6    1-6     110-115 (234)
+  5 1KSV_A RIBOSOMAL SMALL SUBUNIT  10.0 2.9E+02  0.0032   11.2   0.0    6    1-6     110-115 (234)
+  6 2OHW_B YueI protein; STRUCTURA  10.0 2.9E+02  0.0032   11.7   0.0    6    1-6     105-110 (133)
+  7 1XPI_B Ribosomal large subunit   9.6   3E+02  0.0033   11.2   0.0    6    1-6      61-66  (231)
+  8 2OLW_A Ribosomal large subunit   9.6   3E+02  0.0034   11.3   0.0    6    1-6      84-89  (217)
+  9 5UBA_A RNA pseudouridylate syn   9.5 3.1E+02  0.0034   11.7   0.0    6    1-6      88-93  (295)
+ 10 2IST_A Ribosomal large subunit   9.1 3.3E+02  0.0036   11.9   0.0    6    1-6     143-148 (325)
+
+No 1
+>5WC3_G Stage III sporulation engulfment assemblyprotein; Secretion system, Sporulation channel, Ring; 3.5A {Bacillus subtilis BEST7613}
+Probab=24.33  E-value=73  Score=14.36  Aligned_cols=6  Identities=50%  Similarity=1.132  Sum_probs=2.7  Template_Neff=5.100
+
+Q GIVIVA            1 GIVIVA    6 (6)
+Q Consensus         1 giviva    6 (6)
+                      |++|||
+T Consensus       136 GVvVVA  141 (179)
+T 5WC3_G          136 GVLVVA  141 (179)
+T ss_dssp             EEEEES
+T ss_pred             EEEEEe
+Confidence            344443
+
+
+No 2
+>1PRZ_A Ribosomal large subunit pseudouridine synthase; Pseudouridine synthase, RluD, Montreal-Kingston Bacterial; 1.8A {Escherichia coli} SCOP: d.265.1.3
+Probab=10.71  E-value=2.6e+02  Score=11.68  Aligned_cols=6  Identities=50%  Similarity=1.104  Sum_probs=0.0  Template_Neff=8.700
+
+Q GIVIVA            1 GIVIVA    6 (6)
+Q Consensus         1 giviva    6 (6)
+                      |++++|
+T Consensus        70 Glll~a   75 (252)
+T 1PRZ_A           70 GLMVVA   75 (252)
+T ss_dssp             EEEEEE
+T ss_pred             EEEEEE
+
+
+No 3
+>1TJN_A Sirohydrochlorin cobaltochelatase; af0721, APC5049, Midwest Consortium for; 2.01A {Archaeoglobus fulgidus} SCOP: c.92.1.3
+Probab=10.04  E-value=2.9e+02  Score=10.63  Aligned_cols=6  Identities=67%  Similarity=1.149  Sum_probs=0.0  Template_Neff=8.900
+
+Q GIVIVA            1 GIVIVA    6 (6)
+Q Consensus         1 giviva    6 (6)
+                      +|++|+
+T Consensus        26 ~illv~   31 (156)
+T 1TJN_A           26 GLVIVG   31 (156)
+T ss_pred             EEEEEE
+
+
+No 4
+>1KSK_A RIBOSOMAL SMALL SUBUNIT PSEUDOURIDINE SYNTHASE; Pseudouridine Synthase, rsuA, LYASE; 2.0A {Escherichia coli} SCOP: d.265.1.3, d.66.1.5
+Probab=10.02  E-value=2.9e+02  Score=11.25  Aligned_cols=6  Identities=33%  Similarity=0.988  Sum_probs=0.0  Template_Neff=9.100
+
+Q GIVIVA            1 GIVIVA    6 (6)
+Q Consensus         1 giviva    6 (6)
+                      |++++|
+T Consensus       110 Glll~a  115 (234)
+T 1KSK_A          110 GLVLMT  115 (234)
+T ss_dssp             EEEEEE
+T ss_pred             eEEEEE
+
+
+No 5
+>1KSV_A RIBOSOMAL SMALL SUBUNIT PSEUDOURIDINE SYNTHASE; Pseudouridine Synthase, rsuA, LYASE; HET: U; 2.65A {Escherichia coli} SCOP: d.265.1.3, d.66.1.5
+Probab=10.01  E-value=2.9e+02  Score=11.24  Aligned_cols=6  Identities=33%  Similarity=0.988  Sum_probs=0.0  Template_Neff=9.100
+
+Q GIVIVA            1 GIVIVA    6 (6)
+Q Consensus         1 giviva    6 (6)
+                      |++++|
+T Consensus       110 Glll~a  115 (234)
+T 1KSV_A          110 GLVLMT  115 (234)
+T ss_pred             eEEEEE
+
+
+No 6
+>2OHW_B YueI protein; STRUCTURAL GENOMICS, PSI-2, Protein Structure; 1.4A {Bacillus subtilis} SCOP: d.79.8.1
+Probab=9.98  E-value=2.9e+02  Score=11.72  Aligned_cols=6  Identities=83%  Similarity=1.138  Sum_probs=0.0  Template_Neff=5.900
+
+Q GIVIVA            1 GIVIVA    6 (6)
+Q Consensus         1 giviva    6 (6)
+                      |+||++
+T Consensus       105 gLVla~  110 (133)
+T 2OHW_B          105 GIVIAA  110 (133)
+T ss_dssp             EEEEEE
+T ss_pred             EEEEEe
+
+
+No 7
+>1XPI_B Ribosomal large subunit pseudouridine synthase; PSEUDOURIDINE SYNTHASE, RLUC, CATALYTIC DOMAIN; HET: ACY; 2.2A {Escherichia coli}
+Probab=9.65  E-value=3e+02  Score=11.16  Aligned_cols=6  Identities=50%  Similarity=1.115  Sum_probs=0.0  Template_Neff=9.100
+
+Q GIVIVA            1 GIVIVA    6 (6)
+Q Consensus         1 giviva    6 (6)
+                      |++++|
+T Consensus        61 Glll~a   66 (231)
+T 1XPI_B           61 GVLLVA   66 (231)
+T ss_dssp             EEEEEE
+T ss_pred             eEEEEE
+
+
+No 8
+>2OLW_A Ribosomal large subunit pseudouridine synthase; bifurcated beta sheet, ISOMERASE; HET: ACY; 1.6A {Escherichia coli}
+Probab=9.59  E-value=3e+02  Score=11.28  Aligned_cols=6  Identities=17%  Similarity=0.927  Sum_probs=0.0  Template_Neff=8.600
+
+Q GIVIVA            1 GIVIVA    6 (6)
+Q Consensus         1 giviva    6 (6)
+                      |++++|
+T Consensus        84 Glllla   89 (217)
+T 2OLW_A           84 GLLVLT   89 (217)
+T ss_dssp             EEEEEE
+T ss_pred             eEEEEe
+
+
+No 9
+>5UBA_A RNA pseudouridylate synthase domain-containing protein; CARM1, methyltransferase, TP-064, Structural Genomics; 1.54A {Homo sapiens}
+Probab=9.48  E-value=3.1e+02  Score=11.71  Aligned_cols=6  Identities=33%  Similarity=1.032  Sum_probs=0.0  Template_Neff=8.800
+
+Q GIVIVA            1 GIVIVA    6 (6)
+Q Consensus         1 giviva    6 (6)
+                      |++++|
+T Consensus        88 Glll~a   93 (295)
+T 5UBA_A           88 GVMVLA   93 (295)
+T ss_dssp             EEEEEE
+T ss_pred             eEEEEE
+
+
+No 10
+>2IST_A Ribosomal large subunit pseudouridine synthase; alpha-beta fold, S4 domain, pseudouridine; 1.86A {Escherichia coli}
+Probab=9.06  E-value=3.3e+02  Score=11.90  Aligned_cols=6  Identities=50%  Similarity=1.104  Sum_probs=0.0  Template_Neff=8.600
+
+Q GIVIVA            1 GIVIVA    6 (6)
+Q Consensus         1 giviva    6 (6)
+                      |++++|
+T Consensus       143 Glll~a  148 (325)
+T 2IST_A          143 GLMVVA  148 (325)
+T ss_dssp             EEEEEE
+T ss_pred             eeEEEE
+
+

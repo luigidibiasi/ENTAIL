@@ -1,0 +1,150 @@
+Query         LATDYV
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 14:29:43 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LATDYV/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LATDYV/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5UUL_A Bcl-2-related protein A  17.9 1.2E+02  0.0014   11.8   0.0    6    1-6      13-18  (152)
+  2 7JGW_A Bcl-2-like protein 1; A  17.5 1.3E+02  0.0014   12.0   0.0    6    1-6      13-18  (158)
+  3 5H9N_A Lipocalin AI-4; lipocal  17.1 1.3E+02  0.0015   11.3   0.0    5    1-5      98-102 (156)
+  4 2W3L_B APOPTOSIS REGULATOR BCL  16.1 1.4E+02  0.0016   11.4   0.0    6    1-6       6-11  (144)
+  5 6UDV_A Induced myeloid leukemi  15.7 1.5E+02  0.0017   11.5   0.0    6    1-6      11-16  (157)
+  6 1YSW_A Apoptosis regulator Bcl  15.6 1.5E+02  0.0017   11.8   0.0    6    1-6      12-17  (164)
+  7 7DRU_B Lipocalin allergen, ALL  15.2 1.6E+02  0.0017   10.6   0.0    5    1-5      95-99  (163)
+  8 7DRU_C Lipocalin allergen, ALL  15.2 1.6E+02  0.0017   10.6   0.0    5    1-5      95-99  (163)
+  9 4HW3_D Induced myeloid leukemi  15.1 1.6E+02  0.0018   11.3   0.0    6    1-6      11-16  (153)
+ 10 1X8O_A Nitrophorin 4; Lipocali  14.8 1.6E+02  0.0018   11.2   0.0    5    1-5     110-114 (184)
+
+No 1
+>5UUL_A Bcl-2-related protein A1, Bcl-2-binding component; Apoptosis Regulatory Proteins, Protein Binding; 1.33A {Homo sapiens}
+Probab=17.89  E-value=1.2e+02  Score=11.76  Aligned_cols=6  Identities=67%  Similarity=1.149  Sum_probs=0.0  Template_Neff=8.500
+
+Q LATDYV            1 LATDYV    6 (6)
+Q Consensus         1 latdyv    6 (6)
+                      |+.|||
+T Consensus        13 l~~dyi   18 (152)
+T 5UUL_A           13 LAQDYL   18 (152)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 2
+>7JGW_A Bcl-2-like protein 1; APOPTOSIS, ALTERNATIVE SPLICING, MEMBRANE, MITOCHONDRION; HET: V9S; 1.3A {Homo sapiens}
+Probab=17.52  E-value=1.3e+02  Score=12.00  Aligned_cols=6  Identities=33%  Similarity=0.872  Sum_probs=0.0  Template_Neff=8.100
+
+Q LATDYV            1 LATDYV    6 (6)
+Q Consensus         1 latdyv    6 (6)
+                      |++||+
+T Consensus        13 l~~dyi   18 (158)
+T 7JGW_A           13 LVVDFL   18 (158)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 3
+>5H9N_A Lipocalin AI-4; lipocalin, Rhodnius, salivary, TRANSPORT PROTEIN; HET: LTX; 1.28A {Rhodnius prolixus}
+Probab=17.07  E-value=1.3e+02  Score=11.27  Aligned_cols=5  Identities=60%  Similarity=1.119  Sum_probs=0.0  Template_Neff=9.400
+
+Q LATDYV            1 LATDY    5 (6)
+Q Consensus         1 latdy    5 (6)
+                      |.|||
+T Consensus        98 l~TDY  102 (156)
+T 5H9N_A           98 VETDY  102 (156)
+T ss_dssp             EEECS
+T ss_pred             EEeCC
+
+
+No 4
+>2W3L_B APOPTOSIS REGULATOR BCL-2; APOPTOSIS; HET: DRO; 2.1A {HOMO SAPIENS}
+Probab=16.09  E-value=1.4e+02  Score=11.42  Aligned_cols=6  Identities=17%  Similarity=0.761  Sum_probs=0.0  Template_Neff=8.600
+
+Q LATDYV            1 LATDYV    6 (6)
+Q Consensus         1 latdyv    6 (6)
+                      |+.|||
+T Consensus         6 l~~dyi   11 (144)
+T 2W3L_B            6 IVMKYI   11 (144)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 5
+>6UDV_A Induced myeloid leukemia cell differentiation; protein-protein interaction, apoptosis, inhibitor, APOPTOSIS-INHIBITOR; HET: Q51; 1.35A {Homo sapiens}
+Probab=15.69  E-value=1.5e+02  Score=11.54  Aligned_cols=6  Identities=17%  Similarity=0.711  Sum_probs=0.0  Template_Neff=8.600
+
+Q LATDYV            1 LATDYV    6 (6)
+Q Consensus         1 latdyv    6 (6)
+                      |+.|||
+T Consensus        11 l~~~yi   16 (157)
+T 6UDV_A           11 IISRYL   16 (157)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 6
+>1YSW_A Apoptosis regulator Bcl-2; COMPLEX, APOPTOSIS; HET: 43B; NMR {Homo sapiens} SCOP: f.1.4.1
+Probab=15.64  E-value=1.5e+02  Score=11.76  Aligned_cols=6  Identities=17%  Similarity=0.761  Sum_probs=0.0  Template_Neff=8.300
+
+Q LATDYV            1 LATDYV    6 (6)
+Q Consensus         1 latdyv    6 (6)
+                      |+.|||
+T Consensus        12 l~~dyI   17 (164)
+T 1YSW_A           12 IVMKYI   17 (164)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 7
+>7DRU_B Lipocalin allergen, ALLERGEN; 2.5A {Canis lupus familiaris}
+Probab=15.19  E-value=1.6e+02  Score=10.63  Aligned_cols=5  Identities=0%  Similarity=-0.104  Sum_probs=0.0  Template_Neff=10.400
+
+Q LATDYV            1 LATDY    5 (6)
+Q Consensus         1 latdy    5 (6)
+                      +.|||
+T Consensus        95 l~tdY   99 (163)
+T 7DRU_B           95 QPSPV   99 (163)
+T ss_dssp             EECSS
+T ss_pred             EECCC
+
+
+No 8
+>7DRU_C Lipocalin allergen, ALLERGEN; 2.5A {Canis lupus familiaris}
+Probab=15.19  E-value=1.6e+02  Score=10.63  Aligned_cols=5  Identities=0%  Similarity=-0.104  Sum_probs=0.0  Template_Neff=10.400
+
+Q LATDYV            1 LATDY    5 (6)
+Q Consensus         1 latdy    5 (6)
+                      +.|||
+T Consensus        95 l~tdY   99 (163)
+T 7DRU_C           95 QPSPV   99 (163)
+T ss_dssp             EECSS
+T ss_pred             EECCC
+
+
+No 9
+>4HW3_D Induced myeloid leukemia cell differentiation; regulation of apoptosis, maintenance of; HET: 19G; 2.4A {Homo sapiens}
+Probab=15.13  E-value=1.6e+02  Score=11.32  Aligned_cols=6  Identities=17%  Similarity=0.711  Sum_probs=0.0  Template_Neff=8.800
+
+Q LATDYV            1 LATDYV    6 (6)
+Q Consensus         1 latdyv    6 (6)
+                      |+.||+
+T Consensus        11 l~~dyi   16 (153)
+T 4HW3_D           11 IISRYL   16 (153)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 10
+>1X8O_A Nitrophorin 4; Lipocalin  beta barrel ; HET: HEM; 1.01A {Rhodnius prolixus} SCOP: b.60.1.1
+Probab=14.77  E-value=1.6e+02  Score=11.21  Aligned_cols=5  Identities=20%  Similarity=0.209  Sum_probs=0.0  Template_Neff=9.600
+
+Q LATDYV            1 LATDY    5 (6)
+Q Consensus         1 latdy    5 (6)
+                      +.|||
+T Consensus       110 l~tDY  114 (184)
+T 1X8O_A          110 MYADD  114 (184)
+T ss_dssp             EEECS
+T ss_pred             EEeCC
+
+

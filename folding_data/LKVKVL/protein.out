@@ -1,0 +1,145 @@
+Query         LKVKVL
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 19:04:47 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LKVKVL/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LKVKVL/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6TCL_E1 Photosystem I P700 chl   7.7 4.1E+02  0.0045   11.0   0.0    5    2-6       6-10  (60)
+  2 6L4U_E PROTEIN; Photosystem I,   7.7 4.1E+02  0.0045   11.2   0.0    5    2-6       7-11  (67)
+  3 1WMH_B Protein kinase C, iota    7.3 4.4E+02  0.0048    9.3   0.0    5    1-5       7-11  (86)
+  4 4Y28_E photosystem I reaction    7.1 4.5E+02   0.005   11.1   0.0    5    2-6      10-14  (66)
+  5 1VD2_A Protein kinase C, iota    7.0 4.6E+02  0.0051    8.9   0.0    5    1-5       7-11  (89)
+  6 1WMH_A Protein kinase C, iota    7.0 4.6E+02  0.0051    8.9   0.0    5    1-5       7-11  (89)
+  7 2O2V_B Dual specificity mitoge   7.0 4.6E+02  0.0051    9.8   0.0    5    1-5      11-15  (90)
+  8 7DKZ_E Chlorophyll a-b binding   7.0 4.6E+02  0.0051   11.1   0.0    5    2-6      10-14  (66)
+  9 6QPH_E Chlorophyll a-b binding   6.9 4.8E+02  0.0053   11.0   0.0    5    2-6       9-13  (64)
+ 10 6RHZ_E Chlorophyll a-b binding   6.9 4.8E+02  0.0053   11.0   0.0    5    2-6       9-13  (64)
+
+No 1
+>6TCL_E1 Photosystem I P700 chlorophyll a; photosynthesis, tetramer, anabaena, PSI; HET: ECH, SF4, LMG, PQN, AJP, LHG, BCR, CL0, DGD, CLA;{Nostoc sp. PCC 7120}
+Probab=7.70  E-value=4.1e+02  Score=11.03  Aligned_cols=5  Identities=60%  Similarity=1.092  Sum_probs=0.0  Template_Neff=2.600
+
+Q LKVKVL            2 KVKVL    6 (6)
+Q Consensus         2 kvkvl    6 (6)
+                      |||+|
+T Consensus         6 kVrIl   10 (60)
+T 6TCL_E1           6 KVRIL   10 (60)
+T ss_pred             eeEEc
+
+
+No 2
+>6L4U_E PROTEIN; Photosystem I, ELECTRON TRANSPORT; HET: SF4, LHG, LMG, BCR, CL0, LMT, KC1, PQN, DD6, A86, CLA; 2.4A {Chaetoceros gracilis}
+Probab=7.66  E-value=4.1e+02  Score=11.24  Aligned_cols=5  Identities=60%  Similarity=1.092  Sum_probs=0.0  Template_Neff=2.500
+
+Q LKVKVL            2 KVKVL    6 (6)
+Q Consensus         2 kvkvl    6 (6)
+                      |||+|
+T Consensus         7 kVrIl   11 (67)
+T 6L4U_E            7 KVRIL   11 (67)
+T ss_dssp             EEEEC
+T ss_pred             eeEEe
+
+
+No 3
+>1WMH_B Protein kinase C, iota type(E.C.2.7.1.37)/Partitioning; KINASE, PB1 DOMAIN, OPCA MOTIF; 1.5A {Homo sapiens} SCOP: d.15.2.2
+Probab=7.31  E-value=4.4e+02  Score=9.29  Aligned_cols=5  Identities=40%  Similarity=0.574  Sum_probs=0.0  Template_Neff=8.500
+
+Q LKVKVL            1 LKVKV    5 (6)
+Q Consensus         1 lkvkv    5 (6)
+                      ++||+
+T Consensus         7 i~vK~   11 (86)
+T 1WMH_B            7 VEVKS   11 (86)
+T ss_dssp             EEEEE
+T ss_pred             EEEEE
+
+
+No 4
+>4Y28_E photosystem I reaction center (E.C.1.97.1.12); photosynthesis, light harvesting, antenna, reaction; HET: SF4, LMU, ZEX, LMG, LUT, CHL, PQN, LHG, BCR, CL0, DGD, CLA; 2.8A {Pisum sativum}
+Probab=7.11  E-value=4.5e+02  Score=11.07  Aligned_cols=5  Identities=80%  Similarity=1.125  Sum_probs=0.0  Template_Neff=2.600
+
+Q LKVKVL            2 KVKVL    6 (6)
+Q Consensus         2 kvkvl    6 (6)
+                      |||+|
+T Consensus        10 kVrIl   14 (66)
+T 4Y28_E           10 KVKIL   14 (66)
+T ss_pred             eeEEe
+
+
+No 5
+>1VD2_A Protein kinase C, iota type(E.C.2.7.1.37); Kinase, PB1 domain, OPCA motif; NMR {Homo sapiens} SCOP: d.15.2.2
+Probab=7.05  E-value=4.6e+02  Score=8.93  Aligned_cols=5  Identities=40%  Similarity=0.747  Sum_probs=0.0  Template_Neff=9.300
+
+Q LKVKVL            1 LKVKV    5 (6)
+Q Consensus         1 lkvkv    5 (6)
+                      ++||+
+T Consensus         7 ~~vK~   11 (89)
+T 1VD2_A            7 VRVKA   11 (89)
+T ss_dssp             EEEEE
+T ss_pred             EEEEE
+
+
+No 6
+>1WMH_A Protein kinase C, iota type(E.C.2.7.1.37)/Partitioning; KINASE, PB1 DOMAIN, OPCA MOTIF; 1.5A {Homo sapiens} SCOP: d.15.2.2
+Probab=7.05  E-value=4.6e+02  Score=8.93  Aligned_cols=5  Identities=40%  Similarity=0.747  Sum_probs=0.0  Template_Neff=9.300
+
+Q LKVKVL            1 LKVKV    5 (6)
+Q Consensus         1 lkvkv    5 (6)
+                      ++||+
+T Consensus         7 ~~vK~   11 (89)
+T 1WMH_A            7 VRVKA   11 (89)
+T ss_dssp             EEEEE
+T ss_pred             EEEEE
+
+
+No 7
+>2O2V_B Dual specificity mitogen-activated protein kinase; mitogen activated protein kinase kinase; 1.83A {Homo sapiens} SCOP: d.15.2.2
+Probab=7.04  E-value=4.6e+02  Score=9.77  Aligned_cols=5  Identities=20%  Similarity=0.727  Sum_probs=0.0  Template_Neff=7.500
+
+Q LKVKVL            1 LKVKV    5 (6)
+Q Consensus         1 lkvkv    5 (6)
+                      ++||+
+T Consensus        11 i~vK~   15 (90)
+T 2O2V_B           11 VRIKF   15 (90)
+T ss_dssp             EEEEE
+T ss_pred             EEEEE
+
+
+No 8
+>7DKZ_E Chlorophyll a-b binding protein, chloroplastic; PSI-LHCI high plants, PHOTOSYNTHESIS; HET: LHG, XAT, LMG, PQN, CHL, LMT, BCR, LUT, CLA, HTG, DGD, SF4; 2.393A {Pisum sativum}
+Probab=7.03  E-value=4.6e+02  Score=11.05  Aligned_cols=5  Identities=80%  Similarity=1.125  Sum_probs=0.0  Template_Neff=2.600
+
+Q LKVKVL            2 KVKVL    6 (6)
+Q Consensus         2 kvkvl    6 (6)
+                      |||+|
+T Consensus        10 kVrIl   14 (66)
+T 7DKZ_E           10 KVKIL   14 (66)
+T ss_pred             eeEEe
+
+
+No 9
+>6QPH_E Chlorophyll a-b binding protein, chloroplastic; Photosystem I, Dunaliella, Electron Transport; HET: CAC, BCR, LMG, SF4, LHG, XAT, LMT, DGD, CL0, LUT, CHL, PQN, GSH, SQD, CLA; 3.4A {Dunaliella salina}
+Probab=6.86  E-value=4.8e+02  Score=10.98  Aligned_cols=5  Identities=80%  Similarity=0.793  Sum_probs=0.0  Template_Neff=2.500
+
+Q LKVKVL            2 KVKVL    6 (6)
+Q Consensus         2 kvkvl    6 (6)
+                      |||+|
+T Consensus         9 kVrIl   13 (64)
+T 6QPH_E            9 LVKVL   13 (64)
+T ss_pred             eeeee
+
+
+No 10
+>6RHZ_E Chlorophyll a-b binding protein, chloroplastic; photosystem I, photosynthesis, green algae; HET: XAT, LHG, BCR, CLA, LUT, CL0, DGD, SF4, PQN, CHL, LMG; 3.2A {Dunaliella salina}
+Probab=6.86  E-value=4.8e+02  Score=10.98  Aligned_cols=5  Identities=80%  Similarity=0.793  Sum_probs=0.0  Template_Neff=2.500
+
+Q LKVKVL            2 KVKVL    6 (6)
+Q Consensus         2 kvkvl    6 (6)
+                      |||+|
+T Consensus         9 kVrIl   13 (64)
+T 6RHZ_E            9 LVKVL   13 (64)
+T ss_pred             eeeee
+
+

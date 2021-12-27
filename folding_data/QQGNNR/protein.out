@@ -1,0 +1,147 @@
+Query         QQGNNR
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 09:22:25 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QQGNNR/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QQGNNR/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2QGO_A Putative Fe-S biosynthe  26.0      65 0.00072   13.1   0.0    6    1-6     126-131 (141)
+  2 6W6Z_A BLUF domain-containing    6.9 4.7E+02  0.0052   11.0   0.0    5    1-5     150-154 (156)
+  3 1TJL_B DnaK suppressor protein   6.9 4.8E+02  0.0053   10.8   0.0    6    1-6       2-7   (151)
+  4 3DD7_A Death on curing protein   6.7 4.9E+02  0.0054    9.7   0.0    6    1-6      69-74  (135)
+  5 3SE5_A Cell filamentation prot   6.2 5.4E+02   0.006    9.8   0.0    6    1-6     107-112 (164)
+  6 2RM9_A Astressin2B; CRF ligand   5.6 6.1E+02  0.0068    9.5   0.0    6    1-6      22-27  (34)
+  7 4MO0_A Protein translation fac   5.5 6.4E+02   0.007    9.9   0.0    5    2-6      78-82  (102)
+  8 5JB3_1 30S ribosomal protein S   5.5 6.4E+02   0.007    9.9   0.0    5    2-6      78-82  (102)
+  9 7B7Z_A Endoplasmic reticulum c   5.4 6.5E+02  0.0072    9.8   0.0    4    3-6     266-269 (343)
+ 10 5KNM_D HLA class I histocompat   5.3 6.6E+02  0.0073    9.0   0.0    6    1-6       8-13  (267)
+
+No 1
+>2QGO_A Putative Fe-S biosynthesis protein; PSI-2, NYSGXRC, 10399g, Fe-S cluster; 2.04A {Lactobacillus acidophilus}
+Probab=26.00  E-value=65  Score=13.08  Aligned_cols=6  Identities=67%  Similarity=0.778  Sum_probs=2.8  Template_Neff=7.100
+
+Q QQGNNR            1 QQGNNR    6 (6)
+Q Consensus         1 qqgnnr    6 (6)
+                      |.|+||
+T Consensus       126 ~~~~~~  131 (141)
+T 2QGO_A          126 QMGINR  131 (141)
+T ss_pred             cccccc
+Confidence            345554
+
+
+No 2
+>6W6Z_A BLUF domain-containing protein; BLUF, photoreceptor, FLAVOPROTEIN; HET: FMN; 1.71A {Acinetobacter baumannii}
+Probab=6.88  E-value=4.7e+02  Score=10.99  Aligned_cols=5  Identities=40%  Similarity=0.694  Sum_probs=0.0  Template_Neff=6.800
+
+Q QQGNNR            1 QQGNN    5 (6)
+Q Consensus         1 qqgnn    5 (6)
+                      ++|+|
+T Consensus       150 ~~~~~  154 (156)
+T 6W6Z_A          150 NRGVN  154 (156)
+T ss_dssp             CC---
+T ss_pred             hcCCC
+
+
+No 3
+>1TJL_B DnaK suppressor protein; DksA, transcription factor, RNA polymerase; HET: ZN; 2.0A {Escherichia coli} SCOP: g.39.1.13, a.2.14.1
+Probab=6.85  E-value=4.8e+02  Score=10.84  Aligned_cols=6  Identities=67%  Similarity=1.121  Sum_probs=0.0  Template_Neff=7.000
+
+Q QQGNNR            1 QQGNNR    6 (6)
+Q Consensus         1 qqgnnr    6 (6)
+                      |.|.||
+T Consensus         2 ~~~~~~    7 (151)
+T 1TJL_B            2 QEGQNR    7 (151)
+T ss_dssp             -----C
+T ss_pred             cccccc
+
+
+No 4
+>3DD7_A Death on curing protein, Prevent; all alpha, RIBOSOME INHIBITOR; HET: MSE, BR; 1.7A {Enterobacteria phage P1}
+Probab=6.71  E-value=4.9e+02  Score=9.71  Aligned_cols=6  Identities=33%  Similarity=0.634  Sum_probs=0.0  Template_Neff=9.000
+
+Q QQGNNR            1 QQGNNR    6 (6)
+Q Consensus         1 qqgnnr    6 (6)
+                      ..||.|
+T Consensus        69 ~dGN~R   74 (135)
+T 3DD7_A           69 NDANKR   74 (135)
+T ss_dssp             SSCHHH
+T ss_pred             CCchHH
+
+
+No 5
+>3SE5_A Cell filamentation protein Fic-related protein; AMPylation, adenylylation, transferase; HET: P6G, ANP; 1.7A {Neisseria meningitidis}
+Probab=6.19  E-value=5.4e+02  Score=9.83  Aligned_cols=6  Identities=50%  Similarity=0.867  Sum_probs=0.0  Template_Neff=9.200
+
+Q QQGNNR            1 QQGNNR    6 (6)
+Q Consensus         1 qqgnnr    6 (6)
+                      ..||.|
+T Consensus       107 ~dgN~R  112 (164)
+T 3SE5_A          107 LEGNGR  112 (164)
+T ss_dssp             SSCHHH
+T ss_pred             CCChHH
+
+
+No 6
+>2RM9_A Astressin2B; CRF ligand, Sauvagine, Astressin2B, Urocortins; NMR {N/A}
+Probab=5.64  E-value=6.1e+02  Score=9.49  Aligned_cols=6  Identities=50%  Similarity=0.667  Sum_probs=0.0  Template_Neff=2.800
+
+Q QQGNNR            1 QQGNNR    6 (6)
+Q Consensus         1 qqgnnr    6 (6)
+                      |..+||
+T Consensus        22 QA~~NR   27 (34)
+T 2RM9_A           22 QAENNK   27 (34)
+T ss_dssp             SSTTTH
+T ss_pred             HHHHHH
+
+
+No 7
+>4MO0_A Protein translation factor SUI1 homolog; alpha-beta domain, TRANSLATION; 2.1A {Methanocaldococcus jannaschii}
+Probab=5.47  E-value=6.4e+02  Score=9.86  Aligned_cols=5  Identities=60%  Similarity=1.159  Sum_probs=0.0  Template_Neff=6.900
+
+Q QQGNNR            2 QGNNR    6 (6)
+Q Consensus         2 qgnnr    6 (6)
+                      ||+.+
+T Consensus        78 QGd~~   82 (102)
+T 4MO0_A           78 QGDHR   82 (102)
+T ss_dssp             ESCCH
+T ss_pred             ccchH
+
+
+No 8
+>5JB3_1 30S ribosomal protein S11, 30S; TRANSLATION; HET: H2U, PSU, 5MU, OMC, GNP; 5.34A {Pyrococcus abyssi GE5}
+Probab=5.47  E-value=6.4e+02  Score=9.86  Aligned_cols=5  Identities=60%  Similarity=1.159  Sum_probs=0.0  Template_Neff=6.900
+
+Q QQGNNR            2 QGNNR    6 (6)
+Q Consensus         2 qgnnr    6 (6)
+                      ||+.+
+T Consensus        78 QGd~~   82 (102)
+T 5JB3_1           78 QGDHR   82 (102)
+T ss_pred             ccchH
+
+
+No 9
+>7B7Z_A Endoplasmic reticulum chaperone BiP (E.C.3.6.4.10); FICD, Fic, HYPE, BiP, Grp78; HET: AMP, MES; 1.7A {Cricetulus griseus}
+Probab=5.39  E-value=6.5e+02  Score=9.84  Aligned_cols=4  Identities=75%  Similarity=1.290  Sum_probs=0.0  Template_Neff=11.400
+
+Q QQGNNR            3 GNNR    6 (6)
+Q Consensus         3 gnnr    6 (6)
+                      ||.|
+T Consensus       266 gNgr  269 (343)
+T 7B7Z_A          266 GNGR  269 (343)
+T ss_pred             ChHH
+
+
+No 10
+>5KNM_D HLA class I histocompatibility antigen; MHC-Ib, IMMUNE SYSTEM, PEPTIDE BINDING; HET: NAG; 3.3A {Homo sapiens}
+Probab=5.29  E-value=6.6e+02  Score=8.97  Aligned_cols=6  Identities=50%  Similarity=0.772  Sum_probs=0.0  Template_Neff=12.300
+
+Q QQGNNR            1 QQGNNR    6 (6)
+Q Consensus         1 qqgnnr    6 (6)
+                      +||-|+
+T Consensus         8 ~~~~~~   13 (267)
+T 5KNM_D            8 HQGFNK   13 (267)
+T ss_pred             ccCCCh
+
+

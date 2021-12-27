@@ -1,0 +1,155 @@
+Query         NLFYQL
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 01:42:07 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NLFYQL/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NLFYQL/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6XE9_A Myosin II Heavy Chain (  27.0      61 0.00067   16.7   0.0    6    1-6     288-293 (1979)
+  2 6Z47_A Myosin heavy chain 11,   27.0      61 0.00067   16.7   0.0    6    1-6     288-293 (1979)
+  3 2RE3_B Uncharacterized protein  25.2      69 0.00076   14.3   0.0    6    1-6     158-163 (194)
+  4 2RA9_A Uncharacterized protein  23.7      77 0.00085   13.6   0.0    6    1-6     133-138 (150)
+  5 2KP6_A Uncharacterized protein  22.3      86 0.00095   13.2   0.0    6    1-6      13-18  (82)
+  6 6DUE_A Myosin A; Apicomplexan,  19.9   1E+02  0.0011   15.5   0.0    6    1-6     290-295 (787)
+  7 1QVI_A Myosin heavy chain, str  19.9   1E+02  0.0011   15.4   0.0    6    1-6     283-288 (840)
+  8 6SO3_A Myosin 2 heavy chain st  19.8   1E+02  0.0011   15.9   0.0    6    1-6     281-286 (1953)
+  9 6YCX_B Myosin-A, Myosin A tail  19.8   1E+02  0.0012   15.4   0.0    6    1-6     288-293 (818)
+ 10 6YCY_A Myosin-A, Myosin A tail  19.8   1E+02  0.0012   15.4   0.0    6    1-6     288-293 (818)
+
+No 1
+>6XE9_A Myosin II Heavy Chain (E.C.5.6.1.8); motor protein, auto-inhibited form, 10;{Meleagris gallopavo}
+Probab=26.99  E-value=61  Score=16.65  Aligned_cols=6  Identities=50%  Similarity=1.170  Sum_probs=3.9  Template_Neff=10.200
+
+Q NLFYQL            1 NLFYQL    6 (6)
+Q Consensus         1 nlfyql    6 (6)
+                      +.||||
+T Consensus       288 hify~l  293 (1979)
+T 6XE9_A          288 HIFYYL  293 (1979)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            367875
+
+
+No 2
+>6Z47_A Myosin heavy chain 11, Myosin; myosin, motor, inhibited state, shutdown; HET: PO4, ADP; 6.3A {Meleagris gallopavo}
+Probab=26.99  E-value=61  Score=16.65  Aligned_cols=6  Identities=50%  Similarity=1.170  Sum_probs=3.9  Template_Neff=10.200
+
+Q NLFYQL            1 NLFYQL    6 (6)
+Q Consensus         1 nlfyql    6 (6)
+                      +.||||
+T Consensus       288 hify~l  293 (1979)
+T 6Z47_A          288 HIFYYL  293 (1979)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            367875
+
+
+No 3
+>2RE3_B Uncharacterized protein; STRUCTURAL GENOMICS, JOINT CENTER FOR; 2.5A {Silicibacter pomeroyi DSS-3}
+Probab=25.22  E-value=69  Score=14.32  Aligned_cols=6  Identities=50%  Similarity=1.054  Sum_probs=3.2  Template_Neff=5.700
+
+Q NLFYQL            1 NLFYQL    6 (6)
+Q Consensus         1 nlfyql    6 (6)
+                      |.||||
+T Consensus       158 ~~yYqL  163 (194)
+T 2RE3_B          158 KSFYRL  163 (194)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            346664
+
+
+No 4
+>2RA9_A Uncharacterized protein DUF1285; Structural genomics, Joint Center for; HET: EDO; 1.4A {Shewanella baltica}
+Probab=23.74  E-value=77  Score=13.63  Aligned_cols=6  Identities=17%  Similarity=0.766  Sum_probs=3.3  Template_Neff=5.800
+
+Q NLFYQL            1 NLFYQL    6 (6)
+Q Consensus         1 nlfyql    6 (6)
+                      |.||||
+T Consensus       133 ~~yYqL  138 (150)
+T 2RA9_A          133 ACYYNF  138 (150)
+T ss_dssp             GGHHHH
+T ss_pred             HHHHHH
+Confidence            346664
+
+
+No 5
+>2KP6_A Uncharacterized protein; UNKNOWN FUNCTION, Structural Genomics, PSI-2; NMR {Chromobacterium violaceum}
+Probab=22.26  E-value=86  Score=13.20  Aligned_cols=6  Identities=67%  Similarity=0.905  Sum_probs=3.5  Template_Neff=3.700
+
+Q NLFYQL            1 NLFYQL    6 (6)
+Q Consensus         1 nlfyql    6 (6)
+                      +||-||
+T Consensus        13 ~LF~QL   18 (82)
+T 2KP6_A           13 GLFRQL   18 (82)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHh
+Confidence            366665
+
+
+No 6
+>6DUE_A Myosin A; Apicomplexan, Myosin, ATPase, MOTOR PROTEIN; HET: GOL, ADP; 2.6A {Toxoplasma gondii (strain ATCC 50853 / GT1)}
+Probab=19.92  E-value=1e+02  Score=15.49  Aligned_cols=6  Identities=50%  Similarity=1.348  Sum_probs=0.0  Template_Neff=7.700
+
+Q NLFYQL            1 NLFYQL    6 (6)
+Q Consensus         1 nlfyql    6 (6)
+                      +.||||
+T Consensus       290 HIFYqL  295 (787)
+T 6DUE_A          290 HIFYQM  295 (787)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 7
+>1QVI_A Myosin heavy chain, striated muscle; scallop myosin subfragment-1 (S1), pre-power; HET: ADP; 2.54A {Argopecten irradians} SCOP: c.37.1.9, b.34.3.1
+Probab=19.89  E-value=1e+02  Score=15.41  Aligned_cols=6  Identities=50%  Similarity=1.348  Sum_probs=0.0  Template_Neff=8.100
+
+Q NLFYQL            1 NLFYQL    6 (6)
+Q Consensus         1 nlfyql    6 (6)
+                      +.||||
+T Consensus       283 HIFYqL  288 (840)
+T 1QVI_A          283 HIFYQI  288 (840)
+T ss_dssp             HHHHHT
+T ss_pred             HHHHHH
+
+
+No 8
+>6SO3_A Myosin 2 heavy chain striated; myosin, thick filament, insect flight; 6.2A {Lethocerus indicus}
+Probab=19.85  E-value=1e+02  Score=15.86  Aligned_cols=6  Identities=67%  Similarity=1.414  Sum_probs=0.0  Template_Neff=10.300
+
+Q NLFYQL            1 NLFYQL    6 (6)
+Q Consensus         1 nlfyql    6 (6)
+                      +.||||
+T Consensus       281 hify~l  286 (1953)
+T 6SO3_A          281 HIFYQL  286 (1953)
+T ss_dssp             THHHHH
+T ss_pred             HHHHHH
+
+
+No 9
+>6YCX_B Myosin-A, Myosin A tail domain; Myosin A, Myosin, Plasmodium, Myosin; HET: VO4, SEP, ADP; 3.99A {Plasmodium falciparum (isolate 3D7)}
+Probab=19.80  E-value=1e+02  Score=15.45  Aligned_cols=6  Identities=50%  Similarity=1.303  Sum_probs=0.0  Template_Neff=7.900
+
+Q NLFYQL            1 NLFYQL    6 (6)
+Q Consensus         1 nlfyql    6 (6)
+                      +.||||
+T Consensus       288 HIFYql  293 (818)
+T 6YCX_B          288 HIFYQF  293 (818)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 10
+>6YCY_A Myosin-A, Myosin A tail domain; Myosin A, Myosin, Plasmodium, Myosin; HET: SO4, SEP, ADP; 2.55A {Plasmodium falciparum (isolate 3D7)}
+Probab=19.80  E-value=1e+02  Score=15.45  Aligned_cols=6  Identities=50%  Similarity=1.303  Sum_probs=0.0  Template_Neff=7.900
+
+Q NLFYQL            1 NLFYQL    6 (6)
+Q Consensus         1 nlfyql    6 (6)
+                      +.||||
+T Consensus       288 HIFYql  293 (818)
+T 6YCY_A          288 HIFYQF  293 (818)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+

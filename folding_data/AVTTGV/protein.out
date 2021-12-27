@@ -1,0 +1,149 @@
+Query         AVTTGV
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 16:11:49 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/AVTTGV/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/AVTTGV/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 7NH7_B Replicase polyprotein 1   3.4 1.1E+03   0.013   11.0   0.0    6    1-6      45-50  (122)
+  2 2KZQ_A Envelope glycoprotein E   3.4 1.2E+03   0.013    8.6   0.0    5    1-5       5-9   (36)
+  3 1ZZA_A Stannin; helix, MEMBRAN   3.3 1.2E+03   0.013   10.5   0.0    4    3-6      11-14  (90)
+  4 6ZPE_A nsp10 (E.C.3.4.19.12,3.   3.3 1.2E+03   0.013   11.0   0.0    6    1-6      48-53  (125)
+  5 7MC5_M ?; RNA binding, VIRAL P   3.1 1.3E+03   0.014   11.1   0.0    6    1-6      55-60  (140)
+  6 2XYQ_B PUTATIVE 2'-O-METHYL TR   3.1 1.3E+03   0.014   10.8   0.0    6    1-6      45-50  (122)
+  7 5YNF_B nsp16 protein, nsp10 pr   3.0 1.3E+03   0.015   11.0   0.0    6    1-6      54-59  (140)
+  8 5YNM_B nsp16 protein, nsp10 pr   3.0 1.3E+03   0.015   11.0   0.0    6    1-6      54-59  (140)
+  9 2FYG_A Replicase polyprotein 1   3.0 1.3E+03   0.015   10.9   0.0    6    1-6      50-55  (128)
+ 10 2Q9S_A Fatty acid-binding prot   2.9 1.4E+03   0.015    9.0   0.0    6    1-6       5-10  (155)
+
+No 1
+>7NH7_B Replicase polyprotein 1ab (E.C.3.4.19.12,3.4.22.69,3.4.22.-,2.7.7.48,3.6.4.12,3.6.4.13,2.1.1.-,3.1.13.-,3.1.-.-), Replicase; coronavirus, methyltransferase, VIRAL PROTEIN; HET: SFG; 2.2A {Human coronavirus OC43}
+Probab=3.45  E-value=1.1e+03  Score=10.99  Aligned_cols=6  Identities=33%  Similarity=0.285  Sum_probs=0.0  Template_Neff=2.400
+
+Q AVTTGV            1 AVTTGV    6 (6)
+Q Consensus         1 avttgv    6 (6)
+                      |||+++
+T Consensus        45 AiT~~p   50 (122)
+T 7NH7_B           45 AITVKP   50 (122)
+T ss_dssp             SEESSC
+T ss_pred             eeeecC
+
+
+No 2
+>2KZQ_A Envelope glycoprotein E2 peptide; membrane protein, E2 structural protein; NMR {N/A}
+Probab=3.39  E-value=1.2e+03  Score=8.57  Aligned_cols=5  Identities=60%  Similarity=0.986  Sum_probs=0.0  Template_Neff=3.800
+
+Q AVTTGV            1 AVTTG    5 (6)
+Q Consensus         1 avttg    5 (6)
+                      |.+||
+T Consensus         5 aLsTG    9 (36)
+T 2KZQ_A            5 ALSTG    9 (36)
+T ss_dssp             CCCCH
+T ss_pred             hhhcc
+
+
+No 3
+>1ZZA_A Stannin; helix, MEMBRANE PROTEIN; NMR {Homo sapiens}
+Probab=3.32  E-value=1.2e+03  Score=10.53  Aligned_cols=4  Identities=100%  Similarity=1.248  Sum_probs=0.0  Template_Neff=1.600
+
+Q AVTTGV            3 TTGV    6 (6)
+Q Consensus         3 ttgv    6 (6)
+                      ||||
+T Consensus        11 tTGV   14 (90)
+T 1ZZA_A           11 TTGV   14 (90)
+T ss_dssp             HHHH
+T ss_pred             Ccch
+
+
+No 4
+>6ZPE_A nsp10 (E.C.3.4.19.12,3.4.22.-,3.4.22.69); SARS CoV-2, nonstructural protein, nsp10; 1.58A {Severe acute respiratory syndrome coronavirus 2}
+Probab=3.30  E-value=1.2e+03  Score=10.98  Aligned_cols=6  Identities=33%  Similarity=0.285  Sum_probs=0.0  Template_Neff=2.300
+
+Q AVTTGV            1 AVTTGV    6 (6)
+Q Consensus         1 avttgv    6 (6)
+                      |||+++
+T Consensus        48 AiT~~p   53 (125)
+T 6ZPE_A           48 AITVTP   53 (125)
+T ss_dssp             SEESSC
+T ss_pred             EEEccC
+
+
+No 5
+>7MC5_M ?; RNA binding, VIRAL PROTEIN; HET: EDO, TLA; 1.64A {Severe acute respiratory syndrome coronavirus 2}
+Probab=3.13  E-value=1.3e+03  Score=11.06  Aligned_cols=6  Identities=33%  Similarity=0.285  Sum_probs=0.0  Template_Neff=2.400
+
+Q AVTTGV            1 AVTTGV    6 (6)
+Q Consensus         1 avttgv    6 (6)
+                      |||+++
+T Consensus        55 AiT~kp   60 (140)
+T 7MC5_M           55 AITVTP   60 (140)
+T ss_dssp             SEESSC
+T ss_pred             eEEccC
+
+
+No 6
+>2XYQ_B PUTATIVE 2'-O-METHYL TRANSFERASE (E.C.2.1.1.-), NON-STRUCTURAL; TRANSFERASE-VIRAL PROTEIN COMPLEX, ROSSMANN FOLD; HET: SAH; 2.0A {SARS CORONAVIRUS}
+Probab=3.13  E-value=1.3e+03  Score=10.85  Aligned_cols=6  Identities=33%  Similarity=0.285  Sum_probs=0.0  Template_Neff=2.300
+
+Q AVTTGV            1 AVTTGV    6 (6)
+Q Consensus         1 avttgv    6 (6)
+                      |||+++
+T Consensus        45 AiT~~p   50 (122)
+T 2XYQ_B           45 AITVTP   50 (122)
+T ss_pred             EEeecC
+
+
+No 7
+>5YNF_B nsp16 protein, nsp10 protein; Inhibitor, complex, TRANSFERASE; HET: GTA; 1.791A {Human betacoronavirus 2c EMC/2012}
+Probab=3.02  E-value=1.3e+03  Score=11.00  Aligned_cols=6  Identities=17%  Similarity=0.230  Sum_probs=0.0  Template_Neff=2.400
+
+Q AVTTGV            1 AVTTGV    6 (6)
+Q Consensus         1 avttgv    6 (6)
+                      |||+++
+T Consensus        54 AiT~kp   59 (140)
+T 5YNF_B           54 AISVKP   59 (140)
+T ss_dssp             SEESSC
+T ss_pred             EeEecC
+
+
+No 8
+>5YNM_B nsp16 protein, nsp10 protein; inhibitor, cofactor, complex, TRANSFERASE; HET: SAM, GTA; 1.68A {Human betacoronavirus 2c EMC/2012}
+Probab=3.02  E-value=1.3e+03  Score=11.00  Aligned_cols=6  Identities=17%  Similarity=0.230  Sum_probs=0.0  Template_Neff=2.400
+
+Q AVTTGV            1 AVTTGV    6 (6)
+Q Consensus         1 avttgv    6 (6)
+                      |||+++
+T Consensus        54 AiT~kp   59 (140)
+T 5YNM_B           54 AISVKP   59 (140)
+T ss_dssp             SEESSC
+T ss_pred             EeEecC
+
+
+No 9
+>2FYG_A Replicase polyprotein 1ab; SARS virus polyprotein non-structural protein; 1.8A {SARS coronavirus} SCOP: g.86.1.1
+Probab=3.01  E-value=1.3e+03  Score=10.87  Aligned_cols=6  Identities=33%  Similarity=0.285  Sum_probs=0.0  Template_Neff=2.300
+
+Q AVTTGV            1 AVTTGV    6 (6)
+Q Consensus         1 avttgv    6 (6)
+                      |||+++
+T Consensus        50 AiT~kp   55 (128)
+T 2FYG_A           50 AITVTP   55 (128)
+T ss_dssp             SEESSC
+T ss_pred             EEEccC
+
+
+No 10
+>2Q9S_A Fatty acid-binding protein, adipocyte; beta clamshell, LIPID BINDING PROTEIN; HET: EIC; 2.3A {Mus musculus} SCOP: b.60.1.2
+Probab=2.92  E-value=1.4e+03  Score=9.00  Aligned_cols=6  Identities=50%  Similarity=0.368  Sum_probs=0.0  Template_Neff=8.400
+
+Q AVTTGV            1 AVTTGV    6 (6)
+Q Consensus         1 avttgv    6 (6)
+                      +-+||+
+T Consensus         5 ~~~~~~   10 (155)
+T 2Q9S_A            5 ASMTGG   10 (155)
+T ss_dssp             ------
+T ss_pred             ccccCC
+
+

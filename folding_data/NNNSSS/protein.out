@@ -1,0 +1,150 @@
+Query         NNNSSS
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 02:38:21 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NNNSSS/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NNNSSS/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3J04_D Myosin-11, Myosin regul  11.4 2.4E+02  0.0027   14.4   0.0    5    1-5     241-245 (909)
+  2 1KK8_A LLOP MYOSIN S1-ADP-BeFx  11.1 2.5E+02  0.0027   14.2   0.0    5    1-5     237-241 (837)
+  3 6YCX_B Myosin-A, Myosin A tail  11.1 2.5E+02  0.0028   14.3   0.0    5    1-5     242-246 (818)
+  4 6YCY_A Myosin-A, Myosin A tail  11.1 2.5E+02  0.0028   14.3   0.0    5    1-5     242-246 (818)
+  5 6YCZ_A Myosin-A, Myosin A tail  11.1 2.5E+02  0.0028   14.3   0.0    5    1-5     242-246 (818)
+  6 5HMP_B Unconventional myosin-V  11.0 2.5E+02  0.0028   14.0   0.0    5    1-5     208-212 (750)
+  7 1W7J_A MYOSIN VA, MYOSIN LIGHT  10.9 2.6E+02  0.0028   14.1   0.0    5    1-5     214-218 (795)
+  8 1QVI_A Myosin heavy chain, str  10.8 2.6E+02  0.0029   14.2   0.0    5    1-5     237-241 (840)
+  9 5I0H_A Unconventional myosin-X  10.7 2.6E+02  0.0029   13.9   0.0    5    1-5     215-219 (741)
+ 10 4ZG4_E myosin Vc; myosin, pre-  10.5 2.7E+02   0.003   14.0   0.0    5    1-5     212-216 (764)
+
+No 1
+>3J04_D Myosin-11, Myosin regulatory light chain; PHOSPHORYLATION, 2D CRYSTALLINE ARRAYS, MYOSIN; 20.0A {Gallus gallus}
+Probab=11.37  E-value=2.4e+02  Score=14.41  Aligned_cols=5  Identities=80%  Similarity=0.946  Sum_probs=0.0  Template_Neff=8.100
+
+Q NNNSSS            1 NNNSS    5 (6)
+Q Consensus         1 nnnss    5 (6)
+                      |+|||
+T Consensus       241 N~NSS  245 (909)
+T 3J04_D          241 NDNSS  245 (909)
+T ss_dssp             CTTEE
+T ss_pred             CCccc
+
+
+No 2
+>1KK8_A LLOP MYOSIN S1-ADP-BeFx IN THE; actin-detached, Myosin, Mechanics of MOTOR; HET: ADP; 2.3A {Argopecten irradians} SCOP: c.37.1.9, b.34.3.1
+Probab=11.09  E-value=2.5e+02  Score=14.21  Aligned_cols=5  Identities=100%  Similarity=1.052  Sum_probs=0.0  Template_Neff=8.100
+
+Q NNNSSS            1 NNNSS    5 (6)
+Q Consensus         1 nnnss    5 (6)
+                      |+|||
+T Consensus       237 N~NSS  241 (837)
+T 1KK8_A          237 NNNSS  241 (837)
+T ss_dssp             CTTEE
+T ss_pred             CCCcc
+
+
+No 3
+>6YCX_B Myosin-A, Myosin A tail domain; Myosin A, Myosin, Plasmodium, Myosin; HET: VO4, SEP, ADP; 3.99A {Plasmodium falciparum (isolate 3D7)}
+Probab=11.07  E-value=2.5e+02  Score=14.27  Aligned_cols=5  Identities=100%  Similarity=1.052  Sum_probs=0.0  Template_Neff=7.900
+
+Q NNNSSS            1 NNNSS    5 (6)
+Q Consensus         1 nnnss    5 (6)
+                      |+|||
+T Consensus       242 N~NSS  246 (818)
+T 6YCX_B          242 NNNSS  246 (818)
+T ss_dssp             CTTEE
+T ss_pred             CCchh
+
+
+No 4
+>6YCY_A Myosin-A, Myosin A tail domain; Myosin A, Myosin, Plasmodium, Myosin; HET: SO4, SEP, ADP; 2.55A {Plasmodium falciparum (isolate 3D7)}
+Probab=11.07  E-value=2.5e+02  Score=14.27  Aligned_cols=5  Identities=100%  Similarity=1.052  Sum_probs=0.0  Template_Neff=7.900
+
+Q NNNSSS            1 NNNSS    5 (6)
+Q Consensus         1 nnnss    5 (6)
+                      |+|||
+T Consensus       242 N~NSS  246 (818)
+T 6YCY_A          242 NNNSS  246 (818)
+T ss_dssp             CTTEE
+T ss_pred             CCchh
+
+
+No 5
+>6YCZ_A Myosin-A, Myosin A tail domain; Myosin A, Myosin, Plasmodium, Myosin; HET: EDO, SO4, ADP; 3.27A {Plasmodium falciparum (isolate 3D7)}
+Probab=11.07  E-value=2.5e+02  Score=14.27  Aligned_cols=5  Identities=100%  Similarity=1.052  Sum_probs=0.0  Template_Neff=7.900
+
+Q NNNSSS            1 NNNSS    5 (6)
+Q Consensus         1 nnnss    5 (6)
+                      |+|||
+T Consensus       242 N~NSS  246 (818)
+T 6YCZ_A          242 NNNSS  246 (818)
+T ss_dssp             CTTEE
+T ss_pred             CCchh
+
+
+No 6
+>5HMP_B Unconventional myosin-Vc; motor domain, Myosin, motor protein; HET: DMS, EDO, VO4, ADP; 2.397A {Homo sapiens}
+Probab=11.02  E-value=2.5e+02  Score=14.00  Aligned_cols=5  Identities=80%  Similarity=0.946  Sum_probs=0.0  Template_Neff=8.100
+
+Q NNNSSS            1 NNNSS    5 (6)
+Q Consensus         1 nnnss    5 (6)
+                      |+|||
+T Consensus       208 N~NSS  212 (750)
+T 5HMP_B          208 NDNSS  212 (750)
+T ss_dssp             CTTEE
+T ss_pred             CCCcc
+
+
+No 7
+>1W7J_A MYOSIN VA, MYOSIN LIGHT CHAIN; MOTOR PROTEIN, UNCONVENTIONAL MYOSIN, MYOSIN; HET: ADP; 2.0A {GALLUS GALLUS} SCOP: c.37.1.9, b.34.3.1
+Probab=10.85  E-value=2.6e+02  Score=14.08  Aligned_cols=5  Identities=80%  Similarity=0.946  Sum_probs=0.0  Template_Neff=8.100
+
+Q NNNSSS            1 NNNSS    5 (6)
+Q Consensus         1 nnnss    5 (6)
+                      |+|||
+T Consensus       214 N~NSS  218 (795)
+T 1W7J_A          214 NDNSS  218 (795)
+T ss_dssp             CTTEE
+T ss_pred             CCCcc
+
+
+No 8
+>1QVI_A Myosin heavy chain, striated muscle; scallop myosin subfragment-1 (S1), pre-power; HET: ADP; 2.54A {Argopecten irradians} SCOP: c.37.1.9, b.34.3.1
+Probab=10.80  E-value=2.6e+02  Score=14.17  Aligned_cols=5  Identities=100%  Similarity=1.052  Sum_probs=0.0  Template_Neff=8.100
+
+Q NNNSSS            1 NNNSS    5 (6)
+Q Consensus         1 nnnss    5 (6)
+                      |+|||
+T Consensus       237 N~nSS  241 (840)
+T 1QVI_A          237 NNNSS  241 (840)
+T ss_dssp             CTTEE
+T ss_pred             CCCcc
+
+
+No 9
+>5I0H_A Unconventional myosin-X; myosin, motor domain, molecular motor; HET: ADP, EDO, SO4; 1.8A {Homo sapiens}
+Probab=10.71  E-value=2.6e+02  Score=13.92  Aligned_cols=5  Identities=100%  Similarity=1.052  Sum_probs=0.0  Template_Neff=8.100
+
+Q NNNSSS            1 NNNSS    5 (6)
+Q Consensus         1 nnnss    5 (6)
+                      |+|||
+T Consensus       215 N~nSS  219 (741)
+T 5I0H_A          215 NNNSS  219 (741)
+T ss_dssp             EEEEE
+T ss_pred             CCCcc
+
+
+No 10
+>4ZG4_E myosin Vc; myosin, pre-powerstroke, motor protein; HET: VO4, EDO, ADP; 2.36A {Homo sapiens}
+Probab=10.49  E-value=2.7e+02  Score=13.99  Aligned_cols=5  Identities=80%  Similarity=0.946  Sum_probs=0.0  Template_Neff=8.000
+
+Q NNNSSS            1 NNNSS    5 (6)
+Q Consensus         1 nnnss    5 (6)
+                      |+|||
+T Consensus       212 N~NSS  216 (764)
+T 4ZG4_E          212 NDNSS  216 (764)
+T ss_dssp             CTTEE
+T ss_pred             CCCcc
+
+

@@ -1,0 +1,149 @@
+Query         KLFIQF
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 11:19:00 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/KLFIQF/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/KLFIQF/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 1YOD_B water-solublized phosph  11.5 2.4E+02  0.0026   10.6   0.0    5    2-6      10-14  (30)
+  2 7AE1_N DNA-directed RNA polyme  11.1 2.5E+02  0.0028   13.8   0.0    5    2-6     267-271 (398)
+  3 2V6I_A RNA HELICASE; MEMBRANE,  10.9 2.5E+02  0.0028   11.5   0.0    6    1-6     421-426 (431)
+  4 2E1M_B L-glutamate oxidase (E.  10.7 2.6E+02  0.0029   11.2   0.0    6    1-6      47-52  (130)
+  5 7AEA_N DNA-directed RNA polyme  10.6 2.6E+02  0.0029   13.7   0.0    5    2-6     267-271 (398)
+  6 2KZU_A Death-associated protei  10.1 2.8E+02  0.0031   11.4   0.0    6    1-6      15-20  (94)
+  7 4KYT_B SERCA1a, Cardiac phosph  10.1 2.8E+02  0.0031   11.4   0.0    5    2-6      31-35  (52)
+  8 6FX4_C E3 ubiquitin-protein li  10.0 2.9E+02  0.0032   10.3   0.0    6    1-6      43-48  (122)
+  9 6TGK_C Ubiquitin-protein ligas   9.8   3E+02  0.0033   10.0   0.0    6    1-6      39-44  (105)
+ 10 5GRQ_A Death domain-associated   9.7   3E+02  0.0033   11.2   0.0    6    1-6      11-16  (90)
+
+No 1
+>1YOD_B water-solublized phospholamban; protein design, water-soluble, DE NOVO; HET: MSE; 1.8A {N/A}
+Probab=11.48  E-value=2.4e+02  Score=10.57  Aligned_cols=5  Identities=40%  Similarity=0.707  Sum_probs=0.0  Template_Neff=1.700
+
+Q KLFIQF            2 LFIQF    6 (6)
+Q Consensus         2 lfiqf    6 (6)
+                      |||.|
+T Consensus        10 LfiNf   14 (30)
+T 1YOD_B           10 LYINR   14 (30)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 2
+>7AE1_N DNA-directed RNA polymerase III subunit; HUMAN, TRANSCRIPTION, SHORT RNAs; 2.8A {Homo sapiens}
+Probab=11.06  E-value=2.5e+02  Score=13.79  Aligned_cols=5  Identities=60%  Similarity=1.231  Sum_probs=0.0  Template_Neff=6.100
+
+Q KLFIQF            2 LFIQF    6 (6)
+Q Consensus         2 lfiqf    6 (6)
+                      +|+||
+T Consensus       267 ll~QL  271 (398)
+T 7AE1_N          267 LFLQL  271 (398)
+T ss_dssp             EEEEC
+T ss_pred             EEEEC
+
+
+No 3
+>2V6I_A RNA HELICASE; MEMBRANE, HELICASE, HYDROLASE, RNA HELICASE; 2.1A {KOKOBERA VIRUS}
+Probab=10.93  E-value=2.5e+02  Score=11.52  Aligned_cols=6  Identities=50%  Similarity=0.816  Sum_probs=0.0  Template_Neff=11.000
+
+Q KLFIQF            1 KLFIQF    6 (6)
+Q Consensus         1 klfiqf    6 (6)
+                      +.||||
+T Consensus       421 ~~~~~~  426 (431)
+T 2V6I_A          421 KSFKEF  426 (431)
+T ss_pred             HHHHHH
+
+
+No 4
+>2E1M_B L-glutamate oxidase (E.C.1.4.3.11); L-amino acid oxidase, L-Glutamate Oxidase; HET: FAD, PO4; 2.8A {Streptomyces sp.}
+Probab=10.73  E-value=2.6e+02  Score=11.17  Aligned_cols=6  Identities=33%  Similarity=1.027  Sum_probs=0.0  Template_Neff=7.300
+
+Q KLFIQF            1 KLFIQF    6 (6)
+Q Consensus         1 klfiqf    6 (6)
+                      |.|++|
+T Consensus        47 Kv~l~f   52 (130)
+T 2E1M_B           47 KVLLEF   52 (130)
+T ss_dssp             EEEEEE
+T ss_pred             EEEEEE
+
+
+No 5
+>7AEA_N DNA-directed RNA polymerase III subunit; HUMAN, TRANSCRIPTION, SHORT RNAs; 3.4A {Homo sapiens}
+Probab=10.64  E-value=2.6e+02  Score=13.72  Aligned_cols=5  Identities=60%  Similarity=1.231  Sum_probs=0.0  Template_Neff=6.100
+
+Q KLFIQF            2 LFIQF    6 (6)
+Q Consensus         2 lfiqf    6 (6)
+                      +|+||
+T Consensus       267 ll~QL  271 (398)
+T 7AEA_N          267 LFLQL  271 (398)
+T ss_dssp             EEEEC
+T ss_pred             EEEEC
+
+
+No 6
+>2KZU_A Death-associated protein 6, Ras association; Fas death-domain associated protein, DAXX; NMR {Homo sapiens}
+Probab=10.12  E-value=2.8e+02  Score=11.36  Aligned_cols=6  Identities=67%  Similarity=1.121  Sum_probs=0.0  Template_Neff=5.300
+
+Q KLFIQF            1 KLFIQF    6 (6)
+Q Consensus         1 klfiqf    6 (6)
+                      ++|.||
+T Consensus        15 ~~F~~F   20 (94)
+T 2KZU_A           15 KLFEEF   20 (94)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 7
+>4KYT_B SERCA1a, Cardiac phospholamban; transmembrane helices, Calcium pump, P-type; HET: GLC; 2.833A {Oryctolagus cuniculus}
+Probab=10.09  E-value=2.8e+02  Score=11.40  Aligned_cols=5  Identities=80%  Similarity=1.510  Sum_probs=0.0  Template_Neff=1.500
+
+Q KLFIQF            2 LFIQF    6 (6)
+Q Consensus         2 lfiqf    6 (6)
+                      |||.|
+T Consensus        31 LfiNF   35 (52)
+T 4KYT_B           31 LFINF   35 (52)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 8
+>6FX4_C E3 ubiquitin-protein ligase SMURF2 (E.C.2.3.2.26); E3 HECT ligase, Ubiquitin transfer; HET: GOL; 2.5A {Homo sapiens}
+Probab=10.00  E-value=2.9e+02  Score=10.28  Aligned_cols=6  Identities=33%  Similarity=0.661  Sum_probs=0.0  Template_Neff=8.700
+
+Q KLFIQF            1 KLFIQF    6 (6)
+Q Consensus         1 klfiqf    6 (6)
+                      +.|++|
+T Consensus        43 ~~fL~F   48 (122)
+T 6FX4_C           43 ARLLQF   48 (122)
+T ss_dssp             HHHHHH
+T ss_pred             Hhheee
+
+
+No 9
+>6TGK_C Ubiquitin-protein ligase E3A (E.C.2.3.2.26); E6AP, swapped dimer, LIGASE; 1.3A {Homo sapiens}
+Probab=9.79  E-value=3e+02  Score=9.98  Aligned_cols=6  Identities=67%  Similarity=1.453  Sum_probs=0.0  Template_Neff=8.700
+
+Q KLFIQF            1 KLFIQF    6 (6)
+Q Consensus         1 klfiqf    6 (6)
+                      +.|++|
+T Consensus        39 ~~fL~F   44 (105)
+T 6TGK_C           39 RLFLQF   44 (105)
+T ss_dssp             HHHHHH
+T ss_pred             HHHhhh
+
+
+No 10
+>5GRQ_A Death domain-associated protein 6, Transcriptional; helical bundle protein, HYDROLASE; HET: ACT, ZN; 1.584A {Homo sapiens}
+Probab=9.73  E-value=3e+02  Score=11.18  Aligned_cols=6  Identities=67%  Similarity=1.121  Sum_probs=0.0  Template_Neff=5.400
+
+Q KLFIQF            1 KLFIQF    6 (6)
+Q Consensus         1 klfiqf    6 (6)
+                      ++|.||
+T Consensus        11 ~~F~~F   16 (90)
+T 5GRQ_A           11 KLFEEF   16 (90)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+

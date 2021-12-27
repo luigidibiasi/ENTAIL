@@ -1,0 +1,147 @@
+Query         SLYQLE
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 15:15:57 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/SLYQLE/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/SLYQLE/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5LN3_D 26S proteasome non-ATPa  17.6 1.3E+02  0.0014   12.0   0.0    5    2-6      16-20  (248)
+  2 6XFL_A Type 3 secretion system  16.7 1.4E+02  0.0015   13.1   0.0    5    1-5      67-71  (82)
+  3 6XFJ_D Type 3 secretion system  16.7 1.4E+02  0.0015   13.0   0.0    5    1-5      67-71  (82)
+  4 5L4G_O Proteasome subunit alph  16.1 1.4E+02  0.0016   11.7   0.0    5    2-6      19-23  (234)
+  5 5LE5_O Proteasome subunit alph  16.1 1.4E+02  0.0016   11.7   0.0    5    2-6      19-23  (234)
+  6 5LE5_S Proteasome subunit alph  15.9 1.5E+02  0.0016   12.2   0.0    6    1-6      18-23  (263)
+  7 5VFU_H Activated Human 26S Pro  15.9 1.5E+02  0.0016   11.7   0.0    5    2-6      17-21  (232)
+  8 2PQR_C Mitochondria fission 1   15.8 1.5E+02  0.0016   11.5   0.0    4    1-4      49-52  (64)
+  9 6QM7_B Proteasome alpha1 chain  15.8 1.5E+02  0.0016   11.6   0.0    5    2-6      17-21  (231)
+ 10 6QM8_B Proteasome alpha1 chain  15.8 1.5E+02  0.0016   11.6   0.0    5    2-6      17-21  (231)
+
+No 1
+>5LN3_D 26S proteasome non-ATPase regulatory subunit; 26S Proteasome, Cryo-EM, Single Particle; 6.8A {Homo sapiens}
+Probab=17.61  E-value=1.3e+02  Score=12.02  Aligned_cols=5  Identities=60%  Similarity=1.145  Sum_probs=0.0  Template_Neff=9.700
+
+Q SLYQLE            2 LYQLE    6 (6)
+Q Consensus         2 lyqle    6 (6)
+                      ++|+|
+T Consensus        16 ~~q~e   20 (248)
+T 5LN3_D           16 LFQVE   20 (248)
+T ss_pred             eehHH
+
+
+No 2
+>6XFL_A Type 3 secretion system pilotin; pilotin, secretin, chaperone, type III; NMR {Salmonella typhimurium (strain LT2 / SGSC1412 / ATCC 700720)}
+Probab=16.74  E-value=1.4e+02  Score=13.05  Aligned_cols=5  Identities=60%  Similarity=0.946  Sum_probs=0.0  Template_Neff=2.300
+
+Q SLYQLE            1 SLYQL    5 (6)
+Q Consensus         1 slyql    5 (6)
+                      |+||+
+T Consensus        67 Siyql   71 (82)
+T 6XFL_A           67 SIYQT   71 (82)
+T ss_dssp             CHHHH
+T ss_pred             cHHHH
+
+
+No 3
+>6XFJ_D Type 3 secretion system pilotin; pilotin, chaperone, type III secretion; HET: CD, CL; 1.2A {Salmonella typhimurium (strain LT2 / SGSC1412 / ATCC 700720)}
+Probab=16.66  E-value=1.4e+02  Score=13.02  Aligned_cols=5  Identities=60%  Similarity=0.946  Sum_probs=0.0  Template_Neff=2.400
+
+Q SLYQLE            1 SLYQL    5 (6)
+Q Consensus         1 slyql    5 (6)
+                      |+||+
+T Consensus        67 Siyql   71 (82)
+T 6XFJ_D           67 SIYQT   71 (82)
+T ss_dssp             CHHHH
+T ss_pred             cHHHH
+
+
+No 4
+>5L4G_O Proteasome subunit alpha type-6 (E.C.3.4.25.1); proteostasis, AAA-ATPase, Hydrolase; HET: ATP, ADP; 4.019A {Homo sapiens}
+Probab=16.06  E-value=1.4e+02  Score=11.75  Aligned_cols=5  Identities=60%  Similarity=0.800  Sum_probs=0.0  Template_Neff=9.700
+
+Q SLYQLE            2 LYQLE    6 (6)
+Q Consensus         2 lyqle    6 (6)
+                      |||+|
+T Consensus        19 l~q~e   23 (234)
+T 5L4G_O           19 LVQIE   23 (234)
+T ss_pred             eecHH
+
+
+No 5
+>5LE5_O Proteasome subunit alpha type-2 (E.C.3.4.25.1); Proteasome, Multicatalytic Proteinase, NTN-Hydrolase, hydrolase; HET: 6V1, MG, 1PE, CL, YCM; 1.8A {Homo sapiens}
+Probab=16.06  E-value=1.4e+02  Score=11.75  Aligned_cols=5  Identities=60%  Similarity=0.800  Sum_probs=0.0  Template_Neff=9.700
+
+Q SLYQLE            2 LYQLE    6 (6)
+Q Consensus         2 lyqle    6 (6)
+                      |||+|
+T Consensus        19 l~q~e   23 (234)
+T 5LE5_O           19 LVQIE   23 (234)
+T ss_dssp             BHHHH
+T ss_pred             eecHH
+
+
+No 6
+>5LE5_S Proteasome subunit alpha type-2 (E.C.3.4.25.1); Proteasome, Multicatalytic Proteinase, NTN-Hydrolase, hydrolase; HET: 6V1, YCM, 1PE, MG, CL; 1.8A {Homo sapiens}
+Probab=15.89  E-value=1.5e+02  Score=12.20  Aligned_cols=6  Identities=33%  Similarity=0.528  Sum_probs=0.0  Template_Neff=9.200
+
+Q SLYQLE            1 SLYQLE    6 (6)
+Q Consensus         1 slyqle    6 (6)
+                      .|||+|
+T Consensus        18 ~l~q~e   23 (263)
+T 5LE5_S           18 RIHQIE   23 (263)
+T ss_dssp             CCHHHH
+T ss_pred             ceehHH
+
+
+No 7
+>5VFU_H Activated Human 26S Proteasome; 26S proteasome, ATP-dependent protease, AAA-ATPase; 5.8A {Homo sapiens}
+Probab=15.85  E-value=1.5e+02  Score=11.66  Aligned_cols=5  Identities=60%  Similarity=0.800  Sum_probs=0.0  Template_Neff=9.800
+
+Q SLYQLE            2 LYQLE    6 (6)
+Q Consensus         2 lyqle    6 (6)
+                      ++|+|
+T Consensus        17 ~~q~e   21 (232)
+T 5VFU_H           17 LVQIE   21 (232)
+T ss_pred             eehHH
+
+
+No 8
+>2PQR_C Mitochondria fission 1 protein, WD; TPR domain, protein-protein complex, APOPTOSIS; 1.88A {Saccharomyces cerevisiae}
+Probab=15.82  E-value=1.5e+02  Score=11.46  Aligned_cols=4  Identities=50%  Similarity=1.082  Sum_probs=0.0  Template_Neff=5.200
+
+Q SLYQLE            1 SLYQ    4 (6)
+Q Consensus         1 slyq    4 (6)
+                      ||||
+T Consensus        49 SLFQ   52 (64)
+T 2PQR_C           49 SLFE   52 (64)
+T ss_dssp             CHHH
+T ss_pred             ChhH
+
+
+No 9
+>6QM7_B Proteasome alpha1 chain, Proteasome alpha2; Proteasome 20S subunit, hydrolase; HET: J6E; 2.8A {Leishmania tarentolae}
+Probab=15.77  E-value=1.5e+02  Score=11.59  Aligned_cols=5  Identities=60%  Similarity=0.826  Sum_probs=0.0  Template_Neff=9.900
+
+Q SLYQLE            2 LYQLE    6 (6)
+Q Consensus         2 lyqle    6 (6)
+                      +||+|
+T Consensus        17 ~~q~e   21 (231)
+T 6QM7_B           17 LIQIE   21 (231)
+T ss_dssp             BHHHH
+T ss_pred             EeeHH
+
+
+No 10
+>6QM8_B Proteasome alpha1 chain, Proteasome alpha2; Proteasome 20S subunit, hydrolase; 3.3A {Leishmania tarentolae}
+Probab=15.77  E-value=1.5e+02  Score=11.59  Aligned_cols=5  Identities=60%  Similarity=0.826  Sum_probs=0.0  Template_Neff=9.900
+
+Q SLYQLE            2 LYQLE    6 (6)
+Q Consensus         2 lyqle    6 (6)
+                      +||+|
+T Consensus        17 ~~q~e   21 (231)
+T 6QM8_B           17 LIQIE   21 (231)
+T ss_dssp             CHHHH
+T ss_pred             EeeHH
+
+

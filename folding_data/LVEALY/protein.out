@@ -1,0 +1,156 @@
+Query         LVEALY
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 20:51:05 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LVEALY/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LVEALY/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5URT_B Insulin Chain A, Insuli  60.5     7.6 8.4E-05   13.4   0.0    6    1-6      11-16  (30)
+  2 3W7Y_B Insulin; Human insulin,  40.0      27  0.0003   11.8   0.0    6    1-6      11-16  (30)
+  3 6SOF_F Insulin receptor (E.C.2  40.0      27  0.0003   11.8   0.0    6    1-6      11-16  (30)
+  4 6BLQ_B H-2 class II histocompa  27.2      60 0.00067   13.0   0.0    6    1-6       2-7   (221)
+  5 3MLP_F Transcription factor CO  25.4      68 0.00075   16.4   0.0    6    1-6     355-360 (402)
+  6 3MLP_A Transcription factor CO  25.1      70 0.00077   16.3   0.0    6    1-6     355-360 (402)
+  7 1AL3_A CYS REGULON TRANSCRIPTI  17.4 1.3E+02  0.0014   11.6   0.0    5    2-6     312-316 (324)
+  8 3IEY_A tRNA-splicing endonucle  14.9 1.6E+02  0.0018   11.8   0.0    6    1-6      19-24  (154)
+  9 2N73_B Golgi resident protein   13.2 1.9E+02  0.0021   12.0   0.0    5    2-6       4-8   (80)
+ 10 3AJV_C Putative uncharacterize  13.0   2E+02  0.0022   12.3   0.0    6    1-6      69-74  (190)
+
+No 1
+>5URT_B Insulin Chain A, Insulin Chain; Insulin, HORMONE; 1.18A {Homo sapiens}
+Probab=60.52  E-value=7.6  Score=13.36  Aligned_cols=6  Identities=100%  Similarity=1.398  Sum_probs=4.1  Template_Neff=4.800
+
+Q LVEALY            1 LVEALY    6 (6)
+Q Consensus         1 lvealy    6 (6)
+                      ||++||
+T Consensus        11 Lvd~l~   16 (30)
+T 5URT_B           11 LVEALY   16 (30)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            577775
+
+
+No 2
+>3W7Y_B Insulin; Human insulin, hormone, glucose metabolism; 0.92A {Homo sapiens}
+Probab=39.95  E-value=27  Score=11.81  Aligned_cols=6  Identities=100%  Similarity=1.398  Sum_probs=3.5  Template_Neff=5.200
+
+Q LVEALY            1 LVEALY    6 (6)
+Q Consensus         1 lvealy    6 (6)
+                      |+++|+
+T Consensus        11 L~~~L~   16 (30)
+T 3W7Y_B           11 LVEALY   16 (30)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            566664
+
+
+No 3
+>6SOF_F Insulin receptor (E.C.2.7.10.1), Insulin; cell surface receptor, insulin, tyrosine; 4.3A {Homo sapiens}
+Probab=39.95  E-value=27  Score=11.81  Aligned_cols=6  Identities=100%  Similarity=1.398  Sum_probs=3.5  Template_Neff=5.200
+
+Q LVEALY            1 LVEALY    6 (6)
+Q Consensus         1 lvealy    6 (6)
+                      |+++|+
+T Consensus        11 L~~~L~   16 (30)
+T 6SOF_F           11 LVEALY   16 (30)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            566664
+
+
+No 4
+>6BLQ_B H-2 class II histocompatibility antigen; INSULIN, TYPE I DIABETES, T; HET: NAG, EDO, IPA; 1.8A {Mus musculus}
+Probab=27.18  E-value=60  Score=12.99  Aligned_cols=6  Identities=83%  Similarity=1.231  Sum_probs=3.4  Template_Neff=9.100
+
+Q LVEALY            1 LVEALY    6 (6)
+Q Consensus         1 lvealy    6 (6)
+                      |||.||
+T Consensus         2 ~~~~~~    7 (221)
+T 6BLQ_B            2 LVERLY    7 (221)
+T ss_dssp             CEECCC
+T ss_pred             ceeeEE
+Confidence            456655
+
+
+No 5
+>3MLP_F Transcription factor COE1/DNA; transcription factor, pseudo-Ig-fold, TIG-domain, IPT-domain; HET: CIT; 2.8A {Mus musculus}
+Probab=25.41  E-value=68  Score=16.40  Aligned_cols=6  Identities=100%  Similarity=1.398  Sum_probs=0.0  Template_Neff=4.300
+
+Q LVEALY            1 LVEALY    6 (6)
+Q Consensus         1 lvealy    6 (6)
+                      |+||||
+T Consensus       355 l~ealy  360 (402)
+T 3MLP_F          355 LVEALY  360 (402)
+T ss_dssp             ------
+T ss_pred             HHHHHh
+Confidence            456665
+
+
+No 6
+>3MLP_A Transcription factor COE1/DNA; transcription factor, pseudo-Ig-fold, TIG-domain, IPT-domain; HET: CIT; 2.8A {Mus musculus}
+Probab=25.09  E-value=70  Score=16.32  Aligned_cols=6  Identities=100%  Similarity=1.398  Sum_probs=3.1  Template_Neff=4.400
+
+Q LVEALY            1 LVEALY    6 (6)
+Q Consensus         1 lvealy    6 (6)
+                      |+||||
+T Consensus       355 l~e~ly  360 (402)
+T 3MLP_A          355 LVEALY  360 (402)
+T ss_dssp             HHHHHT
+T ss_pred             HHHHHh
+Confidence            355554
+
+
+No 7
+>1AL3_A CYS REGULON TRANSCRIPTIONAL ACTIVATOR CYSB; LYSR FAMILY, CYSTEINE BIOSYNTHESIS, TRANSCRIPTION; 1.8A {Klebsiella aerogenes} SCOP: c.94.1.1
+Probab=17.40  E-value=1.3e+02  Score=11.64  Aligned_cols=5  Identities=40%  Similarity=1.132  Sum_probs=0.0  Template_Neff=11.300
+
+Q LVEALY            2 VEALY    6 (6)
+Q Consensus         2 vealy    6 (6)
+                      ||+||
+T Consensus       312 ~~~~~  316 (324)
+T 1AL3_A          312 IEAMF  316 (324)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 8
+>3IEY_A tRNA-splicing endonuclease (E.C.3.1.27.9), NEQ261; protein heterodimer, Endonuclease, Hydrolase, Nuclease; 2.11A {Nanoarchaeum equitans}
+Probab=14.86  E-value=1.6e+02  Score=11.80  Aligned_cols=6  Identities=67%  Similarity=1.159  Sum_probs=0.0  Template_Neff=7.800
+
+Q LVEALY            1 LVEALY    6 (6)
+Q Consensus         1 lvealy    6 (6)
+                      +.||+|
+T Consensus        19 ~~Ea~y   24 (154)
+T 3IEY_A           19 LIEAYY   24 (154)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 9
+>2N73_B Golgi resident protein GCP60, Phosphatidylinositol; kinase, TRANSFERASE-TRANSFERASE REGULATOR complex; NMR {Homo sapiens}
+Probab=13.22  E-value=1.9e+02  Score=12.04  Aligned_cols=5  Identities=60%  Similarity=0.355  Sum_probs=0.0  Template_Neff=4.000
+
+Q LVEALY            2 VEALY    6 (6)
+Q Consensus         2 vealy    6 (6)
+                      +||+|
+T Consensus         4 ~~~~~    8 (80)
+T 2N73_B            4 VEARS    8 (80)
+T ss_dssp             CCCCC
+T ss_pred             eeeee
+
+
+No 10
+>3AJV_C Putative uncharacterized protein, tRNA-splicing endonuclease; EndA, splicing endonuclease, tRNA splicing; HET: GOL; 1.7A {Aeropyrum pernix}
+Probab=13.03  E-value=2e+02  Score=12.33  Aligned_cols=6  Identities=50%  Similarity=0.672  Sum_probs=0.0  Template_Neff=7.000
+
+Q LVEALY            1 LVEALY    6 (6)
+Q Consensus         1 lvealy    6 (6)
+                      +.||+|
+T Consensus        69 ~~Ea~y   74 (190)
+T 3AJV_C           69 PLEAAY   74 (190)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+

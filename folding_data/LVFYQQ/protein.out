@@ -1,0 +1,149 @@
+Query         LVFYQQ
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 20:54:13 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LVFYQQ/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LVFYQQ/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5DEU_A Methylcytosine dioxygen  73.1     2.8 3.1E-05   21.8   0.0    6    1-6     425-430 (462)
+  2 7MQ8_NN Ribosomal assembly int  19.5 1.1E+02  0.0012   15.5   0.0    4    3-6     463-466 (560)
+  3 5DOC_A Virion egress protein U  19.5 1.1E+02  0.0012   14.3   0.0    6    1-6      52-57  (203)
+  4 6HTN_B Fucose-binding lectin;   19.1 1.1E+02  0.0012   10.9   0.0    4    2-5      68-71  (144)
+  5 4ZXS_B Virion egress protein U  18.9 1.1E+02  0.0012   14.7   0.0    6    1-6      96-101 (260)
+  6 4Z3U_D UL34 protein, UL31; com  18.2 1.2E+02  0.0013   14.6   0.0    6    1-6      96-101 (258)
+  7 4ZXS_D Virion egress protein U  18.1 1.2E+02  0.0013   14.6   0.0    6    1-6      96-101 (260)
+  8 5DMV_D Serine/threonine-protei  17.6 1.3E+02  0.0014   11.1   0.0    6    1-6      22-27  (32)
+  9 5DOB_A Virion egress protein U  17.5 1.3E+02  0.0014   14.4   0.0    6    1-6      87-92  (237)
+ 10 4Z3U_B UL34 protein, UL31; com  17.3 1.3E+02  0.0014   14.6   0.0    6    1-6      96-101 (258)
+
+No 1
+>5DEU_A Methylcytosine dioxygenase TET2/DNA Complex; 5-methylcytosine dioxygenase, TET2, 5hmC, protein-DNA; HET: OGA, 5HC, MES; 1.801A {Homo sapiens}
+Probab=73.15  E-value=2.8  Score=21.78  Aligned_cols=6  Identities=83%  Similarity=1.447  Sum_probs=5.0  Template_Neff=3.000
+
+Q LVFYQQ            1 LVFYQQ    6 (6)
+Q Consensus         1 lvfyqq    6 (6)
+                      |||||+
+T Consensus       425 lvFYQH  430 (462)
+T 5DEU_A          425 LVFYQH  430 (462)
+T ss_dssp             EEEECB
+T ss_pred             EEEEec
+Confidence            799995
+
+
+No 2
+>7MQ8_NN Ribosomal assembly intermediate, RIBOSOME; HET: SAH, GTP, ATP, MG; 3.6A {Homo sapiens}
+Probab=19.52  E-value=1.1e+02  Score=15.55  Aligned_cols=4  Identities=75%  Similarity=1.555  Sum_probs=0.0  Template_Neff=6.200
+
+Q LVFYQQ            3 FYQQ    6 (6)
+Q Consensus         3 fyqq    6 (6)
+                      ||||
+T Consensus       463 FY~q  466 (560)
+T 7MQ8_NN         463 FYHQ  466 (560)
+T ss_pred             HHHH
+
+
+No 3
+>5DOC_A Virion egress protein UL31 homolog; zinc finger, Bergerat fold, Conserved; 1.94A {Human cytomegalovirus (strain AD169)}
+Probab=19.51  E-value=1.1e+02  Score=14.29  Aligned_cols=6  Identities=33%  Similarity=0.645  Sum_probs=0.0  Template_Neff=4.700
+
+Q LVFYQQ            1 LVFYQQ    6 (6)
+Q Consensus         1 lvfyqq    6 (6)
+                      |.||||
+T Consensus        52 LAF~~q   57 (203)
+T 5DOC_A           52 VAFINQ   57 (203)
+T ss_dssp             HHHHTG
+T ss_pred             HHHHHc
+
+
+No 4
+>6HTN_B Fucose-binding lectin; lectin, propeller, fucose binding, SUGAR; HET: PE8, EDO, MRD, MFU; 1.55A {Kordia periserrulae}
+Probab=19.10  E-value=1.1e+02  Score=10.90  Aligned_cols=4  Identities=25%  Similarity=0.368  Sum_probs=0.0  Template_Neff=10.200
+
+Q LVFYQQ            2 VFYQ    5 (6)
+Q Consensus         2 vfyq    5 (6)
+                      ||||
+T Consensus        68 vfy~   71 (144)
+T 6HTN_B           68 VYAI   71 (144)
+T ss_dssp             EEEE
+T ss_pred             EEEE
+
+
+No 5
+>4ZXS_B Virion egress protein UL34, Virion; HSV-1, nuclear egress, UL31, UL34; 2.772A {Human herpesvirus 1}
+Probab=18.92  E-value=1.1e+02  Score=14.74  Aligned_cols=6  Identities=67%  Similarity=0.855  Sum_probs=0.0  Template_Neff=4.600
+
+Q LVFYQQ            1 LVFYQQ    6 (6)
+Q Consensus         1 lvfyqq    6 (6)
+                      |.||||
+T Consensus        96 LAF~~Q  101 (260)
+T 4ZXS_B           96 LAFVQQ  101 (260)
+T ss_dssp             HHHHTT
+T ss_pred             HHHHHH
+
+
+No 6
+>4Z3U_D UL34 protein, UL31; complex, membrane binding, VIRAL PROTEIN; HET: MSE; 2.706A {Suid herpesvirus 1}
+Probab=18.22  E-value=1.2e+02  Score=14.65  Aligned_cols=6  Identities=50%  Similarity=0.750  Sum_probs=0.0  Template_Neff=4.600
+
+Q LVFYQQ            1 LVFYQQ    6 (6)
+Q Consensus         1 lvfyqq    6 (6)
+                      |.||||
+T Consensus        96 LAF~~Q  101 (258)
+T 4Z3U_D           96 LAYVQQ  101 (258)
+T ss_dssp             HHHHGG
+T ss_pred             HHHHHH
+
+
+No 7
+>4ZXS_D Virion egress protein UL34, Virion; HSV-1, nuclear egress, UL31, UL34; 2.772A {Human herpesvirus 1}
+Probab=18.05  E-value=1.2e+02  Score=14.64  Aligned_cols=6  Identities=67%  Similarity=0.855  Sum_probs=0.0  Template_Neff=4.600
+
+Q LVFYQQ            1 LVFYQQ    6 (6)
+Q Consensus         1 lvfyqq    6 (6)
+                      |.|+||
+T Consensus        96 LAF~~Q  101 (260)
+T 4ZXS_D           96 LAFVQQ  101 (260)
+T ss_dssp             HHHHGG
+T ss_pred             HHHHHH
+
+
+No 8
+>5DMV_D Serine/threonine-protein kinase PLK1 (E.C.2.7.11.21), F-box; Polo-box, PLK1, Emi2, meiosis, TRANSFERASE-METAL; HET: TPO; 2.499A {Mus musculus}
+Probab=17.55  E-value=1.3e+02  Score=11.14  Aligned_cols=6  Identities=50%  Similarity=0.611  Sum_probs=0.0  Template_Neff=2.900
+
+Q LVFYQQ            1 LVFYQQ    6 (6)
+Q Consensus         1 lvfyqq    6 (6)
+                      |.|-||
+T Consensus        22 L~FSQq   27 (32)
+T 5DMV_D           22 LHFSQH   27 (32)
+T ss_pred             eeeeec
+
+
+No 9
+>5DOB_A Virion egress protein UL31 homolog; nuclear egress complex, zinc finger; 2.47A {Human cytomegalovirus}
+Probab=17.53  E-value=1.3e+02  Score=14.40  Aligned_cols=6  Identities=33%  Similarity=0.645  Sum_probs=0.0  Template_Neff=4.600
+
+Q LVFYQQ            1 LVFYQQ    6 (6)
+Q Consensus         1 lvfyqq    6 (6)
+                      |.||||
+T Consensus        87 LAF~~q   92 (237)
+T 5DOB_A           87 VAFINQ   92 (237)
+T ss_dssp             HHHHTG
+T ss_pred             HHHHHc
+
+
+No 10
+>4Z3U_B UL34 protein, UL31; complex, membrane binding, VIRAL PROTEIN; HET: MSE; 2.706A {Suid herpesvirus 1}
+Probab=17.28  E-value=1.3e+02  Score=14.58  Aligned_cols=6  Identities=50%  Similarity=0.750  Sum_probs=0.0  Template_Neff=4.500
+
+Q LVFYQQ            1 LVFYQQ    6 (6)
+Q Consensus         1 lvfyqq    6 (6)
+                      |.||||
+T Consensus        96 LAF~~Q  101 (258)
+T 4Z3U_B           96 LAYVQQ  101 (258)
+T ss_dssp             HHHHGG
+T ss_pred             HHHHHH
+
+

@@ -1,0 +1,148 @@
+Query         ASNAGS
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 15:31:26 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/ASNAGS/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/ASNAGS/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6TYI_Y Biopolymer transport pr   7.7 4.1E+02  0.0045   10.7   0.0    4    3-6     149-152 (163)
+  2 3N5L_A Binding protein compone   7.7 4.1E+02  0.0045   10.0   0.0    5    1-5     306-310 (310)
+  3 2LD7_A Histone deacetylase com   7.1 4.5E+02   0.005   10.7   0.0    5    2-6       1-5   (94)
+  4 5XX9_B Bacterioferritin (E.C.1   7.0 4.7E+02  0.0051    9.6   0.0    5    2-6     162-166 (167)
+  5 6K43_O Bacterioferritin (E.C.1   7.0 4.7E+02  0.0051    9.6   0.0    5    2-6     162-166 (167)
+  6 6CU2_A Probable bacteriophage    6.1 5.6E+02  0.0062   11.4   0.0    5    2-6      22-26  (273)
+  7 4H0P_A acetate kinase (E.C.2.7   5.9 5.7E+02  0.0063   12.6   0.0    4    3-6      12-15  (438)
+  8 1TUU_A Acetate kinase (E.C.2.7   5.9 5.8E+02  0.0064   11.7   0.0    4    3-6       7-10  (399)
+  9 2ERV_B hypothetical protein Pa   5.8 5.9E+02  0.0065   10.3   0.0    4    2-5     128-131 (150)
+ 10 4ML1_C DsbP (E.C.5.3.4.1); Dsb   5.7 6.1E+02  0.0067    9.9   0.0    5    2-6       1-5   (217)
+
+No 1
+>6TYI_Y Biopolymer transport protein ExbB, TonB; molecular motor, Ton system, membrane; HET: PEV, PGT;{Escherichia coli (strain K12)}
+Probab=7.72  E-value=4.1e+02  Score=10.71  Aligned_cols=4  Identities=100%  Similarity=1.248  Sum_probs=0.0  Template_Neff=8.000
+
+Q ASNAGS            3 NAGS    6 (6)
+Q Consensus         3 nags    6 (6)
+                      ||||
+T Consensus       149 ~~~~  152 (163)
+T 6TYI_Y          149 NAGS  152 (163)
+T ss_pred             CCCC
+
+
+No 2
+>3N5L_A Binding protein component of ABC; Structural Genomics, Joint Center for; HET: UNL, SO4, EDO; 1.97A {Pseudomonas aeruginosa}
+Probab=7.67  E-value=4.1e+02  Score=10.04  Aligned_cols=5  Identities=80%  Similarity=1.086  Sum_probs=0.0  Template_Neff=11.700
+
+Q ASNAGS            1 ASNAG    5 (6)
+Q Consensus         1 asnag    5 (6)
+                      +++||
+T Consensus       306 ~~~~~  310 (310)
+T 3N5L_A          306 AANAG  310 (310)
+T ss_dssp             HC---
+T ss_pred             HhhcC
+
+
+No 3
+>2LD7_A Histone deacetylase complex subunit SAP30; TRANSCRIPTION; NMR {Mus musculus}
+Probab=7.09  E-value=4.5e+02  Score=10.74  Aligned_cols=5  Identities=100%  Similarity=1.145  Sum_probs=0.0  Template_Neff=5.400
+
+Q ASNAGS            2 SNAGS    6 (6)
+Q Consensus         2 snags    6 (6)
+                      ||++|
+T Consensus         1 ~~~~~    5 (94)
+T 2LD7_A            1 SNAGS    5 (94)
+T ss_dssp             CCSSC
+T ss_pred             CCCCc
+
+
+No 4
+>5XX9_B Bacterioferritin (E.C.1.16.3.1); Bacterioferritin, METAL TRANSPORT; HET: FE2; 2.6A {Streptomyces coelicolor (strain ATCC BAA-471 / A3(2) / M145)}
+Probab=6.97  E-value=4.7e+02  Score=9.62  Aligned_cols=5  Identities=60%  Similarity=0.780  Sum_probs=0.0  Template_Neff=10.100
+
+Q ASNAGS            2 SNAGS    6 (6)
+Q Consensus         2 snags    6 (6)
+                      |.+||
+T Consensus       162 ~~~~~  166 (167)
+T 5XX9_B          162 SGPGS  166 (167)
+T ss_dssp             -----
+T ss_pred             CCCCC
+
+
+No 5
+>6K43_O Bacterioferritin (E.C.1.16.3.1); Ferritin, Nanocage, Bacterioferritin, METAL TRANSPORT; HET: HEM, FE2;{Streptomyces coelicolor}
+Probab=6.97  E-value=4.7e+02  Score=9.62  Aligned_cols=5  Identities=60%  Similarity=0.780  Sum_probs=0.0  Template_Neff=10.100
+
+Q ASNAGS            2 SNAGS    6 (6)
+Q Consensus         2 snags    6 (6)
+                      |.+||
+T Consensus       162 ~~~~~  166 (167)
+T 6K43_O          162 SGPGS  166 (167)
+T ss_dssp             C----
+T ss_pred             CCCCC
+
+
+No 6
+>6CU2_A Probable bacteriophage protein; adhesin, tail fiber, fiber, phage; 2.58A {Pseudomonas aeruginosa (strain ATCC 15692 / DSM 22644 / CIP 104116 / JCM 14847 / LMG 12228 / 1C / PRS 101 / PAO1)}
+Probab=6.07  E-value=5.6e+02  Score=11.44  Aligned_cols=5  Identities=100%  Similarity=1.145  Sum_probs=0.0  Template_Neff=7.500
+
+Q ASNAGS            2 SNAGS    6 (6)
+Q Consensus         2 snags    6 (6)
+                      ||+|+
+T Consensus        22 ~~~~~   26 (273)
+T 6CU2_A           22 SNAGS   26 (273)
+T ss_pred             ccCcc
+
+
+No 7
+>4H0P_A acetate kinase (E.C.2.7.2.1); ATP-dependent acetate kinase, ASKHA (acetate; 1.894A {Cryptococcus neoformans}
+Probab=5.94  E-value=5.7e+02  Score=12.62  Aligned_cols=4  Identities=75%  Similarity=1.091  Sum_probs=0.0  Template_Neff=6.600
+
+Q ASNAGS            3 NAGS    6 (6)
+Q Consensus         3 nags    6 (6)
+                      |+||
+T Consensus        12 N~GS   15 (438)
+T 4H0P_A           12 NCGS   15 (438)
+T ss_dssp             EECS
+T ss_pred             eCCC
+
+
+No 8
+>1TUU_A Acetate kinase (E.C.2.7.2.1); alpha/beta, ASKHA (acetate and sugar; HET: ADP, AMP; 2.5A {Methanosarcina thermophila} SCOP: c.55.1.2
+Probab=5.88  E-value=5.8e+02  Score=11.73  Aligned_cols=4  Identities=100%  Similarity=1.248  Sum_probs=0.0  Template_Neff=8.200
+
+Q ASNAGS            3 NAGS    6 (6)
+Q Consensus         3 nags    6 (6)
+                      |+||
+T Consensus         7 N~GS   10 (399)
+T 1TUU_A            7 NAGS   10 (399)
+T ss_dssp             EECS
+T ss_pred             eCCC
+
+
+No 9
+>2ERV_B hypothetical protein Paer03002360; Beta barrel, outer membrane, enzyme; HET: CXE; 2.0A {Pseudomonas aeruginosa}
+Probab=5.80  E-value=5.9e+02  Score=10.26  Aligned_cols=4  Identities=100%  Similarity=1.248  Sum_probs=0.0  Template_Neff=7.700
+
+Q ASNAGS            2 SNAG    5 (6)
+Q Consensus         2 snag    5 (6)
+                      ||++
+T Consensus       128 SNa~  131 (150)
+T 2ERV_B          128 SNAG  131 (150)
+T ss_dssp             ECTT
+T ss_pred             cCcc
+
+
+No 10
+>4ML1_C DsbP (E.C.5.3.4.1); DsbC, DsbG, folding and assembly; 1.978A {Klebsiella pneumoniae}
+Probab=5.67  E-value=6.1e+02  Score=9.90  Aligned_cols=5  Identities=80%  Similarity=0.734  Sum_probs=0.0  Template_Neff=9.800
+
+Q ASNAGS            2 SNAGS    6 (6)
+Q Consensus         2 snags    6 (6)
+                      |||.|
+T Consensus         1 ~~~~~    5 (217)
+T 4ML1_C            1 SNASS    5 (217)
+T ss_dssp             -----
+T ss_pred             Ccccc
+
+

@@ -1,0 +1,151 @@
+Query         AIIGLM
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 14:20:08 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/AIIGLM/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/AIIGLM/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5BUO_A Amyloid beta A4 protein  30.5      48 0.00053   16.2   0.0    6    1-6     333-338 (342)
+  2 2VVX_A PROTEIN A52; IRAK2, TRA  14.2 1.7E+02  0.0019   12.7   0.0    5    1-5     101-105 (162)
+  3 6C66_M CRISPR-associated helic  13.8 1.8E+02   0.002   12.9   0.0    6    1-6      34-39  (254)
+  4 2K36_A Protein K7; PROTEIN, VI  13.7 1.8E+02   0.002   12.7   0.0    5    1-5     100-104 (149)
+  5 2B19_A Neuropeptide K; helix,   13.7 1.8E+02   0.002   11.2   0.0    6    1-6      31-36  (36)
+  6 6XXD_C PilA; Type IV pilin gly  13.5 1.9E+02  0.0021   10.7   0.0    6    1-6      11-16  (125)
+  7 4N77_A Uncharacterized protein  13.4 1.9E+02  0.0021   12.8   0.0    6    1-6      34-39  (248)
+  8 2HI2_A Fimbrial protein; TYPE   13.4 1.9E+02  0.0021   11.0   0.0    6    1-6      11-16  (158)
+  9 1I4S_A RIBONUCLEASE III (E.C.3  12.8   2E+02  0.0023   10.7   0.0    6    1-6     111-116 (147)
+ 10 3CQY_A Anhydro-N-acetylmuramic  12.6 2.1E+02  0.0023   13.7   0.0    5    2-6       7-11  (370)
+
+No 1
+>5BUO_A Amyloid beta A4 protein, Receptor; receptor, dimer, metal transport; HET: IDS, SGN, GOL; 2.31A {Homo sapiens}
+Probab=30.49  E-value=48  Score=16.24  Aligned_cols=6  Identities=100%  Similarity=1.403  Sum_probs=0.0  Template_Neff=5.000
+
+Q AIIGLM            1 AIIGLM    6 (6)
+Q Consensus         1 aiiglm    6 (6)
+                      |+||||
+T Consensus       333 a~IGL~  338 (342)
+T 5BUO_A          333 AIIGLM  338 (342)
+T ss_dssp             ------
+T ss_pred             ceeeee
+Confidence            567775
+
+
+No 2
+>2VVX_A PROTEIN A52; IRAK2, TRAF6, BCL-2 FAMILY, VACCINIA; 2.746A {VACCINIA VIRUS}
+Probab=14.19  E-value=1.7e+02  Score=12.75  Aligned_cols=5  Identities=60%  Similarity=1.212  Sum_probs=0.0  Template_Neff=5.800
+
+Q AIIGLM            1 AIIGL    5 (6)
+Q Consensus         1 aiigl    5 (6)
+                      ++|||
+T Consensus       101 ~iIGL  105 (162)
+T 2VVX_A          101 SMIGL  105 (162)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 3
+>6C66_M CRISPR-associated helicase, Cas3 family, CRISPR-associated; CRISPR-Cas, Cascade, Cas3, DNA BINDING;{Thermobifida fusca (strain YX)}
+Probab=13.85  E-value=1.8e+02  Score=12.93  Aligned_cols=6  Identities=33%  Similarity=1.016  Sum_probs=0.0  Template_Neff=7.100
+
+Q AIIGLM            1 AIIGLM    6 (6)
+Q Consensus         1 aiiglm    6 (6)
+                      +|+||+
+T Consensus        34 av~GLl   39 (254)
+T 6C66_M           34 GLIGMF   39 (254)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 4
+>2K36_A Protein K7; PROTEIN, VIRAL PROTEIN; NMR {Vaccinia virus}
+Probab=13.66  E-value=1.8e+02  Score=12.65  Aligned_cols=5  Identities=60%  Similarity=1.012  Sum_probs=0.0  Template_Neff=5.500
+
+Q AIIGLM            1 AIIGL    5 (6)
+Q Consensus         1 aiigl    5 (6)
+                      ++|||
+T Consensus       100 ~iIGL  104 (149)
+T 2K36_A          100 ATIGI  104 (149)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 5
+>2B19_A Neuropeptide K; helix, 3 10 helix, lipid; NMR {N/A}
+Probab=13.65  E-value=1.8e+02  Score=11.23  Aligned_cols=6  Identities=50%  Similarity=1.115  Sum_probs=0.0  Template_Neff=1.500
+
+Q AIIGLM            1 AIIGLM    6 (6)
+Q Consensus         1 aiiglm    6 (6)
+                      ..+|||
+T Consensus        31 SFVGLM   36 (36)
+T 2B19_A           31 SFVGLM   36 (36)
+T ss_dssp             GGGGGC
+T ss_pred             cccccC
+
+
+No 6
+>6XXD_C PilA; Type IV pilin glycosylation twitching; 3.22A {Thermus thermophilus (strain HB27 / ATCC BAA-163 / DSM 7039)}
+Probab=13.51  E-value=1.9e+02  Score=10.66  Aligned_cols=6  Identities=50%  Similarity=0.916  Sum_probs=0.0  Template_Neff=9.000
+
+Q AIIGLM            1 AIIGLM    6 (6)
+Q Consensus         1 aiiglm    6 (6)
+                      +|+|++
+T Consensus        11 ~Ii~il   16 (125)
+T 6XXD_C           11 AIIAIL   16 (125)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 7
+>4N77_A Uncharacterized protein; crispr, RRM, RNA binding protein; 1.999A {Thermus thermophilus}
+Probab=13.43  E-value=1.9e+02  Score=12.78  Aligned_cols=6  Identities=33%  Similarity=1.115  Sum_probs=0.0  Template_Neff=7.200
+
+Q AIIGLM            1 AIIGLM    6 (6)
+Q Consensus         1 aiiglm    6 (6)
+                      +|+||+
+T Consensus        34 aViGLl   39 (248)
+T 4N77_A           34 GVVGLL   39 (248)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 8
+>2HI2_A Fimbrial protein; TYPE IV PILIN, FIBER-FORMING PROTEIN; HET: GLA, HTO, DT6; 2.3A {Neisseria gonorrhoeae}
+Probab=13.37  E-value=1.9e+02  Score=10.97  Aligned_cols=6  Identities=50%  Similarity=1.204  Sum_probs=0.0  Template_Neff=9.200
+
+Q AIIGLM            1 AIIGLM    6 (6)
+Q Consensus         1 aiiglm    6 (6)
+                      +|||++
+T Consensus        11 aIigIl   16 (158)
+T 2HI2_A           11 AIVGIL   16 (158)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 9
+>1I4S_A RIBONUCLEASE III (E.C.3.1.26.3); RIBONUCLEASE, RNASE III, DOUBLE-STRANDED RNA; 2.15A {Aquifex aeolicus} SCOP: a.149.1.1
+Probab=12.76  E-value=2e+02  Score=10.66  Aligned_cols=6  Identities=17%  Similarity=0.241  Sum_probs=0.0  Template_Neff=9.400
+
+Q AIIGLM            1 AIIGLM    6 (6)
+Q Consensus         1 aiiglm    6 (6)
+                      |+||.+
+T Consensus       111 A~iGAi  116 (147)
+T 1I4S_A          111 ALWAAV  116 (147)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 10
+>3CQY_A Anhydro-N-acetylmuramic acid kinase (E.C.2.7.1.-); APC7501, SO_1313, structural genomics, PSI-2; HET: SIN; 2.3A {Shewanella oneidensis}
+Probab=12.62  E-value=2.1e+02  Score=13.68  Aligned_cols=5  Identities=80%  Similarity=1.212  Sum_probs=0.0  Template_Neff=6.600
+
+Q AIIGLM            2 IIGLM    6 (6)
+Q Consensus         2 iiglm    6 (6)
+                      +||+|
+T Consensus         7 ~iGlM   11 (370)
+T 3CQY_A            7 YIGLM   11 (370)
+T ss_dssp             EEEEE
+T ss_pred             EEEee
+
+

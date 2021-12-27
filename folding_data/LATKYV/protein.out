@@ -1,0 +1,148 @@
+Query         LATKYV
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 14:48:30 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LATKYV/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LATKYV/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6Z1P_AU Ribosomal protein L2,    8.8 3.4E+02  0.0038   15.1   0.0    6    1-6     171-176 (499)
+  2 1VE4_A ATP phosphoribosyltrans   6.8 4.8E+02  0.0053   11.6   0.0    5    1-5     111-115 (206)
+  3 6FD9_A ATP phosphoribosyltrans   6.1 5.5E+02  0.0061   11.8   0.0    5    1-5     135-139 (232)
+  4 1C1K_A BPT4 GENE 59 HELICASE A   5.8   6E+02  0.0066   12.1   0.0    5    1-5      62-66  (217)
+  5 7BTY_C Mitochondrial outer mem   5.7 6.1E+02  0.0068   11.5   0.0    6    1-6     322-327 (327)
+  6 5A5C_A LRRTM; SIGNALING PROTEI   5.3 6.6E+02  0.0073    9.5   0.0    5    1-5     353-357 (357)
+  7 4WPX_B Cdc31, Sac3 CID region,   5.2 6.7E+02  0.0074   10.5   0.0    5    1-5      72-76  (89)
+  8 7CIZ_D Tubulinyl-Tyr carboxype   5.2 6.9E+02  0.0076    9.6   0.0    5    1-5      64-68  (75)
+  9 7CIZ_H Tubulinyl-Tyr carboxype   5.2 6.9E+02  0.0076    9.6   0.0    5    1-5      64-68  (75)
+ 10 3UC9_A Increased recombination   4.8 7.5E+02  0.0083   10.7   0.0    5    1-5      65-69  (233)
+
+No 1
+>6Z1P_AU Ribosomal protein L2, 50S ribosomal; Mitochondrial ribosome, ribosome, mitochondria, ciliate; HET: MG, ATP; 3.7A {Tetrahymena thermophila (strain SB210)}
+Probab=8.83  E-value=3.4e+02  Score=15.10  Aligned_cols=6  Identities=67%  Similarity=1.071  Sum_probs=3.5  Template_Neff=1.300
+
+Q LATKYV            1 LATKYV    6 (6)
+Q Consensus         1 latkyv    6 (6)
+                      ||+||+
+T Consensus       171 LA~KYi  176 (499)
+T 6Z1P_AU         171 LAKKYL  176 (499)
+T ss_pred             HHHhhC
+Confidence            466663
+
+
+No 2
+>1VE4_A ATP phosphoribosyltransferase (E.C.2.4.2.17); TRANSFERASE, RIKEN Structural Genomics/Proteomics Initiative; 1.2A {Thermus thermophilus} SCOP: c.94.1.1
+Probab=6.78  E-value=4.8e+02  Score=11.62  Aligned_cols=5  Identities=80%  Similarity=1.178  Sum_probs=0.0  Template_Neff=6.400
+
+Q LATKYV            1 LATKY    5 (6)
+Q Consensus         1 latky    5 (6)
+                      .||||
+T Consensus       111 IAT~y  115 (206)
+T 1VE4_A          111 VATKY  115 (206)
+T ss_dssp             EEESC
+T ss_pred             EEEec
+
+
+No 3
+>6FD9_A ATP phosphoribosyltransferase (E.C.2.4.2.17); phosphoribosyltransferase, HisG, catalytic, cold-adapted, TRANSFERASE; HET: AMP; 2.2A {Psychrobacter arcticus (strain DSM 17307 / 273-4)}
+Probab=6.14  E-value=5.5e+02  Score=11.79  Aligned_cols=5  Identities=80%  Similarity=1.245  Sum_probs=0.0  Template_Neff=6.100
+
+Q LATKYV            1 LATKY    5 (6)
+Q Consensus         1 latky    5 (6)
+                      .||||
+T Consensus       135 IATkY  139 (232)
+T 6FD9_A          135 IATKY  139 (232)
+T ss_dssp             EEESC
+T ss_pred             EEEee
+
+
+No 4
+>1C1K_A BPT4 GENE 59 HELICASE ASSEMBLY; HELICASE ASSEMBLY, DNA REPLICATION, DNA; HET: CL; 1.45A {Enterobacteria phage T4} SCOP: a.120.1.1
+Probab=5.76  E-value=6e+02  Score=12.13  Aligned_cols=5  Identities=60%  Similarity=1.065  Sum_probs=0.0  Template_Neff=4.700
+
+Q LATKYV            1 LATKY    5 (6)
+Q Consensus         1 latky    5 (6)
+                      ||+||
+T Consensus        62 LA~Ky   66 (217)
+T 1C1K_A           62 LSEKY   66 (217)
+T ss_dssp             HHHHC
+T ss_pred             HHHhC
+
+
+No 5
+>7BTY_C Mitochondrial outer membrane beta-barrel protein; Mitochondria, TRANSLOCASE; 3.2A {Saccharomyces cerevisiae}
+Probab=5.65  E-value=6.1e+02  Score=11.45  Aligned_cols=6  Identities=67%  Similarity=1.110  Sum_probs=0.0  Template_Neff=7.900
+
+Q LATKYV            1 LATKYV    6 (6)
+Q Consensus         1 latkyv    6 (6)
+                      ||.||+
+T Consensus       322 ~~~~~~  327 (327)
+T 7BTY_C          322 LACKYI  327 (327)
+T ss_dssp             HHTTCC
+T ss_pred             HHhhhC
+
+
+No 6
+>5A5C_A LRRTM; SIGNALING PROTEIN, LRRTM, SYNAPSE, ADHESION; 2.097A {SYNTHETIC CONSTRUCT}
+Probab=5.32  E-value=6.6e+02  Score=9.51  Aligned_cols=5  Identities=60%  Similarity=0.999  Sum_probs=0.0  Template_Neff=12.200
+
+Q LATKYV            1 LATKY    5 (6)
+Q Consensus         1 latky    5 (6)
+                      |..||
+T Consensus       353 ~~~~~  357 (357)
+T 5A5C_A          353 LVEKY  357 (357)
+T ss_dssp             -----
+T ss_pred             hhhcC
+
+
+No 7
+>4WPX_B Cdc31, Sac3 CID region, Sus1; cell cycle, mRNA nuclear export; 3.31A {Chaetomium thermophilum}
+Probab=5.25  E-value=6.7e+02  Score=10.48  Aligned_cols=5  Identities=60%  Similarity=0.986  Sum_probs=0.0  Template_Neff=4.600
+
+Q LATKYV            1 LATKY    5 (6)
+Q Consensus         1 latky    5 (6)
+                      |+.||
+T Consensus        72 L~~Ky   76 (89)
+T 4WPX_B           72 LQVKY   76 (89)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 8
+>7CIZ_D Tubulinyl-Tyr carboxypeptidase 1 (E.C.3.4.17.17), Small; Histone chaperone, CHAPERONE; HET: SO4; 1.8A {Homo sapiens}
+Probab=5.15  E-value=6.9e+02  Score=9.58  Aligned_cols=5  Identities=40%  Similarity=0.959  Sum_probs=0.0  Template_Neff=6.100
+
+Q LATKYV            1 LATKY    5 (6)
+Q Consensus         1 latky    5 (6)
+                      |..||
+T Consensus        64 LEaKY   68 (75)
+T 7CIZ_D           64 MEAKY   68 (75)
+T ss_pred             HHHHH
+
+
+No 9
+>7CIZ_H Tubulinyl-Tyr carboxypeptidase 1 (E.C.3.4.17.17), Small; Histone chaperone, CHAPERONE; HET: SO4; 1.8A {Homo sapiens}
+Probab=5.15  E-value=6.9e+02  Score=9.58  Aligned_cols=5  Identities=40%  Similarity=0.959  Sum_probs=0.0  Template_Neff=6.100
+
+Q LATKYV            1 LATKY    5 (6)
+Q Consensus         1 latky    5 (6)
+                      |..||
+T Consensus        64 LEaKY   68 (75)
+T 7CIZ_H           64 MEAKY   68 (75)
+T ss_pred             HHHHH
+
+
+No 10
+>3UC9_A Increased recombination centers protein 6; Rossmann-fold, Clathrin accessory factor, RECOMBINATION; 1.8A {Saccharomyces cerevisiae}
+Probab=4.80  E-value=7.5e+02  Score=10.66  Aligned_cols=5  Identities=20%  Similarity=0.687  Sum_probs=0.0  Template_Neff=7.800
+
+Q LATKYV            1 LATKY    5 (6)
+Q Consensus         1 latky    5 (6)
+                      +-|||
+T Consensus        65 i~tKY   69 (233)
+T 3UC9_A           65 WENRY   69 (233)
+T ss_dssp             EECSS
+T ss_pred             EeCCc
+
+

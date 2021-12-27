@@ -1,0 +1,148 @@
+Query         NNQQNY
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 02:47:43 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NNQQNY/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NNQQNY/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6SH8_I CRISPR-associated prote   9.5 3.1E+02  0.0034   12.8   0.0    6    1-6      41-46  (296)
+  2 6KBL_A Aldo-keto reductase; Al   7.2 4.5E+02   0.005   11.0   0.0    6    1-6     298-303 (314)
+  3 4RND_B V-type proton ATPase su   6.4 5.2E+02  0.0057   10.6   0.0    6    1-6      32-37  (118)
+  4 6AO5_A Serine/threonine-protei   6.2 5.4E+02   0.006   10.5   0.0    4    3-6     359-362 (362)
+  5 6XFU_A ABC transporter ATP-bin   6.1 5.5E+02  0.0061   11.1   0.0    6    1-6      43-48  (70)
+  6 2H3F_A Gag polyprotein; HIV-1    6.1 5.5E+02  0.0061   10.9   0.0    4    3-6     128-131 (131)
+  7 1ED1_A GAG POLYPROTEIN; Trimer   5.9 5.7E+02  0.0064   11.1   0.0    4    3-6     132-135 (135)
+  8 5TF6_A U4/U6 snRNA-associated-   5.5 6.3E+02   0.007   10.2   0.0    6    1-6     363-368 (374)
+  9 4N0T_A U4/U6 snRNA-associated-   5.4 6.5E+02  0.0072   10.1   0.0    6    1-6     363-368 (374)
+ 10 6WM4_N V-type proton ATPase ca   5.2 6.8E+02  0.0075   10.1   0.0    6    1-6      31-36  (119)
+
+No 1
+>6SH8_I CRISPR-associated protein, Cmr5 family, CRISPR-associated; CRISPR-Cas, Effector complex, nuclease, cyclic; HET: ANP; 3.14A {Sulfolobus islandicus REY15A}
+Probab=9.53  E-value=3.1e+02  Score=12.76  Aligned_cols=6  Identities=50%  Similarity=0.933  Sum_probs=0.0  Template_Neff=6.600
+
+Q NNQQNY            1 NNQQNY    6 (6)
+Q Consensus         1 nnqqny    6 (6)
+                      +|||+|
+T Consensus        41 ~~~~~~   46 (296)
+T 6SH8_I           41 SNNQSY   46 (296)
+T ss_dssp             SSSCCC
+T ss_pred             cccccc
+
+
+No 2
+>6KBL_A Aldo-keto reductase; Aldo-keto reductase (AKR), Aldehyde reductase; 1.7A {Oryza sativa subsp. indica}
+Probab=7.15  E-value=4.5e+02  Score=11.02  Aligned_cols=6  Identities=50%  Similarity=0.634  Sum_probs=0.0  Template_Neff=9.500
+
+Q NNQQNY            1 NNQQNY    6 (6)
+Q Consensus         1 nnqqny    6 (6)
+                      +++|+|
+T Consensus       298 ~~~~~~  303 (314)
+T 6KBL_A          298 NPQSVY  303 (314)
+T ss_dssp             STTSSB
+T ss_pred             CCCccc
+
+
+No 3
+>4RND_B V-type proton ATPase subunit D; alpha helical, Rossmann Fold, Hydrolase; HET: GOL; 3.18A {Saccharomyces cerevisiae S288c}
+Probab=6.41  E-value=5.2e+02  Score=10.57  Aligned_cols=6  Identities=17%  Similarity=0.739  Sum_probs=0.0  Template_Neff=6.400
+
+Q NNQQNY            1 NNQQNY    6 (6)
+Q Consensus         1 nnqqny    6 (6)
+                      ++++||
+T Consensus        32 ~~~~~~   37 (118)
+T 4RND_B           32 TQEKNF   37 (118)
+T ss_dssp             TCCBSE
+T ss_pred             cCCccE
+
+
+No 4
+>6AO5_A Serine/threonine-protein kinase 3 (E.C.2.7.11.1), Protein; Hippo, mst autoactivation, dimerization, signaling; HET: ANP; 2.955A {Homo sapiens}
+Probab=6.19  E-value=5.4e+02  Score=10.47  Aligned_cols=4  Identities=75%  Similarity=1.190  Sum_probs=0.0  Template_Neff=10.700
+
+Q NNQQNY            3 QQNY    6 (6)
+Q Consensus         3 qqny    6 (6)
+                      |||+
+T Consensus       359 ~~~~  362 (362)
+T 6AO5_A          359 QQNF  362 (362)
+T ss_dssp             C---
+T ss_pred             HhcC
+
+
+No 5
+>6XFU_A ABC transporter ATP-binding protein; ABC transporter, ABC exporter, Peptide; 1.4A {Staphylococcus aureus}
+Probab=6.14  E-value=5.5e+02  Score=11.11  Aligned_cols=6  Identities=67%  Similarity=1.071  Sum_probs=0.0  Template_Neff=1.400
+
+Q NNQQNY            1 NNQQNY    6 (6)
+Q Consensus         1 nnqqny    6 (6)
+                      |.|.||
+T Consensus        43 ~aqkny   48 (70)
+T 6XFU_A           43 NAQKNY   48 (70)
+T ss_dssp             ECCSCC
+T ss_pred             ecchhH
+
+
+No 6
+>2H3F_A Gag polyprotein; HIV-1 unmyristoylated MA protein, VIRAL; NMR {Human immunodeficiency virus 1} SCOP: a.61.1.1
+Probab=6.11  E-value=5.5e+02  Score=10.92  Aligned_cols=4  Identities=75%  Similarity=1.207  Sum_probs=0.0  Template_Neff=5.800
+
+Q NNQQNY            3 QQNY    6 (6)
+Q Consensus         3 qqny    6 (6)
+                      +|||
+T Consensus       128 sqNY  131 (131)
+T 2H3F_A          128 SQNY  131 (131)
+T ss_dssp             CCCC
+T ss_pred             ccCC
+
+
+No 7
+>1ED1_A GAG POLYPROTEIN; Trimeric Association, Viral protein; 2.1A {Simian immunodeficiency virus - mac} SCOP: a.61.1.1
+Probab=5.93  E-value=5.7e+02  Score=11.08  Aligned_cols=4  Identities=50%  Similarity=0.800  Sum_probs=0.0  Template_Neff=5.400
+
+Q NNQQNY            3 QQNY    6 (6)
+Q Consensus         3 qqny    6 (6)
+                      .|||
+T Consensus       132 sqNY  135 (135)
+T 1ED1_A          132 GGNY  135 (135)
+T ss_dssp             ----
+T ss_pred             CCCC
+
+
+No 8
+>5TF6_A U4/U6 snRNA-associated-splicing factor PRP24/RNA Complex; ribonucleoprotein, spliceosome, snRNP, U6, RNA; HET: GOL; 2.3A {Saccharomyces cerevisiae}
+Probab=5.49  E-value=6.3e+02  Score=10.16  Aligned_cols=6  Identities=83%  Similarity=0.811  Sum_probs=0.0  Template_Neff=11.100
+
+Q NNQQNY            1 NNQQNY    6 (6)
+Q Consensus         1 nnqqny    6 (6)
+                      +++++|
+T Consensus       363 ~~~~~~  368 (374)
+T 5TF6_A          363 NNQQNH  368 (374)
+T ss_pred             CCcccC
+
+
+No 9
+>4N0T_A U4/U6 snRNA-associated-splicing factor PRP24; spliceosomal ribonucleoprotein complex, annealing U6; 1.7A {Saccharomyces cerevisiae}
+Probab=5.38  E-value=6.5e+02  Score=10.13  Aligned_cols=6  Identities=83%  Similarity=0.811  Sum_probs=0.0  Template_Neff=11.100
+
+Q NNQQNY            1 NNQQNY    6 (6)
+Q Consensus         1 nnqqny    6 (6)
+                      +++++|
+T Consensus       363 ~~~~~~  368 (374)
+T 4N0T_A          363 NNQQNH  368 (374)
+T ss_dssp             HHHC--
+T ss_pred             ccccCC
+
+
+No 10
+>6WM4_N V-type proton ATPase catalytic subunit; pump, MEMBRANE PROTEIN; HET: ADP, NAG;{Homo sapiens}
+Probab=5.19  E-value=6.8e+02  Score=10.13  Aligned_cols=6  Identities=33%  Similarity=0.778  Sum_probs=0.0  Template_Neff=6.700
+
+Q NNQQNY            1 NNQQNY    6 (6)
+Q Consensus         1 nnqqny    6 (6)
+                      +||.||
+T Consensus        31 ~~~~~~   36 (119)
+T 6WM4_N           31 NRHPNF   36 (119)
+T ss_pred             CCCCcE
+
+

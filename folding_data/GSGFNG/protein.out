@@ -1,0 +1,147 @@
+Query         GSGFNG
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 03:36:06 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GSGFNG/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GSGFNG/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6VLK_A Envelope glycoprotein B  66.1       5 5.6E-05   21.3   0.0    6    1-6      38-43  (744)
+  2 6VN1_A Human monoclonal antibo  60.8     7.4 8.2E-05   21.1   0.0    6    1-6      38-43  (931)
+  3 5MQ0_R Pre-mRNA-splicing facto  52.1      13 0.00014   15.8   0.0    6    1-6      13-18  (135)
+  4 7DCO_U PRP8 isoform 1, SNU114   52.1      13 0.00014   15.8   0.0    6    1-6      13-18  (135)
+  5 6A4M_A Uric acid degradation b  19.6 1.1E+02  0.0012   14.7   0.0    6    1-6     172-177 (305)
+  6 6TMR_A Glycoprotein; rhabdovir  19.6 1.1E+02  0.0012   14.7   0.0    5    2-6     358-362 (471)
+  7 5I2M_A Glycoprotein G; MEMBRAN  19.4 1.1E+02  0.0012   14.0   0.0    5    2-6     368-372 (422)
+  8 1VAY_B Uric acid oxidase(E.C.1  19.2 1.1E+02  0.0012   14.6   0.0    6    1-6     150-155 (287)
+  9 7KJK_A5 Myoviridae, Phage, 6-f  18.9 1.1E+02  0.0012   14.7   0.0    6    1-6      54-59  (161)
+ 10 6K4V_A smart chimeric peptide   18.9 1.1E+02  0.0012   12.0   0.0    4    1-4      18-21  (40)
+
+No 1
+>6VLK_A Envelope glycoprotein B; viral membrane glycoprotein, VIRAL PROTEIN; HET: MAN, NAG, BMA; 2.4529A {Varicella-zoster virus (strain Oka vaccine)}
+Probab=66.13  E-value=5  Score=21.30  Aligned_cols=6  Identities=100%  Similarity=1.819  Sum_probs=0.0  Template_Neff=4.500
+
+Q GSGFNG            1 GSGFNG    6 (6)
+Q Consensus         1 gsgfng    6 (6)
+                      ||||||
+T Consensus        38 ~~~~~~   43 (744)
+T 6VLK_A           38 GSGFNG   43 (744)
+T ss_dssp             ------
+T ss_pred             cCCCCC
+Confidence            789987
+
+
+No 2
+>6VN1_A Human monoclonal antibody 93k variable; Varicella Zoster Virus, Glycoprotein B;{Human alphaherpesvirus 3}
+Probab=60.83  E-value=7.4  Score=21.13  Aligned_cols=6  Identities=100%  Similarity=1.819  Sum_probs=5.0  Template_Neff=4.700
+
+Q GSGFNG            1 GSGFNG    6 (6)
+Q Consensus         1 gsgfng    6 (6)
+                      ||||||
+T Consensus        38 ~~~~~~   43 (931)
+T 6VN1_A           38 GSGFNG   43 (931)
+T ss_pred             cCCCCC
+Confidence            789987
+
+
+No 3
+>5MQ0_R Pre-mRNA-splicing factor 8, Pre-mRNA-splicing factor; pre-mRNA splicing, trans-esterification, lariat intermediate; HET: GTP, IHP; 4.17A {Saccharomyces cerevisiae}
+Probab=52.11  E-value=13  Score=15.84  Aligned_cols=6  Identities=50%  Similarity=0.805  Sum_probs=3.7  Template_Neff=5.400
+
+Q GSGFNG            1 GSGFNG    6 (6)
+Q Consensus         1 gsgfng    6 (6)
+                      |||-||
+T Consensus        13 GSGTsG   18 (135)
+T 5MQ0_R           13 GSSTSG   18 (135)
+T ss_pred             CCcccC
+Confidence            566665
+
+
+No 4
+>7DCO_U PRP8 isoform 1, SNU114 isoform; RNA splicing, spliceosome, Bact complex; HET: ZN, IHP, GTP; 2.5A {Saccharomyces cerevisiae}
+Probab=52.11  E-value=13  Score=15.84  Aligned_cols=6  Identities=50%  Similarity=0.805  Sum_probs=3.7  Template_Neff=5.400
+
+Q GSGFNG            1 GSGFNG    6 (6)
+Q Consensus         1 gsgfng    6 (6)
+                      |||-||
+T Consensus        13 GSGTsG   18 (135)
+T 7DCO_U           13 GSSTSG   18 (135)
+T ss_pred             CCcccC
+Confidence            566665
+
+
+No 5
+>6A4M_A Uric acid degradation bifunctional protein; uricase, Bacillus subtilis, HYDROLASE; 2.6A {Bacillus subtilis (strain 168)}
+Probab=19.63  E-value=1.1e+02  Score=14.73  Aligned_cols=6  Identities=50%  Similarity=1.071  Sum_probs=0.0  Template_Neff=5.500
+
+Q GSGFNG            1 GSGFNG    6 (6)
+Q Consensus         1 gsgfng    6 (6)
+                      ||||.|
+T Consensus       172 gS~F~g  177 (305)
+T 6A4M_A          172 GNSFVG  177 (305)
+T ss_pred             CCcccc
+
+
+No 6
+>6TMR_A Glycoprotein; rhabdovirus, mokola virus, envelope protein; HET: NAG; 2.893A {Mokola virus}
+Probab=19.57  E-value=1.1e+02  Score=14.73  Aligned_cols=5  Identities=60%  Similarity=0.800  Sum_probs=0.0  Template_Neff=7.200
+
+Q GSGFNG            2 SGFNG    6 (6)
+Q Consensus         2 sgfng    6 (6)
+                      +||||
+T Consensus       358 ~g~NG  362 (471)
+T 6TMR_A          358 VLFNG  362 (471)
+T ss_dssp             BCSTT
+T ss_pred             EEecc
+
+
+No 7
+>5I2M_A Glycoprotein G; MEMBRANE, LIPOPROTEIN, GLYCOPROTEIN, TRANSMEMBRANE, ENVELOPE; HET: PE4; 2.4A {Vesicular stomatitis Indiana virus (strain Mudd-Summers)}
+Probab=19.45  E-value=1.1e+02  Score=14.04  Aligned_cols=5  Identities=60%  Similarity=0.760  Sum_probs=0.0  Template_Neff=8.100
+
+Q GSGFNG            2 SGFNG    6 (6)
+Q Consensus         2 sgfng    6 (6)
+                      +||||
+T Consensus       368 ~g~NG  372 (422)
+T 5I2M_A          368 IGPNG  372 (422)
+T ss_dssp             ECGGG
+T ss_pred             EccCe
+
+
+No 8
+>1VAY_B Uric acid oxidase(E.C.1.7.3.3); Oxidoreductase; HET: AZA; 2.24A {Arthrobacter globiformis} SCOP: d.96.1.4
+Probab=19.23  E-value=1.1e+02  Score=14.61  Aligned_cols=6  Identities=67%  Similarity=1.265  Sum_probs=0.0  Template_Neff=5.400
+
+Q GSGFNG            1 GSGFNG    6 (6)
+Q Consensus         1 gsgfng    6 (6)
+                      ||+|.|
+T Consensus       150 ~S~F~g  155 (287)
+T 1VAY_B          150 GSEFHG  155 (287)
+T ss_dssp             SBCBCC
+T ss_pred             CCcccC
+
+
+No 9
+>7KJK_A5 Myoviridae, Phage, 6-fold neck region;{Vibrio phage XM1}
+Probab=18.91  E-value=1.1e+02  Score=14.69  Aligned_cols=6  Identities=50%  Similarity=1.282  Sum_probs=0.0  Template_Neff=1.500
+
+Q GSGFNG            1 GSGFNG    6 (6)
+Q Consensus         1 gsgfng    6 (6)
+                      |++|+|
+T Consensus        54 G~~~dG   59 (161)
+T 7KJK_A5          54 GSSYDG   59 (161)
+T ss_pred             CCCCCC
+
+
+No 10
+>6K4V_A smart chimeric peptide G6; Chimeric peptide, Lipopolysaccharide, LBP14, Antibacterial; NMR {N/A}
+Probab=18.89  E-value=1.1e+02  Score=12.03  Aligned_cols=4  Identities=100%  Similarity=1.863  Sum_probs=0.0  Template_Neff=1.000
+
+Q GSGFNG            1 GSGF    4 (6)
+Q Consensus         1 gsgf    4 (6)
+                      ||||
+T Consensus        18 gsgf   21 (40)
+T 6K4V_A           18 GSGF   21 (40)
+
+

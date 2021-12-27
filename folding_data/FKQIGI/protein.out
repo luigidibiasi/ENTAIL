@@ -1,0 +1,151 @@
+Query         FKQIGI
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 21:18:11 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/FKQIGI/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/FKQIGI/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 1NO4_A HEAD MORPHOGENESIS PROT  44.3      21 0.00023   15.8   0.0    6    1-6      67-72  (97)
+  2 1NO4_B HEAD MORPHOGENESIS PROT  44.3      21 0.00023   15.8   0.0    6    1-6      67-72  (97)
+  3 3PBP_I Nucleoporin NUP82/Nucle  19.7   1E+02  0.0012   11.4   0.0    4    2-5      23-26  (36)
+  4 3PBP_C Nucleoporin NUP82/Nucle  19.4 1.1E+02  0.0012   11.4   0.0    4    2-5      23-26  (36)
+  5 2YBB_V NADH-QUINONE OXIDOREDUC  18.2 1.2E+02  0.0013   12.4   0.0    4    3-6      35-38  (56)
+  6 7COH_X Cytochrome c oxidase su  18.2 1.2E+02  0.0013   12.4   0.0    4    3-6      35-38  (56)
+  7 2P3Y_A Hypothetical protein VP  18.1 1.2E+02  0.0013   14.6   0.0    6    1-6     266-271 (491)
+  8 3SXU_B DNA polymerase III subu  18.0 1.2E+02  0.0013   11.9   0.0    6    1-6      10-15  (138)
+  9 5B1B_X Oxidoreductase, respira  18.0 1.2E+02  0.0013   12.2   0.0    4    3-6      30-33  (49)
+ 10 7D5X_K cytochrome c oxidase me  18.0 1.2E+02  0.0013   12.2   0.0    4    3-6      30-33  (49)
+
+No 1
+>1NO4_A HEAD MORPHOGENESIS PROTEIN; coiled-coil, Viral protein; 2.2A {Bacillus phage phi29} SCOP: h.1.24.1
+Probab=44.25  E-value=21  Score=15.76  Aligned_cols=6  Identities=67%  Similarity=1.431  Sum_probs=3.9  Template_Neff=2.400
+
+Q FKQIGI            1 FKQIGI    6 (6)
+Q Consensus         1 fkqigi    6 (6)
+                      |+|+||
+T Consensus        67 Fr~~gi   72 (97)
+T 1NO4_A           67 FRQIGL   72 (97)
+T ss_dssp             HHHHHH
+T ss_pred             HHHcCC
+Confidence            566765
+
+
+No 2
+>1NO4_B HEAD MORPHOGENESIS PROTEIN; coiled-coil, Viral protein; 2.2A {Bacillus phage phi29} SCOP: h.1.24.1
+Probab=44.25  E-value=21  Score=15.76  Aligned_cols=6  Identities=67%  Similarity=1.431  Sum_probs=3.9  Template_Neff=2.400
+
+Q FKQIGI            1 FKQIGI    6 (6)
+Q Consensus         1 fkqigi    6 (6)
+                      |+|+||
+T Consensus        67 Fr~~gi   72 (97)
+T 1NO4_B           67 FRQIGL   72 (97)
+T ss_dssp             HHHHHH
+T ss_pred             HHHcCC
+Confidence            566765
+
+
+No 3
+>3PBP_I Nucleoporin NUP82/Nucleoporin NUP116/NSP116/Nucleoporin NUP159 complex; beta-propeller, nucleoporin, mRNA export, mRNP; HET: PGE; 2.6A {Saccharomyces cerevisiae}
+Probab=19.73  E-value=1e+02  Score=11.36  Aligned_cols=4  Identities=100%  Similarity=1.373  Sum_probs=0.0  Template_Neff=3.600
+
+Q FKQIGI            2 KQIG    5 (6)
+Q Consensus         2 kqig    5 (6)
+                      +|||
+T Consensus        23 kQlG   26 (36)
+T 3PBP_I           23 KQIG   26 (36)
+T ss_dssp             HHHH
+T ss_pred             HHHH
+
+
+No 4
+>3PBP_C Nucleoporin NUP82/Nucleoporin NUP116/NSP116/Nucleoporin NUP159 complex; beta-propeller, nucleoporin, mRNA export, mRNP; HET: MSE, PGE; 2.6A {Saccharomyces cerevisiae}
+Probab=19.40  E-value=1.1e+02  Score=11.36  Aligned_cols=4  Identities=100%  Similarity=1.373  Sum_probs=0.0  Template_Neff=3.500
+
+Q FKQIGI            2 KQIG    5 (6)
+Q Consensus         2 kqig    5 (6)
+                      +|||
+T Consensus        23 kQlG   26 (36)
+T 3PBP_C           23 KQIG   26 (36)
+T ss_dssp             HHHH
+T ss_pred             HHHH
+
+
+No 5
+>2YBB_V NADH-QUINONE OXIDOREDUCTASE SUBUNIT 1 (E.C.1.6.99.5); SUPERCOMPLEX B, MITOCHONDRIA, RESPIRATORY CHAIN; HET: FES, SF4, HEC, NAI, CDL, FMN, UQ1, HEM, SMA, HEA; 19.0A {BOS TAURUS}
+Probab=18.22  E-value=1.2e+02  Score=12.43  Aligned_cols=4  Identities=100%  Similarity=1.439  Sum_probs=0.0  Template_Neff=2.500
+
+Q FKQIGI            3 QIGI    6 (6)
+Q Consensus         3 qigi    6 (6)
+                      ||||
+T Consensus        35 Q~GI   38 (56)
+T 2YBB_V           35 QIGI   38 (56)
+T ss_pred             hCCC
+
+
+No 6
+>7COH_X Cytochrome c oxidase subunit 1; Dimer, Fully Oxidized, OXIDOREDUCTASE; HET: CDL, PGV, PEK, DMU, HEA, FME, CHD, LFA, EDO; 1.3A {Bos taurus}
+Probab=18.19  E-value=1.2e+02  Score=12.43  Aligned_cols=4  Identities=100%  Similarity=1.439  Sum_probs=0.0  Template_Neff=2.500
+
+Q FKQIGI            3 QIGI    6 (6)
+Q Consensus         3 qigi    6 (6)
+                      ||||
+T Consensus        35 Q~GI   38 (56)
+T 7COH_X           35 QIGI   38 (56)
+T ss_dssp             HSCC
+T ss_pred             hcCC
+
+
+No 7
+>2P3Y_A Hypothetical protein VPA0735; Hypothetical protein, Structural Genomics, PSI-2; HET: MSE; 1.8A {Vibrio parahaemolyticus} SCOP: e.65.1.1
+Probab=18.08  E-value=1.2e+02  Score=14.59  Aligned_cols=6  Identities=50%  Similarity=0.888  Sum_probs=0.0  Template_Neff=7.300
+
+Q FKQIGI            1 FKQIGI    6 (6)
+Q Consensus         1 fkqigi    6 (6)
+                      |++|||
+T Consensus       266 l~~iGI  271 (491)
+T 2P3Y_A          266 LKFLGI  271 (491)
+T ss_dssp             HGGGTC
+T ss_pred             HHHHhc
+
+
+No 8
+>3SXU_B DNA polymerase III subunit chi; DNA replication, Chi binds to; 1.85A {Escherichia coli}
+Probab=17.98  E-value=1.2e+02  Score=11.94  Aligned_cols=6  Identities=50%  Similarity=1.088  Sum_probs=0.0  Template_Neff=7.800
+
+Q FKQIGI            1 FKQIGI    6 (6)
+Q Consensus         1 fkqigi    6 (6)
+                      ++++||
+T Consensus        10 L~eMGI   15 (138)
+T 3SXU_B           10 LQQLGI   15 (138)
+T ss_dssp             ------
+T ss_pred             HHHhCC
+
+
+No 9
+>5B1B_X Oxidoreductase, respiratory chain, Proton pump; HET: PGV, CDL, PEK, DMU, SAC, HEA, FME, PSC, CHD, PO4, TGL, EDO; 1.6A {Bos taurus}
+Probab=17.96  E-value=1.2e+02  Score=12.19  Aligned_cols=4  Identities=100%  Similarity=1.439  Sum_probs=0.0  Template_Neff=2.300
+
+Q FKQIGI            3 QIGI    6 (6)
+Q Consensus         3 qigi    6 (6)
+                      |+||
+T Consensus        30 q~GI   33 (49)
+T 5B1B_X           30 QIGI   33 (49)
+T ss_dssp             HSCC
+T ss_pred             hcCC
+
+
+No 10
+>7D5X_K cytochrome c oxidase membrane protein; HET: PGV, CDL, PEK, DMU, SAC, HEA, FME, PSC, CHD, PO4, TGL, EDO; 1.74A {Bos taurus}
+Probab=17.96  E-value=1.2e+02  Score=12.19  Aligned_cols=4  Identities=100%  Similarity=1.439  Sum_probs=0.0  Template_Neff=2.300
+
+Q FKQIGI            3 QIGI    6 (6)
+Q Consensus         3 qigi    6 (6)
+                      |+||
+T Consensus        30 q~GI   33 (49)
+T 7D5X_K           30 QIGI   33 (49)
+T ss_dssp             HSCC
+T ss_pred             hcCC
+
+

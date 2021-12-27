@@ -1,0 +1,394 @@
+Query         QRGFGN
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 10:28:18 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QRGFGN/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QRGFGN/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3ZDS_G HOMOGENTISATE 1,2-DIOXY  52.1      13 0.00014   17.7   0.0    6    1-6      12-17  (433)
+  2 4AQ6_K HOMOGENTISATE 1,2-DIOXY  52.1      13 0.00014   17.7   0.0    6    1-6      12-17  (433)
+  3 4AQ6_D HOMOGENTISATE 1,2-DIOXY  51.3      14 0.00015   17.9   0.0    6    1-6      12-17  (433)
+  4 1EY2_A jelly roll, beta sandwi  50.2      15 0.00016   18.1   0.0    6    1-6      33-38  (471)
+  5 1EYB_A APO HUMAN HOMOGENTISATE  44.6      21 0.00023   17.9   0.0    6    1-6      33-38  (471)
+  6 5UHY_A ZV67 Fab chain 1, ZV67;  29.1      53 0.00059   16.6   0.0    6    1-6      98-103 (396)
+  7 1N6G_A major envelope protein   28.9      54 0.00059   16.6   0.0    6    1-6      98-103 (395)
+  8 1SVB_A TICK-BORNE ENCEPHALITIS  28.8      54  0.0006   16.6   0.0    6    1-6      98-103 (395)
+  9 1UZG_A MAJOR ENVELOPE PROTEIN   28.6      55  0.0006   16.5   0.0    6    1-6      98-103 (392)
+ 10 1OK8_A MAJOR ENVELOPE PROTEIN   28.6      55  0.0006   16.5   0.0    6    1-6      98-103 (394)
+ 11 7BUE_B SIgN-3C Fab heavy chain  28.5      55 0.00061   16.5   0.0    6    1-6      98-103 (394)
+ 12 6IVZ_A Envelope protein, Heavy  28.5      55 0.00061   16.5   0.0    6    1-6      98-103 (395)
+ 13 2OF6_C envelope glycoprotein E  28.3      56 0.00062   16.5   0.0    6    1-6      98-103 (400)
+ 14 5H32_B structural protein E, C  28.2      56 0.00062   16.5   0.0    6    1-6      98-103 (403)
+ 15 6IW5_A Envelope protein; Yello  28.0      57 0.00063   16.5   0.0    6    1-6      98-103 (393)
+ 16 6J5G_A Envelope protein E, ant  27.5      59 0.00065   16.5   0.0    6    1-6      98-103 (407)
+ 17 6A0P_A Envelope protein; Usutu  27.3      60 0.00066   16.5   0.0    6    1-6      99-104 (413)
+ 18 5JHL_A envelope protein, Antib  27.3      60 0.00066   16.6   0.0    6    1-6      99-104 (416)
+ 19 5JHM_B Envelope protein; Zika   27.3      60 0.00066   16.6   0.0    6    1-6      99-104 (416)
+ 20 7BPK_A Zika virus, envelop pro  26.5      63  0.0007   16.5   0.0    6    1-6      99-104 (416)
+ 21 5MV2_A E protein; viral envelo  26.0      65 0.00072   16.4   0.0    6    1-6     108-113 (416)
+ 22 4GSX_B Envelope protein E; Vir  26.0      65 0.00072   16.5   0.0    6    1-6     114-119 (427)
+ 23 4UTA_B ENVELOPE GLYCOPROTEIN E  25.7      67 0.00074   16.5   0.0    6    1-6      98-103 (425)
+ 24 4W8X_A Cmr1-1; Cmr1, CMR compl  23.3      79 0.00088   14.8   0.0    6    1-6     160-165 (344)
+ 25 4W8Z_A Cmr1-1; Cmr1, apo form,  23.3      79 0.00088   14.8   0.0    6    1-6     160-165 (344)
+ 26 6S8C_A Genome polyprotein (E.C  22.2      86 0.00095   16.3   0.0    6    1-6      98-103 (453)
+
+No 1
+>3ZDS_G HOMOGENTISATE 1,2-DIOXYGENASE (E.C.1.13.11.5); OXIDOREDUCTASE, EXTRADIOL, ALKYLPEROXO SPECIES, HOMOGENTISATE-SEMIQUINONE; HET: HQ9, M8O, OMD, FE, HMQ; 1.7A {PSEUDOMONAS PUTIDA}
+Probab=52.13  E-value=13  Score=17.68  Aligned_cols=6  Identities=67%  Similarity=1.232  Sum_probs=4.5  Template_Neff=6.600
+
+Q QRGFGN            1 QRGFGN    6 (6)
+Q Consensus         1 qrgfgn    6 (6)
+                      |.||||
+T Consensus        12 ~~g~~~   17 (433)
+T 3ZDS_G           12 LSGFGN   17 (433)
+T ss_dssp             EECTTC
+T ss_pred             ccCCCC
+Confidence            568887
+
+
+No 2
+>4AQ6_K HOMOGENTISATE 1,2-DIOXYGENASE (E.C.1.13.11.5); OXIDOREDUCTASE, EXTRADIOL-TYPE, EXTRADIOL-TYPE DIOXYGENASE; HET: FE, OMD, B3P; 1.98A {PSEUDOMONAS PUTIDA}
+Probab=52.13  E-value=13  Score=17.68  Aligned_cols=6  Identities=67%  Similarity=1.232  Sum_probs=4.5  Template_Neff=6.600
+
+Q QRGFGN            1 QRGFGN    6 (6)
+Q Consensus         1 qrgfgn    6 (6)
+                      |.||||
+T Consensus        12 ~~g~~~   17 (433)
+T 4AQ6_K           12 LSGFGN   17 (433)
+T ss_dssp             EECTTC
+T ss_pred             ccCCCC
+Confidence            568887
+
+
+No 3
+>4AQ6_D HOMOGENTISATE 1,2-DIOXYGENASE (E.C.1.13.11.5); OXIDOREDUCTASE, EXTRADIOL-TYPE, EXTRADIOL-TYPE DIOXYGENASE; HET: B3P, OMD, FE; 1.98A {PSEUDOMONAS PUTIDA}
+Probab=51.28  E-value=14  Score=17.94  Aligned_cols=6  Identities=67%  Similarity=1.232  Sum_probs=4.6  Template_Neff=6.000
+
+Q QRGFGN            1 QRGFGN    6 (6)
+Q Consensus         1 qrgfgn    6 (6)
+                      |.||||
+T Consensus        12 ~~g~gn   17 (433)
+T 4AQ6_D           12 LSGFGN   17 (433)
+T ss_dssp             EECTTC
+T ss_pred             ccCCCC
+Confidence            578887
+
+
+No 4
+>1EY2_A jelly roll, beta sandwich, OXIDOREDUCTASE; HET: MSE; 2.3A {Homo sapiens} SCOP: b.82.1.4
+Probab=50.17  E-value=15  Score=18.08  Aligned_cols=6  Identities=67%  Similarity=1.215  Sum_probs=4.4  Template_Neff=5.900
+
+Q QRGFGN            1 QRGFGN    6 (6)
+Q Consensus         1 qrgfgn    6 (6)
+                      |.||||
+T Consensus        33 ~~gfgn   38 (471)
+T 1EY2_A           33 ISGFGN   38 (471)
+T ss_dssp             EECTTC
+T ss_pred             ccCCCC
+Confidence            568887
+
+
+No 5
+>1EYB_A APO HUMAN HOMOGENTISATE DIOXYGENASE (E.C.; jelly roll, beta sandwich, OXIDOREDUCTASE; HET: MSE; 1.9A {Homo sapiens} SCOP: b.82.1.4
+Probab=44.55  E-value=21  Score=17.88  Aligned_cols=6  Identities=67%  Similarity=1.215  Sum_probs=4.4  Template_Neff=5.400
+
+Q QRGFGN            1 QRGFGN    6 (6)
+Q Consensus         1 qrgfgn    6 (6)
+                      |.||||
+T Consensus        33 ~~gfgn   38 (471)
+T 1EYB_A           33 ISGFGN   38 (471)
+T ss_dssp             EECTTC
+T ss_pred             ccCCCC
+Confidence            468887
+
+
+No 6
+>5UHY_A ZV67 Fab chain 1, ZV67; flavivirus, Zika, human antibody, therapeutic; 6.2A {Homo sapiens}
+Probab=29.08  E-value=53  Score=16.59  Aligned_cols=6  Identities=67%  Similarity=1.453  Sum_probs=4.1  Template_Neff=4.600
+
+Q QRGFGN            1 QRGFGN    6 (6)
+Q Consensus         1 qrgfgn    6 (6)
+                      .||+||
+T Consensus        98 DRGWGN  103 (396)
+T 5UHY_A           98 DRGWGN  103 (396)
+T ss_pred             CCCCCC
+Confidence            377776
+
+
+No 7
+>1N6G_A major envelope protein E; FLAVIVIRUS, FLAVIVIRIDAE, DENGUE immature VIRUS; 16.0A {Dengue virus 2 Puerto Rico/PR159-S1/1969} SCOP: i.17.1.1
+Probab=28.93  E-value=54  Score=16.57  Aligned_cols=6  Identities=67%  Similarity=1.453  Sum_probs=4.1  Template_Neff=4.600
+
+Q QRGFGN            1 QRGFGN    6 (6)
+Q Consensus         1 qrgfgn    6 (6)
+                      .||+||
+T Consensus        98 DRGWGN  103 (395)
+T 1N6G_A           98 DRGWGN  103 (395)
+T ss_pred             CCCCCC
+Confidence            377776
+
+
+No 8
+>1SVB_A TICK-BORNE ENCEPHALITIS VIRUS GLYCOPROTEIN; GLYCOPROTEIN, Viral protein; HET: NAG; 1.9A {Tick-borne encephalitis virus} SCOP: f.10.1.1, b.1.18.4
+Probab=28.84  E-value=54  Score=16.56  Aligned_cols=6  Identities=67%  Similarity=1.453  Sum_probs=4.1  Template_Neff=4.600
+
+Q QRGFGN            1 QRGFGN    6 (6)
+Q Consensus         1 qrgfgn    6 (6)
+                      .||+||
+T Consensus        98 DRGWGN  103 (395)
+T 1SVB_A           98 DRGWGN  103 (395)
+T ss_dssp             EESGGG
+T ss_pred             CCCCCC
+Confidence            377776
+
+
+No 9
+>1UZG_A MAJOR ENVELOPE PROTEIN E; VIRAL PROTEIN, MEMBRANE FUSION, FLAVIVIRUS; HET: BMA, FUL, MAN, NAG; 3.5A {DENGUE VIRUS TYPE 3}
+Probab=28.62  E-value=55  Score=16.53  Aligned_cols=6  Identities=67%  Similarity=1.453  Sum_probs=4.1  Template_Neff=4.600
+
+Q QRGFGN            1 QRGFGN    6 (6)
+Q Consensus         1 qrgfgn    6 (6)
+                      .||+||
+T Consensus        98 DRGWGN  103 (392)
+T 1UZG_A           98 DRGWGN  103 (392)
+T ss_dssp             EECTTT
+T ss_pred             CCCCCC
+Confidence            377776
+
+
+No 10
+>1OK8_A MAJOR ENVELOPE PROTEIN E; VIRAL PROTEIN, MEMBRANE FUSION, FLAVIVIRUS; HET: NAG; 2.0A {DENGUE VIRUS TYPE 2} SCOP: b.1.18.4, f.10.1.1
+Probab=28.62  E-value=55  Score=16.54  Aligned_cols=6  Identities=67%  Similarity=1.453  Sum_probs=4.1  Template_Neff=4.600
+
+Q QRGFGN            1 QRGFGN    6 (6)
+Q Consensus         1 qrgfgn    6 (6)
+                      .||+||
+T Consensus        98 DRGWGN  103 (394)
+T 1OK8_A           98 DRGWGN  103 (394)
+T ss_pred             CCCCCC
+Confidence            377776
+
+
+No 11
+>7BUE_B SIgN-3C Fab heavy chain, SIgN-3C; antibody, neutralization, VIRUS;{Dengue virus 2}
+Probab=28.54  E-value=55  Score=16.53  Aligned_cols=6  Identities=67%  Similarity=1.453  Sum_probs=4.1  Template_Neff=4.600
+
+Q QRGFGN            1 QRGFGN    6 (6)
+Q Consensus         1 qrgfgn    6 (6)
+                      .||+||
+T Consensus        98 DRGWGN  103 (394)
+T 7BUE_B           98 DRGWGN  103 (394)
+T ss_pred             CCCCCC
+Confidence            377776
+
+
+No 12
+>6IVZ_A Envelope protein, Heavy chain of; Yellow fever virus, Neutralizing monoclonal; 2.4A {Yellow fever virus}
+Probab=28.48  E-value=55  Score=16.53  Aligned_cols=6  Identities=67%  Similarity=1.453  Sum_probs=4.1  Template_Neff=4.600
+
+Q QRGFGN            1 QRGFGN    6 (6)
+Q Consensus         1 qrgfgn    6 (6)
+                      .||+||
+T Consensus        98 DRGWGN  103 (395)
+T 6IVZ_A           98 DRGWGN  103 (395)
+T ss_dssp             EESGGG
+T ss_pred             CCCCCC
+Confidence            377776
+
+
+No 13
+>2OF6_C envelope glycoprotein E; EM immature flavivirus West Nile; 24.0A {West Nile virus}
+Probab=28.32  E-value=56  Score=16.54  Aligned_cols=6  Identities=67%  Similarity=1.453  Sum_probs=4.1  Template_Neff=4.600
+
+Q QRGFGN            1 QRGFGN    6 (6)
+Q Consensus         1 qrgfgn    6 (6)
+                      .||+||
+T Consensus        98 DRGWGN  103 (400)
+T 2OF6_C           98 DRGWGN  103 (400)
+T ss_pred             CCCCCC
+Confidence            377776
+
+
+No 14
+>5H32_B structural protein E, C10 IgG; Antibody, VIRUS-IMMUNE SYSTEM complex; 12.0A {Zika virus}
+Probab=28.20  E-value=56  Score=16.54  Aligned_cols=6  Identities=67%  Similarity=1.453  Sum_probs=4.1  Template_Neff=4.600
+
+Q QRGFGN            1 QRGFGN    6 (6)
+Q Consensus         1 qrgfgn    6 (6)
+                      .||+||
+T Consensus        98 DRGWGN  103 (403)
+T 5H32_B           98 DRGWGN  103 (403)
+T ss_pred             CCCCCC
+Confidence            377776
+
+
+No 15
+>6IW5_A Envelope protein; Yellow fever virus, Neutralizing monoclonal; 2.5A {Yellow fever virus}
+Probab=28.03  E-value=57  Score=16.48  Aligned_cols=6  Identities=67%  Similarity=1.453  Sum_probs=4.1  Template_Neff=4.600
+
+Q QRGFGN            1 QRGFGN    6 (6)
+Q Consensus         1 qrgfgn    6 (6)
+                      .||+||
+T Consensus        98 DRGWGN  103 (393)
+T 6IW5_A           98 DRGWGN  103 (393)
+T ss_dssp             EESGGG
+T ss_pred             CCCCCC
+Confidence            377776
+
+
+No 16
+>6J5G_A Envelope protein E, antibody heavy; protective and neutralizing antibody, flavivirus; 3.291A {Tick-borne encephalitis virus European subtype (strain Neudoerfl)}
+Probab=27.52  E-value=59  Score=16.54  Aligned_cols=6  Identities=67%  Similarity=1.453  Sum_probs=4.1  Template_Neff=4.500
+
+Q QRGFGN            1 QRGFGN    6 (6)
+Q Consensus         1 qrgfgn    6 (6)
+                      .||+||
+T Consensus        98 DRGWGN  103 (407)
+T 6J5G_A           98 DRGWGN  103 (407)
+T ss_dssp             EESGGG
+T ss_pred             CCCCCC
+Confidence            377776
+
+
+No 17
+>6A0P_A Envelope protein; Usutu virus, envelope, pre-fusion state; 2.0A {Usutu virus}
+Probab=27.28  E-value=60  Score=16.55  Aligned_cols=6  Identities=67%  Similarity=1.453  Sum_probs=4.1  Template_Neff=4.500
+
+Q QRGFGN            1 QRGFGN    6 (6)
+Q Consensus         1 qrgfgn    6 (6)
+                      .||+||
+T Consensus        99 DRGWGN  104 (413)
+T 6A0P_A           99 DRGWGN  104 (413)
+T ss_dssp             EECGGG
+T ss_pred             CCCCCC
+Confidence            377776
+
+
+No 18
+>5JHL_A envelope protein, Antibody Heavy chain; zika virus, envelope protein, flavivirus; 3.0A {Zika virus}
+Probab=27.27  E-value=60  Score=16.56  Aligned_cols=6  Identities=67%  Similarity=1.453  Sum_probs=4.1  Template_Neff=4.500
+
+Q QRGFGN            1 QRGFGN    6 (6)
+Q Consensus         1 qrgfgn    6 (6)
+                      .||+||
+T Consensus        99 DRGWGN  104 (416)
+T 5JHL_A           99 DRGWGN  104 (416)
+T ss_dssp             EESTTT
+T ss_pred             CCCCCC
+Confidence            377776
+
+
+No 19
+>5JHM_B Envelope protein; Zika virus, Envelop protein, VIRAL; 2.0A {Zika virus}
+Probab=27.27  E-value=60  Score=16.56  Aligned_cols=6  Identities=67%  Similarity=1.453  Sum_probs=4.1  Template_Neff=4.500
+
+Q QRGFGN            1 QRGFGN    6 (6)
+Q Consensus         1 qrgfgn    6 (6)
+                      .||+||
+T Consensus        99 DRGWGN  104 (416)
+T 5JHM_B           99 DRGWGN  104 (416)
+T ss_dssp             EESGGG
+T ss_pred             CCCCCC
+Confidence            377776
+
+
+No 20
+>7BPK_A Zika virus, envelop protein, monoclonal; 3.1A {Zika virus}
+Probab=26.53  E-value=63  Score=16.49  Aligned_cols=6  Identities=50%  Similarity=1.259  Sum_probs=4.1  Template_Neff=4.500
+
+Q QRGFGN            1 QRGFGN    6 (6)
+Q Consensus         1 qrgfgn    6 (6)
+                      .||+||
+T Consensus        99 DRGWGN  104 (416)
+T 7BPK_A           99 NRGWGT  104 (416)
+T ss_dssp             EECTTT
+T ss_pred             CCCCCC
+Confidence            377776
+
+
+No 21
+>5MV2_A E protein; viral envelope glycoprotein, viral protein; 2.1A {Japanese encephalitis virus (strain SA-14)}
+Probab=26.04  E-value=65  Score=16.44  Aligned_cols=6  Identities=67%  Similarity=1.453  Sum_probs=4.1  Template_Neff=4.500
+
+Q QRGFGN            1 QRGFGN    6 (6)
+Q Consensus         1 qrgfgn    6 (6)
+                      .||+||
+T Consensus       108 DRGWGN  113 (416)
+T 5MV2_A          108 DRGWGN  113 (416)
+T ss_dssp             EESGGG
+T ss_pred             CCCCCC
+Confidence            377776
+
+
+No 22
+>4GSX_B Envelope protein E; Viral Fusion Protein, VIRAL PROTEIN; HET: NAG; 1.903A {Dengue virus 1}
+Probab=25.96  E-value=65  Score=16.49  Aligned_cols=6  Identities=67%  Similarity=1.248  Sum_probs=3.3  Template_Neff=4.500
+
+Q QRGFGN            1 QRGFGN    6 (6)
+Q Consensus         1 qrgfgn    6 (6)
+                      .||+||
+T Consensus       114 DRGWGN  119 (427)
+T 4GSX_B          114 DRGHGN  119 (427)
+T ss_dssp             ECC-CT
+T ss_pred             CCCCCC
+Confidence            377776
+
+
+No 23
+>4UTA_B ENVELOPE GLYCOPROTEIN E, BROADLY NEUTRALIZING; IMMUNE SYSTEM-VIRAL PROTEIN COMPLEX, VIRAL; HET: BMA, MAN, FUC, NAG; 3.0A {DENGUE VIRUS 2}
+Probab=25.71  E-value=67  Score=16.49  Aligned_cols=6  Identities=67%  Similarity=1.453  Sum_probs=4.1  Template_Neff=4.400
+
+Q QRGFGN            1 QRGFGN    6 (6)
+Q Consensus         1 qrgfgn    6 (6)
+                      .||+||
+T Consensus        98 DRGWGN  103 (425)
+T 4UTA_B           98 DRGWGN  103 (425)
+T ss_dssp             EESGGG
+T ss_pred             CCCCCC
+Confidence            377776
+
+
+No 24
+>4W8X_A Cmr1-1; Cmr1, CMR complex, nucleotide-bound, CRISPR; HET: 3GP; 3.0A {Pyrococcus furiosus}
+Probab=23.31  E-value=79  Score=14.81  Aligned_cols=6  Identities=50%  Similarity=1.005  Sum_probs=3.6  Template_Neff=6.600
+
+Q QRGFGN            1 QRGFGN    6 (6)
+Q Consensus         1 qrgfgn    6 (6)
+                      +||||.
+T Consensus       160 RRGfGs  165 (344)
+T 4W8X_A          160 RRGTGS  165 (344)
+T ss_dssp             TBTTTC
+T ss_pred             ccCcce
+Confidence            367763
+
+
+No 25
+>4W8Z_A Cmr1-1; Cmr1, apo form, CMR complex; 2.7A {Pyrococcus furiosus}
+Probab=23.31  E-value=79  Score=14.81  Aligned_cols=6  Identities=50%  Similarity=1.005  Sum_probs=3.6  Template_Neff=6.600
+
+Q QRGFGN            1 QRGFGN    6 (6)
+Q Consensus         1 qrgfgn    6 (6)
+                      +||||.
+T Consensus       160 RRGfGs  165 (344)
+T 4W8Z_A          160 RRGTGS  165 (344)
+T ss_dssp             TBTCSC
+T ss_pred             ccCcce
+Confidence            367763
+
+
+No 26
+>6S8C_A Genome polyprotein (E.C.3.4.21.91,3.6.1.15,3.6.4.13,2.1.1.56,2.1.1.57,2.7.7.48); ENVELOPE PROTEIN, MEMBRANE FUSION, STEM; 2.57A {Tick-borne encephalitis virus (WESTERN SUBTYPE)}
+Probab=22.24  E-value=86  Score=16.26  Aligned_cols=6  Identities=67%  Similarity=1.248  Sum_probs=0.0  Template_Neff=4.400
+
+Q QRGFGN            1 QRGFGN    6 (6)
+Q Consensus         1 qrgfgn    6 (6)
+                      .||+||
+T Consensus        98 DRGWGN  103 (453)
+T 6S8C_A           98 DRGHGN  103 (453)
+T ss_dssp             ------
+T ss_pred             CCCCCC
+Confidence            377776
+
+

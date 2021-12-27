@@ -1,0 +1,149 @@
+Query         STDIIE
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 17:14:46 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/STDIIE/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/STDIIE/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3P0U_A Nuclear receptor subfam  31.3      46 0.00051   12.9   0.0    6    1-6       4-9   (249)
+  2 3DWL_E ACTIN-LIKE PROTEIN 3  ;   7.5 4.2E+02  0.0047   12.3   0.0    6    1-6      40-45  (174)
+  3 6W17_E Actin-related protein 3   7.5 4.2E+02  0.0047   12.3   0.0    6    1-6      40-45  (174)
+  4 3H0D_A CtsR; protein DNA compl   7.4 4.3E+02  0.0048   11.9   0.0    5    2-6       4-8   (155)
+  5 3G14_A Nitroreductase family p   7.3 4.4E+02  0.0049   10.0   0.0    6    1-6     186-191 (193)
+  6 5WB5_B Putative eukaryotic tra   6.7 4.9E+02  0.0054   10.7   0.0    4    3-6      35-38  (53)
+  7 6LKF_A AcrIIA5; Inhibitor, PRO   6.3 5.3E+02  0.0059   12.3   0.0    5    2-6      92-96  (140)
+  8 1XAX_A Hypothetical UPF0054 pr   6.3 5.4E+02  0.0059   10.9   0.0    5    1-5      64-68  (154)
+  9 4F3R_B Phosphopantetheine aden   6.0 5.6E+02  0.0062    9.3   0.0    6    1-6     131-136 (162)
+ 10 7AQK_e Actin-related protein 2   6.0 5.7E+02  0.0063   12.0   0.0    6    1-6      38-43  (178)
+
+No 1
+>3P0U_A Nuclear receptor subfamily 2 group; Ligand binding domain, Orphan nuclear; 3.0A {Homo sapiens}
+Probab=31.32  E-value=46  Score=12.87  Aligned_cols=6  Identities=83%  Similarity=0.866  Sum_probs=2.9  Template_Neff=10.300
+
+Q STDIIE            1 STDIIE    6 (6)
+Q Consensus         1 stdiie    6 (6)
+                      |++|+|
+T Consensus         4 ~~~~~~    9 (249)
+T 3P0U_A            4 STPIIE    9 (249)
+T ss_dssp             SSCSSS
+T ss_pred             CCCccc
+Confidence            455543
+
+
+No 2
+>3DWL_E ACTIN-LIKE PROTEIN 3  ; PROPELLOR, Actin-binding, ATP-binding, Cytoskeleton, Nucleotide-binding; HET: ATP; 3.78A {Schizosaccharomyces pombe}
+Probab=7.51  E-value=4.2e+02  Score=12.35  Aligned_cols=6  Identities=50%  Similarity=0.833  Sum_probs=0.0  Template_Neff=4.300
+
+Q STDIIE            1 STDIIE    6 (6)
+Q Consensus         1 stdiie    6 (6)
+                      +.|||+
+T Consensus        40 ~~DIID   45 (174)
+T 3DWL_E           40 QMDIID   45 (174)
+T ss_pred             hccHHH
+
+
+No 3
+>6W17_E Actin-related protein 3, Actin-related protein; Arp2/3, actin, Dip1, cytoskeletal protein; HET: ADP, G5G, HYP, ATP, HIC, ALO;{Schizosaccharomyces pombe (strain 972 / ATCC 24843)}
+Probab=7.51  E-value=4.2e+02  Score=12.35  Aligned_cols=6  Identities=50%  Similarity=0.833  Sum_probs=0.0  Template_Neff=4.300
+
+Q STDIIE            1 STDIIE    6 (6)
+Q Consensus         1 stdiie    6 (6)
+                      +.|||+
+T Consensus        40 ~~DIID   45 (174)
+T 6W17_E           40 QMDIID   45 (174)
+T ss_dssp             SSCHHH
+T ss_pred             hccHHH
+
+
+No 4
+>3H0D_A CtsR; protein DNA complex, winged HTH; HET: PO4; 2.4A {Bacillus stearothermophilus}
+Probab=7.37  E-value=4.3e+02  Score=11.88  Aligned_cols=5  Identities=80%  Similarity=1.185  Sum_probs=0.0  Template_Neff=4.900
+
+Q STDIIE            2 TDIIE    6 (6)
+Q Consensus         2 tdiie    6 (6)
+                      +|+||
+T Consensus         4 SD~IE    8 (155)
+T 3H0D_A            4 SDIIE    8 (155)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 5
+>3G14_A Nitroreductase family protein; YP_877874.1, nitroreductase family protein, Structural; HET: SO4, ACT, MSE; 1.75A {Clostridium novyi}
+Probab=7.28  E-value=4.4e+02  Score=9.98  Aligned_cols=6  Identities=33%  Similarity=0.656  Sum_probs=0.0  Template_Neff=10.000
+
+Q STDIIE            1 STDIIE    6 (6)
+Q Consensus         1 stdiie    6 (6)
+                      +.+|||
+T Consensus       186 ~~~~~~  191 (193)
+T 3G14_A          186 NVKILE  191 (193)
+T ss_dssp             C-----
+T ss_pred             HHHHHh
+
+
+No 6
+>5WB5_B Putative eukaryotic translation initiation factor; initiation factors, leishmania, parasites, cap; HET: PEG; 2.7A {Leishmania major}
+Probab=6.74  E-value=4.9e+02  Score=10.70  Aligned_cols=4  Identities=75%  Similarity=1.282  Sum_probs=0.0  Template_Neff=2.100
+
+Q STDIIE            3 DIIE    6 (6)
+Q Consensus         3 diie    6 (6)
+                      ||||
+T Consensus        35 dVIE   38 (53)
+T 5WB5_B           35 DVIE   38 (53)
+T ss_dssp             GGSC
+T ss_pred             cEEE
+
+
+No 7
+>6LKF_A AcrIIA5; Inhibitor, PROTEIN BINDING; NMR {Streptococcus phage D4276}
+Probab=6.28  E-value=5.3e+02  Score=12.32  Aligned_cols=5  Identities=80%  Similarity=1.086  Sum_probs=0.0  Template_Neff=1.400
+
+Q STDIIE            2 TDIIE    6 (6)
+Q Consensus         2 tdiie    6 (6)
+                      +||||
+T Consensus        92 ~~ii~   96 (140)
+T 6LKF_A           92 VDIIE   96 (140)
+T ss_dssp             HHHHH
+T ss_pred             HHHHh
+
+
+No 8
+>1XAX_A Hypothetical UPF0054 protein HI0004; Haemophilus influenzae, structural genomics, MMP; NMR {Haemophilus influenzae}
+Probab=6.25  E-value=5.4e+02  Score=10.94  Aligned_cols=5  Identities=20%  Similarity=0.733  Sum_probs=0.0  Template_Neff=6.500
+
+Q STDIIE            1 STDII    5 (6)
+Q Consensus         1 stdii    5 (6)
+                      +|||+
+T Consensus        64 ~TDVL   68 (154)
+T 1XAX_A           64 PTNVL   68 (154)
+T ss_dssp             SCSEE
+T ss_pred             CCCeE
+
+
+No 9
+>4F3R_B Phosphopantetheine adenylyltransferase (E.C.2.7.7.3); phosphopantetheine adenylyltranferase, TRANSFERASE; HET: MSE; 2.25A {Coxiella burnetii}
+Probab=6.05  E-value=5.6e+02  Score=9.27  Aligned_cols=6  Identities=33%  Similarity=0.235  Sum_probs=0.0  Template_Neff=10.300
+
+Q STDIIE            1 STDIIE    6 (6)
+Q Consensus         1 stdiie    6 (6)
+                      ||+|.+
+T Consensus       131 st~iR~  136 (162)
+T 4F3R_B          131 GTMVRE  136 (162)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 10
+>7AQK_e Actin-related protein 2, Arp2, Actin-related; Actin, Arp2-3 complex, Cytoskeleton, STRUCTURAL; 9.0A {Mus musculus}
+Probab=5.98  E-value=5.7e+02  Score=12.00  Aligned_cols=6  Identities=50%  Similarity=0.972  Sum_probs=0.0  Template_Neff=4.300
+
+Q STDIIE            1 STDIIE    6 (6)
+Q Consensus         1 stdiie    6 (6)
+                      +.|||+
+T Consensus        38 ~~DIID   43 (178)
+T 7AQK_e           38 DTDIVD   43 (178)
+T ss_pred             CCccHH
+
+

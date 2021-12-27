@@ -1,0 +1,151 @@
+Query         PKVEDL
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 05:58:34 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/PKVEDL/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/PKVEDL/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4IQZ_A DNA-directed RNA polyme  20.2   1E+02  0.0011   13.2   0.0    6    1-6     228-233 (250)
+  2 2WQ1_A GENERAL CONTROL PROTEIN  12.8   2E+02  0.0022   10.6   0.0    5    2-6       8-12  (33)
+  3 4HJB_C GCN4pLI(alpha/beta/cycl  12.3 2.1E+02  0.0024   10.6   0.0    5    2-6       9-13  (33)
+  4 1U9F_D General control protein  11.9 2.2E+02  0.0025   10.5   0.0    5    2-6       9-13  (33)
+  5 3HET_B alpha/beta-peptide base  11.9 2.2E+02  0.0025   10.6   0.0    5    2-6       9-13  (34)
+  6 3HEV_A alpha/beta-peptide base  11.9 2.2E+02  0.0025   10.6   0.0    5    2-6       9-13  (34)
+  7 1KDD_A GABH BLL/GABH ALI; coil  11.7 2.3E+02  0.0026   10.7   0.0    5    2-6       9-13  (36)
+  8 2R2V_A GCN4 leucine zipper; Co  11.4 2.4E+02  0.0026   10.4   0.0    5    2-6       9-13  (34)
+  9 5MSK_G Proteasome activator co  11.4 2.4E+02  0.0026   12.5   0.0    5    1-5     130-134 (239)
+ 10 5MX5_I Proteasome activator co  11.4 2.4E+02  0.0026   12.5   0.0    5    1-5     130-134 (239)
+
+No 1
+>4IQZ_A DNA-directed RNA polymerase subunit beta'; Function of insertion is unknown; HET: IOD; 2.1A {Escherichia coli}
+Probab=20.21  E-value=1e+02  Score=13.19  Aligned_cols=6  Identities=17%  Similarity=0.706  Sum_probs=0.0  Template_Neff=8.000
+
+Q PKVEDL            1 PKVEDL    6 (6)
+Q Consensus         1 pkvedl    6 (6)
+                      |+||+|
+T Consensus       228 pri~~l  233 (250)
+T 4IQZ_A          228 PRMDPA  233 (250)
+T ss_dssp             ------
+T ss_pred             ccchHH
+Confidence            445443
+
+
+No 2
+>2WQ1_A GENERAL CONTROL PROTEIN GCN4; TAA, NUCLEUS, DNA-BINDING, PROTEIN EXPORT; 1.08A {N/A}
+Probab=12.79  E-value=2e+02  Score=10.63  Aligned_cols=5  Identities=40%  Similarity=0.640  Sum_probs=0.0  Template_Neff=3.000
+
+Q PKVEDL            2 KVEDL    6 (6)
+Q Consensus         2 kvedl    6 (6)
+                      |||+|
+T Consensus         8 KVEeL   12 (33)
+T 2WQ1_A            8 KIEEN   12 (33)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 3
+>4HJB_C GCN4pLI(alpha/beta/cyclic-gamma); alpha/beta/gamma amino acid, UNKNOWN FUNCTION; HET: XPC, GM8, ACE; 1.25A {N/A}
+Probab=12.28  E-value=2.1e+02  Score=10.63  Aligned_cols=5  Identities=40%  Similarity=0.939  Sum_probs=0.0  Template_Neff=2.800
+
+Q PKVEDL            2 KVEDL    6 (6)
+Q Consensus         2 kvedl    6 (6)
+                      |||+|
+T Consensus         9 KvEeL   13 (33)
+T 4HJB_C            9 KLEEI   13 (33)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 4
+>1U9F_D General control protein GCN4; tetrameric alpha-helical coiled coil, heterocycic; HET: TA4, ACE; 2.2A {N/A} SCOP: h.1.3.1
+Probab=11.91  E-value=2.2e+02  Score=10.55  Aligned_cols=5  Identities=40%  Similarity=0.939  Sum_probs=0.0  Template_Neff=2.900
+
+Q PKVEDL            2 KVEDL    6 (6)
+Q Consensus         2 kvedl    6 (6)
+                      |||+|
+T Consensus         9 KvEeL   13 (33)
+T 1U9F_D            9 KLEEI   13 (33)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 5
+>3HET_B alpha/beta-peptide based on the GCN4-pLI; helix bundle, foldamer, alpha/beta-peptide, DE; HET: B3Q, B3E, BIL, BAL, B3D, HMR, B3K, B3L, XCP; 2.1A {N/A}
+Probab=11.89  E-value=2.2e+02  Score=10.60  Aligned_cols=5  Identities=20%  Similarity=0.700  Sum_probs=0.0  Template_Neff=2.900
+
+Q PKVEDL            2 KVEDL    6 (6)
+Q Consensus         2 kvedl    6 (6)
+                      |||+|
+T Consensus         9 KVEeL   13 (34)
+T 3HET_B            9 KLXEI   13 (34)
+T ss_dssp             HHHHH
+T ss_pred             hhHhh
+
+
+No 6
+>3HEV_A alpha/beta-peptide based on the GCN4-pLI; helix bundle, foldamer, alpha/beta-peptide, DE; HET: B3Q, B3E, BAL, B3D, HMR, B3K, B3L, XCP; 2.0A {N/A}
+Probab=11.89  E-value=2.2e+02  Score=10.60  Aligned_cols=5  Identities=20%  Similarity=0.700  Sum_probs=0.0  Template_Neff=2.900
+
+Q PKVEDL            2 KVEDL    6 (6)
+Q Consensus         2 kvedl    6 (6)
+                      |||+|
+T Consensus         9 KVEeL   13 (34)
+T 3HEV_A            9 KLXEI   13 (34)
+T ss_dssp             HHHHH
+T ss_pred             hhHhh
+
+
+No 7
+>1KDD_A GABH BLL/GABH ALI; coiled coil heterodimer, DE NOVO; HET: ACE; 2.14A {N/A} SCOP: h.1.3.1
+Probab=11.66  E-value=2.3e+02  Score=10.71  Aligned_cols=5  Identities=60%  Similarity=0.993  Sum_probs=0.0  Template_Neff=2.800
+
+Q PKVEDL            2 KVEDL    6 (6)
+Q Consensus         2 kvedl    6 (6)
+                      |||+|
+T Consensus         9 kVEeL   13 (36)
+T 1KDD_A            9 EVEEL   13 (36)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 8
+>2R2V_A GCN4 leucine zipper; Coiled coils, anti-parallel tetramer, protein; HET: ACT, CIT; 1.9A {SACCHAROMYCES CEREVISIAE} SCOP: h.1.3.1
+Probab=11.43  E-value=2.4e+02  Score=10.45  Aligned_cols=5  Identities=40%  Similarity=0.873  Sum_probs=0.0  Template_Neff=3.200
+
+Q PKVEDL            2 KVEDL    6 (6)
+Q Consensus         2 kvedl    6 (6)
+                      |||+|
+T Consensus         9 KvEeL   13 (34)
+T 2R2V_A            9 KLEEV   13 (34)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 9
+>5MSK_G Proteasome activator complex subunit 2; heptamer, REGbeta, interferon-gamma, hydrolase, structural; 3.6A {Mus musculus}
+Probab=11.41  E-value=2.4e+02  Score=12.51  Aligned_cols=5  Identities=80%  Similarity=1.478  Sum_probs=0.0  Template_Neff=7.000
+
+Q PKVEDL            1 PKVED    5 (6)
+Q Consensus         1 pkved    5 (6)
+                      |++||
+T Consensus       130 Pkied  134 (239)
+T 5MSK_G          130 PKIED  134 (239)
+T ss_dssp             CCCCS
+T ss_pred             Ceecc
+
+
+No 10
+>5MX5_I Proteasome activator complex subunit 2; proteasome activator, regulator, heptamer, interferon-gamma; HET: PO4; 2.9A {Mus musculus}
+Probab=11.41  E-value=2.4e+02  Score=12.51  Aligned_cols=5  Identities=80%  Similarity=1.478  Sum_probs=0.0  Template_Neff=7.000
+
+Q PKVEDL            1 PKVED    5 (6)
+Q Consensus         1 pkved    5 (6)
+                      |++||
+T Consensus       130 Pkied  134 (239)
+T 5MX5_I          130 PKIED  134 (239)
+T ss_dssp             CCCCS
+T ss_pred             Ceecc
+
+

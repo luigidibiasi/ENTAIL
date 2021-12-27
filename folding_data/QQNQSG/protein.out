@@ -1,0 +1,150 @@
+Query         QQNQSG
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 09:34:56 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QQNQSG/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QQNQSG/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6N3A_J TAR DNA-binding protein  53.9      12 0.00013   15.1   0.0    6    1-6      33-38  (50)
+  2 1A5Z_A L-LACTATE DEHYDROGENASE  27.1      61 0.00067   13.0   0.0    6    1-6     314-319 (319)
+  3 2VH2_B CELL DIVISION PROTEIN F   7.6 4.2E+02  0.0046   11.1   0.0    4    1-4     246-249 (255)
+  4 6Z1P_BV Ribosomal protein L2,    7.3 4.4E+02  0.0049   13.9   0.0    6    1-6      15-20  (310)
+  5 6O35_C de novo designed WSHC8;   7.0 4.6E+02  0.0051   11.9   0.0    4    1-4      91-94  (102)
+  6 7DST_D VP1 of O type FMDV; FMD   5.9 5.7E+02  0.0063   11.1   0.0    5    2-6       2-6   (75)
+  7 2QMH_B V267F mutation, ATP-bin   5.0 7.1E+02  0.0079   10.5   0.0    5    2-6     199-203 (205)
+  8 2QMH_C V267F mutation, ATP-bin   5.0 7.1E+02  0.0079   10.5   0.0    5    2-6     199-203 (205)
+  9 6O2K_B Centromeric protein-C;    4.8 7.4E+02  0.0082    9.8   0.0    5    1-5       7-11  (142)
+ 10 4HUT_B Cob(I)yrinic acid a,c-d   4.6   8E+02  0.0088    9.5   0.0    4    1-4       2-5   (191)
+
+No 1
+>6N3A_J TAR DNA-binding protein 43, segA; Amyloid, TDP43, ALS, FTLD-TDP, dna; 3.3A {Homo sapiens}
+Probab=53.90  E-value=12  Score=15.07  Aligned_cols=6  Identities=100%  Similarity=1.149  Sum_probs=3.2  Template_Neff=2.200
+
+Q QQNQSG            1 QQNQSG    6 (6)
+Q Consensus         1 qqnqsg    6 (6)
+                      ||||||
+T Consensus        33 Qq~qsg   38 (50)
+T 6N3A_J           33 QQNQSG   38 (50)
+T ss_dssp             EEEECC
+T ss_pred             cCCCCC
+Confidence            456553
+
+
+No 2
+>1A5Z_A L-LACTATE DEHYDROGENASE, OXAMIC ACID, NICOTINAMIDE-ADENINE-DINUCLEOTIDE; OXIDOREDUCTASE, GLYCOLYSIS, HYPERTHERMOPHILES, THERMOTOGA MARITIMA; HET: FBP, NAD; 2.1A {Thermotoga maritima} SCOP: c.2.1.5, d.162.1.1
+Probab=27.08  E-value=61  Score=13.02  Aligned_cols=6  Identities=67%  Similarity=0.916  Sum_probs=0.0  Template_Neff=10.300
+
+Q QQNQSG            1 QQNQSG    6 (6)
+Q Consensus         1 qqnqsg    6 (6)
+                      |||.||
+T Consensus       314 ~~~~~~  319 (319)
+T 1A5Z_A          314 HQNTSG  319 (319)
+T ss_dssp             ------
+T ss_pred             hhccCC
+Confidence            455554
+
+
+No 3
+>2VH2_B CELL DIVISION PROTEIN FTSQ; FTSQ, POTRA, CELL DIVISION, CELL; 3.4A {YERSINIA ENTEROCOLITICA}
+Probab=7.56  E-value=4.2e+02  Score=11.13  Aligned_cols=4  Identities=100%  Similarity=0.991  Sum_probs=0.0  Template_Neff=8.700
+
+Q QQNQSG            1 QQNQ    4 (6)
+Q Consensus         1 qqnq    4 (6)
+                      ||||
+T Consensus       246 ~~~~  249 (255)
+T 2VH2_B          246 QQNQ  249 (255)
+T ss_dssp             ----
+T ss_pred             HHHH
+
+
+No 4
+>6Z1P_BV Ribosomal protein L2, 50S ribosomal; Mitochondrial ribosome, ribosome, mitochondria, ciliate; HET: MG, ATP; 3.7A {Tetrahymena thermophila (strain SB210)}
+Probab=7.27  E-value=4.4e+02  Score=13.93  Aligned_cols=6  Identities=33%  Similarity=0.711  Sum_probs=0.0  Template_Neff=1.900
+
+Q QQNQSG            1 QQNQSG    6 (6)
+Q Consensus         1 qqnqsg    6 (6)
+                      |+|++|
+T Consensus        15 p~NknG   20 (310)
+T 6Z1P_BV          15 PQDERG   20 (310)
+T ss_pred             CCCCCC
+
+
+No 5
+>6O35_C de novo designed WSHC8; Helical bundle, octamer, computational design; 2.4A {synthetic construct}
+Probab=7.01  E-value=4.6e+02  Score=11.94  Aligned_cols=4  Identities=100%  Similarity=0.991  Sum_probs=0.0  Template_Neff=1.000
+
+Q QQNQSG            1 QQNQ    4 (6)
+Q Consensus         1 qqnq    4 (6)
+                      ||||
+T Consensus        91 qqnq   94 (102)
+T 6O35_C           91 QQNQ   94 (102)
+T ss_dssp             HHHH
+T ss_pred             HHHh
+
+
+No 6
+>7DST_D VP1 of O type FMDV; FMDV capsid in complex with; 3.1A {Foot-and-mouth disease virus}
+Probab=5.93  E-value=5.7e+02  Score=11.14  Aligned_cols=5  Identities=100%  Similarity=1.199  Sum_probs=0.0  Template_Neff=1.800
+
+Q QQNQSG            2 QNQSG    6 (6)
+Q Consensus         2 qnqsg    6 (6)
+                      +|+||
+T Consensus         2 ~n~SG    6 (75)
+T 7DST_D            2 QNQSG    6 (75)
+T ss_dssp             ---CC
+T ss_pred             Ccccc
+
+
+No 7
+>2QMH_B V267F mutation, ATP-binding, Carbohydrate metabolism; 2.6A {Lactobacillus casei}
+Probab=5.01  E-value=7.1e+02  Score=10.47  Aligned_cols=5  Identities=80%  Similarity=1.032  Sum_probs=0.0  Template_Neff=7.900
+
+Q QQNQSG            2 QNQSG    6 (6)
+Q Consensus         2 qnqsg    6 (6)
+                      ||.||
+T Consensus       199 ~~~~~  203 (205)
+T 2QMH_B          199 QNSSG  203 (205)
+T ss_dssp             -----
+T ss_pred             cccCC
+
+
+No 8
+>2QMH_C V267F mutation, ATP-binding, Carbohydrate metabolism; 2.6A {Lactobacillus casei}
+Probab=5.01  E-value=7.1e+02  Score=10.47  Aligned_cols=5  Identities=80%  Similarity=1.032  Sum_probs=0.0  Template_Neff=7.900
+
+Q QQNQSG            2 QNQSG    6 (6)
+Q Consensus         2 qnqsg    6 (6)
+                      ||.||
+T Consensus       199 ~~~~~  203 (205)
+T 2QMH_C          199 QNSSG  203 (205)
+T ss_dssp             -----
+T ss_pred             cccCC
+
+
+No 9
+>6O2K_B Centromeric protein-C; Cupin, Kinetochore, CENP-C, Drosophila, dimer; 1.81A {Drosophila melanogaster}
+Probab=4.85  E-value=7.4e+02  Score=9.81  Aligned_cols=5  Identities=40%  Similarity=0.488  Sum_probs=0.0  Template_Neff=7.900
+
+Q QQNQSG            1 QQNQS    5 (6)
+Q Consensus         1 qqnqs    5 (6)
+                      |.|||
+T Consensus         7 ~~~~~   11 (142)
+T 6O2K_B            7 QEEAS   11 (142)
+T ss_pred             HHHHH
+
+
+No 10
+>4HUT_B Cob(I)yrinic acid a,c-diamide adenosyltransferase (E.C.2.5.1.17); transferase; HET: B12, ATP; 1.95A {Salmonella enterica subsp. enterica serovar Typhimurium}
+Probab=4.59  E-value=8e+02  Score=9.47  Aligned_cols=4  Identities=75%  Similarity=0.700  Sum_probs=0.0  Template_Neff=9.600
+
+Q QQNQSG            1 QQNQ    4 (6)
+Q Consensus         1 qqnq    4 (6)
+                      ||||
+T Consensus         2 ~~~~    5 (191)
+T 4HUT_B            2 QQRQ    5 (191)
+T ss_dssp             ----
+T ss_pred             chhH
+
+

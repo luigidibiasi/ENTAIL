@@ -1,0 +1,150 @@
+Query         EYLKIA
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 20:15:35 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/EYLKIA/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/EYLKIA/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3MP7_B Preprotein translocase   10.1 2.8E+02  0.0031   10.5   0.0    6    1-6      29-34  (61)
+  2 6UJU_C Envelope glycoprotein G   9.9 2.9E+02  0.0032   11.3   0.0    5    2-6       5-9   (112)
+  3 1E5W_A MOESIN; MEMBRANE PROTEI   9.8 2.9E+02  0.0033   11.6   0.0    6    1-6     190-195 (346)
+  4 1C4K_A ORNITHINE DECARBOXYLASE   9.7   3E+02  0.0033   13.8   0.0    6    1-6       2-7   (730)
+  5 5FGO_D CG1507-PB, isoform B; D   9.7   3E+02  0.0033   11.0   0.0    5    2-6      39-43  (81)
+  6 2OHW_B YueI protein; STRUCTURA   9.5 3.1E+02  0.0034   11.6   0.0    6    1-6      80-85  (133)
+  7 2JPX_A Vpu protein; A18H Vpu,    9.0 3.3E+02  0.0037   10.3   0.0    5    1-5      27-31  (35)
+  8 1RHZ_B Preprotein translocase    8.9 3.3E+02  0.0037   10.8   0.0    6    1-6      33-38  (74)
+  9 3V9R_D Uncharacterized protein   8.8 3.4E+02  0.0038   11.0   0.0    5    1-5      32-36  (88)
+ 10 2K5Q_A Hypothetical Membrane A   8.6 3.5E+02  0.0039   10.6   0.0    5    1-5      63-67  (105)
+
+No 1
+>3MP7_B Preprotein translocase subunit secY, Preprotein; Protein Transport, Membrane Protein Complex; 2.9A {Pyrococcus furiosus}
+Probab=10.13  E-value=2.8e+02  Score=10.54  Aligned_cols=6  Identities=33%  Similarity=0.551  Sum_probs=0.0  Template_Neff=5.400
+
+Q EYLKIA            1 EYLKIA    6 (6)
+Q Consensus         1 eylkia    6 (6)
+                      ||.+++
+T Consensus        29 Ef~~i~   34 (61)
+T 3MP7_B           29 TYKRAA   34 (61)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 2
+>6UJU_C Envelope glycoprotein GP41; Viral protein, Transmembrane domain, Cytoplasmic; NMR {Human immunodeficiency virus 1}
+Probab=9.86  E-value=2.9e+02  Score=11.34  Aligned_cols=5  Identities=40%  Similarity=0.999  Sum_probs=0.0  Template_Neff=6.000
+
+Q EYLKIA            2 YLKIA    6 (6)
+Q Consensus         2 ylkia    6 (6)
+                      |+||+
+T Consensus         5 yIki~    9 (112)
+T 6UJU_C            5 YIRIF    9 (112)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 3
+>1E5W_A MOESIN; MEMBRANE PROTEIN, MOESIN, FERM, ERM; 2.7A {HOMO SAPIENS} SCOP: a.11.2.1, d.15.1.4, b.55.1.5
+Probab=9.82  E-value=2.9e+02  Score=11.61  Aligned_cols=6  Identities=100%  Similarity=1.387  Sum_probs=0.0  Template_Neff=9.700
+
+Q EYLKIA            1 EYLKIA    6 (6)
+Q Consensus         1 eylkia    6 (6)
+                      +||++|
+T Consensus       190 ~yL~~a  195 (346)
+T 1E5W_A          190 EYLKIA  195 (346)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 4
+>1C4K_A ORNITHINE DECARBOXYLASE (4.1.1.17) MUTANT (G121Y); DECARBOXYLASE, ORNITHINE, LYASE; HET: GTP, PLP; 2.7A {Lactobacillus sp. 30A} SCOP: c.23.1.4, d.125.1.1, c.67.1.5
+Probab=9.74  E-value=3e+02  Score=13.82  Aligned_cols=6  Identities=67%  Similarity=0.661  Sum_probs=0.0  Template_Neff=7.900
+
+Q EYLKIA            1 EYLKIA    6 (6)
+Q Consensus         1 eylkia    6 (6)
+                      +.||||
+T Consensus         2 ~~lkia    7 (730)
+T 1C4K_A            2 SSLKIA    7 (730)
+T ss_dssp             CCCEEE
+T ss_pred             Ccceee
+
+
+No 5
+>5FGO_D CG1507-PB, isoform B; DNA-protein interaction, RNA-protein interaction, DNA; HET: MSE; 2.6A {Drosophila melanogaster}
+Probab=9.65  E-value=3e+02  Score=10.97  Aligned_cols=5  Identities=40%  Similarity=1.225  Sum_probs=0.0  Template_Neff=5.400
+
+Q EYLKIA            2 YLKIA    6 (6)
+Q Consensus         2 ylkia    6 (6)
+                      ||||+
+T Consensus        39 FLrIs   43 (81)
+T 5FGO_D           39 YMRIS   43 (81)
+T ss_dssp             EEEEE
+T ss_pred             eEEEE
+
+
+No 6
+>2OHW_B YueI protein; STRUCTURAL GENOMICS, PSI-2, Protein Structure; 1.4A {Bacillus subtilis} SCOP: d.79.8.1
+Probab=9.50  E-value=3.1e+02  Score=11.63  Aligned_cols=6  Identities=33%  Similarity=0.955  Sum_probs=0.0  Template_Neff=5.900
+
+Q EYLKIA            1 EYLKIA    6 (6)
+Q Consensus         1 eylkia    6 (6)
+                      .|+|+|
+T Consensus        80 ~YiklA   85 (133)
+T 2OHW_B           80 SYIQMA   85 (133)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 7
+>2JPX_A Vpu protein; A18H Vpu, trans-membrane, ion-channel, helix; NMR {Human immunodeficiency virus 1}
+Probab=8.99  E-value=3.3e+02  Score=10.34  Aligned_cols=5  Identities=20%  Similarity=-0.542  Sum_probs=0.0  Template_Neff=2.400
+
+Q EYLKIA            1 EYLKI    5 (6)
+Q Consensus         1 eylki    5 (6)
+                      ||-||
+T Consensus        27 EYrki   31 (35)
+T 2JPX_A           27 EGRGG   31 (35)
+T ss_dssp             -----
+T ss_pred             Hhhhh
+
+
+No 8
+>1RHZ_B Preprotein translocase secY subunit/ Preprotein; Protein translocation, SecY, Membrane Protein; 3.5A {Methanocaldococcus jannaschii} SCOP: f.23.28.1
+Probab=8.94  E-value=3.3e+02  Score=10.81  Aligned_cols=6  Identities=67%  Similarity=1.137  Sum_probs=0.0  Template_Neff=5.100
+
+Q EYLKIA            1 EYLKIA    6 (6)
+Q Consensus         1 eylkia    6 (6)
+                      ||.+++
+T Consensus        33 Ef~~~~   38 (74)
+T 1RHZ_B           33 EYLAVA   38 (74)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 9
+>3V9R_D Uncharacterized protein YOL086W-A, Uncharacterized protein; MHF1, MHF2, histone fold, Fanconi; HET: MSE; 2.4A {Saccharomyces cerevisiae}
+Probab=8.77  E-value=3.4e+02  Score=10.97  Aligned_cols=5  Identities=60%  Similarity=1.165  Sum_probs=0.0  Template_Neff=5.400
+
+Q EYLKIA            1 EYLKI    5 (6)
+Q Consensus         1 eylki    5 (6)
+                      ||+++
+T Consensus        32 eyl~i   36 (88)
+T 3V9R_D           32 KYLDI   36 (88)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 10
+>2K5Q_A Hypothetical Membrane Associated Protein BcR97A; NESG, BcR97A, Bacillus cereus, Q812L6; NMR {Bacillus cereus ATCC 14579} SCOP: b.40.13.1
+Probab=8.65  E-value=3.5e+02  Score=10.62  Aligned_cols=5  Identities=20%  Similarity=0.992  Sum_probs=0.0  Template_Neff=6.900
+
+Q EYLKIA            1 EYLKI    5 (6)
+Q Consensus         1 eylki    5 (6)
+                      .||||
+T Consensus        63 ~YLKv   67 (105)
+T 2K5Q_A           63 AFLRV   67 (105)
+T ss_dssp             SEEEE
+T ss_pred             CEEEE
+
+

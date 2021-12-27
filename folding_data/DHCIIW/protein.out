@@ -1,0 +1,292 @@
+Query         DHCIIW
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 17:20:46 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/DHCIIW/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/DHCIIW/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2PX9_A SUMO-activating enzyme   92.3   0.051 5.6E-07   22.1   0.0    6    1-6      18-23  (217)
+  2 1Z7L_A Ubiquitin-activating en  90.3    0.13 1.5E-06   21.7   0.0    6    1-6      27-32  (276)
+  3 6DC6_C Ubiquitin-like modifier  73.8     2.6 2.9E-05   20.7   0.0    6    1-6     599-604 (1015)
+  4 4II2_A Ubiquitin activating en  68.7     4.1 4.5E-05   20.2   0.0    6    1-6     592-597 (1001)
+  5 4II3_A Ubiquitin activating en  67.8     4.4 4.9E-05   20.0   0.0    6    1-6     592-597 (1001)
+  6 6O82_A Ubiquitin-activating en  67.8     4.4 4.9E-05   20.0   0.0    6    1-6     592-597 (1001)
+  7 3KYD_B SUMO-activating enzyme   56.0      10 0.00011   17.8   0.0    6    1-6     185-190 (551)
+  8 6CWY_D E3 ubiquitin-protein li  55.3      11 0.00012   18.6   0.0    6    1-6     203-208 (660)
+  9 3KYC_B SUMO-activating enzyme   54.0      12 0.00013   18.5   0.0    6    1-6     203-208 (660)
+ 10 2NVU_B NEDD8-activating enzyme  53.2      12 0.00013   17.0   0.0    6    1-6     589-594 (805)
+ 11 3CMM_C Ubiquitin-activating en  51.2      14 0.00015   18.6   0.0    6    1-6     601-606 (1015)
+ 12 6X05_A Nucleoporin NUP133, VHH  45.9      19 0.00021   16.3   0.0    6    1-6      50-55  (428)
+ 13 2AXC_A Colicin E7 (E.C.3.1.-.-  39.8      27  0.0003   15.9   0.0    6    1-6     209-214 (264)
+ 14 6DC6_A Ubiquitin-like modifier  33.1      41 0.00045   17.0   0.0    6    1-6     599-604 (1015)
+ 15 6HQ6_B Bacterial beta-1,3-olig  25.7      67 0.00074   17.6   0.0    6    1-6     551-556 (1175)
+ 16 6HQ8_A Beta-1,3-oligosaccharid  25.7      67 0.00074   17.6   0.0    6    1-6     551-556 (1175)
+ 17 6ZQH_A Ubiquitin-activating en  23.6      77 0.00086   16.1   0.0    6    1-6     610-615 (1024)
+ 18 5A9Q_L NUCLEOPORIN NUP43, NUCL  21.9      88 0.00097   16.1   0.0    6    1-6     121-126 (1156)
+ 19 6LK8_j MGC83295 protein, Nucle  20.6      98  0.0011   16.0   0.0    6    1-6     115-120 (1140)
+
+No 1
+>2PX9_A SUMO-activating enzyme subunit 2 (E.C.6.3.2.-); Ubiquitination, SUMO, E1, E2, Ubc9; NMR {Homo sapiens}
+Probab=92.27  E-value=0.051  Score=22.12  Aligned_cols=6  Identities=67%  Similarity=1.940  Sum_probs=5.2  Template_Neff=8.100
+
+Q DHCIIW            1 DHCIIW    6 (6)
+Q Consensus         1 dhciiw    6 (6)
+                      .|||.|
+T Consensus        18 ~HCI~W   23 (217)
+T 2PX9_A           18 IHCIVW   23 (217)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            499998
+
+
+No 2
+>1Z7L_A Ubiquitin-activating enzyme E1 1; SCCH, ubiquitin-activating enzyme, second catalytic; HET: TBR; 2.8A {Mus musculus}
+Probab=90.27  E-value=0.13  Score=21.70  Aligned_cols=6  Identities=33%  Similarity=1.293  Sum_probs=5.1  Template_Neff=7.900
+
+Q DHCIIW            1 DHCIIW    6 (6)
+Q Consensus         1 dhciiw    6 (6)
+                      .|||.|
+T Consensus        27 ~HCI~W   32 (276)
+T 1Z7L_A           27 EHTLQW   32 (276)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            599998
+
+
+No 3
+>6DC6_C Ubiquitin-like modifier-activating enzyme 1 (E.C.6.2.1.45); Ubiquitin, E1, adenylation, thioester bond; HET: POP; 3.14A {Homo sapiens}
+Probab=73.82  E-value=2.6  Score=20.74  Aligned_cols=6  Identities=33%  Similarity=1.293  Sum_probs=5.0  Template_Neff=8.200
+
+Q DHCIIW            1 DHCIIW    6 (6)
+Q Consensus         1 dhciiw    6 (6)
+                      .|||.|
+T Consensus       599 ~Hci~W  604 (1015)
+T 6DC6_C          599 EHTLQW  604 (1015)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            499988
+
+
+No 4
+>4II2_A Ubiquitin activating enzyme 1 (Uba1); ubiquitin, E1, E2, Uba1, Ubc4; HET: EDO, SO4, ATP; 2.2A {Schizosaccharomyces pombe}
+Probab=68.74  E-value=4.1  Score=20.15  Aligned_cols=6  Identities=50%  Similarity=1.420  Sum_probs=4.9  Template_Neff=8.100
+
+Q DHCIIW            1 DHCIIW    6 (6)
+Q Consensus         1 dhciiw    6 (6)
+                      .|||.|
+T Consensus       592 ~HcI~w  597 (1001)
+T 4II2_A          592 EHTIAW  597 (1001)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            489988
+
+
+No 5
+>4II3_A Ubiquitin activating enzyme 1 (Uba1); Rossmann-like Fold, ubiquitin-like fold, Ubiquitin; HET: CA, ATP; 2.9A {Schizosaccharomyces pombe}
+Probab=67.78  E-value=4.4  Score=19.98  Aligned_cols=6  Identities=50%  Similarity=1.420  Sum_probs=4.9  Template_Neff=8.200
+
+Q DHCIIW            1 DHCIIW    6 (6)
+Q Consensus         1 dhciiw    6 (6)
+                      .|||.|
+T Consensus       592 ~Hci~w  597 (1001)
+T 4II3_A          592 EHTIAW  597 (1001)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            489988
+
+
+No 6
+>6O82_A Ubiquitin-activating enzyme E1 1 (E.C.6.2.1.45); THIOESTER, ADENYLATION, INHIBITOR, ACYL-ADENYLATE INTERMEDIATE; HET: SO4, JZU, POP; 2.604A {Schizosaccharomyces pombe (strain 972 / ATCC 24843)}
+Probab=67.78  E-value=4.4  Score=19.98  Aligned_cols=6  Identities=50%  Similarity=1.420  Sum_probs=4.9  Template_Neff=8.200
+
+Q DHCIIW            1 DHCIIW    6 (6)
+Q Consensus         1 dhciiw    6 (6)
+                      .|||.|
+T Consensus       592 ~Hci~w  597 (1001)
+T 6O82_A          592 EHTIAW  597 (1001)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            489988
+
+
+No 7
+>3KYD_B SUMO-activating enzyme subunit 1, SUMO-activating; E1, SUMO, UBIQUITIN, THIOESTER, ADENYLATION; HET: VMX, EDO; 2.61A {Homo sapiens}
+Probab=55.98  E-value=10  Score=17.75  Aligned_cols=6  Identities=67%  Similarity=1.940  Sum_probs=4.4  Template_Neff=7.900
+
+Q DHCIIW            1 DHCIIW    6 (6)
+Q Consensus         1 dhciiw    6 (6)
+                      .|||.|
+T Consensus       185 ~hci~w  190 (551)
+T 3KYD_B          185 IHCIVW  190 (551)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            378877
+
+
+No 8
+>6CWY_D E3 ubiquitin-protein ligase ARIH1 (E.C.2.3.2.-); ROSSMANN-LIKE FOLD, UBIQUITIN-LIKE FOLD, UBIQUITIN; HET: GOL, SO4, FHJ; 2.462A {Homo sapiens}
+Probab=55.31  E-value=11  Score=18.62  Aligned_cols=6  Identities=67%  Similarity=1.940  Sum_probs=4.6  Template_Neff=7.000
+
+Q DHCIIW            1 DHCIIW    6 (6)
+Q Consensus         1 dhciiw    6 (6)
+                      .|||+|
+T Consensus       203 ~hci~w  208 (660)
+T 6CWY_D          203 IHCIVW  208 (660)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            388887
+
+
+No 9
+>3KYC_B SUMO-activating enzyme subunit 1, SUMO-activating; E1, SUMO, UBIQUITIN, THIOESTER, ADENYLATION; HET: JZU; 2.45A {Homo sapiens}
+Probab=54.02  E-value=12  Score=18.50  Aligned_cols=6  Identities=67%  Similarity=1.940  Sum_probs=4.6  Template_Neff=7.000
+
+Q DHCIIW            1 DHCIIW    6 (6)
+Q Consensus         1 dhciiw    6 (6)
+                      .|||.|
+T Consensus       203 ~hci~w  208 (660)
+T 3KYC_B          203 IHCIVW  208 (660)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            388887
+
+
+No 10
+>2NVU_B NEDD8-activating enzyme E1 regulatory subunit; Multifunction macromolecular complex, Ubiquitin, NEDD8; HET: ATP; 2.8A {Homo sapiens} SCOP: c.111.1.2, c.94.1.1
+Probab=53.20  E-value=12  Score=17.02  Aligned_cols=6  Identities=50%  Similarity=1.420  Sum_probs=4.0  Template_Neff=10.000
+
+Q DHCIIW            1 DHCIIW    6 (6)
+Q Consensus         1 dhciiw    6 (6)
+                      +|||.|
+T Consensus       589 ~~ci~~  594 (805)
+T 2NVU_B          589 EHCIEY  594 (805)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            378765
+
+
+No 11
+>3CMM_C Ubiquitin-activating enzyme E1 1 (E.C.6.3.2.19)/Ubiquitin; Ubiquitin, E1, Uba1, Protein turnover; HET: PRO; 2.7A {Saccharomyces cerevisiae}
+Probab=51.16  E-value=14  Score=18.64  Aligned_cols=6  Identities=67%  Similarity=1.531  Sum_probs=4.6  Template_Neff=7.900
+
+Q DHCIIW            1 DHCIIW    6 (6)
+Q Consensus         1 dhciiw    6 (6)
+                      +|||.|
+T Consensus       601 ~hci~w  606 (1015)
+T 3CMM_C          601 DHTIAW  606 (1015)
+T ss_pred             HHHHHH
+Confidence            488887
+
+
+No 12
+>6X05_A Nucleoporin NUP133, VHH-SAN4; STRUCTURAL PROTEIN, Nucleoporin, Nanobody; 2.1A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=45.85  E-value=19  Score=16.30  Aligned_cols=6  Identities=33%  Similarity=1.032  Sum_probs=4.0  Template_Neff=8.100
+
+Q DHCIIW            1 DHCIIW    6 (6)
+Q Consensus         1 dhciiw    6 (6)
+                      ++|+||
+T Consensus        50 ~~~~VW   55 (428)
+T 6X05_A           50 KKVYIW   55 (428)
+T ss_dssp             SEEEEE
+T ss_pred             CeEEEe
+Confidence            367777
+
+
+No 13
+>2AXC_A Colicin E7 (E.C.3.1.-.-); colicin, translocation domain, hydrolase; 1.7A {Escherichia coli str. K12 substr.}
+Probab=39.76  E-value=27  Score=15.89  Aligned_cols=6  Identities=17%  Similarity=0.379  Sum_probs=3.8  Template_Neff=6.200
+
+Q DHCIIW            1 DHCIIW    6 (6)
+Q Consensus         1 dhciiw    6 (6)
+                      ++||||
+T Consensus       209 ~D~Iiv  214 (264)
+T 2AXC_A          209 HEAVIR  214 (264)
+T ss_pred             ccEEEE
+Confidence            467765
+
+
+No 14
+>6DC6_A Ubiquitin-like modifier-activating enzyme 1 (E.C.6.2.1.45); Ubiquitin, E1, adenylation, thioester bond; HET: POP; 3.14A {Homo sapiens}
+Probab=33.13  E-value=41  Score=16.98  Aligned_cols=6  Identities=33%  Similarity=1.293  Sum_probs=4.3  Template_Neff=8.200
+
+Q DHCIIW            1 DHCIIW    6 (6)
+Q Consensus         1 dhciiw    6 (6)
+                      .|||.|
+T Consensus       599 ~h~i~~  604 (1015)
+T 6DC6_A          599 EHTLQW  604 (1015)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            478877
+
+
+No 15
+>6HQ6_B Bacterial beta-1,3-oligosaccharide phosphorylase (E.C.2.4.1.-); Beta-1, 3-oligosaccharide phosphorylase, Glycosyl hydrolase; HET: SO4, BCN, EDO; 2.05A {metagenome}
+Probab=25.70  E-value=67  Score=17.56  Aligned_cols=6  Identities=67%  Similarity=1.132  Sum_probs=4.0  Template_Neff=6.400
+
+Q DHCIIW            1 DHCIIW    6 (6)
+Q Consensus         1 dhciiw    6 (6)
+                      ||.|||
+T Consensus       551 Dh~~iw  556 (1175)
+T 6HQ6_B          551 DHQIIY  556 (1175)
+T ss_dssp             TTTHHH
+T ss_pred             ccHHHH
+Confidence            677666
+
+
+No 16
+>6HQ8_A Beta-1,3-oligosaccharide phosphorylase (E.C.2.4.1.-); Beta-1, 3-oligosaccharide phosphorylase, Glycosyl hydrolase; HET: BCN, BGC, SO4, EDO; 2.25A {metagenome}
+Probab=25.70  E-value=67  Score=17.56  Aligned_cols=6  Identities=67%  Similarity=1.132  Sum_probs=4.0  Template_Neff=6.400
+
+Q DHCIIW            1 DHCIIW    6 (6)
+Q Consensus         1 dhciiw    6 (6)
+                      ||.|||
+T Consensus       551 Dh~~iw  556 (1175)
+T 6HQ8_A          551 DHQIIY  556 (1175)
+T ss_dssp             TSSHHH
+T ss_pred             ccHHHH
+Confidence            677666
+
+
+No 17
+>6ZQH_A Ubiquitin-activating enzyme E1 1 (E.C.6.2.1.45); Ubiquitin, E1, LIGASE; HET: PG4, GOL, BME; 2.032A {Saccharomyces cerevisiae}
+Probab=23.61  E-value=77  Score=16.13  Aligned_cols=6  Identities=67%  Similarity=1.531  Sum_probs=4.1  Template_Neff=8.200
+
+Q DHCIIW            1 DHCIIW    6 (6)
+Q Consensus         1 dhciiw    6 (6)
+                      .|||.|
+T Consensus       610 ~h~i~~  615 (1024)
+T 6ZQH_A          610 DHTIAW  615 (1024)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            477766
+
+
+No 18
+>5A9Q_L NUCLEOPORIN NUP43, NUCLEAR PORE COMPLEX; TRANSPORT PROTEIN; 23.0A {HOMO SAPIENS}
+Probab=21.93  E-value=88  Score=16.14  Aligned_cols=6  Identities=50%  Similarity=1.331  Sum_probs=4.0  Template_Neff=8.300
+
+Q DHCIIW            1 DHCIIW    6 (6)
+Q Consensus         1 dhciiw    6 (6)
+                      ++|+||
+T Consensus       121 ~~l~VW  126 (1156)
+T 5A9Q_L          121 EKLIIW  126 (1156)
+T ss_pred             CEEEEE
+Confidence            357777
+
+
+No 19
+>6LK8_j MGC83295 protein, Nuclear pore complex; building block of vertebrate NPC.; 5.5A {Xenopus laevis}
+Probab=20.57  E-value=98  Score=15.97  Aligned_cols=6  Identities=67%  Similarity=1.442  Sum_probs=3.9  Template_Neff=8.300
+
+Q DHCIIW            1 DHCIIW    6 (6)
+Q Consensus         1 dhciiw    6 (6)
+                      ++|+||
+T Consensus       115 ~~~~VW  120 (1140)
+T 6LK8_j          115 DRLIIW  120 (1140)
+T ss_dssp             TEEEEE
+T ss_pred             CeEEEE
+Confidence            357777
+
+

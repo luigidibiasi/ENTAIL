@@ -1,0 +1,149 @@
+Query         QYGGGG
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 11:30:59 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QYGGGG/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QYGGGG/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 1T72_A Phosphate transport sys  17.1 1.3E+02  0.0015   11.1   0.0    4    3-6       1-4   (227)
+  2 1T72_B Phosphate transport sys  17.1 1.3E+02  0.0015   11.1   0.0    4    3-6       1-4   (227)
+  3 1T8B_A Phosphate transport sys  17.1 1.3E+02  0.0015   11.1   0.0    4    3-6       1-4   (227)
+  4 4DF9_E putative peptidase; IgA  17.0 1.3E+02  0.0015   14.8   0.0    6    1-6     268-273 (409)
+  5 6XTD_AAA Type VI secretion sys  16.5 1.4E+02  0.0015   13.9   0.0    6    1-6     126-131 (155)
+  6 3RIH_A short chain dehydrogena  16.3 1.4E+02  0.0016   11.1   0.0    6    1-6      15-20  (293)
+  7 3RIH_C short chain dehydrogena  16.3 1.4E+02  0.0016   11.1   0.0    6    1-6      15-20  (293)
+  8 3P1V_A Metallo-endopeptidase;   15.9 1.5E+02  0.0016   14.7   0.0    6    1-6     267-272 (407)
+  9 3B2D_C CD180 antigen, Lymphocy  15.9 1.5E+02  0.0016   11.2   0.0    4    3-6       1-4   (144)
+ 10 6MTZ_A HepC.19480.a.B1; SSGCID  15.8 1.5E+02  0.0016   12.7   0.0    5    2-6     319-323 (355)
+
+No 1
+>1T72_A Phosphate transport system protein phoU; helix bundle, Structural Genomics, BSGC; HET: MSE; 2.9A {Aquifex aeolicus} SCOP: a.7.12.1
+Probab=17.05  E-value=1.3e+02  Score=11.11  Aligned_cols=4  Identities=100%  Similarity=2.195  Sum_probs=0.0  Template_Neff=11.000
+
+Q QYGGGG            3 GGGG    6 (6)
+Q Consensus         3 gggg    6 (6)
+                      ||||
+T Consensus         1 ~~~~    4 (227)
+T 1T72_A            1 GGGG    4 (227)
+T ss_dssp             CCCT
+T ss_pred             CCCc
+
+
+No 2
+>1T72_B Phosphate transport system protein phoU; helix bundle, Structural Genomics, BSGC; HET: MSE; 2.9A {Aquifex aeolicus} SCOP: a.7.12.1
+Probab=17.05  E-value=1.3e+02  Score=11.11  Aligned_cols=4  Identities=100%  Similarity=2.195  Sum_probs=0.0  Template_Neff=11.000
+
+Q QYGGGG            3 GGGG    6 (6)
+Q Consensus         3 gggg    6 (6)
+                      ||||
+T Consensus         1 ~~~~    4 (227)
+T 1T72_B            1 GGGG    4 (227)
+T ss_dssp             -CCT
+T ss_pred             CCCc
+
+
+No 3
+>1T8B_A Phosphate transport system protein phoU; alpha-helical protein consisting of two; 3.23A {Aquifex aeolicus} SCOP: a.7.12.1
+Probab=17.05  E-value=1.3e+02  Score=11.11  Aligned_cols=4  Identities=100%  Similarity=2.195  Sum_probs=0.0  Template_Neff=11.000
+
+Q QYGGGG            3 GGGG    6 (6)
+Q Consensus         3 gggg    6 (6)
+                      ||||
+T Consensus         1 ~~~~    4 (227)
+T 1T8B_A            1 GGGG    4 (227)
+T ss_dssp             ----
+T ss_pred             CCCc
+
+
+No 4
+>4DF9_E putative peptidase; IgA Peptidase M64, Structural Genomics; HET: CL, 2PE, PO4, GOL, ZN, MSE; 2.17A {Bacteroides fragilis NCTC 9343}
+Probab=16.98  E-value=1.3e+02  Score=14.79  Aligned_cols=6  Identities=100%  Similarity=2.046  Sum_probs=0.0  Template_Neff=5.900
+
+Q QYGGGG            1 QYGGGG    6 (6)
+Q Consensus         1 qygggg    6 (6)
+                      .|||+|
+T Consensus       268 ~YGG~G  273 (409)
+T 4DF9_E          268 QYGGGG  273 (409)
+T ss_dssp             SCCEEE
+T ss_pred             ccCCCc
+
+
+No 5
+>6XTD_AAA Type VI secretion system, Anti-bacterial; HET: BTB; 1.3A {Serratia marcescens}
+Probab=16.46  E-value=1.4e+02  Score=13.89  Aligned_cols=6  Identities=50%  Similarity=1.420  Sum_probs=0.0  Template_Neff=3.500
+
+Q QYGGGG            1 QYGGGG    6 (6)
+Q Consensus         1 qygggg    6 (6)
+                      |+|.||
+T Consensus       126 qfG~GG  131 (155)
+T 6XTD_AAA        126 RFGEGG  131 (155)
+T ss_pred             CCCCCc
+
+
+No 6
+>3RIH_A short chain dehydrogenase or reductase; Structural Genomics, Seattle Structural Genomics; HET: EDO, PG5; 2.15A {Mycobacterium abscessus}
+Probab=16.33  E-value=1.4e+02  Score=11.07  Aligned_cols=6  Identities=50%  Similarity=0.634  Sum_probs=0.0  Template_Neff=11.800
+
+Q QYGGGG            1 QYGGGG    6 (6)
+Q Consensus         1 qygggg    6 (6)
+                      ||+|+|
+T Consensus        15 ~~~~~~   20 (293)
+T 3RIH_A           15 QTQGPG   20 (293)
+T ss_dssp             ------
+T ss_pred             cccCCc
+
+
+No 7
+>3RIH_C short chain dehydrogenase or reductase; Structural Genomics, Seattle Structural Genomics; HET: PG5, EDO; 2.15A {Mycobacterium abscessus}
+Probab=16.33  E-value=1.4e+02  Score=11.07  Aligned_cols=6  Identities=50%  Similarity=0.634  Sum_probs=0.0  Template_Neff=11.800
+
+Q QYGGGG            1 QYGGGG    6 (6)
+Q Consensus         1 qygggg    6 (6)
+                      ||+|+|
+T Consensus        15 ~~~~~~   20 (293)
+T 3RIH_C           15 QTQGPG   20 (293)
+T ss_dssp             ------
+T ss_pred             cccCCc
+
+
+No 8
+>3P1V_A Metallo-endopeptidase; STRUCTURAL GENOMICS, JOINT CENTER FOR; HET: PO4, PEG; 1.93A {Bacteroides ovatus ATCC 8483}
+Probab=15.91  E-value=1.5e+02  Score=14.69  Aligned_cols=6  Identities=83%  Similarity=1.813  Sum_probs=0.0  Template_Neff=5.800
+
+Q QYGGGG            1 QYGGGG    6 (6)
+Q Consensus         1 qygggg    6 (6)
+                      .|||+|
+T Consensus       267 ~YGG~g  272 (407)
+T 3P1V_A          267 VYGGGG  272 (407)
+T ss_dssp             SCCEEE
+T ss_pred             ccCCCc
+
+
+No 9
+>3B2D_C CD180 antigen, Lymphocyte antigen 86; Protein-Protein complex, Leucine rich repeat; HET: BMA, MAN, NAG; 2.8A {Homo sapiens}
+Probab=15.87  E-value=1.5e+02  Score=11.20  Aligned_cols=4  Identities=100%  Similarity=2.195  Sum_probs=0.0  Template_Neff=9.000
+
+Q QYGGGG            3 GGGG    6 (6)
+Q Consensus         3 gggg    6 (6)
+                      ||||
+T Consensus         1 ~~~~    4 (144)
+T 3B2D_C            1 GGGG    4 (144)
+T ss_dssp             ----
+T ss_pred             CCCC
+
+
+No 10
+>6MTZ_A HepC.19480.a.B1; SSGCID, Structural Genomics, Helicobacter pylori; HET: IOD, EDO; 2.15A {Helicobacter pylori (strain G27)}
+Probab=15.81  E-value=1.5e+02  Score=12.74  Aligned_cols=5  Identities=60%  Similarity=1.684  Sum_probs=0.0  Template_Neff=9.200
+
+Q QYGGGG            2 YGGGG    6 (6)
+Q Consensus         2 ygggg    6 (6)
+                      +||||
+T Consensus       319 ~~GGG  323 (355)
+T 6MTZ_A          319 FNGGG  323 (355)
+T ss_dssp             SSCEE
+T ss_pred             CCCCC
+
+

@@ -1,0 +1,152 @@
+Query         NHFCIQ
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 00:33:17 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NHFCIQ/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NHFCIQ/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2FLG_A Merozoite surface prote  40.6      26 0.00029   13.8   0.0    6    1-6       4-9   (49)
+  2 2XOY_B E3 UBIQUITIN-PROTEIN LI  35.5      35 0.00039   15.0   0.0    6    1-6     251-256 (261)
+  3 2XOC_B E3 UBIQUITIN-PROTEIN LI  35.1      36  0.0004   15.0   0.0    6    1-6     251-256 (261)
+  4 3P43_A Putative uncharacterize  19.8   1E+02  0.0011   13.7   0.0    6    1-6      30-35  (152)
+  5 4ZKQ_A Protein R17; chemokine   19.7   1E+02  0.0012   16.5   0.0    5    2-6     158-162 (420)
+  6 6Z1P_Az Ribosomal protein L2,   19.3 1.1E+02  0.0012   15.1   0.0    6    1-6      15-20  (321)
+  7 1GNT_A HYBRID CLUSTER PROTEIN;  18.9 1.1E+02  0.0012   15.2   0.0    4    3-6       2-5   (553)
+  8 1OA1_A HYDROXYLAMINE REDUCTASE  18.9 1.1E+02  0.0012   15.2   0.0    4    3-6       2-5   (553)
+  9 1OGY_H PERIPLASMIC NITRATE RED  18.4 1.2E+02  0.0013   13.3   0.0    6    1-6      95-100 (130)
+ 10 3N9B_B Probable ATP-dependent   18.3 1.2E+02  0.0013   13.7   0.0    6    1-6      19-24  (171)
+
+No 1
+>2FLG_A Merozoite surface protein 1; EGF-LIKE DOMAIN, EXTRACELLULAR, MODULAR PROTEIN; NMR {N/A} SCOP: g.3.11.4
+Probab=40.57  E-value=26  Score=13.76  Aligned_cols=6  Identities=33%  Similarity=1.121  Sum_probs=3.6  Template_Neff=3.200
+
+Q NHFCIQ            1 NHFCIQ    6 (6)
+Q Consensus         1 nhfciq    6 (6)
+                      ||.||+
+T Consensus         4 ~h~Ci~    9 (49)
+T 2FLG_A            4 QHQCVK    9 (49)
+T ss_dssp             CCCCSS
+T ss_pred             cceecc
+Confidence            566764
+
+
+No 2
+>2XOY_B E3 UBIQUITIN-PROTEIN LIGASE CHFR (E.C.6.3.2.-); LIGASE, ZINC-BINDING, PBZ, MITOSIS, ANTEPHASE; HET: ZN, AMP, ADE; 2.6A {HOMO SAPIENS}
+Probab=35.47  E-value=35  Score=15.00  Aligned_cols=6  Identities=67%  Similarity=1.237  Sum_probs=4.2  Template_Neff=7.200
+
+Q NHFCIQ            1 NHFCIQ    6 (6)
+Q Consensus         1 nhfciq    6 (6)
+                      ||+|-|
+T Consensus       251 NHiC~~  256 (261)
+T 2XOY_B          251 NHICEQ  256 (261)
+T ss_dssp             BCSSCC
+T ss_pred             CcccCC
+Confidence            788854
+
+
+No 3
+>2XOC_B E3 UBIQUITIN-PROTEIN LIGASE CHFR (E.C.6.3.2.-); ZINC-BINDING, LIGASE, POLY(ADP-RIBOSE) MITOSIS, ANTEPHASE; HET: PGE, ADP, ADE, ZN; 1.89A {HOMO SAPIENS}
+Probab=35.12  E-value=36  Score=14.97  Aligned_cols=6  Identities=67%  Similarity=1.237  Sum_probs=4.2  Template_Neff=7.200
+
+Q NHFCIQ            1 NHFCIQ    6 (6)
+Q Consensus         1 nhfciq    6 (6)
+                      ||.|.|
+T Consensus       251 NHiC~~  256 (261)
+T 2XOC_B          251 NHICEQ  256 (261)
+T ss_dssp             BCSSCC
+T ss_pred             Cccccc
+Confidence            788854
+
+
+No 4
+>3P43_A Putative uncharacterized protein; Phosphoesterase, Metalloenzyme, Hydrolase, Manganese, Beta; 2.1A {Methanosarcina barkeri str. Fusaro}
+Probab=19.83  E-value=1e+02  Score=13.73  Aligned_cols=6  Identities=33%  Similarity=0.540  Sum_probs=0.0  Template_Neff=4.800
+
+Q NHFCIQ            1 NHFCIQ    6 (6)
+Q Consensus         1 nhfciq    6 (6)
+                      +.|+||
+T Consensus        30 ~~FVIq   35 (152)
+T 3P43_A           30 PIFVVQ   35 (152)
+T ss_dssp             CEEEEE
+T ss_pred             CEEEEE
+
+
+No 5
+>4ZKQ_A Protein R17; chemokine binding protein, VIRAL PROTEIN; HET: NAG; 1.898A {Cricetid herpesvirus 2}
+Probab=19.74  E-value=1e+02  Score=16.47  Aligned_cols=5  Identities=80%  Similarity=1.743  Sum_probs=0.0  Template_Neff=1.000
+
+Q NHFCIQ            2 HFCIQ    6 (6)
+Q Consensus         2 hfciq    6 (6)
+                      |.|||
+T Consensus       158 hlciq  162 (420)
+T 4ZKQ_A          158 HLCIQ  162 (420)
+T ss_dssp             GGGEE
+T ss_pred             ceehh
+
+
+No 6
+>6Z1P_Az Ribosomal protein L2, 50S ribosomal; Mitochondrial ribosome, ribosome, mitochondria, ciliate; HET: MG, ATP; 3.7A {Tetrahymena thermophila (strain SB210)}
+Probab=19.28  E-value=1.1e+02  Score=15.06  Aligned_cols=6  Identities=33%  Similarity=0.523  Sum_probs=0.0  Template_Neff=4.900
+
+Q NHFCIQ            1 NHFCIQ    6 (6)
+Q Consensus         1 nhfciq    6 (6)
+                      |.||+|
+T Consensus        15 ~~~~~~   20 (321)
+T 6Z1P_Az          15 NLFGFR   20 (321)
+T ss_pred             hhheec
+
+
+No 7
+>1GNT_A HYBRID CLUSTER PROTEIN; OXIDOREDUCTASE, HYBRID CLUSTER PROTEIN, AEROBIC; HET: FSO; 1.25A {DESULFOVIBRIO VULGARIS} SCOP: e.26.1.1
+Probab=18.88  E-value=1.1e+02  Score=15.16  Aligned_cols=4  Identities=75%  Similarity=1.846  Sum_probs=0.0  Template_Neff=6.800
+
+Q NHFCIQ            3 FCIQ    6 (6)
+Q Consensus         3 fciq    6 (6)
+                      ||.|
+T Consensus         2 fC~Q    5 (553)
+T 1GNT_A            2 FCFQ    5 (553)
+T ss_dssp             CBCC
+T ss_pred             Cccc
+
+
+No 8
+>1OA1_A HYDROXYLAMINE REDUCTASE (E.C.1.7.-.-); OXIDOREDUCTASE, REDUCED FORMS; HET: GOL; 1.55A {DESULFOVIBRIO VULGARIS} SCOP: e.26.1.1
+Probab=18.88  E-value=1.1e+02  Score=15.16  Aligned_cols=4  Identities=75%  Similarity=1.846  Sum_probs=0.0  Template_Neff=6.800
+
+Q NHFCIQ            3 FCIQ    6 (6)
+Q Consensus         3 fciq    6 (6)
+                      ||.|
+T Consensus         2 fC~Q    5 (553)
+T 1OA1_A            2 FCFQ    5 (553)
+T ss_dssp             CBCC
+T ss_pred             Cccc
+
+
+No 9
+>1OGY_H PERIPLASMIC NITRATE REDUCTASE (E.C.1.7.99.4), DIHEME; NITRATE REDUCTASE, OXIDOREDUCTASE; HET: SF4, MGD, HEC; 3.2A {RHODOBACTER SPHAEROIDES} SCOP: a.138.1.3
+Probab=18.39  E-value=1.2e+02  Score=13.31  Aligned_cols=6  Identities=33%  Similarity=0.877  Sum_probs=0.0  Template_Neff=4.700
+
+Q NHFCIQ            1 NHFCIQ    6 (6)
+Q Consensus         1 nhfciq    6 (6)
+                      ..||+|
+T Consensus        95 Ry~CtQ  100 (130)
+T 1OGY_H           95 RYFCTA  100 (130)
+T ss_dssp             TCCGGG
+T ss_pred             ceeHHH
+
+
+No 10
+>3N9B_B Probable ATP-dependent DNA ligase; Phosphoesterase, Metalloenzyme, Ligase, NHEJ, Manganese; HET: SO4; 1.92A {Pseudomonas aeruginosa}
+Probab=18.31  E-value=1.2e+02  Score=13.66  Aligned_cols=6  Identities=33%  Similarity=1.110  Sum_probs=0.0  Template_Neff=5.100
+
+Q NHFCIQ            1 NHFCIQ    6 (6)
+Q Consensus         1 nhfciq    6 (6)
+                      +.|+||
+T Consensus        19 ~rFVIq   24 (171)
+T 3N9B_B           19 LRYCVQ   24 (171)
+T ss_dssp             CEEEEE
+T ss_pred             ceEEEE
+
+

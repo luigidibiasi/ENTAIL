@@ -1,0 +1,145 @@
+Query         QSYSGY
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 10:53:24 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QSYSGY/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QSYSGY/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2XHC_A TRANSCRIPTION ANTITERMI  57.8     9.1  0.0001   16.3   0.0    6    1-6       9-14  (352)
+  2 1WHS_A SERINE CARBOXYPEPTIDASE  17.6 1.3E+02  0.0014   12.3   0.0    6    1-6      18-23  (255)
+  3 7EQX_A Procarboxypeptidase B1,  17.5 1.3E+02  0.0014   10.7   0.0    6    1-6       5-10  (98)
+  4 4Y99_B Troponin C, Troponin T,  16.9 1.3E+02  0.0015   12.2   0.0    5    2-6       1-5   (106)
+  5 1YTZ_T Troponin T, Troponin I,  16.1 1.4E+02  0.0016   12.1   0.0    5    2-6       4-8   (107)
+  6 1PYT_A PROCARBOXYPEPTIDASE A,   15.9 1.5E+02  0.0016   10.3   0.0    5    2-6       3-7   (94)
+  7 1O6X_A PROCARBOXYPEPTIDASE A2   15.4 1.5E+02  0.0017   10.1   0.0    6    1-6       5-10  (81)
+  8 5TBW_CY ?; Protein translation  14.9 1.6E+02  0.0018   12.0   0.0    5    2-6       7-11  (98)
+  9 5TGM_N4 ?; ribosome, translati  14.9 1.6E+02  0.0018   12.0   0.0    5    2-6       7-11  (98)
+ 10 6WOO_W 80S ribosome/eIF5B/RNA   14.7 1.7E+02  0.0018   11.1   0.0    5    2-6       6-10  (62)
+
+No 1
+>2XHC_A TRANSCRIPTION ANTITERMINATION PROTEIN NUSG; TRANSCRIPTION; 2.45A {THERMOTOGA MARITIMA}
+Probab=57.77  E-value=9.1  Score=16.27  Aligned_cols=6  Identities=50%  Similarity=0.905  Sum_probs=4.4  Template_Neff=9.000
+
+Q QSYSGY            1 QSYSGY    6 (6)
+Q Consensus         1 qsysgy    6 (6)
+                      |+||||
+T Consensus         9 ~~~~g~   14 (352)
+T 2XHC_A            9 LTMSGY   14 (352)
+T ss_pred             EeecCc
+Confidence            578886
+
+
+No 2
+>1WHS_A SERINE CARBOXYPEPTIDASE II (E.C.3.4.16.1) (NATIVE; SERINE CARBOXYPEPTIDASE; HET: FUC, NAG; 2.0A {Triticum aestivum} SCOP: c.69.1.5
+Probab=17.57  E-value=1.3e+02  Score=12.28  Aligned_cols=6  Identities=67%  Similarity=1.326  Sum_probs=0.0  Template_Neff=9.300
+
+Q QSYSGY            1 QSYSGY    6 (6)
+Q Consensus         1 qsysgy    6 (6)
+                      .+|+||
+T Consensus        18 ~~~~G~   23 (255)
+T 1WHS_A           18 DMYSGY   23 (255)
+T ss_dssp             CEEEEE
+T ss_pred             ceEEEE
+
+
+No 3
+>7EQX_A Procarboxypeptidase B1, ANTIVIRAL PROTEIN, HYDROLASE; 2.08A {Aedes aegypti}
+Probab=17.51  E-value=1.3e+02  Score=10.70  Aligned_cols=6  Identities=67%  Similarity=1.448  Sum_probs=0.0  Template_Neff=8.900
+
+Q QSYSGY            1 QSYSGY    6 (6)
+Q Consensus         1 qsysgy    6 (6)
+                      .+|.||
+T Consensus         5 ~~y~g~   10 (98)
+T 7EQX_A            5 RSYEGY   10 (98)
+T ss_dssp             CCCTTC
+T ss_pred             cccCCc
+
+
+No 4
+>4Y99_B Troponin C, Troponin T, Troponin; muscle regulation, calcium-binding, EF-hand, coiled-coil; HET: DMS; 2.0A {Homo sapiens}
+Probab=16.88  E-value=1.3e+02  Score=12.19  Aligned_cols=5  Identities=40%  Similarity=1.311  Sum_probs=0.0  Template_Neff=6.000
+
+Q QSYSGY            2 SYSGY    6 (6)
+Q Consensus         2 sysgy    6 (6)
+                      +|+||
+T Consensus         1 ~~~gy    5 (106)
+T 4Y99_B            1 HFGGY    5 (106)
+T ss_dssp             -----
+T ss_pred             CcchH
+
+
+No 5
+>1YTZ_T Troponin T, Troponin I, Troponin; troponin, muscle, thin filament, actin; HET: DR6; 3.0A {Gallus gallus} SCOP: h.1.25.1
+Probab=16.09  E-value=1.4e+02  Score=12.07  Aligned_cols=5  Identities=80%  Similarity=1.358  Sum_probs=0.0  Template_Neff=6.100
+
+Q QSYSGY            2 SYSGY    6 (6)
+Q Consensus         2 sysgy    6 (6)
+                      +|+||
+T Consensus         4 ~~ggy    8 (107)
+T 1YTZ_T            4 SYSSY    8 (107)
+T ss_dssp             CCTTH
+T ss_pred             cchhH
+
+
+No 6
+>1PYT_A PROCARBOXYPEPTIDASE A, PROPROTEINASE E, CHYMOTRYPSINOGEN; TERNARY COMPLEX (ZYMOGEN), SERINE PROTEINASE; 2.35A {Bos taurus} SCOP: d.58.3.1
+Probab=15.85  E-value=1.5e+02  Score=10.25  Aligned_cols=5  Identities=20%  Similarity=0.600  Sum_probs=0.0  Template_Neff=9.300
+
+Q QSYSGY            2 SYSGY    6 (6)
+Q Consensus         2 sysgy    6 (6)
+                      +|+||
+T Consensus         3 ~y~g~    7 (94)
+T 1PYT_A            3 DFVGH    7 (94)
+T ss_pred             ccCCe
+
+
+No 7
+>1O6X_A PROCARBOXYPEPTIDASE A2 (E.C.3.4.17.15); ACTIVATION DOMAIN, HYDROLASE, CARBOXYPEPTIDASE, METALLOPROTE; NMR {HOMO SAPIENS} SCOP: d.58.3.1
+Probab=15.45  E-value=1.5e+02  Score=10.09  Aligned_cols=6  Identities=17%  Similarity=0.617  Sum_probs=0.0  Template_Neff=9.000
+
+Q QSYSGY            1 QSYSGY    6 (6)
+Q Consensus         1 qsysgy    6 (6)
+                      .+|.||
+T Consensus         5 ~~y~g~   10 (81)
+T 1O6X_A            5 ETFVGD   10 (81)
+T ss_pred             cccCCc
+
+
+No 8
+>5TBW_CY ?; Protein translation inhibitor, complex, ribosome; HET: 7AL, ZN, MG, OHX; 3.0A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=14.94  E-value=1.6e+02  Score=11.99  Aligned_cols=5  Identities=60%  Similarity=0.926  Sum_probs=0.0  Template_Neff=5.600
+
+Q QSYSGY            2 SYSGY    6 (6)
+Q Consensus         2 sysgy    6 (6)
+                      |||||
+T Consensus         7 ~Fsg~   11 (98)
+T 5TBW_CY           7 SFSGA   11 (98)
+T ss_pred             cCCCC
+
+
+No 9
+>5TGM_N4 ?; ribosome, translation, protein synthesis, proline; HET: OHX, SPS, 8AN, MG, PHE, ZN, LEU; 3.5A {Saccharomyces cerevisiae}
+Probab=14.94  E-value=1.6e+02  Score=11.99  Aligned_cols=5  Identities=60%  Similarity=0.926  Sum_probs=0.0  Template_Neff=5.600
+
+Q QSYSGY            2 SYSGY    6 (6)
+Q Consensus         2 sysgy    6 (6)
+                      |||||
+T Consensus         7 ~Fsg~   11 (98)
+T 5TGM_N4           7 SFSGA   11 (98)
+T ss_pred             cCCCC
+
+
+No 10
+>6WOO_W 80S ribosome/eIF5B/RNA Complex; yeast, ribosome, initiation, eIF5B, GDP; HET: U6A, GDP; 2.9A {Saccharomyces cerevisiae}
+Probab=14.67  E-value=1.7e+02  Score=11.05  Aligned_cols=5  Identities=60%  Similarity=0.926  Sum_probs=0.0  Template_Neff=5.700
+
+Q QSYSGY            2 SYSGY    6 (6)
+Q Consensus         2 sysgy    6 (6)
+                      +|||+
+T Consensus         6 ~fsg~   10 (62)
+T 6WOO_W            6 SFSGA   10 (62)
+T ss_pred             cCCCC
+
+

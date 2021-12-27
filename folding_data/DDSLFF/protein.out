@@ -1,0 +1,151 @@
+Query         DDSLFF
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 16:59:01 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/DDSLFF/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/DDSLFF/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6H8I_A Magnetosome protein Mam  51.3      14 0.00015   13.4   0.0    6    1-6      93-98  (108)
+  2 6LQP_B8 40S ribosomal protein   40.9      25 0.00028   15.3   0.0    6    1-6      81-86  (594)
+  3 3JCT_q 60S ribosomal protein L  39.6      28 0.00031   16.7   0.0    6    1-6      57-62  (455)
+  4 1TY4_C Apoptosis regulator ced  17.3 1.3E+02  0.0014   12.4   0.0    6    1-6       7-12  (57)
+  5 2LID_A Vitellogenin; LIPID TRA  16.9 1.3E+02  0.0015   11.6   0.0    5    1-5      21-25  (35)
+  6 2LY0_A Membrane ion channel M2  16.2 1.4E+02  0.0016   11.2   0.0    5    2-6      26-30  (31)
+  7 2RT6_A Primosomal replication   16.1 1.4E+02  0.0016   11.4   0.0    5    1-5      35-39  (98)
+  8 4C0D_C CCR4-NOT TRANSCRIPTION   15.6 1.5E+02  0.0017   12.9   0.0    6    1-6      81-86  (166)
+  9 5FU6_F CCR4-NOT TRANSCRIPTION   15.2 1.6E+02  0.0017   12.4   0.0    6    1-6      68-73  (148)
+ 10 5FU7_G CCR4-NOT TRANSCRIPTION   15.2 1.6E+02  0.0017   12.4   0.0    6    1-6      68-73  (148)
+
+No 1
+>6H8I_A Magnetosome protein MamM; Cation diffusion facilitator, magnetotactic bacteria; HET: SO4; 1.4A {Magnetospirillum gryphiswaldense}
+Probab=51.34  E-value=14  Score=13.42  Aligned_cols=6  Identities=50%  Similarity=0.789  Sum_probs=0.0  Template_Neff=8.800
+
+Q DDSLFF            1 DDSLFF    6 (6)
+Q Consensus         1 ddslff    6 (6)
+                      |++|||
+T Consensus        93 ~~~~~~   98 (108)
+T 6H8I_A           93 DQPLSF   98 (108)
+T ss_dssp             ------
+T ss_pred             CCCCcc
+Confidence            455554
+
+
+No 2
+>6LQP_B8 40S ribosomal protein S1-A, 40S; ribosome assembly, 90S to pre-40S; HET: GTP; 3.2A {Saccharomyces cerevisiae S288C}
+Probab=40.92  E-value=25  Score=15.28  Aligned_cols=6  Identities=67%  Similarity=1.392  Sum_probs=3.0  Template_Neff=10.300
+
+Q DDSLFF            1 DDSLFF    6 (6)
+Q Consensus         1 ddslff    6 (6)
+                      |+.|||
+T Consensus        81 d~~~f~   86 (594)
+T 6LQP_B8          81 NDQLFF   86 (594)
+T ss_pred             Hhhcee
+Confidence            344555
+
+
+No 3
+>3JCT_q 60S ribosomal protein L2-A, 60S; pre-60S ribosome, RIBOSOME; HET: GTP; 3.08A {Saccharomyces cerevisiae S288c}
+Probab=39.59  E-value=28  Score=16.72  Aligned_cols=6  Identities=50%  Similarity=1.049  Sum_probs=4.0  Template_Neff=6.700
+
+Q DDSLFF            1 DDSLFF    6 (6)
+Q Consensus         1 ddslff    6 (6)
+                      |++|||
+T Consensus        57 de~LF~   62 (455)
+T 3JCT_q           57 NDALFH   62 (455)
+T ss_pred             cccceE
+Confidence            567775
+
+
+No 4
+>1TY4_C Apoptosis regulator ced-9, EGg Laying; Apoptosis, CED-9, EGL-1, Bcl-2 family; 2.2A {Caenorhabditis elegans}
+Probab=17.28  E-value=1.3e+02  Score=12.43  Aligned_cols=6  Identities=83%  Similarity=1.176  Sum_probs=0.0  Template_Neff=2.200
+
+Q DDSLFF            1 DDSLFF    6 (6)
+Q Consensus         1 ddslff    6 (6)
+                      |||-||
+T Consensus         7 dDSgff   12 (57)
+T 1TY4_C            7 DDSGFF   12 (57)
+T ss_dssp             ------
+T ss_pred             hhcCCC
+
+
+No 5
+>2LID_A Vitellogenin; LIPID TRANSPORT; NMR {N/A}
+Probab=16.92  E-value=1.3e+02  Score=11.56  Aligned_cols=5  Identities=80%  Similarity=1.238  Sum_probs=0.0  Template_Neff=1.000
+
+Q DDSLFF            1 DDSLF    5 (6)
+Q Consensus         1 ddslf    5 (6)
+                      |||.|
+T Consensus        21 ddsyf   25 (35)
+T 2LID_A           21 DDSYF   25 (35)
+T ss_dssp             HHHHT
+T ss_pred             Ccchh
+
+
+No 6
+>2LY0_A Membrane ion channel M2; influenza A virus, M2 channel; HET: A2Y; NMR {N/A}
+Probab=16.20  E-value=1.4e+02  Score=11.22  Aligned_cols=5  Identities=80%  Similarity=1.497  Sum_probs=0.0  Template_Neff=1.600
+
+Q DDSLFF            2 DSLFF    6 (6)
+Q Consensus         2 dslff    6 (6)
+                      |.+||
+T Consensus        26 DRlff   30 (31)
+T 2LY0_A           26 DRLFF   30 (31)
+T ss_dssp             HHHTC
+T ss_pred             HHHhc
+
+
+No 7
+>2RT6_A Primosomal replication protein N''; Primosome, Replication restart, PriC, DNA; NMR {Escherichia coli}
+Probab=16.06  E-value=1.4e+02  Score=11.39  Aligned_cols=5  Identities=60%  Similarity=1.012  Sum_probs=0.0  Template_Neff=7.200
+
+Q DDSLFF            1 DDSLF    5 (6)
+Q Consensus         1 ddslf    5 (6)
+                      |++||
+T Consensus        35 d~~LF   39 (98)
+T 2RT6_A           35 DRHLF   39 (98)
+T ss_dssp             CTTTS
+T ss_pred             hHHhh
+
+
+No 8
+>4C0D_C CCR4-NOT TRANSCRIPTION COMPLEX SUBUNIT 1; GENE REGULATION, DEADENYLATION, MRNA DECAY; 3.2A {HOMO SAPIENS}
+Probab=15.60  E-value=1.5e+02  Score=12.88  Aligned_cols=6  Identities=50%  Similarity=1.231  Sum_probs=0.0  Template_Neff=6.000
+
+Q DDSLFF            1 DDSLFF    6 (6)
+Q Consensus         1 ddslff    6 (6)
+                      +|.|||
+T Consensus        81 ~dTLFy   86 (166)
+T 4C0D_C           81 TETLFF   86 (166)
+T ss_dssp             HHHHHH
+T ss_pred             HhHHHH
+
+
+No 9
+>5FU6_F CCR4-NOT TRANSCRIPTION COMPLEX SUBUNIT 1; GENE REGULATION, DEADENYLATION, MRNA DECAY; 2.9A {HOMO SAPIENS}
+Probab=15.25  E-value=1.6e+02  Score=12.44  Aligned_cols=6  Identities=50%  Similarity=1.231  Sum_probs=0.0  Template_Neff=6.400
+
+Q DDSLFF            1 DDSLFF    6 (6)
+Q Consensus         1 ddslff    6 (6)
+                      +|.|||
+T Consensus        68 ~dTLFy   73 (148)
+T 5FU6_F           68 TETLFF   73 (148)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 10
+>5FU7_G CCR4-NOT TRANSCRIPTION COMPLEX SUBUNIT 1; GENE REGULATION, DEADENYLATION, MRNA DECAY; 3.1A {HOMO SAPIENS}
+Probab=15.25  E-value=1.6e+02  Score=12.44  Aligned_cols=6  Identities=50%  Similarity=1.231  Sum_probs=0.0  Template_Neff=6.400
+
+Q DDSLFF            1 DDSLFF    6 (6)
+Q Consensus         1 ddslff    6 (6)
+                      +|.|||
+T Consensus        68 ~dTLFy   73 (148)
+T 5FU7_G           68 TETLFF   73 (148)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+

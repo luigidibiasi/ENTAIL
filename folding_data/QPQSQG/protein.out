@@ -1,0 +1,148 @@
+Query         QPQSQG
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 09:13:01 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QPQSQG/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QPQSQG/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6K43_O Bacterioferritin (E.C.1   6.8 4.8E+02  0.0053    9.6   0.0    6    1-6     158-163 (167)
+  2 1UFG_A Lamin A; immunoglobulin   6.5 5.1E+02  0.0057   10.3   0.0    4    3-6       8-11  (151)
+  3 1UEP_A KIAA0705 protein; ATROP   6.4 5.2E+02  0.0057    7.7   0.0    6    1-6      98-103 (103)
+  4 4O66_A SWI/SNF-related matrix-   6.4 5.2E+02  0.0058    9.4   0.0    5    2-6       2-6   (76)
+  5 4O66_D SWI/SNF-related matrix-   6.4 5.2E+02  0.0058    9.4   0.0    5    2-6       2-6   (76)
+  6 5DGG_B Lpg1148 protein; Legion   6.1 5.5E+02  0.0061   12.8   0.0    5    2-6      16-20  (190)
+  7 3TQY_A Single-stranded DNA-bin   5.8 5.9E+02  0.0065   10.3   0.0    6    1-6     142-147 (158)
+  8 6CY6_A Ornithine aminotransfer   5.8 5.9E+02  0.0065    8.7   0.0    4    2-5     183-186 (186)
+  9 2KYM_A Bud emergence protein 1   5.5 6.3E+02  0.0069    8.8   0.0    5    2-6     114-118 (120)
+ 10 6QP0_A Putative chromatin bind   5.5 6.4E+02   0.007   11.2   0.0    6    1-6      51-56  (263)
+
+No 1
+>6K43_O Bacterioferritin (E.C.1.16.3.1); Ferritin, Nanocage, Bacterioferritin, METAL TRANSPORT; HET: HEM, FE2;{Streptomyces coelicolor}
+Probab=6.79  E-value=4.8e+02  Score=9.58  Aligned_cols=6  Identities=50%  Similarity=1.021  Sum_probs=0.0  Template_Neff=10.100
+
+Q QPQSQG            1 QPQSQG    6 (6)
+Q Consensus         1 qpqsqg    6 (6)
+                      |||..|
+T Consensus       158 ~~~~~~  163 (167)
+T 6K43_O          158 QPDPSG  163 (167)
+T ss_dssp             CCSCC-
+T ss_pred             CCCCCC
+
+
+No 2
+>1UFG_A Lamin A; immunoglobulin like fold, nuclear lamin; NMR {Mus musculus} SCOP: b.1.16.1
+Probab=6.46  E-value=5.1e+02  Score=10.30  Aligned_cols=4  Identities=100%  Similarity=1.182  Sum_probs=0.0  Template_Neff=8.000
+
+Q QPQSQG            3 QSQG    6 (6)
+Q Consensus         3 qsqg    6 (6)
+                      ||||
+T Consensus         8 ~~~~   11 (151)
+T 1UFG_A            8 QSQG   11 (151)
+T ss_pred             ccCC
+
+
+No 3
+>1UEP_A KIAA0705 protein; ATROPHIN-1 INTERACTING PROTEIN 1, PDZ; NMR {Homo sapiens} SCOP: b.36.1.1
+Probab=6.44  E-value=5.2e+02  Score=7.67  Aligned_cols=6  Identities=33%  Similarity=0.412  Sum_probs=0.0  Template_Neff=12.200
+
+Q QPQSQG            1 QPQSQG    6 (6)
+Q Consensus         1 qpqsqg    6 (6)
+                      +++++|
+T Consensus        98 ~~~~~~  103 (103)
+T 1UEP_A           98 SGPSSG  103 (103)
+T ss_dssp             CCCSCC
+T ss_pred             CCCCCC
+
+
+No 4
+>4O66_A SWI/SNF-related matrix-associated actin-dependent regulator of; DNA Repair DNA Replication, DNA; HET: SO4; 1.9A {Mus musculus}
+Probab=6.39  E-value=5.2e+02  Score=9.42  Aligned_cols=5  Identities=40%  Similarity=0.507  Sum_probs=0.0  Template_Neff=7.300
+
+Q QPQSQG            2 PQSQG    6 (6)
+Q Consensus         2 pqsqg    6 (6)
+                      |.||+
+T Consensus         2 ~~~~~    6 (76)
+T 4O66_A            2 PGSPQ    6 (76)
+T ss_dssp             -----
+T ss_pred             CCCCC
+
+
+No 5
+>4O66_D SWI/SNF-related matrix-associated actin-dependent regulator of; DNA Repair DNA Replication, DNA; HET: SO4; 1.9A {Mus musculus}
+Probab=6.39  E-value=5.2e+02  Score=9.42  Aligned_cols=5  Identities=40%  Similarity=0.507  Sum_probs=0.0  Template_Neff=7.300
+
+Q QPQSQG            2 PQSQG    6 (6)
+Q Consensus         2 pqsqg    6 (6)
+                      |.||+
+T Consensus         2 ~~~~~    6 (76)
+T 4O66_D            2 PGSPQ    6 (76)
+T ss_dssp             -----
+T ss_pred             CCCCC
+
+
+No 6
+>5DGG_B Lpg1148 protein; Legionella pneumophila, structural genomics, APC105518; 1.93A {Legionella pneumophila subsp. pneumophila}
+Probab=6.11  E-value=5.5e+02  Score=12.79  Aligned_cols=5  Identities=80%  Similarity=1.371  Sum_probs=0.0  Template_Neff=1.400
+
+Q QPQSQG            2 PQSQG    6 (6)
+Q Consensus         2 pqsqg    6 (6)
+                      |.|||
+T Consensus        16 pksqg   20 (190)
+T 5DGG_B           16 PKSQG   20 (190)
+T ss_dssp             CCCBT
+T ss_pred             ecccC
+
+
+No 7
+>3TQY_A Single-stranded DNA-binding protein (E.C.2.7.7.6); DNA replication, TRANSFERASE; HET: MSE; 2.6001A {Coxiella burnetii}
+Probab=5.81  E-value=5.9e+02  Score=10.30  Aligned_cols=6  Identities=33%  Similarity=0.584  Sum_probs=0.0  Template_Neff=7.800
+
+Q QPQSQG            1 QPQSQG    6 (6)
+Q Consensus         1 qpqsqg    6 (6)
+                      |+|.||
+T Consensus       142 ~~~~~~  147 (158)
+T 3TQY_A          142 QTPTAG  147 (158)
+T ss_dssp             ------
+T ss_pred             cCCCCC
+
+
+No 8
+>6CY6_A Ornithine aminotransferase, mitochondrial (E.C.2.6.1.13); SpeG, spermidine, GNAT, N-acetyltransferase, Structural; HET: MPD, MRD; 1.75A {Escherichia coli (strain K12)}
+Probab=5.81  E-value=5.9e+02  Score=8.68  Aligned_cols=4  Identities=50%  Similarity=0.949  Sum_probs=0.0  Template_Neff=11.900
+
+Q QPQSQG            2 PQSQ    5 (6)
+Q Consensus         2 pqsq    5 (6)
+                      ||.|
+T Consensus       183 ~~~~  186 (186)
+T 6CY6_A          183 PTAQ  186 (186)
+T ss_dssp             ----
+T ss_pred             cCCC
+
+
+No 9
+>2KYM_A Bud emergence protein 1, Peptide; SH3 domain, Bem1p, SH3-CI, Ste20p; NMR {Lodderomyces elongisporus}
+Probab=5.54  E-value=6.3e+02  Score=8.82  Aligned_cols=5  Identities=80%  Similarity=0.840  Sum_probs=0.0  Template_Neff=9.900
+
+Q QPQSQG            2 PQSQG    6 (6)
+Q Consensus         2 pqsqg    6 (6)
+                      +|+||
+T Consensus       114 ~~~~~  118 (120)
+T 2KYM_A          114 GQSQG  118 (120)
+T ss_dssp             CCCCC
+T ss_pred             cccCC
+
+
+No 10
+>6QP0_A Putative chromatin binding protein; Elongator, tRNA, tRNA modification, mcm5; HET: ADP, MES; 2.409A {Chaetomium thermophilum}
+Probab=5.48  E-value=6.4e+02  Score=11.17  Aligned_cols=6  Identities=67%  Similarity=0.855  Sum_probs=0.0  Template_Neff=7.600
+
+Q QPQSQG            1 QPQSQG    6 (6)
+Q Consensus         1 qpqsqg    6 (6)
+                      ||++|+
+T Consensus        51 ~~~~~~   56 (263)
+T 6QP0_A           51 QPPSQS   56 (263)
+T ss_pred             CCCCCC
+
+

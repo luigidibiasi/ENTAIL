@@ -1,0 +1,147 @@
+Query         ASQQNQ
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 15:34:32 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/ASQQNQ/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/ASQQNQ/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6N3A_J TAR DNA-binding protein  48.1      17 0.00018   14.6   0.0    6    1-6      31-36  (50)
+  2 6MRS_A Peak6; De novo protein,   7.6 4.2E+02  0.0046   11.6   0.0    5    2-6      42-46  (77)
+  3 6J05_A Transcriptional regulat   7.2 4.5E+02  0.0049    9.6   0.0    5    2-6     114-118 (124)
+  4 6U1R_A SxtG; amidinotransferas   7.0 4.6E+02  0.0051   11.9   0.0    5    2-6       9-13  (383)
+  5 6SMH_M Ribulose bisphosphate c   6.6   5E+02  0.0055   12.4   0.0    6    1-6      44-49  (188)
+  6 6SMH_J Ribulose bisphosphate c   6.6   5E+02  0.0056   12.4   0.0    6    1-6      44-49  (188)
+  7 3KE7_B Putative ketosteroid is   6.4 5.2E+02  0.0057    8.0   0.0    5    2-6       1-5   (134)
+  8 6KKM_E All5250 protein, Ribulo   6.3 5.3E+02  0.0059   13.3   0.0    5    2-6      62-66  (361)
+  9 6KKN_A All5250 protein; RuBisC   6.2 5.4E+02  0.0059   13.4   0.0    5    2-6      77-81  (376)
+ 10 2N2C_A TAR DNA-binding protein   5.8 5.9E+02  0.0065    9.8   0.0    6    1-6      35-40  (43)
+
+No 1
+>6N3A_J TAR DNA-binding protein 43, segA; Amyloid, TDP43, ALS, FTLD-TDP, dna; 3.3A {Homo sapiens}
+Probab=48.10  E-value=17  Score=14.64  Aligned_cols=6  Identities=100%  Similarity=0.916  Sum_probs=3.2  Template_Neff=2.200
+
+Q ASQQNQ            1 ASQQNQ    6 (6)
+Q Consensus         1 asqqnq    6 (6)
+                      |+||||
+T Consensus        31 a~Qq~q   36 (50)
+T 6N3A_J           31 ASQQNQ   36 (50)
+T ss_dssp             EEEEEE
+T ss_pred             HhcCCC
+Confidence            456654
+
+
+No 2
+>6MRS_A Peak6; De novo protein, Foldit; HET: SO4; 1.541A {synthetic construct}
+Probab=7.55  E-value=4.2e+02  Score=11.59  Aligned_cols=5  Identities=80%  Similarity=0.747  Sum_probs=0.0  Template_Neff=1.000
+
+Q ASQQNQ            2 SQQNQ    6 (6)
+Q Consensus         2 sqqnq    6 (6)
+                      |||.|
+T Consensus        42 sqqeq   46 (77)
+T 6MRS_A           42 SQQEQ   46 (77)
+
+
+No 3
+>6J05_A Transcriptional regulator, ArsR; ArsR, As-III complex, repressor, TRANSCRIPTION; 1.86A {Acidithiobacillus ferrooxidans}
+Probab=7.20  E-value=4.5e+02  Score=9.63  Aligned_cols=5  Identities=40%  Similarity=0.494  Sum_probs=0.0  Template_Neff=9.100
+
+Q ASQQNQ            2 SQQNQ    6 (6)
+Q Consensus         2 sqqnq    6 (6)
+                      +.|||
+T Consensus       114 ~~~~~  118 (124)
+T 6J05_A          114 QEGNQ  118 (124)
+T ss_pred             hcccc
+
+
+No 4
+>6U1R_A SxtG; amidinotransferase, saxitoxin biosynthetic pathway, SxtG; 1.792A {Microseira wollei}
+Probab=7.04  E-value=4.6e+02  Score=11.86  Aligned_cols=5  Identities=80%  Similarity=0.807  Sum_probs=0.0  Template_Neff=8.400
+
+Q ASQQNQ            2 SQQNQ    6 (6)
+Q Consensus         2 sqqnq    6 (6)
+                      ||.||
+T Consensus         9 ~~~~~   13 (383)
+T 6U1R_A            9 SQNNQ   13 (383)
+T ss_dssp             -----
+T ss_pred             ccccH
+
+
+No 5
+>6SMH_M Ribulose bisphosphate carboxylase large chain; Rubisco, Rubisco accumulation factor1, Raf1; 4.3A {Synechococcus elongatus (strain PCC 7942 / FACHB-805)}
+Probab=6.58  E-value=5e+02  Score=12.36  Aligned_cols=6  Identities=67%  Similarity=0.579  Sum_probs=0.0  Template_Neff=4.000
+
+Q ASQQNQ            1 ASQQNQ    6 (6)
+Q Consensus         1 asqqnq    6 (6)
+                      ..||||
+T Consensus        44 ~~qQN~   49 (188)
+T 6SMH_M           44 PIQQNQ   49 (188)
+T ss_dssp             HHHHHH
+T ss_pred             hHHhhh
+
+
+No 6
+>6SMH_J Ribulose bisphosphate carboxylase large chain; Rubisco, Rubisco accumulation factor1, Raf1; 4.3A {Synechococcus elongatus (strain PCC 7942 / FACHB-805)}
+Probab=6.55  E-value=5e+02  Score=12.36  Aligned_cols=6  Identities=67%  Similarity=0.579  Sum_probs=0.0  Template_Neff=4.000
+
+Q ASQQNQ            1 ASQQNQ    6 (6)
+Q Consensus         1 asqqnq    6 (6)
+                      ..||||
+T Consensus        44 ~vqQN~   49 (188)
+T 6SMH_J           44 PIQQNQ   49 (188)
+T ss_dssp             TTTTTH
+T ss_pred             hHHhch
+
+
+No 7
+>3KE7_B Putative ketosteroid isomerase; putative ketosteroid isomerase, Structural Genomics; HET: BCN; 1.45A {Parabacteroides distasonis ATCC 8503}
+Probab=6.41  E-value=5.2e+02  Score=8.01  Aligned_cols=5  Identities=40%  Similarity=0.488  Sum_probs=0.0  Template_Neff=12.400
+
+Q ASQQNQ            2 SQQNQ    6 (6)
+Q Consensus         2 sqqnq    6 (6)
+                      ||+++
+T Consensus         1 ~~~~~    5 (134)
+T 3KE7_B            1 GQQKN    5 (134)
+T ss_dssp             -CHHH
+T ss_pred             CCccc
+
+
+No 8
+>6KKM_E All5250 protein, Ribulose bisphosphate carboxylase; RuBisCO, Chaperone, Raf1, RbcL, CHAPERONE-PHOTOSYNTHESIS; 3.0A {Nostoc sp. (strain PCC 7120 / SAG 25.82 / UTEX 2576)}
+Probab=6.29  E-value=5.3e+02  Score=13.32  Aligned_cols=5  Identities=80%  Similarity=0.727  Sum_probs=0.0  Template_Neff=4.300
+
+Q ASQQNQ            2 SQQNQ    6 (6)
+Q Consensus         2 sqqnq    6 (6)
+                      .||||
+T Consensus        62 vqQN~   66 (361)
+T 6KKM_E           62 VQQNQ   66 (361)
+T ss_pred             cceee
+
+
+No 9
+>6KKN_A All5250 protein; RuBisCO, Chaperone, Raf1; 2.85A {Nostoc sp. (strain PCC 7120 / SAG 25.82 / UTEX 2576)}
+Probab=6.24  E-value=5.4e+02  Score=13.41  Aligned_cols=5  Identities=80%  Similarity=0.727  Sum_probs=0.0  Template_Neff=4.200
+
+Q ASQQNQ            2 SQQNQ    6 (6)
+Q Consensus         2 sqqnq    6 (6)
+                      .||||
+T Consensus        77 vqQN~   81 (376)
+T 6KKN_A           77 VQQNQ   81 (376)
+T ss_dssp             HHHHH
+T ss_pred             cceee
+
+
+No 10
+>2N2C_A TAR DNA-binding protein 43; ALS, prion-like domain, hydrophobic helices; NMR {Homo sapiens}
+Probab=5.84  E-value=5.9e+02  Score=9.81  Aligned_cols=6  Identities=100%  Similarity=0.916  Sum_probs=0.0  Template_Neff=3.300
+
+Q ASQQNQ            1 ASQQNQ    6 (6)
+Q Consensus         1 asqqnq    6 (6)
+                      +++|||
+T Consensus        35 ~~~~~~   40 (43)
+T 2N2C_A           35 ASQQNQ   40 (43)
+T ss_dssp             HHHHTS
+T ss_pred             hccCCC
+
+

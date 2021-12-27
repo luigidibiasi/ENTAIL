@@ -1,0 +1,157 @@
+Query         LATVCV
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 15:19:44 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LATVCV/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LATVCV/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2M1J_A Prion-like protein dopp  29.3      52 0.00058   12.1   0.0    6    1-6      10-15  (30)
+  2 1Z65_A Prion-like protein dopp  28.0      57 0.00063   12.0   0.0    6    1-6      10-15  (30)
+  3 1ZTN_A POTASSIUM CHANNEL PROTE  25.1      69 0.00077   12.0   0.0    6    1-6       2-7   (30)
+  4 4IRU_A LepB (E.C.3.6.5.2), Ras  23.8      76 0.00084   16.0   0.0    6    1-6     230-235 (299)
+  5 4JVS_A Putative uncharacterize  23.7      77 0.00085   16.0   0.0    6    1-6     246-251 (310)
+  6 4I1M_C LepB; RabGAP, hydrolase  23.6      77 0.00086   16.0   0.0    6    1-6     238-243 (302)
+  7 4I1O_F Ras-related protein Rab  23.6      77 0.00086   16.0   0.0    6    1-6     238-243 (302)
+  8 3NEK_B nitrogen repressor-like  11.0 2.5E+02  0.0028   13.2   0.0    5    1-5      87-91  (238)
+  9 4JW1_A Effector protein B; New  10.7 2.6E+02  0.0029   15.8   0.0    5    1-5     562-566 (626)
+ 10 4JW1_B Effector protein B; New  10.6 2.6E+02  0.0029   15.8   0.0    5    1-5     562-566 (626)
+
+No 1
+>2M1J_A Prion-like protein doppel; Prion-like protein, UNKNOWN FUNCTION; NMR {N/A}
+Probab=29.29  E-value=52  Score=12.14  Aligned_cols=6  Identities=83%  Similarity=1.337  Sum_probs=3.2  Template_Neff=2.400
+
+Q LATVCV            1 LATVCV    6 (6)
+Q Consensus         1 latvcv    6 (6)
+                      ||.+|+
+T Consensus        10 lai~c~   15 (30)
+T 2M1J_A           10 LAIVCV   15 (30)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            355664
+
+
+No 2
+>1Z65_A Prion-like protein doppel; transmembrane helix  DHPC ; NMR {N/A}
+Probab=27.96  E-value=57  Score=12.04  Aligned_cols=6  Identities=33%  Similarity=1.027  Sum_probs=3.2  Template_Neff=2.400
+
+Q LATVCV            1 LATVCV    6 (6)
+Q Consensus         1 latvcv    6 (6)
+                      +|.+|+
+T Consensus        10 lai~c~   15 (30)
+T 1Z65_A           10 VAILCM   15 (30)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            355664
+
+
+No 3
+>1ZTN_A POTASSIUM CHANNEL PROTEIN RAW3; POTASSIUM CHANNEL, INACTIVATION GATE, TRANSPORT; NMR {Homo sapiens} SCOP: j.12.1.1
+Probab=25.14  E-value=69  Score=12.01  Aligned_cols=6  Identities=50%  Similarity=1.315  Sum_probs=3.6  Template_Neff=1.300
+
+Q LATVCV            1 LATVCV    6 (6)
+Q Consensus         1 latvcv    6 (6)
+                      |..|||
+T Consensus         2 lssvcv    7 (30)
+T 1ZTN_A            2 ISSVCV    7 (30)
+T ss_dssp             CCSSBS
+T ss_pred             cceeee
+Confidence            356775
+
+
+No 4
+>4IRU_A LepB (E.C.3.6.5.2), Ras-related protein Rab-1A; Arginine finger, Glutamate finger, P-loop; HET: GOL, AF3, ACT, GDP, MSE; 3.2A {Legionella pneumophila}
+Probab=23.83  E-value=76  Score=15.97  Aligned_cols=6  Identities=67%  Similarity=1.403  Sum_probs=4.2  Template_Neff=3.500
+
+Q LATVCV            1 LATVCV    6 (6)
+Q Consensus         1 latvcv    6 (6)
+                      |||+|.
+T Consensus       230 LaTICl  235 (299)
+T 4IRU_A          230 LATICL  235 (299)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            678873
+
+
+No 5
+>4JVS_A Putative uncharacterized protein, Ras-related protein; New GAP fold, Bind and; HET: GDP; 2.783A {Legionella drancourtii}
+Probab=23.67  E-value=77  Score=16.03  Aligned_cols=6  Identities=67%  Similarity=1.309  Sum_probs=4.2  Template_Neff=3.500
+
+Q LATVCV            1 LATVCV    6 (6)
+Q Consensus         1 latvcv    6 (6)
+                      |||+|.
+T Consensus       246 LaTICl  251 (310)
+T 4JVS_A          246 LATICF  251 (310)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            678883
+
+
+No 6
+>4I1M_C LepB; RabGAP, hydrolase activator, Rab1b, lpg2490; HET: PEG; 2.804A {Legionella pneumophila subsp. pneumophila}
+Probab=23.62  E-value=77  Score=15.97  Aligned_cols=6  Identities=67%  Similarity=1.403  Sum_probs=4.2  Template_Neff=3.500
+
+Q LATVCV            1 LATVCV    6 (6)
+Q Consensus         1 latvcv    6 (6)
+                      |||+|.
+T Consensus       238 LaTICl  243 (302)
+T 4I1M_C          238 LATICL  243 (302)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            678873
+
+
+No 7
+>4I1O_F Ras-related protein Rab-1B, LepB; GAP, RabGAP, hydrolase activator, Rab1b; HET: BEF, GDP, PEG; 2.701A {Homo sapiens}
+Probab=23.62  E-value=77  Score=15.97  Aligned_cols=6  Identities=67%  Similarity=1.403  Sum_probs=4.2  Template_Neff=3.500
+
+Q LATVCV            1 LATVCV    6 (6)
+Q Consensus         1 latvcv    6 (6)
+                      |||+|.
+T Consensus       238 LaTICl  243 (302)
+T 4I1O_F          238 LATICL  243 (302)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            678873
+
+
+No 8
+>3NEK_B nitrogen repressor-like protein MJ0159; STRUCTURAL GENOMICS, UNKNOWN FUNCTION, PSI-2; HET: GOL; 2.5A {Methanocaldococcus jannaschii}
+Probab=10.96  E-value=2.5e+02  Score=13.19  Aligned_cols=5  Identities=40%  Similarity=1.311  Sum_probs=0.0  Template_Neff=5.300
+
+Q LATVCV            1 LATVC    5 (6)
+Q Consensus         1 latvc    5 (6)
+                      ++|+|
+T Consensus        87 i~TvC   91 (238)
+T 3NEK_B           87 IQTIC   91 (238)
+T ss_dssp             EEEEC
+T ss_pred             EEEeC
+
+
+No 9
+>4JW1_A Effector protein B; New GAP fold, GTPase-Accelerating Protein; HET: FLC, GOL; 3.16A {Legionella pneumophila}
+Probab=10.66  E-value=2.6e+02  Score=15.77  Aligned_cols=5  Identities=80%  Similarity=1.564  Sum_probs=0.0  Template_Neff=2.900
+
+Q LATVCV            1 LATVC    5 (6)
+Q Consensus         1 latvc    5 (6)
+                      |||+|
+T Consensus       562 LatIC  566 (626)
+T 4JW1_A          562 LATIC  566 (626)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 10
+>4JW1_B Effector protein B; New GAP fold, GTPase-Accelerating Protein; HET: GOL, FLC, MSE; 3.16A {Legionella pneumophila}
+Probab=10.60  E-value=2.6e+02  Score=15.76  Aligned_cols=5  Identities=80%  Similarity=1.564  Sum_probs=0.0  Template_Neff=2.900
+
+Q LATVCV            1 LATVC    5 (6)
+Q Consensus         1 latvc    5 (6)
+                      |||+|
+T Consensus       562 LatIC  566 (626)
+T 4JW1_B          562 LATIC  566 (626)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+

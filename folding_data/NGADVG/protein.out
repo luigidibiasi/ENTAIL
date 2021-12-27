@@ -1,0 +1,150 @@
+Query         NGADVG
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 00:05:04 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NGADVG/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NGADVG/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3R90_D Malignant T cell-amplif   9.0 3.3E+02  0.0037   11.2   0.0    5    1-5     107-111 (188)
+  2 3R90_K Malignant T cell-amplif   9.0 3.3E+02  0.0037   11.2   0.0    5    1-5     107-111 (188)
+  3 1Q7H_A conserved hypothetical    8.8 3.4E+02  0.0038   10.7   0.0    5    1-5      85-89  (153)
+  4 2GPJ_A Siderophore-interacting   8.5 3.6E+02  0.0039   10.7   0.0    5    1-5     248-252 (252)
+  5 4G3N_A DNA gyrase subunit A (E   7.0 4.6E+02  0.0051   11.1   0.0    4    1-4     320-323 (327)
+  6 6V06_A Beta-2-glycoprotein 1;    7.0 4.6E+02  0.0051   10.3   0.0    5    2-6     320-324 (326)
+  7 6V08_A Beta-2-glycoprotein 1;    7.0 4.6E+02  0.0051   10.3   0.0    5    2-6     320-324 (326)
+  8 2G04_F PROBABLE FATTY-ACID-CoA   6.9 4.7E+02  0.0052   11.5   0.0    4    2-5      32-35  (359)
+  9 1X74_D 2-methylacyl-CoA racema   6.8 4.8E+02  0.0054   11.4   0.0    4    2-5      30-33  (360)
+ 10 2YIM_B PROBABLE ALPHA-METHYLAC   6.8 4.8E+02  0.0054   11.4   0.0    4    2-5      30-33  (360)
+
+No 1
+>3R90_D Malignant T cell-amplified sequence 1; structural genomics consortium, surface entropy; HET: SO4, UNX; 1.7A {Homo sapiens}
+Probab=8.99  E-value=3.3e+02  Score=11.21  Aligned_cols=5  Identities=40%  Similarity=1.012  Sum_probs=0.0  Template_Neff=8.000
+
+Q NGADVG            1 NGADV    5 (6)
+Q Consensus         1 ngadv    5 (6)
+                      +|||+
+T Consensus       107 ~GadL  111 (188)
+T 3R90_D          107 SGANI  111 (188)
+T ss_dssp             TTCCE
+T ss_pred             cCCcc
+
+
+No 2
+>3R90_K Malignant T cell-amplified sequence 1; structural genomics consortium, surface entropy; HET: UNX, SO4; 1.7A {Homo sapiens}
+Probab=8.99  E-value=3.3e+02  Score=11.21  Aligned_cols=5  Identities=40%  Similarity=1.012  Sum_probs=0.0  Template_Neff=8.000
+
+Q NGADVG            1 NGADV    5 (6)
+Q Consensus         1 ngadv    5 (6)
+                      +|||+
+T Consensus       107 ~GadL  111 (188)
+T 3R90_K          107 SGANI  111 (188)
+T ss_dssp             TTCCE
+T ss_pred             cCCcc
+
+
+No 3
+>1Q7H_A conserved hypothetical protein; Thermoplasma acidophilum, structural genomics, MCSG; 2.1A {Thermoplasma acidophilum DSM 1728} SCOP: b.122.1.1, d.17.6.2
+Probab=8.77  E-value=3.4e+02  Score=10.66  Aligned_cols=5  Identities=60%  Similarity=1.199  Sum_probs=0.0  Template_Neff=8.300
+
+Q NGADVG            1 NGADV    5 (6)
+Q Consensus         1 ngadv    5 (6)
+                      +|||+
+T Consensus        85 ~Ga~l   89 (153)
+T 1Q7H_A           85 NGSDL   89 (153)
+T ss_dssp             TTCCE
+T ss_pred             CCccc
+
+
+No 4
+>2GPJ_A Siderophore-interacting protein; SIDEROPHORE-INTERACTING PROTEIN, STRUCTURAL GENOMICS, JOINT; HET: FAD, EDO, ACY; 2.2A {Shewanella putrefaciens}
+Probab=8.53  E-value=3.6e+02  Score=10.68  Aligned_cols=5  Identities=80%  Similarity=1.112  Sum_probs=0.0  Template_Neff=10.000
+
+Q NGADVG            1 NGADV    5 (6)
+Q Consensus         1 ngadv    5 (6)
+                      |||.|
+T Consensus       248 ~~~~~  252 (252)
+T 2GPJ_A          248 NGASV  252 (252)
+T ss_dssp             TC---
+T ss_pred             ccCCC
+
+
+No 5
+>4G3N_A DNA gyrase subunit A (E.C.5.99.1.3); DNA gyrase C-terminal domain, beta-propeller; 1.4A {Mycobacterium tuberculosis}
+Probab=7.04  E-value=4.6e+02  Score=11.12  Aligned_cols=4  Identities=100%  Similarity=1.456  Sum_probs=0.0  Template_Neff=9.400
+
+Q NGADVG            1 NGAD    4 (6)
+Q Consensus         1 ngad    4 (6)
+                      ||||
+T Consensus       320 ~~~~  323 (327)
+T 4G3N_A          320 NGAD  323 (327)
+T ss_dssp             ----
+T ss_pred             cccc
+
+
+No 6
+>6V06_A Beta-2-glycoprotein 1; PLASMA GLYCOPROTEIN, COAGULATION, INNATE IMMUNE; HET: MAN, SO4, NAG, BMA, EPE; 2.4A {Homo sapiens}
+Probab=6.99  E-value=4.6e+02  Score=10.33  Aligned_cols=5  Identities=40%  Similarity=0.574  Sum_probs=0.0  Template_Neff=11.000
+
+Q NGADVG            2 GADVG    6 (6)
+Q Consensus         2 gadvg    6 (6)
+                      |.||+
+T Consensus       320 ~~~~~  324 (326)
+T 6V06_A          320 ASDVK  324 (326)
+T ss_dssp             GGGSC
+T ss_pred             hhhCc
+
+
+No 7
+>6V08_A Beta-2-glycoprotein 1; PLASMA GLYCOPROTEIN, COAGULATION, INNATE IMMUNE; HET: MAN, SO4, NAG, BMA; 2.58A {Homo sapiens}
+Probab=6.99  E-value=4.6e+02  Score=10.33  Aligned_cols=5  Identities=40%  Similarity=0.574  Sum_probs=0.0  Template_Neff=11.000
+
+Q NGADVG            2 GADVG    6 (6)
+Q Consensus         2 gadvg    6 (6)
+                      |.||+
+T Consensus       320 ~~~~~  324 (326)
+T 6V08_A          320 ASDVK  324 (326)
+T ss_dssp             GGGSC
+T ss_pred             hhhCc
+
+
+No 8
+>2G04_F PROBABLE FATTY-ACID-CoA RACEMASE FAR (E.C.5.1.99.4); Isomerase; 2.7A {Mycobacterium tuberculosis}
+Probab=6.89  E-value=4.7e+02  Score=11.48  Aligned_cols=4  Identities=100%  Similarity=1.423  Sum_probs=0.0  Template_Neff=8.900
+
+Q NGADVG            2 GADV    5 (6)
+Q Consensus         2 gadv    5 (6)
+                      ||||
+T Consensus        32 GA~V   35 (359)
+T 2G04_F           32 GADV   35 (359)
+T ss_dssp             TCEE
+T ss_pred             CCcE
+
+
+No 9
+>1X74_D 2-methylacyl-CoA racemase (E.C.5.1.99.4); Alpha-methylacyl-CoA racemase, racemase, CoA transferase; HET: GOL; 1.79A {Mycobacterium tuberculosis} SCOP: c.123.1.1
+Probab=6.76  E-value=4.8e+02  Score=11.41  Aligned_cols=4  Identities=100%  Similarity=1.423  Sum_probs=0.0  Template_Neff=9.000
+
+Q NGADVG            2 GADV    5 (6)
+Q Consensus         2 gadv    5 (6)
+                      ||+|
+T Consensus        30 GA~V   33 (360)
+T 1X74_D           30 GADV   33 (360)
+T ss_dssp             TCEE
+T ss_pred             CCcE
+
+
+No 10
+>2YIM_B PROBABLE ALPHA-METHYLACYL-COA RACEMASE MCR (2-METHYLACYL-COA; ISOMERASE, METHYL-COA RACEMASE, TRANSITION STATE; HET: PO4, GOL, MC4; 1.41A {MYCOBACTERIUM TUBERCULOSIS}
+Probab=6.76  E-value=4.8e+02  Score=11.41  Aligned_cols=4  Identities=100%  Similarity=1.423  Sum_probs=0.0  Template_Neff=9.000
+
+Q NGADVG            2 GADV    5 (6)
+Q Consensus         2 gadv    5 (6)
+                      ||+|
+T Consensus        30 GA~V   33 (360)
+T 2YIM_B           30 GADV   33 (360)
+T ss_dssp             TCEE
+T ss_pred             CCcE
+
+

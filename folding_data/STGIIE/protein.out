@@ -1,0 +1,153 @@
+Query         STGIIE
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 17:36:40 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/STGIIE/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/STGIIE/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4MC3_A Putative sesquiterpene   33.4      40 0.00044   13.9   0.0    6    1-6     335-340 (346)
+  2 4MC8_A Putative sesquiterpene   33.4      40 0.00044   13.9   0.0    6    1-6     335-340 (346)
+  3 3CA9_A Deoxyuridine triphospha  24.3      74 0.00081   13.0   0.0    6    1-6     154-159 (165)
+  4 5AY6_A Flagellar hook protein   22.7      83 0.00091   16.3   0.0    6    1-6     216-221 (306)
+  5 1I18_B RIBOFLAVIN SYNTHASE ALP  18.1 1.2E+02  0.0013   11.6   0.0    5    2-6       3-7   (97)
+  6 1PKV_B Riboflavin synthase alp  18.1 1.2E+02  0.0013   11.6   0.0    5    2-6       3-7   (97)
+  7 7MGP_A microcompartment, MCP,   15.6 1.5E+02  0.0017   12.0   0.0    6    1-6      11-16  (99)
+  8 5D6V_A Carboxysome shell prote  14.3 1.7E+02  0.0019   11.8   0.0    6    1-6      10-15  (97)
+  9 1I8D_A RIBOFLAVIN SYNTHASE (E.  13.6 1.9E+02  0.0021   12.9   0.0    5    2-6       3-7   (213)
+ 10 4PSL_B ssDNA binding protein;   12.3 2.2E+02  0.0024   13.3   0.0    5    1-5       6-10  (149)
+
+No 1
+>4MC3_A Putative sesquiterpene cyclase (E.C.4.2.3.-); cyclase, terpenoid, Terpene alpha domain; HET: 28U; 1.5A {Kitasatospora setae}
+Probab=33.43  E-value=40  Score=13.89  Aligned_cols=6  Identities=67%  Similarity=0.994  Sum_probs=0.0  Template_Neff=9.900
+
+Q STGIIE            1 STGIIE    6 (6)
+Q Consensus         1 stgiie    6 (6)
+                      |+||.|
+T Consensus       335 ~~~~~~  340 (346)
+T 4MC3_A          335 SLGILE  340 (346)
+T ss_dssp             ------
+T ss_pred             cccccc
+Confidence            467664
+
+
+No 2
+>4MC8_A Putative sesquiterpene cyclase (E.C.4.2.3.-); cyclase, terpenoid, Terpene alpha domain; HET: EPE; 1.9A {Kitasatospora setae}
+Probab=33.43  E-value=40  Score=13.89  Aligned_cols=6  Identities=67%  Similarity=0.994  Sum_probs=0.0  Template_Neff=9.900
+
+Q STGIIE            1 STGIIE    6 (6)
+Q Consensus         1 stgiie    6 (6)
+                      |+||.|
+T Consensus       335 ~~~~~~  340 (346)
+T 4MC8_A          335 SLGILE  340 (346)
+T ss_dssp             ------
+T ss_pred             cccccc
+Confidence            467664
+
+
+No 3
+>3CA9_A Deoxyuridine triphosphatase (E.C.3.6.1.23); dUTPase Chlorella Virus, HYDROLASE; HET: DUD; 3.0A {Paramecium bursaria Chlorella virus IL3A}
+Probab=24.31  E-value=74  Score=13.03  Aligned_cols=6  Identities=83%  Similarity=1.204  Sum_probs=3.2  Template_Neff=7.500
+
+Q STGIIE            1 STGIIE    6 (6)
+Q Consensus         1 stgiie    6 (6)
+                      |||+.|
+T Consensus       154 ST~~~~  159 (165)
+T 3CA9_A          154 STGILE  159 (165)
+T ss_pred             CCCCCC
+Confidence            566554
+
+
+No 4
+>5AY6_A Flagellar hook protein FlgE; Flagellum, Hook, Universal joint, MOTOR; 1.839A {Caulobacter crescentus CB15}
+Probab=22.74  E-value=83  Score=16.30  Aligned_cols=6  Identities=100%  Similarity=1.270  Sum_probs=3.7  Template_Neff=1.300
+
+Q STGIIE            1 STGIIE    6 (6)
+Q Consensus         1 stgiie    6 (6)
+                      +|||||
+T Consensus       216 ~TGiI~  221 (306)
+T 5AY6_A          216 STGIIE  221 (306)
+T ss_dssp             EEEEEE
+T ss_pred             eeeEEE
+Confidence            467764
+
+
+No 5
+>1I18_B RIBOFLAVIN SYNTHASE ALPHA CHAIN (E.C.2.5.1.9); GREEK-KEY-BARREL, TRANSFERASE; HET: RBF; NMR {Escherichia coli} SCOP: b.43.4.3
+Probab=18.14  E-value=1.2e+02  Score=11.59  Aligned_cols=5  Identities=60%  Similarity=1.192  Sum_probs=0.0  Template_Neff=7.200
+
+Q STGIIE            2 TGIIE    6 (6)
+Q Consensus         2 tgiie    6 (6)
+                      ||||+
+T Consensus         3 tGiV~    7 (97)
+T 1I18_B            3 TGIVQ    7 (97)
+T ss_dssp             CCCCS
+T ss_pred             eeeec
+
+
+No 6
+>1PKV_B Riboflavin synthase alpha chain (E.C.2.5.1.9); dimer, beta-barrel, greek key motif; HET: RBF; 2.6A {Escherichia coli} SCOP: b.43.4.3
+Probab=18.14  E-value=1.2e+02  Score=11.59  Aligned_cols=5  Identities=60%  Similarity=1.192  Sum_probs=0.0  Template_Neff=7.200
+
+Q STGIIE            2 TGIIE    6 (6)
+Q Consensus         2 tgiie    6 (6)
+                      ||||+
+T Consensus         3 tGiV~    7 (97)
+T 1PKV_B            3 TGIVQ    7 (97)
+T ss_dssp             CSCCC
+T ss_pred             eeeec
+
+
+No 7
+>7MGP_A microcompartment, MCP, shell protein, choline; 1.65A {Escherichia coli}
+Probab=15.62  E-value=1.5e+02  Score=11.96  Aligned_cols=6  Identities=50%  Similarity=0.933  Sum_probs=0.0  Template_Neff=5.900
+
+Q STGIIE            1 STGIIE    6 (6)
+Q Consensus         1 stgiie    6 (6)
+                      |-|+||
+T Consensus        11 ~~GivE   16 (99)
+T 7MGP_A           11 ALGLIE   16 (99)
+T ss_dssp             EEEEEE
+T ss_pred             ceEEEE
+
+
+No 8
+>5D6V_A Carboxysome shell protein; Bacterial Microcompartment shell protein, STRUCTURAL; 1.5A {Salmonella typhimurium}
+Probab=14.33  E-value=1.7e+02  Score=11.81  Aligned_cols=6  Identities=33%  Similarity=0.883  Sum_probs=0.0  Template_Neff=5.800
+
+Q STGIIE            1 STGIIE    6 (6)
+Q Consensus         1 stgiie    6 (6)
+                      |-|+||
+T Consensus        10 ~~~~iE   15 (97)
+T 5D6V_A           10 ALGLVE   15 (97)
+T ss_dssp             EEEEEE
+T ss_pred             ceeEEE
+
+
+No 9
+>1I8D_A RIBOFLAVIN SYNTHASE (E.C.2.5.1.9); riboflavin synthase, riboflavin biosynthesis, antimicrobial; 2.0A {Escherichia coli} SCOP: b.43.4.3
+Probab=13.56  E-value=1.9e+02  Score=12.94  Aligned_cols=5  Identities=60%  Similarity=1.192  Sum_probs=0.0  Template_Neff=6.300
+
+Q STGIIE            2 TGIIE    6 (6)
+Q Consensus         2 tgiie    6 (6)
+                      ||||+
+T Consensus         3 TGiVe    7 (213)
+T 1I8D_A            3 TGIVQ    7 (213)
+T ss_dssp             CSCCC
+T ss_pred             eeeec
+
+
+No 10
+>4PSL_B ssDNA binding protein; ssDNA binding protein, DNA BINDING; HET: SO4, MSE; 3.5A {Pyrococcus furiosus}
+Probab=12.26  E-value=2.2e+02  Score=13.31  Aligned_cols=5  Identities=40%  Similarity=0.787  Sum_probs=0.0  Template_Neff=3.300
+
+Q STGIIE            1 STGII    5 (6)
+Q Consensus         1 stgii    5 (6)
+                      |||+|
+T Consensus         6 sTG~V   10 (149)
+T 4PSL_B            6 MTGFV   10 (149)
+T ss_dssp             ECCSE
+T ss_pred             cccee
+
+

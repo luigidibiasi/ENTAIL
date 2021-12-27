@@ -1,0 +1,149 @@
+Query         ADVGQG
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 13:27:28 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/ADVGQG/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/ADVGQG/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6R0W_N V-type ATP synthase alp  28.6      55 0.00061   15.1   0.0    6    1-6     364-369 (652)
+  2 6R0Y_N V-type ATP synthase alp  25.1      70 0.00077   15.3   0.0    6    1-6     364-369 (652)
+  3 3ZWZ_B APICAL MEMBRANE ANTIGEN  18.5 1.2E+02  0.0013   11.5   0.0    6    1-6       7-12  (39)
+  4 4GGM_X UDP-2,3-diacylglucosami  15.8 1.5E+02  0.0016   14.0   0.0    5    2-6     169-173 (283)
+  5 4OY2_F Transcription initiatio  14.7 1.7E+02  0.0018   13.7   0.0    5    1-5     101-105 (235)
+  6 4OY2_B Transcription initiatio  14.3 1.7E+02  0.0019   13.5   0.0    5    1-5     101-105 (235)
+  7 1W5R_A ARYLAMINE N-ACETYLTRANS  13.8 1.8E+02   0.002   12.3   0.0    6    1-6     129-134 (278)
+  8 4DMO_B N-hydroxyarylamine O-ac  13.8 1.8E+02   0.002   12.1   0.0    6    1-6     124-129 (265)
+  9 4GUZ_A Probable arylamine n-ac  13.7 1.8E+02   0.002   12.4   0.0    6    1-6     130-135 (284)
+ 10 6WM2_R V-type proton ATPase 11  13.4 1.9E+02  0.0021   14.7   0.0    6    1-6     408-413 (837)
+
+No 1
+>6R0W_N V-type ATP synthase alpha chain; ATP hydrolysis/synthesis, proton translocation, rotary; HET: ADP; 3.6A {Thermus thermophilus (strain HB8 / ATCC 27634 / DSM 579)}
+Probab=28.58  E-value=55  Score=15.15  Aligned_cols=6  Identities=33%  Similarity=0.761  Sum_probs=3.7  Template_Neff=9.200
+
+Q ADVGQG            1 ADVGQG    6 (6)
+Q Consensus         1 advgqg    6 (6)
+                      +|+|+|
+T Consensus       364 gD~GyG  369 (652)
+T 6R0W_N          364 GDIGYA  369 (652)
+T ss_pred             hhHHHH
+Confidence            367765
+
+
+No 2
+>6R0Y_N V-type ATP synthase alpha chain; ATP hydrolysis/synthesis, proton translocation, rotary; HET: ADP; 3.9A {Thermus thermophilus (strain HB8 / ATCC 27634 / DSM 579)}
+Probab=25.06  E-value=70  Score=15.28  Aligned_cols=6  Identities=33%  Similarity=0.761  Sum_probs=3.8  Template_Neff=8.400
+
+Q ADVGQG            1 ADVGQG    6 (6)
+Q Consensus         1 advgqg    6 (6)
+                      +|+|+|
+T Consensus       364 GD~GyG  369 (652)
+T 6R0Y_N          364 GDIGYA  369 (652)
+T ss_dssp             CCHHHH
+T ss_pred             hHHHHH
+Confidence            467765
+
+
+No 3
+>3ZWZ_B APICAL MEMBRANE ANTIGEN 1, AMA1; IMMUNE SYSTEM, MALARIA, MOVING JUNCTION; HET: GOL; 2.1A {PLASMODIUM FALCIPARUM}
+Probab=18.52  E-value=1.2e+02  Score=11.54  Aligned_cols=6  Identities=50%  Similarity=1.132  Sum_probs=3.1  Template_Neff=3.200
+
+Q ADVGQG            1 ADVGQG    6 (6)
+Q Consensus         1 advgqg    6 (6)
+                      +|+|.|
+T Consensus         7 ~D~G~~   12 (39)
+T 3ZWZ_B            7 KDIGAG   12 (39)
+T ss_pred             hhcCCC
+Confidence            356643
+
+
+No 4
+>4GGM_X UDP-2,3-diacylglucosamine pyrophosphatase LpxI; Structural Genomics, PSI-Biology, Protein Structure; HET: LP5; 2.897A {Caulobacter crescentus}
+Probab=15.84  E-value=1.5e+02  Score=14.05  Aligned_cols=5  Identities=80%  Similarity=1.577  Sum_probs=0.0  Template_Neff=5.700
+
+Q ADVGQG            2 DVGQG    6 (6)
+Q Consensus         2 dvgqg    6 (6)
+                      |+||+
+T Consensus       169 DiGQ~  173 (283)
+T 4GGM_X          169 DIGQG  173 (283)
+T ss_dssp             TSCSE
+T ss_pred             CCCeE
+
+
+No 5
+>4OY2_F Transcription initiation factor TFIID subunit; TAF1, TAF7, TFIID, RNA Pol; HET: MSE; 2.9A {Saccharomyces cerevisiae}
+Probab=14.67  E-value=1.7e+02  Score=13.68  Aligned_cols=5  Identities=60%  Similarity=0.594  Sum_probs=0.0  Template_Neff=5.400
+
+Q ADVGQG            1 ADVGQ    5 (6)
+Q Consensus         1 advgq    5 (6)
+                      |||+|
+T Consensus       101 aDIsQ  105 (235)
+T 4OY2_F          101 FDVSQ  105 (235)
+T ss_dssp             EEEEE
+T ss_pred             cccce
+
+
+No 6
+>4OY2_B Transcription initiation factor TFIID subunit; TAF1, TAF7, TFIID, RNA Pol; HET: MSE; 2.9A {Saccharomyces cerevisiae}
+Probab=14.32  E-value=1.7e+02  Score=13.55  Aligned_cols=5  Identities=60%  Similarity=0.594  Sum_probs=0.0  Template_Neff=5.600
+
+Q ADVGQG            1 ADVGQ    5 (6)
+Q Consensus         1 advgq    5 (6)
+                      ||++|
+T Consensus       101 aDIsQ  105 (235)
+T 4OY2_B          101 FDVSQ  105 (235)
+T ss_pred             eccce
+
+
+No 7
+>1W5R_A ARYLAMINE N-ACETYLTRANSFERASE (E.C.2.3.1.5); TRANSFERASE, ACYLTRANSFERASE; 1.45A {MYCOBACTERIUM SMEGMATIS} SCOP: d.3.1.5
+Probab=13.78  E-value=1.8e+02  Score=12.35  Aligned_cols=6  Identities=67%  Similarity=1.044  Sum_probs=0.0  Template_Neff=8.600
+
+Q ADVGQG            1 ADVGQG    6 (6)
+Q Consensus         1 advgqg    6 (6)
+                      +|||-|
+T Consensus       129 vDVGfG  134 (278)
+T 1W5R_A          129 VDVGFG  134 (278)
+T ss_dssp             ECSCSC
+T ss_pred             EEeeCC
+
+
+No 8
+>4DMO_B N-hydroxyarylamine O-acetyltransferase (E.C.2.3.1.118); Acetyltransferase, Transferase; HET: KH2; 2.14A {Bacillus cereus}
+Probab=13.77  E-value=1.8e+02  Score=12.11  Aligned_cols=6  Identities=50%  Similarity=0.883  Sum_probs=0.0  Template_Neff=8.900
+
+Q ADVGQG            1 ADVGQG    6 (6)
+Q Consensus         1 advgqg    6 (6)
+                      +|||-|
+T Consensus       124 vDvGfG  129 (265)
+T 4DMO_B          124 IEVGFG  129 (265)
+T ss_dssp             ECCCST
+T ss_pred             EEecCC
+
+
+No 9
+>4GUZ_A Probable arylamine n-acetyl transferase (E.C.2.3.1.118); Acetyltransf_2 Transferase, Acetyltransferase, Acetyl CoenzymeA; 1.8A {Mycobacterium abscessus}
+Probab=13.69  E-value=1.8e+02  Score=12.38  Aligned_cols=6  Identities=67%  Similarity=1.066  Sum_probs=0.0  Template_Neff=8.600
+
+Q ADVGQG            1 ADVGQG    6 (6)
+Q Consensus         1 advgqg    6 (6)
+                      +|||-|
+T Consensus       130 vDvGfG  135 (284)
+T 4GUZ_A          130 CDVGFG  135 (284)
+T ss_dssp             ECCSSS
+T ss_pred             EEeCCC
+
+
+No 10
+>6WM2_R V-type proton ATPase 116 kDa; V-ATPase, proton pump, MEMBRANE PROTEIN; HET: WSS, WJP, PSF, SIA, PTY, ADP, CLR, WJS, BMA, MAN, NAG, GLC, GAL, NGA, BGC;{Homo sapiens}
+Probab=13.40  E-value=1.9e+02  Score=14.73  Aligned_cols=6  Identities=50%  Similarity=1.093  Sum_probs=0.0  Template_Neff=7.800
+
+Q ADVGQG            1 ADVGQG    6 (6)
+Q Consensus         1 advgqg    6 (6)
+                      +|+|+|
+T Consensus       408 GD~GyG  413 (837)
+T 6WM2_R          408 GDFGHG  413 (837)
+T ss_pred             chHHHH
+
+

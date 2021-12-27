@@ -1,0 +1,150 @@
+Query         NNNLQG
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 02:22:44 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NNNLQG/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NNNLQG/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2JRI_A Ataxin-3 (E.C.3.4.22.-)  14.9 1.6E+02  0.0018   12.6   0.0    6    1-6      20-25  (182)
+  2 3O65_C Putative ataxin-3-like   13.0   2E+02  0.0022   12.7   0.0    6    1-6      21-26  (191)
+  3 6TWR_A Beta-glucoside bgl oper   5.6 6.2E+02  0.0068    9.8   0.0    3    1-3       8-10  (175)
+  4 3RIO_A PtsGHI operon antitermi   5.0 7.1E+02  0.0079    9.9   0.0    3    1-3      22-24  (180)
+  5 6I9B_A La-related protein 4; L   4.8 7.6E+02  0.0084    8.8   0.0    5    1-5       1-5   (177)
+  6 6ZZY_2 photosystem I, light st   4.7 7.7E+02  0.0086   11.2   0.0    5    2-6     200-204 (215)
+  7 1ZVB_C E2 glycoprotein; SARS c   4.3 8.6E+02  0.0095    9.0   0.0    6    1-6      10-15  (34)
+  8 2L9D_A Uncharacterized protein   4.3 8.7E+02  0.0096   10.7   0.0    5    1-5      87-91  (108)
+  9 1AUU_B SACY; ANTITERMINATION,    4.1 9.1E+02    0.01    9.1   0.0    3    1-3       8-10  (55)
+ 10 1L1C_A Transcription antitermi   3.9 9.6E+02   0.011    9.0   0.0    3    1-3       8-10  (55)
+
+No 1
+>2JRI_A Ataxin-3 (E.C.3.4.22.-), UBC protein; di-ubiquitin, Lys48-linked, Josephin domain of; NMR {Homo sapiens}
+Probab=14.94  E-value=1.6e+02  Score=12.65  Aligned_cols=6  Identities=83%  Similarity=0.994  Sum_probs=2.5  Template_Neff=6.700
+
+Q NNNLQG            1 NNNLQG    6 (6)
+Q Consensus         1 nnnlqg    6 (6)
+                      ||-|||
+T Consensus        20 NnLLQ~   25 (182)
+T 2JRI_A           20 NNLLQG   25 (182)
+T ss_dssp             HTTSSS
+T ss_pred             HHHhcC
+Confidence            344443
+
+
+No 2
+>3O65_C Putative ataxin-3-like protein (E.C.3.1.2.15), Ubiquitin; Papain-like fold, Ubiquitin thiolesterase, hydrolase-protein; HET: MSE, NEH; 2.7A {Homo sapiens}
+Probab=12.98  E-value=2e+02  Score=12.66  Aligned_cols=6  Identities=83%  Similarity=0.994  Sum_probs=2.5  Template_Neff=6.300
+
+Q NNNLQG            1 NNNLQG    6 (6)
+Q Consensus         1 nnnlqg    6 (6)
+                      ||-|||
+T Consensus        21 NnLLQ~   26 (191)
+T 3O65_C           21 NNLLQG   26 (191)
+T ss_dssp             HHHHTS
+T ss_pred             HHHHcC
+Confidence            344443
+
+
+No 3
+>6TWR_A Beta-glucoside bgl operon antiterminator BglG; antitermination protein, Bacillus subtilis, dimeric; NMR {Bacillus subtilis}
+Probab=5.62  E-value=6.2e+02  Score=9.84  Aligned_cols=3  Identities=100%  Similarity=1.265  Sum_probs=0.0  Template_Neff=9.100
+
+Q NNNLQG            1 NNN    3 (6)
+Q Consensus         1 nnn    3 (6)
+                      |||
+T Consensus         8 nnn   10 (175)
+T 6TWR_A            8 NNN   10 (175)
+T ss_dssp             SSS
+T ss_pred             eCc
+
+
+No 4
+>3RIO_A PtsGHI operon antiterminator; twisted beta sheet, four helix; HET: GOL; 1.99A {Bacillus subtilis}
+Probab=5.00  E-value=7.1e+02  Score=9.90  Aligned_cols=3  Identities=100%  Similarity=1.265  Sum_probs=0.0  Template_Neff=8.700
+
+Q NNNLQG            1 NNN    3 (6)
+Q Consensus         1 nnn    3 (6)
+                      |||
+T Consensus        22 Nnn   24 (180)
+T 3RIO_A           22 NNN   24 (180)
+T ss_dssp             ETT
+T ss_pred             cCc
+
+
+No 5
+>6I9B_A La-related protein 4; La-related proteins, LARPs, PABP-binding protein; NMR {Homo sapiens}
+Probab=4.78  E-value=7.6e+02  Score=8.85  Aligned_cols=5  Identities=20%  Similarity=0.428  Sum_probs=0.0  Template_Neff=10.800
+
+Q NNNLQG            1 NNNLQ    5 (6)
+Q Consensus         1 nnnlq    5 (6)
+                      |+|+.
+T Consensus         1 ~~~~~    5 (177)
+T 6I9B_A            1 NSAVS    5 (177)
+T ss_pred             CCCCC
+
+
+No 6
+>6ZZY_2 photosystem I, light stress, PHOTOSYNTHESIS; HET: SPH, QTB, 4RF, RRX, LPX, SQD, SF4, DGA, PLM, PTY, C7Z, LUT, 3PH, CHL, LHG, DGD, LAP, ECH, A8S, P5S, PQN, OLA, CL0, CLA, LMT, ERG, PCW, XAT, BCR;{Chlorella ohadii}
+Probab=4.68  E-value=7.7e+02  Score=11.17  Aligned_cols=5  Identities=80%  Similarity=1.159  Sum_probs=0.0  Template_Neff=6.200
+
+Q NNNLQG            2 NNLQG    6 (6)
+Q Consensus         2 nnlqg    6 (6)
+                      |.|||
+T Consensus       200 ~~~~~  204 (215)
+T 6ZZY_2          200 NRLQG  204 (215)
+T ss_pred             hhhCC
+
+
+No 7
+>1ZVB_C E2 glycoprotein; SARS coronavirus, membrane fusion, S2; 1.7A {SARS coronavirus} SCOP: h.3.3.1
+Probab=4.32  E-value=8.6e+02  Score=9.03  Aligned_cols=6  Identities=17%  Similarity=0.396  Sum_probs=0.0  Template_Neff=3.100
+
+Q NNNLQG            1 NNNLQG    6 (6)
+Q Consensus         1 nnnlqg    6 (6)
+                      +||+++
+T Consensus        10 ~nnF~a   15 (34)
+T 1ZVB_C           10 SSNFGA   15 (34)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 8
+>2L9D_A Uncharacterized protein; PG9854E, Structural genomics, PSI-Biology, Protein; NMR {Methylobacillus flagellatus}
+Probab=4.27  E-value=8.7e+02  Score=10.73  Aligned_cols=5  Identities=40%  Similarity=0.674  Sum_probs=0.0  Template_Neff=3.900
+
+Q NNNLQG            1 NNNLQ    5 (6)
+Q Consensus         1 nnnlq    5 (6)
+                      .|+||
+T Consensus        87 dN~L~   91 (108)
+T 2L9D_A           87 ENQLN   91 (108)
+T ss_dssp             HHTEE
+T ss_pred             HCCCe
+
+
+No 9
+>1AUU_B SACY; ANTITERMINATION, RNA BINDING DOMAIN, TRANSCRIPTION; NMR {Bacillus subtilis} SCOP: b.35.2.1
+Probab=4.10  E-value=9.1e+02  Score=9.07  Aligned_cols=3  Identities=67%  Similarity=0.977  Sum_probs=0.0  Template_Neff=5.200
+
+Q NNNLQG            1 NNN    3 (6)
+Q Consensus         1 nnn    3 (6)
+                      |||
+T Consensus         8 NNN   10 (55)
+T 1AUU_B            8 NHN   10 (55)
+T ss_dssp             SSS
+T ss_pred             cCc
+
+
+No 10
+>1L1C_A Transcription antiterminator licT/RNA Complex; protein RNA complex, antiterminator complex; NMR {Bacillus subtilis} SCOP: b.35.2.1
+Probab=3.94  E-value=9.6e+02  Score=9.01  Aligned_cols=3  Identities=100%  Similarity=1.265  Sum_probs=0.0  Template_Neff=5.200
+
+Q NNNLQG            1 NNN    3 (6)
+Q Consensus         1 nnn    3 (6)
+                      |||
+T Consensus         8 NNN   10 (55)
+T 1L1C_A            8 NNN   10 (55)
+T ss_dssp             ETT
+T ss_pred             eCc
+
+

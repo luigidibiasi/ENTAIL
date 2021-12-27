@@ -1,0 +1,149 @@
+Query         HKALFW
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 06:31:06 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/HKALFW/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/HKALFW/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4K30_A N-acetylglutamate synth  16.3 1.4E+02  0.0016   12.7   0.0    6    1-6      94-99  (160)
+  2 4K30_Y N-acetylglutamate synth  16.3 1.4E+02  0.0016   12.7   0.0    6    1-6      94-99  (160)
+  3 4XPM_A Meh1, Ycr075w, SLM4; EG  15.7 1.5E+02  0.0017   10.7   0.0    5    1-5      16-20  (39)
+  4 6OJN_A Major capsid protein; i  14.8 1.6E+02  0.0018   14.2   0.0    5    2-6     303-307 (463)
+  5 5TIP_A Major capsid protein; V  14.1 1.8E+02  0.0019   14.2   0.0    5    2-6     259-263 (436)
+  6 1M4X_C PBCV-1 virus capsid; ic  14.0 1.8E+02   0.002   14.1   0.0    5    2-6     236-240 (413)
+  7 6XVF_A Cytochrome b-c1 complex  13.8 1.8E+02   0.002   11.9   0.0    5    2-6     438-442 (445)
+  8 5X0Z_B Polyamine aminopropyltr  13.5 1.9E+02  0.0021   11.5   0.0    5    1-5     244-248 (264)
+  9 4NF1_D Acetylglutamate kinase   13.3 1.9E+02  0.0021   12.3   0.0    6    1-6      91-96  (150)
+ 10 6DL4_A Titin (E.C.2.7.11.1); T  12.5 2.1E+02  0.0023    8.0   0.0    6    1-6     113-118 (119)
+
+No 1
+>4K30_A N-acetylglutamate synthase, mitochondrial (E.C.2.3.1.1); GCN5-ralated N-acetyltransferase fold, synthase, TRANSFERASE; HET: NLG; 2.103A {Homo sapiens}
+Probab=16.31  E-value=1.4e+02  Score=12.67  Aligned_cols=6  Identities=50%  Similarity=1.409  Sum_probs=0.0  Template_Neff=6.500
+
+Q HKALFW            1 HKALFW    6 (6)
+Q Consensus         1 hkalfw    6 (6)
+                      |..|||
+T Consensus        94 ~~~L~W   99 (160)
+T 4K30_A           94 LQTLFW   99 (160)
+T ss_dssp             CSCEEE
+T ss_pred             ccceEE
+
+
+No 2
+>4K30_Y N-acetylglutamate synthase, mitochondrial (E.C.2.3.1.1); GCN5-ralated N-acetyltransferase fold, synthase, TRANSFERASE; HET: NLG; 2.103A {Homo sapiens}
+Probab=16.31  E-value=1.4e+02  Score=12.67  Aligned_cols=6  Identities=50%  Similarity=1.409  Sum_probs=0.0  Template_Neff=6.500
+
+Q HKALFW            1 HKALFW    6 (6)
+Q Consensus         1 hkalfw    6 (6)
+                      |..|||
+T Consensus        94 ~~~L~W   99 (160)
+T 4K30_Y           94 LQTLFW   99 (160)
+T ss_dssp             CSCEEE
+T ss_pred             ccceEE
+
+
+No 3
+>4XPM_A Meh1, Ycr075w, SLM4; EGO complex, Ego1, Ego2, Ego3; 2.4A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=15.73  E-value=1.5e+02  Score=10.74  Aligned_cols=5  Identities=20%  Similarity=0.707  Sum_probs=0.0  Template_Neff=4.600
+
+Q HKALFW            1 HKALF    5 (6)
+Q Consensus         1 hkalf    5 (6)
+                      |+.+|
+T Consensus        16 H~~iF   20 (39)
+T 4XPM_A           16 HSNIL   20 (39)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 4
+>6OJN_A Major capsid protein; icosahedral, trimers, outer coat, anchor; 8.6A {Singapore grouper iridovirus}
+Probab=14.82  E-value=1.6e+02  Score=14.22  Aligned_cols=5  Identities=80%  Similarity=1.344  Sum_probs=0.0  Template_Neff=7.000
+
+Q HKALFW            2 KALFW    6 (6)
+Q Consensus         2 kalfw    6 (6)
+                      |+|||
+T Consensus       303 K~L~~  307 (463)
+T 6OJN_A          303 KALFF  307 (463)
+T ss_dssp             EEEEE
+T ss_pred             EEEEE
+
+
+No 5
+>5TIP_A Major capsid protein; VIRAL PROTEIN; HET: 7CV, FUC, GLA, RM4, XXR, MAN, XYP, BGC; 2.0A {Paramecium bursaria Chlorella virus 1}
+Probab=14.13  E-value=1.8e+02  Score=14.16  Aligned_cols=5  Identities=60%  Similarity=1.125  Sum_probs=0.0  Template_Neff=6.700
+
+Q HKALFW            2 KALFW    6 (6)
+Q Consensus         2 kalfw    6 (6)
+                      |+|||
+T Consensus       259 K~L~w  263 (436)
+T 5TIP_A          259 KYLAW  263 (436)
+T ss_dssp             EEEEE
+T ss_pred             EEEEE
+
+
+No 6
+>1M4X_C PBCV-1 virus capsid; icosahedral virus capsid, beta barrel; 28.0A {Paramecium bursaria Chlorella virus 1} SCOP: i.6.1.1
+Probab=14.02  E-value=1.8e+02  Score=14.09  Aligned_cols=5  Identities=60%  Similarity=1.125  Sum_probs=0.0  Template_Neff=6.600
+
+Q HKALFW            2 KALFW    6 (6)
+Q Consensus         2 kalfw    6 (6)
+                      |+|||
+T Consensus       236 k~l~w  240 (413)
+T 1M4X_C          236 KYLAW  240 (413)
+T ss_dssp             EEEEE
+T ss_pred             EEEEE
+
+
+No 7
+>6XVF_A Cytochrome b-c1 complex subunit 1; Cytochrome bc1, Malaria, Electron transport; HET: HEC, PEE, HEM, LMT, JAG, PG4, 6PE, PO4, CDL, PX4; 3.5A {Bos taurus}
+Probab=13.84  E-value=1.8e+02  Score=11.87  Aligned_cols=5  Identities=40%  Similarity=1.637  Sum_probs=0.0  Template_Neff=11.200
+
+Q HKALFW            2 KALFW    6 (6)
+Q Consensus         2 kalfw    6 (6)
+                      +.+||
+T Consensus       438 ~~~~~  442 (445)
+T 6XVF_A          438 SGMFW  442 (445)
+T ss_dssp             HTTCC
+T ss_pred             cccce
+
+
+No 8
+>5X0Z_B Polyamine aminopropyltransferase (E.C.2.5.1.22, 2.5.1.16), Flagellar; flagellar motor, H. pylori, motility; HET: FLC; 2.7A {Helicobacter pylori 26695}
+Probab=13.51  E-value=1.9e+02  Score=11.51  Aligned_cols=5  Identities=60%  Similarity=1.125  Sum_probs=0.0  Template_Neff=10.000
+
+Q HKALFW            1 HKALF    5 (6)
+Q Consensus         1 hkalf    5 (6)
+                      |+|.|
+T Consensus       244 h~~~f  248 (264)
+T 5X0Z_B          244 HRAAF  248 (264)
+T ss_dssp             HHHTT
+T ss_pred             HHHhc
+
+
+No 9
+>4NF1_D Acetylglutamate kinase (E.C.2.7.2.8); GCN5-related acetytransferase fold, synthase/kinase, TRANSFERASE; HET: NLG, GOL; 1.3986A {Xylella fastidiosa Temecula1}
+Probab=13.31  E-value=1.9e+02  Score=12.26  Aligned_cols=6  Identities=50%  Similarity=1.337  Sum_probs=0.0  Template_Neff=6.300
+
+Q HKALFW            1 HKALFW    6 (6)
+Q Consensus         1 hkalfw    6 (6)
+                      +..|||
+T Consensus        91 ~~~L~W   96 (150)
+T 4NF1_D           91 TPQLFW   96 (150)
+T ss_dssp             CSSEEE
+T ss_pred             CCCeEE
+
+
+No 10
+>6DL4_A Titin (E.C.2.7.11.1); Titin, sarcomere, cytoskeleton, STRUCTURAL PROTEIN; NMR {Homo sapiens}
+Probab=12.53  E-value=2.1e+02  Score=8.02  Aligned_cols=6  Identities=0%  Similarity=-0.141  Sum_probs=0.0  Template_Neff=13.700
+
+Q HKALFW            1 HKALFW    6 (6)
+Q Consensus         1 hkalfw    6 (6)
+                      +.+.+|
+T Consensus       113 ~~~~~~  118 (119)
+T 6DL4_A          113 EHHHHH  118 (119)
+T ss_pred             eceeec
+
+

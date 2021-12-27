@@ -1,0 +1,151 @@
+Query         SSVIIE
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 16:56:00 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/SSVIIE/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/SSVIIE/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5C9O_A PLL lectin; Lectin, sev  19.2 1.1E+02  0.0012   12.9   0.0    6    1-6     365-370 (381)
+  2 7D2F_A Complex, 5'-AMP, HYDROL   8.7 3.5E+02  0.0038   11.0   0.0    6    1-6     281-286 (328)
+  3 2C7H_A RETINOBLASTOMA-BINDING    8.7 3.5E+02  0.0038   10.9   0.0    5    1-5      73-77  (86)
+  4 7SDE_A SMC5/6, Nse5/6, Nse5, N   8.5 3.6E+02   0.004   13.8   0.0    5    2-6     551-555 (555)
+  5 1CVI_B PROSTATIC ACID PHOSPHAT   8.4 3.6E+02   0.004   11.1   0.0    6    1-6     280-285 (342)
+  6 4JOB_A Lysophosphatidic acid p   8.0 3.9E+02  0.0043   11.4   0.0    6    1-6     325-330 (396)
+  7 4JOD_A Lysophosphatidic acid p   8.0 3.9E+02  0.0043   11.4   0.0    6    1-6     325-330 (396)
+  8 4ARU_A HISTIDINE ACID PHOSPHAT   7.8   4E+02  0.0044   11.4   0.0    6    1-6     334-339 (413)
+  9 5CDH_A Major acid phosphatase;   7.7 4.1E+02  0.0045   10.9   0.0    6    1-6     279-284 (336)
+ 10 7OGG_R NSe5/6, DNA BINDING PRO   7.1 4.5E+02   0.005   13.8   0.0    5    2-6     552-556 (607)
+
+No 1
+>5C9O_A PLL lectin; Lectin, seven-bladed beta-propeller, fucose-specific, sugar; HET: GOL; 1.5A {Photorhabdus luminescens}
+Probab=19.20  E-value=1.1e+02  Score=12.93  Aligned_cols=6  Identities=67%  Similarity=0.949  Sum_probs=3.2  Template_Neff=9.800
+
+Q SSVIIE            1 SSVIIE    6 (6)
+Q Consensus         1 ssviie    6 (6)
+                      ++||+|
+T Consensus       365 ~~~~~~  370 (381)
+T 5C9O_A          365 ASVILE  370 (381)
+T ss_dssp             CCCCCC
+T ss_pred             HHHHHh
+Confidence            356654
+
+
+No 2
+>7D2F_A Complex, 5'-AMP, HYDROLASE; HET: AMP; 2.6A {Legionella pneumophila subsp. pneumophila (strain Philadelphia 1 / ATCC 33152 / DSM 7513)}
+Probab=8.73  E-value=3.5e+02  Score=11.03  Aligned_cols=6  Identities=33%  Similarity=0.274  Sum_probs=0.0  Template_Neff=10.300
+
+Q SSVIIE            1 SSVIIE    6 (6)
+Q Consensus         1 ssviie    6 (6)
+                      |.+++|
+T Consensus       281 s~l~fE  286 (328)
+T 7D2F_A          281 SNVNFS  286 (328)
+T ss_dssp             CEEEEE
+T ss_pred             cEEEEE
+
+
+No 3
+>2C7H_A RETINOBLASTOMA-BINDING PROTEIN 6, ISOFORM 3; RBBP6, P53-ASSOCIATED, MRNA PROCESSING, SPLICING-ASSOCIATED; NMR {HOMO SAPIENS}
+Probab=8.68  E-value=3.5e+02  Score=10.91  Aligned_cols=5  Identities=80%  Similarity=0.992  Sum_probs=0.0  Template_Neff=5.400
+
+Q SSVIIE            1 SSVII    5 (6)
+Q Consensus         1 ssvii    5 (6)
+                      ||||+
+T Consensus        73 ssViV   77 (86)
+T 2C7H_A           73 SSVIV   77 (86)
+T ss_dssp             CCEEE
+T ss_pred             CeEEE
+
+
+No 4
+>7SDE_A SMC5/6, Nse5/6, Nse5, Nse6, complex; 3.2A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=8.45  E-value=3.6e+02  Score=13.76  Aligned_cols=5  Identities=100%  Similarity=1.145  Sum_probs=0.0  Template_Neff=6.400
+
+Q SSVIIE            2 SVIIE    6 (6)
+Q Consensus         2 sviie    6 (6)
+                      |||||
+T Consensus       551 ~~~~~  555 (555)
+T 7SDE_A          551 SVIIE  555 (555)
+T ss_dssp             -----
+T ss_pred             ccccC
+
+
+No 5
+>1CVI_B PROSTATIC ACID PHOSPHATASE (E.C.3.1.3.2); ACID PHOSPHATASE, INHIBITION, HYDROLASE; HET: MAN, FUC, BMA, GLY, NAG; 3.2A {Homo sapiens} SCOP: c.60.1.2
+Probab=8.42  E-value=3.6e+02  Score=11.09  Aligned_cols=6  Identities=33%  Similarity=0.340  Sum_probs=0.0  Template_Neff=10.200
+
+Q SSVIIE            1 SSVIIE    6 (6)
+Q Consensus         1 ssviie    6 (6)
+                      |.++||
+T Consensus       280 s~l~~E  285 (342)
+T 1CVI_B          280 SCHLTE  285 (342)
+T ss_dssp             CEEEEE
+T ss_pred             eEEEEE
+
+
+No 6
+>4JOB_A Lysophosphatidic acid phosphatase type 6; hydrolase, Rossmann Fold, mitochondria; HET: TLA; 2.171A {Homo sapiens}
+Probab=7.95  E-value=3.9e+02  Score=11.35  Aligned_cols=6  Identities=17%  Similarity=0.379  Sum_probs=0.0  Template_Neff=10.000
+
+Q SSVIIE            1 SSVIIE    6 (6)
+Q Consensus         1 ssviie    6 (6)
+                      |+++||
+T Consensus       325 s~l~~E  330 (396)
+T 4JOB_A          325 VDLTME  330 (396)
+T ss_dssp             CEEEEE
+T ss_pred             ceEEEE
+
+
+No 7
+>4JOD_A Lysophosphatidic acid phosphatase type 6; hydrolase, Rossmann Fold, mitochondria; 2.21A {Homo sapiens}
+Probab=7.95  E-value=3.9e+02  Score=11.35  Aligned_cols=6  Identities=17%  Similarity=0.379  Sum_probs=0.0  Template_Neff=10.000
+
+Q SSVIIE            1 SSVIIE    6 (6)
+Q Consensus         1 ssviie    6 (6)
+                      |+++||
+T Consensus       325 s~l~~E  330 (396)
+T 4JOD_A          325 VDLTME  330 (396)
+T ss_dssp             CEEEEE
+T ss_pred             ceEEEE
+
+
+No 8
+>4ARU_A HISTIDINE ACID PHOSPHATASE (E.C.3.1.3.26); HYDROLASE, 6-PHYTASE, PHOSPHOHYDROLASE, HAPP; HET: TLA; 1.45A {HAFNIA ALVEI}
+Probab=7.80  E-value=4e+02  Score=11.45  Aligned_cols=6  Identities=17%  Similarity=0.612  Sum_probs=0.0  Template_Neff=9.900
+
+Q SSVIIE            1 SSVIIE    6 (6)
+Q Consensus         1 ssviie    6 (6)
+                      |.++||
+T Consensus       334 S~l~~E  339 (413)
+T 4ARU_A          334 GALVFE  339 (413)
+T ss_dssp             CEEEEE
+T ss_pred             cEEEEE
+
+
+No 9
+>5CDH_A Major acid phosphatase; HISTIDINE ACID PHOSPHATASE, HYDROLASE, HYDROLASE-HYDROLASE; HET: 1PE, TLA; 2.001A {Legionella pneumophila}
+Probab=7.69  E-value=4.1e+02  Score=10.92  Aligned_cols=6  Identities=33%  Similarity=0.274  Sum_probs=0.0  Template_Neff=10.200
+
+Q SSVIIE            1 SSVIIE    6 (6)
+Q Consensus         1 ssviie    6 (6)
+                      |.+++|
+T Consensus       279 s~l~fE  284 (336)
+T 5CDH_A          279 SNVNFS  284 (336)
+T ss_dssp             CEEEEE
+T ss_pred             cEEEEE
+
+
+No 10
+>7OGG_R NSe5/6, DNA BINDING PROTEIN; HET: MSE; 3.29A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=7.12  E-value=4.5e+02  Score=13.82  Aligned_cols=5  Identities=100%  Similarity=1.145  Sum_probs=0.0  Template_Neff=5.900
+
+Q SSVIIE            2 SVIIE    6 (6)
+Q Consensus         2 sviie    6 (6)
+                      |||||
+T Consensus       552 ~~~~~  556 (607)
+T 7OGG_R          552 SVIIE  556 (607)
+T ss_dssp             -----
+T ss_pred             ceeeC
+
+

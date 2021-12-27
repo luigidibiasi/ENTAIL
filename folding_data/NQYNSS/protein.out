@@ -1,0 +1,145 @@
+Query         NQYNSS
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 03:53:23 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NQYNSS/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NQYNSS/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 1XS9_A Multiple antibiotic res  14.6 1.7E+02  0.0018   10.4   0.0    5    1-5     128-132 (132)
+  2 6RFQ_n NUAM protein (E.C.1.6.9  12.0 2.2E+02  0.0024   13.2   0.0    5    2-6      36-40  (120)
+  3 7O71_n Complex I, NADH dehydro  12.0 2.2E+02  0.0024   13.2   0.0    5    2-6      36-40  (120)
+  4 6YJ4_h NADH-ubiquinone oxidore  10.9 2.5E+02  0.0028   13.3   0.0    5    2-6      55-59  (139)
+  5 7O6Y_n Complex I, NADH dehydro  10.9 2.5E+02  0.0028   13.3   0.0    5    2-6      55-59  (139)
+  6 6KAD_H Chlorophyll a-b binding  10.5 2.7E+02   0.003   12.2   0.0    4    3-6      68-71  (88)
+  7 2ACM_A Mucin-1; auto-catalytic  10.3 2.7E+02   0.003   11.8   0.0    5    2-6      22-26  (66)
+  8 6KAC_H Photosystem II protein   10.0 2.9E+02  0.0032   12.1   0.0    4    3-6      68-71  (88)
+  9 6PH2_D PAS SUPERFAMILY, BLUE-L   9.5 3.1E+02  0.0034    7.7   0.0    4    3-6     145-148 (148)
+ 10 6N7E_D Metal transporter CNNM3   8.5 3.6E+02   0.004   12.0   0.0    6    1-6     309-314 (354)
+
+No 1
+>1XS9_A Multiple antibiotic resistance protein marA/; PROTEIN-DNA COMPLEX, TERNARY COMPLEX, MARA; NMR {Escherichia coli} SCOP: i.11.1.1
+Probab=14.64  E-value=1.7e+02  Score=10.39  Aligned_cols=5  Identities=80%  Similarity=1.252  Sum_probs=0.0  Template_Neff=10.000
+
+Q NQYNSS            1 NQYNS    5 (6)
+Q Consensus         1 nqyns    5 (6)
+                      |.|||
+T Consensus       128 ~~~~~  132 (132)
+T 1XS9_A          128 NHYNS  132 (132)
+T ss_dssp             CSSCC
+T ss_pred             cccCC
+
+
+No 2
+>6RFQ_n NUAM protein (E.C.1.6.99.3), NADH dehydrogenase; Complex I, NADH dehydrogenase, Mitochondrion; HET: CDL, SF4, T7X, 3PE, NDP, ZMP, CPL, PLC, FMN, LMN; 3.3A {Yarrowia lipolytica}
+Probab=12.04  E-value=2.2e+02  Score=13.20  Aligned_cols=5  Identities=80%  Similarity=1.066  Sum_probs=0.0  Template_Neff=1.000
+
+Q NQYNSS            2 QYNSS    6 (6)
+Q Consensus         2 qynss    6 (6)
+                      |+|||
+T Consensus        36 qfnss   40 (120)
+T 6RFQ_n           36 QFNSS   40 (120)
+T ss_pred             ecccc
+
+
+No 3
+>7O71_n Complex I, NADH dehydrogenase, Mitochondrion; HET: CDL, SF4, T7X, 2MR, 3PE, NDP, ZMP, CPL, PLC, FMN, FME, LMN; 2.4A {Yarrowia lipolytica}
+Probab=12.04  E-value=2.2e+02  Score=13.20  Aligned_cols=5  Identities=80%  Similarity=1.066  Sum_probs=0.0  Template_Neff=1.000
+
+Q NQYNSS            2 QYNSS    6 (6)
+Q Consensus         2 qynss    6 (6)
+                      |+|||
+T Consensus        36 qfnss   40 (120)
+T 7O71_n           36 QFNSS   40 (120)
+T ss_pred             ecccc
+
+
+No 4
+>6YJ4_h NADH-ubiquinone oxidoreductase chain 3 (E.C.7.1.1.2); NADH:Ubiquinone Oxidoreductase, complex I, MEMBRANE; HET: SF4, FME, 2MR, PLC, FMN, NDP, EHZ, CDL, 3PE, LMT; 2.7A {Yarrowia lipolytica}
+Probab=10.89  E-value=2.5e+02  Score=13.27  Aligned_cols=5  Identities=80%  Similarity=1.066  Sum_probs=0.0  Template_Neff=1.000
+
+Q NQYNSS            2 QYNSS    6 (6)
+Q Consensus         2 qynss    6 (6)
+                      |+|||
+T Consensus        55 qfnss   59 (139)
+T 6YJ4_h           55 QFNSS   59 (139)
+T ss_pred             ecccc
+
+
+No 5
+>7O6Y_n Complex I, NADH dehydrogenase, Mitochondrion; HET: CDL, SF4, T7X, 2MR, 3PE, NDP, ZMP, CPL, PLC, FMN, NAI, FME, UQ9, LMN; 3.4A {Yarrowia lipolytica}
+Probab=10.89  E-value=2.5e+02  Score=13.27  Aligned_cols=5  Identities=80%  Similarity=1.066  Sum_probs=0.0  Template_Neff=1.000
+
+Q NQYNSS            2 QYNSS    6 (6)
+Q Consensus         2 qynss    6 (6)
+                      |+|||
+T Consensus        55 qfnss   59 (139)
+T 7O6Y_n           55 QFNSS   59 (139)
+T ss_pred             ecccc
+
+
+No 6
+>6KAD_H Chlorophyll a-b binding protein, chloroplastic; PhotosystemII, supercomplex, PHOTOSYNTHESIS; HET: BCR, LMG, OEX, LHG, HEM, CLA, SQD, PL9, PHO, DGD, LUT, XAT, CHL, NEX; 3.4A {Chlamydomonas reinhardtii}
+Probab=10.47  E-value=2.7e+02  Score=12.22  Aligned_cols=4  Identities=100%  Similarity=1.331  Sum_probs=0.0  Template_Neff=2.700
+
+Q NQYNSS            3 YNSS    6 (6)
+Q Consensus         3 ynss    6 (6)
+                      ||||
+T Consensus        68 YNsS   71 (88)
+T 6KAD_H           68 YNSS   71 (88)
+T ss_pred             Hccc
+
+
+No 7
+>2ACM_A Mucin-1; auto-catalytic proteolysis, STRUCTURAL PROTEIN; NMR {Homo sapiens}
+Probab=10.34  E-value=2.7e+02  Score=11.78  Aligned_cols=5  Identities=80%  Similarity=1.066  Sum_probs=0.0  Template_Neff=2.200
+
+Q NQYNSS            2 QYNSS    6 (6)
+Q Consensus         2 qynss    6 (6)
+                      |+|||
+T Consensus        22 qFnSS   26 (66)
+T 2ACM_A           22 QFNSS   26 (66)
+T ss_dssp             CCCGG
+T ss_pred             CCCCC
+
+
+No 8
+>6KAC_H Photosystem II protein D1 (E.C.1.10.3.9); PhotosystemII, supercomplex, PHOTOSYNTHESIS; HET: SQD, DGD, LMU, HEM, LMG, LUT, PL9, OEX, CHL, XAT, LHG, NEX, BCR, PHO, CLA; 2.7A {Chlamydomonas reinhardtii}
+Probab=10.02  E-value=2.9e+02  Score=12.14  Aligned_cols=4  Identities=100%  Similarity=1.331  Sum_probs=0.0  Template_Neff=2.700
+
+Q NQYNSS            3 YNSS    6 (6)
+Q Consensus         3 ynss    6 (6)
+                      ||||
+T Consensus        68 YNsS   71 (88)
+T 6KAC_H           68 YNSS   71 (88)
+T ss_dssp             HTTS
+T ss_pred             Hccc
+
+
+No 9
+>6PH2_D PAS SUPERFAMILY, BLUE-LIGHT PHOTORECEPTOR, FMN; HET: FMN; 2.34A {Brucella melitensis biotype 1 (strain 16M / ATCC 23456 / NCTC 10094)}
+Probab=9.46  E-value=3.1e+02  Score=7.67  Aligned_cols=4  Identities=0%  Similarity=-0.114  Sum_probs=0.0  Template_Neff=14.400
+
+Q NQYNSS            3 YNSS    6 (6)
+Q Consensus         3 ynss    6 (6)
+                      ||++
+T Consensus       145 ~~~~  148 (148)
+T 6PH2_D          145 HHHH  148 (148)
+T ss_dssp             ----
+T ss_pred             CCCC
+
+
+No 10
+>6N7E_D Metal transporter CNNM3; CNNM2, Mg2+ transporter, cystathionine-beta-synthase domain; HET: ANP; 3.5A {Homo sapiens}
+Probab=8.48  E-value=3.6e+02  Score=11.99  Aligned_cols=6  Identities=83%  Similarity=0.816  Sum_probs=0.0  Template_Neff=8.500
+
+Q NQYNSS            1 NQYNSS    6 (6)
+Q Consensus         1 nqynss    6 (6)
+                      ||.|++
+T Consensus       309 ~~~~~~  314 (354)
+T 6N7E_D          309 NQLNSS  314 (354)
+T ss_dssp             ------
+T ss_pred             cccccc
+
+

@@ -1,0 +1,146 @@
+Query         LAVLFL
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 17:27:55 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LAVLFL/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LAVLFL/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6QPW_B Structural maintenance   14.3 1.7E+02  0.0019   10.3   0.0    6    1-6      50-55  (85)
+  2 5H2F_l Photosystem II protein   13.1   2E+02  0.0022   11.0   0.0    5    1-5      25-29  (35)
+  3 6NCL_b7 PBCV-1 capsid; tape-me  11.5 2.4E+02  0.0026   14.1   0.0    6    1-6      13-18  (207)
+  4 6NCL_b0 PBCV-1 capsid; tape-me  11.3 2.4E+02  0.0027   14.0   0.0    6    1-6      13-18  (207)
+  5 3W6K_C ScpA, ScpB; regulatory    9.2 3.2E+02  0.0036   10.3   0.0    5    2-6      16-20  (92)
+  6 4XT1_B US28, CX3CL1, nanobody    9.1 3.2E+02  0.0036   10.6   0.0    5    1-5      86-90  (91)
+  7 6ZZ6_C Structural maintenance    9.1 3.3E+02  0.0036    9.8   0.0    6    1-6      57-62  (83)
+  8 3C4S_A Ssl0352 protein; P74795   8.8 3.4E+02  0.0038   11.5   0.0    4    2-5      33-36  (66)
+  9 2R0L_A antibody light chain, a   8.7 3.4E+02  0.0038    9.8   0.0    6    1-6      91-96  (248)
+ 10 4XT3_B US28, CX3CL1; GPCR, che   8.6 3.5E+02  0.0039   10.6   0.0    5    1-5      86-90  (91)
+
+No 1
+>6QPW_B Structural maintenance of chromosomes protein,Structural; Chromatin, genome segregation, cohesin, CELL; HET: AGS; 3.3A {Chaetomium thermophilum var. thermophilum DSM 1495}
+Probab=14.26  E-value=1.7e+02  Score=10.29  Aligned_cols=6  Identities=33%  Similarity=0.556  Sum_probs=0.0  Template_Neff=8.500
+
+Q LAVLFL            1 LAVLFL    6 (6)
+Q Consensus         1 lavlfl    6 (6)
+                      +|+|.|
+T Consensus        50 lalLeL   55 (85)
+T 6QPW_B           50 FDILSL   55 (85)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 2
+>5H2F_l Photosystem II protein D1 1; Photosynthesis, Photosystem II, Mutant, PsbM; HET: BCR, BCT, FME, PL9, DGD, RRX, LMT, OEX, PHO, HEM, LMG, SQD, HTG, LHG, DMS, HEC, UNL, CLA; 2.2A {Thermosynechococcus elongatus (strain BP-1)}
+Probab=13.11  E-value=2e+02  Score=11.00  Aligned_cols=5  Identities=80%  Similarity=1.278  Sum_probs=0.0  Template_Neff=2.200
+
+Q LAVLFL            1 LAVLF    5 (6)
+Q Consensus         1 lavlf    5 (6)
+                      ++|||
+T Consensus        25 l~vLF   29 (35)
+T 5H2F_l           25 LALLF   29 (35)
+T ss_pred             HHHHh
+
+
+No 3
+>6NCL_b7 PBCV-1 capsid; tape-measure protein, minor capsid proteins; 3.5A {Paramecium bursaria Chlorella virus 1}
+Probab=11.45  E-value=2.4e+02  Score=14.08  Aligned_cols=6  Identities=100%  Similarity=1.375  Sum_probs=0.0  Template_Neff=2.000
+
+Q LAVLFL            1 LAVLFL    6 (6)
+Q Consensus         1 lavlfl    6 (6)
+                      |||+|+
+T Consensus        13 ~~~~f~   18 (207)
+T 6NCL_b7          13 LAVLFL   18 (207)
+T ss_pred             HHHHHH
+
+
+No 4
+>6NCL_b0 PBCV-1 capsid; tape-measure protein, minor capsid proteins; 3.5A {Paramecium bursaria Chlorella virus 1}
+Probab=11.27  E-value=2.4e+02  Score=14.04  Aligned_cols=6  Identities=100%  Similarity=1.375  Sum_probs=0.0  Template_Neff=2.100
+
+Q LAVLFL            1 LAVLFL    6 (6)
+Q Consensus         1 lavlfl    6 (6)
+                      |||+|+
+T Consensus        13 ~~~~f~   18 (207)
+T 6NCL_b0          13 LAVLFL   18 (207)
+T ss_pred             HHHHHH
+
+
+No 5
+>3W6K_C ScpA, ScpB; regulatory subcomplex, SMC, winged HTH; 2.374A {Geobacillus stearothermophilus}
+Probab=9.20  E-value=3.2e+02  Score=10.35  Aligned_cols=5  Identities=60%  Similarity=0.932  Sum_probs=0.0  Template_Neff=7.200
+
+Q LAVLFL            2 AVLFL    6 (6)
+Q Consensus         2 avlfl    6 (6)
+                      |+||+
+T Consensus        16 AlLF~   20 (92)
+T 3W6K_C           16 ALLFA   20 (92)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 6
+>4XT1_B US28, CX3CL1, nanobody 7; GPCR, chemokine, membrane protein, complex; HET: UNL, OLC, CLR; 2.886A {Cytomegalovirus}
+Probab=9.13  E-value=3.2e+02  Score=10.63  Aligned_cols=5  Identities=80%  Similarity=1.225  Sum_probs=0.0  Template_Neff=6.500
+
+Q LAVLFL            1 LAVLF    5 (6)
+Q Consensus         1 lavlf    5 (6)
+                      |.|||
+T Consensus        86 ~~~~~   90 (91)
+T 4XT1_B           86 LEVLF   90 (91)
+T ss_dssp             -----
+T ss_pred             hHhhc
+
+
+No 7
+>6ZZ6_C Structural maintenance of chromosomes protein; SMC, cohesin, DNA, CELL CYCLE; HET: ATP; 3.4A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=9.11  E-value=3.3e+02  Score=9.79  Aligned_cols=6  Identities=33%  Similarity=0.556  Sum_probs=0.0  Template_Neff=8.000
+
+Q LAVLFL            1 LAVLFL    6 (6)
+Q Consensus         1 lavlfl    6 (6)
+                      +++|+|
+T Consensus        57 l~lL~L   62 (83)
+T 6ZZ6_C           57 FDILSL   62 (83)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 8
+>3C4S_A Ssl0352 protein; P74795_SYNY3, Ssl0352, NESG, SgR42, Structural; 1.7A {Synechocystis sp.}
+Probab=8.78  E-value=3.4e+02  Score=11.46  Aligned_cols=4  Identities=100%  Similarity=1.398  Sum_probs=0.0  Template_Neff=2.400
+
+Q LAVLFL            2 AVLF    5 (6)
+Q Consensus         2 avlf    5 (6)
+                      ||||
+T Consensus        33 aVLF   36 (66)
+T 3C4S_A           33 AVLF   36 (66)
+T ss_dssp             EEEE
+T ss_pred             EEEE
+
+
+No 9
+>2R0L_A antibody light chain, antibody heavy; serine protease, antibody, allosteric inhibitor; HET: BMA, NAG; 2.2A {Homo sapiens}
+Probab=8.74  E-value=3.4e+02  Score=9.80  Aligned_cols=6  Identities=33%  Similarity=0.528  Sum_probs=0.0  Template_Neff=11.800
+
+Q LAVLFL            1 LAVLFL    6 (6)
+Q Consensus         1 lavlfl    6 (6)
+                      +|++.|
+T Consensus        91 iall~l   96 (248)
+T 2R0L_A           91 LVLIRL   96 (248)
+T ss_pred             eEEEEE
+
+
+No 10
+>4XT3_B US28, CX3CL1; GPCR, chemokine, membrane protein, complex; HET: NAG; 3.801A {Cytomegalovirus}
+Probab=8.58  E-value=3.5e+02  Score=10.57  Aligned_cols=5  Identities=80%  Similarity=1.225  Sum_probs=0.0  Template_Neff=6.400
+
+Q LAVLFL            1 LAVLF    5 (6)
+Q Consensus         1 lavlf    5 (6)
+                      |.|||
+T Consensus        86 ~~~~~   90 (91)
+T 4XT3_B           86 LEVLF   90 (91)
+T ss_dssp             -----
+T ss_pred             hHhhc
+
+

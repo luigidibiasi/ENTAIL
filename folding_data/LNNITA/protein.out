@@ -1,0 +1,147 @@
+Query         LNNITA
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 19:48:31 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LNNITA/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LNNITA/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4O1K_A Carbonic anhydrase (E.C  15.7 1.5E+02  0.0017   12.7   0.0    6    1-6     220-225 (233)
+  2 5KNH_I DARPIN 44C12V5; ALTERNA   6.9 4.8E+02  0.0053   12.0   0.0    5    1-5      16-20  (112)
+  3 2JVR_A Nucleolar protein 3; pr   6.8 4.8E+02  0.0054    8.2   0.0    5    2-6       1-5   (111)
+  4 3SWH_B Protein unc-13 homolog    6.4 5.1E+02  0.0057   11.1   0.0    6    1-6     122-127 (341)
+  5 6RAW_L DNA replication licensi   6.2 5.4E+02   0.006   11.0   0.0    6    1-6     145-150 (203)
+  6 6RAX_L DNA replication licensi   6.2 5.4E+02   0.006   11.0   0.0    6    1-6     145-150 (203)
+  7 3BPO_A Interleukin 13, Interle   5.8 5.8E+02  0.0065   11.9   0.0    5    1-5      17-21  (127)
+  8 5JGE_B Autophagy-related prote   5.8   6E+02  0.0066    9.6   0.0    5    1-5       5-9   (32)
+  9 5JGE_E Autophagy-related prote   5.8   6E+02  0.0066    9.6   0.0    5    1-5       5-9   (32)
+ 10 2BF9_A PANCREATIC HORMONE; HOR   5.7   6E+02  0.0066    9.6   0.0    5    1-5      28-32  (36)
+
+No 1
+>4O1K_A Carbonic anhydrase (E.C.4.2.1.1); Carbon dioxide, Inhibition, LYASE; 1.83A {Sordaria macrospora}
+Probab=15.71  E-value=1.5e+02  Score=12.71  Aligned_cols=6  Identities=50%  Similarity=0.717  Sum_probs=2.6  Template_Neff=7.700
+
+Q LNNITA            1 LNNITA    6 (6)
+Q Consensus         1 lnnita    6 (6)
+                      +||+||
+T Consensus       220 ~~~~~~  225 (233)
+T 4O1K_A          220 IYNLTA  225 (233)
+T ss_dssp             TCCCC-
+T ss_pred             Hhhhch
+Confidence            355554
+
+
+No 2
+>5KNH_I DARPIN 44C12V5; ALTERNATIVE SCAFFOLD, CYTOKINE-DE NOVO PROTEIN; 1.6A {synthetic construct}
+Probab=6.86  E-value=4.8e+02  Score=11.97  Aligned_cols=5  Identities=80%  Similarity=0.806  Sum_probs=0.0  Template_Neff=2.500
+
+Q LNNITA            1 LNNIT    5 (6)
+Q Consensus         1 lnnit    5 (6)
+                      |.|||
+T Consensus        16 L~NIT   20 (112)
+T 5KNH_I           16 LVNIT   20 (112)
+T ss_dssp             HHHHH
+T ss_pred             HHhCC
+
+
+No 3
+>2JVR_A Nucleolar protein 3; protein, RNA recognition motif, Nucleus; NMR {Saccharomyces cerevisiae}
+Probab=6.76  E-value=4.8e+02  Score=8.25  Aligned_cols=5  Identities=0%  Similarity=-0.190  Sum_probs=0.0  Template_Neff=11.400
+
+Q LNNITA            2 NNITA    6 (6)
+Q Consensus         2 nnita    6 (6)
+                      ||+++
+T Consensus         1 ~~~~~    5 (111)
+T 2JVR_A            1 MGSSH    5 (111)
+T ss_pred             CCCcc
+
+
+No 4
+>3SWH_B Protein unc-13 homolog A; alpha helical, neurotransmitter release, SNARE; 2.65A {Rattus norvegicus}
+Probab=6.45  E-value=5.1e+02  Score=11.14  Aligned_cols=6  Identities=33%  Similarity=0.534  Sum_probs=0.0  Template_Neff=9.200
+
+Q LNNITA            1 LNNITA    6 (6)
+Q Consensus         1 lnnita    6 (6)
+                      +|||.+
+T Consensus       122 lNNl~~  127 (341)
+T 3SWH_B          122 MNNTQQ  127 (341)
+T ss_pred             HHHHHH
+
+
+No 5
+>6RAW_L DNA replication licensing factor Mcm2; Helicase, ATPase, AAA+, DNA unwinding; HET: ATP, ADP; 3.7A {Drosophila melanogaster}
+Probab=6.19  E-value=5.4e+02  Score=11.01  Aligned_cols=6  Identities=50%  Similarity=0.783  Sum_probs=0.0  Template_Neff=7.400
+
+Q LNNITA            1 LNNITA    6 (6)
+Q Consensus         1 lnnita    6 (6)
+                      ++|+|+
+T Consensus       145 l~nLt~  150 (203)
+T 6RAW_L          145 LDNLTL  150 (203)
+T ss_pred             ccCCCH
+
+
+No 6
+>6RAX_L DNA replication licensing factor Mcm2; Helicase, ATPase, AAA+, DNA unwinding; HET: ATP, ADP; 3.99A {Drosophila melanogaster}
+Probab=6.19  E-value=5.4e+02  Score=11.01  Aligned_cols=6  Identities=50%  Similarity=0.783  Sum_probs=0.0  Template_Neff=7.400
+
+Q LNNITA            1 LNNITA    6 (6)
+Q Consensus         1 lnnita    6 (6)
+                      ++|+|+
+T Consensus       145 l~nLt~  150 (203)
+T 6RAX_L          145 LDNLTL  150 (203)
+T ss_pred             ccCCCH
+
+
+No 7
+>3BPO_A Interleukin 13, Interleukin-4 receptor alpha; IL4, IL13, IL4R, IL13R, cytokine; HET: NAG; 3.0A {Homo sapiens}
+Probab=5.84  E-value=5.8e+02  Score=11.93  Aligned_cols=5  Identities=80%  Similarity=0.806  Sum_probs=0.0  Template_Neff=2.400
+
+Q LNNITA            1 LNNIT    5 (6)
+Q Consensus         1 lnnit    5 (6)
+                      |.|||
+T Consensus        17 L~NIT   21 (127)
+T 3BPO_A           17 LVNIT   21 (127)
+T ss_dssp             HHHHC
+T ss_pred             HHhcC
+
+
+No 8
+>5JGE_B Autophagy-related protein 19, Ape1 propeptide; Receptor, Complex, PROTEIN TRANSPORT; 1.91A {Saccharomyces cerevisiae}
+Probab=5.75  E-value=6e+02  Score=9.57  Aligned_cols=5  Identities=40%  Similarity=0.693  Sum_probs=0.0  Template_Neff=2.100
+
+Q LNNITA            1 LNNIT    5 (6)
+Q Consensus         1 lnnit    5 (6)
+                      ||+|+
+T Consensus         5 L~~~~    9 (32)
+T 5JGE_B            5 LDNFM    9 (32)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 9
+>5JGE_E Autophagy-related protein 19, Ape1 propeptide; Receptor, Complex, PROTEIN TRANSPORT; 1.91A {Saccharomyces cerevisiae}
+Probab=5.75  E-value=6e+02  Score=9.57  Aligned_cols=5  Identities=40%  Similarity=0.693  Sum_probs=0.0  Template_Neff=2.100
+
+Q LNNITA            1 LNNIT    5 (6)
+Q Consensus         1 lnnit    5 (6)
+                      ||+|+
+T Consensus         5 L~~~~    9 (32)
+T 5JGE_E            5 LDNFM    9 (32)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 10
+>2BF9_A PANCREATIC HORMONE; HORMONE, PANCREATIC HORMONE, TURKEY, PANCREAS; 0.99A {MELEAGRIS GALLOPAVO} SCOP: j.6.1.1
+Probab=5.74  E-value=6e+02  Score=9.62  Aligned_cols=5  Identities=60%  Similarity=0.747  Sum_probs=0.0  Template_Neff=2.800
+
+Q LNNITA            1 LNNIT    5 (6)
+Q Consensus         1 lnnit    5 (6)
+                      +|.||
+T Consensus        28 iNliT   32 (36)
+T 2BF9_A           28 LNVVT   32 (36)
+T ss_dssp             HHHHT
+T ss_pred             HHhhc
+
+

@@ -1,0 +1,151 @@
+Query         SNGIVI
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 15:28:25 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/SNGIVI/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/SNGIVI/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 7BPL_A NF1; De novo protein; N  26.7      62 0.00069   14.7   0.0    6    1-6      49-54  (110)
+  2 2K3M_A Rv1761c; PROTEIN, integ  19.5 1.1E+02  0.0012   14.6   0.0    5    2-6      99-103 (151)
+  3 2VXP_B TRANSFORMING GROWTH FAC  19.2 1.1E+02  0.0012   10.6   0.0    5    1-5     120-124 (132)
+  4 1VAE_A rhophilin, Rho GTPase b  17.7 1.2E+02  0.0014    9.5   0.0    6    1-6       2-7   (111)
+  5 6JWP_C GTP-binding protein GTR  16.4 1.4E+02  0.0015   13.6   0.0    5    2-6      49-53  (129)
+  6 2MQ9_A Eukaryotic peptide chai  15.1 1.6E+02  0.0018   12.6   0.0    6    1-6      90-95  (142)
+  7 1E0R_B THERMOSOME; CHAPERONIN,  13.1 1.9E+02  0.0022   10.9   0.0    5    2-6       2-6   (159)
+  8 6TYY_A Protein hedgehog; Hedge  12.8   2E+02  0.0023   10.1   0.0    5    2-6     137-141 (146)
+  9 6TJV_Q NAD(P)H-quinone oxidore  12.7 2.1E+02  0.0023   10.4   0.0    5    1-5     119-123 (149)
+ 10 6KLM_A Roseltide rT7; Roseltid  12.6 2.1E+02  0.0023   11.0   0.0    5    1-5       3-7   (34)
+
+No 1
+>7BPL_A NF1; De novo protein; NMR {synthetic construct}
+Probab=26.68  E-value=62  Score=14.73  Aligned_cols=6  Identities=83%  Similarity=1.171  Sum_probs=3.3  Template_Neff=1.000
+
+Q SNGIVI            1 SNGIVI    6 (6)
+Q Consensus         1 sngivi    6 (6)
+                      |.||||
+T Consensus        49 ssgivi   54 (110)
+T 7BPL_A           49 SSGIVI   54 (110)
+T ss_dssp             TTTEEE
+T ss_pred             CCcEEE
+Confidence            456654
+
+
+No 2
+>2K3M_A Rv1761c; PROTEIN, integral membrane protein, MEMBRANE; HET: MTN; NMR {Mycobacterium tuberculosis}
+Probab=19.55  E-value=1.1e+02  Score=14.64  Aligned_cols=5  Identities=100%  Similarity=1.451  Sum_probs=0.0  Template_Neff=1.600
+
+Q SNGIVI            2 NGIVI    6 (6)
+Q Consensus         2 ngivi    6 (6)
+                      |||||
+T Consensus        99 nGIVl  103 (151)
+T 2K3M_A           99 NGIVI  103 (151)
+T ss_dssp             THHHH
+T ss_pred             CcEEE
+
+
+No 3
+>2VXP_B TRANSFORMING GROWTH FACTOR-BETA-INDUCED PROTEIN IG-H3; RGD-CONTAINING COLLAGEN-ASSOCIATED PROTEIN, FAS1, BIGH3; 2.5A {HOMO SAPIENS}
+Probab=19.19  E-value=1.1e+02  Score=10.58  Aligned_cols=5  Identities=60%  Similarity=1.225  Sum_probs=0.0  Template_Neff=10.500
+
+Q SNGIVI            1 SNGIV    5 (6)
+Q Consensus         1 sngiv    5 (6)
+                      +||++
+T Consensus       120 ~nGii  124 (132)
+T 2VXP_B          120 TNGVV  124 (132)
+T ss_dssp             SSEEE
+T ss_pred             cCcEE
+
+
+No 4
+>1VAE_A rhophilin, Rho GTPase binding protein; PDZ domain, intracellular signaling cascade; NMR {Mus musculus} SCOP: b.36.1.1
+Probab=17.74  E-value=1.2e+02  Score=9.48  Aligned_cols=6  Identities=33%  Similarity=0.136  Sum_probs=0.0  Template_Neff=11.700
+
+Q SNGIVI            1 SNGIVI    6 (6)
+Q Consensus         1 sngivi    6 (6)
+                      |+++++
+T Consensus         2 ~~~~~~    7 (111)
+T 1VAE_A            2 SSGSSG    7 (111)
+T ss_dssp             CCCCSC
+T ss_pred             CCcccc
+
+
+No 5
+>6JWP_C GTP-binding protein GTR1, GTP-binding protein; EGOC, roadblock domain, Gtr1, TORC1; HET: GNP; 3.2A {Saccharomyces cerevisiae S288c}
+Probab=16.44  E-value=1.4e+02  Score=13.57  Aligned_cols=5  Identities=80%  Similarity=1.258  Sum_probs=0.0  Template_Neff=3.400
+
+Q SNGIVI            2 NGIVI    6 (6)
+Q Consensus         2 ngivi    6 (6)
+                      .||||
+T Consensus        49 sgIVi   53 (129)
+T 6JWP_C           49 SGIVI   53 (129)
+T ss_dssp             CCSEE
+T ss_pred             CceEe
+
+
+No 6
+>2MQ9_A Eukaryotic peptide chain release factor; Translation Termination, eRF1, RDC, TRANSLATION; NMR {Homo sapiens}
+Probab=15.11  E-value=1.6e+02  Score=12.57  Aligned_cols=6  Identities=50%  Similarity=1.115  Sum_probs=0.0  Template_Neff=5.900
+
+Q SNGIVI            1 SNGIVI    6 (6)
+Q Consensus         1 sngivi    6 (6)
+                      .||+||
+T Consensus        90 ~nGlvi   95 (142)
+T 2MQ9_A           90 PNGLVV   95 (142)
+T ss_dssp             SSCEEE
+T ss_pred             CCcEEE
+
+
+No 7
+>1E0R_B THERMOSOME; CHAPERONIN, HSP60, THERMOSOME, TCP1, GROEL; 2.8A {THERMOPLASMA ACIDOPHILUM} SCOP: c.8.5.2
+Probab=13.14  E-value=1.9e+02  Score=10.90  Aligned_cols=5  Identities=60%  Similarity=1.371  Sum_probs=0.0  Template_Neff=9.300
+
+Q SNGIVI            2 NGIVI    6 (6)
+Q Consensus         2 ngivi    6 (6)
+                      +|+|+
+T Consensus         2 ~Givi    6 (159)
+T 1E0R_B            2 NGIIV    6 (159)
+T ss_dssp             CEEEE
+T ss_pred             cEEEE
+
+
+No 8
+>6TYY_A Protein hedgehog; Hedgehog autoprocessing doamin, SIGNALING PROTEIN; 1.36A {Drosophila melanogaster}
+Probab=12.76  E-value=2e+02  Score=10.15  Aligned_cols=5  Identities=20%  Similarity=0.441  Sum_probs=0.0  Template_Neff=10.400
+
+Q SNGIVI            2 NGIVI    6 (6)
+Q Consensus         2 ngivi    6 (6)
+                      |||++
+T Consensus       137 ng~~~  141 (146)
+T 6TYY_A          137 NSVAA  141 (146)
+T ss_dssp             TTEEE
+T ss_pred             cCEEE
+
+
+No 9
+>6TJV_Q NAD(P)H-quinone oxidoreductase subunit 1 (E.C.7.1.1.-); carbon concentrating photosynthetic complex I; HET: BCR, CLA, DGD, SF4, SQD, PGT;{Thermosynechococcus elongatus (strain BP-1)}
+Probab=12.66  E-value=2.1e+02  Score=10.43  Aligned_cols=5  Identities=60%  Similarity=1.179  Sum_probs=0.0  Template_Neff=9.900
+
+Q SNGIVI            1 SNGIV    5 (6)
+Q Consensus         1 sngiv    5 (6)
+                      +||++
+T Consensus       119 ~nGvv  123 (149)
+T 6TJV_Q          119 ENGII  123 (149)
+T ss_dssp             SSSCE
+T ss_pred             CCeEE
+
+
+No 10
+>6KLM_A Roseltide rT7; Roseltide, PLANT PROTEIN; NMR {Hibiscus sabdariffa}
+Probab=12.62  E-value=2.1e+02  Score=11.00  Aligned_cols=5  Identities=80%  Similarity=1.139  Sum_probs=0.0  Template_Neff=1.000
+
+Q SNGIVI            1 SNGIV    5 (6)
+Q Consensus         1 sngiv    5 (6)
+                      |.|||
+T Consensus         3 ssgiv    7 (34)
+T 6KLM_A            3 SSGIV    7 (34)
+T ss_dssp             SEEEE
+T ss_pred             ccchh
+
+

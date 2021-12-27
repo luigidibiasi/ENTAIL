@@ -1,0 +1,153 @@
+Query         ATVIIE
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 15:56:17 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/ATVIIE/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/ATVIIE/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4XB6_F PhnG, PhnH, PhnI, PhnJ;  42.0      24 0.00026   15.3   0.0    6    1-6     121-126 (194)
+  2 4XB6_B PhnG, PhnH, PhnI, PhnJ;  38.2      30 0.00033   15.1   0.0    6    1-6     121-126 (194)
+  3 6JC4_A Urease accessory protei  26.7      62 0.00069   14.2   0.0    6    1-6      17-22  (257)
+  4 3IXS_F RING1B, RYBP, polycomb,  10.7 2.6E+02  0.0029   10.7   0.0    4    2-5      25-28  (37)
+  5 7CNW_D Phosphatidylserine deca  10.2 2.8E+02  0.0031    9.7   0.0    5    1-5       1-5   (42)
+  6 7CNZ_H Phosphatidylserine deca  10.2 2.8E+02  0.0031    9.7   0.0    5    1-5       1-5   (42)
+  7 3IXS_H E3 ubiquitin-protein li  10.1 2.8E+02  0.0031   10.6   0.0    4    2-5      25-28  (37)
+  8 3FJV_A uncharacterized novel p   8.8 3.4E+02  0.0038   12.6   0.0    6    1-6      89-94  (194)
+  9 4ARS_A HISTIDINE ACID PHOSPHAT   8.0 3.9E+02  0.0043   11.4   0.0    6    1-6     334-339 (413)
+ 10 2AH2_A trans-sialidase (E.C.3.   7.8   4E+02  0.0044   13.2   0.0    6    1-6     500-505 (648)
+
+No 1
+>4XB6_F PhnG, PhnH, PhnI, PhnJ; protein complex, transferase; HET: CME, SO4; 1.7A {Escherichia coli str. K-12 substr. MG1655}
+Probab=41.96  E-value=24  Score=15.32  Aligned_cols=6  Identities=50%  Similarity=0.844  Sum_probs=3.4  Template_Neff=6.400
+
+Q ATVIIE            1 ATVIIE    6 (6)
+Q Consensus         1 atviie    6 (6)
+                      ||+|||
+T Consensus       121 ATlIi~  126 (194)
+T 4XB6_F          121 ATLILQ  126 (194)
+T ss_dssp             CEEEEE
+T ss_pred             eEEEEE
+Confidence            466654
+
+
+No 2
+>4XB6_B PhnG, PhnH, PhnI, PhnJ; protein complex, transferase; HET: SO4, CME; 1.7A {Escherichia coli str. K-12 substr. MG1655}
+Probab=38.24  E-value=30  Score=15.09  Aligned_cols=6  Identities=50%  Similarity=0.844  Sum_probs=3.3  Template_Neff=6.300
+
+Q ATVIIE            1 ATVIIE    6 (6)
+Q Consensus         1 atviie    6 (6)
+                      ||+|||
+T Consensus       121 ATlIi~  126 (194)
+T 4XB6_B          121 ATLILQ  126 (194)
+T ss_dssp             CEEEEE
+T ss_pred             eEEEEE
+Confidence            466654
+
+
+No 3
+>6JC4_A Urease accessory protein UreF; Nickel-binding  urease accessory protein; 2.3A {Klebsiella pneumoniae}
+Probab=26.74  E-value=62  Score=14.21  Aligned_cols=6  Identities=83%  Similarity=0.794  Sum_probs=0.0  Template_Neff=7.300
+
+Q ATVIIE            1 ATVIIE    6 (6)
+Q Consensus         1 atviie    6 (6)
+                      ||+||+
+T Consensus        17 ~~~~~~   22 (257)
+T 6JC4_A           17 ATVIIM   22 (257)
+T ss_dssp             ------
+T ss_pred             hheeeE
+Confidence            467763
+
+
+No 4
+>3IXS_F RING1B, RYBP, polycomb, e3-ligase, chromosomal; HET: NHE, EDO; 1.7A {Homo sapiens}
+Probab=10.66  E-value=2.6e+02  Score=10.72  Aligned_cols=4  Identities=100%  Similarity=1.157  Sum_probs=0.0  Template_Neff=2.400
+
+Q ATVIIE            2 TVII    5 (6)
+Q Consensus         2 tvii    5 (6)
+                      ||||
+T Consensus        25 TViI   28 (37)
+T 3IXS_F           25 TVII   28 (37)
+T ss_dssp             EEEE
+T ss_pred             EEEE
+
+
+No 5
+>7CNW_D Phosphatidylserine decarboxylase beta chain (E.C.4.1.1.65); Phosphatidylserine decarboxylase, pyruvoyl-dependent decarboxylase, auto-cleaved; HET: PYR, LMT; 1.9A {Escherichia coli K-12}
+Probab=10.23  E-value=2.8e+02  Score=9.66  Aligned_cols=5  Identities=60%  Similarity=0.474  Sum_probs=0.0  Template_Neff=5.900
+
+Q ATVIIE            1 ATVII    5 (6)
+Q Consensus         1 atvii    5 (6)
+                      .|||+
+T Consensus         1 STVVl    5 (42)
+T 7CNW_D            1 XTVIN    5 (42)
+T ss_dssp             -CEEE
+T ss_pred             CCEEE
+
+
+No 6
+>7CNZ_H Phosphatidylserine decarboxylase beta chain (E.C.4.1.1.65); Phosphatidylserine decarboxylase, pyruvoyl-dependent decarboxylase, auto-cleaved; HET: PYR, PO4, PEX; 2.7A {Escherichia coli K-12}
+Probab=10.23  E-value=2.8e+02  Score=9.66  Aligned_cols=5  Identities=60%  Similarity=0.474  Sum_probs=0.0  Template_Neff=5.900
+
+Q ATVIIE            1 ATVII    5 (6)
+Q Consensus         1 atvii    5 (6)
+                      .|||+
+T Consensus         1 STVVl    5 (42)
+T 7CNZ_H            1 XTVIN    5 (42)
+T ss_dssp             -CEEE
+T ss_pred             CCEEE
+
+
+No 7
+>3IXS_H E3 ubiquitin-protein ligase RING2 (E.C.6.3.2.-); RING1B, RYBP, polycomb, e3-ligase, chromosomal; HET: NHE, EDO; 1.7A {Homo sapiens}
+Probab=10.13  E-value=2.8e+02  Score=10.64  Aligned_cols=4  Identities=100%  Similarity=1.157  Sum_probs=0.0  Template_Neff=2.400
+
+Q ATVIIE            2 TVII    5 (6)
+Q Consensus         2 tvii    5 (6)
+                      ||||
+T Consensus        25 TViI   28 (37)
+T 3IXS_H           25 TVII   28 (37)
+T ss_dssp             EEEE
+T ss_pred             EEEE
+
+
+No 8
+>3FJV_A uncharacterized novel protein; YP_111841.1, novel protein of unknown; HET: GOL; 1.9A {Burkholderia pseudomallei K96243}
+Probab=8.83  E-value=3.4e+02  Score=12.56  Aligned_cols=6  Identities=67%  Similarity=0.689  Sum_probs=0.0  Template_Neff=5.000
+
+Q ATVIIE            1 ATVIIE    6 (6)
+Q Consensus         1 atviie    6 (6)
+                      ||+.||
+T Consensus        89 ATlmIE   94 (194)
+T 3FJV_A           89 ATLQIE   94 (194)
+T ss_dssp             EEEEEC
+T ss_pred             EEEEEE
+
+
+No 9
+>4ARS_A HISTIDINE ACID PHOSPHATASE (E.C.3.1.3.26); HYDROLASE; HET: GOL, ACT; 1.9A {HAFNIA ALVEI}
+Probab=7.96  E-value=3.9e+02  Score=11.43  Aligned_cols=6  Identities=17%  Similarity=0.589  Sum_probs=0.0  Template_Neff=10.000
+
+Q ATVIIE            1 ATVIIE    6 (6)
+Q Consensus         1 atviie    6 (6)
+                      ++++||
+T Consensus       334 S~lifE  339 (413)
+T 4ARS_A          334 GALVFE  339 (413)
+T ss_dssp             CEEEEE
+T ss_pred             cEEEEE
+
+
+No 10
+>2AH2_A trans-sialidase (E.C.3.2.1.18); transglycosidase, covalent intermediate, trypanosoma cruzi; HET: GOL, FSI; 1.6A {Trypanosoma cruzi} SCOP: b.29.1.15, b.68.1.1
+Probab=7.84  E-value=4e+02  Score=13.16  Aligned_cols=6  Identities=50%  Similarity=0.617  Sum_probs=0.0  Template_Neff=8.000
+
+Q ATVIIE            1 ATVIIE    6 (6)
+Q Consensus         1 atviie    6 (6)
+                      |||.|.
+T Consensus       500 atv~i~  505 (648)
+T 2AH2_A          500 ASVTIH  505 (648)
+T ss_dssp             EEEEEC
+T ss_pred             EEEEec
+
+

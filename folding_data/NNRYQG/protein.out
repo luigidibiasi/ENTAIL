@@ -1,0 +1,148 @@
+Query         NNRYQG
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 02:50:51 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NNRYQG/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NNRYQG/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 7D0E_A RB1-inducible coiled-co   9.8   3E+02  0.0033   11.1   0.0    5    1-5      82-86  (105)
+  2 6ZZY_2 photosystem I, light st   9.8   3E+02  0.0033   12.4   0.0    5    2-6     200-204 (215)
+  3 3O65_C Putative ataxin-3-like    8.3 3.7E+02  0.0041   11.9   0.0    6    1-6      21-26  (191)
+  4 4A6A_I DEOXYCYTIDINE TRIPHOSPH   8.1 3.8E+02  0.0042   10.8   0.0    6    1-6     168-173 (190)
+  5 2QXX_A Deoxycytidine triphosph   8.1 3.8E+02  0.0043   10.8   0.0    6    1-6     168-173 (190)
+  6 2JRI_A Ataxin-3 (E.C.3.4.22.-)   8.0 3.9E+02  0.0043   11.6   0.0    6    1-6      20-25  (182)
+  7 5TF2_A Prolactin regulatory el   7.9   4E+02  0.0044   10.0   0.0    6    1-6      13-18  (407)
+  8 6PWD_A Type III effector HopBF   7.7 4.1E+02  0.0045   10.7   0.0    4    3-6      13-16  (204)
+  9 7CZG_B RB1-inducible coiled-co   7.7 4.1E+02  0.0045   10.8   0.0    5    1-5      85-89  (108)
+ 10 3ONT_A Spot 14 protein; alpha-   7.1 4.5E+02   0.005   11.6   0.0    4    2-5     142-145 (152)
+
+No 1
+>7D0E_A RB1-inducible coiled-coil protein 1, Cell; autophagy, FIP200, CCPG1, SIGNALING PROTEIN; HET: GO9, SEP; 1.4A {Homo sapiens}
+Probab=9.77  E-value=3e+02  Score=11.08  Aligned_cols=5  Identities=40%  Similarity=1.052  Sum_probs=0.0  Template_Neff=6.300
+
+Q NNRYQG            1 NNRYQ    5 (6)
+Q Consensus         1 nnryq    5 (6)
+                      +|||+
+T Consensus        82 ~N~y~   86 (105)
+T 7D0E_A           82 QNRFK   86 (105)
+T ss_dssp             SCTTC
+T ss_pred             CCCcC
+
+
+No 2
+>6ZZY_2 photosystem I, light stress, PHOTOSYNTHESIS; HET: SPH, QTB, 4RF, RRX, LPX, SQD, SF4, DGA, PLM, PTY, C7Z, LUT, 3PH, CHL, LHG, DGD, LAP, ECH, A8S, P5S, PQN, OLA, CL0, CLA, LMT, ERG, PCW, XAT, BCR;{Chlorella ohadii}
+Probab=9.76  E-value=3e+02  Score=12.41  Aligned_cols=5  Identities=80%  Similarity=1.185  Sum_probs=0.0  Template_Neff=6.200
+
+Q NNRYQG            2 NRYQG    6 (6)
+Q Consensus         2 nryqg    6 (6)
+                      ||.||
+T Consensus       200 ~~~~~  204 (215)
+T 6ZZY_2          200 NRLQG  204 (215)
+T ss_pred             hhhCC
+
+
+No 3
+>3O65_C Putative ataxin-3-like protein (E.C.3.1.2.15), Ubiquitin; Papain-like fold, Ubiquitin thiolesterase, hydrolase-protein; HET: MSE, NEH; 2.7A {Homo sapiens}
+Probab=8.26  E-value=3.7e+02  Score=11.86  Aligned_cols=6  Identities=67%  Similarity=0.816  Sum_probs=0.0  Template_Neff=6.300
+
+Q NNRYQG            1 NNRYQG    6 (6)
+Q Consensus         1 nnryqg    6 (6)
+                      ||-.||
+T Consensus        21 NnLLQ~   26 (191)
+T 3O65_C           21 NNLLQG   26 (191)
+T ss_dssp             HHHHTS
+T ss_pred             HHHHcC
+
+
+No 4
+>4A6A_I DEOXYCYTIDINE TRIPHOSPHATE DEAMINASE (E.C.3.5.4.13); HYDROLASE, DEOXY-RIBONUCLEOTIDE METABOLISM, DTTP INHIBITION; HET: MG, TTP; 2.9A {MYCOBACTERIUM TUBERCULOSIS}
+Probab=8.08  E-value=3.8e+02  Score=10.77  Aligned_cols=6  Identities=50%  Similarity=1.171  Sum_probs=0.0  Template_Neff=8.600
+
+Q NNRYQG            1 NNRYQG    6 (6)
+Q Consensus         1 nnryqg    6 (6)
+                      +.+|||
+T Consensus       168 ~~~Y~~  173 (190)
+T 4A6A_I          168 GSKYQG  173 (190)
+T ss_dssp             TCSCTT
+T ss_pred             CCCCCC
+
+
+No 5
+>2QXX_A Deoxycytidine triphosphate deaminase (E.C.3.5.4.13); distorted beta barrel, Hydrolase, Nucleotide; HET: 1PE, TTP; 2.0A {Mycobacterium tuberculosis}
+Probab=8.05  E-value=3.8e+02  Score=10.77  Aligned_cols=6  Identities=50%  Similarity=1.171  Sum_probs=0.0  Template_Neff=8.600
+
+Q NNRYQG            1 NNRYQG    6 (6)
+Q Consensus         1 nnryqg    6 (6)
+                      +.+|||
+T Consensus       168 ~~~Y~~  173 (190)
+T 2QXX_A          168 GSKYQG  173 (190)
+T ss_dssp             TCSCTT
+T ss_pred             CCCcCC
+
+
+No 6
+>2JRI_A Ataxin-3 (E.C.3.4.22.-), UBC protein; di-ubiquitin, Lys48-linked, Josephin domain of; NMR {Homo sapiens}
+Probab=8.04  E-value=3.9e+02  Score=11.56  Aligned_cols=6  Identities=67%  Similarity=0.816  Sum_probs=0.0  Template_Neff=6.700
+
+Q NNRYQG            1 NNRYQG    6 (6)
+Q Consensus         1 nnryqg    6 (6)
+                      ||-.||
+T Consensus        20 NnLLQ~   25 (182)
+T 2JRI_A           20 NNLLQG   25 (182)
+T ss_dssp             HTTSSS
+T ss_pred             HHHhcC
+
+
+No 7
+>5TF2_A Prolactin regulatory element-binding protein; WD40, Activator, Protein Transport, Transcription; 2.8A {Homo sapiens}
+Probab=7.88  E-value=4e+02  Score=10.00  Aligned_cols=6  Identities=50%  Similarity=0.744  Sum_probs=0.0  Template_Neff=12.800
+
+Q NNRYQG            1 NNRYQG    6 (6)
+Q Consensus         1 nnryqg    6 (6)
+                      ++.+||
+T Consensus        13 ~~~~~~   18 (407)
+T 5TF2_A           13 NLYFQG   18 (407)
+T ss_dssp             ------
+T ss_pred             ceeeec
+
+
+No 8
+>6PWD_A Type III effector HopBF1; HSP90, phosphorylation, chaperone, immunity, kinase; HET: EDO; 2.47A {Ewingella americana}
+Probab=7.73  E-value=4.1e+02  Score=10.69  Aligned_cols=4  Identities=100%  Similarity=1.813  Sum_probs=0.0  Template_Neff=8.900
+
+Q NNRYQG            3 RYQG    6 (6)
+Q Consensus         3 ryqg    6 (6)
+                      ||||
+T Consensus        13 ~~~~   16 (204)
+T 6PWD_A           13 RYQG   16 (204)
+T ss_pred             hhcc
+
+
+No 9
+>7CZG_B RB1-inducible coiled-coil protein 1; autophagy, FIP200, SIGNALING PROTEIN; HET: PEG; 1.8A {Homo sapiens}
+Probab=7.71  E-value=4.1e+02  Score=10.79  Aligned_cols=5  Identities=40%  Similarity=1.052  Sum_probs=0.0  Template_Neff=6.200
+
+Q NNRYQG            1 NNRYQ    5 (6)
+Q Consensus         1 nnryq    5 (6)
+                      +|||+
+T Consensus        85 ~N~y~   89 (108)
+T 7CZG_B           85 QNRFK   89 (108)
+T ss_dssp             SCTTC
+T ss_pred             CCCcC
+
+
+No 10
+>3ONT_A Spot 14 protein; alpha-helical, helical bundle, unknown function; 2.65A {Mus musculus}
+Probab=7.13  E-value=4.5e+02  Score=11.63  Aligned_cols=4  Identities=50%  Similarity=1.124  Sum_probs=0.0  Template_Neff=5.300
+
+Q NNRYQG            2 NRYQ    5 (6)
+Q Consensus         2 nryq    5 (6)
+                      +|||
+T Consensus       142 ~RYq  145 (152)
+T 3ONT_A          142 RKYQ  145 (152)
+T ss_dssp             HHHH
+T ss_pred             HHHH
+
+

@@ -1,0 +1,147 @@
+Query         GSASNA
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 03:32:59 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GSASNA/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GSASNA/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3HE5_B SYNZIP1, SYNZIP2; heter  21.7      89 0.00099   12.8   0.0    6    1-6       1-6   (52)
+  2 6XYW_AL 60S ribosomal protein    8.1 3.8E+02  0.0042   11.6   0.0    5    2-6      73-77  (81)
+  3 2DKZ_A hypothetical protein LO   8.0 3.9E+02  0.0043    8.6   0.0    6    1-6       1-6   (84)
+  4 2ZXE_G Na, K-ATPase alpha subu   7.3 4.4E+02  0.0048   11.1   0.0    5    1-5      69-73  (74)
+  5 5AVT_G Na, K-ATPase alpha subu   7.3 4.4E+02  0.0048   11.1   0.0    5    1-5      69-73  (74)
+  6 2YUK_A Myeloid/lymphoid or mix   7.2 4.5E+02   0.005   10.2   0.0    6    1-6       4-9   (90)
+  7 5TFP_A Histone-lysine N-methyl   7.1 4.5E+02   0.005   10.9   0.0    5    1-5      42-46  (64)
+  8 5NCM_B CBK1 kinase activator p   6.8 4.8E+02  0.0053   10.1   0.0    5    1-5       1-5   (105)
+  9 6NU2_q 39S ribosomal protein L   6.6   5E+02  0.0055   11.3   0.0    5    1-5      41-45  (128)
+ 10 3UMC_C haloacid dehalogenase (   6.6   5E+02  0.0055    9.7   0.0    6    1-6       2-7   (254)
+
+No 1
+>3HE5_B SYNZIP1, SYNZIP2; heterodimeric coiled-coil, DE NOVO PROTEIN; 1.75A {artificial gene}
+Probab=21.71  E-value=89  Score=12.81  Aligned_cols=6  Identities=83%  Similarity=0.955  Sum_probs=3.4  Template_Neff=1.000
+
+Q GSASNA            1 GSASNA    6 (6)
+Q Consensus         1 gsasna    6 (6)
+                      |||.||
+T Consensus         1 gsarna    6 (52)
+T 3HE5_B            1 GSARNA    6 (52)
+T ss_dssp             CCSHHH
+T ss_pred             CchhHH
+Confidence            566554
+
+
+No 2
+>6XYW_AL 60S ribosomal protein L2, mitochondrial; Ribosome, Mitochondria, Plant; 3.86A {Arabidopsis thaliana}
+Probab=8.08  E-value=3.8e+02  Score=11.65  Aligned_cols=5  Identities=80%  Similarity=0.780  Sum_probs=0.0  Template_Neff=2.600
+
+Q GSASNA            2 SASNA    6 (6)
+Q Consensus         2 sasna    6 (6)
+                      |+|||
+T Consensus        73 ~~~~~   77 (81)
+T 6XYW_AL          73 SSSNA   77 (81)
+T ss_pred             ccchh
+
+
+No 3
+>2DKZ_A hypothetical protein LOC64762; CELL-FREE PROTEIN SYNTHESIS, PROTEIN REGULATION; NMR {Homo sapiens}
+Probab=8.02  E-value=3.9e+02  Score=8.63  Aligned_cols=6  Identities=33%  Similarity=0.684  Sum_probs=0.0  Template_Neff=10.100
+
+Q GSASNA            1 GSASNA    6 (6)
+Q Consensus         1 gsasna    6 (6)
+                      |+++++
+T Consensus         1 ~~~~~~    6 (84)
+T 2DKZ_A            1 GSSGSS    6 (84)
+T ss_dssp             CCSSSC
+T ss_pred             CCCCCC
+
+
+No 4
+>2ZXE_G Na, K-ATPase alpha subunit, Na+,K+-ATPase; membrane protein, ion pump, ATPase; HET: NDG, CLR, NAG; 2.4A {Squalus acanthias}
+Probab=7.33  E-value=4.4e+02  Score=11.10  Aligned_cols=5  Identities=40%  Similarity=0.773  Sum_probs=0.0  Template_Neff=3.400
+
+Q GSASNA            1 GSASN    5 (6)
+Q Consensus         1 gsasn    5 (6)
+                      |||++
+T Consensus        69 g~a~~   73 (74)
+T 2ZXE_G           69 GEATE   73 (74)
+T ss_pred             CcccC
+
+
+No 5
+>5AVT_G Na, K-ATPase alpha subunit,Na+,K+-ATPase beta; MEMBRANE PROTEIN, ION PUMP, ATPASE; HET: CLR, NAG; 2.9A {Squalus acanthias}
+Probab=7.33  E-value=4.4e+02  Score=11.10  Aligned_cols=5  Identities=40%  Similarity=0.773  Sum_probs=0.0  Template_Neff=3.400
+
+Q GSASNA            1 GSASN    5 (6)
+Q Consensus         1 gsasn    5 (6)
+                      |||++
+T Consensus        69 g~a~~   73 (74)
+T 5AVT_G           69 GEATE   73 (74)
+T ss_pred             CcccC
+
+
+No 6
+>2YUK_A Myeloid/lymphoid or mixed-lineage leukemia protein; Histone-lysine N-methyltransferase, H3 lysine-4 specific; NMR {Homo sapiens}
+Probab=7.16  E-value=4.5e+02  Score=10.18  Aligned_cols=6  Identities=67%  Similarity=0.916  Sum_probs=0.0  Template_Neff=6.600
+
+Q GSASNA            1 GSASNA    6 (6)
+Q Consensus         1 gsasna    6 (6)
+                      |+.+||
+T Consensus         4 ~~~~~~    9 (90)
+T 2YUK_A            4 GSSGNA    9 (90)
+T ss_dssp             SSCCCC
+T ss_pred             cccccc
+
+
+No 7
+>5TFP_A Histone-lysine N-methyltransferase SETDB2 (E.C.2.1.1.43); lysine methyltransferase, helical handshake motif; HET: GOL, MSE, TLA; 2.0A {Homo sapiens}
+Probab=7.10  E-value=4.5e+02  Score=10.91  Aligned_cols=5  Identities=80%  Similarity=1.099  Sum_probs=0.0  Template_Neff=3.000
+
+Q GSASNA            1 GSASN    5 (6)
+Q Consensus         1 gsasn    5 (6)
+                      |+|+|
+T Consensus        42 gtAT~   46 (64)
+T 5TFP_A           42 GSATN   46 (64)
+T ss_dssp             TCCCH
+T ss_pred             CCCCc
+
+
+No 8
+>5NCM_B CBK1 kinase activator protein MOB2; SIGNALING protein, kinase; 2.8A {Saccharomyces cerevisiae}
+Probab=6.84  E-value=4.8e+02  Score=10.12  Aligned_cols=5  Identities=80%  Similarity=0.953  Sum_probs=0.0  Template_Neff=7.200
+
+Q GSASNA            1 GSASN    5 (6)
+Q Consensus         1 gsasn    5 (6)
+                      ||||.
+T Consensus         1 ~~~~~    5 (105)
+T 5NCM_B            1 GSASS    5 (105)
+T ss_dssp             -----
+T ss_pred             CCCCC
+
+
+No 9
+>6NU2_q 39S ribosomal protein L2, mitochondrial; mitochondrial ribosome recycling Factor, mtRRF; HET: MG; 3.9A {Homo sapiens}
+Probab=6.64  E-value=5e+02  Score=11.33  Aligned_cols=5  Identities=60%  Similarity=0.846  Sum_probs=0.0  Template_Neff=5.000
+
+Q GSASNA            1 GSASN    5 (6)
+Q Consensus         1 gsasn    5 (6)
+                      |+||+
+T Consensus        41 G~aSG   45 (128)
+T 6NU2_q           41 GAASG   45 (128)
+T ss_pred             HHhhC
+
+
+No 10
+>3UMC_C haloacid dehalogenase (E.C.3.8.1.2); Haloacid dehalogenase-like hydrolase protein superfamily; HET: MSE; 2.15A {Pseudomonas aeruginosa}
+Probab=6.60  E-value=5e+02  Score=9.68  Aligned_cols=6  Identities=33%  Similarity=0.562  Sum_probs=0.0  Template_Neff=11.300
+
+Q GSASNA            1 GSASNA    6 (6)
+Q Consensus         1 gsasna    6 (6)
+                      ||+++.
+T Consensus         2 ~~~~~~    7 (254)
+T 3UMC_C            2 GSSHHH    7 (254)
+T ss_dssp             ------
+T ss_pred             CCCccc
+
+

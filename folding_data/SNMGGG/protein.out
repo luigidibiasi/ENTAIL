@@ -1,0 +1,150 @@
+Query         SNMGGG
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 15:31:32 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/SNMGGG/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/SNMGGG/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2LFH_B DNA-binding protein inh  37.1      32 0.00035   12.6   0.0    6    1-6       9-14  (68)
+  2 5TX1_3 Hexon protein, Penton,   26.3      64 0.00071   12.1   0.0    6    1-6      26-31  (31)
+  3 5TX1_8 Hexon protein, Penton,   26.3      64 0.00071   12.1   0.0    6    1-6      26-31  (31)
+  4 2J66_A BTRK (E.C.4.1.-.-); BUT  19.8   1E+02  0.0012   13.4   0.0    5    2-6     224-228 (428)
+  5 3N29_B Carboxynorspermidine de  19.7   1E+02  0.0012   13.6   0.0    5    2-6     234-238 (418)
+  6 7KH2_D N-citrylornithine decar  19.2 1.1E+02  0.0012   13.6   0.0    5    2-6     254-258 (436)
+  7 6N2H_A Diaminopimelate decarbo  18.8 1.1E+02  0.0013   13.8   0.0    5    2-6     255-259 (477)
+  8 2CTQ_A DnaJ homolog subfamily   18.4 1.2E+02  0.0013   10.8   0.0    6    1-6     107-112 (112)
+  9 2MLX_B Alkaline phosphatase, T  18.1 1.2E+02  0.0013   11.3   0.0    4    3-6       9-12  (93)
+ 10 1D7K_B HUMAN ORNITHINE DECARBO  17.5 1.3E+02  0.0014   13.2   0.0    5    2-6     227-231 (421)
+
+No 1
+>2LFH_B DNA-binding protein inhibitor ID-3; Structural Genomics, NORTHEAST STRUCTURAL GENOMICS; NMR {Homo sapiens}
+Probab=37.10  E-value=32  Score=12.64  Aligned_cols=6  Identities=83%  Similarity=1.525  Sum_probs=3.1  Template_Neff=6.700
+
+Q SNMGGG            1 SNMGGG    6 (6)
+Q Consensus         1 snmggg    6 (6)
+                      |.||+|
+T Consensus         9 ~~~~~~   14 (68)
+T 2LFH_B            9 SHMGGG   14 (68)
+T ss_dssp             CCCSCS
+T ss_pred             cccCCC
+Confidence            346653
+
+
+No 2
+>5TX1_3 Hexon protein, Penton, Fiber, PIIIa; human adenovirus 26, hexon, penton; 3.7A {Human adenovirus 26}
+Probab=26.31  E-value=64  Score=12.05  Aligned_cols=6  Identities=50%  Similarity=1.071  Sum_probs=3.0  Template_Neff=2.100
+
+Q SNMGGG            1 SNMGGG    6 (6)
+Q Consensus         1 snmggg    6 (6)
+                      |.|.||
+T Consensus        26 s~mnGG   31 (31)
+T 5TX1_3           26 SQLNGG   31 (31)
+T ss_pred             cccCCC
+Confidence            345554
+
+
+No 3
+>5TX1_8 Hexon protein, Penton, Fiber, PIIIa; human adenovirus 26, hexon, penton; 3.7A {Human adenovirus 26}
+Probab=26.31  E-value=64  Score=12.05  Aligned_cols=6  Identities=50%  Similarity=1.071  Sum_probs=3.0  Template_Neff=2.100
+
+Q SNMGGG            1 SNMGGG    6 (6)
+Q Consensus         1 snmggg    6 (6)
+                      |.|.||
+T Consensus        26 s~mnGG   31 (31)
+T 5TX1_8           26 SQLNGG   31 (31)
+T ss_pred             cccCCC
+Confidence            345554
+
+
+No 4
+>2J66_A BTRK (E.C.4.1.-.-); BUTIROSIN, DECARBOXYLASE, AHBA BIOSYNTHESIS, LYASE; HET: PLP; 1.65A {BACILLUS CIRCULANS}
+Probab=19.76  E-value=1e+02  Score=13.36  Aligned_cols=5  Identities=80%  Similarity=1.757  Sum_probs=0.0  Template_Neff=9.500
+
+Q SNMGGG            2 NMGGG    6 (6)
+Q Consensus         2 nmggg    6 (6)
+                      |+|||
+T Consensus       224 ~~GGG  228 (428)
+T 2J66_A          224 NLGGG  228 (428)
+T ss_dssp             ECCCC
+T ss_pred             EecCC
+
+
+No 5
+>3N29_B Carboxynorspermidine decarboxylase; LYASE; HET: GOL, PLP; 1.9A {Campylobacter jejuni subsp. jejuni 81116}
+Probab=19.74  E-value=1e+02  Score=13.64  Aligned_cols=5  Identities=80%  Similarity=1.677  Sum_probs=0.0  Template_Neff=8.900
+
+Q SNMGGG            2 NMGGG    6 (6)
+Q Consensus         2 nmggg    6 (6)
+                      |+|||
+T Consensus       234 diGGG  238 (418)
+T 3N29_B          234 NFGGG  238 (418)
+T ss_dssp             ECCSC
+T ss_pred             ecCCc
+
+
+No 6
+>7KH2_D N-citrylornithine decarboxylase; rhizoferrin, putrescine, ornithine, citrate, Francisella; HET: SO4, GOL, MSE, PLP; 2.05A {Francisella novicida}
+Probab=19.18  E-value=1.1e+02  Score=13.55  Aligned_cols=5  Identities=60%  Similarity=1.650  Sum_probs=0.0  Template_Neff=9.100
+
+Q SNMGGG            2 NMGGG    6 (6)
+Q Consensus         2 nmggg    6 (6)
+                      |+|||
+T Consensus       254 diGGG  258 (436)
+T 7KH2_D          254 DLGGG  258 (436)
+T ss_dssp             ECCCC
+T ss_pred             ECCCC
+
+
+No 7
+>6N2H_A Diaminopimelate decarboxylase; Pyridoxal-5'-phosphate, Fold III, decarboxylase, D-amino; HET: LLP, DMS, DIO; 1.72A {Salmonella typhimurium}
+Probab=18.81  E-value=1.1e+02  Score=13.79  Aligned_cols=5  Identities=80%  Similarity=1.677  Sum_probs=0.0  Template_Neff=8.900
+
+Q SNMGGG            2 NMGGG    6 (6)
+Q Consensus         2 nmggg    6 (6)
+                      |+|||
+T Consensus       255 diGGG  259 (477)
+T 6N2H_A          255 NVGGG  259 (477)
+T ss_dssp             ECCCC
+T ss_pred             ccCCC
+
+
+No 8
+>2CTQ_A DnaJ homolog subfamily C member; DnaJ, J-domain, Chaperone, helix-turn-helix, structural; NMR {Homo sapiens}
+Probab=18.43  E-value=1.2e+02  Score=10.78  Aligned_cols=6  Identities=33%  Similarity=0.423  Sum_probs=0.0  Template_Neff=9.400
+
+Q SNMGGG            1 SNMGGG    6 (6)
+Q Consensus         1 snmggg    6 (6)
+                      +|+++|
+T Consensus       107 ~~~~~~  112 (112)
+T 2CTQ_A          107 SGPSSG  112 (112)
+T ss_dssp             CCCCCC
+T ss_pred             CCCCCC
+
+
+No 9
+>2MLX_B Alkaline phosphatase, Trigger factor (E.C.5.2.1.8); molecular chaperone, unfolded protein, protein; NMR {Escherichia coli}
+Probab=18.13  E-value=1.2e+02  Score=11.31  Aligned_cols=4  Identities=75%  Similarity=1.880  Sum_probs=0.0  Template_Neff=7.600
+
+Q SNMGGG            3 MGGG    6 (6)
+Q Consensus         3 mggg    6 (6)
+                      ||||
+T Consensus         9 ~GGG   12 (93)
+T 2MLX_B            9 LGGG   12 (93)
+T ss_pred             EcCc
+
+
+No 10
+>1D7K_B HUMAN ORNITHINE DECARBOXYLASE (E.C.4.1.1.17); ALPHA-BETA BARREL, PYRIDOXAL 5'-PHOSPHATE, SHEET-DOMAIN; HET: LLP; 2.1A {Homo sapiens} SCOP: c.1.6.1, b.49.2.3
+Probab=17.53  E-value=1.3e+02  Score=13.20  Aligned_cols=5  Identities=60%  Similarity=1.630  Sum_probs=0.0  Template_Neff=9.300
+
+Q SNMGGG            2 NMGGG    6 (6)
+Q Consensus         2 nmggg    6 (6)
+                      |+|||
+T Consensus       227 diGGG  231 (421)
+T 1D7K_B          227 DIGGG  231 (421)
+T ss_dssp             ECCCC
+T ss_pred             ECCCC
+
+

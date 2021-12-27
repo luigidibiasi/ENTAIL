@@ -1,0 +1,160 @@
+Query         IQIMIW
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 09:04:20 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/IQIMIW/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/IQIMIW/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5HBZ_A Non-structural protein   34.1      38 0.00043   16.0   0.0    6    1-6     207-212 (221)
+  2 5F17_A Non-structural protein   33.5      40 0.00044   16.0   0.0    6    1-6     205-210 (219)
+  3 5EYI_A Non-structural protein   32.6      42 0.00047   15.9   0.0    6    1-6     210-215 (225)
+  4 5HC1_B Non-structural protein   29.7      51 0.00056   15.7   0.0    6    1-6     207-212 (221)
+  5 2GTI_A Replicase polyprotein 1  25.1      70 0.00077   16.4   0.0    6    1-6     356-361 (370)
+  6 2GTH_A Replicase polyprotein 1  25.0      70 0.00077   16.5   0.0    6    1-6     356-361 (370)
+  7 2H85_A endoribonuclease, SARS,  21.8      88 0.00098   15.8   0.0    6    1-6     329-334 (347)
+  8 5YVD_A Nsp15; MERS-CoV, anti-v  21.8      89 0.00098   15.7   0.0    6    1-6     324-329 (343)
+  9 4RS4_D Uridylate-specific endo  20.1   1E+02  0.0011   15.6   0.0    6    1-6     330-335 (349)
+ 10 4RS4_F Uridylate-specific endo  20.1   1E+02  0.0011   15.6   0.0    6    1-6     330-335 (349)
+
+No 1
+>5HBZ_A Non-structural protein 11; nsp11, Equine arteritis virus, Endoribonuclease; 3.1A {Equine arteritis virus Bucyrus}
+Probab=34.13  E-value=38  Score=16.04  Aligned_cols=6  Identities=33%  Similarity=1.376  Sum_probs=4.3  Template_Neff=4.200
+
+Q IQIMIW            1 IQIMIW    6 (6)
+Q Consensus         1 iqimiw    6 (6)
+                      ++.|+|
+T Consensus       207 ~rfMlW  212 (221)
+T 5HBZ_A          207 CRLMVW  212 (221)
+T ss_dssp             EEEEEE
+T ss_pred             EeEEEE
+Confidence            467888
+
+
+No 2
+>5F17_A Non-structural protein 11; nsp11, Equine arteritis virus, Endoribonuclease; 3.2A {Equine arteritis virus Bucyrus}
+Probab=33.50  E-value=40  Score=15.96  Aligned_cols=6  Identities=33%  Similarity=1.376  Sum_probs=4.3  Template_Neff=4.200
+
+Q IQIMIW            1 IQIMIW    6 (6)
+Q Consensus         1 iqimiw    6 (6)
+                      ++.|+|
+T Consensus       205 ~rfMlW  210 (219)
+T 5F17_A          205 CRLMVW  210 (219)
+T ss_dssp             EEEEEE
+T ss_pred             EeEEEE
+Confidence            467888
+
+
+No 3
+>5EYI_A Non-structural protein 11; Non-structural protein 11, Nsp11, Beta; 2.16A {PRRSV 16244B}
+Probab=32.58  E-value=42  Score=15.94  Aligned_cols=6  Identities=33%  Similarity=1.608  Sum_probs=4.3  Template_Neff=4.200
+
+Q IQIMIW            1 IQIMIW    6 (6)
+Q Consensus         1 iqimiw    6 (6)
+                      ++.|+|
+T Consensus       210 ~rfMlW  215 (225)
+T 5EYI_A          210 VRLMVW  215 (225)
+T ss_dssp             EEEEEE
+T ss_pred             EEEEEE
+Confidence            467888
+
+
+No 4
+>5HC1_B Non-structural protein 11; nsp11, Equine arteritis virus, Endoribonuclease; 3.1A {Equine arteritis virus Bucyrus}
+Probab=29.70  E-value=51  Score=15.70  Aligned_cols=6  Identities=33%  Similarity=1.376  Sum_probs=4.2  Template_Neff=4.100
+
+Q IQIMIW            1 IQIMIW    6 (6)
+Q Consensus         1 iqimiw    6 (6)
+                      +++|+|
+T Consensus       207 ~r~MlW  212 (221)
+T 5HC1_B          207 CRLMVW  212 (221)
+T ss_dssp             EEEEEE
+T ss_pred             EEEEEE
+Confidence            367888
+
+
+No 5
+>2GTI_A Replicase polyprotein 1ab; mhv, nsp15, F307L, VIRAL PROTEIN; HET: SO4, GOL; 2.15A {Murine hepatitis virus} SCOP: d.294.1.2, c.66.1.48
+Probab=25.10  E-value=70  Score=16.44  Aligned_cols=6  Identities=50%  Similarity=1.442  Sum_probs=4.4  Template_Neff=3.700
+
+Q IQIMIW            1 IQIMIW    6 (6)
+Q Consensus         1 iqimiw    6 (6)
+                      +|.|+|
+T Consensus       356 ~rfMlW  361 (370)
+T 2GTI_A          356 FQFMLW  361 (370)
+T ss_dssp             EEEEEE
+T ss_pred             EEEEEE
+Confidence            467888
+
+
+No 6
+>2GTH_A Replicase polyprotein 1ab; MHV, nsp15, VIRAL PROTEIN; 2.7A {Murine hepatitis virus} SCOP: d.294.1.2, c.66.1.48
+Probab=25.01  E-value=70  Score=16.47  Aligned_cols=6  Identities=50%  Similarity=1.442  Sum_probs=4.4  Template_Neff=3.600
+
+Q IQIMIW            1 IQIMIW    6 (6)
+Q Consensus         1 iqimiw    6 (6)
+                      +|.|+|
+T Consensus       356 ~rfMlW  361 (370)
+T 2GTH_A          356 FQFMLW  361 (370)
+T ss_dssp             EEEEEC
+T ss_pred             EEEEEE
+Confidence            467888
+
+
+No 7
+>2H85_A endoribonuclease, SARS, RNA, nsp, VIRAL; 2.6A {SARS coronavirus} SCOP: c.66.1.48, d.294.1.2
+Probab=21.84  E-value=88  Score=15.79  Aligned_cols=6  Identities=50%  Similarity=1.470  Sum_probs=4.2  Template_Neff=4.200
+
+Q IQIMIW            1 IQIMIW    6 (6)
+Q Consensus         1 iqimiw    6 (6)
+                      ++.|+|
+T Consensus       329 ~rfMlW  334 (347)
+T 2H85_A          329 ISFMLW  334 (347)
+T ss_dssp             EEEEEE
+T ss_pred             EEEEEE
+Confidence            367887
+
+
+No 8
+>5YVD_A Nsp15; MERS-CoV, anti-viral, endoribonuclease, HYDROLASE; HET: GOL; 2.7A {Middle East respiratory syndrome-related coronavirus}
+Probab=21.78  E-value=89  Score=15.72  Aligned_cols=6  Identities=50%  Similarity=1.553  Sum_probs=4.1  Template_Neff=4.300
+
+Q IQIMIW            1 IQIMIW    6 (6)
+Q Consensus         1 iqimiw    6 (6)
+                      ++.|+|
+T Consensus       324 ~rfMlW  329 (343)
+T 5YVD_A          324 IEFMLW  329 (343)
+T ss_dssp             EEEEEE
+T ss_pred             EEEEEE
+Confidence            357887
+
+
+No 9
+>4RS4_D Uridylate-specific endoribonuclease (E.C.3.1.-.-); endoribonuclease, HYDROLASE; 2.955A {Human coronavirus 229E}
+Probab=20.08  E-value=1e+02  Score=15.64  Aligned_cols=6  Identities=33%  Similarity=1.066  Sum_probs=4.1  Template_Neff=4.100
+
+Q IQIMIW            1 IQIMIW    6 (6)
+Q Consensus         1 iqimiw    6 (6)
+                      ++.|+|
+T Consensus       330 ~rfMlW  335 (349)
+T 4RS4_D          330 WRWMLW  335 (349)
+T ss_dssp             EEEEEE
+T ss_pred             EEEEEE
+Confidence            357887
+
+
+No 10
+>4RS4_F Uridylate-specific endoribonuclease (E.C.3.1.-.-); endoribonuclease, HYDROLASE; 2.955A {Human coronavirus 229E}
+Probab=20.06  E-value=1e+02  Score=15.56  Aligned_cols=6  Identities=33%  Similarity=1.066  Sum_probs=4.1  Template_Neff=4.300
+
+Q IQIMIW            1 IQIMIW    6 (6)
+Q Consensus         1 iqimiw    6 (6)
+                      ++.|+|
+T Consensus       330 ~rfMlW  335 (349)
+T 4RS4_F          330 WRWMLW  335 (349)
+T ss_dssp             EEEEEE
+T ss_pred             EEEEEE
+Confidence            357887
+
+

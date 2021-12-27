@@ -1,0 +1,150 @@
+Query         LATVIV
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 15:38:28 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LATVIV/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LATVIV/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 7CNW_D Phosphatidylserine deca   9.3 3.2E+02  0.0035    9.5   0.0    5    2-6       1-5   (42)
+  2 7CNZ_H Phosphatidylserine deca   9.3 3.2E+02  0.0035    9.5   0.0    5    2-6       1-5   (42)
+  3 7B3J_A D-peptide, amyloid-beta   7.8   4E+02  0.0044    9.6   0.0    6    1-6      41-46  (55)
+  4 2KV5_A Putative uncharacterize   6.5 5.1E+02  0.0057    9.3   0.0    6    1-6       9-14  (33)
+  5 4XB6_F PhnG, PhnH, PhnI, PhnJ;   5.7   6E+02  0.0066   11.2   0.0    5    2-6     121-125 (194)
+  6 4XB6_B PhnG, PhnH, PhnI, PhnJ;   5.2 6.7E+02  0.0074   11.1   0.0    5    2-6     121-125 (194)
+  7 5IBW_C Calcium-binding EF-hand   5.1 6.9E+02  0.0076    8.3   0.0    5    1-5       8-12  (43)
+  8 7E34_B Cyclin-dependent kinase   4.7 7.6E+02  0.0084   11.3   0.0    6    1-6      41-46  (153)
+  9 5UQ1_D Cyclin-dependent kinase   4.7 7.8E+02  0.0086   11.4   0.0    6    1-6      48-53  (160)
+ 10 2WE8_A XANTHINE DEHYDROGENASE    4.6   8E+02  0.0089   11.5   0.0    5    1-5      24-28  (386)
+
+No 1
+>7CNW_D Phosphatidylserine decarboxylase beta chain (E.C.4.1.1.65); Phosphatidylserine decarboxylase, pyruvoyl-dependent decarboxylase, auto-cleaved; HET: PYR, LMT; 1.9A {Escherichia coli K-12}
+Probab=9.28  E-value=3.2e+02  Score=9.51  Aligned_cols=5  Identities=60%  Similarity=0.514  Sum_probs=0.0  Template_Neff=5.900
+
+Q LATVIV            2 ATVIV    6 (6)
+Q Consensus         2 atviv    6 (6)
+                      .|||+
+T Consensus         1 STVVl    5 (42)
+T 7CNW_D            1 XTVIN    5 (42)
+T ss_dssp             -CEEE
+T ss_pred             CCEEE
+
+
+No 2
+>7CNZ_H Phosphatidylserine decarboxylase beta chain (E.C.4.1.1.65); Phosphatidylserine decarboxylase, pyruvoyl-dependent decarboxylase, auto-cleaved; HET: PYR, PO4, PEX; 2.7A {Escherichia coli K-12}
+Probab=9.28  E-value=3.2e+02  Score=9.51  Aligned_cols=5  Identities=60%  Similarity=0.514  Sum_probs=0.0  Template_Neff=5.900
+
+Q LATVIV            2 ATVIV    6 (6)
+Q Consensus         2 atviv    6 (6)
+                      .|||+
+T Consensus         1 STVVl    5 (42)
+T 7CNZ_H            1 XTVIN    5 (42)
+T ss_dssp             -CEEE
+T ss_pred             CCEEE
+
+
+No 3
+>7B3J_A D-peptide, amyloid-beta, complex, transmembrane, PROTEIN; HET: DLE, DHI, DPR, 2TL, DAR, DSG; NMR {Homo sapiens}
+Probab=7.79  E-value=4e+02  Score=9.61  Aligned_cols=6  Identities=83%  Similarity=1.027  Sum_probs=0.0  Template_Neff=6.200
+
+Q LATVIV            1 LATVIV    6 (6)
+Q Consensus         1 latviv    6 (6)
+                      ++++||
+T Consensus        41 v~~iiV   46 (55)
+T 7B3J_A           41 IATVIV   46 (55)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 4
+>2KV5_A Putative uncharacterized protein RNAI; toxin-antitoxin, bacterial, toxin; NMR {N/A}
+Probab=6.47  E-value=5.1e+02  Score=9.27  Aligned_cols=6  Identities=33%  Similarity=0.711  Sum_probs=0.0  Template_Neff=4.000
+
+Q LATVIV            1 LATVIV    6 (6)
+Q Consensus         1 latviv    6 (6)
+                      +|++||
+T Consensus         9 iapiiv   14 (33)
+T 2KV5_A            9 IAPIFV   14 (33)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 5
+>4XB6_F PhnG, PhnH, PhnI, PhnJ; protein complex, transferase; HET: CME, SO4; 1.7A {Escherichia coli str. K-12 substr. MG1655}
+Probab=5.72  E-value=6e+02  Score=11.24  Aligned_cols=5  Identities=60%  Similarity=0.833  Sum_probs=0.0  Template_Neff=6.400
+
+Q LATVIV            2 ATVIV    6 (6)
+Q Consensus         2 atviv    6 (6)
+                      ||+|+
+T Consensus       121 ATlIi  125 (194)
+T 4XB6_F          121 ATLIL  125 (194)
+T ss_dssp             CEEEE
+T ss_pred             eEEEE
+
+
+No 6
+>4XB6_B PhnG, PhnH, PhnI, PhnJ; protein complex, transferase; HET: SO4, CME; 1.7A {Escherichia coli str. K-12 substr. MG1655}
+Probab=5.25  E-value=6.7e+02  Score=11.14  Aligned_cols=5  Identities=60%  Similarity=0.833  Sum_probs=0.0  Template_Neff=6.300
+
+Q LATVIV            2 ATVIV    6 (6)
+Q Consensus         2 atviv    6 (6)
+                      ||+|+
+T Consensus       121 ATlIi  125 (194)
+T 4XB6_B          121 ATLIL  125 (194)
+T ss_dssp             CEEEE
+T ss_pred             eEEEE
+
+
+No 7
+>5IBW_C Calcium-binding EF-hand domain-containing protein, Myosin; Myosin IQ motif Complex, MOTOR; 1.9A {Dictyostelium discoideum}
+Probab=5.15  E-value=6.9e+02  Score=8.30  Aligned_cols=5  Identities=40%  Similarity=0.581  Sum_probs=0.0  Template_Neff=6.900
+
+Q LATVIV            1 LATVI    5 (6)
+Q Consensus         1 latvi    5 (6)
+                      +|++|
+T Consensus         8 ~a~~I   12 (43)
+T 5IBW_C            8 MASRI   12 (43)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 8
+>7E34_B Cyclin-dependent kinase 2 (E.C.2.7.11.22), Speedy; Telomere, Meiosis, Kinase, CELL CYCLE; 3.19A {Homo sapiens}
+Probab=4.74  E-value=7.6e+02  Score=11.31  Aligned_cols=6  Identities=50%  Similarity=0.567  Sum_probs=0.0  Template_Neff=4.400
+
+Q LATVIV            1 LATVIV    6 (6)
+Q Consensus         1 latviv    6 (6)
+                      ||.|++
+T Consensus        41 LAmV~~   46 (153)
+T 7E34_B           41 LAMTFV   46 (153)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 9
+>5UQ1_D Cyclin-dependent kinase 2 (E.C.2.7.11.22), Speedy; phosphotransferase, protein kinase, cell cycle; 3.201A {Homo sapiens}
+Probab=4.67  E-value=7.8e+02  Score=11.40  Aligned_cols=6  Identities=50%  Similarity=0.567  Sum_probs=0.0  Template_Neff=4.300
+
+Q LATVIV            1 LATVIV    6 (6)
+Q Consensus         1 latviv    6 (6)
+                      ||.|++
+T Consensus        48 LAmV~~   53 (160)
+T 5UQ1_D           48 LAMTFV   53 (160)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 10
+>2WE8_A XANTHINE DEHYDROGENASE (E.C.1.17.1.4); OXIDOREDUCTASE; HET: ACT, GOL; 2.3A {MYCOBACTERIUM SMEGMATIS}
+Probab=4.56  E-value=8e+02  Score=11.47  Aligned_cols=5  Identities=40%  Similarity=0.753  Sum_probs=0.0  Template_Neff=7.700
+
+Q LATVIV            1 LATVI    5 (6)
+Q Consensus         1 latvi    5 (6)
+                      ||||+
+T Consensus        24 LaTVv   28 (386)
+T 2WE8_A           24 VGTVV   28 (386)
+T ss_dssp             EEEEE
+T ss_pred             EEEEE
+
+

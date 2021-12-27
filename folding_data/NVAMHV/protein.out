@@ -1,0 +1,150 @@
+Query         NVAMHV
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 04:46:33 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NVAMHV/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NVAMHV/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 1AIP_G ELONGATION FACTOR TU, E  45.4      20 0.00022   15.3   0.0    6    1-6      95-100 (196)
+  2 7AD5_A AVIRULENCE PROTEIN, AVI  26.1      65 0.00072   14.9   0.0    6    1-6      93-98  (125)
+  3 2Z5M_B Transportin-1, Nuclear   13.4 1.9E+02  0.0021   10.3   0.0    5    1-5       6-10  (30)
+  4 2V52_M ACTIN, ALPHA SKELETAL M  11.8 2.3E+02  0.0025    9.6   0.0    5    2-6      22-26  (32)
+  5 1QA7_B CHYMOTRYPSIN-LIKE CYSTE   7.4 4.3E+02  0.0047   10.2   0.0    5    2-6     188-192 (217)
+  6 3V33_B Ribonuclease ZC3H12A (E   7.0 4.6E+02  0.0051   11.8   0.0    5    1-5      33-37  (223)
+  7 2CXV_A Probable protein P3C (E   6.8 4.8E+02  0.0053   10.0   0.0    5    2-6     188-192 (219)
+  8 6X5S_B Alpha-(1,6)-fucosyltran   6.4 5.2E+02  0.0058   11.6   0.0    5    2-6     253-257 (466)
+  9 4LA2_B Dimethylsulphoniopropio   6.2 5.4E+02   0.006   10.2   0.0    5    1-5     189-193 (198)
+ 10 3QPM_D Peroxiredoxin (E.C.1.11   6.2 5.5E+02   0.006   10.2   0.0    4    3-6      12-15  (240)
+
+No 1
+>1AIP_G ELONGATION FACTOR TU, ELONGATION FACTOR; ELONGATION FACTOR, NUCLEOTIDE EXCHANGE, GTP-BINDING; 3.0A {Thermus thermophilus} SCOP: a.5.2.2, d.43.1.1
+Probab=45.40  E-value=20  Score=15.33  Aligned_cols=6  Identities=50%  Similarity=1.099  Sum_probs=3.5  Template_Neff=6.900
+
+Q NVAMHV            1 NVAMHV    6 (6)
+Q Consensus         1 nvamhv    6 (6)
+                      ++|||+
+T Consensus        95 ~iAmhi  100 (196)
+T 1AIP_G           95 DLAMHI  100 (196)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            356764
+
+
+No 2
+>7AD5_A AVIRULENCE PROTEIN, AVIRULENCE EFFECTOR PROTEIN; 2.14A {Leptosphaeria maculans}
+Probab=26.14  E-value=65  Score=14.93  Aligned_cols=6  Identities=83%  Similarity=1.209  Sum_probs=3.5  Template_Neff=1.000
+
+Q NVAMHV            1 NVAMHV    6 (6)
+Q Consensus         1 nvamhv    6 (6)
+                      |||.||
+T Consensus        93 nvalhv   98 (125)
+T 7AD5_A           93 NVALHV   98 (125)
+T ss_dssp             HHHHHC
+T ss_pred             eEEEEE
+Confidence            566664
+
+
+No 3
+>2Z5M_B Transportin-1, Nuclear RNA export factor; nuclear transport, importin, exportin, karyopherin; 3.0A {Homo sapiens}
+Probab=13.36  E-value=1.9e+02  Score=10.29  Aligned_cols=5  Identities=60%  Similarity=0.806  Sum_probs=0.0  Template_Neff=3.700
+
+Q NVAMHV            1 NVAMH    5 (6)
+Q Consensus         1 nvamh    5 (6)
+                      +|||.
+T Consensus         6 DvaMs   10 (30)
+T 2Z5M_B            6 DVAMS   10 (30)
+T ss_pred             ccccc
+
+
+No 4
+>2V52_M ACTIN, ALPHA SKELETAL MUSCLE, MKL/MYOCARDIN-LIKE; STRUCTURAL PROTEIN/CONTRACTILE PROTEIN, STRUCTURAL PROTEIN; HET: ATP, LAB, GOL; 1.45A {ORYCTOLAGUS CUNICULUS}
+Probab=11.81  E-value=2.3e+02  Score=9.57  Aligned_cols=5  Identities=60%  Similarity=1.079  Sum_probs=0.0  Template_Neff=5.400
+
+Q NVAMHV            2 VAMHV    6 (6)
+Q Consensus         2 vamhv    6 (6)
+                      +.||+
+T Consensus        22 v~~hI   26 (32)
+T 2V52_M           22 VRMHI   26 (32)
+T ss_dssp             HHTTS
+T ss_pred             HHhhh
+
+
+No 5
+>1QA7_B CHYMOTRYPSIN-LIKE CYSTEINE PROTEINASE VIRAL PROTEASE; HET: IVF; 1.9A {Hepatitis A virus} SCOP: b.47.1.4
+Probab=7.42  E-value=4.3e+02  Score=10.16  Aligned_cols=5  Identities=40%  Similarity=0.946  Sum_probs=0.0  Template_Neff=10.100
+
+Q NVAMHV            2 VAMHV    6 (6)
+Q Consensus         2 vamhv    6 (6)
+                      ++||+
+T Consensus       188 iGiH~  192 (217)
+T 1QA7_B          188 LGIHV  192 (217)
+T ss_dssp             EEEEE
+T ss_pred             EEEEE
+
+
+No 6
+>3V33_B Ribonuclease ZC3H12A (E.C.3.1.-.-); Rossmann-like sandwich fold, RNase, cytoplastic; 2.005A {Homo sapiens}
+Probab=7.04  E-value=4.6e+02  Score=11.82  Aligned_cols=5  Identities=80%  Similarity=0.913  Sum_probs=0.0  Template_Neff=6.400
+
+Q NVAMHV            1 NVAMH    5 (6)
+Q Consensus         1 nvamh    5 (6)
+                      ||||.
+T Consensus        33 NVa~~   37 (223)
+T 3V33_B           33 NVAMS   37 (223)
+T ss_dssp             HHHHH
+T ss_pred             HHHHh
+
+
+No 7
+>2CXV_A Probable protein P3C (E.C.3.4.22.28); Hepatitis A, picornavirus, 3C, cysteine; HET: BBL; 1.4A {Human hepatitis A virus Hu/Northern Africa/MBB/1978} SCOP: b.47.1.4
+Probab=6.80  E-value=4.8e+02  Score=10.04  Aligned_cols=5  Identities=40%  Similarity=0.946  Sum_probs=0.0  Template_Neff=10.100
+
+Q NVAMHV            2 VAMHV    6 (6)
+Q Consensus         2 vamhv    6 (6)
+                      ++||+
+T Consensus       188 vGih~  192 (219)
+T 2CXV_A          188 LGIHV  192 (219)
+T ss_dssp             EEEEE
+T ss_pred             EEEEE
+
+
+No 8
+>6X5S_B Alpha-(1,6)-fucosyltransferase (E.C.2.4.1.68), A3'-ASN; Glycosyl transferase, Fucosyl transferase, GT-B; HET: MAN, NAG, BMA, GDP, CL; 3.3A {Gallus gallus}
+Probab=6.39  E-value=5.2e+02  Score=11.62  Aligned_cols=5  Identities=40%  Similarity=0.973  Sum_probs=0.0  Template_Neff=9.300
+
+Q NVAMHV            2 VAMHV    6 (6)
+Q Consensus         2 vamhv    6 (6)
+                      |++||
+T Consensus       253 vgvHI  257 (466)
+T 6X5S_B          253 IGVHV  257 (466)
+T ss_dssp             EEEEE
+T ss_pred             EEEEE
+
+
+No 9
+>4LA2_B Dimethylsulphoniopropionate (DMSP) lyase DddQ; Cupin motif, DMSP lyase, LYASE; HET: MES; 1.6A {Silicibacter lacuscaerulensis}
+Probab=6.22  E-value=5.4e+02  Score=10.16  Aligned_cols=5  Identities=40%  Similarity=0.175  Sum_probs=0.0  Template_Neff=9.200
+
+Q NVAMHV            1 NVAMH    5 (6)
+Q Consensus         1 nvamh    5 (6)
+                      +++||
+T Consensus       189 ~~~~~  193 (198)
+T 4LA2_B          189 MDAAH  193 (198)
+T ss_dssp             ECCC-
+T ss_pred             cccCC
+
+
+No 10
+>3QPM_D Peroxiredoxin (E.C.1.11.1.15); PEROXIREDOXIN, OXIDOREDUCTASE, Thioredoxin fold, Peroxidase; HET: GOL; 1.9A {Larimichthys crocea}
+Probab=6.16  E-value=5.5e+02  Score=10.24  Aligned_cols=4  Identities=75%  Similarity=0.924  Sum_probs=0.0  Template_Neff=9.700
+
+Q NVAMHV            3 AMHV    6 (6)
+Q Consensus         3 amhv    6 (6)
+                      +|||
+T Consensus        12 ~~~~   15 (240)
+T 3QPM_D           12 AAHV   15 (240)
+T ss_pred             hhhh
+
+

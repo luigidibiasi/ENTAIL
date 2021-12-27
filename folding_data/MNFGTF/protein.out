@@ -1,0 +1,152 @@
+Query         MNFGTF
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 22:18:45 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/MNFGTF/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/MNFGTF/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6N3A_J TAR DNA-binding protein  48.2      16 0.00018   14.7   0.0    6    1-6       1-6   (50)
+  2 6AHD_8 Pre-mRNA-processing-spl  37.7      31 0.00034   15.3   0.0    6    1-6     187-192 (199)
+  3 7ABI_N U5 small nuclear ribonu  37.1      32 0.00035   15.2   0.0    6    1-6     187-192 (199)
+  4 5NRL_L U6 snRNA-associated Sm-  32.4      43 0.00047   15.1   0.0    6    1-6     184-189 (194)
+  5 5ZWO_W Pre-mRNA-splicing facto  32.4      43 0.00047   15.1   0.0    6    1-6     184-189 (194)
+  6 4V7E_Cs Ribosome; eukaryotic r  26.2      65 0.00071   12.6   0.0    6    1-6     107-112 (113)
+  7 3JAQ_r PROTEIN/RNA Complex; Eu  26.0      65 0.00072   12.3   0.0    6    1-6      25-30  (34)
+  8 4V6I_Bt Ribosome; eukaryotic r  23.7      77 0.00085   12.3   0.0    6    1-6     100-105 (106)
+  9 4V6X_Cv Ribosome; eukarya, euk  20.6      97  0.0011   12.2   0.0    6    1-6     109-114 (115)
+ 10 6NTR_C Beta-lactamase (E.C.3.5  20.1   1E+02  0.0011   14.3   0.0    6    1-6     224-229 (252)
+
+No 1
+>6N3A_J TAR DNA-binding protein 43, segA; Amyloid, TDP43, ALS, FTLD-TDP, dna; 3.3A {Homo sapiens}
+Probab=48.24  E-value=16  Score=14.65  Aligned_cols=6  Identities=83%  Similarity=1.625  Sum_probs=3.9  Template_Neff=2.200
+
+Q MNFGTF            1 MNFGTF    6 (6)
+Q Consensus         1 mnfgtf    6 (6)
+                      +|||.|
+T Consensus         1 ~Nfg~~    6 (50)
+T 6N3A_J            1 MNFGAF    6 (50)
+T ss_dssp             CBCSCC
+T ss_pred             CCCccc
+Confidence            577754
+
+
+No 2
+>6AHD_8 Pre-mRNA-processing-splicing factor 8, Thioredoxin-like protein; Spliceosome, SPLICING; HET: IHP, GTP; 3.8A {Homo sapiens}
+Probab=37.67  E-value=31  Score=15.30  Aligned_cols=6  Identities=50%  Similarity=0.999  Sum_probs=3.8  Template_Neff=5.900
+
+Q MNFGTF            1 MNFGTF    6 (6)
+Q Consensus         1 mnfgtf    6 (6)
+                      |.||.|
+T Consensus       187 MGF~gF  192 (199)
+T 6AHD_8          187 MGFSGF  192 (199)
+T ss_pred             hCcccc
+Confidence            567665
+
+
+No 3
+>7ABI_N U5 small nuclear ribonucleoprotein 40; Complex, spliceosome, catalytic activation, splicing; HET: IHP, GTP; 8.0A {Homo sapiens}
+Probab=37.09  E-value=32  Score=15.21  Aligned_cols=6  Identities=50%  Similarity=0.999  Sum_probs=3.6  Template_Neff=6.000
+
+Q MNFGTF            1 MNFGTF    6 (6)
+Q Consensus         1 mnfgtf    6 (6)
+                      |.||.|
+T Consensus       187 MGF~gF  192 (199)
+T 7ABI_N          187 MGFSGF  192 (199)
+T ss_pred             hCcccc
+Confidence            566655
+
+
+No 4
+>5NRL_L U6 snRNA-associated Sm-like protein LSm3; Spliceosome, Splicing, Ribonucleoprotein; HET: PSU, GTP; 7.2A {Saccharomyces cerevisiae}
+Probab=32.36  E-value=43  Score=15.12  Aligned_cols=6  Identities=50%  Similarity=1.088  Sum_probs=3.7  Template_Neff=5.300
+
+Q MNFGTF            1 MNFGTF    6 (6)
+Q Consensus         1 mnfgtf    6 (6)
+                      |.|+.|
+T Consensus       184 MGF~~F  189 (194)
+T 5NRL_L          184 MGFSNF  189 (194)
+T ss_pred             hccccc
+Confidence            566655
+
+
+No 5
+>5ZWO_W Pre-mRNA-splicing factor 8, U4/U6 small; spliceosome, assembly, B complex, SPLICING; HET: GTP; 3.9A {Saccharomyces cerevisiae S288c}
+Probab=32.36  E-value=43  Score=15.12  Aligned_cols=6  Identities=50%  Similarity=1.088  Sum_probs=3.7  Template_Neff=5.300
+
+Q MNFGTF            1 MNFGTF    6 (6)
+Q Consensus         1 mnfgtf    6 (6)
+                      |.|+.|
+T Consensus       184 MGF~~F  189 (194)
+T 5ZWO_W          184 MGFSNF  189 (194)
+T ss_pred             hccccc
+Confidence            566655
+
+
+No 6
+>4V7E_Cs Ribosome; eukaryotic ribosome, homology modeling, de; 5.5A {Triticum aestivum}
+Probab=26.17  E-value=65  Score=12.61  Aligned_cols=6  Identities=50%  Similarity=0.988  Sum_probs=3.7  Template_Neff=7.200
+
+Q MNFGTF            1 MNFGTF    6 (6)
+Q Consensus         1 mnfgtf    6 (6)
+                      |.||-|
+T Consensus       107 mgf~LF  112 (113)
+T 4V7E_Cs         107 MGFSLF  112 (113)
+T ss_pred             cCCCCC
+Confidence            567655
+
+
+No 7
+>3JAQ_r PROTEIN/RNA Complex; Eukaryotic translation initiation, 48S, small; HET: M2G, MG, 7MG, H2U, 5MC, 1MA, 1MG, RIA, T6A, 2MG, GCP;{Kluyveromyces lactis}
+Probab=26.03  E-value=65  Score=12.34  Aligned_cols=6  Identities=67%  Similarity=1.132  Sum_probs=3.7  Template_Neff=1.000
+
+Q MNFGTF            1 MNFGTF    6 (6)
+Q Consensus         1 mnfgtf    6 (6)
+                      |||-.|
+T Consensus        25 mnfkif   30 (34)
+T 3JAQ_r           25 MNFKIF   30 (34)
+T ss_pred             hcccee
+Confidence            677554
+
+
+No 8
+>4V6I_Bt Ribosome; eukaryotic ribosome, homology modeling, de; 8.8A {Saccharomyces cerevisiae}
+Probab=23.73  E-value=77  Score=12.28  Aligned_cols=6  Identities=67%  Similarity=1.331  Sum_probs=3.5  Template_Neff=7.200
+
+Q MNFGTF            1 MNFGTF    6 (6)
+Q Consensus         1 mnfgtf    6 (6)
+                      |.||-|
+T Consensus       100 mg~~LF  105 (106)
+T 4V6I_Bt         100 MGFGLF  105 (106)
+T ss_pred             cCcCCC
+Confidence            566655
+
+
+No 9
+>4V6X_Cv Ribosome; eukarya, eukaryotic, ribosomal, 80S, RNA; 5.0A {Homo sapiens}
+Probab=20.62  E-value=97  Score=12.15  Aligned_cols=6  Identities=67%  Similarity=1.331  Sum_probs=3.6  Template_Neff=7.200
+
+Q MNFGTF            1 MNFGTF    6 (6)
+Q Consensus         1 mnfgtf    6 (6)
+                      |.||-|
+T Consensus       109 mgfgLF  114 (115)
+T 4V6X_Cv         109 MGFGLF  114 (115)
+T ss_pred             cCCCCC
+Confidence            556655
+
+
+No 10
+>6NTR_C Beta-lactamase (E.C.3.5.2.6); beta barrel-like fold, beta-structure, cell; HET: GOL, EDO, MSE; 2.101A {Brucella abortus}
+Probab=20.12  E-value=1e+02  Score=14.32  Aligned_cols=6  Identities=50%  Similarity=1.398  Sum_probs=3.5  Template_Neff=5.700
+
+Q MNFGTF            1 MNFGTF    6 (6)
+Q Consensus         1 mnfgtf    6 (6)
+                      |+||.|
+T Consensus       224 lDyGdF  229 (252)
+T 6NTR_C          224 MDYGDF  229 (252)
+T ss_dssp             EECSSE
+T ss_pred             EecCcE
+Confidence            466655
+
+

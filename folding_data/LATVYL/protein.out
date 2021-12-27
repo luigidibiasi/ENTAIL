@@ -1,0 +1,150 @@
+Query         LATVYL
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 16:44:12 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LATVYL/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LATVYL/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 7BOG_V 30S ribosomal protein S   5.6 6.2E+02  0.0069    9.9   0.0    5    2-6      50-54  (133)
+  2 7K34_C Threonine aldolase (E.C   5.4 6.5E+02  0.0072   10.8   0.0    5    1-5     443-447 (452)
+  3 1JOS_A RIBOSOME-BINDING FACTOR   5.2 6.7E+02  0.0074    9.7   0.0    5    2-6      49-53  (128)
+  4 1KKG_A ribosome-binding factor   5.2 6.8E+02  0.0075    9.2   0.0    5    2-6      50-54  (108)
+  5 2II1_D Acetamidase; 10172637,    5.1 6.9E+02  0.0076   12.0   0.0    5    2-6     165-169 (301)
+  6 6D57_A Ferric uptake regulatio   5.1   7E+02  0.0077    9.6   0.0    5    1-5      68-72  (161)
+  7 4AAI_A ORF E73; VIRAL PROTEIN,   4.8 7.4E+02  0.0082   10.8   0.0    6    1-6      26-31  (73)
+  8 5L0P_A Transcription factor ET   4.6 7.8E+02  0.0087   11.4   0.0    5    1-5     320-324 (353)
+  9 5NBC_C Ferric uptake regulator   4.6 7.9E+02  0.0087    8.9   0.0    5    1-5      52-56  (140)
+ 10 5NHK_D Ferric uptake regulator   4.6 7.9E+02  0.0087    8.9   0.0    5    1-5      52-56  (140)
+
+No 1
+>7BOG_V 30S ribosomal protein S4, 30S; Cryo-EM, 30S biogenesis, ribosome assembly; HET: 5MC, PSU, G7M, MA6, 2MG, D2T, UR3, MG; 2.75A {Escherichia coli (strain K12)}
+Probab=5.58  E-value=6.2e+02  Score=9.91  Aligned_cols=5  Identities=60%  Similarity=1.032  Sum_probs=0.0  Template_Neff=7.900
+
+Q LATVYL            2 ATVYL    6 (6)
+Q Consensus         2 atvyl    6 (6)
+                      |.||+
+T Consensus        50 a~Vy~   54 (133)
+T 7BOG_V           50 AKVYV   54 (133)
+T ss_dssp             EEEEE
+T ss_pred             EEEEE
+
+
+No 2
+>7K34_C Threonine aldolase (E.C.4.1.2.5); threonine transaldolase, pyridoxal phosphate, PLP; HET: SO4, LLP; 1.66A {Pseudomonas fluorescens}
+Probab=5.37  E-value=6.5e+02  Score=10.77  Aligned_cols=5  Identities=80%  Similarity=1.212  Sum_probs=0.0  Template_Neff=10.400
+
+Q LATVYL            1 LATVY    5 (6)
+Q Consensus         1 latvy    5 (6)
+                      ||.||
+T Consensus       443 ~~~~~  447 (452)
+T 7K34_C          443 LAAVY  447 (452)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 3
+>1JOS_A RIBOSOME-BINDING FACTOR A; RNA BINDING PROTEIN, Structure 2; 1.7A {Haemophilus influenzae} SCOP: d.52.7.1
+Probab=5.25  E-value=6.7e+02  Score=9.71  Aligned_cols=5  Identities=20%  Similarity=0.833  Sum_probs=0.0  Template_Neff=8.000
+
+Q LATVYL            2 ATVYL    6 (6)
+Q Consensus         2 atvyl    6 (6)
+                      |+||+
+T Consensus        49 a~Vy~   53 (128)
+T 1JOS_A           49 AKIFV   53 (128)
+T ss_dssp             EEEEE
+T ss_pred             EEEEE
+
+
+No 4
+>1KKG_A ribosome-binding factor A; cold-shock adaptation, ribosome-binding factor, NESG; NMR {Escherichia coli} SCOP: d.52.7.1
+Probab=5.20  E-value=6.8e+02  Score=9.23  Aligned_cols=5  Identities=60%  Similarity=1.032  Sum_probs=0.0  Template_Neff=8.400
+
+Q LATVYL            2 ATVYL    6 (6)
+Q Consensus         2 atvyl    6 (6)
+                      |.||+
+T Consensus        50 a~Vy~   54 (108)
+T 1KKG_A           50 AKVYV   54 (108)
+T ss_dssp             EEEEE
+T ss_pred             EEEEE
+
+
+No 5
+>2II1_D Acetamidase; 10172637, ACETAMIDASE, STRUCTURAL GENOMICS, JOINT; HET: MSE, CA; 1.95A {Bacillus halodurans}
+Probab=5.14  E-value=6.9e+02  Score=12.02  Aligned_cols=5  Identities=80%  Similarity=1.218  Sum_probs=0.0  Template_Neff=5.900
+
+Q LATVYL            2 ATVYL    6 (6)
+Q Consensus         2 atvyl    6 (6)
+                      +|+||
+T Consensus       165 stlYL  169 (301)
+T 2II1_D          165 TTVYL  169 (301)
+T ss_dssp             CEEEE
+T ss_pred             CEEEE
+
+
+No 6
+>6D57_A Ferric uptake regulation protein; Fur, ferric uptake regulator, Campylobacter; HET: GOL, OHI, FMT; 1.81A {Campylobacter jejuni}
+Probab=5.10  E-value=7e+02  Score=9.61  Aligned_cols=5  Identities=80%  Similarity=1.258  Sum_probs=0.0  Template_Neff=9.000
+
+Q LATVYL            1 LATVY    5 (6)
+Q Consensus         1 latvy    5 (6)
+                      .+|||
+T Consensus        68 ~~TVy   72 (161)
+T 6D57_A           68 IATVY   72 (161)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 7
+>4AAI_A ORF E73; VIRAL PROTEIN, EXTREMOPHILE, ARCHAEA, RIBBON-HELIX-HELIX; NMR {SULFOLOBUS VIRUS RAGGED HILLS}
+Probab=4.85  E-value=7.4e+02  Score=10.78  Aligned_cols=6  Identities=67%  Similarity=1.154  Sum_probs=0.0  Template_Neff=1.100
+
+Q LATVYL            1 LATVYL    6 (6)
+Q Consensus         1 latvyl    6 (6)
+                      |..|||
+T Consensus        26 lvsvyl   31 (73)
+T 4AAI_A           26 LVSVYL   31 (73)
+T ss_dssp             HHHHHT
+T ss_pred             HHHHHh
+
+
+No 8
+>5L0P_A Transcription factor ETV6,Transcription factor ETV6,Transcription; design, lattice, 2D, assembly, DE; 2.3A {Homo sapiens}
+Probab=4.64  E-value=7.8e+02  Score=11.35  Aligned_cols=5  Identities=100%  Similarity=1.338  Sum_probs=0.0  Template_Neff=7.700
+
+Q LATVYL            1 LATVY    5 (6)
+Q Consensus         1 latvy    5 (6)
+                      .+|||
+T Consensus       320 ~~TVY  324 (353)
+T 5L0P_A          320 LATVY  324 (353)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 9
+>5NBC_C Ferric uptake regulator family protein; Virulence factor, DNA binding protein; 1.699A {Francisella tularensis}
+Probab=4.62  E-value=7.9e+02  Score=8.92  Aligned_cols=5  Identities=80%  Similarity=1.258  Sum_probs=0.0  Template_Neff=9.700
+
+Q LATVYL            1 LATVY    5 (6)
+Q Consensus         1 latvy    5 (6)
+                      .+|||
+T Consensus        52 ~~tvy   56 (140)
+T 5NBC_C           52 IATVY   56 (140)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 10
+>5NHK_D Ferric uptake regulator family protein; Structure of Ferric uptake regulator; 1.8A {Francisella tularensis}
+Probab=4.62  E-value=7.9e+02  Score=8.92  Aligned_cols=5  Identities=80%  Similarity=1.258  Sum_probs=0.0  Template_Neff=9.700
+
+Q LATVYL            1 LATVY    5 (6)
+Q Consensus         1 latvy    5 (6)
+                      .+|||
+T Consensus        52 ~~tvy   56 (140)
+T 5NHK_D           52 IATVY   56 (140)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+

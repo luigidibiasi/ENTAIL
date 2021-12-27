@@ -1,0 +1,220 @@
+Query         MIHFGN
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 21:50:39 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/MIHFGN/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/MIHFGN/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4G1G_B Matrix protein; Beta st  53.1      12 0.00014   18.2   0.0    6    1-6     236-241 (364)
+  2 4G1G_A Matrix protein; Beta st  53.0      12 0.00014   18.1   0.0    6    1-6     236-241 (364)
+  3 4O5P_B Uncharacterized protein  48.5      16 0.00018   19.5   0.0    6    1-6     686-691 (884)
+  4 6BK6_A Hendra virus matrix pro  45.0      20 0.00022   17.7   0.0    6    1-6     254-259 (372)
+  5 6BXO_A Diphthamide biosynthesi  43.8      21 0.00024   15.6   0.0    6    1-6      78-83  (327)
+  6 6Q2E_A 2-(3-amino-3-carboxypro  37.8      31 0.00034   15.3   0.0    6    1-6      78-83  (337)
+  7 2W68_A SIALIDASE (E.C.3.2.1.18  34.3      38 0.00042   16.1   0.0    6    1-6     169-174 (195)
+  8 6BXO_B Diphthamide biosynthesi  33.9      39 0.00043   14.9   0.0    6    1-6      78-83  (327)
+  9 2W68_B SIALIDASE (E.C.3.2.1.18  33.5      40 0.00044   16.1   0.0    6    1-6     169-174 (195)
+ 10 2LQI_B CREB-binding protein (E  32.9      42 0.00046   13.8   0.0    6    1-6       3-8   (52)
+ 11 3LZC_A Dph2; Diphthamide biosy  31.5      45  0.0005   15.4   0.0    6    1-6     110-115 (378)
+ 12 2H6R_B Triosephosphate isomera  24.8      71 0.00079   12.2   0.0    6    1-6       1-6   (219)
+ 13 3LZC_B Dph2; Diphthamide biosy  24.6      72  0.0008   14.8   0.0    6    1-6     110-115 (378)
+ 14 3LZD_B Dph2; Diphthamide biosy  24.6      72  0.0008   14.8   0.0    6    1-6     110-115 (378)
+
+No 1
+>4G1G_B Matrix protein; Beta strand, Virus assembly, Membrane; 2.2A {Newcastle disease virus}
+Probab=53.13  E-value=12  Score=18.16  Aligned_cols=6  Identities=33%  Similarity=0.833  Sum_probs=4.6  Template_Neff=5.200
+
+Q MIHFGN            1 MIHFGN    6 (6)
+Q Consensus         1 mihfgn    6 (6)
+                      |+|.||
+T Consensus       236 ~vHigN  241 (364)
+T 4G1G_B          236 FLHIGL  241 (364)
+T ss_dssp             EEEEEE
+T ss_pred             EEEeec
+Confidence            678876
+
+
+No 2
+>4G1G_A Matrix protein; Beta strand, Virus assembly, Membrane; 2.2A {Newcastle disease virus}
+Probab=52.99  E-value=12  Score=18.14  Aligned_cols=6  Identities=33%  Similarity=0.833  Sum_probs=4.6  Template_Neff=5.200
+
+Q MIHFGN            1 MIHFGN    6 (6)
+Q Consensus         1 mihfgn    6 (6)
+                      |+|.||
+T Consensus       236 ~vHigN  241 (364)
+T 4G1G_A          236 FLHIGL  241 (364)
+T ss_dssp             EEEEEE
+T ss_pred             EEEEec
+Confidence            678886
+
+
+No 3
+>4O5P_B Uncharacterized protein; phospholipase effector, HYDROLASE; HET: MSE; 2.001A {Pseudomonas aeruginosa}
+Probab=48.46  E-value=16  Score=19.52  Aligned_cols=6  Identities=50%  Similarity=1.265  Sum_probs=4.7  Template_Neff=5.400
+
+Q MIHFGN            1 MIHFGN    6 (6)
+Q Consensus         1 mihfgn    6 (6)
+                      ||+|||
+T Consensus       686 mIyFg~  691 (884)
+T 4O5P_B          686 LVHFDN  691 (884)
+T ss_dssp             CEEETT
+T ss_pred             EEEeCC
+Confidence            788886
+
+
+No 4
+>6BK6_A Hendra virus matrix protein; Hendra virus, viral assembly, VIRAL; HET: CME; 2.5A {Hendra henipavirus}
+Probab=45.04  E-value=20  Score=17.73  Aligned_cols=6  Identities=67%  Similarity=1.414  Sum_probs=4.5  Template_Neff=4.800
+
+Q MIHFGN            1 MIHFGN    6 (6)
+Q Consensus         1 mihfgn    6 (6)
+                      |+|.||
+T Consensus       254 ~vHigN  259 (372)
+T 6BK6_A          254 MLHLGN  259 (372)
+T ss_dssp             EEEEEE
+T ss_pred             EEEecc
+Confidence            678876
+
+
+No 5
+>6BXO_A Diphthamide biosynthesis enzyme Dph2; DIPHTHAMIDE BIOSYNTHESIS, RADICAL SAM ENZYME; HET: SF4, SAH; 1.655A {Candidatus Methanoperedens nitroreducens}
+Probab=43.83  E-value=21  Score=15.59  Aligned_cols=6  Identities=50%  Similarity=1.364  Sum_probs=4.0  Template_Neff=8.100
+
+Q MIHFGN            1 MIHFGN    6 (6)
+Q Consensus         1 mihfgn    6 (6)
+                      .||||.
+T Consensus        78 iVH~Gh   83 (327)
+T 6BXO_A           78 LFHFGH   83 (327)
+T ss_dssp             EEEESS
+T ss_pred             EEEecC
+Confidence            478873
+
+
+No 6
+>6Q2E_A 2-(3-amino-3-carboxypropyl)histidine synthase (E.C.2.5.1.108); Radical, S-adenosylmethionine, enzyme, iron sulfur; HET: MTA, SF4; 1.768A {Methanobrevibacter smithii}
+Probab=37.79  E-value=31  Score=15.25  Aligned_cols=6  Identities=33%  Similarity=1.359  Sum_probs=3.9  Template_Neff=8.000
+
+Q MIHFGN            1 MIHFGN    6 (6)
+Q Consensus         1 mihfgn    6 (6)
+                      .||||.
+T Consensus        78 iVHfGh   83 (337)
+T 6Q2E_A           78 IVHYGH   83 (337)
+T ss_dssp             EEEESS
+T ss_pred             EEEecC
+Confidence            378873
+
+
+No 7
+>2W68_A SIALIDASE (E.C.3.2.1.18); CBM, SECRETED, HYDROLASE, GLYCOSIDASE, SIALIC; HET: BGC, SIA, GAL; 2.5A {VIBRIO CHOLERAE}
+Probab=34.27  E-value=38  Score=16.11  Aligned_cols=6  Identities=67%  Similarity=1.126  Sum_probs=4.2  Template_Neff=3.400
+
+Q MIHFGN            1 MIHFGN    6 (6)
+Q Consensus         1 mihfgn    6 (6)
+                      ||-|||
+T Consensus       169 ~I~wGN  174 (195)
+T 2W68_A          169 MIVWGN  174 (195)
+T ss_dssp             CEEEEE
+T ss_pred             eEEEcc
+Confidence            677776
+
+
+No 8
+>6BXO_B Diphthamide biosynthesis enzyme Dph2; DIPHTHAMIDE BIOSYNTHESIS, RADICAL SAM ENZYME; HET: SF4, SAH; 1.655A {Candidatus Methanoperedens nitroreducens}
+Probab=33.88  E-value=39  Score=14.89  Aligned_cols=6  Identities=50%  Similarity=1.364  Sum_probs=3.9  Template_Neff=8.000
+
+Q MIHFGN            1 MIHFGN    6 (6)
+Q Consensus         1 mihfgn    6 (6)
+                      .||||.
+T Consensus        78 iVH~Gh   83 (327)
+T 6BXO_B           78 LFHFGH   83 (327)
+T ss_dssp             EEEESS
+T ss_pred             EEEecc
+Confidence            378873
+
+
+No 9
+>2W68_B SIALIDASE (E.C.3.2.1.18); CBM, CALCIUM, SECRETED, HYDROLASE, GLYCOSIDASE; HET: SIA, BGC, GAL; 2.5A {VIBRIO CHOLERAE}
+Probab=33.54  E-value=40  Score=16.09  Aligned_cols=6  Identities=67%  Similarity=1.126  Sum_probs=4.2  Template_Neff=3.300
+
+Q MIHFGN            1 MIHFGN    6 (6)
+Q Consensus         1 mihfgn    6 (6)
+                      ||-|||
+T Consensus       169 ~I~wGN  174 (195)
+T 2W68_B          169 MIVWGN  174 (195)
+T ss_dssp             EEEEEE
+T ss_pred             eEEEec
+Confidence            677776
+
+
+No 10
+>2LQI_B CREB-binding protein (E.C.2.3.1.48), Forkhead box; promiscuous binding, intrinsic disorder, transcription; NMR {Mus musculus}
+Probab=32.85  E-value=42  Score=13.75  Aligned_cols=6  Identities=67%  Similarity=1.331  Sum_probs=4.0  Template_Neff=1.000
+
+Q MIHFGN            1 MIHFGN    6 (6)
+Q Consensus         1 mihfgn    6 (6)
+                      |-|+||
+T Consensus         3 mshygn    8 (52)
+T 2LQI_B            3 MSHYGN    8 (52)
+T ss_dssp             SSTTTT
+T ss_pred             cccccc
+Confidence            567776
+
+
+No 11
+>3LZC_A Dph2; Diphthamide biosynthesis, radical SAM enzyme; 2.261A {Pyrococcus horikoshii}
+Probab=31.46  E-value=45  Score=15.36  Aligned_cols=6  Identities=50%  Similarity=1.254  Sum_probs=3.9  Template_Neff=7.300
+
+Q MIHFGN            1 MIHFGN    6 (6)
+Q Consensus         1 mihfgn    6 (6)
+                      .||||.
+T Consensus       110 iVHfGh  115 (378)
+T 3LZC_A          110 LIHLGH  115 (378)
+T ss_dssp             EEEEEC
+T ss_pred             EEEecc
+Confidence            378873
+
+
+No 12
+>2H6R_B Triosephosphate isomerase (E.C.5.3.1.1); beta-alpha barrel, Isomerase; 2.3A {Methanocaldococcus jannaschii}
+Probab=24.78  E-value=71  Score=12.17  Aligned_cols=6  Identities=33%  Similarity=0.257  Sum_probs=2.8  Template_Neff=10.200
+
+Q MIHFGN            1 MIHFGN    6 (6)
+Q Consensus         1 mihfgn    6 (6)
+                      |+.+||
+T Consensus         1 ~~~~g~    6 (219)
+T 2H6R_B            1 MVIVIN    6 (219)
+T ss_dssp             CEEEEE
+T ss_pred             CeEEEE
+Confidence            344554
+
+
+No 13
+>3LZC_B Dph2; Diphthamide biosynthesis, radical SAM enzyme; 2.261A {Pyrococcus horikoshii}
+Probab=24.63  E-value=72  Score=14.76  Aligned_cols=6  Identities=50%  Similarity=1.254  Sum_probs=3.8  Template_Neff=7.300
+
+Q MIHFGN            1 MIHFGN    6 (6)
+Q Consensus         1 mihfgn    6 (6)
+                      .||||.
+T Consensus       110 iVHfGh  115 (378)
+T 3LZC_B          110 LIHLGH  115 (378)
+T ss_dssp             EEEEEC
+T ss_pred             EEEecC
+Confidence            367773
+
+
+No 14
+>3LZD_B Dph2; Diphthamide biosynthesis, radical SAM enzyme; HET: SF4, SO4; 2.1A {Pyrococcus horikoshii}
+Probab=24.63  E-value=72  Score=14.76  Aligned_cols=6  Identities=50%  Similarity=1.254  Sum_probs=3.8  Template_Neff=7.300
+
+Q MIHFGN            1 MIHFGN    6 (6)
+Q Consensus         1 mihfgn    6 (6)
+                      .||||.
+T Consensus       110 iVHfGh  115 (378)
+T 3LZD_B          110 LIHLGH  115 (378)
+T ss_dssp             EEEEEC
+T ss_pred             EEEecC
+Confidence            367773
+
+

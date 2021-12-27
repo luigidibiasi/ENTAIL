@@ -1,0 +1,203 @@
+Query         AGVNYF
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 14:07:44 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/AGVNYF/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/AGVNYF/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6QB2_A Monomer of SQT-1C; Engi  62.8     6.5 7.1E-05   16.5   0.0    6    1-6      56-61  (130)
+  2 6F1S_A CglIIR protein; restric  59.4     8.2 9.1E-05   17.0   0.0    6    1-6      18-23  (178)
+  3 6CI1_H Voltage-gated potassium  52.8      12 0.00014   15.1   0.0    6    1-6      44-49  (326)
+  4 1A80_A 2,5-DIKETO-D-GLUCONIC A  52.8      12 0.00014   15.0   0.0    6    1-6      38-43  (277)
+  5 3WBW_A Putative 2,5-diketo-D-g  42.5      23 0.00026   14.6   0.0    6    1-6      50-55  (282)
+  6 3WBX_B Putative 2,5-diketo-D-g  42.5      23 0.00026   14.6   0.0    6    1-6      50-55  (282)
+  7 3V0S_A Perakine reductase (E.C  41.5      25 0.00027   14.7   0.0    6    1-6      46-51  (337)
+  8 1KJN_A MTH0777; hypotethical p  29.1      53 0.00058   15.1   0.0    6    1-6      90-95  (157)
+  9 6BZG_B Protein ZIP2, Sporulati  28.3      56 0.00062   13.9   0.0    6    1-6     156-161 (206)
+ 10 6BZF_D Sporulation-specific pr  24.3      74 0.00081   13.6   0.0    6    1-6     156-161 (206)
+ 11 2QEZ_B Ethanolamine ammonia-ly  21.9      88 0.00097   16.6   0.0    6    1-6     387-392 (455)
+ 12 2QEZ_F Ethanolamine ammonia-ly  21.4      91   0.001   16.6   0.0    6    1-6     387-392 (455)
+ 13 5YSN_C Ethanolamine ammonia-ly  21.4      92   0.001   16.6   0.0    6    1-6     386-391 (453)
+
+No 1
+>6QB2_A Monomer of SQT-1C; Engineered Scaffold protein, De novo; 2.5A {synthetic construct}
+Probab=62.79  E-value=6.5  Score=16.53  Aligned_cols=6  Identities=50%  Similarity=1.082  Sum_probs=4.0  Template_Neff=5.600
+
+Q AGVNYF            1 AGVNYF    6 (6)
+Q Consensus         1 agvnyf    6 (6)
+                      ||+||+
+T Consensus        56 AGtNY~   61 (130)
+T 6QB2_A           56 ASTNYY   61 (130)
+T ss_dssp             SCEEEE
+T ss_pred             CCeEEE
+Confidence            477774
+
+
+No 2
+>6F1S_A CglIIR protein; restriction endonuclease, NTPase, HYDROLASE; HET: MSE; 2.4A {Corynebacterium glutamicum}
+Probab=59.36  E-value=8.2  Score=17.04  Aligned_cols=6  Identities=83%  Similarity=1.614  Sum_probs=4.5  Template_Neff=5.400
+
+Q AGVNYF            1 AGVNYF    6 (6)
+Q Consensus         1 agvnyf    6 (6)
+                      .|+|||
+T Consensus        18 gG~nyf   23 (178)
+T 6F1S_A           18 GGVNYF   23 (178)
+T ss_dssp             TTCEEE
+T ss_pred             CCcccC
+Confidence            478887
+
+
+No 3
+>6CI1_H Voltage-gated potassium channel subunit beta-2; Kv Channel, Regulator, Complex, OXIDOREDUCTASE; 4.9A {Rattus norvegicus}
+Probab=52.81  E-value=12  Score=15.11  Aligned_cols=6  Identities=50%  Similarity=1.121  Sum_probs=3.4  Template_Neff=10.000
+
+Q AGVNYF            1 AGVNYF    6 (6)
+Q Consensus         1 agvnyf    6 (6)
+                      +|+|+|
+T Consensus        44 ~Gi~~~   49 (326)
+T 6CI1_H           44 NGINLF   49 (326)
+T ss_pred             cCCCEE
+Confidence            366665
+
+
+No 4
+>1A80_A 2,5-DIKETO-D-GLUCONIC ACID REDUCTASE A, NADP; OXIDOREDUCTASE, ALPHA8/BETA8 BARREL, 2, 5-DIKETO-D-GLUCONIC; HET: NDP; 2.1A {Corynebacterium sp.} SCOP: c.1.7.1
+Probab=52.81  E-value=12  Score=15.02  Aligned_cols=6  Identities=17%  Similarity=0.263  Sum_probs=3.4  Template_Neff=9.600
+
+Q AGVNYF            1 AGVNYF    6 (6)
+Q Consensus         1 agvnyf    6 (6)
+                      +|+|||
+T Consensus        38 ~Gi~~~   43 (277)
+T 1A80_A           38 VGYRHI   43 (277)
+T ss_dssp             HTCCEE
+T ss_pred             hCCCEE
+Confidence            366664
+
+
+No 5
+>3WBW_A Putative 2,5-diketo-D-gluconic acid reductase (E.C.1.1.1.-); Aldo-Keto reductase (AKR), reductase, NADPH; HET: NDP, SO4; 1.85A {Gluconobacter oxydans}
+Probab=42.49  E-value=23  Score=14.61  Aligned_cols=6  Identities=17%  Similarity=0.157  Sum_probs=3.4  Template_Neff=9.100
+
+Q AGVNYF            1 AGVNYF    6 (6)
+Q Consensus         1 agvnyf    6 (6)
+                      +|+|+|
+T Consensus        50 ~Gin~~   55 (282)
+T 3WBW_A           50 LGYRSV   55 (282)
+T ss_dssp             HTCCEE
+T ss_pred             cCCCEE
+Confidence            366664
+
+
+No 6
+>3WBX_B Putative 2,5-diketo-D-gluconic acid reductase (E.C.1.1.1.-); Aldo-keto reductase (AKR), reductase, NADPH; HET: SO4; 2.4A {Gluconobacter oxydans}
+Probab=42.49  E-value=23  Score=14.61  Aligned_cols=6  Identities=17%  Similarity=0.157  Sum_probs=3.4  Template_Neff=9.100
+
+Q AGVNYF            1 AGVNYF    6 (6)
+Q Consensus         1 agvnyf    6 (6)
+                      +|+|+|
+T Consensus        50 ~Gin~~   55 (282)
+T 3WBX_B           50 LGYRSV   55 (282)
+T ss_dssp             HTCCEE
+T ss_pred             cCCCEE
+Confidence            366664
+
+
+No 7
+>3V0S_A Perakine reductase (E.C.1.1.1.-); Perakine Reductase, AKR superfamily, OXIDOREDUCTASE; HET: ATR; 1.773A {Rauvolfia serpentina}
+Probab=41.48  E-value=25  Score=14.66  Aligned_cols=6  Identities=33%  Similarity=1.265  Sum_probs=3.1  Template_Neff=9.500
+
+Q AGVNYF            1 AGVNYF    6 (6)
+Q Consensus         1 agvnyf    6 (6)
+                      +|+|+|
+T Consensus        46 ~Gi~~~   51 (337)
+T 3V0S_A           46 CGITFF   51 (337)
+T ss_dssp             TTCCEE
+T ss_pred             CCCCeE
+Confidence            355554
+
+
+No 8
+>1KJN_A MTH0777; hypotethical protein, structural genomics, PSI; HET: MSE; 2.2A {Methanothermobacter thermautotrophicus} SCOP: c.115.1.1
+Probab=29.12  E-value=53  Score=15.12  Aligned_cols=6  Identities=33%  Similarity=0.695  Sum_probs=3.6  Template_Neff=3.700
+
+Q AGVNYF            1 AGVNYF    6 (6)
+Q Consensus         1 agvnyf    6 (6)
+                      ||++|+
+T Consensus        90 agvsY~   95 (157)
+T 1KJN_A           90 AAAAYL   95 (157)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            466664
+
+
+No 9
+>6BZG_B Protein ZIP2, Sporulation-specific protein 16; XPF-ERCC1, Meiosis, Recombination, DNA BINDING; HET: P6G, SO4; 2.13A {Saccharomyces cerevisiae}
+Probab=28.27  E-value=56  Score=13.90  Aligned_cols=6  Identities=33%  Similarity=0.589  Sum_probs=3.1  Template_Neff=7.300
+
+Q AGVNYF            1 AGVNYF    6 (6)
+Q Consensus         1 agvnyf    6 (6)
+                      +|.|.|
+T Consensus       156 ~GmN~f  161 (206)
+T 6BZG_B          156 LGFNIL  161 (206)
+T ss_pred             cCCCHH
+Confidence            355654
+
+
+No 10
+>6BZF_D Sporulation-specific protein 16, Protein ZIP2; XPF-ERCC1 Meiosis Recombination, DNA BINDING; HET: MLY, M0H; 2.286A {Saccharomyces cerevisiae}
+Probab=24.31  E-value=74  Score=13.61  Aligned_cols=6  Identities=33%  Similarity=0.589  Sum_probs=3.0  Template_Neff=7.200
+
+Q AGVNYF            1 AGVNYF    6 (6)
+Q Consensus         1 agvnyf    6 (6)
+                      +|.|.|
+T Consensus       156 ~G~N~f  161 (206)
+T 6BZF_D          156 LGFNIL  161 (206)
+T ss_dssp             TTCCHH
+T ss_pred             cCCCHH
+Confidence            355554
+
+
+No 11
+>2QEZ_B Ethanolamine ammonia-lyase heavy chain (E.C.4.3.1.7); YP_013784.1, ethanolamine ammonia-lyase heavy chain; HET: GOL, MSE; 2.15A {Listeria monocytogenes serotype 4b}
+Probab=21.91  E-value=88  Score=16.62  Aligned_cols=6  Identities=50%  Similarity=1.049  Sum_probs=4.0  Template_Neff=3.400
+
+Q AGVNYF            1 AGVNYF    6 (6)
+Q Consensus         1 agvnyf    6 (6)
+                      ||+||+
+T Consensus       387 AG~ny~  392 (455)
+T 2QEZ_B          387 AGCNFI  392 (455)
+T ss_dssp             TTCCBE
+T ss_pred             cCCCEE
+Confidence            577774
+
+
+No 12
+>2QEZ_F Ethanolamine ammonia-lyase heavy chain (E.C.4.3.1.7); YP_013784.1, ethanolamine ammonia-lyase heavy chain; HET: GOL; 2.15A {Listeria monocytogenes serotype 4b}
+Probab=21.45  E-value=91  Score=16.60  Aligned_cols=6  Identities=50%  Similarity=1.049  Sum_probs=4.0  Template_Neff=3.300
+
+Q AGVNYF            1 AGVNYF    6 (6)
+Q Consensus         1 agvnyf    6 (6)
+                      ||+||+
+T Consensus       387 AG~n~~  392 (455)
+T 2QEZ_F          387 AGCNFI  392 (455)
+T ss_dssp             TTCCBE
+T ss_pred             cCCCEE
+Confidence            577774
+
+
+No 13
+>5YSN_C Ethanolamine ammonia-lyase heavy chain (E.C.4.3.1.7); Adenosylcobalamin, Radical enzyme, LYASE; HET: 5AD, GOL, B12; 2.001A {Escherichia coli (strain K12)}
+Probab=21.40  E-value=92  Score=16.55  Aligned_cols=6  Identities=67%  Similarity=1.198  Sum_probs=3.9  Template_Neff=3.400
+
+Q AGVNYF            1 AGVNYF    6 (6)
+Q Consensus         1 agvnyf    6 (6)
+                      ||+||+
+T Consensus       386 AG~ny~  391 (453)
+T 5YSN_C          386 AGCNYI  391 (453)
+T ss_dssp             TTCCEE
+T ss_pred             cCCCEE
+Confidence            577774
+
+

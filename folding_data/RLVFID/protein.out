@@ -1,0 +1,155 @@
+Query         RLVFID
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 12:24:11 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/RLVFID/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/RLVFID/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 1U02_A trehalose-6-phosphate p  30.8      47 0.00052   12.7   0.0    6    1-6       2-7   (239)
+  2 3B77_A Uncharacterized protein  26.1      65 0.00072   14.3   0.0    6    1-6      47-52  (193)
+  3 3B77_F Uncharacterized protein  25.0      70 0.00078   14.6   0.0    6    1-6      47-52  (193)
+  4 7AJT_UR rRNA 2'-O-methyltransf  24.9      70 0.00078   14.1   0.0    6    1-6      83-88  (594)
+  5 1W7P_D VPS22, YPL002C, VPS25,   24.2      74 0.00082   15.7   0.0    6    1-6      53-58  (566)
+  6 7EEB_K Enhanced green fluoresc  24.0      75 0.00083   15.4   0.0    6    1-6     188-193 (194)
+  7 2I7X_A Protein CFT2; polyadeny  23.5      78 0.00087   15.3   0.0    6    1-6     654-659 (717)
+  8 5N5N_E Tubulin beta chain, Tub  22.9      81  0.0009   13.8   0.0    6    1-6      62-67  (426)
+  9 6LTH_R Transcription activator  21.8      89 0.00099   13.4   0.0    6    1-6      38-43  (391)
+ 10 2BTQ_B TUBULIN BTUBA, TUBULIN   21.6      90   0.001   13.5   0.0    6    1-6      63-68  (426)
+
+No 1
+>1U02_A trehalose-6-phosphate phosphatase related protein; Structural genomics, Phosphatase, PSI, Protein; HET: MSE, GOL; 1.92A {Thermoplasma acidophilum} SCOP: c.108.1.15
+Probab=30.83  E-value=47  Score=12.69  Aligned_cols=6  Identities=50%  Similarity=1.187  Sum_probs=2.8  Template_Neff=10.400
+
+Q RLVFID            1 RLVFID    6 (6)
+Q Consensus         1 rlvfid    6 (6)
+                      |++|+|
+T Consensus         2 ~~i~~D    7 (239)
+T 1U02_A            2 SLIFLD    7 (239)
+T ss_dssp             CEEEEE
+T ss_pred             eEEEEC
+Confidence            345544
+
+
+No 2
+>3B77_A Uncharacterized protein; Pleckstrin-homology domain, structural genomics, Joint; 2.42A {Exiguobacterium sibiricum} SCOP: b.55.1.13
+Probab=26.08  E-value=65  Score=14.34  Aligned_cols=6  Identities=50%  Similarity=0.789  Sum_probs=2.8  Template_Neff=5.800
+
+Q RLVFID            1 RLVFID    6 (6)
+Q Consensus         1 rlvfid    6 (6)
+                      ||+|+|
+T Consensus        47 RLI~vd   52 (193)
+T 3B77_A           47 ALVHLD   52 (193)
+T ss_dssp             EEEEEE
+T ss_pred             eEEEEc
+Confidence            455543
+
+
+No 3
+>3B77_F Uncharacterized protein; Pleckstrin-homology domain, structural genomics, Joint; HET: MSE; 2.42A {Exiguobacterium sibiricum} SCOP: b.55.1.13
+Probab=24.97  E-value=70  Score=14.61  Aligned_cols=6  Identities=50%  Similarity=0.789  Sum_probs=3.1  Template_Neff=5.000
+
+Q RLVFID            1 RLVFID    6 (6)
+Q Consensus         1 rlvfid    6 (6)
+                      ||+|+|
+T Consensus        47 RLI~vD   52 (193)
+T 3B77_F           47 ALVHLD   52 (193)
+T ss_dssp             EEEEEE
+T ss_pred             eEEEEc
+Confidence            455554
+
+
+No 4
+>7AJT_UR rRNA 2'-O-methyltransferase fibrillarin, 40S ribosomal; Ribosome, Ribosome biogenesis, Exosome, 90S; HET: GTP; 4.6A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=24.92  E-value=70  Score=14.09  Aligned_cols=6  Identities=50%  Similarity=1.132  Sum_probs=3.3  Template_Neff=10.200
+
+Q RLVFID            1 RLVFID    6 (6)
+Q Consensus         1 rlvfid    6 (6)
+                      +|.|+|
+T Consensus        83 ~l~~~d   88 (594)
+T 7AJT_UR          83 QLFFVD   88 (594)
+T ss_pred             hceeee
+Confidence            355655
+
+
+No 5
+>1W7P_D VPS22, YPL002C, VPS25, YJR102C, VPS36P; ESCRT-II COMPLEX, ENDOSOMAL PROTEIN SORTING; 3.6A {SACCHAROMYCES CEREVISIAE} SCOP: a.4.5.54
+Probab=24.16  E-value=74  Score=15.66  Aligned_cols=6  Identities=50%  Similarity=1.353  Sum_probs=3.4  Template_Neff=7.000
+
+Q RLVFID            1 RLVFID    6 (6)
+Q Consensus         1 rlvfid    6 (6)
+                      ||+|+|
+T Consensus        53 RlIyv~   58 (566)
+T 1W7P_D           53 RIIYID   58 (566)
+T ss_pred             EEEEeC
+Confidence            556654
+
+
+No 6
+>7EEB_K Enhanced green fluorescent protein,Cation channel; ion channel, membrane protein, calcium; HET: NAG, BMA, 9Z9; 2.9A {Mus musculus}
+Probab=24.03  E-value=75  Score=15.38  Aligned_cols=6  Identities=67%  Similarity=1.226  Sum_probs=4.3  Template_Neff=2.800
+
+Q RLVFID            1 RLVFID    6 (6)
+Q Consensus         1 rlvfid    6 (6)
+                      ||+|+|
+T Consensus       188 ~l~~~~  193 (194)
+T 7EEB_K          188 RLYFLD  193 (194)
+T ss_pred             cceecc
+Confidence            577876
+
+
+No 7
+>2I7X_A Protein CFT2; polyadenylation, metallo-B-lactamase, pre-mRNA processing, Artemis; 2.5A {Saccharomyces cerevisiae} SCOP: d.157.1.10
+Probab=23.47  E-value=78  Score=15.31  Aligned_cols=6  Identities=17%  Similarity=0.611  Sum_probs=3.4  Template_Neff=8.400
+
+Q RLVFID            1 RLVFID    6 (6)
+Q Consensus         1 rlvfid    6 (6)
+                      |+.|||
+T Consensus       654 ~v~fiD  659 (717)
+T 2I7X_A          654 SVVILN  659 (717)
+T ss_dssp             EEEECC
+T ss_pred             EEEEEe
+Confidence            355665
+
+
+No 8
+>5N5N_E Tubulin beta chain, Tubulin alpha-1B; Microtubules Dynamics Tubulin Isoform, structural; HET: MG, G2P, GTP; 4.0A {Homo sapiens}
+Probab=22.93  E-value=81  Score=13.77  Aligned_cols=6  Identities=33%  Similarity=0.910  Sum_probs=2.9  Template_Neff=9.300
+
+Q RLVFID            1 RLVFID    6 (6)
+Q Consensus         1 rlvfid    6 (6)
+                      |.|+||
+T Consensus        62 R~l~vD   67 (426)
+T 5N5N_E           62 RAILVD   67 (426)
+T ss_pred             ceEEEc
+Confidence            445554
+
+
+No 9
+>6LTH_R Transcription activator BRG1 (E.C.3.6.4.-), AT-rich; Chromatin remodeler, Complex, GENE REGULATION;{Homo sapiens}
+Probab=21.75  E-value=89  Score=13.39  Aligned_cols=6  Identities=67%  Similarity=1.187  Sum_probs=3.3  Template_Neff=9.500
+
+Q RLVFID            1 RLVFID    6 (6)
+Q Consensus         1 rlvfid    6 (6)
+                      ||=|+|
+T Consensus        38 r~pfld   43 (391)
+T 6LTH_R           38 RLPFLD   43 (391)
+T ss_pred             cCCccc
+Confidence            455665
+
+
+No 10
+>2BTQ_B TUBULIN BTUBA, TUBULIN BTUBB; STRUCTURAL PROTEIN, CYTOSKELETAL PROTEIN-COMPLEX, BACTERIAL; HET: GDP, SO4; 3.2A {PROSTHECOBACTER DEJONGEII}
+Probab=21.63  E-value=90  Score=13.54  Aligned_cols=6  Identities=50%  Similarity=0.927  Sum_probs=2.8  Template_Neff=9.500
+
+Q RLVFID            1 RLVFID    6 (6)
+Q Consensus         1 rlvfid    6 (6)
+                      |.++||
+T Consensus        63 R~i~vD   68 (426)
+T 2BTQ_B           63 RAVLVD   68 (426)
+T ss_dssp             CEEEEE
+T ss_pred             ceEEec
+Confidence            345554
+
+

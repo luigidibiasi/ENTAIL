@@ -1,0 +1,188 @@
+Query         PAGGYY
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 05:33:32 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/PAGGYY/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/PAGGYY/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 7O71_i Complex I, NADH dehydro  67.6     4.5   5E-05   16.9   0.0    6    1-6      15-20  (90)
+  2 6YJ4_i NADH-ubiquinone oxidore  61.3     7.2 7.9E-05   16.7   0.0    6    1-6      15-20  (90)
+  3 1ZNP_G hypothetical protein At  55.0      11 0.00012   15.9   0.0    6    1-6      20-25  (154)
+  4 1YUD_D hypothetical protein SO  47.6      17 0.00019   15.5   0.0    6    1-6      27-32  (170)
+  5 1XE7_A Hypothetical 22.5 kDa p  46.4      18  0.0002   15.9   0.0    6    1-6      43-48  (203)
+  6 1XE8_B Hypothetical 22.5 kDa p  45.0      20 0.00022   15.8   0.0    6    1-6      43-48  (203)
+  7 3M3I_D Putative uncharacterize  38.2      30 0.00033   15.8   0.0    6    1-6      34-39  (225)
+  8 7CUS_A Flagellar hook-associat  37.7      31 0.00034   16.0   0.0    6    1-6     108-113 (221)
+  9 4R7Q_A Sensor histidine kinase  35.8      35 0.00038   15.9   0.0    6    1-6     106-111 (222)
+ 10 7LA6_A Sensor histidine kinase  35.4      35 0.00039   15.9   0.0    6    1-6     106-111 (221)
+ 11 4DWD_A Mandelate racemase/muco  22.9      81  0.0009   13.8   0.0    6    1-6     380-385 (393)
+ 12 1ZKD_A DUF185; NESG, RpR58, St  21.0      95   0.001   14.3   0.0    6    1-6      34-39  (387)
+
+No 1
+>7O71_i Complex I, NADH dehydrogenase, Mitochondrion; HET: CDL, SF4, T7X, 2MR, 3PE, NDP, ZMP, CPL, PLC, FMN, FME, LMN; 2.4A {Yarrowia lipolytica}
+Probab=67.61  E-value=4.5  Score=16.90  Aligned_cols=6  Identities=33%  Similarity=1.088  Sum_probs=4.3  Template_Neff=4.100
+
+Q PAGGYY            1 PAGGYY    6 (6)
+Q Consensus         1 paggyy    6 (6)
+                      |+||+|
+T Consensus        15 PaGGWw   20 (90)
+T 7O71_i           15 MTGGWW   20 (90)
+T ss_pred             CCCCCc
+Confidence            678875
+
+
+No 2
+>6YJ4_i NADH-ubiquinone oxidoreductase chain 3 (E.C.7.1.1.2); NADH:Ubiquinone Oxidoreductase, complex I, MEMBRANE; HET: SF4, FME, 2MR, PLC, FMN, NDP, EHZ, CDL, 3PE, LMT; 2.7A {Yarrowia lipolytica}
+Probab=61.29  E-value=7.2  Score=16.70  Aligned_cols=6  Identities=33%  Similarity=1.088  Sum_probs=4.2  Template_Neff=3.200
+
+Q PAGGYY            1 PAGGYY    6 (6)
+Q Consensus         1 paggyy    6 (6)
+                      |+||+|
+T Consensus        15 PaGGWw   20 (90)
+T 6YJ4_i           15 MTGGWW   20 (90)
+T ss_pred             CCCCCc
+Confidence            678765
+
+
+No 3
+>1ZNP_G hypothetical protein Atu3615; NESG, ATR55, Q8U9W0, Structural Genomics; HET: MSE; 2.5A {Agrobacterium tumefaciens str. C58} SCOP: b.82.1.16
+Probab=54.95  E-value=11  Score=15.93  Aligned_cols=6  Identities=67%  Similarity=1.868  Sum_probs=4.1  Template_Neff=6.200
+
+Q PAGGYY            1 PAGGYY    6 (6)
+Q Consensus         1 paggyy    6 (6)
+                      |.||||
+T Consensus        20 ~EGG~f   25 (154)
+T 1ZNP_G           20 PEGGFY   25 (154)
+T ss_dssp             TTSSEE
+T ss_pred             CCCceE
+Confidence            457876
+
+
+No 4
+>1YUD_D hypothetical protein SO0799; SoR12, Q8E1N8, PSI, Protein Structure; HET: MSE; 2.7A {Shewanella oneidensis} SCOP: b.82.1.16
+Probab=47.57  E-value=17  Score=15.46  Aligned_cols=6  Identities=50%  Similarity=1.348  Sum_probs=3.9  Template_Neff=6.400
+
+Q PAGGYY            1 PAGGYY    6 (6)
+Q Consensus         1 paggyy    6 (6)
+                      |.||||
+T Consensus        27 ~EGG~f   32 (170)
+T 1YUD_D           27 VEGGFY   32 (170)
+T ss_dssp             SSSSEE
+T ss_pred             CCCccE
+Confidence            457776
+
+
+No 5
+>1XE7_A Hypothetical 22.5 kDa protein in; jelly roll motif, cupin superfamily; HET: GUN, EDO; 1.75A {Saccharomyces cerevisiae} SCOP: b.82.1.16
+Probab=46.43  E-value=18  Score=15.91  Aligned_cols=6  Identities=50%  Similarity=1.398  Sum_probs=3.8  Template_Neff=6.100
+
+Q PAGGYY            1 PAGGYY    6 (6)
+Q Consensus         1 paggyy    6 (6)
+                      |.||||
+T Consensus        43 pEGG~f   48 (203)
+T 1XE7_A           43 REGGYF   48 (203)
+T ss_dssp             TTSSEE
+T ss_pred             CCCCcE
+Confidence            457775
+
+
+No 6
+>1XE8_B Hypothetical 22.5 kDa protein in; jelly roll motif, cupin superfamily; HET: CIT, ADE; 2.8A {Saccharomyces cerevisiae} SCOP: b.82.1.16
+Probab=44.96  E-value=20  Score=15.80  Aligned_cols=6  Identities=50%  Similarity=1.398  Sum_probs=3.7  Template_Neff=6.100
+
+Q PAGGYY            1 PAGGYY    6 (6)
+Q Consensus         1 paggyy    6 (6)
+                      |.||||
+T Consensus        43 pEGG~f   48 (203)
+T 1XE8_B           43 REGGYF   48 (203)
+T ss_dssp             TTSSEE
+T ss_pred             CCCCcE
+Confidence            457775
+
+
+No 7
+>3M3I_D Putative uncharacterized protein; Pfam:PF06172, Structural Genomics, Structural Genomics; 2.35A {Leishmania major}
+Probab=38.20  E-value=30  Score=15.85  Aligned_cols=6  Identities=83%  Similarity=2.018  Sum_probs=3.9  Template_Neff=5.400
+
+Q PAGGYY            1 PAGGYY    6 (6)
+Q Consensus         1 paggyy    6 (6)
+                      |.||||
+T Consensus        34 pEGGyf   39 (225)
+T 3M3I_D           34 PEGGYY   39 (225)
+T ss_dssp             TTSSEE
+T ss_pred             CCCCcE
+Confidence            457776
+
+
+No 8
+>7CUS_A Flagellar hook-associated protein 2; sensor domain, beta-lactam antibiotic receptor; 1.65A {Vibrio parahaemolyticus}
+Probab=37.68  E-value=31  Score=15.96  Aligned_cols=6  Identities=67%  Similarity=1.508  Sum_probs=3.8  Template_Neff=5.000
+
+Q PAGGYY            1 PAGGYY    6 (6)
+Q Consensus         1 paggyy    6 (6)
+                      |+||-|
+T Consensus       108 P~GGSY  113 (221)
+T 7CUS_A          108 PGGGTY  113 (221)
+T ss_dssp             TTSSBH
+T ss_pred             CCCccH
+Confidence            677754
+
+
+No 9
+>4R7Q_A Sensor histidine kinase; structural genomics, The Center for; HET: SO4; 1.981A {Vibrio cholerae O1 biovar El Tor str. N16961}
+Probab=35.80  E-value=35  Score=15.91  Aligned_cols=6  Identities=67%  Similarity=1.508  Sum_probs=3.8  Template_Neff=4.800
+
+Q PAGGYY            1 PAGGYY    6 (6)
+Q Consensus         1 paggyy    6 (6)
+                      |+||-|
+T Consensus       106 P~GGSY  111 (222)
+T 4R7Q_A          106 PGGGTY  111 (222)
+T ss_dssp             TTSSBH
+T ss_pred             CCCccH
+Confidence            677754
+
+
+No 10
+>7LA6_A Sensor histidine kinase; VXRA, TWO-COMPONENT SYSTEM, HISTIDINE KINASE; HET: PG4, SO4, GOL, PEG; 1.98A {Vibrio cholerae serotype O1 (strain ATCC 39315 / El Tor Inaba N16961)}
+Probab=35.43  E-value=35  Score=15.92  Aligned_cols=6  Identities=67%  Similarity=1.508  Sum_probs=3.9  Template_Neff=4.700
+
+Q PAGGYY            1 PAGGYY    6 (6)
+Q Consensus         1 paggyy    6 (6)
+                      |+||-|
+T Consensus       106 P~GGSY  111 (221)
+T 7LA6_A          106 PGGGTY  111 (221)
+T ss_dssp             TTSSBH
+T ss_pred             CCCccH
+Confidence            677754
+
+
+No 11
+>4DWD_A Mandelate racemase/muconate lactonizing enzyme, C-terminal; STRUCTURAL GENOMICS, EFI, Enzyme Function; HET: MSE; 1.5A {Paracoccus denitrificans}
+Probab=22.95  E-value=81  Score=13.78  Aligned_cols=6  Identities=83%  Similarity=1.625  Sum_probs=0.0  Template_Neff=9.000
+
+Q PAGGYY            1 PAGGYY    6 (6)
+Q Consensus         1 paggyy    6 (6)
+                      |+||-|
+T Consensus       380 ~~~~~~  385 (393)
+T 4DWD_A          380 PAGGQY  385 (393)
+T ss_dssp             ------
+T ss_pred             CCCCcc
+Confidence            456654
+
+
+No 12
+>1ZKD_A DUF185; NESG, RpR58, Structural Genomics, PSI; 2.1A {Rhodopseudomonas palustris} SCOP: c.66.1.52
+Probab=20.96  E-value=95  Score=14.30  Aligned_cols=6  Identities=67%  Similarity=1.575  Sum_probs=3.3  Template_Neff=7.600
+
+Q PAGGYY            1 PAGGYY    6 (6)
+Q Consensus         1 paggyy    6 (6)
+                      |..|||
+T Consensus        34 p~~GYY   39 (387)
+T 1ZKD_A           34 PEHGYY   39 (387)
+T ss_dssp             TTTCTT
+T ss_pred             CCCCcc
+Confidence            345666
+
+

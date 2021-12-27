@@ -1,0 +1,154 @@
+Query         GGGGNN
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 00:06:55 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GGGGNN/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GGGGNN/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2VAW_A CELL DIVISION PROTEIN F  25.6      67 0.00075   14.5   0.0    6    1-6      20-25  (394)
+  2 5BMT_A Uncharacterized protein  23.6      77 0.00086   15.2   0.0    6    1-6       1-6   (239)
+  3 3V3T_A Cell division GTPase Ft  21.6      90   0.001   14.1   0.0    6    1-6      13-18  (360)
+  4 5ZUE_A Cell division protein F  20.9      95  0.0011   13.7   0.0    6    1-6      17-22  (379)
+  5 4M8I_A Cell division protein F  20.0   1E+02  0.0011   13.8   0.0    6    1-6      26-31  (400)
+  6 2DG2_B Apolipoprotein A-I bind  19.1 1.1E+02  0.0012   13.7   0.0    5    2-6      87-91  (265)
+  7 3RB8_A Putative uncharacterize  18.5 1.2E+02  0.0013   13.7   0.0    6    1-6      11-16  (315)
+  8 1JZT_A Hypothetical 27.5 kDa p  18.3 1.2E+02  0.0013   13.1   0.0    5    2-6      66-70  (246)
+  9 2R6R_1 Cell division protein f  18.1 1.2E+02  0.0013   12.8   0.0    6    1-6      16-21  (338)
+ 10 4PY9_A Putative exopolyphospha  17.9 1.2E+02  0.0013   12.7   0.0    4    1-4     307-310 (343)
+
+No 1
+>2VAW_A CELL DIVISION PROTEIN FTSZ; BACTERIAL CELL DIVISION PROTEIN, TUBULIN; HET: GDP; 2.9A {PSEUDOMONAS AERUGINOSA} SCOP: c.32.1.1, d.79.2.1
+Probab=25.55  E-value=67  Score=14.51  Aligned_cols=6  Identities=83%  Similarity=1.697  Sum_probs=2.8  Template_Neff=8.100
+
+Q GGGGNN            1 GGGGNN    6 (6)
+Q Consensus         1 ggggnn    6 (6)
+                      ||+|+|
+T Consensus        20 Gg~G~n   25 (394)
+T 2VAW_A           20 GGGGGN   25 (394)
+T ss_pred             ChHHHH
+Confidence            455543
+
+
+No 2
+>5BMT_A Uncharacterized protein; immunoglobulin-like fold, Structural Genomics, Joint; HET: MSE, CXS, SO4, EDO; 1.5A {Parabacteroides merdae ATCC 43184}
+Probab=23.61  E-value=77  Score=15.24  Aligned_cols=6  Identities=67%  Similarity=1.337  Sum_probs=0.4  Template_Neff=4.200
+
+Q GGGGNN            1 GGGGNN    6 (6)
+Q Consensus         1 ggggnn    6 (6)
+                      |.||+|
+T Consensus         1 ~dg~~N    6 (239)
+T 5BMT_A            1 GDGGGN    6 (239)
+T ss_dssp             -----C
+T ss_pred             CCCCcc
+Confidence            455544
+
+
+No 3
+>3V3T_A Cell division GTPase FtsZ, diverged; TubZ, tubulin/FtsZ related, Rossmann fold; 2.302A {Clostridium botulinum C}
+Probab=21.62  E-value=90  Score=14.07  Aligned_cols=6  Identities=67%  Similarity=1.276  Sum_probs=2.7  Template_Neff=7.900
+
+Q GGGGNN            1 GGGGNN    6 (6)
+Q Consensus         1 ggggnn    6 (6)
+                      ||+|+|
+T Consensus        13 Gg~G~~   18 (360)
+T 3V3T_A           13 GQGGGN   18 (360)
+T ss_dssp             SHHHHH
+T ss_pred             CcHHHH
+Confidence            444543
+
+
+No 4
+>5ZUE_A Cell division protein FtsZ; FtsZ, GTPase, Bacterial cell division; HET: GTP; 2.7A {Mycobacterium tuberculosis H37Rv}
+Probab=20.92  E-value=95  Score=13.68  Aligned_cols=6  Identities=83%  Similarity=1.553  Sum_probs=2.6  Template_Neff=8.700
+
+Q GGGGNN            1 GGGGNN    6 (6)
+Q Consensus         1 ggggnn    6 (6)
+                      ||+|+|
+T Consensus        17 Gg~G~~   22 (379)
+T 5ZUE_A           17 GGGGVN   22 (379)
+T ss_dssp             HHHHHH
+T ss_pred             CHHHHH
+Confidence            444543
+
+
+No 5
+>4M8I_A Cell division protein FtsZ; Center for Structural Genomics of; HET: GDP; 1.43A {Staphylococcus epidermidis}
+Probab=20.05  E-value=1e+02  Score=13.80  Aligned_cols=6  Identities=100%  Similarity=1.885  Sum_probs=2.7  Template_Neff=8.500
+
+Q GGGGNN            1 GGGGNN    6 (6)
+Q Consensus         1 ggggnn    6 (6)
+                      ||+|+|
+T Consensus        26 Gg~G~~   31 (400)
+T 4M8I_A           26 GGGGNN   31 (400)
+T ss_dssp             HHHHHH
+T ss_pred             CHHHHH
+Confidence            444543
+
+
+No 6
+>2DG2_B Apolipoprotein A-I binding protein; Disordered N-terminus, PROTEIN BINDING; HET: SO4, MSE; 2.45A {Mus musculus}
+Probab=19.11  E-value=1.1e+02  Score=13.73  Aligned_cols=5  Identities=80%  Similarity=1.278  Sum_probs=0.0  Template_Neff=6.900
+
+Q GGGGNN            2 GGGNN    6 (6)
+Q Consensus         2 gggnn    6 (6)
+                      |.|||
+T Consensus        87 G~GnN   91 (265)
+T 2DG2_B           87 GPGNN   91 (265)
+T ss_dssp             CSSHH
+T ss_pred             CCCCc
+
+
+No 7
+>3RB8_A Putative uncharacterized protein; Tubulin, UNKNOWN FUNCTION; HET: MSE, GDP; 2.6A {Pseudomonas phage 201phi2-1}
+Probab=18.52  E-value=1.2e+02  Score=13.70  Aligned_cols=6  Identities=67%  Similarity=1.127  Sum_probs=0.0  Template_Neff=7.500
+
+Q GGGGNN            1 GGGGNN    6 (6)
+Q Consensus         1 ggggnn    6 (6)
+                      ||+|+|
+T Consensus        11 Gg~G~~   16 (315)
+T 3RB8_A           11 GGTGMN   16 (315)
+T ss_dssp             HHHHHH
+T ss_pred             CcHHHH
+
+
+No 8
+>1JZT_A Hypothetical 27.5 kDa protein in; yeast hypothetical protein, structural genomics; HET: MSE; 1.94A {Saccharomyces cerevisiae} SCOP: c.104.1.1
+Probab=18.29  E-value=1.2e+02  Score=13.06  Aligned_cols=5  Identities=80%  Similarity=1.278  Sum_probs=0.0  Template_Neff=7.800
+
+Q GGGGNN            2 GGGNN    6 (6)
+Q Consensus         2 gggnn    6 (6)
+                      |.|||
+T Consensus        66 G~GnN   70 (246)
+T 1JZT_A           66 GPGNN   70 (246)
+T ss_dssp             CSSHH
+T ss_pred             CCCCc
+
+
+No 9
+>2R6R_1 Cell division protein ftsZ; FtsZ, GTPase, tubulin-like, Cell cycle; HET: GDP; 1.7A {Aquifex aeolicus}
+Probab=18.11  E-value=1.2e+02  Score=12.75  Aligned_cols=6  Identities=83%  Similarity=1.725  Sum_probs=0.0  Template_Neff=9.500
+
+Q GGGGNN            1 GGGGNN    6 (6)
+Q Consensus         1 ggggnn    6 (6)
+                      |++|+|
+T Consensus        16 G~~G~~   21 (338)
+T 2R6R_1           16 GGGGSN   21 (338)
+T ss_dssp             HHHHHH
+T ss_pred             ChHHHH
+
+
+No 10
+>4PY9_A Putative exopolyphosphatase-related protein; Structural Genomics, PSI-2, Protein Structure; HET: MSE, PO4; 2.25A {Bacteroides fragilis}
+Probab=17.93  E-value=1.2e+02  Score=12.65  Aligned_cols=4  Identities=75%  Similarity=1.680  Sum_probs=0.0  Template_Neff=9.700
+
+Q GGGGNN            1 GGGG    4 (6)
+Q Consensus         1 gggg    4 (6)
+                      ||||
+T Consensus       307 gGGG  310 (343)
+T 4PY9_A          307 NGGG  310 (343)
+T ss_dssp             SCEE
+T ss_pred             CCCC
+
+

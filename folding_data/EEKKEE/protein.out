@@ -1,0 +1,144 @@
+Query         EEKKEE
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 18:41:53 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/EEKKEE/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/EEKKEE/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6EPC_U Proteasome subunit alph   6.9 4.7E+02  0.0052   11.3   0.0    5    1-5     314-318 (320)
+  2 6MSB_Z 26S proteasome; Proteos   6.1 5.5E+02  0.0061   11.3   0.0    5    1-5     318-322 (324)
+  3 5L4K_U 26S proteasome non-ATPa   6.1 5.6E+02  0.0062   11.3   0.0    5    1-5     318-322 (324)
+  4 4V6X_Cv Ribosome; eukarya, euk   5.9 5.8E+02  0.0064   10.0   0.0    6    1-6      96-101 (115)
+  5 4NSX_A U3 small nucleolar RNA-   5.5 6.3E+02  0.0069   10.2   0.0    5    2-6       8-12  (684)
+  6 5DGE_p1 Ribosome, Complex, eIF   5.4 6.5E+02  0.0072    9.7   0.0    6    1-6      87-92  (106)
+  7 6CFZ_C Ask1, Dad3, Dad2, Duo1,   5.3 6.7E+02  0.0074   10.2   0.0    6    1-6      10-15  (94)
+  8 5O9Z_F Pre-mRNA-processing-spl   5.3 6.7E+02  0.0074   10.9   0.0    6    1-6      35-40  (521)
+  9 4V6I_Bt Ribosome; eukaryotic r   5.0 7.1E+02  0.0078    9.7   0.0    6    1-6      87-92  (106)
+ 10 2YO3_B GENERAL CONTROL PROTEIN   5.0 7.1E+02  0.0078   11.3   0.0    6    1-6       5-10  (268)
+
+No 1
+>6EPC_U Proteasome subunit alpha type-6 (E.C.3.4.25.1); UPS, Ground state, Neuron degeneration; 12.3A {Rattus norvegicus}
+Probab=6.89  E-value=4.7e+02  Score=11.32  Aligned_cols=5  Identities=100%  Similarity=1.145  Sum_probs=0.0  Template_Neff=8.800
+
+Q EEKKEE            1 EEKKE    5 (6)
+Q Consensus         1 eekke    5 (6)
+                      |||||
+T Consensus       314 ~~~~~  318 (320)
+T 6EPC_U          314 EEKKE  318 (320)
+T ss_pred             HHHhh
+
+
+No 2
+>6MSB_Z 26S proteasome; Proteosome, HYDROLASE; HET: ADP, ATP; 3.0A {Homo sapiens}
+Probab=6.13  E-value=5.5e+02  Score=11.30  Aligned_cols=5  Identities=100%  Similarity=1.145  Sum_probs=0.0  Template_Neff=8.500
+
+Q EEKKEE            1 EEKKE    5 (6)
+Q Consensus         1 eekke    5 (6)
+                      |||||
+T Consensus       318 ~~~~~  322 (324)
+T 6MSB_Z          318 EEKKE  322 (324)
+T ss_pred             HHHhh
+
+
+No 3
+>5L4K_U 26S proteasome non-ATPase regulatory subunit; proteostasis, AAA-ATPase, structural protein; 4.5A {Homo sapiens}
+Probab=6.08  E-value=5.6e+02  Score=11.28  Aligned_cols=5  Identities=100%  Similarity=1.145  Sum_probs=0.0  Template_Neff=8.500
+
+Q EEKKEE            1 EEKKE    5 (6)
+Q Consensus         1 eekke    5 (6)
+                      |||||
+T Consensus       318 ~~~~~  322 (324)
+T 5L4K_U          318 EEKKE  322 (324)
+T ss_dssp             HHHHH
+T ss_pred             HHHhh
+
+
+No 4
+>4V6X_Cv Ribosome; eukarya, eukaryotic, ribosomal, 80S, RNA; 5.0A {Homo sapiens}
+Probab=5.89  E-value=5.8e+02  Score=10.05  Aligned_cols=6  Identities=83%  Similarity=1.105  Sum_probs=0.0  Template_Neff=7.200
+
+Q EEKKEE            1 EEKKEE    6 (6)
+Q Consensus         1 eekkee    6 (6)
+                      ++|++|
+T Consensus        96 ~~~~ee  101 (115)
+T 4V6X_Cv          96 DEKKEE  101 (115)
+T ss_pred             hhhhhh
+
+
+No 5
+>4NSX_A U3 small nucleolar RNA-associated protein; ribosome biogenesis, UTPB complex, 90S; HET: FLC; 2.1A {Saccharomyces cerevisiae}
+Probab=5.55  E-value=6.3e+02  Score=10.24  Aligned_cols=5  Identities=60%  Similarity=0.607  Sum_probs=0.0  Template_Neff=13.100
+
+Q EEKKEE            2 EKKEE    6 (6)
+Q Consensus         2 ekkee    6 (6)
+                      +||||
+T Consensus         8 ~~~~~   12 (684)
+T 4NSX_A            8 RKVEE   12 (684)
+T ss_dssp             -----
+T ss_pred             ccHHH
+
+
+No 6
+>5DGE_p1 Ribosome, Complex, eIF5A, tRNA analogue; HET: 5CT, PRO, OHX, 8AN, SPS, MG, ZN; 3.45A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=5.37  E-value=6.5e+02  Score=9.68  Aligned_cols=6  Identities=33%  Similarity=0.601  Sum_probs=0.0  Template_Neff=7.400
+
+Q EEKKEE            1 EEKKEE    6 (6)
+Q Consensus         1 eekkee    6 (6)
+                      +++++|
+T Consensus        87 ~~~~ee   92 (106)
+T 5DGE_p1          87 KEEEEA   92 (106)
+T ss_pred             HHHHHH
+
+
+No 7
+>6CFZ_C Ask1, Dad3, Dad2, Duo1, Dad4; DASH, Dam1 complex, Ask1, Dad1;{Chaetomium thermophilum}
+Probab=5.26  E-value=6.7e+02  Score=10.19  Aligned_cols=6  Identities=67%  Similarity=0.806  Sum_probs=0.0  Template_Neff=5.600
+
+Q EEKKEE            1 EEKKEE    6 (6)
+Q Consensus         1 eekkee    6 (6)
+                      .+|+.|
+T Consensus        10 ~eK~~E   15 (94)
+T 6CFZ_C           10 NEKKAE   15 (94)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 8
+>5O9Z_F Pre-mRNA-processing-splicing factor 8, 116 kDa; Spliceosome, pre-mRNA splicing, macromolecular complex; 4.5A {Homo sapiens}
+Probab=5.26  E-value=6.7e+02  Score=10.89  Aligned_cols=6  Identities=67%  Similarity=0.866  Sum_probs=0.0  Template_Neff=10.600
+
+Q EEKKEE            1 EEKKEE    6 (6)
+Q Consensus         1 eekkee    6 (6)
+                      ||+.+|
+T Consensus        35 ~~~~~~   40 (521)
+T 5O9Z_F           35 EEKERE   40 (521)
+T ss_pred             hHHHHH
+
+
+No 9
+>4V6I_Bt Ribosome; eukaryotic ribosome, homology modeling, de; 8.8A {Saccharomyces cerevisiae}
+Probab=5.05  E-value=7.1e+02  Score=9.68  Aligned_cols=6  Identities=33%  Similarity=0.601  Sum_probs=0.0  Template_Neff=7.200
+
+Q EEKKEE            1 EEKKEE    6 (6)
+Q Consensus         1 eekkee    6 (6)
+                      ++++++
+T Consensus        87 ~~~~e~   92 (106)
+T 4V6I_Bt          87 KEEEEA   92 (106)
+T ss_pred             HHHHHH
+
+
+No 10
+>2YO3_B GENERAL CONTROL PROTEIN GCN4, PUTATIVE; HANS MOTIF, YADA-LIKE HEAD, YLHEAD; 2.0A {SACCHAROMYCES CEREVISIAE, SALMONELLA ENTERICA SUBSP. ENTERICA SEROVAR TYPHIMURIUM, SACCHAROMYCES CEREVISIAE}
+Probab=5.03  E-value=7.1e+02  Score=11.28  Aligned_cols=6  Identities=67%  Similarity=0.811  Sum_probs=0.0  Template_Neff=7.100
+
+Q EEKKEE            1 EEKKEE    6 (6)
+Q Consensus         1 eekkee    6 (6)
+                      |+|-||
+T Consensus         5 ~~~~~~   10 (268)
+T 2YO3_B            5 EDKIEE   10 (268)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+

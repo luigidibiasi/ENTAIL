@@ -1,0 +1,148 @@
+Query         AALQSS
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 13:05:49 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/AALQSS/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/AALQSS/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6N3A_J TAR DNA-binding protein  69.5     3.8 4.3E-05   16.4   0.0    6    1-6      18-23  (50)
+  2 5MMI_V 50S ribosomal protein L  58.3     8.8 9.7E-05   17.1   0.0    6    1-6       5-10  (192)
+  3 5TRG_D Proteasome subunit alph   6.8 4.8E+02  0.0053   10.6   0.0    6    1-6     234-239 (240)
+  4 2MTN_A Histone-lysine N-methyl   6.7 4.9E+02  0.0054   12.0   0.0    6    1-6      10-15  (164)
+  5 6ID0_W Pre-mRNA-processing-spl   4.5   8E+02  0.0089   11.2   0.0    6    1-6       6-11  (579)
+  6 6ID1_W Pre-mRNA-processing-spl   4.5   8E+02  0.0089   11.2   0.0    6    1-6       6-11  (579)
+  7 1P9C_A 26S proteasome non-ATPa   4.5 8.1E+02   0.009    9.0   0.0    5    2-6      28-32  (45)
+  8 4JQ0_A Fibroblast growth facto   4.4 8.4E+02  0.0093   11.6   0.0    6    1-6       3-8   (243)
+  9 6YWY_1 uL2m, uL3m, uL4m, uL5m,   4.3 8.6E+02  0.0095   12.4   0.0    6    1-6      94-99  (449)
+ 10 5Y4U_A Monothiol glutaredoxin-   4.3 8.6E+02  0.0095    8.7   0.0    5    1-5     103-107 (115)
+
+No 1
+>6N3A_J TAR DNA-binding protein 43, segA; Amyloid, TDP43, ALS, FTLD-TDP, dna; 3.3A {Homo sapiens}
+Probab=69.47  E-value=3.8  Score=16.40  Aligned_cols=6  Identities=100%  Similarity=0.883  Sum_probs=4.0  Template_Neff=2.200
+
+Q AALQSS            1 AALQSS    6 (6)
+Q Consensus         1 aalqss    6 (6)
+                      ||||||
+T Consensus        18 aaLqsS   23 (50)
+T 6N3A_J           18 AALQSS   23 (50)
+T ss_dssp             EEEEEE
+T ss_pred             HHHHhh
+Confidence            467775
+
+
+No 2
+>5MMI_V 50S ribosomal protein L31, 50S; chloroplast, translation, ribosome, cryo-EM; HET: MG; 3.25A {Spinacia oleracea}
+Probab=58.33  E-value=8.8  Score=17.11  Aligned_cols=6  Identities=100%  Similarity=0.883  Sum_probs=4.1  Template_Neff=5.400
+
+Q AALQSS            1 AALQSS    6 (6)
+Q Consensus         1 aalqss    6 (6)
+                      |+||||
+T Consensus         5 ~~~~~~   10 (192)
+T 5MMI_V            5 AALQSS   10 (192)
+T ss_pred             HHHHHH
+Confidence            567775
+
+
+No 3
+>5TRG_D Proteasome subunit alpha (E.C.3.4.25.1), Proteasome; N, C-capped dipeptides, Mycobacterium tuberculosis; HET: 7HJ; 2.804A {Mycobacterium tuberculosis}
+Probab=6.81  E-value=4.8e+02  Score=10.58  Aligned_cols=6  Identities=33%  Similarity=0.141  Sum_probs=0.0  Template_Neff=9.300
+
+Q AALQSS            1 AALQSS    6 (6)
+Q Consensus         1 aalqss    6 (6)
+                      +|++||
+T Consensus       234 ~~~~~~  239 (240)
+T 5TRG_D          234 SDGESS  239 (240)
+T ss_dssp             C-----
+T ss_pred             cccccC
+
+
+No 4
+>2MTN_A Histone-lysine N-methyltransferase 2A, PC4 and; Protein-protein complex, TRANSFERASE-PROTEIN BINDING complex; NMR {Homo sapiens}
+Probab=6.72  E-value=4.9e+02  Score=12.02  Aligned_cols=6  Identities=83%  Similarity=0.706  Sum_probs=0.0  Template_Neff=4.400
+
+Q AALQSS            1 AALQSS    6 (6)
+Q Consensus         1 aalqss    6 (6)
+                      ||||-|
+T Consensus        10 ~~~~~~   15 (164)
+T 2MTN_A           10 AALQVS   15 (164)
+T ss_dssp             ------
+T ss_pred             HHHHHH
+
+
+No 5
+>6ID0_W Pre-mRNA-processing-splicing factor 8, 116 kDa; Human Intron Lariat Spliceosome, SPLICING; HET: GTP, SEP, I6P; 2.9A {Homo sapiens}
+Probab=4.55  E-value=8e+02  Score=11.21  Aligned_cols=6  Identities=67%  Similarity=0.661  Sum_probs=0.0  Template_Neff=9.800
+
+Q AALQSS            1 AALQSS    6 (6)
+Q Consensus         1 aalqss    6 (6)
+                      |||++|
+T Consensus         6 ~~~~~~   11 (579)
+T 6ID0_W            6 AALAAS   11 (579)
+T ss_pred             HHHHHH
+
+
+No 6
+>6ID1_W Pre-mRNA-processing-splicing factor 8, 116 kDa; Human Intron Lariat Spliceosome, SPLICING; HET: GTP, SEP, I6P; 2.86A {Homo sapiens}
+Probab=4.55  E-value=8e+02  Score=11.21  Aligned_cols=6  Identities=67%  Similarity=0.661  Sum_probs=0.0  Template_Neff=9.800
+
+Q AALQSS            1 AALQSS    6 (6)
+Q Consensus         1 aalqss    6 (6)
+                      |||++|
+T Consensus         6 ~~~~~~   11 (579)
+T 6ID1_W            6 AALAAS   11 (579)
+T ss_pred             HHHHHH
+
+
+No 7
+>1P9C_A 26S proteasome non-ATPase regulatory subunit; ALPHA HELIX, HAIRPIN LOOP, LIGAND; NMR {Homo sapiens} SCOP: j.105.1.1
+Probab=4.51  E-value=8.1e+02  Score=9.05  Aligned_cols=5  Identities=60%  Similarity=0.581  Sum_probs=0.0  Template_Neff=4.700
+
+Q AALQSS            2 ALQSS    6 (6)
+Q Consensus         2 alqss    6 (6)
+                      |||-|
+T Consensus        28 AlqMS   32 (45)
+T 1P9C_A           28 AMQMS   32 (45)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 8
+>4JQ0_A Fibroblast growth factor 12, Calmodulin; EF hand, ion channel, membrane; 3.84A {Homo sapiens}
+Probab=4.38  E-value=8.4e+02  Score=11.59  Aligned_cols=6  Identities=67%  Similarity=0.656  Sum_probs=0.0  Template_Neff=5.400
+
+Q AALQSS            1 AALQSS    6 (6)
+Q Consensus         1 aalqss    6 (6)
+                      ||+.||
+T Consensus         3 aa~a~~    8 (243)
+T 4JQ0_A            3 AAIASS    8 (243)
+T ss_dssp             ------
+T ss_pred             hHHHHH
+
+
+No 9
+>6YWY_1 uL2m, uL3m, uL4m, uL5m, uL6m; Neurospora crassa, translating Mitoribosomes, tRNA; HET: MG, SPM, ATP, K, NAD;{Neurospora crassa}
+Probab=4.32  E-value=8.6e+02  Score=12.41  Aligned_cols=6  Identities=50%  Similarity=0.645  Sum_probs=0.0  Template_Neff=5.900
+
+Q AALQSS            1 AALQSS    6 (6)
+Q Consensus         1 aalqss    6 (6)
+                      |||++|
+T Consensus        94 ~a~~~~   99 (449)
+T 6YWY_1           94 AALATT   99 (449)
+T ss_pred             HHHHcC
+
+
+No 10
+>5Y4U_A Monothiol glutaredoxin-3; OXIDOREDUCTASE, monothiol glutaredoxin, glutathione; 1.7A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=4.31  E-value=8.6e+02  Score=8.72  Aligned_cols=5  Identities=80%  Similarity=0.700  Sum_probs=0.0  Template_Neff=9.200
+
+Q AALQSS            1 AALQS    5 (6)
+Q Consensus         1 aalqs    5 (6)
+                      .++||
+T Consensus       103 ~~~~~  107 (115)
+T 5Y4U_A          103 HALQS  107 (115)
+T ss_dssp             HHHCC
+T ss_pred             Hhhhh
+
+

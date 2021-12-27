@@ -1,0 +1,149 @@
+Query         NINNST
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 01:20:13 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NINNST/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NINNST/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2BEQ_F E2 GLYCOPROTEIN; VIRAL    5.8 5.9E+02  0.0065    9.9   0.0    5    1-5      28-32  (48)
+  2 4Q1Z_A Putative lipoprotein; t   5.5 6.4E+02  0.0071   12.6   0.0    4    3-6     372-375 (400)
+  3 6CON_D Probable CoA-transferas   5.3 6.5E+02  0.0072   11.2   0.0    5    1-5     103-107 (250)
+  4 2BEZ_F E2 GLYCOPROTEIN; MEMBRA   5.2 6.8E+02  0.0076    9.3   0.0    5    1-5      33-37  (42)
+  5 4RVY_U Photosystem II protein    5.0 7.2E+02   0.008    9.2   0.0    6    1-6      19-24  (97)
+  6 1JCH_B COLICIN E3 (E.C.3.1.21.   4.9 7.3E+02   0.008   10.7   0.0    4    1-4      42-45  (84)
+  7 3EIP_A COLICIN E3 IMMUNITY PRO   4.9 7.3E+02   0.008   10.7   0.0    4    1-4      42-45  (84)
+  8 6COJ_B Probable CoA-transferas   4.9 7.3E+02  0.0081   11.1   0.0    5    1-5     106-110 (253)
+  9 4UDM_A COLICIN-E3 IMMUNITY PRO   4.8 7.6E+02  0.0084   10.7   0.0    4    1-4      43-46  (85)
+ 10 5ZVM_c Human Coronavirus SARS    4.7 7.7E+02  0.0086    9.5   0.0    5    1-5      31-35  (44)
+
+No 1
+>2BEQ_F E2 GLYCOPROTEIN; VIRAL PROTEIN, COILED COIL, MEMBRANE; HET: ACE; 1.6A {N/A}
+Probab=5.82  E-value=5.9e+02  Score=9.94  Aligned_cols=5  Identities=60%  Similarity=0.900  Sum_probs=0.0  Template_Neff=3.500
+
+Q NINNST            1 NINNS    5 (6)
+Q Consensus         1 ninns    5 (6)
+                      ++|+|
+T Consensus        28 ~LN~s   32 (48)
+T 2BEQ_F           28 NLNES   32 (48)
+T ss_dssp             TCCCC
+T ss_pred             HHHhc
+
+
+No 2
+>4Q1Z_A Putative lipoprotein; two domains protein, PF16215 family; HET: PGE, PEG; 2.5A {Bacteroides thetaiotaomicron}
+Probab=5.46  E-value=6.4e+02  Score=12.57  Aligned_cols=4  Identities=100%  Similarity=1.024  Sum_probs=0.0  Template_Neff=6.000
+
+Q NINNST            3 NNST    6 (6)
+Q Consensus         3 nnst    6 (6)
+                      ||||
+T Consensus       372 NNST  375 (400)
+T 4Q1Z_A          372 NNST  375 (400)
+T ss_dssp             SCHH
+T ss_pred             CCCh
+
+
+No 3
+>6CON_D Probable CoA-transferase alpha subunit, Probable; Cholesterol, Ring cleaving, virulence factor; 2.1A {Mycobacterium tuberculosis}
+Probab=5.35  E-value=6.5e+02  Score=11.22  Aligned_cols=5  Identities=60%  Similarity=0.341  Sum_probs=0.0  Template_Neff=7.200
+
+Q NINNST            1 NINNS    5 (6)
+Q Consensus         1 ninns    5 (6)
+                      |+|++
+T Consensus       103 niN~t  107 (250)
+T 6CON_D          103 NQNIS  107 (250)
+T ss_dssp             CEECS
+T ss_pred             Ceeee
+
+
+No 4
+>2BEZ_F E2 GLYCOPROTEIN; MEMBRANE FUSION, SEVERE ACUTE RESPIRATORY; 1.6A {SARS CORONAVIRUS}
+Probab=5.16  E-value=6.8e+02  Score=9.34  Aligned_cols=5  Identities=60%  Similarity=0.900  Sum_probs=0.0  Template_Neff=4.100
+
+Q NINNST            1 NINNS    5 (6)
+Q Consensus         1 ninns    5 (6)
+                      ++|+|
+T Consensus        33 ~LN~s   37 (42)
+T 2BEZ_F           33 NLNES   37 (42)
+T ss_dssp             HTSTT
+T ss_pred             HHHhc
+
+
+No 5
+>4RVY_U Photosystem II protein D1 1; Photosystem II, Time resolved, Free; HET: CLA, PHO, PL9, SQD, OEX, LMG, HEM, BCR, LHG, DGD; 5.5A {Thermosynechococcus elongatus}
+Probab=4.96  E-value=7.2e+02  Score=9.20  Aligned_cols=6  Identities=33%  Similarity=0.811  Sum_probs=0.0  Template_Neff=7.900
+
+Q NINNST            1 NINNST    6 (6)
+Q Consensus         1 ninnst    6 (6)
+                      |||..+
+T Consensus        19 niNtas   24 (97)
+T 4RVY_U           19 DLNNTN   24 (97)
+T ss_pred             cCccCC
+
+
+No 6
+>1JCH_B COLICIN E3 (E.C.3.1.21.-), COLICIN E3; TRANSLOCATION DOMAIN IS A BETA-JELLYROLL; HET: GOL, CIT; 3.02A {Escherichia coli str. K12 substr.} SCOP: d.26.2.1
+Probab=4.94  E-value=7.3e+02  Score=10.72  Aligned_cols=4  Identities=75%  Similarity=1.207  Sum_probs=0.0  Template_Neff=3.300
+
+Q NINNST            1 NINN    4 (6)
+Q Consensus         1 ninn    4 (6)
+                      ||||
+T Consensus        42 ~Inn   45 (84)
+T 1JCH_B           42 NVNN   45 (84)
+T ss_dssp             TBTS
+T ss_pred             Cccc
+
+
+No 7
+>3EIP_A COLICIN E3 IMMUNITY PROTEIN; RIBONUCLEASE INHIBITOR, COLICIN, IMMUNE SYSTEM; 1.8A {Escherichia coli str. K12 substr.} SCOP: d.26.2.1
+Probab=4.94  E-value=7.3e+02  Score=10.72  Aligned_cols=4  Identities=75%  Similarity=1.207  Sum_probs=0.0  Template_Neff=3.300
+
+Q NINNST            1 NINN    4 (6)
+Q Consensus         1 ninn    4 (6)
+                      ||||
+T Consensus        42 ~Inn   45 (84)
+T 3EIP_A           42 NVNN   45 (84)
+T ss_dssp             HTTS
+T ss_pred             Cccc
+
+
+No 8
+>6COJ_B Probable CoA-transferase alpha subunit, Probable; Cholesterol, Ring cleaving, virulence factor; HET: SO4, F8G; 1.4A {Rhodococcus jostii (strain RHA1)}
+Probab=4.91  E-value=7.3e+02  Score=11.14  Aligned_cols=5  Identities=60%  Similarity=0.328  Sum_probs=0.0  Template_Neff=7.100
+
+Q NINNST            1 NINNS    5 (6)
+Q Consensus         1 ninns    5 (6)
+                      |+|++
+T Consensus       106 niN~t  110 (253)
+T 6COJ_B          106 NQNLS  110 (253)
+T ss_dssp             CEECS
+T ss_pred             ceehh
+
+
+No 9
+>4UDM_A COLICIN-E3 IMMUNITY PROTEIN; TRANSLATION, ANTIBIOTIC, ANTIMICROBIAL, BACTERIOCIN, BACTERIOCIN; 2.96A {ESCHERICHIA COLI BL21(DE3)}
+Probab=4.77  E-value=7.6e+02  Score=10.71  Aligned_cols=4  Identities=75%  Similarity=1.207  Sum_probs=0.0  Template_Neff=3.200
+
+Q NINNST            1 NINN    4 (6)
+Q Consensus         1 ninn    4 (6)
+                      ||||
+T Consensus        43 ~Inn   46 (85)
+T 4UDM_A           43 NVNN   46 (85)
+T ss_dssp             TBTS
+T ss_pred             cccc
+
+
+No 10
+>5ZVM_c Human Coronavirus SARS HR1 motif; SARS, Spike protein, S2 domain; 3.3A {Human SARS coronavirus}
+Probab=4.69  E-value=7.7e+02  Score=9.47  Aligned_cols=5  Identities=20%  Similarity=0.508  Sum_probs=0.0  Template_Neff=3.500
+
+Q NINNST            1 NINNS    5 (6)
+Q Consensus         1 ninns    5 (6)
+                      ++|+|
+T Consensus        31 ~LN~s   35 (44)
+T 5ZVM_c           31 KLEES   35 (44)
+T ss_dssp             HHHTT
+T ss_pred             HHHhh
+
+

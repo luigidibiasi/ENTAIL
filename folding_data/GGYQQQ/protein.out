@@ -1,0 +1,147 @@
+Query         GGYQQQ
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 01:03:03 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GGYQQQ/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GGYQQQ/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6XI8_C Serine/threonine-protei  13.1   2E+02  0.0022   10.3   0.0    6    1-6      36-41  (63)
+  2 4AKL_A NUCLEOCAPSID; VIRAL PRO  13.0   2E+02  0.0022   15.2   0.0    6    1-6     295-300 (482)
+  3 4AQF_A NUCLEOPROTEIN; VIRAL PR  13.0   2E+02  0.0022   15.2   0.0    6    1-6     296-301 (483)
+  4 4XZC_A nucleoprotein; nucleopr  12.7   2E+02  0.0023   15.2   0.0    6    1-6     296-301 (483)
+  5 5A97_A NUCLEOCAPSID PROTEIN; V  12.6 2.1E+02  0.0023   15.2   0.0    6    1-6     302-307 (489)
+  6 5A97_C NUCLEOCAPSID PROTEIN; V  12.4 2.1E+02  0.0023   15.2   0.0    6    1-6     302-307 (489)
+  7 6Z3U_F CYCLIN domain-containin  11.9 2.2E+02  0.0025   10.5   0.0    6    1-6      39-44  (69)
+  8 6Z4X_F CYCLIN domain-containin  11.9 2.2E+02  0.0025   10.5   0.0    6    1-6      39-44  (69)
+  9 2EQY_A Jumonji, AT rich intera  11.2 2.4E+02  0.0027   10.7   0.0    5    1-5      55-59  (122)
+ 10 6ZVJ_C Eukaryotic translation   10.8 2.6E+02  0.0028   15.0   0.0    6    1-6     732-737 (743)
+
+No 1
+>6XI8_C Serine/threonine-protein kinase KIN28 (E.C.2.7.11.23), Cyclin; Polymerase CTD, TFIIH, Phosphorylation, Kinase; HET: TPO, ADP;{Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=13.06  E-value=2e+02  Score=10.31  Aligned_cols=6  Identities=17%  Similarity=0.750  Sum_probs=0.0  Template_Neff=7.000
+
+Q GGYQQQ            1 GGYQQQ    6 (6)
+Q Consensus         1 ggyqqq    6 (6)
+                      |||..+
+T Consensus        36 GGy~~~   41 (63)
+T 6XI8_C           36 SGFNTN   41 (63)
+T ss_pred             CCCCHH
+
+
+No 2
+>4AKL_A NUCLEOCAPSID; VIRAL PROTEIN, BUNYAVIRIDAE, CCHFV, CASPASE-3; HET: PGE; 2.1A {CRIMEAN-CONGO HEMORRHAGIC FEVER VIRUS}
+Probab=13.04  E-value=2e+02  Score=15.20  Aligned_cols=6  Identities=17%  Similarity=0.274  Sum_probs=0.0  Template_Neff=4.400
+
+Q GGYQQQ            1 GGYQQQ    6 (6)
+Q Consensus         1 ggyqqq    6 (6)
+                      +||+||
+T Consensus       295 ~~f~qQ  300 (482)
+T 4AKL_A          295 SALRAQ  300 (482)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 3
+>4AQF_A NUCLEOPROTEIN; VIRAL PROTEIN, NAIROVIRUS; HET: SO4; 3.1A {CRIMEAN-CONGO HEMORRHAGIC FEVER VIRUS}
+Probab=13.00  E-value=2e+02  Score=15.20  Aligned_cols=6  Identities=17%  Similarity=0.274  Sum_probs=0.0  Template_Neff=4.400
+
+Q GGYQQQ            1 GGYQQQ    6 (6)
+Q Consensus         1 ggyqqq    6 (6)
+                      +||+||
+T Consensus       296 ~~f~qQ  301 (483)
+T 4AQF_A          296 SALRAQ  301 (483)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 4
+>4XZC_A nucleoprotein; nucleoprotein, Kupe virus, RNA BINDING; 2.601A {Kupe virus}
+Probab=12.75  E-value=2e+02  Score=15.16  Aligned_cols=6  Identities=17%  Similarity=0.274  Sum_probs=0.0  Template_Neff=4.400
+
+Q GGYQQQ            1 GGYQQQ    6 (6)
+Q Consensus         1 ggyqqq    6 (6)
+                      ++|+||
+T Consensus       296 ~~f~qQ  301 (483)
+T 4XZC_A          296 SALRAQ  301 (483)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 5
+>5A97_A NUCLEOCAPSID PROTEIN; VIRAL PROTEIN, HAZARA, NUCLEOCAPSID; 2.7A {HAZARA VIRUS}
+Probab=12.61  E-value=2.1e+02  Score=15.20  Aligned_cols=6  Identities=17%  Similarity=0.556  Sum_probs=0.0  Template_Neff=4.300
+
+Q GGYQQQ            1 GGYQQQ    6 (6)
+Q Consensus         1 ggyqqq    6 (6)
+                      ++|+||
+T Consensus       302 ~~f~qQ  307 (489)
+T 5A97_A          302 NAFRAQ  307 (489)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 6
+>5A97_C NUCLEOCAPSID PROTEIN; VIRAL PROTEIN, HAZARA, NUCLEOCAPSID; 2.7A {HAZARA VIRUS}
+Probab=12.43  E-value=2.1e+02  Score=15.17  Aligned_cols=6  Identities=17%  Similarity=0.556  Sum_probs=0.0  Template_Neff=4.300
+
+Q GGYQQQ            1 GGYQQQ    6 (6)
+Q Consensus         1 ggyqqq    6 (6)
+                      ++|+||
+T Consensus       302 ~~f~qQ  307 (489)
+T 5A97_C          302 NAFRAQ  307 (489)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 7
+>6Z3U_F CYCLIN domain-containing protein, Protein kinase; CAK complex, Kinase, TFIIK, cell; 2.6A {Chaetomium thermophilum (strain DSM 1495 / CBS 144.50 / IMI 039719)}
+Probab=11.90  E-value=2.2e+02  Score=10.46  Aligned_cols=6  Identities=50%  Similarity=0.944  Sum_probs=0.0  Template_Neff=6.700
+
+Q GGYQQQ            1 GGYQQQ    6 (6)
+Q Consensus         1 ggyqqq    6 (6)
+                      |||..+
+T Consensus        39 GGy~~~   44 (69)
+T 6Z3U_F           39 GGYSFL   44 (69)
+T ss_dssp             HTCCHH
+T ss_pred             CCCCHH
+
+
+No 8
+>6Z4X_F CYCLIN domain-containing protein, Protein kinase; CAK complex, Kinase, TFIIK, cell; HET: AGS; 2.98A {Chaetomium thermophilum}
+Probab=11.90  E-value=2.2e+02  Score=10.46  Aligned_cols=6  Identities=50%  Similarity=0.944  Sum_probs=0.0  Template_Neff=6.700
+
+Q GGYQQQ            1 GGYQQQ    6 (6)
+Q Consensus         1 ggyqqq    6 (6)
+                      |||..+
+T Consensus        39 GGy~~~   44 (69)
+T 6Z4X_F           39 GGYSFL   44 (69)
+T ss_dssp             TTCCHH
+T ss_pred             CCCCHH
+
+
+No 9
+>2EQY_A Jumonji, AT rich interactive domain; ARID domain, Structural Genomics, NPPSFA; NMR {Mus musculus}
+Probab=11.25  E-value=2.4e+02  Score=10.66  Aligned_cols=5  Identities=40%  Similarity=1.106  Sum_probs=0.0  Template_Neff=8.300
+
+Q GGYQQQ            1 GGYQQ    5 (6)
+Q Consensus         1 ggyqq    5 (6)
+                      |||++
+T Consensus        55 GG~~~   59 (122)
+T 2EQY_A           55 GGFAV   59 (122)
+T ss_pred             CCHHh
+
+
+No 10
+>6ZVJ_C Eukaryotic translation initiation factor 3; Translation, Initiation, Ribosome Recycling, ABC; HET: SF4, ATP, ADP;{Homo sapiens}
+Probab=10.84  E-value=2.6e+02  Score=15.04  Aligned_cols=6  Identities=83%  Similarity=1.547  Sum_probs=0.0  Template_Neff=5.800
+
+Q GGYQQQ            1 GGYQQQ    6 (6)
+Q Consensus         1 ggyqqq    6 (6)
+                      |||.||
+T Consensus       732 ~~~~~~  737 (743)
+T 6ZVJ_C          732 GGYRQQ  737 (743)
+T ss_pred             cccccC
+
+

@@ -1,0 +1,186 @@
+Query         KMFFIQ
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 11:34:37 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/KMFFIQ/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/KMFFIQ/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6KN1_C PROTEIN; pyroptosis, IM  45.5      19 0.00021   13.3   0.0    6    1-6     138-143 (155)
+  2 3SIP_C Caspase (E.C.3.4.22.-),  40.6      26 0.00029   13.1   0.0    6    1-6     131-136 (157)
+  3 1F9E_I CASPASE-8 (E.C.3.4.22.-  40.4      26 0.00029   12.9   0.0    6    1-6     132-137 (153)
+  4 6X8H_A Caspase-8 (E.C.3.4.22.6  38.2      30 0.00033   13.3   0.0    6    1-6     137-142 (168)
+  5 3E4C_B ZYMOGEN, CASPASE-1, INF  37.8      31 0.00034   14.1   0.0    6    1-6     176-181 (302)
+  6 6CL0_A Caspase-3 subunit p17 ,  31.1      47 0.00052   13.1   0.0    6    1-6     156-161 (175)
+  7 6BGK_B Caspase-3 Mutant- D9A,D  30.9      47 0.00052   13.0   0.0    6    1-6     156-161 (175)
+  8 7JL7_B Caspase 3, apoptosis-re  29.3      52 0.00058   12.8   0.0    6    1-6     159-164 (178)
+  9 3J9K_R Apaf-1 related killer D  28.2      56 0.00062   14.6   0.0    6    1-6     311-316 (450)
+ 10 4ZVQ_A Caspase-7 (E.C.3.4.22.6  23.6      78 0.00086   13.1   0.0    6    1-6     179-184 (198)
+ 11 5K20_A Caspase-7 large subunit  23.6      78 0.00086   13.1   0.0    6    1-6     179-184 (198)
+ 12 6X8J_B Caspase-7 (E.C.3.4.22.6  23.6      78 0.00086   13.1   0.0    6    1-6     179-184 (198)
+
+No 1
+>6KN1_C PROTEIN; pyroptosis, IMMUNE SYSTEM; 1.9A {Mus musculus}
+Probab=45.49  E-value=19  Score=13.31  Aligned_cols=6  Identities=33%  Similarity=0.700  Sum_probs=3.0  Template_Neff=9.600
+
+Q KMFFIQ            1 KMFFIQ    6 (6)
+Q Consensus         1 kmffiq    6 (6)
+                      |+||||
+T Consensus       138 kl~iid  143 (155)
+T 6KN1_C          138 KVIIVQ  143 (155)
+T ss_dssp             EEEEEE
+T ss_pred             EEEEEE
+Confidence            355553
+
+
+No 2
+>3SIP_C Caspase (E.C.3.4.22.-), Apoptosis 1 inhibitor; caspase, BIR domain, HYDROLASE-LIGASE-HYDROLASE complex; 3.496A {Drosophila melanogaster}
+Probab=40.62  E-value=26  Score=13.06  Aligned_cols=6  Identities=83%  Similarity=1.481  Sum_probs=2.7  Template_Neff=9.500
+
+Q KMFFIQ            1 KMFFIQ    6 (6)
+Q Consensus         1 kmffiq    6 (6)
+                      |+|+||
+T Consensus       131 ki~iid  136 (157)
+T 3SIP_C          131 KLFFIQ  136 (157)
+T ss_pred             eEEEEE
+Confidence            345543
+
+
+No 3
+>1F9E_I CASPASE-8 (E.C.3.4.22.-); CYSTEINE PROTEASE, CASPASE-8, FLICE, MCH5; HET: ASA, PHQ; 2.9A {Homo sapiens} SCOP: c.17.1.1
+Probab=40.35  E-value=26  Score=12.94  Aligned_cols=6  Identities=83%  Similarity=1.414  Sum_probs=2.8  Template_Neff=9.600
+
+Q KMFFIQ            1 KMFFIQ    6 (6)
+Q Consensus         1 kmffiq    6 (6)
+                      |+||||
+T Consensus       132 ki~iid  137 (153)
+T 1F9E_I          132 KVFFIQ  137 (153)
+T ss_dssp             EEEEEE
+T ss_pred             EEEEEE
+Confidence            345543
+
+
+No 4
+>6X8H_A Caspase-8 (E.C.3.4.22.61), Ac-DW3-KE; inhibitor, tetrahedral, complex, HYDROLASE-HYDROLASE INHIBITOR; HET: Y1Y, 1MH; 1.48A {Homo sapiens}
+Probab=38.15  E-value=30  Score=13.26  Aligned_cols=6  Identities=83%  Similarity=1.414  Sum_probs=2.8  Template_Neff=9.100
+
+Q KMFFIQ            1 KMFFIQ    6 (6)
+Q Consensus         1 kmffiq    6 (6)
+                      |+||||
+T Consensus       137 kl~iid  142 (168)
+T 6X8H_A          137 KVFFIQ  142 (168)
+T ss_dssp             EEEEEE
+T ss_pred             EEEEEE
+Confidence            345543
+
+
+No 5
+>3E4C_B ZYMOGEN, CASPASE-1, INFLAMMASOME, ICE, CASPASE; 2.05A {Homo sapiens}
+Probab=37.81  E-value=31  Score=14.12  Aligned_cols=6  Identities=50%  Similarity=0.750  Sum_probs=2.9  Template_Neff=9.600
+
+Q KMFFIQ            1 KMFFIQ    6 (6)
+Q Consensus         1 kmffiq    6 (6)
+                      |+||||
+T Consensus       176 kl~iid  181 (302)
+T 3E4C_B          176 KVIIIQ  181 (302)
+T ss_dssp             EEEEEE
+T ss_pred             EEEEEE
+Confidence            355553
+
+
+No 6
+>6CL0_A Caspase-3 subunit p17 ,Caspase-3 subunit; caspase-3, inhibitor, APOPTOSIS, HYDROLASE, HYDROLASE-HYDROLASE; HET: PF5, 1MH; 1.5A {Homo sapiens}
+Probab=31.07  E-value=47  Score=13.06  Aligned_cols=6  Identities=67%  Similarity=1.148  Sum_probs=2.8  Template_Neff=8.700
+
+Q KMFFIQ            1 KMFFIQ    6 (6)
+Q Consensus         1 kmffiq    6 (6)
+                      |+||+|
+T Consensus       156 ki~iid  161 (175)
+T 6CL0_A          156 KLFIIQ  161 (175)
+T ss_dssp             EEEEEE
+T ss_pred             EEEEEE
+Confidence            345553
+
+
+No 7
+>6BGK_B Caspase-3 Mutant- D9A,D28A,T152D, ACE-ASP-GLU-VAL-ASP-0QE; allosteric regulation  apoptosis ; 1.87A {Homo sapiens}
+Probab=30.92  E-value=47  Score=13.04  Aligned_cols=6  Identities=67%  Similarity=1.148  Sum_probs=2.8  Template_Neff=8.700
+
+Q KMFFIQ            1 KMFFIQ    6 (6)
+Q Consensus         1 kmffiq    6 (6)
+                      |+||||
+T Consensus       156 ki~iiD  161 (175)
+T 6BGK_B          156 KLFIIQ  161 (175)
+T ss_pred             EEEEEE
+Confidence            345553
+
+
+No 8
+>7JL7_B Caspase 3, apoptosis-related cysteine peptidase; enzyme specificity  apoptosis ; 2.05A {Danio rerio}
+Probab=29.34  E-value=52  Score=12.79  Aligned_cols=6  Identities=83%  Similarity=1.481  Sum_probs=2.7  Template_Neff=9.000
+
+Q KMFFIQ            1 KMFFIQ    6 (6)
+Q Consensus         1 kmffiq    6 (6)
+                      |+||||
+T Consensus       159 ki~iid  164 (178)
+T 7JL7_B          159 KLFFIQ  164 (178)
+T ss_pred             EEEEEE
+Confidence            345543
+
+
+No 9
+>3J9K_R Apaf-1 related killer DARK, Caspase; programmed cell death, caspase activation; HET: ADP; 4.1A {Drosophila melanogaster}
+Probab=28.19  E-value=56  Score=14.61  Aligned_cols=6  Identities=17%  Similarity=0.512  Sum_probs=0.0  Template_Neff=8.800
+
+Q KMFFIQ            1 KMFFIQ    6 (6)
+Q Consensus         1 kmffiq    6 (6)
+                      |+||||
+T Consensus       311 klfiid  316 (450)
+T 3J9K_R          311 KVLMFP  316 (450)
+T ss_dssp             ------
+T ss_pred             EEEEEe
+Confidence            455554
+
+
+No 10
+>4ZVQ_A Caspase-7 (E.C.3.4.22.60), Peptide ACE-VAL-GLU-ILE-ASA; Directed Evolution, Protease, Peptide Inhibitor; HET: ASA; 2.5A {Homo sapiens}
+Probab=23.55  E-value=78  Score=13.06  Aligned_cols=6  Identities=83%  Similarity=1.481  Sum_probs=2.9  Template_Neff=8.000
+
+Q KMFFIQ            1 KMFFIQ    6 (6)
+Q Consensus         1 kmffiq    6 (6)
+                      |+||+|
+T Consensus       179 kl~iiD  184 (198)
+T 4ZVQ_A          179 KLFFIQ  184 (198)
+T ss_dssp             EEEEEE
+T ss_pred             EEEEEE
+Confidence            355553
+
+
+No 11
+>5K20_A Caspase-7 large subunit, Caspase-7 small; protease, phosphomimetic, PAK2, phosphorylation, HYDROLASE; 2.2A {Homo sapiens}
+Probab=23.55  E-value=78  Score=13.06  Aligned_cols=6  Identities=83%  Similarity=1.481  Sum_probs=2.9  Template_Neff=8.000
+
+Q KMFFIQ            1 KMFFIQ    6 (6)
+Q Consensus         1 kmffiq    6 (6)
+                      |+||+|
+T Consensus       179 kl~iiD  184 (198)
+T 5K20_A          179 KLFFIQ  184 (198)
+T ss_dssp             EEEEEE
+T ss_pred             EEEEEE
+Confidence            355553
+
+
+No 12
+>6X8J_B Caspase-7 (E.C.3.4.22.60), ketomethylene inhibitor; inhibitor, tetrahedral, complex, HYDROLASE-HYDROLASE INHIBITOR; HET: Y2Y; 2.604A {Homo sapiens}
+Probab=23.55  E-value=78  Score=13.06  Aligned_cols=6  Identities=83%  Similarity=1.481  Sum_probs=2.9  Template_Neff=8.000
+
+Q KMFFIQ            1 KMFFIQ    6 (6)
+Q Consensus         1 kmffiq    6 (6)
+                      |+||+|
+T Consensus       179 kl~iiD  184 (198)
+T 6X8J_B          179 KLFFIQ  184 (198)
+T ss_pred             EEEEEE
+Confidence            355553
+
+

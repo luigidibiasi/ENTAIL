@@ -1,0 +1,146 @@
+Query         SGIKLA
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 14:29:13 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/SGIKLA/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/SGIKLA/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3K1T_A Glutamate--cysteine lig  10.5 2.7E+02   0.003   14.7   0.0    6    1-6      53-58  (432)
+  2 1IFI_A INOVIRUS (FILAMENTOUS B   8.2 3.7E+02  0.0041   10.6   0.0    4    2-5      38-41  (50)
+  3 2MJZ_U Capsid protein G8P; mol   8.2 3.7E+02  0.0041   10.5   0.0    4    2-5      38-41  (50)
+  4 4GWP_B Mediator of RNA polymer   8.0 3.9E+02  0.0043   14.1   0.0    5    2-6      16-20  (687)
+  5 4GWQ_B Mediator of RNA polymer   8.0 3.9E+02  0.0043   14.1   0.0    5    2-6      16-20  (687)
+  6 2C0W_A COAT PROTEIN B; VIRUS,    7.9 3.9E+02  0.0043   10.5   0.0    4    2-5      38-41  (50)
+  7 1E7Z_A ENDOTHELIAL-MONOCYTE AC   7.9   4E+02  0.0044   11.6   0.0    5    1-5     163-167 (174)
+  8 1QHU_A HEMOPEXIN, HEAM; BETA P   7.3 4.4E+02  0.0049   12.2   0.0    6    1-6       5-10  (460)
+  9 6U42_7M Tubulin beta, Tubulin    7.2 4.5E+02   0.005   12.5   0.0    6    1-6      35-40  (139)
+ 10 6U42_7N Tubulin beta, Tubulin    7.2 4.5E+02   0.005   12.5   0.0    6    1-6      35-40  (139)
+
+No 1
+>3K1T_A Glutamate--cysteine ligase GshA; Putative gamma-glutamylcysteine synthetase, Structural Genomics; HET: GOL, SO4; 1.9A {Methylobacillus flagellatus KT}
+Probab=10.49  E-value=2.7e+02  Score=14.68  Aligned_cols=6  Identities=67%  Similarity=1.016  Sum_probs=3.4  Template_Neff=4.100
+
+Q SGIKLA            1 SGIKLA    6 (6)
+Q Consensus         1 sgikla    6 (6)
+                      ||.|||
+T Consensus        53 aGfKlA   58 (432)
+T 3K1T_A           53 AGFKLA   58 (432)
+T ss_dssp             CSSCEE
+T ss_pred             cCCccc
+Confidence            466664
+
+
+No 2
+>1IFI_A INOVIRUS (FILAMENTOUS BACTERIOPHAGE) STRAIN FD; VIRUS, Helical virus; 3.3A {Enterobacteria phage fd} SCOP: h.1.4.1
+Probab=8.23  E-value=3.7e+02  Score=10.55  Aligned_cols=4  Identities=100%  Similarity=1.481  Sum_probs=0.0  Template_Neff=3.500
+
+Q SGIKLA            2 GIKL    5 (6)
+Q Consensus         2 gikl    5 (6)
+                      ||||
+T Consensus        38 gIkL   41 (50)
+T 1IFI_A           38 GIKL   41 (50)
+T ss_dssp             HHHH
+T ss_pred             HHHH
+
+
+No 3
+>2MJZ_U Capsid protein G8P; molecular assembly, VIRAL PROTEIN; NMR {Enterobacteria phage M13}
+Probab=8.22  E-value=3.7e+02  Score=10.52  Aligned_cols=4  Identities=100%  Similarity=1.481  Sum_probs=0.0  Template_Neff=3.600
+
+Q SGIKLA            2 GIKL    5 (6)
+Q Consensus         2 gikl    5 (6)
+                      ||||
+T Consensus        38 gIkL   41 (50)
+T 2MJZ_U           38 GIKL   41 (50)
+T ss_dssp             HHHH
+T ss_pred             HHHH
+
+
+No 4
+>4GWP_B Mediator of RNA polymerase II; Binding Sites, Mediator Complex, Models; 4.2A {Saccharomyces cerevisiae}
+Probab=8.03  E-value=3.9e+02  Score=14.14  Aligned_cols=5  Identities=100%  Similarity=1.345  Sum_probs=0.0  Template_Neff=6.200
+
+Q SGIKLA            2 GIKLA    6 (6)
+Q Consensus         2 gikla    6 (6)
+                      |||||
+T Consensus        16 ~~~~~   20 (687)
+T 4GWP_B           16 GIKLA   20 (687)
+T ss_pred             cceee
+
+
+No 5
+>4GWQ_B Mediator of RNA polymerase II; Binding Sites, Mediator Complex, Models; 4.5A {Saccharomyces cerevisiae}
+Probab=8.03  E-value=3.9e+02  Score=14.14  Aligned_cols=5  Identities=100%  Similarity=1.345  Sum_probs=0.0  Template_Neff=6.200
+
+Q SGIKLA            2 GIKLA    6 (6)
+Q Consensus         2 gikla    6 (6)
+                      |||||
+T Consensus        16 ~~~~~   20 (687)
+T 4GWQ_B           16 GIKLA   20 (687)
+T ss_pred             cceee
+
+
+No 6
+>2C0W_A COAT PROTEIN B; VIRUS, CAPSID PROTEIN, FILAMENTOUS BACTERIOPHAGE; 3.2A {ENTEROBACTERIA PHAGE FD}
+Probab=7.92  E-value=3.9e+02  Score=10.52  Aligned_cols=4  Identities=100%  Similarity=1.481  Sum_probs=0.0  Template_Neff=3.400
+
+Q SGIKLA            2 GIKL    5 (6)
+Q Consensus         2 gikl    5 (6)
+                      ||||
+T Consensus        38 gIkL   41 (50)
+T 2C0W_A           38 GIKL   41 (50)
+T ss_dssp             HHHH
+T ss_pred             HHHH
+
+
+No 7
+>1E7Z_A ENDOTHELIAL-MONOCYTE ACTIVATING POLYPEPTIDE II; RNA BINDING DOMAIN, OB-FOLD, TRNA; 2.05A {HOMO SAPIENS} SCOP: b.40.4.4
+Probab=7.88  E-value=4e+02  Score=11.58  Aligned_cols=5  Identities=100%  Similarity=1.331  Sum_probs=0.0  Template_Neff=6.400
+
+Q SGIKLA            1 SGIKL    5 (6)
+Q Consensus         1 sgikl    5 (6)
+                      +||||
+T Consensus       163 ~~~~~  167 (174)
+T 1E7Z_A          163 SGIKL  167 (174)
+T ss_dssp             CEEES
+T ss_pred             ceeec
+
+
+No 8
+>1QHU_A HEMOPEXIN, HEAM; BETA PROPELLER, HAEM BINDING AND; HET: HEM; 2.3A {Oryctolagus cuniculus} SCOP: b.66.1.1
+Probab=7.26  E-value=4.4e+02  Score=12.18  Aligned_cols=6  Identities=67%  Similarity=0.966  Sum_probs=0.0  Template_Neff=8.500
+
+Q SGIKLA            1 SGIKLA    6 (6)
+Q Consensus         1 sgikla    6 (6)
+                      |||++.
+T Consensus         5 ~~~~~~   10 (460)
+T 1QHU_A            5 SGIPIA   10 (460)
+T ss_pred             hHHHHH
+
+
+No 9
+>6U42_7M Tubulin beta, Tubulin alpha, PACRG; motile cilia, microtubule doublet, repetitive; HET: GDP, GTP, MG; 3.4A {Chlamydomonas reinhardtii}
+Probab=7.18  E-value=4.5e+02  Score=12.54  Aligned_cols=6  Identities=83%  Similarity=0.883  Sum_probs=0.0  Template_Neff=1.300
+
+Q SGIKLA            1 SGIKLA    6 (6)
+Q Consensus         1 sgikla    6 (6)
+                      |.||||
+T Consensus        35 s~~kla   40 (139)
+T 6U42_7M          35 SDIKLA   40 (139)
+T ss_pred             cchhHh
+
+
+No 10
+>6U42_7N Tubulin beta, Tubulin alpha, PACRG; motile cilia, microtubule doublet, repetitive; HET: GDP, MG, GTP; 3.4A {Chlamydomonas reinhardtii}
+Probab=7.18  E-value=4.5e+02  Score=12.54  Aligned_cols=6  Identities=83%  Similarity=0.883  Sum_probs=0.0  Template_Neff=1.300
+
+Q SGIKLA            1 SGIKLA    6 (6)
+Q Consensus         1 sgikla    6 (6)
+                      |.||||
+T Consensus        35 s~~kla   40 (139)
+T 6U42_7N          35 SDIKLA   40 (139)
+T ss_pred             cchhHh
+
+

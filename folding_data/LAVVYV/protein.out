@@ -1,0 +1,148 @@
+Query         LAVVYV
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 17:31:02 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LAVVYV/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LAVVYV/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6Q95_V 30S ribosomal protein S   6.3 5.3E+02  0.0058    9.7   0.0    4    2-5      24-27  (92)
+  2 6SSH_A PROTEIN; GTPase activat   6.2 5.4E+02   0.006   11.0   0.0    6    1-6       5-10  (204)
+  3 4NAC_A Regulation of nuclear p   6.2 5.4E+02   0.006    9.5   0.0    6    1-6      57-62  (139)
+  4 6SAN_A Complement C5, Putative   5.7   6E+02  0.0067    8.9   0.0    4    1-4       7-10  (137)
+  5 6MGN_A Transcription factor E2   5.7 6.1E+02  0.0067    9.7   0.0    6    1-6      34-39  (52)
+  6 7CKA_A Heme oxygenase 1 (E.C.1   5.6 6.1E+02  0.0068   10.4   0.0    6    1-6     140-145 (226)
+  7 6XKB_D SR-related and CTD-asso   5.5 6.3E+02   0.007    9.2   0.0    6    1-6      61-66  (140)
+  8 6SA5_A Complement C5, Putative   5.5 6.3E+02   0.007    8.9   0.0    4    1-4       7-10  (137)
+  9 5IUE_H HLA class I histocompat   5.5 6.4E+02   0.007   10.6   0.0    4    3-6      24-27  (182)
+ 10 4RAJ_A Heme oxygenase (E.C.1.1   5.4 6.4E+02  0.0071   10.3   0.0    6    1-6     141-146 (247)
+
+No 1
+>6Q95_V 30S ribosomal protein S2, 30S; tmRNA SmpB trans-translation translation, RIBOSOME; HET: MG, 5MU; 3.7A {Thermus thermophilus (strain HB8 / ATCC 27634 / DSM 579)}
+Probab=6.33  E-value=5.3e+02  Score=9.73  Aligned_cols=4  Identities=50%  Similarity=1.107  Sum_probs=0.0  Template_Neff=7.300
+
+Q LAVVYV            2 AVVY    5 (6)
+Q Consensus         2 avvy    5 (6)
+                      ||+|
+T Consensus        24 aviY   27 (92)
+T 6Q95_V           24 GVMY   27 (92)
+T ss_pred             EEEE
+
+
+No 2
+>6SSH_A PROTEIN; GTPase activating protein, SIGNALING PROTEIN; HET: EDO; 1.4A {Chaetomium thermophilum}
+Probab=6.20  E-value=5.4e+02  Score=10.98  Aligned_cols=6  Identities=33%  Similarity=1.093  Sum_probs=0.0  Template_Neff=7.500
+
+Q LAVVYV            1 LAVVYV    6 (6)
+Q Consensus         1 lavvyv    6 (6)
+                      .+|+||
+T Consensus         5 vgV~Yv   10 (204)
+T 6SSH_A            5 VGVIYI   10 (204)
+T ss_dssp             EEEEEE
+T ss_pred             EEEEEE
+
+
+No 3
+>4NAC_A Regulation of nuclear pre-mRNA domain-containing; alpha helix, TRANSCRIPTION; 2.002A {Homo sapiens}
+Probab=6.19  E-value=5.4e+02  Score=9.50  Aligned_cols=6  Identities=33%  Similarity=0.894  Sum_probs=0.0  Template_Neff=9.300
+
+Q LAVVYV            1 LAVVYV    6 (6)
+Q Consensus         1 lavvyv    6 (6)
+                      |.++||
+T Consensus        57 l~llYv   62 (139)
+T 4NAC_A           57 LTFLYL   62 (139)
+T ss_dssp             HHHHHH
+T ss_pred             hHHhHh
+
+
+No 4
+>6SAN_A Complement C5, Putative 8.9 kDa; Scavenger receptor cysteine-rich, pattern recognition; HET: GOL; 1.36A {Homo sapiens}
+Probab=5.70  E-value=6e+02  Score=8.90  Aligned_cols=4  Identities=100%  Similarity=1.099  Sum_probs=0.0  Template_Neff=10.300
+
+Q LAVVYV            1 LAVV    4 (6)
+Q Consensus         1 lavv    4 (6)
+                      ||||
+T Consensus         7 ~~~~   10 (137)
+T 6SAN_A            7 LAVV   10 (137)
+T ss_dssp             ----
+T ss_pred             HHHH
+
+
+No 5
+>6MGN_A Transcription factor E2-alpha, DNA-binding protein; DNA-binding protein inhibitor ID-1, transcription; 1.901A {Homo sapiens}
+Probab=5.66  E-value=6.1e+02  Score=9.70  Aligned_cols=6  Identities=33%  Similarity=0.263  Sum_probs=0.0  Template_Neff=4.500
+
+Q LAVVYV            1 LAVVYV    6 (6)
+Q Consensus         1 lavvyv    6 (6)
+                      +|+.|+
+T Consensus        34 ~Av~yI   39 (52)
+T 6MGN_A           34 QAVQVI   39 (52)
+T ss_pred             HHHHHH
+
+
+No 6
+>7CKA_A Heme oxygenase 1 (E.C.1.14.99.3); METAL BINDING PROTEIN, OXIDOREDUCTASE; HET: HEM, CIT; 1.06A {Glycine max}
+Probab=5.64  E-value=6.1e+02  Score=10.37  Aligned_cols=6  Identities=17%  Similarity=0.390  Sum_probs=0.0  Template_Neff=8.900
+
+Q LAVVYV            1 LAVVYV    6 (6)
+Q Consensus         1 lavvyv    6 (6)
+                      ++..||
+T Consensus       140 lG~~YV  145 (226)
+T 7CKA_A          140 ICHFYN  145 (226)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 7
+>6XKB_D SR-related and CTD-associated factor 4; SCAF4-CID, Structural Genomics, Structural Genomics; HET: SEP, BTN, UNX; 1.6A {Homo sapiens}
+Probab=5.50  E-value=6.3e+02  Score=9.21  Aligned_cols=6  Identities=33%  Similarity=0.656  Sum_probs=0.0  Template_Neff=9.600
+
+Q LAVVYV            1 LAVVYV    6 (6)
+Q Consensus         1 lavvyv    6 (6)
+                      |+++|+
+T Consensus        61 l~~lyl   66 (140)
+T 6XKB_D           61 VPGLYV   66 (140)
+T ss_dssp             HHHHHH
+T ss_pred             ccHHHH
+
+
+No 8
+>6SA5_A Complement C5, Putative 8.9 kDa; Scavenger receptor cysteine-rich, pattern recognition; HET: GOL; 1.29A {Homo sapiens}
+Probab=5.48  E-value=6.3e+02  Score=8.89  Aligned_cols=4  Identities=100%  Similarity=1.099  Sum_probs=0.0  Template_Neff=10.200
+
+Q LAVVYV            1 LAVV    4 (6)
+Q Consensus         1 lavv    4 (6)
+                      ||||
+T Consensus         7 ~~~~   10 (137)
+T 6SA5_A            7 LAVV   10 (137)
+T ss_dssp             ----
+T ss_pred             HHHH
+
+
+No 9
+>5IUE_H HLA class I histocompatibility antigen; MHC-Ib, IMMUNE SYSTEM, PEPTIDE BINDING; HET: NAG; 2.62A {Trichoplusia ni}
+Probab=5.47  E-value=6.4e+02  Score=10.58  Aligned_cols=4  Identities=75%  Similarity=1.364  Sum_probs=0.0  Template_Neff=7.500
+
+Q LAVVYV            3 VVYV    6 (6)
+Q Consensus         3 vvyv    6 (6)
+                      |+||
+T Consensus        24 ~~~~   27 (182)
+T 5IUE_H           24 VLYV   27 (182)
+T ss_dssp             ----
+T ss_pred             HHHH
+
+
+No 10
+>4RAJ_A Heme oxygenase (E.C.1.14.99.3); Heme Oxygenase, heme, biliverdin, HMOX2; HET: PG6; 1.84A {Chlamydomonas reinhardtii}
+Probab=5.42  E-value=6.4e+02  Score=10.32  Aligned_cols=6  Identities=67%  Similarity=0.866  Sum_probs=0.0  Template_Neff=9.200
+
+Q LAVVYV            1 LAVVYV    6 (6)
+Q Consensus         1 lavvyv    6 (6)
+                      ++..||
+T Consensus       141 lG~~YV  146 (247)
+T 4RAJ_A          141 LAHVYT  146 (247)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+

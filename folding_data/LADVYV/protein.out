@@ -1,0 +1,152 @@
+Query         LADVYV
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 13:20:54 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LADVYV/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LADVYV/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2BTV_G PROTEIN (VP3); VIRUS/VI  24.6      72  0.0008   15.9   0.0    6    1-6     316-321 (349)
+  2 1BVP_3 BLUETONGUE VIRUS 10 (US  24.5      72  0.0008   15.9   0.0    6    1-6     316-321 (349)
+  3 6YJF_A Phosphoglycerate kinase  17.9 1.2E+02  0.0014   14.6   0.0    6    1-6     156-161 (416)
+  4 6RYO_A Lipoprotein signal pept  17.6 1.3E+02  0.0014   13.1   0.0    6    1-6     158-163 (187)
+  5 6RYP_A Lipoprotein signal pept  17.6 1.3E+02  0.0014   13.1   0.0    6    1-6     158-163 (187)
+  6 1V6S_A Phosphoglycerate kinase  16.8 1.3E+02  0.0015   14.4   0.0    6    1-6     134-139 (390)
+  7 2WZB_A PHOSPHOGLYCERATE KINASE  16.8 1.4E+02  0.0015   14.6   0.0    6    1-6     156-161 (416)
+  8 6HXE_A Phosphoglycerate kinase  16.3 1.4E+02  0.0016   14.4   0.0    6    1-6     132-137 (387)
+  9 6I06_A Phosphoglycerate kinase  16.3 1.4E+02  0.0016   14.4   0.0    6    1-6     132-137 (387)
+ 10 3CBU_A Probable gst-related pr  16.0 1.4E+02  0.0016   10.5   0.0    6    1-6     152-157 (214)
+
+No 1
+>2BTV_G PROTEIN (VP3); VIRUS/VIRAL PROTEIN, Icosahedral virus, Virus; 3.5A {Bluetongue virus (serotype 1 / isolate South Africa)} SCOP: b.19.1.1, a.115.1.1
+Probab=24.56  E-value=72  Score=15.91  Aligned_cols=6  Identities=83%  Similarity=1.237  Sum_probs=4.0  Template_Neff=4.600
+
+Q LADVYV            1 LADVYV    6 (6)
+Q Consensus         1 ladvyv    6 (6)
+                      |+|||.
+T Consensus       316 L~DvY~  321 (349)
+T 2BTV_G          316 LADVYT  321 (349)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            577773
+
+
+No 2
+>1BVP_3 BLUETONGUE VIRUS 10 (USA) VP7; VIRUS, VP7, TRIMER, Viral protein; 2.6A {Bluetongue virus} SCOP: b.19.1.1, a.115.1.1
+Probab=24.52  E-value=72  Score=15.91  Aligned_cols=6  Identities=83%  Similarity=1.237  Sum_probs=4.0  Template_Neff=4.600
+
+Q LADVYV            1 LADVYV    6 (6)
+Q Consensus         1 ladvyv    6 (6)
+                      |+|||.
+T Consensus       316 L~DvY~  321 (349)
+T 1BVP_3          316 LADVYT  321 (349)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            577773
+
+
+No 3
+>6YJF_A Phosphoglycerate kinase (E.C.2.7.2.3); phosphoglycerate kinase, metabolic enzyme, kinase; HET: OTQ; 1.85A {Plasmodium vivax}
+Probab=17.89  E-value=1.2e+02  Score=14.60  Aligned_cols=6  Identities=50%  Similarity=1.154  Sum_probs=0.0  Template_Neff=6.600
+
+Q LADVYV            1 LADVYV    6 (6)
+Q Consensus         1 ladvyv    6 (6)
+                      ++|+||
+T Consensus       156 l~DiyV  161 (416)
+T 6YJF_A          156 LGDVFI  161 (416)
+T ss_dssp             TCSEEE
+T ss_pred             hCCEEE
+
+
+No 4
+>6RYO_A Lipoprotein signal peptidase (E.C.3.4.23.36), Globomycin; in meso, Lipid cubic phases; HET: 7PE, OLC, GOL, 5BV; 1.924A {Staphylococcus aureus}
+Probab=17.64  E-value=1.3e+02  Score=13.06  Aligned_cols=6  Identities=33%  Similarity=0.490  Sum_probs=0.0  Template_Neff=6.600
+
+Q LADVYV            1 LADVYV    6 (6)
+Q Consensus         1 ladvyv    6 (6)
+                      +||+++
+T Consensus       158 lADi~I  163 (187)
+T 6RYO_A          158 IADSSL  163 (187)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 5
+>6RYP_A Lipoprotein signal peptidase (E.C.3.4.23.36); in meso, Lipid cubic phases; HET: KNH, PEG, SO4, OLC; 2.3A {Staphylococcus aureus}
+Probab=17.64  E-value=1.3e+02  Score=13.06  Aligned_cols=6  Identities=33%  Similarity=0.490  Sum_probs=0.0  Template_Neff=6.600
+
+Q LADVYV            1 LADVYV    6 (6)
+Q Consensus         1 ladvyv    6 (6)
+                      +||+++
+T Consensus       158 lADi~I  163 (187)
+T 6RYP_A          158 IADSSL  163 (187)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 6
+>1V6S_A Phosphoglycerate kinase (E.C.2.7.2.3); phosphoglycerate kinase, Thermus thermophilus, RIKEN; HET: GOL; 1.5A {Thermus thermophilus} SCOP: c.86.1.1
+Probab=16.84  E-value=1.3e+02  Score=14.45  Aligned_cols=6  Identities=33%  Similarity=0.877  Sum_probs=0.0  Template_Neff=6.400
+
+Q LADVYV            1 LADVYV    6 (6)
+Q Consensus         1 ladvyv    6 (6)
+                      ++|+||
+T Consensus       134 l~DiyV  139 (390)
+T 1V6S_A          134 LGEAFV  139 (390)
+T ss_dssp             GCSEEE
+T ss_pred             hcccee
+
+
+No 7
+>2WZB_A PHOSPHOGLYCERATE KINASE 1 (E.C.2.7.2.3); HEREDITARY HEMOLYTIC ANEMIA, TRANSFERASE, PHOSPHOPROTEIN; HET: ADP, 3PG; 1.47A {HOMO SAPIENS}
+Probab=16.79  E-value=1.4e+02  Score=14.56  Aligned_cols=6  Identities=83%  Similarity=1.320  Sum_probs=0.0  Template_Neff=6.400
+
+Q LADVYV            1 LADVYV    6 (6)
+Q Consensus         1 ladvyv    6 (6)
+                      ++|+||
+T Consensus       156 l~DiyV  161 (416)
+T 2WZB_A          156 LGDVYV  161 (416)
+T ss_dssp             TCSEEE
+T ss_pred             ccceEE
+
+
+No 8
+>6HXE_A Phosphoglycerate kinase (E.C.2.7.2.3); Complex, 3-phosphoglycerate, hinge binding, TRANSFERASE; HET: 3PG; 2.1A {Pseudomonas sp. 'TAC II 18'}
+Probab=16.34  E-value=1.4e+02  Score=14.37  Aligned_cols=6  Identities=67%  Similarity=1.171  Sum_probs=0.0  Template_Neff=6.400
+
+Q LADVYV            1 LADVYV    6 (6)
+Q Consensus         1 ladvyv    6 (6)
+                      ++|+||
+T Consensus       132 l~DiyV  137 (387)
+T 6HXE_A          132 LCDVFV  137 (387)
+T ss_dssp             TCSEEE
+T ss_pred             cccHhh
+
+
+No 9
+>6I06_A Phosphoglycerate kinase (E.C.2.7.2.3); hinge binding, TRANSFERASE, kinase, glycolysis; 2.0A {Pseudomonas}
+Probab=16.33  E-value=1.4e+02  Score=14.37  Aligned_cols=6  Identities=67%  Similarity=1.171  Sum_probs=0.0  Template_Neff=6.400
+
+Q LADVYV            1 LADVYV    6 (6)
+Q Consensus         1 ladvyv    6 (6)
+                      ++|+||
+T Consensus       132 l~DiyV  137 (387)
+T 6I06_A          132 LCDVFV  137 (387)
+T ss_dssp             TCSEEE
+T ss_pred             hccHhh
+
+
+No 10
+>3CBU_A Probable gst-related protein; Thioredoxin fold, gst c-terminal domain-like; HET: MSE, EDO; 2.05A {Ralstonia eutropha}
+Probab=16.03  E-value=1.4e+02  Score=10.53  Aligned_cols=6  Identities=50%  Similarity=0.501  Sum_probs=0.0  Template_Neff=11.700
+
+Q LADVYV            1 LADVYV    6 (6)
+Q Consensus         1 ladvyv    6 (6)
+                      +||+++
+T Consensus       152 ~aDi~l  157 (214)
+T 3CBU_A          152 LADCAA  157 (214)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+

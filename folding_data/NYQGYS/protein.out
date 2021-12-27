@@ -1,0 +1,149 @@
+Query         NYQGYS
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 05:21:00 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NYQGYS/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NYQGYS/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 7COY_aE Photosystem I P700 chl  31.2      46 0.00051   14.6   0.0    6    1-6      44-49  (89)
+  2 4J4W_A Nucleocapsid; nucleocap  18.2 1.2E+02  0.0013   13.9   0.0    5    2-6      32-36  (246)
+  3 4K3Y_A neuraminidase; influenz  18.2 1.2E+02  0.0013   15.9   0.0    6    1-6     307-312 (369)
+  4 5JCE_B Chitin elicitor-binding  18.2 1.2E+02  0.0013   12.9   0.0    6    1-6     272-277 (297)
+  5 4J4R_A Nucleocapsid protein; n  18.0 1.2E+02  0.0013   13.9   0.0    5    2-6      33-37  (248)
+  6 3OV9_C Nucleoprotein; Orthogon  18.0 1.2E+02  0.0013   13.8   0.0    5    2-6      30-34  (245)
+  7 4CSG_H NUCLEOPROTEIN; VIRAL PR  18.0 1.2E+02  0.0013   13.9   0.0    5    2-6      32-36  (253)
+  8 4H5L_C Nucleoprotein; nucleoca  18.0 1.2E+02  0.0013   13.9   0.0    5    2-6      32-36  (253)
+  9 4MC7_D NEURAMINIDASE; bat, inf  17.9 1.2E+02  0.0014   15.8   0.0    6    1-6     312-317 (374)
+ 10 4H5P_A Nucleocapsid protein; n  17.8 1.2E+02  0.0014   13.8   0.0    5    2-6      30-34  (245)
+
+No 1
+>7COY_aE Photosystem I P700 chlorophyll a; Photosynthesis, Photosystem I, Acaryochloris marina; HET: SF4, UNL, G9R, LMG, PQN, CL7, LHG, PHO; 2.5A {Acaryochloris marina MBIC11017}
+Probab=31.15  E-value=46  Score=14.56  Aligned_cols=6  Identities=67%  Similarity=1.132  Sum_probs=2.9  Template_Neff=2.400
+
+Q NYQGYS            1 NYQGYS    6 (6)
+Q Consensus         1 nyqgys    6 (6)
+                      ||.|+|
+T Consensus        44 NY~g~s   49 (89)
+T 7COY_aE          44 NYNGIS   49 (89)
+T ss_pred             cccCCC
+Confidence            455443
+
+
+No 2
+>4J4W_A Nucleocapsid; nucleocapsid protein, nucleoprotein, nucleocapsid, VIRAL; 2.661A {Buenaventura virus}
+Probab=18.24  E-value=1.2e+02  Score=13.93  Aligned_cols=5  Identities=60%  Similarity=1.511  Sum_probs=0.0  Template_Neff=6.000
+
+Q NYQGYS            2 YQGYS    6 (6)
+Q Consensus         2 yqgys    6 (6)
+                      |||++
+T Consensus        32 YqGFD   36 (246)
+T 4J4W_A           32 YQGFD   36 (246)
+T ss_dssp             CCCCC
+T ss_pred             hCCCC
+
+
+No 3
+>4K3Y_A neuraminidase; influenza virus, neuraminidase-like, N11, beta; HET: BMA, MAN, FUC, NAG; 2.682A {Influenza A virus}
+Probab=18.21  E-value=1.2e+02  Score=15.85  Aligned_cols=6  Identities=67%  Similarity=0.672  Sum_probs=0.0  Template_Neff=3.200
+
+Q NYQGYS            1 NYQGYS    6 (6)
+Q Consensus         1 nyqgys    6 (6)
+                      |++|||
+T Consensus       307 nwSgYS  312 (369)
+T 4K3Y_A          307 NYQLLS  312 (369)
+T ss_dssp             EEEEEE
+T ss_pred             Cccccc
+
+
+No 4
+>5JCE_B Chitin elicitor-binding protein; rice chitin receptor, SUGAR BINDING; HET: NAG; 2.51A {Oryza sativa subsp. japonica}
+Probab=18.18  E-value=1.2e+02  Score=12.94  Aligned_cols=6  Identities=67%  Similarity=1.348  Sum_probs=0.0  Template_Neff=8.700
+
+Q NYQGYS            1 NYQGYS    6 (6)
+Q Consensus         1 nyqgys    6 (6)
+                      .|.||+
+T Consensus       272 ~~~g~~  277 (297)
+T 5JCE_B          272 AYSGYS  277 (297)
+T ss_pred             eecccc
+
+
+No 5
+>4J4R_A Nucleocapsid protein; nucleocapsid protein, nucleoprotein, nucleocapsid, VIRAL; 1.9A {Phlebovirus}
+Probab=18.04  E-value=1.2e+02  Score=13.92  Aligned_cols=5  Identities=40%  Similarity=1.105  Sum_probs=0.0  Template_Neff=6.000
+
+Q NYQGYS            2 YQGYS    6 (6)
+Q Consensus         2 yqgys    6 (6)
+                      |||+.
+T Consensus        33 YqGFD   37 (248)
+T 4J4R_A           33 YEGLD   37 (248)
+T ss_dssp             CCCCC
+T ss_pred             hcCCC
+
+
+No 6
+>3OV9_C Nucleoprotein; Orthogonal Bundle, Viral genomic encapsidation; 1.6A {Rift valley fever virus}
+Probab=17.99  E-value=1.2e+02  Score=13.85  Aligned_cols=5  Identities=60%  Similarity=1.511  Sum_probs=0.0  Template_Neff=6.100
+
+Q NYQGYS            2 YQGYS    6 (6)
+Q Consensus         2 yqgys    6 (6)
+                      |||+.
+T Consensus        30 YqGFD   34 (245)
+T 3OV9_C           30 YQGFD   34 (245)
+T ss_dssp             CCSCC
+T ss_pred             hCCCC
+
+
+No 7
+>4CSG_H NUCLEOPROTEIN; VIRAL PROTEIN, INFECTIOUS; 3.32A {TOSCANA VIRUS}
+Probab=17.96  E-value=1.2e+02  Score=13.91  Aligned_cols=5  Identities=60%  Similarity=1.511  Sum_probs=0.0  Template_Neff=6.100
+
+Q NYQGYS            2 YQGYS    6 (6)
+Q Consensus         2 yqgys    6 (6)
+                      |||+.
+T Consensus        32 YqGFD   36 (253)
+T 4CSG_H           32 YQGFD   36 (253)
+T ss_dssp             BCSCC
+T ss_pred             hcCCC
+
+
+No 8
+>4H5L_C Nucleoprotein; nucleocapsid protein, N protein, ribonucleoprotein; 2.75A {Toscana virus}
+Probab=17.96  E-value=1.2e+02  Score=13.91  Aligned_cols=5  Identities=60%  Similarity=1.511  Sum_probs=0.0  Template_Neff=6.100
+
+Q NYQGYS            2 YQGYS    6 (6)
+Q Consensus         2 yqgys    6 (6)
+                      |||+.
+T Consensus        32 YqGFD   36 (253)
+T 4H5L_C           32 YQGFD   36 (253)
+T ss_dssp             CCSSC
+T ss_pred             hcCCC
+
+
+No 9
+>4MC7_D NEURAMINIDASE; bat, influenza, VIRAL PROTEIN; HET: NAG; 2.99A {Influenza A virus}
+Probab=17.88  E-value=1.2e+02  Score=15.84  Aligned_cols=6  Identities=67%  Similarity=0.672  Sum_probs=0.0  Template_Neff=3.200
+
+Q NYQGYS            1 NYQGYS    6 (6)
+Q Consensus         1 nyqgys    6 (6)
+                      |++|||
+T Consensus       312 nwSgYS  317 (374)
+T 4MC7_D          312 NYQLLS  317 (374)
+T ss_dssp             EEEEEE
+T ss_pred             Cccccc
+
+
+No 10
+>4H5P_A Nucleocapsid protein; nucleocapsid protein, N protein, ribonucleoprotein; 2.15A {Rift Valley fever virus}
+Probab=17.84  E-value=1.2e+02  Score=13.83  Aligned_cols=5  Identities=60%  Similarity=1.511  Sum_probs=0.0  Template_Neff=6.100
+
+Q NYQGYS            2 YQGYS    6 (6)
+Q Consensus         2 yqgys    6 (6)
+                      |||+.
+T Consensus        30 YqGFD   34 (245)
+T 4H5P_A           30 YQGFD   34 (245)
+T ss_dssp             CCCCC
+T ss_pred             hCCCC
+
+

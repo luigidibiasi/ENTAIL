@@ -1,0 +1,146 @@
+Query         QQFNPQ
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 09:16:09 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QQFNPQ/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QQFNPQ/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5TJ5_L C-terminal half of Vph1  12.3 2.1E+02  0.0024   10.8   0.0    4    2-5      51-54  (57)
+  2 4RS2_A Predicted acyltransfera  12.1 2.2E+02  0.0024   10.7   0.0    6    1-6     178-183 (188)
+  3 1I7Q_B ANTHRANILATE SYNTHASE T  12.0 2.2E+02  0.0024   10.8   0.0    5    2-6     168-172 (193)
+  4 1YUK_A Integrin beta-2; Integr  12.0 2.2E+02  0.0025   10.7   0.0    5    2-6      75-79  (103)
+  5 5YZ2_B Magnesium and cobalt ef  11.9 2.3E+02  0.0025    9.3   0.0    6    1-6     139-144 (144)
+  6 2K31_A Phosphodiesterase 5A, c  11.7 2.3E+02  0.0025    8.7   0.0    4    2-5     173-176 (176)
+  7 7C7Y_B Uncharacterized protein  11.5 2.4E+02  0.0026   12.4   0.0    5    1-5       5-9   (80)
+  8 7C7Y_C Uncharacterized protein  11.5 2.4E+02  0.0026   12.4   0.0    5    1-5       5-9   (80)
+  9 3GD8_A Aquaporin-4; brain edem  11.2 2.5E+02  0.0027   11.2   0.0    4    2-5      64-67  (223)
+ 10 6JLQ_C Ubiquitin carboxyl-term  10.8 2.6E+02  0.0029   10.9   0.0    5    1-5     440-444 (444)
+
+No 1
+>5TJ5_L C-terminal half of Vph1p,V-type proton; Rotary ATPase, Vacuolar-type ATPase, Electron;{Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=12.29  E-value=2.1e+02  Score=10.85  Aligned_cols=4  Identities=50%  Similarity=1.124  Sum_probs=0.0  Template_Neff=5.100
+
+Q QQFNPQ            2 QFNP    5 (6)
+Q Consensus         2 qfnp    5 (6)
+                      |.||
+T Consensus        51 Qm~P   54 (57)
+T 5TJ5_L           51 QLHP   54 (57)
+T ss_pred             HHcc
+
+
+No 2
+>4RS2_A Predicted acyltransferase with acyl-CoA N-acyltransferase; Structural Genomics, NIAID, National Institute; HET: COA; 1.55A {Escherichia coli}
+Probab=12.13  E-value=2.2e+02  Score=10.67  Aligned_cols=6  Identities=33%  Similarity=0.567  Sum_probs=0.0  Template_Neff=10.100
+
+Q QQFNPQ            1 QQFNPQ    6 (6)
+Q Consensus         1 qqfnpq    6 (6)
+                      ++||+|
+T Consensus       178 ~~~~~~  183 (188)
+T 4RS2_A          178 EHFNRF  183 (188)
+T ss_dssp             GGGCST
+T ss_pred             hHhhcc
+
+
+No 3
+>1I7Q_B ANTHRANILATE SYNTHASE TRPE/ ANTHRANILATE SYNTHASE; ANTHRANILATE SYNTHASE, GLUTAMYL THIOESTER, ANTHRANILATE; HET: PYR, BEZ, GLU; 1.95A {Serratia marcescens} SCOP: c.23.16.1
+Probab=12.04  E-value=2.2e+02  Score=10.76  Aligned_cols=5  Identities=60%  Similarity=1.345  Sum_probs=0.0  Template_Neff=10.000
+
+Q QQFNPQ            2 QFNPQ    6 (6)
+Q Consensus         2 qfnpq    6 (6)
+                      ||.|+
+T Consensus       168 qfHPE  172 (193)
+T 1I7Q_B          168 QFHPE  172 (193)
+T ss_dssp             SSCTT
+T ss_pred             ECCcc
+
+
+No 4
+>1YUK_A Integrin beta-2; Integrin beta2, hybrid domain, PSI; HET: NDG; 1.8A {Homo sapiens}
+Probab=11.97  E-value=2.2e+02  Score=10.70  Aligned_cols=5  Identities=60%  Similarity=1.059  Sum_probs=0.0  Template_Neff=7.800
+
+Q QQFNPQ            2 QFNPQ    6 (6)
+Q Consensus         2 qfnpq    6 (6)
+                      |..||
+T Consensus        75 Qi~PQ   79 (103)
+T 1YUK_A           75 QLSPQ   79 (103)
+T ss_pred             eEece
+
+
+No 5
+>5YZ2_B Magnesium and cobalt efflux protein; cystathionine-beta-synthase (CBS) domain, magnesium and; HET: AMP; 1.75A {Escherichia coli K12}
+Probab=11.87  E-value=2.3e+02  Score=9.35  Aligned_cols=6  Identities=0%  Similarity=0.202  Sum_probs=0.0  Template_Neff=11.700
+
+Q QQFNPQ            1 QQFNPQ    6 (6)
+Q Consensus         1 qqfnpq    6 (6)
+                      .+||++
+T Consensus       139 ~~~~~~  144 (144)
+T 5YZ2_B          139 HHHHHH  144 (144)
+T ss_dssp             ------
+T ss_pred             ccccCC
+
+
+No 6
+>2K31_A Phosphodiesterase 5A, cGMP-specific (E.C.3.1.4.35); cyclic nucleotide phosphodiesterase, PDE5, GAF; HET: 35G; NMR {Mus musculus}
+Probab=11.74  E-value=2.3e+02  Score=8.69  Aligned_cols=4  Identities=0%  Similarity=0.102  Sum_probs=0.0  Template_Neff=13.600
+
+Q QQFNPQ            2 QFNP    5 (6)
+Q Consensus         2 qfnp    5 (6)
+                      ++||
+T Consensus       173 ~~~~  176 (176)
+T 2K31_A          173 HHHH  176 (176)
+T ss_pred             hcCC
+
+
+No 7
+>7C7Y_B Uncharacterized protein; DNA binding protein, DNA segregation; HET: MSE; 2.6A {Bacillus cereus (strain ATCC 10987 / NRS 248)}
+Probab=11.48  E-value=2.4e+02  Score=12.39  Aligned_cols=5  Identities=80%  Similarity=1.125  Sum_probs=0.0  Template_Neff=1.000
+
+Q QQFNPQ            1 QQFNP    5 (6)
+Q Consensus         1 qqfnp    5 (6)
+                      ||.||
+T Consensus         5 qqvnp    9 (80)
+T 7C7Y_B            5 QQVNP    9 (80)
+T ss_dssp             ---CH
+T ss_pred             hhcCH
+
+
+No 8
+>7C7Y_C Uncharacterized protein; DNA binding protein, DNA segregation; HET: MSE; 2.6A {Bacillus cereus (strain ATCC 10987 / NRS 248)}
+Probab=11.48  E-value=2.4e+02  Score=12.39  Aligned_cols=5  Identities=80%  Similarity=1.125  Sum_probs=0.0  Template_Neff=1.000
+
+Q QQFNPQ            1 QQFNP    5 (6)
+Q Consensus         1 qqfnp    5 (6)
+                      ||.||
+T Consensus         5 qqvnp    9 (80)
+T 7C7Y_C            5 QQVNP    9 (80)
+T ss_dssp             ---CH
+T ss_pred             hhcCH
+
+
+No 9
+>3GD8_A Aquaporin-4; brain edema,aquaporin, proton exclusion, Structural; HET: BOG, GOL; 1.8A {Homo sapiens}
+Probab=11.18  E-value=2.5e+02  Score=11.19  Aligned_cols=4  Identities=50%  Similarity=1.132  Sum_probs=0.0  Template_Neff=9.400
+
+Q QQFNPQ            2 QFNP    5 (6)
+Q Consensus         2 qfnp    5 (6)
+                      ++||
+T Consensus        64 h~NP   67 (223)
+T 3GD8_A           64 HINP   67 (223)
+T ss_dssp             CCSH
+T ss_pred             CcCH
+
+
+No 10
+>6JLQ_C Ubiquitin carboxyl-terminal hydrolase 46 (E.C.3.4.19.12); Deubiquitinase, DUB, HYDROLASE, USP46; HET: GOL; 3.101A {Homo sapiens}
+Probab=10.78  E-value=2.6e+02  Score=10.93  Aligned_cols=5  Identities=60%  Similarity=1.138  Sum_probs=0.0  Template_Neff=12.200
+
+Q QQFNPQ            1 QQFNP    5 (6)
+Q Consensus         1 qqfnp    5 (6)
+                      .+|+|
+T Consensus       440 ~~~~~  444 (444)
+T 6JLQ_C          440 VSFNP  444 (444)
+T ss_pred             eeeCC
+
+

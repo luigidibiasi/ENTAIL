@@ -1,0 +1,148 @@
+Query         LETVYV
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 17:59:11 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LETVYV/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LETVYV/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6QK7_D Elongator complex prote   6.5 5.1E+02  0.0056   13.4   0.0    5    1-5     736-740 (1349)
+  2 2KY5_A Platelet endothelial ce   6.3 5.3E+02  0.0058   10.3   0.0    4    2-5      27-30  (55)
+  3 6YJ6_C Transcription factor ta   6.2 5.5E+02  0.0061   12.0   0.0    5    2-6     292-296 (435)
+  4 3HPM_B Protein interacting wit   6.1 5.5E+02  0.0061    7.8   0.0    5    2-6     107-111 (111)
+  5 6XBW_G V-type proton ATPase ca   6.1 5.5E+02  0.0061   12.5   0.0    6    1-6     182-187 (382)
+  6 2F6M_B Suppressor protein STP2   5.9 5.8E+02  0.0064   10.7   0.0    6    1-6      44-49  (109)
+  7 5VOZ_O V-type proton ATPase ca   5.6 6.2E+02  0.0069   12.4   0.0    6    1-6     191-196 (392)
+  8 1U7L_A Vacuolar ATP synthase s   5.6 6.2E+02  0.0069   12.4   0.0    6    1-6     191-196 (392)
+  9 2P81_A Segmentation polarity h   5.4 6.5E+02  0.0072    5.4   0.0    5    1-5       1-5   (44)
+ 10 6WM3_O V-type proton ATPase 11   5.2 6.7E+02  0.0074   12.3   0.0    6    1-6     182-187 (382)
+
+No 1
+>6QK7_D Elongator complex protein 1, Elongator; Elongator, yeast, tRNA modification, Elp123; HET: 5AD; 3.3A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=6.50  E-value=5.1e+02  Score=13.44  Aligned_cols=5  Identities=80%  Similarity=1.398  Sum_probs=0.0  Template_Neff=9.500
+
+Q LETVYV            1 LETVY    5 (6)
+Q Consensus         1 letvy    5 (6)
+                      |||+|
+T Consensus       736 lEti~  740 (1349)
+T 6QK7_D          736 LETIY  740 (1349)
+T ss_dssp             -----
+T ss_pred             cceec
+
+
+No 2
+>2KY5_A Platelet endothelial cell adhesion molecule; PECAM-1, ITIM, signal transduction, membrane; NMR {Homo sapiens}
+Probab=6.32  E-value=5.3e+02  Score=10.28  Aligned_cols=4  Identities=100%  Similarity=1.439  Sum_probs=0.0  Template_Neff=3.600
+
+Q LETVYV            2 ETVY    5 (6)
+Q Consensus         2 etvy    5 (6)
+                      ||||
+T Consensus        27 etvy   30 (55)
+T 2KY5_A           27 ETVY   30 (55)
+T ss_dssp             HHHH
+T ss_pred             hhHh
+
+
+No 3
+>6YJ6_C Transcription factor tau 131 kDa; TFIIIC, tauA, Transcription initiation, Pol; 3.1A {Saccharomyces cerevisiae}
+Probab=6.16  E-value=5.5e+02  Score=12.00  Aligned_cols=5  Identities=80%  Similarity=1.358  Sum_probs=0.0  Template_Neff=8.100
+
+Q LETVYV            2 ETVYV    6 (6)
+Q Consensus         2 etvyv    6 (6)
+                      |++||
+T Consensus       292 e~~yv  296 (435)
+T 6YJ6_C          292 ETVYI  296 (435)
+T ss_dssp             EEEEE
+T ss_pred             eEEEE
+
+
+No 4
+>3HPM_B Protein interacting with PRKCA 1; oxidized, PDZ domain, PROTEIN BINDING; 2.8A {Rattus norvegicus, synthetic}
+Probab=6.14  E-value=5.5e+02  Score=7.78  Aligned_cols=5  Identities=40%  Similarity=0.634  Sum_probs=0.0  Template_Neff=12.100
+
+Q LETVYV            2 ETVYV    6 (6)
+Q Consensus         2 etvyv    6 (6)
+                      +.|||
+T Consensus       107 ~~~~~  111 (111)
+T 3HPM_B          107 ESVKI  111 (111)
+T ss_pred             ceecC
+
+
+No 5
+>6XBW_G V-type proton ATPase catalytic subunit; PROTON TRANSPORT; HET: ADP, POV, OLA, NAG; 3.37A {Bos taurus}
+Probab=6.10  E-value=5.5e+02  Score=12.51  Aligned_cols=6  Identities=50%  Similarity=0.545  Sum_probs=0.0  Template_Neff=6.400
+
+Q LETVYV            1 LETVYV    6 (6)
+Q Consensus         1 letvyv    6 (6)
+                      |+|++|
+T Consensus       182 L~Tl~V  187 (382)
+T 6XBW_G          182 LVTLLV  187 (382)
+T ss_dssp             EEEEEE
+T ss_pred             eeEEEE
+
+
+No 6
+>2F6M_B Suppressor protein STP22 of temperature-sensitive; endosomes, trafficking complex, Vps23, Vps28; HET: DDQ; 2.1A {Saccharomyces cerevisiae} SCOP: a.2.17.2
+Probab=5.88  E-value=5.8e+02  Score=10.70  Aligned_cols=6  Identities=33%  Similarity=0.844  Sum_probs=0.0  Template_Neff=5.400
+
+Q LETVYV            1 LETVYV    6 (6)
+Q Consensus         1 letvyv    6 (6)
+                      ||..|+
+T Consensus        44 LEkAyi   49 (109)
+T 2F6M_B           44 VEKAYL   49 (109)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHh
+
+
+No 7
+>5VOZ_O V-type proton ATPase catalytic subunit; V-ATPase, SidK, rotational state 3;{Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=5.58  E-value=6.2e+02  Score=12.36  Aligned_cols=6  Identities=67%  Similarity=0.733  Sum_probs=0.0  Template_Neff=6.500
+
+Q LETVYV            1 LETVYV    6 (6)
+Q Consensus         1 letvyv    6 (6)
+                      |+|++|
+T Consensus       191 L~Tl~V  196 (392)
+T 5VOZ_O          191 LTTVLV  196 (392)
+T ss_dssp             EEEEEE
+T ss_pred             ceEEEE
+
+
+No 8
+>1U7L_A Vacuolar ATP synthase subunit C; Hydrolase, STRUCTURAL PROTEIN; HET: TLA; 1.75A {Saccharomyces cerevisiae} SCOP: e.57.1.1
+Probab=5.58  E-value=6.2e+02  Score=12.40  Aligned_cols=6  Identities=67%  Similarity=0.733  Sum_probs=0.0  Template_Neff=6.400
+
+Q LETVYV            1 LETVYV    6 (6)
+Q Consensus         1 letvyv    6 (6)
+                      |+|++|
+T Consensus       191 L~Tl~V  196 (392)
+T 1U7L_A          191 LTTVLV  196 (392)
+T ss_dssp             EEEEEE
+T ss_pred             ceEEEE
+
+
+No 9
+>2P81_A Segmentation polarity homeobox protein engrailed; helix-turn-helix motif, motif, engrailed, homeodomain; NMR {Drosophila melanogaster} SCOP: a.4.1.1
+Probab=5.38  E-value=6.5e+02  Score=5.39  Aligned_cols=5  Identities=0%  Similarity=0.202  Sum_probs=0.0  Template_Neff=13.300
+
+Q LETVYV            1 LETVY    5 (6)
+Q Consensus         1 letvy    5 (6)
+                      ||..|
+T Consensus         1 l~~~f    5 (44)
+T 2P81_A            1 AKREF    5 (44)
+T ss_dssp             -CCCC
+T ss_pred             CHHHH
+
+
+No 10
+>6WM3_O V-type proton ATPase 116 kDa; V-ATPase, proton pump, MEMBRANE PROTEIN; HET: ADP, NAG;{Homo sapiens}
+Probab=5.23  E-value=6.7e+02  Score=12.25  Aligned_cols=6  Identities=50%  Similarity=0.545  Sum_probs=0.0  Template_Neff=6.400
+
+Q LETVYV            1 LETVYV    6 (6)
+Q Consensus         1 letvyv    6 (6)
+                      |+|++|
+T Consensus       182 L~Tl~V  187 (382)
+T 6WM3_O          182 LVTLLV  187 (382)
+T ss_pred             ceEEEE
+
+

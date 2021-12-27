@@ -1,0 +1,153 @@
+Query         IVYSCE
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 09:51:15 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/IVYSCE/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/IVYSCE/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6TD9_B Uncharacterized protein  37.3      32 0.00035   14.5   0.0    6    1-6      88-93  (250)
+  2 6TD9_A Uncharacterized protein  36.4      33 0.00037   14.4   0.0    6    1-6      88-93  (250)
+  3 3CTW_B RcdA; PROTEIN BINDING;   31.2      46 0.00051   14.9   0.0    6    1-6      61-66  (169)
+  4 2KTD_A Prostaglandin-H2 D-isom  20.0   1E+02  0.0011   11.0   0.0    5    1-5     108-112 (167)
+  5 3O22_A Prostaglandin-H2 D-isom  19.9   1E+02  0.0011   11.0   0.0    5    1-5     102-106 (162)
+  6 2KT4_B Extracellular fatty aci  19.6 1.1E+02  0.0012   10.7   0.0    5    1-5      97-101 (157)
+  7 1AVG_I THROMBIN, TRIABIN; BOVI  19.5 1.1E+02  0.0012   11.1   0.0    5    1-5     108-112 (142)
+  8 1QAB_E human serum retinol bin  19.4 1.1E+02  0.0012   11.2   0.0    5    1-5     113-117 (180)
+  9 1KT6_A plasma retinol-binding   19.2 1.1E+02  0.0012   11.2   0.0    5    1-5     116-120 (183)
+ 10 5F7H_A T-cell immunoglobulin a  19.1 1.1E+02  0.0012    8.3   0.0    4    3-6      87-90  (113)
+
+No 1
+>6TD9_B Uncharacterized protein; periplasmic protein, unique fold, unknown; HET: PO4, EPE, MSE; 1.96A {Pseudomonas aeruginosa PAO1}
+Probab=37.35  E-value=32  Score=14.51  Aligned_cols=6  Identities=33%  Similarity=0.894  Sum_probs=3.3  Template_Neff=8.200
+
+Q IVYSCE            1 IVYSCE    6 (6)
+Q Consensus         1 ivysce    6 (6)
+                      |+|+|+
+T Consensus        88 ilf~C~   93 (250)
+T 6TD9_B           88 PLFWCE   93 (250)
+T ss_dssp             EEEEEE
+T ss_pred             EeEEEc
+Confidence            456664
+
+
+No 2
+>6TD9_A Uncharacterized protein; periplasmic protein, unique fold, unknown; HET: EPE, PO4, MSE; 1.96A {Pseudomonas aeruginosa PAO1}
+Probab=36.42  E-value=33  Score=14.44  Aligned_cols=6  Identities=33%  Similarity=0.894  Sum_probs=3.3  Template_Neff=8.200
+
+Q IVYSCE            1 IVYSCE    6 (6)
+Q Consensus         1 ivysce    6 (6)
+                      |+|+|+
+T Consensus        88 ilf~C~   93 (250)
+T 6TD9_A           88 PLFWCE   93 (250)
+T ss_dssp             EEEEEE
+T ss_pred             EeEEEc
+Confidence            456664
+
+
+No 3
+>3CTW_B RcdA; PROTEIN BINDING; HET: EDO; 2.9A {Caulobacter crescentus}
+Probab=31.18  E-value=46  Score=14.94  Aligned_cols=6  Identities=33%  Similarity=0.639  Sum_probs=3.7  Template_Neff=4.900
+
+Q IVYSCE            1 IVYSCE    6 (6)
+Q Consensus         1 ivysce    6 (6)
+                      +.||||
+T Consensus        61 ~~~a~E   66 (169)
+T 3CTW_B           61 LGYATE   66 (169)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            357776
+
+
+No 4
+>2KTD_A Prostaglandin-H2 D-isomerase (E.C.5.3.99.2); lipocalin-type prostaglandin D synthase, L-PGDS; HET: PUC; NMR {Mus musculus}
+Probab=19.95  E-value=1e+02  Score=10.98  Aligned_cols=5  Identities=20%  Similarity=0.647  Sum_probs=0.0  Template_Neff=10.700
+
+Q IVYSCE            1 IVYSC    5 (6)
+Q Consensus         1 ivysc    5 (6)
+                      |+|+|
+T Consensus       108 iv~~~  112 (167)
+T 2KTD_A          108 LLFSR  112 (167)
+T ss_dssp             EEEEE
+T ss_pred             EEEEE
+
+
+No 5
+>3O22_A Prostaglandin-H2 D-isomerase (E.C.5.3.99.2); Lipocalin, prostaglandin synthase, ISOMERASE; HET: PLM, OLA; 1.4A {Homo sapiens}
+Probab=19.85  E-value=1e+02  Score=10.97  Aligned_cols=5  Identities=40%  Similarity=0.813  Sum_probs=0.0  Template_Neff=10.600
+
+Q IVYSCE            1 IVYSC    5 (6)
+Q Consensus         1 ivysc    5 (6)
+                      |+|+|
+T Consensus       102 i~~~~  106 (162)
+T 3O22_A          102 LLYSQ  106 (162)
+T ss_dssp             EEEEE
+T ss_pred             EEEEE
+
+
+No 6
+>2KT4_B Extracellular fatty acid-binding protein; Siderocalin, Lipocalin, Enterobactin, Disulfide bond; HET: EB4, GA; NMR {Coturnix japonica}
+Probab=19.61  E-value=1.1e+02  Score=10.73  Aligned_cols=5  Identities=20%  Similarity=0.972  Sum_probs=0.0  Template_Neff=10.900
+
+Q IVYSCE            1 IVYSC    5 (6)
+Q Consensus         1 ivysc    5 (6)
+                      |+|+|
+T Consensus        97 i~~~~  101 (157)
+T 2KT4_B           97 VIYAT  101 (157)
+T ss_dssp             EEEEE
+T ss_pred             EEEEE
+
+
+No 7
+>1AVG_I THROMBIN, TRIABIN; BOVINE THROMBIN, THROMBIN INHIBITOR, COMPLEX; 2.6A {Bos taurus} SCOP: b.60.1.3
+Probab=19.49  E-value=1.1e+02  Score=11.12  Aligned_cols=5  Identities=20%  Similarity=0.374  Sum_probs=0.0  Template_Neff=9.800
+
+Q IVYSCE            1 IVYSC    5 (6)
+Q Consensus         1 ivysc    5 (6)
+                      +||+|
+T Consensus       108 vv~~c  112 (142)
+T 1AVG_I          108 LVCRS  112 (142)
+T ss_dssp             EEEEE
+T ss_pred             EEEEE
+
+
+No 8
+>1QAB_E human serum retinol binding protein/transthyretin; human serum retinol binding protein; HET: RTL; 3.2A {Homo sapiens} SCOP: b.60.1.1
+Probab=19.41  E-value=1.1e+02  Score=11.23  Aligned_cols=5  Identities=60%  Similarity=1.537  Sum_probs=0.0  Template_Neff=10.400
+
+Q IVYSCE            1 IVYSC    5 (6)
+Q Consensus         1 ivysc    5 (6)
+                      |+|+|
+T Consensus       113 i~~~c  117 (180)
+T 1QAB_E          113 VQYSC  117 (180)
+T ss_dssp             EEECC
+T ss_pred             EEEEE
+
+
+No 9
+>1KT6_A plasma retinol-binding protein; RBP, retinol binding, TRANSPORT PROTEIN; HET: RTL; 1.1A {Bos taurus} SCOP: b.60.1.1
+Probab=19.24  E-value=1.1e+02  Score=11.25  Aligned_cols=5  Identities=60%  Similarity=1.537  Sum_probs=0.0  Template_Neff=10.400
+
+Q IVYSCE            1 IVYSC    5 (6)
+Q Consensus         1 ivysc    5 (6)
+                      |+|.|
+T Consensus       116 i~~~c  120 (183)
+T 1KT6_A          116 VQYSC  120 (183)
+T ss_dssp             EEEEE
+T ss_pred             EEEEe
+
+
+No 10
+>5F7H_A T-cell immunoglobulin and mucin domain-containing; complex, hTIM-4, phosphoserine, IMMUNE SYSTEM; HET: SEP; 2.5A {Homo sapiens}
+Probab=19.13  E-value=1.1e+02  Score=8.30  Aligned_cols=4  Identities=50%  Similarity=1.647  Sum_probs=0.0  Template_Neff=14.100
+
+Q IVYSCE            3 YSCE    6 (6)
+Q Consensus         3 ysce    6 (6)
+                      |.|.
+T Consensus        87 y~c~   90 (113)
+T 5F7H_A           87 YCCR   90 (113)
+T ss_dssp             EEEE
+T ss_pred             EEEE
+
+

@@ -1,0 +1,145 @@
+Query         GTVLFM
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 04:19:44 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GTVLFM/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GTVLFM/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 7DEG_F Cytochrome c oxidase su  28.0      57 0.00063   12.3   0.0    6    1-6       5-10  (32)
+  2 2XN5_B THYROXINE-BINDING GLOBU  12.9   2E+02  0.0022    8.3   0.0    6    1-6      21-26  (35)
+  3 1LQ8_B plasma serine protease   12.4 2.1E+02  0.0023    8.2   0.0    6    1-6      20-25  (31)
+  4 9API_B MODIFIED ALPHA1-ANTITRY  12.0 2.2E+02  0.0024    8.2   0.0    6    1-6      22-27  (36)
+  5 7B2T_aa Serpin, Inhibitor, Hyd  12.0 2.2E+02  0.0025    7.7   0.0    6    1-6      20-25  (31)
+  6 2GO5_1 signal receptor protein  11.9 2.3E+02  0.0025   12.2   0.0    5    1-5      21-25  (185)
+  7 3PVL_B Myosin VIIa isoform 1,   11.2 2.4E+02  0.0027   11.6   0.0    6    1-6      19-24  (96)
+  8 4BB2_B CORTICOSTEROID-BINDING   11.1 2.5E+02  0.0027    7.8   0.0    6    1-6      22-27  (34)
+  9 1M93_C Serine proteinase inhib  11.0 2.5E+02  0.0028    8.7   0.0    6    1-6      27-32  (41)
+ 10 1XU8_B Maspin; maspin, serpin,  10.8 2.6E+02  0.0028   11.9   0.0    6    1-6     369-374 (380)
+
+No 1
+>7DEG_F Cytochrome c oxidase subunit I; electron cryo-microscopy, heme-copper oxidase, cytochrome; HET: 3PE, HEM, HAS, DLX, PGV; 3.4A {Aquifex aeolicus (strain VF5)}
+Probab=28.00  E-value=57  Score=12.27  Aligned_cols=6  Identities=50%  Similarity=1.088  Sum_probs=2.7  Template_Neff=2.000
+
+Q GTVLFM            1 GTVLFM    6 (6)
+Q Consensus         1 gtvlfm    6 (6)
+                      |+|-||
+T Consensus         5 GaiaF~   10 (32)
+T 7DEG_F            5 GTIAFF   10 (32)
+T ss_pred             hHHHHH
+Confidence            445443
+
+
+No 2
+>2XN5_B THYROXINE-BINDING GLOBULIN; TRANSPORT, CLEAVED PROTEIN; HET: FUN, EDO; 1.7A {HOMO SAPIENS}
+Probab=12.90  E-value=2e+02  Score=8.29  Aligned_cols=6  Identities=33%  Similarity=0.966  Sum_probs=0.0  Template_Neff=8.900
+
+Q GTVLFM            1 GTVLFM    6 (6)
+Q Consensus         1 gtvlfm    6 (6)
+                      +.++||
+T Consensus        21 ~~~lf~   26 (35)
+T 2XN5_B           21 RSILFL   26 (35)
+T ss_dssp             TEEEEE
+T ss_pred             CeEEEE
+
+
+No 3
+>1LQ8_B plasma serine protease inhibitor, N-; serpin, protease, inhibitor, heparin, retinoic; HET: MAN, NDG, IPA, NAG; 2.4A {Homo sapiens}
+Probab=12.39  E-value=2.1e+02  Score=8.19  Aligned_cols=6  Identities=33%  Similarity=0.988  Sum_probs=0.0  Template_Neff=8.500
+
+Q GTVLFM            1 GTVLFM    6 (6)
+Q Consensus         1 gtvlfm    6 (6)
+                      +.++|+
+T Consensus        20 ~~~lf~   25 (31)
+T 1LQ8_B           20 NNILFL   25 (31)
+T ss_dssp             SSEEEE
+T ss_pred             CeEEEE
+
+
+No 4
+>9API_B MODIFIED ALPHA1-ANTITRYPSIN (MODIFIED ALPHA1-PROTEINASE INHIBITOR); PROTEINASE INHIBITOR; HET: MAN, NAG; 3.0A {N/A}
+Probab=12.03  E-value=2.2e+02  Score=8.19  Aligned_cols=6  Identities=50%  Similarity=0.772  Sum_probs=0.0  Template_Neff=9.000
+
+Q GTVLFM            1 GTVLFM    6 (6)
+Q Consensus         1 gtvlfm    6 (6)
+                      +.++|+
+T Consensus        22 ~~~lf~   27 (36)
+T 9API_B           22 KSPLFM   27 (36)
+T ss_pred             CCeEEE
+
+
+No 5
+>7B2T_aa Serpin, Inhibitor, Hydrolase inhibitor, Ixodes; 1.5A {Ixodes scapularis}
+Probab=11.99  E-value=2.2e+02  Score=7.70  Aligned_cols=6  Identities=33%  Similarity=0.611  Sum_probs=0.0  Template_Neff=9.400
+
+Q GTVLFM            1 GTVLFM    6 (6)
+Q Consensus         1 gtvlfm    6 (6)
+                      +.++|+
+T Consensus        20 ~~~lf~   25 (31)
+T 7B2T_aa          20 KDLLFA   25 (31)
+T ss_pred             CcEEEE
+
+
+No 6
+>2GO5_1 signal receptor proteins/RNA Complex; SR, SRP, RIBOSOME, TRANSLATION-RNA COMPLEX; 7.4A {Canis sp.} SCOP: d.110.4.4
+Probab=11.86  E-value=2.3e+02  Score=12.21  Aligned_cols=5  Identities=60%  Similarity=1.085  Sum_probs=0.0  Template_Neff=6.800
+
+Q GTVLFM            1 GTVLF    5 (6)
+Q Consensus         1 gtvlf    5 (6)
+                      |.|||
+T Consensus        21 G~VLW   25 (185)
+T 2GO5_1           21 GLVLW   25 (185)
+T ss_pred             eEEEE
+
+
+No 7
+>3PVL_B Myosin VIIa isoform 1, Usher; protein complex, Novel folding, protein; HET: PO4, GOL; 2.8A {Mus musculus}
+Probab=11.21  E-value=2.4e+02  Score=11.62  Aligned_cols=6  Identities=50%  Similarity=0.988  Sum_probs=0.0  Template_Neff=5.200
+
+Q GTVLFM            1 GTVLFM    6 (6)
+Q Consensus         1 gtvlfm    6 (6)
+                      |++.|+
+T Consensus        19 Gs~vFR   24 (96)
+T 3PVL_B           19 GTMVFR   24 (96)
+T ss_pred             cchhhc
+
+
+No 8
+>4BB2_B CORTICOSTEROID-BINDING GLOBULIN; TRANSPORT PROTEIN, SERPINS, STEROID BINDING; HET: EDO, STR; 2.48A {HOMO SAPIENS}
+Probab=11.15  E-value=2.5e+02  Score=7.83  Aligned_cols=6  Identities=33%  Similarity=0.573  Sum_probs=0.0  Template_Neff=9.300
+
+Q GTVLFM            1 GTVLFM    6 (6)
+Q Consensus         1 gtvlfm    6 (6)
+                      +++||+
+T Consensus        22 ~~~l~~   27 (34)
+T 4BB2_B           22 WSSLFL   27 (34)
+T ss_pred             CcEEEE
+
+
+No 9
+>1M93_C Serine proteinase inhibitor 2; SERPIN, CRMA, APOPTOSIS, ICE INHIBITOR; 1.65A {Cowpox virus}
+Probab=10.96  E-value=2.5e+02  Score=8.73  Aligned_cols=6  Identities=50%  Similarity=1.243  Sum_probs=0.0  Template_Neff=8.100
+
+Q GTVLFM            1 GTVLFM    6 (6)
+Q Consensus         1 gtvlfm    6 (6)
+                      +.+|||
+T Consensus        27 ~~~lf~   32 (41)
+T 1M93_C           27 GKILFV   32 (41)
+T ss_dssp             SCEEEE
+T ss_pred             CcEEEE
+
+
+No 10
+>1XU8_B Maspin; maspin, serpin, tumor suppressor, SERPINB5; HET: SO4; 2.8A {Homo sapiens}
+Probab=10.82  E-value=2.6e+02  Score=11.89  Aligned_cols=6  Identities=17%  Similarity=0.778  Sum_probs=0.0  Template_Neff=9.800
+
+Q GTVLFM            1 GTVLFM    6 (6)
+Q Consensus         1 gtvlfm    6 (6)
+                      +++|||
+T Consensus       369 ~~ilf~  374 (380)
+T 1XU8_B          369 RNIIFF  374 (380)
+T ss_dssp             CCEEEE
+T ss_pred             CcEEEE
+
+

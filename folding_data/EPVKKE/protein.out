@@ -1,0 +1,148 @@
+Query         EPVKKE
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 19:38:10 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/EPVKKE/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/EPVKKE/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 1VDI_A Troponin I, fast skelet   4.4 8.3E+02  0.0092    9.9   0.0    4    3-6      13-16  (52)
+  2 4WFC_F Exosome complex exonucl   4.3 8.5E+02  0.0094    9.7   0.0    5    2-6      75-79  (133)
+  3 1IA6_A CELLULASE CEL9M (E.C.3.   4.3 8.7E+02  0.0096   11.1   0.0    4    2-5     438-441 (441)
+  4 1IA7_A CELLULASE CEL9M (E.C.3.   4.3 8.7E+02  0.0096   11.1   0.0    4    2-5     438-441 (441)
+  5 5U5B_B Designed trimeric coile   3.8   1E+03   0.011    8.9   0.0    6    1-6      11-16  (30)
+  6 4WFD_H Exosome complex exonucl   3.8   1E+03   0.011    8.5   0.0    5    2-6      75-79  (103)
+  7 5NBZ_E WzzB; Wzz Polysaccharid   3.8   1E+03   0.011   10.1   0.0    6    1-6     231-236 (237)
+  8 6M32_B Bacteriochlorophyll a p   3.7   1E+03   0.011   10.3   0.0    5    1-5       3-7   (231)
+  9 4WFC_B Exosome complex exonucl   3.7   1E+03   0.012    9.4   0.0    5    2-6      75-79  (133)
+ 10 3HHJ_B Mutator mutT protein; N   3.7   1E+03   0.012    8.4   0.0    5    1-5      18-22  (158)
+
+No 1
+>1VDI_A Troponin I, fast skeletal muscle; troponin, actin, tropomyosin, CONTRACTILE PROTEIN; NMR {Gallus gallus} SCOP: j.22.1.1
+Probab=4.42  E-value=8.3e+02  Score=9.89  Aligned_cols=4  Identities=100%  Similarity=1.115  Sum_probs=0.0  Template_Neff=2.700
+
+Q EPVKKE            3 VKKE    6 (6)
+Q Consensus         3 vkke    6 (6)
+                      ||||
+T Consensus        13 VKKE   16 (52)
+T 1VDI_A           13 VKKE   16 (52)
+T ss_dssp             SEES
+T ss_pred             hccc
+
+
+No 2
+>4WFC_F Exosome complex exonuclease RRP6 (E.C.3.1.13.-); Rrp6-Rrp47 complex, nuclear exosome, RNA; HET: SO4; 2.35A {Saccharomyces cerevisiae}
+Probab=4.35  E-value=8.5e+02  Score=9.66  Aligned_cols=5  Identities=40%  Similarity=0.740  Sum_probs=0.0  Template_Neff=7.600
+
+Q EPVKKE            2 PVKKE    6 (6)
+Q Consensus         2 pvkke    6 (6)
+                      ||++|
+T Consensus        75 pV~~e   79 (133)
+T 4WFC_F           75 PILGE   79 (133)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 3
+>1IA6_A CELLULASE CEL9M (E.C.3.2.1.4); Cellullase, Alpha Barrel, HYDROLASE; 1.8A {Clostridium cellulolyticum} SCOP: a.102.1.2
+Probab=4.28  E-value=8.7e+02  Score=11.11  Aligned_cols=4  Identities=100%  Similarity=1.448  Sum_probs=0.0  Template_Neff=8.800
+
+Q EPVKKE            2 PVKK    5 (6)
+Q Consensus         2 pvkk    5 (6)
+                      ||||
+T Consensus       438 ~~~~  441 (441)
+T 1IA6_A          438 PVKK  441 (441)
+T ss_dssp             ----
+T ss_pred             CCCC
+
+
+No 4
+>1IA7_A CELLULASE CEL9M (E.C.3.2.1.4); Cellulase, alpha barrel, HYDROLASE; HET: BGC, EDO; 2.0A {Clostridium cellulolyticum} SCOP: a.102.1.2
+Probab=4.28  E-value=8.7e+02  Score=11.11  Aligned_cols=4  Identities=100%  Similarity=1.448  Sum_probs=0.0  Template_Neff=8.800
+
+Q EPVKKE            2 PVKK    5 (6)
+Q Consensus         2 pvkk    5 (6)
+                      ||||
+T Consensus       438 ~~~~  441 (441)
+T 1IA7_A          438 PVKK  441 (441)
+T ss_dssp             ----
+T ss_pred             CCCC
+
+
+No 5
+>5U5B_B Designed trimeric coiled coil peptide; designed peptide, synthetic, metal coordination; HET: 7WJ; 2.4A {N/A}
+Probab=3.81  E-value=1e+03  Score=8.95  Aligned_cols=6  Identities=67%  Similarity=0.944  Sum_probs=0.0  Template_Neff=1.000
+
+Q EPVKKE            1 EPVKKE    6 (6)
+Q Consensus         1 epvkke    6 (6)
+                      |.+|||
+T Consensus        11 eaikke   16 (30)
+T 5U5B_B           11 EAIKKE   16 (30)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 6
+>4WFD_H Exosome complex exonuclease RRP6 (E.C.3.1.13.-); Rrp6-Rrp47 complex, nuclear exosome, RNA; HET: YT3; 2.4A {Saccharomyces cerevisiae}
+Probab=3.80  E-value=1e+03  Score=8.54  Aligned_cols=5  Identities=40%  Similarity=0.740  Sum_probs=0.0  Template_Neff=8.800
+
+Q EPVKKE            2 PVKKE    6 (6)
+Q Consensus         2 pvkke    6 (6)
+                      ||.++
+T Consensus        75 pV~~e   79 (103)
+T 4WFD_H           75 PILGE   79 (103)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 7
+>5NBZ_E WzzB; Wzz Polysaccharide Chain Length membrane; 9.0A {Staphylococcus aureus}
+Probab=3.76  E-value=1e+03  Score=10.06  Aligned_cols=6  Identities=33%  Similarity=0.905  Sum_probs=0.0  Template_Neff=8.400
+
+Q EPVKKE            1 EPVKKE    6 (6)
+Q Consensus         1 epvkke    6 (6)
+                      .||++.
+T Consensus       231 ~Pv~rd  236 (237)
+T 5NBZ_E          231 LPVRRD  236 (237)
+T ss_dssp             CCCCCC
+T ss_pred             CCCcCC
+
+
+No 8
+>6M32_B Bacteriochlorophyll a protein, P840 reaction; Photosynthetic reaction center, Green sulfur; HET: F26, F39, LHG, GS0, SF4, G2O, LMG, BCL;{Chlorobaculum tepidum (strain ATCC 49652 / DSM 12025 / NBRC 103806 / TLS)}
+Probab=3.70  E-value=1e+03  Score=10.33  Aligned_cols=5  Identities=60%  Similarity=1.105  Sum_probs=0.0  Template_Neff=7.600
+
+Q EPVKKE            1 EPVKK    5 (6)
+Q Consensus         1 epvkk    5 (6)
+                      +|||+
+T Consensus         3 ~~~~~    7 (231)
+T 6M32_B            3 EPVEN    7 (231)
+T ss_pred             CcccC
+
+
+No 9
+>4WFC_B Exosome complex exonuclease RRP6 (E.C.3.1.13.-); Rrp6-Rrp47 complex, nuclear exosome, RNA; HET: SO4; 2.35A {Saccharomyces cerevisiae}
+Probab=3.68  E-value=1e+03  Score=9.42  Aligned_cols=5  Identities=40%  Similarity=0.740  Sum_probs=0.0  Template_Neff=7.600
+
+Q EPVKKE            2 PVKKE    6 (6)
+Q Consensus         2 pvkke    6 (6)
+                      ||++|
+T Consensus        75 PV~~e   79 (133)
+T 4WFC_B           75 PILGE   79 (133)
+T ss_pred             HHHHH
+
+
+No 10
+>3HHJ_B Mutator mutT protein; NIAID, SSGCID, deCODE, UW, SBRI; 2.1A {Bartonella henselae}
+Probab=3.67  E-value=1e+03  Score=8.39  Aligned_cols=5  Identities=20%  Similarity=0.149  Sum_probs=0.0  Template_Neff=10.600
+
+Q EPVKKE            1 EPVKK    5 (6)
+Q Consensus         1 epvkk    5 (6)
+                      +|+++
+T Consensus        18 ~P~~~   22 (158)
+T 3HHJ_B           18 GPGSM   22 (158)
+T ss_dssp             -----
+T ss_pred             CCCCC
+
+

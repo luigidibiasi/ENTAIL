@@ -1,0 +1,148 @@
+Query         SFVIIE
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 14:13:38 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/SFVIIE/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/SFVIIE/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6P7A_A Holliday junction resol  11.4 2.4E+02  0.0026   10.4   0.0    6    1-6      55-60  (148)
+  2 6IS8_B Monokaryotic chloroplas  11.4 2.4E+02  0.0027   10.7   0.0    5    2-6      73-77  (174)
+  3 6KVO_B NtMOC1/DNA Complex; chl  11.4 2.4E+02  0.0027   10.6   0.0    5    2-6      67-71  (171)
+  4 6VK9_C Protein transport, Pili  11.3 2.4E+02  0.0027    7.8   0.0    5    2-6       1-5   (61)
+  5 6VK9_O Protein transport, Pili  11.3 2.4E+02  0.0027    7.8   0.0    5    2-6       1-5   (61)
+  6 1J22_A ATP-dependent RNA helic  10.9 2.5E+02  0.0028   10.9   0.0    6    1-6      78-83  (143)
+  7 6YAL_j 60s ribosomal protein l  10.7 2.6E+02  0.0029   11.1   0.0    6    1-6      71-76  (111)
+  8 6P7B_B Holliday junction resol  10.4 2.7E+02   0.003   10.3   0.0    5    2-6      56-60  (149)
+  9 4QL5_B Translation initiation   10.4 2.7E+02   0.003   10.1   0.0    6    1-6      52-57  (73)
+ 10 2N8N_A Translation initiation   10.4 2.7E+02   0.003   10.0   0.0    6    1-6      51-56  (72)
+
+No 1
+>6P7A_A Holliday junction resolvase (E.C.3.1.-.-); RESOLVASE, HYDROLASE; 3.081A {Fowlpox virus}
+Probab=11.38  E-value=2.4e+02  Score=10.39  Aligned_cols=6  Identities=50%  Similarity=0.800  Sum_probs=0.0  Template_Neff=9.600
+
+Q SFVIIE            1 SFVIIE    6 (6)
+Q Consensus         1 sfviie    6 (6)
+                      ..|+||
+T Consensus        55 d~vviE   60 (148)
+T 6P7A_A           55 DVVILE   60 (148)
+T ss_dssp             SEEEEE
+T ss_pred             CEEEEe
+
+
+No 2
+>6IS8_B Monokaryotic chloroplast 1/DNA Complex; Holliday junction resolvase-DNA complex, DNA; HET: 1PE; 1.68A {Zea mays}
+Probab=11.36  E-value=2.4e+02  Score=10.73  Aligned_cols=5  Identities=40%  Similarity=0.321  Sum_probs=0.0  Template_Neff=9.500
+
+Q SFVIIE            2 FVIIE    6 (6)
+Q Consensus         2 fviie    6 (6)
+                      +|+||
+T Consensus        73 ~VviE   77 (174)
+T 6IS8_B           73 TAYIE   77 (174)
+T ss_dssp             EEEEE
+T ss_pred             EEEEE
+
+
+No 3
+>6KVO_B NtMOC1/DNA Complex; chloroplast, resolvase, Holliday junction, PLANT; HET: SO4; 2.5A {Nicotiana tabacum}
+Probab=11.36  E-value=2.4e+02  Score=10.60  Aligned_cols=5  Identities=40%  Similarity=0.481  Sum_probs=0.0  Template_Neff=9.700
+
+Q SFVIIE            2 FVIIE    6 (6)
+Q Consensus         2 fviie    6 (6)
+                      +|+||
+T Consensus        67 ~vviE   71 (171)
+T 6KVO_B           67 TVYVE   71 (171)
+T ss_dssp             EEEEE
+T ss_pred             EEEEE
+
+
+No 4
+>6VK9_C Protein transport, Pili, PROTEIN FIBRIL; 3.8A {Geobacter sulfurreducens}
+Probab=11.28  E-value=2.4e+02  Score=7.82  Aligned_cols=5  Identities=60%  Similarity=1.158  Sum_probs=0.0  Template_Neff=11.500
+
+Q SFVIIE            2 FVIIE    6 (6)
+Q Consensus         2 fviie    6 (6)
+                      |.++|
+T Consensus         1 ~tl~E    5 (61)
+T 6VK9_C            1 FTLIE    5 (61)
+T ss_dssp             CCTTH
+T ss_pred             CcHHH
+
+
+No 5
+>6VK9_O Protein transport, Pili, PROTEIN FIBRIL; 3.8A {Geobacter sulfurreducens}
+Probab=11.28  E-value=2.4e+02  Score=7.82  Aligned_cols=5  Identities=60%  Similarity=1.158  Sum_probs=0.0  Template_Neff=11.500
+
+Q SFVIIE            2 FVIIE    6 (6)
+Q Consensus         2 fviie    6 (6)
+                      |.++|
+T Consensus         1 ~tl~E    5 (61)
+T 6VK9_O            1 FTLIE    5 (61)
+T ss_dssp             CCTTH
+T ss_pred             CcHHH
+
+
+No 6
+>1J22_A ATP-dependent RNA helicase, putative; structure-specific endonuclease, HYDROLASE; 1.8A {Pyrococcus furiosus} SCOP: c.52.1.20
+Probab=10.93  E-value=2.5e+02  Score=10.85  Aligned_cols=6  Identities=33%  Similarity=0.761  Sum_probs=0.0  Template_Neff=8.400
+
+Q SFVIIE            1 SFVIIE    6 (6)
+Q Consensus         1 sfviie    6 (6)
+                      .++|||
+T Consensus        78 ~~lliE   83 (143)
+T 1J22_A           78 PIMIVE   83 (143)
+T ss_dssp             EEEEEE
+T ss_pred             CEEEEe
+
+
+No 7
+>6YAL_j 60s ribosomal protein l41, 40S; initiation complex, 48S, eIF1A, eIF3; HET: C4J, T6A, GNP, SF4; 3.0A {Oryctolagus cuniculus}
+Probab=10.73  E-value=2.6e+02  Score=11.11  Aligned_cols=6  Identities=0%  Similarity=0.540  Sum_probs=0.0  Template_Neff=6.800
+
+Q SFVIIE            1 SFVIIE    6 (6)
+Q Consensus         1 sfviie    6 (6)
+                      ++|++|
+T Consensus        71 d~VlV~   76 (111)
+T 6YAL_j           71 DIILVG   76 (111)
+T ss_pred             CEEEEe
+
+
+No 8
+>6P7B_B Holliday junction resolvase/DNA complex; resolvase-DNA complex, HYDROLASE-DNA complex, TRANSCRIPTION; 3.317A {Fowlpox virus}
+Probab=10.42  E-value=2.7e+02  Score=10.27  Aligned_cols=5  Identities=60%  Similarity=0.926  Sum_probs=0.0  Template_Neff=9.600
+
+Q SFVIIE            2 FVIIE    6 (6)
+Q Consensus         2 fviie    6 (6)
+                      +|+||
+T Consensus        56 ~vviE   60 (149)
+T 6P7B_B           56 VVILE   60 (149)
+T ss_dssp             EEEEE
+T ss_pred             EEEEe
+
+
+No 9
+>4QL5_B Translation initiation factor IF-1; translation initiation factor, PROTEIN BIOSYNTHESIS; 2.025A {Streptococcus pneumoniae}
+Probab=10.37  E-value=2.7e+02  Score=10.07  Aligned_cols=6  Identities=33%  Similarity=0.379  Sum_probs=0.0  Template_Neff=7.300
+
+Q SFVIIE            1 SFVIIE    6 (6)
+Q Consensus         1 sfviie    6 (6)
+                      .+|++|
+T Consensus        52 d~V~Ve   57 (73)
+T 4QL5_B           52 DRVTVE   57 (73)
+T ss_dssp             CEEEEE
+T ss_pred             CEEEEc
+
+
+No 10
+>2N8N_A Translation initiation factor IF-1; translation initiation, RNA-binding, translation; NMR {Staphylococcus aureus subsp. aureus Mu50}
+Probab=10.36  E-value=2.7e+02  Score=9.96  Aligned_cols=6  Identities=33%  Similarity=0.373  Sum_probs=0.0  Template_Neff=7.500
+
+Q SFVIIE            1 SFVIIE    6 (6)
+Q Consensus         1 sfviie    6 (6)
+                      .+|++|
+T Consensus        51 d~V~ve   56 (72)
+T 2N8N_A           51 DKVTVE   56 (72)
+T ss_pred             CEEEEe
+
+

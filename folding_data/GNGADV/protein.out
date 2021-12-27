@@ -1,0 +1,152 @@
+Query         GNGADV
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 02:18:01 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GNGADV/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GNGADV/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2OO3_A Protein involved in cat  22.5      84 0.00093   13.9   0.0    6    1-6      12-17  (283)
+  2 6QE0_A Ribosomal RNA large sub  20.9      95  0.0011   13.6   0.0    6    1-6      14-19  (283)
+  3 4BLW_A RIBOSOMAL RNA LARGE SUB  20.2   1E+02  0.0011   13.7   0.0    6    1-6      11-16  (289)
+  4 5G5N_B LH3 HEXON-INTERLACING C  13.6 1.8E+02   0.002   14.6   0.0    6    1-6      50-55  (353)
+  5 5G5N_C LH3 HEXON-INTERLACING C  13.4 1.9E+02  0.0021   14.5   0.0    6    1-6      50-55  (353)
+  6 6FPV_A Nanobody; nanobody, JBP  12.7   2E+02  0.0023    9.6   0.0    6    1-6     135-140 (154)
+  7 7KH1_C4 Myoviridae, Phage, Bas  12.4 2.1E+02  0.0023   11.3   0.0    5    2-6     113-117 (118)
+  8 4CSU_9 50S RIBOSOMAL PROTEIN L  11.4 2.4E+02  0.0026   12.3   0.0    6    1-6      40-45  (390)
+  9 7BL6_9 50S ribosomal protein L  11.0 2.5E+02  0.0028   12.1   0.0    6    1-6      40-45  (390)
+ 10 7OF7_x 39S ribosomal protein L  10.9 2.6E+02  0.0028   13.0   0.0    6    1-6     109-114 (406)
+
+No 1
+>2OO3_A Protein involved in catabolism of; STRUCTURAL GENOMICS, UNKNOWN FUNCTION, PSI-2; HET: SO4; 2.0A {Legionella pneumophila subsp. pneumophila} SCOP: c.66.1.59
+Probab=22.50  E-value=84  Score=13.85  Aligned_cols=6  Identities=83%  Similarity=0.872  Sum_probs=3.6  Template_Neff=7.600
+
+Q GNGADV            1 GNGADV    6 (6)
+Q Consensus         1 gngadv    6 (6)
+                      ||-|||
+T Consensus        12 Gn~adv   17 (283)
+T 2OO3_A           12 GNFADV   17 (283)
+T ss_dssp             TSHHHH
+T ss_pred             ccHHHH
+Confidence            566664
+
+
+No 2
+>6QE0_A Ribosomal RNA large subunit methyltransferase; RNA MTases, methyltransferase, m6A, transition; HET: HZ2; 1.394A {Escherichia coli}
+Probab=20.91  E-value=95  Score=13.64  Aligned_cols=6  Identities=83%  Similarity=1.082  Sum_probs=3.4  Template_Neff=7.700
+
+Q GNGADV            1 GNGADV    6 (6)
+Q Consensus         1 gngadv    6 (6)
+                      ||-|||
+T Consensus        14 Gn~adv   19 (283)
+T 6QE0_A           14 GNHADV   19 (283)
+T ss_pred             cCHHHH
+Confidence            556664
+
+
+No 3
+>4BLW_A RIBOSOMAL RNA LARGE SUBUNIT METHYLTRANSFERASE; TRANSFERASE, N6-METHYLADENINE, ROSSMANN-LIKE FOLD, SUBDOMAIN; HET: AMP, SAH, GOL, EDO; 1.95A {ESCHERICHIA COLI}
+Probab=20.18  E-value=1e+02  Score=13.71  Aligned_cols=6  Identities=83%  Similarity=1.082  Sum_probs=3.6  Template_Neff=7.500
+
+Q GNGADV            1 GNGADV    6 (6)
+Q Consensus         1 gngadv    6 (6)
+                      ||-|||
+T Consensus        11 Gn~adv   16 (289)
+T 4BLW_A           11 GNHADV   16 (289)
+T ss_dssp             TSHHHH
+T ss_pred             ccHHHH
+Confidence            566664
+
+
+No 4
+>5G5N_B LH3 HEXON-INTERLACING CAPSID PROTEIN; VIRAL PROTEIN, CAPSID PROTEIN, BETA-HELIX; HET: GOL, MMC, CL; 2.3A {SNAKE ADENOVIRUS 1}
+Probab=13.64  E-value=1.8e+02  Score=14.55  Aligned_cols=6  Identities=83%  Similarity=1.265  Sum_probs=3.3  Template_Neff=4.800
+
+Q GNGADV            1 GNGADV    6 (6)
+Q Consensus         1 gngadv    6 (6)
+                      ||||.|
+T Consensus        50 GNGAtV   55 (353)
+T 5G5N_B           50 GNGATV   55 (353)
+T ss_dssp             CTTCEE
+T ss_pred             eCCcEE
+Confidence            566643
+
+
+No 5
+>5G5N_C LH3 HEXON-INTERLACING CAPSID PROTEIN; VIRAL PROTEIN, CAPSID PROTEIN, BETA-HELIX; HET: GOL, MMC, CL; 2.3A {SNAKE ADENOVIRUS 1}
+Probab=13.39  E-value=1.9e+02  Score=14.51  Aligned_cols=6  Identities=83%  Similarity=1.265  Sum_probs=3.2  Template_Neff=4.800
+
+Q GNGADV            1 GNGADV    6 (6)
+Q Consensus         1 gngadv    6 (6)
+                      ||||.|
+T Consensus        50 GNGAtV   55 (353)
+T 5G5N_C           50 GNGATV   55 (353)
+T ss_dssp             CTTCEE
+T ss_pred             cCCcEE
+Confidence            566643
+
+
+No 6
+>6FPV_A Nanobody; nanobody, JBP1, llama, IMMUNE SYSTEM; HET: GOL; 1.64A {Lama glama}
+Probab=12.69  E-value=2e+02  Score=9.57  Aligned_cols=6  Identities=50%  Similarity=1.044  Sum_probs=0.0  Template_Neff=11.700
+
+Q GNGADV            1 GNGADV    6 (6)
+Q Consensus         1 gngadv    6 (6)
+                      ++|+++
+T Consensus       135 ~~~~~~  140 (154)
+T 6FPV_A          135 GQGTQV  140 (154)
+T ss_dssp             CCCEEE
+T ss_pred             ecceEE
+
+
+No 7
+>7KH1_C4 Myoviridae, Phage, Baseplate complex, VIRUS;{Vibrio phage XM1}
+Probab=12.45  E-value=2.1e+02  Score=11.34  Aligned_cols=5  Identities=60%  Similarity=1.006  Sum_probs=0.0  Template_Neff=7.100
+
+Q GNGADV            2 NGADV    6 (6)
+Q Consensus         2 ngadv    6 (6)
+                      +|+||
+T Consensus       113 ~~~~~  117 (118)
+T 7KH1_C4         113 RGVDV  117 (118)
+T ss_pred             cCCCC
+
+
+No 8
+>4CSU_9 50S RIBOSOMAL PROTEIN L28, 50S; (P)PPGPP, OBG, RIBOSOME ASSEMBLY, STRINGENT; 5.5A {ESCHERICHIA COLI}
+Probab=11.45  E-value=2.4e+02  Score=12.28  Aligned_cols=6  Identities=67%  Similarity=1.332  Sum_probs=0.0  Template_Neff=9.300
+
+Q GNGADV            1 GNGADV    6 (6)
+Q Consensus         1 gngadv    6 (6)
+                      |+|.||
+T Consensus        40 g~gg~v   45 (390)
+T 4CSU_9           40 GDGGDV   45 (390)
+T ss_dssp             CCCCCE
+T ss_pred             CCCCcE
+
+
+No 9
+>7BL6_9 50S ribosomal protein L36, 50S; RIBOSOME, pre-50S, ribosome biogenesis, ribosome; HET: GNP;{Escherichia coli}
+Probab=10.97  E-value=2.5e+02  Score=12.11  Aligned_cols=6  Identities=67%  Similarity=1.332  Sum_probs=0.0  Template_Neff=9.500
+
+Q GNGADV            1 GNGADV    6 (6)
+Q Consensus         1 gngadv    6 (6)
+                      |+|.||
+T Consensus        40 g~gg~v   45 (390)
+T 7BL6_9           40 GDGGDV   45 (390)
+T ss_dssp             CCCCCE
+T ss_pred             CCcccE
+
+
+No 10
+>7OF7_x 39S ribosomal protein L32, mitochondrial; Mitochondria, Ribosome, Biogenesis, GTPase, NSUN4; HET: MG, OMU, OMG; 2.5A {Homo sapiens}
+Probab=10.85  E-value=2.6e+02  Score=13.05  Aligned_cols=6  Identities=67%  Similarity=1.182  Sum_probs=0.0  Template_Neff=7.700
+
+Q GNGADV            1 GNGADV    6 (6)
+Q Consensus         1 gngadv    6 (6)
+                      |+|.||
+T Consensus       109 g~Gg~v  114 (406)
+T 7OF7_x          109 GNGGHV  114 (406)
+T ss_pred             CCCceE
+
+

@@ -1,0 +1,149 @@
+Query         NHGGGG
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 00:36:24 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NHGGGG/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NHGGGG/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4PY9_A Putative exopolyphospha  19.4 1.1E+02  0.0012   12.8   0.0    4    3-6     307-310 (343)
+  2 5XT3_B Phosphodiesterase actin  19.4 1.1E+02  0.0012   12.7   0.0    4    3-6     305-308 (339)
+  3 6FW5_A Probable thioesterase T  19.2 1.1E+02  0.0012   10.6   0.0    5    2-6      35-39  (261)
+  4 1T72_A Phosphate transport sys  19.2 1.1E+02  0.0012   11.3   0.0    4    3-6       1-4   (227)
+  5 1T72_B Phosphate transport sys  19.2 1.1E+02  0.0012   11.3   0.0    4    3-6       1-4   (227)
+  6 1T8B_A Phosphate transport sys  19.2 1.1E+02  0.0012   11.3   0.0    4    3-6       1-4   (227)
+  7 4LHE_A Thermostable monoacylgl  19.1 1.1E+02  0.0012   10.5   0.0    5    2-6      27-31  (250)
+  8 3LAY_J Zinc resistance-associa  18.9 1.1E+02  0.0012   12.5   0.0    5    2-6     164-168 (175)
+  9 4ROT_A Esterase A (E.C.3.1.1.1  18.8 1.1E+02  0.0013   10.8   0.0    5    2-6      53-57  (268)
+ 10 1UXO_A YDEN PROTEIN; HYDROLASE  18.7 1.1E+02  0.0013   10.9   0.0    5    2-6      11-15  (192)
+
+No 1
+>4PY9_A Putative exopolyphosphatase-related protein; Structural Genomics, PSI-2, Protein Structure; HET: MSE, PO4; 2.25A {Bacteroides fragilis}
+Probab=19.45  E-value=1.1e+02  Score=12.81  Aligned_cols=4  Identities=75%  Similarity=1.680  Sum_probs=0.0  Template_Neff=9.700
+
+Q NHGGGG            3 GGGG    6 (6)
+Q Consensus         3 gggg    6 (6)
+                      ||||
+T Consensus       307 gGGG  310 (343)
+T 4PY9_A          307 NGGG  310 (343)
+T ss_dssp             SCEE
+T ss_pred             CCCC
+
+
+No 2
+>5XT3_B Phosphodiesterase acting on cyclic dinucleotides; phosphodiesterase, HYDROLASE; HET: C2E; 2.591A {Staphylococcus aureus}
+Probab=19.43  E-value=1.1e+02  Score=12.68  Aligned_cols=4  Identities=100%  Similarity=2.195  Sum_probs=0.0  Template_Neff=9.900
+
+Q NHGGGG            3 GGGG    6 (6)
+Q Consensus         3 gggg    6 (6)
+                      ||||
+T Consensus       305 gGGG  308 (339)
+T 5XT3_B          305 GGGG  308 (339)
+T ss_dssp             TCEE
+T ss_pred             CCCc
+
+
+No 3
+>6FW5_A Probable thioesterase TesA (E.C.3.1.2.-); Thioesterase, Mycobacterium tuberculosis, HYDROLASE; HET: PO4; 2.75A {Mycobacterium tuberculosis CDC1551}
+Probab=19.22  E-value=1.1e+02  Score=10.59  Aligned_cols=5  Identities=40%  Similarity=0.747  Sum_probs=0.0  Template_Neff=12.800
+
+Q NHGGGG            2 HGGGG    6 (6)
+Q Consensus         2 hgggg    6 (6)
+                      ||+++
+T Consensus        35 hg~~~   39 (261)
+T 6FW5_A           35 PHAGG   39 (261)
+T ss_dssp             CCTTC
+T ss_pred             CCCCC
+
+
+No 4
+>1T72_A Phosphate transport system protein phoU; helix bundle, Structural Genomics, BSGC; HET: MSE; 2.9A {Aquifex aeolicus} SCOP: a.7.12.1
+Probab=19.22  E-value=1.1e+02  Score=11.32  Aligned_cols=4  Identities=100%  Similarity=2.195  Sum_probs=0.0  Template_Neff=11.000
+
+Q NHGGGG            3 GGGG    6 (6)
+Q Consensus         3 gggg    6 (6)
+                      ||||
+T Consensus         1 ~~~~    4 (227)
+T 1T72_A            1 GGGG    4 (227)
+T ss_dssp             CCCT
+T ss_pred             CCCc
+
+
+No 5
+>1T72_B Phosphate transport system protein phoU; helix bundle, Structural Genomics, BSGC; HET: MSE; 2.9A {Aquifex aeolicus} SCOP: a.7.12.1
+Probab=19.22  E-value=1.1e+02  Score=11.32  Aligned_cols=4  Identities=100%  Similarity=2.195  Sum_probs=0.0  Template_Neff=11.000
+
+Q NHGGGG            3 GGGG    6 (6)
+Q Consensus         3 gggg    6 (6)
+                      ||||
+T Consensus         1 ~~~~    4 (227)
+T 1T72_B            1 GGGG    4 (227)
+T ss_dssp             -CCT
+T ss_pred             CCCc
+
+
+No 6
+>1T8B_A Phosphate transport system protein phoU; alpha-helical protein consisting of two; 3.23A {Aquifex aeolicus} SCOP: a.7.12.1
+Probab=19.22  E-value=1.1e+02  Score=11.32  Aligned_cols=4  Identities=100%  Similarity=2.195  Sum_probs=0.0  Template_Neff=11.000
+
+Q NHGGGG            3 GGGG    6 (6)
+Q Consensus         3 gggg    6 (6)
+                      ||||
+T Consensus         1 ~~~~    4 (227)
+T 1T8B_A            1 GGGG    4 (227)
+T ss_dssp             ----
+T ss_pred             CCCc
+
+
+No 7
+>4LHE_A Thermostable monoacylglycerol lipase (E.C.3.1.1.23); alpha/beta hydrolase fold, hydrolase; HET: SO4; 1.962A {Bacillus}
+Probab=19.12  E-value=1.1e+02  Score=10.50  Aligned_cols=5  Identities=60%  Similarity=0.860  Sum_probs=0.0  Template_Neff=12.800
+
+Q NHGGGG            2 HGGGG    6 (6)
+Q Consensus         2 hgggg    6 (6)
+                      ||+++
+T Consensus        27 hG~~~   31 (250)
+T 4LHE_A           27 HGFTG   31 (250)
+T ss_dssp             CCSSC
+T ss_pred             CCCCC
+
+
+No 8
+>3LAY_J Zinc resistance-associated protein; Zinc resistance-associated protein, Salmonella typhimurium; 2.7A {Salmonella enterica subsp. enterica serovar Typhimurium}
+Probab=18.86  E-value=1.1e+02  Score=12.48  Aligned_cols=5  Identities=80%  Similarity=1.650  Sum_probs=0.0  Template_Neff=7.800
+
+Q NHGGGG            2 HGGGG    6 (6)
+Q Consensus         2 hgggg    6 (6)
+                      |||+|
+T Consensus       164 ~~~~~  168 (175)
+T 3LAY_J          164 HRGGG  168 (175)
+T ss_dssp             -----
+T ss_pred             CCCCC
+
+
+No 9
+>4ROT_A Esterase A (E.C.3.1.1.1, 3.1.1.2); hydrolase esterase acyltransferase, acylglycerase, hydrolysis; 1.8A {Streptococcus pyogenes}
+Probab=18.78  E-value=1.1e+02  Score=10.77  Aligned_cols=5  Identities=80%  Similarity=1.484  Sum_probs=0.0  Template_Neff=12.500
+
+Q NHGGGG            2 HGGGG    6 (6)
+Q Consensus         2 hgggg    6 (6)
+                      ||+++
+T Consensus        53 hG~~~   57 (268)
+T 4ROT_A           53 HGMGG   57 (268)
+T ss_dssp             CCTTC
+T ss_pred             CCCCC
+
+
+No 10
+>1UXO_A YDEN PROTEIN; HYDROLASE, A/B HYDROLASE, ESTERASE, PSI; HET: MSE; 1.8A {BACILLUS SUBTILIS} SCOP: c.69.1.31
+Probab=18.67  E-value=1.1e+02  Score=10.91  Aligned_cols=5  Identities=40%  Similarity=0.541  Sum_probs=0.0  Template_Neff=11.100
+
+Q NHGGGG            2 HGGGG    6 (6)
+Q Consensus         2 hgggg    6 (6)
+                      ||+++
+T Consensus        11 hG~~~   15 (192)
+T 1UXO_A           11 HGYRA   15 (192)
+T ss_pred             CCCCC
+
+

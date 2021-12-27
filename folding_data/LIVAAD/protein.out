@@ -1,0 +1,145 @@
+Query         LIVAAD
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 18:36:42 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LIVAAD/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LIVAAD/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4P0U_B Maf-like protein YceF;   19.2 1.1E+02  0.0012   13.0   0.0    6    1-6      63-68  (190)
+  2 3IHM_A Styrene monooxygenase A  18.3 1.2E+02  0.0013   12.5   0.0    6    1-6     158-163 (430)
+  3 2P5X_B N-acetylserotonin O-met  17.9 1.2E+02  0.0014   13.3   0.0    6    1-6      74-79  (230)
+  4 6XI4_B Probable bifunctional d  17.9 1.2E+02  0.0014   13.3   0.0    6    1-6      74-79  (230)
+  5 6SPF_p 50S ribosomal protein L  17.8 1.2E+02  0.0014   11.7   0.0    5    2-6      19-23  (78)
+  6 6TKL_I Prothrombin (E.C.3.4.21  17.7 1.2E+02  0.0014   12.4   0.0    5    1-5      16-20  (53)
+  7 5VFU_N Activated Human 26S Pro  17.3 1.3E+02  0.0014   11.1   0.0    6    1-6      12-17  (191)
+  8 6R7I_Q COP9 signalosome comple  17.3 1.3E+02  0.0014    9.7   0.0    6    1-6      90-95  (99)
+  9 2I5I_B UPF0249 protein EF_3048  16.9 1.3E+02  0.0015   12.8   0.0    6    1-6       7-12  (263)
+ 10 6YPU_q 30S ribosomal protein S  16.9 1.3E+02  0.0015   11.7   0.0    5    2-6      19-23  (83)
+
+No 1
+>4P0U_B Maf-like protein YceF; YhdE, E33A mutant, unknown function; 2.36A {Escherichia coli}
+Probab=19.17  E-value=1.1e+02  Score=12.96  Aligned_cols=6  Identities=33%  Similarity=0.567  Sum_probs=0.0  Template_Neff=7.200
+
+Q LIVAAD            1 LIVAAD    6 (6)
+Q Consensus         1 livaad    6 (6)
+                      +|++||
+T Consensus        63 ~vI~aD   68 (190)
+T 4P0U_B           63 PVLGAD   68 (190)
+T ss_dssp             CEEEEE
+T ss_pred             CEEEEe
+
+
+No 2
+>3IHM_A Styrene monooxygenase A; Rossmann fold, anti-parallel beta strands; 2.3A {Pseudomonas putida}
+Probab=18.34  E-value=1.2e+02  Score=12.47  Aligned_cols=6  Identities=33%  Similarity=0.600  Sum_probs=0.0  Template_Neff=10.900
+
+Q LIVAAD            1 LIVAAD    6 (6)
+Q Consensus         1 livaad    6 (6)
+                      ++|+||
+T Consensus       158 lVV~Ad  163 (430)
+T 3IHM_A          158 LLVVCT  163 (430)
+T ss_dssp             EEEECC
+T ss_pred             EEEEcC
+
+
+No 3
+>2P5X_B N-acetylserotonin O-methyltransferase-like protein; asmtl, Structural Genomics, Structural Genomics; HET: PO4; 2.0A {Homo sapiens}
+Probab=17.86  E-value=1.2e+02  Score=13.28  Aligned_cols=6  Identities=33%  Similarity=0.866  Sum_probs=0.0  Template_Neff=7.000
+
+Q LIVAAD            1 LIVAAD    6 (6)
+Q Consensus         1 livaad    6 (6)
+                      +|++||
+T Consensus        74 lvI~aD   79 (230)
+T 2P5X_B           74 VVIGAD   79 (230)
+T ss_dssp             EEEEEE
+T ss_pred             EEEEEe
+
+
+No 4
+>6XI4_B Probable bifunctional dTTP/UTP pyrophosphatase/methyltransferase protein; ASMTL, CELL CYCLE; HET: SO4; 2.22A {Homo sapiens}
+Probab=17.86  E-value=1.2e+02  Score=13.28  Aligned_cols=6  Identities=33%  Similarity=0.866  Sum_probs=0.0  Template_Neff=7.000
+
+Q LIVAAD            1 LIVAAD    6 (6)
+Q Consensus         1 livaad    6 (6)
+                      +|++||
+T Consensus        74 lvI~aD   79 (230)
+T 6XI4_B           74 VVIGAD   79 (230)
+T ss_dssp             EEEEEE
+T ss_pred             EEEEEe
+
+
+No 5
+>6SPF_p 50S ribosomal protein L2, 50S; Ribosome, Pseudomonas aeruginosa; 2.89A {Pseudomonas aeruginosa}
+Probab=17.80  E-value=1.2e+02  Score=11.70  Aligned_cols=5  Identities=0%  Similarity=0.381  Sum_probs=0.0  Template_Neff=6.000
+
+Q LIVAAD            2 IVAAD    6 (6)
+Q Consensus         2 ivaad    6 (6)
+                      ||++|
+T Consensus        19 IVv~~   23 (78)
+T 6SPF_p           19 LTVTN   23 (78)
+T ss_pred             EEEec
+
+
+No 6
+>6TKL_I Prothrombin (E.C.3.4.21.5), Tsetse thrombin inhibitor; anticoagulant tyrosine sulfation posttranslational modification; HET: TYS, MLE, NAG; 1.3A {Homo sapiens}
+Probab=17.75  E-value=1.2e+02  Score=12.45  Aligned_cols=5  Identities=100%  Similarity=1.079  Sum_probs=0.0  Template_Neff=1.000
+
+Q LIVAAD            1 LIVAA    5 (6)
+Q Consensus         1 livaa    5 (6)
+                      |||||
+T Consensus        16 livaa   20 (53)
+T 6TKL_I           16 LIVAA   20 (53)
+T ss_pred             HHHhC
+
+
+No 7
+>5VFU_N Activated Human 26S Proteasome; 26S proteasome, ATP-dependent protease, AAA-ATPase; 5.8A {Homo sapiens}
+Probab=17.32  E-value=1.3e+02  Score=11.14  Aligned_cols=6  Identities=33%  Similarity=0.794  Sum_probs=0.0  Template_Neff=10.400
+
+Q LIVAAD            1 LIVAAD    6 (6)
+Q Consensus         1 livaad    6 (6)
+                      +++|+|
+T Consensus        12 vvlaaD   17 (191)
+T 5VFU_N           12 VVLGAD   17 (191)
+T ss_pred             EEEEEe
+
+
+No 8
+>6R7I_Q COP9 signalosome complex subunit 1; Cullin-Ring E3 Ligases (CRLs) COP9; HET: MSE; 5.9A {Homo sapiens}
+Probab=17.30  E-value=1.3e+02  Score=9.66  Aligned_cols=6  Identities=67%  Similarity=1.005  Sum_probs=0.0  Template_Neff=10.900
+
+Q LIVAAD            1 LIVAAD    6 (6)
+Q Consensus         1 livaad    6 (6)
+                      |+.|||
+T Consensus        90 ll~aA~   95 (99)
+T 6R7I_Q           90 LLLAAD   95 (99)
+T ss_pred             HHHHhH
+
+
+No 9
+>2I5I_B UPF0249 protein EF_3048; PUTATIVE CELLOBIOSE-PHOSPHATE CLEAVAGE PROTEIN, STRUCTURAL; HET: MSE; 1.7A {Enterococcus faecalis} SCOP: c.6.2.8
+Probab=16.94  E-value=1.3e+02  Score=12.83  Aligned_cols=6  Identities=67%  Similarity=0.994  Sum_probs=0.0  Template_Neff=8.200
+
+Q LIVAAD            1 LIVAAD    6 (6)
+Q Consensus         1 livaad    6 (6)
+                      |||-||
+T Consensus         7 lIi~AD   12 (263)
+T 2I5I_B            7 LIINAD   12 (263)
+T ss_dssp             EEEEEE
+T ss_pred             EEEEEc
+
+
+No 10
+>6YPU_q 30S ribosomal protein S2, 30S; antibiotic, amikacin, translation, ribosome; HET: AKN, MG;{Acinetobacter baumannii (strain ATCC 19606 / DSM 30007 / CIP 70.34 / JCM 6841 / NBRC 109757 / NCIMB 12457 / NCTC 12156 / 81)}
+Probab=16.90  E-value=1.3e+02  Score=11.72  Aligned_cols=5  Identities=60%  Similarity=0.853  Sum_probs=0.0  Template_Neff=6.000
+
+Q LIVAAD            2 IVAAD    6 (6)
+Q Consensus         2 ivaad    6 (6)
+                      ||++|
+T Consensus        19 IVv~~   23 (83)
+T 6YPU_q           19 IVVTD   23 (83)
+T ss_pred             EEEee
+
+

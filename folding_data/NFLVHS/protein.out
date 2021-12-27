@@ -1,0 +1,151 @@
+Query         NFLVHS
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 23:49:27 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NFLVHS/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NFLVHS/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3G7W_A native fold for amyloid  91.5    0.08 8.8E-07   20.7   0.0    6    1-6     385-390 (393)
+  2 2I71_A Hypothetical protein; S  22.9      82  0.0009   14.7   0.0    6    1-6     362-367 (400)
+  3 6O6Y_B Csm6; Type III-A CRISPR  19.9   1E+02  0.0011   14.7   0.0    6    1-6     379-384 (440)
+  4 6O71_A Csm6; Type III-A CRISPR  19.9   1E+02  0.0011   14.7   0.0    6    1-6     379-384 (440)
+  5 6O6Z_A Csm6; Type III-A CRISPR  19.5 1.1E+02  0.0012   14.7   0.0    6    1-6     379-384 (440)
+  6 4EOG_A Putative uncharacterize  18.0 1.2E+02  0.0013   15.3   0.0    6    1-6     432-437 (480)
+  7 2I71_B Hypothetical protein; S  17.9 1.2E+02  0.0014   14.2   0.0    6    1-6     362-367 (400)
+  8 1WTY_A hypothetical protein TT  17.6 1.3E+02  0.0014   11.0   0.0    5    1-5      83-87  (119)
+  9 2J73_A PULLULANASE (E.C.3.2.1.  16.7 1.4E+02  0.0015   10.6   0.0    5    1-5      61-65  (103)
+ 10 2J73_B PULLULANASE (E.C.3.2.1.  16.7 1.4E+02  0.0015   10.6   0.0    5    1-5      61-65  (103)
+
+No 1
+>3G7W_A native fold for amyloidogenic protein; HET: GLC, SO4, GOL; 1.75A {Escherichia coli}
+Probab=91.45  E-value=0.08  Score=20.66  Aligned_cols=6  Identities=100%  Similarity=1.464  Sum_probs=5.2  Template_Neff=11.100
+
+Q NFLVHS            1 NFLVHS    6 (6)
+Q Consensus         1 nflvhs    6 (6)
+                      ||||||
+T Consensus       385 ~~~~~~  390 (393)
+T 3G7W_A          385 NFLVHS  390 (393)
+T ss_dssp             GGGCCC
+T ss_pred             HHhhcc
+Confidence            799997
+
+
+No 2
+>2I71_A Hypothetical protein; Structural Genomics, APC6294, Conserved hypothetical; HET: MSE; 1.7A {Sulfolobus solfataricus} SCOP: e.72.1.1
+Probab=22.92  E-value=82  Score=14.71  Aligned_cols=6  Identities=17%  Similarity=0.318  Sum_probs=3.7  Template_Neff=7.300
+
+Q NFLVHS            1 NFLVHS    6 (6)
+Q Consensus         1 nflvhs    6 (6)
+                      ||+.|+
+T Consensus       362 Nf~AHa  367 (400)
+T 2I71_A          362 ILYAHG  367 (400)
+T ss_dssp             HHHHTT
+T ss_pred             hheeec
+Confidence            566664
+
+
+No 3
+>6O6Y_B Csm6; Type III-A CRISPR-Cas system ; HET: LQJ, ACK; 1.96A {Thermococcus onnurineus}
+Probab=19.90  E-value=1e+02  Score=14.73  Aligned_cols=6  Identities=50%  Similarity=0.839  Sum_probs=0.0  Template_Neff=7.000
+
+Q NFLVHS            1 NFLVHS    6 (6)
+Q Consensus         1 nflvhs    6 (6)
+                      ||+.|+
+T Consensus       379 NfiAHA  384 (440)
+T 6O6Y_B          379 NVLAHA  384 (440)
+T ss_dssp             HHHHTT
+T ss_pred             HHHhhc
+
+
+No 4
+>6O71_A Csm6; Type III-A CRISPR-Cas system ; 2.55A {Thermococcus onnurineus}
+Probab=19.90  E-value=1e+02  Score=14.73  Aligned_cols=6  Identities=50%  Similarity=0.839  Sum_probs=0.0  Template_Neff=7.000
+
+Q NFLVHS            1 NFLVHS    6 (6)
+Q Consensus         1 nflvhs    6 (6)
+                      ||+.|+
+T Consensus       379 NfiAHA  384 (440)
+T 6O71_A          379 NVLAHA  384 (440)
+T ss_dssp             HHHHTT
+T ss_pred             HHHhhc
+
+
+No 5
+>6O6Z_A Csm6; Type III-A CRISPR-Cas system ; HET: LQJ; 2.1A {Thermococcus onnurineus (strain NA1)}
+Probab=19.55  E-value=1.1e+02  Score=14.70  Aligned_cols=6  Identities=33%  Similarity=0.462  Sum_probs=0.0  Template_Neff=7.000
+
+Q NFLVHS            1 NFLVHS    6 (6)
+Q Consensus         1 nflvhs    6 (6)
+                      ||+.|+
+T Consensus       379 NfiAHA  384 (440)
+T 6O6Z_A          379 NVLAAA  384 (440)
+T ss_dssp             HHHHTT
+T ss_pred             HHHHhc
+
+
+No 6
+>4EOG_A Putative uncharacterized protein; beta-hairpin, nucleic acid binding protein; 2.3A {Pyrococcus furiosus}
+Probab=18.04  E-value=1.2e+02  Score=15.32  Aligned_cols=6  Identities=67%  Similarity=1.215  Sum_probs=0.0  Template_Neff=5.700
+
+Q NFLVHS            1 NFLVHS    6 (6)
+Q Consensus         1 nflvhs    6 (6)
+                      ||+.|+
+T Consensus       432 Nf~AHa  437 (480)
+T 4EOG_A          432 NFIAHS  437 (480)
+T ss_pred             Hhhhcc
+
+
+No 7
+>2I71_B Hypothetical protein; Structural Genomics, APC6294, Conserved hypothetical; 1.7A {Sulfolobus solfataricus} SCOP: e.72.1.1
+Probab=17.86  E-value=1.2e+02  Score=14.17  Aligned_cols=6  Identities=17%  Similarity=0.318  Sum_probs=0.0  Template_Neff=7.300
+
+Q NFLVHS            1 NFLVHS    6 (6)
+Q Consensus         1 nflvhs    6 (6)
+                      ||+.|+
+T Consensus       362 NfiAHa  367 (400)
+T 2I71_B          362 ILYAHG  367 (400)
+T ss_dssp             CTGGGT
+T ss_pred             hheeec
+
+
+No 8
+>1WTY_A hypothetical protein TTHA0048; STRUCTURAL GENOMICS, RIKEN Structural Genomics/Proteomics; 2.2A {Thermus thermophilus} SCOP: a.24.16.2
+Probab=17.59  E-value=1.3e+02  Score=10.97  Aligned_cols=5  Identities=40%  Similarity=0.554  Sum_probs=0.0  Template_Neff=9.100
+
+Q NFLVHS            1 NFLVH    5 (6)
+Q Consensus         1 nflvh    5 (6)
+                      |.++|
+T Consensus        83 N~l~H   87 (119)
+T 1WTY_A           83 NLTNH   87 (119)
+T ss_dssp             HHGGG
+T ss_pred             HHHcC
+
+
+No 9
+>2J73_A PULLULANASE (E.C.3.2.1.41); THERMOTOGA MARITIMA, ALPHA-GLUCAN BINDING, GLUCOSYL-MALTOTRIOSE; HET: GLC; 1.4A {THERMOTOGA MARITIMA} SCOP: b.3.1.3
+Probab=16.70  E-value=1.4e+02  Score=10.61  Aligned_cols=5  Identities=20%  Similarity=0.547  Sum_probs=0.0  Template_Neff=9.100
+
+Q NFLVHS            1 NFLVH    5 (6)
+Q Consensus         1 nflvh    5 (6)
+                      ||++|
+T Consensus        61 ~fiv~   65 (103)
+T 2J73_A           61 GIIVR   65 (103)
+T ss_dssp             EEEEE
+T ss_pred             EEEEE
+
+
+No 10
+>2J73_B PULLULANASE (E.C.3.2.1.41); THERMOTOGA MARITIMA, ALPHA-GLUCAN BINDING, GLUCOSYL-MALTOTRIOSE; HET: GLC; 1.4A {THERMOTOGA MARITIMA} SCOP: b.3.1.3
+Probab=16.70  E-value=1.4e+02  Score=10.61  Aligned_cols=5  Identities=20%  Similarity=0.547  Sum_probs=0.0  Template_Neff=9.100
+
+Q NFLVHS            1 NFLVH    5 (6)
+Q Consensus         1 nflvh    5 (6)
+                      ||++|
+T Consensus        61 ~fiv~   65 (103)
+T 2J73_B           61 GIIVR   65 (103)
+T ss_dssp             EEEEE
+T ss_pred             EEEEE
+
+

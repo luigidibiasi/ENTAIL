@@ -1,0 +1,153 @@
+Query         GQNNTQ
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 03:11:08 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GQNNTQ/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GQNNTQ/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 1EY2_A jelly roll, beta sandwi  13.2 1.9E+02  0.0021   14.5   0.0    6    1-6      54-59  (471)
+  2 1EYB_A APO HUMAN HOMOGENTISATE  12.3 2.1E+02  0.0024   14.6   0.0    6    1-6      54-59  (471)
+  3 4AQ6_D HOMOGENTISATE 1,2-DIOXY   8.8 3.4E+02  0.0038   13.6   0.0    6    1-6      31-36  (433)
+  4 2EGM_A Tripartite motif-contai   7.6 4.1E+02  0.0046    7.4   0.0    5    1-5       4-8   (57)
+  5 6Z4U_A Protein 9b; orf9b, VIRA   7.6 4.2E+02  0.0046   12.0   0.0    4    1-4      33-36  (97)
+  6 6Z4U_B Protein 9b; orf9b, VIRA   7.6 4.2E+02  0.0046   12.0   0.0    4    1-4      33-36  (97)
+  7 3H9W_A Diguanylate cyclase wit   7.1 4.5E+02   0.005    6.9   0.0    6    1-6     110-115 (115)
+  8 3NWU_A Serine protease HTRA1 (   7.1 4.6E+02  0.0051    9.7   0.0    5    1-5       2-6   (227)
+  9 5J13_A Thymic stromal lymphopo   6.5 5.1E+02  0.0056   12.3   0.0    4    3-6     112-115 (147)
+ 10 5J12_A Thymic stromal lymphopo   6.5 5.1E+02  0.0056   12.5   0.0    4    3-6     119-122 (163)
+
+No 1
+>1EY2_A jelly roll, beta sandwich, OXIDOREDUCTASE; HET: MSE; 2.3A {Homo sapiens} SCOP: b.82.1.4
+Probab=13.20  E-value=1.9e+02  Score=14.54  Aligned_cols=6  Identities=83%  Similarity=1.093  Sum_probs=3.2  Template_Neff=5.900
+
+Q GQNNTQ            1 GQNNTQ    6 (6)
+Q Consensus         1 gqnntq    6 (6)
+                      |||+-|
+T Consensus        54 ~~n~pq   59 (471)
+T 1EY2_A           54 GQNNPQ   59 (471)
+T ss_dssp             SCSCCS
+T ss_pred             cCCCCC
+Confidence            466544
+
+
+No 2
+>1EYB_A APO HUMAN HOMOGENTISATE DIOXYGENASE (E.C.; jelly roll, beta sandwich, OXIDOREDUCTASE; HET: MSE; 1.9A {Homo sapiens} SCOP: b.82.1.4
+Probab=12.34  E-value=2.1e+02  Score=14.63  Aligned_cols=6  Identities=83%  Similarity=1.093  Sum_probs=3.2  Template_Neff=5.400
+
+Q GQNNTQ            1 GQNNTQ    6 (6)
+Q Consensus         1 gqnntq    6 (6)
+                      |||+-|
+T Consensus        54 ~~n~pq   59 (471)
+T 1EYB_A           54 GQNNPQ   59 (471)
+T ss_dssp             SCSCCS
+T ss_pred             CCCCCC
+Confidence            466544
+
+
+No 3
+>4AQ6_D HOMOGENTISATE 1,2-DIOXYGENASE (E.C.1.13.11.5); OXIDOREDUCTASE, EXTRADIOL-TYPE, EXTRADIOL-TYPE DIOXYGENASE; HET: B3P, OMD, FE; 1.98A {PSEUDOMONAS PUTIDA}
+Probab=8.77  E-value=3.4e+02  Score=13.56  Aligned_cols=6  Identities=67%  Similarity=0.933  Sum_probs=2.9  Template_Neff=6.000
+
+Q GQNNTQ            1 GQNNTQ    6 (6)
+Q Consensus         1 gqnntq    6 (6)
+                      |||+-|
+T Consensus        31 ~~n~pq   36 (433)
+T 4AQ6_D           31 GQNSPQ   36 (433)
+T ss_dssp             SCSCBS
+T ss_pred             CCCCCC
+Confidence            455543
+
+
+No 4
+>2EGM_A Tripartite motif-containing protein 41; zf-B_box domain, Tripartite motif protein; HET: ZN; NMR {Homo sapiens}
+Probab=7.62  E-value=4.1e+02  Score=7.44  Aligned_cols=5  Identities=40%  Similarity=0.707  Sum_probs=0.0  Template_Neff=11.000
+
+Q GQNNTQ            1 GQNNT    5 (6)
+Q Consensus         1 gqnnt    5 (6)
+                      ||.|+
+T Consensus         4 ~~~~~    8 (57)
+T 2EGM_A            4 GSSGT    8 (57)
+T ss_dssp             CCCCC
+T ss_pred             CCCCC
+
+
+No 5
+>6Z4U_A Protein 9b; orf9b, VIRAL PROTEIN; HET: 15P; 1.95A {Severe acute respiratory syndrome coronavirus 2}
+Probab=7.59  E-value=4.2e+02  Score=12.02  Aligned_cols=4  Identities=75%  Similarity=0.867  Sum_probs=0.0  Template_Neff=1.300
+
+Q GQNNTQ            1 GQNN    4 (6)
+Q Consensus         1 gqnn    4 (6)
+                      ||||
+T Consensus        33 gqn~   36 (97)
+T 6Z4U_A           33 DQNN   36 (97)
+T ss_dssp             ----
+T ss_pred             CccC
+
+
+No 6
+>6Z4U_B Protein 9b; orf9b, VIRAL PROTEIN; HET: 15P; 1.95A {Severe acute respiratory syndrome coronavirus 2}
+Probab=7.59  E-value=4.2e+02  Score=12.02  Aligned_cols=4  Identities=75%  Similarity=0.867  Sum_probs=0.0  Template_Neff=1.300
+
+Q GQNNTQ            1 GQNN    4 (6)
+Q Consensus         1 gqnn    4 (6)
+                      ||||
+T Consensus        33 gqn~   36 (97)
+T 6Z4U_B           33 DQNN   36 (97)
+T ss_dssp             ----
+T ss_pred             CccC
+
+
+No 7
+>3H9W_A Diguanylate cyclase with PAS/PAC sensor; alpha-beta protein., Structural Genomics, PSI-2; 1.9A {Marinobacter aquaeolei}
+Probab=7.12  E-value=4.5e+02  Score=6.87  Aligned_cols=6  Identities=0%  Similarity=0.174  Sum_probs=0.0  Template_Neff=14.400
+
+Q GQNNTQ            1 GQNNTQ    6 (6)
+Q Consensus         1 gqnntq    6 (6)
+                      .++++|
+T Consensus       110 ~~~~~~  115 (115)
+T 3H9W_A          110 HHHHHH  115 (115)
+T ss_dssp             GC----
+T ss_pred             ccCCCC
+
+
+No 8
+>3NWU_A Serine protease HTRA1 (E.C.3.4.21.-); serine protease, DegP, HtrA, protease; HET: SO4; 3.2A {Homo sapiens}
+Probab=7.05  E-value=4.6e+02  Score=9.68  Aligned_cols=5  Identities=40%  Similarity=0.833  Sum_probs=0.0  Template_Neff=11.100
+
+Q GQNNTQ            1 GQNNT    5 (6)
+Q Consensus         1 gqnnt    5 (6)
+                      ||+++
+T Consensus         2 ~~~~~    6 (227)
+T 3NWU_A            2 GQEDP    6 (227)
+T ss_dssp             ---CT
+T ss_pred             CCCCc
+
+
+No 9
+>5J13_A Thymic stromal lymphopoietin, anti-TSLP Fab-fragment; cytokine inflammation TSLP antibody, IMMUNE; HET: SO4; 2.298A {Homo sapiens}
+Probab=6.52  E-value=5.1e+02  Score=12.33  Aligned_cols=4  Identities=75%  Similarity=0.725  Sum_probs=0.0  Template_Neff=2.600
+
+Q GQNNTQ            3 NNTQ    6 (6)
+Q Consensus         3 nntq    6 (6)
+                      ||||
+T Consensus       112 NntQ  115 (147)
+T 5J13_A          112 NATQ  115 (147)
+T ss_dssp             ----
+T ss_pred             cchH
+
+
+No 10
+>5J12_A Thymic stromal lymphopoietin, Interleukin-7 receptor; cytokine inflammation TSLP signaling complex; HET: NAG, SO4; 3.55A {Homo sapiens}
+Probab=6.51  E-value=5.1e+02  Score=12.53  Aligned_cols=4  Identities=75%  Similarity=0.725  Sum_probs=0.0  Template_Neff=2.500
+
+Q GQNNTQ            3 NNTQ    6 (6)
+Q Consensus         3 nntq    6 (6)
+                      ||||
+T Consensus       119 NnTQ  122 (163)
+T 5J12_A          119 NATQ  122 (163)
+T ss_dssp             CCC-
+T ss_pred             cchH
+
+

@@ -1,0 +1,148 @@
+Query         KEEKSE
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 10:38:17 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/KEEKSE/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/KEEKSE/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2I75_A Tyrosine-protein phosph   4.9 7.3E+02  0.0081   10.5   0.0    5    2-6       3-7   (320)
+  2 2DYM_F Autophagy protein 5, Au   4.9 7.4E+02  0.0082   10.0   0.0    5    1-5      13-17  (46)
+  3 1HE7_A HIGH AFFINITY NERVE GRO   4.9 7.4E+02  0.0082    7.5   0.0    5    2-6     122-126 (126)
+  4 4A5Q_A CHI1 (E.C.3.2.1.14); HY   4.8 7.5E+02  0.0083   11.9   0.0    5    1-5       7-11  (546)
+  5 6MSB_Z 26S proteasome; Proteos   4.4 8.4E+02  0.0093   10.8   0.0    6    1-6     317-322 (324)
+  6 5L4K_U 26S proteasome non-ATPa   4.4 8.5E+02  0.0094   10.8   0.0    6    1-6     317-322 (324)
+  7 2DYO_B Autophagy protein 5, Au   4.1 9.1E+02    0.01   10.1   0.0    5    1-5      13-17  (57)
+  8 6ELV_A Polyphenol oxidase, chl   3.8   1E+03   0.011    9.9   0.0    6    1-6      39-44  (145)
+  9 3B49_A Lin2189 protein; Big 86   3.6 1.1E+03   0.012    9.4   0.0    6    1-6      13-18  (211)
+ 10 4V6I_Bw Ribosome; eukaryotic r   3.4 1.1E+03   0.013    8.9   0.0    6    1-6      90-95  (106)
+
+No 1
+>2I75_A Tyrosine-protein phosphatase non-receptor type 4; PTPN4, PTP, tyrosine phosphatase, MEG-1; HET: SO4; 2.45A {Homo sapiens}
+Probab=4.89  E-value=7.3e+02  Score=10.46  Aligned_cols=5  Identities=80%  Similarity=0.793  Sum_probs=0.0  Template_Neff=9.500
+
+Q KEEKSE            2 EEKSE    6 (6)
+Q Consensus         2 eekse    6 (6)
+                      |||+|
+T Consensus         3 ~~~~~    7 (320)
+T 2I75_A            3 EEKLE    7 (320)
+T ss_dssp             -----
+T ss_pred             chhhc
+
+
+No 2
+>2DYM_F Autophagy protein 5, Autophagy protein; ubiquitin-fold, herix-bundle, PROTEIN TURNOVER-PROTEIN TURNOVER; 2.2A {Saccharomyces cerevisiae}
+Probab=4.87  E-value=7.4e+02  Score=10.02  Aligned_cols=5  Identities=80%  Similarity=1.019  Sum_probs=0.0  Template_Neff=1.000
+
+Q KEEKSE            1 KEEKS    5 (6)
+Q Consensus         1 keeks    5 (6)
+                      |||.|
+T Consensus        13 keers   17 (46)
+T 2DYM_F           13 KEERS   17 (46)
+T ss_dssp             -----
+T ss_pred             Hhhhc
+
+
+No 3
+>1HE7_A HIGH AFFINITY NERVE GROWTH FACTOR; TRANSFERASE, TRK-RECEPTOR, STRAND-SWAPPING, NERVE GROWTH; 2.0A {HOMO SAPIENS} SCOP: b.1.1.4
+Probab=4.87  E-value=7.4e+02  Score=7.51  Aligned_cols=5  Identities=60%  Similarity=0.807  Sum_probs=0.0  Template_Neff=12.500
+
+Q KEEKSE            2 EEKSE    6 (6)
+Q Consensus         2 eekse    6 (6)
+                      |+|.+
+T Consensus       122 ~~~~~  126 (126)
+T 1HE7_A          122 EKKDE  126 (126)
+T ss_dssp             -----
+T ss_pred             ccccC
+
+
+No 4
+>4A5Q_A CHI1 (E.C.3.2.1.14); HYDROLASE, BACTERIAL TOXIN, INSECTICIDE; 17.0A {YERSINIA ENTOMOPHAGA}
+Probab=4.81  E-value=7.5e+02  Score=11.93  Aligned_cols=5  Identities=100%  Similarity=1.052  Sum_probs=0.0  Template_Neff=8.200
+
+Q KEEKSE            1 KEEKS    5 (6)
+Q Consensus         1 keeks    5 (6)
+                      |||+|
+T Consensus         7 ~~~~~   11 (546)
+T 4A5Q_A            7 KEEKS   11 (546)
+T ss_dssp             ---CC
+T ss_pred             hhHhh
+
+
+No 5
+>6MSB_Z 26S proteasome; Proteosome, HYDROLASE; HET: ADP, ATP; 3.0A {Homo sapiens}
+Probab=4.39  E-value=8.4e+02  Score=10.77  Aligned_cols=6  Identities=83%  Similarity=0.961  Sum_probs=0.0  Template_Neff=8.500
+
+Q KEEKSE            1 KEEKSE    6 (6)
+Q Consensus         1 keekse    6 (6)
+                      ||||.|
+T Consensus       317 ~~~~~~  322 (324)
+T 6MSB_Z          317 KEEKKE  322 (324)
+T ss_pred             HHHHhh
+
+
+No 6
+>5L4K_U 26S proteasome non-ATPase regulatory subunit; proteostasis, AAA-ATPase, structural protein; 4.5A {Homo sapiens}
+Probab=4.35  E-value=8.5e+02  Score=10.75  Aligned_cols=6  Identities=83%  Similarity=0.961  Sum_probs=0.0  Template_Neff=8.500
+
+Q KEEKSE            1 KEEKSE    6 (6)
+Q Consensus         1 keekse    6 (6)
+                      ||||.|
+T Consensus       317 ~~~~~~  322 (324)
+T 5L4K_U          317 KEEKKE  322 (324)
+T ss_dssp             -HHHHH
+T ss_pred             HHHHhh
+
+
+No 7
+>2DYO_B Autophagy protein 5, Autophagy protein; ubiquitin-fold, herix-bundle, PROTEIN TURNOVER-PROTEIN TURNOVER; 1.97A {Saccharomyces cerevisiae}
+Probab=4.13  E-value=9.1e+02  Score=10.12  Aligned_cols=5  Identities=80%  Similarity=1.019  Sum_probs=0.0  Template_Neff=1.000
+
+Q KEEKSE            1 KEEKS    5 (6)
+Q Consensus         1 keeks    5 (6)
+                      |||.|
+T Consensus        13 keers   17 (57)
+T 2DYO_B           13 KEERS   17 (57)
+T ss_dssp             -----
+T ss_pred             Hhhhc
+
+
+No 8
+>6ELV_A Polyphenol oxidase, chloroplastic; polyphenol oxidase, tyrosinase, C-temrinal domain; 1.05A {Malus domestica}
+Probab=3.76  E-value=1e+03  Score=9.88  Aligned_cols=6  Identities=33%  Similarity=0.584  Sum_probs=0.0  Template_Neff=6.900
+
+Q KEEKSE            1 KEEKSE    6 (6)
+Q Consensus         1 keekse    6 (6)
+                      ++||++
+T Consensus        39 ~~~k~~   44 (145)
+T 6ELV_A           39 KKAKED   44 (145)
+T ss_dssp             TTTTTT
+T ss_pred             hhhccc
+
+
+No 9
+>3B49_A Lin2189 protein; Big 860.1, structural genomics, MCSG; HET: GOL; 1.6A {Listeria innocua Clip11262}
+Probab=3.56  E-value=1.1e+03  Score=9.35  Aligned_cols=6  Identities=67%  Similarity=0.545  Sum_probs=0.0  Template_Neff=9.400
+
+Q KEEKSE            1 KEEKSE    6 (6)
+Q Consensus         1 keekse    6 (6)
+                      ++||++
+T Consensus        13 ~~~~~~   18 (211)
+T 3B49_A           13 KEEKKF   18 (211)
+T ss_dssp             HHCHHH
+T ss_pred             HHhHHH
+
+
+No 10
+>4V6I_Bw Ribosome; eukaryotic ribosome, homology modeling, de; 8.8A {Saccharomyces cerevisiae}
+Probab=3.43  E-value=1.1e+03  Score=8.95  Aligned_cols=6  Identities=33%  Similarity=0.457  Sum_probs=0.0  Template_Neff=7.600
+
+Q KEEKSE            1 KEEKSE    6 (6)
+Q Consensus         1 keekse    6 (6)
+                      ++|+.|
+T Consensus        90 ~~e~ee   95 (106)
+T 4V6I_Bw          90 EEAAEE   95 (106)
+T ss_pred             HHhhhc
+
+

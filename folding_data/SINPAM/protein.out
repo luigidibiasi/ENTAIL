@@ -1,0 +1,189 @@
+Query         SINPAM
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 14:57:15 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/SINPAM/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/SINPAM/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6N3C_D TAR DNA-binding protein  91.0     0.1 1.1E-06   20.2   0.0    6    1-6      32-37  (46)
+  2 6N3A_J TAR DNA-binding protein  90.9     0.1 1.1E-06   20.8   0.0    6    1-6       7-12  (50)
+  3 2N2C_A TAR DNA-binding protein  81.6       1 1.1E-05   17.2   0.0    6    1-6      11-16  (43)
+  4 7KWZ_A Isoform 2 of TAR DNA-bi  69.6     3.8 4.2E-05   18.8   0.0    6    1-6      51-56  (148)
+  5 2O9G_A Aquaporin Z; aquaporin,  53.1      12 0.00014   14.9   0.0    6    1-6     187-192 (234)
+  6 7AM2_BQ Ribosomal protein L3-l  50.6      14 0.00016   15.6   0.0    6    1-6      27-32  (445)
+  7 5C5X_B Aquaporin-5; TRANSPORT   43.5      22 0.00024   14.6   0.0    6    1-6     183-188 (245)
+  8 3LLQ_B Aquaporin Z 2; Aquapori  38.8      29 0.00032   14.4   0.0    6    1-6     210-215 (256)
+  9 6F7H_D Aquaporin-10; glycerol,  37.5      31 0.00035   14.7   0.0    6    1-6     212-217 (301)
+ 10 6C9E_B Cysteine desulfurase (E  29.4      52 0.00058   13.2   0.0    6    1-6      10-15  (422)
+ 11 3DBG_A Putative cytochrome P45  22.4      85 0.00094   12.7   0.0    6    1-6       5-10  (467)
+ 12 3EL3_B Putative cytochrome P45  22.4      85 0.00094   12.7   0.0    6    1-6       5-10  (467)
+
+No 1
+>6N3C_D TAR DNA-binding protein 43; Amyloid, TDP43, ALS, FTLD-TDP, dna; 3.3A {Homo sapiens}
+Probab=90.97  E-value=0.1  Score=20.23  Aligned_cols=6  Identities=100%  Similarity=1.348  Sum_probs=2.4  Template_Neff=3.000
+
+Q SINPAM            1 SINPAM    6 (6)
+Q Consensus         1 sinpam    6 (6)
+                      +|||||
+T Consensus        32 ~iNpAm   37 (46)
+T 6N3C_D           32 SINPAM   37 (46)
+T ss_dssp             CBC---
+T ss_pred             ccCHHH
+Confidence            589997
+
+
+No 2
+>6N3A_J TAR DNA-binding protein 43, segA; Amyloid, TDP43, ALS, FTLD-TDP, dna; 3.3A {Homo sapiens}
+Probab=90.91  E-value=0.1  Score=20.76  Aligned_cols=6  Identities=100%  Similarity=1.348  Sum_probs=5.0  Template_Neff=2.200
+
+Q SINPAM            1 SINPAM    6 (6)
+Q Consensus         1 sinpam    6 (6)
+                      +|||||
+T Consensus         7 ~iNpAm   12 (50)
+T 6N3A_J            7 SINPAM   12 (50)
+T ss_dssp             EECCEE
+T ss_pred             cCCHHH
+Confidence            689997
+
+
+No 3
+>2N2C_A TAR DNA-binding protein 43; ALS, prion-like domain, hydrophobic helices; NMR {Homo sapiens}
+Probab=81.56  E-value=1  Score=17.19  Aligned_cols=6  Identities=100%  Similarity=1.348  Sum_probs=4.5  Template_Neff=3.300
+
+Q SINPAM            1 SINPAM    6 (6)
+Q Consensus         1 sinpam    6 (6)
+                      ++||||
+T Consensus        11 ~lNpAm   16 (43)
+T 2N2C_A           11 SINPAM   16 (43)
+T ss_dssp             TTSSSH
+T ss_pred             cCCHHH
+Confidence            478886
+
+
+No 4
+>7KWZ_A Isoform 2 of TAR DNA-binding; TDP-43, amyloid, neurodegenerative diseases, amyotropic; 3.2A {Homo sapiens}
+Probab=69.56  E-value=3.8  Score=18.78  Aligned_cols=6  Identities=100%  Similarity=1.348  Sum_probs=4.5  Template_Neff=2.900
+
+Q SINPAM            1 SINPAM    6 (6)
+Q Consensus         1 sinpam    6 (6)
+                      .|||||
+T Consensus        51 ~lNpAm   56 (148)
+T 7KWZ_A           51 SINPAM   56 (148)
+T ss_dssp             EECCCE
+T ss_pred             ccCHHH
+Confidence            478887
+
+
+No 5
+>2O9G_A Aquaporin Z; aquaporin, integral membrane protein, Structural; HET: BOG; 1.9A {Escherichia coli}
+Probab=53.05  E-value=12  Score=14.87  Aligned_cols=6  Identities=67%  Similarity=0.966  Sum_probs=3.6  Template_Neff=9.300
+
+Q SINPAM            1 SINPAM    6 (6)
+Q Consensus         1 sinpam    6 (6)
+                      ++|||.
+T Consensus       187 ~~NPa~  192 (234)
+T 2O9G_A          187 SVNPAR  192 (234)
+T ss_dssp             CSCHHH
+T ss_pred             ccchHH
+Confidence            367763
+
+
+No 6
+>7AM2_BQ Ribosomal protein L3-like protein, uL4m; RIBOSOME, Mitochondria, Kinetoplastid; HET: GTP, ATP; 3.4A {Leishmania tarentolae}
+Probab=50.60  E-value=14  Score=15.59  Aligned_cols=6  Identities=67%  Similarity=1.182  Sum_probs=4.0  Template_Neff=10.000
+
+Q SINPAM            1 SINPAM    6 (6)
+Q Consensus         1 sinpam    6 (6)
+                      +.||+|
+T Consensus        27 ~~~~~~   32 (445)
+T 7AM2_BQ          27 SLNPTM   32 (445)
+T ss_pred             ccCCee
+Confidence            468874
+
+
+No 7
+>5C5X_B Aquaporin-5; TRANSPORT PROTEIN, MEMBRANE PROTEIN; HET: PS6; 2.6A {Homo sapiens}
+Probab=43.53  E-value=22  Score=14.57  Aligned_cols=6  Identities=67%  Similarity=0.933  Sum_probs=3.5  Template_Neff=8.800
+
+Q SINPAM            1 SINPAM    6 (6)
+Q Consensus         1 sinpam    6 (6)
+                      ++|||.
+T Consensus       183 ~lNPa~  188 (245)
+T 5C5X_B          183 SMNPAR  188 (245)
+T ss_dssp             CSCHHH
+T ss_pred             cccHHH
+Confidence            367763
+
+
+No 8
+>3LLQ_B Aquaporin Z 2; Aquaporin tetramer, membrane protein, water; 2.01A {Agrobacterium tumefaciens str.}
+Probab=38.80  E-value=29  Score=14.38  Aligned_cols=6  Identities=67%  Similarity=0.966  Sum_probs=3.5  Template_Neff=8.700
+
+Q SINPAM            1 SINPAM    6 (6)
+Q Consensus         1 sinpam    6 (6)
+                      ++|||.
+T Consensus       210 ~~NPar  215 (256)
+T 3LLQ_B          210 SVNPAR  215 (256)
+T ss_dssp             CSCHHH
+T ss_pred             cccHHH
+Confidence            367763
+
+
+No 9
+>6F7H_D Aquaporin-10; glycerol, TRANSPORT PROTEIN, Aquaporin; HET: GOL, BNG; 2.304A {Homo sapiens}
+Probab=37.46  E-value=31  Score=14.72  Aligned_cols=6  Identities=50%  Similarity=0.850  Sum_probs=3.4  Template_Neff=8.500
+
+Q SINPAM            1 SINPAM    6 (6)
+Q Consensus         1 sinpam    6 (6)
+                      ++|||+
+T Consensus       212 ~lNPAr  217 (301)
+T 6F7H_D          212 PLNPAR  217 (301)
+T ss_dssp             CCCHHH
+T ss_pred             CccHHH
+Confidence            357763
+
+
+No 10
+>6C9E_B Cysteine desulfurase (E.C.2.8.1.7); SSGCID, Structural Genomics, Seattle Structural; HET: EDO, LLP; 1.55A {Legionella pneumophila subsp. pneumophila (strain Philadelphia 1 / ATCC 33152 / DSM 7513)}
+Probab=29.35  E-value=52  Score=13.22  Aligned_cols=6  Identities=50%  Similarity=0.938  Sum_probs=0.0  Template_Neff=11.200
+
+Q SINPAM            1 SINPAM    6 (6)
+Q Consensus         1 sinpam    6 (6)
+                      |.||+|
+T Consensus        10 ~~~~~~   15 (422)
+T 6C9E_B           10 STNPSL   15 (422)
+T ss_dssp             ------
+T ss_pred             cCCHHH
+Confidence            346654
+
+
+No 11
+>3DBG_A Putative cytochrome P450; Streptomyces, Cytochrome P450 oxidoreductase, CYP170A1; HET: HEM; 2.6A {Streptomyces coelicolor A3(2)}
+Probab=22.37  E-value=85  Score=12.67  Aligned_cols=6  Identities=50%  Similarity=0.894  Sum_probs=0.0  Template_Neff=11.500
+
+Q SINPAM            1 SINPAM    6 (6)
+Q Consensus         1 sinpam    6 (6)
+                      |.||+|
+T Consensus         5 ~~~~~~   10 (467)
+T 3DBG_A            5 SVNPET   10 (467)
+T ss_dssp             ------
+T ss_pred             cCCCCC
+Confidence            345554
+
+
+No 12
+>3EL3_B Putative cytochrome P450; streptomyces, Cytochrome P450 oxidoreductase, CYP170A1; HET: HEM, EL3; 3.3A {Streptomyces coelicolor}
+Probab=22.37  E-value=85  Score=12.67  Aligned_cols=6  Identities=50%  Similarity=0.894  Sum_probs=0.0  Template_Neff=11.500
+
+Q SINPAM            1 SINPAM    6 (6)
+Q Consensus         1 sinpam    6 (6)
+                      |.||+|
+T Consensus         5 ~~~~~~   10 (467)
+T 3EL3_B            5 SVNPET   10 (467)
+T ss_dssp             ------
+T ss_pred             cCCCCC
+Confidence            345554
+
+

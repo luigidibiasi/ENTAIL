@@ -1,0 +1,152 @@
+Query         LATVYK
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 16:41:04 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LATVYK/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LATVYK/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6MWQ_C DARPin-aldolase,Fructos  21.8      89 0.00098   15.1   0.0    6    1-6     355-360 (493)
+  2 7K34_D Threonine aldolase (E.C  17.4 1.3E+02  0.0014   12.7   0.0    6    1-6     443-448 (452)
+  3 5NBC_C Ferric uptake regulator  15.9 1.5E+02  0.0016   10.8   0.0    6    1-6      52-57  (140)
+  4 5NHK_D Ferric uptake regulator  15.9 1.5E+02  0.0016   10.8   0.0    6    1-6      52-57  (140)
+  5 5WD9_A Ankyrin repeats; bacter  15.1 1.6E+02  0.0018   13.1   0.0    6    1-6      49-54  (91)
+  6 6D57_B Ferric uptake regulatio  15.0 1.6E+02  0.0018   11.3   0.0    6    1-6      68-73  (161)
+  7 5WD8_A Ankyrin repeats; bacter  14.9 1.6E+02  0.0018   13.1   0.0    6    1-6      49-54  (91)
+  8 2MJF_B Ribosome assembly 1 pro  14.4 1.7E+02  0.0019   12.7   0.0    6    1-6      33-38  (95)
+  9 7DH7_C Transcriptional regulat  13.9 1.8E+02   0.002   11.6   0.0    6    1-6      80-85  (170)
+ 10 7DH8_A Transcriptional regulat  13.9 1.8E+02   0.002   11.6   0.0    6    1-6      80-85  (170)
+
+No 1
+>6MWQ_C DARPin-aldolase,Fructose-bisphosphate aldolase A (E.C.4.1.2.13), Green; synthetic construct, platform, single particle; 3.0A {synthetic construct}
+Probab=21.79  E-value=89  Score=15.10  Aligned_cols=6  Identities=83%  Similarity=1.187  Sum_probs=3.4  Template_Neff=7.100
+
+Q LATVYK            1 LATVYK    6 (6)
+Q Consensus         1 latvyk    6 (6)
+                      ||.|||
+T Consensus       355 ~~~~~~  360 (493)
+T 6MWQ_C          355 LAAVYK  360 (493)
+T ss_dssp             GGGHHH
+T ss_pred             HHHHHH
+Confidence            455665
+
+
+No 2
+>7K34_D Threonine aldolase (E.C.4.1.2.5); threonine transaldolase, pyridoxal phosphate, PLP; HET: SO4, LLP; 1.66A {Pseudomonas fluorescens}
+Probab=17.36  E-value=1.3e+02  Score=12.73  Aligned_cols=6  Identities=67%  Similarity=1.093  Sum_probs=3.0  Template_Neff=10.400
+
+Q LATVYK            1 LATVYK    6 (6)
+Q Consensus         1 latvyk    6 (6)
+                      |+++|+
+T Consensus       443 ~~~~~~  448 (452)
+T 7K34_D          443 LAAVYQ  448 (452)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            345554
+
+
+No 3
+>5NBC_C Ferric uptake regulator family protein; Virulence factor, DNA binding protein; 1.699A {Francisella tularensis}
+Probab=15.89  E-value=1.5e+02  Score=10.79  Aligned_cols=6  Identities=67%  Similarity=1.198  Sum_probs=0.0  Template_Neff=9.700
+
+Q LATVYK            1 LATVYK    6 (6)
+Q Consensus         1 latvyk    6 (6)
+                      .+|||+
+T Consensus        52 ~~tvyr   57 (140)
+T 5NBC_C           52 IATVYR   57 (140)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 4
+>5NHK_D Ferric uptake regulator family protein; Structure of Ferric uptake regulator; 1.8A {Francisella tularensis}
+Probab=15.89  E-value=1.5e+02  Score=10.79  Aligned_cols=6  Identities=67%  Similarity=1.198  Sum_probs=0.0  Template_Neff=9.700
+
+Q LATVYK            1 LATVYK    6 (6)
+Q Consensus         1 latvyk    6 (6)
+                      .+|||+
+T Consensus        52 ~~tvyr   57 (140)
+T 5NHK_D           52 IATVYR   57 (140)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 5
+>5WD9_A Ankyrin repeats; bacterial effector, Legionella, protein binding; 1.4A {Legionella pneumophila subsp. pneumophila ATCC 43290}
+Probab=15.13  E-value=1.6e+02  Score=13.08  Aligned_cols=6  Identities=67%  Similarity=1.176  Sum_probs=0.0  Template_Neff=2.200
+
+Q LATVYK            1 LATVYK    6 (6)
+Q Consensus         1 latvyk    6 (6)
+                      |.|+||
+T Consensus        49 LstIYk   54 (91)
+T 5WD9_A           49 LTTIYK   54 (91)
+T ss_dssp             HHHHCC
+T ss_pred             chhhcc
+
+
+No 6
+>6D57_B Ferric uptake regulation protein; Fur, ferric uptake regulator, Campylobacter; HET: FMT, OHI, GOL; 1.81A {Campylobacter jejuni}
+Probab=14.96  E-value=1.6e+02  Score=11.30  Aligned_cols=6  Identities=67%  Similarity=1.198  Sum_probs=0.0  Template_Neff=9.000
+
+Q LATVYK            1 LATVYK    6 (6)
+Q Consensus         1 latvyk    6 (6)
+                      .+|||+
+T Consensus        68 ~~TVyr   73 (161)
+T 6D57_B           68 IATVYR   73 (161)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 7
+>5WD8_A Ankyrin repeats; bacterial effector, Legionella, protein binding; HET: MSE; 1.944A {Legionella pneumophila subsp. pneumophila ATCC 43290}
+Probab=14.91  E-value=1.6e+02  Score=13.07  Aligned_cols=6  Identities=67%  Similarity=1.176  Sum_probs=0.0  Template_Neff=2.100
+
+Q LATVYK            1 LATVYK    6 (6)
+Q Consensus         1 latvyk    6 (6)
+                      |.|+||
+T Consensus        49 LstIYk   54 (91)
+T 5WD8_A           49 LTTIYK   54 (91)
+T ss_dssp             HHHHCC
+T ss_pred             chhhcc
+
+
+No 8
+>2MJF_B Ribosome assembly 1 protein, Protein; PROTEIN BINDING; NMR {Saccharomyces cerevisiae}
+Probab=14.45  E-value=1.7e+02  Score=12.71  Aligned_cols=6  Identities=67%  Similarity=1.132  Sum_probs=0.0  Template_Neff=3.500
+
+Q LATVYK            1 LATVYK    6 (6)
+Q Consensus         1 latvyk    6 (6)
+                      |++|||
+T Consensus        33 L~~V~k   38 (95)
+T 2MJF_B           33 LAKVYR   38 (95)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 9
+>7DH7_C Transcriptional regulator fur family; Zinc perception, Conformational change, Zinc; HET: PO4; 2.2A {Xanthomonas campestris pv. campestris (strain 8004)}
+Probab=13.94  E-value=1.8e+02  Score=11.62  Aligned_cols=6  Identities=50%  Similarity=0.800  Sum_probs=0.0  Template_Neff=8.300
+
+Q LATVYK            1 LATVYK    6 (6)
+Q Consensus         1 latvyk    6 (6)
+                      .+|||+
+T Consensus        80 ~sTVyr   85 (170)
+T 7DH7_C           80 PPTVYR   85 (170)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 10
+>7DH8_A Transcriptional regulator fur family; Zinc perception, Conformational change, Zinc; 1.85A {Xanthomonas campestris pv. campestris (strain 8004)}
+Probab=13.94  E-value=1.8e+02  Score=11.62  Aligned_cols=6  Identities=50%  Similarity=0.800  Sum_probs=0.0  Template_Neff=8.300
+
+Q LATVYK            1 LATVYK    6 (6)
+Q Consensus         1 latvyk    6 (6)
+                      .+|||+
+T Consensus        80 ~sTVyr   85 (170)
+T 7DH8_A           80 PPTVYR   85 (170)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+

@@ -1,0 +1,150 @@
+Query         SNNSNI
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 15:37:45 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/SNNSNI/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/SNNSNI/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 1AUI_A SERINE/THREONINE PHOSPH  11.5 2.4E+02  0.0026   13.8   0.0    6    1-6     515-520 (521)
+  2 5IFZ_A Ribose 5-phosphate isom   9.0 3.3E+02  0.0037   12.1   0.0    5    2-6     120-124 (172)
+  3 1P27_C Mago nashi protein homo   8.6 3.5E+02  0.0039   12.4   0.0    4    2-5      35-38  (144)
+  4 2J0S_C ATP-DEPENDENT RNA HELIC   8.6 3.5E+02  0.0039   12.4   0.0    4    2-5      36-39  (146)
+  5 6MU0_A Probable ribose-5-phosp   8.6 3.5E+02  0.0039   11.7   0.0    6    1-6     110-115 (160)
+  6 3K7P_A pentose phosphate pathw   8.5 3.6E+02   0.004   12.1   0.0    6    1-6     122-127 (179)
+  7 3HE8_A Ribose-5-phosphate isom   8.4 3.6E+02   0.004   11.5   0.0    5    2-6      99-103 (149)
+  8 3HEE_B Ribose-5-phosphate isom   8.4 3.6E+02   0.004   11.5   0.0    5    2-6      99-103 (149)
+  9 3S5P_A Ribose 5-phosphate isom   8.4 3.6E+02   0.004   11.9   0.0    5    2-6     120-124 (166)
+ 10 4V02_A SITE-DETERMINING PROTEI   8.2 3.7E+02  0.0041   10.1   0.0    5    1-5     249-253 (258)
+
+No 1
+>1AUI_A SERINE/THREONINE PHOSPHATASE 2B; HYDROLASE, PHOSPHATASE, IMMUNOSUPPRESSION; 2.1A {Homo sapiens} SCOP: d.159.1.3
+Probab=11.50  E-value=2.4e+02  Score=13.85  Aligned_cols=6  Identities=83%  Similarity=0.938  Sum_probs=0.0  Template_Neff=7.200
+
+Q SNNSNI            1 SNNSNI    6 (6)
+Q Consensus         1 snnsni    6 (6)
+                      ||.|||
+T Consensus       515 ~~~~~~  520 (521)
+T 1AUI_A          515 SNSSNI  520 (521)
+T ss_dssp             ------
+T ss_pred             cccccC
+Confidence            344443
+
+
+No 2
+>5IFZ_A Ribose 5-phosphate isomerase (E.C.5.3.1.6); alpha-beta-alpha, isomerase, Structural Genomics, Seattle; 1.6A {Brucella melitensis bv. 1 str. 16M}
+Probab=8.99  E-value=3.3e+02  Score=12.08  Aligned_cols=5  Identities=60%  Similarity=0.893  Sum_probs=0.0  Template_Neff=5.700
+
+Q SNNSNI            2 NNSNI    6 (6)
+Q Consensus         2 nnsni    6 (6)
+                      ||.|+
+T Consensus       120 NnaNV  124 (172)
+T 5IFZ_A          120 NNAQI  124 (172)
+T ss_dssp             TCCSE
+T ss_pred             cCCCe
+
+
+No 3
+>1P27_C Mago nashi protein homolog, RNA-binding; RNA-binding, Nuclear protein, mRNA splicing; 2.0A {Homo sapiens} SCOP: d.232.1.1
+Probab=8.63  E-value=3.5e+02  Score=12.40  Aligned_cols=4  Identities=100%  Similarity=1.132  Sum_probs=0.0  Template_Neff=3.900
+
+Q SNNSNI            2 NNSN    5 (6)
+Q Consensus         2 nnsn    5 (6)
+                      ||||
+T Consensus        35 NnSn   38 (144)
+T 1P27_C           35 NNSN   38 (144)
+T ss_dssp             EEEC
+T ss_pred             ecCC
+
+
+No 4
+>2J0S_C ATP-DEPENDENT RNA HELICASE DDX48, PROTEIN; MRNA PROCESSING, PHOSPHORYLATION, RRNA PROCESSING; HET: ANP; 2.21A {HOMO SAPIENS} SCOP: d.232.1.1
+Probab=8.59  E-value=3.5e+02  Score=12.42  Aligned_cols=4  Identities=100%  Similarity=1.132  Sum_probs=0.0  Template_Neff=3.900
+
+Q SNNSNI            2 NNSN    5 (6)
+Q Consensus         2 nnsn    5 (6)
+                      ||||
+T Consensus        36 NnSn   39 (146)
+T 2J0S_C           36 NNSN   39 (146)
+T ss_pred             ecCC
+
+
+No 5
+>6MU0_A Probable ribose-5-phosphate isomerase B (E.C.5.3.1.6); SSGCID, Structural Genomics, Seattle Structural; HET: 5RP; 1.1A {Mycoplasma genitalium (strain ATCC 33530 / G-37 / NCTC 10195)}
+Probab=8.56  E-value=3.5e+02  Score=11.74  Aligned_cols=6  Identities=33%  Similarity=0.767  Sum_probs=0.0  Template_Neff=6.000
+
+Q SNNSNI            1 SNNSNI    6 (6)
+Q Consensus         1 snnsni    6 (6)
+                      .||.|+
+T Consensus       110 ~NnaNV  115 (160)
+T 6MU0_A          110 HDNANV  115 (160)
+T ss_dssp             TTCCSE
+T ss_pred             hhCCCe
+
+
+No 6
+>3K7P_A pentose phosphate pathway, Type B; HET: PO4; 1.4A {Trypanosoma cruzi}
+Probab=8.45  E-value=3.6e+02  Score=12.13  Aligned_cols=6  Identities=50%  Similarity=0.817  Sum_probs=0.0  Template_Neff=5.500
+
+Q SNNSNI            1 SNNSNI    6 (6)
+Q Consensus         1 snnsni    6 (6)
+                      .||.|+
+T Consensus       122 hNnaNV  127 (179)
+T 3K7P_A          122 HNDANI  127 (179)
+T ss_dssp             TTCCSE
+T ss_pred             hhCCCe
+
+
+No 7
+>3HE8_A Ribose-5-phosphate isomerase (E.C.5.3.1.6); D-Ribose Phosphate Isomerase, ctRpi B; HET: GOL; 1.9A {Clostridium thermocellum}
+Probab=8.40  E-value=3.6e+02  Score=11.50  Aligned_cols=5  Identities=60%  Similarity=0.993  Sum_probs=0.0  Template_Neff=6.200
+
+Q SNNSNI            2 NNSNI    6 (6)
+Q Consensus         2 nnsni    6 (6)
+                      ||.|+
+T Consensus        99 NnaNV  103 (149)
+T 3HE8_A           99 NDANI  103 (149)
+T ss_dssp             TCCSE
+T ss_pred             cCCCe
+
+
+No 8
+>3HEE_B Ribose-5-phosphate isomerase (E.C.5.3.1.6); D-Ribose Phosphate Isomerase, ctRpi B; HET: R5P; 2.0A {Clostridium thermocellum}
+Probab=8.40  E-value=3.6e+02  Score=11.50  Aligned_cols=5  Identities=60%  Similarity=0.993  Sum_probs=0.0  Template_Neff=6.200
+
+Q SNNSNI            2 NNSNI    6 (6)
+Q Consensus         2 nnsni    6 (6)
+                      ||.|+
+T Consensus        99 NnaNV  103 (149)
+T 3HEE_B           99 NDANI  103 (149)
+T ss_dssp             TCCSE
+T ss_pred             cCCCe
+
+
+No 9
+>3S5P_A Ribose 5-phosphate isomerase (E.C.5.3.1.6); Structural Genomics, Seattle Structural Genomics; HET: SO4; 2.3A {Giardia lamblia}
+Probab=8.38  E-value=3.6e+02  Score=11.85  Aligned_cols=5  Identities=60%  Similarity=0.780  Sum_probs=0.0  Template_Neff=5.800
+
+Q SNNSNI            2 NNSNI    6 (6)
+Q Consensus         2 nnsni    6 (6)
+                      ||.|+
+T Consensus       120 NnaNV  124 (166)
+T 3S5P_A          120 NNANA  124 (166)
+T ss_dssp             TCCCE
+T ss_pred             cCCCc
+
+
+No 10
+>4V02_A SITE-DETERMINING PROTEIN, PROBABLE SEPTUM SITE-DETERMINING; CELL CYCLE, BACTERIAL CELL DIVISION; HET: ATP; 2.7A {AQUIFEX AEOLICUS}
+Probab=8.21  E-value=3.7e+02  Score=10.07  Aligned_cols=5  Identities=20%  Similarity=0.189  Sum_probs=0.0  Template_Neff=11.200
+
+Q SNNSNI            1 SNNSN    5 (6)
+Q Consensus         1 snnsn    5 (6)
+                      +||||
+T Consensus       249 ~~~~~  253 (258)
+T 4V02_A          249 YGESH  253 (258)
+T ss_dssp             CCC--
+T ss_pred             hhhcc
+
+

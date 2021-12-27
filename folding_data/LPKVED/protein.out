@@ -1,0 +1,148 @@
+Query         LPKVED
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 19:54:45 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LPKVED/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LPKVED/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5UGR_A Malyl-CoA lyase/beta-me  19.2 1.1E+02  0.0012   13.5   0.0    6    1-6     104-109 (333)
+  2 5MX5_C Proteasome activator co  18.8 1.1E+02  0.0012   13.7   0.0    6    1-6     139-144 (249)
+  3 5MX5_L Proteasome activator co  18.8 1.1E+02  0.0012   13.7   0.0    6    1-6     139-144 (249)
+  4 5MX5_F Proteasome activator co  18.5 1.2E+02  0.0013   13.4   0.0    6    1-6     129-134 (239)
+  5 5MSK_G Proteasome activator co  18.4 1.2E+02  0.0013   13.4   0.0    6    1-6     129-134 (239)
+  6 5MX5_I Proteasome activator co  18.4 1.2E+02  0.0013   13.4   0.0    6    1-6     129-134 (239)
+  7 4ROQ_A Malyl-CoA lyase/beta-me  16.1 1.4E+02  0.0016   13.0   0.0    6    1-6     104-109 (324)
+  8 3QQW_C Putative citrate lyase;  15.5 1.5E+02  0.0017   13.0   0.0    6    1-6     117-122 (332)
+  9 6DFK_I Proteasome activator 28  15.0 1.6E+02  0.0018   13.7   0.0    6    1-6     168-173 (280)
+ 10 4L9Y_C Malyl-CoA lyase (E.C.4.  14.4 1.7E+02  0.0019   12.9   0.0    6    1-6     126-131 (339)
+
+No 1
+>5UGR_A Malyl-CoA lyase/beta-methylmalyl-CoA lyase (E.C.4.1.3.24); LYASE; HET: 1PE; 1.56A {Methylobacterium extorquens (strain ATCC 14718 / DSM 1338 / JCM 2805 / NCIMB 9133 / AM1)}
+Probab=19.22  E-value=1.1e+02  Score=13.47  Aligned_cols=6  Identities=50%  Similarity=0.739  Sum_probs=0.0  Template_Neff=8.300
+
+Q LPKVED            1 LPKVED    6 (6)
+Q Consensus         1 lpkved    6 (6)
+                      +|||++
+T Consensus       104 lPkv~s  109 (333)
+T 5UGR_A          104 IPKVGV  109 (333)
+T ss_pred             eCCCCC
+
+
+No 2
+>5MX5_C Proteasome activator complex subunit 2; proteasome activator, regulator, heptamer, interferon-gamma; HET: PO4; 2.9A {Mus musculus}
+Probab=18.83  E-value=1.1e+02  Score=13.69  Aligned_cols=6  Identities=50%  Similarity=1.359  Sum_probs=0.0  Template_Neff=6.700
+
+Q LPKVED            1 LPKVED    6 (6)
+Q Consensus         1 lpkved    6 (6)
+                      .|++||
+T Consensus       139 iPkieD  144 (249)
+T 5MX5_C          139 IPRIED  144 (249)
+T ss_dssp             CCCCCS
+T ss_pred             cCeecc
+
+
+No 3
+>5MX5_L Proteasome activator complex subunit 2; proteasome activator, regulator, heptamer, interferon-gamma; HET: PO4; 2.9A {Mus musculus}
+Probab=18.83  E-value=1.1e+02  Score=13.69  Aligned_cols=6  Identities=50%  Similarity=1.359  Sum_probs=0.0  Template_Neff=6.700
+
+Q LPKVED            1 LPKVED    6 (6)
+Q Consensus         1 lpkved    6 (6)
+                      .|++||
+T Consensus       139 iPkieD  144 (249)
+T 5MX5_L          139 IPRIED  144 (249)
+T ss_dssp             CCCCCS
+T ss_pred             cCeecc
+
+
+No 4
+>5MX5_F Proteasome activator complex subunit 2; proteasome activator, regulator, heptamer, interferon-gamma; HET: PO4; 2.9A {Mus musculus}
+Probab=18.46  E-value=1.2e+02  Score=13.37  Aligned_cols=6  Identities=67%  Similarity=1.387  Sum_probs=0.0  Template_Neff=7.100
+
+Q LPKVED            1 LPKVED    6 (6)
+Q Consensus         1 lpkved    6 (6)
+                      .|++||
+T Consensus       129 iP~ied  134 (239)
+T 5MX5_F          129 IPKIED  134 (239)
+T ss_dssp             CCCCCS
+T ss_pred             cCeecc
+
+
+No 5
+>5MSK_G Proteasome activator complex subunit 2; heptamer, REGbeta, interferon-gamma, hydrolase, structural; 3.6A {Mus musculus}
+Probab=18.37  E-value=1.2e+02  Score=13.41  Aligned_cols=6  Identities=67%  Similarity=1.387  Sum_probs=0.0  Template_Neff=7.000
+
+Q LPKVED            1 LPKVED    6 (6)
+Q Consensus         1 lpkved    6 (6)
+                      .|++||
+T Consensus       129 iPkied  134 (239)
+T 5MSK_G          129 IPKIED  134 (239)
+T ss_dssp             CCCCCS
+T ss_pred             cCeecc
+
+
+No 6
+>5MX5_I Proteasome activator complex subunit 2; proteasome activator, regulator, heptamer, interferon-gamma; HET: PO4; 2.9A {Mus musculus}
+Probab=18.37  E-value=1.2e+02  Score=13.41  Aligned_cols=6  Identities=67%  Similarity=1.387  Sum_probs=0.0  Template_Neff=7.000
+
+Q LPKVED            1 LPKVED    6 (6)
+Q Consensus         1 lpkved    6 (6)
+                      .|++||
+T Consensus       129 iPkied  134 (239)
+T 5MX5_I          129 IPKIED  134 (239)
+T ss_dssp             CCCCCS
+T ss_pred             cCeecc
+
+
+No 7
+>4ROQ_A Malyl-CoA lyase/beta-methylmalyl-CoA lyase (E.C.4.1.3.24); lyase; HET: 1PE; 1.56A {Methylobacterium extorquens}
+Probab=16.08  E-value=1.4e+02  Score=12.97  Aligned_cols=6  Identities=50%  Similarity=0.739  Sum_probs=0.0  Template_Neff=8.500
+
+Q LPKVED            1 LPKVED    6 (6)
+Q Consensus         1 lpkved    6 (6)
+                      +|||+.
+T Consensus       104 lPkv~s  109 (324)
+T 4ROQ_A          104 IPKVGV  109 (324)
+T ss_dssp             ECSCCS
+T ss_pred             EcCCCC
+
+
+No 8
+>3QQW_C Putative citrate lyase; TIM BETA/ALPHA-BARREL, STRUCTURAL GENOMICS, JOINT; HET: MSE; 2.44A {Ralstonia eutropha}
+Probab=15.54  E-value=1.5e+02  Score=13.00  Aligned_cols=6  Identities=33%  Similarity=0.822  Sum_probs=0.0  Template_Neff=8.400
+
+Q LPKVED            1 LPKVED    6 (6)
+Q Consensus         1 lpkved    6 (6)
+                      +|||++
+T Consensus       117 lPkv~s  122 (332)
+T 3QQW_C          117 VPKATN  122 (332)
+T ss_dssp             ECCCCS
+T ss_pred             eCCCCC
+
+
+No 9
+>6DFK_I Proteasome activator 28 subunit beta; 11S proteasome subunit, 11S regulatory; HET: SO4; 3.1A {Plasmodium falciparum}
+Probab=15.04  E-value=1.6e+02  Score=13.69  Aligned_cols=6  Identities=50%  Similarity=1.304  Sum_probs=0.0  Template_Neff=6.200
+
+Q LPKVED            1 LPKVED    6 (6)
+Q Consensus         1 lpkved    6 (6)
+                      .|++||
+T Consensus       168 iPkiED  173 (280)
+T 6DFK_I          168 VPRIED  173 (280)
+T ss_pred             ccchhc
+
+
+No 10
+>4L9Y_C Malyl-CoA lyase (E.C.4.1.3.24); TIM barrel, LYASE; HET: GLV, 1VU; 2.102A {Rhodobacter sphaeroides}
+Probab=14.40  E-value=1.7e+02  Score=12.89  Aligned_cols=6  Identities=50%  Similarity=0.722  Sum_probs=0.0  Template_Neff=8.400
+
+Q LPKVED            1 LPKVED    6 (6)
+Q Consensus         1 lpkved    6 (6)
+                      +|||++
+T Consensus       126 lPkv~s  131 (339)
+T 4L9Y_C          126 IPKVGC  131 (339)
+T ss_dssp             ECSCCS
+T ss_pred             ECCCCC
+
+

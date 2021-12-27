@@ -1,0 +1,149 @@
+Query         KVEHSD
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 12:59:01 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/KVEHSD/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/KVEHSD/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2MBM_A Top7 Fold Protein Top7m   5.9 5.7E+02  0.0063   11.9   0.0    6    1-6      61-66  (120)
+  2 6HAS_A Ribulose bisphosphate c   5.6 6.2E+02  0.0068   10.3   0.0    5    2-6      22-26  (90)
+  3 6MR1_A 3-oxoacyl-[acyl-carrier   5.1   7E+02  0.0077   10.3   0.0    5    2-6      25-29  (96)
+  4 4Z54_B Neuronal-specific septi   4.9 7.2E+02   0.008   10.1   0.0    4    3-6     251-254 (287)
+  5 6MR1_B 3-oxoacyl-[acyl-carrier   4.9 7.3E+02  0.0081   10.2   0.0    5    2-6      25-29  (96)
+  6 6Z1F_J Ribulose bisphosphate c   4.9 7.3E+02  0.0081   10.5   0.0    5    2-6      40-44  (109)
+  7 4JCJ_A Insulin gene enhancer p   4.6 7.9E+02  0.0088    8.9   0.0    6    1-6     167-172 (173)
+  8 1SVD_M ribulose-1,5-bisphospha   4.4 8.4E+02  0.0093   10.3   0.0    5    2-6      43-47  (110)
+  9 6HBB_B Carbon dioxide concentr   4.3 8.5E+02  0.0094    9.9   0.0    5    2-6      24-28  (92)
+ 10 2LTF_A Tail protein X; LysM, p   4.2   9E+02    0.01    7.3   0.0    4    1-4      67-70  (71)
+
+No 1
+>2MBM_A Top7 Fold Protein Top7m13; Structural Genomics, NORTHEAST STRUCTURAL GENOMICS; NMR {artificial gene}
+Probab=5.94  E-value=5.7e+02  Score=11.93  Aligned_cols=6  Identities=67%  Similarity=1.121  Sum_probs=0.0  Template_Neff=1.000
+
+Q KVEHSD            1 KVEHSD    6 (6)
+Q Consensus         1 kvehsd    6 (6)
+                      +|.|||
+T Consensus        61 rvkhsd   66 (120)
+T 2MBM_A           61 RVKHSD   66 (120)
+T ss_dssp             EECCSC
+T ss_pred             EEeccc
+
+
+No 2
+>6HAS_A Ribulose bisphosphate carboxylase/oxygenase activase; alpha-beta structure, Rubisco, CHAPERONE; 1.38A {Nostoc sp. (strain PCC 7120 / SAG 25.82 / UTEX 2576)}
+Probab=5.60  E-value=6.2e+02  Score=10.26  Aligned_cols=5  Identities=60%  Similarity=0.893  Sum_probs=0.0  Template_Neff=5.500
+
+Q KVEHSD            2 VEHSD    6 (6)
+Q Consensus         2 vehsd    6 (6)
+                      +||.|
+T Consensus        22 iE~ad   26 (90)
+T 6HAS_A           22 FEHVD   26 (90)
+T ss_dssp             EEEEC
+T ss_pred             EEeeC
+
+
+No 3
+>6MR1_A 3-oxoacyl-[acyl-carrier-protein] reductase (E.C.1.1.1.100); carboxysome, RubisCO, CcmM, PROTEIN BINDING; HET: SO4; 1.35A {Thermosynechococcus elongatus (strain BP-1)}
+Probab=5.08  E-value=7e+02  Score=10.29  Aligned_cols=5  Identities=40%  Similarity=0.600  Sum_probs=0.0  Template_Neff=5.300
+
+Q KVEHSD            2 VEHSD    6 (6)
+Q Consensus         2 vehsd    6 (6)
+                      +||.|
+T Consensus        25 iE~ad   29 (96)
+T 6MR1_A           25 LEYAD   29 (96)
+T ss_dssp             EEEEC
+T ss_pred             EEEcC
+
+
+No 4
+>4Z54_B Neuronal-specific septin-3; Septin 3, GTPase, Cytoskeleton, HYDROLASE; HET: GDP; 1.83A {Homo sapiens}
+Probab=4.94  E-value=7.2e+02  Score=10.12  Aligned_cols=4  Identities=25%  Similarity=0.808  Sum_probs=0.0  Template_Neff=9.900
+
+Q KVEHSD            3 EHSD    6 (6)
+Q Consensus         3 ehsd    6 (6)
+                      +|||
+T Consensus       251 ~~~d  254 (287)
+T 4Z54_B          251 NHCE  254 (287)
+T ss_dssp             TTCS
+T ss_pred             CCCc
+
+
+No 5
+>6MR1_B 3-oxoacyl-[acyl-carrier-protein] reductase (E.C.1.1.1.100); carboxysome, RubisCO, CcmM, PROTEIN BINDING; HET: SO4; 1.35A {Thermosynechococcus elongatus (strain BP-1)}
+Probab=4.90  E-value=7.3e+02  Score=10.20  Aligned_cols=5  Identities=40%  Similarity=0.600  Sum_probs=0.0  Template_Neff=5.400
+
+Q KVEHSD            2 VEHSD    6 (6)
+Q Consensus         2 vehsd    6 (6)
+                      +||.|
+T Consensus        25 iE~ad   29 (96)
+T 6MR1_B           25 LEYAD   29 (96)
+T ss_dssp             EEEEC
+T ss_pred             EEEcC
+
+
+No 6
+>6Z1F_J Ribulose bisphosphate carboxylase/oxygenase activase, Ribulose; AAA+, beta barrel, CHAPERONE; HET: ADP, AGS, KCX, CAP, MG; 2.86A {Nostoc sp. (strain PCC 7120 / SAG 25.82 / UTEX 2576)}
+Probab=4.90  E-value=7.3e+02  Score=10.45  Aligned_cols=5  Identities=40%  Similarity=0.700  Sum_probs=0.0  Template_Neff=5.300
+
+Q KVEHSD            2 VEHSD    6 (6)
+Q Consensus         2 vehsd    6 (6)
+                      +||.|
+T Consensus        40 iE~ad   44 (109)
+T 6Z1F_J           40 VEFNE   44 (109)
+T ss_pred             EEecC
+
+
+No 7
+>4JCJ_A Insulin gene enhancer protein ISL-1; Zinc finger, Transcriptional complex, Zinc; HET: ZN; 3.0A {Mus musculus}
+Probab=4.59  E-value=7.9e+02  Score=8.89  Aligned_cols=6  Identities=17%  Similarity=0.650  Sum_probs=0.0  Template_Neff=10.500
+
+Q KVEHSD            1 KVEHSD    6 (6)
+Q Consensus         1 kvehsd    6 (6)
+                      ++|+|+
+T Consensus       167 ~~~~~~  172 (173)
+T 4JCJ_A          167 RLENTQ  172 (173)
+T ss_dssp             EEEC--
+T ss_pred             hhcccC
+
+
+No 8
+>1SVD_M ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (E.C.4.1.1.39); beta-alpha-barrel, LYASE; HET: SO4; 1.8A {Halothiobacillus neapolitanus} SCOP: d.73.1.1
+Probab=4.38  E-value=8.4e+02  Score=10.33  Aligned_cols=5  Identities=40%  Similarity=0.959  Sum_probs=0.0  Template_Neff=5.200
+
+Q KVEHSD            2 VEHSD    6 (6)
+Q Consensus         2 vehsd    6 (6)
+                      +||.|
+T Consensus        43 iE~ad   47 (110)
+T 1SVD_M           43 IEHVE   47 (110)
+T ss_dssp             EEEEC
+T ss_pred             EeecC
+
+
+No 9
+>6HBB_B Carbon dioxide concentrating mechanism protein; alpha-beta structure, Rubisco, Carboxysome, PROTEIN; HET: SO4; 1.2A {Synechococcus elongatus (strain PCC 7942)}
+Probab=4.34  E-value=8.5e+02  Score=9.91  Aligned_cols=5  Identities=60%  Similarity=1.026  Sum_probs=0.0  Template_Neff=5.500
+
+Q KVEHSD            2 VEHSD    6 (6)
+Q Consensus         2 vehsd    6 (6)
+                      +||.|
+T Consensus        24 iE~ad   28 (92)
+T 6HBB_B           24 TEHAD   28 (92)
+T ss_dssp             EEEEC
+T ss_pred             EEecC
+
+
+No 10
+>2LTF_A Tail protein X; LysM, phage tail, VIRAL PROTEIN; NMR {Enterobacteria phage P2}
+Probab=4.15  E-value=9e+02  Score=7.33  Aligned_cols=4  Identities=75%  Similarity=1.182  Sum_probs=0.0  Template_Neff=10.400
+
+Q KVEHSD            1 KVEH    4 (6)
+Q Consensus         1 kveh    4 (6)
+                      ++||
+T Consensus        67 ~~~~   70 (71)
+T 2LTF_A           67 EVEH   70 (71)
+T ss_dssp             CCCC
+T ss_pred             cccC
+
+

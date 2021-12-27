@@ -1,0 +1,148 @@
+Query         LASVYV
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 14:20:20 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LASVYV/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LASVYV/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6FAN_F Uncharacterized protein   5.3 6.6E+02  0.0073    9.5   0.0    6    1-6       3-8   (63)
+  2 4BWO_B F18 FIMBRIAL ADHESIN AC   5.3 6.6E+02  0.0073   12.1   0.0    5    2-6     142-146 (151)
+  3 4W6Y_A Lectin domain of F18 fi   5.3 6.6E+02  0.0073   12.1   0.0    5    2-6     142-146 (151)
+  4 7K34_C Threonine aldolase (E.C   5.3 6.7E+02  0.0074   10.7   0.0    5    1-5     443-447 (452)
+  5 1GUX_B RETINOBLASTOMA PROTEIN,   5.0 7.1E+02  0.0079   10.0   0.0    6    1-6      70-75  (152)
+  6 6ZI0_AAA Endoribonuclease VapD   4.9 7.3E+02  0.0081   10.3   0.0    4    3-6      45-48  (102)
+  7 1SDI_A Hypothetical protein yc   4.7 7.7E+02  0.0085   11.6   0.0    6    1-6     134-139 (213)
+  8 2MQ9_A Eukaryotic peptide chai   4.6   8E+02  0.0088   10.6   0.0    6    1-6      34-39  (142)
+  9 6ZN8_B Virulence-associated pr   4.6   8E+02  0.0088   10.1   0.0    4    3-6      43-46  (100)
+ 10 3AGK_A Peptide chain release f   4.6   8E+02  0.0088   10.6   0.0    6    1-6      34-39  (373)
+
+No 1
+>6FAN_F Uncharacterized protein; Carbon monoxide dehydrogenase, nickel chaperone; HET: GOL, MPD; 2.0A {Carboxydothermus hydrogenoformans (strain ATCC BAA-161 / DSM 6008 / Z-2901)}
+Probab=5.31  E-value=6.6e+02  Score=9.48  Aligned_cols=6  Identities=33%  Similarity=0.562  Sum_probs=0.0  Template_Neff=5.700
+
+Q LASVYV            1 LASVYV    6 (6)
+Q Consensus         1 lasvyv    6 (6)
+                      .++||+
+T Consensus         3 es~vyl    8 (63)
+T 6FAN_F            3 EASAFI    8 (63)
+T ss_dssp             TEEEEE
+T ss_pred             eceEEE
+
+
+No 2
+>4BWO_B F18 FIMBRIAL ADHESIN AC; CELL ADHESION, GLYCAN ARRAY, ENTEROTOXIGENIC; HET: SO4, BR; 1.8A {ESCHERICHIA COLI}
+Probab=5.30  E-value=6.6e+02  Score=12.11  Aligned_cols=5  Identities=80%  Similarity=1.258  Sum_probs=0.0  Template_Neff=1.000
+
+Q LASVYV            2 ASVYV    6 (6)
+Q Consensus         2 asvyv    6 (6)
+                      ||+||
+T Consensus       142 asiyv  146 (151)
+T 4BWO_B          142 ASIYV  146 (151)
+T ss_dssp             EEEEE
+T ss_pred             EEEee
+
+
+No 3
+>4W6Y_A Lectin domain of F18 fimbrial; Adhesin, Fimbriae, cell adhesion, Inhibitor; HET: SO4; 1.57A {Escherichia coli DH5[alpha]}
+Probab=5.30  E-value=6.6e+02  Score=12.11  Aligned_cols=5  Identities=80%  Similarity=1.258  Sum_probs=0.0  Template_Neff=1.000
+
+Q LASVYV            2 ASVYV    6 (6)
+Q Consensus         2 asvyv    6 (6)
+                      ||+||
+T Consensus       142 asiyv  146 (151)
+T 4W6Y_A          142 ASIYV  146 (151)
+T ss_dssp             EEEEE
+T ss_pred             EEEee
+
+
+No 4
+>7K34_C Threonine aldolase (E.C.4.1.2.5); threonine transaldolase, pyridoxal phosphate, PLP; HET: SO4, LLP; 1.66A {Pseudomonas fluorescens}
+Probab=5.25  E-value=6.7e+02  Score=10.74  Aligned_cols=5  Identities=80%  Similarity=1.245  Sum_probs=0.0  Template_Neff=10.400
+
+Q LASVYV            1 LASVY    5 (6)
+Q Consensus         1 lasvy    5 (6)
+                      ||.||
+T Consensus       443 ~~~~~  447 (452)
+T 7K34_C          443 LAAVY  447 (452)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 5
+>1GUX_B RETINOBLASTOMA PROTEIN, ONCOPROTEIN; COMPLEX (TRANSCRIPTION REGULATION-PEPTIDE), TUMOR SUPPRESSOR; 1.85A {Human papillomavirus} SCOP: a.74.1.3
+Probab=5.01  E-value=7.1e+02  Score=9.97  Aligned_cols=6  Identities=33%  Similarity=0.645  Sum_probs=0.0  Template_Neff=7.900
+
+Q LASVYV            1 LASVYV    6 (6)
+Q Consensus         1 lasvyv    6 (6)
+                      .|++|.
+T Consensus        70 aacIY~   75 (152)
+T 1GUX_B           70 MCSMYG   75 (152)
+T ss_pred             HHHHHH
+
+
+No 6
+>6ZI0_AAA Endoribonuclease VapD (E.C.3.1.-.-); Toxin-antitoxin, VapXD, RNase, Nucleic-Acid Binding; 2.5A {Haemophilus influenzae 86-028NP}
+Probab=4.89  E-value=7.3e+02  Score=10.26  Aligned_cols=4  Identities=50%  Similarity=0.982  Sum_probs=0.0  Template_Neff=5.500
+
+Q LASVYV            3 SVYV    6 (6)
+Q Consensus         3 svyv    6 (6)
+                      |||+
+T Consensus        45 SvY~   48 (102)
+T 6ZI0_AAA         45 SLYT   48 (102)
+T ss_pred             ceee
+
+
+No 7
+>1SDI_A Hypothetical protein ycfC; structural genomics, paracytosis, peripheral membrane; 1.65A {Escherichia coli} SCOP: a.198.1.1
+Probab=4.70  E-value=7.7e+02  Score=11.64  Aligned_cols=6  Identities=50%  Similarity=1.143  Sum_probs=0.0  Template_Neff=5.000
+
+Q LASVYV            1 LASVYV    6 (6)
+Q Consensus         1 lasvyv    6 (6)
+                      ||++|.
+T Consensus       134 LA~iY~  139 (213)
+T 1SDI_A          134 MAAIYV  139 (213)
+T ss_dssp             HHHHCC
+T ss_pred             HHHHHH
+
+
+No 8
+>2MQ9_A Eukaryotic peptide chain release factor; Translation Termination, eRF1, RDC, TRANSLATION; NMR {Homo sapiens}
+Probab=4.59  E-value=8e+02  Score=10.56  Aligned_cols=6  Identities=17%  Similarity=0.467  Sum_probs=0.0  Template_Neff=5.900
+
+Q LASVYV            1 LASVYV    6 (6)
+Q Consensus         1 lasvyv    6 (6)
+                      |.|+|+
+T Consensus        34 LiSlyI   39 (142)
+T 2MQ9_A           34 MISLII   39 (142)
+T ss_dssp             CEEEEE
+T ss_pred             ceEEEe
+
+
+No 9
+>6ZN8_B Virulence-associated protein D, VapX; Toxin-antitoxin, VapXD, RNase, Nucleic-Acid Binding; HET: MSE; 3.211A {Haemophilus influenzae (strain 86-028NP)}
+Probab=4.58  E-value=8e+02  Score=10.13  Aligned_cols=4  Identities=50%  Similarity=0.982  Sum_probs=0.0  Template_Neff=5.500
+
+Q LASVYV            3 SVYV    6 (6)
+Q Consensus         3 svyv    6 (6)
+                      |||+
+T Consensus        43 SvY~   46 (100)
+T 6ZN8_B           43 SLYT   46 (100)
+T ss_dssp             TCEE
+T ss_pred             ceee
+
+
+No 10
+>3AGK_A Peptide chain release factor subunit; TRANSLATION; 2.1A {Aeropyrum pernix}
+Probab=4.58  E-value=8e+02  Score=10.62  Aligned_cols=6  Identities=50%  Similarity=0.982  Sum_probs=0.0  Template_Neff=9.500
+
+Q LASVYV            1 LASVYV    6 (6)
+Q Consensus         1 lasvyv    6 (6)
+                      +.|+|+
+T Consensus        34 ~vSlyl   39 (373)
+T 3AGK_A           34 LLSLYI   39 (373)
+T ss_dssp             EEEEEE
+T ss_pred             eEEEEE
+
+

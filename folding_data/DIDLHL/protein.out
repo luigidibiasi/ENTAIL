@@ -1,0 +1,152 @@
+Query         DIDLHL
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 17:23:53 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/DIDLHL/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/DIDLHL/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3WWQ_F Ubiquitin, Fanconi anem  22.8      82 0.00091   12.3   0.0    6    1-6      26-31  (44)
+  2 2MUR_A Fanconi anemia-associat  22.6      83 0.00092   12.3   0.0    6    1-6      26-31  (44)
+  3 4HX0_A Putative nucleotidyltra  19.9   1E+02  0.0011   11.3   0.0    4    1-4      48-51  (163)
+  4 6HSH_A Histone deacetylase (E.  19.8   1E+02  0.0012   15.0   0.0    5    1-5     185-189 (447)
+  5 6J6T_D Histone deacetylase 15   19.1 1.1E+02  0.0012   13.8   0.0    5    1-5     166-170 (364)
+  6 5ZOO_G Histone deacetylase 4 (  19.0 1.1E+02  0.0012   14.1   0.0    5    1-5     188-192 (403)
+  7 2VQJ_A HISTONE DEACETYLASE 4;   19.0 1.1E+02  0.0012   14.2   0.0    5    1-5     194-198 (413)
+  8 2VQM_A HISTONE DEACETYLASE 4;   19.0 1.1E+02  0.0012   14.2   0.0    5    1-5     194-198 (413)
+  9 5WGI_A Hdac6 protein; histone   18.9 1.1E+02  0.0012   13.8   0.0    5    1-5     176-180 (364)
+ 10 5ZMP_A lysine deacylase; lysin  18.8 1.1E+02  0.0013   13.6   0.0    5    1-5     162-166 (307)
+
+No 1
+>3WWQ_F Ubiquitin, Fanconi anemia-associated protein of; protein complex, DNA repair, PROTEIN; 1.9A {Mus musculus}
+Probab=22.83  E-value=82  Score=12.31  Aligned_cols=6  Identities=67%  Similarity=1.132  Sum_probs=3.3  Template_Neff=2.800
+
+Q DIDLHL            1 DIDLHL    6 (6)
+Q Consensus         1 didlhl    6 (6)
+                      |||-||
+T Consensus        26 d~DsHL   31 (44)
+T 3WWQ_F           26 DVDSHL   31 (44)
+T ss_dssp             HHHHHH
+T ss_pred             hhHHHH
+Confidence            456554
+
+
+No 2
+>2MUR_A Fanconi anemia-associated protein of 20; UBZ, FAAP20, zinc-finger, Fanconi Anemia; HET: ZN; NMR {Homo sapiens}
+Probab=22.64  E-value=83  Score=12.29  Aligned_cols=6  Identities=67%  Similarity=1.132  Sum_probs=3.2  Template_Neff=2.800
+
+Q DIDLHL            1 DIDLHL    6 (6)
+Q Consensus         1 didlhl    6 (6)
+                      |||-||
+T Consensus        26 d~DsHl   31 (44)
+T 2MUR_A           26 DVDSHL   31 (44)
+T ss_dssp             HHHHHH
+T ss_pred             hhHHHH
+Confidence            456554
+
+
+No 3
+>4HX0_A Putative nucleotidyltransferase TM1012; putative nucleotidyltransferase, TRANSFERASE; HET: BU1, MPD; 1.87A {Thermotoga maritima}
+Probab=19.86  E-value=1e+02  Score=11.30  Aligned_cols=4  Identities=75%  Similarity=1.348  Sum_probs=0.0  Template_Neff=10.000
+
+Q DIDLHL            1 DIDL    4 (6)
+Q Consensus         1 didl    4 (6)
+                      |||+
+T Consensus        48 DIDi   51 (163)
+T 4HX0_A           48 DIDI   51 (163)
+T ss_dssp             SEEE
+T ss_pred             ceEE
+
+
+No 4
+>6HSH_A Histone deacetylase (E.C.3.5.1.98); Epigenetics, Histone deacetylase, HDAC8, Selective; HET: DMF, GOL, GOK; 1.545A {Schistosoma mansoni}
+Probab=19.80  E-value=1e+02  Score=15.00  Aligned_cols=5  Identities=80%  Similarity=1.478  Sum_probs=0.0  Template_Neff=6.500
+
+Q DIDLHL            1 DIDLH    5 (6)
+Q Consensus         1 didlh    5 (6)
+                      |+|+|
+T Consensus       185 D~DvH  189 (447)
+T 6HSH_A          185 DLDLH  189 (447)
+T ss_dssp             ECSSS
+T ss_pred             ECCCC
+
+
+No 5
+>6J6T_D Histone deacetylase 15 (E.C.3.5.1.98); Histone deacetylase, Arabidopsis, GENE REGULATION; HET: SO4; 2.36A {Arabidopsis thaliana}
+Probab=19.05  E-value=1.1e+02  Score=13.83  Aligned_cols=5  Identities=60%  Similarity=1.026  Sum_probs=0.0  Template_Neff=7.900
+
+Q DIDLHL            1 DIDLH    5 (6)
+Q Consensus         1 didlh    5 (6)
+                      |+|+|
+T Consensus       166 D~D~H  170 (364)
+T 6J6T_D          166 DWDVH  170 (364)
+T ss_dssp             ECSSS
+T ss_pred             ECCCC
+
+
+No 6
+>5ZOO_G Histone deacetylase 4 (E.C.3.5.1.98), SMRT; protein-peptide complex, HYDROLASE; 1.85A {Homo sapiens}
+Probab=19.02  E-value=1.1e+02  Score=14.12  Aligned_cols=5  Identities=60%  Similarity=1.026  Sum_probs=0.0  Template_Neff=7.700
+
+Q DIDLHL            1 DIDLH    5 (6)
+Q Consensus         1 didlh    5 (6)
+                      |+|+|
+T Consensus       188 D~D~H  192 (403)
+T 5ZOO_G          188 DWDVH  192 (403)
+T ss_dssp             ECSSS
+T ss_pred             ECCCC
+
+
+No 7
+>2VQJ_A HISTONE DEACETYLASE 4; INHIBITOR, REPRESSOR, CHROMATIN, HISTONE DEACETYLASE; HET: SO4, TFG; 2.1A {HOMO SAPIENS}
+Probab=18.98  E-value=1.1e+02  Score=14.21  Aligned_cols=5  Identities=60%  Similarity=1.026  Sum_probs=0.0  Template_Neff=7.600
+
+Q DIDLHL            1 DIDLH    5 (6)
+Q Consensus         1 didlh    5 (6)
+                      |+|.|
+T Consensus       194 D~DvH  198 (413)
+T 2VQJ_A          194 DWDVH  198 (413)
+T ss_dssp             ECSSS
+T ss_pred             ECCCC
+
+
+No 8
+>2VQM_A HISTONE DEACETYLASE 4; INHIBITOR, REPRESSOR, CHROMATIN, HISTONE DEACETYLASE; HET: HA3; 1.8A {HOMO SAPIENS}
+Probab=18.98  E-value=1.1e+02  Score=14.21  Aligned_cols=5  Identities=60%  Similarity=1.026  Sum_probs=0.0  Template_Neff=7.600
+
+Q DIDLHL            1 DIDLH    5 (6)
+Q Consensus         1 didlh    5 (6)
+                      |+|.|
+T Consensus       194 D~DvH  198 (413)
+T 2VQM_A          194 DWDVH  198 (413)
+T ss_dssp             ECSSS
+T ss_pred             ECCCC
+
+
+No 9
+>5WGI_A Hdac6 protein; histone deacetylase, hydrolase inhibitor, HYDROLASE-HYDROLASE; HET: GOL, TSN, EDO, PEG; 1.05A {Danio rerio}
+Probab=18.91  E-value=1.1e+02  Score=13.76  Aligned_cols=5  Identities=60%  Similarity=1.026  Sum_probs=0.0  Template_Neff=8.000
+
+Q DIDLHL            1 DIDLH    5 (6)
+Q Consensus         1 didlh    5 (6)
+                      |+|+|
+T Consensus       176 D~D~H  180 (364)
+T 5WGI_A          176 DWDVH  180 (364)
+T ss_dssp             ECSSS
+T ss_pred             EccCC
+
+
+No 10
+>5ZMP_A lysine deacylase; lysine deacylase, HYDROLASE; 2.19A {Synechococcus sp. PCC 73109}
+Probab=18.80  E-value=1.1e+02  Score=13.58  Aligned_cols=5  Identities=60%  Similarity=1.026  Sum_probs=0.0  Template_Neff=7.700
+
+Q DIDLHL            1 DIDLH    5 (6)
+Q Consensus         1 didlh    5 (6)
+                      |+|.|
+T Consensus       162 D~D~H  166 (307)
+T 5ZMP_A          162 DWDVH  166 (307)
+T ss_dssp             ECSSS
+T ss_pred             ECCcC
+
+

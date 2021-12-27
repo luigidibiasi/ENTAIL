@@ -1,0 +1,147 @@
+Query         LATVGV
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 15:32:13 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LATVGV/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LATVGV/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6ZJ3_Lu Ribosomal protein eS1,  20.7      97  0.0011   13.5   0.0    6    1-6       1-6   (139)
+  2 6QPH_2 Chlorophyll a-b binding   6.7 4.9E+02  0.0054   11.3   0.0    6    1-6      54-59  (211)
+  3 6LY5_N FCPI-7, FCPI-1, FCPI-11   6.5 5.1E+02  0.0056   11.3   0.0    6    1-6      55-60  (219)
+  4 4V4T_BD Ribosome; ribosome, tr   6.5 5.1E+02  0.0057   10.9   0.0    6    1-6     129-134 (173)
+  5 4V4P_AD Ribosome; ribosome, mR   6.5 5.1E+02  0.0057   11.0   0.0    6    1-6     129-134 (178)
+  6 3QBR_B SJCHGC06286 protein, Bc   6.5 5.1E+02  0.0057    9.1   0.0    5    1-5      16-20  (34)
+  7 7D0J_7 Chlorophyll a-b binding   6.4 5.2E+02  0.0057   11.2   0.0    6    1-6      53-58  (213)
+  8 6QPH_3 Chlorophyll a-b binding   6.2 5.4E+02   0.006   11.0   0.0    6    1-6      50-55  (210)
+  9 6RHZ_3 Chlorophyll a-b binding   6.2 5.4E+02   0.006   11.0   0.0    6    1-6      50-55  (210)
+ 10 6H62_A Queuine tRNA-ribosyltra   6.2 5.5E+02   0.006   11.5   0.0    6    1-6     395-400 (403)
+
+No 1
+>6ZJ3_Lu Ribosomal protein eS1, Ribosomal protein; Single particle cryo-EM RNA modifications; HET: JMC, B8H, MA6, PSU, B8N, A2M, UR3, 7MG, MIA, 5MC, 6MZ, OMG, OMU, OMC, 1MA, JMH; 3.15A {Euglena gracilis}
+Probab=20.66  E-value=97  Score=13.47  Aligned_cols=6  Identities=67%  Similarity=1.021  Sum_probs=3.9  Template_Neff=5.200
+
+Q LATVGV            1 LATVGV    6 (6)
+Q Consensus         1 latvgv    6 (6)
+                      +|++||
+T Consensus         1 ~~~~~~    6 (139)
+T 6ZJ3_Lu           1 MARVGV    6 (139)
+T ss_pred             CCccCc
+Confidence            467775
+
+
+No 2
+>6QPH_2 Chlorophyll a-b binding protein, chloroplastic; Photosystem I, Dunaliella, Electron Transport; HET: CAC, BCR, LMG, SF4, LHG, XAT, LMT, DGD, CL0, LUT, CHL, PQN, GSH, SQD, CLA; 3.4A {Dunaliella salina}
+Probab=6.72  E-value=4.9e+02  Score=11.30  Aligned_cols=6  Identities=33%  Similarity=0.794  Sum_probs=0.0  Template_Neff=7.200
+
+Q LATVGV            1 LATVGV    6 (6)
+Q Consensus         1 latvgv    6 (6)
+                      ||++|+
+T Consensus        54 LA~vG~   59 (211)
+T 6QPH_2           54 LGVAGI   59 (211)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 3
+>6LY5_N FCPI-7, FCPI-1, FCPI-11, FCPI-6, FCPI-5; diatom, PSI-FCPI, photosysyem, photosynthesis; HET: PQN, LHG, LMT, BCR, CLA, SF4, DGD, A86, LMG, SQD, KC1, DD6; 2.38A {Chaetoceros gracilis}
+Probab=6.50  E-value=5.1e+02  Score=11.31  Aligned_cols=6  Identities=50%  Similarity=0.617  Sum_probs=0.0  Template_Neff=7.200
+
+Q LATVGV            1 LATVGV    6 (6)
+Q Consensus         1 latvgv    6 (6)
+                      ||++|+
+T Consensus        55 LA~~G~   60 (219)
+T 6LY5_N           55 FAFVGY   60 (219)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHhH
+
+
+No 4
+>4V4T_BD Ribosome; ribosome, translation; HET: YYG, PSU; 6.46A {Thermus thermophilus}
+Probab=6.48  E-value=5.1e+02  Score=10.94  Aligned_cols=6  Identities=67%  Similarity=0.601  Sum_probs=0.0  Template_Neff=7.100
+
+Q LATVGV            1 LATVGV    6 (6)
+Q Consensus         1 latvgv    6 (6)
+                      .||+|.
+T Consensus       129 ~AtiG~  134 (173)
+T 4V4T_BD         129 RATVGE  134 (173)
+T ss_pred             cceecc
+
+
+No 5
+>4V4P_AD Ribosome; ribosome, mRNA, translational operator; 5.5A {Thermus thermophilus}
+Probab=6.47  E-value=5.1e+02  Score=11.03  Aligned_cols=6  Identities=67%  Similarity=0.601  Sum_probs=0.0  Template_Neff=7.000
+
+Q LATVGV            1 LATVGV    6 (6)
+Q Consensus         1 latvgv    6 (6)
+                      .||+|+
+T Consensus       129 ~AtiG~  134 (178)
+T 4V4P_AD         129 RATVGE  134 (178)
+T ss_pred             cceecc
+
+
+No 6
+>3QBR_B SJCHGC06286 protein, Bcl-2 homologous antagonist/killer; helical bundle, Bcl-2-like fold, APOPTOSIS; HET: NHE; 2.601A {Schistosoma japonicum}
+Probab=6.47  E-value=5.1e+02  Score=9.11  Aligned_cols=5  Identities=60%  Similarity=1.032  Sum_probs=0.0  Template_Neff=4.600
+
+Q LATVGV            1 LATVG    5 (6)
+Q Consensus         1 latvg    5 (6)
+                      ||.+|
+T Consensus        16 La~IG   20 (34)
+T 3QBR_B           16 LAIIG   20 (34)
+T ss_dssp             HHHHH
+T ss_pred             HHHHh
+
+
+No 7
+>7D0J_7 Chlorophyll a-b binding protein, chloroplastic; PSI-LHCI-LHCII, PHOTOSYNTHESIS; HET: BCR, TPO, LHG, CLA, LMG, SQD, CHL, DGD, SF4, XAT, LUT, PQN, NEX; 3.42A {Chlamydomonas reinhardtii}
+Probab=6.42  E-value=5.2e+02  Score=11.20  Aligned_cols=6  Identities=33%  Similarity=0.828  Sum_probs=0.0  Template_Neff=7.300
+
+Q LATVGV            1 LATVGV    6 (6)
+Q Consensus         1 latvgv    6 (6)
+                      ||++|+
+T Consensus        53 LA~vG~   58 (213)
+T 7D0J_7           53 LGAAGI   58 (213)
+T ss_pred             HHHHHH
+
+
+No 8
+>6QPH_3 Chlorophyll a-b binding protein, chloroplastic; Photosystem I, Dunaliella, Electron Transport; HET: CAC, BCR, LMG, SF4, LHG, XAT, LMT, DGD, CL0, LUT, CHL, PQN, GSH, SQD, CLA; 3.4A {Dunaliella salina}
+Probab=6.22  E-value=5.4e+02  Score=10.99  Aligned_cols=6  Identities=33%  Similarity=0.656  Sum_probs=0.0  Template_Neff=7.600
+
+Q LATVGV            1 LATVGV    6 (6)
+Q Consensus         1 latvgv    6 (6)
+                      ||.+|.
+T Consensus        50 LA~vG~   55 (210)
+T 6QPH_3           50 LGAAGC   55 (210)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 9
+>6RHZ_3 Chlorophyll a-b binding protein, chloroplastic; photosystem I, photosynthesis, green algae; HET: XAT, LHG, BCR, CLA, LUT, CL0, DGD, SF4, PQN, CHL, LMG; 3.2A {Dunaliella salina}
+Probab=6.22  E-value=5.4e+02  Score=10.99  Aligned_cols=6  Identities=33%  Similarity=0.656  Sum_probs=0.0  Template_Neff=7.600
+
+Q LATVGV            1 LATVGV    6 (6)
+Q Consensus         1 latvgv    6 (6)
+                      ||.+|.
+T Consensus        50 LA~vG~   55 (210)
+T 6RHZ_3           50 LGAAGC   55 (210)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 10
+>6H62_A Queuine tRNA-ribosyltransferase catalytic subunit 1; Transferase, Transglycosylase, TIM Barrel; HET: GOL; 2.684A {Mus musculus}
+Probab=6.17  E-value=5.5e+02  Score=11.54  Aligned_cols=6  Identities=67%  Similarity=1.165  Sum_probs=0.0  Template_Neff=8.800
+
+Q LATVGV            1 LATVGV    6 (6)
+Q Consensus         1 latvgv    6 (6)
+                      ||.||+
+T Consensus       395 ~~~~~~  400 (403)
+T 6H62_A          395 LASVGI  400 (403)
+T ss_dssp             HHHTTC
+T ss_pred             HHHCCC
+
+

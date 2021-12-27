@@ -1,0 +1,149 @@
+Query         LATCYV
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 14:26:35 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LATCYV/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LATCYV/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 1QWZ_A NPQTN specific sortase   18.1 1.2E+02  0.0013   12.9   0.0    5    1-5     211-215 (235)
+  2 1N2F_A organic hydroperoxide r  18.1 1.2E+02  0.0013   11.5   0.0    6    1-6      57-62  (142)
+  3 2W1J_A PUTATIVE SORTASE (E.C.2  17.9 1.2E+02  0.0013   12.8   0.0    5    1-5     174-178 (212)
+  4 1T2W_B sortase; Sortase, trans  17.6 1.3E+02  0.0014   11.4   0.0    5    1-5     120-124 (145)
+  5 2L7S_A Adrenomedullin; hormone  17.3 1.3E+02  0.0014   11.8   0.0    6    1-6      18-23  (53)
+  6 6UCK_A Islet amyloid polypepti  17.1 1.3E+02  0.0015   12.2   0.0    6    1-6      15-20  (72)
+  7 3PSQ_A Hypothetical exported p  16.6 1.4E+02  0.0015   12.4   0.0    5    1-5     187-191 (206)
+  8 5UTT_B Sortase; structural gen  16.0 1.5E+02  0.0016   12.2   0.0    5    1-5     146-150 (190)
+  9 6BWE_B Putative fimbrial assoc  16.0 1.5E+02  0.0016   12.6   0.0    5    1-5     186-190 (215)
+ 10 6PWB_DP flagellin B, Flagellar  15.8 1.5E+02  0.0016   14.7   0.0    5    1-5     182-186 (237)
+
+No 1
+>1QWZ_A NPQTN specific sortase B, 2-(TRIMETHYLAMMONIUM)ETHYL; Beta barrel, transpeptidase, HYDROLASE; 1.75A {Staphylococcus aureus} SCOP: b.100.1.1
+Probab=18.13  E-value=1.2e+02  Score=12.85  Aligned_cols=5  Identities=60%  Similarity=1.092  Sum_probs=0.0  Template_Neff=8.000
+
+Q LATCYV            1 LATCY    5 (6)
+Q Consensus         1 latcy    5 (6)
+                      |.||.
+T Consensus       211 L~TC~  215 (235)
+T 1QWZ_A          211 LSTCE  215 (235)
+T ss_dssp             EEECC
+T ss_pred             EEEcc
+
+
+No 2
+>1N2F_A organic hydroperoxide resistance protein; Peroxide reductase, OXIDOREDUCTASE; HET: DTT; 2.01A {Pseudomonas aeruginosa} SCOP: d.227.1.1
+Probab=18.08  E-value=1.2e+02  Score=11.45  Aligned_cols=6  Identities=17%  Similarity=1.187  Sum_probs=0.0  Template_Neff=8.900
+
+Q LATCYV            1 LATCYV    6 (6)
+Q Consensus         1 latcyv    6 (6)
+                      +|.|+.
+T Consensus        57 la~C~~   62 (142)
+T 1N2F_A           57 YSACFI   62 (142)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 3
+>2W1J_A PUTATIVE SORTASE (E.C.2.3.2.12); PATHOGENICITY, TRANSFERASE; HET: GOL; 1.24A {STREPTOCOCCUS PNEUMONIAE}
+Probab=17.93  E-value=1.2e+02  Score=12.79  Aligned_cols=5  Identities=60%  Similarity=0.992  Sum_probs=0.0  Template_Neff=7.700
+
+Q LATCYV            1 LATCY    5 (6)
+Q Consensus         1 latcy    5 (6)
+                      |.||+
+T Consensus       174 LiTC~  178 (212)
+T 2W1J_A          174 LLTCT  178 (212)
+T ss_dssp             EEEEE
+T ss_pred             EEEcc
+
+
+No 4
+>1T2W_B sortase; Sortase, transpeptidase, BETA BARREL, HYDROLASE; 1.8A {Staphylococcus aureus} SCOP: b.100.1.1
+Probab=17.64  E-value=1.3e+02  Score=11.39  Aligned_cols=5  Identities=40%  Similarity=0.228  Sum_probs=0.0  Template_Neff=9.000
+
+Q LATCYV            1 LATCY    5 (6)
+Q Consensus         1 latcy    5 (6)
+                      |.||.
+T Consensus       120 LiTC~  124 (145)
+T 1T2W_B          120 LITAD  124 (145)
+T ss_dssp             EEEEE
+T ss_pred             EEEec
+
+
+No 5
+>2L7S_A Adrenomedullin; hormone, pre-pro-adrenomedullin; NMR {Homo sapiens}
+Probab=17.31  E-value=1.3e+02  Score=11.81  Aligned_cols=6  Identities=50%  Similarity=0.999  Sum_probs=0.0  Template_Neff=3.800
+
+Q LATCYV            1 LATCYV    6 (6)
+Q Consensus         1 latcyv    6 (6)
+                      |.||-|
+T Consensus        18 LgTCqv   23 (53)
+T 2L7S_A           18 FGTCTV   23 (53)
+T ss_dssp             SSSSSH
+T ss_pred             echhHH
+
+
+No 6
+>6UCK_A Islet amyloid polypeptide; membrane-binding, IDP, amyloid, HORMONE; NMR {Homo sapiens}
+Probab=17.11  E-value=1.3e+02  Score=12.20  Aligned_cols=6  Identities=50%  Similarity=0.717  Sum_probs=0.0  Template_Neff=4.300
+
+Q LATCYV            1 LATCYV    6 (6)
+Q Consensus         1 latcyv    6 (6)
+                      |+||-+
+T Consensus        15 laTCv~   20 (72)
+T 6UCK_A           15 TATCAT   20 (72)
+T ss_dssp             SHHHHH
+T ss_pred             ccHHHH
+
+
+No 7
+>3PSQ_A Hypothetical exported protein; Sortase fold, Sortase, pilus assembly; HET: EDO, ACY, ZN; 2.32A {Streptococcus pyogenes}
+Probab=16.61  E-value=1.4e+02  Score=12.39  Aligned_cols=5  Identities=60%  Similarity=1.092  Sum_probs=0.0  Template_Neff=8.100
+
+Q LATCYV            1 LATCY    5 (6)
+Q Consensus         1 latcy    5 (6)
+                      |.||.
+T Consensus       187 L~TC~  191 (206)
+T 3PSQ_A          187 LSTCE  191 (206)
+T ss_dssp             EEEEC
+T ss_pred             EEeee
+
+
+No 8
+>5UTT_B Sortase; structural genomics, Center for Structural; HET: CL; 1.7A {Actinomyces oris}
+Probab=15.96  E-value=1.5e+02  Score=12.17  Aligned_cols=5  Identities=60%  Similarity=1.092  Sum_probs=0.0  Template_Neff=8.100
+
+Q LATCYV            1 LATCY    5 (6)
+Q Consensus         1 latcy    5 (6)
+                      |.||+
+T Consensus       146 LiTC~  150 (190)
+T 5UTT_B          146 LTTCH  150 (190)
+T ss_dssp             EEEEE
+T ss_pred             EEEcc
+
+
+No 9
+>6BWE_B Putative fimbrial associated sortase-like protein; sortase, structural genomics, IDP58949, Center; HET: CSO; 1.85A {Corynebacterium diphtheriae (strain ATCC 700971 / NCTC 13129 / Biotype gravis)}
+Probab=15.96  E-value=1.5e+02  Score=12.64  Aligned_cols=5  Identities=60%  Similarity=1.019  Sum_probs=0.0  Template_Neff=7.600
+
+Q LATCYV            1 LATCY    5 (6)
+Q Consensus         1 latcy    5 (6)
+                      |.||+
+T Consensus       186 LiTC~  190 (215)
+T 6BWE_B          186 LITCT  190 (215)
+T ss_dssp             EEEEE
+T ss_pred             EEECc
+
+
+No 10
+>6PWB_DP flagellin B, Flagellar coiling protein; bacterial flagella, FcpA, FcpB, FlaA; 9.83A {Leptospira biflexa serovar Patoc (strain Patoc 1 / ATCC 23582 / Paris)}
+Probab=15.76  E-value=1.5e+02  Score=14.73  Aligned_cols=5  Identities=60%  Similarity=1.079  Sum_probs=0.0  Template_Neff=3.100
+
+Q LATCYV            1 LATCY    5 (6)
+Q Consensus         1 latcy    5 (6)
+                      ||.||
+T Consensus       182 LA~cY  186 (237)
+T 6PWB_DP         182 LASAY  186 (237)
+T ss_pred             HHHHH
+
+

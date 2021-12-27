@@ -1,0 +1,150 @@
+Query         NFLVH
+Match_columns 5
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 23:46:20 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NFLVH/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NFLVH/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 7AE8_A HEPN toxin; toxin-antit  16.8 1.3E+02  0.0015   10.9   0.0    5    1-5     103-107 (157)
+  2 1YLM_B hypothetical protein BS  16.1 1.4E+02  0.0016   10.6   0.0    5    1-5      97-101 (144)
+  3 7AE6_A HEPN toxin; toxin-antit  15.9 1.5E+02  0.0016   10.8   0.0    5    1-5     103-107 (157)
+  4 6VGW_A VidaL; Intein, split in  15.6 1.5E+02  0.0017   11.2   0.0    5    1-5     137-141 (145)
+  5 6PNJ_W Photosystem I; trimeric  14.5 1.7E+02  0.0019   12.7   0.0    4    1-4      89-92  (101)
+  6 7LX0_X Photosystem I, Photosyn  14.5 1.7E+02  0.0019   12.7   0.0    4    1-4      89-92  (101)
+  7 2YMY_B RAS ASSOCIATION DOMAIN-  14.4 1.7E+02  0.0019   10.8   0.0    3    1-3       7-9   (46)
+  8 2YMY_A RAS ASSOCIATION DOMAIN-  14.1 1.8E+02  0.0019   10.7   0.0    3    1-3       7-9   (46)
+  9 4AM4_B BACTERIOFERRITIN; METAL  13.5 1.9E+02  0.0021    9.8   0.0    5    1-5     148-152 (159)
+ 10 4AM5_A BACTERIOFERRITIN; METAL  13.5 1.9E+02  0.0021    9.8   0.0    5    1-5     148-152 (159)
+
+No 1
+>7AE8_A HEPN toxin; toxin-antitoxin system, MNT-HEPN, AMPylation, TOXIN; HET: ACT; 2.0A {Aphanizomenon flos-aquae 2012/KM1/D3}
+Probab=16.84  E-value=1.3e+02  Score=10.89  Aligned_cols=5  Identities=80%  Similarity=0.933  Sum_probs=0.0  Template_Neff=9.100
+
+Q NFLVH             1 NFLVH    5 (5)
+Q Consensus         1 nflvh    5 (5)
+                      |+++|
+T Consensus       103 N~l~H  107 (157)
+T 7AE8_A          103 NRLVH  107 (157)
+T ss_dssp             HHHHH
+T ss_pred             HHHhc
+
+
+No 2
+>1YLM_B hypothetical protein BSU32300; MCSG, structural genomics, Bacillus subtilis; HET: MSE; 1.83A {Bacillus subtilis subsp. subtilis str. 168}
+Probab=16.13  E-value=1.4e+02  Score=10.57  Aligned_cols=5  Identities=40%  Similarity=0.481  Sum_probs=0.0  Template_Neff=9.300
+
+Q NFLVH             1 NFLVH    5 (5)
+Q Consensus         1 nflvh    5 (5)
+                      |.++|
+T Consensus        97 N~l~H  101 (144)
+T 1YLM_B           97 KTLVQ  101 (144)
+T ss_dssp             HHHHT
+T ss_pred             HHHHh
+
+
+No 3
+>7AE6_A HEPN toxin; toxin-antitoxin system, MNT-HEPN, AMPylation, TOXIN; HET: AMP, EDO; 1.65A {Aphanizomenon flos-aquae 2012/KM1/D3}
+Probab=15.92  E-value=1.5e+02  Score=10.80  Aligned_cols=5  Identities=80%  Similarity=0.933  Sum_probs=0.0  Template_Neff=9.100
+
+Q NFLVH             1 NFLVH    5 (5)
+Q Consensus         1 nflvh    5 (5)
+                      |.++|
+T Consensus       103 N~l~H  107 (157)
+T 7AE6_A          103 NRLVH  107 (157)
+T ss_dssp             HHHTT
+T ss_pred             HHHhh
+
+
+No 4
+>6VGW_A VidaL; Intein, split intein, atypical intein; HET: GOL, MSE; 1.51A {synthetic construct}
+Probab=15.58  E-value=1.5e+02  Score=11.24  Aligned_cols=5  Identities=20%  Similarity=0.547  Sum_probs=0.0  Template_Neff=7.800
+
+Q NFLVH             1 NFLVH    5 (5)
+Q Consensus         1 nflvh    5 (5)
+                      +|+||
+T Consensus       137 gilvH  141 (145)
+T 6VGW_A          137 GIVSH  141 (145)
+T ss_dssp             TEEEE
+T ss_pred             cEEee
+
+
+No 5
+>6PNJ_W Photosystem I; trimeric alpha helical complex, PHOTOSYNTHESIS; HET: LMG, CL0, LMT, CLA, F6C, BCR, SF4, LHG, PQN; 3.2A {Fischerella thermalis PCC 7521}
+Probab=14.51  E-value=1.7e+02  Score=12.69  Aligned_cols=4  Identities=75%  Similarity=1.414  Sum_probs=0.0  Template_Neff=1.700
+
+Q NFLVH             1 NFLV    4 (5)
+Q Consensus         1 nflv    4 (5)
+                      ||||
+T Consensus        89 NFLV   92 (101)
+T 6PNJ_W           89 NFIV   92 (101)
+T ss_dssp             HHHH
+T ss_pred             HHHH
+
+
+No 6
+>7LX0_X Photosystem I, Photosynthesis, Far-red light; HET: SF4, LMT, CL0, LHG, PQN, CLA, LMG, BCR, F6C; 2.96A {Fischerella thermalis PCC 7521}
+Probab=14.51  E-value=1.7e+02  Score=12.69  Aligned_cols=4  Identities=75%  Similarity=1.414  Sum_probs=0.0  Template_Neff=1.700
+
+Q NFLVH             1 NFLV    4 (5)
+Q Consensus         1 nflv    4 (5)
+                      ||||
+T Consensus        89 NFLV   92 (101)
+T 7LX0_X           89 NFIV   92 (101)
+T ss_dssp             HHHH
+T ss_pred             HHHH
+
+
+No 7
+>2YMY_B RAS ASSOCIATION DOMAIN-CONTAINING PROTEIN 5; APOPTOSIS, TUMOR SUPPRESSOR, COILED-COIL, RAS; 1.69A {MUS MUSCULUS}
+Probab=14.37  E-value=1.7e+02  Score=10.76  Aligned_cols=3  Identities=100%  Similarity=1.641  Sum_probs=0.0  Template_Neff=3.700
+
+Q NFLVH             1 NFL    3 (5)
+Q Consensus         1 nfl    3 (5)
+                      |||
+T Consensus         7 NFL    9 (46)
+T 2YMY_B            7 NFL    9 (46)
+T ss_dssp             HHH
+T ss_pred             HHH
+
+
+No 8
+>2YMY_A RAS ASSOCIATION DOMAIN-CONTAINING PROTEIN 5; APOPTOSIS, TUMOR SUPPRESSOR, COILED-COIL, RAS; 1.69A {MUS MUSCULUS}
+Probab=14.11  E-value=1.8e+02  Score=10.66  Aligned_cols=3  Identities=100%  Similarity=1.641  Sum_probs=0.0  Template_Neff=3.900
+
+Q NFLVH             1 NFL    3 (5)
+Q Consensus         1 nfl    3 (5)
+                      |||
+T Consensus         7 NFL    9 (46)
+T 2YMY_A            7 NFL    9 (46)
+T ss_dssp             HHH
+T ss_pred             HHH
+
+
+No 9
+>4AM4_B BACTERIOFERRITIN; METAL BINDING PROTEIN, FERROXIDASE CENTRE; HET: HEM; 1.68A {BLASTOCHLORIS VIRIDIS}
+Probab=13.50  E-value=1.9e+02  Score=9.77  Aligned_cols=5  Identities=20%  Similarity=0.361  Sum_probs=0.0  Template_Neff=10.700
+
+Q NFLVH             1 NFLVH    5 (5)
+Q Consensus         1 nflvh    5 (5)
+                      ||++|
+T Consensus       148 ~~~~~  152 (159)
+T 4AM4_B          148 LYAQH  152 (159)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 10
+>4AM5_A BACTERIOFERRITIN; METAL BINDING PROTEIN, FERROXIDASE CENTRE; HET: HEM; 1.58A {BLASTOCHLORIS VIRIDIS}
+Probab=13.50  E-value=1.9e+02  Score=9.77  Aligned_cols=5  Identities=20%  Similarity=0.361  Sum_probs=0.0  Template_Neff=10.700
+
+Q NFLVH             1 NFLVH    5 (5)
+Q Consensus         1 nflvh    5 (5)
+                      ||++|
+T Consensus       148 ~~~~~  152 (159)
+T 4AM5_A          148 LYAQH  152 (159)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+

@@ -1,0 +1,151 @@
+Query         HTVIIE
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 07:17:55 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/HTVIIE/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/HTVIIE/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6J07_B Telomere repeats-bindin  13.4 1.9E+02  0.0021   11.7   0.0    6    1-6      32-37  (60)
+  2 1VKM_C conserved hypothetical   11.1 2.5E+02  0.0027   13.8   0.0    6    1-6      11-16  (297)
+  3 3IXS_H E3 ubiquitin-protein li   9.6   3E+02  0.0034   10.5   0.0    4    2-5      25-28  (37)
+  4 2V6C_A PROLIFERATION-ASSOCIATE   9.1 3.3E+02  0.0036   12.0   0.0    5    1-5     314-318 (353)
+  5 6K5Z_B Galactose-1-phosphate u   9.0 3.3E+02  0.0036   11.6   0.0    6    1-6      77-82  (318)
+  6 6P7B_B Holliday junction resol   8.9 3.3E+02  0.0037   10.0   0.0    6    1-6      55-60  (149)
+  7 4XB6_F PhnG, PhnH, PhnI, PhnJ;   8.9 3.4E+02  0.0037   12.0   0.0    5    2-6     122-126 (194)
+  8 5X4R_A S protein; MERS-CoV, sp   8.5 3.6E+02   0.004   13.8   0.0    6    1-6     150-155 (342)
+  9 6P7A_A Holliday junction resol   8.3 3.7E+02  0.0041    9.9   0.0    6    1-6      55-60  (148)
+ 10 4XB6_B PhnG, PhnH, PhnI, PhnJ;   7.7 4.1E+02  0.0045   11.8   0.0    5    2-6     122-126 (194)
+
+No 1
+>6J07_B Telomere repeats-binding bouquet formation protein; telomere, meiosis, protein-protein complex, nuclear; 3.298A {Homo sapiens}
+Probab=13.37  E-value=1.9e+02  Score=11.73  Aligned_cols=6  Identities=67%  Similarity=1.121  Sum_probs=2.7  Template_Neff=3.400
+
+Q HTVIIE            1 HTVIIE    6 (6)
+Q Consensus         1 htviie    6 (6)
+                      |.||.|
+T Consensus        32 H~vilE   37 (60)
+T 6J07_B           32 HKVIVE   37 (60)
+T ss_pred             HHHHHH
+Confidence            445543
+
+
+No 2
+>1VKM_C conserved hypothetical protein possibly involved; Indigoidine synthase a-like fold, structural; HET: UNL, MN, MSE, EDO; 1.9A {Thermotoga maritima} SCOP: c.138.1.1
+Probab=11.08  E-value=2.5e+02  Score=13.83  Aligned_cols=6  Identities=83%  Similarity=1.149  Sum_probs=3.1  Template_Neff=4.800
+
+Q HTVIIE            1 HTVIIE    6 (6)
+Q Consensus         1 htviie    6 (6)
+                      |.||||
+T Consensus        11 ~~~~~~   16 (297)
+T 1VKM_C           11 HHVIIE   16 (297)
+T ss_dssp             SSCCEE
+T ss_pred             cccHHH
+Confidence            345654
+
+
+No 3
+>3IXS_H E3 ubiquitin-protein ligase RING2 (E.C.6.3.2.-); RING1B, RYBP, polycomb, e3-ligase, chromosomal; HET: NHE, EDO; 1.7A {Homo sapiens}
+Probab=9.57  E-value=3e+02  Score=10.54  Aligned_cols=4  Identities=100%  Similarity=1.157  Sum_probs=0.0  Template_Neff=2.400
+
+Q HTVIIE            2 TVII    5 (6)
+Q Consensus         2 tvii    5 (6)
+                      ||||
+T Consensus        25 TViI   28 (37)
+T 3IXS_H           25 TVII   28 (37)
+T ss_dssp             EEEE
+T ss_pred             EEEE
+
+
+No 4
+>2V6C_A PROLIFERATION-ASSOCIATED PROTEIN 2G4; TRANSLATION REGULATION, TRANSLATIONAL REGULATOR, RNA-BINDING; 2.5A {MUS MUSCULUS}
+Probab=9.06  E-value=3.3e+02  Score=11.95  Aligned_cols=5  Identities=40%  Similarity=0.760  Sum_probs=0.0  Template_Neff=8.800
+
+Q HTVIIE            1 HTVII    5 (6)
+Q Consensus         1 htvii    5 (6)
+                      |||+|
+T Consensus       314 ~Tv~v  318 (353)
+T 2V6C_A          314 FTVLL  318 (353)
+T ss_dssp             EEEEE
+T ss_pred             EEEEE
+
+
+No 5
+>6K5Z_B Galactose-1-phosphate uridylyltransferase; half-barrel, TRANSFERASE; HET: PO4; 2.33A {Pyrobaculum aerophilum str. IM2}
+Probab=9.04  E-value=3.3e+02  Score=11.62  Aligned_cols=6  Identities=33%  Similarity=0.650  Sum_probs=0.0  Template_Neff=9.100
+
+Q HTVIIE            1 HTVIIE    6 (6)
+Q Consensus         1 htviie    6 (6)
+                      |.|||+
+T Consensus        77 h~vii~   82 (318)
+T 6K5Z_B           77 SLVVVE   82 (318)
+T ss_dssp             EEEEEC
+T ss_pred             eEEEEe
+
+
+No 6
+>6P7B_B Holliday junction resolvase/DNA complex; resolvase-DNA complex, HYDROLASE-DNA complex, TRANSCRIPTION; 3.317A {Fowlpox virus}
+Probab=8.94  E-value=3.3e+02  Score=10.03  Aligned_cols=6  Identities=50%  Similarity=0.789  Sum_probs=0.0  Template_Neff=9.600
+
+Q HTVIIE            1 HTVIIE    6 (6)
+Q Consensus         1 htviie    6 (6)
+                      +.|+||
+T Consensus        55 ~~vviE   60 (149)
+T 6P7B_B           55 DVVILE   60 (149)
+T ss_dssp             SEEEEE
+T ss_pred             CEEEEe
+
+
+No 7
+>4XB6_F PhnG, PhnH, PhnI, PhnJ; protein complex, transferase; HET: CME, SO4; 1.7A {Escherichia coli str. K-12 substr. MG1655}
+Probab=8.90  E-value=3.4e+02  Score=11.97  Aligned_cols=5  Identities=40%  Similarity=0.853  Sum_probs=0.0  Template_Neff=6.400
+
+Q HTVIIE            2 TVIIE    6 (6)
+Q Consensus         2 tviie    6 (6)
+                      |+|||
+T Consensus       122 TlIi~  126 (194)
+T 4XB6_F          122 TLILQ  126 (194)
+T ss_dssp             EEEEE
+T ss_pred             EEEEE
+
+
+No 8
+>5X4R_A S protein; MERS-CoV, spike, N-terminal domain, VIRAL; HET: NAG; 1.5A {Middle East respiratory syndrome coronavirus}
+Probab=8.51  E-value=3.6e+02  Score=13.82  Aligned_cols=6  Identities=33%  Similarity=0.744  Sum_probs=0.0  Template_Neff=4.200
+
+Q HTVIIE            1 HTVIIE    6 (6)
+Q Consensus         1 htviie    6 (6)
+                      |++||+
+T Consensus       150 ~tlvI~  155 (342)
+T 5X4R_A          150 HTLVLL  155 (342)
+T ss_dssp             EEEEEE
+T ss_pred             eEEEEe
+
+
+No 9
+>6P7A_A Holliday junction resolvase (E.C.3.1.-.-); RESOLVASE, HYDROLASE; 3.081A {Fowlpox virus}
+Probab=8.34  E-value=3.7e+02  Score=9.91  Aligned_cols=6  Identities=50%  Similarity=0.789  Sum_probs=0.0  Template_Neff=9.600
+
+Q HTVIIE            1 HTVIIE    6 (6)
+Q Consensus         1 htviie    6 (6)
+                      ..|+||
+T Consensus        55 d~vviE   60 (148)
+T 6P7A_A           55 DVVILE   60 (148)
+T ss_dssp             SEEEEE
+T ss_pred             CEEEEe
+
+
+No 10
+>4XB6_B PhnG, PhnH, PhnI, PhnJ; protein complex, transferase; HET: SO4, CME; 1.7A {Escherichia coli str. K-12 substr. MG1655}
+Probab=7.73  E-value=4.1e+02  Score=11.78  Aligned_cols=5  Identities=40%  Similarity=0.853  Sum_probs=0.0  Template_Neff=6.300
+
+Q HTVIIE            2 TVIIE    6 (6)
+Q Consensus         2 tviie    6 (6)
+                      |+|||
+T Consensus       122 TlIi~  126 (194)
+T 4XB6_B          122 TLILQ  126 (194)
+T ss_dssp             EEEEE
+T ss_pred             EEEEE
+
+

@@ -1,0 +1,154 @@
+Query         QLFINN
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 08:32:16 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QLFINN/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QLFINN/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4IRV_D Cytotoxicity-associated  38.1      30 0.00033   17.1   0.0    6    1-6      10-15  (221)
+  2 4B6X_A AVIRULENCE PROTEIN; TOX  24.4      73 0.00081   14.1   0.0    6    1-6      35-40  (90)
+  3 4S3H_A Mdb1; Mdb1, forkhead-as  19.0 1.1E+02  0.0012   14.2   0.0    6    1-6      66-71  (126)
+  4 4S3H_C Mdb1; Mdb1, forkhead-as  19.0 1.1E+02  0.0012   14.2   0.0    6    1-6      66-71  (126)
+  5 4DVY_P Cytotoxicity-associated  16.0 1.4E+02  0.0016   17.4   0.0    6    1-6      24-29  (876)
+  6 6OJ7_A Fusion glycoprotein F0;  16.0 1.5E+02  0.0016   11.4   0.0    6    1-6      39-44  (53)
+  7 1YOD_A water-solublized phosph  15.6 1.5E+02  0.0017   11.1   0.0    4    2-5      10-13  (30)
+  8 1YOD_B water-solublized phosph  15.3 1.6E+02  0.0017   11.0   0.0    4    2-5      10-13  (30)
+  9 4CV4_A PIH1 DOMAIN-CONTAINING   15.1 1.6E+02  0.0018   11.5   0.0    4    2-5      19-22  (133)
+ 10 2FYZ_E Fusion glycoprotein F0;  14.9 1.6E+02  0.0018   11.7   0.0    6    1-6      51-56  (63)
+
+No 1
+>4IRV_D Cytotoxicity-associated immunodominant antigen, Apoptosis-stimulating of; Virulence factor and tumor suppressor; 2.04A {Helicobacter pylori}
+Probab=38.07  E-value=30  Score=17.06  Aligned_cols=6  Identities=83%  Similarity=1.093  Sum_probs=4.5  Template_Neff=2.100
+
+Q QLFINN            1 QLFINN    6 (6)
+Q Consensus         1 qlfinn    6 (6)
+                      |+||||
+T Consensus        10 q~~inn   15 (221)
+T 4IRV_D           10 QQFINN   15 (221)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHhH
+Confidence            578886
+
+
+No 2
+>4B6X_A AVIRULENCE PROTEIN; TOXIN, TYPE 3 SECRETED EFFECTOR; 2.2A {PSEUDOMONAS SYRINGAE PV. PISI}
+Probab=24.42  E-value=73  Score=14.13  Aligned_cols=6  Identities=67%  Similarity=1.055  Sum_probs=3.2  Template_Neff=1.700
+
+Q QLFINN            1 QLFINN    6 (6)
+Q Consensus         1 qlfinn    6 (6)
+                      |+|||+
+T Consensus        35 Q~~i~~   40 (90)
+T 4B6X_A           35 QLMVNN   40 (90)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            456653
+
+
+No 3
+>4S3H_A Mdb1; Mdb1, forkhead-associated domain (FHA domain); HET: SO4; 2.701A {Schizosaccharomyces pombe 972h-}
+Probab=18.97  E-value=1.1e+02  Score=14.20  Aligned_cols=6  Identities=83%  Similarity=1.209  Sum_probs=2.8  Template_Neff=1.900
+
+Q QLFINN            1 QLFINN    6 (6)
+Q Consensus         1 qlfinn    6 (6)
+                      |+|+.|
+T Consensus        66 QvF~RN   71 (126)
+T 4S3H_A           66 QLFIRN   71 (126)
+T ss_dssp             EEEEEE
+T ss_pred             cEEEEE
+Confidence            455443
+
+
+No 4
+>4S3H_C Mdb1; Mdb1, forkhead-associated domain (FHA domain); HET: SO4; 2.701A {Schizosaccharomyces pombe 972h-}
+Probab=18.97  E-value=1.1e+02  Score=14.20  Aligned_cols=6  Identities=83%  Similarity=1.209  Sum_probs=2.8  Template_Neff=1.900
+
+Q QLFINN            1 QLFINN    6 (6)
+Q Consensus         1 qlfinn    6 (6)
+                      |+|+.|
+T Consensus        66 QvF~RN   71 (126)
+T 4S3H_C           66 QLFIRN   71 (126)
+T ss_dssp             EEEEEE
+T ss_pred             cEEEEE
+Confidence            455443
+
+
+No 5
+>4DVY_P Cytotoxicity-associated immunodominant antigen; oncoprotein; 3.3A {Helicobacter pylori}
+Probab=16.04  E-value=1.4e+02  Score=17.41  Aligned_cols=6  Identities=83%  Similarity=1.093  Sum_probs=4.4  Template_Neff=2.000
+
+Q QLFINN            1 QLFINN    6 (6)
+Q Consensus         1 qlfinn    6 (6)
+                      |.||||
+T Consensus        24 q~finn   29 (876)
+T 4DVY_P           24 QQFINN   29 (876)
+T ss_pred             HHHHhH
+Confidence            578876
+
+
+No 6
+>6OJ7_A Fusion glycoprotein F0; Fusion protein, fusion inhibitor, six-helix; 1.45A {N/A}
+Probab=15.98  E-value=1.5e+02  Score=11.40  Aligned_cols=6  Identities=17%  Similarity=0.589  Sum_probs=0.0  Template_Neff=4.500
+
+Q QLFINN            1 QLFINN    6 (6)
+Q Consensus         1 qlfinn    6 (6)
+                      |-|||+
+T Consensus        39 Qd~IN~   44 (53)
+T 6OJ7_A           39 KNYIDK   44 (53)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHhh
+
+
+No 7
+>1YOD_A water-solublized phospholamban; protein design, water-soluble, DE NOVO; 1.8A {N/A}
+Probab=15.56  E-value=1.5e+02  Score=11.09  Aligned_cols=4  Identities=75%  Similarity=1.406  Sum_probs=0.0  Template_Neff=1.600
+
+Q QLFINN            2 LFIN    5 (6)
+Q Consensus         2 lfin    5 (6)
+                      ||||
+T Consensus        10 LfiN   13 (30)
+T 1YOD_A           10 LYIN   13 (30)
+T ss_dssp             HHHH
+T ss_pred             HHHH
+
+
+No 8
+>1YOD_B water-solublized phospholamban; protein design, water-soluble, DE NOVO; HET: MSE; 1.8A {N/A}
+Probab=15.28  E-value=1.6e+02  Score=11.05  Aligned_cols=4  Identities=75%  Similarity=1.406  Sum_probs=0.0  Template_Neff=1.700
+
+Q QLFINN            2 LFIN    5 (6)
+Q Consensus         2 lfin    5 (6)
+                      ||||
+T Consensus        10 LfiN   13 (30)
+T 1YOD_B           10 LYIN   13 (30)
+T ss_dssp             HHHH
+T ss_pred             HHHH
+
+
+No 9
+>4CV4_A PIH1 DOMAIN-CONTAINING PROTEIN 1; CHAPERONE, PHOSPHORYLATION; HET: SO4; 1.902A {MUS MUSCULUS}
+Probab=15.13  E-value=1.6e+02  Score=11.46  Aligned_cols=4  Identities=75%  Similarity=1.381  Sum_probs=0.0  Template_Neff=8.000
+
+Q QLFINN            2 LFIN    5 (6)
+Q Consensus         2 lfin    5 (6)
+                      +|||
+T Consensus        19 ~fIN   22 (133)
+T 4CV4_A           19 VFIN   22 (133)
+T ss_dssp             EEEE
+T ss_pred             EEEE
+
+
+No 10
+>2FYZ_E Fusion glycoprotein F0; Mumps virus fusion protein core; 2.2A {Mumps virus}
+Probab=14.85  E-value=1.6e+02  Score=11.72  Aligned_cols=6  Identities=50%  Similarity=0.384  Sum_probs=0.0  Template_Neff=4.200
+
+Q QLFINN            1 QLFINN    6 (6)
+Q Consensus         1 qlfinn    6 (6)
+                      |-|||+
+T Consensus        51 Qd~IN~   56 (63)
+T 2FYZ_E           51 QDHINT   56 (63)
+T ss_dssp             HHHHTT
+T ss_pred             HHHHHH
+
+

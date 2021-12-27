@@ -1,0 +1,149 @@
+Query         IINFEQ
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 08:20:37 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/IINFEQ/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/IINFEQ/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5J0C_B Superoxide dismutase [C  13.1   2E+02  0.0022   11.4   0.0    6    1-6     106-111 (114)
+  2 2JRF_A Tubulin polymerization-  12.7   2E+02  0.0023   12.6   0.0    5    2-6      70-74  (184)
+  3 4CFP_A MEMBRANE-BOUND LYTIC MU  12.0 2.2E+02  0.0025   13.1   0.0    6    1-6      59-64  (341)
+  4 4CHX_A MEMBRANE-BOUND LYTIC MU  12.0 2.2E+02  0.0025   13.1   0.0    6    1-6      59-64  (341)
+  5 2DCE_A KIAA1915 protein; SWIRM  11.7 2.3E+02  0.0026   11.1   0.0    4    1-4      99-102 (111)
+  6 6E1F_B Lysine-specific histone  11.6 2.3E+02  0.0026   10.5   0.0    4    1-4      83-86  (89)
+  7 4C5F_B MEMBRANE-BOUND LYTIC MU  11.3 2.4E+02  0.0027   13.0   0.0    6    1-6      59-64  (341)
+  8 3MNP_A Glucocorticoid receptor  11.2 2.5E+02  0.0027   11.2   0.0    5    2-6     256-260 (261)
+  9 2L3D_A Lysine-specific histone   9.7   3E+02  0.0033   10.5   0.0    4    1-4      90-93  (102)
+ 10 1K8B_A PROBABLE TRANSLATION IN   9.4 3.1E+02  0.0035    9.6   0.0    6    1-6      11-16  (52)
+
+No 1
+>5J0C_B Superoxide dismutase [Cu-Zn],Superoxide dismutase [Cu-Zn],OXIDOREDUCTASE,Superoxide; SOD1, OXIDOREDUCTASE; 1.6A {Homo sapiens}
+Probab=13.12  E-value=2e+02  Score=11.41  Aligned_cols=6  Identities=100%  Similarity=1.392  Sum_probs=0.0  Template_Neff=7.000
+
+Q IINFEQ            1 IINFEQ    6 (6)
+Q Consensus         1 iinfeq    6 (6)
+                      .|.|+|
+T Consensus       106 ~i~~~Q  111 (114)
+T 5J0C_B          106 IINFEQ  111 (114)
+T ss_dssp             EEEEEE
+T ss_pred             EEEEEE
+
+
+No 2
+>2JRF_A Tubulin polymerization-promoting protein family member; solution NMR structure, Structural Genomics; NMR {Homo sapiens}
+Probab=12.69  E-value=2e+02  Score=12.55  Aligned_cols=5  Identities=60%  Similarity=1.212  Sum_probs=0.0  Template_Neff=6.300
+
+Q IINFEQ            2 INFEQ    6 (6)
+Q Consensus         2 infeq    6 (6)
+                      |+|+|
+T Consensus        70 I~f~~   74 (184)
+T 2JRF_A           70 INYEE   74 (184)
+T ss_dssp             EEHHH
+T ss_pred             CCHHH
+
+
+No 3
+>4CFP_A MEMBRANE-BOUND LYTIC MUREIN TRANSGLYCOSYLASE C; LYASE; HET: AMV, CIT, AMU, NAG, P6G; 2.15A {ESCHERICHIA COLI}
+Probab=11.99  E-value=2.2e+02  Score=13.06  Aligned_cols=6  Identities=50%  Similarity=0.900  Sum_probs=0.0  Template_Neff=7.400
+
+Q IINFEQ            1 IINFEQ    6 (6)
+Q Consensus         1 iinfeq    6 (6)
+                      +|+||.
+T Consensus        59 ~vdf~~   64 (341)
+T 4CFP_A           59 HINFDD   64 (341)
+T ss_dssp             EEETTT
+T ss_pred             EEECCC
+
+
+No 4
+>4CHX_A MEMBRANE-BOUND LYTIC MUREIN TRANSGLYCOSYLASE C; LYASE; HET: API, AH0, DAL, NAG; 2.45A {SYNTHETIC CONSTRUCT}
+Probab=11.99  E-value=2.2e+02  Score=13.06  Aligned_cols=6  Identities=50%  Similarity=0.900  Sum_probs=0.0  Template_Neff=7.400
+
+Q IINFEQ            1 IINFEQ    6 (6)
+Q Consensus         1 iinfeq    6 (6)
+                      +|+||.
+T Consensus        59 ~vdf~~   64 (341)
+T 4CHX_A           59 HINFDD   64 (341)
+T ss_dssp             EEETTT
+T ss_pred             EEECCC
+
+
+No 5
+>2DCE_A KIAA1915 protein; SWIRM domain, KIAA1915, structural genomics; NMR {Homo sapiens}
+Probab=11.65  E-value=2.3e+02  Score=11.11  Aligned_cols=4  Identities=75%  Similarity=1.165  Sum_probs=0.0  Template_Neff=7.100
+
+Q IINFEQ            1 IINF    4 (6)
+Q Consensus         1 iinf    4 (6)
+                      +|||
+T Consensus        99 ~IN~  102 (111)
+T 2DCE_A           99 AINF  102 (111)
+T ss_dssp             SSSC
+T ss_pred             CCcc
+
+
+No 6
+>6E1F_B Lysine-specific histone demethylase 1A (E.C.1.-.-.-); Histone lysine specific demethylase, SWIRM; HET: SO4; 1.16A {Homo sapiens}
+Probab=11.57  E-value=2.3e+02  Score=10.52  Aligned_cols=4  Identities=75%  Similarity=1.464  Sum_probs=0.0  Template_Neff=7.500
+
+Q IINFEQ            1 IINF    4 (6)
+Q Consensus         1 iinf    4 (6)
+                      +|||
+T Consensus        83 ~IN~   86 (89)
+T 6E1F_B           83 LINF   86 (89)
+T ss_dssp             SSGG
+T ss_pred             Ccce
+
+
+No 7
+>4C5F_B MEMBRANE-BOUND LYTIC MUREIN TRANSGLYCOSYLASE C; LYASE; 2.34A {ESCHERICHIA COLI}
+Probab=11.31  E-value=2.4e+02  Score=13.00  Aligned_cols=6  Identities=50%  Similarity=0.900  Sum_probs=0.0  Template_Neff=7.300
+
+Q IINFEQ            1 IINFEQ    6 (6)
+Q Consensus         1 iinfeq    6 (6)
+                      +|+||.
+T Consensus        59 ~vdf~~   64 (341)
+T 4C5F_B           59 HINFDD   64 (341)
+T ss_dssp             EEETTT
+T ss_pred             EEEcCC
+
+
+No 8
+>3MNP_A Glucocorticoid receptor, Nuclear receptor coactivator; protein-ligand complex, steroid nuclear receptor; HET: DEX, GOL; 1.5A {Mus musculus}
+Probab=11.18  E-value=2.5e+02  Score=11.22  Aligned_cols=5  Identities=40%  Similarity=0.660  Sum_probs=0.0  Template_Neff=9.900
+
+Q IINFEQ            2 INFEQ    6 (6)
+Q Consensus         2 infeq    6 (6)
+                      .+|+|
+T Consensus       256 ~~~~~  260 (261)
+T 3MNP_A          256 LLFHQ  260 (261)
+T ss_dssp             CCSCC
+T ss_pred             ccccC
+
+
+No 9
+>2L3D_A Lysine-specific histone demethylase 1A; LSD1, SWIRM, Transcription; NMR {Homo sapiens}
+Probab=9.72  E-value=3e+02  Score=10.48  Aligned_cols=4  Identities=75%  Similarity=1.464  Sum_probs=0.0  Template_Neff=7.500
+
+Q IINFEQ            1 IINF    4 (6)
+Q Consensus         1 iinf    4 (6)
+                      +|||
+T Consensus        90 ~IN~   93 (102)
+T 2L3D_A           90 LINF   93 (102)
+T ss_pred             CCcc
+
+
+No 10
+>1K8B_A PROBABLE TRANSLATION INITIATION FACTOR 2; N-terminal domain, aIF2 subunit beta; NMR {Methanocaldococcus jannaschii} SCOP: d.241.1.1
+Probab=9.38  E-value=3.1e+02  Score=9.57  Aligned_cols=6  Identities=50%  Similarity=0.805  Sum_probs=0.0  Template_Neff=6.700
+
+Q IINFEQ            1 IINFEQ    6 (6)
+Q Consensus         1 iinfeq    6 (6)
+                      +.||.+
+T Consensus        11 ~~Nf~~   16 (52)
+T 1K8B_A           11 IRNFRE   16 (52)
+T ss_dssp             ECCHHH
+T ss_pred             EecHHH
+
+

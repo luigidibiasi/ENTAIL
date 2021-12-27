@@ -1,0 +1,149 @@
+Query         KLLEIA
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 11:22:07 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/KLLEIA/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/KLLEIA/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6GZA_B Capsid protein; capsid,  16.9 1.3E+02  0.0015   12.2   0.0    6    1-6      76-81  (87)
+  2 3ERM_C uncharacterized conserv  13.1   2E+02  0.0022   12.3   0.0    6    1-6      31-36  (91)
+  3 2LN3_A DE NOVO DESIGNED PROTEI  12.8   2E+02  0.0022   12.7   0.0    5    2-6      15-19  (83)
+  4 3ERM_A uncharacterized conserv  12.3 2.1E+02  0.0024   12.2   0.0    6    1-6      31-36  (91)
+  5 5TVF_F S-adenosylmethionine de  12.3 2.1E+02  0.0024   13.8   0.0    5    1-5      39-43  (325)
+  6 5TVM_F S-adenosylmethionine de  12.3 2.1E+02  0.0024   13.8   0.0    5    1-5      39-43  (325)
+  7 2P5T_A fragment of PezA helix-  11.9 2.2E+02  0.0025   10.8   0.0    6    1-6     147-152 (158)
+  8 5HML_B Exodeoxyribonuclease (E  11.8 2.3E+02  0.0025   11.8   0.0    6    1-6     265-270 (272)
+  9 5HNK_B Exodeoxyribonuclease/DN  11.8 2.3E+02  0.0025   11.8   0.0    6    1-6     265-270 (272)
+ 10 7B2F_A Peptide synthetase XpsB  11.4 2.4E+02  0.0026   10.7   0.0    6    1-6      16-21  (31)
+
+No 1
+>6GZA_B Capsid protein; capsid, dimer, cobalt, VIRAL PROTEIN; 1.89A {Murine leukemia virus}
+Probab=16.89  E-value=1.3e+02  Score=12.21  Aligned_cols=6  Identities=33%  Similarity=0.357  Sum_probs=0.0  Template_Neff=5.100
+
+Q KLLEIA            1 KLLEIA    6 (6)
+Q Consensus         1 klleia    6 (6)
+                      +|+++|
+T Consensus        76 ~Ll~~A   81 (87)
+T 6GZA_B           76 DLVREA   81 (87)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 2
+>3ERM_C uncharacterized conserved protein; APC85034, PPSPTO1197, seudomonas syringae pv.; HET: MSE; 2.45A {Pseudomonas syringae pv. tomato}
+Probab=13.05  E-value=2e+02  Score=12.33  Aligned_cols=6  Identities=50%  Similarity=0.949  Sum_probs=0.0  Template_Neff=3.800
+
+Q KLLEIA            1 KLLEIA    6 (6)
+Q Consensus         1 klleia    6 (6)
+                      |+||+|
+T Consensus        31 KMLdlA   36 (91)
+T 3ERM_C           31 QMLELA   36 (91)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 3
+>2LN3_A DE NOVO DESIGNED PROTEIN OR135; Structural Genomics, NORTHEAST STRUCTURAL GENOMICS; NMR {artificial gene}
+Probab=12.78  E-value=2e+02  Score=12.66  Aligned_cols=5  Identities=100%  Similarity=1.198  Sum_probs=0.0  Template_Neff=1.000
+
+Q KLLEIA            2 LLEIA    6 (6)
+Q Consensus         2 lleia    6 (6)
+                      |||||
+T Consensus        15 lleia   19 (83)
+T 2LN3_A           15 LLEIA   19 (83)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 4
+>3ERM_A uncharacterized conserved protein; APC85034, PPSPTO1197, seudomonas syringae pv.; 2.45A {Pseudomonas syringae pv. tomato}
+Probab=12.35  E-value=2.1e+02  Score=12.23  Aligned_cols=6  Identities=50%  Similarity=0.949  Sum_probs=0.0  Template_Neff=3.800
+
+Q KLLEIA            1 KLLEIA    6 (6)
+Q Consensus         1 klleia    6 (6)
+                      |+||+|
+T Consensus        31 KMLdlA   36 (91)
+T 3ERM_A           31 QMLELA   36 (91)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 5
+>5TVF_F S-adenosylmethionine decarboxylase beta chain (E.C.4.1.1.50); AdoMetDC, CGP40215, decarboxylase, allostery, pseudoenzyme; HET: PYR, PUT, CGQ, B3P; 2.42A {Trypanosoma brucei brucei (strain 927/4 GUTat10.1)}
+Probab=12.34  E-value=2.1e+02  Score=13.81  Aligned_cols=5  Identities=40%  Similarity=0.627  Sum_probs=0.0  Template_Neff=5.700
+
+Q KLLEIA            1 KLLEI    5 (6)
+Q Consensus         1 kllei    5 (6)
+                      |+|||
+T Consensus        39 K~LEi   43 (325)
+T 5TVF_F           39 KRFEL   43 (325)
+T ss_dssp             EEEEE
+T ss_pred             EEEEE
+
+
+No 6
+>5TVM_F S-adenosylmethionine decarboxylase beta chain (E.C.4.1.1.50); allostery, pseudoenzyme, LYASE; HET: PYR, PUT, B3P; 2.408A {Trypanosoma brucei brucei (strain 927/4 GUTat10.1)}
+Probab=12.34  E-value=2.1e+02  Score=13.81  Aligned_cols=5  Identities=40%  Similarity=0.627  Sum_probs=0.0  Template_Neff=5.700
+
+Q KLLEIA            1 KLLEI    5 (6)
+Q Consensus         1 kllei    5 (6)
+                      |+|||
+T Consensus        39 K~LEi   43 (325)
+T 5TVM_F           39 KRFEL   43 (325)
+T ss_dssp             EEEEE
+T ss_pred             EEEEE
+
+
+No 7
+>2P5T_A fragment of PezA helix-turn-helix motif; postsegregational killing system, phosphoryltransferase, helix-turn-helix; 3.2A {Streptococcus pneumoniae}
+Probab=11.92  E-value=2.2e+02  Score=10.78  Aligned_cols=6  Identities=50%  Similarity=1.010  Sum_probs=0.0  Template_Neff=9.200
+
+Q KLLEIA            1 KLLEIA    6 (6)
+Q Consensus         1 klleia    6 (6)
+                      ++||++
+T Consensus       147 ~~~~~~  152 (158)
+T 2P5T_A          147 RMLEIS  152 (158)
+T ss_pred             HHHHHH
+
+
+No 8
+>5HML_B Exodeoxyribonuclease (E.C.3.1.11.3); Metal ion complex, flap endonuclease; HET: CL, B3P; 1.482A {Escherichia phage T5}
+Probab=11.84  E-value=2.3e+02  Score=11.79  Aligned_cols=6  Identities=67%  Similarity=0.960  Sum_probs=0.0  Template_Neff=9.100
+
+Q KLLEIA            1 KLLEIA    6 (6)
+Q Consensus         1 klleia    6 (6)
+                      +.||||
+T Consensus       265 ~~~~~~  270 (272)
+T 5HML_B          265 DILEIA  270 (272)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 9
+>5HNK_B Exodeoxyribonuclease/DNA Complex; Hydrolase, enzyme-DNA complex, flap endonuclease; 2.22A {Escherichia phage T5}
+Probab=11.84  E-value=2.3e+02  Score=11.79  Aligned_cols=6  Identities=67%  Similarity=0.960  Sum_probs=0.0  Template_Neff=9.100
+
+Q KLLEIA            1 KLLEIA    6 (6)
+Q Consensus         1 klleia    6 (6)
+                      +.||||
+T Consensus       265 ~~~~~~  270 (272)
+T 5HNK_B          265 DILEIA  270 (272)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 10
+>7B2F_A Peptide synthetase XpsB (Modular protein); PROTEIN, PROTEIN BINDING; NMR {Xenorhabdus cabanillasii JM26}
+Probab=11.39  E-value=2.4e+02  Score=10.66  Aligned_cols=6  Identities=67%  Similarity=1.082  Sum_probs=0.0  Template_Neff=1.000
+
+Q KLLEIA            1 KLLEIA    6 (6)
+Q Consensus         1 klleia    6 (6)
+                      +|||+|
+T Consensus        16 rllela   21 (31)
+T 7B2F_A           16 RLLELA   21 (31)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+

@@ -1,0 +1,150 @@
+Query         ANNYSS
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 15:09:44 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/ANNYSS/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/ANNYSS/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5K3J_A Acyl-coenzyme A oxidase  11.8 2.3E+02  0.0025   13.6   0.0    6    1-6       2-7   (674)
+  2 6LYD_A Probable uracil-DNA gly   5.3 6.7E+02  0.0074   12.0   0.0    5    1-5      12-16  (276)
+  3 2E54_A Acetylornithine aminotr   5.2 6.8E+02  0.0075    9.9   0.0    5    1-5       4-8   (385)
+  4 6YJL_A Nucleoprotein; STRUCTUR   5.2 6.8E+02  0.0076    9.5   0.0    4    3-6       6-9   (33)
+  5 1MN8_D Core protein p15; HELIC   5.2 6.9E+02  0.0076   10.7   0.0    5    1-5      24-28  (100)
+  6 6TME_C Pollen-specific leucine   5.1   7E+02  0.0078    8.9   0.0    5    1-5      35-39  (50)
+  7 3H7Z_A Adhesin yadA; YadA, Adh   5.0 7.1E+02  0.0079    8.9   0.0    5    1-5       6-10  (61)
+  8 7CHK_A VP20 protein, VP24 prot   4.4 8.3E+02  0.0092   12.1   0.0    6    1-6      42-47  (176)
+  9 6WME_B SUN domain-containing p   4.2   9E+02    0.01    8.9   0.0    6    1-6      15-20  (34)
+ 10 3ODH_A OkrAI endonuclease; alp   4.1   9E+02    0.01   10.7   0.0    5    2-6     103-107 (194)
+
+No 1
+>5K3J_A Acyl-coenzyme A oxidase; dauer pheromone  ascarosides ; HET: ATP, FAD, 6QA; 2.68A {Caenorhabditis elegans}
+Probab=11.79  E-value=2.3e+02  Score=13.58  Aligned_cols=6  Identities=33%  Similarity=0.146  Sum_probs=2.9  Template_Neff=8.800
+
+Q ANNYSS            1 ANNYSS    6 (6)
+Q Consensus         1 annyss    6 (6)
+                      ||+||+
+T Consensus         2 ~~~~~~    7 (674)
+T 5K3J_A            2 ANRSIR    7 (674)
+T ss_dssp             -CTTCC
+T ss_pred             CCcCCC
+Confidence            466654
+
+
+No 2
+>6LYD_A Probable uracil-DNA glycosylase (E.C.3.2.2.-), Uracil-DNA; UDG, UNG, uracil DNA glycosylase; 2.598A {Acanthamoeba polyphaga mimivirus}
+Probab=5.26  E-value=6.7e+02  Score=12.03  Aligned_cols=5  Identities=80%  Similarity=1.172  Sum_probs=0.0  Template_Neff=5.600
+
+Q ANNYSS            1 ANNYS    5 (6)
+Q Consensus         1 annys    5 (6)
+                      ||+|+
+T Consensus        12 ~~~~~   16 (276)
+T 6LYD_A           12 ANNYH   16 (276)
+T ss_dssp             TTSCC
+T ss_pred             CCCCC
+
+
+No 3
+>2E54_A Acetylornithine aminotransferase (E.C.2.6.1.11); argD, Structural Genomics, NPPSFA, National; HET: PLP; 1.5A {Thermotoga maritima}
+Probab=5.22  E-value=6.8e+02  Score=9.90  Aligned_cols=5  Identities=60%  Similarity=0.906  Sum_probs=0.0  Template_Neff=11.600
+
+Q ANNYSS            1 ANNYS    5 (6)
+Q Consensus         1 annys    5 (6)
+                      +|.||
+T Consensus         4 ~~~~~    8 (385)
+T 2E54_A            4 MNTYS    8 (385)
+T ss_dssp             CSCCC
+T ss_pred             CcccC
+
+
+No 4
+>6YJL_A Nucleoprotein; STRUCTURE FROM CYANA Nuclear Magnetic; NMR {Human respiratory syncytial virus A (strain A2)}
+Probab=5.17  E-value=6.8e+02  Score=9.49  Aligned_cols=4  Identities=75%  Similarity=1.066  Sum_probs=0.0  Template_Neff=2.000
+
+Q ANNYSS            3 NYSS    6 (6)
+Q Consensus         3 nyss    6 (6)
+                      |||+
+T Consensus         6 N~sa    9 (33)
+T 6YJL_A            6 NYSV    9 (33)
+T ss_dssp             CCCC
+T ss_pred             chhh
+
+
+No 5
+>1MN8_D Core protein p15; HELICAL BUNDLE, Viral protein; 1.0A {Moloney murine leukemia virus} SCOP: a.61.1.6
+Probab=5.16  E-value=6.9e+02  Score=10.72  Aligned_cols=5  Identities=60%  Similarity=0.527  Sum_probs=0.0  Template_Neff=4.400
+
+Q ANNYSS            1 ANNYS    5 (6)
+Q Consensus         1 annys    5 (6)
+                      |.|||
+T Consensus        24 a~~~~   28 (100)
+T 1MN8_D           24 AHNQS   28 (100)
+T ss_dssp             HHHTT
+T ss_pred             hhccc
+
+
+No 6
+>6TME_C Pollen-specific leucine-rich repeat extensin-like protein; Leucine rich extensin, peptide signaling; HET: GOL, SO4, EDO, NAG; 2.33A {Arabidopsis thaliana}
+Probab=5.05  E-value=7e+02  Score=8.94  Aligned_cols=5  Identities=40%  Similarity=0.680  Sum_probs=0.0  Template_Neff=5.900
+
+Q ANNYSS            1 ANNYS    5 (6)
+Q Consensus         1 annys    5 (6)
+                      ||.|+
+T Consensus        35 aNpY~   39 (50)
+T 6TME_C           35 NNPYR   39 (50)
+T ss_dssp             CCTTC
+T ss_pred             CCCCC
+
+
+No 7
+>3H7Z_A Adhesin yadA; YadA, Adhesion, Adhesin, Mutant, Cell; 2.51A {Yersinia enterocolitica}
+Probab=5.00  E-value=7.1e+02  Score=8.86  Aligned_cols=5  Identities=60%  Similarity=1.092  Sum_probs=0.0  Template_Neff=6.900
+
+Q ANNYSS            1 ANNYS    5 (6)
+Q Consensus         1 annys    5 (6)
+                      ||.|.
+T Consensus         6 an~yt   10 (61)
+T 3H7Z_A            6 ANSYT   10 (61)
+T ss_dssp             HHHHH
+T ss_pred             HHHHh
+
+
+No 8
+>7CHK_A VP20 protein, VP24 protein, VP25; Cheravirus, capsid stabilization, genome release;{Apple latent spherical virus}
+Probab=4.43  E-value=8.3e+02  Score=12.06  Aligned_cols=6  Identities=33%  Similarity=0.517  Sum_probs=0.0  Template_Neff=2.100
+
+Q ANNYSS            1 ANNYSS    6 (6)
+Q Consensus         1 annyss    6 (6)
+                      +|+|+|
+T Consensus        42 fn~fqa   47 (176)
+T 7CHK_A           42 FNRFQS   47 (176)
+T ss_dssp             CCHHHH
+T ss_pred             HHHHHH
+
+
+No 9
+>6WME_B SUN domain-containing protein 2, Nesprin-3; LINC Complex, STRUCTURAL PROTEIN; 1.53A {Homo sapiens}
+Probab=4.16  E-value=9e+02  Score=8.91  Aligned_cols=6  Identities=50%  Similarity=0.888  Sum_probs=0.0  Template_Neff=3.300
+
+Q ANNYSS            1 ANNYSS    6 (6)
+Q Consensus         1 annyss    6 (6)
+                      +||+..
+T Consensus        15 ~Nnfar   20 (34)
+T 6WME_B           15 ANNFAR   20 (34)
+T ss_pred             ccchHH
+
+
+No 10
+>3ODH_A OkrAI endonuclease; alpha and beta proteins (a/b); 2.3A {Oceanobacter kriegii}
+Probab=4.14  E-value=9e+02  Score=10.68  Aligned_cols=5  Identities=60%  Similarity=0.527  Sum_probs=0.0  Template_Neff=6.500
+
+Q ANNYSS            2 NNYSS    6 (6)
+Q Consensus         2 nnyss    6 (6)
+                      +|+|+
+T Consensus       103 Gn~s~  107 (194)
+T 3ODH_A          103 GNISS  107 (194)
+T ss_dssp             SBHHH
+T ss_pred             CCCCh
+
+

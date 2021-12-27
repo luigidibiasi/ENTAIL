@@ -1,0 +1,155 @@
+Query         LASQQN
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 14:14:06 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LASQQN/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LASQQN/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2K7M_A Gap junction alpha-5 pr  59.2     8.2 9.1E-05   15.5   0.0    6    1-6      38-43  (109)
+  2 5A29_A EXOPOLYGALACTURONATE LY  51.4      14 0.00015   19.8   0.0    6    1-6      84-89  (570)
+  3 2V8I_A PECTATE LYASE (E.C.4.2.  50.7      14 0.00016   19.6   0.0    6    1-6      57-62  (543)
+  4 6OJL_A Periplasmic pectate lya  50.0      15 0.00016   19.7   0.0    6    1-6      83-88  (572)
+  5 6N3A_J TAR DNA-binding protein  47.9      17 0.00019   14.6   0.0    6    1-6      30-35  (50)
+  6 2KES_A Synphilin-1; Synphillin   8.5 3.6E+02  0.0039   11.0   0.0    4    1-4       9-12  (48)
+  7 3HCP_A Ferrochelatase, mitocho   7.9 3.9E+02  0.0043   11.6   0.0    5    1-5     354-358 (359)
+  8 4M1X_B uncharacterized protein   7.9 3.9E+02  0.0044   12.1   0.0    6    1-6       4-9   (99)
+  9 4JNU_D Nucleoporin p54; nucleo   7.6 4.1E+02  0.0046    8.3   0.0    6    1-6      16-21  (40)
+ 10 4REU_C Ferritin (E.C.1.16.3.1)   7.0 4.6E+02  0.0051    9.5   0.0    4    3-6     161-164 (164)
+
+No 1
+>2K7M_A Gap junction alpha-5 protein; Protein, Gap Junction, Cell junction; NMR {Rattus norvegicus}
+Probab=59.25  E-value=8.2  Score=15.46  Aligned_cols=6  Identities=33%  Similarity=0.684  Sum_probs=3.2  Template_Neff=6.300
+
+Q LASQQN            1 LASQQN    6 (6)
+Q Consensus         1 lasqqn    6 (6)
+                      +|+|||
+T Consensus        38 lA~qQN   43 (109)
+T 2K7M_A           38 MGSRKN   43 (109)
+T ss_dssp             TSSCSC
+T ss_pred             chhccC
+Confidence            355665
+
+
+No 2
+>5A29_A EXOPOLYGALACTURONATE LYASE, PECTATE LYASE; LYASE, PECTIN, POLYSACCHARIDE LYASE, ENDOLYTIC; HET: SRT, EDO; 1.9A {VIBRIO VULNIFICUS}
+Probab=51.38  E-value=14  Score=19.77  Aligned_cols=6  Identities=67%  Similarity=0.805  Sum_probs=4.6  Template_Neff=3.400
+
+Q LASQQN            1 LASQQN    6 (6)
+Q Consensus         1 lasqqn    6 (6)
+                      +|||||
+T Consensus        84 fAsQQN   89 (570)
+T 5A29_A           84 FANQQN   89 (570)
+T ss_dssp             GGGCHH
+T ss_pred             HHHHHH
+Confidence            478887
+
+
+No 3
+>2V8I_A PECTATE LYASE (E.C.4.2.2.2); LYASE, PERIPLASM, PECTATE LYASE, BETA-ELIMINATION; HET: IOD; 1.5A {YERSINIA ENTEROCOLITICA}
+Probab=50.73  E-value=14  Score=19.61  Aligned_cols=6  Identities=50%  Similarity=0.745  Sum_probs=4.6  Template_Neff=3.400
+
+Q LASQQN            1 LASQQN    6 (6)
+Q Consensus         1 lasqqn    6 (6)
+                      +|||||
+T Consensus        57 fAsQQN   62 (543)
+T 2V8I_A           57 FSAQQN   62 (543)
+T ss_dssp             GGGCHH
+T ss_pred             HHHHHH
+Confidence            478887
+
+
+No 4
+>6OJL_A Periplasmic pectate lyase; Lyase, pectin, (alpha/alpha)8; HET: ADA, EDO, GTR; 1.5A {Yersinia enterocolitica}
+Probab=49.98  E-value=15  Score=19.69  Aligned_cols=6  Identities=50%  Similarity=0.745  Sum_probs=4.6  Template_Neff=3.300
+
+Q LASQQN            1 LASQQN    6 (6)
+Q Consensus         1 lasqqn    6 (6)
+                      +|||||
+T Consensus        83 fAsQQN   88 (572)
+T 6OJL_A           83 FSAQQN   88 (572)
+T ss_dssp             GGGCHH
+T ss_pred             HHHHHH
+Confidence            478887
+
+
+No 5
+>6N3A_J TAR DNA-binding protein 43, segA; Amyloid, TDP43, ALS, FTLD-TDP, dna; 3.3A {Homo sapiens}
+Probab=47.89  E-value=17  Score=14.63  Aligned_cols=6  Identities=100%  Similarity=0.988  Sum_probs=3.3  Template_Neff=2.200
+
+Q LASQQN            1 LASQQN    6 (6)
+Q Consensus         1 lasqqn    6 (6)
+                      ||+|||
+T Consensus        30 la~Qq~   35 (50)
+T 6N3A_J           30 LASQQN   35 (50)
+T ss_dssp             EEEEEE
+T ss_pred             HHhcCC
+Confidence            456654
+
+
+No 6
+>2KES_A Synphilin-1; Synphillin, coiled-coil, ANK repeat, Disease; NMR {Homo sapiens}
+Probab=8.51  E-value=3.6e+02  Score=10.97  Aligned_cols=4  Identities=100%  Similarity=0.941  Sum_probs=0.0  Template_Neff=1.600
+
+Q LASQQN            1 LASQ    4 (6)
+Q Consensus         1 lasq    4 (6)
+                      ||||
+T Consensus         9 LASQ   12 (48)
+T 2KES_A            9 LASQ   12 (48)
+T ss_dssp             HHHH
+T ss_pred             HHHH
+
+
+No 7
+>3HCP_A Ferrochelatase, mitochondrial (E.C.4.99.1.1); ferrochelatase, metal selectivity, Disease mutation; HET: IMD, CHD, FDE; 2.0A {Homo sapiens}
+Probab=7.93  E-value=3.9e+02  Score=11.61  Aligned_cols=5  Identities=60%  Similarity=0.680  Sum_probs=0.0  Template_Neff=9.100
+
+Q LASQQN            1 LASQQ    5 (6)
+Q Consensus         1 lasqq    5 (6)
+                      +++||
+T Consensus       354 ~~~~~  358 (359)
+T 3HCP_A          354 FTSQQ  358 (359)
+T ss_dssp             HHTCC
+T ss_pred             hhccC
+
+
+No 8
+>4M1X_B uncharacterized protein 201phi2-1p060; tetramer, ring, ferredoxin-like fold, unknown; HET: PEG; 1.3A {Pseudomonas phage 201phi2-1}
+Probab=7.92  E-value=3.9e+02  Score=12.11  Aligned_cols=6  Identities=67%  Similarity=0.822  Sum_probs=0.0  Template_Neff=1.000
+
+Q LASQQN            1 LASQQN    6 (6)
+Q Consensus         1 lasqqn    6 (6)
+                      +|||.|
+T Consensus         4 masqdn    9 (99)
+T 4M1X_B            4 MASQDN    9 (99)
+T ss_dssp             ------
+T ss_pred             ccccCc
+
+
+No 9
+>4JNU_D Nucleoporin p54; nucleocytoplasmic transport, TRANSPORT PROTEIN; 1.445A {Homo sapiens}
+Probab=7.61  E-value=4.1e+02  Score=8.31  Aligned_cols=6  Identities=50%  Similarity=0.562  Sum_probs=0.0  Template_Neff=7.800
+
+Q LASQQN            1 LASQQN    6 (6)
+Q Consensus         1 lasqqn    6 (6)
+                      |..||+
+T Consensus        16 L~~qq~   21 (40)
+T 4JNU_D           16 LKQQQE   21 (40)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 10
+>4REU_C Ferritin (E.C.1.16.3.1); Ferritin, Iron-binding, binuclear metal binding; HET: CL, FE, SO4, MES; 2.5A {Escherichia coli str. K-12 substr. MDS42}
+Probab=6.99  E-value=4.6e+02  Score=9.49  Aligned_cols=4  Identities=50%  Similarity=0.584  Sum_probs=0.0  Template_Neff=10.300
+
+Q LASQQN            3 SQQN    6 (6)
+Q Consensus         3 sqqn    6 (6)
+                      +|||
+T Consensus       161 ~~~~  164 (164)
+T 4REU_C          161 DTQN  164 (164)
+T ss_dssp             TTCC
+T ss_pred             cccC
+
+

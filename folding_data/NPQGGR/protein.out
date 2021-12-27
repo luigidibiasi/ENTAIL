@@ -1,0 +1,157 @@
+Query         NPQGGR
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 03:09:34 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NPQGGR/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NPQGGR/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4B90_B DIHYDROPYRIMIDINASE-REL  36.6      33 0.00037   15.6   0.0    6    1-6     576-581 (586)
+  2 5TV8_B 6-carboxyhexanoate--CoA  31.6      45  0.0005   15.8   0.0    6    1-6     210-215 (240)
+  3 5TVA_A 6-carboxyhexanoate--CoA  31.6      45  0.0005   15.8   0.0    6    1-6     210-215 (240)
+  4 5FLG_A 6-CARBOXYHEXANOATE--COA  27.6      58 0.00065   15.5   0.0    6    1-6     223-228 (260)
+  5 5FLG_B 6-CARBOXYHEXANOATE--COA  26.9      61 0.00068   15.5   0.0    6    1-6     223-228 (260)
+  6 6QB8_h T-complex protein 1 sub  26.4      63  0.0007   14.2   0.0    6    1-6     532-537 (543)
+  7 6FC1_C Eukaryotic translation   24.4      73 0.00081   13.3   0.0    6    1-6      89-94  (193)
+  8 4UE8_A EUKARYOTIC TRANSLATION   19.9   1E+02  0.0011   12.7   0.0    6    1-6      76-81  (184)
+  9 5T48_A Eukaryotic translation   19.9   1E+02  0.0011   12.7   0.0    6    1-6      76-81  (184)
+ 10 1AP8_A TRANSLATION INITIATION   19.6 1.1E+02  0.0012   13.2   0.0    6    1-6     109-114 (213)
+
+No 1
+>4B90_B DIHYDROPYRIMIDINASE-RELATED PROTEIN 5; SIGNALING PROTEIN, NEUROGENESIS, AXONAL OUTGROWTH; 2.2A {HOMO SAPIENS}
+Probab=36.59  E-value=33  Score=15.58  Aligned_cols=6  Identities=67%  Similarity=1.387  Sum_probs=0.0  Template_Neff=9.200
+
+Q NPQGGR            1 NPQGGR    6 (6)
+Q Consensus         1 npqggr    6 (6)
+                      ||-|||
+T Consensus       576 ~ppgg~  581 (586)
+T 4B90_B          576 APPGGR  581 (586)
+T ss_dssp             ------
+T ss_pred             CCCCCC
+Confidence            466665
+
+
+No 2
+>5TV8_B 6-carboxyhexanoate--CoA ligase (E.C.6.2.1.14); Pimeloyl-CoA Ligase, adenylation, LIGASE; HET: PML, APC; 2.55A {Aquifex aeolicus}
+Probab=31.58  E-value=45  Score=15.77  Aligned_cols=6  Identities=67%  Similarity=1.448  Sum_probs=3.9  Template_Neff=4.700
+
+Q NPQGGR            1 NPQGGR    6 (6)
+Q Consensus         1 npqggr    6 (6)
+                      +|.|||
+T Consensus       210 ~~~GGR  215 (240)
+T 5TV8_B          210 DPLGGR  215 (240)
+T ss_dssp             CCCCEE
+T ss_pred             CCCCcE
+Confidence            367776
+
+
+No 3
+>5TVA_A 6-carboxyhexanoate--CoA ligase (E.C.6.2.1.14); Pimeloyl-CoA Ligase, adenylation, LIGASE; HET: AMP, COA; 2.25A {Aquifex aeolicus}
+Probab=31.58  E-value=45  Score=15.77  Aligned_cols=6  Identities=67%  Similarity=1.448  Sum_probs=3.9  Template_Neff=4.700
+
+Q NPQGGR            1 NPQGGR    6 (6)
+Q Consensus         1 npqggr    6 (6)
+                      +|.|||
+T Consensus       210 ~~~GGR  215 (240)
+T 5TVA_A          210 DPLGGR  215 (240)
+T ss_dssp             CCCCEE
+T ss_pred             CCCCcE
+Confidence            367776
+
+
+No 4
+>5FLG_A 6-CARBOXYHEXANOATE--COA LIGASE (E.C.6.2.1.14); LIGASE; HET: PML, ANP; 2.04A {BACILLUS SUBTILIS}
+Probab=27.63  E-value=58  Score=15.53  Aligned_cols=6  Identities=33%  Similarity=0.612  Sum_probs=3.7  Template_Neff=4.800
+
+Q NPQGGR            1 NPQGGR    6 (6)
+Q Consensus         1 npqggr    6 (6)
+                      +|.|||
+T Consensus       223 ~~~GGR  228 (260)
+T 5FLG_A          223 TEEGCR  228 (260)
+T ss_dssp             CCCCEE
+T ss_pred             CCCCcE
+Confidence            366776
+
+
+No 5
+>5FLG_B 6-CARBOXYHEXANOATE--COA LIGASE (E.C.6.2.1.14); LIGASE; HET: PML, ANP; 2.04A {BACILLUS SUBTILIS}
+Probab=26.87  E-value=61  Score=15.51  Aligned_cols=6  Identities=33%  Similarity=0.612  Sum_probs=3.7  Template_Neff=4.700
+
+Q NPQGGR            1 NPQGGR    6 (6)
+Q Consensus         1 npqggr    6 (6)
+                      +|.|||
+T Consensus       223 ~~~GGR  228 (260)
+T 5FLG_B          223 TEEGCR  228 (260)
+T ss_dssp             CCCCEE
+T ss_pred             CCCCcE
+Confidence            366776
+
+
+No 6
+>6QB8_h T-complex protein 1 subunit alpha; CCT, folding, WD40, mLST8, CHAPERONE; HET: ADP; 3.97A {Homo sapiens}
+Probab=26.43  E-value=63  Score=14.21  Aligned_cols=6  Identities=33%  Similarity=0.518  Sum_probs=3.1  Template_Neff=9.900
+
+Q NPQGGR            1 NPQGGR    6 (6)
+Q Consensus         1 npqggr    6 (6)
+                      +|||||
+T Consensus       532 ~~~~~~  537 (543)
+T 6QB8_h          532 AAGRGR  537 (543)
+T ss_dssp             HHSSCE
+T ss_pred             CCCCCC
+Confidence            356654
+
+
+No 7
+>6FC1_C Eukaryotic translation initiation factor 4E; Gene expression Translation Translation initiation; HET: GOL, MGP; 1.35A {Saccharomyces cerevisiae S288C}
+Probab=24.37  E-value=73  Score=13.29  Aligned_cols=6  Identities=50%  Similarity=1.193  Sum_probs=2.8  Template_Neff=7.600
+
+Q NPQGGR            1 NPQGGR    6 (6)
+Q Consensus         1 npqggr    6 (6)
+                      |..|||
+T Consensus        89 N~~GG~   94 (193)
+T 6FC1_C           89 NAKGGK   94 (193)
+T ss_dssp             TTTCEE
+T ss_pred             cCCCeE
+Confidence            344554
+
+
+No 8
+>4UE8_A EUKARYOTIC TRANSLATION INITIATION FACTOR 4E; TRANSLATION, GENE REGULATION, CAP BINDING; HET: P4G; 1.1A {DROSOPHILA MELANOGASTER}
+Probab=19.89  E-value=1e+02  Score=12.73  Aligned_cols=6  Identities=83%  Similarity=1.320  Sum_probs=0.0  Template_Neff=7.700
+
+Q NPQGGR            1 NPQGGR    6 (6)
+Q Consensus         1 npqggr    6 (6)
+                      |..|||
+T Consensus        76 N~~GG~   81 (184)
+T 4UE8_A           76 NKQGGR   81 (184)
+T ss_dssp             TTTCEE
+T ss_pred             cCCceE
+
+
+No 9
+>5T48_A Eukaryotic translation initiation factor 4E; TRANSLATION, GENE REGULATION, CAP BINDING; HET: MGP; 2.19A {Drosophila melanogaster}
+Probab=19.89  E-value=1e+02  Score=12.73  Aligned_cols=6  Identities=83%  Similarity=1.320  Sum_probs=0.0  Template_Neff=7.700
+
+Q NPQGGR            1 NPQGGR    6 (6)
+Q Consensus         1 npqggr    6 (6)
+                      |..|||
+T Consensus        76 N~~GG~   81 (184)
+T 5T48_A           76 NKQGGR   81 (184)
+T ss_dssp             HHTCEE
+T ss_pred             cCCceE
+
+
+No 10
+>1AP8_A TRANSLATION INITIATION FACTOR EIF4E, 7N-METHYL-8-HYDROGUANOSINE-5'-DIPHOSPHATE; RNA CAP, TRANSLATION INITIATION FACTOR; HET: M7G; NMR {Saccharomyces cerevisiae} SCOP: d.86.1.1
+Probab=19.63  E-value=1.1e+02  Score=13.23  Aligned_cols=6  Identities=50%  Similarity=1.193  Sum_probs=0.0  Template_Neff=7.200
+
+Q NPQGGR            1 NPQGGR    6 (6)
+Q Consensus         1 npqggr    6 (6)
+                      |..|||
+T Consensus       109 N~~GGr  114 (213)
+T 1AP8_A          109 NAKGGK  114 (213)
+T ss_dssp             TTTSEE
+T ss_pred             cCCCeE
+
+

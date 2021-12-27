@@ -1,0 +1,440 @@
+Query         NIVLIM
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 01:29:36 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NIVLIM/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NIVLIM/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4UPI_A SULFATASE FAMILY PROTEI  59.5     8.1 8.9E-05   16.8   0.0    6    1-6      30-35  (576)
+  2 4UPL_A SULFATASE FAMILY PROTEI  54.1      11 0.00013   16.4   0.0    6    1-6      19-24  (569)
+  3 6IOZ_A Iduronate 2-sulfatase (  51.9      13 0.00015   16.0   0.0    6    1-6       5-10  (517)
+  4 6HHM_A Arylsulfatase (E.C.3.1.  51.0      14 0.00015   15.4   0.0    6    1-6      18-23  (475)
+  5 5FQL_A IDURONATE-2-SULFATASE (  48.2      17 0.00018   15.7   0.0    6    1-6      13-18  (525)
+  6 6PT6_A Aldehyde dehydrogenase;  47.9      17 0.00019   15.3   0.0    6    1-6      28-33  (497)
+  7 5G2U_A 2-O GLYCOSAMINOGLYCAN S  46.9      18  0.0002   15.4   0.0    6    1-6      25-30  (489)
+  8 6S20_C N-acetylgalactosamine-6  46.4      18  0.0002   15.6   0.0    6    1-6      38-43  (513)
+  9 1AUK_A ARYLSULFATASE A; CEREBR  46.3      19 0.00021   15.3   0.0    6    1-6       4-9   (489)
+ 10 1N2L_A ARYLSULFATASE A(E.C.3.1  46.3      19 0.00021   15.3   0.0    6    1-6       4-9   (489)
+ 11 3B5Q_B Putative sulfatase yidJ  46.2      19 0.00021   15.2   0.0    6    1-6      18-23  (482)
+ 12 6FNY_A Choline-sulfatase (E.C.  46.0      19 0.00021   15.7   0.0    6    1-6      10-15  (515)
+ 13 1P49_A STERYL-SULFATASE (E.C.3  45.1      20 0.00022   15.7   0.0    6    1-6       7-12  (562)
+ 14 5G2V_A N-ACETYLGLUCOSAMINE-6-S  42.8      23 0.00025   15.4   0.0    6    1-6      30-35  (534)
+ 15 2VQR_A PUTATIVE SULFATASE; PHO  42.8      23 0.00025   15.3   0.0    6    1-6      34-39  (543)
+ 16 6G60_C Choline-sulfatase (E.C.  41.9      24 0.00027   15.5   0.0    6    1-6       3-8   (508)
+ 17 6DGM_B Sulfatase family protei  41.9      24 0.00027   14.7   0.0    6    1-6      40-45  (383)
+ 18 6UST_C N-acetylgalactosamine 6  40.5      26 0.00029   14.2   0.0    6    1-6       6-11  (470)
+ 19 4UPK_B PHOSPHONATE MONOESTER H  38.4      30 0.00033   15.3   0.0    6    1-6      35-40  (538)
+ 20 4FDI_A N-acetylgalactosamine-6  36.6      33 0.00037   14.7   0.0    6    1-6       6-11  (502)
+ 21 6B0J_C Iota-carrageenan sulfat  36.2      34 0.00037   14.3   0.0    6    1-6       4-9   (452)
+ 22 6HR5_A Alpha-L-rhamnosidase/su  34.4      38 0.00042   14.3   0.0    6    1-6      32-37  (467)
+ 23 1FSU_A N-ACETYLGALACTOSAMINE-4  33.9      39 0.00043   14.3   0.0    6    1-6       5-10  (492)
+ 24 7ANA_AAA Carbohydrate sulfatas  32.8      42 0.00046   14.5   0.0    6    1-6      31-36  (503)
+ 25 6B0K_A Iota-carrageenan sulfat  32.6      42 0.00047   14.0   0.0    6    1-6       4-9   (451)
+ 26 7AN1_AAA Carbohydrate sulfatas  32.5      42 0.00047   14.5   0.0    6    1-6      31-36  (510)
+ 27 7ALL_AAA Carbohydrate sulfatas  31.0      47 0.00052   14.5   0.0    6    1-6      28-33  (523)
+ 28 4CYS_A ARYLSULFATASE (E.C.3.1.  28.5      55 0.00061   14.1   0.0    6    1-6       6-11  (536)
+ 29 4UPH_B SULFATASE (SULFURIC EST  26.7      62 0.00069   14.5   0.0    6    1-6      46-51  (547)
+
+No 1
+>4UPI_A SULFATASE FAMILY PROTEIN; HYDROLASE, SUPERFAMILY, ALKALINE PHOSPHATASE SUPERFAMILY; 1.25A {RUEGERIA POMEROYI}
+Probab=59.54  E-value=8.1  Score=16.76  Aligned_cols=6  Identities=67%  Similarity=0.955  Sum_probs=4.1  Template_Neff=10.100
+
+Q NIVLIM            1 NIVLIM    6 (6)
+Q Consensus         1 nivlim    6 (6)
+                      |||+||
+T Consensus        30 NIvlI~   35 (576)
+T 4UPI_A           30 NILWIM   35 (576)
+T ss_dssp             EEEEEE
+T ss_pred             eEEEEE
+Confidence            677765
+
+
+No 2
+>4UPL_A SULFATASE FAMILY PROTEIN; HYDROLASE, ALKALINE PHOSPHATASE SUPERFAMILY; 1.805A {RUEGERIA POMEROYI}
+Probab=54.12  E-value=11  Score=16.36  Aligned_cols=6  Identities=67%  Similarity=1.104  Sum_probs=4.0  Template_Neff=10.000
+
+Q NIVLIM            1 NIVLIM    6 (6)
+Q Consensus         1 nivlim    6 (6)
+                      |||+||
+T Consensus        19 NIi~I~   24 (569)
+T 4UPL_A           19 NILFIM   24 (569)
+T ss_dssp             EEEEEE
+T ss_pred             EEEEEE
+Confidence            677765
+
+
+No 3
+>6IOZ_A Iduronate 2-sulfatase (E.C.3.1.6.13); IDURSULFASE BETA, ALPHA-L-IDURONATE SULFATE SULFATASE; HET: NAG, ALS, FUC; 3.1A {Homo sapiens}
+Probab=51.90  E-value=13  Score=15.99  Aligned_cols=6  Identities=50%  Similarity=1.065  Sum_probs=4.0  Template_Neff=10.000
+
+Q NIVLIM            1 NIVLIM    6 (6)
+Q Consensus         1 nivlim    6 (6)
+                      |||+|+
+T Consensus         5 NIvlI~   10 (517)
+T 6IOZ_A            5 NVLLII   10 (517)
+T ss_dssp             EEEEEE
+T ss_pred             eEEEEE
+Confidence            677764
+
+
+No 4
+>6HHM_A Arylsulfatase (E.C.3.1.6.1); Formosa agariphila algal polysaccharide carrageenan; 1.23A {Formosa agariphila}
+Probab=51.01  E-value=14  Score=15.38  Aligned_cols=6  Identities=17%  Similarity=0.628  Sum_probs=3.7  Template_Neff=10.600
+
+Q NIVLIM            1 NIVLIM    6 (6)
+Q Consensus         1 nivlim    6 (6)
+                      |||+|+
+T Consensus        18 NillI~   23 (475)
+T 6HHM_A           18 NVLVFY   23 (475)
+T ss_pred             eEEEEE
+Confidence            566664
+
+
+No 5
+>5FQL_A IDURONATE-2-SULFATASE (E.C.3.1.6.13); HYDROLASE, HUNTER SYNDROME; HET: NAG, FUC, ALS; 2.3A {HOMO SAPIENS}
+Probab=48.20  E-value=17  Score=15.75  Aligned_cols=6  Identities=50%  Similarity=1.065  Sum_probs=3.8  Template_Neff=10.000
+
+Q NIVLIM            1 NIVLIM    6 (6)
+Q Consensus         1 nivlim    6 (6)
+                      |||+||
+T Consensus        13 NIvlI~   18 (525)
+T 5FQL_A           13 NVLLII   18 (525)
+T ss_dssp             EEEEEE
+T ss_pred             eEEEEE
+Confidence            567664
+
+
+No 6
+>6PT6_A Aldehyde dehydrogenase; S1 sulfatase, HYDROLASE; HET: G4S, DGS; 2.25A {Pseudoalteromonas fuliginea}
+Probab=47.92  E-value=17  Score=15.31  Aligned_cols=6  Identities=17%  Similarity=0.949  Sum_probs=2.5  Template_Neff=10.500
+
+Q NIVLIM            1 NIVLIM    6 (6)
+Q Consensus         1 nivlim    6 (6)
+                      ||++|+
+T Consensus        28 NIilI~   33 (497)
+T 6PT6_A           28 NVLILL   33 (497)
+T ss_dssp             C-EEE-
+T ss_pred             EEEEEE
+Confidence            566664
+
+
+No 7
+>5G2U_A 2-O GLYCOSAMINOGLYCAN SULFATASE (E.C.3.1.6.18); HYDROLASE, GLYCOSAMINOGLYCAN SULFATASE; HET: CIT; 1.43A {BACTEROIDES THETAIOTAOMICRON}
+Probab=46.91  E-value=18  Score=15.39  Aligned_cols=6  Identities=33%  Similarity=0.689  Sum_probs=3.6  Template_Neff=10.200
+
+Q NIVLIM            1 NIVLIM    6 (6)
+Q Consensus         1 nivlim    6 (6)
+                      ||++|+
+T Consensus        25 NIilI~   30 (489)
+T 5G2U_A           25 NFLIIQ   30 (489)
+T ss_dssp             EEEEEE
+T ss_pred             eEEEEE
+Confidence            566664
+
+
+No 8
+>6S20_C N-acetylgalactosamine-6-O-sulfatase (E.C.3.1.6.-); Gut microbiota, Glycosaminoglycan, Glycobiology, CAZymes; HET: NG6; 1.98A {Bacteroides thetaiotaomicron (strain ATCC 29148 / DSM 2079 / NCTC 10582 / E50 / VPI-5482)}
+Probab=46.43  E-value=18  Score=15.57  Aligned_cols=6  Identities=50%  Similarity=0.916  Sum_probs=3.5  Template_Neff=10.000
+
+Q NIVLIM            1 NIVLIM    6 (6)
+Q Consensus         1 nivlim    6 (6)
+                      |||+|+
+T Consensus        38 NIilI~   43 (513)
+T 6S20_C           38 NIIYIF   43 (513)
+T ss_dssp             EEEEEE
+T ss_pred             eEEEEE
+Confidence            566664
+
+
+No 9
+>1AUK_A ARYLSULFATASE A; CEREBROSIDE-3-SULFATE HYDROLYSIS, LYSOSOMAL ENZYME, HYDROLASE; HET: NAG, NDG; 2.1A {Homo sapiens} SCOP: c.76.1.2
+Probab=46.27  E-value=19  Score=15.34  Aligned_cols=6  Identities=83%  Similarity=1.154  Sum_probs=3.8  Template_Neff=10.200
+
+Q NIVLIM            1 NIVLIM    6 (6)
+Q Consensus         1 nivlim    6 (6)
+                      ||++|+
+T Consensus         4 NIllI~    9 (489)
+T 1AUK_A            4 NIVLIF    9 (489)
+T ss_dssp             EEEEEE
+T ss_pred             eEEEEE
+Confidence            667664
+
+
+No 10
+>1N2L_A ARYLSULFATASE A(E.C.3.1.6.8); HYDROLASE, PHOSPHATE ESTER HYDROLYSIS, LYSOSOMAL; HET: NDG, NAG; 3.2A {Homo sapiens} SCOP: c.76.1.2
+Probab=46.27  E-value=19  Score=15.34  Aligned_cols=6  Identities=83%  Similarity=1.154  Sum_probs=3.8  Template_Neff=10.200
+
+Q NIVLIM            1 NIVLIM    6 (6)
+Q Consensus         1 nivlim    6 (6)
+                      ||++|+
+T Consensus         4 NIllI~    9 (489)
+T 1N2L_A            4 NIVLIF    9 (489)
+T ss_dssp             EEEEEE
+T ss_pred             eEEEEE
+Confidence            667664
+
+
+No 11
+>3B5Q_B Putative sulfatase yidJ; NP_810509.1, Putative Sulfatase, Structural Genomics; HET: EPE, EDO, PEG; 2.4A {Bacteroides thetaiotaomicron VPI-5482}
+Probab=46.17  E-value=19  Score=15.18  Aligned_cols=6  Identities=33%  Similarity=0.689  Sum_probs=3.5  Template_Neff=10.400
+
+Q NIVLIM            1 NIVLIM    6 (6)
+Q Consensus         1 nivlim    6 (6)
+                      ||++||
+T Consensus        18 NVi~I~   23 (482)
+T 3B5Q_B           18 NFLIIQ   23 (482)
+T ss_dssp             EEEEEE
+T ss_pred             eEEEEE
+Confidence            566654
+
+
+No 12
+>6FNY_A Choline-sulfatase (E.C.3.1.6.6); HYDROLASE; HET: DDZ; 2.79A { Sinorhizobium meliloti 1021}
+Probab=46.00  E-value=19  Score=15.73  Aligned_cols=6  Identities=67%  Similarity=1.149  Sum_probs=3.9  Template_Neff=9.700
+
+Q NIVLIM            1 NIVLIM    6 (6)
+Q Consensus         1 nivlim    6 (6)
+                      |||+||
+T Consensus        10 NIIlI~   15 (515)
+T 6FNY_A           10 NILIIM   15 (515)
+T ss_dssp             EEEEEE
+T ss_pred             eEEEEE
+Confidence            677664
+
+
+No 13
+>1P49_A STERYL-SULFATASE (E.C.3.1.6.2); steroid biosynthesis, steroid sulfatase, estrone; HET: NAG, BOG, ALS; 2.6A {Homo sapiens} SCOP: c.76.1.2
+Probab=45.14  E-value=20  Score=15.66  Aligned_cols=6  Identities=67%  Similarity=1.237  Sum_probs=3.9  Template_Neff=10.000
+
+Q NIVLIM            1 NIVLIM    6 (6)
+Q Consensus         1 nivlim    6 (6)
+                      ||++||
+T Consensus         7 NIllI~   12 (562)
+T 1P49_A            7 NIILVM   12 (562)
+T ss_dssp             EEEEEE
+T ss_pred             eEEEEE
+Confidence            677764
+
+
+No 14
+>5G2V_A N-ACETYLGLUCOSAMINE-6-SULFATASE (E.C.3.1.6.14); HYDROLASE, GLYCOSAMINOGLYCAN SULFATASE; HET: SGN; 1.39A {BACTEROIDES THETAIOTAOMICRON}
+Probab=42.85  E-value=23  Score=15.39  Aligned_cols=6  Identities=50%  Similarity=1.093  Sum_probs=3.6  Template_Neff=10.000
+
+Q NIVLIM            1 NIVLIM    6 (6)
+Q Consensus         1 nivlim    6 (6)
+                      |||+|+
+T Consensus        30 NIilI~   35 (534)
+T 5G2V_A           30 NIIFMM   35 (534)
+T ss_dssp             EEEEEE
+T ss_pred             eEEEEE
+Confidence            566664
+
+
+No 15
+>2VQR_A PUTATIVE SULFATASE; PHOSPHONATE MONOESTER HYDROLASE, HYDROLASE, FORMYLGLYCINE; 1.42A {RHIZOBIUM LEGUMINOSARUM BV. VICIAE}
+Probab=42.83  E-value=23  Score=15.30  Aligned_cols=6  Identities=50%  Similarity=1.016  Sum_probs=3.4  Template_Neff=10.200
+
+Q NIVLIM            1 NIVLIM    6 (6)
+Q Consensus         1 nivlim    6 (6)
+                      |||+|+
+T Consensus        34 NIvlI~   39 (543)
+T 2VQR_A           34 NVLLIV   39 (543)
+T ss_dssp             EEEEEE
+T ss_pred             EEEEEE
+Confidence            566653
+
+
+No 16
+>6G60_C Choline-sulfatase (E.C.3.1.6.6); Choline-sulfatase, HYDROLASE; HET: SO4, DDZ, CHT; 1.84A {Rhizobium meliloti (strain 1021)}
+Probab=41.93  E-value=24  Score=15.46  Aligned_cols=6  Identities=67%  Similarity=1.149  Sum_probs=3.8  Template_Neff=9.600
+
+Q NIVLIM            1 NIVLIM    6 (6)
+Q Consensus         1 nivlim    6 (6)
+                      ||++|+
+T Consensus         3 NIIlI~    8 (508)
+T 6G60_C            3 NILIIM    8 (508)
+T ss_dssp             EEEEEE
+T ss_pred             eEEEEE
+Confidence            677664
+
+
+No 17
+>6DGM_B Sulfatase family protein; Group A Streptococcus (GAS), Lancefield; HET: 1GP; 1.49A {Streptococcus pyogenes MGAS5005}
+Probab=41.89  E-value=24  Score=14.65  Aligned_cols=6  Identities=0%  Similarity=0.683  Sum_probs=3.1  Template_Neff=10.000
+
+Q NIVLIM            1 NIVLIM    6 (6)
+Q Consensus         1 nivlim    6 (6)
+                      |||+||
+T Consensus        40 nII~I~   45 (383)
+T 6DGM_B           40 TVIYLL   45 (383)
+T ss_dssp             EEEEEE
+T ss_pred             eEEEEE
+Confidence            455554
+
+
+No 18
+>6UST_C N-acetylgalactosamine 6-sulfate sulfatase (E.C.3.1.6.1); microbiome, hydrolase, arylsulfatase; 2.6A {Hungatella hathewayi}
+Probab=40.52  E-value=26  Score=14.18  Aligned_cols=6  Identities=33%  Similarity=0.789  Sum_probs=3.3  Template_Neff=11.300
+
+Q NIVLIM            1 NIVLIM    6 (6)
+Q Consensus         1 nivlim    6 (6)
+                      |||+|+
+T Consensus         6 nVilI~   11 (470)
+T 6UST_C            6 NFLFIF   11 (470)
+T ss_dssp             EEEEEE
+T ss_pred             eEEEEE
+Confidence            566653
+
+
+No 19
+>4UPK_B PHOSPHONATE MONOESTER HYDROLASE; HYDROLASE, ALAKALINE PHOSPHATASE SUPERFAMILY, PROMISCUITY; 2.24A {RUEGERIA POMEROYI}
+Probab=38.37  E-value=30  Score=15.31  Aligned_cols=6  Identities=33%  Similarity=0.955  Sum_probs=3.4  Template_Neff=9.600
+
+Q NIVLIM            1 NIVLIM    6 (6)
+Q Consensus         1 nivlim    6 (6)
+                      ||++||
+T Consensus        35 NIilI~   40 (538)
+T 4UPK_B           35 NVLFII   40 (538)
+T ss_dssp             EEEEEE
+T ss_pred             EEEEEE
+Confidence            566654
+
+
+No 20
+>4FDI_A N-acetylgalactosamine-6-sulfatase (E.C.3.1.6.4); glycoprotein, enzyme replacement therapy, sulfatase; HET: NAG, CIT, GOL; 2.2A {Homo sapiens}
+Probab=36.61  E-value=33  Score=14.69  Aligned_cols=6  Identities=50%  Similarity=1.065  Sum_probs=3.5  Template_Neff=10.200
+
+Q NIVLIM            1 NIVLIM    6 (6)
+Q Consensus         1 nivlim    6 (6)
+                      |||+|+
+T Consensus         6 nVIlI~   11 (502)
+T 4FDI_A            6 NILLLL   11 (502)
+T ss_dssp             EEEEEE
+T ss_pred             eEEEEE
+Confidence            566654
+
+
+No 21
+>6B0J_C Iota-carrageenan sulfatase; S1 sulfatase, HYDROLASE; HET: G4S, DGS, ARG, 9RN, TRS; 2.5A {Pseudoalteromonas}
+Probab=36.23  E-value=34  Score=14.28  Aligned_cols=6  Identities=67%  Similarity=1.137  Sum_probs=3.3  Template_Neff=10.500
+
+Q NIVLIM            1 NIVLIM    6 (6)
+Q Consensus         1 nivlim    6 (6)
+                      |||+|+
+T Consensus         4 NVv~I~    9 (452)
+T 6B0J_C            4 NIILIV    9 (452)
+T ss_dssp             EEEEEE
+T ss_pred             EEEEEE
+Confidence            566553
+
+
+No 22
+>6HR5_A Alpha-L-rhamnosidase/sulfatase (GH78); algal polysaccharide carrageenan sulfatase, HYDROLASE; 2.912A {Formosa agariphila KMM 3901}
+Probab=34.36  E-value=38  Score=14.26  Aligned_cols=6  Identities=50%  Similarity=1.093  Sum_probs=3.0  Template_Neff=10.400
+
+Q NIVLIM            1 NIVLIM    6 (6)
+Q Consensus         1 nivlim    6 (6)
+                      ||++|+
+T Consensus        32 nVilI~   37 (467)
+T 6HR5_A           32 NIIFIL   37 (467)
+T ss_pred             eEEEEE
+Confidence            455553
+
+
+No 23
+>1FSU_A N-ACETYLGALACTOSAMINE-4-SULFATASE; SULFATASE, GLYCOSAMINOGLYCAN DEGRADATION, HYDROLASE, GLYCOPROTEIN; HET: ALS, NAG; 2.5A {Homo sapiens} SCOP: c.76.1.2
+Probab=33.93  E-value=39  Score=14.27  Aligned_cols=6  Identities=17%  Similarity=0.833  Sum_probs=3.3  Template_Neff=10.500
+
+Q NIVLIM            1 NIVLIM    6 (6)
+Q Consensus         1 nivlim    6 (6)
+                      |||+|+
+T Consensus         5 nVi~I~   10 (492)
+T 1FSU_A            5 HLVFLL   10 (492)
+T ss_dssp             EEEEEE
+T ss_pred             eEEEEE
+Confidence            566653
+
+
+No 24
+>7ANA_AAA Carbohydrate sulfatase, mucin, microbiome, bacteroides; HET: NGA, A2G; 2.3A {Bacteroides thetaiotaomicron VPI-5482}
+Probab=32.75  E-value=42  Score=14.52  Aligned_cols=6  Identities=33%  Similarity=0.933  Sum_probs=3.1  Template_Neff=10.000
+
+Q NIVLIM            1 NIVLIM    6 (6)
+Q Consensus         1 nivlim    6 (6)
+                      |||+|+
+T Consensus        31 nIilI~   36 (503)
+T 7ANA_AAA         31 NVIYIL   36 (503)
+T ss_pred             eEEEEE
+Confidence            455553
+
+
+No 25
+>6B0K_A Iota-carrageenan sulfatase; S1 sulfatase, HYDROLASE; HET: CIT, G4S, ARG, 9RN, EDO; 2.15A {Pseudoalteromonas}
+Probab=32.65  E-value=42  Score=14.01  Aligned_cols=6  Identities=67%  Similarity=1.137  Sum_probs=3.2  Template_Neff=10.500
+
+Q NIVLIM            1 NIVLIM    6 (6)
+Q Consensus         1 nivlim    6 (6)
+                      |||+|+
+T Consensus         4 nVilI~    9 (451)
+T 6B0K_A            4 NIILIV    9 (451)
+T ss_dssp             EEEEEE
+T ss_pred             eEEEEE
+Confidence            566553
+
+
+No 26
+>7AN1_AAA Carbohydrate sulfatase, mucin, microbiome, bacteroides; HET: GAL, NAG; 1.5A {Bacteroides thetaiotaomicron (strain ATCC 29148 / DSM 2079 / NCTC 10582 / E50 / VPI-5482)}
+Probab=32.54  E-value=42  Score=14.47  Aligned_cols=6  Identities=50%  Similarity=1.021  Sum_probs=3.1  Template_Neff=10.100
+
+Q NIVLIM            1 NIVLIM    6 (6)
+Q Consensus         1 nivlim    6 (6)
+                      ||++|+
+T Consensus        31 nIilI~   36 (510)
+T 7AN1_AAA         31 NILFIL   36 (510)
+T ss_pred             eEEEEE
+Confidence            455553
+
+
+No 27
+>7ALL_AAA Carbohydrate sulfatase, Mucin, Microbiome, Bacteroides; HET: GAL, NDG; 1.63A {Bacteroides thetaiotaomicron (strain ATCC 29148 / DSM 2079 / NCTC 10582 / E50 / VPI-5482)}
+Probab=31.02  E-value=47  Score=14.52  Aligned_cols=6  Identities=83%  Similarity=1.220  Sum_probs=3.2  Template_Neff=9.900
+
+Q NIVLIM            1 NIVLIM    6 (6)
+Q Consensus         1 nivlim    6 (6)
+                      |||+|+
+T Consensus        28 nVilI~   33 (523)
+T 7ALL_AAA         28 NIVLIL   33 (523)
+T ss_pred             eEEEEE
+Confidence            456553
+
+
+No 28
+>4CYS_A ARYLSULFATASE (E.C.3.1.6.1); HYDROLASE, CATALYTIC PROMISCUITY, DIRECTED EVOLUTION; HET: PEG, DDZ, SV7; 1.88A {PSEUDOMONAS AERUGINOSA}
+Probab=28.51  E-value=55  Score=14.14  Aligned_cols=6  Identities=33%  Similarity=0.778  Sum_probs=3.2  Template_Neff=10.300
+
+Q NIVLIM            1 NIVLIM    6 (6)
+Q Consensus         1 nivlim    6 (6)
+                      ||++|+
+T Consensus         6 nVIlI~   11 (536)
+T 4CYS_A            6 NFLVIV   11 (536)
+T ss_dssp             EEEEEE
+T ss_pred             eEEEEE
+Confidence            566553
+
+
+No 29
+>4UPH_B SULFATASE (SULFURIC ESTER HYDROLASE) PROTEIN; HYDROLASE; HET: DDZ; 2.5A {AGROBACTERIUM RADIOBACTER K84}
+Probab=26.71  E-value=62  Score=14.48  Aligned_cols=6  Identities=50%  Similarity=0.850  Sum_probs=3.1  Template_Neff=9.500
+
+Q NIVLIM            1 NIVLIM    6 (6)
+Q Consensus         1 nivlim    6 (6)
+                      ||++|+
+T Consensus        46 NVilI~   51 (547)
+T 4UPH_B           46 NVLLIS   51 (547)
+T ss_dssp             EEEEEE
+T ss_pred             eEEEEE
+Confidence            455553
+
+

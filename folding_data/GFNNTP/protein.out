@@ -1,0 +1,153 @@
+Query         GFNNTP
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 23:41:52 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GFNNTP/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GFNNTP/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4J8S_A CCR4-NOT transcription   43.7      22 0.00024   15.8   0.0    6    1-6       2-7   (203)
+  2 5NUH_A Protein Nef, Tyrosine-p  27.6      59 0.00065   15.2   0.0    6    1-6       1-6   (172)
+  3 5NUH_B Protein Nef, Tyrosine-p  27.3      60 0.00066   15.2   0.0    6    1-6       1-6   (172)
+  4 6LO8_B Mitochondrial import in  23.2      80 0.00088   15.9   0.0    6    1-6     381-386 (478)
+  5 3ZPX_A LIPASE (E.C.3.1.1.3); H  14.5 1.7E+02  0.0019   12.9   0.0    6    1-6     420-425 (458)
+  6 6Q6G_U Cell division cycle pro  13.7 1.8E+02   0.002   12.2   0.0    4    3-6     580-583 (597)
+  7 6Q6G_V Cell division cycle pro  13.7 1.8E+02   0.002   12.2   0.0    4    3-6     580-583 (597)
+  8 3W7Y_B Insulin; Human insulin,  13.4 1.9E+02  0.0021    9.7   0.0    6    1-6      23-28  (30)
+  9 6SOF_F Insulin receptor (E.C.2  13.4 1.9E+02  0.0021    9.7   0.0    6    1-6      23-28  (30)
+ 10 5HWV_B Sensor histidine kinase  13.2 1.9E+02  0.0022    7.7   0.0    6    1-6       1-6   (130)
+
+No 1
+>4J8S_A CCR4-NOT transcription complex subunit 1; MIF4G, protein-protein interaction, TTP, cytosol; 1.55A {Homo sapiens}
+Probab=43.69  E-value=22  Score=15.75  Aligned_cols=6  Identities=83%  Similarity=1.597  Sum_probs=0.0  Template_Neff=6.000
+
+Q GFNNTP            1 GFNNTP    6 (6)
+Q Consensus         1 gfnntp    6 (6)
+                      ||||++
+T Consensus         2 ~~~~~~    7 (203)
+T 4J8S_A            2 GFNNDP    7 (203)
+T ss_dssp             ------
+T ss_pred             CccCCc
+Confidence            677654
+
+
+No 2
+>5NUH_A Protein Nef, Tyrosine-protein kinase HCK,Tyrosine-protein; SIV, Virus, Nef, SH3, TRANSFERASE; 2.78A {Simian immunodeficiency virus}
+Probab=27.60  E-value=59  Score=15.17  Aligned_cols=6  Identities=50%  Similarity=0.661  Sum_probs=0.0  Template_Neff=3.700
+
+Q GFNNTP            1 GFNNTP    6 (6)
+Q Consensus         1 gfnntp    6 (6)
+                      ||.|||
+T Consensus         1 ~~~~~~    6 (172)
+T 5NUH_A            1 GAMATP    6 (172)
+T ss_dssp             ------
+T ss_pred             CCCCCC
+Confidence            566765
+
+
+No 3
+>5NUH_B Protein Nef, Tyrosine-protein kinase HCK,Tyrosine-protein; SIV, Virus, Nef, SH3, TRANSFERASE; 2.78A {Simian immunodeficiency virus}
+Probab=27.35  E-value=60  Score=15.19  Aligned_cols=6  Identities=50%  Similarity=0.661  Sum_probs=0.0  Template_Neff=3.600
+
+Q GFNNTP            1 GFNNTP    6 (6)
+Q Consensus         1 gfnntp    6 (6)
+                      ||.|||
+T Consensus         1 ~~~~~~    6 (172)
+T 5NUH_B            1 GAMATP    6 (172)
+T ss_dssp             ------
+T ss_pred             CCCCCC
+Confidence            566765
+
+
+No 4
+>6LO8_B Mitochondrial import inner membrane translocase; mitochondrial import, Tim22, protein translocation;{Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=23.21  E-value=80  Score=15.93  Aligned_cols=6  Identities=50%  Similarity=1.198  Sum_probs=1.2  Template_Neff=5.600
+
+Q GFNNTP            1 GFNNTP    6 (6)
+Q Consensus         1 gfnntp    6 (6)
+                      ||-|+|
+T Consensus       381 GF~n~P  386 (478)
+T 6LO8_B          381 GFTTIP  386 (478)
+T ss_dssp             ----CC
+T ss_pred             ccccHH
+Confidence            566665
+
+
+No 5
+>3ZPX_A LIPASE (E.C.3.1.1.3); HYDROLASE, ALPHA BETA HYDROLASE; HET: PG4; 1.99A {USTILAGO MAYDIS}
+Probab=14.50  E-value=1.7e+02  Score=12.90  Aligned_cols=6  Identities=50%  Similarity=1.077  Sum_probs=0.0  Template_Neff=9.500
+
+Q GFNNTP            1 GFNNTP    6 (6)
+Q Consensus         1 gfnntp    6 (6)
+                      +|||.|
+T Consensus       420 ~~~~~~  425 (458)
+T 3ZPX_A          420 AFGNKP  425 (458)
+T ss_dssp             ------
+T ss_pred             ccCCCC
+
+
+No 6
+>6Q6G_U Cell division cycle protein 20; spindle assembly checkpoint, anaphase-promoting complex; 3.2A {Homo sapiens}
+Probab=13.69  E-value=1.8e+02  Score=12.23  Aligned_cols=4  Identities=100%  Similarity=1.473  Sum_probs=0.0  Template_Neff=11.500
+
+Q GFNNTP            3 NNTP    6 (6)
+Q Consensus         3 nntp    6 (6)
+                      ||||
+T Consensus       580 ~~~~  583 (597)
+T 6Q6G_U          580 NNTP  583 (597)
+T ss_pred             CCCC
+
+
+No 7
+>6Q6G_V Cell division cycle protein 20; spindle assembly checkpoint, anaphase-promoting complex; 3.2A {Homo sapiens}
+Probab=13.69  E-value=1.8e+02  Score=12.23  Aligned_cols=4  Identities=100%  Similarity=1.473  Sum_probs=0.0  Template_Neff=11.500
+
+Q GFNNTP            3 NNTP    6 (6)
+Q Consensus         3 nntp    6 (6)
+                      ||||
+T Consensus       580 ~~~~  583 (597)
+T 6Q6G_V          580 NNTP  583 (597)
+T ss_dssp             HHHH
+T ss_pred             CCCC
+
+
+No 8
+>3W7Y_B Insulin; Human insulin, hormone, glucose metabolism; 0.92A {Homo sapiens}
+Probab=13.38  E-value=1.9e+02  Score=9.72  Aligned_cols=6  Identities=67%  Similarity=1.066  Sum_probs=0.0  Template_Neff=5.200
+
+Q GFNNTP            1 GFNNTP    6 (6)
+Q Consensus         1 gfnntp    6 (6)
+                      ||++.+
+T Consensus        23 gf~~~~   28 (30)
+T 3W7Y_B           23 GFFYTP   28 (30)
+T ss_dssp             CEEECC
+T ss_pred             cccCCC
+
+
+No 9
+>6SOF_F Insulin receptor (E.C.2.7.10.1), Insulin; cell surface receptor, insulin, tyrosine; 4.3A {Homo sapiens}
+Probab=13.38  E-value=1.9e+02  Score=9.72  Aligned_cols=6  Identities=67%  Similarity=1.066  Sum_probs=0.0  Template_Neff=5.200
+
+Q GFNNTP            1 GFNNTP    6 (6)
+Q Consensus         1 gfnntp    6 (6)
+                      ||++.+
+T Consensus        23 gf~~~~   28 (30)
+T 6SOF_F           23 GFFYTP   28 (30)
+T ss_dssp             CCCCCC
+T ss_pred             cccCCC
+
+
+No 10
+>5HWV_B Sensor histidine kinase TodS (E.C.2.7.13.3); PAS, Two-component signal transduction, toluene; HET: MBN, MSE; 1.65A {Pseudomonas putida (strain F1 / ATCC 700007)}
+Probab=13.16  E-value=1.9e+02  Score=7.71  Aligned_cols=6  Identities=17%  Similarity=-0.141  Sum_probs=0.0  Template_Neff=14.700
+
+Q GFNNTP            1 GFNNTP    6 (6)
+Q Consensus         1 gfnntp    6 (6)
+                      ||++.|
+T Consensus         1 ~~~~~~    6 (130)
+T 5HWV_B            1 GAMALY    6 (130)
+T ss_dssp             ----CC
+T ss_pred             Cccccc
+
+

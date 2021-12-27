@@ -1,0 +1,325 @@
+Query         NFGTFS
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 23:43:13 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NFGTFS/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NFGTFS/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5J0N_I Integrase, Integration   76.9     1.9 2.1E-05   14.9   0.0    6    1-6      47-52  (96)
+  2 6N2L_A Histone family protein   76.6     1.9 2.1E-05   15.7   0.0    6    1-6      54-59  (100)
+  3 1HUE_A HU PROTEIN; DNA-BINDING  74.8     2.4 2.6E-05   14.4   0.0    6    1-6      46-51  (90)
+  4 1HUU_B PROTEIN HU; DNA-BINDING  74.8     2.4 2.6E-05   14.4   0.0    6    1-6      46-51  (90)
+  5 5OGU_A DNA-binding protein; DN  74.2     2.5 2.7E-05   14.6   0.0    6    1-6      50-55  (95)
+  6 4P3V_A DNA-binding protein HU-  73.7     2.6 2.9E-05   14.2   0.0    6    1-6      46-51  (90)
+  7 4N1V_A DNA-binding protein HU-  73.2     2.8 3.1E-05   15.3   0.0    6    1-6      54-59  (100)
+  8 5LVT_C DNA-binding protein HU;  73.0     2.8 3.1E-05   14.2   0.0    6    1-6      47-52  (91)
+  9 1P71_A DNA-BINDING PROTEIN HU/  70.7     3.5 3.8E-05   14.2   0.0    6    1-6      46-51  (94)
+ 10 1IHF_B INTEGRATION HOST FACTOR  70.2     3.6   4E-05   14.1   0.0    6    1-6      47-52  (94)
+ 11 1MUL_A DNA-binding protein HU-  69.7     3.8 4.2E-05   13.8   0.0    6    1-6      46-51  (90)
+ 12 4YFT_C DNA-binding protein HU-  69.7     3.8 4.2E-05   13.8   0.0    6    1-6      46-51  (90)
+ 13 1IHF_A INTEGRATION HOST FACTOR  68.5     4.2 4.6E-05   14.2   0.0    6    1-6      48-53  (99)
+ 14 1OWF_A Integration Host Factor  68.5     4.2 4.6E-05   14.2   0.0    6    1-6      48-53  (99)
+ 15 5EKA_A DNA-binding protein HU;  65.6     5.2 5.8E-05   13.8   0.0    6    1-6      51-56  (96)
+ 16 1WTU_B TRANSCRIPTION FACTOR 1;  64.4     5.8 6.4E-05   13.9   0.0    6    1-6      46-51  (99)
+ 17 5FBM_A DNA-binding protein HU;  61.3     7.2 7.9E-05   14.1   0.0    6    1-6      47-52  (99)
+ 18 2IIF_A DNA Kinking, bending, U  47.9      17 0.00019   15.5   0.0    6    1-6     148-153 (204)
+ 19 6N3A_J TAR DNA-binding protein  46.6      18  0.0002   14.5   0.0    6    1-6       2-7   (50)
+ 20 2IIE_A Integration Host Factor  44.5      21 0.00023   15.3   0.0    6    1-6      92-97  (204)
+ 21 1ZVB_C E2 glycoprotein; SARS c  22.5      84 0.00093   11.7   0.0    6    1-6      12-17  (34)
+
+No 1
+>5J0N_I Integrase, Integration host factor subunit; bacteriophage lambda, excision, site-specific recombination; 11.0A {Enterobacteria phage lambda}
+Probab=76.93  E-value=1.9  Score=14.91  Aligned_cols=6  Identities=50%  Similarity=1.220  Sum_probs=3.5  Template_Neff=9.500
+
+Q NFGTFS            1 NFGTFS    6 (6)
+Q Consensus         1 nfgtfs    6 (6)
+                      +||+|+
+T Consensus        47 ~~G~f~   52 (96)
+T 5J0N_I           47 GFGNFD   52 (96)
+T ss_dssp             TTEEEE
+T ss_pred             CCEEEE
+Confidence            467663
+
+
+No 2
+>6N2L_A Histone family protein DNA-binding protein; SSGCID, Burkholderia ambifaria, Histone family; 1.85A {Burkholderia ambifaria (strain MC40-6)}
+Probab=76.60  E-value=1.9  Score=15.68  Aligned_cols=6  Identities=50%  Similarity=1.270  Sum_probs=3.8  Template_Neff=8.400
+
+Q NFGTFS            1 NFGTFS    6 (6)
+Q Consensus         1 nfgtfs    6 (6)
+                      +||+|+
+T Consensus        54 ~fG~F~   59 (100)
+T 6N2L_A           54 GFGSFG   59 (100)
+T ss_dssp             TTEEEE
+T ss_pred             CCEEEE
+Confidence            477774
+
+
+No 3
+>1HUE_A HU PROTEIN; DNA-BINDING; NMR {Geobacillus stearothermophilus} SCOP: a.55.1.1
+Probab=74.76  E-value=2.4  Score=14.37  Aligned_cols=6  Identities=50%  Similarity=1.204  Sum_probs=3.4  Template_Neff=9.700
+
+Q NFGTFS            1 NFGTFS    6 (6)
+Q Consensus         1 nfgtfs    6 (6)
+                      +||+|+
+T Consensus        46 ~~G~f~   51 (90)
+T 1HUE_A           46 GFGNFE   51 (90)
+T ss_dssp             TTBEEC
+T ss_pred             CCEEEE
+Confidence            356663
+
+
+No 4
+>1HUU_B PROTEIN HU; DNA-BINDING PROTEIN, DNA SUPERCOILING, ALPHA/BETA; 2.0A {Geobacillus stearothermophilus} SCOP: a.55.1.1
+Probab=74.76  E-value=2.4  Score=14.37  Aligned_cols=6  Identities=50%  Similarity=1.204  Sum_probs=3.4  Template_Neff=9.700
+
+Q NFGTFS            1 NFGTFS    6 (6)
+Q Consensus         1 nfgtfs    6 (6)
+                      +||+|+
+T Consensus        46 ~~G~f~   51 (90)
+T 1HUU_B           46 GFGNFE   51 (90)
+T ss_dssp             TTEEEE
+T ss_pred             CCEEEE
+Confidence            356663
+
+
+No 5
+>5OGU_A DNA-binding protein; DNA BINDING PROTEIN; NMR {Spiroplasma melliferum KC3}
+Probab=74.24  E-value=2.5  Score=14.57  Aligned_cols=6  Identities=50%  Similarity=1.232  Sum_probs=3.4  Template_Neff=9.500
+
+Q NFGTFS            1 NFGTFS    6 (6)
+Q Consensus         1 nfgtfs    6 (6)
+                      +||+|+
+T Consensus        50 g~G~f~   55 (95)
+T 5OGU_A           50 GFGKFA   55 (95)
+T ss_dssp             TTEEEE
+T ss_pred             CCEEEE
+Confidence            366664
+
+
+No 6
+>4P3V_A DNA-binding protein HU-beta; Histone-like, homodimer, DNA BINDING PROTEIN; 1.25A {Escherichia coli}
+Probab=73.70  E-value=2.6  Score=14.19  Aligned_cols=6  Identities=67%  Similarity=1.364  Sum_probs=3.3  Template_Neff=9.800
+
+Q NFGTFS            1 NFGTFS    6 (6)
+Q Consensus         1 nfgtfs    6 (6)
+                      +||+|+
+T Consensus        46 ~~G~f~   51 (90)
+T 4P3V_A           46 GFGTFA   51 (90)
+T ss_dssp             TTEEEE
+T ss_pred             CCEEEE
+Confidence            356663
+
+
+No 7
+>4N1V_A DNA-binding protein HU-beta; DNA Binding, DNA BINDING PROTEIN; 1.36A {Spiroplasma melliferum}
+Probab=73.16  E-value=2.8  Score=15.29  Aligned_cols=6  Identities=50%  Similarity=1.232  Sum_probs=3.7  Template_Neff=8.400
+
+Q NFGTFS            1 NFGTFS    6 (6)
+Q Consensus         1 nfgtfs    6 (6)
+                      +||+|+
+T Consensus        54 ~lGtF~   59 (100)
+T 4N1V_A           54 GFGKFA   59 (100)
+T ss_dssp             TTEEEE
+T ss_pred             CCeEEE
+Confidence            467764
+
+
+No 8
+>5LVT_C DNA-binding protein HU; HU PROTEIN, DNA BINDING, LACTOCOCCUS; HET: SO4, ACT; 2.1A {Lactococcus lactis subsp. lactis (strain IL1403)}
+Probab=72.96  E-value=2.8  Score=14.21  Aligned_cols=6  Identities=67%  Similarity=1.315  Sum_probs=3.3  Template_Neff=9.700
+
+Q NFGTFS            1 NFGTFS    6 (6)
+Q Consensus         1 nfgtfs    6 (6)
+                      +||+|+
+T Consensus        47 ~~G~f~   52 (91)
+T 5LVT_C           47 GFGTFE   52 (91)
+T ss_dssp             TTEEEE
+T ss_pred             CCEEEE
+Confidence            356663
+
+
+No 9
+>1P71_A DNA-BINDING PROTEIN HU/DNA Complex; protein-DNA complex, DNA bending, HU; 1.9A {Anabaena sp.} SCOP: a.55.1.1
+Probab=70.68  E-value=3.5  Score=14.19  Aligned_cols=6  Identities=50%  Similarity=1.259  Sum_probs=3.3  Template_Neff=9.500
+
+Q NFGTFS            1 NFGTFS    6 (6)
+Q Consensus         1 nfgtfs    6 (6)
+                      +||+|+
+T Consensus        46 ~lG~f~   51 (94)
+T 1P71_A           46 GFGSFE   51 (94)
+T ss_dssp             TTEEEE
+T ss_pred             CCeEEE
+Confidence            356663
+
+
+No 10
+>1IHF_B INTEGRATION HOST FACTOR/DNA COMPLEX; COMPLEX (TRANSCRIPTION REGULATION-DNA), TRANSCRIPTION FACTOR; HET: CD; 2.5A {Escherichia coli} SCOP: a.55.1.1
+Probab=70.20  E-value=3.6  Score=14.08  Aligned_cols=6  Identities=67%  Similarity=1.370  Sum_probs=3.3  Template_Neff=9.600
+
+Q NFGTFS            1 NFGTFS    6 (6)
+Q Consensus         1 nfgtfs    6 (6)
+                      +||+|+
+T Consensus        47 g~G~f~   52 (94)
+T 1IHF_B           47 GFGSFS   52 (94)
+T ss_dssp             TTEEEE
+T ss_pred             CCEEEE
+Confidence            366663
+
+
+No 11
+>1MUL_A DNA-binding protein HU-alpha; histone-like, DNA BINDING PROTEIN; 2.3A {Escherichia coli} SCOP: a.55.1.1
+Probab=69.69  E-value=3.8  Score=13.80  Aligned_cols=6  Identities=67%  Similarity=1.309  Sum_probs=3.1  Template_Neff=9.800
+
+Q NFGTFS            1 NFGTFS    6 (6)
+Q Consensus         1 nfgtfs    6 (6)
+                      +||+|+
+T Consensus        46 ~~G~f~   51 (90)
+T 1MUL_A           46 GFGTFK   51 (90)
+T ss_dssp             TTEEEE
+T ss_pred             CCeEEE
+Confidence            356653
+
+
+No 12
+>4YFT_C DNA-binding protein HU-beta, DNA-binding protein; HU-DNA, transcription, pathogenicity, DNA BINDING; 2.914A {Escherichia coli}
+Probab=69.69  E-value=3.8  Score=13.80  Aligned_cols=6  Identities=67%  Similarity=1.309  Sum_probs=3.1  Template_Neff=9.800
+
+Q NFGTFS            1 NFGTFS    6 (6)
+Q Consensus         1 nfgtfs    6 (6)
+                      +||+|+
+T Consensus        46 ~~G~f~   51 (90)
+T 4YFT_C           46 GFGTFK   51 (90)
+T ss_dssp             TTEEEE
+T ss_pred             CCeEEE
+Confidence            356653
+
+
+No 13
+>1IHF_A INTEGRATION HOST FACTOR/DNA COMPLEX; COMPLEX (TRANSCRIPTION REGULATION-DNA), TRANSCRIPTION FACTOR; HET: CD; 2.5A {Escherichia coli} SCOP: a.55.1.1
+Probab=68.53  E-value=4.2  Score=14.17  Aligned_cols=6  Identities=50%  Similarity=1.220  Sum_probs=3.3  Template_Neff=9.400
+
+Q NFGTFS            1 NFGTFS    6 (6)
+Q Consensus         1 nfgtfs    6 (6)
+                      +||+|+
+T Consensus        48 g~G~f~   53 (99)
+T 1IHF_A           48 GFGNFD   53 (99)
+T ss_dssp             TTEEEE
+T ss_pred             CCEEEE
+Confidence            356663
+
+
+No 14
+>1OWF_A Integration Host Factor Alpha-subunit/Integration Host; protein-DNA recognition, indirect readout, IHF; 1.95A {Escherichia coli} SCOP: a.55.1.1
+Probab=68.53  E-value=4.2  Score=14.17  Aligned_cols=6  Identities=50%  Similarity=1.220  Sum_probs=3.3  Template_Neff=9.400
+
+Q NFGTFS            1 NFGTFS    6 (6)
+Q Consensus         1 nfgtfs    6 (6)
+                      +||+|+
+T Consensus        48 g~G~f~   53 (99)
+T 1OWF_A           48 GFGNFD   53 (99)
+T ss_dssp             TTEEEE
+T ss_pred             CCEEEE
+Confidence            356663
+
+
+No 15
+>5EKA_A DNA-binding protein HU; HU PROTEIN, HISTONE-LIKE PROTEIN, THERMOSTABLE; 1.69A {Thermus thermophilus HB8}
+Probab=65.64  E-value=5.2  Score=13.79  Aligned_cols=6  Identities=67%  Similarity=1.315  Sum_probs=3.2  Template_Neff=9.500
+
+Q NFGTFS            1 NFGTFS    6 (6)
+Q Consensus         1 nfgtfs    6 (6)
+                      +||+|+
+T Consensus        51 ~lG~f~   56 (96)
+T 5EKA_A           51 GFGTFE   56 (96)
+T ss_dssp             TTEEEE
+T ss_pred             CCeEEE
+Confidence            356653
+
+
+No 16
+>1WTU_B TRANSCRIPTION FACTOR 1; TRANSCRIPTION FACTOR, TYPE II DNA-BINDING; NMR {Bacillus phage SPO1} SCOP: a.55.1.1
+Probab=64.36  E-value=5.8  Score=13.94  Aligned_cols=6  Identities=17%  Similarity=0.257  Sum_probs=3.2  Template_Neff=9.200
+
+Q NFGTFS            1 NFGTFS    6 (6)
+Q Consensus         1 nfgtfs    6 (6)
+                      +||+|+
+T Consensus        46 ~~G~f~   51 (99)
+T 1WTU_B           46 GFLNIK   51 (99)
+T ss_dssp             TTCEEE
+T ss_pred             CCeEEE
+Confidence            356663
+
+
+No 17
+>5FBM_A DNA-binding protein HU; Histone-like protein, DNA binding, Dimerization; 1.9A {Streptococcus mutans serotype c (strain ATCC 700610 / UA159)}
+Probab=61.31  E-value=7.2  Score=14.13  Aligned_cols=6  Identities=50%  Similarity=1.204  Sum_probs=3.3  Template_Neff=8.500
+
+Q NFGTFS            1 NFGTFS    6 (6)
+Q Consensus         1 nfgtfs    6 (6)
+                      +||+|+
+T Consensus        47 glG~f~   52 (99)
+T 5FBM_A           47 GFGNFE   52 (99)
+T ss_dssp             TTEEEE
+T ss_pred             CCEEEE
+Confidence            356663
+
+
+No 18
+>2IIF_A DNA Kinking, bending, U-turn, intercalation; 2.72A {Escherichia coli}
+Probab=47.91  E-value=17  Score=15.54  Aligned_cols=6  Identities=67%  Similarity=1.370  Sum_probs=3.8  Template_Neff=7.000
+
+Q NFGTFS            1 NFGTFS    6 (6)
+Q Consensus         1 nfgtfs    6 (6)
+                      +||+|+
+T Consensus       148 gfGtF~  153 (204)
+T 2IIF_A          148 GFGSFS  153 (204)
+T ss_dssp             TTEEEE
+T ss_pred             ecccee
+Confidence            477774
+
+
+No 19
+>6N3A_J TAR DNA-binding protein 43, segA; Amyloid, TDP43, ALS, FTLD-TDP, dna; 3.3A {Homo sapiens}
+Probab=46.60  E-value=18  Score=14.54  Aligned_cols=6  Identities=83%  Similarity=1.508  Sum_probs=3.9  Template_Neff=2.200
+
+Q NFGTFS            1 NFGTFS    6 (6)
+Q Consensus         1 nfgtfs    6 (6)
+                      |||-|+
+T Consensus         2 Nfg~~~    7 (50)
+T 6N3A_J            2 NFGAFS    7 (50)
+T ss_dssp             BCSCCE
+T ss_pred             CCcccc
+Confidence            677664
+
+
+No 20
+>2IIE_A Integration Host Factor Alpha-subunit, Integration; DNA kinking, bending, U-turn, intercalation; 2.41A {Escherichia coli}
+Probab=44.48  E-value=21  Score=15.29  Aligned_cols=6  Identities=50%  Similarity=1.220  Sum_probs=3.7  Template_Neff=7.000
+
+Q NFGTFS            1 NFGTFS    6 (6)
+Q Consensus         1 nfgtfs    6 (6)
+                      +||+|+
+T Consensus        92 gfGtF~   97 (204)
+T 2IIE_A           92 GFGNFD   97 (204)
+T ss_dssp             TTEEEE
+T ss_pred             CCeEEE
+Confidence            467764
+
+
+No 21
+>1ZVB_C E2 glycoprotein; SARS coronavirus, membrane fusion, S2; 1.7A {SARS coronavirus} SCOP: h.3.3.1
+Probab=22.48  E-value=84  Score=11.66  Aligned_cols=6  Identities=67%  Similarity=1.176  Sum_probs=3.4  Template_Neff=3.100
+
+Q NFGTFS            1 NFGTFS    6 (6)
+Q Consensus         1 nfgtfs    6 (6)
+                      |||..|
+T Consensus        12 nF~aIS   17 (34)
+T 1ZVB_C           12 NFGAIS   17 (34)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            576544
+
+

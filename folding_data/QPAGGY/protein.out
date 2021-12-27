@@ -1,0 +1,158 @@
+Query         QPAGGY
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 09:03:37 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QPAGGY/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QPAGGY/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3JB0_D Structural protein VP3,  49.0      16 0.00017   19.4   0.0    6    1-6       4-9   (448)
+  2 3JB2_D Structural protein VP3,  49.0      16 0.00017   19.4   0.0    6    1-6       4-9   (448)
+  3 7ALB_T GTP cyclohydrolase 1, G  42.5      23 0.00026   15.8   0.0    6    1-6       7-12  (209)
+  4 7ALC_D GTP cyclohydrolase 1, G  42.5      23 0.00026   15.8   0.0    6    1-6       7-12  (209)
+  5 3IZ3_D Structural protein VP3,  33.9      39 0.00043   17.2   0.0    6    1-6       4-9   (291)
+  6 7K00_G ribosome; antibiotics,   32.4      43 0.00047   14.4   0.0    6    1-6     172-177 (179)
+  7 4V6C_AG PROTEIN/RNA Complex; r  30.5      48 0.00053   14.3   0.0    6    1-6     172-177 (179)
+  8 4V6S_BI PROTEIN/RNA Complex; c  30.4      49 0.00054   14.3   0.0    6    1-6     171-176 (178)
+  9 6OJ0_M Structural protein VP4,  30.4      49 0.00054   16.0   0.0    6    1-6      18-23  (181)
+ 10 6OJ0_Q Structural protein VP4,  30.4      49 0.00054   16.0   0.0    6    1-6      18-23  (181)
+
+No 1
+>3JB0_D Structural protein VP3, Capsid protein; viral ATPase, histidine-mediated guanylyl transfer; HET: GTP; 2.9A {Bombyx mori cypovirus 1}
+Probab=48.96  E-value=16  Score=19.43  Aligned_cols=6  Identities=83%  Similarity=1.769  Sum_probs=5.1  Template_Neff=2.000
+
+Q QPAGGY            1 QPAGGY    6 (6)
+Q Consensus         1 qpaggy    6 (6)
+                      ||.|||
+T Consensus         4 qp~ggY    9 (448)
+T 3JB0_D            4 QPTGGY    9 (448)
+T ss_dssp             CCSSCG
+T ss_pred             CCCCce
+Confidence            789987
+
+
+No 2
+>3JB2_D Structural protein VP3, Capsid protein; viral ATPase, histidine-mediated guanylyl transfer; HET: SAM, GTP; 3.1A {Bombyx mori cypovirus 1}
+Probab=48.96  E-value=16  Score=19.43  Aligned_cols=6  Identities=83%  Similarity=1.769  Sum_probs=5.1  Template_Neff=2.000
+
+Q QPAGGY            1 QPAGGY    6 (6)
+Q Consensus         1 qpaggy    6 (6)
+                      ||.|||
+T Consensus         4 qp~ggY    9 (448)
+T 3JB2_D            4 QPTGGY    9 (448)
+T ss_dssp             CCSSCG
+T ss_pred             CCCCce
+Confidence            789987
+
+
+No 3
+>7ALB_T GTP cyclohydrolase 1, GTPCH1, GTP; HET: ZN, QBQ, PHE; 1.979A {Homo sapiens}
+Probab=42.49  E-value=23  Score=15.83  Aligned_cols=6  Identities=67%  Similarity=1.304  Sum_probs=0.0  Template_Neff=5.800
+
+Q QPAGGY            1 QPAGGY    6 (6)
+Q Consensus         1 qpaggy    6 (6)
+                      |||.||
+T Consensus         7 ~~~~~~   12 (209)
+T 7ALB_T            7 QPADGW   12 (209)
+T ss_dssp             ------
+T ss_pred             CCCCCC
+Confidence            677776
+
+
+No 4
+>7ALC_D GTP cyclohydrolase 1, GTPCH1, GTP; HET: PHE; 1.726A {Homo sapiens}
+Probab=42.49  E-value=23  Score=15.83  Aligned_cols=6  Identities=67%  Similarity=1.304  Sum_probs=0.0  Template_Neff=5.800
+
+Q QPAGGY            1 QPAGGY    6 (6)
+Q Consensus         1 qpaggy    6 (6)
+                      |||.||
+T Consensus         7 ~~~~~~   12 (209)
+T 7ALC_D            7 QPADGW   12 (209)
+T ss_dssp             ------
+T ss_pred             CCCCCC
+Confidence            677776
+
+
+No 5
+>3IZ3_D Structural protein VP3, Structural protein; cryoelectron microscopy, cytoplasmic polyhedrosis virus; 3.9A {Bombyx mori cypovirus 1}
+Probab=33.88  E-value=39  Score=17.21  Aligned_cols=6  Identities=83%  Similarity=1.769  Sum_probs=4.7  Template_Neff=2.300
+
+Q QPAGGY            1 QPAGGY    6 (6)
+Q Consensus         1 qpaggy    6 (6)
+                      ||.|||
+T Consensus         4 ~p~ggy    9 (291)
+T 3IZ3_D            4 QPTGGY    9 (291)
+T ss_dssp             CCSSCG
+T ss_pred             CCCCce
+Confidence            688887
+
+
+No 6
+>7K00_G ribosome; antibiotics, post-translational modifications, post-transcriptional modifications; HET: MEQ, SPD, SPM, OMG, OMU, PSU, 5MC, H2U, 4OC, 2MG, G7M, 1MG, MA6, 6MZ, 4D4, 2MA, MG, 5MU, 3TD, PAR, OMC, D2T, UR3; 1.98A {Escherichia coli}
+Probab=32.40  E-value=43  Score=14.42  Aligned_cols=6  Identities=83%  Similarity=1.259  Sum_probs=2.0  Template_Neff=6.400
+
+Q QPAGGY            1 QPAGGY    6 (6)
+Q Consensus         1 qpaggy    6 (6)
+                      |||-||
+T Consensus       172 ~~~~~~  177 (179)
+T 7K00_G          172 QPALGY  177 (179)
+T ss_dssp             ---EEE
+T ss_pred             CCcccc
+Confidence            577666
+
+
+No 7
+>4V6C_AG PROTEIN/RNA Complex; ribosome structure, protein-RNA complex, Ribonucleoprotein; HET: MG; 3.19A {Escherichia coli K-12}
+Probab=30.55  E-value=48  Score=14.33  Aligned_cols=6  Identities=83%  Similarity=1.259  Sum_probs=4.0  Template_Neff=6.300
+
+Q QPAGGY            1 QPAGGY    6 (6)
+Q Consensus         1 qpaggy    6 (6)
+                      |||-||
+T Consensus       172 ~~~~~~  177 (179)
+T 4V6C_AG         172 QPALGY  177 (179)
+T ss_pred             CCcccc
+Confidence            577666
+
+
+No 8
+>4V6S_BI PROTEIN/RNA Complex; cryoelectron microscopy, molecular dynamics flexible; HET: OMU, 2MG, 7MG, CH, OMC, 6MZ, 1MG, PSU, OMG, 3TD, 2MA, 4SU, 5MC, 4OC, H2U, MA6, UR3, 5MU; 13.1A {Escherichia coli}
+Probab=30.43  E-value=49  Score=14.30  Aligned_cols=6  Identities=83%  Similarity=1.259  Sum_probs=3.9  Template_Neff=6.300
+
+Q QPAGGY            1 QPAGGY    6 (6)
+Q Consensus         1 qpaggy    6 (6)
+                      |||-||
+T Consensus       171 ~~~~~~  176 (178)
+T 4V6S_BI         171 QPALGY  176 (178)
+T ss_pred             CCcccc
+Confidence            577666
+
+
+No 9
+>6OJ0_M Structural protein VP4, Uncharacterized protein; archaeal pilus, STRUCTURAL PROTEIN, icosahedral; 3.7A {Sulfolobus polyhedral virus 1}
+Probab=30.36  E-value=49  Score=16.02  Aligned_cols=6  Identities=83%  Similarity=1.608  Sum_probs=4.3  Template_Neff=1.000
+
+Q QPAGGY            1 QPAGGY    6 (6)
+Q Consensus         1 qpaggy    6 (6)
+                      ||-|||
+T Consensus        18 qpfggy   23 (181)
+T 6OJ0_M           18 QPFGGY   23 (181)
+T ss_dssp             STTCCE
+T ss_pred             cCCCeE
+Confidence            677776
+
+
+No 10
+>6OJ0_Q Structural protein VP4, Uncharacterized protein; archaeal pilus, STRUCTURAL PROTEIN, icosahedral; 3.7A {Sulfolobus polyhedral virus 1}
+Probab=30.36  E-value=49  Score=16.02  Aligned_cols=6  Identities=83%  Similarity=1.608  Sum_probs=4.3  Template_Neff=1.000
+
+Q QPAGGY            1 QPAGGY    6 (6)
+Q Consensus         1 qpaggy    6 (6)
+                      ||-|||
+T Consensus        18 qpfggy   23 (181)
+T 6OJ0_Q           18 QPFGGY   23 (181)
+T ss_dssp             STTCCE
+T ss_pred             cCCCeE
+Confidence            677776
+
+

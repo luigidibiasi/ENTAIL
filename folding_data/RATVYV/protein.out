@@ -1,0 +1,152 @@
+Query         RATVYV
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 11:56:02 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/RATVYV/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/RATVYV/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6JLC_A CAMP factor; Bacterial   28.9      54 0.00059   15.8   0.0    6    1-6     149-154 (231)
+  2 5Y2G_A Maltose-binding peripla  28.2      56 0.00062   15.1   0.0    6    1-6     511-516 (595)
+  3 5H6I_A Protein B; Pore forming  26.2      64 0.00071   15.8   0.0    6    1-6     173-178 (246)
+  4 6D57_B Ferric uptake regulatio  15.3 1.6E+02  0.0017   11.3   0.0    5    1-5      68-72  (161)
+  5 5LS7_A Aspartate 1-decarboxyla  15.2 1.6E+02  0.0017   11.5   0.0    4    1-4      29-32  (41)
+  6 1PYU_A Auto-processing, Aspart  15.2 1.6E+02  0.0017   11.5   0.0    4    1-4      29-32  (41)
+  7 4ZV1_A AncQR; periplasmic bind  14.9 1.6E+02  0.0018   10.2   0.0    6    1-6       9-14  (233)
+  8 4ZV2_A AncQR; periplasmic bind  14.9 1.6E+02  0.0018   10.2   0.0    6    1-6       9-14  (233)
+  9 3CRJ_C Transcription regulator  14.5 1.7E+02  0.0019   10.0   0.0    5    1-5      48-52  (199)
+ 10 6YE5_A Ribosome-binding factor  14.5 1.7E+02  0.0019   11.0   0.0    5    2-6      47-51  (118)
+
+No 1
+>6JLC_A CAMP factor; Bacterial vaginosis, Mobiluncus curtisii, toxin; 1.847A {Mobiluncus curtisii (strain ATCC 43063 / DSM 2711 / V125)}
+Probab=28.88  E-value=54  Score=15.76  Aligned_cols=6  Identities=67%  Similarity=1.054  Sum_probs=3.8  Template_Neff=4.000
+
+Q RATVYV            1 RATVYV    6 (6)
+Q Consensus         1 ratvyv    6 (6)
+                      +||+|+
+T Consensus       149 ~ATiYv  154 (231)
+T 6JLC_A          149 TATIYV  154 (231)
+T ss_dssp             BCCHHH
+T ss_pred             chhHHH
+Confidence            467775
+
+
+No 2
+>5Y2G_A Maltose-binding periplasmic protein,Protein B; Camp factor, pore forming toxin; HET: MAL, SO4; 3.0A {Escherichia coli}
+Probab=28.21  E-value=56  Score=15.11  Aligned_cols=6  Identities=67%  Similarity=1.137  Sum_probs=3.6  Template_Neff=8.900
+
+Q RATVYV            1 RATVYV    6 (6)
+Q Consensus         1 ratvyv    6 (6)
+                      +||+||
+T Consensus       511 ~~~~~~  516 (595)
+T 5Y2G_A          511 RATIYT  516 (595)
+T ss_pred             ceehhh
+Confidence            366764
+
+
+No 3
+>5H6I_A Protein B; Pore forming toxin, TOXIN; HET: SO4; 2.45A {Streptococcus agalactiae}
+Probab=26.20  E-value=64  Score=15.79  Aligned_cols=6  Identities=67%  Similarity=1.137  Sum_probs=3.8  Template_Neff=3.600
+
+Q RATVYV            1 RATVYV    6 (6)
+Q Consensus         1 ratvyv    6 (6)
+                      +||+|+
+T Consensus       173 ~ATiYv  178 (246)
+T 5H6I_A          173 RATIYT  178 (246)
+T ss_dssp             BCCTTT
+T ss_pred             chhHHh
+Confidence            467775
+
+
+No 4
+>6D57_B Ferric uptake regulation protein; Fur, ferric uptake regulator, Campylobacter; HET: FMT, OHI, GOL; 1.81A {Campylobacter jejuni}
+Probab=15.34  E-value=1.6e+02  Score=11.34  Aligned_cols=5  Identities=80%  Similarity=0.913  Sum_probs=0.0  Template_Neff=9.000
+
+Q RATVYV            1 RATVY    5 (6)
+Q Consensus         1 ratvy    5 (6)
+                      ++|||
+T Consensus        68 ~~TVy   72 (161)
+T 6D57_B           68 IATVY   72 (161)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 5
+>5LS7_A Aspartate 1-decarboxylase (E.C.4.1.1.11), PanD maturation; protein derived cofactor, coenzyme A; HET: ACO, GOL; 1.16A {Escherichia coli K-12}
+Probab=15.23  E-value=1.6e+02  Score=11.54  Aligned_cols=4  Identities=50%  Similarity=0.692  Sum_probs=0.0  Template_Neff=2.300
+
+Q RATVYV            1 RATV    4 (6)
+Q Consensus         1 ratv    4 (6)
+                      ||||
+T Consensus        29 RATV   32 (41)
+T 5LS7_A           29 RVKV   32 (41)
+T ss_dssp             EEEC
+T ss_pred             eeEe
+
+
+No 6
+>1PYU_A Auto-processing, Aspartate Decarboxylase, pyruvoyl, LYASE; HET: SO4; 1.9A {Escherichia coli} SCOP: b.52.2.1
+Probab=15.18  E-value=1.6e+02  Score=11.53  Aligned_cols=4  Identities=50%  Similarity=0.692  Sum_probs=0.0  Template_Neff=2.300
+
+Q RATVYV            1 RATV    4 (6)
+Q Consensus         1 ratv    4 (6)
+                      ||||
+T Consensus        29 RATV   32 (41)
+T 1PYU_A           29 RVKV   32 (41)
+T ss_dssp             EEEC
+T ss_pred             eeEe
+
+
+No 7
+>4ZV1_A AncQR; periplasmic binding protein, solute binding; HET: ARG; 1.52A {synthetic construct}
+Probab=14.88  E-value=1.6e+02  Score=10.24  Aligned_cols=6  Identities=50%  Similarity=0.617  Sum_probs=0.0  Template_Neff=12.300
+
+Q RATVYV            1 RATVYV    6 (6)
+Q Consensus         1 ratvyv    6 (6)
+                      |.|+|+
+T Consensus         9 ~~~~~~   14 (233)
+T 4ZV1_A            9 RGTLRV   14 (233)
+T ss_dssp             CCEEEE
+T ss_pred             ceeeEE
+
+
+No 8
+>4ZV2_A AncQR; periplasmic binding protein, solute binding; HET: GLN; 1.43A {synthetic construct}
+Probab=14.88  E-value=1.6e+02  Score=10.24  Aligned_cols=6  Identities=50%  Similarity=0.617  Sum_probs=0.0  Template_Neff=12.300
+
+Q RATVYV            1 RATVYV    6 (6)
+Q Consensus         1 ratvyv    6 (6)
+                      |.|+|+
+T Consensus         9 ~~~~~~   14 (233)
+T 4ZV2_A            9 RGTLRV   14 (233)
+T ss_dssp             CSEEEE
+T ss_pred             ceeeEE
+
+
+No 9
+>3CRJ_C Transcription regulator; APC88200, TetR, Haloarcula marismortui ATCC; HET: MSE; 2.6A {Haloarcula marismortui ATCC 43049}
+Probab=14.51  E-value=1.7e+02  Score=9.97  Aligned_cols=5  Identities=40%  Similarity=0.268  Sum_probs=0.0  Template_Neff=12.200
+
+Q RATVYV            1 RATVY    5 (6)
+Q Consensus         1 ratvy    5 (6)
+                      ++|+|
+T Consensus        48 ~~t~y   52 (199)
+T 3CRJ_C           48 TAAVH   52 (199)
+T ss_dssp             TTTSC
+T ss_pred             HHHHH
+
+
+No 10
+>6YE5_A Ribosome-binding factor A; Protein synthesis, heterologous protein expression; NMR {Staphylococcus aureus}
+Probab=14.45  E-value=1.7e+02  Score=11.02  Aligned_cols=5  Identities=40%  Similarity=0.853  Sum_probs=0.0  Template_Neff=8.300
+
+Q RATVYV            2 ATVYV    6 (6)
+Q Consensus         2 atvyv    6 (6)
+                      |+||+
+T Consensus        47 a~Vy~   51 (118)
+T 6YE5_A           47 AKVFL   51 (118)
+T ss_dssp             EEEEE
+T ss_pred             EEEEE
+
+

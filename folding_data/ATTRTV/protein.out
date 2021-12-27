@@ -1,0 +1,148 @@
+Query         ATTRTV
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 15:53:12 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/ATTRTV/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/ATTRTV/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 7D06_A Lipid asymmetry mainten   3.3 1.2E+03   0.013   10.6   0.0    6    1-6     231-236 (258)
+  2 3DMN_A Putative DNA helicase;    3.3 1.2E+03   0.013    8.1   0.0    5    1-5     140-144 (174)
+  3 2GMG_A hypothetical protein Pf   3.2 1.2E+03   0.014    9.2   0.0    4    1-4      10-13  (105)
+  4 2AHQ_A RNA polymerase sigma fa   3.2 1.3E+03   0.014    8.9   0.0    3    4-6      57-59  (76)
+  5 1N5G_A 38-mer of DNA polymeras   3.1 1.3E+03   0.015    7.0   0.0    6    1-6      11-16  (38)
+  6 7CHA_H MlaD domain-containing    2.9 1.4E+03   0.015   10.6   0.0    6    1-6     238-243 (265)
+  7 2O8K_A RNA POLYMERASE SIGMA FA   2.8 1.4E+03   0.016    8.7   0.0    3    4-6      44-46  (63)
+  8 1OTW_A Coenzyme PQQ synthesis    2.8 1.5E+03   0.017    9.0   0.0    5    2-6     248-252 (255)
+  9 6KHI_M Chlorophyll a-b binding   2.7 1.5E+03   0.017   10.4   0.0    6    1-6       5-10  (111)
+ 10 6NBQ_M PROTEIN; photosynthesis   2.7 1.5E+03   0.017   10.4   0.0    6    1-6       5-10  (111)
+
+No 1
+>7D06_A Lipid asymmetry maintenance ABC transporter; MEMBRANE PROTEIN; HET: PGV; 3.1A {Acinetobacter baumannii}
+Probab=3.29  E-value=1.2e+03  Score=10.58  Aligned_cols=6  Identities=83%  Similarity=0.827  Sum_probs=0.0  Template_Neff=7.000
+
+Q ATTRTV            1 ATTRTV    6 (6)
+Q Consensus         1 attrtv    6 (6)
+                      |++|.|
+T Consensus       231 a~t~av  236 (258)
+T 7D06_A          231 AMTRTV  236 (258)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 2
+>3DMN_A Putative DNA helicase; APC89291.2, DNA helicase, Lactobacillus plantarum; HET: ACT; 1.66A {Lactobacillus plantarum}
+Probab=3.25  E-value=1.2e+03  Score=8.12  Aligned_cols=5  Identities=20%  Similarity=0.368  Sum_probs=0.0  Template_Neff=11.200
+
+Q ATTRTV            1 ATTRT    5 (6)
+Q Consensus         1 attrt    5 (6)
+                      |.||.
+T Consensus       140 a~tRA  144 (174)
+T 3DMN_A          140 ICSRA  144 (174)
+T ss_dssp             HHTTE
+T ss_pred             HHccc
+
+
+No 3
+>2GMG_A hypothetical protein Pf0610; winged-helix like protein with metal; NMR {Pyrococcus furiosus} SCOP: a.4.5.82
+Probab=3.20  E-value=1.2e+03  Score=9.16  Aligned_cols=4  Identities=75%  Similarity=0.783  Sum_probs=0.0  Template_Neff=6.800
+
+Q ATTRTV            1 ATTR    4 (6)
+Q Consensus         1 attr    4 (6)
+                      ||+|
+T Consensus        10 ~t~r   13 (105)
+T 2GMG_A           10 ATRR   13 (105)
+T ss_dssp             HHHH
+T ss_pred             ccHH
+
+
+No 4
+>2AHQ_A RNA polymerase sigma factor RpoN; Sigma-54,sigma factors, solution structure, transcription; NMR {Aquifex aeolicus}
+Probab=3.16  E-value=1.3e+03  Score=8.89  Aligned_cols=3  Identities=100%  Similarity=1.176  Sum_probs=0.0  Template_Neff=6.100
+
+Q ATTRTV            4 RTV    6 (6)
+Q Consensus         4 rtv    6 (6)
+                      |||
+T Consensus        57 RTV   59 (76)
+T 2AHQ_A           57 RTV   59 (76)
+T ss_dssp             HHH
+T ss_pred             HHH
+
+
+No 5
+>1N5G_A 38-mer of DNA polymerase alpha; zinc finger protein, DNA binding; NMR {N/A} SCOP: g.67.1.1
+Probab=3.06  E-value=1.3e+03  Score=6.99  Aligned_cols=6  Identities=33%  Similarity=0.457  Sum_probs=0.0  Template_Neff=7.900
+
+Q ATTRTV            1 ATTRTV    6 (6)
+Q Consensus         1 attrtv    6 (6)
+                      ..||.+
+T Consensus        11 ~~Tr~~   16 (38)
+T 1N5G_A           11 NRTRHL   16 (38)
+T ss_pred             Ccceee
+
+
+No 6
+>7CHA_H MlaD domain-containing protein, Probable permease; Mla complex, Lipid transporter, MEMBRANE; HET: LPP, ANP;{Pseudomonas aeruginosa (strain ATCC 15692 / DSM 22644 / CIP 104116 / JCM 14847 / LMG 12228 / 1C / PRS 101 / PAO1)}
+Probab=2.91  E-value=1.4e+03  Score=10.56  Aligned_cols=6  Identities=100%  Similarity=0.999  Sum_probs=0.0  Template_Neff=6.700
+
+Q ATTRTV            1 ATTRTV    6 (6)
+Q Consensus         1 attrtv    6 (6)
+                      |++|.|
+T Consensus       238 att~av  243 (265)
+T 7CHA_H          238 ATTRTV  243 (265)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 7
+>2O8K_A RNA POLYMERASE SIGMA FACTOR RPON/DNA; PROTEIN-DNA COMPLEX, HELIX-TURN-HELIX, TRANSCRIPTION FACTOR; NMR {Aquifex aeolicus}
+Probab=2.84  E-value=1.4e+03  Score=8.66  Aligned_cols=3  Identities=100%  Similarity=1.176  Sum_probs=0.0  Template_Neff=5.500
+
+Q ATTRTV            4 RTV    6 (6)
+Q Consensus         4 rtv    6 (6)
+                      |||
+T Consensus        44 RTV   46 (63)
+T 2O8K_A           44 RTV   46 (63)
+T ss_dssp             HHH
+T ss_pred             HHH
+
+
+No 8
+>1OTW_A Coenzyme PQQ synthesis protein C; PqqC, PQQ biosynthesis, oxidase, complex; HET: PQQ; 2.3A {Klebsiella pneumoniae} SCOP: a.132.1.4
+Probab=2.75  E-value=1.5e+03  Score=9.03  Aligned_cols=5  Identities=80%  Similarity=0.787  Sum_probs=0.0  Template_Neff=10.000
+
+Q ATTRTV            2 TTRTV    6 (6)
+Q Consensus         2 ttrtv    6 (6)
+                      |||-|
+T Consensus       248 ~~~~~  252 (255)
+T 1OTW_A          248 TTRLV  252 (255)
+T ss_dssp             CSCTT
+T ss_pred             Hhhhh
+
+
+No 9
+>6KHI_M Chlorophyll a-b binding protein, chloroplastic; Cylic electron transport, photosynthetic NDH; HET: SQD, SF4, LMG, LHG, BCR, DGD;{Thermosynechococcus elongatus BP-1}
+Probab=2.67  E-value=1.5e+03  Score=10.40  Aligned_cols=6  Identities=67%  Similarity=0.772  Sum_probs=0.0  Template_Neff=2.500
+
+Q ATTRTV            1 ATTRTV    6 (6)
+Q Consensus         1 attrtv    6 (6)
+                      .|||-|
+T Consensus         5 sTTRHv   10 (111)
+T 6KHI_M            5 STTRHV   10 (111)
+T ss_dssp             CBCSSC
+T ss_pred             eecceE
+
+
+No 10
+>6NBQ_M PROTEIN; photosynthesis, bioenergetics, membrane protein complex; HET: SF4; 3.1A {Thermosynechococcus elongatus (strain BP-1)}
+Probab=2.67  E-value=1.5e+03  Score=10.40  Aligned_cols=6  Identities=67%  Similarity=0.772  Sum_probs=0.0  Template_Neff=2.500
+
+Q ATTRTV            1 ATTRTV    6 (6)
+Q Consensus         1 attrtv    6 (6)
+                      .|||-|
+T Consensus         5 sTTRHv   10 (111)
+T 6NBQ_M            5 STTRHV   10 (111)
+T ss_pred             eecceE
+
+

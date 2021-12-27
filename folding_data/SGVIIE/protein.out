@@ -1,0 +1,143 @@
+Query         SGVIIE
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 14:38:33 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/SGVIIE/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/SGVIIE/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6YXR_J Photosystem I P700 chlo  16.7 1.4E+02  0.0015   11.2   0.0    6    1-6      23-28  (40)
+  2 2HZM_E beta barrel, channel, T  16.5 1.4E+02  0.0015   12.6   0.0    5    2-6     152-156 (212)
+  3 4KT0_J Photosystem I P700 chlo  16.5 1.4E+02  0.0015   11.2   0.0    6    1-6      23-28  (40)
+  4 4GWQ_F Mediator of RNA polymer  16.4 1.4E+02  0.0016   12.6   0.0    5    2-6     150-154 (210)
+  5 6L4U_J PROTEIN; Photosystem I,  16.3 1.4E+02  0.0016   11.2   0.0    6    1-6      23-28  (41)
+  6 6KIG_T Photosystem I P700 chlo  16.2 1.4E+02  0.0016   11.1   0.0    6    1-6      23-28  (41)
+  7 1JB0_J PHOTOSYSTEM I SUBUNIT P  15.5 1.5E+02  0.0017   11.1   0.0    6    1-6      23-28  (41)
+  8 7A4P_J photosystem I, light st  15.2 1.6E+02  0.0017   11.1   0.0    6    1-6      23-28  (41)
+  9 3PG8_A Phospho-2-dehydro-3-deo  15.0 1.6E+02  0.0018   12.4   0.0    5    2-6     228-232 (272)
+ 10 1TMF_4 THEILER'S MURINE ENCEPH  15.0 1.6E+02  0.0018   11.8   0.0    5    1-5       6-10  (45)
+
+No 1
+>6YXR_J Photosystem I P700 chlorophyll a; membrane complex, photosystem I, dunaliella; HET: SF4, LUT, LMG, 3PH, CHL, PQN, XAT, LHG, BCR, CL0, DGD, CLA;{Dunaliella salina}
+Probab=16.68  E-value=1.4e+02  Score=11.16  Aligned_cols=6  Identities=67%  Similarity=1.165  Sum_probs=0.0  Template_Neff=3.900
+
+Q SGVIIE            1 SGVIIE    6 (6)
+Q Consensus         1 sgviie    6 (6)
+                      +|.+||
+T Consensus        23 ag~lIe   28 (40)
+T 6YXR_J           23 SGLLIE   28 (40)
+T ss_pred             HHHHHH
+
+
+No 2
+>2HZM_E beta barrel, channel, TRANSCRIPTION; 2.4A {Saccharomyces cerevisiae}
+Probab=16.49  E-value=1.4e+02  Score=12.63  Aligned_cols=5  Identities=60%  Similarity=1.252  Sum_probs=0.0  Template_Neff=7.700
+
+Q SGVIIE            2 GVIIE    6 (6)
+Q Consensus         2 gviie    6 (6)
+                      |++||
+T Consensus       152 G~lvE  156 (212)
+T 2HZM_E          152 GLLIE  156 (212)
+T ss_dssp             EEEEE
+T ss_pred             EEEEE
+
+
+No 3
+>4KT0_J Photosystem I P700 chlorophyll a; photosynthetic reaction center, membrane complex; HET: BCR, LHG, CLA, CL0, SF4, LMG, LMU, PQN; 2.8A {Synechocystis sp. PCC 6803}
+Probab=16.48  E-value=1.4e+02  Score=11.17  Aligned_cols=6  Identities=50%  Similarity=1.176  Sum_probs=0.0  Template_Neff=3.800
+
+Q SGVIIE            1 SGVIIE    6 (6)
+Q Consensus         1 sgviie    6 (6)
+                      +|.+||
+T Consensus        23 ag~lIe   28 (40)
+T 4KT0_J           23 AGILIE   28 (40)
+T ss_pred             HHHHHH
+
+
+No 4
+>4GWQ_F Mediator of RNA polymerase II; Binding Sites, Mediator Complex, Models; 4.5A {Saccharomyces cerevisiae}
+Probab=16.36  E-value=1.4e+02  Score=12.60  Aligned_cols=5  Identities=60%  Similarity=1.252  Sum_probs=0.0  Template_Neff=7.700
+
+Q SGVIIE            2 GVIIE    6 (6)
+Q Consensus         2 gviie    6 (6)
+                      |++||
+T Consensus       150 G~lvE  154 (210)
+T 4GWQ_F          150 GLLIE  154 (210)
+T ss_dssp             EEEEE
+T ss_pred             EEEEE
+
+
+No 5
+>6L4U_J PROTEIN; Photosystem I, ELECTRON TRANSPORT; HET: SF4, LHG, LMG, BCR, CL0, LMT, KC1, PQN, DD6, A86, CLA; 2.4A {Chaetoceros gracilis}
+Probab=16.27  E-value=1.4e+02  Score=11.16  Aligned_cols=6  Identities=67%  Similarity=1.077  Sum_probs=0.0  Template_Neff=3.900
+
+Q SGVIIE            1 SGVIIE    6 (6)
+Q Consensus         1 sgviie    6 (6)
+                      +|.+||
+T Consensus        23 ag~lIE   28 (41)
+T 6L4U_J           23 AGFIIE   28 (41)
+T ss_pred             HHHHHH
+
+
+No 6
+>6KIG_T Photosystem I P700 chlorophyll a; Photosystem, Antenna, Chlorophyll-binding protein, Membrane; HET: SQD, SF4, LMU, LMG, PQN, LHG, BCR, CLA; 2.9A {Synechococcus elongatus (strain PCC 7942)}
+Probab=16.21  E-value=1.4e+02  Score=11.12  Aligned_cols=6  Identities=50%  Similarity=1.176  Sum_probs=0.0  Template_Neff=4.000
+
+Q SGVIIE            1 SGVIIE    6 (6)
+Q Consensus         1 sgviie    6 (6)
+                      +|.+||
+T Consensus        23 ag~lIe   28 (41)
+T 6KIG_T           23 AGILIE   28 (41)
+T ss_pred             HHHHHH
+
+
+No 7
+>1JB0_J PHOTOSYSTEM I SUBUNIT PSAA, PHOTOSYSTEM; MEMBRANE PROTEIN, MULTIPROTEIN-PIGMENT COMPLEX, PHOTOSYNTHESIS; HET: LHG, PQN, BCR, LMG, SF4, CLA; 2.5A {Synechococcus elongatus} SCOP: f.23.18.1
+Probab=15.50  E-value=1.5e+02  Score=11.08  Aligned_cols=6  Identities=50%  Similarity=1.176  Sum_probs=0.0  Template_Neff=3.900
+
+Q SGVIIE            1 SGVIIE    6 (6)
+Q Consensus         1 sgviie    6 (6)
+                      +|.+||
+T Consensus        23 Ag~lIe   28 (41)
+T 1JB0_J           23 AGILIE   28 (41)
+T ss_pred             HHHHHH
+
+
+No 8
+>7A4P_J photosystem I, light stress, PHOTOSYNTHESIS; HET: SPH, DGA, PQN, CLA, 3PH, LPX, ECH, P5S, XAT, 4RF, CL0, LMT, OLA, PCW, ERG, SQD, CHL, LUT, BCR, C7Z, DGD, PTY, RRX, LAP, QTB, SF4, LHG, PLM;{Chlorella ohadii}
+Probab=15.20  E-value=1.6e+02  Score=11.08  Aligned_cols=6  Identities=50%  Similarity=1.104  Sum_probs=0.0  Template_Neff=3.800
+
+Q SGVIIE            1 SGVIIE    6 (6)
+Q Consensus         1 sgviie    6 (6)
+                      +|.+||
+T Consensus        23 ag~lIe   28 (41)
+T 7A4P_J           23 AGLLIE   28 (41)
+T ss_pred             HHHHHH
+
+
+No 9
+>3PG8_A Phospho-2-dehydro-3-deoxyheptonate aldolase (E.C.2.5.1.54); Thermotoga maritima, DAH7PS, Shikimate pathway; HET: GOL; 2.0A {Thermotoga maritima}
+Probab=15.02  E-value=1.6e+02  Score=12.36  Aligned_cols=5  Identities=60%  Similarity=1.358  Sum_probs=0.0  Template_Neff=8.800
+
+Q SGVIIE            2 GVIIE    6 (6)
+Q Consensus         2 gviie    6 (6)
+                      |++||
+T Consensus       228 Gv~IE  232 (272)
+T 3PG8_A          228 GIIVE  232 (272)
+T ss_dssp             EEEEE
+T ss_pred             EEEEE
+
+
+No 10
+>1TMF_4 THEILER'S MURINE ENCEPHALOMYELITIS VIRUS COAT; COAT PROTEIN, Icosahedral virus, Virus; 3.5A {Theiler's encephalomyelitis virus} SCOP: b.121.4.1
+Probab=14.99  E-value=1.6e+02  Score=11.82  Aligned_cols=5  Identities=80%  Similarity=1.212  Sum_probs=0.0  Template_Neff=1.500
+
+Q SGVIIE            1 SGVII    5 (6)
+Q Consensus         1 sgvii    5 (6)
+                      +||||
+T Consensus         6 ~G~Ii   10 (45)
+T 1TMF_4            6 EGVII   10 (45)
+T ss_pred             ceeee
+
+

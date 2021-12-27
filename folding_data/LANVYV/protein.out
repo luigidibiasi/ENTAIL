@@ -1,0 +1,149 @@
+Query         LANVYV
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 14:01:34 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LANVYV/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LANVYV/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3ZEF_E A1 CISTRON-SPLICING FAC   8.7 3.5E+02  0.0038   16.5   0.0    5    2-6     735-739 (1531)
+  2 4I43_B A1 cistron-splicing fac   8.2 3.7E+02  0.0041   16.5   0.0    5    2-6     768-772 (1564)
+  3 5FIR_B 5'-3' EXORIBONUCLEASE 2   7.9   4E+02  0.0044   10.7   0.0    6    1-6      45-50  (78)
+  4 4EBG_B Uncharacterized protein   7.8   4E+02  0.0044   11.2   0.0    5    2-6      36-40  (101)
+  5 5FIR_D 5'-3' EXORIBONUCLEASE 2   7.8   4E+02  0.0044   10.6   0.0    6    1-6      45-50  (78)
+  6 5UD7_F Triggering receptor exp   7.6 4.2E+02  0.0046    8.7   0.0    5    2-6     157-161 (169)
+  7 4EBG_A Uncharacterized protein   7.5 4.2E+02  0.0047   11.0   0.0    5    2-6      36-40  (101)
+  8 1KKG_A ribosome-binding factor   7.5 4.3E+02  0.0047    9.8   0.0    5    2-6      50-54  (108)
+  9 1PA4_A Probable ribosome-bindi   7.4 4.3E+02  0.0047    9.9   0.0    5    2-6      47-51  (116)
+ 10 6YE5_A Ribosome-binding factor   7.1 4.6E+02   0.005    9.9   0.0    5    2-6      47-51  (118)
+
+No 1
+>3ZEF_E A1 CISTRON-SPLICING FACTOR AAR2, PRE-MRNA-SPLICING; TRANSLATION, PRE-MRNA SPLICING, SPLICEOSOME, U5; 3.1A {SACCHAROMYCES CEREVISIAE}
+Probab=8.70  E-value=3.5e+02  Score=16.49  Aligned_cols=5  Identities=100%  Similarity=1.384  Sum_probs=0.0  Template_Neff=4.500
+
+Q LANVYV            2 ANVYV    6 (6)
+Q Consensus         2 anvyv    6 (6)
+                      |||||
+T Consensus       735 anVYV  739 (1531)
+T 3ZEF_E          735 ANVYV  739 (1531)
+T ss_dssp             TTTCC
+T ss_pred             cceeE
+
+
+No 2
+>4I43_B A1 cistron-splicing factor AAR2, Pre-mRNA-splicing; spliceosome, U5 snRNP, Prp8, Reverse; 2.0A {Saccharomyces cerevisiae}
+Probab=8.21  E-value=3.7e+02  Score=16.45  Aligned_cols=5  Identities=100%  Similarity=1.384  Sum_probs=0.0  Template_Neff=4.400
+
+Q LANVYV            2 ANVYV    6 (6)
+Q Consensus         2 anvyv    6 (6)
+                      |||||
+T Consensus       768 anVYV  772 (1564)
+T 4I43_B          768 ANVYV  772 (1564)
+T ss_dssp             TTTCC
+T ss_pred             cceEE
+
+
+No 3
+>5FIR_B 5'-3' EXORIBONUCLEASE 2 HOMOLOG (E.C.3.1.13.-); HYDROLASE, 5'-3' EXORIBONUCLEASE, MIRNA TURNOVER; HET: SO4, MSE; 2.836A {CAENORHABDITIS ELEGANS}
+Probab=7.86  E-value=4e+02  Score=10.73  Aligned_cols=6  Identities=17%  Similarity=0.877  Sum_probs=0.0  Template_Neff=5.000
+
+Q LANVYV            1 LANVYV    6 (6)
+Q Consensus         1 lanvyv    6 (6)
+                      ||++|+
+T Consensus        45 LS~~f~   50 (78)
+T 5FIR_B           45 LSQLFI   50 (78)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 4
+>4EBG_B Uncharacterized protein; secreted protein, PF14729 family, Structural; 1.2A {Staphylococcus aureus subsp. aureus Mu50}
+Probab=7.84  E-value=4e+02  Score=11.19  Aligned_cols=5  Identities=40%  Similarity=0.408  Sum_probs=0.0  Template_Neff=5.000
+
+Q LANVYV            2 ANVYV    6 (6)
+Q Consensus         2 anvyv    6 (6)
+                      ||++|
+T Consensus        36 a~i~V   40 (101)
+T 4EBG_B           36 SNTHV   40 (101)
+T ss_dssp             SEEEE
+T ss_pred             ccEEE
+
+
+No 5
+>5FIR_D 5'-3' EXORIBONUCLEASE 2 HOMOLOG (E.C.3.1.13.-); HYDROLASE, 5'-3' EXORIBONUCLEASE, MIRNA TURNOVER; HET: SO4, MSE; 2.836A {CAENORHABDITIS ELEGANS}
+Probab=7.82  E-value=4e+02  Score=10.65  Aligned_cols=6  Identities=17%  Similarity=0.877  Sum_probs=0.0  Template_Neff=5.200
+
+Q LANVYV            1 LANVYV    6 (6)
+Q Consensus         1 lanvyv    6 (6)
+                      ||++|+
+T Consensus        45 LS~~f~   50 (78)
+T 5FIR_D           45 LSQLFI   50 (78)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 6
+>5UD7_F Triggering receptor expressed on myeloid; Ig-like domain, receptor, lipid binding; HET: NAG; 2.20002253654A {Homo sapiens}
+Probab=7.58  E-value=4.2e+02  Score=8.74  Aligned_cols=5  Identities=40%  Similarity=0.899  Sum_probs=0.0  Template_Neff=12.200
+
+Q LANVYV            2 ANVYV    6 (6)
+Q Consensus         2 anvyv    6 (6)
+                      +|+|.
+T Consensus       157 ~~~~~  161 (169)
+T 5UD7_F          157 ENLYF  161 (169)
+T ss_pred             hhhcc
+
+
+No 7
+>4EBG_A Uncharacterized protein; secreted protein, PF14729 family, Structural; HET: MSE; 1.2A {Staphylococcus aureus subsp. aureus Mu50}
+Probab=7.52  E-value=4.2e+02  Score=11.04  Aligned_cols=5  Identities=40%  Similarity=0.408  Sum_probs=0.0  Template_Neff=5.200
+
+Q LANVYV            2 ANVYV    6 (6)
+Q Consensus         2 anvyv    6 (6)
+                      ||++|
+T Consensus        36 a~i~V   40 (101)
+T 4EBG_A           36 SNTHV   40 (101)
+T ss_dssp             SEEEE
+T ss_pred             ccEEE
+
+
+No 8
+>1KKG_A ribosome-binding factor A; cold-shock adaptation, ribosome-binding factor, NESG; NMR {Escherichia coli} SCOP: d.52.7.1
+Probab=7.45  E-value=4.3e+02  Score=9.76  Aligned_cols=5  Identities=80%  Similarity=1.185  Sum_probs=0.0  Template_Neff=8.400
+
+Q LANVYV            2 ANVYV    6 (6)
+Q Consensus         2 anvyv    6 (6)
+                      |.||+
+T Consensus        50 a~Vy~   54 (108)
+T 1KKG_A           50 AKVYV   54 (108)
+T ss_dssp             EEEEE
+T ss_pred             EEEEE
+
+
+No 9
+>1PA4_A Probable ribosome-binding factor A; Ribosome-binding Factor, Structural Genomics, Distant; NMR {Mycoplasma pneumoniae} SCOP: d.52.7.1
+Probab=7.45  E-value=4.3e+02  Score=9.88  Aligned_cols=5  Identities=40%  Similarity=0.906  Sum_probs=0.0  Template_Neff=8.400
+
+Q LANVYV            2 ANVYV    6 (6)
+Q Consensus         2 anvyv    6 (6)
+                      |.||+
+T Consensus        47 a~Vy~   51 (116)
+T 1PA4_A           47 VTVYL   51 (116)
+T ss_dssp             EEECC
+T ss_pred             EEEEE
+
+
+No 10
+>6YE5_A Ribosome-binding factor A; Protein synthesis, heterologous protein expression; NMR {Staphylococcus aureus}
+Probab=7.08  E-value=4.6e+02  Score=9.88  Aligned_cols=5  Identities=40%  Similarity=0.899  Sum_probs=0.0  Template_Neff=8.300
+
+Q LANVYV            2 ANVYV    6 (6)
+Q Consensus         2 anvyv    6 (6)
+                      |.||+
+T Consensus        47 a~Vy~   51 (118)
+T 6YE5_A           47 AKVFL   51 (118)
+T ss_dssp             EEEEE
+T ss_pred             EEEEE
+
+

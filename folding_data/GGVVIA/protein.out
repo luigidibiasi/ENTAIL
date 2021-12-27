@@ -1,0 +1,144 @@
+Query         GGVVIA
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 00:53:42 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GGVVIA/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GGVVIA/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3V6I_A V-type ATP synthase sub  16.9 1.3E+02  0.0015   11.2   0.0    5    1-5     149-153 (187)
+  2 5OVS_K Uncharacterized protein  16.8 1.4E+02  0.0015   11.4   0.0    6    1-6      10-15  (201)
+  3 5ZEP_Q 30S ribosomal protein S  16.5 1.4E+02  0.0015   12.3   0.0    5    2-6      44-48  (113)
+  4 5O60_Q 50S ribosomal protein b  16.4 1.4E+02  0.0015   12.2   0.0    5    2-6      44-48  (113)
+  5 5XYM_P 50S ribosomal protein L  16.4 1.4E+02  0.0015   12.2   0.0    5    2-6      44-48  (113)
+  6 5LI0_S 30S ribosomal protein S  16.3 1.4E+02  0.0016   12.1   0.0    5    2-6      47-51  (110)
+  7 5L4G_X Proteasome subunit alph  16.3 1.4E+02  0.0016   12.6   0.0    6    1-6      63-68  (264)
+  8 1G3K_C ATP-DEPENDENT PROTEASE   16.2 1.4E+02  0.0016   10.9   0.0    6    1-6      10-15  (174)
+  9 7A18_M Complex, NPET, Macrolid  16.2 1.4E+02  0.0016   12.4   0.0    5    2-6      51-55  (118)
+ 10 6Z46_V Proteasome subunit alph  16.0 1.5E+02  0.0016   11.3   0.0    6    1-6      10-15  (198)
+
+No 1
+>3V6I_A V-type ATP synthase subunit E; peripheral stator stalk, right handed; 2.25A {Thermus thermophilus}
+Probab=16.88  E-value=1.3e+02  Score=11.21  Aligned_cols=5  Identities=40%  Similarity=0.189  Sum_probs=0.0  Template_Neff=10.100
+
+Q GGVVIA            1 GGVVI    5 (6)
+Q Consensus         1 ggvvi    5 (6)
+                      ||+++
+T Consensus       149 gG~~l  153 (187)
+T 3V6I_A          149 LGVRA  153 (187)
+T ss_dssp             SEEEE
+T ss_pred             CcEEE
+
+
+No 2
+>5OVS_K Uncharacterized protein; Protein Degradation, beta-proteobacteria proteasome homologue; 2.3A {Thiobacillus denitrificans}
+Probab=16.78  E-value=1.4e+02  Score=11.44  Aligned_cols=6  Identities=50%  Similarity=0.844  Sum_probs=0.0  Template_Neff=9.900
+
+Q GGVVIA            1 GGVVIA    6 (6)
+Q Consensus         1 ggvvia    6 (6)
+                      +|+|||
+T Consensus        10 ~gvvla   15 (201)
+T 5OVS_K           10 GRIAIA   15 (201)
+T ss_dssp             TEEEEE
+T ss_pred             CEEEEE
+
+
+No 3
+>5ZEP_Q 30S ribosomal protein S3, 30S; hibernating-state, ribosome, complex; 3.4A {Mycobacterium smegmatis str. MC2 155}
+Probab=16.49  E-value=1.4e+02  Score=12.26  Aligned_cols=5  Identities=80%  Similarity=1.119  Sum_probs=0.0  Template_Neff=6.000
+
+Q GGVVIA            2 GVVIA    6 (6)
+Q Consensus         2 gvvia    6 (6)
+                      |++||
+T Consensus        44 G~vIa   48 (113)
+T 5ZEP_Q           44 GVVIR   48 (113)
+T ss_pred             EEEEE
+
+
+No 4
+>5O60_Q 50S ribosomal protein bL37, 50S; ribosome, translation; HET: MG, PHE; 3.203A {Mycobacterium smegmatis str. MC2 155}
+Probab=16.40  E-value=1.4e+02  Score=12.21  Aligned_cols=5  Identities=80%  Similarity=1.119  Sum_probs=0.0  Template_Neff=6.100
+
+Q GGVVIA            2 GVVIA    6 (6)
+Q Consensus         2 gvvia    6 (6)
+                      |++||
+T Consensus        44 GivIa   48 (113)
+T 5O60_Q           44 GVVIR   48 (113)
+T ss_pred             EEEEE
+
+
+No 5
+>5XYM_P 50S ribosomal protein L32, 50S; Mycobacterium smegmatis ribosome, rRNA, rprotein; HET: MG; 3.08A {Mycobacterium smegmatis (strain ATCC 700084 / mc(2)155)}
+Probab=16.40  E-value=1.4e+02  Score=12.21  Aligned_cols=5  Identities=80%  Similarity=1.119  Sum_probs=0.0  Template_Neff=6.100
+
+Q GGVVIA            2 GVVIA    6 (6)
+Q Consensus         2 gvvia    6 (6)
+                      |++||
+T Consensus        44 GivIa   48 (113)
+T 5XYM_P           44 GVVIR   48 (113)
+T ss_pred             EEEEE
+
+
+No 6
+>5LI0_S 30S ribosomal protein S2, 30S; pathogenic ribosome, bL31 B-type, ribosome; HET: MG;{Staphylococcus aureus (strain NCTC 8325)}
+Probab=16.31  E-value=1.4e+02  Score=12.10  Aligned_cols=5  Identities=80%  Similarity=1.132  Sum_probs=0.0  Template_Neff=6.200
+
+Q GGVVIA            2 GVVIA    6 (6)
+Q Consensus         2 gvvia    6 (6)
+                      |+|||
+T Consensus        47 GivIa   51 (110)
+T 5LI0_S           47 GVVIK   51 (110)
+T ss_pred             EEEEE
+
+
+No 7
+>5L4G_X Proteasome subunit alpha type-6 (E.C.3.4.25.1); proteostasis, AAA-ATPase, Hydrolase; HET: ATP, ADP; 4.019A {Homo sapiens}
+Probab=16.30  E-value=1.4e+02  Score=12.56  Aligned_cols=6  Identities=100%  Similarity=1.464  Sum_probs=0.0  Template_Neff=8.600
+
+Q GGVVIA            1 GGVVIA    6 (6)
+Q Consensus         1 ggvvia    6 (6)
+                      +||+||
+T Consensus        63 dgVvia   68 (264)
+T 5L4G_X           63 GGVVIA   68 (264)
+T ss_pred             CEEEEE
+
+
+No 8
+>1G3K_C ATP-DEPENDENT PROTEASE HSLV (E.C.3.4.99.-); HYDROLASE; 1.9A {Haemophilus influenzae} SCOP: d.153.1.4
+Probab=16.22  E-value=1.4e+02  Score=10.91  Aligned_cols=6  Identities=50%  Similarity=0.888  Sum_probs=0.0  Template_Neff=10.300
+
+Q GGVVIA            1 GGVVIA    6 (6)
+Q Consensus         1 ggvvia    6 (6)
+                      +|||+|
+T Consensus        10 ~~vvla   15 (174)
+T 1G3K_C           10 GQVVVG   15 (174)
+T ss_dssp             TEEEEE
+T ss_pred             CEEEEE
+
+
+No 9
+>7A18_M Complex, NPET, Macrolide, A2058, ANTIBIOTIC; HET: MG, SPD, MIV; 3.4A {Deinococcus radiodurans R1}
+Probab=16.20  E-value=1.4e+02  Score=12.36  Aligned_cols=5  Identities=100%  Similarity=1.318  Sum_probs=0.0  Template_Neff=5.900
+
+Q GGVVIA            2 GVVIA    6 (6)
+Q Consensus         2 gvvia    6 (6)
+                      |++||
+T Consensus        51 GivIa   55 (118)
+T 7A18_M           51 GVVIA   55 (118)
+T ss_pred             EEEEE
+
+
+No 10
+>6Z46_V Proteasome subunit alpha (E.C.3.4.25.1), Proteasome; 20S, proteasome, archaea, sulfolobus acidocaldarius; 3.698A {Sulfolobus acidocaldarius}
+Probab=16.03  E-value=1.5e+02  Score=11.33  Aligned_cols=6  Identities=67%  Similarity=1.038  Sum_probs=0.0  Template_Neff=9.900
+
+Q GGVVIA            1 GGVVIA    6 (6)
+Q Consensus         1 ggvvia    6 (6)
+                      +|++||
+T Consensus        10 ~givia   15 (198)
+T 6Z46_V           10 DGVVLA   15 (198)
+T ss_dssp             SCEEEE
+T ss_pred             CEEEEE
+
+

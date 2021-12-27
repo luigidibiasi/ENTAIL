@@ -1,0 +1,153 @@
+Query         QSGFGN
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 10:34:37 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QSGFGN/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QSGFGN/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5NCM_B CBK1 kinase activator p  68.1     4.3 4.8E-05   15.6   0.0    6    1-6       8-13  (105)
+  2 1EY2_A jelly roll, beta sandwi  60.4     7.7 8.5E-05   19.0   0.0    6    1-6      33-38  (471)
+  3 4AQ6_D HOMOGENTISATE 1,2-DIOXY  59.1     8.3 9.2E-05   18.6   0.0    6    1-6      12-17  (433)
+  4 3ZDS_G HOMOGENTISATE 1,2-DIOXY  55.9      10 0.00011   18.0   0.0    6    1-6      12-17  (433)
+  5 4AQ6_K HOMOGENTISATE 1,2-DIOXY  55.9      10 0.00011   18.0   0.0    6    1-6      12-17  (433)
+  6 1EYB_A APO HUMAN HOMOGENTISATE  55.5      11 0.00012   18.8   0.0    6    1-6      33-38  (471)
+  7 5T5H_t PROTEIN/RNA Complex; Tr  19.9   1E+02  0.0011   12.6   0.0    6    1-6      46-51  (93)
+  8 4V8P_DC Ribosome; RIBOSOME, EU  19.8   1E+02  0.0012   13.1   0.0    6    1-6      45-50  (109)
+  9 4V8P_FC Ribosome; RIBOSOME, EU  19.8   1E+02  0.0012   13.1   0.0    6    1-6      45-50  (109)
+ 10 3U6P_A Formamidopyrimidine-DNA  19.6 1.1E+02  0.0012   13.3   0.0    5    2-6     169-173 (273)
+
+No 1
+>5NCM_B CBK1 kinase activator protein MOB2; SIGNALING protein, kinase; 2.8A {Saccharomyces cerevisiae}
+Probab=68.11  E-value=4.3  Score=15.63  Aligned_cols=6  Identities=83%  Similarity=1.259  Sum_probs=0.5  Template_Neff=7.200
+
+Q QSGFGN            1 QSGFGN    6 (6)
+Q Consensus         1 qsgfgn    6 (6)
+                      ||||.|
+T Consensus         8 ~~~~~~   13 (105)
+T 5NCM_B            8 QSGFNN   13 (105)
+T ss_dssp             -----C
+T ss_pred             ccCcCC
+Confidence            678764
+
+
+No 2
+>1EY2_A jelly roll, beta sandwich, OXIDOREDUCTASE; HET: MSE; 2.3A {Homo sapiens} SCOP: b.82.1.4
+Probab=60.35  E-value=7.7  Score=18.98  Aligned_cols=6  Identities=83%  Similarity=1.348  Sum_probs=4.6  Template_Neff=5.900
+
+Q QSGFGN            1 QSGFGN    6 (6)
+Q Consensus         1 qsgfgn    6 (6)
+                      |+||||
+T Consensus        33 ~~gfgn   38 (471)
+T 1EY2_A           33 ISGFGN   38 (471)
+T ss_dssp             EECTTC
+T ss_pred             ccCCCC
+Confidence            578887
+
+
+No 3
+>4AQ6_D HOMOGENTISATE 1,2-DIOXYGENASE (E.C.1.13.11.5); OXIDOREDUCTASE, EXTRADIOL-TYPE, EXTRADIOL-TYPE DIOXYGENASE; HET: B3P, OMD, FE; 1.98A {PSEUDOMONAS PUTIDA}
+Probab=59.12  E-value=8.3  Score=18.62  Aligned_cols=6  Identities=83%  Similarity=1.365  Sum_probs=4.6  Template_Neff=6.000
+
+Q QSGFGN            1 QSGFGN    6 (6)
+Q Consensus         1 qsgfgn    6 (6)
+                      |+||||
+T Consensus        12 ~~g~gn   17 (433)
+T 4AQ6_D           12 LSGFGN   17 (433)
+T ss_dssp             EECTTC
+T ss_pred             ccCCCC
+Confidence            578887
+
+
+No 4
+>3ZDS_G HOMOGENTISATE 1,2-DIOXYGENASE (E.C.1.13.11.5); OXIDOREDUCTASE, EXTRADIOL, ALKYLPEROXO SPECIES, HOMOGENTISATE-SEMIQUINONE; HET: HQ9, M8O, OMD, FE, HMQ; 1.7A {PSEUDOMONAS PUTIDA}
+Probab=55.95  E-value=10  Score=18.00  Aligned_cols=6  Identities=83%  Similarity=1.365  Sum_probs=4.5  Template_Neff=6.600
+
+Q QSGFGN            1 QSGFGN    6 (6)
+Q Consensus         1 qsgfgn    6 (6)
+                      |+||||
+T Consensus        12 ~~g~~~   17 (433)
+T 3ZDS_G           12 LSGFGN   17 (433)
+T ss_dssp             EECTTC
+T ss_pred             ccCCCC
+Confidence            578887
+
+
+No 5
+>4AQ6_K HOMOGENTISATE 1,2-DIOXYGENASE (E.C.1.13.11.5); OXIDOREDUCTASE, EXTRADIOL-TYPE, EXTRADIOL-TYPE DIOXYGENASE; HET: FE, OMD, B3P; 1.98A {PSEUDOMONAS PUTIDA}
+Probab=55.95  E-value=10  Score=18.00  Aligned_cols=6  Identities=83%  Similarity=1.365  Sum_probs=4.5  Template_Neff=6.600
+
+Q QSGFGN            1 QSGFGN    6 (6)
+Q Consensus         1 qsgfgn    6 (6)
+                      |+||||
+T Consensus        12 ~~g~~~   17 (433)
+T 4AQ6_K           12 LSGFGN   17 (433)
+T ss_dssp             EECTTC
+T ss_pred             ccCCCC
+Confidence            578887
+
+
+No 6
+>1EYB_A APO HUMAN HOMOGENTISATE DIOXYGENASE (E.C.; jelly roll, beta sandwich, OXIDOREDUCTASE; HET: MSE; 1.9A {Homo sapiens} SCOP: b.82.1.4
+Probab=55.45  E-value=11  Score=18.80  Aligned_cols=6  Identities=83%  Similarity=1.348  Sum_probs=4.6  Template_Neff=5.400
+
+Q QSGFGN            1 QSGFGN    6 (6)
+Q Consensus         1 qsgfgn    6 (6)
+                      |+||||
+T Consensus        33 ~~gfgn   38 (471)
+T 1EYB_A           33 ISGFGN   38 (471)
+T ss_dssp             EECTTC
+T ss_pred             ccCCCC
+Confidence            578887
+
+
+No 7
+>5T5H_t PROTEIN/RNA Complex; Trypanosoma cruzi, ribosomal subunit, assmebly; HET: OMG, MG, OMC, A2M, 7MG, OMU, 5MC; 2.54A {Trypanosoma cruzi}
+Probab=19.93  E-value=1e+02  Score=12.61  Aligned_cols=6  Identities=67%  Similarity=1.309  Sum_probs=0.0  Template_Neff=5.200
+
+Q QSGFGN            1 QSGFGN    6 (6)
+Q Consensus         1 qsgfgn    6 (6)
+                      |+|+|+
+T Consensus        46 ~~GyGg   51 (93)
+T 5T5H_t           46 QSGYGG   51 (93)
+T ss_pred             ccccCC
+
+
+No 8
+>4V8P_DC Ribosome; RIBOSOME, EUKARYOTIC INITIATION FACTOR 6; HET: MG, ZN; 3.52A {TETRAHYMENA THERMOPHILA}
+Probab=19.79  E-value=1e+02  Score=13.08  Aligned_cols=6  Identities=83%  Similarity=1.414  Sum_probs=0.0  Template_Neff=4.800
+
+Q QSGFGN            1 QSGFGN    6 (6)
+Q Consensus         1 qsgfgn    6 (6)
+                      |+|+|+
+T Consensus        45 q~GyGg   50 (109)
+T 4V8P_DC          45 QSGFGG   50 (109)
+T ss_pred             ccCCCC
+
+
+No 9
+>4V8P_FC Ribosome; RIBOSOME, EUKARYOTIC INITIATION FACTOR 6; HET: MG, ZN; 3.52A {TETRAHYMENA THERMOPHILA}
+Probab=19.79  E-value=1e+02  Score=13.08  Aligned_cols=6  Identities=83%  Similarity=1.414  Sum_probs=0.0  Template_Neff=4.800
+
+Q QSGFGN            1 QSGFGN    6 (6)
+Q Consensus         1 qsgfgn    6 (6)
+                      |+|+|+
+T Consensus        45 q~GyGg   50 (109)
+T 4V8P_FC          45 QSGFGG   50 (109)
+T ss_pred             ccCCCC
+
+
+No 10
+>3U6P_A Formamidopyrimidine-DNA glycosylase (E.C.3.2.2.23)/DNA complex; DNA glycosylase, DNA repair, sequence; 1.6A {Geobacillus stearothermophilus}
+Probab=19.57  E-value=1.1e+02  Score=13.34  Aligned_cols=5  Identities=80%  Similarity=1.670  Sum_probs=0.0  Template_Neff=7.900
+
+Q QSGFGN            2 SGFGN    6 (6)
+Q Consensus         2 sgfgn    6 (6)
+                      +|.||
+T Consensus       169 aGIGN  173 (273)
+T 3U6P_A          169 AGFGN  173 (273)
+T ss_dssp             TTCCH
+T ss_pred             ccCcH
+
+

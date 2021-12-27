@@ -1,0 +1,149 @@
+Query         ATVQAF
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 15:59:24 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/ATVQAF/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/ATVQAF/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5ZCG_D Probable protein phosph   7.7 4.1E+02  0.0045    9.4   0.0    6    1-6       3-8   (175)
+  2 5ZCH_D Probable protein phosph   7.7 4.1E+02  0.0045    9.4   0.0    6    1-6       3-8   (175)
+  3 4F87_C PlyCB; Lysin, bacteriop   7.4 4.3E+02  0.0047   11.4   0.0    5    2-6      45-49  (72)
+  4 4F88_G PlyCA, PlyCB; Lysin, ba   7.4 4.3E+02  0.0047   11.4   0.0    5    2-6      45-49  (72)
+  5 5T4O_K ATP synthase subunit al   7.2 4.4E+02  0.0049   11.8   0.0    6    1-6     249-254 (271)
+  6 3C5N_A Tubby-related protein 1   6.6   5E+02  0.0055   11.2   0.0    4    3-6     235-238 (246)
+  7 7AJF_a ATP synthase subunit al   6.5 5.1E+02  0.0057   11.3   0.0    6    1-6     207-212 (226)
+  8 1E2T_A N-HYDROXYARYLAMINE O-AC   6.4 5.2E+02  0.0057   11.3   0.0    6    1-6     271-276 (284)
+  9 1C17_M ATP SYNTHASE SUBUNIT C;   6.3 5.3E+02  0.0058   11.0   0.0    6    1-6     155-160 (177)
+ 10 4KUJ_A Protein kinase, putativ   5.9 5.7E+02  0.0063   11.5   0.0    6    1-6     188-193 (288)
+
+No 1
+>5ZCG_D Probable protein phosphatase 2C 50; abscisic acid, ABA, receptor, phosphatase; HET: A8S; 2.1A {Oryza sativa subsp. japonica}
+Probab=7.72  E-value=4.1e+02  Score=9.36  Aligned_cols=6  Identities=33%  Similarity=0.523  Sum_probs=0.0  Template_Neff=11.100
+
+Q ATVQAF            1 ATVQAF    6 (6)
+Q Consensus         1 atvqaf    6 (6)
+                      +++++|
+T Consensus         3 ~~~~~~    8 (175)
+T 5ZCG_D            3 EYVRRF    8 (175)
+T ss_dssp             -CHHHH
+T ss_pred             ceeech
+
+
+No 2
+>5ZCH_D Probable protein phosphatase 2C 50; abscisic acid, ABA, receptor, phosphatase; HET: A8S; 2.474A {Oryza sativa subsp. japonica}
+Probab=7.72  E-value=4.1e+02  Score=9.36  Aligned_cols=6  Identities=33%  Similarity=0.523  Sum_probs=0.0  Template_Neff=11.100
+
+Q ATVQAF            1 ATVQAF    6 (6)
+Q Consensus         1 atvqaf    6 (6)
+                      +++++|
+T Consensus         3 ~~~~~~    8 (175)
+T 5ZCH_D            3 EYVRRF    8 (175)
+T ss_dssp             --CCSS
+T ss_pred             ceeech
+
+
+No 3
+>4F87_C PlyCB; Lysin, bacteriophage, ANTIMICROBIAL PROTEIN, VIRAL; 1.4A {Streptococcus phage C1}
+Probab=7.42  E-value=4.3e+02  Score=11.45  Aligned_cols=5  Identities=80%  Similarity=1.072  Sum_probs=0.0  Template_Neff=1.000
+
+Q ATVQAF            2 TVQAF    6 (6)
+Q Consensus         2 tvqaf    6 (6)
+                      |||.|
+T Consensus        45 tvqgf   49 (72)
+T 4F87_C           45 TVQGF   49 (72)
+T ss_dssp             HHHHH
+T ss_pred             hchhh
+
+
+No 4
+>4F88_G PlyCA, PlyCB; Lysin, bacteriophage, Antimicrobial protein, viral; 3.3A {Streptococcus phage C1}
+Probab=7.42  E-value=4.3e+02  Score=11.45  Aligned_cols=5  Identities=80%  Similarity=1.072  Sum_probs=0.0  Template_Neff=1.000
+
+Q ATVQAF            2 TVQAF    6 (6)
+Q Consensus         2 tvqaf    6 (6)
+                      |||.|
+T Consensus        45 tvqgf   49 (72)
+T 4F88_G           45 TVQGF   49 (72)
+T ss_dssp             HHHHH
+T ss_pred             hchhh
+
+
+No 5
+>5T4O_K ATP synthase subunit alpha (E.C.3.6.3.14); ATP synthase, ATPase, rotary motor; HET: ATP, ADP; 6.9A {Escherichia coli}
+Probab=7.25  E-value=4.4e+02  Score=11.81  Aligned_cols=6  Identities=67%  Similarity=0.866  Sum_probs=0.0  Template_Neff=7.300
+
+Q ATVQAF            1 ATVQAF    6 (6)
+Q Consensus         1 atvqaf    6 (6)
+                      +.+|||
+T Consensus       249 ~~iQA~  254 (271)
+T 5T4O_K          249 ITLQAF  254 (271)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 6
+>3C5N_A Tubby-related protein 1; Tubby, inositol, signalling, Alternative splicing; HET: I3P; 1.8A {Homo sapiens}
+Probab=6.58  E-value=5e+02  Score=11.21  Aligned_cols=4  Identities=75%  Similarity=1.157  Sum_probs=0.0  Template_Neff=7.900
+
+Q ATVQAF            3 VQAF    6 (6)
+Q Consensus         3 vqaf    6 (6)
+                      +|||
+T Consensus       235 lQAF  238 (246)
+T 3C5N_A          235 LQAF  238 (246)
+T ss_dssp             HHHH
+T ss_pred             HHHH
+
+
+No 7
+>7AJF_a ATP synthase subunit alpha, mitochondrial; ATP synthase, mitochondria, mammalian, complex; HET: CDL, LHG, M3L; 8.45A {Bos taurus}
+Probab=6.46  E-value=5.1e+02  Score=11.26  Aligned_cols=6  Identities=50%  Similarity=0.838  Sum_probs=0.0  Template_Neff=7.400
+
+Q ATVQAF            1 ATVQAF    6 (6)
+Q Consensus         1 atvqaf    6 (6)
+                      +.+||+
+T Consensus       207 ~~iQay  212 (226)
+T 7AJF_a          207 AMIQAY  212 (226)
+T ss_pred             HHHHHH
+
+
+No 8
+>1E2T_A N-HYDROXYARYLAMINE O-ACETYLTRANSFERASE (E.C.2.3.1.118); TRANSFERASE, ACETYL COA DEPENDENT; 2.8A {SALMONELLA TYPHIMURIUM} SCOP: d.3.1.5
+Probab=6.42  E-value=5.2e+02  Score=11.28  Aligned_cols=6  Identities=50%  Similarity=0.733  Sum_probs=0.0  Template_Neff=8.200
+
+Q ATVQAF            1 ATVQAF    6 (6)
+Q Consensus         1 atvqaf    6 (6)
+                      |..|||
+T Consensus       271 ~~~~~~  276 (284)
+T 1E2T_A          271 AVMAAF  276 (284)
+T ss_dssp             HHHHTC
+T ss_pred             HHHHHH
+
+
+No 9
+>1C17_M ATP SYNTHASE SUBUNIT C; MEMBRANE PROTEIN, HELIX, COMPLEX; NMR {Escherichia coli} SCOP: f.18.1.1
+Probab=6.33  E-value=5.3e+02  Score=10.99  Aligned_cols=6  Identities=67%  Similarity=0.866  Sum_probs=0.0  Template_Neff=7.000
+
+Q ATVQAF            1 ATVQAF    6 (6)
+Q Consensus         1 atvqaf    6 (6)
+                      +.+||+
+T Consensus       155 ~~iQa~  160 (177)
+T 1C17_M          155 ITLQAF  160 (177)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 10
+>4KUJ_A Protein kinase, putative; Actin, Phosphorylated actin, Phosphorylation, TRANSFERASE; HET: TPO; 1.99A {Entamoeba histolytica}
+Probab=5.94  E-value=5.7e+02  Score=11.45  Aligned_cols=6  Identities=50%  Similarity=0.888  Sum_probs=0.0  Template_Neff=7.600
+
+Q ATVQAF            1 ATVQAF    6 (6)
+Q Consensus         1 atvqaf    6 (6)
+                      .++|||
+T Consensus       188 ~~~~AF  193 (288)
+T 4KUJ_A          188 STLHAF  193 (288)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+

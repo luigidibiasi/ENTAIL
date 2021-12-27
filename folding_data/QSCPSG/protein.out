@@ -1,0 +1,420 @@
+Query         QSCPSG
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 10:31:30 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QSCPSG/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QSCPSG/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4K7Z_A Mercuric reductase (E.C  62.6     6.5 7.2E-05   16.5   0.0    6    1-6     462-467 (467)
+  2 6SB1_A Macrophage-expressed ge  62.6     6.6 7.3E-05   18.8   0.0    6    1-6     147-152 (295)
+  3 6SB4_A Macrophage-expressed ge  62.6     6.6 7.3E-05   18.8   0.0    6    1-6     147-152 (295)
+  4 1JZN_C Galactose-specific lect  62.4     6.6 7.3E-05   12.9   0.0    6    1-6       1-6   (135)
+  5 6SB4_B Macrophage-expressed ge  61.9     6.9 7.6E-05   18.7   0.0    6    1-6     147-152 (295)
+  6 6U2J_G Macrophage-expressed ge  57.0     9.5 0.00011   18.7   0.0    6    1-6     478-483 (642)
+  7 6U2L_P Macrophage-expressed ge  57.0     9.5 0.00011   18.7   0.0    6    1-6     478-483 (642)
+  8 6NMD_B Cpf1/RNA Complex; UNKNO  54.7      11 0.00012   18.0   0.0    6    1-6     164-169 (174)
+  9 1YA5_T N2B-titin isoforms doma  50.0      15 0.00016   15.7   0.0    6    1-6      62-67  (90)
+ 10 3P7G_A C-type lectin domain fa  47.6      17 0.00019   12.3   0.0    6    1-6       1-6   (146)
+ 11 2DL1_A Spartin; Spartin, SPG20  47.3      17 0.00019   13.9   0.0    6    1-6     107-112 (116)
+ 12 5XWU_B Receptor-type tyrosine-  46.2      19 0.00021   13.7   0.0    6    1-6       1-6   (365)
+ 13 1VMO_B VITELLINE MEMBRANE OUTE  37.3      32 0.00035   14.6   0.0    6    1-6      24-29  (163)
+ 14 3J79_d PROTEIN/RNA Complex; em  31.9      44 0.00049   13.8   0.0    6    1-6      65-70  (87)
+ 15 4GL8_B Oligopeptide ABC transp  31.4      46  0.0005   14.6   0.0    6    1-6      17-22  (529)
+ 16 5XY3_k Ribosomal protein L8, p  27.2      60 0.00066   12.9   0.0    6    1-6      58-63  (74)
+ 17 5XXB_j uL2, uL3, uL4, uL18, eL  27.1      61 0.00067   13.1   0.0    6    1-6      69-74  (84)
+ 18 6ZJ3_Lz Ribosomal protein eS1,  25.9      66 0.00073   13.1   0.0    6    1-6      58-63  (82)
+ 19 7NWG_k3 Inhibitor 80S Terminat  24.5      73  0.0008   12.5   0.0    6    1-6      57-62  (69)
+ 20 3JBN_Ad PROTEIN/RNA Complex; R  23.8      76 0.00084   12.7   0.0    6    1-6      64-69  (76)
+ 21 3JBO_Ad PROTEIN/RNA Complex; R  22.1      87 0.00096   12.6   0.0    6    1-6      64-69  (76)
+ 22 2F8V_T Sarcomere, Titin, Z1Z2,  21.9      88 0.00098   14.6   0.0    6    1-6      62-67  (167)
+ 23 5GGF_C Protein O-linked-mannos  21.5      91   0.001   14.3   0.0    6    1-6       1-6   (578)
+ 24 5GGI_A Protein O-linked-mannos  21.5      91   0.001   14.3   0.0    6    1-6       1-6   (578)
+ 25 6LOD_B MULTIHEME_CYTC domain-c  20.5      98  0.0011   15.5   0.0    6    1-6     873-878 (933)
+ 26 7O7Y_Bk 40S ribosomal protein   20.5      98  0.0011   12.2   0.0    6    1-6      58-63  (70)
+ 27 5DGV_O8 ?; Ribosome, Complex,   20.5      98  0.0011   12.4   0.0    6    1-6      66-71  (77)
+ 28 5TBW_AL ?; Protein translation  20.5      98  0.0011   12.4   0.0    6    1-6      66-71  (77)
+
+No 1
+>4K7Z_A Mercuric reductase (E.C.1.16.1.1); mercuric ion reductase, flavoenzyme, mercuric; HET: SO4, NAP, GOL, FAD, UNX; 1.5A {Pseudomonas aeruginosa}
+Probab=62.62  E-value=6.5  Score=16.51  Aligned_cols=6  Identities=50%  Similarity=0.927  Sum_probs=4.5  Template_Neff=10.200
+
+Q QSCPSG            1 QSCPSG    6 (6)
+Q Consensus         1 qscpsg    6 (6)
+                      +||+||
+T Consensus       462 ~~~~~~  467 (467)
+T 4K7Z_A          462 LSCCAG  467 (467)
+T ss_dssp             CCTTCC
+T ss_pred             ccccCC
+Confidence            478886
+
+
+No 2
+>6SB1_A Macrophage-expressed gene 1 protein; Pore-forming protein, perforin, MACPF, TOXIN; HET: GOL; 2.05A {Mus musculus}
+Probab=62.57  E-value=6.6  Score=18.81  Aligned_cols=6  Identities=83%  Similarity=1.758  Sum_probs=4.3  Template_Neff=4.700
+
+Q QSCPSG            1 QSCPSG    6 (6)
+Q Consensus         1 qscpsg    6 (6)
+                      ||||++
+T Consensus       147 ~SCP~~  152 (295)
+T 6SB1_A          147 QSCPAG  152 (295)
+T ss_dssp             SSCCTT
+T ss_pred             CCCCCC
+Confidence            588864
+
+
+No 3
+>6SB4_A Macrophage-expressed gene 1 protein; pore-forming protein, P2 domain, membrane; 3.17A {Mus musculus}
+Probab=62.57  E-value=6.6  Score=18.81  Aligned_cols=6  Identities=83%  Similarity=1.758  Sum_probs=4.3  Template_Neff=4.700
+
+Q QSCPSG            1 QSCPSG    6 (6)
+Q Consensus         1 qscpsg    6 (6)
+                      ||||++
+T Consensus       147 ~SCP~~  152 (295)
+T 6SB4_A          147 QSCPAG  152 (295)
+T ss_dssp             SSCCTT
+T ss_pred             CCCCCC
+Confidence            588864
+
+
+No 4
+>1JZN_C Galactose-specific lectin; C-type lectin, protein-disaccharide complex, SUGAR; HET: GAL, BGC; 2.2A {Crotalus atrox} SCOP: d.169.1.1
+Probab=62.41  E-value=6.6  Score=12.93  Aligned_cols=6  Identities=33%  Similarity=1.038  Sum_probs=3.2  Template_Neff=11.600
+
+Q QSCPSG            1 QSCPSG    6 (6)
+Q Consensus         1 qscpsg    6 (6)
+                      +.||++
+T Consensus         1 ~~C~~~    6 (135)
+T 1JZN_C            1 NNCPLD    6 (135)
+T ss_dssp             CCSCTT
+T ss_pred             CCCCCc
+Confidence            356654
+
+
+No 5
+>6SB4_B Macrophage-expressed gene 1 protein; pore-forming protein, P2 domain, membrane; 3.17A {Mus musculus}
+Probab=61.86  E-value=6.9  Score=18.74  Aligned_cols=6  Identities=83%  Similarity=1.758  Sum_probs=4.3  Template_Neff=4.700
+
+Q QSCPSG            1 QSCPSG    6 (6)
+Q Consensus         1 qscpsg    6 (6)
+                      ||||++
+T Consensus       147 ~SCP~~  152 (295)
+T 6SB4_B          147 QSCPAG  152 (295)
+T ss_dssp             SSCCTT
+T ss_pred             CCCCCC
+Confidence            588864
+
+
+No 6
+>6U2J_G Macrophage-expressed gene 1 protein; MPEG-1/perforin-2, MACPF, macrophage, pore forming; HET: NAG; 2.37A {Homo sapiens}
+Probab=57.03  E-value=9.5  Score=18.71  Aligned_cols=6  Identities=83%  Similarity=1.758  Sum_probs=4.2  Template_Neff=7.000
+
+Q QSCPSG            1 QSCPSG    6 (6)
+Q Consensus         1 qscpsg    6 (6)
+                      ||||.+
+T Consensus       478 ~sCP~~  483 (642)
+T 6U2J_G          478 QSCPAG  483 (642)
+T ss_dssp             SSCCTT
+T ss_pred             CCCCCC
+Confidence            578864
+
+
+No 7
+>6U2L_P Macrophage-expressed gene 1 protein; MPEG-1/perforin-2, MACPF, macrophage, pore forming; HET: NAG; 2.83A {Homo sapiens}
+Probab=57.03  E-value=9.5  Score=18.71  Aligned_cols=6  Identities=83%  Similarity=1.758  Sum_probs=4.2  Template_Neff=7.000
+
+Q QSCPSG            1 QSCPSG    6 (6)
+Q Consensus         1 qscpsg    6 (6)
+                      ||||.+
+T Consensus       478 ~sCP~~  483 (642)
+T 6U2L_P          478 QSCPAG  483 (642)
+T ss_dssp             SSCCTT
+T ss_pred             CCCCCC
+Confidence            578864
+
+
+No 8
+>6NMD_B Cpf1/RNA Complex; UNKNOWN FUNCTION-RNA complex; 3.49A {Lachnospiraceae bacterium ND2006}
+Probab=54.70  E-value=11  Score=18.02  Aligned_cols=6  Identities=67%  Similarity=1.553  Sum_probs=2.1  Template_Neff=1.300
+
+Q QSCPSG            1 QSCPSG    6 (6)
+Q Consensus         1 qscpsg    6 (6)
+                      |-||+|
+T Consensus       164 ~YCPtG  169 (174)
+T 6NMD_B          164 QYCPTG  169 (174)
+T ss_dssp             CCC---
+T ss_pred             eeCCCC
+Confidence            569987
+
+
+No 9
+>1YA5_T N2B-titin isoforms domains Z1Z2/telethonin; TELETHONIN  T-CAP  Ig-LIKE; HET: SO4; 2.445A {Homo sapiens}
+Probab=50.01  E-value=15  Score=15.75  Aligned_cols=6  Identities=33%  Similarity=0.141  Sum_probs=4.1  Template_Neff=3.300
+
+Q QSCPSG            1 QSCPSG    6 (6)
+Q Consensus         1 qscpsg    6 (6)
+                      |.||++
+T Consensus        62 QrsP~~   67 (90)
+T 1YA5_T           62 QRSPWL   67 (90)
+T ss_dssp             ECCTTS
+T ss_pred             hcChhh
+Confidence            568875
+
+
+No 10
+>3P7G_A C-type lectin domain family 4; C-type lectin, membrane protein, glycoprotein; HET: MAN, MSE; 1.5A {Homo sapiens}
+Probab=47.59  E-value=17  Score=12.29  Aligned_cols=6  Identities=33%  Similarity=0.495  Sum_probs=0.4  Template_Neff=11.300
+
+Q QSCPSG            1 QSCPSG    6 (6)
+Q Consensus         1 qscpsg    6 (6)
+                      |.||.|
+T Consensus         1 ~~c~~~    6 (146)
+T 3P7G_A            1 QVVSQG    6 (146)
+T ss_dssp             -----C
+T ss_pred             CCCCCC
+Confidence            346653
+
+
+No 11
+>2DL1_A Spartin; Spartin, SPG20, MIT, Structural Genomics; NMR {Homo sapiens}
+Probab=47.29  E-value=17  Score=13.87  Aligned_cols=6  Identities=67%  Similarity=1.071  Sum_probs=3.6  Template_Neff=7.800
+
+Q QSCPSG            1 QSCPSG    6 (6)
+Q Consensus         1 qscpsg    6 (6)
+                      ++||+|
+T Consensus       107 ~~~~~~  112 (116)
+T 2DL1_A          107 QEVPSG  112 (116)
+T ss_dssp             CCCCSS
+T ss_pred             ccCCCC
+Confidence            367764
+
+
+No 12
+>5XWU_B Receptor-type tyrosine-protein phosphatase delta (E.C.3.1.3.48); synaptic orgnizers, CELL ADHESION; HET: NAG, MES; 3.162A {Mus musculus}
+Probab=46.18  E-value=19  Score=13.68  Aligned_cols=6  Identities=50%  Similarity=1.199  Sum_probs=3.1  Template_Neff=11.900
+
+Q QSCPSG            1 QSCPSG    6 (6)
+Q Consensus         1 qscpsg    6 (6)
+                      |.||.+
+T Consensus         1 ~~~~~~    6 (365)
+T 5XWU_B            1 QPCPGR    6 (365)
+T ss_dssp             -CCCTT
+T ss_pred             CCCCCC
+Confidence            457753
+
+
+No 13
+>1VMO_B VITELLINE MEMBRANE OUTER LAYER PROTEIN; MEMBRANE PROTEIN; 2.2A {Gallus gallus} SCOP: b.77.1.1
+Probab=37.30  E-value=32  Score=14.61  Aligned_cols=6  Identities=67%  Similarity=1.060  Sum_probs=3.6  Template_Neff=6.400
+
+Q QSCPSG            1 QSCPSG    6 (6)
+Q Consensus         1 qscpsg    6 (6)
+                      +.||+|
+T Consensus        24 ~~CP~g   29 (163)
+T 1VMO_B           24 QFCHSG   29 (163)
+T ss_dssp             EECSSS
+T ss_pred             EeccCc
+Confidence            357764
+
+
+No 14
+>3J79_d PROTEIN/RNA Complex; emetine, RIBOSOME-INHIBITOR complex; HET: MG; 3.2A {Plasmodium falciparum}
+Probab=31.93  E-value=44  Score=13.82  Aligned_cols=6  Identities=17%  Similarity=-0.003  Sum_probs=3.5  Template_Neff=4.500
+
+Q QSCPSG            1 QSCPSG    6 (6)
+Q Consensus         1 qscpsg    6 (6)
+                      ||+|+|
+T Consensus        65 qSLPp~   70 (87)
+T 3J79_d           65 NSLLPS   70 (87)
+T ss_pred             HhcCCC
+Confidence            566654
+
+
+No 15
+>4GL8_B Oligopeptide ABC transporter OppAIV, Peptide; Structural Genomics, NIAID, National Institute; 2.2A {Escherichia coli}
+Probab=31.41  E-value=46  Score=14.63  Aligned_cols=6  Identities=33%  Similarity=-0.158  Sum_probs=0.0  Template_Neff=9.800
+
+Q QSCPSG            1 QSCPSG    6 (6)
+Q Consensus         1 qscpsg    6 (6)
+                      |+|+|+
+T Consensus        17 ~~~~~~   22 (529)
+T 4GL8_B           17 QGPGSM   22 (529)
+T ss_dssp             ------
+T ss_pred             cCCCcc
+Confidence            567764
+
+
+No 16
+>5XY3_k Ribosomal protein L8, putative, Uncharacterized; Trichomonas vaginalis ribosome, rRNA, rprotein; 3.2A {Trichomonas vaginalis}
+Probab=27.22  E-value=60  Score=12.94  Aligned_cols=6  Identities=33%  Similarity=0.556  Sum_probs=3.2  Template_Neff=4.900
+
+Q QSCPSG            1 QSCPSG    6 (6)
+Q Consensus         1 qscpsg    6 (6)
+                      ||.|+|
+T Consensus        58 qsLPp~   63 (74)
+T 5XY3_k           58 NSIPES   63 (74)
+T ss_pred             hcCCCC
+Confidence            455653
+
+
+No 17
+>5XXB_j uL2, uL3, uL4, uL18, eL6; parasitic ribosome, rRNA, rproteins, RIBOSOME; 3.17A {Toxoplasma gondii}
+Probab=27.08  E-value=61  Score=13.14  Aligned_cols=6  Identities=33%  Similarity=0.451  Sum_probs=3.3  Template_Neff=5.000
+
+Q QSCPSG            1 QSCPSG    6 (6)
+Q Consensus         1 qscpsg    6 (6)
+                      ||+|+|
+T Consensus        69 qsLPp~   74 (84)
+T 5XXB_j           69 GSLPPS   74 (84)
+T ss_pred             ccCCCC
+Confidence            466653
+
+
+No 18
+>6ZJ3_Lz Ribosomal protein eS1, Ribosomal protein; Single particle cryo-EM RNA modifications; HET: JMC, B8H, MA6, PSU, B8N, A2M, UR3, 7MG, MIA, 5MC, 6MZ, OMG, OMU, OMC, 1MA, JMH; 3.15A {Euglena gracilis}
+Probab=25.86  E-value=66  Score=13.12  Aligned_cols=6  Identities=50%  Similarity=0.678  Sum_probs=3.1  Template_Neff=4.700
+
+Q QSCPSG            1 QSCPSG    6 (6)
+Q Consensus         1 qscpsg    6 (6)
+                      ||+|+|
+T Consensus        58 qsLPp~   63 (82)
+T 6ZJ3_Lz          58 QSIPPN   63 (82)
+T ss_pred             hcCCCC
+Confidence            456643
+
+
+No 19
+>7NWG_k3 Inhibitor 80S Termination Complex Blasticidin; HET: MG, BLS;{Oryctolagus cuniculus}
+Probab=24.48  E-value=73  Score=12.53  Aligned_cols=6  Identities=67%  Similarity=0.999  Sum_probs=3.1  Template_Neff=5.000
+
+Q QSCPSG            1 QSCPSG    6 (6)
+Q Consensus         1 qscpsg    6 (6)
+                      ||.|+|
+T Consensus        57 ~slPp~   62 (69)
+T 7NWG_k3          57 QSLPPG   62 (69)
+T ss_pred             hcCCCC
+Confidence            455653
+
+
+No 20
+>3JBN_Ad PROTEIN/RNA Complex; RIBOSOME; 4.7A {Plasmodium falciparum 3D7}
+Probab=23.83  E-value=76  Score=12.71  Aligned_cols=6  Identities=17%  Similarity=-0.003  Sum_probs=3.2  Template_Neff=4.900
+
+Q QSCPSG            1 QSCPSG    6 (6)
+Q Consensus         1 qscpsg    6 (6)
+                      ||.|+|
+T Consensus        64 qsLPp~   69 (76)
+T 3JBN_Ad          64 NSLLPS   69 (76)
+T ss_pred             hcCCCC
+Confidence            456654
+
+
+No 21
+>3JBO_Ad PROTEIN/RNA Complex; RIBOSOME; 5.8A {Plasmodium falciparum 3D7}
+Probab=22.07  E-value=87  Score=12.59  Aligned_cols=6  Identities=17%  Similarity=-0.003  Sum_probs=3.2  Template_Neff=4.800
+
+Q QSCPSG            1 QSCPSG    6 (6)
+Q Consensus         1 qscpsg    6 (6)
+                      ||.|+|
+T Consensus        64 qsLPp~   69 (76)
+T 3JBO_Ad          64 NSLLPS   69 (76)
+T ss_pred             HccCCC
+Confidence            455653
+
+
+No 22
+>2F8V_T Sarcomere, Titin, Z1Z2, Telethonin, CONTRACTILE; HET: SO4; 2.75A {Homo sapiens}
+Probab=21.88  E-value=88  Score=14.64  Aligned_cols=6  Identities=33%  Similarity=0.141  Sum_probs=3.6  Template_Neff=3.500
+
+Q QSCPSG            1 QSCPSG    6 (6)
+Q Consensus         1 qscpsg    6 (6)
+                      |.||++
+T Consensus        62 QrsP~q   67 (167)
+T 2F8V_T           62 QRSPWL   67 (167)
+T ss_dssp             ECCTTT
+T ss_pred             hcCHhh
+Confidence            567764
+
+
+No 23
+>5GGF_C Protein O-linked-mannose beta-1,2-N-acetylglucosaminyltransferase 1 (E.C.2.4.1.-); glycosyltransferase, O-mannosylation, alpha-dystroglycan, TRANSFERASE, SUGAR; 2.49A {Homo sapiens}
+Probab=21.48  E-value=91  Score=14.32  Aligned_cols=6  Identities=33%  Similarity=0.313  Sum_probs=0.4  Template_Neff=9.100
+
+Q QSCPSG            1 QSCPSG    6 (6)
+Q Consensus         1 qscpsg    6 (6)
+                      ++||.+
+T Consensus         1 ~~~~~~    6 (578)
+T 5GGF_C            1 GSGPRR    6 (578)
+T ss_dssp             -----C
+T ss_pred             CCCCCC
+Confidence            578853
+
+
+No 24
+>5GGI_A Protein O-linked-mannose beta-1,2-N-acetylglucosaminyltransferase 1 (E.C.2.4.1.-); glycosyltransferease, O-mannosylation, alpha-dystroglycan, TRANSFERASE, SUGAR; HET: MAN, UDP; 2.6A {Homo sapiens}
+Probab=21.48  E-value=91  Score=14.32  Aligned_cols=6  Identities=33%  Similarity=0.313  Sum_probs=0.0  Template_Neff=9.100
+
+Q QSCPSG            1 QSCPSG    6 (6)
+Q Consensus         1 qscpsg    6 (6)
+                      ++||.+
+T Consensus         1 ~~~~~~    6 (578)
+T 5GGI_A            1 GSGPRR    6 (578)
+T ss_dssp             ------
+T ss_pred             CCCCCC
+Confidence            578853
+
+
+No 25
+>6LOD_B MULTIHEME_CYTC domain-containing protein, Fe-S-cluster-containing hydrogenase; quinol:electron acceptor oxidoreductase, PHOTOSYNTHESIS; HET: EL6, SF4, HEC; 3.2A {Roseiflexus castenholzii (strain DSM 13941 / HLO8)}
+Probab=20.53  E-value=98  Score=15.47  Aligned_cols=6  Identities=50%  Similarity=1.182  Sum_probs=3.6  Template_Neff=8.500
+
+Q QSCPSG            1 QSCPSG    6 (6)
+Q Consensus         1 qscpsg    6 (6)
+                      |.||.+
+T Consensus       873 ~~CP~~  878 (933)
+T 6LOD_B          873 QVCPTQ  878 (933)
+T ss_dssp             TTCTTC
+T ss_pred             HhCCCC
+Confidence            467753
+
+
+No 26
+>7O7Y_Bk 40S ribosomal protein S27, Ribosomal; Frameshift, virus, pseudoknot, RIBOSOME; HET: GTP, HIC, 5MC, UNX, A2M, 5MU, M2G, 7MG, 1MA, SAC, OMU, PSU, MG, OMG, V5N, YYG, 2MG, UY1, 6MZ, H2U, OMC, SPD, B8N, NMM, MA6, UR3, 4AC, MLZ, M3L, AME, SPM; 2.2A {Oryctolagus cuniculus}
+Probab=20.52  E-value=98  Score=12.20  Aligned_cols=6  Identities=67%  Similarity=0.999  Sum_probs=3.0  Template_Neff=5.000
+
+Q QSCPSG            1 QSCPSG    6 (6)
+Q Consensus         1 qscpsg    6 (6)
+                      ||.|+|
+T Consensus        58 ~slPp~   63 (70)
+T 7O7Y_Bk          58 QSLPPG   63 (70)
+T ss_pred             hcCCCC
+Confidence            455553
+
+
+No 27
+>5DGV_O8 ?; Ribosome, Complex, tRNA analogue; HET: ZN, SPS, 8AN; 3.1A {Saccharomyces cerevisiae S288c}
+Probab=20.49  E-value=98  Score=12.43  Aligned_cols=6  Identities=50%  Similarity=0.573  Sum_probs=3.1  Template_Neff=4.900
+
+Q QSCPSG            1 QSCPSG    6 (6)
+Q Consensus         1 qscpsg    6 (6)
+                      ||.|+|
+T Consensus        66 qsLPp~   71 (77)
+T 5DGV_O8          66 QSLPPT   71 (77)
+T ss_pred             hcCCCC
+Confidence            455653
+
+
+No 28
+>5TBW_AL ?; Protein translation inhibitor, complex, ribosome; HET: 7AL, MG, ZN, OHX; 3.0A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=20.49  E-value=98  Score=12.43  Aligned_cols=6  Identities=50%  Similarity=0.573  Sum_probs=3.1  Template_Neff=4.900
+
+Q QSCPSG            1 QSCPSG    6 (6)
+Q Consensus         1 qscpsg    6 (6)
+                      ||.|+|
+T Consensus        66 qsLPp~   71 (77)
+T 5TBW_AL          66 QSLPPT   71 (77)
+T ss_pred             hcCCCC
+Confidence            455653
+
+

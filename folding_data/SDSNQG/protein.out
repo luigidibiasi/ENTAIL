@@ -1,0 +1,150 @@
+Query         SDSNQG
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 13:45:27 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/SDSNQG/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/SDSNQG/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3U02_D Putative transcription-   7.0 4.6E+02  0.0051   12.2   0.0    4    3-6     246-249 (252)
+  2 6SX2_A Non-structural protein    6.7 4.9E+02  0.0054   11.4   0.0    4    1-4       5-8   (77)
+  3 6ZLC_A Non-structural protein    6.7 4.9E+02  0.0054   11.4   0.0    4    1-4       5-8   (77)
+  4 6SX0_B Non-structural protein    6.6   5E+02  0.0055   11.4   0.0    4    1-4       5-8   (77)
+  5 2DJM_A glucoamylase A; beta sa   6.5 5.1E+02  0.0056   10.1   0.0    5    2-6      95-99  (106)
+  6 2VQ4_A GLUCOAMYLASE A (E.C.3.2   6.5 5.1E+02  0.0056   10.1   0.0    5    2-6      95-99  (106)
+  7 4EIB_B Glucoamylase; BETA BARR   5.3 6.6E+02  0.0073    9.8   0.0    5    2-6       7-11  (109)
+  8 2M83_A Protein phosphatase 1 r   5.1 6.9E+02  0.0077   10.2   0.0    5    2-6     124-128 (139)
+  9 3QK8_C Enoyl-CoA hydratase Ech   4.9 7.3E+02  0.0081   10.2   0.0    6    1-6     267-272 (272)
+ 10 2EOY_A Zinc finger protein 473   4.7 7.6E+02  0.0084    5.4   0.0    6    1-6      41-46  (46)
+
+No 1
+>3U02_D Putative transcription-associated protein TFIIS; Structural Genomics, PSI-Biology, Protein Structure; HET: CIT, MES, SO4, TPO, MSE; 2.399A {Pyrococcus furiosus DSM 3638}
+Probab=7.04  E-value=4.6e+02  Score=12.21  Aligned_cols=4  Identities=50%  Similarity=0.700  Sum_probs=0.0  Template_Neff=6.000
+
+Q SDSNQG            3 SNQG    6 (6)
+Q Consensus         3 snqg    6 (6)
+                      +|||
+T Consensus       246 TNQg  249 (252)
+T 3U02_D          246 TNQN  249 (252)
+T ss_dssp             ESCC
+T ss_pred             ecCC
+
+
+No 2
+>6SX2_A Non-structural protein 1/RNA Complex; INFLUENZA VIRUS, H7N1 RNA-BINDING DOMAIN; HET: EDO; 1.9A {Influenza A virus (A/turkey/Italy/977/1999(H7N1))}
+Probab=6.74  E-value=4.9e+02  Score=11.42  Aligned_cols=4  Identities=100%  Similarity=1.074  Sum_probs=0.0  Template_Neff=1.400
+
+Q SDSNQG            1 SDSN    4 (6)
+Q Consensus         1 sdsn    4 (6)
+                      ||||
+T Consensus         5 sdsn    8 (77)
+T 6SX2_A            5 SDSN    8 (77)
+T ss_dssp             CCHH
+T ss_pred             cCcc
+
+
+No 3
+>6ZLC_A Non-structural protein 1/RNA Complex; INFLUENZA A VIRUS, RNA BINDING; HET: SO4, NO3; 2.3A {Influenza A virus (A/turkey/Italy/977/1999(H7N1))}
+Probab=6.68  E-value=4.9e+02  Score=11.41  Aligned_cols=4  Identities=100%  Similarity=1.074  Sum_probs=0.0  Template_Neff=1.400
+
+Q SDSNQG            1 SDSN    4 (6)
+Q Consensus         1 sdsn    4 (6)
+                      ||||
+T Consensus         5 sDsN    8 (77)
+T 6ZLC_A            5 SDSN    8 (77)
+T ss_dssp             CCHH
+T ss_pred             cCcc
+
+
+No 4
+>6SX0_B Non-structural protein 1/RNA Complex; INFLUENZA VIRUS, RNA-BINDING DOMAIN, RNA-PROTEIN; HET: NHE, PE4; 1.75A {Influenza A virus (A/turkey/Italy/977/1999(H7N1))}
+Probab=6.59  E-value=5e+02  Score=11.39  Aligned_cols=4  Identities=100%  Similarity=1.074  Sum_probs=0.0  Template_Neff=1.400
+
+Q SDSNQG            1 SDSN    4 (6)
+Q Consensus         1 sdsn    4 (6)
+                      ||||
+T Consensus         5 sdsn    8 (77)
+T 6SX0_B            5 SDSN    8 (77)
+T ss_dssp             CCHH
+T ss_pred             cCcc
+
+
+No 5
+>2DJM_A glucoamylase A; beta sandwich, anti-parallel, strach binding; NMR {Rhizopus oryzae}
+Probab=6.50  E-value=5.1e+02  Score=10.06  Aligned_cols=5  Identities=40%  Similarity=0.700  Sum_probs=0.0  Template_Neff=7.200
+
+Q SDSNQG            2 DSNQG    6 (6)
+Q Consensus         2 dsnqg    6 (6)
+                      |.|.|
+T Consensus        95 DNN~g   99 (106)
+T 2DJM_A           95 DNNNS   99 (106)
+T ss_dssp             ECSSS
+T ss_pred             eCCCC
+
+
+No 6
+>2VQ4_A GLUCOAMYLASE A (E.C.3.2.1.3); RHIZOPUS ORYZAE GLUCOAMYLASE, HYDROLASE, CARBOHYDRATE; 1.25A {RHIZOPUS ORYZAE}
+Probab=6.50  E-value=5.1e+02  Score=10.06  Aligned_cols=5  Identities=40%  Similarity=0.700  Sum_probs=0.0  Template_Neff=7.200
+
+Q SDSNQG            2 DSNQG    6 (6)
+Q Consensus         2 dsnqg    6 (6)
+                      |.|.|
+T Consensus        95 DNN~g   99 (106)
+T 2VQ4_A           95 DNNNS   99 (106)
+T ss_dssp             ESTTT
+T ss_pred             eCCCC
+
+
+No 7
+>4EIB_B Glucoamylase; BETA BARREL, Starch Binding, Amylose; HET: NA, SO4, CL; 1.86A {Rhizopus oryzae}
+Probab=5.32  E-value=6.6e+02  Score=9.80  Aligned_cols=5  Identities=40%  Similarity=0.700  Sum_probs=0.0  Template_Neff=7.200
+
+Q SDSNQG            2 DSNQG    6 (6)
+Q Consensus         2 dsnqg    6 (6)
+                      |.|.|
+T Consensus         7 dnN~g   11 (109)
+T 4EIB_B            7 DNNNS   11 (109)
+T ss_dssp             CCTTT
+T ss_pred             cCCCC
+
+
+No 8
+>2M83_A Protein phosphatase 1 regulatory subunit; protein, starch binding domain, carbohydrate; NMR {Oryctolagus cuniculus}
+Probab=5.12  E-value=6.9e+02  Score=10.24  Aligned_cols=5  Identities=40%  Similarity=0.833  Sum_probs=0.0  Template_Neff=7.000
+
+Q SDSNQG            2 DSNQG    6 (6)
+Q Consensus         2 dsnqg    6 (6)
+                      |.|.|
+T Consensus       124 DNN~G  128 (139)
+T 2M83_A          124 SNNNG  128 (139)
+T ss_dssp             ECCSS
+T ss_pred             ECCCC
+
+
+No 9
+>3QK8_C Enoyl-CoA hydratase EchA15; SSGCID, NIH, NIAID, SBRI, UW; HET: UNL, EDO; 1.6A {Mycobacterium marinum M}
+Probab=4.88  E-value=7.3e+02  Score=10.24  Aligned_cols=6  Identities=33%  Similarity=0.822  Sum_probs=0.0  Template_Neff=9.400
+
+Q SDSNQG            1 SDSNQG    6 (6)
+Q Consensus         1 sdsnqg    6 (6)
+                      ++++||
+T Consensus       267 ~~~~~~  272 (272)
+T 3QK8_C          267 TDRTEG  272 (272)
+T ss_dssp             ------
+T ss_pred             CCCCCC
+
+
+No 10
+>2EOY_A Zinc finger protein 473; zf-C2H2, Structural Genomics, NPPSFA, National; HET: ZN; NMR {Homo sapiens}
+Probab=4.75  E-value=7.6e+02  Score=5.43  Aligned_cols=6  Identities=33%  Similarity=0.578  Sum_probs=0.0  Template_Neff=13.100
+
+Q SDSNQG            1 SDSNQG    6 (6)
+Q Consensus         1 sdsnqg    6 (6)
+                      .+.+.|
+T Consensus        41 ~~~~~~   46 (46)
+T 2EOY_A           41 SGPSSG   46 (46)
+T ss_dssp             TSSSCC
+T ss_pred             CCCCCC
+
+

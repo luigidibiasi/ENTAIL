@@ -1,0 +1,144 @@
+Query         QLENYC
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 08:26:01 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QLENYC/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QLENYC/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6ERI_BJ 50S ribosomal protein   19.7   1E+02  0.0012   11.2   0.0    6    1-6      13-18  (98)
+  2 3U73_A Urokinase plasminogen a  19.4 1.1E+02  0.0012   10.5   0.0    4    3-6      99-102 (132)
+  3 2FD6_A Urokinase-type plasmino  19.3 1.1E+02  0.0012   10.3   0.0    4    3-6      89-92  (122)
+  4 6ZVJ_H Eukaryotic translation   19.2 1.1E+02  0.0012   13.3   0.0    6    1-6     288-293 (318)
+  5 5TCU_S1 PROTEIN/RNA Complex, P  19.1 1.1E+02  0.0012   10.9   0.0    6    1-6      12-17  (80)
+  6 2MEW_A 30S ribosomal protein S  19.1 1.1E+02  0.0012   10.8   0.0    5    2-6      19-23  (82)
+  7 3VJ9_A Squalene synthase (E.C.  19.0 1.1E+02  0.0012   13.3   0.0    6    1-6     140-145 (343)
+  8 3R2C_K N utilization substance  18.9 1.1E+02  0.0012   10.9   0.0    6    1-6      17-22  (83)
+  9 6S0X_j 50S ribosomal protein L  18.7 1.1E+02  0.0013   11.2   0.0    5    2-6      13-17  (97)
+ 10 6T4Q_SU 40S ribosomal protein   18.1 1.2E+02  0.0013   11.1   0.0    6    1-6      14-19  (100)
+
+No 1
+>6ERI_BJ 50S ribosomal protein L2, chloroplastic; Chloroplast, translation, ribosome; HET: MG; 3.0A {Spinacia oleracea}
+Probab=19.71  E-value=1e+02  Score=11.16  Aligned_cols=6  Identities=33%  Similarity=0.922  Sum_probs=0.0  Template_Neff=8.400
+
+Q QLENYC            1 QLENYC    6 (6)
+Q Consensus         1 qlenyc    6 (6)
+                      .||+||
+T Consensus        13 ~Le~~~   18 (98)
+T 6ERI_BJ          13 LIEDSC   18 (98)
+T ss_pred             HHHHHH
+
+
+No 2
+>3U73_A Urokinase plasminogen activator surface receptor; glycosylation, HYDROLASE-HYDROLASE RECEPTOR complex; HET: MAN, NAG; 3.19A {Homo sapiens}
+Probab=19.43  E-value=1.1e+02  Score=10.50  Aligned_cols=4  Identities=75%  Similarity=1.954  Sum_probs=0.0  Template_Neff=10.700
+
+Q QLENYC            3 ENYC    6 (6)
+Q Consensus         3 enyc    6 (6)
+                      +|||
+T Consensus        99 ~n~C  102 (132)
+T 3U73_A           99 HNYC  102 (132)
+T ss_pred             cccC
+
+
+No 3
+>2FD6_A Urokinase-type plasminogen activator (EC 3.4.21.73); uPAR, ATF, ATN-615 antibody, Fab; HET: ETX, FUC, NAG, PG4, NDG, PGE; 1.9A {Mus musculus} SCOP: g.3.11.1, g.14.1.1
+Probab=19.26  E-value=1.1e+02  Score=10.33  Aligned_cols=4  Identities=75%  Similarity=1.954  Sum_probs=0.0  Template_Neff=10.700
+
+Q QLENYC            3 ENYC    6 (6)
+Q Consensus         3 enyc    6 (6)
+                      +|||
+T Consensus        89 ~n~C   92 (122)
+T 2FD6_A           89 HNYC   92 (122)
+T ss_dssp             SCCC
+T ss_pred             ccce
+
+
+No 4
+>6ZVJ_H Eukaryotic translation initiation factor 3; Translation, Initiation, Ribosome Recycling, ABC; HET: SF4, ATP, ADP;{Homo sapiens}
+Probab=19.22  E-value=1.1e+02  Score=13.28  Aligned_cols=6  Identities=50%  Similarity=1.453  Sum_probs=0.0  Template_Neff=8.500
+
+Q QLENYC            1 QLENYC    6 (6)
+Q Consensus         1 qlenyc    6 (6)
+                      |+.+||
+T Consensus       288 q~~~~~  293 (318)
+T 6ZVJ_H          288 QINTYC  293 (318)
+T ss_pred             HHHHHH
+
+
+No 5
+>5TCU_S1 PROTEIN/RNA Complex, PAROMOMYCIN; 70S ribosome, cryoEM, ribosome, Staphylococcus; HET: PAR, MG; 3.9A {Staphylococcus aureus (strain NCTC 8325)}
+Probab=19.14  E-value=1.1e+02  Score=10.88  Aligned_cols=6  Identities=0%  Similarity=0.185  Sum_probs=0.0  Template_Neff=8.100
+
+Q QLENYC            1 QLENYC    6 (6)
+Q Consensus         1 qlenyc    6 (6)
+                      .||+||
+T Consensus        12 ~Le~~~   17 (80)
+T 5TCU_S1          12 VIDQSA   17 (80)
+T ss_pred             HHHHHH
+
+
+No 6
+>2MEW_A 30S ribosomal protein S10; Transcription, STRUCTURAL PROTEIN; NMR {Thermotoga sp.}
+Probab=19.14  E-value=1.1e+02  Score=10.77  Aligned_cols=5  Identities=20%  Similarity=0.414  Sum_probs=0.0  Template_Neff=8.400
+
+Q QLENYC            2 LENYC    6 (6)
+Q Consensus         2 lenyc    6 (6)
+                      ||+||
+T Consensus        19 Le~~~   23 (82)
+T 2MEW_A           19 LDESA   23 (82)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 7
+>3VJ9_A Squalene synthase (E.C.2.5.1.21); Farnesyl-diphosphate farnesyltransferase, Head-to-head synthases, Cholesterol; 1.52A {Homo sapiens}
+Probab=18.96  E-value=1.1e+02  Score=13.34  Aligned_cols=6  Identities=33%  Similarity=1.320  Sum_probs=0.0  Template_Neff=8.600
+
+Q QLENYC            1 QLENYC    6 (6)
+Q Consensus         1 qlenyc    6 (6)
+                      +|+.||
+T Consensus       140 dL~~Y~  145 (343)
+T 3VJ9_A          140 EWDKYC  145 (343)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 8
+>3R2C_K N utilization substance protein B; cross species NusB-NusE-RNA interaction, transcription; HET: ACT, PEG; 1.902A {Aquifex aeolicus}
+Probab=18.86  E-value=1.1e+02  Score=10.92  Aligned_cols=6  Identities=17%  Similarity=0.218  Sum_probs=0.0  Template_Neff=8.100
+
+Q QLENYC            1 QLENYC    6 (6)
+Q Consensus         1 qlenyc    6 (6)
+                      .||.||
+T Consensus        17 ~Le~~~   22 (83)
+T 3R2C_K           17 LLDQSV   22 (83)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 9
+>6S0X_j 50S ribosomal protein L2, 50S; Ribosome, antibiotics, resistance, Staphylococcus aureus; HET: ERY; 2.425A {Staphylococcus aureus}
+Probab=18.72  E-value=1.1e+02  Score=11.15  Aligned_cols=5  Identities=0%  Similarity=0.321  Sum_probs=0.0  Template_Neff=8.200
+
+Q QLENYC            2 LENYC    6 (6)
+Q Consensus         2 lenyc    6 (6)
+                      ||+||
+T Consensus        13 Le~~~   17 (97)
+T 6S0X_j           13 IDQSA   17 (97)
+T ss_pred             HHHHH
+
+
+No 10
+>6T4Q_SU 40S ribosomal protein S1-A, 40S; stalling dicodon codon pair, TRANSLATION; HET: MG; 2.6A {Saccharomyces cerevisiae}
+Probab=18.09  E-value=1.2e+02  Score=11.15  Aligned_cols=6  Identities=67%  Similarity=0.728  Sum_probs=0.0  Template_Neff=8.200
+
+Q QLENYC            1 QLENYC    6 (6)
+Q Consensus         1 qlenyc    6 (6)
+                      .||+||
+T Consensus        14 ~le~~~   19 (100)
+T 6T4Q_SU          14 QLENVS   19 (100)
+T ss_pred             HHHHHH
+
+

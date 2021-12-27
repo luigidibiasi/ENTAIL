@@ -1,0 +1,147 @@
+Query         QYNPDA
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 11:46:35 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QYNPDA/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QYNPDA/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3JCT_q 60S ribosomal protein L  19.7 1.1E+02  0.0012   14.9   0.0    5    2-6     227-231 (455)
+  2 4ZCF_C EcoP15I, ModA, EcoP15I,  19.6 1.1E+02  0.0012   15.3   0.0    4    2-5     895-898 (970)
+  3 4RCJ_A YTH domain-containing f  19.2 1.1E+02  0.0012   13.1   0.0    6    1-6      13-18  (191)
+  4 1GY6_B NUCLEAR TRANSPORT FACTO  18.2 1.2E+02  0.0013   10.5   0.0    5    2-6      33-37  (127)
+  5 5BXQ_B Nuclear transport facto  18.2 1.2E+02  0.0013   10.5   0.0    5    2-6      33-37  (127)
+  6 5ZUU_C 30-kDa cleavage and pol  18.1 1.2E+02  0.0013   12.7   0.0    5    1-5       4-8   (180)
+  7 4IEF_C Gingipain R2 Pro-Domain  16.7 1.4E+02  0.0015   12.4   0.0    4    1-4     155-158 (210)
+  8 2PBL_B Putative esterase/lipas  16.1 1.4E+02  0.0016   11.0   0.0    6    1-6       7-12  (262)
+  9 7BG8_B Structural polyprotein;  14.8 1.6E+02  0.0018   13.4   0.0    4    1-4     300-303 (311)
+ 10 7BGK_B Structural polyprotein;  14.8 1.6E+02  0.0018   13.4   0.0    4    1-4     300-303 (311)
+
+No 1
+>3JCT_q 60S ribosomal protein L2-A, 60S; pre-60S ribosome, RIBOSOME; HET: GTP; 3.08A {Saccharomyces cerevisiae S288c}
+Probab=19.66  E-value=1.1e+02  Score=14.92  Aligned_cols=5  Identities=60%  Similarity=1.404  Sum_probs=0.0  Template_Neff=6.700
+
+Q QYNPDA            2 YNPDA    6 (6)
+Q Consensus         2 ynpda    6 (6)
+                      |||+.
+T Consensus       227 YNPs~  231 (455)
+T 3JCT_q          227 YNPNN  231 (455)
+T ss_pred             CCCCh
+
+
+No 2
+>4ZCF_C EcoP15I, ModA, EcoP15I, Res/RNA Complex; Hydrolase/DNA, ATP motor, DNA methyltransferase; HET: AMP; 2.6A {Escherichia coli}
+Probab=19.59  E-value=1.1e+02  Score=15.33  Aligned_cols=4  Identities=75%  Similarity=1.746  Sum_probs=0.0  Template_Neff=8.700
+
+Q QYNPDA            2 YNPD    5 (6)
+Q Consensus         2 ynpd    5 (6)
+                      ||||
+T Consensus       895 y~PD  898 (970)
+T 4ZCF_C          895 YSPD  898 (970)
+T ss_dssp             ----
+T ss_pred             ecCC
+
+
+No 3
+>4RCJ_A YTH domain-containing family protein 1; Structural Genomics, Structural Genomics Consortium; HET: 6MZ; 1.6A {Homo sapiens}
+Probab=19.19  E-value=1.1e+02  Score=13.08  Aligned_cols=6  Identities=50%  Similarity=1.104  Sum_probs=0.0  Template_Neff=7.000
+
+Q QYNPDA            1 QYNPDA    6 (6)
+Q Consensus         1 qynpda    6 (6)
+                      ||||+.
+T Consensus        13 ~~n~~~   18 (191)
+T 4RCJ_A           13 SYNPKE   18 (191)
+T ss_dssp             CCSCTT
+T ss_pred             cCChhH
+
+
+No 4
+>1GY6_B NUCLEAR TRANSPORT FACTOR 2; NUCLEAR TRANSPORT; 1.6A {RATTUS NORVEGICUS} SCOP: d.17.4.2
+Probab=18.20  E-value=1.2e+02  Score=10.47  Aligned_cols=5  Identities=20%  Similarity=0.341  Sum_probs=0.0  Template_Neff=10.400
+
+Q QYNPDA            2 YNPDA    6 (6)
+Q Consensus         2 ynpda    6 (6)
+                      |.+||
+T Consensus        33 Y~~da   37 (127)
+T 1GY6_B           33 YIDAS   37 (127)
+T ss_dssp             EEEEE
+T ss_pred             ccccc
+
+
+No 5
+>5BXQ_B Nuclear transport factor 2, GTP-binding; Nuclear transport, RanGDP, NTF2, transport; HET: GDP; 2.5A {Rattus norvegicus}
+Probab=18.20  E-value=1.2e+02  Score=10.47  Aligned_cols=5  Identities=20%  Similarity=0.341  Sum_probs=0.0  Template_Neff=10.400
+
+Q QYNPDA            2 YNPDA    6 (6)
+Q Consensus         2 ynpda    6 (6)
+                      |.+||
+T Consensus        33 Y~~da   37 (127)
+T 5BXQ_B           33 YIDAS   37 (127)
+T ss_dssp             CCTTC
+T ss_pred             ccccc
+
+
+No 6
+>5ZUU_C 30-kDa cleavage and polyadenylation specificity; mRNA processing, Arabidopsis, CPSF, modification; HET: EPE, 6MD; 1.95A {Arabidopsis thaliana}
+Probab=18.15  E-value=1.2e+02  Score=12.71  Aligned_cols=5  Identities=40%  Similarity=0.249  Sum_probs=0.0  Template_Neff=7.300
+
+Q QYNPDA            1 QYNPD    5 (6)
+Q Consensus         1 qynpd    5 (6)
+                      ||||+
+T Consensus         4 ~~n~~    8 (180)
+T 5ZUU_C            4 QTNRT    8 (180)
+T ss_dssp             -----
+T ss_pred             CCCCC
+
+
+No 7
+>4IEF_C Gingipain R2 Pro-Domain, Gingipain R2; alpha/beta/alpha sandwich, cysteine endopeptidase, HYDROLASE; HET: CA; 2.3A {Porphyromonas gingivalis}
+Probab=16.68  E-value=1.4e+02  Score=12.44  Aligned_cols=4  Identities=100%  Similarity=1.821  Sum_probs=0.0  Template_Neff=8.100
+
+Q QYNPDA            1 QYNP    4 (6)
+Q Consensus         1 qynp    4 (6)
+                      ||||
+T Consensus       155 qY~P  158 (210)
+T 4IEF_C          155 QYNP  158 (210)
+T ss_dssp             EEET
+T ss_pred             eEeC
+
+
+No 8
+>2PBL_B Putative esterase/lipase/thioesterase; Alpha/beta-hydrolases fold, structural genomics, Joint; HET: PO4, UNL, MSE; 1.79A {Silicibacter sp.} SCOP: c.69.1.2
+Probab=16.09  E-value=1.4e+02  Score=11.01  Aligned_cols=6  Identities=33%  Similarity=0.495  Sum_probs=0.0  Template_Neff=11.500
+
+Q QYNPDA            1 QYNPDA    6 (6)
+Q Consensus         1 qynpda    6 (6)
+                      ||+|.+
+T Consensus         7 ~~~~~~   12 (262)
+T 2PBL_B            7 AYANGA   12 (262)
+T ss_dssp             TTCCGG
+T ss_pred             hhchhh
+
+
+No 9
+>7BG8_B Structural polyprotein; Viruses, Riboviria, Orthornavirae, Pisuviricota, Pisoniviricetes; 3.9A {Kashmir bee virus}
+Probab=14.80  E-value=1.6e+02  Score=13.43  Aligned_cols=4  Identities=100%  Similarity=1.821  Sum_probs=0.0  Template_Neff=7.100
+
+Q QYNPDA            1 QYNP    4 (6)
+Q Consensus         1 qynp    4 (6)
+                      ||||
+T Consensus       300 ~~~~  303 (311)
+T 7BG8_B          300 QYNP  303 (311)
+T ss_pred             HhCc
+
+
+No 10
+>7BGK_B Structural polyprotein; Viruses, Riboviria, Orthornavirae, Pisuviricota, Pisoniviricetes;{Kashmir bee virus}
+Probab=14.80  E-value=1.6e+02  Score=13.43  Aligned_cols=4  Identities=100%  Similarity=1.821  Sum_probs=0.0  Template_Neff=7.100
+
+Q QYNPDA            1 QYNP    4 (6)
+Q Consensus         1 qynp    4 (6)
+                      ||||
+T Consensus       300 ~~~~  303 (311)
+T 7BGK_B          300 QYNP  303 (311)
+T ss_pred             HhCc
+
+

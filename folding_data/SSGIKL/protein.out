@@ -1,0 +1,149 @@
+Query         SSGIKL
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 16:30:59 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/SSGIKL/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/SSGIKL/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2HT9_B Glutaredoxin-2, 12-mer   14.3 1.7E+02  0.0019   10.6   0.0    6    1-6       8-13  (146)
+  2 6KLM_A Roseltide rT7; Roseltid  13.4 1.9E+02  0.0021   11.1   0.0    4    1-4       3-6   (34)
+  3 1VYI_A RNA POLYMERASE ALPHA SU  13.4 1.9E+02  0.0021   13.3   0.0    6    1-6      34-39  (112)
+  4 4MH6_A Putative type III secre  13.4 1.9E+02  0.0021   12.0   0.0    6    1-6       8-13  (177)
+  5 2H2R_A Low affinity immunoglob  12.9   2E+02  0.0022   10.2   0.0    6    1-6       1-6   (175)
+  6 2H2T_B Low affinity immunoglob  12.8   2E+02  0.0022   10.2   0.0    6    1-6       1-6   (175)
+  7 3OA1_B Phosphoprotein; Seattle  11.8 2.3E+02  0.0025   14.2   0.0    6    1-6     151-156 (229)
+  8 1E7Z_A ENDOTHELIAL-MONOCYTE AC  11.8 2.3E+02  0.0025   12.3   0.0    6    1-6     162-167 (174)
+  9 5A6U_B SEC61A, SEC61B, SEC61G;  11.4 2.4E+02  0.0027   10.0   0.0    6    1-6       3-8   (36)
+ 10 4R7K_C Hypothetical protein jh  11.1 2.5E+02  0.0027   10.7   0.0    6    1-6       8-13  (191)
+
+No 1
+>2HT9_B Glutaredoxin-2, 12-mer peptide; THIOREDOXIN FOLD, iron-sulfur cluster, 2Fe2S; HET: GSH; 1.9A {Homo sapiens}
+Probab=14.29  E-value=1.7e+02  Score=10.59  Aligned_cols=6  Identities=67%  Similarity=1.032  Sum_probs=0.0  Template_Neff=9.900
+
+Q SSGIKL            1 SSGIKL    6 (6)
+Q Consensus         1 ssgikl    6 (6)
+                      |||+.|
+T Consensus         8 ~~~~~~   13 (146)
+T 2HT9_B            8 SSGVDL   13 (146)
+T ss_dssp             ------
+T ss_pred             cCCCcc
+
+
+No 2
+>6KLM_A Roseltide rT7; Roseltide, PLANT PROTEIN; NMR {Hibiscus sabdariffa}
+Probab=13.43  E-value=1.9e+02  Score=11.10  Aligned_cols=4  Identities=100%  Similarity=1.248  Sum_probs=0.0  Template_Neff=1.000
+
+Q SSGIKL            1 SSGI    4 (6)
+Q Consensus         1 ssgi    4 (6)
+                      ||||
+T Consensus         3 ssgi    6 (34)
+T 6KLM_A            3 SSGI    6 (34)
+T ss_dssp             SEEE
+T ss_pred             ccch
+
+
+No 3
+>1VYI_A RNA POLYMERASE ALPHA SUBUNIT (E.C.2.7.7.48); TRANSFERASE, RABIES VIRUS, REPLICATION, TRANSCRIPTION; HET: GOL; 1.5A {RABIES VIRUS (STRAIN CVS-11)} SCOP: d.293.1.1
+Probab=13.42  E-value=1.9e+02  Score=13.30  Aligned_cols=6  Identities=83%  Similarity=0.872  Sum_probs=0.0  Template_Neff=1.800
+
+Q SSGIKL            1 SSGIKL    6 (6)
+Q Consensus         1 ssgikl    6 (6)
+                      ||||-|
+T Consensus        34 SSGIfL   39 (112)
+T 1VYI_A           34 SSGIFL   39 (112)
+T ss_dssp             TSCEEE
+T ss_pred             ccceee
+
+
+No 4
+>4MH6_A Putative type III secretion protein; Structural Genomics, Center for Structural; HET: PO4; 2.8A {Vibrio parahaemolyticus}
+Probab=13.42  E-value=1.9e+02  Score=12.02  Aligned_cols=6  Identities=67%  Similarity=1.032  Sum_probs=0.0  Template_Neff=7.500
+
+Q SSGIKL            1 SSGIKL    6 (6)
+Q Consensus         1 ssgikl    6 (6)
+                      |||+.|
+T Consensus         8 ~~~~~~   13 (177)
+T 4MH6_A            8 SSGVDL   13 (177)
+T ss_dssp             ------
+T ss_pred             CCCCCC
+
+
+No 5
+>2H2R_A Low affinity immunoglobulin epsilon Fc; C-type lectin, apo form, lectin; 1.5A {Homo sapiens}
+Probab=12.87  E-value=2e+02  Score=10.23  Aligned_cols=6  Identities=50%  Similarity=0.938  Sum_probs=0.0  Template_Neff=10.900
+
+Q SSGIKL            1 SSGIKL    6 (6)
+Q Consensus         1 ssgikl    6 (6)
+                      |+|+.|
+T Consensus         1 ~~~~~~    6 (175)
+T 2H2R_A            1 SPGMEL    6 (175)
+T ss_pred             CCCcEE
+
+
+No 6
+>2H2T_B Low affinity immunoglobulin epsilon Fc; C-type lectin, calcium-bound, lectin domain; 1.3A {Homo sapiens}
+Probab=12.83  E-value=2e+02  Score=10.22  Aligned_cols=6  Identities=50%  Similarity=0.938  Sum_probs=0.0  Template_Neff=10.900
+
+Q SSGIKL            1 SSGIKL    6 (6)
+Q Consensus         1 ssgikl    6 (6)
+                      |+|+.|
+T Consensus         1 ~~~~~~    6 (175)
+T 2H2T_B            1 SPGMEL    6 (175)
+T ss_dssp             ------
+T ss_pred             CCCcee
+
+
+No 7
+>3OA1_B Phosphoprotein; Seattle Structural Genomics Center for; HET: SO4; 2.2A {Rabies virus strain Pasteur vaccin}
+Probab=11.79  E-value=2.3e+02  Score=14.19  Aligned_cols=6  Identities=83%  Similarity=0.938  Sum_probs=0.0  Template_Neff=2.700
+
+Q SSGIKL            1 SSGIKL    6 (6)
+Q Consensus         1 ssgikl    6 (6)
+                      ||||-|
+T Consensus       151 SSGIFL  156 (229)
+T 3OA1_B          151 SSGILL  156 (229)
+T ss_dssp             TSSEEE
+T ss_pred             ccceee
+
+
+No 8
+>1E7Z_A ENDOTHELIAL-MONOCYTE ACTIVATING POLYPEPTIDE II; RNA BINDING DOMAIN, OB-FOLD, TRNA; 2.05A {HOMO SAPIENS} SCOP: b.40.4.4
+Probab=11.78  E-value=2.3e+02  Score=12.27  Aligned_cols=6  Identities=83%  Similarity=1.160  Sum_probs=0.0  Template_Neff=6.400
+
+Q SSGIKL            1 SSGIKL    6 (6)
+Q Consensus         1 ssgikl    6 (6)
+                      ++||||
+T Consensus       162 ~~~~~~  167 (174)
+T 1E7Z_A          162 NSGIKL  167 (174)
+T ss_dssp             SCEEES
+T ss_pred             Cceeec
+
+
+No 9
+>5A6U_B SEC61A, SEC61B, SEC61G; TRANSLATION, RIBOSOME, SEC61, TRANSLOCON, ENDOPLASMIC; 9.0A {CANIS LUPUS FAMILIARIS}
+Probab=11.37  E-value=2.4e+02  Score=10.02  Aligned_cols=6  Identities=50%  Similarity=0.944  Sum_probs=0.0  Template_Neff=4.700
+
+Q SSGIKL            1 SSGIKL    6 (6)
+Q Consensus         1 ssgikl    6 (6)
+                      +.|+|+
+T Consensus         3 ~~Glkv    8 (36)
+T 5A6U_B            3 SPGLKV    8 (36)
+T ss_dssp             CCSCCC
+T ss_pred             CCCcCC
+
+
+No 10
+>4R7K_C Hypothetical protein jhp0584; Structural Genomics, NIAID, National Institute; HET: CME, MSE; 1.88A {Helicobacter pylori J99}
+Probab=11.13  E-value=2.5e+02  Score=10.66  Aligned_cols=6  Identities=67%  Similarity=1.032  Sum_probs=0.0  Template_Neff=9.900
+
+Q SSGIKL            1 SSGIKL    6 (6)
+Q Consensus         1 ssgikl    6 (6)
+                      |||+.|
+T Consensus         8 ~~~~~~   13 (191)
+T 4R7K_C            8 SSGVDL   13 (191)
+T ss_dssp             ------
+T ss_pred             CCCCCC
+
+

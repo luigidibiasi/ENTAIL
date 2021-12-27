@@ -1,0 +1,152 @@
+Query         KTVEGA
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 12:30:54 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/KTVEGA/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/KTVEGA/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4Q2G_B Phosphatidate cytidylyl  50.9      14 0.00016   16.3   0.0    6    1-6     187-192 (290)
+  2 4Q2E_B Phosphatidate cytidylyl  48.8      16 0.00018   16.3   0.0    6    1-6     187-192 (290)
+  3 2N0A_B Alpha-synuclein; Protei  16.5 1.4E+02  0.0015   13.9   0.0    6    1-6      80-85  (140)
+  4 6SSX_D Alpha-synuclein; amyloi  16.5 1.4E+02  0.0015   13.9   0.0    6    1-6      80-85  (140)
+  5 2FS1_A PSD-1; solution structu  15.3 1.6E+02  0.0017   11.4   0.0    5    1-5      37-41  (56)
+  6 1XPP_D DNA-directed RNA polyme  14.8 1.6E+02  0.0018   12.0   0.0    6    1-6     110-115 (115)
+  7 2J5Y_B PEPTOSTREPTOCOCCAL ALBU  13.8 1.8E+02   0.002   11.8   0.0    5    1-5      44-48  (61)
+  8 4P7C_A tRNA-methyltransferase,  13.4 1.9E+02  0.0021   12.0   0.0    5    1-5     304-308 (322)
+  9 3MP9_A B1 domain of Streptococ   8.6 3.5E+02  0.0039   11.4   0.0    5    1-5      45-49  (64)
+ 10 1MHX_A alpha-beta protein, red   8.3 3.7E+02  0.0041   11.4   0.0    5    1-5      46-50  (65)
+
+No 1
+>4Q2G_B Phosphatidate cytidylyltransferase (E.C.2.7.7.41); intramembrane enzyme, CdsA fold, phospholipid; HET: BNG; 3.4A {Thermotoga maritima MSB8}
+Probab=50.89  E-value=14  Score=16.28  Aligned_cols=6  Identities=50%  Similarity=0.933  Sum_probs=4.1  Template_Neff=7.400
+
+Q KTVEGA            1 KTVEGA    6 (6)
+Q Consensus         1 ktvega    6 (6)
+                      ||+||+
+T Consensus       187 KT~eG~  192 (290)
+T 4Q2G_B          187 KSLEGV  192 (290)
+T ss_dssp             CBHHHH
+T ss_pred             CCHHHH
+Confidence            677774
+
+
+No 2
+>4Q2E_B Phosphatidate cytidylyltransferase (E.C.2.7.7.41); intramembrane enzyme, CdsA fold, phospholipid; 3.4A {Thermotoga maritima MSB8}
+Probab=48.85  E-value=16  Score=16.30  Aligned_cols=6  Identities=50%  Similarity=0.933  Sum_probs=4.1  Template_Neff=7.100
+
+Q KTVEGA            1 KTVEGA    6 (6)
+Q Consensus         1 ktvega    6 (6)
+                      ||+||+
+T Consensus       187 KT~eG~  192 (290)
+T 4Q2E_B          187 KSLEGV  192 (290)
+T ss_dssp             CBHHHH
+T ss_pred             CCHHHH
+Confidence            677774
+
+
+No 3
+>2N0A_B Alpha-synuclein; Protein Fibril, Amyloid, Parkinson's Disease; NMR {Homo sapiens}
+Probab=16.46  E-value=1.4e+02  Score=13.89  Aligned_cols=6  Identities=100%  Similarity=1.204  Sum_probs=0.0  Template_Neff=2.900
+
+Q KTVEGA            1 KTVEGA    6 (6)
+Q Consensus         1 ktvega    6 (6)
+                      |||||+
+T Consensus        80 ktvega   85 (140)
+T 2N0A_B           80 KTVEGA   85 (140)
+T ss_dssp             SEEECT
+T ss_pred             hhhhhh
+
+
+No 4
+>6SSX_D Alpha-synuclein; amyloid, parkinson, PROTEIN FIBRIL; 2.98A {Homo sapiens}
+Probab=16.46  E-value=1.4e+02  Score=13.89  Aligned_cols=6  Identities=100%  Similarity=1.204  Sum_probs=0.0  Template_Neff=2.900
+
+Q KTVEGA            1 KTVEGA    6 (6)
+Q Consensus         1 ktvega    6 (6)
+                      |||||+
+T Consensus        80 ktvega   85 (140)
+T 6SSX_D           80 KTVEGA   85 (140)
+T ss_dssp             SCSCSC
+T ss_pred             hhhhhh
+
+
+No 5
+>2FS1_A PSD-1; solution structure, PSD-1, PROTEIN BINDING; NMR {Finegoldia magna ATCC 29328, Streptococcus dysgalactiae, Streptococcus equi, Streptococcus canis, Streptococcus sp.}
+Probab=15.32  E-value=1.6e+02  Score=11.39  Aligned_cols=5  Identities=100%  Similarity=1.285  Sum_probs=0.0  Template_Neff=4.600
+
+Q KTVEGA            1 KTVEG    5 (6)
+Q Consensus         1 ktveg    5 (6)
+                      +||+|
+T Consensus        37 kTVeG   41 (56)
+T 2FS1_A           37 KTVEG   41 (56)
+T ss_dssp             SSSHH
+T ss_pred             cchhH
+
+
+No 6
+>1XPP_D DNA-directed RNA polymerase subunit L; Structural Genomics, DNA-directed RNA polymerase; 1.6A {Thermoplasma acidophilum} SCOP: d.74.3.2
+Probab=14.75  E-value=1.6e+02  Score=11.96  Aligned_cols=6  Identities=67%  Similarity=1.027  Sum_probs=0.0  Template_Neff=6.300
+
+Q KTVEGA            1 KTVEGA    6 (6)
+Q Consensus         1 ktvega    6 (6)
+                      ++|||.
+T Consensus       110 ~~~~~~  115 (115)
+T 1XPP_D          110 KAVEGS  115 (115)
+T ss_dssp             ------
+T ss_pred             hcccCC
+
+
+No 7
+>2J5Y_B PEPTOSTREPTOCOCCAL ALBUMIN-BINDING PROTEIN; PROTEIN BINDING, CELL WALL, PEPTIDOGLYCAN-ANCHOR; 1.4A {PEPTOSTREPTOCOCCUS MAGNUS} SCOP: a.8.1.2
+Probab=13.83  E-value=1.8e+02  Score=11.75  Aligned_cols=5  Identities=80%  Similarity=0.793  Sum_probs=0.0  Template_Neff=3.600
+
+Q KTVEGA            1 KTVEG    5 (6)
+Q Consensus         1 ktveg    5 (6)
+                      +||||
+T Consensus        44 kTVeg   48 (61)
+T 2J5Y_B           44 KTVEE   48 (61)
+T ss_dssp             CSHHH
+T ss_pred             cCHHH
+
+
+No 8
+>4P7C_A tRNA-methyltransferase, putative; methyltransferase, PSI-BIOLOGY, structural genomics, Midwest; HET: MSE, ACT, BTB; 1.85A {Pseudomonas syringae pv. tomato}
+Probab=13.37  E-value=1.9e+02  Score=11.95  Aligned_cols=5  Identities=100%  Similarity=1.285  Sum_probs=0.0  Template_Neff=9.800
+
+Q KTVEGA            1 KTVEG    5 (6)
+Q Consensus         1 ktveg    5 (6)
+                      +|+||
+T Consensus       304 ~t~eg  308 (322)
+T 4P7C_A          304 KTVEG  308 (322)
+T ss_dssp             EETTS
+T ss_pred             CCCCC
+
+
+No 9
+>3MP9_A B1 domain of Streptococcal protein; PROTEIN G, IGG-BINDING PROTEIN, PROTEIN; 1.2A {Streptococcus sp. 'group G'}
+Probab=8.62  E-value=3.5e+02  Score=11.38  Aligned_cols=5  Identities=40%  Similarity=0.827  Sum_probs=0.0  Template_Neff=2.400
+
+Q KTVEGA            1 KTVEG    5 (6)
+Q Consensus         1 ktveg    5 (6)
+                      +||||
+T Consensus        45 ntVeG   49 (64)
+T 3MP9_A           45 NGVDG   49 (64)
+T ss_dssp             TTCCC
+T ss_pred             CCCcc
+
+
+No 10
+>1MHX_A alpha-beta protein, redesigned first beta-hairpin; 1.8A {Finegoldia magna} SCOP: d.15.7.1
+Probab=8.34  E-value=3.7e+02  Score=11.41  Aligned_cols=5  Identities=40%  Similarity=0.827  Sum_probs=0.0  Template_Neff=2.100
+
+Q KTVEGA            1 KTVEG    5 (6)
+Q Consensus         1 ktveg    5 (6)
+                      +||||
+T Consensus        46 NtVeG   50 (65)
+T 1MHX_A           46 NGVDG   50 (65)
+T ss_dssp             TTCCS
+T ss_pred             CCccc
+
+

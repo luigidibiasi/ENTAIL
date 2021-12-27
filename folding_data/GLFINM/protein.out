@@ -1,0 +1,355 @@
+Query         GLFINM
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 01:37:28 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GLFINM/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GLFINM/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 1LK5_D D-Ribose-5-Phosphate Is  51.3      14 0.00015   15.6   0.0    6    1-6     207-212 (229)
+  2 1LK7_D D-Ribose-5-Phosphate Is  51.3      14 0.00015   15.6   0.0    6    1-6     207-212 (229)
+  3 3L7O_B Ribose-5-phosphate isom  48.0      17 0.00019   15.4   0.0    6    1-6     201-206 (225)
+  4 2I9Z_B Putative septation prot  47.1      18 0.00019   14.7   0.0    6    1-6      45-50  (105)
+  5 2I9X_A Putative septation prot  44.6      21 0.00023   13.9   0.0    6    1-6      45-50  (87)
+  6 2I9X_B Putative septation prot  42.8      23 0.00025   13.8   0.0    6    1-6      45-50  (87)
+  7 4GMK_A Ribose-5-phosphate isom  42.4      23 0.00026   15.1   0.0    6    1-6     205-210 (228)
+  8 5UF2_A Ribose-5-phosphate isom  42.3      23 0.00026   15.3   0.0    6    1-6     205-210 (231)
+  9 2IA9_C Putative septation prot  41.8      24 0.00027   14.2   0.0    6    1-6      45-50  (100)
+ 10 2IA9_D Putative septation prot  41.4      25 0.00027   14.1   0.0    6    1-6      45-50  (100)
+ 11 4QXZ_B Uncharacterized protein  41.3      25 0.00028   15.9   0.0    6    1-6      46-51  (166)
+ 12 3L7O_A Ribose-5-phosphate isom  40.0      27  0.0003   14.9   0.0    6    1-6     201-206 (225)
+ 13 4QXZ_A Uncharacterized protein  39.7      27  0.0003   15.9   0.0    6    1-6      46-51  (166)
+ 14 3IXQ_B Ribose-5-phosphate isom  39.6      28  0.0003   14.6   0.0    6    1-6     205-210 (226)
+ 15 2I9Z_A Putative septation prot  38.6      29 0.00032   14.2   0.0    6    1-6      45-50  (105)
+ 16 3HHE_B Ribose-5-phosphate isom  38.5      29 0.00033   15.3   0.0    6    1-6     229-234 (255)
+ 17 1XTZ_A Ribose-5-phosphate isom  37.1      32 0.00035   15.4   0.0    6    1-6     235-240 (264)
+ 18 1UJ6_A ribose-5-phosphate isom  35.2      36  0.0004   14.6   0.0    6    1-6     205-210 (227)
+ 19 2F8M_A ribose 5-phosphate isom  34.0      39 0.00043   14.9   0.0    6    1-6     218-223 (244)
+ 20 1UJ5_A ribose-5-phosphate isom  33.5      40 0.00044   14.4   0.0    6    1-6     205-210 (227)
+ 21 6ZXT_B Ribose-5-phosphate isom  32.4      43 0.00047   14.7   0.0    6    1-6     227-232 (255)
+ 22 6R0W_K V-type ATP synthase alp  24.2      74 0.00082   12.3   0.0    6    1-6       4-9   (120)
+ 23 6R10_I V-type ATP synthase alp  24.2      74 0.00082   12.3   0.0    6    1-6       4-9   (120)
+
+No 1
+>1LK5_D D-Ribose-5-Phosphate Isomerase(E.C.5.3.1.6); ALPHA/BETA STRUCTURE, ISOMERASE; HET: CL; 1.75A {Pyrococcus horikoshii} SCOP: c.124.1.4, d.58.40.1
+Probab=51.30  E-value=14  Score=15.64  Aligned_cols=6  Identities=33%  Similarity=1.126  Sum_probs=3.9  Template_Neff=7.700
+
+Q GLFINM            1 GLFINM    6 (6)
+Q Consensus         1 glfinm    6 (6)
+                      |||++|
+T Consensus       207 GlF~~~  212 (229)
+T 1LK5_D          207 GIFADI  212 (229)
+T ss_dssp             SEECSC
+T ss_pred             ceecCC
+Confidence            677764
+
+
+No 2
+>1LK7_D D-Ribose-5-Phosphate Isomerase(E.C.5.3.1.6); alpha/beta structure, ISOMERASE; HET: CL, DER; 2.0A {Pyrococcus horikoshii} SCOP: c.124.1.4, d.58.40.1
+Probab=51.30  E-value=14  Score=15.64  Aligned_cols=6  Identities=33%  Similarity=1.126  Sum_probs=3.9  Template_Neff=7.700
+
+Q GLFINM            1 GLFINM    6 (6)
+Q Consensus         1 glfinm    6 (6)
+                      |||++|
+T Consensus       207 GlF~~~  212 (229)
+T 1LK7_D          207 GIFADI  212 (229)
+T ss_dssp             SEECSC
+T ss_pred             ceecCC
+Confidence            677764
+
+
+No 3
+>3L7O_B Ribose-5-phosphate isomerase A (E.C.5.3.1.6); Ribose-5-phosphate isomerase A, rpiA, Streptococcus; 1.7A {Streptococcus mutans}
+Probab=47.97  E-value=17  Score=15.36  Aligned_cols=6  Identities=67%  Similarity=1.082  Sum_probs=3.7  Template_Neff=7.700
+
+Q GLFINM            1 GLFINM    6 (6)
+Q Consensus         1 glfinm    6 (6)
+                      |||++|
+T Consensus       201 GlF~~~  206 (225)
+T 3L7O_B          201 GLFNGM  206 (225)
+T ss_dssp             SEECSC
+T ss_pred             ceeCCC
+Confidence            567664
+
+
+No 4
+>2I9Z_B Putative septation protein spoVG; APC86317, SpoVG, Staphylococcus epidermidis ATCC; HET: MSE, EDO; 2.3A {Staphylococcus epidermidis} SCOP: d.366.1.1
+Probab=47.13  E-value=18  Score=14.67  Aligned_cols=6  Identities=67%  Similarity=1.370  Sum_probs=3.3  Template_Neff=5.900
+
+Q GLFINM            1 GLFINM    6 (6)
+Q Consensus         1 glfinm    6 (6)
+                      |+|+.|
+T Consensus        45 glfV~m   50 (105)
+T 2I9Z_B           45 GLFVAM   50 (105)
+T ss_dssp             CCEEEC
+T ss_pred             eEEEEC
+Confidence            456654
+
+
+No 5
+>2I9X_A Putative septation protein spoVG; APC86317.1, SpoVG, Staphylococcus epidermidis ATCC; HET: EDO; 1.8A {Staphylococcus epidermidis} SCOP: d.366.1.1
+Probab=44.56  E-value=21  Score=13.88  Aligned_cols=6  Identities=67%  Similarity=1.370  Sum_probs=3.0  Template_Neff=6.300
+
+Q GLFINM            1 GLFINM    6 (6)
+Q Consensus         1 glfinm    6 (6)
+                      |+|+.|
+T Consensus        45 glfv~m   50 (87)
+T 2I9X_A           45 GLFVAM   50 (87)
+T ss_dssp             EEEEEC
+T ss_pred             eEEEEC
+Confidence            455544
+
+
+No 6
+>2I9X_B Putative septation protein spoVG; APC86317.1, SpoVG, Staphylococcus epidermidis ATCC; HET: MSE, EDO; 1.8A {Staphylococcus epidermidis} SCOP: d.366.1.1
+Probab=42.82  E-value=23  Score=13.76  Aligned_cols=6  Identities=67%  Similarity=1.370  Sum_probs=3.0  Template_Neff=6.300
+
+Q GLFINM            1 GLFINM    6 (6)
+Q Consensus         1 glfinm    6 (6)
+                      |+|+.|
+T Consensus        45 glfv~m   50 (87)
+T 2I9X_B           45 GLFVAM   50 (87)
+T ss_dssp             EEEEEC
+T ss_pred             eEEEEC
+Confidence            455544
+
+
+No 7
+>4GMK_A Ribose-5-phosphate isomerase A (E.C.5.3.1.6); D-ribose-5-phosphate isomerase family, Ribose 5-Phosphate; HET: PO4; 1.72A {Lactobacillus salivarius}
+Probab=42.36  E-value=23  Score=15.08  Aligned_cols=6  Identities=50%  Similarity=1.392  Sum_probs=3.6  Template_Neff=7.500
+
+Q GLFINM            1 GLFINM    6 (6)
+Q Consensus         1 glfinm    6 (6)
+                      |||++|
+T Consensus       205 Glf~~~  210 (228)
+T 4GMK_A          205 GLFLDI  210 (228)
+T ss_dssp             SEECSC
+T ss_pred             ceecCc
+Confidence            567654
+
+
+No 8
+>5UF2_A Ribose-5-phosphate isomerase A (E.C.5.3.1.6); SSGCID, Neisseria gonorrhoeae, ribose-5-phosphate, isomerase; HET: BTB, EDO; 1.4A {Neisseria gonorrhoeae (strain NCCP11945)}
+Probab=42.31  E-value=23  Score=15.27  Aligned_cols=6  Identities=33%  Similarity=0.717  Sum_probs=3.7  Template_Neff=7.200
+
+Q GLFINM            1 GLFINM    6 (6)
+Q Consensus         1 glfinm    6 (6)
+                      |||++|
+T Consensus       205 GlF~~~  210 (231)
+T 5UF2_A          205 GIFARD  210 (231)
+T ss_dssp             SEESTT
+T ss_pred             ceecCC
+Confidence            677753
+
+
+No 9
+>2IA9_C Putative septation protein spoVG; APC85465, SpoVG, Bacillus subtilis subsp.; HET: PEG, MSE, SO4; 3.0A {Bacillus subtilis} SCOP: d.366.1.1
+Probab=41.79  E-value=24  Score=14.18  Aligned_cols=6  Identities=67%  Similarity=1.370  Sum_probs=3.1  Template_Neff=5.900
+
+Q GLFINM            1 GLFINM    6 (6)
+Q Consensus         1 glfinm    6 (6)
+                      |+|+.|
+T Consensus        45 glfV~m   50 (100)
+T 2IA9_C           45 GLFVAM   50 (100)
+T ss_dssp             EEEEEC
+T ss_pred             eEEEEC
+Confidence            455554
+
+
+No 10
+>2IA9_D Putative septation protein spoVG; APC85465, SpoVG, Bacillus subtilis subsp.; HET: PEG, SO4; 3.0A {Bacillus subtilis} SCOP: d.366.1.1
+Probab=41.45  E-value=25  Score=14.11  Aligned_cols=6  Identities=67%  Similarity=1.370  Sum_probs=3.1  Template_Neff=6.000
+
+Q GLFINM            1 GLFINM    6 (6)
+Q Consensus         1 glfinm    6 (6)
+                      |+|+.|
+T Consensus        45 glfV~m   50 (100)
+T 2IA9_D           45 GLFVAM   50 (100)
+T ss_dssp             EEEEEC
+T ss_pred             eEEEEc
+Confidence            455554
+
+
+No 11
+>4QXZ_B Uncharacterized protein; Beta-barrel, UNKNOWN FUNCTION; 2.49A {Staphylococcus aureus subsp. aureus Mu50}
+Probab=41.25  E-value=25  Score=15.93  Aligned_cols=6  Identities=50%  Similarity=0.877  Sum_probs=3.9  Template_Neff=4.400
+
+Q GLFINM            1 GLFINM    6 (6)
+Q Consensus         1 glfinm    6 (6)
+                      ||.||+
+T Consensus        46 GLIINk   51 (166)
+T 4QXZ_B           46 GVIINK   51 (166)
+T ss_dssp             EEEEEC
+T ss_pred             eEEEEe
+Confidence            667774
+
+
+No 12
+>3L7O_A Ribose-5-phosphate isomerase A (E.C.5.3.1.6); Ribose-5-phosphate isomerase A, rpiA, Streptococcus; 1.7A {Streptococcus mutans}
+Probab=39.97  E-value=27  Score=14.88  Aligned_cols=6  Identities=67%  Similarity=1.082  Sum_probs=3.5  Template_Neff=7.500
+
+Q GLFINM            1 GLFINM    6 (6)
+Q Consensus         1 glfinm    6 (6)
+                      |||++|
+T Consensus       201 GlF~~~  206 (225)
+T 3L7O_A          201 GLFNGM  206 (225)
+T ss_dssp             SEECSC
+T ss_pred             cEeCCC
+Confidence            566654
+
+
+No 13
+>4QXZ_A Uncharacterized protein; Beta-barrel, UNKNOWN FUNCTION; 2.49A {Staphylococcus aureus subsp. aureus Mu50}
+Probab=39.74  E-value=27  Score=15.85  Aligned_cols=6  Identities=50%  Similarity=0.877  Sum_probs=3.9  Template_Neff=4.300
+
+Q GLFINM            1 GLFINM    6 (6)
+Q Consensus         1 glfinm    6 (6)
+                      ||.||+
+T Consensus        46 GLIINk   51 (166)
+T 4QXZ_A           46 GVIINK   51 (166)
+T ss_dssp             EEEEEE
+T ss_pred             eEEEEe
+Confidence            567764
+
+
+No 14
+>3IXQ_B Ribose-5-phosphate isomerase A (E.C.5.3.1.6); STRUCTURAL GENOMICS, ISOMERASE, PENTOSE PHOSPHATE; HET: PGO; 1.78A {Methanocaldococcus jannaschii}
+Probab=39.61  E-value=28  Score=14.64  Aligned_cols=6  Identities=33%  Similarity=1.010  Sum_probs=3.5  Template_Neff=7.900
+
+Q GLFINM            1 GLFINM    6 (6)
+Q Consensus         1 glfinm    6 (6)
+                      |||++|
+T Consensus       205 Glf~~~  210 (226)
+T 3IXQ_B          205 GIFTKV  210 (226)
+T ss_dssp             SEECCC
+T ss_pred             cEEcCC
+Confidence            566654
+
+
+No 15
+>2I9Z_A Putative septation protein spoVG; APC86317, SpoVG, Staphylococcus epidermidis ATCC; HET: EDO; 2.3A {Staphylococcus epidermidis} SCOP: d.366.1.1
+Probab=38.61  E-value=29  Score=14.16  Aligned_cols=6  Identities=67%  Similarity=1.370  Sum_probs=3.1  Template_Neff=5.700
+
+Q GLFINM            1 GLFINM    6 (6)
+Q Consensus         1 glfinm    6 (6)
+                      |+|+.|
+T Consensus        45 glfV~m   50 (105)
+T 2I9Z_A           45 GLFVAM   50 (105)
+T ss_dssp             EEEEEC
+T ss_pred             eEEEEC
+Confidence            455554
+
+
+No 16
+>3HHE_B Ribose-5-phosphate isomerase A (E.C.5.3.1.6); NIAID, SSGCID, deCODE, SBRI, UW; HET: 5RP; 2.3A {Bartonella henselae}
+Probab=38.53  E-value=29  Score=15.30  Aligned_cols=6  Identities=50%  Similarity=1.309  Sum_probs=3.6  Template_Neff=7.000
+
+Q GLFINM            1 GLFINM    6 (6)
+Q Consensus         1 glfinm    6 (6)
+                      |||++|
+T Consensus       229 GlF~~~  234 (255)
+T 3HHE_B          229 GLFLGL  234 (255)
+T ss_dssp             SEECSC
+T ss_pred             ceecCC
+Confidence            567654
+
+
+No 17
+>1XTZ_A Ribose-5-phosphate isomerase (E.C.5.3.1.6); D-ribose-5-phosphate isomerase, yeast, ISOMERASE; 2.1A {Saccharomyces cerevisiae}
+Probab=37.09  E-value=32  Score=15.42  Aligned_cols=6  Identities=67%  Similarity=1.198  Sum_probs=3.7  Template_Neff=6.700
+
+Q GLFINM            1 GLFINM    6 (6)
+Q Consensus         1 glfinm    6 (6)
+                      |||++|
+T Consensus       235 GlF~~~  240 (264)
+T 1XTZ_A          235 GLFIDN  240 (264)
+T ss_dssp             SEECSC
+T ss_pred             cEecCC
+Confidence            567664
+
+
+No 18
+>1UJ6_A ribose-5-phosphate isomerase (E.C.5.3.1.6); enzyme-inhibitor complex, RIKEN Structural Genomics/Proteomics; HET: A5P; 1.74A {Thermus thermophilus} SCOP: d.58.40.1, c.124.1.4
+Probab=35.17  E-value=36  Score=14.59  Aligned_cols=6  Identities=67%  Similarity=1.409  Sum_probs=3.4  Template_Neff=7.400
+
+Q GLFINM            1 GLFINM    6 (6)
+Q Consensus         1 glfinm    6 (6)
+                      |||++|
+T Consensus       205 GlF~~~  210 (227)
+T 1UJ6_A          205 GLFVGM  210 (227)
+T ss_dssp             SEECSC
+T ss_pred             ceecCC
+Confidence            566653
+
+
+No 19
+>2F8M_A ribose 5-phosphate isomerase; STRUCTURAL GENOMICS, PSI, PROTEIN STRUCTURE; HET: PO4; 2.087A {Plasmodium falciparum}
+Probab=34.02  E-value=39  Score=14.91  Aligned_cols=6  Identities=67%  Similarity=1.531  Sum_probs=3.5  Template_Neff=6.900
+
+Q GLFINM            1 GLFINM    6 (6)
+Q Consensus         1 glfinm    6 (6)
+                      |||++|
+T Consensus       218 GlF~~~  223 (244)
+T 2F8M_A          218 GIFVNM  223 (244)
+T ss_dssp             SEECSC
+T ss_pred             ceeCCC
+Confidence            566654
+
+
+No 20
+>1UJ5_A ribose-5-phosphate isomerase (E.C.5.3.1.6); enzyme-substrate complex, RIKEN Structural Genomics/Proteomics; HET: 5RP; 2.0A {Thermus thermophilus} SCOP: c.124.1.4, d.58.40.1
+Probab=33.47  E-value=40  Score=14.41  Aligned_cols=6  Identities=67%  Similarity=1.409  Sum_probs=3.4  Template_Neff=7.500
+
+Q GLFINM            1 GLFINM    6 (6)
+Q Consensus         1 glfinm    6 (6)
+                      |+|++|
+T Consensus       205 GlF~~~  210 (227)
+T 1UJ5_A          205 GLFVGM  210 (227)
+T ss_dssp             SEECSC
+T ss_pred             cEeCCC
+Confidence            566653
+
+
+No 21
+>6ZXT_B Ribose-5-phosphate isomerase (E.C.5.3.1.6); Ribose-5-phosphate, Rossmann fold, enzyme, chloroplast; HET: SO4; 1.4A {Chlamydomonas reinhardtii}
+Probab=32.39  E-value=43  Score=14.71  Aligned_cols=6  Identities=67%  Similarity=1.492  Sum_probs=3.4  Template_Neff=7.200
+
+Q GLFINM            1 GLFINM    6 (6)
+Q Consensus         1 glfinm    6 (6)
+                      |||++|
+T Consensus       227 GlF~~~  232 (255)
+T 6ZXT_B          227 GLFLDM  232 (255)
+T ss_dssp             SEECSC
+T ss_pred             ceecCC
+Confidence            566653
+
+
+No 22
+>6R0W_K V-type ATP synthase alpha chain; ATP hydrolysis/synthesis, proton translocation, rotary; HET: ADP; 3.6A {Thermus thermophilus (strain HB8 / ATCC 27634 / DSM 579)}
+Probab=24.24  E-value=74  Score=12.31  Aligned_cols=6  Identities=50%  Similarity=0.922  Sum_probs=0.0  Template_Neff=7.700
+
+Q GLFINM            1 GLFINM    6 (6)
+Q Consensus         1 glfinm    6 (6)
+                      ||..||
+T Consensus         4 ~~~~~~    9 (120)
+T 6R0W_K            4 GLVLNA    9 (120)
+T ss_dssp             ------
+T ss_pred             hHHHHH
+Confidence            455554
+
+
+No 23
+>6R10_I V-type ATP synthase alpha chain; ATP hydrolysis/synthesis, proton translocation, rotary; HET: ADP; 4.3A {Thermus thermophilus (strain HB8 / ATCC 27634 / DSM 579)}
+Probab=24.24  E-value=74  Score=12.31  Aligned_cols=6  Identities=50%  Similarity=0.922  Sum_probs=0.0  Template_Neff=7.700
+
+Q GLFINM            1 GLFINM    6 (6)
+Q Consensus         1 glfinm    6 (6)
+                      ||..||
+T Consensus         4 ~~~~~~    9 (120)
+T 6R10_I            4 GLVLNA    9 (120)
+T ss_dssp             ------
+T ss_pred             hHHHHH
+Confidence            455554
+
+

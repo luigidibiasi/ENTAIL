@@ -1,0 +1,153 @@
+Query         NSNINQ
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 04:09:02 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NSNINQ/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NSNINQ/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4CIH_B LISTERIA NUCLEAR TARGET  26.9      61 0.00068   15.4   0.0    6    1-6      46-51  (150)
+  2 4CIH_C LISTERIA NUCLEAR TARGET  26.9      61 0.00068   15.4   0.0    6    1-6      46-51  (150)
+  3 2XL4_A LMO0438 PROTEIN; TOXIN,  26.8      62 0.00068   15.7   0.0    6    1-6      71-76  (175)
+  4 2MM0_A Host-selective toxin pr   7.6 4.1E+02  0.0046   10.8   0.0    4    3-6       8-11  (64)
+  5 2JPL_A Antimicrobial, Membrane   6.5 5.1E+02  0.0056   10.2   0.0    5    2-6      25-29  (39)
+  6 2N9V_A Dermonecrotic toxin; Ba   6.0 5.7E+02  0.0063   11.5   0.0    4    1-4      36-39  (90)
+  7 2VXZ_A PYRSV_GP04; VIRAL PROTE   5.9 5.7E+02  0.0063    9.9   0.0    6    1-6     155-160 (165)
+  8 4YUE_C JES6-1 VH domain, JES6-   5.9 5.8E+02  0.0064   11.9   0.0    4    2-5      80-83  (130)
+  9 6VWU_A Interleukin-2,Interleuk   5.9 5.8E+02  0.0064   11.2   0.0    4    2-5      13-16  (303)
+ 10 4YQX_M JES6-1 VH domain, JES6-   5.9 5.8E+02  0.0064   11.9   0.0    4    2-5      80-83  (130)
+
+No 1
+>4CIH_B LISTERIA NUCLEAR TARGETED PROTEIN A; TRANSCRIPTION, NUCLEOMODULIN, VIRULENCE FACTOR, BAHD1; HET: MSE; 2.22A {LISTERIA MONOCYTOGENES}
+Probab=26.94  E-value=61  Score=15.37  Aligned_cols=6  Identities=83%  Similarity=1.032  Sum_probs=3.4  Template_Neff=1.200
+
+Q NSNINQ            1 NSNINQ    6 (6)
+Q Consensus         1 nsninq    6 (6)
+                      |.||||
+T Consensus        46 ndninq   51 (150)
+T 4CIH_B           46 NDNINQ   51 (150)
+T ss_dssp             HHHHHH
+T ss_pred             chhHHH
+Confidence            456665
+
+
+No 2
+>4CIH_C LISTERIA NUCLEAR TARGETED PROTEIN A; TRANSCRIPTION, NUCLEOMODULIN, VIRULENCE FACTOR, BAHD1; 2.22A {LISTERIA MONOCYTOGENES}
+Probab=26.94  E-value=61  Score=15.37  Aligned_cols=6  Identities=83%  Similarity=1.032  Sum_probs=3.4  Template_Neff=1.200
+
+Q NSNINQ            1 NSNINQ    6 (6)
+Q Consensus         1 nsninq    6 (6)
+                      |.||||
+T Consensus        46 ndninq   51 (150)
+T 4CIH_C           46 NDNINQ   51 (150)
+T ss_dssp             HHHHHH
+T ss_pred             chhHHH
+Confidence            456665
+
+
+No 3
+>2XL4_A LMO0438 PROTEIN; TOXIN, IMMUNE SYSTEM; HET: GOL; 2.3A {LISTERIA MONOCYTOGENES}
+Probab=26.83  E-value=62  Score=15.66  Aligned_cols=6  Identities=83%  Similarity=1.032  Sum_probs=3.6  Template_Neff=1.200
+
+Q NSNINQ            1 NSNINQ    6 (6)
+Q Consensus         1 nsninq    6 (6)
+                      |.||||
+T Consensus        71 ndninq   76 (175)
+T 2XL4_A           71 NDNINQ   76 (175)
+T ss_dssp             HHHHHH
+T ss_pred             chhHHH
+Confidence            456665
+
+
+No 4
+>2MM0_A Host-selective toxin protein; TOXIN; NMR {Pyrenophora tritici-repentis}
+Probab=7.64  E-value=4.1e+02  Score=10.85  Aligned_cols=4  Identities=75%  Similarity=1.107  Sum_probs=0.0  Template_Neff=3.600
+
+Q NSNINQ            3 NINQ    6 (6)
+Q Consensus         3 ninq    6 (6)
+                      ||||
+T Consensus         8 N~Nq   11 (64)
+T 2MM0_A            8 NINE   11 (64)
+T ss_dssp             CTTC
+T ss_pred             ecCc
+
+
+No 5
+>2JPL_A Antimicrobial, Membrane bound, ANTIMICROBIAL PROTEIN; NMR {Lactococcus lactis}
+Probab=6.53  E-value=5.1e+02  Score=10.19  Aligned_cols=5  Identities=60%  Similarity=0.933  Sum_probs=0.0  Template_Neff=1.400
+
+Q NSNINQ            2 SNINQ    6 (6)
+Q Consensus         2 sninq    6 (6)
+                      |..||
+T Consensus        25 sdvnq   29 (39)
+T 2JPL_A           25 SDVNQ   29 (39)
+T ss_dssp             HHHHH
+T ss_pred             hhhhH
+
+
+No 6
+>2N9V_A Dermonecrotic toxin; Bacterial Toxin, Membrane Localization Domains; NMR {Pasteurella multocida}
+Probab=5.99  E-value=5.7e+02  Score=11.46  Aligned_cols=4  Identities=100%  Similarity=1.149  Sum_probs=0.0  Template_Neff=1.000
+
+Q NSNINQ            1 NSNI    4 (6)
+Q Consensus         1 nsni    4 (6)
+                      ||||
+T Consensus        36 nsni   39 (90)
+T 2N9V_A           36 NSNI   39 (90)
+T ss_dssp             HTTT
+T ss_pred             hccc
+
+
+No 7
+>2VXZ_A PYRSV_GP04; VIRAL PROTEIN, SSPF, ORF165A; 1.7A {PYROBACULUM SPHERICAL VIRUS}
+Probab=5.93  E-value=5.7e+02  Score=9.92  Aligned_cols=6  Identities=17%  Similarity=0.379  Sum_probs=0.0  Template_Neff=8.900
+
+Q NSNINQ            1 NSNINQ    6 (6)
+Q Consensus         1 nsninq    6 (6)
+                      |+.|||
+T Consensus       155 ~~~~~~  160 (165)
+T 2VXZ_A          155 NRKVHI  160 (165)
+T ss_dssp             GCC---
+T ss_pred             cCCCCC
+
+
+No 8
+>4YUE_C JES6-1 VH domain, JES6-1 VL; chemokine, antibody, complex, CYTOKINE/IMMUNE SYSTEM; 2.194A {Mus musculus}
+Probab=5.88  E-value=5.8e+02  Score=11.94  Aligned_cols=4  Identities=75%  Similarity=0.858  Sum_probs=0.0  Template_Neff=2.600
+
+Q NSNINQ            2 SNIN    5 (6)
+Q Consensus         2 snin    5 (6)
+                      ||||
+T Consensus        80 sNIn   83 (130)
+T 4YUE_C           80 SNIR   83 (130)
+T ss_dssp             HHHH
+T ss_pred             hhee
+
+
+No 9
+>6VWU_A Interleukin-2,Interleukin-2 receptor subunit alpha; circular permutation, ALKS 4230, CYTOKINE; 3.4A {Homo sapiens}
+Probab=5.87  E-value=5.8e+02  Score=11.16  Aligned_cols=4  Identities=100%  Similarity=1.149  Sum_probs=0.0  Template_Neff=8.400
+
+Q NSNINQ            2 SNIN    5 (6)
+Q Consensus         2 snin    5 (6)
+                      ||||
+T Consensus        13 ~~~~   16 (303)
+T 6VWU_A           13 SNIN   16 (303)
+T ss_dssp             HHHH
+T ss_pred             hcee
+
+
+No 10
+>4YQX_M JES6-1 VH domain, JES6-1 VL; chemokine, antibody, complex, CYTOKINE-IMMUNE SYSTEM; HET: FUC, NAG; 2.826A {Rattus norvegicus}
+Probab=5.86  E-value=5.8e+02  Score=11.94  Aligned_cols=4  Identities=75%  Similarity=0.858  Sum_probs=0.0  Template_Neff=2.600
+
+Q NSNINQ            2 SNIN    5 (6)
+Q Consensus         2 snin    5 (6)
+                      ||||
+T Consensus        80 sNIn   83 (130)
+T 4YQX_M           80 SNIR   83 (130)
+T ss_dssp             HHHH
+T ss_pred             hhee
+
+

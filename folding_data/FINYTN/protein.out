@@ -1,0 +1,150 @@
+Query         FINYTN
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 21:11:56 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/FINYTN/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/FINYTN/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6KCX_A Alpha-glucosidase, puta  30.1      50 0.00055   15.6   0.0    6    1-6     167-172 (483)
+  2 2ATZ_A H. pylori predicted cod  19.2 1.1E+02  0.0012   14.7   0.0    5    1-5      99-103 (180)
+  3 4PFO_A Myosin VI MD; Myosin, m  18.5 1.2E+02  0.0013   15.0   0.0    5    2-6     472-476 (788)
+  4 4L79_A Unconventional myosin-I  18.5 1.2E+02  0.0013   14.7   0.0    5    2-6     404-408 (744)
+  5 6OEI_A Spindle pole body compo  18.4 1.2E+02  0.0013   11.1   0.0    5    2-6      20-24  (298)
+  6 1OBB_A ALPHA-GLUCOSIDASE (E.C.  18.0 1.2E+02  0.0013   13.9   0.0    6    1-6     148-153 (480)
+  7 7DHW_A Myosin-6; Myosin, Motor  18.0 1.2E+02  0.0013   15.2   0.0    5    2-6     484-488 (771)
+  8 5V7X_A Unconventional myosin-I  17.9 1.2E+02  0.0014   14.7   0.0    5    2-6     404-408 (752)
+  9 6C1H_P Actin, Myosin 1B, Calmo  16.7 1.4E+02  0.0015   14.4   0.0    5    2-6     399-403 (729)
+ 10 4PA0_A Myosin-7,Green fluoresc  16.2 1.4E+02  0.0016   15.7   0.0    5    2-6     478-482 (1024)
+
+No 1
+>6KCX_A Alpha-glucosidase, putative; Hydrolase, Glycosyl hydrolase, Carbohydrate metabolism; HET: IPA, CIT, IMD; 1.933A {Thermotoga maritima (strain ATCC 43589 / MSB8 / DSM 3109 / JCM 10099)}
+Probab=30.12  E-value=50  Score=15.57  Aligned_cols=6  Identities=17%  Similarity=0.429  Sum_probs=3.6  Template_Neff=7.600
+
+Q FINYTN            1 FINYTN    6 (6)
+Q Consensus         1 finytn    6 (6)
+                      +|||||
+T Consensus       167 vin~tN  172 (483)
+T 6KCX_A          167 LMQTAN  172 (483)
+T ss_dssp             EEECSS
+T ss_pred             EEEEeC
+Confidence            466665
+
+
+No 2
+>2ATZ_A H. pylori predicted coding region; Structural genomics, Helicobacter pylori, PSI; HET: DGT, MSE; 2.0A {Helicobacter pylori} SCOP: d.264.1.3
+Probab=19.17  E-value=1.1e+02  Score=14.72  Aligned_cols=5  Identities=60%  Similarity=1.391  Sum_probs=0.0  Template_Neff=2.800
+
+Q FINYTN            1 FINYT    5 (6)
+Q Consensus         1 finyt    5 (6)
+                      |||||
+T Consensus        99 fiNft  103 (180)
+T 2ATZ_A           99 FMNFT  103 (180)
+T ss_dssp             CCCEE
+T ss_pred             CceEE
+
+
+No 3
+>4PFO_A Myosin VI MD; Myosin, motor domain, Pi Release; HET: GOL, ADP; 1.75A {Sus scrofa}
+Probab=18.53  E-value=1.2e+02  Score=14.97  Aligned_cols=5  Identities=80%  Similarity=1.258  Sum_probs=0.0  Template_Neff=8.400
+
+Q FINYTN            2 INYTN    6 (6)
+Q Consensus         2 inytn    6 (6)
+                      |||+|
+T Consensus       472 iNyan  476 (788)
+T 4PFO_A          472 INYCN  476 (788)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 4
+>4L79_A Unconventional myosin-Ib, Calmodulin; myosin motor, actin binding, nucleotide; 2.3A {Rattus norvegicus}
+Probab=18.50  E-value=1.2e+02  Score=14.70  Aligned_cols=5  Identities=80%  Similarity=1.258  Sum_probs=0.0  Template_Neff=8.700
+
+Q FINYTN            2 INYTN    6 (6)
+Q Consensus         2 inytn    6 (6)
+                      |||+|
+T Consensus       404 iNyan  408 (744)
+T 4L79_A          404 INYCN  408 (744)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 5
+>6OEI_A Spindle pole body component SPC42; Yeast Centrosome, Coiled-Coil, Spindle Pole; HET: MSE, MPD; 2.58A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=18.37  E-value=1.2e+02  Score=11.14  Aligned_cols=5  Identities=40%  Similarity=0.873  Sum_probs=0.0  Template_Neff=12.100
+
+Q FINYTN            2 INYTN    6 (6)
+Q Consensus         2 inytn    6 (6)
+                      ++|+|
+T Consensus        20 ~~~~n   24 (298)
+T 6OEI_A           20 YQYSN   24 (298)
+T ss_pred             cccCC
+
+
+No 6
+>1OBB_A ALPHA-GLUCOSIDASE (E.C.3.2.1.20); GLYCOSIDASE, SULFINIC ACID, NAD+, MALTOSE; HET: MAL, NAD; 1.9A {THERMOTOGA MARITIMA} SCOP: c.2.1.5, d.162.1.2
+Probab=17.99  E-value=1.2e+02  Score=13.87  Aligned_cols=6  Identities=17%  Similarity=0.600  Sum_probs=0.0  Template_Neff=8.600
+
+Q FINYTN            1 FINYTN    6 (6)
+Q Consensus         1 finytn    6 (6)
+                      +||+||
+T Consensus       148 vin~tn  153 (480)
+T 1OBB_A          148 YLQAAN  153 (480)
+T ss_dssp             EEECSS
+T ss_pred             EEECCC
+
+
+No 7
+>7DHW_A Myosin-6; Myosin, Motor domain, ATPase, ATP; HET: ADP, GOL; 2.84A {Arabidopsis thaliana}
+Probab=17.95  E-value=1.2e+02  Score=15.18  Aligned_cols=5  Identities=80%  Similarity=0.939  Sum_probs=0.0  Template_Neff=7.800
+
+Q FINYTN            2 INYTN    6 (6)
+Q Consensus         2 inytn    6 (6)
+                      |||+|
+T Consensus       484 INyaN  488 (771)
+T 7DHW_A          484 INLTN  488 (771)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 8
+>5V7X_A Unconventional myosin-Ib, Calmodulin; myosin, motor, calmodulin, unconventional, actin; 3.141A {Rattus norvegicus}
+Probab=17.89  E-value=1.2e+02  Score=14.70  Aligned_cols=5  Identities=80%  Similarity=1.258  Sum_probs=0.0  Template_Neff=8.600
+
+Q FINYTN            2 INYTN    6 (6)
+Q Consensus         2 inytn    6 (6)
+                      |||+|
+T Consensus       404 iNyan  408 (752)
+T 5V7X_A          404 INYCN  408 (752)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 9
+>6C1H_P Actin, Myosin 1B, Calmodulin; Mechanochemistry, Mechanobiology, Structural Biology, Cytoskeleton; HET: ADP;{Oryctolagus cuniculus}
+Probab=16.66  E-value=1.4e+02  Score=14.45  Aligned_cols=5  Identities=80%  Similarity=1.258  Sum_probs=0.0  Template_Neff=8.700
+
+Q FINYTN            2 INYTN    6 (6)
+Q Consensus         2 inytn    6 (6)
+                      |||+|
+T Consensus       399 iNy~n  403 (729)
+T 6C1H_P          399 INYCN  403 (729)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 10
+>4PA0_A Myosin-7,Green fluorescent protein; Cardiac, Myosin, Motor, omecamtiv mercarbil; HET: CRO, GOL, 2OW; 2.25A {Homo sapiens}
+Probab=16.16  E-value=1.4e+02  Score=15.70  Aligned_cols=5  Identities=80%  Similarity=1.278  Sum_probs=0.0  Template_Neff=7.400
+
+Q FINYTN            2 INYTN    6 (6)
+Q Consensus         2 inytn    6 (6)
+                      |||+|
+T Consensus       478 INyaN  482 (1024)
+T 4PA0_A          478 INFTN  482 (1024)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+

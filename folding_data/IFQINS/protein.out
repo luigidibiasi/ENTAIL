@@ -1,0 +1,382 @@
+Query         IFQINS
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 07:55:37 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/IFQINS/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/IFQINS/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 1YRO_A ARG228LYS mutation  UDP  91.8   0.067 7.4E-07   20.5   0.0    6    1-6      52-57  (123)
+  2 1JUG_A LYSOZYME; LYSOZYME, CAL  91.1   0.092   1E-06   20.7   0.0    6    1-6      55-60  (125)
+  3 6T6C_A Lysozyme C (E.C.3.2.1.1  90.3    0.13 1.5E-06   20.2   0.0    6    1-6      56-61  (128)
+  4 1QQY_A CANINE MILK LYSOZYME (A  90.2    0.14 1.5E-06   20.2   0.0    6    1-6      57-62  (130)
+  5 2FBD_A Lysozyme 1 (E.C.3.2.1.1  90.1    0.14 1.6E-06   19.8   0.0    6    1-6      53-58  (122)
+  6 2H5Z_B Lysozyme 1 (E.C.3.2.1.1  90.1    0.14 1.6E-06   19.8   0.0    6    1-6      53-58  (122)
+  7 1B9O_A ALPHA-LACTALBUMIN; CALC  89.9    0.15 1.7E-06   19.9   0.0    6    1-6      52-57  (123)
+  8 1WQO_A HYDROLASE (O-GLYCOSYL),  89.6    0.17 1.9E-06   19.6   0.0    6    1-6      56-61  (130)
+  9 1LMQ_A LYSOZYME; HYDROLASE (O-  89.3    0.19 2.1E-06   19.9   0.0    6    1-6      55-60  (129)
+ 10 2EQL_A LYSOZYME (APO FORM); HY  89.3    0.19 2.1E-06   19.6   0.0    6    1-6      56-61  (129)
+ 11 1HML_A ALPHA LACTALBUMIN (E.C.  88.7    0.23 2.5E-06   19.6   0.0    6    1-6      71-76  (142)
+ 12 1BB7_A LYSOZYME, 4-METHYL-UMBE  88.4    0.25 2.8E-06   19.6   0.0    6    1-6      55-60  (129)
+ 13 1IIZ_A LYSOZYME; HYDROLASE; 2.  87.8     0.3 3.3E-06   18.5   0.0    6    1-6      53-58  (120)
+ 14 4YF2_A Sperm Lysozyme-like Pro  87.7    0.31 3.4E-06   19.7   0.0    6    1-6      57-62  (138)
+ 15 5XUW_B Lysozyme C (E.C.3.2.1.1  87.3    0.34 3.8E-06   18.5   0.0    6    1-6      56-61  (129)
+ 16 1GD6_A THE BOMBYX MORI LYSOZYM  86.9    0.38 4.2E-06   18.2   0.0    6    1-6      52-57  (119)
+ 17 2Z2F_A Lysozyme C-2 (E.C.3.2.1  86.8    0.39 4.3E-06   18.2   0.0    6    1-6      56-61  (129)
+ 18 6P4B_D HyHEL10 Fab light chain  85.6    0.51 5.6E-06   18.0   0.0    6    1-6      55-60  (129)
+ 19 6P4D_A Lysozyme C (E.C.3.2.1.1  85.2    0.54   6E-06   18.0   0.0    6    1-6      55-60  (129)
+ 20 4GN4_A OBody AM2EP06, Lysozyme  84.2    0.66 7.4E-06   17.8   0.0    6    1-6      55-60  (129)
+ 21 4CJ2_B LYSOZYME C (E.C.3.2.1.1  81.2     1.1 1.2E-05   17.7   0.0    6    1-6      73-78  (147)
+ 22 6KD1_A Lysozyme C (E.C.3.2.1.1  81.2     1.1 1.2E-05   17.7   0.0    6    1-6      73-78  (147)
+ 23 3CB7_A Lys-rich lysozyme 2 (E.  80.2     1.3 1.4E-05   16.9   0.0    6    1-6      57-62  (126)
+ 24 2NWD_X Lysozyme C precursor (E  77.0     1.8   2E-05   16.5   0.0    6    1-6      56-61  (130)
+ 25 3ZVQ_A LYSOZYME C (E.C.3.2.1.1  75.6     2.2 2.4E-05   15.1   0.0    6    1-6      55-60  (70)
+
+No 1
+>1YRO_A ARG228LYS mutation  UDP-gal complex; HET: PG4, GDU, MES, UDP; 1.9A {Mus musculus} SCOP: d.2.1.2
+Probab=91.79  E-value=0.067  Score=20.48  Aligned_cols=6  Identities=50%  Similarity=0.993  Sum_probs=4.8  Template_Neff=7.800
+
+Q IFQINS            1 IFQINS    6 (6)
+Q Consensus         1 ifqins    6 (6)
+                      |||||+
+T Consensus        52 lfQIn~   57 (123)
+T 1YRO_A           52 LFQISD   57 (123)
+T ss_dssp             TTTEET
+T ss_pred             eeEecc
+Confidence            689985
+
+
+No 2
+>1JUG_A LYSOZYME; LYSOZYME, CALCIUM-BINDING; 1.9A {Tachyglossus aculeatus} SCOP: d.2.1.2
+Probab=91.15  E-value=0.092  Score=20.74  Aligned_cols=6  Identities=83%  Similarity=1.038  Sum_probs=4.8  Template_Neff=7.000
+
+Q IFQINS            1 IFQINS    6 (6)
+Q Consensus         1 ifqins    6 (6)
+                      |||||+
+T Consensus        55 iFQIn~   60 (125)
+T 1JUG_A           55 ILQINS   60 (125)
+T ss_dssp             TTTEET
+T ss_pred             EeEecc
+Confidence            689985
+
+
+No 3
+>6T6C_A Lysozyme C (E.C.3.2.1.17); C-type lysoyme, glycoside hydrolase, HYDROLASE; HET: NAG, YYR; 1.25A {Opisthocomus hoazin}
+Probab=90.33  E-value=0.13  Score=20.24  Aligned_cols=6  Identities=100%  Similarity=1.315  Sum_probs=4.7  Template_Neff=7.200
+
+Q IFQINS            1 IFQINS    6 (6)
+Q Consensus         1 ifqins    6 (6)
+                      |||||+
+T Consensus        56 lFQIn~   61 (128)
+T 6T6C_A           56 IFQINS   61 (128)
+T ss_dssp             TTTEET
+T ss_pred             eeEecc
+Confidence            689885
+
+
+No 4
+>1QQY_A CANINE MILK LYSOZYME (APO-TYPE) (E.C.; APO-TYPE PROTEIN, CALCIUM BINDING LYSOZYME; 1.85A {Canis lupus familiaris} SCOP: d.2.1.2
+Probab=90.21  E-value=0.14  Score=20.15  Aligned_cols=6  Identities=83%  Similarity=1.248  Sum_probs=4.7  Template_Neff=7.300
+
+Q IFQINS            1 IFQINS    6 (6)
+Q Consensus         1 ifqins    6 (6)
+                      |||||+
+T Consensus        57 LFQIn~   62 (130)
+T 1QQY_A           57 IFQLNS   62 (130)
+T ss_dssp             TTTEET
+T ss_pred             eEEecc
+Confidence            689885
+
+
+No 5
+>2FBD_A Lysozyme 1 (E.C.3.2.1.17); Digestive Lysozime, Musca domestica, HYDROLASE; HET: SO4, PEG; 1.9A {Musca domestica}
+Probab=90.10  E-value=0.14  Score=19.79  Aligned_cols=6  Identities=83%  Similarity=1.243  Sum_probs=4.7  Template_Neff=7.500
+
+Q IFQINS            1 IFQINS    6 (6)
+Q Consensus         1 ifqins    6 (6)
+                      |||||+
+T Consensus        53 lfQIn~   58 (122)
+T 2FBD_A           53 IFQINN   58 (122)
+T ss_dssp             TTTEET
+T ss_pred             eEEecC
+Confidence            689885
+
+
+No 6
+>2H5Z_B Lysozyme 1 (E.C.3.2.1.17); Lysozyme, ligant, Musca domestica, Hydrolase; HET: NAG; 1.92A {Musca domestica}
+Probab=90.10  E-value=0.14  Score=19.79  Aligned_cols=6  Identities=83%  Similarity=1.243  Sum_probs=4.7  Template_Neff=7.500
+
+Q IFQINS            1 IFQINS    6 (6)
+Q Consensus         1 ifqins    6 (6)
+                      |||||+
+T Consensus        53 lfQIn~   58 (122)
+T 2H5Z_B           53 IFQINN   58 (122)
+T ss_dssp             TTTEET
+T ss_pred             eEEecC
+Confidence            689885
+
+
+No 7
+>1B9O_A ALPHA-LACTALBUMIN; CALCIUM-BINDING PROTEIN, HIGH RESOLUTION; 1.15A {Homo sapiens} SCOP: d.2.1.2
+Probab=89.93  E-value=0.15  Score=19.95  Aligned_cols=6  Identities=50%  Similarity=1.016  Sum_probs=4.7  Template_Neff=7.200
+
+Q IFQINS            1 IFQINS    6 (6)
+Q Consensus         1 ifqins    6 (6)
+                      |||||+
+T Consensus        52 lfQIn~   57 (123)
+T 1B9O_A           52 LFQISN   57 (123)
+T ss_dssp             TTTEET
+T ss_pred             eeEecc
+Confidence            689885
+
+
+No 8
+>1WQO_A HYDROLASE (O-GLYCOSYL), GLYCOSIDASE, BACTERIOLYTIC ENZYME; 1.8A {Homo sapiens} SCOP: d.2.1.2
+Probab=89.64  E-value=0.17  Score=19.61  Aligned_cols=6  Identities=100%  Similarity=1.315  Sum_probs=4.6  Template_Neff=7.700
+
+Q IFQINS            1 IFQINS    6 (6)
+Q Consensus         1 ifqins    6 (6)
+                      |||||+
+T Consensus        56 lfQIn~   61 (130)
+T 1WQO_A           56 IFQINS   61 (130)
+T ss_dssp             TTTEET
+T ss_pred             eeEecc
+Confidence            688885
+
+
+No 9
+>1LMQ_A LYSOZYME; HYDROLASE (O-GLYCOSYL); HET: NAG, NDG; 1.6A {Oncorhynchus mykiss} SCOP: d.2.1.2
+Probab=89.34  E-value=0.19  Score=19.90  Aligned_cols=6  Identities=100%  Similarity=1.315  Sum_probs=4.7  Template_Neff=7.100
+
+Q IFQINS            1 IFQINS    6 (6)
+Q Consensus         1 ifqins    6 (6)
+                      |||||+
+T Consensus        55 lFQIn~   60 (129)
+T 1LMQ_A           55 IFQINS   60 (129)
+T ss_dssp             TTTEET
+T ss_pred             eeEecc
+Confidence            689875
+
+
+No 10
+>2EQL_A LYSOZYME (APO FORM); HYDROLASE(O-GLYCOSYL); 2.5A {Equus caballus} SCOP: d.2.1.2
+Probab=89.33  E-value=0.19  Score=19.61  Aligned_cols=6  Identities=50%  Similarity=1.110  Sum_probs=4.6  Template_Neff=7.500
+
+Q IFQINS            1 IFQINS    6 (6)
+Q Consensus         1 ifqins    6 (6)
+                      |||||+
+T Consensus        56 lfQIn~   61 (129)
+T 2EQL_A           56 LFQLNN   61 (129)
+T ss_dssp             TTTEEH
+T ss_pred             eeeccc
+Confidence            688885
+
+
+No 11
+>1HML_A ALPHA LACTALBUMIN (E.C.2.4.1.22) COMPLEXED WITH; CALCIUM-BINDING PROTEIN; 1.7A {Homo sapiens} SCOP: d.2.1.2
+Probab=88.73  E-value=0.23  Score=19.63  Aligned_cols=6  Identities=50%  Similarity=1.016  Sum_probs=4.6  Template_Neff=7.500
+
+Q IFQINS            1 IFQINS    6 (6)
+Q Consensus         1 ifqins    6 (6)
+                      |||||+
+T Consensus        71 lfQIn~   76 (142)
+T 1HML_A           71 LFQISN   76 (142)
+T ss_dssp             TTTEET
+T ss_pred             eeEecc
+Confidence            688885
+
+
+No 12
+>1BB7_A LYSOZYME, 4-METHYL-UMBELLIFERYL-N-ACETYL-CHITOBIOSE; HYDROLASE, N-ACETYL-MURAMIDASE, UMBELLIFERONE GLYCOSIDES; HET: GUM; 2.0A {Oncorhynchus mykiss} SCOP: d.2.1.2
+Probab=88.44  E-value=0.25  Score=19.56  Aligned_cols=6  Identities=100%  Similarity=1.315  Sum_probs=4.6  Template_Neff=7.100
+
+Q IFQINS            1 IFQINS    6 (6)
+Q Consensus         1 ifqins    6 (6)
+                      |||||+
+T Consensus        55 lFQI~~   60 (129)
+T 1BB7_A           55 IFQINS   60 (129)
+T ss_dssp             TTTEET
+T ss_pred             EEEecc
+Confidence            688875
+
+
+No 13
+>1IIZ_A LYSOZYME; HYDROLASE; 2.4A {Antheraea mylitta} SCOP: d.2.1.2
+Probab=87.82  E-value=0.3  Score=18.54  Aligned_cols=6  Identities=67%  Similarity=1.154  Sum_probs=4.4  Template_Neff=8.000
+
+Q IFQINS            1 IFQINS    6 (6)
+Q Consensus         1 ifqins    6 (6)
+                      |||||+
+T Consensus        53 lfQIn~   58 (120)
+T 1IIZ_A           53 LFQIND   58 (120)
+T ss_dssp             TTTEET
+T ss_pred             eeeecc
+Confidence            588875
+
+
+No 14
+>4YF2_A Sperm Lysozyme-like Protein 1; CELL ADHESION, SUGAR BINDING PROTEIN; 2.15A {Mus musculus}
+Probab=87.71  E-value=0.31  Score=19.69  Aligned_cols=6  Identities=83%  Similarity=1.154  Sum_probs=4.6  Template_Neff=6.800
+
+Q IFQINS            1 IFQINS    6 (6)
+Q Consensus         1 ifqins    6 (6)
+                      |||||+
+T Consensus        57 LFQIn~   62 (138)
+T 4YF2_A           57 IFQISS   62 (138)
+T ss_dssp             TTTEET
+T ss_pred             eeEecc
+Confidence            688875
+
+
+No 15
+>5XUW_B Lysozyme C (E.C.3.2.1.17); anti-microbial, anti-tumor, ENDOCYTOSIS, HYDROLASE; 1.76A {Equus asinus}
+Probab=87.32  E-value=0.34  Score=18.50  Aligned_cols=6  Identities=67%  Similarity=1.182  Sum_probs=4.4  Template_Neff=8.100
+
+Q IFQINS            1 IFQINS    6 (6)
+Q Consensus         1 ifqins    6 (6)
+                      |||||+
+T Consensus        56 LfQIn~   61 (129)
+T 5XUW_B           56 LFQLNS   61 (129)
+T ss_dssp             TTTEET
+T ss_pred             eeecCh
+Confidence            588875
+
+
+No 16
+>1GD6_A THE BOMBYX MORI LYSOZYME; LYSOZYME, 1,4-BETA-N-ACETYLMURAMIDASE, BMLZ, HYDROLASE; 2.5A {Bombyx mori} SCOP: d.2.1.2
+Probab=86.88  E-value=0.38  Score=18.17  Aligned_cols=6  Identities=67%  Similarity=1.154  Sum_probs=4.3  Template_Neff=8.100
+
+Q IFQINS            1 IFQINS    6 (6)
+Q Consensus         1 ifqins    6 (6)
+                      |||||+
+T Consensus        52 lfQIn~   57 (119)
+T 1GD6_A           52 LFQIND   57 (119)
+T ss_dssp             TTTEET
+T ss_pred             eeeeCc
+Confidence            588875
+
+
+No 17
+>2Z2F_A Lysozyme C-2 (E.C.3.2.1.17); LYSOZYME C, Stomach Lysozyme, 1,4-BETA-N-Acetylmuramidase; HET: MPD; 1.5A {Bos taurus}
+Probab=86.75  E-value=0.39  Score=18.19  Aligned_cols=6  Identities=100%  Similarity=1.315  Sum_probs=4.3  Template_Neff=8.300
+
+Q IFQINS            1 IFQINS    6 (6)
+Q Consensus         1 ifqins    6 (6)
+                      |||||+
+T Consensus        56 l~QIn~   61 (129)
+T 2Z2F_A           56 IFQINS   61 (129)
+T ss_pred             eeeEcc
+Confidence            578875
+
+
+No 18
+>6P4B_D HyHEL10 Fab light chain,HyHEL10 Fab; HEL2x-flex, HyHEL10-4x, Fab, antigen-antibody, HYDROLASE-IMMUNE; 1.9A {Mus musculus}
+Probab=85.59  E-value=0.51  Score=17.96  Aligned_cols=6  Identities=83%  Similarity=1.038  Sum_probs=4.3  Template_Neff=8.200
+
+Q IFQINS            1 IFQINS    6 (6)
+Q Consensus         1 ifqins    6 (6)
+                      +||||+
+T Consensus        55 lfQIn~   60 (129)
+T 6P4B_D           55 ILQINS   60 (129)
+T ss_pred             EEEECc
+Confidence            578874
+
+
+No 19
+>6P4D_A Lysozyme C (E.C.3.2.1.17); hen egg lysozyme HEL3x, HYDROLASE; HET: GOL; 1.05A {Gallus gallus}
+Probab=85.24  E-value=0.54  Score=17.95  Aligned_cols=6  Identities=83%  Similarity=1.038  Sum_probs=4.3  Template_Neff=8.100
+
+Q IFQINS            1 IFQINS    6 (6)
+Q Consensus         1 ifqins    6 (6)
+                      +||||+
+T Consensus        55 LfQIn~   60 (129)
+T 6P4D_A           55 ILQINS   60 (129)
+T ss_dssp             TTTEET
+T ss_pred             eeeecc
+Confidence            578874
+
+
+No 20
+>4GN4_A OBody AM2EP06, Lysozyme C (E.C.3.2.1.17); beta barrel, OB-fold, protein-protein complex; HET: GOL; 1.861A {Gallus gallus}
+Probab=84.19  E-value=0.66  Score=17.79  Aligned_cols=6  Identities=83%  Similarity=1.038  Sum_probs=4.2  Template_Neff=8.000
+
+Q IFQINS            1 IFQINS    6 (6)
+Q Consensus         1 ifqins    6 (6)
+                      +||||+
+T Consensus        55 lfQIn~   60 (129)
+T 4GN4_A           55 ILQINS   60 (129)
+T ss_pred             eeEecc
+Confidence            578874
+
+
+No 21
+>4CJ2_B LYSOZYME C (E.C.3.2.1.17), AFFITIN H4; HYDROLASE-DE NOVO PROTEIN COMPLEX, GLYCOSIDASE; HET: GOL; 1.5A {GALLUS GALLUS}
+Probab=81.20  E-value=1.1  Score=17.73  Aligned_cols=6  Identities=83%  Similarity=1.038  Sum_probs=4.2  Template_Neff=7.700
+
+Q IFQINS            1 IFQINS    6 (6)
+Q Consensus         1 ifqins    6 (6)
+                      +||||+
+T Consensus        73 lfQIn~   78 (147)
+T 4CJ2_B           73 ILQINS   78 (147)
+T ss_dssp             TTTEET
+T ss_pred             eeEecc
+Confidence            578874
+
+
+No 22
+>6KD1_A Lysozyme C (E.C.3.2.1.17); lysozyme, serial crystallography, agarose, HYDROLASE; 1.85A {Gallus gallus}
+Probab=81.20  E-value=1.1  Score=17.73  Aligned_cols=6  Identities=83%  Similarity=1.038  Sum_probs=4.2  Template_Neff=7.700
+
+Q IFQINS            1 IFQINS    6 (6)
+Q Consensus         1 ifqins    6 (6)
+                      +||||+
+T Consensus        73 lfQIn~   78 (147)
+T 6KD1_A           73 ILQINS   78 (147)
+T ss_dssp             TTTEET
+T ss_pred             eeEecc
+Confidence            578874
+
+
+No 23
+>3CB7_A Lys-rich lysozyme 2 (E.C.3.2.1.17); Digestive lysozyme 2, Musca domestica; HET: ACY; 1.9A {Musca domestica}
+Probab=80.16  E-value=1.3  Score=16.93  Aligned_cols=6  Identities=83%  Similarity=1.243  Sum_probs=4.0  Template_Neff=8.100
+
+Q IFQINS            1 IFQINS    6 (6)
+Q Consensus         1 ifqins    6 (6)
+                      +||||+
+T Consensus        57 lfQi~~   62 (126)
+T 3CB7_A           57 IFQINN   62 (126)
+T ss_dssp             TTTEET
+T ss_pred             EEEeee
+Confidence            577764
+
+
+No 24
+>2NWD_X Lysozyme C precursor (E.C.3.2.1.17); native chemical ligation, chemical protein; 1.04A {N/A} SCOP: d.2.1.2
+Probab=77.02  E-value=1.8  Score=16.48  Aligned_cols=6  Identities=100%  Similarity=1.315  Sum_probs=3.8  Template_Neff=8.200
+
+Q IFQINS            1 IFQINS    6 (6)
+Q Consensus         1 ifqins    6 (6)
+                      |||||+
+T Consensus        56 l~QI~~   61 (130)
+T 2NWD_X           56 IFQINS   61 (130)
+T ss_dssp             TTTEET
+T ss_pred             EEEecc
+Confidence            577764
+
+
+No 25
+>3ZVQ_A LYSOZYME C (E.C.3.2.1.17); HYDROLASE, PROTEOLYSIS, PMSF, SUBTILISIN; 2.0A {GALLUS GALLUS}
+Probab=75.59  E-value=2.2  Score=15.10  Aligned_cols=6  Identities=83%  Similarity=1.038  Sum_probs=3.9  Template_Neff=7.800
+
+Q IFQINS            1 IFQINS    6 (6)
+Q Consensus         1 ifqins    6 (6)
+                      +||||+
+T Consensus        55 l~Qi~~   60 (70)
+T 3ZVQ_A           55 ILQINS   60 (70)
+T ss_dssp             TTTEET
+T ss_pred             eeEEcc
+Confidence            577764
+
+

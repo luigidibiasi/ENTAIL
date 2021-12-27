@@ -1,0 +1,172 @@
+Query         FSINPA
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 21:55:58 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/FSINPA/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/FSINPA/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6N3A_J TAR DNA-binding protein  88.3    0.26 2.9E-06   19.6   0.0    6    1-6       6-11  (50)
+  2 6N3C_D TAR DNA-binding protein  87.1    0.36   4E-06   18.7   0.0    6    1-6      31-36  (46)
+  3 2N2C_A TAR DNA-binding protein  69.3     3.9 4.3E-05   15.6   0.0    6    1-6      10-15  (43)
+  4 7KWZ_A Isoform 2 of TAR DNA-bi  45.4      20 0.00022   16.6   0.0    6    1-6      50-55  (148)
+  5 7A23_C 51kDa, Nad2m, Nad3m, Na  37.0      32 0.00036   16.5   0.0    6    1-6       9-14  (748)
+  6 4NG0_A LAR_0958 cell surface a  31.4      45  0.0005   13.2   0.0    6    1-6      89-94  (97)
+  7 7AM2_BQ Ribosomal protein L3-l  29.5      52 0.00057   14.0   0.0    6    1-6      26-31  (445)
+  8 6Z1P_BM Ribosomal protein L2,   23.7      77 0.00085   15.9   0.0    6    1-6      21-26  (355)
+  9 4Y4Q_A Cysteine Transpeptidase  23.6      77 0.00086   13.7   0.0    6    1-6       4-9   (243)
+ 10 5YNF_B nsp16 protein, nsp10 pr  21.0      95   0.001   14.5   0.0    6    1-6      19-24  (140)
+ 11 5YNM_B nsp16 protein, nsp10 pr  21.0      95   0.001   14.5   0.0    6    1-6      19-24  (140)
+
+No 1
+>6N3A_J TAR DNA-binding protein 43, segA; Amyloid, TDP43, ALS, FTLD-TDP, dna; 3.3A {Homo sapiens}
+Probab=88.28  E-value=0.26  Score=19.64  Aligned_cols=6  Identities=100%  Similarity=1.497  Sum_probs=5.0  Template_Neff=2.200
+
+Q FSINPA            1 FSINPA    6 (6)
+Q Consensus         1 fsinpa    6 (6)
+                      |+||||
+T Consensus         6 ~~iNpA   11 (50)
+T 6N3A_J            6 FSINPA   11 (50)
+T ss_dssp             CEECCE
+T ss_pred             ccCCHH
+Confidence            689996
+
+
+No 2
+>6N3C_D TAR DNA-binding protein 43; Amyloid, TDP43, ALS, FTLD-TDP, dna; 3.3A {Homo sapiens}
+Probab=87.11  E-value=0.36  Score=18.73  Aligned_cols=6  Identities=100%  Similarity=1.497  Sum_probs=3.3  Template_Neff=3.000
+
+Q FSINPA            1 FSINPA    6 (6)
+Q Consensus         1 fsinpa    6 (6)
+                      |+||||
+T Consensus        31 ~~iNpA   36 (46)
+T 6N3C_D           31 FSINPA   36 (46)
+T ss_dssp             CCBC--
+T ss_pred             cccCHH
+Confidence            689986
+
+
+No 3
+>2N2C_A TAR DNA-binding protein 43; ALS, prion-like domain, hydrophobic helices; NMR {Homo sapiens}
+Probab=69.33  E-value=3.9  Score=15.64  Aligned_cols=6  Identities=100%  Similarity=1.497  Sum_probs=4.3  Template_Neff=3.300
+
+Q FSINPA            1 FSINPA    6 (6)
+Q Consensus         1 fsinpa    6 (6)
+                      |++|||
+T Consensus        10 ~~lNpA   15 (43)
+T 2N2C_A           10 FSINPA   15 (43)
+T ss_dssp             TTTSSS
+T ss_pred             ccCCHH
+Confidence            568886
+
+
+No 4
+>7KWZ_A Isoform 2 of TAR DNA-binding; TDP-43, amyloid, neurodegenerative diseases, amyotropic; 3.2A {Homo sapiens}
+Probab=45.41  E-value=20  Score=16.61  Aligned_cols=6  Identities=100%  Similarity=1.497  Sum_probs=4.0  Template_Neff=2.900
+
+Q FSINPA            1 FSINPA    6 (6)
+Q Consensus         1 fsinpa    6 (6)
+                      |.||||
+T Consensus        50 ~~lNpA   55 (148)
+T 7KWZ_A           50 FSINPA   55 (148)
+T ss_dssp             EEECCC
+T ss_pred             cccCHH
+Confidence            467776
+
+
+No 5
+>7A23_C 51kDa, Nad2m, Nad3m, Nad6m, Nad1m; Respiration, Complex I, mitochondria, plant; HET: FMN, NDP, PEV, SF4, U10, T7X, CDL; 3.7A {Brassica oleracea}
+Probab=36.98  E-value=32  Score=16.51  Aligned_cols=6  Identities=50%  Similarity=0.700  Sum_probs=4.2  Template_Neff=8.500
+
+Q FSINPA            1 FSINPA    6 (6)
+Q Consensus         1 fsinpa    6 (6)
+                      |+||||
+T Consensus         9 ~~~~~~   14 (748)
+T 7A23_C            9 RTIRPA   14 (748)
+T ss_pred             ceeccH
+Confidence            578875
+
+
+No 6
+>4NG0_A LAR_0958 cell surface adhesin; ubiquitin-like beta-grasp fold, adhesin, mucus; 1.501A {Lactobacillus reuteri}
+Probab=31.44  E-value=45  Score=13.17  Aligned_cols=6  Identities=50%  Similarity=1.154  Sum_probs=3.1  Template_Neff=6.300
+
+Q FSINPA            1 FSINPA    6 (6)
+Q Consensus         1 fsinpa    6 (6)
+                      |.|+||
+T Consensus        89 ytI~~a   94 (97)
+T 4NG0_A           89 YTINPL   94 (97)
+T ss_dssp             EEEECC
+T ss_pred             EEEecC
+Confidence            346654
+
+
+No 7
+>7AM2_BQ Ribosomal protein L3-like protein, uL4m; RIBOSOME, Mitochondria, Kinetoplastid; HET: GTP, ATP; 3.4A {Leishmania tarentolae}
+Probab=29.51  E-value=52  Score=14.03  Aligned_cols=6  Identities=50%  Similarity=1.032  Sum_probs=3.6  Template_Neff=10.000
+
+Q FSINPA            1 FSINPA    6 (6)
+Q Consensus         1 fsinpa    6 (6)
+                      ++.||+
+T Consensus        26 ~~~~~~   31 (445)
+T 7AM2_BQ          26 MSLNPT   31 (445)
+T ss_pred             cccCCe
+Confidence            466774
+
+
+No 8
+>6Z1P_BM Ribosomal protein L2, 50S ribosomal; Mitochondrial ribosome, ribosome, mitochondria, ciliate; HET: MG, ATP; 3.7A {Tetrahymena thermophila (strain SB210)}
+Probab=23.69  E-value=77  Score=15.94  Aligned_cols=6  Identities=83%  Similarity=1.243  Sum_probs=4.1  Template_Neff=4.400
+
+Q FSINPA            1 FSINPA    6 (6)
+Q Consensus         1 fsinpa    6 (6)
+                      ||.|||
+T Consensus        21 ~~~~~~   26 (355)
+T 6Z1P_BM          21 FSTNPA   26 (355)
+T ss_pred             ccCCcc
+Confidence            567775
+
+
+No 9
+>4Y4Q_A Cysteine Transpeptidase (E.C.3.4.16.4); pilus, virulence factor, sortase, Type; 2.162A {Streptococcus pneumoniae PCS8235}
+Probab=23.63  E-value=77  Score=13.72  Aligned_cols=6  Identities=50%  Similarity=0.656  Sum_probs=0.0  Template_Neff=7.500
+
+Q FSINPA            1 FSINPA    6 (6)
+Q Consensus         1 fsinpa    6 (6)
+                      .||||+
+T Consensus         4 ~~~~~~    9 (243)
+T 4Y4Q_A            4 LSPNPL    9 (243)
+T ss_dssp             ------
+T ss_pred             cCCCcc
+Confidence            367774
+
+
+No 10
+>5YNF_B nsp16 protein, nsp10 protein; Inhibitor, complex, TRANSFERASE; HET: GTA; 1.791A {Human betacoronavirus 2c EMC/2012}
+Probab=20.97  E-value=95  Score=14.53  Aligned_cols=6  Identities=33%  Similarity=1.176  Sum_probs=3.5  Template_Neff=2.400
+
+Q FSINPA            1 FSINPA    6 (6)
+Q Consensus         1 fsinpa    6 (6)
+                      |+++|+
+T Consensus        19 FavDP~   24 (140)
+T 5YNF_B           19 FTVDPQ   24 (140)
+T ss_dssp             SCSCHH
+T ss_pred             cccCHH
+Confidence            566664
+
+
+No 11
+>5YNM_B nsp16 protein, nsp10 protein; inhibitor, cofactor, complex, TRANSFERASE; HET: SAM, GTA; 1.68A {Human betacoronavirus 2c EMC/2012}
+Probab=20.97  E-value=95  Score=14.53  Aligned_cols=6  Identities=33%  Similarity=1.176  Sum_probs=3.5  Template_Neff=2.400
+
+Q FSINPA            1 FSINPA    6 (6)
+Q Consensus         1 fsinpa    6 (6)
+                      |+++|+
+T Consensus        19 FavDP~   24 (140)
+T 5YNM_B           19 FTVDPQ   24 (140)
+T ss_dssp             SCSCHH
+T ss_pred             cccCHH
+Confidence            566664
+
+

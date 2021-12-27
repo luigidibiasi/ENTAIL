@@ -1,0 +1,150 @@
+Query         SIEDSV
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 14:54:08 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/SIEDSV/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/SIEDSV/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3R7W_B GTP-binding protein GTR  15.1 1.6E+02  0.0018   12.7   0.0    6    1-6     326-331 (331)
+  2 2VKG_A DODECIN; BIOTECHNOLOGIC  10.3 2.7E+02   0.003   10.8   0.0    6    1-6      14-19  (62)
+  3 2CC6_A VNG1446H; FLAVOPROTEIN,  10.0 2.9E+02  0.0032   10.8   0.0    6    1-6      15-20  (68)
+  4 1MOG_A Dodecin, RIBOFLAVINE; b   9.8   3E+02  0.0033   10.8   0.0    6    1-6      14-19  (67)
+  5 2WY7_Q COMPLEMENT C3D FRAGMENT   9.4 3.1E+02  0.0034   12.0   0.0    6    1-6      13-18  (80)
+  6 2V19_C DODECIN; FLAVOPROTEIN,    9.4 3.1E+02  0.0035   10.7   0.0    6    1-6      16-21  (68)
+  7 7AZN_A Protein Aster-C; Non ve   9.1 3.3E+02  0.0036   10.6   0.0    5    1-5     173-177 (177)
+  8 5K04_A Uncharacterized protein   8.8 3.4E+02  0.0038   12.7   0.0    6    1-6     738-743 (750)
+  9 3ONR_E PROTEIN TRANSPORT PROTE   8.7 3.5E+02  0.0038   10.7   0.0    6    1-6      17-22  (72)
+ 10 3ONR_L PROTEIN TRANSPORT PROTE   8.7 3.5E+02  0.0038   10.7   0.0    6    1-6      17-22  (72)
+
+No 1
+>3R7W_B GTP-binding protein GTR1, GTP-binding protein; Rag GTPases, Gtr1p, Gtr2p, mTOR; HET: MSE, GNP; 2.773A {Saccharomyces cerevisiae}
+Probab=15.06  E-value=1.6e+02  Score=12.68  Aligned_cols=6  Identities=83%  Similarity=1.021  Sum_probs=0.0  Template_Neff=8.900
+
+Q SIEDSV            1 SIEDSV    6 (6)
+Q Consensus         1 siedsv    6 (6)
+                      ||||.|
+T Consensus       326 ~~~~~~  331 (331)
+T 3R7W_B          326 SIEDDV  331 (331)
+T ss_dssp             ------
+T ss_pred             ccccCC
+Confidence            456543
+
+
+No 2
+>2VKG_A DODECIN; BIOTECHNOLOGICAL APPLICATION OF DODECIN BINDING; HET: CF4; 1.8A {HALOBACTERIUM SALINARUM} SCOP: d.230.2.1
+Probab=10.32  E-value=2.7e+02  Score=10.76  Aligned_cols=6  Identities=17%  Similarity=0.224  Sum_probs=0.0  Template_Neff=5.000
+
+Q SIEDSV            1 SIEDSV    6 (6)
+Q Consensus         1 siedsv    6 (6)
+                      |+||.+
+T Consensus        14 s~edAi   19 (62)
+T 2VKG_A           14 SFTAAA   19 (62)
+T ss_dssp             CHHHHH
+T ss_pred             cHHHHH
+
+
+No 3
+>2CC6_A VNG1446H; FLAVOPROTEIN, FLAVIN, FLAVIN-LIKE LIGANDS; HET: LUM; 1.27A {HALOBACTERIUM SALINARUM} SCOP: d.230.2.1
+Probab=10.00  E-value=2.9e+02  Score=10.84  Aligned_cols=6  Identities=17%  Similarity=0.224  Sum_probs=0.0  Template_Neff=5.100
+
+Q SIEDSV            1 SIEDSV    6 (6)
+Q Consensus         1 siedsv    6 (6)
+                      |+||.+
+T Consensus        15 S~edAi   20 (68)
+T 2CC6_A           15 SFTAAA   20 (68)
+T ss_dssp             CHHHHH
+T ss_pred             cHHHHH
+
+
+No 4
+>1MOG_A Dodecin, RIBOFLAVINE; binding site for dimerized riboflavin; HET: RBF; 1.7A {Halobacterium salinarum} SCOP: d.230.2.1
+Probab=9.76  E-value=3e+02  Score=10.77  Aligned_cols=6  Identities=17%  Similarity=0.224  Sum_probs=0.0  Template_Neff=5.100
+
+Q SIEDSV            1 SIEDSV    6 (6)
+Q Consensus         1 siedsv    6 (6)
+                      |+||.+
+T Consensus        14 S~edAi   19 (67)
+T 1MOG_A           14 SFTAAA   19 (67)
+T ss_pred             CHHHHH
+
+
+No 5
+>2WY7_Q COMPLEMENT C3D FRAGMENT, IGG-BINDING PROTEIN; IMMUNE SYSTEM, IMMUNE RESPONSE, INNATE; HET: GOL; 1.7A {HOMO SAPIENS}
+Probab=9.44  E-value=3.1e+02  Score=11.96  Aligned_cols=6  Identities=50%  Similarity=0.805  Sum_probs=0.0  Template_Neff=2.300
+
+Q SIEDSV            1 SIEDSV    6 (6)
+Q Consensus         1 siedsv    6 (6)
+                      ||||.+
+T Consensus        13 ~~EdA~   18 (80)
+T 2WY7_Q           13 SIEKAI   18 (80)
+T ss_dssp             HHHHHH
+T ss_pred             chhHhh
+
+
+No 6
+>2V19_C DODECIN; FLAVOPROTEIN, FLAVIN BINDING PROTEIN, DODECINS; HET: COA, FMN; 2.59A {THERMUS THERMOPHILUS} SCOP: d.230.2.1
+Probab=9.36  E-value=3.1e+02  Score=10.73  Aligned_cols=6  Identities=17%  Similarity=0.595  Sum_probs=0.0  Template_Neff=5.100
+
+Q SIEDSV            1 SIEDSV    6 (6)
+Q Consensus         1 siedsv    6 (6)
+                      |+||.+
+T Consensus        16 s~edAi   21 (68)
+T 2V19_C           16 GLEAAI   21 (68)
+T ss_dssp             CHHHHH
+T ss_pred             cHHHHH
+
+
+No 7
+>7AZN_A Protein Aster-C; Non vesicular cholesterol transport, lipid-binding; HET: YK8, EOH; 2.09A {Mus musculus}
+Probab=9.10  E-value=3.3e+02  Score=10.60  Aligned_cols=5  Identities=80%  Similarity=1.039  Sum_probs=0.0  Template_Neff=9.100
+
+Q SIEDSV            1 SIEDS    5 (6)
+Q Consensus         1 sieds    5 (6)
+                      ||||.
+T Consensus       173 ~~~~~  177 (177)
+T 7AZN_A          173 SIEDA  177 (177)
+T ss_dssp             HHHHC
+T ss_pred             hcccC
+
+
+No 8
+>5K04_A Uncharacterized protein, Peptide alpha-N-acetyltransferase; N-terminal acetyltransferase complex, TRANSFERASE; HET: COA, MES; 2.4A {Candida albicans (strain WO-1)}
+Probab=8.78  E-value=3.4e+02  Score=12.70  Aligned_cols=6  Identities=83%  Similarity=0.999  Sum_probs=0.0  Template_Neff=9.900
+
+Q SIEDSV            1 SIEDSV    6 (6)
+Q Consensus         1 siedsv    6 (6)
+                      ||||.|
+T Consensus       738 ~~~~~~  743 (750)
+T 5K04_A          738 SIEDCV  743 (750)
+T ss_dssp             HHHHHH
+T ss_pred             hHHHHH
+
+
+No 9
+>3ONR_E PROTEIN TRANSPORT PROTEIN SECE2; Calcium dodecin, calcium binding protein; HET: FMT; 1.8A {Mycobacterium tuberculosis}
+Probab=8.68  E-value=3.5e+02  Score=10.71  Aligned_cols=6  Identities=33%  Similarity=0.341  Sum_probs=0.0  Template_Neff=5.100
+
+Q SIEDSV            1 SIEDSV    6 (6)
+Q Consensus         1 siedsv    6 (6)
+                      |+||.+
+T Consensus        17 S~eDAi   22 (72)
+T 3ONR_E           17 SWEQAA   22 (72)
+T ss_dssp             CHHHHH
+T ss_pred             CHHHHH
+
+
+No 10
+>3ONR_L PROTEIN TRANSPORT PROTEIN SECE2; Calcium dodecin, calcium binding protein; HET: FMT; 1.8A {Mycobacterium tuberculosis}
+Probab=8.68  E-value=3.5e+02  Score=10.71  Aligned_cols=6  Identities=33%  Similarity=0.341  Sum_probs=0.0  Template_Neff=5.100
+
+Q SIEDSV            1 SIEDSV    6 (6)
+Q Consensus         1 siedsv    6 (6)
+                      |+||.+
+T Consensus        17 S~eDAi   22 (72)
+T 3ONR_L           17 SWEQAA   22 (72)
+T ss_dssp             CHHHHH
+T ss_pred             CHHHHH
+
+

@@ -1,0 +1,151 @@
+Query         SELNIY
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 13:51:44 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/SELNIY/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/SELNIY/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6XFU_A ABC transporter ATP-bin  64.2     5.8 6.5E-05   16.8   0.0    6    1-6      56-61  (70)
+  2 6WT6_A Metazoan TIR-STING fusi  11.0 2.5E+02  0.0028   13.2   0.0    6    1-6     397-402 (415)
+  3 6WT7_A Metazoan TIR-STING fusi  11.0 2.5E+02  0.0028   13.2   0.0    6    1-6     397-402 (415)
+  4 3E99_A Benzoate 1,2-dioxygenas  10.3 2.7E+02   0.003   10.3   0.0    6    1-6     157-162 (164)
+  5 4A6Q_A HISTONE DEACETYLASE COM   9.6   3E+02  0.0034   11.9   0.0    6    1-6      54-59  (143)
+  6 6ZEE_C Serine/threonine-protei   9.3 3.2E+02  0.0035   10.8   0.0    5    2-6      54-58  (78)
+  7 2EXN_A Hypothetical protein Bo   9.1 3.3E+02  0.0036   10.6   0.0    6    1-6       2-7   (136)
+  8 7JI1_A beta sandwich, TOXIN; N   9.1 3.3E+02  0.0036    9.6   0.0    6    1-6     153-158 (159)
+  9 3T8J_A Purine nucleosidase, (I   8.9 3.4E+02  0.0037   11.6   0.0    6    1-6     161-166 (311)
+ 10 2J22_A FUCOLECTIN-RELATED PROT   8.7 3.4E+02  0.0038    8.8   0.0    6    1-6     140-145 (148)
+
+No 1
+>6XFU_A ABC transporter ATP-binding protein; ABC transporter, ABC exporter, Peptide; 1.4A {Staphylococcus aureus}
+Probab=64.17  E-value=5.8  Score=16.84  Aligned_cols=6  Identities=83%  Similarity=1.320  Sum_probs=4.4  Template_Neff=1.400
+
+Q SELNIY            1 SELNIY    6 (6)
+Q Consensus         1 selniy    6 (6)
+                      |+||||
+T Consensus        56 ~~l~iy   61 (70)
+T 6XFU_A           56 SELDIY   61 (70)
+T ss_dssp             HHTTCC
+T ss_pred             HhcCCc
+Confidence            578887
+
+
+No 2
+>6WT6_A Metazoan TIR-STING fusion; TIR domain, cyclic dinucleotide receptor; 2.41A {Crassostrea gigas}
+Probab=10.95  E-value=2.5e+02  Score=13.25  Aligned_cols=6  Identities=83%  Similarity=1.060  Sum_probs=0.0  Template_Neff=7.400
+
+Q SELNIY            1 SELNIY    6 (6)
+Q Consensus         1 selniy    6 (6)
+                      ||-|||
+T Consensus       397 ~~~~~~  402 (415)
+T 6WT6_A          397 SEPNIY  402 (415)
+T ss_dssp             ------
+T ss_pred             cCCcee
+Confidence            355665
+
+
+No 3
+>6WT7_A Metazoan TIR-STING fusion/RNA Complex; TIR domain, cyclic dinucleotide receptor; HET: 1SY; 2.9A {Crassostrea gigas}
+Probab=10.95  E-value=2.5e+02  Score=13.25  Aligned_cols=6  Identities=83%  Similarity=1.060  Sum_probs=0.0  Template_Neff=7.400
+
+Q SELNIY            1 SELNIY    6 (6)
+Q Consensus         1 selniy    6 (6)
+                      ||-|||
+T Consensus       397 ~~~~~~  402 (415)
+T 6WT7_A          397 SEPNIY  402 (415)
+T ss_dssp             ------
+T ss_pred             cCCcee
+Confidence            355665
+
+
+No 4
+>3E99_A Benzoate 1,2-dioxygenase beta subunit (E.C.1.14.12.10); Structural genomics, Joint Center for; 1.9A {Burkholderia mallei ATCC 23344} SCOP: d.17.4.4
+Probab=10.33  E-value=2.7e+02  Score=10.27  Aligned_cols=6  Identities=33%  Similarity=0.789  Sum_probs=0.0  Template_Neff=9.900
+
+Q SELNIY            1 SELNIY    6 (6)
+Q Consensus         1 selniy    6 (6)
+                      .+++||
+T Consensus       157 ~~~~~~  162 (164)
+T 3E99_A          157 QLIDIY  162 (164)
+T ss_dssp             -CCCGG
+T ss_pred             ceeccc
+
+
+No 5
+>4A6Q_A HISTONE DEACETYLASE COMPLEX SUBUNIT SAP18; TRANSCRIPTION, SPLICING, RNA METABOLISM, UBIQUITIN-LIKE; 1.5A {MUS MUSCULUS}
+Probab=9.58  E-value=3e+02  Score=11.90  Aligned_cols=6  Identities=83%  Similarity=1.237  Sum_probs=0.0  Template_Neff=5.600
+
+Q SELNIY            1 SELNIY    6 (6)
+Q Consensus         1 selniy    6 (6)
+                      .|+.||
+T Consensus        54 dElqIY   59 (143)
+T 4A6Q_A           54 SELQIY   59 (143)
+T ss_dssp             CCEEEE
+T ss_pred             chheee
+
+
+No 6
+>6ZEE_C Serine/threonine-protein phosphatase PP1-alpha catalytic subunit; PP1, Phosphatase, Phactr, RPEL, HYDROLASE; HET: 16P, SO4, GOL, MN, EDO; 1.9A {Homo sapiens}
+Probab=9.28  E-value=3.2e+02  Score=10.80  Aligned_cols=5  Identities=60%  Similarity=0.919  Sum_probs=0.0  Template_Neff=5.500
+
+Q SELNIY            2 ELNIY    6 (6)
+Q Consensus         2 elniy    6 (6)
+                      |||-|
+T Consensus        54 ELN~f   58 (78)
+T 6ZEE_C           54 ELNEF   58 (78)
+T ss_pred             HHHhh
+
+
+No 7
+>2EXN_A Hypothetical protein BoR11; Beta barrel containing fold ; NMR {Bordetella bronchiseptica} SCOP: b.165.1.1
+Probab=9.10  E-value=3.3e+02  Score=10.61  Aligned_cols=6  Identities=17%  Similarity=-0.103  Sum_probs=0.0  Template_Neff=8.100
+
+Q SELNIY            1 SELNIY    6 (6)
+Q Consensus         1 selniy    6 (6)
+                      ++|.||
+T Consensus         2 ~~l~iy    7 (136)
+T 2EXN_A            2 STTAYQ    7 (136)
+T ss_dssp             CCCCEE
+T ss_pred             ceEEEe
+
+
+No 8
+>7JI1_A beta sandwich, TOXIN; NMR {Streptococcus pyogenes}
+Probab=9.09  E-value=3.3e+02  Score=9.58  Aligned_cols=6  Identities=33%  Similarity=0.285  Sum_probs=0.0  Template_Neff=10.800
+
+Q SELNIY            1 SELNIY    6 (6)
+Q Consensus         1 selniy    6 (6)
+                      +|+.+|
+T Consensus       153 ~ei~i~  158 (159)
+T 7JI1_A          153 SEVTFG  158 (159)
+T ss_dssp             SCCEEE
+T ss_pred             EEEEec
+
+
+No 9
+>3T8J_A Purine nucleosidase, (IunH-1) (E.C.3.2.2.1); Nucleoside hydrolase, thermostable protein, Open; 1.6A {Sulfolobus solfataricus}
+Probab=8.91  E-value=3.4e+02  Score=11.60  Aligned_cols=6  Identities=50%  Similarity=1.032  Sum_probs=0.0  Template_Neff=9.000
+
+Q SELNIY            1 SELNIY    6 (6)
+Q Consensus         1 selniy    6 (6)
+                      +|.|++
+T Consensus       161 aE~N~~  166 (311)
+T 3T8J_A          161 AEFNIW  166 (311)
+T ss_dssp             CCHHHH
+T ss_pred             ccccce
+
+
+No 10
+>2J22_A FUCOLECTIN-RELATED PROTEIN; CARBOHYDRATE-BINDING PROTEIN, CARBOHYDRATE BINDING PROTEIN; 1.8A {STREPTOCOCCUS PNEUMONIAE}
+Probab=8.73  E-value=3.4e+02  Score=8.80  Aligned_cols=6  Identities=33%  Similarity=1.016  Sum_probs=0.0  Template_Neff=12.000
+
+Q SELNIY            1 SELNIY    6 (6)
+Q Consensus         1 selniy    6 (6)
+                      +|+.+|
+T Consensus       140 ~ei~v~  145 (148)
+T 2J22_A          140 AEVEVY  145 (148)
+T ss_pred             EEEEEe
+
+

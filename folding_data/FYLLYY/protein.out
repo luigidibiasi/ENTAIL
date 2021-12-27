@@ -1,0 +1,148 @@
+Query         FYLLYY
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 22:20:57 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/FYLLYY/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/FYLLYY/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5FU6_B CCR4-NOT TRANSCRIPTION   19.0 1.1E+02  0.0012   13.4   0.0    6    1-6     102-107 (197)
+  2 4BY6_F GENERAL NEGATIVE REGULA  18.8 1.1E+02  0.0013   14.6   0.0    6    1-6     180-185 (262)
+  3 5WM0_A Peptidyl-glycine alpha-  18.3 1.2E+02  0.0013   14.9   0.0    6    1-6     317-322 (976)
+  4 1OO0_A Mago nashi protein, CG8  16.9 1.3E+02  0.0015   13.7   0.0    6    1-6       6-11  (147)
+  5 1P27_C Mago nashi protein homo  16.5 1.4E+02  0.0015   13.6   0.0    6    1-6       4-9   (144)
+  6 5TXK_A Ubiquitin carboxyl-term  16.4 1.4E+02  0.0016   12.0   0.0    5    2-6     347-351 (372)
+  7 5K16_B Ubiquitin carboxyl-term  16.1 1.4E+02  0.0016   11.7   0.0    5    2-6     347-351 (355)
+  8 2MML_A Leader protein; animal   16.1 1.4E+02  0.0016   12.8   0.0    6    1-6      35-40  (71)
+  9 2J0S_C ATP-DEPENDENT RNA HELIC  16.0 1.5E+02  0.0016   13.6   0.0    6    1-6       5-10  (146)
+ 10 1Z8U_A alpha haemoglobin, AHSP  15.9 1.5E+02  0.0016   13.4   0.0    6    1-6      47-52  (102)
+
+No 1
+>5FU6_B CCR4-NOT TRANSCRIPTION COMPLEX SUBUNIT 1; GENE REGULATION, DEADENYLATION, MRNA DECAY; 2.9A {HOMO SAPIENS}
+Probab=18.95  E-value=1.1e+02  Score=13.35  Aligned_cols=6  Identities=67%  Similarity=1.464  Sum_probs=0.0  Template_Neff=6.500
+
+Q FYLLYY            1 FYLLYY    6 (6)
+Q Consensus         1 fyllyy    6 (6)
+                      ||+.|+
+T Consensus       102 FyiFY~  107 (197)
+T 5FU6_B          102 FYLYYM  107 (197)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHh
+
+
+No 2
+>4BY6_F GENERAL NEGATIVE REGULATOR OF TRANSCRIPTION; TRANSCRIPTION, CTERMINAL COMPONENTS OF THE; HET: GOL, PEG; 2.797A {SACCHAROMYCES CEREVISIAE}
+Probab=18.78  E-value=1.1e+02  Score=14.61  Aligned_cols=6  Identities=33%  Similarity=1.248  Sum_probs=0.0  Template_Neff=4.900
+
+Q FYLLYY            1 FYLLYY    6 (6)
+Q Consensus         1 fyllyy    6 (6)
+                      ||+.||
+T Consensus       180 FYIFY~  185 (262)
+T 4BY6_F          180 FFIFYH  185 (262)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHh
+
+
+No 3
+>5WM0_A Peptidyl-glycine alpha-amidating monooxygenase (E.C.1.14.17.3,4.3.2.5); PEPTIDYLGLYCINE MONOOXYGENASE, PEPTIDYLGLYCINE 2-HYDROXYLASE, PHM; 2.4A {Rattus norvegicus}
+Probab=18.27  E-value=1.2e+02  Score=14.93  Aligned_cols=6  Identities=50%  Similarity=1.718  Sum_probs=0.0  Template_Neff=9.200
+
+Q FYLLYY            1 FYLLYY    6 (6)
+Q Consensus         1 fyllyy    6 (6)
+                      ||++||
+T Consensus       317 ~~~~yy  322 (976)
+T 5WM0_A          317 LYIMYY  322 (976)
+T ss_pred             eEEEEE
+
+
+No 4
+>1OO0_A Mago nashi protein, CG8781-PA, BETA-MERCAPTOETHANOL; RNA recognition motif, splicing, Protein; HET: MPD, GOL; 1.85A {Drosophila melanogaster} SCOP: d.232.1.1
+Probab=16.88  E-value=1.3e+02  Score=13.73  Aligned_cols=6  Identities=83%  Similarity=1.785  Sum_probs=0.0  Template_Neff=3.800
+
+Q FYLLYY            1 FYLLYY    6 (6)
+Q Consensus         1 fyllyy    6 (6)
+                      |||-||
+T Consensus         6 FYlRYy   11 (147)
+T 1OO0_A            6 FYLRYY   11 (147)
+T ss_dssp             EEEEEE
+T ss_pred             eeEEEE
+
+
+No 5
+>1P27_C Mago nashi protein homolog, RNA-binding; RNA-binding, Nuclear protein, mRNA splicing; 2.0A {Homo sapiens} SCOP: d.232.1.1
+Probab=16.51  E-value=1.4e+02  Score=13.61  Aligned_cols=6  Identities=83%  Similarity=1.785  Sum_probs=0.0  Template_Neff=3.900
+
+Q FYLLYY            1 FYLLYY    6 (6)
+Q Consensus         1 fyllyy    6 (6)
+                      |||=||
+T Consensus         4 FYlRYy    9 (144)
+T 1P27_C            4 FYLRYY    9 (144)
+T ss_dssp             EEEEEE
+T ss_pred             eeeEEE
+
+
+No 6
+>5TXK_A Ubiquitin carboxyl-terminal hydrolase 35 (E.C.3.4.19.12); Deubiquitinase, hydrolase; HET: SO4, EDO; 1.84A {Homo sapiens}
+Probab=16.38  E-value=1.4e+02  Score=12.00  Aligned_cols=5  Identities=60%  Similarity=1.763  Sum_probs=0.0  Template_Neff=10.900
+
+Q FYLLYY            2 YLLYY    6 (6)
+Q Consensus         2 yllyy    6 (6)
+                      |+|+|
+T Consensus       347 y~l~Y  351 (372)
+T 5TXK_A          347 YVLFY  351 (372)
+T ss_dssp             EEEEE
+T ss_pred             EEEEE
+
+
+No 7
+>5K16_B Ubiquitin carboxyl-terminal hydrolase 12 (E.C.3.4.19.12); deubiquitination, deubiquitnating enzyme, DUB, HYDROLASE; HET: GOL; 2.599A {Homo sapiens}
+Probab=16.12  E-value=1.4e+02  Score=11.67  Aligned_cols=5  Identities=60%  Similarity=1.829  Sum_probs=0.0  Template_Neff=11.300
+
+Q FYLLYY            2 YLLYY    6 (6)
+Q Consensus         2 yllyy    6 (6)
+                      |+++|
+T Consensus       347 yll~Y  351 (355)
+T 5K16_B          347 YILFY  351 (355)
+T ss_dssp             EEEEE
+T ss_pred             EEEEE
+
+
+No 8
+>2MML_A Leader protein; animal viruses, positive-strand RNA viruses; HET: TPO, ZN; NMR {Mengo virus}
+Probab=16.10  E-value=1.4e+02  Score=12.81  Aligned_cols=6  Identities=83%  Similarity=1.580  Sum_probs=0.0  Template_Neff=1.000
+
+Q FYLLYY            1 FYLLYY    6 (6)
+Q Consensus         1 fyllyy    6 (6)
+                      ||||-|
+T Consensus        35 fyllky   40 (71)
+T 2MML_A           35 FYLLKY   40 (71)
+T ss_dssp             TTSGGG
+T ss_pred             EEEEEe
+
+
+No 9
+>2J0S_C ATP-DEPENDENT RNA HELICASE DDX48, PROTEIN; MRNA PROCESSING, PHOSPHORYLATION, RRNA PROCESSING; HET: ANP; 2.21A {HOMO SAPIENS} SCOP: d.232.1.1
+Probab=16.02  E-value=1.5e+02  Score=13.58  Aligned_cols=6  Identities=83%  Similarity=1.785  Sum_probs=0.0  Template_Neff=3.900
+
+Q FYLLYY            1 FYLLYY    6 (6)
+Q Consensus         1 fyllyy    6 (6)
+                      |||=||
+T Consensus         5 fYlRYy   10 (146)
+T 2J0S_C            5 FYLRYY   10 (146)
+T ss_pred             ceeEEE
+
+
+No 10
+>1Z8U_A alpha haemoglobin, AHSP, oxidation, interaction; HET: HEM; 2.4A {Homo sapiens} SCOP: a.7.11.1
+Probab=15.94  E-value=1.5e+02  Score=13.43  Aligned_cols=6  Identities=67%  Similarity=1.674  Sum_probs=0.0  Template_Neff=2.000
+
+Q FYLLYY            1 FYLLYY    6 (6)
+Q Consensus         1 fyllyy    6 (6)
+                      ||+-||
+T Consensus        47 fYinYY   52 (102)
+T 1Z8U_A           47 FYINYY   52 (102)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+

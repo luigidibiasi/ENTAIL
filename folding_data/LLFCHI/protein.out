@@ -1,0 +1,147 @@
+Query         LLFCHI
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 19:11:01 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LLFCHI/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LLFCHI/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5FZW_A U3-SCYTOTOXIN-STH1H; TO  15.5 1.5E+02  0.0017   11.2   0.0    4    2-5      29-32  (33)
+  2 5EHF_A Laccase (E.C.1.10.3.2);  14.4 1.7E+02  0.0019   13.1   0.0    6    1-6     448-453 (497)
+  3 7AOI_BE bL28m, uL29m, uL30m, b  14.1 1.8E+02  0.0019   15.8   0.0    5    1-5     256-260 (438)
+  4 2EBJ_A Pyrrolidone carboxyl pe  14.0 1.8E+02   0.002   11.9   0.0    5    2-6     157-161 (192)
+  5 1ZPU_F Iron transport multicop  14.0 1.8E+02   0.002   13.4   0.0    6    1-6     460-465 (534)
+  6 3PXL_A Laccase (E.C.1.10.3.2);  13.9 1.8E+02   0.002   13.0   0.0    6    1-6     450-455 (499)
+  7 2IH9_B Laccase-1 (E.C.1.10.3.2  13.8 1.8E+02   0.002   13.5   0.0    6    1-6     500-505 (559)
+  8 3DMI_A cytochrome c6; ELECTRON  13.7 1.8E+02   0.002    8.9   0.0    2    4-5      17-18  (88)
+  9 6YXY_BE bL28m, uL29m, uL30m, b  13.7 1.8E+02   0.002   15.8   0.0    5    1-5     266-270 (449)
+ 10 6K3D_A Multicopper oxidase; cu  13.3 1.9E+02  0.0021   12.9   0.0    6    1-6     428-433 (448)
+
+No 1
+>5FZW_A U3-SCYTOTOXIN-STH1H; TOXIN, SPIDER VENOM PEPTIDE, ICK; NMR {Scytodes thoracica}
+Probab=15.45  E-value=1.5e+02  Score=11.24  Aligned_cols=4  Identities=75%  Similarity=1.713  Sum_probs=0.0  Template_Neff=1.800
+
+Q LLFCHI            2 LFCH    5 (6)
+Q Consensus         2 lfch    5 (6)
+                      |||+
+T Consensus        29 lfc~   32 (33)
+T 5FZW_A           29 LFCL   32 (33)
+T ss_dssp             TEEC
+T ss_pred             hhhc
+
+
+No 2
+>5EHF_A Laccase (E.C.1.10.3.2); OXIDOREDUCTASE; HET: NAG, GOL; 1.75A {Antrodiella faginea}
+Probab=14.41  E-value=1.7e+02  Score=13.09  Aligned_cols=6  Identities=67%  Similarity=1.519  Sum_probs=0.0  Template_Neff=9.400
+
+Q LLFCHI            1 LLFCHI    6 (6)
+Q Consensus         1 llfchi    6 (6)
+                      ++-|||
+T Consensus       448 ~~HCHi  453 (497)
+T 5EHF_A          448 FLHCHI  453 (497)
+T ss_dssp             EEEESS
+T ss_pred             eeeech
+
+
+No 3
+>7AOI_BE bL28m, uL29m, uL30m, bL32m, bL33m; mitochondria, translation, trypanosoma, assembly, evolution; HET: ADP, GTP, NAD, 4HH; 3.5A {Trypanosoma brucei}
+Probab=14.12  E-value=1.8e+02  Score=15.83  Aligned_cols=5  Identities=80%  Similarity=2.082  Sum_probs=0.0  Template_Neff=2.300
+
+Q LLFCHI            1 LLFCH    5 (6)
+Q Consensus         1 llfch    5 (6)
+                      |.|||
+T Consensus       256 L~F~H  260 (438)
+T 7AOI_BE         256 LMFCH  260 (438)
+T ss_pred             HHhhc
+
+
+No 4
+>2EBJ_A Pyrrolidone carboxyl peptidase(E.C.3.4.19.3); pyrrolidone carboxyl peptidase, Thermus thermophilus; 1.9A {Thermus thermophilus}
+Probab=13.99  E-value=1.8e+02  Score=11.90  Aligned_cols=5  Identities=40%  Similarity=0.660  Sum_probs=0.0  Template_Neff=8.200
+
+Q LLFCHI            2 LFCHI    6 (6)
+Q Consensus         2 lfchi    6 (6)
+                      +|.|+
+T Consensus       157 ~FvHV  161 (192)
+T 2EBJ_A          157 GFLHL  161 (192)
+T ss_dssp             EEEEE
+T ss_pred             EEEEC
+
+
+No 5
+>1ZPU_F Iron transport multicopper oxidase FET3; multicopper oxidase, ferroxidase, iron transport; HET: CU1, BMA, MAN, NAG; 2.8A {Saccharomyces cerevisiae}
+Probab=13.98  E-value=1.8e+02  Score=13.37  Aligned_cols=6  Identities=50%  Similarity=1.408  Sum_probs=0.0  Template_Neff=9.000
+
+Q LLFCHI            1 LLFCHI    6 (6)
+Q Consensus         1 llfchi    6 (6)
+                      ++-|||
+T Consensus       460 ~~HCHi  465 (534)
+T 1ZPU_F          460 FFHCHI  465 (534)
+T ss_dssp             EEEECC
+T ss_pred             eeeeeh
+
+
+No 6
+>3PXL_A Laccase (E.C.1.10.3.2); 4-copper protein, metal-binding, oxidoreductase, type-2; HET: NAG, BMA, MAN; 1.2A {Trametes hirsuta}
+Probab=13.89  E-value=1.8e+02  Score=13.02  Aligned_cols=6  Identities=67%  Similarity=1.519  Sum_probs=0.0  Template_Neff=9.400
+
+Q LLFCHI            1 LLFCHI    6 (6)
+Q Consensus         1 llfchi    6 (6)
+                      ++-|||
+T Consensus       450 ~~HCHi  455 (499)
+T 3PXL_A          450 FLHCHI  455 (499)
+T ss_dssp             EEEESS
+T ss_pred             eceech
+
+
+No 7
+>2IH9_B Laccase-1 (E.C.1.10.3.2); laccase, multicopper oxidase, redox enzyme; HET: SO4, BMA, NAG; 2.0A {Melanocarpus albomyces} SCOP: b.6.1.3
+Probab=13.82  E-value=1.8e+02  Score=13.53  Aligned_cols=6  Identities=67%  Similarity=1.519  Sum_probs=0.0  Template_Neff=8.800
+
+Q LLFCHI            1 LLFCHI    6 (6)
+Q Consensus         1 llfchi    6 (6)
+                      ++-|||
+T Consensus       500 ~~HCHi  505 (559)
+T 2IH9_B          500 LFHCHI  505 (559)
+T ss_dssp             EEEECC
+T ss_pred             eeEeee
+
+
+No 8
+>3DMI_A cytochrome c6; ELECTRON TRANSPORT, Cytochrome c6, Phaeodactylum; HET: HEM; 1.5A {Phaeodactylum tricornutum}
+Probab=13.74  E-value=1.8e+02  Score=8.88  Aligned_cols=2  Identities=100%  Similarity=2.909  Sum_probs=0.0  Template_Neff=11.300
+
+Q LLFCHI            4 CH    5 (6)
+Q Consensus         4 ch    5 (6)
+                      ||
+T Consensus        17 CH   18 (88)
+T 3DMI_A           17 CH   18 (88)
+T ss_pred             hc
+
+
+No 9
+>6YXY_BE bL28m, uL29m, uL30m, bL32m, bL35m; mitoribosome, assembly, LSU, RIBOSOME; HET: ATP, PM8, MG, SPD, NAD, GTP; 3.1A {Trypanosoma brucei brucei}
+Probab=13.73  E-value=1.8e+02  Score=15.82  Aligned_cols=5  Identities=80%  Similarity=2.082  Sum_probs=0.0  Template_Neff=2.300
+
+Q LLFCHI            1 LLFCH    5 (6)
+Q Consensus         1 llfch    5 (6)
+                      |.|||
+T Consensus       266 L~F~H  270 (449)
+T 6YXY_BE         266 LMFCH  270 (449)
+T ss_pred             HHhhc
+
+
+No 10
+>6K3D_A Multicopper oxidase; cupredoxin-like domains, OXIDOREDUCTASE; 1.919A {Pyrobaculum aerophilum (strain ATCC 51768 / IM2 / DSM 7523 / JCM 9630 / NBRC 100827)}
+Probab=13.34  E-value=1.9e+02  Score=12.86  Aligned_cols=6  Identities=33%  Similarity=0.794  Sum_probs=0.0  Template_Neff=9.200
+
+Q LLFCHI            1 LLFCHI    6 (6)
+Q Consensus         1 llfchi    6 (6)
+                      ++-|||
+T Consensus       428 ~~HCHi  433 (448)
+T 6K3D_A          428 PFHCHN  433 (448)
+T ss_dssp             EEEESS
+T ss_pred             EEEEcc
+
+

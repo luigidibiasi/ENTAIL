@@ -1,0 +1,155 @@
+Query         FTFIQF
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 22:05:22 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/FTFIQF/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/FTFIQF/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2OFQ_A TraO, TraN; TraO, TraN,  65.1     5.5   6E-05   15.1   0.0    6    1-6      30-35  (95)
+  2 3ZBI_B TRAF PROTEIN, TRAO PROT  62.6     6.6 7.3E-05   16.0   0.0    6    1-6      46-51  (130)
+  3 3JQO_E TraF protein, TraO prot  58.5     8.7 9.6E-05   15.8   0.0    6    1-6      47-52  (135)
+  4 5H3V_B Cag8; Helicobacter pylo  55.1      11 0.00012   14.7   0.0    6    1-6      30-35  (103)
+  5 2N01_B VirB7 protein, VirB9 pr  51.6      13 0.00015   14.5   0.0    6    1-6      40-45  (106)
+  6 6GYB_N VirB7, VirB9 protein, V  40.4      26 0.00029   15.3   0.0    6    1-6     189-194 (255)
+  7 2KN4_A Immunoglobulin G-bindin  15.0 1.6E+02  0.0018    9.8   0.0    6    1-6      15-20  (158)
+  8 6W9Z_A De novo designed recept  13.9 1.8E+02   0.002   10.9   0.0    5    2-6      16-20  (30)
+  9 6W9Z_D De novo designed recept  13.9 1.8E+02   0.002   10.9   0.0    5    2-6      16-20  (30)
+ 10 2I2Y_A Fusion Protein/RNA Comp  12.9   2E+02  0.0022    9.3   0.0    6    1-6      15-20  (150)
+
+No 1
+>2OFQ_A TraO, TraN; TraO, TraN, pKM101, PROTEIN TRANSPORT-PROTEIN; NMR {IncN plasmid R46}
+Probab=65.09  E-value=5.5  Score=15.07  Aligned_cols=6  Identities=50%  Similarity=0.888  Sum_probs=3.6  Template_Neff=7.300
+
+Q FTFIQF            1 FTFIQF    6 (6)
+Q Consensus         1 ftfiqf    6 (6)
+                      ||||+|
+T Consensus        30 ~Tyi~f   35 (95)
+T 2OFQ_A           30 FTRFEF   35 (95)
+T ss_pred             EEEEEC
+Confidence            466665
+
+
+No 2
+>3ZBI_B TRAF PROTEIN, TRAO PROTEIN, TRAN; CELL ADHESION, BACTERIAL SECRETION; 8.5A {ESCHERICHIA COLI}
+Probab=62.57  E-value=6.6  Score=16.01  Aligned_cols=6  Identities=50%  Similarity=0.888  Sum_probs=3.8  Template_Neff=6.500
+
+Q FTFIQF            1 FTFIQF    6 (6)
+Q Consensus         1 ftfiqf    6 (6)
+                      ||||||
+T Consensus        46 ~Tyi~f   51 (130)
+T 3ZBI_B           46 FTRFEF   51 (130)
+T ss_dssp             CEEECC
+T ss_pred             EEEEEC
+Confidence            567765
+
+
+No 3
+>3JQO_E TraF protein, TraO protein, TraN; Helical outer membrane TM, outer; HET: LDA, MPD, MSE; 2.6A {Escherichia coli}
+Probab=58.49  E-value=8.7  Score=15.81  Aligned_cols=6  Identities=50%  Similarity=0.888  Sum_probs=3.8  Template_Neff=6.400
+
+Q FTFIQF            1 FTFIQF    6 (6)
+Q Consensus         1 ftfiqf    6 (6)
+                      ||||+|
+T Consensus        47 ~Tyi~f   52 (135)
+T 3JQO_E           47 FTRFEF   52 (135)
+T ss_dssp             SEEEEC
+T ss_pred             EEEEEC
+Confidence            566665
+
+
+No 4
+>5H3V_B Cag8; Helicobacter pylori, cytotoxin-associated gene pathogenicity; 1.4A {Helicobacter pylori}
+Probab=55.13  E-value=11  Score=14.68  Aligned_cols=6  Identities=50%  Similarity=1.198  Sum_probs=3.4  Template_Neff=6.900
+
+Q FTFIQF            1 FTFIQF    6 (6)
+Q Consensus         1 ftfiqf    6 (6)
+                      ||+|+|
+T Consensus        30 ~Tyi~f   35 (103)
+T 5H3V_B           30 FTYFGF   35 (103)
+T ss_dssp             CEEEEE
+T ss_pred             EEEEEe
+Confidence            466664
+
+
+No 5
+>2N01_B VirB7 protein, VirB9 protein; T4SS, lipoprotein, protein-peptide complex, VirB9; NMR {Xanthomonas axonopodis pv. citri}
+Probab=51.64  E-value=13  Score=14.49  Aligned_cols=6  Identities=50%  Similarity=1.160  Sum_probs=3.1  Template_Neff=6.900
+
+Q FTFIQF            1 FTFIQF    6 (6)
+Q Consensus         1 ftfiqf    6 (6)
+                      ||+|||
+T Consensus        40 ~Tyi~f   45 (106)
+T 2N01_B           40 FTYINM   45 (106)
+T ss_dssp             EEEEEC
+T ss_pred             EEEEEe
+Confidence            456653
+
+
+No 6
+>6GYB_N VirB7, VirB9 protein, VirB10 protein; core complex, bacterial killing, protein;{Xanthomonas axonopodis pv. citri (strain 306)}
+Probab=40.37  E-value=26  Score=15.33  Aligned_cols=6  Identities=50%  Similarity=1.160  Sum_probs=3.6  Template_Neff=7.200
+
+Q FTFIQF            1 FTFIQF    6 (6)
+Q Consensus         1 ftfiqf    6 (6)
+                      ||+|+|
+T Consensus       189 ~Tyi~f  194 (255)
+T 6GYB_N          189 FTYINM  194 (255)
+T ss_dssp             EEEEEC
+T ss_pred             EEEEEe
+Confidence            466665
+
+
+No 7
+>2KN4_A Immunoglobulin G-binding protein G, Splicing; RRM domain, Cell wall, IgG-binding; NMR {Streptococcus sp. group G, Homo sapiens}
+Probab=15.05  E-value=1.6e+02  Score=9.82  Aligned_cols=6  Identities=17%  Similarity=-0.263  Sum_probs=0.0  Template_Neff=11.800
+
+Q FTFIQF            1 FTFIQF    6 (6)
+Q Consensus         1 ftfiqf    6 (6)
+                      +.||.|
+T Consensus        15 ~~fv~f   20 (158)
+T 2KN4_A           15 ETTTEA   20 (158)
+T ss_dssp             EEEEEC
+T ss_pred             ccceee
+
+
+No 8
+>6W9Z_A De novo designed receptor transmembrane; Transmembrane domain, de novo design; HET: SCH, OLB; 2.7A {synthetic construct}
+Probab=13.91  E-value=1.8e+02  Score=10.93  Aligned_cols=5  Identities=80%  Similarity=1.351  Sum_probs=0.0  Template_Neff=1.000
+
+Q FTFIQF            2 TFIQF    6 (6)
+Q Consensus         2 tfiqf    6 (6)
+                      |||.|
+T Consensus        16 tfiaf   20 (30)
+T 6W9Z_A           16 TFIAF   20 (30)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 9
+>6W9Z_D De novo designed receptor transmembrane; Transmembrane domain, de novo design; HET: OLB, SCH; 2.7A {synthetic construct}
+Probab=13.91  E-value=1.8e+02  Score=10.93  Aligned_cols=5  Identities=80%  Similarity=1.351  Sum_probs=0.0  Template_Neff=1.000
+
+Q FTFIQF            2 TFIQF    6 (6)
+Q Consensus         2 tfiqf    6 (6)
+                      |||.|
+T Consensus        16 tfiaf   20 (30)
+T 6W9Z_D           16 TFIAF   20 (30)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 10
+>2I2Y_A Fusion Protein/RNA Complex; PROTEIN-RNA COMPLEX RRM alpha-beta sandwich; NMR {Streptococcus sp. 'group G', Homo sapiens}
+Probab=12.88  E-value=2e+02  Score=9.33  Aligned_cols=6  Identities=17%  Similarity=-0.263  Sum_probs=0.0  Template_Neff=12.100
+
+Q FTFIQF            1 FTFIQF    6 (6)
+Q Consensus         1 ftfiqf    6 (6)
+                      +.|++|
+T Consensus        15 ~~fv~f   20 (150)
+T 2I2Y_A           15 ETTTEA   20 (150)
+T ss_dssp             EEEEEC
+T ss_pred             EEEEee
+
+

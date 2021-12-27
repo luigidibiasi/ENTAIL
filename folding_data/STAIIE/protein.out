@@ -1,0 +1,148 @@
+Query         STAIIE
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 17:11:38 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/STAIIE/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/STAIIE/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4HZ2_A Glutathione S-transfera   8.6 3.5E+02  0.0039   10.2   0.0    6    1-6      88-93  (230)
+  2 6UIH_A Ganglioside-induced dif   8.6 3.5E+02  0.0039    9.8   0.0    6    1-6      74-79  (229)
+  3 6WEG_A Stringent starvation pr   8.3 3.7E+02  0.0041    9.7   0.0    6    1-6      68-73  (204)
+  4 3CWC_B Putative glycerate kina   8.3 3.7E+02  0.0041   12.9   0.0    5    2-6      88-92  (383)
+  5 6HN9_A Nicomicin; PROTEIN, ANT   8.1 3.8E+02  0.0042   10.2   0.0    4    2-5      15-18  (33)
+  6 4EIJ_A P protein; oligomerizat   8.1 3.8E+02  0.0043   10.7   0.0    6    1-6      50-55  (65)
+  7 1BYE_A PROTEIN (GLUTATHIONE S-   7.9 3.9E+02  0.0044    9.5   0.0    6    1-6      67-72  (213)
+  8 1T50_A Attractin; MOLLUSK, PHE   7.8   4E+02  0.0044   11.1   0.0    5    2-6      27-31  (58)
+  9 3IR4_A Glutaredoxin 2; Glutare   7.4 4.3E+02  0.0047    9.5   0.0    6    1-6      65-70  (218)
+ 10 6TO3_AAA Glutathione-S-transfe   7.2 4.5E+02   0.005   10.1   0.0    6    1-6      68-73  (305)
+
+No 1
+>4HZ2_A Glutathione S-transferase domain; GLUTATHIONE, ENZYME FUNCTION INITIATIVE, TRANSFERASE; HET: GSH; 1.5A {Xanthobacter autotrophicus}
+Probab=8.63  E-value=3.5e+02  Score=10.20  Aligned_cols=6  Identities=50%  Similarity=0.506  Sum_probs=0.0  Template_Neff=10.700
+
+Q STAIIE            1 STAIIE    6 (6)
+Q Consensus         1 staiie    6 (6)
+                      |.+|++
+T Consensus        88 s~aI~~   93 (230)
+T 4HZ2_A           88 SNAILL   93 (230)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 2
+>6UIH_A Ganglioside-induced differentiation-associated protein 1,Ganglioside-induced differentiation-associated; thioredoxin, GST-like, GDAP1, mitochondrial morphology; HET: MSE; 2.826A {Mus musculus}
+Probab=8.59  E-value=3.5e+02  Score=9.84  Aligned_cols=6  Identities=50%  Similarity=0.783  Sum_probs=0.0  Template_Neff=11.400
+
+Q STAIIE            1 STAIIE    6 (6)
+Q Consensus         1 staiie    6 (6)
+                      |.+|++
+T Consensus        74 s~~I~~   79 (229)
+T 6UIH_A           74 ATQIID   79 (229)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 3
+>6WEG_A Stringent starvation protein A, regulator; Francisella tularensis, bioweapon, MglA-SspA, PigR; HET: G4P; 2.95A {Francisella tularensis subsp. tularensis (strain SCHU S4 / Schu 4)}
+Probab=8.31  E-value=3.7e+02  Score=9.68  Aligned_cols=6  Identities=50%  Similarity=0.617  Sum_probs=0.0  Template_Neff=11.200
+
+Q STAIIE            1 STAIIE    6 (6)
+Q Consensus         1 staiie    6 (6)
+                      |.+|++
+T Consensus        68 s~~I~~   73 (204)
+T 6WEG_A           68 LSVIIE   73 (204)
+T ss_pred             hHHHHH
+
+
+No 4
+>3CWC_B Putative glycerate kinase 2; structural genomics, Center for Structural; 2.23A {Salmonella enterica subsp. enterica serovar Typhimurium str. LT2}
+Probab=8.28  E-value=3.7e+02  Score=12.92  Aligned_cols=5  Identities=60%  Similarity=0.833  Sum_probs=0.0  Template_Neff=6.700
+
+Q STAIIE            2 TAIIE    6 (6)
+Q Consensus         2 taiie    6 (6)
+                      ||+||
+T Consensus        88 tAvIE   92 (383)
+T 3CWC_B           88 SAFIE   92 (383)
+T ss_dssp             EEEEE
+T ss_pred             eEEEE
+
+
+No 5
+>6HN9_A Nicomicin; PROTEIN, ANTIMICROBIAL PROTEIN; NMR {Nicomache minor}
+Probab=8.08  E-value=3.8e+02  Score=10.23  Aligned_cols=4  Identities=100%  Similarity=1.074  Sum_probs=0.0  Template_Neff=1.000
+
+Q STAIIE            2 TAII    5 (6)
+Q Consensus         2 taii    5 (6)
+                      ||||
+T Consensus        15 taii   18 (33)
+T 6HN9_A           15 TAII   18 (33)
+T ss_dssp             HHHH
+T ss_pred             hhHH
+
+
+No 6
+>4EIJ_A P protein; oligomerization, REPLICATION; 2.2001A {Mumps virus}
+Probab=8.05  E-value=3.8e+02  Score=10.75  Aligned_cols=6  Identities=50%  Similarity=0.534  Sum_probs=0.0  Template_Neff=4.200
+
+Q STAIIE            1 STAIIE    6 (6)
+Q Consensus         1 staiie    6 (6)
+                      |.|.+|
+T Consensus        50 s~A~iE   55 (65)
+T 4EIJ_A           50 TLATIE   55 (65)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 7
+>1BYE_A PROTEIN (GLUTATHIONE S-TRANSFERASE); GLUTATHIONE S-TRANSFERASE, HERBICIDE, TRANSFERASE; HET: ATA; 2.8A {Zea mays} SCOP: a.45.1.1, c.47.1.5
+Probab=7.91  E-value=3.9e+02  Score=9.49  Aligned_cols=6  Identities=50%  Similarity=0.473  Sum_probs=0.0  Template_Neff=11.600
+
+Q STAIIE            1 STAIIE    6 (6)
+Q Consensus         1 staiie    6 (6)
+                      |.+|++
+T Consensus        67 s~~I~~   72 (213)
+T 1BYE_A           67 SRAICK   72 (213)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 8
+>1T50_A Attractin; MOLLUSK, PHEROMONE, APLYSIA ATTRACTIN, ATTRACTIN; NMR {Aplysia californica} SCOP: g.63.1.1
+Probab=7.79  E-value=4e+02  Score=11.15  Aligned_cols=5  Identities=60%  Similarity=0.813  Sum_probs=0.0  Template_Neff=1.700
+
+Q STAIIE            2 TAIIE    6 (6)
+Q Consensus         2 taiie    6 (6)
+                      +++||
+T Consensus        27 ~~~IE   31 (58)
+T 1T50_A           27 DTIIE   31 (58)
+T ss_dssp             CSSHH
+T ss_pred             cHHHH
+
+
+No 9
+>3IR4_A Glutaredoxin 2; Glutaredoxin 2, Glutathione, idp00895, Structural; HET: GSH, SO4; 1.2A {Salmonella enterica subsp. enterica serovar Typhimurium}
+Probab=7.43  E-value=4.3e+02  Score=9.54  Aligned_cols=6  Identities=33%  Similarity=0.490  Sum_probs=0.0  Template_Neff=11.400
+
+Q STAIIE            1 STAIIE    6 (6)
+Q Consensus         1 staiie    6 (6)
+                      |.+|++
+T Consensus        65 s~~I~~   70 (218)
+T 3IR4_A           65 SMDIVH   70 (218)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 10
+>6TO3_AAA Glutathione-S-transferase, Ligandin, flavonoid binding, mult-herbicide; HET: 5Z8; 2.798A {Alopecurus myosuroides}
+Probab=7.17  E-value=4.5e+02  Score=10.11  Aligned_cols=6  Identities=50%  Similarity=0.434  Sum_probs=0.0  Template_Neff=11.300
+
+Q STAIIE            1 STAIIE    6 (6)
+Q Consensus         1 staiie    6 (6)
+                      |.+|++
+T Consensus        68 s~~I~~   73 (305)
+T 6TO3_AAA         68 SRAISK   73 (305)
+T ss_pred             HHHHHH
+
+

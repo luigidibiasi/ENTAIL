@@ -1,0 +1,149 @@
+Query         FQKQQK
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 21:49:35 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/FQKQQK/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/FQKQQK/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6SJ8_B Methylcorrinoid:tetrahy  61.4     7.1 7.9E-05   17.2   0.0    6    1-6       5-10  (307)
+  2 6SJP_B Methylcorrinoid:tetrahy  43.9      21 0.00024   15.8   0.0    6    1-6       5-10  (307)
+  3 4IQN_A Putative cytoplasmic pr  22.5      84 0.00093   15.7   0.0    6    1-6     192-197 (225)
+  4 4IQN_C Putative cytoplasmic pr  16.7 1.4E+02  0.0015   15.0   0.0    6    1-6     192-197 (225)
+  5 4WSF_A Falafel, CENP-C; phosph  16.7 1.4E+02  0.0015   12.2   0.0    5    1-5      62-66  (122)
+  6 4V8M_AE Ribosome; RIBOSOME, EU  16.3 1.4E+02  0.0016   13.3   0.0    4    1-4      24-27  (174)
+  7 5XYI_L 40S ribosomal protein S  16.3 1.4E+02  0.0016   12.9   0.0    4    1-4      10-13  (155)
+  8 3J7A_V PROTEIN/RNA Complex; em  16.0 1.5E+02  0.0016   13.0   0.0    4    1-4      13-16  (161)
+  9 6ZJ3_SU Ribosomal protein eS1,  15.0 1.6E+02  0.0018   12.9   0.0    4    1-4      11-14  (164)
+ 10 3JBP_V PROTEIN/RNA Complex; RI  14.9 1.6E+02  0.0018   12.7   0.0    4    1-4       8-11  (156)
+
+No 1
+>6SJ8_B Methylcorrinoid:tetrahydrofolate methyltransferase (E.C.2.1.1.-); Anaerobic Bacteria, Glycine Betaine Metabolism; HET: 44V, GOL; 1.35A {Desulfitobacterium hafniense DCB-2}
+Probab=61.42  E-value=7.1  Score=17.21  Aligned_cols=6  Identities=50%  Similarity=0.700  Sum_probs=4.5  Template_Neff=7.500
+
+Q FQKQQK            1 FQKQQK    6 (6)
+Q Consensus         1 fqkqqk    6 (6)
+                      ||+||+
+T Consensus         5 ~~~~~~   10 (307)
+T 6SJ8_B            5 FTAQQH   10 (307)
+T ss_dssp             CSSCCC
+T ss_pred             ccccce
+Confidence            788884
+
+
+No 2
+>6SJP_B Methylcorrinoid:tetrahydrofolate methyltransferase (E.C.2.1.1.-); Anaerobic Bacteria, Glycine Betaine Metabolism; HET: GOL; 1.9A {Desulfitobacterium hafniense DCB-2}
+Probab=43.88  E-value=21  Score=15.81  Aligned_cols=6  Identities=50%  Similarity=0.700  Sum_probs=4.0  Template_Neff=7.500
+
+Q FQKQQK            1 FQKQQK    6 (6)
+Q Consensus         1 fqkqqk    6 (6)
+                      ||+||+
+T Consensus         5 ~~~~~~   10 (307)
+T 6SJP_B            5 FTAQQH   10 (307)
+T ss_dssp             CSSCCC
+T ss_pred             ccccce
+Confidence            577774
+
+
+No 3
+>4IQN_A Putative cytoplasmic protein; PSI-BIOLOGY, MCSG, MIDWEST CENTER FOR; HET: MLZ, MSE, MLY, PG4; 1.75A {Salmonella enterica subsp. enterica serovar Typhimurium}
+Probab=22.49  E-value=84  Score=15.69  Aligned_cols=6  Identities=50%  Similarity=0.739  Sum_probs=3.7  Template_Neff=1.900
+
+Q FQKQQK            1 FQKQQK    6 (6)
+Q Consensus         1 fqkqqk    6 (6)
+                      ||+||+
+T Consensus       192 ~q~qq~  197 (225)
+T 4IQN_A          192 WKAQQK  197 (225)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            567764
+
+
+No 4
+>4IQN_C Putative cytoplasmic protein; PSI-BIOLOGY, MCSG, MIDWEST CENTER FOR; HET: MLZ, PG4, MLY, MSE; 1.75A {Salmonella enterica subsp. enterica serovar Typhimurium}
+Probab=16.73  E-value=1.4e+02  Score=15.02  Aligned_cols=6  Identities=50%  Similarity=0.739  Sum_probs=0.0  Template_Neff=1.900
+
+Q FQKQQK            1 FQKQQK    6 (6)
+Q Consensus         1 fqkqqk    6 (6)
+                      ||+||+
+T Consensus       192 ~q~kq~  197 (225)
+T 4IQN_C          192 WKAQQK  197 (225)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 5
+>4WSF_A Falafel, CENP-C; phosphatase EVH1 domain, signaling protein; 1.501A {Drosophila melanogaster}
+Probab=16.66  E-value=1.4e+02  Score=12.20  Aligned_cols=5  Identities=80%  Similarity=1.092  Sum_probs=0.0  Template_Neff=6.500
+
+Q FQKQQK            1 FQKQQ    5 (6)
+Q Consensus         1 fqkqq    5 (6)
+                      ||+||
+T Consensus        62 Yq~Qq   66 (122)
+T 4WSF_A           62 YQKQQ   66 (122)
+T ss_dssp             CEEET
+T ss_pred             eeecc
+
+
+No 6
+>4V8M_AE Ribosome; RIBOSOME, EUKARYOTIC, KINETOPLASTIDS, EXPANSION SEGMENTS; 5.57A {TRYPANOSOMA BRUCEI BRUCEI}
+Probab=16.34  E-value=1.4e+02  Score=13.33  Aligned_cols=4  Identities=50%  Similarity=1.099  Sum_probs=0.0  Template_Neff=5.400
+
+Q FQKQQK            1 FQKQ    4 (6)
+Q Consensus         1 fqkq    4 (6)
+                      ||||
+T Consensus        24 ~qkQ   27 (174)
+T 4V8M_AE          24 YQRQ   27 (174)
+T ss_pred             hhcC
+
+
+No 7
+>5XYI_L 40S ribosomal protein SA, Ribosomal; Trichomonas vaginalis ribosome, rRNA, rprotein; 3.35A {Trichomonas vaginalis}
+Probab=16.30  E-value=1.4e+02  Score=12.88  Aligned_cols=4  Identities=100%  Similarity=1.298  Sum_probs=0.0  Template_Neff=5.900
+
+Q FQKQQK            1 FQKQ    4 (6)
+Q Consensus         1 fqkq    4 (6)
+                      ||||
+T Consensus        10 ~qkq   13 (155)
+T 5XYI_L           10 FQKQ   13 (155)
+T ss_pred             hccC
+
+
+No 8
+>3J7A_V PROTEIN/RNA Complex; emetine, RIBOSOME-INHIBITOR complex; HET: MG, 34G; 3.2A {Plasmodium falciparum}
+Probab=16.00  E-value=1.5e+02  Score=12.96  Aligned_cols=4  Identities=75%  Similarity=1.140  Sum_probs=0.0  Template_Neff=5.800
+
+Q FQKQQK            1 FQKQ    4 (6)
+Q Consensus         1 fqkq    4 (6)
+                      ||||
+T Consensus        13 ~~kq   16 (161)
+T 3J7A_V           13 YQKQ   16 (161)
+T ss_dssp             CCCC
+T ss_pred             HhcC
+
+
+No 9
+>6ZJ3_SU Ribosomal protein eS1, Ribosomal protein; Single particle cryo-EM RNA modifications; HET: JMC, B8H, MA6, PSU, B8N, A2M, UR3, 7MG, MIA, 5MC, 6MZ, OMG, OMU, OMC, 1MA, JMH; 3.15A {Euglena gracilis}
+Probab=14.98  E-value=1.6e+02  Score=12.92  Aligned_cols=4  Identities=75%  Similarity=1.173  Sum_probs=0.0  Template_Neff=5.700
+
+Q FQKQQK            1 FQKQ    4 (6)
+Q Consensus         1 fqkq    4 (6)
+                      ||||
+T Consensus        11 ~~kq   14 (164)
+T 6ZJ3_SU          11 FHKQ   14 (164)
+T ss_pred             hhcc
+
+
+No 10
+>3JBP_V PROTEIN/RNA Complex; RIBOSOME; 6.7A {Plasmodium falciparum 3D7}
+Probab=14.89  E-value=1.6e+02  Score=12.68  Aligned_cols=4  Identities=75%  Similarity=1.140  Sum_probs=0.0  Template_Neff=6.000
+
+Q FQKQQK            1 FQKQ    4 (6)
+Q Consensus         1 fqkq    4 (6)
+                      ||||
+T Consensus         8 ~~kq   11 (156)
+T 3JBP_V            8 YQKQ   11 (156)
+T ss_pred             hhcC
+
+

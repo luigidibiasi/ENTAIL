@@ -1,0 +1,149 @@
+Query         AETKEP
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 13:46:05 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/AETKEP/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/AETKEP/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6BL9_A Sm2a toxin; scorpion to   4.1 9.1E+02    0.01   10.0   0.0    5    2-6       2-6   (53)
+  2 6CWX_A Ribonuclease P protein    3.8 9.9E+02   0.011    9.8   0.0    6    1-6       4-9   (142)
+  3 4KUJ_A Protein kinase, putativ   3.8   1E+03   0.011   10.7   0.0    5    2-6      12-16  (288)
+  4 4KUJ_B Protein kinase, putativ   3.8   1E+03   0.011   10.7   0.0    5    2-6      12-16  (288)
+  5 4NL0_A Protein kinase, putativ   3.8   1E+03   0.011   10.7   0.0    5    2-6      12-16  (288)
+  6 4ZB4_A WD40; Spliceosome, liga   3.6 1.1E+03   0.012    9.9   0.0    5    1-5       3-7   (360)
+  7 3TJR_A short chain dehydrogena   3.6 1.1E+03   0.012    9.0   0.0    6    1-6      14-19  (301)
+  8 2M9M_A Fanconi anemia-associat   3.1 1.3E+03   0.014   10.1   0.0    6    1-6     135-140 (147)
+  9 6NEP_A Parkin coregulated gene   3.1 1.3E+03   0.014   10.6   0.0    5    2-6      54-58  (193)
+ 10 6NDU_A Parkin coregulated gene   3.1 1.3E+03   0.015   10.6   0.0    5    2-6      54-58  (193)
+
+No 1
+>6BL9_A Sm2a toxin; scorpion toxin CSab fold, TOXIN; NMR {N/A}
+Probab=4.11  E-value=9.1e+02  Score=9.99  Aligned_cols=5  Identities=80%  Similarity=1.232  Sum_probs=0.0  Template_Neff=1.000
+
+Q AETKEP            2 ETKEP    6 (6)
+Q Consensus         2 etkep    6 (6)
+                      ||.||
+T Consensus         2 eteep    6 (53)
+T 6BL9_A            2 ETEEP    6 (53)
+T ss_dssp             EEEEE
+T ss_pred             cchhh
+
+
+No 2
+>6CWX_A Ribonuclease P protein subunit p20; endonuclease, ribonuclease P, ribonuclease P; HET: CME, SO4; 2.25A {Homo sapiens}
+Probab=3.85  E-value=9.9e+02  Score=9.84  Aligned_cols=6  Identities=67%  Similarity=1.132  Sum_probs=0.0  Template_Neff=7.000
+
+Q AETKEP            1 AETKEP    6 (6)
+Q Consensus         1 aetkep    6 (6)
+                      ||..||
+T Consensus         4 ~~~~~~    9 (142)
+T 6CWX_A            4 AENREP    9 (142)
+T ss_dssp             ------
+T ss_pred             cccCCC
+
+
+No 3
+>4KUJ_A Protein kinase, putative; Actin, Phosphorylated actin, Phosphorylation, TRANSFERASE; HET: TPO; 1.99A {Entamoeba histolytica}
+Probab=3.79  E-value=1e+03  Score=10.73  Aligned_cols=5  Identities=60%  Similarity=0.966  Sum_probs=0.0  Template_Neff=7.600
+
+Q AETKEP            2 ETKEP    6 (6)
+Q Consensus         2 etkep    6 (6)
+                      |+++|
+T Consensus        12 ~~~~~   16 (288)
+T 4KUJ_A           12 SEKEP   16 (288)
+T ss_dssp             -----
+T ss_pred             cccCC
+
+
+No 4
+>4KUJ_B Protein kinase, putative; Actin, Phosphorylated actin, Phosphorylation, TRANSFERASE; HET: TPO; 1.99A {Entamoeba histolytica}
+Probab=3.79  E-value=1e+03  Score=10.73  Aligned_cols=5  Identities=60%  Similarity=0.966  Sum_probs=0.0  Template_Neff=7.600
+
+Q AETKEP            2 ETKEP    6 (6)
+Q Consensus         2 etkep    6 (6)
+                      |+++|
+T Consensus        12 ~~~~~   16 (288)
+T 4KUJ_B           12 SEKEP   16 (288)
+T ss_dssp             ---CC
+T ss_pred             cccCC
+
+
+No 5
+>4NL0_A Protein kinase, putative; Actin, ADP, Phosphorylated actin, Phosphorylation; HET: TPO, ADP; 2.41A {Entamoeba histolytica}
+Probab=3.79  E-value=1e+03  Score=10.73  Aligned_cols=5  Identities=60%  Similarity=0.966  Sum_probs=0.0  Template_Neff=7.600
+
+Q AETKEP            2 ETKEP    6 (6)
+Q Consensus         2 etkep    6 (6)
+                      |+++|
+T Consensus        12 ~~~~~   16 (288)
+T 4NL0_A           12 SEKEP   16 (288)
+T ss_dssp             -----
+T ss_pred             cccCC
+
+
+No 6
+>4ZB4_A WD40; Spliceosome, ligase, splicing; 2.3A {Saccharomyces cerevisiae}
+Probab=3.57  E-value=1.1e+03  Score=9.87  Aligned_cols=5  Identities=60%  Similarity=0.567  Sum_probs=0.0  Template_Neff=10.200
+
+Q AETKEP            1 AETKE    5 (6)
+Q Consensus         1 aetke    5 (6)
+                      ||++|
+T Consensus         3 ~~~~~    7 (360)
+T 4ZB4_A            3 AITRE    7 (360)
+T ss_pred             cchHH
+
+
+No 7
+>3TJR_A short chain dehydrogenase (E.C.1.-.-.-); Structural Genomics, Seattle Structural Genomics; HET: UNL; 1.6A {Mycobacterium avium subsp. paratuberculosis}
+Probab=3.56  E-value=1.1e+03  Score=9.04  Aligned_cols=6  Identities=50%  Similarity=0.828  Sum_probs=0.0  Template_Neff=11.400
+
+Q AETKEP            1 AETKEP    6 (6)
+Q Consensus         1 aetkep    6 (6)
+                      |.+++|
+T Consensus        14 ~~~~~~   19 (301)
+T 3TJR_A           14 AQTQGP   19 (301)
+T ss_dssp             ------
+T ss_pred             hhccCC
+
+
+No 8
+>2M9M_A Fanconi anemia-associated protein of 24; Fanconi anemia, FAAP24, ERCC4 domain; NMR {Homo sapiens}
+Probab=3.11  E-value=1.3e+03  Score=10.09  Aligned_cols=6  Identities=50%  Similarity=0.484  Sum_probs=0.0  Template_Neff=5.700
+
+Q AETKEP            1 AETKEP    6 (6)
+Q Consensus         1 aetkep    6 (6)
+                      .|+|+|
+T Consensus       135 ~~~k~~  140 (147)
+T 2M9M_A          135 EQTKEL  140 (147)
+T ss_dssp             HHHCC-
+T ss_pred             hhhccc
+
+
+No 9
+>6NEP_A Parkin coregulated gene protein, Meiosis; Microtubule, axoneme, primary cilia, flagella; HET: PHI; 2.09762493085A {Homo sapiens}
+Probab=3.10  E-value=1.3e+03  Score=10.61  Aligned_cols=5  Identities=40%  Similarity=0.454  Sum_probs=0.0  Template_Neff=5.500
+
+Q AETKEP            2 ETKEP    6 (6)
+Q Consensus         2 etkep    6 (6)
+                      ||++|
+T Consensus        54 Et~~P   58 (193)
+T 6NEP_A           54 EMTFP   58 (193)
+T ss_dssp             CCSTT
+T ss_pred             cCCCc
+
+
+No 10
+>6NDU_A Parkin coregulated gene protein, Meiosis; Microtubule, axoneme, primary cilia, flagella; 2.1A {Homo sapiens}
+Probab=3.05  E-value=1.3e+03  Score=10.58  Aligned_cols=5  Identities=40%  Similarity=0.454  Sum_probs=0.0  Template_Neff=5.500
+
+Q AETKEP            2 ETKEP    6 (6)
+Q Consensus         2 etkep    6 (6)
+                      ||++|
+T Consensus        54 E~~~P   58 (193)
+T 6NDU_A           54 EMTFP   58 (193)
+T ss_dssp             CCSTT
+T ss_pred             cCCCc
+
+

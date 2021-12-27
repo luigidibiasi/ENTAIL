@@ -1,0 +1,151 @@
+Query         SSNNFG
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 16:37:13 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/SSNNFG/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/SSNNFG/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3DZM_A Hypothetical conserved   27.5      59 0.00065   15.7   0.0    6    1-6     131-136 (214)
+  2 3DZM_B Hypothetical conserved   27.0      61 0.00068   15.7   0.0    6    1-6     131-136 (214)
+  3 1YAR_R proteasome 20S, PA26 pr  19.8   1E+02  0.0011   14.5   0.0    4    3-6     109-112 (237)
+  4 6DFK_I Proteasome activator 28  19.1 1.1E+02  0.0012   14.2   0.0    4    3-6     175-178 (280)
+  5 2BEZ_C E2 GLYCOPROTEIN; MEMBRA  18.4 1.2E+02  0.0013   12.9   0.0    5    2-6      54-58  (77)
+  6 6DFK_H Proteasome activator 28  18.2 1.2E+02  0.0013   14.0   0.0    4    3-6     175-178 (280)
+  7 7C7M_A D-histidine (S)-2-amino  17.5 1.3E+02  0.0014   12.0   0.0    5    1-5      12-16  (283)
+  8 2DQR_B Replication termination  17.2 1.3E+02  0.0014   11.5   0.0    5    1-5       7-11  (122)
+  9 4MOD_A HR1 of S protein, LINKE  17.1 1.3E+02  0.0015   13.7   0.0    5    2-6      51-55  (129)
+ 10 5ZVK_A Human Coronavirus MERS   16.7 1.4E+02  0.0015   12.9   0.0    5    2-6      59-63  (80)
+
+No 1
+>3DZM_A Hypothetical conserved protein; OMP, Thermus thermophilus HB27, beta-barrel; HET: C8E; 2.801A {Thermus thermophilus}
+Probab=27.49  E-value=59  Score=15.71  Aligned_cols=6  Identities=67%  Similarity=0.971  Sum_probs=3.4  Template_Neff=3.400
+
+Q SSNNFG            1 SSNNFG    6 (6)
+Q Consensus         1 ssnnfg    6 (6)
+                      |||.||
+T Consensus       131 SSn~fG  136 (214)
+T 3DZM_A          131 SSNQLG  136 (214)
+T ss_dssp             EEEEEE
+T ss_pred             eccccc
+Confidence            456664
+
+
+No 2
+>3DZM_B Hypothetical conserved protein; OMP, Thermus thermophilus HB27, beta-barrel; HET: C8E; 2.801A {Thermus thermophilus}
+Probab=26.97  E-value=61  Score=15.66  Aligned_cols=6  Identities=67%  Similarity=0.971  Sum_probs=3.4  Template_Neff=3.400
+
+Q SSNNFG            1 SSNNFG    6 (6)
+Q Consensus         1 ssnnfg    6 (6)
+                      |||.||
+T Consensus       131 SSn~fG  136 (214)
+T 3DZM_B          131 SSNQLG  136 (214)
+T ss_dssp             EEEEEE
+T ss_pred             eccccc
+Confidence            456664
+
+
+No 3
+>1YAR_R proteasome 20S, PA26 proteasome activator; HET: SO4, GOL; 1.9A {Thermoplasma acidophilum} SCOP: a.24.8.1
+Probab=19.84  E-value=1e+02  Score=14.45  Aligned_cols=4  Identities=50%  Similarity=1.215  Sum_probs=0.0  Template_Neff=5.100
+
+Q SSNNFG            3 NNFG    6 (6)
+Q Consensus         3 nnfg    6 (6)
+                      ||||
+T Consensus       109 nNFG  112 (237)
+T 1YAR_R          109 DNLG  112 (237)
+T ss_dssp             SCHH
+T ss_pred             Cchh
+
+
+No 4
+>6DFK_I Proteasome activator 28 subunit beta; 11S proteasome subunit, 11S regulatory; HET: SO4; 3.1A {Plasmodium falciparum}
+Probab=19.08  E-value=1.1e+02  Score=14.18  Aligned_cols=4  Identities=100%  Similarity=1.763  Sum_probs=0.0  Template_Neff=6.200
+
+Q SSNNFG            3 NNFG    6 (6)
+Q Consensus         3 nnfg    6 (6)
+                      ||||
+T Consensus       175 NNFG  178 (280)
+T 6DFK_I          175 NNFG  178 (280)
+T ss_pred             CchH
+
+
+No 5
+>2BEZ_C E2 GLYCOPROTEIN; MEMBRANE FUSION, SEVERE ACUTE RESPIRATORY; 1.6A {SARS CORONAVIRUS} SCOP: h.3.3.1
+Probab=18.39  E-value=1.2e+02  Score=12.93  Aligned_cols=5  Identities=80%  Similarity=1.364  Sum_probs=0.0  Template_Neff=3.000
+
+Q SSNNFG            2 SNNFG    6 (6)
+Q Consensus         2 snnfg    6 (6)
+                      ++|||
+T Consensus        54 ~~nFg   58 (77)
+T 2BEZ_C           54 SSNFG   58 (77)
+T ss_dssp             HHHHH
+T ss_pred             HHHHh
+
+
+No 6
+>6DFK_H Proteasome activator 28 subunit beta; 11S proteasome subunit, 11S regulatory; HET: SO4; 3.1A {Plasmodium falciparum}
+Probab=18.22  E-value=1.2e+02  Score=14.03  Aligned_cols=4  Identities=100%  Similarity=1.763  Sum_probs=0.0  Template_Neff=6.300
+
+Q SSNNFG            3 NNFG    6 (6)
+Q Consensus         3 nnfg    6 (6)
+                      ||||
+T Consensus       175 nNFG  178 (280)
+T 6DFK_H          175 NNFG  178 (280)
+T ss_dssp             CCHH
+T ss_pred             CcHh
+
+
+No 7
+>7C7M_A D-histidine (S)-2-aminobutanoyltransferase CntL; Metallophore, Biosynthesis, Substrate, Aminobutyrate, Transferase; HET: SAM, MSE; 1.81A {Staphylococcus aureus}
+Probab=17.47  E-value=1.3e+02  Score=12.04  Aligned_cols=5  Identities=80%  Similarity=1.145  Sum_probs=0.0  Template_Neff=10.100
+
+Q SSNNFG            1 SSNNF    5 (6)
+Q Consensus         1 ssnnf    5 (6)
+                      |.|||
+T Consensus        12 ~~~~~   16 (283)
+T 7C7M_A           12 SGNNF   16 (283)
+T ss_dssp             -----
+T ss_pred             cCcch
+
+
+No 8
+>2DQR_B Replication termination protein; DNA replication, winged-helix, RTP, DNA; 3.01A {Bacillus subtilis}
+Probab=17.23  E-value=1.3e+02  Score=11.49  Aligned_cols=5  Identities=60%  Similarity=0.820  Sum_probs=0.0  Template_Neff=8.100
+
+Q SSNNFG            1 SSNNF    5 (6)
+Q Consensus         1 ssnnf    5 (6)
+                      ||+||
+T Consensus         7 ~~~~~   11 (122)
+T 2DQR_B            7 SSTGF   11 (122)
+T ss_dssp             -CCSS
+T ss_pred             ccccc
+
+
+No 9
+>4MOD_A HR1 of S protein, LINKER; MERS-CoV, Viral envelope proteins, Spike; 1.901A {Human betacoronavirus 2c EMC/2012}
+Probab=17.09  E-value=1.3e+02  Score=13.72  Aligned_cols=5  Identities=80%  Similarity=1.338  Sum_probs=0.0  Template_Neff=3.200
+
+Q SSNNFG            2 SNNFG    6 (6)
+Q Consensus         2 snnfg    6 (6)
+                      +||||
+T Consensus        51 ~~nFg   55 (129)
+T 4MOD_A           51 SNTFG   55 (129)
+T ss_dssp             -----
+T ss_pred             HHHHc
+
+
+No 10
+>5ZVK_A Human Coronavirus MERS HR1 motif; MERS, Spike protein, S2 domain; 3.31A {Middle East respiratory syndrome-related coronavirus}
+Probab=16.74  E-value=1.4e+02  Score=12.85  Aligned_cols=5  Identities=80%  Similarity=1.338  Sum_probs=0.0  Template_Neff=2.900
+
+Q SSNNFG            2 SNNFG    6 (6)
+Q Consensus         2 snnfg    6 (6)
+                      ++|||
+T Consensus        59 ~~nFg   63 (80)
+T 5ZVK_A           59 SNTFG   63 (80)
+T ss_dssp             HHHHH
+T ss_pred             HHHHh
+
+

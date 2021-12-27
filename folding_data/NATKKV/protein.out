@@ -1,0 +1,147 @@
+Query         NATKKV
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 23:05:40 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NATKKV/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NATKKV/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6JQA_B Phytoplasmal effector c   5.3 6.7E+02  0.0074   11.2   0.0    6    1-6      34-39  (91)
+  2 6B23_d Major head protein, Cap   4.7 7.7E+02  0.0086   10.7   0.0    6    1-6       8-13  (72)
+  3 5KBQ_A Serine/threonine-protei   4.4 8.5E+02  0.0094    9.3   0.0    4    1-4     286-289 (289)
+  4 4PZ6_A mRNA-capping enzyme sub   4.2   9E+02  0.0099   11.0   0.0    6    1-6     390-395 (403)
+  5 4PZ7_A mRNA-capping enzyme sub   4.2   9E+02  0.0099   11.0   0.0    6    1-6     390-395 (403)
+  6 6KJU_A Transcriptional regulat   4.1   9E+02    0.01    9.1   0.0    4    3-6     238-241 (254)
+  7 3QDP_A Protein tolA; TolA, Tra   4.1 9.1E+02    0.01    9.1   0.0    5    1-5      12-16  (127)
+  8 3QDR_A Protein tolA, Colicin-A   4.1 9.1E+02    0.01    9.1   0.0    5    1-5      12-16  (127)
+  9 6INR_A Putative effector, AYWB   4.0 9.6E+02   0.011   10.8   0.0    6    1-6      37-42  (93)
+ 10 2V1N_A PROTEIN KIN HOMOLOG; KI   3.6 1.1E+03   0.012   10.2   0.0    4    1-4      59-62  (111)
+
+No 1
+>6JQA_B Phytoplasmal effector causing phyllody 1; Phytoplasma, Phyllody, Phyllogen, PHYL1, MADS-domain; HET: IOD, TYI, IYR; 2.402A {Onion yellows phytoplasma OY-W}
+Probab=5.27  E-value=6.7e+02  Score=11.23  Aligned_cols=6  Identities=67%  Similarity=0.872  Sum_probs=0.0  Template_Neff=2.200
+
+Q NATKKV            1 NATKKV    6 (6)
+Q Consensus         1 natkkv    6 (6)
+                      ||++++
+T Consensus        34 NAtk~~   39 (91)
+T 6JQA_B           34 NAVKKI   39 (91)
+T ss_dssp             HHHHHH
+T ss_pred             cchhhh
+
+
+No 2
+>6B23_d Major head protein, Capsid morphogenesis; major capsid protein, HK97-like fold; 3.76A {Staphylococcus phage 80alpha}
+Probab=4.68  E-value=7.7e+02  Score=10.72  Aligned_cols=6  Identities=83%  Similarity=0.877  Sum_probs=0.0  Template_Neff=1.400
+
+Q NATKKV            1 NATKKV    6 (6)
+Q Consensus         1 natkkv    6 (6)
+                      |.|+||
+T Consensus         8 ~nTkK~   13 (72)
+T 6B23_d            8 NNTKKV   13 (72)
+T ss_pred             ccHHHH
+
+
+No 3
+>5KBQ_A Serine/threonine-protein kinase PAK 1 (E.C.2.7.11.1); Serine/threonine-protein kinase PAK1, KINASE, TRANSFERASE; HET: IPV; 2.58A {Homo sapiens}
+Probab=4.37  E-value=8.5e+02  Score=9.30  Aligned_cols=4  Identities=75%  Similarity=0.750  Sum_probs=0.0  Template_Neff=11.300
+
+Q NATKKV            1 NATK    4 (6)
+Q Consensus         1 natk    4 (6)
+                      +|||
+T Consensus       286 ~~~~  289 (289)
+T 5KBQ_A          286 EATK  289 (289)
+T ss_dssp             HHCC
+T ss_pred             HhhC
+
+
+No 4
+>4PZ6_A mRNA-capping enzyme subunit alpha (E.C.2.7.7.50); Nucleotidyl transferase, RNA capping enzyme; HET: GMP, SEP; 2.406A {Schizosaccharomyces pombe}
+Probab=4.17  E-value=9e+02  Score=10.96  Aligned_cols=6  Identities=67%  Similarity=0.595  Sum_probs=0.0  Template_Neff=8.700
+
+Q NATKKV            1 NATKKV    6 (6)
+Q Consensus         1 natkkv    6 (6)
+                      ++.|||
+T Consensus       390 ~~~~~~  395 (403)
+T 4PZ6_A          390 PAIKKV  395 (403)
+T ss_dssp             ------
+T ss_pred             HHHHHH
+
+
+No 5
+>4PZ7_A mRNA-capping enzyme subunit alpha (E.C.2.7.7.50); Nucleotidyl transferase, RNA capping enzyme; HET: SO4, GOL, GPL; 2.109A {Schizosaccharomyces pombe}
+Probab=4.16  E-value=9e+02  Score=10.96  Aligned_cols=6  Identities=67%  Similarity=0.595  Sum_probs=0.0  Template_Neff=8.700
+
+Q NATKKV            1 NATKKV    6 (6)
+Q Consensus         1 natkkv    6 (6)
+                      ++.|||
+T Consensus       390 ~~~~~~  395 (403)
+T 4PZ7_A          390 PAIKKV  395 (403)
+T ss_dssp             ------
+T ss_pred             HHHHHH
+
+
+No 6
+>6KJU_A Transcriptional regulator LuxR family/DNA Complex; Vibrio cholera, Quorum sensing, transcription; HET: A1U; 1.75A {Vibrio cholerae}
+Probab=4.15  E-value=9e+02  Score=9.11  Aligned_cols=4  Identities=75%  Similarity=0.825  Sum_probs=0.0  Template_Neff=11.100
+
+Q NATKKV            3 TKKV    6 (6)
+Q Consensus         3 tkkv    6 (6)
+                      +|||
+T Consensus       238 ~~~~  241 (254)
+T 6KJU_A          238 PKKV  241 (254)
+T ss_dssp             CC--
+T ss_pred             Cccc
+
+
+No 7
+>3QDP_A Protein tolA; TolA, Translocation, colicin, TolB, ColA; 2.15A {Escherichia coli}
+Probab=4.12  E-value=9.1e+02  Score=9.08  Aligned_cols=5  Identities=60%  Similarity=0.640  Sum_probs=0.0  Template_Neff=8.600
+
+Q NATKKV            1 NATKK    5 (6)
+Q Consensus         1 natkk    5 (6)
+                      ||+++
+T Consensus        12 ~~~~~   16 (127)
+T 3QDP_A           12 NAPKT   16 (127)
+T ss_pred             CCCCC
+
+
+No 8
+>3QDR_A Protein tolA, Colicin-A; ColA, TolA, Complex, translocation, ColA; 2.65A {Escherichia coli}
+Probab=4.12  E-value=9.1e+02  Score=9.08  Aligned_cols=5  Identities=60%  Similarity=0.640  Sum_probs=0.0  Template_Neff=8.600
+
+Q NATKKV            1 NATKK    5 (6)
+Q Consensus         1 natkk    5 (6)
+                      ||+++
+T Consensus        12 ~~~~~   16 (127)
+T 3QDR_A           12 NAPKT   16 (127)
+T ss_pred             CCCCC
+
+
+No 9
+>6INR_A Putative effector, AYWB SAP54-like protein; Phytoplasma, Phytoplasmal effector causing phyllody; 2.34A {'Echinacea purpurea' witches'-broom phytoplasma}
+Probab=3.96  E-value=9.6e+02  Score=10.83  Aligned_cols=6  Identities=67%  Similarity=0.545  Sum_probs=0.0  Template_Neff=2.000
+
+Q NATKKV            1 NATKKV    6 (6)
+Q Consensus         1 natkkv    6 (6)
+                      ||++++
+T Consensus        37 na~k~~   42 (93)
+T 6INR_A           37 NATKIT   42 (93)
+T ss_dssp             HHHHHH
+T ss_pred             ccchhc
+
+
+No 10
+>2V1N_A PROTEIN KIN HOMOLOG; KIN17, NUCLEAR PROTEIN, WINGED HELIX; NMR {HOMO SAPIENS}
+Probab=3.65  E-value=1.1e+03  Score=10.25  Aligned_cols=4  Identities=75%  Similarity=0.850  Sum_probs=0.0  Template_Neff=4.700
+
+Q NATKKV            1 NATK    4 (6)
+Q Consensus         1 natk    4 (6)
+                      |||+
+T Consensus        59 NaT~   62 (111)
+T 2V1N_A           59 NATQ   62 (111)
+T ss_dssp             GGSS
+T ss_pred             cccc
+
+

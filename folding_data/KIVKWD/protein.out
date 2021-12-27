@@ -1,0 +1,155 @@
+Query         KIVKWD
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 10:53:57 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/KIVKWD/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/KIVKWD/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4M6T_A RNA polymerase II-assoc  50.5      14 0.00016   15.6   0.0    6    1-6     160-165 (183)
+  2 6IRY_A PDX1 C-terminal-inhibit  45.1      20 0.00022   18.6   0.0    6    1-6     137-142 (496)
+  3 3E4V_B NADH:FMN oxidoreductase  24.5      72  0.0008   12.7   0.0    6    1-6     177-182 (186)
+  4 6IRX_A PDX1 C-terminal-inhibit  21.8      89 0.00098   16.2   0.0    6    1-6     137-142 (496)
+  5 6IS0_A PDX1 C-terminal-inhibit  21.8      89 0.00098   16.2   0.0    6    1-6     137-142 (496)
+  6 5IR0_B Uncharacterized protein  21.5      91   0.001   13.9   0.0    6    1-6      18-23  (161)
+  7 6TED_U DNA-directed RNA polyme  20.0   1E+02  0.0011   17.0   0.0    6    1-6     439-444 (666)
+  8 6GMH_U RPB1, DNA-directed RNA   17.7 1.2E+02  0.0014   17.2   0.0    6    1-6     549-554 (776)
+  9 2OPC_A AvrL567-A; AvrL567-A, c  15.9 1.5E+02  0.0016   13.9   0.0    4    3-6      34-37  (127)
+ 10 2K19_A Putative piscicolin 126  15.9 1.5E+02  0.0016   12.5   0.0    5    1-5       2-6   (98)
+
+No 1
+>4M6T_A RNA polymerase II-associated factor 1; Paf1-Leo1 subcomplex, transcription elongator, Transcription; HET: SAM; 2.498A {Homo sapiens, synthetic}
+Probab=50.53  E-value=14  Score=15.62  Aligned_cols=6  Identities=67%  Similarity=1.553  Sum_probs=3.9  Template_Neff=6.800
+
+Q KIVKWD            1 KIVKWD    6 (6)
+Q Consensus         1 kivkwd    6 (6)
+                      +||+|+
+T Consensus       160 riVrWs  165 (183)
+T 4M6T_A          160 RIVKWS  165 (183)
+T ss_dssp             EEEEET
+T ss_pred             EEEEeC
+Confidence            467774
+
+
+No 2
+>6IRY_A PDX1 C-terminal-inhibiting factor 1; RNA METHYLATION, METHYLTRANSFERASE, M6A, N6-METHYLADENOSINE; HET: SAH; 1.8A {Danio rerio}
+Probab=45.06  E-value=20  Score=18.56  Aligned_cols=6  Identities=67%  Similarity=1.625  Sum_probs=4.5  Template_Neff=4.300
+
+Q KIVKWD            1 KIVKWD    6 (6)
+Q Consensus         1 kivkwd    6 (6)
+                      |||||.
+T Consensus       137 k~vkwn  142 (496)
+T 6IRY_A          137 KVVKWN  142 (496)
+T ss_dssp             HHHHHH
+T ss_pred             HHhHHh
+Confidence            688884
+
+
+No 3
+>3E4V_B NADH:FMN oxidoreductase like protein; YP_544701.1, NADH:FMN oxidoreductase like protein; HET: FMN, MSE, GOL; 1.4A {Methylobacillus flagellatus KT}
+Probab=24.55  E-value=72  Score=12.66  Aligned_cols=6  Identities=33%  Similarity=1.237  Sum_probs=3.1  Template_Neff=8.700
+
+Q KIVKWD            1 KIVKWD    6 (6)
+Q Consensus         1 kivkwd    6 (6)
+                      ||-|||
+T Consensus       177 ~~~~~~  182 (186)
+T 3E4V_B          177 RMTKWR  182 (186)
+T ss_dssp             GCTTCC
+T ss_pred             cccchh
+Confidence            345664
+
+
+No 4
+>6IRX_A PDX1 C-terminal-inhibiting factor 1; RNA METHYLATION, METHYLTRANSFERASE, M6A, N6-METHYLADENOSINE; HET: MSE; 2.0A {Danio rerio}
+Probab=21.79  E-value=89  Score=16.22  Aligned_cols=6  Identities=67%  Similarity=1.625  Sum_probs=3.8  Template_Neff=4.800
+
+Q KIVKWD            1 KIVKWD    6 (6)
+Q Consensus         1 kivkwd    6 (6)
+                      |+|||+
+T Consensus       137 k~v~w~  142 (496)
+T 6IRX_A          137 KVVKWN  142 (496)
+T ss_dssp             HHHHHH
+T ss_pred             hhcccc
+Confidence            567773
+
+
+No 5
+>6IS0_A PDX1 C-terminal-inhibiting factor 1/RNA Complex; RNA METHYLATION, METHYLTRANSFERASE, M6A, N6-METHYLADENOSINE; HET: SAH, B3P, A2M, EDO, M7G; 1.8A {Danio rerio}
+Probab=21.79  E-value=89  Score=16.22  Aligned_cols=6  Identities=67%  Similarity=1.625  Sum_probs=3.8  Template_Neff=4.800
+
+Q KIVKWD            1 KIVKWD    6 (6)
+Q Consensus         1 kivkwd    6 (6)
+                      |+|||+
+T Consensus       137 k~v~w~  142 (496)
+T 6IS0_A          137 KVVKWN  142 (496)
+T ss_dssp             HHHHHH
+T ss_pred             hhcccc
+Confidence            567773
+
+
+No 6
+>5IR0_B Uncharacterized protein ORF19; Vibrio cholerae, alpha/beta protein, unknown; HET: MSE, CIT; 3.297A {Vibrio cholerae O1 biovar El Tor}
+Probab=21.54  E-value=91  Score=13.88  Aligned_cols=6  Identities=50%  Similarity=0.540  Sum_probs=3.4  Template_Neff=5.100
+
+Q KIVKWD            1 KIVKWD    6 (6)
+Q Consensus         1 kivkwd    6 (6)
+                      +|.|||
+T Consensus        18 rI~k~~   23 (161)
+T 5IR0_B           18 KAFKLD   23 (161)
+T ss_dssp             EECCBC
+T ss_pred             EEEEeC
+Confidence            356664
+
+
+No 7
+>6TED_U DNA-directed RNA polymerase subunit, DNA-directed; Polymerase, elongation complex, RNA, DNA; HET: SEP, TPO;{Sus scrofa}
+Probab=20.00  E-value=1e+02  Score=16.95  Aligned_cols=6  Identities=67%  Similarity=1.553  Sum_probs=4.1  Template_Neff=3.900
+
+Q KIVKWD            1 KIVKWD    6 (6)
+Q Consensus         1 kivkwd    6 (6)
+                      +||+|.
+T Consensus       439 RIVRWS  444 (666)
+T 6TED_U          439 RIVKWS  444 (666)
+T ss_pred             EEEEeC
+Confidence            478884
+
+
+No 8
+>6GMH_U RPB1, DNA-directed RNA polymerase subunit; DNA, RNA Polymerase, DSIF, PAF1c; HET: SEP, TPO; 3.1A {Sus scrofa}
+Probab=17.66  E-value=1.2e+02  Score=17.16  Aligned_cols=6  Identities=67%  Similarity=1.553  Sum_probs=0.0  Template_Neff=3.300
+
+Q KIVKWD            1 KIVKWD    6 (6)
+Q Consensus         1 kivkwd    6 (6)
+                      +||+|.
+T Consensus       549 RIVRWS  554 (776)
+T 6GMH_U          549 RIVKWS  554 (776)
+T ss_pred             EEEEeC
+
+
+No 9
+>2OPC_A AvrL567-A; AvrL567-A, cobalt, crystallization, single-wavelength anomalous; 1.43A {Melampsora lini}
+Probab=15.94  E-value=1.5e+02  Score=13.89  Aligned_cols=4  Identities=100%  Similarity=2.121  Sum_probs=0.0  Template_Neff=1.600
+
+Q KIVKWD            3 VKWD    6 (6)
+Q Consensus         3 vkwd    6 (6)
+                      ||||
+T Consensus        34 VkWd   37 (127)
+T 2OPC_A           34 VKWD   37 (127)
+T ss_dssp             EEES
+T ss_pred             eEec
+
+
+No 10
+>2K19_A Putative piscicolin 126 immunity protein; PisI, immunity protein, bacteriocin, IMMUNE; NMR {Carnobacterium maltaromaticum}
+Probab=15.87  E-value=1.5e+02  Score=12.49  Aligned_cols=5  Identities=40%  Similarity=1.066  Sum_probs=0.0  Template_Neff=4.700
+
+Q KIVKWD            1 KIVKW    5 (6)
+Q Consensus         1 kivkw    5 (6)
+                      |.+||
+T Consensus         2 ~~lkW    6 (98)
+T 2K19_A            2 GKLKW    6 (98)
+T ss_dssp             CSCCC
+T ss_pred             CCccc
+
+

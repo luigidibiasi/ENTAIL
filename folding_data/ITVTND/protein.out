@@ -1,0 +1,154 @@
+Query         ITVTND
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 09:38:46 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/ITVTND/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/ITVTND/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4UAP_A GH31 CBM32-2; carbohydr  36.3      34 0.00037   15.7   0.0    6    1-6       6-11  (152)
+  2 4UAP_B GH31 CBM32-2; carbohydr  35.7      35 0.00039   15.6   0.0    6    1-6       6-11  (152)
+  3 5KSR_D 5'-nucleotidase SurE (E  21.7      90 0.00099   13.8   0.0    6    1-6       3-8   (270)
+  4 5KSR_B 5'-nucleotidase SurE (E  20.0   1E+02  0.0011   13.7   0.0    6    1-6       3-8   (270)
+  5 7NDH_A Probable ribonuclease Z  19.9   1E+02  0.0011   12.4   0.0    4    3-6     112-115 (169)
+  6 3V33_B Ribonuclease ZC3H12A (E  19.7 1.1E+02  0.0012   13.7   0.0    6    1-6     128-133 (223)
+  7 1J9J_B STATIONARY PHASE SURVIV  18.5 1.2E+02  0.0013   13.4   0.0    6    1-6       3-8   (247)
+  8 1J9K_B STATIONARY PHASE SURVIV  18.5 1.2E+02  0.0013   13.4   0.0    6    1-6       3-8   (247)
+  9 3TY2_A 5'-nucleotidase surE (E  18.3 1.2E+02  0.0013   13.4   0.0    6    1-6      14-19  (261)
+ 10 4ZG5_C 5'-nucleotidase SurE (E  18.3 1.2E+02  0.0013   13.5   0.0    6    1-6       3-8   (263)
+
+No 1
+>4UAP_A GH31 CBM32-2; carbohydrate-binding module, B-sandwich, GalNAc, SUGAR; HET: NGA, GOL; 2.0A {Clostridium perfringens}
+Probab=36.34  E-value=34  Score=15.65  Aligned_cols=6  Identities=67%  Similarity=0.916  Sum_probs=4.2  Template_Neff=3.700
+
+Q ITVTND            1 ITVTND    6 (6)
+Q Consensus         1 itvtnd    6 (6)
+                      |||+||
+T Consensus         6 iTvtnd   11 (152)
+T 4UAP_A            6 ITVSGD   11 (152)
+T ss_dssp             CEEESB
+T ss_pred             eEecCC
+Confidence            677775
+
+
+No 2
+>4UAP_B GH31 CBM32-2; carbohydrate-binding module, B-sandwich, GalNAc, SUGAR; HET: GOL, NGA; 2.0A {Clostridium perfringens}
+Probab=35.69  E-value=35  Score=15.64  Aligned_cols=6  Identities=67%  Similarity=0.916  Sum_probs=4.2  Template_Neff=3.600
+
+Q ITVTND            1 ITVTND    6 (6)
+Q Consensus         1 itvtnd    6 (6)
+                      |||+||
+T Consensus         6 iTvtnd   11 (152)
+T 4UAP_B            6 ITVSGD   11 (152)
+T ss_dssp             EEEESB
+T ss_pred             eEecCC
+Confidence            677775
+
+
+No 3
+>5KSR_D 5'-nucleotidase SurE (E.C.3.1.3.5); Stationary phase survival protein E; 1.96A {Xylella fastidiosa (strain 9a5c)}
+Probab=21.65  E-value=90  Score=13.83  Aligned_cols=6  Identities=50%  Similarity=0.844  Sum_probs=3.8  Template_Neff=7.300
+
+Q ITVTND            1 ITVTND    6 (6)
+Q Consensus         1 itvtnd    6 (6)
+                      |-+|||
+T Consensus         3 ILlTND    8 (270)
+T 5KSR_D            3 VLVSND    8 (270)
+T ss_dssp             EEEECS
+T ss_pred             eEEecC
+Confidence            456776
+
+
+No 4
+>5KSR_B 5'-nucleotidase SurE (E.C.3.1.3.5); Stationary phase survival protein E; 1.96A {Xylella fastidiosa (strain 9a5c)}
+Probab=20.00  E-value=1e+02  Score=13.72  Aligned_cols=6  Identities=50%  Similarity=0.844  Sum_probs=3.7  Template_Neff=7.200
+
+Q ITVTND            1 ITVTND    6 (6)
+Q Consensus         1 itvtnd    6 (6)
+                      |-+|||
+T Consensus         3 ILltND    8 (270)
+T 5KSR_B            3 VLVSND    8 (270)
+T ss_dssp             EEEECS
+T ss_pred             EEEecC
+Confidence            456776
+
+
+No 5
+>7NDH_A Probable ribonuclease ZC3H12C (E.C.3.1.-.-); Endo-ribonuclease, regnase, RNA BINDING PROTEIN; HET: EDO; 1.94A {Mus musculus}
+Probab=19.93  E-value=1e+02  Score=12.37  Aligned_cols=4  Identities=75%  Similarity=1.116  Sum_probs=0.0  Template_Neff=8.100
+
+Q ITVTND            3 VTND    6 (6)
+Q Consensus         3 vtnd    6 (6)
+                      ||||
+T Consensus       112 VSND  115 (169)
+T 7NDH_A          112 VSND  115 (169)
+T ss_dssp             ECSC
+T ss_pred             EECc
+
+
+No 6
+>3V33_B Ribonuclease ZC3H12A (E.C.3.1.-.-); Rossmann-like sandwich fold, RNase, cytoplastic; 2.005A {Homo sapiens}
+Probab=19.66  E-value=1.1e+02  Score=13.71  Aligned_cols=6  Identities=67%  Similarity=0.966  Sum_probs=0.0  Template_Neff=6.400
+
+Q ITVTND            1 ITVTND    6 (6)
+Q Consensus         1 itvtnd    6 (6)
+                      +.||||
+T Consensus       128 ~IVSND  133 (223)
+T 3V33_B          128 IVVSND  133 (223)
+T ss_dssp             EEECSC
+T ss_pred             EEEECC
+
+
+No 7
+>1J9J_B STATIONARY PHASE SURVIVAL PROTEIN; THERMOTOGA MARITIMA, surE protein, UNKNOWN; 1.9A {Thermotoga maritima} SCOP: c.106.1.1
+Probab=18.49  E-value=1.2e+02  Score=13.44  Aligned_cols=6  Identities=83%  Similarity=0.949  Sum_probs=0.0  Template_Neff=7.100
+
+Q ITVTND            1 ITVTND    6 (6)
+Q Consensus         1 itvtnd    6 (6)
+                      |-+|||
+T Consensus         3 ILltND    8 (247)
+T 1J9J_B            3 ILVTND    8 (247)
+T ss_dssp             EEEECS
+T ss_pred             EEEecC
+
+
+No 8
+>1J9K_B STATIONARY PHASE SURVIVAL PROTEIN, 4-(2-HYDROXYETHYL)-1-PIPERAZINE; Tungstate complex, surE protein, UNKNOWN; HET: EPE, WO4; 2.1A {Thermotoga maritima} SCOP: c.106.1.1
+Probab=18.49  E-value=1.2e+02  Score=13.44  Aligned_cols=6  Identities=83%  Similarity=0.949  Sum_probs=0.0  Template_Neff=7.100
+
+Q ITVTND            1 ITVTND    6 (6)
+Q Consensus         1 itvtnd    6 (6)
+                      |-+|||
+T Consensus         3 ILltND    8 (247)
+T 1J9K_B            3 ILVTND    8 (247)
+T ss_dssp             EEEECS
+T ss_pred             EEEecC
+
+
+No 9
+>3TY2_A 5'-nucleotidase surE (E.C.3.1.3.5); survival protein, phosphatase, Hydrolase; HET: MSE; 1.885A {Coxiella burnetii}
+Probab=18.33  E-value=1.2e+02  Score=13.42  Aligned_cols=6  Identities=33%  Similarity=0.739  Sum_probs=0.0  Template_Neff=7.300
+
+Q ITVTND            1 ITVTND    6 (6)
+Q Consensus         1 itvtnd    6 (6)
+                      |-+|||
+T Consensus        14 ILltND   19 (261)
+T 3TY2_A           14 LLLSND   19 (261)
+T ss_dssp             EEEECS
+T ss_pred             EEEecC
+
+
+No 10
+>4ZG5_C 5'-nucleotidase SurE (E.C.3.1.3.5 ); Hydrolase; 1.9A {Brucella abortus S19}
+Probab=18.29  E-value=1.2e+02  Score=13.48  Aligned_cols=6  Identities=67%  Similarity=0.861  Sum_probs=0.0  Template_Neff=7.200
+
+Q ITVTND            1 ITVTND    6 (6)
+Q Consensus         1 itvtnd    6 (6)
+                      |-+|||
+T Consensus         3 ILltND    8 (263)
+T 4ZG5_C            3 ILLTND    8 (263)
+T ss_dssp             EEEECS
+T ss_pred             EEEecC
+
+

@@ -1,0 +1,147 @@
+Query         KVQIIN
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 13:02:09 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/KVQIIN/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/KVQIIN/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3J4B_I Tail tubular protein A;  19.7   1E+02  0.0012   12.4   0.0    6    1-6       1-6   (184)
+  2 5MP3_C antibody Fab heavy chai  19.4 1.1E+02  0.0012   10.8   0.0    6    1-6      14-19  (30)
+  3 7OKX_D Pol II, Super elongatio  19.3 1.1E+02  0.0012   13.3   0.0    6    1-6     139-144 (184)
+  4 7OL0_D Pol II, Super elongatio  19.3 1.1E+02  0.0012   13.3   0.0    6    1-6     139-144 (184)
+  5 7DE2_B NvfI; Novofumigatonin,   18.4 1.2E+02  0.0013   13.5   0.0    6    1-6     182-187 (298)
+  6 3ENG_A ENDOGLUCANASE V CELLOBI  18.3 1.2E+02  0.0013   14.3   0.0    5    2-6     106-110 (213)
+  7 4O0A_A Replication protein A 7  18.3 1.2E+02  0.0013   11.5   0.0    5    2-6      28-32  (123)
+  8 5N8A_A Archaeal Phophoesterase  18.2 1.2E+02  0.0013   11.4   0.0    5    2-6      26-30  (121)
+  9 7EMZ_A NvfI W199F; Novofumigat  18.0 1.2E+02  0.0013   13.4   0.0    6    1-6     182-187 (298)
+ 10 7EY9_V bacteriophae T7 tail pr  17.7 1.2E+02  0.0014   12.4   0.0    6    1-6      13-18  (196)
+
+No 1
+>3J4B_I Tail tubular protein A; Bacteriophage, DNA ejection, tail complex; 12.0A {Enterobacteria phage T7}
+Probab=19.71  E-value=1e+02  Score=12.40  Aligned_cols=6  Identities=17%  Similarity=0.517  Sum_probs=0.0  Template_Neff=8.300
+
+Q KVQIIN            1 KVQIIN    6 (6)
+Q Consensus         1 kvqiin    6 (6)
+                      +++|+|
+T Consensus         1 ~l~i~N    6 (184)
+T 3J4B_I            1 ELSAVN    6 (184)
+T ss_pred             CHHHHH
+
+
+No 2
+>5MP3_C antibody Fab heavy chain, antibody; Antibody Fab, complex, tau protein; HET: PCA; 2.75A {Mus musculus}
+Probab=19.36  E-value=1.1e+02  Score=10.81  Aligned_cols=6  Identities=50%  Similarity=0.661  Sum_probs=0.0  Template_Neff=4.000
+
+Q KVQIIN            1 KVQIIN    6 (6)
+Q Consensus         1 kvqiin    6 (6)
+                      .|||.|
+T Consensus        14 ~V~I~~   19 (30)
+T 5MP3_C           14 SVQIVY   19 (30)
+T ss_pred             Ceeeee
+
+
+No 3
+>7OKX_D Pol II, Super elongation complex; 3.3A {Sus scrofa}
+Probab=19.26  E-value=1.1e+02  Score=13.30  Aligned_cols=6  Identities=17%  Similarity=0.080  Sum_probs=0.0  Template_Neff=6.400
+
+Q KVQIIN            1 KVQIIN    6 (6)
+Q Consensus         1 kvqiin    6 (6)
+                      .+||+|
+T Consensus       139 i~qIiN  144 (184)
+T 7OKX_D          139 LACLAN  144 (184)
+T ss_dssp             TTSSTT
+T ss_pred             HHHHhh
+
+
+No 4
+>7OL0_D Pol II, Super elongation complex;{Sus scrofa}
+Probab=19.26  E-value=1.1e+02  Score=13.30  Aligned_cols=6  Identities=17%  Similarity=0.080  Sum_probs=0.0  Template_Neff=6.400
+
+Q KVQIIN            1 KVQIIN    6 (6)
+Q Consensus         1 kvqiin    6 (6)
+                      .+||+|
+T Consensus       139 i~qIiN  144 (184)
+T 7OL0_D          139 LACLAN  144 (184)
+T ss_dssp             HTTTTT
+T ss_pred             HHHHhh
+
+
+No 5
+>7DE2_B NvfI; Novofumigatonin, endoperoxidase, iron and alpha-ketoglutarate-dependent; HET: H3X, AKG; 1.9A {Aspergillus novofumigatus IBT 16806}
+Probab=18.38  E-value=1.2e+02  Score=13.48  Aligned_cols=6  Identities=0%  Similarity=0.301  Sum_probs=0.0  Template_Neff=7.700
+
+Q KVQIIN            1 KVQIIN    6 (6)
+Q Consensus         1 kvqiin    6 (6)
+                      ++||||
+T Consensus       182 R~~iiN  187 (298)
+T 7DE2_B          182 RFRAFS  187 (298)
+T ss_dssp             CEEEEE
+T ss_pred             ceEEEE
+
+
+No 6
+>3ENG_A ENDOGLUCANASE V CELLOBIOSE COMPLEX; HYDROLASE, ENDOGLUCANASE, GLYCOSYL HYDROLASE; HET: BGC; 1.9A {Humicola insolens} SCOP: b.52.1.1
+Probab=18.31  E-value=1.2e+02  Score=14.29  Aligned_cols=5  Identities=40%  Similarity=0.308  Sum_probs=0.0  Template_Neff=4.600
+
+Q KVQIIN            2 VQIIN    6 (6)
+Q Consensus         2 vqiin    6 (6)
+                      ||++|
+T Consensus       106 VQ~tN  110 (213)
+T 3ENG_A          106 VQSTS  110 (213)
+T ss_dssp             EEEEE
+T ss_pred             EEEEe
+
+
+No 7
+>4O0A_A Replication protein A 70 kDa; OB-Fold, Protein-Protein Interaction, DNA BINDING; HET: 2P9; 1.2A {Homo sapiens}
+Probab=18.26  E-value=1.2e+02  Score=11.45  Aligned_cols=5  Identities=60%  Similarity=1.026  Sum_probs=0.0  Template_Neff=8.400
+
+Q KVQIIN            2 VQIIN    6 (6)
+Q Consensus         2 vqiin    6 (6)
+                      +||++
+T Consensus        28 lQVl~   32 (123)
+T 4O0A_A           28 LQVIN   32 (123)
+T ss_dssp             EEEEE
+T ss_pred             EEEEE
+
+
+No 8
+>5N8A_A Archaeal Phophoesterase; Complex, Replication, Basic cleft, PROTEIN; 1.28A {Homo sapiens}
+Probab=18.16  E-value=1.2e+02  Score=11.36  Aligned_cols=5  Identities=60%  Similarity=1.026  Sum_probs=0.0  Template_Neff=8.500
+
+Q KVQIIN            2 VQIIN    6 (6)
+Q Consensus         2 vqiin    6 (6)
+                      +||++
+T Consensus        26 lQVl~   30 (121)
+T 5N8A_A           26 LQVIN   30 (121)
+T ss_dssp             EEEEE
+T ss_pred             EEEEE
+
+
+No 9
+>7EMZ_A NvfI W199F; Novofumigatonin, endoperoxidase, OXIDOREDUCTASE; HET: OGA, H3X; 2.3A {Aspergillus novofumigatus IBT 16806}
+Probab=18.05  E-value=1.2e+02  Score=13.44  Aligned_cols=6  Identities=0%  Similarity=0.301  Sum_probs=0.0  Template_Neff=7.700
+
+Q KVQIIN            1 KVQIIN    6 (6)
+Q Consensus         1 kvqiin    6 (6)
+                      ++||||
+T Consensus       182 R~~iiN  187 (298)
+T 7EMZ_A          182 RFRAFS  187 (298)
+T ss_dssp             CEEEEE
+T ss_pred             ceEEEE
+
+
+No 10
+>7EY9_V bacteriophae T7 tail proteins, VIRUS; 3.4A {Escherichia phage T7}
+Probab=17.75  E-value=1.2e+02  Score=12.37  Aligned_cols=6  Identities=17%  Similarity=0.517  Sum_probs=0.0  Template_Neff=8.200
+
+Q KVQIIN            1 KVQIIN    6 (6)
+Q Consensus         1 kvqiin    6 (6)
+                      +++|+|
+T Consensus        13 ~l~i~N   18 (196)
+T 7EY9_V           13 ELSAVN   18 (196)
+T ss_pred             HHHHHH
+
+

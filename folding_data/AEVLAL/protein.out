@@ -1,0 +1,147 @@
+Query         AEVLAL
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 13:49:10 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/AEVLAL/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/AEVLAL/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2RPI_A Ribonuclease H (E.C.3.1   8.7 3.5E+02  0.0038    9.7   0.0    6    1-6      30-35  (112)
+  2 7OMV_AAA DarT domain-containin   8.6 3.5E+02  0.0039   11.3   0.0    4    1-4     160-163 (210)
+  3 7OMW_AAA DarT domain-containin   8.6 3.5E+02  0.0039   11.3   0.0    4    1-4     160-163 (210)
+  4 5L9W_C Acetophenone carboxylas   8.6 3.5E+02  0.0039   11.8   0.0    5    1-5     125-129 (129)
+  5 1JL1_A RIBONUCLEASE HI (E.C.3.   8.5 3.6E+02  0.0039    9.1   0.0    6    1-6      47-52  (155)
+  6 5NVM_D Eukaryotic translation    7.6 4.1E+02  0.0046   10.2   0.0    5    2-6      17-21  (42)
+  7 2QK9_A Ribonuclease H1 (E.C.3.   7.2 4.5E+02   0.005    8.5   0.0    6    1-6      53-58  (154)
+  8 3U3G_A Ribonuclease H (E.C.3.1   7.0 4.6E+02  0.0051    8.0   0.0    6    1-6      48-53  (140)
+  9 5W7N_A Ribonuclease H/RNA/DNA    6.9 4.7E+02  0.0052    8.6   0.0    6    1-6      47-52  (132)
+ 10 2KQ2_A Ribonuclease H-related    6.9 4.7E+02  0.0052    8.6   0.0    6    1-6      53-58  (147)
+
+No 1
+>2RPI_A Ribonuclease H (E.C.3.1.26.4); submillisecond folding intermediate, Thermus thermophilus; NMR {Thermus thermophilus HB8}
+Probab=8.71  E-value=3.5e+02  Score=9.73  Aligned_cols=6  Identities=33%  Similarity=0.213  Sum_probs=0.0  Template_Neff=9.100
+
+Q AEVLAL            1 AEVLAL    6 (6)
+Q Consensus         1 aevlal    6 (6)
+                      ||++|+
+T Consensus        30 aEl~Al   35 (112)
+T 2RPI_A           30 MELKAA   35 (112)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 2
+>7OMV_AAA DarT domain-containing protein; TOXIN-ANTITOXIN, DNA ADP-RIBOSYLATION, ADP-ribosyltransferase activity; 1.29A {Thermus sp. 2.9}
+Probab=8.64  E-value=3.5e+02  Score=11.34  Aligned_cols=4  Identities=50%  Similarity=0.542  Sum_probs=0.0  Template_Neff=8.000
+
+Q AEVLAL            1 AEVL    4 (6)
+Q Consensus         1 aevl    4 (6)
+                      ||+|
+T Consensus       160 AEvL  163 (210)
+T 7OMV_AAA        160 AAFL  163 (210)
+T ss_pred             ehhh
+
+
+No 3
+>7OMW_AAA DarT domain-containing protein; TOXIN-ANTITOXIN, DNA ADP-RIBOSYLATION, ADP-ribosyltransferase activity; HET: NAD, GOL; 1.3A {Thermus sp. 2.9}
+Probab=8.64  E-value=3.5e+02  Score=11.34  Aligned_cols=4  Identities=50%  Similarity=0.542  Sum_probs=0.0  Template_Neff=8.000
+
+Q AEVLAL            1 AEVL    4 (6)
+Q Consensus         1 aevl    4 (6)
+                      ||+|
+T Consensus       160 AEvL  163 (210)
+T 7OMW_AAA        160 AAFL  163 (210)
+T ss_pred             ehhh
+
+
+No 4
+>5L9W_C Acetophenone carboxylase delta subunit (E.C.6.4.1.8); Acetophenone carboxylase, ligase; HET: EPE, ADP; 2.9A {Aromatoleum aromaticum (strain EbN1)}
+Probab=8.56  E-value=3.5e+02  Score=11.77  Aligned_cols=5  Identities=100%  Similarity=1.052  Sum_probs=0.0  Template_Neff=5.000
+
+Q AEVLAL            1 AEVLA    5 (6)
+Q Consensus         1 aevla    5 (6)
+                      |||||
+T Consensus       125 ~~~~~  129 (129)
+T 5L9W_C          125 AEVLA  129 (129)
+T ss_pred             hhhcC
+
+
+No 5
+>1JL1_A RIBONUCLEASE HI (E.C.3.1.26.4); RNase HI, Protein stability, thermostability; 1.3A {Escherichia coli} SCOP: c.55.3.1
+Probab=8.52  E-value=3.6e+02  Score=9.15  Aligned_cols=6  Identities=33%  Similarity=0.484  Sum_probs=0.0  Template_Neff=11.400
+
+Q AEVLAL            1 AEVLAL    6 (6)
+Q Consensus         1 aevlal    6 (6)
+                      ||..|+
+T Consensus        47 aEl~Ai   52 (155)
+T 1JL1_A           47 MELMAA   52 (155)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 6
+>5NVM_D Eukaryotic translation initiation factor 4E; translational regulation, cap-binding protein, 4EHP-binding; HET: PO4; 2.0A {Homo sapiens}
+Probab=7.64  E-value=4.1e+02  Score=10.15  Aligned_cols=5  Identities=80%  Similarity=1.039  Sum_probs=0.0  Template_Neff=3.400
+
+Q AEVLAL            2 EVLAL    6 (6)
+Q Consensus         2 evlal    6 (6)
+                      |.|||
+T Consensus        17 emLaL   21 (42)
+T 5NVM_D           17 EMLAL   21 (42)
+T ss_dssp             HHHHT
+T ss_pred             HHHHH
+
+
+No 7
+>2QK9_A Ribonuclease H1 (E.C.3.1.26.4)/RNA/DNA complex; RNase H  RNA/DNA hybrid; HET: GOL, FLC, SO4; 2.55A {Homo sapiens}
+Probab=7.18  E-value=4.5e+02  Score=8.50  Aligned_cols=6  Identities=50%  Similarity=0.468  Sum_probs=0.0  Template_Neff=12.200
+
+Q AEVLAL            1 AEVLAL    6 (6)
+Q Consensus         1 aevlal    6 (6)
+                      +|.+|+
+T Consensus        53 ~e~~ai   58 (154)
+T 2QK9_A           53 AEIHAA   58 (154)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 8
+>3U3G_A Ribonuclease H (E.C.3.1.26.4); Hydrolase, Cleave the RNA strand; 1.4A {uncultured organism}
+Probab=7.00  E-value=4.6e+02  Score=7.96  Aligned_cols=6  Identities=67%  Similarity=0.473  Sum_probs=0.0  Template_Neff=12.900
+
+Q AEVLAL            1 AEVLAL    6 (6)
+Q Consensus         1 aevlal    6 (6)
+                      +|.+|+
+T Consensus        48 ~E~~ai   53 (140)
+T 3U3G_A           48 AEYEAL   53 (140)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 9
+>5W7N_A Ribonuclease H/RNA/DNA Complex; HYDROLASE-DNA-RNA complex; HET: US3; 1.8A {Bacillus halodurans (strain ATCC BAA-125 / DSM 18197 / FERM 7344 / JCM 9153 / C-125)}
+Probab=6.93  E-value=4.7e+02  Score=8.58  Aligned_cols=6  Identities=50%  Similarity=0.744  Sum_probs=0.0  Template_Neff=11.400
+
+Q AEVLAL            1 AEVLAL    6 (6)
+Q Consensus         1 aevlal    6 (6)
+                      +|.+|+
+T Consensus        47 ~El~a~   52 (132)
+T 5W7N_A           47 GEFLAI   52 (132)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 10
+>2KQ2_A Ribonuclease H-related protein; PSI, NESG, protein structure, Ribonuclease; NMR {Desulfitobacterium hafniense DCB-2}
+Probab=6.93  E-value=4.7e+02  Score=8.62  Aligned_cols=6  Identities=33%  Similarity=0.401  Sum_probs=0.0  Template_Neff=11.700
+
+Q AEVLAL            1 AEVLAL    6 (6)
+Q Consensus         1 aevlal    6 (6)
+                      +|++|+
+T Consensus        53 ~E~~ai   58 (147)
+T 2KQ2_A           53 GEIAAA   58 (147)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+

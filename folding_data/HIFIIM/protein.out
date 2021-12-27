@@ -1,0 +1,278 @@
+Query         HIFIIM
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 06:24:52 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/HIFIIM/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/HIFIIM/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2D1G_A acid phosphatase (E.C.3  37.6      31 0.00034   16.6   0.0    6    1-6      36-41  (498)
+  2 5HXO_A (2Z,6Z)-farnesyl diphos  35.4      35 0.00039   13.8   0.0    6    1-6      10-15  (233)
+  3 5HXQ_C (2Z,6Z)-farnesyl diphos  35.4      35 0.00039   13.8   0.0    6    1-6      10-15  (233)
+  4 2D1G_B acid phosphatase (E.C.3  32.2      43 0.00048   16.2   0.0    6    1-6      36-41  (498)
+  5 5YGK_C Cyclolavandulyl diphosp  30.8      47 0.00052   13.6   0.0    6    1-6       3-8   (217)
+  6 1VGG_E Conserved Hypothetical   27.4      59 0.00066   15.3   0.0    6    1-6      80-85  (161)
+  7 6JCN_A Decaprenyl diphosphate   26.5      63  0.0007   13.0   0.0    6    1-6      14-19  (234)
+  8 6L4U_1 PROTEIN; Photosystem I,  26.1      65 0.00072   14.4   0.0    6    1-6      25-30  (227)
+  9 2EKM_A Hypothetical protein ST  26.0      65 0.00072   15.2   0.0    6    1-6      82-87  (162)
+ 10 2D16_C hypothetical protein PH  25.3      69 0.00076   15.1   0.0    6    1-6      81-86  (162)
+ 11 2D16_D hypothetical protein PH  25.3      69 0.00076   15.1   0.0    6    1-6      81-86  (162)
+ 12 2JB7_A HYPOTHETICAL PROTEIN PA  25.1      69 0.00077   15.1   0.0    6    1-6      82-87  (164)
+ 13 2JB7_C HYPOTHETICAL PROTEIN PA  25.1      69 0.00077   15.1   0.0    6    1-6      82-87  (164)
+ 14 1WVQ_B hypothetical protein PA  25.0      70 0.00078   15.1   0.0    6    1-6      85-90  (167)
+ 15 1RLH_A conserved hypothetical   22.0      87 0.00096   15.0   0.0    6    1-6      93-98  (173)
+ 16 2D2R_A Undecaprenyl Pyrophosph  21.0      95   0.001   12.8   0.0    6    1-6      18-23  (245)
+ 17 2VG1_A SHORT-CHAIN Z-ISOPRENYL  20.6      98  0.0011   12.5   0.0    6    1-6       6-11  (228)
+ 18 4Q9M_A Isoprenyl transferase (  20.5      98  0.0011   12.8   0.0    6    1-6      16-21  (246)
+
+No 1
+>2D1G_A acid phosphatase (E.C.3.1.3.2); Francisella tularensis, Acid Phosphatase, AcpA; HET: DVT, VO4, PGE, ETE; 1.75A {Francisella tularensis subsp. novicida}
+Probab=37.57  E-value=31  Score=16.58  Aligned_cols=6  Identities=50%  Similarity=1.043  Sum_probs=4.1  Template_Neff=7.000
+
+Q HIFIIM            1 HIFIIM    6 (6)
+Q Consensus         1 hifiim    6 (6)
+                      ||+++|
+T Consensus        36 HVVVlm   41 (498)
+T 2D1G_A           36 HVVIIF   41 (498)
+T ss_dssp             EEEEEE
+T ss_pred             EEEEEE
+Confidence            677776
+
+
+No 2
+>5HXO_A (2Z,6Z)-farnesyl diphosphate synthase, chloroplastic (E.C.2.5.1.92); prenyltransferase, TRANSFERASE; 2.05A {Solanum habrochaites}
+Probab=35.42  E-value=35  Score=13.83  Aligned_cols=6  Identities=67%  Similarity=1.043  Sum_probs=3.6  Template_Neff=8.900
+
+Q HIFIIM            1 HIFIIM    6 (6)
+Q Consensus         1 hifiim    6 (6)
+                      ||.+||
+T Consensus        10 HiaiI~   15 (233)
+T 5HXO_A           10 HIALIM   15 (233)
+T ss_dssp             EEEEEC
+T ss_pred             EEEEEc
+Confidence            566665
+
+
+No 3
+>5HXQ_C (2Z,6Z)-farnesyl diphosphate synthase, chloroplastic (E.C.2.5.1.92); prenyltransferase, TRANSFERASE; HET: O4B, DST; 1.95A {Solanum habrochaites}
+Probab=35.42  E-value=35  Score=13.83  Aligned_cols=6  Identities=67%  Similarity=1.043  Sum_probs=3.6  Template_Neff=8.900
+
+Q HIFIIM            1 HIFIIM    6 (6)
+Q Consensus         1 hifiim    6 (6)
+                      ||.+||
+T Consensus        10 HiaiI~   15 (233)
+T 5HXQ_C           10 HIALIM   15 (233)
+T ss_dssp             EEEEEC
+T ss_pred             EEEEEc
+Confidence            566665
+
+
+No 4
+>2D1G_B acid phosphatase (E.C.3.1.3.2); Francisella tularensis, Acid Phosphatase, AcpA; HET: ETE, PGE, DVT, VO4; 1.75A {Francisella tularensis subsp. novicida}
+Probab=32.24  E-value=43  Score=16.24  Aligned_cols=6  Identities=50%  Similarity=1.043  Sum_probs=4.0  Template_Neff=6.800
+
+Q HIFIIM            1 HIFIIM    6 (6)
+Q Consensus         1 hifiim    6 (6)
+                      ||+++|
+T Consensus        36 HVVVlm   41 (498)
+T 2D1G_B           36 HVVIIF   41 (498)
+T ss_dssp             EEEEEE
+T ss_pred             EEEEEE
+Confidence            666666
+
+
+No 5
+>5YGK_C Cyclolavandulyl diphosphate synthase; substrate binding, Cyclolavandulyl diphosphate synthase; HET: DST; 2.047A {Streptomyces sp. (strain CL190)}
+Probab=30.83  E-value=47  Score=13.62  Aligned_cols=6  Identities=0%  Similarity=0.406  Sum_probs=3.6  Template_Neff=8.400
+
+Q HIFIIM            1 HIFIIM    6 (6)
+Q Consensus         1 hifiim    6 (6)
+                      ||.+||
+T Consensus         3 hiavi~    8 (217)
+T 5YGK_C            3 TLMLLP    8 (217)
+T ss_dssp             EEEEEC
+T ss_pred             EEEEEc
+Confidence            566665
+
+
+No 6
+>1VGG_E Conserved Hypothetical Protein TT1634 (TTHA1091); Thermus Thermophilus HB8, Conserved Hypothetical; HET: MSE; 1.75A {Thermus thermophilus HB8} SCOP: d.256.1.1
+Probab=27.38  E-value=59  Score=15.30  Aligned_cols=6  Identities=50%  Similarity=1.359  Sum_probs=3.5  Template_Neff=2.900
+
+Q HIFIIM            1 HIFIIM    6 (6)
+Q Consensus         1 hifiim    6 (6)
+                      |.|||+
+T Consensus        80 H~FiI~   85 (161)
+T 1VGG_E           80 HVFLIV   85 (161)
+T ss_dssp             TEEEEE
+T ss_pred             CEEEEE
+Confidence            566653
+
+
+No 7
+>6JCN_A Decaprenyl diphosphate synthase (E.C.2.5.1.86,2.5.1.87); dehydrodolichyl diphosphate synthesis, rossmann-like fold; HET: SO4; 1.998A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=26.51  E-value=63  Score=12.99  Aligned_cols=6  Identities=17%  Similarity=0.395  Sum_probs=3.0  Template_Neff=9.200
+
+Q HIFIIM            1 HIFIIM    6 (6)
+Q Consensus         1 hifiim    6 (6)
+                      |+.+||
+T Consensus        14 Hlavi~   19 (234)
+T 6JCN_A           14 RLAAIL   19 (234)
+T ss_dssp             EEEEEC
+T ss_pred             EEEEEe
+Confidence            455554
+
+
+No 8
+>6L4U_1 PROTEIN; Photosystem I, ELECTRON TRANSPORT; HET: SF4, LHG, LMG, BCR, CL0, LMT, KC1, PQN, DD6, A86, CLA; 2.4A {Chaetoceros gracilis}
+Probab=26.10  E-value=65  Score=14.37  Aligned_cols=6  Identities=83%  Similarity=1.364  Sum_probs=3.3  Template_Neff=6.400
+
+Q HIFIIM            1 HIFIIM    6 (6)
+Q Consensus         1 hifiim    6 (6)
+                      |.|++|
+T Consensus        25 ~~~~~~   30 (227)
+T 6L4U_1           25 HYFIIM   30 (227)
+T ss_pred             HHHHHH
+Confidence            456655
+
+
+No 9
+>2EKM_A Hypothetical protein ST1511; hypothetical protein, NPPSFA, National Project; HET: GOL; 2.06A {Sulfolobus tokodaii}
+Probab=26.00  E-value=65  Score=15.18  Aligned_cols=6  Identities=50%  Similarity=1.071  Sum_probs=3.5  Template_Neff=2.900
+
+Q HIFIIM            1 HIFIIM    6 (6)
+Q Consensus         1 hifiim    6 (6)
+                      |.|||+
+T Consensus        82 H~FiI~   87 (162)
+T 2EKM_A           82 HTFVIY   87 (162)
+T ss_dssp             TEEEEE
+T ss_pred             cEEEEE
+Confidence            566653
+
+
+No 10
+>2D16_C hypothetical protein PH1918; Hypothetical, Structural genomics, NPPSFA, National; HET: GOL; 1.65A {Pyrococcus horikoshii}
+Probab=25.27  E-value=69  Score=15.11  Aligned_cols=6  Identities=50%  Similarity=1.442  Sum_probs=3.4  Template_Neff=2.900
+
+Q HIFIIM            1 HIFIIM    6 (6)
+Q Consensus         1 hifiim    6 (6)
+                      |.|||+
+T Consensus        81 H~FiI~   86 (162)
+T 2D16_C           81 HVFVIL   86 (162)
+T ss_dssp             TEEEEE
+T ss_pred             CEEEEE
+Confidence            566653
+
+
+No 11
+>2D16_D hypothetical protein PH1918; Hypothetical, Structural genomics, NPPSFA, National; HET: GOL; 1.65A {Pyrococcus horikoshii}
+Probab=25.27  E-value=69  Score=15.11  Aligned_cols=6  Identities=50%  Similarity=1.442  Sum_probs=3.4  Template_Neff=2.900
+
+Q HIFIIM            1 HIFIIM    6 (6)
+Q Consensus         1 hifiim    6 (6)
+                      |.|||+
+T Consensus        81 H~FiI~   86 (162)
+T 2D16_D           81 HVFVIL   86 (162)
+T ss_dssp             TEEEEE
+T ss_pred             CEEEEE
+Confidence            566653
+
+
+No 12
+>2JB7_A HYPOTHETICAL PROTEIN PAE2307; HYPOTHETICAL PROTEIN, UNKNOWN FUNCTION; HET: AMP, EPE; 1.65A {PYROBACULUM AEROPHILUM}
+Probab=25.14  E-value=69  Score=15.13  Aligned_cols=6  Identities=50%  Similarity=1.276  Sum_probs=3.4  Template_Neff=2.900
+
+Q HIFIIM            1 HIFIIM    6 (6)
+Q Consensus         1 hifiim    6 (6)
+                      |.|||+
+T Consensus        82 H~FiI~   87 (164)
+T 2JB7_A           82 HVFVIY   87 (164)
+T ss_dssp             TEEEEE
+T ss_pred             CEEEEE
+Confidence            566653
+
+
+No 13
+>2JB7_C HYPOTHETICAL PROTEIN PAE2307; HYPOTHETICAL PROTEIN, UNKNOWN FUNCTION; HET: AMP, EPE; 1.65A {PYROBACULUM AEROPHILUM}
+Probab=25.14  E-value=69  Score=15.13  Aligned_cols=6  Identities=50%  Similarity=1.276  Sum_probs=3.4  Template_Neff=2.900
+
+Q HIFIIM            1 HIFIIM    6 (6)
+Q Consensus         1 hifiim    6 (6)
+                      |.|||+
+T Consensus        82 H~FiI~   87 (164)
+T 2JB7_C           82 HVFVIY   87 (164)
+T ss_dssp             TEEEEE
+T ss_pred             CEEEEE
+Confidence            566653
+
+
+No 14
+>1WVQ_B hypothetical protein PAE2307; Phosphorylated histidine, STRUCTURAL GENOMICS, UNKNOWN; HET: NEP; 1.45A {Pyrobaculum aerophilum}
+Probab=24.95  E-value=70  Score=15.14  Aligned_cols=6  Identities=33%  Similarity=0.943  Sum_probs=3.4  Template_Neff=2.900
+
+Q HIFIIM            1 HIFIIM    6 (6)
+Q Consensus         1 hifiim    6 (6)
+                      |.|||+
+T Consensus        85 H~FiI~   90 (167)
+T 1WVQ_B           85 XVFVIY   90 (167)
+T ss_dssp             TEEEEE
+T ss_pred             CcEEEE
+Confidence            566653
+
+
+No 15
+>1RLH_A conserved hypothetical protein; Structural genomics, T. acidophilum, PSI; 1.8A {Thermoplasma acidophilum} SCOP: d.256.1.1
+Probab=22.03  E-value=87  Score=14.98  Aligned_cols=6  Identities=50%  Similarity=1.237  Sum_probs=3.3  Template_Neff=2.700
+
+Q HIFIIM            1 HIFIIM    6 (6)
+Q Consensus         1 hifiim    6 (6)
+                      |.|||+
+T Consensus        93 H~FiI~   98 (173)
+T 1RLH_A           93 HTFVIL   98 (173)
+T ss_dssp             TEEEEE
+T ss_pred             CEEEEE
+Confidence            556653
+
+
+No 16
+>2D2R_A Undecaprenyl Pyrophosphate Synthase (E.C.2.5.1.31); prenyl, prenyltransferase, undecaprenyl, TRANSFERASE; 1.88A {Helicobacter pylori}
+Probab=20.99  E-value=95  Score=12.75  Aligned_cols=6  Identities=67%  Similarity=1.043  Sum_probs=3.0  Template_Neff=8.900
+
+Q HIFIIM            1 HIFIIM    6 (6)
+Q Consensus         1 hifiim    6 (6)
+                      ||.+||
+T Consensus        18 Hiavi~   23 (245)
+T 2D2R_A           18 HLAIIM   23 (245)
+T ss_pred             EEEEec
+Confidence            455554
+
+
+No 17
+>2VG1_A SHORT-CHAIN Z-ISOPRENYL DIPHOSPHATE SYNTHETASE (E.C.2.5.1.68); PEPTIDOGLYCAN SYNTHESIS, CELL WALL BIOGENESIS/DEGRADATION; HET: PO4, GOL, FPP; 1.7A {MYCOBACTERIUM TUBERCULOSIS}
+Probab=20.59  E-value=98  Score=12.48  Aligned_cols=6  Identities=33%  Similarity=0.705  Sum_probs=3.0  Template_Neff=9.100
+
+Q HIFIIM            1 HIFIIM    6 (6)
+Q Consensus         1 hifiim    6 (6)
+                      |+.+||
+T Consensus         6 Hlavi~   11 (228)
+T 2VG1_A            6 HIAVLC   11 (228)
+T ss_dssp             EEEEEC
+T ss_pred             EEEEEc
+Confidence            555554
+
+
+No 18
+>4Q9M_A Isoprenyl transferase (E.C.2.5.1.-); Undecaprenyl diphosphate synthase, Transferase-transferase inhibitor; HET: 2ZW, CD, FPP; 2.06A {Streptococcus pneumoniae}
+Probab=20.48  E-value=98  Score=12.77  Aligned_cols=6  Identities=83%  Similarity=0.949  Sum_probs=2.9  Template_Neff=8.800
+
+Q HIFIIM            1 HIFIIM    6 (6)
+Q Consensus         1 hifiim    6 (6)
+                      |+.|||
+T Consensus        16 Hlaii~   21 (246)
+T 4Q9M_A           16 HIGIIM   21 (246)
+T ss_dssp             EEEEEC
+T ss_pred             EEEEEC
+Confidence            455544
+
+

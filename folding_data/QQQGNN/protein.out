@@ -1,0 +1,152 @@
+Query         QQQGNN
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 09:53:46 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QQQGNN/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QQQGNN/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3UK1_B Transketolase (E.C.2.2.  10.8 2.6E+02  0.0028   13.6   0.0    6    1-6      15-20  (711)
+  2 3UPT_B Transketolase (E.C.2.2.  10.8 2.6E+02  0.0028   13.6   0.0    6    1-6      15-20  (711)
+  3 4R80_B OR486; Structural Genom   6.2 5.4E+02   0.006   11.4   0.0    5    1-5      34-38  (85)
+  4 6UFF_C Ene-reductase 1; OXIDOR   6.1 5.6E+02  0.0062   12.0   0.0    6    1-6       7-12  (410)
+  5 5KPH_A De novo Beta Sheet Desi   5.8 5.9E+02  0.0065   11.3   0.0    5    1-5      34-38  (85)
+  6 2OBB_A Hypothetical protein; B   5.7   6E+02  0.0066    9.7   0.0    6    1-6     125-130 (142)
+  7 5CWT_A Nucleoporin NUP57; nucl   5.7   6E+02  0.0066    8.8   0.0    4    1-4      30-33  (54)
+  8 6W6Z_A BLUF domain-containing    5.4 6.5E+02  0.0072   10.6   0.0    5    2-6     150-154 (156)
+  9 5CWT_D Nucleoporin NUP57; nucl   5.3 6.6E+02  0.0073    8.6   0.0    4    1-4      30-33  (54)
+ 10 5NO7_A Uncharacterized protein   4.9 7.3E+02  0.0081   12.5   0.0    6    1-6     230-235 (292)
+
+No 1
+>3UK1_B Transketolase (E.C.2.2.1.1); Structural Genomics, Seattle Structural Genomics; HET: OCS, SO4; 2.15A {Burkholderia thailandensis}
+Probab=10.82  E-value=2.6e+02  Score=13.62  Aligned_cols=6  Identities=50%  Similarity=0.639  Sum_probs=0.0  Template_Neff=8.600
+
+Q QQQGNN            1 QQQGNN    6 (6)
+Q Consensus         1 qqqgnn    6 (6)
+                      |.||||
+T Consensus        15 ~~~~~~   20 (711)
+T 3UK1_B           15 QTQGPG   20 (711)
+T ss_dssp             ------
+T ss_pred             hcCCCC
+Confidence            446654
+
+
+No 2
+>3UPT_B Transketolase (E.C.2.2.1.1); Structural Genomics, Seattle Structural Genomics; HET: TPP, RP5; 2.4A {Burkholderia thailandensis}
+Probab=10.82  E-value=2.6e+02  Score=13.62  Aligned_cols=6  Identities=50%  Similarity=0.639  Sum_probs=0.0  Template_Neff=8.600
+
+Q QQQGNN            1 QQQGNN    6 (6)
+Q Consensus         1 qqqgnn    6 (6)
+                      |.||||
+T Consensus        15 ~~~~~~   20 (711)
+T 3UPT_B           15 QTQGPG   20 (711)
+T ss_dssp             ------
+T ss_pred             hcCCCC
+Confidence            446654
+
+
+No 3
+>4R80_B OR486; Structural Genomics, PSI-Biology, Protein Structure; 2.445A {synthetic construct}
+Probab=6.22  E-value=5.4e+02  Score=11.43  Aligned_cols=5  Identities=80%  Similarity=1.152  Sum_probs=0.0  Template_Neff=1.000
+
+Q QQQGNN            1 QQQGN    5 (6)
+Q Consensus         1 qqqgn    5 (6)
+                      |.|||
+T Consensus        34 qkqgn   38 (85)
+T 4R80_B           34 QKQGN   38 (85)
+T ss_dssp             EEETT
+T ss_pred             eecCC
+
+
+No 4
+>6UFF_C Ene-reductase 1; OXIDOREDUCTASE, ENE REDUCTASE, CYANOBACTERIA, ALKENE; HET: CA, FMN; 2.007A {Nostoc sp. (strain PCC 7120 / SAG 25.82 / UTEX 2576)}
+Probab=6.05  E-value=5.6e+02  Score=12.00  Aligned_cols=6  Identities=67%  Similarity=1.105  Sum_probs=0.0  Template_Neff=7.800
+
+Q QQQGNN            1 QQQGNN    6 (6)
+Q Consensus         1 qqqgnn    6 (6)
+                      .|.|||
+T Consensus         7 ~~~~~~   12 (410)
+T 6UFF_C            7 RQRGNN   12 (410)
+T ss_dssp             ------
+T ss_pred             HHHhhc
+
+
+No 5
+>5KPH_A De novo Beta Sheet Design; Structural Genomics, PSI-Biology, Northeast Structural; NMR {synthetic construct}
+Probab=5.80  E-value=5.9e+02  Score=11.32  Aligned_cols=5  Identities=80%  Similarity=1.152  Sum_probs=0.0  Template_Neff=1.000
+
+Q QQQGNN            1 QQQGN    5 (6)
+Q Consensus         1 qqqgn    5 (6)
+                      |.|||
+T Consensus        34 qkqgn   38 (85)
+T 5KPH_A           34 QKQGN   38 (85)
+T ss_dssp             EEETT
+T ss_pred             eecCC
+
+
+No 6
+>2OBB_A Hypothetical protein; Bacteroides thetaiotaomicron, structural genomics, PSI-2; 2.2A {Bacteroides thetaiotaomicron} SCOP: c.108.1.25
+Probab=5.73  E-value=6e+02  Score=9.66  Aligned_cols=6  Identities=50%  Similarity=0.601  Sum_probs=0.0  Template_Neff=8.800
+
+Q QQQGNN            1 QQQGNN    6 (6)
+Q Consensus         1 qqqgnn    6 (6)
+                      ||.|.|
+T Consensus       125 ~~~~~~  130 (142)
+T 2OBB_A          125 QQREEN  130 (142)
+T ss_dssp             C-----
+T ss_pred             hhhhhc
+
+
+No 7
+>5CWT_A Nucleoporin NUP57; nucleocytoplasmic transport, TRANSPORT PROTEIN; 2.5A {Chaetomium thermophilum (strain DSM 1495 / CBS 144.50 / IMI 039719)}
+Probab=5.72  E-value=6e+02  Score=8.79  Aligned_cols=4  Identities=0%  Similarity=-0.022  Sum_probs=0.0  Template_Neff=7.000
+
+Q QQQGNN            1 QQQG    4 (6)
+Q Consensus         1 qqqg    4 (6)
+                      ||+|
+T Consensus        30 qq~G   33 (54)
+T 5CWT_A           30 YDKQ   33 (54)
+T ss_dssp             HHHH
+T ss_pred             HHHH
+
+
+No 8
+>6W6Z_A BLUF domain-containing protein; BLUF, photoreceptor, FLAVOPROTEIN; HET: FMN; 1.71A {Acinetobacter baumannii}
+Probab=5.39  E-value=6.5e+02  Score=10.60  Aligned_cols=5  Identities=40%  Similarity=0.694  Sum_probs=0.0  Template_Neff=6.800
+
+Q QQQGNN            2 QQGNN    6 (6)
+Q Consensus         2 qqgnn    6 (6)
+                      ++|+|
+T Consensus       150 ~~~~~  154 (156)
+T 6W6Z_A          150 NRGVN  154 (156)
+T ss_dssp             CC---
+T ss_pred             hcCCC
+
+
+No 9
+>5CWT_D Nucleoporin NUP57; nucleocytoplasmic transport, TRANSPORT PROTEIN; 2.5A {Chaetomium thermophilum (strain DSM 1495 / CBS 144.50 / IMI 039719)}
+Probab=5.31  E-value=6.6e+02  Score=8.56  Aligned_cols=4  Identities=0%  Similarity=-0.022  Sum_probs=0.0  Template_Neff=7.300
+
+Q QQQGNN            1 QQQG    4 (6)
+Q Consensus         1 qqqg    4 (6)
+                      ||+|
+T Consensus        30 qq~g   33 (54)
+T 5CWT_D           30 YDKQ   33 (54)
+T ss_dssp             HHHH
+T ss_pred             HHHH
+
+
+No 10
+>5NO7_A Uncharacterized protein; Xylan, LPMO, cellulose, Oxydative enzyme; HET: NAG, BMA, MAN, SO4; 3.01A {Pycnoporus cinnabarinus}
+Probab=4.89  E-value=7.3e+02  Score=12.47  Aligned_cols=6  Identities=67%  Similarity=1.116  Sum_probs=0.0  Template_Neff=4.400
+
+Q QQQGNN            1 QQQGNN    6 (6)
+Q Consensus         1 qqqgnn    6 (6)
+                      |..|||
+T Consensus       230 Q~egNN  235 (292)
+T 5NO7_A          230 QKEGNN  235 (292)
+T ss_dssp             SSSCCS
+T ss_pred             hhCCCC
+
+

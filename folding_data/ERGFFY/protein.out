@@ -1,0 +1,397 @@
+Query         ERGFFY
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 19:44:27 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/ERGFFY/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/ERGFFY/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5URT_B Insulin Chain A, Insuli  84.7     0.6 6.7E-06   16.1   0.0    6    1-6      21-26  (30)
+  2 3W7Y_B Insulin; Human insulin,  66.3       5 5.5E-05   13.6   0.0    6    1-6      21-26  (30)
+  3 6SOF_F Insulin receptor (E.C.2  66.3       5 5.5E-05   13.6   0.0    6    1-6      21-26  (30)
+  4 6EVQ_B Microtubule-associated   60.2     7.7 8.6E-05   14.3   0.0    6    1-6      23-28  (70)
+  5 5N74_B Microtubule end binding  59.1     8.3 9.2E-05   13.8   0.0    6    1-6      23-28  (58)
+  6 5N74_C Microtubule end binding  59.1     8.3 9.2E-05   13.8   0.0    6    1-6      23-28  (58)
+  7 5JVM_B Kinesin-like protein KI  58.4     8.7 9.7E-05   14.1   0.0    6    1-6      38-43  (82)
+  8 5M9E_B Microtubule integrity p  57.3     9.4  0.0001   14.2   0.0    6    1-6      31-36  (77)
+  9 5M97_A Microtubule integrity p  55.7      10 0.00012   14.1   0.0    6    1-6      31-36  (77)
+ 10 5JVR_F Kinesin-like protein KI  55.2      11 0.00012   14.3   0.0    6    1-6      31-36  (75)
+ 11 6VEE_A E3 ubiquitin-protein li  52.2      13 0.00014   16.2   0.0    6    1-6     112-117 (187)
+ 12 3MTU_D Microtubule-associated   51.9      13 0.00015   13.6   0.0    6    1-6      31-36  (75)
+ 13 5JVP_B Microtubule-associated   51.1      14 0.00015   14.6   0.0    6    1-6      46-51  (90)
+ 14 1WU9_B Microtubule-associated   47.9      17 0.00019   13.9   0.0    6    1-6      25-30  (80)
+ 15 2HKQ_A Microtubule-associated   47.1      18  0.0002   13.9   0.0    6    1-6      25-30  (80)
+ 16 5JVS_A Kinesin heavy chain,Mic  47.0      18  0.0002   14.0   0.0    6    1-6      44-49  (88)
+ 17 4E61_A Protein BIM1; EB1-like   46.5      18  0.0002   14.6   0.0    6    1-6      40-45  (106)
+ 18 1WU9_A Microtubule-associated   45.9      19 0.00021   13.8   0.0    6    1-6      25-30  (80)
+ 19 3TQ7_B Microtubule-associated   44.1      21 0.00023   13.8   0.0    6    1-6      23-28  (82)
+ 20 6W92_A E3 ubiquitin-protein li  38.3      30 0.00033   14.6   0.0    6    1-6     115-120 (164)
+ 21 7ANE_q mL94, mL89, Ribosomal p  35.1      36  0.0004   18.1   0.0    6    1-6     127-132 (425)
+ 22 5JVU_A Kinesin heavy chain,Mic  35.0      36  0.0004   12.8   0.0    6    1-6      41-46  (85)
+ 23 6SGA_Cd ?; mitochondrial ribos  34.6      37 0.00041   18.2   0.0    6    1-6     128-133 (440)
+ 24 6HIY_Cd Uncharacterized protei  34.1      39 0.00043   18.1   0.0    6    1-6     128-133 (440)
+ 25 4TVR_A UBIQUITIN-PROTEIN LIGAS  32.8      42 0.00046   15.4   0.0    6    1-6     144-149 (280)
+ 26 2R8U_B Microtubule-associated   21.7      89 0.00099   14.3   0.0    6    1-6     213-218 (268)
+
+No 1
+>5URT_B Insulin Chain A, Insulin Chain; Insulin, HORMONE; 1.18A {Homo sapiens}
+Probab=84.73  E-value=0.6  Score=16.08  Aligned_cols=6  Identities=100%  Similarity=2.034  Sum_probs=4.5  Template_Neff=4.800
+
+Q ERGFFY            1 ERGFFY    6 (6)
+Q Consensus         1 ergffy    6 (6)
+                      +|||||
+T Consensus        21 ~rGF~~   26 (30)
+T 5URT_B           21 ERGFFY   26 (30)
+T ss_dssp             GGCBCC
+T ss_pred             CCccCC
+Confidence            478886
+
+
+No 2
+>3W7Y_B Insulin; Human insulin, hormone, glucose metabolism; 0.92A {Homo sapiens}
+Probab=66.34  E-value=5  Score=13.62  Aligned_cols=6  Identities=100%  Similarity=2.034  Sum_probs=3.9  Template_Neff=5.200
+
+Q ERGFFY            1 ERGFFY    6 (6)
+Q Consensus         1 ergffy    6 (6)
+                      +|||++
+T Consensus        21 ~rgf~~   26 (30)
+T 3W7Y_B           21 ERGFFY   26 (30)
+T ss_dssp             GGCEEE
+T ss_pred             CccccC
+Confidence            368875
+
+
+No 3
+>6SOF_F Insulin receptor (E.C.2.7.10.1), Insulin; cell surface receptor, insulin, tyrosine; 4.3A {Homo sapiens}
+Probab=66.34  E-value=5  Score=13.62  Aligned_cols=6  Identities=100%  Similarity=2.034  Sum_probs=3.9  Template_Neff=5.200
+
+Q ERGFFY            1 ERGFFY    6 (6)
+Q Consensus         1 ergffy    6 (6)
+                      +|||++
+T Consensus        21 ~rgf~~   26 (30)
+T 6SOF_F           21 ERGFFY   26 (30)
+T ss_dssp             SCCCCC
+T ss_pred             CccccC
+Confidence            368875
+
+
+No 4
+>6EVQ_B Microtubule-associated protein RP/EB family member; End-binding protein, EB1, microtubules, SxIP; HET: C05; NMR {Mus musculus}
+Probab=60.18  E-value=7.7  Score=14.32  Aligned_cols=6  Identities=50%  Similarity=1.420  Sum_probs=3.5  Template_Neff=6.700
+
+Q ERGFFY            1 ERGFFY    6 (6)
+Q Consensus         1 ergffy    6 (6)
+                      ||.|+|
+T Consensus        23 ERdFYf   28 (70)
+T 6EVQ_B           23 ERDFYF   28 (70)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            466665
+
+
+No 5
+>5N74_B Microtubule end binding protein; Microtubule end binding protein complex; 2.3A {Homo sapiens}
+Probab=59.07  E-value=8.3  Score=13.75  Aligned_cols=6  Identities=50%  Similarity=1.420  Sum_probs=3.5  Template_Neff=6.800
+
+Q ERGFFY            1 ERGFFY    6 (6)
+Q Consensus         1 ergffy    6 (6)
+                      ||.|+|
+T Consensus        23 ERdfYf   28 (58)
+T 5N74_B           23 ERDFYF   28 (58)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            466654
+
+
+No 6
+>5N74_C Microtubule end binding protein; Microtubule end binding protein complex; 2.3A {Homo sapiens}
+Probab=59.07  E-value=8.3  Score=13.75  Aligned_cols=6  Identities=50%  Similarity=1.420  Sum_probs=3.5  Template_Neff=6.800
+
+Q ERGFFY            1 ERGFFY    6 (6)
+Q Consensus         1 ergffy    6 (6)
+                      ||.|+|
+T Consensus        23 ERdfYf   28 (58)
+T 5N74_C           23 ERDFYF   28 (58)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            466654
+
+
+No 7
+>5JVM_B Kinesin-like protein KIF3C,Microtubule-associated protein RP/EB; kinesin, coiled-coil, MOTOR PROTEIN; 1.567A {Mus musculus}
+Probab=58.38  E-value=8.7  Score=14.08  Aligned_cols=6  Identities=50%  Similarity=1.420  Sum_probs=3.2  Template_Neff=7.500
+
+Q ERGFFY            1 ERGFFY    6 (6)
+Q Consensus         1 ergffy    6 (6)
+                      ||.|+|
+T Consensus        38 ERdfYf   43 (82)
+T 5JVM_B           38 ERDFYF   43 (82)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            455554
+
+
+No 8
+>5M9E_B Microtubule integrity protein mal3, Phosphoprotein; EB1 domain, microtubule-binding, coiled-coil, cell; 2.83A {Schizosaccharomyces pombe 972h-}
+Probab=57.33  E-value=9.4  Score=14.20  Aligned_cols=6  Identities=50%  Similarity=1.420  Sum_probs=3.4  Template_Neff=6.900
+
+Q ERGFFY            1 ERGFFY    6 (6)
+Q Consensus         1 ergffy    6 (6)
+                      ||.|+|
+T Consensus        31 ERdFYf   36 (77)
+T 5M9E_B           31 ERDFYF   36 (77)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            466654
+
+
+No 9
+>5M97_A Microtubule integrity protein mal3; EB1 domain, microtubule-binding, coiled-coil, cell; 1.33A {Schizosaccharomyces pombe (strain 972 / ATCC 24843)}
+Probab=55.67  E-value=10  Score=14.08  Aligned_cols=6  Identities=50%  Similarity=1.420  Sum_probs=3.4  Template_Neff=6.900
+
+Q ERGFFY            1 ERGFFY    6 (6)
+Q Consensus         1 ergffy    6 (6)
+                      ||.|+|
+T Consensus        31 ERdFYf   36 (77)
+T 5M97_A           31 ERDFYF   36 (77)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            466654
+
+
+No 10
+>5JVR_F Kinesin-like protein KIF3A,Kinesin heavy chain,Microtubule-associated; kinesin, coiled-coil, MOTOR PROTEIN; 2.1A {Mus musculus}
+Probab=55.23  E-value=11  Score=14.26  Aligned_cols=6  Identities=50%  Similarity=1.420  Sum_probs=3.4  Template_Neff=6.400
+
+Q ERGFFY            1 ERGFFY    6 (6)
+Q Consensus         1 ergffy    6 (6)
+                      ||.|+|
+T Consensus        31 ERdFYf   36 (75)
+T 5JVR_F           31 ERDFYF   36 (75)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            466654
+
+
+No 11
+>6VEE_A E3 ubiquitin-protein ligase UHRF1 (E.C.2.3.2.27); Histone, Tandem Tudor Domain, NP95; NMR {Mus musculus}
+Probab=52.15  E-value=13  Score=16.23  Aligned_cols=6  Identities=67%  Similarity=1.713  Sum_probs=4.1  Template_Neff=6.000
+
+Q ERGFFY            1 ERGFFY    6 (6)
+Q Consensus         1 ergffy    6 (6)
+                      ||||+|
+T Consensus       112 e~G~WY  117 (187)
+T 6VEE_A          112 KRGFWY  117 (187)
+T ss_dssp             SCCEEE
+T ss_pred             CCceEE
+Confidence            477776
+
+
+No 12
+>3MTU_D Microtubule-associated protein RP/EB family member; tropomysoin, overlap complex, coiled-coils, Contractile; HET: EOH, MSE, EDO; 2.1A {Gallus gallus}
+Probab=51.86  E-value=13  Score=13.59  Aligned_cols=6  Identities=17%  Similarity=1.259  Sum_probs=3.0  Template_Neff=7.200
+
+Q ERGFFY            1 ERGFFY    6 (6)
+Q Consensus         1 ergffy    6 (6)
+                      ||.|+|
+T Consensus        31 ErdfY~   36 (75)
+T 3MTU_D           31 DKDFYF   36 (75)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            455554
+
+
+No 13
+>5JVP_B Microtubule-associated protein RP/EB family member; kinesin, coiled-coil, MOTOR PROTEIN; HET: MSE; 2.1A {Homo sapiens}
+Probab=51.08  E-value=14  Score=14.57  Aligned_cols=6  Identities=50%  Similarity=1.420  Sum_probs=3.4  Template_Neff=6.000
+
+Q ERGFFY            1 ERGFFY    6 (6)
+Q Consensus         1 ergffy    6 (6)
+                      ||.|+|
+T Consensus        46 ERdFYf   51 (90)
+T 5JVP_B           46 ERDFYF   51 (90)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            466654
+
+
+No 14
+>1WU9_B Microtubule-associated protein RP/EB family member; EB1-like structural motif, APC/dynactin binding; 1.54A {Homo sapiens} SCOP: a.245.1.1
+Probab=47.92  E-value=17  Score=13.94  Aligned_cols=6  Identities=50%  Similarity=1.420  Sum_probs=3.3  Template_Neff=6.300
+
+Q ERGFFY            1 ERGFFY    6 (6)
+Q Consensus         1 ergffy    6 (6)
+                      ||.|+|
+T Consensus        25 ERdFYf   30 (80)
+T 1WU9_B           25 ERDFYF   30 (80)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            466654
+
+
+No 15
+>2HKQ_A Microtubule-associated protein RP/EB family member; microtubule binding, dynactin, cytoskeleton associated; 1.86A {Homo sapiens} SCOP: a.245.1.1
+Probab=47.10  E-value=18  Score=13.88  Aligned_cols=6  Identities=50%  Similarity=1.420  Sum_probs=3.3  Template_Neff=6.300
+
+Q ERGFFY            1 ERGFFY    6 (6)
+Q Consensus         1 ergffy    6 (6)
+                      ||.|+|
+T Consensus        25 ERdFYf   30 (80)
+T 2HKQ_A           25 ERDFYF   30 (80)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            456654
+
+
+No 16
+>5JVS_A Kinesin heavy chain,Microtubule-associated protein RP/EB; kinesin, coiled-coil, MOTOR PROTEIN; HET: EDO; 2.248A {Drosophila melanogaster}
+Probab=47.02  E-value=18  Score=13.97  Aligned_cols=6  Identities=50%  Similarity=1.420  Sum_probs=3.1  Template_Neff=6.500
+
+Q ERGFFY            1 ERGFFY    6 (6)
+Q Consensus         1 ergffy    6 (6)
+                      ||.|+|
+T Consensus        44 ERdfYf   49 (88)
+T 5JVS_A           44 ERDFYF   49 (88)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            455554
+
+
+No 17
+>4E61_A Protein BIM1; EB1-like motif, coiled-coil, spindle orientation; 2.45A {Saccharomyces cerevisiae}
+Probab=46.48  E-value=18  Score=14.59  Aligned_cols=6  Identities=50%  Similarity=1.370  Sum_probs=3.5  Template_Neff=6.000
+
+Q ERGFFY            1 ERGFFY    6 (6)
+Q Consensus         1 ergffy    6 (6)
+                      ||.|+|
+T Consensus        40 ERdFYF   45 (106)
+T 4E61_A           40 EREFYF   45 (106)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            466654
+
+
+No 18
+>1WU9_A Microtubule-associated protein RP/EB family member; EB1-like structural motif, APC/dynactin binding; 1.54A {Homo sapiens} SCOP: a.245.1.1
+Probab=45.89  E-value=19  Score=13.85  Aligned_cols=6  Identities=50%  Similarity=1.420  Sum_probs=3.3  Template_Neff=6.200
+
+Q ERGFFY            1 ERGFFY    6 (6)
+Q Consensus         1 ergffy    6 (6)
+                      ||.|+|
+T Consensus        25 ERdFYf   30 (80)
+T 1WU9_A           25 ERDFYF   30 (80)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            456654
+
+
+No 19
+>3TQ7_B Microtubule-associated protein RP/EB family member; CAP-Gly domain, protein-protein interaction, microtubule; 2.3A {Homo sapiens}
+Probab=44.07  E-value=21  Score=13.82  Aligned_cols=6  Identities=50%  Similarity=1.420  Sum_probs=3.3  Template_Neff=6.100
+
+Q ERGFFY            1 ERGFFY    6 (6)
+Q Consensus         1 ergffy    6 (6)
+                      ||.|+|
+T Consensus        23 ERdFYf   28 (82)
+T 3TQ7_B           23 ERDFYF   28 (82)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            456654
+
+
+No 20
+>6W92_A E3 ubiquitin-protein ligase UHRF1 (E.C.2.3.2.27); LIGASE; 1.3A {Homo sapiens}
+Probab=38.32  E-value=30  Score=14.60  Aligned_cols=6  Identities=83%  Similarity=1.846  Sum_probs=3.5  Template_Neff=6.600
+
+Q ERGFFY            1 ERGFFY    6 (6)
+Q Consensus         1 ergffy    6 (6)
+                      +|||+|
+T Consensus       115 ~~G~WY  120 (164)
+T 6W92_A          115 ERGFWY  120 (164)
+T ss_dssp             SCCEEE
+T ss_pred             cCCeeE
+Confidence            366665
+
+
+No 21
+>7ANE_q mL94, mL89, Ribosomal protein L3-like; Ribosome, Mitochondria, Kinetoplastid; HET: NAD; 3.9A {Leishmania major}
+Probab=35.09  E-value=36  Score=18.13  Aligned_cols=6  Identities=83%  Similarity=1.613  Sum_probs=4.4  Template_Neff=1.800
+
+Q ERGFFY            1 ERGFFY    6 (6)
+Q Consensus         1 ergffy    6 (6)
+                      ||-|||
+T Consensus       127 erqffy  132 (425)
+T 7ANE_q          127 ERQFFY  132 (425)
+T ss_pred             HHHHHH
+Confidence            577887
+
+
+No 22
+>5JVU_A Kinesin heavy chain,Microtubule-associated protein RP/EB; kinesin, coiled-coil, MOTOR PROTEIN; HET: EDO; 1.948A {Drosophila melanogaster}
+Probab=34.99  E-value=36  Score=12.80  Aligned_cols=6  Identities=50%  Similarity=1.420  Sum_probs=2.6  Template_Neff=7.000
+
+Q ERGFFY            1 ERGFFY    6 (6)
+Q Consensus         1 ergffy    6 (6)
+                      ||.|+|
+T Consensus        41 Erdfyf   46 (85)
+T 5JVU_A           41 ERDFYF   46 (85)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            344443
+
+
+No 23
+>6SGA_Cd ?; mitochondrial ribosome, assembly intermediate, translation; HET: UBD, PM8; 3.1A {Trypanosoma brucei brucei}
+Probab=34.60  E-value=37  Score=18.15  Aligned_cols=6  Identities=67%  Similarity=1.464  Sum_probs=4.4  Template_Neff=1.800
+
+Q ERGFFY            1 ERGFFY    6 (6)
+Q Consensus         1 ergffy    6 (6)
+                      ||-|||
+T Consensus       128 erqffy  133 (440)
+T 6SGA_Cd         128 ERQFFF  133 (440)
+T ss_pred             HHHHHH
+Confidence            577887
+
+
+No 24
+>6HIY_Cd Uncharacterized protein, mS74, 30S ribosomal; mitoribosome, translation, Trypanosoma, small ribosomal; HET: MG, SPD, SPM; 3.27A {Trypanosoma brucei brucei}
+Probab=34.05  E-value=39  Score=18.10  Aligned_cols=6  Identities=67%  Similarity=1.464  Sum_probs=4.4  Template_Neff=1.800
+
+Q ERGFFY            1 ERGFFY    6 (6)
+Q Consensus         1 ergffy    6 (6)
+                      ||-|||
+T Consensus       128 erqffy  133 (440)
+T 6HIY_Cd         128 ERQFFF  133 (440)
+T ss_pred             HHHHHH
+Confidence            577886
+
+
+No 25
+>4TVR_A UBIQUITIN-PROTEIN LIGASE UHRF2 (E.C.6.3.2.-); Structural Genomics Consortium (SGC), Tandem; 2.29A {Homo sapiens}
+Probab=32.82  E-value=42  Score=15.35  Aligned_cols=6  Identities=50%  Similarity=1.591  Sum_probs=3.7  Template_Neff=6.400
+
+Q ERGFFY            1 ERGFFY    6 (6)
+Q Consensus         1 ergffy    6 (6)
+                      ||||+|
+T Consensus       144 e~G~Wy  149 (280)
+T 4TVR_A          144 QRGFWF  149 (280)
+T ss_dssp             SCCEEE
+T ss_pred             ccccce
+Confidence            467665
+
+
+No 26
+>2R8U_B Microtubule-associated protein RP/EB family member; cytoskeleton, Cell cycle, Cell division; 1.35A {Homo sapiens} SCOP: a.40.1.1
+Probab=21.72  E-value=89  Score=14.27  Aligned_cols=6  Identities=50%  Similarity=1.420  Sum_probs=0.0  Template_Neff=6.400
+
+Q ERGFFY            1 ERGFFY    6 (6)
+Q Consensus         1 ergffy    6 (6)
+                      ||-|+|
+T Consensus       213 ERDFYf  218 (268)
+T 2R8U_B          213 ERDFYF  218 (268)
+T ss_dssp             ------
+T ss_pred             HHHHHH
+Confidence            455654
+
+

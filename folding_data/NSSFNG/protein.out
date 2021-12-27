@@ -1,0 +1,149 @@
+Query         NSSFNG
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 04:30:55 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NSSFNG/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NSSFNG/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6LEA_C Flagellar secretion cha  10.2 2.8E+02  0.0031   12.2   0.0    6    1-6      91-96  (177)
+  2 2YC1_E SINGLE CHAIN ANTIBODY F   8.9 3.4E+02  0.0037    8.6   0.0    5    2-6     134-138 (146)
+  3 2H4O_B YonK protein; PSI, PROT   8.9 3.4E+02  0.0037   11.6   0.0    5    2-6      40-44  (76)
+  4 5ZIY_A PadR family transcripti   8.6 3.5E+02  0.0039   10.8   0.0    6    1-6      88-93  (213)
+  5 6JHW_C AcrIIC3, CRISPR-associa   8.4 3.6E+02   0.004   12.5   0.0    4    3-6      11-14  (117)
+  6 6JE4_J CRISPR-associated endon   8.3 3.7E+02  0.0041   12.5   0.0    4    3-6      11-14  (117)
+  7 5Z7Q_A Flagellin; Bacteria, Fl   8.2 3.7E+02  0.0041   10.5   0.0    6    1-6      73-79  (176)
+  8 6J9N_B CRISPR-associated endon   8.2 3.7E+02  0.0041   12.5   0.0    4    3-6      12-15  (118)
+  9 1ZC1_A Ubiquitin fusion degrad   7.7 4.1E+02  0.0045   10.9   0.0    5    2-6       6-10  (208)
+ 10 4A8J_E ELONGATOR COMPLEX PROTE   7.7 4.1E+02  0.0045   11.3   0.0    5    1-5     255-259 (270)
+
+No 1
+>6LEA_C Flagellar secretion chaperone FliS, Uncharacterized; Flagellar, chaperone, complex; 2.95A {Helicobacter pylori CPY1124}
+Probab=10.23  E-value=2.8e+02  Score=12.23  Aligned_cols=6  Identities=33%  Similarity=0.478  Sum_probs=0.0  Template_Neff=6.000
+
+Q NSSFNG            1 NSSFNG    6 (6)
+Q Consensus         1 nssfng    6 (6)
+                      ++.|||
+T Consensus        91 ~T~FNg   96 (177)
+T 6LEA_C           91 NCQFLA   96 (177)
+T ss_dssp             HCBSSS
+T ss_pred             HhcccC
+
+
+No 2
+>2YC1_E SINGLE CHAIN ANTIBODY FRAGMENT 9004G; IMMUNE SYSTEM-TOXIN COMPLEX, SCORPION TOXIN; HET: GOL; 1.9A {CENTRUROIDES NOXIUS HOFFMANN}
+Probab=8.90  E-value=3.4e+02  Score=8.60  Aligned_cols=5  Identities=40%  Similarity=0.873  Sum_probs=0.0  Template_Neff=12.400
+
+Q NSSFNG            2 SSFNG    6 (6)
+Q Consensus         2 ssfng    6 (6)
+                      .+|||
+T Consensus       134 ~~~~~  138 (146)
+T 2YC1_E          134 EDLNG  138 (146)
+T ss_dssp             -----
+T ss_pred             HHhcc
+
+
+No 3
+>2H4O_B YonK protein; PSI, PROTEIN STRUCTURE INITIATIVE, NORTHEAST; HET: MSE; 2.8A {Bacillus subtilis} SCOP: d.368.1.1
+Probab=8.86  E-value=3.4e+02  Score=11.55  Aligned_cols=5  Identities=80%  Similarity=1.318  Sum_probs=0.0  Template_Neff=3.100
+
+Q NSSFNG            2 SSFNG    6 (6)
+Q Consensus         2 ssfng    6 (6)
+                      ++|||
+T Consensus        40 ~~F~g   44 (76)
+T 2H4O_B           40 SEFNG   44 (76)
+T ss_dssp             HTTTT
+T ss_pred             HHhCC
+
+
+No 4
+>5ZIY_A PadR family transcriptional regulator; flagellum, junction, STRUCTURAL PROTEIN; 2.2A {Bacillus cereus}
+Probab=8.57  E-value=3.5e+02  Score=10.78  Aligned_cols=6  Identities=33%  Similarity=0.490  Sum_probs=0.0  Template_Neff=9.200
+
+Q NSSFNG            1 NSSFNG    6 (6)
+Q Consensus         1 nssfng    6 (6)
+                      |++|+|
+T Consensus        88 Nt~~~g   93 (213)
+T 5ZIY_A           88 NTKEQG   93 (213)
+T ss_dssp             TCEETT
+T ss_pred             hcccCC
+
+
+No 5
+>6JHW_C AcrIIC3, CRISPR-associated endonuclease Cas9 (E.C.3.1.-.-); Inhibitor, PROTEIN BINDING, PROTEIN BINDING-HYDROLASE; 2.04A {Neisseria meningitidis}
+Probab=8.43  E-value=3.6e+02  Score=12.51  Aligned_cols=4  Identities=100%  Similarity=1.630  Sum_probs=0.0  Template_Neff=1.100
+
+Q NSSFNG            3 SFNG    6 (6)
+Q Consensus         3 sfng    6 (6)
+                      ||||
+T Consensus        11 sfng   14 (117)
+T 6JHW_C           11 SFNG   14 (117)
+T ss_dssp             EESS
+T ss_pred             ccCC
+
+
+No 6
+>6JE4_J CRISPR-associated endonuclease Cas9, AcrIIC3/DNA/RNA Complex; CRISPR-Cas9, NmeCas9, Nme1Cas9, AcrIIC3, anti-CRISPR; HET: PEG, EDO; 3.069A {Neisseria meningitidis 8013}
+Probab=8.31  E-value=3.7e+02  Score=12.49  Aligned_cols=4  Identities=100%  Similarity=1.630  Sum_probs=0.0  Template_Neff=1.100
+
+Q NSSFNG            3 SFNG    6 (6)
+Q Consensus         3 sfng    6 (6)
+                      ||||
+T Consensus        11 sfng   14 (117)
+T 6JE4_J           11 SFNG   14 (117)
+T ss_dssp             EECS
+T ss_pred             ccCC
+
+
+No 7
+>5Z7Q_A Flagellin; Bacteria, Flagellin, Adjuvant, IMMUNE SYSTEM; 1.85A {Bacillus cereus (strain ATCC 14579 / DSM 31 / JCM 2152 / NBRC 15305 / NCIMB 9373 / NRRL B-3711)}
+Probab=8.23  E-value=3.7e+02  Score=10.48  Aligned_cols=6  Identities=50%  Similarity=1.043  Sum_probs=0.0  Template_Neff=9.000
+
+Q NSSFNG            1 NS-SFNG    6 (6)
+Q Consensus         1 ns-sfng    6 (6)
+                      |+ +|||
+T Consensus        73 n~~~~~g   79 (176)
+T 5Z7Q_A           73 GKTNFNG   79 (176)
+T ss_dssp             HHCCBTT
+T ss_pred             cccccCC
+
+
+No 8
+>6J9N_B CRISPR-associated endonuclease Cas9 (E.C.3.1.-.-), AcrIIC3; AcrIIC3, HYDROLASE-HYDROLASE INHIBITOR complex; HET: MSE; 2.606A {Neisseria meningitidis}
+Probab=8.20  E-value=3.7e+02  Score=12.48  Aligned_cols=4  Identities=100%  Similarity=1.630  Sum_probs=0.0  Template_Neff=1.100
+
+Q NSSFNG            3 SFNG    6 (6)
+Q Consensus         3 sfng    6 (6)
+                      ||||
+T Consensus        12 sfng   15 (118)
+T 6J9N_B           12 SFNG   15 (118)
+T ss_dssp             EECS
+T ss_pred             cccc
+
+
+No 9
+>1ZC1_A Ubiquitin fusion degradation protein 1; Ufd1, double-psi-beta-barrel, PROTEIN TURNOVER; NMR {Saccharomyces cerevisiae}
+Probab=7.71  E-value=4.1e+02  Score=10.95  Aligned_cols=5  Identities=80%  Similarity=1.225  Sum_probs=0.0  Template_Neff=8.400
+
+Q NSSFNG            2 SSFNG    6 (6)
+Q Consensus         2 ssfng    6 (6)
+                      |||.|
+T Consensus         6 ~~~~~   10 (208)
+T 1ZC1_A            6 SSFGG   10 (208)
+T ss_dssp             CCCCC
+T ss_pred             ccccC
+
+
+No 10
+>4A8J_E ELONGATOR COMPLEX PROTEIN 4, ELONGATOR; TRANSCRIPTION; 2.1A {SACCHAROMYCES CEREVISIAE}
+Probab=7.67  E-value=4.1e+02  Score=11.30  Aligned_cols=5  Identities=40%  Similarity=0.720  Sum_probs=0.0  Template_Neff=8.600
+
+Q NSSFNG            1 NSSFN    5 (6)
+Q Consensus         1 nssfn    5 (6)
+                      |.+||
+T Consensus       255 ~ltFN  259 (270)
+T 4A8J_E          255 LTTFN  259 (270)
+T ss_pred             CCccc
+
+

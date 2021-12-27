@@ -1,0 +1,149 @@
+Query         HQLIIM
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 07:05:24 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/HQLIIM/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/HQLIIM/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 1ORJ_A flagellar protein FliS;   8.0 3.9E+02  0.0043   10.5   0.0    6    1-6      19-24  (130)
+  2 1XOY_A hypothetical protein At   7.5 4.2E+02  0.0047   11.2   0.0    5    1-5      58-62  (161)
+  3 2L5G_A G protein pathway suppr   7.3 4.4E+02  0.0049   10.0   0.0    5    1-5      32-36  (38)
+  4 1EHS_A HEAT-STABLE ENTEROTOXIN   6.8 4.8E+02  0.0053   10.6   0.0    5    1-5      14-18  (48)
+  5 1ORJ_B flagellar protein FliS;   6.4 5.2E+02  0.0057   10.2   0.0    6    1-6      19-24  (130)
+  6 5FWK_E HEAT SHOCK PROTEIN HSP    6.1 5.5E+02  0.0061   12.8   0.0    6    1-6     211-216 (378)
+  7 2IEL_A Hypothetical Protein TT   5.9 5.8E+02  0.0064    8.8   0.0    6    1-6      99-104 (138)
+  8 1WWY_A Thioredoxin-like protei   5.8 5.9E+02  0.0065   11.0   0.0    5    1-5      49-53  (171)
+  9 4WJM_A fructokinase (E.C.2.7.1   5.4 6.5E+02  0.0072   10.1   0.0    6    1-6       5-10  (312)
+ 10 1H7D_A AMINOLEVULINIC ACID SYN   5.2 6.8E+02  0.0075   10.2   0.0    6    1-6      29-34  (49)
+
+No 1
+>1ORJ_A flagellar protein FliS; flagellin, flagellar export, chaperone, flagellum; 2.25A {Aquifex aeolicus} SCOP: a.24.19.1
+Probab=7.96  E-value=3.9e+02  Score=10.46  Aligned_cols=6  Identities=33%  Similarity=0.501  Sum_probs=0.0  Template_Neff=7.800
+
+Q HQLIIM            1 HQLIIM    6 (6)
+Q Consensus         1 hqliim    6 (6)
+                      ++|++|
+T Consensus        19 ~~Li~~   24 (130)
+T 1ORJ_A           19 LEQIIL   24 (130)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 2
+>1XOY_A hypothetical protein At3g04780.1; Structural Genomics, Protein Structure Initiative; NMR {Arabidopsis thaliana} SCOP: b.18.1.26
+Probab=7.49  E-value=4.2e+02  Score=11.23  Aligned_cols=5  Identities=60%  Similarity=0.926  Sum_probs=0.0  Template_Neff=6.700
+
+Q HQLIIM            1 HQLII    5 (6)
+Q Consensus         1 hqlii    5 (6)
+                      +||||
+T Consensus        58 ~qLli   62 (161)
+T 1XOY_A           58 EQLLI   62 (161)
+T ss_dssp             SSEEE
+T ss_pred             CeEEE
+
+
+No 3
+>2L5G_A G protein pathway suppressor 2; GPS2, SMRT, TBL1, co-repressor, TRANSCRIPTION; NMR {Homo sapiens}
+Probab=7.28  E-value=4.4e+02  Score=9.99  Aligned_cols=5  Identities=60%  Similarity=1.099  Sum_probs=0.0  Template_Neff=3.100
+
+Q HQLIIM            1 HQLII    5 (6)
+Q Consensus         1 hqlii    5 (6)
+                      |||..
+T Consensus        32 HQLFl   36 (38)
+T 2L5G_A           32 HQLFL   36 (38)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 4
+>1EHS_A HEAT-STABLE ENTEROTOXIN B; HEAT-STABLE, ENTEROTOXIN, DISULFIDE; NMR {Escherichia coli} SCOP: g.2.1.1
+Probab=6.84  E-value=4.8e+02  Score=10.63  Aligned_cols=5  Identities=20%  Similarity=0.215  Sum_probs=0.0  Template_Neff=1.400
+
+Q HQLIIM            1 HQLII    5 (6)
+Q Consensus         1 hqlii    5 (6)
+                      ||.|+
+T Consensus        14 ~Q~~~   18 (48)
+T 1EHS_A           14 RQIAK   18 (48)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 5
+>1ORJ_B flagellar protein FliS; flagellin, flagellar export, chaperone, flagellum; 2.25A {Aquifex aeolicus} SCOP: a.24.19.1
+Probab=6.42  E-value=5.2e+02  Score=10.21  Aligned_cols=6  Identities=33%  Similarity=0.501  Sum_probs=0.0  Template_Neff=7.600
+
+Q HQLIIM            1 HQLIIM    6 (6)
+Q Consensus         1 hqliim    6 (6)
+                      ++|++|
+T Consensus        19 ~~Li~~   24 (130)
+T 1ORJ_B           19 LEQIIL   24 (130)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 6
+>5FWK_E HEAT SHOCK PROTEIN HSP 90; SIGNALING PROTEIN, HSP90, CDC37, CDK4; HET: SEP, ATP; 3.9A {HOMO SAPIENS}
+Probab=6.14  E-value=5.5e+02  Score=12.80  Aligned_cols=6  Identities=67%  Similarity=1.043  Sum_probs=0.0  Template_Neff=5.700
+
+Q HQLIIM            1 HQLIIM    6 (6)
+Q Consensus         1 hqliim    6 (6)
+                      ||-++|
+T Consensus       211 hQalvl  216 (378)
+T 5FWK_E          211 HQTIVM  216 (378)
+T ss_pred             HHHHHH
+
+
+No 7
+>2IEL_A Hypothetical Protein TT0030; TT0030,Thermus Thermophilus, STRUCTURAL GENOMICS, PSI; 1.6A {Thermus thermophilus} SCOP: c.26.2.4
+Probab=5.89  E-value=5.8e+02  Score=8.82  Aligned_cols=6  Identities=33%  Similarity=0.335  Sum_probs=0.0  Template_Neff=10.600
+
+Q HQLIIM            1 HQLIIM    6 (6)
+Q Consensus         1 hqliim    6 (6)
+                      ..||+|
+T Consensus        99 ~dliv~  104 (138)
+T 2IEL_A           99 YQGIVL  104 (138)
+T ss_dssp             CSEEEE
+T ss_pred             cCEEEE
+
+
+No 8
+>1WWY_A Thioredoxin-like protein 1; structural genomics, hypothetical protein, regulatory; NMR {Homo sapiens}
+Probab=5.79  E-value=5.9e+02  Score=11.00  Aligned_cols=5  Identities=60%  Similarity=0.926  Sum_probs=0.0  Template_Neff=6.500
+
+Q HQLIIM            1 HQLII    5 (6)
+Q Consensus         1 hqlii    5 (6)
+                      +||||
+T Consensus        49 ~qLLi   53 (171)
+T 1WWY_A           49 EQLLI   53 (171)
+T ss_dssp             SCCEE
+T ss_pred             CeEEE
+
+
+No 9
+>4WJM_A fructokinase (E.C.2.7.1.4); Fructokinase, Brucella melitensis biovar Abortus; HET: ANP; 1.7A {Brucella abortus}
+Probab=5.35  E-value=6.5e+02  Score=10.14  Aligned_cols=6  Identities=33%  Similarity=0.883  Sum_probs=0.0  Template_Neff=10.400
+
+Q HQLIIM            1 HQLIIM    6 (6)
+Q Consensus         1 hqliim    6 (6)
+                      |.+|+|
+T Consensus         5 ~~~~~~   10 (312)
+T 4WJM_A            5 HHMILC   10 (312)
+T ss_dssp             CSEEEE
+T ss_pred             ccceee
+
+
+No 10
+>1H7D_A AMINOLEVULINIC ACID SYNTHASE 2, ERYTHROID; ACYLTRANSFERASE, ALAS, PRESEQUENCE; NMR {N/A} SCOP: j.88.1.1
+Probab=5.21  E-value=6.8e+02  Score=10.22  Aligned_cols=6  Identities=17%  Similarity=0.274  Sum_probs=0.0  Template_Neff=1.700
+
+Q HQLIIM            1 HQLIIM    6 (6)
+Q Consensus         1 hqliim    6 (6)
+                      ||+..|
+T Consensus        29 ~q~Lf~   34 (49)
+T 1H7D_A           29 YQFLFS   34 (49)
+T ss_dssp             HHHHSS
+T ss_pred             HHHHhh
+
+

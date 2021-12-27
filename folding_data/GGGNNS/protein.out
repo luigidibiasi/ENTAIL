@@ -1,0 +1,145 @@
+Query         GGGNNS
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 00:19:23 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GGGNNS/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GGGNNS/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4BML_G MAJOR CAPSID PROTEIN; V  13.2 1.9E+02  0.0021   11.9   0.0    5    1-5      15-19  (332)
+  2 3QDP_A Protein tolA; TolA, Tra  12.3 2.1E+02  0.0024   10.7   0.0    6    1-6      17-22  (127)
+  3 3QDR_A Protein tolA, Colicin-A  12.3 2.1E+02  0.0024   10.7   0.0    6    1-6      17-22  (127)
+  4 2WYO_A GLUTATHIONE SYNTHETASE   12.1 2.2E+02  0.0024   13.9   0.0    5    1-5     440-444 (562)
+  5 3RSQ_A Putative uncharacterize  11.9 2.3E+02  0.0025   13.2   0.0    5    1-5      60-64  (502)
+  6 7EVW_C minGas, Ggamma, Nb35, F  11.6 2.3E+02  0.0026   11.4   0.0    6    1-6       7-12  (96)
+  7 3RSS_A Putative uncharacterize  11.4 2.4E+02  0.0027   13.0   0.0    6    1-6      60-65  (502)
+  8 3RTA_A Putative uncharacterize  11.4 2.4E+02  0.0027   13.0   0.0    6    1-6      60-65  (502)
+  9 1ZC1_A Ubiquitin fusion degrad  11.3 2.4E+02  0.0027   11.6   0.0    4    1-4       9-12  (208)
+ 10 5MP3_C antibody Fab heavy chai  11.2 2.5E+02  0.0027    9.9   0.0    4    1-4      11-14  (30)
+
+No 1
+>4BML_G MAJOR CAPSID PROTEIN; VIRUS, MARINE VIRUS, OUTER CAPSID; 4.7A {SYNECHOCOCCUS PHAGE SYN5}
+Probab=13.21  E-value=1.9e+02  Score=11.88  Aligned_cols=5  Identities=60%  Similarity=1.185  Sum_probs=0.0  Template_Neff=10.000
+
+Q GGGNNS            1 GGGNN    5 (6)
+Q Consensus         1 gggnn    5 (6)
+                      |+|||
+T Consensus        15 ~~~~~   19 (332)
+T 4BML_G           15 GGARN   19 (332)
+T ss_pred             CCCCC
+
+
+No 2
+>3QDP_A Protein tolA; TolA, Translocation, colicin, TolB, ColA; 2.15A {Escherichia coli}
+Probab=12.32  E-value=2.1e+02  Score=10.74  Aligned_cols=6  Identities=50%  Similarity=1.149  Sum_probs=0.0  Template_Neff=8.600
+
+Q GGGNNS            1 GGGNNS    6 (6)
+Q Consensus         1 gggnns    6 (6)
+                      |+|+++
+T Consensus        17 ~~~~~~   22 (127)
+T 3QDP_A           17 GGGAKG   22 (127)
+T ss_pred             CCCCCC
+
+
+No 3
+>3QDR_A Protein tolA, Colicin-A; ColA, TolA, Complex, translocation, ColA; 2.65A {Escherichia coli}
+Probab=12.32  E-value=2.1e+02  Score=10.74  Aligned_cols=6  Identities=50%  Similarity=1.149  Sum_probs=0.0  Template_Neff=8.600
+
+Q GGGNNS            1 GGGNNS    6 (6)
+Q Consensus         1 gggnns    6 (6)
+                      |+|+++
+T Consensus        17 ~~~~~~   22 (127)
+T 3QDR_A           17 GGGAKG   22 (127)
+T ss_pred             CCCCCC
+
+
+No 4
+>2WYO_A GLUTATHIONE SYNTHETASE (E.C.6.3.2.3); LIGASE, ATP-GRASP; HET: SO4, GSH; 3.15A {TRYPANOSOMA BRUCEI}
+Probab=12.09  E-value=2.2e+02  Score=13.89  Aligned_cols=5  Identities=80%  Similarity=1.371  Sum_probs=0.0  Template_Neff=7.600
+
+Q GGGNNS            1 GGGNN    5 (6)
+Q Consensus         1 gggnn    5 (6)
+                      |||||
+T Consensus       440 gGGn~  444 (562)
+T 2WYO_A          440 GGGNL  444 (562)
+T ss_dssp             CCSSH
+T ss_pred             CCCcc
+
+
+No 5
+>3RSQ_A Putative uncharacterized protein (E.C.4.2.1.93), Unknown; Unknown function, ADP/ATP-dependent NAD(P)H-hydrate dehydratase; HET: NAI, NAX; 2.054A {Escherichia coli}
+Probab=11.85  E-value=2.3e+02  Score=13.15  Aligned_cols=5  Identities=100%  Similarity=1.823  Sum_probs=0.0  Template_Neff=8.600
+
+Q GGGNNS            1 GGGNN    5 (6)
+Q Consensus         1 gggnn    5 (6)
+                      |.|||
+T Consensus        60 G~GnN   64 (502)
+T 3RSQ_A           60 GGGNN   64 (502)
+T ss_dssp             CSSHH
+T ss_pred             CCCcc
+
+
+No 6
+>7EVW_C minGas, Ggamma, Nb35, Frizzled-7, Guanine; GPCR, Class F, Frizzled, Fzd7; 3.22A {Homo sapiens}
+Probab=11.57  E-value=2.3e+02  Score=11.38  Aligned_cols=6  Identities=67%  Similarity=1.392  Sum_probs=0.0  Template_Neff=5.900
+
+Q GGGNNS            1 GGGNNS    6 (6)
+Q Consensus         1 gggnns    6 (6)
+                      |||..|
+T Consensus         7 ~~~~~~   12 (96)
+T 7EVW_C            7 GGGSDS   12 (96)
+T ss_pred             CCCccc
+
+
+No 7
+>3RSS_A Putative uncharacterized protein (E.C.4.2.1.93), Unknown; Unknown function, ADP/ATP-dependent NAD(P)H-hydrate dehydratase; HET: NAP; 1.953A {Escherichia coli}
+Probab=11.36  E-value=2.4e+02  Score=12.97  Aligned_cols=6  Identities=83%  Similarity=1.542  Sum_probs=0.0  Template_Neff=8.800
+
+Q GGGNNS            1 GGGNNS    6 (6)
+Q Consensus         1 gggnns    6 (6)
+                      |.|||.
+T Consensus        60 G~gnNG   65 (502)
+T 3RSS_A           60 GGGNNG   65 (502)
+T ss_dssp             CSSHHH
+T ss_pred             cCCchH
+
+
+No 8
+>3RTA_A Putative uncharacterized protein (E.C.4.2.1.93), Unknown; Unknown function, ADP/ATP-dependent NAD(P)H-hydrate dehydratase; HET: ACO; 1.95A {Escherichia coli}
+Probab=11.36  E-value=2.4e+02  Score=12.97  Aligned_cols=6  Identities=83%  Similarity=1.542  Sum_probs=0.0  Template_Neff=8.800
+
+Q GGGNNS            1 GGGNNS    6 (6)
+Q Consensus         1 gggnns    6 (6)
+                      |.|||.
+T Consensus        60 G~gnNG   65 (502)
+T 3RTA_A           60 GGGNNG   65 (502)
+T ss_dssp             CSSHHH
+T ss_pred             cCCchH
+
+
+No 9
+>1ZC1_A Ubiquitin fusion degradation protein 1; Ufd1, double-psi-beta-barrel, PROTEIN TURNOVER; NMR {Saccharomyces cerevisiae}
+Probab=11.27  E-value=2.4e+02  Score=11.57  Aligned_cols=4  Identities=100%  Similarity=1.963  Sum_probs=0.0  Template_Neff=8.400
+
+Q GGGNNS            1 GGGN    4 (6)
+Q Consensus         1 gggn    4 (6)
+                      ||||
+T Consensus         9 ~~~~   12 (208)
+T 1ZC1_A            9 GGGN   12 (208)
+T ss_dssp             CCST
+T ss_pred             cCCC
+
+
+No 10
+>5MP3_C antibody Fab heavy chain, antibody; Antibody Fab, complex, tau protein; HET: PCA; 2.75A {Mus musculus}
+Probab=11.19  E-value=2.5e+02  Score=9.91  Aligned_cols=4  Identities=75%  Similarity=1.722  Sum_probs=0.0  Template_Neff=4.000
+
+Q GGGNNS            1 GGGN    4 (6)
+Q Consensus         1 gggn    4 (6)
+                      ||||
+T Consensus        11 gGG~   14 (30)
+T 5MP3_C           11 GGGS   14 (30)
+T ss_pred             CCCC
+
+

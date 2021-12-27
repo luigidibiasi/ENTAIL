@@ -1,0 +1,149 @@
+Query         NYNNSG
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 05:11:36 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NYNNSG/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NYNNSG/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3QDR_B Protein tolA, Colicin-A   8.4 3.6E+02   0.004   11.3   0.0    6    1-6      31-36  (63)
+  2 6OOL_A Netrin receptor UNC5B;    8.2 3.7E+02  0.0041   10.3   0.0    5    2-6     344-348 (350)
+  3 4TZM_A Protein HTP-2,  C. eleg   8.1 3.8E+02  0.0042   11.4   0.0    5    1-5       7-11  (253)
+  4 7OBR_s SRP SRP receptor, co-tr   8.1 3.8E+02  0.0042   11.5   0.0    6    1-6      40-45  (67)
+  5 2FUP_A hypothetical protein PA   8.0 3.9E+02  0.0043   10.0   0.0    6    1-6     138-143 (157)
+  6 5ODU_D PllA; PllA, Complex, Le   7.7 4.1E+02  0.0045   10.7   0.0    4    3-6     103-106 (122)
+  7 5OFI_A Uncharacterized protein   7.7 4.1E+02  0.0045   10.7   0.0    4    3-6     103-106 (122)
+  8 5OFX_G Uncharacterized protein   7.7 4.1E+02  0.0045   10.7   0.0    4    3-6     103-106 (122)
+  9 4CP9_D PA-I GALACTOPHILIC LECT   7.4 4.3E+02  0.0048   10.4   0.0    4    3-6     107-110 (121)
+ 10 4LK6_C PA-I galactophilic lect   7.4 4.3E+02  0.0048   10.4   0.0    4    3-6     107-110 (121)
+
+No 1
+>3QDR_B Protein tolA, Colicin-A; ColA, TolA, Complex, translocation, ColA; 2.65A {Escherichia coli}
+Probab=8.39  E-value=3.6e+02  Score=11.35  Aligned_cols=6  Identities=33%  Similarity=0.385  Sum_probs=0.0  Template_Neff=2.200
+
+Q NYNNSG            1 NYNNSG    6 (6)
+Q Consensus         1 nynnsg    6 (6)
+                      +|+||+
+T Consensus        31 t~enS~   36 (63)
+T 3QDR_B           31 TADNSS   36 (63)
+T ss_dssp             CTTTCE
+T ss_pred             cccCcc
+
+
+No 2
+>6OOL_A Netrin receptor UNC5B; cell signaling, netrin, dependence receptor; HET: FUC, MAN, NAG, CL; 2.8A {Mus musculus}
+Probab=8.23  E-value=3.7e+02  Score=10.26  Aligned_cols=5  Identities=40%  Similarity=0.680  Sum_probs=0.0  Template_Neff=11.900
+
+Q NYNNSG            2 YNNSG    6 (6)
+Q Consensus         2 ynnsg    6 (6)
+                      ||+++
+T Consensus       344 ~~~~~  348 (350)
+T 6OOL_A          344 LETSG  348 (350)
+T ss_dssp             -----
+T ss_pred             CCCCC
+
+
+No 3
+>4TZM_A Protein HTP-2,  C. elegans; HORMA domain, Meiosis, Chromosome axis; 2.3A {Caenorhabditis elegans}
+Probab=8.12  E-value=3.8e+02  Score=11.37  Aligned_cols=5  Identities=80%  Similarity=1.232  Sum_probs=0.0  Template_Neff=8.400
+
+Q NYNNSG            1 NYNNS    5 (6)
+Q Consensus         1 nynns    5 (6)
+                      |||.|
+T Consensus         7 ~~~~~   11 (253)
+T 4TZM_A            7 NYNES   11 (253)
+T ss_dssp             CTTTC
+T ss_pred             ccchh
+
+
+No 4
+>7OBR_s SRP SRP receptor, co-translational protein; HET: GDP, MG; 2.8A {Canis lupus familiaris}
+Probab=8.12  E-value=3.8e+02  Score=11.48  Aligned_cols=6  Identities=67%  Similarity=1.276  Sum_probs=0.0  Template_Neff=1.000
+
+Q NYNNSG            1 NYNNSG    6 (6)
+Q Consensus         1 nynnsg    6 (6)
+                      ||.|.|
+T Consensus        40 nytndg   45 (67)
+T 7OBR_s           40 NYTNDG   45 (67)
+T ss_pred             cccCCC
+
+
+No 5
+>2FUP_A hypothetical protein PA3352; Structural genomics, Joint Center for; 1.48A {Pseudomonas aeruginosa} SCOP: a.47.5.1
+Probab=8.03  E-value=3.9e+02  Score=10.01  Aligned_cols=6  Identities=33%  Similarity=0.794  Sum_probs=0.0  Template_Neff=9.500
+
+Q NYNNSG            1 NYNNSG    6 (6)
+Q Consensus         1 nynnsg    6 (6)
+                      .|+.+|
+T Consensus       138 tY~~~G  143 (157)
+T 2FUP_A          138 LYDSRG  143 (157)
+T ss_dssp             ------
+T ss_pred             ccCCCC
+
+
+No 6
+>5ODU_D PllA; PllA, Complex, Lectin, CARBOHYDRATE, sugar; HET: AMG; 1.56A {Photorhabdus luminescens}
+Probab=7.74  E-value=4.1e+02  Score=10.66  Aligned_cols=4  Identities=75%  Similarity=1.232  Sum_probs=0.0  Template_Neff=7.000
+
+Q NYNNSG            3 NNSG    6 (6)
+Q Consensus         3 nnsg    6 (6)
+                      ||+|
+T Consensus       103 dNsG  106 (122)
+T 5ODU_D          103 DNSG  106 (122)
+T ss_dssp             GCBC
+T ss_pred             CCeE
+
+
+No 7
+>5OFI_A Uncharacterized protein; PIIA, Complex, Lectin, SUGAR BINDING; HET: 9TQ; 2.0A {Photorhabdus luminescens}
+Probab=7.74  E-value=4.1e+02  Score=10.66  Aligned_cols=4  Identities=75%  Similarity=1.232  Sum_probs=0.0  Template_Neff=7.000
+
+Q NYNNSG            3 NNSG    6 (6)
+Q Consensus         3 nnsg    6 (6)
+                      ||+|
+T Consensus       103 dNsG  106 (122)
+T 5OFI_A          103 DNSG  106 (122)
+T ss_dssp             GCEE
+T ss_pred             CCeE
+
+
+No 8
+>5OFX_G Uncharacterized protein; PllA, Complex, Lectin, carbohydrate, sugar; HET: GLC, FRU, GLA; 1.75A {Photorhabdus luminescens subsp. laumondii (strain DSM 15139 / CIP 105565 / TT01)}
+Probab=7.74  E-value=4.1e+02  Score=10.66  Aligned_cols=4  Identities=75%  Similarity=1.232  Sum_probs=0.0  Template_Neff=7.000
+
+Q NYNNSG            3 NNSG    6 (6)
+Q Consensus         3 nnsg    6 (6)
+                      ||+|
+T Consensus       103 dNsG  106 (122)
+T 5OFX_G          103 DNSG  106 (122)
+T ss_dssp             GCEE
+T ss_pred             CCeE
+
+
+No 9
+>4CP9_D PA-I GALACTOPHILIC LECTIN; SUGAR BINDING PROTEIN, GALACTOSE BINDING; HET: CN8, 1PE, SO4, OCS, GAL, TRO; 1.65A {PSEUDOMONAS AERUGINOSA}
+Probab=7.38  E-value=4.3e+02  Score=10.35  Aligned_cols=4  Identities=100%  Similarity=1.365  Sum_probs=0.0  Template_Neff=7.500
+
+Q NYNNSG            3 NNSG    6 (6)
+Q Consensus         3 nnsg    6 (6)
+                      ||+|
+T Consensus       107 dN~G  110 (121)
+T 4CP9_D          107 NNSG  110 (121)
+T ss_dssp             GCEE
+T ss_pred             CCce
+
+
+No 10
+>4LK6_C PA-I galactophilic lectin; Lectin Fold, Sugar Binding Protein; HET: GAL, CA, LRD; 2.859A {Pseudomonas aeruginosa}
+Probab=7.38  E-value=4.3e+02  Score=10.35  Aligned_cols=4  Identities=100%  Similarity=1.365  Sum_probs=0.0  Template_Neff=7.500
+
+Q NYNNSG            3 NNSG    6 (6)
+Q Consensus         3 nnsg    6 (6)
+                      ||+|
+T Consensus       107 dN~G  110 (121)
+T 4LK6_C          107 NNSG  110 (121)
+T ss_dssp             GCEE
+T ss_pred             CCce
+
+

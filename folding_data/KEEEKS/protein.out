@@ -1,0 +1,146 @@
+Query         KEEEKS
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 10:32:01 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/KEEEKS/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/KEEEKS/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6EPC_U Proteasome subunit alph   5.9 5.8E+02  0.0064   11.1   0.0    6    1-6     304-309 (320)
+  2 1NE7_D Glucosamine-6-phosphate   5.6 6.2E+02  0.0069   11.2   0.0    6    1-6     275-280 (289)
+  3 6DNQ_E BZIP factor, Transcript   5.2 6.8E+02  0.0075   11.0   0.0    6    1-6      39-44  (79)
+  4 6DCX_D Serine/threonine-protei   5.1 6.9E+02  0.0077    8.5   0.0    6    1-6     223-228 (228)
+  5 2MKC_A U2 snRNP component IST3   5.1   7E+02  0.0078    8.2   0.0    5    1-5     114-118 (118)
+  6 6B2Z_T ATP synthase subunit 9,   5.0 7.2E+02   0.008    9.8   0.0    5    1-5      49-53  (68)
+  7 5I9E_H Actin-related protein 4   4.9 7.4E+02  0.0082    9.5   0.0    5    1-5      61-65  (77)
+  8 6FS4_A Alpha-S2-casein; Antimi   4.6 7.8E+02  0.0087    9.1   0.0    4    2-5       5-8   (31)
+  9 7DEG_A Cytochrome c oxidase su   4.3 8.5E+02  0.0094   12.0   0.0    6    1-6     571-576 (587)
+ 10 4Z55_A ALK tyrosine kinase rec   4.3 8.6E+02  0.0095    9.6   0.0    5    1-5     335-339 (339)
+
+No 1
+>6EPC_U Proteasome subunit alpha type-6 (E.C.3.4.25.1); UPS, Ground state, Neuron degeneration; 12.3A {Rattus norvegicus}
+Probab=5.91  E-value=5.8e+02  Score=11.08  Aligned_cols=6  Identities=83%  Similarity=0.944  Sum_probs=0.0  Template_Neff=8.800
+
+Q KEEEKS            1 KEEEKS    6 (6)
+Q Consensus         1 keeeks    6 (6)
+                      ||.|||
+T Consensus       304 ~~~~~~  309 (320)
+T 6EPC_U          304 KEKEKS  309 (320)
+T ss_pred             hHHhhh
+
+
+No 2
+>1NE7_D Glucosamine-6-phosphate isomerase, 2-DEOXY-2-AMINO GLUCITOL-6-PHOSPHATE; V-TYPE LIKE ALLOSTERIC ENZYME, CONFORMATIONAL; HET: AGP, SO4, GLC, 16G; 1.75A {Homo sapiens} SCOP: c.124.1.1
+Probab=5.59  E-value=6.2e+02  Score=11.18  Aligned_cols=6  Identities=83%  Similarity=0.872  Sum_probs=0.0  Template_Neff=8.000
+
+Q KEEEKS            1 KEEEKS    6 (6)
+Q Consensus         1 keeeks    6 (6)
+                      ||.|||
+T Consensus       275 ~~~~~~  280 (289)
+T 1NE7_D          275 KETEKS  280 (289)
+T ss_dssp             ------
+T ss_pred             HHchHh
+
+
+No 3
+>6DNQ_E BZIP factor, Transcriptional activator Myb; transcription coactivator, transcription factor, viral; HET: EDO; 2.35A {Human T-lymphotropic virus 1}
+Probab=5.18  E-value=6.8e+02  Score=11.03  Aligned_cols=6  Identities=83%  Similarity=1.016  Sum_probs=0.0  Template_Neff=1.200
+
+Q KEEEKS            1 KEEEKS    6 (6)
+Q Consensus         1 keeeks    6 (6)
+                      +|||++
+T Consensus        39 ~eee~a   44 (79)
+T 6DNQ_E           39 KEEEKA   44 (79)
+T ss_pred             HHHHHH
+
+
+No 4
+>6DCX_D Serine/threonine-protein phosphatase PP1-alpha catalytic subunit; iASPP, ASPP2, PP-1c, p53, ANK; 3.408A {Homo sapiens}
+Probab=5.12  E-value=6.9e+02  Score=8.52  Aligned_cols=6  Identities=17%  Similarity=0.219  Sum_probs=0.0  Template_Neff=12.600
+
+Q KEEEKS            1 KEEEKS    6 (6)
+Q Consensus         1 keeeks    6 (6)
+                      ++.+||
+T Consensus       223 ~~~~~~  228 (228)
+T 6DCX_D          223 PQRSKV  228 (228)
+T ss_dssp             ------
+T ss_pred             ccccCC
+
+
+No 5
+>2MKC_A U2 snRNP component IST3, Pre-mRNA; spliceosome, Snu17p, Bud13p, Pml1p, heterotrimer; NMR {Saccharomyces cerevisiae}
+Probab=5.06  E-value=7e+02  Score=8.16  Aligned_cols=5  Identities=40%  Similarity=0.567  Sum_probs=0.0  Template_Neff=11.000
+
+Q KEEEKS            1 KEEEK    5 (6)
+Q Consensus         1 keeek    5 (6)
+                      .++||
+T Consensus       114 ~~~e~  118 (118)
+T 2MKC_A          114 NNAEK  118 (118)
+T ss_dssp             SCSCC
+T ss_pred             hhhcC
+
+
+No 6
+>6B2Z_T ATP synthase subunit 9, mitochondrial; Complex, Dimer, Mitochondrial inner membrane;{Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=4.96  E-value=7.2e+02  Score=9.78  Aligned_cols=5  Identities=80%  Similarity=1.086  Sum_probs=0.0  Template_Neff=5.000
+
+Q KEEEKS            1 KEEEK    5 (6)
+Q Consensus         1 keeek    5 (6)
+                      ++||+
+T Consensus        49 ~dEE~   53 (68)
+T 6B2Z_T           49 KDEEK   53 (68)
+T ss_pred             hHHHH
+
+
+No 7
+>5I9E_H Actin-related protein 4, Actin, Helicase; nuclear actin, Arp4, chromatin remodeling; HET: ATP; 2.8A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=4.87  E-value=7.4e+02  Score=9.46  Aligned_cols=5  Identities=80%  Similarity=1.112  Sum_probs=0.0  Template_Neff=6.300
+
+Q KEEEKS            1 KEEEK    5 (6)
+Q Consensus         1 keeek    5 (6)
+                      ++||+
+T Consensus        61 ~eEek   65 (77)
+T 5I9E_H           61 KEEER   65 (77)
+T ss_pred             HHHHH
+
+
+No 8
+>6FS4_A Alpha-S2-casein; Antimicrobial peptide, TFE, ANTIMICROBIAL PROTEIN; NMR {N/A}
+Probab=4.64  E-value=7.8e+02  Score=9.05  Aligned_cols=4  Identities=100%  Similarity=1.165  Sum_probs=0.0  Template_Neff=2.800
+
+Q KEEEKS            2 EEEK    5 (6)
+Q Consensus         2 eeek    5 (6)
+                      ||||
+T Consensus         5 eeeK    8 (31)
+T 6FS4_A            5 EEEK    8 (31)
+T ss_dssp             HHHH
+T ss_pred             HHHH
+
+
+No 9
+>7DEG_A Cytochrome c oxidase subunit I; electron cryo-microscopy, heme-copper oxidase, cytochrome; HET: 3PE, HEM, HAS, DLX, PGV; 3.4A {Aquifex aeolicus (strain VF5)}
+Probab=4.35  E-value=8.5e+02  Score=12.02  Aligned_cols=6  Identities=67%  Similarity=0.833  Sum_probs=0.0  Template_Neff=7.900
+
+Q KEEEKS            1 KEEEKS    6 (6)
+Q Consensus         1 keeeks    6 (6)
+                      |||.|.
+T Consensus       571 ~~~~~~  576 (587)
+T 7DEG_A          571 KEEKKE  576 (587)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 10
+>4Z55_A ALK tyrosine kinase receptor (E.C.2.7.10.1); catalytic domain, transferase, inhibitor, Transferase-Transferase; HET: GOL, 4LO; 1.55A {Homo sapiens}
+Probab=4.30  E-value=8.6e+02  Score=9.64  Aligned_cols=5  Identities=80%  Similarity=1.013  Sum_probs=0.0  Template_Neff=11.100
+
+Q KEEEKS            1 KEEEK    5 (6)
+Q Consensus         1 keeek    5 (6)
+                      .||||
+T Consensus       335 ~~~~~  339 (339)
+T 4Z55_A          335 EEEEK  339 (339)
+T ss_dssp             -----
+T ss_pred             ccccC
+
+

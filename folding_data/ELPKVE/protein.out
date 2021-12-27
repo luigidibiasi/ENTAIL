@@ -1,0 +1,279 @@
+Query         ELPKVE
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 19:25:39 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/ELPKVE/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/ELPKVE/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6N9M_A Adenosine deaminase (E.  49.9      15 0.00016   15.1   0.0    6    1-6       5-10  (341)
+  2 6N91_B Adenosine deaminase (E.  46.7      18  0.0002   14.8   0.0    6    1-6       5-10  (340)
+  3 3U6P_A Formamidopyrimidine-DNA  39.1      28 0.00031   15.0   0.0    6    1-6       2-7   (273)
+  4 3JR5_A DNA glycosylase (E.C.4.  37.6      31 0.00034   14.9   0.0    6    1-6       2-7   (273)
+  5 1K3X_A ENDONUCLEASE VIII (E.C.  34.2      38 0.00042   14.5   0.0    6    1-6       2-7   (262)
+  6 6FL1_A Formamidopyrimidine-DNA  33.5      40 0.00044   14.6   0.0    6    1-6       2-7   (271)
+  7 1K82_D Formamidopyrimidine-DNA  32.0      44 0.00049   14.4   0.0    6    1-6       2-7   (268)
+  8 1Q3B_A Endonuclease VIII (E.C.  29.9      50 0.00055   14.2   0.0    6    1-6       2-7   (262)
+  9 6RO2_A Formamidopyrimidine-DNA  29.4      52 0.00058   14.3   0.0    6    1-6       2-7   (271)
+ 10 2F5Q_A disulfide crosslink, DN  29.2      53 0.00058   14.3   0.0    6    1-6       3-8   (274)
+ 11 6TC9_C Formamidopyrimidine-DNA  26.4      64  0.0007   13.9   0.0    6    1-6       3-8   (275)
+ 12 3TWK_A Formamidopyrimidine-DNA  26.3      64 0.00071   14.2   0.0    6    1-6       3-8   (297)
+ 13 5ITQ_A Endonuclease 8-like 1 (  26.0      65 0.00072   14.5   0.0    6    1-6       3-8   (290)
+ 14 1EE8_A CRYSTAL STRUCTURE OF MU  23.7      77 0.00085   13.8   0.0    6    1-6       2-7   (266)
+ 15 3VK8_B Probable formamidopyrim  23.7      77 0.00085   14.2   0.0    6    1-6       3-8   (295)
+ 16 4MB7_A Endonuclease 8-like L72  23.7      77 0.00085   13.8   0.0    6    1-6       2-7   (273)
+ 17 3TWL_A Formamidopyrimidine-DNA  23.1      80 0.00089   14.1   0.0    6    1-6       3-8   (310)
+ 18 3A45_A Formamidopyrimidine-DNA  22.8      82 0.00091   14.0   0.0    6    1-6       3-8   (289)
+
+No 1
+>6N9M_A Adenosine deaminase (E.C.3.5.4.4); deaminase, pentostatin, Structural Genomics, Center; HET: DCF, MSE; 1.449A {Salmonella typhimurium (strain LT2 / SGSC1412 / ATCC 700720)}
+Probab=49.93  E-value=15  Score=15.11  Aligned_cols=6  Identities=33%  Similarity=0.673  Sum_probs=4.0  Template_Neff=9.800
+
+Q ELPKVE            1 ELPKVE    6 (6)
+Q Consensus         1 elpkve    6 (6)
+                      .|||+|
+T Consensus         5 ~lPK~e   10 (341)
+T 6N9M_A            5 TLPLTD   10 (341)
+T ss_pred             CCCcce
+Confidence            368875
+
+
+No 2
+>6N91_B Adenosine deaminase (E.C.3.5.4.4); deaminase, pentostatin, Structural Genomics, Center; HET: PO4, GOL, CXS, DCF; 2.05A {Vibrio cholerae O1 biovar El Tor str. N16961}
+Probab=46.75  E-value=18  Score=14.82  Aligned_cols=6  Identities=33%  Similarity=0.689  Sum_probs=3.9  Template_Neff=9.900
+
+Q ELPKVE            1 ELPKVE    6 (6)
+Q Consensus         1 elpkve    6 (6)
+                      .|||+|
+T Consensus         5 ~lPK~e   10 (340)
+T 6N91_B            5 SLPLTD   10 (340)
+T ss_dssp             TSCCEE
+T ss_pred             CCCceE
+Confidence            367775
+
+
+No 3
+>3U6P_A Formamidopyrimidine-DNA glycosylase (E.C.3.2.2.23)/DNA complex; DNA glycosylase, DNA repair, sequence; 1.6A {Geobacillus stearothermophilus}
+Probab=39.10  E-value=28  Score=14.98  Aligned_cols=6  Identities=67%  Similarity=1.193  Sum_probs=3.8  Template_Neff=7.900
+
+Q ELPKVE            1 ELPKVE    6 (6)
+Q Consensus         1 elpkve    6 (6)
+                      |||.||
+T Consensus         2 ElPEVe    7 (273)
+T 3U6P_A            2 QLPEVE    7 (273)
+T ss_dssp             CHHHHH
+T ss_pred             CHHHHH
+Confidence            567664
+
+
+No 4
+>3JR5_A DNA glycosylase (E.C.4.2.99.18); DNA glycosylase, DNA repair, damage; 1.704A {Geobacillus stearothermophilus}
+Probab=37.62  E-value=31  Score=14.87  Aligned_cols=6  Identities=67%  Similarity=1.193  Sum_probs=3.7  Template_Neff=7.900
+
+Q ELPKVE            1 ELPKVE    6 (6)
+Q Consensus         1 elpkve    6 (6)
+                      |||.||
+T Consensus         2 ElPEve    7 (273)
+T 3JR5_A            2 QLPEVE    7 (273)
+T ss_dssp             CHHHHH
+T ss_pred             CHHHHH
+Confidence            567664
+
+
+No 5
+>1K3X_A ENDONUCLEASE VIII (E.C.3.2.-.-)/DNA Complex; HYDROLASE/DNA, HYDROLASE-DNA complex; HET: GOL, SO4; 1.25A {Escherichia coli} SCOP: g.39.1.8, b.113.1.1, a.156.1.2
+Probab=34.19  E-value=38  Score=14.47  Aligned_cols=6  Identities=33%  Similarity=0.639  Sum_probs=3.7  Template_Neff=8.000
+
+Q ELPKVE            1 ELPKVE    6 (6)
+Q Consensus         1 elpkve    6 (6)
+                      |||.||
+T Consensus         2 ElPEve    7 (262)
+T 1K3X_A            2 EGPEIR    7 (262)
+T ss_dssp             CHHHHH
+T ss_pred             CHHHHH
+Confidence            567664
+
+
+No 6
+>6FL1_A Formamidopyrimidine-DNA glycosylase/DNA Complex; PROTEIN-DNA COMPLEX, GLYCOSYLASE, FAPY LESION; HET: FOX; 1.6A {Lactococcus lactis subsp. cremoris}
+Probab=33.47  E-value=40  Score=14.60  Aligned_cols=6  Identities=83%  Similarity=1.298  Sum_probs=3.7  Template_Neff=7.800
+
+Q ELPKVE            1 ELPKVE    6 (6)
+Q Consensus         1 elpkve    6 (6)
+                      |||.||
+T Consensus         2 ElPEVe    7 (271)
+T 6FL1_A            2 ELPEVE    7 (271)
+T ss_dssp             CHHHHH
+T ss_pred             CHHHHH
+Confidence            567664
+
+
+No 7
+>1K82_D Formamidopyrimidine-DNA glycosylase (E.C.3.2.2.23)/DNA Complex; PROTEIN-DNA COMPLEX, DNA REPAIR, BETA; HET: PED; 2.1A {Escherichia coli} SCOP: g.39.1.8, a.156.1.2, b.113.1.1
+Probab=31.97  E-value=44  Score=14.40  Aligned_cols=6  Identities=83%  Similarity=1.298  Sum_probs=3.6  Template_Neff=7.900
+
+Q ELPKVE            1 ELPKVE    6 (6)
+Q Consensus         1 elpkve    6 (6)
+                      |||.||
+T Consensus         2 ElPEve    7 (268)
+T 1K82_D            2 ELPEVE    7 (268)
+T ss_dssp             CHHHHH
+T ss_pred             CHHHHH
+Confidence            566654
+
+
+No 8
+>1Q3B_A Endonuclease VIII (E.C.3.2.2.-); hydrolase; 2.05A {Escherichia coli} SCOP: b.113.1.1, a.156.1.2, g.39.1.8
+Probab=29.94  E-value=50  Score=14.19  Aligned_cols=6  Identities=33%  Similarity=0.639  Sum_probs=3.6  Template_Neff=7.900
+
+Q ELPKVE            1 ELPKVE    6 (6)
+Q Consensus         1 elpkve    6 (6)
+                      |+|.||
+T Consensus         2 ElPEVe    7 (262)
+T 1Q3B_A            2 EGPEIR    7 (262)
+T ss_dssp             CTHHHH
+T ss_pred             CHHHHH
+Confidence            566664
+
+
+No 9
+>6RO2_A Formamidopyrimidine-DNA glycosylase/DNA Complex; DNA glycosylase complex, inhibitor, HYDROLASE; HET: 2ON, 3DR; 1.821A {Lactococcus lactis subsp. cremoris}
+Probab=29.36  E-value=52  Score=14.32  Aligned_cols=6  Identities=83%  Similarity=1.298  Sum_probs=3.6  Template_Neff=7.700
+
+Q ELPKVE            1 ELPKVE    6 (6)
+Q Consensus         1 elpkve    6 (6)
+                      |||.||
+T Consensus         2 ElPEVe    7 (271)
+T 6RO2_A            2 ELPEVE    7 (271)
+T ss_dssp             CHHHHH
+T ss_pred             CHHHHH
+Confidence            566664
+
+
+No 10
+>2F5Q_A disulfide crosslink, DNA glycosylase, DNA; HET: 8OG; 2.35A {Geobacillus stearothermophilus} SCOP: g.39.1.8, a.156.1.2, b.113.1.1
+Probab=29.16  E-value=53  Score=14.27  Aligned_cols=6  Identities=67%  Similarity=1.193  Sum_probs=3.5  Template_Neff=7.800
+
+Q ELPKVE            1 ELPKVE    6 (6)
+Q Consensus         1 elpkve    6 (6)
+                      |||.||
+T Consensus         3 ElPEVe    8 (274)
+T 2F5Q_A            3 QLPEVE    8 (274)
+T ss_dssp             CHHHHH
+T ss_pred             CHHHHH
+Confidence            566654
+
+
+No 11
+>6TC9_C Formamidopyrimidine-DNA glycosylase/DNA Complex; MutM, Fpg/Nei, Neisseria meningitidis, BER; HET: 3DR; 2.175A {Neisseria meningitidis alpha522}
+Probab=26.36  E-value=64  Score=13.94  Aligned_cols=6  Identities=83%  Similarity=1.298  Sum_probs=3.4  Template_Neff=8.000
+
+Q ELPKVE            1 ELPKVE    6 (6)
+Q Consensus         1 elpkve    6 (6)
+                      |+|.||
+T Consensus         3 ElPeve    8 (275)
+T 6TC9_C            3 ELPEVE    8 (275)
+T ss_dssp             CHHHHH
+T ss_pred             CHHHHH
+Confidence            566654
+
+
+No 12
+>3TWK_A Formamidopyrimidine-DNA glycosylase 1 (E.C.3.2.2.23); HELIX TWO TURNS HELIX, ZINC-LESS; HET: GOL; 2.3A {Arabidopsis thaliana}
+Probab=26.28  E-value=64  Score=14.18  Aligned_cols=6  Identities=83%  Similarity=1.298  Sum_probs=3.4  Template_Neff=7.800
+
+Q ELPKVE            1 ELPKVE    6 (6)
+Q Consensus         1 elpkve    6 (6)
+                      |+|.||
+T Consensus         3 ElPEVe    8 (297)
+T 3TWK_A            3 ELPEVE    8 (297)
+T ss_dssp             CHHHHH
+T ss_pred             CHHHHH
+Confidence            566554
+
+
+No 13
+>5ITQ_A Endonuclease 8-like 1 (E.C.3.2.2.-,4.2.99.18); DNA glycosylase NEIL1 Fpg Nei; 1.48A {Homo sapiens}
+Probab=25.98  E-value=65  Score=14.48  Aligned_cols=6  Identities=33%  Similarity=0.567  Sum_probs=3.6  Template_Neff=7.100
+
+Q ELPKVE            1 ELPKVE    6 (6)
+Q Consensus         1 elpkve    6 (6)
+                      |||.||
+T Consensus         3 ElPEVe    8 (290)
+T 5ITQ_A            3 EGPELH    8 (290)
+T ss_dssp             CHHHHH
+T ss_pred             ChHHHH
+Confidence            566664
+
+
+No 14
+>1EE8_A CRYSTAL STRUCTURE OF MUTM (FPG); BETA SANDWICH, ZINC FINGER, HELIX; 1.9A {Thermus thermophilus} SCOP: b.113.1.1, g.39.1.8, a.156.1.2
+Probab=23.74  E-value=77  Score=13.85  Aligned_cols=6  Identities=83%  Similarity=1.298  Sum_probs=3.5  Template_Neff=7.600
+
+Q ELPKVE            1 ELPKVE    6 (6)
+Q Consensus         1 elpkve    6 (6)
+                      |+|.||
+T Consensus         2 ElPEV~    7 (266)
+T 1EE8_A            2 ELPEVE    7 (266)
+T ss_dssp             CHHHHH
+T ss_pred             CHHHHH
+Confidence            566654
+
+
+No 15
+>3VK8_B Probable formamidopyrimidine-DNA glycosylase (E.C.3.2.2.23, 4.2.99.18)/DNA; DNA glycosylase, hNEIL1 ortholog, DNA; HET: CTG; 2.0A {Acanthamoeba polyphaga mimivirus}
+Probab=23.67  E-value=77  Score=14.25  Aligned_cols=6  Identities=33%  Similarity=0.529  Sum_probs=3.4  Template_Neff=7.200
+
+Q ELPKVE            1 ELPKVE    6 (6)
+Q Consensus         1 elpkve    6 (6)
+                      |||.||
+T Consensus         3 ElPEVe    8 (295)
+T 3VK8_B            3 QGPEVA    8 (295)
+T ss_dssp             CHHHHH
+T ss_pred             CHHHHH
+Confidence            566554
+
+
+No 16
+>4MB7_A Endonuclease 8-like L720; zinc-finger domain, H2TH-motif, DNA Glycosylase; HET: SO4; 2.04A {Acanthamoeba polyphaga mimivirus}
+Probab=23.66  E-value=77  Score=13.84  Aligned_cols=6  Identities=33%  Similarity=0.899  Sum_probs=3.5  Template_Neff=7.700
+
+Q ELPKVE            1 ELPKVE    6 (6)
+Q Consensus         1 elpkve    6 (6)
+                      |+|.||
+T Consensus         2 ElPEv~    7 (273)
+T 4MB7_A            2 EAPRIR    7 (273)
+T ss_dssp             CTTHHH
+T ss_pred             CHHHHH
+Confidence            566654
+
+
+No 17
+>3TWL_A Formamidopyrimidine-DNA glycosylase 1 (E.C.3.2.2.23); HELIX TWO TURNS HELIX, ZINC-LESS; 1.7A {Arabidopsis thaliana}
+Probab=23.14  E-value=80  Score=14.14  Aligned_cols=6  Identities=83%  Similarity=1.298  Sum_probs=3.4  Template_Neff=7.500
+
+Q ELPKVE            1 ELPKVE    6 (6)
+Q Consensus         1 elpkve    6 (6)
+                      |||.||
+T Consensus         3 ElPEVe    8 (310)
+T 3TWL_A            3 ELPEVE    8 (310)
+T ss_dssp             CHHHHH
+T ss_pred             CHHHHH
+Confidence            566554
+
+
+No 18
+>3A45_A Formamidopyrimidine-DNA glycosylase (E.C.3.2.2.23); helix two turns helix, zinc-less; 2.3A {Acanthamoeba polyphaga mimivirus}
+Probab=22.83  E-value=82  Score=14.03  Aligned_cols=6  Identities=50%  Similarity=0.634  Sum_probs=3.3  Template_Neff=7.400
+
+Q ELPKVE            1 ELPKVE    6 (6)
+Q Consensus         1 elpkve    6 (6)
+                      |+|.||
+T Consensus         3 ElPEVe    8 (289)
+T 3A45_A            3 EGPEVA    8 (289)
+T ss_dssp             CHHHHH
+T ss_pred             CHHHHH
+Confidence            566554
+
+

@@ -1,0 +1,154 @@
+Query         PTRCCP
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 06:42:29 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/PTRCCP/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/PTRCCP/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2P3X_A Polyphenol oxidase, chl  63.5     6.1 6.8E-05   17.4   0.0    6    1-6      22-27  (339)
+  2 6JI7_A coffeetide; Coffee, cys  50.0      15 0.00016   14.2   0.0    6    1-6      15-20  (36)
+  3 6E8N_A Mammalian ependymin-rel  25.3      69 0.00076   12.5   0.0    6    1-6       3-8   (194)
+  4 5CE9_A Polyphenol oxidase; pol  24.9      70 0.00078   14.3   0.0    6    1-6      22-27  (339)
+  5 6JLD_C Mammalian ependymin-rel  24.1      75 0.00083   12.8   0.0    6    1-6      13-18  (198)
+  6 4XT1_B US28, CX3CL1, nanobody   19.9   1E+02  0.0011   12.0   0.0    5    1-5       5-9   (91)
+  7 7DIF_A Non-reducing end beta-L  19.9   1E+02  0.0011   14.6   0.0    3    4-6     417-419 (669)
+  8 5YJH_A Periostin; tissue regen  19.7   1E+02  0.0012   14.2   0.0    4    3-6      64-67  (626)
+  9 4HCS_A Uncharacterized protein  19.7 1.1E+02  0.0012   11.4   0.0    5    1-5      12-16  (81)
+ 10 4HED_A Uncharacterized protein  19.7 1.1E+02  0.0012   11.4   0.0    5    1-5      12-16  (81)
+
+No 1
+>2P3X_A Polyphenol oxidase, chloroplast (E.C.1.10.3.1); Polyphenol oxidase, Grenache grapes, Oxidoreductase; 2.2A {Vitis vinifera}
+Probab=63.47  E-value=6.1  Score=17.43  Aligned_cols=6  Identities=83%  Similarity=2.272  Sum_probs=4.1  Template_Neff=7.800
+
+Q PTRCCP            1 PTRCCP    6 (6)
+Q Consensus         1 ptrccp    6 (6)
+                      |+.|||
+T Consensus        22 ~~~~~~   27 (339)
+T 2P3X_A           22 PTNCCP   27 (339)
+T ss_dssp             CCCCCC
+T ss_pred             CCCCCC
+Confidence            467886
+
+
+No 2
+>6JI7_A coffeetide; Coffee, cysteine-rich peptide, iron-binding, stable; NMR {Coffea canephora}
+Probab=50.01  E-value=15  Score=14.15  Aligned_cols=6  Identities=67%  Similarity=1.868  Sum_probs=3.6  Template_Neff=1.600
+
+Q PTRCCP            1 PTRCCP    6 (6)
+Q Consensus         1 ptrccp    6 (6)
+                      |-+|||
+T Consensus        15 PwgCC~   20 (36)
+T 6JI7_A           15 PWGCCP   20 (36)
+T ss_dssp             SSSCCT
+T ss_pred             CCccCC
+Confidence            446775
+
+
+No 3
+>6E8N_A Mammalian ependymin-related protein 1; LolA fold, lysosomal protein, secreted; HET: 2PE; 3.2A {Homo sapiens}
+Probab=25.28  E-value=69  Score=12.53  Aligned_cols=6  Identities=33%  Similarity=0.883  Sum_probs=3.5  Template_Neff=9.200
+
+Q PTRCCP            1 PTRCCP    6 (6)
+Q Consensus         1 ptrccp    6 (6)
+                      |..||.
+T Consensus         3 ~~~Cc~    8 (194)
+T 6E8N_A            3 PRPCQA    8 (194)
+T ss_pred             CCCccC
+Confidence            456773
+
+
+No 4
+>5CE9_A Polyphenol oxidase; polyphenol oxidase, tyrosinase, monophenolase activtiy; 1.8A {Juglans regia}
+Probab=24.91  E-value=70  Score=14.27  Aligned_cols=6  Identities=67%  Similarity=2.134  Sum_probs=3.1  Template_Neff=7.900
+
+Q PTRCCP            1 PTRCCP    6 (6)
+Q Consensus         1 ptrccp    6 (6)
+                      |..|||
+T Consensus        22 ~~~~~~   27 (339)
+T 5CE9_A           22 PVNCCP   27 (339)
+T ss_dssp             CCCCCC
+T ss_pred             CCCCCC
+Confidence            345664
+
+
+No 5
+>6JLD_C Mammalian ependymin-related protein 1; Ependymin, UNKNOWN FUNCTION; 2.0A {Homo sapiens}
+Probab=24.08  E-value=75  Score=12.79  Aligned_cols=6  Identities=33%  Similarity=0.883  Sum_probs=3.3  Template_Neff=8.600
+
+Q PTRCCP            1 PTRCCP    6 (6)
+Q Consensus         1 ptrccp    6 (6)
+                      |..||.
+T Consensus        13 ~~~c~~   18 (198)
+T 6JLD_C           13 PRPCQA   18 (198)
+T ss_dssp             CCCCCC
+T ss_pred             CCCCCC
+Confidence            456763
+
+
+No 6
+>4XT1_B US28, CX3CL1, nanobody 7; GPCR, chemokine, membrane protein, complex; HET: UNL, OLC, CLR; 2.886A {Cytomegalovirus}
+Probab=19.93  E-value=1e+02  Score=11.98  Aligned_cols=5  Identities=40%  Similarity=1.026  Sum_probs=0.0  Template_Neff=6.500
+
+Q PTRCCP            1 PTRCC    5 (6)
+Q Consensus         1 ptrcc    5 (6)
+                      |..||
+T Consensus         5 ~~~CC    9 (91)
+T 4XT1_B            5 VTKCA    9 (91)
+T ss_dssp             SCCCC
+T ss_pred             Ccccc
+
+
+No 7
+>7DIF_A Non-reducing end beta-L-arabinofuranosidase (E.C.3.2.1.185); (alpha/alpha)6 barrel, glycoside hydrolase family; HET: FE0; 1.75A {Bifidobacterium longum subsp. longum (strain ATCC 15707 / DSM 20219 / JCM 1217 / NCTC 11818 / E194b)}
+Probab=19.88  E-value=1e+02  Score=14.60  Aligned_cols=3  Identities=100%  Similarity=3.391  Sum_probs=0.0  Template_Neff=8.800
+
+Q PTRCCP            4 CCP    6 (6)
+Q Consensus         4 ccp    6 (6)
+                      |||
+T Consensus       417 CC~  419 (669)
+T 7DIF_A          417 CCP  419 (669)
+T ss_dssp             TTH
+T ss_pred             ccc
+
+
+No 8
+>5YJH_A Periostin; tissue regeneration, CELL ADHESION; HET: CL; 2.957A {Homo sapiens}
+Probab=19.72  E-value=1e+02  Score=14.24  Aligned_cols=4  Identities=75%  Similarity=2.577  Sum_probs=0.0  Template_Neff=9.200
+
+Q PTRCCP            3 RCCP    6 (6)
+Q Consensus         3 rccp    6 (6)
+                      .|||
+T Consensus        64 ~cc~   67 (626)
+T 5YJH_A           64 ECCP   67 (626)
+T ss_dssp             EECT
+T ss_pred             eeCC
+
+
+No 9
+>4HCS_A Uncharacterized protein; novel chemokine subfamily CX, chemokine; 1.28A {Danio rerio}
+Probab=19.68  E-value=1.1e+02  Score=11.39  Aligned_cols=5  Identities=40%  Similarity=1.012  Sum_probs=0.0  Template_Neff=7.200
+
+Q PTRCCP            1 PTRCC    5 (6)
+Q Consensus         1 ptrcc    5 (6)
+                      +.+||
+T Consensus        12 ~~~CC   16 (81)
+T 4HCS_A           12 PGVCF   16 (81)
+T ss_dssp             CCCCC
+T ss_pred             CCCCc
+
+
+No 10
+>4HED_A Uncharacterized protein; chemokine fold, chemotaxis, new chemokine; 1.62A {Danio rerio}
+Probab=19.68  E-value=1.1e+02  Score=11.39  Aligned_cols=5  Identities=40%  Similarity=1.012  Sum_probs=0.0  Template_Neff=7.200
+
+Q PTRCCP            1 PTRCC    5 (6)
+Q Consensus         1 ptrcc    5 (6)
+                      +.+||
+T Consensus        12 ~~~CC   16 (81)
+T 4HED_A           12 PGVCF   16 (81)
+T ss_dssp             CCCCC
+T ss_pred             CCCCc
+
+

@@ -1,0 +1,149 @@
+Query         FTPTEK
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 22:08:29 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/FTPTEK/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/FTPTEK/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 7DMA_B Flagellar motor switch   14.3 1.7E+02  0.0019   10.2   0.0    6    1-6       5-10  (91)
+  2 1Y2Y_A Ribosome biogenesis pro  13.9 1.8E+02   0.002   11.3   0.0    6    1-6      35-40  (58)
+  3 3U28_B H/ACA ribonucleoprotein  13.9 1.8E+02   0.002   11.3   0.0    6    1-6      35-40  (58)
+  4 3ULX_A Stress-induced transcri  13.9 1.8E+02   0.002   11.4   0.0    5    1-5      21-25  (174)
+  5 3AKK_A CtkA (E.C.2.7.11.1); pr  13.3 1.9E+02  0.0021   12.4   0.0    6    1-6     317-322 (325)
+  6 3AKJ_A CtkA (E.C.2.7.11.1); pr  13.3 1.9E+02  0.0021   12.4   0.0    6    1-6     317-322 (325)
+  7 2HTM_C Thiazole biosynthesis p  12.9   2E+02  0.0022   12.3   0.0    4    1-4     256-259 (268)
+  8 3QKS_C DNA double-strand break  12.0 2.2E+02  0.0025   10.4   0.0    6    1-6       4-9   (34)
+  9 3QKR_C DNA double-strand break  12.0 2.2E+02  0.0025   10.4   0.0    6    1-6       4-9   (34)
+ 10 5CQQ_B Regulatory protein zest  11.6 2.3E+02  0.0026   10.9   0.0    6    1-6       8-13  (82)
+
+No 1
+>7DMA_B Flagellar motor switch protein FliM; Flagellar motor protein, MOTOR PROTEIN; 1.44A {Vibrio alginolyticus}
+Probab=14.34  E-value=1.7e+02  Score=10.23  Aligned_cols=6  Identities=83%  Similarity=1.436  Sum_probs=0.0  Template_Neff=8.900
+
+Q FTPTEK            1 FTPTEK    6 (6)
+Q Consensus         1 ftptek    6 (6)
+                      ||+.|.
+T Consensus         5 lT~iE~   10 (91)
+T 7DMA_B            5 FTPTER   10 (91)
+T ss_dssp             CCHHHH
+T ss_pred             CCHHHH
+
+
+No 2
+>1Y2Y_A Ribosome biogenesis protein Nop10; Box H/ACA snoRNA,snoRNP, pseudouridine, BIOSYNTHETIC; NMR {Saccharomyces cerevisiae} SCOP: g.41.16.1
+Probab=13.89  E-value=1.8e+02  Score=11.33  Aligned_cols=6  Identities=50%  Similarity=1.221  Sum_probs=0.0  Template_Neff=4.500
+
+Q FTPTEK            1 FTPTEK    6 (6)
+Q Consensus         1 ftptek    6 (6)
+                      |+|.+|
+T Consensus        35 FSP~Dk   40 (58)
+T 1Y2Y_A           35 FSPDDK   40 (58)
+T ss_dssp             SCSCTT
+T ss_pred             CCCCCh
+
+
+No 3
+>3U28_B H/ACA ribonucleoprotein complex subunit 4; pseudouridine synthase, pseudouridylation, H/ACA RNA; 1.9A {Saccharomyces cerevisiae}
+Probab=13.89  E-value=1.8e+02  Score=11.33  Aligned_cols=6  Identities=50%  Similarity=1.221  Sum_probs=0.0  Template_Neff=4.500
+
+Q FTPTEK            1 FTPTEK    6 (6)
+Q Consensus         1 ftptek    6 (6)
+                      |+|.+|
+T Consensus        35 FSP~Dk   40 (58)
+T 3U28_B           35 FSPDDK   40 (58)
+T ss_dssp             CCTTCC
+T ss_pred             CCCCCh
+
+
+No 4
+>3ULX_A Stress-induced transcription factor NAC1; NAC family, Stress-responsive, DNA BINDING; 2.6A {Oryza sativa subsp. japonica}
+Probab=13.89  E-value=1.8e+02  Score=11.41  Aligned_cols=5  Identities=60%  Similarity=1.298  Sum_probs=0.0  Template_Neff=8.800
+
+Q FTPTEK            1 FTPTE    5 (6)
+Q Consensus         1 ftpte    5 (6)
+                      |.||+
+T Consensus        21 F~Ptd   25 (174)
+T 3ULX_A           21 FHPTD   25 (174)
+T ss_dssp             CCCCH
+T ss_pred             cCCCH
+
+
+No 5
+>3AKK_A CtkA (E.C.2.7.11.1); protein kinase, TRANSFERASE; HET: ADP; 2.5A {Helicobacter pylori}
+Probab=13.31  E-value=1.9e+02  Score=12.42  Aligned_cols=6  Identities=67%  Similarity=1.132  Sum_probs=0.0  Template_Neff=8.900
+
+Q FTPTEK            1 FTPTEK    6 (6)
+Q Consensus         1 ftptek    6 (6)
+                      +|||.|
+T Consensus       317 ~~~~~~  322 (325)
+T 3AKK_A          317 YTPTPK  322 (325)
+T ss_dssp             ------
+T ss_pred             CCCCCC
+
+
+No 6
+>3AKJ_A CtkA (E.C.2.7.11.1); protein kinase, TRANSFERASE; 2.0A {Helicobacter pylori}
+Probab=13.26  E-value=1.9e+02  Score=12.41  Aligned_cols=6  Identities=67%  Similarity=1.132  Sum_probs=0.0  Template_Neff=8.900
+
+Q FTPTEK            1 FTPTEK    6 (6)
+Q Consensus         1 ftptek    6 (6)
+                      +|||.|
+T Consensus       317 ~~~~~~  322 (325)
+T 3AKJ_A          317 YTPTPK  322 (325)
+T ss_dssp             ------
+T ss_pred             CCCCCC
+
+
+No 7
+>2HTM_C Thiazole biosynthesis protein thiG, Putative; thiamin biosynthesis, ThiG, Thermus thermophilus; 2.3A {Thermus thermophilus}
+Probab=12.95  E-value=2e+02  Score=12.32  Aligned_cols=4  Identities=100%  Similarity=1.630  Sum_probs=0.0  Template_Neff=8.300
+
+Q FTPTEK            1 FTPT    4 (6)
+Q Consensus         1 ftpt    4 (6)
+                      ||||
+T Consensus       256 ~~~~  259 (268)
+T 2HTM_C          256 FTPT  259 (268)
+T ss_pred             ccCC
+
+
+No 8
+>3QKS_C DNA double-strand break repair rad50; RecA-like fold, coiled-coils, ATPase, exonuclease; 2.1A {Pyrococcus furiosus}
+Probab=11.96  E-value=2.2e+02  Score=10.39  Aligned_cols=6  Identities=50%  Similarity=0.462  Sum_probs=0.0  Template_Neff=3.600
+
+Q FTPTEK            1 FTPTEK    6 (6)
+Q Consensus         1 ftptek    6 (6)
+                      |||-|+
+T Consensus         4 FTe~E~    9 (34)
+T 3QKS_C            4 FTEFEL    9 (34)
+T ss_dssp             --CHHH
+T ss_pred             ccHHHH
+
+
+No 9
+>3QKR_C DNA double-strand break repair rad50; RecA-like fold, coiled-coils, ATPase, exonuclease; HET: PO4; 3.4A {Pyrococcus furiosus}
+Probab=11.96  E-value=2.2e+02  Score=10.39  Aligned_cols=6  Identities=50%  Similarity=0.462  Sum_probs=0.0  Template_Neff=3.600
+
+Q FTPTEK            1 FTPTEK    6 (6)
+Q Consensus         1 ftptek    6 (6)
+                      |||-|+
+T Consensus         4 FTe~E~    9 (34)
+T 3QKR_C            4 FTEFEL    9 (34)
+T ss_dssp             SCHHHH
+T ss_pred             ccHHHH
+
+
+No 10
+>5CQQ_B Regulatory protein zeste/DNA Complex; Complex, Protein-DNA interaction, Tanscription factor; 3.1A {Drosophila melanogaster}
+Probab=11.63  E-value=2.3e+02  Score=10.92  Aligned_cols=6  Identities=67%  Similarity=0.916  Sum_probs=0.0  Template_Neff=6.300
+
+Q FTPTEK            1 FTPTEK    6 (6)
+Q Consensus         1 ftptek    6 (6)
+                      ||..|+
+T Consensus         8 ft~~Ek   13 (82)
+T 5CQQ_B            8 FTAEEK   13 (82)
+T ss_dssp             CCHHHH
+T ss_pred             CCHHHH
+
+

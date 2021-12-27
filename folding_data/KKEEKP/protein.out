@@ -1,0 +1,150 @@
+Query         KKEEKP
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 11:00:14 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/KKEEKP/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/KKEEKP/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5W66_O DNA-directed RNA polyme   5.7 6.1E+02  0.0067   13.7   0.0    6    1-6      35-40  (894)
+  2 4I99_C Chromosome partition pr   5.4 6.4E+02  0.0071    8.9   0.0    6    1-6       1-6   (87)
+  3 2BYD_A HSPC223 (E.C.1.2.1.31);   5.0 7.1E+02  0.0079   11.4   0.0    6    1-6     307-312 (323)
+  4 2C43_A AMINOADIPATE-SEMIALDEHY   5.0 7.1E+02  0.0079   11.4   0.0    6    1-6     307-312 (323)
+  5 6S8S_C Probable ATP-dependent    4.9 7.3E+02   0.008    9.2   0.0    6    1-6     188-193 (193)
+  6 5LE5_Q Proteasome subunit alph   4.7 7.7E+02  0.0086   10.0   0.0    5    1-5     242-246 (248)
+  7 1SRK_A Zinc finger protein ZFP   4.6 7.9E+02  0.0088    3.8   0.0    4    3-6      32-35  (35)
+  8 2LW6_A AvrPiz-t protein; AvrPi   4.5 8.2E+02   0.009   10.8   0.0    4    3-6      31-34  (80)
+  9 1WIL_A KIAA1045 protein; RING    4.2 8.8E+02  0.0097    9.6   0.0    6    1-6      81-86  (89)
+ 10 1FV5_A FIRST ZINC FINGER FROM    4.2 8.8E+02  0.0098    4.2   0.0    3    4-6      34-36  (36)
+
+No 1
+>5W66_O DNA-directed RNA polymerase I subunit; RNA Polymerase I Core Factor; 3.9A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=5.66  E-value=6.1e+02  Score=13.75  Aligned_cols=6  Identities=83%  Similarity=1.248  Sum_probs=0.0  Template_Neff=6.700
+
+Q KKEEKP            1 KKEEKP    6 (6)
+Q Consensus         1 kkeekp    6 (6)
+                      ||.|||
+T Consensus        35 ~~~~~~   40 (894)
+T 5W66_O           35 KKQEKP   40 (894)
+T ss_dssp             ------
+T ss_pred             CcccCC
+Confidence            345554
+
+
+No 2
+>4I99_C Chromosome partition protein Smc, Putative; winged-helix domain and SMC head; HET: PO4; 2.3A {Pyrococcus furiosus}
+Probab=5.42  E-value=6.4e+02  Score=8.88  Aligned_cols=6  Identities=50%  Similarity=0.296  Sum_probs=0.0  Template_Neff=8.500
+
+Q KKEEKP            1 KKEEKP    6 (6)
+Q Consensus         1 kkeekp    6 (6)
+                      ||+|.+
+T Consensus         1 ~~~~~~    6 (87)
+T 4I99_C            1 KKVEID    6 (87)
+T ss_dssp             ------
+T ss_pred             CCccCC
+
+
+No 3
+>2BYD_A HSPC223 (E.C.1.2.1.31); TRANSFERASE, FATTY ACID BIOSYNTHESIS, PHOSPHOPANTETHEINE; 2.0A {HOMO SAPIENS}
+Probab=5.01  E-value=7.1e+02  Score=11.41  Aligned_cols=6  Identities=50%  Similarity=0.528  Sum_probs=0.0  Template_Neff=7.500
+
+Q KKEEKP            1 KKEEKP    6 (6)
+Q Consensus         1 kkeekp    6 (6)
+                      +|+++|
+T Consensus       307 ~k~~~~  312 (323)
+T 2BYD_A          307 FTEEIP  312 (323)
+T ss_dssp             CGGGSC
+T ss_pred             cCCCCC
+
+
+No 4
+>2C43_A AMINOADIPATE-SEMIALDEHYDE DEHYDROGENASE-PHOSPHOPANTETHEINYL TRANSFERASE (E.C.1.2.1.31); TRANSFERASE, FATTY ACID BIOSYNTHESIS, COENZYME; HET: COA; 1.93A {HOMO SAPIENS}
+Probab=5.01  E-value=7.1e+02  Score=11.41  Aligned_cols=6  Identities=50%  Similarity=0.528  Sum_probs=0.0  Template_Neff=7.500
+
+Q KKEEKP            1 KKEEKP    6 (6)
+Q Consensus         1 kkeekp    6 (6)
+                      +|+++|
+T Consensus       307 ~k~~~~  312 (323)
+T 2C43_A          307 FTEEIP  312 (323)
+T ss_dssp             CGGGSC
+T ss_pred             cCCCCC
+
+
+No 5
+>6S8S_C Probable ATP-dependent RNA helicase DDX6; Translational control, mRNA decay, miRNA; HET: PO4, CXS; 2.21A {Homo sapiens}
+Probab=4.94  E-value=7.3e+02  Score=9.22  Aligned_cols=6  Identities=50%  Similarity=0.922  Sum_probs=0.0  Template_Neff=10.400
+
+Q KKEEKP            1 KKEEKP    6 (6)
+Q Consensus         1 kkeekp    6 (6)
+                      +.|+||
+T Consensus       188 ~~~~~~  193 (193)
+T 6S8S_C          188 VEDEKP  193 (193)
+T ss_pred             chhcCC
+
+
+No 6
+>5LE5_Q Proteasome subunit alpha type-2 (E.C.3.4.25.1); Proteasome, Multicatalytic Proteinase, NTN-Hydrolase, hydrolase; HET: 6V1, MG, 1PE, CL, YCM; 1.8A {Homo sapiens}
+Probab=4.69  E-value=7.7e+02  Score=9.97  Aligned_cols=5  Identities=60%  Similarity=0.833  Sum_probs=0.0  Template_Neff=9.500
+
+Q KKEEKP            1 KKEEK    5 (6)
+Q Consensus         1 kkeek    5 (6)
+                      ||++|
+T Consensus       242 ~~~~~  246 (248)
+T 5LE5_Q          242 KKQKK  246 (248)
+T ss_dssp             -----
+T ss_pred             HHhhh
+
+
+No 7
+>1SRK_A Zinc finger protein ZFPM1; classical zinc finger, TRANSCRIPTION; HET: ZN; NMR {Mus musculus} SCOP: g.37.1.1
+Probab=4.59  E-value=7.9e+02  Score=3.76  Aligned_cols=4  Identities=0%  Similarity=0.078  Sum_probs=0.0  Template_Neff=15.200
+
+Q KKEEKP            3 EEKP    6 (6)
+Q Consensus         3 eekp    6 (6)
+                      .+++
+T Consensus        32 ~~~~   35 (35)
+T 1SRK_A           32 DTLS   35 (35)
+T ss_dssp             SCCC
+T ss_pred             CCCC
+
+
+No 8
+>2LW6_A AvrPiz-t protein; AvrPiz-t, plant resistance gene, avirulence; NMR {Magnaporthe oryzae}
+Probab=4.49  E-value=8.2e+02  Score=10.80  Aligned_cols=4  Identities=100%  Similarity=1.497  Sum_probs=0.0  Template_Neff=1.000
+
+Q KKEEKP            3 EEKP    6 (6)
+Q Consensus         3 eekp    6 (6)
+                      ||||
+T Consensus        31 eekp   34 (80)
+T 2LW6_A           31 EEKP   34 (80)
+T ss_dssp             ECCT
+T ss_pred             ecCC
+
+
+No 9
+>1WIL_A KIAA1045 protein; RING finger domain, KIAA1045 protein; HET: ZN; NMR {Homo sapiens} SCOP: g.50.1.3
+Probab=4.23  E-value=8.8e+02  Score=9.61  Aligned_cols=6  Identities=33%  Similarity=0.645  Sum_probs=0.0  Template_Neff=6.000
+
+Q KKEEKP            1 KKEEKP    6 (6)
+Q Consensus         1 kkeekp    6 (6)
+                      +.||+|
+T Consensus        81 teee~~   86 (89)
+T 1WIL_A           81 TEESGP   86 (89)
+T ss_dssp             CCCCCC
+T ss_pred             chhhCC
+
+
+No 10
+>1FV5_A FIRST ZINC FINGER FROM THE; ZINC FINGER, CCHC, PROTEIN INTERACTION; HET: ZN; NMR {Drosophila melanogaster} SCOP: g.37.1.2
+Probab=4.22  E-value=8.8e+02  Score=4.17  Aligned_cols=3  Identities=0%  Similarity=0.058  Sum_probs=0.0  Template_Neff=14.400
+
+Q KKEEKP            4 EKP    6 (6)
+Q Consensus         4 ekp    6 (6)
+                      ++|
+T Consensus        34 ~~~   36 (36)
+T 1FV5_A           34 HRI   36 (36)
+T ss_dssp             TCC
+T ss_pred             CCC
+
+

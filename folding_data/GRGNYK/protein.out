@@ -1,0 +1,148 @@
+Query         GRGNYK
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 03:26:44 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GRGNYK/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GRGNYK/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4FBW_C DNA repair protein rad3  54.2      11 0.00013   14.3   0.0    6    1-6      45-50  (59)
+  2 4FBW_D DNA repair protein rad3  54.1      12 0.00013   14.3   0.0    6    1-6      45-50  (59)
+  3 2QPV_A Uncharacterized protein  18.0 1.2E+02  0.0013   10.8   0.0    5    1-5      13-17  (156)
+  4 6LO8_B Mitochondrial import in  18.0 1.2E+02  0.0013   15.3   0.0    6    1-6     244-249 (478)
+  5 1AG7_A CONOTOXIN GS; NEUROTOXI  15.9 1.5E+02  0.0016   11.4   0.0    4    1-4      20-23  (34)
+  6 6MST_D Serum amyloid A-2 prote  15.9 1.5E+02  0.0016   11.9   0.0    5    2-6      38-42  (66)
+  7 6MST_I Serum amyloid A-2 prote  15.9 1.5E+02  0.0016   11.9   0.0    5    2-6      38-42  (66)
+  8 5OOB_B Nuclear cap-binding pro  15.7 1.5E+02  0.0017   10.1   0.0    5    1-5     147-151 (158)
+  9 2YNQ_B ESSB; MEMBRANE PROTEIN,  14.3 1.7E+02  0.0019   12.9   0.0    6    1-6      85-90  (161)
+ 10 6M78_B Polyprotein; Viral-Prot  13.7 1.8E+02   0.002   12.0   0.0    6    1-6      33-38  (80)
+
+No 1
+>4FBW_C DNA repair protein rad32, DNA; DNA double-strand break repair, Nuclease; 2.2A {Schizosaccharomyces pombe}
+Probab=54.19  E-value=11  Score=14.32  Aligned_cols=6  Identities=67%  Similarity=1.237  Sum_probs=3.8  Template_Neff=5.100
+
+Q GRGNYK            1 GRGNYK    6 (6)
+Q Consensus         1 grgnyk    6 (6)
+                      ||-|||
+T Consensus        45 GRkNFK   50 (59)
+T 4FBW_C           45 GRKNFK   50 (59)
+T ss_pred             CCCCcc
+Confidence            566765
+
+
+No 2
+>4FBW_D DNA repair protein rad32, DNA; DNA double-strand break repair, Nuclease; 2.2A {Schizosaccharomyces pombe}
+Probab=54.10  E-value=12  Score=14.31  Aligned_cols=6  Identities=67%  Similarity=1.237  Sum_probs=3.8  Template_Neff=5.100
+
+Q GRGNYK            1 GRGNYK    6 (6)
+Q Consensus         1 grgnyk    6 (6)
+                      ||-|||
+T Consensus        45 GRkNFK   50 (59)
+T 4FBW_D           45 GRKNFK   50 (59)
+T ss_pred             CCCCcc
+Confidence            566765
+
+
+No 3
+>2QPV_A Uncharacterized protein Atu1531; Agrobacterium tumefaciens, Atu1531, Structural Genomics; HET: MSE; 2.35A {Agrobacterium tumefaciens str.} SCOP: d.129.3.8
+Probab=18.05  E-value=1.2e+02  Score=10.79  Aligned_cols=5  Identities=60%  Similarity=0.953  Sum_probs=0.0  Template_Neff=10.500
+
+Q GRGNYK            1 GRGNY    5 (6)
+Q Consensus         1 grgny    5 (6)
+                      ||.||
+T Consensus        13 ~~~~~   17 (156)
+T 2QPV_A           13 GRENL   17 (156)
+T ss_dssp             -----
+T ss_pred             Cccce
+
+
+No 4
+>6LO8_B Mitochondrial import inner membrane translocase; mitochondrial import, Tim22, protein translocation;{Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=17.96  E-value=1.2e+02  Score=15.35  Aligned_cols=6  Identities=83%  Similarity=1.586  Sum_probs=0.0  Template_Neff=5.600
+
+Q GRGNYK            1 GRGNYK    6 (6)
+Q Consensus         1 grgnyk    6 (6)
+                      ||+-||
+T Consensus       244 GR~a~K  249 (478)
+T 6LO8_B          244 GRGAYK  249 (478)
+T ss_dssp             SHHHHH
+T ss_pred             chHHHH
+
+
+No 5
+>1AG7_A CONOTOXIN GS; NEUROTOXIN, MU-CONOTOXIN, SODIUM CHANNEL BLOCKER; NMR {Conus geographus} SCOP: g.3.6.1
+Probab=15.94  E-value=1.5e+02  Score=11.40  Aligned_cols=4  Identities=100%  Similarity=1.805  Sum_probs=0.0  Template_Neff=1.000
+
+Q GRGNYK            1 GRGN    4 (6)
+Q Consensus         1 grgn    4 (6)
+                      ||||
+T Consensus        20 grgn   23 (34)
+T 1AG7_A           20 GRGN   23 (34)
+
+
+No 6
+>6MST_D Serum amyloid A-2 protein; AA-amyloidosis, Serum Amyloid A, cross-beta; 2.7A {Homo sapiens}
+Probab=15.93  E-value=1.5e+02  Score=11.90  Aligned_cols=5  Identities=80%  Similarity=1.557  Sum_probs=0.0  Template_Neff=4.300
+
+Q GRGNYK            2 RGNYK    6 (6)
+Q Consensus         2 rgnyk    6 (6)
+                      ||||.
+T Consensus        38 rgNy~   42 (66)
+T 6MST_D           38 RGNYD   42 (66)
+T ss_dssp             ESCEE
+T ss_pred             HhcHH
+
+
+No 7
+>6MST_I Serum amyloid A-2 protein; AA-amyloidosis, Serum Amyloid A, cross-beta; 2.7A {Homo sapiens}
+Probab=15.93  E-value=1.5e+02  Score=11.90  Aligned_cols=5  Identities=80%  Similarity=1.557  Sum_probs=0.0  Template_Neff=4.300
+
+Q GRGNYK            2 RGNYK    6 (6)
+Q Consensus         2 rgnyk    6 (6)
+                      ||||.
+T Consensus        38 rgNy~   42 (66)
+T 6MST_I           38 RGNYD   42 (66)
+T ss_dssp             ESCEE
+T ss_pred             HhcHH
+
+
+No 8
+>5OOB_B Nuclear cap-binding protein subunit 1; Complex nuclear cap-binding complex m7GTP; HET: MGT; 2.79A {Homo sapiens}
+Probab=15.71  E-value=1.5e+02  Score=10.10  Aligned_cols=5  Identities=80%  Similarity=1.737  Sum_probs=0.0  Template_Neff=11.400
+
+Q GRGNYK            1 GRGNY    5 (6)
+Q Consensus         1 grgny    5 (6)
+                      |||.|
+T Consensus       147 ~~g~~  151 (158)
+T 5OOB_B          147 GRGGY  151 (158)
+T ss_dssp             GGSSS
+T ss_pred             CCCcC
+
+
+No 9
+>2YNQ_B ESSB; MEMBRANE PROTEIN, SECRETION, ESS, TYPE; HET: MLI; 2.4A {GEOBACILLUS THERMODENITRIFICANS}
+Probab=14.29  E-value=1.7e+02  Score=12.88  Aligned_cols=6  Identities=33%  Similarity=0.650  Sum_probs=0.0  Template_Neff=5.500
+
+Q GRGNYK            1 GRGNYK    6 (6)
+Q Consensus         1 grgnyk    6 (6)
+                      |||+++
+T Consensus        85 Grg~~~   90 (161)
+T 2YNQ_B           85 GRSQSE   90 (161)
+T ss_dssp             HTTCHH
+T ss_pred             ccCCHH
+
+
+No 10
+>6M78_B Polyprotein; Viral-Protein-genome-linked, complex, protease, PLANT VIRAL; NMR {Sesbania mosaic virus}
+Probab=13.73  E-value=1.8e+02  Score=12.03  Aligned_cols=6  Identities=67%  Similarity=1.093  Sum_probs=0.0  Template_Neff=4.200
+
+Q GRGNYK            1 GRGNYK    6 (6)
+Q Consensus         1 grgnyk    6 (6)
+                      |+|+|+
+T Consensus        33 G~gk~~   38 (80)
+T 6M78_B           33 GRGKAK   38 (80)
+T ss_dssp             TTEEEE
+T ss_pred             cceEEE
+
+

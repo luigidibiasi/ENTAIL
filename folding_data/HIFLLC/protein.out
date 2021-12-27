@@ -1,0 +1,153 @@
+Query         HIFLLC
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 06:27:58 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/HIFLLC/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/HIFLLC/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4L8F_B Gamma-glutamyl hydrolas  89.9    0.15 1.7E-06   20.9   0.0    6    1-6       3-8   (312)
+  2 4L8Y_B Gamma-glutamyl hydrolas  89.9    0.15 1.7E-06   20.9   0.0    6    1-6       3-8   (312)
+  3 4ZOQ_G Intracellular serine pr  58.7     8.5 9.4E-05   17.2   0.0    6    1-6       5-10  (100)
+  4 7DH7_C Transcriptional regulat  15.7 1.5E+02  0.0017   11.8   0.0    6    1-6     118-123 (170)
+  5 7DH8_A Transcriptional regulat  15.7 1.5E+02  0.0017   11.8   0.0    6    1-6     118-123 (170)
+  6 1NFI_D NF-KAPPA-B P65, NF-KAPP  14.8 1.6E+02  0.0018   11.7   0.0    5    2-6      21-25  (107)
+  7 1U36_A NF-kB p50 transcription  14.8 1.6E+02  0.0018   11.6   0.0    5    2-6      22-26  (106)
+  8 2GF4_A Protein Vng1086c; Hsr14  14.6 1.7E+02  0.0019   12.5   0.0    5    2-6      55-59  (100)
+  9 3JV6_B Transcription factor Re  14.3 1.7E+02  0.0019   11.7   0.0    5    2-6      22-26  (107)
+ 10 2KI9_A Cannabinoid receptor 2;  14.2 1.7E+02  0.0019    7.1   0.0    5    2-6      14-18  (33)
+
+No 1
+>4L8F_B Gamma-glutamyl hydrolase (E.C.3.4.19.9); sandwiched-like domains, Gamma-glutamyl Hydrolase, Hydrolase; HET: MTX; 1.97A {Danio rerio}
+Probab=89.92  E-value=0.15  Score=20.93  Aligned_cols=6  Identities=100%  Similarity=2.023  Sum_probs=0.0  Template_Neff=9.100
+
+Q HIFLLC            1 HIFLLC    6 (6)
+Q Consensus         1 hifllc    6 (6)
+                      ||||+|
+T Consensus         3 ~~~~~~    8 (312)
+T 4L8F_B            3 HIFLLC    8 (312)
+T ss_dssp             ------
+T ss_pred             hhHHHH
+Confidence            789988
+
+
+No 2
+>4L8Y_B Gamma-glutamyl hydrolase (E.C.3.4.19.9); Sandwiched-like domain, Hydrolase; 1.97A {Danio rerio}
+Probab=89.92  E-value=0.15  Score=20.93  Aligned_cols=6  Identities=100%  Similarity=2.023  Sum_probs=0.0  Template_Neff=9.100
+
+Q HIFLLC            1 HIFLLC    6 (6)
+Q Consensus         1 hifllc    6 (6)
+                      ||||+|
+T Consensus         3 ~~~~~~    8 (312)
+T 4L8Y_B            3 HIFLLC    8 (312)
+T ss_dssp             ------
+T ss_pred             hhHHHH
+Confidence            789988
+
+
+No 3
+>4ZOQ_G Intracellular serine protease; serine protease, lanthipeptide, HYDROLASE; 2.35A {Bacillus licheniformis}
+Probab=58.75  E-value=8.5  Score=17.16  Aligned_cols=6  Identities=83%  Similarity=1.569  Sum_probs=0.0  Template_Neff=1.000
+
+Q HIFLLC            1 HIFLLC    6 (6)
+Q Consensus         1 hifllc    6 (6)
+                      .|||||
+T Consensus         5 yifllc   10 (100)
+T 4ZOQ_G            5 YIFLLC   10 (100)
+T ss_dssp             ------
+T ss_pred             HHHHHH
+Confidence            378887
+
+
+No 4
+>7DH7_C Transcriptional regulator fur family; Zinc perception, Conformational change, Zinc; HET: PO4; 2.2A {Xanthomonas campestris pv. campestris (strain 8004)}
+Probab=15.66  E-value=1.5e+02  Score=11.83  Aligned_cols=6  Identities=50%  Similarity=1.148  Sum_probs=0.0  Template_Neff=8.300
+
+Q HIFLLC            1 HIFLLC    6 (6)
+Q Consensus         1 hifllc    6 (6)
+                      |+|+.|
+T Consensus       118 ~~~~~C  123 (170)
+T 7DH7_C          118 VPFLIC  123 (170)
+T ss_dssp             CCEEEE
+T ss_pred             CCEEEE
+
+
+No 5
+>7DH8_A Transcriptional regulator fur family; Zinc perception, Conformational change, Zinc; 1.85A {Xanthomonas campestris pv. campestris (strain 8004)}
+Probab=15.66  E-value=1.5e+02  Score=11.83  Aligned_cols=6  Identities=50%  Similarity=1.148  Sum_probs=0.0  Template_Neff=8.300
+
+Q HIFLLC            1 HIFLLC    6 (6)
+Q Consensus         1 hifllc    6 (6)
+                      |+|+.|
+T Consensus       118 ~~~~~C  123 (170)
+T 7DH8_A          118 VPFLIC  123 (170)
+T ss_dssp             CEEEEE
+T ss_pred             CCEEEE
+
+
+No 6
+>1NFI_D NF-KAPPA-B P65, NF-KAPPA-B P50, I-KAPPA-B-ALPHA; COMPLEX (TRANSCRIPTION REGULATION-ANK REPEAT), ANKYRIN; 2.7A {Homo sapiens} SCOP: b.1.18.1
+Probab=14.85  E-value=1.6e+02  Score=11.69  Aligned_cols=5  Identities=80%  Similarity=1.902  Sum_probs=0.0  Template_Neff=6.600
+
+Q HIFLLC            2 IFLLC    6 (6)
+Q Consensus         2 ifllc    6 (6)
+                      |||||
+T Consensus        21 v~ll~   25 (107)
+T 1NFI_D           21 IYLLC   25 (107)
+T ss_dssp             EEEEE
+T ss_pred             EEEEE
+
+
+No 7
+>1U36_A NF-kB p50 transcription factor; TRANSCRIPTION FACTOR  NF-KB ; 1.89A {Mus musculus} SCOP: b.1.18.1
+Probab=14.84  E-value=1.6e+02  Score=11.63  Aligned_cols=5  Identities=80%  Similarity=1.803  Sum_probs=0.0  Template_Neff=6.700
+
+Q HIFLLC            2 IFLLC    6 (6)
+Q Consensus         2 ifllc    6 (6)
+                      |||||
+T Consensus        22 i~ll~   26 (106)
+T 1U36_A           22 IWLLC   26 (106)
+T ss_dssp             EEEEE
+T ss_pred             EEEEE
+
+
+No 8
+>2GF4_A Protein Vng1086c; Hsr14, Structural Genomics, PSI, Protein; 2.07A {Halobacterium sp.} SCOP: a.8.10.1
+Probab=14.58  E-value=1.7e+02  Score=12.53  Aligned_cols=5  Identities=60%  Similarity=1.072  Sum_probs=0.0  Template_Neff=4.300
+
+Q HIFLLC            2 IFLLC    6 (6)
+Q Consensus         2 ifllc    6 (6)
+                      ||+|+
+T Consensus        55 If~L~   59 (100)
+T 2GF4_A           55 VFLLG   59 (100)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 9
+>3JV6_B Transcription factor RelB, Nuclear factor; NF-kB protein, Heterodimer, RelB and; HET: SO4; 2.78A {Mus musculus}
+Probab=14.29  E-value=1.7e+02  Score=11.67  Aligned_cols=5  Identities=60%  Similarity=1.843  Sum_probs=0.0  Template_Neff=6.500
+
+Q HIFLLC            2 IFLLC    6 (6)
+Q Consensus         2 ifllc    6 (6)
+                      +||||
+T Consensus        22 l~ll~   26 (107)
+T 3JV6_B           22 VYLLC   26 (107)
+T ss_dssp             EEEEE
+T ss_pred             EEEEE
+
+
+No 10
+>2KI9_A Cannabinoid receptor 2; Human cannabinoid receptor-2, GPCR, G-protein; NMR {N/A}
+Probab=14.22  E-value=1.7e+02  Score=7.12  Aligned_cols=5  Identities=40%  Similarity=1.557  Sum_probs=0.0  Template_Neff=11.200
+
+Q HIFLLC            2 IFLLC    6 (6)
+Q Consensus         2 ifllc    6 (6)
+                      +|++|
+T Consensus        14 ~~~~~   18 (33)
+T 2KI9_A           14 VLLIC   18 (33)
+T ss_dssp             HHTTT
+T ss_pred             HHHHH
+
+

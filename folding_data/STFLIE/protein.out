@@ -1,0 +1,147 @@
+Query         STFLIE
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 17:27:18 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/STFLIE/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/STFLIE/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3A1M_B bacteriophage T4, Antim  26.6      63 0.00069   14.8   0.0    6    1-6     128-133 (139)
+  2 3A1M_C bacteriophage T4, Antim  26.6      63 0.00069   14.8   0.0    6    1-6     128-133 (139)
+  3 4V7E_Cg Ribosome; eukaryotic r  15.1 1.6E+02  0.0018   12.6   0.0    4    3-6      95-98  (119)
+  4 7O7Y_Bg 40S ribosomal protein   15.0 1.6E+02  0.0018   12.7   0.0    4    3-6      95-98  (117)
+  5 3VCB_A RNA-directed RNA polyme  14.5 1.7E+02  0.0019   12.8   0.0    6    1-6      13-18  (94)
+  6 3VC8_B RNA-directed RNA polyme  14.4 1.7E+02  0.0019   12.8   0.0    6    1-6      13-18  (94)
+  7 4V6W_Cg Ribosome; eukarya, euk  14.1 1.8E+02  0.0019   13.5   0.0    4    3-6      93-96  (162)
+  8 6FTG_g Uncharacterized protein  14.0 1.8E+02   0.002   12.5   0.0    4    3-6      94-97  (114)
+  9 3GZF_A Replicase polyprotein 1  13.8 1.8E+02   0.002   12.8   0.0    6    1-6      18-23  (96)
+ 10 6AZ3_h ribosomal protein uL2,   13.7 1.8E+02   0.002   12.6   0.0    4    3-6      94-97  (125)
+
+No 1
+>3A1M_B bacteriophage T4, Antimicrobial, Bacteriolytic enzyme; 2.0A {Enterobacteria phage T4}
+Probab=26.63  E-value=63  Score=14.84  Aligned_cols=6  Identities=83%  Similarity=1.243  Sum_probs=0.5  Template_Neff=3.200
+
+Q STFLIE            1 STFLIE    6 (6)
+Q Consensus         1 stflie    6 (6)
+                      ||||+|
+T Consensus       128 s~~~~~  133 (139)
+T 3A1M_B          128 STFLVE  133 (139)
+T ss_dssp             C-----
+T ss_pred             eeeeec
+Confidence            567765
+
+
+No 2
+>3A1M_C bacteriophage T4, Antimicrobial, Bacteriolytic enzyme; 2.0A {Enterobacteria phage T4}
+Probab=26.63  E-value=63  Score=14.84  Aligned_cols=6  Identities=83%  Similarity=1.243  Sum_probs=0.5  Template_Neff=3.200
+
+Q STFLIE            1 STFLIE    6 (6)
+Q Consensus         1 stflie    6 (6)
+                      ||||+|
+T Consensus       128 s~~~~~  133 (139)
+T 3A1M_C          128 STFLVE  133 (139)
+T ss_dssp             C-----
+T ss_pred             eeeeec
+Confidence            567765
+
+
+No 3
+>4V7E_Cg Ribosome; eukaryotic ribosome, homology modeling, de; 5.5A {Triticum aestivum}
+Probab=15.06  E-value=1.6e+02  Score=12.63  Aligned_cols=4  Identities=75%  Similarity=1.472  Sum_probs=0.0  Template_Neff=5.000
+
+Q STFLIE            3 FLIE    6 (6)
+Q Consensus         3 flie    6 (6)
+                      ||+|
+T Consensus        95 FL~e   98 (119)
+T 4V7E_Cg          95 FLVE   98 (119)
+T ss_pred             HHHH
+
+
+No 4
+>7O7Y_Bg 40S ribosomal protein S27, Ribosomal; Frameshift, virus, pseudoknot, RIBOSOME; HET: GTP, HIC, 5MC, UNX, A2M, 5MU, M2G, 7MG, 1MA, SAC, OMU, PSU, MG, OMG, V5N, YYG, 2MG, UY1, 6MZ, H2U, OMC, SPD, B8N, NMM, MA6, UR3, 4AC, MLZ, M3L, AME, SPM; 2.2A {Oryctolagus cuniculus}
+Probab=15.03  E-value=1.6e+02  Score=12.68  Aligned_cols=4  Identities=100%  Similarity=1.547  Sum_probs=0.0  Template_Neff=4.800
+
+Q STFLIE            3 FLIE    6 (6)
+Q Consensus         3 flie    6 (6)
+                      ||+|
+T Consensus        95 FL~e   98 (117)
+T 7O7Y_Bg          95 FLIE   98 (117)
+T ss_pred             HHHH
+
+
+No 5
+>3VCB_A RNA-directed RNA polymerase; New fold  Homodimer, Host; 2.4A {Murine hepatitis virus}
+Probab=14.45  E-value=1.7e+02  Score=12.85  Aligned_cols=6  Identities=50%  Similarity=0.982  Sum_probs=0.0  Template_Neff=3.000
+
+Q STFLIE            1 STFLIE    6 (6)
+Q Consensus         1 stflie    6 (6)
+                      +||+|.
+T Consensus        13 ~TFvi~   18 (94)
+T 3VCB_A           13 TTFMIT   18 (94)
+T ss_dssp             SCEEEC
+T ss_pred             ceeEEc
+
+
+No 6
+>3VC8_B RNA-directed RNA polymerase; New fold, Host membrane, Multi-pass; 2.0A {Murine hepatitis virus}
+Probab=14.40  E-value=1.7e+02  Score=12.84  Aligned_cols=6  Identities=50%  Similarity=0.982  Sum_probs=0.0  Template_Neff=3.000
+
+Q STFLIE            1 STFLIE    6 (6)
+Q Consensus         1 stflie    6 (6)
+                      +||+|.
+T Consensus        13 ~TFvi~   18 (94)
+T 3VC8_B           13 TTFMIT   18 (94)
+T ss_dssp             SCEEEC
+T ss_pred             ceeEec
+
+
+No 7
+>4V6W_Cg Ribosome; eukarya, eukaryotic, ribosomal, 80S, RNA; 6.0A {Drosophila melanogaster}
+Probab=14.11  E-value=1.8e+02  Score=13.52  Aligned_cols=4  Identities=100%  Similarity=1.547  Sum_probs=0.0  Template_Neff=3.900
+
+Q STFLIE            3 FLIE    6 (6)
+Q Consensus         3 flie    6 (6)
+                      ||||
+T Consensus        93 FL~E   96 (162)
+T 4V6W_Cg          93 FLIE   96 (162)
+T ss_pred             HHHH
+
+
+No 8
+>6FTG_g Uncharacterized protein, Ribosomal protein L4; Protein translocon of the endoplasmic; HET: 9UB, MG, BMA, MAN, NAG; 9.1A {Oryctolagus cuniculus}
+Probab=14.00  E-value=1.8e+02  Score=12.46  Aligned_cols=4  Identities=100%  Similarity=1.547  Sum_probs=0.0  Template_Neff=4.900
+
+Q STFLIE            3 FLIE    6 (6)
+Q Consensus         3 flie    6 (6)
+                      ||+|
+T Consensus        94 FL~e   97 (114)
+T 6FTG_g           94 FLIE   97 (114)
+T ss_pred             HHHH
+
+
+No 9
+>3GZF_A Replicase polyprotein 1ab; Coronavirus, FCoV, nsp4, VIRAL PROTEIN; HET: SO4; 2.756A {Feline coronavirus}
+Probab=13.76  E-value=1.8e+02  Score=12.77  Aligned_cols=6  Identities=50%  Similarity=1.021  Sum_probs=0.0  Template_Neff=3.100
+
+Q STFLIE            1 STFLIE    6 (6)
+Q Consensus         1 stflie    6 (6)
+                      +||+|.
+T Consensus        18 ~TFvi~   23 (96)
+T 3GZF_A           18 GTFVID   23 (96)
+T ss_dssp             SCEEEC
+T ss_pred             ceEEEe
+
+
+No 10
+>6AZ3_h ribosomal protein uL2, ribosomal protein; Leishmania, ribosome, aminoglycoside, paromomycin, RIBOSOME-ANTIBIOTIC; HET: OMU, PAR, OMC, MG, A2M, OMG, C; 2.5A {Leishmania donovani}
+Probab=13.69  E-value=1.8e+02  Score=12.63  Aligned_cols=4  Identities=75%  Similarity=1.472  Sum_probs=0.0  Template_Neff=4.800
+
+Q STFLIE            3 FLIE    6 (6)
+Q Consensus         3 flie    6 (6)
+                      ||+|
+T Consensus        94 FL~e   97 (125)
+T 6AZ3_h           94 FLVE   97 (125)
+T ss_pred             HHHH
+
+

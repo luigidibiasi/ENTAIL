@@ -1,0 +1,151 @@
+Query         NYKNFN
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 05:05:21 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NYKNFN/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NYKNFN/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 7A8T_B Alpha-actinin-2, Myozen  77.3     1.8   2E-05   17.7   0.0    6    1-6      46-51  (92)
+  2 7A8U_B Alpha-actinin-2, Myozen  65.6     5.3 5.8E-05   18.8   0.0    6    1-6     127-132 (209)
+  3 7ANK_C Alpha-actinin-2, Myozen  65.6     5.3 5.8E-05   18.8   0.0    6    1-6     127-132 (209)
+  4 6HXT_B Coiled-coil domain-cont  10.3 2.8E+02  0.0031   12.3   0.0    6    1-6      62-67  (145)
+  5 6HXT_C Coiled-coil domain-cont   9.6   3E+02  0.0033   12.2   0.0    6    1-6      62-67  (145)
+  6 7CMU_R Guanine nucleotide-bind   9.1 3.3E+02  0.0036   11.9   0.0    6    1-6      41-46  (545)
+  7 7CMV_R D(3) dopamine receptor,   9.1 3.3E+02  0.0036   11.9   0.0    6    1-6      41-46  (545)
+  8 1ZGX_B Guanyl-specific ribonuc   9.0 3.3E+02  0.0037    9.4   0.0    5    1-5      22-26  (33)
+  9 4HFK_D Putative cytoplasmic pr   8.8 3.4E+02  0.0038   11.2   0.0    5    1-5      14-18  (105)
+ 10 5YVQ_B Gene product J; bacteri   8.7 3.5E+02  0.0038   11.1   0.0    5    1-5       3-7   (175)
+
+No 1
+>7A8T_B Alpha-actinin-2, Myozenin-1; Z-disk complex, F-actin crosslinking protein; 2.69A {Homo sapiens}
+Probab=77.29  E-value=1.8  Score=17.68  Aligned_cols=6  Identities=67%  Similarity=1.303  Sum_probs=4.5  Template_Neff=4.900
+
+Q NYKNFN            1 NYKNFN    6 (6)
+Q Consensus         1 nyknfn    6 (6)
+                      +||+||
+T Consensus        46 ~YksFN   51 (92)
+T 7A8T_B           46 KYKSFN   51 (92)
+T ss_dssp             CSCCCC
+T ss_pred             CCceec
+Confidence            478887
+
+
+No 2
+>7A8U_B Alpha-actinin-2, Myozenin-1; Z-disk complex, F-actin crosslinking protein; 3.802A {Homo sapiens}
+Probab=65.56  E-value=5.3  Score=18.81  Aligned_cols=6  Identities=67%  Similarity=1.303  Sum_probs=4.7  Template_Neff=3.700
+
+Q NYKNFN            1 NYKNFN    6 (6)
+Q Consensus         1 nyknfn    6 (6)
+                      +||+||
+T Consensus       127 ~YKSFN  132 (209)
+T 7A8U_B          127 KYKSFN  132 (209)
+T ss_pred             cCeeec
+Confidence            488887
+
+
+No 3
+>7ANK_C Alpha-actinin-2, Myozenin-1; Z-disk complex, F-actin crosslinking protein; 3.204A {Homo sapiens}
+Probab=65.56  E-value=5.3  Score=18.81  Aligned_cols=6  Identities=67%  Similarity=1.303  Sum_probs=4.7  Template_Neff=3.700
+
+Q NYKNFN            1 NYKNFN    6 (6)
+Q Consensus         1 nyknfn    6 (6)
+                      +||+||
+T Consensus       127 ~YKSFN  132 (209)
+T 7ANK_C          127 KYKSFN  132 (209)
+T ss_dssp             CCCCCC
+T ss_pred             cCeeec
+Confidence            488887
+
+
+No 4
+>6HXT_B Coiled-coil domain-containing protein 61; Centrosome, cilia, scaffold protein, protfilament; HET: MSE; 2.55A {Homo sapiens}
+Probab=10.25  E-value=2.8e+02  Score=12.25  Aligned_cols=6  Identities=67%  Similarity=1.309  Sum_probs=0.0  Template_Neff=5.100
+
+Q NYKNFN            1 NYKNFN    6 (6)
+Q Consensus         1 nyknfn    6 (6)
+                      |+|.|+
+T Consensus        62 nfK~F~   67 (145)
+T 6HXT_B           62 NFKQFN   67 (145)
+T ss_dssp             BCCCHH
+T ss_pred             CcchhH
+
+
+No 5
+>6HXT_C Coiled-coil domain-containing protein 61; Centrosome, cilia, scaffold protein, protfilament; HET: MSE; 2.55A {Homo sapiens}
+Probab=9.65  E-value=3e+02  Score=12.23  Aligned_cols=6  Identities=67%  Similarity=1.309  Sum_probs=0.0  Template_Neff=4.900
+
+Q NYKNFN            1 NYKNFN    6 (6)
+Q Consensus         1 nyknfn    6 (6)
+                      |+|.|+
+T Consensus        62 n~K~F~   67 (145)
+T 6HXT_C           62 NFKQFN   67 (145)
+T ss_dssp             BCCCHH
+T ss_pred             CcchhH
+
+
+No 6
+>7CMU_R Guanine nucleotide-binding protein G(i) subunit; G protein-coupled receptor, Dopamine receptor; HET: G6L; 3.0A {Homo sapiens}
+Probab=9.09  E-value=3.3e+02  Score=11.94  Aligned_cols=6  Identities=33%  Similarity=0.373  Sum_probs=0.0  Template_Neff=10.400
+
+Q NYKNFN            1 NYKNFN    6 (6)
+Q Consensus         1 nyknfn    6 (6)
+                      |||.|+
+T Consensus        41 ~~~~~~   46 (545)
+T 7CMU_R           41 NLKVIE   46 (545)
+T ss_dssp             TCSHHH
+T ss_pred             HHHHHH
+
+
+No 7
+>7CMV_R D(3) dopamine receptor, Guanine nucleotide-binding; G protein-coupled receptor, Dopamine receptor; HET: G6O; 2.7A {Homo sapiens}
+Probab=9.09  E-value=3.3e+02  Score=11.94  Aligned_cols=6  Identities=33%  Similarity=0.373  Sum_probs=0.0  Template_Neff=10.400
+
+Q NYKNFN            1 NYKNFN    6 (6)
+Q Consensus         1 nyknfn    6 (6)
+                      |||.|+
+T Consensus        41 ~~~~~~   46 (545)
+T 7CMV_R           41 NLKVIE   46 (545)
+T ss_dssp             TCSHHH
+T ss_pred             HHHHHH
+
+
+No 8
+>1ZGX_B Guanyl-specific ribonuclease Sa (E.C.3.1.27.3); mutant, HYDROLASE; HET: SO4; 1.13A {Streptomyces aureofaciens}
+Probab=9.00  E-value=3.3e+02  Score=9.38  Aligned_cols=5  Identities=40%  Similarity=1.072  Sum_probs=0.0  Template_Neff=5.000
+
+Q NYKNFN            1 NYKNF    5 (6)
+Q Consensus         1 nyknf    5 (6)
+                      +|++|
+T Consensus        22 HY~sF   26 (33)
+T 1ZGX_B           22 HYATF   26 (33)
+T ss_dssp             TTSCC
+T ss_pred             Ccccc
+
+
+No 9
+>4HFK_D Putative cytoplasmic protein, Putative uncharacterized; amidase, HYDROLASE; 2.1A {Enterobacter cloacae}
+Probab=8.80  E-value=3.4e+02  Score=11.21  Aligned_cols=5  Identities=20%  Similarity=0.727  Sum_probs=0.0  Template_Neff=5.600
+
+Q NYKNFN            1 NYKNF    5 (6)
+Q Consensus         1 nyknf    5 (6)
+                      ||||+
+T Consensus        14 ~~Kd~   18 (105)
+T 4HFK_D           14 IFENW   18 (105)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 10
+>5YVQ_B Gene product J; bacteriophage, VIRAL PROTEIN; HET: GOL; 2.103A {Escherichia phage Mu}
+Probab=8.73  E-value=3.5e+02  Score=11.08  Aligned_cols=5  Identities=40%  Similarity=0.614  Sum_probs=0.0  Template_Neff=7.900
+
+Q NYKNFN            1 NYKNF    5 (6)
+Q Consensus         1 nyknf    5 (6)
+                      .+|||
+T Consensus         3 ~~knf    7 (175)
+T 5YVQ_B            3 HLKNI    7 (175)
+T ss_pred             CccCc
+
+

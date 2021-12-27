@@ -1,0 +1,235 @@
+Query         GVPGIA
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 04:44:42 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GVPGIA/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GVPGIA/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5KSR_B 5'-nucleotidase SurE (E  45.6      19 0.00021   15.8   0.0    6    1-6     117-122 (270)
+  2 5KSR_D 5'-nucleotidase SurE (E  45.4      19 0.00022   15.8   0.0    6    1-6     117-122 (270)
+  3 4ZG5_C 5'-nucleotidase SurE (E  44.2      21 0.00023   15.7   0.0    6    1-6     117-122 (263)
+  4 4ZG5_D 5'-nucleotidase SurE (E  42.9      23 0.00025   15.6   0.0    6    1-6     117-122 (263)
+  5 2E6B_A 5'-nucleotidase surE (E  42.1      24 0.00026   15.4   0.0    6    1-6     121-126 (244)
+  6 2E6C_B 5'-nucleotidase surE (E  42.1      24 0.00026   15.4   0.0    6    1-6     121-126 (244)
+  7 2WQK_B 5'-NUCLEOTIDASE SURE (E  41.6      24 0.00027   15.3   0.0    6    1-6     119-124 (251)
+  8 3TY2_A 5'-nucleotidase surE (E  41.4      25 0.00027   15.4   0.0    6    1-6     127-132 (261)
+  9 1J9J_B STATIONARY PHASE SURVIV  41.1      25 0.00028   15.4   0.0    6    1-6     120-125 (247)
+ 10 1J9K_B STATIONARY PHASE SURVIV  41.1      25 0.00028   15.4   0.0    6    1-6     120-125 (247)
+ 11 2E6C_A 5'-nucleotidase surE (E  39.4      28 0.00031   15.2   0.0    6    1-6     121-126 (244)
+ 12 2V4N_A MULTIFUNCTIONAL PROTEIN  39.0      29 0.00032   15.2   0.0    6    1-6     118-123 (254)
+ 13 4XJ7_A 5'/3'-nucleotidase SurE  36.9      32 0.00036   15.3   0.0    6    1-6     131-136 (267)
+ 14 4XEP_A 5'/3'-nucleotidase SurE  36.1      34 0.00038   15.3   0.0    6    1-6     131-136 (267)
+ 15 1L5X_B Survival protein E; STR  28.6      55 0.00061   14.8   0.0    6    1-6     119-124 (280)
+
+No 1
+>5KSR_B 5'-nucleotidase SurE (E.C.3.1.3.5); Stationary phase survival protein E; 1.96A {Xylella fastidiosa (strain 9a5c)}
+Probab=45.58  E-value=19  Score=15.84  Aligned_cols=6  Identities=50%  Similarity=1.221  Sum_probs=3.5  Template_Neff=7.200
+
+Q GVPGIA            1 GVPGIA    6 (6)
+Q Consensus         1 gvpgia    6 (6)
+                      |+|+||
+T Consensus       117 GIPaIA  122 (270)
+T 5KSR_B          117 GLPAVA  122 (270)
+T ss_dssp             TCCEEE
+T ss_pred             CCCEEE
+Confidence            466664
+
+
+No 2
+>5KSR_D 5'-nucleotidase SurE (E.C.3.1.3.5); Stationary phase survival protein E; 1.96A {Xylella fastidiosa (strain 9a5c)}
+Probab=45.42  E-value=19  Score=15.77  Aligned_cols=6  Identities=50%  Similarity=1.221  Sum_probs=3.5  Template_Neff=7.300
+
+Q GVPGIA            1 GVPGIA    6 (6)
+Q Consensus         1 gvpgia    6 (6)
+                      |+|+||
+T Consensus       117 GIPaIA  122 (270)
+T 5KSR_D          117 GLPAVA  122 (270)
+T ss_dssp             TCCEEE
+T ss_pred             CCCEEE
+Confidence            466664
+
+
+No 3
+>4ZG5_C 5'-nucleotidase SurE (E.C.3.1.3.5 ); Hydrolase; 1.9A {Brucella abortus S19}
+Probab=44.25  E-value=21  Score=15.69  Aligned_cols=6  Identities=67%  Similarity=0.889  Sum_probs=3.4  Template_Neff=7.200
+
+Q GVPGIA            1 GVPGIA    6 (6)
+Q Consensus         1 gvpgia    6 (6)
+                      |+|+||
+T Consensus       117 GipaIA  122 (263)
+T 4ZG5_C          117 GVRAIA  122 (263)
+T ss_dssp             TCCEEE
+T ss_pred             CCcEEE
+Confidence            456664
+
+
+No 4
+>4ZG5_D 5'-nucleotidase SurE (E.C.3.1.3.5 ); Hydrolase; 1.9A {Brucella abortus S19}
+Probab=42.86  E-value=23  Score=15.64  Aligned_cols=6  Identities=67%  Similarity=0.889  Sum_probs=3.4  Template_Neff=7.100
+
+Q GVPGIA            1 GVPGIA    6 (6)
+Q Consensus         1 gvpgia    6 (6)
+                      |+|+||
+T Consensus       117 giPaIA  122 (263)
+T 4ZG5_D          117 GVRAIA  122 (263)
+T ss_dssp             TCEEEE
+T ss_pred             CCcEEE
+Confidence            456664
+
+
+No 5
+>2E6B_A 5'-nucleotidase surE (E.C.3.1.3.5); SurE protein, complex with magnesium; HET: GOL, WO4, SO4; 2.5A {Thermus thermophilus}
+Probab=42.15  E-value=24  Score=15.43  Aligned_cols=6  Identities=33%  Similarity=0.606  Sum_probs=3.4  Template_Neff=7.100
+
+Q GVPGIA            1 GVPGIA    6 (6)
+Q Consensus         1 gvpgia    6 (6)
+                      |+|+||
+T Consensus       121 GiPaIA  126 (244)
+T 2E6B_A          121 GLSAAA  126 (244)
+T ss_dssp             TCEEEE
+T ss_pred             CCCEEE
+Confidence            456664
+
+
+No 6
+>2E6C_B 5'-nucleotidase surE (E.C.3.1.3.5); SurE protein, cocrystal structure with; HET: SO4, GOL; 2.05A {Thermus thermophilus}
+Probab=42.15  E-value=24  Score=15.43  Aligned_cols=6  Identities=33%  Similarity=0.606  Sum_probs=3.4  Template_Neff=7.100
+
+Q GVPGIA            1 GVPGIA    6 (6)
+Q Consensus         1 gvpgia    6 (6)
+                      |+|+||
+T Consensus       121 GiPaIA  126 (244)
+T 2E6C_B          121 GLSAAA  126 (244)
+T ss_dssp             TCEEEE
+T ss_pred             CCCEEE
+Confidence            456664
+
+
+No 7
+>2WQK_B 5'-NUCLEOTIDASE SURE (E.C.3.1.3.5); SURE PROTEIN, PUTATIVE ACID PHOSPHATASE; HET: SO4; 1.5A {AQUIFEX AEOLICUS}
+Probab=41.63  E-value=24  Score=15.34  Aligned_cols=6  Identities=67%  Similarity=1.337  Sum_probs=3.3  Template_Neff=7.300
+
+Q GVPGIA            1 GVPGIA    6 (6)
+Q Consensus         1 gvpgia    6 (6)
+                      |+|+||
+T Consensus       119 gipaIA  124 (251)
+T 2WQK_B          119 GIPSIA  124 (251)
+T ss_dssp             TCCEEE
+T ss_pred             CCCEEE
+Confidence            456654
+
+
+No 8
+>3TY2_A 5'-nucleotidase surE (E.C.3.1.3.5); survival protein, phosphatase, Hydrolase; HET: MSE; 1.885A {Coxiella burnetii}
+Probab=41.40  E-value=25  Score=15.40  Aligned_cols=6  Identities=50%  Similarity=1.204  Sum_probs=3.4  Template_Neff=7.300
+
+Q GVPGIA            1 GVPGIA    6 (6)
+Q Consensus         1 gvpgia    6 (6)
+                      |+|+||
+T Consensus       127 GiPaIA  132 (261)
+T 3TY2_A          127 GLPALA  132 (261)
+T ss_dssp             SCCEEE
+T ss_pred             CCCEEE
+Confidence            456654
+
+
+No 9
+>1J9J_B STATIONARY PHASE SURVIVAL PROTEIN; THERMOTOGA MARITIMA, surE protein, UNKNOWN; 1.9A {Thermotoga maritima} SCOP: c.106.1.1
+Probab=41.14  E-value=25  Score=15.38  Aligned_cols=6  Identities=50%  Similarity=0.994  Sum_probs=3.3  Template_Neff=7.100
+
+Q GVPGIA            1 GVPGIA    6 (6)
+Q Consensus         1 gvpgia    6 (6)
+                      |+|+||
+T Consensus       120 GipaIA  125 (247)
+T 1J9J_B          120 NIPSIA  125 (247)
+T ss_dssp             TCCEEE
+T ss_pred             CCCEEE
+Confidence            456654
+
+
+No 10
+>1J9K_B STATIONARY PHASE SURVIVAL PROTEIN, 4-(2-HYDROXYETHYL)-1-PIPERAZINE; Tungstate complex, surE protein, UNKNOWN; HET: EPE, WO4; 2.1A {Thermotoga maritima} SCOP: c.106.1.1
+Probab=41.14  E-value=25  Score=15.38  Aligned_cols=6  Identities=50%  Similarity=0.994  Sum_probs=3.3  Template_Neff=7.100
+
+Q GVPGIA            1 GVPGIA    6 (6)
+Q Consensus         1 gvpgia    6 (6)
+                      |+|+||
+T Consensus       120 GipaIA  125 (247)
+T 1J9K_B          120 NIPSIA  125 (247)
+T ss_dssp             TCCEEE
+T ss_pred             CCCEEE
+Confidence            456654
+
+
+No 11
+>2E6C_A 5'-nucleotidase surE (E.C.3.1.3.5); SurE protein, cocrystal structure with; HET: SO4, GOL; 2.05A {Thermus thermophilus}
+Probab=39.39  E-value=28  Score=15.17  Aligned_cols=6  Identities=33%  Similarity=0.606  Sum_probs=3.3  Template_Neff=7.200
+
+Q GVPGIA            1 GVPGIA    6 (6)
+Q Consensus         1 gvpgia    6 (6)
+                      |+|+||
+T Consensus       121 giPaIA  126 (244)
+T 2E6C_A          121 GLSAAA  126 (244)
+T ss_dssp             TCEEEE
+T ss_pred             CCCEEE
+Confidence            456654
+
+
+No 12
+>2V4N_A MULTIFUNCTIONAL PROTEIN SUR E (E.C.3.1.3.5; HYDROLASE, SUR E, SURVIVAL PROTEIN; 1.7A {SALMONELLA TYPHIMURIUM}
+Probab=39.01  E-value=29  Score=15.22  Aligned_cols=6  Identities=50%  Similarity=1.110  Sum_probs=3.3  Template_Neff=7.200
+
+Q GVPGIA            1 GVPGIA    6 (6)
+Q Consensus         1 gvpgia    6 (6)
+                      |+|+||
+T Consensus       118 GipaIA  123 (254)
+T 2V4N_A          118 GFPALA  123 (254)
+T ss_dssp             SSCEEE
+T ss_pred             CCCEEE
+Confidence            456654
+
+
+No 13
+>4XJ7_A 5'/3'-nucleotidase SurE; Stationary phase survival protein, Domain; HET: ADE, GOL, PO4, ADN; 1.6A {Salmonella typhimurium (strain LT2 / SGSC1412 / ATCC 700720)}
+Probab=36.91  E-value=32  Score=15.32  Aligned_cols=6  Identities=50%  Similarity=1.110  Sum_probs=3.3  Template_Neff=6.900
+
+Q GVPGIA            1 GVPGIA    6 (6)
+Q Consensus         1 gvpgia    6 (6)
+                      |+|+||
+T Consensus       131 GipaIA  136 (267)
+T 4XJ7_A          131 GFPALA  136 (267)
+T ss_dssp             SSCEEE
+T ss_pred             CCCEEE
+Confidence            456654
+
+
+No 14
+>4XEP_A 5'/3'-nucleotidase SurE; Stationary phase survival protein, Domain; HET: EDO; 1.5A {Salmonella typhimurium LT2}
+Probab=36.13  E-value=34  Score=15.31  Aligned_cols=6  Identities=50%  Similarity=1.110  Sum_probs=3.3  Template_Neff=6.800
+
+Q GVPGIA            1 GVPGIA    6 (6)
+Q Consensus         1 gvpgia    6 (6)
+                      |+|+||
+T Consensus       131 GipaIA  136 (267)
+T 4XEP_A          131 GFPALA  136 (267)
+T ss_dssp             SSCEEE
+T ss_pred             CCCEEE
+Confidence            456654
+
+
+No 15
+>1L5X_B Survival protein E; STRUCTURAL GENOMICS, putative acid phosphatase; HET: GOL; 2.0A {Pyrobaculum aerophilum} SCOP: c.106.1.1
+Probab=28.60  E-value=55  Score=14.79  Aligned_cols=6  Identities=50%  Similarity=1.276  Sum_probs=3.1  Template_Neff=6.800
+
+Q GVPGIA            1 GVPGIA    6 (6)
+Q Consensus         1 gvpgia    6 (6)
+                      |+|+||
+T Consensus       119 GipaIA  124 (280)
+T 1L5X_B          119 GIPALA  124 (280)
+T ss_dssp             TCCEEE
+T ss_pred             CCCEEE
+Confidence            455554
+
+

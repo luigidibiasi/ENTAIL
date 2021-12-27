@@ -1,0 +1,153 @@
+Query         GNQSGF
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 02:43:04 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GNQSGF/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GNQSGF/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4Z80_C EGF family domain-conta  75.6     2.2 2.4E-05   16.4   0.0    6    1-6       8-13  (37)
+  2 4Z80_D EGF family domain-conta  75.6     2.2 2.4E-05   16.4   0.0    6    1-6       8-13  (37)
+  3 4RZL_A Restriction endonucleas  27.7      58 0.00064   15.3   0.0    6    1-6      49-54  (232)
+  4 4OC8_A restriction endonucleas  24.1      75 0.00082   14.6   0.0    6    1-6      41-46  (388)
+  5 6NMJ_B Resistance to inhibitor  17.4 1.3E+02  0.0014   14.1   0.0    6    1-6     414-419 (453)
+  6 5W78_B Acyloxyacyl hydrolase (  16.6 1.4E+02  0.0015   13.4   0.0    6    1-6     418-423 (423)
+  7 5W7C_C Acyloxyacyl hydrolase (  15.6 1.5E+02  0.0017   13.3   0.0    6    1-6     418-423 (423)
+  8 6NMG_B Resistance to inhibitor  15.2 1.6E+02  0.0017   13.8   0.0    6    1-6     414-419 (453)
+  9 3N53_A Response regulator rece  14.1 1.8E+02   0.002    8.7   0.0    6    1-6     135-140 (140)
+ 10 5W7F_B Acyloxyacyl hydrolase (  14.1 1.8E+02   0.002   13.8   0.0    6    1-6     557-562 (562)
+
+No 1
+>4Z80_C EGF family domain-containing protein; Apicomplexa, invasion, moving junction, parasite; HET: NAG, GOL, SO4; 1.53A {Toxoplasma gondii}
+Probab=75.64  E-value=2.2  Score=16.36  Aligned_cols=6  Identities=50%  Similarity=0.562  Sum_probs=4.4  Template_Neff=2.100
+
+Q GNQSGF            1 GNQSGF    6 (6)
+Q Consensus         1 gnqsgf    6 (6)
+                      +||||+
+T Consensus         8 ~NqSg~   13 (37)
+T 4Z80_C            8 QNQSSL   13 (37)
+T ss_pred             cccccc
+Confidence            588875
+
+
+No 2
+>4Z80_D EGF family domain-containing protein; Apicomplexa, invasion, moving junction, parasite; HET: SO4, GOL, NAG; 1.53A {Toxoplasma gondii}
+Probab=75.64  E-value=2.2  Score=16.36  Aligned_cols=6  Identities=50%  Similarity=0.562  Sum_probs=4.4  Template_Neff=2.100
+
+Q GNQSGF            1 GNQSGF    6 (6)
+Q Consensus         1 gnqsgf    6 (6)
+                      +||||+
+T Consensus         8 ~NqSg~   13 (37)
+T 4Z80_D            8 QNQSSL   13 (37)
+T ss_dssp             BCHHHH
+T ss_pred             cccccc
+Confidence            588875
+
+
+No 3
+>4RZL_A Restriction endonuclease LpnPI; cytosine modification, SRA domain, LpnPI; HET: 1PE; 2.1A {Legionella pneumophila subsp. pneumophila str. Philadelphia 1}
+Probab=27.67  E-value=58  Score=15.31  Aligned_cols=6  Identities=67%  Similarity=1.298  Sum_probs=3.5  Template_Neff=4.800
+
+Q GNQSGF            1 GNQSGF    6 (6)
+Q Consensus         1 gnqsgf    6 (6)
+                      +||.||
+T Consensus        49 ~nqgGi   54 (232)
+T 4RZL_A           49 GNMGGF   54 (232)
+T ss_dssp             CSSCSE
+T ss_pred             cccccc
+Confidence            466665
+
+
+No 4
+>4OC8_A restriction endonuclease AspBHI; DNA Cleavage, DNA Restriction Enzymes; HET: PO4; 2.884A {Azoarcus sp.}
+Probab=24.14  E-value=75  Score=14.61  Aligned_cols=6  Identities=50%  Similarity=0.966  Sum_probs=3.1  Template_Neff=7.600
+
+Q GNQSGF            1 GNQSGF    6 (6)
+Q Consensus         1 gnqsgf    6 (6)
+                      +||.||
+T Consensus        41 ~~~gG~   46 (388)
+T 4OC8_A           41 SRQGGF   46 (388)
+T ss_dssp             CSCCSE
+T ss_pred             cccCcc
+Confidence            355554
+
+
+No 5
+>6NMJ_B Resistance to inhibitors of cholinesterase; guanine nucleotide exchange factor heterotrimeric; 2.3A {Rattus norvegicus}
+Probab=17.41  E-value=1.3e+02  Score=14.10  Aligned_cols=6  Identities=50%  Similarity=1.104  Sum_probs=0.0  Template_Neff=7.800
+
+Q GNQSGF            1 GNQSGF    6 (6)
+Q Consensus         1 gnqsgf    6 (6)
+                      ||.+||
+T Consensus       414 GnAAG~  419 (453)
+T 6NMJ_B          414 GNAAGL  419 (453)
+T ss_dssp             ------
+T ss_pred             ccHHHH
+Confidence            455554
+
+
+No 6
+>5W78_B Acyloxyacyl hydrolase (E.C.3.1.1.77); lipopolysaccharide, LPS, GDSL esterase, saposin; HET: PLM, NAG, MYR, DAO; 2.271A {Homo sapiens}
+Probab=16.58  E-value=1.4e+02  Score=13.36  Aligned_cols=6  Identities=50%  Similarity=1.021  Sum_probs=0.0  Template_Neff=8.800
+
+Q GNQSGF            1 GNQSGF    6 (6)
+Q Consensus         1 gnqsgf    6 (6)
+                      |+|.|+
+T Consensus       418 ~~~~~~  423 (423)
+T 5W78_B          418 GDQGGH  423 (423)
+T ss_dssp             TTTTCC
+T ss_pred             ccCCCC
+
+
+No 7
+>5W7C_C Acyloxyacyl hydrolase (E.C.3.1.1.77); lipopolysaccharide, LPS, GDSL esterase, saposin; HET: DAO, NAG, FTT; 2.23A {Homo sapiens}
+Probab=15.64  E-value=1.5e+02  Score=13.25  Aligned_cols=6  Identities=50%  Similarity=1.021  Sum_probs=0.0  Template_Neff=8.800
+
+Q GNQSGF            1 GNQSGF    6 (6)
+Q Consensus         1 gnqsgf    6 (6)
+                      |+|.|+
+T Consensus       418 ~~~~~~  423 (423)
+T 5W7C_C          418 GDQGGH  423 (423)
+T ss_pred             ccCCCC
+
+
+No 8
+>6NMG_B Resistance to inhibitors of cholinesterase; guanine nucleotide exchange factor heterotrimeric; HET: SO4; 2.2A {Rattus norvegicus}
+Probab=15.23  E-value=1.6e+02  Score=13.84  Aligned_cols=6  Identities=50%  Similarity=1.104  Sum_probs=0.0  Template_Neff=7.800
+
+Q GNQSGF            1 GNQSGF    6 (6)
+Q Consensus         1 gnqsgf    6 (6)
+                      ||-+||
+T Consensus       414 GnAAG~  419 (453)
+T 6NMG_B          414 GNAAGL  419 (453)
+T ss_dssp             HHHHHH
+T ss_pred             ccHHHH
+
+
+No 9
+>3N53_A Response regulator receiver modulated diguanylate; Response regulator, Diguanylate cyclase, Protein; 2.2A {Pelobacter carbinolicus}
+Probab=14.06  E-value=1.8e+02  Score=8.75  Aligned_cols=6  Identities=0%  Similarity=-0.036  Sum_probs=0.0  Template_Neff=13.200
+
+Q GNQSGF            1 GNQSGF    6 (6)
+Q Consensus         1 gnqsgf    6 (6)
+                      +|+.+|
+T Consensus       135 ~~~~~~  140 (140)
+T 3N53_A          135 HHHHHH  140 (140)
+T ss_dssp             ------
+T ss_pred             CCCCCC
+
+
+No 10
+>5W7F_B Acyloxyacyl hydrolase (E.C.3.1.1.77); lipopolysaccharide, LPS, GDSL esterase, saposin; HET: FTT, DAO, GCS, NAG; 2.8A {Mus musculus}
+Probab=14.05  E-value=1.8e+02  Score=13.78  Aligned_cols=6  Identities=50%  Similarity=1.021  Sum_probs=0.0  Template_Neff=8.400
+
+Q GNQSGF            1 GNQSGF    6 (6)
+Q Consensus         1 gnqsgf    6 (6)
+                      |+|.|+
+T Consensus       557 ~~~~~~  562 (562)
+T 5W7F_B          557 GDQGGH  562 (562)
+T ss_dssp             TTTTCC
+T ss_pred             cccCCC
+
+

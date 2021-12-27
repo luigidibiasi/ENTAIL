@@ -1,0 +1,149 @@
+Query         LATVYP
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 16:53:36 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LATVYP/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LATVYP/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2C1W_B ENDOU PROTEIN; NUCLEASE   8.9 3.3E+02  0.0037   12.8   0.0    6    1-6     276-281 (292)
+  2 3BO6_A Hydrophilic protein, vi   8.9 3.4E+02  0.0037   12.9   0.0    6    1-6     133-138 (220)
+  3 7BWK_A IcmJ (DotN); Dot/Icm Ty   8.6 3.5E+02  0.0039   11.8   0.0    6    1-6      84-89  (128)
+  4 6W6L_4 60S ribosome-TMCO1 tran   8.3 3.7E+02  0.0041   12.7   0.0    6    1-6      53-58  (224)
+  5 4H43_A 27.5 kDa virulence prot   8.0 3.9E+02  0.0043   12.9   0.0    6    1-6     154-159 (241)
+  6 4Y7S_A Csa2; CFEM, hemoprotein   8.0 3.9E+02  0.0043   10.3   0.0    5    2-6       3-7   (111)
+  7 4RAY_A DNA-binding transcripti   7.7 4.1E+02  0.0045    9.9   0.0    5    1-5      54-58  (145)
+  8 4RB0_A DNA-binding transcripti   7.7 4.1E+02  0.0045    9.9   0.0    5    1-5      54-58  (145)
+  9 3OS5_A Histone-lysine N-methyl   7.5 4.3E+02  0.0047   11.2   0.0    6    1-6      34-39  (256)
+ 10 5E3E_F CdiI immunity protein,    7.4 4.3E+02  0.0047    9.7   0.0    6    1-6     107-112 (114)
+
+No 1
+>2C1W_B ENDOU PROTEIN; NUCLEASE, SNORNA, ENDORIBONUCLEASE, SPLICING INDEPENDENT; HET: PO4; 2.2A {XENOPUS LAEVIS} SCOP: d.294.1.1
+Probab=8.94  E-value=3.3e+02  Score=12.75  Aligned_cols=6  Identities=50%  Similarity=1.182  Sum_probs=0.0  Template_Neff=6.300
+
+Q LATVYP            1 LATVYP    6 (6)
+Q Consensus         1 latvyp    6 (6)
+                      ++|.||
+T Consensus       276 I~TaYP  281 (292)
+T 2C1W_B          276 IGTAYP  281 (292)
+T ss_dssp             EEEEEE
+T ss_pred             EEEEee
+
+
+No 2
+>3BO6_A Hydrophilic protein, virA protein (E.C.4.2.3.-); alpha/beta fold of phosphothreonine lyase; HET: SO4; 1.4A {Chromobacterium violaceum}
+Probab=8.89  E-value=3.4e+02  Score=12.87  Aligned_cols=6  Identities=33%  Similarity=0.357  Sum_probs=0.0  Template_Neff=4.800
+
+Q LATVYP            1 LATVYP    6 (6)
+Q Consensus         1 latvyp    6 (6)
+                      ..|+||
+T Consensus       133 fITIYP  138 (220)
+T 3BO6_A          133 QFTLYV  138 (220)
+T ss_dssp             CEEEEC
+T ss_pred             EEEEEe
+
+
+No 3
+>7BWK_A IcmJ (DotN); Dot/Icm Type 4B Secretion System; 2.801A {Legionella pneumophila subsp. pneumophila str. Philadelphia 1}
+Probab=8.65  E-value=3.5e+02  Score=11.82  Aligned_cols=6  Identities=67%  Similarity=1.226  Sum_probs=0.0  Template_Neff=4.900
+
+Q LATVYP            1 LATVYP    6 (6)
+Q Consensus         1 latvyp    6 (6)
+                      +||-||
+T Consensus        84 ~aT~Yp   89 (128)
+T 7BWK_A           84 IATSYP   89 (128)
+T ss_dssp             HHTCBS
+T ss_pred             HHhcCC
+
+
+No 4
+>6W6L_4 60S ribosome-TMCO1 translocon assembly; RIBOSOME-PROTEIN TRANSPORT complex; HET: MG; 3.84A {Homo sapiens}
+Probab=8.33  E-value=3.7e+02  Score=12.75  Aligned_cols=6  Identities=67%  Similarity=1.204  Sum_probs=0.0  Template_Neff=4.900
+
+Q LATVYP            1 LATVYP    6 (6)
+Q Consensus         1 latvyp    6 (6)
+                      |||..|
+T Consensus        53 LATf~P   58 (224)
+T 6W6L_4           53 LATFFP   58 (224)
+T ss_pred             HHhcCC
+
+
+No 5
+>4H43_A 27.5 kDa virulence protein; phosphothreonine lyase, dephosphorylation, lyase; 2.304A {Salmonella enterica subsp. enterica serovar Typhimurium}
+Probab=8.03  E-value=3.9e+02  Score=12.85  Aligned_cols=6  Identities=33%  Similarity=0.312  Sum_probs=0.0  Template_Neff=4.800
+
+Q LATVYP            1 LATVYP    6 (6)
+Q Consensus         1 latvyp    6 (6)
+                      ..|+||
+T Consensus       154 fITIYP  159 (241)
+T 4H43_A          154 QFTLYI  159 (241)
+T ss_dssp             CEEEEC
+T ss_pred             EEEEEe
+
+
+No 6
+>4Y7S_A Csa2; CFEM, hemoprotein, csa-2, iron acquisition; HET: HEB, EDO; 2.0A {Candida albicans}
+Probab=7.97  E-value=3.9e+02  Score=10.27  Aligned_cols=5  Identities=60%  Similarity=1.251  Sum_probs=0.0  Template_Neff=7.600
+
+Q LATVYP            2 ATVYP    6 (6)
+Q Consensus         2 atvyp    6 (6)
+                      +++||
+T Consensus         3 ~~~~~    7 (111)
+T 4Y7S_A            3 YTIYP    7 (111)
+T ss_dssp             GGGSC
+T ss_pred             CcCCC
+
+
+No 7
+>4RAY_A DNA-binding transcriptional dual regulator of; ferric uptake regulator (FUR), metal; HET: FLC, SO4; 1.55A {Magnetospirillum gryphiswaldense}
+Probab=7.71  E-value=4.1e+02  Score=9.86  Aligned_cols=5  Identities=80%  Similarity=1.258  Sum_probs=0.0  Template_Neff=9.400
+
+Q LATVYP            1 LATVY    5 (6)
+Q Consensus         1 latvy    5 (6)
+                      .+|||
+T Consensus        54 ~~Tvy   58 (145)
+T 4RAY_A           54 IATVY   58 (145)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 8
+>4RB0_A DNA-binding transcriptional dual regulator of; ferric uptake regulator (FUR), metal; HET: FLC, MSE, SO4; 1.85A {Magnetospirillum gryphiswaldense}
+Probab=7.71  E-value=4.1e+02  Score=9.86  Aligned_cols=5  Identities=80%  Similarity=1.258  Sum_probs=0.0  Template_Neff=9.400
+
+Q LATVYP            1 LATVY    5 (6)
+Q Consensus         1 latvy    5 (6)
+                      .+|||
+T Consensus        54 ~~Tvy   58 (145)
+T 4RB0_A           54 IATVY   58 (145)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 9
+>3OS5_A Histone-lysine N-methyltransferase SETD7 (E.C.2.1.1.43), Dnmt1; Epigenetic modification, SET domain, Protein; HET: SAH, EDO; 1.69A {Homo sapiens}
+Probab=7.47  E-value=4.3e+02  Score=11.21  Aligned_cols=6  Identities=67%  Similarity=1.226  Sum_probs=0.0  Template_Neff=8.500
+
+Q LATVYP            1 LATVYP    6 (6)
+Q Consensus         1 latvyp    6 (6)
+                      +|.+||
+T Consensus        34 ~~y~yp   39 (256)
+T 3OS5_A           34 IAYVYP   39 (256)
+T ss_dssp             EEEECT
+T ss_pred             EEEECC
+
+
+No 10
+>5E3E_F CdiI immunity protein, Large exoprotein; toxin, nuclease, immunity protein, Structural; HET: MSE; 1.7A {Yersinia kristensenii ATCC 33638}
+Probab=7.43  E-value=4.3e+02  Score=9.71  Aligned_cols=6  Identities=50%  Similarity=0.922  Sum_probs=0.0  Template_Neff=8.700
+
+Q LATVYP            1 LATVYP    6 (6)
+Q Consensus         1 latvyp    6 (6)
+                      +.|.||
+T Consensus       107 i~TayP  112 (114)
+T 5E3E_F          107 IITGYP  112 (114)
+T ss_dssp             EEEEEE
+T ss_pred             EEEecc
+
+

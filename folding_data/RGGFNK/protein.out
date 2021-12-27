@@ -1,0 +1,150 @@
+Query         RGGFNK
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 12:11:42 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/RGGFNK/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/RGGFNK/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6QW6_X Small nuclear ribonucle  48.5      16 0.00018   16.1   0.0    6    1-6     144-149 (155)
+  2 2NR4_B Conserved hypothetical   30.4      48 0.00054   13.6   0.0    6    1-6       9-14  (213)
+  3 2G7O_A Protein traM; four heli  12.5 2.1E+02  0.0023   11.3   0.0    4    2-5       2-5   (70)
+  4 1FS0_G GAMMA/EPSILON ATP SYNTH  12.0 2.2E+02  0.0024   11.5   0.0    4    2-5      71-74  (230)
+  5 7A23_c 51kDa, Nad2m, Nad3m, Na  11.9 2.3E+02  0.0025   11.7   0.0    6    1-6     101-106 (106)
+  6 2JIZ_G ATP SYNTHASE SUBUNIT AL  11.3 2.4E+02  0.0027   11.8   0.0    4    2-5      79-82  (272)
+  7 6IL9_A Fructuronate-tagaturona  11.3 2.4E+02  0.0027   14.8   0.0    5    2-6     306-310 (489)
+  8 3SLH_D 3-phosphoshikimate 1-ca  11.1 2.5E+02  0.0027   12.2   0.0    4    1-4     438-441 (441)
+  9 2V0S_A LR1; TRANSCRIPTION, APE  11.1 2.5E+02  0.0027    9.6   0.0    4    2-5     144-147 (236)
+ 10 6ILB_D Fructuronate-tagaturona  11.1 2.5E+02  0.0028   14.8   0.0    5    2-6     306-310 (489)
+
+No 1
+>6QW6_X Small nuclear ribonucleoprotein Sm D1; RNP complex, splicing, RNA, protein; HET: M7M, IHP, GTP; 2.92A {Homo sapiens}
+Probab=48.53  E-value=16  Score=16.11  Aligned_cols=6  Identities=67%  Similarity=1.630  Sum_probs=3.9  Template_Neff=4.900
+
+Q RGGFNK            1 RGGFNK    6 (6)
+Q Consensus         1 rggfnk    6 (6)
+                      +||||.
+T Consensus       144 ~gGfnr  149 (155)
+T 6QW6_X          144 KGGFNR  149 (155)
+T ss_pred             CCCCCC
+Confidence            477773
+
+
+No 2
+>2NR4_B Conserved hypothetical protein; STRUCTURAL GENOMICS, UNKNOWN FUNCTION, FLAVOPROTEIN; HET: FMN; 1.85A {Methanosarcina mazei} SCOP: b.45.1.4
+Probab=30.45  E-value=48  Score=13.56  Aligned_cols=6  Identities=67%  Similarity=1.187  Sum_probs=0.0  Template_Neff=8.400
+
+Q RGGFNK            1 RGGFNK    6 (6)
+Q Consensus         1 rggfnk    6 (6)
+                      |.||||
+T Consensus         9 ~~~~~~   14 (213)
+T 2NR4_B            9 RQGFEK   14 (213)
+T ss_dssp             ------
+T ss_pred             cccccc
+Confidence            446664
+
+
+No 3
+>2G7O_A Protein traM; four helix bundle, tetramer, DNA; 1.4A {Escherichia coli} SCOP: a.241.1.1
+Probab=12.46  E-value=2.1e+02  Score=11.30  Aligned_cols=4  Identities=50%  Similarity=0.974  Sum_probs=0.0  Template_Neff=5.000
+
+Q RGGFNK            2 GGFN    5 (6)
+Q Consensus         2 ggfn    5 (6)
+                      +|||
+T Consensus         2 ~gfn    5 (70)
+T 2G7O_A            2 SAFN    5 (70)
+T ss_dssp             -CCC
+T ss_pred             CCcc
+
+
+No 4
+>1FS0_G GAMMA/EPSILON ATP SYNTHASE (E.C.3.6.1.34); ATP Synthase, Gamma, epsilon, HYDROLASE; 2.1A {Escherichia coli} SCOP: c.49.2.1
+Probab=12.02  E-value=2.2e+02  Score=11.47  Aligned_cols=4  Identities=75%  Similarity=1.581  Sum_probs=0.0  Template_Neff=9.200
+
+Q RGGFNK            2 GGFN    5 (6)
+Q Consensus         2 ggfn    5 (6)
+                      |+||
+T Consensus        71 G~~N   74 (230)
+T 1FS0_G           71 GGLN   74 (230)
+T ss_dssp             TTHH
+T ss_pred             cccc
+
+
+No 5
+>7A23_c 51kDa, Nad2m, Nad3m, Nad6m, Nad1m; Respiration, Complex I, mitochondria, plant; HET: FMN, NDP, PEV, SF4, U10, T7X, CDL; 3.7A {Brassica oleracea}
+Probab=11.88  E-value=2.3e+02  Score=11.73  Aligned_cols=6  Identities=83%  Similarity=1.608  Sum_probs=0.0  Template_Neff=5.600
+
+Q RGGFNK            1 RGGFNK    6 (6)
+Q Consensus         1 rggfnk    6 (6)
+                      .|||.|
+T Consensus       101 ~~~~~~  106 (106)
+T 7A23_c          101 RGGFSK  106 (106)
+T ss_pred             cCCCCC
+
+
+No 6
+>2JIZ_G ATP SYNTHASE SUBUNIT ALPHA HEART; HYDROLASE, MITOCHONDRION, PYRROLIDONE CARBOXYLIC ACID; HET: STL, ADP, MG, PO4, GOL, ANP; 2.3A {BOS TAURUS} SCOP: i.3.1.1
+Probab=11.31  E-value=2.4e+02  Score=11.81  Aligned_cols=4  Identities=25%  Similarity=0.775  Sum_probs=0.0  Template_Neff=8.900
+
+Q RGGFNK            2 GGFN    5 (6)
+Q Consensus         2 ggfn    5 (6)
+                      |+||
+T Consensus        79 G~~N   82 (272)
+T 2JIZ_G           79 GAIH   82 (272)
+T ss_dssp             TTHH
+T ss_pred             cccC
+
+
+No 7
+>6IL9_A Fructuronate-tagaturonate epimerase UxaE (E.C.5.1.2.7); UxaE, TIM-barrel, ISOMERASE; HET: OSE; 1.72A {Cohnella laeviribosi}
+Probab=11.28  E-value=2.4e+02  Score=14.81  Aligned_cols=5  Identities=60%  Similarity=1.112  Sum_probs=0.0  Template_Neff=4.700
+
+Q RGGFNK            2 GGFNK    6 (6)
+Q Consensus         2 ggfnk    6 (6)
+                      |+|+|
+T Consensus       306 G~FqK  310 (489)
+T 6IL9_A          306 GEFQK  310 (489)
+T ss_dssp             SBCCT
+T ss_pred             ccccc
+
+
+No 8
+>3SLH_D 3-phosphoshikimate 1-carboxyvinyltransferase (E.C.2.5.1.19); Structural Genomics, Center for Structural; HET: EDO, SKM, S3P, PO4, 1PE, PGE, PG4, BME, PEG, GPJ; 1.7A {Coxiella burnetii}
+Probab=11.11  E-value=2.5e+02  Score=12.25  Aligned_cols=4  Identities=100%  Similarity=2.070  Sum_probs=0.0  Template_Neff=9.700
+
+Q RGGFNK            1 RGGF    4 (6)
+Q Consensus         1 rggf    4 (6)
+                      ||||
+T Consensus       438 ~~~~  441 (441)
+T 3SLH_D          438 RGGF  441 (441)
+T ss_dssp             CTTC
+T ss_pred             CCCC
+
+
+No 9
+>2V0S_A LR1; TRANSCRIPTION, APE-1 TYPE, ENDONUCLEASE, RETROTRANSPOSITION; HET: SO4; 1.8A {HOMO SAPIENS}
+Probab=11.11  E-value=2.5e+02  Score=9.61  Aligned_cols=4  Identities=75%  Similarity=1.456  Sum_probs=0.0  Template_Neff=12.700
+
+Q RGGFNK            2 GGFN    5 (6)
+Q Consensus         2 ggfn    5 (6)
+                      |.||
+T Consensus       144 GDfN  147 (236)
+T 2V0S_A          144 GDFN  147 (236)
+T ss_dssp             EECS
+T ss_pred             Eecc
+
+
+No 10
+>6ILB_D Fructuronate-tagaturonate epimerase UxaE (E.C.5.1.2.7); UxaE, TIM-barrel, ISOMERASE; HET: SEP; 2.51A {Cohnella laeviribosi}
+Probab=11.05  E-value=2.5e+02  Score=14.78  Aligned_cols=5  Identities=60%  Similarity=1.112  Sum_probs=0.0  Template_Neff=4.700
+
+Q RGGFNK            2 GGFNK    6 (6)
+Q Consensus         2 ggfnk    6 (6)
+                      |+|+|
+T Consensus       306 G~FqK  310 (489)
+T 6ILB_D          306 GEFQK  310 (489)
+T ss_dssp             SBCCT
+T ss_pred             ccccC
+
+

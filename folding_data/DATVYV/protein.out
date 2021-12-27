@@ -1,0 +1,150 @@
+Query         DATVYV
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 16:52:50 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/DATVYV/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/DATVYV/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 1JOS_A RIBOSOME-BINDING FACTOR  11.9 2.2E+02  0.0025   11.0   0.0    5    2-6      49-53  (128)
+  2 5H6I_A Protein B; Pore forming  11.5 2.4E+02  0.0026   14.0   0.0    5    2-6     174-178 (246)
+  3 2E7G_A Putative ribosome-bindi  10.8 2.6E+02  0.0029   10.7   0.0    5    2-6      58-62  (129)
+  4 2DYJ_B Ribosome-binding factor  10.5 2.7E+02   0.003   10.1   0.0    5    2-6      45-49  (95)
+  5 2R1C_A Ribosome-binding factor  10.5 2.7E+02   0.003   10.1   0.0    5    2-6      45-49  (95)
+  6 4RWW_C Lmo2692 protein; PII-li  10.3 2.7E+02   0.003   10.9   0.0    6    1-6      95-100 (113)
+  7 1OP4_A Neural-cadherin; beta s  10.1 2.8E+02  0.0031   12.1   0.0    6    1-6      84-89  (159)
+  8 4RLE_A Uncharacterized protein   9.3 3.2E+02  0.0035   11.8   0.0    5    2-6     104-108 (117)
+  9 3FAW_A Reticulocyte binding pr   9.2 3.2E+02  0.0036   13.9   0.0    6    1-6      25-30  (877)
+ 10 3K8G_B 30kLP; Treponema pallid   8.9 3.4E+02  0.0037   13.1   0.0    6    1-6      18-23  (262)
+
+No 1
+>1JOS_A RIBOSOME-BINDING FACTOR A; RNA BINDING PROTEIN, Structure 2; 1.7A {Haemophilus influenzae} SCOP: d.52.7.1
+Probab=11.90  E-value=2.2e+02  Score=10.98  Aligned_cols=5  Identities=40%  Similarity=0.939  Sum_probs=0.0  Template_Neff=8.000
+
+Q DATVYV            2 ATVYV    6 (6)
+Q Consensus         2 atvyv    6 (6)
+                      |+||+
+T Consensus        49 a~Vy~   53 (128)
+T 1JOS_A           49 AKIFV   53 (128)
+T ss_dssp             EEEEE
+T ss_pred             EEEEE
+
+
+No 2
+>5H6I_A Protein B; Pore forming toxin, TOXIN; HET: SO4; 2.45A {Streptococcus agalactiae}
+Probab=11.46  E-value=2.4e+02  Score=14.00  Aligned_cols=5  Identities=60%  Similarity=1.052  Sum_probs=0.0  Template_Neff=3.600
+
+Q DATVYV            2 ATVYV    6 (6)
+Q Consensus         2 atvyv    6 (6)
+                      ||+||
+T Consensus       174 ATiYv  178 (246)
+T 5H6I_A          174 ATIYT  178 (246)
+T ss_dssp             CCTTT
+T ss_pred             hhHHh
+
+
+No 3
+>2E7G_A Putative ribosome-binding factor A; RbfA, Structural Genomics, NPPSFA, National; NMR {Homo sapiens} SCOP: d.52.7.1
+Probab=10.78  E-value=2.6e+02  Score=10.74  Aligned_cols=5  Identities=20%  Similarity=0.375  Sum_probs=0.0  Template_Neff=8.200
+
+Q DATVYV            2 ATVYV    6 (6)
+Q Consensus         2 atvyv    6 (6)
+                      |.||+
+T Consensus        58 a~Vy~   62 (129)
+T 2E7G_A           58 CRAYW   62 (129)
+T ss_dssp             EEEEE
+T ss_pred             EEEEE
+
+
+No 4
+>2DYJ_B Ribosome-binding factor A; 16S rRNA processing, 17S RNA; 1.84A {Thermus thermophilus} SCOP: d.52.7.1
+Probab=10.52  E-value=2.7e+02  Score=10.11  Aligned_cols=5  Identities=60%  Similarity=0.992  Sum_probs=0.0  Template_Neff=8.300
+
+Q DATVYV            2 ATVYV    6 (6)
+Q Consensus         2 atvyv    6 (6)
+                      |.||+
+T Consensus        45 a~Vy~   49 (95)
+T 2DYJ_B           45 LSVYV   49 (95)
+T ss_dssp             EEEEE
+T ss_pred             EEEEE
+
+
+No 5
+>2R1C_A Ribosome-binding factor A; helix-kink-helix, KH domain, rRNA processing; 12.5A {Thermus thermophilus} SCOP: d.52.7.1
+Probab=10.52  E-value=2.7e+02  Score=10.11  Aligned_cols=5  Identities=60%  Similarity=0.992  Sum_probs=0.0  Template_Neff=8.300
+
+Q DATVYV            2 ATVYV    6 (6)
+Q Consensus         2 atvyv    6 (6)
+                      |.||+
+T Consensus        45 a~Vy~   49 (95)
+T 2R1C_A           45 LSVYV   49 (95)
+T ss_dssp             EEEEE
+T ss_pred             EEEEE
+
+
+No 6
+>4RWW_C Lmo2692 protein; PII-like, PROTEIN BINDING; HET: 2BA; 1.6A {Listeria monocytogenes}
+Probab=10.33  E-value=2.7e+02  Score=10.86  Aligned_cols=6  Identities=67%  Similarity=0.938  Sum_probs=0.0  Template_Neff=7.300
+
+Q DATVYV            1 DATVYV    6 (6)
+Q Consensus         1 datvyv    6 (6)
+                      |+++||
+T Consensus        95 ~g~ifv  100 (113)
+T 4RWW_C           95 GATVFV  100 (113)
+T ss_dssp             SEEEEE
+T ss_pred             CEEEEE
+
+
+No 7
+>1OP4_A Neural-cadherin; beta sandwich, cadherin-like domain, CELL; NMR {Mus musculus} SCOP: b.1.6.1
+Probab=10.09  E-value=2.8e+02  Score=12.05  Aligned_cols=6  Identities=67%  Similarity=1.055  Sum_probs=0.0  Template_Neff=5.900
+
+Q DATVYV            1 DATVYV    6 (6)
+Q Consensus         1 datvyv    6 (6)
+                      |.+||+
+T Consensus        84 DGtV~a   89 (159)
+T 1OP4_A           84 DGTVYA   89 (159)
+T ss_dssp             TTEEEE
+T ss_pred             CCeEEE
+
+
+No 8
+>4RLE_A Uncharacterized protein YaaQ; PII-like, cdiAMP, UNKNOWN FUNCTION; HET: 2BA; 1.3A {Bacillus subtilis}
+Probab=9.31  E-value=3.2e+02  Score=11.78  Aligned_cols=5  Identities=80%  Similarity=1.119  Sum_probs=0.0  Template_Neff=4.900
+
+Q DATVYV            2 ATVYV    6 (6)
+Q Consensus         2 atvyv    6 (6)
+                      |||+|
+T Consensus       104 AtvFV  108 (117)
+T 4RLE_A          104 ATVFV  108 (117)
+T ss_dssp             EEEEE
+T ss_pred             EEEEE
+
+
+No 9
+>3FAW_A Reticulocyte binding protein; TIM BARREL, BETA BARREL, HYDROLASE; 2.1A {Streptococcus agalactiae COH1}
+Probab=9.19  E-value=3.2e+02  Score=13.90  Aligned_cols=6  Identities=50%  Similarity=0.783  Sum_probs=0.0  Template_Neff=8.200
+
+Q DATVYV            1 DATVYV    6 (6)
+Q Consensus         1 datvyv    6 (6)
+                      |.|||.
+T Consensus        25 ~~~~~~   30 (877)
+T 3FAW_A           25 DPKVYN   30 (877)
+T ss_dssp             ------
+T ss_pred             CCccee
+
+
+No 10
+>3K8G_B 30kLP; Treponema pallidum, outmer membrane protein; HET: MPD; 1.95A {Treponema pallidum}
+Probab=8.87  E-value=3.4e+02  Score=13.14  Aligned_cols=6  Identities=50%  Similarity=0.861  Sum_probs=0.0  Template_Neff=4.900
+
+Q DATVYV            1 DATVYV    6 (6)
+Q Consensus         1 datvyv    6 (6)
+                      ||.||+
+T Consensus        18 dAdvY~   23 (262)
+T 3K8G_B           18 GADVYL   23 (262)
+T ss_dssp             SCSEEE
+T ss_pred             CCeEEE
+
+

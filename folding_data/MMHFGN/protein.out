@@ -1,0 +1,171 @@
+Query         MMHFGN
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 22:12:30 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/MMHFGN/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/MMHFGN/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2LQI_B CREB-binding protein (E  39.9      27  0.0003   14.3   0.0    6    1-6       3-8   (52)
+  2 2H6R_B Triosephosphate isomera  39.9      27  0.0003   13.3   0.0    6    1-6       1-6   (219)
+  3 6T34_O PROTEIN/RNA Complex; po  39.7      27  0.0003   15.9   0.0    6    1-6     116-121 (207)
+  4 5ODV_H coat protein/RNA Comple  39.3      28 0.00031   16.4   0.0    6    1-6     173-178 (281)
+  5 6HXX_AU PROTEIN/RNA Complex; p  37.1      32 0.00035   16.2   0.0    6    1-6     160-165 (267)
+  6 6HXX_BB PROTEIN/RNA Complex; p  37.1      32 0.00035   16.2   0.0    6    1-6     160-165 (267)
+  7 5YVQ_B Gene product J; bacteri  30.7      48 0.00053   13.5   0.0    6    1-6       1-6   (175)
+  8 4DYL_A Tyrosine-protein kinase  26.1      65 0.00072   13.5   0.0    6    1-6       1-6   (406)
+  9 4G1G_A Matrix protein; Beta st  23.0      81 0.00089   15.6   0.0    6    1-6     236-241 (364)
+ 10 4G1G_B Matrix protein; Beta st  23.0      81  0.0009   15.6   0.0    6    1-6     236-241 (364)
+ 11 4TSD_B HP1029; Unknown functio  20.8      96  0.0011   13.6   0.0    6    1-6       1-6   (195)
+
+No 1
+>2LQI_B CREB-binding protein (E.C.2.3.1.48), Forkhead box; promiscuous binding, intrinsic disorder, transcription; NMR {Mus musculus}
+Probab=39.94  E-value=27  Score=14.28  Aligned_cols=6  Identities=67%  Similarity=1.354  Sum_probs=4.0  Template_Neff=1.000
+
+Q MMHFGN            1 MMHFGN    6 (6)
+Q Consensus         1 mmhfgn    6 (6)
+                      |.|+||
+T Consensus         3 mshygn    8 (52)
+T 2LQI_B            3 MSHYGN    8 (52)
+T ss_dssp             SSTTTT
+T ss_pred             cccccc
+Confidence            567776
+
+
+No 2
+>2H6R_B Triosephosphate isomerase (E.C.5.3.1.1); beta-alpha barrel, Isomerase; 2.3A {Methanocaldococcus jannaschii}
+Probab=39.92  E-value=27  Score=13.27  Aligned_cols=6  Identities=33%  Similarity=0.174  Sum_probs=3.4  Template_Neff=10.200
+
+Q MMHFGN            1 MMHFGN    6 (6)
+Q Consensus         1 mmhfgn    6 (6)
+                      ||.+||
+T Consensus         1 ~~~~g~    6 (219)
+T 2H6R_B            1 MVIVIN    6 (219)
+T ss_dssp             CEEEEE
+T ss_pred             CeEEEE
+Confidence            456664
+
+
+No 3
+>6T34_O PROTEIN/RNA Complex; potyvirus, virion, helical virus, VIRUS; 5.2A {Turnip mosaic virus (strain Japanese)}
+Probab=39.73  E-value=27  Score=15.94  Aligned_cols=6  Identities=50%  Similarity=1.066  Sum_probs=3.8  Template_Neff=5.100
+
+Q MMHFGN            1 MMHFGN    6 (6)
+Q Consensus         1 mmhfgn    6 (6)
+                      |.||++
+T Consensus       116 MrhFSd  121 (207)
+T 6T34_O          116 MAHFSD  121 (207)
+T ss_dssp             HTSCCH
+T ss_pred             HHHHHH
+Confidence            667764
+
+
+No 4
+>5ODV_H coat protein/RNA Complex; filamentous virus, potyvirus, plant pathogen; 4.0A {Watermelon mosaic virus}
+Probab=39.33  E-value=28  Score=16.44  Aligned_cols=6  Identities=50%  Similarity=1.032  Sum_probs=3.9  Template_Neff=5.300
+
+Q MMHFGN            1 MMHFGN    6 (6)
+Q Consensus         1 mmhfgn    6 (6)
+                      |.||++
+T Consensus       173 MrhFSd  178 (281)
+T 5ODV_H          173 MHHFSD  178 (281)
+T ss_pred             HHHHHH
+Confidence            677764
+
+
+No 5
+>6HXX_AU PROTEIN/RNA Complex; plant virus, potyvirus, flexible filamentous; 3.4A {Potato virus Y}
+Probab=37.11  E-value=32  Score=16.21  Aligned_cols=6  Identities=50%  Similarity=1.066  Sum_probs=3.8  Template_Neff=5.200
+
+Q MMHFGN            1 MMHFGN    6 (6)
+Q Consensus         1 mmhfgn    6 (6)
+                      |.||++
+T Consensus       160 MrHFSd  165 (267)
+T 6HXX_AU         160 MAHFSD  165 (267)
+T ss_pred             HHHHHH
+Confidence            667763
+
+
+No 6
+>6HXX_BB PROTEIN/RNA Complex; plant virus, potyvirus, flexible filamentous; 3.4A {Potato virus Y}
+Probab=37.11  E-value=32  Score=16.21  Aligned_cols=6  Identities=50%  Similarity=1.066  Sum_probs=3.8  Template_Neff=5.200
+
+Q MMHFGN            1 MMHFGN    6 (6)
+Q Consensus         1 mmhfgn    6 (6)
+                      |.||++
+T Consensus       160 MrHFSd  165 (267)
+T 6HXX_BB         160 MAHFSD  165 (267)
+T ss_pred             HHHHHH
+Confidence            667763
+
+
+No 7
+>5YVQ_B Gene product J; bacteriophage, VIRAL PROTEIN; HET: GOL; 2.103A {Escherichia phage Mu}
+Probab=30.67  E-value=48  Score=13.46  Aligned_cols=6  Identities=67%  Similarity=1.071  Sum_probs=3.3  Template_Neff=7.900
+
+Q MMHFGN            1 MMHFGN    6 (6)
+Q Consensus         1 mmhfgn    6 (6)
+                      ||++.|
+T Consensus         1 ~~~~kn    6 (175)
+T 5YVQ_B            1 MMHLKN    6 (175)
+T ss_pred             CCCccC
+Confidence            566554
+
+
+No 8
+>4DYL_A Tyrosine-protein kinase Fes/Fps (E.C.2.7.10.2); Structural Genomics, Structural Genomics Consortium; 2.18A {Homo sapiens}
+Probab=26.10  E-value=65  Score=13.46  Aligned_cols=6  Identities=33%  Similarity=0.545  Sum_probs=3.7  Template_Neff=10.200
+
+Q MMHFGN            1 MMHFGN    6 (6)
+Q Consensus         1 mmhfgn    6 (6)
+                      +|.||+
+T Consensus         1 ~m~f~~    6 (406)
+T 4DYL_A            1 SMGFSS    6 (406)
+T ss_dssp             CCCHHH
+T ss_pred             CCCcch
+Confidence            567764
+
+
+No 9
+>4G1G_A Matrix protein; Beta strand, Virus assembly, Membrane; 2.2A {Newcastle disease virus}
+Probab=23.05  E-value=81  Score=15.57  Aligned_cols=6  Identities=33%  Similarity=0.833  Sum_probs=3.8  Template_Neff=5.200
+
+Q MMHFGN            1 MMHFGN    6 (6)
+Q Consensus         1 mmhfgn    6 (6)
+                      |.|.||
+T Consensus       236 ~vHigN  241 (364)
+T 4G1G_A          236 FLHIGL  241 (364)
+T ss_dssp             EEEEEE
+T ss_pred             EEEEec
+Confidence            467766
+
+
+No 10
+>4G1G_B Matrix protein; Beta strand, Virus assembly, Membrane; 2.2A {Newcastle disease virus}
+Probab=22.99  E-value=81  Score=15.56  Aligned_cols=6  Identities=33%  Similarity=0.833  Sum_probs=3.8  Template_Neff=5.200
+
+Q MMHFGN            1 MMHFGN    6 (6)
+Q Consensus         1 mmhfgn    6 (6)
+                      |.|.||
+T Consensus       236 ~vHigN  241 (364)
+T 4G1G_B          236 FLHIGL  241 (364)
+T ss_dssp             EEEEEE
+T ss_pred             EEEeec
+Confidence            467766
+
+
+No 11
+>4TSD_B HP1029; Unknown function, Pfam Family PF04074; 1.53A {Helicobacter pylori 26695}
+Probab=20.78  E-value=96  Score=13.57  Aligned_cols=6  Identities=50%  Similarity=0.883  Sum_probs=3.2  Template_Neff=6.400
+
+Q MMHFGN            1 MMHFGN    6 (6)
+Q Consensus         1 mmhfgn    6 (6)
+                      ||-||+
+T Consensus         1 ~ai~g~    6 (195)
+T 4TSD_B            1 MAIFGE    6 (195)
+T ss_dssp             -CEEEE
+T ss_pred             CceeEe
+Confidence            666664
+
+

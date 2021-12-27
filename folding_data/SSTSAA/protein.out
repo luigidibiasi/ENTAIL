@@ -1,0 +1,154 @@
+Query         SSTSAA
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 16:52:53 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/SSTSAA/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/SSTSAA/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4LLD_B Ig gamma-1 chain C regi  55.4      11 0.00012   13.5   0.0    6    1-6     124-129 (129)
+  2 4LLQ_B Putative uncharacterize  54.7      11 0.00012   13.9   0.0    6    1-6     146-151 (151)
+  3 3MML_C Allophanate hydrolase s  19.4 1.1E+02  0.0012   14.5   0.0    6    1-6     313-318 (318)
+  4 3MML_E Allophanate hydrolase s  19.0 1.1E+02  0.0012   14.6   0.0    6    1-6     313-318 (318)
+  5 6OIT_D Protein RDM1, Protein D  15.6 1.5E+02  0.0017   14.7   0.0    6    1-6     444-449 (449)
+  6 6OIT_F Protein RDM1, Protein D  14.5 1.7E+02  0.0019   14.6   0.0    6    1-6     444-449 (449)
+  7 3DRF_A Oligopeptide-binding pr   8.3 3.7E+02  0.0041   12.3   0.0    6    1-6       7-12  (590)
+  8 3RYB_A Oligopeptide-binding pr   8.2 3.7E+02  0.0041   12.3   0.0    6    1-6       7-12  (590)
+  9 3NJ0_C Abscisic acid receptor    7.5 4.2E+02  0.0046    9.9   0.0    5    2-6       5-9   (193)
+ 10 1N6J_G Myocyte-specific enhanc   6.8 4.8E+02  0.0054   10.1   0.0    6    1-6      23-28  (35)
+
+No 1
+>4LLD_B Ig gamma-1 chain C region; IgG domain, fragment of antibody; 1.19A {Homo sapiens}
+Probab=55.37  E-value=11  Score=13.54  Aligned_cols=6  Identities=100%  Similarity=0.772  Sum_probs=0.0  Template_Neff=9.700
+
+Q SSTSAA            1 SSTSAA    6 (6)
+Q Consensus         1 sstsaa    6 (6)
+                      ||||||
+T Consensus       124 ~~~~~~  129 (129)
+T 4LLD_B          124 SSTSAA  129 (129)
+T ss_dssp             ------
+T ss_pred             ccccCC
+Confidence            355554
+
+
+No 2
+>4LLQ_B Putative uncharacterized protein DKFZp686G11190, IGL@; IgG domain redesign, IMMUNE SYSTEM; HET: PG6; 1.42A {Homo sapiens}
+Probab=54.71  E-value=11  Score=13.94  Aligned_cols=6  Identities=100%  Similarity=0.772  Sum_probs=3.3  Template_Neff=9.500
+
+Q SSTSAA            1 SSTSAA    6 (6)
+Q Consensus         1 sstsaa    6 (6)
+                      ||||||
+T Consensus       146 ~~~~~~  151 (151)
+T 4LLQ_B          146 SSTSAA  151 (151)
+T ss_pred             ccccCC
+Confidence            456654
+
+
+No 3
+>3MML_C Allophanate hydrolase subunit 2 (E.C.3.5.1.54); Structural Genomics, PSI-2, Protein Structure; HET: MSE; 2.5A {Mycobacterium smegmatis}
+Probab=19.39  E-value=1.1e+02  Score=14.55  Aligned_cols=6  Identities=100%  Similarity=0.772  Sum_probs=0.0  Template_Neff=6.000
+
+Q SSTSAA            1 SSTSAA    6 (6)
+Q Consensus         1 sstsaa    6 (6)
+                      ||||||
+T Consensus       313 ~~~~~~  318 (318)
+T 3MML_C          313 SSTSAA  318 (318)
+T ss_dssp             ------
+T ss_pred             ccccCC
+Confidence            466664
+
+
+No 4
+>3MML_E Allophanate hydrolase subunit 2 (E.C.3.5.1.54); Structural Genomics, PSI-2, Protein Structure; 2.5A {Mycobacterium smegmatis}
+Probab=19.00  E-value=1.1e+02  Score=14.60  Aligned_cols=6  Identities=100%  Similarity=0.772  Sum_probs=0.0  Template_Neff=5.800
+
+Q SSTSAA            1 SSTSAA    6 (6)
+Q Consensus         1 sstsaa    6 (6)
+                      ||||||
+T Consensus       313 ~~~~~~  318 (318)
+T 3MML_E          313 SSTSAA  318 (318)
+T ss_dssp             ------
+T ss_pred             CccCCC
+Confidence            466664
+
+
+No 5
+>6OIT_D Protein RDM1, Protein DEFECTIVE IN; SMC-hinge, Coiled-coil, SNF2, RNA-directed DNA; 3.5A {Arabidopsis thaliana}
+Probab=15.59  E-value=1.5e+02  Score=14.69  Aligned_cols=6  Identities=100%  Similarity=0.772  Sum_probs=0.0  Template_Neff=6.100
+
+Q SSTSAA            1 SSTSAA    6 (6)
+Q Consensus         1 sstsaa    6 (6)
+                      ||||||
+T Consensus       444 ~~~~~~  449 (449)
+T 6OIT_D          444 SSTSAA  449 (449)
+T ss_dssp             ------
+T ss_pred             ccccCC
+Confidence            455554
+
+
+No 6
+>6OIT_F Protein RDM1, Protein DEFECTIVE IN; SMC-hinge, Coiled-coil, SNF2, RNA-directed DNA; 3.5A {Arabidopsis thaliana}
+Probab=14.47  E-value=1.7e+02  Score=14.63  Aligned_cols=6  Identities=100%  Similarity=0.772  Sum_probs=0.0  Template_Neff=5.900
+
+Q SSTSAA            1 SSTSAA    6 (6)
+Q Consensus         1 sstsaa    6 (6)
+                      ||||||
+T Consensus       444 ~~~~~~  449 (449)
+T 6OIT_F          444 SSTSAA  449 (449)
+T ss_dssp             ------
+T ss_pred             ccccCC
+Confidence            455554
+
+
+No 7
+>3DRF_A Oligopeptide-binding protein oppA, endogenous peptide; oligo-peptide binding, voluminous binding cavity; 1.3A {Lactococcus lactis}
+Probab=8.32  E-value=3.7e+02  Score=12.32  Aligned_cols=6  Identities=67%  Similarity=0.517  Sum_probs=0.0  Template_Neff=9.600
+
+Q SSTSAA            1 SSTSAA    6 (6)
+Q Consensus         1 sstsaa    6 (6)
+                      ||||++
+T Consensus         7 ~~~~~~   12 (590)
+T 3DRF_A            7 SSTSTK   12 (590)
+T ss_dssp             ------
+T ss_pred             cccCCc
+
+
+No 8
+>3RYB_A Oligopeptide-binding protein oppA; Substrate-binding protein, Peptide binding, Membrane; 1.5A {Lactococcus lactis}
+Probab=8.22  E-value=3.7e+02  Score=12.30  Aligned_cols=6  Identities=67%  Similarity=0.517  Sum_probs=0.0  Template_Neff=9.600
+
+Q SSTSAA            1 SSTSAA    6 (6)
+Q Consensus         1 sstsaa    6 (6)
+                      ||||++
+T Consensus         7 ~~~~~~   12 (590)
+T 3RYB_A            7 SSTSTK   12 (590)
+T ss_pred             ccCCCC
+
+
+No 9
+>3NJ0_C Abscisic acid receptor PYL2; START, ABA, PYR/PYL/RCAR, plant hormone; HET: PYV, PEG; 1.89A {Arabidopsis thaliana}
+Probab=7.54  E-value=4.2e+02  Score=9.88  Aligned_cols=5  Identities=60%  Similarity=0.574  Sum_probs=0.0  Template_Neff=10.300
+
+Q SSTSAA            2 STSAA    6 (6)
+Q Consensus         2 stsaa    6 (6)
+                      ++|+|
+T Consensus         5 ~~~~~    9 (193)
+T 3NJ0_C            5 SSSPA    9 (193)
+T ss_dssp             -----
+T ss_pred             cCChh
+
+
+No 10
+>1N6J_G Myocyte-specific enhancer factor 2B/Calcineurin-binding protein; MADS-box, Protein-DNA complex, histone deacetylases; 2.2A {Homo sapiens}
+Probab=6.76  E-value=4.8e+02  Score=10.06  Aligned_cols=6  Identities=67%  Similarity=0.573  Sum_probs=0.0  Template_Neff=1.300
+
+Q SSTSAA            1 SSTSAA    6 (6)
+Q Consensus         1 sstsaa    6 (6)
+                      |+.||+
+T Consensus        23 s~qsaa   28 (35)
+T 1N6J_G           23 SAQSAA   28 (35)
+T ss_dssp             TTCSTT
+T ss_pred             HHHhHh
+
+

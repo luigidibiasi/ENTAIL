@@ -1,0 +1,149 @@
+Query         LAHVYV
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 13:36:33 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LAHVYV/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LAHVYV/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 1IW1_A heme oxygenase (E.C.1.1  13.8 1.8E+02   0.002   11.3   0.0    6    1-6     126-131 (215)
+  2 1WZD_B Heme oxygenase (E.C.1.1  13.8 1.8E+02   0.002   11.3   0.0    6    1-6     126-131 (215)
+  3 1SK7_A hypothetical protein pa  13.7 1.8E+02   0.002   11.2   0.0    6    1-6     113-118 (198)
+  4 2HJN_A Maintenance of ploidy p  13.4 1.9E+02  0.0021   13.3   0.0    5    1-5     181-185 (236)
+  5 5B5V_C MOB kinase activator 1B  13.0   2E+02  0.0022   12.9   0.0    5    1-5     161-165 (218)
+  6 5XQZ_B MOB kinase activator 1A  12.5 2.1E+02  0.0023   12.5   0.0    5    1-5     136-140 (193)
+  7 1J77_A heme oxygenase (E.C.1.1  12.1 2.2E+02  0.0024   11.3   0.0    6    1-6     108-113 (209)
+  8 5NCM_A CBK1 kinase activator p  11.7 2.3E+02  0.0025   13.3   0.0    5    1-5     184-188 (245)
+  9 2P8I_D Putative dioxygenase; Y  11.6 2.3E+02  0.0026   12.0   0.0    4    2-5      15-18  (117)
+ 10 6M6W_B Toxin-antitoxin system   11.5 2.4E+02  0.0026   10.3   0.0    5    1-5     100-104 (133)
+
+No 1
+>1IW1_A heme oxygenase (E.C.1.14.99.3); alpha helix, bacterial iron acquisition; HET: HEM, SO4, GLC, FRU; 1.5A {Corynebacterium diphtheriae} SCOP: a.132.1.1
+Probab=13.80  E-value=1.8e+02  Score=11.28  Aligned_cols=6  Identities=67%  Similarity=1.076  Sum_probs=0.0  Template_Neff=9.800
+
+Q LAHVYV            1 LAHVYV    6 (6)
+Q Consensus         1 lahvyv    6 (6)
+                      +++.||
+T Consensus       126 lg~~yv  131 (215)
+T 1IW1_A          126 VAHHYV  131 (215)
+T ss_dssp             HHHHCC
+T ss_pred             HHHHHH
+
+
+No 2
+>1WZD_B Heme oxygenase (E.C.1.14.99.3); Electron-Transfer, Artificial Metalloprotein, Heme oxygenase; HET: SO4, GOL, YOK; 1.35A {Corynebacterium diphtheriae} SCOP: a.132.1.1
+Probab=13.80  E-value=1.8e+02  Score=11.28  Aligned_cols=6  Identities=67%  Similarity=1.076  Sum_probs=0.0  Template_Neff=9.800
+
+Q LAHVYV            1 LAHVYV    6 (6)
+Q Consensus         1 lahvyv    6 (6)
+                      +++.||
+T Consensus       126 lg~~yv  131 (215)
+T 1WZD_B          126 VAHHYV  131 (215)
+T ss_dssp             HHHHCC
+T ss_pred             HHHHHH
+
+
+No 3
+>1SK7_A hypothetical protein pa-HO (E.C.1.14.99.3); heme oxygenase, heme degradation, regioselectivity; HET: HEM; 1.6A {Pseudomonas aeruginosa} SCOP: a.132.1.2
+Probab=13.75  E-value=1.8e+02  Score=11.17  Aligned_cols=6  Identities=33%  Similarity=0.778  Sum_probs=0.0  Template_Neff=9.700
+
+Q LAHVYV            1 LAHVYV    6 (6)
+Q Consensus         1 lahvyv    6 (6)
+                      |+++||
+T Consensus       113 lG~~Yv  118 (198)
+T 1SK7_A          113 LGWLFV  118 (198)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 4
+>2HJN_A Maintenance of ploidy protein MOB1; HOMODIMER, CELL CYCLE; 2.0A {Saccharomyces cerevisiae}
+Probab=13.45  E-value=1.9e+02  Score=13.30  Aligned_cols=5  Identities=60%  Similarity=1.285  Sum_probs=0.0  Template_Neff=5.900
+
+Q LAHVYV            1 LAHVY    5 (6)
+Q Consensus         1 lahvy    5 (6)
+                      +||+|
+T Consensus       181 yaHiY  185 (236)
+T 2HJN_A          181 YAHIY  185 (236)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 5
+>5B5V_C MOB kinase activator 1B; MOB1 Hippo pathway, METAL BINDING; 2.193A {Mus musculus}
+Probab=12.96  E-value=2e+02  Score=12.85  Aligned_cols=5  Identities=60%  Similarity=1.285  Sum_probs=0.0  Template_Neff=6.400
+
+Q LAHVYV            1 LAHVY    5 (6)
+Q Consensus         1 lahvy    5 (6)
+                      +||+|
+T Consensus       161 yaHiY  165 (218)
+T 5B5V_C          161 YAHIY  165 (218)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 6
+>5XQZ_B MOB kinase activator 1A, Serine/threonine-protein; SIGNALING PROTEIN-TRANSFERASE COMPLEX; HET: GOL; 2.1A {Homo sapiens}
+Probab=12.54  E-value=2.1e+02  Score=12.48  Aligned_cols=5  Identities=60%  Similarity=1.285  Sum_probs=0.0  Template_Neff=6.600
+
+Q LAHVYV            1 LAHVY    5 (6)
+Q Consensus         1 lahvy    5 (6)
+                      +||+|
+T Consensus       136 ~aHiY  140 (193)
+T 5XQZ_B          136 YAHIY  140 (193)
+T ss_pred             HHHHH
+
+
+No 7
+>1J77_A heme oxygenase (E.C.1.14.99.3); proximal histidine, distal helix, OXIDOREDUCTASE; HET: HEM; 1.5A {Neisseria meningitidis} SCOP: a.132.1.2
+Probab=12.07  E-value=2.2e+02  Score=11.25  Aligned_cols=6  Identities=17%  Similarity=0.673  Sum_probs=0.0  Template_Neff=9.300
+
+Q LAHVYV            1 LAHVYV    6 (6)
+Q Consensus         1 lahvyv    6 (6)
+                      +++.||
+T Consensus       108 lG~~Yv  113 (209)
+T 1J77_A          108 IGWLYC  113 (209)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 8
+>5NCM_A CBK1 kinase activator protein MOB2; SIGNALING protein, kinase; 2.8A {Saccharomyces cerevisiae}
+Probab=11.69  E-value=2.3e+02  Score=13.28  Aligned_cols=5  Identities=60%  Similarity=1.417  Sum_probs=0.0  Template_Neff=5.500
+
+Q LAHVYV            1 LAHVY    5 (6)
+Q Consensus         1 lahvy    5 (6)
+                      +||+|
+T Consensus       184 yAHiY  188 (245)
+T 5NCM_A          184 FAHIY  188 (245)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 9
+>2P8I_D Putative dioxygenase; YP_555069.1, putative dioxygenase, Structural Genomics; HET: CIT, PO4, MSE, EDO; 1.4A {Burkholderia xenovorans} SCOP: d.58.55.1
+Probab=11.65  E-value=2.3e+02  Score=12.05  Aligned_cols=4  Identities=100%  Similarity=1.630  Sum_probs=0.0  Template_Neff=5.200
+
+Q LAHVYV            2 AHVY    5 (6)
+Q Consensus         2 ahvy    5 (6)
+                      +|||
+T Consensus        15 ~HiY   18 (117)
+T 2P8I_D           15 AHVY   18 (117)
+T ss_dssp             EEEE
+T ss_pred             EEEe
+
+
+No 10
+>6M6W_B Toxin-antitoxin system antidote Mnt family; crystal structure of a unique; 2.611A {Shewanella oneidensis MR-1}
+Probab=11.52  E-value=2.4e+02  Score=10.27  Aligned_cols=5  Identities=20%  Similarity=-0.011  Sum_probs=0.0  Template_Neff=9.500
+
+Q LAHVYV            1 LAHVY    5 (6)
+Q Consensus         1 lahvy    5 (6)
+                      ++|.|
+T Consensus       100 l~H~Y  104 (133)
+T 6M6W_B          100 AVHDA  104 (133)
+T ss_dssp             HHHCG
+T ss_pred             HHhcc
+
+

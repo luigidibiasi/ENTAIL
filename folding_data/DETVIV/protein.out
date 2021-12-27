@@ -1,0 +1,153 @@
+Query         DETVIV
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 17:08:22 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/DETVIV/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/DETVIV/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3HB0_C Eyes absent homolog 2 (  28.7      54  0.0006   14.4   0.0    6    1-6      12-17  (274)
+  2 3GEB_C Eyes absent homolog 2 (  28.1      57 0.00063   14.4   0.0    6    1-6      12-17  (274)
+  3 4EGC_B Maltose-binding peripla  17.6 1.3E+02  0.0014   14.6   0.0    6    1-6      32-37  (294)
+  4 7CSQ_A p75 NTR, death domain,    8.7 3.5E+02  0.0039    9.4   0.0    6    1-6      93-98  (98)
+  5 3ONT_A Spot 14 protein; alpha-   8.6 3.5E+02  0.0039   12.0   0.0    6    1-6      30-35  (152)
+  6 4UPI_A SULFATASE FAMILY PROTEI   8.5 3.6E+02  0.0039   12.1   0.0    6    1-6     343-348 (576)
+  7 4UPL_A SULFATASE FAMILY PROTEI   8.0 3.9E+02  0.0043   12.0   0.0    6    1-6     334-339 (569)
+  8 2PLC_A PHOSPHATIDYLINOSITOL-SP   8.0 3.9E+02  0.0043   11.2   0.0    6    1-6      98-103 (274)
+  9 2P5M_A Arginine repressor; alp   7.8   4E+02  0.0045   10.1   0.0    6    1-6      59-64  (83)
+ 10 2ZFZ_A Arginine repressor; L-A   7.7 4.1E+02  0.0045    9.9   0.0    6    1-6      55-60  (79)
+
+No 1
+>3HB0_C Eyes absent homolog 2 (Drosophila); alpha/beta hydrolase, HYDROLASE; HET: BEF; 2.5A {Homo sapiens}
+Probab=28.74  E-value=54  Score=14.45  Aligned_cols=6  Identities=67%  Similarity=1.165  Sum_probs=3.5  Template_Neff=7.400
+
+Q DETVIV            1 DETVIV    6 (6)
+Q Consensus         1 detviv    6 (6)
+                      |||.|+
+T Consensus        12 det~il   17 (274)
+T 3HB0_C           12 DETIII   17 (274)
+T ss_dssp             BTTTBC
+T ss_pred             HHHhhH
+Confidence            566653
+
+
+No 2
+>3GEB_C Eyes absent homolog 2 (E.C.3.1.3.48); hydrolase, Activator, Alternative splicing, Cytoplasm; 2.4A {Homo sapiens}
+Probab=28.10  E-value=57  Score=14.40  Aligned_cols=6  Identities=67%  Similarity=1.165  Sum_probs=3.5  Template_Neff=7.400
+
+Q DETVIV            1 DETVIV    6 (6)
+Q Consensus         1 detviv    6 (6)
+                      |||.|+
+T Consensus        12 det~il   17 (274)
+T 3GEB_C           12 DETIII   17 (274)
+T ss_dssp             BTTTBC
+T ss_pred             HHHhhH
+Confidence            566653
+
+
+No 3
+>4EGC_B Maltose-binding periplasmic protein, Homeobox protein; homeodomain (HD), six domain (SD); HET: MAL; 1.994A {Escherichia coli, Homo sapiens}
+Probab=17.57  E-value=1.3e+02  Score=14.56  Aligned_cols=6  Identities=67%  Similarity=1.165  Sum_probs=3.3  Template_Neff=5.200
+
+Q DETVIV            1 DETVIV    6 (6)
+Q Consensus         1 detviv    6 (6)
+                      |||.|+
+T Consensus        32 DETlIl   37 (294)
+T 4EGC_B           32 DETIII   37 (294)
+T ss_dssp             BTTTBC
+T ss_pred             HHHHHH
+Confidence            566553
+
+
+No 4
+>7CSQ_A p75 NTR, death domain, TRADD; NMR {Homo sapiens}
+Probab=8.67  E-value=3.5e+02  Score=9.44  Aligned_cols=6  Identities=33%  Similarity=0.130  Sum_probs=0.0  Template_Neff=9.200
+
+Q DETVIV            1 DETVIV    6 (6)
+Q Consensus         1 detviv    6 (6)
+                      +++++|
+T Consensus        93 ~~~~~~   98 (98)
+T 7CSQ_A           93 TATSPV   98 (98)
+T ss_dssp             SCCCCC
+T ss_pred             cCCCCC
+
+
+No 5
+>3ONT_A Spot 14 protein; alpha-helical, helical bundle, unknown function; 2.65A {Mus musculus}
+Probab=8.62  E-value=3.5e+02  Score=11.96  Aligned_cols=6  Identities=17%  Similarity=0.744  Sum_probs=0.0  Template_Neff=5.300
+
+Q DETVIV            1 DETVIV    6 (6)
+Q Consensus         1 detviv    6 (6)
+                      |+||.|
+T Consensus        30 dqTVmv   35 (152)
+T 3ONT_A           30 EQVVMI   35 (152)
+T ss_dssp             HHHCSC
+T ss_pred             hhhccc
+
+
+No 6
+>4UPI_A SULFATASE FAMILY PROTEIN; HYDROLASE, SUPERFAMILY, ALKALINE PHOSPHATASE SUPERFAMILY; 1.25A {RUEGERIA POMEROYI}
+Probab=8.53  E-value=3.6e+02  Score=12.08  Aligned_cols=6  Identities=50%  Similarity=0.839  Sum_probs=0.0  Template_Neff=10.100
+
+Q DETVIV            1 DETVIV    6 (6)
+Q Consensus         1 detviv    6 (6)
+                      |+|+||
+T Consensus       343 dnTlII  348 (576)
+T 4UPI_A          343 ENTMIV  348 (576)
+T ss_dssp             GTEEEE
+T ss_pred             cceEEE
+
+
+No 7
+>4UPL_A SULFATASE FAMILY PROTEIN; HYDROLASE, ALKALINE PHOSPHATASE SUPERFAMILY; 1.805A {RUEGERIA POMEROYI}
+Probab=7.99  E-value=3.9e+02  Score=12.00  Aligned_cols=6  Identities=50%  Similarity=0.839  Sum_probs=0.0  Template_Neff=10.000
+
+Q DETVIV            1 DETVIV    6 (6)
+Q Consensus         1 detviv    6 (6)
+                      |+|+||
+T Consensus       334 dnTlII  339 (569)
+T 4UPL_A          334 QDTMIV  339 (569)
+T ss_dssp             GGEEEE
+T ss_pred             CCEEEE
+
+
+No 8
+>2PLC_A PHOSPHATIDYLINOSITOL-SPECIFIC PHOSPHOLIPASE C; HYDROLASE, PHOSPHOLIPID DEGRADATION, VIRULENCE FACTOR; 2.0A {Listeria monocytogenes} SCOP: c.1.18.2
+Probab=7.96  E-value=3.9e+02  Score=11.20  Aligned_cols=6  Identities=50%  Similarity=0.850  Sum_probs=0.0  Template_Neff=9.000
+
+Q DETVIV            1 DETVIV    6 (6)
+Q Consensus         1 detviv    6 (6)
+                      +|+||+
+T Consensus        98 ~E~vil  103 (274)
+T 2PLC_A           98 KETIIM  103 (274)
+T ss_dssp             TCCEEE
+T ss_pred             CCEEEE
+
+
+No 9
+>2P5M_A Arginine repressor; alpha-beta, L-arginine binding domain, DNA; HET: ARG; 1.95A {Bacillus subtilis} SCOP: d.74.2.1
+Probab=7.78  E-value=4e+02  Score=10.13  Aligned_cols=6  Identities=33%  Similarity=1.049  Sum_probs=0.0  Template_Neff=6.700
+
+Q DETVIV            1 DETVIV    6 (6)
+Q Consensus         1 detviv    6 (6)
+                      |.||+|
+T Consensus        59 dDTVli   64 (83)
+T 2P5M_A           59 DDTILI   64 (83)
+T ss_dssp             SSEEEE
+T ss_pred             CCEEEE
+
+
+No 10
+>2ZFZ_A Arginine repressor; L-ARGININE REPRESSOR, DNA BINDING PROTEIN; HET: ARG; 1.85A {Mycobacterium tuberculosis}
+Probab=7.73  E-value=4.1e+02  Score=9.94  Aligned_cols=6  Identities=50%  Similarity=1.066  Sum_probs=0.0  Template_Neff=6.900
+
+Q DETVIV            1 DETVIV    6 (6)
+Q Consensus         1 detviv    6 (6)
+                      |.||+|
+T Consensus        55 dDTilv   60 (79)
+T 2ZFZ_A           55 DDTILV   60 (79)
+T ss_dssp             SSEEEE
+T ss_pred             CCEEEE
+
+

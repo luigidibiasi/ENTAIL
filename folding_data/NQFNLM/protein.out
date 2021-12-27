@@ -1,0 +1,156 @@
+Query         NQFNLM
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 03:18:55 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NQFNLM/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NQFNLM/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3PHF_T Envelope glycoprotein H  52.7      13 0.00014   16.0   0.0    6    1-6      58-63  (108)
+  2 5T1D_B Envelope glycoprotein H  52.6      13 0.00014   16.1   0.0    6    1-6      58-63  (112)
+  3 7CZE_H glycoprotein, receptor,  51.3      14 0.00015   16.1   0.0    6    1-6      58-63  (114)
+  4 7CZF_F Ephrin type-A receptor   45.9      19 0.00021   16.6   0.0    6    1-6      60-65  (157)
+  5 6C5V_B Envelope glycoprotein H  43.0      22 0.00025   16.0   0.0    6    1-6      83-88  (139)
+  6 7B7N_L Ephrin type-A receptor   40.6      26 0.00029   16.6   0.0    6    1-6      58-63  (184)
+  7 6JLU_y PsbA, PsbB, PsbC, PsbD,  22.2      86 0.00095   11.5   0.0    6    1-6      28-33  (33)
+  8 5GM9_A Glycoside hydrolase fam  19.4 1.1E+02  0.0012   14.5   0.0    6    1-6     119-124 (213)
+  9 2ENG_A ENDOGLUCANASE V; CELLUL  16.4 1.4E+02  0.0015   14.0   0.0    6    1-6     118-123 (210)
+ 10 6MVJ_A Endoglucanase V; Endogl  16.3 1.4E+02  0.0016   14.3   0.0    6    1-6     140-145 (293)
+
+No 1
+>3PHF_T Envelope glycoprotein H, Envelope glycoprotein; VIRUS ENTRY, MEMBRANE FUSION, GLYCOPROTEIN; 3.58A {Human herpesvirus 4}
+Probab=52.74  E-value=13  Score=16.03  Aligned_cols=6  Identities=33%  Similarity=0.667  Sum_probs=3.8  Template_Neff=4.100
+
+Q NQFNLM            1 NQFNLM    6 (6)
+Q Consensus         1 nqfnlm    6 (6)
+                      |-||||
+T Consensus        58 NGFnlm   63 (108)
+T 3PHF_T           58 NGLNVV   63 (108)
+T ss_dssp             EHHHHH
+T ss_pred             CcHHHH
+Confidence            457776
+
+
+No 2
+>5T1D_B Envelope glycoprotein H, Envelope glycoprotein; receptor binding, herpesvirus entry, Epstein-Barr; HET: NAG; 3.1A {Mus musculus}
+Probab=52.63  E-value=13  Score=16.14  Aligned_cols=6  Identities=33%  Similarity=0.667  Sum_probs=3.9  Template_Neff=4.000
+
+Q NQFNLM            1 NQFNLM    6 (6)
+Q Consensus         1 nqfnlm    6 (6)
+                      |-||||
+T Consensus        58 NGFnLm   63 (112)
+T 5T1D_B           58 NGLNVV   63 (112)
+T ss_dssp             EHHHHH
+T ss_pred             CcHHHH
+Confidence            457776
+
+
+No 3
+>7CZE_H glycoprotein, receptor, complex, virus entry; HET: NAG; 3.0A {Epstein-Barr virus (strain B95-8)}
+Probab=51.33  E-value=14  Score=16.12  Aligned_cols=6  Identities=33%  Similarity=0.667  Sum_probs=3.9  Template_Neff=3.900
+
+Q NQFNLM            1 NQFNLM    6 (6)
+Q Consensus         1 nqfnlm    6 (6)
+                      |-||||
+T Consensus        58 NGFnLm   63 (114)
+T 7CZE_H           58 NGLNVV   63 (114)
+T ss_dssp             EHHHHH
+T ss_pred             CcHHHH
+Confidence            457776
+
+
+No 4
+>7CZF_F Ephrin type-A receptor 2 (E.C.2.7.10.1); glycoprotein, receptor, complex, virus entry; HET: FUC, MAN, NAG; 3.2A {Homo sapiens}
+Probab=45.93  E-value=19  Score=16.60  Aligned_cols=6  Identities=67%  Similarity=0.883  Sum_probs=4.0  Template_Neff=3.400
+
+Q NQFNLM            1 NQFNLM    6 (6)
+Q Consensus         1 nqfnlm    6 (6)
+                      |-||||
+T Consensus        60 NGFNLm   65 (157)
+T 7CZF_F           60 NGFNLR   65 (157)
+T ss_dssp             EHHHHH
+T ss_pred             ccHHHH
+Confidence            557776
+
+
+No 5
+>6C5V_B Envelope glycoprotein H, Envelope glycoprotein; Epstein-Barr virus, neutralizing antibodies, gH/gL; HET: BMA, MAN, NAG; 4.8A {Human herpesvirus 4}
+Probab=43.04  E-value=22  Score=15.95  Aligned_cols=6  Identities=33%  Similarity=0.667  Sum_probs=3.8  Template_Neff=3.800
+
+Q NQFNLM            1 NQFNLM    6 (6)
+Q Consensus         1 nqfnlm    6 (6)
+                      |-||||
+T Consensus        83 NGFNLm   88 (139)
+T 6C5V_B           83 NGLNVV   88 (139)
+T ss_dssp             EHHHHH
+T ss_pred             CchHHH
+Confidence            457766
+
+
+No 6
+>7B7N_L Ephrin type-A receptor 2 (E.C.2.7.10.1); Complex, Receptor, Viral protein; HET: NA, NAG; 2.69A {Homo sapiens}
+Probab=40.65  E-value=26  Score=16.62  Aligned_cols=6  Identities=67%  Similarity=0.883  Sum_probs=4.0  Template_Neff=3.100
+
+Q NQFNLM            1 NQFNLM    6 (6)
+Q Consensus         1 nqfnlm    6 (6)
+                      |-||||
+T Consensus        58 NGFNLM   63 (184)
+T 7B7N_L           58 NGFNLR   63 (184)
+T ss_dssp             EHHHHH
+T ss_pred             CcHHHH
+Confidence            557776
+
+
+No 7
+>6JLU_y PsbA, PsbB, PsbC, PsbD, PsbE; PSII-FCP supercomplex, PLANT PROTEIN; HET: OEX, BCR, PL9, LHG, SQD, KC2, KC1, HEM, DGD, PHO, CLA, LMG, A86, DD6; 3.02A {Chaetoceros gracilis}
+Probab=22.23  E-value=86  Score=11.47  Aligned_cols=6  Identities=17%  Similarity=0.318  Sum_probs=2.9  Template_Neff=3.400
+
+Q NQFNLM            1 NQFNLM    6 (6)
+Q Consensus         1 nqfnlm    6 (6)
+                      +|++-|
+T Consensus        28 ~Q~~~m   33 (33)
+T 6JLU_y           28 QQIQRL   33 (33)
+T ss_pred             HHHHhC
+Confidence            355544
+
+
+No 8
+>5GM9_A Glycoside hydrolase family 45 protein; substrate binding, cellulase, inhibitor, HYDROLASE; HET: CBK, CBI; 1.36A {Thielavia terrestris NRRL 8126}
+Probab=19.36  E-value=1.1e+02  Score=14.45  Aligned_cols=6  Identities=50%  Similarity=0.988  Sum_probs=0.0  Template_Neff=4.500
+
+Q NQFNLM            1 NQFNLM    6 (6)
+Q Consensus         1 nqfnlm    6 (6)
+                      |||.||
+T Consensus       119 n~FDi~  124 (213)
+T 5GM9_A          119 NQFDIA  124 (213)
+T ss_dssp             TEEEEE
+T ss_pred             CeEEEe
+
+
+No 9
+>2ENG_A ENDOGLUCANASE V; CELLULOSE DEGRADATION, HYDROLASE (ENDOGLUCANASE), GLYCOSIDASE; 1.5A {Humicola insolens} SCOP: b.52.1.1
+Probab=16.40  E-value=1.4e+02  Score=14.04  Aligned_cols=6  Identities=50%  Similarity=0.888  Sum_probs=0.0  Template_Neff=4.600
+
+Q NQFNLM            1 NQFNLM    6 (6)
+Q Consensus         1 nqfnlm    6 (6)
+                      |||.||
+T Consensus       118 n~FDi~  123 (210)
+T 2ENG_A          118 NHFDLN  123 (210)
+T ss_dssp             CEEEEE
+T ss_pred             CeeEEe
+
+
+No 10
+>6MVJ_A Endoglucanase V; Endoglucanase V Glycoside hydrolase 45; HET: CBI; 1.809A {Neurospora crassa (strain ATCC 24698 / 74-OR23-1A / CBS 708.71 / DSM 1257 / FGSC 987)}
+Probab=16.31  E-value=1.4e+02  Score=14.26  Aligned_cols=6  Identities=33%  Similarity=0.822  Sum_probs=0.0  Template_Neff=5.500
+
+Q NQFNLM            1 NQFNLM    6 (6)
+Q Consensus         1 nqfnlm    6 (6)
+                      |||.||
+T Consensus       140 ~~fdi~  145 (293)
+T 6MVJ_A          140 NHFDIN  145 (293)
+T ss_dssp             EEEEEE
+T ss_pred             CeeEEe
+
+

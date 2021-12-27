@@ -1,0 +1,250 @@
+Query         GNTCVN
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 02:52:24 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GNTCVN/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GNTCVN/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5T13_A Cyanuric acid amidohydr  76.9     1.9 2.1E-05   21.5   0.0    6    1-6      48-53  (376)
+  2 6BUM_A cyanuic acid hydrolase;  76.8     1.9 2.1E-05   21.4   0.0    6    1-6      44-49  (363)
+  3 6CWJ_B Barbiturase (E.C.3.5.2.  76.8     1.9 2.1E-05   21.4   0.0    6    1-6      44-49  (363)
+  4 4NQ3_A Cyanuric acid amidohydr  76.7     1.9 2.1E-05   21.3   0.0    6    1-6      43-48  (356)
+  5 4BVQ_A CYANURIC ACID AMIDOHYDR  76.0     2.1 2.3E-05   21.4   0.0    6    1-6      63-68  (383)
+  6 4BVS_B CYANURIC ACID AMIDOHYDR  76.0     2.1 2.3E-05   21.4   0.0    6    1-6      63-68  (383)
+  7 5HWE_A Barbiturase (E.C.3.5.2.  75.6     2.1 2.4E-05   21.4   0.0    6    1-6      64-69  (389)
+  8 5HY0_C Ring-opening amidohydro  74.3     2.5 2.7E-05   21.4   0.0    6    1-6      77-82  (410)
+  9 5O57_A Dickkopf-related protei  41.4      25 0.00027   14.8   0.0    6    1-6      65-70  (95)
+ 10 1Z6O_H Ferritin light chain, F  36.9      32 0.00036   14.0   0.0    6    1-6       1-6   (212)
+ 11 2JMS_A Pheromone En-6; PROTEIN  25.4      68 0.00075   13.3   0.0    6    1-6      57-62  (63)
+ 12 5DN7_A Protein FAM179B; TOG do  22.3      85 0.00094   11.9   0.0    6    1-6     288-293 (293)
+ 13 6A56_A AJLec; AJLec, Lectin, S  20.7      97  0.0011   14.4   0.0    6    1-6     153-158 (164)
+ 14 7CUS_A Flagellar hook-associat  20.5      98  0.0011   14.4   0.0    6    1-6     214-219 (221)
+ 15 4RA4_A Protein kinase C (E.C.2  20.2   1E+02  0.0011   12.3   0.0    6    1-6     338-343 (355)
+ 16 7LA6_A Sensor histidine kinase  20.2   1E+02  0.0011   14.5   0.0    6    1-6     211-216 (221)
+
+No 1
+>5T13_A Cyanuric acid amidohydrolase (E.C.3.5.2.15); TrzD - cyanuric acid hydrolase; 2.19A {Enterobacter cloacae}
+Probab=76.91  E-value=1.9  Score=21.49  Aligned_cols=6  Identities=83%  Similarity=1.553  Sum_probs=5.3  Template_Neff=3.900
+
+Q GNTCVN            1 GNTCVN    6 (6)
+Q Consensus         1 gntcvn    6 (6)
+                      ||-|||
+T Consensus        48 GNGcVN   53 (376)
+T 5T13_A           48 GNGCVN   53 (376)
+T ss_dssp             SCSSTT
+T ss_pred             CCCcCc
+Confidence            789998
+
+
+No 2
+>6BUM_A cyanuic acid hydrolase; Hydrolase; HET: PDO, MLI; 1.51A {Moorella thermoacetica (strain ATCC 39073 / JCM 9320)}
+Probab=76.76  E-value=1.9  Score=21.38  Aligned_cols=6  Identities=83%  Similarity=1.553  Sum_probs=5.3  Template_Neff=3.900
+
+Q GNTCVN            1 GNTCVN    6 (6)
+Q Consensus         1 gntcvn    6 (6)
+                      ||-|||
+T Consensus        44 GNGcVN   49 (363)
+T 6BUM_A           44 GNGCVN   49 (363)
+T ss_dssp             SCSSSS
+T ss_pred             CCCCCc
+Confidence            789998
+
+
+No 3
+>6CWJ_B Barbiturase (E.C.3.5.2.1); Cyanuric acid hydrolase, HYDROLASE; HET: 6JN, ACT; 2.253A {Moorella thermoacetica (strain ATCC 39073 / JCM 9320)}
+Probab=76.76  E-value=1.9  Score=21.38  Aligned_cols=6  Identities=83%  Similarity=1.553  Sum_probs=5.3  Template_Neff=3.900
+
+Q GNTCVN            1 GNTCVN    6 (6)
+Q Consensus         1 gntcvn    6 (6)
+                      ||-|||
+T Consensus        44 GNGcVN   49 (363)
+T 6CWJ_B           44 GNGCVN   49 (363)
+T ss_dssp             SCSSTT
+T ss_pred             CCCCCc
+Confidence            789998
+
+
+No 4
+>4NQ3_A Cyanuric acid amidohydrolase; Hydrolase; HET: SO4, BR8; 2.702A {Azorhizobium caulinodans}
+Probab=76.74  E-value=1.9  Score=21.34  Aligned_cols=6  Identities=83%  Similarity=1.553  Sum_probs=5.3  Template_Neff=3.900
+
+Q GNTCVN            1 GNTCVN    6 (6)
+Q Consensus         1 gntcvn    6 (6)
+                      ||-|||
+T Consensus        43 GNGcVN   48 (356)
+T 4NQ3_A           43 GNGCVN   48 (356)
+T ss_dssp             SCSSTT
+T ss_pred             CCCCCc
+Confidence            789998
+
+
+No 5
+>4BVQ_A CYANURIC ACID AMIDOHYDROLASE (E.C.3.5.2.15); HYDROLASE, AMIDASE, CYANURIC ACID; HET: PO4, PEG; 1.9A {PSEUDOMONAS SP. ADP}
+Probab=76.00  E-value=2.1  Score=21.44  Aligned_cols=6  Identities=83%  Similarity=1.553  Sum_probs=5.3  Template_Neff=3.800
+
+Q GNTCVN            1 GNTCVN    6 (6)
+Q Consensus         1 gntcvn    6 (6)
+                      ||-|||
+T Consensus        63 GNGcVN   68 (383)
+T 4BVQ_A           63 GNGCVN   68 (383)
+T ss_dssp             SCSSTT
+T ss_pred             CCCCCc
+Confidence            789998
+
+
+No 6
+>4BVS_B CYANURIC ACID AMIDOHYDROLASE (E.C.3.5.2.15); HYDROLASE, AMIDASE; HET: AX2; 2.6A {PSEUDOMONAS SP. ADP}
+Probab=76.00  E-value=2.1  Score=21.44  Aligned_cols=6  Identities=83%  Similarity=1.553  Sum_probs=5.3  Template_Neff=3.800
+
+Q GNTCVN            1 GNTCVN    6 (6)
+Q Consensus         1 gntcvn    6 (6)
+                      ||-|||
+T Consensus        63 GNGcVN   68 (383)
+T 4BVS_B           63 GNGCVN   68 (383)
+T ss_dssp             SCSSSS
+T ss_pred             CCCCCc
+Confidence            789998
+
+
+No 7
+>5HWE_A Barbiturase (E.C.3.5.2.1); Toblerone fold, pyrimidine catabolism, HYDROLASE; HET: MHA; 1.71A {Rhodococcus erythropolis}
+Probab=75.65  E-value=2.1  Score=21.42  Aligned_cols=6  Identities=67%  Similarity=0.806  Sum_probs=5.3  Template_Neff=3.800
+
+Q GNTCVN            1 GNTCVN    6 (6)
+Q Consensus         1 gntcvn    6 (6)
+                      ||-|||
+T Consensus        64 GNGcVN   69 (389)
+T 5HWE_A           64 GNGGVN   69 (389)
+T ss_dssp             SCSSSS
+T ss_pred             CCCCCc
+Confidence            789998
+
+
+No 8
+>5HY0_C Ring-opening amidohydrolase (E.C.3.5.2.15); Toblerone fold, pyrimidine catabolism, HYDROLASE; HET: GOL; 2.4A {Frankia sp. Eul1b}
+Probab=74.28  E-value=2.5  Score=21.38  Aligned_cols=6  Identities=33%  Similarity=0.373  Sum_probs=5.3  Template_Neff=3.700
+
+Q GNTCVN            1 GNTCVN    6 (6)
+Q Consensus         1 gntcvn    6 (6)
+                      ||-|||
+T Consensus        77 GNGcVN   82 (410)
+T 5HY0_C           77 GSGLHN   82 (410)
+T ss_dssp             SCCSTT
+T ss_pred             CCCCcc
+Confidence            789998
+
+
+No 9
+>5O57_A Dickkopf-related protein 4; Dkk4, Wnt Signalling, Cysteine-rich domain; NMR {Homo sapiens}
+Probab=41.35  E-value=25  Score=14.76  Aligned_cols=6  Identities=67%  Similarity=1.359  Sum_probs=3.4  Template_Neff=4.400
+
+Q GNTCVN            1 GNTCVN    6 (6)
+Q Consensus         1 gntcvn    6 (6)
+                      ||.|||
+T Consensus        65 G~lCvn   70 (95)
+T 5O57_A           65 GTLCVN   70 (95)
+T ss_dssp             TEEEET
+T ss_pred             CCeeeC
+Confidence            456664
+
+
+No 10
+>1Z6O_H Ferritin light chain, Ferritin heavy; METAL BINDING PROTEIN, Iron storage; HET: FE; 1.91A {Trichoplusia ni} SCOP: a.25.1.1
+Probab=36.91  E-value=32  Score=14.03  Aligned_cols=6  Identities=50%  Similarity=1.077  Sum_probs=3.6  Template_Neff=8.400
+
+Q GNTCVN            1 GNTCVN    6 (6)
+Q Consensus         1 gntcvn    6 (6)
+                      ++||+|
+T Consensus         1 ~~~~~~    6 (212)
+T 1Z6O_H            1 ADTCYN    6 (212)
+T ss_dssp             CCCHHH
+T ss_pred             CCcchh
+Confidence            467764
+
+
+No 11
+>2JMS_A Pheromone En-6; PROTEIN, SIGNALING PROTEIN; NMR {Euplotes nobilii}
+Probab=25.41  E-value=68  Score=13.32  Aligned_cols=6  Identities=67%  Similarity=1.608  Sum_probs=2.7  Template_Neff=2.600
+
+Q GNTCVN            1 GNTCVN    6 (6)
+Q Consensus         1 gntcvn    6 (6)
+                      ||.|.|
+T Consensus        57 ~n~c~n   62 (63)
+T 2JMS_A           57 GNSCLN   62 (63)
+T ss_dssp             TSSCSC
+T ss_pred             ccccCC
+Confidence            345543
+
+
+No 12
+>5DN7_A Protein FAM179B; TOG domain, STRUCTURAL PROTEIN; 2.2A {Mus musculus}
+Probab=22.31  E-value=85  Score=11.85  Aligned_cols=6  Identities=33%  Similarity=0.507  Sum_probs=0.0  Template_Neff=11.400
+
+Q GNTCVN            1 GNTCVN    6 (6)
+Q Consensus         1 gntcvn    6 (6)
+                      ||.|+|
+T Consensus       288 ~~~~~~  293 (293)
+T 5DN7_A          288 GNRTQS  293 (293)
+T ss_dssp             ------
+T ss_pred             ccccCC
+Confidence            445543
+
+
+No 13
+>6A56_A AJLec; AJLec, Lectin, Sea Anemone, Gyractis; HET: GAL, BGC, EPE, PCA, SNN; 1.2A {Anthopleura japonica}
+Probab=20.72  E-value=97  Score=14.45  Aligned_cols=6  Identities=33%  Similarity=1.176  Sum_probs=4.1  Template_Neff=3.600
+
+Q GNTCVN            1 GNTCVN    6 (6)
+Q Consensus         1 gntcvn    6 (6)
+                      |.+||+
+T Consensus       153 G~vCvd  158 (164)
+T 6A56_A          153 GKVCAD  158 (164)
+T ss_dssp             EEEEEE
+T ss_pred             cceeee
+Confidence            567875
+
+
+No 14
+>7CUS_A Flagellar hook-associated protein 2; sensor domain, beta-lactam antibiotic receptor; 1.65A {Vibrio parahaemolyticus}
+Probab=20.50  E-value=98  Score=14.43  Aligned_cols=6  Identities=50%  Similarity=1.160  Sum_probs=3.6  Template_Neff=5.000
+
+Q GNTCVN            1 GNTCVN    6 (6)
+Q Consensus         1 gntcvn    6 (6)
+                      ||-|.+
+T Consensus       214 GnlCw~  219 (221)
+T 7CUS_A          214 GNICWD  219 (221)
+T ss_dssp             TTEEEE
+T ss_pred             ccccee
+Confidence            566754
+
+
+No 15
+>4RA4_A Protein kinase C (E.C.2.7.11.13); Kinase domain, Transferase-transferase inhibitor complex; HET: 3KZ; 2.63A {Homo sapiens}
+Probab=20.21  E-value=1e+02  Score=12.30  Aligned_cols=6  Identities=50%  Similarity=0.650  Sum_probs=3.0  Template_Neff=10.900
+
+Q GNTCVN            1 GNTCVN    6 (6)
+Q Consensus         1 gntcvn    6 (6)
+                      |.+|+|
+T Consensus       338 g~~~~~  343 (355)
+T 4RA4_A          338 GFSYVN  343 (355)
+T ss_dssp             TCCEEC
+T ss_pred             ceeeeC
+Confidence            345554
+
+
+No 16
+>7LA6_A Sensor histidine kinase; VXRA, TWO-COMPONENT SYSTEM, HISTIDINE KINASE; HET: PG4, SO4, GOL, PEG; 1.98A {Vibrio cholerae serotype O1 (strain ATCC 39315 / El Tor Inaba N16961)}
+Probab=20.15  E-value=1e+02  Score=14.53  Aligned_cols=6  Identities=50%  Similarity=1.160  Sum_probs=4.0  Template_Neff=4.700
+
+Q GNTCVN            1 GNTCVN    6 (6)
+Q Consensus         1 gntcvn    6 (6)
+                      ||-|.+
+T Consensus       211 GNLCw~  216 (221)
+T 7LA6_A          211 GNICWD  216 (221)
+T ss_dssp             TTEEEC
+T ss_pred             ccccee
+Confidence            677764
+
+

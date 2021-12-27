@@ -1,0 +1,150 @@
+Query         LATVVV
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 16:09:47 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LATVVV/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LATVVV/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 7CNZ_H Phosphatidylserine deca   7.2 4.5E+02  0.0049    9.1   0.0    5    2-6       1-5   (42)
+  2 2WE8_A XANTHINE DEHYDROGENASE    5.6 6.1E+02  0.0068   11.8   0.0    5    1-5      24-28  (386)
+  3 3ON5_A BH1974 protein; STRUCTU   5.1 6.9E+02  0.0076   11.7   0.0    5    1-5      38-42  (362)
+  4 5ZGG_A Tumor necrosis factor r   4.7 7.6E+02  0.0085    8.7   0.0    6    1-6      16-21  (34)
+  5 6YB1_D de novo protein, antipa   4.7 7.6E+02  0.0085    9.4   0.0    5    1-5      14-18  (33)
+  6 1H8B_B ALPHA-ACTININ 2, SKELET   4.5 8.2E+02  0.0091   10.1   0.0    5    1-5      15-19  (53)
+  7 2WE8_B XANTHINE DEHYDROGENASE    4.4 8.4E+02  0.0093   11.6   0.0    5    1-5      24-28  (386)
+  8 7JOQ_T small terminase subunit   3.4 1.2E+03   0.013    9.8   0.0    5    1-5     144-148 (157)
+  9 2JLH_A YOP PROTEINS TRANSLOCAT   3.3 1.2E+03   0.013   10.1   0.0    5    2-6      47-51  (144)
+ 10 2JLJ_A YOP PROTEINS TRANSLOCAT   3.2 1.2E+03   0.014   10.1   0.0    5    2-6      47-51  (144)
+
+No 1
+>7CNZ_H Phosphatidylserine decarboxylase beta chain (E.C.4.1.1.65); Phosphatidylserine decarboxylase, pyruvoyl-dependent decarboxylase, auto-cleaved; HET: PYR, PO4, PEX; 2.7A {Escherichia coli K-12}
+Probab=7.18  E-value=4.5e+02  Score=9.13  Aligned_cols=5  Identities=40%  Similarity=0.454  Sum_probs=0.0  Template_Neff=5.900
+
+Q LATVVV            2 ATVVV    6 (6)
+Q Consensus         2 atvvv    6 (6)
+                      .|||+
+T Consensus         1 STVVl    5 (42)
+T 7CNZ_H            1 XTVIN    5 (42)
+T ss_dssp             -CEEE
+T ss_pred             CCEEE
+
+
+No 2
+>2WE8_A XANTHINE DEHYDROGENASE (E.C.1.17.1.4); OXIDOREDUCTASE; HET: ACT, GOL; 2.3A {MYCOBACTERIUM SMEGMATIS}
+Probab=5.62  E-value=6.1e+02  Score=11.82  Aligned_cols=5  Identities=60%  Similarity=0.773  Sum_probs=0.0  Template_Neff=7.700
+
+Q LATVVV            1 LATVV    5 (6)
+Q Consensus         1 latvv    5 (6)
+                      |||||
+T Consensus        24 LaTVv   28 (386)
+T 2WE8_A           24 VGTVV   28 (386)
+T ss_dssp             EEEEE
+T ss_pred             EEEEE
+
+
+No 3
+>3ON5_A BH1974 protein; STRUCTURAL GENOMICS, JOINT CENTER FOR; 2.8A {Bacillus halodurans}
+Probab=5.15  E-value=6.9e+02  Score=11.70  Aligned_cols=5  Identities=40%  Similarity=0.926  Sum_probs=0.0  Template_Neff=7.400
+
+Q LATVVV            1 LATVV    5 (6)
+Q Consensus         1 latvv    5 (6)
+                      ||||+
+T Consensus        38 LaTVv   42 (362)
+T 3ON5_A           38 MATII   42 (362)
+T ss_dssp             EEEEE
+T ss_pred             EEEEE
+
+
+No 4
+>5ZGG_A Tumor necrosis factor receptor superfamily; transmembrane, complex, MEMBRANE PROTEIN; HET: 9F6; NMR {Homo sapiens}
+Probab=4.74  E-value=7.6e+02  Score=8.74  Aligned_cols=6  Identities=83%  Similarity=0.955  Sum_probs=0.0  Template_Neff=4.400
+
+Q LATVVV            1 LATVVV    6 (6)
+Q Consensus         1 latvvv    6 (6)
+                      |+.|++
+T Consensus        16 l~avvv   21 (34)
+T 5ZGG_A           16 LAAVVV   21 (34)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 5
+>6YB1_D de novo protein, antiparallel coiled; HET: GLY, 2PE, ACE; 2.15A {N/A}
+Probab=4.73  E-value=7.6e+02  Score=9.42  Aligned_cols=5  Identities=80%  Similarity=1.026  Sum_probs=0.0  Template_Neff=1.000
+
+Q LATVVV            1 LATVV    5 (6)
+Q Consensus         1 latvv    5 (6)
+                      ||||+
+T Consensus        14 latvi   18 (33)
+T 6YB1_D           14 LATVI   18 (33)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 6
+>1H8B_B ALPHA-ACTININ 2, SKELETAL MUSCLE ISOFORM; STRUCTURAL PROTEIN, Z-DISK STRUCTURAL COMPLEX; NMR {HOMO SAPIENS}
+Probab=4.47  E-value=8.2e+02  Score=10.06  Aligned_cols=5  Identities=80%  Similarity=0.899  Sum_probs=0.0  Template_Neff=2.100
+
+Q LATVVV            1 LATVV    5 (6)
+Q Consensus         1 latvv    5 (6)
+                      .||||
+T Consensus        15 vATVV   19 (53)
+T 1H8B_B           15 VATVV   19 (53)
+T ss_dssp             HHHHH
+T ss_pred             hhhhh
+
+
+No 7
+>2WE8_B XANTHINE DEHYDROGENASE (E.C.1.17.1.4); OXIDOREDUCTASE; HET: GOL, ACT; 2.3A {MYCOBACTERIUM SMEGMATIS}
+Probab=4.38  E-value=8.4e+02  Score=11.58  Aligned_cols=5  Identities=60%  Similarity=0.773  Sum_probs=0.0  Template_Neff=7.300
+
+Q LATVVV            1 LATVV    5 (6)
+Q Consensus         1 latvv    5 (6)
+                      |||||
+T Consensus        24 LaTVv   28 (386)
+T 2WE8_B           24 VGTVV   28 (386)
+T ss_dssp             EEEEE
+T ss_pred             EEEEE
+
+
+No 8
+>7JOQ_T small terminase subunit; viral genome packaging motor, small; 3.95A {Pseudomonas phage NV1}
+Probab=3.36  E-value=1.2e+03  Score=9.76  Aligned_cols=5  Identities=80%  Similarity=0.886  Sum_probs=0.0  Template_Neff=7.100
+
+Q LATVVV            1 LATVV    5 (6)
+Q Consensus         1 latvv    5 (6)
+                      +|+||
+T Consensus       144 ~~~~~  148 (157)
+T 7JOQ_T          144 LAKVV  148 (157)
+T ss_dssp             HHHHH
+T ss_pred             Hccee
+
+
+No 9
+>2JLH_A YOP PROTEINS TRANSLOCATION PROTEIN U; CELL MEMBRANE, TRANSMEMBRANE, YERSINIA PESTIS; HET: 1PE; 1.53A {YERSINIA PESTIS}
+Probab=3.26  E-value=1.2e+03  Score=10.05  Aligned_cols=5  Identities=60%  Similarity=0.853  Sum_probs=0.0  Template_Neff=5.900
+
+Q LATVVV            2 ATVVV    6 (6)
+Q Consensus         2 atvvv    6 (6)
+                      |+||+
+T Consensus        47 A~vvi   51 (144)
+T 2JLH_A           47 SSVVV   51 (144)
+T ss_dssp             CSEEE
+T ss_pred             CcEEE
+
+
+No 10
+>2JLJ_A YOP PROTEINS TRANSLOCATION PROTEIN U; CELL MEMBRANE, TRANSMEMBRANE, YERSINIA PESITS; 1.3A {YERSINIA PESTIS}
+Probab=3.23  E-value=1.2e+03  Score=10.08  Aligned_cols=5  Identities=60%  Similarity=0.853  Sum_probs=0.0  Template_Neff=5.800
+
+Q LATVVV            2 ATVVV    6 (6)
+Q Consensus         2 atvvv    6 (6)
+                      |+|||
+T Consensus        47 A~~vi   51 (144)
+T 2JLJ_A           47 SSVVV   51 (144)
+T ss_dssp             CSEEE
+T ss_pred             CCEEE
+
+

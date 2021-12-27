@@ -1,0 +1,153 @@
+Query         AAIDWF
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 12:56:31 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/AAIDWF/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/AAIDWF/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2COS_A Serine/threonine protei  56.6     9.8 0.00011   14.0   0.0    6    1-6      40-45  (54)
+  2 7BC3_D Structural polyprotein;  29.5      51 0.00057   13.7   0.0    6    1-6      40-45  (58)
+  3 3PTX_B Nucleoprotein/RNA compl  20.2   1E+02  0.0011   14.9   0.0    6    1-6     195-200 (421)
+  4 6BJY_A Nucleocapsid/RNA Comple  20.2   1E+02  0.0011   14.9   0.0    6    1-6     195-200 (421)
+  5 3HHW_L protein complex, templa  20.2   1E+02  0.0011   14.9   0.0    6    1-6     195-200 (421)
+  6 2CPW_A Cbl-interacting protein  19.7   1E+02  0.0012    9.9   0.0    6    1-6      50-55  (64)
+  7 7OG6_A Coat protein/RNA Comple  19.5 1.1E+02  0.0012   14.2   0.0    6    1-6     131-136 (207)
+  8 2CLY_E ATP SYNTHASE B CHAIN, M  19.4 1.1E+02  0.0012   12.8   0.0    5    1-5       8-12  (160)
+  9 6BQ1_E Phosphatidylinositol 4-  19.4 1.1E+02  0.0012   18.0   0.0    6    1-6     927-932 (1648)
+ 10 2DAK_A Ubiquitin carboxyl-term  19.4 1.1E+02  0.0012   10.1   0.0    6    1-6      39-44  (63)
+
+No 1
+>2COS_A Serine/threonine protein kinase LATS2 (E.C.2.7.1.37); UBA domain, Mus musculus, structure; NMR {Mus musculus} SCOP: a.5.2.1
+Probab=56.57  E-value=9.8  Score=13.99  Aligned_cols=6  Identities=33%  Similarity=0.855  Sum_probs=3.8  Template_Neff=5.700
+
+Q AAIDWF            1 AAIDWF    6 (6)
+Q Consensus         1 aaidwf    6 (6)
+                      +|+||.
+T Consensus        40 ~A~eWl   45 (54)
+T 2COS_A           40 AALEYI   45 (54)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            467774
+
+
+No 2
+>7BC3_D Structural polyprotein; Viruses, Riboviria, Orthornavirae, Pisuviricota, Pisoniviricetes;{Kashmir bee virus}
+Probab=29.54  E-value=51  Score=13.69  Aligned_cols=6  Identities=67%  Similarity=1.641  Sum_probs=3.5  Template_Neff=1.700
+
+Q AAIDWF            1 AAIDWF    6 (6)
+Q Consensus         1 aaidwf    6 (6)
+                      ||+.||
+T Consensus        40 ~~v~Wv   45 (58)
+T 7BC3_D           40 AAVKWF   45 (58)
+T ss_pred             HHHHHH
+Confidence            456665
+
+
+No 3
+>3PTX_B Nucleoprotein/RNA complex; RNA, nucleocapsid, VIRAL PROTEIN-RNA complex; HET: IUM; 3.0A {Vesicular stomatitis Indiana virus}
+Probab=20.19  E-value=1e+02  Score=14.88  Aligned_cols=6  Identities=67%  Similarity=1.032  Sum_probs=3.5  Template_Neff=6.600
+
+Q AAIDWF            1 AAIDWF    6 (6)
+Q Consensus         1 aaidwf    6 (6)
+                      ||||-|
+T Consensus       195 AaiDMF  200 (421)
+T 3PTX_B          195 AAVDMF  200 (421)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHhH
+Confidence            466654
+
+
+No 4
+>6BJY_A Nucleocapsid/RNA Complex; VSV, nucleocapisd, nucleocapsid-like particle, RNA; HET: DV4, IUM; 3.46A {Vesicular stomatitis Indiana virus}
+Probab=20.19  E-value=1e+02  Score=14.88  Aligned_cols=6  Identities=67%  Similarity=1.032  Sum_probs=3.5  Template_Neff=6.600
+
+Q AAIDWF            1 AAIDWF    6 (6)
+Q Consensus         1 aaidwf    6 (6)
+                      ||||-|
+T Consensus       195 AaiDMF  200 (421)
+T 6BJY_A          195 AAVDMF  200 (421)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHhH
+Confidence            466654
+
+
+No 5
+>3HHW_L protein complex, template, replication, negative; HET: MSE, TAR; 2.7A {Vesicular stomatitis Indiana virus}
+Probab=20.18  E-value=1e+02  Score=14.88  Aligned_cols=6  Identities=67%  Similarity=1.032  Sum_probs=3.5  Template_Neff=6.600
+
+Q AAIDWF            1 AAIDWF    6 (6)
+Q Consensus         1 aaidwf    6 (6)
+                      ||||-|
+T Consensus       195 AaiDMF  200 (421)
+T 3HHW_L          195 AAVDMF  200 (421)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHhH
+Confidence            466654
+
+
+No 6
+>2CPW_A Cbl-interacting protein Sts-1 variant; Ubiquitin Associated Domain, UBA, Compact; NMR {Homo sapiens} SCOP: a.5.2.1
+Probab=19.71  E-value=1e+02  Score=9.94  Aligned_cols=6  Identities=50%  Similarity=1.265  Sum_probs=0.0  Template_Neff=9.200
+
+Q AAIDWF            1 AAIDWF    6 (6)
+Q Consensus         1 aaidwf    6 (6)
+                      .|++|+
+T Consensus        50 ~a~~~L   55 (64)
+T 2CPW_A           50 TACDWL   55 (64)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 7
+>7OG6_A Coat protein/RNA Complex; Potexvirus, Virus Like Particle, VLP.;{Alternanthera mosaic virus}
+Probab=19.50  E-value=1.1e+02  Score=14.20  Aligned_cols=6  Identities=67%  Similarity=1.171  Sum_probs=0.0  Template_Neff=5.000
+
+Q AAIDWF            1 AAIDWF    6 (6)
+Q Consensus         1 aaidwf    6 (6)
+                      ||.|.|
+T Consensus       131 AAFDfF  136 (207)
+T 7OG6_A          131 AAFDFF  136 (207)
+T ss_dssp             GCSTTG
+T ss_pred             chhhcc
+
+
+No 8
+>2CLY_E ATP SYNTHASE B CHAIN, MITOCHONDRIAL; MITOCHONDRIA, MITOCHONDRION, ION TRANSPORT, CF(0); 2.8A {BOS TAURUS} SCOP: f.53.1.1
+Probab=19.45  E-value=1.1e+02  Score=12.82  Aligned_cols=5  Identities=60%  Similarity=1.537  Sum_probs=0.0  Template_Neff=6.900
+
+Q AAIDWF            1 AAIDW    5 (6)
+Q Consensus         1 aaidw    5 (6)
+                      .+|||
+T Consensus         8 ~~idW   12 (160)
+T 2CLY_E            8 KTIDW   12 (160)
+T ss_dssp             CCCCH
+T ss_pred             hhcCH
+
+
+No 9
+>6BQ1_E Phosphatidylinositol 4-kinase III alpha (PI4KA); kinase, phosphoinositide synthesis, Transferase-Signaling Protein; HET: E4S; 3.6A {Homo sapiens}
+Probab=19.38  E-value=1.1e+02  Score=17.96  Aligned_cols=6  Identities=50%  Similarity=1.099  Sum_probs=0.0  Template_Neff=5.500
+
+Q AAIDWF            1 AAIDWF    6 (6)
+Q Consensus         1 aaidwf    6 (6)
+                      +|++||
+T Consensus       927 AALsWF  932 (1648)
+T 6BQ1_E          927 TAFDYF  932 (1648)
+T ss_pred             HhhHHh
+
+
+No 10
+>2DAK_A Ubiquitin carboxyl-terminal hydrolase 5 (E.C.3.1.2.15); isopeptidase T, Ubiquitin Specific Protease; NMR {Homo sapiens}
+Probab=19.36  E-value=1.1e+02  Score=10.14  Aligned_cols=6  Identities=50%  Similarity=1.376  Sum_probs=0.0  Template_Neff=8.700
+
+Q AAIDWF            1 AAIDWF    6 (6)
+Q Consensus         1 aaidwf    6 (6)
+                      .|++|+
+T Consensus        39 ~Ai~~l   44 (63)
+T 2DAK_A           39 RAVDWI   44 (63)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+

@@ -1,0 +1,155 @@
+Query         QNQSCP
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 08:44:49 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QNQSCP/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QNQSCP/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3ZPM_A LATHERIN; PLUNC, BPI, S  35.5      35 0.00039   14.9   0.0    6    1-6     175-180 (211)
+  2 6O1T_A Short palate, lung and   29.7      51 0.00056   14.8   0.0    6    1-6     174-179 (201)
+  3 6BAQ_B TetR family transcripti  28.6      55  0.0006   15.2   0.0    6    1-6     208-213 (244)
+  4 4KGO_B BPI fold-containing fam  28.6      55  0.0006   15.1   0.0    6    1-6     204-209 (240)
+  5 5WD6_A Short palate, lung and   25.3      68 0.00076   15.1   0.0    6    1-6     211-216 (249)
+  6 6BAQ_F TetR family transcripti  24.8      71 0.00079   14.9   0.0    6    1-6     208-213 (244)
+  7 2I9W_A Crystal structure of hy  19.9   1E+02  0.0011   13.4   0.0    6    1-6     164-169 (184)
+  8 7JOD_I inhibitor, PLANT PROTEI  19.8   1E+02  0.0011   12.5   0.0    5    2-6      41-45  (166)
+  9 4CK4_A BETA_LACTOGLOBULIN-1/B;  19.7   1E+02  0.0012   11.1   0.0    6    1-6     156-161 (162)
+ 10 5CMP_A Leucine-rich repeat tra  19.5 1.1E+02  0.0012   11.5   0.0    5    2-6       4-8   (333)
+
+No 1
+>3ZPM_A LATHERIN; PLUNC, BPI, SURFACTANT PROTEIN; NMR {EQUUS CABALLUS}
+Probab=35.50  E-value=35  Score=14.95  Aligned_cols=6  Identities=33%  Similarity=0.816  Sum_probs=3.9  Template_Neff=6.500
+
+Q QNQSCP            1 QNQSCP    6 (6)
+Q Consensus         1 qnqscp    6 (6)
+                      |+|-||
+T Consensus       175 q~qvCP  180 (211)
+T 3ZPM_A          175 GAGLCP  180 (211)
+T ss_dssp             HHHSHH
+T ss_pred             HhCcch
+Confidence            456777
+
+
+No 2
+>6O1T_A Short palate, lung and nasal; HYDROPHOBIC CHANNEL, LIPID BINDING PROTEIN; HET: OLA; 2.3A {Bos taurus}
+Probab=29.70  E-value=51  Score=14.78  Aligned_cols=6  Identities=33%  Similarity=1.154  Sum_probs=4.0  Template_Neff=5.700
+
+Q QNQSCP            1 QNQSCP    6 (6)
+Q Consensus         1 qnqscp    6 (6)
+                      |+|-||
+T Consensus       174 q~qvCP  179 (201)
+T 6O1T_A          174 EGELCP  179 (201)
+T ss_dssp             CCCCHH
+T ss_pred             hhCcCH
+Confidence            466777
+
+
+No 3
+>6BAQ_B TetR family transcriptional regulator; Antimicrobial protein, lung defense protein; HET: NA, GOL; 2.50260996677A {Mus musculus}
+Probab=28.63  E-value=55  Score=15.22  Aligned_cols=6  Identities=50%  Similarity=1.259  Sum_probs=4.1  Template_Neff=5.400
+
+Q QNQSCP            1 QNQSCP    6 (6)
+Q Consensus         1 qnqscp    6 (6)
+                      |+|-||
+T Consensus       208 q~qVCP  213 (244)
+T 6BAQ_B          208 QGKVCP  213 (244)
+T ss_dssp             HHHHHH
+T ss_pred             hhcccH
+Confidence            467787
+
+
+No 4
+>4KGO_B BPI fold-containing family A member; beta barrel  BPI-like fold; HET: MSE; 3.194A {Homo sapiens}
+Probab=28.62  E-value=55  Score=15.14  Aligned_cols=6  Identities=50%  Similarity=1.215  Sum_probs=4.1  Template_Neff=5.500
+
+Q QNQSCP            1 QNQSCP    6 (6)
+Q Consensus         1 qnqscp    6 (6)
+                      |+|-||
+T Consensus       204 q~qVCP  209 (240)
+T 4KGO_B          204 QGNVCP  209 (240)
+T ss_dssp             HHHHHH
+T ss_pred             HhcccH
+Confidence            467787
+
+
+No 5
+>5WD6_A Short palate, lung and nasal; Hydrophobic channel, LIPID BINDING PROTEIN; HET: MSE; 2.0A {Bos taurus}
+Probab=25.33  E-value=68  Score=15.05  Aligned_cols=6  Identities=33%  Similarity=1.154  Sum_probs=3.9  Template_Neff=5.200
+
+Q QNQSCP            1 QNQSCP    6 (6)
+Q Consensus         1 qnqscp    6 (6)
+                      |+|-||
+T Consensus       211 q~qVCP  216 (249)
+T 5WD6_A          211 EGELCP  216 (249)
+T ss_pred             HhcccH
+Confidence            456776
+
+
+No 6
+>6BAQ_F TetR family transcriptional regulator; Antimicrobial protein, lung defense protein; HET: GOL, NA; 2.50260996677A {Mus musculus}
+Probab=24.79  E-value=71  Score=14.92  Aligned_cols=6  Identities=50%  Similarity=1.259  Sum_probs=4.0  Template_Neff=5.300
+
+Q QNQSCP            1 QNQSCP    6 (6)
+Q Consensus         1 qnqscp    6 (6)
+                      |+|-||
+T Consensus       208 q~qVCP  213 (244)
+T 6BAQ_F          208 QGKVCP  213 (244)
+T ss_dssp             HHHHHH
+T ss_pred             hhccch
+Confidence            467776
+
+
+No 7
+>2I9W_A Crystal structure of hypothetical protein; Cystatin-like fold, sec-c motif fold; 1.75A {Psychrobacter arcticus} SCOP: g.74.1.1, d.17.4.30
+Probab=19.85  E-value=1e+02  Score=13.36  Aligned_cols=6  Identities=50%  Similarity=0.861  Sum_probs=0.0  Template_Neff=6.400
+
+Q QNQSCP            1 QNQSCP    6 (6)
+Q Consensus         1 qnqscp    6 (6)
+                      .|+.||
+T Consensus       164 RNdpCp  169 (184)
+T 2I9W_A          164 QKQPCI  169 (184)
+T ss_dssp             TTSBCT
+T ss_pred             CCCCcc
+
+
+No 8
+>7JOD_I inhibitor, PLANT PROTEIN, HYDROLASE-HYDROLASE INHIBITOR; HET: 2PE; 1.33A {Homo sapiens}
+Probab=19.82  E-value=1e+02  Score=12.53  Aligned_cols=5  Identities=0%  Similarity=-0.004  Sum_probs=0.0  Template_Neff=7.700
+
+Q QNQSCP            2 NQSCP    6 (6)
+Q Consensus         2 nqscp    6 (6)
+                      |.+||
+T Consensus        41 ~~~CP   45 (166)
+T 7JOD_I           41 AEPRA   45 (166)
+T ss_dssp             SSCCE
+T ss_pred             CCCCc
+
+
+No 9
+>4CK4_A BETA_LACTOGLOBULIN-1/B; TRANSPORT PROTEIN, OVINE-LACTOGLOBULIN, HIGH RESOLUTION; HET: SO4, ACT, NH4; 1.12A {OVIS ARIES}
+Probab=19.72  E-value=1e+02  Score=11.06  Aligned_cols=6  Identities=17%  Similarity=0.495  Sum_probs=0.0  Template_Neff=10.400
+
+Q QNQSCP            1 QNQSCP    6 (6)
+Q Consensus         1 qnqscp    6 (6)
+                      |+..|+
+T Consensus       156 ~~~~C~  161 (162)
+T 4CK4_A          156 LEGQCH  161 (162)
+T ss_dssp             HTSSTT
+T ss_pred             cCCCCC
+
+
+No 10
+>5CMP_A Leucine-rich repeat transmembrane protein FLRT3; LRR repeats, CELL ADHESION; HET: NAG; 2.601A {Homo sapiens}
+Probab=19.45  E-value=1.1e+02  Score=11.50  Aligned_cols=5  Identities=60%  Similarity=1.544  Sum_probs=0.0  Template_Neff=12.000
+
+Q QNQSCP            2 NQSCP    6 (6)
+Q Consensus         2 nqscp    6 (6)
+                      +++||
+T Consensus         4 ~~~c~    8 (333)
+T 5CMP_A            4 GKSCP    8 (333)
+T ss_dssp             -CCCC
+T ss_pred             CccCC
+
+

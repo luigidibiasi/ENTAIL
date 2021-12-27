@@ -1,0 +1,145 @@
+Query         SMVLFS
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 15:22:12 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/SMVLFS/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/SMVLFS/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4RVY_L Photosystem II protein   11.8 2.3E+02  0.0025   10.9   0.0    4    3-6      29-32  (37)
+  2 4V2T_P PLEUROTOLYSIN A, PLEURO  11.7 2.3E+02  0.0026   13.5   0.0    5    1-5     465-469 (474)
+  3 6YP7_L Chlorophyll a-b binding  11.2 2.4E+02  0.0027   10.8   0.0    4    3-6      29-32  (37)
+  4 5H2F_l Photosystem II protein   11.1 2.5E+02  0.0027   10.7   0.0    4    3-6      27-30  (35)
+  5 4C97_B CAS6A; HYDROLASE, CRISP  10.9 2.5E+02  0.0028   11.4   0.0    4    1-4       4-7   (243)
+  6 6YXY_Bh bL28m, uL29m, uL30m, b  10.3 2.8E+02   0.003   12.5   0.0    5    2-6       1-5   (92)
+  7 2L0T_B Ubiquitin, Signal trans  10.2 2.8E+02  0.0031   10.9   0.0    6    1-6       7-12  (163)
+  8 3HNQ_B Virulence protein STM31   9.6   3E+02  0.0034    9.1   0.0    5    2-6       1-5   (144)
+  9 7KAL_E Protein transport chann   9.6   3E+02  0.0034   13.2   0.0    6    1-6      19-24  (243)
+ 10 4C8Y_A CAS6A; RNA BINDING PROT   9.1 3.3E+02  0.0036   11.1   0.0    4    1-4       4-7   (243)
+
+No 1
+>4RVY_L Photosystem II protein D1 1; Photosystem II, Time resolved, Free; HET: CLA, SQD, OEX, PL9, HEM, BCR, PHO, LMG, DGD, LHG; 5.5A {Thermosynechococcus elongatus}
+Probab=11.78  E-value=2.3e+02  Score=10.92  Aligned_cols=4  Identities=75%  Similarity=1.248  Sum_probs=0.0  Template_Neff=2.200
+
+Q SMVLFS            3 VLFS    6 (6)
+Q Consensus         3 vlfs    6 (6)
+                      ||||
+T Consensus        29 vLFS   32 (37)
+T 4RVY_L           29 LLFS   32 (37)
+T ss_pred             HHhh
+
+
+No 2
+>4V2T_P PLEUROTOLYSIN A, PLEUROTOLYSIN B; TRANSPORT PROTEIN, MACPF/CDC SUPERFAMILY, PORE-FORMING; 11.0A {PLEUROTUS OSTREATUS}
+Probab=11.66  E-value=2.3e+02  Score=13.51  Aligned_cols=5  Identities=100%  Similarity=1.391  Sum_probs=0.0  Template_Neff=7.600
+
+Q SMVLFS            1 SMVLF    5 (6)
+Q Consensus         1 smvlf    5 (6)
+                      |||+|
+T Consensus       465 ~~~~~  469 (474)
+T 4V2T_P          465 SMVLF  469 (474)
+T ss_pred             ceEEe
+
+
+No 3
+>6YP7_L Chlorophyll a-b binding protein 8; Cryo-EM, photosystem II, High Light; HET: PL9, LHG, BCR, NEX, HEM, OEX, CLA, PHO, DGD, XAT, SQD, LUT, LMG, CHL;{Pisum sativum}
+Probab=11.24  E-value=2.4e+02  Score=10.85  Aligned_cols=4  Identities=100%  Similarity=1.381  Sum_probs=0.0  Template_Neff=2.200
+
+Q SMVLFS            3 VLFS    6 (6)
+Q Consensus         3 vlfs    6 (6)
+                      ||||
+T Consensus        29 vlFs   32 (37)
+T 6YP7_L           29 VLFS   32 (37)
+T ss_pred             HHhh
+
+
+No 4
+>5H2F_l Photosystem II protein D1 1; Photosynthesis, Photosystem II, Mutant, PsbM; HET: BCR, BCT, FME, PL9, DGD, RRX, LMT, OEX, PHO, HEM, LMG, SQD, HTG, LHG, DMS, HEC, UNL, CLA; 2.2A {Thermosynechococcus elongatus (strain BP-1)}
+Probab=11.15  E-value=2.5e+02  Score=10.73  Aligned_cols=4  Identities=75%  Similarity=1.248  Sum_probs=0.0  Template_Neff=2.200
+
+Q SMVLFS            3 VLFS    6 (6)
+Q Consensus         3 vlfs    6 (6)
+                      ||||
+T Consensus        27 vLFs   30 (35)
+T 5H2F_l           27 LLFS   30 (35)
+T ss_pred             HHhh
+
+
+No 5
+>4C97_B CAS6A; HYDROLASE, CRISPR CAS PROTEIN RNA; HET: SO4; 1.7A {THERMUS THERMOPHILUS HB8}
+Probab=10.90  E-value=2.5e+02  Score=11.40  Aligned_cols=4  Identities=100%  Similarity=1.157  Sum_probs=0.0  Template_Neff=9.200
+
+Q SMVLFS            1 SMVL    4 (6)
+Q Consensus         1 smvl    4 (6)
+                      ||||
+T Consensus         4 ~~~~    7 (243)
+T 4C97_B            4 SMVL    7 (243)
+T ss_dssp             CCEE
+T ss_pred             HHHH
+
+
+No 6
+>6YXY_Bh bL28m, uL29m, uL30m, bL32m, bL35m; mitoribosome, assembly, LSU, RIBOSOME; HET: ATP, PM8, MG, SPD, NAD, GTP; 3.1A {Trypanosoma brucei brucei}
+Probab=10.30  E-value=2.8e+02  Score=12.47  Aligned_cols=5  Identities=80%  Similarity=1.172  Sum_probs=0.0  Template_Neff=1.400
+
+Q SMVLFS            2 MVLFS    6 (6)
+Q Consensus         2 mvlfs    6 (6)
+                      |.+||
+T Consensus         1 maifs    5 (92)
+T 6YXY_Bh           1 MALFS    5 (92)
+T ss_pred             Cccee
+
+
+No 7
+>2L0T_B Ubiquitin, Signal transducing adapter molecule; ubiquitin, VHS, Stam2, endosome, transport; NMR {Homo sapiens}
+Probab=10.18  E-value=2.8e+02  Score=10.92  Aligned_cols=6  Identities=50%  Similarity=0.855  Sum_probs=0.0  Template_Neff=8.500
+
+Q SMVLFS            1 SMVLFS    6 (6)
+Q Consensus         1 smvlfs    6 (6)
+                      +|-+|+
+T Consensus         7 ~m~~f~   12 (163)
+T 2L0T_B            7 GMPLFT   12 (163)
+T ss_dssp             CCCCCC
+T ss_pred             CCcccC
+
+
+No 8
+>3HNQ_B Virulence protein STM3117; Virulence protein STM3117, Salmonella typhimurium; HET: MSE; 2.1A {Salmonella enterica subsp. enterica serovar Typhimurium}
+Probab=9.60  E-value=3e+02  Score=9.14  Aligned_cols=5  Identities=40%  Similarity=1.065  Sum_probs=0.0  Template_Neff=11.500
+
+Q SMVLFS            2 MVLFS    6 (6)
+Q Consensus         2 mvlfs    6 (6)
+                      |++|+
+T Consensus         1 ~~~~~    5 (144)
+T 3HNQ_B            1 MLFFN    5 (144)
+T ss_dssp             -----
+T ss_pred             Ccccc
+
+
+No 9
+>7KAL_E Protein transport channel Sec61 complex; Sec61, translocon, endoplasmic reticulum, protein;{Thermomyces lanuginosus}
+Probab=9.58  E-value=3e+02  Score=13.19  Aligned_cols=6  Identities=33%  Similarity=0.606  Sum_probs=0.0  Template_Neff=4.800
+
+Q SMVLFS            1 SMVLFS    6 (6)
+Q Consensus         1 smvlfs    6 (6)
+                      ||+.||
+T Consensus        19 sl~~FS   24 (243)
+T 7KAL_E           19 CLATFS   24 (243)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 10
+>4C8Y_A CAS6A; RNA BINDING PROTEIN-RNA COMPLEX, CRISPR; HET: SO4; 1.8A {THERMUS THERMOPHILUS}
+Probab=9.12  E-value=3.3e+02  Score=11.06  Aligned_cols=4  Identities=100%  Similarity=1.157  Sum_probs=0.0  Template_Neff=9.300
+
+Q SMVLFS            1 SMVL    4 (6)
+Q Consensus         1 smvl    4 (6)
+                      ||||
+T Consensus         4 ~~~~    7 (243)
+T 4C8Y_A            4 SMVL    7 (243)
+T ss_dssp             -CEE
+T ss_pred             HHHH
+
+

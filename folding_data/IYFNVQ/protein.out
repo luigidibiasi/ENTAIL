@@ -1,0 +1,149 @@
+Query         IYFNVQ
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 09:57:31 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/IYFNVQ/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/IYFNVQ/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3LKU_E UPF0363 protein YOR164C  37.5      31 0.00035   15.1   0.0    6    1-6     279-284 (292)
+  2 2WPV_A UPF0363 PROTEIN YOR164C  32.3      43 0.00048   15.0   0.0    6    1-6     287-292 (312)
+  3 3LPZ_A Get4 (YOR164C homolog);  31.0      47 0.00052   15.2   0.0    6    1-6     291-296 (336)
+  4 6AU8_A Golgi to ER traffic pro  30.0      50 0.00055   14.5   0.0    6    1-6     260-265 (283)
+  5 6ZU5_LU0 uL2, uL15, uL3, eL29,  19.7 1.1E+02  0.0012   13.1   0.0    5    2-6     105-109 (114)
+  6 5UK3_I Uncharacterized protein  19.6 1.1E+02  0.0012   11.9   0.0    4    1-4     164-167 (176)
+  7 4V88_BU Translation, ribosome,  19.5 1.1E+02  0.0012   13.2   0.0    5    2-6     107-111 (121)
+  8 5XY3_U Ribosomal protein L8, p  19.4 1.1E+02  0.0012   12.9   0.0    5    2-6     100-104 (106)
+  9 4V8P_DM Ribosome; RIBOSOME, EU  19.4 1.1E+02  0.0012   13.1   0.0    5    2-6     109-113 (118)
+ 10 5XXB_T uL2, uL3, uL4, uL18, eL  19.0 1.1E+02  0.0012   13.5   0.0    5    2-6     122-126 (133)
+
+No 1
+>3LKU_E UPF0363 protein YOR164C, Ubiquitin-like protein; ALPHA HELICAL REPEAT, TPR-LIKE, PROTEIN; HET: PRO; 2.8A {Saccharomyces cerevisiae}
+Probab=37.48  E-value=31  Score=15.11  Aligned_cols=6  Identities=50%  Similarity=0.971  Sum_probs=4.0  Template_Neff=7.700
+
+Q IYFNVQ            1 IYFNVQ    6 (6)
+Q Consensus         1 iyfnvq    6 (6)
+                      +|||++
+T Consensus       279 ~yF~i~  284 (292)
+T 3LKU_E          279 EYFNIV  284 (292)
+T ss_dssp             HHHCCC
+T ss_pred             HHhCCC
+Confidence            578764
+
+
+No 2
+>2WPV_A UPF0363 PROTEIN YOR164C, UBIQUITIN-LIKE PROTEIN; GOLGI-ER TRAFFICKING, TAIL-ANCHORED PROTEIN, PROTEIN; 1.99A {SACCHAROMYCES CEREVISIAE}
+Probab=32.34  E-value=43  Score=15.00  Aligned_cols=6  Identities=50%  Similarity=0.971  Sum_probs=3.7  Template_Neff=7.400
+
+Q IYFNVQ            1 IYFNVQ    6 (6)
+Q Consensus         1 iyfnvq    6 (6)
+                      +|||++
+T Consensus       287 ~yFgi~  292 (312)
+T 2WPV_A          287 EYFNIV  292 (312)
+T ss_dssp             HHHCCC
+T ss_pred             HHcCCC
+Confidence            477764
+
+
+No 3
+>3LPZ_A Get4 (YOR164C homolog); Protein targeting, tail-anchored protein biogenesis; 1.98A {Chaetomium thermophilum}
+Probab=31.03  E-value=47  Score=15.20  Aligned_cols=6  Identities=50%  Similarity=1.303  Sum_probs=3.7  Template_Neff=7.100
+
+Q IYFNVQ            1 IYFNVQ    6 (6)
+Q Consensus         1 iyfnvq    6 (6)
+                      +||+++
+T Consensus       291 ~yFgi~  296 (336)
+T 3LPZ_A          291 MYFGIQ  296 (336)
+T ss_dssp             HHHCCC
+T ss_pred             HHhCCC
+Confidence            477764
+
+
+No 4
+>6AU8_A Golgi to ER traffic protein; TRC Pathway Complex, CHAPERONE; HET: GOL; 1.8A {Homo sapiens}
+Probab=30.02  E-value=50  Score=14.51  Aligned_cols=6  Identities=33%  Similarity=1.027  Sum_probs=3.7  Template_Neff=7.600
+
+Q IYFNVQ            1 IYFNVQ    6 (6)
+Q Consensus         1 iyfnvq    6 (6)
+                      +||+++
+T Consensus       260 ~yFgi~  265 (283)
+T 6AU8_A          260 LFFGVP  265 (283)
+T ss_dssp             HHHCCC
+T ss_pred             HHhCCC
+Confidence            477764
+
+
+No 5
+>6ZU5_LU0 uL2, uL15, uL3, eL29, uL4; Microsporidia, Pathogen, Ribosome, Hibernation, Genome; HET: AMP, MG; 2.9A {Paranosema locustae}
+Probab=19.69  E-value=1.1e+02  Score=13.07  Aligned_cols=5  Identities=40%  Similarity=1.006  Sum_probs=0.0  Template_Neff=5.000
+
+Q IYFNVQ            2 YFNVQ    6 (6)
+Q Consensus         2 yfnvq    6 (6)
+                      |||++
+T Consensus       105 Yfni~  109 (114)
+T 6ZU5_LU0        105 YYRVV  109 (114)
+T ss_pred             EEEee
+
+
+No 6
+>5UK3_I Uncharacterized protein; Tetranychus urticae, cyanase, agricultural pest; 2.8A {Tetranychus urticae}
+Probab=19.61  E-value=1.1e+02  Score=11.90  Aligned_cols=4  Identities=50%  Similarity=1.522  Sum_probs=0.0  Template_Neff=9.100
+
+Q IYFNVQ            1 IYFN    4 (6)
+Q Consensus         1 iyfn    4 (6)
+                      +|||
+T Consensus       164 ~~~~  167 (176)
+T 5UK3_I          164 LYFQ  167 (176)
+T ss_dssp             ----
+T ss_pred             ceec
+
+
+No 7
+>4V88_BU Translation, ribosome, 40S, 60S, 80S; HET: MG, ZN, OHX; 3.0A {Saccharomyces cerevisiae}
+Probab=19.46  E-value=1.1e+02  Score=13.16  Aligned_cols=5  Identities=20%  Similarity=0.952  Sum_probs=0.0  Template_Neff=5.000
+
+Q IYFNVQ            2 YFNVQ    6 (6)
+Q Consensus         2 yfnvq    6 (6)
+                      |||++
+T Consensus       107 Yfni~  111 (121)
+T 4V88_BU         107 FYQVT  111 (121)
+T ss_pred             eeecC
+
+
+No 8
+>5XY3_U Ribosomal protein L8, putative, Uncharacterized; Trichomonas vaginalis ribosome, rRNA, rprotein; 3.2A {Trichomonas vaginalis}
+Probab=19.41  E-value=1.1e+02  Score=12.90  Aligned_cols=5  Identities=20%  Similarity=0.394  Sum_probs=0.0  Template_Neff=5.000
+
+Q IYFNVQ            2 YFNVQ    6 (6)
+Q Consensus         2 yfnvq    6 (6)
+                      |||++
+T Consensus       100 Yfni~  104 (106)
+T 5XY3_U          100 PYRVS  104 (106)
+T ss_pred             eeEec
+
+
+No 9
+>4V8P_DM Ribosome; RIBOSOME, EUKARYOTIC INITIATION FACTOR 6; HET: MG, ZN; 3.52A {TETRAHYMENA THERMOPHILA}
+Probab=19.39  E-value=1.1e+02  Score=13.06  Aligned_cols=5  Identities=80%  Similarity=1.623  Sum_probs=0.0  Template_Neff=5.100
+
+Q IYFNVQ            2 YFNVQ    6 (6)
+Q Consensus         2 yfnvq    6 (6)
+                      |||++
+T Consensus       109 Yfni~  113 (118)
+T 4V8P_DM         109 YFNIQ  113 (118)
+T ss_pred             Eeeec
+
+
+No 10
+>5XXB_T uL2, uL3, uL4, uL18, eL6; parasitic ribosome, rRNA, rproteins, RIBOSOME; 3.17A {Toxoplasma gondii}
+Probab=19.00  E-value=1.1e+02  Score=13.47  Aligned_cols=5  Identities=40%  Similarity=1.125  Sum_probs=0.0  Template_Neff=4.600
+
+Q IYFNVQ            2 YFNVQ    6 (6)
+Q Consensus         2 yfnvq    6 (6)
+                      |||++
+T Consensus       122 Yfni~  126 (133)
+T 5XXB_T          122 YFQMP  126 (133)
+T ss_pred             eeecC
+
+

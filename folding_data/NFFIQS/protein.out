@@ -1,0 +1,155 @@
+Query         NFFIQS
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 23:24:25 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NFFIQS/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NFFIQS/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6YP6_A NanS-p; Carbohydrate bi  37.2      32 0.00035   16.4   0.0    6    1-6     116-121 (218)
+  2 1QSS_A PROTEIN-DNA COMPLEX, CL  29.6      51 0.00057   14.9   0.0    6    1-6     458-463 (539)
+  3 4DQQ_A DNA polymerase (E.C.2.7  24.8      71 0.00079   14.4   0.0    6    1-6     509-514 (592)
+  4 4YFU_D DNA polymerase I from G  23.0      81  0.0009   14.1   0.0    6    1-6     497-502 (580)
+  5 1UA0_A DNA polymerase I (E.C.2  22.8      82 0.00091   14.1   0.0    6    1-6     497-502 (580)
+  6 5JHE_A Peptidyl-prolyl cis-tra  18.4 1.2E+02  0.0013   12.3   0.0    6    1-6      72-77  (397)
+  7 6VDD_A DNA polymerase I/DNA Co  18.2 1.2E+02  0.0013   13.7   0.0    6    1-6     521-526 (605)
+  8 1KFS_A DNA POLYMERASE I KLENOW  17.6 1.3E+02  0.0014   13.4   0.0    6    1-6     522-527 (605)
+  9 6XBU_A DNA polymerase theta/DN  17.0 1.3E+02  0.0015   13.9   0.0    6    1-6     541-546 (652)
+ 10 3FCY_C Crystal Structure Analy  16.9 1.3E+02  0.0015   12.1   0.0    5    1-5      20-24  (346)
+
+No 1
+>6YP6_A NanS-p; Carbohydrate binding protein, SUGAR BINDING; HET: GOL; 0.97A {Escherichia phage vB_EcoP_24B}
+Probab=37.16  E-value=32  Score=16.42  Aligned_cols=6  Identities=50%  Similarity=1.110  Sum_probs=4.1  Template_Neff=3.800
+
+Q NFFIQS            1 NFFIQS    6 (6)
+Q Consensus         1 nffiqs    6 (6)
+                      +||||.
+T Consensus       116 sFfiQT  121 (218)
+T 6YP6_A          116 AFYIQT  121 (218)
+T ss_dssp             EEEEEE
+T ss_pred             EEEEEE
+Confidence            478874
+
+
+No 2
+>1QSS_A PROTEIN-DNA COMPLEX, CLOSED, Polymerase/DNA, Transferase-DNA; HET: DDG, DG3; 2.3A {Thermus aquaticus} SCOP: c.55.3.5, e.8.1.1
+Probab=29.55  E-value=51  Score=14.86  Aligned_cols=6  Identities=33%  Similarity=0.434  Sum_probs=3.3  Template_Neff=9.200
+
+Q NFFIQS            1 NFFIQS    6 (6)
+Q Consensus         1 nffiqs    6 (6)
+                      |+.|||
+T Consensus       458 N~~iQg  463 (539)
+T 1QSS_A          458 NMPVQG  463 (539)
+T ss_dssp             HHHHHH
+T ss_pred             cCCCch
+Confidence            455664
+
+
+No 3
+>4DQQ_A DNA polymerase (E.C.2.7.7.7)/DNA; DNA Polymerase I, protein-DNA complex; HET: MPD, CTP, MES, SO4, DOC; 1.595A {Geobacillus kaustophilus}
+Probab=24.77  E-value=71  Score=14.40  Aligned_cols=6  Identities=50%  Similarity=0.274  Sum_probs=3.1  Template_Neff=9.600
+
+Q NFFIQS            1 NFFIQS    6 (6)
+Q Consensus         1 nffiqs    6 (6)
+                      |+.||+
+T Consensus       509 N~~iQg  514 (592)
+T 4DQQ_A          509 NTPIQG  514 (592)
+T ss_dssp             HHHHHH
+T ss_pred             hccccc
+Confidence            455553
+
+
+No 4
+>4YFU_D DNA polymerase I from Geobacillus; protein-DNA complex, Transferase-DNA complex; HET: FRU, TTP, CME, GLC, 2DT; 1.5A {Geobacillus stearothermophilus}
+Probab=22.96  E-value=81  Score=14.14  Aligned_cols=6  Identities=50%  Similarity=0.274  Sum_probs=3.0  Template_Neff=9.700
+
+Q NFFIQS            1 NFFIQS    6 (6)
+Q Consensus         1 nffiqs    6 (6)
+                      |+.||+
+T Consensus       497 N~~iQg  502 (580)
+T 4YFU_D          497 NTPIQG  502 (580)
+T ss_dssp             HHHHHH
+T ss_pred             hcccch
+Confidence            455553
+
+
+No 5
+>1UA0_A DNA polymerase I (E.C.2.7.7.7)/DNA Complex; DNA polymerase I  DNA; HET: AF, SO4, GLC, FRU; 2.1A {Geobacillus stearothermophilus} SCOP: e.8.1.1, c.55.3.5
+Probab=22.77  E-value=82  Score=14.12  Aligned_cols=6  Identities=50%  Similarity=0.274  Sum_probs=2.9  Template_Neff=9.700
+
+Q NFFIQS            1 NFFIQS    6 (6)
+Q Consensus         1 nffiqs    6 (6)
+                      |+.||+
+T Consensus       497 N~~iQg  502 (580)
+T 1UA0_A          497 NTPIQG  502 (580)
+T ss_dssp             HHHHHH
+T ss_pred             hcCCch
+Confidence            445553
+
+
+No 6
+>5JHE_A Peptidyl-prolyl cis-trans isomerase CYP7 (E.C.5.2.1.8); cochaperone, CHAPERONE; 1.8A {Saccharomyces cerevisiae S288c}
+Probab=18.43  E-value=1.2e+02  Score=12.33  Aligned_cols=6  Identities=67%  Similarity=1.121  Sum_probs=0.0  Template_Neff=10.900
+
+Q NFFIQS            1 NFFIQS    6 (6)
+Q Consensus         1 nffiqs    6 (6)
+                      ||+||.
+T Consensus        72 ~~~~q~   77 (397)
+T 5JHE_A           72 NFMIQA   77 (397)
+T ss_dssp             TTEEEE
+T ss_pred             CeEEEc
+
+
+No 7
+>6VDD_A DNA polymerase I/DNA Complex; mycobacteria, DNA polymerase, apoenzyme, TRANSFERASE-DNA; HET: DCT; 1.9A {Mycolicibacterium smegmatis}
+Probab=18.24  E-value=1.2e+02  Score=13.75  Aligned_cols=6  Identities=50%  Similarity=0.268  Sum_probs=0.0  Template_Neff=9.700
+
+Q NFFIQS            1 NFFIQS    6 (6)
+Q Consensus         1 nffiqs    6 (6)
+                      |+.||+
+T Consensus       521 N~~iQg  526 (605)
+T 6VDD_A          521 NAPIQG  526 (605)
+T ss_dssp             HHHHHH
+T ss_pred             hcCCch
+
+
+No 8
+>1KFS_A DNA POLYMERASE I KLENOW FRAGMENT; COMPLEX (HYDROLASE-DNA), EXONUCLEASE, PHOSPHOROTHIOATE, TRANSFERASE-DNA; 2.1A {Escherichia coli} SCOP: c.55.3.5, e.8.1.1
+Probab=17.61  E-value=1.3e+02  Score=13.41  Aligned_cols=6  Identities=33%  Similarity=0.185  Sum_probs=0.0  Template_Neff=10.200
+
+Q NFFIQS            1 NFFIQS    6 (6)
+Q Consensus         1 nffiqs    6 (6)
+                      |+.||+
+T Consensus       522 n~~~Qg  527 (605)
+T 1KFS_A          522 NAPMQG  527 (605)
+T ss_dssp             HHHHHH
+T ss_pred             hhccch
+
+
+No 9
+>6XBU_A DNA polymerase theta/DNA/RNA Complex; Replication, DNA BINDING PROTEIN, DNA; HET: DG3; 3.29A {Homo sapiens}
+Probab=17.01  E-value=1.3e+02  Score=13.86  Aligned_cols=6  Identities=33%  Similarity=0.490  Sum_probs=0.0  Template_Neff=9.500
+
+Q NFFIQS            1 NFFIQS    6 (6)
+Q Consensus         1 nffiqs    6 (6)
+                      |+.||+
+T Consensus       541 N~~iQg  546 (652)
+T 6XBU_A          541 NTIVQG  546 (652)
+T ss_dssp             HHHHHT
+T ss_pred             HHHhHh
+
+
+No 10
+>3FCY_C Crystal Structure Analysis of Acetyl; alpha/beta hydrolase, carbohydrate esterase, CE7; 2.1A {Thermoanaerobacterium sp. 'JW/SL YS485'}
+Probab=16.89  E-value=1.3e+02  Score=12.08  Aligned_cols=5  Identities=40%  Similarity=0.972  Sum_probs=0.0  Template_Neff=10.600
+
+Q NFFIQS            1 NFFIQ    5 (6)
+Q Consensus         1 nffiq    5 (6)
+                      ||+++
+T Consensus        20 ~~~~~   24 (346)
+T 3FCY_C           20 NLYFQ   24 (346)
+T ss_dssp             -----
+T ss_pred             cceec
+
+

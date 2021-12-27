@@ -1,0 +1,190 @@
+Query         LEFWLQ
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 17:56:03 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LEFWLQ/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LEFWLQ/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6MCJ_B Putative orange caroten  40.4      26 0.00029   15.7   0.0    6    1-6      94-99  (163)
+  2 4XB4_B Orange Carotenoid Prote  38.5      30 0.00033   15.5   0.0    6    1-6      88-93  (152)
+  3 5FCX_A Red carotenoid protein   36.4      33 0.00037   15.6   0.0    6    1-6     100-105 (170)
+  4 5UI2_A Orange carotenoid-bindi  36.4      34 0.00037   15.5   0.0    6    1-6     107-112 (317)
+  5 6T6K_A 14-3-3 protein sigma,He  34.4      38 0.00042   15.9   0.0    6    1-6     122-127 (332)
+  6 5FCY_A Red carotenoid protein   34.1      38 0.00043   15.4   0.0    6    1-6      99-104 (169)
+  7 6T6M_A 14-3-3 protein sigma,He  33.4      40 0.00045   15.6   0.0    6    1-6     122-127 (332)
+  8 6SY2_A Transcription activator  30.5      48 0.00054   11.8   0.0    6    1-6      30-35  (49)
+  9 2V0E_A CHROMODOMAIN-HELICASE-D  29.2      53 0.00058   12.0   0.0    6    1-6      32-37  (55)
+ 10 7KZP_C Fanconi anemia group A   28.6      55  0.0006   17.7   0.0    6    1-6      37-42  (583)
+ 11 7KZS_C Fanconi anemia group A   28.6      55  0.0006   17.7   0.0    6    1-6      37-42  (583)
+ 12 6FHN_A protein; endo-xanthanas  22.2      86 0.00095   17.0   0.0    6    1-6     787-792 (1009)
+
+No 1
+>6MCJ_B Putative orange carotenoid-binding protein; PHOTOPROTECTION, CAROTENOID BINDING PROTEIN, PROTEIN; HET: 45D, 1PE; 1.712A {Tolypothrix sp. PCC 7601}
+Probab=40.40  E-value=26  Score=15.73  Aligned_cols=6  Identities=67%  Similarity=1.348  Sum_probs=3.9  Template_Neff=4.600
+
+Q LEFWLQ            1 LEFWLQ    6 (6)
+Q Consensus         1 lefwlq    6 (6)
+                      |.||.+
+T Consensus        94 LaFWY~   99 (163)
+T 6MCJ_B           94 LEVWLL   99 (163)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            568864
+
+
+No 2
+>4XB4_B Orange Carotenoid Protein; photoprotection, Carotenoid binding protein; HET: 45D; 1.544A {Synechocystis sp.}
+Probab=38.46  E-value=30  Score=15.48  Aligned_cols=6  Identities=50%  Similarity=1.436  Sum_probs=3.8  Template_Neff=4.500
+
+Q LEFWLQ            1 LEFWLQ    6 (6)
+Q Consensus         1 lefwlq    6 (6)
+                      |.||.+
+T Consensus        88 LaFWY~   93 (152)
+T 4XB4_B           88 LGFWYR   93 (152)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            567864
+
+
+No 3
+>5FCX_A Red carotenoid protein (RCP); carotenoid, photoprotection, cyanobacteria, CARTENOID BINDING; HET: 45D; 3.206A {Nostoc sp.}
+Probab=36.39  E-value=33  Score=15.60  Aligned_cols=6  Identities=50%  Similarity=1.154  Sum_probs=3.9  Template_Neff=4.400
+
+Q LEFWLQ            1 LEFWLQ    6 (6)
+Q Consensus         1 lefwlq    6 (6)
+                      |.||.+
+T Consensus       100 LaFWY~  105 (170)
+T 5FCX_A          100 LLFWYL  105 (170)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            567864
+
+
+No 4
+>5UI2_A Orange carotenoid-binding protein; CAROTENOID BINDING PROTEIN; HET: SUC, EQ3; 2.1A {Arthrospira maxima}
+Probab=36.35  E-value=34  Score=15.52  Aligned_cols=6  Identities=50%  Similarity=1.448  Sum_probs=3.8  Template_Neff=7.100
+
+Q LEFWLQ            1 LEFWLQ    6 (6)
+Q Consensus         1 lefwlq    6 (6)
+                      |.||.+
+T Consensus       107 l~fwy~  112 (317)
+T 5UI2_A          107 LGFWYE  112 (317)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            567864
+
+
+No 5
+>6T6K_A 14-3-3 protein sigma,Heat shock protein; orange carotenoid protein, photoactive protein; HET: HIS, ECH, GLY; 1.37A {Synechocystis sp. (strain PCC 6803 / Kazusa)}
+Probab=34.41  E-value=38  Score=15.88  Aligned_cols=6  Identities=50%  Similarity=1.436  Sum_probs=3.9  Template_Neff=6.300
+
+Q LEFWLQ            1 LEFWLQ    6 (6)
+Q Consensus         1 lefwlq    6 (6)
+                      |.||.+
+T Consensus       122 l~fWy~  127 (332)
+T 6T6K_A          122 LGFWYR  127 (332)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            568864
+
+
+No 6
+>5FCY_A Red carotenoid protein (RCP); carotenoid, photoprotection, cyanobacteria, CARTENOID BINDING; HET: BCR; 2.508A {Nostoc sp. (strain PCC 7120 / UTEX 2576)}
+Probab=34.13  E-value=38  Score=15.40  Aligned_cols=6  Identities=50%  Similarity=1.154  Sum_probs=3.8  Template_Neff=4.400
+
+Q LEFWLQ            1 LEFWLQ    6 (6)
+Q Consensus         1 lefwlq    6 (6)
+                      |.||.+
+T Consensus        99 LaFWY~  104 (169)
+T 5FCY_A           99 LLFWYL  104 (169)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            567864
+
+
+No 7
+>6T6M_A 14-3-3 protein sigma,Heat shock protein; orange carotenoid protein, photoactive protein; HET: ECH, HIS; 1.49A {Synechocystis sp. PCC 6803}
+Probab=33.35  E-value=40  Score=15.58  Aligned_cols=6  Identities=50%  Similarity=1.436  Sum_probs=3.8  Template_Neff=6.700
+
+Q LEFWLQ            1 LEFWLQ    6 (6)
+Q Consensus         1 lefwlq    6 (6)
+                      |.||.+
+T Consensus       122 l~fWy~  127 (332)
+T 6T6M_A          122 LGFWYR  127 (332)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            567864
+
+
+No 8
+>6SY2_A Transcription activator BRG1; BRG1, BRK domain, SWI/SNF, chromatin; NMR {Homo sapiens}
+Probab=30.46  E-value=48  Score=11.84  Aligned_cols=6  Identities=67%  Similarity=1.398  Sum_probs=3.3  Template_Neff=6.000
+
+Q LEFWLQ            1 LEFWLQ    6 (6)
+Q Consensus         1 lefwlq    6 (6)
+                      |+-||+
+T Consensus        30 L~~WL~   35 (49)
+T 6SY2_A           30 LEAWLE   35 (49)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            355764
+
+
+No 9
+>2V0E_A CHROMODOMAIN-HELICASE-DNA-BINDING PROTEIN 7 (E.C.3.6.1.-); NUCLEOTIDE-BINDING, CHROMATIN REGULATOR, CHARGE SYNDROME; NMR {HOMO SAPIENS} SCOP: d.76.2.1
+Probab=29.18  E-value=53  Score=12.03  Aligned_cols=6  Identities=50%  Similarity=0.994  Sum_probs=3.2  Template_Neff=5.900
+
+Q LEFWLQ            1 LEFWLQ    6 (6)
+Q Consensus         1 lefwlq    6 (6)
+                      |+-||+
+T Consensus        32 L~~WL~   37 (55)
+T 2V0E_A           32 LVEWLK   37 (55)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            345764
+
+
+No 10
+>7KZP_C Fanconi anemia group A protein; Complex, LIGASE; 3.1A {Homo sapiens}
+Probab=28.62  E-value=55  Score=17.72  Aligned_cols=6  Identities=50%  Similarity=1.575  Sum_probs=4.2  Template_Neff=3.600
+
+Q LEFWLQ            1 LEFWLQ    6 (6)
+Q Consensus         1 lefwlq    6 (6)
+                      ++|||+
+T Consensus        37 ~qfWLd   42 (583)
+T 7KZP_C           37 YQFWMQ   42 (583)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            478875
+
+
+No 11
+>7KZS_C Fanconi anemia group A protein; Complex, LIGASE, LIGASE-DNA complex; 4.2A {Homo sapiens}
+Probab=28.62  E-value=55  Score=17.72  Aligned_cols=6  Identities=50%  Similarity=1.575  Sum_probs=4.2  Template_Neff=3.600
+
+Q LEFWLQ            1 LEFWLQ    6 (6)
+Q Consensus         1 lefwlq    6 (6)
+                      ++|||+
+T Consensus        37 ~qfWLd   42 (583)
+T 7KZS_C           37 YQFWMQ   42 (583)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            478875
+
+
+No 12
+>6FHN_A protein; endo-xanthanase, xanthan degradation, novel CBM; HET: B3P; 2.0A {Paenibacillus sp.}
+Probab=22.20  E-value=86  Score=16.99  Aligned_cols=6  Identities=50%  Similarity=1.381  Sum_probs=4.2  Template_Neff=6.200
+
+Q LEFWLQ            1 LEFWLQ    6 (6)
+Q Consensus         1 lefwlq    6 (6)
+                      |+|||+
+T Consensus       787 ~~~~~~  792 (1009)
+T 6FHN_A          787 IEVWLS  792 (1009)
+T ss_dssp             EEEEEE
+T ss_pred             EEEEEe
+Confidence            578874
+
+

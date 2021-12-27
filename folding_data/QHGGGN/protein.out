@@ -1,0 +1,144 @@
+Query         QHGGGN
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 08:10:18 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QHGGGN/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QHGGGN/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4XT3_B US28, CX3CL1; GPCR, che  53.2      12 0.00013   14.5   0.0    6    1-6       1-6   (91)
+  2 5MMI_C 50S ribosomal protein L  19.9   1E+02  0.0011   14.1   0.0    5    2-6     228-232 (272)
+  3 6XYW_Ab 60S ribosomal protein   19.4 1.1E+02  0.0012   14.3   0.0    5    2-6     166-170 (214)
+  4 6S0Z_C 50S ribosomal protein L  19.0 1.1E+02  0.0012   14.1   0.0    5    2-6     231-235 (274)
+  5 2APL_A hypothetical protein PG  18.9 1.1E+02  0.0012   13.7   0.0    6    1-6     149-154 (157)
+  6 3G4S_A PROTEIN/RNA Complex; la  18.7 1.1E+02  0.0013   13.8   0.0    5    2-6     201-205 (237)
+  7 1VQO_A 50S RIBOSOMAL SUBUNIT;   18.7 1.1E+02  0.0013   13.8   0.0    5    2-6     202-206 (240)
+  8 4V4G_FD Ribosome; 30S RIBOSOMA  18.6 1.1E+02  0.0013   14.0   0.0    5    2-6     230-234 (270)
+  9 6ERI_AC 50S ribosomal protein   18.6 1.1E+02  0.0013   13.8   0.0    5    2-6     203-207 (246)
+ 10 6DZI_C CONSERVED PROTEIN DOMAI  18.3 1.2E+02  0.0013   14.1   0.0    5    2-6     232-236 (275)
+
+No 1
+>4XT3_B US28, CX3CL1; GPCR, chemokine, membrane protein, complex; HET: NAG; 3.801A {Cytomegalovirus}
+Probab=53.18  E-value=12  Score=14.54  Aligned_cols=6  Identities=33%  Similarity=0.467  Sum_probs=4.1  Template_Neff=6.400
+
+Q QHGGGN            1 QHGGGN    6 (6)
+Q Consensus         1 qhgggn    6 (6)
+                      ||+|+|
+T Consensus         1 ~~~~~~    6 (91)
+T 4XT3_B            1 XHHGVT    6 (91)
+T ss_dssp             CCSSSC
+T ss_pred             CCCCCc
+Confidence            677765
+
+
+No 2
+>5MMI_C 50S ribosomal protein L31, 50S; chloroplast, translation, ribosome, cryo-EM; HET: MG; 3.25A {Spinacia oleracea}
+Probab=19.90  E-value=1e+02  Score=14.11  Aligned_cols=5  Identities=80%  Similarity=1.777  Sum_probs=0.0  Template_Neff=6.400
+
+Q QHGGGN            2 HGGGN    6 (6)
+Q Consensus         2 hgggn    6 (6)
+                      ||||+
+T Consensus       228 hGGG~  232 (272)
+T 5MMI_C          228 HGGGE  232 (272)
+T ss_pred             CCCCC
+
+
+No 3
+>6XYW_Ab 60S ribosomal protein L2, mitochondrial; Ribosome, Mitochondria, Plant; 3.86A {Arabidopsis thaliana}
+Probab=19.43  E-value=1.1e+02  Score=14.34  Aligned_cols=5  Identities=80%  Similarity=1.777  Sum_probs=0.0  Template_Neff=4.800
+
+Q QHGGGN            2 HGGGN    6 (6)
+Q Consensus         2 hgggn    6 (6)
+                      ||||+
+T Consensus       166 HGGGe  170 (214)
+T 6XYW_Ab         166 HGGGE  170 (214)
+T ss_pred             CCCCC
+
+
+No 4
+>6S0Z_C 50S ribosomal protein L2, 50S; Ribosome, antibiotics, resistance, Staphylococcus aureus; HET: ERY; 2.3A {Staphylococcus aureus}
+Probab=18.97  E-value=1.1e+02  Score=14.08  Aligned_cols=5  Identities=80%  Similarity=1.777  Sum_probs=0.0  Template_Neff=6.300
+
+Q QHGGGN            2 HGGGN    6 (6)
+Q Consensus         2 hgggn    6 (6)
+                      ||||+
+T Consensus       231 hGGg~  235 (274)
+T 6S0Z_C          231 HGGGE  235 (274)
+T ss_dssp             TCCCS
+T ss_pred             CCCCC
+
+
+No 5
+>2APL_A hypothetical protein PG0816; Structural genomics, Porphyromonas gingivalis, PSI; 2.01A {Porphyromonas gingivalis} SCOP: a.258.1.1
+Probab=18.93  E-value=1.1e+02  Score=13.74  Aligned_cols=6  Identities=67%  Similarity=1.188  Sum_probs=0.0  Template_Neff=4.700
+
+Q QHGGGN            1 QHGGGN    6 (6)
+Q Consensus         1 qhgggn    6 (6)
+                      +-||||
+T Consensus       149 ~~~~~~  154 (157)
+T 2APL_A          149 TIGGGN  154 (157)
+T ss_dssp             CC----
+T ss_pred             CCCCCc
+
+
+No 6
+>3G4S_A PROTEIN/RNA Complex; large ribosomal subunit, tiamulin, Haloarcula; HET: 1MA, OMU, CL, OMG, PSU, NA, MG, SR, MUL, UR3; 3.2A {Haloarcula marismortui}
+Probab=18.73  E-value=1.1e+02  Score=13.77  Aligned_cols=5  Identities=60%  Similarity=1.338  Sum_probs=0.0  Template_Neff=6.300
+
+Q QHGGGN            2 HGGGN    6 (6)
+Q Consensus         2 hgggn    6 (6)
+                      ||||+
+T Consensus       201 hGGg~  205 (237)
+T 3G4S_A          201 FGGGG  205 (237)
+T ss_pred             CCCCC
+
+
+No 7
+>1VQO_A 50S RIBOSOMAL SUBUNIT; ribosome 50S, PROTEIN-PROTEIN COMPLEX, RNA-RNA; HET: UR3, PSU, SR, OMU, NA, 1MA, OMG, MG, CL, PPU; 2.2A {Haloarcula marismortui} SCOP: b.40.4.5, b.34.5.3
+Probab=18.66  E-value=1.1e+02  Score=13.79  Aligned_cols=5  Identities=60%  Similarity=1.338  Sum_probs=0.0  Template_Neff=6.300
+
+Q QHGGGN            2 HGGGN    6 (6)
+Q Consensus         2 hgggn    6 (6)
+                      ||||+
+T Consensus       202 hGGg~  206 (240)
+T 1VQO_A          202 FGGGG  206 (240)
+T ss_pred             CCCCC
+
+
+No 8
+>4V4G_FD Ribosome; 30S RIBOSOMAL SUBUNIT, PROTEIN-RNA COMPLEX; HET: MSE; 11.5A {Escherichia coli}
+Probab=18.64  E-value=1.1e+02  Score=14.01  Aligned_cols=5  Identities=80%  Similarity=1.777  Sum_probs=0.0  Template_Neff=6.300
+
+Q QHGGGN            2 HGGGN    6 (6)
+Q Consensus         2 hgggn    6 (6)
+                      ||||+
+T Consensus       230 hGGg~  234 (270)
+T 4V4G_FD         230 HGGGE  234 (270)
+T ss_pred             CCCCC
+
+
+No 9
+>6ERI_AC 50S ribosomal protein L2, chloroplastic; Chloroplast, translation, ribosome; HET: MG; 3.0A {Spinacia oleracea}
+Probab=18.63  E-value=1.1e+02  Score=13.79  Aligned_cols=5  Identities=80%  Similarity=1.777  Sum_probs=0.0  Template_Neff=6.400
+
+Q QHGGGN            2 HGGGN    6 (6)
+Q Consensus         2 hgggn    6 (6)
+                      ||||+
+T Consensus       203 hGGg~  207 (246)
+T 6ERI_AC         203 HGGGE  207 (246)
+T ss_pred             CCCCC
+
+
+No 10
+>6DZI_C CONSERVED PROTEIN DOMAIN, 30S ribosomal; Hibernation factor complex, RIBOSOME; 3.46A {Mycobacterium smegmatis str. MC2 155}
+Probab=18.32  E-value=1.2e+02  Score=14.06  Aligned_cols=5  Identities=80%  Similarity=1.777  Sum_probs=0.0  Template_Neff=6.200
+
+Q QHGGGN            2 HGGGN    6 (6)
+Q Consensus         2 hgggn    6 (6)
+                      ||||+
+T Consensus       232 hGGg~  236 (275)
+T 6DZI_C          232 HGGGE  236 (275)
+T ss_pred             CCCCC
+
+

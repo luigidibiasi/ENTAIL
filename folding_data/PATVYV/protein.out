@@ -1,0 +1,143 @@
+Query         PATVYV
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 05:39:48 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/PATVYV/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/PATVYV/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4WQ1_H8 30S ribosomal protein   19.8   1E+02  0.0011   12.9   0.0    5    1-5      25-29  (175)
+  2 4V9M_BZ Ribosome; FUSIDIC ACID  17.0 1.3E+02  0.0015   12.7   0.0    5    1-5      23-27  (185)
+  3 5Y2G_A Maltose-binding peripla  16.9 1.3E+02  0.0015   14.0   0.0    5    2-6     512-516 (595)
+  4 4Y7S_A Csa2; CFEM, hemoprotein  16.9 1.3E+02  0.0015   11.5   0.0    6    1-6       2-7   (111)
+  5 2R41_C Uncharacterized protein  15.7 1.5E+02  0.0017   11.9   0.0    6    1-6      87-92  (110)
+  6 2R41_D Uncharacterized protein  15.3 1.6E+02  0.0017   11.9   0.0    6    1-6      87-92  (110)
+  7 5DM6_S 50S ribosomal protein L  15.1 1.6E+02  0.0018   12.4   0.0    5    1-5      20-24  (175)
+  8 7A0R_S Complex, NPET, Macrolid  14.6 1.7E+02  0.0018   12.4   0.0    5    1-5      20-24  (175)
+  9 4V87_DV PROTEIN/RNA Complex; R  14.4 1.7E+02  0.0019   12.4   0.0    5    1-5      25-29  (179)
+ 10 4V84_BV Ribosome; 70S, ribosom  14.3 1.7E+02  0.0019   12.5   0.0    5    1-5      23-27  (188)
+
+No 1
+>4WQ1_H8 30S ribosomal protein S2, 30S; ribosome, translation, mismatch; HET: OMG, 5MU, H2U, OMC, MIA, QUO, MG, 4SU, PSU; 3.1A {Thermus thermophilus HB8}
+Probab=19.82  E-value=1e+02  Score=12.88  Aligned_cols=5  Identities=40%  Similarity=1.165  Sum_probs=0.0  Template_Neff=7.200
+
+Q PATVYV            1 PATVY    5 (6)
+Q Consensus         1 patvy    5 (6)
+                      ||.+|
+T Consensus        25 PaViY   29 (175)
+T 4WQ1_H8          25 PGVMY   29 (175)
+T ss_pred             cEEEE
+
+
+No 2
+>4V9M_BZ Ribosome; FUSIDIC ACID GDP, CHIMERIC HYBRID; HET: GDP, FUA; 4.0A {Thermus thermophilus}
+Probab=17.03  E-value=1.3e+02  Score=12.73  Aligned_cols=5  Identities=40%  Similarity=1.165  Sum_probs=0.0  Template_Neff=7.100
+
+Q PATVYV            1 PATVY    5 (6)
+Q Consensus         1 patvy    5 (6)
+                      ||.+|
+T Consensus        23 PaviY   27 (185)
+T 4V9M_BZ          23 PGVMY   27 (185)
+T ss_pred             cEEEE
+
+
+No 3
+>5Y2G_A Maltose-binding periplasmic protein,Protein B; Camp factor, pore forming toxin; HET: MAL, SO4; 3.0A {Escherichia coli}
+Probab=16.89  E-value=1.3e+02  Score=13.99  Aligned_cols=5  Identities=60%  Similarity=1.052  Sum_probs=0.0  Template_Neff=8.900
+
+Q PATVYV            2 ATVYV    6 (6)
+Q Consensus         2 atvyv    6 (6)
+                      ||+||
+T Consensus       512 ~~~~~  516 (595)
+T 5Y2G_A          512 ATIYT  516 (595)
+T ss_pred             eehhh
+
+
+No 4
+>4Y7S_A Csa2; CFEM, hemoprotein, csa-2, iron acquisition; HET: HEB, EDO; 2.0A {Candida albicans}
+Probab=16.87  E-value=1.3e+02  Score=11.52  Aligned_cols=6  Identities=50%  Similarity=0.944  Sum_probs=0.0  Template_Neff=7.600
+
+Q PATVYV            1 PATVYV    6 (6)
+Q Consensus         1 patvyv    6 (6)
+                      |+++|.
+T Consensus         2 ~~~~~~    7 (111)
+T 4Y7S_A            2 PYTIYP    7 (111)
+T ss_dssp             GGGGSC
+T ss_pred             CCcCCC
+
+
+No 5
+>2R41_C Uncharacterized protein; alpha-beta structure, Structural Genomics, PSI-2; 2.9A {Enterococcus faecalis}
+Probab=15.70  E-value=1.5e+02  Score=11.89  Aligned_cols=6  Identities=17%  Similarity=0.933  Sum_probs=0.0  Template_Neff=6.500
+
+Q PATVYV            1 PATVYV    6 (6)
+Q Consensus         1 patvyv    6 (6)
+                      |.+|||
+T Consensus        87 ~~kI~V   92 (110)
+T 2R41_C           87 PSRIFA   92 (110)
+T ss_dssp             CSEEEE
+T ss_pred             CcEEEE
+
+
+No 6
+>2R41_D Uncharacterized protein; alpha-beta structure, Structural Genomics, PSI-2; HET: MSE; 2.9A {Enterococcus faecalis}
+Probab=15.28  E-value=1.6e+02  Score=11.89  Aligned_cols=6  Identities=17%  Similarity=0.933  Sum_probs=0.0  Template_Neff=6.400
+
+Q PATVYV            1 PATVYV    6 (6)
+Q Consensus         1 patvyv    6 (6)
+                      |++|||
+T Consensus        87 ~~~I~V   92 (110)
+T 2R41_D           87 PSRIFA   92 (110)
+T ss_dssp             CSEEEE
+T ss_pred             CcEEEE
+
+
+No 7
+>5DM6_S 50S ribosomal protein L1, 50S; protein synthesis, peptidyltransferase, ribozyme, ribonucleoprotein; HET: MG; 2.9A {Deinococcus radiodurans}
+Probab=15.12  E-value=1.6e+02  Score=12.41  Aligned_cols=5  Identities=40%  Similarity=0.707  Sum_probs=0.0  Template_Neff=7.100
+
+Q PATVYV            1 PATVY    5 (6)
+Q Consensus         1 patvy    5 (6)
+                      ||.+|
+T Consensus        20 PaviY   24 (175)
+T 5DM6_S           20 AAVAY   24 (175)
+T ss_pred             eEEEE
+
+
+No 8
+>7A0R_S Complex, NPET, Macrolide, A2058, ANTIBIOTIC; HET: QTZ, MG; 3.3A {Deinococcus radiodurans R1}
+Probab=14.63  E-value=1.7e+02  Score=12.44  Aligned_cols=5  Identities=40%  Similarity=0.707  Sum_probs=0.0  Template_Neff=6.900
+
+Q PATVYV            1 PATVY    5 (6)
+Q Consensus         1 patvy    5 (6)
+                      ||.+|
+T Consensus        20 PaviY   24 (175)
+T 7A0R_S           20 AAVAY   24 (175)
+T ss_pred             eEEEE
+
+
+No 9
+>4V87_DV PROTEIN/RNA Complex; RNA, RIBOSOME, tRNA, translation, mRNA; HET: MG; 3.1A {Thermus thermophilus}
+Probab=14.42  E-value=1.7e+02  Score=12.41  Aligned_cols=5  Identities=40%  Similarity=1.165  Sum_probs=0.0  Template_Neff=7.000
+
+Q PATVYV            1 PATVY    5 (6)
+Q Consensus         1 patvy    5 (6)
+                      ||.+|
+T Consensus        25 P~viY   29 (179)
+T 4V87_DV          25 PGVMY   29 (179)
+T ss_pred             cEEEE
+
+
+No 10
+>4V84_BV Ribosome; 70S, ribosome, IGR, IRES, PSIV; HET: MG; 3.4A {Thermus thermophilus HB27}
+Probab=14.29  E-value=1.7e+02  Score=12.53  Aligned_cols=5  Identities=40%  Similarity=1.165  Sum_probs=0.0  Template_Neff=6.900
+
+Q PATVYV            1 PATVY    5 (6)
+Q Consensus         1 patvy    5 (6)
+                      ||.+|
+T Consensus        23 PaviY   27 (188)
+T 4V84_BV          23 PGVMY   27 (188)
+T ss_pred             cEEEE
+
+

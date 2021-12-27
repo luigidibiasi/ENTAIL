@@ -1,0 +1,153 @@
+Query         QNQSGP
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 08:47:57 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QNQSGP/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QNQSGP/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6N3A_J TAR DNA-binding protein  37.8      31 0.00034   13.9   0.0    6    1-6      34-39  (50)
+  2 6K6L_B pseudo deubiquitinase;   17.7 1.2E+02  0.0014   13.8   0.0    6    1-6      26-31  (283)
+  3 6K6L_A pseudo deubiquitinase;   13.6 1.9E+02   0.002   13.3   0.0    6    1-6      26-31  (283)
+  4 6TXB_A Zinc finger with UFM1-s  10.7 2.6E+02  0.0029   12.9   0.0    6    1-6      36-41  (289)
+  5 6TUV_A Zinc finger with UFM1-s  10.5 2.7E+02  0.0029   12.9   0.0    6    1-6      36-41  (289)
+  6 1QC6_B EVH1 domain from ENA/VA  10.4 2.7E+02   0.003   10.4   0.0    6    1-6     124-129 (130)
+  7 6Z49_A HYDROLASE, CYSTEINE PRO  10.2 2.8E+02  0.0031   12.7   0.0    6    1-6      29-34  (273)
+  8 5JQS_A Protein FAM63A; Hydrola  10.0 2.9E+02  0.0032   12.8   0.0    6    1-6      36-41  (289)
+  9 7NPI_e Ubiquitin, Branched, He   9.9 2.9E+02  0.0032   12.6   0.0    6    1-6      29-34  (273)
+ 10 5TMX_A Protein SinI; sporulati   8.2 3.7E+02  0.0041   10.5   0.0    6    1-6      48-53  (63)
+
+No 1
+>6N3A_J TAR DNA-binding protein 43, segA; Amyloid, TDP43, ALS, FTLD-TDP, dna; 3.3A {Homo sapiens}
+Probab=37.76  E-value=31  Score=13.90  Aligned_cols=6  Identities=100%  Similarity=1.420  Sum_probs=2.8  Template_Neff=2.200
+
+Q QNQSGP            1 QNQSGP    6 (6)
+Q Consensus         1 qnqsgp    6 (6)
+                      ||||||
+T Consensus        34 q~qsg~   39 (50)
+T 6N3A_J           34 QNQSGP   39 (50)
+T ss_dssp             EEECCT
+T ss_pred             CCCCCC
+Confidence            345543
+
+
+No 2
+>6K6L_B pseudo deubiquitinase; Pseudo Deubiquitinase, UNKNOWN FUNCTION; 1.77A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=17.68  E-value=1.2e+02  Score=13.85  Aligned_cols=6  Identities=50%  Similarity=0.656  Sum_probs=3.1  Template_Neff=6.600
+
+Q QNQSGP            1 QNQSGP    6 (6)
+Q Consensus         1 qnqsgp    6 (6)
+                      ||..||
+T Consensus        26 Qn~NGP   31 (283)
+T 6K6L_B           26 QNGQGE   31 (283)
+T ss_dssp             CCSSCC
+T ss_pred             ecCCCC
+Confidence            455554
+
+
+No 3
+>6K6L_A pseudo deubiquitinase; Pseudo Deubiquitinase, UNKNOWN FUNCTION; 1.77A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=13.61  E-value=1.9e+02  Score=13.33  Aligned_cols=6  Identities=50%  Similarity=0.656  Sum_probs=2.9  Template_Neff=6.600
+
+Q QNQSGP            1 QNQSGP    6 (6)
+Q Consensus         1 qnqsgp    6 (6)
+                      ||..||
+T Consensus        26 Qn~NGP   31 (283)
+T 6K6L_A           26 QNGQGE   31 (283)
+T ss_dssp             CCTTCC
+T ss_pred             ecCCCc
+Confidence            444454
+
+
+No 4
+>6TXB_A Zinc finger with UFM1-specific peptidase; HYDROLASE, CYSTEINE PROTEASE, ISOPEPTIDASE AND; 2.18A {Homo sapiens}
+Probab=10.71  E-value=2.6e+02  Score=12.92  Aligned_cols=6  Identities=50%  Similarity=1.038  Sum_probs=0.0  Template_Neff=6.600
+
+Q QNQSGP            1 QNQSGP    6 (6)
+Q Consensus         1 qnqsgp    6 (6)
+                      ||..||
+T Consensus        36 Qn~NGP   41 (289)
+T 6TXB_A           36 QSTNGP   41 (289)
+T ss_dssp             BSSSSC
+T ss_pred             ecCCCC
+
+
+No 5
+>6TUV_A Zinc finger with UFM1-specific peptidase; HYDROLASE, CYSTEINE PROTEASE, ISOPEPTIDASE AND; 2.16A {Homo sapiens}
+Probab=10.54  E-value=2.7e+02  Score=12.90  Aligned_cols=6  Identities=50%  Similarity=1.038  Sum_probs=0.0  Template_Neff=6.600
+
+Q QNQSGP            1 QNQSGP    6 (6)
+Q Consensus         1 qnqsgp    6 (6)
+                      ||..||
+T Consensus        36 Qn~NGP   41 (289)
+T 6TUV_A           36 QSTNGP   41 (289)
+T ss_dssp             BSSSSC
+T ss_pred             ecCCCC
+
+
+No 6
+>1QC6_B EVH1 domain from ENA/VASP-like protein; AN INCOMPLETE SEVEN STRANDED ANTI-PARALLEL; 2.6A {Mus musculus} SCOP: b.55.1.4
+Probab=10.40  E-value=2.7e+02  Score=10.36  Aligned_cols=6  Identities=67%  Similarity=1.016  Sum_probs=0.0  Template_Neff=8.900
+
+Q QNQSGP            1 QNQSGP    6 (6)
+Q Consensus         1 qnqsgp    6 (6)
+                      |-|++|
+T Consensus       124 ~~~~~~  129 (130)
+T 1QC6_B          124 QVQNGP  129 (130)
+T ss_dssp             CETCCC
+T ss_pred             CCCCCC
+
+
+No 7
+>6Z49_A HYDROLASE, CYSTEINE PROTEASE, ISOPEPTIDASE AND; HET: PEG, PG4; 2.0A {Homo sapiens}
+Probab=10.24  E-value=2.8e+02  Score=12.70  Aligned_cols=6  Identities=67%  Similarity=1.293  Sum_probs=0.0  Template_Neff=6.700
+
+Q QNQSGP            1 QNQSGP    6 (6)
+Q Consensus         1 qnqsgp    6 (6)
+                      ||..||
+T Consensus        29 Qn~NGP   34 (273)
+T 6Z49_A           29 QNENGP   34 (273)
+T ss_dssp             CCTTCS
+T ss_pred             ecCCCC
+
+
+No 8
+>5JQS_A Protein FAM63A; Hydrolase, Cysteine protease, isopeptidase and; HET: SO4; 2.65A {Homo sapiens}
+Probab=10.01  E-value=2.9e+02  Score=12.85  Aligned_cols=6  Identities=50%  Similarity=1.038  Sum_probs=0.0  Template_Neff=6.500
+
+Q QNQSGP            1 QNQSGP    6 (6)
+Q Consensus         1 qnqsgp    6 (6)
+                      ||..||
+T Consensus        36 Qn~NGP   41 (289)
+T 5JQS_A           36 QSTNGP   41 (289)
+T ss_dssp             BCSSCC
+T ss_pred             ecCCCC
+
+
+No 9
+>7NPI_e Ubiquitin, Branched, Heterotypic, Nanobody, Synthetic; 2.81A {Homo sapiens}
+Probab=9.89  E-value=2.9e+02  Score=12.63  Aligned_cols=6  Identities=67%  Similarity=1.293  Sum_probs=0.0  Template_Neff=6.700
+
+Q QNQSGP            1 QNQSGP    6 (6)
+Q Consensus         1 qnqsgp    6 (6)
+                      ||..||
+T Consensus        29 Qn~NGP   34 (273)
+T 7NPI_e           29 QNENGP   34 (273)
+T ss_dssp             BCSSSC
+T ss_pred             ecCCCC
+
+
+No 10
+>5TMX_A Protein SinI; sporulation, repressor, biofilm, TRANSCRIPTION REGULATOR; NMR {Bacillus subtilis (strain 168)}
+Probab=8.25  E-value=3.7e+02  Score=10.54  Aligned_cols=6  Identities=33%  Similarity=0.872  Sum_probs=0.0  Template_Neff=4.700
+
+Q QNQSGP            1 QNQSGP    6 (6)
+Q Consensus         1 qnqsgp    6 (6)
+                      +++|+|
+T Consensus        48 k~~~~~   53 (63)
+T 5TMX_A           48 SAHPGP   53 (63)
+T ss_dssp             CCCCCC
+T ss_pred             cCCCCC
+
+

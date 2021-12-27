@@ -1,0 +1,148 @@
+Query         AGFQPQ
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 13:58:27 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/AGFQPQ/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/AGFQPQ/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5T59_A KLLA0F02343p, KLLA0E058  19.1 1.1E+02  0.0012   12.1   0.0    5    2-6      18-22  (121)
+  2 6Q6H_G Anaphase-promoting comp  17.5 1.3E+02  0.0014   12.6   0.0    5    2-6      66-70  (85)
+  3 1RK8_C CG8781-PA protein/Mago   16.6 1.4E+02  0.0015   11.9   0.0    6    1-6      31-36  (58)
+  4 5T58_A KLLA0F02343p, KLLA0E058  16.5 1.4E+02  0.0015   13.3   0.0    5    2-6      17-21  (233)
+  5 1KHC_A DNA cytosine-5 methyltr  15.9 1.5E+02  0.0016   11.6   0.0    4    2-5     128-131 (147)
+  6 6IJO_E Chlorophyll a-b binding  15.5 1.5E+02  0.0017   14.0   0.0    4    2-5      27-30  (143)
+  7 5LSJ_C Protein MIS12 homolog,   15.3 1.6E+02  0.0017   12.2   0.0    5    2-6      14-18  (205)
+  8 5HYZ_A GRAS family transcripti  15.1 1.6E+02  0.0017   13.7   0.0    5    1-5     321-325 (375)
+  9 5T51_A KLLA0F02343p, KLLA0E058  15.0 1.6E+02  0.0018   11.5   0.0    5    2-6      17-21  (120)
+ 10 2R76_A Rare lipoprotein B; alp  14.7 1.7E+02  0.0018   11.1   0.0    4    2-5       2-5   (152)
+
+No 1
+>5T59_A KLLA0F02343p, KLLA0E05809p, KLLA0B13629p; cell cycle, kinetochore, complex, chromosome; HET: NHE; 2.405A {Kluyveromyces lactis (strain ATCC 8585 / CBS 2359 / DSM 70799 / NBRC 1267 / NRRL Y-1140 / WM37)}
+Probab=19.10  E-value=1.1e+02  Score=12.06  Aligned_cols=5  Identities=40%  Similarity=1.145  Sum_probs=0.0  Template_Neff=7.300
+
+Q AGFQPQ            2 GFQPQ    6 (6)
+Q Consensus         2 gfqpq    6 (6)
+                      ||.|+
+T Consensus        18 gF~P~   22 (121)
+T 5T59_A           18 GYPPI   22 (121)
+T ss_dssp             SSCHH
+T ss_pred             CCCHH
+
+
+No 2
+>6Q6H_G Anaphase-promoting complex subunit 10, Anaphase-promoting; spindle assembly checkpoint, anaphase-promoting complex; 3.2A {Homo sapiens}
+Probab=17.49  E-value=1.3e+02  Score=12.56  Aligned_cols=5  Identities=60%  Similarity=1.564  Sum_probs=0.0  Template_Neff=4.300
+
+Q AGFQPQ            2 GFQPQ    6 (6)
+Q Consensus         2 gfqpq    6 (6)
+                      ||.||
+T Consensus        66 GY~P~   70 (85)
+T 6Q6H_G           66 GYKPQ   70 (85)
+T ss_pred             CCCCC
+
+
+No 3
+>1RK8_C CG8781-PA protein/Mago nashi protein/Within the; mRNA processing  RRM ; 1.9A {Drosophila melanogaster} SCOP: b.72.3.1
+Probab=16.57  E-value=1.4e+02  Score=11.94  Aligned_cols=6  Identities=50%  Similarity=1.121  Sum_probs=0.0  Template_Neff=3.700
+
+Q AGFQPQ            1 AGFQPQ    6 (6)
+Q Consensus         1 agfqpq    6 (6)
+                      .||.||
+T Consensus        31 pGy~P~   36 (58)
+T 1RK8_C           31 DGYVPQ   36 (58)
+T ss_dssp             TTCCC-
+T ss_pred             CCCCCH
+
+
+No 4
+>5T58_A KLLA0F02343p, KLLA0E05809p, KLLA0D15741p, KLLA0C15939p; cell cycle, kinetochore, complex, chromosome; 3.2131A {Kluyveromyces lactis (strain ATCC 8585 / CBS 2359 / DSM 70799 / NBRC 1267 / NRRL Y-1140 / WM37)}
+Probab=16.53  E-value=1.4e+02  Score=13.35  Aligned_cols=5  Identities=40%  Similarity=1.145  Sum_probs=0.0  Template_Neff=6.600
+
+Q AGFQPQ            2 GFQPQ    6 (6)
+Q Consensus         2 gfqpq    6 (6)
+                      ||.|+
+T Consensus        17 GF~P~   21 (233)
+T 5T58_A           17 GYPPI   21 (233)
+T ss_dssp             SSCHH
+T ss_pred             CCCHH
+
+
+No 5
+>1KHC_A DNA cytosine-5 methyltransferase 3B2 (E.C.2.1.1.37); Five beta-sheets barrel followed by; HET: UNX; 1.8A {Mus musculus} SCOP: b.34.9.2
+Probab=15.94  E-value=1.5e+02  Score=11.64  Aligned_cols=4  Identities=75%  Similarity=1.888  Sum_probs=0.0  Template_Neff=8.200
+
+Q AGFQPQ            2 GFQP    5 (6)
+Q Consensus         2 gfqp    5 (6)
+                      ||||
+T Consensus       128 gf~~  131 (147)
+T 1KHC_A          128 GFKP  131 (147)
+T ss_dssp             TSTT
+T ss_pred             CCCC
+
+
+No 6
+>6IJO_E Chlorophyll a-b binding protein, chloroplastic; Photosystem, Antenna, Supercomplex, green alga; HET: LMG, DGD, CLA, LMU, NEX, LUT, XAT, PQN, SF4, LHG, BCR;{Chlamydomonas reinhardtii}
+Probab=15.54  E-value=1.5e+02  Score=14.03  Aligned_cols=4  Identities=100%  Similarity=1.987  Sum_probs=0.0  Template_Neff=1.900
+
+Q AGFQPQ            2 GFQP    5 (6)
+Q Consensus         2 gfqp    5 (6)
+                      ||||
+T Consensus        27 ~~~~   30 (143)
+T 6IJO_E           27 GFQP   30 (143)
+T ss_dssp             ----
+T ss_pred             CCCC
+
+
+No 7
+>5LSJ_C Protein MIS12 homolog, Polyamine-modulated factor; ALPHA-HELICAL, cell cycle; 3.25A {Homo sapiens}
+Probab=15.27  E-value=1.6e+02  Score=12.18  Aligned_cols=5  Identities=80%  Similarity=1.590  Sum_probs=0.0  Template_Neff=8.200
+
+Q AGFQPQ            2 GFQPQ    6 (6)
+Q Consensus         2 gfqpq    6 (6)
+                      ||.|+
+T Consensus        14 gF~P~   18 (205)
+T 5LSJ_C           14 GFTPQ   18 (205)
+T ss_pred             CCCHH
+
+
+No 8
+>5HYZ_A GRAS family transcription factor containing; Rossmann fold helix bundle, TRANSCRIPTION; HET: MSE; 1.822A {Oryza sativa Japonica Group}
+Probab=15.14  E-value=1.6e+02  Score=13.67  Aligned_cols=5  Identities=60%  Similarity=1.557  Sum_probs=0.0  Template_Neff=7.400
+
+Q AGFQPQ            1 AGFQP    5 (6)
+Q Consensus         1 agfqp    5 (6)
+                      |||+|
+T Consensus       321 aGF~~  325 (375)
+T 5HYZ_A          321 CGFEP  325 (375)
+T ss_dssp             TTCCE
+T ss_pred             cCCee
+
+
+No 9
+>5T51_A KLLA0F02343p, KLLA0E05809p; cell cycle, kinetochore, complex, chromosome; 2.2007A {Kluyveromyces lactis (strain ATCC 8585 / CBS 2359 / DSM 70799 / NBRC 1267 / NRRL Y-1140 / WM37)}
+Probab=14.99  E-value=1.6e+02  Score=11.50  Aligned_cols=5  Identities=40%  Similarity=1.145  Sum_probs=0.0  Template_Neff=7.500
+
+Q AGFQPQ            2 GFQPQ    6 (6)
+Q Consensus         2 gfqpq    6 (6)
+                      ||.|+
+T Consensus        17 gF~P~   21 (120)
+T 5T51_A           17 GYPPI   21 (120)
+T ss_dssp             TSCHH
+T ss_pred             CCCHH
+
+
+No 10
+>2R76_A Rare lipoprotein B; alpha-beta protein, Structural Genomics, PSI-2; 2.6A {Shewanella oneidensis}
+Probab=14.70  E-value=1.7e+02  Score=11.06  Aligned_cols=4  Identities=50%  Similarity=1.065  Sum_probs=0.0  Template_Neff=9.200
+
+Q AGFQPQ            2 GFQP    5 (6)
+Q Consensus         2 gfqp    5 (6)
+                      ||+|
+T Consensus         2 Gf~l    5 (152)
+T 2R76_A            2 GFKL    5 (152)
+T ss_dssp             ----
+T ss_pred             Ceee
+
+

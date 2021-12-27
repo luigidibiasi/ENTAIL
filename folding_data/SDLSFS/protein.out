@@ -1,0 +1,147 @@
+Query         SDLSFS
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 13:36:06 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/SDLSFS/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/SDLSFS/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3GF6_A uncharacterized bacteri  36.6      33 0.00037   17.0   0.0    6    1-6     181-186 (224)
+  2 5MMJ_i 50S ribosomal protein L   9.4 3.1E+02  0.0035   12.8   0.0    6    1-6      13-18  (208)
+  3 5MMM_i 50S ribosomal protein L   9.4 3.1E+02  0.0035   12.8   0.0    6    1-6      13-18  (208)
+  4 2RM9_A Astressin2B; CRF ligand   9.1 3.3E+02  0.0036   10.2   0.0    4    2-5       1-4   (34)
+  5 6QAY_A TasA anchoring/assembly   8.9 3.3E+02  0.0037   12.3   0.0    5    1-5      34-38  (147)
+  6 5URN_B RNA polymerase II trans   8.8 3.4E+02  0.0038   10.2   0.0    5    2-6      21-25  (33)
+  7 6GZJ_B Dynein light chain 1, c   8.6 3.5E+02  0.0039   11.2   0.0    5    2-6      22-26  (54)
+  8 1DP3_A DNA BINDING DOMAIN OF T   8.4 3.7E+02   0.004   10.6   0.0    6    1-6      30-35  (55)
+  9 5CEM_A Tribbles homolog 1; Kin   8.1 3.8E+02  0.0042   10.6   0.0    6    1-6     285-290 (292)
+ 10 5DMV_D Serine/threonine-protei   7.8   4E+02  0.0044    9.8   0.0    4    3-6      22-25  (32)
+
+No 1
+>3GF6_A uncharacterized bacterial lipoprotein; All-beta fold, structural genomics, Joint; HET: EDO; 1.69A {Bacteroides thetaiotaomicron VPI-5482}
+Probab=36.61  E-value=33  Score=17.01  Aligned_cols=6  Identities=100%  Similarity=1.237  Sum_probs=3.9  Template_Neff=1.700
+
+Q SDLSFS            1 SDLSFS    6 (6)
+Q Consensus         1 sdlsfs    6 (6)
+                      |+||||
+T Consensus       181 ~~LSFs  186 (224)
+T 3GF6_A          181 SDLSFS  186 (224)
+T ss_dssp             EEECCS
+T ss_pred             ccceee
+Confidence            467775
+
+
+No 2
+>5MMJ_i 50S ribosomal protein L31, plastid; chloroplast, translation, ribosome, cryo-EM; HET: MG; 3.646A {Spinacia oleracea}
+Probab=9.36  E-value=3.1e+02  Score=12.78  Aligned_cols=6  Identities=50%  Similarity=0.905  Sum_probs=0.0  Template_Neff=5.000
+
+Q SDLSFS            1 SDLSFS    6 (6)
+Q Consensus         1 sdlsfs    6 (6)
+                      |.||||
+T Consensus        13 ~~l~~~   18 (208)
+T 5MMJ_i           13 ASLSFT   18 (208)
+T ss_pred             hhcccc
+
+
+No 3
+>5MMM_i 50S ribosomal protein L31, 50S; chloroplast, translation, ribosome, cryo-EM; HET: MG; 3.4A {Spinacia oleracea}
+Probab=9.36  E-value=3.1e+02  Score=12.78  Aligned_cols=6  Identities=50%  Similarity=0.905  Sum_probs=0.0  Template_Neff=5.000
+
+Q SDLSFS            1 SDLSFS    6 (6)
+Q Consensus         1 sdlsfs    6 (6)
+                      |.||||
+T Consensus        13 ~~l~~~   18 (208)
+T 5MMM_i           13 ASLSFT   18 (208)
+T ss_pred             hhcccc
+
+
+No 4
+>2RM9_A Astressin2B; CRF ligand, Sauvagine, Astressin2B, Urocortins; NMR {N/A}
+Probab=9.09  E-value=3.3e+02  Score=10.21  Aligned_cols=4  Identities=100%  Similarity=1.489  Sum_probs=0.0  Template_Neff=2.800
+
+Q SDLSFS            2 DLSF    5 (6)
+Q Consensus         2 dlsf    5 (6)
+                      ||+|
+T Consensus         1 DLTF    4 (34)
+T 2RM9_A            1 DLSF    4 (34)
+T ss_dssp             CCSG
+T ss_pred             CccH
+
+
+No 5
+>6QAY_A TasA anchoring/assembly protein; TasA, TapA, anchoring, biofilm, PROTEIN; NMR {Bacillus subtilis}
+Probab=8.93  E-value=3.3e+02  Score=12.31  Aligned_cols=5  Identities=60%  Similarity=0.780  Sum_probs=0.0  Template_Neff=4.400
+
+Q SDLSFS            1 SDLSF    5 (6)
+Q Consensus         1 sdlsf    5 (6)
+                      |+|+|
+T Consensus        34 S~L~f   38 (147)
+T 6QAY_A           34 SDLHI   38 (147)
+T ss_dssp             TTEEE
+T ss_pred             cceEE
+
+
+No 6
+>5URN_B RNA polymerase II transcription factor; TRANSCRIPTION FACTOR TFIIH, TRANSACTIVATION DOMAIN; NMR {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=8.78  E-value=3.4e+02  Score=10.17  Aligned_cols=5  Identities=60%  Similarity=1.145  Sum_probs=0.0  Template_Neff=2.500
+
+Q SDLSFS            2 DLSFS    6 (6)
+Q Consensus         2 dlsfs    6 (6)
+                      |+.||
+T Consensus        21 DlDfS   25 (33)
+T 5URN_B           21 DMDFS   25 (33)
+T ss_dssp             TTTTH
+T ss_pred             hccHH
+
+
+No 7
+>6GZJ_B Dynein light chain 1, cytoplasmic; complex, heterotetramer, cell adhesion, cytoplasmic; 1.977A {Homo sapiens}
+Probab=8.55  E-value=3.5e+02  Score=11.19  Aligned_cols=5  Identities=80%  Similarity=1.212  Sum_probs=0.0  Template_Neff=1.000
+
+Q SDLSFS            2 DLSFS    6 (6)
+Q Consensus         2 dlsfs    6 (6)
+                      |||+|
+T Consensus        22 dlsys   26 (54)
+T 6GZJ_B           22 DLSYS   26 (54)
+T ss_pred             cceec
+
+
+No 8
+>1DP3_A DNA BINDING DOMAIN OF THE; helix-loop-helix, DNA BINDING PROTEIN; NMR {Escherichia coli} SCOP: a.55.1.2
+Probab=8.37  E-value=3.7e+02  Score=10.58  Aligned_cols=6  Identities=67%  Similarity=1.077  Sum_probs=0.0  Template_Neff=4.000
+
+Q SDLSFS            1 SDLSFS    6 (6)
+Q Consensus         1 sdlsfs    6 (6)
+                      +|.|||
+T Consensus        30 ~e~n~S   35 (55)
+T 1DP3_A           30 TDVSFS   35 (55)
+T ss_dssp             TTCCHH
+T ss_pred             cccCHH
+
+
+No 9
+>5CEM_A Tribbles homolog 1; Kinase, Kinase-like, TRANSFERASE; HET: SO4; 2.1A {Homo sapiens}
+Probab=8.14  E-value=3.8e+02  Score=10.57  Aligned_cols=6  Identities=50%  Similarity=0.351  Sum_probs=0.0  Template_Neff=10.600
+
+Q SDLSFS            1 SDLSFS    6 (6)
+Q Consensus         1 sdlsfs    6 (6)
+                      +|+|.|
+T Consensus       285 ~~~~~~  290 (292)
+T 5CEM_A          285 SDISSF  290 (292)
+T ss_dssp             ------
+T ss_pred             cccccc
+
+
+No 10
+>5DMV_D Serine/threonine-protein kinase PLK1 (E.C.2.7.11.21), F-box; Polo-box, PLK1, Emi2, meiosis, TRANSFERASE-METAL; HET: TPO; 2.499A {Mus musculus}
+Probab=7.81  E-value=4e+02  Score=9.84  Aligned_cols=4  Identities=75%  Similarity=1.082  Sum_probs=0.0  Template_Neff=2.900
+
+Q SDLSFS            3 LSFS    6 (6)
+Q Consensus         3 lsfs    6 (6)
+                      |+||
+T Consensus        22 L~FS   25 (32)
+T 5DMV_D           22 LHFS   25 (32)
+T ss_pred             eeee
+
+

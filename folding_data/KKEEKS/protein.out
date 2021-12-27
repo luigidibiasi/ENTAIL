@@ -1,0 +1,146 @@
+Query         KKEEKS
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 11:03:23 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/KKEEKS/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/KKEEKS/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5ZUU_A 30-kDa cleavage and pol   4.8 7.4E+02  0.0082   10.5   0.0    5    1-5     171-175 (180)
+  2 6LQP_5I 40S ribosomal protein    4.7 7.6E+02  0.0084    9.7   0.0    5    1-5     479-483 (489)
+  3 2DYO_B Autophagy protein 5, Au   4.6   8E+02  0.0089   10.3   0.0    5    2-6      13-17  (57)
+  4 3D2F_A Heat shock protein homo   4.4 8.3E+02  0.0092   11.3   0.0    5    1-5     661-665 (675)
+  5 6YNX_t Ymf66, subunit b, subun   4.3 8.7E+02  0.0097   10.7   0.0    5    1-5      21-25  (460)
+  6 2VN2_A CHROMOSOME REPLICATION    3.9 9.8E+02   0.011    8.3   0.0    6    1-6     123-128 (128)
+  7 1ZLX_A Phosphoribosylglycinami   3.7   1E+03   0.012    9.5   0.0    4    1-4     200-203 (203)
+  8 5VKU_R Tegument protein pp150,   3.7 1.1E+03   0.012   10.2   0.0    5    1-5      12-16  (75)
+  9 5LN3_D 26S proteasome non-ATPa   3.6 1.1E+03   0.012    9.5   0.0    5    1-5     242-246 (248)
+ 10 2J7A_C CYTOCHROME C NITRITE RE   3.4 1.2E+03   0.013    9.1   0.0    4    3-6       3-6   (159)
+
+No 1
+>5ZUU_A 30-kDa cleavage and polyadenylation specificity; mRNA processing, Arabidopsis, CPSF, modification; HET: 6MD, EPE; 1.95A {Arabidopsis thaliana}
+Probab=4.85  E-value=7.4e+02  Score=10.46  Aligned_cols=5  Identities=60%  Similarity=0.953  Sum_probs=0.0  Template_Neff=7.300
+
+Q KKEEKS            1 KKEEK    5 (6)
+Q Consensus         1 kkeek    5 (6)
+                      ++|||
+T Consensus       171 ~~~~~  175 (180)
+T 5ZUU_A          171 REEEK  175 (180)
+T ss_dssp             HHCC-
+T ss_pred             HHHHH
+
+
+No 2
+>6LQP_5I 40S ribosomal protein S1-A, 40S; ribosome assembly, 90S to pre-40S; HET: GTP; 3.2A {Saccharomyces cerevisiae S288C}
+Probab=4.75  E-value=7.6e+02  Score=9.69  Aligned_cols=5  Identities=40%  Similarity=0.866  Sum_probs=0.0  Template_Neff=12.600
+
+Q KKEEKS            1 KKEEK    5 (6)
+Q Consensus         1 kkeek    5 (6)
+                      |++||
+T Consensus       479 ~~~~~  483 (489)
+T 6LQP_5I         479 KEDDK  483 (489)
+T ss_pred             hHHHh
+
+
+No 3
+>2DYO_B Autophagy protein 5, Autophagy protein; ubiquitin-fold, herix-bundle, PROTEIN TURNOVER-PROTEIN TURNOVER; 1.97A {Saccharomyces cerevisiae}
+Probab=4.56  E-value=8e+02  Score=10.27  Aligned_cols=5  Identities=80%  Similarity=1.019  Sum_probs=0.0  Template_Neff=1.000
+
+Q KKEEKS            2 KEEKS    6 (6)
+Q Consensus         2 keeks    6 (6)
+                      |||.|
+T Consensus        13 keers   17 (57)
+T 2DYO_B           13 KEERS   17 (57)
+T ss_dssp             -----
+T ss_pred             Hhhhc
+
+
+No 4
+>3D2F_A Heat shock protein homolog SSE1; nucleotide exchange factor, protein folding; HET: ATP; 2.3A {Saccharomyces cerevisiae}
+Probab=4.41  E-value=8.3e+02  Score=11.34  Aligned_cols=5  Identities=100%  Similarity=1.119  Sum_probs=0.0  Template_Neff=10.000
+
+Q KKEEKS            1 KKEEK    5 (6)
+Q Consensus         1 kkeek    5 (6)
+                      |||||
+T Consensus       661 ~~~~~  665 (675)
+T 3D2F_A          661 KKEEK  665 (675)
+T ss_dssp             -----
+T ss_pred             HHHhh
+
+
+No 5
+>6YNX_t Ymf66, subunit b, subunit d; mitochondria, ATP synthase, Fo-subcomplex, IF1; HET: PC1, ATP, NAD, UQ8, PEE, PO4, CDL; 2.5A {Tetrahymena thermophila}
+Probab=4.26  E-value=8.7e+02  Score=10.68  Aligned_cols=5  Identities=100%  Similarity=1.119  Sum_probs=0.0  Template_Neff=9.900
+
+Q KKEEKS            1 KKEEK    5 (6)
+Q Consensus         1 kkeek    5 (6)
+                      ++|||
+T Consensus        21 ~~~~~   25 (460)
+T 6YNX_t           21 KKEEK   25 (460)
+T ss_pred             hHHHH
+
+
+No 6
+>2VN2_A CHROMOSOME REPLICATION INITIATION PROTEIN; DNAD, DNA REPLICATION, PRIMOSOME, REPLICATION; 2.3A {GEOBACILLUS KAUSTOPHILUS HTA426}
+Probab=3.86  E-value=9.8e+02  Score=8.34  Aligned_cols=6  Identities=50%  Similarity=0.739  Sum_probs=0.0  Template_Neff=10.100
+
+Q KKEEKS            1 KKEEKS    6 (6)
+Q Consensus         1 kkeeks    6 (6)
+                      ..+|+|
+T Consensus       123 ~~~~~~  128 (128)
+T 2VN2_A          123 QEEEES  128 (128)
+T ss_dssp             ------
+T ss_pred             hhhhcC
+
+
+No 7
+>1ZLX_A Phosphoribosylglycinamide formyltransferase (E.C.2.1.2.2); Seven stranded beta-pleated sheet, Modified; HET: MSE; 2.2A {Homo sapiens} SCOP: c.65.1.1
+Probab=3.68  E-value=1e+03  Score=9.51  Aligned_cols=4  Identities=75%  Similarity=0.725  Sum_probs=0.0  Template_Neff=9.000
+
+Q KKEEKS            1 KKEE    4 (6)
+Q Consensus         1 kkee    4 (6)
+                      ||||
+T Consensus       200 ~~~~  203 (203)
+T 1ZLX_A          200 VKEE  203 (203)
+T ss_dssp             C---
+T ss_pred             ecCC
+
+
+No 8
+>5VKU_R Tegument protein pp150, Major capsid; icosahedral, capsid, tegument, Herpesvirus, VIRUS; 3.9A {Human cytomegalovirus (strain AD169)}
+Probab=3.65  E-value=1.1e+03  Score=10.21  Aligned_cols=5  Identities=20%  Similarity=0.554  Sum_probs=0.0  Template_Neff=2.700
+
+Q KKEEKS            1 KKEEK    5 (6)
+Q Consensus         1 kkeek    5 (6)
+                      ||||+
+T Consensus        12 kkeEe   16 (75)
+T 5VKU_R           12 NKRDE   16 (75)
+T ss_pred             chHHH
+
+
+No 9
+>5LN3_D 26S proteasome non-ATPase regulatory subunit; 26S Proteasome, Cryo-EM, Single Particle; 6.8A {Homo sapiens}
+Probab=3.58  E-value=1.1e+03  Score=9.49  Aligned_cols=5  Identities=60%  Similarity=0.833  Sum_probs=0.0  Template_Neff=9.700
+
+Q KKEEKS            1 KKEEK    5 (6)
+Q Consensus         1 kkeek    5 (6)
+                      +||||
+T Consensus       242 ~~~~~  246 (248)
+T 5LN3_D          242 KKQKK  246 (248)
+T ss_pred             HHhhh
+
+
+No 10
+>2J7A_C CYTOCHROME C NITRITE REDUCTASE NRFA; QUINOL DEHYDROGENASE, CYTOCHROME C NITRITE; HET: LMT, CA, ACT, HEC; 2.3A {DESULFOVIBRIO VULGARIS}
+Probab=3.35  E-value=1.2e+03  Score=9.11  Aligned_cols=4  Identities=100%  Similarity=1.049  Sum_probs=0.0  Template_Neff=8.700
+
+Q KKEEKS            3 EEKS    6 (6)
+Q Consensus         3 eeks    6 (6)
+                      ||||
+T Consensus         3 ~~~~    6 (159)
+T 2J7A_C            3 EEKS    6 (159)
+T ss_dssp             ----
+T ss_pred             hhhh
+
+

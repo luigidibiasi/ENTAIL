@@ -1,0 +1,152 @@
+Query         PTEKDE
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 06:36:09 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/PTEKDE/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/PTEKDE/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6L9W_D TRAF-interacting protei  16.3 1.4E+02  0.0016   12.0   0.0    6    1-6     176-181 (192)
+  2 6L9U_A TRAF-interacting protei  15.6 1.5E+02  0.0017   12.1   0.0    6    1-6     176-181 (192)
+  3 6L9V_D TRAF-interacting protei  15.4 1.5E+02  0.0017   12.0   0.0    6    1-6     176-181 (192)
+  4 3GJ0_B GTP-binding nuclear pro   8.1 3.8E+02  0.0042    9.7   0.0    6    1-6     215-220 (221)
+  5 2E2F_A Diapausin; Ca-channel b   8.0 3.9E+02  0.0043   10.5   0.0    6    1-6      15-20  (41)
+  6 2ZW3_E Gap junction beta-2 pro   7.3 4.4E+02  0.0048   11.8   0.0    4    1-4     185-188 (226)
+  7 5ER7_A Gap junction beta-2 pro   7.2 4.5E+02   0.005   11.8   0.0    4    1-4     185-188 (226)
+  8 2MMG_A GTP-binding nuclear pro   7.1 4.6E+02  0.0051    9.5   0.0    6    1-6     210-215 (216)
+  9 5CK3_A SRX domain, Putative si   6.4 5.2E+02  0.0057   11.3   0.0    6    1-6     172-177 (181)
+ 10 6QIO_D Serum albumin, IgG rece   5.7 6.1E+02  0.0067   10.9   0.0    6    1-6      61-66  (191)
+
+No 1
+>6L9W_D TRAF-interacting protein with FHA domain-containing; FHA domain, SIGNALING PROTEIN; 2.9A {Mus musculus}
+Probab=16.31  E-value=1.4e+02  Score=11.98  Aligned_cols=6  Identities=67%  Similarity=1.088  Sum_probs=0.0  Template_Neff=8.600
+
+Q PTEKDE            1 PTEKDE    6 (6)
+Q Consensus         1 ptekde    6 (6)
+                      |.|-||
+T Consensus       176 ~~~~~~  181 (192)
+T 6L9W_D          176 PSEMDE  181 (192)
+T ss_dssp             ------
+T ss_pred             Ccccch
+Confidence            344443
+
+
+No 2
+>6L9U_A TRAF-interacting protein with FHA domain-containing; FHA domain, SIGNALING PROTEIN; 2.601A {Mus musculus}
+Probab=15.60  E-value=1.5e+02  Score=12.15  Aligned_cols=6  Identities=67%  Similarity=1.088  Sum_probs=0.0  Template_Neff=8.100
+
+Q PTEKDE            1 PTEKDE    6 (6)
+Q Consensus         1 ptekde    6 (6)
+                      |.|-||
+T Consensus       176 ~~~~~~  181 (192)
+T 6L9U_A          176 PSEMDE  181 (192)
+T ss_dssp             ------
+T ss_pred             CCccch
+Confidence            344443
+
+
+No 3
+>6L9V_D TRAF-interacting protein with FHA domain-containing; FHA domain, SIGNALING PROTEIN; 3.05A {Mus musculus}
+Probab=15.37  E-value=1.5e+02  Score=12.02  Aligned_cols=6  Identities=67%  Similarity=1.088  Sum_probs=0.0  Template_Neff=8.300
+
+Q PTEKDE            1 PTEKDE    6 (6)
+Q Consensus         1 ptekde    6 (6)
+                      |.|-||
+T Consensus       176 p~~~~~  181 (192)
+T 6L9V_D          176 PSEMDE  181 (192)
+T ss_dssp             ------
+T ss_pred             Ccccch
+Confidence            344443
+
+
+No 4
+>3GJ0_B GTP-binding nuclear protein Ran; G Protein, GDP, Acetylation, Cytoplasm; HET: GDP; 1.48A {Homo sapiens}
+Probab=8.08  E-value=3.8e+02  Score=9.68  Aligned_cols=6  Identities=50%  Similarity=1.060  Sum_probs=0.0  Template_Neff=11.400
+
+Q PTEKDE            1 PTEKDE    6 (6)
+Q Consensus         1 ptekde    6 (6)
+                      |.|.||
+T Consensus       215 ~~~~~~  220 (221)
+T 3GJ0_B          215 PDEDDD  220 (221)
+T ss_dssp             ------
+T ss_pred             CCCccC
+
+
+No 5
+>2E2F_A Diapausin; Ca-channel blocker, antifungal peptide, Structural; NMR {Gastrophysa atrocyanea}
+Probab=8.04  E-value=3.9e+02  Score=10.50  Aligned_cols=6  Identities=33%  Similarity=0.479  Sum_probs=0.0  Template_Neff=2.200
+
+Q PTEKDE            1 PTEKDE    6 (6)
+Q Consensus         1 ptekde    6 (6)
+                      +.|+||
+T Consensus        15 ~~ErdE   20 (41)
+T 2E2F_A           15 VPERHE   20 (41)
+T ss_dssp             STTTHH
+T ss_pred             chhhhh
+
+
+No 6
+>2ZW3_E Gap junction beta-2 protein; ION CHANNEL, alpha helical membrane; 3.5A {Homo sapiens}
+Probab=7.32  E-value=4.4e+02  Score=11.82  Aligned_cols=4  Identities=100%  Similarity=1.406  Sum_probs=0.0  Template_Neff=6.600
+
+Q PTEKDE            1 PTEK    4 (6)
+Q Consensus         1 ptek    4 (6)
+                      |+||
+T Consensus       185 ptEK  188 (226)
+T 2ZW3_E          185 PTEK  188 (226)
+T ss_dssp             HHHH
+T ss_pred             cchH
+
+
+No 7
+>5ER7_A Gap junction beta-2 protein; gap junction, ion channel, calcium; 3.286A {Homo sapiens}
+Probab=7.18  E-value=4.5e+02  Score=11.79  Aligned_cols=4  Identities=100%  Similarity=1.406  Sum_probs=0.0  Template_Neff=6.600
+
+Q PTEKDE            1 PTEK    4 (6)
+Q Consensus         1 ptek    4 (6)
+                      |+||
+T Consensus       185 ptEK  188 (226)
+T 5ER7_A          185 PTEK  188 (226)
+T ss_dssp             HHHH
+T ss_pred             cchH
+
+
+No 8
+>2MMG_A GTP-binding nuclear protein Ran; G-protein, nucleotide binding, GTP binding; NMR {Homo sapiens}
+Probab=7.07  E-value=4.6e+02  Score=9.50  Aligned_cols=6  Identities=50%  Similarity=1.060  Sum_probs=0.0  Template_Neff=11.300
+
+Q PTEKDE            1 PTEKDE    6 (6)
+Q Consensus         1 ptekde    6 (6)
+                      |.|.|+
+T Consensus       210 ~~~~~~  215 (216)
+T 2MMG_A          210 PDEDDD  215 (216)
+T ss_dssp             CCSSSC
+T ss_pred             CCCcCC
+
+
+No 9
+>5CK3_A SRX domain, Putative signal recognition; GTPase, Longin domain, regulator complex; HET: GOL, GTP; 3.2A {Chaetomium thermophilum}
+Probab=6.41  E-value=5.2e+02  Score=11.30  Aligned_cols=6  Identities=50%  Similarity=0.816  Sum_probs=0.0  Template_Neff=6.400
+
+Q PTEKDE            1 PTEKDE    6 (6)
+Q Consensus         1 ptekde    6 (6)
+                      |+.|+|
+T Consensus       172 ~~~~~~  177 (181)
+T 5CK3_A          172 PAGKSE  177 (181)
+T ss_dssp             ------
+T ss_pred             CCCccc
+
+
+No 10
+>6QIO_D Serum albumin, IgG receptor FcRn; complex, albumin binding, long-acting growth; HET: MES, CYS, JG5; 1.95A {Homo sapiens}
+Probab=5.67  E-value=6.1e+02  Score=10.94  Aligned_cols=6  Identities=33%  Similarity=1.055  Sum_probs=0.0  Template_Neff=7.000
+
+Q PTEKDE            1 PTEKDE    6 (6)
+Q Consensus         1 ptekde    6 (6)
+                      |.+|+|
+T Consensus        61 P~~kee   66 (191)
+T 6QIO_D           61 PSNREE   66 (191)
+T ss_pred             CCCchH
+
+

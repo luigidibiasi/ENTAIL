@@ -1,0 +1,148 @@
+Query         NSALAL
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 03:59:38 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NSALAL/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NSALAL/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 1JW3_A Conserved Hypothetical    5.1   7E+02  0.0078   10.1   0.0    6    1-6      28-33  (140)
+  2 4N2P_B Protein archease; METAL   4.8 7.4E+02  0.0082   10.0   0.0    6    1-6      29-34  (143)
+  3 6AGG_Z tRNA(Ile2) 2-agmatinylc   4.5 8.1E+02  0.0089   12.5   0.0    6    1-6      56-61  (420)
+  4 3I84_B EMMPRIN  CD147  dimeriz   4.4 8.3E+02  0.0092    7.6   0.0    4    1-4      86-89  (98)
+  5 3AU7_A Putative uncharacterize   4.2 8.8E+02  0.0098   12.3   0.0    6    1-6      76-81  (402)
+  6 1TA0_A Carboxy-terminal domain   4.0 9.4E+02    0.01    8.9   0.0    6    1-6     185-190 (197)
+  7 7D2Z_A SR31 against SARS-CoV-2   3.9 9.8E+02   0.011    7.5   0.0    4    1-4     134-137 (144)
+  8 4V4V_AL Ribosome; SecM  nascen   3.9 9.9E+02   0.011   10.2   0.0    4    1-4      24-27  (101)
+  9 5CSF_C Protein S100-B, Ribosom   3.8 9.9E+02   0.011    8.7   0.0    5    1-5      39-43  (55)
+ 10 2V9L_A RHAMNULOSE-1-PHOSPHATE    3.8   1E+03   0.011   10.5   0.0    6    1-6     269-274 (274)
+
+No 1
+>1JW3_A Conserved Hypothetical Protein MTH1598; MTH1598, hypothetical protein, structural genomics; NMR {Methanothermobacter thermautotrophicus} SCOP: d.208.1.1
+Probab=5.07  E-value=7e+02  Score=10.11  Aligned_cols=6  Identities=67%  Similarity=0.916  Sum_probs=0.0  Template_Neff=7.300
+
+Q NSALAL            1 NSALAL    6 (6)
+Q Consensus         1 nsalal    6 (6)
+                      |+|+|+
+T Consensus        28 ~aa~al   33 (140)
+T 1JW3_A           28 NAALAM   33 (140)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 2
+>4N2P_B Protein archease; METAL COORDINATION, RNA LIGASE, CHAPERONE; HET: ACT, MSE, MPD; 1.435A {Pyrococcus horikoshii}
+Probab=4.84  E-value=7.4e+02  Score=10.03  Aligned_cols=6  Identities=50%  Similarity=0.573  Sum_probs=0.0  Template_Neff=7.400
+
+Q NSALAL            1 NSALAL    6 (6)
+Q Consensus         1 nsalal    6 (6)
+                      |+++|+
+T Consensus        29 ~aa~a~   34 (143)
+T 4N2P_B           29 AVAIAL   34 (143)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 3
+>6AGG_Z tRNA(Ile2) 2-agmatinylcytidine synthetase TiaS (E.C.6.3.4.22); zinc ribbon, conformational change, TiaS; HET: TPO, ACP; 2.706A {Archaeoglobus fulgidus (strain ATCC 49558 / VC-16 / DSM 4304 / JCM 9628 / NBRC 100126)}
+Probab=4.54  E-value=8.1e+02  Score=12.46  Aligned_cols=6  Identities=33%  Similarity=0.639  Sum_probs=0.0  Template_Neff=5.700
+
+Q NSALAL            1 NSALAL    6 (6)
+Q Consensus         1 nsalal    6 (6)
+                      |+|+++
+T Consensus        56 N~Av~l   61 (420)
+T 6AGG_Z           56 NGAVSF   61 (420)
+T ss_dssp             CEEEEE
+T ss_pred             eeEEEE
+
+
+No 4
+>3I84_B EMMPRIN  CD147  dimerization; 2.0A {Homo sapiens}
+Probab=4.43  E-value=8.3e+02  Score=7.58  Aligned_cols=4  Identities=50%  Similarity=0.484  Sum_probs=0.0  Template_Neff=11.200
+
+Q NSALAL            1 NSAL    4 (6)
+Q Consensus         1 nsal    4 (6)
+                      |++|
+T Consensus        86 ~~~~   89 (98)
+T 3I84_B           86 NIQL   89 (98)
+T ss_dssp             EEEE
+T ss_pred             EEEe
+
+
+No 5
+>3AU7_A Putative uncharacterized protein; ATP hydrolysis, RNA BINDING PROTEIN; 2.6A {Archaeoglobus fulgidus}
+Probab=4.22  E-value=8.8e+02  Score=12.34  Aligned_cols=6  Identities=33%  Similarity=0.639  Sum_probs=0.0  Template_Neff=5.500
+
+Q NSALAL            1 NSALAL    6 (6)
+Q Consensus         1 nsalal    6 (6)
+                      |+|+++
+T Consensus        76 N~Av~l   81 (402)
+T 3AU7_A           76 NGAVSF   81 (402)
+T ss_dssp             CEEEEE
+T ss_pred             eEEEEE
+
+
+No 6
+>1TA0_A Carboxy-terminal domain RNA polymerase II; alpha-beta protein, HYDROLASE; HET: CIT; 2.1A {Homo sapiens} SCOP: c.108.1.16
+Probab=4.01  E-value=9.4e+02  Score=8.87  Aligned_cols=6  Identities=67%  Similarity=0.567  Sum_probs=0.0  Template_Neff=10.600
+
+Q NSALAL            1 NSALAL    6 (6)
+Q Consensus         1 nsalal    6 (6)
+                      ++++++
+T Consensus       185 ~~~~~~  190 (197)
+T 1TA0_A          185 GSAAAL  190 (197)
+T ss_dssp             ------
+T ss_pred             Cchhhh
+
+
+No 7
+>7D2Z_A SR31 against SARS-CoV-2 RBD, non; coronavirus, Covid-19, nanobody, neutralizing antibody; HET: NAG, MAN, BMA, GOL, FMT, FUC; 1.97A {synthetic construct}
+Probab=3.89  E-value=9.8e+02  Score=7.50  Aligned_cols=4  Identities=75%  Similarity=0.850  Sum_probs=0.0  Template_Neff=12.400
+
+Q NSALAL            1 NSAL    4 (6)
+Q Consensus         1 nsal    4 (6)
+                      |||.
+T Consensus       134 ~~~~  137 (144)
+T 7D2Z_A          134 NSAV  137 (144)
+T ss_dssp             ----
+T ss_pred             HHhh
+
+
+No 8
+>4V4V_AL Ribosome; SecM  nascent chain ; 15.0A {Escherichia coli}
+Probab=3.86  E-value=9.9e+02  Score=10.21  Aligned_cols=4  Identities=100%  Similarity=1.032  Sum_probs=0.0  Template_Neff=4.600
+
+Q NSALAL            1 NSAL    4 (6)
+Q Consensus         1 nsal    4 (6)
+                      |||+
+T Consensus        24 NSA~   27 (101)
+T 4V4V_AL          24 NSAL   27 (101)
+T ss_pred             Cccc
+
+
+No 9
+>5CSF_C Protein S100-B, Ribosomal protein S6; Complex, Kinase, Signaling, Inhibitor, transferase; 2.4A {Homo sapiens}
+Probab=3.84  E-value=9.9e+02  Score=8.71  Aligned_cols=5  Identities=60%  Similarity=0.580  Sum_probs=0.0  Template_Neff=5.900
+
+Q NSALAL            1 NSALA    5 (6)
+Q Consensus         1 nsala    5 (6)
+                      +|.||
+T Consensus        39 aS~LA   43 (55)
+T 5CSF_C           39 SSILA   43 (55)
+T ss_pred             ccHHH
+
+
+No 10
+>2V9L_A RHAMNULOSE-1-PHOSPHATE ALDOLASE (E.C.4.1.2.19); ENTROPY INDEX, METAL-BINDING, OLIGOMERIZATION, LYASE; HET: ACT, PGO; 1.23A {ESCHERICHIA COLI}
+Probab=3.77  E-value=1e+03  Score=10.51  Aligned_cols=6  Identities=83%  Similarity=0.816  Sum_probs=0.0  Template_Neff=7.900
+
+Q NSALAL            1 NSALAL    6 (6)
+Q Consensus         1 nsalal    6 (6)
+                      .+||||
+T Consensus       269 ~~~~~~  274 (274)
+T 2V9L_A          269 ASALAL  274 (274)
+T ss_dssp             HHHHTC
+T ss_pred             hhhhcC
+
+

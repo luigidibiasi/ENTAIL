@@ -1,0 +1,152 @@
+Query         SNVIIE
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 15:53:23 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/SNVIIE/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/SNVIIE/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 7CU9_B tubular protein, envelo  47.4      17 0.00019   14.6   0.0    6    1-6     159-164 (198)
+  2 4ESQ_A Serine/threonine protei  38.8      29 0.00032   13.7   0.0    6    1-6     163-168 (194)
+  3 5YSI_A SdeA; SdeA, E3 ligase,   26.4      63  0.0007   15.3   0.0    6    1-6      81-86  (152)
+  4 1CVI_B PROSTATIC ACID PHOSPHAT  15.0 1.6E+02  0.0018   12.1   0.0    6    1-6     280-285 (342)
+  5 3ZSC_A PECTATE TRISACCHARIDE-L  14.9 1.6E+02  0.0018   12.8   0.0    6    1-6      91-96  (340)
+  6 3T9G_A Pectate lyase (E.C.4.2.  14.3 1.7E+02  0.0019   13.7   0.0    5    1-5      57-61  (196)
+  7 4ARU_A HISTIDINE ACID PHOSPHAT  14.2 1.7E+02  0.0019   12.5   0.0    6    1-6     334-339 (413)
+  8 4JO0_A CmlA; nonheme oxygenase  14.2 1.7E+02  0.0019   14.2   0.0    6    1-6       9-14  (534)
+  9 1PXZ_B Major pollen allergen J  14.2 1.7E+02  0.0019   13.3   0.0    6    1-6     114-119 (346)
+ 10 6TYQ_D Putative pertussis-like  14.2 1.7E+02  0.0019   12.7   0.0    6    1-6      12-17  (114)
+
+No 1
+>7CU9_B tubular protein, envelope-spanning channel, protein; 1.55A {Mycolicibacterium smegmatis (strain ATCC 700084 / mc(2)155)}
+Probab=47.36  E-value=17  Score=14.59  Aligned_cols=6  Identities=33%  Similarity=0.816  Sum_probs=3.3  Template_Neff=8.500
+
+Q SNVIIE            1 SNVIIE    6 (6)
+Q Consensus         1 snviie    6 (6)
+                      +||+||
+T Consensus       159 ~NVvvd  164 (198)
+T 7CU9_B          159 ENVLLQ  164 (198)
+T ss_dssp             TTEEEE
+T ss_pred             ceEEEE
+Confidence            366654
+
+
+No 2
+>4ESQ_A Serine/threonine protein kinase; Receptor Kinase, Membrane, TRANSFERASE; HET: BTB; 1.7A {Mycobacterium tuberculosis}
+Probab=38.82  E-value=29  Score=13.71  Aligned_cols=6  Identities=33%  Similarity=0.944  Sum_probs=3.0  Template_Neff=8.900
+
+Q SNVIIE            1 SNVIIE    6 (6)
+Q Consensus         1 snviie    6 (6)
+                      +||+|+
+T Consensus       163 ~Nvvvd  168 (194)
+T 4ESQ_A          163 NNVVVD  168 (194)
+T ss_dssp             TTEEEE
+T ss_pred             ccEEEE
+Confidence            355553
+
+
+No 3
+>5YSI_A SdeA; SdeA, E3 ligase, Legionella, HYDROLASE; HET: MSE, NCA; 1.546A {Legionella pneumophila subsp. pneumophila str. Philadelphia 1}
+Probab=26.44  E-value=63  Score=15.31  Aligned_cols=6  Identities=83%  Similarity=0.999  Sum_probs=3.5  Template_Neff=2.000
+
+Q SNVIIE            1 SNVIIE    6 (6)
+Q Consensus         1 snviie    6 (6)
+                      ||+|+|
+T Consensus        81 sN~ifE   86 (152)
+T 5YSI_A           81 SNVIFE   86 (152)
+T ss_dssp             CSEEEE
+T ss_pred             CCeEEE
+Confidence            566654
+
+
+No 4
+>1CVI_B PROSTATIC ACID PHOSPHATASE (E.C.3.1.3.2); ACID PHOSPHATASE, INHIBITION, HYDROLASE; HET: MAN, FUC, BMA, GLY, NAG; 3.2A {Homo sapiens} SCOP: c.60.1.2
+Probab=14.98  E-value=1.6e+02  Score=12.06  Aligned_cols=6  Identities=33%  Similarity=0.235  Sum_probs=0.0  Template_Neff=10.200
+
+Q SNVIIE            1 SNVIIE    6 (6)
+Q Consensus         1 snviie    6 (6)
+                      |+++||
+T Consensus       280 s~l~~E  285 (342)
+T 1CVI_B          280 SCHLTE  285 (342)
+T ss_dssp             CEEEEE
+T ss_pred             eEEEEE
+
+
+No 5
+>3ZSC_A PECTATE TRISACCHARIDE-LYASE (E.C.4.2.2.22); LYASE, HYDROLASE; HET: ADA, GOL, AQA; 1.94A {THERMOTOGA MARITIMA}
+Probab=14.86  E-value=1.6e+02  Score=12.75  Aligned_cols=6  Identities=67%  Similarity=0.877  Sum_probs=0.0  Template_Neff=8.800
+
+Q SNVIIE            1 SNVIIE    6 (6)
+Q Consensus         1 snviie    6 (6)
+                      +||||+
+T Consensus        91 ~nViI~   96 (340)
+T 3ZSC_A           91 QNVIIR   96 (340)
+T ss_dssp             EEEEEE
+T ss_pred             ceEEEE
+
+
+No 6
+>3T9G_A Pectate lyase (E.C.4.2.2.2); PL3, parallel beta-helix, pectate lyase; HET: PO4, GOL, MPD, MRD; 1.5A {Caldicellulosiruptor bescii}
+Probab=14.32  E-value=1.7e+02  Score=13.68  Aligned_cols=5  Identities=80%  Similarity=1.019  Sum_probs=0.0  Template_Neff=4.500
+
+Q SNVIIE            1 SNVII    5 (6)
+Q Consensus         1 snvii    5 (6)
+                      +||||
+T Consensus        57 ~NviI   61 (196)
+T 3T9G_A           57 KNVII   61 (196)
+T ss_dssp             EEEEE
+T ss_pred             eEEEe
+
+
+No 7
+>4ARU_A HISTIDINE ACID PHOSPHATASE (E.C.3.1.3.26); HYDROLASE, 6-PHYTASE, PHOSPHOHYDROLASE, HAPP; HET: TLA; 1.45A {HAFNIA ALVEI}
+Probab=14.24  E-value=1.7e+02  Score=12.47  Aligned_cols=6  Identities=17%  Similarity=0.534  Sum_probs=0.0  Template_Neff=9.900
+
+Q SNVIIE            1 SNVIIE    6 (6)
+Q Consensus         1 snviie    6 (6)
+                      |+++||
+T Consensus       334 S~l~~E  339 (413)
+T 4ARU_A          334 GALVFE  339 (413)
+T ss_dssp             CEEEEE
+T ss_pred             cEEEEE
+
+
+No 8
+>4JO0_A CmlA; nonheme oxygenase, dinuclear iron cluster; HET: GOL; 2.17A {Streptomyces venezuelae}
+Probab=14.19  E-value=1.7e+02  Score=14.15  Aligned_cols=6  Identities=17%  Similarity=0.634  Sum_probs=0.0  Template_Neff=7.500
+
+Q SNVIIE            1 SNVIIE    6 (6)
+Q Consensus         1 snviie    6 (6)
+                      +||+||
+T Consensus         9 ~~~~~e   14 (534)
+T 4JO0_A            9 QDIAVE   14 (534)
+T ss_pred             CCeEEE
+
+
+No 9
+>1PXZ_B Major pollen allergen Jun a; parallel beta-helix, allergen, cedar pollen; 1.7A {Juniperus ashei} SCOP: b.80.1.1
+Probab=14.17  E-value=1.7e+02  Score=13.30  Aligned_cols=6  Identities=50%  Similarity=0.778  Sum_probs=0.0  Template_Neff=7.600
+
+Q SNVIIE            1 SNVIIE    6 (6)
+Q Consensus         1 snviie    6 (6)
+                      +||||.
+T Consensus       114 ~NVIIr  119 (346)
+T 1PXZ_B          114 SHVILH  119 (346)
+T ss_dssp             EEEEEE
+T ss_pred             ceEEEE
+
+
+No 10
+>6TYQ_D Putative pertussis-like toxin subunit; PltB, TOXIN; HET: GAL, 5N6, NAG; 1.88A {Salmonella typhi}
+Probab=14.16  E-value=1.7e+02  Score=12.68  Aligned_cols=6  Identities=33%  Similarity=0.545  Sum_probs=0.0  Template_Neff=4.400
+
+Q SNVIIE            1 SNVIIE    6 (6)
+Q Consensus         1 snviie    6 (6)
+                      |||+|.
+T Consensus        12 Snv~I~   17 (114)
+T 6TYQ_D           12 SDEVIS   17 (114)
+T ss_dssp             EEEEEE
+T ss_pred             cCcEEE
+
+

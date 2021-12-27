@@ -1,0 +1,150 @@
+Query         SATVYV
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 13:20:27 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/SATVYV/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/SATVYV/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2E7G_A Putative ribosome-bindi  10.4 2.7E+02   0.003   10.7   0.0    6    1-6      57-62  (129)
+  2 2DYJ_B Ribosome-binding factor  10.0 2.9E+02  0.0032   10.0   0.0    6    1-6      44-49  (95)
+  3 2R1C_A Ribosome-binding factor  10.0 2.9E+02  0.0032   10.0   0.0    6    1-6      44-49  (95)
+  4 4RLE_A Uncharacterized protein   9.2 3.2E+02  0.0036   11.8   0.0    6    1-6     103-108 (117)
+  5 1CID_A CD4 (DOMAINS 3 AND 4);    8.1 3.8E+02  0.0042    9.3   0.0    6    1-6     172-177 (177)
+  6 4BWO_B F18 FIMBRIAL ADHESIN AC   7.9   4E+02  0.0044   12.8   0.0    6    1-6     141-146 (151)
+  7 4W6Y_A Lectin domain of F18 fi   7.9   4E+02  0.0044   12.8   0.0    6    1-6     141-146 (151)
+  8 5N76_B CooT; CODH maturation,    7.4 4.3E+02  0.0047   10.1   0.0    5    2-6       4-8   (66)
+  9 6FAN_A Uncharacterized protein   7.2 4.5E+02   0.005    9.9   0.0    5    2-6       4-8   (63)
+ 10 6FAN_F Uncharacterized protein   7.2 4.5E+02   0.005    9.9   0.0    5    2-6       4-8   (63)
+
+No 1
+>2E7G_A Putative ribosome-binding factor A; RbfA, Structural Genomics, NPPSFA, National; NMR {Homo sapiens} SCOP: d.52.7.1
+Probab=10.42  E-value=2.7e+02  Score=10.69  Aligned_cols=6  Identities=17%  Similarity=0.373  Sum_probs=0.0  Template_Neff=8.200
+
+Q SATVYV            1 SATVYV    6 (6)
+Q Consensus         1 satvyv    6 (6)
+                      .|.||+
+T Consensus        57 ~a~Vy~   62 (129)
+T 2E7G_A           57 ACRAYW   62 (129)
+T ss_dssp             CEEEEE
+T ss_pred             eEEEEE
+
+
+No 2
+>2DYJ_B Ribosome-binding factor A; 16S rRNA processing, 17S RNA; 1.84A {Thermus thermophilus} SCOP: d.52.7.1
+Probab=9.98  E-value=2.9e+02  Score=10.03  Aligned_cols=6  Identities=50%  Similarity=0.772  Sum_probs=0.0  Template_Neff=8.300
+
+Q SATVYV            1 SATVYV    6 (6)
+Q Consensus         1 satvyv    6 (6)
+                      .|.||+
+T Consensus        44 ~a~Vy~   49 (95)
+T 2DYJ_B           44 VLSVYV   49 (95)
+T ss_dssp             EEEEEE
+T ss_pred             EEEEEE
+
+
+No 3
+>2R1C_A Ribosome-binding factor A; helix-kink-helix, KH domain, rRNA processing; 12.5A {Thermus thermophilus} SCOP: d.52.7.1
+Probab=9.98  E-value=2.9e+02  Score=10.03  Aligned_cols=6  Identities=50%  Similarity=0.772  Sum_probs=0.0  Template_Neff=8.300
+
+Q SATVYV            1 SATVYV    6 (6)
+Q Consensus         1 satvyv    6 (6)
+                      .|.||+
+T Consensus        44 ~a~Vy~   49 (95)
+T 2R1C_A           44 VLSVYV   49 (95)
+T ss_dssp             EEEEEE
+T ss_pred             EEEEEE
+
+
+No 4
+>4RLE_A Uncharacterized protein YaaQ; PII-like, cdiAMP, UNKNOWN FUNCTION; HET: 2BA; 1.3A {Bacillus subtilis}
+Probab=9.18  E-value=3.2e+02  Score=11.76  Aligned_cols=6  Identities=67%  Similarity=0.955  Sum_probs=0.0  Template_Neff=4.900
+
+Q SATVYV            1 SATVYV    6 (6)
+Q Consensus         1 satvyv    6 (6)
+                      .|||+|
+T Consensus       103 GAtvFV  108 (117)
+T 4RLE_A          103 GATVFV  108 (117)
+T ss_dssp             SEEEEE
+T ss_pred             CEEEEE
+
+
+No 5
+>1CID_A CD4 (DOMAINS 3 AND 4); T-CELL SURFACE GLYCOPROTEIN; 2.8A {Rattus norvegicus} SCOP: b.1.1.1, b.1.1.3
+Probab=8.15  E-value=3.8e+02  Score=9.31  Aligned_cols=6  Identities=17%  Similarity=0.362  Sum_probs=0.0  Template_Neff=11.400
+
+Q SATVYV            1 SATVYV    6 (6)
+Q Consensus         1 satvyv    6 (6)
+                      |++++|
+T Consensus       172 ~~~~~~  177 (177)
+T 1CID_A          172 DSKIQV  177 (177)
+T ss_dssp             EEEEEC
+T ss_pred             EEeeeC
+
+
+No 6
+>4BWO_B F18 FIMBRIAL ADHESIN AC; CELL ADHESION, GLYCAN ARRAY, ENTEROTOXIGENIC; HET: SO4, BR; 1.8A {ESCHERICHIA COLI}
+Probab=7.89  E-value=4e+02  Score=12.81  Aligned_cols=6  Identities=67%  Similarity=1.132  Sum_probs=0.0  Template_Neff=1.000
+
+Q SATVYV            1 SATVYV    6 (6)
+Q Consensus         1 satvyv    6 (6)
+                      ||.+||
+T Consensus       141 sasiyv  146 (151)
+T 4BWO_B          141 SASIYV  146 (151)
+T ss_dssp             EEEEEE
+T ss_pred             eEEEee
+
+
+No 7
+>4W6Y_A Lectin domain of F18 fimbrial; Adhesin, Fimbriae, cell adhesion, Inhibitor; HET: SO4; 1.57A {Escherichia coli DH5[alpha]}
+Probab=7.89  E-value=4e+02  Score=12.81  Aligned_cols=6  Identities=67%  Similarity=1.132  Sum_probs=0.0  Template_Neff=1.000
+
+Q SATVYV            1 SATVYV    6 (6)
+Q Consensus         1 satvyv    6 (6)
+                      ||.+||
+T Consensus       141 sasiyv  146 (151)
+T 4W6Y_A          141 SASIYV  146 (151)
+T ss_dssp             EEEEEE
+T ss_pred             eEEEee
+
+
+No 8
+>5N76_B CooT; CODH maturation, nickel-binding protein, anaerobic; 1.9A {Rhodospirillum rubrum}
+Probab=7.44  E-value=4.3e+02  Score=10.11  Aligned_cols=5  Identities=40%  Similarity=0.441  Sum_probs=0.0  Template_Neff=5.600
+
+Q SATVYV            2 ATVYV    6 (6)
+Q Consensus         2 atvyv    6 (6)
+                      ++||+
+T Consensus         4 s~vy~    8 (66)
+T 5N76_B            4 AKVVL    8 (66)
+T ss_dssp             CEEEE
+T ss_pred             ceEEE
+
+
+No 9
+>6FAN_A Uncharacterized protein; Carbon monoxide dehydrogenase, nickel chaperone; HET: GOL, MPD; 2.0A {Carboxydothermus hydrogenoformans (strain ATCC BAA-161 / DSM 6008 / Z-2901)}
+Probab=7.16  E-value=4.5e+02  Score=9.93  Aligned_cols=5  Identities=20%  Similarity=0.813  Sum_probs=0.0  Template_Neff=5.700
+
+Q SATVYV            2 ATVYV    6 (6)
+Q Consensus         2 atvyv    6 (6)
+                      ++||+
+T Consensus         4 s~vyl    8 (63)
+T 6FAN_A            4 ASAFI    8 (63)
+T ss_dssp             EEEEE
+T ss_pred             ceEEE
+
+
+No 10
+>6FAN_F Uncharacterized protein; Carbon monoxide dehydrogenase, nickel chaperone; HET: GOL, MPD; 2.0A {Carboxydothermus hydrogenoformans (strain ATCC BAA-161 / DSM 6008 / Z-2901)}
+Probab=7.16  E-value=4.5e+02  Score=9.93  Aligned_cols=5  Identities=20%  Similarity=0.813  Sum_probs=0.0  Template_Neff=5.700
+
+Q SATVYV            2 ATVYV    6 (6)
+Q Consensus         2 atvyv    6 (6)
+                      ++||+
+T Consensus         4 s~vyl    8 (63)
+T 6FAN_F            4 ASAFI    8 (63)
+T ss_dssp             EEEEE
+T ss_pred             ceEEE
+
+

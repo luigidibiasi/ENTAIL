@@ -1,0 +1,149 @@
+Query         GTFNII
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 04:04:08 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GTFNII/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GTFNII/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2CYJ_A hypothetical protein PH  15.1 1.6E+02  0.0018   11.4   0.0    5    2-6     100-104 (118)
+  2 5CX3_H Microtubule-associated   15.0 1.6E+02  0.0018   10.5   0.0    6    1-6       6-11  (31)
+  3 4RUK_C Phosphopantetheine aden  14.9 1.6E+02  0.0018   10.5   0.0    4    1-4       8-11  (159)
+  4 4F3R_B Phosphopantetheine aden  14.7 1.7E+02  0.0018   10.6   0.0    6    1-6      12-17  (162)
+  5 4NAH_E Phosphopantetheine aden  14.6 1.7E+02  0.0019   10.4   0.0    6    1-6      10-15  (160)
+  6 4NAT_B Phosphopantetheine aden  14.6 1.7E+02  0.0019   10.4   0.0    6    1-6      10-15  (160)
+  7 5DAS_A Probable nicotinate-nuc  14.6 1.7E+02  0.0019   11.0   0.0    6    1-6      12-17  (201)
+  8 4B5G_A EXODEOXYRIBONUCLEASE (E  14.6 1.7E+02  0.0019   10.3   0.0    5    1-5       5-9   (259)
+  9 5ZZC_A Phosphopantetheine aden  14.6 1.7E+02  0.0019   10.2   0.0    4    1-4      10-13  (163)
+ 10 5CX3_F Microtubule-associated   14.1 1.8E+02  0.0019   10.5   0.0    6    1-6       6-11  (31)
+
+No 1
+>2CYJ_A hypothetical protein PH1505; Conserved Hypothetical Protein, Structural Genomics; 1.5A {Pyrococcus horikoshii} SCOP: c.103.1.1
+Probab=15.05  E-value=1.6e+02  Score=11.38  Aligned_cols=5  Identities=0%  Similarity=0.115  Sum_probs=0.0  Template_Neff=7.700
+
+Q GTFNII            2 TFNII    6 (6)
+Q Consensus         2 tfnii    6 (6)
+                      |||++
+T Consensus       100 tyN~L  104 (118)
+T 2CYJ_A          100 LLEEL  104 (118)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 2
+>5CX3_H Microtubule-associated proteins 1A/1B light chain; autophagy adaptor, PROTEIN BINDING; HET: GOL; 2.3A {Homo sapiens}
+Probab=15.00  E-value=1.6e+02  Score=10.51  Aligned_cols=6  Identities=50%  Similarity=0.982  Sum_probs=0.0  Template_Neff=3.800
+
+Q GTFNII            1 GTFNII    6 (6)
+Q Consensus         1 gtfnii    6 (6)
+                      |.|.||
+T Consensus         6 ~~fDII   11 (31)
+T 5CX3_H            6 AVFDII   11 (31)
+T ss_pred             cccccC
+
+
+No 3
+>4RUK_C Phosphopantetheine adenylyltransferase (E.C.2.7.7.3); Rossmann Fold, TRANSFERASE; HET: ACT, FMT, POP, COA, DMS; 2.2A {Pseudomonas aeruginosa 2192}
+Probab=14.94  E-value=1.6e+02  Score=10.45  Aligned_cols=4  Identities=75%  Similarity=1.522  Sum_probs=0.0  Template_Neff=10.600
+
+Q GTFNII            1 GTFN    4 (6)
+Q Consensus         1 gtfn    4 (6)
+                      |+||
+T Consensus         8 g~F~   11 (159)
+T 4RUK_C            8 GTFD   11 (159)
+T ss_dssp             ECCT
+T ss_pred             eCCC
+
+
+No 4
+>4F3R_B Phosphopantetheine adenylyltransferase (E.C.2.7.7.3); phosphopantetheine adenylyltranferase, TRANSFERASE; HET: MSE; 2.25A {Coxiella burnetii}
+Probab=14.68  E-value=1.7e+02  Score=10.61  Aligned_cols=6  Identities=50%  Similarity=1.027  Sum_probs=0.0  Template_Neff=10.300
+
+Q GTFNII            1 GTFNII    6 (6)
+Q Consensus         1 gtfnii    6 (6)
+                      |+||.+
+T Consensus        12 G~F~P~   17 (162)
+T 4F3R_B           12 GTFDPL   17 (162)
+T ss_dssp             ECCTTC
+T ss_pred             eCCCCC
+
+
+No 5
+>4NAH_E Phosphopantetheine adenylyltransferase (E.C.2.7.7.3); phosphopanthetheine adenylyltransferase, phosphopanthetheine, Transferase-Transferase Inhibitor; HET: 2VJ, AGS; 2.38A {Staphylococcus aureus}
+Probab=14.58  E-value=1.7e+02  Score=10.42  Aligned_cols=6  Identities=50%  Similarity=1.038  Sum_probs=0.0  Template_Neff=10.600
+
+Q GTFNII            1 GTFNII    6 (6)
+Q Consensus         1 gtfnii    6 (6)
+                      |+|+.+
+T Consensus        10 G~Fdp~   15 (160)
+T 4NAH_E           10 GSFDPI   15 (160)
+T ss_dssp             CCCTTC
+T ss_pred             eCCCCC
+
+
+No 6
+>4NAT_B Phosphopantetheine adenylyltransferase (E.C.2.7.7.3); CoaD, panthetheine, Phosphopanthetheine Adenylyltransferase, CoaBC; HET: 2W5, EPE, ADP; 1.72A {Staphylococcus aureus}
+Probab=14.58  E-value=1.7e+02  Score=10.42  Aligned_cols=6  Identities=50%  Similarity=1.038  Sum_probs=0.0  Template_Neff=10.600
+
+Q GTFNII            1 GTFNII    6 (6)
+Q Consensus         1 gtfnii    6 (6)
+                      |+|+.+
+T Consensus        10 G~Fdp~   15 (160)
+T 4NAT_B           10 GSFDPI   15 (160)
+T ss_dssp             ECCTTC
+T ss_pred             eCCCCC
+
+
+No 7
+>5DAS_A Probable nicotinate-nucleotide adenylyltransferase; Rossman fold, TRANSFERASE; HET: NAP; 2.2A {Mycobacterium tuberculosis}
+Probab=14.56  E-value=1.7e+02  Score=10.99  Aligned_cols=6  Identities=67%  Similarity=1.093  Sum_probs=0.0  Template_Neff=10.300
+
+Q GTFNII            1 GTFNII    6 (6)
+Q Consensus         1 gtfnii    6 (6)
+                      |+||.+
+T Consensus        12 G~F~P~   17 (201)
+T 5DAS_A           12 GTFDPI   17 (201)
+T ss_dssp             ECCTTC
+T ss_pred             eCCCcc
+
+
+No 8
+>4B5G_A EXODEOXYRIBONUCLEASE (E.C.3.1.11.2); HYDROLASE-DNA COMPLEX; HET: 3DR; 2.75A {NEISSERIA MENINGITIDIS}
+Probab=14.55  E-value=1.7e+02  Score=10.34  Aligned_cols=5  Identities=20%  Similarity=0.109  Sum_probs=0.0  Template_Neff=12.400
+
+Q GTFNII            1 GTFNI    5 (6)
+Q Consensus         1 gtfni    5 (6)
+                      +++|+
+T Consensus         5 ~t~Ni    9 (259)
+T 4B5G_A            5 ISANV    9 (259)
+T ss_dssp             EEEEC
+T ss_pred             EEEec
+
+
+No 9
+>5ZZC_A Phosphopantetheine adenylyltransferase (E.C.2.7.7.3); TRANSFERASE; HET: COD; 1.96A {Acinetobacter baumannii (strain ACICU)}
+Probab=14.55  E-value=1.7e+02  Score=10.25  Aligned_cols=4  Identities=75%  Similarity=1.522  Sum_probs=0.0  Template_Neff=11.000
+
+Q GTFNII            1 GTFN    4 (6)
+Q Consensus         1 gtfn    4 (6)
+                      |+||
+T Consensus        10 G~F~   13 (163)
+T 5ZZC_A           10 GTFD   13 (163)
+T ss_dssp             ECCT
+T ss_pred             eCCC
+
+
+No 10
+>5CX3_F Microtubule-associated proteins 1A/1B light chain; autophagy adaptor, PROTEIN BINDING; HET: GOL; 2.3A {Homo sapiens}
+Probab=14.09  E-value=1.8e+02  Score=10.48  Aligned_cols=6  Identities=50%  Similarity=0.982  Sum_probs=0.0  Template_Neff=3.600
+
+Q GTFNII            1 GTFNII    6 (6)
+Q Consensus         1 gtfnii    6 (6)
+                      |.|.||
+T Consensus         6 ~vfDII   11 (31)
+T 5CX3_F            6 AVFDII   11 (31)
+T ss_dssp             SSCEEC
+T ss_pred             cccccC
+
+

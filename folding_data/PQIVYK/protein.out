@@ -1,0 +1,149 @@
+Query         PQIVYK
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 06:20:27 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/PQIVYK/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/PQIVYK/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3C25_A NotI restriction endonu  30.7      48 0.00053   16.9   0.0    6    1-6     240-245 (383)
+  2 5HPS_A WWP1 HECT, Ubiquitin va  19.5 1.1E+02  0.0012   13.0   0.0    6    1-6       5-10  (383)
+  3 3HSB_A Protein hfq/RNA complex  19.2 1.1E+02  0.0012   11.8   0.0    6    1-6      56-61  (78)
+  4 4Y91_H RNA-binding protein Hfq  19.1 1.1E+02  0.0012   12.5   0.0    6    1-6      57-62  (95)
+  5 6XYJ_AAA Hfq, SmAP, tertiary s  18.4 1.2E+02  0.0013   12.8   0.0    6    1-6      64-69  (95)
+  6 1KQ1_H Host Factor for Q beta;  18.2 1.2E+02  0.0013   11.8   0.0    6    1-6      52-57  (77)
+  7 2Y3M_B PROTEIN TRANSPORT PROTE  17.3 1.3E+02  0.0014   11.2   0.0    5    1-5     171-175 (175)
+  8 5DY9_E Hfq-like protein; Hfq,   15.8 1.5E+02  0.0016   11.2   0.0    6    1-6      58-63  (71)
+  9 1LTA_A HEAT-LABILE ENTEROTOXIN  15.3 1.6E+02  0.0017   12.0   0.0    6    1-6       2-7   (188)
+ 10 3HSB_B Protein hfq/RNA complex  15.3 1.6E+02  0.0017   11.5   0.0    6    1-6      56-61  (78)
+
+No 1
+>3C25_A NotI restriction endonuclease/DNA Complex; Protein-DNA complex, Restriction enzyme fold; 2.5A {Nocardia otitidiscaviarum}
+Probab=30.66  E-value=48  Score=16.92  Aligned_cols=6  Identities=50%  Similarity=0.733  Sum_probs=4.0  Template_Neff=4.000
+
+Q PQIVYK            1 PQIVYK    6 (6)
+Q Consensus         1 pqivyk    6 (6)
+                      ||++||
+T Consensus       240 pQLi~K  245 (383)
+T 3C25_A          240 YQMAYK  245 (383)
+T ss_dssp             HHHHHH
+T ss_pred             hheeee
+Confidence            577765
+
+
+No 2
+>5HPS_A WWP1 HECT, Ubiquitin variant P1.1; HECT, E3 ligase, Ubiquitin variant; 2.05A {Homo sapiens}
+Probab=19.53  E-value=1.1e+02  Score=13.02  Aligned_cols=6  Identities=67%  Similarity=1.298  Sum_probs=0.0  Template_Neff=9.700
+
+Q PQIVYK            1 PQIVYK    6 (6)
+Q Consensus         1 pqivyk    6 (6)
+                      |||+|.
+T Consensus         5 ~~~~~~   10 (383)
+T 5HPS_A            5 PQIAYE   10 (383)
+T ss_dssp             --CCCC
+T ss_pred             Cccccc
+
+
+No 3
+>3HSB_A Protein hfq/RNA complex; Sm-like motif, Protein-RNA complex, RNA-binding; 2.2A {Bacillus subtilis}
+Probab=19.18  E-value=1.1e+02  Score=11.84  Aligned_cols=6  Identities=50%  Similarity=1.077  Sum_probs=0.0  Template_Neff=6.000
+
+Q PQIVYK            1 PQIVYK    6 (6)
+Q Consensus         1 pqivyk    6 (6)
+                      ++++||
+T Consensus        56 ~~lI~K   61 (78)
+T 3HSB_A           56 QQLIYK   61 (78)
+T ss_dssp             EEEEEG
+T ss_pred             EEEEEe
+
+
+No 4
+>4Y91_H RNA-binding protein Hfq/RNA Complex; Hfq, Sm protein, beta barrel; 2.656A {Thermotoga maritima}
+Probab=19.10  E-value=1.1e+02  Score=12.48  Aligned_cols=6  Identities=33%  Similarity=0.938  Sum_probs=0.0  Template_Neff=5.400
+
+Q PQIVYK            1 PQIVYK    6 (6)
+Q Consensus         1 pqivyk    6 (6)
+                      ++++||
+T Consensus        57 ~~lIyK   62 (95)
+T 4Y91_H           57 QSLIYK   62 (95)
+T ss_dssp             EEEEEG
+T ss_pred             EEEEEe
+
+
+No 5
+>6XYJ_AAA Hfq, SmAP, tertiary structure, RNA-chaperon; 2.772A {Pseudomonas aeruginosa (strain PA7)}
+Probab=18.41  E-value=1.2e+02  Score=12.84  Aligned_cols=6  Identities=67%  Similarity=1.110  Sum_probs=0.0  Template_Neff=4.400
+
+Q PQIVYK            1 PQIVYK    6 (6)
+Q Consensus         1 pqivyk    6 (6)
+                      +|++||
+T Consensus        64 ~~LIyK   69 (95)
+T 6XYJ_AAA         64 SQMVYK   69 (95)
+T ss_pred             eEEEEe
+
+
+No 6
+>1KQ1_H Host Factor for Q beta; Hfq, hexamer, RNA binding protein; HET: ACY; 1.55A {Staphylococcus aureus} SCOP: b.38.1.2
+Probab=18.16  E-value=1.2e+02  Score=11.76  Aligned_cols=6  Identities=33%  Similarity=0.993  Sum_probs=0.0  Template_Neff=5.900
+
+Q PQIVYK            1 PQIVYK    6 (6)
+Q Consensus         1 pqivyk    6 (6)
+                      ++++||
+T Consensus        52 ~~lI~K   57 (77)
+T 1KQ1_H           52 QHLIYK   57 (77)
+T ss_dssp             EEEEEG
+T ss_pred             EEEEEe
+
+
+No 7
+>2Y3M_B PROTEIN TRANSPORT PROTEIN HOFQ; TRANSPORT PROTEIN, SECRETIN, DNA UPTAKE; HET: GOL; 2.3A {AGGREGATIBACTER ACTINOMYCETEMCOMITANS}
+Probab=17.30  E-value=1.3e+02  Score=11.19  Aligned_cols=5  Identities=40%  Similarity=0.727  Sum_probs=0.0  Template_Neff=10.000
+
+Q PQIVYK            1 PQIVY    5 (6)
+Q Consensus         1 pqivy    5 (6)
+                      +||.|
+T Consensus       171 ~qV~~  175 (175)
+T 2Y3M_B          171 EQLEY  175 (175)
+T ss_dssp             -----
+T ss_pred             hHhcC
+
+
+No 8
+>5DY9_E Hfq-like protein; Hfq, Lsm protein, ribonucleotide-protein complex; HET: PEG, SO4, GOL, AMP, TRS; 1.6A {Methanocaldococcus jannaschii DSM 2661}
+Probab=15.83  E-value=1.5e+02  Score=11.22  Aligned_cols=6  Identities=33%  Similarity=0.667  Sum_probs=0.0  Template_Neff=6.200
+
+Q PQIVYK            1 PQIVYK    6 (6)
+Q Consensus         1 pqivyk    6 (6)
+                      ++++||
+T Consensus        58 ~~lI~K   63 (71)
+T 5DY9_E           58 NLLVFK   63 (71)
+T ss_dssp             EEEEEG
+T ss_pred             EEEEEe
+
+
+No 9
+>1LTA_A HEAT-LABILE ENTEROTOXIN (LT) COMPLEX WITH; ENTEROTOXIN; HET: GAL; 2.2A {Escherichia coli} SCOP: d.166.1.1
+Probab=15.34  E-value=1.6e+02  Score=11.98  Aligned_cols=6  Identities=17%  Similarity=0.512  Sum_probs=0.0  Template_Neff=8.300
+
+Q PQIVYK            1 PQIVYK    6 (6)
+Q Consensus         1 pqivyk    6 (6)
+                      |.+||+
+T Consensus         2 P~~vyR    7 (188)
+T 1LTA_A            2 GDRLYR    7 (188)
+T ss_pred             CCeEEe
+
+
+No 10
+>3HSB_B Protein hfq/RNA complex; Sm-like motif, Protein-RNA complex, RNA-binding; 2.2A {Bacillus subtilis}
+Probab=15.31  E-value=1.6e+02  Score=11.47  Aligned_cols=6  Identities=50%  Similarity=1.077  Sum_probs=0.0  Template_Neff=5.900
+
+Q PQIVYK            1 PQIVYK    6 (6)
+Q Consensus         1 pqivyk    6 (6)
+                      ++++||
+T Consensus        56 ~~lI~K   61 (78)
+T 3HSB_B           56 QQLIYK   61 (78)
+T ss_dssp             EEEEEG
+T ss_pred             EEEEEe
+
+

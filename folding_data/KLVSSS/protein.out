@@ -1,0 +1,149 @@
+Query         KLVSSS
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 11:31:30 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/KLVSSS/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/KLVSSS/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 7LVW_G Fusion glycoprotein F0,   4.7 7.8E+02  0.0086    8.1   0.0    6    1-6     141-146 (152)
+  2 7LVW_J Fusion glycoprotein F0,   4.7 7.8E+02  0.0086    8.1   0.0    6    1-6     141-146 (152)
+  3 4P0U_B Maf-like protein YceF;    4.6   8E+02  0.0088   10.5   0.0    5    2-6       4-8   (190)
+  4 1FS0_G GAMMA/EPSILON ATP SYNTH   4.5 8.2E+02  0.0091    9.9   0.0    6    1-6       7-12  (230)
+  5 4P0E_B YhdE-E33A-P212121; YhdE   4.4 8.4E+02  0.0093   10.4   0.0    5    2-6       5-9   (189)
+  6 2AMH_A septum formation protei   4.4 8.4E+02  0.0093   10.5   0.0    5    2-6      14-18  (207)
+  7 6FMW_A Undecaprenyl-diphosphat   4.2 8.8E+02  0.0097   11.3   0.0    4    3-6      34-37  (282)
+  8 6FMV_A Undecaprenyl-diphosphat   4.2   9E+02  0.0099   11.2   0.0    4    3-6      34-37  (282)
+  9 4G68_B ABC transporter; transp   4.0 9.5E+02    0.01   10.0   0.0    6    1-6      14-19  (432)
+ 10 1EX2_A MAF PROTEIN; B. subtili   3.9 9.7E+02   0.011   10.2   0.0    5    2-6       7-11  (189)
+
+No 1
+>7LVW_G Fusion glycoprotein F0, F-VHH-Cl184; nanobody, VHH, antibody, fusion protein; HET: BMA, NAG; 2.1A {Respiratory syncytial virus}
+Probab=4.68  E-value=7.8e+02  Score=8.06  Aligned_cols=6  Identities=33%  Similarity=0.373  Sum_probs=0.0  Template_Neff=11.900
+
+Q KLVSSS            1 KLVSSS    6 (6)
+Q Consensus         1 klvsss    6 (6)
+                      +++++|
+T Consensus       141 ~~~~~~  146 (152)
+T 7LVW_G          141 QVTVSS  146 (152)
+T ss_pred             EEEEec
+
+
+No 2
+>7LVW_J Fusion glycoprotein F0, F-VHH-Cl184; nanobody, VHH, antibody, fusion protein; HET: BMA, NAG; 2.1A {Respiratory syncytial virus}
+Probab=4.68  E-value=7.8e+02  Score=8.06  Aligned_cols=6  Identities=33%  Similarity=0.373  Sum_probs=0.0  Template_Neff=11.900
+
+Q KLVSSS            1 KLVSSS    6 (6)
+Q Consensus         1 klvsss    6 (6)
+                      +++++|
+T Consensus       141 ~~~~~~  146 (152)
+T 7LVW_J          141 QVTVSS  146 (152)
+T ss_dssp             EEEEEC
+T ss_pred             EEEEec
+
+
+No 3
+>4P0U_B Maf-like protein YceF; YhdE, E33A mutant, unknown function; 2.36A {Escherichia coli}
+Probab=4.58  E-value=8e+02  Score=10.51  Aligned_cols=5  Identities=60%  Similarity=0.594  Sum_probs=0.0  Template_Neff=7.200
+
+Q KLVSSS            2 LVSSS    6 (6)
+Q Consensus         2 lvsss    6 (6)
+                      |.|+|
+T Consensus         4 LaS~S    8 (190)
+T 4P0U_B            4 LASGS    8 (190)
+T ss_dssp             ECCCC
+T ss_pred             EcCCC
+
+
+No 4
+>1FS0_G GAMMA/EPSILON ATP SYNTHASE (E.C.3.6.1.34); ATP Synthase, Gamma, epsilon, HYDROLASE; 2.1A {Escherichia coli} SCOP: c.49.2.1
+Probab=4.47  E-value=8.2e+02  Score=9.92  Aligned_cols=6  Identities=33%  Similarity=0.656  Sum_probs=0.0  Template_Neff=9.200
+
+Q KLVSSS            1 KLVSSS    6 (6)
+Q Consensus         1 klvsss    6 (6)
+                      |+||++
+T Consensus         7 k~va~~   12 (230)
+T 1FS0_G            7 EMVAAS   12 (230)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 5
+>4P0E_B YhdE-E33A-P212121; YhdE E33A p212121, unknown function; HET: SO4, PO4; 2.3A {Escherichia coli}
+Probab=4.38  E-value=8.4e+02  Score=10.39  Aligned_cols=5  Identities=60%  Similarity=0.594  Sum_probs=0.0  Template_Neff=7.300
+
+Q KLVSSS            2 LVSSS    6 (6)
+Q Consensus         2 lvsss    6 (6)
+                      |.|+|
+T Consensus         5 LaS~S    9 (189)
+T 4P0E_B            5 LASGS    9 (189)
+T ss_dssp             EECSC
+T ss_pred             EcCCC
+
+
+No 6
+>2AMH_A septum formation protein MAF homologue; 2 domain alpha-beta motif, Structural; HET: SO4; 2.0A {Trypanosoma brucei} SCOP: c.51.4.2
+Probab=4.38  E-value=8.4e+02  Score=10.45  Aligned_cols=5  Identities=40%  Similarity=0.361  Sum_probs=0.0  Template_Neff=7.500
+
+Q KLVSSS            2 LVSSS    6 (6)
+Q Consensus         2 lvsss    6 (6)
+                      |.|+|
+T Consensus        14 LaS~S   18 (207)
+T 2AMH_A           14 IGTSS   18 (207)
+T ss_dssp             ECCCC
+T ss_pred             EeCCC
+
+
+No 7
+>6FMW_A Undecaprenyl-diphosphatase (E.C.3.6.1.27); Serial crystallography, experimental phasing, in; HET: OLC; 2.6A {Escherichia coli O157:H7}
+Probab=4.23  E-value=8.8e+02  Score=11.25  Aligned_cols=4  Identities=75%  Similarity=0.775  Sum_probs=0.0  Template_Neff=6.700
+
+Q KLVSSS            3 VSSS    6 (6)
+Q Consensus         3 vsss    6 (6)
+                      ||||
+T Consensus        34 ISSS   37 (282)
+T 6FMW_A           34 VSST   37 (282)
+T ss_dssp             SCHH
+T ss_pred             ccch
+
+
+No 8
+>6FMV_A Undecaprenyl-diphosphatase (E.C.3.6.1.27); Serial crystallography, experimental phasing, in; HET: OLC, FLC; 2.3A {Escherichia coli O157:H7}
+Probab=4.17  E-value=9e+02  Score=11.19  Aligned_cols=4  Identities=75%  Similarity=0.775  Sum_probs=0.0  Template_Neff=6.800
+
+Q KLVSSS            3 VSSS    6 (6)
+Q Consensus         3 vsss    6 (6)
+                      ||||
+T Consensus        34 ISSS   37 (282)
+T 6FMV_A           34 VSST   37 (282)
+T ss_dssp             SCHH
+T ss_pred             cCch
+
+
+No 9
+>4G68_B ABC transporter; transporter, TRANSPORT PROTEIN; HET: XYS, XYP, MSE; 1.8A {Caldanaerobius}
+Probab=3.99  E-value=9.5e+02  Score=10.02  Aligned_cols=6  Identities=50%  Similarity=0.628  Sum_probs=0.0  Template_Neff=10.900
+
+Q KLVSSS            1 KLVSSS    6 (6)
+Q Consensus         1 klvsss    6 (6)
+                      |++|++
+T Consensus        14 ~~~~~~   19 (432)
+T 4G68_B           14 KMCSSN   19 (432)
+T ss_dssp             ------
+T ss_pred             cccccC
+
+
+No 10
+>1EX2_A MAF PROTEIN; B. subtilis protein Maf, Structural; HET: GLC, PO4, FRU; 1.85A {Bacillus subtilis} SCOP: c.51.4.2
+Probab=3.90  E-value=9.7e+02  Score=10.21  Aligned_cols=5  Identities=60%  Similarity=0.580  Sum_probs=0.0  Template_Neff=7.300
+
+Q KLVSSS            2 LVSSS    6 (6)
+Q Consensus         2 lvsss    6 (6)
+                      |.|+|
+T Consensus         7 LaS~S   11 (189)
+T 1EX2_A            7 LASQS   11 (189)
+T ss_dssp             ECCCC
+T ss_pred             EcCCC
+
+

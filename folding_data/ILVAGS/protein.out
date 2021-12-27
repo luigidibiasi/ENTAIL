@@ -1,0 +1,155 @@
+Query         ILVAGS
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 08:48:44 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/ILVAGS/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/ILVAGS/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2VOS_A FOLYLPOLYGLUTAMATE SYNT  35.5      35 0.00039   15.0   0.0    6    1-6     466-471 (487)
+  2 1O5Z_A folylpolyglutamate synt  34.2      38 0.00042   14.7   0.0    6    1-6     415-420 (442)
+  3 6K8C_A Folylpolyglutamate synt  29.8      50 0.00056   14.4   0.0    6    1-6     373-378 (402)
+  4 6XT5_B Legumain (E.C.3.4.22.34  25.3      69 0.00076   14.7   0.0    6    1-6      19-24  (451)
+  5 1JBW_A FOLYLPOLYGLUTAMATE SYNT  18.6 1.1E+02  0.0013   13.0   0.0    6    1-6     407-412 (428)
+  6 3NRS_A Dihydrofolate:folylpoly  16.6 1.4E+02  0.0015   12.9   0.0    6    1-6     419-424 (437)
+  7 3PYZ_A Bifunctional folylpolyg  16.6 1.4E+02  0.0015   12.9   0.0    6    1-6     419-424 (437)
+  8 1V7L_B 3-isopropylmalate dehyd  16.2 1.4E+02  0.0016   12.2   0.0    5    1-5      54-58  (163)
+  9 3VBA_B Isopropylmalate/citrama  16.1 1.4E+02  0.0016   12.4   0.0    5    1-5      56-60  (176)
+ 10 3VBA_C Isopropylmalate/citrama  16.1 1.4E+02  0.0016   12.4   0.0    5    1-5      56-60  (176)
+
+No 1
+>2VOS_A FOLYLPOLYGLUTAMATE SYNTHASE PROTEIN FOLC (E.C.6.3.2.17); LIGASE, PEPTIDOGLYCAN SYNTHESIS, CELL DIVISION; HET: GOL, ADP; 2.0A {MYCOBACTERIUM TUBERCULOSIS}
+Probab=35.46  E-value=35  Score=15.01  Aligned_cols=6  Identities=50%  Similarity=1.016  Sum_probs=3.5  Template_Neff=9.400
+
+Q ILVAGS            1 ILVAGS    6 (6)
+Q Consensus         1 ilvags    6 (6)
+                      |||.||
+T Consensus       466 ilv~GS  471 (487)
+T 2VOS_A          466 IVITGS  471 (487)
+T ss_dssp             EEEESS
+T ss_pred             EEEECC
+Confidence            456665
+
+
+No 2
+>1O5Z_A folylpolyglutamate synthase/dihydrofolate synthase; TM0166, FOLYLPOLYGLUTAMATE SYNTHASE, STRUCTURAL GENOMICS; HET: SO4; 2.1A {Thermotoga maritima} SCOP: c.59.1.2, c.72.2.2
+Probab=34.23  E-value=38  Score=14.72  Aligned_cols=6  Identities=50%  Similarity=0.778  Sum_probs=3.5  Template_Neff=9.400
+
+Q ILVAGS            1 ILVAGS    6 (6)
+Q Consensus         1 ilvags    6 (6)
+                      |+|+||
+T Consensus       415 ilv~GS  420 (442)
+T 1O5Z_A          415 TVVTGS  420 (442)
+T ss_dssp             EEEESC
+T ss_pred             EEEECC
+Confidence            456665
+
+
+No 3
+>6K8C_A Folylpolyglutamate synthase (FolC) (E.C.6.3.2.17); Folylpolyglutamate synthetase, Dihydropteroate synthetase, FolC; HET: CIT; 1.95174964908A {Helicobacter pylori (strain ATCC 700392 / 26695)}
+Probab=29.84  E-value=50  Score=14.42  Aligned_cols=6  Identities=67%  Similarity=0.739  Sum_probs=3.4  Template_Neff=9.000
+
+Q ILVAGS            1 ILVAGS    6 (6)
+Q Consensus         1 ilvags    6 (6)
+                      |||.||
+T Consensus       373 ilv~GS  378 (402)
+T 6K8C_A          373 YLVYGS  378 (402)
+T ss_dssp             EEEESC
+T ss_pred             EEEECC
+Confidence            456665
+
+
+No 4
+>6XT5_B Legumain (E.C.3.4.22.34); Asparaginyl endopeptidase, PLANT PROTEIN, Hydrolase; HET: SNN; 2.69A {Canavalia ensiformis}
+Probab=25.26  E-value=69  Score=14.74  Aligned_cols=6  Identities=83%  Similarity=1.204  Sum_probs=3.6  Template_Neff=8.100
+
+Q ILVAGS            1 ILVAGS    6 (6)
+Q Consensus         1 ilvags    6 (6)
+                      +||+||
+T Consensus        19 ~Lv~Gs   24 (451)
+T 6XT5_B           19 VLVAGS   24 (451)
+T ss_dssp             EEECCC
+T ss_pred             EEEecC
+Confidence            466665
+
+
+No 5
+>1JBW_A FOLYLPOLYGLUTAMATE SYNTHASE (E.C.6.3.2.17); FPGS folate AMPPCP ternary complex; HET: TMF, ACQ; 1.85A {Lactobacillus casei} SCOP: c.72.2.2, c.59.1.2
+Probab=18.63  E-value=1.1e+02  Score=13.03  Aligned_cols=6  Identities=50%  Similarity=1.016  Sum_probs=2.9  Template_Neff=9.900
+
+Q ILVAGS            1 ILVAGS    6 (6)
+Q Consensus         1 ilvags    6 (6)
+                      |+|.||
+T Consensus       407 ilv~GS  412 (428)
+T 1JBW_A          407 IVITGS  412 (428)
+T ss_pred             EEEECC
+Confidence            345554
+
+
+No 6
+>3NRS_A Dihydrofolate:folylpolyglutamate synthetase; Structural Genomics, Center for Structural; HET: GOL, TLA, MES; 1.8A {Yersinia pestis}
+Probab=16.63  E-value=1.4e+02  Score=12.91  Aligned_cols=6  Identities=50%  Similarity=1.032  Sum_probs=2.8  Template_Neff=9.800
+
+Q ILVAGS            1 ILVAGS    6 (6)
+Q Consensus         1 ilvags    6 (6)
+                      ||+.||
+T Consensus       419 ILv~GS  424 (437)
+T 3NRS_A          419 VIVCGS  424 (437)
+T ss_dssp             EEEESS
+T ss_pred             EEEECc
+Confidence            345554
+
+
+No 7
+>3PYZ_A Bifunctional folylpolyglutamate synthase/dihydrofolate synthase (E.C.6.3.2.12; FolC, CSGID, Structural Genomics, Center; HET: ANP; 2.1A {Yersinia pestis}
+Probab=16.63  E-value=1.4e+02  Score=12.91  Aligned_cols=6  Identities=50%  Similarity=1.032  Sum_probs=0.0  Template_Neff=9.800
+
+Q ILVAGS            1 ILVAGS    6 (6)
+Q Consensus         1 ilvags    6 (6)
+                      ||+.||
+T Consensus       419 ILv~GS  424 (437)
+T 3PYZ_A          419 VIVCGS  424 (437)
+T ss_dssp             EEEESS
+T ss_pred             EEEECc
+
+
+No 8
+>1V7L_B 3-isopropylmalate dehydratase small subunit (E.C.4.2.1.33); BETA BARREL, LYASE; 1.98A {Pyrococcus horikoshii} SCOP: c.8.2.1
+Probab=16.18  E-value=1.4e+02  Score=12.16  Aligned_cols=5  Identities=60%  Similarity=1.152  Sum_probs=0.0  Template_Neff=7.600
+
+Q ILVAGS            1 ILVAG    5 (6)
+Q Consensus         1 ilvag    5 (6)
+                      |+|||
+T Consensus        54 IiVaG   58 (163)
+T 1V7L_B           54 VVVAG   58 (163)
+T ss_dssp             EEECC
+T ss_pred             EEEEe
+
+
+No 9
+>3VBA_B Isopropylmalate/citramalate isomerase small subunit (E.C.4.2.1.33; Lyase, LeuD, cytosol; 2.0A {Methanocaldococcus jannaschii}
+Probab=16.12  E-value=1.4e+02  Score=12.39  Aligned_cols=5  Identities=60%  Similarity=1.152  Sum_probs=0.0  Template_Neff=7.400
+
+Q ILVAGS            1 ILVAG    5 (6)
+Q Consensus         1 ilvag    5 (6)
+                      |+|||
+T Consensus        56 iiVaG   60 (176)
+T 3VBA_B           56 IIVGG   60 (176)
+T ss_dssp             EEEEC
+T ss_pred             EEEEc
+
+
+No 10
+>3VBA_C Isopropylmalate/citramalate isomerase small subunit (E.C.4.2.1.33; Lyase, LeuD, cytosol; 2.0A {Methanocaldococcus jannaschii}
+Probab=16.12  E-value=1.4e+02  Score=12.39  Aligned_cols=5  Identities=60%  Similarity=1.152  Sum_probs=0.0  Template_Neff=7.400
+
+Q ILVAGS            1 ILVAG    5 (6)
+Q Consensus         1 ilvag    5 (6)
+                      |+|||
+T Consensus        56 iiVaG   60 (176)
+T 3VBA_C           56 IIVGG   60 (176)
+T ss_dssp             EEEEC
+T ss_pred             EEEEc
+
+

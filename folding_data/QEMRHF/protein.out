@@ -1,0 +1,153 @@
+Query         QEMRHF
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 07:26:21 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QEMRHF/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QEMRHF/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3HL1_A Ferritin like protein;   49.6      15 0.00017   16.8   0.0    6    1-6      53-58  (317)
+  2 6HXX_AU PROTEIN/RNA Complex; p  41.9      24 0.00027   16.6   0.0    6    1-6     158-163 (267)
+  3 6HXX_BB PROTEIN/RNA Complex; p  41.9      24 0.00027   16.6   0.0    6    1-6     158-163 (267)
+  4 6T34_O PROTEIN/RNA Complex; po  41.7      24 0.00027   16.1   0.0    6    1-6     114-119 (207)
+  5 5ODV_H coat protein/RNA Comple  40.8      26 0.00028   16.6   0.0    6    1-6     171-176 (281)
+  6 6TJV_P NAD(P)H-quinone oxidore  39.9      27  0.0003   18.5   0.0    6    1-6     338-343 (437)
+  7 7CNA_B Spindlin-1, Spindlin in  19.2 1.1E+02  0.0012   11.3   0.0    5    2-6       8-12  (30)
+  8 6ZMB_B tRNA hydroxylase; tRNA-  17.5 1.3E+02  0.0014   14.2   0.0    5    2-6      68-72  (200)
+  9 6ZMC_C tRNA hydroxylase; tRNA-  17.5 1.3E+02  0.0014   14.2   0.0    5    2-6      68-72  (200)
+ 10 2QMM_A UPF0217 protein AF_1056  17.0 1.3E+02  0.0015   12.6   0.0    4    3-6       4-7   (197)
+
+No 1
+>3HL1_A Ferritin like protein; FERRITIN-LIKE PROTEIN, STRUCTURAL GENOMICS, JOINT; 1.95A {Caulobacter vibrioides}
+Probab=49.61  E-value=15  Score=16.82  Aligned_cols=6  Identities=67%  Similarity=0.672  Sum_probs=4.2  Template_Neff=6.600
+
+Q QEMRHF            1 QEMRHF    6 (6)
+Q Consensus         1 qemrhf    6 (6)
+                      +||+|+
+T Consensus        53 eEM~Hl   58 (317)
+T 3HL1_A           53 QEMLHA   58 (317)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            578874
+
+
+No 2
+>6HXX_AU PROTEIN/RNA Complex; plant virus, potyvirus, flexible filamentous; 3.4A {Potato virus Y}
+Probab=41.90  E-value=24  Score=16.59  Aligned_cols=6  Identities=67%  Similarity=0.927  Sum_probs=4.0  Template_Neff=5.200
+
+Q QEMRHF            1 QEMRHF    6 (6)
+Q Consensus         1 qemrhf    6 (6)
+                      |-||||
+T Consensus       158 qIMrHF  163 (267)
+T 6HXX_AU         158 QIMAHF  163 (267)
+T ss_pred             HHHHHH
+Confidence            457777
+
+
+No 3
+>6HXX_BB PROTEIN/RNA Complex; plant virus, potyvirus, flexible filamentous; 3.4A {Potato virus Y}
+Probab=41.90  E-value=24  Score=16.59  Aligned_cols=6  Identities=67%  Similarity=0.927  Sum_probs=4.0  Template_Neff=5.200
+
+Q QEMRHF            1 QEMRHF    6 (6)
+Q Consensus         1 qemrhf    6 (6)
+                      |-||||
+T Consensus       158 qIMrHF  163 (267)
+T 6HXX_BB         158 QIMAHF  163 (267)
+T ss_pred             HHHHHH
+Confidence            457777
+
+
+No 4
+>6T34_O PROTEIN/RNA Complex; potyvirus, virion, helical virus, VIRUS; 5.2A {Turnip mosaic virus (strain Japanese)}
+Probab=41.70  E-value=24  Score=16.10  Aligned_cols=6  Identities=67%  Similarity=0.927  Sum_probs=3.8  Template_Neff=5.100
+
+Q QEMRHF            1 QEMRHF    6 (6)
+Q Consensus         1 qemrhf    6 (6)
+                      |-||||
+T Consensus       114 qIMrhF  119 (207)
+T 6T34_O          114 QIMAHF  119 (207)
+T ss_dssp             HHHTSC
+T ss_pred             HHHHHH
+Confidence            457776
+
+
+No 5
+>5ODV_H coat protein/RNA Complex; filamentous virus, potyvirus, plant pathogen; 4.0A {Watermelon mosaic virus}
+Probab=40.79  E-value=26  Score=16.56  Aligned_cols=6  Identities=67%  Similarity=0.994  Sum_probs=4.0  Template_Neff=5.300
+
+Q QEMRHF            1 QEMRHF    6 (6)
+Q Consensus         1 qemrhf    6 (6)
+                      |-||||
+T Consensus       171 qIMrhF  176 (281)
+T 5ODV_H          171 QIMHHF  176 (281)
+T ss_pred             HHHHHH
+Confidence            457777
+
+
+No 6
+>6TJV_P NAD(P)H-quinone oxidoreductase subunit 1 (E.C.7.1.1.-); carbon concentrating photosynthetic complex I; HET: BCR, CLA, DGD, SF4, SQD, PGT;{Thermosynechococcus elongatus (strain BP-1)}
+Probab=39.87  E-value=27  Score=18.50  Aligned_cols=6  Identities=67%  Similarity=1.160  Sum_probs=4.6  Template_Neff=2.500
+
+Q QEMRHF            1 QEMRHF    6 (6)
+Q Consensus         1 qemrhf    6 (6)
+                      |.||||
+T Consensus       338 QDM~hf  343 (437)
+T 6TJV_P          338 QDMYHF  343 (437)
+T ss_dssp             HHTTSS
+T ss_pred             HHHHHh
+Confidence            678886
+
+
+No 7
+>7CNA_B Spindlin-1, Spindlin interactor and repressor; epigenetic reader, protein binding; HET: BAM, M3L; 1.6A {Homo sapiens}
+Probab=19.19  E-value=1.1e+02  Score=11.33  Aligned_cols=5  Identities=80%  Similarity=1.524  Sum_probs=0.0  Template_Neff=2.300
+
+Q QEMRHF            2 EMRHF    6 (6)
+Q Consensus         2 emrhf    6 (6)
+                      |.|||
+T Consensus         8 ~Vr~f   12 (30)
+T 7CNA_B            8 EVRHF   12 (30)
+T ss_dssp             EECEE
+T ss_pred             eeeec
+
+
+No 8
+>6ZMB_B tRNA hydroxylase; tRNA-monooxygenase metallo-enzyme tRNA-modifying enzyme hydroxylase; HET: PG4, PG6, PGE, PEG, TRS; 1.7A {Pseudomonas putida KT2440}
+Probab=17.47  E-value=1.3e+02  Score=14.20  Aligned_cols=5  Identities=40%  Similarity=0.687  Sum_probs=0.0  Template_Neff=4.300
+
+Q QEMRHF            2 EMRHF    6 (6)
+Q Consensus         2 emrhf    6 (6)
+                      |+.||
+T Consensus        68 EL~HF   72 (200)
+T 6ZMB_B           68 ELVHH   72 (200)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 9
+>6ZMC_C tRNA hydroxylase; tRNA-monooxygenase metallo-enzyme tRNA-modifying enzyme hydroxylase; HET: PG4, TRS; 2.5A {Pseudomonas putida KT2440}
+Probab=17.47  E-value=1.3e+02  Score=14.20  Aligned_cols=5  Identities=40%  Similarity=0.687  Sum_probs=0.0  Template_Neff=4.300
+
+Q QEMRHF            2 EMRHF    6 (6)
+Q Consensus         2 emrhf    6 (6)
+                      |+.||
+T Consensus        68 EL~HF   72 (200)
+T 6ZMC_C           68 ELVHH   72 (200)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 10
+>2QMM_A UPF0217 protein AF_1056; alpha/beta knot, SAM, Structural Genomics; HET: SAM; 1.85A {Archaeoglobus fulgidus DSM 4304} SCOP: c.116.1.7
+Probab=16.95  E-value=1.3e+02  Score=12.60  Aligned_cols=4  Identities=50%  Similarity=0.991  Sum_probs=0.0  Template_Neff=7.600
+
+Q QEMRHF            3 MRHF    6 (6)
+Q Consensus         3 mrhf    6 (6)
+                      ||+|
+T Consensus         4 ~r~f    7 (197)
+T 2QMM_A            4 VRGF    7 (197)
+T ss_dssp             CEEE
+T ss_pred             ceEE
+
+

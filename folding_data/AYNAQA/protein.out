@@ -1,0 +1,149 @@
+Query         AYNAQA
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 16:14:54 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/AYNAQA/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/AYNAQA/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6TJV_P NAD(P)H-quinone oxidore  55.3      11 0.00012   19.9   0.0    6    1-6     299-304 (437)
+  2 1KTD_D H-2 class II histocompa   7.0 4.6E+02  0.0051    9.9   0.0    6    1-6       6-11  (215)
+  3 5BU5_A DNA stabilization prote   6.6   5E+02  0.0055   13.0   0.0    5    1-5      56-60  (233)
+  4 5BVZ_A DNA stabilization prote   6.6   5E+02  0.0055   13.0   0.0    5    1-5      56-60  (233)
+  5 2POH_D trimeric coiled-coil, t   6.6   5E+02  0.0055   12.9   0.0    5    1-5      56-60  (233)
+  6 4ZKP_A Tail-Needle protein gp2   6.6   5E+02  0.0056   13.0   0.0    5    1-5      60-64  (237)
+  7 4QMG_H Staphylococcal nuclease   6.5 5.1E+02  0.0056   10.3   0.0    5    2-6      30-34  (43)
+  8 3C9I_F P22, Tail-Needle, Xenon   6.5 5.1E+02  0.0056   13.0   0.0    5    1-5      65-69  (242)
+  9 5OHU_A Soluble lytic transglyc   6.2 5.4E+02   0.006   10.9   0.0    4    1-4     575-578 (642)
+ 10 4QMG_I Staphylococcal nuclease   6.0 5.7E+02  0.0063   10.1   0.0    5    2-6      30-34  (43)
+
+No 1
+>6TJV_P NAD(P)H-quinone oxidoreductase subunit 1 (E.C.7.1.1.-); carbon concentrating photosynthetic complex I; HET: BCR, CLA, DGD, SF4, SQD, PGT;{Thermosynechococcus elongatus (strain BP-1)}
+Probab=55.27  E-value=11  Score=19.85  Aligned_cols=6  Identities=83%  Similarity=1.121  Sum_probs=4.7  Template_Neff=2.500
+
+Q AYNAQA            1 AYNAQA    6 (6)
+Q Consensus         1 aynaqa    6 (6)
+                      .|||||
+T Consensus       299 SYNAQA  304 (437)
+T 6TJV_P          299 SYNAQA  304 (437)
+T ss_dssp             CCCTTT
+T ss_pred             eecccc
+Confidence            489986
+
+
+No 2
+>1KTD_D H-2 class II histocompatibility antigen; Protein-peptide complex, T cell receptor; HET: NAG; 2.4A {Mus musculus} SCOP: d.19.1.1, b.1.1.2
+Probab=7.01  E-value=4.6e+02  Score=9.87  Aligned_cols=6  Identities=67%  Similarity=0.661  Sum_probs=0.0  Template_Neff=10.500
+
+Q AYNAQA            1 AYNAQA    6 (6)
+Q Consensus         1 aynaqa    6 (6)
+                      ||-+|+
+T Consensus         6 ~~~~~~   11 (215)
+T 1KTD_D            6 AYLKQA   11 (215)
+T ss_dssp             CCCCCC
+T ss_pred             HHHHHH
+
+
+No 3
+>5BU5_A DNA stabilization protein; tail needle, viral genome-ejection, coiled-coil; 1.952A {Enterobacteria phage HK620}
+Probab=6.61  E-value=5e+02  Score=13.03  Aligned_cols=5  Identities=80%  Similarity=1.165  Sum_probs=0.0  Template_Neff=3.100
+
+Q AYNAQA            1 AYNAQ    5 (6)
+Q Consensus         1 aynaq    5 (6)
+                      ||.||
+T Consensus        56 AydAQ   60 (233)
+T 5BU5_A           56 AYDAQ   60 (233)
+T ss_dssp             ----C
+T ss_pred             HHHHh
+
+
+No 4
+>5BVZ_A DNA stabilization protein; tail needle, viral genome-ejection, Coiled; 2.5A {Enterobacteria phage HK620}
+Probab=6.61  E-value=5e+02  Score=13.03  Aligned_cols=5  Identities=80%  Similarity=1.165  Sum_probs=0.0  Template_Neff=3.100
+
+Q AYNAQA            1 AYNAQ    5 (6)
+Q Consensus         1 aynaq    5 (6)
+                      ||.||
+T Consensus        56 AydAQ   60 (233)
+T 5BVZ_A           56 AYDAQ   60 (233)
+T ss_dssp             THHHH
+T ss_pred             HHHHh
+
+
+No 5
+>2POH_D trimeric coiled-coil, triple beta-helix, heptad; HET: MSE; 2.1A {Salmonella phage P22-pbi}
+Probab=6.60  E-value=5e+02  Score=12.94  Aligned_cols=5  Identities=80%  Similarity=1.165  Sum_probs=0.0  Template_Neff=3.400
+
+Q AYNAQA            1 AYNAQ    5 (6)
+Q Consensus         1 aynaq    5 (6)
+                      ||.||
+T Consensus        56 AydAQ   60 (233)
+T 2POH_D           56 AYDAQ   60 (233)
+T ss_dssp             HHHHH
+T ss_pred             HHHHh
+
+
+No 6
+>4ZKP_A Tail-Needle protein gp26; Viral protein, P22, Tail Needle; 2.1A {Enterobacteria phage P22}
+Probab=6.57  E-value=5e+02  Score=13.00  Aligned_cols=5  Identities=80%  Similarity=1.165  Sum_probs=0.0  Template_Neff=3.300
+
+Q AYNAQA            1 AYNAQ    5 (6)
+Q Consensus         1 aynaq    5 (6)
+                      ||.||
+T Consensus        60 AydAQ   64 (237)
+T 4ZKP_A           60 AYDAQ   64 (237)
+T ss_dssp             CHHHH
+T ss_pred             HHHHh
+
+
+No 7
+>4QMG_H Staphylococcal nuclease domain-containing protein 1; SN domains, oligonucleotide/oligosaccharide binding-fold (OB-fold); HET: GOL, SO4; 2.701A {Homo sapiens}
+Probab=6.52  E-value=5.1e+02  Score=10.31  Aligned_cols=5  Identities=60%  Similarity=0.833  Sum_probs=0.0  Template_Neff=1.900
+
+Q AYNAQA            2 YNAQA    6 (6)
+Q Consensus         2 ynaqa    6 (6)
+                      |||++
+T Consensus        30 WnaP~   34 (43)
+T 4QMG_H           30 WNAPA   34 (43)
+T ss_pred             CCCCH
+
+
+No 8
+>3C9I_F P22, Tail-Needle, Xenon, Coiled-Coil, Protein; HET: XE; 1.95A {Bacteriophage P22}
+Probab=6.49  E-value=5.1e+02  Score=13.01  Aligned_cols=5  Identities=80%  Similarity=1.165  Sum_probs=0.0  Template_Neff=3.300
+
+Q AYNAQA            1 AYNAQ    5 (6)
+Q Consensus         1 aynaq    5 (6)
+                      ||.||
+T Consensus        65 AydAQ   69 (242)
+T 3C9I_F           65 AYDAQ   69 (242)
+T ss_dssp             HHHHH
+T ss_pred             HHHHh
+
+
+No 9
+>5OHU_A Soluble lytic transglycosylase B; Lytic Transglycosylase, LYASE; HET: PO4; 2.2A {Pseudomonas aeruginosa}
+Probab=6.24  E-value=5.4e+02  Score=10.93  Aligned_cols=4  Identities=100%  Similarity=1.364  Sum_probs=0.0  Template_Neff=11.800
+
+Q AYNAQA            1 AYNA    4 (6)
+Q Consensus         1 ayna    4 (6)
+                      +||+
+T Consensus       575 ~Yn~  578 (642)
+T 5OHU_A          575 AYNA  578 (642)
+T ss_dssp             HHHH
+T ss_pred             HHhc
+
+
+No 10
+>4QMG_I Staphylococcal nuclease domain-containing protein 1; SN domains, oligonucleotide/oligosaccharide binding-fold (OB-fold); HET: SO4, GOL, MSE; 2.701A {Homo sapiens}
+Probab=6.00  E-value=5.7e+02  Score=10.13  Aligned_cols=5  Identities=60%  Similarity=0.833  Sum_probs=0.0  Template_Neff=2.200
+
+Q AYNAQA            2 YNAQA    6 (6)
+Q Consensus         2 ynaqa    6 (6)
+                      |||++
+T Consensus        30 WNAP~   34 (43)
+T 4QMG_I           30 WNAPA   34 (43)
+T ss_pred             CCCCH
+
+

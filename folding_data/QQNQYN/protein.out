@@ -1,0 +1,156 @@
+Query         QQNQYN
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 09:38:03 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QQNQYN/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QQNQYN/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6XFM_1 RNA-binding protein FUS  71.0     3.4 3.7E-05   18.4   0.0    6    1-6      47-52  (104)
+  2 6O35_C de novo designed WSHC8;  41.9      24 0.00027   15.8   0.0    6    1-6      91-96  (102)
+  3 2ROZ_A peptide from Amyloid be  40.2      27  0.0003   12.7   0.0    6    1-6      15-20  (32)
+  4 3DXC_D Amyloid beta A4 precurs  40.1      27  0.0003   12.9   0.0    6    1-6      18-23  (35)
+  5 3DXE_D Alzheimer's disease, AP  40.0      27  0.0003   12.9   0.0    6    1-6      18-23  (35)
+  6 6U1S_F de novo designed 16-hel  29.5      51 0.00057   17.0   0.0    6    1-6     300-305 (310)
+  7 6M6Z_C TMH4C4; nanopore, de no  25.3      69 0.00076   15.8   0.0    6    1-6      89-94  (203)
+  8 6IYC_E Nicastrin, Presenilin-1  11.5 2.4E+02  0.0026   12.5   0.0    6    1-6      67-72  (104)
+  9 2BJQ_A MFP2A; MOTILITY, ASCARI  10.9 2.5E+02  0.0028   13.9   0.0    5    1-5      29-33  (345)
+ 10 4DCZ_A DnaJ-like protein MG200   9.5 3.1E+02  0.0034   12.2   0.0    5    1-5      21-25  (92)
+
+No 1
+>6XFM_1 RNA-binding protein FUS; Low complexity domain, Protein aggregation; 2.62A {Homo sapiens}
+Probab=70.99  E-value=3.4  Score=18.41  Aligned_cols=6  Identities=100%  Similarity=1.304  Sum_probs=3.9  Template_Neff=1.900
+
+Q QQNQYN            1 QQNQYN    6 (6)
+Q Consensus         1 qqnqyn    6 (6)
+                      ||||||
+T Consensus        47 QQnqy~   52 (104)
+T 6XFM_1           47 QQNQYN   52 (104)
+T ss_dssp             EEEEEC
+T ss_pred             cccccc
+Confidence            567775
+
+
+No 2
+>6O35_C de novo designed WSHC8; Helical bundle, octamer, computational design; 2.4A {synthetic construct}
+Probab=41.89  E-value=24  Score=15.84  Aligned_cols=6  Identities=83%  Similarity=0.872  Sum_probs=4.0  Template_Neff=1.000
+
+Q QQNQYN            1 QQNQYN    6 (6)
+Q Consensus         1 qqnqyn    6 (6)
+                      ||||.|
+T Consensus        91 qqnqln   96 (102)
+T 6O35_C           91 QQNQLN   96 (102)
+T ss_dssp             HHHHHH
+T ss_pred             HHHhhh
+Confidence            677765
+
+
+No 3
+>2ROZ_A peptide from Amyloid beta A4; Fe65L1, PID domain, amyloid precursor; NMR {Mus musculus}
+Probab=40.15  E-value=27  Score=12.71  Aligned_cols=6  Identities=67%  Similarity=0.938  Sum_probs=3.4  Template_Neff=3.400
+
+Q QQNQYN            1 QQNQYN    6 (6)
+Q Consensus         1 qqnqyn    6 (6)
+                      |+|+|+
+T Consensus        15 q~nGYE   20 (32)
+T 2ROZ_A           15 QQNGYE   20 (32)
+T ss_dssp             HHTCCB
+T ss_pred             HHcCCC
+Confidence            456663
+
+
+No 4
+>3DXC_D Amyloid beta A4 precursor protein-binding; Alzheimer's disease, APP, AICD, Fe65; 2.1A {Homo sapiens}
+Probab=40.15  E-value=27  Score=12.95  Aligned_cols=6  Identities=67%  Similarity=0.938  Sum_probs=3.4  Template_Neff=3.300
+
+Q QQNQYN            1 QQNQYN    6 (6)
+Q Consensus         1 qqnqyn    6 (6)
+                      |+|+|+
+T Consensus        18 q~nGYE   23 (35)
+T 3DXC_D           18 QQNGYE   23 (35)
+T ss_dssp             HHTCEE
+T ss_pred             HHcCCC
+Confidence            566663
+
+
+No 5
+>3DXE_D Alzheimer's disease, APP, AICD, Fe65; 2.0A {Homo sapiens}
+Probab=40.04  E-value=27  Score=12.94  Aligned_cols=6  Identities=67%  Similarity=0.938  Sum_probs=3.4  Template_Neff=3.300
+
+Q QQNQYN            1 QQNQYN    6 (6)
+Q Consensus         1 qqnqyn    6 (6)
+                      |+|+|+
+T Consensus        18 q~nGYE   23 (35)
+T 3DXE_D           18 QQNGYE   23 (35)
+T ss_dssp             HHTCEE
+T ss_pred             HHhCCC
+Confidence            566663
+
+
+No 6
+>6U1S_F de novo designed 16-helix transmembrane; Transmembrane, Pore, Rosetta, DE NOVO; 7.6A {synthetic construct}
+Probab=29.54  E-value=51  Score=16.95  Aligned_cols=6  Identities=83%  Similarity=0.872  Sum_probs=4.3  Template_Neff=1.000
+
+Q QQNQYN            1 QQNQYN    6 (6)
+Q Consensus         1 qqnqyn    6 (6)
+                      ||||.|
+T Consensus       300 qqnqln  305 (310)
+T 6U1S_F          300 QQNQLN  305 (310)
+T ss_dssp             HHHHHH
+T ss_pred             Hhhchh
+Confidence            678765
+
+
+No 7
+>6M6Z_C TMH4C4; nanopore, de novo design, MEMBRANE; 5.9A {Escherichia coli}
+Probab=25.29  E-value=69  Score=15.76  Aligned_cols=6  Identities=83%  Similarity=0.872  Sum_probs=3.6  Template_Neff=1.000
+
+Q QQNQYN            1 QQNQYN    6 (6)
+Q Consensus         1 qqnqyn    6 (6)
+                      ||||.|
+T Consensus        89 qqnqln   94 (203)
+T 6M6Z_C           89 QQNQLN   94 (203)
+T ss_dssp             HHHHHH
+T ss_pred             Hhhccc
+Confidence            567654
+
+
+No 8
+>6IYC_E Nicastrin, Presenilin-1 (E.C.3.4.23.-), Gamma-secretase subunit; Complex, MEMBRANE PROTEIN; HET: NAG, PC1, CLR, BMA;{Homo sapiens}
+Probab=11.50  E-value=2.4e+02  Score=12.46  Aligned_cols=6  Identities=67%  Similarity=0.938  Sum_probs=0.0  Template_Neff=3.500
+
+Q QQNQYN            1 QQNQYN    6 (6)
+Q Consensus         1 qqnqyn    6 (6)
+                      |+|.|.
+T Consensus        67 Q~NGYE   72 (104)
+T 6IYC_E           67 QQNGYE   72 (104)
+T ss_pred             HHcCcc
+
+
+No 9
+>2BJQ_A MFP2A; MOTILITY, ASCARIS, NEMATODE, MSP; 1.75A {ASCARIS SUUM} SCOP: b.169.1.1
+Probab=10.89  E-value=2.5e+02  Score=13.86  Aligned_cols=5  Identities=80%  Similarity=1.066  Sum_probs=0.0  Template_Neff=5.300
+
+Q QQNQYN            1 QQNQY    5 (6)
+Q Consensus         1 qqnqy    5 (6)
+                      |||||
+T Consensus        29 ~~n~Y   33 (345)
+T 2BJQ_A           29 QQNMY   33 (345)
+T ss_dssp             CSSCE
+T ss_pred             CCcee
+
+
+No 10
+>4DCZ_A DnaJ-like protein MG200; DIMER, INTRA-DOMAIN SYMMETRY AXIS, UNKNOWN; 2.9A {Mycoplasma genitalium}
+Probab=9.45  E-value=3.1e+02  Score=12.23  Aligned_cols=5  Identities=80%  Similarity=0.700  Sum_probs=0.0  Template_Neff=2.200
+
+Q QQNQYN            1 QQNQY    5 (6)
+Q Consensus         1 qqnqy    5 (6)
+                      |||||
+T Consensus        21 ~q~~~   25 (92)
+T 4DCZ_A           21 QQNQN   25 (92)
+T ss_dssp             -----
+T ss_pred             HHhHh
+
+

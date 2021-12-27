@@ -1,0 +1,159 @@
+Query         FNPQGG
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 21:40:12 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/FNPQGG/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/FNPQGG/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3KS7_C Putative PNGase F; Puta  43.1      22 0.00025   17.1   0.0    6    1-6     306-311 (397)
+  2 3KEW_A DHHA1 domain protein; S  33.4      40 0.00045   13.7   0.0    6    1-6      39-44  (241)
+  3 6TSR_AAA Agglutinin; fungal ch  26.3      64 0.00071   13.0   0.0    6    1-6     273-278 (293)
+  4 5MU9_A Agglutinin; papain-like  26.0      65 0.00072   12.9   0.0    6    1-6     273-278 (293)
+  5 1S0P_A Adenylyl cyclase-associ  23.8      76 0.00084   13.5   0.0    6    1-6     165-170 (176)
+  6 4R4X_A PNGF-II (E.C.2.7.7.7);   22.4      85 0.00094   15.9   0.0    6    1-6     467-472 (546)
+  7 4JK8_B Pre-mRNA-processing-spl  22.1      86 0.00096   14.9   0.0    6    1-6      42-47  (222)
+  8 4JKB_A Pre-mRNA-processing-spl  22.1      86 0.00096   14.9   0.0    6    1-6      42-47  (222)
+  9 4JK7_A Pre-mRNA-processing-spl  21.9      88 0.00097   14.9   0.0    6    1-6      42-47  (222)
+ 10 5R0D_A Pre-mRNA-splicing facto  21.7      90 0.00099   15.2   0.0    6    1-6      50-55  (258)
+
+No 1
+>3KS7_C Putative PNGase F; Putative Peptide:N-glycosidase F (PNGase F); HET: CL, MSE, EDO; 2.3A {Bacteroides fragilis NCTC 9343}
+Probab=43.07  E-value=22  Score=17.09  Aligned_cols=6  Identities=67%  Similarity=1.315  Sum_probs=3.5  Template_Neff=6.000
+
+Q FNPQGG            1 FNPQGG    6 (6)
+Q Consensus         1 fnpqgg    6 (6)
+                      ||||||
+T Consensus       306 ~np~gG  311 (397)
+T 3KS7_C          306 FNPATG  311 (397)
+T ss_dssp             GCTTCC
+T ss_pred             ccCCCc
+Confidence            466654
+
+
+No 2
+>3KEW_A DHHA1 domain protein; STRUCTURAL GENOMICS, PSI-2, TRNA SYNTHASE; 2.0A {Clostridium perfringens}
+Probab=33.39  E-value=40  Score=13.75  Aligned_cols=6  Identities=67%  Similarity=1.315  Sum_probs=2.9  Template_Neff=8.900
+
+Q FNPQGG            1 FNPQGG    6 (6)
+Q Consensus         1 fnpqgg    6 (6)
+                      |-|+||
+T Consensus        39 Fyp~gG   44 (241)
+T 3KEW_A           39 FFPGGG   44 (241)
+T ss_dssp             CCCCBT
+T ss_pred             eeCCCC
+Confidence            345554
+
+
+No 3
+>6TSR_AAA Agglutinin; fungal chimerolectin, papain-like cysteine protease; HET: FUC, EDO, GAL, GLA; 1.85A {Marasmius oreades}
+Probab=26.28  E-value=64  Score=13.02  Aligned_cols=6  Identities=67%  Similarity=1.398  Sum_probs=2.9  Template_Neff=9.900
+
+Q FNPQGG            1 FNPQGG    6 (6)
+Q Consensus         1 fnpqgg    6 (6)
+                      |+||-|
+T Consensus       273 ~~~~~g  278 (293)
+T 6TSR_AAA        273 FEPQNG  278 (293)
+T ss_pred             EcCCCC
+Confidence            455543
+
+
+No 4
+>5MU9_A Agglutinin; papain-like protease, E-64 inhibitor complex; HET: GLA, E64, GAL, FUC; 1.3A {Marasmius oreades}
+Probab=26.05  E-value=65  Score=12.94  Aligned_cols=6  Identities=67%  Similarity=1.398  Sum_probs=3.1  Template_Neff=10.000
+
+Q FNPQGG            1 FNPQGG    6 (6)
+Q Consensus         1 fnpqgg    6 (6)
+                      |.||-|
+T Consensus       273 ~~pq~g  278 (293)
+T 5MU9_A          273 FEPQNG  278 (293)
+T ss_dssp             EETTTT
+T ss_pred             EcCCCC
+Confidence            456643
+
+
+No 5
+>1S0P_A Adenylyl cyclase-associated protein; Alpha helix bundle, MEMBRANE PROTEIN; 1.4A {Dictyostelium discoideum} SCOP: a.192.1.1
+Probab=23.80  E-value=76  Score=13.51  Aligned_cols=6  Identities=67%  Similarity=1.647  Sum_probs=3.6  Template_Neff=6.700
+
+Q FNPQGG            1 FNPQGG    6 (6)
+Q Consensus         1 fnpqgg    6 (6)
+                      +||+|+
+T Consensus       165 WN~~G~  170 (176)
+T 1S0P_A          165 WNPKGG  170 (176)
+T ss_dssp             CCTTSE
+T ss_pred             cCCCCC
+Confidence            467664
+
+
+No 6
+>4R4X_A PNGF-II (E.C.2.7.7.7); N-glycanase (PNGase), PNGase F, Deglycosylation; 1.9A {Elizabethkingia meningoseptica}
+Probab=22.40  E-value=85  Score=15.91  Aligned_cols=6  Identities=67%  Similarity=1.398  Sum_probs=3.4  Template_Neff=6.000
+
+Q FNPQGG            1 FNPQGG    6 (6)
+Q Consensus         1 fnpqgg    6 (6)
+                      +|||+|
+T Consensus       467 ~n~q~G  472 (546)
+T 4R4X_A          467 FNPASG  472 (546)
+T ss_dssp             GCTTCC
+T ss_pred             cCCCCC
+Confidence            456654
+
+
+No 7
+>4JK8_B Pre-mRNA-processing-splicing factor 8; metalloprotein, conformational change, RNA BINDING; HET: GOL; 1.15A {Homo sapiens}
+Probab=22.15  E-value=86  Score=14.91  Aligned_cols=6  Identities=67%  Similarity=1.409  Sum_probs=3.4  Template_Neff=4.300
+
+Q FNPQGG            1 FNPQGG    6 (6)
+Q Consensus         1 fnpqgg    6 (6)
+                      |||+.|
+T Consensus        42 fnP~TG   47 (222)
+T 4JK8_B           42 FNPRTG   47 (222)
+T ss_dssp             ECTTTC
+T ss_pred             EeCCCC
+Confidence            566654
+
+
+No 8
+>4JKB_A Pre-mRNA-processing-splicing factor 8; metalloprotein, conformational change, RNA BINDING; HET: GOL; 1.3A {Homo sapiens}
+Probab=22.14  E-value=86  Score=14.91  Aligned_cols=6  Identities=67%  Similarity=1.409  Sum_probs=3.4  Template_Neff=4.300
+
+Q FNPQGG            1 FNPQGG    6 (6)
+Q Consensus         1 fnpqgg    6 (6)
+                      |||+.|
+T Consensus        42 fnP~TG   47 (222)
+T 4JKB_A           42 FNPRTG   47 (222)
+T ss_dssp             ECTTTC
+T ss_pred             EeCCCC
+Confidence            566654
+
+
+No 9
+>4JK7_A Pre-mRNA-processing-splicing factor 8; metalloprotein, conformational change, RNA BINDING; HET: GOL; 1.4A {Homo sapiens}
+Probab=21.90  E-value=88  Score=14.89  Aligned_cols=6  Identities=67%  Similarity=1.409  Sum_probs=3.4  Template_Neff=4.300
+
+Q FNPQGG            1 FNPQGG    6 (6)
+Q Consensus         1 fnpqgg    6 (6)
+                      |||+.|
+T Consensus        42 fnP~TG   47 (222)
+T 4JK7_A           42 FNPRTG   47 (222)
+T ss_dssp             ECTTTC
+T ss_pred             EeCCCC
+Confidence            566554
+
+
+No 10
+>5R0D_A Pre-mRNA-splicing factor 8, A1 cistron-splicing; FragMAX, FragMAXapp, fragment screening, RNaseH; HET: R8Y; 1.27A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=21.67  E-value=90  Score=15.15  Aligned_cols=6  Identities=50%  Similarity=1.132  Sum_probs=3.5  Template_Neff=4.300
+
+Q FNPQGG            1 FNPQGG    6 (6)
+Q Consensus         1 fnpqgg    6 (6)
+                      |||+.|
+T Consensus        50 fnP~TG   55 (258)
+T 5R0D_A           50 LNPKTG   55 (258)
+T ss_dssp             ECTTTC
+T ss_pred             EeCCCC
+Confidence            566654
+
+

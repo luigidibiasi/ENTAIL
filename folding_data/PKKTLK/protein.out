@@ -1,0 +1,148 @@
+Query         PKKTLK
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 05:52:20 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/PKKTLK/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/PKKTLK/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5FR1_B TRANSFORMING PROTEIN RH   5.4 6.4E+02  0.0071   11.7   0.0    6    1-6      40-45  (213)
+  2 3GE4_D DNA PROTECTION DURING S   5.3 6.7E+02  0.0074    9.7   0.0    6    1-6      10-15  (173)
+  3 4F38_B Transforming protein Rh   5.2 6.8E+02  0.0075   11.5   0.0    6    1-6      31-36  (204)
+  4 1DS6_B RAS-RELATED C3 BOTULINU   4.8 7.4E+02  0.0082   11.1   0.0    6    1-6       7-12  (180)
+  5 6QES_A Gallinacin-11; new fold   4.7 7.7E+02  0.0085    9.7   0.0    6    1-6       2-7   (40)
+  6 1QQH_A VIRUS/VIRAL PROTEIN; AM   4.7 7.8E+02  0.0086   11.0   0.0    6    1-6      41-46  (144)
+  7 5SUP_H ATP-dependent RNA helic   4.7 7.8E+02  0.0086    8.7   0.0    4    1-4      14-17  (32)
+  8 4V3P_Lp 40S WHEAT GERM RIBOSOM   4.6 7.9E+02  0.0087    8.7   0.0    6    1-6      35-40  (41)
+  9 6B85_A TMHC4_R; De novo design   4.2 8.8E+02  0.0097    8.4   0.0    4    1-4       2-5   (223)
+ 10 6B85_J TMHC4_R; De novo design   4.2 8.8E+02  0.0097    8.4   0.0    4    1-4       2-5   (223)
+
+No 1
+>5FR1_B TRANSFORMING PROTEIN RHOA, RHO GDP-DISSOCIATION; SIGNALING PROTEIN, RAS-SUPERFAMILY, GUANINE-NUCLEOTIDE-BINDING PROTEIN; HET: ALY, GDP; 2.75A {HOMO SAPIENS}
+Probab=5.43  E-value=6.4e+02  Score=11.72  Aligned_cols=6  Identities=17%  Similarity=0.600  Sum_probs=0.0  Template_Neff=5.400
+
+Q PKKTLK            1 PKKTLK    6 (6)
+Q Consensus         1 pkktlk    6 (6)
+                      |+|+|+
+T Consensus        40 ~kksl~   45 (213)
+T 5FR1_B           40 AQKSIQ   45 (213)
+T ss_dssp             CCCCHH
+T ss_pred             CccCHH
+
+
+No 2
+>3GE4_D DNA PROTECTION DURING STARVATION PROTEIN; SSGCID, FERRITIN, DNA-BINDING PROTEIN, DPS; HET: CA; 1.7A {Brucella melitensis}
+Probab=5.26  E-value=6.7e+02  Score=9.73  Aligned_cols=6  Identities=50%  Similarity=1.049  Sum_probs=0.0  Template_Neff=9.100
+
+Q PKKTLK            1 PKKTLK    6 (6)
+Q Consensus         1 pkktlk    6 (6)
+                      |||...
+T Consensus        10 ~~~~~~   15 (173)
+T 3GE4_D           10 PKKSMH   15 (173)
+T ss_dssp             ---CCC
+T ss_pred             CCcccc
+
+
+No 3
+>4F38_B Transforming protein RhoA, Rho GDP-dissociation; RhoA, RhoGDI, active GPPNHP bound; HET: GER, GNP; 2.8A {Mus musculus}
+Probab=5.22  E-value=6.8e+02  Score=11.50  Aligned_cols=6  Identities=17%  Similarity=0.600  Sum_probs=0.0  Template_Neff=5.600
+
+Q PKKTLK            1 PKKTLK    6 (6)
+Q Consensus         1 pkktlk    6 (6)
+                      |+|+|+
+T Consensus        31 ~~~sl~   36 (204)
+T 4F38_B           31 AQKSIQ   36 (204)
+T ss_dssp             CCCCHH
+T ss_pred             CCCCHH
+
+
+No 4
+>1DS6_B RAS-RELATED C3 BOTULINUM TOXIN SUBSTRATE; BETA SANDWHICH, PROTEIN-PROTEIN COMPLEX, G-DOMAIN; HET: GDP; 2.35A {Homo sapiens} SCOP: b.1.18.8
+Probab=4.83  E-value=7.4e+02  Score=11.08  Aligned_cols=6  Identities=67%  Similarity=1.165  Sum_probs=0.0  Template_Neff=5.800
+
+Q PKKTLK            1 PKKTLK    6 (6)
+Q Consensus         1 pkktlk    6 (6)
+                      |+|+++
+T Consensus         7 ~~~s~~   12 (180)
+T 1DS6_B            7 PQKSLK   12 (180)
+T ss_dssp             CCCCHH
+T ss_pred             CCCCHH
+
+
+No 5
+>6QES_A Gallinacin-11; new fold, double-beta-defensin, defensin, avian; NMR {N/A}
+Probab=4.72  E-value=7.7e+02  Score=9.70  Aligned_cols=6  Identities=33%  Similarity=0.772  Sum_probs=0.0  Template_Neff=1.900
+
+Q PKKTLK            1 PKKTLK    6 (6)
+Q Consensus         1 pkktlk    6 (6)
+                      |+.||.
+T Consensus         2 prdtl~    7 (40)
+T 6QES_A            2 PRDTSR    7 (40)
+T ss_dssp             CSSHHH
+T ss_pred             Cchhhh
+
+
+No 6
+>1QQH_A VIRUS/VIRAL PROTEIN; AMPHIPATHIC HELIX, CASHEW/KIDNEY SHAPE, Viral; 2.1A {Human papillomavirus type 18} SCOP: b.91.1.1
+Probab=4.67  E-value=7.8e+02  Score=11.04  Aligned_cols=6  Identities=33%  Similarity=0.722  Sum_probs=0.0  Template_Neff=4.800
+
+Q PKKTLK            1 PKKTLK    6 (6)
+Q Consensus         1 pkktlk    6 (6)
+                      |+.++|
+T Consensus        41 P~~~fK   46 (144)
+T 1QQH_A           41 PTHCFK   46 (144)
+T ss_dssp             STTSEE
+T ss_pred             CcCCcc
+
+
+No 7
+>5SUP_H ATP-dependent RNA helicase SUB2, YRA1/RNA; mRNA export, HYDROLASE-RNA complex; HET: ADP, BEF; 2.6A {Saccharomyces cerevisiae}
+Probab=4.65  E-value=7.8e+02  Score=8.68  Aligned_cols=4  Identities=50%  Similarity=0.684  Sum_probs=0.0  Template_Neff=4.200
+
+Q PKKTLK            1 PKKT    4 (6)
+Q Consensus         1 pkkt    4 (6)
+                      |+||
+T Consensus        14 ~kkT   17 (32)
+T 5SUP_H           14 AKKS   17 (32)
+T ss_pred             CCCC
+
+
+No 8
+>4V3P_Lp 40S WHEAT GERM RIBOSOME1/RNA Complex; RIBOSOME; 34.0A {Triticum aestivum}
+Probab=4.63  E-value=7.9e+02  Score=8.74  Aligned_cols=6  Identities=67%  Similarity=1.115  Sum_probs=0.0  Template_Neff=5.200
+
+Q PKKTLK            1 PKKTLK    6 (6)
+Q Consensus         1 pkktlk    6 (6)
+                      ||+.++
+T Consensus        35 ~K~~~~   40 (41)
+T 4V3P_Lp          35 PKKKIK   40 (41)
+T ss_pred             Chhhhc
+
+
+No 9
+>6B85_A TMHC4_R; De novo design, multipass transmembrane; 3.889A {synthetic construct}
+Probab=4.24  E-value=8.8e+02  Score=8.37  Aligned_cols=4  Identities=50%  Similarity=0.551  Sum_probs=0.0  Template_Neff=12.300
+
+Q PKKTLK            1 PKKT    4 (6)
+Q Consensus         1 pkkt    4 (6)
+                      ||++
+T Consensus         2 ~~~~    5 (223)
+T 6B85_A            2 SKDT    5 (223)
+T ss_dssp             CHHH
+T ss_pred             Ccch
+
+
+No 10
+>6B85_J TMHC4_R; De novo design, multipass transmembrane; 3.889A {synthetic construct}
+Probab=4.24  E-value=8.8e+02  Score=8.37  Aligned_cols=4  Identities=50%  Similarity=0.551  Sum_probs=0.0  Template_Neff=12.300
+
+Q PKKTLK            1 PKKT    4 (6)
+Q Consensus         1 pkkt    4 (6)
+                      ||++
+T Consensus         2 ~~~~    5 (223)
+T 6B85_J            2 SKDT    5 (223)
+T ss_dssp             CHHH
+T ss_pred             Ccch
+
+

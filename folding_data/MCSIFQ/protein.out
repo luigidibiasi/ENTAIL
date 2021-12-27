@@ -1,0 +1,149 @@
+Query         MCSIFQ
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 21:25:29 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/MCSIFQ/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/MCSIFQ/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6K15_E RSC7, Chromatin structu  58.1     8.9 9.8E-05   16.3   0.0    6    1-6      36-41  (78)
+  2 6V92_C Chromatin structure-rem  58.1     8.9 9.8E-05   16.3   0.0    6    1-6      36-41  (78)
+  3 3KK4_A uncharacterized protein  44.2      21 0.00023   15.4   0.0    6    1-6       4-9   (125)
+  4 4PMV_B family 10 glycoside hyd  19.5 1.1E+02  0.0012   12.7   0.0    5    2-6     262-266 (357)
+  5 2R7G_A Retinoblastoma-associat  19.3 1.1E+02  0.0012   14.5   0.0    5    1-5     265-269 (347)
+  6 4YOO_A p107 pocket domain, SER  18.1 1.2E+02  0.0013   14.5   0.0    5    1-5     278-282 (369)
+  7 2B2A_A Telomerase reverse tran  17.9 1.2E+02  0.0013   13.2   0.0    5    2-6     163-167 (199)
+  8 1DDM_A NUMB PROTEIN/NUMB ASSOC  17.5 1.3E+02  0.0014   10.7   0.0    6    1-6     107-112 (135)
+  9 4ELL_A Retinoblastoma-associat  17.2 1.3E+02  0.0014   14.4   0.0    5    1-5     329-333 (411)
+ 10 4YOZ_A p107 pocket domain, ASP  17.2 1.3E+02  0.0014   14.4   0.0    5    1-5     280-284 (371)
+
+No 1
+>6K15_E RSC7, Chromatin structure-remodeling complex protein; chromatin remodeler, SWI/SNF family, DNA; 3.4A {Saccharomyces cerevisiae S288c}
+Probab=58.12  E-value=8.9  Score=16.28  Aligned_cols=6  Identities=17%  Similarity=1.093  Sum_probs=4.3  Template_Neff=2.700
+
+Q MCSIFQ            1 MCSIFQ    6 (6)
+Q Consensus         1 mcsifq    6 (6)
+                      ||-.||
+T Consensus        36 MCELF~   41 (78)
+T 6K15_E           36 ICELLN   41 (78)
+T ss_pred             HHHHHH
+Confidence            677776
+
+
+No 2
+>6V92_C Chromatin structure-remodeling complex proteins; Chromatin remodeler, RSC, GENE REGULATION; 20.0A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=58.12  E-value=8.9  Score=16.28  Aligned_cols=6  Identities=17%  Similarity=1.093  Sum_probs=4.3  Template_Neff=2.700
+
+Q MCSIFQ            1 MCSIFQ    6 (6)
+Q Consensus         1 mcsifq    6 (6)
+                      ||-.||
+T Consensus        36 MCELF~   41 (78)
+T 6V92_C           36 ICELLN   41 (78)
+T ss_pred             HHHHHH
+Confidence            677776
+
+
+No 3
+>3KK4_A uncharacterized protein BP1543; Structural genomics, PSI-2, Protein Structure; HET: CME, MSE; 1.95A {Bordetella pertussis Tohama I}
+Probab=44.17  E-value=21  Score=15.37  Aligned_cols=6  Identities=67%  Similarity=1.392  Sum_probs=4.3  Template_Neff=4.800
+
+Q MCSIFQ            1 MCSIFQ    6 (6)
+Q Consensus         1 mcsifq    6 (6)
+                      ||-||.
+T Consensus         4 mc~~~~    9 (125)
+T 3KK4_A            4 MCEIFI    9 (125)
+T ss_dssp             HHHHHH
+T ss_pred             ccceee
+Confidence            787773
+
+
+No 4
+>4PMV_B family 10 glycoside hydrolase; glycoside hydrolase, HYDROLASE; 3.001A {Xanthomonas axonopodis pv. citri}
+Probab=19.53  E-value=1.1e+02  Score=12.73  Aligned_cols=5  Identities=40%  Similarity=0.441  Sum_probs=0.0  Template_Neff=10.000
+
+Q MCSIFQ            2 CSIFQ    6 (6)
+Q Consensus         2 csifq    6 (6)
+                      |++||
+T Consensus       262 ~~~~~  266 (357)
+T 4PMV_B          262 HKQFQ  266 (357)
+T ss_dssp             SGGGG
+T ss_pred             ccccc
+
+
+No 5
+>2R7G_A Retinoblastoma-associated protein/Early E1A 32 kDa; Retinoblastoma protein, E1A, E2F displacement; HET: SO4; 1.671A {Homo sapiens} SCOP: a.74.1.3
+Probab=19.33  E-value=1.1e+02  Score=14.52  Aligned_cols=5  Identities=60%  Similarity=1.703  Sum_probs=0.0  Template_Neff=6.400
+
+Q MCSIFQ            1 MCSIF    5 (6)
+Q Consensus         1 mcsif    5 (6)
+                      ||+|+
+T Consensus       265 mC~iY  269 (347)
+T 2R7G_A          265 MCSMY  269 (347)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 6
+>4YOO_A p107 pocket domain, SER-ALA-LEU-LEU-SER-PHE-GLU-LYS-LEU-ASP-ARG-ALA-SEP-ALA-ASP-LEU-TRP-PRO; Cyclin Box Pocket Protein Transcriptional; HET: SEP, SO4; 2.4A {Homo sapiens}
+Probab=18.14  E-value=1.2e+02  Score=14.55  Aligned_cols=5  Identities=20%  Similarity=1.431  Sum_probs=0.0  Template_Neff=6.300
+
+Q MCSIFQ            1 MCSIF    5 (6)
+Q Consensus         1 mcsif    5 (6)
+                      ||+|+
+T Consensus       278 mC~iY  282 (369)
+T 4YOO_A          278 LCAFY  282 (369)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 7
+>2B2A_A Telomerase reverse transcriptase (E.C.2.7.7.49); Telomerase, TERT, Reverse Transcriptase, RT; 2.22A {Tetrahymena thermophila}
+Probab=17.94  E-value=1.2e+02  Score=13.17  Aligned_cols=5  Identities=20%  Similarity=0.481  Sum_probs=0.0  Template_Neff=6.700
+
+Q MCSIFQ            2 CSIFQ    6 (6)
+Q Consensus         2 csifq    6 (6)
+                      ||||+
+T Consensus       163 ~siF~  167 (199)
+T 2B2A_A          163 FLVFT  167 (199)
+T ss_pred             CceEE
+
+
+No 8
+>1DDM_A NUMB PROTEIN/NUMB ASSOCIATE KINASE; COMPLEX, SIGNAL TRANSDUCTION, PHOSPHOTYROSINE BINDING; NMR {Drosophila melanogaster} SCOP: b.55.1.2
+Probab=17.46  E-value=1.3e+02  Score=10.67  Aligned_cols=6  Identities=50%  Similarity=0.916  Sum_probs=0.0  Template_Neff=10.100
+
+Q MCSIFQ            1 MCSIFQ    6 (6)
+Q Consensus         1 mcsifq    6 (6)
+                      .|.+|+
+T Consensus       107 ~chvF~  112 (135)
+T 1DDM_A          107 MCHGFL  112 (135)
+T ss_pred             EEEEEE
+
+
+No 9
+>4ELL_A Retinoblastoma-associated protein; CYCLIN FOLD, TUMOR SUPPRESSOR, CELL; 1.98A {Homo sapiens}
+Probab=17.24  E-value=1.3e+02  Score=14.45  Aligned_cols=5  Identities=60%  Similarity=1.703  Sum_probs=0.0  Template_Neff=6.700
+
+Q MCSIFQ            1 MCSIF    5 (6)
+Q Consensus         1 mcsif    5 (6)
+                      ||+|+
+T Consensus       329 mC~iY  333 (411)
+T 4ELL_A          329 MCSMY  333 (411)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 10
+>4YOZ_A p107 pocket domain, ASP-LEU-TYR-CYS-TYR-GLU-GLN-LEU-ASN; Pocket protein, Cyclin Box, Transcriptional; HET: SO4; 2.245A {Homo sapiens}
+Probab=17.18  E-value=1.3e+02  Score=14.44  Aligned_cols=5  Identities=20%  Similarity=1.431  Sum_probs=0.0  Template_Neff=6.300
+
+Q MCSIFQ            1 MCSIF    5 (6)
+Q Consensus         1 mcsif    5 (6)
+                      ||+|+
+T Consensus       280 mC~iY  284 (371)
+T 4YOZ_A          280 LCAFY  284 (371)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+

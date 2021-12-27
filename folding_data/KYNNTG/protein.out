@@ -1,0 +1,151 @@
+Query         KYNNTG
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 13:11:32 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/KYNNTG/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/KYNNTG/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5B2P_A CRISPR-associated endon  22.0      88 0.00097   19.0   0.0    6    1-6     643-648 (1632)
+  2 5L82_A Enterococcin K1; STRUCT  21.6      90   0.001   12.1   0.0    6    1-6       4-9   (37)
+  3 5B2Q_A CRISPR-associated endon  16.8 1.3E+02  0.0015   18.3   0.0    6    1-6     643-648 (1632)
+  4 4OSN_A Envelope glycoprotein B   9.8 2.9E+02  0.0032   12.4   0.0    5    1-5      98-102 (129)
+  5 4PMH_A pectin methyl esterase;   9.7   3E+02  0.0033   12.6   0.0    5    2-6     359-363 (366)
+  6 4OT1_A Envelope glycoprotein B   9.5 3.1E+02  0.0034   12.3   0.0    5    1-5      98-102 (129)
+  7 5MQ0_R Pre-mRNA-splicing facto   9.1 3.3E+02  0.0036   11.8   0.0    5    2-6       3-7   (135)
+  8 7DCO_U PRP8 isoform 1, SNU114    9.1 3.3E+02  0.0036   11.8   0.0    5    2-6       3-7   (135)
+  9 7O85_P Anthrax, PA, neutralizi   8.9 3.4E+02  0.0037   14.4   0.0    6    1-6     192-197 (441)
+ 10 5C1E_A Pectinesterase (E.C.3.1   8.9 3.4E+02  0.0037   11.4   0.0    5    2-6     259-263 (299)
+
+No 1
+>5B2P_A CRISPR-associated endonuclease Cas9/RNA Complex; CRISPR-Cas9, genome engineering, HYDROLASE-RNA-DNA complex; HET: EDO, CA; 1.7A {Francisella tularensis subsp. novicida U112}
+Probab=21.97  E-value=88  Score=19.00  Aligned_cols=6  Identities=100%  Similarity=1.536  Sum_probs=4.6  Template_Neff=3.700
+
+Q KYNNTG            1 KYNNTG    6 (6)
+Q Consensus         1 kynntg    6 (6)
+                      ||||||
+T Consensus       643 ~~~~~~  648 (1632)
+T 5B2P_A          643 KYNNTG  648 (1632)
+T ss_dssp             EEEEEE
+T ss_pred             cccCCC
+Confidence            688876
+
+
+No 2
+>5L82_A Enterococcin K1; STRUCTURE FROM CYANA 2.1, UNKNOWN; NMR {N/A}
+Probab=21.61  E-value=90  Score=12.08  Aligned_cols=6  Identities=67%  Similarity=1.126  Sum_probs=3.0  Template_Neff=1.800
+
+Q KYNNTG            1 KYNNTG    6 (6)
+Q Consensus         1 kynntg    6 (6)
+                      |+||+|
+T Consensus         4 kf~~~~    9 (37)
+T 5L82_A            4 KFNPTG    9 (37)
+T ss_dssp             SSSTHH
+T ss_pred             cCCCCc
+Confidence            455553
+
+
+No 3
+>5B2Q_A CRISPR-associated endonuclease Cas9/RNA Complex; CRISPR-Cas9, genome engineering, HYDROLASE-RNA-DNA complex; HET: CA, EDO; 1.7A {Francisella tularensis subsp. novicida U112}
+Probab=16.80  E-value=1.3e+02  Score=18.34  Aligned_cols=6  Identities=100%  Similarity=1.536  Sum_probs=4.4  Template_Neff=3.700
+
+Q KYNNTG            1 KYNNTG    6 (6)
+Q Consensus         1 kynntg    6 (6)
+                      ||||||
+T Consensus       643 ~~~~~~  648 (1632)
+T 5B2Q_A          643 KYNNTG  648 (1632)
+T ss_dssp             EEEEEE
+T ss_pred             cccCCC
+Confidence            578876
+
+
+No 4
+>4OSN_A Envelope glycoprotein B; PH domain, antigenic domain, fusion; 1.76A {Human cytomegalovirus}
+Probab=9.84  E-value=2.9e+02  Score=12.40  Aligned_cols=5  Identities=60%  Similarity=0.993  Sum_probs=0.0  Template_Neff=4.000
+
+Q KYNNTG            1 KYNNT    5 (6)
+Q Consensus         1 kynnt    5 (6)
+                      +||+|
+T Consensus        98 kyN~T  102 (129)
+T 4OSN_A           98 SYNQT  102 (129)
+T ss_dssp             HCCTT
+T ss_pred             hcccc
+
+
+No 5
+>4PMH_A pectin methyl esterase; beta-barrel, pectin methyl esterase, HYDROLASE; 1.79A {Sitophilus oryzae}
+Probab=9.70  E-value=3e+02  Score=12.56  Aligned_cols=5  Identities=80%  Similarity=1.564  Sum_probs=0.0  Template_Neff=7.900
+
+Q KYNNTG            2 YNNTG    6 (6)
+Q Consensus         2 ynntg    6 (6)
+                      |+|+|
+T Consensus       359 y~n~g  363 (366)
+T 4PMH_A          359 YNNSG  363 (366)
+T ss_dssp             ESCBS
+T ss_pred             ecccC
+
+
+No 6
+>4OT1_A Envelope glycoprotein B, SM5-1 Fab; Immunoglobulin, PH domain, Antibody-Antigen Recognition; HET: EDO, EPE; 2.11A {Human Cytomegalovirus}
+Probab=9.46  E-value=3.1e+02  Score=12.33  Aligned_cols=5  Identities=60%  Similarity=0.993  Sum_probs=0.0  Template_Neff=4.000
+
+Q KYNNTG            1 KYNNT    5 (6)
+Q Consensus         1 kynnt    5 (6)
+                      +||+|
+T Consensus        98 kyN~T  102 (129)
+T 4OT1_A           98 SYNQT  102 (129)
+T ss_dssp             HSCTT
+T ss_pred             hcccc
+
+
+No 7
+>5MQ0_R Pre-mRNA-splicing factor 8, Pre-mRNA-splicing factor; pre-mRNA splicing, trans-esterification, lariat intermediate; HET: GTP, IHP; 4.17A {Saccharomyces cerevisiae}
+Probab=9.08  E-value=3.3e+02  Score=11.79  Aligned_cols=5  Identities=60%  Similarity=1.199  Sum_probs=0.0  Template_Neff=5.400
+
+Q KYNNTG            2 YNNTG    6 (6)
+Q Consensus         2 ynntg    6 (6)
+                      ||+.|
+T Consensus         3 YNGIG    7 (135)
+T 5MQ0_R            3 YNGIG    7 (135)
+T ss_pred             CCCCC
+
+
+No 8
+>7DCO_U PRP8 isoform 1, SNU114 isoform; RNA splicing, spliceosome, Bact complex; HET: ZN, IHP, GTP; 2.5A {Saccharomyces cerevisiae}
+Probab=9.08  E-value=3.3e+02  Score=11.79  Aligned_cols=5  Identities=60%  Similarity=1.199  Sum_probs=0.0  Template_Neff=5.400
+
+Q KYNNTG            2 YNNTG    6 (6)
+Q Consensus         2 ynntg    6 (6)
+                      ||+.|
+T Consensus         3 YNGIG    7 (135)
+T 7DCO_U            3 YNGIG    7 (135)
+T ss_pred             CCCCC
+
+
+No 9
+>7O85_P Anthrax, PA, neutralizing, Fab, TOXIN; HET: CA; 3.3A {Bacillus anthracis}
+Probab=8.92  E-value=3.4e+02  Score=14.36  Aligned_cols=6  Identities=67%  Similarity=1.176  Sum_probs=0.0  Template_Neff=4.200
+
+Q KYNNTG            1 KYNNTG    6 (6)
+Q Consensus         1 kynntg    6 (6)
+                      +|.|+|
+T Consensus       192 RY~N~G  197 (441)
+T 7O85_P          192 RYVNTG  197 (441)
+T ss_dssp             CCEECS
+T ss_pred             EEEecc
+
+
+No 10
+>5C1E_A Pectinesterase (E.C.3.1.1.11); parallel beta helix, pectin methylesterase; HET: GOL, NAG, SO4; 1.75A {Aspergillus niger (strain ATCC 1015 / CBS 113.46 / FGSC A1144 / LSHB Ac4 / NCTC 3858a / NRRL 328 / USDA 3528.7)}
+Probab=8.87  E-value=3.4e+02  Score=11.38  Aligned_cols=5  Identities=80%  Similarity=1.564  Sum_probs=0.0  Template_Neff=9.300
+
+Q KYNNTG            2 YNNTG    6 (6)
+Q Consensus         2 ynntg    6 (6)
+                      |+|+|
+T Consensus       259 y~~~g  263 (299)
+T 5C1E_A          259 YNNSG  263 (299)
+T ss_dssp             ESCBS
+T ss_pred             ecccC
+
+

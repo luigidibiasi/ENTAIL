@@ -1,0 +1,148 @@
+Query         KNEEGA
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 11:37:44 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/KNEEGA/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/KNEEGA/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6IIC_B VP1 of Mud crab dicistr   3.9 9.8E+02   0.011   10.4   0.0    6    1-6      18-23  (253)
+  2 4V9F_6 PROTEIN/RNA Complex; 50   3.4 1.1E+03   0.013    8.5   0.0    5    2-6      27-31  (56)
+  3 3FS3_A Nucleosome assembly pro   3.2 1.2E+03   0.014   11.3   0.0    5    2-6     346-350 (359)
+  4 5Z2N_B Oxysterol-binding prote   3.2 1.3E+03   0.014    6.6   0.0    5    1-5       1-5   (136)
+  5 3B0Z_A Flagellar biosynthetic    3.2 1.3E+03   0.014    8.7   0.0    5    1-5      15-19  (52)
+  6 6GVW_D BRCA1-A complex subunit   3.1 1.3E+03   0.014   11.1   0.0    5    2-6      38-42  (337)
+  7 1BK8_A ANTIMICROBIAL PROTEIN 1   3.0 1.3E+03   0.015    7.8   0.0    6    1-6      25-30  (50)
+  8 2XDD_B TOXN (E.C.3.1.27.3); TO   3.0 1.4E+03   0.015   10.1   0.0    5    1-5     166-170 (171)
+  9 5BQ5_B Insertion sequence IS53   2.9 1.4E+03   0.015    8.4   0.0    6    1-6     183-188 (189)
+ 10 2JLI_A YOP PROTEINS TRANSLOCAT   2.9 1.4E+03   0.015    9.5   0.0    5    1-5       7-11  (123)
+
+No 1
+>6IIC_B VP1 of Mud crab dicistrovirus; Dicistrovirus, VIRUS; 3.3A {Mud crab virus}
+Probab=3.88  E-value=9.8e+02  Score=10.38  Aligned_cols=6  Identities=67%  Similarity=0.927  Sum_probs=0.0  Template_Neff=8.000
+
+Q KNEEGA            1 KNEEGA    6 (6)
+Q Consensus         1 kneega    6 (6)
+                      .++||+
+T Consensus        18 ~~~~~~   23 (253)
+T 6IIC_B           18 SNSEGA   23 (253)
+T ss_dssp             CEESSS
+T ss_pred             eccccc
+
+
+No 2
+>4V9F_6 PROTEIN/RNA Complex; 50S ribosomal subunit, ribonucleoprotein, ribosomal; HET: OMU, UR3, 1MA, NA, MG, CL, OMG, PSU, ACY; 2.404A {Haloarcula marismortui}
+Probab=3.43  E-value=1.1e+03  Score=8.46  Aligned_cols=5  Identities=60%  Similarity=0.494  Sum_probs=0.0  Template_Neff=6.200
+
+Q KNEEGA            2 NEEGA    6 (6)
+Q Consensus         2 neega    6 (6)
+                      |+++|
+T Consensus        27 ~~~~A   31 (56)
+T 4V9F_6           27 NENVA   31 (56)
+T ss_pred             CHHHH
+
+
+No 3
+>3FS3_A Nucleosome assembly protein 1, putative; plasmodium falciparum, nucleosome assembly protein; 2.3A {Plasmodium falciparum}
+Probab=3.23  E-value=1.2e+03  Score=11.34  Aligned_cols=5  Identities=80%  Similarity=1.139  Sum_probs=0.0  Template_Neff=6.400
+
+Q KNEEGA            2 NEEGA    6 (6)
+Q Consensus         2 neega    6 (6)
+                      +++||
+T Consensus       346 ~~~~~  350 (359)
+T 3FS3_A          346 EEEGA  350 (359)
+T ss_dssp             -----
+T ss_pred             hhchh
+
+
+No 4
+>5Z2N_B Oxysterol-binding protein-related protein 1; GTPase, Effector, Complex, ENDOCYTOSIS; 2.14A {Mus musculus}
+Probab=3.18  E-value=1.3e+03  Score=6.60  Aligned_cols=5  Identities=40%  Similarity=0.428  Sum_probs=0.0  Template_Neff=13.600
+
+Q KNEEGA            1 KNEEG    5 (6)
+Q Consensus         1 kneeg    5 (6)
+                      +|.+|
+T Consensus         1 ~~~~~    5 (136)
+T 5Z2N_B            1 MNTEA    5 (136)
+T ss_dssp             CCCHH
+T ss_pred             CChHH
+
+
+No 5
+>3B0Z_A Flagellar biosynthetic protein flhB; flagella, type III secretion system; 2.45A {Salmonella enterica subsp. enterica serovar Typhimurium}
+Probab=3.16  E-value=1.3e+03  Score=8.68  Aligned_cols=5  Identities=60%  Similarity=0.966  Sum_probs=0.0  Template_Neff=5.000
+
+Q KNEEGA            1 KNEEG    5 (6)
+Q Consensus         1 kneeg    5 (6)
+                      |+.||
+T Consensus        15 Ke~eG   19 (52)
+T 3B0Z_A           15 KESEG   19 (52)
+T ss_dssp             HHHHH
+T ss_pred             HHhhC
+
+
+No 6
+>6GVW_D BRCA1-A complex subunit Abraxas 1; Deubiquitinase complex, DUB, Lysine-63 linkage; 3.75A {Mus musculus}
+Probab=3.11  E-value=1.3e+03  Score=11.14  Aligned_cols=5  Identities=80%  Similarity=1.059  Sum_probs=0.0  Template_Neff=6.500
+
+Q KNEEGA            2 NEEGA    6 (6)
+Q Consensus         2 neega    6 (6)
+                      |.|||
+T Consensus        38 ~~~~~   42 (337)
+T 6GVW_D           38 NPEGA   42 (337)
+T ss_pred             CcCCh
+
+
+No 7
+>1BK8_A ANTIMICROBIAL PROTEIN 1; PLANT DEFENSIN, ANTIMICROBIAL, CYSTEINE-STABILIZED ALFA/; NMR {Aesculus hippocastanum} SCOP: g.3.7.5
+Probab=3.05  E-value=1.3e+03  Score=7.80  Aligned_cols=6  Identities=33%  Similarity=0.241  Sum_probs=0.0  Template_Neff=7.000
+
+Q KNEEGA            1 KNEEGA    6 (6)
+Q Consensus         1 kneega    6 (6)
+                      +++||+
+T Consensus        25 ~~~Eg~   30 (50)
+T 1BK8_A           25 QDWEKA   30 (50)
+T ss_dssp             HTSSCC
+T ss_pred             ccccCC
+
+
+No 8
+>2XDD_B TOXN (E.C.3.1.27.3); TOXIN-RNA COMPLEX, ABORTIVE INFECTION, PHAGE; HET: A23, MSE, ZN; 3.2A {PECTOBACTERIUM ATROSEPTICUM}
+Probab=2.97  E-value=1.4e+03  Score=10.15  Aligned_cols=5  Identities=60%  Similarity=0.986  Sum_probs=0.0  Template_Neff=6.000
+
+Q KNEEGA            1 KNEEG    5 (6)
+Q Consensus         1 kneeg    5 (6)
+                      ++|||
+T Consensus       166 ~~~~~  170 (171)
+T 2XDD_B          166 DTEEG  170 (171)
+T ss_dssp             -----
+T ss_pred             ccccC
+
+
+No 9
+>5BQ5_B Insertion sequence IS5376 putative ATP-binding; AAA+, ATPase, transposition, DNA binding; HET: BEF, ADP, MSE; 2.1A {Geobacillus stearothermophilus}
+Probab=2.94  E-value=1.4e+03  Score=8.43  Aligned_cols=6  Identities=17%  Similarity=0.213  Sum_probs=0.0  Template_Neff=10.500
+
+Q KNEEGA            1 KNEEGA    6 (6)
+Q Consensus         1 kneega    6 (6)
+                      |.|+++
+T Consensus       183 ~~~~~~  188 (189)
+T 5BQ5_B          183 RLQEEK  188 (189)
+T ss_dssp             HHHHHH
+T ss_pred             hhHhhc
+
+
+No 10
+>2JLI_A YOP PROTEINS TRANSLOCATION PROTEIN; CELL MEMBRANE, TRANSMEMBRANE, YERSINIA PESTIS; 1.13A {YERSINIA PESTIS}
+Probab=2.92  E-value=1.4e+03  Score=9.48  Aligned_cols=5  Identities=60%  Similarity=0.820  Sum_probs=0.0  Template_Neff=6.300
+
+Q KNEEGA            1 KNEEG    5 (6)
+Q Consensus         1 kneeg    5 (6)
+                      |+.||
+T Consensus         7 Ke~eG   11 (123)
+T 2JLI_A            7 KEMEG   11 (123)
+T ss_dssp             -----
+T ss_pred             HHhhC
+
+

@@ -1,0 +1,150 @@
+Query         IQRTPK
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 09:13:45 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/IQRTPK/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/IQRTPK/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2LID_A Vitellogenin; LIPID TRA  26.2      64 0.00071   12.4   0.0    6    1-6      25-30  (35)
+  2 1UW4_C UPF3X, REGULATOR OF NON   8.5 3.6E+02  0.0039    9.7   0.0    5    1-5      87-91  (91)
+  3 1MNN_A Ndt80 protein/DNA Compl   8.3 3.7E+02  0.0041   13.0   0.0    6    1-6     171-176 (340)
+  4 4G7N_B Serine/threonine-protei   8.0 3.9E+02  0.0043   12.2   0.0    5    2-6     120-124 (225)
+  5 2AR8_A tryptophan halogenase P   8.0 3.9E+02  0.0043   12.2   0.0    5    2-6     527-531 (538)
+  6 3BPO_A Interleukin 13, Interle   7.7 4.1E+02  0.0045   12.4   0.0    6    1-6      61-66  (127)
+  7 2QFA_B Baculoviral IAP repeat-   7.7 4.1E+02  0.0045    9.0   0.0    6    1-6      44-49  (62)
+  8 2RAW_B Baculoviral IAP repeat-   7.7 4.1E+02  0.0045    9.4   0.0    6    1-6      40-45  (68)
+  9 4G7N_A Serine/threonine-protei   7.3 4.4E+02  0.0049   12.1   0.0    5    2-6     120-124 (225)
+ 10 5ET1_D Espin, Myosin-IIIb; unc   7.2 4.5E+02  0.0049   10.2   0.0    5    2-6       3-7   (36)
+
+No 1
+>2LID_A Vitellogenin; LIPID TRANSPORT; NMR {N/A}
+Probab=26.23  E-value=64  Score=12.42  Aligned_cols=6  Identities=67%  Similarity=1.071  Sum_probs=3.6  Template_Neff=1.000
+
+Q IQRTPK            1 IQRTPK    6 (6)
+Q Consensus         1 iqrtpk    6 (6)
+                      .||.||
+T Consensus        25 fqrkpk   30 (35)
+T 2LID_A           25 FQRKPK   30 (35)
+T ss_dssp             TCSCSS
+T ss_pred             hhcCCc
+Confidence            367665
+
+
+No 2
+>1UW4_C UPF3X, REGULATOR OF NONSENSE TRANSCRIPTS; NONSENSE MEDIATED MRNA DECAY PROTEIN; 1.95A {HOMO SAPIENS} SCOP: d.58.7.4
+Probab=8.52  E-value=3.6e+02  Score=9.71  Aligned_cols=5  Identities=20%  Similarity=0.488  Sum_probs=0.0  Template_Neff=8.300
+
+Q IQRTPK            1 IQRTP    5 (6)
+Q Consensus         1 iqrtp    5 (6)
+                      +|++|
+T Consensus        87 ~Q~~p   91 (91)
+T 1UW4_C           87 FQKAA   91 (91)
+T ss_dssp             SCCCC
+T ss_pred             cccCC
+
+
+No 3
+>1MNN_A Ndt80 protein/DNA Complex; IG FOLD, PROTEIN_DNA COMPLEX, TRANSCRIPTION-DNA; 1.4A {Saccharomyces cerevisiae} SCOP: b.2.5.7
+Probab=8.34  E-value=3.7e+02  Score=13.03  Aligned_cols=6  Identities=50%  Similarity=0.689  Sum_probs=0.0  Template_Neff=6.000
+
+Q IQRTPK            1 IQRTPK    6 (6)
+Q Consensus         1 iqrtpk    6 (6)
+                      ||.|||
+T Consensus       171 VQhT~K  176 (340)
+T 1MNN_A          171 VQHTAK  176 (340)
+T ss_dssp             EEECTT
+T ss_pred             EEeCCC
+
+
+No 4
+>4G7N_B Serine/threonine-protein kinase PLK4 (E.C.2.7.11.21); Polo Box, Kinase targeting and; HET: SO4; 2.3A {Drosophila melanogaster}
+Probab=8.04  E-value=3.9e+02  Score=12.19  Aligned_cols=5  Identities=60%  Similarity=1.079  Sum_probs=0.0  Template_Neff=6.100
+
+Q IQRTPK            2 QRTPK    6 (6)
+Q Consensus         2 qrtpk    6 (6)
+                      +||||
+T Consensus       120 sktPK  124 (225)
+T 4G7N_B          120 SKTPK  124 (225)
+T ss_dssp             TTSEE
+T ss_pred             ccCCe
+
+
+No 5
+>2AR8_A tryptophan halogenase PrnA; tryptophan 7-halogenase, flavin-dependent halogenase, helical; HET: CTE, FAD; 2.2A {Pseudomonas fluorescens}
+Probab=7.97  E-value=3.9e+02  Score=12.19  Aligned_cols=5  Identities=80%  Similarity=1.139  Sum_probs=0.0  Template_Neff=9.400
+
+Q IQRTPK            2 QRTPK    6 (6)
+Q Consensus         2 qrtpk    6 (6)
+                      ||.||
+T Consensus       527 ~~~~~  531 (538)
+T 2AR8_A          527 QRGPK  531 (538)
+T ss_dssp             -----
+T ss_pred             CCChh
+
+
+No 6
+>3BPO_A Interleukin 13, Interleukin-4 receptor alpha; IL4, IL13, IL4R, IL13R, cytokine; HET: NAG; 3.0A {Homo sapiens}
+Probab=7.72  E-value=4.1e+02  Score=12.42  Aligned_cols=6  Identities=33%  Similarity=0.745  Sum_probs=0.0  Template_Neff=2.400
+
+Q IQRTPK            1 IQRTPK    6 (6)
+Q Consensus         1 iqrtpk    6 (6)
+                      ||||.+
+T Consensus        61 iqrTqr   66 (127)
+T 3BPO_A           61 IEKTQR   66 (127)
+T ss_dssp             GHHHHH
+T ss_pred             HHHHHH
+
+
+No 7
+>2QFA_B Baculoviral IAP repeat-containing protein 5; three-helical-bundle, long helix, protein complex; HET: MES; 1.4A {Homo sapiens}
+Probab=7.70  E-value=4.1e+02  Score=9.02  Aligned_cols=6  Identities=67%  Similarity=0.922  Sum_probs=0.0  Template_Neff=8.000
+
+Q IQRTPK            1 IQRTPK    6 (6)
+Q Consensus         1 iqrtpk    6 (6)
+                      |.|.|+
+T Consensus        44 l~riP~   49 (62)
+T 2QFA_B           44 ILRLPK   49 (62)
+T ss_dssp             HHHSCH
+T ss_pred             HhhcCH
+
+
+No 8
+>2RAW_B Baculoviral IAP repeat-containing protein 5; Cell cycle, DasraB, chromosomal passender; 2.4A {Homo sapiens}
+Probab=7.70  E-value=4.1e+02  Score=9.36  Aligned_cols=6  Identities=67%  Similarity=0.922  Sum_probs=0.0  Template_Neff=7.600
+
+Q IQRTPK            1 IQRTPK    6 (6)
+Q Consensus         1 iqrtpk    6 (6)
+                      +.|.|+
+T Consensus        40 l~riP~   45 (68)
+T 2RAW_B           40 ILRLPK   45 (68)
+T ss_pred             HhcCCH
+
+
+No 9
+>4G7N_A Serine/threonine-protein kinase PLK4 (E.C.2.7.11.21); Polo Box, Kinase targeting and; HET: SO4; 2.3A {Drosophila melanogaster}
+Probab=7.29  E-value=4.4e+02  Score=12.07  Aligned_cols=5  Identities=60%  Similarity=1.079  Sum_probs=0.0  Template_Neff=6.000
+
+Q IQRTPK            2 QRTPK    6 (6)
+Q Consensus         2 qrtpk    6 (6)
+                      +||||
+T Consensus       120 skTPK  124 (225)
+T 4G7N_A          120 SKTPK  124 (225)
+T ss_dssp             TTSEE
+T ss_pred             hcCCe
+
+
+No 10
+>5ET1_D Espin, Myosin-IIIb; unconventional myosin, complex, protein binding; HET: GOL; 1.65A {Mus musculus}
+Probab=7.19  E-value=4.5e+02  Score=10.16  Aligned_cols=5  Identities=60%  Similarity=1.218  Sum_probs=0.0  Template_Neff=1.800
+
+Q IQRTPK            2 QRTPK    6 (6)
+Q Consensus         2 qrtpk    6 (6)
+                      ||+|.
+T Consensus         3 q~tpr    7 (36)
+T 5ET1_D            3 QRAPR    7 (36)
+T ss_dssp             ----C
+T ss_pred             CcCcc
+
+

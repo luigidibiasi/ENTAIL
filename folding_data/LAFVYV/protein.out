@@ -1,0 +1,146 @@
+Query         LAFVYV
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 13:30:18 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LAFVYV/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LAFVYV/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 7ANE_an mL94, mL89, Ribosomal   10.3 2.8E+02  0.0031   14.6   0.0    5    1-5      32-36  (302)
+  2 6HIY_DM Uncharacterized protei  10.2 2.8E+02  0.0031   14.5   0.0    5    1-5      32-36  (294)
+  3 3JCU_K Photosystem II protein    9.9 2.9E+02  0.0032   11.4   0.0    5    1-5      48-52  (59)
+  4 2KL2_A AIG2-like domain-contai   9.8   3E+02  0.0033   10.4   0.0    5    2-6     112-116 (149)
+  5 5CE7_A CTD kinase subunit gamm   9.5 3.1E+02  0.0034   10.3   0.0    6    1-6      58-63  (140)
+  6 1VKB_A hypothetical protein; G   9.4 3.1E+02  0.0034   11.2   0.0    5    2-6     124-128 (161)
+  7 6AHD_Z Pre-mRNA-processing-spl   9.2 3.2E+02  0.0035   13.2   0.0    6    1-6     102-107 (312)
+  8 1V30_A Hypothetical UPF0131 pr   9.0 3.3E+02  0.0036   10.2   0.0    5    2-6      93-97  (124)
+  9 5M33_B CD81 antigen; human cel   8.5 3.6E+02   0.004    9.2   0.0    5    1-5       2-6   (101)
+ 10 3JUD_A AIG2-like domain-contai   8.3 3.7E+02  0.0041   10.3   0.0    5    2-6     116-120 (153)
+
+No 1
+>7ANE_an mL94, mL89, Ribosomal protein L3-like; Ribosome, Mitochondria, Kinetoplastid; HET: NAD; 3.9A {Leishmania major}
+Probab=10.25  E-value=2.8e+02  Score=14.56  Aligned_cols=5  Identities=80%  Similarity=1.510  Sum_probs=0.0  Template_Neff=1.800
+
+Q LAFVYV            1 LAFVY    5 (6)
+Q Consensus         1 lafvy    5 (6)
+                      |||||
+T Consensus        32 LayVY   36 (302)
+T 7ANE_an          32 LAYVY   36 (302)
+T ss_pred             HHHHh
+
+
+No 2
+>6HIY_DM Uncharacterized protein, mS74, 30S ribosomal; mitoribosome, translation, Trypanosoma, small ribosomal; HET: SPM, SPD, MG; 3.27A {Trypanosoma brucei brucei}
+Probab=10.19  E-value=2.8e+02  Score=14.50  Aligned_cols=5  Identities=100%  Similarity=1.637  Sum_probs=0.0  Template_Neff=1.800
+
+Q LAFVYV            1 LAFVY    5 (6)
+Q Consensus         1 lafvy    5 (6)
+                      |||||
+T Consensus        32 LayVY   36 (294)
+T 6HIY_DM          32 LAFVY   36 (294)
+T ss_pred             HHHHh
+
+
+No 3
+>3JCU_K Photosystem II protein D1, Photosystem; membrane protein; HET: SQD, DGD, HEM, LMG, LUT, PL9, OEX, CHL, XAT, LHG, NEX, BCR, PHO, CLA; 3.2A {Spinacia oleracea}
+Probab=9.87  E-value=2.9e+02  Score=11.38  Aligned_cols=5  Identities=80%  Similarity=1.391  Sum_probs=0.0  Template_Neff=2.700
+
+Q LAFVYV            1 LAFVY    5 (6)
+Q Consensus         1 lafvy    5 (6)
+                      ||||+
+T Consensus        48 LAFVW   52 (59)
+T 3JCU_K           48 LAFVW   52 (59)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 4
+>2KL2_A AIG2-like domain-containing protein 1; PROTEIN, Structural Genomics, PSI-2, Protein; NMR {Mus musculus}
+Probab=9.79  E-value=3e+02  Score=10.36  Aligned_cols=5  Identities=60%  Similarity=1.245  Sum_probs=0.0  Template_Neff=9.200
+
+Q LAFVYV            2 AFVYV    6 (6)
+Q Consensus         2 afvyv    6 (6)
+                      |++|+
+T Consensus       112 a~vYv  116 (149)
+T 2KL2_A          112 CFVYT  116 (149)
+T ss_dssp             EEEEE
+T ss_pred             EEEEE
+
+
+No 5
+>5CE7_A CTD kinase subunit gamma; Lsg1, CTD kinase subunit gamma; HET: MSE, EPE; 2.0A {Schizosaccharomyces pombe}
+Probab=9.50  E-value=3.1e+02  Score=10.30  Aligned_cols=6  Identities=17%  Similarity=0.667  Sum_probs=0.0  Template_Neff=9.000
+
+Q LAFVYV            1 LAFVYV    6 (6)
+Q Consensus         1 lafvyv    6 (6)
+                      |+++|+
+T Consensus        58 L~~lYl   63 (140)
+T 5CE7_A           58 VNIMYF   63 (140)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 6
+>1VKB_A hypothetical protein; Gamma-glutamyl cyclotransferase-like fold, structural genomics; 1.9A {Mus musculus} SCOP: d.269.1.1
+Probab=9.41  E-value=3.1e+02  Score=11.19  Aligned_cols=5  Identities=60%  Similarity=1.245  Sum_probs=0.0  Template_Neff=7.600
+
+Q LAFVYV            2 AFVYV    6 (6)
+Q Consensus         2 afvyv    6 (6)
+                      |++|+
+T Consensus       124 A~vY~  128 (161)
+T 1VKB_A          124 CFVYT  128 (161)
+T ss_pred             EEEEE
+
+
+No 7
+>6AHD_Z Pre-mRNA-processing-splicing factor 8, Thioredoxin-like protein; Spliceosome, SPLICING; HET: IHP, GTP; 3.8A {Homo sapiens}
+Probab=9.25  E-value=3.2e+02  Score=13.24  Aligned_cols=6  Identities=33%  Similarity=0.744  Sum_probs=0.0  Template_Neff=5.600
+
+Q LAFVYV            1 LAFVYV    6 (6)
+Q Consensus         1 lafvyv    6 (6)
+                      |+|+|+
+T Consensus       102 Lg~lYl  107 (312)
+T 6AHD_Z          102 LGALYM  107 (312)
+T ss_pred             eehHHH
+
+
+No 8
+>1V30_A Hypothetical UPF0131 protein PH0828; ALPHA+BETA, STRUCTURAL GENOMICS, UNKNOWN FUNCTION; HET: NHE; 1.4A {Pyrococcus horikoshii} SCOP: d.269.1.1
+Probab=9.03  E-value=3.3e+02  Score=10.25  Aligned_cols=5  Identities=40%  Similarity=0.893  Sum_probs=0.0  Template_Neff=8.500
+
+Q LAFVYV            2 AFVYV    6 (6)
+Q Consensus         2 afvyv    6 (6)
+                      |++|+
+T Consensus        93 a~vY~   97 (124)
+T 1V30_A           93 AFLWE   97 (124)
+T ss_dssp             EEEEE
+T ss_pred             EEEEE
+
+
+No 9
+>5M33_B CD81 antigen; human cellular receptor for Hepatitis; HET: EDO; 1.28A {Homo sapiens}
+Probab=8.46  E-value=3.6e+02  Score=9.17  Aligned_cols=5  Identities=40%  Similarity=0.547  Sum_probs=0.0  Template_Neff=9.800
+
+Q LAFVYV            1 LAFVY    5 (6)
+Q Consensus         1 lafvy    5 (6)
+                      ++|++
+T Consensus         2 ~~~~~    6 (101)
+T 5M33_B            2 TGFVN    6 (101)
+T ss_dssp             -CCCC
+T ss_pred             cceec
+
+
+No 10
+>3JUD_A AIG2-like domain-containing protein 1 (E.C.2.3.2.4); cyclotransferase, gamma-glutamylamine cyclotransferase, gamma-glutamyl-epsilon-lysine, Epsilon-(gamma-Glutamyl)-lysine; HET: NO3; 0.98A {Homo sapiens}
+Probab=8.27  E-value=3.7e+02  Score=10.34  Aligned_cols=5  Identities=60%  Similarity=1.178  Sum_probs=0.0  Template_Neff=8.800
+
+Q LAFVYV            2 AFVYV    6 (6)
+Q Consensus         2 afvyv    6 (6)
+                      |++|+
+T Consensus       116 a~vY~  120 (153)
+T 3JUD_A          116 CFVYS  120 (153)
+T ss_dssp             EEEEE
+T ss_pred             EEEEE
+
+

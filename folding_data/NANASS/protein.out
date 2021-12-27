@@ -1,0 +1,153 @@
+Query         NANASS
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 22:53:10 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NANASS/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NANASS/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6VQX_C CRISPR system single-st  23.5      78 0.00086   15.0   0.0    6    1-6      19-24  (327)
+  2 6VQV_D CRISPR system single-st  22.7      83 0.00092   14.9   0.0    6    1-6      19-24  (327)
+  3 6LNB_H CRISPR-associated prote   8.4 3.6E+02   0.004   14.2   0.0    6    1-6     397-402 (640)
+  4 6V9Q_A Cas8, TniQ family prote   8.4 3.6E+02   0.004   14.2   0.0    6    1-6     397-402 (640)
+  5 6V5M_A Beta-lactamase (E.C.3.5   7.1 4.5E+02   0.005   10.1   0.0    5    2-6       1-5   (235)
+  6 6V71_A Beta-lactamase (E.C.3.5   7.1 4.5E+02   0.005   10.1   0.0    5    2-6       1-5   (235)
+  7 3I4Z_A Tryptophan dimethylally   5.7 6.1E+02  0.0067   12.2   0.0    5    2-6      10-14  (465)
+  8 4ML1_C DsbP (E.C.5.3.4.1); Dsb   5.6 6.2E+02  0.0069    9.9   0.0    5    2-6       1-5   (217)
+  9 4MLY_D DsbP (E.C.5.3.4.1); Dsb   5.6 6.2E+02  0.0069    9.9   0.0    5    2-6       1-5   (217)
+ 10 4ML1_B DsbP (E.C.5.3.4.1); Dsb   5.4 6.4E+02  0.0071    9.9   0.0    5    2-6       1-5   (217)
+
+No 1
+>6VQX_C CRISPR system single-strand-specific deoxyribonuclease Cas10/Csm1; CRISPR, Type I-F, Csy, AcrF6; 3.15A {Pseudomonas aeruginosa}
+Probab=23.49  E-value=78  Score=14.98  Aligned_cols=6  Identities=83%  Similarity=0.711  Sum_probs=3.5  Template_Neff=6.100
+
+Q NANASS            1 NANASS    6 (6)
+Q Consensus         1 nanass    6 (6)
+                      ||||.|
+T Consensus        19 nANaiS   24 (327)
+T 6VQX_C           19 NANAIS   24 (327)
+T ss_dssp             EECCCC
+T ss_pred             eccccc
+Confidence            566654
+
+
+No 2
+>6VQV_D CRISPR system single-strand-specific deoxyribonuclease Cas10/Csm1; CRISPR, Type I-F, Csy, AcrF9;{Pseudomonas aeruginosa}
+Probab=22.68  E-value=83  Score=14.95  Aligned_cols=6  Identities=83%  Similarity=0.711  Sum_probs=3.5  Template_Neff=6.000
+
+Q NANASS            1 NANASS    6 (6)
+Q Consensus         1 nanass    6 (6)
+                      ||||.|
+T Consensus        19 nANaiS   24 (327)
+T 6VQV_D           19 NANAIS   24 (327)
+T ss_dssp             EEECCC
+T ss_pred             cccccc
+Confidence            566654
+
+
+No 3
+>6LNB_H CRISPR-associated protein Cas7, CRISPR-associated protein; Type I-F CRISPR-Cas system, Csy; 3.18A {Vibrio cholerae}
+Probab=8.41  E-value=3.6e+02  Score=14.18  Aligned_cols=6  Identities=50%  Similarity=0.324  Sum_probs=3.0  Template_Neff=6.000
+
+Q NANASS            1 NANASS    6 (6)
+Q Consensus         1 nanass    6 (6)
+                      ||||.|
+T Consensus       397 nANaiS  402 (640)
+T 6LNB_H          397 GATALS  402 (640)
+T ss_pred             eccccC
+Confidence            456543
+
+
+No 4
+>6V9Q_A Cas8, TniQ family protein, Type; CRISPR-Cas system, Cascade- TniQ, IMMUNE; 2.9A {Vibrio cholerae}
+Probab=8.41  E-value=3.6e+02  Score=14.18  Aligned_cols=6  Identities=50%  Similarity=0.324  Sum_probs=3.0  Template_Neff=6.000
+
+Q NANASS            1 NANASS    6 (6)
+Q Consensus         1 nanass    6 (6)
+                      ||||.|
+T Consensus       397 nANaiS  402 (640)
+T 6V9Q_A          397 GATALS  402 (640)
+T ss_dssp             SCCSBS
+T ss_pred             eccccC
+Confidence            456543
+
+
+No 5
+>6V5M_A Beta-lactamase (E.C.3.5.2.6); metallo beta lactamase, hydrolase, Structural; HET: BTB, SIN; 1.5A {N/A}
+Probab=7.11  E-value=4.5e+02  Score=10.09  Aligned_cols=5  Identities=60%  Similarity=0.647  Sum_probs=0.0  Template_Neff=10.400
+
+Q NANASS            2 ANASS    6 (6)
+Q Consensus         2 anass    6 (6)
+                      +||+|
+T Consensus         1 ~~~~~    5 (235)
+T 6V5M_A            1 SNAQS    5 (235)
+T ss_dssp             -----
+T ss_pred             Ccccc
+
+
+No 6
+>6V71_A Beta-lactamase (E.C.3.5.2.6); hydrolase, Structural Genomics, Center for; HET: EDO, NO3; 1.4A {N/A}
+Probab=7.11  E-value=4.5e+02  Score=10.09  Aligned_cols=5  Identities=60%  Similarity=0.647  Sum_probs=0.0  Template_Neff=10.400
+
+Q NANASS            2 ANASS    6 (6)
+Q Consensus         2 anass    6 (6)
+                      +||+|
+T Consensus         1 ~~~~~    5 (235)
+T 6V71_A            1 SNAQS    5 (235)
+T ss_dssp             -----
+T ss_pred             Ccccc
+
+
+No 7
+>3I4Z_A Tryptophan dimethylallyltransferase (E.C.2.5.1.34); prenyl transferase, PT barrel, Alkaloid; HET: BU2, GOL; 1.76A {Aspergillus fumigatus}
+Probab=5.68  E-value=6.1e+02  Score=12.20  Aligned_cols=5  Identities=100%  Similarity=0.866  Sum_probs=0.0  Template_Neff=7.600
+
+Q NANASS            2 ANASS    6 (6)
+Q Consensus         2 anass    6 (6)
+                      |||||
+T Consensus        10 ~~~~~   14 (465)
+T 3I4Z_A           10 ANASS   14 (465)
+T ss_dssp             CCGGG
+T ss_pred             CCCCh
+
+
+No 8
+>4ML1_C DsbP (E.C.5.3.4.1); DsbC, DsbG, folding and assembly; 1.978A {Klebsiella pneumoniae}
+Probab=5.55  E-value=6.2e+02  Score=9.87  Aligned_cols=5  Identities=80%  Similarity=0.780  Sum_probs=0.0  Template_Neff=9.800
+
+Q NANASS            2 ANASS    6 (6)
+Q Consensus         2 anass    6 (6)
+                      .||||
+T Consensus         1 ~~~~~    5 (217)
+T 4ML1_C            1 SNASS    5 (217)
+T ss_dssp             -----
+T ss_pred             Ccccc
+
+
+No 9
+>4MLY_D DsbP (E.C.5.3.4.1); DsbC, DsbG, folding and assembly; HET: BU2; 2.207A {Proteus mirabilis}
+Probab=5.55  E-value=6.2e+02  Score=9.87  Aligned_cols=5  Identities=80%  Similarity=0.780  Sum_probs=0.0  Template_Neff=9.800
+
+Q NANASS            2 ANASS    6 (6)
+Q Consensus         2 anass    6 (6)
+                      .||||
+T Consensus         1 ~~~~~    5 (217)
+T 4MLY_D            1 SNASS    5 (217)
+T ss_dssp             -----
+T ss_pred             Ccccc
+
+
+No 10
+>4ML1_B DsbP (E.C.5.3.4.1); DsbC, DsbG, folding and assembly; 1.978A {Klebsiella pneumoniae}
+Probab=5.45  E-value=6.4e+02  Score=9.88  Aligned_cols=5  Identities=80%  Similarity=0.780  Sum_probs=0.0  Template_Neff=9.700
+
+Q NANASS            2 ANASS    6 (6)
+Q Consensus         2 anass    6 (6)
+                      .||||
+T Consensus         1 ~~~~~    5 (217)
+T 4ML1_B            1 SNASS    5 (217)
+T ss_dssp             -----
+T ss_pred             CCccc
+
+

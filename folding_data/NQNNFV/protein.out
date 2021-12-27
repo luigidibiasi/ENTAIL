@@ -1,0 +1,151 @@
+Query         NQNNFV
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 03:34:32 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NQNNFV/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NQNNFV/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2KTM_A Major prion protein; H2  56.3      10 0.00011   16.5   0.0    6    1-6      29-34  (89)
+  2 6AQ7_A Major prion protein, PO  36.1      34 0.00038   15.6   0.0    6    1-6      67-72  (122)
+  3 2MB1_A Virion spike glycoprote  28.0      57 0.00063   13.4   0.0    6    1-6      44-49  (54)
+  4 3ZOQ_C URACIL-DNA GLYCOSYLASE   13.4 1.9E+02  0.0021   12.0   0.0    5    2-6       3-7   (56)
+  5 4IF5_A Alpha-tubulin N-acetylt  13.3 1.9E+02  0.0021   13.3   0.0    4    3-6     184-187 (196)
+  6 4B5O_A ALPHA-TUBULIN N-ACETYLT  13.2 1.9E+02  0.0021   13.4   0.0    4    3-6     185-188 (200)
+  7 6L35_E Photosystem I P700 chlo  13.1   2E+02  0.0022   12.0   0.0    5    1-5      50-54  (62)
+  8 7DKZ_E Chlorophyll a-b binding  13.1   2E+02  0.0022   12.1   0.0    5    1-5      53-57  (66)
+  9 7NHQ_3 Photosystem II protein   13.1   2E+02  0.0022   11.0   0.0    4    2-5      11-14  (56)
+ 10 7S7K_A EphB2, ECD, autoinhibit  13.1   2E+02  0.0022   12.5   0.0    6    1-6      50-55  (525)
+
+No 1
+>2KTM_A Major prion protein; H2H3, Prion Protein, Peptide folding; NMR {Ovis aries}
+Probab=56.29  E-value=10  Score=16.55  Aligned_cols=6  Identities=100%  Similarity=1.359  Sum_probs=4.0  Template_Neff=2.300
+
+Q NQNNFV            1 NQNNFV    6 (6)
+Q Consensus         1 nqnnfv    6 (6)
+                      +||+||
+T Consensus        29 ~q~~FV   34 (89)
+T 2KTM_A           29 NQNNFV   34 (89)
+T ss_dssp             THHHHH
+T ss_pred             CcCCce
+Confidence            467775
+
+
+No 2
+>6AQ7_A Major prion protein, POM6 FAB; Prion, antibody, chaperone, antigen-antibody, IMMUNE; HET: TCE, GOL; 1.83A {Mus musculus}
+Probab=36.11  E-value=34  Score=15.64  Aligned_cols=6  Identities=100%  Similarity=1.359  Sum_probs=3.3  Template_Neff=2.300
+
+Q NQNNFV            1 NQNNFV    6 (6)
+Q Consensus         1 nqnnfv    6 (6)
+                      +|++||
+T Consensus        67 ~q~~FV   72 (122)
+T 6AQ7_A           67 NQNNFV   72 (122)
+T ss_dssp             SHHHHH
+T ss_pred             CcCCce
+Confidence            356665
+
+
+No 3
+>2MB1_A Virion spike glycoprotein; Fusion Loop, VIRAL PROTEIN; NMR {Zaire ebolavirus}
+Probab=28.01  E-value=57  Score=13.40  Aligned_cols=6  Identities=33%  Similarity=0.789  Sum_probs=3.5  Template_Neff=1.800
+
+Q NQNNFV            1 NQNNFV    6 (6)
+Q Consensus         1 nqnnfv    6 (6)
+                      |||+.|
+T Consensus        44 nQn~lv   49 (54)
+T 2MB1_A           44 NQDGLI   49 (54)
+T ss_dssp             SCSSSC
+T ss_pred             cCCcce
+Confidence            566654
+
+
+No 4
+>3ZOQ_C URACIL-DNA GLYCOSYLASE (E.C.3.2.2.27), P56; HYDROLASE-VIRAL PROTEIN COMPLEX; 1.45A {BACILLUS SUBTILIS SUBSP. SUBTILIS STR. 168}
+Probab=13.40  E-value=1.9e+02  Score=12.04  Aligned_cols=5  Identities=80%  Similarity=1.272  Sum_probs=0.0  Template_Neff=1.400
+
+Q NQNNFV            2 QNNFV    6 (6)
+Q Consensus         2 qnnfv    6 (6)
+                      ||.|+
+T Consensus         3 qndf~    7 (56)
+T 3ZOQ_C            3 QNDFV    7 (56)
+T ss_dssp             -CTTC
+T ss_pred             ccccc
+
+
+No 5
+>4IF5_A Alpha-tubulin N-acetyltransferase (E.C.2.3.1.108); Acetyltransferase, TRANSFERASE; HET: ACO; 1.7A {Homo sapiens}
+Probab=13.27  E-value=1.9e+02  Score=13.32  Aligned_cols=4  Identities=100%  Similarity=1.497  Sum_probs=0.0  Template_Neff=5.000
+
+Q NQNNFV            3 NNFV    6 (6)
+Q Consensus         3 nnfv    6 (6)
+                      ||||
+T Consensus       184 NnFV  187 (196)
+T 4IF5_A          184 NNFV  187 (196)
+T ss_dssp             SSEE
+T ss_pred             CceE
+
+
+No 6
+>4B5O_A ALPHA-TUBULIN N-ACETYLTRANSFERASE (E.C.2.3.1.108); TRANSFERASE, MICROTUBULES, CILIUM, INTRAFLAGELLAR TRANSPORT; HET: ACO; 1.05A {HOMO SAPIENS}
+Probab=13.23  E-value=1.9e+02  Score=13.40  Aligned_cols=4  Identities=100%  Similarity=1.497  Sum_probs=0.0  Template_Neff=4.900
+
+Q NQNNFV            3 NNFV    6 (6)
+Q Consensus         3 nnfv    6 (6)
+                      ||||
+T Consensus       185 NnFV  188 (200)
+T 4B5O_A          185 NNFV  188 (200)
+T ss_dssp             TSEE
+T ss_pred             CcEE
+
+
+No 7
+>6L35_E Photosystem I P700 chlorophyll a; Cryo-EM, PSI-LHCI, Physcomitrella patens, STRUCTURAL; HET: SF4, LMG, LUT, CHL, PQN, XAT, LHG, BCR, DGD, CLA; 3.23A {Physcomitrium patens}
+Probab=13.11  E-value=2e+02  Score=11.99  Aligned_cols=5  Identities=40%  Similarity=0.906  Sum_probs=0.0  Template_Neff=2.600
+
+Q NQNNFV            1 NQNNF    5 (6)
+Q Consensus         1 nqnnf    5 (6)
+                      |.|||
+T Consensus        50 nTnnf   54 (62)
+T 6L35_E           50 STNNY   54 (62)
+T ss_dssp             CEEEE
+T ss_pred             cCCcc
+
+
+No 8
+>7DKZ_E Chlorophyll a-b binding protein, chloroplastic; PSI-LHCI high plants, PHOTOSYNTHESIS; HET: LHG, XAT, LMG, PQN, CHL, LMT, BCR, LUT, CLA, HTG, DGD, SF4; 2.393A {Pisum sativum}
+Probab=13.08  E-value=2e+02  Score=12.11  Aligned_cols=5  Identities=40%  Similarity=0.906  Sum_probs=0.0  Template_Neff=2.600
+
+Q NQNNFV            1 NQNNF    5 (6)
+Q Consensus         1 nqnnf    5 (6)
+                      |.|||
+T Consensus        53 nTnnf   57 (66)
+T 7DKZ_E           53 STNNY   57 (66)
+T ss_pred             cCCcc
+
+
+No 9
+>7NHQ_3 Photosystem II protein D1 1; Membrane Protein Biogenesis Assembly Factors; HET: HEM, LHG, PL9, CLA, LMG, BCR, PHO; 2.68A {Thermosynechococcus elongatus BP-1}
+Probab=13.07  E-value=2e+02  Score=10.96  Aligned_cols=4  Identities=75%  Similarity=1.082  Sum_probs=0.0  Template_Neff=5.000
+
+Q NQNNFV            2 QNNF    5 (6)
+Q Consensus         2 qnnf    5 (6)
+                      +|||
+T Consensus        11 lNnf   14 (56)
+T 7NHQ_3           11 LNNF   14 (56)
+T ss_pred             eecc
+
+
+No 10
+>7S7K_A EphB2, ECD, autoinhibitory, TRANSFERASE; HET: BMA, NAG; 3.15A {Mus musculus}
+Probab=13.06  E-value=2e+02  Score=12.49  Aligned_cols=6  Identities=50%  Similarity=0.922  Sum_probs=0.0  Template_Neff=10.400
+
+Q NQNNFV            1 NQNNFV    6 (6)
+Q Consensus         1 nqnnfv    6 (6)
+                      ||||+.
+T Consensus        50 ~~~~wl   55 (525)
+T 7S7K_A           50 SQNNWL   55 (525)
+T ss_dssp             SCCEEE
+T ss_pred             cCCcEE
+
+

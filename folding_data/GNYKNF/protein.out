@@ -1,0 +1,159 @@
+Query         GNYKNF
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 03:01:48 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GNYKNF/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GNYKNF/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6HXT_B Coiled-coil domain-cont  48.0      17 0.00019   15.8   0.0    6    1-6      61-66  (145)
+  2 6HXT_C Coiled-coil domain-cont  45.8      19 0.00021   15.8   0.0    6    1-6      61-66  (145)
+  3 6HXV_A Coiled-coil domain-cont  42.9      23 0.00025   15.9   0.0    6    1-6      62-67  (171)
+  4 3T6B_B Dipeptidyl peptidase 3   28.6      55 0.00061   16.9   0.0    6    1-6     104-109 (726)
+  5 5YFB_A Dipeptidyl peptidase 3   26.0      65 0.00072   16.6   0.0    6    1-6     110-115 (703)
+  6 3FVY_A Dipeptidyl-peptidase 3   25.0      70 0.00077   16.6   0.0    6    1-6     106-111 (728)
+  7 5MRC_WW 54S ribosomal protein   24.8      71 0.00078   14.1   0.0    6    1-6       6-11  (401)
+  8 3CSK_A Probable dipeptidyl-pep  23.1      81 0.00089   16.2   0.0    6    1-6      99-104 (711)
+  9 5E33_A Dipeptidyl peptidase 3   22.7      83 0.00091   16.5   0.0    6    1-6     104-109 (726)
+ 10 5YFC_A Dipeptidyl peptidase 3   20.4      99  0.0011   16.1   0.0    6    1-6     110-115 (703)
+
+No 1
+>6HXT_B Coiled-coil domain-containing protein 61; Centrosome, cilia, scaffold protein, protfilament; HET: MSE; 2.55A {Homo sapiens}
+Probab=47.98  E-value=17  Score=15.83  Aligned_cols=6  Identities=67%  Similarity=1.464  Sum_probs=3.9  Template_Neff=5.100
+
+Q GNYKNF            1 GNYKNF    6 (6)
+Q Consensus         1 gnyknf    6 (6)
+                      ||+|.|
+T Consensus        61 GnfK~F   66 (145)
+T 6HXT_B           61 GNFKQF   66 (145)
+T ss_dssp             TBCCCH
+T ss_pred             CCcchh
+Confidence            677765
+
+
+No 2
+>6HXT_C Coiled-coil domain-containing protein 61; Centrosome, cilia, scaffold protein, protfilament; HET: MSE; 2.55A {Homo sapiens}
+Probab=45.84  E-value=19  Score=15.76  Aligned_cols=6  Identities=67%  Similarity=1.464  Sum_probs=3.9  Template_Neff=4.900
+
+Q GNYKNF            1 GNYKNF    6 (6)
+Q Consensus         1 gnyknf    6 (6)
+                      ||+|.|
+T Consensus        61 Gn~K~F   66 (145)
+T 6HXT_C           61 GNFKQF   66 (145)
+T ss_dssp             TBCCCH
+T ss_pred             CCcchh
+Confidence            677765
+
+
+No 3
+>6HXV_A Coiled-coil domain-containing protein 61; Centrosome, cilia, scaffold protein, proto-filament; 1.97A {Danio rerio}
+Probab=42.88  E-value=23  Score=15.93  Aligned_cols=6  Identities=67%  Similarity=1.464  Sum_probs=4.0  Template_Neff=4.800
+
+Q GNYKNF            1 GNYKNF    6 (6)
+Q Consensus         1 gnyknf    6 (6)
+                      ||+|.|
+T Consensus        62 Gn~K~F   67 (171)
+T 6HXV_A           62 GNFKQF   67 (171)
+T ss_dssp             TSCCCH
+T ss_pred             CCcccH
+Confidence            677765
+
+
+No 4
+>3T6B_B Dipeptidyl peptidase 3 (E.C.3.4.14.4), Tynorphin; human dipeptidylpeptidase III, entropy binding; 2.4A {Homo sapiens}
+Probab=28.57  E-value=55  Score=16.93  Aligned_cols=6  Identities=83%  Similarity=1.625  Sum_probs=4.0  Template_Neff=6.300
+
+Q GNYKNF            1 GNYKNF    6 (6)
+Q Consensus         1 gnyknf    6 (6)
+                      |||+.|
+T Consensus       104 GNY~sf  109 (726)
+T 3T6B_B          104 GNYKSF  109 (726)
+T ss_dssp             SSBCTT
+T ss_pred             CCcccc
+Confidence            677765
+
+
+No 5
+>5YFB_A Dipeptidyl peptidase 3 (E.C.3.4.14.4); dipeptidyl peptidase III, aflatoxin-oxidase, HYDROLASE; HET: GOL, EDO; 2.2A {Armillaria tabescens}
+Probab=25.97  E-value=65  Score=16.62  Aligned_cols=6  Identities=67%  Similarity=1.054  Sum_probs=3.9  Template_Neff=6.300
+
+Q GNYKNF            1 GNYKNF    6 (6)
+Q Consensus         1 gnyknf    6 (6)
+                      |||+.|
+T Consensus       110 GNY~~f  115 (703)
+T 5YFB_A          110 VNYKTF  115 (703)
+T ss_dssp             SSBCTT
+T ss_pred             Cccccc
+Confidence            677655
+
+
+No 6
+>3FVY_A Dipeptidyl-peptidase 3 (E.C.3.4.14.4); SGC, DPP3, Dipeptidyl Peptidase III; 1.9A {Homo sapiens}
+Probab=25.04  E-value=70  Score=16.64  Aligned_cols=6  Identities=83%  Similarity=1.625  Sum_probs=3.8  Template_Neff=6.200
+
+Q GNYKNF            1 GNYKNF    6 (6)
+Q Consensus         1 gnyknf    6 (6)
+                      |||+.|
+T Consensus       106 GNY~~f  111 (728)
+T 3FVY_A          106 GNYKSF  111 (728)
+T ss_dssp             SSBCTT
+T ss_pred             CCcccc
+Confidence            677655
+
+
+No 7
+>5MRC_WW 54S ribosomal protein RML2, mitochondrial; yeast, mitochondrial, ribosome, saccharomyces cerevisiae; HET: GDP, MG; 3.25A {Saccharomyces cerevisiae}
+Probab=24.83  E-value=71  Score=14.10  Aligned_cols=6  Identities=50%  Similarity=0.877  Sum_probs=3.4  Template_Neff=8.800
+
+Q GNYKNF            1 GNYKNF    6 (6)
+Q Consensus         1 gnyknf    6 (6)
+                      ++||||
+T Consensus         6 ~~~~~~   11 (401)
+T 5MRC_WW           6 SLYKNW   11 (401)
+T ss_pred             ccccch
+Confidence            356665
+
+
+No 8
+>3CSK_A Probable dipeptidyl-peptidase 3 (E.C.3.4.14.4); ZN-HYDROLASE, AMINODIPEPTIDASE, HEXXGH-MOTIF, Aminopeptidase, Hydrolase; 1.95A {Saccharomyces cerevisiae}
+Probab=23.08  E-value=81  Score=16.25  Aligned_cols=6  Identities=67%  Similarity=1.475  Sum_probs=3.7  Template_Neff=6.500
+
+Q GNYKNF            1 GNYKNF    6 (6)
+Q Consensus         1 gnyknf    6 (6)
+                      |||+.|
+T Consensus        99 GNY~~f  104 (711)
+T 3CSK_A           99 GNFKSF  104 (711)
+T ss_dssp             SSBCTT
+T ss_pred             CCcccc
+Confidence            567654
+
+
+No 9
+>5E33_A Dipeptidyl peptidase 3 (E.C.3.4.14.4), Met-enkephalin; Complex, Opioid-peptide, Zinc-hydrolase, peptidase, hydrolase; 1.837A {Homo sapiens}
+Probab=22.73  E-value=83  Score=16.45  Aligned_cols=6  Identities=83%  Similarity=1.625  Sum_probs=3.8  Template_Neff=6.100
+
+Q GNYKNF            1 GNYKNF    6 (6)
+Q Consensus         1 gnyknf    6 (6)
+                      |||+.|
+T Consensus       104 GNY~sf  109 (726)
+T 5E33_A          104 GNYKSF  109 (726)
+T ss_dssp             SSBCTT
+T ss_pred             CCcccc
+Confidence            577654
+
+
+No 10
+>5YFC_A Dipeptidyl peptidase 3 (E.C.3.4.14.4); dipeptidyl peptidase III, aflatoxin-oxidase, HYDROLASE; HET: SO4, GOL, TRS; 1.76A {Armillaria tabescens}
+Probab=20.36  E-value=99  Score=16.08  Aligned_cols=6  Identities=67%  Similarity=1.054  Sum_probs=3.7  Template_Neff=6.200
+
+Q GNYKNF            1 GNYKNF    6 (6)
+Q Consensus         1 gnyknf    6 (6)
+                      |||+.|
+T Consensus       110 Gny~~f  115 (703)
+T 5YFC_A          110 VNYKTF  115 (703)
+T ss_dssp             SSBCTT
+T ss_pred             Cccccc
+Confidence            567654
+
+

@@ -1,0 +1,150 @@
+Query         AILSST
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 14:23:14 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/AILSST/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/AILSST/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5YQ7_C Beta subunit of light-h   8.4 3.7E+02   0.004   13.6   0.0    6    1-6     314-319 (320)
+  2 3E2T_A Tryptophan 5-hydroxylas   8.2 3.7E+02  0.0041   13.2   0.0    5    1-5     234-238 (314)
+  3 1LTU_A PHENYLALANINE-4-HYDROXY   8.2 3.8E+02  0.0042   13.1   0.0    6    1-6     200-205 (297)
+  4 4NW4_A Lipoprotein S-layer pro   8.1 3.8E+02  0.0042   13.6   0.0    6    1-6     171-176 (294)
+  5 6XRY_A Polar organizing protei   7.9 3.9E+02  0.0044   11.7   0.0    4    2-5      13-16  (141)
+  6 2J0N_B INVASIN IPAD; IPAD, T3S   7.8   4E+02  0.0044   11.8   0.0    5    2-6     182-186 (200)
+  7 4ESM_A Phenylalanine-4-hydroxy   7.5 4.2E+02  0.0047   13.0   0.0    6    1-6     205-210 (302)
+  8 4KH8_A hypothetical protein; L   7.5 4.3E+02  0.0047   13.6   0.0    6    1-6     187-192 (318)
+  9 2P1L_H Apoptosis regulator Bcl   7.1 4.5E+02   0.005    8.6   0.0    4    2-5      21-24  (31)
+ 10 2JAA_B INVASIN IPAD; IPAD, T3S   7.0 4.6E+02  0.0051   11.8   0.0    5    2-6     194-198 (212)
+
+No 1
+>5YQ7_C Beta subunit of light-harvesting 1; Photosynthetic core complex, PHOTOSYNTHESIS; HET: BPH, BCL, KGD, MQE, HEM;{Roseiflexus castenholzii}
+Probab=8.37  E-value=3.7e+02  Score=13.59  Aligned_cols=6  Identities=83%  Similarity=0.910  Sum_probs=3.7  Template_Neff=4.400
+
+Q AILSST            1 AILSST    6 (6)
+Q Consensus         1 ailsst    6 (6)
+                      |+||||
+T Consensus       314 ~~~~~~  319 (320)
+T 5YQ7_C          314 AVLSST  319 (320)
+T ss_pred             ceeecC
+Confidence            467765
+
+
+No 2
+>3E2T_A Tryptophan 5-hydroxylase 1 (E.C.1.14.16.4); aromatic amino acid hydroxylase tryptophan; HET: TRP, PGE; 1.9A {Gallus gallus}
+Probab=8.22  E-value=3.7e+02  Score=13.25  Aligned_cols=5  Identities=60%  Similarity=0.780  Sum_probs=0.0  Template_Neff=5.100
+
+Q AILSST            1 AILSS    5 (6)
+Q Consensus         1 ailss    5 (6)
+                      +||||
+T Consensus       234 GLLSS  238 (314)
+T 3E2T_A          234 GLLSS  238 (314)
+T ss_dssp             HHHTC
+T ss_pred             hHhcC
+
+
+No 3
+>1LTU_A PHENYLALANINE-4-HYDROXYLASE (E.C.1.14.16.1); PHENYLALANINE HYDROXYLASE APO-STRUCTURE, OXIDOREDUCTASE; 1.74A {Chromobacterium violaceum} SCOP: d.178.1.1
+Probab=8.17  E-value=3.8e+02  Score=13.14  Aligned_cols=6  Identities=67%  Similarity=0.722  Sum_probs=0.0  Template_Neff=5.100
+
+Q AILSST            1 AILSST    6 (6)
+Q Consensus         1 ailsst    6 (6)
+                      +||||.
+T Consensus       200 GLLSS~  205 (297)
+T 1LTU_A          200 GILSSK  205 (297)
+T ss_dssp             HHHTCH
+T ss_pred             chhcCh
+
+
+No 4
+>4NW4_A Lipoprotein S-layer protein; Two lipocain-like domains, PF16103 family; HET: SO4, GOL; 1.85A {Enterococcus faecalis}
+Probab=8.11  E-value=3.8e+02  Score=13.56  Aligned_cols=6  Identities=50%  Similarity=0.667  Sum_probs=0.0  Template_Neff=3.900
+
+Q AILSST            1 AILSST    6 (6)
+Q Consensus         1 ailsst    6 (6)
+                      .|||||
+T Consensus       171 ~iLssT  176 (294)
+T 4NW4_A          171 KILGTT  176 (294)
+T ss_dssp             HHHHTS
+T ss_pred             HhhccC
+
+
+No 5
+>6XRY_A Polar organizing protein Z; Molecular Recognition Feature, MoRF, hub; NMR {Caulobacter vibrioides (strain ATCC 19089 / CB15)}
+Probab=7.90  E-value=3.9e+02  Score=11.67  Aligned_cols=4  Identities=75%  Similarity=0.941  Sum_probs=0.0  Template_Neff=5.300
+
+Q AILSST            2 ILSS    5 (6)
+Q Consensus         2 ilss    5 (6)
+                      ||+|
+T Consensus        13 ILaS   16 (141)
+T 6XRY_A           13 ILAS   16 (141)
+T ss_dssp             HHHH
+T ss_pred             HHHH
+
+
+No 6
+>2J0N_B INVASIN IPAD; IPAD, T3SS, PLASMID, VIRULENCE, SHIGELLA; 2.1A {Shigella flexneri 2a str. 301} SCOP: a.250.1.1
+Probab=7.81  E-value=4e+02  Score=11.85  Aligned_cols=5  Identities=80%  Similarity=0.933  Sum_probs=0.0  Template_Neff=6.300
+
+Q AILSST            2 ILSST    6 (6)
+Q Consensus         2 ilsst    6 (6)
+                      +||||
+T Consensus       182 vLSst  186 (200)
+T 2J0N_B          182 VLSST  186 (200)
+T ss_dssp             HTTTT
+T ss_pred             HHHHH
+
+
+No 7
+>4ESM_A Phenylalanine-4-hydroxylase (E.C.1.14.16.1); Mutation, Alpha helix-Beta sheet, Hydroxylase; 1.35A {Chromobacterium violaceum}
+Probab=7.47  E-value=4.2e+02  Score=13.04  Aligned_cols=6  Identities=67%  Similarity=0.722  Sum_probs=0.0  Template_Neff=5.000
+
+Q AILSST            1 AILSST    6 (6)
+Q Consensus         1 ailsst    6 (6)
+                      +||||.
+T Consensus       205 GLLSS~  210 (302)
+T 4ESM_A          205 GILSSK  210 (302)
+T ss_dssp             HHHTCS
+T ss_pred             chhcCh
+
+
+No 8
+>4KH8_A hypothetical protein; Lipocalin-like fold, two domains, Structural; HET: SO4; 1.6A {Enterococcus faecalis}
+Probab=7.46  E-value=4.3e+02  Score=13.62  Aligned_cols=6  Identities=33%  Similarity=0.545  Sum_probs=0.0  Template_Neff=3.700
+
+Q AILSST            1 AILSST    6 (6)
+Q Consensus         1 ailsst    6 (6)
+                      +||+||
+T Consensus       187 ~il~sT  192 (318)
+T 4KH8_A          187 EIIGKT  192 (318)
+T ss_dssp             HHHHCB
+T ss_pred             Hheeec
+
+
+No 9
+>2P1L_H Apoptosis regulator Bcl-X, Beclin 1; Apoptosis  autophagy  beclin; 2.5A {Homo sapiens}
+Probab=7.10  E-value=4.5e+02  Score=8.61  Aligned_cols=4  Identities=50%  Similarity=0.783  Sum_probs=0.0  Template_Neff=5.800
+
+Q AILSST            2 ILSS    5 (6)
+Q Consensus         2 ilss    5 (6)
+                      |||+
+T Consensus        21 iLS~   24 (31)
+T 2P1L_H           21 IMSG   24 (31)
+T ss_dssp             HTTC
+T ss_pred             HHhc
+
+
+No 10
+>2JAA_B INVASIN IPAD; IPAD, T3SS, SEMET, INVASIN, VIRULENCE; HET: MSE; 3.1A {SHIGELLA FLEXNERI} SCOP: a.250.1.1
+Probab=7.01  E-value=4.6e+02  Score=11.81  Aligned_cols=5  Identities=80%  Similarity=0.933  Sum_probs=0.0  Template_Neff=6.200
+
+Q AILSST            2 ILSST    6 (6)
+Q Consensus         2 ilsst    6 (6)
+                      +||||
+T Consensus       194 vLSst  198 (212)
+T 2JAA_B          194 VLSST  198 (212)
+T ss_dssp             HHHTT
+T ss_pred             HHHHH
+
+

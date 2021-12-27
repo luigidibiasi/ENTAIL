@@ -1,0 +1,149 @@
+Query         GAIIGL
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 22:39:36 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GAIIGL/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GAIIGL/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5BUO_A Amyloid beta A4 protein  34.5      38 0.00042   16.6   0.0    6    1-6     332-337 (342)
+  2 6HQB_K Photosystem I P700 chlo  28.9      54 0.00059   13.1   0.0    6    1-6      62-67  (70)
+  3 6TB4_H TATA-box Binding Protei  28.2      56 0.00062   15.7   0.0    6    1-6     383-388 (485)
+  4 6T9K_E Transcription factor SP  27.5      59 0.00065   15.9   0.0    6    1-6     392-397 (516)
+  5 5OY0_8 Photosystem I P700 chlo  26.5      63  0.0007   13.2   0.0    6    1-6      71-76  (79)
+  6 6TBM_H TATA-binding protein, T  25.1      69 0.00077   15.2   0.0    6    1-6     383-388 (485)
+  7 6T9I_E Transcription factor SP  24.8      71 0.00079   15.4   0.0    6    1-6     392-397 (516)
+  8 6UZV_8 Photosystem I/IsiA comp  19.7   1E+02  0.0012   12.9   0.0    6    1-6      79-84  (90)
+  9 2N3W_A 26S proteasome regulato  19.6 1.1E+02  0.0012   12.1   0.0    6    1-6       7-12  (131)
+ 10 6SNE_J Envelope glycoprotein g  19.4 1.1E+02  0.0012   11.5   0.0    6    1-6      42-47  (63)
+
+No 1
+>5BUO_A Amyloid beta A4 protein, Receptor; receptor, dimer, metal transport; HET: IDS, SGN, GOL; 2.31A {Homo sapiens}
+Probab=34.46  E-value=38  Score=16.59  Aligned_cols=6  Identities=100%  Similarity=1.531  Sum_probs=0.0  Template_Neff=5.000
+
+Q GAIIGL            1 GAIIGL    6 (6)
+Q Consensus         1 gaiigl    6 (6)
+                      ||+|||
+T Consensus       332 ~a~IGL  337 (342)
+T 5BUO_A          332 GAIIGL  337 (342)
+T ss_dssp             ------
+T ss_pred             cceeee
+Confidence            567775
+
+
+No 2
+>6HQB_K Photosystem I P700 chlorophyll a; Crystal structure  Cyanobacteria ; HET: LMG, BCR, SQD, SF4, CLA, ECH, LMT, LHG, EQ3, PQN, 45D, C7Z; 4.0A {Synechocystis sp. (strain PCC 6803 / Kazusa)}
+Probab=28.90  E-value=54  Score=13.05  Aligned_cols=6  Identities=50%  Similarity=1.243  Sum_probs=2.7  Template_Neff=4.700
+
+Q GAIIGL            1 GAIIGL    6 (6)
+Q Consensus         1 gaiigl    6 (6)
+                      |+|+||
+T Consensus        62 G~ILGL   67 (70)
+T 6HQB_K           62 GMVLGL   67 (70)
+T ss_pred             HHHhcc
+Confidence            344443
+
+
+No 3
+>6TB4_H TATA-box Binding Protein (TBP), Transcriptional; Transcriptional co-activator, Histone-acetylation, TRANSCRIPTION; 3.8A {Komagataella phaffii GS115}
+Probab=28.18  E-value=56  Score=15.68  Aligned_cols=6  Identities=67%  Similarity=1.398  Sum_probs=3.5  Template_Neff=7.100
+
+Q GAIIGL            1 GAIIGL    6 (6)
+Q Consensus         1 gaiigl    6 (6)
+                      |||.||
+T Consensus       383 GAi~gL  388 (485)
+T 6TB4_H          383 GALLGL  388 (485)
+T ss_pred             HHHHHH
+Confidence            566664
+
+
+No 4
+>6T9K_E Transcription factor SPT20, Protein SPT3; Coactivator, Transcription, Histone acetyltransferase, Histone; 3.3A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=27.46  E-value=59  Score=15.89  Aligned_cols=6  Identities=33%  Similarity=0.899  Sum_probs=3.7  Template_Neff=6.800
+
+Q GAIIGL            1 GAIIGL    6 (6)
+Q Consensus         1 gaiigl    6 (6)
+                      |||+||
+T Consensus       392 GAi~gL  397 (516)
+T 6T9K_E          392 GCLKGV  397 (516)
+T ss_pred             HHHHHH
+Confidence            566664
+
+
+No 5
+>5OY0_8 Photosystem I P700 chlorophyll a; photosystem I, reaction center, photosynthesis; HET: PQN, BCR, LHG, SQD, LMT, ECH, EQ3, SF4, DGD, ZEX, CLA, LMG, ACT, 45D; 2.501A {Synechocystis sp. PCC 6803}
+Probab=26.46  E-value=63  Score=13.23  Aligned_cols=6  Identities=50%  Similarity=1.243  Sum_probs=2.7  Template_Neff=4.400
+
+Q GAIIGL            1 GAIIGL    6 (6)
+Q Consensus         1 gaiigl    6 (6)
+                      |+|+||
+T Consensus        71 G~ILGL   76 (79)
+T 5OY0_8           71 GMVLGL   76 (79)
+T ss_pred             HHHhcc
+Confidence            345543
+
+
+No 6
+>6TBM_H TATA-binding protein, Transcriptional coactivator HFI1/ADA1; Transcriptional co-activator, Histone-acetylation, TRANSCRIPTION; 20.0A {Komagataella phaffii (strain GS115 / ATCC 20864)}
+Probab=25.15  E-value=69  Score=15.19  Aligned_cols=6  Identities=67%  Similarity=1.398  Sum_probs=3.3  Template_Neff=7.500
+
+Q GAIIGL            1 GAIIGL    6 (6)
+Q Consensus         1 gaiigl    6 (6)
+                      |||.||
+T Consensus       383 GAi~gL  388 (485)
+T 6TBM_H          383 GALLGL  388 (485)
+T ss_pred             HHHHHH
+Confidence            566554
+
+
+No 7
+>6T9I_E Transcription factor SPT20, Protein SPT3; Coactivator, Transcription, Histone acetyltransferase, Histone; 3.9A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=24.79  E-value=71  Score=15.38  Aligned_cols=6  Identities=33%  Similarity=0.899  Sum_probs=3.5  Template_Neff=7.300
+
+Q GAIIGL            1 GAIIGL    6 (6)
+Q Consensus         1 gaiigl    6 (6)
+                      |||.||
+T Consensus       392 GAi~gL  397 (516)
+T 6T9I_E          392 GCLKGV  397 (516)
+T ss_pred             HHHHHH
+Confidence            566654
+
+
+No 8
+>6UZV_8 Photosystem I/IsiA complex; Photosystem, Antenna, Chlorophyll, Membrane, PHOTOSYNTHESIS; HET: SF4, LMT, LMG, PQN, LHG, BCR, CL0, CLA;{Synechocystis sp. (strain PCC 6803 / Kazusa)}
+Probab=19.73  E-value=1e+02  Score=12.87  Aligned_cols=6  Identities=50%  Similarity=1.243  Sum_probs=0.0  Template_Neff=4.400
+
+Q GAIIGL            1 GAIIGL    6 (6)
+Q Consensus         1 gaiigl    6 (6)
+                      |+|+||
+T Consensus        79 G~ILGL   84 (90)
+T 6UZV_8           79 GMVLGL   84 (90)
+T ss_pred             HHHHhh
+
+
+No 9
+>2N3W_A 26S proteasome regulatory subunit RPN1; PROTEIN BINDING; NMR {Saccharomyces cerevisiae}
+Probab=19.63  E-value=1.1e+02  Score=12.11  Aligned_cols=6  Identities=67%  Similarity=1.126  Sum_probs=0.0  Template_Neff=7.600
+
+Q GAIIGL            1 GAIIGL    6 (6)
+Q Consensus         1 gaiigl    6 (6)
+                      |+++||
+T Consensus         7 ga~LgL   12 (131)
+T 2N3W_A            7 AAILGL   12 (131)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 10
+>6SNE_J Envelope glycoprotein gp160, LN01 light; gp41, antibody, complex, MPER, IMMUNE; HET: PC, NAG; 3.9A {Human immunodeficiency virus 1}
+Probab=19.41  E-value=1.1e+02  Score=11.54  Aligned_cols=6  Identities=50%  Similarity=1.309  Sum_probs=0.0  Template_Neff=5.800
+
+Q GAIIGL            1 GAIIGL    6 (6)
+Q Consensus         1 gaiigl    6 (6)
+                      +++|||
+T Consensus        42 ~~li~l   47 (63)
+T 6SNE_J           42 GGLVGL   47 (63)
+T ss_pred             HHHHHH
+
+

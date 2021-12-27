@@ -1,0 +1,150 @@
+Query         LLNKTN
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 19:20:25 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LLNKTN/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LLNKTN/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3UB1_A ORF13-like protein; NTF  13.7 1.8E+02   0.002   12.4   0.0    6    1-6     255-260 (261)
+  2 3H8D_G Myosin-VI, Disabled hom   5.8   6E+02  0.0066   10.1   0.0    6    1-6      42-47  (48)
+  3 3H8D_H Myosin-VI, Disabled hom   5.8   6E+02  0.0066   10.1   0.0    6    1-6      42-47  (48)
+  4 7ASE_E kDDX60, 40S ribosomal p   5.6 6.1E+02  0.0068   11.4   0.0    6    1-6      38-43  (407)
+  5 5TCS_D ?; RWD, CH, coiled-coil   5.4 6.5E+02  0.0072   10.2   0.0    5    2-6      94-98  (115)
+  6 7KDF_D NDC80, Nuf2, Spc24, SPC   5.4 6.5E+02  0.0072   10.2   0.0    5    2-6      94-98  (115)
+  7 3T47_B SCIN-D; Secreted, Virul   5.2 6.7E+02  0.0074   10.9   0.0    6    1-6      20-25  (81)
+  8 3T48_A SCIN-D; Secreted, Virul   5.2 6.7E+02  0.0074   10.9   0.0    6    1-6      20-25  (81)
+  9 2JVU_A DISPERSIN; BETA SANDWIC   5.1   7E+02  0.0077   11.3   0.0    5    2-6      76-80  (104)
+ 10 3T49_B Fibrinogen-binding prot   5.0 7.2E+02  0.0079   10.7   0.0    6    1-6      12-17  (73)
+
+No 1
+>3UB1_A ORF13-like protein; NTF2-LIKE, TRANSPORT PROTEIN; HET: PEG, MSE; 1.8A {Clostridium perfringens}
+Probab=13.65  E-value=1.8e+02  Score=12.37  Aligned_cols=6  Identities=67%  Similarity=0.739  Sum_probs=0.8  Template_Neff=8.300
+
+Q LLNKTN            1 LLNKTN    6 (6)
+Q Consensus         1 llnktn    6 (6)
+                      ++||.|
+T Consensus       255 ~~~~~~  260 (261)
+T 3UB1_A          255 LNNKSN  260 (261)
+T ss_dssp             CC----
+T ss_pred             cccccC
+Confidence            345544
+
+
+No 2
+>3H8D_G Myosin-VI, Disabled homolog 2; Myosin VI, Myosin 6, Dab2; 2.2A {Mus musculus}
+Probab=5.76  E-value=6e+02  Score=10.08  Aligned_cols=6  Identities=83%  Similarity=1.010  Sum_probs=0.0  Template_Neff=3.000
+
+Q LLNKTN            1 LLNKTN    6 (6)
+Q Consensus         1 llnktn    6 (6)
+                      |+||.|
+T Consensus        42 l~~~~n   47 (48)
+T 3H8D_G           42 LLNKIN   47 (48)
+T ss_dssp             HHHHHT
+T ss_pred             HHhhhc
+
+
+No 3
+>3H8D_H Myosin-VI, Disabled homolog 2; Myosin VI, Myosin 6, Dab2; 2.2A {Mus musculus}
+Probab=5.76  E-value=6e+02  Score=10.08  Aligned_cols=6  Identities=83%  Similarity=1.010  Sum_probs=0.0  Template_Neff=3.000
+
+Q LLNKTN            1 LLNKTN    6 (6)
+Q Consensus         1 llnktn    6 (6)
+                      |+||.|
+T Consensus        42 l~~~~n   47 (48)
+T 3H8D_H           42 LLNKIN   47 (48)
+T ss_dssp             HHHHHT
+T ss_pred             HHhhhc
+
+
+No 4
+>7ASE_E kDDX60, 40S ribosomal protein S24; preinitiation, factors, kinetoplastid, helicase, TRANSLATION; HET: GNP; 3.33A {Trypanosoma cruzi}
+Probab=5.64  E-value=6.1e+02  Score=11.42  Aligned_cols=6  Identities=17%  Similarity=0.124  Sum_probs=0.0  Template_Neff=8.800
+
+Q LLNKTN            1 LLNKTN    6 (6)
+Q Consensus         1 llnktn    6 (6)
+                      ||.+||
+T Consensus        38 ll~~t~   43 (407)
+T 7ASE_E           38 VQATTA   43 (407)
+T ss_pred             HHHhcC
+
+
+No 5
+>5TCS_D ?; RWD, CH, coiled-coil, tetramer, Ndc80; HET: MSE; 2.8313A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=5.40  E-value=6.5e+02  Score=10.21  Aligned_cols=5  Identities=20%  Similarity=0.215  Sum_probs=0.0  Template_Neff=6.500
+
+Q LLNKTN            2 LNKTN    6 (6)
+Q Consensus         2 lnktn    6 (6)
+                      ||+++
+T Consensus        94 LN~t~   98 (115)
+T 5TCS_D           94 LTVQG   98 (115)
+T ss_dssp             CCCCC
+T ss_pred             HHHcC
+
+
+No 6
+>7KDF_D NDC80, Nuf2, Spc24, SPC25 isoform; Stu2, tension sensing, Ndc80, kinetochore; HET: SO4; 2.72A {Saccharomyces cerevisiae}
+Probab=5.40  E-value=6.5e+02  Score=10.21  Aligned_cols=5  Identities=20%  Similarity=0.215  Sum_probs=0.0  Template_Neff=6.500
+
+Q LLNKTN            2 LNKTN    6 (6)
+Q Consensus         2 lnktn    6 (6)
+                      ||+++
+T Consensus        94 LN~t~   98 (115)
+T 7KDF_D           94 LTVQG   98 (115)
+T ss_dssp             CCCCC
+T ss_pred             HHHcC
+
+
+No 7
+>3T47_B SCIN-D; Secreted, Virulence, IMMUNE SYSTEM; 1.301A {Staphylococcus aureus subsp. aureus}
+Probab=5.24  E-value=6.7e+02  Score=10.94  Aligned_cols=6  Identities=33%  Similarity=0.667  Sum_probs=0.0  Template_Neff=2.600
+
+Q LLNKTN            1 LLNKTN    6 (6)
+Q Consensus         1 llnktn    6 (6)
+                      |++++|
+T Consensus        20 Ll~~~n   25 (81)
+T 3T47_B           20 LIANTD   25 (81)
+T ss_dssp             HHHHTC
+T ss_pred             HHHhcC
+
+
+No 8
+>3T48_A SCIN-D; Secreted, Virulence, IMMUNE SYSTEM; HET: MSE; 1.5A {Staphylococcus aureus}
+Probab=5.24  E-value=6.7e+02  Score=10.94  Aligned_cols=6  Identities=33%  Similarity=0.667  Sum_probs=0.0  Template_Neff=2.600
+
+Q LLNKTN            1 LLNKTN    6 (6)
+Q Consensus         1 llnktn    6 (6)
+                      |++++|
+T Consensus        20 Ll~~~n   25 (81)
+T 3T48_A           20 LIANTD   25 (81)
+T ss_dssp             HHHHTC
+T ss_pred             HHHhcC
+
+
+No 9
+>2JVU_A DISPERSIN; BETA SANDWICH, UNKNOWN FUNCTION; NMR {Escherichia coli}
+Probab=5.08  E-value=7e+02  Score=11.29  Aligned_cols=5  Identities=80%  Similarity=1.072  Sum_probs=0.0  Template_Neff=2.700
+
+Q LLNKTN            2 LNKTN    6 (6)
+Q Consensus         2 lnktn    6 (6)
+                      +||+|
+T Consensus        76 ~~k~n   80 (104)
+T 2JVU_A           76 INKTN   80 (104)
+T ss_dssp             HHHHH
+T ss_pred             hhHhc
+
+
+No 10
+>3T49_B Fibrinogen-binding protein; Secreted, Virulence, IMMUNE SYSTEM; HET: GOL, SO4; 1.45A {Staphylococcus aureus subsp. aureus}
+Probab=4.99  E-value=7.2e+02  Score=10.70  Aligned_cols=6  Identities=83%  Similarity=1.126  Sum_probs=0.0  Template_Neff=2.500
+
+Q LLNKTN            1 LLNKTN    6 (6)
+Q Consensus         1 llnktn    6 (6)
+                      |++++|
+T Consensus        12 Ll~~~n   17 (73)
+T 3T49_B           12 LLNKSN   17 (73)
+T ss_dssp             HHTTHH
+T ss_pred             HHHhcC
+
+

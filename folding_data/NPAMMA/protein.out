@@ -1,0 +1,175 @@
+Query         NPAMMA
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 03:03:19 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NPAMMA/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NPAMMA/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6N3C_D TAR DNA-binding protein  92.9   0.034 3.8E-07   21.5   0.0    6    1-6      34-39  (46)
+  2 6N3A_J TAR DNA-binding protein  92.8   0.037   4E-07   22.0   0.0    6    1-6       9-14  (50)
+  3 2N2C_A TAR DNA-binding protein  87.8     0.3 3.3E-06   18.6   0.0    6    1-6      13-18  (43)
+  4 7KWZ_A Isoform 2 of TAR DNA-bi  84.3    0.65 7.2E-06   21.1   0.0    6    1-6      53-58  (148)
+  5 5YZ1_B Protein archease; key c  66.6     4.9 5.4E-05   17.6   0.0    6    1-6      10-15  (188)
+  6 5YZ1_A Protein archease; key c  66.3       5 5.5E-05   17.6   0.0    6    1-6      10-15  (188)
+  7 3BS0_B TodX; beta barrel, oute  57.8     9.1  0.0001   16.6   0.0    6    1-6      33-38  (439)
+  8 3PGU_A Long-chain fatty acid t  54.7      11 0.00012   16.0   0.0    6    1-6      33-38  (427)
+  9 3BRY_A TbuX; beta barrel, oute  50.3      15 0.00016   16.0   0.0    6    1-6      33-38  (441)
+ 10 1T16_A Long-chain fatty acid t  50.3      15 0.00016   15.7   0.0    6    1-6      33-38  (427)
+ 11 5MU3_E Central kinetochore sub  34.5      38 0.00042   16.2   0.0    6    1-6      74-79  (165)
+
+No 1
+>6N3C_D TAR DNA-binding protein 43; Amyloid, TDP43, ALS, FTLD-TDP, dna; 3.3A {Homo sapiens}
+Probab=92.88  E-value=0.034  Score=21.50  Aligned_cols=6  Identities=100%  Similarity=1.376  Sum_probs=0.8  Template_Neff=3.000
+
+Q NPAMMA            1 NPAMMA    6 (6)
+Q Consensus         1 npamma    6 (6)
+                      ||||||
+T Consensus        34 NpAmmA   39 (46)
+T 6N3C_D           34 NPAMMA   39 (46)
+T ss_dssp             C-----
+T ss_pred             CHHHHH
+Confidence            799996
+
+
+No 2
+>6N3A_J TAR DNA-binding protein 43, segA; Amyloid, TDP43, ALS, FTLD-TDP, dna; 3.3A {Homo sapiens}
+Probab=92.78  E-value=0.037  Score=22.01  Aligned_cols=6  Identities=100%  Similarity=1.376  Sum_probs=5.1  Template_Neff=2.200
+
+Q NPAMMA            1 NPAMMA    6 (6)
+Q Consensus         1 npamma    6 (6)
+                      ||||||
+T Consensus         9 NpAmmA   14 (50)
+T 6N3A_J            9 NPAMMA   14 (50)
+T ss_dssp             CCEEEC
+T ss_pred             CHHHHH
+Confidence            799985
+
+
+No 3
+>2N2C_A TAR DNA-binding protein 43; ALS, prion-like domain, hydrophobic helices; NMR {Homo sapiens}
+Probab=87.80  E-value=0.3  Score=18.62  Aligned_cols=6  Identities=100%  Similarity=1.376  Sum_probs=4.8  Template_Neff=3.300
+
+Q NPAMMA            1 NPAMMA    6 (6)
+Q Consensus         1 npamma    6 (6)
+                      ||||+|
+T Consensus        13 NpAmvA   18 (43)
+T 2N2C_A           13 NPAMMA   18 (43)
+T ss_dssp             SSSHHH
+T ss_pred             CHHHHH
+Confidence            789885
+
+
+No 4
+>7KWZ_A Isoform 2 of TAR DNA-binding; TDP-43, amyloid, neurodegenerative diseases, amyotropic; 3.2A {Homo sapiens}
+Probab=84.27  E-value=0.65  Score=21.13  Aligned_cols=6  Identities=100%  Similarity=1.376  Sum_probs=4.9  Template_Neff=2.900
+
+Q NPAMMA            1 NPAMMA    6 (6)
+Q Consensus         1 npamma    6 (6)
+                      ||||||
+T Consensus        53 NpAmvA   58 (148)
+T 7KWZ_A           53 NPAMMA   58 (148)
+T ss_dssp             CCCEEE
+T ss_pred             CHHHHH
+Confidence            789886
+
+
+No 5
+>5YZ1_B Protein archease; key cofacor, human RTCB, CHAPERONE; HET: PEG; 1.97A {Homo sapiens}
+Probab=66.59  E-value=4.9  Score=17.61  Aligned_cols=6  Identities=83%  Similarity=1.226  Sum_probs=0.0  Template_Neff=5.800
+
+Q NPAMMA            1 NPAMMA    6 (6)
+Q Consensus         1 npamma    6 (6)
+                      |||.||
+T Consensus        10 ~~~~~~   15 (188)
+T 5YZ1_B           10 NPAVMA   15 (188)
+T ss_dssp             ------
+T ss_pred             ChHHHH
+Confidence            688775
+
+
+No 6
+>5YZ1_A Protein archease; key cofacor, human RTCB, CHAPERONE; HET: PEG; 1.97A {Homo sapiens}
+Probab=66.26  E-value=5  Score=17.58  Aligned_cols=6  Identities=83%  Similarity=1.226  Sum_probs=0.0  Template_Neff=5.800
+
+Q NPAMMA            1 NPAMMA    6 (6)
+Q Consensus         1 npamma    6 (6)
+                      |||.||
+T Consensus        10 ~~~~~~   15 (188)
+T 5YZ1_A           10 NPAVMA   15 (188)
+T ss_dssp             ------
+T ss_pred             ChHHHH
+Confidence            688775
+
+
+No 7
+>3BS0_B TodX; beta barrel, outer membrane protein; HET: C8E; 2.6A {Pseudomonas putida}
+Probab=57.75  E-value=9.1  Score=16.55  Aligned_cols=6  Identities=50%  Similarity=0.949  Sum_probs=4.0  Template_Neff=9.300
+
+Q NPAMMA            1 NPAMMA    6 (6)
+Q Consensus         1 npamma    6 (6)
+                      |||.|+
+T Consensus        33 NPA~la   38 (439)
+T 3BS0_B           33 NPATLS   38 (439)
+T ss_dssp             CGGGGG
+T ss_pred             ChhHHh
+Confidence            677664
+
+
+No 8
+>3PGU_A Long-chain fatty acid transport protein; outer membrane beta barrel, lipid; HET: OLA, 2PE, C8E; 1.7A {Escherichia coli K-12}
+Probab=54.71  E-value=11  Score=16.00  Aligned_cols=6  Identities=50%  Similarity=1.093  Sum_probs=3.7  Template_Neff=9.700
+
+Q NPAMMA            1 NPAMMA    6 (6)
+Q Consensus         1 npamma    6 (6)
+                      |||.|+
+T Consensus        33 NPA~l~   38 (427)
+T 3PGU_A           33 NPALIT   38 (427)
+T ss_dssp             CGGGGG
+T ss_pred             CHhHHh
+Confidence            677653
+
+
+No 9
+>3BRY_A TbuX; beta barrel, outer membrane protein; HET: C8E; 3.2A {Ralstonia pickettii}
+Probab=50.30  E-value=15  Score=15.98  Aligned_cols=6  Identities=50%  Similarity=0.916  Sum_probs=3.8  Template_Neff=9.300
+
+Q NPAMMA            1 NPAMMA    6 (6)
+Q Consensus         1 npamma    6 (6)
+                      |||.|+
+T Consensus        33 NPA~la   38 (441)
+T 3BRY_A           33 NPATLG   38 (441)
+T ss_dssp             CGGGTT
+T ss_pred             Chhhhh
+Confidence            677653
+
+
+No 10
+>1T16_A Long-chain fatty acid transport protein; beta-barrel, LIPID TRANSPORT; HET: LDA, C8E; 2.6A {Escherichia coli} SCOP: f.4.3.4
+Probab=50.26  E-value=15  Score=15.66  Aligned_cols=6  Identities=50%  Similarity=1.093  Sum_probs=3.7  Template_Neff=9.700
+
+Q NPAMMA            1 NPAMMA    6 (6)
+Q Consensus         1 npamma    6 (6)
+                      |||.++
+T Consensus        33 NPA~l~   38 (427)
+T 1T16_A           33 NPALIT   38 (427)
+T ss_dssp             CGGGGG
+T ss_pred             CccHHh
+Confidence            677653
+
+
+No 11
+>5MU3_E Central kinetochore subunit MCM21, Central; Cell cycle, chromosome segregation, centromere; HET: CSX; 2.1A {Kluyveromyces lactis NRRL Y-1140}
+Probab=34.45  E-value=38  Score=16.22  Aligned_cols=6  Identities=83%  Similarity=0.855  Sum_probs=4.0  Template_Neff=1.600
+
+Q NPAMMA            1 NPAMMA    6 (6)
+Q Consensus         1 npamma    6 (6)
+                      |-|||+
+T Consensus        74 NiAMMg   79 (165)
+T 5MU3_E           74 NVAMMA   79 (165)
+T ss_dssp             HHHHHH
+T ss_pred             cHHHHH
+Confidence            567875
+
+

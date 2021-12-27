@@ -1,0 +1,157 @@
+Query         KDWSFY
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 10:25:46 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/KDWSFY/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/KDWSFY/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6NXF_V Meiotic recombination p  72.9     2.8 3.1E-05   16.8   0.0    6    1-6      34-39  (51)
+  2 1TXJ_A translationally control  38.1      30 0.00033   15.0   0.0    6    1-6     129-134 (171)
+  3 6IZB_A Translationally-control  36.8      33 0.00036   14.8   0.0    6    1-6     103-108 (153)
+  4 6J2Y_A NoTCTP; translation, TC  35.6      35 0.00039   15.1   0.0    6    1-6     138-143 (188)
+  5 1H7Y_A TRANSLATIONALLY CONTROL  33.9      39 0.00043   14.6   0.0    6    1-6     126-131 (168)
+  6 2KWB_A Translationally-control  32.0      44 0.00048   15.0   0.0    6    1-6     134-139 (189)
+  7 2HR9_A Translationally-control  30.9      47 0.00052   14.7   0.0    6    1-6     130-135 (180)
+  8 5O9M_A Uncharacterized protein  30.0      50 0.00055   14.6   0.0    6    1-6     130-135 (180)
+  9 1EQ6_A SACCHAROMYCES CEREVISIA  24.3      74 0.00082   13.6   0.0    6    1-6     183-188 (189)
+ 10 1JHS_A NUCLEAR-PROTEIN IMPORT,  21.7      89 0.00099   13.5   0.0    6    1-6     182-187 (188)
+
+No 1
+>6NXF_V Meiotic recombination protein REC114, Ankyrin; REC114, ANKRD31, Meiosis, Double-strand breaks; HET: MSE; 2.791A {Mus musculus}
+Probab=72.87  E-value=2.8  Score=16.76  Aligned_cols=6  Identities=50%  Similarity=1.719  Sum_probs=4.5  Template_Neff=2.400
+
+Q KDWSFY            1 KDWSFY    6 (6)
+Q Consensus         1 kdwsfy    6 (6)
+                      |-|+||
+T Consensus        34 kHW~FY   39 (51)
+T 6NXF_V           34 QHWKFY   39 (51)
+T ss_pred             HHHHhH
+Confidence            468887
+
+
+No 2
+>1TXJ_A translationally controlled tumour-associated protein (TCTP); Structural Genomics Consortium, SGC, guanine; 2.0A {Plasmodium knowlesi} SCOP: b.88.1.2
+Probab=38.14  E-value=30  Score=14.98  Aligned_cols=6  Identities=50%  Similarity=1.320  Sum_probs=3.4  Template_Neff=6.000
+
+Q KDWSFY            1 KDWSFY    6 (6)
+Q Consensus         1 kdwsfy    6 (6)
+                      +||+||
+T Consensus       129 ~d~qFy  134 (171)
+T 1TXJ_A          129 DDFEFY  134 (171)
+T ss_dssp             GGCEEE
+T ss_pred             ccCcee
+Confidence            356665
+
+
+No 3
+>6IZB_A Translationally-controlled tumor protein; alpha/beta fold, flexible loop truncated; 1.899A {Homo sapiens}
+Probab=36.79  E-value=33  Score=14.80  Aligned_cols=6  Identities=33%  Similarity=1.209  Sum_probs=3.3  Template_Neff=5.700
+
+Q KDWSFY            1 KDWSFY    6 (6)
+Q Consensus         1 kdwsfy    6 (6)
+                      +||+||
+T Consensus       103 ~d~qFf  108 (153)
+T 6IZB_A          103 KNYQFF  108 (153)
+T ss_dssp             GGCEEE
+T ss_pred             CcCcEE
+Confidence            356665
+
+
+No 4
+>6J2Y_A NoTCTP; translation, TCTP, eEF1B-binding protein; NMR {Nannochloropsis oceanica}
+Probab=35.57  E-value=35  Score=15.07  Aligned_cols=6  Identities=33%  Similarity=0.933  Sum_probs=3.4  Template_Neff=5.800
+
+Q KDWSFY            1 KDWSFY    6 (6)
+Q Consensus         1 kdwsfy    6 (6)
+                      +||+||
+T Consensus       138 ~d~qFf  143 (188)
+T 6J2Y_A          138 DDLEFF  143 (188)
+T ss_pred             CCCceE
+Confidence            356665
+
+
+No 5
+>1H7Y_A TRANSLATIONALLY CONTROLLED TUMOR PROTEIN; TUMOR-ASSOCIATED PROTEIN, FUNCTION UNKNOWN; NMR {SCHIZOSACCHAROMYCES POMBE} SCOP: b.88.1.2
+Probab=33.87  E-value=39  Score=14.61  Aligned_cols=6  Identities=67%  Similarity=1.514  Sum_probs=3.3  Template_Neff=6.000
+
+Q KDWSFY            1 KDWSFY    6 (6)
+Q Consensus         1 kdwsfy    6 (6)
+                      +||+||
+T Consensus       126 ~d~qFy  131 (168)
+T 1H7Y_A          126 KDYDFY  131 (168)
+T ss_dssp             TTTCCE
+T ss_pred             CcCceE
+Confidence            356665
+
+
+No 6
+>2KWB_A Translationally-controlled tumor protein homolog; Structural Genomics, NORTHEAST STRUCTURAL GENOMICS; NMR {Caenorhabditis elegans}
+Probab=32.05  E-value=44  Score=14.95  Aligned_cols=6  Identities=33%  Similarity=0.994  Sum_probs=3.3  Template_Neff=5.500
+
+Q KDWSFY            1 KDWSFY    6 (6)
+Q Consensus         1 kdwsfy    6 (6)
+                      +||.||
+T Consensus       134 ~d~qFf  139 (189)
+T 2KWB_A          134 KNLAFF  139 (189)
+T ss_dssp             TTCEEE
+T ss_pred             CCceee
+Confidence            356665
+
+
+No 7
+>2HR9_A Translationally-controlled tumor protein; TUMOR PROTEIN, APOPTOSIS, METAL BINDING; NMR {Homo sapiens} SCOP: b.88.1.2
+Probab=30.87  E-value=47  Score=14.71  Aligned_cols=6  Identities=33%  Similarity=1.209  Sum_probs=3.2  Template_Neff=5.600
+
+Q KDWSFY            1 KDWSFY    6 (6)
+Q Consensus         1 kdwsfy    6 (6)
+                      +||+||
+T Consensus       130 ~d~qFy  135 (180)
+T 2HR9_A          130 KNYQFF  135 (180)
+T ss_dssp             TTCEEE
+T ss_pred             ccCcEE
+Confidence            356665
+
+
+No 8
+>5O9M_A Uncharacterized protein; Immunoglobulin E, Allergy, Histamine Releasing; 1.4A {Homo sapiens}
+Probab=29.98  E-value=50  Score=14.63  Aligned_cols=6  Identities=33%  Similarity=1.209  Sum_probs=3.2  Template_Neff=5.600
+
+Q KDWSFY            1 KDWSFY    6 (6)
+Q Consensus         1 kdwsfy    6 (6)
+                      +||+||
+T Consensus       130 ~d~qFf  135 (180)
+T 5O9M_A          130 KNYQFF  135 (180)
+T ss_dssp             GGCEEE
+T ss_pred             ccCcEE
+Confidence            356665
+
+
+No 9
+>1EQ6_A SACCHAROMYCES CEREVISIAE RAN-BINDING PROTEIN MOG1P; alpha-beta, PROTEIN TRANSPORT; 1.9A {Saccharomyces cerevisiae} SCOP: d.107.1.1
+Probab=24.29  E-value=74  Score=13.65  Aligned_cols=6  Identities=33%  Similarity=0.490  Sum_probs=3.8  Template_Neff=6.800
+
+Q KDWSFY            1 KDWSFY    6 (6)
+Q Consensus         1 kdwsfy    6 (6)
+                      +||+.+
+T Consensus       183 ~Dw~LF  188 (189)
+T 1EQ6_A          183 VDTSLF  188 (189)
+T ss_pred             cChhhc
+Confidence            478753
+
+
+No 10
+>1JHS_A NUCLEAR-PROTEIN IMPORT, GSP1, GENE REGULATION; 1.9A {Saccharomyces cerevisiae} SCOP: d.107.1.1
+Probab=21.71  E-value=89  Score=13.54  Aligned_cols=6  Identities=33%  Similarity=0.490  Sum_probs=3.7  Template_Neff=6.500
+
+Q KDWSFY            1 KDWSFY    6 (6)
+Q Consensus         1 kdwsfy    6 (6)
+                      +||+.+
+T Consensus       182 ~Dw~LF  187 (188)
+T 1JHS_A          182 VDTSLF  187 (188)
+T ss_dssp             SCGGGG
+T ss_pred             cChhhc
+Confidence            478753
+
+

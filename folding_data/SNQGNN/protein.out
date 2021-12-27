@@ -1,0 +1,149 @@
+Query         SNQGNN
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 15:40:52 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/SNQGNN/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/SNQGNN/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6ZNJ_A NADP-dependent malate d  17.5 1.3E+02  0.0014   15.7   0.0    5    2-6     328-332 (780)
+  2 6URF_D NAD-dependent malic enz  16.9 1.3E+02  0.0015   15.8   0.0    5    2-6     473-477 (570)
+  3 5OU5_B Malic enzyme; malic enz  16.6 1.4E+02  0.0015   15.7   0.0    5    2-6     473-477 (576)
+  4 6C7N_A Malic enzyme; enzyme su  16.0 1.5E+02  0.0016   15.8   0.0    5    2-6     510-514 (613)
+  5 6ZNG_D Malate dehydrogenase (E  15.5 1.5E+02  0.0017   15.4   0.0    5    2-6     339-343 (791)
+  6 6PWD_A Type III effector HopBF  11.9 2.2E+02  0.0025   11.4   0.0    5    2-6       4-8   (204)
+  7 6Y4O_B Calmodulin, Ryanodine r  10.6 2.7E+02  0.0029    9.2   0.0    6    1-6       1-6   (30)
+  8 6ZN4_A Malate dehydrogenase (E   9.4 3.1E+02  0.0035   13.5   0.0    5    2-6     339-343 (445)
+  9 6ZN7_A Malate dehydrogenase (E   9.4 3.1E+02  0.0035   13.5   0.0    5    2-6     339-343 (445)
+ 10 3U02_D Putative transcription-   9.3 3.2E+02  0.0035   12.7   0.0    6    1-6     246-251 (252)
+
+No 1
+>6ZNJ_A NADP-dependent malate dehydrogenase,Malate dehydrogenase (E.C.1.1.1.40,1.1.1.40); malic enzyme, OXIDOREDUCTASE; 3.7A {Bdellovibrio bacteriovorus (strain ATCC 15356 / DSM 50701 / NCIB 9529 / HD100)}
+Probab=17.51  E-value=1.3e+02  Score=15.70  Aligned_cols=5  Identities=80%  Similarity=0.720  Sum_probs=0.0  Template_Neff=6.700
+
+Q SNQGNN            2 NQGNN    6 (6)
+Q Consensus         2 nqgnn    6 (6)
+                      ||+||
+T Consensus       328 ~Q~NN  332 (780)
+T 6ZNJ_A          328 NQVNN  332 (780)
+T ss_dssp             SBCCG
+T ss_pred             CcCCC
+
+
+No 2
+>6URF_D NAD-dependent malic enzyme (E.C.1.1.1.38); Malic enzyme, Fatty acid synthesis; HET: GOL; 3.6A {Mycobacterium tuberculosis}
+Probab=16.95  E-value=1.3e+02  Score=15.78  Aligned_cols=5  Identities=60%  Similarity=0.747  Sum_probs=0.0  Template_Neff=5.100
+
+Q SNQGNN            2 NQGNN    6 (6)
+Q Consensus         2 nqgnn    6 (6)
+                      ||+||
+T Consensus       473 ~Q~NN  477 (570)
+T 6URF_D          473 GQANN  477 (570)
+T ss_dssp             EECCG
+T ss_pred             ccCCc
+
+
+No 3
+>5OU5_B Malic enzyme; malic enzyme, oxidative decarboxylase, NADP-dependent; HET: NA; 2.2A {Zea mays}
+Probab=16.63  E-value=1.4e+02  Score=15.71  Aligned_cols=5  Identities=60%  Similarity=0.740  Sum_probs=0.0  Template_Neff=5.200
+
+Q SNQGNN            2 NQGNN    6 (6)
+Q Consensus         2 nqgnn    6 (6)
+                      ||+||
+T Consensus       473 ~Q~NN  477 (576)
+T 5OU5_B          473 GQSNN  477 (576)
+T ss_dssp             EECCG
+T ss_pred             CCccc
+
+
+No 4
+>6C7N_A Malic enzyme; enzyme substrate complex, OXIDOREDUCTASE; HET: PYR, GOL, NAP; 2.0A {Sorghum bicolor}
+Probab=15.96  E-value=1.5e+02  Score=15.79  Aligned_cols=5  Identities=60%  Similarity=0.740  Sum_probs=0.0  Template_Neff=5.100
+
+Q SNQGNN            2 NQGNN    6 (6)
+Q Consensus         2 nqgnn    6 (6)
+                      ||+||
+T Consensus       510 ~Q~NN  514 (613)
+T 6C7N_A          510 GQSNN  514 (613)
+T ss_dssp             EECCG
+T ss_pred             CCCCc
+
+
+No 5
+>6ZNG_D Malate dehydrogenase (E.C.1.1.1.40); malic enzyme, OXIDOREDUCTASE; HET: ACO; 2.72A {Bdellovibrio bacteriovorus (strain ATCC 15356 / DSM 50701 / NCIB 9529 / HD100)}
+Probab=15.47  E-value=1.5e+02  Score=15.41  Aligned_cols=5  Identities=80%  Similarity=0.720  Sum_probs=0.0  Template_Neff=6.800
+
+Q SNQGNN            2 NQGNN    6 (6)
+Q Consensus         2 nqgnn    6 (6)
+                      ||.||
+T Consensus       339 nQ~NN  343 (791)
+T 6ZNG_D          339 NQVNN  343 (791)
+T ss_dssp             SCCCG
+T ss_pred             CCCCc
+
+
+No 6
+>6PWD_A Type III effector HopBF1; HSP90, phosphorylation, chaperone, immunity, kinase; HET: EDO; 2.47A {Ewingella americana}
+Probab=11.90  E-value=2.2e+02  Score=11.39  Aligned_cols=5  Identities=60%  Similarity=0.687  Sum_probs=0.0  Template_Neff=8.900
+
+Q SNQGNN            2 NQGNN    6 (6)
+Q Consensus         2 nqgnn    6 (6)
+                      |||||
+T Consensus         4 ~~~~~    8 (204)
+T 6PWD_A            4 NVSNN    8 (204)
+T ss_pred             cCCCc
+
+
+No 7
+>6Y4O_B Calmodulin, Ryanodine receptor 2; ion channel, calcium, calmodulin, MEMBRANE; 1.83549081766A {Homo sapiens}
+Probab=10.56  E-value=2.7e+02  Score=9.20  Aligned_cols=6  Identities=33%  Similarity=0.363  Sum_probs=0.0  Template_Neff=5.600
+
+Q SNQGNN            1 SNQGNN    6 (6)
+Q Consensus         1 snqgnn    6 (6)
+                      |||+++
+T Consensus         1 ~~~~~~    6 (30)
+T 6Y4O_B            1 SNARSK    6 (30)
+T ss_dssp             ----CC
+T ss_pred             Cchhhh
+
+
+No 8
+>6ZN4_A Malate dehydrogenase (E.C.1.1.1.40); malic enzyme, OXIDOREDUCTASE; 1.679A {Bdellovibrio bacteriovorus (strain ATCC 15356 / DSM 50701 / NCIB 9529 / HD100)}
+Probab=9.39  E-value=3.1e+02  Score=13.46  Aligned_cols=5  Identities=80%  Similarity=0.720  Sum_probs=0.0  Template_Neff=6.600
+
+Q SNQGNN            2 NQGNN    6 (6)
+Q Consensus         2 nqgnn    6 (6)
+                      ||.||
+T Consensus       339 ~q~nn  343 (445)
+T 6ZN4_A          339 NQVNN  343 (445)
+T ss_dssp             SBCCG
+T ss_pred             CCCCc
+
+
+No 9
+>6ZN7_A Malate dehydrogenase (E.C.1.1.1.40); malic enzyme, OXIDOREDUCTASE; HET: NAP; 1.67A {Bdellovibrio bacteriovorus (strain ATCC 15356 / DSM 50701 / NCIB 9529 / HD100)}
+Probab=9.39  E-value=3.1e+02  Score=13.46  Aligned_cols=5  Identities=80%  Similarity=0.720  Sum_probs=0.0  Template_Neff=6.600
+
+Q SNQGNN            2 NQGNN    6 (6)
+Q Consensus         2 nqgnn    6 (6)
+                      ||.||
+T Consensus       339 ~q~nn  343 (445)
+T 6ZN7_A          339 NQVNN  343 (445)
+T ss_dssp             SBCCG
+T ss_pred             CCCCc
+
+
+No 10
+>3U02_D Putative transcription-associated protein TFIIS; Structural Genomics, PSI-Biology, Protein Structure; HET: CIT, MES, SO4, TPO, MSE; 2.399A {Pyrococcus furiosus DSM 3638}
+Probab=9.33  E-value=3.2e+02  Score=12.70  Aligned_cols=6  Identities=33%  Similarity=0.617  Sum_probs=0.0  Template_Neff=6.000
+
+Q SNQGNN            1 SNQGNN    6 (6)
+Q Consensus         1 snqgnn    6 (6)
+                      +|||.+
+T Consensus       246 TNQgTD  251 (252)
+T 3U02_D          246 TNQNTD  251 (252)
+T ss_dssp             ESCCC-
+T ss_pred             ecCCCC
+
+

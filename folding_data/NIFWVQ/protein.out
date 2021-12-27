@@ -1,0 +1,151 @@
+Query         NIFWVQ
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 00:52:06 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NIFWVQ/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NIFWVQ/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 7ANE_p mL94, mL89, Ribosomal p  92.8   0.036 3.9E-07   27.5   0.0    6    1-6     114-119 (321)
+  2 7AOR_p mL94, mL89, Ribosomal p  92.7    0.04 4.4E-07   27.2   0.0    6    1-6     114-119 (308)
+  3 6SGA_Cb ?; mitochondrial ribos  92.6   0.042 4.7E-07   27.2   0.0    6    1-6     114-119 (311)
+  4 2N7K_B NEDD8, Protein KHNYN; S  21.6      90   0.001   12.5   0.0    6    1-6      18-23  (52)
+  5 1SSK_A Nucleocapsid protein; n  19.7   1E+02  0.0012   14.3   0.0    4    2-5     108-111 (158)
+  6 6JIF_A Branched-chain-amino-ac  19.6 1.1E+02  0.0012   13.6   0.0    5    1-5     245-249 (359)
+  7 2GEC_B Nucleocapsid protein; N  19.1 1.1E+02  0.0012   13.9   0.0    4    2-5      92-95  (139)
+  8 2BXX_B NUCLEOCAPSID PROTEIN; N  18.9 1.1E+02  0.0012   13.8   0.0    4    2-5      87-90  (134)
+  9 4UD1_A N PROTEIN; VIRAL PROTEI  18.9 1.1E+02  0.0012   14.3   0.0    4    2-5     120-123 (164)
+ 10 5MPR_A Branched-chain-amino-ac  18.9 1.1E+02  0.0012   13.7   0.0    5    1-5     243-247 (366)
+
+No 1
+>7ANE_p mL94, mL89, Ribosomal protein L3-like; Ribosome, Mitochondria, Kinetoplastid; HET: NAD; 3.9A {Leishmania major}
+Probab=92.81  E-value=0.036  Score=27.48  Aligned_cols=6  Identities=50%  Similarity=1.813  Sum_probs=5.4  Template_Neff=1.900
+
+Q NIFWVQ            1 NIFWVQ    6 (6)
+Q Consensus         1 nifwvq    6 (6)
+                      |||||+
+T Consensus       114 NIFWVr  119 (321)
+T 7ANE_p          114 NVFWIR  119 (321)
+T ss_pred             eEEEee
+Confidence            899996
+
+
+No 2
+>7AOR_p mL94, mL89, Ribosomal protein L3-like; Ribosome, Mitochondria, Kinetoplastid; HET: GTP, UTP;{Trypanosoma cruzi (strain CL Brener)}
+Probab=92.65  E-value=0.04  Score=27.22  Aligned_cols=6  Identities=83%  Similarity=1.879  Sum_probs=5.4  Template_Neff=1.900
+
+Q NIFWVQ            1 NIFWVQ    6 (6)
+Q Consensus         1 nifwvq    6 (6)
+                      |||||+
+T Consensus       114 NIFWvr  119 (308)
+T 7AOR_p          114 NIFWVR  119 (308)
+T ss_pred             eEEeee
+Confidence            899996
+
+
+No 3
+>6SGA_Cb ?; mitochondrial ribosome, assembly intermediate, translation; HET: UBD, PM8; 3.1A {Trypanosoma brucei brucei}
+Probab=92.55  E-value=0.042  Score=27.15  Aligned_cols=6  Identities=83%  Similarity=1.879  Sum_probs=5.3  Template_Neff=1.900
+
+Q NIFWVQ            1 NIFWVQ    6 (6)
+Q Consensus         1 nifwvq    6 (6)
+                      |||||+
+T Consensus       114 NIFWvr  119 (311)
+T 6SGA_Cb         114 NIFWVR  119 (311)
+T ss_pred             eEEeee
+Confidence            899996
+
+
+No 4
+>2N7K_B NEDD8, Protein KHNYN; SIGNALING PROTEIN; NMR {Homo sapiens}
+Probab=21.60  E-value=90  Score=12.53  Aligned_cols=6  Identities=50%  Similarity=1.365  Sum_probs=3.5  Template_Neff=2.800
+
+Q NIFWVQ            1 NIFWVQ    6 (6)
+Q Consensus         1 nifwvq    6 (6)
+                      +|||-|
+T Consensus        18 ~IF~gq   23 (52)
+T 2N7K_B           18 EVFWGQ   23 (52)
+T ss_dssp             CTTTTT
+T ss_pred             HHhcCC
+Confidence            477744
+
+
+No 5
+>1SSK_A Nucleocapsid protein; nucleocapsid protein, STRUCTURAL PROTEIN; NMR {SARS coronavirus} SCOP: b.148.1.1
+Probab=19.74  E-value=1e+02  Score=14.34  Aligned_cols=4  Identities=75%  Similarity=1.805  Sum_probs=0.0  Template_Neff=3.400
+
+Q NIFWVQ            2 IFWV    5 (6)
+Q Consensus         2 ifwv    5 (6)
+                      ||||
+T Consensus       108 V~WV  111 (158)
+T 1SSK_A          108 IVWV  111 (158)
+T ss_dssp             EEEE
+T ss_pred             EEEE
+
+
+No 6
+>6JIF_A Branched-chain-amino-acid aminotransferase (E.C.2.6.1.42); Branched Chain Amino Acid Biosynthetic; HET: PLP; 1.7A {Pseudomonas sp. UW4}
+Probab=19.57  E-value=1.1e+02  Score=13.60  Aligned_cols=5  Identities=40%  Similarity=0.726  Sum_probs=0.0  Template_Neff=8.400
+
+Q NIFWVQ            1 NIFWV    5 (6)
+Q Consensus         1 nifwv    5 (6)
+                      |+|++
+T Consensus       245 Nif~v  249 (359)
+T 6JIF_A          245 NFFGI  249 (359)
+T ss_dssp             EEEEE
+T ss_pred             EEEEE
+
+
+No 7
+>2GEC_B Nucleocapsid protein; Nucleocapsid protein, N protein, Coronavirus; 1.3A {Infectious bronchitis virus} SCOP: b.148.1.1
+Probab=19.14  E-value=1.1e+02  Score=13.92  Aligned_cols=4  Identities=75%  Similarity=1.805  Sum_probs=0.0  Template_Neff=3.700
+
+Q NIFWVQ            2 IFWV    5 (6)
+Q Consensus         2 ifwv    5 (6)
+                      ||||
+T Consensus        92 V~WV   95 (139)
+T 2GEC_B           92 IVWV   95 (139)
+T ss_dssp             EEEE
+T ss_pred             EEEE
+
+
+No 8
+>2BXX_B NUCLEOCAPSID PROTEIN; NUCLEOCAPSID PROTEIN, PHOSPHORYLATION, RNA-BINDING, VIRAL; 1.85A {AVIAN INFECTIOUS BRONCHITIS VIRUS} SCOP: b.148.1.1
+Probab=18.94  E-value=1.1e+02  Score=13.83  Aligned_cols=4  Identities=75%  Similarity=1.805  Sum_probs=0.0  Template_Neff=3.700
+
+Q NIFWVQ            2 IFWV    5 (6)
+Q Consensus         2 ifwv    5 (6)
+                      ||||
+T Consensus        87 V~WV   90 (134)
+T 2BXX_B           87 IVWV   90 (134)
+T ss_dssp             EEEE
+T ss_pred             EEEE
+
+
+No 9
+>4UD1_A N PROTEIN; VIRAL PROTEIN, RNA BINDING DOMAIN; HET: GOL, NH4, IMD; 2.48A {MIDDLE EAST RESPIRATORY SYNDROME CORONAVIRUS}
+Probab=18.90  E-value=1.1e+02  Score=14.32  Aligned_cols=4  Identities=75%  Similarity=1.805  Sum_probs=0.0  Template_Neff=3.400
+
+Q NIFWVQ            2 IFWV    5 (6)
+Q Consensus         2 ifwv    5 (6)
+                      ||||
+T Consensus       120 V~WV  123 (164)
+T 4UD1_A          120 IVWV  123 (164)
+T ss_dssp             EEEE
+T ss_pred             EEEE
+
+
+No 10
+>5MPR_A Branched-chain-amino-acid aminotransferase, mitochondrial (E.C.2.6.1.42); aminotransferase transaminase PLP mutation, TRANSFERASE; HET: EDO, PLP; 1.6A {Homo sapiens}
+Probab=18.89  E-value=1.1e+02  Score=13.66  Aligned_cols=5  Identities=60%  Similarity=0.740  Sum_probs=0.0  Template_Neff=8.200
+
+Q NIFWVQ            1 NIFWV    5 (6)
+Q Consensus         1 nifwv    5 (6)
+                      |||++
+T Consensus       243 Nif~v  247 (366)
+T 5MPR_A          243 NIFVY  247 (366)
+T ss_dssp             EEEEE
+T ss_pred             eEEEE
+
+

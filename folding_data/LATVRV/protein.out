@@ -1,0 +1,147 @@
+Query         LATVRV
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 16:00:21 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LATVRV/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LATVRV/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2GL7_C Beta-catenin, Transcrip   5.8   6E+02  0.0066   10.1   0.0    5    1-5      17-21  (46)
+  2 6DD8_A Synaptonemal complex pr   5.3 6.6E+02  0.0073   10.6   0.0    5    1-5     138-142 (144)
+  3 6DD8_D Synaptonemal complex pr   5.2 6.8E+02  0.0075   10.6   0.0    5    1-5     138-142 (144)
+  4 6DD9_A Synaptonemal complex pr   5.2 6.8E+02  0.0075   10.6   0.0    5    1-5     138-142 (144)
+  5 3SL9_F Catenin beta-1, B-cell    5.0 7.1E+02  0.0079   10.2   0.0    5    1-5      22-26  (55)
+  6 2C3T_B GLUTATHIONE S-TRANSFERA   4.7 7.6E+02  0.0084    9.5   0.0    5    1-5     243-247 (247)
+  7 5ZT0_I Serine/threonine-protei   4.5 8.2E+02   0.009    9.8   0.0    6    1-6      43-48  (75)
+  8 5FMF_V DNA REPAIR HELICASE RAD   4.3 8.5E+02  0.0094   10.6   0.0    6    1-6      39-44  (174)
+  9 4CPC_C SYNAPTONEMAL COMPLEX PR   4.1 9.1E+02    0.01   10.4   0.0    5    1-5     161-165 (167)
+ 10 5XJU_2 Gem-associated protein    4.0 9.5E+02    0.01   10.0   0.0    5    1-5      14-18  (241)
+
+No 1
+>2GL7_C Beta-catenin, Transcription factor 7-like 2; PROTEIN COMPLEX, ARMADILLO REPEAT, TRANSCRIPTION; 2.6A {Homo sapiens}
+Probab=5.76  E-value=6e+02  Score=10.10  Aligned_cols=5  Identities=60%  Similarity=0.853  Sum_probs=0.0  Template_Neff=2.600
+
+Q LATVRV            1 LATVR    5 (6)
+Q Consensus         1 latvr    5 (6)
+                      |+++|
+T Consensus        17 Latlr   21 (46)
+T 2GL7_C           17 LQTLR   21 (46)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 2
+>6DD8_A Synaptonemal complex protein 3; Meiosis, chromosome axis, coiled-coil, STRUCTURAL; HET: MSE; 2.6A {Mus musculus}
+Probab=5.30  E-value=6.6e+02  Score=10.61  Aligned_cols=5  Identities=60%  Similarity=0.919  Sum_probs=0.0  Template_Neff=6.400
+
+Q LATVRV            1 LATVR    5 (6)
+Q Consensus         1 latvr    5 (6)
+                      +|+||
+T Consensus       138 ~~~vr  142 (144)
+T 6DD8_A          138 MANVR  142 (144)
+T ss_dssp             -----
+T ss_pred             HhHhh
+
+
+No 3
+>6DD8_D Synaptonemal complex protein 3; Meiosis, chromosome axis, coiled-coil, STRUCTURAL; HET: MSE; 2.6A {Mus musculus}
+Probab=5.19  E-value=6.8e+02  Score=10.57  Aligned_cols=5  Identities=60%  Similarity=0.919  Sum_probs=0.0  Template_Neff=6.400
+
+Q LATVRV            1 LATVR    5 (6)
+Q Consensus         1 latvr    5 (6)
+                      +|+||
+T Consensus       138 ~~~vr  142 (144)
+T 6DD8_D          138 MANVR  142 (144)
+T ss_dssp             -----
+T ss_pred             HhHhh
+
+
+No 4
+>6DD9_A Synaptonemal complex protein 3; Meiosis, chromosome axis, coiled-coil, STRUCTURAL; HET: MSE; 2.3A {Mus musculus}
+Probab=5.19  E-value=6.8e+02  Score=10.57  Aligned_cols=5  Identities=60%  Similarity=0.919  Sum_probs=0.0  Template_Neff=6.400
+
+Q LATVRV            1 LATVR    5 (6)
+Q Consensus         1 latvr    5 (6)
+                      +|+||
+T Consensus       138 ~~~vr  142 (144)
+T 6DD9_A          138 MANVR  142 (144)
+T ss_dssp             -----
+T ss_pred             HhHhh
+
+
+No 5
+>3SL9_F Catenin beta-1, B-cell CLL/lymphoma 9; Armadillo repeat, components of the; HET: GOL, PEG, EDO, IMD; 2.2A {Homo sapiens}
+Probab=4.99  E-value=7.1e+02  Score=10.22  Aligned_cols=5  Identities=60%  Similarity=0.853  Sum_probs=0.0  Template_Neff=2.500
+
+Q LATVRV            1 LATVR    5 (6)
+Q Consensus         1 latvr    5 (6)
+                      |+++|
+T Consensus        22 LatLr   26 (55)
+T 3SL9_F           22 LQTLR   26 (55)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 6
+>2C3T_B GLUTATHIONE S-TRANSFERASE THETA 1 (E.C.2.5.1.18); TRANSFERASE, GLUTATHIONE, GLUTATHIONE TRANSFERASE, T1-1; 2.4A {HOMO SAPIENS}
+Probab=4.75  E-value=7.6e+02  Score=9.49  Aligned_cols=5  Identities=60%  Similarity=0.906  Sum_probs=0.0  Template_Neff=10.600
+
+Q LATVRV            1 LATVR    5 (6)
+Q Consensus         1 latvr    5 (6)
+                      +++||
+T Consensus       243 ~~~~~  247 (247)
+T 2C3T_B          243 LAMIR  247 (247)
+T ss_dssp             HHHCC
+T ss_pred             HhhhC
+
+
+No 7
+>5ZT0_I Serine/threonine-protein phosphatase PP1-alpha catalytic subunit; protein phosphorylase 1 holoenzyme, HYDROLASE; HET: PO4, MN; 3.32042678506A {Mus musculus}
+Probab=4.49  E-value=8.2e+02  Score=9.80  Aligned_cols=6  Identities=50%  Similarity=0.750  Sum_probs=0.0  Template_Neff=5.000
+
+Q LATVRV            1 LATVRV    6 (6)
+Q Consensus         1 latvrv    6 (6)
+                      |..||+
+T Consensus        43 L~~Vr~   48 (75)
+T 5ZT0_I           43 LTMVKV   48 (75)
+T ss_pred             ceEEEE
+
+
+No 8
+>5FMF_V DNA REPAIR HELICASE RAD25, SSL2; TRANSCRIPTION, PRE-INITIATION COMPLEX, RNA POLYMERASE; 6.0A {SACCHAROMYCES CEREVISIAE}
+Probab=4.34  E-value=8.5e+02  Score=10.57  Aligned_cols=6  Identities=33%  Similarity=0.861  Sum_probs=0.0  Template_Neff=6.500
+
+Q LATVRV            1 LATVRV    6 (6)
+Q Consensus         1 latvrv    6 (6)
+                      ++++|+
+T Consensus        39 lGtlrv   44 (174)
+T 5FMF_V           39 LGKIRI   44 (174)
+T ss_pred             eeEEEE
+
+
+No 9
+>4CPC_C SYNAPTONEMAL COMPLEX PROTEIN 3; CELL CYCLE, MEIOSIS, HOMOLOGOUS RECOMBINATION; 2.24A {HOMO SAPIENS}
+Probab=4.12  E-value=9.1e+02  Score=10.42  Aligned_cols=5  Identities=60%  Similarity=0.986  Sum_probs=0.0  Template_Neff=6.500
+
+Q LATVRV            1 LATVR    5 (6)
+Q Consensus         1 latvr    5 (6)
+                      +|+||
+T Consensus       161 ~~~vr  165 (167)
+T 4CPC_C          161 IASVR  165 (167)
+T ss_dssp             -----
+T ss_pred             HHHHh
+
+
+No 10
+>5XJU_2 Gem-associated protein 2, Small nuclear; splicing; 2.58A {Homo sapiens}
+Probab=3.98  E-value=9.5e+02  Score=10.04  Aligned_cols=5  Identities=40%  Similarity=0.541  Sum_probs=0.0  Template_Neff=8.700
+
+Q LATVRV            1 LATVR    5 (6)
+Q Consensus         1 latvr    5 (6)
+                      |+.||
+T Consensus        14 L~~VR   18 (241)
+T 5XJU_2           14 LRRVQ   18 (241)
+T ss_pred             HHHHH
+
+

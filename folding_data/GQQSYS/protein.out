@@ -1,0 +1,149 @@
+Query         GQQSYS
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 03:20:31 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GQQSYS/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GQQSYS/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6YXY_EQ bL28m, uL29m, uL30m, b  11.7 2.3E+02  0.0025   14.6   0.0    6    1-6     631-636 (655)
+  2 4RMK_A Latrophilin-3; Five-bla  11.1 2.5E+02  0.0027   13.5   0.0    6    1-6     292-297 (321)
+  3 4RML_A Latrophilin-3; Five-bla  11.1 2.5E+02  0.0027   13.5   0.0    6    1-6     292-297 (321)
+  4 4YEB_A LPHN3-OLF, FLRT3-LRR; C  11.1 2.5E+02  0.0027   13.5   0.0    6    1-6     292-297 (321)
+  5 6IMJ_A DNA ligase/DNA Complex;  10.6 2.6E+02  0.0029   12.8   0.0    6    1-6       7-12  (419)
+  6 6IML_A DNA ligase/DNA Complex;  10.6 2.6E+02  0.0029   12.8   0.0    6    1-6       7-12  (419)
+  7 3AXD_A Beta-glucanase (E.C.3.2   8.9 3.3E+02  0.0037   11.2   0.0    6    1-6     232-237 (249)
+  8 6IMK_A DNA ligase/DNA Complex;   8.3 3.7E+02  0.0041   12.3   0.0    6    1-6       8-13  (420)
+  9 2OQB_A Histone-arginine methyl   7.7 4.1E+02  0.0045   11.0   0.0    5    1-5      72-76  (117)
+ 10 6XN9_A Recifin modulatory pept   7.7 4.1E+02  0.0045   10.6   0.0    6    1-6      24-29  (42)
+
+No 1
+>6YXY_EQ bL28m, uL29m, uL30m, bL32m, bL35m; mitoribosome, assembly, LSU, RIBOSOME; HET: ATP, PM8, MG, SPD, NAD, GTP; 3.1A {Trypanosoma brucei brucei}
+Probab=11.74  E-value=2.3e+02  Score=14.64  Aligned_cols=6  Identities=83%  Similarity=1.138  Sum_probs=3.2  Template_Neff=6.500
+
+Q GQQSYS            1 GQQSYS    6 (6)
+Q Consensus         1 gqqsys    6 (6)
+                      |-+|||
+T Consensus       631 ~~~~~~  636 (655)
+T 6YXY_EQ         631 GGQSYS  636 (655)
+T ss_pred             CCccee
+Confidence            345665
+
+
+No 2
+>4RMK_A Latrophilin-3; Five-bladed beta-propeller, Trans-synaptic adhesion GPCR; 1.606A {Mus musculus}
+Probab=11.13  E-value=2.5e+02  Score=13.46  Aligned_cols=6  Identities=67%  Similarity=0.889  Sum_probs=0.0  Template_Neff=6.000
+
+Q GQQSYS            1 GQQSYS    6 (6)
+Q Consensus         1 gqqsys    6 (6)
+                      ||-||+
+T Consensus       292 ~~~~~~  297 (321)
+T 4RMK_A          292 GQVSYI  297 (321)
+T ss_dssp             ------
+T ss_pred             eeeeee
+Confidence            455553
+
+
+No 3
+>4RML_A Latrophilin-3; Five-bladed beta-propeller, Trans-synaptic adhesion GPCR; 1.601A {Mus musculus}
+Probab=11.13  E-value=2.5e+02  Score=13.46  Aligned_cols=6  Identities=67%  Similarity=0.889  Sum_probs=0.0  Template_Neff=6.000
+
+Q GQQSYS            1 GQQSYS    6 (6)
+Q Consensus         1 gqqsys    6 (6)
+                      ||-||+
+T Consensus       292 ~~~~~~  297 (321)
+T 4RML_A          292 GQVSYI  297 (321)
+T ss_dssp             ------
+T ss_pred             eeeeee
+
+
+No 4
+>4YEB_A LPHN3-OLF, FLRT3-LRR; Complex, Latrophilin 3, FLRT3, Central; HET: NAG; 3.19A {Mus musculus}
+Probab=11.13  E-value=2.5e+02  Score=13.46  Aligned_cols=6  Identities=67%  Similarity=0.889  Sum_probs=0.0  Template_Neff=6.000
+
+Q GQQSYS            1 GQQSYS    6 (6)
+Q Consensus         1 gqqsys    6 (6)
+                      ||-||+
+T Consensus       292 ~~~~~~  297 (321)
+T 4YEB_A          292 GQVSYI  297 (321)
+T ss_dssp             ------
+T ss_pred             eeeeee
+
+
+No 5
+>6IMJ_A DNA ligase/DNA Complex; AsfvLIG with C:G complex, LIGASE-DNA; HET: MSE, ATP; 2.554A {African swine fever virus}
+Probab=10.61  E-value=2.6e+02  Score=12.77  Aligned_cols=6  Identities=50%  Similarity=0.517  Sum_probs=0.0  Template_Neff=8.300
+
+Q GQQSYS            1 GQQSYS    6 (6)
+Q Consensus         1 gqqsys    6 (6)
+                      ||-|||
+T Consensus         7 ~~~~~~   12 (419)
+T 6IMJ_A            7 GQYSNN   12 (419)
+T ss_pred             Cccccc
+
+
+No 6
+>6IML_A DNA ligase/DNA Complex; The crysatl structure of AsfvLIG; 2.35A {African swine fever virus}
+Probab=10.61  E-value=2.6e+02  Score=12.77  Aligned_cols=6  Identities=50%  Similarity=0.517  Sum_probs=0.0  Template_Neff=8.300
+
+Q GQQSYS            1 GQQSYS    6 (6)
+Q Consensus         1 gqqsys    6 (6)
+                      ||-|||
+T Consensus         7 ~~~~~~   12 (419)
+T 6IML_A            7 GQYSNN   12 (419)
+T ss_pred             Cccccc
+
+
+No 7
+>3AXD_A Beta-glucanase (E.C.3.2.1.73); glucanase, cellobiose/cellotetraose, HYDROLASE; HET: TRS; 1.53A {Fibrobacter succinogenes}
+Probab=8.95  E-value=3.3e+02  Score=11.22  Aligned_cols=6  Identities=50%  Similarity=1.066  Sum_probs=0.0  Template_Neff=9.000
+
+Q GQQSYS            1 GQQSYS    6 (6)
+Q Consensus         1 gqqsys    6 (6)
+                      |.|+||
+T Consensus       232 g~~~y~  237 (249)
+T 3AXD_A          232 GQESFN  237 (249)
+T ss_dssp             TCCCCC
+T ss_pred             CCccee
+
+
+No 8
+>6IMK_A DNA ligase/DNA Complex; AsfvLIG with C:G complex, LIGASE-DNA; 2.502A {African swine fever virus}
+Probab=8.27  E-value=3.7e+02  Score=12.34  Aligned_cols=6  Identities=50%  Similarity=0.517  Sum_probs=0.0  Template_Neff=8.300
+
+Q GQQSYS            1 GQQSYS    6 (6)
+Q Consensus         1 gqqsys    6 (6)
+                      ||-||+
+T Consensus         8 ~~~~~~   13 (420)
+T 6IMK_A            8 GQYSNN   13 (420)
+T ss_dssp             SEEETT
+T ss_pred             Cccccc
+
+
+No 9
+>2OQB_A Histone-arginine methyltransferase CARM1 (E.C.2.1.1.125); Protein Arginine methyltransferase, transcriptional regulation; 1.69A {Rattus norvegicus}
+Probab=7.71  E-value=4.1e+02  Score=10.97  Aligned_cols=5  Identities=60%  Similarity=1.205  Sum_probs=0.0  Template_Neff=6.100
+
+Q GQQSYS            1 GQQSY    5 (6)
+Q Consensus         1 gqqsy    5 (6)
+                      |.|||
+T Consensus        72 Gk~S~   76 (117)
+T 2OQB_A           72 GRQSF   76 (117)
+T ss_dssp             TTTEE
+T ss_pred             cCeEE
+
+
+No 10
+>6XN9_A Recifin modulatory peptide; cystine-rich peptide, protein knot, tyrosyl-DNA; HET: PCA; NMR {Axinella sp. 1 TF-2017}
+Probab=7.67  E-value=4.1e+02  Score=10.57  Aligned_cols=6  Identities=67%  Similarity=1.071  Sum_probs=0.0  Template_Neff=1.000
+
+Q GQQSYS            1 GQQSYS    6 (6)
+Q Consensus         1 gqqsys    6 (6)
+                      |..|||
+T Consensus        24 grgsys   29 (42)
+T 6XN9_A           24 GRGSYS   29 (42)
+T ss_dssp             SSCEEE
+T ss_pred             cCCcee
+
+

@@ -1,0 +1,151 @@
+Query         IIPFEQ
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 08:26:54 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/IIPFEQ/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/IIPFEQ/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 1Y0N_A Hypothetical UPF0270 pr  31.9      44 0.00049   13.6   0.0    6    1-6       4-9   (78)
+  2 1AW8_B L-ASPARTATE-ALPHA-DECAR  26.7      62 0.00069   13.6   0.0    6    1-6      14-19  (91)
+  3 1UHE_A Aspartate 1-decarboxyla  20.0   1E+02  0.0011   13.1   0.0    6    1-6      13-18  (97)
+  4 1VC3_B L-Aspartate-alpha-Decar  19.9   1E+02  0.0011   13.1   0.0    6    1-6      14-19  (96)
+  5 2EEO_B Aspartate 1-decarboxyla  19.8   1E+02  0.0011   13.0   0.0    6    1-6      13-18  (95)
+  6 3BPQ_A Antitoxin RelB3, Toxin   19.0 1.1E+02  0.0012   11.5   0.0    6    1-6      11-16  (52)
+  7 6K2C_A Ubiquitin-protein ligas  18.9 1.1E+02  0.0012   13.1   0.0    5    1-5       2-6   (393)
+  8 5JIS_C Cysteine synthase (E.C.  18.8 1.1E+02  0.0013   12.8   0.0    4    2-5     338-341 (350)
+  9 3D9W_B Putative acetyltransfer  18.7 1.1E+02  0.0013   13.2   0.0    4    2-5      49-52  (293)
+ 10 5LS7_D Aspartate 1-decarboxyla  18.3 1.2E+02  0.0013   13.1   0.0    6    1-6      14-19  (102)
+
+No 1
+>1Y0N_A Hypothetical UPF0270 protein PA3463; MCSG, Midwest Center for Structural; HET: GOL; 2.0A {Pseudomonas aeruginosa} SCOP: d.291.1.1
+Probab=31.87  E-value=44  Score=13.63  Aligned_cols=6  Identities=33%  Similarity=0.855  Sum_probs=3.5  Template_Neff=4.400
+
+Q IIPFEQ            1 IIPFEQ    6 (6)
+Q Consensus         1 iipfeq    6 (6)
+                      +||++|
+T Consensus         4 ~IP~~~    9 (78)
+T 1Y0N_A            4 LIPHDL    9 (78)
+T ss_dssp             ECCGGG
+T ss_pred             cccHHH
+Confidence            467654
+
+
+No 2
+>1AW8_B L-ASPARTATE-ALPHA-DECARBOXYLASE; DECARBOXYLASE, PANTOTHENATE PATHWAY, LYASE, PROTEIN; HET: PYR; 2.2A {Escherichia coli}
+Probab=26.73  E-value=62  Score=13.62  Aligned_cols=6  Identities=33%  Similarity=0.368  Sum_probs=3.4  Template_Neff=4.200
+
+Q IIPFEQ            1 IIPFEQ    6 (6)
+Q Consensus         1 iipfeq    6 (6)
+                      |.|+||
+T Consensus        14 i~p~E~   19 (91)
+T 1AW8_B           14 ILENEA   19 (91)
+T ss_dssp             CCTTCE
+T ss_pred             CCCCCE
+Confidence            456664
+
+
+No 3
+>1UHE_A Aspartate 1-decarboxylase (E.C.4.1.1.11); double-psi beta barrel, LYASE; HET: NSN; 1.55A {Helicobacter pylori}
+Probab=20.01  E-value=1e+02  Score=13.12  Aligned_cols=6  Identities=0%  Similarity=-0.319  Sum_probs=3.2  Template_Neff=4.200
+
+Q IIPFEQ            1 IIPFEQ    6 (6)
+Q Consensus         1 iipfeq    6 (6)
+                      |.|+||
+T Consensus        13 ilp~E~   18 (97)
+T 1UHE_A           13 LREGMK   18 (97)
+T ss_pred             CCCCCE
+Confidence            356654
+
+
+No 4
+>1VC3_B L-Aspartate-alpha-Decarboxylase (E.C.4.1.1); Tetramer, pyruvoyl group, RIKEN Structural; 1.5A {Thermus thermophilus}
+Probab=19.88  E-value=1e+02  Score=13.09  Aligned_cols=6  Identities=83%  Similarity=1.536  Sum_probs=0.0  Template_Neff=4.200
+
+Q IIPFEQ            1 IIPFEQ    6 (6)
+Q Consensus         1 iipfeq    6 (6)
+                      |.|+||
+T Consensus        14 i~p~E~   19 (96)
+T 1VC3_B           14 ILPFEQ   19 (96)
+T ss_dssp             CCTTCE
+T ss_pred             CCCCCE
+
+
+No 5
+>2EEO_B Aspartate 1-decarboxylase (E.C.4.1.1.11); Pyruvoyl group dependent enzyme, Lyase; 1.6A {Thermus thermophilus}
+Probab=19.82  E-value=1e+02  Score=13.02  Aligned_cols=6  Identities=83%  Similarity=1.536  Sum_probs=0.0  Template_Neff=4.300
+
+Q IIPFEQ            1 IIPFEQ    6 (6)
+Q Consensus         1 iipfeq    6 (6)
+                      |.|+||
+T Consensus        13 i~p~E~   18 (95)
+T 2EEO_B           13 ILPFEQ   18 (95)
+T ss_dssp             CCTTCE
+T ss_pred             CCCCCE
+
+
+No 6
+>3BPQ_A Antitoxin RelB3, Toxin RelE3 (E.C.3.1.-.-); protein toxin-antitoxin complex, TOXIN; 2.2A {Methanocaldococcus jannaschii}
+Probab=18.99  E-value=1.1e+02  Score=11.51  Aligned_cols=6  Identities=17%  Similarity=0.285  Sum_probs=0.0  Template_Neff=4.900
+
+Q IIPFEQ            1 IIPFEQ    6 (6)
+Q Consensus         1 iipfeq    6 (6)
+                      |||++.
+T Consensus        11 vlpiee   16 (52)
+T 3BPQ_A           11 FISRKE   16 (52)
+T ss_dssp             EECHHH
+T ss_pred             EecHHH
+
+
+No 7
+>6K2C_A Ubiquitin-protein ligase E3C (E.C.2.3.2.26); HECT, E3 ligase, ubiquitination, ONCOPROTEIN; 2.703A {Homo sapiens}
+Probab=18.92  E-value=1.1e+02  Score=13.06  Aligned_cols=5  Identities=60%  Similarity=1.364  Sum_probs=0.0  Template_Neff=9.600
+
+Q IIPFEQ            1 IIPFE    5 (6)
+Q Consensus         1 iipfe    5 (6)
+                      |+|||
+T Consensus         2 ~~~~~    6 (393)
+T 6K2C_A            2 AVPFE    6 (393)
+T ss_dssp             CSCHH
+T ss_pred             CCCHH
+
+
+No 8
+>5JIS_C Cysteine synthase (E.C.2.5.1.47); Transferase; HET: LLP; 2.2A {Brucella abortus S19}
+Probab=18.78  E-value=1.1e+02  Score=12.83  Aligned_cols=4  Identities=100%  Similarity=1.846  Sum_probs=0.0  Template_Neff=9.600
+
+Q IIPFEQ            2 IPFE    5 (6)
+Q Consensus         2 ipfe    5 (6)
+                      ||||
+T Consensus       338 ~~~~  341 (350)
+T 5JIS_C          338 IPFE  341 (350)
+T ss_dssp             CCCC
+T ss_pred             CCCC
+
+
+No 9
+>3D9W_B Putative acetyltransferase(E.C.2.3.1.5); ARYLAMINE N-ACETYLTRANSFERASE, TRANSFERASE, NAT, Acyltransferase; 2.7A {Nocardia farcinica}
+Probab=18.72  E-value=1.1e+02  Score=13.23  Aligned_cols=4  Identities=100%  Similarity=1.846  Sum_probs=0.0  Template_Neff=8.200
+
+Q IIPFEQ            2 IPFE    5 (6)
+Q Consensus         2 ipfe    5 (6)
+                      ||||
+T Consensus        49 iPFE   52 (293)
+T 3D9W_B           49 IPFE   52 (293)
+T ss_dssp             SCBC
+T ss_pred             CCcc
+
+
+No 10
+>5LS7_D Aspartate 1-decarboxylase (E.C.4.1.1.11), PanD maturation; protein derived cofactor, coenzyme A; HET: GOL, ACO; 1.16A {Escherichia coli K-12}
+Probab=18.35  E-value=1.2e+02  Score=13.08  Aligned_cols=6  Identities=33%  Similarity=0.368  Sum_probs=0.0  Template_Neff=4.100
+
+Q IIPFEQ            1 IIPFEQ    6 (6)
+Q Consensus         1 iipfeq    6 (6)
+                      |.|+||
+T Consensus        14 i~p~E~   19 (102)
+T 5LS7_D           14 ILENEA   19 (102)
+T ss_pred             CCCCcE
+
+

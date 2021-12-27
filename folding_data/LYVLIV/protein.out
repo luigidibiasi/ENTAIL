@@ -1,0 +1,147 @@
+Query         LYVLIV
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 21:16:05 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LYVLIV/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LYVLIV/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2LV8_A De novo designed rossma  33.3      40 0.00045   15.3   0.0    6    1-6       3-8   (110)
+  2 6V00_C Potassium voltage-gated  11.4 2.4E+02  0.0026   14.3   0.0    6    1-6     311-316 (355)
+  3 2XZ2_A CSTF-50, ISOFORM B; RNA   9.7   3E+02  0.0033   10.7   0.0    6    1-6      19-24  (66)
+  4 5HCA_A Calreticulin,Calreticul   8.6 3.5E+02  0.0039   12.8   0.0    6    1-6     153-158 (274)
+  5 5KNM_B HLA class I histocompat   8.5 3.6E+02  0.0039   11.5   0.0    5    1-5      25-29  (182)
+  6 3JBO_Ad PROTEIN/RNA Complex; R   8.4 3.6E+02   0.004   10.9   0.0    6    1-6      48-53  (76)
+  7 5J12_A Thymic stromal lymphopo   8.2 3.7E+02  0.0041   13.0   0.0    6    1-6       7-12  (163)
+  8 5T5H_p PROTEIN/RNA Complex; Tr   8.2 3.8E+02  0.0042   10.3   0.0    6    1-6      41-46  (58)
+  9 3JBN_Ad PROTEIN/RNA Complex; R   7.3 4.4E+02  0.0048   10.6   0.0    6    1-6      48-53  (76)
+ 10 2JX4_A Vasopressin V2 receptor   7.1 4.5E+02   0.005    8.3   0.0    6    1-6       1-6   (52)
+
+No 1
+>2LV8_A De novo designed rossmann 2x2; Structural Genomics, NORTHEAST STRUCTURAL GENOMICS; NMR {artificial gene}
+Probab=33.33  E-value=40  Score=15.31  Aligned_cols=6  Identities=83%  Similarity=1.458  Sum_probs=4.1  Template_Neff=1.000
+
+Q LYVLIV            1 LYVLIV    6 (6)
+Q Consensus         1 lyvliv    6 (6)
+                      |||||+
+T Consensus         3 lyvlii    8 (110)
+T 2LV8_A            3 LYVLII    8 (110)
+T ss_dssp             EEEEEE
+T ss_pred             eEEEEe
+Confidence            578774
+
+
+No 2
+>6V00_C Potassium voltage-gated channel subfamily KQT; potassium channel, KCNQ1, CaM, MEMBRANE; 3.1A {Homo sapiens}
+Probab=11.38  E-value=2.4e+02  Score=14.32  Aligned_cols=6  Identities=50%  Similarity=1.226  Sum_probs=0.0  Template_Neff=4.500
+
+Q LYVLIV            1 LYVLIV    6 (6)
+Q Consensus         1 lyvliv    6 (6)
+                      +|+|+|
+T Consensus       311 lYIL~v  316 (355)
+T 6V00_C          311 MYILFV  316 (355)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 3
+>2XZ2_A CSTF-50, ISOFORM B; RNA-BINDING PROTEIN, 3' END MRNA; 1.4A {DROSOPHILA MELANOGASTER}
+Probab=9.74  E-value=3e+02  Score=10.70  Aligned_cols=6  Identities=50%  Similarity=1.076  Sum_probs=0.0  Template_Neff=5.200
+
+Q LYVLIV            1 LYVLIV    6 (6)
+Q Consensus         1 lyvliv    6 (6)
+                      ||-||+
+T Consensus        19 lY~LII   24 (66)
+T 2XZ2_A           19 LYRLMI   24 (66)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 4
+>5HCA_A Calreticulin,Calreticulin; chaperone, legume lectin domain, sugar; HET: BGC, SO4; 2.15A {Entamoeba histolytica HM-1:IMSS}
+Probab=8.57  E-value=3.5e+02  Score=12.83  Aligned_cols=6  Identities=67%  Similarity=1.270  Sum_probs=0.0  Template_Neff=5.700
+
+Q LYVLIV            1 LYVLIV    6 (6)
+Q Consensus         1 lyvliv    6 (6)
+                      ||-||+
+T Consensus       153 LYTLIi  158 (274)
+T 5HCA_A          153 LYTLII  158 (274)
+T ss_dssp             EEEEEE
+T ss_pred             EEEEEE
+
+
+No 5
+>5KNM_B HLA class I histocompatibility antigen; MHC-Ib, IMMUNE SYSTEM, PEPTIDE BINDING; HET: NAG; 3.3A {Homo sapiens}
+Probab=8.54  E-value=3.6e+02  Score=11.48  Aligned_cols=5  Identities=80%  Similarity=1.464  Sum_probs=0.0  Template_Neff=7.100
+
+Q LYVLIV            1 LYVLI    5 (6)
+Q Consensus         1 lyvli    5 (6)
+                      ||||+
+T Consensus        25 ~~~~~   29 (182)
+T 5KNM_B           25 LYVLL   29 (182)
+T ss_pred             HHHHH
+
+
+No 6
+>3JBO_Ad PROTEIN/RNA Complex; RIBOSOME; 5.8A {Plasmodium falciparum 3D7}
+Probab=8.41  E-value=3.6e+02  Score=10.88  Aligned_cols=6  Identities=33%  Similarity=0.988  Sum_probs=0.0  Template_Neff=4.800
+
+Q LYVLIV            1 LYVLIV    6 (6)
+Q Consensus         1 lyvliv    6 (6)
+                      ||.|+|
+T Consensus        48 LYTLvv   53 (76)
+T 3JBO_Ad          48 LYTMVF   53 (76)
+T ss_pred             eEEEEe
+
+
+No 7
+>5J12_A Thymic stromal lymphopoietin, Interleukin-7 receptor; cytokine inflammation TSLP signaling complex; HET: NAG, SO4; 3.55A {Homo sapiens}
+Probab=8.24  E-value=3.7e+02  Score=12.95  Aligned_cols=6  Identities=83%  Similarity=1.154  Sum_probs=0.0  Template_Neff=2.500
+
+Q LYVLIV            1 LYVLIV    6 (6)
+Q Consensus         1 lyvliv    6 (6)
+                      ||||.|
+T Consensus         7 ~~~~~v   12 (163)
+T 5J12_A            7 LYVLSV   12 (163)
+T ss_dssp             ------
+T ss_pred             HHHHHH
+
+
+No 8
+>5T5H_p PROTEIN/RNA Complex; Trypanosoma cruzi, ribosomal subunit, assmebly; HET: OMU, MG, OMG, A2M, 7MG, OMC, 5MC; 2.54A {Trypanosoma cruzi}
+Probab=8.20  E-value=3.8e+02  Score=10.31  Aligned_cols=6  Identities=67%  Similarity=1.237  Sum_probs=0.0  Template_Neff=4.900
+
+Q LYVLIV            1 LYVLIV    6 (6)
+Q Consensus         1 lyvliv    6 (6)
+                      ||.|.|
+T Consensus        41 LYTlvv   46 (58)
+T 5T5H_p           41 LYTLVV   46 (58)
+T ss_pred             eEEEEe
+
+
+No 9
+>3JBN_Ad PROTEIN/RNA Complex; RIBOSOME; 4.7A {Plasmodium falciparum 3D7}
+Probab=7.33  E-value=4.4e+02  Score=10.62  Aligned_cols=6  Identities=33%  Similarity=0.988  Sum_probs=0.0  Template_Neff=4.900
+
+Q LYVLIV            1 LYVLIV    6 (6)
+Q Consensus         1 lyvliv    6 (6)
+                      ||.|.|
+T Consensus        48 LYTLvv   53 (76)
+T 3JBN_Ad          48 LYTMVF   53 (76)
+T ss_pred             EEEEEe
+
+
+No 10
+>2JX4_A Vasopressin V2 receptor; protein, G-protein coupled receptor, Glycoprotein; NMR {N/A}
+Probab=7.10  E-value=4.5e+02  Score=8.28  Aligned_cols=6  Identities=50%  Similarity=0.174  Sum_probs=0.0  Template_Neff=8.700
+
+Q LYVLIV            1 LYVLIV    6 (6)
+Q Consensus         1 lyvliv    6 (6)
+                      .|+.|.
+T Consensus         1 ~Y~~I~    6 (52)
+T 2JX4_A            1 GGVLIF    6 (52)
+T ss_dssp             CCHHHH
+T ss_pred             CeeehH
+
+

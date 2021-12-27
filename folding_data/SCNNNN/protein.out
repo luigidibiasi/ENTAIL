@@ -1,0 +1,151 @@
+Query         SCNNNN
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 13:26:41 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/SCNNNN/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/SCNNNN/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4QRL_A Hypothetical protein; L  30.1      49 0.00055   13.2   0.0    6    1-6       1-6   (116)
+  2 3BCY_A Protein YER067W; mixed   20.2   1E+02  0.0011   14.5   0.0    6    1-6     135-140 (155)
+  3 5UZU_A Uncharacterised protein  19.3 1.1E+02  0.0012   14.6   0.0    4    1-4      13-16  (578)
+  4 6ERC_B Peroxinectin A (E.C.1.1  18.8 1.1E+02  0.0013   14.3   0.0    4    1-4      10-13  (511)
+  5 1V91_A Delta-palutoxin IT2; Ne  17.7 1.2E+02  0.0014   11.7   0.0    6    1-6      32-37  (38)
+  6 5MFA_A Myeloperoxidase (E.C.1.  16.2 1.4E+02  0.0016   14.9   0.0    4    1-4     131-134 (697)
+  7 3TC9_A Hypothetical hydrolase;  16.1 1.4E+02  0.0016   12.1   0.0    6    1-6       1-6   (430)
+  8 5GH0_A Lactoperoxidase (E.C.1.  16.0 1.4E+02  0.0016   14.2   0.0    4    1-4      27-30  (595)
+  9 7DE5_A Lactoperoxidase (E.C.1.  16.0 1.4E+02  0.0016   14.2   0.0    4    1-4      27-30  (595)
+ 10 3NIU_A Lactoperoxidase (E.C.1.  15.3 1.6E+02  0.0017   14.2   0.0    4    1-4      27-30  (595)
+
+No 1
+>4QRL_A Hypothetical protein; Lipocalin-like protein, Structural Genomics, Joint; HET: EDO; 1.79A {Bacteroides uniformis ATCC 8492}
+Probab=30.14  E-value=49  Score=13.18  Aligned_cols=6  Identities=33%  Similarity=0.795  Sum_probs=0.0  Template_Neff=6.800
+
+Q SCNNNN            1 SCNNNN    6 (6)
+Q Consensus         1 scnnnn    6 (6)
+                      ||.++|
+T Consensus         1 ~c~~~n    6 (116)
+T 4QRL_A            1 GCMNGG    6 (116)
+T ss_dssp             ------
+T ss_pred             CCCCCC
+Confidence            576654
+
+
+No 2
+>3BCY_A Protein YER067W; mixed alpha-helix/beta-sheet fold, UNKNOWN FUNCTION; 1.7A {Saccharomyces cerevisiae}
+Probab=20.20  E-value=1e+02  Score=14.49  Aligned_cols=6  Identities=17%  Similarity=0.850  Sum_probs=3.8  Template_Neff=3.000
+
+Q SCNNNN            1 SCNNNN    6 (6)
+Q Consensus         1 scnnnn    6 (6)
+                      +||+++
+T Consensus       135 ~Cn~d~  140 (155)
+T 3BCY_A          135 VCTHED  140 (155)
+T ss_dssp             EEESSC
+T ss_pred             EeCCCC
+Confidence            577764
+
+
+No 3
+>5UZU_A Uncharacterised protein, Myeloperoxidase (E.C.1.11.2.2); myeloperoxidase, phagolysosome, Staphylococcal inhibitor innate; HET: BMA, NAG; 2.403A {Staphylococcus aureus}
+Probab=19.28  E-value=1.1e+02  Score=14.57  Aligned_cols=4  Identities=75%  Similarity=1.473  Sum_probs=0.0  Template_Neff=8.200
+
+Q SCNNNN            1 SCNN    4 (6)
+Q Consensus         1 scnn    4 (6)
+                      +|||
+T Consensus        13 ~cNN   16 (578)
+T 5UZU_A           13 MCNN   16 (578)
+T ss_pred             CcCC
+
+
+No 4
+>6ERC_B Peroxinectin A (E.C.1.11.1.7); Heme peroxidase, modified heme, halide; HET: MPD, MRD, BMA, NAG, HEM; 2.50001845399A {Dictyostelium discoideum}
+Probab=18.79  E-value=1.1e+02  Score=14.28  Aligned_cols=4  Identities=50%  Similarity=0.485  Sum_probs=0.0  Template_Neff=8.200
+
+Q SCNNNN            1 SCNN    4 (6)
+Q Consensus         1 scnn    4 (6)
+                      +|||
+T Consensus        10 ~cNn   13 (511)
+T 6ERC_B           10 EGNN   13 (511)
+T ss_dssp             TTSS
+T ss_pred             CCCC
+
+
+No 5
+>1V91_A Delta-palutoxin IT2; Neurotoxin, Ionic channel inhibitor, Amidation; HET: NH2; NMR {Paracoelotes luctuosus}
+Probab=17.71  E-value=1.2e+02  Score=11.66  Aligned_cols=6  Identities=50%  Similarity=1.115  Sum_probs=0.0  Template_Neff=2.300
+
+Q SCNNNN            1 SCNNNN    6 (6)
+Q Consensus         1 scnnnn    6 (6)
+                      .|.|||
+T Consensus        32 ~Cr~n~   37 (38)
+T 1V91_A           32 RCRNNS   37 (38)
+T ss_dssp             EEECCC
+T ss_pred             eecCCC
+
+
+No 6
+>5MFA_A Myeloperoxidase (E.C.1.11.2.2); Myeloperoxidase, proMPO, biosynthesis, proteolytic maturation; HET: HEM, PEG, CSO, BMA, MAN, NAG; 1.2A {Homo sapiens}
+Probab=16.17  E-value=1.4e+02  Score=14.87  Aligned_cols=4  Identities=75%  Similarity=1.473  Sum_probs=0.0  Template_Neff=7.600
+
+Q SCNNNN            1 SCNN    4 (6)
+Q Consensus         1 scnn    4 (6)
+                      +|||
+T Consensus       131 scNN  134 (697)
+T 5MFA_A          131 MCNN  134 (697)
+T ss_dssp             TTSS
+T ss_pred             CCCC
+
+
+No 7
+>3TC9_A Hypothetical hydrolase; 6-bladed beta-propeller, Immunoglobulin-like, Structural Genomics; HET: PO4, MSE, EDO; 2.23A {Bacteroides thetaiotaomicron}
+Probab=16.09  E-value=1.4e+02  Score=12.12  Aligned_cols=6  Identities=33%  Similarity=1.160  Sum_probs=0.0  Template_Neff=11.100
+
+Q SCNNNN            1 SCNNNN    6 (6)
+Q Consensus         1 scnnnn    6 (6)
+                      +|+.++
+T Consensus         1 ~c~~~~    6 (430)
+T 3TC9_A            1 GCKDND    6 (430)
+T ss_dssp             ------
+T ss_pred             CCCCcc
+
+
+No 8
+>5GH0_A Lactoperoxidase (E.C.1.11.1.7); OXIDOREDUCTASE; HET: HEM, NAG, SEP; 2.3A {Bos taurus}
+Probab=16.03  E-value=1.4e+02  Score=14.25  Aligned_cols=4  Identities=75%  Similarity=1.630  Sum_probs=0.0  Template_Neff=8.200
+
+Q SCNNNN            1 SCNN    4 (6)
+Q Consensus         1 scnn    4 (6)
+                      +|||
+T Consensus        27 ~cNN   30 (595)
+T 5GH0_A           27 DCNN   30 (595)
+T ss_dssp             TTSS
+T ss_pred             CCCC
+
+
+No 9
+>7DE5_A Lactoperoxidase (E.C.1.11.1.7); Lactoperoxidase, OXIDOREDUCTASE; HET: SCN, NAG, MAN, IOD, HEM, BMA; 1.55A {Bos mutus grunniens}
+Probab=16.03  E-value=1.4e+02  Score=14.25  Aligned_cols=4  Identities=75%  Similarity=1.630  Sum_probs=0.0  Template_Neff=8.200
+
+Q SCNNNN            1 SCNN    4 (6)
+Q Consensus         1 scnn    4 (6)
+                      +|||
+T Consensus        27 ~cNN   30 (595)
+T 7DE5_A           27 DCNN   30 (595)
+T ss_dssp             TTSS
+T ss_pred             CCCC
+
+
+No 10
+>3NIU_A Lactoperoxidase (E.C.1.11.1.7); LACTOPEROXIDASE, COMPLEX, DIETHYLENE GLYCOL, PHOSPHATE; HET: SEP, PEG, PO4, BMA, NAG, HEM; 2.94A {Capra hircus}
+Probab=15.28  E-value=1.6e+02  Score=14.20  Aligned_cols=4  Identities=75%  Similarity=1.630  Sum_probs=0.0  Template_Neff=8.100
+
+Q SCNNNN            1 SCNN    4 (6)
+Q Consensus         1 scnn    4 (6)
+                      +|||
+T Consensus        27 ~cNN   30 (595)
+T 3NIU_A           27 DCNN   30 (595)
+T ss_dssp             TTSS
+T ss_pred             CCCC
+
+

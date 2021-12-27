@@ -1,0 +1,148 @@
+Query         IFNYNN
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 07:52:29 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/IFNYNN/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/IFNYNN/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3KHW_A Polymerase PB2; Structu  16.7 1.4E+02  0.0015   14.9   0.0    5    1-5     118-122 (204)
+  2 7AM2_R Ribosomal protein L3-li  16.3 1.4E+02  0.0016   16.2   0.0    5    2-6     420-424 (480)
+  3 7ANE_R mL94, mL89, Ribosomal p  15.5 1.5E+02  0.0017   16.1   0.0    5    2-6     419-423 (479)
+  4 4HJL_A Naphthalene 1,2-dioxyge  12.8   2E+02  0.0022   13.0   0.0    5    2-6       1-5   (446)
+  5 6PX4_B Antiholin, Holin; phage  12.5 2.1E+02  0.0023   13.4   0.0    6    1-6     101-106 (142)
+  6 7K95_B Isoform 2 of Cleavage a  12.4 2.1E+02  0.0023   10.8   0.0    4    2-5      18-21  (42)
+  7 6PXE_F Antiholin, Holin; phage  12.4 2.1E+02  0.0024   13.6   0.0    6    1-6     123-128 (164)
+  8 6PXE_T Antiholin, Holin; phage  12.4 2.1E+02  0.0024   13.6   0.0    6    1-6     123-128 (164)
+  9 2Z8X_A Lipase (E.C.3.1.1.3); F  12.2 2.2E+02  0.0024   13.7   0.0    6    1-6       3-8   (617)
+ 10 7K95_C Isoform 2 of Cleavage a  12.2 2.2E+02  0.0024   10.7   0.0    3    2-4      18-20  (42)
+
+No 1
+>3KHW_A Polymerase PB2; Structural Genomics, PB2 c-terminal domain; 2.1A {Influenza A virus (A/Mexico/InDRE4487/2009(H1N1))}
+Probab=16.75  E-value=1.4e+02  Score=14.86  Aligned_cols=5  Identities=80%  Similarity=1.697  Sum_probs=0.0  Template_Neff=1.600
+
+Q IFNYNN            1 IFNYN    5 (6)
+Q Consensus         1 ifnyn    5 (6)
+                      +||||
+T Consensus       118 ~F~YN  122 (204)
+T 3KHW_A          118 VFNYN  122 (204)
+T ss_dssp             SEEEC
+T ss_pred             ccccc
+
+
+No 2
+>7AM2_R Ribosomal protein L3-like protein, uL4m; RIBOSOME, Mitochondria, Kinetoplastid; HET: GTP, ATP; 3.4A {Leishmania tarentolae}
+Probab=16.30  E-value=1.4e+02  Score=16.21  Aligned_cols=5  Identities=60%  Similarity=1.424  Sum_probs=0.0  Template_Neff=2.800
+
+Q IFNYNN            2 FNYNN    6 (6)
+Q Consensus         2 fnynn    6 (6)
+                      |||+|
+T Consensus       420 ~nysn  424 (480)
+T 7AM2_R          420 YNYSN  424 (480)
+T ss_pred             ccccc
+
+
+No 3
+>7ANE_R mL94, mL89, Ribosomal protein L3-like; Ribosome, Mitochondria, Kinetoplastid; HET: NAD; 3.9A {Leishmania major}
+Probab=15.50  E-value=1.5e+02  Score=16.07  Aligned_cols=5  Identities=60%  Similarity=1.424  Sum_probs=0.0  Template_Neff=2.900
+
+Q IFNYNN            2 FNYNN    6 (6)
+Q Consensus         2 fnynn    6 (6)
+                      |||+|
+T Consensus       419 ~nysn  423 (479)
+T 7ANE_R          419 YNYSN  423 (479)
+T ss_pred             ccccc
+
+
+No 4
+>4HJL_A Naphthalene 1,2-dioxygenase subunit alpha (E.C.1.14.12.12); Oxidoreductase-Oxidoreductase inhibitor complex; HET: 15O, EDO, SO4; 1.5A {Pseudomonas sp.}
+Probab=12.76  E-value=2e+02  Score=12.97  Aligned_cols=5  Identities=80%  Similarity=1.385  Sum_probs=0.0  Template_Neff=8.800
+
+Q IFNYNN            2 FNYNN    6 (6)
+Q Consensus         2 fnynn    6 (6)
+                      .||||
+T Consensus         1 ~~~~~    5 (446)
+T 4HJL_A            1 MNYNN    5 (446)
+T ss_dssp             CCTTT
+T ss_pred             CCccc
+
+
+No 5
+>6PX4_B Antiholin, Holin; phage, lysis inhibition, VIRAL PROTEIN; 1.65A {Escherichia phage ECML-134}
+Probab=12.47  E-value=2.1e+02  Score=13.37  Aligned_cols=6  Identities=50%  Similarity=0.894  Sum_probs=0.0  Template_Neff=2.900
+
+Q IFNYNN            1 IFNYNN    6 (6)
+Q Consensus         1 ifnynn    6 (6)
+                      +||.+|
+T Consensus       101 yFNLdN  106 (142)
+T 6PX4_B          101 YFNLDN  106 (142)
+T ss_dssp             EECTTS
+T ss_pred             cccccc
+
+
+No 6
+>7K95_B Isoform 2 of Cleavage and; mRNA processing, NUCLEAR PROTEIN; 1.9A {Homo sapiens}
+Probab=12.40  E-value=2.1e+02  Score=10.82  Aligned_cols=4  Identities=75%  Similarity=1.580  Sum_probs=0.0  Template_Neff=3.700
+
+Q IFNYNN            2 FNYN    5 (6)
+Q Consensus         2 fnyn    5 (6)
+                      |||.
+T Consensus        18 FNYG   21 (42)
+T 7K95_B           18 FNYG   21 (42)
+T ss_dssp             BSTT
+T ss_pred             cCCC
+
+
+No 7
+>6PXE_F Antiholin, Holin; phage, lysis inhibition, VIRAL PROTEIN; 2.3A {Enterobacteria phage T4}
+Probab=12.37  E-value=2.1e+02  Score=13.56  Aligned_cols=6  Identities=50%  Similarity=0.894  Sum_probs=0.0  Template_Neff=3.100
+
+Q IFNYNN            1 IFNYNN    6 (6)
+Q Consensus         1 ifnynn    6 (6)
+                      +||.+|
+T Consensus       123 yFNLdN  128 (164)
+T 6PXE_F          123 YFNLDN  128 (164)
+T ss_dssp             EECTTC
+T ss_pred             cccccc
+
+
+No 8
+>6PXE_T Antiholin, Holin; phage, lysis inhibition, VIRAL PROTEIN; 2.3A {Enterobacteria phage T4}
+Probab=12.36  E-value=2.1e+02  Score=13.56  Aligned_cols=6  Identities=50%  Similarity=0.894  Sum_probs=0.0  Template_Neff=3.100
+
+Q IFNYNN            1 IFNYNN    6 (6)
+Q Consensus         1 ifnynn    6 (6)
+                      +||.+|
+T Consensus       123 yFNLdN  128 (164)
+T 6PXE_T          123 YFNLDN  128 (164)
+T ss_dssp             EECTTC
+T ss_pred             cccccc
+
+
+No 9
+>2Z8X_A Lipase (E.C.3.1.1.3); FAMILY I.3 LIPASE, BETA ROLL; HET: CA; 1.48A {Pseudomonas sp. MIS38}
+Probab=12.19  E-value=2.2e+02  Score=13.73  Aligned_cols=6  Identities=33%  Similarity=1.265  Sum_probs=0.0  Template_Neff=8.300
+
+Q IFNYNN            1 IFNYNN    6 (6)
+Q Consensus         1 ifnynn    6 (6)
+                      ||+|.+
+T Consensus         3 ~~~~~~    8 (617)
+T 2Z8X_A            3 VYDYKN    8 (617)
+T ss_dssp             TTCCTT
+T ss_pred             CcCCCC
+
+
+No 10
+>7K95_C Isoform 2 of Cleavage and; mRNA processing, NUCLEAR PROTEIN; 1.9A {Homo sapiens}
+Probab=12.16  E-value=2.2e+02  Score=10.68  Aligned_cols=3  Identities=100%  Similarity=2.062  Sum_probs=0.0  Template_Neff=4.000
+
+Q IFNYNN            2 FNY    4 (6)
+Q Consensus         2 fny    4 (6)
+                      |||
+T Consensus        18 FNY   20 (42)
+T 7K95_C           18 FNY   20 (42)
+T ss_dssp             BST
+T ss_pred             cCC
+
+

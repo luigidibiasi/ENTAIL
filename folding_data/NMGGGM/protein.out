@@ -1,0 +1,399 @@
+Query         NMGGGM
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 01:54:37 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NMGGGM/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NMGGGM/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5DA8_L 60 kDa chaperonin; Stru  86.4    0.43 4.7E-06   20.9   0.0    6    1-6     539-544 (545)
+  2 5DA8_P 60 kDa chaperonin; Stru  86.4    0.43 4.7E-06   20.9   0.0    6    1-6     539-544 (545)
+  3 6N2A_A Diaminopimelate decarbo  52.5      13 0.00014   15.9   0.0    6    1-6     238-243 (422)
+  4 2NVA_E arginine decarboxylase,  49.8      15 0.00017   15.4   0.0    6    1-6     212-217 (372)
+  5 2NV9_B A207R protein, arginine  46.6      18  0.0002   15.2   0.0    6    1-6     212-217 (372)
+  6 4ZGY_A ORNITHINE DECARBOXYLASE  46.2      19 0.00021   15.8   0.0    6    1-6     234-239 (422)
+  7 4XG1_B Diaminopimelate decarbo  45.2      20 0.00022   15.5   0.0    6    1-6     236-241 (427)
+  8 1F3T_C ORNITHINE DECARBOXYLASE  44.7      20 0.00022   15.6   0.0    6    1-6     233-238 (425)
+  9 1QU4_C POLYAMINE METABOLISM, P  44.7      20 0.00022   15.6   0.0    6    1-6     233-238 (425)
+ 10 1KNW_A Diaminopimelate decarbo  43.7      22 0.00024   15.5   0.0    6    1-6     223-228 (425)
+ 11 3N29_B Carboxynorspermidine de  43.7      22 0.00024   15.6   0.0    6    1-6     234-239 (418)
+ 12 7ODC_A ORNITHINE DECARBOXYLASE  40.5      26 0.00029   15.3   0.0    6    1-6     233-238 (424)
+ 13 1F3T_B ORNITHINE DECARBOXYLASE  40.1      27  0.0003   15.3   0.0    6    1-6     233-238 (425)
+ 14 1D7K_A HUMAN ORNITHINE DECARBO  39.5      28 0.00031   15.2   0.0    6    1-6     227-232 (421)
+ 15 7KH2_D N-citrylornithine decar  39.4      28 0.00031   15.3   0.0    6    1-6     254-259 (436)
+ 16 6N2H_A Diaminopimelate decarbo  35.7      35 0.00039   15.3   0.0    6    1-6     255-260 (477)
+ 17 5X7M_A Diaminopimelate decarbo  34.3      38 0.00042   14.9   0.0    6    1-6     253-258 (453)
+ 18 5X7N_A Diaminopimelate decarbo  34.3      38 0.00042   14.9   0.0    6    1-6     253-258 (453)
+ 19 7JPJ_A Diaminopimelate decarbo  31.8      45 0.00049   14.9   0.0    6    1-6     234-239 (441)
+ 20 7JPJ_B Diaminopimelate decarbo  31.8      45 0.00049   14.9   0.0    6    1-6     234-239 (441)
+ 21 2OO0_A Ornithine decarboxylase  25.0      70 0.00078   14.7   0.0    6    1-6     243-248 (471)
+ 22 3NZP_A Arginine decarboxylase   24.0      75 0.00083   15.6   0.0    6    1-6     270-275 (619)
+ 23 5YD0_B Schlafen 8; Endonucleas  22.6      84 0.00093   15.1   0.0    6    1-6      67-72  (366)
+ 24 5YD0_C Schlafen 8; Endonucleas  22.2      86 0.00095   15.1   0.0    6    1-6      67-72  (366)
+ 25 3BTN_A Antizyme inhibitor 1; T  22.0      87 0.00097   14.2   0.0    6    1-6     233-238 (448)
+ 26 3NZP_B Arginine decarboxylase   20.6      97  0.0011   15.2   0.0    6    1-6     270-275 (619)
+
+No 1
+>5DA8_L 60 kDa chaperonin; Structural Genomics, PSI-Biology, Midwest Center; HET: SO4, CA; 3.0A {Chlorobium tepidum (strain ATCC 49652 / DSM 12025 / NBRC 103806 / TLS)}
+Probab=86.37  E-value=0.43  Score=20.88  Aligned_cols=6  Identities=83%  Similarity=1.597  Sum_probs=0.0  Template_Neff=9.300
+
+Q NMGGGM            1 NMGGGM    6 (6)
+Q Consensus         1 nmgggm    6 (6)
+                      +|||||
+T Consensus       539 ~~~~~~  544 (545)
+T 5DA8_L          539 GMGGGM  544 (545)
+T ss_dssp             ------
+T ss_pred             CCCCCC
+Confidence            588888
+
+
+No 2
+>5DA8_P 60 kDa chaperonin; Structural Genomics, PSI-Biology, Midwest Center; HET: CA, SO4; 3.0A {Chlorobium tepidum (strain ATCC 49652 / DSM 12025 / NBRC 103806 / TLS)}
+Probab=86.37  E-value=0.43  Score=20.88  Aligned_cols=6  Identities=83%  Similarity=1.597  Sum_probs=0.0  Template_Neff=9.300
+
+Q NMGGGM            1 NMGGGM    6 (6)
+Q Consensus         1 nmgggm    6 (6)
+                      +|||||
+T Consensus       539 ~~~~~~  544 (545)
+T 5DA8_P          539 GMGGGM  544 (545)
+T ss_dssp             ------
+T ss_pred             CCCCCC
+Confidence            588888
+
+
+No 3
+>6N2A_A Diaminopimelate decarboxylase 1, chloroplastic (E.C.4.1.1.20); PLP, lysine, decarboxylase, meso-diaminopimelate, LYASE; HET: LYS, PLP; 1.88A {Arabidopsis thaliana}
+Probab=52.46  E-value=13  Score=15.93  Aligned_cols=6  Identities=67%  Similarity=1.603  Sum_probs=3.8  Template_Neff=9.500
+
+Q NMGGGM            1 NMGGGM    6 (6)
+Q Consensus         1 nmgggm    6 (6)
+                      |+|||+
+T Consensus       238 diGGG~  243 (422)
+T 6N2A_A          238 NIGGGL  243 (422)
+T ss_pred             EcCCCC
+Confidence            567764
+
+
+No 4
+>2NVA_E arginine decarboxylase, A207R protein (E.C.4.1.1.19); Arginine decarboxylase, PLP, TIM barrel; HET: PL2; 1.8A {Paramecium bursaria Chlorella virus 1}
+Probab=49.85  E-value=15  Score=15.41  Aligned_cols=6  Identities=50%  Similarity=1.514  Sum_probs=3.6  Template_Neff=9.600
+
+Q NMGGGM            1 NMGGGM    6 (6)
+Q Consensus         1 nmgggm    6 (6)
+                      |+|||+
+T Consensus       212 diGGG~  217 (372)
+T 2NVA_E          212 DIGGGL  217 (372)
+T ss_dssp             ECCSCB
+T ss_pred             eCCCCC
+Confidence            467763
+
+
+No 5
+>2NV9_B A207R protein, arginine decarboxylase (E.C.4.1.1.19); Arginine decarboxylase, PLP, TIM barrel; HET: PLP; 1.95A {Paramecium bursaria Chlorella virus 1}
+Probab=46.57  E-value=18  Score=15.17  Aligned_cols=6  Identities=50%  Similarity=1.514  Sum_probs=3.6  Template_Neff=9.600
+
+Q NMGGGM            1 NMGGGM    6 (6)
+Q Consensus         1 nmgggm    6 (6)
+                      |+|||.
+T Consensus       212 diGGG~  217 (372)
+T 2NV9_B          212 DIGGGL  217 (372)
+T ss_dssp             ECCCCB
+T ss_pred             ECCCCC
+Confidence            467763
+
+
+No 6
+>4ZGY_A ORNITHINE DECARBOXYLASE (E.C.4.1.1.17), ORNITHINE DECARBOXYLASE; TIM-BARREL DOMAIN, BETA-SHEET DOMAIN, DECARBOXYLATION; HET: PLP; 2.63A {Homo sapiens}
+Probab=46.20  E-value=19  Score=15.76  Aligned_cols=6  Identities=50%  Similarity=1.448  Sum_probs=3.7  Template_Neff=9.000
+
+Q NMGGGM            1 NMGGGM    6 (6)
+Q Consensus         1 nmgggm    6 (6)
+                      |+|||+
+T Consensus       234 diGGG~  239 (422)
+T 4ZGY_A          234 DIGGGF  239 (422)
+T ss_dssp             ECCCCC
+T ss_pred             ECCCCC
+Confidence            467764
+
+
+No 7
+>4XG1_B Diaminopimelate decarboxylase; lysine biosynthesis, psychrophile, TIM barrel; HET: SCN, TME, LLP; 2.5A {Psychromonas ingrahamii}
+Probab=45.18  E-value=20  Score=15.47  Aligned_cols=6  Identities=50%  Similarity=1.531  Sum_probs=3.5  Template_Neff=9.400
+
+Q NMGGGM            1 NMGGGM    6 (6)
+Q Consensus         1 nmgggm    6 (6)
+                      |+|||+
+T Consensus       236 ~iGGG~  241 (427)
+T 4XG1_B          236 DLGGGL  241 (427)
+T ss_dssp             ECCCCB
+T ss_pred             ECCCCC
+Confidence            467763
+
+
+No 8
+>1F3T_C ORNITHINE DECARBOXYLASE (E.C.4.1.1.17); beta-alpha-barrel, modified Greek key beta-sheet; HET: PLP, PUT; 2.0A {Trypanosoma brucei} SCOP: c.1.6.1, b.49.2.3
+Probab=44.74  E-value=20  Score=15.61  Aligned_cols=6  Identities=50%  Similarity=1.448  Sum_probs=3.7  Template_Neff=9.100
+
+Q NMGGGM            1 NMGGGM    6 (6)
+Q Consensus         1 nmgggm    6 (6)
+                      |+|||+
+T Consensus       233 diGGG~  238 (425)
+T 1F3T_C          233 DIGGGF  238 (425)
+T ss_dssp             ECCCCC
+T ss_pred             ECCCCC
+Confidence            567763
+
+
+No 9
+>1QU4_C POLYAMINE METABOLISM, PYRIDOXAL 5'-PHOSPHATE, ALPHA-BETA; HET: PLP; 2.9A {Trypanosoma brucei} SCOP: c.1.6.1, b.49.2.3
+Probab=44.74  E-value=20  Score=15.61  Aligned_cols=6  Identities=50%  Similarity=1.448  Sum_probs=3.7  Template_Neff=9.100
+
+Q NMGGGM            1 NMGGGM    6 (6)
+Q Consensus         1 nmgggm    6 (6)
+                      |+|||+
+T Consensus       233 diGGG~  238 (425)
+T 1QU4_C          233 DIGGGF  238 (425)
+T ss_dssp             ECCCCC
+T ss_pred             ECCCCC
+Confidence            567763
+
+
+No 10
+>1KNW_A Diaminopimelate decarboxylase (E.C.4.1.1.20); pyridoxal-phosphate, decarboxylation, diaminopimelate, lysine, TIM-barrel; HET: MES, PLP; 2.1A {Escherichia coli} SCOP: b.49.2.3, c.1.6.1
+Probab=43.66  E-value=22  Score=15.47  Aligned_cols=6  Identities=50%  Similarity=1.265  Sum_probs=3.7  Template_Neff=9.200
+
+Q NMGGGM            1 NMGGGM    6 (6)
+Q Consensus         1 nmgggm    6 (6)
+                      |+|||.
+T Consensus       223 diGGG~  228 (425)
+T 1KNW_A          223 SAGGGL  228 (425)
+T ss_dssp             ECCCCC
+T ss_pred             EcCCCc
+Confidence            567763
+
+
+No 11
+>3N29_B Carboxynorspermidine decarboxylase; LYASE; HET: GOL, PLP; 1.9A {Campylobacter jejuni subsp. jejuni 81116}
+Probab=43.66  E-value=22  Score=15.61  Aligned_cols=6  Identities=67%  Similarity=1.326  Sum_probs=3.7  Template_Neff=8.900
+
+Q NMGGGM            1 NMGGGM    6 (6)
+Q Consensus         1 nmgggm    6 (6)
+                      |+|||+
+T Consensus       234 diGGG~  239 (418)
+T 3N29_B          234 NFGGGH  239 (418)
+T ss_dssp             ECCSCB
+T ss_pred             ecCCcc
+Confidence            467764
+
+
+No 12
+>7ODC_A ORNITHINE DECARBOXYLASE; PYRIDOXAL-5'-PHOSPHATE, PLP, GROUP IV DECARBOXYLASE; HET: PLP; 1.6A {Mus musculus} SCOP: c.1.6.1, b.49.2.3
+Probab=40.47  E-value=26  Score=15.29  Aligned_cols=6  Identities=50%  Similarity=1.448  Sum_probs=3.6  Template_Neff=9.100
+
+Q NMGGGM            1 NMGGGM    6 (6)
+Q Consensus         1 nmgggm    6 (6)
+                      |+|||+
+T Consensus       233 niGGG~  238 (424)
+T 7ODC_A          233 DIGGGF  238 (424)
+T ss_dssp             ECCCCC
+T ss_pred             ECCCCC
+Confidence            467763
+
+
+No 13
+>1F3T_B ORNITHINE DECARBOXYLASE (E.C.4.1.1.17); beta-alpha-barrel, modified Greek key beta-sheet; HET: PLP, PUT; 2.0A {Trypanosoma brucei} SCOP: c.1.6.1, b.49.2.3
+Probab=40.13  E-value=27  Score=15.32  Aligned_cols=6  Identities=50%  Similarity=1.448  Sum_probs=3.6  Template_Neff=9.000
+
+Q NMGGGM            1 NMGGGM    6 (6)
+Q Consensus         1 nmgggm    6 (6)
+                      |+|||.
+T Consensus       233 diGGG~  238 (425)
+T 1F3T_B          233 DIGGGF  238 (425)
+T ss_dssp             ECCCCC
+T ss_pred             ecCCCC
+Confidence            567763
+
+
+No 14
+>1D7K_A HUMAN ORNITHINE DECARBOXYLASE (E.C.4.1.1.17); ALPHA-BETA BARREL, PYRIDOXAL 5'-PHOSPHATE, SHEET-DOMAIN; 2.1A {Homo sapiens} SCOP: b.49.2.3, c.1.6.1
+Probab=39.45  E-value=28  Score=15.20  Aligned_cols=6  Identities=50%  Similarity=1.448  Sum_probs=3.6  Template_Neff=9.100
+
+Q NMGGGM            1 NMGGGM    6 (6)
+Q Consensus         1 nmgggm    6 (6)
+                      |+|||.
+T Consensus       227 diGGG~  232 (421)
+T 1D7K_A          227 DIGGGF  232 (421)
+T ss_dssp             ECCCCC
+T ss_pred             ECCCCC
+Confidence            467763
+
+
+No 15
+>7KH2_D N-citrylornithine decarboxylase; rhizoferrin, putrescine, ornithine, citrate, Francisella; HET: SO4, GOL, MSE, PLP; 2.05A {Francisella novicida}
+Probab=39.36  E-value=28  Score=15.26  Aligned_cols=6  Identities=50%  Similarity=1.531  Sum_probs=3.5  Template_Neff=9.100
+
+Q NMGGGM            1 NMGGGM    6 (6)
+Q Consensus         1 nmgggm    6 (6)
+                      |+|||+
+T Consensus       254 diGGG~  259 (436)
+T 7KH2_D          254 DLGGGL  259 (436)
+T ss_dssp             ECCCCB
+T ss_pred             ECCCCC
+Confidence            466663
+
+
+No 16
+>6N2H_A Diaminopimelate decarboxylase; Pyridoxal-5'-phosphate, Fold III, decarboxylase, D-amino; HET: LLP, DMS, DIO; 1.72A {Salmonella typhimurium}
+Probab=35.73  E-value=35  Score=15.28  Aligned_cols=6  Identities=67%  Similarity=1.536  Sum_probs=3.5  Template_Neff=8.900
+
+Q NMGGGM            1 NMGGGM    6 (6)
+Q Consensus         1 nmgggm    6 (6)
+                      |+|||+
+T Consensus       255 diGGG~  260 (477)
+T 6N2H_A          255 NVGGGI  260 (477)
+T ss_dssp             ECCCCC
+T ss_pred             ccCCCC
+Confidence            467763
+
+
+No 17
+>5X7M_A Diaminopimelate decarboxylase (E.C.4.1.1.20); Decarboxylase, LYASE; HET: PLP; 2.4A {Corynebacterium glutamicum (strain ATCC 13032 / DSM 20300 / JCM 1318 / LMG 3730 / NCIMB 10025)}
+Probab=34.30  E-value=38  Score=14.89  Aligned_cols=6  Identities=50%  Similarity=1.365  Sum_probs=3.4  Template_Neff=9.200
+
+Q NMGGGM            1 NMGGGM    6 (6)
+Q Consensus         1 nmgggm    6 (6)
+                      |+|||+
+T Consensus       253 diGGG~  258 (453)
+T 5X7M_A          253 DLGGGY  258 (453)
+T ss_dssp             ECCCCB
+T ss_pred             ECCCCC
+Confidence            466663
+
+
+No 18
+>5X7N_A Diaminopimelate decarboxylase (E.C.4.1.1.20); Decarboxylase, LYASE; HET: GOL, LYS, PLP; 1.72A {Corynebacterium glutamicum (strain ATCC 13032 / DSM 20300 / JCM 1318 / LMG 3730 / NCIMB 10025)}
+Probab=34.30  E-value=38  Score=14.89  Aligned_cols=6  Identities=50%  Similarity=1.365  Sum_probs=3.4  Template_Neff=9.200
+
+Q NMGGGM            1 NMGGGM    6 (6)
+Q Consensus         1 nmgggm    6 (6)
+                      |+|||+
+T Consensus       253 diGGG~  258 (453)
+T 5X7N_A          253 DLGGGY  258 (453)
+T ss_dssp             ECCCCB
+T ss_pred             ECCCCC
+Confidence            466663
+
+
+No 19
+>7JPJ_A Diaminopimelate decarboxylase; PLP BINDING ENZYME, DECARBOXYLASE, LYSINE; HET: DLY, SO4; 2.78A {Phaeodactylum tricornutum}
+Probab=31.76  E-value=45  Score=14.87  Aligned_cols=6  Identities=67%  Similarity=1.453  Sum_probs=3.5  Template_Neff=8.800
+
+Q NMGGGM            1 NMGGGM    6 (6)
+Q Consensus         1 nmgggm    6 (6)
+                      |+|||.
+T Consensus       234 dlGGG~  239 (441)
+T 7JPJ_A          234 NLGGGY  239 (441)
+T ss_dssp             ECCCCC
+T ss_pred             EcCCCc
+Confidence            456663
+
+
+No 20
+>7JPJ_B Diaminopimelate decarboxylase; PLP BINDING ENZYME, DECARBOXYLASE, LYSINE; HET: DLY, SO4; 2.78A {Phaeodactylum tricornutum}
+Probab=31.76  E-value=45  Score=14.87  Aligned_cols=6  Identities=67%  Similarity=1.453  Sum_probs=3.5  Template_Neff=8.800
+
+Q NMGGGM            1 NMGGGM    6 (6)
+Q Consensus         1 nmgggm    6 (6)
+                      |+|||.
+T Consensus       234 dlGGG~  239 (441)
+T 7JPJ_B          234 NLGGGY  239 (441)
+T ss_dssp             ECCCCC
+T ss_pred             EcCCCc
+Confidence            456663
+
+
+No 21
+>2OO0_A Ornithine decarboxylase (E.C.4.1.1.17); beta-alpha barrel, sheet, LYASE; HET: N2P, ACT, PLP, XAP; 1.9A {Homo sapiens}
+Probab=24.98  E-value=70  Score=14.75  Aligned_cols=6  Identities=50%  Similarity=1.448  Sum_probs=3.4  Template_Neff=8.200
+
+Q NMGGGM            1 NMGGGM    6 (6)
+Q Consensus         1 nmgggm    6 (6)
+                      |+|||.
+T Consensus       243 diGGGf  248 (471)
+T 2OO0_A          243 DIGGGF  248 (471)
+T ss_dssp             ECCCCC
+T ss_pred             ECCCCC
+Confidence            456663
+
+
+No 22
+>3NZP_A Arginine decarboxylase (E.C.4.1.1.19); alpha-beta protein, Structural Genomics, PSI-Biology; HET: SO4, PLP, MSE; 3.0A {Campylobacter jejuni subsp. jejuni}
+Probab=24.01  E-value=75  Score=15.61  Aligned_cols=6  Identities=67%  Similarity=1.619  Sum_probs=3.6  Template_Neff=7.400
+
+Q NMGGGM            1 NMGGGM    6 (6)
+Q Consensus         1 nmgggm    6 (6)
+                      |+|||+
+T Consensus       270 DiGGGl  275 (619)
+T 3NZP_A          270 NLGGGL  275 (619)
+T ss_dssp             EEESCB
+T ss_pred             EeCCCC
+Confidence            467764
+
+
+No 23
+>5YD0_B Schlafen 8; Endonuclease, tRNA, rRNA, Anti-HIV, HYDROLASE; 3.182A {Rattus norvegicus}
+Probab=22.56  E-value=84  Score=15.06  Aligned_cols=6  Identities=67%  Similarity=1.321  Sum_probs=3.6  Template_Neff=6.200
+
+Q NMGGGM            1 NMGGGM    6 (6)
+Q Consensus         1 nmgggm    6 (6)
+                      |-|||.
+T Consensus        67 nSGGGv   72 (366)
+T 5YD0_B           67 NSGGGV   72 (366)
+T ss_dssp             TSSSEE
+T ss_pred             HcCCce
+Confidence            557763
+
+
+No 24
+>5YD0_C Schlafen 8; Endonuclease, tRNA, rRNA, Anti-HIV, HYDROLASE; 3.182A {Rattus norvegicus}
+Probab=22.25  E-value=86  Score=15.12  Aligned_cols=6  Identities=67%  Similarity=1.321  Sum_probs=3.6  Template_Neff=6.000
+
+Q NMGGGM            1 NMGGGM    6 (6)
+Q Consensus         1 nmgggm    6 (6)
+                      |-|||.
+T Consensus        67 NsgGGv   72 (366)
+T 5YD0_C           67 NSGGGV   72 (366)
+T ss_dssp             TSSSEE
+T ss_pred             HcCCcE
+Confidence            557763
+
+
+No 25
+>3BTN_A Antizyme inhibitor 1; TIM-like a/b barrel domain and; 2.05A {Mus musculus}
+Probab=21.99  E-value=87  Score=14.21  Aligned_cols=6  Identities=50%  Similarity=1.448  Sum_probs=3.2  Template_Neff=8.500
+
+Q NMGGGM            1 NMGGGM    6 (6)
+Q Consensus         1 nmgggm    6 (6)
+                      |.|||+
+T Consensus       233 diGGG~  238 (448)
+T 3BTN_A          233 DIGGGF  238 (448)
+T ss_dssp             ECCSCC
+T ss_pred             ECCCCC
+Confidence            456663
+
+
+No 26
+>3NZP_B Arginine decarboxylase (E.C.4.1.1.19); alpha-beta protein, Structural Genomics, PSI-Biology; HET: SO4, PLP; 3.0A {Campylobacter jejuni subsp. jejuni}
+Probab=20.61  E-value=97  Score=15.16  Aligned_cols=6  Identities=67%  Similarity=1.619  Sum_probs=3.4  Template_Neff=7.600
+
+Q NMGGGM            1 NMGGGM    6 (6)
+Q Consensus         1 nmgggm    6 (6)
+                      |.|||+
+T Consensus       270 diGGG~  275 (619)
+T 3NZP_B          270 NLGGGL  275 (619)
+T ss_dssp             EEESCC
+T ss_pred             EecCCC
+Confidence            456663
+
+

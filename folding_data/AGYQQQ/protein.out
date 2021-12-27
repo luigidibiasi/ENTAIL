@@ -1,0 +1,157 @@
+Query         AGYQQQ
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 14:10:51 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/AGYQQQ/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/AGYQQQ/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4XZ8_A nucleoprotein; nucleopr  15.3 1.5E+02  0.0017   15.6   0.0    6    1-6     290-295 (482)
+  2 4XZA_A Nucleoprotein; nucleopr  15.3 1.5E+02  0.0017   15.6   0.0    6    1-6     290-295 (482)
+  3 4AKL_A NUCLEOCAPSID; VIRAL PRO  14.6 1.7E+02  0.0018   15.4   0.0    6    1-6     295-300 (482)
+  4 4AQF_A NUCLEOPROTEIN; VIRAL PR  14.6 1.7E+02  0.0019   15.4   0.0    6    1-6     296-301 (483)
+  5 4XZC_A nucleoprotein; nucleopr  14.4 1.7E+02  0.0019   15.4   0.0    6    1-6     296-301 (483)
+  6 5A97_A NUCLEOCAPSID PROTEIN; V  14.3 1.7E+02  0.0019   15.5   0.0    6    1-6     302-307 (489)
+  7 5A97_C NUCLEOCAPSID PROTEIN; V  14.1 1.7E+02  0.0019   15.4   0.0    6    1-6     302-307 (489)
+  8 6NGM_B Nitric oxide synthase,   13.2 1.9E+02  0.0021   15.1   0.0    5    1-5     187-191 (422)
+  9 3N65_B 'Nitric oxide synthase   12.9   2E+02  0.0022   15.1   0.0    5    1-5     187-191 (422)
+ 10 4D1P_B NITRIC OXIDE SYNTHASE,   12.7   2E+02  0.0023   15.2   0.0    5    1-5     212-216 (440)
+
+No 1
+>4XZ8_A nucleoprotein; nucleoprotein, Erve virus, rna binding; 2.35A {Erve virus}
+Probab=15.35  E-value=1.5e+02  Score=15.58  Aligned_cols=6  Identities=33%  Similarity=0.506  Sum_probs=2.6  Template_Neff=4.300
+
+Q AGYQQQ            1 AGYQQQ    6 (6)
+Q Consensus         1 agyqqq    6 (6)
+                      +||+||
+T Consensus       290 ~~f~qQ  295 (482)
+T 4XZ8_A          290 AVFKNQ  295 (482)
+T ss_dssp             --CCSC
+T ss_pred             HHHHHH
+Confidence            356665
+
+
+No 2
+>4XZA_A Nucleoprotein; nucleoprotein, Erve virus, rna binding; 1.8A {Erve virus}
+Probab=15.35  E-value=1.5e+02  Score=15.58  Aligned_cols=6  Identities=33%  Similarity=0.506  Sum_probs=3.1  Template_Neff=4.300
+
+Q AGYQQQ            1 AGYQQQ    6 (6)
+Q Consensus         1 agyqqq    6 (6)
+                      +||+||
+T Consensus       290 ~~f~qQ  295 (482)
+T 4XZA_A          290 AVFKNQ  295 (482)
+T ss_dssp             -CCGGG
+T ss_pred             HHHHHH
+Confidence            356665
+
+
+No 3
+>4AKL_A NUCLEOCAPSID; VIRAL PROTEIN, BUNYAVIRIDAE, CCHFV, CASPASE-3; HET: PGE; 2.1A {CRIMEAN-CONGO HEMORRHAGIC FEVER VIRUS}
+Probab=14.65  E-value=1.7e+02  Score=15.45  Aligned_cols=6  Identities=17%  Similarity=0.313  Sum_probs=3.5  Template_Neff=4.400
+
+Q AGYQQQ            1 AGYQQQ    6 (6)
+Q Consensus         1 agyqqq    6 (6)
+                      +||+||
+T Consensus       295 ~~f~qQ  300 (482)
+T 4AKL_A          295 SALRAQ  300 (482)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            356665
+
+
+No 4
+>4AQF_A NUCLEOPROTEIN; VIRAL PROTEIN, NAIROVIRUS; HET: SO4; 3.1A {CRIMEAN-CONGO HEMORRHAGIC FEVER VIRUS}
+Probab=14.56  E-value=1.7e+02  Score=15.44  Aligned_cols=6  Identities=17%  Similarity=0.313  Sum_probs=3.4  Template_Neff=4.400
+
+Q AGYQQQ            1 AGYQQQ    6 (6)
+Q Consensus         1 agyqqq    6 (6)
+                      +||+||
+T Consensus       296 ~~f~qQ  301 (483)
+T 4AQF_A          296 SALRAQ  301 (483)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            356665
+
+
+No 5
+>4XZC_A nucleoprotein; nucleoprotein, Kupe virus, RNA BINDING; 2.601A {Kupe virus}
+Probab=14.41  E-value=1.7e+02  Score=15.42  Aligned_cols=6  Identities=17%  Similarity=0.313  Sum_probs=3.4  Template_Neff=4.400
+
+Q AGYQQQ            1 AGYQQQ    6 (6)
+Q Consensus         1 agyqqq    6 (6)
+                      +||+||
+T Consensus       296 ~~f~qQ  301 (483)
+T 4XZC_A          296 SALRAQ  301 (483)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            356665
+
+
+No 6
+>5A97_A NUCLEOCAPSID PROTEIN; VIRAL PROTEIN, HAZARA, NUCLEOCAPSID; 2.7A {HAZARA VIRUS}
+Probab=14.32  E-value=1.7e+02  Score=15.46  Aligned_cols=6  Identities=17%  Similarity=0.518  Sum_probs=3.5  Template_Neff=4.300
+
+Q AGYQQQ            1 AGYQQQ    6 (6)
+Q Consensus         1 agyqqq    6 (6)
+                      +||+||
+T Consensus       302 ~~f~qQ  307 (489)
+T 5A97_A          302 NAFRAQ  307 (489)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            356665
+
+
+No 7
+>5A97_C NUCLEOCAPSID PROTEIN; VIRAL PROTEIN, HAZARA, NUCLEOCAPSID; 2.7A {HAZARA VIRUS}
+Probab=14.14  E-value=1.7e+02  Score=15.44  Aligned_cols=6  Identities=17%  Similarity=0.518  Sum_probs=3.5  Template_Neff=4.300
+
+Q AGYQQQ            1 AGYQQQ    6 (6)
+Q Consensus         1 agyqqq    6 (6)
+                      +||+||
+T Consensus       302 ~~f~qQ  307 (489)
+T 5A97_C          302 NAFRAQ  307 (489)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            356665
+
+
+No 8
+>6NGM_B Nitric oxide synthase, brain (E.C.1.14.13.39); nitric oxide synthase inhibitor complex; HET: KMD, HEM, H4B; 1.693A {Rattus norvegicus}
+Probab=13.18  E-value=1.9e+02  Score=15.13  Aligned_cols=5  Identities=80%  Similarity=1.398  Sum_probs=0.0  Template_Neff=4.000
+
+Q AGYQQQ            1 AGYQQ    5 (6)
+Q Consensus         1 agyqq    5 (6)
+                      |||+|
+T Consensus       187 AGY~~  191 (422)
+T 6NGM_B          187 AGYKQ  191 (422)
+T ss_dssp             CEEEC
+T ss_pred             CCeeC
+
+
+No 9
+>3N65_B 'Nitric oxide synthase (E.C.1.14.13.39); heme enzyme, nitric oxide synthase; HET: HEM, XFJ, H4B, MTL; 1.8A {Rattus norvegicus}
+Probab=12.92  E-value=2e+02  Score=15.09  Aligned_cols=5  Identities=80%  Similarity=1.398  Sum_probs=0.0  Template_Neff=4.000
+
+Q AGYQQQ            1 AGYQQ    5 (6)
+Q Consensus         1 agyqq    5 (6)
+                      |||+|
+T Consensus       187 AGY~~  191 (422)
+T 3N65_B          187 AGYKQ  191 (422)
+T ss_dssp             CEEEC
+T ss_pred             CCeeC
+
+
+No 10
+>4D1P_B NITRIC OXIDE SYNTHASE, ENDOTHELIAL (E.C.1.14.13.39); OXIDOREDUCTASE, NITRIC OXIDE SYNTHASE; HET: HEM, H4B, ACT, Q16, BTB; 1.731A {HOMO SAPIENS}
+Probab=12.71  E-value=2e+02  Score=15.21  Aligned_cols=5  Identities=80%  Similarity=1.398  Sum_probs=0.0  Template_Neff=3.800
+
+Q AGYQQQ            1 AGYQQ    5 (6)
+Q Consensus         1 agyqq    5 (6)
+                      |||+|
+T Consensus       212 AGY~~  216 (440)
+T 4D1P_B          212 AGYRQ  216 (440)
+T ss_dssp             CEEEC
+T ss_pred             CCeeC
+
+

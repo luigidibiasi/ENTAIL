@@ -1,0 +1,155 @@
+Query         NIGQSF
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 00:58:21 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NIGQSF/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NIGQSF/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2N8O_A Bacteriocin aureocin A5  29.8      51 0.00056   13.2   0.0    6    1-6      33-38  (51)
+  2 6SIF_B Epidermicin locus struc  24.9      71 0.00078   12.8   0.0    6    1-6      34-39  (51)
+  3 6SIG_B Epidermicin locus struc  24.9      71 0.00078   12.8   0.0    6    1-6      34-39  (51)
+  4 2N8P_A Lacticin Q; leaderless   23.6      78 0.00086   12.7   0.0    6    1-6      34-39  (53)
+  5 1L8W_D VlsE1; Variable Surface  19.9   1E+02  0.0011   15.0   0.0    6    1-6      31-36  (348)
+  6 1L8W_B VlsE1; Variable Surface  19.8   1E+02  0.0011   15.0   0.0    6    1-6      31-36  (348)
+  7 5VLI_C Hemagglutinin, Computat  18.2 1.2E+02  0.0013   12.0   0.0    5    2-6       2-6   (40)
+  8 3I0W_A 8-oxoguanine-DNA-glycos  17.8 1.2E+02  0.0014   13.1   0.0    4    3-6      30-33  (290)
+  9 2AZE_C Transcription factor Dp  17.8 1.2E+02  0.0014   11.6   0.0    5    2-6       7-11  (46)
+ 10 4D59_B CELL SURFACE PROTEIN (P  16.3 1.4E+02  0.0016   13.3   0.0    6    1-6     371-376 (406)
+
+No 1
+>2N8O_A Bacteriocin aureocin A53; bacteriocin, leaderless bacteriocin, Antimicrobial protein; NMR {Staphylococcus aureus}
+Probab=29.78  E-value=51  Score=13.21  Aligned_cols=6  Identities=33%  Similarity=0.933  Sum_probs=3.4  Template_Neff=2.700
+
+Q NIGQSF            1 NIGQSF    6 (6)
+Q Consensus         1 nigqsf    6 (6)
+                      |+|++|
+T Consensus        33 ~~G~~~   38 (51)
+T 2N8O_A           33 NVGPTL   38 (51)
+T ss_dssp             HHSSSH
+T ss_pred             hhchHH
+Confidence            456654
+
+
+No 2
+>6SIF_B Epidermicin locus structural protein; antibiotic, helical, STRUCTURAL PROTEIN; HET: SO4; 1.69A {Staphylococcus epidermidis}
+Probab=24.88  E-value=71  Score=12.75  Aligned_cols=6  Identities=83%  Similarity=1.193  Sum_probs=3.1  Template_Neff=2.900
+
+Q NIGQSF            1 NIGQSF    6 (6)
+Q Consensus         1 nigqsf    6 (6)
+                      |+|++|
+T Consensus        34 ~~G~~~   39 (51)
+T 6SIF_B           34 NAGQSF   39 (51)
+T ss_dssp             HHTBCH
+T ss_pred             HhchhH
+Confidence            456554
+
+
+No 3
+>6SIG_B Epidermicin locus structural protein; antibiotic, helical, STRUCTURAL PROTEIN; HET: SO4; 1.58A {Staphylococcus epidermidis}
+Probab=24.88  E-value=71  Score=12.75  Aligned_cols=6  Identities=83%  Similarity=1.193  Sum_probs=3.1  Template_Neff=2.900
+
+Q NIGQSF            1 NIGQSF    6 (6)
+Q Consensus         1 nigqsf    6 (6)
+                      |+|++|
+T Consensus        34 ~~G~~~   39 (51)
+T 6SIG_B           34 NAGQSF   39 (51)
+T ss_dssp             HHTCCH
+T ss_pred             HhchhH
+Confidence            456554
+
+
+No 4
+>2N8P_A Lacticin Q; leaderless bacteriocin, Antimicrobial protein; NMR {Lactococcus lactis}
+Probab=23.55  E-value=78  Score=12.75  Aligned_cols=6  Identities=50%  Similarity=0.800  Sum_probs=3.1  Template_Neff=2.800
+
+Q NIGQSF            1 NIGQSF    6 (6)
+Q Consensus         1 nigqsf    6 (6)
+                      |+|++|
+T Consensus        34 ~~G~~~   39 (53)
+T 2N8P_A           34 NAGQAI   39 (53)
+T ss_dssp             TTTCSS
+T ss_pred             HccHHH
+Confidence            355554
+
+
+No 5
+>1L8W_D VlsE1; Variable Surface Protein, VMP-like sequence; 2.3A {Borrelia burgdorferi} SCOP: a.154.1.1
+Probab=19.88  E-value=1e+02  Score=14.96  Aligned_cols=6  Identities=33%  Similarity=1.010  Sum_probs=3.1  Template_Neff=5.600
+
+Q NIGQSF            1 NIGQSF    6 (6)
+Q Consensus         1 nigqsf    6 (6)
+                      |+|++|
+T Consensus        31 ~lg~~f   36 (348)
+T 1L8W_D           31 QLGNGF   36 (348)
+T ss_dssp             HHHHHH
+T ss_pred             HhcccH
+Confidence            355554
+
+
+No 6
+>1L8W_B VlsE1; Variable Surface Protein, VMP-like sequence; HET: MSE; 2.3A {Borreliella burgdorferi} SCOP: a.154.1.1
+Probab=19.83  E-value=1e+02  Score=15.00  Aligned_cols=6  Identities=33%  Similarity=1.010  Sum_probs=0.0  Template_Neff=5.500
+
+Q NIGQSF            1 NIGQSF    6 (6)
+Q Consensus         1 nigqsf    6 (6)
+                      |+|++|
+T Consensus        31 ~lg~~f   36 (348)
+T 1L8W_B           31 QLGNGF   36 (348)
+T ss_dssp             HHHHHH
+T ss_pred             HhcccH
+
+
+No 7
+>5VLI_C Hemagglutinin, Computationally designed peptide HB1.6928.2.3; inhibitor, protein design, influenza, hemagglutinin; HET: NAG, BMA, PEG, PGF; 1.799A {Influenza A virus (strain A/Puerto Rico/8/1934 H1N1)}
+Probab=18.22  E-value=1.2e+02  Score=11.96  Aligned_cols=5  Identities=80%  Similarity=1.006  Sum_probs=0.0  Template_Neff=1.000
+
+Q NIGQSF            2 IGQSF    6 (6)
+Q Consensus         2 igqsf    6 (6)
+                      |-|||
+T Consensus         2 ieqsf    6 (40)
+T 5VLI_C            2 IEQSF    6 (40)
+T ss_dssp             EEEEE
+T ss_pred             ccchh
+
+
+No 8
+>3I0W_A 8-oxoguanine-DNA-glycosylase (E.C.3.2.2.-, 4.2.99.18)/DNA complex; OGG, CacOgg, DNA, 8-oxoG, 8oxoG; HET: EDO; 1.73A {Clostridium acetobutylicum}
+Probab=17.79  E-value=1.2e+02  Score=13.06  Aligned_cols=4  Identities=75%  Similarity=1.364  Sum_probs=0.0  Template_Neff=8.300
+
+Q NIGQSF            3 GQSF    6 (6)
+Q Consensus         3 gqsf    6 (6)
+                      ||+|
+T Consensus        30 GQ~f   33 (290)
+T 3I0W_A           30 GQCF   33 (290)
+T ss_dssp             SSCS
+T ss_pred             Cccc
+
+
+No 9
+>2AZE_C Transcription factor Dp-1, Transcription factor; beta sandwich, CELL CYCLE, TRANSCRIPTION; 2.55A {Homo sapiens} SCOP: j.119.1.1
+Probab=17.78  E-value=1.2e+02  Score=11.62  Aligned_cols=5  Identities=80%  Similarity=1.431  Sum_probs=0.0  Template_Neff=3.700
+
+Q NIGQSF            2 IGQSF    6 (6)
+Q Consensus         2 igqsf    6 (6)
+                      ||+||
+T Consensus         7 ~geS~   11 (46)
+T 2AZE_C            7 IGESF   11 (46)
+T ss_dssp             SSCTT
+T ss_pred             cccCc
+
+
+No 10
+>4D59_B CELL SURFACE PROTEIN (PUTATIVE CELL; HYDROLASE, S-LAYER, SURFACE LAYER; HET: JEF; 1.84A {PEPTOCLOSTRIDIUM DIFFICILE QCD-32G58}
+Probab=16.26  E-value=1.4e+02  Score=13.25  Aligned_cols=6  Identities=50%  Similarity=1.232  Sum_probs=0.0  Template_Neff=8.800
+
+Q NIGQSF            1 NIGQSF    6 (6)
+Q Consensus         1 nigqsf    6 (6)
+                      +-||||
+T Consensus       371 ~~g~s~  376 (406)
+T 4D59_B          371 NLGESY  376 (406)
+T ss_dssp             CTTSEE
+T ss_pred             CCCceE
+
+

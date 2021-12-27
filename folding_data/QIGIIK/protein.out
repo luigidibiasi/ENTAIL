@@ -1,0 +1,147 @@
+Query         QIGIIK
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 08:13:25 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QIGIIK/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QIGIIK/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6YPI_A DA7 W16G,K58Q,L77R,T78R  30.8      47 0.00052   14.0   0.0    6    1-6      58-63  (97)
+  2 7BU0_B Uncharacterized protein  18.7 1.1E+02  0.0013   16.3   0.0    6    1-6     359-364 (420)
+  3 5YZC_A glycoprotein F2, glycop  16.0 1.5E+02  0.0016   12.1   0.0    6    1-6      14-19  (94)
+  4 6RM3_SN0 uL2, uS2, uL15, eS26,  16.0 1.5E+02  0.0016   13.4   0.0    5    1-5      49-53  (149)
+  5 4V3P_SO 40S WHEAT GERM RIBOSOM  15.9 1.5E+02  0.0016   13.0   0.0    5    1-5      19-23  (121)
+  6 6ZJ3_ST Ribosomal protein eS1,  15.8 1.5E+02  0.0016   13.3   0.0    5    1-5      49-53  (151)
+  7 6AZ1_T Ribosomal protein s1e,   15.6 1.5E+02  0.0017   13.3   0.0    5    1-5      49-53  (151)
+  8 2YBB_V NADH-QUINONE OXIDOREDUC  15.6 1.5E+02  0.0017   12.1   0.0    4    1-4      35-38  (56)
+  9 7COH_X Cytochrome c oxidase su  15.5 1.5E+02  0.0017   12.1   0.0    4    1-4      35-38  (56)
+ 10 5T2A_AG eL18, uL16, uL5, eL13,  15.5 1.5E+02  0.0017   13.3   0.0    5    1-5      49-53  (151)
+
+No 1
+>6YPI_A DA7 W16G,K58Q,L77R,T78R; De novo Diels-Alderase, DE NOVO; HET: DMX; 1.479A {synthetic construct}
+Probab=30.78  E-value=47  Score=14.00  Aligned_cols=6  Identities=50%  Similarity=0.418  Sum_probs=3.2  Template_Neff=4.400
+
+Q QIGIIK            1 QIGIIK    6 (6)
+Q Consensus         1 qigiik    6 (6)
+                      ||.|||
+T Consensus        58 q~~~i~   63 (97)
+T 6YPI_A           58 QIQNIH   63 (97)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            455554
+
+
+No 2
+>7BU0_B Uncharacterized protein, Polyubiquitin-B; complex, HYDROLASE; 2.43A {Legionella pneumophila subsp. pneumophila (strain Philadelphia 1 / ATCC 33152 / DSM 7513)}
+Probab=18.68  E-value=1.1e+02  Score=16.32  Aligned_cols=6  Identities=67%  Similarity=0.883  Sum_probs=4.0  Template_Neff=2.600
+
+Q QIGIIK            1 QIGIIK    6 (6)
+Q Consensus         1 qigiik    6 (6)
+                      ||+|||
+T Consensus       359 q~~~~~  364 (420)
+T 7BU0_B          359 QIELIK  364 (420)
+T ss_dssp             HHHHHH
+T ss_pred             HHhhHh
+Confidence            677765
+
+
+No 3
+>5YZC_A glycoprotein F2, glycoprotein F1,measles virus; glycoprotein, viral protein, fusion protein; HET: NAG, 95C; 2.334A {Measles virus (strain Ichinose-B95a)}
+Probab=16.03  E-value=1.5e+02  Score=12.09  Aligned_cols=6  Identities=33%  Similarity=0.955  Sum_probs=0.0  Template_Neff=5.500
+
+Q QIGIIK            1 QIGIIK    6 (6)
+Q Consensus         1 qigiik    6 (6)
+                      +||||.
+T Consensus        14 ~iGIi~   19 (94)
+T 5YZC_A           14 KIGVVG   19 (94)
+T ss_dssp             TTTEEE
+T ss_pred             heeEEE
+
+
+No 4
+>6RM3_SN0 uL2, uS2, uL15, eS26, uL3; Microsporidia, Ribosome, Intracellular Parasite; HET: MG; 3.4A {Vairimorpha necatrix}
+Probab=15.96  E-value=1.5e+02  Score=13.41  Aligned_cols=5  Identities=40%  Similarity=0.494  Sum_probs=0.0  Template_Neff=4.400
+
+Q QIGIIK            1 QIGII    5 (6)
+Q Consensus         1 qigii    5 (6)
+                      |||+|
+T Consensus        49 ~IG~i   53 (149)
+T 6RM3_SN0         49 EIGNK   53 (149)
+T ss_pred             Hhchh
+
+
+No 5
+>4V3P_SO 40S WHEAT GERM RIBOSOME1/RNA Complex; RIBOSOME; 34.0A {Triticum aestivum}
+Probab=15.94  E-value=1.5e+02  Score=12.98  Aligned_cols=5  Identities=60%  Similarity=1.298  Sum_probs=0.0  Template_Neff=4.500
+
+Q QIGIIK            1 QIGII    5 (6)
+Q Consensus         1 qigii    5 (6)
+                      |||+|
+T Consensus        19 ~IG~i   23 (121)
+T 4V3P_SO          19 QIGVV   23 (121)
+T ss_pred             Hhchh
+
+
+No 6
+>6ZJ3_ST Ribosomal protein eS1, Ribosomal protein; Single particle cryo-EM RNA modifications; HET: OMU, 7MG, 1MA, OMC, 6MZ, OMG, PSU, B8N, A2M, B8H, 5MC, MIA, JMH, MA6, JMC, UR3; 3.15A {Euglena gracilis}
+Probab=15.83  E-value=1.5e+02  Score=13.34  Aligned_cols=5  Identities=80%  Similarity=1.026  Sum_probs=0.0  Template_Neff=4.600
+
+Q QIGIIK            1 QIGII    5 (6)
+Q Consensus         1 qigii    5 (6)
+                      |||+|
+T Consensus        49 ~IG~i   53 (151)
+T 6ZJ3_ST          49 QIGIQ   53 (151)
+T ss_pred             HhCcc
+
+
+No 7
+>6AZ1_T Ribosomal protein s1e, ribosomal protein; Leishmania donovani, ribosome, aminoglycoside, paromomycin; HET: MG, 4OC, 7MG, OMC, 5MC, MA6, MIA, M1Y, OMU, C4J, A2M, OMG, PAR;{Leishmania donovani}
+Probab=15.61  E-value=1.5e+02  Score=13.32  Aligned_cols=5  Identities=60%  Similarity=0.873  Sum_probs=0.0  Template_Neff=4.600
+
+Q QIGIIK            1 QIGII    5 (6)
+Q Consensus         1 qigii    5 (6)
+                      |||+|
+T Consensus        49 ~IG~i   53 (151)
+T 6AZ1_T           49 QIGME   53 (151)
+T ss_dssp             HHHHH
+T ss_pred             Hhchh
+
+
+No 8
+>2YBB_V NADH-QUINONE OXIDOREDUCTASE SUBUNIT 1 (E.C.1.6.99.5); SUPERCOMPLEX B, MITOCHONDRIA, RESPIRATORY CHAIN; HET: FES, SF4, HEC, NAI, CDL, FMN, UQ1, HEM, SMA, HEA; 19.0A {BOS TAURUS}
+Probab=15.55  E-value=1.5e+02  Score=12.13  Aligned_cols=4  Identities=100%  Similarity=1.439  Sum_probs=0.0  Template_Neff=2.500
+
+Q QIGIIK            1 QIGI    4 (6)
+Q Consensus         1 qigi    4 (6)
+                      ||||
+T Consensus        35 Q~GI   38 (56)
+T 2YBB_V           35 QIGI   38 (56)
+T ss_pred             hCCC
+
+
+No 9
+>7COH_X Cytochrome c oxidase subunit 1; Dimer, Fully Oxidized, OXIDOREDUCTASE; HET: CDL, PGV, PEK, DMU, HEA, FME, CHD, LFA, EDO; 1.3A {Bos taurus}
+Probab=15.53  E-value=1.5e+02  Score=12.13  Aligned_cols=4  Identities=100%  Similarity=1.439  Sum_probs=0.0  Template_Neff=2.500
+
+Q QIGIIK            1 QIGI    4 (6)
+Q Consensus         1 qigi    4 (6)
+                      ||||
+T Consensus        35 Q~GI   38 (56)
+T 7COH_X           35 QIGI   38 (56)
+T ss_dssp             HSCC
+T ss_pred             hcCC
+
+
+No 10
+>5T2A_AG eL18, uL16, uL5, eL13, uL13; ribosome, Leishmania donovani; 2.9A {Leishmania donovani}
+Probab=15.51  E-value=1.5e+02  Score=13.30  Aligned_cols=5  Identities=60%  Similarity=0.873  Sum_probs=0.0  Template_Neff=4.600
+
+Q QIGIIK            1 QIGII    5 (6)
+Q Consensus         1 qigii    5 (6)
+                      |||+|
+T Consensus        49 ~IG~i   53 (151)
+T 5T2A_AG          49 QIGME   53 (151)
+T ss_pred             Hhchh
+
+

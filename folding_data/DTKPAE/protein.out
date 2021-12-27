@@ -1,0 +1,147 @@
+Query         DTKPAE
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 18:04:27 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/DTKPAE/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/DTKPAE/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6ZR2_P NADH-ubiquinone oxidore   5.1   7E+02  0.0077   10.6   0.0    5    1-5     368-372 (377)
+  2 1Q5R_F proteasome assembly, pr   4.9 7.3E+02  0.0081   10.4   0.0    5    2-6     252-256 (259)
+  3 4C0N_A 2-ON-2 HEMOGLOBIN; OXYG   4.6 7.9E+02  0.0088    9.9   0.0    4    3-6     171-174 (175)
+  4 2VX8_B NUCLEOPORIN-LIKE PROTEI   4.3 8.5E+02  0.0095   10.1   0.0    6    1-6      23-28  (169)
+  5 4PSW_C Histone acetyltransfera   3.6 1.1E+03   0.012    8.3   0.0    4    2-5      24-27  (38)
+  6 6ZJ3_Lz Ribosomal protein eS1,   3.6 1.1E+03   0.012    9.7   0.0    4    2-5      77-80  (82)
+  7 5NPS_A UDP-N-acetylglucosamine   3.6 1.1E+03   0.012   11.8   0.0    6    1-6     359-364 (718)
+  8 3P7J_B Heterochromatin protein   3.6 1.1E+03   0.012    8.4   0.0    5    1-5      12-16  (87)
+  9 2P8W_S Elongation factor 2, El   3.3 1.2E+03   0.013    6.4   0.0    6    1-6      17-22  (35)
+ 10 3TIW_A Transitional endoplasmi   3.3 1.2E+03   0.013    8.7   0.0    6    1-6       6-11  (187)
+
+No 1
+>6ZR2_P NADH-ubiquinone oxidoreductase chain 3 (E.C.7.1.1.2); NADH, ubiquinone, complex I, OXIDOREDUCTASE; HET: AME, SF4, CDL, 2MR, ATP, EHZ, 3PE, PC1, NDP, FMN, FME; 3.1A {Mus musculus}
+Probab=5.10  E-value=7e+02  Score=10.62  Aligned_cols=5  Identities=80%  Similarity=1.225  Sum_probs=0.0  Template_Neff=9.900
+
+Q DTKPAE            1 DTKPA    5 (6)
+Q Consensus         1 dtkpa    5 (6)
+                      .||||
+T Consensus       368 ~~~~~  372 (377)
+T 6ZR2_P          368 ETKPA  372 (377)
+T ss_dssp             SSCCC
+T ss_pred             ccCCC
+
+
+No 2
+>1Q5R_F proteasome assembly, pro-peptide, inter-subunit contacts; 3.1A {Rhodococcus erythropolis} SCOP: d.153.1.4
+Probab=4.90  E-value=7.3e+02  Score=10.38  Aligned_cols=5  Identities=80%  Similarity=1.225  Sum_probs=0.0  Template_Neff=8.900
+
+Q DTKPAE            2 TKPAE    6 (6)
+Q Consensus         2 tkpae    6 (6)
+                      ++||+
+T Consensus       252 ~~~~~  256 (259)
+T 1Q5R_F          252 TKPAD  256 (259)
+T ss_dssp             -----
+T ss_pred             CCCCc
+
+
+No 3
+>4C0N_A 2-ON-2 HEMOGLOBIN; OXYGEN TRANSPORT, 2-OVER-2 FOLD; HET: HEM; 1.77A {ARABIDOPSIS THALIANA}
+Probab=4.59  E-value=7.9e+02  Score=9.90  Aligned_cols=4  Identities=100%  Similarity=1.398  Sum_probs=0.0  Template_Neff=8.300
+
+Q DTKPAE            3 KPAE    6 (6)
+Q Consensus         3 kpae    6 (6)
+                      ||+|
+T Consensus       171 ~~~~  174 (175)
+T 4C0N_A          171 KPAE  174 (175)
+T ss_dssp             ----
+T ss_pred             CCcC
+
+
+No 4
+>2VX8_B NUCLEOPORIN-LIKE PROTEIN RIP, VESICLE-ASSOCIATED MEMBRANE; ENDOCYTOSIS,EXOCYTOSIS, ENDOCYTOSIS, EXOCYTOSIS, MEMBRANE PROTEIN; 2.2A {HOMO SAPIENS, MUS MUSCULUS}
+Probab=4.33  E-value=8.5e+02  Score=10.10  Aligned_cols=6  Identities=33%  Similarity=0.750  Sum_probs=0.0  Template_Neff=7.500
+
+Q DTKPAE            1 DTKPAE    6 (6)
+Q Consensus         1 dtkpae    6 (6)
+                      |+||.+
+T Consensus        23 ~~~~~~   28 (169)
+T 2VX8_B           23 EVKPLK   28 (169)
+T ss_dssp             CEEETH
+T ss_pred             CCCCcc
+
+
+No 5
+>4PSW_C Histone acetyltransferase type B catalytic; HAT WD40, histone acetyltransferase, AcCoA; HET: COA; 2.101A {Saccharomyces cerevisiae}
+Probab=3.62  E-value=1.1e+03  Score=8.27  Aligned_cols=4  Identities=100%  Similarity=1.306  Sum_probs=0.0  Template_Neff=5.200
+
+Q DTKPAE            2 TKPA    5 (6)
+Q Consensus         2 tkpa    5 (6)
+                      |||+
+T Consensus        24 tk~~   27 (38)
+T 4PSW_C           24 TKPA   27 (38)
+T ss_pred             CcHH
+
+
+No 6
+>6ZJ3_Lz Ribosomal protein eS1, Ribosomal protein; Single particle cryo-EM RNA modifications; HET: JMC, B8H, MA6, PSU, B8N, A2M, UR3, 7MG, MIA, 5MC, 6MZ, OMG, OMU, OMC, 1MA, JMH; 3.15A {Euglena gracilis}
+Probab=3.60  E-value=1.1e+03  Score=9.73  Aligned_cols=4  Identities=100%  Similarity=1.306  Sum_probs=0.0  Template_Neff=4.700
+
+Q DTKPAE            2 TKPA    5 (6)
+Q Consensus         2 tkpa    5 (6)
+                      ||||
+T Consensus        77 ~k~~   80 (82)
+T 6ZJ3_Lz          77 TKPA   80 (82)
+T ss_pred             cCCC
+
+
+No 7
+>5NPS_A UDP-N-acetylglucosamine--peptide N-acetylglucosaminyltransferase 110 kDa subunit; O-GlcNAc transferase, GT-B, GT41, Rossman-Fold; HET: 94T; 1.68A {Homo sapiens}
+Probab=3.59  E-value=1.1e+03  Score=11.79  Aligned_cols=6  Identities=67%  Similarity=1.049  Sum_probs=0.0  Template_Neff=8.500
+
+Q DTKPAE            1 DTKPAE    6 (6)
+Q Consensus         1 dtkpae    6 (6)
+                      |+.|||
+T Consensus       359 ~~~~~~  364 (718)
+T 5NPS_A          359 ETSPAE  364 (718)
+T ss_dssp             TTSCGG
+T ss_pred             CCCHHH
+
+
+No 8
+>3P7J_B Heterochromatin protein 1; heterochromatin protein 1, chromo shadow; 2.3A {Drosophila melanogaster}
+Probab=3.58  E-value=1.1e+03  Score=8.39  Aligned_cols=5  Identities=60%  Similarity=0.853  Sum_probs=0.0  Template_Neff=8.300
+
+Q DTKPAE            1 DTKPA    5 (6)
+Q Consensus         1 dtkpa    5 (6)
+                      ||+|.
+T Consensus        12 ~~~~~   16 (87)
+T 3P7J_B           12 DTIPV   16 (87)
+T ss_dssp             -----
+T ss_pred             CCCCC
+
+
+No 9
+>2P8W_S Elongation factor 2, Elongation factor; elongation, translocation, GTPase, 80S ribosome; HET: GNP; 11.3A {Saccharomyces cerevisiae}
+Probab=3.31  E-value=1.2e+03  Score=6.39  Aligned_cols=6  Identities=50%  Similarity=0.866  Sum_probs=0.0  Template_Neff=9.200
+
+Q DTKPAE            1 DTKPAE    6 (6)
+Q Consensus         1 dtkpae    6 (6)
+                      |..+.|
+T Consensus        17 D~~~~E   22 (35)
+T 2P8W_S           17 DKAPEE   22 (35)
+T ss_pred             hCCHHH
+
+
+No 10
+>3TIW_A Transitional endoplasmic reticulum ATPase, E3; beta-barrel alpha-helix, transport protein ATPase; 1.802A {Homo sapiens}
+Probab=3.28  E-value=1.2e+03  Score=8.73  Aligned_cols=6  Identities=50%  Similarity=0.734  Sum_probs=0.0  Template_Neff=10.100
+
+Q DTKPAE            1 DTKPAE    6 (6)
+Q Consensus         1 dtkpae    6 (6)
+                      |||+..
+T Consensus         6 ~~~~~~   11 (187)
+T 3TIW_A            6 DTKSDD   11 (187)
+T ss_dssp             ------
+T ss_pred             CCCccc
+
+

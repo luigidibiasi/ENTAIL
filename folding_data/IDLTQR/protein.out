@@ -1,0 +1,151 @@
+Query         IDLTQR
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 07:36:50 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/IDLTQR/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/IDLTQR/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 1T98_B Chromosome partition pr  41.0      25 0.00028   17.4   0.0    6    1-6     171-176 (287)
+  2 1T98_A Chromosome partition pr  40.7      26 0.00029   17.4   0.0    6    1-6     171-176 (287)
+  3 3RPU_X Chromosome partition pr  31.7      45 0.00049   17.5   0.0    6    1-6     191-196 (460)
+  4 7NZ4_D1 Chromosome partition p  27.3      60 0.00066   17.0   0.0    6    1-6     171-176 (440)
+  5 3EUH_A Chromosome partition pr  27.3      60 0.00066   17.0   0.0    6    1-6     171-176 (440)
+  6 1BYW_A PROTEIN (HUMAN ERG POTA  19.7   1E+02  0.0012    7.7   0.0    5    2-6     106-110 (110)
+  7 6PB1_U Corticotropin-releasing  14.4 1.7E+02  0.0019   11.3   0.0    4    1-4       7-10  (40)
+  8 2RMF_A Urocortin; CRF ligand,   14.3 1.7E+02  0.0019   11.3   0.0    4    1-4       7-10  (40)
+  9 2L27_B Seven transmembrane hel  14.1 1.8E+02  0.0019   11.2   0.0    4    1-4       5-8   (38)
+ 10 4HOI_B Potassium voltage-gated  13.4 1.9E+02  0.0021    7.4   0.0    6    1-6     108-113 (114)
+
+No 1
+>1T98_B Chromosome partition protein mukF; WINGED HELIX, HELIX-TURN HELIX, DOMAIN; HET: MSE; 2.9A {Escherichia coli} SCOP: a.4.5.65, a.47.6.1
+Probab=41.00  E-value=25  Score=17.42  Aligned_cols=6  Identities=100%  Similarity=1.254  Sum_probs=4.2  Template_Neff=3.500
+
+Q IDLTQR            1 IDLTQR    6 (6)
+Q Consensus         1 idltqr    6 (6)
+                      ||++||
+T Consensus       171 Id~~QR  176 (287)
+T 1T98_B          171 IDLTQR  176 (287)
+T ss_dssp             HHHHHH
+T ss_pred             cchhHH
+Confidence            677776
+
+
+No 2
+>1T98_A Chromosome partition protein mukF; WINGED HELIX, HELIX-TURN HELIX, DOMAIN; 2.9A {Escherichia coli} SCOP: a.47.6.1, a.4.5.65
+Probab=40.72  E-value=26  Score=17.40  Aligned_cols=6  Identities=100%  Similarity=1.254  Sum_probs=4.2  Template_Neff=3.500
+
+Q IDLTQR            1 IDLTQR    6 (6)
+Q Consensus         1 idltqr    6 (6)
+                      ||++||
+T Consensus       171 Id~~QR  176 (287)
+T 1T98_A          171 IDLTQR  176 (287)
+T ss_pred             cchhHH
+Confidence            677776
+
+
+No 3
+>3RPU_X Chromosome partition protein mukF, Chromosome; kleisin, SMC-associated proteins, chromosome condensation; 3.6A {Escherichia coli}
+Probab=31.70  E-value=45  Score=17.54  Aligned_cols=6  Identities=100%  Similarity=1.254  Sum_probs=4.2  Template_Neff=3.600
+
+Q IDLTQR            1 IDLTQR    6 (6)
+Q Consensus         1 idltqr    6 (6)
+                      ||++||
+T Consensus       191 Id~~QR  196 (460)
+T 3RPU_X          191 IDLTQR  196 (460)
+T ss_dssp             HHHHHH
+T ss_pred             cchhHH
+Confidence            677776
+
+
+No 4
+>7NZ4_D1 Chromosome partition protein MukB, Chromosome; SMC-kleisin complex, ATPase, DNA BINDING; HET: PNS; 13.0A {Escherichia coli BL21(DE3)}
+Probab=27.33  E-value=60  Score=17.00  Aligned_cols=6  Identities=67%  Similarity=1.132  Sum_probs=4.1  Template_Neff=3.700
+
+Q IDLTQR            1 IDLTQR    6 (6)
+Q Consensus         1 idltqr    6 (6)
+                      ||++||
+T Consensus       171 Id~~Qr  176 (440)
+T 7NZ4_D1         171 IDMSQR  176 (440)
+T ss_pred             cchhHH
+Confidence            577775
+
+
+No 5
+>3EUH_A Chromosome partition protein mukF, MukE; Chromosome condensation, condensin, non-SMC subunit; HET: GLY; 2.9A {Escherichia coli}
+Probab=27.30  E-value=60  Score=17.00  Aligned_cols=6  Identities=100%  Similarity=1.254  Sum_probs=4.1  Template_Neff=3.700
+
+Q IDLTQR            1 IDLTQR    6 (6)
+Q Consensus         1 idltqr    6 (6)
+                      ||++||
+T Consensus       171 Id~~Qr  176 (440)
+T 3EUH_A          171 IDLTQR  176 (440)
+T ss_dssp             HHHHHH
+T ss_pred             cchhHH
+Confidence            577775
+
+
+No 6
+>1BYW_A PROTEIN (HUMAN ERG POTASSIUM CHANNEL); PAS DOMAIN, POTASSIUM CHANNEL DOMAIN; 2.6A {Homo sapiens} SCOP: d.110.3.6
+Probab=19.69  E-value=1e+02  Score=7.72  Aligned_cols=5  Identities=0%  Similarity=0.182  Sum_probs=0.0  Template_Neff=15.100
+
+Q IDLTQR            2 DLTQR    6 (6)
+Q Consensus         2 dltqr    6 (6)
+                      |.++|
+T Consensus       106 dit~~  110 (110)
+T 1BYW_A          106 VVMEK  110 (110)
+T ss_pred             ecccC
+
+
+No 7
+>6PB1_U Corticotropin-releasing factor receptor 2, Urocortin; Corticotropin-releasing factor 2 receptor, urocortins1; HET: CLR, PLM; 2.8A {Homo sapiens}
+Probab=14.43  E-value=1.7e+02  Score=11.30  Aligned_cols=4  Identities=100%  Similarity=1.265  Sum_probs=0.0  Template_Neff=2.700
+
+Q IDLTQR            1 IDLT    4 (6)
+Q Consensus         1 idlt    4 (6)
+                      ||||
+T Consensus         7 iDLT   10 (40)
+T 6PB1_U            7 IDLT   10 (40)
+T ss_pred             hHHH
+
+
+No 8
+>2RMF_A Urocortin; CRF ligand, Sauvagine, Astressin2B, Urocortins; NMR {N/A} SCOP: j.16.1.1
+Probab=14.34  E-value=1.7e+02  Score=11.28  Aligned_cols=4  Identities=100%  Similarity=1.265  Sum_probs=0.0  Template_Neff=2.700
+
+Q IDLTQR            1 IDLT    4 (6)
+Q Consensus         1 idlt    4 (6)
+                      ||||
+T Consensus         7 iDLT   10 (40)
+T 2RMF_A            7 IDLT   10 (40)
+T ss_dssp             HHHH
+T ss_pred             hHHH
+
+
+No 9
+>2L27_B Seven transmembrane helix receptor, peptide; CRF, ECD1, Agonist, Family B1; NMR {Homo sapiens}
+Probab=14.07  E-value=1.8e+02  Score=11.18  Aligned_cols=4  Identities=75%  Similarity=1.165  Sum_probs=0.0  Template_Neff=2.600
+
+Q IDLTQR            1 IDLT    4 (6)
+Q Consensus         1 idlt    4 (6)
+                      ||||
+T Consensus         5 iDLT    8 (38)
+T 2L27_B            5 LDLT    8 (38)
+T ss_dssp             SHHH
+T ss_pred             hHHH
+
+
+No 10
+>4HOI_B Potassium voltage-gated channel subfamily H; Potassium channel domain, TRANSPORT PROTEIN; HET: SO4; 1.85A {Mus musculus}
+Probab=13.43  E-value=1.9e+02  Score=7.43  Aligned_cols=6  Identities=33%  Similarity=0.268  Sum_probs=0.0  Template_Neff=14.800
+
+Q IDLTQR            1 IDLTQR    6 (6)
+Q Consensus         1 idltqr    6 (6)
+                      .|++++
+T Consensus       108 ~dit~~  113 (114)
+T 4HOI_B          108 SDITAF  113 (114)
+T ss_dssp             EECTTT
+T ss_pred             Eehhhc
+
+

@@ -1,0 +1,150 @@
+Query         SDLTIT
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 13:39:13 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/SDLTIT/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/SDLTIT/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4J8Z_B Speckle-type POZ protei   4.9 7.3E+02  0.0081    8.8   0.0    5    1-5      37-41  (211)
+  2 4HX2_B KerA (E.C.3.4.21.62), N   4.7 7.8E+02  0.0086   10.3   0.0    6    1-6       7-12  (114)
+  3 3WCQ_A Ferredoxin; 2Fe-2S clus   4.7 7.8E+02  0.0086    8.5   0.0    6    1-6      84-89  (97)
+  4 1NFI_D NF-KAPPA-B P65, NF-KAPP   4.7 7.8E+02  0.0086    9.8   0.0    6    1-6       1-6   (107)
+  5 3GS2_B E3 ubiquitin-protein li   4.6 7.9E+02  0.0088    8.5   0.0    6    1-6      10-15  (30)
+  6 2XMA_E TRANSPOSASE; DNA BINDIN   4.6   8E+02  0.0089    8.8   0.0    6    1-6       2-7   (143)
+  7 4HWX_A Neutral proteinase inhi   4.4 8.5E+02  0.0094   10.2   0.0    6    1-6       7-12  (114)
+  8 2VKP_A BTB/POZ DOMAIN-CONTAINI   4.2 8.8E+02  0.0097    7.4   0.0    5    1-5       9-13  (109)
+  9 3MCH_B Molybdopterin biosynthe   4.2 8.9E+02  0.0098    9.3   0.0    6    1-6      63-68  (164)
+ 10 7B03_A Light-driven proton pum   4.2   9E+02    0.01   10.3   0.0    6    1-6       5-10  (233)
+
+No 1
+>4J8Z_B Speckle-type POZ protein; BTB domain, BACK domain, Protein; 2.42A {Homo sapiens}
+Probab=4.92  E-value=7.3e+02  Score=8.81  Aligned_cols=5  Identities=20%  Similarity=0.468  Sum_probs=0.0  Template_Neff=11.600
+
+Q SDLTIT            1 SDLTI    5 (6)
+Q Consensus         1 sdlti    5 (6)
+                      +|++|
+T Consensus        37 ~D~~i   41 (211)
+T 4J8Z_B           37 TDCCL   41 (211)
+T ss_dssp             CCEEE
+T ss_pred             CCEEE
+
+
+No 2
+>4HX2_B KerA (E.C.3.4.21.62), Neutral proteinase inhibitor; Streptomyces subtilisin inhibitor fold, Subtilisin; HET: GOL, IPA, 1AX; 2.25A {Bacillus licheniformis}
+Probab=4.68  E-value=7.8e+02  Score=10.30  Aligned_cols=6  Identities=33%  Similarity=0.457  Sum_probs=0.0  Template_Neff=5.700
+
+Q SDLTIT            1 SDLTIT    6 (6)
+Q Consensus         1 sdltit    6 (6)
+                      ++|++|
+T Consensus         7 ~~L~lt   12 (114)
+T 4HX2_B            7 SAMVFT   12 (114)
+T ss_dssp             EEEEEE
+T ss_pred             ceEEEE
+
+
+No 3
+>3WCQ_A Ferredoxin; 2Fe-2S cluster, electron transfer, FNR; 0.97A {Cyanidioschyzon merolae}
+Probab=4.66  E-value=7.8e+02  Score=8.50  Aligned_cols=6  Identities=50%  Similarity=0.523  Sum_probs=0.0  Template_Neff=9.300
+
+Q SDLTIT            1 SDLTIT    6 (6)
+Q Consensus         1 sdltit    6 (6)
+                      +|++|.
+T Consensus        84 ~d~~v~   89 (97)
+T 3WCQ_A           84 SDCVIQ   89 (97)
+T ss_dssp             SCEEEE
+T ss_pred             CCcEEE
+
+
+No 4
+>1NFI_D NF-KAPPA-B P65, NF-KAPPA-B P50, I-KAPPA-B-ALPHA; COMPLEX (TRANSCRIPTION REGULATION-ANK REPEAT), ANKYRIN; 2.7A {Homo sapiens} SCOP: b.1.18.1
+Probab=4.66  E-value=7.8e+02  Score=9.82  Aligned_cols=6  Identities=50%  Similarity=0.695  Sum_probs=0.0  Template_Neff=6.600
+
+Q SDLTIT            1 SDLTIT    6 (6)
+Q Consensus         1 sdltit    6 (6)
+                      |||.|.
+T Consensus         1 ~~l~I~    6 (107)
+T 1NFI_D            1 SNLKIV    6 (107)
+T ss_dssp             CCCCEE
+T ss_pred             CCcEEE
+
+
+No 5
+>3GS2_B E3 ubiquitin-protein ligase RING2 (E.C.6.3.2.-); RING1B, CBOX, CBX7, POLYCOMB, E3-LIGASE; HET: SO4; 1.699A {Homo sapiens}
+Probab=4.60  E-value=7.9e+02  Score=8.48  Aligned_cols=6  Identities=33%  Similarity=0.683  Sum_probs=0.0  Template_Neff=4.400
+
+Q SDLTIT            1 SDLTIT    6 (6)
+Q Consensus         1 sdltit    6 (6)
+                      +.+++|
+T Consensus        10 n~ltvT   15 (30)
+T 3GS2_B           10 NSITVT   15 (30)
+T ss_dssp             TTEEEE
+T ss_pred             CceEEE
+
+
+No 6
+>2XMA_E TRANSPOSASE; DNA BINDING PROTEIN-DNA COMPLEX, TRANSPOSITION; 2.3A {DEINOCOCCUS RADIODURANS}
+Probab=4.55  E-value=8e+02  Score=8.84  Aligned_cols=6  Identities=33%  Similarity=0.401  Sum_probs=0.0  Template_Neff=9.900
+
+Q SDLTIT            1 SDLTIT    6 (6)
+Q Consensus         1 sdltit    6 (6)
+                      |.+|++
+T Consensus         2 ~~~~~~    7 (143)
+T 2XMA_E            2 SHMTYV    7 (143)
+T ss_dssp             EEEEEE
+T ss_pred             CceeEE
+
+
+No 7
+>4HWX_A Neutral proteinase inhibitor ScNPI; Streptomyces subtilisin inhibitor fold, Hydrolase; HET: ACT; 1.9A {Streptomyces caespitosus}
+Probab=4.36  E-value=8.5e+02  Score=10.23  Aligned_cols=6  Identities=33%  Similarity=0.457  Sum_probs=0.0  Template_Neff=5.600
+
+Q SDLTIT            1 SDLTIT    6 (6)
+Q Consensus         1 sdltit    6 (6)
+                      ++|+||
+T Consensus         7 ~~L~lt   12 (114)
+T 4HWX_A            7 SAMVFT   12 (114)
+T ss_dssp             CEEEEE
+T ss_pred             ceEEEE
+
+
+No 8
+>2VKP_A BTB/POZ DOMAIN-CONTAINING PROTEIN 6; PROTEIN-BINDING, PROTEIN BINDING; HET: MSE; 1.9A {Homo sapiens}
+Probab=4.23  E-value=8.8e+02  Score=7.37  Aligned_cols=5  Identities=20%  Similarity=0.554  Sum_probs=0.0  Template_Neff=11.900
+
+Q SDLTIT            1 SDLTI    5 (6)
+Q Consensus         1 sdlti    5 (6)
+                      +|++|
+T Consensus         9 ~d~~i   13 (109)
+T 2VKP_A            9 ADVHF   13 (109)
+T ss_dssp             CCEEE
+T ss_pred             ccEEE
+
+
+No 9
+>3MCH_B Molybdopterin biosynthesis enzyme, MoaB; MoaB, globular alpha/beta fold, biosynthesis; 1.64A {Thermus thermophilus}
+Probab=4.19  E-value=8.9e+02  Score=9.31  Aligned_cols=6  Identities=50%  Similarity=0.628  Sum_probs=0.0  Template_Neff=9.100
+
+Q SDLTIT            1 SDLTIT    6 (6)
+Q Consensus         1 sdltit    6 (6)
+                      +|+.|+
+T Consensus        63 ~DlIit   68 (164)
+T 3MCH_B           63 LDLILT   68 (164)
+T ss_dssp             CSEEEE
+T ss_pred             CCEEEE
+
+
+No 10
+>7B03_A Light-driven proton pump, microbial rhodopsin; HET: RET; 2.93A {uncultured Gammaproteobacteria bacterium}
+Probab=4.16  E-value=9e+02  Score=10.31  Aligned_cols=6  Identities=33%  Similarity=0.545  Sum_probs=0.0  Template_Neff=8.100
+
+Q SDLTIT            1 SDLTIT    6 (6)
+Q Consensus         1 sdltit    6 (6)
+                      +|+.||
+T Consensus         5 ~~~~~~   10 (233)
+T 7B03_A            5 GDLDAS   10 (233)
+T ss_dssp             ---CCS
+T ss_pred             CccCcc
+
+

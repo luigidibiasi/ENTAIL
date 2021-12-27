@@ -1,0 +1,148 @@
+Query         IEDSVI
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 07:39:57 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/IEDSVI/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/IEDSVI/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 7AOE_B DNA-directed RNA polyme   9.3 3.2E+02  0.0035   14.7   0.0    6    1-6     768-773 (1174)
+  2 4QIW_J DNA-directed RNA polyme   7.1 4.5E+02   0.005   13.9   0.0    6    1-6     736-741 (1123)
+  3 6KF4_B DNA-directed RNA polyme   7.1 4.5E+02   0.005   13.9   0.0    6    1-6     736-741 (1123)
+  4 6RUI_B RNA polymerase I-specif   7.0 4.6E+02  0.0051   14.3   0.0    6    1-6     783-788 (1203)
+  5 5OAC_A Major capsid protein; c   6.9 4.7E+02  0.0052   13.8   0.0    5    1-5     234-238 (310)
+  6 3H0G_B DNA-directed RNA polyme   6.6   5E+02  0.0055   13.9   0.0    6    1-6     824-829 (1210)
+  7 6YFG_DT coat protein; virus, v   6.5 5.1E+02  0.0056   12.2   0.0    6    1-6     123-128 (130)
+  8 6YFG_IG coat protein; virus, v   6.5 5.1E+02  0.0056   12.2   0.0    6    1-6     123-128 (130)
+  9 6EU2_B DNA-directed RNA polyme   6.5 5.1E+02  0.0057   13.8   0.0    5    2-6     768-772 (1149)
+ 10 7AE1_B DNA-directed RNA polyme   6.3 5.3E+02  0.0059   13.8   0.0    6    1-6     751-756 (1133)
+
+No 1
+>7AOE_B DNA-directed RNA polymerase I subunit; TRANSCRIPTION;{Schizosaccharomyces pombe (strain 972 / ATCC 24843)}
+Probab=9.28  E-value=3.2e+02  Score=14.65  Aligned_cols=6  Identities=50%  Similarity=0.971  Sum_probs=3.2  Template_Neff=7.800
+
+Q IEDSVI            1 IEDSVI    6 (6)
+Q Consensus         1 iedsvi    6 (6)
+                      +||++|
+T Consensus       768 ~EDaiI  773 (1174)
+T 7AOE_B          768 MEDAMI  773 (1174)
+T ss_dssp             CTTCBC
+T ss_pred             hhhhee
+Confidence            366654
+
+
+No 2
+>4QIW_J DNA-directed RNA polymerase (E.C.2.7.7.6), DNA-directed; Transcription, DNA-directed RNA polymerase; HET: ZN; 3.5A {Thermococcus kodakarensis}
+Probab=7.12  E-value=4.5e+02  Score=13.93  Aligned_cols=6  Identities=67%  Similarity=1.071  Sum_probs=0.0  Template_Neff=8.100
+
+Q IEDSVI            1 IEDSVI    6 (6)
+Q Consensus         1 iedsvi    6 (6)
+                      .||++|
+T Consensus       736 ~EDaiv  741 (1123)
+T 4QIW_J          736 MEDAVI  741 (1123)
+T ss_pred             hhhceE
+
+
+No 3
+>6KF4_B DNA-directed RNA polymerase subunit (E.C.2.7.7.6); apo-RNA polymerase, TRANSCRIPTION; 3.97A {Thermococcus kodakarensis (strain ATCC BAA-918 / JCM 12380 / KOD1)}
+Probab=7.12  E-value=4.5e+02  Score=13.93  Aligned_cols=6  Identities=67%  Similarity=1.071  Sum_probs=0.0  Template_Neff=8.100
+
+Q IEDSVI            1 IEDSVI    6 (6)
+Q Consensus         1 iedsvi    6 (6)
+                      .||++|
+T Consensus       736 ~EDaiv  741 (1123)
+T 6KF4_B          736 MEDAVI  741 (1123)
+T ss_dssp             TTTEEE
+T ss_pred             hhhceE
+
+
+No 4
+>6RUI_B RNA polymerase I-specific transcription initiation; RNA Polymerase I, Pre-initiation complex; 2.7A {synthetic construct}
+Probab=7.03  E-value=4.6e+02  Score=14.27  Aligned_cols=6  Identities=33%  Similarity=0.922  Sum_probs=0.0  Template_Neff=7.600
+
+Q IEDSVI            1 IEDSVI    6 (6)
+Q Consensus         1 iedsvi    6 (6)
+                      +||++|
+T Consensus       783 ~EDaiI  788 (1203)
+T 6RUI_B          783 MDDAMI  788 (1203)
+T ss_dssp             CSSEEE
+T ss_pred             ccccee
+
+
+No 5
+>5OAC_A Major capsid protein; capsid, major capsid protein, virion;{unidentified phage}
+Probab=6.90  E-value=4.7e+02  Score=13.76  Aligned_cols=5  Identities=100%  Similarity=1.192  Sum_probs=0.0  Template_Neff=1.000
+
+Q IEDSVI            1 IEDSV    5 (6)
+Q Consensus         1 iedsv    5 (6)
+                      |||||
+T Consensus       234 iedsv  238 (310)
+T 5OAC_A          234 IEDSV  238 (310)
+T ss_dssp             CCSSS
+T ss_pred             HHHHH
+
+
+No 6
+>3H0G_B DNA-directed RNA polymerase II subunit; Transcription, Multi-protein complex, Polymerase, DNA-binding; HET: ZN; 3.65A {Schizosaccharomyces pombe}
+Probab=6.63  E-value=5e+02  Score=13.90  Aligned_cols=6  Identities=67%  Similarity=0.872  Sum_probs=0.0  Template_Neff=8.200
+
+Q IEDSVI            1 IEDSVI    6 (6)
+Q Consensus         1 iedsvi    6 (6)
+                      .||++|
+T Consensus       824 ~EDaiv  829 (1210)
+T 3H0G_B          824 QEDSII  829 (1210)
+T ss_dssp             CSSCEE
+T ss_pred             ccceEE
+
+
+No 7
+>6YFG_DT coat protein; virus, virus-like particle, structural protein; HET: CA; 3.897A {Beihai levi-like virus 32}
+Probab=6.54  E-value=5.1e+02  Score=12.23  Aligned_cols=6  Identities=83%  Similarity=0.977  Sum_probs=0.0  Template_Neff=1.000
+
+Q IEDSVI            1 IEDSVI    6 (6)
+Q Consensus         1 iedsvi    6 (6)
+                      |||-||
+T Consensus       123 iedlvi  128 (130)
+T 6YFG_DT         123 IEDLVI  128 (130)
+T ss_pred             eEeeee
+
+
+No 8
+>6YFG_IG coat protein; virus, virus-like particle, structural protein; HET: CA; 3.897A {Beihai levi-like virus 32}
+Probab=6.54  E-value=5.1e+02  Score=12.23  Aligned_cols=6  Identities=83%  Similarity=0.977  Sum_probs=0.0  Template_Neff=1.000
+
+Q IEDSVI            1 IEDSVI    6 (6)
+Q Consensus         1 iedsvi    6 (6)
+                      |||-||
+T Consensus       123 iedlvi  128 (130)
+T 6YFG_IG         123 IEDLVI  128 (130)
+T ss_pred             eEeeee
+
+
+No 9
+>6EU2_B DNA-directed RNA polymerase III subunit; RNA Pol III, promoter opening;{Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=6.45  E-value=5.1e+02  Score=13.85  Aligned_cols=5  Identities=40%  Similarity=0.953  Sum_probs=0.0  Template_Neff=8.000
+
+Q IEDSVI            2 EDSVI    6 (6)
+Q Consensus         2 edsvi    6 (6)
+                      |||+|
+T Consensus       768 EDaii  772 (1149)
+T 6EU2_B          768 EDALV  772 (1149)
+T ss_dssp             SSEEE
+T ss_pred             hhhee
+
+
+No 10
+>7AE1_B DNA-directed RNA polymerase III subunit; HUMAN, TRANSCRIPTION, SHORT RNAs; 2.8A {Homo sapiens}
+Probab=6.30  E-value=5.3e+02  Score=13.78  Aligned_cols=6  Identities=50%  Similarity=1.016  Sum_probs=0.0  Template_Neff=8.000
+
+Q IEDSVI            1 IEDSVI    6 (6)
+Q Consensus         1 iedsvi    6 (6)
+                      .||++|
+T Consensus       751 ~EDaii  756 (1133)
+T 7AE1_B          751 IEDALV  756 (1133)
+T ss_dssp             SSSCEE
+T ss_pred             hhhcEe
+
+

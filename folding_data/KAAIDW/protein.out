@@ -1,0 +1,153 @@
+Query         KAAIDW
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 10:03:46 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/KAAIDW/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/KAAIDW/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4ZWS_A Recombination protein u  25.5      68 0.00075   13.7   0.0    6    1-6     125-130 (137)
+  2 4ZWS_C Recombination protein u  24.2      74 0.00082   13.6   0.0    6    1-6     125-130 (137)
+  3 4ZWQ_G Recombination protein U  22.4      85 0.00094   14.0   0.0    6    1-6     145-150 (157)
+  4 4ZWR_F Recombination protein u  22.4      85 0.00094   14.0   0.0    6    1-6     145-150 (157)
+  5 3LLR_D DNA (cytosine-5)-methyl  19.8   1E+02  0.0012   12.2   0.0    6    1-6     131-136 (154)
+  6 2Q3L_A Uncharacterized protein  19.6 1.1E+02  0.0012   10.4   0.0    5    2-6     120-124 (126)
+  7 2CSO_A Pleckstrin; DEP domain,  19.6 1.1E+02  0.0012   11.6   0.0    6    1-6      51-56  (127)
+  8 6VSK_A Phosphatidylinositol 3,  19.6 1.1E+02  0.0012   10.6   0.0    6    1-6      40-45  (94)
+  9 2K5C_A uncharacterized protein  18.9 1.1E+02  0.0012   13.7   0.0    6    1-6      82-87  (95)
+ 10 1Z96_A UBA-domain protein mud1  18.6 1.2E+02  0.0013    8.1   0.0    5    2-6      34-38  (40)
+
+No 1
+>4ZWS_A Recombination protein uvsY; recombination, DNA binding, homo-heptamer, asymmetry; 2.6A {Enterobacteria phage T4}
+Probab=25.52  E-value=68  Score=13.71  Aligned_cols=6  Identities=33%  Similarity=0.191  Sum_probs=3.4  Template_Neff=5.600
+
+Q KAAIDW            1 KAAIDW    6 (6)
+Q Consensus         1 kaaidw    6 (6)
+                      |.||||
+T Consensus       125 Kn~ie~  130 (137)
+T 4ZWS_A          125 KHIQDM  130 (137)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            356665
+
+
+No 2
+>4ZWS_C Recombination protein uvsY; recombination, DNA binding, homo-heptamer, asymmetry; 2.6A {Enterobacteria phage T4}
+Probab=24.20  E-value=74  Score=13.59  Aligned_cols=6  Identities=33%  Similarity=0.191  Sum_probs=3.4  Template_Neff=5.600
+
+Q KAAIDW            1 KAAIDW    6 (6)
+Q Consensus         1 kaaidw    6 (6)
+                      |.||||
+T Consensus       125 Kn~ie~  130 (137)
+T 4ZWS_C          125 KHIQDM  130 (137)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            346665
+
+
+No 3
+>4ZWQ_G Recombination protein UvsY; recombination, DNA binding, homo-heptamer, asymmetry; 2.351A {Enterobacteria phage T4}
+Probab=22.39  E-value=85  Score=13.96  Aligned_cols=6  Identities=33%  Similarity=0.191  Sum_probs=3.5  Template_Neff=5.000
+
+Q KAAIDW            1 KAAIDW    6 (6)
+Q Consensus         1 kaaidw    6 (6)
+                      |.||||
+T Consensus       145 KNaIe~  150 (157)
+T 4ZWQ_G          145 KHIQDM  150 (157)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            456666
+
+
+No 4
+>4ZWR_F Recombination protein uvsY; recombination, DNA binding, homo-heptamer, asymmetry; HET: MSE; 3.3857A {Enterobacteria phage T4}
+Probab=22.39  E-value=85  Score=13.96  Aligned_cols=6  Identities=33%  Similarity=0.191  Sum_probs=3.5  Template_Neff=5.000
+
+Q KAAIDW            1 KAAIDW    6 (6)
+Q Consensus         1 kaaidw    6 (6)
+                      |.||||
+T Consensus       145 KNaIe~  150 (157)
+T 4ZWR_F          145 KHIQDM  150 (157)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            456666
+
+
+No 5
+>3LLR_D DNA (cytosine-5)-methyltransferase 3A (E.C.2.1.1.37); Transferase, DNA methyltransferase, methylysine binding; HET: BTB; 2.3A {Homo sapiens}
+Probab=19.78  E-value=1e+02  Score=12.23  Aligned_cols=6  Identities=50%  Similarity=1.315  Sum_probs=0.0  Template_Neff=8.000
+
+Q KAAIDW            1 KAAIDW    6 (6)
+Q Consensus         1 kaaidw    6 (6)
+                      |++++|
+T Consensus       131 ~~~~~w  136 (154)
+T 3LLR_D          131 KPMIEW  136 (154)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 6
+>2Q3L_A Uncharacterized protein; SPOIIAA-LIKE FOLD, STRUCTURAL GENOMICS, JOINT; HET: MPD; 2.25A {Shewanella loihica PV-4} SCOP: c.13.2.2
+Probab=19.64  E-value=1.1e+02  Score=10.43  Aligned_cols=5  Identities=60%  Similarity=1.584  Sum_probs=0.0  Template_Neff=10.700
+
+Q KAAIDW            2 AAIDW    6 (6)
+Q Consensus         2 aaidw    6 (6)
+                      .|++|
+T Consensus       120 eA~~W  124 (126)
+T 2Q3L_A          120 DALDW  124 (126)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 7
+>2CSO_A Pleckstrin; DEP domain, Pleckstrin, Platelet p47; NMR {Homo sapiens} SCOP: a.4.5.31
+Probab=19.64  E-value=1.1e+02  Score=11.60  Aligned_cols=6  Identities=50%  Similarity=1.348  Sum_probs=0.0  Template_Neff=8.500
+
+Q KAAIDW            1 KAAIDW    6 (6)
+Q Consensus         1 kaaidw    6 (6)
+                      +.+++|
+T Consensus        51 ~~~v~W   56 (127)
+T 2CSO_A           51 NCVIDW   56 (127)
+T ss_pred             HHHHHH
+
+
+No 8
+>6VSK_A Phosphatidylinositol 3,4,5-trisphosphate-dependent Rac exchanger 1; DEP domain, P-Rex1, metastasis, domain-swapped; 3.12A {Homo sapiens}
+Probab=19.59  E-value=1.1e+02  Score=10.56  Aligned_cols=6  Identities=17%  Similarity=0.861  Sum_probs=0.0  Template_Neff=9.400
+
+Q KAAIDW            1 KAAIDW    6 (6)
+Q Consensus         1 kaaidw    6 (6)
+                      +.+++|
+T Consensus        40 ~~~v~W   45 (94)
+T 6VSK_A           40 NEFVAW   45 (94)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 9
+>2K5C_A uncharacterized protein PF0385; pf0385, Structural Genomics, PSI-2, Protein; HET: ZN; NMR {Pyrococcus furiosus}
+Probab=18.92  E-value=1.1e+02  Score=13.67  Aligned_cols=6  Identities=67%  Similarity=1.503  Sum_probs=0.0  Template_Neff=1.800
+
+Q KAAIDW            1 KAAIDW    6 (6)
+Q Consensus         1 kaaidw    6 (6)
+                      |..|||
+T Consensus        82 kGsIDw   87 (95)
+T 2K5C_A           82 KGGIDW   87 (95)
+T ss_dssp             SSSCBT
+T ss_pred             CCcccc
+
+
+No 10
+>1Z96_A UBA-domain protein mud1; UBA, ubiquitin, three-helix bundle, PROTEIN; 1.8A {Schizosaccharomyces pombe} SCOP: a.5.2.1
+Probab=18.58  E-value=1.2e+02  Score=8.15  Aligned_cols=5  Identities=20%  Similarity=0.388  Sum_probs=0.0  Template_Neff=10.700
+
+Q KAAIDW            2 AAIDW    6 (6)
+Q Consensus         2 aaidw    6 (6)
+                      .|++|
+T Consensus        34 ~a~~~   38 (40)
+T 1Z96_A           34 VAASF   38 (40)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+

@@ -1,0 +1,152 @@
+Query         NNNWSL
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 02:41:28 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NNNWSL/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NNNWSL/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5M1G_B Gag protein; GAG, VIRAL  25.0      70 0.00077   14.2   0.0    6    1-6      36-41  (99)
+  2 4ZGN_B Full-length Cdc123 from  20.8      96  0.0011   13.0   0.0    6    1-6      97-102 (118)
+  3 4ZGQ_B Cdc123, eIF2gammaD3; AT  20.8      96  0.0011   13.0   0.0    6    1-6      97-102 (118)
+  4 3J47_P 26S proteasome regulato  17.6 1.3E+02  0.0014   10.0   0.0    4    2-5       5-8   (34)
+  5 2VA0_E ABFS ARABINOFURANOSIDAS  16.5 1.4E+02  0.0015   14.0   0.0    4    3-6      37-40  (131)
+  6 2VA0_F ABFS ARABINOFURANOSIDAS  16.5 1.4E+02  0.0015   14.0   0.0    4    3-6      37-40  (131)
+  7 6OZU_A Eukaryotic translation   16.3 1.4E+02  0.0016   11.8   0.0    6    1-6     229-234 (241)
+  8 2JP7_A mRNA export factor MEX6  15.9 1.5E+02  0.0016   10.0   0.0    6    1-6      30-35  (57)
+  9 6Q01_C Ubiquitin, Tyrosyl-DNA   15.2 1.6E+02  0.0017    8.3   0.0    6    1-6      28-33  (45)
+ 10 6R5J_C Uncharacterized protein  15.2 1.6E+02  0.0017   12.2   0.0    5    2-6      56-60  (68)
+
+No 1
+>5M1G_B Gag protein; GAG, VIRAL PROTEIN, FOAMY VIRUS; NMR {Human spumaretrovirus}
+Probab=25.02  E-value=70  Score=14.20  Aligned_cols=6  Identities=33%  Similarity=0.733  Sum_probs=3.2  Template_Neff=2.600
+
+Q NNNWSL            1 NNNWSL    6 (6)
+Q Consensus         1 nnnwsl    6 (6)
+                      |+||+|
+T Consensus        36 n~n~~L   41 (99)
+T 5M1G_B           36 GQNYQL   41 (99)
+T ss_dssp             CSCHHH
+T ss_pred             CCchhh
+Confidence            456654
+
+
+No 2
+>4ZGN_B Full-length Cdc123 from Schizosaccharomyces pombe; ATP-grasp fold, cell cycle, eIF2; HET: ATP; 2.9A {Schizosaccharomyces pombe}
+Probab=20.82  E-value=96  Score=13.03  Aligned_cols=6  Identities=33%  Similarity=1.160  Sum_probs=3.4  Template_Neff=5.500
+
+Q NNNWSL            1 NNNWSL    6 (6)
+Q Consensus         1 nnnwsl    6 (6)
+                      +++|.|
+T Consensus        97 ~~~WRL  102 (118)
+T 4ZGN_B           97 EKHWRL  102 (118)
+T ss_dssp             SSSEEE
+T ss_pred             CCEEEE
+Confidence            356764
+
+
+No 3
+>4ZGQ_B Cdc123, eIF2gammaD3; ATP-grasp fold, cell cycle, eIF2; 3.0A {Schizosaccharomyces pombe}
+Probab=20.82  E-value=96  Score=13.03  Aligned_cols=6  Identities=33%  Similarity=1.160  Sum_probs=3.4  Template_Neff=5.500
+
+Q NNNWSL            1 NNNWSL    6 (6)
+Q Consensus         1 nnnwsl    6 (6)
+                      +++|.|
+T Consensus        97 ~~~WRL  102 (118)
+T 4ZGQ_B           97 EKHWRL  102 (118)
+T ss_dssp             SSSEEE
+T ss_pred             CCEEEE
+Confidence            356764
+
+
+No 4
+>3J47_P 26S proteasome regulatory subunit RPN11; alpha helix bundle, hybrid method;{Saccharomyces cerevisiae}
+Probab=17.62  E-value=1.3e+02  Score=10.03  Aligned_cols=4  Identities=75%  Similarity=1.755  Sum_probs=0.0  Template_Neff=6.100
+
+Q NNNWSL            2 NNWS    5 (6)
+Q Consensus         2 nnws    5 (6)
+                      |.||
+T Consensus         5 n~Ws    8 (34)
+T 3J47_P            5 NEWS    8 (34)
+T ss_pred             HHHH
+
+
+No 5
+>2VA0_E ABFS ARABINOFURANOSIDASE TWO COMPONENT SYSTEM; KINASE, PAS DOMAIN, TRANSFERASE; HET: PO4; 2.602A {CELLVIBRIO JAPONICUS}
+Probab=16.49  E-value=1.4e+02  Score=13.99  Aligned_cols=4  Identities=100%  Similarity=2.013  Sum_probs=0.0  Template_Neff=1.000
+
+Q NNNWSL            3 NWSL    6 (6)
+Q Consensus         3 nwsl    6 (6)
+                      ||||
+T Consensus        37 nwsl   40 (131)
+T 2VA0_E           37 NWSL   40 (131)
+T ss_dssp             HHHH
+T ss_pred             CceE
+
+
+No 6
+>2VA0_F ABFS ARABINOFURANOSIDASE TWO COMPONENT SYSTEM; KINASE, PAS DOMAIN, TRANSFERASE; HET: PO4; 2.602A {CELLVIBRIO JAPONICUS}
+Probab=16.49  E-value=1.4e+02  Score=13.99  Aligned_cols=4  Identities=100%  Similarity=2.013  Sum_probs=0.0  Template_Neff=1.000
+
+Q NNNWSL            3 NWSL    6 (6)
+Q Consensus         3 nwsl    6 (6)
+                      ||||
+T Consensus        37 nwsl   40 (131)
+T 2VA0_F           37 NWSL   40 (131)
+T ss_dssp             HHHH
+T ss_pred             CceE
+
+
+No 7
+>6OZU_A Eukaryotic translation initiation factor 4; Initiation Factor, EIF4G, TRANSLATION; HET: SO4, GOL; 2.4A {Trypanosoma cruzi}
+Probab=16.35  E-value=1.4e+02  Score=11.78  Aligned_cols=6  Identities=67%  Similarity=1.453  Sum_probs=0.0  Template_Neff=9.800
+
+Q NNNWSL            1 NNNWSL    6 (6)
+Q Consensus         1 nnnwsl    6 (6)
+                      +++|+.
+T Consensus       229 ~~~w~~  234 (241)
+T 6OZU_A          229 DNNWIL  234 (241)
+T ss_dssp             HHHHHH
+T ss_pred             HcCCCC
+
+
+No 8
+>2JP7_A mRNA export factor MEX67; Mex67, UBA, TRANSLATION; NMR {Saccharomyces cerevisiae}
+Probab=15.86  E-value=1.5e+02  Score=10.01  Aligned_cols=6  Identities=33%  Similarity=1.138  Sum_probs=0.0  Template_Neff=7.900
+
+Q NNNWSL            1 NNNWSL    6 (6)
+Q Consensus         1 nnnwsl    6 (6)
+                      .++|.+
+T Consensus        30 ~~~Wdl   35 (57)
+T 2JP7_A           30 QSNWNY   35 (57)
+T ss_dssp             HTTTCS
+T ss_pred             HCCCCH
+
+
+No 9
+>6Q01_C Ubiquitin, Tyrosyl-DNA phosphodiesterase 2; TDP2, DNA Damage Response, Cell; 0.851A {Bos taurus}
+Probab=15.21  E-value=1.6e+02  Score=8.29  Aligned_cols=6  Identities=33%  Similarity=1.337  Sum_probs=0.0  Template_Neff=10.300
+
+Q NNNWSL            1 NNNWSL    6 (6)
+Q Consensus         1 nnnwsl    6 (6)
+                      .++|.+
+T Consensus        28 ~~~wd~   33 (45)
+T 6Q01_C           28 ENDWEM   33 (45)
+T ss_dssp             HTTTCH
+T ss_pred             HCCCCH
+
+
+No 10
+>6R5J_C Uncharacterized protein; Max effector NMR, IMMUNOSUPPRESSANT; HET: P6G; 1.38A {Magnaporthe oryzae (strain P131)}
+Probab=15.18  E-value=1.6e+02  Score=12.19  Aligned_cols=5  Identities=60%  Similarity=1.444  Sum_probs=0.0  Template_Neff=3.400
+
+Q NNNWSL            2 NNWSL    6 (6)
+Q Consensus         2 nnwsl    6 (6)
+                      +.|||
+T Consensus        56 ~g~SL   60 (68)
+T 6R5J_C           56 SGWSL   60 (68)
+T ss_dssp             TTCEE
+T ss_pred             Cccch
+
+

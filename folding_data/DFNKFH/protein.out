@@ -1,0 +1,235 @@
+Query         DFNKFH
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 17:11:29 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/DFNKFH/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/DFNKFH/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 1XL6_B Inward rectifier potass  47.2      18 0.00019   15.4   0.0    6    1-6     286-291 (301)
+  2 6O9U_A Inward rectifier potass  46.7      18  0.0002   15.6   0.0    6    1-6     286-291 (301)
+  3 2QKS_A G protein-activated inw  46.1      19 0.00021   15.5   0.0    6    1-6     288-293 (321)
+  4 3AUW_B Potassium inwardly-rect  44.1      21 0.00023   14.9   0.0    6    1-6     153-158 (182)
+  5 1N9P_A G protein-activated inw  39.9      27  0.0003   14.9   0.0    6    1-6     177-182 (207)
+  6 2WLL_B POTASSIUM CHANNEL; TRAN  37.0      32 0.00036   15.0   0.0    6    1-6     299-304 (333)
+  7 1U4E_A G protein-activated inw  36.9      32 0.00036   14.9   0.0    6    1-6     182-187 (212)
+  8 3AGW_A G protein-activated inw  34.7      37 0.00041   14.6   0.0    6    1-6     179-184 (208)
+  9 6JB1_E KATP, channel, repaglin  30.2      49 0.00055   15.2   0.0    6    1-6     329-334 (390)
+ 10 3VSQ_A G protein-activated inw  30.1      50 0.00055   14.3   0.0    6    1-6     179-184 (208)
+ 11 3SYA_A G protein-activated inw  30.1      50 0.00055   14.7   0.0    6    1-6     303-308 (340)
+ 12 4KFM_A G protein-activated inw  30.1      50 0.00055   14.7   0.0    6    1-6     303-308 (340)
+ 13 6XEV_M CryoEM, GIRK, inwardly   29.2      53 0.00058   14.5   0.0    6    1-6     303-308 (340)
+ 14 2WLL_A POTASSIUM CHANNEL; TRAN  26.8      62 0.00068   14.1   0.0    6    1-6     299-304 (333)
+ 15 7MJP_A KATP, potassium channel  26.4      64  0.0007   15.2   0.0    6    1-6     338-343 (424)
+
+No 1
+>1XL6_B Inward rectifier potassium channel; integral membrane protein, ion channel; HET: SPM; 2.85A {Magnetospirillum magnetotacticum} SCOP: f.14.1.1, b.1.18.16
+Probab=47.16  E-value=18  Score=15.44  Aligned_cols=6  Identities=67%  Similarity=1.292  Sum_probs=3.4  Template_Neff=8.500
+
+Q DFNKFH            1 DFNKFH    6 (6)
+Q Consensus         1 dfnkfh    6 (6)
+                      ||++||
+T Consensus       286 d~~~f~  291 (301)
+T 1XL6_B          286 DLGKFH  291 (301)
+T ss_dssp             CTTSTT
+T ss_pred             ehhHhc
+Confidence            556664
+
+
+No 2
+>6O9U_A Inward rectifier potassium channel Kirbac3.1; MEMBRANE PROTEIN; HET: TMO, Z3P, PCW; 2.0A {Magnetospirillum magnetotacticum}
+Probab=46.72  E-value=18  Score=15.64  Aligned_cols=6  Identities=67%  Similarity=1.292  Sum_probs=3.9  Template_Neff=8.100
+
+Q DFNKFH            1 DFNKFH    6 (6)
+Q Consensus         1 dfnkfh    6 (6)
+                      ||++||
+T Consensus       286 D~~~f~  291 (301)
+T 6O9U_A          286 DLGKFH  291 (301)
+T ss_dssp             CGGGTT
+T ss_pred             chhHhc
+Confidence            566665
+
+
+No 3
+>2QKS_A G protein-activated inward rectifier potassium; CHIMERA, G-PROTEIN GATED INWARD RECTIFIER; HET: BNG, K; 2.2A {Burkholderia xenovorans}
+Probab=46.06  E-value=19  Score=15.55  Aligned_cols=6  Identities=50%  Similarity=1.398  Sum_probs=3.7  Template_Neff=8.400
+
+Q DFNKFH            1 DFNKFH    6 (6)
+Q Consensus         1 dfnkfh    6 (6)
+                      ||++||
+T Consensus       288 D~~~f~  293 (321)
+T 2QKS_A          288 DYSQFH  293 (321)
+T ss_dssp             CGGGSS
+T ss_pred             CHHHhC
+Confidence            566665
+
+
+No 4
+>3AUW_B Potassium inwardly-rectifying channel, subfamily J; immunogloblin-like fold, ion transport, G; 3.56A {Mus musculus}
+Probab=44.06  E-value=21  Score=14.86  Aligned_cols=6  Identities=67%  Similarity=1.481  Sum_probs=3.4  Template_Neff=7.300
+
+Q DFNKFH            1 DFNKFH    6 (6)
+Q Consensus         1 dfnkfh    6 (6)
+                      ||.+||
+T Consensus       153 D~~~f~  158 (182)
+T 3AUW_B          153 DYNSFH  158 (182)
+T ss_dssp             CTTSSS
+T ss_pred             cHHHcc
+Confidence            455664
+
+
+No 5
+>1N9P_A G protein-activated inward rectifier potassium; BETA BARREL, CYTOPLASMIC DOMAIN, G; 1.8A {Mus musculus} SCOP: b.1.18.16
+Probab=39.86  E-value=27  Score=14.92  Aligned_cols=6  Identities=50%  Similarity=1.398  Sum_probs=3.4  Template_Neff=7.100
+
+Q DFNKFH            1 DFNKFH    6 (6)
+Q Consensus         1 dfnkfh    6 (6)
+                      ||.+||
+T Consensus       177 D~~~F~  182 (207)
+T 1N9P_A          177 DYSQFH  182 (207)
+T ss_dssp             CGGGSS
+T ss_pred             cHHHcC
+Confidence            556664
+
+
+No 6
+>2WLL_B POTASSIUM CHANNEL; TRANSMEMBRANE HELICES, ION CONDUCTION, IMMUNOGLOBULIN; HET: PLC; 3.65A {BURKHOLDERIA PSEUDOMALLEI}
+Probab=36.96  E-value=32  Score=15.00  Aligned_cols=6  Identities=33%  Similarity=1.176  Sum_probs=3.4  Template_Neff=8.300
+
+Q DFNKFH            1 DFNKFH    6 (6)
+Q Consensus         1 dfnkfh    6 (6)
+                      ||.+||
+T Consensus       299 D~~~f~  304 (333)
+T 2WLL_B          299 DYTRFN  304 (333)
+T ss_dssp             ECTTTT
+T ss_pred             eHHHcc
+Confidence            556664
+
+
+No 7
+>1U4E_A G protein-activated inward rectifier potassium; METAL TRANSPORT; 2.09A {Mus musculus}
+Probab=36.93  E-value=32  Score=14.86  Aligned_cols=6  Identities=50%  Similarity=1.398  Sum_probs=3.4  Template_Neff=6.900
+
+Q DFNKFH            1 DFNKFH    6 (6)
+Q Consensus         1 dfnkfh    6 (6)
+                      ||.+||
+T Consensus       182 D~~~F~  187 (212)
+T 1U4E_A          182 DYSQFH  187 (212)
+T ss_dssp             EGGGSS
+T ss_pred             cHHHcC
+Confidence            556664
+
+
+No 8
+>3AGW_A G protein-activated inward rectifier potassium; cytoplasmic assembly, ion channel, beta-barrel; 2.2A {Mus musculus}
+Probab=34.70  E-value=37  Score=14.65  Aligned_cols=6  Identities=67%  Similarity=1.481  Sum_probs=3.3  Template_Neff=6.900
+
+Q DFNKFH            1 DFNKFH    6 (6)
+Q Consensus         1 dfnkfh    6 (6)
+                      ||.+||
+T Consensus       179 D~~~F~  184 (208)
+T 3AGW_A          179 DYNSFH  184 (208)
+T ss_dssp             CGGGTT
+T ss_pred             cHHHcC
+Confidence            455654
+
+
+No 9
+>6JB1_E KATP, channel, repaglinide, Kir, ABC; HET: BJX, POV, PTY, AGS, AJP; 3.3A {Mus musculus}
+Probab=30.19  E-value=49  Score=15.16  Aligned_cols=6  Identities=50%  Similarity=1.082  Sum_probs=3.3  Template_Neff=7.600
+
+Q DFNKFH            1 DFNKFH    6 (6)
+Q Consensus         1 dfnkfh    6 (6)
+                      ||++||
+T Consensus       329 D~~~f~  334 (390)
+T 6JB1_E          329 DYSKFG  334 (390)
+T ss_dssp             EGGGTT
+T ss_pred             eHHHcC
+Confidence            455654
+
+
+No 10
+>3VSQ_A G protein-activated inward rectifier potassium; immunoglobulin-like fold, TRANSPORT PROTEIN; 2.0A {Mus musculus}
+Probab=30.09  E-value=50  Score=14.28  Aligned_cols=6  Identities=67%  Similarity=1.481  Sum_probs=3.1  Template_Neff=6.900
+
+Q DFNKFH            1 DFNKFH    6 (6)
+Q Consensus         1 dfnkfh    6 (6)
+                      ||.+||
+T Consensus       179 D~~~F~  184 (208)
+T 3VSQ_A          179 DYNSFH  184 (208)
+T ss_dssp             EGGGTT
+T ss_pred             cHHHcC
+Confidence            455554
+
+
+No 11
+>3SYA_A G protein-activated inward rectifier potassium; ion channel, potassium channel, inward; HET: PIO; 2.98A {Mus musculus}
+Probab=30.05  E-value=50  Score=14.66  Aligned_cols=6  Identities=67%  Similarity=1.481  Sum_probs=3.2  Template_Neff=8.000
+
+Q DFNKFH            1 DFNKFH    6 (6)
+Q Consensus         1 dfnkfh    6 (6)
+                      ||.+||
+T Consensus       303 d~~~f~  308 (340)
+T 3SYA_A          303 DYNSFH  308 (340)
+T ss_dssp             CGGGSS
+T ss_pred             cHHHcc
+Confidence            455554
+
+
+No 12
+>4KFM_A G protein-activated inward rectifier potassium; metal transport, ion channel, potassium; HET: LMT, PIO; 3.45A {Mus musculus}
+Probab=30.05  E-value=50  Score=14.66  Aligned_cols=6  Identities=67%  Similarity=1.481  Sum_probs=3.2  Template_Neff=8.000
+
+Q DFNKFH            1 DFNKFH    6 (6)
+Q Consensus         1 dfnkfh    6 (6)
+                      ||.+||
+T Consensus       303 d~~~f~  308 (340)
+T 4KFM_A          303 DYNSFH  308 (340)
+T ss_dssp             CGGGTT
+T ss_pred             cHHHcc
+Confidence            455554
+
+
+No 13
+>6XEV_M CryoEM, GIRK, inwardly rectifying potassium; HET: PIO, K, Y01; 3.5A {Mus musculus}
+Probab=29.16  E-value=53  Score=14.48  Aligned_cols=6  Identities=67%  Similarity=1.481  Sum_probs=3.1  Template_Neff=8.200
+
+Q DFNKFH            1 DFNKFH    6 (6)
+Q Consensus         1 dfnkfh    6 (6)
+                      ||.+||
+T Consensus       303 d~~~f~  308 (340)
+T 6XEV_M          303 DYNSFH  308 (340)
+T ss_dssp             CSSSSS
+T ss_pred             cHHHcc
+Confidence            455554
+
+
+No 14
+>2WLL_A POTASSIUM CHANNEL; TRANSMEMBRANE HELICES, ION CONDUCTION, IMMUNOGLOBULIN; HET: PLC; 3.65A {BURKHOLDERIA PSEUDOMALLEI}
+Probab=26.84  E-value=62  Score=14.08  Aligned_cols=6  Identities=33%  Similarity=1.176  Sum_probs=2.9  Template_Neff=8.500
+
+Q DFNKFH            1 DFNKFH    6 (6)
+Q Consensus         1 dfnkfh    6 (6)
+                      ||.+||
+T Consensus       299 d~~~f~  304 (333)
+T 2WLL_A          299 DYTRFN  304 (333)
+T ss_dssp             CGGGTT
+T ss_pred             eHHhcc
+Confidence            455554
+
+
+No 15
+>7MJP_A KATP, potassium channel, vascular, TRANSPORT; HET: ATP, GBM, NAG; 4.2A {Rattus norvegicus}
+Probab=26.36  E-value=64  Score=15.20  Aligned_cols=6  Identities=50%  Similarity=1.082  Sum_probs=3.4  Template_Neff=7.200
+
+Q DFNKFH            1 DFNKFH    6 (6)
+Q Consensus         1 dfnkfh    6 (6)
+                      ||.+||
+T Consensus       338 D~~~f~  343 (424)
+T 7MJP_A          338 DYSKFG  343 (424)
+T ss_dssp             EGGGSS
+T ss_pred             eHHHcC
+Confidence            556664
+
+

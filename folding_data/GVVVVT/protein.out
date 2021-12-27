@@ -1,0 +1,150 @@
+Query         GVVVVT
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 05:00:19 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GVVVVT/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GVVVVT/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5A0T_A RIBONUCLEASE J; HYDROLA  11.1 2.5E+02  0.0028   12.6   0.0    6    1-6     474-479 (561)
+  2 1NXJ_A Probable S-adenosylmeth  10.8 2.6E+02  0.0029   12.2   0.0    5    1-5     179-183 (183)
+  3 2C5G_A ACETYLCHOLINESTERASE (E  10.6 2.6E+02  0.0029   12.3   0.0    6    1-6     140-145 (537)
+  4 2XQF_A CHOLINESTERASE (E.C.3.1  10.6 2.7E+02  0.0029   12.2   0.0    6    1-6     136-141 (527)
+  5 3BK1_A Metal dependent hydrola  10.3 2.8E+02  0.0031   12.5   0.0    6    1-6     480-485 (562)
+  6 4XWW_B Deinococcus radiodurans  10.0 2.8E+02  0.0032   12.6   0.0    6    1-6     478-483 (559)
+  7 3K4I_C uncharacterized protein   9.9 2.9E+02  0.0032   12.4   0.0    5    1-5     177-181 (244)
+  8 3T3O_A exo/endoribonuclease RN   9.9 2.9E+02  0.0032   12.5   0.0    6    1-6     481-486 (562)
+  9 3ZQ4_A RIBONUCLEASE J 1 (E.C.3   9.8   3E+02  0.0033   12.4   0.0    6    1-6     465-470 (555)
+ 10 5X15_B Putative transferase; R   9.6   3E+02  0.0033   12.7   0.0    5    1-5     212-216 (270)
+
+No 1
+>5A0T_A RIBONUCLEASE J; HYDROLASE-RNA COMPLEX, RIBONUCLEASE, RNASE J; HET: PEG; 2.283A {ESCHERICHIA COLI}
+Probab=11.05  E-value=2.5e+02  Score=12.62  Aligned_cols=6  Identities=33%  Similarity=0.722  Sum_probs=0.0  Template_Neff=9.800
+
+Q GVVVVT            1 GVVVVT    6 (6)
+Q Consensus         1 gvvvvt    6 (6)
+                      |+|+|+
+T Consensus       474 G~~~v~  479 (561)
+T 5A0T_A          474 GIISVF  479 (561)
+T ss_dssp             ------
+T ss_pred             CEEEEE
+
+
+No 2
+>1NXJ_A Probable S-adenosylmethionine:2-demethylmenaquinone methyltransferase (E.C.2.1.-.-); beta/beta/alpha domain, Structural Genomics, PSI; HET: GLV, TLA; 1.9A {Mycobacterium tuberculosis} SCOP: c.8.7.1
+Probab=10.77  E-value=2.6e+02  Score=12.20  Aligned_cols=5  Identities=60%  Similarity=1.305  Sum_probs=0.0  Template_Neff=6.400
+
+Q GVVVVT            1 GVVVV    5 (6)
+Q Consensus         1 gvvvv    5 (6)
+                      |||||
+T Consensus       179 GVVVI  183 (183)
+T 1NXJ_A          179 GIIVV  183 (183)
+T ss_dssp             CEEEC
+T ss_pred             eEEEC
+
+
+No 3
+>2C5G_A ACETYLCHOLINESTERASE (E.C.3.1.1.7); HYDROLASE, SERINE ESTERASE, SYNAPSE, MEMBRANE; HET: NAG, ETM, PGE; 1.95A {TORPEDO CALIFORNICA} SCOP: c.69.1.1
+Probab=10.65  E-value=2.6e+02  Score=12.28  Aligned_cols=6  Identities=50%  Similarity=0.706  Sum_probs=0.0  Template_Neff=10.200
+
+Q GVVVVT            1 GVVVVT    6 (6)
+Q Consensus         1 gvvvvt    6 (6)
+                      ++|||+
+T Consensus       140 ~~i~v~  145 (537)
+T 2C5G_A          140 EVVLVS  145 (537)
+T ss_dssp             TCEEEE
+T ss_pred             CEEEEE
+
+
+No 4
+>2XQF_A CHOLINESTERASE (E.C.3.1.1.8); HYDROLASE, NERVE AGENT, BIOSCAVENGER; HET: FUL, SO4, UNX, NAG; 2.1A {HOMO SAPIENS}
+Probab=10.58  E-value=2.7e+02  Score=12.18  Aligned_cols=6  Identities=50%  Similarity=0.767  Sum_probs=0.0  Template_Neff=10.300
+
+Q GVVVVT            1 GVVVVT    6 (6)
+Q Consensus         1 gvvvvt    6 (6)
+                      |+|||+
+T Consensus       136 ~~v~v~  141 (527)
+T 2XQF_A          136 RVIVVS  141 (527)
+T ss_dssp             CCEEEE
+T ss_pred             CEEEEE
+
+
+No 5
+>3BK1_A Metal dependent hydrolase (E.C.3.-.-.-); RNase J, Endoribonuclease, 5'-3' Exoribonuclease; HET: GOL, SO4; 2.33A {Thermus thermophilus}
+Probab=10.26  E-value=2.8e+02  Score=12.55  Aligned_cols=6  Identities=67%  Similarity=1.154  Sum_probs=0.0  Template_Neff=9.700
+
+Q GVVVVT            1 GVVVVT    6 (6)
+Q Consensus         1 gvvvvt    6 (6)
+                      |+|+|+
+T Consensus       480 G~~~~~  485 (562)
+T 3BK1_A          480 GLVVIT  485 (562)
+T ss_dssp             CEEEEE
+T ss_pred             CEEEEE
+
+
+No 6
+>4XWW_B Deinococcus radiodurans RNase J/RNA Complex; ribonuclease, two-metal-ion, dimerization, manganese, Deinococcus; HET: GOL; 1.7A {Deinococcus radiodurans}
+Probab=10.05  E-value=2.8e+02  Score=12.55  Aligned_cols=6  Identities=33%  Similarity=0.977  Sum_probs=0.0  Template_Neff=9.600
+
+Q GVVVVT            1 GVVVVT    6 (6)
+Q Consensus         1 gvvvvt    6 (6)
+                      |+|+|+
+T Consensus       478 G~~~v~  483 (559)
+T 4XWW_B          478 GLLILT  483 (559)
+T ss_dssp             CEEEEE
+T ss_pred             cEEEEE
+
+
+No 7
+>3K4I_C uncharacterized protein; STRUCTURAL GENOMICS, CRYSTAL STRUCTURE,PROTEIN STRUCTURE; 1.69A {Pseudomonas syringae pv. tomato}
+Probab=9.94  E-value=2.9e+02  Score=12.44  Aligned_cols=5  Identities=80%  Similarity=1.119  Sum_probs=0.0  Template_Neff=6.700
+
+Q GVVVVT            1 GVVVV    5 (6)
+Q Consensus         1 gvvvv    5 (6)
+                      |||||
+T Consensus       177 GVVVI  181 (244)
+T 3K4I_C          177 GCVVV  181 (244)
+T ss_dssp             EEEEE
+T ss_pred             eEEEE
+
+
+No 8
+>3T3O_A exo/endoribonuclease RNase J/RNA complex; PROTEIN-RNA COMPLEX, Metallo-beta-lactamase, RNase J; 2.5A {Thermus thermophilus HB27}
+Probab=9.88  E-value=2.9e+02  Score=12.53  Aligned_cols=6  Identities=67%  Similarity=1.154  Sum_probs=0.0  Template_Neff=9.600
+
+Q GVVVVT            1 GVVVVT    6 (6)
+Q Consensus         1 gvvvvt    6 (6)
+                      |+|+|+
+T Consensus       481 G~v~~~  486 (562)
+T 3T3O_A          481 GLVVIT  486 (562)
+T ss_dssp             CEEEEE
+T ss_pred             CEEEEE
+
+
+No 9
+>3ZQ4_A RIBONUCLEASE J 1 (E.C.3.1.-.-); HYDROLASE, RNA MATURATION; 3.0A {BACILLUS SUBTILIS}
+Probab=9.78  E-value=3e+02  Score=12.39  Aligned_cols=6  Identities=50%  Similarity=1.016  Sum_probs=0.0  Template_Neff=9.800
+
+Q GVVVVT            1 GVVVVT    6 (6)
+Q Consensus         1 gvvvvt    6 (6)
+                      |+|+++
+T Consensus       465 G~v~v~  470 (555)
+T 3ZQ4_A          465 GLVIVV  470 (555)
+T ss_dssp             CEEEEE
+T ss_pred             CEEEEE
+
+
+No 10
+>5X15_B Putative transferase; Rnase ES inhibitor, Streptomyces coelicolor; 3.094A {Streptomyces coelicolor (strain ATCC BAA-471 / A3(2) / M145)}
+Probab=9.62  E-value=3e+02  Score=12.66  Aligned_cols=5  Identities=80%  Similarity=1.125  Sum_probs=0.0  Template_Neff=6.500
+
+Q GVVVVT            1 GVVVV    5 (6)
+Q Consensus         1 gvvvv    5 (6)
+                      |||||
+T Consensus       212 GVVvI  216 (270)
+T 5X15_B          212 GAVVV  216 (270)
+T ss_dssp             EEEEE
+T ss_pred             eEEEE
+
+

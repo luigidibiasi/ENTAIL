@@ -1,0 +1,145 @@
+Query         NYNNNL
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 05:08:28 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NYNNNL/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NYNNNL/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6E8D_A Beta sliding clamp,DNA    8.0 3.9E+02  0.0043   12.1   0.0    6    1-6      21-26  (512)
+  2 1L1C_A Transcription antitermi   8.0 3.9E+02  0.0043   10.1   0.0    4    2-5       7-10  (55)
+  3 1AUU_B SACY; ANTITERMINATION,    7.4 4.3E+02  0.0048    9.9   0.0    4    2-5       7-10  (55)
+  4 6E8E_A Beta sliding clamp,DNA    7.4 4.3E+02  0.0048   12.0   0.0    6    1-6      21-26  (517)
+  5 1FS0_G GAMMA/EPSILON ATP SYNTH   6.9 4.8E+02  0.0053   10.6   0.0    6    1-6      72-77  (230)
+  6 1L2W_I YopE regulator/Outer me   6.3 5.3E+02  0.0059   11.1   0.0    5    2-6      23-27  (69)
+  7 1L2W_J YopE regulator/Outer me   6.3 5.3E+02  0.0059   11.1   0.0    5    2-6      23-27  (69)
+  8 5A9B_A POLYHEDRIN; VIRAL PROTE   6.2 5.4E+02   0.006   13.0   0.0    6    1-6      26-31  (218)
+  9 7AIH_At mL94, mL89, Ribosomal    5.9 5.8E+02  0.0064   12.7   0.0    6    1-6      65-70  (183)
+ 10 7AM2_At Ribosomal protein L3-l   5.9 5.8E+02  0.0064   12.7   0.0    6    1-6      65-70  (183)
+
+No 1
+>6E8D_A Beta sliding clamp,DNA mismatch repair; Complex, DNA BINDING PROTEIN; HET: GOL; 2.34A {Bacillus subtilis}
+Probab=7.99  E-value=3.9e+02  Score=12.05  Aligned_cols=6  Identities=83%  Similarity=0.988  Sum_probs=0.0  Template_Neff=9.500
+
+Q NYNNNL            1 NYNNNL    6 (6)
+Q Consensus         1 nynnnl    6 (6)
+                      |-||||
+T Consensus        21 ~~~~~~   26 (512)
+T 6E8D_A           21 NNNNNL   26 (512)
+T ss_pred             CCcccC
+
+
+No 2
+>1L1C_A Transcription antiterminator licT/RNA Complex; protein RNA complex, antiterminator complex; NMR {Bacillus subtilis} SCOP: b.35.2.1
+Probab=7.96  E-value=3.9e+02  Score=10.05  Aligned_cols=4  Identities=75%  Similarity=0.891  Sum_probs=0.0  Template_Neff=5.200
+
+Q NYNNNL            2 YNNN    5 (6)
+Q Consensus         2 ynnn    5 (6)
+                      +|||
+T Consensus         7 lNNN   10 (55)
+T 1L1C_A            7 INNN   10 (55)
+T ss_dssp             EETT
+T ss_pred             eeCc
+
+
+No 3
+>1AUU_B SACY; ANTITERMINATION, RNA BINDING DOMAIN, TRANSCRIPTION; NMR {Bacillus subtilis} SCOP: b.35.2.1
+Probab=7.39  E-value=4.3e+02  Score=9.94  Aligned_cols=4  Identities=50%  Similarity=0.733  Sum_probs=0.0  Template_Neff=5.200
+
+Q NYNNNL            2 YNNN    5 (6)
+Q Consensus         2 ynnn    5 (6)
+                      +|||
+T Consensus         7 lNNN   10 (55)
+T 1AUU_B            7 LNHN   10 (55)
+T ss_dssp             CSSS
+T ss_pred             ccCc
+
+
+No 4
+>6E8E_A Beta sliding clamp,DNA mismatch repair; Complex, DNA BINDING PROTEIN; HET: GOL, SO4; 2.25A {Escherichia coli (strain K12)}
+Probab=7.36  E-value=4.3e+02  Score=11.98  Aligned_cols=6  Identities=83%  Similarity=0.988  Sum_probs=0.0  Template_Neff=9.400
+
+Q NYNNNL            1 NYNNNL    6 (6)
+Q Consensus         1 nynnnl    6 (6)
+                      |-||||
+T Consensus        21 ~~~~~~   26 (517)
+T 6E8E_A           21 NNNNNL   26 (517)
+T ss_pred             CCcccc
+
+
+No 5
+>1FS0_G GAMMA/EPSILON ATP SYNTHASE (E.C.3.6.1.34); ATP Synthase, Gamma, epsilon, HYDROLASE; 2.1A {Escherichia coli} SCOP: c.49.2.1
+Probab=6.85  E-value=4.8e+02  Score=10.56  Aligned_cols=6  Identities=50%  Similarity=0.512  Sum_probs=0.0  Template_Neff=9.200
+
+Q NYNNNL            1 NYNNNL    6 (6)
+Q Consensus         1 nynnnl    6 (6)
+                      +||+++
+T Consensus        72 ~~N~~i   77 (230)
+T 1FS0_G           72 GLNINL   77 (230)
+T ss_dssp             THHHHH
+T ss_pred             cccHHH
+
+
+No 6
+>1L2W_I YopE regulator/Outer membrane virulence protein; CHAPERONE AND VIRULENCE PROTEIN, CHAPERONE; 2.0A {Yersinia pseudotuberculosis} SCOP: d.198.1.1
+Probab=6.32  E-value=5.3e+02  Score=11.11  Aligned_cols=5  Identities=80%  Similarity=1.271  Sum_probs=0.0  Template_Neff=1.000
+
+Q NYNNNL            2 YNNNL    6 (6)
+Q Consensus         2 ynnnl    6 (6)
+                      |.|||
+T Consensus        23 yannl   27 (69)
+T 1L2W_I           23 YANNL   27 (69)
+T ss_dssp             HHHHH
+T ss_pred             HHHhh
+
+
+No 7
+>1L2W_J YopE regulator/Outer membrane virulence protein; CHAPERONE AND VIRULENCE PROTEIN, CHAPERONE; 2.0A {Yersinia pseudotuberculosis} SCOP: d.198.1.1
+Probab=6.32  E-value=5.3e+02  Score=11.11  Aligned_cols=5  Identities=80%  Similarity=1.271  Sum_probs=0.0  Template_Neff=1.000
+
+Q NYNNNL            2 YNNNL    6 (6)
+Q Consensus         2 ynnnl    6 (6)
+                      |.|||
+T Consensus        23 yannl   27 (69)
+T 1L2W_J           23 YANNL   27 (69)
+T ss_dssp             HHHHH
+T ss_pred             HHHhh
+
+
+No 8
+>5A9B_A POLYHEDRIN; VIRAL PROTEIN, INSECT VIRUS OCCLUSION; 1.883A {BOMBYX MORI CYPOVIRUS 1}
+Probab=6.22  E-value=5.4e+02  Score=13.01  Aligned_cols=6  Identities=67%  Similarity=1.176  Sum_probs=0.0  Template_Neff=1.100
+
+Q NYNNNL            1 NYNNNL    6 (6)
+Q Consensus         1 nynnnl    6 (6)
+                      |||+.|
+T Consensus        26 nyn~sl   31 (218)
+T 5A9B_A           26 NYNSSL   31 (218)
+T ss_pred             cccccc
+
+
+No 9
+>7AIH_At mL94, mL89, Ribosomal protein L3-like; Ribosome, Mitochondria, Kinetoplastid; HET: NAD; 3.6A {Leishmania major}
+Probab=5.88  E-value=5.8e+02  Score=12.66  Aligned_cols=6  Identities=67%  Similarity=1.270  Sum_probs=0.0  Template_Neff=1.700
+
+Q NYNNNL            1 NYNNNL    6 (6)
+Q Consensus         1 nynnnl    6 (6)
+                      .||||.
+T Consensus        65 S~NNN~   70 (183)
+T 7AIH_At          65 SYNNNM   70 (183)
+T ss_pred             hhhccc
+
+
+No 10
+>7AM2_At Ribosomal protein L3-like protein, uL4m; RIBOSOME, Mitochondria, Kinetoplastid; HET: GTP, ATP; 3.4A {Leishmania tarentolae}
+Probab=5.88  E-value=5.8e+02  Score=12.66  Aligned_cols=6  Identities=67%  Similarity=1.270  Sum_probs=0.0  Template_Neff=1.700
+
+Q NYNNNL            1 NYNNNL    6 (6)
+Q Consensus         1 nynnnl    6 (6)
+                      .||||.
+T Consensus        65 S~NNN~   70 (183)
+T 7AM2_At          65 SYNNNM   70 (183)
+T ss_pred             hhhccc
+
+

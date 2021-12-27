@@ -1,0 +1,145 @@
+Query         NQQNQY
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 03:37:40 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NQQNQY/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NQQNQY/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6EA3_A MbtH-like protein, amin  11.1 2.5E+02  0.0027   11.4   0.0    6    1-6      24-29  (81)
+  2 2LPD_A Uncharacterized protein  10.8 2.6E+02  0.0028   11.9   0.0    6    1-6      32-37  (95)
+  3 4DCZ_A DnaJ-like protein MG200  10.5 2.7E+02   0.003   12.4   0.0    5    2-6      21-25  (92)
+  4 2BJR_B MFP2B; MOTILITY, ASCARI   9.8   3E+02  0.0033   13.8   0.0    5    2-6      30-34  (368)
+  5 6IYC_E Nicastrin, Presenilin-1   9.0 3.3E+02  0.0037   12.0   0.0    5    2-6      67-71  (104)
+  6 6N3A_J TAR DNA-binding protein   8.9 3.4E+02  0.0037   11.0   0.0    5    1-5      32-36  (50)
+  7 6FTI_3 uL2, uL3, Ribosomal pro   8.6 3.5E+02  0.0039   10.8   0.0    6    1-6      49-54  (120)
+  8 6YXY_BH bL28m, uL29m, uL30m, b   8.6 3.5E+02  0.0039   14.5   0.0    4    3-6     244-247 (349)
+  9 5N82_A Tyrocidine synthase 1 (   8.6 3.5E+02  0.0039   10.3   0.0    5    1-5      14-18  (427)
+ 10 7AIH_Al mL94, mL89, Ribosomal    8.5 3.6E+02   0.004   14.4   0.0    4    3-6     241-244 (346)
+
+No 1
+>6EA3_A MbtH-like protein, amino acid activating; siderophore biosynthesis, serine activating adenylation; HET: SRP; 1.65A {Thermobifida fusca (strain YX)}
+Probab=11.13  E-value=2.5e+02  Score=11.42  Aligned_cols=6  Identities=50%  Similarity=1.060  Sum_probs=0.0  Template_Neff=4.900
+
+Q NQQNQY            1 NQQNQY    6 (6)
+Q Consensus         1 nqqnqy    6 (6)
+                      |.+.||
+T Consensus        24 N~e~Qy   29 (81)
+T 6EA3_A           24 NDEDQY   29 (81)
+T ss_dssp             ETTCCE
+T ss_pred             CCCCCe
+
+
+No 2
+>2LPD_A Uncharacterized protein; infectious disease, melioidosis, Seattle Structural; NMR {Burkholderia pseudomallei}
+Probab=10.82  E-value=2.6e+02  Score=11.93  Aligned_cols=6  Identities=50%  Similarity=0.949  Sum_probs=0.0  Template_Neff=4.200
+
+Q NQQNQY            1 NQQNQY    6 (6)
+Q Consensus         1 nqqnqy    6 (6)
+                      |.+.||
+T Consensus        32 N~EgQy   37 (95)
+T 2LPD_A           32 NNEGQY   37 (95)
+T ss_dssp             CSSCSC
+T ss_pred             CCCCCe
+
+
+No 3
+>4DCZ_A DnaJ-like protein MG200; DIMER, INTRA-DOMAIN SYMMETRY AXIS, UNKNOWN; 2.9A {Mycoplasma genitalium}
+Probab=10.51  E-value=2.7e+02  Score=12.42  Aligned_cols=5  Identities=80%  Similarity=0.700  Sum_probs=0.0  Template_Neff=2.200
+
+Q NQQNQY            2 QQNQY    6 (6)
+Q Consensus         2 qqnqy    6 (6)
+                      |||||
+T Consensus        21 ~q~~~   25 (92)
+T 4DCZ_A           21 QQNQN   25 (92)
+T ss_dssp             -----
+T ss_pred             HHhHh
+
+
+No 4
+>2BJR_B MFP2B; MOTILITY, ASCARIS, NEMATODE, MSP; HET: SO4, MSE; 1.8A {ASCARIS SUUM} SCOP: b.169.1.1
+Probab=9.79  E-value=3e+02  Score=13.81  Aligned_cols=5  Identities=80%  Similarity=1.066  Sum_probs=0.0  Template_Neff=5.200
+
+Q NQQNQY            2 QQNQY    6 (6)
+Q Consensus         2 qqnqy    6 (6)
+                      |||||
+T Consensus        30 ~~n~Y   34 (368)
+T 2BJR_B           30 QQNMY   34 (368)
+T ss_dssp             CSSCE
+T ss_pred             CCCeE
+
+
+No 5
+>6IYC_E Nicastrin, Presenilin-1 (E.C.3.4.23.-), Gamma-secretase subunit; Complex, MEMBRANE PROTEIN; HET: NAG, PC1, CLR, BMA;{Homo sapiens}
+Probab=9.02  E-value=3.3e+02  Score=12.03  Aligned_cols=5  Identities=80%  Similarity=1.066  Sum_probs=0.0  Template_Neff=3.500
+
+Q NQQNQY            2 QQNQY    6 (6)
+Q Consensus         2 qqnqy    6 (6)
+                      |+|.|
+T Consensus        67 Q~NGY   71 (104)
+T 6IYC_E           67 QQNGY   71 (104)
+T ss_pred             HHcCc
+
+
+No 6
+>6N3A_J TAR DNA-binding protein 43, segA; Amyloid, TDP43, ALS, FTLD-TDP, dna; 3.3A {Homo sapiens}
+Probab=8.89  E-value=3.4e+02  Score=11.02  Aligned_cols=5  Identities=80%  Similarity=0.853  Sum_probs=0.0  Template_Neff=2.200
+
+Q NQQNQY            1 NQQNQ    5 (6)
+Q Consensus         1 nqqnq    5 (6)
+                      +||||
+T Consensus        32 ~Qq~q   36 (50)
+T 6N3A_J           32 SQQNQ   36 (50)
+T ss_dssp             EEEEE
+T ss_pred             hcCCC
+
+
+No 7
+>6FTI_3 uL2, uL3, Ribosomal protein L4; Protein translocon of the endoplasmic; HET: NAG, MG, BMA, 9UB, MAN; 4.2A {Oryctolagus cuniculus}
+Probab=8.62  E-value=3.5e+02  Score=10.80  Aligned_cols=6  Identities=33%  Similarity=0.578  Sum_probs=0.0  Template_Neff=7.000
+
+Q NQQNQY            1 NQQNQY    6 (6)
+Q Consensus         1 nqqnqy    6 (6)
+                      .+|+||
+T Consensus        49 ~~~~Q~   54 (120)
+T 6FTI_3           49 RVNGQY   54 (120)
+T ss_pred             CCCccH
+
+
+No 8
+>6YXY_BH bL28m, uL29m, uL30m, bL32m, bL35m; mitoribosome, assembly, LSU, RIBOSOME; HET: ATP, PM8, MG, SPD, NAD, GTP; 3.1A {Trypanosoma brucei brucei}
+Probab=8.59  E-value=3.5e+02  Score=14.46  Aligned_cols=4  Identities=100%  Similarity=1.414  Sum_probs=0.0  Template_Neff=1.900
+
+Q NQQNQY            3 QNQY    6 (6)
+Q Consensus         3 qnqy    6 (6)
+                      ||||
+T Consensus       244 QNqy  247 (349)
+T 6YXY_BH         244 QNQY  247 (349)
+T ss_pred             Ccce
+
+
+No 9
+>5N82_A Tyrocidine synthase 1 (E.C.5.1.1.11); nonribosomal peptide synthetase, adenylation domain; HET: 8PZ, BTB; 1.708A {Brevibacillus parabrevis}
+Probab=8.57  E-value=3.5e+02  Score=10.31  Aligned_cols=5  Identities=60%  Similarity=0.567  Sum_probs=0.0  Template_Neff=12.600
+
+Q NQQNQY            1 NQQNQ    5 (6)
+Q Consensus         1 nqqnq    5 (6)
+                      ||.||
+T Consensus        14 ~~~~~   18 (427)
+T 5N82_A           14 NQANL   18 (427)
+T ss_pred             HHhch
+
+
+No 10
+>7AIH_Al mL94, mL89, Ribosomal protein L3-like; Ribosome, Mitochondria, Kinetoplastid; HET: NAD; 3.6A {Leishmania major}
+Probab=8.46  E-value=3.6e+02  Score=14.42  Aligned_cols=4  Identities=100%  Similarity=1.414  Sum_probs=0.0  Template_Neff=1.800
+
+Q NQQNQY            3 QNQY    6 (6)
+Q Consensus         3 qnqy    6 (6)
+                      ||||
+T Consensus       241 QNqy  244 (346)
+T 7AIH_Al         241 QNQY  244 (346)
+T ss_pred             Ccce
+
+

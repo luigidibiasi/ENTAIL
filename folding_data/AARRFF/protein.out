@@ -1,0 +1,148 @@
+Query         AARRFF
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 13:15:06 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/AARRFF/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/AARRFF/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4J39_A RNA silencing suppresso  20.2   1E+02  0.0011   14.4   0.0    6    1-6      76-81  (127)
+  2 4JGN_A RNA silencing suppresso  20.2   1E+02  0.0011   14.4   0.0    6    1-6      76-81  (127)
+  3 5ZKT_B Putative transcription   19.5 1.1E+02  0.0012   12.0   0.0    5    2-6      21-25  (55)
+  4 5VZ4_B Growth/differentiation   18.9 1.1E+02  0.0012   14.1   0.0    6    1-6      64-69  (245)
+  5 6WMW_B GDNF family receptor al  18.9 1.1E+02  0.0012   14.1   0.0    6    1-6      64-69  (245)
+  6 7BQR_A Mussoc; de novo designe  18.8 1.1E+02  0.0013   14.3   0.0    5    1-5      59-63  (137)
+  7 3JBW_C V(D)J recombination-act  18.5 1.2E+02  0.0013   15.6   0.0    5    2-6     609-613 (764)
+  8 3JBX_A V(D)J recombination-act  18.5 1.2E+02  0.0013   15.6   0.0    5    2-6     609-613 (764)
+  9 6YPR_AAA Histidine triad nucle  18.3 1.2E+02  0.0013   11.9   0.0    6    1-6      13-18  (163)
+ 10 2GH0_A artemin, GDNF family re  17.8 1.2E+02  0.0014   13.8   0.0    6    1-6      49-54  (213)
+
+No 1
+>4J39_A RNA silencing suppressor p19/RNA complex; RNA silencing suppression, trinucleotide repeats; HET: SO4; 1.7A {Tomato bushy stunt virus}
+Probab=20.19  E-value=1e+02  Score=14.39  Aligned_cols=6  Identities=83%  Similarity=1.292  Sum_probs=3.0  Template_Neff=1.500
+
+Q AARRFF            1 AARRFF    6 (6)
+Q Consensus         1 aarrff    6 (6)
+                      ||.|||
+T Consensus        76 aASRF~   81 (127)
+T 4J39_A           76 AASRFF   81 (127)
+T ss_dssp             HHHTTC
+T ss_pred             HHHhhc
+Confidence            345554
+
+
+No 2
+>4JGN_A RNA silencing suppressor p19/RNA complex; RNA silencing suppression, trinucleotide repeats; HET: SO4; 1.86A {Tomato bushy stunt virus}
+Probab=20.19  E-value=1e+02  Score=14.39  Aligned_cols=6  Identities=83%  Similarity=1.292  Sum_probs=3.0  Template_Neff=1.500
+
+Q AARRFF            1 AARRFF    6 (6)
+Q Consensus         1 aarrff    6 (6)
+                      ||.|||
+T Consensus        76 aASRF~   81 (127)
+T 4JGN_A           76 AASRFF   81 (127)
+T ss_dssp             HHHTTC
+T ss_pred             HHHhhc
+Confidence            345554
+
+
+No 3
+>5ZKT_B Putative transcription factor PCF6; TCP domain, OsPCF6, TRANSCRIPTION; 1.74A {Oryza sativa subsp. japonica}
+Probab=19.49  E-value=1.1e+02  Score=11.96  Aligned_cols=5  Identities=40%  Similarity=0.906  Sum_probs=0.0  Template_Neff=4.200
+
+Q AARRFF            2 ARRFF    6 (6)
+Q Consensus         2 arrff    6 (6)
+                      |++||
+T Consensus        21 A~~ff   25 (55)
+T 5ZKT_B           21 AIQFY   25 (55)
+T ss_pred             HHHHH
+
+
+No 4
+>5VZ4_B Growth/differentiation factor 15, GDNF family; Receptor, growth factor, SIGNALING PROTEIN-PROTEIN; HET: EDO, SO4; 2.2A {Homo sapiens}
+Probab=18.94  E-value=1.1e+02  Score=14.14  Aligned_cols=6  Identities=50%  Similarity=0.844  Sum_probs=0.0  Template_Neff=5.700
+
+Q AARRFF            1 AARRFF    6 (6)
+Q Consensus         1 aarrff    6 (6)
+                      |.|+||
+T Consensus        64 ALR~F~   69 (245)
+T 5VZ4_B           64 AIRFFY   69 (245)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 5
+>6WMW_B GDNF family receptor alpha-like, FAB3P10; RECEPTOR, SIGNALING, ANTIBODES, IMMUNE SYSTEM; 2.91A {Homo sapiens}
+Probab=18.94  E-value=1.1e+02  Score=14.14  Aligned_cols=6  Identities=50%  Similarity=0.844  Sum_probs=0.0  Template_Neff=5.700
+
+Q AARRFF            1 AARRFF    6 (6)
+Q Consensus         1 aarrff    6 (6)
+                      |.|+||
+T Consensus        64 ALR~F~   69 (245)
+T 6WMW_B           64 AIRFFY   69 (245)
+T ss_pred             HHHHHH
+
+
+No 6
+>7BQR_A Mussoc; de novo designed protein, DE; NMR {synthetic construct}
+Probab=18.77  E-value=1.1e+02  Score=14.34  Aligned_cols=5  Identities=100%  Similarity=1.411  Sum_probs=0.0  Template_Neff=1.000
+
+Q AARRFF            1 AARRF    5 (6)
+Q Consensus         1 aarrf    5 (6)
+                      |||||
+T Consensus        59 aarrf   63 (137)
+T 7BQR_A           59 AARRF   63 (137)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 7
+>3JBW_C V(D)J recombination-activating protein 1 (E.C.3.1.-.-; RAG1, RAG2, V(D)J recombination, Paired; 4.631A {Danio rerio}
+Probab=18.54  E-value=1.2e+02  Score=15.58  Aligned_cols=5  Identities=60%  Similarity=1.026  Sum_probs=0.0  Template_Neff=7.100
+
+Q AARRFF            2 ARRFF    6 (6)
+Q Consensus         2 arrff    6 (6)
+                      |||||
+T Consensus       609 aRk~~  613 (764)
+T 3JBW_C          609 ARRLM  613 (764)
+T ss_dssp             HHHHH
+T ss_pred             HHHhh
+
+
+No 8
+>3JBX_A V(D)J recombination-activating protein 1 (E.C.3.1.-.-; RAG1, RAG2, V(D)J recombination, Signal; 3.4A {Danio rerio}
+Probab=18.54  E-value=1.2e+02  Score=15.58  Aligned_cols=5  Identities=60%  Similarity=1.026  Sum_probs=0.0  Template_Neff=7.100
+
+Q AARRFF            2 ARRFF    6 (6)
+Q Consensus         2 arrff    6 (6)
+                      |||||
+T Consensus       609 aRk~~  613 (764)
+T 3JBX_A          609 ARRLM  613 (764)
+T ss_dssp             HHHHS
+T ss_pred             HHHhh
+
+
+No 9
+>6YPR_AAA Histidine triad nucleotide-binding protein 2; Nucleotide binding protein, HYDROLASE; HET: GOL; 1.26A {Homo sapiens}
+Probab=18.32  E-value=1.2e+02  Score=11.94  Aligned_cols=6  Identities=67%  Similarity=0.667  Sum_probs=0.0  Template_Neff=8.500
+
+Q AARRFF            1 AARRFF    6 (6)
+Q Consensus         1 aarrff    6 (6)
+                      +|||||
+T Consensus        13 ~~~~~~   18 (163)
+T 6YPR_AAA         13 AARRAV   18 (163)
+T ss_pred             HHHHHH
+
+
+No 10
+>2GH0_A artemin, GDNF family receptor alpha-3; cystine-knot, helix bundle, HORMONE-GROWTH FACTOR; HET: MAN, NAG, BMA; 1.92A {Homo sapiens}
+Probab=17.79  E-value=1.2e+02  Score=13.84  Aligned_cols=6  Identities=33%  Similarity=0.567  Sum_probs=0.0  Template_Neff=5.500
+
+Q AARRFF            1 AARRFF    6 (6)
+Q Consensus         1 aarrff    6 (6)
+                      |.|+||
+T Consensus        49 ALr~F~   54 (213)
+T 2GH0_A           49 QLLTFF   54 (213)
+T ss_pred             HHHHHH
+
+

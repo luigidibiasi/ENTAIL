@@ -1,0 +1,148 @@
+Query         NFNYNN
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 23:55:43 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NFNYNN/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NFNYNN/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3K3Q_B llama Aa1 VHH domain, B  30.9      47 0.00052   15.2   0.0    6    1-6       9-14  (252)
+  2 6TMK_D ATPTG11, ATPTG7, ATPTG1  16.1 1.4E+02  0.0016   15.3   0.0    6    1-6     270-275 (310)
+  3 6TMG_D ATPTG11, ATPTG7, ATPTG1  15.5 1.5E+02  0.0017   15.2   0.0    6    1-6     270-275 (310)
+  4 6GAP_A Outer capsid protein si  12.6 2.1E+02  0.0023   12.7   0.0    5    2-6     224-228 (261)
+  5 6YXX_A2 bL28m, mt-LAF21, uL29m  12.6 2.1E+02  0.0023   15.6   0.0    5    2-6     411-415 (471)
+  6 6YXY_A2 bL28m, uL29m, uL30m, b  12.6 2.1E+02  0.0023   15.6   0.0    5    2-6     411-415 (471)
+  7 1T3A_B botulinum neurotoxin ty  12.6 2.1E+02  0.0023   14.2   0.0    6    1-6       5-10  (421)
+  8 3FIE_A Botulinum neurotoxin ty  12.4 2.1E+02  0.0023   14.5   0.0    6    1-6       7-12  (427)
+  9 1ZB7_A Crystal Structure of Bo  12.0 2.2E+02  0.0025   14.5   0.0    6    1-6       7-12  (455)
+ 10 6G8U_A Light chain of botulinu  11.9 2.2E+02  0.0025   14.5   0.0    6    1-6      23-28  (443)
+
+No 1
+>3K3Q_B llama Aa1 VHH domain, Botulinum; llama, VHH, antibody, botulinum, neurotoxin; 2.6A {Lama glama}
+Probab=30.92  E-value=47  Score=15.19  Aligned_cols=6  Identities=50%  Similarity=1.237  Sum_probs=3.9  Template_Neff=6.000
+
+Q NFNYNN            1 NFNYNN    6 (6)
+Q Consensus         1 nfnynn    6 (6)
+                      +||||.
+T Consensus         9 ~fny~d   14 (252)
+T 3K3Q_B            9 QFNYKD   14 (252)
+T ss_dssp             CCCTTS
+T ss_pred             CCCCCC
+Confidence            577763
+
+
+No 2
+>6TMK_D ATPTG11, ATPTG7, ATPTG14, Uncharacterized protein; mitochondrial, ATP synthase, dimer, lipids; HET: ADP, PEE, LMT, PC1, ATP, CDL; 2.9A {Toxoplasma gondii (strain ATCC 50853 / GT1)}
+Probab=16.08  E-value=1.4e+02  Score=15.31  Aligned_cols=6  Identities=50%  Similarity=0.739  Sum_probs=3.2  Template_Neff=3.000
+
+Q NFNYNN            1 NFNYNN    6 (6)
+Q Consensus         1 nfnynn    6 (6)
+                      ||.|||
+T Consensus       270 nFt~nn  275 (310)
+T 6TMK_D          270 GFTANN  275 (310)
+T ss_pred             cccccC
+Confidence            455554
+
+
+No 3
+>6TMG_D ATPTG11, ATPTG7, ATPTG14, ATPTG5, subunit; mitochondrial, ATP synthase, membrane region; HET: PEE, LMT, PC1, CDL; 2.8A {Toxoplasma gondii (strain ATCC 50853 / GT1)}
+Probab=15.47  E-value=1.5e+02  Score=15.23  Aligned_cols=6  Identities=50%  Similarity=0.739  Sum_probs=3.2  Template_Neff=3.000
+
+Q NFNYNN            1 NFNYNN    6 (6)
+Q Consensus         1 nfnynn    6 (6)
+                      ||.|||
+T Consensus       270 nFt~nn  275 (310)
+T 6TMG_D          270 GFTANN  275 (310)
+T ss_pred             cccccC
+Confidence            455554
+
+
+No 4
+>6GAP_A Outer capsid protein sigma-1; cell attachment protein, reovirus sigma1; 2.15A {Mammalian orthoreovirus 3 Dearing}
+Probab=12.63  E-value=2.1e+02  Score=12.67  Aligned_cols=5  Identities=40%  Similarity=0.574  Sum_probs=0.0  Template_Neff=7.400
+
+Q NFNYNN            2 FNYNN    6 (6)
+Q Consensus         2 fnynn    6 (6)
+                      |+|++
+T Consensus       224 ~~~~~  228 (261)
+T 6GAP_A          224 FQIVN  228 (261)
+T ss_dssp             EEEET
+T ss_pred             EEEEc
+
+
+No 5
+>6YXX_A2 bL28m, mt-LAF21, uL29m, mt-LAF22, uL30m; mitoribosome, assembly, LSU, RIBOSOME; HET: GTP, ATP, NAD, PM8, MG; 3.9A {Trypanosoma brucei brucei}
+Probab=12.63  E-value=2.1e+02  Score=15.60  Aligned_cols=5  Identities=60%  Similarity=1.398  Sum_probs=0.0  Template_Neff=2.900
+
+Q NFNYNN            2 FNYNN    6 (6)
+Q Consensus         2 fnynn    6 (6)
+                      |||+|
+T Consensus       411 ~nysn  415 (471)
+T 6YXX_A2         411 YNYTN  415 (471)
+T ss_pred             ccCCc
+
+
+No 6
+>6YXY_A2 bL28m, uL29m, uL30m, bL32m, bL35m; mitoribosome, assembly, LSU, RIBOSOME; HET: ATP, PM8, MG, SPD, NAD, GTP; 3.1A {Trypanosoma brucei brucei}
+Probab=12.63  E-value=2.1e+02  Score=15.60  Aligned_cols=5  Identities=60%  Similarity=1.398  Sum_probs=0.0  Template_Neff=2.900
+
+Q NFNYNN            2 FNYNN    6 (6)
+Q Consensus         2 fnynn    6 (6)
+                      |||+|
+T Consensus       411 ~nysn  415 (471)
+T 6YXY_A2         411 YNYTN  415 (471)
+T ss_pred             ccCCc
+
+
+No 7
+>1T3A_B botulinum neurotoxin type E (E.C.3.4.24.69); Clostridium botulinum, catalytic domain, light; 2.16A {Clostridium botulinum} SCOP: d.92.1.7
+Probab=12.59  E-value=2.1e+02  Score=14.24  Aligned_cols=6  Identities=67%  Similarity=1.414  Sum_probs=0.0  Template_Neff=5.900
+
+Q NFNYNN            1 NFNYNN    6 (6)
+Q Consensus         1 nfnynn    6 (6)
+                      +||||.
+T Consensus         5 ~fny~d   10 (421)
+T 1T3A_B            5 SFNYND   10 (421)
+T ss_dssp             CCCTTS
+T ss_pred             CCCCCC
+
+
+No 8
+>3FIE_A Botulinum neurotoxin type A1 (E.C.3.4.24.69)/fragment; Clostridium botulinum, BoNT F, VAMP; 2.1A {Clostridium botulinum}
+Probab=12.44  E-value=2.1e+02  Score=14.51  Aligned_cols=6  Identities=67%  Similarity=1.414  Sum_probs=0.0  Template_Neff=5.300
+
+Q NFNYNN            1 NFNYNN    6 (6)
+Q Consensus         1 nfnynn    6 (6)
+                      +||||.
+T Consensus         7 ~fny~d   12 (427)
+T 3FIE_A            7 SFNYND   12 (427)
+T ss_dssp             CCCTTS
+T ss_pred             CCCCCC
+
+
+No 9
+>1ZB7_A Crystal Structure of Botulinum Neurotoxin; HExxH metalloprotease, TOXIN; HET: FLC; 2.35A {Clostridium botulinum}
+Probab=11.96  E-value=2.2e+02  Score=14.55  Aligned_cols=6  Identities=83%  Similarity=1.575  Sum_probs=0.0  Template_Neff=5.300
+
+Q NFNYNN            1 NFNYNN    6 (6)
+Q Consensus         1 nfnynn    6 (6)
+                      +||||.
+T Consensus         7 ~fnynd   12 (455)
+T 1ZB7_A            7 NFNYND   12 (455)
+T ss_dssp             CCCTTS
+T ss_pred             CCCCCC
+
+
+No 10
+>6G8U_A Light chain of botulinum neurotoxin; neurotoxin, endopeptidase, TOXIN; 1.308A {Clostridium botulinum}
+Probab=11.95  E-value=2.2e+02  Score=14.45  Aligned_cols=6  Identities=67%  Similarity=1.409  Sum_probs=0.0  Template_Neff=5.400
+
+Q NFNYNN            1 NFNYNN    6 (6)
+Q Consensus         1 nfnynn    6 (6)
+                      +||||.
+T Consensus        23 ~fny~d   28 (443)
+T 6G8U_A           23 KFNYND   28 (443)
+T ss_pred             cCCCCC
+
+

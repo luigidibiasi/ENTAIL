@@ -1,0 +1,174 @@
+Query         INPAMM
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 09:01:12 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/INPAMM/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/INPAMM/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6N3C_D TAR DNA-binding protein  93.9   0.014 1.5E-07   22.6   0.0    6    1-6      33-38  (46)
+  2 6N3A_J TAR DNA-binding protein  93.9   0.014 1.5E-07   23.2   0.0    6    1-6       8-13  (50)
+  3 2N2C_A TAR DNA-binding protein  88.7    0.23 2.6E-06   18.9   0.0    6    1-6      12-17  (43)
+  4 7KWZ_A Isoform 2 of TAR DNA-bi  86.8    0.38 4.3E-06   21.8   0.0    6    1-6      52-57  (148)
+  5 5MU3_E Central kinetochore sub  43.7      22 0.00024   17.0   0.0    6    1-6      73-78  (165)
+  6 6H3I_F Protein involved in gli  38.0      30 0.00034   14.9   0.0    6    1-6      60-65  (402)
+  7 3BRY_A TbuX; beta barrel, oute  34.6      37 0.00041   14.8   0.0    6    1-6      32-37  (441)
+  8 5IJL_A DNA polymerase II large  29.2      52 0.00058   18.5   0.0    6    1-6     372-377 (1066)
+  9 5IBV_A Capsid polyprotein VP90  27.8      58 0.00064   16.4   0.0    6    1-6      38-43  (354)
+ 10 6T8H_B DNA polymerase sliding   25.5      68 0.00075   18.6   0.0    6    1-6     372-377 (1275)
+ 11 5EWN_A Capsid polyprotein VP90  23.6      77 0.00086   16.2   0.0    6    1-6      30-35  (375)
+
+No 1
+>6N3C_D TAR DNA-binding protein 43; Amyloid, TDP43, ALS, FTLD-TDP, dna; 3.3A {Homo sapiens}
+Probab=93.92  E-value=0.014  Score=22.56  Aligned_cols=6  Identities=100%  Similarity=1.464  Sum_probs=1.6  Template_Neff=3.000
+
+Q INPAMM            1 INPAMM    6 (6)
+Q Consensus         1 inpamm    6 (6)
+                      ||||||
+T Consensus        33 iNpAmm   38 (46)
+T 6N3C_D           33 INPAMM   38 (46)
+T ss_dssp             BC----
+T ss_pred             cCHHHH
+Confidence            799997
+
+
+No 2
+>6N3A_J TAR DNA-binding protein 43, segA; Amyloid, TDP43, ALS, FTLD-TDP, dna; 3.3A {Homo sapiens}
+Probab=93.92  E-value=0.014  Score=23.17  Aligned_cols=6  Identities=100%  Similarity=1.464  Sum_probs=5.3  Template_Neff=2.200
+
+Q INPAMM            1 INPAMM    6 (6)
+Q Consensus         1 inpamm    6 (6)
+                      ||||||
+T Consensus         8 iNpAmm   13 (50)
+T 6N3A_J            8 INPAMM   13 (50)
+T ss_dssp             ECCEEE
+T ss_pred             CCHHHH
+Confidence            799997
+
+
+No 3
+>2N2C_A TAR DNA-binding protein 43; ALS, prion-like domain, hydrophobic helices; NMR {Homo sapiens}
+Probab=88.67  E-value=0.23  Score=18.90  Aligned_cols=6  Identities=100%  Similarity=1.464  Sum_probs=4.8  Template_Neff=3.300
+
+Q INPAMM            1 INPAMM    6 (6)
+Q Consensus         1 inpamm    6 (6)
+                      +||||+
+T Consensus        12 lNpAmv   17 (43)
+T 2N2C_A           12 INPAMM   17 (43)
+T ss_dssp             TSSSHH
+T ss_pred             CCHHHH
+Confidence            689986
+
+
+No 4
+>7KWZ_A Isoform 2 of TAR DNA-binding; TDP-43, amyloid, neurodegenerative diseases, amyotropic; 3.2A {Homo sapiens}
+Probab=86.82  E-value=0.38  Score=21.83  Aligned_cols=6  Identities=100%  Similarity=1.464  Sum_probs=5.0  Template_Neff=2.900
+
+Q INPAMM            1 INPAMM    6 (6)
+Q Consensus         1 inpamm    6 (6)
+                      ||||||
+T Consensus        52 lNpAmv   57 (148)
+T 7KWZ_A           52 INPAMM   57 (148)
+T ss_dssp             ECCCEE
+T ss_pred             cCHHHH
+Confidence            689986
+
+
+No 5
+>5MU3_E Central kinetochore subunit MCM21, Central; Cell cycle, chromosome segregation, centromere; HET: CSX; 2.1A {Kluyveromyces lactis NRRL Y-1140}
+Probab=43.68  E-value=22  Score=16.98  Aligned_cols=6  Identities=67%  Similarity=0.894  Sum_probs=4.3  Template_Neff=1.600
+
+Q INPAMM            1 INPAMM    6 (6)
+Q Consensus         1 inpamm    6 (6)
+                      +|-|||
+T Consensus        73 vNiAMM   78 (165)
+T 5MU3_E           73 VNVAMM   78 (165)
+T ss_dssp             HHHHHH
+T ss_pred             ccHHHH
+Confidence            467887
+
+
+No 6
+>6H3I_F Protein involved in gliding motility; Type 9 Secretion System Type; 3.5A {Flavobacterium johnsoniae}
+Probab=37.98  E-value=30  Score=14.93  Aligned_cols=6  Identities=50%  Similarity=0.578  Sum_probs=3.5  Template_Neff=9.200
+
+Q INPAMM            1 INPAMM    6 (6)
+Q Consensus         1 inpamm    6 (6)
+                      .|||.+
+T Consensus        60 ~NPA~l   65 (402)
+T 6H3I_F           60 WNPAKY   65 (402)
+T ss_dssp             SCGGGG
+T ss_pred             CChhhh
+Confidence            377753
+
+
+No 7
+>3BRY_A TbuX; beta barrel, outer membrane protein; HET: C8E; 3.2A {Ralstonia pickettii}
+Probab=34.63  E-value=37  Score=14.81  Aligned_cols=6  Identities=50%  Similarity=0.739  Sum_probs=3.7  Template_Neff=9.300
+
+Q INPAMM            1 INPAMM    6 (6)
+Q Consensus         1 inpamm    6 (6)
+                      .|||.|
+T Consensus        32 ~NPA~l   37 (441)
+T 3BRY_A           32 ENPATL   37 (441)
+T ss_dssp             SCGGGT
+T ss_pred             cChhhh
+Confidence            378754
+
+
+No 8
+>5IJL_A DNA polymerase II large subunit,DNA; DNA polymerase D-family, transferase; 2.19A {Pyrococcus abyssi (strain GE5 / Orsay)}
+Probab=29.25  E-value=52  Score=18.48  Aligned_cols=6  Identities=83%  Similarity=1.193  Sum_probs=4.7  Template_Neff=4.800
+
+Q INPAMM            1 INPAMM    6 (6)
+Q Consensus         1 inpamm    6 (6)
+                      ||||-|
+T Consensus       372 ihPatM  377 (1066)
+T 5IJL_A          372 INPATM  377 (1066)
+T ss_dssp             ECHHHH
+T ss_pred             cCHHHH
+Confidence            688876
+
+
+No 9
+>5IBV_A Capsid polyprotein VP90; Astrovirus, Capsid, VIRAL PROTEIN; HET: MSE; 2.15A {Human astrovirus-8}
+Probab=27.84  E-value=58  Score=16.42  Aligned_cols=6  Identities=33%  Similarity=1.038  Sum_probs=4.1  Template_Neff=4.200
+
+Q INPAMM            1 INPAMM    6 (6)
+Q Consensus         1 inpamm    6 (6)
+                      +||+.|
+T Consensus        38 lNP~l~   43 (354)
+T 5IBV_A           38 LNPVLV   43 (354)
+T ss_dssp             CSTTTS
+T ss_pred             eCceee
+Confidence            478765
+
+
+No 10
+>6T8H_B DNA polymerase sliding clamp, cPIP; PCNA, DP2, PolD, DP1, REPLICATION; 3.77A {Pyrococcus abyssi (strain GE5 / Orsay)}
+Probab=25.46  E-value=68  Score=18.63  Aligned_cols=6  Identities=83%  Similarity=1.193  Sum_probs=4.7  Template_Neff=4.400
+
+Q INPAMM            1 INPAMM    6 (6)
+Q Consensus         1 inpamm    6 (6)
+                      ||||-|
+T Consensus       372 ihPAtM  377 (1275)
+T 6T8H_B          372 INPATM  377 (1275)
+T ss_pred             cCHHHH
+Confidence            688877
+
+
+No 11
+>5EWN_A Capsid polyprotein VP90; virus protein, capsid protein, icosahedral; 2.602A {Human astrovirus-1}
+Probab=23.61  E-value=77  Score=16.16  Aligned_cols=6  Identities=33%  Similarity=1.038  Sum_probs=4.1  Template_Neff=4.100
+
+Q INPAMM            1 INPAMM    6 (6)
+Q Consensus         1 inpamm    6 (6)
+                      +||++|
+T Consensus        30 lNP~l~   35 (375)
+T 5EWN_A           30 LNPVLV   35 (375)
+T ss_dssp             CSTTTC
+T ss_pred             eCceee
+Confidence            478765
+
+

@@ -1,0 +1,149 @@
+Query         DNNTIF
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 17:45:43 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/DNNTIF/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/DNNTIF/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5YSI_A SdeA; SdeA, E3 ligase,   34.5      38 0.00042   16.0   0.0    6    1-6      80-85  (152)
+  2 5BTY_A lpg1496; bacterial effe  21.9      88 0.00098   14.7   0.0    6    1-6     115-120 (138)
+  3 6MRN_A Deubiquitinase and dene  19.1 1.1E+02  0.0012   12.7   0.0    6    1-6       5-10  (251)
+  4 5MK0_A Tyrosine-protein phosph  16.5 1.4E+02  0.0015   13.0   0.0    6    1-6     315-320 (361)
+  5 5MK2_B Tyrosine-protein phosph  16.5 1.4E+02  0.0015   13.0   0.0    6    1-6     315-320 (361)
+  6 6Y69_k 30S ribosomal protein S  16.4 1.4E+02  0.0015   11.6   0.0    5    2-6      16-20  (116)
+  7 7K51_P Ribosome, tRNA, EFG, TR  15.8 1.5E+02  0.0016   11.6   0.0    5    2-6      16-20  (116)
+  8 1B4B_B ARGININE REPRESSOR; REP  15.7 1.5E+02  0.0017   11.0   0.0    6    1-6      46-51  (71)
+  9 6S0X_k 50S ribosomal protein L  15.5 1.5E+02  0.0017   11.3   0.0    5    2-6      14-18  (114)
+ 10 5TCU_S2 PROTEIN/RNA Complex, P  15.3 1.6E+02  0.0017   11.2   0.0    5    2-6      14-18  (114)
+
+No 1
+>5YSI_A SdeA; SdeA, E3 ligase, Legionella, HYDROLASE; HET: MSE, NCA; 1.546A {Legionella pneumophila subsp. pneumophila str. Philadelphia 1}
+Probab=34.48  E-value=38  Score=16.02  Aligned_cols=6  Identities=67%  Similarity=1.132  Sum_probs=3.8  Template_Neff=2.000
+
+Q DNNTIF            1 DNNTIF    6 (6)
+Q Consensus         1 dnntif    6 (6)
+                      |+|+||
+T Consensus        80 dsN~if   85 (152)
+T 5YSI_A           80 DSNVIF   85 (152)
+T ss_dssp             CCSEEE
+T ss_pred             CCCeEE
+Confidence            466765
+
+
+No 2
+>5BTY_A lpg1496; bacterial effector, alpha-beta fold, nucleotide; HET: MSE; 1.15A {Legionella pneumophila subsp. pneumophila ATCC 43290}
+Probab=21.88  E-value=88  Score=14.73  Aligned_cols=6  Identities=33%  Similarity=0.816  Sum_probs=3.5  Template_Neff=1.500
+
+Q DNNTIF            1 DNNTIF    6 (6)
+Q Consensus         1 dnntif    6 (6)
+                      ||||||
+T Consensus       115 ~~~T~~  120 (138)
+T 5BTY_A          115 GNDTFY  120 (138)
+T ss_dssp             TTTEEE
+T ss_pred             CCceEE
+Confidence            456665
+
+
+No 3
+>6MRN_A Deubiquitinase and deneddylase Dub2 (E.C.3.4.22.-); Chlamydia, Inclusion, Membrane, HYDROLASE; 2.29A {Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)}
+Probab=19.13  E-value=1.1e+02  Score=12.67  Aligned_cols=6  Identities=50%  Similarity=1.049  Sum_probs=2.9  Template_Neff=8.800
+
+Q DNNTIF            1 DNNTIF    6 (6)
+Q Consensus         1 dnntif    6 (6)
+                      ||..||
+T Consensus         5 ~~~~~~   10 (251)
+T 6MRN_A            5 DNEHLF   10 (251)
+T ss_dssp             SHHHHH
+T ss_pred             cHHHHH
+Confidence            455554
+
+
+No 4
+>5MK0_A Tyrosine-protein phosphatase non-receptor type 23; ESCRT-III Endofin, Hydrolase; 1.765A {Homo sapiens}
+Probab=16.52  E-value=1.4e+02  Score=13.01  Aligned_cols=6  Identities=50%  Similarity=0.977  Sum_probs=0.0  Template_Neff=8.900
+
+Q DNNTIF            1 DNNTIF    6 (6)
+Q Consensus         1 dnntif    6 (6)
+                      ||+.|+
+T Consensus       315 dNd~IY  320 (361)
+T 5MK0_A          315 DNDFIY  320 (361)
+T ss_dssp             HCCCCC
+T ss_pred             ccCcee
+
+
+No 5
+>5MK2_B Tyrosine-protein phosphatase non-receptor type 23; ESCRT-III CHMP4B, Hydrolase; 1.7A {Homo sapiens}
+Probab=16.52  E-value=1.4e+02  Score=13.01  Aligned_cols=6  Identities=50%  Similarity=0.977  Sum_probs=0.0  Template_Neff=8.900
+
+Q DNNTIF            1 DNNTIF    6 (6)
+Q Consensus         1 dnntif    6 (6)
+                      ||+.|+
+T Consensus       315 dNd~IY  320 (361)
+T 5MK2_B          315 DNDFIY  320 (361)
+T ss_dssp             HCCCCC
+T ss_pred             ccCcee
+
+
+No 6
+>6Y69_k 30S ribosomal protein S2, 30S; tetracenomycin, RIBOSOME; HET: OCW; 2.86A {Escherichia coli (strain K12)}
+Probab=16.43  E-value=1.4e+02  Score=11.55  Aligned_cols=5  Identities=80%  Similarity=0.946  Sum_probs=0.0  Template_Neff=7.600
+
+Q DNNTIF            2 NNTIF    6 (6)
+Q Consensus         2 nntif    6 (6)
+                      |||++
+T Consensus        16 NNt~i   20 (116)
+T 6Y69_k           16 NNTIV   20 (116)
+T ss_pred             CCEEE
+
+
+No 7
+>7K51_P Ribosome, tRNA, EFG, TRANSLATION; HET: GCP, FME; 3.5A {Escherichia coli K-12}
+Probab=15.83  E-value=1.5e+02  Score=11.58  Aligned_cols=5  Identities=80%  Similarity=0.946  Sum_probs=0.0  Template_Neff=7.400
+
+Q DNNTIF            2 NNTIF    6 (6)
+Q Consensus         2 nntif    6 (6)
+                      |||++
+T Consensus        16 NNt~i   20 (116)
+T 7K51_P           16 NNTIV   20 (116)
+T ss_pred             CCEEE
+
+
+No 8
+>1B4B_B ARGININE REPRESSOR; REPRESSOR, ARGININE, CORE, OLIGOMERIZATION DOMAIN; HET: ARG; 2.2A {Geobacillus stearothermophilus} SCOP: d.74.2.1
+Probab=15.70  E-value=1.5e+02  Score=10.98  Aligned_cols=6  Identities=17%  Similarity=0.440  Sum_probs=0.0  Template_Neff=6.700
+
+Q DNNTIF            1 DNNTIF    6 (6)
+Q Consensus         1 dnntif    6 (6)
+                      +++|||
+T Consensus        46 GdDTIl   51 (71)
+T 1B4B_B           46 GDDTCL   51 (71)
+T ss_dssp             CSSEEE
+T ss_pred             cCCEEE
+
+
+No 9
+>6S0X_k 50S ribosomal protein L2, 50S; Ribosome, antibiotics, resistance, Staphylococcus aureus; HET: ERY; 2.425A {Staphylococcus aureus}
+Probab=15.46  E-value=1.5e+02  Score=11.27  Aligned_cols=5  Identities=80%  Similarity=0.946  Sum_probs=0.0  Template_Neff=7.900
+
+Q DNNTIF            2 NNTIF    6 (6)
+Q Consensus         2 nntif    6 (6)
+                      |||++
+T Consensus        14 NNt~i   18 (114)
+T 6S0X_k           14 NNTIV   18 (114)
+T ss_pred             CCeEE
+
+
+No 10
+>5TCU_S2 PROTEIN/RNA Complex, PAROMOMYCIN; 70S ribosome, cryoEM, ribosome, Staphylococcus; HET: PAR, MG; 3.9A {Staphylococcus aureus (strain NCTC 8325)}
+Probab=15.32  E-value=1.6e+02  Score=11.25  Aligned_cols=5  Identities=80%  Similarity=0.946  Sum_probs=0.0  Template_Neff=7.900
+
+Q DNNTIF            2 NNTIF    6 (6)
+Q Consensus         2 nntif    6 (6)
+                      |||++
+T Consensus        14 nNt~i   18 (114)
+T 5TCU_S2          14 NNTIV   18 (114)
+T ss_pred             CCEEE
+
+

@@ -1,0 +1,149 @@
+Query         ASSSNY
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 15:40:46 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/ASSSNY/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/ASSSNY/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5B0V_A Matrix protein VP40; Ma  27.6      59 0.00065   16.8   0.0    6    1-6      16-21  (317)
+  2 5C5Y_C Deoxyribose-phosphate a   8.9 3.4E+02  0.0037   11.8   0.0    5    2-6     253-257 (263)
+  3 5C5Y_D Deoxyribose-phosphate a   8.9 3.4E+02  0.0037   11.8   0.0    5    2-6     253-257 (263)
+  4 5MLC_9 50S ribosomal protein L   8.5 3.6E+02   0.004   12.6   0.0    6    1-6      44-49  (271)
+  5 5XA2_A Cysteine synthase (E.C.   8.3 3.7E+02  0.0041   11.0   0.0    6    1-6      70-75  (309)
+  6 2ZPU_A Uncharacterized protein   8.0 3.9E+02  0.0043   11.2   0.0    6    1-6      80-85  (323)
+  7 1FP2_A ISOFLAVONE O-METHYLTRAN   8.0 3.9E+02  0.0043   11.3   0.0    5    1-5       2-6   (352)
+  8 6CIG_A Isoflavone-7-O-methyltr   8.0 3.9E+02  0.0043   11.3   0.0    5    1-5       2-6   (352)
+  9 2Q3B_A Cysteine synthase A (E.   7.8   4E+02  0.0045   10.9   0.0    6    1-6      73-78  (313)
+ 10 1R26_A thioredoxin; redox-acti   7.8   4E+02  0.0045    8.8   0.0    5    2-6       5-9   (125)
+
+No 1
+>5B0V_A Matrix protein VP40; Marburg virus, virus assembly protein; HET: MSE; 2.81A {Lake Victoria marburgvirus (strain Musoke-80)}
+Probab=27.56  E-value=59  Score=16.85  Aligned_cols=6  Identities=100%  Similarity=1.143  Sum_probs=0.0  Template_Neff=2.000
+
+Q ASSSNY            1 ASSSNY    6 (6)
+Q Consensus         1 asssny    6 (6)
+                      ||||||
+T Consensus        16 ~~~~~m   21 (317)
+T 5B0V_A           16 ASSSNY   21 (317)
+T ss_dssp             ------
+T ss_pred             cccccc
+Confidence            577775
+
+
+No 2
+>5C5Y_C Deoxyribose-phosphate aldolase (E.C.4.1.2.4); DERA, TIM barrel, psychrophilic, lyase; HET: GOL, UNL; 2.1A {Colwellia psychrerythraea (strain 34H / ATCC BAA-681)}
+Probab=8.86  E-value=3.4e+02  Score=11.82  Aligned_cols=5  Identities=100%  Similarity=1.212  Sum_probs=0.0  Template_Neff=7.900
+
+Q ASSSNY            2 SSSNY    6 (6)
+Q Consensus         2 sssny    6 (6)
+                      ++|||
+T Consensus       253 ~~~~~  257 (263)
+T 5C5Y_C          253 SSSNY  257 (263)
+T ss_dssp             -----
+T ss_pred             CcccC
+
+
+No 3
+>5C5Y_D Deoxyribose-phosphate aldolase (E.C.4.1.2.4); DERA, TIM barrel, psychrophilic, lyase; HET: GOL, UNL; 2.1A {Colwellia psychrerythraea (strain 34H / ATCC BAA-681)}
+Probab=8.86  E-value=3.4e+02  Score=11.82  Aligned_cols=5  Identities=100%  Similarity=1.212  Sum_probs=0.0  Template_Neff=7.900
+
+Q ASSSNY            2 SSSNY    6 (6)
+Q Consensus         2 sssny    6 (6)
+                      ++|||
+T Consensus       253 ~~~~~  257 (263)
+T 5C5Y_D          253 SSSNY  257 (263)
+T ss_dssp             -----
+T ss_pred             CcccC
+
+
+No 4
+>5MLC_9 50S ribosomal protein L2, chloroplastic; Chloroplast, ribosome, ribosomal protein, translation; 3.9A {Spinacia oleracea}
+Probab=8.47  E-value=3.6e+02  Score=12.57  Aligned_cols=6  Identities=67%  Similarity=0.916  Sum_probs=0.0  Template_Neff=6.200
+
+Q ASSSNY            1 ASSSNY    6 (6)
+Q Consensus         1 asssny    6 (6)
+                      +|++||
+T Consensus        44 ~~~~~~   49 (271)
+T 5MLC_9           44 RSSANY   49 (271)
+T ss_pred             ecCcch
+
+
+No 5
+>5XA2_A Cysteine synthase (E.C.2.5.1.47); OASS, CysK, PlCysK, TRANSFERASE; HET: LLP; 2.034A {Planctopirus limnophila (strain ATCC 43296 / DSM 3776 / IFAM 1008 / 290)}
+Probab=8.34  E-value=3.7e+02  Score=11.00  Aligned_cols=6  Identities=33%  Similarity=0.351  Sum_probs=0.0  Template_Neff=10.000
+
+Q ASSSNY            1 ASSSNY    6 (6)
+Q Consensus         1 asssny    6 (6)
+                      +|++|+
+T Consensus        70 ~ssgn~   75 (309)
+T 5XA2_A           70 PTSGNT   75 (309)
+T ss_dssp             ECSSHH
+T ss_pred             eCCcHH
+
+
+No 6
+>2ZPU_A Uncharacterized protein C320.14 (E.C.5.1.1.18); PLP-dependent, Lyase, Pyridoxal phosphate, ISOMERASE; HET: PDD; 1.7A {Schizosaccharomyces pombe}
+Probab=8.01  E-value=3.9e+02  Score=11.16  Aligned_cols=6  Identities=50%  Similarity=0.229  Sum_probs=0.0  Template_Neff=9.700
+
+Q ASSSNY            1 ASSSNY    6 (6)
+Q Consensus         1 asssny    6 (6)
+                      +|++|+
+T Consensus        80 ~ssGN~   85 (323)
+T 2ZPU_A           80 FSSGNH   85 (323)
+T ss_pred             ECCcHH
+
+
+No 7
+>1FP2_A ISOFLAVONE O-METHYLTRANSFERASE; protein-product complex, TRANSFERASE; HET: SAH, HMO; 1.4A {Medicago sativa} SCOP: c.66.1.12, a.4.5.29
+Probab=7.97  E-value=3.9e+02  Score=11.30  Aligned_cols=5  Identities=80%  Similarity=0.587  Sum_probs=0.0  Template_Neff=9.700
+
+Q ASSSNY            1 ASSSN    5 (6)
+Q Consensus         1 asssn    5 (6)
+                      |||+|
+T Consensus         2 ~~~~~    6 (352)
+T 1FP2_A            2 ASSIN    6 (352)
+T ss_dssp             -----
+T ss_pred             Ccccc
+
+
+No 8
+>6CIG_A Isoflavone-7-O-methyltransferase 8 (E.C.2.1.1.150); TRANSFERASE, selenomethionine, S-ADENOSYL-L-HOMOCYSTEINE complex, Structural; HET: SAH, MSE, SO4, GOL, T3A, PG4; 1.65A {Medicago sativa}
+Probab=7.97  E-value=3.9e+02  Score=11.30  Aligned_cols=5  Identities=80%  Similarity=0.587  Sum_probs=0.0  Template_Neff=9.700
+
+Q ASSSNY            1 ASSSN    5 (6)
+Q Consensus         1 asssn    5 (6)
+                      |||+|
+T Consensus         2 ~~~~~    6 (352)
+T 6CIG_A            2 ASSIN    6 (352)
+T ss_dssp             --CBT
+T ss_pred             Ccccc
+
+
+No 9
+>2Q3B_A Cysteine synthase A (E.C.2.5.1.47); Mycobacterium tuberculosis, Pyridoxal-5'-phosphate, sulphur metabolism; HET: MPD; 1.8A {Mycobacterium tuberculosis}
+Probab=7.77  E-value=4e+02  Score=10.86  Aligned_cols=6  Identities=33%  Similarity=0.351  Sum_probs=0.0  Template_Neff=10.100
+
+Q ASSSNY            1 ASSSNY    6 (6)
+Q Consensus         1 asssny    6 (6)
+                      +|++|+
+T Consensus        73 ~ssGN~   78 (313)
+T 2Q3B_A           73 PTSGNT   78 (313)
+T ss_dssp             ECSSHH
+T ss_pred             eCCchH
+
+
+No 10
+>1R26_A thioredoxin; redox-active disulfide  thioredoxin, Electron; 1.4A {Trypanosoma} SCOP: c.47.1.1
+Probab=7.75  E-value=4e+02  Score=8.84  Aligned_cols=5  Identities=0%  Similarity=-0.104  Sum_probs=0.0  Template_Neff=11.000
+
+Q ASSSNY            2 SSSNY    6 (6)
+Q Consensus         2 sssny    6 (6)
+                      |++++
+T Consensus         5 ~~~~~    9 (125)
+T 1R26_A            5 HHHHH    9 (125)
+T ss_dssp             -----
+T ss_pred             ccccc
+
+

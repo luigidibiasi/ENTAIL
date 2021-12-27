@@ -1,0 +1,153 @@
+Query         LATVYS
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 17:02:58 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LATVYS/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LATVYS/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 1R6E_A TypeIII-secreted protei  19.8   1E+02  0.0012   14.7   0.0    6    1-6      43-48  (168)
+  2 1GZS_D GTP-BINDING PROTEIN, SO  19.7   1E+02  0.0012   14.7   0.0    6    1-6      40-45  (165)
+  3 2JOL_A Putative G-nucleotide e  16.8 1.3E+02  0.0015   14.6   0.0    6    1-6      44-49  (186)
+  4 4RB0_A DNA-binding transcripti   7.8   4E+02  0.0045    9.9   0.0    5    1-5      54-58  (145)
+  5 6VME_V Tumor susceptibility ge   7.7 4.1E+02  0.0045   11.4   0.0    6    1-6      39-44  (122)
+  6 4EAD_A Thymidine phosphorylase   7.7 4.1E+02  0.0045   12.6   0.0    6    1-6     399-404 (440)
+  7 7M7K_B Pyrimidine, Nucleoside,   7.7 4.1E+02  0.0045   12.6   0.0    6    1-6     399-404 (438)
+  8 2F6M_D endosomes, trafficking    7.5 4.2E+02  0.0047   11.1   0.0    6    1-6      31-36  (109)
+  9 6VME_W Tumor susceptibility ge   7.4 4.3E+02  0.0047   11.4   0.0    6    1-6      39-44  (122)
+ 10 2DSJ_B Pyrimidine-nucleoside (   7.3 4.4E+02  0.0049   12.4   0.0    6    1-6     386-391 (423)
+
+No 1
+>1R6E_A TypeIII-secreted protein effector: invasion-associated protein; Salmonella, invasion, guanine nucleotide exchange; NMR {Salmonella typhimurium} SCOP: a.168.1.1
+Probab=19.80  E-value=1e+02  Score=14.73  Aligned_cols=6  Identities=67%  Similarity=1.060  Sum_probs=3.4  Template_Neff=2.500
+
+Q LATVYS            1 LATVYS    6 (6)
+Q Consensus         1 latvys    6 (6)
+                      |++|||
+T Consensus        43 la~vyS   48 (168)
+T 1R6E_A           43 LSAVYS   48 (168)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHh
+Confidence            456665
+
+
+No 2
+>1GZS_D GTP-BINDING PROTEIN, SOPE; TOXIN/CELL CYCLE, COMPLEX (TOXIN-CELL CYCLE; HET: SO4; 2.3A {HOMO SAPIENS} SCOP: a.168.1.1
+Probab=19.74  E-value=1e+02  Score=14.69  Aligned_cols=6  Identities=67%  Similarity=1.060  Sum_probs=3.4  Template_Neff=2.500
+
+Q LATVYS            1 LATVYS    6 (6)
+Q Consensus         1 latvys    6 (6)
+                      |++|||
+T Consensus        40 la~vyS   45 (165)
+T 1GZS_D           40 LSAVYS   45 (165)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            455665
+
+
+No 3
+>2JOL_A Putative G-nucleotide exchange factor; Guanine nucleotide exchange factor, Burkholderia; NMR {Burkholderia pseudomallei} SCOP: a.168.1.1
+Probab=16.81  E-value=1.3e+02  Score=14.55  Aligned_cols=6  Identities=33%  Similarity=0.861  Sum_probs=3.3  Template_Neff=2.600
+
+Q LATVYS            1 LATVYS    6 (6)
+Q Consensus         1 latvys    6 (6)
+                      |++|||
+T Consensus        44 laavyS   49 (186)
+T 2JOL_A           44 LCAIFS   49 (186)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            455665
+
+
+No 4
+>4RB0_A DNA-binding transcriptional dual regulator of; ferric uptake regulator (FUR), metal; HET: FLC, MSE, SO4; 1.85A {Magnetospirillum gryphiswaldense}
+Probab=7.77  E-value=4e+02  Score=9.87  Aligned_cols=5  Identities=80%  Similarity=1.258  Sum_probs=0.0  Template_Neff=9.400
+
+Q LATVYS            1 LATVY    5 (6)
+Q Consensus         1 latvy    5 (6)
+                      .+|||
+T Consensus        54 ~~Tvy   58 (145)
+T 4RB0_A           54 IATVY   58 (145)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 5
+>6VME_V Tumor susceptibility gene 101 protein; Endosomal transport, HIV release, macroautophagy; 2.19A {Homo sapiens}
+Probab=7.70  E-value=4.1e+02  Score=11.42  Aligned_cols=6  Identities=17%  Similarity=0.728  Sum_probs=0.0  Template_Neff=5.200
+
+Q LATVYS            1 LATVYS    6 (6)
+Q Consensus         1 latvys    6 (6)
+                      ||.+||
+T Consensus        39 laeLYs   44 (122)
+T 6VME_V           39 MAELFA   44 (122)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 6
+>4EAD_A Thymidine phosphorylase (E.C.2.4.2.4); Thymidine phosphorylase, Transferase-Transferase inhibitor complex; HET: 0NP, SO4, GOL; 1.5A {Escherichia coli}
+Probab=7.69  E-value=4.1e+02  Score=12.63  Aligned_cols=6  Identities=33%  Similarity=0.467  Sum_probs=0.0  Template_Neff=7.600
+
+Q LATVYS            1 LATVYS    6 (6)
+Q Consensus         1 latvys    6 (6)
+                      |+|+|+
+T Consensus       399 l~~iy~  404 (440)
+T 4EAD_A          399 LAVIHA  404 (440)
+T ss_dssp             SEEEEE
+T ss_pred             eEEEEe
+
+
+No 7
+>7M7K_B Pyrimidine, Nucleoside, Phosphorylase, Enzyme, TRANSFERASE; HET: SO4, URI; 1.89A {Parageobacillus thermoglucosidasius}
+Probab=7.66  E-value=4.1e+02  Score=12.56  Aligned_cols=6  Identities=67%  Similarity=1.093  Sum_probs=0.0  Template_Neff=7.700
+
+Q LATVYS            1 LATVYS    6 (6)
+Q Consensus         1 latvys    6 (6)
+                      |+|+|+
+T Consensus       399 l~~iy~  404 (438)
+T 7M7K_B          399 LVTIYS  404 (438)
+T ss_dssp             EEEEEE
+T ss_pred             eEEEEc
+
+
+No 8
+>2F6M_D endosomes, trafficking complex, Vps23, Vps28; HET: DDQ; 2.1A {Saccharomyces cerevisiae} SCOP: a.2.17.2
+Probab=7.52  E-value=4.2e+02  Score=11.10  Aligned_cols=6  Identities=50%  Similarity=1.005  Sum_probs=0.0  Template_Neff=5.400
+
+Q LATVYS            1 LATVYS    6 (6)
+Q Consensus         1 latvys    6 (6)
+                      ||.+||
+T Consensus        31 laeLYs   36 (109)
+T 2F6M_D           31 LSEIYS   36 (109)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 9
+>6VME_W Tumor susceptibility gene 101 protein; Endosomal transport, HIV release, macroautophagy; 2.19A {Homo sapiens}
+Probab=7.45  E-value=4.3e+02  Score=11.36  Aligned_cols=6  Identities=17%  Similarity=0.728  Sum_probs=0.0  Template_Neff=5.200
+
+Q LATVYS            1 LATVYS    6 (6)
+Q Consensus         1 latvys    6 (6)
+                      ||.+||
+T Consensus        39 laeLYs   44 (122)
+T 6VME_W           39 MAELFA   44 (122)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 10
+>2DSJ_B Pyrimidine-nucleoside (Thymidine) phosphorylase (E.C.2.4.2.2); pyrimidine-nucleoside phosphorylase, Structural Genomics, NPPSFA; 1.8A {Thermus thermophilus}
+Probab=7.27  E-value=4.4e+02  Score=12.41  Aligned_cols=6  Identities=67%  Similarity=0.894  Sum_probs=0.0  Template_Neff=7.700
+
+Q LATVYS            1 LATVYS    6 (6)
+Q Consensus         1 latvys    6 (6)
+                      |+|+|+
+T Consensus       386 l~tiy~  391 (423)
+T 2DSJ_B          386 LALVYH  391 (423)
+T ss_dssp             EEEEEE
+T ss_pred             eEEEEc
+
+

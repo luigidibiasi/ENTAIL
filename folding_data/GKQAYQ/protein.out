@@ -1,0 +1,148 @@
+Query         GKQAYQ
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 01:28:04 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GKQAYQ/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GKQAYQ/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6FTO_C Chromo domain-containin  12.1 2.2E+02  0.0024   12.5   0.0    6    1-6      66-71  (81)
+  2 2VOY_K POTENTIAL COPPER-TRANSP   9.0 3.3E+02  0.0037    7.8   0.0    6    1-6       2-7   (32)
+  3 3LGE_G Fructose-bisphosphate a   8.6 3.5E+02  0.0039   10.0   0.0    4    3-6       1-4   (31)
+  4 6U97_A Lipoprotein cytochrome    8.6 3.5E+02  0.0039    8.2   0.0    6    1-6       5-10  (82)
+  5 1IO3_A CYTOCHROME C2, PROTOPOR   8.3 3.7E+02  0.0041    9.0   0.0    6    1-6       6-11  (107)
+  6 4N0K_A Cytochrome c iso-1; ALL   8.2 3.8E+02  0.0042    9.0   0.0    6    1-6      11-16  (108)
+  7 2EGQ_A FHL1 protein; LIM domai   7.8   4E+02  0.0045    7.2   0.0    5    1-5       1-5   (77)
+  8 2L4D_A SCO1/SenC family protei   7.7 4.1E+02  0.0045    8.9   0.0    6    1-6       6-11  (110)
+  9 7O38_A anaerobic ammonium oxid   7.7 4.1E+02  0.0046    8.4   0.0    6    1-6       7-12  (89)
+ 10 6KCR_A Mannitol operon repress   7.2 4.5E+02  0.0049   12.1   0.0    5    2-6     196-200 (201)
+
+No 1
+>6FTO_C Chromo domain-containing protein 2, Chromatin; chromoshadow domain, complex, chromatin remodeler; HET: HEZ; 1.6A {Schizosaccharomyces pombe}
+Probab=12.12  E-value=2.2e+02  Score=12.48  Aligned_cols=6  Identities=33%  Similarity=0.645  Sum_probs=3.0  Template_Neff=2.000
+
+Q GKQAYQ            1 GKQAYQ    6 (6)
+Q Consensus         1 gkqayq    6 (6)
+                      ||.+||
+T Consensus        66 Gk~cy~   71 (81)
+T 6FTO_C           66 GKACLR   71 (81)
+T ss_dssp             HHHHHH
+T ss_pred             chhHHH
+Confidence            455554
+
+
+No 2
+>2VOY_K POTENTIAL COPPER-TRANSPORTING ATPASE (E.C.3.6.3.4), SARCOPLASMIC/ENDOPLASMIC; HYDROLASEP-TYPE ATPASE, CRYO-EM, HELICAL RECONSTRUCTION; 18.0A {ORYCTOLAGUS CUNICULUS}
+Probab=9.02  E-value=3.3e+02  Score=7.82  Aligned_cols=6  Identities=33%  Similarity=0.933  Sum_probs=0.0  Template_Neff=8.500
+
+Q GKQAYQ            1 GKQAYQ    6 (6)
+Q Consensus         1 gkqayq    6 (6)
+                      |++.|+
+T Consensus         2 GR~i~~    7 (32)
+T 2VOY_K            2 GRAIYN    7 (32)
+T ss_pred             chhHHH
+
+
+No 3
+>3LGE_G Fructose-bisphosphate aldolase A (E.C.4.1.2.13), Sorting; complex, glycolysis, actin dynamics, LC4; 2.2A {Oryctolagus cuniculus}
+Probab=8.63  E-value=3.5e+02  Score=9.96  Aligned_cols=4  Identities=100%  Similarity=1.298  Sum_probs=0.0  Template_Neff=2.800
+
+Q GKQAYQ            3 QAYQ    6 (6)
+Q Consensus         3 qayq    6 (6)
+                      |+||
+T Consensus         1 q~~q    4 (31)
+T 3LGE_G            1 QAYQ    4 (31)
+T ss_pred             CCCC
+
+
+No 4
+>6U97_A Lipoprotein cytochrome c, 1 heme-binding; OmcF, redox-Bohr effect, ELECTRON TRANSPORT; HET: HEM; 1.13A {Geobacter sulfurreducens (strain ATCC 51573 / DSM 12127 / PCA)}
+Probab=8.57  E-value=3.5e+02  Score=8.19  Aligned_cols=6  Identities=17%  Similarity=0.606  Sum_probs=0.0  Template_Neff=11.100
+
+Q GKQAYQ            1 GKQAYQ    6 (6)
+Q Consensus         1 gkqayq    6 (6)
+                      |++.|+
+T Consensus         5 g~~~~~   10 (82)
+T 6U97_A            5 GGELFA   10 (82)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 5
+>1IO3_A CYTOCHROME C2, PROTOPORPHYRIN IX CONTAINING; HEME PROTEIN, ELECTRON TRANSPORT; HET: HEM; 1.9A {Blastochloris viridis} SCOP: a.3.1.1
+Probab=8.29  E-value=3.7e+02  Score=9.00  Aligned_cols=6  Identities=33%  Similarity=0.955  Sum_probs=0.0  Template_Neff=10.300
+
+Q GKQAYQ            1 GKQAYQ    6 (6)
+Q Consensus         1 gkqayq    6 (6)
+                      |++.|+
+T Consensus         6 G~~l~~   11 (107)
+T 1IO3_A            6 GEQVFK   11 (107)
+T ss_pred             HHHHHH
+
+
+No 6
+>4N0K_A Cytochrome c iso-1; ALL ALPHA, ELECTRON CARRIER PROTEIN; HET: T3Y, HEC; 1.05A {Saccharomyces cerevisiae}
+Probab=8.18  E-value=3.8e+02  Score=8.95  Aligned_cols=6  Identities=17%  Similarity=0.645  Sum_probs=0.0  Template_Neff=10.400
+
+Q GKQAYQ            1 GKQAYQ    6 (6)
+Q Consensus         1 gkqayq    6 (6)
+                      ||..|+
+T Consensus        11 Gk~~~~   16 (108)
+T 4N0K_A           11 GATLFK   16 (108)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 7
+>2EGQ_A FHL1 protein; LIM domain, Four and a; HET: ZN; NMR {Homo sapiens}
+Probab=7.77  E-value=4e+02  Score=7.24  Aligned_cols=5  Identities=20%  Similarity=0.368  Sum_probs=0.0  Template_Neff=12.500
+
+Q GKQAYQ            1 GKQAY    5 (6)
+Q Consensus         1 gkqay    5 (6)
+                      |.++|
+T Consensus         1 ~~~~~    5 (77)
+T 2EGQ_A            1 GSSGS    5 (77)
+T ss_dssp             CCSSC
+T ss_pred             CCCcc
+
+
+No 8
+>2L4D_A SCO1/SenC family protein/cytochrome c; cytochrome c, sco, electron transfer; HET: HEC; NMR {Pseudomonas putida}
+Probab=7.67  E-value=4.1e+02  Score=8.89  Aligned_cols=6  Identities=33%  Similarity=0.905  Sum_probs=0.0  Template_Neff=10.400
+
+Q GKQAYQ            1 GKQAYQ    6 (6)
+Q Consensus         1 gkqayq    6 (6)
+                      |++.|+
+T Consensus         6 G~~~~~   11 (110)
+T 2L4D_A            6 GEQIFR   11 (110)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 9
+>7O38_A anaerobic ammonium oxidation, cytochrome c; HET: HEC; 3.0A {Kuenenia stuttgartiensis}
+Probab=7.65  E-value=4.1e+02  Score=8.38  Aligned_cols=6  Identities=0%  Similarity=0.529  Sum_probs=0.0  Template_Neff=10.700
+
+Q GKQAYQ            1 GKQAYQ    6 (6)
+Q Consensus         1 gkqayq    6 (6)
+                      |++.|+
+T Consensus         7 g~~l~~   12 (89)
+T 7O38_A            7 ARNLFE   12 (89)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 10
+>6KCR_A Mannitol operon repressor, Phosphocarrier protein; MtlR, HPr, glucose repression of; 3.5A {Escherichia coli K-12}
+Probab=7.19  E-value=4.5e+02  Score=12.10  Aligned_cols=5  Identities=60%  Similarity=0.992  Sum_probs=0.0  Template_Neff=5.400
+
+Q GKQAYQ            2 KQAYQ    6 (6)
+Q Consensus         2 kqayq    6 (6)
+                      |||+|
+T Consensus       196 ~~~~~  200 (201)
+T 6KCR_A          196 KKAFQ  200 (201)
+T ss_dssp             -----
+T ss_pred             HHHhc
+
+

@@ -1,0 +1,150 @@
+Query         LATMYV
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 14:54:43 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LATMYV/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LATMYV/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6SP2_C Membrane protein TMS1d;  18.9 1.1E+02  0.0012   15.3   0.0    6    1-6     406-411 (513)
+  2 2N1D_A MRG/MORF4L-binding prot   7.1 4.5E+02   0.005   10.0   0.0    5    1-5      16-20  (54)
+  3 7CKA_A Heme oxygenase 1 (E.C.1   6.6   5E+02  0.0056   10.6   0.0    6    1-6     140-145 (226)
+  4 6HKA_A Immunoglobulin G-bindin   6.4 5.2E+02  0.0057   10.3   0.0    6    1-6      89-94  (100)
+  5 1N45_B heme oxygenase 1 (E.C.1   6.0 5.7E+02  0.0063   10.2   0.0    6    1-6     130-135 (233)
+  6 4G86_A Circadian clock protein   5.9 5.8E+02  0.0064   10.5   0.0    5    1-5     272-276 (284)
+  7 1WOV_B Heme oxygenase 2 (E.C.1   5.8   6E+02  0.0066   10.5   0.0    6    1-6     120-125 (250)
+  8 1WOX_B Heme oxygenase 2 (E.C.1   5.8   6E+02  0.0066   10.5   0.0    6    1-6     120-125 (250)
+  9 1R8J_A KaiA; KaiA, Circadian C   5.7   6E+02  0.0066   10.4   0.0    5    1-5     277-281 (289)
+ 10 1WE1_C Heme oxygenase 1(E.C.1.   5.7   6E+02  0.0067   10.3   0.0    6    1-6     121-126 (240)
+
+No 1
+>6SP2_C Membrane protein TMS1d; Anti-retroviral, TM10, SERINC fold, novel; HET: CDL, LMN, P5S; 3.33A {Drosophila melanogaster}
+Probab=18.88  E-value=1.1e+02  Score=15.31  Aligned_cols=6  Identities=50%  Similarity=0.910  Sum_probs=3.3  Template_Neff=6.200
+
+Q LATMYV            1 LATMYV    6 (6)
+Q Consensus         1 latmyv    6 (6)
+                      ||+||+
+T Consensus       406 LASmYv  411 (513)
+T 6SP2_C          406 CASLYV  411 (513)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            456664
+
+
+No 2
+>2N1D_A MRG/MORF4L-binding protein, Mortality factor 4-like; MRG domain, protein-protein interaction, Tip60-NuA4; NMR {Homo sapiens}
+Probab=7.12  E-value=4.5e+02  Score=9.96  Aligned_cols=5  Identities=80%  Similarity=1.311  Sum_probs=0.0  Template_Neff=4.900
+
+Q LATMYV            1 LATMY    5 (6)
+Q Consensus         1 latmy    5 (6)
+                      |.++|
+T Consensus        16 L~~~Y   20 (54)
+T 2N1D_A           16 LSTMY   20 (54)
+T ss_dssp             HHHTT
+T ss_pred             HHHhc
+
+
+No 3
+>7CKA_A Heme oxygenase 1 (E.C.1.14.99.3); METAL BINDING PROTEIN, OXIDOREDUCTASE; HET: HEM, CIT; 1.06A {Glycine max}
+Probab=6.56  E-value=5e+02  Score=10.61  Aligned_cols=6  Identities=17%  Similarity=0.567  Sum_probs=0.0  Template_Neff=8.900
+
+Q LATMYV            1 LATMYV    6 (6)
+Q Consensus         1 latmyv    6 (6)
+                      ++.+||
+T Consensus       140 lG~~YV  145 (226)
+T 7CKA_A          140 ICHFYN  145 (226)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 4
+>6HKA_A Immunoglobulin G-binding protein G,Serine-protein kinase; Ataxia telangiectasia mutated (ATM), FATC; NMR {Streptococcus sp. group G}
+Probab=6.44  E-value=5.2e+02  Score=10.29  Aligned_cols=6  Identities=17%  Similarity=0.611  Sum_probs=0.0  Template_Neff=6.400
+
+Q LATMYV            1 LATMYV    6 (6)
+Q Consensus         1 latmyv    6 (6)
+                      |+.||.
+T Consensus        89 La~my~   94 (100)
+T 6HKA_A           89 LSRLFP   94 (100)
+T ss_pred             Hhhccc
+
+
+No 5
+>1N45_B heme oxygenase 1 (E.C.1.14.99.3); Alpha Helices, heme-binding site, OXIDOREDUCTASE; HET: HEM; 1.5A {Homo sapiens} SCOP: a.132.1.1
+Probab=5.96  E-value=5.7e+02  Score=10.19  Aligned_cols=6  Identities=33%  Similarity=0.611  Sum_probs=0.0  Template_Neff=9.600
+
+Q LATMYV            1 LATMYV    6 (6)
+Q Consensus         1 latmyv    6 (6)
+                      |+.+||
+T Consensus       130 la~~yv  135 (233)
+T 1N45_B          130 VAHAYT  135 (233)
+T ss_dssp             HHHHCC
+T ss_pred             HHHHHH
+
+
+No 6
+>4G86_A Circadian clock protein kaiA; homodimer, KaiC phosphorylation activator, KaiC; HET: BNT, 2PE, GOL, 1PE; 2.387A {Synechococcus elongatus}
+Probab=5.92  E-value=5.8e+02  Score=10.46  Aligned_cols=5  Identities=60%  Similarity=1.099  Sum_probs=0.0  Template_Neff=9.700
+
+Q LATMYV            1 LATMY    5 (6)
+Q Consensus         1 latmy    5 (6)
+                      |+.||
+T Consensus       272 l~~~y  276 (284)
+T 4G86_A          272 LCEMY  276 (284)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 7
+>1WOV_B Heme oxygenase 2 (E.C.1.14.99.3); HOMO DIMER, OXIDOREDUCTASE; HET: HEM; 1.75A {Synechocystis sp. PCC 6803} SCOP: a.132.1.1
+Probab=5.76  E-value=6e+02  Score=10.53  Aligned_cols=6  Identities=33%  Similarity=0.656  Sum_probs=0.0  Template_Neff=9.000
+
+Q LATMYV            1 LATMYV    6 (6)
+Q Consensus         1 latmyv    6 (6)
+                      ++.+||
+T Consensus       120 lG~~Yv  125 (250)
+T 1WOV_B          120 IAHCYT  125 (250)
+T ss_dssp             HHHHCC
+T ss_pred             HHHHHH
+
+
+No 8
+>1WOX_B Heme oxygenase 2 (E.C.1.14.99.3); HOMO-DIMER, NO-bound heme complex, OXIDOREDUCTASE; HET: HEM; 2.1A {Synechocystis sp.} SCOP: a.132.1.1
+Probab=5.76  E-value=6e+02  Score=10.53  Aligned_cols=6  Identities=33%  Similarity=0.656  Sum_probs=0.0  Template_Neff=9.000
+
+Q LATMYV            1 LATMYV    6 (6)
+Q Consensus         1 latmyv    6 (6)
+                      ++.+||
+T Consensus       120 lG~~Yv  125 (250)
+T 1WOX_B          120 IAHCYT  125 (250)
+T ss_dssp             HHHHCC
+T ss_pred             HHHHHH
+
+
+No 9
+>1R8J_A KaiA; KaiA, Circadian Clock Protein; 2.03A {Synechococcus elongatus PCC 7942} SCOP: c.23.1.5, a.186.1.1
+Probab=5.73  E-value=6e+02  Score=10.44  Aligned_cols=5  Identities=60%  Similarity=1.099  Sum_probs=0.0  Template_Neff=9.700
+
+Q LATMYV            1 LATMY    5 (6)
+Q Consensus         1 latmy    5 (6)
+                      |+.||
+T Consensus       277 l~~~y  281 (289)
+T 1R8J_A          277 LCEMY  281 (289)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 10
+>1WE1_C Heme oxygenase 1(E.C.1.14.99.3); oxidoreductase; HET: HEM, PO4, IPA; 2.5A {Synechocystis sp.} SCOP: a.132.1.1
+Probab=5.70  E-value=6e+02  Score=10.31  Aligned_cols=6  Identities=33%  Similarity=0.573  Sum_probs=0.0  Template_Neff=9.300
+
+Q LATMYV            1 LATMYV    6 (6)
+Q Consensus         1 latmyv    6 (6)
+                      ++.+||
+T Consensus       121 lG~~Yv  126 (240)
+T 1WE1_C          121 VAHSYT  126 (240)
+T ss_dssp             HHHHCC
+T ss_pred             HHHHHH
+
+

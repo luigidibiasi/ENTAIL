@@ -1,0 +1,150 @@
+Query         NRYQGY
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 03:56:32 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NRYQGY/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NRYQGY/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6IIQ_B Hepatoma-derived growth  16.0 1.5E+02  0.0016   10.5   0.0    4    3-6      97-100 (100)
+  2 6IIT_B Hepatoma-derived growth  16.0 1.5E+02  0.0016   10.5   0.0    4    3-6      97-100 (100)
+  3 4CSG_H NUCLEOPROTEIN; VIRAL PR  15.9 1.5E+02  0.0016   13.7   0.0    5    2-6      31-35  (253)
+  4 4H5L_C Nucleoprotein; nucleoca  15.9 1.5E+02  0.0016   13.7   0.0    5    2-6      31-35  (253)
+  5 3OV9_C Nucleoprotein; Orthogon  15.9 1.5E+02  0.0016   13.6   0.0    5    2-6      29-33  (245)
+  6 1O50_A CBS domain-containing p  15.8 1.5E+02  0.0016   10.3   0.0    5    2-6       1-5   (157)
+  7 4H5P_A Nucleocapsid protein; n  15.6 1.5E+02  0.0017   13.6   0.0    5    2-6      29-33  (245)
+  8 4J4W_A Nucleocapsid; nucleocap  15.5 1.5E+02  0.0017   13.6   0.0    5    2-6      31-35  (246)
+  9 4J4Y_D NP protein; nucleocapsi  15.5 1.5E+02  0.0017   13.6   0.0    5    2-6      34-38  (257)
+ 10 7CVU_D Catechol o-methyl trans  15.5 1.5E+02  0.0017   11.0   0.0    6    1-6     210-215 (229)
+
+No 1
+>6IIQ_B Hepatoma-derived growth factor-related protein 3/DNA; growth factor, PWWP domain, Hepatoma-derived; HET: TRS, MLA; 1.85A {Homo sapiens}
+Probab=16.00  E-value=1.5e+02  Score=10.48  Aligned_cols=4  Identities=50%  Similarity=1.622  Sum_probs=0.0  Template_Neff=9.100
+
+Q NRYQGY            3 YQGY    6 (6)
+Q Consensus         3 yqgy    6 (6)
+                      ||||
+T Consensus        97 ~~~~  100 (100)
+T 6IIQ_B           97 FTGY  100 (100)
+T ss_dssp             CCCC
+T ss_pred             CCCC
+
+
+No 2
+>6IIT_B Hepatoma-derived growth factor-related protein 3; growth factor, PWWP domain, Hepatoma-derived; HET: MLY; 2.1A {Homo sapiens}
+Probab=16.00  E-value=1.5e+02  Score=10.48  Aligned_cols=4  Identities=50%  Similarity=1.622  Sum_probs=0.0  Template_Neff=9.100
+
+Q NRYQGY            3 YQGY    6 (6)
+Q Consensus         3 yqgy    6 (6)
+                      ||||
+T Consensus        97 ~~~~  100 (100)
+T 6IIT_B           97 FTGY  100 (100)
+T ss_dssp             CCCC
+T ss_pred             CCCC
+
+
+No 3
+>4CSG_H NUCLEOPROTEIN; VIRAL PROTEIN, INFECTIOUS; 3.32A {TOSCANA VIRUS}
+Probab=15.88  E-value=1.5e+02  Score=13.66  Aligned_cols=5  Identities=60%  Similarity=1.438  Sum_probs=0.0  Template_Neff=6.100
+
+Q NRYQGY            2 RYQGY    6 (6)
+Q Consensus         2 ryqgy    6 (6)
+                      .|||+
+T Consensus        31 ~YqGF   35 (253)
+T 4CSG_H           31 AYQGF   35 (253)
+T ss_dssp             SBCSC
+T ss_pred             hhcCC
+
+
+No 4
+>4H5L_C Nucleoprotein; nucleocapsid protein, N protein, ribonucleoprotein; 2.75A {Toscana virus}
+Probab=15.88  E-value=1.5e+02  Score=13.66  Aligned_cols=5  Identities=60%  Similarity=1.438  Sum_probs=0.0  Template_Neff=6.100
+
+Q NRYQGY            2 RYQGY    6 (6)
+Q Consensus         2 ryqgy    6 (6)
+                      .|||+
+T Consensus        31 ~YqGF   35 (253)
+T 4H5L_C           31 AYQGF   35 (253)
+T ss_dssp             SCCSS
+T ss_pred             hhcCC
+
+
+No 5
+>3OV9_C Nucleoprotein; Orthogonal Bundle, Viral genomic encapsidation; 1.6A {Rift valley fever virus}
+Probab=15.87  E-value=1.5e+02  Score=13.60  Aligned_cols=5  Identities=60%  Similarity=1.438  Sum_probs=0.0  Template_Neff=6.100
+
+Q NRYQGY            2 RYQGY    6 (6)
+Q Consensus         2 ryqgy    6 (6)
+                      .|||+
+T Consensus        29 ~YqGF   33 (245)
+T 3OV9_C           29 AYQGF   33 (245)
+T ss_dssp             SCCSC
+T ss_pred             HhCCC
+
+
+No 6
+>1O50_A CBS domain-containing predicted protein TM0935; Cbs-domain pair fold, structural genomics; 1.87A {Thermotoga maritima} SCOP: d.37.1.1
+Probab=15.83  E-value=1.5e+02  Score=10.26  Aligned_cols=5  Identities=0%  Similarity=-0.496  Sum_probs=0.0  Template_Neff=11.100
+
+Q NRYQGY            2 RYQGY    6 (6)
+Q Consensus         2 ryqgy    6 (6)
+                      |++|+
+T Consensus         1 ~~~~~    5 (157)
+T 1O50_A            1 MGSDK    5 (157)
+T ss_dssp             -----
+T ss_pred             CCccc
+
+
+No 7
+>4H5P_A Nucleocapsid protein; nucleocapsid protein, N protein, ribonucleoprotein; 2.15A {Rift Valley fever virus}
+Probab=15.65  E-value=1.5e+02  Score=13.57  Aligned_cols=5  Identities=60%  Similarity=1.438  Sum_probs=0.0  Template_Neff=6.100
+
+Q NRYQGY            2 RYQGY    6 (6)
+Q Consensus         2 ryqgy    6 (6)
+                      .|||+
+T Consensus        29 ~YqGF   33 (245)
+T 4H5P_A           29 AYQGF   33 (245)
+T ss_dssp             SCCCC
+T ss_pred             HhCCC
+
+
+No 8
+>4J4W_A Nucleocapsid; nucleocapsid protein, nucleoprotein, nucleocapsid, VIRAL; 2.661A {Buenaventura virus}
+Probab=15.53  E-value=1.5e+02  Score=13.61  Aligned_cols=5  Identities=60%  Similarity=1.438  Sum_probs=0.0  Template_Neff=6.000
+
+Q NRYQGY            2 RYQGY    6 (6)
+Q Consensus         2 ryqgy    6 (6)
+                      .|||+
+T Consensus        31 ~YqGF   35 (246)
+T 4J4W_A           31 AYQGF   35 (246)
+T ss_dssp             CCCCC
+T ss_pred             hhCCC
+
+
+No 9
+>4J4Y_D NP protein; nucleocapsid protein, nucleoprotein, VIRAL PROTEIN; 2.45A {Granada virus}
+Probab=15.52  E-value=1.5e+02  Score=13.64  Aligned_cols=5  Identities=60%  Similarity=1.438  Sum_probs=0.0  Template_Neff=6.100
+
+Q NRYQGY            2 RYQGY    6 (6)
+Q Consensus         2 ryqgy    6 (6)
+                      .|||+
+T Consensus        34 ~YqGF   38 (257)
+T 4J4Y_D           34 AYQGF   38 (257)
+T ss_dssp             SCCCC
+T ss_pred             hhcCC
+
+
+No 10
+>7CVU_D Catechol o-methyl transferase  ; HET: GOL; 1.75A {Niastella koreensis (strain DSM 17620 / KACC 11465 / NBRC 106392 / GR20-10)}
+Probab=15.49  E-value=1.5e+02  Score=11.02  Aligned_cols=6  Identities=33%  Similarity=0.905  Sum_probs=0.0  Template_Neff=10.900
+
+Q NRYQGY            1 NRYQGY    6 (6)
+Q Consensus         1 nryqgy    6 (6)
+                      ++|+|.
+T Consensus       210 ~~~~g~  215 (229)
+T 7CVU_D          210 KEYDGM  215 (229)
+T ss_dssp             TEEEEE
+T ss_pred             cccCcE
+
+

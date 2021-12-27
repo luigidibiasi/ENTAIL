@@ -1,0 +1,147 @@
+Query         PNGITL
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 06:04:50 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/PNGITL/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/PNGITL/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6H5A_B CDP-diacylglycerol--ino  19.7 1.1E+02  0.0012   12.8   0.0    6    1-6      30-35  (223)
+  2 6PZL_A Hemolysin; hemolysin, t  19.2 1.1E+02  0.0012   13.5   0.0    6    1-6     110-115 (242)
+  3 5EUF_B Protease (E.C.3.4.-.-);  19.1 1.1E+02  0.0012   12.1   0.0    6    1-6      14-19  (419)
+  4 3AMJ_B zinc peptidase inactive  19.1 1.1E+02  0.0012   12.1   0.0    6    1-6      10-15  (424)
+  5 3AMI_B zinc peptidase (E.C.3.4  18.8 1.1E+02  0.0013   12.5   0.0    6    1-6      13-18  (445)
+  6 5HXK_A Zinc-dependent peptidas  17.9 1.2E+02  0.0013   12.0   0.0    6    1-6      28-33  (423)
+  7 1PPJ_O UBIQUINOL CYTOCHROME C   17.4 1.3E+02  0.0014   12.0   0.0    6    1-6      30-35  (439)
+  8 3GWB_B Peptidase M16 inactive   17.1 1.3E+02  0.0014   12.1   0.0    6    1-6      20-25  (434)
+  9 1RWR_A Filamentous hemagglutin  16.9 1.3E+02  0.0015   13.7   0.0    6    1-6     106-111 (301)
+ 10 5SZ8_A truncated hemolysin A;   16.5 1.4E+02  0.0015   13.1   0.0    6    1-6     110-115 (205)
+
+No 1
+>6H5A_B CDP-diacylglycerol--inositol 3-phosphatidyltransferase (E.C.2.7.8.11); Phosphotransferase Glycerophospholipid metabolism Metal binding; HET: OLC, FLC, 1PE, LFA; 1.88A {Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv)}
+Probab=19.65  E-value=1.1e+02  Score=12.81  Aligned_cols=6  Identities=33%  Similarity=0.828  Sum_probs=0.0  Template_Neff=8.200
+
+Q PNGITL            1 PNGITL    6 (6)
+Q Consensus         1 pngitl    6 (6)
+                      ||-||+
+T Consensus        30 PN~iTl   35 (223)
+T 6H5A_B           30 PDVVTI   35 (223)
+T ss_pred             HHHHHH
+
+
+No 2
+>6PZL_A Hemolysin; hemolysin, two-partner secretion, beta-helix, toxin; HET: GOL; 1.17A {Proteus mirabilis}
+Probab=19.25  E-value=1.1e+02  Score=13.48  Aligned_cols=6  Identities=83%  Similarity=1.276  Sum_probs=0.0  Template_Neff=7.100
+
+Q PNGITL            1 PNGITL    6 (6)
+Q Consensus         1 pngitl    6 (6)
+                      ||||+.
+T Consensus       110 pnGI~~  115 (242)
+T 6PZL_A          110 PNGITC  115 (242)
+T ss_dssp             TTCEEE
+T ss_pred             CCCeEe
+
+
+No 3
+>5EUF_B Protease (E.C.3.4.-.-); structural genomics, The Center for; HET: GOL, MSE; 2.8A {Helicobacter pylori}
+Probab=19.08  E-value=1.1e+02  Score=12.06  Aligned_cols=6  Identities=33%  Similarity=0.800  Sum_probs=0.0  Template_Neff=11.700
+
+Q PNGITL            1 PNGITL    6 (6)
+Q Consensus         1 pngitl    6 (6)
+                      +||+++
+T Consensus        14 ~nG~~v   19 (419)
+T 5EUF_B           14 KNGLQV   19 (419)
+T ss_dssp             TTSCEE
+T ss_pred             CCCcEE
+
+
+No 4
+>3AMJ_B zinc peptidase inactive subunit (E.C.3.4.24.-); alpha/beta, zinc peptidase, zinc binding; 3.0A {Sphingomonas}
+Probab=19.08  E-value=1.1e+02  Score=12.08  Aligned_cols=6  Identities=33%  Similarity=0.894  Sum_probs=0.0  Template_Neff=11.700
+
+Q PNGITL            1 PNGITL    6 (6)
+Q Consensus         1 pngitl    6 (6)
+                      +||+++
+T Consensus        10 ~nG~~v   15 (424)
+T 3AMJ_B           10 PSGAQV   15 (424)
+T ss_pred             CCCcEE
+
+
+No 5
+>3AMI_B zinc peptidase (E.C.3.4.24.-); alpha/beta, peptidase, zinc binding, HYDROLASE; 2.4A {Sphingomonas}
+Probab=18.75  E-value=1.1e+02  Score=12.47  Aligned_cols=6  Identities=50%  Similarity=1.259  Sum_probs=0.0  Template_Neff=11.100
+
+Q PNGITL            1 PNGITL    6 (6)
+Q Consensus         1 pngitl    6 (6)
+                      +||+++
+T Consensus        13 ~NG~~v   18 (445)
+T 3AMI_B           13 PNGLKV   18 (445)
+T ss_dssp             TTSCEE
+T ss_pred             CCCcEE
+
+
+No 6
+>5HXK_A Zinc-dependent peptidase; TTHA1265, protease, complex, HYDROLASE; 2.0A {Thermus thermophilus (strain HB8 / ATCC 27634 / DSM 579)}
+Probab=17.93  E-value=1.2e+02  Score=12.02  Aligned_cols=6  Identities=50%  Similarity=1.254  Sum_probs=0.0  Template_Neff=11.600
+
+Q PNGITL            1 PNGITL    6 (6)
+Q Consensus         1 pngitl    6 (6)
+                      +||+++
+T Consensus        28 ~nGl~v   33 (423)
+T 5HXK_A           28 PNGLVV   33 (423)
+T ss_dssp             TTSCEE
+T ss_pred             CCCcEE
+
+
+No 7
+>1PPJ_O UBIQUINOL CYTOCHROME C OXIDOREDUCTASE (E.C.1.10.2.2); CYTOCHROME BC1, MEMBRANE PROTEIN, HEME; HET: CDL, ANY, SMA, HEC, PEE, PO4, GOL, HEM, AZI, JZR; 2.1A {Bos taurus} SCOP: d.185.1.1
+Probab=17.37  E-value=1.3e+02  Score=11.98  Aligned_cols=6  Identities=50%  Similarity=1.309  Sum_probs=0.0  Template_Neff=11.700
+
+Q PNGITL            1 PNGITL    6 (6)
+Q Consensus         1 pngitl    6 (6)
+                      +||+++
+T Consensus        30 ~nG~~v   35 (439)
+T 1PPJ_O           30 PNGLVI   35 (439)
+T ss_pred             CCCeEE
+
+
+No 8
+>3GWB_B Peptidase M16 inactive domain family; peptidase M16 family, PFL_5859, Structural; HET: MSE; 1.9A {Pseudomonas fluorescens}
+Probab=17.15  E-value=1.3e+02  Score=12.09  Aligned_cols=6  Identities=17%  Similarity=0.495  Sum_probs=0.0  Template_Neff=11.400
+
+Q PNGITL            1 PNGITL    6 (6)
+Q Consensus         1 pngitl    6 (6)
+                      +||+++
+T Consensus        20 ~nG~~v   25 (434)
+T 3GWB_B           20 AEGAKV   25 (434)
+T ss_dssp             TTCCEE
+T ss_pred             CCCcEE
+
+
+No 9
+>1RWR_A Filamentous hemagglutinin; Type V secretion, beta-helix, adhesins; 1.72A {Bordetella pertussis} SCOP: b.80.1.11
+Probab=16.92  E-value=1.3e+02  Score=13.68  Aligned_cols=6  Identities=67%  Similarity=1.403  Sum_probs=0.0  Template_Neff=7.000
+
+Q PNGITL            1 PNGITL    6 (6)
+Q Consensus         1 pngitl    6 (6)
+                      ||||+.
+T Consensus       106 pnGI~~  111 (301)
+T 1RWR_A          106 PNGISV  111 (301)
+T ss_dssp             TTCEEE
+T ss_pred             CCCeEE
+
+
+No 10
+>5SZ8_A truncated hemolysin A; hemolysin, two partner secretion, beta; HET: SO4; 1.83A {Proteus mirabilis}
+Probab=16.50  E-value=1.4e+02  Score=13.06  Aligned_cols=6  Identities=83%  Similarity=1.276  Sum_probs=0.0  Template_Neff=6.700
+
+Q PNGITL            1 PNGITL    6 (6)
+Q Consensus         1 pngitl    6 (6)
+                      ||||+.
+T Consensus       110 pnGI~~  115 (205)
+T 5SZ8_A          110 PNGITC  115 (205)
+T ss_dssp             TTCEEE
+T ss_pred             CCCeee
+
+

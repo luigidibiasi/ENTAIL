@@ -1,0 +1,147 @@
+Query         INNMTN
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 08:54:58 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/INNMTN/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/INNMTN/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5AKA_5 50S RIBOSOMAL PROTEIN L  10.8 2.6E+02  0.0029   11.2   0.0    6    1-6      53-58  (109)
+  2 2B2A_B Telomerase, TERT, Rever  10.7 2.6E+02  0.0029   12.2   0.0    6    1-6      12-17  (199)
+  3 6EA3_A MbtH-like protein, amin  10.7 2.6E+02  0.0029   11.3   0.0    6    1-6       5-10  (81)
+  4 3NDB_B Signal recognition part  10.6 2.6E+02  0.0029   12.8   0.0    6    1-6     376-381 (454)
+  5 6GNX_D Membrane-anchored junct  10.5 2.7E+02  0.0029   11.4   0.0    4    1-4       4-7   (55)
+  6 3ZN8_M SIGNAL RECOGNITION PART  10.5 2.7E+02   0.003   11.4   0.0    6    1-6      75-80  (125)
+  7 4P12_A Major capsid protein; P  10.4 2.7E+02   0.003   13.6   0.0    6    1-6      14-19  (301)
+  8 1QB2_B HUMAN PROTEIN SRP54M; A  10.3 2.7E+02   0.003   11.0   0.0    6    1-6      54-59  (109)
+  9 2B2A_A Telomerase reverse tran  10.3 2.7E+02   0.003   12.1   0.0    6    1-6      12-17  (199)
+ 10 6CB7_A Protein A6; VACCINIA VI  10.3 2.8E+02  0.0031   12.8   0.0    4    1-4     118-121 (122)
+
+No 1
+>5AKA_5 50S RIBOSOMAL PROTEIN L32, 50S; PROTEIN TARGETING, SIGNAL RECOGNITION PARTICLE; HET: MG; 5.7A {ESCHERICHIA COLI K-12}
+Probab=10.79  E-value=2.6e+02  Score=11.18  Aligned_cols=6  Identities=67%  Similarity=0.739  Sum_probs=0.0  Template_Neff=6.600
+
+Q INNMTN            1 INNMTN    6 (6)
+Q Consensus         1 innmtn    6 (6)
+                      |+.||.
+T Consensus        53 i~SMT~   58 (109)
+T 5AKA_5           53 INSMTM   58 (109)
+T ss_pred             HHhCCH
+
+
+No 2
+>2B2A_B Telomerase, TERT, Reverse Transcriptase, RT; 2.22A {Tetrahymena thermophila}
+Probab=10.75  E-value=2.6e+02  Score=12.21  Aligned_cols=6  Identities=67%  Similarity=1.021  Sum_probs=0.0  Template_Neff=6.700
+
+Q INNMTN            1 INNMTN    6 (6)
+Q Consensus         1 innmtn    6 (6)
+                      ||||.|
+T Consensus        12 ~~~~~~   17 (199)
+T 2B2A_B           12 INNINN   17 (199)
+T ss_dssp             ------
+T ss_pred             cccccc
+
+
+No 3
+>6EA3_A MbtH-like protein, amino acid activating; siderophore biosynthesis, serine activating adenylation; HET: SRP; 1.65A {Thermobifida fusca (strain YX)}
+Probab=10.67  E-value=2.6e+02  Score=11.34  Aligned_cols=6  Identities=67%  Similarity=0.883  Sum_probs=0.0  Template_Neff=4.900
+
+Q INNMTN            1 INNMTN    6 (6)
+Q Consensus         1 innmtn    6 (6)
+                      |+.|+|
+T Consensus         5 ~~~~~n   10 (81)
+T 6EA3_A            5 IGSMTN   10 (81)
+T ss_dssp             ----CC
+T ss_pred             ccCCCC
+
+
+No 4
+>3NDB_B Signal recognition particle 19 kDa; protein-RNA complex, signal recognition particle; 3.0A {Methanocaldococcus jannaschii}
+Probab=10.63  E-value=2.6e+02  Score=12.77  Aligned_cols=6  Identities=50%  Similarity=0.744  Sum_probs=0.0  Template_Neff=8.600
+
+Q INNMTN            1 INNMTN    6 (6)
+Q Consensus         1 innmtn    6 (6)
+                      |+.||.
+T Consensus       376 i~sMt~  381 (454)
+T 3NDB_B          376 ISSMTK  381 (454)
+T ss_dssp             HTTSCH
+T ss_pred             HhcCCH
+
+
+No 5
+>6GNX_D Membrane-anchored junction protein, Telomere repeats-binding; Meiosis, telomeres, complex, STRUCTURAL PROTEIN; HET: MSE; 2.9A {Homo sapiens}
+Probab=10.55  E-value=2.7e+02  Score=11.42  Aligned_cols=4  Identities=75%  Similarity=1.248  Sum_probs=0.0  Template_Neff=2.500
+
+Q INNMTN            1 INNM    4 (6)
+Q Consensus         1 innm    4 (6)
+                      +|||
+T Consensus         4 vNNM    7 (55)
+T 6GNX_D            4 VNNM    7 (55)
+T ss_dssp             ----
+T ss_pred             cccc
+
+
+No 6
+>3ZN8_M SIGNAL RECOGNITION PARTICLE PROTEIN (E.C.3.6.5.4); PROTEIN TRANSPORT, HYDROLASE; 12.0A {ESCHERICHIA COLI}
+Probab=10.46  E-value=2.7e+02  Score=11.42  Aligned_cols=6  Identities=50%  Similarity=0.717  Sum_probs=0.0  Template_Neff=6.500
+
+Q INNMTN            1 INNMTN    6 (6)
+Q Consensus         1 innmtn    6 (6)
+                      |+.||.
+T Consensus        75 idSMT~   80 (125)
+T 3ZN8_M           75 LNSMTY   80 (125)
+T ss_pred             HhcCCH
+
+
+No 7
+>4P12_A Major capsid protein; P domain, Capsid protein, Norovirus; 1.6011A {Norovirus Hu/GI.7/TCH-060/USA/2003}
+Probab=10.36  E-value=2.7e+02  Score=13.56  Aligned_cols=6  Identities=50%  Similarity=0.977  Sum_probs=0.0  Template_Neff=5.200
+
+Q INNMTN            1 INNMTN    6 (6)
+Q Consensus         1 innmtn    6 (6)
+                      +++|||
+T Consensus        14 ~~~mtN   19 (301)
+T 4P12_A           14 LNNLAN   19 (301)
+T ss_dssp             GGGCBC
+T ss_pred             HHHccC
+
+
+No 8
+>1QB2_B HUMAN PROTEIN SRP54M; ALPHA-HELIX, HELIX-TURN-HELIX, SIGNALING PROTEIN; 2.1A {Homo sapiens} SCOP: a.36.1.1
+Probab=10.31  E-value=2.7e+02  Score=11.01  Aligned_cols=6  Identities=17%  Similarity=0.700  Sum_probs=0.0  Template_Neff=6.800
+
+Q INNMTN            1 INNMTN    6 (6)
+Q Consensus         1 innmtn    6 (6)
+                      |+.||.
+T Consensus        54 i~SMT~   59 (109)
+T 1QB2_B           54 MDSMND   59 (109)
+T ss_dssp             HTTSCH
+T ss_pred             HHcCCH
+
+
+No 9
+>2B2A_A Telomerase reverse transcriptase (E.C.2.7.7.49); Telomerase, TERT, Reverse Transcriptase, RT; 2.22A {Tetrahymena thermophila}
+Probab=10.31  E-value=2.7e+02  Score=12.14  Aligned_cols=6  Identities=67%  Similarity=1.021  Sum_probs=0.0  Template_Neff=6.700
+
+Q INNMTN            1 INNMTN    6 (6)
+Q Consensus         1 innmtn    6 (6)
+                      ||||.|
+T Consensus        12 ~~~~~~   17 (199)
+T 2B2A_A           12 INNINN   17 (199)
+T ss_pred             ccCccc
+
+
+No 10
+>6CB7_A Protein A6; VACCINIA VIRUS, A6, POXVIRUSES, VIRION; 1.6A {Vaccinia virus (strain Copenhagen)}
+Probab=10.26  E-value=2.8e+02  Score=12.78  Aligned_cols=4  Identities=50%  Similarity=0.982  Sum_probs=0.0  Template_Neff=2.700
+
+Q INNMTN            1 INNM    4 (6)
+Q Consensus         1 innm    4 (6)
+                      ||||
+T Consensus       118 iNnM  121 (122)
+T 6CB7_A          118 LNSM  121 (122)
+T ss_dssp             CC--
+T ss_pred             Hhhc
+
+

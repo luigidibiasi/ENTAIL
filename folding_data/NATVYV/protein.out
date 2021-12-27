@@ -1,0 +1,152 @@
+Query         NATVYV
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 23:08:46 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NATVYV/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NATVYV/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6L77_A MS5a; cystatin-like, UN  29.7      51 0.00056   14.7   0.0    6    1-6     185-190 (242)
+  2 4NWR_AW integron gene cassette  15.3 1.6E+02  0.0017   14.2   0.0    6    1-6      85-90  (158)
+  3 4NWR_E integron gene cassette   15.3 1.6E+02  0.0017   14.2   0.0    6    1-6      85-90  (158)
+  4 3FUY_A Putative integron gene   15.1 1.6E+02  0.0018   14.4   0.0    6    1-6     106-111 (179)
+  5 3FUY_B Putative integron gene   15.1 1.6E+02  0.0018   14.4   0.0    6    1-6     106-111 (179)
+  6 2KZF_A Ribosome-binding factor  14.6 1.7E+02  0.0018   10.8   0.0    6    1-6      49-54  (106)
+  7 2E7G_A Putative ribosome-bindi  13.7 1.8E+02   0.002   11.1   0.0    6    1-6      57-62  (129)
+  8 2DYJ_B Ribosome-binding factor  13.4 1.9E+02  0.0021   10.5   0.0    6    1-6      44-49  (95)
+  9 2R1C_A Ribosome-binding factor  13.4 1.9E+02  0.0021   10.5   0.0    6    1-6      44-49  (95)
+ 10 7BOG_V 30S ribosomal protein S  13.4 1.9E+02  0.0021   11.3   0.0    6    1-6      49-54  (133)
+
+No 1
+>6L77_A MS5a; cystatin-like, UNKNOWN FUNCTION; HET: MSE; 1.9A {Brassica napus}
+Probab=29.71  E-value=51  Score=14.65  Aligned_cols=6  Identities=50%  Similarity=0.938  Sum_probs=3.4  Template_Neff=6.700
+
+Q NATVYV            1 NATVYV    6 (6)
+Q Consensus         1 natvyv    6 (6)
+                      ||.+|+
+T Consensus       185 nAifYI  190 (242)
+T 6L77_A          185 NVLVYI  190 (242)
+T ss_dssp             CEEEEE
+T ss_pred             eEEEEE
+Confidence            566663
+
+
+No 2
+>4NWR_AW integron gene cassette protein, Macrophage; two-component, self-assembling, tetrahedron, designed protein; 3.5A {uncultured bacterium}
+Probab=15.33  E-value=1.6e+02  Score=14.17  Aligned_cols=6  Identities=83%  Similarity=1.121  Sum_probs=3.1  Template_Neff=1.000
+
+Q NATVYV            1 NATVYV    6 (6)
+Q Consensus         1 natvyv    6 (6)
+                      ||.|||
+T Consensus        85 namvyv   90 (158)
+T 4NWR_AW          85 NAMVYV   90 (158)
+T ss_pred             eEEEEE
+Confidence            455554
+
+
+No 3
+>4NWR_E integron gene cassette protein, Macrophage; two-component, self-assembling, tetrahedron, designed protein; 3.5A {uncultured bacterium}
+Probab=15.33  E-value=1.6e+02  Score=14.17  Aligned_cols=6  Identities=83%  Similarity=1.121  Sum_probs=3.1  Template_Neff=1.000
+
+Q NATVYV            1 NATVYV    6 (6)
+Q Consensus         1 natvyv    6 (6)
+                      ||.|||
+T Consensus        85 namvyv   90 (158)
+T 4NWR_E           85 NAMVYV   90 (158)
+T ss_dssp             EEEEEE
+T ss_pred             eEEEEE
+Confidence            455554
+
+
+No 4
+>3FUY_A Putative integron gene cassette protein; Integron cassette protein, Mobile Metagenome; HET: MSE; 2.0A {uncultured bacterium}
+Probab=15.07  E-value=1.6e+02  Score=14.36  Aligned_cols=6  Identities=83%  Similarity=1.121  Sum_probs=3.3  Template_Neff=1.000
+
+Q NATVYV            1 NATVYV    6 (6)
+Q Consensus         1 natvyv    6 (6)
+                      ||.|||
+T Consensus       106 namvyv  111 (179)
+T 3FUY_A          106 NAMVYV  111 (179)
+T ss_dssp             EEEEEE
+T ss_pred             eEEEEE
+Confidence            455664
+
+
+No 5
+>3FUY_B Putative integron gene cassette protein; Integron cassette protein, Mobile Metagenome; 2.0A {uncultured bacterium}
+Probab=15.07  E-value=1.6e+02  Score=14.36  Aligned_cols=6  Identities=83%  Similarity=1.121  Sum_probs=3.3  Template_Neff=1.000
+
+Q NATVYV            1 NATVYV    6 (6)
+Q Consensus         1 natvyv    6 (6)
+                      ||.|||
+T Consensus       106 namvyv  111 (179)
+T 3FUY_B          106 NAMVYV  111 (179)
+Confidence            455664
+
+
+No 6
+>2KZF_A Ribosome-binding factor A; JCSG, Joint Center Structural Genomics; NMR {Thermotoga maritima}
+Probab=14.64  E-value=1.7e+02  Score=10.79  Aligned_cols=6  Identities=67%  Similarity=0.866  Sum_probs=0.0  Template_Neff=8.400
+
+Q NATVYV            1 NATVYV    6 (6)
+Q Consensus         1 natvyv    6 (6)
+                      .|.||+
+T Consensus        49 ~a~Vy~   54 (106)
+T 2KZF_A           49 YADVYV   54 (106)
+T ss_dssp             EEEEEE
+T ss_pred             EEEEEE
+
+
+No 7
+>2E7G_A Putative ribosome-binding factor A; RbfA, Structural Genomics, NPPSFA, National; NMR {Homo sapiens} SCOP: d.52.7.1
+Probab=13.74  E-value=1.8e+02  Score=11.14  Aligned_cols=6  Identities=17%  Similarity=0.296  Sum_probs=0.0  Template_Neff=8.200
+
+Q NATVYV            1 NATVYV    6 (6)
+Q Consensus         1 natvyv    6 (6)
+                      .|.||+
+T Consensus        57 ~a~Vy~   62 (129)
+T 2E7G_A           57 ACRAYW   62 (129)
+T ss_dssp             CEEEEE
+T ss_pred             eEEEEE
+
+
+No 8
+>2DYJ_B Ribosome-binding factor A; 16S rRNA processing, 17S RNA; 1.84A {Thermus thermophilus} SCOP: d.52.7.1
+Probab=13.38  E-value=1.9e+02  Score=10.49  Aligned_cols=6  Identities=50%  Similarity=0.706  Sum_probs=0.0  Template_Neff=8.300
+
+Q NATVYV            1 NATVYV    6 (6)
+Q Consensus         1 natvyv    6 (6)
+                      .|.||+
+T Consensus        44 ~a~Vy~   49 (95)
+T 2DYJ_B           44 VLSVYV   49 (95)
+T ss_dssp             EEEEEE
+T ss_pred             EEEEEE
+
+
+No 9
+>2R1C_A Ribosome-binding factor A; helix-kink-helix, KH domain, rRNA processing; 12.5A {Thermus thermophilus} SCOP: d.52.7.1
+Probab=13.38  E-value=1.9e+02  Score=10.49  Aligned_cols=6  Identities=50%  Similarity=0.706  Sum_probs=0.0  Template_Neff=8.300
+
+Q NATVYV            1 NATVYV    6 (6)
+Q Consensus         1 natvyv    6 (6)
+                      .|.||+
+T Consensus        44 ~a~Vy~   49 (95)
+T 2R1C_A           44 VLSVYV   49 (95)
+T ss_dssp             EEEEEE
+T ss_pred             EEEEEE
+
+
+No 10
+>7BOG_V 30S ribosomal protein S4, 30S; Cryo-EM, 30S biogenesis, ribosome assembly; HET: 5MC, PSU, G7M, MA6, 2MG, D2T, UR3, MG; 2.75A {Escherichia coli (strain K12)}
+Probab=13.35  E-value=1.9e+02  Score=11.30  Aligned_cols=6  Identities=67%  Similarity=0.872  Sum_probs=0.0  Template_Neff=7.900
+
+Q NATVYV            1 NATVYV    6 (6)
+Q Consensus         1 natvyv    6 (6)
+                      .|+||+
+T Consensus        49 ~a~Vy~   54 (133)
+T 7BOG_V           49 YAKVYV   54 (133)
+T ss_dssp             EEEEEE
+T ss_pred             EEEEEE
+
+

@@ -1,0 +1,151 @@
+Query         GSNSGA
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 03:51:40 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GSNSGA/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GSNSGA/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6QDV_D Eukaryotic initiation f  36.7      33 0.00036   15.0   0.0    6    1-6      50-55  (123)
+  2 6W3Z_A BMA-DHPS-1, isoform a;   21.1      94   0.001   15.1   0.0    6    1-6     312-317 (367)
+  3 6W3Z_C BMA-DHPS-1, isoform a;   19.3 1.1E+02  0.0012   14.9   0.0    6    1-6     312-317 (367)
+  4 3IP0_A 2-amino-4-hydroxy-6-hyd  16.8 1.3E+02  0.0015   12.5   0.0    5    1-5       8-12  (158)
+  5 5XJC_X Pre-mRNA-processing-spl  16.4 1.4E+02  0.0016   14.1   0.0    6    1-6      69-74  (184)
+  6 6R4V_C Geranylgeranyl pyrophos  16.1 1.4E+02  0.0016   12.8   0.0    5    1-5       3-7   (307)
+  7 4YJI_A Mutant Aryl acylamidase  15.9 1.5E+02  0.0016   12.9   0.0    6    1-6     162-167 (495)
+  8 4N0H_A Glutamyl-tRNA(Gln) amid  15.9 1.5E+02  0.0016   13.2   0.0    6    1-6     129-134 (464)
+  9 4N0I_A Glutamyl-tRNA(Gln) amid  15.9 1.5E+02  0.0016   13.2   0.0    6    1-6     129-134 (464)
+ 10 4YJ6_A Aryl acylamidase (E.C.3  15.9 1.5E+02  0.0016   13.0   0.0    6    1-6     162-167 (501)
+
+No 1
+>6QDV_D Eukaryotic initiation factor 4A-III, RNA-binding; spliceosome, RNA, complex, SPLICING; HET: GTP, I6P, ATP, SEP; 3.3A {Homo sapiens}
+Probab=36.70  E-value=33  Score=14.95  Aligned_cols=6  Identities=67%  Similarity=1.099  Sum_probs=2.9  Template_Neff=4.400
+
+Q GSNSGA            1 GSNSGA    6 (6)
+Q Consensus         1 gsnsga    6 (6)
+                      ||+.||
+T Consensus        50 GSsAGA   55 (123)
+T 6QDV_D           50 GSSAGA   55 (123)
+T ss_pred             ccccCc
+Confidence            455543
+
+
+No 2
+>6W3Z_A BMA-DHPS-1, isoform a; Brugia malayi, Deoxyhypusine synthase, Structural; HET: GOL, NAD; 2.3A {Brugia malayi}
+Probab=21.08  E-value=94  Score=15.05  Aligned_cols=6  Identities=83%  Similarity=1.232  Sum_probs=3.3  Template_Neff=5.900
+
+Q GSNSGA            1 GSNSGA    6 (6)
+Q Consensus         1 gsnsga    6 (6)
+                      ||.|||
+T Consensus       312 GslSGA  317 (367)
+T 6W3Z_A          312 GSDSGA  317 (367)
+T ss_dssp             CCTTTC
+T ss_pred             CcCCCC
+Confidence            455664
+
+
+No 3
+>6W3Z_C BMA-DHPS-1, isoform a; Brugia malayi, Deoxyhypusine synthase, Structural; HET: GOL, NAD; 2.3A {Brugia malayi}
+Probab=19.27  E-value=1.1e+02  Score=14.86  Aligned_cols=6  Identities=83%  Similarity=1.232  Sum_probs=3.3  Template_Neff=5.900
+
+Q GSNSGA            1 GSNSGA    6 (6)
+Q Consensus         1 gsnsga    6 (6)
+                      ||.|||
+T Consensus       312 GslSGA  317 (367)
+T 6W3Z_C          312 GSDSGA  317 (367)
+T ss_dssp             CCTTTC
+T ss_pred             CCCCCC
+Confidence            455654
+
+
+No 4
+>3IP0_A 2-amino-4-hydroxy-6-hydroxymethyldihydropteridine pyrophosphokinase (E.C.2.7.6.3); alpha beta, ATP-binding, Folate biosynthesis; HET: HHS, APC, HHR, ACT; 0.89A {Escherichia coli}
+Probab=16.82  E-value=1.3e+02  Score=12.46  Aligned_cols=5  Identities=60%  Similarity=0.734  Sum_probs=0.0  Template_Neff=7.000
+
+Q GSNSGA            1 GSNSG    5 (6)
+Q Consensus         1 gsnsg    5 (6)
+                      |||.|
+T Consensus         8 GSNlg   12 (158)
+T 3IP0_A            8 GSNLA   12 (158)
+T ss_dssp             EECSS
+T ss_pred             CCCCC
+
+
+No 5
+>5XJC_X Pre-mRNA-processing-splicing factor 8, 116 kDa; RNA splicing, human spliceosome, C*; HET: GTP, ATP, SEP, ADP, MG, IHP; 3.6A {Homo sapiens}
+Probab=16.37  E-value=1.4e+02  Score=14.06  Aligned_cols=6  Identities=67%  Similarity=1.099  Sum_probs=0.0  Template_Neff=3.900
+
+Q GSNSGA            1 GSNSGA    6 (6)
+Q Consensus         1 gsnsga    6 (6)
+                      ||..||
+T Consensus        69 GSSAGA   74 (184)
+T 5XJC_X           69 GSSAGA   74 (184)
+T ss_dssp             CTTCCC
+T ss_pred             ccccCc
+
+
+No 6
+>6R4V_C Geranylgeranyl pyrophosphate synthase (E.C.2.5.1.-,2.5.1.1,2.5.1.29,2.5.1.10); Bisphosphonate, ibandronate, geranylgeranyl diphosphate, prenyltransferase; HET: GOL, MG, BFQ; 2.202A {Homo sapiens}
+Probab=16.06  E-value=1.4e+02  Score=12.76  Aligned_cols=5  Identities=80%  Similarity=1.199  Sum_probs=0.0  Template_Neff=8.700
+
+Q GSNSGA            1 GSNSG    5 (6)
+Q Consensus         1 gsnsg    5 (6)
+                      |||||
+T Consensus         3 ~~~~~    7 (307)
+T 6R4V_C            3 GSGSG    7 (307)
+T ss_pred             CCccc
+
+
+No 7
+>4YJI_A Mutant Aryl acylamidase with acetaminophen; amidase, HYDROLASE; HET: TYL, CXS; 1.73A {bacterium CSBL00001}
+Probab=15.92  E-value=1.5e+02  Score=12.90  Aligned_cols=6  Identities=67%  Similarity=1.060  Sum_probs=0.0  Template_Neff=10.100
+
+Q GSNSGA            1 GSNSGA    6 (6)
+Q Consensus         1 gsnsga    6 (6)
+                      ||.+|+
+T Consensus       162 GSS~Gs  167 (495)
+T 4YJI_A          162 GSSGGA  167 (495)
+T ss_dssp             SSSHHH
+T ss_pred             CCChHH
+
+
+No 8
+>4N0H_A Glutamyl-tRNA(Gln) amidotransferase subunit A, mitochondrial; amidotransferase, LIGASE; 1.952A {Saccharomyces cerevisiae}
+Probab=15.87  E-value=1.5e+02  Score=13.24  Aligned_cols=6  Identities=83%  Similarity=1.160  Sum_probs=0.0  Template_Neff=9.200
+
+Q GSNSGA            1 GSNSGA    6 (6)
+Q Consensus         1 gsnsga    6 (6)
+                      ||.||+
+T Consensus       129 GSS~Gs  134 (464)
+T 4N0H_A          129 GSSSGA  134 (464)
+T ss_dssp             SSSHHH
+T ss_pred             CCcHHH
+
+
+No 9
+>4N0I_A Glutamyl-tRNA(Gln) amidotransferase subunit A, mitochondrial; amidotransferase, LIGASE; 2.001A {Saccharomyces cerevisiae}
+Probab=15.87  E-value=1.5e+02  Score=13.24  Aligned_cols=6  Identities=83%  Similarity=1.160  Sum_probs=0.0  Template_Neff=9.200
+
+Q GSNSGA            1 GSNSGA    6 (6)
+Q Consensus         1 gsnsga    6 (6)
+                      ||.||+
+T Consensus       129 GSS~Gs  134 (464)
+T 4N0I_A          129 GSSSGA  134 (464)
+T ss_dssp             SSSHHH
+T ss_pred             CCcHHH
+
+
+No 10
+>4YJ6_A Aryl acylamidase (E.C.3.5.1.13); hydrolase; HET: MSE, PO4; 1.7A {bacterium CSBL00001}
+Probab=15.87  E-value=1.5e+02  Score=13.02  Aligned_cols=6  Identities=67%  Similarity=1.060  Sum_probs=0.0  Template_Neff=9.900
+
+Q GSNSGA            1 GSNSGA    6 (6)
+Q Consensus         1 gsnsga    6 (6)
+                      ||.+|+
+T Consensus       162 GSS~Gs  167 (501)
+T 4YJ6_A          162 GSSGGA  167 (501)
+T ss_dssp             SSSHHH
+T ss_pred             CCChHH
+
+

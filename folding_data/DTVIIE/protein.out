@@ -1,0 +1,149 @@
+Query         DTVIIE
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 18:07:35 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/DTVIIE/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/DTVIIE/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 1XJC_A MobB protein homolog; s  18.7 1.1E+02  0.0013   11.3   0.0    6    1-6      98-103 (169)
+  2 1KCF_A HYPOTHETICAL 30.2 KD PR  17.1 1.3E+02  0.0015   12.9   0.0    6    1-6     112-117 (258)
+  3 4OYH_E Molybdopterin-guanine d  16.9 1.3E+02  0.0015   11.5   0.0    6    1-6     104-109 (176)
+  4 1HR0_W 30S RIBOSOMAL SUBUNIT,   16.2 1.4E+02  0.0016   10.7   0.0    6    1-6      51-56  (71)
+  5 4QL5_B Translation initiation   16.1 1.4E+02  0.0016   10.8   0.0    6    1-6      52-57  (73)
+  6 6IS9_A Monokaryotic chloroplas  15.6 1.5E+02  0.0017   12.5   0.0    6    1-6     113-118 (224)
+  7 6WJO_B Arginine repressor; enz  15.5 1.5E+02  0.0017   11.1   0.0    5    1-5      56-60  (82)
+  8 6LW3_B Crossover junction endo  15.2 1.6E+02  0.0017   10.9   0.0    6    1-6      72-77  (163)
+  9 4NKR_E Molybdopterin-guanine d  15.1 1.6E+02  0.0018   11.2   0.0    6    1-6      95-100 (166)
+ 10 1B4B_B ARGININE REPRESSOR; REP  14.5 1.7E+02  0.0019   10.8   0.0    5    1-5      48-52  (71)
+
+No 1
+>1XJC_A MobB protein homolog; structural genomics, MobB, Midwest Center; 2.1A {Geobacillus stearothermophilus} SCOP: c.37.1.10
+Probab=18.70  E-value=1.1e+02  Score=11.31  Aligned_cols=6  Identities=50%  Similarity=0.905  Sum_probs=0.0  Template_Neff=9.900
+
+Q DTVIIE            1 DTVIIE    6 (6)
+Q Consensus         1 dtviie    6 (6)
+                      |-||||
+T Consensus        98 d~viiE  103 (169)
+T 1XJC_A           98 DLVLVE  103 (169)
+T ss_dssp             SEEEEE
+T ss_pred             CEEEEE
+
+
+No 2
+>1KCF_A HYPOTHETICAL 30.2 KD PROTEIN C25G10.02; beta-alpha-beta motif, RuvC resolvase family; HET: SO4; 2.3A {Schizosaccharomyces pombe} SCOP: c.55.3.7, a.140.2.1
+Probab=17.10  E-value=1.3e+02  Score=12.91  Aligned_cols=6  Identities=17%  Similarity=0.689  Sum_probs=0.0  Template_Neff=8.000
+
+Q DTVIIE            1 DTVIIE    6 (6)
+Q Consensus         1 dtviie    6 (6)
+                      |.|+||
+T Consensus       112 d~v~IE  117 (258)
+T 1KCF_A          112 HVILME  117 (258)
+T ss_dssp             SEEEEE
+T ss_pred             CEEEEe
+
+
+No 3
+>4OYH_E Molybdopterin-guanine dinucleotide biosynthesis protein B; Molybdenum, MobB, BIOSYNTHETIC PROTEIN; HET: SO4; 2.409A {Bacillus subtilis subsp. spizizenii (strain ATCC 23059 / NRRL B-14472 / W23)}
+Probab=16.91  E-value=1.3e+02  Score=11.52  Aligned_cols=6  Identities=50%  Similarity=0.911  Sum_probs=0.0  Template_Neff=9.300
+
+Q DTVIIE            1 DTVIIE    6 (6)
+Q Consensus         1 dtviie    6 (6)
+                      |.||||
+T Consensus       104 D~vlIE  109 (176)
+T 4OYH_E          104 DCLLIE  109 (176)
+T ss_dssp             SEEEEE
+T ss_pred             CEEEEe
+
+
+No 4
+>1HR0_W 30S RIBOSOMAL SUBUNIT, INITIATION FACTOR; 30S, RIBOSOMAL SUBUNIT, RIBOSOME, INITIATION; HET: MG; 3.2A {Thermus thermophilus} SCOP: b.40.4.5
+Probab=16.17  E-value=1.4e+02  Score=10.65  Aligned_cols=6  Identities=50%  Similarity=0.983  Sum_probs=0.0  Template_Neff=7.500
+
+Q DTVIIE            1 DTVIIE    6 (6)
+Q Consensus         1 dtviie    6 (6)
+                      |.|++|
+T Consensus        51 d~V~ve   56 (71)
+T 1HR0_W           51 DRVVVE   56 (71)
+T ss_dssp             CEEEEE
+T ss_pred             CEEEEc
+
+
+No 5
+>4QL5_B Translation initiation factor IF-1; translation initiation factor, PROTEIN BIOSYNTHESIS; 2.025A {Streptococcus pneumoniae}
+Probab=16.06  E-value=1.4e+02  Score=10.79  Aligned_cols=6  Identities=50%  Similarity=0.778  Sum_probs=0.0  Template_Neff=7.300
+
+Q DTVIIE            1 DTVIIE    6 (6)
+Q Consensus         1 dtviie    6 (6)
+                      |.|++|
+T Consensus        52 d~V~Ve   57 (73)
+T 4QL5_B           52 DRVTVE   57 (73)
+T ss_dssp             CEEEEE
+T ss_pred             CEEEEc
+
+
+No 6
+>6IS9_A Monokaryotic chloroplast 1; Holliday junction resolvase, DNA BINDING; 1.86A {Zea mays}
+Probab=15.65  E-value=1.5e+02  Score=12.53  Aligned_cols=6  Identities=50%  Similarity=0.528  Sum_probs=0.0  Template_Neff=7.900
+
+Q DTVIIE            1 DTVIIE    6 (6)
+Q Consensus         1 dtviie    6 (6)
+                      |.|+||
+T Consensus       113 ~~VvIE  118 (224)
+T 6IS9_A          113 TTAYIE  118 (224)
+T ss_dssp             CEEEEE
+T ss_pred             CEEEEE
+
+
+No 7
+>6WJO_B Arginine repressor; enzyme specificity, DNA BINDING PROTEIN; HET: TYR; 1.693A {Corynebacterium pseudotuberculosis (strain C231)}
+Probab=15.54  E-value=1.5e+02  Score=11.14  Aligned_cols=5  Identities=60%  Similarity=0.979  Sum_probs=0.0  Template_Neff=6.900
+
+Q DTVIIE            1 DTVII    5 (6)
+Q Consensus         1 dtvii    5 (6)
+                      |||+|
+T Consensus        56 DTvli   60 (82)
+T 6WJO_B           56 DTVFV   60 (82)
+T ss_dssp             SEEEE
+T ss_pred             CEEEE
+
+
+No 8
+>6LW3_B Crossover junction endodeoxyribonuclease RuvC (E.C.3.1.22.4); Holliday junction  resolvase ; 2.38A {Pseudomonas aeruginosa}
+Probab=15.16  E-value=1.6e+02  Score=10.88  Aligned_cols=6  Identities=33%  Similarity=0.457  Sum_probs=0.0  Template_Neff=9.900
+
+Q DTVIIE            1 DTVIIE    6 (6)
+Q Consensus         1 dtviie    6 (6)
+                      |.|+||
+T Consensus        72 ~~vviE   77 (163)
+T 6LW3_B           72 TALSIE   77 (163)
+T ss_dssp             CEEEEE
+T ss_pred             CEEEEE
+
+
+No 9
+>4NKR_E Molybdopterin-guanine dinucleotide biosynthesis protein B; P-loop, Walker A motif, nucleotide; HET: SO4; 2.41A {Bacillus subtilis subsp. spizizenii}
+Probab=15.06  E-value=1.6e+02  Score=11.16  Aligned_cols=6  Identities=50%  Similarity=0.911  Sum_probs=0.0  Template_Neff=9.400
+
+Q DTVIIE            1 DTVIIE    6 (6)
+Q Consensus         1 dtviie    6 (6)
+                      |.|+||
+T Consensus        95 D~vliE  100 (166)
+T 4NKR_E           95 DCLLIE  100 (166)
+T ss_pred             CEEEEe
+
+
+No 10
+>1B4B_B ARGININE REPRESSOR; REPRESSOR, ARGININE, CORE, OLIGOMERIZATION DOMAIN; HET: ARG; 2.2A {Geobacillus stearothermophilus} SCOP: d.74.2.1
+Probab=14.52  E-value=1.7e+02  Score=10.84  Aligned_cols=5  Identities=60%  Similarity=0.933  Sum_probs=0.0  Template_Neff=6.700
+
+Q DTVIIE            1 DTVII    5 (6)
+Q Consensus         1 dtvii    5 (6)
+                      |||+|
+T Consensus        48 DTIli   52 (71)
+T 1B4B_B           48 DTCLI   52 (71)
+T ss_dssp             SEEEE
+T ss_pred             CEEEE
+
+

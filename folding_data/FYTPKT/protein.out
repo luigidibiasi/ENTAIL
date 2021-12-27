@@ -1,0 +1,165 @@
+Query         FYTPKT
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 22:24:04 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/FYTPKT/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/FYTPKT/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4RKO_A Thrombin heavy chain (E  34.2      38 0.00042   13.4   0.0    6    1-6       2-7   (42)
+  2 6BK8_O Pre-mRNA-splicing facto  34.0      39 0.00043   16.7   0.0    6    1-6     265-270 (382)
+  3 2A1D_E thrombin (E.C.3.4.21.5)  33.6      40 0.00044   13.3   0.0    6    1-6       1-6   (41)
+  4 3BEI_A Prothrombin (E.C.3.4.21  33.1      41 0.00045   13.4   0.0    6    1-6       4-9   (44)
+  5 1JMO_L THROMBIN (E.C.3.4.21.5)  31.0      47 0.00052   13.4   0.0    6    1-6       9-14  (48)
+  6 6ICZ_Z Protein mago nashi homo  30.5      48 0.00054   17.3   0.0    6    1-6     284-289 (586)
+  7 6QDV_c Eukaryotic initiation f  30.5      48 0.00054   17.3   0.0    6    1-6     284-289 (586)
+  8 3B9F_L Prothrombin (E.C.3.4.21  30.4      49 0.00054   13.4   0.0    6    1-6       9-14  (49)
+  9 1TBR_J THROMBIN, RHODNIIN; COM  29.9      50 0.00055   13.4   0.0    6    1-6       9-14  (49)
+ 10 7A0D_LLL Prothrombin (E.C.3.4.  29.9      50 0.00055   13.4   0.0    6    1-6       9-14  (49)
+ 11 7B9V_c Pre-mRNA-splicing facto  29.8      51 0.00056   16.3   0.0    6    1-6     265-270 (382)
+
+No 1
+>4RKO_A Thrombin heavy chain (E.C.3.4.21.5), Thrombin; Trypsin-like proteases, catalysis, allosteric regulation; HET: MES, GOL, 0G6, NAG; 1.84A {Homo sapiens}
+Probab=34.23  E-value=38  Score=13.38  Aligned_cols=6  Identities=50%  Similarity=1.409  Sum_probs=3.7  Template_Neff=1.600
+
+Q FYTPKT            1 FYTPKT    6 (6)
+Q Consensus         1 fytpkt    6 (6)
+                      |+.|+|
+T Consensus         2 FF~prT    7 (42)
+T 4RKO_A            2 FFNPRT    7 (42)
+T ss_pred             CCCccc
+Confidence            566665
+
+
+No 2
+>6BK8_O Pre-mRNA-splicing factor 8, Pre-mRNA-splicing factor; pre-mRNA splicing, spliceosome, post-catalytic, P; HET: IHP, GTP; 3.3A {Saccharomyces cerevisiae}
+Probab=34.05  E-value=39  Score=16.73  Aligned_cols=6  Identities=50%  Similarity=0.944  Sum_probs=4.2  Template_Neff=5.100
+
+Q FYTPKT            1 FYTPKT    6 (6)
+Q Consensus         1 fytpkt    6 (6)
+                      ||.|||
+T Consensus       265 ~YDPKS  270 (382)
+T 6BK8_O          265 NYDPKS  270 (382)
+T ss_pred             cCCCCC
+Confidence            577775
+
+
+No 3
+>2A1D_E thrombin (E.C.3.4.21.5), Staphylocoagulase, Ppack (Dpn-Pro-Arm); prothrombin activator, HYDROLASE-HYDROLASE INHIBITOR COMPLEX; HET: 0G6, NAG; 3.5A {Bos taurus}
+Probab=33.57  E-value=40  Score=13.28  Aligned_cols=6  Identities=50%  Similarity=0.988  Sum_probs=3.7  Template_Neff=1.600
+
+Q FYTPKT            1 FYTPKT    6 (6)
+Q Consensus         1 fytpkt    6 (6)
+                      |+.|||
+T Consensus         1 FF~prT    6 (41)
+T 2A1D_E            1 FFNEKT    6 (41)
+T ss_pred             CCCccc
+Confidence            566665
+
+
+No 4
+>3BEI_A Prothrombin (E.C.3.4.21.5); Serine protease, Acute phase, Blood; HET: NAG, GOL; 1.55A {Homo sapiens}
+Probab=33.12  E-value=41  Score=13.40  Aligned_cols=6  Identities=50%  Similarity=1.409  Sum_probs=3.6  Template_Neff=1.600
+
+Q FYTPKT            1 FYTPKT    6 (6)
+Q Consensus         1 fytpkt    6 (6)
+                      |+.|+|
+T Consensus         4 FF~prT    9 (44)
+T 3BEI_A            4 FFNPRT    9 (44)
+T ss_pred             ccCccc
+Confidence            566665
+
+
+No 5
+>1JMO_L THROMBIN (E.C.3.4.21.5), LIGHT AND HEAVY; serpin, thrombin, protease, inhibition, inhibitor; HET: MPD, NAG, NDG; 2.2A {Homo sapiens} SCOP: b.47.1.2
+Probab=31.03  E-value=47  Score=13.42  Aligned_cols=6  Identities=50%  Similarity=1.409  Sum_probs=3.5  Template_Neff=1.600
+
+Q FYTPKT            1 FYTPKT    6 (6)
+Q Consensus         1 fytpkt    6 (6)
+                      |+.|+|
+T Consensus         9 FF~prT   14 (48)
+T 1JMO_L            9 FFNPRT   14 (48)
+T ss_pred             ccCccc
+Confidence            566664
+
+
+No 6
+>6ICZ_Z Protein mago nashi homolog 2; Human Post-catalytic Spliceosome, SPLICING; HET: GTP, ATP, SEP, I6P; 3.0A {Homo sapiens}
+Probab=30.47  E-value=48  Score=17.27  Aligned_cols=6  Identities=67%  Similarity=1.453  Sum_probs=4.3  Template_Neff=5.100
+
+Q FYTPKT            1 FYTPKT    6 (6)
+Q Consensus         1 fytpkt    6 (6)
+                      ||.|||
+T Consensus       284 ~YDPKS  289 (586)
+T 6ICZ_Z          284 YYDPKT  289 (586)
+T ss_pred             cCCCCC
+Confidence            677875
+
+
+No 7
+>6QDV_c Eukaryotic initiation factor 4A-III, RNA-binding; spliceosome, RNA, complex, SPLICING; HET: GTP, I6P, ATP, SEP; 3.3A {Homo sapiens}
+Probab=30.47  E-value=48  Score=17.27  Aligned_cols=6  Identities=67%  Similarity=1.453  Sum_probs=4.3  Template_Neff=5.100
+
+Q FYTPKT            1 FYTPKT    6 (6)
+Q Consensus         1 fytpkt    6 (6)
+                      ||.|||
+T Consensus       284 ~YDPKS  289 (586)
+T 6QDV_c          284 YYDPKT  289 (586)
+T ss_pred             cCCCCC
+Confidence            677875
+
+
+No 8
+>3B9F_L Prothrombin (E.C.3.4.21.5), protein C inhibitor; Michaelis complex, Acute phase, Blood; HET: FUC, NAG, IDS, SGN, SO4, GOL; 1.6A {Homo sapiens}
+Probab=30.36  E-value=49  Score=13.41  Aligned_cols=6  Identities=50%  Similarity=1.409  Sum_probs=3.5  Template_Neff=1.600
+
+Q FYTPKT            1 FYTPKT    6 (6)
+Q Consensus         1 fytpkt    6 (6)
+                      |+.|+|
+T Consensus         9 FF~prT   14 (49)
+T 3B9F_L            9 FFNPRT   14 (49)
+T ss_pred             ccCccc
+Confidence            556664
+
+
+No 9
+>1TBR_J THROMBIN, RHODNIIN; COMPLEX (SERINE PROTEASE-INHIBITOR), KAZAL-TYPE INHIBITOR; 2.6A {Bos taurus} SCOP: b.47.1.2
+Probab=29.92  E-value=50  Score=13.38  Aligned_cols=6  Identities=50%  Similarity=0.988  Sum_probs=3.5  Template_Neff=1.600
+
+Q FYTPKT            1 FYTPKT    6 (6)
+Q Consensus         1 fytpkt    6 (6)
+                      |+.|||
+T Consensus         9 FF~pkT   14 (49)
+T 1TBR_J            9 FFNEKT   14 (49)
+T ss_dssp             CSCHHH
+T ss_pred             ccCccc
+Confidence            556664
+
+
+No 10
+>7A0D_LLL Prothrombin (E.C.3.4.21.5), Hirudin variant-1; Hydrolase, Inhibitor, Hirudin, Thrombin, Selenocysteine; HET: NAG; 1.6A {Bos taurus}
+Probab=29.92  E-value=50  Score=13.38  Aligned_cols=6  Identities=50%  Similarity=0.988  Sum_probs=3.5  Template_Neff=1.600
+
+Q FYTPKT            1 FYTPKT    6 (6)
+Q Consensus         1 fytpkt    6 (6)
+                      |+.|||
+T Consensus         9 FF~pkT   14 (49)
+T 7A0D_LLL          9 FFNEKT   14 (49)
+T ss_pred             ccCccc
+Confidence            556664
+
+
+No 11
+>7B9V_c Pre-mRNA-splicing factor 8, Pre-mRNA-splicing helicase; splicing, spliceosome, RNA, ribozyme; HET: KGN, GTP, SEP; 2.8A {Saccharomyces cerevisiae}
+Probab=29.76  E-value=51  Score=16.30  Aligned_cols=6  Identities=50%  Similarity=0.944  Sum_probs=4.0  Template_Neff=5.200
+
+Q FYTPKT            1 FYTPKT    6 (6)
+Q Consensus         1 fytpkt    6 (6)
+                      ||.|||
+T Consensus       265 ~YDPKS  270 (382)
+T 7B9V_c          265 NYDPKS  270 (382)
+T ss_pred             cCCCCC
+Confidence            577775
+
+

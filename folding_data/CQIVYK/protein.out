@@ -1,0 +1,146 @@
+Query         CQIVYK
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 16:30:29 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/CQIVYK/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/CQIVYK/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2HU9_A Mercuric transport prot  19.5 1.1E+02  0.0012   12.9   0.0    5    1-5      43-47  (130)
+  2 2HU9_B Mercuric transport prot  19.0 1.1E+02  0.0012   12.8   0.0    5    1-5      43-47  (130)
+  3 6XIW_B Sodium leak channel non  17.4 1.3E+02  0.0014   15.8   0.0    6    1-6     304-309 (483)
+  4 6XU7_CD Specialised ribosome,   16.0 1.5E+02  0.0016   14.3   0.0    5    1-5      55-59  (290)
+  5 6XU8_CD Specialised ribosome,   16.0 1.5E+02  0.0016   14.3   0.0    5    1-5      55-59  (290)
+  6 6OM0_F ribosome/tRNA; selectiv  15.9 1.5E+02  0.0016   14.4   0.0    5    1-5      59-63  (294)
+  7 7O7Y_BD 40S ribosomal protein   15.0 1.6E+02  0.0018   14.3   0.0    5    1-5      62-66  (297)
+  8 7CM3_B Sodium leak channel non  14.0 1.8E+02   0.002   15.4   0.0    6    1-6     304-309 (485)
+  9 3HFO_B Ssr3341 protein; HFQ, S  13.5 1.9E+02  0.0021   11.0   0.0    5    2-6      56-60  (70)
+ 10 4MML_A Protein hfq; LSM fold,   12.4 2.1E+02  0.0023   11.2   0.0    5    2-6      52-56  (82)
+
+No 1
+>2HU9_A Mercuric transport protein periplasmic component; copper chaperone, iron-sufur protein, CopZ; 1.78A {Archaeoglobus fulgidus}
+Probab=19.50  E-value=1.1e+02  Score=12.90  Aligned_cols=5  Identities=60%  Similarity=1.829  Sum_probs=0.0  Template_Neff=5.900
+
+Q CQIVYK            1 CQIVY    5 (6)
+Q Consensus         1 cqivy    5 (6)
+                      |.+||
+T Consensus        43 C~VvY   47 (130)
+T 2HU9_A           43 CEVVY   47 (130)
+T ss_dssp             CSEEE
+T ss_pred             CCEEE
+
+
+No 2
+>2HU9_B Mercuric transport protein periplasmic component; copper chaperone, iron-sufur protein, CopZ; 1.78A {Archaeoglobus fulgidus}
+Probab=18.95  E-value=1.1e+02  Score=12.84  Aligned_cols=5  Identities=60%  Similarity=1.829  Sum_probs=0.0  Template_Neff=5.900
+
+Q CQIVYK            1 CQIVY    5 (6)
+Q Consensus         1 cqivy    5 (6)
+                      |.+||
+T Consensus        43 C~VvY   47 (130)
+T 2HU9_B           43 CEVVY   47 (130)
+T ss_dssp             CSEEE
+T ss_pred             CCEEE
+
+
+No 3
+>6XIW_B Sodium leak channel non-selective protein; ion channel, membrane protein, complex; HET: PGV, NAG, Y01, TYS, PEV; 2.8A {Homo sapiens}
+Probab=17.43  E-value=1.3e+02  Score=15.83  Aligned_cols=6  Identities=83%  Similarity=1.741  Sum_probs=0.0  Template_Neff=4.400
+
+Q CQIVYK            1 CQIVYK    6 (6)
+Q Consensus         1 cqivyk    6 (6)
+                      |+++||
+T Consensus       304 CK~~Yk  309 (483)
+T 6XIW_B          304 CKIVYK  309 (483)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHhH
+
+
+No 4
+>6XU7_CD Specialised ribosome, Drosophila melanogaster, Testis; 4.9A {Drosophila melanogaster}
+Probab=15.97  E-value=1.5e+02  Score=14.29  Aligned_cols=5  Identities=60%  Similarity=0.972  Sum_probs=0.0  Template_Neff=5.300
+
+Q CQIVYK            1 CQIVY    5 (6)
+Q Consensus         1 cqivy    5 (6)
+                      |||++
+T Consensus        55 aQIv~   59 (290)
+T 6XU7_CD          55 VQIAY   59 (290)
+T ss_pred             EEEEE
+
+
+No 5
+>6XU8_CD Specialised ribosome, Drosophila melanogaster, Ovary; 3.0A {Drosophila melanogaster}
+Probab=15.97  E-value=1.5e+02  Score=14.29  Aligned_cols=5  Identities=60%  Similarity=0.972  Sum_probs=0.0  Template_Neff=5.300
+
+Q CQIVYK            1 CQIVY    5 (6)
+Q Consensus         1 cqivy    5 (6)
+                      |||++
+T Consensus        55 aQIv~   59 (290)
+T 6XU8_CD          55 VQIAY   59 (290)
+T ss_pred             EEEEE
+
+
+No 6
+>6OM0_F ribosome/tRNA; selective stalling, drug-like molecule, human; HET: OMU, OMC, 6MZ, OMG, PSU, B8N, A2M, 4AC, 5MC, M7A, MG, MA6, B8Q, E3C, UR3, MVM, 5MU; 3.1A {Homo sapiens}
+Probab=15.87  E-value=1.5e+02  Score=14.39  Aligned_cols=5  Identities=80%  Similarity=1.736  Sum_probs=0.0  Template_Neff=5.100
+
+Q CQIVYK            1 CQIVY    5 (6)
+Q Consensus         1 cqivy    5 (6)
+                      |||++
+T Consensus        59 aQIv~   63 (294)
+T 6OM0_F           59 CQIAY   63 (294)
+T ss_pred             EEEEE
+
+
+No 7
+>7O7Y_BD 40S ribosomal protein S27, Ribosomal; Frameshift, virus, pseudoknot, RIBOSOME; HET: GTP, HIC, 5MC, UNX, A2M, 5MU, M2G, 7MG, 1MA, SAC, OMU, PSU, MG, OMG, V5N, YYG, 2MG, UY1, 6MZ, H2U, OMC, SPD, B8N, NMM, MA6, UR3, 4AC, MLZ, M3L, AME, SPM; 2.2A {Oryctolagus cuniculus}
+Probab=14.97  E-value=1.6e+02  Score=14.29  Aligned_cols=5  Identities=80%  Similarity=1.736  Sum_probs=0.0  Template_Neff=5.100
+
+Q CQIVYK            1 CQIVY    5 (6)
+Q Consensus         1 cqivy    5 (6)
+                      ||||+
+T Consensus        62 aQIv~   66 (297)
+T 7O7Y_BD          62 CQIAY   66 (297)
+T ss_pred             EEEEE
+
+
+No 8
+>7CM3_B Sodium leak channel non-selective protein; Ion channel, MEMBRANE PROTEIN; HET: BMA, PC1, NAG;{Homo sapiens}
+Probab=14.01  E-value=1.8e+02  Score=15.40  Aligned_cols=6  Identities=83%  Similarity=1.741  Sum_probs=0.0  Template_Neff=4.300
+
+Q CQIVYK            1 CQIVYK    6 (6)
+Q Consensus         1 cqivyk    6 (6)
+                      |+++||
+T Consensus       304 CK~~Yk  309 (485)
+T 7CM3_B          304 CKIVYK  309 (485)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 9
+>3HFO_B Ssr3341 protein; HFQ, SM, RNA-BINDING PROTEIN, SRNA; 1.3A {Synechocystis sp. PCC 6803}
+Probab=13.55  E-value=1.9e+02  Score=10.97  Aligned_cols=5  Identities=40%  Similarity=0.235  Sum_probs=0.0  Template_Neff=6.100
+
+Q CQIVYK            2 QIVYK    6 (6)
+Q Consensus         2 qivyk    6 (6)
+                      |++||
+T Consensus        56 ~lIyK   60 (70)
+T 3HFO_B           56 TIVRL   60 (70)
+T ss_dssp             EEEEG
+T ss_pred             EEEEe
+
+
+No 10
+>4MML_A Protein hfq; LSM fold, RNA BINDING PROTEIN; HET: U; 1.801A {Pseudomonas aeruginosa}
+Probab=12.39  E-value=2.1e+02  Score=11.24  Aligned_cols=5  Identities=80%  Similarity=1.305  Sum_probs=0.0  Template_Neff=5.800
+
+Q CQIVYK            2 QIVYK    6 (6)
+Q Consensus         2 qivyk    6 (6)
+                      +++||
+T Consensus        52 ~lIyK   56 (82)
+T 4MML_A           52 QMVYK   56 (82)
+T ss_dssp             EEEEG
+T ss_pred             EEEEe
+
+

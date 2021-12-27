@@ -1,0 +1,149 @@
+Query         LATFYV
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 14:36:00 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LATFYV/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LATFYV/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2CC0_A ACETYL-XYLAN ESTERASE (  13.5 1.9E+02  0.0021   10.5   0.0    5    2-6      33-37  (195)
+  2 6VW8_C NAD-dependent formate d  13.2 1.9E+02  0.0021   13.0   0.0    5    1-5     106-110 (215)
+  3 6SAQ_C NADH:ubiquinone Oxidore  13.1   2E+02  0.0022   11.6   0.0    5    1-5      66-70  (160)
+  4 6L77_A MS5a; cystatin-like, UN  12.6 2.1E+02  0.0023   12.8   0.0    5    2-6     186-190 (242)
+  5 3CL6_B Puue allantoinase (E.C.  12.1 2.2E+02  0.0024   11.6   0.0    5    2-6      97-101 (308)
+  6 3CL7_B Puue Allantoinase (E.C.  12.1 2.2E+02  0.0024   11.6   0.0    5    2-6      97-101 (308)
+  7 7B93_E NADH-ubiquinone oxidore  12.0 2.2E+02  0.0025   13.1   0.0    5    1-5     114-118 (248)
+  8 2N2J_B Epstein-Barr nuclear an  11.8 2.3E+02  0.0025   11.9   0.0    4    3-6       7-10  (62)
+  9 4AVR_B PA4485; UNKNOWN FUNCTIO  11.5 2.3E+02  0.0026    9.8   0.0    4    2-5       6-9   (95)
+ 10 3IAM_2 Crystal structure of th  11.3 2.4E+02  0.0027   11.6   0.0    5    1-5      63-67  (181)
+
+No 1
+>2CC0_A ACETYL-XYLAN ESTERASE (E.C.3.1.1.72); HYDROLASE, CARBOHYDRATE ESTERASE; 1.6A {STREPTOMYCES LIVIDANS} SCOP: c.6.2.3
+Probab=13.51  E-value=1.9e+02  Score=10.50  Aligned_cols=5  Identities=40%  Similarity=0.627  Sum_probs=0.0  Template_Neff=10.900
+
+Q LATFYV            2 ATFYV    6 (6)
+Q Consensus         2 atfyv    6 (6)
+                      +||+|
+T Consensus        33 ~tffv   37 (195)
+T 2CC0_A           33 ATMFN   37 (195)
+T ss_dssp             CEEEE
+T ss_pred             eEEEe
+
+
+No 2
+>6VW8_C NAD-dependent formate dehydrogenase gamma subunit; Rossmann fold, thioredoxin-like, OXIDOREDUCTASE; HET: SO4, SF4, FMN; 2.3A {Cupriavidus necator}
+Probab=13.21  E-value=1.9e+02  Score=12.96  Aligned_cols=5  Identities=60%  Similarity=1.218  Sum_probs=0.0  Template_Neff=6.200
+
+Q LATFYV            1 LATFY    5 (6)
+Q Consensus         1 latfy    5 (6)
+                      +++||
+T Consensus       106 vatFY  110 (215)
+T 6VW8_C          106 VITFY  110 (215)
+T ss_dssp             HHHHC
+T ss_pred             HhhhH
+
+
+No 3
+>6SAQ_C NADH:ubiquinone Oxidoreductase, Complex I, ELECTRON; HET: SF4, GOL, L3W, FMN; 2.02A {Aquifex aeolicus (strain VF5)}
+Probab=13.11  E-value=2e+02  Score=11.60  Aligned_cols=5  Identities=40%  Similarity=1.152  Sum_probs=0.0  Template_Neff=7.900
+
+Q LATFYV            1 LATFY    5 (6)
+Q Consensus         1 latfy    5 (6)
+                      +++||
+T Consensus        66 v~sfY   70 (160)
+T 6SAQ_C           66 VVAFY   70 (160)
+T ss_dssp             HHHHC
+T ss_pred             HHHHH
+
+
+No 4
+>6L77_A MS5a; cystatin-like, UNKNOWN FUNCTION; HET: MSE; 1.9A {Brassica napus}
+Probab=12.57  E-value=2.1e+02  Score=12.85  Aligned_cols=5  Identities=20%  Similarity=0.653  Sum_probs=0.0  Template_Neff=6.700
+
+Q LATFYV            2 ATFYV    6 (6)
+Q Consensus         2 atfyv    6 (6)
+                      |+||+
+T Consensus       186 AifYI  190 (242)
+T 6L77_A          186 VLVYI  190 (242)
+T ss_dssp             EEEEE
+T ss_pred             EEEEE
+
+
+No 5
+>3CL6_B Puue allantoinase (E.C.3.5.2.5); Allantoin, Uric acid, nitrogen fixation; 1.58A {Pseudomonas fluorescens}
+Probab=12.09  E-value=2.2e+02  Score=11.65  Aligned_cols=5  Identities=20%  Similarity=0.501  Sum_probs=0.0  Template_Neff=9.900
+
+Q LATFYV            2 ATFYV    6 (6)
+Q Consensus         2 atfyv    6 (6)
+                      +||+|
+T Consensus        97 aTffv  101 (308)
+T 3CL6_B           97 LTIFA  101 (308)
+T ss_dssp             CEEEE
+T ss_pred             EEEEE
+
+
+No 6
+>3CL7_B Puue Allantoinase (E.C.3.5.2.5); Allantoinase, uric acid degradation, hydantoin; HET: HYN; 1.8A {Pseudomonas fluorescens}
+Probab=12.09  E-value=2.2e+02  Score=11.65  Aligned_cols=5  Identities=20%  Similarity=0.501  Sum_probs=0.0  Template_Neff=9.900
+
+Q LATFYV            2 ATFYV    6 (6)
+Q Consensus         2 atfyv    6 (6)
+                      +||+|
+T Consensus        97 aTffv  101 (308)
+T 3CL7_B           97 LTIFA  101 (308)
+T ss_dssp             CEEEE
+T ss_pred             EEEEE
+
+
+No 7
+>7B93_E NADH-ubiquinone oxidoreductase chain 3 (E.C.7.1.1.2); Inhibitor, Ubiquinone, Complex I, Oxidoreductase; HET: 3PE, PC1, FMN, T2Q, 2MR, AME, CDL, EHZ, FME, ATP, NDP, SF4;{Mus musculus}
+Probab=11.96  E-value=2.2e+02  Score=13.12  Aligned_cols=5  Identities=80%  Similarity=1.431  Sum_probs=0.0  Template_Neff=6.000
+
+Q LATFYV            1 LATFY    5 (6)
+Q Consensus         1 latfy    5 (6)
+                      .+|||
+T Consensus       114 VatFY  118 (248)
+T 7B93_E          114 VATFY  118 (248)
+T ss_dssp             HHHHC
+T ss_pred             HHHHH
+
+
+No 8
+>2N2J_B Epstein-Barr nuclear antigen 2; HOMODIMER, END DOMAIN, VIRAL PROTEIN; NMR {Human herpesvirus 4}
+Probab=11.76  E-value=2.3e+02  Score=11.91  Aligned_cols=4  Identities=75%  Similarity=1.588  Sum_probs=0.0  Template_Neff=2.100
+
+Q LATFYV            3 TFYV    6 (6)
+Q Consensus         3 tfyv    6 (6)
+                      ||||
+T Consensus         7 TyYv   10 (62)
+T 2N2J_B            7 TFYL   10 (62)
+T ss_dssp             EEEE
+T ss_pred             eEEE
+
+
+No 9
+>4AVR_B PA4485; UNKNOWN FUNCTION, GRAM-NEGATIVE BACTERIA, INFECTIOUS; 1.08A {PSEUDOMONAS AERUGINOSA PA01}
+Probab=11.54  E-value=2.3e+02  Score=9.82  Aligned_cols=4  Identities=50%  Similarity=1.398  Sum_probs=0.0  Template_Neff=9.200
+
+Q LATFYV            2 ATFY    5 (6)
+Q Consensus         2 atfy    5 (6)
+                      ||||
+T Consensus         6 at~y    9 (95)
+T 4AVR_B            6 ASYY    9 (95)
+T ss_dssp             EEEC
+T ss_pred             EEec
+
+
+No 10
+>3IAM_2 Crystal structure of the hydrophilic; OXIDOREDUCTASE, ELECTRON TRANSPORT, RESPIRATORY CHAIN; HET: FES, SF4, FMN, MG, NAI; 3.1A {Thermus thermophilus}
+Probab=11.33  E-value=2.4e+02  Score=11.62  Aligned_cols=5  Identities=60%  Similarity=1.364  Sum_probs=0.0  Template_Neff=7.800
+
+Q LATFYV            1 LATFY    5 (6)
+Q Consensus         1 latfy    5 (6)
+                      +++||
+T Consensus        63 v~sfy   67 (181)
+T 3IAM_2           63 VASFY   67 (181)
+T ss_pred             HHHHH
+
+

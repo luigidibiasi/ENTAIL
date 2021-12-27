@@ -1,0 +1,148 @@
+Query         GFFNLQ
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 23:13:48 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GFFNLQ/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GFFNLQ/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4DX8_H Integrin beta-1-binding  24.1      75 0.00083   14.7   0.0    6    1-6     136-141 (203)
+  2 2LUV_A Integrin alpha-X; MYRIS  18.8 1.1E+02  0.0012   11.8   0.0    6    1-6       3-8   (35)
+  3 7E80_c Flagellar hook protein   17.0 1.3E+02  0.0015   13.0   0.0    6    1-6      86-91  (251)
+  4 7CBM_V Flagellar hook protein   16.8 1.3E+02  0.0015   12.8   0.0    6    1-6     101-106 (260)
+  5 7NVG_12 bacterial flagellum, f  16.8 1.3E+02  0.0015   12.8   0.0    6    1-6     101-106 (260)
+  6 1XC0_A Pardaxin P-4; Bend-heli  16.3 1.4E+02  0.0016   11.4   0.0    5    1-5       1-5   (33)
+  7 2K8O_A Integrin alpha-L; Integ  13.5 1.9E+02  0.0021   11.9   0.0    4    1-4       4-7   (60)
+  8 6JF2_B Flagellar basal-body ro  13.5 1.9E+02  0.0021   12.2   0.0    6    1-6      59-64  (185)
+  9 3GDZ_D Arginyl-tRNA synthetase  13.2 1.9E+02  0.0021   10.4   0.0    5    1-5      84-88  (109)
+ 10 2M3E_A Integrin alpha-L; integ  12.4 2.1E+02  0.0023   10.4   0.0    4    1-4      37-40  (50)
+
+No 1
+>4DX8_H Integrin beta-1-binding protein 1, Krev; Protein-protien complex, PTB domain, Nudix; HET: BR; 2.54A {Homo sapiens}
+Probab=24.10  E-value=75  Score=14.67  Aligned_cols=6  Identities=50%  Similarity=0.694  Sum_probs=0.0  Template_Neff=4.900
+
+Q GFFNLQ            1 GFFNLQ    6 (6)
+Q Consensus         1 gffnlq    6 (6)
+                      +|++||
+T Consensus       136 ~F~~L~  141 (203)
+T 4DX8_H          136 IFYCLQ  141 (203)
+T ss_dssp             ------
+T ss_pred             ceEeHH
+Confidence            466664
+
+
+No 2
+>2LUV_A Integrin alpha-X; MYRISTOYLATED, DPC MICELLES, CELL ADHESION; NMR {N/A}
+Probab=18.84  E-value=1.1e+02  Score=11.76  Aligned_cols=6  Identities=67%  Similarity=1.215  Sum_probs=3.5  Template_Neff=1.300
+
+Q GFFNLQ            1 GFFNLQ    6 (6)
+Q Consensus         1 gffnlq    6 (6)
+                      |||.-|
+T Consensus         3 gffkrq    8 (35)
+T 2LUV_A            3 GFFKRQ    8 (35)
+T ss_dssp             TTHHHH
+T ss_pred             chhHHH
+Confidence            677543
+
+
+No 3
+>7E80_c Flagellar hook protein FlgE, Flagellar; Flagella, Rod, MOTOR PROTEIN; 3.67A {Salmonella typhimurium (strain LT2 / SGSC1412 / ATCC 700720)}
+Probab=16.98  E-value=1.3e+02  Score=12.95  Aligned_cols=6  Identities=33%  Similarity=0.805  Sum_probs=0.0  Template_Neff=7.800
+
+Q GFFNLQ            1 GFFNLQ    6 (6)
+Q Consensus         1 gffnlq    6 (6)
+                      |||.++
+T Consensus        86 GfF~V~   91 (251)
+T 7E80_c           86 GWLVVQ   91 (251)
+T ss_pred             CcEEEE
+
+
+No 4
+>7CBM_V Flagellar hook protein FlgE, Flagellar; Flagella, Distal rod, FlgG, FlgF; 3.2A {Salmonella typhimurium (strain LT2 / SGSC1412 / ATCC 700720)}
+Probab=16.84  E-value=1.3e+02  Score=12.85  Aligned_cols=6  Identities=50%  Similarity=1.226  Sum_probs=0.0  Template_Neff=8.100
+
+Q GFFNLQ            1 GFFNLQ    6 (6)
+Q Consensus         1 gffnlq    6 (6)
+                      |||.++
+T Consensus       101 GfF~v~  106 (260)
+T 7CBM_V          101 GFFQVM  106 (260)
+T ss_pred             ceEEEE
+
+
+No 5
+>7NVG_12 bacterial flagellum, flagella, basal body; 3.7A {Salmonella enterica subsp. enterica serovar Typhimurium}
+Probab=16.84  E-value=1.3e+02  Score=12.85  Aligned_cols=6  Identities=50%  Similarity=1.226  Sum_probs=0.0  Template_Neff=8.100
+
+Q GFFNLQ            1 GFFNLQ    6 (6)
+Q Consensus         1 gffnlq    6 (6)
+                      |||.++
+T Consensus       101 GfF~v~  106 (260)
+T 7NVG_12         101 GFFQVM  106 (260)
+T ss_pred             ceEEEE
+
+
+No 6
+>1XC0_A Pardaxin P-4; Bend-helix-bend-helix motif, SIGNALING PROTEIN; NMR {N/A} SCOP: j.6.1.1
+Probab=16.29  E-value=1.4e+02  Score=11.38  Aligned_cols=5  Identities=80%  Similarity=1.617  Sum_probs=0.0  Template_Neff=1.000
+
+Q GFFNLQ            1 GFFNL    5 (6)
+Q Consensus         1 gffnl    5 (6)
+                      |||.|
+T Consensus         1 gffal    5 (33)
+T 1XC0_A            1 GFFAL    5 (33)
+T ss_dssp             CCSSS
+T ss_pred             Ccccc
+
+
+No 7
+>2K8O_A Integrin alpha-L; Integrin, Alpha L, Beta 2; NMR {Homo sapiens}
+Probab=13.53  E-value=1.9e+02  Score=11.88  Aligned_cols=4  Identities=75%  Similarity=1.780  Sum_probs=0.0  Template_Neff=3.000
+
+Q GFFNLQ            1 GFFN    4 (6)
+Q Consensus         1 gffn    4 (6)
+                      |||.
+T Consensus         4 GFFK    7 (60)
+T 2K8O_A            4 GFFK    7 (60)
+T ss_dssp             STTH
+T ss_pred             ccee
+
+
+No 8
+>6JF2_B Flagellar basal-body rod protein FlgG; Bacterial flagellum, distal rod, STRUCTURAL; HET: MSE; 2.0A {Salmonella typhimurium (strain LT2 / SGSC1412 / ATCC 700720)}
+Probab=13.47  E-value=1.9e+02  Score=12.20  Aligned_cols=6  Identities=50%  Similarity=1.226  Sum_probs=0.0  Template_Neff=7.300
+
+Q GFFNLQ            1 GFFNLQ    6 (6)
+Q Consensus         1 gffnlq    6 (6)
+                      |||.++
+T Consensus        59 GfF~v~   64 (185)
+T 6JF2_B           59 GFFQVM   64 (185)
+T ss_pred             ceEEEe
+
+
+No 9
+>3GDZ_D Arginyl-tRNA synthetase (E.C.6.1.1.19); Arginyl-tRNA synthetase, Klebsiella pneumoniae subsp.; HET: MSE, EDO; 2.2A {Klebsiella pneumoniae subsp. pneumoniae}
+Probab=13.20  E-value=1.9e+02  Score=10.43  Aligned_cols=5  Identities=60%  Similarity=1.411  Sum_probs=0.0  Template_Neff=8.900
+
+Q GFFNLQ            1 GFFNL    5 (6)
+Q Consensus         1 gffnl    5 (6)
+                      ||.|+
+T Consensus        84 GfIn~   88 (109)
+T 3GDZ_D           84 GFINI   88 (109)
+T ss_dssp             TEEEE
+T ss_pred             CEEEE
+
+
+No 10
+>2M3E_A Integrin alpha-L; integrin alpah L TM domain; NMR {Homo sapiens}
+Probab=12.44  E-value=2.1e+02  Score=10.37  Aligned_cols=4  Identities=75%  Similarity=1.780  Sum_probs=0.0  Template_Neff=5.700
+
+Q GFFNLQ            1 GFFN    4 (6)
+Q Consensus         1 gffn    4 (6)
+                      |||.
+T Consensus        37 GFFk   40 (50)
+T 2M3E_A           37 GFFK   40 (50)
+T ss_dssp             TSGG
+T ss_pred             Ccch
+
+

@@ -1,0 +1,149 @@
+Query         RLSNNI
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 12:21:03 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/RLSNNI/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/RLSNNI/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6NU2_AZ 39S ribosomal protein   18.4 1.2E+02  0.0013   12.9   0.0    6    1-6       9-14  (87)
+  2 6WO1_A Acetolactate synthase c  17.0 1.3E+02  0.0015   14.7   0.0    6    1-6      32-37  (718)
+  3 7AOH_I Vaccinia, Virus, RNA po  14.2 1.7E+02  0.0019   16.7   0.0    6    1-6     466-471 (795)
+  4 6RFL_I 15 kDa core protein; Va  14.2 1.7E+02  0.0019   16.7   0.0    6    1-6     466-471 (795)
+  5 7AJF_a ATP synthase subunit al   9.7   3E+02  0.0033   11.9   0.0    6    1-6     159-164 (226)
+  6 6J5I_a ATP synthase subunit al   9.0 3.3E+02  0.0037   11.8   0.0    6    1-6     159-164 (226)
+  7 1LLA_A HEMOCYANIN (SUBUNIT TYP   9.0 3.3E+02  0.0037   14.0   0.0    6    1-6     215-220 (628)
+  8 1NOL_A HEMOCYANIN (SUBUNIT TYP   9.0 3.3E+02  0.0037   14.0   0.0    6    1-6     215-220 (628)
+  9 1LL1_A METCYANIN II; OXYGEN TR   8.9 3.3E+02  0.0037   14.0   0.0    6    1-6     215-220 (628)
+ 10 6N2Z_a Bacterial ATP synthase;   8.7 3.5E+02  0.0038   11.9   0.0    6    1-6     169-174 (237)
+
+No 1
+>6NU2_AZ 39S ribosomal protein L2, mitochondrial; mitochondrial ribosome recycling Factor, mtRRF; HET: MG; 3.9A {Homo sapiens}
+Probab=18.40  E-value=1.2e+02  Score=12.93  Aligned_cols=6  Identities=50%  Similarity=0.761  Sum_probs=3.1  Template_Neff=3.700
+
+Q RLSNNI            1 RLSNNI    6 (6)
+Q Consensus         1 rlsnni    6 (6)
+                      |||+.|
+T Consensus         9 rLs~RI   14 (87)
+T 6NU2_AZ           9 RLSARL   14 (87)
+T ss_pred             HHHHHH
+Confidence            456544
+
+
+No 2
+>6WO1_A Acetolactate synthase catalytic subunit, mitochondrial; AHAS, pyruvate, FAD, dioxygen, TRANSFERASE; HET: FAD; 3.3A {Cryptococcus neoformans}
+Probab=16.96  E-value=1.3e+02  Score=14.71  Aligned_cols=6  Identities=83%  Similarity=1.027  Sum_probs=0.0  Template_Neff=8.200
+
+Q RLSNNI            1 RLSNNI    6 (6)
+Q Consensus         1 rlsnni    6 (6)
+                      |.||||
+T Consensus        32 ~~~~~~   37 (718)
+T 6WO1_A           32 RYSNNI   37 (718)
+T ss_dssp             ------
+T ss_pred             cccccc
+Confidence            346665
+
+
+No 3
+>7AOH_I Vaccinia, Virus, RNA polymerase, DNA-dependent; 2.7A {Vaccinia virus GLV-1h68}
+Probab=14.18  E-value=1.7e+02  Score=16.71  Aligned_cols=6  Identities=67%  Similarity=0.955  Sum_probs=3.9  Template_Neff=3.300
+
+Q RLSNNI            1 RLSNNI    6 (6)
+Q Consensus         1 rlsnni    6 (6)
+                      |||+|+
+T Consensus       466 RLSaNL  471 (795)
+T 7AOH_I          466 RLSANL  471 (795)
+T ss_dssp             CCCTTT
+T ss_pred             eeccce
+Confidence            677764
+
+
+No 4
+>6RFL_I 15 kDa core protein; Vaccinia, RNA polymerase, RNA Polymerase; HET: SEP; 2.76A {Vaccinia virus GLV-1h68}
+Probab=14.18  E-value=1.7e+02  Score=16.71  Aligned_cols=6  Identities=67%  Similarity=0.955  Sum_probs=3.9  Template_Neff=3.300
+
+Q RLSNNI            1 RLSNNI    6 (6)
+Q Consensus         1 rlsnni    6 (6)
+                      |||+|+
+T Consensus       466 RLSaNL  471 (795)
+T 6RFL_I          466 RLSANL  471 (795)
+T ss_pred             eeccce
+Confidence            677764
+
+
+No 5
+>7AJF_a ATP synthase subunit alpha, mitochondrial; ATP synthase, mitochondria, mammalian, complex; HET: CDL, LHG, M3L; 8.45A {Bos taurus}
+Probab=9.66  E-value=3e+02  Score=11.93  Aligned_cols=6  Identities=67%  Similarity=0.983  Sum_probs=0.0  Template_Neff=7.400
+
+Q RLSNNI            1 RLSNNI    6 (6)
+Q Consensus         1 rlsnni    6 (6)
+                      ||..||
+T Consensus       159 RL~~Ni  164 (226)
+T 7AJF_a          159 RLTANI  164 (226)
+T ss_pred             HHHHHH
+
+
+No 6
+>6J5I_a ATP synthase subunit alpha, mitochondrial; membrane protein; HET: ATP, ADP; 3.34A {Sus scrofa}
+Probab=8.99  E-value=3.3e+02  Score=11.81  Aligned_cols=6  Identities=67%  Similarity=0.983  Sum_probs=0.0  Template_Neff=7.400
+
+Q RLSNNI            1 RLSNNI    6 (6)
+Q Consensus         1 rlsnni    6 (6)
+                      ||.-||
+T Consensus       159 RL~~Ni  164 (226)
+T 6J5I_a          159 RLTANI  164 (226)
+T ss_pred             HHHHHH
+
+
+No 7
+>1LLA_A HEMOCYANIN (SUBUNIT TYPE II); OXYGEN TRANSPORT; 2.18A {Limulus polyphemus} SCOP: b.1.18.3, a.86.1.1, a.85.1.1
+Probab=8.96  E-value=3.3e+02  Score=13.95  Aligned_cols=6  Identities=67%  Similarity=0.977  Sum_probs=0.0  Template_Neff=6.700
+
+Q RLSNNI            1 RLSNNI    6 (6)
+Q Consensus         1 rlsnni    6 (6)
+                      ||||++
+T Consensus       215 RLSngL  220 (628)
+T 1LLA_A          215 RLSNGM  220 (628)
+T ss_dssp             HHHTTC
+T ss_pred             HHhcCc
+
+
+No 8
+>1NOL_A HEMOCYANIN (SUBUNIT TYPE II), PEROXIDE; OXYGEN TRANSPORT; 2.4A {Limulus polyphemus} SCOP: a.86.1.1, a.85.1.1, b.1.18.3
+Probab=8.96  E-value=3.3e+02  Score=13.95  Aligned_cols=6  Identities=67%  Similarity=0.977  Sum_probs=0.0  Template_Neff=6.700
+
+Q RLSNNI            1 RLSNNI    6 (6)
+Q Consensus         1 rlsnni    6 (6)
+                      ||||++
+T Consensus       215 RLSngL  220 (628)
+T 1NOL_A          215 RLSNGM  220 (628)
+T ss_dssp             HHHTTC
+T ss_pred             HHhcCc
+
+
+No 9
+>1LL1_A METCYANIN II; OXYGEN TRANSPORT, RESPIRATORY PROTEIN, GLYCOPROTEIN; 2.55A {Limulus polyphemus} SCOP: b.1.18.3, a.85.1.1, a.86.1.1
+Probab=8.92  E-value=3.3e+02  Score=13.99  Aligned_cols=6  Identities=67%  Similarity=0.977  Sum_probs=0.0  Template_Neff=6.600
+
+Q RLSNNI            1 RLSNNI    6 (6)
+Q Consensus         1 rlsnni    6 (6)
+                      ||||++
+T Consensus       215 RLSngL  220 (628)
+T 1LL1_A          215 RLSNGM  220 (628)
+T ss_dssp             HHHTTC
+T ss_pred             HHhcCc
+
+
+No 10
+>6N2Z_a Bacterial ATP synthase; Bacterial ATP synthase, HYDROLASE; HET: ATP, ADP; 3.0A {Bacillus sp. PS3}
+Probab=8.69  E-value=3.5e+02  Score=11.93  Aligned_cols=6  Identities=67%  Similarity=0.783  Sum_probs=0.0  Template_Neff=7.200
+
+Q RLSNNI            1 RLSNNI    6 (6)
+Q Consensus         1 rlsnni    6 (6)
+                      ||.-||
+T Consensus       169 RLf~Ni  174 (237)
+T 6N2Z_a          169 RLFGNI  174 (237)
+T ss_pred             HHHHHH
+
+

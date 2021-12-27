@@ -1,0 +1,154 @@
+Query         GFPGSF
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 23:45:00 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GFPGSF/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GFPGSF/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 7D2Y_C RRM domain, PROTEIN BIN  46.7      18  0.0002   15.2   0.0    6    1-6      10-15  (83)
+  2 7OCX_B piRNA biogenesis 21U RN  38.1      30 0.00033   14.7   0.0    6    1-6      19-24  (84)
+  3 7OCZ_B piRNA biogenesis 21U RN  38.1      30 0.00033   14.7   0.0    6    1-6      19-24  (84)
+  4 4O4B_B Extracellular solute-bi  34.7      37 0.00041   14.5   0.0    6    1-6       5-10  (250)
+  5 3UBT_Y Modification methylase   19.9   1E+02  0.0011   12.7   0.0    6    1-6     285-290 (331)
+  6 3TR0_A Guanylate kinase (E.C.2  19.8   1E+02  0.0011   10.4   0.0    5    1-5      14-18  (205)
+  7 2H92_C Cytidylate kinase (E.C.  19.7   1E+02  0.0012   11.5   0.0    5    1-5      10-14  (219)
+  8 3TRF_A Shikimate kinase (E.C.2  19.4 1.1E+02  0.0012   10.4   0.0    5    1-5      12-16  (185)
+  9 3G7U_A Cytosine-specific methy  19.4 1.1E+02  0.0012   13.0   0.0    6    1-6     329-334 (376)
+ 10 1EX6_B GUANYLATE KINASE (E.C.   19.2 1.1E+02  0.0012   10.2   0.0    5    1-5       8-12  (186)
+
+No 1
+>7D2Y_C RRM domain, PROTEIN BINDING; HET: SO4; 2.68A {Caenorhabditis elegans}
+Probab=46.69  E-value=18  Score=15.20  Aligned_cols=6  Identities=50%  Similarity=1.470  Sum_probs=4.0  Template_Neff=3.600
+
+Q GFPGSF            1 GFPGSF    6 (6)
+Q Consensus         1 gfpgsf    6 (6)
+                      |||.||
+T Consensus        10 GyP~~~   15 (83)
+T 7D2Y_C           10 GYPGML   15 (83)
+T ss_dssp             CSCTTC
+T ss_pred             eCCccc
+Confidence            677764
+
+
+No 2
+>7OCX_B piRNA biogenesis 21U RNA RNA; 1.7A {Caenorhabditis elegans}
+Probab=38.09  E-value=30  Score=14.70  Aligned_cols=6  Identities=50%  Similarity=1.470  Sum_probs=3.7  Template_Neff=3.300
+
+Q GFPGSF            1 GFPGSF    6 (6)
+Q Consensus         1 gfpgsf    6 (6)
+                      |||.+|
+T Consensus        19 GyP~~~   24 (84)
+T 7OCX_B           19 GYPGML   24 (84)
+T ss_dssp             CSCTTC
+T ss_pred             eCCccc
+Confidence            667654
+
+
+No 3
+>7OCZ_B piRNA biogenesis 21U RNA RNA; 1.82A {Caenorhabditis elegans}
+Probab=38.09  E-value=30  Score=14.70  Aligned_cols=6  Identities=50%  Similarity=1.470  Sum_probs=3.7  Template_Neff=3.300
+
+Q GFPGSF            1 GFPGSF    6 (6)
+Q Consensus         1 gfpgsf    6 (6)
+                      |||.+|
+T Consensus        19 GyP~~~   24 (84)
+T 7OCZ_B           19 GYPGML   24 (84)
+T ss_dssp             CSCTTC
+T ss_pred             eCCccc
+Confidence            667654
+
+
+No 4
+>4O4B_B Extracellular solute-binding protein family 1; PDKG kinase, TRANSPORT PROTEIN-Transferase complex; 1.8A {Escherichia coli}
+Probab=34.66  E-value=37  Score=14.53  Aligned_cols=6  Identities=67%  Similarity=1.032  Sum_probs=3.7  Template_Neff=7.800
+
+Q GFPGSF            1 GFPGSF    6 (6)
+Q Consensus         1 gfpgsf    6 (6)
+                      |+.|||
+T Consensus         5 ~~~~~~   10 (250)
+T 4O4B_B            5 YFQGSF   10 (250)
+T ss_dssp             TTTTCE
+T ss_pred             cccCCC
+Confidence            566665
+
+
+No 5
+>3UBT_Y Modification methylase HaeIII (E.C.2.1.1.37); Protein-DNA complex, DNA cytosine-5 methyltransferase; HET: ATP, 2PE; 2.502A {Haemophilus aegyptius}
+Probab=19.95  E-value=1e+02  Score=12.68  Aligned_cols=6  Identities=67%  Similarity=1.597  Sum_probs=0.0  Template_Neff=9.900
+
+Q GFPGSF            1 GFPGSF    6 (6)
+Q Consensus         1 gfpgsf    6 (6)
+                      |||..|
+T Consensus       285 gfP~~~  290 (331)
+T 3UBT_Y          285 GFPDDF  290 (331)
+T ss_dssp             TCCTTC
+T ss_pred             CCCCCE
+
+
+No 6
+>3TR0_A Guanylate kinase (E.C.2.7.4.8); Purines, pyrimidines, nucleosides, nucleotides, TRANSFERASE; HET: SO4, 5GP, MSE; 1.851A {Coxiella burnetii}
+Probab=19.82  E-value=1e+02  Score=10.42  Aligned_cols=5  Identities=20%  Similarity=0.322  Sum_probs=0.0  Template_Neff=12.400
+
+Q GFPGSF            1 GFPGS    5 (6)
+Q Consensus         1 gfpgs    5 (6)
+                      |.|||
+T Consensus        14 G~~gs   18 (205)
+T 3TR0_A           14 APSGA   18 (205)
+T ss_dssp             CCTTS
+T ss_pred             CCCCC
+
+
+No 7
+>2H92_C Cytidylate kinase (E.C.2.7.4.14); Rossmann fold, TRANSFERASE; HET: SO4, C5P, PG4; 2.3A {Staphylococcus aureus}
+Probab=19.72  E-value=1e+02  Score=11.52  Aligned_cols=5  Identities=20%  Similarity=0.315  Sum_probs=0.0  Template_Neff=10.600
+
+Q GFPGSF            1 GFPGS    5 (6)
+Q Consensus         1 gfpgs    5 (6)
+                      |.|||
+T Consensus        10 G~~gs   14 (219)
+T 2H92_C           10 GPAAA   14 (219)
+T ss_dssp             CCTTS
+T ss_pred             Ccccc
+
+
+No 8
+>3TRF_A Shikimate kinase (E.C.2.7.1.71); Amino acid biosynthesis, TRANSFERASE; HET: SO4; 2.6A {Coxiella burnetii}
+Probab=19.38  E-value=1.1e+02  Score=10.41  Aligned_cols=5  Identities=40%  Similarity=0.926  Sum_probs=0.0  Template_Neff=12.000
+
+Q GFPGSF            1 GFPGS    5 (6)
+Q Consensus         1 gfpgs    5 (6)
+                      |-|||
+T Consensus        12 G~~gs   16 (185)
+T 3TRF_A           12 GLMGA   16 (185)
+T ss_dssp             CSTTS
+T ss_pred             CCCCC
+
+
+No 9
+>3G7U_A Cytosine-specific methyltransferase (E.C.2.1.1.37); METHYLTRANSFERASE, DNA-BINDING, NAD-BINDING, STRUCTURAL GENOMICS; HET: GOL; 1.75A {Escherichia coli O157:H7 EDL933}
+Probab=19.36  E-value=1.1e+02  Score=13.03  Aligned_cols=6  Identities=67%  Similarity=1.386  Sum_probs=0.0  Template_Neff=9.600
+
+Q GFPGSF            1 GFPGSF    6 (6)
+Q Consensus         1 gfpgsf    6 (6)
+                      |||.+|
+T Consensus       329 gFPd~~  334 (376)
+T 3G7U_A          329 GFPDWF  334 (376)
+T ss_dssp             TCCTTC
+T ss_pred             CCCcce
+
+
+No 10
+>1EX6_B GUANYLATE KINASE (E.C. 2.7.4.8); GUANYLATE KINASE, SUBSTRATE-INDUCED FIT, DOMAIN; 2.3A {Saccharomyces cerevisiae} SCOP: c.37.1.1
+Probab=19.20  E-value=1.1e+02  Score=10.24  Aligned_cols=5  Identities=40%  Similarity=0.753  Sum_probs=0.0  Template_Neff=12.300
+
+Q GFPGSF            1 GFPGS    5 (6)
+Q Consensus         1 gfpgs    5 (6)
+                      |.|||
+T Consensus         8 G~~gs   12 (186)
+T 1EX6_B            8 GPSGT   12 (186)
+T ss_dssp             CCTTS
+T ss_pred             CCCCc
+
+

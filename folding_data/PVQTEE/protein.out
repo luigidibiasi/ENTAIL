@@ -1,0 +1,144 @@
+Query         PVQTEE
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 06:55:03 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/PVQTEE/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/PVQTEE/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5HL7_Q 50S ribosomal protein L   4.9 7.2E+02   0.008    9.5   0.0    5    1-5      10-14  (91)
+  2 5YZZ_C B3 domain-containing tr   4.9 7.3E+02   0.008    8.9   0.0    6    1-6       1-6   (128)
+  3 7ACR_T Trans-translation, tmRN   4.6 7.9E+02  0.0087    9.5   0.0    5    1-5      14-18  (94)
+  4 5KGG_A Serine/threonine-protei   4.3 8.6E+02  0.0095    9.1   0.0    6    1-6     267-272 (276)
+  5 3ZIF_J HEXON PROTEIN, PENTON P   4.3 8.7E+02  0.0096   14.5   0.0    6    1-6      70-75  (911)
+  6 6SPG_T 30S ribosomal protein S   4.3 8.7E+02  0.0097    9.4   0.0    5    1-5      12-16  (92)
+  7 4BTS_CK TRANSLATION INITIATION   4.2 8.9E+02  0.0098   10.3   0.0    6    1-6       8-13  (151)
+  8 3ZIF_E HEXON PROTEIN, PENTON P   4.2 8.9E+02  0.0098   14.5   0.0    6    1-6      70-75  (911)
+  9 4IOA_Q 50S ribosomal subunit;    4.2   9E+02  0.0099    9.3   0.0    5    1-5      10-14  (95)
+ 10 5O3U_M Prolyl oligopeptidase,    4.1 9.1E+02    0.01    9.5   0.0    5    1-5      22-26  (38)
+
+No 1
+>5HL7_Q 50S ribosomal protein L2, 50S; ribosome, lefamulin, RNA, antibiotic; HET: MPD, MG, MN, 62B, SPD, EPE; 3.55A {Staphylococcus aureus subsp. aureus NCTC 8325}
+Probab=4.94  E-value=7.2e+02  Score=9.52  Aligned_cols=5  Identities=80%  Similarity=1.012  Sum_probs=0.0  Template_Neff=6.900
+
+Q PVQTEE            1 PVQTE    5 (6)
+Q Consensus         1 pvqte    5 (6)
+                      |+.||
+T Consensus        10 p~~TE   14 (91)
+T 5HL7_Q           10 PVITE   14 (91)
+T ss_pred             ccCCH
+
+
+No 2
+>5YZZ_C B3 domain-containing transcription repressor VAL1/DNA; transcriptional factor, Val1, B3 domain; 2.58A {Arabidopsis thaliana}
+Probab=4.93  E-value=7.3e+02  Score=8.91  Aligned_cols=6  Identities=33%  Similarity=0.589  Sum_probs=0.0  Template_Neff=9.600
+
+Q PVQTEE            1 PVQTEE    6 (6)
+Q Consensus         1 pvqtee    6 (6)
+                      |.++++
+T Consensus         1 ~~~~~~    6 (128)
+T 5YZZ_C            1 PKYTDK    6 (128)
+T ss_dssp             ------
+T ss_pred             CCCChH
+
+
+No 3
+>7ACR_T Trans-translation, tmRNA, SmpB, Ribosome, TRANSLATION; HET: OMU, 2MG, OMC, 6MZ, 1MG, PSU, OMG, 3TD, 2MA, 0TD, 5MC, 4OC, 4D4, MG, G7M, MA6, UR3, 5MU;{Escherichia coli K-12}
+Probab=4.63  E-value=7.9e+02  Score=9.47  Aligned_cols=5  Identities=40%  Similarity=0.614  Sum_probs=0.0  Template_Neff=6.900
+
+Q PVQTEE            1 PVQTE    5 (6)
+Q Consensus         1 pvqte    5 (6)
+                      |+.||
+T Consensus        14 pi~TE   18 (94)
+T 7ACR_T           14 PHVSE   18 (94)
+T ss_pred             cccCH
+
+
+No 4
+>5KGG_A Serine/threonine-protein kinase pim-1 (E.C.2.7.11.1); Kinase, transferase, Serine/threonine-protein kinase pim-1; HET: 6SO, SO4, EDO; 1.95A {Homo sapiens}
+Probab=4.31  E-value=8.6e+02  Score=9.07  Aligned_cols=6  Identities=50%  Similarity=0.772  Sum_probs=0.0  Template_Neff=11.600
+
+Q PVQTEE            1 PVQTEE    6 (6)
+Q Consensus         1 pvqtee    6 (6)
+                      |.|++|
+T Consensus       267 ~~~~~~  272 (276)
+T 5KGG_A          267 PQETAE  272 (276)
+T ss_dssp             HHHHCC
+T ss_pred             Cccccc
+
+
+No 5
+>3ZIF_J HEXON PROTEIN, PENTON PROTEIN, PIX; VIRUS, ASSEMBLY INTERMEDIATE; 4.5A {BOVINE ADENOVIRUS 3}
+Probab=4.27  E-value=8.7e+02  Score=14.50  Aligned_cols=6  Identities=50%  Similarity=0.999  Sum_probs=0.0  Template_Neff=3.500
+
+Q PVQTEE            1 PVQTEE    6 (6)
+Q Consensus         1 pvqtee    6 (6)
+                      |||+|+
+T Consensus        70 Pvd~ED   75 (911)
+T 3ZIF_J           70 PVDRED   75 (911)
+T ss_dssp             CSEEEE
+T ss_pred             eccccC
+
+
+No 6
+>6SPG_T 30S ribosomal protein S2, 30S; Ribosome, Pseudomonas aeruginosa; HET: MG; 3.34A {Pseudomonas aeruginosa}
+Probab=4.26  E-value=8.7e+02  Score=9.36  Aligned_cols=5  Identities=40%  Similarity=0.587  Sum_probs=0.0  Template_Neff=6.800
+
+Q PVQTEE            1 PVQTE    5 (6)
+Q Consensus         1 pvqte    5 (6)
+                      |+-||
+T Consensus        12 p~~TE   16 (92)
+T 6SPG_T           12 PHISE   16 (92)
+T ss_pred             ccccH
+
+
+No 7
+>4BTS_CK TRANSLATION INITIATION FACTOR EIF-1A FAMILY; RIBOSOME, TRANSLATION, TRANSLATION INITIATION, SMALL; HET: MG, ZN; 3.703A {TETRAHYMENA THERMOPHILA}
+Probab=4.21  E-value=8.9e+02  Score=10.33  Aligned_cols=6  Identities=67%  Similarity=0.861  Sum_probs=0.0  Template_Neff=6.400
+
+Q PVQTEE            1 PVQTEE    6 (6)
+Q Consensus         1 pvqtee    6 (6)
+                      |+|.|+
+T Consensus         8 ~~~~~~   13 (151)
+T 4BTS_CK           8 PVQKEV   13 (151)
+T ss_pred             CCCcee
+
+
+No 8
+>3ZIF_E HEXON PROTEIN, PENTON PROTEIN, PIX; VIRUS, ASSEMBLY INTERMEDIATE; 4.5A {BOVINE ADENOVIRUS 3}
+Probab=4.20  E-value=8.9e+02  Score=14.46  Aligned_cols=6  Identities=50%  Similarity=0.999  Sum_probs=0.0  Template_Neff=3.500
+
+Q PVQTEE            1 PVQTEE    6 (6)
+Q Consensus         1 pvqtee    6 (6)
+                      |||+|+
+T Consensus        70 Pvd~ED   75 (911)
+T 3ZIF_E           70 PVDRED   75 (911)
+T ss_dssp             CSEEEE
+T ss_pred             eccccC
+
+
+No 9
+>4IOA_Q 50S ribosomal subunit; RIBOSOME-RIBOSOME INHIBITOR complex; HET: 1F3, MG; 3.2A {Deinococcus radiodurans}
+Probab=4.16  E-value=9e+02  Score=9.34  Aligned_cols=5  Identities=60%  Similarity=0.946  Sum_probs=0.0  Template_Neff=6.900
+
+Q PVQTEE            1 PVQTE    5 (6)
+Q Consensus         1 pvqte    5 (6)
+                      |+-||
+T Consensus        10 p~~TE   14 (95)
+T 4IOA_Q           10 PVISE   14 (95)
+T ss_pred             ccCCH
+
+
+No 10
+>5O3U_M Prolyl oligopeptidase, Alpha-amanitin proprotein; segetalin biosynthesis, prolyl oligopeptidase, macrocyclase; 1.86A {Vaccaria hispanica}
+Probab=4.10  E-value=9.1e+02  Score=9.45  Aligned_cols=5  Identities=60%  Similarity=1.172  Sum_probs=0.0  Template_Neff=1.200
+
+Q PVQTEE            1 PVQTE    5 (6)
+Q Consensus         1 pvqte    5 (6)
+                      |+||.
+T Consensus        22 piqtq   26 (38)
+T 5O3U_M           22 PIQTQ   26 (38)
+T ss_pred             Cccee
+
+

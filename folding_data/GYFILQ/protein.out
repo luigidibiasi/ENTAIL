@@ -1,0 +1,156 @@
+Query         GYFILQ
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 05:13:00 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GYFILQ/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GYFILQ/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6JLE_E MORN repeat-containing   67.1     4.7 5.2E-05   16.1   0.0    6    1-6      31-36  (50)
+  2 4OWT_C SOSSA, SOSSB1, SOSSC; S  42.5      23 0.00026   15.3   0.0    6    1-6      81-86  (104)
+  3 4OWW_C SOSSA, SOSSB1, SOSSC/DN  42.5      23 0.00026   15.3   0.0    6    1-6      81-86  (104)
+  4 1WLG_A Flagellar hook protein   32.2      43 0.00048   14.9   0.0    6    1-6      10-15  (299)
+  5 7LIX_A CaRSP1, B-phycoerythrin  25.2      69 0.00076   16.4   0.0    6    1-6     232-237 (288)
+  6 3JZ9_A Uncharacterized protein  23.0      81  0.0009   15.5   0.0    6    1-6      66-71  (197)
+  7 2WWX_B RAS-RELATED PROTEIN RAB  21.1      93   0.001   15.4   0.0    6    1-6      86-91  (217)
+  8 2KGJ_A Peptidyl-prolyl cis-tra  20.0   1E+02  0.0011   10.4   0.0    6    1-6      84-89  (102)
+  9 2PV2_C Chaperone surA (E.C.5.2  19.8   1E+02  0.0012   10.3   0.0    6    1-6      93-98  (103)
+ 10 1NMV_A Peptidyl-prolyl cis-tra  19.1 1.1E+02  0.0012   11.1   0.0    6    1-6     155-160 (163)
+
+No 1
+>6JLE_E MORN repeat-containing protein 4, Myosin-IIIa; PROTEIN BINDING, PROTEIN TRANSPORT, MOTOR; HET: CIT, GOL; 1.55A {Mus musculus}
+Probab=67.13  E-value=4.7  Score=16.05  Aligned_cols=6  Identities=83%  Similarity=1.370  Sum_probs=4.5  Template_Neff=2.600
+
+Q GYFILQ            1 GYFILQ    6 (6)
+Q Consensus         1 gyfilq    6 (6)
+                      .|||||
+T Consensus        31 dy~~LQ   36 (50)
+T 6JLE_E           31 EYFILQ   36 (50)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            378887
+
+
+No 2
+>4OWT_C SOSSA, SOSSB1, SOSSC; SOSS1 complex, DNA double-strand breaks; HET: MSE; 2.0A {Homo sapiens}
+Probab=42.52  E-value=23  Score=15.34  Aligned_cols=6  Identities=83%  Similarity=1.486  Sum_probs=3.9  Template_Neff=3.700
+
+Q GYFILQ            1 GYFILQ    6 (6)
+Q Consensus         1 gyfilq    6 (6)
+                      ||||-|
+T Consensus        81 g~FI~q   86 (104)
+T 4OWT_C           81 GYFITQ   86 (104)
+T ss_dssp             SCEEEC
+T ss_pred             eeeeec
+Confidence            677754
+
+
+No 3
+>4OWW_C SOSSA, SOSSB1, SOSSC/DNA Complex; SOSS1 complex, DNA double-strand breaks; 2.3A {Homo sapiens}
+Probab=42.52  E-value=23  Score=15.34  Aligned_cols=6  Identities=83%  Similarity=1.486  Sum_probs=3.9  Template_Neff=3.700
+
+Q GYFILQ            1 GYFILQ    6 (6)
+Q Consensus         1 gyfilq    6 (6)
+                      ||||-|
+T Consensus        81 g~FI~q   86 (104)
+T 4OWW_C           81 GYFITQ   86 (104)
+T ss_pred             eeeeec
+Confidence            677754
+
+
+No 4
+>1WLG_A Flagellar hook protein flgE; EAR-& motif, STRUCTURAL PROTEIN; 1.8A {Salmonella typhimurium} SCOP: b.152.1.1
+Probab=32.23  E-value=43  Score=14.91  Aligned_cols=6  Identities=50%  Similarity=1.043  Sum_probs=3.5  Template_Neff=7.400
+
+Q GYFILQ            1 GYFILQ    6 (6)
+Q Consensus         1 gyfilq    6 (6)
+                      |+|+++
+T Consensus        10 GFFvV~   15 (299)
+T 1WLG_A           10 GFFRLV   15 (299)
+T ss_dssp             CEEEEE
+T ss_pred             ceEEEE
+Confidence            566653
+
+
+No 5
+>7LIX_A CaRSP1, B-phycoerythrin beta chain; linker, phycobilisome, PBS, light harvesting; HET: PEB, MEN;{Porphyridium purpureum}
+Probab=25.23  E-value=69  Score=16.45  Aligned_cols=6  Identities=67%  Similarity=1.359  Sum_probs=4.1  Template_Neff=1.300
+
+Q GYFILQ            1 GYFILQ    6 (6)
+Q Consensus         1 gyfilq    6 (6)
+                      .|||||
+T Consensus       232 AY~mL~  237 (288)
+T 7LIX_A          232 AYFMLQ  237 (288)
+T ss_dssp             CEEEEE
+T ss_pred             eeEeec
+Confidence            378876
+
+
+No 6
+>3JZ9_A Uncharacterized protein DrrA; RabGDI, RabGEF, GDI, GEF, GDF; 1.8A {Legionella pneumophila subsp. pneumophila str. Philadelphia 1}
+Probab=22.99  E-value=81  Score=15.47  Aligned_cols=6  Identities=83%  Similarity=1.265  Sum_probs=3.7  Template_Neff=1.000
+
+Q GYFILQ            1 GYFILQ    6 (6)
+Q Consensus         1 gyfilq    6 (6)
+                      ||-|||
+T Consensus        66 gyailq   71 (197)
+T 3JZ9_A           66 GYAILQ   71 (197)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            566665
+
+
+No 7
+>2WWX_B RAS-RELATED PROTEIN RAB-1, DRRA; GOLGI APPARATUS, PROTEIN TRANSPORT, ER-GOLGI; 1.5A {HOMO SAPIENS}
+Probab=21.14  E-value=93  Score=15.45  Aligned_cols=6  Identities=83%  Similarity=1.265  Sum_probs=3.7  Template_Neff=1.000
+
+Q GYFILQ            1 GYFILQ    6 (6)
+Q Consensus         1 gyfilq    6 (6)
+                      ||-|||
+T Consensus        86 gyailq   91 (217)
+T 2WWX_B           86 GYAILQ   91 (217)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            566665
+
+
+No 8
+>2KGJ_A Peptidyl-prolyl cis-trans isomerase D (E.C.5.2.1.8); prolyl isomerase, parvulin, Cell inner; NMR {Escherichia coli}
+Probab=19.98  E-value=1e+02  Score=10.43  Aligned_cols=6  Identities=33%  Similarity=1.165  Sum_probs=0.0  Template_Neff=10.000
+
+Q GYFILQ            1 GYFILQ    6 (6)
+Q Consensus         1 gyfilq    6 (6)
+                      ||+|++
+T Consensus        84 g~~iv~   89 (102)
+T 2KGJ_A           84 GFLIVR   89 (102)
+T ss_dssp             EEEEEE
+T ss_pred             EEEEEE
+
+
+No 9
+>2PV2_C Chaperone surA (E.C.5.2.1.8), C-peptide; Survival protein A, Peptidyl-prolyl cis-trans; 1.3A {Escherichia coli} SCOP: d.26.1.1
+Probab=19.77  E-value=1e+02  Score=10.33  Aligned_cols=6  Identities=50%  Similarity=1.170  Sum_probs=0.0  Template_Neff=10.200
+
+Q GYFILQ            1 GYFILQ    6 (6)
+Q Consensus         1 gyfilq    6 (6)
+                      ||+|++
+T Consensus        93 ~~~ii~   98 (103)
+T 2PV2_C           93 GFHILK   98 (103)
+T ss_dssp             EEEEEE
+T ss_pred             eEEEEE
+
+
+No 10
+>1NMV_A Peptidyl-prolyl cis-trans isomerase NIMA-interacting 1; PPIase domain, WW domain group; NMR {Homo sapiens} SCOP: b.72.1.1, d.26.1.1
+Probab=19.08  E-value=1.1e+02  Score=11.07  Aligned_cols=6  Identities=33%  Similarity=0.611  Sum_probs=0.0  Template_Neff=10.300
+
+Q GYFILQ            1 GYFILQ    6 (6)
+Q Consensus         1 gyfilq    6 (6)
+                      ||.|++
+T Consensus       155 g~~iv~  160 (163)
+T 1NMV_A          155 GIHIIL  160 (163)
+T ss_dssp             EEEEEE
+T ss_pred             EEEEEE
+
+

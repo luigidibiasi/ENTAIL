@@ -1,0 +1,150 @@
+Query         FGNNAT
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 20:53:10 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/FGNNAT/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/FGNNAT/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 7AOI_BH bL28m, uL29m, uL30m, b  20.1   1E+02  0.0011   15.4   0.0    6    1-6      12-17  (225)
+  2 6YXY_BH bL28m, uL29m, uL30m, b  14.9 1.6E+02  0.0018   15.6   0.0    6    1-6     100-105 (349)
+  3 7AIH_Al mL94, mL89, Ribosomal   14.4 1.7E+02  0.0019   15.5   0.0    6    1-6      99-104 (346)
+  4 7AM2_Al Ribosomal protein L3-l  14.4 1.7E+02  0.0019   15.5   0.0    6    1-6      99-104 (346)
+  5 2IXO_A SERINE/THREONINE-PROTEI  13.3 1.9E+02  0.0021   13.9   0.0    5    1-5      93-97  (323)
+  6 2C7M_A RAB GUANINE NUCLEOTIDE   13.0   2E+02  0.0022   11.4   0.0    6    1-6      26-31  (74)
+  7 2KZY_A Zfand5 protein (Zinc fi  12.9   2E+02  0.0022   11.0   0.0    6    1-6      23-28  (62)
+  8 5D9G_B TIP41-like protein, LEU  12.2 2.2E+02  0.0024   13.3   0.0    4    1-4      40-43  (246)
+  9 2IXM_A SERINE/THREONINE-PROTEI  12.2 2.2E+02  0.0024   13.6   0.0    5    1-5      81-85  (303)
+ 10 2IXP_C SERINE/THREONINE-PROTEI  11.7 2.3E+02  0.0025   13.7   0.0    5    1-5      93-97  (323)
+
+No 1
+>7AOI_BH bL28m, uL29m, uL30m, bL32m, bL33m; mitochondria, translation, trypanosoma, assembly, evolution; HET: ADP, GTP, NAD, 4HH; 3.5A {Trypanosoma brucei}
+Probab=20.14  E-value=1e+02  Score=15.44  Aligned_cols=6  Identities=67%  Similarity=1.182  Sum_probs=4.2  Template_Neff=1.900
+
+Q FGNNAT            1 FGNNAT    6 (6)
+Q Consensus         1 fgnnat    6 (6)
+                      |||.|+
+T Consensus        12 fGNEAa   17 (225)
+T 7AOI_BH          12 FGNEAA   17 (225)
+T ss_pred             cCchHH
+Confidence            788764
+
+
+No 2
+>6YXY_BH bL28m, uL29m, uL30m, bL32m, bL35m; mitoribosome, assembly, LSU, RIBOSOME; HET: ATP, PM8, MG, SPD, NAD, GTP; 3.1A {Trypanosoma brucei brucei}
+Probab=14.94  E-value=1.6e+02  Score=15.59  Aligned_cols=6  Identities=67%  Similarity=1.182  Sum_probs=4.0  Template_Neff=1.900
+
+Q FGNNAT            1 FGNNAT    6 (6)
+Q Consensus         1 fgnnat    6 (6)
+                      |||.|+
+T Consensus       100 fGNEAa  105 (349)
+T 6YXY_BH         100 FGNEAA  105 (349)
+T ss_pred             cChHHH
+Confidence            677664
+
+
+No 3
+>7AIH_Al mL94, mL89, Ribosomal protein L3-like; Ribosome, Mitochondria, Kinetoplastid; HET: NAD; 3.6A {Leishmania major}
+Probab=14.39  E-value=1.7e+02  Score=15.49  Aligned_cols=6  Identities=67%  Similarity=1.182  Sum_probs=4.0  Template_Neff=1.800
+
+Q FGNNAT            1 FGNNAT    6 (6)
+Q Consensus         1 fgnnat    6 (6)
+                      |||.|+
+T Consensus        99 fGNEAa  104 (346)
+T 7AIH_Al          99 FGNEAA  104 (346)
+T ss_pred             cChHHH
+Confidence            677664
+
+
+No 4
+>7AM2_Al Ribosomal protein L3-like protein, uL4m; RIBOSOME, Mitochondria, Kinetoplastid; HET: GTP, ATP; 3.4A {Leishmania tarentolae}
+Probab=14.39  E-value=1.7e+02  Score=15.49  Aligned_cols=6  Identities=67%  Similarity=1.182  Sum_probs=4.0  Template_Neff=1.800
+
+Q FGNNAT            1 FGNNAT    6 (6)
+Q Consensus         1 fgnnat    6 (6)
+                      |||.|+
+T Consensus        99 fGNEAa  104 (346)
+T 7AM2_Al          99 FGNEAA  104 (346)
+T ss_pred             cChHHH
+Confidence            677664
+
+
+No 5
+>2IXO_A SERINE/THREONINE-PROTEIN PHOSPHATASE 2A ACTIVATOR 1; ISOMERASE, PP2A PHOSPHATASE ACTIVATOR PROLYL; 2.6A {SACCHAROMYCES CEREVISIAE} SCOP: a.268.1.1
+Probab=13.26  E-value=1.9e+02  Score=13.89  Aligned_cols=5  Identities=60%  Similarity=0.992  Sum_probs=0.0  Template_Neff=5.800
+
+Q FGNNAT            1 FGNNA    5 (6)
+Q Consensus         1 fgnna    5 (6)
+                      |||.|
+T Consensus        93 FGN~A   97 (323)
+T 2IXO_A           93 YGNLA   97 (323)
+T ss_dssp             CCCSH
+T ss_pred             CCCHH
+
+
+No 6
+>2C7M_A RAB GUANINE NUCLEOTIDE EXCHANGE FACTOR; PROTEIN-BINDING, UBIQUITIN COMPLEX, UBIQUITIN BINDING; 2.4A {BOS TAURUS} SCOP: g.39.1.15
+Probab=13.03  E-value=2e+02  Score=11.44  Aligned_cols=6  Identities=50%  Similarity=0.750  Sum_probs=0.0  Template_Neff=5.100
+
+Q FGNNAT            1 FGNNAT    6 (6)
+Q Consensus         1 fgnnat    6 (6)
+                      |||-+|
+T Consensus        26 yGnPat   31 (74)
+T 2C7M_A           26 YGNPAW   31 (74)
+T ss_dssp             BCCGGG
+T ss_pred             CCCHhh
+
+
+No 7
+>2KZY_A Zfand5 protein (Zinc finger protein; A20 domain, ZNF216, Atrogene, zinc; HET: ZN; NMR {Rattus norvegicus}
+Probab=12.93  E-value=2e+02  Score=11.01  Aligned_cols=6  Identities=50%  Similarity=0.916  Sum_probs=0.0  Template_Neff=5.300
+
+Q FGNNAT            1 FGNNAT    6 (6)
+Q Consensus         1 fgnnat    6 (6)
+                      ||+-+|
+T Consensus        23 fGspaT   28 (62)
+T 2KZY_A           23 YGNPRT   28 (62)
+T ss_dssp             BCCTTT
+T ss_pred             CCCccc
+
+
+No 8
+>5D9G_B TIP41-like protein, LEU-TYR-PHE-GLN; protein binding TIP41-like family PP2A; HET: PO4, MSE; 2.15A {Homo sapiens}
+Probab=12.25  E-value=2.2e+02  Score=13.29  Aligned_cols=4  Identities=75%  Similarity=1.630  Sum_probs=0.0  Template_Neff=5.700
+
+Q FGNNAT            1 FGNN    4 (6)
+Q Consensus         1 fgnn    4 (6)
+                      ||||
+T Consensus        40 F~~N   43 (246)
+T 5D9G_B           40 FGDN   43 (246)
+T ss_dssp             CTTC
+T ss_pred             cCCC
+
+
+No 9
+>2IXM_A SERINE/THREONINE-PROTEIN PHOSPHATASE 2A REGULATORY SUBUNIT; PROTEIN PHOSPHATASE 2A, 2 PTPA; 1.5A {HOMO SAPIENS} SCOP: a.268.1.1
+Probab=12.18  E-value=2.2e+02  Score=13.57  Aligned_cols=5  Identities=80%  Similarity=1.371  Sum_probs=0.0  Template_Neff=5.900
+
+Q FGNNAT            1 FGNNA    5 (6)
+Q Consensus         1 fgnna    5 (6)
+                      |||.|
+T Consensus        81 FGN~A   85 (303)
+T 2IXM_A           81 FGNKA   85 (303)
+T ss_dssp             SSCTH
+T ss_pred             CCCHH
+
+
+No 10
+>2IXP_C SERINE/THREONINE-PROTEIN PHOSPHATASE 2A ACTIVATOR 1; PP2A PHOSPHATASE ACTIVATOR PROLYL ISOMERASE; HET: NIT, SIN, SO4; 2.8A {SACCHAROMYCES CEREVISIAE} SCOP: a.268.1.1
+Probab=11.73  E-value=2.3e+02  Score=13.66  Aligned_cols=5  Identities=60%  Similarity=0.992  Sum_probs=0.0  Template_Neff=5.800
+
+Q FGNNAT            1 FGNNA    5 (6)
+Q Consensus         1 fgnna    5 (6)
+                      |||.|
+T Consensus        93 FGN~A   97 (323)
+T 2IXP_C           93 YGNLA   97 (323)
+T ss_dssp             SCCTT
+T ss_pred             CCCHH
+
+

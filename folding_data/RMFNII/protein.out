@@ -1,0 +1,153 @@
+Query         RMFNII
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 12:27:19 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/RMFNII/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/RMFNII/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 1MR0_A AGOUTI RELATED PROTEIN;  40.7      26 0.00029   13.1   0.0    6    1-6      25-30  (34)
+  2 2L1J_A Agouti-signaling protei  33.1      41 0.00045   12.5   0.0    6    1-6      25-30  (34)
+  3 1Y7K_A Melanocortin  inhibitor  31.4      46  0.0005   13.1   0.0    6    1-6      38-43  (53)
+  4 1HYK_A AGOUTI RELATED PROTEIN;  31.3      46 0.00051   13.1   0.0    6    1-6      25-30  (46)
+  5 2P1L_H Apoptosis regulator Bcl  30.4      49 0.00054   11.0   0.0    6    1-6      17-22  (31)
+  6 6RYU_W Histone H3.2, Histone H  18.8 1.1E+02  0.0013   17.4   0.0    4    2-5    1712-1715(1927)
+  7 7B7O_A Sec-independent protein  18.0 1.2E+02  0.0013   10.8   0.0    5    1-5       1-5   (53)
+  8 4YE7_A ORF22 similar to XcGV O  16.3 1.4E+02  0.0016   13.7   0.0    6    1-6     100-105 (110)
+  9 5CX3_F Microtubule-associated   16.2 1.4E+02  0.0016   10.7   0.0    5    2-6       7-11  (31)
+ 10 6S7T_H Dolichyl-diphosphooligo  16.1 1.4E+02  0.0016   12.6   0.0    5    2-6     235-239 (335)
+
+No 1
+>1MR0_A AGOUTI RELATED PROTEIN; RATIONAL PROTEIN DESIGN, ICK, INHIBITOR; NMR {N/A} SCOP: g.3.5.1
+Probab=40.66  E-value=26  Score=13.06  Aligned_cols=6  Identities=50%  Similarity=0.960  Sum_probs=4.1  Template_Neff=2.900
+
+Q RMFNII            1 RMFNII    6 (6)
+Q Consensus         1 rmfnii    6 (6)
+                      |+||-|
+T Consensus        25 R~F~ti   30 (34)
+T 1MR0_A           25 RFFNAF   30 (34)
+T ss_pred             heeCce
+Confidence            678754
+
+
+No 2
+>2L1J_A Agouti-signaling protein; agouti signaling protein, agouti related; NMR {N/A}
+Probab=33.07  E-value=41  Score=12.53  Aligned_cols=6  Identities=33%  Similarity=0.612  Sum_probs=3.9  Template_Neff=2.900
+
+Q RMFNII            1 RMFNII    6 (6)
+Q Consensus         1 rmfnii    6 (6)
+                      |+||-|
+T Consensus        25 R~F~ti   30 (34)
+T 2L1J_A           25 RFFRSA   30 (34)
+T ss_dssp             CSSSSS
+T ss_pred             hccCce
+Confidence            678754
+
+
+No 3
+>1Y7K_A Melanocortin  inhibitor  cystine; NMR {N/A}
+Probab=31.40  E-value=46  Score=13.11  Aligned_cols=6  Identities=33%  Similarity=0.612  Sum_probs=3.4  Template_Neff=3.600
+
+Q RMFNII            1 RMFNII    6 (6)
+Q Consensus         1 rmfnii    6 (6)
+                      |+||-|
+T Consensus        38 R~F~ti   43 (53)
+T 1Y7K_A           38 RFFRSA   43 (53)
+T ss_dssp             SBTTBS
+T ss_pred             HHhcce
+Confidence            566643
+
+
+No 4
+>1HYK_A AGOUTI RELATED PROTEIN; CYSTEINE RICH  DISULFIDE BOND; NMR {N/A} SCOP: g.3.5.1
+Probab=31.33  E-value=46  Score=13.08  Aligned_cols=6  Identities=50%  Similarity=0.960  Sum_probs=3.5  Template_Neff=2.800
+
+Q RMFNII            1 RMFNII    6 (6)
+Q Consensus         1 rmfnii    6 (6)
+                      |+||-|
+T Consensus        25 RfF~ti   30 (46)
+T 1HYK_A           25 RFFNAF   30 (46)
+T ss_pred             HHhCce
+Confidence            567644
+
+
+No 5
+>2P1L_H Apoptosis regulator Bcl-X, Beclin 1; Apoptosis  autophagy  beclin; 2.5A {Homo sapiens}
+Probab=30.36  E-value=49  Score=10.97  Aligned_cols=6  Identities=33%  Similarity=1.010  Sum_probs=3.1  Template_Neff=5.800
+
+Q RMFNII            1 RMFNII    6 (6)
+Q Consensus         1 rmfnii    6 (6)
+                      ++|+|+
+T Consensus        17 ~lFdiL   22 (31)
+T 2P1L_H           17 DLFDIM   22 (31)
+T ss_dssp             HHHHHT
+T ss_pred             HHHHHH
+Confidence            356653
+
+
+No 6
+>6RYU_W Histone H3.2, Histone H4, Histone; Complex, ATPase, chromatin, nucleosome, CHD; HET: ANP;{Xenopus laevis}
+Probab=18.81  E-value=1.1e+02  Score=17.38  Aligned_cols=4  Identities=100%  Similarity=1.589  Sum_probs=0.0  Template_Neff=7.200
+
+Q RMFNII            2 MFNI    5 (6)
+Q Consensus         2 mfni    5 (6)
+                      ||||
+T Consensus      1712 ~fni 1715 (1927)
+T 6RYU_W         1712 MFNI 1715 (1927)
+T ss_dssp             ----
+T ss_pred             ceEe
+
+
+No 7
+>7B7O_A Sec-independent protein translocase protein TATA; twin-arginine translocase, micelles, bitopic membrane; NMR {Arabidopsis thaliana}
+Probab=18.04  E-value=1.2e+02  Score=10.80  Aligned_cols=5  Identities=20%  Similarity=0.826  Sum_probs=0.0  Template_Neff=6.400
+
+Q RMFNII            1 RMFNI    5 (6)
+Q Consensus         1 rmfni    5 (6)
+                      .||+|
+T Consensus         1 ~mf~i    5 (53)
+T 7B7O_A            1 ALFGL    5 (53)
+T ss_dssp             CCSSC
+T ss_pred             CCCCC
+
+
+No 8
+>4YE7_A ORF22 similar to XcGV ORF19; envelope, calyx, VIRAL PROTEIN; HET: MSE; 1.4A {Cydia pomonella granulosis virus}
+Probab=16.30  E-value=1.4e+02  Score=13.67  Aligned_cols=6  Identities=67%  Similarity=1.198  Sum_probs=0.0  Template_Neff=1.400
+
+Q RMFNII            1 RMFNII    6 (6)
+Q Consensus         1 rmfnii    6 (6)
+                      |||..|
+T Consensus       100 rmfdti  105 (110)
+T 4YE7_A          100 RMFDTI  105 (110)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 9
+>5CX3_F Microtubule-associated proteins 1A/1B light chain; autophagy adaptor, PROTEIN BINDING; HET: GOL; 2.3A {Homo sapiens}
+Probab=16.17  E-value=1.4e+02  Score=10.71  Aligned_cols=5  Identities=60%  Similarity=1.251  Sum_probs=0.0  Template_Neff=3.600
+
+Q RMFNII            2 MFNII    6 (6)
+Q Consensus         2 mfnii    6 (6)
+                      +|.||
+T Consensus         7 vfDII   11 (31)
+T 5CX3_F            7 VFDII   11 (31)
+T ss_dssp             SCEEC
+T ss_pred             ccccC
+
+
+No 10
+>6S7T_H Dolichyl-diphosphooligosaccharide--protein glycosyltransferase subunit STT3B (E.C.2.4.99.18); N-glycosylation, Oligosaccharyltransferase, OSTB, TRANSFERASE; HET: MAN, EGY, KZB, BMA, 0K3, NAG; 3.5A {Homo sapiens}
+Probab=16.11  E-value=1.4e+02  Score=12.57  Aligned_cols=5  Identities=60%  Similarity=0.900  Sum_probs=0.0  Template_Neff=9.400
+
+Q RMFNII            2 MFNII    6 (6)
+Q Consensus         2 mfnii    6 (6)
+                      |||+|
+T Consensus       235 ~~~~i  239 (335)
+T 6S7T_H          235 MWNHI  239 (335)
+T ss_dssp             SHHHH
+T ss_pred             hHHHH
+
+

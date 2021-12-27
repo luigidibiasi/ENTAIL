@@ -1,0 +1,145 @@
+Query         KPVQTE
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 11:50:15 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/KPVQTE/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/KPVQTE/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5HYC_C Uncharacterized protein  33.7      39 0.00044   12.4   0.0    6    1-6      30-35  (35)
+  2 6SPG_T 30S ribosomal protein S   8.2 3.7E+02  0.0041   10.3   0.0    6    1-6      11-16  (92)
+  3 7ACR_T Trans-translation, tmRN   8.1 3.8E+02  0.0042   10.3   0.0    6    1-6      13-18  (94)
+  4 6S0Z_R 50S ribosomal protein L   8.1 3.8E+02  0.0042   10.2   0.0    6    1-6       8-13  (89)
+  5 5DM6_Q 50S ribosomal protein L   7.8   4E+02  0.0044   10.2   0.0    6    1-6       8-13  (93)
+  6 4CYM_F RAS-RELATED PROTEIN RAB   7.7 4.1E+02  0.0045    9.3   0.0    4    2-5     188-191 (203)
+  7 5MYJ_BW 30S ribosomal protein    7.5 4.2E+02  0.0047   10.3   0.0    6    1-6       9-14  (97)
+  8 7NSO_T Antibiotic, ErmDL, Eryt   7.0 4.6E+02  0.0051   10.0   0.0    6    1-6      13-18  (89)
+  9 7NSQ_T Antibiotic, ErmDL, Teli   7.0 4.6E+02  0.0051   10.0   0.0    6    1-6      13-18  (89)
+ 10 4A0G_A ADENOSYLMETHIONINE-8-AM   6.9 4.8E+02  0.0053   12.9   0.0    5    1-5      75-79  (831)
+
+No 1
+>5HYC_C Uncharacterized protein, Cytoplasmic dynein 1; dynein light chain Tctex-1, Magnaporthe; 2.4A {Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958)}
+Probab=33.72  E-value=39  Score=12.36  Aligned_cols=6  Identities=50%  Similarity=0.645  Sum_probs=2.9  Template_Neff=3.700
+
+Q KPVQTE            1 KPVQTE    6 (6)
+Q Consensus         1 kpvqte    6 (6)
+                      |-|||+
+T Consensus        30 KgVQT~   35 (35)
+T 5HYC_C           30 KGIQTQ   35 (35)
+T ss_dssp             CCCCC-
+T ss_pred             ccccCC
+Confidence            446663
+
+
+No 2
+>6SPG_T 30S ribosomal protein S2, 30S; Ribosome, Pseudomonas aeruginosa; HET: MG; 3.34A {Pseudomonas aeruginosa}
+Probab=8.21  E-value=3.7e+02  Score=10.35  Aligned_cols=6  Identities=33%  Similarity=0.429  Sum_probs=0.0  Template_Neff=6.800
+
+Q KPVQTE            1 KPVQTE    6 (6)
+Q Consensus         1 kpvqte    6 (6)
+                      +|+-||
+T Consensus        11 ~p~~TE   16 (92)
+T 6SPG_T           11 GPHISE   16 (92)
+T ss_pred             cccccH
+
+
+No 3
+>7ACR_T Trans-translation, tmRNA, SmpB, Ribosome, TRANSLATION; HET: OMU, 2MG, OMC, 6MZ, 1MG, PSU, OMG, 3TD, 2MA, 0TD, 5MC, 4OC, 4D4, MG, G7M, MA6, UR3, 5MU;{Escherichia coli K-12}
+Probab=8.11  E-value=3.8e+02  Score=10.32  Aligned_cols=6  Identities=33%  Similarity=0.490  Sum_probs=0.0  Template_Neff=6.900
+
+Q KPVQTE            1 KPVQTE    6 (6)
+Q Consensus         1 kpvqte    6 (6)
+                      .|+.||
+T Consensus        13 ~pi~TE   18 (94)
+T 7ACR_T           13 APHVSE   18 (94)
+T ss_pred             ccccCH
+
+
+No 4
+>6S0Z_R 50S ribosomal protein L2, 50S; Ribosome, antibiotics, resistance, Staphylococcus aureus; HET: ERY; 2.3A {Staphylococcus aureus}
+Probab=8.08  E-value=3.8e+02  Score=10.17  Aligned_cols=6  Identities=67%  Similarity=0.994  Sum_probs=0.0  Template_Neff=7.000
+
+Q KPVQTE            1 KPVQTE    6 (6)
+Q Consensus         1 kpvqte    6 (6)
+                      +|+-||
+T Consensus         8 ~p~~TE   13 (89)
+T 6S0Z_R            8 RPVITE   13 (89)
+T ss_dssp             EECCSH
+T ss_pred             ccccCH
+
+
+No 5
+>5DM6_Q 50S ribosomal protein L1, 50S; protein synthesis, peptidyltransferase, ribozyme, ribonucleoprotein; HET: MG; 2.9A {Deinococcus radiodurans}
+Probab=7.80  E-value=4e+02  Score=10.24  Aligned_cols=6  Identities=50%  Similarity=0.767  Sum_probs=0.0  Template_Neff=6.900
+
+Q KPVQTE            1 KPVQTE    6 (6)
+Q Consensus         1 kpvqte    6 (6)
+                      +|+-||
+T Consensus         8 ~pi~TE   13 (93)
+T 5DM6_Q            8 APVISE   13 (93)
+T ss_pred             ecccCH
+
+
+No 6
+>4CYM_F RAS-RELATED PROTEIN RAB-32 (E.C.3.6.5.2), ANKYRIN; TRANSPORT PROTEIN, VARP, RAB-EFFECTOR, RAB; HET: GCP; 2.8A {HOMO SAPIENS}
+Probab=7.71  E-value=4.1e+02  Score=9.32  Aligned_cols=4  Identities=75%  Similarity=1.265  Sum_probs=0.0  Template_Neff=11.700
+
+Q KPVQTE            2 PVQT    5 (6)
+Q Consensus         2 pvqt    5 (6)
+                      |+|+
+T Consensus       188 ~~q~  191 (203)
+T 4CYM_F          188 PVQS  191 (203)
+T ss_dssp             ----
+T ss_pred             CCCC
+
+
+No 7
+>5MYJ_BW 30S ribosomal protein S2, 30S; ribosome, 70S, lactoccocus lactis, Cryo-EM; 5.6A {Lactococcus lactis subsp. cremoris MG1363}
+Probab=7.50  E-value=4.2e+02  Score=10.30  Aligned_cols=6  Identities=67%  Similarity=1.005  Sum_probs=0.0  Template_Neff=6.800
+
+Q KPVQTE            1 KPVQTE    6 (6)
+Q Consensus         1 kpvqte    6 (6)
+                      +|+-||
+T Consensus         9 ~p~~TE   14 (97)
+T 5MYJ_BW           9 KPIITE   14 (97)
+T ss_pred             ccccCH
+
+
+No 8
+>7NSO_T Antibiotic, ErmDL, Erythromycin, Macrolide, Stalling; HET: ERY; 2.9A {Escherichia coli}
+Probab=7.03  E-value=4.6e+02  Score=10.05  Aligned_cols=6  Identities=33%  Similarity=0.490  Sum_probs=0.0  Template_Neff=6.800
+
+Q KPVQTE            1 KPVQTE    6 (6)
+Q Consensus         1 kpvqte    6 (6)
+                      +|+-||
+T Consensus        13 ~p~iTE   18 (89)
+T 7NSO_T           13 APHVSE   18 (89)
+T ss_pred             ccccCH
+
+
+No 9
+>7NSQ_T Antibiotic, ErmDL, Telithromycin, Macrolide, Stalling; HET: TEL; 3.1A {Escherichia coli}
+Probab=7.03  E-value=4.6e+02  Score=10.05  Aligned_cols=6  Identities=33%  Similarity=0.490  Sum_probs=0.0  Template_Neff=6.800
+
+Q KPVQTE            1 KPVQTE    6 (6)
+Q Consensus         1 kpvqte    6 (6)
+                      +|+-||
+T Consensus        13 ~p~iTE   18 (89)
+T 7NSQ_T           13 APHVSE   18 (89)
+T ss_pred             ccccCH
+
+
+No 10
+>4A0G_A ADENOSYLMETHIONINE-8-AMINO-7-OXONONANOATE AMINOTRANSFERASE; TRANSFERASE, BIO3-BIO1, BIOTIN SYNTHESIS; HET: PLP, SO4; 2.502A {ARABIDOPSIS THALIANA}
+Probab=6.86  E-value=4.8e+02  Score=12.94  Aligned_cols=5  Identities=80%  Similarity=1.272  Sum_probs=0.0  Template_Neff=8.900
+
+Q KPVQTE            1 KPVQT    5 (6)
+Q Consensus         1 kpvqt    5 (6)
+                      ||+|+
+T Consensus        75 kp~~~   79 (831)
+T 4A0G_A           75 KPIQT   79 (831)
+T ss_dssp             EEEEC
+T ss_pred             echhh
+
+

@@ -1,0 +1,150 @@
+Query         QNLLWQ
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 08:41:40 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QNLLWQ/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QNLLWQ/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4MOU_B Enoyl-CoA hydratase/iso  58.7     8.6 9.5E-05   16.0   0.0    6    1-6      16-21  (294)
+  2 2R41_C Uncharacterized protein  25.3      69 0.00076   12.8   0.0    6    1-6      29-34  (110)
+  3 2V4X_A CAPSID PROTEIN P27; CAP  19.5 1.1E+02  0.0012   12.9   0.0    6    1-6      65-70  (140)
+  4 1NRE_A RECEPTOR-ASSOCIATED PRO  18.1 1.2E+02  0.0013   12.4   0.0    5    2-6      10-14  (81)
+  5 6A8U_B Sensor protein PhoQ; se  17.0 1.3E+02  0.0015   12.9   0.0    5    2-6      53-57  (149)
+  6 2R41_D Uncharacterized protein  16.5 1.4E+02  0.0015   12.0   0.0    6    1-6      29-34  (110)
+  7 1YAX_C Virulence sensor protei  16.1 1.4E+02  0.0016   13.0   0.0    5    2-6      51-55  (153)
+  8 2FTX_B Hypothetical 25.2 kDa p  15.8 1.5E+02  0.0016   11.3   0.0    5    2-6      56-60  (64)
+  9 5T6J_A Kinetochore protein SPC  15.6 1.5E+02  0.0017   11.0   0.0    5    2-6      51-55  (59)
+ 10 1OV2_A Alpha-2-macroglobulin r  14.8 1.6E+02  0.0018   12.5   0.0    5    2-6      26-30  (99)
+
+No 1
+>4MOU_B Enoyl-CoA hydratase/isomerase family protein; isomerase, Structural Genomics, PSI-Biology, New; HET: CAC, MSE; 2.25A {Arthrobacter aurescens}
+Probab=58.70  E-value=8.6  Score=16.03  Aligned_cols=6  Identities=50%  Similarity=0.877  Sum_probs=0.0  Template_Neff=8.900
+
+Q QNLLWQ            1 QNLLWQ    6 (6)
+Q Consensus         1 qnllwq    6 (6)
+                      .||+||
+T Consensus        16 ~~~~~~   21 (294)
+T 4MOU_B           16 ENLYFQ   21 (294)
+T ss_dssp             ------
+T ss_pred             chHhhh
+Confidence            378887
+
+
+No 2
+>2R41_C Uncharacterized protein; alpha-beta structure, Structural Genomics, PSI-2; 2.9A {Enterococcus faecalis}
+Probab=25.27  E-value=69  Score=12.83  Aligned_cols=6  Identities=17%  Similarity=0.756  Sum_probs=2.9  Template_Neff=6.500
+
+Q QNLLWQ            1 QNLLWQ    6 (6)
+Q Consensus         1 qnllwq    6 (6)
+                      |.++|+
+T Consensus        29 q~~lW~   34 (110)
+T 2R41_C           29 IDSIWL   34 (110)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            345553
+
+
+No 3
+>2V4X_A CAPSID PROTEIN P27; CAPSID, VIRION, RETROVIRUS, ZINC-FINGER, METAL-BINDING; 1.5A {JAAGSIEKTE SHEEP RETROVIRUS}
+Probab=19.50  E-value=1.1e+02  Score=12.90  Aligned_cols=6  Identities=50%  Similarity=1.287  Sum_probs=0.0  Template_Neff=6.200
+
+Q QNLLWQ            1 QNLLWQ    6 (6)
+Q Consensus         1 qnllwq    6 (6)
+                      |+++|.
+T Consensus        65 q~l~W~   70 (140)
+T 2V4X_A           65 DYLLWK   70 (140)
+T ss_dssp             HHHHHH
+T ss_pred             hHHHHH
+
+
+No 4
+>1NRE_A RECEPTOR-ASSOCIATED PROTEIN; ALPHA2MACROGLOBULIN RECEPTOR ASSOCIATED PROTEIN, LOW; NMR {Homo sapiens} SCOP: a.13.1.1
+Probab=18.09  E-value=1.2e+02  Score=12.37  Aligned_cols=5  Identities=60%  Similarity=1.471  Sum_probs=0.0  Template_Neff=4.700
+
+Q QNLLWQ            2 NLLWQ    6 (6)
+Q Consensus         2 nllwq    6 (6)
+                      |++|.
+T Consensus        10 N~lW~   14 (81)
+T 1NRE_A           10 NQLWE   14 (81)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 5
+>6A8U_B Sensor protein PhoQ; sensor protein, SIGNALING PROTEIN; 1.848A {Escherichia coli (strain K12)}
+Probab=17.03  E-value=1.3e+02  Score=12.94  Aligned_cols=5  Identities=60%  Similarity=1.511  Sum_probs=0.0  Template_Neff=5.800
+
+Q QNLLWQ            2 NLLWQ    6 (6)
+Q Consensus         2 nllwq    6 (6)
+                      ++|||
+T Consensus        53 ~llw~   57 (149)
+T 6A8U_B           53 QLLWA   57 (149)
+T ss_dssp             CEEEE
+T ss_pred             CEEEE
+
+
+No 6
+>2R41_D Uncharacterized protein; alpha-beta structure, Structural Genomics, PSI-2; HET: MSE; 2.9A {Enterococcus faecalis}
+Probab=16.51  E-value=1.4e+02  Score=12.03  Aligned_cols=6  Identities=17%  Similarity=0.756  Sum_probs=0.0  Template_Neff=6.400
+
+Q QNLLWQ            1 QNLLWQ    6 (6)
+Q Consensus         1 qnllwq    6 (6)
+                      |.++|+
+T Consensus        29 q~~lW~   34 (110)
+T 2R41_D           29 IDSIWL   34 (110)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 7
+>1YAX_C Virulence sensor protein phoQ, sensor; PhoQ  Sensor domain ; 2.4A {Salmonella typhimurium}
+Probab=16.12  E-value=1.4e+02  Score=13.02  Aligned_cols=5  Identities=60%  Similarity=1.531  Sum_probs=0.0  Template_Neff=5.500
+
+Q QNLLWQ            2 NLLWQ    6 (6)
+Q Consensus         2 nllwq    6 (6)
+                      ++|||
+T Consensus        51 ~llW~   55 (153)
+T 1YAX_C           51 KLLWT   55 (153)
+T ss_dssp             CEEEE
+T ss_pred             CEEEE
+
+
+No 8
+>2FTX_B Hypothetical 25.2 kDa protein in; alpha-beta, complex, coiled-coil, structural protein; 1.9A {Saccharomyces cerevisiae} SCOP: d.300.1.2
+Probab=15.77  E-value=1.5e+02  Score=11.28  Aligned_cols=5  Identities=20%  Similarity=1.298  Sum_probs=0.0  Template_Neff=5.600
+
+Q QNLLWQ            2 NLLWQ    6 (6)
+Q Consensus         2 nllwq    6 (6)
+                      |.+|+
+T Consensus        56 n~iW~   60 (64)
+T 2FTX_B           56 KYIWE   60 (64)
+T ss_pred             HHHHH
+
+
+No 9
+>5T6J_A Kinetochore protein SPC24, Kinetochore protein; cell cycle, kinetochore, complex, chromosome; 1.752A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=15.58  E-value=1.5e+02  Score=10.97  Aligned_cols=5  Identities=20%  Similarity=1.298  Sum_probs=0.0  Template_Neff=5.900
+
+Q QNLLWQ            2 NLLWQ    6 (6)
+Q Consensus         2 nllwq    6 (6)
+                      |.+|.
+T Consensus        51 n~iW~   55 (59)
+T 5T6J_A           51 KYIWE   55 (59)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 10
+>1OV2_A Alpha-2-macroglobulin receptor-associated protein precursor; Helical protein, Receptor Associated Protein; NMR {Homo sapiens} SCOP: a.13.1.1
+Probab=14.79  E-value=1.6e+02  Score=12.45  Aligned_cols=5  Identities=60%  Similarity=1.471  Sum_probs=0.0  Template_Neff=4.500
+
+Q QNLLWQ            2 NLLWQ    6 (6)
+Q Consensus         2 nllwq    6 (6)
+                      |++|.
+T Consensus        26 N~lWe   30 (99)
+T 1OV2_A           26 NQLWE   30 (99)
+T ss_pred             HHHHH
+
+

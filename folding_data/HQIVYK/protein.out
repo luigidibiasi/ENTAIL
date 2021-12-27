@@ -1,0 +1,155 @@
+Query         HQIVYK
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 07:02:17 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/HQIVYK/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/HQIVYK/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2KZ0_A BolA family protein; Bo  50.9      14 0.00016   14.0   0.0    6    1-6      54-59  (76)
+  2 2MCQ_A Uncharacterized protein  50.5      14 0.00016   13.7   0.0    6    1-6      51-56  (77)
+  3 5NFK_A YrbA; BolA, YrbA, histi  48.7      16 0.00018   13.7   0.0    6    1-6      49-54  (75)
+  4 5NFM_A YrbA; BolA, YrbA, histi  48.7      16 0.00018   13.7   0.0    6    1-6      49-54  (75)
+  5 2NCL_A BolA-like protein 3; cl  46.2      19 0.00021   13.6   0.0    6    1-6      55-60  (81)
+  6 2DHM_A Protein bolA; stationar  19.6 1.1E+02  0.0012   12.1   0.0    6    1-6      64-69  (107)
+  7 6FGK_A GTP pyrophosphokinase Y  18.6 1.2E+02  0.0013   12.3   0.0    6    1-6     170-175 (210)
+  8 4PUG_A BolA like protein; stre  17.3 1.3E+02  0.0014   11.5   0.0    6    1-6      66-71  (98)
+  9 1JWE_A DNAB HELICASE (E.C.3.6.  16.5 1.4E+02  0.0015   10.4   0.0    6    1-6      42-47  (114)
+ 10 1V9J_A BolA-like protein RIKEN  16.4 1.4E+02  0.0016   12.3   0.0    6    1-6      80-85  (113)
+
+No 1
+>2KZ0_A BolA family protein; BolA protein family, human monocytotropic; NMR {Ehrlichia chaffeensis}
+Probab=50.86  E-value=14  Score=14.03  Aligned_cols=6  Identities=50%  Similarity=1.337  Sum_probs=3.4  Template_Neff=6.300
+
+Q HQIVYK            1 HQIVYK    6 (6)
+Q Consensus         1 hqivyk    6 (6)
+                      ||.||+
+T Consensus        54 Hr~V~~   59 (76)
+T 2KZ0_A           54 HRMIYK   59 (76)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            566663
+
+
+No 2
+>2MCQ_A Uncharacterized protein RP812; UNKNOWN FUNCTION; NMR {Rickettsia prowazekii}
+Probab=50.50  E-value=14  Score=13.66  Aligned_cols=6  Identities=33%  Similarity=0.689  Sum_probs=3.1  Template_Neff=7.000
+
+Q HQIVYK            1 HQIVYK    6 (6)
+Q Consensus         1 hqivyk    6 (6)
+                      ||+||+
+T Consensus        51 hr~Vy~   56 (77)
+T 2MCQ_A           51 HKLVKN   56 (77)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            455553
+
+
+No 3
+>5NFK_A YrbA; BolA, YrbA, histidyl ligation, ligase; 0.98A {Sinorhizobium meliloti (strain Sm2011 / Rm2011 / 2011)}
+Probab=48.71  E-value=16  Score=13.75  Aligned_cols=6  Identities=67%  Similarity=1.287  Sum_probs=3.1  Template_Neff=6.500
+
+Q HQIVYK            1 HQIVYK    6 (6)
+Q Consensus         1 hqivyk    6 (6)
+                      ||.||+
+T Consensus        49 hr~V~~   54 (75)
+T 5NFK_A           49 HQMVYN   54 (75)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            455553
+
+
+No 4
+>5NFM_A YrbA; BolA, YrbA, histidyl ligation, ligase; 0.8A {Sinorhizobium meliloti 2011}
+Probab=48.71  E-value=16  Score=13.75  Aligned_cols=6  Identities=67%  Similarity=1.287  Sum_probs=3.1  Template_Neff=6.500
+
+Q HQIVYK            1 HQIVYK    6 (6)
+Q Consensus         1 hqivyk    6 (6)
+                      ||.||+
+T Consensus        49 hr~V~~   54 (75)
+T 5NFM_A           49 HQMVYN   54 (75)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            455553
+
+
+No 5
+>2NCL_A BolA-like protein 3; class II KH-like fold, mitochondrial; NMR {Homo sapiens}
+Probab=46.16  E-value=19  Score=13.63  Aligned_cols=6  Identities=50%  Similarity=0.816  Sum_probs=3.0  Template_Neff=6.700
+
+Q HQIVYK            1 HQIVYK    6 (6)
+Q Consensus         1 hqivyk    6 (6)
+                      ||.||+
+T Consensus        55 hr~V~~   60 (81)
+T 2NCL_A           55 HQMVNQ   60 (81)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            455553
+
+
+No 6
+>2DHM_A Protein bolA; stationary-phase, stress-induced, morphogene, Structural Genomics; NMR {Escherichia coli str. K12 substr.}
+Probab=19.61  E-value=1.1e+02  Score=12.11  Aligned_cols=6  Identities=33%  Similarity=1.165  Sum_probs=0.0  Template_Neff=6.800
+
+Q HQIVYK            1 HQIVYK    6 (6)
+Q Consensus         1 hqivyk    6 (6)
+                      ||.||+
+T Consensus        64 hr~V~~   69 (107)
+T 2DHM_A           64 HRMIYS   69 (107)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 7
+>6FGK_A GTP pyrophosphokinase YwaC (E.C.2.7.6.5); Stringent response, alarmone, SAS2, RelP; 3.2A {Bacillus subtilis (strain 168)}
+Probab=18.56  E-value=1.2e+02  Score=12.33  Aligned_cols=6  Identities=67%  Similarity=1.187  Sum_probs=0.0  Template_Neff=8.700
+
+Q HQIVYK            1 HQIVYK    6 (6)
+Q Consensus         1 hqivyk    6 (6)
+                      |++.||
+T Consensus       170 H~~~YK  175 (210)
+T 6FGK_A          170 HKIYYK  175 (210)
+T ss_dssp             HHHHHH
+T ss_pred             HHhhcc
+
+
+No 8
+>4PUG_A BolA like protein; stress-responsive protein, transcriptional regulator, morphogen; 1.998A {Arabidopsis thaliana}
+Probab=17.32  E-value=1.3e+02  Score=11.48  Aligned_cols=6  Identities=50%  Similarity=1.226  Sum_probs=0.0  Template_Neff=7.300
+
+Q HQIVYK            1 HQIVYK    6 (6)
+Q Consensus         1 hqivyk    6 (6)
+                      |+.||+
+T Consensus        66 hr~V~~   71 (98)
+T 4PUG_A           66 HRLVYH   71 (98)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 9
+>1JWE_A DNAB HELICASE (E.C.3.6.1.-); HELICASE, HYDROLASE; NMR {Escherichia coli} SCOP: a.81.1.1
+Probab=16.49  E-value=1.4e+02  Score=10.37  Aligned_cols=6  Identities=17%  Similarity=0.755  Sum_probs=0.0  Template_Neff=9.900
+
+Q HQIVYK            1 HQIVYK    6 (6)
+Q Consensus         1 hqivyk    6 (6)
+                      ||.+|+
+T Consensus        42 ~~~i~~   47 (114)
+T 1JWE_A           42 HRHIFT   47 (114)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 10
+>1V9J_A BolA-like protein RIKEN cDNA 1110025L05; Stationary phase morphogene, stress-induced morphogene; NMR {Mus musculus} SCOP: d.52.6.1
+Probab=16.37  E-value=1.4e+02  Score=12.25  Aligned_cols=6  Identities=33%  Similarity=0.750  Sum_probs=0.0  Template_Neff=6.000
+
+Q HQIVYK            1 HQIVYK    6 (6)
+Q Consensus         1 hqivyk    6 (6)
+                      |+.||+
+T Consensus        80 Hr~Vy~   85 (113)
+T 1V9J_A           80 HRLVNE   85 (113)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+

@@ -1,0 +1,148 @@
+Query         CTVFIG
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 16:40:26 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/CTVFIG/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/CTVFIG/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5ZWN_X U1 small nuclear ribonu  22.6      83 0.00092   16.1   0.0    6    1-6     115-120 (619)
+  2 7ABG_A6 U5 small nuclear ribon  19.9   1E+02  0.0011   11.2   0.0    6    1-6      16-21  (248)
+  3 2G4B_A PROTEIN/RNA Complex; pr  19.3 1.1E+02  0.0012   10.1   0.0    6    1-6       5-10  (172)
+  4 1G2E_A PARANEOPLASTIC ENCEPHAL  18.2 1.2E+02  0.0013   10.0   0.0    6    1-6       3-8   (167)
+  5 2RNE_A Tia1 protein; RRM domai  17.9 1.2E+02  0.0014    9.7   0.0    6    1-6      16-21  (115)
+  6 6W3Z_A BMA-DHPS-1, isoform a;   17.8 1.2E+02  0.0014   14.7   0.0    6    1-6      95-100 (367)
+  7 2N6D_A N-acetylglucosamine-1-p  17.6 1.3E+02  0.0014   11.6   0.0    5    2-6       6-10  (172)
+  8 6XLV_A Splicing factor U2AF 65  17.5 1.3E+02  0.0014   10.5   0.0    6    1-6      12-17  (204)
+  9 6W3Z_C BMA-DHPS-1, isoform a;   17.4 1.3E+02  0.0014   14.6   0.0    6    1-6      95-100 (367)
+ 10 2LXI_A RNA-binding protein 10;  17.0 1.3E+02  0.0015    9.1   0.0    6    1-6       2-7   (91)
+
+No 1
+>5ZWN_X U1 small nuclear ribonucleoprotein 70; spliceosme, assemply, pre-B complex, U1; 3.3A {Saccharomyces cerevisiae S288c}
+Probab=22.62  E-value=83  Score=16.13  Aligned_cols=6  Identities=33%  Similarity=0.202  Sum_probs=3.8  Template_Neff=6.100
+
+Q CTVFIG            1 CTVFIG    6 (6)
+Q Consensus         1 ctvfig    6 (6)
+                      +|||||
+T Consensus       115 ~TV~V~  120 (619)
+T 5ZWN_X          115 HTVSLQ  120 (619)
+T ss_pred             EEEEEe
+Confidence            467764
+
+
+No 2
+>7ABG_A6 U5 small nuclear ribonucleoprotein 40; Complex, spliceosome, catalytic activation, splicing; HET: IHP, GTG, GTP; 7.8A {Homo sapiens}
+Probab=19.89  E-value=1e+02  Score=11.16  Aligned_cols=6  Identities=33%  Similarity=1.619  Sum_probs=0.0  Template_Neff=11.700
+
+Q CTVFIG            1 CTVFIG    6 (6)
+Q Consensus         1 ctvfig    6 (6)
+                      ++|||+
+T Consensus        16 ~~l~v~   21 (248)
+T 7ABG_A6          16 CRIYVG   21 (248)
+T ss_pred             cEEEEE
+
+
+No 3
+>2G4B_A PROTEIN/RNA Complex; protein-RNA complex, RNA splicing factor; 2.5A {Homo sapiens}
+Probab=19.33  E-value=1.1e+02  Score=10.05  Aligned_cols=6  Identities=17%  Similarity=0.789  Sum_probs=0.0  Template_Neff=12.400
+
+Q CTVFIG            1 CTVFIG    6 (6)
+Q Consensus         1 ctvfig    6 (6)
+                      ++|||+
+T Consensus         5 ~~v~v~   10 (172)
+T 2G4B_A            5 RRLYVG   10 (172)
+T ss_dssp             GEEEEE
+T ss_pred             cEEEEe
+
+
+No 4
+>1G2E_A PARANEOPLASTIC ENCEPHALOMYELITIS ANTIGEN HUD/RNA COMPLEX; PROTEIN-RNA COMPLEX, HuD, AU-Rich Element; 2.3A {Homo sapiens} SCOP: d.58.7.1
+Probab=18.18  E-value=1.2e+02  Score=10.01  Aligned_cols=6  Identities=0%  Similarity=0.351  Sum_probs=0.0  Template_Neff=12.200
+
+Q CTVFIG            1 CTVFIG    6 (6)
+Q Consensus         1 ctvfig    6 (6)
+                      ++++|+
+T Consensus         3 ~~l~i~    8 (167)
+T 1G2E_A            3 TNLIVN    8 (167)
+T ss_dssp             SEEEEE
+T ss_pred             cEEEEe
+
+
+No 5
+>2RNE_A Tia1 protein; RRM domain, RNA BINDING PROTEIN; NMR {Mus musculus}
+Probab=17.89  E-value=1.2e+02  Score=9.73  Aligned_cols=6  Identities=50%  Similarity=1.054  Sum_probs=0.0  Template_Neff=11.400
+
+Q CTVFIG            1 CTVFIG    6 (6)
+Q Consensus         1 ctvfig    6 (6)
+                      +++||+
+T Consensus        16 ~~l~i~   21 (115)
+T 2RNE_A           16 FHVFVG   21 (115)
+T ss_dssp             EEEEEE
+T ss_pred             eEEEEe
+
+
+No 6
+>6W3Z_A BMA-DHPS-1, isoform a; Brugia malayi, Deoxyhypusine synthase, Structural; HET: GOL, NAD; 2.3A {Brugia malayi}
+Probab=17.78  E-value=1.2e+02  Score=14.68  Aligned_cols=6  Identities=67%  Similarity=1.857  Sum_probs=0.0  Template_Neff=5.900
+
+Q CTVFIG            1 CTVFIG    6 (6)
+Q Consensus         1 ctvfig    6 (6)
+                      ||+|+|
+T Consensus        95 ~tiFLg  100 (367)
+T 6W3Z_A           95 CTIFLG  100 (367)
+T ss_dssp             SEEEEE
+T ss_pred             ceEEEE
+
+
+No 7
+>2N6D_A N-acetylglucosamine-1-phosphotransferase subunits alpha/beta (E.C.2.7.8.17); PSI-Biology, N-acetylglucosamine-1-phosphate transferase, transferase; NMR {Homo sapiens}
+Probab=17.59  E-value=1.3e+02  Score=11.55  Aligned_cols=5  Identities=20%  Similarity=-0.084  Sum_probs=0.0  Template_Neff=9.300
+
+Q CTVFIG            2 TVFIG    6 (6)
+Q Consensus         2 tvfig    6 (6)
+                      |||||
+T Consensus         6 ~l~V~   10 (172)
+T 2N6D_A            6 LVLDP   10 (172)
+T ss_dssp             EEECC
+T ss_pred             EEEcC
+
+
+No 8
+>6XLV_A Splicing factor U2AF 65 kDa; PROTEIN-RNA COMPLEX, RNA SPLICING FACTOR; HET: BRU; 1.4A {Homo sapiens}
+Probab=17.50  E-value=1.3e+02  Score=10.48  Aligned_cols=6  Identities=17%  Similarity=0.789  Sum_probs=0.0  Template_Neff=11.900
+
+Q CTVFIG            1 CTVFIG    6 (6)
+Q Consensus         1 ctvfig    6 (6)
+                      ++|||+
+T Consensus        12 ~~v~v~   17 (204)
+T 6XLV_A           12 RRLYVG   17 (204)
+T ss_dssp             GEEEEE
+T ss_pred             cEEEEe
+
+
+No 9
+>6W3Z_C BMA-DHPS-1, isoform a; Brugia malayi, Deoxyhypusine synthase, Structural; HET: GOL, NAD; 2.3A {Brugia malayi}
+Probab=17.43  E-value=1.3e+02  Score=14.64  Aligned_cols=6  Identities=67%  Similarity=1.857  Sum_probs=0.0  Template_Neff=5.900
+
+Q CTVFIG            1 CTVFIG    6 (6)
+Q Consensus         1 ctvfig    6 (6)
+                      ||+|+|
+T Consensus        95 ~tiFL~  100 (367)
+T 6W3Z_C           95 CTIFLG  100 (367)
+T ss_dssp             SEEEEE
+T ss_pred             CEEEEe
+
+
+No 10
+>2LXI_A RNA-binding protein 10; RNA binding, RNA BINDING PROTEIN; NMR {Homo sapiens}
+Probab=17.04  E-value=1.3e+02  Score=9.10  Aligned_cols=6  Identities=17%  Similarity=0.246  Sum_probs=0.0  Template_Neff=11.600
+
+Q CTVFIG            1 CTVFIG    6 (6)
+Q Consensus         1 ctvfig    6 (6)
+                      ++++|+
+T Consensus         2 ~~l~v~    7 (91)
+T 2LXI_A            2 NIVMLR    7 (91)
+T ss_pred             cEEEEe
+
+

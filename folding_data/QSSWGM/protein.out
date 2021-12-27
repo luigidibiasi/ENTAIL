@@ -1,0 +1,155 @@
+Query         QSSWGM
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 10:40:53 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QSSWGM/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QSSWGM/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6N3A_J TAR DNA-binding protein  94.3  0.0092   1E-07   23.7   0.0    6    1-6      21-26  (50)
+  2 2N2C_A TAR DNA-binding protein  88.8    0.22 2.5E-06   19.0   0.0    6    1-6      25-30  (43)
+  3 7KWZ_A Isoform 2 of TAR DNA-bi  54.3      11 0.00013   17.3   0.0    6    1-6      65-70  (148)
+  4 6CQS_A Beta-lactamase (E.C.3.5  41.9      24 0.00027   13.4   0.0    6    1-6       2-7   (246)
+  5 6JSH_I Fatty acid synthase sub  31.4      46 0.00051   12.1   0.0    6    1-6      63-68  (71)
+  6 6JSI_H Fatty acid synthase sub  31.4      46 0.00051   12.1   0.0    6    1-6      63-68  (71)
+  7 6FPV_A Nanobody; nanobody, JBP  20.0   1E+02  0.0011   10.3   0.0    4    1-4     142-145 (154)
+  8 7NMM_P sHMA94, APikL2F; Comple  19.7 1.1E+02  0.0012   13.8   0.0    6    1-6      53-58  (95)
+  9 6X44_B Serine repeat antigen 5  19.7 1.1E+02  0.0012   14.4   0.0    5    1-5     396-400 (438)
+ 10 3VNX_A ferritin (E.C.1.16.3.1)  19.6 1.1E+02  0.0012   12.3   0.0    6    1-6       2-7   (204)
+
+No 1
+>6N3A_J TAR DNA-binding protein 43, segA; Amyloid, TDP43, ALS, FTLD-TDP, dna; 3.3A {Homo sapiens}
+Probab=94.29  E-value=0.0092  Score=23.66  Aligned_cols=6  Identities=100%  Similarity=1.786  Sum_probs=5.2  Template_Neff=2.200
+
+Q QSSWGM            1 QSSWGM    6 (6)
+Q Consensus         1 qsswgm    6 (6)
+                      ||||||
+T Consensus        21 qsSWg~   26 (50)
+T 6N3A_J           21 QSSWGM   26 (50)
+T ss_dssp             EEEEES
+T ss_pred             Hhhhhh
+Confidence            699997
+
+
+No 2
+>2N2C_A TAR DNA-binding protein 43; ALS, prion-like domain, hydrophobic helices; NMR {Homo sapiens}
+Probab=88.82  E-value=0.22  Score=18.96  Aligned_cols=6  Identities=100%  Similarity=1.786  Sum_probs=4.8  Template_Neff=3.300
+
+Q QSSWGM            1 QSSWGM    6 (6)
+Q Consensus         1 qsswgm    6 (6)
+                      |++||+
+T Consensus        25 q~gWg~   30 (43)
+T 2N2C_A           25 QSSWGM   30 (43)
+T ss_dssp             HHHHHH
+T ss_pred             Hhccch
+Confidence            689985
+
+
+No 3
+>7KWZ_A Isoform 2 of TAR DNA-binding; TDP-43, amyloid, neurodegenerative diseases, amyotropic; 3.2A {Homo sapiens}
+Probab=54.35  E-value=11  Score=17.33  Aligned_cols=6  Identities=100%  Similarity=1.786  Sum_probs=4.2  Template_Neff=2.900
+
+Q QSSWGM            1 QSSWGM    6 (6)
+Q Consensus         1 qsswgm    6 (6)
+                      |++|+|
+T Consensus        65 QsgWG~   70 (148)
+T 7KWZ_A           65 QSSWGM   70 (148)
+T ss_dssp             SCBSSC
+T ss_pred             Hhccch
+Confidence            577875
+
+
+No 4
+>6CQS_A Beta-lactamase (E.C.3.5.2.6); metallo-beta-lactamase, zinc binding protein, HYDROLASE; 1.7A {Sediminispirochaeta smaragdinae (strain DSM 11293 / JCM 15392 / SEBR 4228)}
+Probab=41.87  E-value=24  Score=13.40  Aligned_cols=6  Identities=17%  Similarity=0.412  Sum_probs=1.5  Template_Neff=10.600
+
+Q QSSWGM            1 QSSWGM    6 (6)
+Q Consensus         1 qsswgm    6 (6)
+                      ||+|-|
+T Consensus         2 ~~~~~~    7 (246)
+T 6CQS_A            2 QPEYPV    7 (246)
+T ss_dssp             ---CCC
+T ss_pred             CCCCCC
+Confidence            566643
+
+
+No 5
+>6JSH_I Fatty acid synthase subunit beta; co-purified, ACP domains, AT domains; 5.1A {Saccharomyces cerevisiae}
+Probab=31.35  E-value=46  Score=12.13  Aligned_cols=6  Identities=50%  Similarity=1.204  Sum_probs=3.3  Template_Neff=7.100
+
+Q QSSWGM            1 QSSWGM    6 (6)
+Q Consensus         1 qsswgm    6 (6)
+                      |..||.
+T Consensus        63 q~~wGn   68 (71)
+T 6JSH_I           63 QQQWGN   68 (71)
+T ss_dssp             TTTTTT
+T ss_pred             HHHhcc
+Confidence            356763
+
+
+No 6
+>6JSI_H Fatty acid synthase subunit beta; co-purified, ACP domains, AT domains; 4.7A {Saccharomyces cerevisiae}
+Probab=31.35  E-value=46  Score=12.13  Aligned_cols=6  Identities=50%  Similarity=1.204  Sum_probs=3.3  Template_Neff=7.100
+
+Q QSSWGM            1 QSSWGM    6 (6)
+Q Consensus         1 qsswgm    6 (6)
+                      |..||.
+T Consensus        63 q~~wGn   68 (71)
+T 6JSI_H           63 QQQWGN   68 (71)
+T ss_pred             HHHhcc
+Confidence            356763
+
+
+No 7
+>6FPV_A Nanobody; nanobody, JBP1, llama, IMMUNE SYSTEM; HET: GOL; 1.64A {Lama glama}
+Probab=19.95  E-value=1e+02  Score=10.29  Aligned_cols=4  Identities=50%  Similarity=0.177  Sum_probs=0.0  Template_Neff=11.700
+
+Q QSSWGM            1 QSSW    4 (6)
+Q Consensus         1 qssw    4 (6)
+                      +|+|
+T Consensus       142 ~~~~  145 (154)
+T 6FPV_A          142 VSSH  145 (154)
+T ss_dssp             EEC-
+T ss_pred             Eeec
+
+
+No 8
+>7NMM_P sHMA94, APikL2F; Complex, fungal effector, host target; HET: 1PE, EDO; 2.3A {Setaria italica}
+Probab=19.67  E-value=1.1e+02  Score=13.77  Aligned_cols=6  Identities=50%  Similarity=1.199  Sum_probs=0.0  Template_Neff=1.600
+
+Q QSSWGM            1 QSSWGM    6 (6)
+Q Consensus         1 qsswgm    6 (6)
+                      ||+|.|
+T Consensus        53 yS~w~~   58 (95)
+T 7NMM_P           53 QSDWSF   58 (95)
+T ss_dssp             CSSEEE
+T ss_pred             eCCeEE
+
+
+No 9
+>6X44_B Serine repeat antigen 5; malaria, prodomain, protease, HYDROLASE; HET: PEG; 2.19733954166A {Plasmodium falciparum}
+Probab=19.66  E-value=1.1e+02  Score=14.39  Aligned_cols=5  Identities=60%  Similarity=1.690  Sum_probs=0.0  Template_Neff=7.600
+
+Q QSSWGM            1 QSSWG    5 (6)
+Q Consensus         1 qsswg    5 (6)
+                      +.|||
+T Consensus       396 rNSWG  400 (438)
+T 6X44_B          396 RNSWG  400 (438)
+T ss_dssp             ECSBC
+T ss_pred             EeCCC
+
+
+No 10
+>3VNX_A ferritin (E.C.1.16.3.1); 4-helix bundle, Iron storage, OXIDOREDUCTASE; 2.4A {Ulva pertusa}
+Probab=19.56  E-value=1.1e+02  Score=12.27  Aligned_cols=6  Identities=50%  Similarity=0.518  Sum_probs=0.0  Template_Neff=8.900
+
+Q QSSWGM            1 QSSWGM    6 (6)
+Q Consensus         1 qsswgm    6 (6)
+                      |..|||
+T Consensus         2 ~~~~~~    7 (204)
+T 3VNX_A            2 QEVTGM    7 (204)
+T ss_dssp             ------
+T ss_pred             Cccccc
+
+

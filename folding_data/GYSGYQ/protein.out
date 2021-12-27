@@ -1,0 +1,153 @@
+Query         GYSGYQ
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 05:47:23 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GYSGYQ/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GYSGYQ/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2OY9_A UPF0223 protein BH2638;  56.8     9.7 0.00011   16.2   0.0    6    1-6      70-75  (98)
+  2 5XSS_A Periplasmic binding pro  45.9      19 0.00021   13.7   0.0    6    1-6      10-15  (316)
+  3 7B0N_p NADH:Ubiquinone Oxidore  30.9      47 0.00052   13.3   0.0    6    1-6      81-86  (92)
+  4 7O71_d Complex I, NADH dehydro  30.9      47 0.00052   13.3   0.0    6    1-6      81-86  (92)
+  5 5SY1_A Calmodulin, STRA6; Vita  30.2      49 0.00055   17.2   0.0    6    1-6     401-406 (670)
+  6 3OPY_C 6-phosphofructo-1-kinas  26.8      62 0.00069   17.0   0.0    6    1-6      97-102 (989)
+  7 5UE0_A CT622 protein; T3SS eff  20.0   1E+02  0.0011   15.9   0.0    6    1-6     133-138 (299)
+  8 1AYE_A PROCARBOXYPEPTIDASE A2;  19.7   1E+02  0.0012   13.6   0.0    5    2-6       4-8   (401)
+  9 3G87_A Malonyl CoA-acyl carrie  19.5 1.1E+02  0.0012   12.5   0.0    5    1-5     381-385 (394)
+ 10 2L1N_A Uncharacterized protein  19.4 1.1E+02  0.0012   13.8   0.0    6    1-6      88-93  (120)
+
+No 1
+>2OY9_A UPF0223 protein BH2638; pfam, UPF0223, 10286b, Structural Genomics; 1.6A {Bacillus halodurans C-125} SCOP: a.276.1.1
+Probab=56.75  E-value=9.7  Score=16.22  Aligned_cols=6  Identities=50%  Similarity=0.540  Sum_probs=3.8  Template_Neff=3.900
+
+Q GYSGYQ            1 GYSGYQ    6 (6)
+Q Consensus         1 gysgyq    6 (6)
+                      |||.||
+T Consensus        70 GySiY~   75 (98)
+T 2OY9_A           70 DVSCYQ   75 (98)
+T ss_dssp             SCCHHH
+T ss_pred             CCcHHH
+Confidence            567664
+
+
+No 2
+>5XSS_A Periplasmic binding protein/LacI transcriptional regulator; Two component system, histidine kinase; HET: XYP; 2.093A {Clostridium beijerinckii (strain ATCC 51743 / NCIMB 8052)}
+Probab=45.93  E-value=19  Score=13.69  Aligned_cols=6  Identities=17%  Similarity=0.130  Sum_probs=0.0  Template_Neff=11.400
+
+Q GYSGYQ            1 GYSGYQ    6 (6)
+Q Consensus         1 gysgyq    6 (6)
+                      +|+||+
+T Consensus        10 ~~~~~~   15 (316)
+T 5XSS_A           10 HSQGSN   15 (316)
+T ss_dssp             ------
+T ss_pred             ccccch
+Confidence            355654
+
+
+No 3
+>7B0N_p NADH:Ubiquinone Oxidoreductase, complex I, MEMBRANE; HET: CDL, SF4, EHZ, LMT, 3PE, NDP, PLC, FMN, FME; 3.7A {Yarrowia lipolytica}
+Probab=30.88  E-value=47  Score=13.31  Aligned_cols=6  Identities=83%  Similarity=1.630  Sum_probs=3.1  Template_Neff=5.700
+
+Q GYSGYQ            1 GYSGYQ    6 (6)
+Q Consensus         1 gysgyq    6 (6)
+                      ||-|||
+T Consensus        81 g~~~~~   86 (92)
+T 7B0N_p           81 GYLGYQ   86 (92)
+T ss_pred             cccccc
+Confidence            455554
+
+
+No 4
+>7O71_d Complex I, NADH dehydrogenase, Mitochondrion; HET: CDL, SF4, T7X, 2MR, 3PE, NDP, ZMP, CPL, PLC, FMN, FME, LMN; 2.4A {Yarrowia lipolytica}
+Probab=30.88  E-value=47  Score=13.31  Aligned_cols=6  Identities=83%  Similarity=1.630  Sum_probs=3.1  Template_Neff=5.700
+
+Q GYSGYQ            1 GYSGYQ    6 (6)
+Q Consensus         1 gysgyq    6 (6)
+                      ||-|||
+T Consensus        81 g~~~~~   86 (92)
+T 7O71_d           81 GYLGYQ   86 (92)
+T ss_pred             cccccc
+Confidence            455554
+
+
+No 5
+>5SY1_A Calmodulin, STRA6; Vitamin A, retinol, STRA6, membrane; HET: CLR;{Spodoptera frugiperda}
+Probab=30.17  E-value=49  Score=17.22  Aligned_cols=6  Identities=50%  Similarity=1.337  Sum_probs=4.2  Template_Neff=5.700
+
+Q GYSGYQ            1 GYSGYQ    6 (6)
+Q Consensus         1 gysgyq    6 (6)
+                      .|+|||
+T Consensus       401 ~y~G~Q  406 (670)
+T 5SY1_A          401 GFTSYQ  406 (670)
+T ss_pred             cchHHH
+Confidence            377877
+
+
+No 6
+>3OPY_C 6-phosphofructo-1-kinase alpha-subunit (E.C.2.7.1.11), 6-phosphofructo-1-kinase beta-subunit; phosphofructokinase, ATP Binding, Fructose-6-phosphate Binding; HET: SO4, ATP; 3.05A {Pichia pastoris}
+Probab=26.76  E-value=62  Score=16.96  Aligned_cols=6  Identities=83%  Similarity=1.414  Sum_probs=3.0  Template_Neff=7.100
+
+Q GYSGYQ            1 GYSGYQ    6 (6)
+Q Consensus         1 gysgyq    6 (6)
+                      |||+||
+T Consensus        97 ~~~~~~  102 (989)
+T 3OPY_C           97 GYSPYQ  102 (989)
+T ss_dssp             CC-CBC
+T ss_pred             CCCCCc
+Confidence            567664
+
+
+No 7
+>5UE0_A CT622 protein; T3SS effector, helical bundle, prenylation; HET: MLY; 1.9A {Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)}
+Probab=19.98  E-value=1e+02  Score=15.88  Aligned_cols=6  Identities=67%  Similarity=1.464  Sum_probs=0.0  Template_Neff=2.400
+
+Q GYSGYQ            1 GYSGYQ    6 (6)
+Q Consensus         1 gysgyq    6 (6)
+                      ||+.|+
+T Consensus       133 GY~AYk  138 (299)
+T 5UE0_A          133 GYSAYK  138 (299)
+T ss_dssp             HHHHHH
+T ss_pred             hhHHHH
+
+
+No 8
+>1AYE_A PROCARBOXYPEPTIDASE A2; SERINE PROTEASE, ZYMOGEN, HYDROLASE; 1.8A {Homo sapiens} SCOP: c.56.5.1, d.58.3.1
+Probab=19.71  E-value=1e+02  Score=13.61  Aligned_cols=5  Identities=40%  Similarity=0.707  Sum_probs=0.0  Template_Neff=8.800
+
+Q GYSGYQ            2 YSGYQ    6 (6)
+Q Consensus         2 ysgyq    6 (6)
+                      |+|||
+T Consensus         4 Y~g~~    8 (401)
+T 1AYE_A            4 FVGDQ    8 (401)
+T ss_dssp             CTTCE
+T ss_pred             eCCcE
+
+
+No 9
+>3G87_A Malonyl CoA-acyl carrier protein transacylase; SSGCID, NIAID, deCODE biostructures, dried; 2.3A {Burkholderia pseudomallei}
+Probab=19.48  E-value=1.1e+02  Score=12.48  Aligned_cols=5  Identities=80%  Similarity=1.976  Sum_probs=0.0  Template_Neff=10.800
+
+Q GYSGYQ            1 GYSGY    5 (6)
+Q Consensus         1 gysgy    5 (6)
+                      ||+|+
+T Consensus       381 g~~~~  385 (394)
+T 3G87_A          381 GYNGY  385 (394)
+T ss_dssp             -----
+T ss_pred             ccceE
+
+
+No 10
+>2L1N_A Uncharacterized protein; DUF1823, Hypothetical protein, Cyanobacteria, Structural; NMR {Synechococcus elongatus}
+Probab=19.36  E-value=1.1e+02  Score=13.83  Aligned_cols=6  Identities=50%  Similarity=1.519  Sum_probs=0.0  Template_Neff=3.200
+
+Q GYSGYQ            1 GYSGYQ    6 (6)
+Q Consensus         1 gysgyq    6 (6)
+                      |+.||+
+T Consensus        88 GFkGYk   93 (120)
+T 2L1N_A           88 GFAGYS   93 (120)
+T ss_dssp             CCCCCC
+T ss_pred             CCCCee
+
+

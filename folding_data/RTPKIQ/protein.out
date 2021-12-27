@@ -1,0 +1,141 @@
+Query         RTPKIQ
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 12:46:07 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/RTPKIQ/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/RTPKIQ/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4V7E_BG Ribosome; eukaryotic r  14.9 1.6E+02  0.0018   14.0   0.0    6    1-6     176-181 (245)
+  2 5XYI_G 40S ribosomal protein S  13.9 1.8E+02   0.002   13.7   0.0    6    1-6     169-174 (216)
+  3 6XA1_SG translation terminatio  13.9 1.8E+02   0.002   13.7   0.0    6    1-6     172-177 (228)
+  4 6I7O_T uL2, uL3, uL4, uL18, eL  13.6 1.9E+02   0.002   13.6   0.0    6    1-6     171-176 (218)
+  5 6ZVH_G 40S ribosomal protein S  13.4 1.9E+02  0.0021   13.7   0.0    6    1-6     172-177 (237)
+  6 4WYQ_A Dicer (E.C.3.1.26.3), T  12.0 2.2E+02  0.0025   10.2   0.0    5    2-6     108-112 (123)
+  7 5TBW_H ?; Protein translation   12.0 2.2E+02  0.0025   13.4   0.0    5    2-6     172-176 (226)
+  8 5XXU_G uS2, eS1, uS5, uS3, eS4  11.9 2.2E+02  0.0025   13.8   0.0    6    1-6     169-174 (256)
+  9 4V8M_A3 Ribosome; RIBOSOME, EU  11.2 2.4E+02  0.0027   13.6   0.0    5    2-6     176-180 (250)
+ 10 6ZU5_SG0 uL2, uL15, uL3, eL29,  11.1 2.5E+02  0.0027   13.3   0.0    5    2-6     174-178 (222)
+
+No 1
+>4V7E_BG Ribosome; eukaryotic ribosome, homology modeling, de; 5.5A {Triticum aestivum}
+Probab=14.86  E-value=1.6e+02  Score=14.00  Aligned_cols=6  Identities=67%  Similarity=1.154  Sum_probs=0.0  Template_Neff=4.900
+
+Q RTPKIQ            1 RTPKIQ    6 (6)
+Q Consensus         1 rtpkiq    6 (6)
+                      ..||||
+T Consensus       176 k~pKIQ  181 (245)
+T 4V7E_BG         176 KAPKIQ  181 (245)
+T ss_pred             cCcchh
+
+
+No 2
+>5XYI_G 40S ribosomal protein SA, Ribosomal; Trichomonas vaginalis ribosome, rRNA, rprotein; 3.35A {Trichomonas vaginalis}
+Probab=13.95  E-value=1.8e+02  Score=13.68  Aligned_cols=6  Identities=50%  Similarity=0.994  Sum_probs=0.0  Template_Neff=4.800
+
+Q RTPKIQ            1 RTPKIQ    6 (6)
+Q Consensus         1 rtpkiq    6 (6)
+                      ..||||
+T Consensus       169 k~pKIq  174 (216)
+T 5XYI_G          169 TSPKVQ  174 (216)
+T ss_pred             cCCchh
+
+
+No 3
+>6XA1_SG translation termination complex; Selectively stalling, translation termination, drug-like; HET: A2M, MEQ, 4AC, M2G, MLZ, OMG, OMU, PSU, B8N, 5MC, H2U, MVM, 2MG, G7M, UY1, 1MG, MA6, UXY, 6MZ, 1MA, UY4, MG, OMC, UR3; 2.8A {Homo sapiens}
+Probab=13.93  E-value=1.8e+02  Score=13.70  Aligned_cols=6  Identities=67%  Similarity=1.154  Sum_probs=0.0  Template_Neff=5.000
+
+Q RTPKIQ            1 RTPKIQ    6 (6)
+Q Consensus         1 rtpkiq    6 (6)
+                      ..||||
+T Consensus       172 k~pKIq  177 (228)
+T 6XA1_SG         172 KAPKIQ  177 (228)
+T ss_pred             CCCchh
+
+
+No 4
+>6I7O_T uL2, uL3, uL4, uL18, eL6; ribosome, disome, di-ribosome, stalling, TRANSLATION; HET: ZN; 5.3A {Saccharomyces cerevisiae}
+Probab=13.61  E-value=1.9e+02  Score=13.57  Aligned_cols=6  Identities=67%  Similarity=1.154  Sum_probs=0.0  Template_Neff=5.000
+
+Q RTPKIQ            1 RTPKIQ    6 (6)
+Q Consensus         1 rtpkiq    6 (6)
+                      ..||||
+T Consensus       171 k~pKiq  176 (218)
+T 6I7O_T          171 KAPKIQ  176 (218)
+T ss_pred             ecCchh
+
+
+No 5
+>6ZVH_G 40S ribosomal protein SA, 40S; translation, frameshifting, collision, RIBOSOME; HET: MG;{Homo sapiens}
+Probab=13.44  E-value=1.9e+02  Score=13.74  Aligned_cols=6  Identities=67%  Similarity=1.154  Sum_probs=0.0  Template_Neff=4.900
+
+Q RTPKIQ            1 RTPKIQ    6 (6)
+Q Consensus         1 rtpkiq    6 (6)
+                      ..||||
+T Consensus       172 k~pKIq  177 (237)
+T 6ZVH_G          172 KAPKIQ  177 (237)
+T ss_pred             cCCchh
+
+
+No 6
+>4WYQ_A Dicer (E.C.3.1.26.3), Trans-activation-responsive RNA-binding protein; RNA interference, microRNA, dsRBP, dsRBD; 3.2A {Homo sapiens}
+Probab=12.00  E-value=2.2e+02  Score=10.25  Aligned_cols=5  Identities=60%  Similarity=0.966  Sum_probs=0.0  Template_Neff=9.400
+
+Q RTPKIQ            2 TPKIQ    6 (6)
+Q Consensus         2 tpkiq    6 (6)
+                      +||++
+T Consensus       108 SpKv~  112 (123)
+T 4WYQ_A          108 TPKVI  112 (123)
+T ss_dssp             CHHHH
+T ss_pred             CHHHH
+
+
+No 7
+>5TBW_H ?; Protein translation inhibitor, complex, ribosome; HET: 7AL, MG, ZN, OHX; 3.0A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=11.98  E-value=2.2e+02  Score=13.39  Aligned_cols=5  Identities=80%  Similarity=1.205  Sum_probs=0.0  Template_Neff=5.000
+
+Q RTPKIQ            2 TPKIQ    6 (6)
+Q Consensus         2 tpkiq    6 (6)
+                      .||||
+T Consensus       172 ~pKIq  176 (226)
+T 5TBW_H          172 APKIQ  176 (226)
+T ss_pred             CCchH
+
+
+No 8
+>5XXU_G uS2, eS1, uS5, uS3, eS4; Toxoplasma gondii ribosome, rRNA, rprotein; 3.35A {Toxoplasma gondii}
+Probab=11.93  E-value=2.2e+02  Score=13.82  Aligned_cols=6  Identities=67%  Similarity=1.154  Sum_probs=0.0  Template_Neff=4.500
+
+Q RTPKIQ            1 RTPKIQ    6 (6)
+Q Consensus         1 rtpkiq    6 (6)
+                      ..||||
+T Consensus       169 k~pKIQ  174 (256)
+T 5XXU_G          169 KAPKIQ  174 (256)
+T ss_pred             cCCchh
+
+
+No 9
+>4V8M_A3 Ribosome; RIBOSOME, EUKARYOTIC, KINETOPLASTIDS, EXPANSION SEGMENTS; 5.57A {TRYPANOSOMA BRUCEI BRUCEI}
+Probab=11.23  E-value=2.4e+02  Score=13.58  Aligned_cols=5  Identities=80%  Similarity=1.205  Sum_probs=0.0  Template_Neff=4.700
+
+Q RTPKIQ            2 TPKIQ    6 (6)
+Q Consensus         2 tpkiq    6 (6)
+                      .||||
+T Consensus       176 ~pKIQ  180 (250)
+T 4V8M_A3         176 APKIQ  180 (250)
+T ss_pred             CcchH
+
+
+No 10
+>6ZU5_SG0 uL2, uL15, uL3, eL29, uL4; Microsporidia, Pathogen, Ribosome, Hibernation, Genome; HET: AMP, MG; 2.9A {Paranosema locustae}
+Probab=11.09  E-value=2.5e+02  Score=13.25  Aligned_cols=5  Identities=20%  Similarity=0.235  Sum_probs=0.0  Template_Neff=4.900
+
+Q RTPKIQ            2 TPKIQ    6 (6)
+Q Consensus         2 tpkiq    6 (6)
+                      .||||
+T Consensus       174 ~pKIq  178 (222)
+T 6ZU5_SG0        174 RIKVT  178 (222)
+T ss_pred             Ccchh
+
+

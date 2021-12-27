@@ -1,0 +1,392 @@
+Query         GFNKFG
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 23:35:37 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GFNKFG/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GFNKFG/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6AHD_8 Pre-mRNA-processing-spl  51.3      14 0.00015   16.4   0.0    6    1-6     188-193 (199)
+  2 5NRL_L U6 snRNA-associated Sm-  43.1      22 0.00025   16.0   0.0    6    1-6     185-190 (194)
+  3 5ZWO_W Pre-mRNA-splicing facto  43.1      22 0.00025   16.0   0.0    6    1-6     185-190 (194)
+  4 7ABI_N U5 small nuclear ribonu  42.9      23 0.00025   15.7   0.0    6    1-6     188-193 (199)
+  5 3CX5_R Cytochrome b-c1 complex  41.1      25 0.00028   15.1   0.0    6    1-6      36-41  (126)
+  6 6YMX_G Cytochrome c oxidase su  41.1      25 0.00028   15.1   0.0    6    1-6      36-41  (126)
+  7 5XTE_F Cytochrome b-c1 complex  38.3      30 0.00033   14.4   0.0    6    1-6      21-26  (106)
+  8 6ZFT_F Cytochrome b-c1 complex  37.7      31 0.00034   14.2   0.0    6    1-6      15-20  (99)
+  9 6ZFU_F Cytochrome b-c1 complex  37.7      31 0.00034   14.2   0.0    6    1-6      15-20  (99)
+ 10 1KB9_G UBIQUINOL-CYTOCHROME C   37.7      31 0.00034   14.8   0.0    6    1-6      35-40  (125)
+ 11 7RJB_G Candida albicans, mitoc  36.8      33 0.00036   14.8   0.0    6    1-6      37-42  (127)
+ 12 7RJC_G Candida albicans, mitoc  36.8      33 0.00036   14.8   0.0    6    1-6      37-42  (127)
+ 13 1PP9_S UBIQUINOL CYTOCHROME C   36.5      33 0.00037   14.4   0.0    6    1-6      25-30  (110)
+ 14 6XVF_F Cytochrome b-c1 complex  31.2      46 0.00051   13.7   0.0    6    1-6      15-20  (100)
+ 15 1IOF_D PYRROLIDONE CARBOXYL PE  25.3      69 0.00076   13.1   0.0    6    1-6       7-12  (208)
+ 16 3TZW_A Polyketide synthase PKS  24.6      72  0.0008   12.7   0.0    6    1-6       5-10  (491)
+ 17 3TZX_A Polyketide synthase PKS  24.6      72  0.0008   12.7   0.0    6    1-6       5-10  (491)
+ 18 3TZY_A Polyketide synthase PKS  24.6      72  0.0008   12.7   0.0    6    1-6       5-10  (491)
+ 19 7EP4_B E3 ligase, LIGASE; 2.07  24.1      75 0.00083   12.5   0.0    6    1-6       1-6   (253)
+ 20 6X2D_A nsp16, nsp10; Structura  23.5      78 0.00087   12.9   0.0    6    1-6     102-107 (115)
+ 21 1IU8_B Pyrrolidone-carboxylate  22.5      84 0.00093   12.9   0.0    6    1-6       7-12  (206)
+ 22 6X2D_B nsp16, nsp10; Structura  21.0      95   0.001   12.8   0.0    6    1-6     102-107 (115)
+ 23 1ZC1_A Ubiquitin fusion degrad  20.9      95  0.0011   12.7   0.0    6    1-6       4-9   (208)
+ 24 1Z8X_A Protein Stability, hydr  20.8      96  0.0011   12.8   0.0    6    1-6       7-12  (208)
+ 25 5Z48_B Pyrrolidone-carboxylate  20.3   1E+02  0.0011   13.1   0.0    6    1-6      10-15  (220)
+ 26 1A2Z_A PYRROLIDONE CARBOXYL PE  20.0   1E+02  0.0011   12.9   0.0    6    1-6       8-13  (220)
+
+No 1
+>6AHD_8 Pre-mRNA-processing-splicing factor 8, Thioredoxin-like protein; Spliceosome, SPLICING; HET: IHP, GTP; 3.8A {Homo sapiens}
+Probab=51.28  E-value=14  Score=16.35  Aligned_cols=6  Identities=67%  Similarity=1.497  Sum_probs=4.5  Template_Neff=5.900
+
+Q GFNKFG            1 GFNKFG    6 (6)
+Q Consensus         1 gfnkfg    6 (6)
+                      ||.-||
+T Consensus       188 GF~gFG  193 (199)
+T 6AHD_8          188 GFSGFG  193 (199)
+T ss_pred             CccccC
+Confidence            677776
+
+
+No 2
+>5NRL_L U6 snRNA-associated Sm-like protein LSm3; Spliceosome, Splicing, Ribonucleoprotein; HET: PSU, GTP; 7.2A {Saccharomyces cerevisiae}
+Probab=43.09  E-value=22  Score=15.97  Aligned_cols=6  Identities=50%  Similarity=1.265  Sum_probs=4.5  Template_Neff=5.300
+
+Q GFNKFG            1 GFNKFG    6 (6)
+Q Consensus         1 gfnkfg    6 (6)
+                      ||..||
+T Consensus       185 GF~~FG  190 (194)
+T 5NRL_L          185 GFSNFA  190 (194)
+T ss_pred             cccccc
+Confidence            677776
+
+
+No 3
+>5ZWO_W Pre-mRNA-splicing factor 8, U4/U6 small; spliceosome, assembly, B complex, SPLICING; HET: GTP; 3.9A {Saccharomyces cerevisiae S288c}
+Probab=43.09  E-value=22  Score=15.97  Aligned_cols=6  Identities=50%  Similarity=1.265  Sum_probs=4.5  Template_Neff=5.300
+
+Q GFNKFG            1 GFNKFG    6 (6)
+Q Consensus         1 gfnkfg    6 (6)
+                      ||..||
+T Consensus       185 GF~~FG  190 (194)
+T 5ZWO_W          185 GFSNFA  190 (194)
+T ss_pred             cccccc
+Confidence            677776
+
+
+No 4
+>7ABI_N U5 small nuclear ribonucleoprotein 40; Complex, spliceosome, catalytic activation, splicing; HET: IHP, GTP; 8.0A {Homo sapiens}
+Probab=42.91  E-value=23  Score=15.65  Aligned_cols=6  Identities=67%  Similarity=1.497  Sum_probs=4.3  Template_Neff=6.000
+
+Q GFNKFG            1 GFNKFG    6 (6)
+Q Consensus         1 gfnkfg    6 (6)
+                      ||.-||
+T Consensus       188 GF~gFG  193 (199)
+T 7ABI_N          188 GFSGFG  193 (199)
+T ss_pred             CccccC
+Confidence            677776
+
+
+No 5
+>3CX5_R Cytochrome b-c1 complex subunit 1; COMPLEX III, CYTOCHROME C, ELECTRON; HET: HEM, 6PH, M3L, UMQ, SMA, GLC, 7PH, 8PE, CN3, CN5, 9PE, FRU; 1.9A {Saccharomyces cerevisiae} SCOP: f.27.1.1
+Probab=41.10  E-value=25  Score=15.06  Aligned_cols=6  Identities=50%  Similarity=1.348  Sum_probs=3.5  Template_Neff=5.000
+
+Q GFNKFG            1 GFNKFG    6 (6)
+Q Consensus         1 gfnkfg    6 (6)
+                      ||+|+|
+T Consensus        36 g~rk~G   41 (126)
+T 3CX5_R           36 GYKKLG   41 (126)
+T ss_dssp             CGGGGT
+T ss_pred             cccccc
+Confidence            456665
+
+
+No 6
+>6YMX_G Cytochrome c oxidase subunit 1; Complex, CIII, CIV, Supercomplex, ELECTRON; HET: PTY, 8PE, CN3, 7PH, CN5, HEA, PCF, UQ6, 6PH, HEM, 9PE; 3.17A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=41.10  E-value=25  Score=15.06  Aligned_cols=6  Identities=50%  Similarity=1.348  Sum_probs=3.5  Template_Neff=5.000
+
+Q GFNKFG            1 GFNKFG    6 (6)
+Q Consensus         1 gfnkfg    6 (6)
+                      ||+|+|
+T Consensus        36 g~rk~G   41 (126)
+T 6YMX_G           36 GYKKLG   41 (126)
+T ss_pred             cccccc
+Confidence            456665
+
+
+No 7
+>5XTE_F Cytochrome b-c1 complex subunit 8; Respiratory, OXIDOREDUCTASE-ELECTRON TRANSPORT complex; HET: CDL, PLX, HEC, PEE, HEM; 3.4A {Homo sapiens}
+Probab=38.33  E-value=30  Score=14.40  Aligned_cols=6  Identities=83%  Similarity=1.619  Sum_probs=3.4  Template_Neff=5.200
+
+Q GFNKFG            1 GFNKFG    6 (6)
+Q Consensus         1 gfnkfg    6 (6)
+                      |++|+|
+T Consensus        21 g~rk~G   26 (106)
+T 5XTE_F           21 GFNKLG   26 (106)
+T ss_dssp             CGGGGT
+T ss_pred             cccccc
+Confidence            456665
+
+
+No 8
+>6ZFT_F Cytochrome b-c1 complex subunit 1; cytochrome bc1, malaria, ELECTRON TRANSPORT; HET: PEE, HEC, PO4, CDL, 6PE, LMT, PX4, HEM, PG4, JHB; 3.3A {Bos taurus}
+Probab=37.72  E-value=31  Score=14.16  Aligned_cols=6  Identities=83%  Similarity=1.619  Sum_probs=3.5  Template_Neff=5.300
+
+Q GFNKFG            1 GFNKFG    6 (6)
+Q Consensus         1 gfnkfg    6 (6)
+                      |++|+|
+T Consensus        15 g~~k~G   20 (99)
+T 6ZFT_F           15 GFNKLG   20 (99)
+T ss_dssp             CGGGGT
+T ss_pred             cccccc
+Confidence            456665
+
+
+No 9
+>6ZFU_F Cytochrome b-c1 complex subunit 1; cytochrome bc1, malaria, ELECTRON TRANSPORT; HET: HEC, HEM, CDL, 6PE, PX4, PG4, PEE, LMT, JHE, PO4; 3.5A {Bos taurus}
+Probab=37.72  E-value=31  Score=14.16  Aligned_cols=6  Identities=83%  Similarity=1.619  Sum_probs=3.5  Template_Neff=5.300
+
+Q GFNKFG            1 GFNKFG    6 (6)
+Q Consensus         1 gfnkfg    6 (6)
+                      |++|+|
+T Consensus        15 g~~k~G   20 (99)
+T 6ZFU_F           15 GFNKLG   20 (99)
+T ss_dssp             CGGGGT
+T ss_pred             cccccc
+Confidence            456665
+
+
+No 10
+>1KB9_G UBIQUINOL-CYTOCHROME C REDUCTASE COMPLEX CORE; oxidoreductase, ubiquinone, stigmatellin, cardiolipin, phosphatidylinositol; HET: PCF, SMA, UMQ, UQ6, CDL, HEM, PEF, PIE; 2.3A {Saccharomyces cerevisiae} SCOP: f.27.1.1
+Probab=37.69  E-value=31  Score=14.83  Aligned_cols=6  Identities=50%  Similarity=1.348  Sum_probs=3.3  Template_Neff=4.900
+
+Q GFNKFG            1 GFNKFG    6 (6)
+Q Consensus         1 gfnkfg    6 (6)
+                      ||+|+|
+T Consensus        35 gyrk~G   40 (125)
+T 1KB9_G           35 GYKKLG   40 (125)
+T ss_dssp             CGGGGT
+T ss_pred             cccccc
+Confidence            456655
+
+
+No 11
+>7RJB_G Candida albicans, mitochondrial complex III2; HET: HEM, U10, HEC; 3.2A {Candida albicans (strain SC5314 / ATCC MYA-2876)}
+Probab=36.82  E-value=33  Score=14.75  Aligned_cols=6  Identities=33%  Similarity=1.187  Sum_probs=3.3  Template_Neff=5.000
+
+Q GFNKFG            1 GFNKFG    6 (6)
+Q Consensus         1 gfnkfg    6 (6)
+                      ||+|+|
+T Consensus        37 g~rk~G   42 (127)
+T 7RJB_G           37 GYREMG   42 (127)
+T ss_pred             cccccc
+Confidence            455655
+
+
+No 12
+>7RJC_G Candida albicans, mitochondrial complex III2; HET: HEM, HEC, U10; 3.3A {Candida albicans (strain SC5314 / ATCC MYA-2876)}
+Probab=36.82  E-value=33  Score=14.75  Aligned_cols=6  Identities=33%  Similarity=1.187  Sum_probs=3.3  Template_Neff=5.000
+
+Q GFNKFG            1 GFNKFG    6 (6)
+Q Consensus         1 gfnkfg    6 (6)
+                      ||+|+|
+T Consensus        37 g~rk~G   42 (127)
+T 7RJC_G           37 GYREMG   42 (127)
+T ss_pred             cccccc
+Confidence            455655
+
+
+No 13
+>1PP9_S UBIQUINOL CYTOCHROME C OXIDOREDUCTASE (E.C.1.10.2.2); CYTOCHROME BC1, MEMBRANE PROTEIN, HEME; HET: CDL, UQ, SMA, HEC, PEE, PO4, GOL, HEM, AZI, JZR; 2.1A {Bos taurus} SCOP: f.27.1.1
+Probab=36.50  E-value=33  Score=14.38  Aligned_cols=6  Identities=83%  Similarity=1.619  Sum_probs=3.3  Template_Neff=5.100
+
+Q GFNKFG            1 GFNKFG    6 (6)
+Q Consensus         1 gfnkfg    6 (6)
+                      |++|+|
+T Consensus        25 g~rk~G   30 (110)
+T 1PP9_S           25 GFNKLG   30 (110)
+T ss_pred             cccchh
+Confidence            455655
+
+
+No 14
+>6XVF_F Cytochrome b-c1 complex subunit 1; Cytochrome bc1, Malaria, Electron transport; HET: HEC, PEE, HEM, LMT, JAG, PG4, 6PE, PO4, CDL, PX4; 3.5A {Bos taurus}
+Probab=31.20  E-value=46  Score=13.69  Aligned_cols=6  Identities=83%  Similarity=1.619  Sum_probs=3.2  Template_Neff=5.300
+
+Q GFNKFG            1 GFNKFG    6 (6)
+Q Consensus         1 gfnkfg    6 (6)
+                      |++++|
+T Consensus        15 ~~~q~G   20 (100)
+T 6XVF_F           15 GFNKLG   20 (100)
+T ss_dssp             CGGGGT
+T ss_pred             cccchh
+Confidence            455555
+
+
+No 15
+>1IOF_D PYRROLIDONE CARBOXYL PEPTIDASE (E.C.3.4.19.3); PGP-I, PYROGLUTAMYL-PEPTIDASE I, PCP, protease; 2.2A {Pyrococcus furiosus} SCOP: c.56.4.1
+Probab=25.25  E-value=69  Score=13.14  Aligned_cols=6  Identities=67%  Similarity=1.525  Sum_probs=3.3  Template_Neff=8.300
+
+Q GFNKFG            1 GFNKFG    6 (6)
+Q Consensus         1 gfnkfg    6 (6)
+                      ||..|+
+T Consensus         7 GFgpF~   12 (208)
+T 1IOF_D            7 GFEPFG   12 (208)
+T ss_dssp             EECCCS
+T ss_pred             ecCCCC
+Confidence            565553
+
+
+No 16
+>3TZW_A Polyketide synthase PKS13, 12-mer peptide; Acyltransferase, Long fatty acid chain; HET: SO4, EDO; 2.6A {Escherichia coli}
+Probab=24.60  E-value=72  Score=12.68  Aligned_cols=6  Identities=50%  Similarity=1.276  Sum_probs=0.0  Template_Neff=12.000
+
+Q GFNKFG            1 GFNKFG    6 (6)
+Q Consensus         1 gfnkfg    6 (6)
+                      |++-||
+T Consensus         5 ~~~sfG   10 (491)
+T 3TZW_A            5 RFDEFG   10 (491)
+T ss_dssp             ------
+T ss_pred             cccccC
+Confidence            455555
+
+
+No 17
+>3TZX_A Polyketide synthase PKS13 (E.C.2.3.1.-), 12-mer; Acyltransferase, Long fatty acid chain; HET: SO4, GOL; 2.3A {Escherichia coli}
+Probab=24.60  E-value=72  Score=12.68  Aligned_cols=6  Identities=50%  Similarity=1.276  Sum_probs=0.0  Template_Neff=12.000
+
+Q GFNKFG            1 GFNKFG    6 (6)
+Q Consensus         1 gfnkfg    6 (6)
+                      |++-||
+T Consensus         5 ~~~sfG   10 (491)
+T 3TZX_A            5 RFDEFG   10 (491)
+T ss_dssp             ------
+T ss_pred             cccccC
+Confidence            455555
+
+
+No 18
+>3TZY_A Polyketide synthase PKS13, 12-mer peptide; Acyltransferase, Long fatty acid chain; HET: PLM, GOL, SO4; 2.2A {Escherichia coli}
+Probab=24.60  E-value=72  Score=12.68  Aligned_cols=6  Identities=50%  Similarity=1.276  Sum_probs=0.0  Template_Neff=12.000
+
+Q GFNKFG            1 GFNKFG    6 (6)
+Q Consensus         1 gfnkfg    6 (6)
+                      |++-||
+T Consensus         5 ~~~sfG   10 (491)
+T 3TZY_A            5 RFDEFG   10 (491)
+T ss_dssp             ------
+T ss_pred             cccccC
+Confidence            455555
+
+
+No 19
+>7EP4_B E3 ligase, LIGASE; 2.07A {Homo sapiens}
+Probab=24.09  E-value=75  Score=12.50  Aligned_cols=6  Identities=50%  Similarity=0.994  Sum_probs=3.2  Template_Neff=10.000
+
+Q GFNKFG            1 GFNKFG    6 (6)
+Q Consensus         1 gfnkfg    6 (6)
+                      ||+.||
+T Consensus         1 ~~~~~~    6 (253)
+T 7EP4_B            1 GFLHVG    6 (253)
+T ss_dssp             CBCCHH
+T ss_pred             CcccHh
+Confidence            565553
+
+
+No 20
+>6X2D_A nsp16, nsp10; Structural Genomics, Center for Structural; HET: MSE; 1.85A {Vibrio cholerae serotype O1 (strain ATCC 39315 / El Tor Inaba N16961)}
+Probab=23.47  E-value=78  Score=12.95  Aligned_cols=6  Identities=33%  Similarity=0.955  Sum_probs=3.0  Template_Neff=6.100
+
+Q GFNKFG            1 GFNKFG    6 (6)
+Q Consensus         1 gfnkfg    6 (6)
+                      ||+++|
+T Consensus       102 g~t~lG  107 (115)
+T 6X2D_A          102 RISRFG  107 (115)
+T ss_dssp             CCCTTS
+T ss_pred             ccCCCC
+Confidence            455554
+
+
+No 21
+>1IU8_B Pyrrolidone-carboxylate peptidase(E.C.3.4.19.3); Hydrolase, Thiol protease; 1.6A {Pyrococcus horikoshii} SCOP: c.56.4.1
+Probab=22.49  E-value=84  Score=12.93  Aligned_cols=6  Identities=67%  Similarity=1.525  Sum_probs=3.2  Template_Neff=8.200
+
+Q GFNKFG            1 GFNKFG    6 (6)
+Q Consensus         1 gfnkfg    6 (6)
+                      ||..|+
+T Consensus         7 GFgpF~   12 (206)
+T 1IU8_B            7 GFEPFG   12 (206)
+T ss_dssp             EECCCT
+T ss_pred             ecCCCC
+Confidence            565553
+
+
+No 22
+>6X2D_B nsp16, nsp10; Structural Genomics, Center for Structural; HET: MSE; 1.85A {Vibrio cholerae serotype O1 (strain ATCC 39315 / El Tor Inaba N16961)}
+Probab=20.97  E-value=95  Score=12.76  Aligned_cols=6  Identities=33%  Similarity=0.955  Sum_probs=2.9  Template_Neff=6.000
+
+Q GFNKFG            1 GFNKFG    6 (6)
+Q Consensus         1 gfnkfg    6 (6)
+                      ||+++|
+T Consensus       102 g~t~lG  107 (115)
+T 6X2D_B          102 RISRFG  107 (115)
+T ss_dssp             CCCTTS
+T ss_pred             ccCCCC
+Confidence            355554
+
+
+No 23
+>1ZC1_A Ubiquitin fusion degradation protein 1; Ufd1, double-psi-beta-barrel, PROTEIN TURNOVER; NMR {Saccharomyces cerevisiae}
+Probab=20.90  E-value=95  Score=12.70  Aligned_cols=6  Identities=67%  Similarity=1.564  Sum_probs=2.6  Template_Neff=8.400
+
+Q GFNKFG            1 GFNKFG    6 (6)
+Q Consensus         1 gfnkfg    6 (6)
+                      ||..||
+T Consensus         4 ~~~~~~    9 (208)
+T 1ZC1_A            4 GFSSFG    9 (208)
+T ss_dssp             CCCCCC
+T ss_pred             Cccccc
+Confidence            344443
+
+
+No 24
+>1Z8X_A Protein Stability, hydrolase; 2.0A {Pyrococcus furiosus}
+Probab=20.81  E-value=96  Score=12.85  Aligned_cols=6  Identities=67%  Similarity=1.525  Sum_probs=3.1  Template_Neff=8.100
+
+Q GFNKFG            1 GFNKFG    6 (6)
+Q Consensus         1 gfnkfg    6 (6)
+                      ||..|+
+T Consensus         7 GFgpF~   12 (208)
+T 1Z8X_A            7 GFEPFG   12 (208)
+T ss_dssp             EECCCT
+T ss_pred             ecCCCC
+Confidence            555553
+
+
+No 25
+>5Z48_B Pyrrolidone-carboxylate peptidase (E.C.3.4.19.3); omega peptidase, pyroglutamate, exopeptidase, HYDROLASE; HET: DMS, PCA; 1.551A {Deinococcus radiodurans R1}
+Probab=20.31  E-value=1e+02  Score=13.06  Aligned_cols=6  Identities=50%  Similarity=1.082  Sum_probs=3.1  Template_Neff=7.800
+
+Q GFNKFG            1 GFNKFG    6 (6)
+Q Consensus         1 gfnkfg    6 (6)
+                      ||..|+
+T Consensus        10 GF~pF~   15 (220)
+T 5Z48_B           10 GFEPFH   15 (220)
+T ss_dssp             EECCCT
+T ss_pred             ecCCCC
+Confidence            555553
+
+
+No 26
+>1A2Z_A PYRROLIDONE CARBOXYL PEPTIDASE; PEPTIDASE, N-PYROGLUTAMATE HYDROLYSIS; HET: SO4; 1.73A {Thermococcus litoralis} SCOP: c.56.4.1
+Probab=20.02  E-value=1e+02  Score=12.92  Aligned_cols=6  Identities=67%  Similarity=1.525  Sum_probs=3.2  Template_Neff=8.000
+
+Q GFNKFG            1 GFNKFG    6 (6)
+Q Consensus         1 gfnkfg    6 (6)
+                      ||..|+
+T Consensus         8 GFgpF~   13 (220)
+T 1A2Z_A            8 GFEPFG   13 (220)
+T ss_dssp             EECCCT
+T ss_pred             ecCCCC
+Confidence            555553
+
+

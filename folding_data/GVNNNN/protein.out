@@ -1,0 +1,227 @@
+Query         GVNNNN
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 04:38:27 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GVNNNN/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GVNNNN/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 7DKZ_E Chlorophyll a-b binding  24.5      72  0.0008   13.3   0.0    6    1-6      51-56  (66)
+  2 4Y28_E photosystem I reaction   24.1      75 0.00083   13.3   0.0    6    1-6      51-56  (66)
+  3 6QPH_E Chlorophyll a-b binding  23.1      80 0.00089   13.2   0.0    6    1-6      49-54  (64)
+  4 6RHZ_E Chlorophyll a-b binding  23.1      80 0.00089   13.2   0.0    6    1-6      49-54  (64)
+  5 6L35_E Photosystem I P700 chlo  22.6      83 0.00092   13.0   0.0    6    1-6      48-53  (62)
+  6 6VPV_5 Photosystem I, Membrane  22.1      86 0.00096   13.2   0.0    6    1-6      54-59  (68)
+  7 6ZZX_E photosystem I, light st  22.1      87 0.00096   13.1   0.0    6    1-6      50-55  (64)
+  8 6TCL_E1 Photosystem I P700 chl  22.1      87 0.00096   12.9   0.0    6    1-6      46-51  (60)
+  9 6LY5_e FCPI-7, FCPI-1, FCPI-11  22.1      87 0.00096   13.0   0.0    6    1-6      48-53  (63)
+ 10 6TCL_E Photosystem I P700 chlo  22.1      87 0.00096   13.0   0.0    6    1-6      46-51  (63)
+ 11 6L4U_E PROTEIN; Photosystem I,  21.9      88 0.00097   13.2   0.0    6    1-6      47-52  (67)
+ 12 1JB0_E PHOTOSYSTEM I SUBUNIT P  21.8      89 0.00098   13.3   0.0    6    1-6      54-59  (75)
+ 13 6JO5_E Photosystem I P700 chlo  21.7      90 0.00099   13.3   0.0    6    1-6      58-63  (73)
+ 14 6FOS_E Similar to chlorophyll   20.9      96  0.0011   13.1   0.0    6    1-6      47-52  (69)
+ 15 6IGZ_E PsaA, PsaB, PsaC, PsaD,  20.0   1E+02  0.0011   13.6   0.0    6    1-6      77-82  (91)
+
+No 1
+>7DKZ_E Chlorophyll a-b binding protein, chloroplastic; PSI-LHCI high plants, PHOTOSYNTHESIS; HET: LHG, XAT, LMG, PQN, CHL, LMT, BCR, LUT, CLA, HTG, DGD, SF4; 2.393A {Pisum sativum}
+Probab=24.52  E-value=72  Score=13.34  Aligned_cols=6  Identities=50%  Similarity=0.711  Sum_probs=2.9  Template_Neff=2.600
+
+Q GVNNNN            1 GVNNNN    6 (6)
+Q Consensus         1 gvnnnn    6 (6)
+                      |+|.||
+T Consensus        51 GvnTnn   56 (66)
+T 7DKZ_E           51 NVSTNN   56 (66)
+T ss_pred             CccCCc
+Confidence            455544
+
+
+No 2
+>4Y28_E photosystem I reaction center (E.C.1.97.1.12); photosynthesis, light harvesting, antenna, reaction; HET: SF4, LMU, ZEX, LMG, LUT, CHL, PQN, LHG, BCR, CL0, DGD, CLA; 2.8A {Pisum sativum}
+Probab=24.13  E-value=75  Score=13.30  Aligned_cols=6  Identities=50%  Similarity=0.711  Sum_probs=2.9  Template_Neff=2.600
+
+Q GVNNNN            1 GVNNNN    6 (6)
+Q Consensus         1 gvnnnn    6 (6)
+                      |+|.||
+T Consensus        51 GvnTnN   56 (66)
+T 4Y28_E           51 NVSTNN   56 (66)
+T ss_pred             CccCCc
+Confidence            455444
+
+
+No 3
+>6QPH_E Chlorophyll a-b binding protein, chloroplastic; Photosystem I, Dunaliella, Electron Transport; HET: CAC, BCR, LMG, SF4, LHG, XAT, LMT, DGD, CL0, LUT, CHL, PQN, GSH, SQD, CLA; 3.4A {Dunaliella salina}
+Probab=23.15  E-value=80  Score=13.18  Aligned_cols=6  Identities=67%  Similarity=1.055  Sum_probs=2.8  Template_Neff=2.500
+
+Q GVNNNN            1 GVNNNN    6 (6)
+Q Consensus         1 gvnnnn    6 (6)
+                      |+|.||
+T Consensus        49 GvnTnN   54 (64)
+T 6QPH_E           49 GVSTNN   54 (64)
+T ss_pred             Cccccc
+Confidence            445444
+
+
+No 4
+>6RHZ_E Chlorophyll a-b binding protein, chloroplastic; photosystem I, photosynthesis, green algae; HET: XAT, LHG, BCR, CLA, LUT, CL0, DGD, SF4, PQN, CHL, LMG; 3.2A {Dunaliella salina}
+Probab=23.15  E-value=80  Score=13.18  Aligned_cols=6  Identities=67%  Similarity=1.055  Sum_probs=2.8  Template_Neff=2.500
+
+Q GVNNNN            1 GVNNNN    6 (6)
+Q Consensus         1 gvnnnn    6 (6)
+                      |+|.||
+T Consensus        49 GvnTnN   54 (64)
+T 6RHZ_E           49 GVSTNN   54 (64)
+T ss_pred             Cccccc
+Confidence            445444
+
+
+No 5
+>6L35_E Photosystem I P700 chlorophyll a; Cryo-EM, PSI-LHCI, Physcomitrella patens, STRUCTURAL; HET: SF4, LMG, LUT, CHL, PQN, XAT, LHG, BCR, DGD, CLA; 3.23A {Physcomitrium patens}
+Probab=22.63  E-value=83  Score=13.04  Aligned_cols=6  Identities=67%  Similarity=1.055  Sum_probs=2.8  Template_Neff=2.600
+
+Q GVNNNN            1 GVNNNN    6 (6)
+Q Consensus         1 gvnnnn    6 (6)
+                      |+|.||
+T Consensus        48 G~nTnn   53 (62)
+T 6L35_E           48 GVSTNN   53 (62)
+T ss_dssp             SCCEEE
+T ss_pred             CccCCc
+Confidence            445444
+
+
+No 6
+>6VPV_5 Photosystem I, Membrane Protein, Photosynthesis; HET: SQD, SF4, LMG, PQN, LHG, BCR, CL0, CLA; 2.7A {Cyanobacterium aponinum 0216}
+Probab=22.14  E-value=86  Score=13.18  Aligned_cols=6  Identities=83%  Similarity=1.215  Sum_probs=2.7  Template_Neff=2.600
+
+Q GVNNNN            1 GVNNNN    6 (6)
+Q Consensus         1 gvnnnn    6 (6)
+                      |+|.||
+T Consensus        54 G~nTNn   59 (68)
+T 6VPV_5           54 GVNTNN   59 (68)
+T ss_pred             Cccccc
+Confidence            345443
+
+
+No 7
+>6ZZX_E photosystem I, light stress, PHOTOSYNTHESIS; HET: SPH, QTB, 4RF, RRX, LPX, SQD, SF4, DGA, PLM, PTY, LUT, 3PH, CHL, NEX, LHG, DGD, LAP, ECH, LMG, P5S, PQN, OLA, CL0, CLA, LMT, PCW, XAT, AXT, BCR;{Chlorella ohadii}
+Probab=22.13  E-value=87  Score=13.08  Aligned_cols=6  Identities=67%  Similarity=1.055  Sum_probs=2.8  Template_Neff=2.500
+
+Q GVNNNN            1 GVNNNN    6 (6)
+Q Consensus         1 gvnnnn    6 (6)
+                      |+|.||
+T Consensus        50 G~nTnn   55 (64)
+T 6ZZX_E           50 GVSTNN   55 (64)
+T ss_dssp             SCCEEE
+T ss_pred             Cccccc
+Confidence            445444
+
+
+No 8
+>6TCL_E1 Photosystem I P700 chlorophyll a; photosynthesis, tetramer, anabaena, PSI; HET: ECH, SF4, LMG, PQN, AJP, LHG, BCR, CL0, DGD, CLA;{Nostoc sp. PCC 7120}
+Probab=22.11  E-value=87  Score=12.93  Aligned_cols=6  Identities=67%  Similarity=1.199  Sum_probs=2.8  Template_Neff=2.600
+
+Q GVNNNN            1 GVNNNN    6 (6)
+Q Consensus         1 gvnnnn    6 (6)
+                      |+|.||
+T Consensus        46 G~nTnn   51 (60)
+T 6TCL_E1          46 GINTNN   51 (60)
+T ss_pred             CccCcc
+Confidence            445443
+
+
+No 9
+>6LY5_e FCPI-7, FCPI-1, FCPI-11, FCPI-6, FCPI-5; diatom, PSI-FCPI, photosysyem, photosynthesis; HET: PQN, LHG, LMT, BCR, CLA, SF4, DGD, A86, LMG, SQD, KC1, DD6; 2.38A {Chaetoceros gracilis}
+Probab=22.09  E-value=87  Score=13.02  Aligned_cols=6  Identities=50%  Similarity=0.711  Sum_probs=2.8  Template_Neff=2.600
+
+Q GVNNNN            1 GVNNNN    6 (6)
+Q Consensus         1 gvnnnn    6 (6)
+                      |+|.||
+T Consensus        48 G~nTnn   53 (63)
+T 6LY5_e           48 NVSTNN   53 (63)
+T ss_pred             CcccCc
+Confidence            445443
+
+
+No 10
+>6TCL_E Photosystem I P700 chlorophyll a; photosynthesis, tetramer, anabaena, PSI; HET: BCR, LHG, CLA, PQN, CL0, DGD, SF4, AJP, ECH, LMG;{Nostoc sp. PCC 7120}
+Probab=22.05  E-value=87  Score=13.04  Aligned_cols=6  Identities=67%  Similarity=1.199  Sum_probs=2.8  Template_Neff=2.500
+
+Q GVNNNN            1 GVNNNN    6 (6)
+Q Consensus         1 gvnnnn    6 (6)
+                      |+|.||
+T Consensus        46 G~nTnn   51 (63)
+T 6TCL_E           46 GINTNN   51 (63)
+T ss_dssp             CCCCEE
+T ss_pred             CccCCc
+Confidence            445443
+
+
+No 11
+>6L4U_E PROTEIN; Photosystem I, ELECTRON TRANSPORT; HET: SF4, LHG, LMG, BCR, CL0, LMT, KC1, PQN, DD6, A86, CLA; 2.4A {Chaetoceros gracilis}
+Probab=21.94  E-value=88  Score=13.16  Aligned_cols=6  Identities=67%  Similarity=1.049  Sum_probs=2.8  Template_Neff=2.500
+
+Q GVNNNN            1 GVNNNN    6 (6)
+Q Consensus         1 gvnnnn    6 (6)
+                      |+|.||
+T Consensus        47 G~nTNn   52 (67)
+T 6L4U_E           47 GTNSNN   52 (67)
+T ss_dssp             SCCEEE
+T ss_pred             CcccCc
+Confidence            445443
+
+
+No 12
+>1JB0_E PHOTOSYSTEM I SUBUNIT PSAA, PHOTOSYSTEM; MEMBRANE PROTEIN, MULTIPROTEIN-PIGMENT COMPLEX, PHOTOSYNTHESIS; HET: LMG, CLA, LHG, PQN, SF4, BCR; 2.5A {Synechococcus elongatus} SCOP: b.34.4.2
+Probab=21.80  E-value=89  Score=13.34  Aligned_cols=6  Identities=83%  Similarity=1.215  Sum_probs=2.7  Template_Neff=2.600
+
+Q GVNNNN            1 GVNNNN    6 (6)
+Q Consensus         1 gvnnnn    6 (6)
+                      |+|.||
+T Consensus        54 GvnTNN   59 (75)
+T 1JB0_E           54 GVNTNN   59 (75)
+T ss_dssp             CCCEEE
+T ss_pred             Cccccc
+Confidence            344443
+
+
+No 13
+>6JO5_E Photosystem I P700 chlorophyll a; photosystem membrane protein, PHOTOSYNTHESIS; HET: SF4, LMG, LUT, CHL, PQN, LHG, BCR, CL0, DGD, CLA; 2.9A {Chlamydomonas reinhardtii}
+Probab=21.68  E-value=90  Score=13.28  Aligned_cols=6  Identities=67%  Similarity=1.032  Sum_probs=2.8  Template_Neff=2.600
+
+Q GVNNNN            1 GVNNNN    6 (6)
+Q Consensus         1 gvnnnn    6 (6)
+                      |+|.||
+T Consensus        58 G~nTnn   63 (73)
+T 6JO5_E           58 GVTTNN   63 (73)
+T ss_dssp             SCCEEE
+T ss_pred             CccCcc
+Confidence            445444
+
+
+No 14
+>6FOS_E Similar to chlorophyll a/b-binding protein; membrane protein, photosynthetic complex, reaction; HET: SF4, CLA, BCR, PQN; 4.0A {Cyanidioschyzon merolae (strain 10D)}
+Probab=20.86  E-value=96  Score=13.11  Aligned_cols=6  Identities=50%  Similarity=0.966  Sum_probs=2.7  Template_Neff=2.500
+
+Q GVNNNN            1 GVNNNN    6 (6)
+Q Consensus         1 gvnnnn    6 (6)
+                      |+|.||
+T Consensus        47 G~nTnn   52 (69)
+T 6FOS_E           47 GLNSTN   52 (69)
+T ss_pred             CccCCC
+Confidence            444443
+
+
+No 15
+>6IGZ_E PsaA, PsaB, PsaC, PsaD, PsaE; PSI-LHCI, PLANT PROTEIN; HET: DGD, XAT, LMG, CLA, CHL, 8CT, SF4, PQN, LHG, HTG;{Bryopsis corticulans}
+Probab=20.03  E-value=1e+02  Score=13.64  Aligned_cols=6  Identities=67%  Similarity=1.055  Sum_probs=3.0  Template_Neff=2.200
+
+Q GVNNNN            1 GVNNNN    6 (6)
+Q Consensus         1 gvnnnn    6 (6)
+                      |+|.||
+T Consensus        77 GvnTNN   82 (91)
+T 6IGZ_E           77 GVSTNN   82 (91)
+T ss_dssp             SCCEEE
+T ss_pred             CccCcc
+Confidence            455554
+
+

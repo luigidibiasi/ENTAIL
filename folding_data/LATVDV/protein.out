@@ -1,0 +1,150 @@
+Query         LATVDV
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 15:22:50 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LATVDV/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LATVDV/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3DMB_B Putative General Stress   8.4 3.7E+02   0.004    9.6   0.0    5    1-5      24-28  (147)
+  2 4HMS_A Phenazine biosynthesis    8.0 3.9E+02  0.0043   11.2   0.0    5    1-5      64-68  (225)
+  3 4HMV_B Phenazine biosynthesis    8.0 3.9E+02  0.0043   11.2   0.0    5    1-5      64-68  (225)
+  4 2I51_A Uncharacterized conserv   7.8   4E+02  0.0044   10.6   0.0    5    1-5      29-33  (195)
+  5 1CI0_A OXIDASE; OXIDASE, B6 ME   7.6 4.1E+02  0.0046   11.3   0.0    5    1-5      60-64  (228)
+  6 5JAB_A Biliverdin reductase Rv   7.5 4.2E+02  0.0046    9.3   0.0    5    1-5      26-30  (135)
+  7 3A6R_B Electron transport, Fla   7.5 4.2E+02  0.0046    9.2   0.0    5    1-5      18-22  (122)
+  8 6ECI_P Pyridoxamine 5'-phospha   7.4 4.3E+02  0.0048    9.2   0.0    5    1-5      24-28  (132)
+  9 6H00_A Pyridoxine-5'-phosphate   7.4 4.3E+02  0.0048   11.7   0.0    5    1-5      83-87  (261)
+ 10 3F7E_B Pyridoxamine 5'-phospha   7.3 4.4E+02  0.0048    9.0   0.0    5    1-5      20-24  (131)
+
+No 1
+>3DMB_B Putative General Stress Protein 26; Pnp-oxidase like fold, structural genomics; HET: MSE; 2.3A {Xanthomonas campestris pv. campestris}
+Probab=8.36  E-value=3.7e+02  Score=9.62  Aligned_cols=5  Identities=20%  Similarity=0.029  Sum_probs=0.0  Template_Neff=10.200
+
+Q LATVDV            1 LATVD    5 (6)
+Q Consensus         1 latvd    5 (6)
+                      |||++
+T Consensus        24 laT~~   28 (147)
+T 3DMB_B           24 LGLDG   28 (147)
+T ss_dssp             EEETT
+T ss_pred             EEecC
+
+
+No 2
+>4HMS_A Phenazine biosynthesis protein phzG (E.C.1.4.-.-); excess FMN, substrate mimic, OXIDOREDUCTASE; HET: FMN, SO4; 1.33A {Pseudomonas fluorescens}
+Probab=7.97  E-value=3.9e+02  Score=11.23  Aligned_cols=5  Identities=80%  Similarity=0.913  Sum_probs=0.0  Template_Neff=8.200
+
+Q LATVDV            1 LATVD    5 (6)
+Q Consensus         1 latvd    5 (6)
+                      |||+|
+T Consensus        64 LATv~   68 (225)
+T 4HMS_A           64 LATAD   68 (225)
+T ss_dssp             EEEEC
+T ss_pred             EEEEC
+
+
+No 3
+>4HMV_B Phenazine biosynthesis protein phzG (E.C.1.4.-.-); phenazine biosynthesis, trapping, intermediate, decarboxylation; HET: WUB, FMN; 1.45A {Pseudomonas fluorescens}
+Probab=7.97  E-value=3.9e+02  Score=11.23  Aligned_cols=5  Identities=80%  Similarity=0.913  Sum_probs=0.0  Template_Neff=8.200
+
+Q LATVDV            1 LATVD    5 (6)
+Q Consensus         1 latvd    5 (6)
+                      |||+|
+T Consensus        64 LATv~   68 (225)
+T 4HMV_B           64 LATAD   68 (225)
+T ss_dssp             EEEEC
+T ss_pred             EEEEC
+
+
+No 4
+>2I51_A Uncharacterized conserved protein of COG5135; PYRIDOXAMINE 5'-PHOSPHATE OXIDASE-RELATED PROTEIN, STRUCTURAL; HET: EDO, FMN; 1.4A {Nostoc punctiforme}
+Probab=7.82  E-value=4e+02  Score=10.58  Aligned_cols=5  Identities=80%  Similarity=0.880  Sum_probs=0.0  Template_Neff=9.000
+
+Q LATVDV            1 LATVD    5 (6)
+Q Consensus         1 latvd    5 (6)
+                      |||+|
+T Consensus        29 LaT~~   33 (195)
+T 2I51_A           29 LATVQ   33 (195)
+T ss_dssp             EEEEC
+T ss_pred             EEEeC
+
+
+No 5
+>1CI0_A OXIDASE; OXIDASE, B6 METABOLISM, Structural Genomics; HET: FMN; 2.7A {Saccharomyces cerevisiae} SCOP: b.45.1.1
+Probab=7.63  E-value=4.1e+02  Score=11.32  Aligned_cols=5  Identities=0%  Similarity=0.494  Sum_probs=0.0  Template_Neff=7.900
+
+Q LATVDV            1 LATVD    5 (6)
+Q Consensus         1 latvd    5 (6)
+                      |||+|
+T Consensus        60 LATv~   64 (228)
+T 1CI0_A           60 FSSAE   64 (228)
+T ss_dssp             EEEEE
+T ss_pred             EEeee
+
+
+No 6
+>5JAB_A Biliverdin reductase Rv2074; biliverdin reductase, split beta-barrel fold; HET: 6J4; 1.65A {Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv)}
+Probab=7.55  E-value=4.2e+02  Score=9.32  Aligned_cols=5  Identities=40%  Similarity=0.574  Sum_probs=0.0  Template_Neff=10.200
+
+Q LATVDV            1 LATVD    5 (6)
+Q Consensus         1 latvd    5 (6)
+                      |||++
+T Consensus        26 lat~~   30 (135)
+T 5JAB_A           26 LTTLR   30 (135)
+T ss_dssp             EEEEC
+T ss_pred             EEEeC
+
+
+No 7
+>3A6R_B Electron transport, Flavoprotein, FMN; HET: FMN; 1.2A {Desulfovibrio vulgaris}
+Probab=7.54  E-value=4.2e+02  Score=9.19  Aligned_cols=5  Identities=40%  Similarity=0.421  Sum_probs=0.0  Template_Neff=10.100
+
+Q LATVDV            1 LATVD    5 (6)
+Q Consensus         1 latvd    5 (6)
+                      |||+|
+T Consensus        18 lat~~   22 (122)
+T 3A6R_B           18 IATQG   22 (122)
+T ss_dssp             EEEEE
+T ss_pred             EEEec
+
+
+No 8
+>6ECI_P Pyridoxamine 5'-phosphate oxidase-related, FMN-binding protein; flavin adenine dinucleotide (FAD) binding; HET: FAD; 2.69A {Mycobacterium smegmatis (strain ATCC 700084 / mc(2)155)}
+Probab=7.39  E-value=4.3e+02  Score=9.20  Aligned_cols=5  Identities=20%  Similarity=0.169  Sum_probs=0.0  Template_Neff=10.300
+
+Q LATVDV            1 LATVD    5 (6)
+Q Consensus         1 latvd    5 (6)
+                      |||++
+T Consensus        24 Lat~~   28 (132)
+T 6ECI_P           24 IVTTV   28 (132)
+T ss_dssp             EEEEE
+T ss_pred             EEEEe
+
+
+No 9
+>6H00_A Pyridoxine-5'-phosphate oxidase (E.C.1.4.3.5); PNPO, FMN-binding, PNP-oxidase activity, OXIDOREDUCTASE; HET: FMN, SO4, EDO; 1.66A {Homo sapiens}
+Probab=7.38  E-value=4.3e+02  Score=11.73  Aligned_cols=5  Identities=60%  Similarity=0.594  Sum_probs=0.0  Template_Neff=7.400
+
+Q LATVDV            1 LATVD    5 (6)
+Q Consensus         1 latvd    5 (6)
+                      |||+|
+T Consensus        83 LATvd   87 (261)
+T 6H00_A           83 LATCT   87 (261)
+T ss_dssp             EEEEC
+T ss_pred             EEEEC
+
+
+No 10
+>3F7E_B Pyridoxamine 5'-phosphate oxidase-related, FMN-binding; F420 dependent reductase, UNKNOWN FUNCTION; HET: MSE; 1.23A {Mycobacterium smegmatis}
+Probab=7.30  E-value=4.4e+02  Score=9.03  Aligned_cols=5  Identities=80%  Similarity=0.800  Sum_probs=0.0  Template_Neff=10.600
+
+Q LATVDV            1 LATVD    5 (6)
+Q Consensus         1 latvd    5 (6)
+                      |+|++
+T Consensus        20 lat~~   24 (131)
+T 3F7E_B           20 LATVR   24 (131)
+T ss_dssp             EEEEC
+T ss_pred             EEEEC
+
+

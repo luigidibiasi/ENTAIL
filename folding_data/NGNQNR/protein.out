@@ -1,0 +1,149 @@
+Query         NGNQNR
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 00:26:59 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NGNQNR/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NGNQNR/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 1Y4M_A HERV-FRD_6p24.1 proviru   7.9 3.9E+02  0.0044    9.9   0.0    3    4-6      25-27  (53)
+  2 7C7A_L Ribonucleases P/MRP pro   7.8   4E+02  0.0045   11.4   0.0    6    1-6      25-30  (201)
+  3 1MOF_A MOLONEY MURINE LEUKEMIA   7.8   4E+02  0.0045   10.0   0.0    3    4-6      27-29  (55)
+  4 5L09_A Quorum-sensing transcri   7.6 4.1E+02  0.0046    9.7   0.0    6    1-6     167-172 (179)
+  5 6XNX_A V(D)J recombination-act   7.6 4.2E+02  0.0046   13.6   0.0    6    1-6     592-597 (750)
+  6 3JBW_C V(D)J recombination-act   7.3 4.4E+02  0.0049   13.7   0.0    6    1-6     605-610 (764)
+  7 3JBX_A V(D)J recombination-act   7.3 4.4E+02  0.0049   13.7   0.0    6    1-6     605-610 (764)
+  8 5HE9_E Helicase loader, Phage    6.9 4.7E+02  0.0052   10.6   0.0    6    1-6      30-35  (56)
+  9 2NZZ_A Penetratin conjugated G   6.9 4.8E+02  0.0053    7.9   0.0    3    4-6       8-10  (37)
+ 10 5NDG_N9 40S ribosomal protein    6.8 4.8E+02  0.0053   10.3   0.0    6    1-6       8-13  (58)
+
+No 1
+>1Y4M_A HERV-FRD_6p24.1 provirus ancestral Env polyprotein; Coat protein, membrane fusion, endogenous; 1.6A {Homo sapiens} SCOP: h.3.2.1
+Probab=7.90  E-value=3.9e+02  Score=9.93  Aligned_cols=3  Identities=100%  Similarity=1.243  Sum_probs=0.0  Template_Neff=5.300
+
+Q NGNQNR            4 QNR    6 (6)
+Q Consensus         4 qnr    6 (6)
+                      |||
+T Consensus        25 QNR   27 (53)
+T 1Y4M_A           25 QNR   27 (53)
+T ss_dssp             HHH
+T ss_pred             Hhh
+
+
+No 2
+>7C7A_L Ribonucleases P/MRP protein subunit POP1; Ribonuclease MRP, RNA-protein complex, RNA; 2.8A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=7.78  E-value=4e+02  Score=11.41  Aligned_cols=6  Identities=67%  Similarity=0.839  Sum_probs=0.0  Template_Neff=7.300
+
+Q NGNQNR            1 NGNQNR    6 (6)
+Q Consensus         1 ngnqnr    6 (6)
+                      |-||-|
+T Consensus        25 nKNQHR   30 (201)
+T 7C7A_L           25 NKNQHR   30 (201)
+T ss_dssp             HHHHSS
+T ss_pred             cCCchh
+
+
+No 3
+>1MOF_A MOLONEY MURINE LEUKEMIA VIRUS P15; GLYCOPROTEIN, COAT PROTEIN, POLYPROTEIN, TRANSMEMBRANE; 1.7A {Moloney murine leukemia virus} SCOP: h.3.2.1
+Probab=7.77  E-value=4e+02  Score=9.98  Aligned_cols=3  Identities=100%  Similarity=1.243  Sum_probs=0.0  Template_Neff=5.300
+
+Q NGNQNR            4 QNR    6 (6)
+Q Consensus         4 qnr    6 (6)
+                      |||
+T Consensus        27 QNR   29 (55)
+T 1MOF_A           27 QNR   29 (55)
+T ss_dssp             HHH
+T ss_pred             HhH
+
+
+No 4
+>5L09_A Quorum-sensing transcriptional activator; alpha-beta structure, pheromone binding protein; HET: 482, ACY, SO4, MSE, EDO; 2.0A {Yersinia enterocolitica serotype O:8 / biotype 1B (strain NCTC 13174 / 8081)}
+Probab=7.63  E-value=4.1e+02  Score=9.72  Aligned_cols=6  Identities=50%  Similarity=0.839  Sum_probs=0.0  Template_Neff=10.400
+
+Q NGNQNR            1 NGNQNR    6 (6)
+Q Consensus         1 ngnqnr    6 (6)
+                      |.|.||
+T Consensus       167 ~~~~~~  172 (179)
+T 5L09_A          167 DKNENR  172 (179)
+T ss_dssp             ------
+T ss_pred             CCCccC
+
+
+No 5
+>6XNX_A V(D)J recombination-activating protein 1, V(D)J; DNA Transposase, RECOMBINATION; 2.7A {Mus musculus}
+Probab=7.55  E-value=4.2e+02  Score=13.59  Aligned_cols=6  Identities=67%  Similarity=0.889  Sum_probs=0.0  Template_Neff=7.500
+
+Q NGNQNR            1 NGNQNR    6 (6)
+Q Consensus         1 ngnqnr    6 (6)
+                      +||+-|
+T Consensus       592 ~GN~aR  597 (750)
+T 6XNX_A          592 NGNFAR  597 (750)
+T ss_dssp             CHHHHH
+T ss_pred             CchHHH
+
+
+No 6
+>3JBW_C V(D)J recombination-activating protein 1 (E.C.3.1.-.-; RAG1, RAG2, V(D)J recombination, Paired; 4.631A {Danio rerio}
+Probab=7.25  E-value=4.4e+02  Score=13.74  Aligned_cols=6  Identities=67%  Similarity=0.938  Sum_probs=0.0  Template_Neff=7.100
+
+Q NGNQNR            1 NGNQNR    6 (6)
+Q Consensus         1 ngnqnr    6 (6)
+                      +||+-|
+T Consensus       605 ~GN~aR  610 (764)
+T 3JBW_C          605 NGNYAR  610 (764)
+T ss_dssp             CHHHHH
+T ss_pred             CChHHH
+
+
+No 7
+>3JBX_A V(D)J recombination-activating protein 1 (E.C.3.1.-.-; RAG1, RAG2, V(D)J recombination, Signal; 3.4A {Danio rerio}
+Probab=7.25  E-value=4.4e+02  Score=13.74  Aligned_cols=6  Identities=67%  Similarity=0.938  Sum_probs=0.0  Template_Neff=7.100
+
+Q NGNQNR            1 NGNQNR    6 (6)
+Q Consensus         1 ngnqnr    6 (6)
+                      +||+-|
+T Consensus       605 ~GN~aR  610 (764)
+T 3JBX_A          605 NGNYAR  610 (764)
+T ss_dssp             CHHHHH
+T ss_pred             CChHHH
+
+
+No 8
+>5HE9_E Helicase loader, Phage protein; inhibitor protein complex, PROTEIN BINDING; HET: ADP, MSE; 1.9A {Staphylococcus aureus}
+Probab=6.91  E-value=4.7e+02  Score=10.63  Aligned_cols=6  Identities=50%  Similarity=1.093  Sum_probs=0.0  Template_Neff=3.000
+
+Q NGNQNR            1 NGNQNR    6 (6)
+Q Consensus         1 ngnqnr    6 (6)
+                      +||+.+
+T Consensus        30 ~Gd~~~   35 (56)
+T 5HE9_E           30 QGDENR   35 (56)
+T ss_dssp             TTCHHH
+T ss_pred             cCCHHH
+
+
+No 9
+>2NZZ_A Penetratin conjugated Gas (374-394) peptide; conformational analysis, G protein, Gas; NMR {N/A}
+Probab=6.86  E-value=4.8e+02  Score=7.85  Aligned_cols=3  Identities=100%  Similarity=1.243  Sum_probs=0.0  Template_Neff=8.200
+
+Q NGNQNR            4 QNR    6 (6)
+Q Consensus         4 qnr    6 (6)
+                      |||
+T Consensus         8 QNr   10 (37)
+T 2NZZ_A            8 QNR   10 (37)
+T ss_dssp             TCS
+T ss_pred             hHh
+
+
+No 10
+>5NDG_N9 40S ribosomal protein S0-A, 40S; translation, ribosome, 40S, 60S, 80S; HET: GET, MG, ZN; 3.7A {Saccharomyces cerevisiae}
+Probab=6.83  E-value=4.8e+02  Score=10.25  Aligned_cols=6  Identities=50%  Similarity=0.556  Sum_probs=0.0  Template_Neff=4.300
+
+Q NGNQNR            1 NGNQNR    6 (6)
+Q Consensus         1 ngnqnr    6 (6)
+                      +-||||
+T Consensus         8 ~hNQ~~   13 (58)
+T 5NDG_N9           8 AHNQTR   13 (58)
+T ss_pred             hhhhcH
+
+

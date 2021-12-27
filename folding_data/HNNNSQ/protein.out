@@ -1,0 +1,146 @@
+Query         HNNNSQ
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 06:46:41 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/HNNNSQ/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/HNNNSQ/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3TVR_A Polyketide cyclase; Hel  87.8     0.3 3.3E-06   16.7   0.0    6    1-6       1-6   (173)
+  2 7LMA_H La-related protein 7 ho   4.9 7.4E+02  0.0081   12.2   0.0    5    2-6      47-51  (542)
+  3 6EKC_N8 Ribulose bisphosphate    4.7 7.7E+02  0.0085    8.8   0.0    5    2-6       4-8   (81)
+  4 7AIH_At mL94, mL89, Ribosomal    4.4 8.4E+02  0.0093   12.1   0.0    4    1-4      66-69  (183)
+  5 7AM2_At Ribosomal protein L3-l   4.4 8.4E+02  0.0093   12.1   0.0    4    1-4      66-69  (183)
+  6 3RIO_A PtsGHI operon antitermi   4.4 8.4E+02  0.0093    9.7   0.0    3    2-4      22-24  (180)
+  7 3H9W_A Diguanylate cyclase wit   4.2 8.8E+02  0.0097    6.3   0.0    6    1-6     110-115 (115)
+  8 6YXY_BT bL28m, uL29m, uL30m, b   4.2   9E+02    0.01   12.1   0.0    4    1-4      66-69  (191)
+  9 7AOI_BT bL28m, uL29m, uL30m, b   4.1   9E+02    0.01   11.9   0.0    4    1-4      57-60  (167)
+ 10 5D6V_A Carboxysome shell prote   4.0 9.3E+02    0.01    9.8   0.0    5    1-5       6-10  (97)
+
+No 1
+>3TVR_A Polyketide cyclase; Helix-grip fold, polyketide aromatase/cyclase, polyketide; 1.8A {Streptomyces coelicolor}
+Probab=87.77  E-value=0.3  Score=16.73  Aligned_cols=6  Identities=33%  Similarity=0.667  Sum_probs=4.3  Template_Neff=11.600
+
+Q HNNNSQ            1 HNNNSQ    6 (6)
+Q Consensus         1 hnnnsq    6 (6)
+                      ||++||
+T Consensus         1 ~~~~~~    6 (173)
+T 3TVR_A            1 HHHHSS    6 (173)
+T ss_dssp             CCCCCC
+T ss_pred             CCCCcC
+Confidence            677776
+
+
+No 2
+>7LMA_H La-related protein 7 homolog, Telomerase; telomerase, polymerase, reverse transcriptase, ribonucleoprotein;{Tetrahymena thermophila}
+Probab=4.87  E-value=7.4e+02  Score=12.17  Aligned_cols=5  Identities=60%  Similarity=0.787  Sum_probs=0.0  Template_Neff=7.700
+
+Q HNNNSQ            2 NNNSQ    6 (6)
+Q Consensus         2 nnnsq    6 (6)
+                      |++||
+T Consensus        47 ~~~~~   51 (542)
+T 7LMA_H           47 NDESQ   51 (542)
+T ss_dssp             -----
+T ss_pred             ccHHH
+
+
+No 3
+>6EKC_N8 Ribulose bisphosphate carboxylase large chain; zinc finger, assembly chaperone, assembly; HET: ZN; 2.63A {Thermosynechococcus elongatus (strain BP-1)}
+Probab=4.71  E-value=7.7e+02  Score=8.83  Aligned_cols=5  Identities=80%  Similarity=0.966  Sum_probs=0.0  Template_Neff=7.900
+
+Q HNNNSQ            2 NNNSQ    6 (6)
+Q Consensus         2 nnnsq    6 (6)
+                      |||.|
+T Consensus         4 ~~~~~    8 (81)
+T 6EKC_N8           4 NNNPQ    8 (81)
+T ss_pred             CCCCC
+
+
+No 4
+>7AIH_At mL94, mL89, Ribosomal protein L3-like; Ribosome, Mitochondria, Kinetoplastid; HET: NAD; 3.6A {Leishmania major}
+Probab=4.41  E-value=8.4e+02  Score=12.15  Aligned_cols=4  Identities=75%  Similarity=0.767  Sum_probs=0.0  Template_Neff=1.700
+
+Q HNNNSQ            1 HNNN    4 (6)
+Q Consensus         1 hnnn    4 (6)
+                      ||||
+T Consensus        66 ~NNN   69 (183)
+T 7AIH_At          66 YNNN   69 (183)
+T ss_pred             hhcc
+
+
+No 5
+>7AM2_At Ribosomal protein L3-like protein, uL4m; RIBOSOME, Mitochondria, Kinetoplastid; HET: GTP, ATP; 3.4A {Leishmania tarentolae}
+Probab=4.41  E-value=8.4e+02  Score=12.15  Aligned_cols=4  Identities=75%  Similarity=0.767  Sum_probs=0.0  Template_Neff=1.700
+
+Q HNNNSQ            1 HNNN    4 (6)
+Q Consensus         1 hnnn    4 (6)
+                      ||||
+T Consensus        66 ~NNN   69 (183)
+T 7AM2_At          66 YNNN   69 (183)
+T ss_pred             hhcc
+
+
+No 6
+>3RIO_A PtsGHI operon antiterminator; twisted beta sheet, four helix; HET: GOL; 1.99A {Bacillus subtilis}
+Probab=4.38  E-value=8.4e+02  Score=9.70  Aligned_cols=3  Identities=100%  Similarity=1.265  Sum_probs=0.0  Template_Neff=8.700
+
+Q HNNNSQ            2 NNN    4 (6)
+Q Consensus         2 nnn    4 (6)
+                      |||
+T Consensus        22 Nnn   24 (180)
+T 3RIO_A           22 NNN   24 (180)
+T ss_dssp             ETT
+T ss_pred             cCc
+
+
+No 7
+>3H9W_A Diguanylate cyclase with PAS/PAC sensor; alpha-beta protein., Structural Genomics, PSI-2; 1.9A {Marinobacter aquaeolei}
+Probab=4.23  E-value=8.8e+02  Score=6.26  Aligned_cols=6  Identities=17%  Similarity=0.589  Sum_probs=0.0  Template_Neff=14.400
+
+Q HNNNSQ            1 HNNNSQ    6 (6)
+Q Consensus         1 hnnnsq    6 (6)
+                      +-+++|
+T Consensus       110 ~~~~~~  115 (115)
+T 3H9W_A          110 HHHHHH  115 (115)
+T ss_dssp             GC----
+T ss_pred             ccCCCC
+
+
+No 8
+>6YXY_BT bL28m, uL29m, uL30m, bL32m, bL35m; mitoribosome, assembly, LSU, RIBOSOME; HET: ATP, PM8, MG, SPD, NAD, GTP; 3.1A {Trypanosoma brucei brucei}
+Probab=4.15  E-value=9e+02  Score=12.12  Aligned_cols=4  Identities=100%  Similarity=1.448  Sum_probs=0.0  Template_Neff=1.700
+
+Q HNNNSQ            1 HNNN    4 (6)
+Q Consensus         1 hnnn    4 (6)
+                      ||||
+T Consensus        66 ~NNN   69 (191)
+T 6YXY_BT          66 HNNN   69 (191)
+T ss_pred             cccc
+
+
+No 9
+>7AOI_BT bL28m, uL29m, uL30m, bL32m, bL33m; mitochondria, translation, trypanosoma, assembly, evolution; HET: ADP, GTP, NAD, 4HH; 3.5A {Trypanosoma brucei}
+Probab=4.14  E-value=9e+02  Score=11.90  Aligned_cols=4  Identities=100%  Similarity=1.448  Sum_probs=0.0  Template_Neff=1.600
+
+Q HNNNSQ            1 HNNN    4 (6)
+Q Consensus         1 hnnn    4 (6)
+                      ||||
+T Consensus        57 ~NNN   60 (167)
+T 7AOI_BT          57 HNNN   60 (167)
+T ss_pred             cccc
+
+
+No 10
+>5D6V_A Carboxysome shell protein; Bacterial Microcompartment shell protein, STRUCTURAL; 1.5A {Salmonella typhimurium}
+Probab=4.04  E-value=9.3e+02  Score=9.77  Aligned_cols=5  Identities=60%  Similarity=1.059  Sum_probs=0.0  Template_Neff=5.800
+
+Q HNNNSQ            1 HNNNS    5 (6)
+Q Consensus         1 hnnns    5 (6)
+                      |.||+
+T Consensus         6 ~~~~~   10 (97)
+T 5D6V_A            6 HHNNA   10 (97)
+T ss_dssp             --CCE
+T ss_pred             CCCCc
+
+

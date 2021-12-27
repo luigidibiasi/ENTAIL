@@ -1,0 +1,149 @@
+Query         SSIDLT
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 16:34:06 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/SSIDLT/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/SSIDLT/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 1OGH_B BIFUNCTIONAL DEAMINASE/  18.7 1.1E+02  0.0013   12.8   0.0    6    1-6      30-35  (204)
+  2 1PKH_A Bifunctional deaminase/  18.7 1.1E+02  0.0013   12.8   0.0    6    1-6      30-35  (204)
+  3 2RPQ_B Small ubiquitin-related  18.6 1.2E+02  0.0013   12.3   0.0    4    3-6      35-38  (49)
+  4 2JZK_A Cyanovirin-N homolog; C  18.6 1.2E+02  0.0013   11.3   0.0    5    1-5      36-40  (106)
+  5 1N02_A Cyanovirin-N; VIRUS/VIR  18.1 1.2E+02  0.0013   10.9   0.0    5    1-5      34-38  (102)
+  6 2QLP_E Deoxycytidine triphosph  18.1 1.2E+02  0.0013   11.7   0.0    6    1-6      30-35  (161)
+  7 4J4E_D Cyanovirin-N; CVNH fold  18.1 1.2E+02  0.0013   11.1   0.0    5    1-5      32-36  (101)
+  8 5K79_A Cyanovirin-N domain pro  17.9 1.2E+02  0.0014   11.1   0.0    5    1-5      33-37  (108)
+  9 2L2F_A Cyanovirin-N HOMOLOG; C  17.8 1.2E+02  0.0014   11.0   0.0    5    1-5      33-37  (108)
+ 10 2QXX_A Deoxycytidine triphosph  16.3 1.4E+02  0.0016   12.0   0.0    6    1-6      30-35  (190)
+
+No 1
+>1OGH_B BIFUNCTIONAL DEAMINASE/DIPHOSPHATASE (E.C.3.5.4.13, 3.6.1.23); BIFUNCTIONAL ENZYME, NUCLEOTIDE METABOLISM, DCTP; 1.88A {METHANOCALDOCOCCUS JANNASCHII} SCOP: b.85.4.1
+Probab=18.74  E-value=1.1e+02  Score=12.81  Aligned_cols=6  Identities=50%  Similarity=0.589  Sum_probs=0.0  Template_Neff=7.700
+
+Q SSIDLT            1 SSIDLT    6 (6)
+Q Consensus         1 ssidlt    6 (6)
+                      +|+||+
+T Consensus        30 aS~DL~   35 (204)
+T 1OGH_B           30 CSYDVT   35 (204)
+T ss_dssp             SCEEEE
+T ss_pred             CEEEEE
+
+
+No 2
+>1PKH_A Bifunctional deaminase/diphosphatase (E.C.3.5.4.13, 3.6.1.23); DCTP DEAMINASE, DUTPASE, DCD-DUT, MJ0430; HET: EDO; 1.42A {Methanocaldococcus jannaschii} SCOP: b.85.4.1
+Probab=18.74  E-value=1.1e+02  Score=12.81  Aligned_cols=6  Identities=50%  Similarity=0.589  Sum_probs=0.0  Template_Neff=7.700
+
+Q SSIDLT            1 SSIDLT    6 (6)
+Q Consensus         1 ssidlt    6 (6)
+                      +|+||+
+T Consensus        30 aS~DL~   35 (204)
+T 1PKH_A           30 CSYDVT   35 (204)
+T ss_dssp             SCEEEE
+T ss_pred             CEEEEE
+
+
+No 3
+>2RPQ_B Small ubiquitin-related modifier 2, Activating; SUMO, SIM, Nucleus, Ubl conjugation; NMR {Homo sapiens}
+Probab=18.58  E-value=1.2e+02  Score=12.25  Aligned_cols=4  Identities=100%  Similarity=1.265  Sum_probs=0.0  Template_Neff=2.300
+
+Q SSIDLT            3 IDLT    6 (6)
+Q Consensus         3 idlt    6 (6)
+                      ||||
+T Consensus        35 IDLT   38 (49)
+T 2RPQ_B           35 IDLT   38 (49)
+T ss_pred             eEce
+
+
+No 4
+>2JZK_A Cyanovirin-N homolog; CVNH, ANTIVIRAL PROTEIN, Carbohydrate binding; NMR {Tuber borchii}
+Probab=18.56  E-value=1.2e+02  Score=11.26  Aligned_cols=5  Identities=60%  Similarity=0.926  Sum_probs=0.0  Template_Neff=8.300
+
+Q SSIDLT            1 SSIDL    5 (6)
+Q Consensus         1 ssidl    5 (6)
+                      |+|||
+T Consensus        36 s~ldL   40 (106)
+T 2JZK_A           36 SELDL   40 (106)
+T ss_dssp             EEEEG
+T ss_pred             cEEEc
+
+
+No 5
+>1N02_A Cyanovirin-N; VIRUS/VIRAL PROTEIN INHIBITOR, Viral protein; NMR {Nostoc ellipsosporum} SCOP: b.89.1.1
+Probab=18.09  E-value=1.2e+02  Score=10.94  Aligned_cols=5  Identities=40%  Similarity=0.787  Sum_probs=0.0  Template_Neff=8.700
+
+Q SSIDLT            1 SSIDL    5 (6)
+Q Consensus         1 ssidl    5 (6)
+                      |+|||
+T Consensus        34 s~ldL   38 (102)
+T 1N02_A           34 TKINL   38 (102)
+T ss_dssp             EEEEC
+T ss_pred             eEEEC
+
+
+No 6
+>2QLP_E Deoxycytidine triphosphate deaminase (E.C.3.5.4.13); distorted beta barrel, Hydrolase, Nucleotide; HET: 1PE; 2.47A {Mycobacterium tuberculosis}
+Probab=18.08  E-value=1.2e+02  Score=11.68  Aligned_cols=6  Identities=67%  Similarity=0.816  Sum_probs=0.0  Template_Neff=8.900
+
+Q SSIDLT            1 SSIDLT    6 (6)
+Q Consensus         1 ssidlt    6 (6)
+                      +|+||+
+T Consensus        30 ~s~Dl~   35 (161)
+T 2QLP_E           30 SSIDVR   35 (161)
+T ss_dssp             TEEEEE
+T ss_pred             ceEEEE
+
+
+No 7
+>4J4E_D Cyanovirin-N; CVNH fold, carbohydrate binding protein; 2.4A {Nostoc ellipsosporum}
+Probab=18.08  E-value=1.2e+02  Score=11.12  Aligned_cols=5  Identities=100%  Similarity=1.139  Sum_probs=0.0  Template_Neff=8.300
+
+Q SSIDLT            1 SSIDL    5 (6)
+Q Consensus         1 ssidl    5 (6)
+                      |+|||
+T Consensus        32 s~ldL   36 (101)
+T 4J4E_D           32 SSIDL   36 (101)
+T ss_dssp             EEEEC
+T ss_pred             EEEEC
+
+
+No 8
+>5K79_A Cyanovirin-N domain protein; Sugar binding lectiN, HIV-inactivating, antiviral; HET: PEG; 1.6A {Cyanothece sp. (strain PCC 7424)}
+Probab=17.89  E-value=1.2e+02  Score=11.07  Aligned_cols=5  Identities=60%  Similarity=0.926  Sum_probs=0.0  Template_Neff=8.600
+
+Q SSIDLT            1 SSIDL    5 (6)
+Q Consensus         1 ssidl    5 (6)
+                      |+|||
+T Consensus        33 s~ldL   37 (108)
+T 5K79_A           33 TSINL   37 (108)
+T ss_dssp             EEEEG
+T ss_pred             eEEEC
+
+
+No 9
+>2L2F_A Cyanovirin-N HOMOLOG; Cyanovirin-n homolog, lectin, Carbohydrate binding; NMR {Gibberella zeae}
+Probab=17.82  E-value=1.2e+02  Score=11.02  Aligned_cols=5  Identities=60%  Similarity=1.012  Sum_probs=0.0  Template_Neff=8.700
+
+Q SSIDLT            1 SSIDL    5 (6)
+Q Consensus         1 ssidl    5 (6)
+                      ++|||
+T Consensus        33 s~ldL   37 (108)
+T 2L2F_A           33 STLDL   37 (108)
+T ss_dssp             EEEES
+T ss_pred             eEEEC
+
+
+No 10
+>2QXX_A Deoxycytidine triphosphate deaminase (E.C.3.5.4.13); distorted beta barrel, Hydrolase, Nucleotide; HET: 1PE, TTP; 2.0A {Mycobacterium tuberculosis}
+Probab=16.28  E-value=1.4e+02  Score=11.95  Aligned_cols=6  Identities=67%  Similarity=0.816  Sum_probs=0.0  Template_Neff=8.600
+
+Q SSIDLT            1 SSIDLT    6 (6)
+Q Consensus         1 ssidlt    6 (6)
+                      +|+||+
+T Consensus        30 ~s~DL~   35 (190)
+T 2QXX_A           30 SSIDVR   35 (190)
+T ss_dssp             TEEEEE
+T ss_pred             ceEEEe
+
+

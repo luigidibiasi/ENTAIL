@@ -1,0 +1,150 @@
+Query         SALALQ
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 13:11:06 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/SALALQ/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/SALALQ/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6CZJ_B b10; beta barrel, Rosse   7.2 4.5E+02  0.0049   12.1   0.0    6    1-6       1-6   (109)
+  2 5O7H_F CRISPR-associated prote   4.5 8.2E+02  0.0091   13.1   0.0    6    1-6     217-222 (336)
+  3 3F6Z_D Lysozyme C (E.C.3.2.1.1   4.4 8.4E+02  0.0093    9.2   0.0    6    1-6       4-9   (101)
+  4 1BVY_F PROTEIN (CYTOCHROME P45   4.3 8.6E+02  0.0095    9.6   0.0    6    1-6     182-187 (191)
+  5 4DJG_A Plectin-related protein   4.2 8.8E+02  0.0097    9.8   0.0    5    2-6      41-45  (52)
+  6 6J2C_W Proteasome subunit alph   4.0 9.3E+02    0.01    9.8   0.0    5    2-6     229-233 (268)
+  7 5ET3_B Fullerene Organizing Pr   3.8 9.9E+02   0.011    9.0   0.0    4    3-6      19-22  (30)
+  8 5HKR_A fullerene organizing pr   3.8 9.9E+02   0.011    9.0   0.0    4    3-6      19-22  (30)
+  9 6NBP_A dTDP-4-amino-4,6-dideox   3.8   1E+03   0.011   10.3   0.0    6    1-6       8-13  (263)
+ 10 3VZA_E Uncharacterized protein   3.8   1E+03   0.011    9.4   0.0    4    3-6      30-33  (39)
+
+No 1
+>6CZJ_B b10; beta barrel, Rossetta, computational, de; HET: SO4; 2.1A {synthetic construct}
+Probab=7.19  E-value=4.5e+02  Score=12.10  Aligned_cols=6  Identities=83%  Similarity=0.673  Sum_probs=3.1  Template_Neff=1.000
+
+Q SALALQ            1 SALALQ    6 (6)
+Q Consensus         1 salalq    6 (6)
+                      ||||-|
+T Consensus         1 salaqq    6 (109)
+T 6CZJ_B            1 SALAQQ    6 (109)
+T ss_dssp             CCHHHH
+T ss_pred             Chhhhc
+Confidence            456543
+
+
+No 2
+>5O7H_F CRISPR-associated protein, Csy4 family, Uncharacterized; RNA SURVEILLANCE, ADAPTIVE IMMUNITY, CRISPR; HET: MSE; 3.0A {Shewanella putrefaciens CN-32}
+Probab=4.46  E-value=8.2e+02  Score=13.10  Aligned_cols=6  Identities=83%  Similarity=0.728  Sum_probs=0.0  Template_Neff=2.500
+
+Q SALALQ            1 SALALQ    6 (6)
+Q Consensus         1 salalq    6 (6)
+                      |||-||
+T Consensus       217 SALYLQ  222 (336)
+T 5O7H_F          217 SALYLQ  222 (336)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 3
+>3F6Z_D Lysozyme C (E.C.3.2.1.17), Putative uncharacterized; beta barrel, Allergen, Antimicrobial, Bacteriolytic; 2.5A {Gallus gallus}
+Probab=4.40  E-value=8.4e+02  Score=9.18  Aligned_cols=6  Identities=17%  Similarity=-0.114  Sum_probs=0.0  Template_Neff=7.700
+
+Q SALALQ            1 SALALQ    6 (6)
+Q Consensus         1 salalq    6 (6)
+                      +|++++
+T Consensus         4 ~~~~~~    9 (101)
+T 3F6Z_D            4 QVDYLA    9 (101)
+T ss_dssp             CCEEEE
+T ss_pred             ccceee
+
+
+No 4
+>1BVY_F PROTEIN (CYTOCHROME P450 (BM-3)) (1.14.14.1); FATTY ACID MONOOXYGENASE, HEMOPROTEIN, FLAVOPROTEIN; HET: HEM, FMN, EDO; 2.03A {Bacillus megaterium} SCOP: c.23.5.1
+Probab=4.30  E-value=8.6e+02  Score=9.59  Aligned_cols=6  Identities=67%  Similarity=0.811  Sum_probs=0.0  Template_Neff=9.100
+
+Q SALALQ            1 SALALQ    6 (6)
+Q Consensus         1 salalq    6 (6)
+                      |.|.||
+T Consensus       182 ~~~~~~  187 (191)
+T 1BVY_F          182 STLSLQ  187 (191)
+T ss_dssp             ----GG
+T ss_pred             ceeEEE
+
+
+No 5
+>4DJG_A Plectin-related protein; Coiled-coil, four helix bundle, dimerization; 1.9A {Arabidopsis thaliana}
+Probab=4.23  E-value=8.8e+02  Score=9.77  Aligned_cols=5  Identities=80%  Similarity=0.886  Sum_probs=0.0  Template_Neff=2.900
+
+Q SALALQ            2 ALALQ    6 (6)
+Q Consensus         2 alalq    6 (6)
+                      +||.|
+T Consensus        41 aLavq   45 (52)
+T 4DJG_A           41 ALAVQ   45 (52)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 6
+>6J2C_W Proteasome subunit alpha type-1 (E.C.3.4.25.1); Proteasome, K48-Ub4, Ub-bound, cryo-EM, HYDROLASE;{Saccharomyces cerevisiae S288c}
+Probab=4.04  E-value=9.3e+02  Score=9.84  Aligned_cols=5  Identities=60%  Similarity=0.873  Sum_probs=0.0  Template_Neff=9.600
+
+Q SALALQ            2 ALALQ    6 (6)
+Q Consensus         2 alalq    6 (6)
+                      |+||+
+T Consensus       229 a~alr  233 (268)
+T 6J2C_W          229 AMALR  233 (268)
+T ss_pred             HHHHH
+
+
+No 7
+>5ET3_B Fullerene Organizing Protein (C60Sol-COP-3); de novo protein, fullerene, complex; HET: 60C; 1.671A {N/A}
+Probab=3.84  E-value=9.9e+02  Score=8.96  Aligned_cols=4  Identities=100%  Similarity=1.090  Sum_probs=0.0  Template_Neff=1.000
+
+Q SALALQ            3 LALQ    6 (6)
+Q Consensus         3 lalq    6 (6)
+                      ||||
+T Consensus        19 lalq   22 (30)
+T 5ET3_B           19 LALQ   22 (30)
+T ss_dssp             HHHH
+T ss_pred             HHHH
+
+
+No 8
+>5HKR_A fullerene organizing protein; Fullerene protein complex, De novo; HET: 60C; 2.35A {N/A}
+Probab=3.84  E-value=9.9e+02  Score=8.96  Aligned_cols=4  Identities=100%  Similarity=1.090  Sum_probs=0.0  Template_Neff=1.000
+
+Q SALALQ            3 LALQ    6 (6)
+Q Consensus         3 lalq    6 (6)
+                      ||||
+T Consensus        19 lalq   22 (30)
+T 5HKR_A           19 LALQ   22 (30)
+T ss_dssp             HHHH
+T ss_pred             HHHH
+
+
+No 9
+>6NBP_A dTDP-4-amino-4,6-dideoxyglucose formyltransferase; sugar biosynthesis, o-antigen, pantoea, TRANSFERASE; HET: FON, 0FX; 1.7A {Pantoea ananatis}
+Probab=3.83  E-value=1e+03  Score=10.34  Aligned_cols=6  Identities=33%  Similarity=0.313  Sum_probs=0.0  Template_Neff=8.200
+
+Q SALALQ            1 SALALQ    6 (6)
+Q Consensus         1 salalq    6 (6)
+                      |+.+||
+T Consensus         8 ~~~~l~   13 (263)
+T 6NBP_A            8 SKVATD   13 (263)
+T ss_dssp             ------
+T ss_pred             HHHHHH
+
+
+No 10
+>3VZA_E Uncharacterized protein, Spc24 protein, Centromere; RWD domain, kinetochore component, chromosome; 1.898A {Gallus gallus}
+Probab=3.81  E-value=1e+03  Score=9.38  Aligned_cols=4  Identities=100%  Similarity=1.090  Sum_probs=0.0  Template_Neff=1.000
+
+Q SALALQ            3 LALQ    6 (6)
+Q Consensus         3 lalq    6 (6)
+                      ||||
+T Consensus        30 lalq   33 (39)
+T 3VZA_E           30 LALQ   33 (39)
+T ss_dssp             CCCC
+T ss_pred             ceee
+
+

@@ -1,0 +1,146 @@
+Query         NDFQKQ
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 23:11:54 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NDFQKQ/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NDFQKQ/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4UE4_C FTSQ SIGNAL SEQUENCE, S  27.2      60 0.00066   12.7   0.0    6    1-6       3-8   (102)
+  2 3J7A_V PROTEIN/RNA Complex; em  19.4 1.1E+02  0.0012   13.3   0.0    4    3-6      13-16  (161)
+  3 6ZJ3_SU Ribosomal protein eS1,  18.3 1.2E+02  0.0013   13.3   0.0    4    3-6      11-14  (164)
+  4 3JBP_V PROTEIN/RNA Complex; RI  18.1 1.2E+02  0.0013   13.1   0.0    4    3-6       8-11  (156)
+  5 5T2A_AE eL18, uL16, uL5, eL13,  17.9 1.2E+02  0.0014   13.5   0.0    4    3-6      23-26  (173)
+  6 6T4Q_SL 40S ribosomal protein   17.9 1.2E+02  0.0014   13.0   0.0    4    3-6      12-15  (144)
+  7 6RM3_SL0 uL2, uS2, uL15, eS26,  17.0 1.3E+02  0.0015   13.2   0.0    4    3-6      11-14  (158)
+  8 1QB2_B HUMAN PROTEIN SRP54M; A  16.8 1.3E+02  0.0015   11.9   0.0    6    1-6       5-10  (109)
+  9 1MFQ_C SIGNAL RECOGNITION PART  16.3 1.4E+02  0.0016   12.4   0.0    6    1-6      18-23  (129)
+ 10 2JQE_A Signal recognition 54 k  15.7 1.5E+02  0.0017   12.0   0.0    6    1-6      13-18  (119)
+
+No 1
+>4UE4_C FTSQ SIGNAL SEQUENCE, SIGNAL RECOGNITION; SIGNAL RECOGNITION PARTICLE (SRP), STALLED-RIBOSOME; 7.0A {BACILLUS SUBTILIS SUBSP. SUBTILIS STR. 168}
+Probab=27.21  E-value=60  Score=12.74  Aligned_cols=6  Identities=50%  Similarity=0.900  Sum_probs=2.8  Template_Neff=6.700
+
+Q NDFQKQ            1 NDFQKQ    6 (6)
+Q Consensus         1 ndfqkq    6 (6)
+                      +||.+|
+T Consensus         3 ~Df~~Q    8 (102)
+T 4UE4_C            3 DDFLEQ    8 (102)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            355543
+
+
+No 2
+>3J7A_V PROTEIN/RNA Complex; emetine, RIBOSOME-INHIBITOR complex; HET: MG, 34G; 3.2A {Plasmodium falciparum}
+Probab=19.44  E-value=1.1e+02  Score=13.35  Aligned_cols=4  Identities=75%  Similarity=1.140  Sum_probs=0.0  Template_Neff=5.800
+
+Q NDFQKQ            3 FQKQ    6 (6)
+Q Consensus         3 fqkq    6 (6)
+                      ||||
+T Consensus        13 ~~kq   16 (161)
+T 3J7A_V           13 YQKQ   16 (161)
+T ss_dssp             CCCC
+T ss_pred             HhcC
+
+
+No 3
+>6ZJ3_SU Ribosomal protein eS1, Ribosomal protein; Single particle cryo-EM RNA modifications; HET: JMC, B8H, MA6, PSU, B8N, A2M, UR3, 7MG, MIA, 5MC, 6MZ, OMG, OMU, OMC, 1MA, JMH; 3.15A {Euglena gracilis}
+Probab=18.26  E-value=1.2e+02  Score=13.30  Aligned_cols=4  Identities=75%  Similarity=1.173  Sum_probs=0.0  Template_Neff=5.700
+
+Q NDFQKQ            3 FQKQ    6 (6)
+Q Consensus         3 fqkq    6 (6)
+                      ||||
+T Consensus        11 ~~kq   14 (164)
+T 6ZJ3_SU          11 FHKQ   14 (164)
+T ss_pred             hhcc
+
+
+No 4
+>3JBP_V PROTEIN/RNA Complex; RIBOSOME; 6.7A {Plasmodium falciparum 3D7}
+Probab=18.12  E-value=1.2e+02  Score=13.06  Aligned_cols=4  Identities=75%  Similarity=1.140  Sum_probs=0.0  Template_Neff=6.000
+
+Q NDFQKQ            3 FQKQ    6 (6)
+Q Consensus         3 fqkq    6 (6)
+                      ||||
+T Consensus         8 ~~kq   11 (156)
+T 3JBP_V            8 YQKQ   11 (156)
+T ss_pred             hhcC
+
+
+No 5
+>5T2A_AE eL18, uL16, uL5, eL13, uL13; ribosome, Leishmania donovani; 2.9A {Leishmania donovani}
+Probab=17.89  E-value=1.2e+02  Score=13.50  Aligned_cols=4  Identities=50%  Similarity=1.099  Sum_probs=0.0  Template_Neff=5.400
+
+Q NDFQKQ            3 FQKQ    6 (6)
+Q Consensus         3 fqkq    6 (6)
+                      ||||
+T Consensus        23 ~qkQ   26 (173)
+T 5T2A_AE          23 YQRQ   26 (173)
+T ss_pred             HhcC
+
+
+No 6
+>6T4Q_SL 40S ribosomal protein S1-A, 40S; stalling dicodon codon pair, TRANSLATION; HET: MG; 2.6A {Saccharomyces cerevisiae}
+Probab=17.87  E-value=1.2e+02  Score=12.97  Aligned_cols=4  Identities=100%  Similarity=1.298  Sum_probs=0.0  Template_Neff=5.800
+
+Q NDFQKQ            3 FQKQ    6 (6)
+Q Consensus         3 fqkq    6 (6)
+                      ||||
+T Consensus        12 ~~kq   15 (144)
+T 6T4Q_SL          12 FQKQ   15 (144)
+T ss_pred             hcCC
+
+
+No 7
+>6RM3_SL0 uL2, uS2, uL15, eS26, uL3; Microsporidia, Ribosome, Intracellular Parasite; HET: MG; 3.4A {Vairimorpha necatrix}
+Probab=16.99  E-value=1.3e+02  Score=13.18  Aligned_cols=4  Identities=50%  Similarity=0.891  Sum_probs=0.0  Template_Neff=5.500
+
+Q NDFQKQ            3 FQKQ    6 (6)
+Q Consensus         3 fqkq    6 (6)
+                      ||||
+T Consensus        11 ~qkq   14 (158)
+T 6RM3_SL0         11 FPEQ   14 (158)
+T ss_pred             hccC
+
+
+No 8
+>1QB2_B HUMAN PROTEIN SRP54M; ALPHA-HELIX, HELIX-TURN-HELIX, SIGNALING PROTEIN; 2.1A {Homo sapiens} SCOP: a.36.1.1
+Probab=16.84  E-value=1.3e+02  Score=11.86  Aligned_cols=6  Identities=33%  Similarity=0.490  Sum_probs=0.0  Template_Neff=6.800
+
+Q NDFQKQ            1 NDFQKQ    6 (6)
+Q Consensus         1 ndfqkq    6 (6)
+                      +||..|
+T Consensus         5 ~Df~~q   10 (109)
+T 1QB2_B            5 RDMYEQ   10 (109)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 9
+>1MFQ_C SIGNAL RECOGNITION PARTICLE 19 KDA; RNA-protein complex, A-minor motif, 3-helix; 3.1A {Homo sapiens} SCOP: a.36.1.1
+Probab=16.28  E-value=1.4e+02  Score=12.44  Aligned_cols=6  Identities=33%  Similarity=0.490  Sum_probs=0.0  Template_Neff=6.100
+
+Q NDFQKQ            1 NDFQKQ    6 (6)
+Q Consensus         1 ndfqkq    6 (6)
+                      +||.+|
+T Consensus        18 ~Df~~Q   23 (129)
+T 1MFQ_C           18 RDMYEQ   23 (129)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 10
+>2JQE_A Signal recognition 54 kDa protein; af54, srp54, solution, SIGNALING PROTEIN; NMR {Archaeoglobus fulgidus}
+Probab=15.67  E-value=1.5e+02  Score=12.04  Aligned_cols=6  Identities=50%  Similarity=0.595  Sum_probs=0.0  Template_Neff=6.500
+
+Q NDFQKQ            1 NDFQKQ    6 (6)
+Q Consensus         1 ndfqkq    6 (6)
+                      +||..|
+T Consensus        13 ~Df~~Q   18 (119)
+T 2JQE_A           13 KDIYKQ   18 (119)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+

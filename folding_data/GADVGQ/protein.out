@@ -1,0 +1,149 @@
+Query         GADVGQ
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 22:33:22 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GADVGQ/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GADVGQ/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4J6E_A UDP-2,3-diacylglucosami   7.9   4E+02  0.0044   12.7   0.0    4    3-6     169-172 (283)
+  2 6SP0_A N-acetyltransferase ESC   7.8   4E+02  0.0044   10.7   0.0    4    3-6       9-12  (226)
+  3 7EGC_G Integrator complex subu   7.4 4.3E+02  0.0048   12.9   0.0    5    2-6      89-93  (349)
+  4 1IXV_A probable 26S proteasome   7.1 4.5E+02   0.005    8.6   0.0    4    1-4     228-231 (231)
+  5 5T53_A N-acetyltransferase ESC   7.1 4.6E+02   0.005   10.8   0.0    4    3-6      10-13  (227)
+  6 4RGW_B Transcription initiatio   7.1 4.6E+02  0.0051   13.0   0.0    5    2-6      90-94  (350)
+  7 6V06_A Beta-2-glycoprotein 1;    6.7 4.9E+02  0.0054   10.3   0.0    5    1-5     320-324 (326)
+  8 6V08_A Beta-2-glycoprotein 1;    6.7 4.9E+02  0.0054   10.3   0.0    5    1-5     320-324 (326)
+  9 2G04_F PROBABLE FATTY-ACID-CoA   6.7 4.9E+02  0.0055   11.4   0.0    4    1-4      32-35  (359)
+ 10 1X74_D 2-methylacyl-CoA racema   6.5 5.1E+02  0.0056   11.4   0.0    4    1-4      30-33  (360)
+
+No 1
+>4J6E_A UDP-2,3-diacylglucosamine pyrophosphatase LpxI (E.C.3.6.1.54); Structural Genomics, PSI-Biology, Center for; HET: UDG; 2.52A {Caulobacter crescentus}
+Probab=7.87  E-value=4e+02  Score=12.73  Aligned_cols=4  Identities=75%  Similarity=1.423  Sum_probs=0.0  Template_Neff=5.700
+
+Q GADVGQ            3 DVGQ    6 (6)
+Q Consensus         3 dvgq    6 (6)
+                      |+||
+T Consensus       169 DiGQ  172 (283)
+T 4J6E_A          169 DIGQ  172 (283)
+T ss_dssp             TSCS
+T ss_pred             CCCe
+
+
+No 2
+>6SP0_A N-acetyltransferase ESCO2 (E.C.2.3.1.-); Acetyltransferase, Zinc finger, Coenzyme A; HET: COA; 1.77A {Mus musculus}
+Probab=7.85  E-value=4e+02  Score=10.70  Aligned_cols=4  Identities=75%  Similarity=1.174  Sum_probs=0.0  Template_Neff=9.300
+
+Q GADVGQ            3 DVGQ    6 (6)
+Q Consensus         3 dvgq    6 (6)
+                      |.||
+T Consensus         9 d~gq   12 (226)
+T 6SP0_A            9 DAGQ   12 (226)
+T ss_dssp             ----
+T ss_pred             eCCC
+
+
+No 3
+>7EGC_G Integrator complex subunit 1, Integrator; TFIID, preinitiation complex, core promoter; HET: ZN; 3.9A {Homo sapiens}
+Probab=7.36  E-value=4.3e+02  Score=12.94  Aligned_cols=5  Identities=60%  Similarity=0.727  Sum_probs=0.0  Template_Neff=5.800
+
+Q GADVGQ            2 ADVGQ    6 (6)
+Q Consensus         2 advgq    6 (6)
+                      |||+|
+T Consensus        89 aDIsQ   93 (349)
+T 7EGC_G           89 ADICQ   93 (349)
+T ss_pred             ccccc
+
+
+No 4
+>1IXV_A probable 26S proteasome regulatory subunit; Ankyrin repeats, PROTEIN BINDING; 2.3A {Saccharomyces cerevisiae} SCOP: d.211.1.1
+Probab=7.11  E-value=4.5e+02  Score=8.64  Aligned_cols=4  Identities=25%  Similarity=0.136  Sum_probs=0.0  Template_Neff=13.300
+
+Q GADVGQ            1 GADV    4 (6)
+Q Consensus         1 gadv    4 (6)
+                      |||+
+T Consensus       228 g~~~  231 (231)
+T 1IXV_A          228 VVDA  231 (231)
+T ss_dssp             CCCC
+T ss_pred             hccC
+
+
+No 5
+>5T53_A N-acetyltransferase ESCO1 (E.C.2.3.1.-); Acetyltransferase, Cohesin, ESCO1, SMC3, TRANSFERASE; HET: ACO; 2.699A {Homo sapiens}
+Probab=7.09  E-value=4.6e+02  Score=10.83  Aligned_cols=4  Identities=75%  Similarity=1.174  Sum_probs=0.0  Template_Neff=8.700
+
+Q GADVGQ            3 DVGQ    6 (6)
+Q Consensus         3 dvgq    6 (6)
+                      |.||
+T Consensus        10 d~Gq   13 (227)
+T 5T53_A           10 DAGQ   13 (227)
+T ss_dssp             ----
+T ss_pred             ecCC
+
+
+No 6
+>4RGW_B Transcription initiation factor TFIID subunit; triple barrel, winged helix, transcriptional; HET: GOL; 2.301A {Homo sapiens}
+Probab=7.05  E-value=4.6e+02  Score=13.04  Aligned_cols=5  Identities=60%  Similarity=0.727  Sum_probs=0.0  Template_Neff=5.400
+
+Q GADVGQ            2 ADVGQ    6 (6)
+Q Consensus         2 advgq    6 (6)
+                      ||++|
+T Consensus        90 aDIsQ   94 (350)
+T 4RGW_B           90 ADICQ   94 (350)
+T ss_dssp             EEEEE
+T ss_pred             cceee
+
+
+No 7
+>6V06_A Beta-2-glycoprotein 1; PLASMA GLYCOPROTEIN, COAGULATION, INNATE IMMUNE; HET: MAN, SO4, NAG, BMA, EPE; 2.4A {Homo sapiens}
+Probab=6.72  E-value=4.9e+02  Score=10.27  Aligned_cols=5  Identities=40%  Similarity=0.574  Sum_probs=0.0  Template_Neff=11.000
+
+Q GADVGQ            1 GADVG    5 (6)
+Q Consensus         1 gadvg    5 (6)
+                      |.||+
+T Consensus       320 ~~~~~  324 (326)
+T 6V06_A          320 ASDVK  324 (326)
+T ss_dssp             GGGSC
+T ss_pred             hhhCc
+
+
+No 8
+>6V08_A Beta-2-glycoprotein 1; PLASMA GLYCOPROTEIN, COAGULATION, INNATE IMMUNE; HET: MAN, SO4, NAG, BMA; 2.58A {Homo sapiens}
+Probab=6.72  E-value=4.9e+02  Score=10.27  Aligned_cols=5  Identities=40%  Similarity=0.574  Sum_probs=0.0  Template_Neff=11.000
+
+Q GADVGQ            1 GADVG    5 (6)
+Q Consensus         1 gadvg    5 (6)
+                      |.||+
+T Consensus       320 ~~~~~  324 (326)
+T 6V08_A          320 ASDVK  324 (326)
+T ss_dssp             GGGSC
+T ss_pred             hhhCc
+
+
+No 9
+>2G04_F PROBABLE FATTY-ACID-CoA RACEMASE FAR (E.C.5.1.99.4); Isomerase; 2.7A {Mycobacterium tuberculosis}
+Probab=6.66  E-value=4.9e+02  Score=11.42  Aligned_cols=4  Identities=100%  Similarity=1.423  Sum_probs=0.0  Template_Neff=8.900
+
+Q GADVGQ            1 GADV    4 (6)
+Q Consensus         1 gadv    4 (6)
+                      ||||
+T Consensus        32 GA~V   35 (359)
+T 2G04_F           32 GADV   35 (359)
+T ss_dssp             TCEE
+T ss_pred             CCcE
+
+
+No 10
+>1X74_D 2-methylacyl-CoA racemase (E.C.5.1.99.4); Alpha-methylacyl-CoA racemase, racemase, CoA transferase; HET: GOL; 1.79A {Mycobacterium tuberculosis} SCOP: c.123.1.1
+Probab=6.54  E-value=5.1e+02  Score=11.35  Aligned_cols=4  Identities=100%  Similarity=1.423  Sum_probs=0.0  Template_Neff=9.000
+
+Q GADVGQ            1 GADV    4 (6)
+Q Consensus         1 gadv    4 (6)
+                      ||+|
+T Consensus        30 GA~V   33 (360)
+T 1X74_D           30 GADV   33 (360)
+T ss_dssp             TCEE
+T ss_pred             CCcE
+
+

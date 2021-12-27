@@ -1,0 +1,148 @@
+Query         QQYSQN
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 10:25:09 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QQYSQN/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QQYSQN/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4GOW_A Calmodulin, Potassium v   8.7 3.5E+02  0.0038   11.1   0.0    5    1-5      42-46  (72)
+  2 6EA3_A MbtH-like protein, amin   7.4 4.3E+02  0.0047   10.8   0.0    4    1-4      27-30  (81)
+  3 7BYN_C Green fluorescent prote   7.3 4.4E+02  0.0048   14.1   0.0    5    1-5     847-851 (979)
+  4 2GPF_A conserved hypothetical    7.0 4.6E+02  0.0051   10.3   0.0    4    1-4      20-23  (72)
+  5 3K1Z_A Haloacid dehalogenase-l   7.0 4.6E+02  0.0051    9.9   0.0    5    2-6     245-249 (263)
+  6 2PST_X Hypothetical protein PA   6.3 5.3E+02  0.0059   10.2   0.0    4    1-4      22-25  (74)
+  7 2KAP_A Rho GTPase-activating p   6.3 5.3E+02  0.0059   10.4   0.0    4    2-5      14-17  (60)
+  8 3UA0_B Fibroin heavy chain; TH   5.9 5.8E+02  0.0064   12.0   0.0    5    2-6     130-134 (134)
+  9 3UA0_A Fibroin heavy chain; TH   5.9 5.8E+02  0.0064   12.0   0.0    5    2-6     130-134 (134)
+ 10 2LPD_A Uncharacterized protein   5.8 5.9E+02  0.0065   10.9   0.0    4    1-4      35-38  (95)
+
+No 1
+>4GOW_A Calmodulin, Potassium voltage-gated channel subfamily; protein complex, PROTEIN BINDING, ion; 2.6A {Homo sapiens}
+Probab=8.71  E-value=3.5e+02  Score=11.10  Aligned_cols=5  Identities=60%  Similarity=0.946  Sum_probs=0.0  Template_Neff=4.100
+
+Q QQYSQN            1 QQYSQ    5 (6)
+Q Consensus         1 qqysq    5 (6)
+                      .|||+
+T Consensus        42 eqys~   46 (72)
+T 4GOW_A           42 EQYSA   46 (72)
+T ss_pred             HHHHH
+
+
+No 2
+>6EA3_A MbtH-like protein, amino acid activating; siderophore biosynthesis, serine activating adenylation; HET: SRP; 1.65A {Thermobifida fusca (strain YX)}
+Probab=7.43  E-value=4.3e+02  Score=10.75  Aligned_cols=4  Identities=75%  Similarity=1.132  Sum_probs=0.0  Template_Neff=4.900
+
+Q QQYSQN            1 QQYS    4 (6)
+Q Consensus         1 qqys    4 (6)
+                      +|||
+T Consensus        27 ~QyS   30 (81)
+T 6EA3_A           27 DQYS   30 (81)
+T ss_dssp             CCEE
+T ss_pred             CCee
+
+
+No 3
+>7BYN_C Green fluorescent protein,Potassium voltage-gated channel; KCNQ, Channel, Calmodulin, PIP2, linopirdine; HET: PT5, FCC;{Aequorea victoria}
+Probab=7.30  E-value=4.4e+02  Score=14.11  Aligned_cols=5  Identities=60%  Similarity=0.946  Sum_probs=0.0  Template_Neff=7.300
+
+Q QQYSQN            1 QQYSQ    5 (6)
+Q Consensus         1 qqysq    5 (6)
+                      .||||
+T Consensus       847 EQYSa  851 (979)
+T 7BYN_C          847 EQYSA  851 (979)
+T ss_dssp             HHHHH
+T ss_pred             HHHhH
+
+
+No 4
+>2GPF_A conserved hypothetical protein PA2412; BETA/ALPHA protein, Structural Genomics, PSI-2; NMR {Pseudomonas aeruginosa} SCOP: d.100.2.1
+Probab=7.04  E-value=4.6e+02  Score=10.30  Aligned_cols=4  Identities=75%  Similarity=1.198  Sum_probs=0.0  Template_Neff=5.300
+
+Q QQYSQN            1 QQYS    4 (6)
+Q Consensus         1 qqys    4 (6)
+                      +|||
+T Consensus        20 ~QyS   23 (72)
+T 2GPF_A           20 EQYS   23 (72)
+T ss_dssp             CCEE
+T ss_pred             ccee
+
+
+No 5
+>3K1Z_A Haloacid dehalogenase-like hydrolase domain-containing protein; HDHD3, Haloacid Dehalogenase-like Hydrolase Domain; 1.55A {Homo sapiens}
+Probab=7.00  E-value=4.6e+02  Score=9.92  Aligned_cols=5  Identities=40%  Similarity=0.468  Sum_probs=0.0  Template_Neff=11.100
+
+Q QQYSQN            2 QYSQN    6 (6)
+Q Consensus         2 qysqn    6 (6)
+                      ++||+
+T Consensus       245 ~~~~~  249 (263)
+T 3K1Z_A          245 LYFQS  249 (263)
+T ss_dssp             -----
+T ss_pred             ccccc
+
+
+No 6
+>2PST_X Hypothetical protein PA2412; Pyoverdine synthesis, Non-ribosomal peptide synthesis; 1.8A {Pseudomonas aeruginosa PAO1} SCOP: d.100.2.1
+Probab=6.31  E-value=5.3e+02  Score=10.22  Aligned_cols=4  Identities=75%  Similarity=1.198  Sum_probs=0.0  Template_Neff=5.200
+
+Q QQYSQN            1 QQYS    4 (6)
+Q Consensus         1 qqys    4 (6)
+                      +|||
+T Consensus        22 ~QyS   25 (74)
+T 2PST_X           22 EQYS   25 (74)
+T ss_dssp             CCEE
+T ss_pred             ccee
+
+
+No 7
+>2KAP_A Rho GTPase-activating protein 7; Solution Structure, SAM domain, DLC-1; NMR {Homo sapiens}
+Probab=6.29  E-value=5.3e+02  Score=10.36  Aligned_cols=4  Identities=75%  Similarity=1.190  Sum_probs=0.0  Template_Neff=3.800
+
+Q QQYSQN            2 QYSQ    5 (6)
+Q Consensus         2 qysq    5 (6)
+                      ||+|
+T Consensus        14 qyaq   17 (60)
+T 2KAP_A           14 QYAQ   17 (60)
+T ss_pred             hHHH
+
+
+No 8
+>3UA0_B Fibroin heavy chain; THE DOUBLE-LAYERED-SHEETS, FIBROIN FOLDING INITIATION; HET: MSE; 3.0A {Bombyx mori}
+Probab=5.89  E-value=5.8e+02  Score=12.00  Aligned_cols=5  Identities=60%  Similarity=0.893  Sum_probs=0.0  Template_Neff=2.600
+
+Q QQYSQN            2 QYSQN    6 (6)
+Q Consensus         2 qysqn    6 (6)
+                      ||||.
+T Consensus       130 ~ys~~  134 (134)
+T 3UA0_B          130 AYSQS  134 (134)
+T ss_dssp             -----
+T ss_pred             hhcCC
+
+
+No 9
+>3UA0_A Fibroin heavy chain; THE DOUBLE-LAYERED-SHEETS, FIBROIN FOLDING INITIATION; 3.0A {Bombyx mori}
+Probab=5.87  E-value=5.8e+02  Score=12.01  Aligned_cols=5  Identities=60%  Similarity=0.893  Sum_probs=0.0  Template_Neff=2.500
+
+Q QQYSQN            2 QYSQN    6 (6)
+Q Consensus         2 qysqn    6 (6)
+                      ||||.
+T Consensus       130 ~ys~~  134 (134)
+T 3UA0_A          130 AYSQS  134 (134)
+T ss_dssp             -----
+T ss_pred             hhcCC
+
+
+No 10
+>2LPD_A Uncharacterized protein; infectious disease, melioidosis, Seattle Structural; NMR {Burkholderia pseudomallei}
+Probab=5.82  E-value=5.9e+02  Score=10.90  Aligned_cols=4  Identities=75%  Similarity=0.974  Sum_probs=0.0  Template_Neff=4.200
+
+Q QQYSQN            1 QQYS    4 (6)
+Q Consensus         1 qqys    4 (6)
+                      +|||
+T Consensus        35 gQyS   38 (95)
+T 2LPD_A           35 GQYS   38 (95)
+T ss_dssp             CSCE
+T ss_pred             CCee
+
+

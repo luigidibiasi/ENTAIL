@@ -1,0 +1,152 @@
+Query         AMNITN
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 14:57:20 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/AMNITN/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/AMNITN/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2OWA_A Arfgap-like finger doma  39.5      28 0.00031   14.0   0.0    6    1-6       1-6   (138)
+  2 1QD1_A FORMIMINOTRANSFERASE DO  22.1      87 0.00096   15.2   0.0    6    1-6     234-239 (325)
+  3 1QD1_B FORMIMINOTRANSFERASE DO  18.9 1.1E+02  0.0012   14.9   0.0    6    1-6     234-239 (325)
+  4 5NAM_A Toll-like receptor 4; T  16.0 1.5E+02  0.0016   11.4   0.0    4    2-5       1-4   (48)
+  5 5NAO_A Toll-like receptor 4; T  15.8 1.5E+02  0.0016   11.4   0.0    4    2-5       1-4   (35)
+  6 1TT9_C Formimidoyltransferase-  15.1 1.6E+02  0.0018   15.1   0.0    6    1-6     235-240 (541)
+  7 2PFD_A Formimidoyltransferase-  15.1 1.6E+02  0.0018   15.1   0.0    6    1-6     235-240 (541)
+  8 1MWP_A AMYLOID A4 PROTEIN; HEP  12.2 2.2E+02  0.0024   11.9   0.0    5    2-6      53-57  (96)
+  9 4BUB_B UDP-N-ACETYLMURAMOYL-L-  11.1 2.5E+02  0.0028   12.6   0.0    5    2-6       1-5   (498)
+ 10 6MIB_A Integrin-linked protein  10.9 2.5E+02  0.0028   10.3   0.0    5    2-6       1-5   (271)
+
+No 1
+>2OWA_A Arfgap-like finger domain containing protein; Zinc finger protein, cysteine-rich motif; 2.0A {Cryptosporidium parvum Iowa II}
+Probab=39.51  E-value=28  Score=13.96  Aligned_cols=6  Identities=67%  Similarity=0.994  Sum_probs=0.0  Template_Neff=7.300
+
+Q AMNITN            1 AMNITN    6 (6)
+Q Consensus         1 amnitn    6 (6)
+                      .|||.|
+T Consensus         1 ~~~~~~    6 (138)
+T 2OWA_A            1 GMNISN    6 (138)
+T ss_dssp             ------
+T ss_pred             CCchHH
+Confidence            377765
+
+
+No 2
+>1QD1_A FORMIMINOTRANSFERASE DOMAIN (E.C. 2.1.2.5); FUNCTIONAL DIMER, ALPHA-BETA-BETA-ALPHA SANDWICH, ELECTROSTATICALLY; HET: FON, GOL; 1.7A {Sus scrofa} SCOP: d.58.34.1
+Probab=22.06  E-value=87  Score=15.25  Aligned_cols=6  Identities=17%  Similarity=0.445  Sum_probs=3.5  Template_Neff=5.200
+
+Q AMNITN            1 AMNITN    6 (6)
+Q Consensus         1 amnitn    6 (6)
+                      +||++|
+T Consensus       234 SmNL~d  239 (325)
+T 1QD1_A          234 STNLLD  239 (325)
+T ss_dssp             EEEESC
+T ss_pred             EEEecC
+Confidence            467654
+
+
+No 3
+>1QD1_B FORMIMINOTRANSFERASE DOMAIN (E.C. 2.1.2.5); FUNCTIONAL DIMER, ALPHA-BETA-BETA-ALPHA SANDWICH, ELECTROSTATICALLY; HET: GOL, FON; 1.7A {Sus scrofa} SCOP: d.58.34.1
+Probab=18.88  E-value=1.1e+02  Score=14.90  Aligned_cols=6  Identities=17%  Similarity=0.445  Sum_probs=3.4  Template_Neff=5.200
+
+Q AMNITN            1 AMNITN    6 (6)
+Q Consensus         1 amnitn    6 (6)
+                      +||++|
+T Consensus       234 S~NL~d  239 (325)
+T 1QD1_B          234 STNLLD  239 (325)
+T ss_dssp             EEEESC
+T ss_pred             EEEecC
+Confidence            466654
+
+
+No 4
+>5NAM_A Toll-like receptor 4; Toll-like receptor, PROTEIN RECEPTOR, transmembrane; NMR {Homo sapiens}
+Probab=15.96  E-value=1.5e+02  Score=11.44  Aligned_cols=4  Identities=100%  Similarity=1.215  Sum_probs=0.0  Template_Neff=3.900
+
+Q AMNITN            2 MNIT    5 (6)
+Q Consensus         2 mnit    5 (6)
+                      ||+|
+T Consensus         1 ~~~~    4 (48)
+T 5NAM_A            1 MNIT    4 (48)
+T ss_dssp             CCCC
+T ss_pred             CCch
+
+
+No 5
+>5NAO_A Toll-like receptor 4; Toll-like receptor, PROTEIN RECEPTOR, transmembrane; NMR {Homo sapiens}
+Probab=15.82  E-value=1.5e+02  Score=11.44  Aligned_cols=4  Identities=100%  Similarity=1.215  Sum_probs=0.0  Template_Neff=1.200
+
+Q AMNITN            2 MNIT    5 (6)
+Q Consensus         2 mnit    5 (6)
+                      ||||
+T Consensus         1 mn~t    4 (35)
+T 5NAO_A            1 MNIT    4 (35)
+T ss_dssp             CCCS
+T ss_pred             CCch
+
+
+No 6
+>1TT9_C Formimidoyltransferase-cyclodeaminase (Formiminotransferase- cyclodeaminase) (FTCD) (58; hepatitis autoantigen, intermediate channeling, protein; HET: MSE; 3.42A {Rattus norvegicus}
+Probab=15.13  E-value=1.6e+02  Score=15.08  Aligned_cols=6  Identities=17%  Similarity=0.445  Sum_probs=0.0  Template_Neff=5.900
+
+Q AMNITN            1 AMNITN    6 (6)
+Q Consensus         1 amnitn    6 (6)
+                      +||++|
+T Consensus       235 s~Nl~d  240 (541)
+T 1TT9_C          235 STNLLD  240 (541)
+T ss_pred             EEeecC
+
+
+No 7
+>2PFD_A Formimidoyltransferase-cyclodeaminase (Formiminotransferase- cyclodeaminase) (FTCD) (58; Protein assembly, Transferase, Lyase; HET: MSE; 3.42A {Rattus norvegicus}
+Probab=15.13  E-value=1.6e+02  Score=15.08  Aligned_cols=6  Identities=17%  Similarity=0.445  Sum_probs=0.0  Template_Neff=5.900
+
+Q AMNITN            1 AMNITN    6 (6)
+Q Consensus         1 amnitn    6 (6)
+                      +||++|
+T Consensus       235 s~Nl~d  240 (541)
+T 2PFD_A          235 STNLLD  240 (541)
+T ss_dssp             EEEESC
+T ss_pred             EEeecC
+
+
+No 8
+>1MWP_A AMYLOID A4 PROTEIN; HEPARIN BINDING, SUGAR BINDING PROTEIN; 1.8A {Homo sapiens} SCOP: d.170.2.1
+Probab=12.15  E-value=2.2e+02  Score=11.88  Aligned_cols=5  Identities=60%  Similarity=0.919  Sum_probs=0.0  Template_Neff=4.900
+
+Q AMNITN            2 MNITN    6 (6)
+Q Consensus         2 mnitn    6 (6)
+                      .+|||
+T Consensus        53 l~Itn   57 (96)
+T 1MWP_A           53 LQITN   57 (96)
+T ss_dssp             SCEEE
+T ss_pred             cCccc
+
+
+No 9
+>4BUB_B UDP-N-ACETYLMURAMOYL-L-ALANYL-D-GLUTAMATE--LD-LYSINE LIGASE (E.C.6.3.2.37, 6.3.2.7); LIGASE, PEPTIDOGLYCAN SYNTHESIS, MURE, ADP-FORMING; HET: ADP; 2.9A {THERMOTOGA MARITIMA}
+Probab=11.05  E-value=2.5e+02  Score=12.61  Aligned_cols=5  Identities=60%  Similarity=0.939  Sum_probs=0.0  Template_Neff=9.400
+
+Q AMNITN            2 MNITN    6 (6)
+Q Consensus         2 mnitn    6 (6)
+                      |+|+|
+T Consensus         1 ~~~~~    5 (498)
+T 4BUB_B            1 MNIST    5 (498)
+T ss_dssp             CBHHH
+T ss_pred             CcHHH
+
+
+No 10
+>6MIB_A Integrin-linked protein kinase (E.C.2.7.11.1), Alpha-parvin; Pseudokinase, Protein complex, CELL ADHESION; 1.8A {Homo sapiens}
+Probab=10.91  E-value=2.5e+02  Score=10.29  Aligned_cols=5  Identities=40%  Similarity=0.441  Sum_probs=0.0  Template_Neff=11.800
+
+Q AMNITN            2 MNITN    6 (6)
+Q Consensus         2 mnitn    6 (6)
+                      |||++
+T Consensus         1 ~~~~~    5 (271)
+T 6MIB_A            1 MNKHS    5 (271)
+T ss_dssp             -CCCC
+T ss_pred             CCccc
+
+

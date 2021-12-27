@@ -1,0 +1,150 @@
+Query         KATVYV
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 10:16:16 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/KATVYV/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/KATVYV/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2KZF_A Ribosome-binding factor  12.0 2.2E+02  0.0025   10.5   0.0    5    2-6      50-54  (106)
+  2 2OT9_A Hypothetical protein; Y  11.3 2.4E+02  0.0027   12.6   0.0    5    1-5       4-8   (180)
+  3 2DYJ_B Ribosome-binding factor  11.1 2.5E+02  0.0027   10.2   0.0    6    1-6      44-49  (95)
+  4 2R1C_A Ribosome-binding factor  11.1 2.5E+02  0.0027   10.2   0.0    6    1-6      44-49  (95)
+  5 3C0U_A Uncharacterized protein  11.1 2.5E+02  0.0027   12.6   0.0    5    1-5       6-10  (183)
+  6 2E7G_A Putative ribosome-bindi  10.9 2.6E+02  0.0028   10.8   0.0    5    2-6      58-62  (129)
+  7 3BT9_A QacR, multidrug binding  10.8 2.6E+02  0.0029    9.5   0.0    5    1-5      36-40  (188)
+  8 3CRJ_C Transcription regulator  10.7 2.6E+02  0.0029    9.5   0.0    5    1-5      48-52  (199)
+  9 2W57_B FERRIC UPTAKE REGULATIO  10.6 2.6E+02  0.0029   10.4   0.0    5    1-5      52-56  (150)
+ 10 5GP9_B Transcriptional regulat  10.6 2.6E+02  0.0029    9.5   0.0    5    1-5      40-44  (194)
+
+No 1
+>2KZF_A Ribosome-binding factor A; JCSG, Joint Center Structural Genomics; NMR {Thermotoga maritima}
+Probab=11.97  E-value=2.2e+02  Score=10.46  Aligned_cols=5  Identities=80%  Similarity=1.132  Sum_probs=0.0  Template_Neff=8.400
+
+Q KATVYV            2 ATVYV    6 (6)
+Q Consensus         2 atvyv    6 (6)
+                      |.||+
+T Consensus        50 a~Vy~   54 (106)
+T 2KZF_A           50 ADVYV   54 (106)
+T ss_dssp             EEEEE
+T ss_pred             EEEEE
+
+
+No 2
+>2OT9_A Hypothetical protein; YaeQ protein, Pseudomonas syringae, PSI-2; HET: SRT; 1.97A {Pseudomonas syringae pv. tomato} SCOP: c.52.1.33
+Probab=11.30  E-value=2.4e+02  Score=12.61  Aligned_cols=5  Identities=40%  Similarity=0.720  Sum_probs=0.0  Template_Neff=5.600
+
+Q KATVYV            1 KATVY    5 (6)
+Q Consensus         1 katvy    5 (6)
+                      |+|||
+T Consensus         4 kati~    8 (180)
+T 2OT9_A            4 PSTTY    8 (180)
+T ss_dssp             SCEEE
+T ss_pred             CCeEE
+
+
+No 3
+>2DYJ_B Ribosome-binding factor A; 16S rRNA processing, 17S RNA; 1.84A {Thermus thermophilus} SCOP: d.52.7.1
+Probab=11.13  E-value=2.5e+02  Score=10.20  Aligned_cols=6  Identities=50%  Similarity=0.733  Sum_probs=0.0  Template_Neff=8.300
+
+Q KATVYV            1 KATVYV    6 (6)
+Q Consensus         1 katvyv    6 (6)
+                      .|.||+
+T Consensus        44 ~a~Vy~   49 (95)
+T 2DYJ_B           44 VLSVYV   49 (95)
+T ss_dssp             EEEEEE
+T ss_pred             EEEEEE
+
+
+No 4
+>2R1C_A Ribosome-binding factor A; helix-kink-helix, KH domain, rRNA processing; 12.5A {Thermus thermophilus} SCOP: d.52.7.1
+Probab=11.13  E-value=2.5e+02  Score=10.20  Aligned_cols=6  Identities=50%  Similarity=0.733  Sum_probs=0.0  Template_Neff=8.300
+
+Q KATVYV            1 KATVYV    6 (6)
+Q Consensus         1 katvyv    6 (6)
+                      .|.||+
+T Consensus        44 ~a~Vy~   49 (95)
+T 2R1C_A           44 VLSVYV   49 (95)
+T ss_dssp             EEEEEE
+T ss_pred             EEEEEE
+
+
+No 5
+>3C0U_A Uncharacterized protein yaeQ; Escherichia coli, yaeQ, PSI-2, Protein; HET: MSE, SO4; 2.7A {Escherichia coli}
+Probab=11.09  E-value=2.5e+02  Score=12.56  Aligned_cols=5  Identities=80%  Similarity=1.265  Sum_probs=0.0  Template_Neff=5.700
+
+Q KATVYV            1 KATVY    5 (6)
+Q Consensus         1 katvy    5 (6)
+                      |+|||
+T Consensus         6 kati~   10 (183)
+T 3C0U_A            6 KATIY   10 (183)
+T ss_dssp             CCEEE
+T ss_pred             ccEEE
+
+
+No 6
+>2E7G_A Putative ribosome-binding factor A; RbfA, Structural Genomics, NPPSFA, National; NMR {Homo sapiens} SCOP: d.52.7.1
+Probab=10.85  E-value=2.6e+02  Score=10.75  Aligned_cols=5  Identities=20%  Similarity=0.375  Sum_probs=0.0  Template_Neff=8.200
+
+Q KATVYV            2 ATVYV    6 (6)
+Q Consensus         2 atvyv    6 (6)
+                      |.||+
+T Consensus        58 a~Vy~   62 (129)
+T 2E7G_A           58 CRAYW   62 (129)
+T ss_dssp             EEEEE
+T ss_pred             EEEEE
+
+
+No 7
+>3BT9_A QacR, multidrug binding, dequalinium, bivalent; HET: SO4, DEQ; 2.75A {Staphylococcus aureus subsp. aureus Mu50} SCOP: a.4.1.9, a.121.1.1
+Probab=10.78  E-value=2.6e+02  Score=9.52  Aligned_cols=5  Identities=40%  Similarity=0.919  Sum_probs=0.0  Template_Neff=12.000
+
+Q KATVYV            1 KATVY    5 (6)
+Q Consensus         1 katvy    5 (6)
+                      ++|+|
+T Consensus        36 ~~t~y   40 (188)
+T 3BT9_A           36 KGNLY   40 (188)
+T ss_dssp             TTCTT
+T ss_pred             cchhh
+
+
+No 8
+>3CRJ_C Transcription regulator; APC88200, TetR, Haloarcula marismortui ATCC; HET: MSE; 2.6A {Haloarcula marismortui ATCC 43049}
+Probab=10.71  E-value=2.6e+02  Score=9.51  Aligned_cols=5  Identities=40%  Similarity=0.288  Sum_probs=0.0  Template_Neff=12.200
+
+Q KATVYV            1 KATVY    5 (6)
+Q Consensus         1 katvy    5 (6)
+                      ++|+|
+T Consensus        48 ~~t~y   52 (199)
+T 3CRJ_C           48 TAAVH   52 (199)
+T ss_dssp             TTTSC
+T ss_pred             HHHHH
+
+
+No 9
+>2W57_B FERRIC UPTAKE REGULATION PROTEIN; GENE REGULATION, VIBRIO CHOLERAE, TRANSCRIPTION; 2.6A {VIBRIO CHOLERAE}
+Probab=10.64  E-value=2.6e+02  Score=10.36  Aligned_cols=5  Identities=80%  Similarity=0.933  Sum_probs=0.0  Template_Neff=9.500
+
+Q KATVYV            1 KATVY    5 (6)
+Q Consensus         1 katvy    5 (6)
+                      ++|||
+T Consensus        52 ~~Tvy   56 (150)
+T 2W57_B           52 LATVY   56 (150)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 10
+>5GP9_B Transcriptional regulator (TetR/AcrR family); fadR, transcriptional regulator, TRANSCRIPTION, DNA; HET: GOL, PLM; 1.755A {Bacillus halodurans (strain ATCC BAA-125 / DSM 18197 / FERM 7344 / JCM 9153 / C-125)}
+Probab=10.61  E-value=2.6e+02  Score=9.50  Aligned_cols=5  Identities=40%  Similarity=0.959  Sum_probs=0.0  Template_Neff=12.100
+
+Q KATVYV            1 KATVY    5 (6)
+Q Consensus         1 katvy    5 (6)
+                      ++|+|
+T Consensus        40 ~~t~y   44 (194)
+T 5GP9_B           40 DGTIY   44 (194)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+

@@ -1,0 +1,147 @@
+Query         LATVYE
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 16:25:24 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LATVYE/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LATVYE/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2W57_B FERRIC UPTAKE REGULATIO   6.7 4.9E+02  0.0054    9.7   0.0    5    1-5      52-56  (150)
+  2 5AFU_c DYNEIN TAIL, DYNACTIN,    6.2 5.4E+02   0.006    9.2   0.0    3    4-6      19-21  (31)
+  3 5N76_B CooT; CODH maturation,    6.1 5.6E+02  0.0062    9.8   0.0    5    1-5       3-7   (66)
+  4 6FAN_A Uncharacterized protein   5.9 5.7E+02  0.0063    9.7   0.0    5    1-5       3-7   (63)
+  5 6FAN_F Uncharacterized protein   5.9 5.7E+02  0.0063    9.7   0.0    5    1-5       3-7   (63)
+  6 7AJU_CK rRNA 2'-O-methyltransf   5.8 5.9E+02  0.0066   13.6   0.0    6    1-6     409-414 (593)
+  7 7CUJ_C telomere, DNA BINDING P   5.6 6.2E+02  0.0068   10.1   0.0    6    1-6      24-29  (45)
+  8 6Y8W_A CooT; NICKEL-BINDING PR   5.5 6.4E+02   0.007    9.8   0.0    5    1-5       7-11  (70)
+  9 6EHD_A OmpT protein; Outer mem   5.3 6.6E+02  0.0073   10.0   0.0    5    2-6       1-5   (325)
+ 10 6D57_A Ferric uptake regulatio   5.3 6.7E+02  0.0074    9.7   0.0    5    1-5      68-72  (161)
+
+No 1
+>2W57_B FERRIC UPTAKE REGULATION PROTEIN; GENE REGULATION, VIBRIO CHOLERAE, TRANSCRIPTION; 2.6A {VIBRIO CHOLERAE}
+Probab=6.69  E-value=4.9e+02  Score=9.66  Aligned_cols=5  Identities=100%  Similarity=1.338  Sum_probs=0.0  Template_Neff=9.500
+
+Q LATVYE            1 LATVY    5 (6)
+Q Consensus         1 latvy    5 (6)
+                      .+|||
+T Consensus        52 ~~Tvy   56 (150)
+T 2W57_B           52 LATVY   56 (150)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 2
+>5AFU_c DYNEIN TAIL, DYNACTIN, ACTIN, CYTOPLASMIC; DYNEIN, DYNACTIN, BICD2, MOTOR, TRANSPORT; HET: ATP, ADP; 3.5A {SUS SCROFA}
+Probab=6.21  E-value=5.4e+02  Score=9.23  Aligned_cols=3  Identities=67%  Similarity=1.243  Sum_probs=0.0  Template_Neff=3.600
+
+Q LATVYE            4 VYE    6 (6)
+Q Consensus         4 vye    6 (6)
+                      |||
+T Consensus        19 VYE   21 (31)
+T 5AFU_c           19 VYA   21 (31)
+T ss_pred             ccc
+
+
+No 3
+>5N76_B CooT; CODH maturation, nickel-binding protein, anaerobic; 1.9A {Rhodospirillum rubrum}
+Probab=6.05  E-value=5.6e+02  Score=9.80  Aligned_cols=5  Identities=40%  Similarity=0.507  Sum_probs=0.0  Template_Neff=5.600
+
+Q LATVYE            1 LATVY    5 (6)
+Q Consensus         1 latvy    5 (6)
+                      +++||
+T Consensus         3 es~vy    7 (66)
+T 5N76_B            3 MAKVV    7 (66)
+T ss_dssp             CCEEE
+T ss_pred             cceEE
+
+
+No 4
+>6FAN_A Uncharacterized protein; Carbon monoxide dehydrogenase, nickel chaperone; HET: GOL, MPD; 2.0A {Carboxydothermus hydrogenoformans (strain ATCC BAA-161 / DSM 6008 / Z-2901)}
+Probab=5.95  E-value=5.7e+02  Score=9.65  Aligned_cols=5  Identities=20%  Similarity=0.421  Sum_probs=0.0  Template_Neff=5.700
+
+Q LATVYE            1 LATVY    5 (6)
+Q Consensus         1 latvy    5 (6)
+                      +++||
+T Consensus         3 es~vy    7 (63)
+T 6FAN_A            3 EASAF    7 (63)
+T ss_dssp             CEEEE
+T ss_pred             eceEE
+
+
+No 5
+>6FAN_F Uncharacterized protein; Carbon monoxide dehydrogenase, nickel chaperone; HET: GOL, MPD; 2.0A {Carboxydothermus hydrogenoformans (strain ATCC BAA-161 / DSM 6008 / Z-2901)}
+Probab=5.95  E-value=5.7e+02  Score=9.65  Aligned_cols=5  Identities=20%  Similarity=0.421  Sum_probs=0.0  Template_Neff=5.700
+
+Q LATVYE            1 LATVY    5 (6)
+Q Consensus         1 latvy    5 (6)
+                      +++||
+T Consensus         3 es~vy    7 (63)
+T 6FAN_F            3 EASAF    7 (63)
+T ss_dssp             TEEEE
+T ss_pred             eceEE
+
+
+No 6
+>7AJU_CK rRNA 2'-O-methyltransferase fibrillarin, 40S ribosomal; Ribosome, Ribosome biogenesis, Exosome, 90S; HET: GTP; 3.8A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=5.79  E-value=5.9e+02  Score=13.61  Aligned_cols=6  Identities=67%  Similarity=1.154  Sum_probs=0.0  Template_Neff=5.400
+
+Q LATVYE            1 LATVYE    6 (6)
+Q Consensus         1 latvye    6 (6)
+                      ||-+||
+T Consensus       409 LaEiYE  414 (593)
+T 7AJU_CK         409 LAEIYE  414 (593)
+T ss_pred             HHHHHH
+
+
+No 7
+>7CUJ_C telomere, DNA BINDING PROTEIN; 2.4A {Schizosaccharomyces pombe (strain 972 / ATCC 24843)}
+Probab=5.59  E-value=6.2e+02  Score=10.12  Aligned_cols=6  Identities=33%  Similarity=0.634  Sum_probs=0.0  Template_Neff=2.100
+
+Q LATVYE            1 LATVYE    6 (6)
+Q Consensus         1 latvye    6 (6)
+                      |-++|+
+T Consensus        24 L~e~Y~   29 (45)
+T 7CUJ_C           24 LQELYV   29 (45)
+T ss_pred             HHHHHH
+
+
+No 8
+>6Y8W_A CooT; NICKEL-BINDING PROTEIN, ANAEROBIC METABOLISM, METAL; NMR {Rhodospirillum rubrum}
+Probab=5.47  E-value=6.4e+02  Score=9.83  Aligned_cols=5  Identities=40%  Similarity=0.507  Sum_probs=0.0  Template_Neff=5.400
+
+Q LATVYE            1 LATVY    5 (6)
+Q Consensus         1 latvy    5 (6)
+                      +++||
+T Consensus         7 es~Vy   11 (70)
+T 6Y8W_A            7 MAKVV   11 (70)
+T ss_dssp             CEEEE
+T ss_pred             eceEE
+
+
+No 9
+>6EHD_A OmpT protein; Outer membrane protein, Porin, OmpF; HET: MES, C8E; 1.66A {Vibrio cholerae serotype O1 (strain ATCC 39541 / Classical Ogawa 395 / O395)}
+Probab=5.33  E-value=6.6e+02  Score=9.97  Aligned_cols=5  Identities=20%  Similarity=0.441  Sum_probs=0.0  Template_Neff=10.900
+
+Q LATVYE            2 ATVYE    6 (6)
+Q Consensus         2 atvye    6 (6)
+                      |+||+
+T Consensus         1 ~~~y~    5 (325)
+T 6EHD_A            1 AEILK    5 (325)
+T ss_dssp             CEEEE
+T ss_pred             CeEEe
+
+
+No 10
+>6D57_A Ferric uptake regulation protein; Fur, ferric uptake regulator, Campylobacter; HET: GOL, OHI, FMT; 1.81A {Campylobacter jejuni}
+Probab=5.26  E-value=6.7e+02  Score=9.65  Aligned_cols=5  Identities=80%  Similarity=1.258  Sum_probs=0.0  Template_Neff=9.000
+
+Q LATVYE            1 LATVY    5 (6)
+Q Consensus         1 latvy    5 (6)
+                      .+|||
+T Consensus        68 ~~TVy   72 (161)
+T 6D57_A           68 IATVY   72 (161)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+

@@ -1,0 +1,147 @@
+Query         FMSNDL
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 21:33:55 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/FMSNDL/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/FMSNDL/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6YP7_I Chlorophyll a-b binding  51.1      14 0.00015   13.9   0.0    6    1-6      23-28  (34)
+  2 4BWP_A PAB-DEPENDENT POLY(A)-S  34.3      38 0.00042   15.0   0.0    6    1-6       6-11  (448)
+  3 5XJX_A LRR receptor-like serin  28.8      54  0.0006   13.2   0.0    6    1-6       2-7   (556)
+  4 1PBU_A Elongation factor 1-gam  18.0 1.2E+02  0.0013   13.3   0.0    6    1-6      61-66  (162)
+  5 7O7Y_Br 40S ribosomal protein   17.4 1.3E+02  0.0014   12.5   0.0    5    2-6       1-5   (137)
+  6 4V7E_Cr Ribosome; eukaryotic r  15.8 1.5E+02  0.0016   12.8   0.0    5    2-6       4-8   (147)
+  7 6ASO_A Lsm2-8 spliceosome U6 P  15.1 1.6E+02  0.0018   12.4   0.0    4    2-5     406-409 (424)
+  8 3NIP_B 3-guanidinopropionase (  15.0 1.6E+02  0.0018   12.9   0.0    4    2-5       1-4   (326)
+  9 3NIQ_A 3-guanidinopropionase (  15.0 1.6E+02  0.0018   12.9   0.0    4    2-5       1-4   (326)
+ 10 6XU8_Cr Specialised ribosome,   15.0 1.6E+02  0.0018   12.0   0.0    5    2-6       2-6   (134)
+
+No 1
+>6YP7_I Chlorophyll a-b binding protein 8; Cryo-EM, photosystem II, High Light; HET: PL9, LHG, BCR, NEX, HEM, OEX, CLA, PHO, DGD, XAT, SQD, LUT, LMG, CHL;{Pisum sativum}
+Probab=51.14  E-value=14  Score=13.93  Aligned_cols=6  Identities=67%  Similarity=1.010  Sum_probs=4.1  Template_Neff=2.400
+
+Q FMSNDL            1 FMSNDL    6 (6)
+Q Consensus         1 fmsndl    6 (6)
+                      |.|||.
+T Consensus        23 FLSnDp   28 (34)
+T 6YP7_I           23 FLSNDP   28 (34)
+T ss_pred             HHhCCC
+Confidence            578873
+
+
+No 2
+>4BWP_A PAB-DEPENDENT POLY(A)-SPECIFIC RIBONUCLEASE SUBUNIT PAN-3; GENE REGULATION, DEADENYLASE, PAN2, MIRNA; HET: AN2; 3.6A {DROSOPHILA MELANOGASTER}
+Probab=34.31  E-value=38  Score=15.04  Aligned_cols=6  Identities=17%  Similarity=0.473  Sum_probs=0.0  Template_Neff=8.900
+
+Q FMSNDL            1 FMSNDL    6 (6)
+Q Consensus         1 fmsndl    6 (6)
+                      ||+|+|
+T Consensus         6 f~~~~l   11 (448)
+T 4BWP_A            6 EMPDEM   11 (448)
+T ss_dssp             ------
+T ss_pred             CCCHHH
+Confidence            677664
+
+
+No 3
+>5XJX_A LRR receptor-like serine/threonine-protein kinase ERL1; receptor like kinase, receptor like; 3.055A {Arabidopsis thaliana}
+Probab=28.77  E-value=54  Score=13.18  Aligned_cols=6  Identities=33%  Similarity=0.279  Sum_probs=3.3  Template_Neff=12.100
+
+Q FMSNDL            1 FMSNDL    6 (6)
+Q Consensus         1 fmsndl    6 (6)
+                      +|++|+
+T Consensus         2 ~~~~~~    7 (556)
+T 5XJX_A            2 AMNNEG    7 (556)
+T ss_pred             cchhHH
+Confidence            466653
+
+
+No 4
+>1PBU_A Elongation factor 1-gamma; ALPHA/BETA, TRANSLATION; NMR {Homo sapiens} SCOP: d.58.46.1
+Probab=17.99  E-value=1.2e+02  Score=13.34  Aligned_cols=6  Identities=67%  Similarity=0.994  Sum_probs=0.0  Template_Neff=5.500
+
+Q FMSNDL            1 FMSNDL    6 (6)
+Q Consensus         1 fmsndl    6 (6)
+                      |||+.|
+T Consensus        61 fmt~Nl   66 (162)
+T 1PBU_A           61 FMSCNL   66 (162)
+T ss_dssp             TTHHHH
+T ss_pred             hhcccc
+
+
+No 5
+>7O7Y_Br 40S ribosomal protein S27, Ribosomal; Frameshift, virus, pseudoknot, RIBOSOME; HET: GTP, HIC, 5MC, UNX, A2M, 5MU, M2G, 7MG, 1MA, SAC, OMU, PSU, MG, OMG, V5N, YYG, 2MG, UY1, 6MZ, H2U, OMC, SPD, B8N, NMM, MA6, UR3, 4AC, MLZ, M3L, AME, SPM; 2.2A {Oryctolagus cuniculus}
+Probab=17.41  E-value=1.3e+02  Score=12.45  Aligned_cols=5  Identities=60%  Similarity=0.707  Sum_probs=0.0  Template_Neff=6.600
+
+Q FMSNDL            2 MSNDL    6 (6)
+Q Consensus         2 msndl    6 (6)
+                      ||.||
+T Consensus         1 ~s~dL    5 (137)
+T 7O7Y_Br           1 MSAHL    5 (137)
+T ss_pred             CChhH
+
+
+No 6
+>4V7E_Cr Ribosome; eukaryotic ribosome, homology modeling, de; 5.5A {Triticum aestivum}
+Probab=15.77  E-value=1.5e+02  Score=12.77  Aligned_cols=5  Identities=20%  Similarity=0.415  Sum_probs=0.0  Template_Neff=5.800
+
+Q FMSNDL            2 MSNDL    6 (6)
+Q Consensus         2 msndl    6 (6)
+                      ||+||
+T Consensus         4 ~S~dL    8 (147)
+T 4V7E_Cr           4 VPEPL    8 (147)
+T ss_pred             CCHhH
+
+
+No 7
+>6ASO_A Lsm2-8 spliceosome U6 Prp24; Lsm2-8 spliceosome U6 Prp24, SPLICING; HET: UBD; 2.71A {Saccharomyces cerevisiae}
+Probab=15.12  E-value=1.6e+02  Score=12.36  Aligned_cols=4  Identities=100%  Similarity=1.248  Sum_probs=0.0  Template_Neff=10.400
+
+Q FMSNDL            2 MSND    5 (6)
+Q Consensus         2 msnd    5 (6)
+                      ||||
+T Consensus       406 ~s~~  409 (424)
+T 6ASO_A          406 MSND  409 (424)
+T ss_pred             cCHH
+
+
+No 8
+>3NIP_B 3-guanidinopropionase (E.C.3.5.3.17); guanidinopropionase, GpuA, PA0288, HYDROLASE; HET: 16D; 2.5A {Pseudomonas aeruginosa}
+Probab=15.04  E-value=1.6e+02  Score=12.85  Aligned_cols=4  Identities=100%  Similarity=1.248  Sum_probs=0.0  Template_Neff=8.500
+
+Q FMSNDL            2 MSND    5 (6)
+Q Consensus         2 msnd    5 (6)
+                      ||||
+T Consensus         1 ~~~~    4 (326)
+T 3NIP_B            1 MSND    4 (326)
+T ss_dssp             --CC
+T ss_pred             CCCC
+
+
+No 9
+>3NIQ_A 3-guanidinopropionase (E.C.3.5.3.17); guanidinopropionase, GpuA, HYDROLASE; 2.07A {Pseudomonas aeruginosa}
+Probab=15.04  E-value=1.6e+02  Score=12.85  Aligned_cols=4  Identities=100%  Similarity=1.248  Sum_probs=0.0  Template_Neff=8.500
+
+Q FMSNDL            2 MSND    5 (6)
+Q Consensus         2 msnd    5 (6)
+                      ||||
+T Consensus         1 ~~~~    4 (326)
+T 3NIQ_A            1 MSND    4 (326)
+T ss_dssp             ---C
+T ss_pred             CCCC
+
+
+No 10
+>6XU8_Cr Specialised ribosome, Drosophila melanogaster, Ovary; 3.0A {Drosophila melanogaster}
+Probab=15.00  E-value=1.6e+02  Score=12.04  Aligned_cols=5  Identities=40%  Similarity=0.461  Sum_probs=0.0  Template_Neff=6.800
+
+Q FMSNDL            2 MSNDL    6 (6)
+Q Consensus         2 msndl    6 (6)
+                      ||+||
+T Consensus         2 ~s~~L    6 (134)
+T 6XU8_Cr           2 TSSHL    6 (134)
+T ss_pred             CcchH
+
+

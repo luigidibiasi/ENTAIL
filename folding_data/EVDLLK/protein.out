@@ -1,0 +1,152 @@
+Query         EVDLLK
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 20:09:23 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/EVDLLK/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/EVDLLK/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4H22_A Leucine-rich repeat fli  38.5      30 0.00033   14.9   0.0    6    1-6      31-36  (103)
+  2 4H22_B Leucine-rich repeat fli  37.2      32 0.00035   14.8   0.0    6    1-6      31-36  (103)
+  3 7BWK_J IcmJ (DotN); Dot/Icm Ty  19.7   1E+02  0.0012   14.4   0.0    6    1-6     106-111 (130)
+  4 7D2E_D Liprin-alpha-2; Coiled-   8.4 3.6E+02   0.004   11.6   0.0    6    1-6      13-18  (78)
+  5 2ES3_A Thrombospondin-1; Throm   8.2 3.7E+02  0.0041   10.1   0.0    6    1-6       6-11  (209)
+  6 5N76_B CooT; CODH maturation,    8.2 3.8E+02  0.0042   10.3   0.0    6    1-6      50-55  (66)
+  7 6FAN_A Uncharacterized protein   8.0 3.9E+02  0.0043   10.1   0.0    6    1-6      49-54  (63)
+  8 6FAN_F Uncharacterized protein   8.0 3.9E+02  0.0043   10.1   0.0    6    1-6      49-54  (63)
+  9 5U9K_A Aryl hydrocarbon recept   7.8   4E+02  0.0045   10.3   0.0    6    1-6     158-163 (169)
+ 10 5IMU_A Tat (Twin-arginine tran   7.7 4.1E+02  0.0045   13.3   0.0    6    1-6     159-164 (227)
+
+No 1
+>4H22_A Leucine-rich repeat flightless-interacting protein 1; nucleic acid sensor, Flightless-1, TRANSCRIPTION; 2.89A {Homo sapiens}
+Probab=38.47  E-value=30  Score=14.89  Aligned_cols=6  Identities=67%  Similarity=0.872  Sum_probs=3.3  Template_Neff=4.000
+
+Q EVDLLK            1 EVDLLK    6 (6)
+Q Consensus         1 evdllk    6 (6)
+                      +||+||
+T Consensus        31 qVdlLK   36 (103)
+T 4H22_A           31 QVDTLK   36 (103)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            356654
+
+
+No 2
+>4H22_B Leucine-rich repeat flightless-interacting protein 1; nucleic acid sensor, Flightless-1, TRANSCRIPTION; 2.89A {Homo sapiens}
+Probab=37.20  E-value=32  Score=14.83  Aligned_cols=6  Identities=67%  Similarity=0.872  Sum_probs=3.3  Template_Neff=3.900
+
+Q EVDLLK            1 EVDLLK    6 (6)
+Q Consensus         1 evdllk    6 (6)
+                      +||+||
+T Consensus        31 qVdlLK   36 (103)
+T 4H22_B           31 QVDTLK   36 (103)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            356654
+
+
+No 3
+>7BWK_J IcmJ (DotN); Dot/Icm Type 4B Secretion System; 2.801A {Legionella pneumophila subsp. pneumophila str. Philadelphia 1}
+Probab=19.69  E-value=1e+02  Score=14.38  Aligned_cols=6  Identities=83%  Similarity=1.254  Sum_probs=3.4  Template_Neff=1.300
+
+Q EVDLLK            1 EVDLLK    6 (6)
+Q Consensus         1 evdllk    6 (6)
+                      |+||||
+T Consensus       106 ei~llk  111 (130)
+T 7BWK_J          106 EIDLLK  111 (130)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHh
+Confidence            456664
+
+
+No 4
+>7D2E_D Liprin-alpha-2; Coiled-coil, PROTEIN BINDING; 1.7A {Homo sapiens}
+Probab=8.44  E-value=3.6e+02  Score=11.58  Aligned_cols=6  Identities=67%  Similarity=1.038  Sum_probs=0.0  Template_Neff=2.900
+
+Q EVDLLK            1 EVDLLK    6 (6)
+Q Consensus         1 evdllk    6 (6)
+                      ||.+||
+T Consensus        13 EVEVLK   18 (78)
+T 7D2E_D           13 EVEVLK   18 (78)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 5
+>2ES3_A Thrombospondin-1; Thrombospondin-1, TSP-1, TSPN, HBD, SUGAR; 1.85A {Homo sapiens} SCOP: b.29.1.4
+Probab=8.22  E-value=3.7e+02  Score=10.10  Aligned_cols=6  Identities=17%  Similarity=0.495  Sum_probs=0.0  Template_Neff=10.400
+
+Q EVDLLK            1 EVDLLK    6 (6)
+Q Consensus         1 evdllk    6 (6)
+                      ++|||+
+T Consensus         6 ~~dll~   11 (209)
+T 2ES3_A            6 VFDIFE   11 (209)
+T ss_dssp             EEEHHH
+T ss_pred             ceehhH
+
+
+No 6
+>5N76_B CooT; CODH maturation, nickel-binding protein, anaerobic; 1.9A {Rhodospirillum rubrum}
+Probab=8.17  E-value=3.8e+02  Score=10.26  Aligned_cols=6  Identities=50%  Similarity=0.578  Sum_probs=0.0  Template_Neff=5.600
+
+Q EVDLLK            1 EVDLLK    6 (6)
+Q Consensus         1 evdllk    6 (6)
+                      |+||++
+T Consensus        50 ~idl~~   55 (66)
+T 5N76_B           50 RVDLRS   55 (66)
+T ss_dssp             EEETTT
+T ss_pred             EEECCC
+
+
+No 7
+>6FAN_A Uncharacterized protein; Carbon monoxide dehydrogenase, nickel chaperone; HET: GOL, MPD; 2.0A {Carboxydothermus hydrogenoformans (strain ATCC BAA-161 / DSM 6008 / Z-2901)}
+Probab=8.02  E-value=3.9e+02  Score=10.10  Aligned_cols=6  Identities=17%  Similarity=0.623  Sum_probs=0.0  Template_Neff=5.700
+
+Q EVDLLK            1 EVDLLK    6 (6)
+Q Consensus         1 evdllk    6 (6)
+                      |+||++
+T Consensus        49 eidl~~   54 (63)
+T 6FAN_A           49 RLELVD   54 (63)
+T ss_dssp             EEETTT
+T ss_pred             EEECCC
+
+
+No 8
+>6FAN_F Uncharacterized protein; Carbon monoxide dehydrogenase, nickel chaperone; HET: GOL, MPD; 2.0A {Carboxydothermus hydrogenoformans (strain ATCC BAA-161 / DSM 6008 / Z-2901)}
+Probab=8.02  E-value=3.9e+02  Score=10.10  Aligned_cols=6  Identities=17%  Similarity=0.623  Sum_probs=0.0  Template_Neff=5.700
+
+Q EVDLLK            1 EVDLLK    6 (6)
+Q Consensus         1 evdllk    6 (6)
+                      |+||++
+T Consensus        49 eidl~~   54 (63)
+T 6FAN_F           49 RLELVD   54 (63)
+T ss_dssp             EEETTT
+T ss_pred             EEECCC
+
+
+No 9
+>5U9K_A Aryl hydrocarbon receptor-interacting protein-like 1; AIPL1, FKBP, chaperone, PDE6, photoreceptor; 2.7A {Homo sapiens}
+Probab=7.75  E-value=4e+02  Score=10.32  Aligned_cols=6  Identities=33%  Similarity=0.744  Sum_probs=0.0  Template_Neff=9.000
+
+Q EVDLLK            1 EVDLLK    6 (6)
+Q Consensus         1 evdllk    6 (6)
+                      ||+|++
+T Consensus       158 ~veLl~  163 (169)
+T 5U9K_A          158 VIELLQ  163 (169)
+T ss_pred             EEEEEE
+
+
+No 10
+>5IMU_A Tat (Twin-arginine translocation) pathway signal; alpha/beta/alpha sandwich, alpha helix bundule; 1.9A {Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv)}
+Probab=7.72  E-value=4.1e+02  Score=13.35  Aligned_cols=6  Identities=50%  Similarity=0.833  Sum_probs=0.0  Template_Neff=2.800
+
+Q EVDLLK            1 EVDLLK    6 (6)
+Q Consensus         1 evdllk    6 (6)
+                      |+|+|.
+T Consensus       159 EvdlLr  164 (227)
+T 5IMU_A          159 EAELLH  164 (227)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+

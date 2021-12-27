@@ -1,0 +1,151 @@
+Query         LDQWNG
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 17:49:47 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LDQWNG/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LDQWNG/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6WIN_A Type 6 secretion amidas  59.6     8.1 8.9E-05   17.1   0.0    6    1-6      88-93  (140)
+  2 2KKM_A Translation machinery-a  35.0      36  0.0004   14.3   0.0    6    1-6     114-119 (144)
+  3 6LU8_R Nucleolar GTP-binding p  27.9      57 0.00063   14.7   0.0    6    1-6     143-148 (203)
+  4 4JPO_D DNA mismatch repair pro  19.4 1.1E+02  0.0012   10.2   0.0    5    1-5      96-100 (100)
+  5 7DTY_R human glucose-dependent  18.1 1.2E+02  0.0013   14.1   0.0    4    3-6     547-550 (573)
+  6 6HC2_B G-protein-signaling mod  16.6 1.4E+02  0.0015   12.6   0.0    5    1-5      57-61  (71)
+  7 6HC2_L G-protein-signaling mod  16.6 1.4E+02  0.0015   12.6   0.0    5    1-5      57-61  (71)
+  8 5GHW_P FAB 10E8 HEAVY CHAIN, F  16.3 1.4E+02  0.0016   10.7   0.0    5    1-5       4-8   (36)
+  9 1A92_A DELTA ANTIGEN; LEUCINE   15.7 1.5E+02  0.0017   11.9   0.0    4    1-4       6-9   (50)
+ 10 1HOV_A MATRIX METALLOPROTEINAS  15.5 1.5E+02  0.0017   10.4   0.0    5    1-5      40-44  (163)
+
+No 1
+>6WIN_A Type 6 secretion amidase effector; amidase, toxin, peptidoglycan hydrolase, ANTIMICROBIAL; HET: MSE; 2.05A {Salmonella typhi}
+Probab=59.59  E-value=8.1  Score=17.08  Aligned_cols=6  Identities=50%  Similarity=1.404  Sum_probs=4.1  Template_Neff=4.300
+
+Q LDQWNG            1 LDQWNG    6 (6)
+Q Consensus         1 ldqwng    6 (6)
+                      +|||.+
+T Consensus        88 ~DQw~~   93 (140)
+T 6WIN_A           88 MDQWKD   93 (140)
+T ss_dssp             EECCSC
+T ss_pred             EEccCC
+Confidence            578864
+
+
+No 2
+>2KKM_A Translation machinery-associated protein 16; translation machinery associated protein 16; NMR {Saccharomyces cerevisiae}
+Probab=35.03  E-value=36  Score=14.29  Aligned_cols=6  Identities=67%  Similarity=1.608  Sum_probs=3.5  Template_Neff=6.200
+
+Q LDQWNG            1 LDQWNG    6 (6)
+Q Consensus         1 ldqwng    6 (6)
+                      |..|+|
+T Consensus       114 L~~W~G  119 (144)
+T 2KKM_A          114 LRNWNG  119 (144)
+T ss_dssp             HHTCSS
+T ss_pred             HHhCCC
+Confidence            346765
+
+
+No 3
+>6LU8_R Nucleolar GTP-binding protein 2, 60S; 60S, pre-60S, pre-ribosome, human 60S; HET: 1MA, 5MU, E6G, OMC, M7A, OMG, B8Q, UR3, 5MC, OMU, B9H, MHG, B8K, BGH, 7MG, 6MZ, MG, B9B, P4U, B8T, PSU, B8W, P7G, A2M, E7G, B8H, 2MG, I4U; 3.13A {Homo sapiens}
+Probab=27.90  E-value=57  Score=14.70  Aligned_cols=6  Identities=17%  Similarity=0.811  Sum_probs=3.5  Template_Neff=5.600
+
+Q LDQWNG            1 LDQWNG    6 (6)
+Q Consensus         1 ldqwng    6 (6)
+                      |.+|+|
+T Consensus       143 Lr~W~G  148 (203)
+T 6LU8_R          143 FREWDF  148 (203)
+T ss_pred             HHhCCC
+Confidence            346775
+
+
+No 4
+>4JPO_D DNA mismatch repair protein HSM3; Hsm3, Chaperone, Proteasome, Protein Complex; 5.0A {Saccharomyces cerevisiae}
+Probab=19.44  E-value=1.1e+02  Score=10.19  Aligned_cols=5  Identities=40%  Similarity=0.507  Sum_probs=0.0  Template_Neff=10.300
+
+Q LDQWNG            1 LDQWN    5 (6)
+Q Consensus         1 ldqwn    5 (6)
+                      .++||
+T Consensus        96 ~~~~~  100 (100)
+T 4JPO_D           96 YMQYN  100 (100)
+T ss_dssp             -----
+T ss_pred             ccccC
+
+
+No 5
+>7DTY_R human glucose-dependent insulinotropic polypeptide receptor; Glucose-dependent insulinotropic polypeptide receptor ; HET: CLR; 2.98A {Homo sapiens}
+Probab=18.11  E-value=1.2e+02  Score=14.06  Aligned_cols=4  Identities=75%  Similarity=1.913  Sum_probs=0.0  Template_Neff=8.900
+
+Q LDQWNG            3 QWNG    6 (6)
+Q Consensus         3 qwng    6 (6)
+                      ||||
+T Consensus       547 ~~~~  550 (573)
+T 7DTY_R          547 LWNG  550 (573)
+T ss_dssp             EETS
+T ss_pred             eecC
+
+
+No 6
+>6HC2_B G-protein-signaling modulator 2, Nuclear mitotic; Cell division Asymmetric cell division; 4.31A {Homo sapiens}
+Probab=16.57  E-value=1.4e+02  Score=12.57  Aligned_cols=5  Identities=80%  Similarity=1.837  Sum_probs=0.0  Template_Neff=3.000
+
+Q LDQWNG            1 LDQWN    5 (6)
+Q Consensus         1 ldqwn    5 (6)
+                      +|.||
+T Consensus        57 ~dDWn   61 (71)
+T 6HC2_B           57 LDDWN   61 (71)
+T ss_dssp             CCCSC
+T ss_pred             chhHH
+
+
+No 7
+>6HC2_L G-protein-signaling modulator 2, Nuclear mitotic; Cell division Asymmetric cell division; 4.31A {Homo sapiens}
+Probab=16.57  E-value=1.4e+02  Score=12.57  Aligned_cols=5  Identities=80%  Similarity=1.837  Sum_probs=0.0  Template_Neff=3.000
+
+Q LDQWNG            1 LDQWN    5 (6)
+Q Consensus         1 ldqwn    5 (6)
+                      +|.||
+T Consensus        57 ~dDWn   61 (71)
+T 6HC2_L           57 LDDWN   61 (71)
+T ss_dssp             CCCCC
+T ss_pred             chhHH
+
+
+No 8
+>5GHW_P FAB 10E8 HEAVY CHAIN, FAB; BROAD NEUTRALIZING ANTIBODY, RECOMBINANT FAB; HET: PO4; 2.4A {Homo sapiens}
+Probab=16.28  E-value=1.4e+02  Score=10.68  Aligned_cols=5  Identities=40%  Similarity=1.199  Sum_probs=0.0  Template_Neff=4.500
+
+Q LDQWNG            1 LDQWN    5 (6)
+Q Consensus         1 ldqwn    5 (6)
+                      ||+|+
+T Consensus         4 LdkW~    8 (36)
+T 5GHW_P            4 KDKWA    8 (36)
+T ss_pred             chHhH
+
+
+No 9
+>1A92_A DELTA ANTIGEN; LEUCINE ZIPPER, COILED-COIL, OLIGOMERIZATION, HEPATITIS; 1.8A {Hepatitis delta virus} SCOP: h.4.6.1
+Probab=15.73  E-value=1.5e+02  Score=11.85  Aligned_cols=4  Identities=75%  Similarity=1.963  Sum_probs=0.0  Template_Neff=2.800
+
+Q LDQWNG            1 LDQW    4 (6)
+Q Consensus         1 ldqw    4 (6)
+                      |+||
+T Consensus         6 leqW    9 (50)
+T 1A92_A            6 LEQW    9 (50)
+T ss_dssp             HHHH
+T ss_pred             HHHH
+
+
+No 10
+>1HOV_A MATRIX METALLOPROTEINASE-2; enzyme-inhibitor complex, HYDROLASE-HYDROLASE INHIBITOR COMPLEX; HET: ZN, CA, I52; NMR {Homo sapiens} SCOP: d.92.1.11
+Probab=15.46  E-value=1.5e+02  Score=10.40  Aligned_cols=5  Identities=20%  Similarity=1.099  Sum_probs=0.0  Template_Neff=10.900
+
+Q LDQWNG            1 LDQWN    5 (6)
+Q Consensus         1 ldqwn    5 (6)
+                      +++||
+T Consensus        40 ~~~w~   44 (163)
+T 1HOV_A           40 FQVWS   44 (163)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+

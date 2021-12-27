@@ -1,0 +1,175 @@
+Query         GERGFF
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 23:07:35 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GERGFF/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GERGFF/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5URT_B Insulin Chain A, Insuli  83.0    0.81   9E-06   15.8   0.0    6    1-6      20-25  (30)
+  2 3W7Y_B Insulin; Human insulin,  66.4     4.9 5.5E-05   13.6   0.0    6    1-6      20-25  (30)
+  3 6SOF_F Insulin receptor (E.C.2  66.4     4.9 5.5E-05   13.6   0.0    6    1-6      20-25  (30)
+  4 3PBH_A PROCATHEPSIN B; THIOL P  35.9      34 0.00038   13.8   0.0    6    1-6     289-294 (317)
+  5 4N4Z_A Cysteine peptidase C (C  34.8      37 0.00041   14.1   0.0    6    1-6     309-314 (340)
+  6 2LWL_A Beta-defensin 106; brea  31.7      45  0.0005   12.8   0.0    6    1-6       1-6   (49)
+  7 4I04_B Cathepsin B-like peptid  28.1      57 0.00063   13.2   0.0    6    1-6     297-302 (323)
+  8 3HHI_A cysteine protease, occl  26.7      62 0.00069   13.4   0.0    6    1-6     287-292 (325)
+  9 5FPW_B PRO CATHEPSIN B S9 (E.C  24.2      74 0.00082   13.1   0.0    6    1-6     290-295 (321)
+ 10 3QJ3_A Cathepsin L-like protei  23.5      78 0.00087   13.2   0.0    6    1-6     305-310 (331)
+ 11 6JD0_A Cathepsin L1 (E.C.3.4.2  21.6      90   0.001   13.3   0.0    6    1-6     334-339 (360)
+
+No 1
+>5URT_B Insulin Chain A, Insulin Chain; Insulin, HORMONE; 1.18A {Homo sapiens}
+Probab=83.03  E-value=0.81  Score=15.76  Aligned_cols=6  Identities=100%  Similarity=1.968  Sum_probs=4.4  Template_Neff=4.800
+
+Q GERGFF            1 GERGFF    6 (6)
+Q Consensus         1 gergff    6 (6)
+                      |+||||
+T Consensus        20 g~rGF~   25 (30)
+T 5URT_B           20 GERGFF   25 (30)
+T ss_dssp             GGGCBC
+T ss_pred             CCCccC
+Confidence            578886
+
+
+No 2
+>3W7Y_B Insulin; Human insulin, hormone, glucose metabolism; 0.92A {Homo sapiens}
+Probab=66.40  E-value=4.9  Score=13.62  Aligned_cols=6  Identities=100%  Similarity=1.968  Sum_probs=3.8  Template_Neff=5.200
+
+Q GERGFF            1 GERGFF    6 (6)
+Q Consensus         1 gergff    6 (6)
+                      |+|||+
+T Consensus        20 ~~rgf~   25 (30)
+T 3W7Y_B           20 GERGFF   25 (30)
+T ss_dssp             GGGCEE
+T ss_pred             CCcccc
+Confidence            457775
+
+
+No 3
+>6SOF_F Insulin receptor (E.C.2.7.10.1), Insulin; cell surface receptor, insulin, tyrosine; 4.3A {Homo sapiens}
+Probab=66.40  E-value=4.9  Score=13.62  Aligned_cols=6  Identities=100%  Similarity=1.968  Sum_probs=3.8  Template_Neff=5.200
+
+Q GERGFF            1 GERGFF    6 (6)
+Q Consensus         1 gergff    6 (6)
+                      |+|||+
+T Consensus        20 ~~rgf~   25 (30)
+T 6SOF_F           20 GERGFF   25 (30)
+T ss_dssp             CSCCCC
+T ss_pred             CCcccc
+Confidence            457775
+
+
+No 4
+>3PBH_A PROCATHEPSIN B; THIOL PROTEASE, CATHEPSIN B, CYSTEINE; 2.5A {Homo sapiens} SCOP: d.3.1.1
+Probab=35.94  E-value=34  Score=13.79  Aligned_cols=6  Identities=67%  Similarity=1.675  Sum_probs=2.9  Template_Neff=10.100
+
+Q GERGFF            1 GERGFF    6 (6)
+Q Consensus         1 gergff    6 (6)
+                      |+.|||
+T Consensus       289 G~~Gy~  294 (317)
+T 3PBH_A          289 GDNGFF  294 (317)
+T ss_dssp             TBTTEE
+T ss_pred             cccCEE
+Confidence            345554
+
+
+No 5
+>4N4Z_A Cysteine peptidase C (CPC) (E.C.3.4.22.-); PAPAIN FOLD, HYDROLASE, PROPEPTIDE, GLYCOSYLATION; HET: NAG, BMA; 3.3A {Trypanosoma brucei brucei}
+Probab=34.78  E-value=37  Score=14.07  Aligned_cols=6  Identities=50%  Similarity=1.276  Sum_probs=2.9  Template_Neff=9.700
+
+Q GERGFF            1 GERGFF    6 (6)
+Q Consensus         1 gergff    6 (6)
+                      |+.|||
+T Consensus       309 G~~Gy~  314 (340)
+T 4N4Z_A          309 GMDGYF  314 (340)
+T ss_dssp             TBTTEE
+T ss_pred             cccCEE
+Confidence            445554
+
+
+No 6
+>2LWL_A Beta-defensin 106; breast cancer, dynamic, ANTIMICROBIAL PROTEIN; NMR {Homo sapiens}
+Probab=31.70  E-value=45  Score=12.82  Aligned_cols=6  Identities=50%  Similarity=0.993  Sum_probs=1.2  Template_Neff=4.000
+
+Q GERGFF            1 GERGFF    6 (6)
+Q Consensus         1 gergff    6 (6)
+                      |.+|||
+T Consensus         1 ~~~~~f    6 (49)
+T 2LWL_A            1 GSHMFF    6 (49)
+T ss_dssp             ----CH
+T ss_pred             CCcccc
+Confidence            456665
+
+
+No 7
+>4I04_B Cathepsin B-like peptidase (C01 family); peptidase, digestive tract, HYDROLASE; HET: EDO; 1.95A {Schistosoma mansoni}
+Probab=28.10  E-value=57  Score=13.24  Aligned_cols=6  Identities=67%  Similarity=1.619  Sum_probs=2.6  Template_Neff=10.100
+
+Q GERGFF            1 GERGFF    6 (6)
+Q Consensus         1 gergff    6 (6)
+                      |+.|||
+T Consensus       297 G~~Gy~  302 (323)
+T 4I04_B          297 GENGYF  302 (323)
+T ss_dssp             TBTTEE
+T ss_pred             cccCEE
+Confidence            344543
+
+
+No 8
+>3HHI_A cysteine protease, occluding loop, Hydrolase; HET: GOL, 074; 1.6A {Trypanosoma brucei}
+Probab=26.72  E-value=62  Score=13.42  Aligned_cols=6  Identities=50%  Similarity=1.276  Sum_probs=2.7  Template_Neff=9.600
+
+Q GERGFF            1 GERGFF    6 (6)
+Q Consensus         1 gergff    6 (6)
+                      |+.|||
+T Consensus       287 G~~Gy~  292 (325)
+T 3HHI_A          287 GMDGYF  292 (325)
+T ss_dssp             TBTTEE
+T ss_pred             cccCEE
+Confidence            344543
+
+
+No 9
+>5FPW_B PRO CATHEPSIN B S9 (E.C.3.4.22.1); HYDROLASE, PRO CATHEPSIN B, TRYPANOSOMA; 2.1A {TRYPANOSOMA CONGOLENSE}
+Probab=24.15  E-value=74  Score=13.12  Aligned_cols=6  Identities=33%  Similarity=0.999  Sum_probs=2.6  Template_Neff=9.700
+
+Q GERGFF            1 GERGFF    6 (6)
+Q Consensus         1 gergff    6 (6)
+                      |+.|||
+T Consensus       290 G~~Gy~  295 (321)
+T 5FPW_B          290 GMDGYL  295 (321)
+T ss_dssp             TBTTEE
+T ss_pred             cccCEE
+Confidence            344543
+
+
+No 10
+>3QJ3_A Cathepsin L-like protein (E.C.3.4.22.15); hydrolase, proteinase, larval midgut; HET: ACT; 1.85A {Tenebrio molitor}
+Probab=23.48  E-value=78  Score=13.18  Aligned_cols=6  Identities=50%  Similarity=1.232  Sum_probs=2.6  Template_Neff=9.600
+
+Q GERGFF            1 GERGFF    6 (6)
+Q Consensus         1 gergff    6 (6)
+                      |+.|||
+T Consensus       305 G~~Gy~  310 (331)
+T 3QJ3_A          305 GLDGYF  310 (331)
+T ss_dssp             TBTTEE
+T ss_pred             ccccEE
+Confidence            344543
+
+
+No 11
+>6JD0_A Cathepsin L1 (E.C.3.4.22.15); cathepsin L, collagenase, GAG, HYDROLASE; HET: GOL, PGE, EOH, EDO, PO4, POL; 1.805A {Homo sapiens}
+Probab=21.61  E-value=90  Score=13.33  Aligned_cols=6  Identities=33%  Similarity=1.221  Sum_probs=2.6  Template_Neff=9.300
+
+Q GERGFF            1 GERGFF    6 (6)
+Q Consensus         1 gergff    6 (6)
+                      |+.|||
+T Consensus       334 G~~Gy~  339 (360)
+T 6JD0_A          334 GNKGYV  339 (360)
+T ss_dssp             TBTTEE
+T ss_pred             hhhCeE
+Confidence            344543
+
+

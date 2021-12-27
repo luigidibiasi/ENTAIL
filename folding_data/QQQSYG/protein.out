@@ -1,0 +1,149 @@
+Query         QQQSYG
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 09:56:54 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QQQSYG/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QQQSYG/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 1R3U_A phosphoribosyltransfera  25.2      69 0.00077   13.1   0.0    6    1-6       8-13  (205)
+  2 2FOT_C Calmodulin, alpha-II sp  15.3 1.6E+02  0.0017   11.7   0.0    6    1-6       1-6   (42)
+  3 6ZPE_A nsp10 (E.C.3.4.19.12,3.  14.5 1.7E+02  0.0019   13.6   0.0    5    2-6      59-63  (125)
+  4 2XYQ_B PUTATIVE 2'-O-METHYL TR  14.5 1.7E+02  0.0019   13.5   0.0    5    2-6      56-60  (122)
+  5 3GW7_A Uncharacterized protein  13.1   2E+02  0.0022   11.6   0.0    6    1-6     226-231 (239)
+  6 7MC5_M ?; RNA binding, VIRAL P  13.1   2E+02  0.0022   13.6   0.0    6    1-6      65-70  (140)
+  7 5YNF_B nsp16 protein, nsp10 pr  12.2 2.2E+02  0.0024   13.4   0.0    5    2-6      65-69  (140)
+  8 5YNM_B nsp16 protein, nsp10 pr  12.2 2.2E+02  0.0024   13.4   0.0    5    2-6      65-69  (140)
+  9 7L6T_B 2'-O-methyltransferase,  11.5 2.4E+02  0.0026   13.3   0.0    5    2-6      67-71  (141)
+ 10 5YVG_X Transportin-1, RNA-bind  10.3 2.8E+02  0.0031   14.5   0.0    5    2-6      37-41  (528)
+
+No 1
+>1R3U_A phosphoribosyltransferase, Thermoanaerobacter tengcongensis, purine salvage; 2.5A {Thermoanaerobacter tengcongensis} SCOP: c.61.1.1
+Probab=25.16  E-value=69  Score=13.05  Aligned_cols=6  Identities=50%  Similarity=0.534  Sum_probs=0.0  Template_Neff=8.400
+
+Q QQQSYG            1 QQQSYG    6 (6)
+Q Consensus         1 qqqsyg    6 (6)
+                      ||.+|+
+T Consensus         8 ~~~~~~   13 (205)
+T 1R3U_A            8 QQMGRG   13 (205)
+T ss_dssp             ------
+T ss_pred             cccCCC
+Confidence            455553
+
+
+No 2
+>2FOT_C Calmodulin, alpha-II spectrin Spectrin; calmodulin, calmodulin binding domain, spectrin; 2.45A {Bos taurus}
+Probab=15.33  E-value=1.6e+02  Score=11.73  Aligned_cols=6  Identities=67%  Similarity=1.138  Sum_probs=0.0  Template_Neff=1.000
+
+Q QQQSYG            1 QQQSYG    6 (6)
+Q Consensus         1 qqqsyg    6 (6)
+                      ||.-||
+T Consensus         1 qqevyg    6 (42)
+T 2FOT_C            1 QQEVYG    6 (42)
+T ss_dssp             H-----
+T ss_pred             CCcccc
+
+
+No 3
+>6ZPE_A nsp10 (E.C.3.4.19.12,3.4.22.-,3.4.22.69); SARS CoV-2, nonstructural protein, nsp10; 1.58A {Severe acute respiratory syndrome coronavirus 2}
+Probab=14.53  E-value=1.7e+02  Score=13.58  Aligned_cols=5  Identities=60%  Similarity=1.218  Sum_probs=0.0  Template_Neff=2.300
+
+Q QQQSYG            2 QQSYG    6 (6)
+Q Consensus         2 qqsyg    6 (6)
+                      |.|||
+T Consensus        59 QdSYG   63 (125)
+T 6ZPE_A           59 QESFG   63 (125)
+T ss_dssp             EEEEE
+T ss_pred             CcccC
+
+
+No 4
+>2XYQ_B PUTATIVE 2'-O-METHYL TRANSFERASE (E.C.2.1.1.-), NON-STRUCTURAL; TRANSFERASE-VIRAL PROTEIN COMPLEX, ROSSMANN FOLD; HET: SAH; 2.0A {SARS CORONAVIRUS}
+Probab=14.47  E-value=1.7e+02  Score=13.52  Aligned_cols=5  Identities=60%  Similarity=1.218  Sum_probs=0.0  Template_Neff=2.300
+
+Q QQQSYG            2 QQSYG    6 (6)
+Q Consensus         2 qqsyg    6 (6)
+                      |.|||
+T Consensus        56 QdSYG   60 (122)
+T 2XYQ_B           56 QESFG   60 (122)
+T ss_pred             ccccC
+
+
+No 5
+>3GW7_A Uncharacterized protein yedJ; All alpha-helical protein, Structural Genomics; 3.3A {Escherichia coli K-12}
+Probab=13.12  E-value=2e+02  Score=11.64  Aligned_cols=6  Identities=33%  Similarity=0.224  Sum_probs=0.0  Template_Neff=9.300
+
+Q QQQSYG            1 QQQSYG    6 (6)
+Q Consensus         1 qqqsyg    6 (6)
+                      ||||-|
+T Consensus       226 ~~~~~~  231 (239)
+T 3GW7_A          226 AFSSAG  231 (239)
+T ss_dssp             HHSCTT
+T ss_pred             HHHhcC
+
+
+No 6
+>7MC5_M ?; RNA binding, VIRAL PROTEIN; HET: EDO, TLA; 1.64A {Severe acute respiratory syndrome coronavirus 2}
+Probab=13.07  E-value=2e+02  Score=13.56  Aligned_cols=6  Identities=50%  Similarity=1.066  Sum_probs=0.0  Template_Neff=2.400
+
+Q QQQSYG            1 QQQSYG    6 (6)
+Q Consensus         1 qqqsyg    6 (6)
+                      .|.|||
+T Consensus        65 ~QdSYG   70 (140)
+T 7MC5_M           65 DQESFG   70 (140)
+T ss_dssp             TEEEEE
+T ss_pred             CccccC
+
+
+No 7
+>5YNF_B nsp16 protein, nsp10 protein; Inhibitor, complex, TRANSFERASE; HET: GTA; 1.791A {Human betacoronavirus 2c EMC/2012}
+Probab=12.24  E-value=2.2e+02  Score=13.43  Aligned_cols=5  Identities=60%  Similarity=1.351  Sum_probs=0.0  Template_Neff=2.400
+
+Q QQQSYG            2 QQSYG    6 (6)
+Q Consensus         2 qqsyg    6 (6)
+                      |.|||
+T Consensus        65 QdSYG   69 (140)
+T 5YNF_B           65 QETYG   69 (140)
+T ss_dssp             EEEEE
+T ss_pred             ccccc
+
+
+No 8
+>5YNM_B nsp16 protein, nsp10 protein; inhibitor, cofactor, complex, TRANSFERASE; HET: SAM, GTA; 1.68A {Human betacoronavirus 2c EMC/2012}
+Probab=12.24  E-value=2.2e+02  Score=13.43  Aligned_cols=5  Identities=60%  Similarity=1.351  Sum_probs=0.0  Template_Neff=2.400
+
+Q QQQSYG            2 QQSYG    6 (6)
+Q Consensus         2 qqsyg    6 (6)
+                      |.|||
+T Consensus        65 QdSYG   69 (140)
+T 5YNM_B           65 QETYG   69 (140)
+T ss_dssp             EEEEE
+T ss_pred             ccccc
+
+
+No 9
+>7L6T_B 2'-O-methyltransferase, Non-structural protein 10,RNA (5'-D(*(M7G))-R(P*(A2M)P*UP*U)-3'); Structural Genomics, Center for Structural; HET: SAH, M7G, BDF, A2M, GLC; 1.78A {Severe acute respiratory syndrome coronavirus 2}
+Probab=11.49  E-value=2.4e+02  Score=13.33  Aligned_cols=5  Identities=60%  Similarity=1.218  Sum_probs=0.0  Template_Neff=2.400
+
+Q QQQSYG            2 QQSYG    6 (6)
+Q Consensus         2 qqsyg    6 (6)
+                      |.|||
+T Consensus        67 QdSYG   71 (141)
+T 7L6T_B           67 QESFG   71 (141)
+T ss_dssp             EEEEE
+T ss_pred             ccccc
+
+
+No 10
+>5YVG_X Transportin-1, RNA-binding protein FUS; Importin family, PROTEIN TRANSPORT, PROTEIN; 4.05A {Homo sapiens}
+Probab=10.26  E-value=2.8e+02  Score=14.48  Aligned_cols=5  Identities=80%  Similarity=1.052  Sum_probs=0.0  Template_Neff=5.400
+
+Q QQQSYG            2 QQSYG    6 (6)
+Q Consensus         2 qqsyg    6 (6)
+                      ||+|+
+T Consensus        37 qq~y~   41 (528)
+T 5YVG_X           37 QQSYS   41 (528)
+T ss_pred             ccccC
+
+

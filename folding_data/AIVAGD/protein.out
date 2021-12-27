@@ -1,0 +1,154 @@
+Query         AIVAGD
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 14:32:33 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/AIVAGD/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/AIVAGD/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5Y3T_A RanBP-type and C3HC4-ty  42.4      23 0.00026   12.9   0.0    6    1-6      18-23  (140)
+  2 6UKD_A Streptopain (E.C.3.4.22  24.9      70 0.00078   14.6   0.0    6    1-6      63-68  (380)
+  3 3BB7_A interpain A; cysteine p  24.6      72  0.0008   14.1   0.0    6    1-6      24-29  (321)
+  4 6ZVZ_B Uncharacterized protein  24.4      73 0.00081   16.0   0.0    6    1-6      15-20  (295)
+  5 6ZVZ_C Uncharacterized protein  24.4      73 0.00081   16.0   0.0    6    1-6      15-20  (295)
+  6 1II7_B Mre11 nuclease, 2'-DEOX  19.9   1E+02  0.0011   12.6   0.0    5    2-6      45-49  (333)
+  7 4B8C_K POLY(A) RIBONUCLEASE PO  19.1 1.1E+02  0.0012   14.2   0.0    5    2-6     599-603 (727)
+  8 2J63_B AP-ENDONUCLEASE (E.C.4.  18.9 1.1E+02  0.0012   13.6   0.0    5    2-6     351-355 (467)
+  9 5Y6P_b2 LRC6, LRC4, LRC5, alph  18.8 1.1E+02  0.0013   16.8   0.0    6    1-6     163-168 (885)
+ 10 1JCU_A conserved protein MTH16  18.4 1.2E+02  0.0013   12.7   0.0    6    1-6     202-207 (208)
+
+No 1
+>5Y3T_A RanBP-type and C3HC4-type zinc finger-containing; HOIP, HOIL-1L, SHARPIN, Linear-Ubiquitin Assembly; 2.4A {Mus musculus}
+Probab=42.36  E-value=23  Score=12.89  Aligned_cols=6  Identities=50%  Similarity=0.966  Sum_probs=3.0  Template_Neff=9.600
+
+Q AIVAGD            1 AIVAGD    6 (6)
+Q Consensus         1 aivagd    6 (6)
+                      ||.+||
+T Consensus        18 ai~~g~   23 (140)
+T 5Y3T_A           18 AVAGGD   23 (140)
+T ss_dssp             HHHTTC
+T ss_pred             HHHCCC
+Confidence            455554
+
+
+No 2
+>6UKD_A Streptopain (E.C.3.4.22.10); speb, streptopain, inhibitor, nitrile, HYDROLASE-HYDROLASE; HET: Q9D; 1.589A {Streptococcus pyogenes ATCC 10782}
+Probab=24.95  E-value=70  Score=14.59  Aligned_cols=6  Identities=67%  Similarity=1.104  Sum_probs=0.0  Template_Neff=7.700
+
+Q AIVAGD            1 AIVAGD    6 (6)
+Q Consensus         1 aivagd    6 (6)
+                      +||+||
+T Consensus        63 vIvSaD   68 (380)
+T 6UKD_A           63 VIVSGD   68 (380)
+T ss_dssp             ------
+T ss_pred             EEEeCC
+Confidence            355554
+
+
+No 3
+>3BB7_A interpain A; cysteine protease, zymogen activation, bacterial; 1.5A {Prevotella intermedia}
+Probab=24.61  E-value=72  Score=14.08  Aligned_cols=6  Identities=33%  Similarity=0.828  Sum_probs=3.2  Template_Neff=8.000
+
+Q AIVAGD            1 AIVAGD    6 (6)
+Q Consensus         1 aivagd    6 (6)
+                      +||+||
+T Consensus        24 vIvs~D   29 (321)
+T 3BB7_A           24 AVISAD   29 (321)
+T ss_dssp             EEECCC
+T ss_pred             EEEEeC
+Confidence            356655
+
+
+No 4
+>6ZVZ_B Uncharacterized protein MJ0548; Protein Ligase, Transpeptidase, Methanogenesis, Proteasome; 2.3A {Methanocaldococcus jannaschii}
+Probab=24.41  E-value=73  Score=16.01  Aligned_cols=6  Identities=50%  Similarity=1.132  Sum_probs=4.1  Template_Neff=3.500
+
+Q AIVAGD            1 AIVAGD    6 (6)
+Q Consensus         1 aivagd    6 (6)
+                      |++|||
+T Consensus        15 aVmaGD   20 (295)
+T 6ZVZ_B           15 AVIGGD   20 (295)
+T ss_dssp             EEEEEE
+T ss_pred             EEEEec
+Confidence            567776
+
+
+No 5
+>6ZVZ_C Uncharacterized protein MJ0548; Protein Ligase, Transpeptidase, Methanogenesis, Proteasome; 2.3A {Methanocaldococcus jannaschii}
+Probab=24.41  E-value=73  Score=16.01  Aligned_cols=6  Identities=50%  Similarity=1.132  Sum_probs=4.1  Template_Neff=3.500
+
+Q AIVAGD            1 AIVAGD    6 (6)
+Q Consensus         1 aivagd    6 (6)
+                      |++|||
+T Consensus        15 aVmaGD   20 (295)
+T 6ZVZ_C           15 AVIGGD   20 (295)
+T ss_dssp             EEEEEE
+T ss_pred             EEEEec
+Confidence            567776
+
+
+No 6
+>1II7_B Mre11 nuclease, 2'-DEOXY-ADENOSINE 3'-MONOPHOSPHATE; Rad50, Mre11, DNA double-strand break; HET: DA, SO4; 2.2A {Pyrococcus furiosus} SCOP: d.159.1.4
+Probab=19.86  E-value=1e+02  Score=12.58  Aligned_cols=5  Identities=60%  Similarity=1.305  Sum_probs=0.0  Template_Neff=10.100
+
+Q AIVAGD            2 IVAGD    6 (6)
+Q Consensus         2 ivagd    6 (6)
+                      |++||
+T Consensus        45 i~~GD   49 (333)
+T 1II7_B           45 LIAGD   49 (333)
+T ss_dssp             EEESC
+T ss_pred             EEccC
+
+
+No 7
+>4B8C_K POLY(A) RIBONUCLEASE POP2 (E.C.3.1.13.4), GENERAL; HYDROLASE-CELL CYCLE COMPLEX; 3.41A {SACCHAROMYCES CEREVISIAE}
+Probab=19.14  E-value=1.1e+02  Score=14.24  Aligned_cols=5  Identities=40%  Similarity=1.179  Sum_probs=0.0  Template_Neff=9.600
+
+Q AIVAGD            2 IVAGD    6 (6)
+Q Consensus         2 ivagd    6 (6)
+                      |++||
+T Consensus       599 Ii~GD  603 (727)
+T 4B8C_K          599 LICGD  603 (727)
+T ss_dssp             -----
+T ss_pred             EEEec
+
+
+No 8
+>2J63_B AP-ENDONUCLEASE (E.C.4.2.99.18); LEISHMANIA, ENDONUCLEASE, BASE EXCISION REPAIR; 2.48A {LEISHMANIA MAJOR}
+Probab=18.89  E-value=1.1e+02  Score=13.65  Aligned_cols=5  Identities=80%  Similarity=1.006  Sum_probs=0.0  Template_Neff=9.100
+
+Q AIVAGD            2 IVAGD    6 (6)
+Q Consensus         2 ivagd    6 (6)
+                      |++||
+T Consensus       351 Il~GD  355 (467)
+T 2J63_B          351 IWAGD  355 (467)
+T ss_dssp             EEEEE
+T ss_pred             EEEee
+
+
+No 9
+>5Y6P_b2 LRC6, LRC4, LRC5, alpha_APC, beta_APC; phycobilisome, PHOTOSYNTHESIS; HET: PUB, CYC, PEB, PVN; 3.5A {Griffithsia pacifica}
+Probab=18.78  E-value=1.1e+02  Score=16.81  Aligned_cols=6  Identities=100%  Similarity=1.304  Sum_probs=0.0  Template_Neff=5.200
+
+Q AIVAGD            1 AIVAGD    6 (6)
+Q Consensus         1 aivagd    6 (6)
+                      ||++||
+T Consensus       163 AIvaGD  168 (885)
+T 5Y6P_b2         163 AIVAGD  168 (885)
+T ss_pred             HHHcCC
+
+
+No 10
+>1JCU_A conserved protein MTH1692; mixed alpha-beta structure, structural genomics; NMR {Methanothermobacter thermautotrophicus} SCOP: d.115.1.1
+Probab=18.37  E-value=1.2e+02  Score=12.65  Aligned_cols=6  Identities=50%  Similarity=0.379  Sum_probs=0.0  Template_Neff=8.000
+
+Q AIVAGD            1 AIVAGD    6 (6)
+Q Consensus         1 aivagd    6 (6)
+                      ++++||
+T Consensus       202 ~~~~~~  207 (208)
+T 1JCU_A          202 LRGAGD  207 (208)
+T ss_dssp             SCCCCC
+T ss_pred             hcCCCC
+
+

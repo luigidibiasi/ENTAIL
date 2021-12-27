@@ -1,0 +1,195 @@
+Query         QYFEQF
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 11:27:51 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QYFEQF/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QYFEQF/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4IRV_D Cytotoxicity-associated  54.8      11 0.00012   18.5   0.0    6    1-6      72-77  (221)
+  2 7RRO_O cilia, microtubule, dyn  49.8      15 0.00017   17.3   0.0    6    1-6     367-372 (377)
+  3 7RRO_P cilia, microtubule, dyn  49.8      15 0.00017   17.3   0.0    6    1-6     367-372 (377)
+  4 6U42_4R Tubulin beta, Tubulin   48.8      16 0.00018   17.3   0.0    6    1-6     357-362 (367)
+  5 6U42_4U Tubulin beta, Tubulin   48.6      16 0.00018   17.2   0.0    6    1-6     357-362 (367)
+  6 4N7Z_B Serine/threonine-protei  46.8      18  0.0002   14.8   0.0    6    1-6      29-34  (58)
+  7 4DVY_P Cytotoxicity-associated  37.1      32 0.00036   19.7   0.0    6    1-6      86-91  (876)
+  8 2P6J_A designed engrailed home  33.9      39 0.00043   13.8   0.0    6    1-6      43-48  (52)
+  9 6HIW_CK Uncharacterized protei  27.8      58 0.00064   16.3   0.0    6    1-6      40-45  (326)
+ 10 6HIZ_CK Uncharacterized protei  27.7      58 0.00064   16.4   0.0    6    1-6      40-45  (326)
+ 11 7ANE_f mL94, mL89, Ribosomal p  26.5      63  0.0007   16.6   0.0    6    1-6      40-45  (371)
+ 12 1PGX_A PROTEIN G TYPE 7 (B2; I  23.3      79 0.00088   13.5   0.0    6    1-6      41-46  (83)
+ 13 4YKC_A Malcavernin; adaptor pr  21.9      88 0.00097   14.6   0.0    6    1-6      75-80  (164)
+
+No 1
+>4IRV_D Cytotoxicity-associated immunodominant antigen, Apoptosis-stimulating of; Virulence factor and tumor suppressor; 2.04A {Helicobacter pylori}
+Probab=54.83  E-value=11  Score=18.46  Aligned_cols=6  Identities=67%  Similarity=1.420  Sum_probs=4.4  Template_Neff=2.100
+
+Q QYFEQF            1 QYFEQF    6 (6)
+Q Consensus         1 qyfeqf    6 (6)
+                      |||++|
+T Consensus        72 qyfs~f   77 (221)
+T 4IRV_D           72 QYFSDF   77 (221)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            678776
+
+
+No 2
+>7RRO_O cilia, microtubule, dynein, motility, STRUCTURAL; HET: GDP, GTP, MG; 3.4A {Bos taurus}
+Probab=49.79  E-value=15  Score=17.26  Aligned_cols=6  Identities=67%  Similarity=1.403  Sum_probs=4.6  Template_Neff=6.500
+
+Q QYFEQF            1 QYFEQF    6 (6)
+Q Consensus         1 qyfeqf    6 (6)
+                      .||.||
+T Consensus       367 ~yF~qF  372 (377)
+T 7RRO_O          367 DYFTQF  372 (377)
+T ss_pred             HHHHhc
+Confidence            488887
+
+
+No 3
+>7RRO_P cilia, microtubule, dynein, motility, STRUCTURAL; HET: GDP, GTP, MG; 3.4A {Bos taurus}
+Probab=49.79  E-value=15  Score=17.26  Aligned_cols=6  Identities=67%  Similarity=1.403  Sum_probs=4.6  Template_Neff=6.500
+
+Q QYFEQF            1 QYFEQF    6 (6)
+Q Consensus         1 qyfeqf    6 (6)
+                      .||.||
+T Consensus       367 ~yF~qF  372 (377)
+T 7RRO_P          367 DYFTQF  372 (377)
+T ss_pred             HHHHhc
+Confidence            488887
+
+
+No 4
+>6U42_4R Tubulin beta, Tubulin alpha, PACRG; motile cilia, microtubule doublet, repetitive; HET: GDP, MG, GTP; 3.4A {Chlamydomonas reinhardtii}
+Probab=48.81  E-value=16  Score=17.29  Aligned_cols=6  Identities=50%  Similarity=1.298  Sum_probs=4.6  Template_Neff=6.200
+
+Q QYFEQF            1 QYFEQF    6 (6)
+Q Consensus         1 qyfeqf    6 (6)
+                      .||.||
+T Consensus       357 ~yF~QF  362 (367)
+T 6U42_4R         357 EFFTQF  362 (367)
+T ss_pred             HHHHhh
+Confidence            488887
+
+
+No 5
+>6U42_4U Tubulin beta, Tubulin alpha, PACRG; motile cilia, microtubule doublet, repetitive; HET: MG, GDP, GTP; 3.4A {Chlamydomonas reinhardtii}
+Probab=48.59  E-value=16  Score=17.21  Aligned_cols=6  Identities=50%  Similarity=1.298  Sum_probs=4.6  Template_Neff=6.300
+
+Q QYFEQF            1 QYFEQF    6 (6)
+Q Consensus         1 qyfeqf    6 (6)
+                      .||.||
+T Consensus       357 ~yF~qF  362 (367)
+T 6U42_4U         357 EFFTQF  362 (367)
+T ss_pred             HHHHhh
+Confidence            488887
+
+
+No 6
+>4N7Z_B Serine/threonine-protein kinase PLK4 (E.C.2.7.11.21), Centrosomal; K/R crater, D-rich motif, Centriole; 2.85A {Homo sapiens}
+Probab=46.81  E-value=18  Score=14.77  Aligned_cols=6  Identities=67%  Similarity=1.270  Sum_probs=4.0  Template_Neff=2.600
+
+Q QYFEQF            1 QYFEQF    6 (6)
+Q Consensus         1 qyfeqf    6 (6)
+                      .||||.
+T Consensus        29 aYFeqL   34 (58)
+T 4N7Z_B           29 AYFEQL   34 (58)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHh
+Confidence            378873
+
+
+No 7
+>4DVY_P Cytotoxicity-associated immunodominant antigen; oncoprotein; 3.3A {Helicobacter pylori}
+Probab=37.08  E-value=32  Score=19.69  Aligned_cols=6  Identities=67%  Similarity=1.420  Sum_probs=4.6  Template_Neff=2.000
+
+Q QYFEQF            1 QYFEQF    6 (6)
+Q Consensus         1 qyfeqf    6 (6)
+                      |||++|
+T Consensus        86 qyfs~f   91 (876)
+T 4DVY_P           86 QYFSDF   91 (876)
+T ss_pred             HHHHHH
+Confidence            688876
+
+
+No 8
+>2P6J_A designed engrailed homeodomain variant UVF; DE NOVO PROTEIN, HELIX-TURN-HELIX, COMPUTATIONAL; NMR {unidentified}
+Probab=33.91  E-value=39  Score=13.83  Aligned_cols=6  Identities=67%  Similarity=1.503  Sum_probs=2.8  Template_Neff=1.000
+
+Q QYFEQF            1 QYFEQF    6 (6)
+Q Consensus         1 qyfeqf    6 (6)
+                      |+||.|
+T Consensus        43 qffeef   48 (52)
+T 2P6J_A           43 QFFEEF   48 (52)
+Confidence            345543
+
+
+No 9
+>6HIW_CK Uncharacterized protein, mS74, uS3m, 30S; mitoribosome, translation, Trypanosoma, small ribosomal; HET: SPD, MG, SPM, GTP, UTP; 3.37A {Trypanosoma brucei brucei}
+Probab=27.76  E-value=58  Score=16.34  Aligned_cols=6  Identities=67%  Similarity=1.475  Sum_probs=4.0  Template_Neff=4.000
+
+Q QYFEQF            1 QYFEQF    6 (6)
+Q Consensus         1 qyfeqf    6 (6)
+                      |||+.|
+T Consensus        40 q~f~~~   45 (326)
+T 6HIW_CK          40 QYFNHF   45 (326)
+T ss_pred             hhHHhh
+Confidence            677765
+
+
+No 10
+>6HIZ_CK Uncharacterized protein, uS3m, UNK/RNA Complex; mitoribosome, translation, Trypanosoma, small ribosomal; HET: GTP, SPD, UTP; 3.08A {Trypanosoma brucei brucei}
+Probab=27.73  E-value=58  Score=16.37  Aligned_cols=6  Identities=67%  Similarity=1.475  Sum_probs=4.1  Template_Neff=3.900
+
+Q QYFEQF            1 QYFEQF    6 (6)
+Q Consensus         1 qyfeqf    6 (6)
+                      |||+.|
+T Consensus        40 q~f~~~   45 (326)
+T 6HIZ_CK          40 QYFNHF   45 (326)
+T ss_pred             hhHHhh
+Confidence            677765
+
+
+No 11
+>7ANE_f mL94, mL89, Ribosomal protein L3-like; Ribosome, Mitochondria, Kinetoplastid; HET: NAD; 3.9A {Leishmania major}
+Probab=26.49  E-value=63  Score=16.62  Aligned_cols=6  Identities=67%  Similarity=1.503  Sum_probs=4.2  Template_Neff=3.600
+
+Q QYFEQF            1 QYFEQF    6 (6)
+Q Consensus         1 qyfeqf    6 (6)
+                      |||+.|
+T Consensus        40 q~f~~~   45 (371)
+T 7ANE_f           40 QYFNEF   45 (371)
+T ss_pred             HHHHHH
+Confidence            678765
+
+
+No 12
+>1PGX_A PROTEIN G TYPE 7 (B2; IMMUNOGLOBULIN BINDING PROTEIN; 1.66A {Streptococcus} SCOP: d.15.7.1
+Probab=23.29  E-value=79  Score=13.53  Aligned_cols=6  Identities=33%  Similarity=0.849  Sum_probs=3.1  Template_Neff=3.100
+
+Q QYFEQF            1 QYFEQF    6 (6)
+Q Consensus         1 qyfeqf    6 (6)
+                      +||.+|
+T Consensus        41 ~yF~~~   46 (83)
+T 1PGX_A           41 KAFKQY   46 (83)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            356553
+
+
+No 13
+>4YKC_A Malcavernin; adaptor protein; HET: MSE; 2.7A {Homo sapiens}
+Probab=21.94  E-value=88  Score=14.65  Aligned_cols=6  Identities=67%  Similarity=1.043  Sum_probs=3.4  Template_Neff=3.400
+
+Q QYFEQF            1 QYFEQF    6 (6)
+Q Consensus         1 qyfeqf    6 (6)
+                      +|||.|
+T Consensus        75 ~~FE~F   80 (164)
+T 4YKC_A           75 QHFENF   80 (164)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            356655
+
+

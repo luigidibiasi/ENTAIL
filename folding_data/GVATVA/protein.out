@@ -1,0 +1,151 @@
+Query         GVATVA
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 04:26:00 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GVATVA/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GVATVA/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3Q27_A Maltose-binding peripla  60.6     7.5 8.3E-05   15.5   0.0    6    1-6     391-396 (397)
+  2 3INN_A Pantothenate synthetase   9.1 3.2E+02  0.0036   12.7   0.0    5    1-5     148-152 (314)
+  3 3MAW_B Fusion glycoprotein F0;   9.1 3.3E+02  0.0036   14.3   0.0    6    1-6      97-102 (483)
+  4 5UCR_B Pantothenate synthetase   8.7 3.5E+02  0.0038   12.4   0.0    5    1-5     131-135 (285)
+  5 1G5G_C FUSION PROTEIN; fusion    8.3 3.7E+02  0.0041   14.1   0.0    6    1-6      97-102 (481)
+  6 1IHO_B PANTOATE--BETA-ALANINE    8.2 3.8E+02  0.0042   12.2   0.0    5    1-5     129-133 (283)
+  7 5EVM_C Fusion glycoprotein F0;   8.1 3.8E+02  0.0042   14.3   0.0    6    1-6     121-126 (529)
+  8 2B9B_B Parainfluenza Virus 5 F   7.9   4E+02  0.0044   14.2   0.0    6    1-6      93-98  (497)
+  9 3INN_C Pantothenate synthetase   7.5 4.3E+02  0.0047   12.4   0.0    5    1-5     148-152 (314)
+ 10 7KI6_A Fusion glycoprotein F0,   7.1 4.6E+02  0.0051   14.1   0.0    6    1-6     121-126 (543)
+
+No 1
+>3Q27_A Maltose-binding periplasmic protein/alpha-synuclein chimeric protein; fusion protein, amyloid, SUGAR BINDING; HET: MAL, GOL, SO4; 1.302A {Escherichia coli, Homo sapiens}
+Probab=60.64  E-value=7.5  Score=15.47  Aligned_cols=6  Identities=100%  Similarity=1.149  Sum_probs=3.9  Template_Neff=11.000
+
+Q GVATVA            1 GVATVA    6 (6)
+Q Consensus         1 gvatva    6 (6)
+                      ||||||
+T Consensus       391 ~~~~~~  396 (397)
+T 3Q27_A          391 GVATVA  396 (397)
+T ss_dssp             CGGGGC
+T ss_pred             eeeecc
+Confidence            567765
+
+
+No 2
+>3INN_A Pantothenate synthetase (E.C.6.3.2.1); SSGCID, SBRI, UW, DECODE, NIH; HET: ATP; 2.1A {Brucella melitensis}
+Probab=9.15  E-value=3.2e+02  Score=12.74  Aligned_cols=5  Identities=100%  Similarity=1.218  Sum_probs=0.0  Template_Neff=6.700
+
+Q GVATVA            1 GVATV    5 (6)
+Q Consensus         1 gvatv    5 (6)
+                      ||+||
+T Consensus       148 gv~tv  152 (314)
+T 3INN_A          148 GVATV  152 (314)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 3
+>3MAW_B Fusion glycoprotein F0; Fusion protein, class I, paramyxovirus; HET: NDG, NAG; 3.5A {Newcastle disease virus}
+Probab=9.11  E-value=3.3e+02  Score=14.29  Aligned_cols=6  Identities=83%  Similarity=0.966  Sum_probs=0.0  Template_Neff=4.900
+
+Q GVATVA            1 GVATVA    6 (6)
+Q Consensus         1 gvatva    6 (6)
+                      ||||.|
+T Consensus        97 GVAtaA  102 (483)
+T 3MAW_B           97 GVATAA  102 (483)
+T ss_dssp             ------
+T ss_pred             HHHHHH
+
+
+No 4
+>5UCR_B Pantothenate synthetase (E.C.6.3.2.1); SSGCID, pantoate-beta-alanine_ligase, AMPPNP, Structural Genomics; HET: ALA, ANP; 2.25A {Neisseria gonorrhoeae}
+Probab=8.71  E-value=3.5e+02  Score=12.44  Aligned_cols=5  Identities=100%  Similarity=1.218  Sum_probs=0.0  Template_Neff=6.800
+
+Q GVATVA            1 GVATV    5 (6)
+Q Consensus         1 gvatv    5 (6)
+                      ||+||
+T Consensus       131 gv~tv  135 (285)
+T 5UCR_B          131 GVATV  135 (285)
+T ss_dssp             HHHHH
+T ss_pred             hHHHH
+
+
+No 5
+>1G5G_C FUSION PROTEIN; fusion protein, NDV, Newcastle disease; HET: BMA, NAG; 3.3A {Newcastle disease virus} SCOP: f.12.1.1, h.3.2.1
+Probab=8.35  E-value=3.7e+02  Score=14.12  Aligned_cols=6  Identities=83%  Similarity=0.966  Sum_probs=0.0  Template_Neff=4.900
+
+Q GVATVA            1 GVATVA    6 (6)
+Q Consensus         1 gvatva    6 (6)
+                      ||||.|
+T Consensus        97 GVAtaa  102 (481)
+T 1G5G_C           97 GVATAA  102 (481)
+T ss_dssp             ------
+T ss_pred             HHHHHH
+
+
+No 6
+>1IHO_B PANTOATE--BETA-ALANINE LIGASE (E.C.6.3.2.1); Rossmann fold, dimer, apo, HIGH; HET: EDO; 1.7A {Escherichia coli} SCOP: c.26.1.4
+Probab=8.17  E-value=3.8e+02  Score=12.18  Aligned_cols=5  Identities=60%  Similarity=1.112  Sum_probs=0.0  Template_Neff=7.100
+
+Q GVATVA            1 GVATV    5 (6)
+Q Consensus         1 gvatv    5 (6)
+                      ||+||
+T Consensus       129 gv~tv  133 (283)
+T 1IHO_B          129 GVSTI  133 (283)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 7
+>5EVM_C Fusion glycoprotein F0; fusion protein, Nipah, prefusion, paramyxovirus; HET: MLI, BMA, MAN, NAG; 3.367A {Nipah virus}
+Probab=8.07  E-value=3.8e+02  Score=14.35  Aligned_cols=6  Identities=67%  Similarity=0.949  Sum_probs=0.0  Template_Neff=4.600
+
+Q GVATVA            1 GVATVA    6 (6)
+Q Consensus         1 gvatva    6 (6)
+                      ||||.|
+T Consensus       121 GVAtaa  126 (529)
+T 5EVM_C          121 GIATAA  126 (529)
+T ss_dssp             CSEEHH
+T ss_pred             HHHHHH
+
+
+No 8
+>2B9B_B Parainfluenza Virus 5 F Protein; fusion protein, pre-fusion conformation, VIRAL; HET: NAG; 2.85A {Simian virus 5}
+Probab=7.89  E-value=4e+02  Score=14.19  Aligned_cols=6  Identities=83%  Similarity=0.966  Sum_probs=0.0  Template_Neff=4.600
+
+Q GVATVA            1 GVATVA    6 (6)
+Q Consensus         1 gvatva    6 (6)
+                      ||||.|
+T Consensus        93 GVATaA   98 (497)
+T 2B9B_B           93 GVATAA   98 (497)
+T ss_dssp             CEEEHH
+T ss_pred             HHHHHH
+
+
+No 9
+>3INN_C Pantothenate synthetase (E.C.6.3.2.1); SSGCID, SBRI, UW, DECODE, NIH; HET: ATP; 2.1A {Brucella melitensis}
+Probab=7.47  E-value=4.3e+02  Score=12.43  Aligned_cols=5  Identities=100%  Similarity=1.218  Sum_probs=0.0  Template_Neff=6.600
+
+Q GVATVA            1 GVATV    5 (6)
+Q Consensus         1 gvatv    5 (6)
+                      ||+||
+T Consensus       148 gv~tv  152 (314)
+T 3INN_C          148 GVATV  152 (314)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 10
+>7KI6_A Fusion glycoprotein F0, 1F5 Fab; Nipah virus, Hendra virus, henipavirus; HET: NAG; 2.8A {Hendra henipavirus}
+Probab=7.06  E-value=4.6e+02  Score=14.14  Aligned_cols=6  Identities=67%  Similarity=0.949  Sum_probs=0.0  Template_Neff=4.600
+
+Q GVATVA            1 GVATVA    6 (6)
+Q Consensus         1 gvatva    6 (6)
+                      ||||.|
+T Consensus       121 GVAtaA  126 (543)
+T 7KI6_A          121 GIATAA  126 (543)
+T ss_dssp             CEEEHH
+T ss_pred             HHHHHH
+
+

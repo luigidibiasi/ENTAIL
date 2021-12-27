@@ -1,0 +1,150 @@
+Query         LPTVYV
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 19:57:52 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LPTVYV/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LPTVYV/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2N2J_B Epstein-Barr nuclear an  23.0      81  0.0009   13.2   0.0    6    1-6       5-10  (62)
+  2 3LGC_A Glutaredoxin 1; alpha-b  19.4 1.1E+02  0.0012    8.7   0.0    6    1-6      62-67  (89)
+  3 3H93_A Thiol:disulfide interch  19.3 1.1E+02  0.0012   11.0   0.0    6    1-6     153-158 (192)
+  4 3L9V_B Putative thiol-disulfid  18.8 1.1E+02  0.0012   11.2   0.0    5    2-6     147-151 (189)
+  5 2MZC_A Glutaredoxin; glutaredo  18.7 1.1E+02  0.0013    8.8   0.0    6    1-6      57-62  (92)
+  6 1KTE_A THIOLTRANSFERASE; REDOX  18.6 1.1E+02  0.0013    9.0   0.0    6    1-6      69-74  (105)
+  7 2KLX_A Glutaredoxin; glutaredo  18.6 1.2E+02  0.0013    8.8   0.0    6    1-6      56-61  (89)
+  8 1FO5_A REDUCED MJ0307; disulfi  18.5 1.2E+02  0.0013    8.7   0.0    6    1-6      57-62  (85)
+  9 4GXZ_A Suppression of copper s  18.4 1.2E+02  0.0013   11.0   0.0    6    1-6     159-164 (192)
+ 10 2JAC_A GLUTAREDOXIN-1; ELECTRO  18.4 1.2E+02  0.0013    9.7   0.0    6    1-6      75-80  (110)
+
+No 1
+>2N2J_B Epstein-Barr nuclear antigen 2; HOMODIMER, END DOMAIN, VIRAL PROTEIN; NMR {Human herpesvirus 4}
+Probab=22.96  E-value=81  Score=13.19  Aligned_cols=6  Identities=50%  Similarity=1.254  Sum_probs=3.4  Template_Neff=2.100
+
+Q LPTVYV            1 LPTVYV    6 (6)
+Q Consensus         1 lptvyv    6 (6)
+                      .||.||
+T Consensus         5 MPTyYv   10 (62)
+T 2N2J_B            5 MPTFYL   10 (62)
+T ss_dssp             SCEEEE
+T ss_pred             CceEEE
+Confidence            366664
+
+
+No 2
+>3LGC_A Glutaredoxin 1; alpha-beta sandwich, Structural Genomics, structural; HET: SO4; 2.77A {Francisella tularensis subsp. tularensis}
+Probab=19.44  E-value=1.1e+02  Score=8.72  Aligned_cols=6  Identities=17%  Similarity=1.148  Sum_probs=0.0  Template_Neff=12.600
+
+Q LPTVYV            1 LPTVYV    6 (6)
+Q Consensus         1 lptvyv    6 (6)
+                      .|++++
+T Consensus        62 ~P~~~~   67 (89)
+T 3LGC_A           62 VPQIFI   67 (89)
+T ss_dssp             SCEEEE
+T ss_pred             CCEEEE
+
+
+No 3
+>3H93_A Thiol:disulfide interchange protein dsbA; Disulfide bond, Redox-active center, TRANSCRIPTION; HET: GOL; 1.501A {Pseudomonas aeruginosa PAO1}
+Probab=19.30  E-value=1.1e+02  Score=11.02  Aligned_cols=6  Identities=50%  Similarity=0.877  Sum_probs=0.0  Template_Neff=11.000
+
+Q LPTVYV            1 LPTVYV    6 (6)
+Q Consensus         1 lptvyv    6 (6)
+                      .|+++|
+T Consensus       153 ~P~~~v  158 (192)
+T 3H93_A          153 VPTMVV  158 (192)
+T ss_dssp             SSEEEE
+T ss_pred             cCEEEE
+
+
+No 4
+>3L9V_B Putative thiol-disulfide isomerase or thioredoxin; thioredoxin-fold, SrgA, thiol-disulfide oxidoreductase, Isomerase; HET: P6G, PE8, MSE, P4C; 2.151A {Salmonella enterica subsp. enterica serovar Typhimurium}
+Probab=18.83  E-value=1.1e+02  Score=11.22  Aligned_cols=5  Identities=80%  Similarity=1.577  Sum_probs=0.0  Template_Neff=10.500
+
+Q LPTVYV            2 PTVYV    6 (6)
+Q Consensus         2 ptvyv    6 (6)
+                      |++++
+T Consensus       147 Pt~~i  151 (189)
+T 3L9V_B          147 PSVYV  151 (189)
+T ss_dssp             SEEEE
+T ss_pred             CEEEE
+
+
+No 5
+>2MZC_A Glutaredoxin; glutaredoxin, silver, dimer, OXIDOREDUCTASE; HET: AG; NMR {Brucella melitensis}
+Probab=18.72  E-value=1.1e+02  Score=8.83  Aligned_cols=6  Identities=17%  Similarity=1.159  Sum_probs=0.0  Template_Neff=12.400
+
+Q LPTVYV            1 LPTVYV    6 (6)
+Q Consensus         1 lptvyv    6 (6)
+                      +|++++
+T Consensus        57 ~P~~~~   62 (92)
+T 2MZC_A           57 FPQIFI   62 (92)
+T ss_dssp             CCEEEE
+T ss_pred             CCEEEE
+
+
+No 6
+>1KTE_A THIOLTRANSFERASE; REDOX-ACTIVE CENTER, ELECTRON TRANSPORT, ACETYLATION; 2.2A {Sus scrofa} SCOP: c.47.1.1
+Probab=18.62  E-value=1.1e+02  Score=9.02  Aligned_cols=6  Identities=33%  Similarity=1.154  Sum_probs=0.0  Template_Neff=12.500
+
+Q LPTVYV            1 LPTVYV    6 (6)
+Q Consensus         1 lptvyv    6 (6)
+                      .|++++
+T Consensus        69 ~P~~~~   74 (105)
+T 1KTE_A           69 VPRVFI   74 (105)
+T ss_dssp             SCEEEE
+T ss_pred             CCEEEE
+
+
+No 7
+>2KLX_A Glutaredoxin; glutaredoxin, thioredoxin type domain, SSGCID; NMR {Bartonella henselae}
+Probab=18.58  E-value=1.2e+02  Score=8.76  Aligned_cols=6  Identities=17%  Similarity=1.159  Sum_probs=0.0  Template_Neff=12.400
+
+Q LPTVYV            1 LPTVYV    6 (6)
+Q Consensus         1 lptvyv    6 (6)
+                      .|++++
+T Consensus        56 ~P~~~~   61 (89)
+T 2KLX_A           56 FPQIFI   61 (89)
+T ss_pred             CCEEEE
+
+
+No 8
+>1FO5_A REDUCED MJ0307; disulfide oxidoreductase, thioredoxin fold, Structural; NMR {Methanocaldococcus jannaschii} SCOP: c.47.1.1
+Probab=18.46  E-value=1.2e+02  Score=8.66  Aligned_cols=6  Identities=33%  Similarity=0.944  Sum_probs=0.0  Template_Neff=12.400
+
+Q LPTVYV            1 LPTVYV    6 (6)
+Q Consensus         1 lptvyv    6 (6)
+                      +|++++
+T Consensus        57 ~P~~~~   62 (85)
+T 1FO5_A           57 VPTIVI   62 (85)
+T ss_dssp             SSEEEE
+T ss_pred             CCEEEE
+
+
+No 9
+>4GXZ_A Suppression of copper sensitivity protein; thiol-disulfide oxidoreductase, Thioredoxin fold, OXIDOREDUCTASE; 2.04A {Salmonella typhimurium}
+Probab=18.42  E-value=1.2e+02  Score=11.04  Aligned_cols=6  Identities=17%  Similarity=0.517  Sum_probs=0.0  Template_Neff=10.800
+
+Q LPTVYV            1 LPTVYV    6 (6)
+Q Consensus         1 lptvyv    6 (6)
+                      .|++++
+T Consensus       159 ~Pt~~v  164 (192)
+T 4GXZ_A          159 TPATII  164 (192)
+T ss_dssp             SSEEEE
+T ss_pred             CCEEEE
+
+
+No 10
+>2JAC_A GLUTAREDOXIN-1; ELECTRON TRANSPORT, REDOX-ACTIVE CENTER, OXIDOREDUCTASE; HET: GSH; 2.02A {SACCHAROMYCES CEREVISIAE}
+Probab=18.40  E-value=1.2e+02  Score=9.69  Aligned_cols=6  Identities=33%  Similarity=1.326  Sum_probs=0.0  Template_Neff=11.400
+
+Q LPTVYV            1 LPTVYV    6 (6)
+Q Consensus         1 lptvyv    6 (6)
+                      .|++++
+T Consensus        75 ~P~~~~   80 (110)
+T 2JAC_A           75 VPNIYI   80 (110)
+T ss_dssp             SCEEEE
+T ss_pred             CCEEEE
+
+

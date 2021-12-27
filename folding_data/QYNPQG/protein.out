@@ -1,0 +1,151 @@
+Query         QYNPQG
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 11:49:46 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QYNPQG/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QYNPQG/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3COU_A Nucleoside diphosphate-  23.7      77 0.00085   12.5   0.0    6    1-6       5-10  (217)
+  2 2XSQ_A U8 SNORNA-DECAPPING ENZ  23.1      80 0.00089   12.4   0.0    6    1-6       5-10  (217)
+  3 4LDV_A Auxin response factor 1  18.8 1.1E+02  0.0013   14.1   0.0    5    2-6      43-47  (362)
+  4 6YCQ_A Auxin response factor/D  18.8 1.1E+02  0.0013   14.1   0.0    5    2-6      43-47  (362)
+  5 6QM7_B Proteasome alpha1 chain  18.7 1.1E+02  0.0013   11.9   0.0    5    2-6      11-15  (231)
+  6 6QM8_B Proteasome alpha1 chain  18.7 1.1E+02  0.0013   11.9   0.0    5    2-6      11-15  (231)
+  7 6HE8_C Proteasome subunit alph  17.1 1.3E+02  0.0015   11.8   0.0    5    2-6      11-15  (242)
+  8 5XNY_A CreD; lyase, aspartase,  16.6 1.4E+02  0.0015   13.8   0.0    5    2-6       9-13  (489)
+  9 5XNZ_A CreD; lyase, fumarase,   16.6 1.4E+02  0.0015   13.8   0.0    5    2-6       9-13  (489)
+ 10 4IEF_C Gingipain R2 Pro-Domain  16.5 1.4E+02  0.0015   12.4   0.0    4    1-4     155-158 (210)
+
+No 1
+>3COU_A Nucleoside diphosphate-linked moiety X motif; NUDIX, HYDROLASE, NUDT16, mRNA DECAPPING; 1.8A {Homo sapiens}
+Probab=23.74  E-value=77  Score=12.45  Aligned_cols=6  Identities=17%  Similarity=0.412  Sum_probs=2.9  Template_Neff=9.500
+
+Q QYNPQG            1 QYNPQG    6 (6)
+Q Consensus         1 qynpqg    6 (6)
+                      ||||++
+T Consensus         5 ~~~~~~   10 (217)
+T 3COU_A            5 HHHSSG   10 (217)
+T ss_pred             cccccc
+Confidence            355553
+
+
+No 2
+>2XSQ_A U8 SNORNA-DECAPPING ENZYME (E.C.3.6.1.-); HYDROLASE, MRNA DECAPPING, MRNA TURNOVER; HET: IMP; 1.72A {HOMO SAPIENS}
+Probab=23.13  E-value=80  Score=12.40  Aligned_cols=6  Identities=17%  Similarity=0.412  Sum_probs=0.0  Template_Neff=9.500
+
+Q QYNPQG            1 QYNPQG    6 (6)
+Q Consensus         1 qynpqg    6 (6)
+                      ||||++
+T Consensus         5 ~~~~~~   10 (217)
+T 2XSQ_A            5 HHHSSG   10 (217)
+T ss_dssp             ------
+T ss_pred             CCccCC
+Confidence            355543
+
+
+No 3
+>4LDV_A Auxin response factor 1; Transcription Factor, DNA binding, Nucleus; HET: FMT; 1.45A {Arabidopsis thaliana}
+Probab=18.75  E-value=1.1e+02  Score=14.14  Aligned_cols=5  Identities=60%  Similarity=1.371  Sum_probs=0.0  Template_Neff=7.200
+
+Q QYNPQG            2 YNPQG    6 (6)
+Q Consensus         2 ynpqg    6 (6)
+                      |-|||
+T Consensus        43 Yfpqg   47 (362)
+T 4LDV_A           43 YFPEG   47 (362)
+T ss_dssp             ECHHH
+T ss_pred             eCChh
+
+
+No 4
+>6YCQ_A Auxin response factor/DNA Complex; Transcription Factor, DNA binding, Nucleus; HET: TRS, CL, FMT; 1.65A {Arabidopsis thaliana}
+Probab=18.75  E-value=1.1e+02  Score=14.14  Aligned_cols=5  Identities=60%  Similarity=1.371  Sum_probs=0.0  Template_Neff=7.200
+
+Q QYNPQG            2 YNPQG    6 (6)
+Q Consensus         2 ynpqg    6 (6)
+                      |-|||
+T Consensus        43 Yfpqg   47 (362)
+T 6YCQ_A           43 YFPEG   47 (362)
+T ss_dssp             ECHHH
+T ss_pred             eCChh
+
+
+No 5
+>6QM7_B Proteasome alpha1 chain, Proteasome alpha2; Proteasome 20S subunit, hydrolase; HET: J6E; 2.8A {Leishmania tarentolae}
+Probab=18.66  E-value=1.1e+02  Score=11.89  Aligned_cols=5  Identities=40%  Similarity=1.358  Sum_probs=0.0  Template_Neff=9.900
+
+Q QYNPQG            2 YNPQG    6 (6)
+Q Consensus         2 ynpqg    6 (6)
+                      |+|+|
+T Consensus        11 fsp~g   15 (231)
+T 6QM7_B           11 FSPSG   15 (231)
+T ss_dssp             BCTTS
+T ss_pred             eCCCC
+
+
+No 6
+>6QM8_B Proteasome alpha1 chain, Proteasome alpha2; Proteasome 20S subunit, hydrolase; 3.3A {Leishmania tarentolae}
+Probab=18.66  E-value=1.1e+02  Score=11.89  Aligned_cols=5  Identities=40%  Similarity=1.358  Sum_probs=0.0  Template_Neff=9.900
+
+Q QYNPQG            2 YNPQG    6 (6)
+Q Consensus         2 ynpqg    6 (6)
+                      |+|+|
+T Consensus        11 fsp~g   15 (231)
+T 6QM8_B           11 FSPSG   15 (231)
+T ss_dssp             CCTTS
+T ss_pred             eCCCC
+
+
+No 7
+>6HE8_C Proteasome subunit alpha (E.C.3.4.25.1), Proteasome; PAN, Proteasome, AAA-ATPase, Archaea, hydrolase; HET: ATP, ADP; 6.86A {Archaeoglobus fulgidus (strain ATCC 49558 / VC-16 / DSM 4304 / JCM 9628 / NBRC 100126)}
+Probab=17.08  E-value=1.3e+02  Score=11.81  Aligned_cols=5  Identities=40%  Similarity=1.404  Sum_probs=0.0  Template_Neff=9.900
+
+Q QYNPQG            2 YNPQG    6 (6)
+Q Consensus         2 ynpqg    6 (6)
+                      |+|+|
+T Consensus        11 f~~~G   15 (242)
+T 6HE8_C           11 FSPDG   15 (242)
+T ss_dssp             CCTTS
+T ss_pred             eCCCC
+
+
+No 8
+>5XNY_A CreD; lyase, aspartase, fumarase, cremeomycin, nitrous; 2.18A {Streptomyces cremeus}
+Probab=16.61  E-value=1.4e+02  Score=13.85  Aligned_cols=5  Identities=20%  Similarity=0.268  Sum_probs=0.0  Template_Neff=8.400
+
+Q QYNPQG            2 YNPQG    6 (6)
+Q Consensus         2 ynpqg    6 (6)
+                      |+|||
+T Consensus         9 ~~~~~   13 (489)
+T 5XNY_A            9 HRGDG   13 (489)
+T ss_dssp             -----
+T ss_pred             cCCCC
+
+
+No 9
+>5XNZ_A CreD; lyase, fumarase, cremeomycin, nitrous acid; HET: FUM; 2.3A {Streptomyces cremeus}
+Probab=16.61  E-value=1.4e+02  Score=13.85  Aligned_cols=5  Identities=20%  Similarity=0.268  Sum_probs=0.0  Template_Neff=8.400
+
+Q QYNPQG            2 YNPQG    6 (6)
+Q Consensus         2 ynpqg    6 (6)
+                      |+|||
+T Consensus         9 ~~~~~   13 (489)
+T 5XNZ_A            9 HRGDG   13 (489)
+T ss_dssp             -----
+T ss_pred             cCCCC
+
+
+No 10
+>4IEF_C Gingipain R2 Pro-Domain, Gingipain R2; alpha/beta/alpha sandwich, cysteine endopeptidase, HYDROLASE; HET: CA; 2.3A {Porphyromonas gingivalis}
+Probab=16.53  E-value=1.4e+02  Score=12.42  Aligned_cols=4  Identities=100%  Similarity=1.821  Sum_probs=0.0  Template_Neff=8.100
+
+Q QYNPQG            1 QYNP    4 (6)
+Q Consensus         1 qynp    4 (6)
+                      ||||
+T Consensus       155 qY~P  158 (210)
+T 4IEF_C          155 QYNP  158 (210)
+T ss_dssp             EEET
+T ss_pred             eEeC
+
+

@@ -1,0 +1,146 @@
+Query         HNTNNA
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 06:52:55 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/HNTNNA/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/HNTNNA/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 1JB0_E PHOTOSYSTEM I SUBUNIT P  11.1 2.5E+02  0.0027   12.1   0.0    4    2-5      56-59  (75)
+  2 6TCL_E Photosystem I P700 chlo  11.1 2.5E+02  0.0028   11.8   0.0    4    2-5      48-51  (63)
+  3 7COY_aE Photosystem I P700 chl  10.3 2.8E+02  0.0031   12.3   0.0    4    2-5      56-59  (89)
+  4 6JO5_E Photosystem I P700 chlo  10.2 2.8E+02  0.0031   11.9   0.0    4    2-5      60-63  (73)
+  5 6L4U_E PROTEIN; Photosystem I,   9.8 2.9E+02  0.0032   11.7   0.0    4    2-5      49-52  (67)
+  6 6FOS_E Similar to chlorophyll    9.7   3E+02  0.0033   11.7   0.0    4    2-5      49-52  (69)
+  7 7AIH_Aq mL94, mL89, Ribosomal    9.6   3E+02  0.0033   14.6   0.0    5    1-5     109-113 (341)
+  8 6IGZ_E PsaA, PsaB, PsaC, PsaD,   9.4 3.1E+02  0.0035   12.2   0.0    4    2-5      79-82  (91)
+  9 5ZGH_E Lhcr1, Lhcr2, Lhcr3, Ps   7.8   4E+02  0.0045   12.0   0.0    4    2-5      49-52  (94)
+ 10 7DZ7_E Supercomplex, state tra   7.7 4.1E+02  0.0045   11.9   0.0    4    2-5      84-87  (97)
+
+No 1
+>1JB0_E PHOTOSYSTEM I SUBUNIT PSAA, PHOTOSYSTEM; MEMBRANE PROTEIN, MULTIPROTEIN-PIGMENT COMPLEX, PHOTOSYNTHESIS; HET: LMG, CLA, LHG, PQN, SF4, BCR; 2.5A {Synechococcus elongatus} SCOP: b.34.4.2
+Probab=11.13  E-value=2.5e+02  Score=12.06  Aligned_cols=4  Identities=100%  Similarity=1.157  Sum_probs=0.0  Template_Neff=2.600
+
+Q HNTNNA            2 NTNN    5 (6)
+Q Consensus         2 ntnn    5 (6)
+                      ||||
+T Consensus        56 nTNN   59 (75)
+T 1JB0_E           56 NTNN   59 (75)
+T ss_dssp             CEEE
+T ss_pred             cccc
+
+
+No 2
+>6TCL_E Photosystem I P700 chlorophyll a; photosynthesis, tetramer, anabaena, PSI; HET: BCR, LHG, CLA, PQN, CL0, DGD, SF4, AJP, ECH, LMG;{Nostoc sp. PCC 7120}
+Probab=11.07  E-value=2.5e+02  Score=11.75  Aligned_cols=4  Identities=100%  Similarity=1.157  Sum_probs=0.0  Template_Neff=2.500
+
+Q HNTNNA            2 NTNN    5 (6)
+Q Consensus         2 ntnn    5 (6)
+                      ||||
+T Consensus        48 nTnn   51 (63)
+T 6TCL_E           48 NTNN   51 (63)
+T ss_dssp             CCEE
+T ss_pred             cCCc
+
+
+No 3
+>7COY_aE Photosystem I P700 chlorophyll a; Photosynthesis, Photosystem I, Acaryochloris marina; HET: SF4, UNL, G9R, LMG, PQN, CL7, LHG, PHO; 2.5A {Acaryochloris marina MBIC11017}
+Probab=10.25  E-value=2.8e+02  Score=12.28  Aligned_cols=4  Identities=100%  Similarity=1.157  Sum_probs=0.0  Template_Neff=2.400
+
+Q HNTNNA            2 NTNN    5 (6)
+Q Consensus         2 ntnn    5 (6)
+                      ||||
+T Consensus        56 nTNN   59 (89)
+T 7COY_aE          56 NTNN   59 (89)
+T ss_pred             cccc
+
+
+No 4
+>6JO5_E Photosystem I P700 chlorophyll a; photosystem membrane protein, PHOTOSYNTHESIS; HET: SF4, LMG, LUT, CHL, PQN, LHG, BCR, CL0, DGD, CLA; 2.9A {Chlamydomonas reinhardtii}
+Probab=10.18  E-value=2.8e+02  Score=11.86  Aligned_cols=4  Identities=75%  Similarity=0.883  Sum_probs=0.0  Template_Neff=2.600
+
+Q HNTNNA            2 NTNN    5 (6)
+Q Consensus         2 ntnn    5 (6)
+                      ||||
+T Consensus        60 nTnn   63 (73)
+T 6JO5_E           60 TTNN   63 (73)
+T ss_dssp             CEEE
+T ss_pred             cCcc
+
+
+No 5
+>6L4U_E PROTEIN; Photosystem I, ELECTRON TRANSPORT; HET: SF4, LHG, LMG, BCR, CL0, LMT, KC1, PQN, DD6, A86, CLA; 2.4A {Chaetoceros gracilis}
+Probab=9.83  E-value=2.9e+02  Score=11.66  Aligned_cols=4  Identities=75%  Similarity=1.074  Sum_probs=0.0  Template_Neff=2.500
+
+Q HNTNNA            2 NTNN    5 (6)
+Q Consensus         2 ntnn    5 (6)
+                      ||||
+T Consensus        49 nTNn   52 (67)
+T 6L4U_E           49 NSNN   52 (67)
+T ss_dssp             CEEE
+T ss_pred             ccCc
+
+
+No 6
+>6FOS_E Similar to chlorophyll a/b-binding protein; membrane protein, photosynthetic complex, reaction; HET: SF4, CLA, BCR, PQN; 4.0A {Cyanidioschyzon merolae (strain 10D)}
+Probab=9.66  E-value=3e+02  Score=11.69  Aligned_cols=4  Identities=50%  Similarity=0.800  Sum_probs=0.0  Template_Neff=2.500
+
+Q HNTNNA            2 NTNN    5 (6)
+Q Consensus         2 ntnn    5 (6)
+                      ||||
+T Consensus        49 nTnn   52 (69)
+T 6FOS_E           49 NSTN   52 (69)
+T ss_pred             cCCC
+
+
+No 7
+>7AIH_Aq mL94, mL89, Ribosomal protein L3-like; Ribosome, Mitochondria, Kinetoplastid; HET: NAD; 3.6A {Leishmania major}
+Probab=9.62  E-value=3e+02  Score=14.63  Aligned_cols=5  Identities=80%  Similarity=1.219  Sum_probs=0.0  Template_Neff=2.000
+
+Q HNTNNA            1 HNTNN    5 (6)
+Q Consensus         1 hntnn    5 (6)
+                      |+|||
+T Consensus       109 ~~TNN  113 (341)
+T 7AIH_Aq         109 HDTNN  113 (341)
+T ss_pred             cCcCC
+
+
+No 8
+>6IGZ_E PsaA, PsaB, PsaC, PsaD, PsaE; PSI-LHCI, PLANT PROTEIN; HET: DGD, XAT, LMG, CLA, CHL, 8CT, SF4, PQN, LHG, HTG;{Bryopsis corticulans}
+Probab=9.37  E-value=3.1e+02  Score=12.20  Aligned_cols=4  Identities=75%  Similarity=0.916  Sum_probs=0.0  Template_Neff=2.200
+
+Q HNTNNA            2 NTNN    5 (6)
+Q Consensus         2 ntnn    5 (6)
+                      ||||
+T Consensus        79 nTNN   82 (91)
+T 6IGZ_E           79 STNN   82 (91)
+T ss_dssp             CEEE
+T ss_pred             cCcc
+
+
+No 9
+>5ZGH_E Lhcr1, Lhcr2, Lhcr3, PsaA (E.C.1.97.1.12); super-complex, red alga, photosynthesis, PSI-5Lhcr; HET: CL0, BCR, SF4, 3XQ, CLA, ZEX, 1DO, PQN, BGC, DGD, LHG;{Cyanidioschyzon merolae (strain 10D)}
+Probab=7.77  E-value=4e+02  Score=11.96  Aligned_cols=4  Identities=50%  Similarity=0.800  Sum_probs=0.0  Template_Neff=2.000
+
+Q HNTNNA            2 NTNN    5 (6)
+Q Consensus         2 ntnn    5 (6)
+                      ||||
+T Consensus        49 nTNN   52 (94)
+T 5ZGH_E           49 NSTN   52 (94)
+T ss_pred             cCCc
+
+
+No 10
+>7DZ7_E Supercomplex, state transition, green alga; HET: SF4, LMU, LMG, LUT, CHL, PQN, XAT, LHG, NEX, BCR, TPO, DGD, CLA;{Chlamydomonas reinhardtii}
+Probab=7.67  E-value=4.1e+02  Score=11.93  Aligned_cols=4  Identities=75%  Similarity=0.883  Sum_probs=0.0  Template_Neff=2.400
+
+Q HNTNNA            2 NTNN    5 (6)
+Q Consensus         2 ntnn    5 (6)
+                      ||||
+T Consensus        84 nTNN   87 (97)
+T 7DZ7_E           84 TTNN   87 (97)
+T ss_dssp             CEEE
+T ss_pred             cccc
+
+

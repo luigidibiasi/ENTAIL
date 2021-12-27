@@ -1,0 +1,147 @@
+Query         LATVYT
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 17:06:06 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LATVYT/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LATVYT/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6FAN_F Uncharacterized protein   5.7   6E+02  0.0066    9.6   0.0    5    1-5       3-7   (63)
+  2 5H6I_A Protein B; Pore forming   5.6 6.2E+02  0.0068   12.7   0.0    5    2-6     174-178 (246)
+  3 6WJ6_T Photosystem II; Photosy   5.5 6.3E+02   0.007    9.3   0.0    5    2-6       3-7   (31)
+  4 6KAC_T Photosystem II protein    5.5 6.4E+02  0.0071    9.3   0.0    5    2-6       3-7   (31)
+  5 2EKI_A Developmentally-regulat   5.4 6.4E+02  0.0071    9.5   0.0    6    1-6      11-16  (93)
+  6 4YUU_t1 Photosystem Q(B) prote   5.3 6.6E+02  0.0073    9.3   0.0    5    2-6       3-7   (32)
+  7 6Y8W_A CooT; NICKEL-BINDING PR   5.3 6.7E+02  0.0074    9.8   0.0    5    1-5       7-11  (70)
+  8 6IY0_F SAV0927; DUF3055, SAV09   5.2 6.8E+02  0.0075   10.6   0.0    6    1-6      29-34  (96)
+  9 6D57_A Ferric uptake regulatio   5.2 6.8E+02  0.0075    9.6   0.0    5    1-5      68-72  (161)
+ 10 7K34_C Threonine aldolase (E.C   5.2 6.8E+02  0.0075   10.7   0.0    5    1-5     443-447 (452)
+
+No 1
+>6FAN_F Uncharacterized protein; Carbon monoxide dehydrogenase, nickel chaperone; HET: GOL, MPD; 2.0A {Carboxydothermus hydrogenoformans (strain ATCC BAA-161 / DSM 6008 / Z-2901)}
+Probab=5.73  E-value=6e+02  Score=9.60  Aligned_cols=5  Identities=20%  Similarity=0.421  Sum_probs=0.0  Template_Neff=5.700
+
+Q LATVYT            1 LATVY    5 (6)
+Q Consensus         1 latvy    5 (6)
+                      .++||
+T Consensus         3 es~vy    7 (63)
+T 6FAN_F            3 EASAF    7 (63)
+T ss_dssp             TEEEE
+T ss_pred             eceEE
+
+
+No 2
+>5H6I_A Protein B; Pore forming toxin, TOXIN; HET: SO4; 2.45A {Streptococcus agalactiae}
+Probab=5.61  E-value=6.2e+02  Score=12.69  Aligned_cols=5  Identities=80%  Similarity=1.218  Sum_probs=0.0  Template_Neff=3.600
+
+Q LATVYT            2 ATVYT    6 (6)
+Q Consensus         2 atvyt    6 (6)
+                      ||+|+
+T Consensus       174 ATiYv  178 (246)
+T 5H6I_A          174 ATIYT  178 (246)
+T ss_dssp             CCTTT
+T ss_pred             hhHHh
+
+
+No 3
+>6WJ6_T Photosystem II; Photosystem, oxidoreductase, water-splitting, photoactivation, PHOTOSYNTHESIS; HET: LHG, CLA, FME, BCR, PL9, LMG, PHO, LMT, HEM, SQD, DGD; 2.58A {Synechocystis sp. (strain PCC 6803 / Kazusa)}
+Probab=5.51  E-value=6.3e+02  Score=9.29  Aligned_cols=5  Identities=20%  Similarity=0.561  Sum_probs=0.0  Template_Neff=2.800
+
+Q LATVYT            2 ATVYT    6 (6)
+Q Consensus         2 atvyt    6 (6)
+                      |.|||
+T Consensus         3 alvYt    7 (31)
+T 6WJ6_T            3 SVAYI    7 (31)
+T ss_pred             HHHHH
+
+
+No 4
+>6KAC_T Photosystem II protein D1 (E.C.1.10.3.9); PhotosystemII, supercomplex, PHOTOSYNTHESIS; HET: SQD, DGD, LMU, HEM, LMG, LUT, PL9, OEX, CHL, XAT, LHG, NEX, BCR, PHO, CLA; 2.7A {Chlamydomonas reinhardtii}
+Probab=5.46  E-value=6.4e+02  Score=9.25  Aligned_cols=5  Identities=80%  Similarity=0.986  Sum_probs=0.0  Template_Neff=2.900
+
+Q LATVYT            2 ATVYT    6 (6)
+Q Consensus         2 atvyt    6 (6)
+                      |.|||
+T Consensus         3 alvYt    7 (31)
+T 6KAC_T            3 ALVYT    7 (31)
+T ss_pred             HHHHH
+
+
+No 5
+>2EKI_A Developmentally-regulated GTP-binding protein 1; DRG 1, Protein NEDD3, Neural; NMR {Homo sapiens}
+Probab=5.44  E-value=6.4e+02  Score=9.52  Aligned_cols=6  Identities=50%  Similarity=0.960  Sum_probs=0.0  Template_Neff=7.300
+
+Q LATVYT            1 LATVYT    6 (6)
+Q Consensus         1 latvyt    6 (6)
+                      |-.|||
+T Consensus        11 li~vyt   16 (93)
+T 2EKI_A           11 LVRIYT   16 (93)
+T ss_dssp             EEEEEE
+T ss_pred             eEEEEe
+
+
+No 6
+>4YUU_t1 Photosystem Q(B) protein (E.C.1.10.3.9), Photosystem; TRANSMEMBRANE ALPHA-HELIX, ELECTRON TRANSPORT, PHOTOSYNTHESIS; HET: DGD, LMT, SQD, UNL, HEM, LMG, PL9, OEX, GOL, LHG, BCR, BCT, PHO, CLA; 2.77000368116A {Cyanidium caldarium}
+Probab=5.31  E-value=6.6e+02  Score=9.27  Aligned_cols=5  Identities=60%  Similarity=0.820  Sum_probs=0.0  Template_Neff=2.900
+
+Q LATVYT            2 ATVYT    6 (6)
+Q Consensus         2 atvyt    6 (6)
+                      |.|||
+T Consensus         3 alvYt    7 (32)
+T 4YUU_t1           3 ALVYV    7 (32)
+T ss_pred             HHHHH
+
+
+No 7
+>6Y8W_A CooT; NICKEL-BINDING PROTEIN, ANAEROBIC METABOLISM, METAL; NMR {Rhodospirillum rubrum}
+Probab=5.27  E-value=6.7e+02  Score=9.77  Aligned_cols=5  Identities=40%  Similarity=0.507  Sum_probs=0.0  Template_Neff=5.400
+
+Q LATVYT            1 LATVY    5 (6)
+Q Consensus         1 latvy    5 (6)
+                      +++||
+T Consensus         7 es~Vy   11 (70)
+T 6Y8W_A            7 MAKVV   11 (70)
+T ss_dssp             CEEEE
+T ss_pred             eceEE
+
+
+No 8
+>6IY0_F SAV0927; DUF3055, SAV0927, Staphylococcus aureus, UNKNOWN; HET: MSE; 2.5A {Staphylococcus aureus}
+Probab=5.20  E-value=6.8e+02  Score=10.63  Aligned_cols=6  Identities=50%  Similarity=0.318  Sum_probs=0.0  Template_Neff=4.500
+
+Q LATVYT            1 LATVYT    6 (6)
+Q Consensus         1 latvyt    6 (6)
+                      ||.+||
+T Consensus        29 laIi~T   34 (96)
+T 6IY0_F           29 LMLVHT   34 (96)
+T ss_dssp             EEEEEC
+T ss_pred             EEEEEc
+
+
+No 9
+>6D57_A Ferric uptake regulation protein; Fur, ferric uptake regulator, Campylobacter; HET: GOL, OHI, FMT; 1.81A {Campylobacter jejuni}
+Probab=5.19  E-value=6.8e+02  Score=9.63  Aligned_cols=5  Identities=80%  Similarity=1.258  Sum_probs=0.0  Template_Neff=9.000
+
+Q LATVYT            1 LATVY    5 (6)
+Q Consensus         1 latvy    5 (6)
+                      .+|||
+T Consensus        68 ~~TVy   72 (161)
+T 6D57_A           68 IATVY   72 (161)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 10
+>7K34_C Threonine aldolase (E.C.4.1.2.5); threonine transaldolase, pyridoxal phosphate, PLP; HET: SO4, LLP; 1.66A {Pseudomonas fluorescens}
+Probab=5.18  E-value=6.8e+02  Score=10.72  Aligned_cols=5  Identities=80%  Similarity=1.212  Sum_probs=0.0  Template_Neff=10.400
+
+Q LATVYT            1 LATVY    5 (6)
+Q Consensus         1 latvy    5 (6)
+                      ||.||
+T Consensus       443 ~~~~~  447 (452)
+T 7K34_C          443 LAAVY  447 (452)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+

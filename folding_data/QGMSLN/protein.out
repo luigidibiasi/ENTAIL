@@ -1,0 +1,150 @@
+Query         QGMSLN
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 07:48:20 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QGMSLN/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QGMSLN/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2OQT_B Hypothetical protein SP  67.4     4.6 5.1E-05   14.8   0.0    6    1-6     156-161 (162)
+  2 2MMB_A Uncharacterized protein  19.9   1E+02  0.0011   13.9   0.0    6    1-6      27-32  (107)
+  3 2H1O_F PIN domain, RHH protein  19.7   1E+02  0.0012   11.0   0.0    6    1-6      23-28  (68)
+  4 2BSQ_H TRAFFICKING PROTEIN B,   17.4 1.3E+02  0.0014   11.1   0.0    6    1-6      23-28  (77)
+  5 3H87_C Putative uncharacterize  17.0 1.3E+02  0.0015    9.9   0.0    6    1-6      24-29  (73)
+  6 3B5O_A CADD-like protein of un  15.7 1.5E+02  0.0016   11.9   0.0    5    2-6       1-5   (244)
+  7 7M8W_A prostaglandin D2 recept  15.4 1.5E+02  0.0017   13.0   0.0    5    2-6       1-5   (470)
+  8 1NLA_B 3(10) helix, beta-ribbo  15.2 1.6E+02  0.0017   10.4   0.0    6    1-6      29-34  (64)
+  9 1PCF_A TRANSCRIPTIONAL COACTIV  15.1 1.6E+02  0.0017   10.7   0.0    6    1-6      40-45  (66)
+ 10 7E4W_N HUMAN TRANSCRIPTIONAL C  15.1 1.6E+02  0.0017   10.7   0.0    6    1-6      40-45  (66)
+
+No 1
+>2OQT_B Hypothetical protein SPy0176; APC29699, putative PTS IIA domain; HET: MSE; 2.41A {Streptococcus pyogenes serotype M1}
+Probab=67.38  E-value=4.6  Score=14.77  Aligned_cols=6  Identities=67%  Similarity=1.160  Sum_probs=0.0  Template_Neff=10.000
+
+Q QGMSLN            1 QGMSLN    6 (6)
+Q Consensus         1 qgmsln    6 (6)
+                      |||.||
+T Consensus       156 ~~~~~~  161 (162)
+T 2OQT_B          156 EGMDLN  161 (162)
+T ss_dssp             ------
+T ss_pred             CCCCCC
+Confidence            577765
+
+
+No 2
+>2MMB_A Uncharacterized protein; PSI-Biology, Unknown Function, STRUCTURAL GENOMICS; NMR {Acinetobacter baumannii}
+Probab=19.88  E-value=1e+02  Score=13.90  Aligned_cols=6  Identities=17%  Similarity=0.440  Sum_probs=0.0  Template_Neff=2.400
+
+Q QGMSLN            1 QGMSLN    6 (6)
+Q Consensus         1 qgmsln    6 (6)
+                      |.||||
+T Consensus        27 ~nmsl~   32 (107)
+T 2MMB_A           27 KNIPLP   32 (107)
+T ss_dssp             TTCCHH
+T ss_pred             CCCCcc
+
+
+No 3
+>2H1O_F PIN domain, RHH protein, DNA; HET: 5IU; 3.0A {Neisseria gonorrhoeae} SCOP: a.43.1.8
+Probab=19.69  E-value=1e+02  Score=11.01  Aligned_cols=6  Identities=33%  Similarity=0.363  Sum_probs=0.0  Template_Neff=7.300
+
+Q QGMSLN            1 QGMSLN    6 (6)
+Q Consensus         1 qgmsln    6 (6)
+                      +|.|+|
+T Consensus        23 ~g~S~~   28 (68)
+T 2H1O_F           23 AGRSTE   28 (68)
+T ss_pred             cCCCHH
+
+
+No 4
+>2BSQ_H TRAFFICKING PROTEIN B, TRAFFICKING PROTEIN; TRANSCRIPTION, TRANSCRIPTION REGULATION COMPLEX, PIN; HET: 5IU; 3.0A {NEISSERIA GONORRHOEAE} SCOP: a.43.1.8
+Probab=17.38  E-value=1.3e+02  Score=11.07  Aligned_cols=6  Identities=33%  Similarity=0.363  Sum_probs=0.0  Template_Neff=7.200
+
+Q QGMSLN            1 QGMSLN    6 (6)
+Q Consensus         1 qgmsln    6 (6)
+                      +|.|+|
+T Consensus        23 ~g~Sln   28 (77)
+T 2BSQ_H           23 AGRSTE   28 (77)
+T ss_dssp             TTCCHH
+T ss_pred             cCCCHH
+
+
+No 5
+>3H87_C Putative uncharacterized protein; toxin antitoxin complex, VapBC complex; HET: GOL; 1.49A {Mycobacterium tuberculosis}
+Probab=16.98  E-value=1.3e+02  Score=9.95  Aligned_cols=6  Identities=33%  Similarity=0.462  Sum_probs=0.0  Template_Neff=9.200
+
+Q QGMSLN            1 QGMSLN    6 (6)
+Q Consensus         1 qgmsln    6 (6)
+                      +|+|++
+T Consensus        24 ~g~s~s   29 (73)
+T 3H87_C           24 LGLSRT   29 (73)
+T ss_dssp             HTCCHH
+T ss_pred             hCCCHH
+
+
+No 6
+>3B5O_A CADD-like protein of unknown function; CADD-LIKE PROTEIN OF UNKNOWN FUNCTION; 1.35A {Nostoc punctiforme}
+Probab=15.74  E-value=1.5e+02  Score=11.89  Aligned_cols=5  Identities=60%  Similarity=1.125  Sum_probs=0.0  Template_Neff=9.500
+
+Q QGMSLN            2 GMSLN    6 (6)
+Q Consensus         2 gmsln    6 (6)
+                      ||+++
+T Consensus         1 ~~~~~    5 (244)
+T 3B5O_A            1 GMEFN    5 (244)
+T ss_dssp             CHHHH
+T ss_pred             CccHH
+
+
+No 7
+>7M8W_A prostaglandin D2 receptor, CRTH2, 15R-methyl-PGD2; HET: YCM, SO4, FLC, YSS; 2.61A {Homo sapiens}
+Probab=15.42  E-value=1.5e+02  Score=13.00  Aligned_cols=5  Identities=80%  Similarity=1.046  Sum_probs=0.0  Template_Neff=9.600
+
+Q QGMSLN            2 GMSLN    6 (6)
+Q Consensus         2 gmsln    6 (6)
+                      ||+.|
+T Consensus         1 ~~~~~    5 (470)
+T 7M8W_A            1 GMSAN    5 (470)
+T ss_dssp             ---CC
+T ss_pred             CCccc
+
+
+No 8
+>1NLA_B 3(10) helix, beta-ribbon, beta-sheet, structural; NMR {Enterobacteria phage P22} SCOP: a.43.1.1
+Probab=15.21  E-value=1.6e+02  Score=10.35  Aligned_cols=6  Identities=50%  Similarity=0.745  Sum_probs=0.0  Template_Neff=7.500
+
+Q QGMSLN            1 QGMSLN    6 (6)
+Q Consensus         1 qgmsln    6 (6)
+                      +|.|+|
+T Consensus        29 ~g~S~n   34 (64)
+T 1NLA_B           29 NGRSVN   34 (64)
+T ss_dssp             HTSCHH
+T ss_pred             hCCCHH
+
+
+No 9
+>1PCF_A TRANSCRIPTIONAL COACTIVATOR PC4; TRANSCRIPTION, TRANSCRIPTIONAL COFACTOR, TRANSCRIPTIONAL CO-ACTIVATOR; 1.74A {Homo sapiens} SCOP: d.18.1.1
+Probab=15.14  E-value=1.6e+02  Score=10.68  Aligned_cols=6  Identities=67%  Similarity=1.143  Sum_probs=0.0  Template_Neff=6.900
+
+Q QGMSLN            1 QGMSLN    6 (6)
+Q Consensus         1 qgmsln    6 (6)
+                      +|+||+
+T Consensus        40 kGIsl~   45 (66)
+T 1PCF_A           40 KGISLN   45 (66)
+T ss_dssp             EEEEEC
+T ss_pred             cEEeeC
+
+
+No 10
+>7E4W_N HUMAN TRANSCRIPTIONAL COACTIVATOR PC4, TRANSCRIPTION; 2.9A {Homo sapiens}
+Probab=15.14  E-value=1.6e+02  Score=10.68  Aligned_cols=6  Identities=67%  Similarity=1.143  Sum_probs=0.0  Template_Neff=6.900
+
+Q QGMSLN            1 QGMSLN    6 (6)
+Q Consensus         1 qgmsln    6 (6)
+                      +|+||+
+T Consensus        40 kGIsl~   45 (66)
+T 7E4W_N           40 KGISLN   45 (66)
+T ss_dssp             EEEEEC
+T ss_pred             cEEeeC
+
+

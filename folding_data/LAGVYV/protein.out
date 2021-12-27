@@ -1,0 +1,150 @@
+Query         LAGVYV
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 13:33:25 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LAGVYV/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LAGVYV/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6TMG_F ATPTG11, ATPTG7, ATPTG1  30.7      48 0.00053   14.2   0.0    6    1-6      15-20  (267)
+  2 6TMG_f ATPTG11, ATPTG7, ATPTG1  30.7      48 0.00053   14.2   0.0    6    1-6      15-20  (267)
+  3 6ZBC_D Precursor of the major   17.2 1.3E+02  0.0014   14.8   0.0    5    1-5      25-29  (376)
+  4 6ZBE_D Precursor of the major   17.2 1.3E+02  0.0014   14.8   0.0    5    1-5      25-29  (376)
+  5 1ZN6_A phage-related conserved  15.8 1.5E+02  0.0016   12.6   0.0    5    1-5     138-142 (227)
+  6 2WSH_D ENDONUCLEASE II (E.C.3.  15.4 1.5E+02  0.0017   11.6   0.0    5    2-6      41-45  (143)
+  7 5AG9_B GINGIPAIN R2 (E.C.3.4.2  15.2 1.6E+02  0.0017   12.3   0.0    5    2-6     141-145 (162)
+  8 5KO9_A Embryonic stem cell-spe  15.0 1.6E+02  0.0018   12.9   0.0    5    1-5     176-180 (277)
+  9 2BDV_A phage-related conserved  14.4 1.7E+02  0.0019   12.3   0.0    5    1-5     129-133 (231)
+ 10 6OEA_A Embryonic stem cell-spe  14.1 1.8E+02  0.0019   12.9   0.0    5    1-5     175-179 (276)
+
+No 1
+>6TMG_F ATPTG11, ATPTG7, ATPTG14, ATPTG5, subunit; mitochondrial, ATP synthase, membrane region; HET: PC1, LMT, PEE, CDL; 2.8A {Toxoplasma gondii (strain ATCC 50853 / GT1)}
+Probab=30.67  E-value=48  Score=14.24  Aligned_cols=6  Identities=67%  Similarity=1.337  Sum_probs=3.8  Template_Neff=8.000
+
+Q LAGVYV            1 LAGVYV    6 (6)
+Q Consensus         1 lagvyv    6 (6)
+                      +.||||
+T Consensus        15 ~~~~~~   20 (267)
+T 6TMG_F           15 VSGVYV   20 (267)
+T ss_pred             eeeeEe
+Confidence            357775
+
+
+No 2
+>6TMG_f ATPTG11, ATPTG7, ATPTG14, ATPTG5, subunit; mitochondrial, ATP synthase, membrane region; HET: PEE, LMT, PC1, CDL; 2.8A {Toxoplasma gondii (strain ATCC 50853 / GT1)}
+Probab=30.67  E-value=48  Score=14.24  Aligned_cols=6  Identities=67%  Similarity=1.337  Sum_probs=3.8  Template_Neff=8.000
+
+Q LAGVYV            1 LAGVYV    6 (6)
+Q Consensus         1 lagvyv    6 (6)
+                      +.||||
+T Consensus        15 ~~~~~~   20 (267)
+T 6TMG_f           15 VSGVYV   20 (267)
+T ss_pred             eeeeEe
+Confidence            357775
+
+
+No 3
+>6ZBC_D Precursor of the major merozoite; Merozoite surface protein 1, malaria; 3.1A {Plasmodium falciparum}
+Probab=17.23  E-value=1.3e+02  Score=14.85  Aligned_cols=5  Identities=100%  Similarity=1.610  Sum_probs=0.0  Template_Neff=5.500
+
+Q LAGVYV            1 LAGVY    5 (6)
+Q Consensus         1 lagvy    5 (6)
+                      |||+|
+T Consensus        25 ~~~~y   29 (376)
+T 6ZBC_D           25 LAGVY   29 (376)
+T ss_dssp             HHHHH
+T ss_pred             hhHHH
+
+
+No 4
+>6ZBE_D Precursor of the major merozoite; Merozoite surface protein 1, malaria; 3.3A {Plasmodium falciparum}
+Probab=17.23  E-value=1.3e+02  Score=14.85  Aligned_cols=5  Identities=100%  Similarity=1.610  Sum_probs=0.0  Template_Neff=5.500
+
+Q LAGVYV            1 LAGVY    5 (6)
+Q Consensus         1 lagvy    5 (6)
+                      |||+|
+T Consensus        25 ~~~~y   29 (376)
+T 6ZBE_D           25 LAGVY   29 (376)
+T ss_dssp             HHHHH
+T ss_pred             hhHHH
+
+
+No 5
+>1ZN6_A phage-related conserved hypothetical protein; novel, BoR19, Structural Genomics, PSI; HET: SO4; 1.8A {Bordetella bronchiseptica} SCOP: d.303.1.1
+Probab=15.76  E-value=1.5e+02  Score=12.57  Aligned_cols=5  Identities=40%  Similarity=1.178  Sum_probs=0.0  Template_Neff=7.900
+
+Q LAGVYV            1 LAGVY    5 (6)
+Q Consensus         1 lagvy    5 (6)
+                      +||+|
+T Consensus       138 lAGl~  142 (227)
+T 1ZN6_A          138 IAGLW  142 (227)
+T ss_dssp             EEEEE
+T ss_pred             EEEEE
+
+
+No 6
+>2WSH_D ENDONUCLEASE II (E.C.3.1.21.-); GIY-YIG, NUCLEASE, HYDROLASE; HET: MSE, PEG; 1.9A {ENTEROBACTERIA PHAGE T4}
+Probab=15.40  E-value=1.5e+02  Score=11.63  Aligned_cols=5  Identities=20%  Similarity=0.494  Sum_probs=0.0  Template_Neff=8.000
+
+Q LAGVYV            2 AGVYV    6 (6)
+Q Consensus         2 agvyv    6 (6)
+                      .|||+
+T Consensus        41 ~GVY~   45 (143)
+T 2WSH_D           41 NVIYA   45 (143)
+T ss_dssp             EEEEE
+T ss_pred             cEEEE
+
+
+No 7
+>5AG9_B GINGIPAIN R2 (E.C.3.4.22.37); HYDROLASE, TYPE IX SECRETION SYSTEM; HET: SO4; 2.11A {Porphyromonas gingivalis W83}
+Probab=15.25  E-value=1.6e+02  Score=12.33  Aligned_cols=5  Identities=60%  Similarity=1.172  Sum_probs=0.0  Template_Neff=7.000
+
+Q LAGVYV            2 AGVYV    6 (6)
+Q Consensus         2 agvyv    6 (6)
+                      +|+|+
+T Consensus       141 ~GvYi  145 (162)
+T 5AG9_B          141 NGVYA  145 (162)
+T ss_dssp             SEEEE
+T ss_pred             CcEEE
+
+
+No 8
+>5KO9_A Embryonic stem cell-specific 5-hydroxymethylcytosine-binding protein; SRAP Domain, DNA-binding, Structural Genomics; HET: UNX; 1.5A {Homo sapiens}
+Probab=14.95  E-value=1.6e+02  Score=12.89  Aligned_cols=5  Identities=40%  Similarity=1.331  Sum_probs=0.0  Template_Neff=7.800
+
+Q LAGVYV            1 LAGVY    5 (6)
+Q Consensus         1 lagvy    5 (6)
+                      +||+|
+T Consensus       176 lAGl~  180 (277)
+T 5KO9_A          176 MAGIF  180 (277)
+T ss_dssp             EEEEE
+T ss_pred             eEEEe
+
+
+No 9
+>2BDV_A phage-related conserved hypothetical protein, BB2244; alpha-beta protein, Structural Genomics, PSI; 2.2A {Bordetella bronchiseptica} SCOP: d.303.1.1
+Probab=14.38  E-value=1.7e+02  Score=12.34  Aligned_cols=5  Identities=40%  Similarity=0.727  Sum_probs=0.0  Template_Neff=8.100
+
+Q LAGVYV            1 LAGVY    5 (6)
+Q Consensus         1 lagvy    5 (6)
+                      +||+|
+T Consensus       129 ~AGl~  133 (231)
+T 2BDV_A          129 FAGLS  133 (231)
+T ss_dssp             EEEEE
+T ss_pred             EEEEe
+
+
+No 10
+>6OEA_A Embryonic stem cell-specific 5-hydroxymethylcytosine-binding protein; SRAP Domain, DNA-binding, Structural Genomics; HET: UNX, EDO; 2.1A {Homo sapiens}
+Probab=14.12  E-value=1.8e+02  Score=12.92  Aligned_cols=5  Identities=40%  Similarity=1.331  Sum_probs=0.0  Template_Neff=7.500
+
+Q LAGVYV            1 LAGVY    5 (6)
+Q Consensus         1 lagvy    5 (6)
+                      +||+|
+T Consensus       175 lAGl~  179 (276)
+T 6OEA_A          175 MAGIF  179 (276)
+T ss_dssp             EEEEE
+T ss_pred             eeeee
+
+

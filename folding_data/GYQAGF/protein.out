@@ -1,0 +1,155 @@
+Query         GYQAGF
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 05:28:38 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GYQAGF/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GYQAGF/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4V8G_AV Ribosome; ribosome mod  78.0     1.6 1.8E-05   16.9   0.0    6    1-6      16-21  (61)
+  2 7BB3_B UsnRNP, Biogenesis, SMN  51.7      13 0.00015   14.7   0.0    6    1-6      52-57  (69)
+  3 4LQ8_B Sca-family protein; cel  25.9      66 0.00073   16.7   0.0    6    1-6     161-166 (340)
+  4 4LQ8_A Sca-family protein; cel  25.2      69 0.00077   16.7   0.0    6    1-6     161-166 (340)
+  5 6NMJ_B Resistance to inhibitor  24.6      72  0.0008   14.9   0.0    6    1-6     414-419 (453)
+  6 6NMG_B Resistance to inhibitor  20.7      97  0.0011   14.5   0.0    6    1-6     414-419 (453)
+  7 2OFI_A 3-METHYLADENINE DNA GLY  19.8   1E+02  0.0012   13.3   0.0    6    1-6      39-44  (184)
+  8 6TYL_A Resistance to inhibitor  19.4 1.1E+02  0.0012   14.5   0.0    6    1-6     414-419 (492)
+  9 2OFK_B 3-methyladenine DNA gly  19.4 1.1E+02  0.0012   13.3   0.0    6    1-6      39-44  (183)
+ 10 5N0O_A Peptide N-methyltransfe  18.3 1.2E+02  0.0013   13.8   0.0    6    1-6     392-397 (398)
+
+No 1
+>4V8G_AV Ribosome; ribosome modulation factor, stress response; HET: ZN, MG; 3.0A {Thermus thermophilus}
+Probab=78.04  E-value=1.6  Score=16.87  Aligned_cols=6  Identities=83%  Similarity=1.503  Sum_probs=4.2  Template_Neff=4.700
+
+Q GYQAGF            1 GYQAGF    6 (6)
+Q Consensus         1 gyqagf    6 (6)
+                      |||||.
+T Consensus        16 GY~AGl   21 (61)
+T 4V8G_AV          16 GYQAGI   21 (61)
+T ss_pred             HHHHHH
+Confidence            688773
+
+
+No 2
+>7BB3_B UsnRNP, Biogenesis, SMN, Oligomerization, SPLICING; HET: MPD; 2.158A {Schizosaccharomyces pombe (strain 972 / ATCC 24843)}
+Probab=51.67  E-value=13  Score=14.72  Aligned_cols=6  Identities=50%  Similarity=1.215  Sum_probs=3.2  Template_Neff=4.600
+
+Q GYQAGF            1 GYQAGF    6 (6)
+Q Consensus         1 gyqagf    6 (6)
+                      ||++|+
+T Consensus        52 GY~tg~   57 (69)
+T 7BB3_B           52 GYYTGL   57 (69)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            565553
+
+
+No 3
+>4LQ8_B Sca-family protein; cell adhesion; 2.2A {Rickettsia rickettsii}
+Probab=25.90  E-value=66  Score=16.73  Aligned_cols=6  Identities=67%  Similarity=1.569  Sum_probs=3.9  Template_Neff=2.500
+
+Q GYQAGF            1 GYQAGF    6 (6)
+Q Consensus         1 gyqagf    6 (6)
+                      ||+.||
+T Consensus       161 ~y~ggF  166 (340)
+T 4LQ8_B          161 GYPGGF  166 (340)
+T ss_dssp             TCTTCB
+T ss_pred             CCCCCc
+Confidence            467776
+
+
+No 4
+>4LQ8_A Sca-family protein; cell adhesion; 2.2A {Rickettsia rickettsii}
+Probab=25.17  E-value=69  Score=16.66  Aligned_cols=6  Identities=67%  Similarity=1.569  Sum_probs=3.9  Template_Neff=2.500
+
+Q GYQAGF            1 GYQAGF    6 (6)
+Q Consensus         1 gyqagf    6 (6)
+                      +|+.||
+T Consensus       161 ~y~ggF  166 (340)
+T 4LQ8_A          161 GYPGGF  166 (340)
+T ss_dssp             TCTTCB
+T ss_pred             CCCCCc
+Confidence            467666
+
+
+No 5
+>6NMJ_B Resistance to inhibitors of cholinesterase; guanine nucleotide exchange factor heterotrimeric; 2.3A {Rattus norvegicus}
+Probab=24.64  E-value=72  Score=14.85  Aligned_cols=6  Identities=50%  Similarity=0.888  Sum_probs=0.0  Template_Neff=7.800
+
+Q GYQAGF            1 GYQAGF    6 (6)
+Q Consensus         1 gyqagf    6 (6)
+                      |+.|||
+T Consensus       414 GnAAG~  419 (453)
+T 6NMJ_B          414 GNAAGL  419 (453)
+T ss_dssp             ------
+T ss_pred             ccHHHH
+Confidence            455664
+
+
+No 6
+>6NMG_B Resistance to inhibitors of cholinesterase; guanine nucleotide exchange factor heterotrimeric; HET: SO4; 2.2A {Rattus norvegicus}
+Probab=20.68  E-value=97  Score=14.46  Aligned_cols=6  Identities=50%  Similarity=0.888  Sum_probs=3.1  Template_Neff=7.800
+
+Q GYQAGF            1 GYQAGF    6 (6)
+Q Consensus         1 gyqagf    6 (6)
+                      |+-|||
+T Consensus       414 GnAAG~  419 (453)
+T 6NMG_B          414 GNAAGL  419 (453)
+T ss_dssp             HHHHHH
+T ss_pred             ccHHHH
+Confidence            445554
+
+
+No 7
+>2OFI_A 3-METHYLADENINE DNA GLYCOSYLASE I/DNA; 3-Methyladenine, DNA repair, Glycosylase, Base; HET: ADK; 1.85A {Salmonella typhi}
+Probab=19.76  E-value=1e+02  Score=13.31  Aligned_cols=6  Identities=67%  Similarity=1.032  Sum_probs=0.0  Template_Neff=6.500
+
+Q GYQAGF            1 GYQAGF    6 (6)
+Q Consensus         1 gyqagf    6 (6)
+                      ++|||+
+T Consensus        39 ifQaGL   44 (184)
+T 2OFI_A           39 GQQAGL   44 (184)
+T ss_dssp             HHTTTS
+T ss_pred             HHhcCC
+
+
+No 8
+>6TYL_A Resistance to inhibitors of cholinesterase; Ric-8A, G protein, GEF, SIGNALING; HET: TPO, SEP; 3.3A {Rattus norvegicus}
+Probab=19.42  E-value=1.1e+02  Score=14.49  Aligned_cols=6  Identities=50%  Similarity=0.888  Sum_probs=0.0  Template_Neff=7.800
+
+Q GYQAGF            1 GYQAGF    6 (6)
+Q Consensus         1 gyqagf    6 (6)
+                      |+-|||
+T Consensus       414 GnAaG~  419 (492)
+T 6TYL_A          414 GNAAGL  419 (492)
+T ss_dssp             HHHHHS
+T ss_pred             chHHHH
+
+
+No 9
+>2OFK_B 3-methyladenine DNA glycosylase I, constitutive; 3-Methyladenine, DNA repair, Glycosylase, Base; HET: PGE; 1.5A {Salmonella typhi}
+Probab=19.41  E-value=1.1e+02  Score=13.26  Aligned_cols=6  Identities=67%  Similarity=1.032  Sum_probs=0.0  Template_Neff=6.500
+
+Q GYQAGF            1 GYQAGF    6 (6)
+Q Consensus         1 gyqagf    6 (6)
+                      ++|||+
+T Consensus        39 ifQaGL   44 (183)
+T 2OFK_B           39 GQQAGL   44 (183)
+T ss_dssp             HHTTTS
+T ss_pred             HHhCCC
+
+
+No 10
+>5N0O_A Peptide N-methyltransferase; methyltransferase, transferase; HET: SAM, MSE, CSX, EDO; 1.44A {Omphalotus olearius}
+Probab=18.32  E-value=1.2e+02  Score=13.76  Aligned_cols=6  Identities=50%  Similarity=0.811  Sum_probs=0.0  Template_Neff=8.200
+
+Q GYQAGF            1 GYQAGF    6 (6)
+Q Consensus         1 gyqagf    6 (6)
+                      |-|+||
+T Consensus       392 ~~~~~~  397 (398)
+T 5N0O_A          392 ASQNGF  397 (398)
+T ss_dssp             ------
+T ss_pred             HHHcCC
+
+

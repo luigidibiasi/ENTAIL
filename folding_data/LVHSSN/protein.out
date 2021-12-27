@@ -1,0 +1,151 @@
+Query         LVHSSN
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 20:57:21 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LVHSSN/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LVHSSN/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3G7W_A native fold for amyloid  89.9    0.16 1.7E-06   19.9   0.0    6    1-6     387-392 (393)
+  2 6MN0_D Aminoglycoside N(3)-ace  20.0   1E+02  0.0011   13.5   0.0    5    1-5      27-31  (263)
+  3 6MN1_B Aminoglycoside N(3)-ace  20.0   1E+02  0.0011   13.5   0.0    5    1-5      27-31  (263)
+  4 6PNP_B Neurexin-1, Neurexophil  19.8   1E+02  0.0011   13.6   0.0    5    1-5      58-62  (168)
+  5 6PNQ_B Neurexin-1, Neurexophil  19.8   1E+02  0.0011   13.6   0.0    5    1-5      58-62  (168)
+  6 6NP2_A Aminoglycoside N(3)-ace  19.2 1.1E+02  0.0012   13.5   0.0    5    1-5      24-28  (268)
+  7 3FIX_A N-ACETYLTRANSFERASE; N-  19.1 1.1E+02  0.0012   10.7   0.0    4    3-6       7-10  (183)
+  8 6MB8_A Aac(3)-IIIb protein; ac  19.1 1.1E+02  0.0012   13.4   0.0    5    1-5      30-34  (274)
+  9 1GTZ_K 3-DEHYDROQUINATE DEHYDR  19.0 1.1E+02  0.0012   13.3   0.0    5    2-6     105-109 (156)
+ 10 5YHM_A 3-dehydroquinate dehydr  18.4 1.2E+02  0.0013   13.0   0.0    5    2-6      99-103 (145)
+
+No 1
+>3G7W_A native fold for amyloidogenic protein; HET: GLC, SO4, GOL; 1.75A {Escherichia coli}
+Probab=89.86  E-value=0.16  Score=19.87  Aligned_cols=6  Identities=100%  Similarity=1.198  Sum_probs=5.0  Template_Neff=11.100
+
+Q LVHSSN            1 LVHSSN    6 (6)
+Q Consensus         1 lvhssn    6 (6)
+                      ||||||
+T Consensus       387 ~~~~~~  392 (393)
+T 3G7W_A          387 LVHSSN  392 (393)
+T ss_dssp             GCCCCC
+T ss_pred             hhccCC
+Confidence            689987
+
+
+No 2
+>6MN0_D Aminoglycoside N(3)-acetyltransferase (E.C.2.3.1.81); ANTIBIOTIC_NAT FAMILY, ACETYLTRANSFERASE, AMINOGLYCOSIDE, ANTIBIOTIC; HET: SO4, ACO, GOL, PE3; 2.4A {uncultured bacterium}
+Probab=19.98  E-value=1e+02  Score=13.51  Aligned_cols=5  Identities=60%  Similarity=1.039  Sum_probs=0.0  Template_Neff=7.500
+
+Q LVHSSN            1 LVHSS    5 (6)
+Q Consensus         1 lvhss    5 (6)
+                      +||||
+T Consensus        27 ~VHss   31 (263)
+T 6MN0_D           27 LVHAA   31 (263)
+T ss_dssp             EEEEC
+T ss_pred             EEEcC
+
+
+No 3
+>6MN1_B Aminoglycoside N(3)-acetyltransferase (E.C.2.3.1.81); ANTIBIOTIC_NAT FAMILY, ACETYLTRANSFERASE, AMINOGLYCOSIDE, ANTIBIOTIC; HET: COA, GOL, SO4, PE3, LLL; 2.25A {uncultured bacterium}
+Probab=19.98  E-value=1e+02  Score=13.51  Aligned_cols=5  Identities=60%  Similarity=1.039  Sum_probs=0.0  Template_Neff=7.500
+
+Q LVHSSN            1 LVHSS    5 (6)
+Q Consensus         1 lvhss    5 (6)
+                      +||||
+T Consensus        27 ~VHss   31 (263)
+T 6MN1_B           27 LVHAA   31 (263)
+T ss_dssp             EEEEC
+T ss_pred             EEEcC
+
+
+No 4
+>6PNP_B Neurexin-1, Neurexophilin-1; Synapse, complex, splice-variant, CELL ADHESION; 1.94A {Mus musculus}
+Probab=19.84  E-value=1e+02  Score=13.61  Aligned_cols=5  Identities=40%  Similarity=0.547  Sum_probs=0.0  Template_Neff=5.500
+
+Q LVHSSN            1 LVHSS    5 (6)
+Q Consensus         1 lvhss    5 (6)
+                      |||+|
+T Consensus        58 LVhpS   62 (168)
+T 6PNP_B           58 LVPPT   62 (168)
+T ss_dssp             EECTT
+T ss_pred             EcCcc
+
+
+No 5
+>6PNQ_B Neurexin-1, Neurexophilin-1; Synapse, complex, splice-variant, CELL ADHESION; 1.947A {Mus musculus}
+Probab=19.84  E-value=1e+02  Score=13.61  Aligned_cols=5  Identities=40%  Similarity=0.547  Sum_probs=0.0  Template_Neff=5.500
+
+Q LVHSSN            1 LVHSS    5 (6)
+Q Consensus         1 lvhss    5 (6)
+                      |||+|
+T Consensus        58 LVhpS   62 (168)
+T 6PNQ_B           58 LVPPT   62 (168)
+T ss_dssp             EECTT
+T ss_pred             EcCcc
+
+
+No 6
+>6NP2_A Aminoglycoside N(3)-acetyltransferase (E.C.2.3.1.81); Antibiotic modifying enzyme, substrate selectivity; HET: SIS; 1.2A {Enterobacter cloacae}
+Probab=19.25  E-value=1.1e+02  Score=13.52  Aligned_cols=5  Identities=40%  Similarity=0.547  Sum_probs=0.0  Template_Neff=7.400
+
+Q LVHSSN            1 LVHSS    5 (6)
+Q Consensus         1 lvhss    5 (6)
+                      +||||
+T Consensus        24 ~vHss   28 (268)
+T 6NP2_A           24 MPHVS   28 (268)
+T ss_dssp             EEEEC
+T ss_pred             EEEeC
+
+
+No 7
+>3FIX_A N-ACETYLTRANSFERASE; N-ACETYLTRANSFERASE, TERMOPLASMA ACIDOPHILUM, STRUCTURAL GENOMICS; HET: MSE; 2.3A {Thermoplasma acidophilum}
+Probab=19.11  E-value=1.1e+02  Score=10.70  Aligned_cols=4  Identities=75%  Similarity=0.900  Sum_probs=0.0  Template_Neff=11.400
+
+Q LVHSSN            3 HSSN    6 (6)
+Q Consensus         3 hssn    6 (6)
+                      ||||
+T Consensus         7 ~~~~   10 (183)
+T 3FIX_A            7 HSSG   10 (183)
+T ss_dssp             ----
+T ss_pred             cCCC
+
+
+No 8
+>6MB8_A Aac(3)-IIIb protein; acetyltransferase, promiscuity, GNAT, antibiotic resistance; 1.6A {Pseudomonas aeruginosa}
+Probab=19.06  E-value=1.1e+02  Score=13.44  Aligned_cols=5  Identities=40%  Similarity=0.959  Sum_probs=0.0  Template_Neff=7.600
+
+Q LVHSSN            1 LVHSS    5 (6)
+Q Consensus         1 lvhss    5 (6)
+                      +||||
+T Consensus        30 ~VHss   34 (274)
+T 6MB8_A           30 MVHAA   34 (274)
+T ss_dssp             EEEEC
+T ss_pred             EEEeC
+
+
+No 9
+>1GTZ_K 3-DEHYDROQUINATE DEHYDRATASE (E.C.4.2.1.10); LYASE, TYPE II DEHYDROQUINASE, SHIKIMATE; HET: TRS, DHK; 1.6A {STREPTOMYCES COELICOLOR} SCOP: c.23.13.1
+Probab=18.98  E-value=1.1e+02  Score=13.33  Aligned_cols=5  Identities=80%  Similarity=0.906  Sum_probs=0.0  Template_Neff=5.600
+
+Q LVHSSN            2 VHSSN    6 (6)
+Q Consensus         2 vhssn    6 (6)
+                      ||.||
+T Consensus       105 VHlsn  109 (156)
+T 1GTZ_K          105 VHISN  109 (156)
+T ss_dssp             EESSC
+T ss_pred             EEeCC
+
+
+No 10
+>5YHM_A 3-dehydroquinate dehydratase (E.C.4.2.1.10); LYASE; HET: SO4, TRS; 1.91A {Acinetobacter baumannii (strain ATCC 17978 / CIP 53.77 / LMG 1025 / NCDC KC755 / 5377)}
+Probab=18.44  E-value=1.2e+02  Score=13.00  Aligned_cols=5  Identities=80%  Similarity=0.886  Sum_probs=0.0  Template_Neff=5.900
+
+Q LVHSSN            2 VHSSN    6 (6)
+Q Consensus         2 vhssn    6 (6)
+                      ||.||
+T Consensus        99 VHlsn  103 (145)
+T 5YHM_A           99 VHLSN  103 (145)
+T ss_dssp             EESSC
+T ss_pred             EEcCC
+
+

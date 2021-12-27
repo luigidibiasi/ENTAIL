@@ -1,0 +1,150 @@
+Query         AAQAAL
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 13:12:00 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/AAQAAL/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/AAQAAL/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6N3A_J TAR DNA-binding protein  55.4      11 0.00012   15.2   0.0    6    1-6      15-20  (50)
+  2 6N3C_D TAR DNA-binding protein  27.8      58 0.00064   12.8   0.0    6    1-6      40-45  (46)
+  3 3P1X_A Interleukin enhancer-bi  13.9 1.8E+02   0.002    8.7   0.0    6    1-6      61-66  (75)
+  4 1DI2_A DOUBLE STRANDED RNA BIN  11.2 2.4E+02  0.0027    7.5   0.0    6    1-6      59-64  (69)
+  5 5CFF_E Miranda, Staufen; Coile  10.9 2.5E+02  0.0028    8.4   0.0    6    1-6      61-66  (72)
+  6 1DI2_B PROTEIN-RNA COMPLEX, DO  10.2 2.8E+02  0.0031    7.5   0.0    6    1-6      59-64  (69)
+  7 2XZR_A IMMUNOGLOBULIN-BINDING    9.7   3E+02  0.0033   12.1   0.0    6    1-6      83-88  (114)
+  8 1X48_A Interferon-induced, dou   9.6   3E+02  0.0033    8.5   0.0    6    1-6      64-69  (88)
+  9 3LLH_B RISC-loading complex su   9.5 3.1E+02  0.0034    8.4   0.0    6    1-6      72-77  (90)
+ 10 5ZJI_3 Chlorophyll a-b binding   8.9 3.4E+02  0.0037   12.4   0.0    6    1-6       2-7   (267)
+
+No 1
+>6N3A_J TAR DNA-binding protein 43, segA; Amyloid, TDP43, ALS, FTLD-TDP, dna; 3.3A {Homo sapiens}
+Probab=55.45  E-value=11  Score=15.19  Aligned_cols=6  Identities=100%  Similarity=0.905  Sum_probs=3.5  Template_Neff=2.200
+
+Q AAQAAL            1 AAQAAL    6 (6)
+Q Consensus         1 aaqaal    6 (6)
+                      ||||||
+T Consensus        15 AAqaaL   20 (50)
+T 6N3A_J           15 AAQAAL   20 (50)
+T ss_dssp             CSSEEE
+T ss_pred             HHHHHH
+Confidence            456664
+
+
+No 2
+>6N3C_D TAR DNA-binding protein 43; Amyloid, TDP43, ALS, FTLD-TDP, dna; 3.3A {Homo sapiens}
+Probab=27.85  E-value=58  Score=12.75  Aligned_cols=6  Identities=100%  Similarity=0.905  Sum_probs=0.0  Template_Neff=3.000
+
+Q AAQAAL            1 AAQAAL    6 (6)
+Q Consensus         1 aaqaal    6 (6)
+                      |||++|
+T Consensus        40 AAl~~l   45 (46)
+T 6N3C_D           40 AAQAAL   45 (46)
+T ss_dssp             ------
+T ss_pred             HHHHHh
+Confidence            345543
+
+
+No 3
+>3P1X_A Interleukin enhancer-binding factor 3; Structural Genomics, PSI-Biology, Protein Structure; 1.9A {Homo sapiens}
+Probab=13.86  E-value=1.8e+02  Score=8.70  Aligned_cols=6  Identities=83%  Similarity=0.667  Sum_probs=0.0  Template_Neff=11.100
+
+Q AAQAAL            1 AAQAAL    6 (6)
+Q Consensus         1 aaqaal    6 (6)
+                      ||+.+|
+T Consensus        61 aa~~al   66 (75)
+T 3P1X_A           61 AALAAL   66 (75)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 4
+>1DI2_A DOUBLE STRANDED RNA BINDING PROTEIN; PROTEIN-RNA COMPLEX, DOUBLE STRANDED RNA; 1.9A {Xenopus laevis} SCOP: d.50.1.1
+Probab=11.21  E-value=2.4e+02  Score=7.52  Aligned_cols=6  Identities=50%  Similarity=0.495  Sum_probs=0.0  Template_Neff=12.500
+
+Q AAQAAL            1 AAQAAL    6 (6)
+Q Consensus         1 aaqaal    6 (6)
+                      +++.++
+T Consensus        59 aa~~~l   64 (69)
+T 1DI2_A           59 AAEKLL   64 (69)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 5
+>5CFF_E Miranda, Staufen; Coiled-coil and dsRNA-binding domain complex; HET: MSE; 2.5A {Drosophila melanogaster}
+Probab=10.90  E-value=2.5e+02  Score=8.39  Aligned_cols=6  Identities=67%  Similarity=0.617  Sum_probs=0.0  Template_Neff=10.900
+
+Q AAQAAL            1 AAQAAL    6 (6)
+Q Consensus         1 aaqaal    6 (6)
+                      ||..+|
+T Consensus        61 AA~~al   66 (72)
+T 5CFF_E           61 AASNAL   66 (72)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 6
+>1DI2_B PROTEIN-RNA COMPLEX, DOUBLE STRANDED RNA; 1.9A {Xenopus laevis} SCOP: d.50.1.1
+Probab=10.22  E-value=2.8e+02  Score=7.50  Aligned_cols=6  Identities=50%  Similarity=0.495  Sum_probs=0.0  Template_Neff=12.300
+
+Q AAQAAL            1 AAQAAL    6 (6)
+Q Consensus         1 aaqaal    6 (6)
+                      +++.++
+T Consensus        59 aa~~~l   64 (69)
+T 1DI2_B           59 AAEKLL   64 (69)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 7
+>2XZR_A IMMUNOGLOBULIN-BINDING PROTEIN EIBD; CELL ADHESION, TRIMERIC AUTOTRANSPORTER ADHESIN; 2.8A {ENTEROBACTERIA PHAGE P-EIBD}
+Probab=9.72  E-value=3e+02  Score=12.12  Aligned_cols=6  Identities=0%  Similarity=0.014  Sum_probs=0.0  Template_Neff=4.100
+
+Q AAQAAL            1 AAQAAL    6 (6)
+Q Consensus         1 aaqaal    6 (6)
+                      |.||||
+T Consensus        83 A~~AAL   88 (114)
+T 2XZR_A           83 DKIEEI   88 (114)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 8
+>1X48_A Interferon-induced, double-stranded RNA-activated protein kinase; structure genomics, DSRM domain, Structural; NMR {Mus musculus} SCOP: d.50.1.1
+Probab=9.62  E-value=3e+02  Score=8.47  Aligned_cols=6  Identities=50%  Similarity=0.484  Sum_probs=0.0  Template_Neff=11.100
+
+Q AAQAAL            1 AAQAAL    6 (6)
+Q Consensus         1 aaqaal    6 (6)
+                      ||+.+|
+T Consensus        64 aa~~al   69 (88)
+T 1X48_A           64 AAKEAY   69 (88)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 9
+>3LLH_B RISC-loading complex subunit TARBP2; dsRBD, DSRM, microRNA, RNA BINDING; 2.14A {Homo sapiens}
+Probab=9.46  E-value=3.1e+02  Score=8.44  Aligned_cols=6  Identities=67%  Similarity=0.722  Sum_probs=0.0  Template_Neff=11.200
+
+Q AAQAAL            1 AAQAAL    6 (6)
+Q Consensus         1 aaqaal    6 (6)
+                      ||+.+|
+T Consensus        72 aa~~al   77 (90)
+T 3LLH_B           72 AAEVAL   77 (90)
+T ss_pred             HHHHHH
+
+
+No 10
+>5ZJI_3 Chlorophyll a-b binding protein, chloroplastic; Photosystem, Antenna, Supercomplex, State transition; HET: CL0, LMG, BCR, LMU, NEX, LUT, SF4, CLA, CHL, PQN, TPO, DGD, LHG, XAT;{Zea mays}
+Probab=8.91  E-value=3.4e+02  Score=12.41  Aligned_cols=6  Identities=83%  Similarity=0.706  Sum_probs=0.0  Template_Neff=6.700
+
+Q AAQAAL            1 AAQAAL    6 (6)
+Q Consensus         1 aaqaal    6 (6)
+                      |||+++
+T Consensus         2 ~~~~~~    7 (267)
+T 5ZJI_3            2 AAQALL    7 (267)
+T ss_pred             hhHHHH
+
+

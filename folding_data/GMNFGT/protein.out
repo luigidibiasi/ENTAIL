@@ -1,0 +1,149 @@
+Query         GMNFGT
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 02:02:26 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GMNFGT/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GMNFGT/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 1AVO_N 11S REGULATOR; PROTEASO  19.2 1.1E+02  0.0012   12.4   0.0    5    1-5      43-47  (140)
+  2 1V7L_B 3-isopropylmalate dehyd  18.4 1.2E+02  0.0013   12.4   0.0    6    1-6      58-63  (163)
+  3 1PK8_A rat synapsin I; ATP bin  17.0 1.3E+02  0.0015   13.2   0.0    4    1-4       1-4   (422)
+  4 3Q3W_A 3-isopropylmalate dehyd  16.9 1.3E+02  0.0015   13.0   0.0    6    1-6      79-84  (203)
+  5 3H5J_B 3-isopropylmalate dehyd  16.6 1.4E+02  0.0015   12.5   0.0    6    1-6      71-76  (171)
+  6 4QSG_A Gas vesicle protein; fe  16.3 1.4E+02  0.0016   12.8   0.0    5    2-6      86-90  (253)
+  7 2PKP_A 3-isopropylmalate dehyd  16.2 1.4E+02  0.0016   12.4   0.0    6    1-6      58-63  (170)
+  8 5D9O_A B-1,4-endoglucanase; en  16.1 1.4E+02  0.0016   11.8   0.0    5    1-5      23-27  (353)
+  9 5MSK_G Proteasome activator co  16.1 1.4E+02  0.0016   13.2   0.0    5    1-5     135-139 (239)
+ 10 5MX5_I Proteasome activator co  16.1 1.4E+02  0.0016   13.2   0.0    5    1-5     135-139 (239)
+
+No 1
+>1AVO_N 11S REGULATOR; PROTEASOME ACTIVATOR, CELL ADHESION, INTERFERON; 2.8A {Homo sapiens}
+Probab=19.19  E-value=1.1e+02  Score=12.39  Aligned_cols=5  Identities=80%  Similarity=1.451  Sum_probs=0.0  Template_Neff=7.200
+
+Q GMNFGT            1 GMNFG    5 (6)
+Q Consensus         1 gmnfg    5 (6)
+                      |-|||
+T Consensus        43 GnNfG   47 (140)
+T 1AVO_N           43 GNNFG   47 (140)
+T ss_dssp             SCCHH
+T ss_pred             CCchH
+
+
+No 2
+>1V7L_B 3-isopropylmalate dehydratase small subunit (E.C.4.2.1.33); BETA BARREL, LYASE; 1.98A {Pyrococcus horikoshii} SCOP: c.8.2.1
+Probab=18.41  E-value=1.2e+02  Score=12.40  Aligned_cols=6  Identities=67%  Similarity=1.221  Sum_probs=0.0  Template_Neff=7.600
+
+Q GMNFGT            1 GMNFGT    6 (6)
+Q Consensus         1 gmnfgt    6 (6)
+                      |-|||+
+T Consensus        58 G~nfG~   63 (163)
+T 1V7L_B           58 GKNFGI   63 (163)
+T ss_dssp             CSSBTB
+T ss_pred             eccCCC
+
+
+No 3
+>1PK8_A rat synapsin I; ATP binding, ATP grasp, calcium; HET: ATP; 2.1A {Rattus norvegicus} SCOP: c.30.1.5, d.142.1.3
+Probab=16.96  E-value=1.3e+02  Score=13.25  Aligned_cols=4  Identities=50%  Similarity=1.174  Sum_probs=0.0  Template_Neff=9.100
+
+Q GMNFGT            1 GMNF    4 (6)
+Q Consensus         1 gmnf    4 (6)
+                      ||||
+T Consensus         1 ~~~~    4 (422)
+T 1PK8_A            1 GSNY    4 (422)
+T ss_pred             CCCc
+
+
+No 4
+>3Q3W_A 3-isopropylmalate dehydratase small subunit (E.C.4.2.1.33); structural genomics, Center for Structural; HET: MSE; 1.89A {Campylobacter jejuni}
+Probab=16.92  E-value=1.3e+02  Score=12.99  Aligned_cols=6  Identities=50%  Similarity=0.650  Sum_probs=0.0  Template_Neff=6.900
+
+Q GMNFGT            1 GMNFGT    6 (6)
+Q Consensus         1 gmnfgt    6 (6)
+                      |-|||.
+T Consensus        79 G~nFG~   84 (203)
+T 3Q3W_A           79 FENFGS   84 (203)
+T ss_dssp             CSSBTB
+T ss_pred             ecCCCC
+
+
+No 5
+>3H5J_B 3-isopropylmalate dehydratase small subunit (E.C.4.2.1.33); Leucine biosynthesis, isopropylmalate isomerase, LeuD; HET: EDO; 1.2A {Mycobacterium tuberculosis}
+Probab=16.59  E-value=1.4e+02  Score=12.49  Aligned_cols=6  Identities=67%  Similarity=1.248  Sum_probs=0.0  Template_Neff=7.200
+
+Q GMNFGT            1 GMNFGT    6 (6)
+Q Consensus         1 gmnfgt    6 (6)
+                      |-|||.
+T Consensus        71 G~nfG~   76 (171)
+T 3H5J_B           71 GPDFGT   76 (171)
+T ss_dssp             CSSBTB
+T ss_pred             eCCCCC
+
+
+No 6
+>4QSG_A Gas vesicle protein; ferredoxin, gas vesicle, STRUCTURAL PROTEIN; 2.7A {Microcystis aeruginosa PCC 7806}
+Probab=16.34  E-value=1.4e+02  Score=12.84  Aligned_cols=5  Identities=40%  Similarity=1.026  Sum_probs=0.0  Template_Neff=7.900
+
+Q GMNFGT            2 MNFGT    6 (6)
+Q Consensus         2 mnfgt    6 (6)
+                      |.|||
+T Consensus        86 ~rFGt   90 (253)
+T 4QSG_A           86 LRFGL   90 (253)
+T ss_dssp             CCTTC
+T ss_pred             EecCe
+
+
+No 7
+>2PKP_A 3-isopropylmalate dehydratase small subunit 1; Beta Barrel, Amino-Acid Biosynthesis, Leucine; 2.1A {Methanocaldococcus jannaschii}
+Probab=16.19  E-value=1.4e+02  Score=12.43  Aligned_cols=6  Identities=67%  Similarity=1.193  Sum_probs=0.0  Template_Neff=7.200
+
+Q GMNFGT            1 GMNFGT    6 (6)
+Q Consensus         1 gmnfgt    6 (6)
+                      |-|||.
+T Consensus        58 G~nfG~   63 (170)
+T 2PKP_A           58 GENFGC   63 (170)
+T ss_dssp             CTTBTB
+T ss_pred             cCCCCC
+
+
+No 8
+>5D9O_A B-1,4-endoglucanase; endo-beta-glucanase/endo-xyloglucanase, GLYCOSYL HYDROLASE FAMILY 5; HET: BGC; 1.55A {Prevotella bryantii}
+Probab=16.12  E-value=1.4e+02  Score=11.77  Aligned_cols=5  Identities=60%  Similarity=1.371  Sum_probs=0.0  Template_Neff=11.100
+
+Q GMNFGT            1 GMNFG    5 (6)
+Q Consensus         1 gmnfg    5 (6)
+                      |+|+|
+T Consensus        23 G~n~~   27 (353)
+T 5D9O_A           23 GFNLG   27 (353)
+T ss_dssp             EEECT
+T ss_pred             EEecc
+
+
+No 9
+>5MSK_G Proteasome activator complex subunit 2; heptamer, REGbeta, interferon-gamma, hydrolase, structural; 3.6A {Mus musculus}
+Probab=16.12  E-value=1.4e+02  Score=13.15  Aligned_cols=5  Identities=60%  Similarity=1.345  Sum_probs=0.0  Template_Neff=7.000
+
+Q GMNFGT            1 GMNFG    5 (6)
+Q Consensus         1 gmnfg    5 (6)
+                      |-|||
+T Consensus       135 GnNfG  139 (239)
+T 5MSK_G          135 GNDFG  139 (239)
+T ss_dssp             SCCHH
+T ss_pred             CCCch
+
+
+No 10
+>5MX5_I Proteasome activator complex subunit 2; proteasome activator, regulator, heptamer, interferon-gamma; HET: PO4; 2.9A {Mus musculus}
+Probab=16.12  E-value=1.4e+02  Score=13.15  Aligned_cols=5  Identities=60%  Similarity=1.345  Sum_probs=0.0  Template_Neff=7.000
+
+Q GMNFGT            1 GMNFG    5 (6)
+Q Consensus         1 gmnfg    5 (6)
+                      |-|||
+T Consensus       135 GnNfG  139 (239)
+T 5MX5_I          135 GNDFG  139 (239)
+T ss_dssp             SCCHH
+T ss_pred             CCCch
+
+

@@ -1,0 +1,150 @@
+Query         PYGQQS
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 06:58:11 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/PYGQQS/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/PYGQQS/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2KFQ_A FP1; protein, DE NOVO P  11.1 2.5E+02  0.0027    5.4   0.0    3    1-3      30-32  (32)
+  2 2ROO_A Neurotoxin magi-4; spid  11.0 2.5E+02  0.0028   11.2   0.0    5    2-6      25-29  (43)
+  3 3SLR_A uncharacterized protein  10.2 2.8E+02  0.0031   12.3   0.0    4    1-4      57-60  (387)
+  4 3ZG6_A NAD-DEPENDENT PROTEIN D   9.6   3E+02  0.0033   12.1   0.0    5    1-5      11-15  (296)
+  5 2BDR_A Ureidoglycolate hydrola   9.4 3.1E+02  0.0035   11.5   0.0    4    1-4      16-19  (175)
+  6 1AM7_B LYSOZYME; GLYCOSIDASE,    8.7 3.5E+02  0.0039   11.7   0.0    6    1-6     131-136 (158)
+  7 6SK7_A Genome polyprotein (E.C   8.6 3.5E+02  0.0039   11.9   0.0    5    2-6     292-296 (298)
+  8 4BWO_B F18 FIMBRIAL ADHESIN AC   8.6 3.5E+02  0.0039   13.0   0.0    5    2-6      85-89  (151)
+  9 4W6Y_A Lectin domain of F18 fi   8.6 3.5E+02  0.0039   13.0   0.0    5    2-6      85-89  (151)
+ 10 3D5K_A Outer membrane protein    8.1 3.8E+02  0.0042   11.4   0.0    4    2-5      24-27  (474)
+
+No 1
+>2KFQ_A FP1; protein, DE NOVO PROTEIN; NMR {N/A}
+Probab=11.12  E-value=2.5e+02  Score=5.37  Aligned_cols=3  Identities=33%  Similarity=0.767  Sum_probs=0.0  Template_Neff=13.700
+
+Q PYGQQS            1 PYG    3 (6)
+Q Consensus         1 pyg    3 (6)
+                      ||+
+T Consensus        30 ~~~   32 (32)
+T 2KFQ_A           30 ALG   32 (32)
+T ss_dssp             SCC
+T ss_pred             ccC
+
+
+No 2
+>2ROO_A Neurotoxin magi-4; spider, toxin, sodium channel inhibitor; NMR {N/A}
+Probab=10.97  E-value=2.5e+02  Score=11.17  Aligned_cols=5  Identities=80%  Similarity=1.052  Sum_probs=0.0  Template_Neff=1.700
+
+Q PYGQQS            2 YGQQS    6 (6)
+Q Consensus         2 ygqqs    6 (6)
+                      |.|||
+T Consensus        25 ynqq~   29 (43)
+T 2ROO_A           25 YNQQS   29 (43)
+T ss_dssp             GGSSE
+T ss_pred             HccCC
+
+
+No 3
+>3SLR_A uncharacterized protein BF1531; Structural Genomics, PSI-2, Protein Structure; 1.712A {Bacteroides fragilis}
+Probab=10.18  E-value=2.8e+02  Score=12.31  Aligned_cols=4  Identities=50%  Similarity=0.866  Sum_probs=0.0  Template_Neff=8.800
+
+Q PYGQQS            1 PYGQ    4 (6)
+Q Consensus         1 pygq    4 (6)
+                      ||||
+T Consensus        57 ~y~q   60 (387)
+T 3SLR_A           57 EYNQ   60 (387)
+T ss_dssp             CTTC
+T ss_pred             CCCc
+
+
+No 4
+>3ZG6_A NAD-DEPENDENT PROTEIN DEACETYLASE SIRTUIN-6 (E.C.3.5.1.-; HYDROLASE-INHIBITOR COMPLEX, SIRTUIN CLASS III; HET: GOL, APR; 2.2A {HOMO SAPIENS}
+Probab=9.63  E-value=3e+02  Score=12.08  Aligned_cols=5  Identities=40%  Similarity=1.218  Sum_probs=0.0  Template_Neff=8.100
+
+Q PYGQQS            1 PYGQQ    5 (6)
+Q Consensus         1 pygqq    5 (6)
+                      |||.|
+T Consensus        11 ~~~~~   15 (296)
+T 3ZG6_A           11 PYADK   15 (296)
+T ss_dssp             TTCCC
+T ss_pred             CCccc
+
+
+No 5
+>2BDR_A Ureidoglycolate hydrolase (E.C.3.5.3.19); all beta protein, Structural Genomics; HET: MSE; 1.6A {Pseudomonas putida} SCOP: b.82.1.14
+Probab=9.35  E-value=3.1e+02  Score=11.47  Aligned_cols=4  Identities=25%  Similarity=1.033  Sum_probs=0.0  Template_Neff=7.300
+
+Q PYGQQS            1 PYGQ    4 (6)
+Q Consensus         1 pygq    4 (6)
+                      |||+
+T Consensus        16 pyG~   19 (175)
+T 2BDR_A           16 QFGD   19 (175)
+T ss_dssp             TTEE
+T ss_pred             ccce
+
+
+No 6
+>1AM7_B LYSOZYME; GLYCOSIDASE, TRANSGLYCOSYLASE, EVOLUTION, LYSOZYME; HET: TRN, IPA; 2.3A {Enterobacteria phage lambda} SCOP: d.2.1.4
+Probab=8.67  E-value=3.5e+02  Score=11.70  Aligned_cols=6  Identities=50%  Similarity=0.728  Sum_probs=0.0  Template_Neff=6.100
+
+Q PYGQQS            1 PYGQQS    6 (6)
+Q Consensus         1 pygqqs    6 (6)
+                      +|||..
+T Consensus       131 ~ygQ~~  136 (158)
+T 1AM7_B          131 GYGQFE  136 (158)
+T ss_dssp             CSSSCC
+T ss_pred             CCCCcc
+
+
+No 7
+>6SK7_A Genome polyprotein (E.C.3.4.22.29,3.6.1.15,3.4.22.28,2.7.7.48), VP4/VP2 protein; RV-A89, HRV-B5, virus, capsid protein; 2.9A {Human rhinovirus A serotype 89 (strain 41467-Gallo)}
+Probab=8.58  E-value=3.5e+02  Score=11.94  Aligned_cols=5  Identities=40%  Similarity=0.514  Sum_probs=0.0  Template_Neff=8.000
+
+Q PYGQQS            2 YGQQS    6 (6)
+Q Consensus         2 ygqqs    6 (6)
+                      .||||
+T Consensus       292 ~~~~~  296 (298)
+T 6SK7_A          292 VGPSS  296 (298)
+T ss_dssp             --C-C
+T ss_pred             cCCCC
+
+
+No 8
+>4BWO_B F18 FIMBRIAL ADHESIN AC; CELL ADHESION, GLYCAN ARRAY, ENTEROTOXIGENIC; HET: SO4, BR; 1.8A {ESCHERICHIA COLI}
+Probab=8.56  E-value=3.5e+02  Score=12.96  Aligned_cols=5  Identities=80%  Similarity=1.219  Sum_probs=0.0  Template_Neff=1.000
+
+Q PYGQQS            2 YGQQS    6 (6)
+Q Consensus         2 ygqqs    6 (6)
+                      +||||
+T Consensus        85 wgqqs   89 (151)
+T 4BWO_B           85 WGQQS   89 (151)
+T ss_dssp             CBSEE
+T ss_pred             hcccc
+
+
+No 9
+>4W6Y_A Lectin domain of F18 fimbrial; Adhesin, Fimbriae, cell adhesion, Inhibitor; HET: SO4; 1.57A {Escherichia coli DH5[alpha]}
+Probab=8.56  E-value=3.5e+02  Score=12.96  Aligned_cols=5  Identities=80%  Similarity=1.219  Sum_probs=0.0  Template_Neff=1.000
+
+Q PYGQQS            2 YGQQS    6 (6)
+Q Consensus         2 ygqqs    6 (6)
+                      +||||
+T Consensus        85 wgqqs   89 (151)
+T 4W6Y_A           85 WGQQS   89 (151)
+T ss_dssp             CBSEE
+T ss_pred             hcccc
+
+
+No 10
+>3D5K_A Outer membrane protein oprM; membrane protein, channel, beta-alpha-barrel, Antibiotic; HET: SCY; 2.4A {Pseudomonas aeruginosa}
+Probab=8.09  E-value=3.8e+02  Score=11.40  Aligned_cols=4  Identities=75%  Similarity=1.481  Sum_probs=0.0  Template_Neff=10.600
+
+Q PYGQQS            2 YGQQ    5 (6)
+Q Consensus         2 ygqq    5 (6)
+                      ||||
+T Consensus        24 ~~~~   27 (474)
+T 3D5K_A           24 YGQN   27 (474)
+T ss_dssp             CCCC
+T ss_pred             cCCC
+
+

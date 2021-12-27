@@ -1,0 +1,150 @@
+Query         ITVIIE
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 09:35:39 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/ITVIIE/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/ITVIIE/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5XAD_A Microtubule-associated   13.8 1.8E+02   0.002   11.5   0.0    6    1-6      30-35  (119)
+  2 4CO7_A GAMMA-AMINOBUTYRIC ACID  13.7 1.8E+02   0.002   11.4   0.0    6    1-6      31-36  (119)
+  3 5YIR_A Gamma-aminobutyric acid  13.4 1.9E+02  0.0021   11.4   0.0    6    1-6      29-34  (117)
+  4 6HYO_A Phosphatidylinositol 3-  12.9   2E+02  0.0022   12.0   0.0    6    1-6      49-54  (137)
+  5 6H8C_A Gamma-aminobutyric acid  12.9   2E+02  0.0022   11.2   0.0    6    1-6      29-34  (116)
+  6 7NE0_D Netrin-1, Neogenin, RGM  12.5 2.1E+02  0.0023   12.9   0.0    5    1-5      48-52  (165)
+  7 5AZH_A EEEWEEL peptide, LGG-2;  12.3 2.1E+02  0.0024   11.6   0.0    6    1-6      39-44  (128)
+  8 6LAN_A Coiled-coil domain-cont  12.2 2.2E+02  0.0024   11.7   0.0    6    1-6      41-46  (135)
+  9 5E6O_D Protein lgg-2, TRP-GLU-  11.9 2.3E+02  0.0025   11.2   0.0    6    1-6      29-34  (118)
+ 10 5L83_A ASP-TRP-GLU-ILE-VAL, Au  11.8 2.3E+02  0.0025   11.1   0.0    6    1-6      28-33  (112)
+
+No 1
+>5XAD_A Microtubule-associated proteins 1A/1B light chain; Autophagy, LC3, Atg8, fusion protein; 1.88A {Homo sapiens}
+Probab=13.81  E-value=1.8e+02  Score=11.48  Aligned_cols=6  Identities=83%  Similarity=1.060  Sum_probs=0.0  Template_Neff=7.200
+
+Q ITVIIE            1 ITVIIE    6 (6)
+Q Consensus         1 itviie    6 (6)
+                      |.||+|
+T Consensus        30 vpVi~e   35 (119)
+T 5XAD_A           30 IPVIIE   35 (119)
+T ss_dssp             EEEEEE
+T ss_pred             eeEEEE
+
+
+No 2
+>4CO7_A GAMMA-AMINOBUTYRIC ACID RECEPTOR-ASSOCIATED PROTEIN-LIKE 2; PROTEIN TRANSPORT, AUTOPHAGY, BETA-GRASP FOLD; 2.0A {HOMO SAPIENS}
+Probab=13.69  E-value=1.8e+02  Score=11.42  Aligned_cols=6  Identities=50%  Similarity=0.960  Sum_probs=0.0  Template_Neff=7.300
+
+Q ITVIIE            1 ITVIIE    6 (6)
+Q Consensus         1 itviie    6 (6)
+                      |.||+|
+T Consensus        31 Ipvi~e   36 (119)
+T 4CO7_A           31 VPVIVE   36 (119)
+T ss_dssp             EEEEEE
+T ss_pred             eeEEEE
+
+
+No 3
+>5YIR_A Gamma-aminobutyric acid receptor-associated protein, Ankyrin-2; Autophagy, PROTEIN BINDING; HET: NI; 2.75A {Mus musculus}
+Probab=13.38  E-value=1.9e+02  Score=11.35  Aligned_cols=6  Identities=50%  Similarity=0.960  Sum_probs=0.0  Template_Neff=7.300
+
+Q ITVIIE            1 ITVIIE    6 (6)
+Q Consensus         1 itviie    6 (6)
+                      |.||+|
+T Consensus        29 Ipvi~e   34 (117)
+T 5YIR_A           29 VPVIVE   34 (117)
+T ss_dssp             EEEEEE
+T ss_pred             eeeEEE
+
+
+No 4
+>6HYO_A Phosphatidylinositol 3-kinase catalytic subunit type; Autophagy, ATG8, LIR, SIGNALING PROTEIN; HET: PEG; 1.07A {Homo sapiens}
+Probab=12.93  E-value=2e+02  Score=11.95  Aligned_cols=6  Identities=50%  Similarity=0.960  Sum_probs=0.0  Template_Neff=6.500
+
+Q ITVIIE            1 ITVIIE    6 (6)
+Q Consensus         1 itviie    6 (6)
+                      |.||+|
+T Consensus        49 IpVI~e   54 (137)
+T 6HYO_A           49 VPVIVE   54 (137)
+T ss_dssp             EEEEEE
+T ss_pred             eeEEEE
+
+
+No 5
+>6H8C_A Gamma-aminobutyric acid receptor-associated protein-like 2; GABARAPL2, UBA5 LIR motif, protein; NMR {Homo sapiens}
+Probab=12.89  E-value=2e+02  Score=11.22  Aligned_cols=6  Identities=50%  Similarity=0.960  Sum_probs=0.0  Template_Neff=7.400
+
+Q ITVIIE            1 ITVIIE    6 (6)
+Q Consensus         1 itviie    6 (6)
+                      |.||+|
+T Consensus        29 ipvi~e   34 (116)
+T 6H8C_A           29 VPVIVE   34 (116)
+T ss_dssp             EEEEEE
+T ss_pred             eeEEEE
+
+
+No 6
+>7NE0_D Netrin-1, Neogenin, RGM domain family; cell surface receptor signaling, axon; HET: GU4, YYJ, NAG; 3.25A {Homo sapiens}
+Probab=12.50  E-value=2.1e+02  Score=12.93  Aligned_cols=5  Identities=60%  Similarity=0.972  Sum_probs=0.0  Template_Neff=4.900
+
+Q ITVIIE            1 ITVII    5 (6)
+Q Consensus         1 itvii    5 (6)
+                      |||||
+T Consensus        48 iTVii   52 (165)
+T 7NE0_D           48 ITIIF   52 (165)
+T ss_dssp             EEEEE
+T ss_pred             EEEEE
+
+
+No 7
+>5AZH_A EEEWEEL peptide, LGG-2; autophagy, ubiquitin-like, PROTEIN BINDING; 2.3A {synthetic construct}
+Probab=12.31  E-value=2.1e+02  Score=11.60  Aligned_cols=6  Identities=67%  Similarity=1.010  Sum_probs=0.0  Template_Neff=6.800
+
+Q ITVIIE            1 ITVIIE    6 (6)
+Q Consensus         1 itviie    6 (6)
+                      |.||+|
+T Consensus        39 IpVi~e   44 (128)
+T 5AZH_A           39 VPVIIE   44 (128)
+T ss_dssp             EEEEEE
+T ss_pred             ceEEEE
+
+
+No 8
+>6LAN_A Coiled-coil domain-containing protein 50,Microtubule-associated proteins; autophagy, complex, PEPTIDE BINDING PROTEIN; 1.41A {Homo sapiens}
+Probab=12.18  E-value=2.2e+02  Score=11.73  Aligned_cols=6  Identities=83%  Similarity=1.060  Sum_probs=0.0  Template_Neff=6.700
+
+Q ITVIIE            1 ITVIIE    6 (6)
+Q Consensus         1 itviie    6 (6)
+                      |.||+|
+T Consensus        41 IpVi~e   46 (135)
+T 6LAN_A           41 IPVIIE   46 (135)
+T ss_dssp             EEEEEE
+T ss_pred             eeEEEE
+
+
+No 9
+>5E6O_D Protein lgg-2, TRP-GLU-GLU-LEU; ubiquitin-like protein, Atg8 protein family; 1.8A {Caenorhabditis elegans}
+Probab=11.86  E-value=2.3e+02  Score=11.21  Aligned_cols=6  Identities=67%  Similarity=1.010  Sum_probs=0.0  Template_Neff=7.200
+
+Q ITVIIE            1 ITVIIE    6 (6)
+Q Consensus         1 itviie    6 (6)
+                      |.||+|
+T Consensus        29 ipVi~e   34 (118)
+T 5E6O_D           29 VPVIIE   34 (118)
+T ss_dssp             EEEEEE
+T ss_pred             ceEEEE
+
+
+No 10
+>5L83_A ASP-TRP-GLU-ILE-VAL, Autophagy-related protein; Autophagy-related protein 8, ATG8 interacting; HET: SO4, EDO; 1.9A {Solanum tuberosum}
+Probab=11.82  E-value=2.3e+02  Score=11.11  Aligned_cols=6  Identities=67%  Similarity=1.010  Sum_probs=0.0  Template_Neff=7.200
+
+Q ITVIIE            1 ITVIIE    6 (6)
+Q Consensus         1 itviie    6 (6)
+                      |.||+|
+T Consensus        28 Ipvi~e   33 (112)
+T 5L83_A           28 IPVIVE   33 (112)
+T ss_dssp             EEEEEE
+T ss_pred             eeEEEE
+
+

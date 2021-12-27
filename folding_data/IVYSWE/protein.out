@@ -1,0 +1,154 @@
+Query         IVYSWE
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 09:54:24 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/IVYSWE/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/IVYSWE/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2JKY_A HYPOXANTHINE-GUANINE PH  43.0      22 0.00025   14.4   0.0    6    1-6     188-193 (213)
+  2 2XBU_A HYPOXANTHINE-GUANINE PH  40.0      27  0.0003   14.6   0.0    6    1-6     189-194 (221)
+  3 6U9X_A Mitochondrial edited mR  23.2      80 0.00089   15.5   0.0    6    1-6      65-70  (363)
+  4 6NL1_A Mitochondrial edited mR  21.7      90 0.00099   15.6   0.0    6    1-6     100-105 (398)
+  5 1QGE_D TRIACYLGLYCEROL HYDROLA  19.9   1E+02  0.0011   12.0   0.0    3    3-5     207-209 (222)
+  6 1B69_A PROTEIN (INTEGRASE) MUT  19.6 1.1E+02  0.0012   11.3   0.0    5    2-6      37-41  (69)
+  7 2JZ1_B Protein doublesex; doub  19.4 1.1E+02  0.0012   12.9   0.0    4    3-6      22-25  (80)
+  8 3LW0_A Insulin-like growth fac  18.8 1.1E+02  0.0013   11.4   0.0    5    2-6     298-302 (304)
+  9 5HZN_D Insulin-like growth fac  18.8 1.1E+02  0.0013   11.4   0.0    5    2-6     298-302 (304)
+ 10 2KEB_A DNA polymerase subunit   18.6 1.1E+02  0.0013   12.1   0.0    6    1-6      64-69  (101)
+
+No 1
+>2JKY_A HYPOXANTHINE-GUANINE PHOSPHORIBOSYLTRANSFERASE (E.C.2.4.2.8); NUCLEUS, MAGNESIUM, GMP COMPLEX, FLIP; HET: 5GP, SO4; 2.3A {SACCHAROMYCES CEREVISIAE}
+Probab=43.03  E-value=22  Score=14.43  Aligned_cols=6  Identities=50%  Similarity=1.409  Sum_probs=3.5  Template_Neff=8.500
+
+Q IVYSWE            1 IVYSWE    6 (6)
+Q Consensus         1 ivyswe    6 (6)
+                      |+|.||
+T Consensus       188 ivfPWe  193 (213)
+T 2JKY_A          188 YAYPWE  193 (213)
+T ss_dssp             EECGGG
+T ss_pred             EEcccc
+Confidence            456665
+
+
+No 2
+>2XBU_A HYPOXANTHINE-GUANINE PHOSPHORIBOSYLTRANSFERASE (E.C.2.4.2.8); GLYCOSYLTRANSFERASE, TRANSFERASE, PURINE SALVAGE, FLIP; HET: 5GP; 1.8A {SACCHAROMYCES CEREVISIAE}
+Probab=40.03  E-value=27  Score=14.63  Aligned_cols=6  Identities=50%  Similarity=1.409  Sum_probs=3.4  Template_Neff=7.900
+
+Q IVYSWE            1 IVYSWE    6 (6)
+Q Consensus         1 ivyswe    6 (6)
+                      ++|.||
+T Consensus       189 ivfPWe  194 (221)
+T 2XBU_A          189 YAYPWE  194 (221)
+T ss_dssp             EECGGG
+T ss_pred             EECccc
+Confidence            356665
+
+
+No 3
+>6U9X_A Mitochondrial edited mRNA stability factor; MERS1, mRNA, TmRNA processing, Nudix; 2.6A {Trypanosoma brucei}
+Probab=23.17  E-value=80  Score=15.48  Aligned_cols=6  Identities=50%  Similarity=1.564  Sum_probs=4.0  Template_Neff=5.400
+
+Q IVYSWE            1 IVYSWE    6 (6)
+Q Consensus         1 ivyswe    6 (6)
+                      +||.|+
+T Consensus        65 ~~~~~~   70 (363)
+T 6U9X_A           65 FVYKWQ   70 (363)
+T ss_dssp             EEEEEE
+T ss_pred             eEEEEe
+Confidence            477774
+
+
+No 4
+>6NL1_A Mitochondrial edited mRNA stability factor; MERS1, mRNA processing, nudix, RNA; HET: SO4; 2.297A {Trypanosoma brucei}
+Probab=21.68  E-value=90  Score=15.60  Aligned_cols=6  Identities=50%  Similarity=1.564  Sum_probs=4.0  Template_Neff=5.200
+
+Q IVYSWE            1 IVYSWE    6 (6)
+Q Consensus         1 ivyswe    6 (6)
+                      +||.|+
+T Consensus       100 ~~~~~~  105 (398)
+T 6NL1_A          100 FVYKWQ  105 (398)
+T ss_dssp             EEEEEE
+T ss_pred             eEEEEE
+Confidence            478774
+
+
+No 5
+>1QGE_D TRIACYLGLYCEROL HYDROLASE; PSEUDOMONADACEAE, CIS-PEPTIDE, CLOSED CONFORMATION, HYDROLASE; 1.7A {Burkholderia glumae} SCOP: c.69.1.18
+Probab=19.95  E-value=1e+02  Score=12.05  Aligned_cols=3  Identities=100%  Similarity=2.682  Sum_probs=0.0  Template_Neff=9.700
+
+Q IVYSWE            3 YSW    5 (6)
+Q Consensus         3 ysw    5 (6)
+                      |||
+T Consensus       207 ~s~  209 (222)
+T 1QGE_D          207 YSW  209 (222)
+T ss_dssp             EEE
+T ss_pred             Eee
+
+
+No 6
+>1B69_A PROTEIN (INTEGRASE) MUTANT (C57A)/DNA COMPLEX; INTEGRASE, DNA BINDING, TRANSPOSITION, COMPLEX; NMR {Enterococcus faecalis} SCOP: d.10.1.1
+Probab=19.56  E-value=1.1e+02  Score=11.27  Aligned_cols=5  Identities=80%  Similarity=1.916  Sum_probs=0.0  Template_Neff=6.800
+
+Q IVYSWE            2 VYSWE    6 (6)
+Q Consensus         2 vyswe    6 (6)
+                      +|||.
+T Consensus        37 ~y~~~   41 (69)
+T 1B69_A           37 VYSWK   41 (69)
+T ss_dssp             EEESC
+T ss_pred             EEEEe
+
+
+No 7
+>2JZ1_B Protein doublesex; double sex, sex determination, development; NMR {Drosophila melanogaster}
+Probab=19.38  E-value=1.1e+02  Score=12.94  Aligned_cols=4  Identities=75%  Similarity=2.162  Sum_probs=0.0  Template_Neff=3.500
+
+Q IVYSWE            3 YSWE    6 (6)
+Q Consensus         3 yswe    6 (6)
+                      |+||
+T Consensus        22 YpWE   25 (80)
+T 2JZ1_B           22 YPWE   25 (80)
+T ss_dssp             CCGG
+T ss_pred             CChH
+
+
+No 8
+>3LW0_A Insulin-like growth factor 1 receptor; PROTEIN KINASE, TRANSFERASE; HET: GOL, CCX; 1.79A {Homo sapiens}
+Probab=18.77  E-value=1.1e+02  Score=11.38  Aligned_cols=5  Identities=60%  Similarity=0.548  Sum_probs=0.0  Template_Neff=11.800
+
+Q IVYSWE            2 VYSWE    6 (6)
+Q Consensus         2 vyswe    6 (6)
+                      .|+||
+T Consensus       298 ~~~~~  302 (304)
+T 3LW0_A          298 YYSEE  302 (304)
+T ss_dssp             TTSTT
+T ss_pred             eeccC
+
+
+No 9
+>5HZN_D Insulin-like growth factor 1 receptor; Inhibitor, Kinase, transferase; HET: MES, SO4, 66A; 2.2A {Homo sapiens}
+Probab=18.77  E-value=1.1e+02  Score=11.38  Aligned_cols=5  Identities=60%  Similarity=0.548  Sum_probs=0.0  Template_Neff=11.800
+
+Q IVYSWE            2 VYSWE    6 (6)
+Q Consensus         2 vyswe    6 (6)
+                      .|+||
+T Consensus       298 ~~~~~  302 (304)
+T 5HZN_D          298 YYSEE  302 (304)
+T ss_dssp             TTSTT
+T ss_pred             eeccC
+
+
+No 10
+>2KEB_A DNA polymerase subunit alpha B; DNA polymerase alpha, DNA replication; NMR {Homo sapiens}
+Probab=18.64  E-value=1.1e+02  Score=12.10  Aligned_cols=6  Identities=17%  Similarity=-0.069  Sum_probs=0.0  Template_Neff=6.400
+
+Q IVYSWE            1 IVYSWE    6 (6)
+Q Consensus         1 ivyswe    6 (6)
+                      +++.||
+T Consensus        64 L~~kWe   69 (101)
+T 2KEB_A           64 MVGELI   69 (101)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+

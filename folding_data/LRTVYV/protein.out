@@ -1,0 +1,150 @@
+Query         LRTVYV
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 20:19:49 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LRTVYV/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LRTVYV/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5ZWN_S U1 small nuclear ribonu  33.2      41 0.00045   13.3   0.0    6    1-6       1-6   (298)
+  2 6N7R_C Pre-mRNA-splicing facto  32.5      42 0.00047   13.8   0.0    6    1-6       1-6   (350)
+  3 5HO4_A Heterogeneous nuclear r  11.7 2.3E+02  0.0026    9.4   0.0    5    2-6       7-11  (179)
+  4 3FGR_A Putative phospholipase   11.6 2.3E+02  0.0026   12.4   0.0    5    2-6      19-23  (202)
+  5 3NMR_A CUGBP Elav-like family   10.9 2.5E+02  0.0028    9.3   0.0    5    2-6       4-8   (175)
+  6 4CQ1_A POLYPYRIMIDINE TRACT-BI  10.6 2.6E+02  0.0029    9.5   0.0    5    2-6       3-7   (196)
+  7 5UXX_D BaquA.17208.a, BaquA.17  10.5 2.7E+02   0.003   11.2   0.0    5    1-5      30-34  (67)
+  8 2DHX_A poly (ADP-ribose) polym  10.1 2.8E+02  0.0031    8.5   0.0    5    2-6      87-91  (104)
+  9 3T0Y_B Response regulator, Nep  10.1 2.8E+02  0.0031   11.4   0.0    5    1-5      38-42  (68)
+ 10 2KI0_A DS119; beta-alpha-beta,   9.9 2.9E+02  0.0032   10.7   0.0    6    1-6       5-10  (36)
+
+No 1
+>5ZWN_S U1 small nuclear ribonucleoprotein 70; spliceosme, assemply, pre-B complex, U1; 3.3A {Saccharomyces cerevisiae S288c}
+Probab=33.25  E-value=41  Score=13.30  Aligned_cols=6  Identities=17%  Similarity=0.717  Sum_probs=3.0  Template_Neff=10.400
+
+Q LRTVYV            1 LRTVYV    6 (6)
+Q Consensus         1 lrtvyv    6 (6)
+                      +||||+
+T Consensus         1 ~~~~~~    6 (298)
+T 5ZWN_S            1 MSALYF    6 (298)
+T ss_pred             Cceeee
+Confidence            355553
+
+
+No 2
+>6N7R_C Pre-mRNA-splicing factor 8, Pre-mRNA-splicing factor; pre-mRNA splicing, spliceosome, E complex; 3.2A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=32.52  E-value=42  Score=13.85  Aligned_cols=6  Identities=17%  Similarity=0.717  Sum_probs=3.3  Template_Neff=9.900
+
+Q LRTVYV            1 LRTVYV    6 (6)
+Q Consensus         1 lrtvyv    6 (6)
+                      +||+||
+T Consensus         1 ~~~l~~    6 (350)
+T 6N7R_C            1 MSALYF    6 (350)
+T ss_pred             CCeeec
+Confidence            356654
+
+
+No 3
+>5HO4_A Heterogeneous nuclear ribonucleoproteins A2/B1/RNA Complex; hnRNPA2B1, RRMs, RNA BINDING PROTEIN-RNA; 1.85A {N/A}
+Probab=11.67  E-value=2.3e+02  Score=9.40  Aligned_cols=5  Identities=20%  Similarity=0.986  Sum_probs=0.0  Template_Neff=12.300
+
+Q LRTVYV            2 RTVYV    6 (6)
+Q Consensus         2 rtvyv    6 (6)
+                      |+|+|
+T Consensus         7 ~~v~v   11 (179)
+T 5HO4_A            7 RKLFI   11 (179)
+T ss_dssp             GEEEE
+T ss_pred             ceEEE
+
+
+No 4
+>3FGR_A Putative phospholipase B-like 2 28; alpha beta, glycosylated, disulphide bonds; HET: NAG, GOL; 1.8A {Mus musculus}
+Probab=11.59  E-value=2.3e+02  Score=12.42  Aligned_cols=5  Identities=40%  Similarity=0.341  Sum_probs=0.0  Template_Neff=6.600
+
+Q LRTVYV            2 RTVYV    6 (6)
+Q Consensus         2 rtvyv    6 (6)
+                      |||+|
+T Consensus        19 ~~~~v   23 (202)
+T 3FGR_A           19 RTRSL   23 (202)
+T ss_dssp             EEEEE
+T ss_pred             cEEEE
+
+
+No 5
+>3NMR_A CUGBP Elav-like family member 1/RNA; RRM, pre-mRNA splicing, RNA BINDING; 1.85A {Homo sapiens}
+Probab=10.89  E-value=2.5e+02  Score=9.26  Aligned_cols=5  Identities=20%  Similarity=0.521  Sum_probs=0.0  Template_Neff=12.300
+
+Q LRTVYV            2 RTVYV    6 (6)
+Q Consensus         2 rtvyv    6 (6)
+                      |++||
+T Consensus         4 ~~l~i    8 (175)
+T 3NMR_A            4 IKMFV    8 (175)
+T ss_dssp             EEEEE
+T ss_pred             eEEEE
+
+
+No 6
+>4CQ1_A POLYPYRIMIDINE TRACT-BINDING PROTEIN 2; TRANSLATION, RNA BINDING PROTEIN, NPTB; HET: ZN; 1.69A {HOMO SAPIENS}
+Probab=10.63  E-value=2.6e+02  Score=9.52  Aligned_cols=5  Identities=20%  Similarity=0.335  Sum_probs=0.0  Template_Neff=12.100
+
+Q LRTVYV            2 RTVYV    6 (6)
+Q Consensus         2 rtvyv    6 (6)
+                      |++||
+T Consensus         3 ~~l~v    7 (196)
+T 4CQ1_A            3 TVLLV    7 (196)
+T ss_dssp             CEEEE
+T ss_pred             eEEEE
+
+
+No 7
+>5UXX_D BaquA.17208.a, BaquA.17842.a; SSGCID, Bartonella quintana, sigma factor; HET: SO4, MSE; 2.45A {Bartonella quintana}
+Probab=10.45  E-value=2.7e+02  Score=11.19  Aligned_cols=5  Identities=60%  Similarity=1.105  Sum_probs=0.0  Template_Neff=4.300
+
+Q LRTVYV            1 LRTVY    5 (6)
+Q Consensus         1 lrtvy    5 (6)
+                      ||.+|
+T Consensus        30 LR~~Y   34 (67)
+T 5UXX_D           30 LRQFY   34 (67)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 8
+>2DHX_A poly (ADP-ribose) polymerase family, member; poly (ADP-ribose) polymerase family, RRM; NMR {Homo sapiens}
+Probab=10.12  E-value=2.8e+02  Score=8.49  Aligned_cols=5  Identities=0%  Similarity=0.188  Sum_probs=0.0  Template_Neff=11.800
+
+Q LRTVYV            2 RTVYV    6 (6)
+Q Consensus         2 rtvyv    6 (6)
+                      +++||
+T Consensus        87 ~~l~v   91 (104)
+T 2DHX_A           87 ARLLL   91 (104)
+T ss_dssp             CCCCC
+T ss_pred             ceEEE
+
+
+No 9
+>3T0Y_B Response regulator, NepR; sigma factor, anti-sigma factor, receiver; 2.102A {Caulobacter vibrioides}
+Probab=10.05  E-value=2.8e+02  Score=11.37  Aligned_cols=5  Identities=40%  Similarity=1.026  Sum_probs=0.0  Template_Neff=3.700
+
+Q LRTVYV            1 LRTVY    5 (6)
+Q Consensus         1 lrtvy    5 (6)
+                      ||.+|
+T Consensus        38 LR~~Y   42 (68)
+T 3T0Y_B           38 LRQMF   42 (68)
+T ss_dssp             HHHHT
+T ss_pred             HHHHH
+
+
+No 10
+>2KI0_A DS119; beta-alpha-beta, DE NOVO PROTEIN; NMR {N/A}
+Probab=9.86  E-value=2.9e+02  Score=10.70  Aligned_cols=6  Identities=50%  Similarity=1.088  Sum_probs=0.0  Template_Neff=1.000
+
+Q LRTVYV            1 LRTVYV    6 (6)
+Q Consensus         1 lrtvyv    6 (6)
+                      .||++|
+T Consensus         5 vrtiwv   10 (36)
+T 2KI0_A            5 VRTIWV   10 (36)
+T ss_dssp             CCCCCB
+T ss_pred             eeEEEe
+
+

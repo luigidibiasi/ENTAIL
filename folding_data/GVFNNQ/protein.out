@@ -1,0 +1,149 @@
+Query         GVFNNQ
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 04:29:07 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GVFNNQ/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GVFNNQ/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4O4O_A Phycocyanobilin lyase C  28.0      57 0.00063   13.6   0.0    6    1-6      16-21  (207)
+  2 4O4S_G Phycocyanobilin lyase C  28.0      57 0.00063   13.6   0.0    6    1-6      16-21  (207)
+  3 6XWT_F Histone H3-like centrom  22.9      81  0.0009   18.5   0.0    6    1-6     778-783 (979)
+  4 6XWV_E RE68959p, Chromosome al  22.9      81  0.0009   18.5   0.0    6    1-6     778-783 (979)
+  5 5FOE_B GDP-FUCOSE PROTEIN O-FU  17.8 1.2E+02  0.0014   13.4   0.0    6    1-6      52-57  (500)
+  6 5KXH_A GDP-fucose protein O-fu  17.6 1.3E+02  0.0014   12.8   0.0    6    1-6      18-23  (355)
+  7 5KY2_A GDP-fucose protein O-fu  17.6 1.3E+02  0.0014   12.8   0.0    6    1-6      18-23  (355)
+  8 6ID1_P Pre-mRNA-processing-spl  17.2 1.3E+02  0.0014   13.8   0.0    5    2-6     193-197 (229)
+  9 4GXB_B Sorting nexin-17, P-sel  16.8 1.4E+02  0.0015   11.9   0.0    5    1-5      30-34  (41)
+ 10 3JB9_h Pre-mRNA-splicing facto  16.2 1.4E+02  0.0016   14.0   0.0    5    2-6     230-234 (265)
+
+No 1
+>4O4O_A Phycocyanobilin lyase CpcT (E.C.4.-.-.-); beta-barrel, phycocyanobilin, BILIN LYASE, lyase; HET: MSE; 1.95A {Nostoc sp.}
+Probab=28.00  E-value=57  Score=13.63  Aligned_cols=6  Identities=50%  Similarity=0.667  Sum_probs=3.2  Template_Neff=7.800
+
+Q GVFNNQ            1 GVFNNQ    6 (6)
+Q Consensus         1 gvfnnq    6 (6)
+                      |.|+|+
+T Consensus        16 G~FsN~   21 (207)
+T 4O4O_A           16 ADFSNQ   21 (207)
+T ss_dssp             EEEECH
+T ss_pred             cccccH
+Confidence            456653
+
+
+No 2
+>4O4S_G Phycocyanobilin lyase CpcT (E.C.4.-.-.-); beta-barrel, phycocyanobilin, BILIN LYASE, lyase; HET: CYC, MSE; 2.5A {Nostoc sp.}
+Probab=28.00  E-value=57  Score=13.63  Aligned_cols=6  Identities=50%  Similarity=0.667  Sum_probs=3.2  Template_Neff=7.800
+
+Q GVFNNQ            1 GVFNNQ    6 (6)
+Q Consensus         1 gvfnnq    6 (6)
+                      |.|+|+
+T Consensus        16 G~FsN~   21 (207)
+T 4O4S_G           16 ADFSNQ   21 (207)
+T ss_dssp             EEEECH
+T ss_pred             cccccH
+Confidence            456653
+
+
+No 3
+>6XWT_F Histone H3-like centromeric protein cid; Centromere, Kinetochore, Cell Division, CELL; 3.47A {Drosophila melanogaster}
+Probab=22.92  E-value=81  Score=18.45  Aligned_cols=6  Identities=83%  Similarity=1.088  Sum_probs=4.5  Template_Neff=2.400
+
+Q GVFNNQ            1 GVFNNQ    6 (6)
+Q Consensus         1 gvfnnq    6 (6)
+                      ++||||
+T Consensus       778 ~~FnNq  783 (979)
+T 6XWT_F          778 TVFNNQ  783 (979)
+T ss_pred             cccccc
+Confidence            478887
+
+
+No 4
+>6XWV_E RE68959p, Chromosome alignment defect 1; Centromere, Kinetochore, Cell Division, CELL; 2.27A {Drosophila melanogaster}
+Probab=22.92  E-value=81  Score=18.45  Aligned_cols=6  Identities=83%  Similarity=1.088  Sum_probs=4.5  Template_Neff=2.400
+
+Q GVFNNQ            1 GVFNNQ    6 (6)
+Q Consensus         1 gvfnnq    6 (6)
+                      ++||||
+T Consensus       778 ~~FnNq  783 (979)
+T 6XWV_E          778 TVFNNQ  783 (979)
+T ss_pred             cccccc
+Confidence            478887
+
+
+No 5
+>5FOE_B GDP-FUCOSE PROTEIN O-FUCOSYLTRANSFERASE 2, THROMBOSPONDIN-1; TRANSFERASE, POFUT2, WATERS, FUSION PROTEIN; HET: GDP, NAG, EDO; 1.98A {CAENORHABDITIS ELEGANS, HOMO SAPIENS}
+Probab=17.84  E-value=1.2e+02  Score=13.40  Aligned_cols=6  Identities=33%  Similarity=0.290  Sum_probs=0.0  Template_Neff=9.600
+
+Q GVFNNQ            1 GVFNNQ    6 (6)
+Q Consensus         1 gvfnnq    6 (6)
+                      |-||||
+T Consensus        52 ~G~Nnq   57 (500)
+T 5FOE_B           52 EGFNLR   57 (500)
+T ss_dssp             CCHHHH
+T ss_pred             CChHHH
+
+
+No 6
+>5KXH_A GDP-fucose protein O-fucosyltransferase 1 (E.C.2.4.1.221); glycosyltransferase O-fucosylation GT-B inverting, transferase; HET: GDP, NAG; 1.33A {Mus musculus}
+Probab=17.57  E-value=1.3e+02  Score=12.78  Aligned_cols=6  Identities=67%  Similarity=1.027  Sum_probs=0.0  Template_Neff=9.500
+
+Q GVFNNQ            1 GVFNNQ    6 (6)
+Q Consensus         1 gvfnnq    6 (6)
+                      |-||||
+T Consensus        18 G~~nNQ   23 (355)
+T 5KXH_A           18 GRFGNQ   23 (355)
+T ss_dssp             SSHHHH
+T ss_pred             CCcHHH
+
+
+No 7
+>5KY2_A GDP-fucose protein O-fucosyltransferase 1 (E.C.2.4.1.221); glycosyltransferase, TRANSFERASE; HET: GDP, NAG, GOL, BGC; 1.47A {Mus musculus}
+Probab=17.57  E-value=1.3e+02  Score=12.78  Aligned_cols=6  Identities=67%  Similarity=1.027  Sum_probs=0.0  Template_Neff=9.500
+
+Q GVFNNQ            1 GVFNNQ    6 (6)
+Q Consensus         1 gvfnnq    6 (6)
+                      |-||||
+T Consensus        18 G~~nNQ   23 (355)
+T 5KY2_A           18 GRFGNQ   23 (355)
+T ss_dssp             SSHHHH
+T ss_pred             CCcHHH
+
+
+No 8
+>6ID1_P Pre-mRNA-processing-splicing factor 8, 116 kDa; Human Intron Lariat Spliceosome, SPLICING; HET: GTP, SEP, I6P; 2.86A {Homo sapiens}
+Probab=17.15  E-value=1.3e+02  Score=13.76  Aligned_cols=5  Identities=60%  Similarity=0.840  Sum_probs=0.0  Template_Neff=5.800
+
+Q GVFNNQ            2 VFNNQ    6 (6)
+Q Consensus         2 vfnnq    6 (6)
+                      ||.||
+T Consensus       193 vFkn~  197 (229)
+T 6ID1_P          193 VFKNC  197 (229)
+T ss_pred             ccccc
+
+
+No 9
+>4GXB_B Sorting nexin-17, P-selectin; FERM domain, PROTEIN TRANSPORT-CELL ADHESION; 1.8A {Homo sapiens}
+Probab=16.77  E-value=1.4e+02  Score=11.85  Aligned_cols=5  Identities=80%  Similarity=1.418  Sum_probs=0.0  Template_Neff=1.000
+
+Q GVFNNQ            1 GVFNN    5 (6)
+Q Consensus         1 gvfnn    5 (6)
+                      |||.|
+T Consensus        30 gvftn   34 (41)
+T 4GXB_B           30 GVFTN   34 (41)
+T ss_pred             eeeec
+
+
+No 10
+>3JB9_h Pre-mRNA-splicing factor spp42, Pre-mRNA-splicing factor; Spliceosome, U2/U5/U6, Lariat, RNA BINDING; HET: GDP, ADP; 3.6A {Schizosaccharomyces pombe 972h-}
+Probab=16.18  E-value=1.4e+02  Score=13.97  Aligned_cols=5  Identities=60%  Similarity=0.966  Sum_probs=0.0  Template_Neff=5.700
+
+Q GVFNNQ            2 VFNNQ    6 (6)
+Q Consensus         2 vfnnq    6 (6)
+                      ||.||
+T Consensus       230 vFkn~  234 (265)
+T 3JB9_h          230 VFRNT  234 (265)
+T ss_pred             ccccc
+
+

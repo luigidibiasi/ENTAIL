@@ -1,0 +1,154 @@
+Query         GSGSGF
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 03:39:13 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GSGSGF/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GSGSGF/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6K4V_A smart chimeric peptide   59.7       8 8.9E-05   15.2   0.0    6    1-6      16-21  (40)
+  2 6QDV_D Eukaryotic initiation f  56.8     9.7 0.00011   16.5   0.0    6    1-6      54-59  (123)
+  3 1LTL_E DNA REPLICATION INITIAT  30.4      49 0.00054   13.8   0.0    6    1-6       1-6   (279)
+  4 4D0V_D FIBER PROTEIN; VIRAL PR  28.3      56 0.00062   15.4   0.0    6    1-6     135-140 (145)
+  5 5XJC_X Pre-mRNA-processing-spl  28.1      56 0.00062   15.3   0.0    6    1-6      73-78  (184)
+  6 4D0U_A FIBER PROTEIN; VIRAL PR  26.7      62 0.00069   15.3   0.0    6    1-6     135-140 (145)
+  7 6IFN_H Type III-A CRISPR-assoc  26.0      65 0.00072   14.6   0.0    6    1-6     281-286 (357)
+  8 6IFR_H Type III-A CRISPR-assoc  26.0      65 0.00072   14.6   0.0    6    1-6     281-286 (357)
+  9 6B6I_F 3C-like protease; 3C-li  19.7 1.1E+02  0.0012   13.2   0.0    6    1-6      13-18  (181)
+ 10 6B6I_H 3C-like protease; 3C-li  19.6 1.1E+02  0.0012   13.2   0.0    6    1-6      13-18  (181)
+
+No 1
+>6K4V_A smart chimeric peptide G6; Chimeric peptide, Lipopolysaccharide, LBP14, Antibacterial; NMR {N/A}
+Probab=59.66  E-value=8  Score=15.16  Aligned_cols=6  Identities=83%  Similarity=1.630  Sum_probs=3.7  Template_Neff=1.000
+
+Q GSGSGF            1 GSGSGF    6 (6)
+Q Consensus         1 gsgsgf    6 (6)
+                      |.||||
+T Consensus        16 gggsgf   21 (40)
+T 6K4V_A           16 GGGSGF   21 (40)
+Confidence            456776
+
+
+No 2
+>6QDV_D Eukaryotic initiation factor 4A-III, RNA-binding; spliceosome, RNA, complex, SPLICING; HET: GTP, I6P, ATP, SEP; 3.3A {Homo sapiens}
+Probab=56.78  E-value=9.7  Score=16.50  Aligned_cols=6  Identities=67%  Similarity=1.066  Sum_probs=3.4  Template_Neff=4.400
+
+Q GSGSGF            1 GSGSGF    6 (6)
+Q Consensus         1 gsgsgf    6 (6)
+                      |.|||+
+T Consensus        54 GAGSGe   59 (123)
+T 6QDV_D           54 GAGSGE   59 (123)
+T ss_pred             CcCCcc
+Confidence            456663
+
+
+No 3
+>1LTL_E DNA REPLICATION INITIATOR (Cdc21/Cdc54); replication; 3.0A {Methanothermobacter thermautotrophicus} SCOP: b.40.4.11
+Probab=30.36  E-value=49  Score=13.80  Aligned_cols=6  Identities=67%  Similarity=1.010  Sum_probs=0.4  Template_Neff=8.900
+
+Q GSGSGF            1 GSGSGF    6 (6)
+Q Consensus         1 gsgsgf    6 (6)
+                      ||||-|
+T Consensus         1 ~~~~~~    6 (279)
+T 1LTL_E            1 GSGSRM    6 (279)
+T ss_dssp             -----C
+T ss_pred             CCCccc
+Confidence            567644
+
+
+No 4
+>4D0V_D FIBER PROTEIN; VIRAL PROTEIN; HET: PE8, SO4; 1.7A {SNAKE ADENOVIRUS 1}
+Probab=28.34  E-value=56  Score=15.44  Aligned_cols=6  Identities=83%  Similarity=1.387  Sum_probs=3.9  Template_Neff=1.300
+
+Q GSGSGF            1 GSGSGF    6 (6)
+Q Consensus         1 gsgsgf    6 (6)
+                      ||||.|
+T Consensus       135 GSGSSF  140 (145)
+T 4D0V_D          135 GSGSSF  140 (145)
+T ss_dssp             EEEEEE
+T ss_pred             cCCcee
+Confidence            567765
+
+
+No 5
+>5XJC_X Pre-mRNA-processing-splicing factor 8, 116 kDa; RNA splicing, human spliceosome, C*; HET: GTP, ATP, SEP, ADP, MG, IHP; 3.6A {Homo sapiens}
+Probab=28.15  E-value=56  Score=15.28  Aligned_cols=6  Identities=67%  Similarity=1.066  Sum_probs=3.1  Template_Neff=3.900
+
+Q GSGSGF            1 GSGSGF    6 (6)
+Q Consensus         1 gsgsgf    6 (6)
+                      |.|||+
+T Consensus        73 GAGSGe   78 (184)
+T 5XJC_X           73 GAGSGE   78 (184)
+T ss_dssp             CCCSTH
+T ss_pred             CcCccc
+Confidence            456653
+
+
+No 6
+>4D0U_A FIBER PROTEIN; VIRAL PROTEIN; HET: PE8, SO4, MSE; 1.6A {SNAKE ADENOVIRUS 1}
+Probab=26.68  E-value=62  Score=15.29  Aligned_cols=6  Identities=83%  Similarity=1.387  Sum_probs=3.8  Template_Neff=1.300
+
+Q GSGSGF            1 GSGSGF    6 (6)
+Q Consensus         1 gsgsgf    6 (6)
+                      ||||.|
+T Consensus       135 GSGSSF  140 (145)
+T 4D0U_A          135 GSGSSF  140 (145)
+T ss_dssp             EEEEEE
+T ss_pred             CCCcee
+Confidence            567765
+
+
+No 7
+>6IFN_H Type III-A CRISPR-associated protein Csm1; Csm complex, Type III-A, CRISPR-Cas; 2.9A {Streptococcus thermophilus ND03}
+Probab=26.04  E-value=65  Score=14.57  Aligned_cols=6  Identities=67%  Similarity=1.154  Sum_probs=3.3  Template_Neff=7.700
+
+Q GSGSGF            1 GSGSGF    6 (6)
+Q Consensus         1 gsgsgf    6 (6)
+                      |.|+||
+T Consensus       281 G~GtG~  286 (357)
+T 6IFN_H          281 GAGSGA  286 (357)
+T ss_dssp             SSSCCG
+T ss_pred             CCCCCh
+Confidence            456664
+
+
+No 8
+>6IFR_H Type III-A CRISPR-associated protein Csm1; Csm complex, Type III-A, CRISPR-Cas; HET: ATP; 3.4A {Streptococcus thermophilus ND03}
+Probab=26.04  E-value=65  Score=14.57  Aligned_cols=6  Identities=67%  Similarity=1.154  Sum_probs=3.3  Template_Neff=7.700
+
+Q GSGSGF            1 GSGSGF    6 (6)
+Q Consensus         1 gsgsgf    6 (6)
+                      |.|+||
+T Consensus       281 G~GtG~  286 (357)
+T 6IFR_H          281 GAGSGA  286 (357)
+T ss_dssp             SSSSCS
+T ss_pred             CCCCCh
+Confidence            456664
+
+
+No 9
+>6B6I_F 3C-like protease; 3C-like protease, viral protease, GII.4; 2.44A {Norovirus GII.4}
+Probab=19.68  E-value=1.1e+02  Score=13.17  Aligned_cols=6  Identities=83%  Similarity=1.425  Sum_probs=0.0  Template_Neff=6.700
+
+Q GSGSGF            1 GSGSGF    6 (6)
+Q Consensus         1 gsgsgf    6 (6)
+                      +.|+||
+T Consensus        13 ~~GtGf   18 (181)
+T 6B6I_F           13 GSGWGF   18 (181)
+T ss_dssp             TTEEEE
+T ss_pred             CEEEEE
+
+
+No 10
+>6B6I_H 3C-like protease; 3C-like protease, viral protease, GII.4; 2.44A {Norovirus GII.4}
+Probab=19.58  E-value=1.1e+02  Score=13.16  Aligned_cols=6  Identities=83%  Similarity=1.425  Sum_probs=0.0  Template_Neff=6.700
+
+Q GSGSGF            1 GSGSGF    6 (6)
+Q Consensus         1 gsgsgf    6 (6)
+                      +.|+||
+T Consensus        13 ~~GtGf   18 (181)
+T 6B6I_H           13 GSGWGF   18 (181)
+T ss_pred             CEEEEE
+
+

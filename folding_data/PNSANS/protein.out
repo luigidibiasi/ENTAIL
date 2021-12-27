@@ -1,0 +1,154 @@
+Query         PNSANS
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 06:07:58 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/PNSANS/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/PNSANS/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5E80_A Retinal rod rhodopsin-s  32.3      43 0.00048   14.7   0.0    6    1-6      98-103 (149)
+  2 6H6A_G Protein unc-119 homolog  31.7      45  0.0005   15.2   0.0    6    1-6     126-131 (182)
+  3 5ML3_B Retinal rod rhodopsin-s  31.5      45  0.0005   14.7   0.0    6    1-6      98-103 (149)
+  4 7OK7_G ADP-ribosylation factor  29.9      50 0.00056   15.0   0.0    6    1-6     130-135 (183)
+  5 3GQQ_A Protein unc-119 homolog  28.4      56 0.00061   15.2   0.0    6    1-6     139-144 (195)
+  6 5T4X_A Retinal rod rhodopsin-s  25.9      66 0.00073   14.7   0.0    6    1-6     119-124 (170)
+  7 6ZU5_SX0 uL2, uL15, uL3, eL29,  19.3 1.1E+02  0.0012   13.5   0.0    5    1-5      59-63  (140)
+  8 4C0A_B IQ MOTIF AND SEC7 DOMAI  18.6 1.1E+02  0.0013   13.4   0.0    6    1-6       8-13  (383)
+  9 4GOJ_D ADP-ribosylation factor  17.8 1.2E+02  0.0014   14.7   0.0    6    1-6     184-189 (240)
+ 10 4GOK_C ADP-ribosylation factor  17.2 1.3E+02  0.0014   14.7   0.0    6    1-6     184-189 (240)
+
+No 1
+>5E80_A Retinal rod rhodopsin-sensitive cGMP 3',5'-cyclic; Prenyl binding Protein /inhibitor, Immunoglobulin-like; HET: 5KP; 2.6A {Homo sapiens}
+Probab=32.31  E-value=43  Score=14.73  Aligned_cols=6  Identities=67%  Similarity=1.082  Sum_probs=3.4  Template_Neff=5.000
+
+Q PNSANS            1 PNSANS    6 (6)
+Q Consensus         1 pnsans    6 (6)
+                      |||.|+
+T Consensus        98 P~S~NT  103 (149)
+T 5E80_A           98 PNSTNT  103 (149)
+T ss_dssp             TTEEEE
+T ss_pred             CCCcce
+Confidence            566653
+
+
+No 2
+>6H6A_G Protein unc-119 homolog A, GLY-CYS-GLY-CYS-SER-SER; Complex, Transport, Kinase, IMMUNE SYSTEM; HET: PO4, 15P, GOL, MYR; 2.0A {Homo sapiens}
+Probab=31.66  E-value=45  Score=15.22  Aligned_cols=6  Identities=50%  Similarity=0.866  Sum_probs=3.6  Template_Neff=4.700
+
+Q PNSANS            1 PNSANS    6 (6)
+Q Consensus         1 pnsans    6 (6)
+                      |||.|+
+T Consensus       126 PnStNT  131 (182)
+T 6H6A_G          126 PSSKNT  131 (182)
+T ss_dssp             TTEEEE
+T ss_pred             CCCcce
+Confidence            566663
+
+
+No 3
+>5ML3_B Retinal rod rhodopsin-sensitive cGMP 3',5'-cyclic; Prenyl binding protein, farnesylated KRas; HET: DL3; 1.4A {Homo sapiens}
+Probab=31.46  E-value=45  Score=14.66  Aligned_cols=6  Identities=67%  Similarity=1.082  Sum_probs=3.4  Template_Neff=5.000
+
+Q PNSANS            1 PNSANS    6 (6)
+Q Consensus         1 pnsans    6 (6)
+                      |||.|+
+T Consensus        98 P~S~NT  103 (149)
+T 5ML3_B           98 PNSTNT  103 (149)
+T ss_dssp             TTEEEE
+T ss_pred             CCCcce
+Confidence            566653
+
+
+No 4
+>7OK7_G ADP-ribosylation factor-like protein 3, Protein; Complex, g-protein, PROTEIN TRANSPORT; HET: GNP, PO4, GOL; 3.15A {Mus musculus}
+Probab=29.88  E-value=50  Score=15.03  Aligned_cols=6  Identities=50%  Similarity=0.855  Sum_probs=3.5  Template_Neff=4.800
+
+Q PNSANS            1 PNSANS    6 (6)
+Q Consensus         1 pnsans    6 (6)
+                      |||.|+
+T Consensus       130 P~StNT  135 (183)
+T 7OK7_G          130 PSSRNT  135 (183)
+T ss_dssp             TTCEEE
+T ss_pred             cCCcce
+Confidence            566663
+
+
+No 5
+>3GQQ_A Protein unc-119 homolog A; Human retinal protein 4, unc-119; HET: UNL, MSE; 1.945A {Homo sapiens}
+Probab=28.37  E-value=56  Score=15.20  Aligned_cols=6  Identities=50%  Similarity=0.866  Sum_probs=3.6  Template_Neff=4.400
+
+Q PNSANS            1 PNSANS    6 (6)
+Q Consensus         1 pnsans    6 (6)
+                      |||.|+
+T Consensus       139 PnStNT  144 (195)
+T 3GQQ_A          139 PSSKNT  144 (195)
+T ss_dssp             TTSEEE
+T ss_pred             CCCcce
+Confidence            566663
+
+
+No 6
+>5T4X_A Retinal rod rhodopsin-sensitive cGMP 3',5'-cyclic; IMMUNOGLOBULIN-LIKE BETA SANDWITCH, PDE6 DELTA; 1.81A {Mus musculus}
+Probab=25.85  E-value=66  Score=14.66  Aligned_cols=6  Identities=67%  Similarity=1.082  Sum_probs=3.4  Template_Neff=4.500
+
+Q PNSANS            1 PNSANS    6 (6)
+Q Consensus         1 pnsans    6 (6)
+                      |||.|+
+T Consensus       119 P~StNT  124 (170)
+T 5T4X_A          119 PNSTNT  124 (170)
+T ss_dssp             TTEEEE
+T ss_pred             CCCcce
+Confidence            566653
+
+
+No 7
+>6ZU5_SX0 uL2, uL15, uL3, eL29, uL4; Microsporidia, Pathogen, Ribosome, Hibernation, Genome; HET: AMP, MG; 2.9A {Paranosema locustae}
+Probab=19.31  E-value=1.1e+02  Score=13.51  Aligned_cols=5  Identities=80%  Similarity=0.880  Sum_probs=0.0  Template_Neff=4.800
+
+Q PNSANS            1 PNSAN    5 (6)
+Q Consensus         1 pnsan    5 (6)
+                      ||||.
+T Consensus        59 PNSa~   63 (140)
+T 6ZU5_SX0         59 PNSAI   63 (140)
+T ss_pred             CCchh
+
+
+No 8
+>4C0A_B IQ MOTIF AND SEC7 DOMAIN-CONTAINING; PROTEIN TRANSPORT, ENDOCYTOSIS; HET: G3D; 3.3A {BOS TAURUS}
+Probab=18.64  E-value=1.1e+02  Score=13.36  Aligned_cols=6  Identities=50%  Similarity=0.468  Sum_probs=0.0  Template_Neff=8.900
+
+Q PNSANS            1 PNSANS    6 (6)
+Q Consensus         1 pnsans    6 (6)
+                      |||+++
+T Consensus         8 ~~~~~~   13 (383)
+T 4C0A_B            8 PMSWDS   13 (383)
+T ss_dssp             -----C
+T ss_pred             CcccCc
+
+
+No 9
+>4GOJ_D ADP-ribosylation factor-like protein 3, Protein; Small G protein Arl, GDI-like; HET: GNP; 2.1A {Mus musculus}
+Probab=17.81  E-value=1.2e+02  Score=14.70  Aligned_cols=6  Identities=50%  Similarity=0.866  Sum_probs=0.0  Template_Neff=4.000
+
+Q PNSANS            1 PNSANS    6 (6)
+Q Consensus         1 pnsans    6 (6)
+                      |||.|+
+T Consensus       184 PnStNT  189 (240)
+T 4GOJ_D          184 PSSKNT  189 (240)
+T ss_dssp             TTCEEE
+T ss_pred             CCCcce
+
+
+No 10
+>4GOK_C ADP-ribosylation factor-like protein 2, Protein; Small G proteins, Arl, Arf; HET: GNP; 2.6A {Mus musculus}
+Probab=17.25  E-value=1.3e+02  Score=14.67  Aligned_cols=6  Identities=50%  Similarity=0.866  Sum_probs=0.0  Template_Neff=3.900
+
+Q PNSANS            1 PNSANS    6 (6)
+Q Consensus         1 pnsans    6 (6)
+                      |||.|+
+T Consensus       184 PnStNT  189 (240)
+T 4GOK_C          184 PSSKNT  189 (240)
+T ss_pred             CCCcce
+
+

@@ -1,0 +1,150 @@
+Query         LATVAV
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 15:16:36 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LATVAV/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LATVAV/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 1HLL_A ALPHA-2A ADRENERGIC REC   3.2 1.3E+03   0.014    4.6   0.0    6    1-6       7-12  (32)
+  2 4L5T_C Ifi202b; HIN200  OB-fol   3.1 1.3E+03   0.014   11.3   0.0    4    2-5      42-45  (203)
+  3 4L5T_B Ifi202b; HIN200  OB-fol   3.0 1.3E+03   0.015   11.3   0.0    4    2-5      42-45  (203)
+  4 2OQ0_B Gamma-interferon-induci   3.0 1.4E+03   0.015   11.3   0.0    4    2-5      44-47  (206)
+  5 4QGU_A Gamma-interferon-induci   3.0 1.4E+03   0.015   11.3   0.0    4    2-5      44-47  (206)
+  6 3RLO_A Gamma-interferon-induci   2.9 1.4E+03   0.015   11.3   0.0    4    2-5      36-39  (204)
+  7 3RNU_B Gamma-interferon-induci   2.9 1.4E+03   0.015   11.3   0.0    4    2-5      36-39  (204)
+  8 3RN5_C Interferon-inducible pr   2.9 1.4E+03   0.015   11.3   0.0    4    2-5      40-43  (208)
+  9 5YZW_B Ifi204; Interferon indu   2.9 1.4E+03   0.016   11.2   0.0    4    2-5      35-38  (201)
+ 10 6EJP_A Yop proteins translocat   2.9 1.4E+03   0.016    8.7   0.0    5    2-6      52-56  (58)
+
+No 1
+>1HLL_A ALPHA-2A ADRENERGIC RECEPTOR; helix-linker-helix, MEMBRANE PROTEIN; NMR {N/A} SCOP: j.94.1.1
+Probab=3.18  E-value=1.3e+03  Score=4.64  Aligned_cols=6  Identities=17%  Similarity=0.617  Sum_probs=0.0  Template_Neff=12.500
+
+Q LATVAV            1 LATVAV    6 (6)
+Q Consensus         1 latvav    6 (6)
+                      ++.+++
+T Consensus         7 ~~~~~~   12 (32)
+T 1HLL_A            7 LCAISL   12 (32)
+T ss_dssp             HHHHHT
+T ss_pred             HHHHHH
+
+
+No 2
+>4L5T_C Ifi202b; HIN200  OB-fold, tetramerization, DNA; 3.405A {Mus musculus}
+Probab=3.13  E-value=1.3e+03  Score=11.34  Aligned_cols=4  Identities=100%  Similarity=0.891  Sum_probs=0.0  Template_Neff=3.700
+
+Q LATVAV            2 ATVA    5 (6)
+Q Consensus         2 atva    5 (6)
+                      ||||
+T Consensus        42 ATVA   45 (203)
+T 4L5T_C           42 ATVA   45 (203)
+T ss_dssp             EEEE
+T ss_pred             eEec
+
+
+No 3
+>4L5T_B Ifi202b; HIN200  OB-fold, tetramerization, DNA; 3.405A {Mus musculus}
+Probab=3.03  E-value=1.3e+03  Score=11.32  Aligned_cols=4  Identities=100%  Similarity=0.891  Sum_probs=0.0  Template_Neff=3.600
+
+Q LATVAV            2 ATVA    5 (6)
+Q Consensus         2 atva    5 (6)
+                      ||||
+T Consensus        42 ATVA   45 (203)
+T 4L5T_B           42 ATVA   45 (203)
+T ss_dssp             EEEE
+T ss_pred             EEEe
+
+
+No 4
+>2OQ0_B Gamma-interferon-inducible protein Ifi-16; OB folds, beta-barrels, Structural Genomics; HET: MSE; 2.0A {Homo sapiens} SCOP: b.40.16.1
+Probab=2.98  E-value=1.4e+03  Score=11.28  Aligned_cols=4  Identities=100%  Similarity=0.891  Sum_probs=0.0  Template_Neff=3.700
+
+Q LATVAV            2 ATVA    5 (6)
+Q Consensus         2 atva    5 (6)
+                      ||||
+T Consensus        44 ATVA   47 (206)
+T 2OQ0_B           44 ATVA   47 (206)
+T ss_dssp             EEEE
+T ss_pred             EEEe
+
+
+No 5
+>4QGU_A Gamma-interferon-inducible protein 16; OB FOLD, DNA BINDING, CYTOSOLIC; 2.545A {Homo sapiens}
+Probab=2.98  E-value=1.4e+03  Score=11.28  Aligned_cols=4  Identities=100%  Similarity=0.891  Sum_probs=0.0  Template_Neff=3.700
+
+Q LATVAV            2 ATVA    5 (6)
+Q Consensus         2 atva    5 (6)
+                      ||||
+T Consensus        44 ATVA   47 (206)
+T 4QGU_A           44 ATVA   47 (206)
+T ss_dssp             EEEE
+T ss_pred             EEEe
+
+
+No 6
+>3RLO_A Gamma-interferon-inducible protein 16; HIN200/OB fold/DNA binding, DNA binding/cytosolic; HET: EDO; 1.8A {Homo sapiens}
+Probab=2.95  E-value=1.4e+03  Score=11.28  Aligned_cols=4  Identities=100%  Similarity=0.891  Sum_probs=0.0  Template_Neff=3.600
+
+Q LATVAV            2 ATVA    5 (6)
+Q Consensus         2 atva    5 (6)
+                      ||||
+T Consensus        36 ATVA   39 (204)
+T 3RLO_A           36 ATVA   39 (204)
+T ss_dssp             EEEE
+T ss_pred             EEEc
+
+
+No 7
+>3RNU_B Gamma-interferon-inducible protein 16/DNA complex; OB FOLD, DNA BINDING, CYTOSOLIC; HET: FMT; 2.502A {Homo sapiens}
+Probab=2.95  E-value=1.4e+03  Score=11.28  Aligned_cols=4  Identities=100%  Similarity=0.891  Sum_probs=0.0  Template_Neff=3.600
+
+Q LATVAV            2 ATVA    5 (6)
+Q Consensus         2 atva    5 (6)
+                      ||||
+T Consensus        36 ATVA   39 (204)
+T 3RNU_B           36 ATVA   39 (204)
+T ss_dssp             EEEE
+T ss_pred             eEEc
+
+
+No 8
+>3RN5_C Interferon-inducible protein AIM2/DNA complex; OB FOLD, DNA BINDING, CYTOSOLIC; HET: EDO; 2.5A {Homo sapiens}
+Probab=2.90  E-value=1.4e+03  Score=11.28  Aligned_cols=4  Identities=100%  Similarity=0.891  Sum_probs=0.0  Template_Neff=3.600
+
+Q LATVAV            2 ATVA    5 (6)
+Q Consensus         2 atva    5 (6)
+                      ||||
+T Consensus        40 ATVA   43 (208)
+T 3RN5_C           40 ATVA   43 (208)
+T ss_dssp             EEEE
+T ss_pred             EEEc
+
+
+No 9
+>5YZW_B Ifi204; Interferon inducible gene 204, IFI204; 2.001A {Mus musculus domesticus}
+Probab=2.89  E-value=1.4e+03  Score=11.22  Aligned_cols=4  Identities=100%  Similarity=0.891  Sum_probs=0.0  Template_Neff=3.600
+
+Q LATVAV            2 ATVA    5 (6)
+Q Consensus         2 atva    5 (6)
+                      ||||
+T Consensus        35 ATVA   38 (201)
+T 5YZW_B           35 ATVA   38 (201)
+T ss_dssp             EEEE
+T ss_pred             EEEe
+
+
+No 10
+>6EJP_A Yop proteins translocation protein U; AUTOCLEAVAGE, TYPE III SECRETION SYSTEM; HET: B8E, PO4; 2.48A {Yersinia pestis}
+Probab=2.88  E-value=1.4e+03  Score=8.65  Aligned_cols=5  Identities=40%  Similarity=0.634  Sum_probs=0.0  Template_Neff=5.200
+
+Q LATVAV            2 ATVAV    6 (6)
+Q Consensus         2 atvav    6 (6)
+                      |+|.|
+T Consensus        52 A~vVi   56 (58)
+T 6EJP_A           52 SSVVV   56 (58)
+T ss_dssp             CSEEE
+T ss_pred             CCeEe
+
+

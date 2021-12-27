@@ -1,0 +1,148 @@
+Query         LATVYF
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 16:28:34 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LATVYF/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LATVYF/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6YE5_A Ribosome-binding factor  10.5 2.7E+02  0.0029   10.5   0.0    5    2-6      47-51  (118)
+  2 1JOS_A RIBOSOME-BINDING FACTOR  10.3 2.8E+02  0.0031   10.7   0.0    5    2-6      49-53  (128)
+  3 3WVZ_B Protein Hikeshi; Nuclea  10.2 2.8E+02  0.0031   12.1   0.0    5    2-6      56-60  (201)
+  4 3WVZ_A Protein Hikeshi; Nuclea  10.2 2.8E+02  0.0031   12.1   0.0    5    2-6      56-60  (201)
+  5 2NUD_C Avirulence B protein, R  10.0 2.9E+02  0.0032    9.5   0.0    4    3-6      25-28  (35)
+  6 5N76_B CooT; CODH maturation,    9.5 3.1E+02  0.0034   10.5   0.0    6    1-6       3-8   (66)
+  7 6Y8W_A CooT; NICKEL-BINDING PR   9.2 3.2E+02  0.0036   10.6   0.0    6    1-6       7-12  (70)
+  8 6KG8_A NoTCTP; cohesin, cellul   8.6 3.5E+02  0.0039   10.3   0.0    6    1-6     102-107 (155)
+  9 1ANU_A COHESIN-2; COHESIN, SCA   8.3 3.7E+02  0.0041    9.9   0.0    6    1-6      96-101 (138)
+ 10 6QI5_T Hexon protein, Protein    8.0 3.9E+02  0.0043   12.3   0.0    6    1-6     273-278 (370)
+
+No 1
+>6YE5_A Ribosome-binding factor A; Protein synthesis, heterologous protein expression; NMR {Staphylococcus aureus}
+Probab=10.55  E-value=2.7e+02  Score=10.50  Aligned_cols=5  Identities=40%  Similarity=0.866  Sum_probs=0.0  Template_Neff=8.300
+
+Q LATVYF            2 ATVYF    6 (6)
+Q Consensus         2 atvyf    6 (6)
+                      |+||+
+T Consensus        47 a~Vy~   51 (118)
+T 6YE5_A           47 AKVFL   51 (118)
+T ss_dssp             EEEEE
+T ss_pred             EEEEE
+
+
+No 2
+>1JOS_A RIBOSOME-BINDING FACTOR A; RNA BINDING PROTEIN, Structure 2; 1.7A {Haemophilus influenzae} SCOP: d.52.7.1
+Probab=10.26  E-value=2.8e+02  Score=10.74  Aligned_cols=5  Identities=20%  Similarity=0.720  Sum_probs=0.0  Template_Neff=8.000
+
+Q LATVYF            2 ATVYF    6 (6)
+Q Consensus         2 atvyf    6 (6)
+                      |.||+
+T Consensus        49 a~Vy~   53 (128)
+T 1JOS_A           49 AKIFV   53 (128)
+T ss_dssp             EEEEE
+T ss_pred             EEEEE
+
+
+No 3
+>3WVZ_B Protein Hikeshi; Nuclear transport receptor, TRANSPORT PROTEIN; 1.88A {Homo sapiens}
+Probab=10.22  E-value=2.8e+02  Score=12.14  Aligned_cols=5  Identities=60%  Similarity=1.344  Sum_probs=0.0  Template_Neff=6.700
+
+Q LATVYF            2 ATVYF    6 (6)
+Q Consensus         2 atvyf    6 (6)
+                      |+|||
+T Consensus        56 a~VY~   60 (201)
+T 3WVZ_B           56 GSVYF   60 (201)
+T ss_dssp             EEEEE
+T ss_pred             EEEEE
+
+
+No 4
+>3WVZ_A Protein Hikeshi; Nuclear transport receptor, TRANSPORT PROTEIN; 1.88A {Homo sapiens}
+Probab=10.22  E-value=2.8e+02  Score=12.14  Aligned_cols=5  Identities=60%  Similarity=1.344  Sum_probs=0.0  Template_Neff=6.700
+
+Q LATVYF            2 ATVYF    6 (6)
+Q Consensus         2 atvyf    6 (6)
+                      |+|||
+T Consensus        56 a~VY~   60 (201)
+T 3WVZ_A           56 GSVYF   60 (201)
+T ss_dssp             EEEEE
+T ss_pred             EEEEE
+
+
+No 5
+>2NUD_C Avirulence B protein, RPM1-interacting protein; AvrB RIN4 high-affinity crystal structure; HET: TRS, ETF; 2.3A {Pseudomonas syringae pv. glycinea}
+Probab=10.01  E-value=2.9e+02  Score=9.49  Aligned_cols=4  Identities=50%  Similarity=0.567  Sum_probs=0.0  Template_Neff=5.400
+
+Q LATVYF            3 TVYF    6 (6)
+Q Consensus         3 tvyf    6 (6)
+                      |+||
+T Consensus        25 T~~F   28 (35)
+T 2NUD_C           25 THIF   28 (35)
+T ss_dssp             CEEE
+T ss_pred             chHH
+
+
+No 6
+>5N76_B CooT; CODH maturation, nickel-binding protein, anaerobic; 1.9A {Rhodospirillum rubrum}
+Probab=9.53  E-value=3.1e+02  Score=10.50  Aligned_cols=6  Identities=33%  Similarity=0.534  Sum_probs=0.0  Template_Neff=5.600
+
+Q LATVYF            1 LATVYF    6 (6)
+Q Consensus         1 latvyf    6 (6)
+                      .++||+
+T Consensus         3 es~vy~    8 (66)
+T 5N76_B            3 MAKVVL    8 (66)
+T ss_dssp             CCEEEE
+T ss_pred             cceEEE
+
+
+No 7
+>6Y8W_A CooT; NICKEL-BINDING PROTEIN, ANAEROBIC METABOLISM, METAL; NMR {Rhodospirillum rubrum}
+Probab=9.19  E-value=3.2e+02  Score=10.63  Aligned_cols=6  Identities=33%  Similarity=0.534  Sum_probs=0.0  Template_Neff=5.400
+
+Q LATVYF            1 LATVYF    6 (6)
+Q Consensus         1 latvyf    6 (6)
+                      .++||+
+T Consensus         7 es~Vyl   12 (70)
+T 6Y8W_A            7 MAKVVL   12 (70)
+T ss_dssp             CEEEEE
+T ss_pred             eceEEE
+
+
+No 8
+>6KG8_A NoTCTP; cohesin, cellulosome, scaffolding, beta sandwitch; NMR {Clostridium acetobutylicum ATCC 824}
+Probab=8.63  E-value=3.5e+02  Score=10.33  Aligned_cols=6  Identities=50%  Similarity=0.584  Sum_probs=0.0  Template_Neff=9.000
+
+Q LATVYF            1 LATVYF    6 (6)
+Q Consensus         1 latvyf    6 (6)
+                      |++++|
+T Consensus       102 l~~i~F  107 (155)
+T 6KG8_A          102 LAYLDF  107 (155)
+T ss_dssp             EEEEEE
+T ss_pred             EEEEEE
+
+
+No 9
+>1ANU_A COHESIN-2; COHESIN, SCAFFOLDING, CELLULOSE DIGESTION, BETA; 2.15A {Clostridium thermocellum} SCOP: b.2.2.2
+Probab=8.25  E-value=3.7e+02  Score=9.87  Aligned_cols=6  Identities=17%  Similarity=0.196  Sum_probs=0.0  Template_Neff=9.400
+
+Q LATVYF            1 LATVYF    6 (6)
+Q Consensus         1 latvyf    6 (6)
+                      ++++.|
+T Consensus        96 l~tl~f  101 (138)
+T 1ANU_A           96 FAKIRA  101 (138)
+T ss_pred             EEEEEE
+
+
+No 10
+>6QI5_T Hexon protein, Protein LH3, Pre-hexon-linking; adenovirus atadenovirus virus evolution, VIRUS;{Lizard adenovirus 2}
+Probab=8.04  E-value=3.9e+02  Score=12.26  Aligned_cols=6  Identities=67%  Similarity=1.121  Sum_probs=0.0  Template_Neff=7.900
+
+Q LATVYF            1 LATVYF    6 (6)
+Q Consensus         1 latvyf    6 (6)
+                      |+++||
+T Consensus       273 l~~~~~  278 (370)
+T 6QI5_T          273 LAGFYF  278 (370)
+T ss_pred             eceEEE
+
+

@@ -1,0 +1,151 @@
+Query         QAGFQP
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 07:07:35 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QAGFQP/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QAGFQP/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 1WMX_B COG3291: FOG: PKD repea  18.0 1.2E+02  0.0013   13.2   0.0    6    1-6     193-198 (205)
+  2 5FUQ_B NAD(P)H DEHYDROGENASE [  17.5 1.3E+02  0.0014   12.7   0.0    5    1-5     234-238 (274)
+  3 1H69_B NAD(P)H DEHYDROGENASE [  17.5 1.3E+02  0.0014   12.7   0.0    5    1-5     233-237 (273)
+  4 1D4A_B QUINONE REDUCTASE (E.C.  17.4 1.3E+02  0.0014   12.7   0.0    5    1-5     233-237 (273)
+  5 5NRR_B DNA (cytosine-5)-methyl  15.8 1.5E+02  0.0016   11.6   0.0    6    1-6     132-137 (150)
+  6 6IJO_E Chlorophyll a-b binding  15.3 1.6E+02  0.0017   14.0   0.0    4    3-6      27-30  (143)
+  7 6R3E_B DNA (cytosine-5)-methyl  15.3 1.6E+02  0.0017   12.4   0.0    6    1-6     260-265 (274)
+  8 1Z4E_B transcriptional regulat  15.0 1.6E+02  0.0018    9.0   0.0    6    1-6     139-144 (153)
+  9 3M0D_D TNF receptor-associated  14.9 1.6E+02  0.0018   10.1   0.0    4    1-4      28-31  (75)
+ 10 2R76_A Rare lipoprotein B; alp  14.7 1.7E+02  0.0018   11.1   0.0    4    3-6       2-5   (152)
+
+No 1
+>1WMX_B COG3291: FOG: PKD repeat; CBM30, Carbohydrate Binding Module Family30; 2.0A {Clostridium thermocellum} SCOP: b.18.1.24
+Probab=18.04  E-value=1.2e+02  Score=13.23  Aligned_cols=6  Identities=67%  Similarity=1.154  Sum_probs=3.5  Template_Neff=6.700
+
+Q QAGFQP            1 QAGFQP    6 (6)
+Q Consensus         1 qagfqp    6 (6)
+                      |.||.|
+T Consensus       193 Q~Gy~p  198 (205)
+T 1WMX_B          193 QLGFIP  198 (205)
+T ss_dssp             TTSSCC
+T ss_pred             ceeeCC
+Confidence            566654
+
+
+No 2
+>5FUQ_B NAD(P)H DEHYDROGENASE [QUINONE] 1 (E.C.1.6.5.2); OXIDOREDUCTASE, NADPH-QUINONE OXIDOREDUCTASE 1, NQO1; HET: FAD, ACT, DTC; 2.04A {HOMO SAPIENS}
+Probab=17.52  E-value=1.3e+02  Score=12.66  Aligned_cols=5  Identities=80%  Similarity=1.139  Sum_probs=0.0  Template_Neff=8.800
+
+Q QAGFQP            1 QAGFQ    5 (6)
+Q Consensus         1 qagfq    5 (6)
+                      |+||+
+T Consensus       234 ~~g~~  238 (274)
+T 5FUQ_B          234 QAGFL  238 (274)
+T ss_dssp             TTTTB
+T ss_pred             cccce
+
+
+No 3
+>1H69_B NAD(P)H DEHYDROGENASE [QUINONE] 1 (E.C.1.6.99.2); FLAVOPROTEIN, ROSSMANN FOLD, OXIDOREDUCTASE; HET: FAD, ARH; 1.86A {HOMO SAPIENS} SCOP: c.23.5.3
+Probab=17.47  E-value=1.3e+02  Score=12.65  Aligned_cols=5  Identities=80%  Similarity=1.139  Sum_probs=0.0  Template_Neff=8.800
+
+Q QAGFQP            1 QAGFQ    5 (6)
+Q Consensus         1 qagfq    5 (6)
+                      |+||+
+T Consensus       233 ~~g~~  237 (273)
+T 1H69_B          233 QAGFL  237 (273)
+T ss_dssp             TTTTB
+T ss_pred             cccce
+
+
+No 4
+>1D4A_B QUINONE REDUCTASE (E.C.1.6.99.2); FLAVOPROTEIN, ROSSMANN FOLD, OXIDOREDUCTASE; HET: FAD; 1.7A {Homo sapiens} SCOP: c.23.5.3
+Probab=17.38  E-value=1.3e+02  Score=12.69  Aligned_cols=5  Identities=80%  Similarity=1.139  Sum_probs=0.0  Template_Neff=8.700
+
+Q QAGFQP            1 QAGFQ    5 (6)
+Q Consensus         1 qagfq    5 (6)
+                      |+||+
+T Consensus       233 ~~g~~  237 (273)
+T 1D4A_B          233 QAGFL  237 (273)
+T ss_dssp             GGTTB
+T ss_pred             cccce
+
+
+No 5
+>5NRR_B DNA (cytosine-5)-methyltransferase 3B (E.C.2.1.1.37); DNMT3B PWWP DOMAIN, HISTONE BINDING; HET: SO4, 96E; 1.7A {Homo sapiens}
+Probab=15.82  E-value=1.5e+02  Score=11.62  Aligned_cols=6  Identities=50%  Similarity=1.353  Sum_probs=0.0  Template_Neff=8.300
+
+Q QAGFQP            1 QAGFQP    6 (6)
+Q Consensus         1 qagfqp    6 (6)
+                      +.||+|
+T Consensus       132 ~~g~~~  137 (150)
+T 5NRR_B          132 HGGFKP  137 (150)
+T ss_dssp             HTTSTT
+T ss_pred             hcCCCC
+
+
+No 6
+>6IJO_E Chlorophyll a-b binding protein, chloroplastic; Photosystem, Antenna, Supercomplex, green alga; HET: LMG, DGD, CLA, LMU, NEX, LUT, XAT, PQN, SF4, LHG, BCR;{Chlamydomonas reinhardtii}
+Probab=15.33  E-value=1.6e+02  Score=14.00  Aligned_cols=4  Identities=100%  Similarity=1.987  Sum_probs=0.0  Template_Neff=1.900
+
+Q QAGFQP            3 GFQP    6 (6)
+Q Consensus         3 gfqp    6 (6)
+                      ||||
+T Consensus        27 ~~~~   30 (143)
+T 6IJO_E           27 GFQP   30 (143)
+T ss_dssp             ----
+T ss_pred             CCCC
+
+
+No 7
+>6R3E_B DNA (cytosine-5)-methyltransferase 3B,DNA (cytosine-5)-methyltransferase 3B; DNMT3B PWWP DOMAIN, HISTONE BINDING; HET: SO4, 96H; 2.269A {Homo sapiens}
+Probab=15.32  E-value=1.6e+02  Score=12.41  Aligned_cols=6  Identities=50%  Similarity=1.353  Sum_probs=0.0  Template_Neff=8.800
+
+Q QAGFQP            1 QAGFQP    6 (6)
+Q Consensus         1 qagfqp    6 (6)
+                      +.||+|
+T Consensus       260 ~~~~~~  265 (274)
+T 6R3E_B          260 HGGFKP  265 (274)
+T ss_dssp             TTTCTT
+T ss_pred             hcCCCC
+
+
+No 8
+>1Z4E_B transcriptional regulator; NYSGXRC target T2017, GNAT fold; 2.0A {Bacillus halodurans} SCOP: d.108.1.1
+Probab=14.97  E-value=1.6e+02  Score=9.00  Aligned_cols=6  Identities=50%  Similarity=0.938  Sum_probs=0.0  Template_Neff=13.200
+
+Q QAGFQP            1 QAGFQP    6 (6)
+Q Consensus         1 qagfqp    6 (6)
+                      +.||++
+T Consensus       139 ~~Gf~~  144 (153)
+T 1Z4E_B          139 QLGFKA  144 (153)
+T ss_dssp             TTTCEE
+T ss_pred             HcCCEE
+
+
+No 9
+>3M0D_D TNF receptor-associated factor 2, TNF; trimeric helix coiled coiled, apoptosis; 2.8A {Homo sapiens}
+Probab=14.90  E-value=1.6e+02  Score=10.08  Aligned_cols=4  Identities=75%  Similarity=1.456  Sum_probs=0.0  Template_Neff=8.600
+
+Q QAGFQP            1 QAGF    4 (6)
+Q Consensus         1 qagf    4 (6)
+                      +|||
+T Consensus        28 ~aGF   31 (75)
+T 3M0D_D           28 RAGF   31 (75)
+T ss_dssp             HTTE
+T ss_pred             HhCe
+
+
+No 10
+>2R76_A Rare lipoprotein B; alpha-beta protein, Structural Genomics, PSI-2; 2.6A {Shewanella oneidensis}
+Probab=14.70  E-value=1.7e+02  Score=11.06  Aligned_cols=4  Identities=50%  Similarity=1.065  Sum_probs=0.0  Template_Neff=9.200
+
+Q QAGFQP            3 GFQP    6 (6)
+Q Consensus         3 gfqp    6 (6)
+                      ||+|
+T Consensus         2 Gf~l    5 (152)
+T 2R76_A            2 GFKL    5 (152)
+T ss_dssp             ----
+T ss_pred             Ceee
+
+

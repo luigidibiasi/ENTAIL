@@ -1,0 +1,149 @@
+Query         RGNYKN
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 12:14:49 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/RGNYKN/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/RGNYKN/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3OBV_E Protein diaphanous homo  11.9 2.2E+02  0.0025   13.0   0.0    5    2-6     215-219 (457)
+  2 3O4X_F Protein diaphanous homo  11.8 2.3E+02  0.0025   13.1   0.0    5    2-6     234-238 (467)
+  3 2Z6E_B Disheveled-associated a  11.1 2.5E+02  0.0027   12.6   0.0    5    2-6     228-232 (419)
+  4 2RPA_A Katanin p60 ATPase-cont  10.9 2.5E+02  0.0028   10.6   0.0    5    2-6      26-30  (78)
+  5 1UX4_B BNI1 PROTEIN; STRUCTURA  10.7 2.6E+02  0.0029   12.4   0.0    5    2-6     221-225 (410)
+  6 2JHV_F RHO GDP-DISSOCIATION IN  10.1 2.8E+02  0.0031   11.7   0.0    5    1-5     108-112 (138)
+  7 1KMT_B IMMUNOGLOBULIN FOLD, BE   9.9 2.9E+02  0.0032   11.7   0.0    5    1-5     109-113 (141)
+  8 1VH2_A S-ribosylhomocysteinase   9.6   3E+02  0.0034   12.7   0.0    5    2-6     126-130 (166)
+  9 1VJE_B S-ribosylhomocysteinase   9.3 3.2E+02  0.0035   12.7   0.0    5    2-6     126-130 (166)
+ 10 1V9D_C Diaphanous protein homo   9.2 3.2E+02  0.0036   11.7   0.0    5    2-6     144-148 (340)
+
+No 1
+>3OBV_E Protein diaphanous homolog 1, Protein; AUTOINHIBITION, ACTIN, NUCLEATION, CYTOSKELETON, STRUCTURAL; HET: GLC, FRU; 2.75A {Mus musculus}
+Probab=11.92  E-value=2.2e+02  Score=13.04  Aligned_cols=5  Identities=80%  Similarity=1.371  Sum_probs=0.0  Template_Neff=8.500
+
+Q RGNYKN            2 GNYKN    6 (6)
+Q Consensus         2 gnykn    6 (6)
+                      |||-|
+T Consensus       215 GN~lN  219 (457)
+T 3OBV_E          215 GNYMN  219 (457)
+T ss_pred             HHHhc
+
+
+No 2
+>3O4X_F Protein diaphanous homolog 1; autoinhibition, actin nucleator, actin binding; 3.2A {Mus musculus}
+Probab=11.80  E-value=2.3e+02  Score=13.06  Aligned_cols=5  Identities=80%  Similarity=1.371  Sum_probs=0.0  Template_Neff=8.500
+
+Q RGNYKN            2 GNYKN    6 (6)
+Q Consensus         2 gnykn    6 (6)
+                      |||-|
+T Consensus       234 GN~lN  238 (467)
+T 3O4X_F          234 GNYMN  238 (467)
+T ss_dssp             HHHHT
+T ss_pred             HHHhc
+
+
+No 3
+>2Z6E_B Disheveled-associated activator of morphogenesis 1; PROTEIN FIBRIL REGULATOR; 2.8A {Homo sapiens}
+Probab=11.13  E-value=2.5e+02  Score=12.61  Aligned_cols=5  Identities=80%  Similarity=1.371  Sum_probs=0.0  Template_Neff=8.800
+
+Q RGNYKN            2 GNYKN    6 (6)
+Q Consensus         2 gnykn    6 (6)
+                      |||-|
+T Consensus       228 GN~lN  232 (419)
+T 2Z6E_B          228 GNYMN  232 (419)
+T ss_dssp             HHHSS
+T ss_pred             HHHHh
+
+
+No 4
+>2RPA_A Katanin p60 ATPase-containing subunit A1; AAA ATPase, ATP-binding, Cell cycle; NMR {Mus musculus}
+Probab=10.93  E-value=2.5e+02  Score=10.59  Aligned_cols=5  Identities=60%  Similarity=1.305  Sum_probs=0.0  Template_Neff=6.600
+
+Q RGNYKN            2 GNYKN    6 (6)
+Q Consensus         2 gnykn    6 (6)
+                      |||..
+T Consensus        26 GnYd~   30 (78)
+T 2RPA_A           26 GNYDS   30 (78)
+T ss_dssp             TCCHH
+T ss_pred             CCHHH
+
+
+No 5
+>1UX4_B BNI1 PROTEIN; STRUCTURAL PROTEIN, FH2 ACTIN CYTOSKELETON; 3.3A {SACCHAROMYCES CEREVISIAE} SCOP: a.207.1.1
+Probab=10.69  E-value=2.6e+02  Score=12.40  Aligned_cols=5  Identities=60%  Similarity=1.192  Sum_probs=0.0  Template_Neff=9.000
+
+Q RGNYKN            2 GNYKN    6 (6)
+Q Consensus         2 gnykn    6 (6)
+                      |||-|
+T Consensus       221 GN~lN  225 (410)
+T 1UX4_B          221 GNFMN  225 (410)
+T ss_dssp             HHHHS
+T ss_pred             HHHHc
+
+
+No 6
+>2JHV_F RHO GDP-DISSOCIATION INHIBITOR 1; SURFACE ENTROPY REDUCTION, INHIBITOR, GTPASE; 2.07A {HOMO SAPIENS} SCOP: b.1.18.8
+Probab=10.13  E-value=2.8e+02  Score=11.68  Aligned_cols=5  Identities=60%  Similarity=1.338  Sum_probs=0.0  Template_Neff=6.200
+
+Q RGNYKN            1 RGNYK    5 (6)
+Q Consensus         1 rgnyk    5 (6)
+                      ||.|.
+T Consensus       108 RG~Y~  112 (138)
+T 2JHV_F          108 RGSYS  112 (138)
+T ss_dssp             CEEEE
+T ss_pred             ceEEE
+
+
+No 7
+>1KMT_B IMMUNOGLOBULIN FOLD, BETA SANDWICH MOTIF; 1.3A {Homo sapiens} SCOP: b.1.18.8
+Probab=9.89  E-value=2.9e+02  Score=11.72  Aligned_cols=5  Identities=60%  Similarity=1.338  Sum_probs=0.0  Template_Neff=6.100
+
+Q RGNYKN            1 RGNYK    5 (6)
+Q Consensus         1 rgnyk    5 (6)
+                      ||.|.
+T Consensus       109 RG~Y~  113 (141)
+T 1KMT_B          109 RGSYS  113 (141)
+T ss_dssp             CEEEE
+T ss_pred             ceEEE
+
+
+No 8
+>1VH2_A S-ribosylhomocysteinase (E.C.3.13.1.-); structural genomics, HYDROLASE; 2.0A {Deinococcus radiodurans} SCOP: d.185.1.2
+Probab=9.60  E-value=3e+02  Score=12.74  Aligned_cols=5  Identities=60%  Similarity=1.537  Sum_probs=0.0  Template_Neff=4.200
+
+Q RGNYKN            2 GNYKN    6 (6)
+Q Consensus         2 gnykn    6 (6)
+                      |||++
+T Consensus       126 GNy~~  130 (166)
+T 1VH2_A          126 GNYRD  130 (166)
+T ss_dssp             TTTTC
+T ss_pred             cchhc
+
+
+No 9
+>1VJE_B S-ribosylhomocysteinase (E.C.3.13.1.-); structural genomics, Hydrolase; HET: CSD, MSE; 1.64A {Deinococcus radiodurans} SCOP: d.185.1.2
+Probab=9.26  E-value=3.2e+02  Score=12.67  Aligned_cols=5  Identities=60%  Similarity=1.537  Sum_probs=0.0  Template_Neff=4.200
+
+Q RGNYKN            2 GNYKN    6 (6)
+Q Consensus         2 gnykn    6 (6)
+                      |||++
+T Consensus       126 GNy~~  130 (166)
+T 1VJE_B          126 GNYRD  130 (166)
+T ss_dssp             TTTTC
+T ss_pred             cchhc
+
+
+No 10
+>1V9D_C Diaphanous protein homolog 1; helix bundle, PROTEIN BINDING; HET: SO4; 2.6A {Mus musculus} SCOP: a.207.1.1
+Probab=9.16  E-value=3.2e+02  Score=11.71  Aligned_cols=5  Identities=80%  Similarity=1.371  Sum_probs=0.0  Template_Neff=9.200
+
+Q RGNYKN            2 GNYKN    6 (6)
+Q Consensus         2 gnykn    6 (6)
+                      |||-|
+T Consensus       144 GN~lN  148 (340)
+T 1V9D_C          144 GNYMN  148 (340)
+T ss_dssp             -----
+T ss_pred             HHHhc
+
+

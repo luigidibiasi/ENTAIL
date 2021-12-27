@@ -1,0 +1,151 @@
+Query         STIIIE
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 17:42:56 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/STIIIE/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/STIIIE/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2AB9_A pro-SFTI-1; Protein, be  33.0      41 0.00045   12.7   0.0    6    1-6       7-12  (31)
+  2 4JOB_A Lysophosphatidic acid p  11.9 2.2E+02  0.0025   12.0   0.0    6    1-6     325-330 (396)
+  3 4JOD_A Lysophosphatidic acid p  11.9 2.2E+02  0.0025   12.0   0.0    6    1-6     325-330 (396)
+  4 3NTL_A Acid glucose-1-phosphat  11.1 2.5E+02  0.0027   12.0   0.0    6    1-6     316-321 (398)
+  5 4ARV_B PHYTASE (E.C.3.1.3.26);  10.8 2.6E+02  0.0028   12.5   0.0    6    1-6     361-366 (441)
+  6 3ZHC_B PHYTASE; HYDROLASE; HET  10.8 2.6E+02  0.0029   12.1   0.0    6    1-6     352-357 (433)
+  7 1DKQ_A PHYTASE (E.C.3.1.3.2) M  10.3 2.7E+02   0.003   11.9   0.0    6    1-6     331-336 (410)
+  8 1DKL_B PHYTASE (E.C.3.1.3.2);   10.3 2.7E+02   0.003   12.1   0.0    6    1-6     331-336 (410)
+  9 1OH1_A STAPHOSTATIN A; CYSTEIN   9.4 3.1E+02  0.0035   12.5   0.0    6    1-6      73-78  (109)
+ 10 3IT3_A Acid phosphatase (E.C.3   9.4 3.1E+02  0.0035   11.3   0.0    6    1-6     283-288 (342)
+
+No 1
+>2AB9_A pro-SFTI-1; Protein, beta-sheet, random coil, HYDROLASE; NMR {Helianthus annuus}
+Probab=33.04  E-value=41  Score=12.68  Aligned_cols=6  Identities=83%  Similarity=0.872  Sum_probs=3.4  Template_Neff=1.000
+
+Q STIIIE            1 STIIIE    6 (6)
+Q Consensus         1 stiiie    6 (6)
+                      |||.||
+T Consensus         7 stitie   12 (31)
+T 2AB9_A            7 STITIE   12 (31)
+T ss_dssp             CCSSSC
+T ss_pred             eeEEEc
+Confidence            466654
+
+
+No 2
+>4JOB_A Lysophosphatidic acid phosphatase type 6; hydrolase, Rossmann Fold, mitochondria; HET: TLA; 2.171A {Homo sapiens}
+Probab=11.93  E-value=2.2e+02  Score=12.03  Aligned_cols=6  Identities=17%  Similarity=0.407  Sum_probs=0.0  Template_Neff=10.000
+
+Q STIIIE            1 STIIIE    6 (6)
+Q Consensus         1 stiiie    6 (6)
+                      |.|+||
+T Consensus       325 s~l~~E  330 (396)
+T 4JOB_A          325 VDLTME  330 (396)
+T ss_dssp             CEEEEE
+T ss_pred             ceEEEE
+
+
+No 3
+>4JOD_A Lysophosphatidic acid phosphatase type 6; hydrolase, Rossmann Fold, mitochondria; 2.21A {Homo sapiens}
+Probab=11.93  E-value=2.2e+02  Score=12.03  Aligned_cols=6  Identities=17%  Similarity=0.407  Sum_probs=0.0  Template_Neff=10.000
+
+Q STIIIE            1 STIIIE    6 (6)
+Q Consensus         1 stiiie    6 (6)
+                      |.|+||
+T Consensus       325 s~l~~E  330 (396)
+T 4JOD_A          325 VDLTME  330 (396)
+T ss_dssp             CEEEEE
+T ss_pred             ceEEEE
+
+
+No 4
+>3NTL_A Acid glucose-1-phosphate phosphatase; histidine acid phosphatase, phytate binding; HET: IHP; 1.88A {Enterobacter cloacae}
+Probab=11.13  E-value=2.5e+02  Score=12.02  Aligned_cols=6  Identities=17%  Similarity=0.573  Sum_probs=0.0  Template_Neff=9.800
+
+Q STIIIE            1 STIIIE    6 (6)
+Q Consensus         1 stiiie    6 (6)
+                      |.|++|
+T Consensus       316 S~l~~E  321 (398)
+T 3NTL_A          316 GKIVFQ  321 (398)
+T ss_dssp             CEEEEE
+T ss_pred             cEEEEE
+
+
+No 5
+>4ARV_B PHYTASE (E.C.3.1.3.26); HYDROLASE, 6-PHYTASE, MYO-INOSITOL HEXAKIS PHOSPHATE; HET: TOE, PO4, P15, EDO; 1.67A {YERSINIA KRISTENSENII}
+Probab=10.85  E-value=2.6e+02  Score=12.46  Aligned_cols=6  Identities=17%  Similarity=0.545  Sum_probs=0.0  Template_Neff=9.200
+
+Q STIIIE            1 STIIIE    6 (6)
+Q Consensus         1 stiiie    6 (6)
+                      |+|+||
+T Consensus       361 S~li~E  366 (441)
+T 4ARV_B          361 GGLVFE  366 (441)
+T ss_dssp             CEEEEE
+T ss_pred             cEEEEE
+
+
+No 6
+>3ZHC_B PHYTASE; HYDROLASE; HET: CL, FMT; 2.3A {CITROBACTER BRAAKII}
+Probab=10.76  E-value=2.6e+02  Score=12.11  Aligned_cols=6  Identities=17%  Similarity=0.601  Sum_probs=0.0  Template_Neff=9.800
+
+Q STIIIE            1 STIIIE    6 (6)
+Q Consensus         1 stiiie    6 (6)
+                      |+|++|
+T Consensus       352 S~l~fE  357 (433)
+T 3ZHC_B          352 GELVFE  357 (433)
+T ss_dssp             CEEEEE
+T ss_pred             cEEEEE
+
+
+No 7
+>1DKQ_A PHYTASE (E.C.3.1.3.2) MUTANT; HISTIDINE ACID PHOSPHATASE FOLD, HYDROLASE; HET: IHP; 2.05A {Escherichia coli} SCOP: c.60.1.2
+Probab=10.33  E-value=2.7e+02  Score=11.94  Aligned_cols=6  Identities=17%  Similarity=0.601  Sum_probs=0.0  Template_Neff=9.800
+
+Q STIIIE            1 STIIIE    6 (6)
+Q Consensus         1 stiiie    6 (6)
+                      |+++||
+T Consensus       331 s~l~~E  336 (410)
+T 1DKQ_A          331 GELVFE  336 (410)
+T ss_dssp             CEEEEE
+T ss_pred             cEEEEE
+
+
+No 8
+>1DKL_B PHYTASE (E.C.3.1.3.2); HISTIDINE ACID PHOSPHATASE FOLD, HYDROLASE; 2.3A {Escherichia coli} SCOP: c.60.1.2
+Probab=10.31  E-value=2.7e+02  Score=12.14  Aligned_cols=6  Identities=17%  Similarity=0.601  Sum_probs=0.0  Template_Neff=9.400
+
+Q STIIIE            1 STIIIE    6 (6)
+Q Consensus         1 stiiie    6 (6)
+                      |+|++|
+T Consensus       331 s~l~fE  336 (410)
+T 1DKL_B          331 GELVFE  336 (410)
+T ss_dssp             CEEEEE
+T ss_pred             cEEEEE
+
+
+No 9
+>1OH1_A STAPHOSTATIN A; CYSTEINE PROTEINASE INHIBITOR, CYSTEINE PROTEASE; NMR {STAPHYLOCOCCUS AUREUS} SCOP: b.61.2.2
+Probab=9.37  E-value=3.1e+02  Score=12.46  Aligned_cols=6  Identities=67%  Similarity=1.021  Sum_probs=0.0  Template_Neff=2.500
+
+Q STIIIE            1 STIIIE    6 (6)
+Q Consensus         1 stiiie    6 (6)
+                      +.||||
+T Consensus        73 ~sIiIE   78 (109)
+T 1OH1_A           73 SSIVIE   78 (109)
+T ss_dssp             SCEEEE
+T ss_pred             CceEEE
+
+
+No 10
+>3IT3_A Acid phosphatase (E.C.3.1.3.2); Histidine Acid Phosphatase, HAP, Hydrolase; HET: 3AM; 1.5A {Francisella tularensis subsp. holarctica}
+Probab=9.36  E-value=3.1e+02  Score=11.31  Aligned_cols=6  Identities=33%  Similarity=0.495  Sum_probs=0.0  Template_Neff=10.100
+
+Q STIIIE            1 STIIIE    6 (6)
+Q Consensus         1 stiiie    6 (6)
+                      |.|++|
+T Consensus       283 s~l~~E  288 (342)
+T 3IT3_A          283 SNLEME  288 (342)
+T ss_dssp             CEEEEE
+T ss_pred             eEEEEE
+
+

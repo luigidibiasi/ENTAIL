@@ -1,0 +1,152 @@
+Query         GVVPQY
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 04:54:03 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GVVPQY/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GVVPQY/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3HL1_A Ferritin like protein;   39.2      28 0.00031   16.0   0.0    6    1-6     311-316 (317)
+  2 4PU4_D Toxin-antitoxin system   32.6      42 0.00047   12.1   0.0    6    1-6      13-18  (118)
+  3 6U42_5U Tubulin beta, Tubulin   27.1      60 0.00067   14.4   0.0    6    1-6     134-139 (240)
+  4 7RRO_k cilia, microtubule, dyn  21.4      91   0.001   14.1   0.0    6    1-6     155-160 (259)
+  5 1RK8_C CG8781-PA protein/Mago   19.2 1.1E+02  0.0012   12.2   0.0    5    1-5      32-36  (58)
+  6 1EDX_A AMINO TERMINUS OF RHODO  17.5 1.3E+02  0.0014   11.2   0.0    4    3-6      26-29  (40)
+  7 7L0A_B FrmB, HYDROLASE; 1.6A {  17.3 1.3E+02  0.0014   10.8   0.0    5    1-5       1-5   (261)
+  8 1UF2_B Core protein P3/Outer c  16.1 1.4E+02  0.0016   17.7   0.0    6    1-6     647-652 (1019)
+  9 1UF2_A Core protein P3/Outer c  16.1 1.4E+02  0.0016   17.7   0.0    6    1-6     647-652 (1019)
+ 10 6ZDX_A Rifin, Leukocyte immuno  15.8 1.5E+02  0.0016   11.7   0.0    6    1-6      12-17  (129)
+
+No 1
+>3HL1_A Ferritin like protein; FERRITIN-LIKE PROTEIN, STRUCTURAL GENOMICS, JOINT; 1.95A {Caulobacter vibrioides}
+Probab=39.23  E-value=28  Score=16.01  Aligned_cols=6  Identities=67%  Similarity=1.497  Sum_probs=4.5  Template_Neff=6.600
+
+Q GVVPQY            1 GVVPQY    6 (6)
+Q Consensus         1 gvvpqy    6 (6)
+                      |+||++
+T Consensus       311 g~~p~~  316 (317)
+T 3HL1_A          311 GAVPRY  316 (317)
+T ss_dssp             TBCCCC
+T ss_pred             CCCCCC
+Confidence            678875
+
+
+No 2
+>4PU4_D Toxin-antitoxin system toxin HipA family; Toxin Antitoxin System, TOXIN-ANTITOXIN-DNA complex; 3.786A {Shewanella oneidensis}
+Probab=32.61  E-value=42  Score=12.12  Aligned_cols=6  Identities=50%  Similarity=0.938  Sum_probs=2.2  Template_Neff=9.200
+
+Q GVVPQY            1 GVVPQY    6 (6)
+Q Consensus         1 gvvpqy    6 (6)
+                      |.||.|
+T Consensus        13 ~~~~~~   18 (118)
+T 4PU4_D           13 GLVPRG   18 (118)
+T ss_dssp             -HHCH-
+T ss_pred             CCCCCc
+Confidence            456643
+
+
+No 3
+>6U42_5U Tubulin beta, Tubulin alpha, PACRG; motile cilia, microtubule doublet, repetitive; HET: MG, GDP, GTP; 3.4A {Chlamydomonas reinhardtii}
+Probab=27.13  E-value=60  Score=14.36  Aligned_cols=6  Identities=67%  Similarity=1.259  Sum_probs=3.4  Template_Neff=6.800
+
+Q GVVPQY            1 GVVPQY    6 (6)
+Q Consensus         1 gvvpqy    6 (6)
+                      |-||.|
+T Consensus       134 GkVP~Y  139 (240)
+T 6U42_5U         134 GKVPMY  139 (240)
+T ss_pred             CCCChh
+Confidence            456655
+
+
+No 4
+>7RRO_k cilia, microtubule, dynein, motility, STRUCTURAL; HET: GTP, GDP, MG; 3.4A {Bos taurus}
+Probab=21.42  E-value=91  Score=14.08  Aligned_cols=6  Identities=67%  Similarity=1.503  Sum_probs=3.2  Template_Neff=6.600
+
+Q GVVPQY            1 GVVPQY    6 (6)
+Q Consensus         1 gvvpqy    6 (6)
+                      |-||.|
+T Consensus       155 GkVP~Y  160 (259)
+T 7RRO_k          155 GVTPEY  160 (259)
+T ss_pred             ccCCHH
+Confidence            445655
+
+
+No 5
+>1RK8_C CG8781-PA protein/Mago nashi protein/Within the; mRNA processing  RRM ; 1.9A {Drosophila melanogaster} SCOP: b.72.3.1
+Probab=19.24  E-value=1.1e+02  Score=12.22  Aligned_cols=5  Identities=80%  Similarity=1.278  Sum_probs=0.0  Template_Neff=3.700
+
+Q GVVPQY            1 GVVPQ    5 (6)
+Q Consensus         1 gvvpq    5 (6)
+                      |++||
+T Consensus        32 Gy~P~   36 (58)
+T 1RK8_C           32 GYVPQ   36 (58)
+T ss_dssp             TCCC-
+T ss_pred             CCCCH
+
+
+No 6
+>1EDX_A AMINO TERMINUS OF RHODOPSIN (RESIDUES; helix, Ion Transport; NMR {N/A} SCOP: j.35.1.1
+Probab=17.48  E-value=1.3e+02  Score=11.20  Aligned_cols=4  Identities=75%  Similarity=1.514  Sum_probs=0.0  Template_Neff=4.000
+
+Q GVVPQY            3 VPQY    6 (6)
+Q Consensus         3 vpqy    6 (6)
+                      +|||
+T Consensus        26 ~Pqy   29 (40)
+T 1EDX_A           26 APQY   29 (40)
+T ss_dssp             HHHH
+T ss_pred             CCch
+
+
+No 7
+>7L0A_B FrmB, HYDROLASE; 1.6A {Staphylococcus aureus}
+Probab=17.31  E-value=1.3e+02  Score=10.80  Aligned_cols=5  Identities=60%  Similarity=1.391  Sum_probs=0.0  Template_Neff=12.100
+
+Q GVVPQY            1 GVVPQ    5 (6)
+Q Consensus         1 gvvpq    5 (6)
+                      |.||+
+T Consensus         1 ~~vp~    5 (261)
+T 7L0A_B            1 GLVPR    5 (261)
+T ss_dssp             -----
+T ss_pred             Ccccc
+
+
+No 8
+>1UF2_B Core protein P3/Outer capsid protein; VIRUS COMPONENTS, Icosahedral virus, Virus; 3.5A {Rice dwarf virus} SCOP: e.28.1.2
+Probab=16.10  E-value=1.4e+02  Score=17.69  Aligned_cols=6  Identities=83%  Similarity=1.730  Sum_probs=0.0  Template_Neff=1.800
+
+Q GVVPQY            1 GVVPQY    6 (6)
+Q Consensus         1 gvvpqy    6 (6)
+                      |++|||
+T Consensus       647 Gi~P~Y  652 (1019)
+T 1UF2_B          647 GIVPQY  652 (1019)
+T ss_dssp             HBCCCS
+T ss_pred             ccchhH
+
+
+No 9
+>1UF2_A Core protein P3/Outer capsid protein; VIRUS COMPONENTS, Icosahedral virus, Virus; 3.5A {Rice dwarf virus} SCOP: e.28.1.2
+Probab=16.08  E-value=1.4e+02  Score=17.69  Aligned_cols=6  Identities=83%  Similarity=1.730  Sum_probs=0.0  Template_Neff=1.800
+
+Q GVVPQY            1 GVVPQY    6 (6)
+Q Consensus         1 gvvpqy    6 (6)
+                      |++|||
+T Consensus       647 Gi~P~Y  652 (1019)
+T 1UF2_A          647 GIVPQY  652 (1019)
+T ss_dssp             HBCCCS
+T ss_pred             ccchhH
+
+
+No 10
+>6ZDX_A Rifin, Leukocyte immunoglobulin-like receptor subfamily; RIFIN, LILRB1, inhibitory immune receptor; HET: NAG; 3.0A {Plasmodium falciparum 3D7}
+Probab=15.75  E-value=1.5e+02  Score=11.67  Aligned_cols=6  Identities=50%  Similarity=0.938  Sum_probs=0.0  Template_Neff=7.600
+
+Q GVVPQY            1 GVVPQY    6 (6)
+Q Consensus         1 gvvpqy    6 (6)
+                      |.||-|
+T Consensus        12 ~~~~~~   17 (129)
+T 6ZDX_A           12 GLVPRG   17 (129)
+T ss_dssp             ------
+T ss_pred             CCchhh
+
+

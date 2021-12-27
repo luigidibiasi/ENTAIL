@@ -1,0 +1,146 @@
+Query         NNNNTN
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 02:32:07 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NNNNTN/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NNNNTN/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5KJH_A Putative uncharacterize   9.7   3E+02  0.0033   12.3   0.0    6    1-6     478-483 (605)
+  2 2B6G_A PROTEIN/RNA Complex; al   8.3 3.7E+02  0.0041   10.5   0.0    6    1-6       4-9   (119)
+  3 6EKC_N8 Ribulose bisphosphate    6.9 4.7E+02  0.0052    9.4   0.0    6    1-6       4-9   (81)
+  4 1NEI_B hypothetical protein yo   5.2 6.8E+02  0.0075   10.5   0.0    4    1-4      12-15  (60)
+  5 3FMT_A protein-DNA complex, he   5.1   7E+02  0.0077   11.4   0.0    5    2-6     131-135 (162)
+  6 3FMT_B protein-DNA complex, he   5.1   7E+02  0.0077   11.4   0.0    5    2-6     131-135 (162)
+  7 4JLQ_B Transportin-1, Nuclear    5.0 7.1E+02  0.0078    9.7   0.0    5    1-5      26-30  (38)
+  8 3IEC_G Protein-protein complex   4.7 7.7E+02  0.0086   11.3   0.0    6    1-6       4-9   (125)
+  9 2AW6_A PrgX; Repressor, pherom   4.5 8.1E+02   0.009    9.7   0.0    5    1-5     307-311 (317)
+ 10 5VK3_A Polycomb Protein EED, H   4.4 8.4E+02  0.0093   11.2   0.0    6    1-6     478-483 (605)
+
+No 1
+>5KJH_A Putative uncharacterized protein, Zinc finger; Complex, Methyltransferase, TRANSFERASE; HET: SAH, M3L; 2.27A {Chaetomium thermophilum (strain DSM 1495 / CBS 144.50 / IMI 039719)}
+Probab=9.65  E-value=3e+02  Score=12.27  Aligned_cols=6  Identities=83%  Similarity=1.082  Sum_probs=0.0  Template_Neff=10.300
+
+Q NNNNTN            1 NNNNTN    6 (6)
+Q Consensus         1 nnnntn    6 (6)
+                      ||||.|
+T Consensus       478 ~~~~~~  483 (605)
+T 5KJH_A          478 NNNNNN  483 (605)
+T ss_dssp             ------
+T ss_pred             ccCcCC
+
+
+No 2
+>2B6G_A PROTEIN/RNA Complex; alpha-helix, pentaloop, hairpin, RNA BINDING; NMR {Saccharomyces cerevisiae}
+Probab=8.34  E-value=3.7e+02  Score=10.47  Aligned_cols=6  Identities=50%  Similarity=0.113  Sum_probs=0.0  Template_Neff=7.600
+
+Q NNNNTN            1 NNNNTN    6 (6)
+Q Consensus         1 nnnntn    6 (6)
+                      ++|||+
+T Consensus         4 ~~~~~~    9 (119)
+T 2B6G_A            4 VFNNTI    9 (119)
+T ss_pred             cccCcc
+
+
+No 3
+>6EKC_N8 Ribulose bisphosphate carboxylase large chain; zinc finger, assembly chaperone, assembly; HET: ZN; 2.63A {Thermosynechococcus elongatus (strain BP-1)}
+Probab=6.89  E-value=4.7e+02  Score=9.37  Aligned_cols=6  Identities=50%  Similarity=0.606  Sum_probs=0.0  Template_Neff=7.900
+
+Q NNNNTN            1 NNNNTN    6 (6)
+Q Consensus         1 nnnntn    6 (6)
+                      ||+|..
+T Consensus         4 ~~~~~~    9 (81)
+T 6EKC_N8           4 NNNPQG    9 (81)
+T ss_pred             CCCCCC
+
+
+No 4
+>1NEI_B hypothetical protein yoaG; Alpha/Beta protein, homodimer, OCSP, NESG; NMR {Escherichia coli} SCOP: d.253.1.1
+Probab=5.19  E-value=6.8e+02  Score=10.47  Aligned_cols=4  Identities=75%  Similarity=1.024  Sum_probs=0.0  Template_Neff=2.300
+
+Q NNNNTN            1 NNNN    4 (6)
+Q Consensus         1 nnnn    4 (6)
+                      ||||
+T Consensus        12 NnnN   15 (60)
+T 1NEI_B           12 NNSN   15 (60)
+T ss_dssp             ETTT
+T ss_pred             eCCC
+
+
+No 5
+>3FMT_A protein-DNA complex, hemimethylated GATC, DNA; HET: 6MA, MPD; 2.983A {Escherichia coli}
+Probab=5.07  E-value=7e+02  Score=11.41  Aligned_cols=5  Identities=60%  Similarity=0.734  Sum_probs=0.0  Template_Neff=4.700
+
+Q NNNNTN            2 NNNTN    6 (6)
+Q Consensus         2 nnntn    6 (6)
+                      |+||.
+T Consensus       131 N~NT~  135 (162)
+T 3FMT_A          131 NTNTG  135 (162)
+T ss_dssp             CSCHH
+T ss_pred             cCChH
+
+
+No 6
+>3FMT_B protein-DNA complex, hemimethylated GATC, DNA; HET: 6MA, MPD; 2.983A {Escherichia coli}
+Probab=5.07  E-value=7e+02  Score=11.41  Aligned_cols=5  Identities=60%  Similarity=0.734  Sum_probs=0.0  Template_Neff=4.700
+
+Q NNNNTN            2 NNNTN    6 (6)
+Q Consensus         2 nnntn    6 (6)
+                      |+||.
+T Consensus       131 N~NT~  135 (162)
+T 3FMT_B          131 NTNTG  135 (162)
+T ss_dssp             CSCHH
+T ss_pred             cCChH
+
+
+No 7
+>4JLQ_B Transportin-1, Nuclear polyadenylated RNA-binding protein; HEAT REPEATS, KARYOPHERIN, NUCLEAR IMPORT; 3.05A {Homo sapiens}
+Probab=5.03  E-value=7.1e+02  Score=9.75  Aligned_cols=5  Identities=80%  Similarity=0.986  Sum_probs=0.0  Template_Neff=1.000
+
+Q NNNNTN            1 NNNNT    5 (6)
+Q Consensus         1 nnnnt    5 (6)
+                      |||.|
+T Consensus        26 nnnst   30 (38)
+T 4JLQ_B           26 NNNST   30 (38)
+T ss_pred             CCCcc
+
+
+No 8
+>3IEC_G Protein-protein complex, kinase, virulence factor; 2.2A {Homo sapiens}
+Probab=4.69  E-value=7.7e+02  Score=11.25  Aligned_cols=6  Identities=67%  Similarity=0.994  Sum_probs=0.0  Template_Neff=3.500
+
+Q NNNNTN            1 NNNNTN    6 (6)
+Q Consensus         1 nnnntn    6 (6)
+                      ||||.|
+T Consensus         4 nnnnnn    9 (125)
+T 3IEC_G            4 DNNNNN    9 (125)
+T ss_pred             CcccCc
+
+
+No 9
+>2AW6_A PrgX; Repressor, pheromone, DNA binding, regulatory; 3.0A {Enterococcus faecalis} SCOP: a.35.1.11, a.118.8.4
+Probab=4.50  E-value=8.1e+02  Score=9.73  Aligned_cols=5  Identities=40%  Similarity=0.268  Sum_probs=0.0  Template_Neff=10.800
+
+Q NNNNTN            1 NNNNT    5 (6)
+Q Consensus         1 nnnnt    5 (6)
+                      |+|++
+T Consensus       307 ~~~~~  311 (317)
+T 2AW6_A          307 NNPIP  311 (317)
+T ss_dssp             -----
+T ss_pred             cCCch
+
+
+No 10
+>5VK3_A Polycomb Protein EED, Histone-lysine N-methyltransferase; transferase; 2.114A {Chaetomium thermophilum}
+Probab=4.39  E-value=8.4e+02  Score=11.23  Aligned_cols=6  Identities=83%  Similarity=1.082  Sum_probs=0.0  Template_Neff=9.800
+
+Q NNNNTN            1 NNNNTN    6 (6)
+Q Consensus         1 nnnntn    6 (6)
+                      ||||.|
+T Consensus       478 ~~~~~~  483 (605)
+T 5VK3_A          478 NNNNNN  483 (605)
+T ss_dssp             ------
+T ss_pred             ccCcCC
+
+

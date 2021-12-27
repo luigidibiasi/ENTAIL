@@ -1,0 +1,150 @@
+Query         SKVIIE
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 15:03:29 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/SKVIIE/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/SKVIIE/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2A4A_B deoxyribose-phosphate a   8.9 3.4E+02  0.0037   12.3   0.0    5    2-6     160-164 (281)
+  2 5IKF_A Chromatin remodeling fa   8.7 3.5E+02  0.0038   13.9   0.0    5    1-5     248-252 (262)
+  3 1QWG_A (2R)-phospho-3-sulfolac   8.7 3.5E+02  0.0038   12.7   0.0    6    1-6     163-168 (251)
+  4 1KTN_A 2-deoxyribose-5-phospha   8.5 3.6E+02  0.0039   11.5   0.0    5    2-6     137-141 (250)
+  5 1P1X_B DEOXYRIBOSE-PHOSPHATE A   8.4 3.6E+02   0.004   11.7   0.0    5    2-6     138-142 (260)
+  6 3DOH_A esterase (E.C.3.1.1.1);   8.2 3.7E+02  0.0041   11.4   0.0    6    1-6      23-28  (380)
+  7 3DOI_A esterase (E.C.3.1.1.1);   8.2 3.7E+02  0.0041   11.4   0.0    6    1-6      23-28  (380)
+  8 1U83_A Phosphosulfolactate syn   8.0 3.9E+02  0.0043   12.9   0.0    6    1-6     187-192 (276)
+  9 5C6M_D Deoxyribose-phosphate a   7.9 3.9E+02  0.0044   11.7   0.0    5    2-6     136-140 (265)
+ 10 5EL1_A Deoxyribose-phosphate a   7.4 4.3E+02  0.0048   11.6   0.0    5    2-6     137-141 (265)
+
+No 1
+>2A4A_B deoxyribose-phosphate aldolase (E.C.4.1.2.4); LYASE, ALDOLASE, TIM BETA/ALPHA BARREL; 1.84A {Plasmodium yoelii yoelii} SCOP: c.1.10.1
+Probab=8.86  E-value=3.4e+02  Score=12.26  Aligned_cols=5  Identities=100%  Similarity=1.212  Sum_probs=0.0  Template_Neff=7.200
+
+Q SKVIIE            2 KVIIE    6 (6)
+Q Consensus         2 kviie    6 (6)
+                      |||+|
+T Consensus       160 kvIlE  164 (281)
+T 2A4A_B          160 KVIIE  164 (281)
+T ss_dssp             EEECC
+T ss_pred             chhee
+
+
+No 2
+>5IKF_A Chromatin remodeling factor mit1 (E.C.3.6.4.-); zinc fingers, alpha-helical, protein-protein interface; 2.8A {Schizosaccharomyces pombe (strain 972 / ATCC 24843)}
+Probab=8.73  E-value=3.5e+02  Score=13.86  Aligned_cols=5  Identities=100%  Similarity=1.119  Sum_probs=0.0  Template_Neff=2.700
+
+Q SKVIIE            1 SKVII    5 (6)
+Q Consensus         1 skvii    5 (6)
+                      |||||
+T Consensus       248 ~~~~~  252 (262)
+T 5IKF_A          248 SKVII  252 (262)
+T ss_dssp             -----
+T ss_pred             ceeee
+
+
+No 3
+>1QWG_A (2R)-phospho-3-sulfolactate synthase (E.C.4.4.-.-); beta-alpha-barrel, LYASE; HET: SO4; 1.6A {Methanocaldococcus jannaschii} SCOP: c.1.27.1
+Probab=8.70  E-value=3.5e+02  Score=12.70  Aligned_cols=6  Identities=67%  Similarity=0.744  Sum_probs=0.0  Template_Neff=5.700
+
+Q SKVIIE            1 SKVIIE    6 (6)
+Q Consensus         1 skviie    6 (6)
+                      .+||||
+T Consensus       163 ~~ViiE  168 (251)
+T 1QWG_A          163 DYVIIE  168 (251)
+T ss_dssp             SEEEEC
+T ss_pred             CEEEEe
+
+
+No 4
+>1KTN_A 2-deoxyribose-5-phosphate aldolase; BETA BARREL, STRUCTURAL GENOMICS, PSI; 1.4A {Escherichia coli} SCOP: c.1.10.1
+Probab=8.53  E-value=3.6e+02  Score=11.53  Aligned_cols=5  Identities=100%  Similarity=1.212  Sum_probs=0.0  Template_Neff=8.200
+
+Q SKVIIE            2 KVIIE    6 (6)
+Q Consensus         2 kviie    6 (6)
+                      |+|+|
+T Consensus       137 kvIiE  141 (250)
+T 1KTN_A          137 KVIIE  141 (250)
+T ss_dssp             EEECC
+T ss_pred             EEEee
+
+
+No 5
+>1P1X_B DEOXYRIBOSE-PHOSPHATE ALDOLASE (E.C.4.1.2.4); alpha-beta barrel, TIM barrel, LYASE; 0.99A {Escherichia coli K-12} SCOP: c.1.10.1
+Probab=8.40  E-value=3.6e+02  Score=11.71  Aligned_cols=5  Identities=100%  Similarity=1.212  Sum_probs=0.0  Template_Neff=7.900
+
+Q SKVIIE            2 KVIIE    6 (6)
+Q Consensus         2 kviie    6 (6)
+                      |+|+|
+T Consensus       138 kvIiE  142 (260)
+T 1P1X_B          138 KVIIE  142 (260)
+T ss_dssp             EEECC
+T ss_pred             eEehh
+
+
+No 6
+>3DOH_A esterase (E.C.3.1.1.1); alpha-beta Hydrolase, beta sheet, HYDROLASE; HET: SO4; 2.6A {Thermotoga maritima}
+Probab=8.24  E-value=3.7e+02  Score=11.39  Aligned_cols=6  Identities=50%  Similarity=0.766  Sum_probs=0.0  Template_Neff=9.900
+
+Q SKVIIE            1 SKVIIE    6 (6)
+Q Consensus         1 skviie    6 (6)
+                      ++|||+
+T Consensus        23 ~~v~~~   28 (380)
+T 3DOH_A           23 CAVVIE   28 (380)
+T ss_dssp             EEEEEE
+T ss_pred             EEEEEE
+
+
+No 7
+>3DOI_A esterase (E.C.3.1.1.1); alpha-beta Hydrolase, beta sheet, HYDROLASE; HET: DEP; 3.0A {Thermotoga maritima}
+Probab=8.24  E-value=3.7e+02  Score=11.39  Aligned_cols=6  Identities=50%  Similarity=0.766  Sum_probs=0.0  Template_Neff=9.900
+
+Q SKVIIE            1 SKVIIE    6 (6)
+Q Consensus         1 skviie    6 (6)
+                      ++|||+
+T Consensus        23 ~~v~~~   28 (380)
+T 3DOI_A           23 CAVVIE   28 (380)
+T ss_dssp             EEEEEE
+T ss_pred             EEEEEE
+
+
+No 8
+>1U83_A Phosphosulfolactate synthase (E.C.4.4.1.19); Bacillus subtilis, structural genomics, Phosphosulfolactate; HET: GOL, PO4; 2.2A {Bacillus subtilis} SCOP: c.1.27.1
+Probab=7.98  E-value=3.9e+02  Score=12.92  Aligned_cols=6  Identities=67%  Similarity=0.767  Sum_probs=0.0  Template_Neff=5.200
+
+Q SKVIIE            1 SKVIIE    6 (6)
+Q Consensus         1 skviie    6 (6)
+                      .+||||
+T Consensus       187 ~~VIiE  192 (276)
+T 1U83_A          187 EKVITE  192 (276)
+T ss_dssp             EEEEEC
+T ss_pred             CEEEEe
+
+
+No 9
+>5C6M_D Deoxyribose-phosphate aldolase (E.C.4.1.2.4); DERA, TIM barrel, psychrophilic, lyase; 1.76A {Shewanella halifaxensis}
+Probab=7.92  E-value=3.9e+02  Score=11.69  Aligned_cols=5  Identities=100%  Similarity=1.212  Sum_probs=0.0  Template_Neff=7.800
+
+Q SKVIIE            2 KVIIE    6 (6)
+Q Consensus         2 kviie    6 (6)
+                      |||+|
+T Consensus       136 kvIlE  140 (265)
+T 5C6M_D          136 KVIIE  140 (265)
+T ss_dssp             EEECC
+T ss_pred             EEEee
+
+
+No 10
+>5EL1_A Deoxyribose-phosphate aldolase (E.C.4.1.2.4); DERA, TIM barrel, lyase, suicide; HET: EPE; 1.25A {Escherichia coli K-12}
+Probab=7.37  E-value=4.3e+02  Score=11.57  Aligned_cols=5  Identities=100%  Similarity=1.212  Sum_probs=0.0  Template_Neff=7.800
+
+Q SKVIIE            2 KVIIE    6 (6)
+Q Consensus         2 kviie    6 (6)
+                      |+|+|
+T Consensus       137 kvIlE  141 (265)
+T 5EL1_A          137 KVIIE  141 (265)
+T ss_dssp             EEECC
+T ss_pred             eEEhh
+
+

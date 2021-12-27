@@ -1,0 +1,148 @@
+Query         LATVQV
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 15:57:13 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LATVQV/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LATVQV/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5H4P_w 60S ribosomal protein L   6.7 4.9E+02  0.0054   11.7   0.0    5    2-6       3-7   (248)
+  2 6KOC_H AA3-600 quinol oxidase    6.4 5.2E+02  0.0057   11.5   0.0    6    1-6      49-54  (123)
+  3 2EW6_A peptide deformylase (E.   6.4 5.2E+02  0.0057   11.2   0.0    6    1-6      46-51  (181)
+  4 4JE6_A Peptide deformylase 1A,   6.2 5.4E+02  0.0059   11.3   0.0    6    1-6      50-55  (197)
+  5 4JE7_A Peptide deformylase 1A,   6.2 5.4E+02  0.0059   11.3   0.0    6    1-6      50-55  (197)
+  6 6JF8_A Peptide deformylase (E.   6.2 5.4E+02   0.006   10.6   0.0    6    1-6      50-55  (159)
+  7 2OS0_A Peptide deformylase (E.   5.9 5.7E+02  0.0064   11.0   0.0    6    1-6      61-66  (188)
+  8 2OS1_A Peptide deformylase (E.   5.9 5.8E+02  0.0064   11.0   0.0    6    1-6      61-66  (188)
+  9 1DFF_A PEPTIDE DEFORMYLASE; HY   5.7   6E+02  0.0066   10.9   0.0    6    1-6      46-51  (164)
+ 10 1WS0_A peptide deformylase 1(E   5.7 6.1E+02  0.0067   10.7   0.0    6    1-6      47-52  (156)
+
+No 1
+>5H4P_w 60S ribosomal protein L2-A, 60S; pre-60S, Nmd3, Lsg1, assembly, RIBOSOME; 3.07A {Saccharomyces cerevisiae}
+Probab=6.68  E-value=4.9e+02  Score=11.74  Aligned_cols=5  Identities=80%  Similarity=0.939  Sum_probs=0.0  Template_Neff=6.800
+
+Q LATVQV            2 ATVQV    6 (6)
+Q Consensus         2 atvqv    6 (6)
+                      |.||+
+T Consensus         3 aiVQv    7 (248)
+T 5H4P_w            3 ATVQI    7 (248)
+T ss_pred             EEEEE
+
+
+No 2
+>6KOC_H AA3-600 quinol oxidase subunit I; Menaquinol oxidase, Complex, Proton pumping; HET: HEA, IHQ; 3.8A {Bacillus subtilis}
+Probab=6.44  E-value=5.2e+02  Score=11.55  Aligned_cols=6  Identities=33%  Similarity=0.451  Sum_probs=0.0  Template_Neff=4.100
+
+Q LATVQV            1 LATVQV    6 (6)
+Q Consensus         1 latvqv    6 (6)
+                      +|.+|+
+T Consensus        49 LAvvQv   54 (123)
+T 6KOC_H           49 FAFIQA   54 (123)
+T ss_pred             HHHHHH
+
+
+No 3
+>2EW6_A peptide deformylase (E.C.3.5.1.88); Cobalt Helicobacter pylori peptide deformylase; HET: Y13; 2.2A {Helicobacter pylori}
+Probab=6.41  E-value=5.2e+02  Score=11.22  Aligned_cols=6  Identities=67%  Similarity=0.899  Sum_probs=0.0  Template_Neff=6.600
+
+Q LATVQV            1 LATVQV    6 (6)
+Q Consensus         1 latvqv    6 (6)
+                      ||..||
+T Consensus        46 LAApQI   51 (181)
+T 2EW6_A           46 LAAIQV   51 (181)
+T ss_dssp             EEGGGG
+T ss_pred             EEhhhc
+
+
+No 4
+>4JE6_A Peptide deformylase 1A, chloroplastic (E.C.3.5.1.88); peptide deformylase, mitochondrial, HYDROLASE; 2.0A {Arabidopsis thaliana}
+Probab=6.24  E-value=5.4e+02  Score=11.28  Aligned_cols=6  Identities=50%  Similarity=0.612  Sum_probs=0.0  Template_Neff=6.700
+
+Q LATVQV            1 LATVQV    6 (6)
+Q Consensus         1 latvqv    6 (6)
+                      ||..||
+T Consensus        50 LAApQI   55 (197)
+T 4JE6_A           50 LAAPQI   55 (197)
+T ss_dssp             EEGGGG
+T ss_pred             EEcccc
+
+
+No 5
+>4JE7_A Peptide deformylase 1A, mitochondrial (E.C.3.5.1.88); peptide deformylase, mitochondrial, actinonin, HYDROLASE-HYDROLASE; HET: BB2; 2.1A {Arabidopsis thaliana}
+Probab=6.24  E-value=5.4e+02  Score=11.28  Aligned_cols=6  Identities=50%  Similarity=0.612  Sum_probs=0.0  Template_Neff=6.700
+
+Q LATVQV            1 LATVQV    6 (6)
+Q Consensus         1 latvqv    6 (6)
+                      ||..||
+T Consensus        50 LAApQI   55 (197)
+T 4JE7_A           50 LAAPQI   55 (197)
+T ss_dssp             EEGGGG
+T ss_pred             EEcccc
+
+
+No 6
+>6JF8_A Peptide deformylase (E.C.3.5.1.88); peptide deformylase, hydrolase; HET: LHY; 1.7A {Acinetobacter baumannii}
+Probab=6.23  E-value=5.4e+02  Score=10.65  Aligned_cols=6  Identities=50%  Similarity=0.562  Sum_probs=0.0  Template_Neff=7.300
+
+Q LATVQV            1 LATVQV    6 (6)
+Q Consensus         1 latvqv    6 (6)
+                      ||..|+
+T Consensus        50 LAApQI   55 (159)
+T 6JF8_A           50 IAAPQV   55 (159)
+T ss_dssp             EEGGGG
+T ss_pred             Eecccc
+
+
+No 7
+>2OS0_A Peptide deformylase (E.C.3.5.1.88); PDF, Peptide deformylase, HYDROLASE; 1.3A {Enterococcus faecalis}
+Probab=5.92  E-value=5.7e+02  Score=10.98  Aligned_cols=6  Identities=50%  Similarity=0.540  Sum_probs=0.0  Template_Neff=7.000
+
+Q LATVQV            1 LATVQV    6 (6)
+Q Consensus         1 latvqv    6 (6)
+                      ||..|+
+T Consensus        61 LAApQI   66 (188)
+T 2OS0_A           61 LAAPQL   66 (188)
+T ss_dssp             EEGGGG
+T ss_pred             eecccc
+
+
+No 8
+>2OS1_A Peptide deformylase (E.C.3.5.1.88); PDF, peptide deformylase, HYDROLASE; HET: BB2, SO4; 1.5A {Enterococcus faecalis}
+Probab=5.90  E-value=5.8e+02  Score=10.98  Aligned_cols=6  Identities=50%  Similarity=0.540  Sum_probs=0.0  Template_Neff=7.000
+
+Q LATVQV            1 LATVQV    6 (6)
+Q Consensus         1 latvqv    6 (6)
+                      ||..||
+T Consensus        61 LAApQI   66 (188)
+T 2OS1_A           61 LAAPQL   66 (188)
+T ss_dssp             EEGGGG
+T ss_pred             EeHHHh
+
+
+No 9
+>1DFF_A PEPTIDE DEFORMYLASE; HYDROLASE, ZINC METALLOPROTEASE; 2.88A {Escherichia coli} SCOP: d.167.1.1
+Probab=5.75  E-value=6e+02  Score=10.87  Aligned_cols=6  Identities=67%  Similarity=0.728  Sum_probs=0.0  Template_Neff=6.600
+
+Q LATVQV            1 LATVQV    6 (6)
+Q Consensus         1 latvqv    6 (6)
+                      ||..||
+T Consensus        46 LAApQI   51 (164)
+T 1DFF_A           46 LAATQV   51 (164)
+T ss_dssp             EEGGGG
+T ss_pred             EecCee
+
+
+No 10
+>1WS0_A peptide deformylase 1(E.C.3.5.1.88); alpha + beta topology, hydrolase; 1.7A {Bacillus cereus}
+Probab=5.69  E-value=6.1e+02  Score=10.69  Aligned_cols=6  Identities=67%  Similarity=0.628  Sum_probs=0.0  Template_Neff=6.800
+
+Q LATVQV            1 LATVQV    6 (6)
+Q Consensus         1 latvqv    6 (6)
+                      ||..|+
+T Consensus        47 LAApQI   52 (156)
+T 1WS0_A           47 LAAPQV   52 (156)
+T ss_dssp             EEGGGG
+T ss_pred             Eehhhc
+
+

@@ -1,0 +1,144 @@
+Query         LFTVYV
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 18:11:42 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LFTVYV/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LFTVYV/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5XTC_Z NADH dehydrogenase [ubi  10.5 2.7E+02   0.003   11.1   0.0    6    1-6      68-73  (80)
+  2 5XTH_Z NADH dehydrogenase [ubi  10.5 2.7E+02   0.003   11.1   0.0    6    1-6      68-73  (80)
+  3 2PKW_A UPF0341 protein yhiQ; a   9.5 3.1E+02  0.0034   11.5   0.0    5    2-6     242-246 (260)
+  4 6ID0_O Pre-mRNA-processing-spl   9.2 3.2E+02  0.0035   12.5   0.0    4    2-5      52-55  (420)
+  5 2OYR_A UPF0341 protein yhiQ; a   7.9 3.9E+02  0.0043   11.2   0.0    5    2-6     242-246 (258)
+  6 3TKN_A Nucleoporin NUP82, Nucl   7.7 4.1E+02  0.0045   12.4   0.0    5    2-6     192-196 (452)
+  7 6QDV_M Eukaryotic initiation f   7.6 4.2E+02  0.0046   11.4   0.0    4    2-5      35-38  (289)
+  8 3JB9_a Pre-mRNA-splicing facto   7.1 4.5E+02   0.005   11.7   0.0    4    2-5      51-54  (354)
+  9 5CWW_B Nucleoporin NUP145N (E.   6.7 4.9E+02  0.0055   12.8   0.0    5    2-6     270-274 (595)
+ 10 7DCO_Q PRP8 isoform 1, SNU114    6.5 5.1E+02  0.0056   12.2   0.0    4    2-5      41-44  (364)
+
+No 1
+>5XTC_Z NADH dehydrogenase [ubiquinone] iron-sulfur protein; Homo sapiens, Oxidoreductase, Respiratory, Complex; HET: CDL, PEE, PLX, 8Q1; 3.7A {Homo sapiens}
+Probab=10.49  E-value=2.7e+02  Score=11.13  Aligned_cols=6  Identities=50%  Similarity=0.578  Sum_probs=0.0  Template_Neff=5.300
+
+Q LFTVYV            1 LFTVYV    6 (6)
+Q Consensus         1 lftvyv    6 (6)
+                      +|++|+
+T Consensus        68 af~vyi   73 (80)
+T 5XTC_Z           68 AFVVAV   73 (80)
+T ss_pred             HHHHHH
+
+
+No 2
+>5XTH_Z NADH dehydrogenase [ubiquinone] flavoprotein 1; Homo sapiens, Oxidoreductase, Respiratory, Supercomplex; HET: FES, SF4, CDL, NDP, PLX, HEC, FMN, PEE, HEA, 8Q1, HEM; 3.9A {Homo sapiens}
+Probab=10.49  E-value=2.7e+02  Score=11.13  Aligned_cols=6  Identities=50%  Similarity=0.578  Sum_probs=0.0  Template_Neff=5.300
+
+Q LFTVYV            1 LFTVYV    6 (6)
+Q Consensus         1 lftvyv    6 (6)
+                      +|++|+
+T Consensus        68 af~vyi   73 (80)
+T 5XTH_Z           68 AFVVAV   73 (80)
+T ss_pred             HHHHHH
+
+
+No 3
+>2PKW_A UPF0341 protein yhiQ; alpha-beta protein, Structural Genomics, PSI-2; 2.1A {Salmonella typhimurium LT2} SCOP: c.66.1.55
+Probab=9.45  E-value=3.1e+02  Score=11.48  Aligned_cols=5  Identities=40%  Similarity=1.198  Sum_probs=0.0  Template_Neff=8.800
+
+Q LFTVYV            2 FTVYV    6 (6)
+Q Consensus         2 ftvyv    6 (6)
+                      |+||+
+T Consensus       242 fd~y~  246 (260)
+T 2PKW_A          242 FDIYA  246 (260)
+T ss_dssp             EEEEE
+T ss_pred             EEEEc
+
+
+No 4
+>6ID0_O Pre-mRNA-processing-splicing factor 8, 116 kDa; Human Intron Lariat Spliceosome, SPLICING; HET: GTP, IHP, SEP; 2.9A {Homo sapiens}
+Probab=9.22  E-value=3.2e+02  Score=12.48  Aligned_cols=4  Identities=75%  Similarity=1.497  Sum_probs=0.0  Template_Neff=8.400
+
+Q LFTVYV            2 FTVY    5 (6)
+Q Consensus         2 ftvy    5 (6)
+                      ||||
+T Consensus        52 ft~f   55 (420)
+T 6ID0_O           52 FTVF   55 (420)
+T ss_pred             cceE
+
+
+No 5
+>2OYR_A UPF0341 protein yhiQ; alpha-beta protein, Structural Genomics, PSI-2; HET: SAH; 2.0A {Shigella flexneri 2a} SCOP: c.66.1.55
+Probab=7.94  E-value=3.9e+02  Score=11.23  Aligned_cols=5  Identities=40%  Similarity=1.198  Sum_probs=0.0  Template_Neff=8.700
+
+Q LFTVYV            2 FTVYV    6 (6)
+Q Consensus         2 ftvyv    6 (6)
+                      |.||+
+T Consensus       242 fdvy~  246 (258)
+T 2OYR_A          242 FDIYA  246 (258)
+T ss_dssp             EEEEE
+T ss_pred             EEEEe
+
+
+No 6
+>3TKN_A Nucleoporin NUP82, Nucleoporin NUP159, Nucleoporin; protein complex, oncoprotein, PROTEIN TRANSPORT; 3.4A {Saccharomyces cerevisiae}
+Probab=7.73  E-value=4.1e+02  Score=12.45  Aligned_cols=5  Identities=40%  Similarity=0.939  Sum_probs=0.0  Template_Neff=8.100
+
+Q LFTVYV            2 FTVYV    6 (6)
+Q Consensus         2 ftvyv    6 (6)
+                      ||+|+
+T Consensus       192 ~Tlyv  196 (452)
+T 3TKN_A          192 LTLYC  196 (452)
+T ss_dssp             SCEEE
+T ss_pred             EEEEE
+
+
+No 7
+>6QDV_M Eukaryotic initiation factor 4A-III, RNA-binding; spliceosome, RNA, complex, SPLICING; HET: GTP, I6P, ATP, SEP; 3.3A {Homo sapiens}
+Probab=7.59  E-value=4.2e+02  Score=11.40  Aligned_cols=4  Identities=75%  Similarity=1.497  Sum_probs=0.0  Template_Neff=8.600
+
+Q LFTVYV            2 FTVY    5 (6)
+Q Consensus         2 ftvy    5 (6)
+                      ||||
+T Consensus        35 ~~~~   38 (289)
+T 6QDV_M           35 FTVF   38 (289)
+T ss_pred             ccee
+
+
+No 8
+>3JB9_a Pre-mRNA-splicing factor spp42, Pre-mRNA-splicing factor; Spliceosome, U2/U5/U6, Lariat, RNA BINDING; HET: ADP, GDP; 3.6A {Schizosaccharomyces pombe 972h-}
+Probab=7.11  E-value=4.5e+02  Score=11.74  Aligned_cols=4  Identities=25%  Similarity=0.824  Sum_probs=0.0  Template_Neff=8.400
+
+Q LFTVYV            2 FTVY    5 (6)
+Q Consensus         2 ftvy    5 (6)
+                      ||||
+T Consensus        51 ft~f   54 (354)
+T 3JB9_a           51 CTIF   54 (354)
+T ss_pred             ceeE
+
+
+No 9
+>5CWW_B Nucleoporin NUP145N (E.C.3.4.21.-), Nucleoporin NUP82; nucleocytoplasmic transport, TRANSPORT PROTEIN; 2.2A {Chaetomium thermophilum (strain DSM 1495 / CBS 144.50 / IMI 039719)}
+Probab=6.67  E-value=4.9e+02  Score=12.82  Aligned_cols=5  Identities=20%  Similarity=0.786  Sum_probs=0.0  Template_Neff=7.800
+
+Q LFTVYV            2 FTVYV    6 (6)
+Q Consensus         2 ftvyv    6 (6)
+                      ||+|+
+T Consensus       270 ~Tlyv  274 (595)
+T 5CWW_B          270 MTLWL  274 (595)
+T ss_dssp             GCEEE
+T ss_pred             heeEE
+
+
+No 10
+>7DCO_Q PRP8 isoform 1, SNU114 isoform; RNA splicing, spliceosome, Bact complex; HET: ZN, IHP, GTP; 2.5A {Saccharomyces cerevisiae}
+Probab=6.50  E-value=5.1e+02  Score=12.23  Aligned_cols=4  Identities=75%  Similarity=1.588  Sum_probs=0.0  Template_Neff=7.100
+
+Q LFTVYV            2 FTVY    5 (6)
+Q Consensus         2 ftvy    5 (6)
+                      ||||
+T Consensus        41 ft~f   44 (364)
+T 7DCO_Q           41 FTLY   44 (364)
+T ss_pred             ceeE
+
+

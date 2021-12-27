@@ -1,0 +1,148 @@
+Query         QQNTSF
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 09:41:12 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QQNTSF/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QQNTSF/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6IGZ_2 PsaA, PsaB, PsaC, PsaD,   9.4 3.1E+02  0.0035   12.5   0.0    6    1-6       6-11  (256)
+  2 2WH0_R 14-3-3 PROTEIN ZETA/DEL   6.2 5.4E+02   0.006    9.6   0.0    6    1-6      23-28  (31)
+  3 3SUI_B Calmodulin, Transient r   5.9 5.8E+02  0.0064    9.3   0.0    6    1-6       6-11  (37)
+  4 2D1G_A acid phosphatase (E.C.3   5.8 5.9E+02  0.0066   12.6   0.0    6    1-6      42-47  (498)
+  5 1LW7_A TRANSCRIPTIONAL REGULAT   5.4 6.5E+02  0.0072   10.4   0.0    5    2-6     354-358 (365)
+  6 6ZEG_C Serine/threonine-protei   5.3 6.7E+02  0.0074    9.6   0.0    5    2-6      63-67  (70)
+  7 4P2V_I LsrF mutant K203A; Thio   5.2 6.8E+02  0.0075   10.7   0.0    6    1-6      21-26  (293)
+  8 2D1G_B acid phosphatase (E.C.3   5.2 6.8E+02  0.0076   12.5   0.0    6    1-6      42-47  (498)
+  9 5ODN_B Single-stranded DNA-bin   5.0 7.1E+02  0.0079   10.6   0.0    5    2-6      21-25  (196)
+ 10 5ODN_C Single-stranded DNA-bin   5.0 7.1E+02  0.0079   10.6   0.0    5    2-6      21-25  (196)
+
+No 1
+>6IGZ_2 PsaA, PsaB, PsaC, PsaD, PsaE; PSI-LHCI, PLANT PROTEIN; HET: DGD, XAT, LMG, CLA, CHL, 8CT, SF4, PQN, LHG, HTG;{Bryopsis corticulans}
+Probab=9.40  E-value=3.1e+02  Score=12.52  Aligned_cols=6  Identities=67%  Similarity=0.938  Sum_probs=2.6  Template_Neff=6.500
+
+Q QQNTSF            1 QQNTSF    6 (6)
+Q Consensus         1 qqntsf    6 (6)
+                      ||.++|
+T Consensus         6 ~~~~~~   11 (256)
+T 6IGZ_2            6 QQSTAF   11 (256)
+T ss_pred             HHHHHH
+Confidence            344443
+
+
+No 2
+>2WH0_R 14-3-3 PROTEIN ZETA/DELTA, PROTEIN KINASE; TANDEM BINDING, PHOSPHOPROTEIN, SIGNALING PROTEIN; HET: SEP; 2.25A {HOMO SAPIENS}
+Probab=6.22  E-value=5.4e+02  Score=9.65  Aligned_cols=6  Identities=33%  Similarity=0.589  Sum_probs=0.0  Template_Neff=2.000
+
+Q QQNTSF            1 QQNTSF    6 (6)
+Q Consensus         1 qqntsf    6 (6)
+                      +|.+||
+T Consensus        23 ~~~~S~   28 (31)
+T 2WH0_R           23 RKALSF   28 (31)
+T ss_pred             chhccc
+
+
+No 3
+>3SUI_B Calmodulin, Transient receptor potential cation; CALMODULIN, CALCIUM-CALMODULIN, TRPV1, TRPV1 C-TERMINUS; 1.95A {Homo sapiens}
+Probab=5.91  E-value=5.8e+02  Score=9.34  Aligned_cols=6  Identities=33%  Similarity=0.634  Sum_probs=0.0  Template_Neff=4.000
+
+Q QQNTSF            1 QQNTSF    6 (6)
+Q Consensus         1 qqntsf    6 (6)
+                      +|+.||
+T Consensus         6 ~~~~s~   11 (37)
+T 3SUI_B            6 KRTLSF   11 (37)
+T ss_dssp             --CCCH
+T ss_pred             cccccc
+
+
+No 4
+>2D1G_A acid phosphatase (E.C.3.1.3.2); Francisella tularensis, Acid Phosphatase, AcpA; HET: DVT, VO4, PGE, ETE; 1.75A {Francisella tularensis subsp. novicida}
+Probab=5.77  E-value=5.9e+02  Score=12.62  Aligned_cols=6  Identities=67%  Similarity=0.994  Sum_probs=0.0  Template_Neff=7.000
+
+Q QQNTSF            1 QQNTSF    6 (6)
+Q Consensus         1 qqntsf    6 (6)
+                      |.|-||
+T Consensus        42 ~ENRSF   47 (498)
+T 2D1G_A           42 QENNSF   47 (498)
+T ss_dssp             ECSCCH
+T ss_pred             ecCCcH
+
+
+No 5
+>1LW7_A TRANSCRIPTIONAL REGULATOR NADR; NAD, NMN, NMN Adenylyl transferase; HET: SO4, NAD; 2.9A {Haemophilus influenzae} SCOP: c.26.1.3, c.37.1.1
+Probab=5.40  E-value=6.5e+02  Score=10.42  Aligned_cols=5  Identities=80%  Similarity=1.165  Sum_probs=0.0  Template_Neff=10.400
+
+Q QQNTSF            2 QNTSF    6 (6)
+Q Consensus         2 qntsf    6 (6)
+                      ||+||
+T Consensus       354 ~~~~~  358 (365)
+T 1LW7_A          354 QNTTF  358 (365)
+T ss_dssp             CC---
+T ss_pred             ccccc
+
+
+No 6
+>6ZEG_C Serine/threonine-protein phosphatase PP1-alpha catalytic subunit,Brain-specific; PP1, Phosphatase, Phactr, RPEL, HYDROLASE; HET: PO4, EDO, 16P; 1.09A {Homo sapiens}
+Probab=5.28  E-value=6.7e+02  Score=9.62  Aligned_cols=5  Identities=40%  Similarity=0.501  Sum_probs=0.0  Template_Neff=5.800
+
+Q QQNTSF            2 QNTSF    6 (6)
+Q Consensus         2 qntsf    6 (6)
+                      |||.|
+T Consensus        63 ~~T~f   67 (70)
+T 6ZEG_C           63 HLTRF   67 (70)
+T ss_pred             hhccc
+
+
+No 7
+>4P2V_I LsrF mutant K203A; Thiolase, lyase; HET: 26T; 2.51A {Escherichia coli}
+Probab=5.19  E-value=6.8e+02  Score=10.72  Aligned_cols=6  Identities=50%  Similarity=0.822  Sum_probs=0.0  Template_Neff=8.800
+
+Q QQNTSF            1 QQNTSF    6 (6)
+Q Consensus         1 qqntsf    6 (6)
+                      |||..|
+T Consensus        21 ~~~~~~   26 (293)
+T 4P2V_I           21 QKNIPF   26 (293)
+T ss_dssp             CCCCCC
+T ss_pred             CCCCCc
+
+
+No 8
+>2D1G_B acid phosphatase (E.C.3.1.3.2); Francisella tularensis, Acid Phosphatase, AcpA; HET: ETE, PGE, DVT, VO4; 1.75A {Francisella tularensis subsp. novicida}
+Probab=5.16  E-value=6.8e+02  Score=12.51  Aligned_cols=6  Identities=67%  Similarity=0.994  Sum_probs=0.0  Template_Neff=6.800
+
+Q QQNTSF            1 QQNTSF    6 (6)
+Q Consensus         1 qqntsf    6 (6)
+                      |.|-||
+T Consensus        42 ~ENRSF   47 (498)
+T 2D1G_B           42 QENNSF   47 (498)
+T ss_dssp             ECSCCH
+T ss_pred             ecCCcH
+
+
+No 9
+>5ODN_B Single-stranded DNA-binding protein/DNA Complex; Single-Strand Binding protein, DNA BINDING; 2.598A {Salinibacter ruber (strain DSM 13855 / M31)}
+Probab=5.02  E-value=7.1e+02  Score=10.62  Aligned_cols=5  Identities=40%  Similarity=0.620  Sum_probs=0.0  Template_Neff=7.400
+
+Q QQNTSF            2 QNTSF    6 (6)
+Q Consensus         2 qntsf    6 (6)
+                      ||.+|
+T Consensus        21 ~~~~~   25 (196)
+T 5ODN_B           21 ENLYF   25 (196)
+T ss_dssp             -----
+T ss_pred             ccccC
+
+
+No 10
+>5ODN_C Single-stranded DNA-binding protein/DNA Complex; Single-Strand Binding protein, DNA BINDING; 2.598A {Salinibacter ruber (strain DSM 13855 / M31)}
+Probab=5.02  E-value=7.1e+02  Score=10.62  Aligned_cols=5  Identities=40%  Similarity=0.620  Sum_probs=0.0  Template_Neff=7.400
+
+Q QQNTSF            2 QNTSF    6 (6)
+Q Consensus         2 qntsf    6 (6)
+                      ||.+|
+T Consensus        21 ~~~~~   25 (196)
+T 5ODN_C           21 ENLYF   25 (196)
+T ss_dssp             -----
+T ss_pred             ccccC
+
+

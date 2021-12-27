@@ -1,0 +1,149 @@
+Query         LAQVYV
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 14:07:50 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LAQVYV/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LAQVYV/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2VPG_B PYGOPUS HOMOLOG 1, B-CE   9.0 3.3E+02  0.0037    9.9   0.0    5    2-6       2-6   (32)
+  2 6IPV_A CqsB2; Carquinostatin A   8.4 3.7E+02  0.0041   12.5   0.0    6    1-6      11-16  (239)
+  3 6IPW_D CqsB2; Carbazole biosyn   8.4 3.7E+02  0.0041   12.5   0.0    6    1-6      11-16  (239)
+  4 1PA4_A Probable ribosome-bindi   7.7   4E+02  0.0045    9.9   0.0    5    2-6      47-51  (116)
+  5 4K51_B Eukaryotic translation    7.4 4.3E+02  0.0047   11.9   0.0    5    1-5     166-170 (224)
+  6 4K51_A Eukaryotic translation    7.4 4.3E+02  0.0048   11.9   0.0    5    1-5     166-170 (224)
+  7 1KKG_A ribosome-binding factor   7.3 4.4E+02  0.0048    9.7   0.0    5    2-6      50-54  (108)
+  8 4YTK_A KOW1-Linker1 domain of    7.1 4.6E+02   0.005   10.4   0.0    5    1-5      18-22  (130)
+  9 1DP3_A DNA BINDING DOMAIN OF T   6.6   5E+02  0.0055   10.2   0.0    4    3-6       4-7   (55)
+ 10 2KZF_A Ribosome-binding factor   6.6   5E+02  0.0055    9.5   0.0    5    2-6      50-54  (106)
+
+No 1
+>2VPG_B PYGOPUS HOMOLOG 1, B-CELL CLL/LYMPHOMA; GENE REGULATION, WNT SIGNALING PATHWAY; HET: DA2, MLY; 1.6A {HOMO SAPIENS}
+Probab=8.99  E-value=3.3e+02  Score=9.90  Aligned_cols=5  Identities=80%  Similarity=1.065  Sum_probs=0.0  Template_Neff=3.400
+
+Q LAQVYV            2 AQVYV    6 (6)
+Q Consensus         2 aqvyv    6 (6)
+                      .|+||
+T Consensus         2 ~~i~V    6 (32)
+T 2VPG_B            2 AMVYV    6 (32)
+T ss_dssp             CCCEE
+T ss_pred             CeEEE
+
+
+No 2
+>6IPV_A CqsB2; Carquinostatin A biosynthesis, polyketide aromatase/cyclase; 2.2A {Streptomyces exfoliatus}
+Probab=8.35  E-value=3.7e+02  Score=12.54  Aligned_cols=6  Identities=83%  Similarity=1.005  Sum_probs=0.0  Template_Neff=5.700
+
+Q LAQVYV            1 LAQVYV    6 (6)
+Q Consensus         1 laqvyv    6 (6)
+                      |||-|+
+T Consensus        11 ~~~~~~   16 (239)
+T 6IPV_A           11 LAQNYV   16 (239)
+T ss_dssp             CGGGBC
+T ss_pred             ccccce
+
+
+No 3
+>6IPW_D CqsB2; Carbazole biosynthesis, polyketide aromatase/cyclase, BIOSYNTHETIC; HET: AO6; 2.1A {Streptomyces exfoliatus}
+Probab=8.35  E-value=3.7e+02  Score=12.54  Aligned_cols=6  Identities=83%  Similarity=1.005  Sum_probs=0.0  Template_Neff=5.700
+
+Q LAQVYV            1 LAQVYV    6 (6)
+Q Consensus         1 laqvyv    6 (6)
+                      |||-|+
+T Consensus        11 ~~~~~~   16 (239)
+T 6IPW_D           11 LAQNYV   16 (239)
+T ss_dssp             CGGGBC
+T ss_pred             ccccce
+
+
+No 4
+>1PA4_A Probable ribosome-binding factor A; Ribosome-binding Factor, Structural Genomics, Distant; NMR {Mycoplasma pneumoniae} SCOP: d.52.7.1
+Probab=7.75  E-value=4e+02  Score=9.94  Aligned_cols=5  Identities=40%  Similarity=0.873  Sum_probs=0.0  Template_Neff=8.400
+
+Q LAQVYV            2 AQVYV    6 (6)
+Q Consensus         2 aqvyv    6 (6)
+                      |.||+
+T Consensus        47 a~Vy~   51 (116)
+T 1PA4_A           47 VTVYL   51 (116)
+T ss_dssp             EEECC
+T ss_pred             EEEEE
+
+
+No 5
+>4K51_B Eukaryotic translation initiation factor 3; eIF3, PCI domain, translation initiation; 2.65A {Saccharomyces cerevisiae}
+Probab=7.42  E-value=4.3e+02  Score=11.87  Aligned_cols=5  Identities=20%  Similarity=0.401  Sum_probs=0.0  Template_Neff=6.500
+
+Q LAQVYV            1 LAQVY    5 (6)
+Q Consensus         1 laqvy    5 (6)
+                      ++|||
+T Consensus       166 lS~vY  170 (224)
+T 4K51_B          166 ASQKF  170 (224)
+T ss_dssp             HHTTC
+T ss_pred             HHhhc
+
+
+No 6
+>4K51_A Eukaryotic translation initiation factor 3; eIF3, PCI domain, translation initiation; 2.65A {Saccharomyces cerevisiae}
+Probab=7.39  E-value=4.3e+02  Score=11.87  Aligned_cols=5  Identities=20%  Similarity=0.401  Sum_probs=0.0  Template_Neff=6.500
+
+Q LAQVYV            1 LAQVY    5 (6)
+Q Consensus         1 laqvy    5 (6)
+                      ++|||
+T Consensus       166 lS~vY  170 (224)
+T 4K51_A          166 ASQKF  170 (224)
+T ss_pred             HHhhc
+
+
+No 7
+>1KKG_A ribosome-binding factor A; cold-shock adaptation, ribosome-binding factor, NESG; NMR {Escherichia coli} SCOP: d.52.7.1
+Probab=7.33  E-value=4.4e+02  Score=9.74  Aligned_cols=5  Identities=80%  Similarity=1.231  Sum_probs=0.0  Template_Neff=8.400
+
+Q LAQVYV            2 AQVYV    6 (6)
+Q Consensus         2 aqvyv    6 (6)
+                      |.||+
+T Consensus        50 a~Vy~   54 (108)
+T 1KKG_A           50 AKVYV   54 (108)
+T ss_dssp             EEEEE
+T ss_pred             EEEEE
+
+
+No 8
+>4YTK_A KOW1-Linker1 domain of Spt5; transcription, elongation, RNA processing, protein-DNA; 1.0904A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=7.08  E-value=4.6e+02  Score=10.37  Aligned_cols=5  Identities=60%  Similarity=0.401  Sum_probs=0.0  Template_Neff=7.600
+
+Q LAQVYV            1 LAQVY    5 (6)
+Q Consensus         1 laqvy    5 (6)
+                      ||||.
+T Consensus        18 lg~V~   22 (130)
+T 4YTK_A           18 LAMVD   22 (130)
+T ss_dssp             EEEEE
+T ss_pred             EEEEE
+
+
+No 9
+>1DP3_A DNA BINDING DOMAIN OF THE; helix-loop-helix, DNA BINDING PROTEIN; NMR {Escherichia coli} SCOP: a.55.1.2
+Probab=6.64  E-value=5e+02  Score=10.22  Aligned_cols=4  Identities=75%  Similarity=1.165  Sum_probs=0.0  Template_Neff=4.000
+
+Q LAQVYV            3 QVYV    6 (6)
+Q Consensus         3 qvyv    6 (6)
+                      |+|+
+T Consensus         4 ~iY~    7 (55)
+T 1DP3_A            4 QAYV    7 (55)
+T ss_dssp             SSCC
+T ss_pred             ccee
+
+
+No 10
+>2KZF_A Ribosome-binding factor A; JCSG, Joint Center Structural Genomics; NMR {Thermotoga maritima}
+Probab=6.61  E-value=5e+02  Score=9.55  Aligned_cols=5  Identities=80%  Similarity=1.192  Sum_probs=0.0  Template_Neff=8.400
+
+Q LAQVYV            2 AQVYV    6 (6)
+Q Consensus         2 aqvyv    6 (6)
+                      |.||+
+T Consensus        50 a~Vy~   54 (106)
+T 2KZF_A           50 ADVYV   54 (106)
+T ss_dssp             EEEEE
+T ss_pred             EEEEE
+
+

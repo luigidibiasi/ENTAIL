@@ -1,0 +1,157 @@
+Query         HGWLIM
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 06:18:36 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/HGWLIM/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/HGWLIM/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5O7G_A Alpha/beta hydrolase fa  55.6      10 0.00012   14.1   0.0    6    1-6      10-15  (345)
+  2 5JZH_A Aerolysin; pore forming  51.1      14 0.00015   17.7   0.0    6    1-6      52-57  (424)
+  3 3C0N_A Aerolysin; TOXIN, CYTOL  49.6      15 0.00017   17.9   0.0    6    1-6      52-57  (470)
+  4 3G4N_A TOXIN, CYTOLYTIC TOXIN,  49.5      15 0.00017   17.9   0.0    6    1-6      52-57  (470)
+  5 3A1C_A Probable copper-exporti  48.3      16 0.00018   14.3   0.0    6    1-6       5-10  (287)
+  6 3A1D_A Probable copper-exporti  48.3      16 0.00018   14.3   0.0    6    1-6       5-10  (287)
+  7 3A1C_B Probable copper-exporti  47.2      18 0.00019   14.2   0.0    6    1-6       5-10  (287)
+  8 5OKI_A DNA polymerase epsilon   19.6 1.1E+02  0.0012   14.3   0.0    4    2-5      77-80  (524)
+  9 7CCI_A AdeR; Acinetobacter Bau  19.0 1.1E+02  0.0012    9.7   0.0    4    1-4       1-4   (144)
+ 10 7CCI_B AdeR; Acinetobacter Bau  19.0 1.1E+02  0.0012    9.7   0.0    4    1-4       1-4   (144)
+
+No 1
+>5O7G_A Alpha/beta hydrolase family protein; carboxyl esterase, lipase, alpha/beta hydrolase; 1.9A {Bacillus coagulans DSM 1 = ATCC 7050}
+Probab=55.60  E-value=10  Score=14.15  Aligned_cols=6  Identities=50%  Similarity=0.717  Sum_probs=0.0  Template_Neff=12.000
+
+Q HGWLIM            1 HGWLIM    6 (6)
+Q Consensus         1 hgwlim    6 (6)
+                      |||.+|
+T Consensus        10 ~~~~~~   15 (345)
+T 5O7G_A           10 HGMASM   15 (345)
+T ss_dssp             ------
+T ss_pred             cccccc
+Confidence            577654
+
+
+No 2
+>5JZH_A Aerolysin; pore forming toxin, concentric beta-barrel; 3.9A {Aeromonas hydrophila}
+Probab=51.12  E-value=14  Score=17.72  Aligned_cols=6  Identities=67%  Similarity=1.780  Sum_probs=4.5  Template_Neff=6.300
+
+Q HGWLIM            1 HGWLIM    6 (6)
+Q Consensus         1 hgwlim    6 (6)
+                      .||.||
+T Consensus        52 ~~~~i~   57 (424)
+T 5JZH_A           52 NGWVIM   57 (424)
+T ss_dssp             TTEEEE
+T ss_pred             CCEEEE
+Confidence            378887
+
+
+No 3
+>3C0N_A Aerolysin; TOXIN, CYTOLYTIC TOXIN, PORE-FORMING TOXIN; 2.2A {Aeromonas hydrophila} SCOP: d.169.1.2, f.8.1.1
+Probab=49.63  E-value=15  Score=17.93  Aligned_cols=6  Identities=67%  Similarity=1.780  Sum_probs=4.5  Template_Neff=6.100
+
+Q HGWLIM            1 HGWLIM    6 (6)
+Q Consensus         1 hgwlim    6 (6)
+                      .||.||
+T Consensus        52 ~~~vim   57 (470)
+T 3C0N_A           52 NGWVIM   57 (470)
+T ss_dssp             TTEEEE
+T ss_pred             CCEEEE
+Confidence            378887
+
+
+No 4
+>3G4N_A TOXIN, CYTOLYTIC TOXIN, PORE-FORMING TOXIN; 2.1A {Aeromonas hydrophila}
+Probab=49.54  E-value=15  Score=17.92  Aligned_cols=6  Identities=67%  Similarity=1.780  Sum_probs=4.5  Template_Neff=6.100
+
+Q HGWLIM            1 HGWLIM    6 (6)
+Q Consensus         1 hgwlim    6 (6)
+                      .||.||
+T Consensus        52 ~~~vim   57 (470)
+T 3G4N_A           52 NGWVIM   57 (470)
+T ss_dssp             TTEEEE
+T ss_pred             CCEEEE
+Confidence            378887
+
+
+No 5
+>3A1C_A Probable copper-exporting P-type ATPase A; P-type ATPase, ATP-binding, Cell membrane; HET: ACP; 1.85A {Archaeoglobus fulgidus}
+Probab=48.28  E-value=16  Score=14.27  Aligned_cols=6  Identities=17%  Similarity=-0.219  Sum_probs=0.0  Template_Neff=10.400
+
+Q HGWLIM            1 HGWLIM    6 (6)
+Q Consensus         1 hgwlim    6 (6)
+                      |||.+|
+T Consensus         5 ~~~~~~   10 (287)
+T 3A1C_A            5 HHHHGS   10 (287)
+T ss_dssp             ------
+T ss_pred             cccchH
+Confidence            577654
+
+
+No 6
+>3A1D_A Probable copper-exporting P-type ATPase A; P-type ATPase, HYDROLASE; HET: ADP; 1.85A {Archaeoglobus fulgidus}
+Probab=48.28  E-value=16  Score=14.27  Aligned_cols=6  Identities=17%  Similarity=-0.219  Sum_probs=0.0  Template_Neff=10.400
+
+Q HGWLIM            1 HGWLIM    6 (6)
+Q Consensus         1 hgwlim    6 (6)
+                      |||.+|
+T Consensus         5 ~~~~~~   10 (287)
+T 3A1D_A            5 HHHHGS   10 (287)
+T ss_dssp             ------
+T ss_pred             cccchH
+Confidence            577654
+
+
+No 7
+>3A1C_B Probable copper-exporting P-type ATPase A; P-type ATPase, ATP-binding, Cell membrane; HET: ACP; 1.85A {Archaeoglobus fulgidus}
+Probab=47.18  E-value=18  Score=14.20  Aligned_cols=6  Identities=17%  Similarity=-0.219  Sum_probs=0.0  Template_Neff=10.400
+
+Q HGWLIM            1 HGWLIM    6 (6)
+Q Consensus         1 hgwlim    6 (6)
+                      |||.+|
+T Consensus         5 ~~~~~~   10 (287)
+T 3A1C_B            5 HHHHGS   10 (287)
+T ss_dssp             ------
+T ss_pred             cchhHH
+Confidence            567654
+
+
+No 8
+>5OKI_A DNA polymerase epsilon catalytic subunit; Clamp loader DNA-binding protein DNA; 4.5A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=19.58  E-value=1.1e+02  Score=14.26  Aligned_cols=4  Identities=75%  Similarity=2.013  Sum_probs=0.0  Template_Neff=8.500
+
+Q HGWLIM            2 GWLI    5 (6)
+Q Consensus         2 gwli    5 (6)
+                      |||+
+T Consensus        77 g~l~   80 (524)
+T 5OKI_A           77 GWLT   80 (524)
+T ss_dssp             EEEE
+T ss_pred             EEEE
+
+
+No 9
+>7CCI_A AdeR; Acinetobacter Baumannii, Response regulator, AdeR; 1.65A {Acinetobacter baumannii}
+Probab=18.96  E-value=1.1e+02  Score=9.69  Aligned_cols=4  Identities=25%  Similarity=0.219  Sum_probs=0.0  Template_Neff=12.400
+
+Q HGWLIM            1 HGWL    4 (6)
+Q Consensus         1 hgwl    4 (6)
+                      |||+
+T Consensus         1 ~~~~    4 (144)
+T 7CCI_A            1 MGHH    4 (144)
+T ss_dssp             ----
+T ss_pred             CCCC
+
+
+No 10
+>7CCI_B AdeR; Acinetobacter Baumannii, Response regulator, AdeR; 1.65A {Acinetobacter baumannii}
+Probab=18.96  E-value=1.1e+02  Score=9.69  Aligned_cols=4  Identities=25%  Similarity=0.219  Sum_probs=0.0  Template_Neff=12.400
+
+Q HGWLIM            1 HGWL    4 (6)
+Q Consensus         1 hgwl    4 (6)
+                      |||+
+T Consensus         1 ~~~~    4 (144)
+T 7CCI_B            1 MGHH    4 (144)
+T ss_dssp             ----
+T ss_pred             CCCC
+
+

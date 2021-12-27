@@ -1,0 +1,147 @@
+Query         GGNHGG
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 00:34:58 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GGNHGG/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GGNHGG/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4V3P_SE 40S WHEAT GERM RIBOSOM  25.2      69 0.00076   14.9   0.0    6    1-6       5-10  (263)
+  2 4V7E_BC Ribosome; eukaryotic r  25.2      69 0.00076   14.9   0.0    6    1-6       5-10  (263)
+  3 6HIY_CU Uncharacterized protei  20.0   1E+02  0.0011   15.1   0.0    5    2-6      30-34  (193)
+  4 3G8R_B Probable spore coat pol  19.6 1.1E+02  0.0012   14.2   0.0    6    1-6      13-18  (350)
+  5 2MXE_A MvaT; TRANSCRIPTION REG  19.5 1.1E+02  0.0012   12.5   0.0    4    1-4      23-26  (55)
+  6 4YEC_A Clostripain family, Pep  18.9 1.1E+02  0.0012   12.0   0.0    5    2-6     110-114 (126)
+  7 6ADQ_D Transmembrane cytochrom  18.4 1.2E+02  0.0013   13.2   0.0    5    2-6      65-69  (100)
+  8 7E1V_D Mycobacterium smegmatis  18.4 1.2E+02  0.0013   13.2   0.0    5    2-6      65-69  (100)
+  9 3G8R_A Probable spore coat pol  18.2 1.2E+02  0.0013   14.1   0.0    6    1-6      13-18  (350)
+ 10 5B49_A UDP-2,3-diacylglucosami  17.0 1.3E+02  0.0015   11.1   0.0    3    2-4      78-80  (248)
+
+No 1
+>4V3P_SE 40S WHEAT GERM RIBOSOME1/RNA Complex; RIBOSOME; 34.0A {Triticum aestivum}
+Probab=25.23  E-value=69  Score=14.92  Aligned_cols=6  Identities=67%  Similarity=1.548  Sum_probs=2.7  Template_Neff=5.700
+
+Q GGNHGG            1 GGNHGG    6 (6)
+Q Consensus         1 ggnhgg    6 (6)
+                      ||||||
+T Consensus         5 ~~~~~~   10 (263)
+T 4V3P_SE           5 GGERGG   10 (263)
+T ss_pred             cccCCC
+Confidence            345543
+
+
+No 2
+>4V7E_BC Ribosome; eukaryotic ribosome, homology modeling, de; 5.5A {Triticum aestivum}
+Probab=25.23  E-value=69  Score=14.92  Aligned_cols=6  Identities=67%  Similarity=1.548  Sum_probs=2.7  Template_Neff=5.700
+
+Q GGNHGG            1 GGNHGG    6 (6)
+Q Consensus         1 ggnhgg    6 (6)
+                      ||||||
+T Consensus         5 ~~~~~~   10 (263)
+T 4V7E_BC           5 GGERGG   10 (263)
+T ss_pred             cccCCC
+Confidence            345543
+
+
+No 3
+>6HIY_CU Uncharacterized protein, mS74, 30S ribosomal; mitoribosome, translation, Trypanosoma, small ribosomal; HET: SPM, SPD, MG; 3.27A {Trypanosoma brucei brucei}
+Probab=20.00  E-value=1e+02  Score=15.12  Aligned_cols=5  Identities=80%  Similarity=1.697  Sum_probs=0.0  Template_Neff=2.000
+
+Q GGNHGG            2 GNHGG    6 (6)
+Q Consensus         2 gnhgg    6 (6)
+                      |+|||
+T Consensus        30 Ga~Gg   34 (193)
+T 6HIY_CU          30 GAHGG   34 (193)
+T ss_pred             ccccc
+
+
+No 4
+>3G8R_B Probable spore coat polysaccharide biosynthesis; STRUCTURAL GENOMICS, PROTEIN STRUCTURE INITIATIVE; HET: MSE; 2.49A {Chromobacterium violaceum ATCC 12472}
+Probab=19.64  E-value=1.1e+02  Score=14.17  Aligned_cols=6  Identities=50%  Similarity=0.767  Sum_probs=0.0  Template_Neff=7.200
+
+Q GGNHGG            1 GGNHGG    6 (6)
+Q Consensus         1 ggnhgg    6 (6)
+                      |.||.|
+T Consensus        13 g~nH~G   18 (350)
+T 3G8R_B           13 ANNHMG   18 (350)
+T ss_dssp             TTTTTT
+T ss_pred             CCCcCC
+
+
+No 5
+>2MXE_A MvaT; TRANSCRIPTION REGULATOR; NMR {Pseudomonas aeruginosa PAO1}
+Probab=19.54  E-value=1.1e+02  Score=12.48  Aligned_cols=4  Identities=100%  Similarity=1.913  Sum_probs=0.0  Template_Neff=2.700
+
+Q GGNHGG            1 GGNH    4 (6)
+Q Consensus         1 ggnh    4 (6)
+                      ||||
+T Consensus        23 GGNH   26 (55)
+T 2MXE_A           23 GGNH   26 (55)
+T ss_dssp             SSCC
+T ss_pred             CCCh
+
+
+No 6
+>4YEC_A Clostripain family, Peptide inhibitor Ac-VLTK-AOMK; clostripain, microbiome, secreted protease, inhibitor; HET: CKC; 1.12A {Parabacteroides merdae ATCC 43184}
+Probab=18.94  E-value=1.1e+02  Score=11.97  Aligned_cols=5  Identities=40%  Similarity=0.561  Sum_probs=0.0  Template_Neff=7.600
+
+Q GGNHGG            2 GNHGG    6 (6)
+Q Consensus         2 gnhgg    6 (6)
+                      .+||+
+T Consensus       110 w~HG~  114 (126)
+T 4YEC_A          110 WSHGT  114 (126)
+T ss_dssp             ESCBC
+T ss_pred             EeCCC
+
+
+No 7
+>6ADQ_D Transmembrane cytochrome C oxidase subunit; Respiratory, Supercomplex, SOD, Mycobacterium, ETC; HET: CDL, PLM, MQ9, HEM, 9YF, HEC, HEA, 9Y0, 9XX; 3.5A {Mycobacterium smegmatis MC2 51}
+Probab=18.40  E-value=1.2e+02  Score=13.24  Aligned_cols=5  Identities=80%  Similarity=1.312  Sum_probs=0.0  Template_Neff=3.600
+
+Q GGNHGG            2 GNHGG    6 (6)
+Q Consensus         2 gnhgg    6 (6)
+                      |||-|
+T Consensus        65 GNH~G   69 (100)
+T 6ADQ_D           65 GNHVG   69 (100)
+T ss_pred             cCCcc
+
+
+No 8
+>7E1V_D Mycobacterium smegmatis, mycobacterium tuberculosis, complexIII; HET: PLM, 9Y0, HEA, HEM, HEC, MQ9, 9YF, CDL; 2.68A {Mycobacterium smegmatis MC2 51}
+Probab=18.40  E-value=1.2e+02  Score=13.24  Aligned_cols=5  Identities=80%  Similarity=1.312  Sum_probs=0.0  Template_Neff=3.600
+
+Q GGNHGG            2 GNHGG    6 (6)
+Q Consensus         2 gnhgg    6 (6)
+                      |||-|
+T Consensus        65 GNH~G   69 (100)
+T 7E1V_D           65 GNHVG   69 (100)
+T ss_pred             cCCcc
+
+
+No 9
+>3G8R_A Probable spore coat polysaccharide biosynthesis; STRUCTURAL GENOMICS, PROTEIN STRUCTURE INITIATIVE; 2.49A {Chromobacterium violaceum ATCC 12472}
+Probab=18.17  E-value=1.2e+02  Score=14.06  Aligned_cols=6  Identities=50%  Similarity=0.767  Sum_probs=0.0  Template_Neff=7.100
+
+Q GGNHGG            1 GGNHGG    6 (6)
+Q Consensus         1 ggnhgg    6 (6)
+                      |.||.|
+T Consensus        13 g~nH~G   18 (350)
+T 3G8R_A           13 ANNHMG   18 (350)
+T ss_dssp             TTTTTT
+T ss_pred             ccccCC
+
+
+No 10
+>5B49_A UDP-2,3-diacylglucosamine hydrolase (E.C.3.6.1.54); LpxH, Lipid A, Lipid X; HET: GOL, LP5; 1.65A {Pseudomonas aeruginosa PAO1}
+Probab=17.03  E-value=1.3e+02  Score=11.11  Aligned_cols=3  Identities=67%  Similarity=1.221  Sum_probs=0.0  Template_Neff=11.300
+
+Q GGNHGG            2 GNH    4 (6)
+Q Consensus         2 gnh    4 (6)
+                      |||
+T Consensus        78 GNH   80 (248)
+T 5B49_A           78 GNR   80 (248)
+T ss_dssp             CTT
+T ss_pred             CCc
+
+

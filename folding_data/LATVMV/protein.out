@@ -1,0 +1,146 @@
+Query         LATVMV
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 15:47:51 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LATVMV/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LATVMV/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3C01_B Surface presentation of   4.7 7.8E+02  0.0086    9.0   0.0    5    2-6      42-46  (48)
+  2 3C01_D Surface presentation of   4.4 8.4E+02  0.0093    8.9   0.0    5    2-6      42-46  (48)
+  3 2I5I_B UPF0249 protein EF_3048   4.3 8.5E+02  0.0094   10.5   0.0    5    2-6      36-40  (263)
+  4 6EJP_A Yop proteins translocat   4.3 8.6E+02  0.0096    9.2   0.0    5    2-6      52-56  (58)
+  5 3BZL_B EscU; Auto cleavage pro   4.3 8.7E+02  0.0096    9.3   0.0    5    2-6      48-52  (54)
+  6 3BZY_A EscU; Auto cleavage pro   4.3 8.7E+02  0.0096    9.3   0.0    5    2-6      48-52  (54)
+  7 1IAP_A GUANINE NUCLEOTIDE EXCH   4.1 9.3E+02    0.01   10.5   0.0    5    1-5     181-185 (211)
+  8 3B1S_A Flagellar biosynthetic    4.0 9.5E+02   0.011    9.0   0.0    5    2-6      46-50  (52)
+  9 3CX7_B Guanine Nucleotide-Bind   3.9 9.7E+02   0.011   10.2   0.0    5    1-5     188-192 (203)
+ 10 3B0Z_A Flagellar biosynthetic    3.8   1E+03   0.011    9.0   0.0    5    2-6      46-50  (52)
+
+No 1
+>3C01_B Surface presentation of antigens protein; Auto cleavage protein, flagella, EscU; HET: CYS, SO4; 2.6A {Salmonella typhimurium}
+Probab=4.65  E-value=7.8e+02  Score=9.02  Aligned_cols=5  Identities=20%  Similarity=0.574  Sum_probs=0.0  Template_Neff=5.200
+
+Q LATVMV            2 ATVMV    6 (6)
+Q Consensus         2 atvmv    6 (6)
+                      |+|+|
+T Consensus        42 A~vvi   46 (48)
+T 3C01_B           42 SRLIV   46 (48)
+T ss_pred             CCeee
+
+
+No 2
+>3C01_D Surface presentation of antigens protein; Auto cleavage protein, flagella, EscU; HET: CYS, SO4; 2.6A {Salmonella typhimurium}
+Probab=4.39  E-value=8.4e+02  Score=8.93  Aligned_cols=5  Identities=20%  Similarity=0.574  Sum_probs=0.0  Template_Neff=5.200
+
+Q LATVMV            2 ATVMV    6 (6)
+Q Consensus         2 atvmv    6 (6)
+                      |+|+|
+T Consensus        42 A~vvi   46 (48)
+T 3C01_D           42 SRLIV   46 (48)
+T ss_pred             CCeee
+
+
+No 3
+>2I5I_B UPF0249 protein EF_3048; PUTATIVE CELLOBIOSE-PHOSPHATE CLEAVAGE PROTEIN, STRUCTURAL; HET: MSE; 1.7A {Enterococcus faecalis} SCOP: c.6.2.8
+Probab=4.34  E-value=8.5e+02  Score=10.53  Aligned_cols=5  Identities=20%  Similarity=0.282  Sum_probs=0.0  Template_Neff=8.200
+
+Q LATVMV            2 ATVMV    6 (6)
+Q Consensus         2 atvmv    6 (6)
+                      +++||
+T Consensus        36 ~Slmv   40 (263)
+T 2I5I_B           36 TTALP   40 (263)
+T ss_dssp             EEECT
+T ss_pred             EEECC
+
+
+No 4
+>6EJP_A Yop proteins translocation protein U; AUTOCLEAVAGE, TYPE III SECRETION SYSTEM; HET: B8E, PO4; 2.48A {Yersinia pestis}
+Probab=4.29  E-value=8.6e+02  Score=9.23  Aligned_cols=5  Identities=40%  Similarity=0.733  Sum_probs=0.0  Template_Neff=5.200
+
+Q LATVMV            2 ATVMV    6 (6)
+Q Consensus         2 atvmv    6 (6)
+                      |+|.|
+T Consensus        52 A~vVi   56 (58)
+T 6EJP_A           52 SSVVV   56 (58)
+T ss_dssp             CSEEE
+T ss_pred             CCeEe
+
+
+No 5
+>3BZL_B EscU; Auto cleavage protein, Intein, T3SS; 1.71A {Escherichia coli}
+Probab=4.28  E-value=8.7e+02  Score=9.28  Aligned_cols=5  Identities=60%  Similarity=0.860  Sum_probs=0.0  Template_Neff=4.700
+
+Q LATVMV            2 ATVMV    6 (6)
+Q Consensus         2 atvmv    6 (6)
+                      |+|+|
+T Consensus        48 A~vVI   52 (54)
+T 3BZL_B           48 STVIV   52 (54)
+T ss_pred             CCEEe
+
+
+No 6
+>3BZY_A EscU; Auto cleavage protein, flagella, Intein; 1.2A {Escherichia coli} SCOP: d.367.1.1
+Probab=4.28  E-value=8.7e+02  Score=9.28  Aligned_cols=5  Identities=60%  Similarity=0.860  Sum_probs=0.0  Template_Neff=4.700
+
+Q LATVMV            2 ATVMV    6 (6)
+Q Consensus         2 atvmv    6 (6)
+                      |+|+|
+T Consensus        48 A~vVI   52 (54)
+T 3BZY_A           48 STVIV   52 (54)
+T ss_pred             CCEEe
+
+
+No 7
+>1IAP_A GUANINE NUCLEOTIDE EXCHANGE FACTOR P115RHOGEF; p115, RhoGEF, RGS, RGRGS, signaling; 1.9A {Homo sapiens} SCOP: a.91.1.1
+Probab=4.05  E-value=9.3e+02  Score=10.45  Aligned_cols=5  Identities=20%  Similarity=0.348  Sum_probs=0.0  Template_Neff=7.300
+
+Q LATVMV            1 LATVM    5 (6)
+Q Consensus         1 latvm    5 (6)
+                      |+|+|
+T Consensus       181 ~~t~~  185 (211)
+T 1IAP_A          181 IGLYM  185 (211)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 8
+>3B1S_A Flagellar biosynthetic protein flhB; flagella, type III secretion system; 2.55A {Aquifex aeolicus}
+Probab=3.97  E-value=9.5e+02  Score=9.00  Aligned_cols=5  Identities=60%  Similarity=0.866  Sum_probs=0.0  Template_Neff=5.000
+
+Q LATVMV            2 ATVMV    6 (6)
+Q Consensus         2 atvmv    6 (6)
+                      |+|+|
+T Consensus        46 A~vvi   50 (52)
+T 3B1S_A           46 ATVVI   50 (52)
+T ss_dssp             CSEEE
+T ss_pred             CCeEe
+
+
+No 9
+>3CX7_B Guanine Nucleotide-Binding Protein Galpha 13; SIGNAL TRANSDUCTION, PROTEIN COMPLEX, SIGNALING; HET: GDP; 2.25A {Mus musculus}
+Probab=3.91  E-value=9.7e+02  Score=10.24  Aligned_cols=5  Identities=40%  Similarity=0.561  Sum_probs=0.0  Template_Neff=7.500
+
+Q LATVMV            1 LATVM    5 (6)
+Q Consensus         1 latvm    5 (6)
+                      |+|+|
+T Consensus       188 ~~~~~  192 (203)
+T 3CX7_B          188 VNTFM  192 (203)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 10
+>3B0Z_A Flagellar biosynthetic protein flhB; flagella, type III secretion system; 2.45A {Salmonella enterica subsp. enterica serovar Typhimurium}
+Probab=3.83  E-value=1e+03  Score=8.95  Aligned_cols=5  Identities=60%  Similarity=0.780  Sum_probs=0.0  Template_Neff=5.000
+
+Q LATVMV            2 ATVMV    6 (6)
+Q Consensus         2 atvmv    6 (6)
+                      |+|+|
+T Consensus        46 A~vvI   50 (52)
+T 3B0Z_A           46 ADVIV   50 (52)
+T ss_dssp             CSEEE
+T ss_pred             CCEEe
+
+

@@ -1,0 +1,148 @@
+Query         GKQGYQ
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 01:31:13 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GKQGYQ/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GKQGYQ/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6NYB_A Serine/threonine-protei  40.3      27 0.00029   17.3   0.0    6    1-6     213-218 (805)
+  2 6B25_A SH3 and cysteine-rich d  14.4 1.7E+02  0.0019    9.1   0.0    5    1-5     105-109 (118)
+  3 5H1N_A UPF0253 protein YaeP; S  14.3 1.7E+02  0.0019   12.6   0.0    5    1-5      18-22  (74)
+  4 3BRQ_B HTH-type transcriptiona  13.9 1.8E+02   0.002   10.7   0.0    6    1-6       1-6   (296)
+  5 2PQR_C Mitochondria fission 1   12.9   2E+02  0.0022   11.1   0.0    4    3-6      52-55  (64)
+  6 2PQR_D Mitochondria fission 1   12.9   2E+02  0.0022   11.1   0.0    4    3-6      52-55  (64)
+  7 3BGH_A Putative neuraminyllact  12.2 2.2E+02  0.0024   13.5   0.0    5    2-6      74-78  (236)
+  8 3MKB_B Hemoglobin subunit alph  11.4 2.4E+02  0.0026    9.7   0.0    5    2-6     132-136 (136)
+  9 2I9I_A Hypothetical protein; P  10.8 2.6E+02  0.0028   13.5   0.0    5    2-6      83-87  (254)
+ 10 1HBH_B HEMOGLOBIN (DEOXY); OXY  10.8 2.6E+02  0.0028    9.8   0.0    5    2-6     142-146 (146)
+
+No 1
+>6NYB_A Serine/threonine-protein kinase B-raf (E.C.2.7.11.1), Dual; TRANSFERASE; HET: ADP, SEP, LCJ, AGS;{Spodoptera exigua}
+Probab=40.25  E-value=27  Score=17.33  Aligned_cols=6  Identities=17%  Similarity=0.074  Sum_probs=0.0  Template_Neff=7.800
+
+Q GKQGYQ            1 GKQGYQ    6 (6)
+Q Consensus         1 gkqgyq    6 (6)
+                      ||||||
+T Consensus       213 ~k~~~~  218 (805)
+T 6NYB_A          213 MMRGLI  218 (805)
+T ss_dssp             ------
+T ss_pred             hhcCcc
+Confidence            577876
+
+
+No 2
+>6B25_A SH3 and cysteine-rich domain-containing protein; Excitation-contraction coupling, ion channel adaptor; HET: EPE; 2.39A {Homo sapiens}
+Probab=14.37  E-value=1.7e+02  Score=9.11  Aligned_cols=5  Identities=40%  Similarity=0.680  Sum_probs=0.0  Template_Neff=12.000
+
+Q GKQGYQ            1 GKQGY    5 (6)
+Q Consensus         1 gkqgy    5 (6)
+                      |+.|+
+T Consensus       105 g~~G~  109 (118)
+T 6B25_A          105 KKKGL  109 (118)
+T ss_pred             CeEEE
+
+
+No 3
+>5H1N_A UPF0253 protein YaeP; SF173, hypothetical protein, UNKNOWN FUNCTION; HET: MSE; 1.47A {Shigella flexneri}
+Probab=14.29  E-value=1.7e+02  Score=12.58  Aligned_cols=5  Identities=60%  Similarity=1.325  Sum_probs=0.0  Template_Neff=2.200
+
+Q GKQGYQ            1 GKQGY    5 (6)
+Q Consensus         1 gkqgy    5 (6)
+                      |.|||
+T Consensus        18 Gd~GY   22 (74)
+T 5H1N_A           18 GDLGY   22 (74)
+T ss_dssp             TSSCC
+T ss_pred             CCccc
+
+
+No 4
+>3BRQ_B HTH-type transcriptional regulator ascG; transcriptional repressor structure Escherichia coli; HET: SO4, FRU; 2.0A {Escherichia coli}
+Probab=13.89  E-value=1.8e+02  Score=10.67  Aligned_cols=6  Identities=50%  Similarity=1.293  Sum_probs=0.0  Template_Neff=12.100
+
+Q GKQGYQ            1 GKQGYQ    6 (6)
+Q Consensus         1 gkqgyq    6 (6)
+                      |+-||+
+T Consensus         1 ~~lgY~    6 (296)
+T 3BRQ_B            1 GHSGYR    6 (296)
+T ss_dssp             ------
+T ss_pred             CCCCCC
+
+
+No 5
+>2PQR_C Mitochondria fission 1 protein, WD; TPR domain, protein-protein complex, APOPTOSIS; 1.88A {Saccharomyces cerevisiae}
+Probab=12.93  E-value=2e+02  Score=11.11  Aligned_cols=4  Identities=25%  Similarity=1.240  Sum_probs=0.0  Template_Neff=5.200
+
+Q GKQGYQ            3 QGYQ    6 (6)
+Q Consensus         3 qgyq    6 (6)
+                      ||+|
+T Consensus        52 QGF~   55 (64)
+T 2PQR_C           52 EGFK   55 (64)
+T ss_dssp             HHHH
+T ss_pred             HHHe
+
+
+No 6
+>2PQR_D Mitochondria fission 1 protein, WD; TPR domain, protein-protein complex, APOPTOSIS; 1.88A {Saccharomyces cerevisiae}
+Probab=12.86  E-value=2e+02  Score=11.10  Aligned_cols=4  Identities=25%  Similarity=1.240  Sum_probs=0.0  Template_Neff=5.200
+
+Q GKQGYQ            3 QGYQ    6 (6)
+Q Consensus         3 qgyq    6 (6)
+                      ||+|
+T Consensus        52 QGF~   55 (64)
+T 2PQR_D           52 EGFK   55 (64)
+T ss_pred             HHHe
+
+
+No 7
+>3BGH_A Putative neuraminyllactose-binding hemagglutinin homolog; STRUCTURAL GENOMICS, UNKNOWN FUNCTION, PSI-2; HET: SO4; 2.45A {Helicobacter pylori}
+Probab=12.21  E-value=2.2e+02  Score=13.51  Aligned_cols=5  Identities=40%  Similarity=1.251  Sum_probs=0.0  Template_Neff=5.000
+
+Q GKQGYQ            2 KQGYQ    6 (6)
+Q Consensus         2 kqgyq    6 (6)
+                      ++||+
+T Consensus        74 kkGY~   78 (236)
+T 3BGH_A           74 RKGYS   78 (236)
+T ss_dssp             TTTCE
+T ss_pred             hcCCe
+
+
+No 8
+>3MKB_B Hemoglobin subunit alpha, Hemoglobin subunit; Hemoglobin, Oxygen Affinity, Isurus oxyrinchus; HET: HEM; 1.9A {Isurus oxyrinchus}
+Probab=11.41  E-value=2.4e+02  Score=9.70  Aligned_cols=5  Identities=20%  Similarity=0.554  Sum_probs=0.0  Template_Neff=10.700
+
+Q GKQGYQ            2 KQGYQ    6 (6)
+Q Consensus         2 kqgyq    6 (6)
+                      +.|||
+T Consensus       132 ~~~~~  136 (136)
+T 3MKB_B          132 SSQYH  136 (136)
+T ss_pred             HHhhC
+
+
+No 9
+>2I9I_A Hypothetical protein; PSI-2 Structural Genomics, Protein Structure; 1.8A {Helicobacter pylori} SCOP: c.51.6.1
+Probab=10.84  E-value=2.6e+02  Score=13.54  Aligned_cols=5  Identities=80%  Similarity=1.451  Sum_probs=0.0  Template_Neff=4.700
+
+Q GKQGYQ            2 KQGYQ    6 (6)
+Q Consensus         2 kqgyq    6 (6)
+                      ++||+
+T Consensus        83 kkGY~   87 (254)
+T 2I9I_A           83 KRGYQ   87 (254)
+T ss_dssp             HTTCE
+T ss_pred             hCCCe
+
+
+No 10
+>1HBH_B HEMOGLOBIN (DEOXY); OXYGEN CARRIER; HET: HEM; 2.2A {Trematomus bernacchii} SCOP: a.1.1.2
+Probab=10.80  E-value=2.6e+02  Score=9.79  Aligned_cols=5  Identities=20%  Similarity=0.561  Sum_probs=0.0  Template_Neff=10.600
+
+Q GKQGYQ            2 KQGYQ    6 (6)
+Q Consensus         2 kqgyq    6 (6)
+                      ++||+
+T Consensus       142 ~~g~~  146 (146)
+T 1HBH_B          142 GKQYH  146 (146)
+T ss_dssp             HTTCC
+T ss_pred             HhhcC
+
+

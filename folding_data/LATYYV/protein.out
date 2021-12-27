@@ -1,0 +1,152 @@
+Query         LATYYV
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 17:21:42 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LATYYV/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LATYYV/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 7EMF_F Mediator of RNA polymer  22.2      86 0.00095   14.7   0.0    6    1-6      95-100 (246)
+  2 7ENC_f Mediator of RNA polymer  22.2      86 0.00095   14.7   0.0    6    1-6      95-100 (246)
+  3 5N9J_S Mediator of RNA polymer  21.6      90   0.001   14.3   0.0    6    1-6     105-110 (216)
+  4 6XP5_F Mediator of RNA polymer  19.4 1.1E+02  0.0012   15.1   0.0    6    1-6     123-128 (337)
+  5 4GWP_G Mediator of RNA polymer  17.6 1.3E+02  0.0014   14.7   0.0    6    1-6     150-155 (295)
+  6 4GWQ_G Mediator of RNA polymer  17.6 1.3E+02  0.0014   14.7   0.0    6    1-6     150-155 (295)
+  7 4AVR_B PA4485; UNKNOWN FUNCTIO  11.2 2.4E+02  0.0027    9.8   0.0    4    2-5       6-9   (95)
+  8 5SV5_A Adenosylhomocysteinase   10.2 2.8E+02  0.0031    9.3   0.0    4    3-6      85-88  (105)
+  9 5OLR_C Rhamnogalacturonan lyas   9.8 2.9E+02  0.0033   12.2   0.0    5    2-6       3-7   (522)
+ 10 3WKN_L Ig gamma-1 chain C regi   8.5 3.6E+02  0.0039   11.2   0.0    4    2-5      34-37  (54)
+
+No 1
+>7EMF_F Mediator of RNA polymerase II; Mediator complex, TRANSCRIPTION; 3.5A {Homo sapiens}
+Probab=22.17  E-value=86  Score=14.72  Aligned_cols=6  Identities=67%  Similarity=1.392  Sum_probs=3.1  Template_Neff=5.200
+
+Q LATYYV            1 LATYYV    6 (6)
+Q Consensus         1 latyyv    6 (6)
+                      ++.|||
+T Consensus        95 la~YYI  100 (246)
+T 7EMF_F           95 LADYYI  100 (246)
+T ss_pred             eeeEEE
+Confidence            355654
+
+
+No 2
+>7ENC_f Mediator of RNA polymerase II; mediator, preinitiation complex, transcription initiation; HET: ZN; 4.13A {Sus scrofa}
+Probab=22.17  E-value=86  Score=14.72  Aligned_cols=6  Identities=67%  Similarity=1.392  Sum_probs=3.1  Template_Neff=5.200
+
+Q LATYYV            1 LATYYV    6 (6)
+Q Consensus         1 latyyv    6 (6)
+                      ++.|||
+T Consensus        95 la~YYI  100 (246)
+T 7ENC_f           95 LADYYI  100 (246)
+T ss_pred             eeeEEE
+Confidence            355654
+
+
+No 3
+>5N9J_S Mediator of RNA polymerase II; Transcription, RNA polymerase II; 3.4A {Schizosaccharomyces pombe}
+Probab=21.58  E-value=90  Score=14.32  Aligned_cols=6  Identities=50%  Similarity=1.159  Sum_probs=3.0  Template_Neff=5.400
+
+Q LATYYV            1 LATYYV    6 (6)
+Q Consensus         1 latyyv    6 (6)
+                      |+.|||
+T Consensus       105 la~YYI  110 (216)
+T 5N9J_S          105 LTVYFV  110 (216)
+T ss_pred             eeeEEE
+Confidence            345554
+
+
+No 4
+>6XP5_F Mediator of RNA polymerase II; Transcription;{Chaetomium thermophilum (strain DSM 1495 / CBS 144.50 / IMI 039719)}
+Probab=19.39  E-value=1.1e+02  Score=15.07  Aligned_cols=6  Identities=33%  Similarity=0.877  Sum_probs=3.3  Template_Neff=5.100
+
+Q LATYYV            1 LATYYV    6 (6)
+Q Consensus         1 latyyv    6 (6)
+                      |++|||
+T Consensus       123 la~YYI  128 (337)
+T 6XP5_F          123 HGTYFL  128 (337)
+T ss_pred             ceeEEE
+Confidence            356664
+
+
+No 5
+>4GWP_G Mediator of RNA polymerase II; Binding Sites, Mediator Complex, Models; 4.2A {Saccharomyces cerevisiae}
+Probab=17.60  E-value=1.3e+02  Score=14.70  Aligned_cols=6  Identities=50%  Similarity=1.248  Sum_probs=3.1  Template_Neff=4.900
+
+Q LATYYV            1 LATYYV    6 (6)
+Q Consensus         1 latyyv    6 (6)
+                      |+.|||
+T Consensus       150 La~YYI  155 (295)
+T 4GWP_G          150 LQDYYI  155 (295)
+T ss_dssp             EEEEEE
+T ss_pred             ceeEEE
+Confidence            355664
+
+
+No 6
+>4GWQ_G Mediator of RNA polymerase II; Binding Sites, Mediator Complex, Models; 4.5A {Saccharomyces cerevisiae}
+Probab=17.60  E-value=1.3e+02  Score=14.70  Aligned_cols=6  Identities=50%  Similarity=1.248  Sum_probs=3.1  Template_Neff=4.900
+
+Q LATYYV            1 LATYYV    6 (6)
+Q Consensus         1 latyyv    6 (6)
+                      |+.|||
+T Consensus       150 La~YYI  155 (295)
+T 4GWQ_G          150 LQDYYI  155 (295)
+T ss_dssp             EEEEEE
+T ss_pred             ceeEEE
+Confidence            355664
+
+
+No 7
+>4AVR_B PA4485; UNKNOWN FUNCTION, GRAM-NEGATIVE BACTERIA, INFECTIOUS; 1.08A {PSEUDOMONAS AERUGINOSA PA01}
+Probab=11.24  E-value=2.4e+02  Score=9.78  Aligned_cols=4  Identities=75%  Similarity=1.622  Sum_probs=0.0  Template_Neff=9.200
+
+Q LATYYV            2 ATYY    5 (6)
+Q Consensus         2 atyy    5 (6)
+                      ||||
+T Consensus         6 at~y    9 (95)
+T 4AVR_B            6 ASYY    9 (95)
+T ss_dssp             EEEC
+T ss_pred             EEec
+
+
+No 8
+>5SV5_A Adenosylhomocysteinase (E.C.3.3.1.1); Collagenase Structural Genomics, Center for; HET: MSE; 1.0A {Bacillus anthracis}
+Probab=10.16  E-value=2.8e+02  Score=9.26  Aligned_cols=4  Identities=50%  Similarity=1.456  Sum_probs=0.0  Template_Neff=10.300
+
+Q LATYYV            3 TYYV    6 (6)
+Q Consensus         3 tyyv    6 (6)
+                      +||+
+T Consensus        85 tYyi   88 (105)
+T 5SV5_A           85 KYYL   88 (105)
+T ss_dssp             EEEE
+T ss_pred             EEEE
+
+
+No 9
+>5OLR_C Rhamnogalacturonan lyase; Pectin, PL9, polysaccharide lyase family; HET: RAM, PO4, ADA; 1.07A {Bacteroides thetaiotaomicron}
+Probab=9.81  E-value=2.9e+02  Score=12.24  Aligned_cols=5  Identities=60%  Similarity=1.285  Sum_probs=0.0  Template_Neff=9.900
+
+Q LATYYV            2 ATYYV    6 (6)
+Q Consensus         2 atyyv    6 (6)
+                      ++|||
+T Consensus         3 ~~~YV    7 (522)
+T 5OLR_C            3 KTYYM    7 (522)
+T ss_dssp             CEEEE
+T ss_pred             ceEEE
+
+
+No 10
+>3WKN_L Ig gamma-1 chain C region; immunoglobulin-like beta-sandwich, binding protein, IMMUNE; HET: FUC, BMA, MAN, NAG, GAL; 2.9A {Homo sapiens}
+Probab=8.54  E-value=3.6e+02  Score=11.19  Aligned_cols=4  Identities=100%  Similarity=1.705  Sum_probs=0.0  Template_Neff=1.000
+
+Q LATYYV            2 ATYY    5 (6)
+Q Consensus         2 atyy    5 (6)
+                      ||||
+T Consensus        34 atyy   37 (54)
+T 3WKN_L           34 ATYY   37 (54)
+T ss_dssp             EEEE
+T ss_pred             EEee
+
+

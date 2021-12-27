@@ -1,0 +1,152 @@
+Query         GRIGIA
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 03:29:51 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GRIGIA/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/GRIGIA/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 1X15_A NAD(P) transhydrogenase  45.2      20 0.00022   15.5   0.0    6    1-6       8-13  (401)
+  2 3QAC_A 11S globulin seed stora  20.8      96  0.0011   14.8   0.0    6    1-6     460-465 (465)
+  3 5YIB_A Plasmepsin II (E.C.3.4.  19.9   1E+02  0.0011   12.3   0.0    6    1-6     317-322 (328)
+  4 6NQ6_D N(4)-(Beta-N-acetylgluc  19.5 1.1E+02  0.0012   12.5   0.0    4    1-4      28-31  (144)
+  5 1DPJ_A THE STRUCTURE OF PROTEI  19.5 1.1E+02  0.0012   12.2   0.0    6    1-6     321-326 (329)
+  6 1IV0_A hypothetical protein; h  19.4 1.1E+02  0.0012   10.9   0.0    5    2-6      12-16  (98)
+  7 2NR6_A Bla g 2, Fab, HYDROLASE  19.3 1.1E+02  0.0012   12.3   0.0    6    1-6     321-326 (330)
+  8 2ZAL_D L-asparaginase (E.C.3.4  19.1 1.1E+02  0.0012   12.1   0.0    4    1-4      28-31  (137)
+  9 6DEY_D Glycosylasparaginase; H  19.1 1.1E+02  0.0012   12.5   0.0    4    1-4      28-31  (144)
+ 10 1AVF_J GASTRICSIN; ASPARTYL PR  18.7 1.1E+02  0.0013   12.1   0.0    6    1-6     321-326 (329)
+
+No 1
+>1X15_A NAD(P) transhydrogenase subunit alpha (E.C.1.6.1.2); Transhydrogenase, NAD(H)-binding domain, Rossmann fold; HET: NAD; 2.04A {Escherichia coli}
+Probab=45.19  E-value=20  Score=15.46  Aligned_cols=6  Identities=83%  Similarity=1.453  Sum_probs=4.0  Template_Neff=9.200
+
+Q GRIGIA            1 GRIGIA    6 (6)
+Q Consensus         1 grigia    6 (6)
+                      |||||+
+T Consensus         8 ~~~~~~   13 (401)
+T 1X15_A            8 GRIGIP   13 (401)
+T ss_dssp             CEEEEC
+T ss_pred             Cccccc
+Confidence            677763
+
+
+No 2
+>3QAC_A 11S globulin seed storage protein; 11S seed storage protein (globulins); 2.275A {Amaranthus hypochondriacus}
+Probab=20.85  E-value=96  Score=14.79  Aligned_cols=6  Identities=50%  Similarity=0.695  Sum_probs=0.0  Template_Neff=7.300
+
+Q GRIGIA            1 GRIGIA    6 (6)
+Q Consensus         1 grigia    6 (6)
+                      +||||+
+T Consensus       460 ~~~~~~  465 (465)
+T 3QAC_A          460 RKISIA  465 (465)
+T ss_dssp             ------
+T ss_pred             cccccC
+Confidence            478875
+
+
+No 3
+>5YIB_A Plasmepsin II (E.C.3.4.23.39); Plasmepsin, Plasmepsin II, KNI-10743, Aspartic; HET: CPS, GOL, 8VC; 2.15A {Plasmodium falciparum}
+Probab=19.86  E-value=1e+02  Score=12.34  Aligned_cols=6  Identities=50%  Similarity=0.827  Sum_probs=0.0  Template_Neff=10.500
+
+Q GRIGIA            1 GRIGIA    6 (6)
+Q Consensus         1 grigia    6 (6)
+                      .|||+|
+T Consensus       317 ~~ig~a  322 (328)
+T 5YIB_A          317 QSVGIA  322 (328)
+T ss_dssp             TEEEEE
+T ss_pred             CeEEEE
+
+
+No 4
+>6NQ6_D N(4)-(Beta-N-acetylglucosaminyl)-L-asparaginase (E.C.3.5.1.26), Glycosylasparaginase; Hydrolase; 1.5A {Elizabethkingia meningoseptica}
+Probab=19.54  E-value=1.1e+02  Score=12.48  Aligned_cols=4  Identities=75%  Similarity=1.747  Sum_probs=0.0  Template_Neff=7.200
+
+Q GRIGIA            1 GRIG    4 (6)
+Q Consensus         1 grig    4 (6)
+                      ||||
+T Consensus        28 GRVG   31 (144)
+T 6NQ6_D           28 GRVG   31 (144)
+T ss_dssp             TEEC
+T ss_pred             cccC
+
+
+No 5
+>1DPJ_A THE STRUCTURE OF PROTEINASE A; proteinase A, IA3 peptide, HYDROLASE-HYDROLASE; HET: BMA, NAG, SO4, MAN; 1.8A {Saccharomyces cerevisiae} SCOP: b.50.1.2
+Probab=19.46  E-value=1.1e+02  Score=12.19  Aligned_cols=6  Identities=33%  Similarity=0.816  Sum_probs=0.0  Template_Neff=10.700
+
+Q GRIGIA            1 GRIGIA    6 (6)
+Q Consensus         1 grigia    6 (6)
+                      +|||+|
+T Consensus       321 ~~ig~a  326 (329)
+T 1DPJ_A          321 NAVGLA  326 (329)
+T ss_dssp             TEEEEE
+T ss_pred             CEEEee
+
+
+No 6
+>1IV0_A hypothetical protein; hypothetical protein, RNaseH-like, YqgF, STRUCTURAL; NMR {Thermus thermophilus} SCOP: c.55.3.8
+Probab=19.35  E-value=1.1e+02  Score=10.88  Aligned_cols=5  Identities=80%  Similarity=1.365  Sum_probs=0.0  Template_Neff=8.900
+
+Q GRIGIA            2 RIGIA    6 (6)
+Q Consensus         2 rigia    6 (6)
+                      |+|+|
+T Consensus        12 ~~G~A   16 (98)
+T 1IV0_A           12 RIGLA   16 (98)
+T ss_dssp             EEEEE
+T ss_pred             EEEEE
+
+
+No 7
+>2NR6_A Bla g 2, Fab, HYDROLASE-IMMUNE; HET: CSX, NAG; 2.81A {Blattella germanica}
+Probab=19.31  E-value=1.1e+02  Score=12.29  Aligned_cols=6  Identities=17%  Similarity=0.518  Sum_probs=0.0  Template_Neff=10.500
+
+Q GRIGIA            1 GRIGIA    6 (6)
+Q Consensus         1 grigia    6 (6)
+                      +|||+|
+T Consensus       321 ~~ig~a  326 (330)
+T 2NR6_A          321 KTMGFG  326 (330)
+T ss_dssp             TEEEEE
+T ss_pred             CEEEEE
+
+
+No 8
+>2ZAL_D L-asparaginase (E.C.3.4.19.5, 3.5.1.1); isoaspartyl peptidase, asparaginase, Ntn-hydrolase, autoproteolysis; HET: TRS, ASP; 1.9A {Escherichia coli}
+Probab=19.08  E-value=1.1e+02  Score=12.09  Aligned_cols=4  Identities=75%  Similarity=1.747  Sum_probs=0.0  Template_Neff=7.700
+
+Q GRIGIA            1 GRIG    4 (6)
+Q Consensus         1 grig    4 (6)
+                      ||||
+T Consensus        28 GRvG   31 (137)
+T 2ZAL_D           28 GRVG   31 (137)
+T ss_dssp             TEEC
+T ss_pred             CcCC
+
+
+No 9
+>6DEY_D Glycosylasparaginase; HYDROLASE; 1.63A {Elizabethkingia meningoseptica}
+Probab=19.07  E-value=1.1e+02  Score=12.48  Aligned_cols=4  Identities=75%  Similarity=1.747  Sum_probs=0.0  Template_Neff=7.100
+
+Q GRIGIA            1 GRIG    4 (6)
+Q Consensus         1 grig    4 (6)
+                      ||||
+T Consensus        28 GRVG   31 (144)
+T 6DEY_D           28 GRVG   31 (144)
+T ss_dssp             TBCC
+T ss_pred             cccC
+
+
+No 10
+>1AVF_J GASTRICSIN; ASPARTYL PROTEASE, GASTRICSIN, ASPARTIC PROTEINASE; 2.36A {Homo sapiens}
+Probab=18.73  E-value=1.1e+02  Score=12.07  Aligned_cols=6  Identities=50%  Similarity=1.010  Sum_probs=0.0  Template_Neff=10.800
+
+Q GRIGIA            1 GRIGIA    6 (6)
+Q Consensus         1 grigia    6 (6)
+                      +|||+|
+T Consensus       321 ~~ig~a  326 (329)
+T 1AVF_J          321 NRVGFA  326 (329)
+T ss_dssp             TEEEEE
+T ss_pred             CeEeee
+
+

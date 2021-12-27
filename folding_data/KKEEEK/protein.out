@@ -1,0 +1,147 @@
+Query         KKEEEK
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 10:57:05 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/KKEEEK/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/KKEEEK/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5VKU_R Tegument protein pp150,  42.3      23 0.00026   15.0   0.0    6    1-6      12-17  (75)
+  2 6Q1F_1 Major capsid protein, L  39.8      27  0.0003   15.2   0.0    6    1-6      22-27  (89)
+  3 6Q1F_M Major capsid protein, L  39.8      27  0.0003   15.2   0.0    6    1-6      22-27  (89)
+  4 5ZUU_C 30-kDa cleavage and pol  10.7 2.6E+02  0.0029   11.7   0.0    6    1-6     170-175 (180)
+  5 2MKC_A U2 snRNP component IST3  10.5 2.7E+02   0.003    9.2   0.0    6    1-6     113-118 (118)
+  6 6NHJ_J MCP, Tegument protein,   10.2 2.8E+02  0.0031   12.0   0.0    6    1-6      35-40  (98)
+  7 6NHJ_K MCP, Tegument protein,    9.7   3E+02  0.0033   11.7   0.0    6    1-6      35-40  (98)
+  8 2GJH_B Designed protein; Oblig   9.2 3.2E+02  0.0035   11.6   0.0    6    1-6      13-18  (62)
+  9 6B8H_x ATP synthase subunit 9,   7.3 4.4E+02  0.0048   10.4   0.0    5    2-6      49-53  (68)
+ 10 6ZG3_H Energy-coupling factor    6.8 4.8E+02  0.0053   10.5   0.0    6    1-6     210-215 (215)
+
+No 1
+>5VKU_R Tegument protein pp150, Major capsid; icosahedral, capsid, tegument, Herpesvirus, VIRUS; 3.9A {Human cytomegalovirus (strain AD169)}
+Probab=42.32  E-value=23  Score=14.98  Aligned_cols=6  Identities=50%  Similarity=0.772  Sum_probs=3.1  Template_Neff=2.700
+
+Q KKEEEK            1 KKEEEK    6 (6)
+Q Consensus         1 kkeeek    6 (6)
+                      ||||||
+T Consensus        12 kkeEeK   17 (75)
+T 5VKU_R           12 NKRDEK   17 (75)
+T ss_pred             chHHHH
+Confidence            355554
+
+
+No 2
+>6Q1F_1 Major capsid protein, Large structural; beta-herpesvirus, HHV-6B, murine cytomegalovirus, human; 9.0A {Human herpesvirus 6B (strain Z29)}
+Probab=39.77  E-value=27  Score=15.24  Aligned_cols=6  Identities=100%  Similarity=1.132  Sum_probs=3.1  Template_Neff=2.400
+
+Q KKEEEK            1 KKEEEK    6 (6)
+Q Consensus         1 kkeeek    6 (6)
+                      ||||||
+T Consensus        22 kKeeEK   27 (89)
+T 6Q1F_1           22 KKEEEK   27 (89)
+T ss_pred             hhHHHH
+Confidence            355554
+
+
+No 3
+>6Q1F_M Major capsid protein, Large structural; beta-herpesvirus, HHV-6B, murine cytomegalovirus, human; 9.0A {Human herpesvirus 6B (strain Z29)}
+Probab=39.77  E-value=27  Score=15.24  Aligned_cols=6  Identities=100%  Similarity=1.132  Sum_probs=3.1  Template_Neff=2.400
+
+Q KKEEEK            1 KKEEEK    6 (6)
+Q Consensus         1 kkeeek    6 (6)
+                      ||||||
+T Consensus        22 kKeeEK   27 (89)
+T 6Q1F_M           22 KKEEEK   27 (89)
+T ss_pred             hhHHHH
+Confidence            355554
+
+
+No 4
+>5ZUU_C 30-kDa cleavage and polyadenylation specificity; mRNA processing, Arabidopsis, CPSF, modification; HET: EPE, 6MD; 1.95A {Arabidopsis thaliana}
+Probab=10.67  E-value=2.6e+02  Score=11.74  Aligned_cols=6  Identities=83%  Similarity=1.104  Sum_probs=0.0  Template_Neff=7.300
+
+Q KKEEEK            1 KKEEEK    6 (6)
+Q Consensus         1 kkeeek    6 (6)
+                      ++++||
+T Consensus       170 ~~~~~~  175 (180)
+T 5ZUU_C          170 KREEEK  175 (180)
+T ss_dssp             HTC---
+T ss_pred             HHHHHH
+
+
+No 5
+>2MKC_A U2 snRNP component IST3, Pre-mRNA; spliceosome, Snu17p, Bud13p, Pml1p, heterotrimer; NMR {Saccharomyces cerevisiae}
+Probab=10.49  E-value=2.7e+02  Score=9.17  Aligned_cols=6  Identities=50%  Similarity=0.650  Sum_probs=0.0  Template_Neff=11.000
+
+Q KKEEEK            1 KKEEEK    6 (6)
+Q Consensus         1 kkeeek    6 (6)
+                      +.|+||
+T Consensus       113 ~~~~e~  118 (118)
+T 2MKC_A          113 KNNAEK  118 (118)
+T ss_dssp             CSCSCC
+T ss_pred             hhhhcC
+
+
+No 6
+>6NHJ_J MCP, Tegument protein, Small capsomere-interacting; cryoEM, beta-herpesvirus, murine cytomegalovirus, human; 5.0A {Murine cytomegalovirus (strain Smith)}
+Probab=10.16  E-value=2.8e+02  Score=11.95  Aligned_cols=6  Identities=83%  Similarity=1.104  Sum_probs=0.0  Template_Neff=4.000
+
+Q KKEEEK            1 KKEEEK    6 (6)
+Q Consensus         1 kkeeek    6 (6)
+                      +|+|||
+T Consensus        35 kKdEek   40 (98)
+T 6NHJ_J           35 KKEEER   40 (98)
+T ss_pred             ccHHHH
+
+
+No 7
+>6NHJ_K MCP, Tegument protein, Small capsomere-interacting; cryoEM, beta-herpesvirus, murine cytomegalovirus, human; 5.0A {Murine cytomegalovirus (strain Smith)}
+Probab=9.71  E-value=3e+02  Score=11.73  Aligned_cols=6  Identities=83%  Similarity=1.104  Sum_probs=0.0  Template_Neff=4.400
+
+Q KKEEEK            1 KKEEEK    6 (6)
+Q Consensus         1 kkeeek    6 (6)
+                      +|+||+
+T Consensus        35 ~keeek   40 (98)
+T 6NHJ_K           35 KKEEER   40 (98)
+T ss_pred             hhHHHH
+
+
+No 8
+>2GJH_B Designed protein; Obligate symmetric homo-dimer, DE NOVO; NMR {?}
+Probab=9.23  E-value=3.2e+02  Score=11.56  Aligned_cols=6  Identities=83%  Similarity=0.933  Sum_probs=0.0  Template_Neff=1.000
+
+Q KKEEEK            1 KKEEEK    6 (6)
+Q Consensus         1 kkeeek    6 (6)
+                      |||.||
+T Consensus        13 kkeaek   18 (62)
+T 2GJH_B           13 KKEAEK   18 (62)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 9
+>6B8H_x ATP synthase subunit 9, mitochondrial; Complex, Proton transporter, MEMBRANE PROTEIN; HET: MG, ANP; 3.6A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=7.33  E-value=4.4e+02  Score=10.38  Aligned_cols=5  Identities=80%  Similarity=1.086  Sum_probs=0.0  Template_Neff=5.000
+
+Q KKEEEK            2 KEEEK    6 (6)
+Q Consensus         2 keeek    6 (6)
+                      +|||+
+T Consensus        49 ~dEE~   53 (68)
+T 6B8H_x           49 KDEEK   53 (68)
+T ss_pred             HHHHH
+
+
+No 10
+>6ZG3_H Energy-coupling factor transporter ATP-binding protein; ECF transporter, vitamin transport, pantothenate; HET: LMT, CIT, PEG; 2.8A {Lama glama}
+Probab=6.85  E-value=4.8e+02  Score=10.49  Aligned_cols=6  Identities=33%  Similarity=0.257  Sum_probs=0.0  Template_Neff=9.100
+
+Q KKEEEK            1 KKEEEK    6 (6)
+Q Consensus         1 kkeeek    6 (6)
+                      ++|+||
+T Consensus       210 ~~~~~~  215 (215)
+T 6ZG3_H          210 HPQFEK  215 (215)
+T ss_dssp             ------
+T ss_pred             CccccC
+
+

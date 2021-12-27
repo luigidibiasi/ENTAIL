@@ -1,0 +1,261 @@
+Query         SCPSGN
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 13:29:48 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/SCPSGN/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/SCPSGN/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 1FWO_A ORYZAIN BETA CHAIN; bet  71.5     3.2 3.6E-05   15.1   0.0    6    1-6       9-14  (35)
+  2 4J6B_B Cytochrome P450 monooxy  70.4     3.5 3.9E-05   16.1   0.0    6    1-6       3-8   (410)
+  3 4J6C_B Cytochrome P450 monooxy  70.4     3.5 3.9E-05   16.1   0.0    6    1-6       3-8   (410)
+  4 4JBT_B Cytochrome P450 monooxy  70.4     3.5 3.9E-05   16.1   0.0    6    1-6       3-8   (410)
+  5 4F3F_C MORAb-009 Fab light cha  68.7     4.1 4.5E-05   16.1   0.0    6    1-6       1-6   (69)
+  6 4P27_A EFKLSEGQRAIYNFHKKVRKDVK  67.2     4.6 5.1E-05   14.0   0.0    6    1-6     157-162 (162)
+  7 6STX_C Kelch domain-containing  58.4     8.7 9.7E-05   17.3   0.0    6    1-6       6-11  (714)
+  8 5KLE_A Aldo-keto reductase 1;   47.3      17 0.00019   16.2   0.0    6    1-6       7-12  (97)
+  9 4NDS_B Alpha-galactosyl-bindin  42.9      23 0.00025   14.6   0.0    6    1-6       7-12  (94)
+ 10 6KPL_A Chitinase; TIM barrel,   42.7      23 0.00025   14.4   0.0    6    1-6       5-10  (303)
+ 11 6KPM_A Chitinase; TIM barrel,   42.7      23 0.00025   14.4   0.0    6    1-6       5-10  (303)
+ 12 7EC8_B LipIAF5-2; Polyethylene  41.6      24 0.00027   13.9   0.0    6    1-6     278-283 (294)
+ 13 4GL8_B Oligopeptide ABC transp  32.6      42 0.00047   14.7   0.0    6    1-6      18-23  (529)
+ 14 5OUN_A RuvB-like protein 2 (E.  27.4      59 0.00066   13.4   0.0    6    1-6      96-101 (107)
+ 15 6EM3_3 Ribosome production fac  26.7      62 0.00069   16.1   0.0    6    1-6      42-47  (306)
+ 16 2E3B_A Peroxidase (E.C.1.11.1.  25.3      69 0.00076   14.7   0.0    6    1-6      11-16  (344)
+ 17 4LR4_C hypothetical protein; a  20.8      96  0.0011   16.4   0.0    6    1-6     261-266 (370)
+
+No 1
+>1FWO_A ORYZAIN BETA CHAIN; beta-hairpin stack fold, granulin/epithelin-like protein; NMR {N/A} SCOP: g.3.16.1
+Probab=71.47  E-value=3.2  Score=15.08  Aligned_cols=6  Identities=67%  Similarity=1.658  Sum_probs=4.1  Template_Neff=3.900
+
+Q SCPSGN            1 SCPSGN    6 (6)
+Q Consensus         1 scpsgn    6 (6)
+                      +||+|+
+T Consensus         9 ~Cp~g~   14 (35)
+T 1FWO_A            9 SCPAGS   14 (35)
+T ss_dssp             CCCSSS
+T ss_pred             cCCCCC
+Confidence            578764
+
+
+No 2
+>4J6B_B Cytochrome P450 monooxygenase; Cytochrom P450, steroid hydroxylating monooxygenase; HET: HEM, FMT, PLO; 2.2A {Nocardia farcinica}
+Probab=70.44  E-value=3.5  Score=16.07  Aligned_cols=6  Identities=33%  Similarity=1.254  Sum_probs=4.0  Template_Neff=11.500
+
+Q SCPSGN            1 SCPSGN    6 (6)
+Q Consensus         1 scpsgn    6 (6)
+                      +||+||
+T Consensus         3 ~~~~~~    8 (410)
+T 4J6B_B            3 ACPHSD    8 (410)
+T ss_dssp             -CCCCS
+T ss_pred             CCCccc
+Confidence            488876
+
+
+No 3
+>4J6C_B Cytochrome P450 monooxygenase; Cytochrom P450, steroid hydroxylating monooxygenase; HET: HEM, STR, FMT; 1.9A {Nocardia farcinica}
+Probab=70.44  E-value=3.5  Score=16.07  Aligned_cols=6  Identities=33%  Similarity=1.254  Sum_probs=3.1  Template_Neff=11.500
+
+Q SCPSGN            1 SCPSGN    6 (6)
+Q Consensus         1 scpsgn    6 (6)
+                      +||+||
+T Consensus         3 ~~~~~~    8 (410)
+T 4J6C_B            3 ACPHSD    8 (410)
+T ss_dssp             --CCCS
+T ss_pred             CCCccc
+Confidence            488876
+
+
+No 4
+>4JBT_B Cytochrome P450 monooxygenase; Cytochrom P450, steroid hydroxylating monooxygenase; HET: HEM, ASD, FMT; 2.2A {Nocardia farcinica}
+Probab=70.44  E-value=3.5  Score=16.07  Aligned_cols=6  Identities=33%  Similarity=1.254  Sum_probs=4.0  Template_Neff=11.500
+
+Q SCPSGN            1 SCPSGN    6 (6)
+Q Consensus         1 scpsgn    6 (6)
+                      +||+||
+T Consensus         3 ~~~~~~    8 (410)
+T 4JBT_B            3 ACPHSD    8 (410)
+T ss_dssp             -CCCCS
+T ss_pred             CCCccc
+Confidence            488876
+
+
+No 5
+>4F3F_C MORAb-009 Fab light chain, MORAb-009; Antibody Fab, Recognize mesothelin, mesothelin; 2.65A {Mus musculus}
+Probab=68.69  E-value=4.1  Score=16.08  Aligned_cols=6  Identities=67%  Similarity=1.514  Sum_probs=4.4  Template_Neff=4.700
+
+Q SCPSGN            1 SCPSGN    6 (6)
+Q Consensus         1 scpsgn    6 (6)
+                      +||.||
+T Consensus         1 ~C~~g~    6 (69)
+T 4F3F_C            1 MCPSGK    6 (69)
+T ss_dssp             CCCTTC
+T ss_pred             CCCCCC
+Confidence            588875
+
+
+No 6
+>4P27_A EFKLSEGQRAIYNFHKKVRKDVKNCRIPGQPPAKNLTKLKWNKLLANKAKQQAKRCKYDS  NDPNDFIIGDFESIGQNLADYPTIEGAMKDWLEEYKNYNFEKNQCNGDCKNYKQMVWNTT  EEIGCGYEKCGKNYLIVCNYAPGDSEDRPYEAKPESKCNKSE; Pathogenesis Related Protein, SCP/TAPS, ALLERGEN; HET: NAG; 2.16A {Schistosoma mansoni}
+Probab=67.24  E-value=4.6  Score=13.97  Aligned_cols=6  Identities=17%  Similarity=0.673  Sum_probs=1.1  Template_Neff=11.200
+
+Q SCPSGN            1 SCPSGN    6 (6)
+Q Consensus         1 scpsgn    6 (6)
+                      .|++|+
+T Consensus       157 ~C~~~~  162 (162)
+T 4P27_A          157 KCNKSE  162 (162)
+T ss_dssp             GC----
+T ss_pred             cCCCCC
+Confidence            377764
+
+
+No 7
+>6STX_C Kelch domain-containing protein; Copper radical oxidase, 5-hydroxymethylfurfural, benzyl; HET: PG4, NAG; 1.9A {Colletotrichum graminicola (strain M1.001 / M2 / FGSC 10212)}
+Probab=58.38  E-value=8.7  Score=17.25  Aligned_cols=6  Identities=50%  Similarity=1.304  Sum_probs=0.0  Template_Neff=9.900
+
+Q SCPSGN            1 SCPSGN    6 (6)
+Q Consensus         1 scpsgn    6 (6)
+                      +||++|
+T Consensus         6 ~cp~~~   11 (714)
+T 6STX_C            6 SCPNNE   11 (714)
+T ss_dssp             ------
+T ss_pred             CCCCCC
+Confidence            588864
+
+
+No 8
+>5KLE_A Aldo-keto reductase 1; Carbohydrate-binding protein, metagenomics, cellulose, biofuels; HET: CE5; 1.5A {uncultured bacterium}
+Probab=47.34  E-value=17  Score=16.16  Aligned_cols=6  Identities=83%  Similarity=1.370  Sum_probs=4.4  Template_Neff=1.000
+
+Q SCPSGN            1 SCPSGN    6 (6)
+Q Consensus         1 scpsgn    6 (6)
+                      ||-|||
+T Consensus         7 scgsgn   12 (97)
+T 5KLE_A            7 SCGSGN   12 (97)
+T ss_dssp             SCSTTT
+T ss_pred             cccCCC
+Confidence            687776
+
+
+No 9
+>4NDS_B Alpha-galactosyl-binding lectin; lectin, SUGAR BINDING PROTEIN; 0.997A {Lyophyllum decastes}
+Probab=42.87  E-value=23  Score=14.62  Aligned_cols=6  Identities=50%  Similarity=1.210  Sum_probs=3.4  Template_Neff=4.900
+
+Q SCPSGN            1 SCPSGN    6 (6)
+Q Consensus         1 scpsgn    6 (6)
+                      |||+++
+T Consensus         7 ~~~g~~   12 (94)
+T 4NDS_B            7 SCPGSA   12 (94)
+T ss_dssp             CCTTCC
+T ss_pred             CCCCCC
+Confidence            566653
+
+
+No 10
+>6KPL_A Chitinase; TIM barrel, HYDROLASE; HET: PGE, PEG; 1.75A {Cordyceps militaris CM01}
+Probab=42.71  E-value=23  Score=14.36  Aligned_cols=6  Identities=67%  Similarity=1.342  Sum_probs=3.6  Template_Neff=9.800
+
+Q SCPSGN            1 SCPSGN    6 (6)
+Q Consensus         1 scpsgn    6 (6)
+                      +||+.|
+T Consensus         5 ~~~~~~   10 (303)
+T 6KPL_A            5 VCPSDN   10 (303)
+T ss_pred             cCCCCC
+Confidence            577643
+
+
+No 11
+>6KPM_A Chitinase; TIM barrel, HYDROLASE; HET: PGE, PEG, FUC; 1.8A {Cordyceps militaris CM01}
+Probab=42.71  E-value=23  Score=14.36  Aligned_cols=6  Identities=67%  Similarity=1.342  Sum_probs=3.6  Template_Neff=9.800
+
+Q SCPSGN            1 SCPSGN    6 (6)
+Q Consensus         1 scpsgn    6 (6)
+                      +||+.|
+T Consensus         5 ~~~~~~   10 (303)
+T 6KPM_A            5 VCPSDN   10 (303)
+T ss_pred             cCCCCC
+Confidence            577643
+
+
+No 12
+>7EC8_B LipIAF5-2; Polyethylene terephthalate hydrolase, lipase, HYDROLASE; HET: SO4, EDO; 1.35A {uncultured bacterium}
+Probab=41.62  E-value=24  Score=13.86  Aligned_cols=6  Identities=50%  Similarity=1.171  Sum_probs=3.3  Template_Neff=10.400
+
+Q SCPSGN            1 SCPSGN    6 (6)
+Q Consensus         1 scpsgn    6 (6)
+                      .||-||
+T Consensus       278 ~~~~~~  283 (294)
+T 7EC8_B          278 NCPYEN  283 (294)
+T ss_dssp             CCCCC-
+T ss_pred             cCCCCC
+Confidence            477665
+
+
+No 13
+>4GL8_B Oligopeptide ABC transporter OppAIV, Peptide; Structural Genomics, NIAID, National Institute; 2.2A {Escherichia coli}
+Probab=32.62  E-value=42  Score=14.72  Aligned_cols=6  Identities=33%  Similarity=-0.097  Sum_probs=0.0  Template_Neff=9.800
+
+Q SCPSGN            1 SCPSGN    6 (6)
+Q Consensus         1 scpsgn    6 (6)
+                      +|||+|
+T Consensus        18 ~~~~~~   23 (529)
+T 4GL8_B           18 GPGSMN   23 (529)
+T ss_dssp             ------
+T ss_pred             CCCcce
+Confidence            477764
+
+
+No 14
+>5OUN_A RuvB-like protein 2 (E.C.3.6.4.12); ATPase Chaperon Rvb1 Rvb2 RuvBL1; NMR {Saccharomyces cerevisiae}
+Probab=27.35  E-value=59  Score=13.42  Aligned_cols=6  Identities=50%  Similarity=1.497  Sum_probs=3.9  Template_Neff=5.500
+
+Q SCPSGN            1 SCPSGN    6 (6)
+Q Consensus         1 scpsgn    6 (6)
+                      .||+|.
+T Consensus        96 ~~P~Ge  101 (107)
+T 5OUN_A           96 QCPEGE  101 (107)
+T ss_dssp             CCCSCC
+T ss_pred             cCCCCC
+Confidence            378773
+
+
+No 15
+>6EM3_3 Ribosome production factor 1, 60S; Large Subunit Biogenesis Nucleolus, RIBOSOME; 3.2A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=26.74  E-value=62  Score=16.07  Aligned_cols=6  Identities=67%  Similarity=1.304  Sum_probs=3.9  Template_Neff=4.100
+
+Q SCPSGN            1 SCPSGN    6 (6)
+Q Consensus         1 scpsgn    6 (6)
+                      |||-.|
+T Consensus        42 SCPLAN   47 (306)
+T 6EM3_3           42 SCPLAN   47 (306)
+T ss_pred             CCCccc
+Confidence            688554
+
+
+No 16
+>2E3B_A Peroxidase (E.C.1.11.1.7); heme protein, coordination geometry of; HET: NAG, HEM, MAN; 1.3A {'Arthromyces ramosus'} SCOP: a.93.1.1
+Probab=25.25  E-value=69  Score=14.69  Aligned_cols=6  Identities=50%  Similarity=1.569  Sum_probs=3.6  Template_Neff=7.200
+
+Q SCPSGN            1 SCPSGN    6 (6)
+Q Consensus         1 scpsgn    6 (6)
+                      .||.||
+T Consensus        11 ~c~~~~   16 (344)
+T 2E3B_A           11 TCPGGQ   16 (344)
+T ss_pred             eCCCCC
+Confidence            377753
+
+
+No 17
+>4LR4_C hypothetical protein; an orphan, two domains protein; HET: GOL, PO4; 2.43A {Eubacterium rectale}
+Probab=20.77  E-value=96  Score=16.36  Aligned_cols=6  Identities=67%  Similarity=1.647  Sum_probs=4.2  Template_Neff=1.000
+
+Q SCPSGN            1 SCPSGN    6 (6)
+Q Consensus         1 scpsgn    6 (6)
+                      .||||.
+T Consensus       261 ncpsgs  266 (370)
+T 4LR4_C          261 NCPSGS  266 (370)
+T ss_dssp             ECCTTC
+T ss_pred             ECCCCC
+Confidence            389873
+
+

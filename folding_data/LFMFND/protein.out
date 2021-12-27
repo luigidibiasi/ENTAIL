@@ -1,0 +1,150 @@
+Query         LFMFND
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 18:02:18 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LFMFND/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LFMFND/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4C0A_B IQ MOTIF AND SEC7 DOMAI  50.4      14 0.00016   15.9   0.0    6    1-6     276-281 (383)
+  2 6VKL_H Exocyst complex compone  37.6      31 0.00034   17.3   0.0    6    1-6     370-375 (753)
+  3 6L30_A Protein ECT2; GEF, CELL  31.3      46 0.00051   15.1   0.0    6    1-6     530-535 (707)
+  4 4PKX_A CTL2 domain of C. elega  19.5 1.1E+02  0.0012   13.6   0.0    6    1-6     273-278 (291)
+  5 4PKE_A CTL2 domain of C. elega  19.5 1.1E+02  0.0012   13.5   0.0    6    1-6     273-278 (291)
+  6 5OC7_A Mb(Bcr-DH_4), Breakpoin  18.2 1.2E+02  0.0013   10.1   0.0    6    1-6      28-33  (133)
+  7 4YJM_C ClpS2; N-end rule, Prot  17.8 1.2E+02  0.0014   11.4   0.0    6    1-6      26-31  (103)
+  8 5D27_A Phosphatidylinositol 3,  17.5 1.3E+02  0.0014   10.7   0.0    6    1-6      50-55  (167)
+  9 2KGL_A Mesoderm development ca  16.5 1.4E+02  0.0015   13.9   0.0    6    1-6     120-125 (195)
+ 10 1TUW_A Tetracenomycin polyketi  16.2 1.4E+02  0.0016   12.6   0.0    6    1-6      42-47  (109)
+
+No 1
+>4C0A_B IQ MOTIF AND SEC7 DOMAIN-CONTAINING; PROTEIN TRANSPORT, ENDOCYTOSIS; HET: G3D; 3.3A {BOS TAURUS}
+Probab=50.43  E-value=14  Score=15.94  Aligned_cols=6  Identities=67%  Similarity=1.558  Sum_probs=3.7  Template_Neff=8.900
+
+Q LFMFND            1 LFMFND    6 (6)
+Q Consensus         1 lfmfnd    6 (6)
+                      +|+|||
+T Consensus       276 ~fLFnD  281 (383)
+T 4C0A_B          276 IFLFND  281 (383)
+T ss_dssp             EEEESS
+T ss_pred             EEeccc
+Confidence            466765
+
+
+No 2
+>6VKL_H Exocyst complex component SEC3, Exocyst; EXOCYST, COILED-COIL, EXOCYTOSIS; 4.4A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=37.63  E-value=31  Score=17.26  Aligned_cols=6  Identities=50%  Similarity=1.265  Sum_probs=4.2  Template_Neff=7.300
+
+Q LFMFND            1 LFMFND    6 (6)
+Q Consensus         1 lfmfnd    6 (6)
+                      +|+|||
+T Consensus       370 lfLFND  375 (753)
+T 6VKL_H          370 IFILND  375 (753)
+T ss_dssp             EEECSS
+T ss_pred             EEEcCC
+Confidence            477776
+
+
+No 3
+>6L30_A Protein ECT2; GEF, CELL CYCLE; 2.8A {Homo sapiens}
+Probab=31.27  E-value=46  Score=15.13  Aligned_cols=6  Identities=83%  Similarity=1.625  Sum_probs=3.3  Template_Neff=9.900
+
+Q LFMFND            1 LFMFND    6 (6)
+Q Consensus         1 lfmfnd    6 (6)
+                      +|.|||
+T Consensus       530 ~fLF~D  535 (707)
+T 6L30_A          530 LFLFND  535 (707)
+T ss_dssp             EEEETT
+T ss_pred             EEEeCC
+Confidence            356665
+
+
+No 4
+>4PKX_A CTL2 domain of C. elegans; Mechanosensitive, channel, piezo, MEMBRANE PROTEIN; 2.54A {Caenorhabditis elegans}
+Probab=19.53  E-value=1.1e+02  Score=13.56  Aligned_cols=6  Identities=33%  Similarity=0.406  Sum_probs=0.0  Template_Neff=7.700
+
+Q LFMFND            1 LFMFND    6 (6)
+Q Consensus         1 lfmfnd    6 (6)
+                      ++.|||
+T Consensus       273 iv~FnD  278 (291)
+T 4PKX_A          273 VVGFID  278 (291)
+T ss_pred             EEEEEc
+
+
+No 5
+>4PKE_A CTL2 domain of C. elegans; mechanosensitive, channel, piezo, MEMBRANE PROTEIN; 2.5A {Caenorhabditis elegans}
+Probab=19.47  E-value=1.1e+02  Score=13.55  Aligned_cols=6  Identities=33%  Similarity=0.406  Sum_probs=0.0  Template_Neff=7.700
+
+Q LFMFND            1 LFMFND    6 (6)
+Q Consensus         1 lfmfnd    6 (6)
+                      ++.|||
+T Consensus       273 iv~FnD  278 (291)
+T 4PKE_A          273 VVGFID  278 (291)
+T ss_dssp             EEEEEC
+T ss_pred             EEEEEc
+
+
+No 6
+>5OC7_A Mb(Bcr-DH_4), Breakpoint cluster region protein; pleckstrin-homology, monobody, Bcr-Abl, phosphoinositide-binding, Signaling; HET: GOL, IP2; 1.652A {Homo sapiens}
+Probab=18.20  E-value=1.2e+02  Score=10.13  Aligned_cols=6  Identities=50%  Similarity=1.320  Sum_probs=0.0  Template_Neff=11.200
+
+Q LFMFND            1 LFMFND    6 (6)
+Q Consensus         1 lfmfnd    6 (6)
+                      +|.|+|
+T Consensus        28 ~~L~~~   33 (133)
+T 5OC7_A           28 VFLFTD   33 (133)
+T ss_dssp             EEEESS
+T ss_pred             EEEeCC
+
+
+No 7
+>4YJM_C ClpS2; N-end rule, Protease adaptor, PROTEIN; 1.952A {Agrobacterium tumefaciens (strain C58 / ATCC 33970)}
+Probab=17.82  E-value=1.2e+02  Score=11.38  Aligned_cols=6  Identities=33%  Similarity=0.927  Sum_probs=0.0  Template_Neff=7.800
+
+Q LFMFND            1 LFMFND    6 (6)
+Q Consensus         1 lfmfnd    6 (6)
+                      +.++||
+T Consensus        26 viL~ND   31 (103)
+T 4YJM_C           26 VMLLND   31 (103)
+T ss_dssp             EEEECC
+T ss_pred             EEEECC
+
+
+No 8
+>5D27_A Phosphatidylinositol 3,4,5-trisphosphate-dependent Rac exchanger 1; pleckstrin homology domain, beta sandwich; 1.92A {Homo sapiens}
+Probab=17.45  E-value=1.3e+02  Score=10.69  Aligned_cols=6  Identities=33%  Similarity=1.287  Sum_probs=0.0  Template_Neff=10.800
+
+Q LFMFND            1 LFMFND    6 (6)
+Q Consensus         1 lfmfnd    6 (6)
+                      +|.|+|
+T Consensus        50 ~~Lf~d   55 (167)
+T 5D27_A           50 FFLFDN   55 (167)
+T ss_pred             EEEecC
+
+
+No 9
+>2KGL_A Mesoderm development candidate 2; MESD, LRP5/6, Chaperone, YWTD, Wnt; NMR {Mus musculus}
+Probab=16.53  E-value=1.4e+02  Score=13.87  Aligned_cols=6  Identities=50%  Similarity=1.171  Sum_probs=0.0  Template_Neff=4.700
+
+Q LFMFND            1 LFMFND    6 (6)
+Q Consensus         1 lfmfnd    6 (6)
+                      +|||.|
+T Consensus       120 iF~~~d  125 (195)
+T 2KGL_A          120 IFMLRD  125 (195)
+T ss_pred             EEEecc
+
+
+No 10
+>1TUW_A Tetracenomycin polyketide synthesis protein tcmI; dimeric ??? ferredoxin-like fold tetracenomycin; 1.9A {Streptomyces glaucescens} SCOP: d.58.4.8
+Probab=16.17  E-value=1.4e+02  Score=12.56  Aligned_cols=6  Identities=67%  Similarity=1.231  Sum_probs=0.0  Template_Neff=5.100
+
+Q LFMFND            1 LFMFND    6 (6)
+Q Consensus         1 lfmfnd    6 (6)
+                      ||+|.|
+T Consensus        42 LF~~~d   47 (109)
+T 1TUW_A           42 LFRFHD   47 (109)
+T ss_dssp             EEEETT
+T ss_pred             EEeeCC
+
+

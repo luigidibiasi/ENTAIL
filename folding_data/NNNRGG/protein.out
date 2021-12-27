@@ -1,0 +1,147 @@
+Query         NNNRGG
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 02:35:13 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NNNRGG/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NNNRGG/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5KC8_A Glutamate receptor iono  57.2     9.4  0.0001   15.0   0.0    6    1-6     416-421 (429)
+  2 3NRX_B Protein regulator of cy   8.5 3.6E+02  0.0039   10.9   0.0    5    2-6      43-47  (130)
+  3 4GHN_A Uncharacterized protein   8.4 3.6E+02   0.004   11.5   0.0    5    2-6     247-251 (393)
+  4 1NEI_B hypothetical protein yo   8.4 3.6E+02   0.004   11.2   0.0    5    1-5      12-16  (60)
+  5 7AIH_At mL94, mL89, Ribosomal    8.0 3.9E+02  0.0043   13.2   0.0    5    1-5      67-71  (183)
+  6 7AM2_At Ribosomal protein L3-l   8.0 3.9E+02  0.0043   13.2   0.0    5    1-5      67-71  (183)
+  7 3PJA_L Translin, Translin-asso   7.6 4.1E+02  0.0046   12.3   0.0    6    1-6       2-7   (290)
+  8 3QB5_K Translin, Translin-asso   7.5 4.2E+02  0.0046   12.3   0.0    6    1-6       2-7   (290)
+  9 4LUR_A Interphotoreceptor Reti   7.5 4.2E+02  0.0047   11.3   0.0    5    2-6     147-151 (309)
+ 10 7JTI_B mAb5 Fab light chain, m   7.5 4.2E+02  0.0047   11.3   0.0    5    2-6     147-151 (309)
+
+No 1
+>5KC8_A Glutamate receptor ionotropic, delta-2; ionotropic glutamate receptor (iGluR), neurotransmission; HET: EDO; 1.751A {Homo sapiens}
+Probab=57.19  E-value=9.4  Score=15.04  Aligned_cols=6  Identities=83%  Similarity=1.293  Sum_probs=0.0  Template_Neff=11.500
+
+Q NNNRGG            1 NNNRGG    6 (6)
+Q Consensus         1 nnnrgg    6 (6)
+                      |++|||
+T Consensus       416 ~~~~~~  421 (429)
+T 5KC8_A          416 NNMRGG  421 (429)
+T ss_dssp             ------
+T ss_pred             cCCCCC
+Confidence            456665
+
+
+No 2
+>3NRX_B Protein regulator of cytokinesis 1; spectrin fold, microtubule binding domain; 1.75A {Homo sapiens}
+Probab=8.53  E-value=3.6e+02  Score=10.88  Aligned_cols=5  Identities=80%  Similarity=1.478  Sum_probs=0.0  Template_Neff=7.100
+
+Q NNNRGG            2 NNRGG    6 (6)
+Q Consensus         2 nnrgg    6 (6)
+                      .||||
+T Consensus        43 ~~Rg~   47 (130)
+T 3NRX_B           43 TNRGG   47 (130)
+T ss_dssp             -----
+T ss_pred             ccchh
+
+
+No 3
+>4GHN_A Uncharacterized protein; Putative protease, Peptidase_S41 of PF03572; HET: GOL; 1.5A {Bacteroides uniformis}
+Probab=8.40  E-value=3.6e+02  Score=11.48  Aligned_cols=5  Identities=60%  Similarity=1.086  Sum_probs=0.0  Template_Neff=9.900
+
+Q NNNRGG            2 NNRGG    6 (6)
+Q Consensus         2 nnrgg    6 (6)
+                      +|.||
+T Consensus       247 ~N~GG  251 (393)
+T 4GHN_A          247 RNGGG  251 (393)
+T ss_dssp             TCCCB
+T ss_pred             CCCCC
+
+
+No 4
+>1NEI_B hypothetical protein yoaG; Alpha/Beta protein, homodimer, OCSP, NESG; NMR {Escherichia coli} SCOP: d.253.1.1
+Probab=8.40  E-value=3.6e+02  Score=11.24  Aligned_cols=5  Identities=60%  Similarity=1.026  Sum_probs=0.0  Template_Neff=2.300
+
+Q NNNRGG            1 NNNRG    5 (6)
+Q Consensus         1 nnnrg    5 (6)
+                      |||.|
+T Consensus        12 NnnNG   16 (60)
+T 1NEI_B           12 NNSNG   16 (60)
+T ss_dssp             ETTTT
+T ss_pred             eCCCc
+
+
+No 5
+>7AIH_At mL94, mL89, Ribosomal protein L3-like; Ribosome, Mitochondria, Kinetoplastid; HET: NAD; 3.6A {Leishmania major}
+Probab=8.01  E-value=3.9e+02  Score=13.21  Aligned_cols=5  Identities=80%  Similarity=1.086  Sum_probs=0.0  Template_Neff=1.700
+
+Q NNNRGG            1 NNNRG    5 (6)
+Q Consensus         1 nnnrg    5 (6)
+                      |||.|
+T Consensus        67 NNN~G   71 (183)
+T 7AIH_At          67 NNNMG   71 (183)
+T ss_pred             hcccc
+
+
+No 6
+>7AM2_At Ribosomal protein L3-like protein, uL4m; RIBOSOME, Mitochondria, Kinetoplastid; HET: GTP, ATP; 3.4A {Leishmania tarentolae}
+Probab=8.01  E-value=3.9e+02  Score=13.21  Aligned_cols=5  Identities=80%  Similarity=1.086  Sum_probs=0.0  Template_Neff=1.700
+
+Q NNNRGG            1 NNNRG    5 (6)
+Q Consensus         1 nnnrg    5 (6)
+                      |||.|
+T Consensus        67 NNN~G   71 (183)
+T 7AM2_At          67 NNNMG   71 (183)
+T ss_pred             hcccc
+
+
+No 7
+>3PJA_L Translin, Translin-associated protein X; 7 alpha helical bundle, Ribonuclease; 3.0A {Homo sapiens}
+Probab=7.64  E-value=4.1e+02  Score=12.29  Aligned_cols=6  Identities=33%  Similarity=0.717  Sum_probs=0.0  Template_Neff=6.700
+
+Q NNNRGG            1 NNNRGG    6 (6)
+Q Consensus         1 nnnrgg    6 (6)
+                      .|++||
+T Consensus         2 ~~~~~~    7 (290)
+T 3PJA_L            2 SNKEGS    7 (290)
+T ss_dssp             ------
+T ss_pred             CCCCCC
+
+
+No 8
+>3QB5_K Translin, Translin-associated protein X; 7 alpha helical bundle, ribonuclease; HET: SO4, PO4; 2.95A {Homo sapiens}
+Probab=7.55  E-value=4.2e+02  Score=12.27  Aligned_cols=6  Identities=33%  Similarity=0.717  Sum_probs=0.0  Template_Neff=6.700
+
+Q NNNRGG            1 NNNRGG    6 (6)
+Q Consensus         1 nnnrgg    6 (6)
+                      .|++||
+T Consensus         2 ~~~~~~    7 (290)
+T 3QB5_K            2 SNKEGS    7 (290)
+T ss_pred             CCCCCC
+
+
+No 9
+>4LUR_A Interphotoreceptor Retinoid-Binding Protein(IRBP); Multi-module structure, proteases activity, TRANSPORT; HET: OLA, GOL, EPE; 1.9A {Danio rerio}
+Probab=7.50  E-value=4.2e+02  Score=11.26  Aligned_cols=5  Identities=20%  Similarity=0.328  Sum_probs=0.0  Template_Neff=9.100
+
+Q NNNRGG            2 NNRGG    6 (6)
+Q Consensus         2 nnrgg    6 (6)
+                      +|.||
+T Consensus       147 ~N~GG  151 (309)
+T 4LUR_A          147 STVTG  151 (309)
+T ss_dssp             TCCEE
+T ss_pred             CCCCC
+
+
+No 10
+>7JTI_B mAb5 Fab light chain, mAb5; IRBP, retinoid, Interphotoreceptor retinoid-binding protein; 7.4A {Bos taurus}
+Probab=7.50  E-value=4.2e+02  Score=11.26  Aligned_cols=5  Identities=20%  Similarity=0.328  Sum_probs=0.0  Template_Neff=9.100
+
+Q NNNRGG            2 NNRGG    6 (6)
+Q Consensus         2 nnrgg    6 (6)
+                      +|.||
+T Consensus       147 ~N~GG  151 (309)
+T 7JTI_B          147 STVTG  151 (309)
+T ss_pred             CCCCC
+
+

@@ -1,0 +1,149 @@
+Query         LGNNSN
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 18:14:49 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LGNNSN/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LGNNSN/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4V6W_Ae Ribosome; eukarya, euk   8.6 3.5E+02  0.0039    9.8   0.0    5    2-6     126-130 (132)
+  2 1QYI_A hypothetical protein; S   7.3 4.4E+02  0.0049   12.1   0.0    6    1-6      72-77  (384)
+  3 4GBF_A PHIKZ131; 7-bladed beta   7.0 4.6E+02  0.0051   14.3   0.0    6    1-6     333-338 (400)
+  4 4GBF_B PHIKZ131; 7-bladed beta   7.0 4.6E+02  0.0051   14.3   0.0    6    1-6     333-338 (400)
+  5 3ZW5_A GLYOXALASE DOMAIN-CONTA   6.7 4.9E+02  0.0055    9.0   0.0    5    2-6       5-9   (147)
+  6 6ZJ8_D Virulence sensor protei   6.1 5.5E+02  0.0061    7.8   0.0    5    2-6       3-7   (162)
+  7 4OGD_A Succinate-semialdehyde    5.8 5.9E+02  0.0066   11.3   0.0    4    3-6     459-462 (465)
+  8 4OHT_A Succinate-semialdehyde    5.8 5.9E+02  0.0066   11.3   0.0    4    3-6     459-462 (465)
+  9 2KTN_A LICHENICIDIN VK21 A1; L   5.8   6E+02  0.0066    9.5   0.0    4    1-4      14-17  (32)
+ 10 2N28_A Protein Vpu; alpha heli   5.5 6.3E+02   0.007   10.6   0.0    5    2-6      53-57  (81)
+
+No 1
+>4V6W_Ae Ribosome; eukarya, eukaryotic, ribosomal, 80S, RNA; 6.0A {Drosophila melanogaster}
+Probab=8.64  E-value=3.5e+02  Score=9.77  Aligned_cols=5  Identities=60%  Similarity=0.959  Sum_probs=0.0  Template_Neff=9.600
+
+Q LGNNSN            2 GNNSN    6 (6)
+Q Consensus         2 gnnsn    6 (6)
+                      |.|+|
+T Consensus       126 ~~~~~  130 (132)
+T 4V6W_Ae         126 GPNAN  130 (132)
+T ss_pred             CCCCC
+
+
+No 2
+>1QYI_A hypothetical protein; STRUCTURAL GENOMICS, PSI, Protein Structure; 2.5A {Staphylococcus aureus subsp. aureus} SCOP: c.108.1.13
+Probab=7.26  E-value=4.4e+02  Score=12.10  Aligned_cols=6  Identities=83%  Similarity=0.966  Sum_probs=0.0  Template_Neff=8.000
+
+Q LGNNSN            1 LGNNSN    6 (6)
+Q Consensus         1 lgnnsn    6 (6)
+                      .|-|||
+T Consensus        72 ~g~nsn   77 (384)
+T 1QYI_A           72 LGLNSN   77 (384)
+T ss_dssp             TTCCCH
+T ss_pred             CCCCCh
+
+
+No 3
+>4GBF_A PHIKZ131; 7-bladed beta-propeller, Possibly participates in; 1.949A {Pseudomonas phage phiKZ}
+Probab=7.03  E-value=4.6e+02  Score=14.31  Aligned_cols=6  Identities=67%  Similarity=1.138  Sum_probs=0.0  Template_Neff=1.800
+
+Q LGNNSN            1 LGNNSN    6 (6)
+Q Consensus         1 lgnnsn    6 (6)
+                      +|||||
+T Consensus       333 FG~~sN  338 (400)
+T 4GBF_A          333 FGNNDN  338 (400)
+T ss_dssp             EECCTT
+T ss_pred             eecCCC
+
+
+No 4
+>4GBF_B PHIKZ131; 7-bladed beta-propeller, Possibly participates in; 1.949A {Pseudomonas phage phiKZ}
+Probab=7.03  E-value=4.6e+02  Score=14.31  Aligned_cols=6  Identities=67%  Similarity=1.138  Sum_probs=0.0  Template_Neff=1.800
+
+Q LGNNSN            1 LGNNSN    6 (6)
+Q Consensus         1 lgnnsn    6 (6)
+                      +|||||
+T Consensus       333 FG~~sN  338 (400)
+T 4GBF_B          333 FGNNDN  338 (400)
+T ss_dssp             EECCTT
+T ss_pred             eecCCC
+
+
+No 5
+>3ZW5_A GLYOXALASE DOMAIN-CONTAINING PROTEIN 5; LYASE; HET: SO4; 1.6A {HOMO SAPIENS}
+Probab=6.65  E-value=4.9e+02  Score=9.00  Aligned_cols=5  Identities=20%  Similarity=0.275  Sum_probs=0.0  Template_Neff=10.800
+
+Q LGNNSN            2 GNNSN    6 (6)
+Q Consensus         2 gnnsn    6 (6)
+                      ||++|
+T Consensus         5 ~~~~~    9 (147)
+T 3ZW5_A            5 HHHSS    9 (147)
+T ss_dssp             -----
+T ss_pred             ccccc
+
+
+No 6
+>6ZJ8_D Virulence sensor protein BvgS (E.C.2.7.13.3); PAS domain sensor histidine-kinase, SIGNALING; 2.4A {Bordetella pertussis (strain Tohama I / ATCC BAA-589 / NCTC 13251)}
+Probab=6.14  E-value=5.5e+02  Score=7.79  Aligned_cols=5  Identities=20%  Similarity=0.302  Sum_probs=0.0  Template_Neff=13.400
+
+Q LGNNSN            2 GNNSN    6 (6)
+Q Consensus         2 gnnsn    6 (6)
+                      .|||+
+T Consensus         3 ~~~~~    7 (162)
+T 6ZJ8_D            3 SRGSH    7 (162)
+T ss_dssp             -----
+T ss_pred             Ccccc
+
+
+No 7
+>4OGD_A Succinate-semialdehyde dehydrogenase; SSADH, GabD, Rossmann Fold, Dehydrogenase; 1.6A {Streptococcus pyogenes MGAS1882}
+Probab=5.78  E-value=5.9e+02  Score=11.27  Aligned_cols=4  Identities=100%  Similarity=1.132  Sum_probs=0.0  Template_Neff=9.700
+
+Q LGNNSN            3 NNSN    6 (6)
+Q Consensus         3 nnsn    6 (6)
+                      ||||
+T Consensus       459 ~~~~  462 (465)
+T 4OGD_A          459 NNSN  462 (465)
+T ss_dssp             ----
+T ss_pred             CCCc
+
+
+No 8
+>4OHT_A Succinate-semialdehyde dehydrogenase; SSADH, GabD, OXIDOREDUCTASE, Rossmann Fold; HET: NAP; 2.1A {Streptococcus pyogenes MGAS1882}
+Probab=5.78  E-value=5.9e+02  Score=11.27  Aligned_cols=4  Identities=100%  Similarity=1.132  Sum_probs=0.0  Template_Neff=9.700
+
+Q LGNNSN            3 NNSN    6 (6)
+Q Consensus         3 nnsn    6 (6)
+                      ||||
+T Consensus       459 ~~~~  462 (465)
+T 4OHT_A          459 NNSN  462 (465)
+T ss_dssp             ----
+T ss_pred             CCCc
+
+
+No 9
+>2KTN_A LICHENICIDIN VK21 A1; LICHENICIDIN VK21, LANTIBIOTICS, LCHA, ANTIBIOTIC; NMR {BACILLUS LICHENIFORMIS}
+Probab=5.76  E-value=6e+02  Score=9.51  Aligned_cols=4  Identities=100%  Similarity=1.514  Sum_probs=0.0  Template_Neff=2.400
+
+Q LGNNSN            1 LGNN    4 (6)
+Q Consensus         1 lgnn    4 (6)
+                      |||+
+T Consensus        14 lGN~   17 (32)
+T 2KTN_A           14 LGNN   17 (32)
+T ss_dssp             SSSC
+T ss_pred             hcCC
+
+
+No 10
+>2N28_A Protein Vpu; alpha helix, VIRAL PROTEIN; NMR {Human immunodeficiency virus 1}
+Probab=5.48  E-value=6.3e+02  Score=10.56  Aligned_cols=5  Identities=60%  Similarity=0.960  Sum_probs=0.0  Template_Neff=4.100
+
+Q LGNNSN            2 GNNSN    6 (6)
+Q Consensus         2 gnnsn    6 (6)
+                      ||.|+
+T Consensus        53 GnES~   57 (81)
+T 2N28_A           53 GNESE   57 (81)
+T ss_dssp             CSCCC
+T ss_pred             CCCcC
+
+

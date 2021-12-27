@@ -1,0 +1,150 @@
+Query         PTKVEE
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 06:39:17 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/PTKVEE/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/PTKVEE/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2WQ1_A GENERAL CONTROL PROTEIN   6.4 5.2E+02  0.0057    9.6   0.0    5    2-6       7-11  (33)
+  2 4IFD_D Exosome complex compone   6.3 5.3E+02  0.0058   10.7   0.0    6    1-6     171-176 (245)
+  3 1FAV_A HIV-1 ENVELOPE PROTEIN    6.3 5.4E+02  0.0059   10.7   0.0    5    2-6       4-8   (79)
+  4 3C3G_A alpha/beta peptide with   6.1 5.6E+02  0.0062    9.5   0.0    5    2-6       7-11  (33)
+  5 2R2V_A GCN4 leucine zipper; Co   6.0 5.6E+02  0.0062    9.5   0.0    5    2-6       8-12  (34)
+  6 2HY6_G protein design, paralle   5.8 5.9E+02  0.0066    9.5   0.0    5    2-6       8-12  (34)
+  7 1U9F_D General control protein   5.8 5.9E+02  0.0066    9.4   0.0    5    2-6       8-12  (33)
+  8 2YO3_C GENERAL CONTROL PROTEIN   5.7 6.1E+02  0.0067   11.5   0.0    5    2-6       6-10  (268)
+  9 3NUF_A PRD-containing transcri   5.5 6.3E+02  0.0069    9.3   0.0    5    1-5      12-16  (119)
+ 10 2YO3_B GENERAL CONTROL PROTEIN   5.4 6.4E+02  0.0071   11.4   0.0    5    2-6       6-10  (268)
+
+No 1
+>2WQ1_A GENERAL CONTROL PROTEIN GCN4; TAA, NUCLEUS, DNA-BINDING, PROTEIN EXPORT; 1.08A {N/A}
+Probab=6.42  E-value=5.2e+02  Score=9.57  Aligned_cols=5  Identities=60%  Similarity=0.900  Sum_probs=0.0  Template_Neff=3.000
+
+Q PTKVEE            2 TKVEE    6 (6)
+Q Consensus         2 tkvee    6 (6)
+                      .||||
+T Consensus         7 dKVEe   11 (33)
+T 2WQ1_A            7 DKIEE   11 (33)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 2
+>4IFD_D Exosome complex component RRP45, Exosome; EXOSOME, RNA, RRP44, DIS3, PIN; HET: MES, GOL, BR; 2.805A {Saccharomyces cerevisiae}
+Probab=6.34  E-value=5.3e+02  Score=10.69  Aligned_cols=6  Identities=33%  Similarity=0.374  Sum_probs=0.0  Template_Neff=8.900
+
+Q PTKVEE            1 PTKVEE    6 (6)
+Q Consensus         1 ptkvee    6 (6)
+                      ||..||
+T Consensus       171 Pt~~Ee  176 (245)
+T 4IFD_D          171 PTAEQL  176 (245)
+T ss_dssp             CCHHHH
+T ss_pred             CCHHHH
+
+
+No 3
+>1FAV_A HIV-1 ENVELOPE PROTEIN CHIMERA/TRANSMEMBRANE GLYCOPROTEIN; HIV-1, gp41, inhibitor, Viral protein; 3.0A {Human immunodeficiency virus 1} SCOP: h.3.2.1
+Probab=6.26  E-value=5.4e+02  Score=10.69  Aligned_cols=5  Identities=60%  Similarity=0.900  Sum_probs=0.0  Template_Neff=4.200
+
+Q PTKVEE            2 TKVEE    6 (6)
+Q Consensus         2 tkvee    6 (6)
+                      .||||
+T Consensus         4 ~kve~    8 (79)
+T 1FAV_A            4 DKIEE    8 (79)
+T ss_dssp             THHHH
+T ss_pred             HHHHH
+
+
+No 4
+>3C3G_A alpha/beta peptide with the GCN4-pLI; helix bundle, foldamer, alpha/beta-peptide, UNKNOWN; HET: GOL; 1.8A {N/A}
+Probab=6.08  E-value=5.6e+02  Score=9.52  Aligned_cols=5  Identities=40%  Similarity=0.573  Sum_probs=0.0  Template_Neff=2.900
+
+Q PTKVEE            2 TKVEE    6 (6)
+Q Consensus         2 tkvee    6 (6)
+                      .||||
+T Consensus         7 ~KVEe   11 (33)
+T 3C3G_A            7 XKLXE   11 (33)
+T ss_dssp             HHHHH
+T ss_pred             hhhHh
+
+
+No 5
+>2R2V_A GCN4 leucine zipper; Coiled coils, anti-parallel tetramer, protein; HET: ACT, CIT; 1.9A {SACCHAROMYCES CEREVISIAE} SCOP: h.1.3.1
+Probab=6.02  E-value=5.6e+02  Score=9.48  Aligned_cols=5  Identities=60%  Similarity=0.813  Sum_probs=0.0  Template_Neff=3.200
+
+Q PTKVEE            2 TKVEE    6 (6)
+Q Consensus         2 tkvee    6 (6)
+                      .||||
+T Consensus         8 dKvEe   12 (34)
+T 2R2V_A            8 DKLEE   12 (34)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 6
+>2HY6_G protein design, parallel heptamer, protein; HET: HEZ; 1.25A {Saccharomyces cerevisiae} SCOP: h.1.3.1
+Probab=5.78  E-value=5.9e+02  Score=9.47  Aligned_cols=5  Identities=60%  Similarity=0.680  Sum_probs=0.0  Template_Neff=3.000
+
+Q PTKVEE            2 TKVEE    6 (6)
+Q Consensus         2 tkvee    6 (6)
+                      .||||
+T Consensus         8 dkVEe   12 (34)
+T 2HY6_G            8 DAVEE   12 (34)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 7
+>1U9F_D General control protein GCN4; tetrameric alpha-helical coiled coil, heterocycic; HET: TA4, ACE; 2.2A {N/A} SCOP: h.1.3.1
+Probab=5.77  E-value=5.9e+02  Score=9.45  Aligned_cols=5  Identities=60%  Similarity=0.813  Sum_probs=0.0  Template_Neff=2.900
+
+Q PTKVEE            2 TKVEE    6 (6)
+Q Consensus         2 tkvee    6 (6)
+                      .||||
+T Consensus         8 dKvEe   12 (33)
+T 1U9F_D            8 DKLEE   12 (33)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 8
+>2YO3_C GENERAL CONTROL PROTEIN GCN4, PUTATIVE; HANS MOTIF, YADA-LIKE HEAD, YLHEAD; 2.0A {SACCHAROMYCES CEREVISIAE}
+Probab=5.66  E-value=6.1e+02  Score=11.52  Aligned_cols=5  Identities=60%  Similarity=0.900  Sum_probs=0.0  Template_Neff=7.000
+
+Q PTKVEE            2 TKVEE    6 (6)
+Q Consensus         2 tkvee    6 (6)
+                      .||||
+T Consensus         6 ~~~~~   10 (268)
+T 2YO3_C            6 DKIEE   10 (268)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 9
+>3NUF_A PRD-containing transcription regulator; STRUCTURAL GENOMICS, JOINT CENTER FOR; HET: EDO, PG4; 1.38A {Lactobacillus casei}
+Probab=5.54  E-value=6.3e+02  Score=9.31  Aligned_cols=5  Identities=60%  Similarity=1.059  Sum_probs=0.0  Template_Neff=8.800
+
+Q PTKVEE            1 PTKVE    5 (6)
+Q Consensus         1 ptkve    5 (6)
+                      ||.++
+T Consensus        12 ~~~~~   16 (119)
+T 3NUF_A           12 PTEVK   16 (119)
+T ss_dssp             CHHHH
+T ss_pred             CHHHH
+
+
+No 10
+>2YO3_B GENERAL CONTROL PROTEIN GCN4, PUTATIVE; HANS MOTIF, YADA-LIKE HEAD, YLHEAD; 2.0A {SACCHAROMYCES CEREVISIAE, SALMONELLA ENTERICA SUBSP. ENTERICA SEROVAR TYPHIMURIUM, SACCHAROMYCES CEREVISIAE}
+Probab=5.44  E-value=6.4e+02  Score=11.41  Aligned_cols=5  Identities=60%  Similarity=0.900  Sum_probs=0.0  Template_Neff=7.100
+
+Q PTKVEE            2 TKVEE    6 (6)
+Q Consensus         2 tkvee    6 (6)
+                      .||||
+T Consensus         6 ~~~~~   10 (268)
+T 2YO3_B            6 DKIEE   10 (268)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+

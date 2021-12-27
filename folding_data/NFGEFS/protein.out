@@ -1,0 +1,152 @@
+Query         NFGEFS
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 23:36:57 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NFGEFS/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NFGEFS/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 1UKF_A Avirulence protein AVRP  83.2    0.79 8.8E-06   19.7   0.0    6    1-6     149-154 (188)
+  2 6U8T_B PfhB2; Cysteine Proteas  67.2     4.6 5.1E-05   18.2   0.0    6    1-6     178-183 (222)
+  3 6N3A_J TAR DNA-binding protein  36.7      33 0.00036   13.8   0.0    6    1-6       2-7   (50)
+  4 6NTR_C Beta-lactamase (E.C.3.5  27.0      61 0.00068   15.0   0.0    6    1-6     225-230 (252)
+  5 5XO0_B Ischorismate lyase; iso  22.3      85 0.00094   12.7   0.0    6    1-6     213-218 (218)
+  6 5L8Z_A DNA-binding protein; th  19.6 1.1E+02  0.0012   10.6   0.0    6    1-6      50-55  (96)
+  7 7B93_l NADH-ubiquinone oxidore  19.5 1.1E+02  0.0012   13.6   0.0    4    1-4     100-103 (186)
+  8 4YFT_A DNA-binding protein HU-  19.4 1.1E+02  0.0012   10.2   0.0    6    1-6      46-51  (90)
+  9 6HIV_CF ms48, ms51, ms56, ms59  18.0 1.2E+02  0.0013   13.0   0.0    6    1-6     145-150 (160)
+ 10 6SGA_CF ?; mitochondrial ribos  17.8 1.2E+02  0.0014   13.0   0.0    6    1-6     145-150 (160)
+
+No 1
+>1UKF_A Avirulence protein AVRPPH3; AvrPphB, AvrPph3, Avirulence, Hypersensitive Response; 1.35A {Pseudomonas syringae pv. phaseolicola} SCOP: d.3.1.10
+Probab=83.17  E-value=0.79  Score=19.68  Aligned_cols=6  Identities=67%  Similarity=1.287  Sum_probs=4.7  Template_Neff=6.200
+
+Q NFGEFS            1 NFGEFS    6 (6)
+Q Consensus         1 nfgefs    6 (6)
+                      |||||+
+T Consensus       149 N~GEf~  154 (188)
+T 1UKF_A          149 NLGEFQ  154 (188)
+T ss_dssp             TTEEEE
+T ss_pred             CCceEE
+Confidence            788885
+
+
+No 2
+>6U8T_B PfhB2; Cysteine Protease, HYDROLASE; HET: PEG, MSE; 2.39A {Pasteurella multocida (strain Pm70)}
+Probab=67.16  E-value=4.6  Score=18.21  Aligned_cols=6  Identities=67%  Similarity=1.337  Sum_probs=4.3  Template_Neff=5.500
+
+Q NFGEFS            1 NFGEFS    6 (6)
+Q Consensus         1 nfgefs    6 (6)
+                      |||||+
+T Consensus       178 N~GEf~  183 (222)
+T 6U8T_B          178 NFGEMT  183 (222)
+T ss_dssp             TTEEEE
+T ss_pred             CCCeEE
+Confidence            678874
+
+
+No 3
+>6N3A_J TAR DNA-binding protein 43, segA; Amyloid, TDP43, ALS, FTLD-TDP, dna; 3.3A {Homo sapiens}
+Probab=36.72  E-value=33  Score=13.83  Aligned_cols=6  Identities=83%  Similarity=1.475  Sum_probs=3.8  Template_Neff=2.200
+
+Q NFGEFS            1 NFGEFS    6 (6)
+Q Consensus         1 nfgefs    6 (6)
+                      |||-|+
+T Consensus         2 Nfg~~~    7 (50)
+T 6N3A_J            2 NFGAFS    7 (50)
+T ss_dssp             BCSCCE
+T ss_pred             CCcccc
+Confidence            677664
+
+
+No 4
+>6NTR_C Beta-lactamase (E.C.3.5.2.6); beta barrel-like fold, beta-structure, cell; HET: GOL, EDO, MSE; 2.101A {Brucella abortus}
+Probab=26.96  E-value=61  Score=14.99  Aligned_cols=6  Identities=50%  Similarity=1.431  Sum_probs=3.8  Template_Neff=5.700
+
+Q NFGEFS            1 NFGEFS    6 (6)
+Q Consensus         1 nfgefs    6 (6)
+                      +||+|+
+T Consensus       225 DyGdF~  230 (252)
+T 6NTR_C          225 DYGDFS  230 (252)
+T ss_dssp             ECSSEE
+T ss_pred             ecCcEE
+Confidence            467774
+
+
+No 5
+>5XO0_B Ischorismate lyase; isochorismatase, DHBA, siderophore synthesis, iron; 1.85A {Vibrio anguillarum 775}
+Probab=22.32  E-value=85  Score=12.66  Aligned_cols=6  Identities=67%  Similarity=1.237  Sum_probs=0.0  Template_Neff=8.900
+
+Q NFGEFS            1 NFGEFS    6 (6)
+Q Consensus         1 nfgefs    6 (6)
+                      +|||.|
+T Consensus       213 ~~~~~~  218 (218)
+T 5XO0_B          213 SFGELS  218 (218)
+T ss_dssp             ------
+T ss_pred             ecccCC
+Confidence            356554
+
+
+No 6
+>5L8Z_A DNA-binding protein; thermostable, DNA-binding, HU-protein, Spiroplasma melliferum; 1.4A {Spiroplasma melliferum KC3}
+Probab=19.63  E-value=1.1e+02  Score=10.55  Aligned_cols=6  Identities=50%  Similarity=1.292  Sum_probs=0.0  Template_Neff=9.500
+
+Q NFGEFS            1 NFGEFS    6 (6)
+Q Consensus         1 nfgefs    6 (6)
+                      +||.|+
+T Consensus        50 glG~f~   55 (96)
+T 5L8Z_A           50 GFGKFA   55 (96)
+T ss_dssp             TTEEEE
+T ss_pred             CCEEEE
+
+
+No 7
+>7B93_l NADH-ubiquinone oxidoreductase chain 3 (E.C.7.1.1.2); Inhibitor, Ubiquinone, Complex I, Oxidoreductase; HET: 3PE, PC1, FMN, T2Q, 2MR, AME, CDL, EHZ, FME, ATP, NDP, SF4;{Mus musculus}
+Probab=19.46  E-value=1.1e+02  Score=13.63  Aligned_cols=4  Identities=75%  Similarity=1.464  Sum_probs=0.0  Template_Neff=5.800
+
+Q NFGEFS            1 NFGE    4 (6)
+Q Consensus         1 nfge    4 (6)
+                      ||||
+T Consensus       100 NfgE  103 (186)
+T 7B93_l          100 NWGE  103 (186)
+T ss_pred             CCCC
+
+
+No 8
+>4YFT_A DNA-binding protein HU-beta, DNA-binding protein; HU-DNA, transcription, pathogenicity, DNA BINDING; 2.914A {Escherichia coli}
+Probab=19.38  E-value=1.1e+02  Score=10.20  Aligned_cols=6  Identities=50%  Similarity=1.221  Sum_probs=0.0  Template_Neff=9.900
+
+Q NFGEFS            1 NFGEFS    6 (6)
+Q Consensus         1 nfgefs    6 (6)
+                      +||-|+
+T Consensus        46 ~lG~f~   51 (90)
+T 4YFT_A           46 GFGTFA   51 (90)
+T ss_dssp             TTEEEE
+T ss_pred             CCEEEE
+
+
+No 9
+>6HIV_CF ms48, ms51, ms56, ms59, ms60; mitoribosome, translation, Trypanosoma, large ribosomal; HET: GTP, SPD, NAD, MG, ZN, UTP, SPM; 7.8A {Trypanosoma brucei brucei}
+Probab=17.98  E-value=1.2e+02  Score=12.99  Aligned_cols=6  Identities=67%  Similarity=1.060  Sum_probs=0.0  Template_Neff=6.200
+
+Q NFGEFS            1 NFGEFS    6 (6)
+Q Consensus         1 nfgefs    6 (6)
+                      |+-|||
+T Consensus       145 ~~~~~~  150 (160)
+T 6HIV_CF         145 NWKEFS  150 (160)
+T ss_pred             HHHHHh
+
+
+No 10
+>6SGA_CF ?; mitochondrial ribosome, assembly intermediate, translation; HET: UBD, PM8; 3.1A {Trypanosoma brucei brucei}
+Probab=17.82  E-value=1.2e+02  Score=12.98  Aligned_cols=6  Identities=67%  Similarity=1.060  Sum_probs=0.0  Template_Neff=6.200
+
+Q NFGEFS            1 NFGEFS    6 (6)
+Q Consensus         1 nfgefs    6 (6)
+                      |+-|||
+T Consensus       145 ~~~~~~  150 (160)
+T 6SGA_CF         145 NWKEFS  150 (160)
+T ss_pred             hHHHHh
+
+

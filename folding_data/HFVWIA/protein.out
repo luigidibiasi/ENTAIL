@@ -1,0 +1,232 @@
+Query         HFVWIA
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 06:06:11 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/HFVWIA/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/HFVWIA/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6BMC_A Phospho-2-dehydro-3-deo  68.8     4.1 4.5E-05   20.3   0.0    6    1-6     211-216 (405)
+  2 3PFP_B Probable 3-deoxy-D-arab  67.7     4.5 4.9E-05   20.4   0.0    6    1-6     279-284 (464)
+  3 2YPO_A PHOSPHO-2-DEHYDRO-3-DEO  67.6     4.5   5E-05   20.4   0.0    6    1-6     277-282 (462)
+  4 5UXN_A Phospho-2-dehydro-3-deo  67.6     4.5   5E-05   20.3   0.0    6    1-6     265-270 (453)
+  5 6PBJ_B 3-deoxy-d-arabino-heptu  67.5     4.5   5E-05   20.4   0.0    6    1-6     279-284 (464)
+  6 5UXM_A Phospho-2-dehydro-3-deo  67.4     4.5   5E-05   20.3   0.0    6    1-6     265-270 (453)
+  7 5HUD_D 3-Deoxy-D-arabino-heptu  65.5     5.3 5.8E-05   20.3   0.0    6    1-6     287-292 (472)
+  8 5HUC_A 3-Deoxy-D-arabino-heptu  65.4     5.3 5.9E-05   20.3   0.0    6    1-6     287-292 (472)
+  9 3JSZ_A Putative uncharacterize  47.7      17 0.00019   19.4   0.0    6    1-6     136-141 (525)
+ 10 2VK9_A ALPHA-TOXIN; TOXIN, GLY  33.6      40 0.00044   17.1   0.0    6    1-6     101-106 (551)
+ 11 6OQ5_A Toxin B, 5D, E3, 7F; To  31.5      45  0.0005   19.3   0.0    6    1-6      99-104 (2373)
+ 12 6AR6_A Toxin B (E.C.3.4.22.-),  29.4      52 0.00058   19.0   0.0    6    1-6      96-101 (2067)
+ 13 5UQM_A Toxin B (E.C.3.4.22.-);  28.9      54 0.00059   16.6   0.0    6    1-6     119-124 (563)
+ 14 6RTG_A RTX toxin and Ca2+-bind  27.5      59 0.00065   16.6   0.0    6    1-6      21-26  (521)
+ 15 6RTH_A RTX toxin and Ca2+-bind  27.5      59 0.00065   16.6   0.0    6    1-6      21-26  (521)
+
+No 1
+>6BMC_A Phospho-2-dehydro-3-deoxyheptonate aldolase (E.C.2.5.1.54); TRANSFERASE, DAH7PS, 3-deoxy-D-arabino-heptulosonate 7-phosphate synthase; HET: PEP; 2.7A {Pseudomonas aeruginosa}
+Probab=68.79  E-value=4.1  Score=20.32  Aligned_cols=6  Identities=50%  Similarity=1.470  Sum_probs=4.9  Template_Neff=4.400
+
+Q HFVWIA            1 HFVWIA    6 (6)
+Q Consensus         1 hfvwia    6 (6)
+                      ||+||.
+T Consensus       211 H~lWIG  216 (405)
+T 6BMC_A          211 HWPWIG  216 (405)
+T ss_dssp             SSCEEC
+T ss_pred             cccccc
+Confidence            899983
+
+
+No 2
+>3PFP_B Probable 3-deoxy-D-arabino-heptulosonate 7-phosphate synthase AroG; Shikimate pathway, Mycobacterium tuberculosis, DAH7P; HET: 036, 035; 2.35A {Mycobacterium tuberculosis}
+Probab=67.69  E-value=4.5  Score=20.44  Aligned_cols=6  Identities=67%  Similarity=1.437  Sum_probs=4.9  Template_Neff=4.500
+
+Q HFVWIA            1 HFVWIA    6 (6)
+Q Consensus         1 hfvwia    6 (6)
+                      ||+||.
+T Consensus       279 H~lWIG  284 (464)
+T 3PFP_B          279 HTVWIG  284 (464)
+T ss_dssp             SEEEEC
+T ss_pred             eeeEec
+Confidence            899984
+
+
+No 3
+>2YPO_A PHOSPHO-2-DEHYDRO-3-DEOXYHEPTONATE ALDOLASE AROG (E.C.2.5.1.54); SHIKIMATE PATHWAY, TRANSFERASE, AROMATIC AMINO; HET: SO4, PHE, GOL; 2.0A {MYCOBACTERIUM TUBERCULOSIS}
+Probab=67.61  E-value=4.5  Score=20.42  Aligned_cols=6  Identities=67%  Similarity=1.437  Sum_probs=4.9  Template_Neff=4.500
+
+Q HFVWIA            1 HFVWIA    6 (6)
+Q Consensus         1 hfvwia    6 (6)
+                      ||+||.
+T Consensus       277 H~lWIG  282 (462)
+T 2YPO_A          277 HTVWIG  282 (462)
+T ss_dssp             SEEEEC
+T ss_pred             eeeEec
+Confidence            899984
+
+
+No 4
+>5UXN_A Phospho-2-dehydro-3-deoxyheptonate aldolase (E.C.2.5.1.54); TRANSFERASE, DAH7PS, 3-deoxy-D-arabino-heptulosonate 7-phosphate synthase; HET: PO4, TYR, PEP; 2.2A {Pseudomonas aeruginosa (strain ATCC 15692 / DSM 22644 / CIP 104116 / JCM 14847 / LMG 12228 / 1C / PRS 101 / PAO1)}
+Probab=67.58  E-value=4.5  Score=20.28  Aligned_cols=6  Identities=50%  Similarity=1.558  Sum_probs=4.9  Template_Neff=4.700
+
+Q HFVWIA            1 HFVWIA    6 (6)
+Q Consensus         1 hfvwia    6 (6)
+                      ||+||.
+T Consensus       265 H~lWIG  270 (453)
+T 5UXN_A          265 HMLWIG  270 (453)
+T ss_dssp             SEEEEC
+T ss_pred             eeEEec
+Confidence            899983
+
+
+No 5
+>6PBJ_B 3-deoxy-d-arabino-heptulosonate 7-phosphate synthase (E.C.2.5.1.54); DAH7PS, Allostery, shipmate pathway, TIM; HET: SO4, PO4, PG4, PEG; 1.9A {Mycobacterium tuberculosis}
+Probab=67.47  E-value=4.5  Score=20.42  Aligned_cols=6  Identities=67%  Similarity=1.437  Sum_probs=4.9  Template_Neff=4.500
+
+Q HFVWIA            1 HFVWIA    6 (6)
+Q Consensus         1 hfvwia    6 (6)
+                      ||+||.
+T Consensus       279 H~lWIG  284 (464)
+T 6PBJ_B          279 HTVWIG  284 (464)
+T ss_dssp             SEEEEC
+T ss_pred             eeeEec
+Confidence            899984
+
+
+No 6
+>5UXM_A Phospho-2-dehydro-3-deoxyheptonate aldolase (E.C.2.5.1.54); TRANSFERASE, DAH7PS, 3-deoxy-D-arabino-heptulosonate 7-phosphate synthase; HET: PEP, PO4, TRP; 1.54A {Pseudomonas aeruginosa (strain ATCC 15692 / DSM 22644 / CIP 104116 / JCM 14847 / LMG 12228 / 1C / PRS 101 / PAO1)}
+Probab=67.43  E-value=4.5  Score=20.26  Aligned_cols=6  Identities=50%  Similarity=1.558  Sum_probs=4.9  Template_Neff=4.700
+
+Q HFVWIA            1 HFVWIA    6 (6)
+Q Consensus         1 hfvwia    6 (6)
+                      ||+||.
+T Consensus       265 H~lWIG  270 (453)
+T 5UXM_A          265 HMLWIG  270 (453)
+T ss_dssp             SEEEEC
+T ss_pred             eeEEec
+Confidence            899983
+
+
+No 7
+>5HUD_D 3-Deoxy-D-arabino-heptulosonate 7-phosphate (DAHP) synthase (E.C.2.5.1.54); chorismate mutase, DAHP synthase, shikimate; HET: PEG, TSA, PG4, PGE, TRP, PO4, GOL; 2.15A {Corynebacterium glutamicum}
+Probab=65.54  E-value=5.3  Score=20.29  Aligned_cols=6  Identities=50%  Similarity=1.326  Sum_probs=4.9  Template_Neff=4.400
+
+Q HFVWIA            1 HFVWIA    6 (6)
+Q Consensus         1 hfvwia    6 (6)
+                      ||+||.
+T Consensus       287 H~lWIG  292 (472)
+T 5HUD_D          287 HQLWIG  292 (472)
+T ss_dssp             SEEEEC
+T ss_pred             eeEEEe
+Confidence            899984
+
+
+No 8
+>5HUC_A 3-Deoxy-D-arabino-heptulosonate 7-phosphate (DAHP) synthase; DAHP synthase, shikimate pathway, Transferase; HET: PO4, PEP, TRP, MPD; 2.45A {Corynebacterium glutamicum}
+Probab=65.36  E-value=5.3  Score=20.27  Aligned_cols=6  Identities=50%  Similarity=1.326  Sum_probs=4.9  Template_Neff=4.400
+
+Q HFVWIA            1 HFVWIA    6 (6)
+Q Consensus         1 hfvwia    6 (6)
+                      ||+||.
+T Consensus       287 H~lWIG  292 (472)
+T 5HUC_A          287 HQLWIG  292 (472)
+T ss_dssp             SEEEEC
+T ss_pred             eeEEEe
+Confidence            899984
+
+
+No 9
+>3JSZ_A Putative uncharacterized protein; glucosyltransferase, Legionnaire's disease, Legionella pneumophila; HET: UPG; 1.7A {Legionella pneumophila}
+Probab=47.71  E-value=17  Score=19.38  Aligned_cols=6  Identities=17%  Similarity=0.905  Sum_probs=4.7  Template_Neff=3.100
+
+Q HFVWIA            1 HFVWIA    6 (6)
+Q Consensus         1 hfvwia    6 (6)
+                      ||||+.
+T Consensus       136 HFIWFG  141 (525)
+T 3JSZ_A          136 TSIWFS  141 (525)
+T ss_dssp             EEECCC
+T ss_pred             EEEEcc
+Confidence            789974
+
+
+No 10
+>2VK9_A ALPHA-TOXIN; TOXIN, GLYCOSYLTRANSFERASE; 2.85A {CLOSTRIDIUM NOVYI} SCOP: c.68.1.22
+Probab=33.64  E-value=40  Score=17.08  Aligned_cols=6  Identities=50%  Similarity=1.586  Sum_probs=4.1  Template_Neff=5.800
+
+Q HFVWIA            1 HFVWIA    6 (6)
+Q Consensus         1 hfvwia    6 (6)
+                      ||+|++
+T Consensus       101 HqIWig  106 (551)
+T 2VK9_A          101 SFIWIG  106 (551)
+T ss_dssp             EEECCS
+T ss_pred             EEEeCC
+Confidence            778863
+
+
+No 11
+>6OQ5_A Toxin B, 5D, E3, 7F; Toxin VHH, TOXIN; 3.87A {Clostridioides difficile}
+Probab=31.54  E-value=45  Score=19.30  Aligned_cols=6  Identities=67%  Similarity=1.929  Sum_probs=4.6  Template_Neff=6.900
+
+Q HFVWIA            1 HFVWIA    6 (6)
+Q Consensus         1 hfvwia    6 (6)
+                      ||||+.
+T Consensus        99 HfiW~g  104 (2373)
+T 6OQ5_A           99 HFIWIG  104 (2373)
+T ss_pred             EEEeCC
+Confidence            788873
+
+
+No 12
+>6AR6_A Toxin B (E.C.3.4.22.-), DLD-4 darpin; TOXIN-PROTEIN BINDING complex; 9.0A {Clostridioides difficile}
+Probab=29.36  E-value=52  Score=19.01  Aligned_cols=6  Identities=83%  Similarity=1.946  Sum_probs=4.6  Template_Neff=6.500
+
+Q HFVWIA            1 HFVWIA    6 (6)
+Q Consensus         1 hfvwia    6 (6)
+                      ||||+.
+T Consensus        96 HfVWlg  101 (2067)
+T 6AR6_A           96 HFVWIG  101 (2067)
+T ss_pred             EEEEcC
+Confidence            788873
+
+
+No 13
+>5UQM_A Toxin B (E.C.3.4.22.-); Glucosyltransferase, toxin, HYDROLASE, TRANSFERASE; HET: U2F, SO4; 2.03A {Clostridioides difficile}
+Probab=28.87  E-value=54  Score=16.55  Aligned_cols=6  Identities=83%  Similarity=1.946  Sum_probs=4.0  Template_Neff=6.100
+
+Q HFVWIA            1 HFVWIA    6 (6)
+Q Consensus         1 hfvwia    6 (6)
+                      ||+|++
+T Consensus       119 HqiW~g  124 (563)
+T 5UQM_A          119 HFVWIG  124 (563)
+T ss_pred             EEEeCC
+Confidence            677763
+
+
+No 14
+>6RTG_A RTX toxin and Ca2+-binding protein; Glycosyltransferase domain, Toxin, Nucleotide binding; HET: UDP, EDO; 1.9A {Yersinia mollaretii (strain ATCC 43969 / DSM 18520 / CIP 103324 / CNY 7263 / WAIP 204)}
+Probab=27.50  E-value=59  Score=16.62  Aligned_cols=6  Identities=67%  Similarity=1.437  Sum_probs=4.1  Template_Neff=5.400
+
+Q HFVWIA            1 HFVWIA    6 (6)
+Q Consensus         1 hfvwia    6 (6)
+                      ||+|++
+T Consensus        21 HqIWig   26 (521)
+T 6RTG_A           21 HTVWIG   26 (521)
+T ss_dssp             EEECCS
+T ss_pred             EEEeCC
+Confidence            678863
+
+
+No 15
+>6RTH_A RTX toxin and Ca2+-binding protein; Glycosyltransferase domain, Toxin; 3.4A {Yersinia mollaretii (strain ATCC 43969 / DSM 18520 / CIP 103324 / CNY 7263 / WAIP 204)}
+Probab=27.50  E-value=59  Score=16.62  Aligned_cols=6  Identities=67%  Similarity=1.437  Sum_probs=4.1  Template_Neff=5.400
+
+Q HFVWIA            1 HFVWIA    6 (6)
+Q Consensus         1 hfvwia    6 (6)
+                      ||+|++
+T Consensus        21 HqIWig   26 (521)
+T 6RTH_A           21 HTVWIG   26 (521)
+T ss_dssp             EEECCS
+T ss_pred             EEEeCC
+Confidence            678863
+
+

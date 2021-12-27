@@ -1,0 +1,154 @@
+Query         NSNSSN
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 04:18:23 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NSNSSN/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/NSNSSN/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 7L3O_A Threonyl-tRNA synthetas  45.5      19 0.00021   15.3   0.0    6    1-6     436-441 (442)
+  2 7L3O_B Threonyl-tRNA synthetas  45.5      19 0.00021   15.3   0.0    6    1-6     436-441 (442)
+  3 6N7M_A Hypothetical Protein CD  22.1      86 0.00096   14.3   0.0    6    1-6       2-7   (110)
+  4 6N7M_B Hypothetical Protein CD  22.1      86 0.00096   14.3   0.0    6    1-6       2-7   (110)
+  5 2ND4_A Amylase-binding protein   6.5 5.1E+02  0.0056   12.6   0.0    6    1-6       3-8   (173)
+  6 2EOY_A Zinc finger protein 473   6.2 5.4E+02   0.006    5.7   0.0    5    1-5       1-5   (46)
+  7 4QXA_A Ras-related protein Rab   5.9 5.8E+02  0.0064    8.7   0.0    6    1-6     196-201 (208)
+  8 2YUO_A RUN and TBC1 domain con   5.8 5.9E+02  0.0065    7.0   0.0    6    1-6      72-77  (78)
+  9 2EOX_A Zinc finger protein 473   5.8 5.9E+02  0.0065    5.3   0.0    5    1-5       2-6   (44)
+ 10 3TVR_A Polyketide cyclase; Hel   5.7   6E+02  0.0066    8.7   0.0    6    1-6       2-7   (173)
+
+No 1
+>7L3O_A Threonyl-tRNA synthetase (E.C.6.1.1.3); SSGCID, Threonyl-tRNA synthetase, class-II aminoacyl-tRNA; 2.1A {Cryptosporidium parvum (strain Iowa II)}
+Probab=45.48  E-value=19  Score=15.26  Aligned_cols=6  Identities=83%  Similarity=0.911  Sum_probs=0.4  Template_Neff=9.900
+
+Q NSNSSN            1 NSNSSN    6 (6)
+Q Consensus         1 nsnssn    6 (6)
+                      ++|+||
+T Consensus       436 ~~~~~~  441 (442)
+T 7L3O_A          436 DSNSSN  441 (442)
+T ss_dssp             C-----
+T ss_pred             ccCcCC
+Confidence            466765
+
+
+No 2
+>7L3O_B Threonyl-tRNA synthetase (E.C.6.1.1.3); SSGCID, Threonyl-tRNA synthetase, class-II aminoacyl-tRNA; 2.1A {Cryptosporidium parvum (strain Iowa II)}
+Probab=45.48  E-value=19  Score=15.26  Aligned_cols=6  Identities=83%  Similarity=0.911  Sum_probs=0.4  Template_Neff=9.900
+
+Q NSNSSN            1 NSNSSN    6 (6)
+Q Consensus         1 nsnssn    6 (6)
+                      ++|+||
+T Consensus       436 ~~~~~~  441 (442)
+T 7L3O_B          436 DSNSSN  441 (442)
+T ss_dssp             C-----
+T ss_pred             ccCcCC
+Confidence            466765
+
+
+No 3
+>6N7M_A Hypothetical Protein CD630_05490; Structural Genomics, Center for Structural; HET: MSE; 1.78A {Peptoclostridium difficile (strain 630)}
+Probab=22.15  E-value=86  Score=14.32  Aligned_cols=6  Identities=67%  Similarity=0.850  Sum_probs=0.0  Template_Neff=1.300
+
+Q NSNSSN            1 NSNSSN    6 (6)
+Q Consensus         1 nsnssn    6 (6)
+                      ||++||
+T Consensus         2 nsd~sn    7 (110)
+T 6N7M_A            2 NADSSN    7 (110)
+T ss_dssp             ------
+T ss_pred             Cccccc
+Confidence            455664
+
+
+No 4
+>6N7M_B Hypothetical Protein CD630_05490; Structural Genomics, Center for Structural; HET: MSE; 1.78A {Peptoclostridium difficile (strain 630)}
+Probab=22.15  E-value=86  Score=14.32  Aligned_cols=6  Identities=67%  Similarity=0.850  Sum_probs=0.0  Template_Neff=1.300
+
+Q NSNSSN            1 NSNSSN    6 (6)
+Q Consensus         1 nsnssn    6 (6)
+                      ||++||
+T Consensus         2 nsd~sn    7 (110)
+T 6N7M_B            2 NADSSN    7 (110)
+T ss_dssp             ------
+T ss_pred             Cccccc
+Confidence            455664
+
+
+No 5
+>2ND4_A Amylase-binding protein AbpA; Novel Fold, HYDROLASE RECEPTOR; NMR {Streptococcus parasanguinis FW213}
+Probab=6.51  E-value=5.1e+02  Score=12.59  Aligned_cols=6  Identities=50%  Similarity=0.678  Sum_probs=0.0  Template_Neff=2.700
+
+Q NSNSSN            1 NSNSSN    6 (6)
+Q Consensus         1 nsnssn    6 (6)
+                      |+|+||
+T Consensus         3 n~~~sN    8 (173)
+T 2ND4_A            3 NPSASN    8 (173)
+T ss_dssp             SCSSCC
+T ss_pred             CCchhh
+
+
+No 6
+>2EOY_A Zinc finger protein 473; zf-C2H2, Structural Genomics, NPPSFA, National; HET: ZN; NMR {Homo sapiens}
+Probab=6.21  E-value=5.4e+02  Score=5.73  Aligned_cols=5  Identities=40%  Similarity=0.408  Sum_probs=0.0  Template_Neff=13.100
+
+Q NSNSSN            1 NSNSS    5 (6)
+Q Consensus         1 nsnss    5 (6)
+                      +++++
+T Consensus         1 ~~~~~    5 (46)
+T 2EOY_A            1 GSSGS    5 (46)
+T ss_dssp             CCCCC
+T ss_pred             CCCCC
+
+
+No 7
+>4QXA_A Ras-related protein Rab-9A, Small G; PH domain, Rab9A, RUTBC2, Rab; HET: GTP; 2.3A {Mus musculus}
+Probab=5.87  E-value=5.8e+02  Score=8.74  Aligned_cols=6  Identities=50%  Similarity=0.357  Sum_probs=0.0  Template_Neff=12.200
+
+Q NSNSSN            1 NSNSSN    6 (6)
+Q Consensus         1 nsnssn    6 (6)
+                      ++++|+
+T Consensus       196 ~~~~~~  201 (208)
+T 4QXA_A          196 KPNSSL  201 (208)
+T ss_dssp             ------
+T ss_pred             CCCCcc
+
+
+No 8
+>2YUO_A RUN and TBC1 domain containing; CIP85, Structural Genomics, NPPSFA, National; NMR {Mus musculus}
+Probab=5.82  E-value=5.9e+02  Score=7.01  Aligned_cols=6  Identities=33%  Similarity=0.324  Sum_probs=0.0  Template_Neff=12.300
+
+Q NSNSSN            1 NSNSSN    6 (6)
+Q Consensus         1 nsnssn    6 (6)
+                      +++++|
+T Consensus        72 ~~~~~~   77 (78)
+T 2YUO_A           72 ASGPSS   77 (78)
+T ss_dssp             CCCCSC
+T ss_pred             CCCCCC
+
+
+No 9
+>2EOX_A Zinc finger protein 473; zf-C2H2, Structural Genomics, NPPSFA, National; HET: ZN; NMR {Homo sapiens} SCOP: k.12.1.1
+Probab=5.80  E-value=5.9e+02  Score=5.31  Aligned_cols=5  Identities=60%  Similarity=0.527  Sum_probs=0.0  Template_Neff=13.600
+
+Q NSNSSN            1 NSNSS    5 (6)
+Q Consensus         1 nsnss    5 (6)
+                      +++++
+T Consensus         2 ~~~~~    6 (44)
+T 2EOX_A            2 SSGSS    6 (44)
+T ss_dssp             CCCCC
+T ss_pred             CCCCc
+
+
+No 10
+>3TVR_A Polyketide cyclase; Helix-grip fold, polyketide aromatase/cyclase, polyketide; 1.8A {Streptomyces coelicolor}
+Probab=5.73  E-value=6e+02  Score=8.69  Aligned_cols=6  Identities=33%  Similarity=0.390  Sum_probs=0.0  Template_Neff=11.600
+
+Q NSNSSN            1 NSNSSN    6 (6)
+Q Consensus         1 nsnssn    6 (6)
+                      |.+|++
+T Consensus         2 ~~~~~~    7 (173)
+T 3TVR_A            2 HHHSSG    7 (173)
+T ss_dssp             CCCCCS
+T ss_pred             CCCcCC
+
+

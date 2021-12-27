@@ -1,0 +1,153 @@
+Query         QAQPAG
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Tue Dec 21 07:16:57 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QAQPAG/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/QAQPAG/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2JLN_A MHP1; HYDANTOIN, TRANSP  27.5      59 0.00065   15.0   0.0    6    1-6     486-491 (501)
+  2 2X79_A HYDANTOIN TRANSPORT PRO  27.3      60 0.00066   15.0   0.0    6    1-6     486-491 (501)
+  3 4O5P_A Uncharacterized protein   7.3 4.4E+02  0.0049   14.7   0.0    6    1-6     861-866 (884)
+  4 2XAQ_A LYSINE-SPECIFIC HISTONE   6.9 4.7E+02  0.0052   13.8   0.0    5    2-6      39-43  (852)
+  5 4O5P_B Uncharacterized protein   6.9 4.7E+02  0.0052   14.6   0.0    6    1-6     861-866 (884)
+  6 5L3D_A Lysine-specific histone   6.8 4.8E+02  0.0053   13.7   0.0    5    2-6      39-43  (852)
+  7 5Z8Q_A Heat shock protein SSA1   6.7 4.9E+02  0.0054    8.9   0.0    6    1-6      96-101 (101)
+  8 5OVY_A Putative transcriptiona   6.3 5.4E+02  0.0059    9.5   0.0    5    2-6     216-220 (222)
+  9 7CNC_A Enhancer of rudimentary   6.1 5.6E+02  0.0062   11.2   0.0    6    1-6     106-111 (112)
+ 10 4HYD_B Putative uncharacterize   5.8 5.9E+02  0.0065   11.5   0.0    5    1-5     270-274 (301)
+
+No 1
+>2JLN_A MHP1; HYDANTOIN, TRANSPORTER, MEMBRANE PROTEIN, NUCLEOBASE-CATION-SYMPORT-1; 2.85A {MICROBACTERIUM LIQUEFACIENS}
+Probab=27.54  E-value=59  Score=14.99  Aligned_cols=6  Identities=83%  Similarity=1.204  Sum_probs=0.0  Template_Neff=8.400
+
+Q QAQPAG            1 QAQPAG    6 (6)
+Q Consensus         1 qaqpag    6 (6)
+                      |.||+|
+T Consensus       486 ~~~~~~  491 (501)
+T 2JLN_A          486 QNQPAG  491 (501)
+T ss_dssp             ------
+T ss_pred             cCCCCC
+Confidence            456664
+
+
+No 2
+>2X79_A HYDANTOIN TRANSPORT PROTEIN; TRANSPORT PROTEIN, TRANSPORTER, MEMBRANE PROTEIN; 3.8A {MICROBACTERIUM LIQUEFACIENS}
+Probab=27.29  E-value=60  Score=14.97  Aligned_cols=6  Identities=83%  Similarity=1.204  Sum_probs=0.0  Template_Neff=8.400
+
+Q QAQPAG            1 QAQPAG    6 (6)
+Q Consensus         1 qaqpag    6 (6)
+                      |.||+|
+T Consensus       486 ~~~~~~  491 (501)
+T 2X79_A          486 QNQPAG  491 (501)
+T ss_dssp             ------
+T ss_pred             cCCCCC
+Confidence            456664
+
+
+No 3
+>4O5P_A Uncharacterized protein; phospholipase effector, HYDROLASE; 2.001A {Pseudomonas aeruginosa}
+Probab=7.27  E-value=4.4e+02  Score=14.71  Aligned_cols=6  Identities=83%  Similarity=1.237  Sum_probs=0.0  Template_Neff=5.500
+
+Q QAQPAG            1 QAQPAG    6 (6)
+Q Consensus         1 qaqpag    6 (6)
+                      ||||.|
+T Consensus       861 ~~~~~~  866 (884)
+T 4O5P_A          861 QAQPPG  866 (884)
+T ss_dssp             ------
+T ss_pred             cCCCCC
+Confidence            456543
+
+
+No 4
+>2XAQ_A LYSINE-SPECIFIC HISTONE DEMETHYLASE 1 (E.C.1.-.-.-); AMINE OXIDASE, CHROMATIN REGULATOR, HISTONE; HET: M84, FAD; 3.2A {HOMO SAPIENS}
+Probab=6.91  E-value=4.7e+02  Score=13.75  Aligned_cols=5  Identities=100%  Similarity=1.444  Sum_probs=0.0  Template_Neff=7.300
+
+Q QAQPAG            2 AQPAG    6 (6)
+Q Consensus         2 aqpag    6 (6)
+                      |||+|
+T Consensus        39 ~~~~~   43 (852)
+T 2XAQ_A           39 AQPAG   43 (852)
+T ss_dssp             -----
+T ss_pred             cCCCC
+
+
+No 5
+>4O5P_B Uncharacterized protein; phospholipase effector, HYDROLASE; HET: MSE; 2.001A {Pseudomonas aeruginosa}
+Probab=6.87  E-value=4.7e+02  Score=14.65  Aligned_cols=6  Identities=83%  Similarity=1.237  Sum_probs=0.0  Template_Neff=5.400
+
+Q QAQPAG            1 QAQPAG    6 (6)
+Q Consensus         1 qaqpag    6 (6)
+                      ||||.|
+T Consensus       861 ~~~~~~  866 (884)
+T 4O5P_B          861 QAQPPG  866 (884)
+T ss_dssp             ------
+T ss_pred             cCCCCC
+
+
+No 6
+>5L3D_A Lysine-specific histone demethylase 1A (E.C.1.-.-.-); OXIDOREDUCTASE-REPRESSOR complex, Histone demethylase, chromatin; HET: FAD; 2.6A {Homo sapiens}
+Probab=6.85  E-value=4.8e+02  Score=13.74  Aligned_cols=5  Identities=100%  Similarity=1.444  Sum_probs=0.0  Template_Neff=7.300
+
+Q QAQPAG            2 AQPAG    6 (6)
+Q Consensus         2 aqpag    6 (6)
+                      |||+|
+T Consensus        39 ~~~~~   43 (852)
+T 5L3D_A           39 AQPAG   43 (852)
+T ss_dssp             -----
+T ss_pred             cCCCC
+
+
+No 7
+>5Z8Q_A Heat shock protein SSA1; yeast Ssa1, SBDalpha domain, CHAPERONE; NMR {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=6.70  E-value=4.9e+02  Score=8.89  Aligned_cols=6  Identities=33%  Similarity=0.778  Sum_probs=0.0  Template_Neff=9.700
+
+Q QAQPAG            1 QAQPAG    6 (6)
+Q Consensus         1 qaqpag    6 (6)
+                      |+.|.|
+T Consensus        96 ~~~~~~  101 (101)
+T 5Z8Q_A           96 GGAPGG  101 (101)
+T ss_dssp             CCCCCC
+T ss_pred             CCCCCC
+
+
+No 8
+>5OVY_A Putative transcriptional regulator, TetR family; TetR, efflux pump regulation, antibiotic; 1.9A {Mycobacterium abscessus (strain ATCC 19977 / DSM 44196 / CIP 104536 / JCM 13569 / NCTC 13031 / TMC 1543)}
+Probab=6.25  E-value=5.4e+02  Score=9.47  Aligned_cols=5  Identities=80%  Similarity=1.046  Sum_probs=0.0  Template_Neff=11.100
+
+Q QAQPAG            2 AQPAG    6 (6)
+Q Consensus         2 aqpag    6 (6)
+                      .||+|
+T Consensus       216 ~~~~~  220 (222)
+T 5OVY_A          216 WQPAG  220 (222)
+T ss_dssp             -----
+T ss_pred             cccCC
+
+
+No 9
+>7CNC_A Enhancer of rudimentary homolog, Microprocessor; Protein-protein interaction, PROTEIN BINDING; 1.6A {Homo sapiens}
+Probab=6.07  E-value=5.6e+02  Score=11.22  Aligned_cols=6  Identities=83%  Similarity=0.922  Sum_probs=0.0  Template_Neff=4.300
+
+Q QAQPAG            1 QAQPAG    6 (6)
+Q Consensus         1 qaqpag    6 (6)
+                      ||+.+|
+T Consensus       106 qA~~~~  111 (112)
+T 7CNC_A          106 QAQQAG  111 (112)
+T ss_dssp             HHC---
+T ss_pred             HHHHhC
+
+
+No 10
+>4HYD_B Putative uncharacterized protein; protease, MEMBRANE PROTEIN; 3.8A {Methanoculleus marisnigri JR1}
+Probab=5.84  E-value=5.9e+02  Score=11.54  Aligned_cols=5  Identities=20%  Similarity=0.302  Sum_probs=0.0  Template_Neff=7.500
+
+Q QAQPAG            1 QAQPA    5 (6)
+Q Consensus         1 qaqpa    5 (6)
+                      .+|||
+T Consensus       270 ~aqPA  274 (301)
+T 4HYD_B          270 NPQAG  274 (301)
+T ss_dssp             SCCCS
+T ss_pred             CCCcc
+
+

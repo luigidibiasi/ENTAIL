@@ -1,0 +1,145 @@
+Query         LAKVYV
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Mon Dec 20 13:42:49 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LAKVYV/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/LAKVYV/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6U42_7D Tubulin beta, Tubulin   22.3      85 0.00095   14.9   0.0    6    1-6     119-124 (146)
+  2 2R1C_A Ribosome-binding factor  19.6 1.1E+02  0.0012   11.2   0.0    5    2-6      45-49  (95)
+  3 5UP1_A EEHEE_rd3_1049; de novo  15.6 1.5E+02  0.0017   12.6   0.0    5    1-5      46-50  (64)
+  4 4MAL_B Motility protein FimV;   13.0   2E+02  0.0022   10.1   0.0    6    1-6      24-29  (64)
+  5 4MBQ_C Motility protein FimV;   13.0   2E+02  0.0022   10.1   0.0    6    1-6      24-29  (64)
+  6 6YXY_A8 bL28m, uL29m, uL30m, b  12.9   2E+02  0.0022   14.1   0.0    6    1-6      18-23  (181)
+  7 6HIV_A8 ms48, ms51, ms56, ms59  12.9   2E+02  0.0022   14.1   0.0    6    1-6      18-23  (181)
+  8 7EGF_k Transcription initiatio  12.7   2E+02  0.0023   13.4   0.0    6    1-6     157-162 (211)
+  9 7EGI_k Transcription initiatio  12.7   2E+02  0.0023   13.4   0.0    6    1-6     157-162 (211)
+ 10 7ANE_c mL94, mL89, Ribosomal p  12.1 2.2E+02  0.0024   14.2   0.0    5    1-5       9-13  (311)
+
+No 1
+>6U42_7D Tubulin beta, Tubulin alpha, PACRG; motile cilia, microtubule doublet, repetitive; HET: GDP, GTP, MG; 3.4A {Chlamydomonas reinhardtii}
+Probab=22.30  E-value=85  Score=14.87  Aligned_cols=6  Identities=67%  Similarity=1.176  Sum_probs=3.9  Template_Neff=1.200
+
+Q LAKVYV            1 LAKVYV    6 (6)
+Q Consensus         1 lakvyv    6 (6)
+                      +||||.
+T Consensus       119 ~akvym  124 (146)
+T 6U42_7D         119 MAKVYM  124 (146)
+T ss_pred             heeeeh
+Confidence            477773
+
+
+No 2
+>2R1C_A Ribosome-binding factor A; helix-kink-helix, KH domain, rRNA processing; 12.5A {Thermus thermophilus} SCOP: d.52.7.1
+Probab=19.65  E-value=1.1e+02  Score=11.15  Aligned_cols=5  Identities=60%  Similarity=0.899  Sum_probs=0.0  Template_Neff=8.300
+
+Q LAKVYV            2 AKVYV    6 (6)
+Q Consensus         2 akvyv    6 (6)
+                      |+||+
+T Consensus        45 a~Vy~   49 (95)
+T 2R1C_A           45 LSVYV   49 (95)
+T ss_dssp             EEEEE
+T ss_pred             EEEEE
+
+
+No 3
+>5UP1_A EEHEE_rd3_1049; de novo design, mini protein; NMR {Escherichia coli}
+Probab=15.56  E-value=1.5e+02  Score=12.55  Aligned_cols=5  Identities=80%  Similarity=1.364  Sum_probs=0.0  Template_Neff=1.000
+
+Q LAKVYV            1 LAKVY    5 (6)
+Q Consensus         1 lakvy    5 (6)
+                      |||+|
+T Consensus        46 lakiy   50 (64)
+T 5UP1_A           46 LAKIY   50 (64)
+T ss_dssp             HHHHT
+T ss_pred             HHHHh
+
+
+No 4
+>4MAL_B Motility protein FimV; TPR, UNKNOWN FUNCTION; HET: MSE; 2.05A {Pseudomonas aeruginosa}
+Probab=12.97  E-value=2e+02  Score=10.14  Aligned_cols=6  Identities=50%  Similarity=1.115  Sum_probs=0.0  Template_Neff=7.400
+
+Q LAKVYV            1 LAKVYV    6 (6)
+Q Consensus         1 lakvyv    6 (6)
+                      ||+.|.
+T Consensus        24 LA~aY~   29 (64)
+T 4MAL_B           24 LARAYI   29 (64)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 5
+>4MBQ_C Motility protein FimV; TPR, UNKNOWN FUNCTION; 2.006A {Pseudomonas aeruginosa}
+Probab=12.97  E-value=2e+02  Score=10.14  Aligned_cols=6  Identities=50%  Similarity=1.115  Sum_probs=0.0  Template_Neff=7.400
+
+Q LAKVYV            1 LAKVYV    6 (6)
+Q Consensus         1 lakvyv    6 (6)
+                      ||+.|.
+T Consensus        24 LA~aY~   29 (64)
+T 4MBQ_C           24 LARAYI   29 (64)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+
+
+No 6
+>6YXY_A8 bL28m, uL29m, uL30m, bL32m, bL35m; mitoribosome, assembly, LSU, RIBOSOME; HET: ATP, PM8, MG, SPD, NAD, GTP; 3.1A {Trypanosoma brucei brucei}
+Probab=12.91  E-value=2e+02  Score=14.11  Aligned_cols=6  Identities=67%  Similarity=1.309  Sum_probs=0.0  Template_Neff=1.600
+
+Q LAKVYV            1 LAKVYV    6 (6)
+Q Consensus         1 lakvyv    6 (6)
+                      |||+|+
+T Consensus        18 ~~~~~~   23 (181)
+T 6YXY_A8          18 LAKIYI   23 (181)
+T ss_pred             HHHHHH
+
+
+No 7
+>6HIV_A8 ms48, ms51, ms56, ms59, ms60; mitoribosome, translation, Trypanosoma, large ribosomal; HET: GTP, SPD, NAD, MG, ZN, UTP, SPM; 7.8A {Trypanosoma brucei brucei}
+Probab=12.87  E-value=2e+02  Score=14.10  Aligned_cols=6  Identities=67%  Similarity=1.309  Sum_probs=0.0  Template_Neff=1.600
+
+Q LAKVYV            1 LAKVYV    6 (6)
+Q Consensus         1 lakvyv    6 (6)
+                      |||+|+
+T Consensus        18 ~~~~~~   23 (181)
+T 6HIV_A8          18 LAKIYI   23 (181)
+T ss_pred             HHHHHH
+
+
+No 8
+>7EGF_k Transcription initiation factor TFIID subunit; TFIID, preinitiation complex, core promoter; 3.16A {Homo sapiens}
+Probab=12.75  E-value=2e+02  Score=13.42  Aligned_cols=6  Identities=50%  Similarity=1.054  Sum_probs=0.0  Template_Neff=4.900
+
+Q LAKVYV            1 LAKVYV    6 (6)
+Q Consensus         1 lakvyv    6 (6)
+                      |||++|
+T Consensus       157 LAKefV  162 (211)
+T 7EGF_k          157 ISKVFV  162 (211)
+T ss_pred             HHHHHH
+
+
+No 9
+>7EGI_k Transcription initiation factor TFIID subunit; TFIID, preinitiation complex, core promoter; 9.82A {Homo sapiens}
+Probab=12.75  E-value=2e+02  Score=13.42  Aligned_cols=6  Identities=50%  Similarity=1.054  Sum_probs=0.0  Template_Neff=4.900
+
+Q LAKVYV            1 LAKVYV    6 (6)
+Q Consensus         1 lakvyv    6 (6)
+                      |||++|
+T Consensus       157 LAKefV  162 (211)
+T 7EGI_k          157 ISKVFV  162 (211)
+T ss_pred             HHHHHH
+
+
+No 10
+>7ANE_c mL94, mL89, Ribosomal protein L3-like; Ribosome, Mitochondria, Kinetoplastid; HET: NAD; 3.9A {Leishmania major}
+Probab=12.06  E-value=2.2e+02  Score=14.20  Aligned_cols=5  Identities=80%  Similarity=1.351  Sum_probs=0.0  Template_Neff=4.500
+
+Q LAKVYV            1 LAKVY    5 (6)
+Q Consensus         1 lakvy    5 (6)
+                      ||+||
+T Consensus         9 ~~~~~   13 (311)
+T 7ANE_c            9 LARVY   13 (311)
+T ss_pred             HHHHh
+
+

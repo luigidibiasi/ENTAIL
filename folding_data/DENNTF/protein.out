@@ -1,0 +1,147 @@
+Query         DENNTF
+Match_columns 6
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 90378
+Date          Sun Dec 19 17:05:17 2021
+Command       /media/stefano/DISCO1/FOLDEN/hh-suite/build/bin/hhsearch -i /media/stefano/DISCO1/FOLDEN/trRosetta2/example/DENNTF/protein.hhm -d /media/stefano/DISCO1/FOLDEN/trRosettaX/pdb70/pdb70 -o /media/stefano/DISCO1/FOLDEN/trRosetta2/example/DENNTF/protein.out -cpu 32 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3F62_A Interleukin 18 binding   30.0      50 0.00055   14.3   0.0    6    1-6      45-50  (109)
+  2 3DNJ_A ATP-dependent Clp prote  11.4 2.4E+02  0.0027   10.0   0.0    6    1-6      14-19  (85)
+  3 3GQ1_B ATP-dependent Clp prote  11.4 2.4E+02  0.0027   10.0   0.0    6    1-6      14-19  (85)
+  4 6TMF_N 30S ribosomal protein S  11.2 2.5E+02  0.0027   11.5   0.0    4    3-6      20-23  (133)
+  5 6ZU5_SO0 uL2, uL15, uL3, eL29,  11.2 2.5E+02  0.0027   11.4   0.0    4    3-6      22-25  (135)
+  6 7NHK_l ABC-F type ribosomal pr  11.1 2.5E+02  0.0027   11.3   0.0    4    3-6      28-31  (129)
+  7 5J8A_AK 30S ribosomal protein   11.0 2.5E+02  0.0028   11.0   0.0    4    3-6      16-19  (117)
+  8 6VU3_Q 50S ribosomal protein L  11.0 2.5E+02  0.0028   11.0   0.0    4    3-6      16-19  (117)
+  9 7D34_B ATP-dependent Clp prote  10.9 2.5E+02  0.0028   10.0   0.0    6    1-6      12-17  (82)
+ 10 4CVN_F PUTATIVE ADENYLATE KINA  10.9 2.6E+02  0.0028   11.5   0.0    4    3-6      24-27  (137)
+
+No 1
+>3F62_A Interleukin 18 binding protein, ; immunoglobulin, IL-18, beta trefoil, Cytokine; 2.0A {Ectromelia virus}
+Probab=29.98  E-value=50  Score=14.30  Aligned_cols=6  Identities=50%  Similarity=1.005  Sum_probs=2.9  Template_Neff=4.100
+
+Q DENNTF            1 DENNTF    6 (6)
+Q Consensus         1 denntf    6 (6)
+                      |||++|
+T Consensus        45 ~~~gsF   50 (109)
+T 3F62_A           45 DEDTKF   50 (109)
+T ss_dssp             CCCCEE
+T ss_pred             CCCCcc
+Confidence            345554
+
+
+No 2
+>3DNJ_A ATP-dependent Clp protease adapter protein; ADAPTOR, PROTEIN-PEPTIDE COMPLEX, PEPTIDE BINDING; 1.15A {Caulobacter vibrioides}
+Probab=11.35  E-value=2.4e+02  Score=10.03  Aligned_cols=6  Identities=17%  Similarity=0.457  Sum_probs=0.0  Template_Neff=8.300
+
+Q DENNTF            1 DENNTF    6 (6)
+Q Consensus         1 denntf    6 (6)
+                      |+.++|
+T Consensus        14 De~h~~   19 (85)
+T 3DNJ_A           14 DDYTPM   19 (85)
+T ss_dssp             CSSSBH
+T ss_pred             CCCCCH
+
+
+No 3
+>3GQ1_B ATP-dependent Clp protease adapter protein; adaptor, protein-peptide complex, peptide-binding protein; 1.496A {Caulobacter vibrioides}
+Probab=11.35  E-value=2.4e+02  Score=10.03  Aligned_cols=6  Identities=17%  Similarity=0.457  Sum_probs=0.0  Template_Neff=8.300
+
+Q DENNTF            1 DENNTF    6 (6)
+Q Consensus         1 denntf    6 (6)
+                      |+.++|
+T Consensus        14 De~h~~   19 (85)
+T 3GQ1_B           14 DDYTPM   19 (85)
+T ss_dssp             CSSSCH
+T ss_pred             CCCCCH
+
+
+No 4
+>6TMF_N 30S ribosomal protein S2, 30S; ABC Proteins, Ribosome Recycling, Translation; HET: ANP, SF4, MG;{Thermococcus celer Vu 13 = JCM 8558}
+Probab=11.18  E-value=2.5e+02  Score=11.46  Aligned_cols=4  Identities=75%  Similarity=0.924  Sum_probs=0.0  Template_Neff=6.900
+
+Q DENNTF            3 NNTF    6 (6)
+Q Consensus         3 nntf    6 (6)
+                      ||||
+T Consensus        20 NNt~   23 (133)
+T 6TMF_N           20 NNTI   23 (133)
+T ss_dssp             SCEE
+T ss_pred             CCEE
+
+
+No 5
+>6ZU5_SO0 uL2, uL15, uL3, eL29, uL4; Microsporidia, Pathogen, Ribosome, Hibernation, Genome; HET: AMP, MG; 2.9A {Paranosema locustae}
+Probab=11.17  E-value=2.5e+02  Score=11.40  Aligned_cols=4  Identities=75%  Similarity=1.290  Sum_probs=0.0  Template_Neff=7.100
+
+Q DENNTF            3 NNTF    6 (6)
+Q Consensus         3 nntf    6 (6)
+                      ||||
+T Consensus        22 NNt~   25 (135)
+T 6ZU5_SO0         22 NDTF   25 (135)
+T ss_pred             CCEE
+
+
+No 6
+>7NHK_l ABC-F type ribosomal protection protein; Antibiotic resistance element, ribosomal protein; HET: MG, ATP, K, PUT; 2.9A {Enterococcus faecalis}
+Probab=11.09  E-value=2.5e+02  Score=11.26  Aligned_cols=4  Identities=75%  Similarity=0.924  Sum_probs=0.0  Template_Neff=7.200
+
+Q DENNTF            3 NNTF    6 (6)
+Q Consensus         3 nntf    6 (6)
+                      ||||
+T Consensus        28 NNt~   31 (129)
+T 7NHK_l           28 NNTI   31 (129)
+T ss_pred             CCEE
+
+
+No 7
+>5J8A_AK 30S ribosomal protein S2, 30S; ribosome, resistance, negamycin, tigecycline, tetracycline; HET: 6MZ, 4OC, 7MG, H2U, UR3, MA6, MPD, T1C, 5MU, EDO, ACY, GUN, 2MA, OMG, PUT, 4D4, PG4, 5MC, OMC, 1MG, MEQ, MG, SPD, PGE, D2T, 3TD, PEG, PSU, 1PE, OMU, 2MG; 3.1A {Escherichia coli (strain K12)}
+Probab=11.03  E-value=2.5e+02  Score=11.03  Aligned_cols=4  Identities=75%  Similarity=0.924  Sum_probs=0.0  Template_Neff=7.300
+
+Q DENNTF            3 NNTF    6 (6)
+Q Consensus         3 nntf    6 (6)
+                      ||||
+T Consensus        16 NNt~   19 (117)
+T 5J8A_AK          16 NNTI   19 (117)
+T ss_pred             CCEE
+
+
+No 8
+>6VU3_Q 50S ribosomal protein L28, 50S; bacterial coupled transcription-translation complex, RIBOSOME; 3.7A {Escherichia coli}
+Probab=11.03  E-value=2.5e+02  Score=11.03  Aligned_cols=4  Identities=75%  Similarity=0.924  Sum_probs=0.0  Template_Neff=7.300
+
+Q DENNTF            3 NNTF    6 (6)
+Q Consensus         3 nntf    6 (6)
+                      ||||
+T Consensus        16 NNt~   19 (117)
+T 6VU3_Q           16 NNTI   19 (117)
+T ss_pred             CCEE
+
+
+No 9
+>7D34_B ATP-dependent Clp protease adapter protein; Arabidopsis thaliana, ClpS, N-degron pathway; HET: PHE; 2.007A {Arabidopsis thaliana}
+Probab=10.95  E-value=2.5e+02  Score=9.95  Aligned_cols=6  Identities=33%  Similarity=0.180  Sum_probs=0.0  Template_Neff=8.200
+
+Q DENNTF            1 DENNTF    6 (6)
+Q Consensus         1 denntf    6 (6)
+                      |+.++|
+T Consensus        12 De~h~~   17 (82)
+T 7D34_B           12 DNFNKR   17 (82)
+T ss_dssp             CSSSCH
+T ss_pred             CCCCCH
+
+
+No 10
+>4CVN_F PUTATIVE ADENYLATE KINASE (E.C.2.7.4.3), 30S; TRANSFERASE, RIBOSOME BIOGENESIS, RNP ASSEMBLY; HET: ADP; 2.121A {PYROCOCCUS ABYSSI GE5}
+Probab=10.86  E-value=2.6e+02  Score=11.51  Aligned_cols=4  Identities=75%  Similarity=0.924  Sum_probs=0.0  Template_Neff=6.800
+
+Q DENNTF            3 NNTF    6 (6)
+Q Consensus         3 nntf    6 (6)
+                      ||||
+T Consensus        24 NNt~   27 (137)
+T 4CVN_F           24 NNTI   27 (137)
+T ss_dssp             SCEE
+T ss_pred             CCEE
+
+

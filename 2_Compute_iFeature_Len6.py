@@ -2,7 +2,8 @@
 import os
 from src.common import *
 
-TRAINING_SET = "TESTSET_BALANCED_400_input_sequences"
+TRAINING_SET = "TESTSET_PEP424_LEN_6"
+
 
 
 #build iFeature input

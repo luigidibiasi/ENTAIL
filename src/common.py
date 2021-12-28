@@ -5,7 +5,9 @@
 
 WALTZDB_PATH = "./datasets/waltzdb.csv";
 AMYLOAD_PATH = "./datasets/amyload.csv"
-TRAINING_PATH = "./training_sets"
+PEP424_PATH = "./datasets/pep424.csv"
+
+TRAINING_PATH = "./subsets"
 STRUCTURES_PATH ="./pdb"
 SWAP_PATH ="./swap"
 print("ENTAIL: yEt aNoTher Amyloid fIbrilis cLassificator")

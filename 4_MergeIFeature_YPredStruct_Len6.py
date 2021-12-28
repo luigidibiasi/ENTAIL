@@ -3,7 +3,7 @@ import os
 from src.common import *
 SEQ_DATA = {}
 DESCRIPTORS_ORDER = []
-TRAINING_SET = "TESTSET_BALANCED_400_input_sequences"
+TRAINING_SET = "TESTSET_PEP424_LEN_6"
 
 TOTAL_Y = 0
 TOTAL_N = 0
@@ -29,7 +29,7 @@ print("N:" + str(TOTAL_N))
 
 #Write the header of the complete output
 print("Writing Header...")
-with open("./classificator_TESTSET_B400L63D.txt","w") as writer:
+with open("./classificator_TESTSET_PEP424_LEN6.txt","w") as writer:
     writer.write("SEQUENCE\t")
 
     # Merge the headers for the descriptors that allows different length sequenceing

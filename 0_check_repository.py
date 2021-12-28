@@ -13,12 +13,21 @@ if (not os.path.isfile(WALTZDB_PATH)):
     exit()
 else:
     print("\tWALTZDB [OK]")
-#Check Predicted Structures (PDB)
+
+#Check AMYLOAD
 if (not os.path.isfile(AMYLOAD_PATH)):
     print("\tAMYLOAD [Not Found].")
 else:
     print("\tAMYLOAD [OK]")
 
+#Check Pep424
+if (not os.path.isfile(PEP424_PATH)):
+    print("\tPEP424 [Not Found].")
+else:
+    print("\tPEP424 [OK]")
+
+
+#Check Predicted Structures (PDB)
 sequences = {}
 with open(WALTZDB_PATH) as reader:
     # skip header

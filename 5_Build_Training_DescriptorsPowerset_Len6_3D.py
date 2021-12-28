@@ -12,7 +12,7 @@ def powerset(iterable):
     return chain.from_iterable(combinations(s, r) for r in range(len(s)+1))
 
 SEQ_DATA = {}
-DESCRIPTORS_ORDER = []
+
 TRAINING_SET = "BALANCED_632_LEN6_3DSTRUCT"
 
 TOTAL_Y = 0
@@ -43,13 +43,13 @@ for descr in COMBINATIONS:
     if (len(descr)==0):
         continue
 
-    INPUT_NAME = "TRAININGSET_"+str(TOTAL_Y+TOTAL_N)
+    INPUT_NAME = "_"+str(TOTAL_Y+TOTAL_N)
     for d in descr:        
         INPUT_NAME += "_" + d
 
     print("Generating new set...")
     print(INPUT_NAME)
-    
+    DESCRIPTORS_ORDER = []    
 
     #Write the header of the complete output
     print("Writing Header...")

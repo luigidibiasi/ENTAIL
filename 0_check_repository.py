@@ -333,9 +333,8 @@ with open(SWAP_PATH +"/input_iFeatures_TestSet.txt","w") as writer:
             writer.write(">"+str(seq)+"\n")
             writer.write(str(seq)+"\n")
             
-descr = ["QSOrder","SOCNumber","APAAC","PAAC","CKSAAGP","CKSAAP","NMBroto","Geary","Moran","BINARY","EAAC","AAINDEX","ZSCALE","BLOSUM62","EGAAC","AAC","DPC","DDE","TPC","GAAC","GDPC","GTPC","CTDC","CTDT","CTDD","CTriad","KSCTriad"]
+descr = DESCRIPTORS_TOUSE
 for d in descr:
-    break #to remove
     b=0
     if (b<=30):
         print("\tComputing " + d);
@@ -398,7 +397,7 @@ print("\t\tWriting Header...")
 with open("./classificator_inputs/TrainingSet.txt","w") as writer:
     writer.write("SEQUENCE\t")
     # Merge the headers for the descriptors that allows different length sequenceing
-    descr = ["YPredStruct","QSOrder","SOCNumber","APAAC","PAAC","CKSAAGP","CKSAAP","NMBroto","Geary","Moran","BINARY","EAAC","AAINDEX","ZSCALE","BLOSUM62","EGAAC","AAC","DPC","DDE","TPC","GAAC","GDPC","GTPC","CTDC","CTDT","CTDD","CTriad","KSCTriad"]    
+    descr = DESCRIPTORS_TOUSE
     for d in descr:
         print("\t\tPushing descriptor " + str(d))
         #open descriptor data, then append the descriptor columns
@@ -470,7 +469,7 @@ print("\tWriting Header...")
 with open("./classificator_inputs/TestSet.txt","w") as writer:
     writer.write("SEQUENCE\t")
     # Merge the headers for the descriptors that allows different length sequenceing
-    descr = ["YPredStruct","QSOrder","SOCNumber","APAAC","PAAC","CKSAAGP","CKSAAP","NMBroto","Geary","Moran","BINARY","EAAC","AAINDEX","ZSCALE","BLOSUM62","EGAAC","AAC","DPC","DDE","TPC","GAAC","GDPC","GTPC","CTDC","CTDT","CTDD","CTriad","KSCTriad"]    
+    descr = DESCRIPTORS_TOUSE
     for d in descr:
         print("\t\tPushing descriptor " + str(d))
         #open descriptor data, then append the descriptor columns

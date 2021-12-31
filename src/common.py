@@ -6,6 +6,8 @@
 WALTZDB_PATH = "./datasets/waltzdb.csv";
 AMYLOAD_PATH = "./datasets/amyload.csv"
 PEP424_PATH = "./datasets/pep424.csv"
+AMYPRO_PATH = "./datasets/amypro.txt"
+
 STRUCTURES_PATH ="./datasets/pdb"
 SWAP_PATH ="./swap"
 TRAINING_DESCRIPTORS_PATH = "./datasets/descriptors/TrainingSet";

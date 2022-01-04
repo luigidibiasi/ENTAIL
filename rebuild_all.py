@@ -8,6 +8,7 @@ from src.common import *
 print("Checking integrity...")
 
 
+
 #Check AMYLOAD
 if (not os.path.isfile(WALTZDB_PATH)):
     print("\tWALTZDB [Not Found].")
@@ -37,6 +38,7 @@ else:
 
 #Check Predicted Structures (PDB)
 sequences = {}
+sequences_data = {}
 COLLISIONS = 0
 TOTAL_Y=0
 TOTAL_N =0
@@ -64,6 +66,10 @@ with open(WALTZDB_PATH) as reader:
                 exit()
         if (not SEQ_KEY in sequences):
             sequences[SEQ_KEY] = IS_AMIL
+            sequences_data[SEQ_KEY] = {}
+            sequences_data[SEQ_KEY]['IsAmil'] = IS_AMIL
+            sequences_data[SEQ_KEY]['source'] = []
+            sequences_data[SEQ_KEY]['source'].append('waltz-db')
         else:
             COLLISIONS+=1
 
@@ -90,7 +96,12 @@ with open(AMYLOAD_PATH) as reader:
                 exit()        
         if (not SEQ_KEY in sequences):
             sequences[SEQ_KEY] = dLine[4]
+            sequences_data[SEQ_KEY] = {}
+            sequences_data[SEQ_KEY]['IsAmil'] = IS_AMIL
+            sequences_data[SEQ_KEY]['source'] = []
+            sequences_data[SEQ_KEY]['source'].append('amyload-db')
         else:
+            sequences_data[SEQ_KEY]['source'].append('amyload-db')
             COLLISIONS+=1            
 
 with open(PEP424_PATH) as reader:
@@ -116,8 +127,13 @@ with open(PEP424_PATH) as reader:
                 exit()             
         if (not SEQ_KEY in sequences):
             sequences[SEQ_KEY] = IS_AMIL
+            sequences_data[SEQ_KEY] = {}
+            sequences_data[SEQ_KEY]['IsAmil'] = IS_AMIL
+            sequences_data[SEQ_KEY]['source'] = []
+            sequences_data[SEQ_KEY]['source'].append('amyload-db')
         else:
             COLLISIONS+=1
+            sequences_data[SEQ_KEY]['source'].append('pep424-db')
 print("COLLISION DETECTED: " + str(COLLISIONS))
 
 #parse AMYPRO database
@@ -143,7 +159,12 @@ with open(AMYPRO_PATH) as reader:
                 AMYPRO_LEN_6+=1
             if (not SEQ_KEY in sequences):
                 sequences[SEQ_KEY] = "Yes"
+                sequences_data[SEQ_KEY] = {}
+                sequences_data[SEQ_KEY]['IsAmil'] = "Yes"
+                sequences_data[SEQ_KEY]['source'] = []
+                sequences_data[SEQ_KEY]['source'].append('amypro-db')
             else:
+                sequences_data[SEQ_KEY]['source'].append('amypro-db')
                 print(SEQ_KEY)
                 COLLISIONS+=1     
 print("AMYPRO amyloid detected: " + str(AMYPRO_SIZE))
@@ -386,6 +407,7 @@ with open(SWAP_PATH +"/input_iFeatures_TestSet.txt","w") as writer:
 
 descr = DESCRIPTORS_TOUSE
 for d in descr:
+    break;
     b=0
     if (b<=30):
         print("\tComputing " + d);
@@ -459,8 +481,9 @@ with open("./classificator_inputs/TrainingSet.txt","w") as writer:
             hData= hData[1:]
             #append the descriptors
             for h in hData:
-                writer.write(str(h)+"\t")
-                DESCRIPTORS_ORDER.append(str(h))
+                if (not str(h) in DESCRIPTORS_ORDER):
+                    writer.write(str(h)+"\t")
+                    DESCRIPTORS_ORDER.append(str(h))
 
             #now read the file content and fill the SEQ_DATA dictionary
             for seq_data in reader:                
@@ -481,7 +504,7 @@ with open("./classificator_inputs/TrainingSet.txt","w") as writer:
                 for i in range(0,len(hData)):
                     SEQ_DATA[SEQ][hData[i]]=sData[i]                           
             #go to the next descriptors file
-    writer.write("TARGET\n")
+    writer.write("TARGET\tSOURCE\n")
     #write the output
     for SEQ in SEQ_DATA:
         writer.write(str(SEQ)+"\t")
@@ -489,6 +512,9 @@ with open("./classificator_inputs/TrainingSet.txt","w") as writer:
             writer.write(SEQ_DATA[SEQ][d])
             writer.write("\t")
         writer.write(SEQ_DATA[SEQ]["TARGET"])
+        writer.write("\t")
+        for s in sequences_data[SEQ]["source"]:
+            writer.write(s+"|")
         writer.write("\n")
 
 
@@ -531,8 +557,9 @@ with open("./classificator_inputs/TestSet.txt","w") as writer:
             hData= hData[1:]
             #append the descriptors
             for h in hData:
-                writer.write(str(h)+"\t")
-                DESCRIPTORS_ORDER.append(str(h))
+                if (not str(h) in DESCRIPTORS_ORDER):
+                    writer.write(str(h)+"\t")
+                    DESCRIPTORS_ORDER.append(str(h))
 
             #now read the file content and fill the SEQ_DATA dictionary
             for seq_data in reader:                
@@ -553,7 +580,7 @@ with open("./classificator_inputs/TestSet.txt","w") as writer:
                 for i in range(0,len(hData)):
                     SEQ_DATA[SEQ][hData[i]]=sData[i]                           
             #go to the next descriptors file
-    writer.write("TARGET\n")
+    writer.write("TARGET\tSOURCE\n")
     #write the output
     for SEQ in SEQ_DATA:
         writer.write(str(SEQ)+"\t")
@@ -561,7 +588,59 @@ with open("./classificator_inputs/TestSet.txt","w") as writer:
             writer.write(SEQ_DATA[SEQ][d])
             writer.write("\t")
         writer.write(SEQ_DATA[SEQ]["TARGET"])
+        writer.write("\t")
+        for s in sequences_data[SEQ]["source"]:
+            writer.write(s+"|")
         writer.write("\n")
+
+#Generate output for YAMIRA website (csv)
+with open("./classificator_inputs/TrainingSet.txt") as reader:
+    HEAD = reader.readline()
+    with open("./classificator_inputs/CompleteSet.txt","w") as writer:
+        writer.write(HEAD)
+        for l in reader:
+            writer.write(l)
+        writer.close()
+    reader.close()
+with open("./classificator_inputs/TestSet.txt") as reader:
+    reader.readline() # skip header
+    with open("./classificator_inputs/CompleteSet.txt","a") as writer:        
+        for l in reader:
+            writer.write(l)
+        writer.close()
+    reader.close()
+
+    
+#MOVE THIS at the end of the script
+#Generate output for YAMIRA website (csv)
+with open("./classificator_inputs/TrainingSet.txt") as reader:
+    reader.readline()
+    with open("./classificator_inputs/OnlySequences.txt","w") as writer:
+        writer.write("SEQUENCE\tSOURCES\n")
+        for l in reader:            
+            lData = l.split("\t")
+            is_amil = lData[4046];
+            if(is_amil=="No"):
+                continue;
+            writer.write(lData[0])
+            writer.write("\t")
+            for s in sequences_data[l.split("\t")[0]]['source']:
+                writer.write(s+"|")
+            writer.write("\n")
+        writer.close()
+    reader.close()
+with open("./classificator_inputs/TestSet.txt") as reader:
+    reader.readline() # skipheader
+    with open("./classificator_inputs/OnlySequences.txt","a") as writer:        
+        for l in reader:
+            writer.write(l.split("\t")[0])
+            writer.write("\t")
+            for s in sequences_data[l.split("\t")[0]]['source']:
+                writer.write(s+"|")
+            writer.write("\n")
+        writer.close()
+    reader.close()
+
 
 
 print("\n\nAll Done!")

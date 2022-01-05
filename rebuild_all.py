@@ -406,8 +406,7 @@ with open(SWAP_PATH +"/input_iFeatures_TestSet.txt","w") as writer:
 
 
 descr = DESCRIPTORS_TOUSE
-for d in descr:
-    break;
+for d in descr:    
     b=0
     if (b<=30):
         print("\tComputing " + d);

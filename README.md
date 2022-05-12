@@ -12,4 +12,4 @@ Please note that the sequence STVIIR have no predicted structure then it was rem
 
 
 TODO:
-Build a docking based classificator
+Build a docking based classifier

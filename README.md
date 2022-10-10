@@ -19,7 +19,7 @@ Build a docking based classifier
 # Step Aggregation of datasets 
 If needed, it is possible to perform the merging step avoiding the redundant removal step by using the script rebuild all.py provided on the project GitHub repository, , adding an exit() instruction at line 173 and dumping the content of the sequences data variable into a file.
 
-It is possible to perform prediction on the sequences of length six, using EN- TAIL 3b models using the script predict.py provided on the GitHub repository project. However, a tiny path change may be needed on some systems, particularly on the python executable base path. Therefore, the script will answer YES for sequence detected as amyloid and NO otherwise. 
+It is possible to perform prediction on the sequences of length six, using ENTAIL 3b models using the script predict.py provided on the GitHub repository project. However, a tiny path change may be needed on some systems, particularly on the python executable base path. Therefore, the script will answer YES for sequence detected as amyloid and NO otherwise. 
 
 # Step Extraction of descriptors
 In addition, it is possible to perform the extraction of descriptors by using the script rebuild all.py

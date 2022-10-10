@@ -15,3 +15,12 @@ Please note that the sequence STVIIR have no predicted structure then it was rem
 
 TODO:
 Build a docking based classifier
+
+# Step Aggregation of datasets 
+If needed, it is possible to perform the merging step avoiding the redundant removal step by using the script rebuild all.py provided on the project GitHub repository, , adding an exit() instruction at line 173 and dumping the content of the sequences data variable into a file.
+
+# Step Extraction of descriptors
+In addition, it is possible to perform the extraction of descriptors by using the script rebuild all.py
+
+# Step Datasets
+The training set and the test set were stored in TSV format. Therefore, the “readtable” function must be used with the following parameters to load the training and test data correctly: ReadRowNames set to False and ReadVariableNames set to True. Before training, we excluded the “SEQUENCE” and “SOURCE” columns from the list of predictors, and we selected the “TARGET” column as the learning target.

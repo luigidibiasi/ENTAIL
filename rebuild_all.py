@@ -141,9 +141,10 @@ AMYPRO_SIZE = 0
 AMYPRO_LEN_6 = 0
 with open(AMYPRO_PATH) as reader:    
     for line in reader:        
+        break
         line = line.replace("\n","").replace("\r","")
         dLine = line.split("\t")        
-        CATEGORY = dLine[7]
+        CATEGORY = "Z"
         SEQ_KEY = dLine[11]
         if (not "amyloid" in CATEGORY):
             continue        

@@ -7,6 +7,10 @@ WALTZDB_PATH = "./datasets/waltzdb.csv";
 AMYLOAD_PATH = "./datasets/amyload.csv"
 PEP424_PATH = "./datasets/pep424.csv"
 AMYPRO_PATH = "./datasets/amypro.txt"
+SNARE_PATH = "./datasets/D128_snare.fasta.txt"
+NONSNARE_PATH = "./datasets/D128_nonsnare.fasta.txt"
+
+
 
 STRUCTURES_PATH ="./datasets/pdb"
 SWAP_PATH ="./swap"
@@ -32,4 +36,9 @@ DESCRIPTORS_TOUSE = ["QSOrder","SOCNumber","APAAC","PAAC","NMBroto","Geary","Mor
 TRAININGSET_SIZE = 700
 TESTSET_SIZE = 66
 
-print("ENTAIL: yEt aNoTher Amyloid fIbrilis cLassificator")
+print("SNARER2: xxxxxx")
+
+# Please cite 
+# Auriemma Citarella, A., Di Biasi, L., Risi, M. et al. SNARER: new molecular descriptors for SNARE proteins classification. BMC Bioinformatics 23, 148 (2022). https://doi.org/10.1186/s12859-022-04677-z
+#
+#
